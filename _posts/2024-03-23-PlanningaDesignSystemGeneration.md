@@ -3,17 +3,13 @@ title: "2024년 대기업에서 디자인 시스템 설계 하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Planning a Design System Generation"
 link: "https://medium.com/@nathanacurtis/planning-a-design-system-generation-ce4120393557"
 isUpdated: true
 ---
-
-
-
-
 
 ## 라이브러리 전반에 걸쳐 전환하는 방법
 
@@ -24,7 +20,18 @@ isUpdated: true
 
 디자인 시스템 리더들과 매니저들, 걱정하지 마세요. 잘 계획된 계획은 각 단계별로 작업을 안내하고 점진적으로 전달하며 중요한 중간 단계에서 명확하게 소통할 수 있도록 도와줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 게시물은 중요하고 혁명적인 변화를 통해 디자인 시스템 라이브러리를 관리하는 고수준 접근 방식을 설명합니다. 데모와 계획을 통해 조직이 전략에 헌신할 수 있도록 하면, 구현 작업은 라이브러리를 전달하기 위해 단계별로 진행될 수 있습니다. 그 과정에서 작업을 할당하고 그룹화하며 순서를 정하는 전술을 적용할 수 있습니다. 완료되면, 이전 세대를 폐기하고 종료 활동을 수행하면서 라이브러리를 론칭할 수 있습니다.
 
@@ -34,7 +41,18 @@ isUpdated: true
 
 ## 일반적인 활동
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 요구 사항 수집, 이해 관계자 면담, 기존 시스템 및 백로그 감사를 통해 필요를 발견합니다.
 - 비쥬얼 언어 발전 또는 기술 스파이크를 통한 증명 개발을 통해 잠재적인 미래를 탐색합니다.
@@ -47,7 +65,18 @@ isUpdated: true
 
 전략 단계의 탐색은 구현으로 이어질 수 있습니다. 전자가 끝나기 전에 후자가 시작된다면 괜찮습니다. 기획자의 초점은 확신 있는 약속과 명확한 전진 경로에 있어야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 실행 단계
 
@@ -58,7 +87,18 @@ isUpdated: true
 - 알파(s), 여기서 약간의 기능(색상, 타이포그래피, 아이콘, 버튼 등)이 충분히 발전하여 기능이 어떻게 구축될지를 보여줍니다.
 - 베타(s), 충분한 품질과 안정성으로 충분한 기능이 구축되어 관심 있는 사용자들이 사용할 수 있는 안정적인 생산을 허용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 일반 활동
 
@@ -73,7 +113,18 @@ isUpdated: true
 
 라이브러리가 베타 상태로 전환되는 시점은 충분한 구성 요소가 충분한 생산 수준 품질로 제공되어 초기 채택자들이 확신을 가지고 사용할 수 있는 때입니다. 전반적인 구현이 완료되는 시점은 라이브러리가 베타 상태를 빠져나와 범용으로 사용 가능하게 출시되는 때입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 실행 전술
 
@@ -83,7 +134,18 @@ isUpdated: true
 
 최근 몇 년간 제가 이끈 가장 간단한 "재설계" 구현은 출시 전 알파 버전을 거친 뒤 출시 전에 대략 월 단위로 세 번의 베타 버전이 출시되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자주, "리디자인" 주기는 9~12개월이 소요되며, 작업물을 점진적으로 전달하기 위한 더 많은 알파 및 베타 순간이 있습니다.
 
@@ -93,7 +155,18 @@ isUpdated: true
 
 라이브러리의 완전한 생성은 10개에서 15개부터 100개 이상의 컴포넌트를 포함할 수 있습니다. 작업의 순서를 결정하는 방법은 어떤가요? 분명히, A부터 시작해서 Z로 끝내지는 않겠죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일반적으로 컴포넌트 라이브러리는 작은 것부터 큰 것까지 만들거나 다시 만듭니다. 더 큰 것을 완성하기 어려울 때, 그것이 의존하는 더 작은 것들이 완전하지 않은 경우가 많습니다. 그러므로 라이브러리 의존성 트리를 직접 맵핑하는 것은 작업을 어떻게 순서대로 처리할지에 대한 정보를 제공합니다.
 
@@ -103,7 +176,18 @@ Breadcrumb 및 Tabs와 같은 간단한 구성 요소에는 의존성이 없습�
 
 ## 의존성 및 공유 속성에 기반하여 그룹화하고 할당하세요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나무 다이어그램에 속지 마세요. 의존성을 존중하면서 효과적으로 우선순위를 정하고 그룹화하세요. 예를 들어, 버튼은 초기에 필요하며, 텍스트 입력 문제를 해결하면 다른 양식 구성 요소를 마무리할 수 있고, 경로 탐색은 레이아웃에서 고립되어 우선순위가 낮습니다. 해당 배치에 주의하세요.
 
@@ -113,7 +197,18 @@ Breadcrumb 및 Tabs와 같은 간단한 구성 요소에는 의존성이 없습�
 
 디자이너 2는 아이콘과 버튼에 중점을 두며 리스팅된 목록 및 경로 탐색과 같은 "쉬운" 구성 요소를 중간에 추가하고 나중에 방대한 목록 그룹이 될 수 있는 내용을 전달할 책임이 있습니다. 담당자 간의 의존성 커넥터의 수가 제한되어 있어, 한 명이 다른 한 명을 차단할 위험을 최소화하는 점에 유의해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기능 할당이 이제는 노력에 따라 대략적으로 공평하게 분배되며, 팀원 사이에 일을 명확히 분배하며 의존관계의 흐름을 존중합니다. 둘 다 기대대로 제공된다면 😉.
 
@@ -123,7 +218,18 @@ Breadcrumb 및 Tabs와 같은 간단한 구성 요소에는 의존성이 없습�
 
 이는 주기의 알파, 베타 및 GA 순간을 구성하는 데 도움이 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기능 품질은 처음에 높게 시작해서 계속해서 높은 수준을 유지합니다. 시스템 개발자들은 구조적인 정밀성, 사용성, 접근성, 성능 및 라이브러리 일관성을 타협할 수 없는 것으로 간주하는 경향이 있어요. 그 점이 정말 좋아요. 그럼에도 불구하고 결함은 발생합니다. 놓친 세부사항을 수정해야 할 때도 있어요. 완벽주의는 진전의 적이 될 수 있어요. 알파에 대해서는 품질의 타협이 중요하지 않지만, 이는 제품 작업을 제공하는 채택자들에게 영향을 줄 거에요. 그러니 품질이 초기에 완벽할 필요는 없다고 예상하고 괜찮아요. 대신, 중요한 전환점에 초점을 맞춥시다: 베타. 라이브러리가 베타로 사용할 수 있다는 기대를 설정하면 조기 채택자들은 제품 작업에 충분한 품질을 신뢰할 수 있어야 해요.
 
@@ -135,7 +241,18 @@ Breadcrumb 및 Tabs와 같은 간단한 구성 요소에는 의존성이 없습�
 
 각 기능의 시각적 및 API 안정성은 구현 과정에서 증가합니다. 그럼에도 뒤바뀌는 일이 발생합니다. 더 많은 기능을 만들면서 학습한 내용에 기반해 이미 완료된 것으로 여겨진 것들을 다시 검토하게 될 것입니다. 안정적인 API에 대한 약속은 발매 시에만 확고하면 충분해요. 컴포넌트의 이름과 같은 일부 선택은 도입될 때부터 안정적이어야 할 수도 있어요. 반면에 속성 API, 레이아웃, 시각적 디테일링은 변화할 여지를 줘야 합니다. 개발주기 동안에 시스템 팀은 패턴을 비교, 평가하고 특징들을 통일시키기 위한 공간이 필요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각 조직은 각 단계에서 시스템이 얼마나 완전하고 안정적이며 훌륭한지에 대한 정의를 직접 결정할 것입니다. 그러나 마지막에 완료될 때, 채택자들은 완성도 높고 안정적이며 훌륭한 세대를 필요로 할 것입니다.
 
@@ -145,7 +262,18 @@ Breadcrumb 및 Tabs와 같은 간단한 구성 요소에는 의존성이 없습�
 
 안타깝게도, 이 행렬을 Jira나 Asana와 같은 작업 관리 도구에서 자동으로 생성하기는 어렵습니다 (리리스 보드의 사용자 정의 필드를 열로 생성하는 것이 큰 도움이 될 수 있습니다). 그렇지 않으면 Figma, Confluence 또는 프레젠테이션 슬라이드에서 유지되는 표를 수동으로 업데이트해야할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 출시 및 일반 사용 가능성 ("GA")
 
@@ -160,7 +288,18 @@ Breadcrumb 및 Tabs와 같은 간단한 구성 요소에는 의존성이 없습�
 - 일시적으로 시스템 팀 역량을 이동하여 "다음 구성 요소 제공" 대신 더 많은 지원 및 컨설팅을 선호
 - 한숨 돌리고 신경을 가라앉히며 다음 일정을 세우며 팀이 휴식할 수 있도록 하는 것.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 완료 조건 정의
 
@@ -170,6 +309,17 @@ Breadcrumb 및 Tabs와 같은 간단한 구성 요소에는 의존성이 없습�
 
 세대 간 전환 기간은 디자인 시스템 생애에서 가장 크고 중요한 순간입니다. 전략, 구현 및 궁극적으로 종료 단계를 걸쳐 진행 방식을 계획하고 전달함으로써, 기대치를 설정하고 협력 파트너가 그에 맞게 계획할 수 있도록 지원합니다. 다음 큰 순간을 준비하는 동안 팀과 함께 좋은 결과를 이루길 바랍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음: #3. 세대 명칭하기

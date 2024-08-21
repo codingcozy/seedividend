@@ -3,17 +3,13 @@ title: "Nextjs 13 getInitialProps 사용 방법 정리"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "getInitialProps"
 link: "undefined"
 isUpdated: true
 ---
-
-
-
-
 
 # getInitialProps
 
@@ -35,7 +31,18 @@ export default function Page({ stars }: { stars: number }) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 > 좋아 알아둬야 할 사항:
 > getInitialProps에서 반환된 데이터는 서버 렌더링 시 직렬화됩니다. getInitialProps에서 반환된 객체가 순수한 객체이고 Date, Map 또는 Set을 사용하지 않도록 주의하세요.
@@ -54,7 +61,18 @@ getInitialProps는 context라는 하나의 인수를 받으며 해당 객체는 
 - res: HTTP 응답 객체(서버 전용)[HTTP 응답 객체](https://nodejs.org/api/http.html#http_class_http_serverresponse)
 - err: 렌더링 중에 오류가 발생한 경우 오류 객체
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 주의 사항
 
@@ -62,4 +80,15 @@ getInitialProps는 context라는 하나의 인수를 받으며 해당 객체는 
 - 라우트가 정적인지 동적인지에 관계없이 getInitialProps에서 반환된 데이터는 클라이언트 측에서 초기 HTML에서 검사할 수 있습니다. 이는 페이지가 올바르게 적용되도록 하는 것입니다. props에 클라이언트에서
   사용할 수 없어야 하는 민감한 정보를 전달하지 않도록 주의하십시오.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

@@ -3,17 +3,13 @@ title: "Nextjs14 정적public 파일 적용 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # Nextjs14 정적(public) 파일 적용 방법
 
@@ -32,7 +28,18 @@ export function AvatarOfMe() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 캐싱
 
@@ -44,7 +51,18 @@ Cache-Control: public, max-age=0
 
 ## 로봇, 파비콘, 기타 파일들
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 정적 메타데이터 파일(예: robots.txt, favicon.ico 등)의 경우, 앱 폴더 내에 특별한 메타데이터 파일을 사용해야 합니다.
 
@@ -52,4 +70,15 @@ Cache-Control: public, max-age=0
 > 디렉토리 이름은 public이어야 합니다. 이름을 바꿀 수 없으며 이 디렉토리만 정적 자산을 서빙하는 데 사용됩니다.
 > Next.js는 빌드 시에 public 디렉토리에 있는 자산만 제공합니다. 요청 시에 추가된 파일은 사용할 수 없습니다. 지속적인 파일 저장을 위해 Vercel Blob과 같은 타사 서비스를 사용하는 것을 권장합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

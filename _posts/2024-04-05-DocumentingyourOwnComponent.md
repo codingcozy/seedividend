@@ -3,17 +3,13 @@ title: "자체 컴포넌트 문서화하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Documenting your Own Component"
 link: "https://medium.com/@beecodeguy/documenting-function-component-4c6088dba7d9"
 isUpdated: true
 ---
-
-
-
-
 
 자신만의 구성 요소에 대한 문서 작성은 프로젝트 내에서 명확성과 이해를 보장하는 데 필수적입니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 게다가, 향후 업데이트나 지원을 받지 못할 것으로 신호를 주는 사용 중지된 기능에 대한 경고를 만날 수도 있습니다. 그렇다면, 자신만의 함수나 패키지에 대한 이러한 유익한 문서를 어떻게 작성할 수 있을까요? 그것이 JSDoc이 등장하여 도움이 되는 부분입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![DocumentingyourOwnComponent_1](/assets/img/DocumentingyourOwnComponent_1.png)
 
@@ -35,7 +42,18 @@ isUpdated: true
 
 이제 특정 예시에 초점을 맞춰보겠습니다: Button 컴포넌트. 사용된 JSDoc 주석과 생성된 문서의 세부 사항을 살펴봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 버튼 컴포넌트
 
@@ -73,7 +91,18 @@ export default Button;
 - @returns: 함수의 출력을 설명하는데, 이 경우 렌더된 JSX 엘리먼트가 됩니다.
 - @example: 코드에서 Button 컴포넌트를 구현하는 방법을 보여주는 사용 예시를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 JSDoc을 도입하여 코드 구조를 강화하고 코드베이스를 더 효율적으로 관리하세요. JSDoc을 사용하면 프로젝트를 유지하고 협업하는 것이 더 쉬워집니다. 동시에 명확하고 간결한 문서화를 보장할 수 있습니다.
 

@@ -3,17 +3,13 @@ title: "Nextjs 14 로딩 화면을 위한 loadingjs 사용 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # Nextjs 14 로딩 화면을 위한 loading.js 사용 방법
 
@@ -28,7 +24,18 @@ export default function Loading() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로딩 UI 컴포넌트는 어떤 매개변수도 받지 않습니다.
 
@@ -41,4 +48,15 @@ export default function Loading() {
 | --------- | --------------------------- |
 | `v13.0.0` | `loading`이 도입되었습니다. |
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

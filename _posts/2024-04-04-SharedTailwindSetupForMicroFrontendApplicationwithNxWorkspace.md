@@ -3,17 +3,13 @@ title: "Nx 워크스페이스로 구현한 마이크로 프론트엔드 애플�
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Shared Tailwind Setup For Micro Frontend Application with Nx Workspace"
 link: "https://javascript.plainenglish.io/shared-tailwind-setup-for-micro-frontend-application-with-nx-workspace-0c02a3ca097d"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/SharedTailwindSetupForMicroFrontendApplicationwithNxWorkspace_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 마이크로 프론트엔드 아키텍처의 최종 구현은 다음 리포지토리 커밋에서 확인할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - info와 container 애플리케이션에 Tailwind CSS 구성 추가
 
@@ -34,7 +41,18 @@ isUpdated: true
 - ESLint, Prettier, Husky 구성과 함께 Nx Workspace를 만들기 위한 기본 레포지토리.
 - Nx Workspace를 사용하여 Micro Frontend 아키텍처 구축.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시작하기 전에이 자습서에서 사용할 도구 및 기술을 살펴 보겠습니다:
 
@@ -60,7 +78,18 @@ isUpdated: true
 - 결론
 - 참고문헌
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 컨테이너 애플리케이션을 위해 Tailwind CSS 구성하기
 
@@ -72,7 +101,18 @@ pnpm add -D @tailwindcss/forms tailwindcss
 
 컨테이너 애플리케이션을 위해 Tailwind CSS를 구성하려면 다음 단계를 따라야 합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 다음 명령을 실행하여 컨테이너 애플리케이션에 Tailwind CSS 플러그인을 추가하세요:
 
@@ -84,7 +124,18 @@ pnpm exec nx generate @nx/react:setup-tailwind --project=container --no-interact
 
 위 명령을 실행하거나 Nx 콘솔을 사용한 후에는 Nx가 컨테이너 애플리케이션을 위해 Tailwind CSS 플러그인을 자동으로 구성할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 프로젝트의 루트 디렉토리에 기본 Tailwind 구성 파일을 생성하세요.
 
@@ -133,10 +184,7 @@ const baseConfig = require("../../tailwind.base.config");
 module.exports = {
   content: [
     ...(baseConfig?.content || []),
-    join(
-      __dirname,
-      "{src,pages,components,app}/**/*!(*.stories|*.spec).{ts,tsx,html}"
-    ),
+    join(__dirname, "{src,pages,components,app}/**/*!(*.stories|*.spec).{ts,tsx,html}"),
     ...createGlobPatternsForDependencies(__dirname),
     // INFO : Add the following line to include the tailwind styles from the info application
     ...createGlobPatternsForDependencies(join(__dirname, "apps/info")),
@@ -145,7 +193,18 @@ module.exports = {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 정보 애플리케이션을 위한 Tailwind CSS 구성하기
 
@@ -157,7 +216,18 @@ Tailwind CSS를 정보 애플리케이션에 구성하기 위해서는 다음 �
 pnpm exec nx generate @nx/react:setup-tailwind --project=info --no-interactive --dry-run
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Nx가 info 애플리케이션을위한 Tailwind CSS 플러그인을 자동으로 구성할 수 있습니다.](/assets/img/SharedTailwindSetupForMicroFrontendApplicationwithNxWorkspace_2.png)
 
@@ -176,17 +246,25 @@ const baseConfig = require("../../tailwind.base.config");
 module.exports = {
   content: [
     ...(baseConfig?.content || []),
-    join(
-      __dirname,
-      "{src,pages,components,app}/**/*!(*.stories|*.spec).{ts,tsx,html}"
-    ),
+    join(__dirname, "{src,pages,components,app}/**/*!(*.stories|*.spec).{ts,tsx,html}"),
     ...createGlobPatternsForDependencies(__dirname),
   ],
   ...baseConfig,
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 테일윈드 CSS 전체 애플리케이션 프로덕션 및 개발 모드에 대한 테스트
 
@@ -202,9 +280,7 @@ export function App() {
       <h1>Welcome to info!</h1>
       <p>This is a remote app that is part of the Nx plugin for Webpack 5.</p>
       <section className="bg-gray-50 shadow-sm p-4 rounded-lg">
-        <h2 className="text-4xl font-bold text-center border-b-4 border-b-primary py-[41px]">
-          Info
-        </h2>
+        <h2 className="text-4xl font-bold text-center border-b-4 border-b-primary py-[41px]">Info</h2>
         <p className="text-lg text-center my-[41px]">
           This app is a remote app that is part of the Nx plugin for Webpack 5.
         </p>
@@ -216,7 +292,18 @@ export function App() {
 export default App;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 다음 단계에서는 Info 애플리케이션에서 사용자 정의 애니메이션 테일윈드 스타일을 테스트할 수 있습니다.
 
@@ -266,7 +353,18 @@ module.exports = {
 
 - 이 애니메이션 스타일을 Info 애플리케이션에서 사용하세요. 이렇게 함으로써 Info 제목에 `wiggle` 애니메이션을 추가하고 `tailwind.base.config.js` 파일에서 프라이머리 색상을 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // apps/info/src/app/app.tsx
@@ -301,15 +399,9 @@ export default function HomePage() {
   return (
     <div className="h-[90vh] flex flex-col justify-center items-center bg-gray-100 gap-y-4 w-full">
       <p className="text-[200px] animate-wiggle">🌍</p>
-      <h1 className="text-primary text-4xl font-bold">
-        Welcome to the Container!
-      </h1>
-      <p className="text-lg text-primary-400">
-        This is the container app that consumes the remote app info.
-      </p>
-      <p className="text-lg text-gray-400">
-        It was created with the Nx plugin for Webpack 5.
-      </p>
+      <h1 className="text-primary text-4xl font-bold">Welcome to the Container!</h1>
+      <p className="text-lg text-primary-400">This is the container app that consumes the remote app info.</p>
+      <p className="text-lg text-gray-400">It was created with the Nx plugin for Webpack 5.</p>
       <SocialLinks />
     </div>
   );
@@ -347,7 +439,18 @@ export default function SocialLinks() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 마지막 단계에서는 컨테이너 및 정보 애플리케이션의 동적 스타일과 애니메이션을 빌드에서 확인할 수 있습니다.
 
@@ -361,7 +464,18 @@ rm -rf dist
 pnpm run serve:info
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // apps/container/webpack.config.prod.ts
@@ -392,11 +506,7 @@ const prodConfig: ModuleFederationConfig = {
   remotes: [["info", "http://localhost:3001/"]], // INFO : 프로덕션을 위해 URL 변경 old: remotes: [['info', 'https://relaxed-mochi-7581fa.netlify.app/']],
 };
 // Nx 옵션 및 컨텍스트에서 config 개체를 빌드하기 위한 webpack용 Nx 플러그인.
-export default composePlugins(
-  withNx(),
-  withReact(),
-  withModuleFederation(prodConfig)
-);
+export default composePlugins(withNx(), withReact(), withModuleFederation(prodConfig));
 ```
 
 ```js
@@ -407,8 +517,18 @@ pnpm run serve:container
 
 <img src="/assets/img/SharedTailwindSetupForMicroFrontendApplicationwithNxWorkspace_3.png" />
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

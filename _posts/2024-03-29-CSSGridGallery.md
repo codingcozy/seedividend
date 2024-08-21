@@ -3,17 +3,13 @@ title: "CSS 그리드 갤러리 만드는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "CSS Grid Gallery"
 link: "https://medium.com/@ehtmlu/css-image-grid-gallery-4ec8824560a1"
 isUpdated: true
 ---
-
-
-
-
 
 간단한 CSS만으로 정렬된 이미지 그리드
 
@@ -23,7 +19,18 @@ HTML과 CSS만으로 반응형이며 정렬된 이미지 그리드 갤러리를 
 
 # HTML
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저 HTML이 필요합니다. 이를 위해 `section` 태그를 사용하며 클래스는 justified-grid-gallery를 지정합니다. 이 섹션 요소 안에 이미지를 배치합니다. 다음 예제 코드에서는 7개의 이미지가 있습니다.
 
@@ -58,7 +65,18 @@ HTML과 CSS만으로 반응형이며 정렬된 이미지 그리드 갤러리를 
 
 따라서 이 스타일 속성에서 사용자 정의 속성 --width와 --height를 정의합니다. 사용자 정의 속성의 값은 단위 없이 숫자만 사용하므로 예를 들어 640px가 아닌 640을 사용합니다. 너비와 높이의 값은 이미지의 원래 너비와 높이에 해당합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # CSS
 
@@ -109,7 +127,18 @@ CSS 부분은 꽤 간단합니다. 아래 CSS 코드 조각을 복사하여 자�
 
 이제 현재 상태에서 어떻게 보이는지 살펴보겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 보시는대로, 마지막 행의 나머지 부분은 녹색 영역으로 채워져 있습니다. 기술적인 이유로 항상 이 "빈" 영역이 마지막 행에 존재합니다.
 
@@ -119,7 +148,18 @@ CSS 부분은 꽤 간단합니다. 아래 CSS 코드 조각을 복사하여 자�
 
 CSS 부분에 설정이 몇 가지 있음을 보았을 것입니다. 함께 살펴보도록 합시다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /* 설정 시작 */
@@ -140,7 +180,18 @@ CSS 부분에 설정이 몇 가지 있음을 보았을 것입니다. 함께 살�
 ...
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 최소 높이
 
@@ -153,7 +204,18 @@ CSS 부분에 설정이 몇 가지 있음을 보았을 것입니다. 함께 살�
 
 ## 마지막 행 배경
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 --last-row-background는 마지막 행의 빈 공간의 배경을 정의합니다. 이는 CSS 색상 또는 다른 CSS 배경일 수 있습니다.
 

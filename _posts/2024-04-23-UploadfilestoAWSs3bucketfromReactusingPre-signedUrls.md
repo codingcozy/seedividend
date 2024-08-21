@@ -3,17 +3,13 @@ title: "AWS S3 버킷에 Pre-signed URL을 활용하여 React에서 파일을 �
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Upload files to AWS s3 bucket from React using Pre-signed Urls"
 link: "https://medium.com/@brianhulela/upload-files-to-aws-s3-bucket-from-react-using-pre-signed-urls-543cca728ab8"
 isUpdated: true
 ---
-
-
-
-
 
 ![image](/assets/img/UploadfilestoAWSs3bucketfromReactusingPre-signedUrls_0.png)
 
@@ -23,7 +19,18 @@ AWS S3 버킷으로 파일을 업로드할 때는 항상 보안을 고려해야 
 
 React 애플리케이션에서 AWS S3 버킷으로 파일을 업로드하기 위해 사전 서명된 URL을 사용하는 것은 보안, 확장성 및 성능을 향상시킵니다. 서버 부하와 비용을 줄이는 제한된 액세스 권한 및 특정 만료 시간으로 직접 업로드할 수 있게 해주며, 사용자 경험을 개선하고 애플리케이션 내에서 파일 업로드를 유연하게 처리할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 1: S3 버킷 생성하기
 
@@ -33,7 +40,18 @@ React 애플리케이션에서 AWS S3 버킷으로 파일을 업로드하기 위
 
 # 단계 2: S3 버킷에 CORS 정책 추가하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React 프런트엔드에서 S3 버킷으로 객체를 업로드하려면 버킷에 CORS(Cross-Origin Resource Sharing) 정책을 추가해야 합니다. 이 정책은 어떤 출처가 버킷에 액세스할 수 있는지와 허용된 HTTP 메서드를 정의합니다.
 
@@ -43,7 +61,18 @@ React 프런트엔드에서 S3 버킷으로 객체를 업로드하려면 버킷�
 
 이제 S3 버킷에 객체를 업로드하기 위한 사전 서명된 URL을 생성하는 람다 함수를 만들어야 합니다. 이 예에서는 .png 파일을 업로드하지만 원하는 파일 유형을 사용할 수 있습니다. 이 함수는 React 애플리케이션에 의해 호출되어 사전 서명된 URL을 제공받아 S3 버킷에 파일을 업로드할 수 있는 임시 액세스를 부여합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/UploadfilestoAWSs3bucketfromReactusingPre-signedUrls_3.png)
 
@@ -91,7 +120,18 @@ def lambda_handler(event, context):
 
 ## 단계 4: Lambda 함수의 IAM 역할에 PutObject 정책 추가
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Lambda 함수가 클라이언트를 대신하여 S3 버킷에 객체를 업로드할 수 있도록하려면 Lambda 함수의 IAM 역할에 PutObject 정책을 추가해야합니다. 이 정책은 사전 서명 된 URL이 S3 버킷에 객체를 쓸 수있는 필요한 권한을 부여합니다.
 
@@ -101,7 +141,18 @@ Lambda 함수의 Configuration/Permissions로 이동하고 실행 역할 이름�
 
 Add permissions을 클릭한 후 인라인 정책을 생성하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/UploadfilestoAWSs3bucketfromReactusingPre-signedUrls_5.png" />
 
@@ -111,7 +162,18 @@ JSON을 선택하고, 당신만의 S3 버킷 ARN과 함께 정책을 붙여넣�
 
 고유한 정책명을 추가하고 정책을 생성하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/UploadfilestoAWSs3bucketfromReactusingPre-signedUrls_7.png" />
 
@@ -121,7 +183,18 @@ API Gateway를 사용하여 사전 서명된 URL을 생성하는 Lambda 함수�
 
 Lambda 함수에 트리거로 API Gateway를 구성하세요. 이를 통해 React 애플리케이션이 Lambda 함수를 HTTP를 통해 호출하고 파일 업로드를 위한 사전 서명된 URL을 얻을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 API Gateway로 이동해서 HTTP API를 만들어보세요.
 
@@ -131,11 +204,33 @@ API Gateway로 이동해서 HTTP API를 만들어보세요.
 
 ![image](/assets/img/UploadfilestoAWSs3bucketfromReactusingPre-signedUrls_9.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 Markdown 형식으로 변경해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 API가 생성된 후, CORS 정책을 설정하여 http://localhost:3000 (또는 애플리케이션 호스트)에서의 요청만 허용하도록 구성하세요.
 
@@ -145,7 +240,18 @@ Lambda 기능 페이지에서 API Gateway Lambda 트리거의 생성을 확인�
 
 ![이미지](/assets/img/UploadfilestoAWSs3bucketfromReactusingPre-signedUrls_13.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 6: React 프론트엔드에서 업로드 테스트하기:
 
@@ -157,7 +263,18 @@ Lambda 기능 페이지에서 API Gateway Lambda 트리거의 생성을 확인�
 npm install axios
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 App.js를 편집하고 다음 코드를 붙여넣으세요. API_ENDPOINT를 본인의 API 엔드포인트로 바꿔주세요.
 
@@ -197,9 +314,7 @@ function App() {
         "Content-Type": "application/png",
       },
       onUploadProgress: (progressEvent) => {
-        const percentCompleted = Math.round(
-          (progressEvent.loaded * 100) / progressEvent.total
-        );
+        const percentCompleted = Math.round((progressEvent.loaded * 100) / progressEvent.total);
         setUploadProgress(percentCompleted);
         console.log(`Upload Progress: ${percentCompleted}%`);
       },
@@ -242,7 +357,18 @@ export default App;
 npm start
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/UploadfilestoAWSs3bucketfromReactusingPre-signedUrls_14.png" />
 

@@ -3,17 +3,13 @@ title: "플러터로 온보딩 페이지 캐로셀 만드는 방법 패키지 �
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 플러터 앱에서 아래와 같이 보여지는 온보딩 페이지를 만드는 방법을 배워볼 거에요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ## 시작하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 OnboardingPage부터 시작해보겠습니다. 이 페이지는 StatefulWidget입니다. 또한 \_selectedIndex라는 변수를 정의하고 기본 값을 0으로 설정하세요.
 
@@ -81,7 +88,18 @@ List<Map<String, dynamic>> demoData = [
 
 OnboardContent에서는 일러스트레이션부터 시작합니다. 그 다음으로 큰 텍스트로 제목을 설정하고 style을 titleLarge로 설정합니다. 마지막으로 짧은 설명이 있습니다. 이것이 일러스트레이션, 제목 및 설명이라는 세 가지 매개변수가 있는 이유입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 class OnboardContent extends StatelessWidget {
@@ -151,7 +169,18 @@ const Spacer(),
 
 <img src="/assets/img/Flutter-App-Intro-Onboarding-Screen-with-Carousel-Animated-Dots-—-NO-Package_1.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 애니메이션된 점들
 
@@ -184,7 +213,18 @@ class AnimatedDot extends StatelessWidget {
 
 이제 페이지에 점들을 표시하려면, 단순히 `TODO: Animated Dots`를 아래 코드로 바꿔주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 테이블을 Markdown 형식으로 변경하십시오.
@@ -196,7 +236,18 @@ class AnimatedDot extends StatelessWidget {
 
 거의 다 왔어요! 완성해야 할 유일한 구성 요소는 버튼입니다. 아래 코드로 TODO: 버튼을 대체해 완료하겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 ElevatedButton(
@@ -214,8 +265,30 @@ const Spacer(),
 
 <img src="/assets/img/Flutter-App-Intro-Onboarding-Screen-with-Carousel-Animated-Dots-—-NO-Package_3.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 정말 감사드립니다. 도움이 되셨길 바랍니다. 의견이나 피드백이 있으시면 언제든 알려주세요. 여러분을 위해 더 나은 콘텐츠를 만드는 데 도움이 될 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

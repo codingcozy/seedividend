@@ -3,15 +3,13 @@ title: "shadcn-ui UI 코드베이스 분석 shadcn-ui CLI는 어떻게 작동하
 description: ""
 coverImage: "/assets/img/2024-07-07-shadcn-uiuicodebaseanalysisHowdoesshadcn-uiCLIworkPart27_0.png"
 date: 2024-07-07 22:00
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-shadcn-uiuicodebaseanalysisHowdoesshadcn-uiCLIworkPart27_0.png
 tag: Tech
 originalTitle: "shadcn-ui ui codebase analysis: How does shadcn-ui CLI work? — Part 2.7"
 link: "https://medium.com/@ramu.narasinga_61050/shadcn-ui-ui-codebase-analysis-how-does-shadcn-ui-cli-work-part-2-7-534165164380"
 isUpdated: true
 ---
-
-
 
 shadcn-ui CLI가 어떻게 작동하는지 알아보고 싶었어요. 이 글에서는 shadcn-ui/ui CLI를 구축하는 데 사용된 코드에 대해 이야기하고 있어요.
 
@@ -21,7 +19,18 @@ shadcn-ui CLI가 어떻게 작동하는지 알아보고 싶었어요. 이 글에
 
 ![이미지](/assets/img/2024-07-07-shadcn-uiuicodebaseanalysisHowdoesshadcn-uiCLIworkPart27_0.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 L84에서는 projectType 또는 tailwindCssFile 또는 tsConfigAliasPrefix 중 하나라도 존재하지 않는 경우 null을 반환하는 간단한 확인 작업입니다.
 
@@ -33,7 +42,18 @@ const isTsx = await isTypeScriptProject(cwd);
 
 isTypescriptProject는 ui/packages/cli/src/utils/get-project-info.ts로부터 가져온 함수이며, 이 함수는 현재 작업 디렉토리(cwd)에 tsconfig.json 파일이 있는지 확인합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 export async function isTypeScriptProject(cwd: string) {
@@ -50,7 +70,18 @@ pathExists는 fs-extra에서 가져온 함수입니다.
 import fs, { pathExists } from "fs-extra";
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론:
 
@@ -60,7 +91,18 @@ import fs, { pathExists } from "fs-extra";
 
 웹사이트: [https://ramunarasinga.com/](https://ramunarasinga.com/)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Linkedin: [링크드인](https://www.linkedin.com/in/ramu-narasinga-189361128/)
 
@@ -70,7 +112,18 @@ Github: [깃허브](https://github.com/Ramu-Narasinga)
 
 shadcn-ui/ui를 처음부터 만들기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 참고 자료:
 

@@ -3,17 +3,13 @@ title: "vuepress 로 GitHub pages 에 사이트 호스팅 하는 방법"
 description: "vuepress를 이용해 블로그를 만들어 GitHub pages에 호스팅하는 방법에 대해서 공유합니다"
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # vuepress 로 GitHub pages 에 사이트 호스팅 하는 방법
 
@@ -23,9 +19,18 @@ isUpdated: true
 
 <img width="1709" alt="image" src="https://user-images.githubusercontent.com/46010705/198867686-c2f60f4a-2326-4a3e-8f55-74e87e52effa.png">
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 vuepress와 github pages 를 이용하면 위와 같은 블로그를 만들 수 있다.
 
@@ -43,9 +48,18 @@ TIL이라는 저장소를 생성해준다. 저장소의 이름은 어떤 것이�
 
 ## vuepress 설치
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 vuepress를 설치하는 방법은 2가지로 나뉜다. 보일러플레이트를 가지고 있는 패키지를 설치하거나 직접 수동으로 vuepress를 설치하는 방법이다.
 
@@ -69,9 +83,18 @@ npm init
 
 ### 2. vuepress 설치
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **npm을 설치했으니 vuepress를 설치해준다.**
 
@@ -91,9 +114,7 @@ README 파일은 홈에 노출될 글을 작성하는 곳이고
 
 포스팅을 하는 것처럼 `vue-press.md` 파일을 하나 생성해서 아래와 같이 임의로 글을 작성해봅니다
 
-
 # vuepress
-
 
 ### 4. Package.json 작성
 

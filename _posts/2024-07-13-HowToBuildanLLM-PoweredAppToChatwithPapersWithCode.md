@@ -3,16 +3,13 @@ title: "PapersWithCode와 채팅할 수 있는 LLM-Powered 앱 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-13-HowToBuildanLLM-PoweredAppToChatwithPapersWithCode_0.png"
 date: 2024-07-13 20:10
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-HowToBuildanLLM-PoweredAppToChatwithPapersWithCode_0.png
 tag: Tech
 originalTitle: "How To Build an LLM-Powered App To Chat with PapersWithCode"
 link: "https://medium.com/towards-data-science/how-to-build-an-llm-powered-app-to-chat-with-paperswithcode-09ddd9ee753a"
 isUpdated: true
 ---
-
-
-
 
 최신 기계 학습 연구 소식을 따라가기 어려우신가요? LLMs, 벡터 데이터베이스 또는 RAGs에 관한 논문 양에 압도당하셨나요?
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 이 프로세스의 모든 단계는 아래에서 자세히 설명되며, 재사용하고 수정할 수 있는 동반되는 소스 코드가 함께 제공됩니다👇.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 준비되셨나요? 함께 알아봐요 🔍.
 
@@ -32,8 +40,18 @@ isUpdated: true
 
 Papers With Code(일명 PWC)는 연구원과 실무자들을 위한 무료 웹사이트로, 최신의 최첨단 머신러닝 논문, 소스 코드, 데이터 세트를 찾고 따르는 곳이에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-13-HowToBuildanLLM-PoweredAppToChatwithPapersWithCode_0.png" />
 
@@ -43,8 +61,18 @@ Papers With Code(일명 PWC)는 연구원과 실무자들을 위한 무료 웹�
 
 인터페이스에서 이렇게 할 수 있습니다: papers/ 엔드포인트를 찾아 쿼리( q ) 인자를 채웁니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 표 태그를 Markdown 형식으로 바꾸세요.
 
@@ -56,7 +84,18 @@ Papers With Code(일명 PWC)는 연구원과 실무자들을 위한 무료 웹�
 
 이 구조를 이용하면 "대형 언어 모델"에 일치하는 7200개의 논문을 검색할 수 있습니다. URL을 요청하는 함수를 이용하여 모든 페이지에 대해 루프를 돌림으로써 간단히 수행할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 import requests
@@ -95,8 +134,18 @@ print(len(results))
 - page_content (str): 논문 초록의 텍스트를 저장하는 매개변수
 - metadata (dict): 추가 정보를 저장하는 매개변수. 우리의 사용 사례에서는 id, arxiv_id, url_pdf, 타이틀, 저자, 발표일을 유지할 것입니다
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 from langchain.docstore.document import Document
@@ -133,7 +182,18 @@ len(splits)
 # 11308
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 2 — 업스태시에서 인덱스 생성하기
 
@@ -143,7 +203,18 @@ len(splits)
 
 인덱스를 생성하려면 여기에 로그인하고 몇 가지 매개변수를 입력하는 지침을 따르면 됩니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 지역: 근처에 위치한 지역을 선택해주세요.
 - 차원 = 768로 설정하세요(VertexAI의 임베딩 차원)
@@ -157,13 +228,24 @@ pip install upstash-vector
 
 이를 통해 인덱스에 연결을 설정할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 from upstash_vector import Index
 
 index = Index(
-    url="<UPSTASH_URL>", 
+    url="<UPSTASH_URL>",
     token="<UPSTASH_TOKEN>"
 )
 ```
@@ -174,9 +256,20 @@ To embed the chunks and index them into the vector db, we’ll create a simple c
 
 This class will be named UpstashVectorStore and will have the following methods:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-- Upstash Vector Store 클래스의 __init__ 생성자는 Upstash Index와 Embeddings 객체를 예상합니다.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+- Upstash Vector Store 클래스의 **init** 생성자는 Upstash Index와 Embeddings 객체를 예상합니다.
 - 문서를 임베딩하고 일괄적으로 색인에 추가하려면 add_documents 를 사용합니다.
 - similarity_search_with_score 를 사용하여 인덱스를 쿼리하고 상위 k개의 가장 관련성 높은 문서 및 해당 점수를 검색합니다.
 
@@ -272,7 +365,18 @@ class UpstashVectorStore:
 
 이 클래스를 사용하여 청크를 색인화해 봅시다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 from langchain.embeddings import VertexAIEmbeddings
@@ -294,8 +398,18 @@ ids = upstash_vector_store.add_documents(splits, batch_size=25)
 
 # 4 — 색인 된 논문에 대한 질문하기
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 추상이 올바르게 Upstash에 색인된 상태로, 이제 자연어로 상호작용하며 ML 주제에 대한 구체적인 질문을 할 수 있습니다.
 
@@ -326,24 +440,33 @@ def get_prompt(question, context):
     {question}
 
     Hint: 문맥을 그대로 복사하지 마세요. 여러분만의 말로 표현해 주세요.
-    
+
     대답:
     """
     prompt = template.format(question=question, context=context)
     return prompt
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 영감이 떨어질 때가 있죠? 시작하는 데 도움이 될 질문이에요:
 
 ```js
-query = (
-    "Retrieval Augmented Generation (RAG) 프레임워크 뒤의 문제는 무엇인가요?"
-)
+query = "Retrieval Augmented Generation (RAG) 프레임워크 뒤의 문제는 무엇인가요?";
 
-context = get_context(query, upstash_vector_store)
-prompt = get_prompt(query, context)
+context = get_context(query, upstash_vector_store);
+prompt = get_prompt(query, context);
 ```
 
 다음은 문맥을 받은 후의 프롬프트 모습입니다:
@@ -356,34 +479,45 @@ prompt = get_prompt(query, context)
 
 %CONTEXT%
 
-Retrieval-Augmented Generation (RAG)은 대규모 언어 모델의 환각을 완화하기 위한 
-유망한 접근 방식입니다. 그러나 기존 연구는 서로 다른 대규모 언어 모델에 대한 
-검색 증강 생성의 영향에 대한 철저한 평가가 부족하여, 서로 다른 대규모 언어 모델에 
-대한 RAG의 능력에 대한 잠재적 병목 현상을 식별하는 것이 어려운 상황입니다. 
-우리는 이 논문에서 Retrieval-Augmented Generation이 대규모 언어 모델에 미치는 영향을 
-체계적으로 조사합니다. RAG가 요구하는 4가지 기본 능력인 노이즈 강건성, 부정 거부, 
-정보 통합 및 반사적 강건성에 대한 다양한 대규모 언어 모델의 성능을 분석합니다. 
-이를 위해 RAG 평가를 위한 새로운 말뭉치인 Retrieval-Augmented Generation 
-Benchmark (RGB)를 설정합니다. 이 RGB는 영어와 중국어 모두에서 RAG 평가에 사용되는 
-새로운 말뭉치로, 해당 말뭉치 내의 인스턴스를 의미 있는 능력에 따라 4개의 별도의 
-테스트베드로 분류합니다. 그런 다음 RGB에서 6개의 대표적인 대규모 언어 모델을 
+Retrieval-Augmented Generation (RAG)은 대규모 언어 모델의 환각을 완화하기 위한
+유망한 접근 방식입니다. 그러나 기존 연구는 서로 다른 대규모 언어 모델에 대한
+검색 증강 생성의 영향에 대한 철저한 평가가 부족하여, 서로 다른 대규모 언어 모델에
+대한 RAG의 능력에 대한 잠재적 병목 현상을 식별하는 것이 어려운 상황입니다.
+우리는 이 논문에서 Retrieval-Augmented Generation이 대규모 언어 모델에 미치는 영향을
+체계적으로 조사합니다. RAG가 요구하는 4가지 기본 능력인 노이즈 강건성, 부정 거부,
+정보 통합 및 반사적 강건성에 대한 다양한 대규모 언어 모델의 성능을 분석합니다.
+이를 위해 RAG 평가를 위한 새로운 말뭉치인 Retrieval-Augmented Generation
+Benchmark (RGB)를 설정합니다. 이 RGB는 영어와 중국어 모두에서 RAG 평가에 사용되는
+새로운 말뭉치로, 해당 말뭉치 내의 인스턴스를 의미 있는 능력에 따라 4개의 별도의
+테스트베드로 분류합니다. 그런 다음 RGB에서 6개의 대표적인 대규모 언어 모델을
 평가하여 RAG를 적용할 때 현재 대규모 언어 모델의 도전에 대해 진단합니다.
 ===
-대단한 능력을 갖고 있지만 대규모 언어 모델(LM)은 종적으로 알려진 정보에만 의존하여 
-사실적인 정확성을 가지지 않는 응답을 종종 생성합니다. Retrieval-Augmented Generation 
-(RAG)은 LM을 관련 지식 검색으로 보완하는 무작위 접근법으로 이러한 문제를 줄입니다. 
-그러나 검색이 필요한지, 또는 지식이 관련성이 있는지 여부에 상관없이 일정 수의 검색 
-내용을 무작위로 가져와 포함한다면, LM의 다양성이 감소하거나 도움이 되지 않는 
-응답 생성으로 이어질 수 있습니다. 우리는 Self-Reflective Retrieval-Augmented 
-Generation(Self-RAG)이라는 새로운 프레임워크를 소개합니다. 이 프레임워크는 검색 및 
-자기 반성을 통해 LM의 품질과 정확성을 향상시킵니다. 우리의 프레임워크는 필요 시 
-검색 결과를 가져와 동적으로 변화시키며, 특수 토큰인 반성 토큰을 사용하여 검색 결과와 
-LM의 생성물을 생성하고 반성합니다. 반성 토큰을 생성하면 LM이 추론 단계에서 조절 가능해져 
+대단한 능력을 갖고 있지만 대규모 언어 모델(LM)은 종적으로 알려진 정보에만 의존하여
+사실적인 정확성을 가지지 않는 응답을 종종 생성합니다. Retrieval-Augmented Generation
+(RAG)은 LM을 관련 지식 검색으로 보완하는 무작위 접근법으로 이러한 문제를 줄입니다.
+그러나 검색이 필요한지, 또는 지식이 관련성이 있는지 여부에 상관없이 일정 수의 검색
+내용을 무작위로 가져와 포함한다면, LM의 다양성이 감소하거나 도움이 되지 않는
+응답 생성으로 이어질 수 있습니다. 우리는 Self-Reflective Retrieval-Augmented
+Generation(Self-RAG)이라는 새로운 프레임워크를 소개합니다. 이 프레임워크는 검색 및
+자기 반성을 통해 LM의 품질과 정확성을 향상시킵니다. 우리의 프레임워크는 필요 시
+검색 결과를 가져와 동적으로 변화시키며, 특수 토큰인 반성 토큰을 사용하여 검색 결과와
+LM의 생성물을 생성하고 반성합니다. 반성 토큰을 생성하면 LM이 추론 단계에서 조절 가능해져
 다양한 작업 요구에 맞게 동작할 수 있습니다.
 ...
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 LLM에게 대답 생성을 요청해보세요.
 
@@ -404,7 +538,18 @@ answer = llm.predict(prompt)
 검색 증강 생성 (RAG) 프레임워크는 핍을 피할 수 없는 검색 및 필요하지 않거나 관련성 없는 단락을 포함하여 도움이 되지 않는 응답 생성으로 이어질 수 있는 문제와 같은 문제가 있을 수 있습니다. 또한, 기존 연구는 RAG가 다양한 대형 언어 모델 (LLM)에 미치는 영향을 철저히 평가하지 않아 RAG의 다양한 LLM에 대한 기능 병목 현상을 식별하기 어렵게 만들고 있습니다. 이러한 문제를 해결하기 위해, 연구자들은 자기 반성 검색 증강 생성(Self-RAG) 프레임워크를 제안했으며, 이 프레임워크는 검색 및 자기 반성을 통해 LM의 품질과 사실성을 향상시킵니다. LLM의 다른 문제점 중 하나는 그들의 잊기죽임입니다. 그들은 시간이 흐를수록 개선되지 않거나 인간처럼 새로운 지식을 습득하지 않습니다. 이를 해결하기 위해, 연구자들은 RAG를 사용하여 문제 해결 성능을 향상시키는 방법을 탐구하고, ARM-RAG 시스템을 제안했습니다. 이 시스템은 높은 훈련 비용이 필요 없이 성공을 통해 학습합니다.
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 꽤 괜찮지 않아요?
 
@@ -414,7 +559,18 @@ answer = llm.predict(prompt)
 
 UI에서 RAG와 상호 작용하기 위해 Streamlit 애플리케이션에 통합할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 Markdown 형식으로 변환한 것입니다:
 
@@ -424,7 +580,18 @@ UI에서 RAG와 상호 작용하기 위해 Streamlit 애플리케이션에 통�
 
 # 몇 가지 핵심 포인트
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 많은 분들이 이미 자료와 대화하는 RAGs를 구축하셨습니다.
 
@@ -433,11 +600,20 @@ UI에서 RAG와 상호 작용하기 위해 Streamlit 애플리케이션에 통�
 우선 이점에서 시작해보겠습니다:
 
 - RAGs를 통해 외부 자료에 접근할 수 있습니다. 예를 들어, 저희가 개발한 앱은 Mistral이나 LLama2와 같은 최근 오픈 소스 LLM에 대한 정확한 답변을 제공합니다.
-ChatGPT에 이러한 모델에 대해 질문을 하면 얻을 수 있는 것들을 확인해보세요.
+  ChatGPT에 이러한 모델에 대해 질문을 하면 얻을 수 있는 것들을 확인해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![RAGs 사용 예시](/assets/img/2024-07-13-HowToBuildanLLM-PoweredAppToChatwithPapersWithCode_1.png)
 
@@ -452,8 +628,18 @@ ChatGPT에 이러한 모델에 대해 질문을 하면 얻을 수 있는 것들�
 - RAG는 모든 것에 대한 해결책이 아닙니다. 스타일 복사와 같은 일부 응용 프로그램은 모델 세부 조정으로 수행하는 것이 더 나은 결과를 보입니다.
 - RAG는 LLM의 컨텍스트 크기에 의해 제한됩니다. LLM의 컨텍스트 크기가 1백만 토큰이 되더라도 해당 데이터 양으로 프롬프트하는 것이 좋은 아이디어는 아닙니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -468,7 +654,18 @@ ChatGPT에 이러한 모델에 대해 질문을 하면 얻을 수 있는 것들�
 - 사용자 쿼리 확장
 - 임베딩 세밀 조정
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전에 작성한 개선된 검색 기술에 관한 글이에요.
 

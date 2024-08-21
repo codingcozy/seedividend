@@ -3,17 +3,13 @@ title: "Nextjs 14에서 NextAuth의 Credential provider를 사용한 앱 라우�
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Authentication in Nextjs 14 App Router using NextAuth with Credential provider"
 link: "https://medium.com/@julispitangso/authentication-in-next-js-14-app-router-using-nextauth-with-credential-provider-c6c6e64433de"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/AuthenticationinNextjs14AppRouterusingNextAuthwithCredentialprovider_0.png)
 
@@ -23,7 +19,18 @@ NextAuth는 Next.js를 위한 인기 있는 인증 라이브러리입니다. 간
 
 의존성 설치
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시작하기 전에 이 튜토리얼을 위해 몇 가지 종속성을 설치해 봅시다.
 
@@ -35,7 +42,18 @@ npm install next-auth
 
 유저를 인증하는 서버 함수를 생성하겠습니다. 유저를 찾았을 때에는 유저의 상세정보를 반환할 것입니다. 유저를 찾지 못했거나 비밀번호가 일치하지 않을 때에는 null을 반환할 것입니다. 왜 에러 메시지 대신에 일치하지 않는 비밀번호라고 null을 반환하는지 궁금하실 수도 있습니다. 사용자가 비밀번호를 추측하는 것을 방지하기 위해서입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // /src/server/services/userService.ts
@@ -66,7 +84,18 @@ function authenticate(username: string, password: string) {
 - 사용자가 인증되지 않았을 경우 null을 반환하며, UI에 오류를 표시하고 사용자에게 어떤 정보가 잘못되었는지 알려주지 않고 세부 정보를 확인할 수 있도록 합니다.
 - 사용자가 인증되었다고 가정하고, 사용자 객체를 생성하고 세부 정보를 채워서 반환합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 //src/server/auth.ts
@@ -130,7 +159,18 @@ export const getServerAuthSession = () => getServerSession(authOptions); //(6)
 
 Typescript 인텔리센스가 User 타입에 id 속성이 있다는 것을 알 수 있도록 next-auth 모듈 변경을 추가하십시오.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 //src/types/next-auth.d.ts
@@ -167,7 +207,18 @@ NextAuth.js api 핸들러를 만들기
 
 NextAuth.js가 모든 요청을 /api/auth/\*로 처리할 수 있도록 동적 라우트 핸들러를 만듭니다
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // /src/app/api/auth/[...nextauth]/route.ts
@@ -198,10 +249,7 @@ export default async function HomePage() {
     <main className="flex items-center justify-center h-screen">
       {authSession?.user && <UserInfo user={authSession?.user} />} //(2)
       {!authSession?.user && ( //(3)
-        <Link
-          className="font-medium mt-2 text-blue-600 hover:underline"
-          href="/login"
-        >
+        <Link className="font-medium mt-2 text-blue-600 hover:underline" href="/login">
           로그인
         </Link>
       )}
@@ -210,7 +258,18 @@ export default async function HomePage() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 기본적으로 이는 서버 구성 요소이기 때문에 이 서버 함수를 직접 사용할 수 있습니다. 이 함수는 서버에서 세션 객체를 가져오는 데 사용됩니다.
 - 세션의 사용자 객체가 있는 경우 UserInfo 컴포넌트를 렌더링합니다.
@@ -240,10 +299,7 @@ export default function UserInfo({ user }: UserInfoProps) {
       <div>Id : {user.id}</div>
       <div>Name : {user.name}</div>
       <div>Email : {user.email}</div>
-      <button
-        className="font-medium mt-2 text-blue-600 hover:underline"
-        onClick={handleLogout}
-      >
+      <button className="font-medium mt-2 text-blue-600 hover:underline" onClick={handleLogout}>
         Log out
       </button>
     </div>
@@ -253,7 +309,18 @@ export default function UserInfo({ user }: UserInfoProps) {
 
 마지막으로 로그인 페이지를 생성합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // /src/app/login/page.tsx
@@ -272,8 +339,7 @@ type PageProps = {
 };
 
 export default function LoginPage({ searchParams }: PageProps) {
-  const [inputs, setInputs] =
-    useState < LoginInput > { username: "", password: "" };
+  const [inputs, setInputs] = useState < LoginInput > { username: "", password: "" };
 
   const handleChange = (event: ChangeEvent<HTMLInputElement>) => {
     const name = event.target.name;
@@ -295,10 +361,7 @@ export default function LoginPage({ searchParams }: PageProps) {
         <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
           <form className="space-y-6" onSubmit={handleSubmit}>
             <div>
-              <label
-                htmlFor="username"
-                className="block text-sm font-medium leading-6 text-gray-900"
-              >
+              <label htmlFor="username" className="block text-sm font-medium leading-6 text-gray-900">
                 Username
               </label>
               <div className="mt-2">
@@ -317,10 +380,7 @@ export default function LoginPage({ searchParams }: PageProps) {
 
             <div>
               <div className="flex items-center justify-between">
-                <label
-                  htmlFor="password"
-                  className="block text-sm font-medium leading-6 text-gray-900"
-                >
+                <label htmlFor="password" className="block text-sm font-medium leading-6 text-gray-900">
                   Password
                 </label>
               </div>
@@ -346,11 +406,7 @@ export default function LoginPage({ searchParams }: PageProps) {
                 Sign in
               </button>
             </div>
-            {searchParams.error && (
-              <p className="text-red-600 text-center capitalize">
-                Login failed.
-              </p>
-            )}
+            {searchParams.error && <p className="text-red-600 text-center capitalize">Login failed.</p>}
           </form>
         </div>
       </div>
@@ -368,7 +424,3 @@ https://github.com/nextauthjs/next-auth-example/tree/main
 https://create.t3.gg/en/usage/next-auth
 https://next-auth.js.org/configuration/providers/credentials
 https://orm.drizzle.team/kit-docs/overview
-
-
-
-

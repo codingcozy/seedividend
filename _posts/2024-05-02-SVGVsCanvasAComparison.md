@@ -3,17 +3,13 @@ title: "개발자가 알아둬야할 SVG와 캔버스 비교 정리"
 description: ""
 coverImage: "/assets/img/2024-05-02-SVGVsCanvasAComparison_0.png"
 date: 2024-05-02 00:10
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-02-SVGVsCanvasAComparison_0.png
 tag: Tech
 originalTitle: "SVG Vs. Canvas: A Comparison"
 link: "https://medium.com/stackanatomy/svg-vs-canvas-a-comparison-1b58e6c84326"
 isUpdated: true
 ---
-
-
-
-
 
 ![SVG vs Canvas](/assets/img/2024-05-02-SVGVsCanvasAComparison_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 대부분의 최신 브라우저는 XML 기반의 벡터 그래픽 형식인 SVG를 지원합니다. 픽셀화 없이 크기를 조절할 수 있는 간단한 그래픽 및 다이어그램을 만드는 데 효과적입니다. 또한 JavaScript를 사용하여 SVG를 통해 상호작용 그래픽을 생성할 수 있습니다. SVG는 XML 표준에 의존하는 2차원 벡터 이미지 형식입니다. 웹 디자인 및 개발에서 로고, 다이어그램 및 아이콘과 같은 벡터 그래픽을 만들거나 관리하기 위해 자주 사용됩니다. 기존의 JPEG, PNG 및 GIF와 같은 래스터 이미지와는 달리 SVG 이미지는 화질을 희생하지 않고 비율을 변경할 수 있어 웹사이트와 다양한 해상도를 가진 기기에서 이미지를 표시하는 데 더 나은 선택입니다. 또한 SVG 이미지는 압축되어 있어 래스터 이미지보다 빠르게 로드됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Canvas는 웹을 위한 동적 대화형 그래픽을 만들 수 있게 해주는 HTML5 기능입니다. 래스터 기반인 Canvas는 더 복잡한 시각화와 애니메이션을 생성하기에 적합하기 때문에 데이터 시각화와 같은 작업에 가장 적합합니다. 그러나 SVG와는 달리 Canvas는 픽셀 기반 형식이기 때문에 이미지를 Canvas에 너무 많이 확대하면 픽셀화될 수 있습니다. Canvas는 해상도에 따라 동적으로 그래픽, 게임 그래픽 및 다른 시각적 요소를 표시하는 비트맵 캔버스를 제공합니다. JavaScript를 사용하여 웹사이트에 직접 그래픽을 그릴 수 있습니다. Canvas 요소는 단지 그래픽을 보관하는 공간에 불과합니다.
 
@@ -33,7 +40,18 @@ SVG와 Canvas의 주요 차이점은 SVG가 벡터 기반 이미지 형식을 �
 
 SVG 및 Canvas는 모두 대화형 그래픽을 생성하는 강력한 도구지만, 사용할 때 고려해야 할 몇 가지 제한 사항이 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SVG는 복잡한 모양과 상호 작용을 생성하는 기능이 제한적이며 이미지를 구성하는 개별 요소를 변형하고 조작하기 위해 DOM 기반 시스템에 의존하기 때문에 한계가 있습니다. 또한 대량의 데이터를 효율적으로 처리할 수 없기 때문에 SVG는 매우 다이내믹한 애니메이션을 만드는 데 적합하지 않습니다.
 
@@ -43,7 +61,18 @@ SVG는 복잡한 모양과 상호 작용을 생성하는 기능이 제한적이�
 
 이 섹션에서는 SVG와 Canvas를 자세히 비교해보겠습니다. 이 섹션에서 많은 것을 배울 수 있습니다. 확장성, 크기 및 로드 시간, 상호 작용, 성능, 접근성, 학습 곡선 및 인기를 기준으로 비교할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 확장성
 
@@ -55,7 +84,18 @@ SVG의 확장성은 일반적으로 벡터 그래픽을 만들기에는 Canvas�
 **Canvas**  
 반면에 Canvas는 해상도에 독립적인 래스터 그래픽 형식입니다. 이는 SVG만큼 쉽게 조절할 수 없기 때문에 그래픽이 확대되면 품질이 저하됩니다. Canvas에는 필터와 마스크와 같은 효과를 지원하는 기능이 내장되어 있지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 크기와 로드 시간
 
@@ -65,7 +105,18 @@ SVG SVG 파일의 크기가 작기 때문에, 많은 그래픽 콘텐츠가 있�
 
 Canvas Canvas 요소는 일반적으로 SVG 파일보다 상당히 큽니다. 결과적으로 로드하는 데 시간이 더 걸리고 웹 페이지 성능이 저하될 수 있습니다. 그러나 크기가 불리하더라도 Canvas는 애니메이션 및 상호 작용을 지원하기 때문에 그래픽 표현에 대한 인기가 여전합니다. Canvas도 모든 최신 브라우저와 호환되며, 하위 호환성에 대한 추가 작업이 필요하지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 클라이맥스에서는 크기와 로드 시간 측면에서 SVG가 더 나은 선택입니다. 더 작은 파일 크기와 빠른 로딩 시간 때문에, 그래픽 콘텐츠가 많은 웹 페이지에는 더 나은 선택입니다. 반면에 캔버스는 애니메이션 및 상호작용과 같은 보다 고급 기능이 필요할 때 더 나은 선택일 수 있습니다.
 
@@ -75,7 +126,18 @@ SVG와 캔버스를 비교하는 것은 이 두 가지 강력한 기술 사이�
 
 SVG는 선언적 언어의 한 예로, 요소와 해당 동작을 코드 내에서 직접 정의할 수 있습니다. 이를 통해 개발자들은 벡터 그래픽에 상호작용 요소를 손쉽게 통합할 수 있습니다. 예를 들어, 개발자들은 SVG 요소에 여러 이벤트를 바인딩할 수 있으며, 마우스 클릭, 키 입력 및 기타 사용자 상호작용과 같은 것들입니다. 게다가 SVG는 다양한 애니메이션 효과를 지원하며, 이를 활용하여 동적이고 매력적인 사용자 경험을 만들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 캔버스는 절차 지향 언어로, 개발자로부터 원하는 동작을 수행하도록 지시를 필요로 합니다. 이로 인해 상호 작용적인 작업에 대해 사용하기가 어려워지며, 개발자들은 각 요소에 대한 해당 동작을 수동으로 코딩해야 합니다. 그러나 캔버스는 SVG보다 몇 가지 장점을 가지고 있습니다. 비트맵 이미지를 그리고 3D 효과를 생성할 수 있는 기능이 있습니다.
 
@@ -85,7 +147,18 @@ SVG와 캔버스의 성능을 대조할 때 고려해야 할 다양한 요소가
 
 일반적으로 모양과 간단한 그림에 대한 성능 면에서 SVG가 캔버스보다 우월합니다. SVG 파일은 해상도에 독립적이므로 품질을 희생하지 않고 크기를 조정할 수 있습니다. 게다가 SVG 이미지는 브라우저의 메모리에 캐시될 수 있어 로딩 시간을 단축시킬 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 캔버스는 보통 복잡한 그림과 애니메이션에 대해 더 나은 성능을 발휘합니다. 캔버스를 사용하면 이미지를 빠르게 그리고 품질 손실 없이 그릴 수 있습니다. 게다가 JavaScript API는 캔버스 조작을 최적화하여 더 빠른 애니메이션을 가능하게 합니다. 마지막으로, 어떤 사용 사례에 따라 다릅니다. 형태와 간단한 그림을 다룬다면 SVG를 선택하는 것이 좋습니다. 캔버스는 보다 복잡한 그림과 애니메이션에 대한 더 나은 선택일 수 있습니다.
 
@@ -95,7 +168,18 @@ SVG와 캔버스의 성능을 대조할 때 고려해야 할 다양한 요소가
 
 SVG는 벡터 기반 기술로, 해상도에 독립적입니다. 이것은 이미지가 다양한 화면 크기로 자동 조정되므로 반응형 웹사이트에 이상적입니다. SVG 이미지는 텍스트 기반이므로 기본적으로 접근할 수 있으며, 화면 판독기로 읽힐 수 있습니다. 개발자는 또한 SVG 코드의 요소에 속성을 추가하여 더 많은 접근성을 확보할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 캔버스는 해상도에 따라 달라지는 래스터 기반 기술입니다. 그 결과, 캔버스 이미지는 고해상도 장치에서 더 잘 보입니다. 캔버스 이미지는 기본적으로 접근할 수 없지만 개발자가 ARIA 속성을 사용하여 접근 가능하게 만들 수 있습니다. 이러한 속성은 페이지의 모든 상호작용 요소에 적용되어야 합니다.
 
@@ -105,7 +189,18 @@ SVG는 벡터 기반 기술로, 해상도에 독립적입니다. 이것은 이�
 
 캔버스와 SVG(확장 가능한 벡터 그래픽) 학습 곡선은 사용자가 프로그래밍 원칙에 얼마나 익숙한지에 따라 크게 달라질 수 있습니다. 캔버스는 JavaScript에 의존하고 다양한 함수와 구문을 이해해야 하기 때문에 SVG보다 복잡하다고 여겨집니다. 사용자는 캔버스에 그림을 그리기 위해 스타일링, 속성 및 그리기 함수와 같은 개념을 이해해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SVG는 반면에 Canvas보다 덜 복잡하다고 여겨지지만, 마크업 구조와 구문에 대한 이해가 필요합니다. 예를 들어, SVG 모양을 만들려면 path, line 및 rest와 같은 속성 및 요소에 대한 지식이 필요합니다. 두 기술 간의 또 다른 중요한 차이점은 SVG가 웹 표준에 대해 더 많은 지원을 제공한다는 것이며, Canvas는 접근성 기능에 대한 제한적인 지원을 가지고 있습니다.
 
@@ -115,7 +210,18 @@ SVG는 반면에 Canvas보다 덜 복잡하다고 여겨지지만, 마크업 구
 
 Canvas와 SVG는 상호작용적인 웹 콘텐츠를 만드는 도구로서 점점 더 인기를 얻고 있습니다. Canvas와 SVG는 모두 공개 표준 웹 그래픽 기술입니다. 두 기술 모두 장단점이 있으므로 어떤 것을 사용할지 결정하기 전에 두 기술 간의 차이를 이해하는 것이 중요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대부분의 현대 브라우저에서 캔버스를 지원하며 사용하기 쉽습니다. 캔버스의 주요 장점은 그래픽과 애니메이션을 빠르고 쉽게 생성할 수 있다는 것입니다. 그러나 캔버스는 SVG만큼 유연하지 않고 제한된 애니메이션만 지원합니다.
 
@@ -125,7 +231,18 @@ SVG는 캔버스보다 강력하고 유연하여 세밀하고 복잡한 그래�
 
 SVG와 캔버스는 각각 벡터 및 래스터 그래픽을 렌더링하는 HTML5 API입니다. SVG는 벡터 기반 그래픽을 만드는 데 사용되며 캔버스는 벡터 및 래스터 그래픽을 렌더링할 수 있습니다. 캔버스는 SVG보다 그래픽을 빠르게 렌더링하고 제한적인 제어만 가능합니다. SVG의 한 가지 응용 사례는 웹 사이트에서 사용할 대화식 지도 시스템을 만드는 것일 수 있습니다. 벡터 형식이기 때문에 사용자는 지도를 확대 및 축소할 때 픽셀화나 왜곡 없이 볼 수 있습니다. 또한 SVG는 부드러운 애니메이션을 지원하여 지도 상의 움직임을 효과적으로 표현할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 캔버스는 많은 제어력과 유연성을 제공하기 때문에 게임을 렌더링하는 데 사용할 수 있어요. 예를 들어, 캔버스는 게임의 환경, 캐릭터, 그리고 애니메이션을 렌더링하는 데 사용될 수 있어요. 또한 물리 시뮬레이션과 인공지능 계산에도 사용될 수 있어요.
 
@@ -135,7 +252,18 @@ SVG와 캔버스는 웹사이트에 데이터 시각화를 만드는 데도 사�
 
 SVG와 캔버스는 인터넷 상에서 그래픽을 만들고 그리는 데 사용되는 두 가지 웹 기술이에요. 캔버스는 일반적으로 그래픽, 애니메이션, 게임을 만드는 데 사용되고, SVG는 보다 확장 가능한 벡터 그래픽을 만드는 데 주로 사용돼요. SVG와 캔버스 중 어느 것을 선택할 지 결정할 때 그래픽의 복잡성을 고려하는 것이 중요해요. SVG는 모양과 로고와 같은 간단한 그래픽을 만드는 데 가장 효율적이에요. 또한 다수의 해상도로 확장 가능성을 유지하면서 성능을 향상시킬 수 있는 최상의 선택이에요. 반면에 캔버스는 동적이고 상호작용하는 그래픽에 가장 적합해요. 이는 애니메이션을 만들거나 비디오를 보여주거나 상호작용하는 게임을 개발하는 데 포함돼요. 캔버스는 또한 복잡한 그래픽이나 다수의 객체를 다룰 때 더 효율적이에요. SVG는 간단한 그래픽에 더 적합하고, 캔버스는 복잡하고 동적이며 상호작용적인 그래픽에 더 적합해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # SVG와 캔버스의 주요 차이점 요약
 
@@ -145,7 +273,18 @@ SVG와 캔버스는 인터넷 상에서 그래픽을 만들고 그리는 데 사
 
 # SVG에는 어떤 모양이 있나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SVG를 통해 다양한 모양을 만들 수 있습니다. 모양을 만드는 방법은 전적으로 여러분에 달려 있어요. SVG는 다음과 같은 모양을 생성하는 데 사용할 수 있습니다:
 
@@ -162,7 +301,18 @@ SVG를 통해 다양한 모양을 만들 수 있습니다. 모양을 만드는 �
 
 # SVG에 사용할 수 있는 스타일링은 무엇이 있을까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 섹션에서는 도형을 만들 때 SVG를 사용할 때 사용할 수있는 스타일 옵션에 대해 다룰 예정입니다. SVG를 사용하려면 이러한 스타일을 사용해야합니다. SVG는 다음과 같은 여러 방법으로 스타일을 적용할 수 있습니다:
 
@@ -172,15 +322,24 @@ SVG를 통해 다양한 모양을 만들 수 있습니다. 모양을 만드는 �
 
 아래는 코드에서 스타일 속성을 사용하는 방법을 보여주는 그림입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <svg>
   <polygon style="fill: cornflowerblue; stroke: red; stroke-width: 5" />
 </svg>
 
-
-위 코드에서 스타일 속성 값에 포함된 것들이 다같이  다각형 모양에 적용될 스타일 입니다. 위 SVG 코드에서 사용된 스타일 설명은 아래에서 확인할 수 있습니다.
+위 코드에서 스타일 속성 값에 포함된 것들이 다같이 다각형 모양에 적용될 스타일 입니다. 위 SVG 코드에서 사용된 스타일 설명은 아래에서 확인할 수 있습니다.
 
 - fill 속성은 모양의 배경색에만 영향을 미칩니다.
 - SVG에서 만들어질 윤곽선의 색은 stroke 속성을 사용하여 설정됩니다.
@@ -188,7 +347,18 @@ SVG를 통해 다양한 모양을 만들 수 있습니다. 모양을 만드는 �
 
 # CSS 클래스
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS 클래스를 활용하면 특정 스타일링이 적용된 클래스를 생성하고 해당 클래스를 CSS의 class 속성을 사용하여 SVG 요소에 적용할 수 있습니다.
 
@@ -198,7 +368,18 @@ style 속성을 사용하여 속성에 직접 스타일을 지정함으로써 �
 
 ## 프리젠테이션 속성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SVG에서 프레젠테이션 속성을 사용하면 요소에 스타일을 직접 적용할 수 있어요. 예를 들어 `rect` 요소는 "fill" 속성을 설정하여 채우기 색상을 지정할 수 있어요.
 
@@ -208,7 +389,18 @@ SVG에서 프레젠테이션 속성을 사용하면 요소에 스타일을 직�
 
 SVG는 자주 사용되는 채우기, 외곽선, 선 두께, 불투명도, 변환 등과 같은 스타일링 요소를 사용해요. SVG는 그라데이션, 필터, 마스크와 같이 고급 기능을 사용하여 스타일을 적용할 수도 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # SVG로 모양 만드는 방법
 
@@ -218,8 +410,18 @@ HTML에서 SVG를 생성하는 과정은 몇 줄의 코드만 필요한 간단�
 
 먼저 `svg` 요소를 만들고, 그림 캔버스의 크기를 지정합니다. 이는 `svg` 요소에 너비와 높이 속성을 추가하여 수행됩니다. 속성 '너비'와 '높이'는 픽셀 단위로 지정됩니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <svg width="200" height="200"></svg>
@@ -243,7 +445,18 @@ HTML에서 SVG를 생성하는 과정은 몇 줄의 코드만 필요한 간단�
 
 출력:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-05-02-SVGVsCanvasAComparison_1.png" />
 
@@ -253,7 +466,18 @@ HTML에서 SVG를 생성하는 과정은 몇 줄의 코드만 필요한 간단�
 
 원소는 매우 간단한 원을 만드는 데 사용할 수 있습니다. SVG에서 원에 적용될 속성은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - cy: cy 속성은 원의 Y 좌표를 나타냅니다.
 - cx: X 좌표를 설정할 때는 cx 속성을 사용해주세요.
@@ -266,18 +490,22 @@ SVG를 사용하여 원을 그려봅시다:
 
 코드:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <svg height="100" width="100">
-  <circle
-    cx="50"
-    cy="50"
-    r="40"
-    stroke="cornflowerblue"
-    stroke-width="3"
-    fill="gray"
-  />
+  <circle cx="50" cy="50" r="40" stroke="cornflowerblue" stroke-width="3" fill="gray" />
 </svg>
 ```
 
@@ -287,7 +515,18 @@ SVG를 사용하여 원을 그려봅시다:
 
 다각형을 생성해 봅시다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-05-02-SVGVsCanvasAComparison_3.png" />
 
@@ -295,16 +534,24 @@ SVG를 사용하여 원을 그려봅시다:
 
 ```js
 <svg height="250" width="500">
-  <polygon
-    points="220,10 300,210 170,250 123,234"
-    style="fill: cornflowerblue; stroke: red; stroke-width: 4"
-  />
+  <polygon points="220,10 300,210 170,250 123,234" style="fill: cornflowerblue; stroke: red; stroke-width: 4" />
 </svg>
 ```
 
 상기 코드에서 `polygon` 요소는 `svg` 요소 내부에서 사용되었습니다. 그리고 우리는 다각형 요소 내부의 점 속성을 활용했습니다. 다각형 모양의 x와 y 좌표는 point 속성에 의해 지정됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `polygon` 요소를 사용하여 각 코너의 x 및 y 좌표를 설정하는 points 속성을 사용하여, 빠르게 별을 생성할 수 있습니다.
 
@@ -326,7 +573,18 @@ SVG를 사용하여 원을 그려봅시다:
 </svg>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 텍스트
 
@@ -336,11 +594,24 @@ SVG를 사용하여 텍스트를 손쉽게 작성할 수 있어요. 그런 사�
 
 코드:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <svg width="">
-  <text x="100" y="100" fill="cornflowerblue">WELCOME TO OPEN REPLAY</text>
+  <text x="100" y="100" fill="cornflowerblue">
+    WELCOME TO OPEN REPLAY
+  </text>
 </svg>
 ```
 
@@ -350,7 +621,18 @@ SVG를 사용하여 텍스트를 손쉽게 작성할 수 있어요. 그런 사�
 
 마지막으로 `img` 요소 내에 SVG를 포함시킴으로써 HTML 페이지에 통합할 수 있습니다. SVG 파일의 URL은 `img` 요소의 src 속성에 있어야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <img src="/image.svg" width="500px" alt="" />
@@ -362,7 +644,18 @@ SVG를 사용하여 텍스트를 손쉽게 작성할 수 있어요. 그런 사�
 
 위의 단계를 따라 간단히 HTML에서 SVG를 만들 수 있습니다. 더 많은 SVG 이미지를 원하시면 여기를 클릭해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 캔버스를 사용하여 모양 만들기
 
@@ -374,7 +667,18 @@ HTML 캔버스는 꽤 간단하게 만들 수 있어요. HTML5 캔버스 요소�
 
 캔버스 요소를 HTML 요소로 추가한 후 상호 작용할 수 있도록 JavaScript 코드가 포함되어 있어야 해요. getContext() 메소드를 사용하여 이 작업을 수행해야 해요. 이렇게 하면 캔버스 드로잉 API에 액세스할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 바로 캔버스 그리기 API에 접근할 수 있으면 그리기를 시작할 수 있어요. 그리기 API의 메서드를 사용하여 캔버스에 모양, 선, 텍스트 및 그라데이션을 그릴 수 있어요. fillStyle 속성을 사용하면 그려진 모양의 색상을 변경할 수도 있어요.
@@ -385,7 +689,18 @@ ctx.fillRect(20, 20, 150, 100);
 
 출력:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-05-02-SVGVsCanvasAComparison_7.png" />
 
@@ -395,7 +710,18 @@ HTML 캔버스에 대해 더 알고 싶다면 MDN 웹 문서를 방문해보세�
 
 # 캔버스에서 이미지를 만드는 데 도움이 되는 상위 10개 라이브러리
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코딩이나 그래픽 디자인 경험이 많이 없는 사람들을 위해 라이브러리는 Canvas에서 이미지를 만들고 조작하는 것을 간단하게 만들어줍니다. 많은 라이브러리의 간단한 API를 사용해 시작하기 쉽습니다. 아래는 Canvas에서 이미지를 만드는 데 도움이 되는 상위 10개 라이브러리입니다:
 
@@ -414,6 +740,17 @@ HTML 캔버스에 대해 더 알고 싶다면 MDN 웹 문서를 방문해보세�
 
 SVG와 Canvas의 비교가 재미있었기를 바랍니다. 이 경쟁에서 명확한 우승자는 없습니다. SVG와 Canvas 모두 장단점이 있으며 최적의 옵션은 프로그래밍 배경과 프로젝트의 목표 및 사양에 따라 다를 것입니다. 간단한 그래픽을 만드는 데 SVG를 사용해 왔고 고급 그래픽이나 2D 게임을 만들어 보고 싶다면 Canvas를 시도해 볼 수 있을 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 https://blog.openreplay.com에서 원문이 게시되었습니다.

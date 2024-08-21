@@ -3,7 +3,7 @@ title: "정보 추출 간소화 GPT 모델용 재사용 가능한 프롬프트 �
 description: ""
 coverImage: "/assets/img/2024-08-17-SimplifyInformationExtractionAReusablePromptTemplateforGPTModels_0.png"
 date: 2024-08-17 01:53
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-17-SimplifyInformationExtractionAReusablePromptTemplateforGPTModels_0.png
 tag: Tech
 originalTitle: "Simplify Information Extraction A Reusable Prompt Template for GPT Models"
@@ -12,28 +12,49 @@ isUpdated: true
 updatedAt: 1723864278575
 ---
 
-
 ![image](/assets/img/2024-08-17-SimplifyInformationExtractionAReusablePromptTemplateforGPTModels_0.png)
 
 # 소개
 
 만약 나에게 정보 추출 작업을 위한 최적의 프롬프트 템플릿을 만들었다고 말한다면, 항상 원하는 성능을 보장하며 놀라운 검출율과 정밀도로 명확한 출력 형식을 얻을 수 있다고 말한다면, 아마 당신은 비웃을지도 모릅니다.
 
-정당한 이유로말이죠 - LLM의 예측할 수 없는 성격으로 인해 누구도 이러한 체크박스를 보장할 수 없기 때문에. -*녹는 얼굴 이모지*-
+정당한 이유로말이죠 - LLM의 예측할 수 없는 성격으로 인해 누구도 이러한 체크박스를 보장할 수 없기 때문에. -_녹는 얼굴 이모지_-
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-하지만 여기서 제가 말씀드릴 수 있는 것은: 12가지 이상의 미묘한 의료 정보 추출 작업을 철저히 수행한 결과, 각각이 심층적인 도메인 전문 지식을 필요로 하는 작업이었습니다. 나는 나에게 효과를 발휘한 프롬프팅 기술을 활용한 프롬프트 템플릿을 개발하여 성능을 크게 향상시키고 잘못된 출력을 최소화할 수 있었습니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-이 템플릿은 내 작업 흐름을 개선하고 반복 주기를 줄이며 결과물에 신뢰할 만한 일관성 수준을 제공하는 데 도움이 되었습니다. 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
-이 글에서는 이 템플릿을 따라가며 각 섹션의 저의 논리를 설명하고, 그 과정에서 배운 교훈을 공유하겠습니다. 나의 희망은 이 통찰력을 얻기 위해 발생한 시행착오가 다른 사람들이 복잡한 텍스트 데이터에서 정확한 정보를 추출하는 유사한 어려움에 직면한 사람들에게 도움이 되는 자원으로 이어질 수 있기를 바라는 것입니다. 
+하지만 여기서 제가 말씀드릴 수 있는 것은: 12가지 이상의 미묘한 의료 정보 추출 작업을 철저히 수행한 결과, 각각이 심층적인 도메인 전문 지식을 필요로 하는 작업이었습니다. 나는 나에게 효과를 발휘한 프롬프팅 기술을 활용한 프롬프트 템플릿을 개발하여 성능을 크게 향상시키고 잘못된 출력을 최소화할 수 있었습니다.
+
+이 템플릿은 내 작업 흐름을 개선하고 반복 주기를 줄이며 결과물에 신뢰할 만한 일관성 수준을 제공하는 데 도움이 되었습니다.
+
+이 글에서는 이 템플릿을 따라가며 각 섹션의 저의 논리를 설명하고, 그 과정에서 배운 교훈을 공유하겠습니다. 나의 희망은 이 통찰력을 얻기 위해 발생한 시행착오가 다른 사람들이 복잡한 텍스트 데이터에서 정확한 정보를 추출하는 유사한 어려움에 직면한 사람들에게 도움이 되는 자원으로 이어질 수 있기를 바라는 것입니다.
 
 말하고 싶은 바를 다시 강조하자면, 이 템플릿은 특히 의료 분야와 같은 전문 분야에서 높은 정확도가 중요한 텍스트 데이터에서 주요 정보를 추출하는 작업을 위해 구체적으로 맞춤화된 것임을 강조하고 싶습니다.
 
 # 프롬프트 기술
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 템플릿을 공유하기 전에 성능 향상에 도움이 된 주요 프롬프팅 기술 몇 가지를 공유하겠습니다:
 
@@ -43,7 +64,18 @@ updatedAt: 1723864278575
 
 ## 부정적 프롬프팅
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 정확도 향상에 있어서 제외해야 할 부분을 명시적으로 언급하는 것이 중요했습니다. 본 기술은 관련 없거나 잘못된 정보가 추출되는 가능성을 줄입니다.
 
@@ -53,7 +85,18 @@ updatedAt: 1723864278575
 
 모델이 추론 프로세스를 단계별로 설명하도록 장려함으로써 성능을 향상시키는 두 가지 방법:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 먼저, 모델의 설명은 부정적 프롬프팅 섹션에서 조정이 필요할 수 있는 세세한 점을 밝혀 줄 수 있습니다.
 - 둘째로, CoT는 모델이 각 추출된 인용구를 포함 기준과 제외 기준 양쪽에서 교차 확인할 수 있도록 하여 초기 결과 세트를 필터링하여 보다 정확하고 정밀한 응답을 얻을 수 있게 합니다.
@@ -64,7 +107,18 @@ updatedAt: 1723864278575
 
 모델에게 특정 역할이나 페르소나를 할당하면 응답을 이끌어내는 데 도움이 됩니다. 역할 프롬핑이 성능을 향상시키는지에 대한 논란이 있지만, 제 특정 작업에서는 이 기술이 유용하다는 경험을 했습니다. 내 프로젝트 중 많은 프로젝트는 각 추출된 부분이 체크리스트에 맞게 들어가는 복잡한 프로세스를 감독하는 도메인 전문가를 필요로 합니다. 모델이 전문가의 역할을 맡으면 특정 정보를 추출하는 이유에 대한 보다 광범위한 맥락을 얻을 수 있으며, 결과물의 품질을 크게 향상시킬 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자, 이제 프롬프트 템플릿으로 넘어가겠습니다!
 
@@ -78,7 +132,18 @@ updatedAt: 1723864278575
 - 제외 기준 / 부정적 예시: 추출해서는 안 되는 정보를 명확히 나열하여 모델이 관련 없거나 잘못된 정보를 추출하는 것을 방지합니다. 이전 시도에서 관찰된 일반적인 실수나 오해에 대해 일반적으로 다루게 됩니다.
 - 출력 지침: 추출된 정보가 일관된, 사용 가능한 형식으로 제시되도록 하기 위한 지침입니다. 여기에서 정확한 형식(예: JSON, 리스트)을 명시하고 단계별 / CoT 추론을 요청합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 예시: 정신 건강 대화에서의 약물 추출
 
@@ -92,17 +157,17 @@ PROMPT_MENTAL_HEALTH_COACHING = """
 
 추출 기준:
 항우울제 사용: 멘티가 명시적으로 항우울제를 복용했다고 언급한 부분을 식별하십시오. 아래는 찾아야 할 일반적인 항우울제의 비완전한 목록입니다:
-  - 선택적 세로토닌 재흡수 억제제 (SSRI): 
+  - 선택적 세로토닌 재흡수 억제제 (SSRI):
     - 예: 프루옥세틴(프로자크), 세르트라린(조울트), 시탈로프람(셀렉사)
-  - 세로토닌-노르에피네프린 재흡수 억제제 (SNRI): 
+  - 세로토닌-노르에피네프린 재흡수 억제제 (SNRI):
     - 예: 벤라팍신(에펙서), 둘록세틴(신발타)
   - 삼환 항우울제 (TCA):
     - 예: 아미트립틸린, 노르트립틸린
-  - 비전형 항우울제: 
+  - 비전형 항우울제:
     - 예: 부프로피온(웰뷰트린), 미르타자핀(레메론)
   - 단일아민 산화효소 억제제 (MAOI):
     - 예: 페넬진(나디릴), 트랄린시프로민(파르네이트)
-  
+
 - 부작용: 멘티가 자신의 항우울제 복용과 관련된 것으로 여기는 어떤 부작용에 대해 언급한 부분을 식별하십시오.
 
 예시:
@@ -152,7 +217,18 @@ PROMPT_MENTAL_HEALTH_COACHING = """
 """
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 반복 개선 프로세스
 
@@ -167,8 +243,18 @@ PROMPT_MENTAL_HEALTH_COACHING = """
 
 예를 들어, 위 시나리오에서 모델이 다른 약물에 대한 정보를 추출하기 시작하는 것을 발견하면 — 즉, Xanax와 같은 진정제나 Lithium과 같은 분위기 조절제에 대한 세부 정보를 잘못 추출하는 경우 — 이러한 흔히 혼란스러운 약물을 명시적으로 나열하여 제외 기준을 수정합니다. 이렇게 하면 모델이 항우울제와 그와 관련된 부작용에만 집중하도록 보장하여 추출 프로세스를 더 정확하고 관련성 높게 개선할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-08-17-SimplifyInformationExtractionAReusablePromptTemplateforGPTModels_4.png)
 
@@ -181,8 +267,18 @@ PROMPT_MENTAL_HEALTH_COACHING = """
 
 ## 결론
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 여기까지 오신 것을 축하드립니다! 아마도 이 프롬프트 템플릿이 정보 추출 작업을 간편화하는 약속을 정말 지킬 수 있는지 궁금해하고 계실 것입니다. 사실, 이 템플릿이 여러분의 작업에 어떻게 작용할지에 대해서는 전혀 모르겠습니다. 하지만 이 템플릿은 적어도 열두 번 이상의 의료 정보 추출 작업에서 조합되어 왔고, 의료 시나리오에서 높은 정밀도가 중요한 환경에서 전투를 거쳐 왔으며, 제 작업 흐름에서 핵심이 되어, 항상 신뢰할 수 있는 결과를 제공해 왔습니다.
 

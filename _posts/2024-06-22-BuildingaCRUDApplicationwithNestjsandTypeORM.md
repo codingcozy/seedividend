@@ -3,16 +3,13 @@ title: "Nestjs와 TypeORM으로 CRUD 애플리케이션 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-22-BuildingaCRUDApplicationwithNestjsandTypeORM_0.png"
 date: 2024-06-22 02:22
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-BuildingaCRUDApplicationwithNestjsandTypeORM_0.png
 tag: Tech
 originalTitle: "Building a CRUD Application with Nest.js and TypeORM"
 link: "https://medium.com/@pawanrijal/building-a-crud-application-with-nest-js-and-typeorm-352a02c46234"
 isUpdated: true
 ---
-
-
-
 
 ![그림](/assets/img/2024-06-22-BuildingaCRUDApplicationwithNestjsandTypeORM_0.png)
 
@@ -22,7 +19,18 @@ Nest는 효율적이고 확장 가능하며 신뢰할 수 있는 서버 측 애�
 
 # 필요 조건
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시작하기 전에 먼저 컴퓨터에 Node.js와 npm이 설치되어 있는지 확인해주세요. 다음 명령을 실행하여 Nest CLI를 전역으로 설치할 수 있습니다:
 
@@ -34,7 +42,18 @@ npm install -g @nestjs/cli
 
 새로운 Nest.js 프로젝트를 생성해봅시다. 터미널을 열고 다음 명령을 실행해주세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 nest new nest-crud-tutorial
@@ -50,7 +69,18 @@ npm install @nestjs/typeorm typeorm
 
 우리는 데이터베이스로 PostgreSQL을 사용할 것이기 때문에 해당 패키지를 설치해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm install pg
@@ -71,20 +101,31 @@ MODE=DEV
 RUN_MIGRATIONS=true
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기본으로 생성된 파일 app.module.ts에서 TypeORM을 구성하십시오.
 
 ```js
-import { Module } from '@nestjs/common';
-import { AppController } from './app.controller';
-import { AppService } from './app.service';
-import { TypeOrmModule } from '@nestjs/typeorm';
+import { Module } from "@nestjs/common";
+import { AppController } from "./app.controller";
+import { AppService } from "./app.service";
+import { TypeOrmModule } from "@nestjs/typeorm";
 
 @Module({
   imports: [
     TypeOrmModule.forRoot({
-      type: 'postgres',
+      type: "postgres",
       host: process.env.POSTGRES_HOST,
       port: parseInt(process.env.POSTGRES_PORT),
       password: process.env.POSTGRES_PASSWORD,
@@ -105,7 +146,18 @@ export class AppModule {}
 
 다음 명령어로 nest-cli를 사용하여 DTO, 엔티티, 컨트롤러 및 서비스를 생성할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 nest g resource user
@@ -117,14 +169,21 @@ nest g resource user
 
 이제 TypeORM을 사용하여 엔티티를 생성하여 데이터 모델을 정의해 봅시다. 이 예시에서는 fullName과 email 속성을 갖는 간단한 User 엔티티를 생성할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```ts
-import {
-  Entity,
-  PrimaryGeneratedColumn,
-  Column,
-} from 'typeorm';
+import { Entity, PrimaryGeneratedColumn, Column } from "typeorm";
 
 @Entity()
 export class User {
@@ -145,18 +204,27 @@ export class User {
 
 유효성 검사를 위해 nest는 기본적으로 오류 처리를 위한 검증 파이프를 제공합니다. main.ts 파일에서 검증 파이프를 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-import { NestFactory } from '@nestjs/core';
-import { AppModule } from './app.module';
-import { ValidationPipe } from '@nestjs/common';
+import { NestFactory } from "@nestjs/core";
+import { AppModule } from "./app.module";
+import { ValidationPipe } from "@nestjs/common";
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
-  app.useGlobalPipes(
-    new ValidationPipe({ whitelist: true }),
-  );
+  app.useGlobalPipes(new ValidationPipe({ whitelist: true }));
   await app.listen(3000);
 }
 bootstrap();
@@ -170,14 +238,21 @@ npm install class-validator
 
 이제 createUserDto.ts 파일에 DTO를 생성하세요. 이는 사용자의 데이터 스키마를 정의합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-import {
-  IsEmail,
-  IsNotEmpty,
-  IsString,
-} from 'class-validator';
+import { IsEmail, IsNotEmpty, IsString } from "class-validator";
 
 // create-user-dto
 export class CreateUserDto {
@@ -194,16 +269,26 @@ export class CreateUserDto {
 또한 CreateUserDto의 부분 유형인 update-user-dto.ts 파일을 만들고 null 값을 가질 수 있습니다.
 
 ```js
-import { PartialType } from '@nestjs/mapped-types';
-import { CreateUserDto } from './create-user.dto';
+import { PartialType } from "@nestjs/mapped-types";
+import { CreateUserDto } from "./create-user.dto";
 
 export class UpdateUserDto extends PartialType(CreateUserDto) {}
 ```
 
 # 6단계: 서비스 만들기
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로, TypeORM을 사용하여 데이터베이스와 상호작용하는 서비스를 생성하세요. 유저 서비스에서는 TypeORM에 의해 생성된 엔티티에서 의존성 주입을 통해 만들어진 저장소를 초기화해야 합니다. 서비스 레이어는 애플리케이션의 비즈니스 로직을 처리합니다.
 
@@ -278,7 +363,18 @@ export class UserService {
 
 HTTP 요청을 처리하고 서비스와 상호작용하는 컨트롤러를 만들어보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import {
@@ -403,23 +499,32 @@ export class UserController {
 이제 서비스, 컨트롤러 및 엔티티를 연결해보겠습니다. Nest.js는 애플리케이션 구성 요소를 관리하기 위해 의존성 주입을 사용합니다. 서비스 및 컨트롤러를 user.module.ts 파일에 import 및 등록해야 합니다.
 
 ```js
-import { Module } from '@nestjs/common';
-import { UserService } from './user.service';
-import { UserController } from './user.controller';
-import { TypeOrmModule } from '@nestjs/typeorm';
-import { UserEntity } from './entities/user.entity';
+import { Module } from "@nestjs/common";
+import { UserService } from "./user.service";
+import { UserController } from "./user.controller";
+import { TypeOrmModule } from "@nestjs/typeorm";
+import { UserEntity } from "./entities/user.entity";
 
 @Module({
-  imports: [
-    TypeOrmModule.forFeature([UserEntity]),
-  ],
+  imports: [TypeOrmModule.forFeature([UserEntity])],
   controllers: [UserController],
   providers: [UserService],
 })
 export class UserModule {}
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 축하합니다! Nest.js와 TypeORM을 사용하여 기본 CRUD 애플리케이션을 성공적으로 만드셨군요. 프로젝트 설정, 데이터 모델 정의, 서비스 및 컨트롤러 구현, 애플리케이션 테스트 등을 다뤘습니다. 이것은 시작에 불과합니다. Nest.js와 TypeORM은 견고한 백엔드 애플리케이션을 구축하기 위한 다양한 기능을 제공합니다.
 

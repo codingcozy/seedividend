@@ -3,17 +3,13 @@ title: "Sniper-CSS, 사용하지 않은 스타일을 찾아서 제거하는 방�
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Sniper-CSS, avoid unused styles"
 link: "https://medium.com/better-programming/sniper-css-avoid-unused-styles-835abfda3284"
 isUpdated: true
 ---
-
-
-
-
 
 ## 앱 성능 향상하기
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ![이미지](/assets/img/Sniper-CSSavoidunusedstyles_0.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 이런 과정을 거치게 될 거에요:
 
@@ -35,7 +42,18 @@ isUpdated: true
 
 # 1. 3rd-party CSS에서 필요할 때만 사용하는 맞춤 CSS로 변경하기.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일일 프론트엔드 개발자의 일상에서 스타일 라이브러리(예: 부트스트랩, Tailwind)를 사용하는 것은 흔한 작업입니다.
 
@@ -45,7 +63,18 @@ Chrome의 개발자 도구에는 Coverage라는 매우 흥미로운 도구가 �
 
 \*이에 대해 자세히 이해하려면 Coverage 도구 사용 설명서를 확인해 보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 우리가 있는 곳.
 
@@ -55,7 +84,18 @@ Chrome의 개발자 도구에는 Coverage라는 매우 흥미로운 도구가 �
 
 공식 부트스트랩 문서에서는 전체 미니파이드 패키지(225.97 kB)를 설치하라고 안내합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
@@ -69,7 +109,18 @@ https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/
 
 내 경우에는 유틸리티.css (104.09 kB)와 그리드.css (68.28 kB)만 필요하다는 것을 알고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 시점에서, 우리는 다음과 같은 커버리지를 가지고 있어요. 사용되지 않는 스타일이 92%라구요.
 
@@ -79,7 +130,18 @@ https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/
 
 ![Sniper-CSSavoidunusedstyles_2](/assets/img/Sniper-CSSavoidunusedstyles_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금은 부트스트랩에 집중해보죠. 🧙‍♂️ 마법 같은 기술이 나옵니다.
 
@@ -89,7 +151,18 @@ https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/
 
 그렇게 된다면 좋겠죠?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 내 최신 기여물이 있어요:
 
@@ -99,7 +172,18 @@ https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/
 
 설치한 후 사용하기 정말 쉬워요. 사이트를 열고 확장 프로그램을 클릭한 후 '스나이퍼 활성화' 버튼을 클릭하면 플러그인이 작업을 수행해줄 거에요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 확장 프로그램은 사이트의 모든 가능한 시나리오를 수집하려고 합니다: 다양한 클라이언트 디스플레이, 사용자 에이전트, 다크 및 라이트 테마, 전체 페이지 스크롤, 각 요소의 가상 상태 등등.
 
@@ -113,7 +197,18 @@ https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/
 
 ## 결과
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 여전히 기본 Astro 스타일을 사용하고 있지만 이제는 Sniper-CSS bootstrap_custom.css 파일을 갖고 있어요.
 
@@ -123,7 +218,18 @@ https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/
 
 우리는 212kB의 스타일로 시작했지만 지금은 딱 32.1kB만 남았어요. 🔥
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 작업 후 스타일이 약간 증가했습니다. 이는 일부 인라인 코드나 로컬 스타일이 중복되었을 수 있기 때문입니다.
 
@@ -133,7 +239,18 @@ https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/
 
 구글 폰트 사용에 대한 커버리지 탭의 내용을 확인해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/Sniper-CSSavoidunusedstyles_6.png" />
 
@@ -143,7 +260,18 @@ https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/
 
 더 많은 정보를 알고 싶다면 Quora를 확인해보세요. 또는 Google이 이에 대해 어떻게 생각하는지 읽어볼 수도 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다시 한번 이 예시 사이트에서 전 세계 모든 언어에 대한 완전한 지원을 원하지 않는다는 것을 알았어요. 라틴어만 지원하면 돼요.
 
@@ -153,7 +281,18 @@ https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/
 
 ### 3. CSS 구조를 어떻게 다시 작성할지 다시 생각해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 CSS를 개선하고 싶다면, 여기 몇 가지 조언이 있어요:
 
@@ -163,7 +302,18 @@ https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/
 
 이것을 기억해두세요. 이것은 사이트 메트릭스를 개선하려고 시도할 때 이상적으로 한 번 해야 하는 작업이에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 어떤 규칙을 잃어버리셨나요? 혹은 반복된 규칙을 발견하셨나요?
 
@@ -173,7 +323,18 @@ https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/
 
 # 마무리
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Coverage를 비교해보겠습니다. 이전과 이후에 어떻게 변화되었는지 살펴보죠.
 
@@ -183,7 +344,18 @@ Coverage를 비교해보겠습니다. 이전과 이후에 어떻게 변화되었
 
 ![이미지](/assets/img/Sniper-CSSavoidunusedstyles_8.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 이후:
 
@@ -193,7 +365,18 @@ Coverage를 비교해보겠습니다. 이전과 이후에 어떻게 변화되었
 
 전체 CSS 양을 84.91% 줄였습니다. 🎉
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 더 줄일 수도 있어요!
 
@@ -203,7 +386,18 @@ Coverage를 비교해보겠습니다. 이전과 이후에 어떻게 변화되었
 
 ![Sniper-CSSavoidunusedstyles_10.png](/assets/img/Sniper-CSSavoidunusedstyles_10.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/Sniper-CSSavoidunusedstyles_11.png" />
 

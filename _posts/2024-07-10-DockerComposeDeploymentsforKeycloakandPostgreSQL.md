@@ -3,16 +3,13 @@ title: "Docker Compose로 Keycloak과 PostgreSQL 배포하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-10-DockerComposeDeploymentsforKeycloakandPostgreSQL_0.png"
 date: 2024-07-10 02:10
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-10-DockerComposeDeploymentsforKeycloakandPostgreSQL_0.png
 tag: Tech
 originalTitle: "Docker Compose Deployments for Keycloak and PostgreSQL"
 link: "https://medium.com/@disa2aka/docker-deployments-for-keycloak-and-postgresql-e75707b155e5"
 isUpdated: true
 ---
-
-
-
 
 # 키클로크란 무엇인가요?
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 키클로크를 사용하면 여러 애플리케이션과 서비스에 걸쳐 사용자, 역할 및 권한을 더 쉽게 관리할 수 있도록 한 곳에서 사용자 관리를 중앙 집중화할 수 있습니다. 이는 기존 사용자 디렉터리인 LDAP 또는 Active Directory와 통합할 수 있는 사용자 연합을 지원합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 싱글 사인온(SSO) 및 싱글 로그아웃
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 키클로크는 소셜 로그인을 지원하여 사용자가 구글, 페이스북, 트위터 등 소셜 미디어 계정을 사용해 로그인할 수 있습니다. 이 기능은 사용자 경험을 향상시키며 등록 및 로그인 프로세스를 간소화합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 다중인증 (MFA)
 
@@ -42,7 +61,18 @@ isUpdated: true
 
 Keycloak은 인증 및 권한 부여를 위해 OpenID Connect (OIDC) 및 SAML 2.0과 같은 현대 프로토콜을 구현하여 여러 응용 프로그램과 호환성을 갖추고 다양한 응용 프로그램과 호환성을 가집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 사용자 정의 가능한 테마
 
@@ -52,7 +82,18 @@ Keycloak이 제공하는 로그인 페이지의 느낌과 디자인은 귀하의
 
 Keycloak은 체계, 사용자, 역할 및 권한을 관리하기 위한 쉽게 사용할 수 있는 웹 기반 관리 콘솔을 제공합니다. Keycloak의 '렐름'이라는 공간은 사용자, 자격 증명, 역할 및 그룹을 관리하는 곳입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 보안
 
@@ -62,7 +103,18 @@ Keycloak은 SSL/TLS, 비밀번호 정책, 브루트 포스 탐지 등 다양한 
 
 Keycloak은 토큰 (JWT 토큰 또는 SAML 어설션)을 사용하여 애플리케이션 API를 안전하게 보호할 수 있습니다. 보호되는 자원과 해당 자원에 액세스할 수 있는 역할 또는 클라이언트를 쉽게 정의할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 확장성 및 고가용성
 
@@ -72,7 +124,18 @@ Keycloak은 확장 가능하도록 설계되어 있으며 고가용성 구성으
 
 도커 컴포즈.yml 파일
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 버전: '3.7'
@@ -125,17 +188,27 @@ Keycloak은 확장 가능하도록 설계되어 있으며 고가용성 구성으
 .env 파일
 
 ```js
-POSTGRES_DB=keycloak_db
-POSTGRES_USER=keycloak_db_user
-POSTGRES_PASSWORD=keycloak_db_user_password
-KEYCLOAK_ADMIN=admin
-KEYCLOAK_ADMIN_PASSWORD=password
+POSTGRES_DB = keycloak_db;
+POSTGRES_USER = keycloak_db_user;
+POSTGRES_PASSWORD = keycloak_db_user_password;
+KEYCLOAK_ADMIN = admin;
+KEYCLOAK_ADMIN_PASSWORD = password;
 ```
 
 # 서비스
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 PostgreSQL 서비스 (postgres):
 
@@ -154,7 +227,18 @@ Keycloak 서비스 (keycloak):
 - 종속성: Postgres 서비스에 종속성을 선언하여 먼저 시작되도록 합니다.
 - 네트워크: keycloak_network에도 연결되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 볼륨
 
@@ -164,7 +248,18 @@ Keycloak 서비스 (keycloak):
 
 **keycloak_network**: 브릿지 드라이버를 사용하여 Keycloak과 PostgreSQL 컨테이너 간 통신을 용이하게 하는 사용자 정의 네트워크.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 환경 변수
 
@@ -174,7 +269,18 @@ Keycloak 서비스 (keycloak):
 
 이 Docker Compose 파일은 Keycloak과 PostgreSQL을 설정하여 인증 시스템과 데이터 저장 공간을 제공합니다. 서비스 구성을 지정하며, 접근을 위한 환경 변수와 서비스 간 통신을 위한 사용자 정의 네트워크를 설정합니다. 개발에 이상적이며, 이 설정은 애플리케이션 인증 관리를 위한 기반을 마련합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 소스 코드
 

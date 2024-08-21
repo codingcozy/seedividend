@@ -3,16 +3,13 @@ title: "인라인 스타일과 CSS의 성능 차이 정리 및 비교"
 description: ""
 coverImage: "/assets/img/2024-05-27-AreinlinestylesbetterthanCSSperformancedifferences_0.png"
 date: 2024-05-27 19:06
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-AreinlinestylesbetterthanCSSperformancedifferences_0.png
 tag: Tech
 originalTitle: "Are inline styles better than CSS performance differences?"
 link: "https://medium.com/stackademic/are-inline-styles-better-than-css-performance-differences-6d04d424bb6a"
 isUpdated: true
 ---
-
-
-
 
 ![Are inline styles better than CSS? Performance differences](/assets/img/2024-05-27-AreinlinestylesbetterthanCSSperformancedifferences_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 # 인라인 스타일:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인라인 스타일은 HTML 요소 내에서 직접 정의됩니다. 스타일 속성을 사용하여 스타일을 지정할 수 있습니다. 예시:
 
@@ -34,7 +42,18 @@ isUpdated: true
 
 CSS 스타일은 별도의 CSS 파일에 정의할 수 있고, HTML 문서에 연결하거나 HTML 문서 내에 `style` 태그를 사용하여 포함시킬 수 있습니다. 예시:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <!-- 외부 CSS -->
@@ -56,7 +75,18 @@ CSS 스타일은 별도의 CSS 파일에 정의할 수 있고, HTML 문서에 �
 
 ## 인라인 스타일:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이니셜 로드 시간: 인라인 스타일은 HTML 내에서 직접 정의되기 때문에 브라우저는 외부 스타일 시트를 로드하기 위해 추가적인 요청을 보내지 않아도 됩니다. 특히 소규모 웹사이트의 경우, 이는 초기 로드 시간을 약간 줄일 수 있습니다.
 - 구문 분석 속도: 인라인 스타일은 HTML이 처리됨과 동시에 즉시 구문 분석됩니다. 소수의 인라인 스타일의 경우, 성능 차이는 무시할 수 있습니다. 그러나 인라인 스타일의 수가 증가함에 따라 오버헤드가 상당히 증가할 수 있습니다.
@@ -68,7 +98,18 @@ CSS 스타일은 별도의 CSS 파일에 정의할 수 있고, HTML 문서에 �
 
 # 렌더 성능
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 인라인 스타일:
 
@@ -80,7 +121,18 @@ CSS 스타일은 별도의 CSS 파일에 정의할 수 있고, HTML 문서에 �
 - 효율성: 외부 스타일시트는 한 번 로드되고 해석되면 여러 요소와 페이지에 스타일을 적용하는 데 효과적입니다. 중복을 줄이고 재사용성을 촉진하는 데 도움이 됩니다.
 - 브라우저 최적화: 최신 브라우저는 대용량 CSS 파일을 효율적으로 처리할 수 있는 최적화된 기능을 갖추고 있으며, CSS 최소화와 압축과 같은 기술은 성능을 더욱 향상시킵니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 실용적인 용도 및 최선의 방법
 
@@ -90,7 +142,18 @@ CSS 스타일은 별도의 CSS 파일에 정의할 수 있고, HTML 문서에 �
 
 전체 스타일시트에 영향을 미치지 않으면서 특정 스타일을 빠르게 테스트하거나 프로토타입을 만들 때 인라인 스타일은 빠르고 효과적인 해결책이 될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 동적 스타일링:
 
@@ -102,7 +165,18 @@ document.getElementById("myDiv").style.backgroundColor = "blue";
 
 # Critical Rendering Path:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 중요하거나 화면 상단에 표시되는 콘텐츠에는 인라인 스타일을 사용하여 외부 스타일시트가 로드될 때까지 기다리지 않고 즉시 필수 스타일이 적용될 수 있습니다.
 
@@ -112,7 +186,18 @@ document.getElementById("myDiv").style.backgroundColor = "blue";
 
 대규모 프로젝트의 경우 CSS 스타일시트를 사용하면 조직화, 유지보수 및 확장성이 더 잘 이루어집니다. 스타일은 콘텐츠와 분리되어 관리되며 관심사의 분리 원칙을 준수합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 재사용성:
 
@@ -122,7 +207,18 @@ CSS 스타일시트에 정의된 스타일은 여러 페이지와 요소에서 �
 
 외부 스타일시트는 브라우저에 의해 캐싱될 수 있어, 스타일시트를 한 번로드한 후에는 이후 페이지로드에 재사용할 수 있어 성능을 획기적으로 향상시킬 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 인라인 스타일과 CSS의 조합에 대한 최상의 방법
 
@@ -132,7 +228,18 @@ CSS 스타일시트에 정의된 스타일은 여러 페이지와 요소에서 �
 
 렌더링 차단 문제를 줄이기 위해 인쇄 스타일을 사용하여 필요한 중요한 CSS를 사용하여 위에서부터 페이지 콘텐츠를 로드합니다. 그런 다음 페이지의 나머지 부분을위한 외부 CSS를 로드하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2. 과도한 인라인 스타일 피하기:
 
@@ -142,7 +249,18 @@ CSS 스타일시트에 정의된 스타일은 여러 페이지와 요소에서 �
 
 비 비상요 속성과 재사용 가능한 스타일에 대해 외부 스타일시트를 선호하세요. 이렇게 하면 HTML을 깔끔하게 유지하고 스타일을 중앙 집중화하여 관리와 유지보수가 쉬워집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 4. CSS 전달 최적화:
 
@@ -154,7 +272,18 @@ CSS 스타일시트에 정의된 스타일은 여러 페이지와 요소에서 �
 
 동적으로 스타일을 적용할 때는 인라인 스타일보다 클래스 토글링을 선호합니다. 이렇게 하면 CSS의 힘을 활용하면서 HTML을 더 깔끔하게 유지할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 웹 애플리케이션의 성능 영향을 더 잘 이해하기 위해,
@@ -163,7 +292,18 @@ CSS 스타일시트에 정의된 스타일은 여러 페이지와 요소에서 �
 # 시나리오:
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 뉴스 웹사이트는 사용자 기호에 따라 동적으로 생성된 테마를 기반으로 기사를 표시해야 합니다. 이 테마에는 다양한 색상 구성표와 글꼴 스타일이 포함됩니다.
 
@@ -174,7 +314,18 @@ CSS 스타일시트에 정의된 스타일은 여러 페이지와 요소에서 �
 
 # 방법 2: CSS 스타일시트
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 장점: 스타일의 중앙 집중 관리, 캐싱을 통한 성능 향상, HTML 크기 감소.
 - 단점: 사용자 환경에 따라 올바른 클래스를 적용하기 위해 추가 로직이 필요합니다.
@@ -185,8 +336,18 @@ CSS 스타일시트에 정의된 스타일은 여러 페이지와 요소에서 �
 
 ## 인라인 중요 스타일:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 /* 뷰포트 상단 컨텐츠를 위한 필수 스타일 */
@@ -199,7 +360,7 @@ CSS 스타일시트에 정의된 스타일은 여러 페이지와 요소에서 �
 ## 스타일된 테마용 외부 CSS:
 
 ```html
-<link rel="stylesheet" href="themes.css">
+<link rel="stylesheet" href="themes.css" />
 <script>
   // 올바른 테마 클래스 적용을 위한 JavaScript
   function applyTheme(theme) {
@@ -207,14 +368,24 @@ CSS 스타일시트에 정의된 스타일은 여러 페이지와 요소에서 �
   }
 
   // 예시: 사용자 선호도 적용
-  applyTheme('dark-theme');
+  applyTheme("dark-theme");
 </script>
 ```
 
 ## Themes.css:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 dark-theme {
@@ -234,7 +405,18 @@ light-theme {
 
 일부 소스에 따르면, 특정 시나리오에서 인라인 스타일은 CSS 스타일시트보다 최대 2.4배 빠를 수 있으며 특히 중요한 내용 또는 화면 상단에 있는 내용을 렌더링할 때 이점이 있을 수 있습니다. 이 성능 향상은 스타일을 즉시 적용하면서 추가 HTTP 요청이나 외부 파일의 구문 분석 없이 가능하기 때문에 발생할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인라인 스타일은 핵심 렌더링 경로 및 동적 스타일링에 대한 성능 이점을 제공할 수 있지만, 사용량이 증가함에 따라 처리하기 번거로워지고 유지 관리하기 어려워질 수 있습니다. 반면 CSS 스타일시트는 더 나은 확장성과 유지 관리성을 제공하며 여러 페이지 로드에서 성능을 향상시키기 위해 브라우저 캐싱을 활용할 수 있습니다.
 
@@ -244,7 +426,18 @@ light-theme {
 
 끝까지 읽어주셔서 감사합니다. 떠나시기 전에:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 작가에게 박수를 보내 주시고 팔로우 부탁드려요! 👏
 - 저희를 팔로우해주세요 X | LinkedIn | YouTube | Discord

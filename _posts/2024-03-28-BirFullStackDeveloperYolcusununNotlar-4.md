@@ -3,17 +3,13 @@ title: "풀 스택 개발자라면 알아야할 CSS 팁들"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Bir Full Stack Developer Yolcusunun Notlar-4"
 link: "https://medium.com/@yasin-aydin/bir-full-stack-developer-yolcusunun-notlar%C4%B1-4-cbbee301664f"
 isUpdated: true
 ---
-
-
-
-
 
 ## CSS-2D 디멘션 및 단위
 
@@ -23,7 +19,18 @@ CSS에서 크기 조절은 HTML 요소의 너비, 높이, 여백 및 기타 디�
 
 1. 너비와 높이 (width, height):
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 div {
@@ -42,7 +49,18 @@ div {
 
 3. 테두리 (Border):
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 div {
@@ -60,7 +78,18 @@ div {
 
 5. 글꼴 크기 (Font Size):
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 p {
@@ -74,7 +103,18 @@ p {
 
 CSS에서 사용되는 사이즈 단위는 HTML 요소의 너비, 높이, 여백 및 기타 사이즈 속성을 지정하는 데 사용됩니다. 아래는 일반적으로 사용되는 몇 가지 사이즈 단위입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1. 픽셀(px):
    픽셀은 화면의 가장 작은 점이며 웹 디자인에서 가장 일반적으로 사용되는 크기 단위입니다. 픽셀 단위는 고정된 크기를 제공하며 브라우저에 의해 직접 해석됩니다.
@@ -99,7 +139,18 @@ css
  }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. EM (em):
    EM 단위는 요소의 글꼴 크기의 배수로 정의됩니다. 예를 들어, 요소의 `font-size` 속성이 16px이면, 1em은 16px이며, 2em은 32px가 될 것입니다.
@@ -123,7 +174,18 @@ css
  }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 5. 뷰포트 크기 (vw, vh, vmin, vmax):
    이 측정 단위는 브라우저 창의 크기에 따라 조절됩니다.

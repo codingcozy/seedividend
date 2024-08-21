@@ -3,16 +3,13 @@ title: "DOM-JON으로 더 나은 JS DOM 구축하기"
 description: ""
 coverImage: "/assets/img/2024-05-01-BetterJSDOMBuildingWithDOM-JONPart3TheStateObject_0.png"
 date: 2024-05-01 22:39
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-01-BetterJSDOMBuildingWithDOM-JONPart3TheStateObject_0.png
 tag: Tech
 originalTitle: "Better JS DOM Building With DOM-JON — Part 3 : The State Object"
 link: "https://medium.com/codex/better-js-dom-buildingwith-dom-jon-part-3-the-state-object-7f3ec5fc2b7a"
 isUpdated: true
 ---
-
-
-
 
 이번에는 현재 베타 릴리스와 몇 가지 예제를 함께 보여드릴 거에요. 지금부터 머니 샷으로 뛰어들겠습니다. 이것은 '기능 완료'로 베타 버전이에요. 이제 "기본 기능"으로 원했던 모든 것이 완료되었고 작동하는 것 같아요. 이제 안정성 테스트의 즐거움이 남아 있군요.
 
@@ -24,7 +21,18 @@ https://cutcodedown.com/for_others/domjon/domjon.beta1.min.js
 
 압축은 불필요한 공백을 제거한 간단한 방식이에요. 요즘의 많은 JS 기술/방법과 내 방법론은 대부분의 기존 "멋진" 압축과 호환되지 않는 것 같아요. 단순히 불필요한 공백을 제거하면, 압축 및 gzip을 걸친 라이브러리가 5k 미만이 된다면 괜찮아요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코미디 킹은 구글의 "Closure Compiler"가 "불필요한" 중괄호를 제거하면서 실제로 "IIFE를 대체하는 let/const" 기법을 망친다는 점입니다! 그들의 이른바 "화이트스페이스만" 설정에서조차... 그곳에는 화이트스페이스가 아닌 다수의 것들을 제거하고 변경합니다. "노력끈내보자"에 대해 얘기할 때입니다.
 
@@ -34,7 +42,18 @@ https://cutcodedown.com/for_others/domjon/domjon.beta1.min.js
 
 DOM-JON 시스템의 "상태" 객체는 자신에 대한 "속성", "필터", 그리고 "모니터"를 정의하는 메서드를 가지는 클래스입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 상태의 속성은 값이 할당될 때 '필터' 콜백을 호출하는 getter/setter입니다. 이를 통해 값의 유효성을 검사하거나 변환할 수 있습니다.
 
@@ -44,18 +63,29 @@ INPUT 또는 TEXTAREA 태그로 모니터를 생성하면 해당 값이 변경�
 
 위의 데모에서 간단한 모니터의 작동 방식을 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-"State" 객체는 전역 범위에 노출되지 않았거나 Export를 위해 설정되지 않았습니다. 대신, "document" 객체의 메서드를 호출하는 오래된 JS 관습을 따릅니다. 이 경우 document.__createState입니다. 초기 상태를 설정하기 위한 key/value 쌍을 포함하는 객체를 매개변수로 받습니다.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+"State" 객체는 전역 범위에 노출되지 않았거나 Export를 위해 설정되지 않았습니다. 대신, "document" 객체의 메서드를 호출하는 오래된 JS 관습을 따릅니다. 이 경우 document.\_\_createState입니다. 초기 상태를 설정하기 위한 key/value 쌍을 포함하는 객체를 매개변수로 받습니다.
 
 ```js
 const spectres = document.__createState({
-  "Kanan Jarrus" : 1,
-  "Hera Syndulla" : 2,
-  "Chopper" : 3,
-  "Garazeb Orrelios" : 4,
-  "Sabine Wren" : 5,
-  "Jacen Syndulla" : "-"
+  "Kanan Jarrus": 1,
+  "Hera Syndulla": 2,
+  Chopper: 3,
+  "Garazeb Orrelios": 4,
+  "Sabine Wren": 5,
+  "Jacen Syndulla": "-",
 });
 ```
 
@@ -63,7 +93,18 @@ const spectres = document.__createState({
 
 데모에서는 우리의 행을 담을 TBODY를 생성합니다. 나중에 그것을 가져오려고 애쓰지 않아도 되도록 따로 만들었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 tbody = document.createElement("tbody");
@@ -72,58 +113,75 @@ tbody = document.createElement("tbody");
 특별히 어떤 것도 할당하지 않았기 때문에, DOM-JON을 사용하여 시간을 낭비하지 않습니다. 그것은 데이터를 표시하는 테이블을 구성할 때 사용합니다.
 
 ```js
-document.getElementById("process").__make(
- "table@beforebegin.spectres",
- spectres,
- [ "caption", "Spectres" ],
- [ "thead",
-    [ "tr",
-      [ "th_col", "Name" ],
-      [ "th_col", "Callsign" ],
-      [ "th_col", "Notes" ]
+document
+  .getElementById("process")
+  .__make(
+    "table@beforebegin.spectres",
+    spectres,
+    ["caption", "Spectres"],
+    ["thead", ["tr", ["th_col", "Name"], ["th_col", "Callsign"], ["th_col", "Notes"]]],
+    tbody,
+    [
+      "tfoot",
+      [
+        "tr",
+        [
+          "td",
+          { colspan: 3 },
+          [
+            "button_button",
+            "Click to empty table",
+            {
+              onclick: (event) => {
+                tbody.__make("tr@replaceChildren", ["td", { colSpan: 3 }, "Empty"]);
+              },
+            },
+          ],
+        ],
+      ],
     ]
- ],
- tbody,
- [ "tfoot",
-    [ "tr",
-      [ "td", { colspan : 3}, 
-        [ "button_button",
-          "Click to empty table",
-          { onclick : (event) => {
-            tbody.__make(
-              "tr@replaceChildren",
-              [ "td", { colSpan : 3 }, "Empty" ]
-            );
-          } }
-        ]
-      ]
-  ]
- ]
-);
+  );
 ```
 
 나는 process ID를 잡아서 표는 그 앞에 삽입되고, 거기에 "specters" 클래스가 있는 것으로 설정합니다. 그 이후에는 보통의 표를 사용하며, `_` 연산자를 사용하여 `th` scope를 설정하고, 속성 객체를 사용하여 colspan을 설정합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 `tfoot`에는 `tr`과 함께 `tbody`의 내용을 지울 버튼이 있습니다. Domjon.js에서 새로운 기능인 "replaceChildren"과 "replaceWith"가 소개되었어요. 후자는 DOM에서 부모 요소를 대체하고, 전자는 부모의 모든 자식 노드를 대체합니다.
 
-그 중요한 점은 "spectres" State Object가 DOM-JON 인수로 전달된다는 것이에요. 이렇게 전달된 상태는 Element.__state로 첨부되며, 자식 요소는 Element.__closestState getter를 사용하여 가져올 수 있어요.
+그 중요한 점은 "spectres" State Object가 DOM-JON 인수로 전달된다는 것이에요. 이렇게 전달된 상태는 Element.**state로 첨부되며, 자식 요소는 Element.**closestState getter를 사용하여 가져올 수 있어요.
 
 그런 다음 "spectres" State Object를 반복하여 `tbody`를 채워요:
 
 ```js
-spectres.__forEachEnumerable(
-  (name, callsign) => tbody.__make(
-   "tr",
-    [ "th_row", name ],
-    [ `td&${name}`, callsign ],
-    [ `td&note ${name}` ]
-  )
+spectres.__forEachEnumerable((name, callsign) =>
+  tbody.__make("tr", ["th_row", name], [`td&${name}`, callsign], [`td&note ${name}`])
 );
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 domjon.js에 추가된 새로운 "for each enumerable" 메서드를 소개합니다. "foreach" 스타일 메서드를 크게 선호하는 편은 아니지만, 편리함을 인정하며 제 입장만 생각하는 것은 아니라는 것도 인지하고 있어요.
 
@@ -133,14 +191,25 @@ DSS(구분자 선택기 문자열)에서의 & 기호는(있는 경우) 상위 �
 
 이제 데이터를 아는 분들은 누군가 빠졌다는 것을 알게 되었겠죠. 그래서 에즈라 브리저를 추가해 보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 tbody.lastElementChild.__make(
   "tr@beforeBegin",
-  [ "th_row", "Ezra Bridger" ],
-  [ `td&Ezra Bridger`, 6 ],
-  [ `td&note Ezra Bridger` ]
+  ["th_row", "Ezra Bridger"],
+  [`td&Ezra Bridger`, 6],
+  [`td&note Ezra Bridger`]
 );
 ```
 
@@ -152,7 +221,18 @@ spectres["note Ezra Bridger"] = "이 레코드는 나머지 뒤에 추가되었�
 
 Jacen은 분명히 "스펙터 7"입니다만, 거기에 하이픈이 있어요. 이건 쉽게 수정 가능하고, 거기에 노트도 추가해 봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 spectres["Jacen Syndulla"] = 7;
@@ -165,7 +245,18 @@ spectres["note Jacen Syndulla"] = "이 레코드의 값이 '-'에서 '7'로 변�
 
 <img src="/assets/img/2024-05-01-BetterJSDOMBuildingWithDOM-JONPart3TheStateObject_0.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 상대적으로 간단한 예제를 통해 스크립트만 사용하여 DOM 요소를 생성하고 상태를 만들고 상태의 값을 수정하는 방법을 보여드리겠습니다.
 
@@ -175,11 +266,33 @@ spectres["note Jacen Syndulla"] = "이 레코드의 값이 '-'에서 '7'로 변�
 
 따라서 다음 예제인 시계에서 필터를 구현하는 방법을 보여드리겠습니다. 이를 통해 모든 "로직" 코드가 Date의 getSeconds, getMinutes 및 getSeconds를 변수에 저장하고 필터가 style.rotate의 각도로 변환하는 작업을 처리한다는 것을 보여드리겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-시계 바늘은 필터를 가진 것들입니다. DOM-JON 속성 객체에서 "__filters"는 콜백일 수도 있고 getter에 연결할 여러 콜백의 배열일 수도 있습니다. 이러한 방법은 NODE에만 적용됩니다.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+시계 바늘은 필터를 가진 것들입니다. DOM-JON 속성 객체에서 "\_\_filters"는 콜백일 수도 있고 getter에 연결할 여러 콜백의 배열일 수도 있습니다. 이러한 방법은 NODE에만 적용됩니다.
+
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 필터 메소드가 null (값이 없는 경우의 기본값)이나 정의되지 않은 값을 반환한다면? 일반 노드 지정 핸들러(텍스트영역/data/value)가 호출되지 않습니다. 만약 실제 값 대신 사용할 값을 반환한다면, 값을 "필터링"하는 것이 가능합니다. 이는 toLocaleFormat를 통해 숫자를 서식화하는 등 유용할 수 있습니다.
 
@@ -189,27 +302,31 @@ spectres["note Jacen Syndulla"] = "이 레코드의 값이 '-'에서 '7'로 변�
 
 그 결과, 시계의 전체 "로직"은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 function clockUpdate() {
-  
-  const
-    now = new Date(),
+  const now = new Date(),
     hours = now.getHours(),
-    ms = (
-      clock.smooth ?
-      now.getMilliseconds() / 1000 :
-      Math.max(0, (now.getMilliseconds() - 940) / 60)
-    );
-    
+    ms = clock.smooth ? now.getMilliseconds() / 1000 : Math.max(0, (now.getMilliseconds() - 940) / 60);
+
   clock.seconds = now.getSeconds() + ms;
   clock.minutes = now.getMinutes();
   clock.hours = hours % 12;
   clock.amPm = hours >= 12 ? "PM" : "AM";
-  
+
   requestAnimationFrame(clockUpdate);
-  
 } // clockUpdate
 
 clockUpdate();
@@ -221,7 +338,18 @@ clockUpdate 함수는 시간을 가져와서 "hours"를 분리하고, "hours"와
 
 이것을 생각해보세요. 고려해보세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 시계.시간 = 8;
@@ -236,13 +364,24 @@ clockUpdate 함수는 시간을 가져와서 "hours"를 분리하고, "hours"와
 
 # 구현
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새 "State" 객체는 domjon.js의 나머지 부분에서 몇 가지 구현 변경이 필요합니다. 이 기사의 이 부분은 새로운 코드를 대략적으로 설명하면서 매우 지루해질 것입니다. 지루한 걸 좋아하지 않나요? 그렇다면 위에 대해 만족하고 다음 기사를 기다리세요.
 
 먼저 DOM-JON 메소드, 속성 및 변수에 대해 이야기해 봅시다. "internal"로 표시된 것들은 최종 개발자에게 노출되지 않습니다.
 
-## Object.__forEachEnumerable
+## Object.\_\_forEachEnumerable
 
 ```js
   __forEachEnumerable : { value : function(callback, thisArg, ...args) {
@@ -253,9 +392,20 @@ clockUpdate 함수는 시간을 가져와서 "hours"를 분리하고, "hours"와
   } }, // Object.prototype.__forEachEnumerable
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-객체의 열거 가능한 키/값 쌍을 통해 반복하기 위한 foreach. "myObject.__entries.foreach"를 직접 입력할 수도 있지만, 저는 이것이 별도의 함수로 만들어지기를 정말로 원합니다.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+객체의 열거 가능한 키/값 쌍을 통해 반복하기 위한 foreach. "myObject.\_\_entries.foreach"를 직접 입력할 수도 있지만, 저는 이것이 별도의 함수로 만들어지기를 정말로 원합니다.
 
 내부에서 사용할 텍스트(const texts)
 
@@ -263,7 +413,18 @@ clockUpdate 함수는 시간을 가져와서 "hours"를 분리하고, "hours"와
 
 ## 폭탄 (내부, Error를 확장함)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 어떤 누군가가 우리에게 폭탄을 설치했습니다.
@@ -281,7 +442,18 @@ Bomb = class extends Error {
 
 값에 대해 많이 하는 "표준" 확인이 많이 있습니다. JavaScript가 마구 진행하게 두는 대신에 오류를 던지는 것이 편리합니다. 프로그램에서 할 수 있는 가장 좋은 오류 처리는 포기하고 "넌 지나갈 수 없어!!!" 라고 말하는 것이라고 저는 굳게 믿습니다. 유감스럽게도 JavaScript와 HTML은 이런 면에서 너무나 관대합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `throw`은 너의 친구야, 자주 사용해. 정말 많이.
 
@@ -310,7 +482,18 @@ bombTypeMismatch 함수의 "types" 매개변수는 타입명을 포함한 문자
 
 어리석은 생각이지만, 아마 이것들을 확장된 Bomb 클래스의 정적 메소드로 만들어야 할지도 모르겠네? 좀 더 고민을 해봐야겠다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또 기억해야 할 점은 myVar != null은 null과 undefined 둘 다에 대해 true이라는 것입니다. (그리고 다른 경우는 없습니다). 알아 두면 유용하며, 약삭빠진 전문가들에게는 "너무 어려워"라며 초보자들을 현혹시키는 데 사용합니다. 계속 말하듯이, 느슨한 형변환을 활용하는 대신 싸우는 대신 느슨한 형변환을 활용하면 일이 훨씬 쉬워집니다.
 
@@ -324,11 +507,22 @@ warn = (messageName, ...args) => {
 }, // warn
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## makeData.delimiters (내부)
 
-우리는 DSS에 "＆"을 "__stateName"으로 정의하였습니다.
+우리는 DSS에 "＆"을 "\_\_stateName"으로 정의하였습니다.
 
 ```js
      delimiters : [
@@ -343,118 +537,117 @@ warn = (messageName, ...args) => {
       ], // makeData.delimiters
 ```
 
-## document.__make
+## document.\_\_make
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-document.__make의 책임에 대한 많은 변화가 있었어요. Element.__make의 "부담"을 덜어 주기 위해서요.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+document.**make의 책임에 대한 많은 변화가 있었어요. Element.**make의 "부담"을 덜어 주기 위해서요.
 
 ```js
-document.__defineProps( {
+document.__defineProps({
+  __createState: (initialProps) => new State(initialProps),
 
-    __createState : (initialProps) => new State(initialProps),
+  __make: (selector, ...attach) => {
+    let parts = { attr: {}, data: {}, define: {} },
+      value;
 
-    __make : (selector, ...attach) => {
+    for (const [delimiter, typeName, attrName] of makeData.delimiters) {
+      [selector, value] = selector.split(delimiter, 2);
+      if (value) parts[typeName][attrName] = value;
+    }
 
-      let
-        parts = { attr : {}, data : {}, define : {} },
-        value;
+    const tagName = (selector || "span").toLowerCase(),
+      namespace = parts.data.namespace
+        ? parts.data.namespace.indexOf("http://") === 0
+          ? parts.data.namespace
+          : makeData.namespaces[parts.data.namsspace.toUpperCase()] ?? makeData.namespaces.HTML
+        : makeData.namespaces.HTML,
+      element = Object.assign(document.createElementNS(namespace, tagName), parts.attr);
 
-      for (const [ delimiter, typeName, attrName ] of makeData.delimiters) {
-        [selector, value] = selector.split(delimiter, 2);
-        if (value) parts[typeName][attrName] = value;
+    if (!parts.define.__empty) {
+      parts.define.__forEachEnumerable(element.__define, element);
+    }
+
+    if (parts.data.value) element.setAttribute(makeData.values[tagName] ?? "value", parts.data.value);
+
+    if (parts.data.special) {
+      const attrName = makeData.special[tagName];
+      if (attrName) element.setAttribute(attrName, parts.data.special);
+      else warn("underscoreNotSupported", tagName, parts.data.special);
+    }
+
+    if (attach) element.__attach(...attach);
+
+    if (element.__stateName)
+      element.__closestState.addMonitor(element.__stateName, element.value ?? element.textContent ?? "", element);
+
+    if (element.__makeFilters) {
+      element.__addFilters(element.__makeFilters);
+    }
+
+    if (element.__makeParent) {
+      if (!element.__makePlace) element.__define("__makePlace", "beforeend");
+      // f*** case sensitivity
+      switch (element.__makePlace.toLowerCase()) {
+        case "replacechildren":
+          element.__makeParent.replaceChildren(element);
+          break;
+
+        case "replacewith":
+          element.__makeParent.replaceWith(element);
+          break;
+
+        default:
+          element.__makeParent.insertAdjacentElement(
+            element.__makePlace ? element.__makePlace.toLowerCase() : "beforeend",
+            element
+          );
       }
+    }
 
-      const
-        tagName = (selector || "span").toLowerCase(),
-        namespace = (
-          parts.data.namespace ? (
-            (parts.data.namespace.indexOf("http://") === 0) ?
-            parts.data.namespace :
-            (
-              makeData.namespaces[parts.data.namsspace.toUpperCase()] ??
-              makeData.namespaces.HTML
-            )
-          ) : makeData.namespaces.HTML
-        ),
-        element = Object.assign(
-          document.createElementNS(namespace, tagName),
-          parts.attr
-        );
-
-      if (!parts.define.__empty) {
-        parts.define.__forEachEnumerable(element.__define, element);
-      }
-
-      if (parts.data.value) element.setAttribute(
-        makeData.values[tagName] ?? "value",
-        parts.data.value
-      );
-
-      if (parts.data.special) {
-        const attrName = makeData.special[tagName];
-        if (attrName) element.setAttribute(attrName, parts.data.special);
-        else warn("underscoreNotSupported", tagName, parts.data.special);
-      }
-      
-      if (attach) element.__attach(...attach);
-      
-      if (element.__stateName) element.__closestState.addMonitor(
-        element.__stateName,
-        element.value ?? element.textContent ?? "",
-        element
-      );
-      
-      if (element.__makeFilters) {
-        element.__addFilters(element.__makeFilters);
-      }
-
-      if (element.__makeParent) {
-        if (!element.__makePlace) element.__define("__makePlace", "beforeend");
-        // f*** case sensitivity
-        switch (element.__makePlace.toLowerCase()) {
-
-          case "replacechildren":
-            element.__makeParent.replaceChildren(element);
-            break;
-
-          case "replacewith":
-            element.__makeParent.replaceWith(element);
-            break;
-
-          default:
-            element.__makeParent.insertAdjacentElement( (
-              element.__makePlace ?
-              element.__makePlace.toLowerCase() :
-              "beforeend"
-            ), element);
-
-        }
-      }
-
-      return element;
-
-    } // document.__make
-
-  } ); // document extensions
+    return element;
+  }, // document.__make
+}); // document extensions
 ```
 
 큰 변화는 다음과 같아요:
 
 - "warn"이 warn() 함수를 사용하도록 변경되어서 저의 texts() 조회를 사용하도록 했어요.
-- 새 Element에 __stateName이 설정되었다면, 이 노드를 상태에 연결해요.
-- __stateFilters가 설정되었다면 (__attach에 의해), 그 노드 필터를 추가해요. 이를 적용하기 위해서는 노드가 할당된 후에 해야 해요. 그래야 이 객체에 상태가 할당되었다면, __closestState가 그것을 찾을 수 있어요.
-- 부모에 추가하는 작업은 여기서 이루어져요. Element.__make에서 매개변수로 __makeParent를 전달하는 것보다 여기서 해요. __makeParent는 또한 Element.__closestState 내에서 사용되어 부모 노드로 이동할 수 있어요. DOM이 연결/조립되기 전에 부모에 추가하지요.
+- 새 Element에 \_\_stateName이 설정되었다면, 이 노드를 상태에 연결해요.
+- **stateFilters가 설정되었다면 (**attach에 의해), 그 노드 필터를 추가해요. 이를 적용하기 위해서는 노드가 할당된 후에 해야 해요. 그래야 이 객체에 상태가 할당되었다면, \_\_closestState가 그것을 찾을 수 있어요.
+- 부모에 추가하는 작업은 여기서 이루어져요. Element.**make에서 매개변수로 **makeParent를 전달하는 것보다 여기서 해요. **makeParent는 또한 Element.**closestState 내에서 사용되어 부모 노드로 이동할 수 있어요. DOM이 연결/조립되기 전에 부모에 추가하지요.
 - ReplaceChildren과 RepalceWith가 추가되었고, insertAdjacentHTML 전에 switch/case를 통해 가로채졌어요.
 - 명확성을 위해 변수 이름을 "e"에서 "element"로 바꾼 거에요. 여기에는 최소주의와 "바이트 집착" 사이의 차이가 있지만, 저는 정말 전자를 선호해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내가 항상 말하는 것처럼:
 
 ## elementData.canType
 
-이 셋은 Element.__attach 내에서 특정 canAttach 유형을 처리하기 위해 사용됩니다. "Bomb"와 그와 관련된 함수를 사용하도록 다시 작성되었습니다.
+이 셋은 Element.\_\_attach 내에서 특정 canAttach 유형을 처리하기 위해 사용됩니다. "Bomb"와 그와 관련된 함수를 사용하도록 다시 작성되었습니다.
 
 ```js
     canType : {
@@ -483,7 +676,18 @@ document.__defineProps( {
     }, // elementData.canType
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 마크다운 형식으로 변경하세요.
 
@@ -501,7 +705,18 @@ document.__defineProps( {
     }, // elementData.argType
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## elementData.eachAttr
 
@@ -536,7 +751,7 @@ document.__defineProps( {
           return;
 
       }
-      
+
       switch (value.__type) {
         case "Array":
         case "Function":
@@ -552,7 +767,18 @@ document.__defineProps( {
 
 여러 가지 값들을 테스트하고 비교의 다대일을 테스트하기 때문에, 스위치/케이스는 객체나 맵 조회보다 더 깔끔합니다. 몇몇 과격한 사람들이 반대 의견을 내지르더라도, 중요한건 아니에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 짧은 회로 중단 반환의 사용은 코드를 더 깔끔하게 만든다고 생각해요.
 
@@ -560,9 +786,20 @@ document.__defineProps( {
 
 ## elementData.eachStyle
 
-__forEachEnumerable 내부에서 요소에 "this"를 적용하는 간단한 래퍼
+\_\_forEachEnumerable 내부에서 요소에 "this"를 적용하는 간단한 래퍼
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
     eachStyle : function(key, value) {
@@ -584,17 +821,28 @@ Object.assign(myElement.style, { "--rotateHand" : "20deg"; }); // X
 myElement.style.setProperty("--rotateHand", "20deg"); // 동작함
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이걸 무시하고 강제로 해야하는 것은 별로 좋아하지 않지만, 솔직히 스크립트에서 스타일을 설정하는 빈도가 충분히 낮아 추가적인 오버헤드가 성능에 영향을 미치지 않을 만큼 희박한 것 같아요.
 
-## Element.prototype.__addFilters
+## Element.prototype.\_\_addFilters
 
 노드 필터를 이 객체를 가리키는 노드 필터를 연결된 상태에 추가합니다.
 
 ```js
     __addFilters : function(filters, state) {
-      
+
       if (!this.__stateName) throw new Bomb(
         "filterNoStateName",
         "Element.prototype.__addFilters",
@@ -616,11 +864,22 @@ myElement.style.setProperty("--rotateHand", "20deg"); // 동작함
     }, // Element.prototype.__addFilters
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 상태가 없으면 폭탄을 설치합니다. 모든 상태는 우리에게 속해 있어요. 필터가 배열이 아니라면 배열로 넣어서 같은 루프/세트를 공유할 수 있도록 해주세요. 그런 다음 루프를 돌고 해당 상태의 setter를 호출하세요.
 
-## Element.prototype.__attach
+## Element.prototype.\_\_attach
 
 기능의 대부분이 하위 함수로 분리되어 있기 때문에, 이 핵심 부분은 알파 버전에서 크게 변경되지 않았어요.
 
@@ -681,11 +940,22 @@ myElement.style.setProperty("--rotateHand", "20deg"); // 동작함
     }, // Element.prototype.__attach
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대부분은 일반 오류가 발생하는 대신 Bomb으로 바뀝니다.
 
-## Element.prototype.__closestState
+## Element.prototype.\_\_closestState
 
 ```js
    __closestState : {
@@ -705,9 +975,20 @@ myElement.style.setProperty("--rotateHand", "20deg"); // 동작함
     }, // Element.prototype.__closestState
 ```
 
-가장 가까운 요소를 찾기 위해 DOM을 탐색합니다. __state 속성을 포함하는 요소를 찾을 때까지 계속 합니다. 상태를 찾지 못하면 Bomb이 발생합니다. 만약 parentNode가 없는 경우 DOM 탐색은 Element.__makeParent로 fallback되어, 실제 첨부를 수행하기 전에 연결된 상태를 찾을 수 있습니다.
+가장 가까운 요소를 찾기 위해 DOM을 탐색합니다. **state 속성을 포함하는 요소를 찾을 때까지 계속 합니다. 상태를 찾지 못하면 Bomb이 발생합니다. 만약 parentNode가 없는 경우 DOM 탐색은 Element.**makeParent로 fallback되어, 실제 첨부를 수행하기 전에 연결된 상태를 찾을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요소가 실제로 살아있기 전에 요소의 모든 속성을 설정하는 것이 이론적으로 더 빠르고 효율적이며 (이론상의?) 머리 아픈 문제를 피할 수 있습니다. 라이브 DOM에 대한 "전문가" 의견 중 얼마나 사실인지 더 테스트해봐야겠죠. 이미 그 중 상당 부분은 알고 있지만, 우리가 얼마나 더 빠진 부분들을 알아야 할지는 궁금합니다.
 
@@ -717,8 +998,18 @@ myElement.style.setProperty("--rotateHand", "20deg"); // 동작함
 
 이것은 단순한 래퍼(wrapper)로 다시 만들어졌습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
    __make : function(selector, ...args) {
@@ -732,13 +1023,24 @@ myElement.style.setProperty("--rotateHand", "20deg"); // 동작함
     }, // Element.prototype.__make
 ```
 
-새 Element가 첨부될 때 자신을 __makeParent로 추가합니다. 그 외에도 무엇인가요? (아직은 많이 없습니다.)
+새 Element가 첨부될 때 자신을 \_\_makeParent로 추가합니다. 그 외에도 무엇인가요? (아직은 많이 없습니다.)
 
-## Element.prototype.__setAttr
+## Element.prototype.\_\_setAttr
 
 elementData.eachAttr를 사용하여 속성과 속성을 설정합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
     __setAttr : function(attr) {
@@ -752,11 +1054,22 @@ elementData.eachAttr를 사용하여 속성과 속성을 설정합니다.
 
 당연히 `__type`에 따라 일반 객체가 아닌 경우에는 폭탄 터질 겁니다.
 
-## Element.prototype.__setStyle
+## Element.prototype.\_\_setStyle
 
 일반 객체(key/value 쌍)에서 스타일을 "this"에 설정합니다. 확장된 객체는 폭탄 터질 겁니다. 기능적으로 `__setAttr`과 유사합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 __setStyle : function(style) {
@@ -806,7 +1119,18 @@ StateRender = class {
 }, // StateRender
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 거기 중요한 것은 filter() 메커니즘이 null 결과를 만나면 Node에 값을 설정하지 않는다는 것입니다. 이 방법은 작동하지만 여러 개의 "노드 필터"가 필요한 경우 문제를 일으킬 수 있습니다. 이 메커니즘을 강화해야 할 필요가 있다고 생각하지만 어떻게 해야할지 확실히는 모르겠어요. filter의 인수 개수를 늘리고 배열이나 객체를 반환하여 원래 값도 전달하게 할까요? 아니면 "설정하지 말기" 부울 값을 추가할까요? 잘 생각해보고 내일 답을 드릴게요.
 
@@ -816,7 +1140,18 @@ StateRender = class {
 
 # 상태 객체
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마침내 여기에 도착했고 준비가 완료되었어요...
 
@@ -826,7 +1161,18 @@ StateRender = class {
 
 ### State::constructor
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
       constructor(initialProps) {
@@ -844,13 +1190,24 @@ StateRender = class {
       } // State::constructor
 ```
 
-__type을 정의해서 (계산 비용이 많이 드는) Object.prototype.__type 메서드를 건너뛸 수 있습니다.
+**type을 정의해서 (계산 비용이 많이 드는) Object.prototype.**type 메서드를 건너뛸 수 있습니다.
 
 맵을 생성합니다.
 
 만약 초기 프로퍼티를 전달하지 않았다면 간편하게 종료합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그렇다면 우리가 제네릭 오프젝트를 전달하지 않으면 실패합니다. 만약 제네릭이라면 각 속성을 키/값으로 추가합니다.
 
@@ -860,21 +1217,32 @@ __type을 정의해서 (계산 비용이 많이 드는) Object.prototype.__type 
 
 이 부분은 상당히 많은 작업이 필요하지만, 설정해야 할 것이 많습니다. 여기서 조각조각 나눠 설명하겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
       addProperty(name, data) {
-        
+
         let
           value, setFilters, getFilters,
           store = this.#properties.get(name);
-          
+
         if ("Object" == data.__type) {
           value = data.value;
           getFilters = data.getFilters;
           setFilters = data.setFilters;
         } else value = data;
-          
+
         if ("undefined" !== typeof store) {
           if ("undefined" !== typeof value) store.value = value;
           if (getFilters) store.addGetFilters(getFilters);
@@ -889,7 +1257,18 @@ __type을 정의해서 (계산 비용이 많이 드는) Object.prototype.__type 
 
 안타깝게도 객체 구조 분해는 새로운 var/let/const로만 작동하며 기존 변수에서는 작동하지 않습니다. 따라서 이를 억지로 처리해야 합니다. 그렇지 않으면 VAR를 사용하는 것으로 돌아가야 합니다. 아니, 지금 VAR를 사용할지도 모르겠네요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 실은, let/const의 존재만으로 var을 완전히 사용하지 말아야 하는 이유는 전혀 없어요. 이건 마치 "레이아웃으로 테이블 사용하지 말라"를 "테이블 사용 금지"로 변형한 것과 같거나, "적절한 경우 `em` / `strong` 사용"을 "절대 `b` 나 `i` 사용하지 말라"로 만든 것 같아요. 100% 무지한 헛소리가 들려오는군요.
 
@@ -897,9 +1276,9 @@ __type을 정의해서 (계산 비용이 많이 드는) Object.prototype.__type 
 
 ```js
 addProperty(name, ...args) { // valueOrObj, getFilters, setFilters
-  
-  let store = this.#properties.get(name); 
-  
+
+  let store = this.#properties.get(name);
+
   if ("Object" == args[0].__type) {
     var { value, getFilters, setFilters } = args[0];
   } else {
@@ -909,7 +1288,18 @@ addProperty(name, ...args) { // valueOrObj, getFilters, setFilters
 
 와우, 좋아요. 보세요, VAR는 함수 레벨 스코프만 필요한 경우에 뛰어날 수 있어요. 이렇게 하면 우리가 원하는 속성의 객체를 args[0]로 전달할 수 있고, 또는 값, getFilters, 그리고 setFilters를 인수로 전달할 수도 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 반응적인 랜트: 네, '인수(argument)'에 대해 이야기해볼게. 어제 나랑 놀려던 놈이 있었어. '그건 파라미터야, 넌 자기가 지어낸 이름을 쓰고 있는 거잖아!' 라는 식으로 듣기는 했지.
 
@@ -919,15 +1309,26 @@ addProperty(name, ...args) { // valueOrObj, getFilters, setFilters
 
 다음에는, 만약 스토어가 있다면, 새로운 값을 그냥 추가하고 필터를 적용할 수 있어. 나중에 호출된 메소드들은 나중에 다룰게. 실제로 이 부분을 쓸 때는 그 메소드들이 정의되지 않았었거든.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-        if ("undefined" !== typeof store) {
-          if ("undefined" !== typeof value) store.value = value;
-          if (getFilters) store.addGetFilters(getFilters);
-          if (setFilters) store.addSetFilters(setFilters);
-          return store;
-        }
+if ("undefined" !== typeof store) {
+  if ("undefined" !== typeof value) store.value = value;
+  if (getFilters) store.addGetFilters(getFilters);
+  if (setFilters) store.addSetFilters(setFilters);
+  return store;
+}
 ```
 
 위 코드에서 undefined인지를 확인함으로써 값이 바뀌지 않고 필터를 설정하기 위해 객체를 사용할 수 있습니다. 저는 함정으로 nullish를 사용할 것입니다. 그러나 "null"이 실제로 설정하고자 하는 유효한 값일 수도 있습니다.
@@ -936,33 +1337,51 @@ addProperty(name, ...args) { // valueOrObj, getFilters, setFilters
 
 그리고 이미 store가 있을 경우, 참조를 반환하여 빠져나가면 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기까지 왔는데 아직 저장소가 없으니 하나를 만들어야 합니다. 먼저 기존의 열거할 수 없는 속성 또는 메서드와 동일한 이름을 가진 getter/setter를 만들고 있는지 확인해 봅시다.
 
 ```js
-        if ((name in this) && !this.__hasOwn(name)) throw new Bomb(
-          "stateReservedKey",
-          "State.addProperty",
-          name
-        );
+if (name in this && !this.__hasOwn(name)) throw new Bomb("stateReservedKey", "State.addProperty", name);
 ```
 
 예약어 체크는 중요합니다. 이 체크를 하지 않아서 비슷한 코드가 망가졌던 횟수를 세어보니 많았죠.
 
 이 시점에서 정의되지 않은 이름을 ""로 필터링하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리의 store를 만들어 보세요:
 
 ```js
 store = {
-  addGetFilters: function(filters) {
+  addGetFilters: function (filters) {
     if (!(filters instanceof Array)) filters = [filters];
     for (const filter of filters) this.getFilters.add(filter);
   },
-  addSetFilters: function(filters) {
+  addSetFilters: function (filters) {
     if (!(filters instanceof Array)) filters = [filters];
     for (const filter of filters) this.setFilters.add(filter);
   },
@@ -971,23 +1390,51 @@ store = {
   name,
   nodes: new Map(),
   state: this,
-  value
+  value,
 };
 ```
 
 필터를 추가하고 세트와 맵을 만드는 몇 가지 함수들이 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저장소(store)에서 State에 대한 참조와 getter/setter 이름 state을 전달해 드립니다. 이는 이벤트 처리에 도움이 될 수 있습니다. 경우에 따라 "this" 범위를 잃을 때입니다. 그리고 기억하세요:
+
 ```js
-{ name }
+{
+  name;
+}
 ```
+
 는 다음과 동일한 기능을 합니다:
+
 ```js
 { "name": name }
 ```
-<div class="content-ad"></div>
+
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 많은 JS 프로그래머들이 이것을 모르다는 점에 놀랐어요.
 
@@ -1000,12 +1447,23 @@ if (getFilters) store.addGetFilters(getFilters);
 if (setFilters) store.addSetFilters(setFilters);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 "this.#setProperties"에 우리 상점을 넣어주세요.
 
 ```js
-        this.#properties.set(name, store);
+this.#properties.set(name, store);
 ```
 
 마지막으로:
@@ -1034,7 +1492,18 @@ if (setFilters) store.addSetFilters(setFilters);
       } // State.addProperty
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 This is a new getter/setter, so we need to assign it the handlers. When we iterate through our filters, for the setter, we enqueue an update. Then, we return the store, and we're good to go.
 
@@ -1044,7 +1513,18 @@ By the way, I'm not a huge fan of Array.forEach, but I'm using it here. I'll use
 
 As the name suggests, this function adds a filter to the list that runs when a State property is "set" before applying it to the Node.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 addNodeFilter(name, node, callback) {
@@ -1055,14 +1535,14 @@ addNodeFilter(name, node, callback) {
       this.#properties.get(name),
       "nameNotDefined", "State.addNodeFilter", name
     ); // store
-    
+
     const nodeData = bombIfNullish(
       store.nodes.get(node),
       "propHasNoNodes", "State.addNodeFilter", name
     ); // nodeData
 
   bombTypeMismatch(callback, "Function", "State.addNodeFilter");
-    
+
   nodeData.filters.push(callback);
 
 } // State.addNodeFilter
@@ -1074,13 +1554,35 @@ addNodeFilter(name, node, callback) {
 
 ## State.addGetFilter
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해당 코드는 주어진 이름으로부터 상점을 가져와요. 만약 상점이 존재하지 않으면 오류를 발생시켜요. 그렇지 않으면 해당 필터를 추가해요.
 
 그럼, 나는 지도를 정말로 좋아해.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 첫 번째와 같아. 조금 크고 추한게 그절망적인데.
 
@@ -1091,7 +1593,7 @@ addNodeFilter(name, node, callback) {
           this.#properties.get(name),
           "nameNotdefined", "State.addSetFilter", name
         );
-        
+
         store.addSetFilters(filters);
 
       } // State.addSetFilter
@@ -1101,9 +1603,20 @@ addNodeFilter(name, node, callback) {
 
 ## State.addMonitor
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-돈을 여기 있어. 우리 __make 루틴이 가장 자주 호출하는 루틴이야. 이것도 작은 조각으로 나눠볼게.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+돈을 여기 있어. 우리 \_\_make 루틴이 가장 자주 호출하는 루틴이야. 이것도 작은 조각으로 나눠볼게.
 
 ```js
       addMonitor(name, value, node) {
@@ -1121,39 +1634,57 @@ addNodeFilter(name, node, callback) {
 만약 노드가 전달되지 않으면, 우리는 우리의 컨테이너로 텍스트 노드를 생성할 거야. 이것은 dom-jon에서 문장 중간에 노드를 추가하고 싶을 때 유용할 수 있어. 생각해보셔:
 
 ```js
-document.body.__make(
-  "p",
-  "This is ", myState.addMonitor("isA", "a test"), "!"
-);
+document.body.__make("p", "This is ", myState.addMonitor("isA", "a test"), "!");
 
 myState.isA = "the best";
 
 // 이제 그 단락은 "This is the best!" 라고 말해
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-텍스트 노드를 상태에 연결하기 쉽게 하는 약어나 함정을 추가할 수 있습니다. [ "&isA", "a test" ]와 같이 __make에 의해 가로채집니다.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+텍스트 노드를 상태에 연결하기 쉽게 하는 약어나 함정을 추가할 수 있습니다. [ "&isA", "a test" ]와 같이 \_\_make에 의해 가로채집니다.
 
 이것이 노드에서만 작동하므로 정의되지 않았으면 우리는 중단됩니다.
 
 ```js
-        const
-          self = this,
-          store = this.addProperty(name, value);
-          
-        let method = "textContent";
+const self = this,
+  store = this.addProperty(name, value);
+
+let method = "textContent";
 ```
 
 저장소가 필요하며, 몇 가지 콜백을 "this"의 사본으로 작동하도록 만들어야 합니다. (나중에 구현을 정리하면 후자가 변경될 수 있음). 마지막으로 textContent(기본값)로 메서드를 설정합니다. 나는 "나는 그걸 싫어" 하고 나도 다시 "var"을 사용할지도 모른다. "method"는 노드 값이 요소에 적용되는 방법입니다. 대부분의 태그는 textContent를 사용하지만, textNode는 "data"가 되고, input/textarea는 value가 될 것입니다. 그러나 type="checkbox"나 type="radio"일 경우 false는 체크 해제되고, true는 선택됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로 nodeTypes를 테스트해야 합니다.
 
 ```js
         nodeSwitch: switch (node.nodeType) {
-     
+
           case Node.ELEMENT_NODE:
             if ("value" in node) method = "value";
             switch (node.tagName.toLowerCase()) {
@@ -1180,11 +1711,22 @@ myState.isA = "the best";
                 // 네, drop-through
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 입력값으로부터 체크박스와 라디오 버튼의 동작을 감지하고, 해당 지점에서 탈출합니다. 이벤트 리스너를 후킹하여 값이 변경되면 상태 값도 변경되도록 설정합니다.
 
-네, 저는 레이블과 함께 break를 사용하고 있습니다. 이것은 간단하며 스파게티 코드가 아니며, 이것 때문에 미쳐버리는 사람들은 어셈블리어를 쓰는 데 10초도 못 버텨요. 날 물어뜯어봐! 절대로 어셈블리어나 줄 번호가 있는 언어를 한 번도 작성한 적이 없는 사람들이 '스파게티 코드'에 대해 입 밖에 내지 말았으면 좋겠어요. 실제로 본 적도 없었고 대똥에 미쳐봤나봐. 
+네, 저는 레이블과 함께 break를 사용하고 있습니다. 이것은 간단하며 스파게티 코드가 아니며, 이것 때문에 미쳐버리는 사람들은 어셈블리어를 쓰는 데 10초도 못 버텨요. 날 물어뜯어봐! 절대로 어셈블리어나 줄 번호가 있는 언어를 한 번도 작성한 적이 없는 사람들이 '스파게티 코드'에 대해 입 밖에 내지 말았으면 좋겠어요. 실제로 본 적도 없었고 대똥에 미쳐봤나봐.
 
 체크박스가 아니라면 textarea로 이동합니다. 스위치-케이스에 반대하는 사람들을 더 화나게 만듭니다.
 
@@ -1198,7 +1740,18 @@ myState.isA = "the best";
             break;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이벤트 리스너를 추가하고, 내부 switch문을 종료하고, 외부 switch문을 탈출합니다.
 
@@ -1210,9 +1763,20 @@ myState.isA = "the best";
             break;
 ```
 
-데이터를 "textContent" 또는 "value"로 설정하지 않고 "data"로 설정한 것만 알면 됩니다. 노드에 __value 확장을 추가하여 노드 형식을 자동으로 감지하고 전달된 새 값을 적절하게 적용하는 것에 반박을 느낍니다.
+데이터를 "textContent" 또는 "value"로 설정하지 않고 "data"로 설정한 것만 알면 됩니다. 노드에 \_\_value 확장을 추가하여 노드 형식을 자동으로 감지하고 전달된 새 값을 적절하게 적용하는 것에 반박을 느낍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Node가 아니면, 'Bomb.' 시작하면 해주세요.
 
@@ -1235,7 +1799,18 @@ Node가 아니면, 'Bomb.' 시작하면 해주세요.
       } // State.addMonitor
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 … 그리고 그게 전부예요. 전체 State 객체입니다.
 
@@ -1243,9 +1818,20 @@ Node가 아니면, 'Bomb.' 시작하면 해주세요.
 
 RC가 준비되기 전에 자세히 설명하지는 않겠지만, 일찍부터 이 문서를 읽은 많은 분들이 이를 이해하지 못한 것 같아요... 제 잘못입니다. 그것을 언급하지 않았거든요.
 
-DOM-JON 구조는 항목으로 나뉩니다. 이러한 "항목"들은 __make 함수의 패턴을 따릅니다. 다시 말해:
+DOM-JON 구조는 항목으로 나뉩니다. 이러한 "항목"들은 \_\_make 함수의 패턴을 따릅니다. 다시 말해:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **make(dss, …attach)**
 
@@ -1253,9 +1839,20 @@ DSS(구분자 선택자 문자열)는 CSS와 유사한 식별자를 사용하여
 
 ... attach 인수는 다음 중 하나 이상 일 수 있습니다:
 
-- 배열 — __make에 전달할 인수를 모방하는 "entry line"으로, 자식 요소를 생성할 수 있습니다.
+- 배열 — \_\_make에 전달할 인수를 모방하는 "entry line"으로, 자식 요소를 생성할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 일반 객체 — 대부분의 키는 setAttribute를 사용하여 할당되지만 __makeParent, __makePlace, __stateName 등과 같은 특별한 값은 가로챕니다. 또한 해당 객체에서 { style : { property : value } }와 같은 것을 제대로 작동하도록 구문 분석하여 Element.style.setProperty를 통해 할당됩니다. 현재 datalist는 Object.assign(Element.datalist)을 사용하여 설정됩니다. 이것이 잘 작동하는지 확인하고 강제로 적용해야 할지 여부를 확인해야 합니다. 또한 함수 값이 element[name]을 통해 할당되므로 이벤트 핸들러와 같은 것을 onvent(예: onlick 또는 onsubmit)과 같이 연결할 수 있도록 주의를 기울여야 합니다.
@@ -1263,11 +1860,22 @@ DSS(구분자 선택자 문자열)는 CSS와 유사한 식별자를 사용하여
 
 함수 — 해당 함수는 현재 Element(this)에 전달되어 실행되며 결과는 문서에 추가됩니다.
 
-상태 객체 — DOM 트리에 적용할 상태입니다. DSS에서 __stateName이나 & 구분자를 사용하여 자식 요소(및 자체)가 할당된 경우 기존 상태의 getter/setter로 연결되거나 해당 상태에 이미 존재하지 않는다면 생성됩니다.
+상태 객체 — DOM 트리에 적용할 상태입니다. DSS에서 \_\_stateName이나 & 구분자를 사용하여 자식 요소(및 자체)가 할당된 경우 기존 상태의 getter/setter로 연결되거나 해당 상태에 이미 존재하지 않는다면 생성됩니다.
 
 부울, 요소, 노드, 숫자, 문자열, 기타 객체 유형 — 현재 처리 중인 요소의 끝에 추가됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 속성들은 여러 번 반복될 수 있으며, 덮어 쓰기가 가능하지만 순서는 중요하지 않습니다. 유일하게 중요한 것은 DSS가 첫 번째 인수여야 한다는 것입니다.
 
@@ -1277,29 +1885,36 @@ DSS(구분자 선택자 문자열)는 CSS와 유사한 식별자를 사용하여
 document.body.__make(
   "button_button.clearBody=20",
   {
-    disabled : true,
-    style : { "--icon" : "\uE000" }
+    disabled: true,
+    style: { "--icon": "\uE000" },
   },
   "Click to erase body content",
-  { onclick : document.body.__make(
-    "p@replaceChildren", "Content Deleted"
-  ) }
+  { onclick: document.body.__make("p@replaceChildren", "Content Deleted") }
 );
 ```
 
 그리고:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 document.body.__make(
   "button_button.clearBody=20",
   {
-    disabled : true,
-    style : { "--icon" : "\uE000" },
-    onclick : document.body.__make(
-      "p@replaceChildren", "Content Deleted"
-    )
+    disabled: true,
+    style: { "--icon": "\uE000" },
+    onclick: document.body.__make("p@replaceChildren", "Content Deleted"),
   },
   "본문 내용을 지우려면 클릭하세요"
 );
@@ -1308,23 +1923,33 @@ document.body.__make(
 기능적으로 완전히 동일합니다.
 
 nested 및 스프레드를 통해 적용되는 배열로 make 값을 중첩하여 명시할 수 있기 때문에 배열로 동일한 값들을 표현할 수 있습니다. 이렇게 하면 다음과 같습니다:
+
 ```js
 const clearButtonDomJon = [
   "button_button.clearBody=20",
   {
-    disabled : true,
-    style : { "--icon" : "\uE000" },
-    onclick : document.body.__make(
-      "p@replaceChildren", "Content Deleted"
-    )
+    disabled: true,
+    style: { "--icon": "\uE000" },
+    onclick: document.body.__make("p@replaceChildren", "Content Deleted"),
   },
-  "본문 내용을 지우려면 클릭하세요"
+  "본문 내용을 지우려면 클릭하세요",
 ];
 
 document.body__attach(clearButtonDomJon);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 표 태그를 Markdown 형식으로 변경합니다.
 
@@ -1338,14 +1963,27 @@ document.body__attach(clearButtonDomJon);
   disabled
   style="--icon:'\uE000';"
   onclick="document.body.innerHTML=`<p>Content Deleted</p>`;"
->Click to erase Body Content</button>
+>
+  Click to erase Body Content
+</button>
 ```
 
 물론 이것은 DOM에서 직접 작동합니다.
 
 모두 여기까지 이루어지는 것은, 느슨한 형변환과 싸우는 대신 그것을 활용하는 것입니다. "다른 유형을 매개변수로 허용해서는 안 된다"고 말할 때마다 ID 10 T와 상호작용 중이라는 것을 알게 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 앞으로의 계획
 

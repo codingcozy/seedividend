@@ -3,16 +3,13 @@ title: "파이썬으로 AI 텍스트-비디오 모델 처음부터 구축하는 
 description: ""
 coverImage: "/assets/img/2024-06-22-BuildinganAIText-to-VideoModelfromScratchUsingPython_0.png"
 date: 2024-06-22 04:36
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-BuildinganAIText-to-VideoModelfromScratchUsingPython_0.png
 tag: Tech
 originalTitle: "Building an AI Text-to-Video Model from Scratch Using Python"
 link: "https://medium.com/gitconnected/building-an-ai-text-to-video-model-from-scratch-using-python-35b4eb4002de"
 isUpdated: true
 ---
-
-
-
 
 ![Building an AI Text-to-Video Model from Scratch Using Python](/assets/img/2024-06-22-BuildinganAIText-to-VideoModelfromScratchUsingPython_0.png)
 
@@ -26,7 +23,18 @@ CPU에서 실행하면 모델 학습에 훨씬 오랜 시간이 걸릴 거예요
 
 더 궁금한 점이 있으시면 언제든지 물어주세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 블로그에서 코드를 복사하여 붙여 넣는 것을 피하려면 GitHub 저장소에 노트북 파일과 모든 코드 및 정보가 포함되어 있습니다.
 
@@ -37,10 +45,10 @@ CPU에서 실행하면 모델 학습에 훨씬 오랜 시간이 걸릴 거예요
 - 무엇을 만들고 있는가
 - 필수 조건
 - GAN 아키텍처 이해하기
-∘ GAN이란?
-∘ 실세계 응용
-∘ GAN이 어떻게 작동하는가?
-∘ GAN 훈련 예제
+  ∘ GAN이란?
+  ∘ 실세계 응용
+  ∘ GAN이 어떻게 작동하는가?
+  ∘ GAN 훈련 예제
 - 준비 단계 설정
 - 훈련 데이터 코딩
 - 교육 데이터 전 처리
@@ -54,7 +62,18 @@ CPU에서 실행하면 모델 학습에 훨씬 오랜 시간이 걸릴 거예요
 - 빠진 것은 무엇일까?
 - 나에 대해
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 무엇을 구축하고 있는가
 
@@ -64,7 +83,18 @@ CPU에서 실행하면 모델 학습에 훨씬 오랜 시간이 걸릴 거예요
 
 저희는 OpenAI Sora가 사용하는 확산 모델 대신 GAN(생성 적대적 신경망) 아키텍처를 사용하여 모델을 만들 것입니다. 확산 모델을 사용하려고 했지만, 메모리 요구 사항 때문에 그 기능이 중단되었습니다. GAN은 반면에 훈련과 테스트가 더 쉽고 빠릅니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 사전 요구 사항
 
@@ -74,7 +104,18 @@ CPU에서 실행하면 모델 학습에 훨씬 오랜 시간이 걸릴 거예요
 
 GAN을 이해하는 것은 중요합니다. 우리의 아키텍처의 많은 부분이 이에 의존하기 때문입니다. 무엇인지, 그 구성 요소는 무엇인지 등을 탐구해 보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## GAN이란 무엇인가요?
 
@@ -87,7 +128,18 @@ Generative Adversarial Network (GAN)은 주어진 데이터셋으로부터 새�
 - 누락된 정보 완성: GAN은 누락된 데이터를 채울 수 있으며, 에너지 응용 프로그램에 대한 지형 지도에서 장력 이미지를 생성하는 등의 작업을 수행할 수 있습니다.
 - 3D 모델 생성: 2D 이미지를 3D 모델로 변환하여, 수술 계획을 위해 현실적인 장기 이미지를 생성하는 의료 분야와 같은 분야에서 유용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## GAN이 작동하는 방식은?
 
@@ -103,7 +155,18 @@ GAN은 생성자(generator)와 판별자(discriminator) 두 개의 딥 뉴럴 �
 - 적대적 훈련: 생성자는 판별자의 오류를 최대화하려고 하고, 판별자는 자신의 에러를 최소화하려고 합니다. 많은 훈련 반복을 통해 두 네트워크는 개선되고 발전합니다.
 - 평형 상태: 판별자가 더 이상 진짜와 생성된 데이터를 구별하지 못할 때까지 훈련이 계속되며, 이는 생성자가 현실적인 데이터를 생성하는 것을 성공적으로 배웠음을 나타냅니다. 이 시점에서 훈련 과정이 완료됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## GAN 훈련 예시
 
@@ -118,7 +181,18 @@ GAN은 생성자(generator)와 판별자(discriminator) 두 개의 딥 뉴럴 �
 
 이 적대적 프로세스를 통해 두 네트워크가 계속해서 발전합니다. 생성자는 현실적인 이미지를 만드는 데 더 잘해지고 판별자는 가짜를 식별하는 데 더 잘해지며 균형이 이루어질 때까지 계속 발전합니다. 판별자가 더 이상 실제 이미지와 생성된 이미지를 구별하지 못할 정도로 적절한 평형점에 도달하면 GAN이 성공적으로 현실적인 수정을 만들기 위해 배웠다고 볼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 무대를 준비합니다
 
@@ -173,7 +247,18 @@ import base64
 
 모든 라이브러리를 가져왔으니, 다음 단계는 GAN 아키텍처를 훈련할 때 사용할 훈련 데이터를 정의하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 훈련 데이터 코딩하기
 
@@ -198,7 +283,18 @@ shape_size = 10
 
 기본 매개변수를 설정한 후, 다음은 훈련 데이터셋의 텍스트 프롬프트를 정의해야해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 원에 대한 텍스트 프롬프트와 해당 움직임을 정의합니다.
@@ -229,66 +325,66 @@ prompts_and_movements = [
 ```js
 # 매개변수가 있는 함수 정의
 def create_image_with_moving_shape(size, frame_num, shape, direction):
-  
+
     # 특정 크기와 흰색 배경으로 새로운 RGB 이미지를 생성합니다
-    img = Image.new('RGB', size, color=(255, 255, 255))  
+    img = Image.new('RGB', size, color=(255, 255, 255))
 
     # 이미지에 대한 그리기 컨텍스트를 생성합니다
-    draw = ImageDraw.Draw(img)  
+    draw = ImageDraw.Draw(img)
 
     # 이미지의 중앙 좌표를 계산합니다
-    center_x, center_y = size[0] // 2, size[1] // 2  
+    center_x, center_y = size[0] // 2, size[1] // 2
 
     # 모든 움직임의 중심으로 위치를 초기화합니다
-    position = (center_x, center_y)  
+    position = (center_x, center_y)
 
     # 각 방향을 해당 위치 조정이나 이미지 변환으로 매핑하는 딕셔너리를 정의합니다
-    direction_map = {  
+    direction_map = {
         # 프레임 번호에 따라 아래로 위치 조정
-        "down": (0, frame_num * 5 % size[1]),  
+        "down": (0, frame_num * 5 % size[1]),
         # 프레임 번호에 따라 왼쪽으로 위치 조정
-        "left": (-frame_num * 5 % size[0], 0),  
+        "left": (-frame_num * 5 % size[0], 0),
         # 프레임 번호에 따라 오른쪽으로 위치 조정
-        "right": (frame_num * 5 % size[0], 0),  
+        "right": (frame_num * 5 % size[0], 0),
         # 대각선 위 오른쪽으로 위치 조정
-        "diagonal_up_right": (frame_num * 5 % size[0], -frame_num * 5 % size[1]),  
+        "diagonal_up_right": (frame_num * 5 % size[0], -frame_num * 5 % size[1]),
         # 대각선 아래 왼쪽으로 위치 조정
-        "diagonal_down_left": (-frame_num * 5 % size[0], frame_num * 5 % size[1]),  
+        "diagonal_down_left": (-frame_num * 5 % size[0], frame_num * 5 % size[1]),
         # 대각선 위 왼쪽으로 위치 조정
-        "diagonal_up_left": (-frame_num * 5 % size[0], -frame_num * 5 % size[1]),  
+        "diagonal_up_left": (-frame_num * 5 % size[0], -frame_num * 5 % size[1]),
         # 대각선 아래 오른쪽으로 위치 조정
-        "diagonal_down_right": (frame_num * 5 % size[0], frame_num * 5 % size[1]),  
+        "diagonal_down_right": (frame_num * 5 % size[0], frame_num * 5 % size[1]),
         # 프레임 번호에 따라 이미지를 시계방향으로 회전
-        "rotate_clockwise": img.rotate(frame_num * 10 % 360, center=(center_x, center_y), fillcolor=(255, 255, 255)),  
+        "rotate_clockwise": img.rotate(frame_num * 10 % 360, center=(center_x, center_y), fillcolor=(255, 255, 255)),
         # 프레임 번호에 따라 이미지를 반시계방향으로 회전
-        "rotate_counter_clockwise": img.rotate(-frame_num * 10 % 360, center=(center_x, center_y), fillcolor=(255, 255, 255)),  
+        "rotate_counter_clockwise": img.rotate(-frame_num * 10 % 360, center=(center_x, center_y), fillcolor=(255, 255, 255)),
         # 상하로 튕기는 효과를 위해 위치 조정
-        "bounce_vertical": (0, center_y - abs(frame_num * 5 % size[1] - center_y)),  
+        "bounce_vertical": (0, center_y - abs(frame_num * 5 % size[1] - center_y)),
         # 좌우로 튕기는 효과를 위해 위치 조정
-        "bounce_horizontal": (center_x - abs(frame_num * 5 % size[0] - center_x), 0),  
+        "bounce_horizontal": (center_x - abs(frame_num * 5 % size[0] - center_x), 0),
         # 상하로 지그재그 효과를 위해 위치 조정
-        "zigzag_vertical": (0, center_y - frame_num * 5 % size[1]) if frame_num % 2 == 0 else (0, center_y + frame_num * 5 % size[1]),  
+        "zigzag_vertical": (0, center_y - frame_num * 5 % size[1]) if frame_num % 2 == 0 else (0, center_y + frame_num * 5 % size[1]),
         # 좌우로 지그재그 효과를 위해 위치 조정
-        "zigzag_horizontal": (center_x - frame_num * 5 % size[0], center_y) if frame_num % 2 == 0 else (center_x + frame_num * 5 % size[0], center_y),  
+        "zigzag_horizontal": (center_x - frame_num * 5 % size[0], center_y) if frame_num % 2 == 0 else (center_x + frame_num * 5 % size[0], center_y),
         # 프레임 번호에 따라 오른쪽 위로 위치 조정
-        "up_right": (frame_num * 5 % size[0], -frame_num * 5 % size[1]),  
+        "up_right": (frame_num * 5 % size[0], -frame_num * 5 % size[1]),
         # 프레임 번호에 따라 왼쪽 위로 위치 조정
-        "up_left": (-frame_num * 5 % size[0], -frame_num * 5 % size[1]),  
+        "up_left": (-frame_num * 5 % size[0], -frame_num * 5 % size[1]),
         # 프레임 번호에 따라 오른쪽 아래로 위치 조정
-        "down_right": (frame_num * 5 % size[0], frame_num * 5 % size[1]),  
+        "down_right": (frame_num * 5 % size[0], frame_num * 5 % size[1]),
         # 프레임 번호에 따라 왼쪽 아래로 위치 조정
-        "down_left": (-frame_num * 5 % size[0], frame_num * 5 % size[1])  
+        "down_left": (-frame_num * 5 % size[0], frame_num * 5 % size[1])
     }
 
     # direction_map에 방향이 있는지 확인합니다
-    if direction in direction_map:  
+    if direction in direction_map:
         # 방향이 위치 조정에 매핑되는지 확인합니다
-        if isinstance(direction_map[direction], tuple):  
+        if isinstance(direction_map[direction], tuple):
             # 조정에 따라 위치를 업데이트합니다
-            position = tuple(np.add(position, direction_map[direction]))  
+            position = tuple(np.add(position, direction_map[direction]))
         else:  # 방향이 이미지 변환에 매핑되는 경우
             # 변환에 따라 이미지를 업데이트합니다
-            img = direction_map[direction]  
+            img = direction_map[direction]
 
     # 이미지를 numpy 배열로 반환합니다
     return np.array(img)
@@ -296,27 +392,38 @@ def create_image_with_moving_shape(size, frame_num, shape, direction):
 
 위 함수는 선택한 방향에 따라 각 프레임마다 원을 움직이는 데 사용됩니다. 모든 비디오를 생성하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 비디오 수만큼 반복하여 생성
 for i in range(num_videos):
     # 미리 정의된 목록에서 무작위로 프롬프트와 이동 선택
     prompt, shape, direction = random.choice(prompts_and_movements)
-    
+
     # 현재 비디오를 위한 디렉터리 생성
     video_dir = f'training_dataset/video_{i}'
     os.makedirs(video_dir, exist_ok=True)
-    
+
     # 선택된 프롬프트를 비디오 디렉터리 내의 텍스트 파일에 작성
     with open(f'{video_dir}/prompt.txt', 'w') as f:
         f.write(prompt)
-    
+
     # 현재 비디오의 프레임 생성
     for frame_num in range(frames_per_video):
         # 현재 프레임 번호, 모양, 방향을 기반으로 이동 모양이 있는 이미지 생성
         img = create_image_with_moving_shape(img_size, frame_num, shape, direction)
-        
+
         # 생성된 이미지를 비디오 디렉터리에 PNG 파일로 저장
         cv2.imwrite(f'{video_dir}/frame_{frame_num}.png', img)
 ```
@@ -327,9 +434,18 @@ for i in range(num_videos):
 
 각 훈련 비디오 폴더에는 프레임과 텍스트 프롬프트가 포함되어 있습니다. 훈련 데이터세트 샘플을 살펴보겠습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![https://miro.medium.com/v2/resize:fit:1400/1*mzizetR6zOyIheNFtKpo0A.gif](https://miro.medium.com/v2/resize:fit:1400/1*mzizetR6zOyIheNFtKpo0A.gif)
 
@@ -339,8 +455,18 @@ for i in range(num_videos):
 
 ![https://miro.medium.com/v2/resize:fit:1400/1*RP5M_TEt2H4Mo6OhnlcRLA.gif](https://miro.medium.com/v2/resize:fit:1400/1*RP5M_TEt2H4Mo6OhnlcRLA.gif)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 교육 데이터에 이러한 샘플을 포함시킨 이유는 우리의 모델이 원이 극단적인 구석에서 장면에 들어오더라도 모양을 유지할 수 있는지 테스트하기 위해서입니다.
 
@@ -350,7 +476,18 @@ for i in range(num_videos):
 
 텍스트-비디오 작업을 위한 데이터 세트 클래스를 작성해야 합니다. 이 클래스는 교육 데이터 세트 디렉토리에서 비디오 프레임과 해당 텍스트 프롬프트를 읽어 PyTorch에서 사용할 수 있도록 만들어야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 # torch.utils.data.Dataset 클래스를 상속받아 데이터셋 클래스 정의
@@ -414,8 +551,18 @@ dataloader = torch.utils.data.DataLoader(dataset, batch_size=16, shuffle=True)
 
 # 텍스트 임베딩 레이어 구현하기
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 트랜스포머 아키텍처에서 본 적이 있을 수 있어요. 텍스트 입력을 임베딩으로 변환하고 멀티 헤드 어텐션에서 추가로 처리할 수 있어요. 여기서는 텍스트 임베딩 레이어를 코드로 작성해야 합니다. 이 레이어를 기반으로 GAN 아키텍처 훈련이 임베딩 데이터와 이미지 텐서에서 이루어질 거에요.
 
@@ -439,23 +586,34 @@ class TextEmbedding(nn.Module):
 
 # 생성자 레이어 구현하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-이제 GANs에서 생성자가 하는 역할을 이미 알고 있기 때문에, 이 층을 코딩하고 내용을 이해해봅시다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+이제 GANs에서 생성자가 하는 역할을 이미 알고 있기 때문에, 이 층을 코딩하고 내용을 이해해봅시다.
 
 ```python
 class Generator(nn.Module):
     def __init__(self, text_embed_size):
         super(Generator, self).__init__()
-        
+
         # 노이즈와 텍스트 임베딩을 입력으로 받는 완전 연결층
         self.fc1 = nn.Linear(100 + text_embed_size, 256 * 8 * 8)
-        
+
         # 입력을 업샘플링하는 전치 합성곱층
         self.deconv1 = nn.ConvTranspose2d(256, 128, 4, 2, 1)
         self.deconv2 = nn.ConvTranspose2d(128, 64, 4, 2, 1)
         self.deconv3 = nn.ConvTranspose2d(64, 3, 4, 2, 1)  # RGB 이미지에 대한 출력은 3채널이 됩니다
-        
+
         # 활성화 함수
         self.relu = nn.ReLU(True)  # ReLU 활성화 함수
         self.tanh = nn.Tanh()       # 최종 출력을 -1과 1 사이의 값으로 만들기 위한 Tanh 활성화 함수
@@ -463,17 +621,17 @@ class Generator(nn.Module):
     def forward(self, noise, text_embed):
         # 채널 차원을 따라 노이즈와 텍스트 임베딩을 연결합니다
         x = torch.cat((noise, text_embed), dim=1)
-        
+
         # 완전 연결층 다음에 4D 텐서로 재구성합니다
         x = self.fc1(x).view(-1, 256, 8, 8)
-        
+
         # ReLU 활성화를 사용하여 전치 합성곱층을 통한 업샘플링
         x = self.relu(self.deconv1(x))
         x = self.relu(self.deconv2(x))
-        
+
         # 최종 층에서 출력 값을 -1과 1 사이로 만들기 위해 Tanh 활성화를 사용합니다 (이미지용)
         x = self.tanh(self.deconv3(x))
-        
+
         return x
 ```
 
@@ -481,24 +639,36 @@ class Generator(nn.Module):
 
 이 레이어들은 비선형성을 위해 ReLU 활성화 함수(nn.ReLU)를 사용하고, 최종 레이어는 출력을 [-1, 1] 범위로 스케일링하기 위해 Tanh 활성화(nn.Tanh)를 사용합니다. 따라서 생성자는 추상적이고 고차원의 입력을 시각적으로 입력 텍스트를 잘 나타내는 일관된 비디오 프레임으로 변환합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 판별자 레이어 구현
+
 제너레이터 레이어를 코딩한 후에는 이제 판별자 부분을 구현해야 합니다.
 
 ```js
 class Discriminator(nn.Module):
     def __init__(self):
         super(Discriminator, self).__init__()
-        
+
         # 입력 이미지를 처리하기 위한 합성곱 레이어
         self.conv1 = nn.Conv2d(3, 64, 4, 2, 1)   # 3개의 입력 채널 (RGB), 64개의 출력 채널, 커널 크기 4x4, 스트라이드 2, 패딩 1
         self.conv2 = nn.Conv2d(64, 128, 4, 2, 1) # 64개의 입력 채널, 128개의 출력 채널, 커널 크기 4x4, 스트라이드 2, 패딩 1
         self.conv3 = nn.Conv2d(128, 256, 4, 2, 1) # 128개의 입력 채널, 256개의 출력 채널, 커널 크기 4x4, 스트라이드 2, 패딩 1
-        
+
         # 분류를 위한 완전 연결 레이어
         self.fc1 = nn.Linear(256 * 8 * 8, 1)  # 입력 크기 256x8x8 (마지막 컨볼루션 레이어의 출력 크기), 출력 크기 1 (이진 분류)
-        
+
         # 활성화 함수
         self.leaky_relu = nn.LeakyReLU(0.2, inplace=True)  # 음의 기울기 0.2를 가지는 Leaky ReLU 활성화 함수
         self.sigmoid = nn.Sigmoid()  # 최종 출력을 위한 시그모이드 활성화 함수 (확률)
@@ -508,25 +678,36 @@ class Discriminator(nn.Module):
         x = self.leaky_relu(self.conv1(input))
         x = self.leaky_relu(self.conv2(x))
         x = self.leaky_relu(self.conv3(x))
-        
+
         # 컨볼루션 레이어의 출력을 펼침
         x = x.view(-1, 256 * 8 * 8)
-        
+
         # 이진 분류를 위해 시그모이드 활성화 함수를 사용하는 완전 연결 레이어를 통과시킴
         x = self.sigmoid(self.fc1(x))
-        
+
         return x
 ```
 
 판별자 클래스는 실제 및 생성된 비디오 프레임을 구별하는 이진 분류기로 작동합니다. 비디오 프레임의 신뢰성을 평가하여 생성기가 더 현실적인 출력물을 생성할 수 있게 안내하는 것이 목적입니다. 이 네트워크는 입력 비디오 프레임에서 계층적 특성을 추출하는 합성곱 레이어(nn.Conv2d)로 구성되어 있으며, Leaky ReLU 활성화(nn.LeakyReLU)가 음의 값에 대해 작은 경사도를 허용하면서 비선형성을 추가합니다. 특성 맵은 그 후 펼쳐지고 완전 연결 레이어(nn.Linear)를 통과한 후 시그모이드 활성화(nn.Sigmoid)로 끝나며, 이는 프레임이 실제인지 가짜인지를 나타내는 확률 점수를 출력합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 판별자를 올바르게 분류하도록 훈련함으로써 생성자는 더 설득력있는 비디오 프레임을 만들기 위해 동시에 훈련됩니다. 이것은 생성자가 판별자를 속이려고 할 때 발생합니다.
 
 # 코딩 훈련 매개변수
 
-GAN을 훈련하기 위해 손실 함수, 옵티마이저 등과 같은 기본 구성 요소를 설정해야 합니다. 
+GAN을 훈련하기 위해 손실 함수, 옵티마이저 등과 같은 기본 구성 요소를 설정해야 합니다.
 
 ```js
 # GPU 사용 가능 여부 확인
@@ -551,7 +732,18 @@ optimizerD = optim.Adam(netD.parameters(), lr=0.0002, betas=(0.5, 0.999))  # 판
 optimizerG = optim.Adam(netG.parameters(), lr=0.0002, betas=(0.5, 0.999))  # 생성자에 대한 Adam 옵티마이저
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 부분은 사용 가능한 GPU에서 코드를 실행할 수 있도록 변환해야 하는 부분입니다. 우리는 vocab_size를 찾기 위해 코드를 작성했고, 생성자와 구분자 모두 ADAM 옵티마이저를 사용하고 있습니다. 원하는 경우 자체 옵티마이저를 선택할 수 있습니다. 여기서 학습률을 0.0002와 같이 작은 값으로 설정하고, 임베딩 크기는 다른 Hugging Face 모델과 비교했을 때 훨씬 작은 10으로 설정하였습니다.
 
@@ -569,7 +761,7 @@ for epoch in range(num_epochs):
     for i, (data, prompts) in enumerate(dataloader):
         # 실제 데이터를 장치로 이동
         real_data = data.to(device)
-        
+
         # 프롬프트를 리스트로 변환
         prompts = [prompt for prompt in prompts]
 
@@ -580,7 +772,7 @@ for epoch in range(num_epochs):
         output = netD(real_data)  # 실제 데이터를 구분자를 통과시키면서 순전파
         lossD_real = criterion(output, labels)  # 실제 데이터에 대한 손실 계산
         lossD_real.backward()  # 기울기 계산을 위한 역전파
-       
+
         # 가짜 데이터 생성
         noise = torch.randn(batch_size, 100).to(device)  # 임의의 노이즈 생성
         text_embeds = torch.stack([text_embedding(encode_text(prompt).to(device)).mean(dim=0) for prompt in prompts])  # 프롬프트를 텍스트 임베딩으로 변환
@@ -598,12 +790,23 @@ for epoch in range(num_epochs):
         lossG = criterion(output, labels)  # 생성자의 손실 계산 (구분자의 반응에 따른)
         lossG.backward()  # 기울기 계산을 위한 역전파
         optimizerG.step()  # 생성자 매개변수 업데이트
-    
+
     # 에폭 정보 출력
     print(f"에폭 [{epoch + 1}/{num_epochs}] 손실 D: {lossD_real + lossD_fake}, 손실 G: {lossG}")
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 백프로패게이션을 통해 생성자와 식별자의 손실이 조정될 것입니다. 우리는 훈련 루프에 13개의 에포크를 사용했습니다. 다양한 값을 테스트해 보았지만, 에포크를 13보다 높게 설정해도 결과에 큰 차이가 나타나지 않았습니다. 게다가, 과적합의 위험이 있습니다. 더 많은 움직임과 모양을 포함하는 더 다양한 데이터셋이 있다면 더 높은 에포크 값을 사용할 수 있겠지만, 현재 상황에서는 그렇지 않습니다.
 
@@ -621,7 +824,18 @@ for epoch in range(num_epochs):
 
 # 훈련된 모델 저장하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 훈련이 완료되면 훈련된 GAN 아키텍처의 판별자와 생성자를 저장해야 합니다. 이 작업은 단 두 줄의 코드로 간단히 수행할 수 있습니다.
 
@@ -637,7 +851,18 @@ torch.save(netD.state_dict(), 'discriminator.pth')
 
 토론한 바와 같이, 훈련되지 않은 데이터에 모델을 테스트하는 접근 방식은 개가 공을 던지고, 고양이가 쥐를 쫓는 훈련 데이터의 예와 비교됩니다. 따라서 테스트 프롬프트는 고양이가 공을 던지거나, 개가 쥐를 쫓는 등의 시나리오를 포함할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 특정 경우에서, 원이 위로 움직이고 오른쪽으로 이동하는 움직임은 우리의 훈련 데이터에 포함되어 있지 않아서 모델은 이 특정 움직임을 모르고 있습니다. 그러나, 다른 움직임에는 훈련을 받았습니다. 이 움직임을 사용하여 훈련된 모델을 테스트하고 성능을 관찰할 수 있습니다.
 
@@ -646,19 +871,19 @@ torch.save(netD.state_dict(), 'discriminator.pth')
 def generate_video(text_prompt, num_frames=10):
     # 텍스트 코멘트를 기반으로 생성된 비디오 프레임을 담을 디렉토리 생성
     os.makedirs(f'generated_video_{text_prompt.replace(" ", "_")}', exist_ok=True)
-    
+
     # 텍스트 코멘트를 텍스트 임베딩 텐서로 인코딩
     text_embed = text_embedding(encode_text(text_prompt).to(device)).mean(dim=0).unsqueeze(0)
-    
+
     # 비디오 프레임 생성
     for frame_num in range(num_frames):
         # 임의의 노이즈 생성
         noise = torch.randn(1, 100).to(device)
-        
+
         # Generator 네트워크를 사용하여 가짜 프레임 생성
         with torch.no_grad():
             fake_frame = netG(noise, text_embed)
-        
+
         # 생성된 가짜 프레임을 이미지 파일로 저장
         save_image(fake_frame, f'generated_video_{text_prompt.replace(" ", "_")}/frame_{frame_num}.png')
 
@@ -705,7 +930,18 @@ for frame in frames:
 out.release()
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새로 생성된 비디오가 있는 폴더 경로로 가리키도록 해주세요. 이 코드를 실행한 후에는 AI 비디오가 성공적으로 생성되었습니다. 어떻게 보이는지 함께 확인해봅시다.
 
@@ -715,7 +951,18 @@ out.release()
 
 # 무엇이 부족할까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 이 아키텍처의 다양한 측면을 테스트해본 결과, 훈련 데이터가 중요하다는 것을 발견했습니다. 데이터셋에 더 많은 동작과 모양을 포함시키면 변별성을 높이고 모델의 성능을 향상시킬 수 있습니다. 데이터가 코드를 통해 생성되기 때문에 더 다양한 데이터를 생성하는 데 많은 시간이 걸리지 않습니다. 대신에 논리를 정제하는 데 집중할 수 있습니다.
 
@@ -725,7 +972,18 @@ out.release()
 
 저는 데이터 과학 석사 학위를 가지고 있으며 NLP와 AI 분야에서 두 년 이상 일해왔습니다. 저를 고용하거나 AI 관련 문의 사항이 있으면 언제든지 저에게 물어보세요! 모든 질문에 대해 이메일로 답변드립니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제 LinkedIn 프로필에 연락하세요: [링크](https://www.linkedin.com/in/fareed-khan-dev/)
 

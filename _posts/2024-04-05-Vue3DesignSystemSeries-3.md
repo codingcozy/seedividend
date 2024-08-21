@@ -3,17 +3,13 @@ title: "Vue 3 디자인 시스템 시리즈 - prettier-plugin-tailwindcss"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Vue 3 Design System Series -3"
 link: "https://medium.com/@ademyalcin27/vue-3-design-system-series-3-9f8feba80401"
 isUpdated: true
 ---
-
-
-
-
 
 프로젝트에서 Tailwind CSS를 이용하여 Prettier를 활용하기
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 Tailwind는 다양한 유틸리티 클래스를 제공하며, 이들을 합리적인 순서로 적용하는 것은 가독성에 매우 중요합니다. Prettier 플러그인은 이러한 스타일 클래스들을 논리적이고 일관된 순서로 정리해주어, 미학적으로도 향상시키고 오류 발생 가능성을 줄여줍니다. 바로 이런 작은 세부사항들이 장기적으로 큰 차이를 만들어낼 수 있는 코딩 관행이죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **.prettierrc 파일 설정 마무리**
 
@@ -33,7 +40,18 @@ Tailwind는 다양한 유틸리티 클래스를 제공하며, 이들을 합리�
 
 ![이미지](/assets/img/Vue3DesignSystemSeries-3_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/Vue3DesignSystemSeries-3_2.png" />
 
@@ -43,7 +61,18 @@ Tailwind는 다양한 유틸리티 클래스를 제공하며, 이들을 합리�
 
 Vue 컴포넌트 파일에서는 v-bind를 사용하여 동적으로 UI 모양을 변경하는 조건부 클래스 바인딩을 소개했습니다. 또한, 입력란 시작과 끝에 아이콘을 추가하기 위해 슬롯을 활용하여 컴포넌트의 다양성을 확장했습니다. 이 조정으로 우리의 컴포넌트를 구현할 때 사용자들에 대한 유연성이 크게 향상되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이벤트 관리를 중심으로 한 또 다른 중요한 업데이트가 있었어요. 우리는 Vue의 v-model을 활용하여 양방향 데이터 바인딩을 하고, 컴포넌트가 주변 환경에 사용자 정의 이벤트를 발생시킬 수 있도록 명시했어요. 이를 통해 더 넓은 사용 사례에 대한 적응성을 보장했답니다.
 
@@ -53,7 +82,18 @@ Vue 컴포넌트 파일에서는 v-bind를 사용하여 동적으로 UI 모양�
 
 물론이죠! 작성자로서 경험을 서술하면서 Input.vue 구성 요소에 대한 변경 사항을 자세히 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 프로젝트에서 Tailwind CSS와 Prettier를 활용하기
 
@@ -63,7 +103,18 @@ Tailwind는 많은 유틸리티 클래스를 제공하며, 이를 상식적인 �
 
 # 입력 컴포넌트에서 스타일과 기능을 더욱 정교하게 만들기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 계속 진행하면서, 저는 우리의 입력 컴포넌트 중 하나의 CSS와 Vue 파일에서 발생한 변경 사항을 안내할 거에요. 초반에는 우리 컴포넌트가 기본 스타일과 클래스를 가졌지만, 제가 더 유연하고 기능적인 컴포넌트로 발전시키기 위해 노력했어요.
 
@@ -75,7 +126,18 @@ Vue 컴포넌트 파일에서, 나는 오류 상황에서 UI의 모습을 동적
 
 # 컴포넌트/Input/Input.vue 변경 사항 깊이 파헤쳐보기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리 Input.vue 컴포넌트의 진화 과정을 자세히 살펴봅시다. 여기서 상당한 변화를 일으켰네요, 그렇죠?
 

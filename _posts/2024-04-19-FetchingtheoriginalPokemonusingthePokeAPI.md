@@ -3,17 +3,13 @@ title: "Poke API를 이용하여 포켓몬 데이터 불러오는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Fetching the original Pokemon using the Poke API"
 link: "https://medium.com/@sergio13prez/fetching-them-all-poke-api-62ca580981a2"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/FetchingtheoriginalPokemonusingthePokeAPI_0.png)
 
@@ -21,7 +17,18 @@ Flatiron에 합류한 후 배우고 싶었던 주요한 것 중 하나는 API를
 
 먼저 Poke API 문서(https://pokeapi.co/docs/v2.html)를 읽어 API 호출 방법을 이해하고 필요한 데이터를 가져오는 방법에 대해 파악합니다. 다른 API와 마찬가지로 Poke API에는 사용하지 않을 많은 데이터가 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 I will be making a small application that shows the original 151 Pokemon on a single page. Every Pokemon will have a card-like styling. Every Pokemon card will include the name, picture, number, and type. I will use Semantic to create the card stylings.
 
@@ -31,7 +38,18 @@ The setup for this application will include one HTML file, a JavaScript file, an
 
 The first fetch will be to `https://pokeapi.co/api/v2/pokemon?limit=151`. Luckily, the Poke API allows us to use a query parameter, 'limit', which limits the Pokemon to 151, just as we need.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 function fetchKantoPokemon() {
@@ -57,7 +75,18 @@ function fetchKantoPokemon() {
 
 위의 코드 예제에서는 forEach 메서드를 사용하여 결과 배열의 모든 포켓몬을 반복하며 해시({name: "bulbasaur", url: "https://pokeapi.co/api/v2/pokemon/1/"})를 fetchPokemonData 함수로 보냅니다. 여기서 두 번째 fetch 호출을 통해 각 포켓몬의 세부 정보를 가져올 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 function fetchPokemonData(pokemon) {
@@ -76,7 +105,18 @@ function fetchPokemonData(pokemon) {
 
 이제 데이터가 올바른 방식으로 수신되는 것을 알았으므로 해시에서 데이터를 추출하고 HTML에 출력하는 작업을 시작할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 function renderPokemon(pokeData) {
@@ -111,7 +151,18 @@ function createTypes(types, ul) {
 
 마침내 HTML에 일부 정보가 표시됩니다! 위에 표시된 스크린샷에서 봤을 때. 그러나 포켓몬의 이미지가 누락된 것처럼 보입니다. Poke API에는 렌더링할 수 있는 스프라이트가 있지만 다소 작게 보이며, 스프라이트는 오래된 느낌이 있습니다. 이미지는 https://pokeres.bastionbot.org 포켓몬 (Pokeres) API를 사용할 것입니다. 그들의 API를 사용하려면 일반적으로 일부 헤더를 요구하지만, 이미지만 가져 오기 때문에 헤더를 추가하거나 fetch 호출을 만들 필요가 없습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각 포켓몬에 대해 새 이미지 태그를 생성하여 소스를 포켓의 URL로 설정하고 해당 이미지 태그를 컨테이너 DIV에 추가합니다. 예를 들어, 이미지 소스를 https://pokeres.bastionbot.org/images/pokemon/1.png 로 설정하면 Bulbasaur의 이미지가 생성됩니다. 아래 코드를 살펴보세요.
 
@@ -127,7 +178,18 @@ function createPokeImage(pokeID, containerDiv) {
 
 <img src="/assets/img/FetchingtheoriginalPokemonusingthePokeAPI_2.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그게 다입니다! HTML 페이지는 이제 포켓몬 이름, 번호, 유형 및 그림을 보여줍니다. 이제 일부 시맨틱 클래스를 사용하여 시각적으로 매력적인 페이지로 만들어 보겠습니다. 디자인 프로세스를 자세히 다루지는 않겠지만 참고가 필요하다면 하단 게시물의 링크된 GitHub를 확인해주세요. 시맨틱을 사용하지 않고 다른 CSS 프레임워크로 원하는 대로 스타일링할 수도 있습니다.
 

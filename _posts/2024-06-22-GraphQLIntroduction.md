@@ -3,7 +3,7 @@ title: "GraphQL 소개 2024 최신 가이드 붙이기"
 description: ""
 coverImage: "/assets/img/2024-06-22-GraphQLIntroduction_0.png"
 date: 2024-06-22 14:33
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-GraphQLIntroduction_0.png
 tag: Tech
 originalTitle: "GraphQL: Introduction"
@@ -11,11 +11,7 @@ link: "https://medium.com/@sanjanahumanintech/graphql-introduction-e422185b0a85"
 isUpdated: true
 ---
 
-
-
-
 아래는 위에 나타낸 html 태그를 Markdown 형식으로 변경한 것입니다.
-
 
 ![GraphQL Introduction](/assets/img/2024-06-22-GraphQLIntroduction_0.png)
 
@@ -25,8 +21,18 @@ GraphQL의 기초를 탐구하고, React 및 React Native과 같은 프론트엔
 
 GraphQL은 API를 위한 쿼리 언어입니다. Facebook에서 개발되었으며, 데이터를 더 효율적으로 가져오기 위한 솔루션으로 개발되었습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # GraphQL을 선택하는 이유
 
@@ -36,7 +42,18 @@ GraphQL을 사용하기 전
 
 REST API에서는 각 endpoint가 특정한 JSON 데이터 페이로드를 반환합니다. 필요한 필드만 필요하더라도 모든 요청에서 모든 내용을 반환합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 제품 목록 가져오기
 
@@ -47,10 +64,21 @@ REST API에서는 각 endpoint가 특정한 JSON 데이터 페이로드를 반�
 요청:
 
 ```js
-GET /api/products/1
+GET / api / products / 1;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 답변:
 
@@ -60,7 +88,18 @@ REST API의 디자인은 어플리케이션이 불필요한 요청을 많이 보
 
 즉, 특정 데이터에 대해 정보를 얻으려면 다른 HTTP 요청을 여러 번 보내야 할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 빠르고 효율적인 앱에 대한 수요가 증가하는 가운데, Facebook은 REST API에서 이러한 문제점을 인식하였습니다.
 
@@ -70,7 +109,18 @@ REST API의 디자인은 어플리케이션이 불필요한 요청을 많이 보
 
 이미 언급한 바와 같이, GraphQL은 쿼리 언어로, 필요한 데이터만 쿼리를 사용하여 가져오는 방식입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 GraphQL을 사용하면:
 
@@ -81,7 +131,18 @@ GraphQL을 사용하면:
 
 일반적인 GraphQL 작업은 다음과 같이 진행돼요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 데이터는 쿼리를 통해 GraphQL 서버에서 요청됩니다.
 - 적절한 소스에서 데이터를 가져 오기위해 GraphQL 서버에서 함수가 호출됩니다.
@@ -93,7 +154,18 @@ GraphQL은 API를 테스트하는 데 도움이되는 GraphiQL이라는 IDE와 �
 
 ![그림](/assets/img/2024-06-22-GraphQLIntroduction_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # GraphQL의 주요 기능
 
@@ -103,7 +175,18 @@ GraphQL은 API를 테스트하는 데 도움이되는 GraphiQL이라는 IDE와 �
 
 강력한 타입화 스키마: 스키마는 쿼리할 수 있는 데이터 유형과 그들 간의 관계를 정의합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 실시간 데이터 구독: 클라이언트는 데이터 변경 사항을 구독하여 실시간 업데이트를 받을 수 있습니다.
 
@@ -113,7 +196,18 @@ GraphQL은 API를 테스트하는 데 도움이되는 GraphiQL이라는 IDE와 �
 
 특정 ID로 단일 제품 가져오기:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 GraphQL 쿼리:
 
@@ -137,7 +231,18 @@ JSON 요청:
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시 응답:
 
@@ -159,7 +264,18 @@ JSON 요청:
 
 GraphQL 뮤테이션:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 변이 {
@@ -188,7 +304,18 @@ JSON 요청:
 
 예시 응답:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 {
@@ -214,7 +341,18 @@ JSON 요청 업데이트
 
 예시 응답:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```json
 {
@@ -236,7 +374,18 @@ JSON으로 GraphQL 사용하기
 
 서버 설정하기: Apollo Server 또는 Express GraphQL과 같은 서버 라이브러리를 사용하여 요청을 처리합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 쿼리/뮤테이션 전송: GraphiQL, Apollo Client 또는 HTTP 클라이언트(예: Postman, cURL)와 같은 도구를 사용하여 JSON 형식으로 쿼리 및 뮤테이션을 전송합니다.
 

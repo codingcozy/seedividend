@@ -3,17 +3,13 @@ title: "자바스크립트 구글 면접 문제 - Stringify와 Parse의 Polyfill
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "JavaScript Google Interview Question  Polyfill of Stringify and Parse"
 link: "https://medium.com/gitconnected/javascript-google-interview-question-polyfill-of-stringify-and-parse-c9b370b11027"
 isUpdated: true
 ---
-
-
-
-
 
 # 다루는 주제:
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 해결 방법:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 값이 null인 경우 문자열 "null"을 반환합니다.
 - 값이 숫자 또는 부울인 경우 문자열로 변환하여 반환합니다.
@@ -53,7 +60,18 @@ var myObject = {
 
 구현:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 function stringify(value) {
@@ -112,7 +130,18 @@ console.log(stringify(myObject)); // myObject의 JSON 문자열 표현을 출력
 var jsonString = '{"name":"Alice","age":30,"isStudent":false}';
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 구현:
 
@@ -147,7 +176,18 @@ try {
 
 OR
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 function parse(jsonString) {
@@ -323,7 +363,18 @@ YouTube 채널 구독해주셔서 감사합니다: FrontEnd Interview Preparatio
 
 - 장기 멘토십을 위해 Preplaced.com에서 연락해요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **무료 체험 수업 예약하기!** — [여기를 클릭하세요](https://www.preplaced.in/profile/sonika-maheshwari)
 

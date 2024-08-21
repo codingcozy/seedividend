@@ -3,17 +3,13 @@ title: "Nextjs 14 draftMode 사용 방법 정리"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # Nextjs 14 draftMode 사용 방법 정리
 
@@ -35,14 +31,34 @@ export default function Page() {
 
 ## 버전 히스토리
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 Markdown 형식으로 변경한 표입니다.
 
-
-| Version | Changes            |
-|---------|--------------------|
+| Version | Changes                 |
+| ------- | ----------------------- |
 | v13.4.0 | `draftMode` introduced. |
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

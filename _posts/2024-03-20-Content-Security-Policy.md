@@ -3,17 +3,13 @@ title: "Nextjs 14 사이트 보안 정책 정리"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # Nextjs 14 사이트 보안 정책 정리
 
@@ -22,7 +18,18 @@ CSP를 사용하면 개발자는 어떤 원천이 콘텐츠 소스, 스크립트
 
 ## 난스
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한번만 사용할 고유한 무작위 문자열인 nonce는 CSP와 함께 사용되어 특정 인라인 스크립트나 스타일이 엄격한 CSP 지시문을 우회하고 실행되도록 허용하는 역할을 합니다.
 
@@ -32,7 +39,18 @@ CSP는 악성 스크립트를 차단하기 위해 설계되었지만, 인라인 
 
 ### 미들웨어로 nonce 추가하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 미들웨어를 사용하면 페이지가 렌더링되기 전에 헤더를 추가하고 난스를 생성할 수 있습니다.
 페이지를 볼 때마다 새로운 난스를 생성해야 합니다. 따라서 난스를 추가하려면 동적 렌더링을 사용해야 합니다.
@@ -75,7 +93,18 @@ export function middleware(request: NextRequest) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기본적으로 미들웨어는 모든 요청에서 실행됩니다. Matcher를 사용하여 특정 경로에서만 미들웨어를 실행하도록 필터링할 수 있습니다.
 next/link의 프리패치 및 CSP 헤더가 필요없는 정적 에셋과 일치하지 않도록 하는 것을 권장합니다.
@@ -103,7 +132,18 @@ export const config = {
 
 ### 논스(Nonce) 읽기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 헤더를 사용하여 서버 구성 요소에서 논스를 읽어올 수 있습니다:
 
@@ -122,7 +162,18 @@ export default function Page() {
 
 논스가 필요하지 않은 애플리케이션의 경우, next.config.js 파일에서 CSP 헤더를 직접 설정할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const cspHeader = `
@@ -160,4 +211,15 @@ module.exports = {
 
 Next.js의 v13.4.20+ 버전을 사용하여 논스를 올바르게 처리하고 적용하는 것을 권장합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

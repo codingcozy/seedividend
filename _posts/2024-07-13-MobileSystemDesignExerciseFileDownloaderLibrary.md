@@ -3,16 +3,13 @@ title: "모바일 시스템 설계 연습 파일 다운로더 라이브러리 �
 description: ""
 coverImage: "/allround-coder.github.io/assets/no-image.jpg"
 date: 2024-07-13 20:46
-ogImage: 
+ogImage:
   url: /allround-coder.github.io/assets/no-image.jpg
 tag: Tech
 originalTitle: "Mobile System Design Exercise: File Downloader Library"
 link: "https://medium.com/gitconnected/mobile-system-design-exercise-file-downloader-library-a0e9574218ca"
 isUpdated: true
 ---
-
-
-
 
 사용 사례와 비즈니스 요구 사항을 이해하는 것은 애플리케이션이나 시스템의 특정 요구 사항을 충족하는 파일 다운로더 라이브러리를 디자인하는 데 중요합니다. 다음은 사용 사례를 명확히 하고 비즈니스 요구 사항을 수집하는 데 도움이 되는 몇 가지 질문입니다:
 
@@ -39,7 +36,18 @@ isUpdated: true
 
 # 기능 요구 사항:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1. FR1: 라이브러리는 지정된 URL에서 파일 다운로드를 시작하는 기능을 제공해야 합니다.
 2. FR2: 라이브러리는 동시 또는 병렬 다운로드를 지원해 여러 파일을 동시에 다운로드할 수 있어야 합니다.
@@ -67,25 +75,48 @@ isUpdated: true
 
 이러한 요구 사항은 원하는 기능, 성능 및 품질 기준을 충족하는 파일 다운로더 라이브러리를 설계하고 구현하는 기반을 제공합니다. 특정 요구 사항은 사용 사례 및 비즈니스 요구에 따라 다를 수 있음에 유의하십시오.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 고수준 구조:
 
 파일 다운로더 라이브러리는 모듈식 및 계층 구조를 사용하여 유연성, 확장성 및 재사용성을 보장할 수 있습니다. 아래 구성 요소가 아키텍처에 포함될 수 있습니다:
 
 1. 응용 프로그램 계층:
-— API 또는 인터페이스를 사용하여 사용자 인터페이스를 제공하고 모바일 애플리케이션과 상호 작용합니다.
-— 파일 다운로드에 대한 사용자 요청 처리하고 피드백 및 진행 알림 제공.
+   — API 또는 인터페이스를 사용하여 사용자 인터페이스를 제공하고 모바일 애플리케이션과 상호 작용합니다.
+   — 파일 다운로드에 대한 사용자 요청 처리하고 피드백 및 진행 알림 제공.
 
 2. 다운로드 매니저:
-— 파일 다운로드 작업을 관리하는 중심 구성 요소 역할을 합니다.
-— 다운로드 작업의 큐잉, 스케줄링 및 우선 순위 설정을 담당합니다.
-— 연결 설정 및 파일 데이터 수신을 위해 네트워크 계층과 협력합니다.
-— 다운로드 작업을 일시 중지, 다시 시작, 취소 및 재시도하는 기능을 지원합니다.
+   — 파일 다운로드 작업을 관리하는 중심 구성 요소 역할을 합니다.
+   — 다운로드 작업의 큐잉, 스케줄링 및 우선 순위 설정을 담당합니다.
+   — 연결 설정 및 파일 데이터 수신을 위해 네트워크 계층과 협력합니다.
+   — 다운로드 작업을 일시 중지, 다시 시작, 취소 및 재시도하는 기능을 지원합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. 네트워크 레이어:
+
 - 파일 다운로드를 위한 네트워크 연결을 담당합니다.
 - Wi-Fi, 모바일 데이터, 오프라인 시나리오와 같은 다양한 유형의 네트워크 연결을 관리합니다.
 - 안전한 연결을 수립하는 메커니즘을 구현하며 필요한 경우 인증을 처리합니다.
@@ -93,6 +124,7 @@ isUpdated: true
 - 백그라운드 다운로드를 지원하고 네트워크 자원을 효율적으로 활용합니다.
 
 4. 파일 관리:
+
 - 다운로드된 파일의 저장 및 관리를 처리합니다.
 - 내부 저장소 또는 외부 SD 카드와 같은 저장 위치를 지정하는 옵션을 제공합니다.
 - 다운로드된 파일을 임시 또는 영구적으로 저장하기 위한 캐싱 메커니즘을 구현합니다.
@@ -100,18 +132,32 @@ isUpdated: true
 - 디스크 공간을 관리하고 오래된 또는 사용되지 않는 파일에 대한 정리 메커니즘을 구현합니다.
 
 5. 오류 처리 및 로깅:
+
 - 파일 다운로드 프로세스 중 다양한 유형의 오류에 대한 포괄적인 오류 처리 메커니즘을 제공합니다.
 - 디버깅 및 문제 해결을 위해 관련 정보를 캡처하는 로깅 기능을 구현합니다.
 - 응용 프로그램 레이어로 오류 보고를 지원하여 개발자가 오류를 우아하게 처리할 수 있도록 합니다.
 
 6. 사용자 정의 및 확장성:
+
 - 라이브러리를 모듈식이고 확장 가능하도록 설계하여 개발자가 기능을 사용자 정의하고 확장할 수 있도록 합니다.
 - 추가 기능 통합 또는 사용자 정의 동작 구현을 위한 후크 또는 확장 지점을 제공합니다.
 - 이미지 압축, 비디오 변환이 필요한 특정 파일 처리 요구 사항을 위해 다른 라이브러리 또는 프레임워크와의 통합을 지원합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 7. 문서 및 지원:
+
 - 사용 예제, API 참조 및 코드 조각을 포함한 상세 문서 작성
 - 문제 또는 질문 발생 시 개발자를 지원하기 위한 포럼이나 티켓 시스템과 같은 지원 채널 제공
 - 파일 다운로드 라이브러리의 통합 및 사용 예시를 보여주는 샘플 프로젝트나 데모 제공
@@ -122,7 +168,18 @@ isUpdated: true
 
 요구 사항에 따라 get API로 변경될 수 있습니다. 예를 들어, 인증 토큰이나 헤더를 보내야 하는 경우와 같이입니다. 기본 상황을 고려할 때, 아래는 응답 JSON이 어떻게 보일지의 구조입니다. 요구 사항에 맞게 업데이트할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```json
 {
@@ -152,7 +209,18 @@ isUpdated: true
 
 ## 1. API 연동:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 — ViewModel에는 서버에서 파일 목록을 검색하기 위한 API 요청을 수행하는 메서드가 있습니다.
 — 이 작업은 HTTP 클라이언트 라이브러리(예: Retrofit)를 사용하여 수행할 수 있습니다.
@@ -164,7 +232,18 @@ isUpdated: true
 
 이제 한 가지씩 순서대로 이야기해 봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Step 1: 하나의 파일을 URL에서 다운로드하는 방법
 
@@ -181,27 +260,27 @@ import android.os.Environment;
 public class FileDownloader {
     private Context context;
     private DownloadManager downloadManager;
-    
+
     public FileDownloader(Context context) {
         this.context = context;
         downloadManager = (DownloadManager) context.getSystemService(Context.DOWNLOAD_SERVICE);
     }
-    
+
     public void startDownloads(String[] fileUrls) {
         for (String fileUrl : fileUrls) {
             startDownload(fileUrl);
         }
     }
-    
+
     private void startDownload(String fileUrl) {
         DownloadManager.Request request = new DownloadManager.Request(Uri.parse(fileUrl));
         // 목적지 디렉토리 및 파일 이름 설정
         request.setDestinationInExternalPublicDir(Environment.DIRECTORY_DOWNLOADS, getFileName(fileUrl));
-        
+
         // 다운로드를 큐에 추가
         downloadManager.enqueue(request);
     }
-    
+
     private String getFileName(String fileUrl) {
         // URL에서 파일 이름 추출
         return fileUrl.substring(fileUrl.lastIndexOf('/') + 1);
@@ -209,7 +288,18 @@ public class FileDownloader {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예제에서 startDownloads() 메서드는 파일 URL 배열을 입력으로 받습니다. 그럼 각 URL을 반복하고 startDownload() 메서드를 호출하여 각 파일에 대한 다운로드 요청을 대기열에 추가합니다.
 
@@ -219,7 +309,18 @@ startDownload() 메서드는 각 파일 URL에 대한 DownloadManager.Request �
 
 파일 URL 배열을 사용하여 startDownloads()를 호출하면 다운로드가 지정된 순서대로 하나씩 시작됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **단계 3: 어떻게 애플리케이션이 종료되더라도 다운로드 프로세스를 유지할 수 있을까요?**
 
@@ -293,7 +394,18 @@ public class DownloadService extends Service {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스텝 4: 파일이 다운로드되면 다운로드 ID, 파일 이름, 파일 경로, 생성 타임스탬프 등을 저장할 데이터베이스 테이블을 생성할 것입니다. 나중에 이를 검색할 수 있습니다.
 
@@ -308,7 +420,18 @@ private void pauseDownload(long downloadId) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다운로드 재개:
 
@@ -323,7 +446,18 @@ private void resumeDownload(long downloadId) {
 
 다운로드 삭제:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 private void deleteDownload(long downloadId) {
@@ -337,20 +471,31 @@ downloadId은 DownloadManager를 사용하여 다운로드 요청을 큐잉할 �
 ```java
 private long enqueueDownload(String downloadUrl) {
     DownloadManager downloadManager = (DownloadManager) getSystemService(Context.DOWNLOAD_SERVICE);
-    
+
     DownloadManager.Request request = new DownloadManager.Request(Uri.parse(downloadUrl));
     // 다운로드 요청에 대한 목적지, 제목 등 설정
-    
+
     long downloadId = downloadManager.enqueue(request);
     // 나중에 사용할 downloadId 저장
-    
+
     return downloadId;
 }
 ```
 
 단계 6: 여러 파일을 동시에 다운로드하여 빠르게 다운로드하는 방법은 무엇입니까?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이를 수행하는 여러 가지 방법이 있습니다. ThreadPoolExecutor를 사용하여 동시에 실행되는 스레드 수를 제한할 수 있습니다. 이를 어떻게 달성할 수 있는지 알아보려면 아래 기사를 확인해보세요.
 
@@ -369,7 +514,18 @@ List<String> fileUrls = new ArrayList<>();
 downloadQueue.addAll(fileUrls);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 private void startDownloads() {
@@ -410,7 +566,18 @@ This is just a rough outline. There may be better ways to handle this.
 Step 7: How to resume an interrupted download request
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일시적으로 종료된 다운로드를 저장 공간 문제, 네트워크 오류 또는 장치 종료와 같은 외부 조건 때문에 재개하려면 DownloadManager Android의 기능을 활용할 수 있습니다. DownloadManager는 조건이 해결되면 종료된 다운로드를 자동으로 처리합니다. 다음은 작동 방식입니다:
 
@@ -443,46 +610,85 @@ if (cursor != null && cursor.moveToFirst()) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 저장 옵션
 
 안드로이드에서는 다양한 목적을 위한 여러 저장 옵션이 제공됩니다. 여기 주요 저장 옵션과 사용 사례를 살펴보겠습니다:
 
 1. 내부 저장소:
+
 - 내부 저장소를 사용하면 앱에 특정하고 다른 앱이나 사용자가 접근할 수 없는 개인 데이터를 저장할 수 있습니다.
 - 앱별 파일, 데이터베이스 및 환경 설정을 저장하는 데 자주 사용됩니다.
 - 내부 저장소에 저장된 데이터는 앱이 제거될 때 삭제됩니다.
 
 2. 외부 저장소:
+
 - 외부 저장소를 사용하면 다른 앱이나 사용자가 접근할 수 있는 파일을 저장할 수 있습니다.
 - 미디어 파일, 문서 또는 사용자가 앱 외부에서 액세스하거나 관리할 수 있는 모든 데이터에 적합합니다.
 - 외부 저장소에 읽기 및 쓰기 권한이 필요합니다.
 - 외부 저장소에 저장된 데이터는 앱이 제거되어도 유지됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. 캐시 저장소:
+
 - 필요할 때 다시 만들거나 필요할 때 다시 가져올 수 있는 데이터를 일시적으로 저장해야 할 때 캐시 저장소를 사용하세요.
 - 주로 네트워크 응답, 임시 파일 또는 기타 일시적 데이터를 캐싱하는 데 사용됩니다.
 - 저장 공간이 부족할 때 시스템에서 캐시 저장소를 지울 수 있으므로 장기 저장에 의존해서는 안 됩니다.
 
 4. 공유 환경 설정:
+
 - 키-값 쌍으로 작은 양의 데이터를 저장하려면 공유 환경 설정을 사용하세요.
 - 앱 설정, 사용자 환경 설정 또는 간단한 구성 데이터를 저장하는 데 적합합니다.
 - 공유 환경 설정에 저장된 데이터는 앱을 닫거나 삭제해도 유지됩니다.
 
 5. 데이터베이스:
+
 - 대량의 데이터를 위한 구조화된 영구 저장 솔루션이 필요할 때 SQLite와 같은 데이터베이스를 사용하세요.
 - 복잡한 데이터 구조, 관계형 데이터 또는 효율적인 쿼리 및 인덱싱이 필요한 데이터를 저장하기에 적합합니다.
 - 파일 기반 저장소와 비교했을 때 더 나은 성능과 유연성을 제공합니다.
 
 6. 네트워크 저장소:
+
 - 원격 서버나 클라우드 기반 저장 서비스에 데이터를 저장해야 할 때 네트워크 저장소를 사용하세요.
 - 사용자가 생성한 콘텐츠, 백업 또는 여러 장치 간에 동기화해야 하는 데이터를 저장하는 데 적합합니다.
 - 네트워크 연결 및 적절한 인증 및 권한 부여 메커니즘이 필요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저장 옵션을 선택할 때는 데이터 개인 정보 보호, 접근 제어, 지속성, 크기, 성능, 그리고 사용자 경험과 같은 요소를 고려해야 합니다. 귀하의 특정 요구 사항을 평가하고 귀하의 애플리케이션의 필요에 최적으로 부합하는 저장 옵션을 선택하세요.
 
@@ -491,12 +697,24 @@ if (cursor != null && cursor.moveToFirst()) {
 # 큰 크기 파일 다운로드:
 
 큰 크기 파일 다운로드를 관리하려면 다운로드 관리자가 여러 가지 전략을 구현할 수 있습니다:
+
 - 청크 다운로드: 파일을 작은 청크로 분할하고 순차적이나 병렬로 다운로드합니다.
 - 순진한 다운로드: 파일이 아직 다운로드 중일 때 재생이나 액세스 시작
 - 대역폭 제한: 다운로드 속도를 제한하여 네트워크 혼잡을 방지하거나 다운로드 프로세스를 늦춥니다.
 - 백그라운드 다운로드: 파일이 다운로드되는 동안 사용자가 앱을 계속 사용할 수 있도록 백그라운드 다운로드를 지원합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 전략들은 다운로드 프로세스를 최적화하여 대용량 파일을 관리하는 데 도움이 되며, 원활한 사용자 경험을 제공하고 네트워크 타임아웃이나 과도한 자원 사용과 같은 잠재적인 문제를 방지합니다.
 
@@ -506,7 +724,18 @@ if (cursor != null && cursor.moveToFirst()) {
 
 1. 가능한 경우 Wi-Fi 사용: Wi-Fi를 통해 파일을 다운로드하는 것은 셀룰러 데이터를 사용하는 것보다 전력을 덜 소비합니다. 사용자들이 대용량 파일 다운로드를 시작하기 전에 Wi-Fi 네트워크에 연결하도록 장려하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 네트워크 사용 최적화: 청크 다운로드 활성화 또는 HTTP 범위 요청 활용과 같은 기술을 구현하여 네트워크 사용을 최적화하세요. 이를 통해 다운로드를 작은 증분으로 수행하여 배터리 소비에 전반적인 영향을 줄일 수 있습니다.
 
@@ -516,7 +745,18 @@ if (cursor != null && cursor.moveToFirst()) {
 
 5. 파일 크기 및 압축 최적화: 가능한 경우 파일을 압축하여 전체 다운로드 크기를 줄입니다. gzip와 같은 파일 압축 알고리즘을 사용하거나 이미지 및 비디오 압축 기술을 적절히 활용하여 다운로드 중에 전송되는 데이터양을 최소화하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 6. 네트워크 연결 상태 모니터링: 네트워크 연결 상태를 지속적으로 모니터링하고 다운로드 동작을 그에 맞게 조정합니다. 예를 들어, 네트워크 연결이 불안정하거나 끊어지면 배터리 소모를 줄이기 위해 다운로드를 일시 중지하거나 재스케줄합니다.
 
@@ -526,7 +766,18 @@ if (cursor != null && cursor.moveToFirst()) {
 
 9. 전원 관리 설정 최적화: 기기의 전원 관리 설정을 준수하고 시스템 수준의 배터리 최적화 정책을 준수합니다. 이를 통해 앱이 사용자의 전원 절약 기능 및 백그라운드 제한에 대한 선호를 따르도록 보장합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 최상의 사례들을 적용함으로써, 배경에서 파일 다운로드 중 배터리 소모에 미치는 영향을 최소화할 수 있고, 기능성과 에너지 효율성을 균형있게 유지하여 더 나은 사용자 경험을 제공할 수 있습니다.
 
@@ -536,7 +787,18 @@ if (cursor != null && cursor.moveToFirst()) {
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시스템 디자인 면접을 준비할 때 이런 점을 염두에 두세요:
 
@@ -551,7 +813,18 @@ if (cursor != null && cursor.moveToFirst()) {
 
 피드백이나 질문이 있으시면 karishma.agr1996@gmail.com으로 연락해 주세요. 다른 사람이 이 글을 찾을 수 있도록 여러분의 박수는 정말 감사합니다 😃.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](https://miro.medium.com/v2/resize:fit:1200/0*FNjvFFuYMHv0AK27.gif)
 
@@ -564,6 +837,17 @@ if (cursor != null && cursor.moveToFirst()) {
 - 💰 무료 코딩 인터뷰 코스 ⇒ 코스 보기
 - 🔔 팔로우하기: 트위터 | 링크드인 | 뉴스레터
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 🚀👉 Level Up 인재 모임에 참여하여 멋진 직업을 찾아보세요!

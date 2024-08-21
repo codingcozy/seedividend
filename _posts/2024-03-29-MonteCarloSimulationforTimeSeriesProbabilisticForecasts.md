@@ -3,17 +3,13 @@ title: "Monte Carlo 시뮬레이션을 이용한 시계열 확률 예측"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Monte Carlo Simulation for Time Series Probabilistic Forecasts"
 link: "https://medium.com/@dataman-ai/monte-carlo-simulation-for-time-series-probabilistic-forecasts-e04a7d29c9b3"
 isUpdated: true
 ---
-
-
-
-
 
 ![Monte Carlo Simulation for Time Series Probabilistic Forecasts](/assets/img/MonteCarloSimulationforTimeSeriesProbabilisticForecasts_0.png)
 
@@ -23,7 +19,18 @@ Monte Carlo 시뮬레이션은 복잡한 시스템의 행동을 모델링하는 
 
 1940년대, 제2차 세계대전이 벌어지던 시기이자 핵폭탄 "맨해튼" 프로젝트가 진행되던 시기였습니다. 수학자 울람(Ulam)과 폰 노이만(von Neumann)은 맨해튼 프로젝트에 참여했습니다. 그들은 핵 연쇄 반응에서 중성자의 행동과 관련된 수학적 문제를 해결해 보고 싶어했습니다. 그러나 중성자 확산을 규정하는 방정식은 매우 복잡하여 분석적으로 풀 수 없었습니다. 이 문제를 해결하기 위해 울람과 폰 노이만은 무작위 숫자를 사용하여 중성자 확산을 시뮬레이션할 수 있다는 것을 깨달았습니다. 그들은 몬테 카를로 카지노에서 카드로 하는 간단한 솔리테어 게임을 상상했습니다. 따라서 "Monte Carlo 시뮬레이션"이라는 용어가 탄생했고 그로부터 강력한 계산 기법이 되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Monte Carlo 시뮬레이션의 과정은 기본적으로 다음과 같습니다:
 
@@ -36,7 +43,18 @@ Monte Carlo 시뮬레이션의 과정은 기본적으로 다음과 같습니다:
 
 여기서는 2020년부터 2024년까지의 애플의 일일 주식 가격을 불러옵니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import yfinance as yf
@@ -58,7 +76,18 @@ last_price = orig[-1]
 returns.hist(bins=100)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/MonteCarloSimulationforTimeSeriesProbabilisticForecasts_2.png" />
 
@@ -68,7 +97,18 @@ returns.hist(bins=100)
 
 먼저 주식의 역사적 변동성을 계산할 것입니다. 보통 이는 주식의 일일 수익률의 표준 편차를 계산하여 수행됩니다. 미래 변동성이 역사적 변동성과 유사할 것이라고 가정합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 히스토그램은 0.0을 중심으로 한 정규 분포와 같이 보입니다. 간단히 하기 위해 이 분포가 평균=0 및 표준 편차인 표준 가우시안 분포라고 가정합니다. 아래에서는 표준 편차, 즉 일일 변동성이라고도 불리는 값을 유도합니다. 그런 다음 내일을 위한 일일 수익률은 가우시안 분포에서 무작위 값으로 예상됩니다:
 
@@ -81,7 +121,18 @@ rtn = np.random.normal(0, daily_volatility);
 
 ![다음 날의 가격](/assets/img/MonteCarloSimulationforTimeSeriesProbabilisticForecasts_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 가격 = 최신_가격 * (1 + 수익률);
@@ -120,7 +171,18 @@ plt.show()
 
 결과는 분석을 위한 아래 그래프입니다. 가격은 179.66에서 시작합니다. 대부분의 가격 경로가 서로 겹칩니다. 시뮬레이션된 가격은 $500까지 높을 수도 있고 $100까지 낮을 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![MonteCarloSimulationforTimeSeriesProbabilisticForecasts_4](/assets/img/MonteCarloSimulationforTimeSeriesProbabilisticForecasts_4.png)
 
@@ -141,7 +203,18 @@ plt.show();
 
 ![MonteCarloSimulationforTimeSeriesProbabilisticForecasts_5](/assets/img/MonteCarloSimulationforTimeSeriesProbabilisticForecasts_5.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금은 학생 t-분포로 시뮬레이션해 보겠습니다.
 
@@ -151,7 +224,18 @@ plt.show();
 
 학생 t-분포는 세 가지 매개변수로 특징 지어집니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 자유도 매개변수: 샘플에서 추정한 모집단 매개변수의 독립적 관측치 수를 나타냅니다. 자유도가 증가함에 따라 t-분포는 표준 정규 분포(종모양 곡선)에 가까워집니다. Student의 t-분포의 자유도 범위는 0보다 큰 임의의 실수입니다. 자유도가 작을 때, t-분포의 꼬리는 더 두껍고 꼬리가 뚱뚱한 분포를 나타냅니다.
 - 척도: 척도 매개변수는 분포의 퍼짐 또는 변동성을 나타냅니다. t-분포의 맥락에서 척도 매개변수는 일반적으로 표본 선택된 모집단의 표준 편차입니다.
@@ -184,7 +268,18 @@ print('척도 = ', params[2])
 
 매개변수들은:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 자유도 = 3.735
 - loc = 0.001
@@ -208,7 +303,18 @@ plt.show()
 
 실제 수익률과 프로젝션은 매우 비슷합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/MonteCarloSimulationforTimeSeriesProbabilisticForecasts_6.png" />
 
@@ -245,7 +351,18 @@ plt.show()
 
 가격 경로는:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Monte Carlo Simulation Result](/assets/img/MonteCarloSimulationforTimeSeriesProbabilisticForecasts_7.png)
 
@@ -267,7 +384,18 @@ plt.show();
 
 ![Monte Carlo Simulation Result](/assets/img/MonteCarloSimulationforTimeSeriesProbabilisticForecasts_8.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결론
 

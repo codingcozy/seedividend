@@ -3,7 +3,7 @@ title: "CSS에서 스타일과 신뢰성을 위한 여러 폰트 패밀리 추�
 description: ""
 coverImage: "/assets/img/2024-06-20-AddingMultipleFontFamiliesforStyleandReliabilityinCSS_0.png"
 date: 2024-06-20 05:49
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-AddingMultipleFontFamiliesforStyleandReliabilityinCSS_0.png
 tag: Tech
 originalTitle: "Adding Multiple Font Families for Style and Reliability in CSS"
@@ -11,18 +11,24 @@ link: "https://medium.com/@tutorialsfreak2022/adding-multiple-font-families-for-
 isUpdated: true
 ---
 
-
-
-
-
 ![Font selection plays a crucial role in web design. It sets the tone, enhances readability, and influences user experience. CSS (Cascading Style Sheets) offers the power to incorporate multiple font families, giving you flexibility and control over your website’s visual appeal. This article delves into the methods for adding two or more font families in your CSS, ensuring a stylish and reliable presentation.](/assets/img/2024-06-20-AddingMultipleFontFamiliesforStyleandReliabilityinCSS_0.png)
 
 # The Essential Rule: @font-face
 
 The @font-face rule is the cornerstone of incorporating custom fonts into your CSS. It allows you to define the font family name, specify the location of the font files and set additional properties like font weight and style.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 기본 구조가 있어요:
 
@@ -38,7 +44,18 @@ The @font-face rule is the cornerstone of incorporating custom fonts into your C
 
 # 여러 폰트 패밀리 지정하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 개 이상의 글꼴 패밀리를 포함하려면 CSS 내에 추가적인 @font-face 규칙을 추가하기만 하면 됩니다. 각 규칙은 해당 속성을 가진 고유한 글꼴 패밀리를 정의합니다.
 
@@ -58,7 +75,18 @@ The @font-face rule is the cornerstone of incorporating custom fonts into your C
 
 # 내용에 글꼴 적용하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 @font-face를 사용하여 글꼴 패밀리를 정의한 후에는 font-family 속성을 사용하여 HTML 요소에 적용할 수 있습니다:
 
@@ -75,7 +103,18 @@ p, span {
 
 # 글꼴 스택: 우선순위와 대체글꼴
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 폰트 스택을 사용하면 쉼표로 구분된 글꼴 패밀리 목록을 지정할 수 있습니다. 브라우저는 지원하는 첫 번째 글꼴을 사용하려고 시도할 것입니다. 사용 가능한 것이 없으면 일반적인 글꼴을 사용합니다. 다음은 예시입니다:
 
@@ -90,7 +129,18 @@ p {
 
 # 여러 글꼴 패밀리 사용의 모범 사례
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 폰트 개수 제한하기: CSS로는 많은 폰트를 사용할 수 있지만, 너무 많은 폰트 사용은 성능에 영향을 미칠 수 있고 웹사이트가 지저분해 보일 수 있습니다. 일관된 디자인을 위해 두 가지 이상의 주요 폰트를 지향해 보세요.
 - 대체 폰트 고려하기: 항상 일관된 렌더링을 보장하기 위해 제네릭 폰트 패밀리(예: serif, sans-serif)를 대체 폰트로 포함하세요.

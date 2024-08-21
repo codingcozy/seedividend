@@ -3,17 +3,13 @@ title: "URL 파라미터란 무엇인가"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Demystifying URL Parameters A Guide for Developers"
 link: "https://medium.com/code-like-a-girl/demystifying-url-parameters-a-guide-for-developers-969e7d960a2c"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/DemystifyingURLParametersAGuideforDevelopers_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # URL 파라미터란 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 URL 매개변수란 무엇인가요? 웹 브라우저와 서버 간의 비밀 약속이라고 생각해보세요.
 
@@ -33,7 +40,18 @@ URL 매개변수란 무엇인가요? 웹 브라우저와 서버 간의 비밀 �
 
 먼저, 이 나쁜 녀석들을 분류해볼까요. 두 팀이 있습니다: 액티브와 패시브.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 활성 요소들은 문제를 일으키는 사람들이에요. 끊임없이 변화를 가져오고, 한편으로는 소란을 피우지 않는 차분한 사람들인 패시브가 있어요.
 
@@ -44,7 +62,18 @@ URL 매개변수란 무엇인가요? 웹 브라우저와 서버 간의 비밀 �
 필터:
 이들은 일부 콘텐츠를 제외하고 좋은 부분만 남겨요. 디지털 옷장을 정리하는 것과 같아요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 예시: ?color=sparkly
 
@@ -56,7 +85,18 @@ URL 매개변수란 무엇인가요? 웹 브라우저와 서버 간의 비밀 �
 페이지네이트:
 내용이 너무 길어질 때 페이지네이션이 등장하여 이를 작은 조각으로 나누어줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 예시: ?page=42
 
@@ -68,7 +108,18 @@ URL 매개변수란 무엇인가요? 웹 브라우저와 서버 간의 비밀 �
 검색:
 인터넷에서 보물을 찾고 계신가요? 상품을 발굴하기 위해 검색 매개변수를 활용하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 예시: ?query=treasure
 
@@ -79,7 +130,18 @@ URL 매개변수란 무엇인가요? 웹 브라우저와 서버 간의 비밀 �
 제휴 ID:
 판매량이 어디서 왔는지 추적합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 예시: ?aff_id=secretsource
 
@@ -91,7 +153,18 @@ URL 매개변수란 무엇인가요? 웹 브라우저와 서버 간의 비밀 �
 세션 ID:
 귀하의 사이트를 빠져나가지 못하는 그 사용자를 식별합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 예시: ?session=12345
 
@@ -102,7 +175,18 @@ URL 매개변수란 무엇인가요? 웹 브라우저와 서버 간의 비밀 �
 
 # SEO와 URL 매개변수 딜레마: 드라마가 펼쳐진다
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 세계의 드라마 퀸인 SEO. URL 매개변수가 SEO 전문가들에게 오싹한 기색을 띄우기도 해요.
 
@@ -112,7 +196,18 @@ URL 매개변수란 무엇인가요? 웹 브라우저와 서버 간의 비밀 �
 
 ## 그런 개발자가 되지 마세요: 내부 링크에서 수동적인 매개변수 피하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그냥 알려 드릴게요! 내부 링크에 수동 매개변수를 사용하는 건 저번 시즌의 유행이에요.
 
@@ -122,7 +217,18 @@ URL 매개변수란 무엇인가요? 웹 브라우저와 서버 간의 비밀 �
 
 매개변수가 있는 무한한 URL 경로는 검색 엔진에게 미로와 같아요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 구글이 웹 크롤링 모험을 떠낼 때, 그것은 경험이 풍부한 탐정처럼 움직입니다. 그것은 끝이 없는 경로와 반복되는 패턴을 잘 찾는 능력이 있죠.
 
@@ -132,7 +238,18 @@ URL 매개변수란 무엇인가요? 웹 브라우저와 서버 간의 비밀 �
 
 ## 국제화: 매개 변수의 놀이터? 사실은 아닙니다
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 국제 웹 사이트들은 때로 파라미터를 사용하지만, 구글의 길이 아닙니다.
 
@@ -143,7 +260,18 @@ URL 매개변수란 무엇인가요? 웹 브라우저와 서버 간의 비밀 �
 - 국가별 도메인
 - 국가별 서브도메인 또는 서브디렉토리
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 전자 상거래: 매개변수 미친듯이 많아요
 
@@ -154,7 +282,18 @@ URL 매개변수란 무엇인가요? 웹 브라우저와 서버 간의 비밀 �
 - 정확한 캐노니컬 태그 설정하기
 - 적절한 페이지네이션 구현하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## JavaScript과 Fragment: 얽힌 관계
 
@@ -164,7 +303,18 @@ URL 매개변수란 무엇인가요? 웹 브라우저와 서버 간의 비밀 �
 
 더군다나, 그 신뢰할 만한 # 기호는 이미 특정 페이지 부분으로 부드럽게 스크롤하는 데 필요한 역할을 하고 있습니다. 이는 클라이언트 쪽의 작업이며, JavaScript 전문가들은 종종 그것을 "라우팅" 역할로 활용하여 사용자를 새로운 콘텐츠가 있는 페이지로 안내합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그것은 항상 좋은 생각은 아니지만 때로는 필요할 때가 있어요.
 
@@ -174,7 +324,18 @@ URL 매개변수란 무엇인가요? 웹 브라우저와 서버 간의 비밀 �
 
 Screaming Frog, SEMRush, Ahrefs와 같은 도구를 사용하여 그것들을 추적하고 무엇을 하는지 확인해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 파라미터 제어: 보스처럼 책임지기
 
@@ -191,7 +352,18 @@ Screaming Frog, SEMRush, Ahrefs와 같은 도구를 사용하여 그것들을 �
 
 # 마무리: URL 파라미터 모험
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 URL 매개변수는 할머니의 유명한 비밀 레시피의 비밀 재료와 같습니다. 현명하게 활용하면 웹 페이지에 맛을 더해줄 수 있어요.
 
@@ -201,5 +373,15 @@ URL 매개변수는 할머니의 유명한 비밀 레시피의 비밀 재료와 
 
 그러니 동료 개발자 여러분, 조심해서 매개변수화해 보세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

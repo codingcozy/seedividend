@@ -3,7 +3,7 @@ title: "파일 드래그 앤 드롭 업로드와 프리뷰 구현하는 방법 J
 description: ""
 coverImage: "/assets/img/2024-07-09-DragandDropFileUploadWithPreviewUsingJavaScript_0.png"
 date: 2024-07-09 14:03
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-DragandDropFileUploadWithPreviewUsingJavaScript_0.png
 tag: Tech
 originalTitle: "Drag and Drop File Upload With Preview Using JavaScript"
@@ -11,15 +11,24 @@ link: "https://medium.com/@cwrworksite/drag-and-drop-file-upload-with-preview-us
 isUpdated: true
 ---
 
-
-
 안녕하세요 개발자 여러분, 이번 튜토리얼에서는 Html, Css 및 JavaScript를 사용하여 파일을 업로드하는 방법을 배우게 될 거에요. 이 프로젝트는 Drag and Drop 또는 파일 찾아보기를 통해 파일을 업로드하고 다운로드 기능을 포함시키는 것을 다루고 있어요. Drag And Drop은 JavaScript를 사용해 파일을 끌어다 놓는 방법을 익히기 위해 forms, CSS 및 JavaScript 개념을 명확하게 이해하는 초보 프로젝트예요.
 
 ![Drag and Drop File Upload With Preview Using JavaScript](/assets/img/2024-07-09-DragandDropFileUploadWithPreviewUsingJavaScript_0.png)
 
 프로젝트를 시작하기 전에 Drag-and-drop 파일 업로드가 무엇인지 그리고 어떻게 만들 수 있는지 이해해야 해요. Drag-and-drop 파일 업로드는 파일을 웹 페이지로 끌어다 놓아 제출할 수 있는 것을 의미해요. 대부분의 웹사이트에는 이러한 종류의 파일 업로드 기능이 있답니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 드래그 앤 드롭 파일 업로드란 무엇인가요?
 
@@ -29,7 +38,18 @@ isUpdated: true
 
 본 문서는 초심자를 위한 것입니다. 전문가들이 프로젝트를 어떻게 구축하는지를 가르쳐 드리겠습니다. 그들이 가장 먼저 신경 쓰는 것은 관리입니다. 프로젝트 관리는 모든 코더들이 따르는 첫 번째 단계이며, 프로젝트 관리는 반드시 필요합니다. 프로젝트를 관리하려면 HTML, CSS 및 JavaScript에 대한 별도의 파일을 생성해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 전제 조건:
 
@@ -41,7 +61,18 @@ isUpdated: true
 
 # 1단계: 기본 HTML 코드 추가하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 HTML은 하이퍼텍스트 마크업 언어로, 프로젝트 구조를 제공하는 주요 기능을 합니다. 이 마크업 언어를 활용하여 프로젝트 구조를 제공할 겁니다. 그러니 이제 HTML 코드를 살펴봅시다.
 
@@ -83,7 +114,18 @@ HTML은 하이퍼텍스트 마크업 언어로, 프로젝트 구조를 제공하
 
 이제 HTML부터 시작해볼까요? index.html 파일 안에 기본 HTML 문서 구조를 생성하고 html, head, title, body 태그를 추가하세요. 아래 단계를 따라주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희가 검색 상자 프로젝트를 시작하기 전에 일부 링크를 업데이트해야 합니다. 이 프로젝트를 완료하려면 HTML, CSS 및 JavaScript에 사용한 세 가지 서로 다른 파일을 연결해야 했어요. 이를 위해 CSS 링크를 헤더 안에 배치해주세요.
 
@@ -100,7 +142,18 @@ HTML은 하이퍼텍스트 마크업 언어로, 프로젝트 구조를 제공하
 
 이제 드래그 & 드롭 또는 브라우즈 프로젝트의 구조를 추가해봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희는 드래그 앤 드롭 프로젝트의 구조를 추가하기 위해 기본적인 HTML 요소를 사용할 것입니다.
 
@@ -116,11 +169,33 @@ HTML은 하이퍼텍스트 마크업 언어로, 프로젝트 구조를 제공하
 
 <img src="/assets/img/2024-07-09-DragandDropFileUploadWithPreviewUsingJavaScript_1.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 Markdown 형식으로 변경해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
@@ -216,7 +291,18 @@ CSS 코드 추가 후, 이를 단계별로 검토할 것입니다. 시간을 절
 
 우리는 클립 보드에 복사하는 기본 스타일을 추가할 것이지만, 여러분은 새로운 스타일을 시도하고 의견란에서 코드를 공유해 다른 사람들이 창의적으로 생각할 수 있도록 도와주는 것이 좋습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1단계: 우리는 가중치가 200, 300, 400 및 500인 사용자 정의 Google 폰트 인 Poppins을 사용할 것입니다. 이제 프로젝트 내에서이 Google 폰트를 추가하기 위해 Google 가져오기 링크를 사용해야합니다.
 
@@ -235,7 +321,18 @@ CSS 코드 추가 후, 이를 단계별로 검토할 것입니다. 시간을 절
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Step2: body 선택자를 사용하여 표시를 "flex"로 설정하고 align-item 속성을 사용하여 항목을 중앙에 맞추고 flex-direction 속성을 사용하여 방향을 열 방식으로 설정합니다. 웹 페이지의 body에 연한 그라데이션 배경을 추가할 것입니다.
 
@@ -260,7 +357,18 @@ Step3: 이제 컨테이너 및 구조의 모든 다른 요소에 스타일을 �
 
 이제 파일 드래그 영역에 스타일을 추가합니다. 높이를 400px로 설정하고 테두리 속성을 사용하여 연한 파란색의 대시 테두리를 3px 폭으로 추가하고 align item 속성을 사용하여 항목을 중앙에 맞출 것입니다. 여백을 사용하여 드래그 영역 외부에 10px 여백을 추가했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 .container {
@@ -289,7 +397,18 @@ Step3: 이제 컨테이너 및 구조의 모든 다른 요소에 스타일을 �
 
 Step4: 이제, 글꼴 크기를 500으로 설정하고 아래 여백을 20픽셀 추가하겠습니다. 태그 선택기 (h3)를 사용하여 (더 굵게) 선언합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금 아이콘 색상과 텍스트 크기는 모두 (.icon) 클래스를 사용하여 어두운 파랑색에 맞추어 조정되었습니다. 우리가 버튼과 지원 섹션에 적용한 스타일링은 유사합니다. 코드를 한 번만 읽어도 쉽게 이해할 수 있을 것입니다.
 
@@ -347,7 +466,18 @@ h3 {
 
 ![Drag and Drop File Upload with Preview Using JavaScript](/assets/img/2024-07-09-DragandDropFileUploadWithPreviewUsingJavaScript_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Step3: JavaScript Code
 
@@ -406,7 +536,18 @@ function displayFile() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `document.queryselector` 메서드를 사용하여 필요한 모든 DOM 구성 요소를 선택하는 것부터 시작하겠습니다. 또한 각 HTML 요소의 값을 저장할 변수가 만들어질 것입니다.
 
@@ -423,7 +564,18 @@ let input = dropArea.querySelector("input");
 let file;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 드래그 앤 드롭 기능을 먼저 구현할 것입니다. 파일을 저장하고 표시하기 위해 별도의 함수를 만드세요. 업로드를 허용할 수 있는 모든 허용 가능한 파일 형식은 해당 함수 내에서 정의될 것입니다.
 
@@ -475,7 +627,18 @@ function displayFile() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 브라우즈 기능을 활용해 봐요. 브라우즈 버튼을 누른 효과를 낼 거에요. 파일 탐색기가 열리면 파일 입력을 클릭하는 것을 모방할 거예요. 사용자가 파일을 선택하면 변경 이벤트를 기다렸다가 표시 기능을 실행할 거에요.
 
@@ -497,7 +660,18 @@ input.addEventListener("change", function () {
 
 자바스크립트를 사용해서 드래그 앤 드롭 파일 프로젝트를 완료했어요. 전체 프로젝트를 잘 이해하셨으면 좋겠어요. 이제 라이브 미리보기를 확인해보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희는 10개 이상의 프런트엔드 프로젝트를 발표한 기사도 만들었습니다. 관심이 있다면 아래 링크를 확인해보세요.
 
@@ -507,7 +681,18 @@ input.addEventListener("change", function () {
 
 작성자: Arun
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코드 제공자: BWstreet
 
@@ -517,6 +702,17 @@ input.addEventListener("change", function () {
 
 # 파일 업로드 섹션을 만드는 방법?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "업로드 파일" 섹션은 form 태그를 사용하여 만들어지며, input 타입은 "file"을 사용합니다.

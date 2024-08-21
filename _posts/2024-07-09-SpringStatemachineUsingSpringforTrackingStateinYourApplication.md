@@ -3,17 +3,13 @@ title: "스프링 스테이트머신 - 애플리케이션 상태 추적을 위�
 description: ""
 coverImage: "/assets/img/2024-07-09-SpringStatemachineUsingSpringforTrackingStateinYourApplication_0.png"
 date: 2024-07-09 21:30
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-SpringStatemachineUsingSpringforTrackingStateinYourApplication_0.png
 tag: Tech
 originalTitle: "Spring Statemachine — Using Spring for Tracking State in Your Application."
 link: "https://medium.com/gitconnected/spring-statemachine-using-spring-for-tracking-state-in-your-application-031f7fd9027f"
 isUpdated: true
 ---
-
-
-
-
 
 ![Spring Statemachine](/assets/img/2024-07-09-SpringStatemachineUsingSpringforTrackingStateinYourApplication_0.png)
 
@@ -23,8 +19,18 @@ Part Two Here.
 
 Spring Statemachine (SSM)은 SpringBoot 애플리케이션에서 상태 기계를 구현하는 데 사용할 수 있는 프레임워크입니다. 상태 기계는 한 번에 하나만 활성 상태가 될 수 있는 유한 상태의 컴퓨팅 모델입니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 입력 이벤트에 응답하여 상태 기계가 한 상태에서 다른 상태로 전이됩니다.
 
@@ -36,7 +42,18 @@ Spring Statemachine (SSM)은 SpringBoot 애플리케이션에서 상태 기계�
 
 이러한 사항 중 하나 이상이 해당되면 상태 기계를 고려해야 할 수 있습니다. Spring을 사용 중이라면 SSM이 이 사용 사례를 해결하는 좋은 후보입니다. 이를 사용하면 도움이 될 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 지저분한 다층 결정문들을 방지합니다.
 - 타입 안전성(열거형)을 사용하여 작업 흐름 구성을 형식화합니다.
@@ -54,7 +71,18 @@ Spring Statemachine (SSM)은 SpringBoot 애플리케이션에서 상태 기계�
 
 ## 우리의 사용 사례
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기사를 게시하기 위한 워크플로우를 구현할 예정입니다. 이는 기사가 편집되기 전에는 편집되지 않은 상태로 시작하여, 편집이 완료되면 리뷰 단계로 이동합니다. 리뷰 후에는 거부될 수도 있고(더 많은 편집이 필요함을 의미), 게시될 수도 있습니다.
 
@@ -64,7 +92,18 @@ Spring Statemachine (SSM)은 SpringBoot 애플리케이션에서 상태 기계�
 
 다음 섹션에서는 SSM을 사용하여 이를 어떻게 구현할지 살펴볼 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 구현
 
@@ -74,15 +113,26 @@ Spring Statemachine (SSM)은 SpringBoot 애플리케이션에서 상태 기계�
 
 첫 번째 단계는 웹, JPA 및 롬복 의존성이 있는 표준 SpringBoot 애플리케이션을 가져와서 SpringBoot Statemachine Starter 의존성을 다음과 같이 추가하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저 속성을 선언해야 합니다. 현재 SpringBoot 3.x를 사용하고 있으며(작성 시점 기준 3.1.5 버전을 사용 중), 다음 버전을 포함할 것입니다.
 
 ```js
 <properties>
-    <maven.compiler.source>17</maven.compiler.source>
-    <maven.compiler.target>17</maven.compiler.target>
-    <spring-statemachine.version>3.2.1</spring-statemachine.version>
+  <maven.compiler.source>17</maven.compiler.source>
+  <maven.compiler.target>17</maven.compiler.target>
+  <spring-statemachine.version>3.2.1</spring-statemachine.version>
 </properties>
 ```
 
@@ -90,12 +140,23 @@ Spring Statemachine (SSM)은 SpringBoot 애플리케이션에서 상태 기계�
 
 ```js
 <dependency>
-    <groupId>org.springframework.statemachine</groupId>
-    <artifactId>spring-statemachine-starter</artifactId>
+  <groupId>org.springframework.statemachine</groupId>
+  <artifactId>spring-statemachine-starter</artifactId>
 </dependency>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리 프로젝트에 다음 종속성들을 가져올 것입니다.
 
@@ -105,7 +166,18 @@ Spring Statemachine (SSM)은 SpringBoot 애플리케이션에서 상태 기계�
 
 우리는 Java Enums를 사용하여 전이에 대한 가능한 상태와 이벤트를 나타낼 것입니다. 이것은 코드 작성을 시작하기 전에 다이어그램을 사용하여 상태를 스케치하고 상태와 이벤트에 유효한 이름을 할당하는 것이 왜 중요한지를 설명합니다. UML 다이어그램이 가치 있을 수 있고, 구조에 대한 설명은 여기에 개요되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단계와 필요한 이벤트를 보여주는 다이어그램이 준비되면 이러한 enum 클래스를 정의할 수 있습니다. 우리의 목적을 위해서는
 
@@ -129,7 +201,18 @@ public enum ArticleEvents {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이들은 상태 기계 구성의 기반을 제공할 것입니다. 또한 상태 기계를 빌드하는 대상 엔티티인 Article을 나타내는 간단한 모델 클래스를 정의할 것입니다. 데이터베이스에 이를 보관할 것이므로 JPA Entity 주석을 달아 표시합니다. 또한 @Enumerated 주석을 사용하여 상태 열을 정의하고 우리의 상태 enum 클래스를 타입으로 사용합니다.
 
@@ -159,13 +242,35 @@ public interface ArticleRepository extends JpaRepository<Article, Long> {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러면 우리는 상태 머신 구성을 정의할 수 있습니다.
 
 ## 구성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로 코드의 다음 부분은 상태 머신 자체의 구성에 관련된 것을 검토할 것입니다.
 
@@ -191,7 +296,18 @@ public class Listener extends StateMachineListenerAdapter<ArticleStates, Article
 
 청취자를 통해 완전한 상태 머신 구성을 정의할 수 있습니다. 현재는 소스, 대상, 그리고 이벤트 필드에 집중해 주시기 바랍니다. 구성의 action 및 guard 부분에 대해는 이후에 설명할 예정입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 @EnableStateMachineFactory 주석을 사용하여 @Configuration 관련 클래스를 가져와 상태 머신 팩토리를 구축하는 데 강조하고 싶어요. 이를 통해 더 많은 제어를 제공하고 단일 애플리케이션 내에서 여러 상태머신으로 작업할 수 있으며 StateMachineFactory 클래스를 의존성 주입 가능하게 만듭니다. 나중에 보게 될 것처럼요.
 
@@ -257,7 +373,18 @@ public class StateMachineConfig extends EnumStateMachineConfigurerAdapter<Articl
 
 두 번째 재정의는 전이를 정의합니다. 이것은 적절한 상태 머신 다이어그램을 보유하는 것이 이를 올바르게 이해하는 데 주요 이점이 되는 것을 설명한 곳으로 돌아갑니다. 이 섹션에서는 소스(현재 상태), 대상(전환될 상태) 및 해당 전환을 트리거하는 이벤트를 정의합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, 우리는 우리의 article이 ArticleStates.UNEDITED_ARTICLE 상태에 있고 ArticleEvents.EDIT_ARTICLE 이벤트를 받았을 때 ArticleStates.EDITING_IN_PROGRESS 상태로 전환해야 한다고 정의합니다. SSM 없이 수행될 경우 대응하는 if..else 구조보다 해석하기 쉽고 오류 가능성이 적은 간결하고 명확한 정의입니다.
 
@@ -267,7 +394,18 @@ public class StateMachineConfig extends EnumStateMachineConfigurerAdapter<Articl
 
 ## 동작
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 상태 머신과 상호 작용하는 데 사용할 수 있는 컴포넌트로서 Action이 있습니다. Action은 상태 머신 및 해당 상태 라이프 사이클의 여러 위치에서 실행될 수 있습니다. 우리의 경우 전이 구성의 일부로 Action을 정의했습니다.
 
@@ -292,7 +430,18 @@ public class BeginEditAction implements Action<ArticleStates, ArticleEvents> {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 특별한 처리 예제는 ReviewCompleteAction.java 파일에서 수행됩니다. 상태 기계 정의에서 두 가지 가능한 전이, 즉 Successful 및 Reject을 기억하실 것입니다. 이를 모의 테스트 코드로 설정하여 액션 내에서 시뮬레이션합니다.
 
@@ -326,7 +475,18 @@ public class ReviewCompleteAction implements Action<ArticleStates, ArticleEvents
 
 코드에 있는 다른 모든 액션을 모두 포함하지는 않겠습니다. 해당 텍스트에서 참조할 수 있습니다. 그러나 이러한 모든 액션은 액션을 구현하는 유사한 패턴을 따릅니다. 우리의 액션이 간단하지만 더 복잡한 로직도 구현할 수 있습니다. 예를 들어 외부 API를 호출하고 헤더 또는 페이로드를 통해 컨텍스트를 수정하거나 추가할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 가드
 
@@ -347,7 +507,18 @@ public class ArticleIdGuard implements Guard<ArticleStates, ArticleEvents> {
 
 만약 false가 반환된다면, 전이가 허용되지 않고 상태 머신은 현재 상태에 유지됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 상태 유지
 
@@ -378,7 +549,18 @@ public class ArticleStateChangeInterceptor extends StateMachineInterceptorAdapte
 
 이 코드는 이전에 정의된 리포지토리를 사용하여 헤더 값에서 기사 id를 가져와 새 상태를 설정한 다음 저장합니다. 이 과정은 간단합니다. 이제 인터셉터가 어떻게 구성되는지 정의해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 모두 연결하는 중
 
@@ -399,7 +581,18 @@ public interface ArticleService {
 
 관련된 구현 클래스는 여기에 표시되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 @RequiredArgsConstructor
@@ -485,8 +678,18 @@ public class ArticleServiceImpl implements ArticleService {
 
 이러한 패턴을 사용하면 beginEditing(Long articleId)와 같은 각 핸들러 메서드는 간단하며 상태 머신에 정보를 보내기 위해 이 두 메서드를 재사용할 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 구현을 마쳤습니다. 하지만 상태 머신을 어떻게 테스트할 수 있을까요?
 
@@ -552,7 +755,18 @@ class ArticleServiceImplTest {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 상태를 확인했습니다.
 
@@ -562,7 +776,18 @@ class ArticleServiceImplTest {
 
 이 기사에서는 Spring Statemachine (SSM)의 전체 구현을 살펴보았습니다. 우리는 액션, 이벤트, 전이, 가드와 같은 상태 기계의 주요 구성 요소 및 청취자(listener)와 인터셉터를 사용하여 상태 기계와 인터페이스하는 방법을 살펴보았습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마침내, 모든 것을 연결하는 서비스 클래스가 구현되었고, 우리는 단위 테스트로 확인했습니다.
 

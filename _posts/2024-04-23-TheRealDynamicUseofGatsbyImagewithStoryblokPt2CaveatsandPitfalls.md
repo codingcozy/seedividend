@@ -3,17 +3,13 @@ title: "GatsbyImage와 Storyblok 실제 다이내믹 사용 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "The Real Dynamic Use of GatsbyImage with Storyblok Pt 2 Caveats and Pitfalls"
 link: "https://medium.com/@bseleng/the-real-dynamic-use-of-gatsbyimage-with-storyblok-pt-2-caveats-and-pitfalls-fd7904b5ef07"
 isUpdated: true
 ---
-
-
-
-
 
 이 문서는 이미 구현한 Gatsby-image-plugin을 전제로 합니다. 이 플러그인에 의해 발생하는 모든 기술적 및 사용자 경험 문제를 나열하려고 합니다.
 
@@ -23,21 +19,39 @@ isUpdated: true
 
 먼저 작은 화면 크기에서 모든 이미지를 확인해야 합니다. 때로는 이미지의 전체 범위에 의존하는 경우가 있을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이게 요구하는 내용이에요:
 
-
 <img src="/assets/img/TheRealDynamicUseofGatsbyImagewithStoryblokPt2CaveatsandPitfalls_1.png" />
-
 
 그리고 이게 얻게 되는 결과에요:
 
-
 <img src="/assets/img/TheRealDynamicUseofGatsbyImagewithStoryblokPt2CaveatsandPitfalls_2.png" />
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 화면 너비가 작을 때 `picture`가 작은 해상도를 선택하는 것이 문제가 될 수 있습니다. 이 부분은 일반적으로 좋은 동작이지만 위에서 언급한 것과 같이 일부 예외가 발생할 수 있습니다.
 
@@ -47,7 +61,18 @@ isUpdated: true
 
 또한 `picture`가 이미지를 감싸는 것이기 때문에 `CSS`에서 `img` 선택기에 의존하는 경우 스타일링 문제를 인식해야 합니다 (이에 대해 조금 더 살펴보겠습니다).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # SVG 지원 없음
 
@@ -57,7 +82,18 @@ isUpdated: true
 
 렌더링 문제를 해결할 수 있지만, 개발 경험을 더 향상시키고 싶다면 무엇을 해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/TheRealDynamicUseofGatsbyImagewithStoryblokPt2CaveatsandPitfalls_5.png" />
 
@@ -67,7 +103,18 @@ isUpdated: true
 
 # 검은 정사각형이 나타날 수 있음
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 마주한 다른 문제 중 하나는 페이지를 다시로드할 때 이미지에 검은 사각형이 번쩍거리는 현상이 있습니다. 우리는이를 두었는데, 페이지를 계속 다시로드하는 것이 우리의 가장 일반적인 사용 사례가 아니기 때문에 이상하게도 문제가 계속되는 것을 볼 수 있었습니다. 커뮤니티에서 제안된 해결책은 모두 유용하지 않았습니다:
 
@@ -79,7 +126,18 @@ isUpdated: true
 
 우리는 더 나은 최적화와 초당 아티팩트 사이의 타협안을 찾았으나, 여러분의 경우에는 그렇지 않을 수도 있습니다. 실제로, 이에 대한 빠른 해결책이 심지어 있고, 다음 기사에서 공유할 예정입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 예측할 수 없는 스타일링
 
@@ -90,7 +148,18 @@ gatsby-image-plugin은 CSS를 덮어쓰게 하는데, 이 글을 작성하는 �
 - gatsby-plugin-image 클래스 스타일이 사용자가 만든 스타일 및 Tailwind CSS와 같은 CSS 프레임워크를 파괴합니다 · 문제 #34457 · gatsbyjs/gatsby
 - Gatsby, MaterialUI의 프로덕션에서 CSS가 깨지는 현상
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기존 기술이 망가질 가능성은 100%가 아니지만, 그것을 더 어렵게 만들 수 있다는걸 명심하세요.
 
@@ -100,7 +169,18 @@ gatsby-image-plugin은 CSS를 덮어쓰게 하는데, 이 글을 작성하는 �
 
 ![이미지](/assets/img/TheRealDynamicUseofGatsbyImagewithStoryblokPt2CaveatsandPitfalls_7.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/TheRealDynamicUseofGatsbyImagewithStoryblokPt2CaveatsandPitfalls_8.png" />
 
@@ -110,7 +190,18 @@ gatsby-image-plugin은 CSS를 덮어쓰게 하는데, 이 글을 작성하는 �
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 첫 번째 기사에서는 'gatsby-image-plugin'을 사용하여 프로젝트를 리팩토링할 결정이 '최적화'의 필요성으로 이루어졌고 안타깝게도 Lighthouse로 측정되었습니다. 여기서 귀중한 교훈을 얻을 수 있었어요:
 

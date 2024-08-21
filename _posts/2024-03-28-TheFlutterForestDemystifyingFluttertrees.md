@@ -3,17 +3,13 @@ title: "플러터 숲 - 플러터 트리 해소하기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "The Flutter Forest  Demystifying Flutter trees"
 link: "https://medium.com/globant/the-flutter-forest-demystifying-flutter-trees-a5ebb4db4efe"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/TheFlutterForestDemystifyingFluttertrees_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 만약 이것이 숲이라면, 뿌리로 돌아가 보겠습니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 플러터 개발자는 위젯에 익숙하지만, 진정한 플러터 개발자는 그 아래에서 무슨 일이 벌어지는지 알고 있어요. 위젯은 복잡한 화면을 구축하기 위해 다른 위젯 위에 또는 주위에 배치되어 트리 형태로 만들어집니다.
 
@@ -35,7 +42,18 @@ isUpdated: true
 - 엘리먼트 트리
 - 렌더 오브젝트 트리
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 나무들은 아래 다이어그램에서 볼 수 있는 것처럼 밀접한 관련이 있습니다. 이 기사에서는 각각이 무엇을 하는지 그리고 나머지와 어떻게 관련이 있는지 심도있게 다룰 것입니다.
 
@@ -45,7 +63,18 @@ isUpdated: true
 
 # 위젯 트리
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 당신이 작성한 나무입니다. 더 큰 위젯을 형성하기 위해 작은 위젯을 중첩하여 코드화합니다. 예를 들어 Container() 위젯과 Text() 위젯을 자식으로 가진 경우, 당신의 위젯 트리는 Container가 루트이고 Text가 잎(자식)으로 있을 것입니다. 더 큰 구조를 생각해보면, 훨씬 더 큰 위젯 트리를 만나게 될 수 있습니다.
 
@@ -55,7 +84,18 @@ isUpdated: true
 
 당신의 위젯 트리에 있는 각 위젯은 엘리먼트 트리에 해당하는 요소를 가지고 있습니다. 사실, Flutter 프레임워크는 createElement() 메서드를 사용하여 각 위젯에 대한 엘리먼트를 생성합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요소는 트리의 특정 위치를 구성하기 위해 위젯을 사용하는 것을 나타냅니다:
 
@@ -65,7 +105,18 @@ isUpdated: true
 
 ![이미지](/assets/img/TheFlutterForestDemystifyingFluttertrees_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위젯과 마찬가지로 요소들도 상태 요소 및 무상태 요소 두 가지 유형으로 나눌 수 있어요. 무상태 요소는 StatelessWidget을 참조하며, 상태 요소는 StatefulWidget과 해당 상태를 보유해요.
 
@@ -75,7 +126,18 @@ isUpdated: true
 
 새 데이터로 UI를 업데이트하려면 setState() 메소드를 호출하여 상태 객체를 업데이트해요. 내부적으로 해당 객체는 해당 요소를 더러운 상태로 표시하고, 연결된 위젯의 build() 메서드를 호출하여 UI를 업데이트하게 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전 이미지를 예로 들어보면, 부모 위젯이 Text 위젯의 내용을 "여행 B"로 변경하지만 다른 위젯들의 내용은 그대로 남아 있으면 Element Tree는 Text 위젯에 해당하는 요소만 변경할 것이다. 그 이유는 그게 유일하게 변경되는 위젯이기 때문이다. 새 위젯이 이전 것과 동일한 유형이기 때문에 참조를 유지하기 위해 기존 Element는 재사용될 것이다. 더 많은 정보는 여기에서 확인할 수 있습니다.
 
@@ -92,7 +154,18 @@ abstract class Widget extends DiagnosticableTree {
 
 # 렌더 트리
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 중요한 트리는 화면에 표시되는 트리입니다.
 
@@ -102,7 +175,18 @@ Flutter의 공식 문서에 따르면 "렌더 트리는 사용자 인터페이�
 
 RenderObjects는 위치, 기본 레이아웃 및 페인트 프로토콜과 같은 위젯의 기본 세부 정보를 저장합니다. 그러나 부모가 얼마나 많은 자식을 가질지 또는 그들이 어디에 위치할지를 정의하지는 않습니다. 따라서 Flutter 프레임워크가 UI를 그릴 때 각 위젯의 렌더링 프로퍼티를 제어하는 Render Object Tree를 참조합니다. 이 트리를 다시 인스턴스화하는 것은 비용이 많이 듭니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당황하지 마세요! 대부분의 Flutter 개발자들은 객체를 직접 렌더링하지 않고 위젯을 사용하여 간접적으로 렌더 트리를 조작합니다.
 
@@ -112,7 +196,18 @@ RenderObjects는 위치, 기본 레이아웃 및 페인트 프로토콜과 같�
 
 전체 위젯 렌더링 프로세스는 다음 단계로 요약할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 플러터 앱을 실행하면 main 함수가 runApp() 함수를 호출합니다.
 - 이 함수는 주어진 위젯을 가져와 위젯 트리의 루트로 만듭니다.
@@ -127,7 +222,18 @@ RenderObjects는 위치, 기본 레이아웃 및 페인트 프로토콜과 같�
 - 앱의 전반적인 성능을 향상시키기 위해.
 - 이를 알지 못해 발생하는 일반적인 버그를 피하기 위해 (경우의 4%).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 누락된 1%는 "저수준" 라이브러리를 사용하는 것과 관련이 있습니다. 코드를 직접 터치하여 화면에 보기를 그려내는 작업을 수행해야 합니다.
 
@@ -137,7 +243,18 @@ RenderObjects는 위치, 기본 레이아웃 및 페인트 프로토콜과 같�
 
 ## 함수보다 위젯을 선호하세요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![TheFlutterForestDemystifyingFluttertrees_7](/assets/img/TheFlutterForestDemystifyingFluttertrees_7.png)
 
@@ -148,7 +265,18 @@ RenderObjects는 위치, 기본 레이아웃 및 페인트 프로토콜과 같�
 
 이로 인해 Flutter의 위젯 트리 구조로부터의 선택적 빌드() 호출의 장점을 활용하지 못할 수 있습니다. 또한 이 문서의 이전 부분에서 언급한 대로 const 키워드를 사용하여 Element Tree 관리를 개선하는 큰 이점도 언급할 수 없습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## StatefulWidget에서 많은 상태를 보관하는 것을 피하세요.
 
@@ -161,7 +289,18 @@ class _MyHomePageState extends State<MyHomePage> {
   final _counterNotifier = ValueNotifier<int>(0);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
   void _onPressed() {
@@ -193,7 +332,18 @@ class _MyHomePageState extends State<MyHomePage> {
 
 이제 Flutter의 트리에 대해 전문가가 되었으니 이 개념을 쉽게 이해할 수 있을 것입니다. 이 주제는 반드시 필요한 것만 만들어서 효율적인 목록을 생성하는 방법에 관한 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가게 목록이 100개 있고 화면에는 한 번에 4개 또는 5개만 표시될 때가 있습니다. 왜 화면에 실제로 나타나는 아이템만을 위한 요소가 생성 및 마운트되는 ListView.builder 메서드를 사용하지 않을까요? 특히 무거운 Render Object 트리까지 전부 만들 필요가 없으니까요! 이것이 ListView 위젯이 가시적인 아이템에 대해서만 Elements를 만들고 마운트하는 ListView.builder 메서드를 갖는 이유입니다.
 
@@ -203,7 +353,18 @@ class _MyHomePageState extends State<MyHomePage> {
 
 대부분의 경우에는 위젯에 키를 지정할 필요가 없을 것입니다. 그러나 위젯 트리 내에서 이동될 때 위젯 상태를 보존하고 싶다면 키가 필요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위젯 트리의 위젯과 엘리먼트 트리의 엘리먼트 간의 관계는 키에 의해 설정됩니다. 키가 지정되지 않은 경우 위젯의 유형을 사용하여 키를 결정합니다. 이는 변경 가능한 목록에서 매우 유명한 문제로 이어질 수 있습니다. 위젯을 제거, 추가, 재정렬 또는 드래그할 때 해당 상태를 보존하고 싶지만 키가 지정되지 않은 경우 한 개 이상의 항목의 상태가 일관성 없게 될 수 있습니다.
 
@@ -213,7 +374,18 @@ class _MyHomePageState extends State<MyHomePage> {
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1200/1*sHDIVXBu9RpJYN9Zdn8iBw.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 많은 정보를 원하시면 이 미디움 기사를 참고하거나 예시를 보려면 이 기사를 확인해보세요.
 
@@ -223,7 +395,18 @@ Flutter는 강력한 프레임워크이지만 복잡하기도 합니다. 이 프
 
 위젯 트리가 어떻게 작동하고 다른 트리들과 상호작용하는지를 이해하면 더 효율적이고 에러를 줄일 수 있는 코드를 작성할 수 있을 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 그러면 다음에는 무엇을 해볼까요?
 

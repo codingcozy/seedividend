@@ -3,17 +3,13 @@ title: "네카라쿠배 개발 면접 CSS 관련 질문 5가지"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Deep Dive into CSS Interview Questions"
 link: "https://medium.com/@cpgupta33/deep-dive-into-css-interview-questions-bc304f6b8f2c"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/Deep-Dive-into-CSS-Interview-Questions_0.png" />
 
@@ -23,7 +19,18 @@ CSS 인터뷰 질문을 통해 심도 있는 지식을 테스트할 수 있는 �
 
 - Flexbox: 수평 또는 수직 축을 따라 요소를 배열하는 단일 차원 레이아웃 모델입니다. 반응형 레이아웃, 요소 정렬 및 항목 간 공간 생성에 적합합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시: 컨테이너 내에서 버튼을 수평으로 가운데 정렬하는 데 Flexbox를 사용합니다.
 
@@ -33,7 +40,18 @@ CSS 인터뷰 질문을 통해 심도 있는 지식을 테스트할 수 있는 �
 
 설명: Flexbox와 그리드는 모두 반응형 레이아웃을 위한 해결책을 제공하지만, 각각의 장점을 이해하는 것이 중요합니다. Flexbox는 단일 차원 정렬에서 뛰어나지만, 그리드는 복잡하고 다차원 레이아웃에서 빛을 발합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. CSS 미디어 쿼리를 사용하여 반응형 레이아웃을 어떻게 구현하나요? 미디어 쿼리 유형의 예시를 알려주세요.
 
@@ -44,7 +62,18 @@ CSS 인터뷰 질문을 통해 심도 있는 지식을 테스트할 수 있는 �
 
 (orientation: portrait): 세로 모드에서만 적용되는 스타일.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 (prefers-color-scheme: dark): 어두운 모드를 선호하는 사용자에게 적용되는 스타일입니다.
 
@@ -55,7 +84,18 @@ CSS 인터뷰 질문을 통해 심도 있는 지식을 테스트할 수 있는 �
 - display: none; 요소를 문서 흐름에서 제거하므로 보이지 않고 공간을 차지하지 않습니다.
 - visibility: hidden; 요소를 숨기지만 레이아웃에서 여전히 공간을 차지합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 설명: 요소를 완전히 숨기고 공간을 다른 요소로 대체하려면 display: none; 을 사용하십시오. 요소를 시각적으로 숨기지만 레이아웃에서 요소의 위치를 유지하려는 경우에는 visibility: hidden;을 선택하십시오 (예: 애니메이션 또는 접근성 목적).
 
@@ -65,7 +105,18 @@ CSS 인터뷰 질문을 통해 심도 있는 지식을 테스트할 수 있는 �
 
 설명: 특이성은 규칙에 사용된 셀렉터의 수와 유형에 기반하여 계산됩니다 (인라인 스타일의 우선 순위가 가장 높음). 특이성을 이해하는 것은 스타일 충돌을 해결하고 원하는 스타일이 적용되도록 보장하기 위해 중요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 5. Sass나 Less와 같은 CSS 전처리기를 사용하는 장단점에 대해 이야기해보세요.
 
@@ -75,7 +126,18 @@ CSS 인터뷰 질문을 통해 심도 있는 지식을 테스트할 수 있는 �
 
 설명: CSS 전처리기는 더 깔끔하고 유지보수가 쉬운 CSS를 작성할 수 있는 강력한 기능을 제공합니다. 하지만, 그들은 추가 복잡성과 설정 오버헤드를 도입합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 보너스: 대규모 웹 사이트의 CSS 성능을 최적화하는 방법은 무엇인가요?
 

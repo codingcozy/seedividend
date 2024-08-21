@@ -3,17 +3,13 @@ title: "Angular v17 정리 및 새로운 기능 소개"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Introducing Angular v17"
 link: "https://medium.com/angular-blog/introducing-angular-v17-4d7033312e4b"
 isUpdated: true
 ---
-
-
-
-
 
 지난 달에는 Angular의 붉은 방패가 13주년을 맞이했습니다. AngularJS는 JavaScript 프레임워크의 새로운 파도를 시작시켰고, 이는 풍부한 웹 경험에 대한 점점 커지는 요구를 지원하기 위해 등장했습니다. 오늘은 새로운 모습과 미래를 향한 기능 세트로 모두가 함께 미래로 나아가도록 17번 버전으로 새로운 성능과 개발자 경험을 제시하며 새로운 표준을 제시합니다.
 
@@ -28,7 +24,18 @@ v17에서 우리는 기쁨 가지고 소개합니다:
 - 새로운 대화형 학습 여정
 - …그리고 수십 가지 기능 및 개선 사항들도 있습니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 미래를 내다 보는 정체성
 
@@ -38,7 +45,18 @@ Angular의 부흥은 최근 몇 버전 동안 증가 추세를 이어왔습니�
 
 ![Angularv17_1 이미지](/assets/img/IntroducingAngularv17_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 미래를 내다보는 문서
 
@@ -48,7 +66,18 @@ Angular의 부흥은 최근 몇 버전 동안 증가 추세를 이어왔습니�
 
 <img src="/assets/img/IntroducingAngularv17_2.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오늘은 angular.dev의 베타 미리보기를 출시하고, v18에서는 Angular의 기본 웹사이트로 만들 계획입니다. "Announcing angular.dev"에서 Angular의 새로운 모습과 angular.dev에 대해 자세히 알아볼 수 있습니다.
 
@@ -58,7 +87,18 @@ Angular의 부흥은 최근 몇 버전 동안 증가 추세를 이어왔습니�
 
 개발자 경험을 개선하기 위해 간단하고 선언적인 API로 강력한 기능을 제공하는 새로운 블록 템플릿 구문을 출시했습니다. Angular 컴파일러는 해당 구문을 효율적인 JavaScript 명령으로 변환하여 제어 흐름, 지연 로딩 등을 수행할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 최적화된 내장 제어 흐름을 위해 새로운 블록 구문을 사용했어. 사용자 연구를 실시한 결과로, 많은 개발자들이 *ngIf, *ngSwitch, *ngFor에 어려움을 겪는다는 것을 발견했어. 2016년부터 Angular을 사용해오면서 지난 5년간 Angular 팀에 속해온 나로써도 *ngFor와 trackBy의 구문을 확인해야 하는 경우가 많았지. 커뮤니티, 파트너의 피드백을 수집하고 UX 연구를 실시한 결과, 우리는 Angular을 위한 새로운 내장 제어 흐름을 개발했어!
 
@@ -72,7 +112,18 @@ Angular의 부흥은 최근 몇 버전 동안 증가 추세를 이어왔습니�
 
 # 조건문
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 \*ngIf와 나란히 비교해 보겠습니다:
 
@@ -95,7 +146,18 @@ Angular의 부흥은 최근 몇 버전 동안 증가 추세를 이어왔습니�
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 @else에 콘텐츠를 직접 제공할 수 있는 것은 이전 \*ngIf 옵션의 else 절과 비교했을 때 주요 단순화입니다. 현재의 제어 흐름은 과거에는 불가능했던 @else if를 간단히 구현할 수 있도록 만듭니다.
 
@@ -111,7 +173,18 @@ Angular의 부흥은 최근 몇 버전 동안 증가 추세를 이어왔습니�
 
 내장된 제어 흐름과 결합하면 다음과 같이 변환됩니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 @switch (accessLevel) {
@@ -127,7 +200,18 @@ Angular의 부흥은 최근 몇 버전 동안 증가 추세를 이어왔습니�
 
 가장 좋아하는 업데이트 중 하나는 우리가 도입한 내장 for 루프입니다. 개발자 경험 개선에 더해 Angular의 렌더링 속도를 더 높은 수준으로 끌어올렸습니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기본 구문은 다음과 같습니다:
 
@@ -143,7 +227,18 @@ Angular의 부흥은 최근 몇 버전 동안 증가 추세를 이어왔습니�
 
 @for 문은 새로운 diffing 알고리즘을 사용하며 \*ngFor보다 더 최적화된 구현을 갖고 있어 커뮤니티 프레임워크 벤치마크에 대해 최대 90% 빠른 런타임 속도를 제공합니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/IntroducingAngularv17_3.png" />
 
@@ -153,7 +248,18 @@ Angular의 부흥은 최근 몇 버전 동안 증가 추세를 이어왔습니�
 
 내장 제어 플로우의 디자인 목표 중 하나는 완전히 자동화된 이관을 가능하게 하는 것이었습니다. 기존 프로젝트에서 시도해 보려면 다음 이관을 사용하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 ng generate @angular/core:control-flow
@@ -165,7 +271,18 @@ ng generate @angular/core:control-flow
 
 내장된 제어 흐름이 *ngIf, *ngFor 및 \*ngSwitch와 같은 콘텐츠 프로젝션을 처리하는 방식에는 아직 몇 가지 차이가 있습니다. 이 차이에 대해 다음 몇 달 동안 작업할 계획이며, 구현과 안정성에 대해 확신하므로 오늘 바로 사용해 볼 수 있습니다! 다음 주요 릴리스까지 개발자 미리보기로 유지하고, 우리가 개발자 경험을 더 향상시킬 기회를 발견하면 잠재적으로 하위 호환성이 없는 수정 사항에 대한 문을 열기 위해 이 작업을 진행할 예정입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 지연로드 가능한 뷰
 
@@ -175,7 +292,18 @@ ng generate @angular/core:control-flow
 
 예를 들어 블로그가 있다고 가정해 보겠습니다. 사용자의 댓글 목록을 게으르게 로드하고 싶다고 가정해 봅시다. 현재는 ViewContainerRef를 사용해야 하며 클린업, 로딩 오류 관리, 플레이스홀더 표시 등을 모두 처리해야 합니다. 다양한 코너 케이스를 다루는 것이 복잡함으로 인해 상당히 복잡한 코드가 될 수 있으며, 테스트와 디버깅이 어렵게 될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새로운 지연 로딩 뷰를 통해 한 줄의 선언적 코드로 댓글 목록과 모든 종속 항목을 게으르게 로드할 수 있습니다.
 
@@ -183,7 +311,18 @@ ng generate @angular/core:control-flow
 
 특정 DOM 요소가 뷰포트에 진입할 때 컴포넌트를 게으르게 로드하려면 더 많은 비즈니스 로직과 IntersectionObserver API가 필요합니다. Angular는 IntersectionObserver를 사용하기를 더 간단하게 만들어줍니다. 게으르게 로딩할 수 있는 뷰 트리거를 추가하기만 하면 됩니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 @defer (on viewport) {
@@ -210,7 +349,18 @@ ng generate @angular/core:control-flow
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래요! Angular가 대신 처리해주는 복잡성이 많이 있어요.
 
@@ -226,7 +376,18 @@ ng generate @angular/core:control-flow
 
 지연 로딩 뷰는 또한 렌더링 전에 종속성을 미리 가져와 로딩할 수 있는 기능을 제공해요. Prefetching은 지연 블록에 prefetch 문을 추가하는 것만으로 간단히 추가할 수 있으며 모든 동일한 트리거를 지원해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 @defer (화면에 보이면 지연; 유휴 상태에서는 미리 가져오기) {
@@ -240,7 +401,18 @@ ng generate @angular/core:control-flow
 
 지연 뷰를 사용할 준비가 되어 있고, 꼭 한 번 시도해 보기를 권장합니다! 우리는 이들을 개발자 미리보기 상태로 유지하는 이유는 더 많은 피드백을 수집하고 API 표면에서 변경 사항을 도입하여 다른 프레임워크와 같이 의미론적 버전 관리를 하기 전까지 고정할 수 있도록하기 위해서입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 서버 측 렌더링은 현재 지정된 자리 표시자를 렌더링합니다. 프레임워크가 애플리케이션을 로드하여 활성화하면, 지연 로딩 가능한 뷰는 위에서 설명한 대로 작동합니다.
 
@@ -250,7 +422,18 @@ ng generate @angular/core:control-flow
 
 # 혁신적인 하이브리드 렌더링 경험
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오늘은 ng new에서 개발자에게 서버 사이드 렌더링 (SSR) 및 정적 사이트 생성 (SSG 또는 사전 렌더링)을 더 가깝게 제공합니다:
 
@@ -260,7 +443,18 @@ ng generate @angular/core:control-flow
 
 또는 새 프로젝트에서 SSR을 활성화할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 ng new my-app --ssr
@@ -272,7 +466,18 @@ ng new my-app --ssr
 
 # 새로운 @angular/ssr 패키지
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희가 Angular Universal 저장소를 Angular CLI 저장소로 이전하여 서버 측 렌더링을 더욱 중요한 도구로 포함시켰습니다!
 
@@ -284,7 +489,18 @@ ng add @angular/ssr
 
 이 명령은 서버 진입점을 생성하고 SSR 및 SSG 빌드 기능을 추가하며 기본적으로 수분화(hydration)를 활성화합니다. @angular/ssr은 현재 유지 관리 모드인 @nguniversal/express-engine과 동등한 기능을 제공합니다. express-engine을 사용 중이라면 Angular CLI가 자동으로 코드를 @angular/ssr로 업데이트합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Virgin Media O2은 레거시 플랫폼에서 최신 Angular Hybrid 렌더링 솔루션으로 이전한 후 매출이 112% 증가했습니다. NgOptimizedImage를 사용하여 DOM Hydration과 함께 Angular SSR를 이용함으로써 누적 레이아웃 변화를 평균 99.4% 감소시켰습니다.
 
@@ -294,7 +510,18 @@ Virgin Media O2은 레거시 플랫폼에서 최신 Angular Hybrid 렌더링 솔
 
 Firebase는 이제 새로운 프레임워크 인식 CLI의 초기 미리보기와 함께, Angular 애플리케이션을 거의 구성 없이 자동으로 인식하고 배포할 수 있게 될 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 파이어베이스 실험: 활성화 웹프레임워크
@@ -311,7 +538,18 @@ ng add @angular/fire
 ng deploy
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 에지 워커로의 배포를 활성화하기 위해 Angular의 서버 측 렌더링에서 ECMAScript 모듈 지원을 활성화했고, HttpClient를 위한 fetch 백엔드를 도입하고 CloudFlare와 협력하여 프로세스를 간소화했습니다.
 
@@ -321,7 +559,18 @@ Angular의 SSR 및 SSG의 성능을 향상시키기 위해, 장기적으로 DOM 
 
 이를 가능하게 하기 위해, 새로운 라이프사이클 후크 세트를 개발했습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - afterRender — 응용 프로그램 렌더링이 완료될 때마다 호출할 콜백을 등록합니다.
 - afterNextRender — 응용 프로그램 렌더링이 다음 번에 완료될 때 호출할 콜백을 등록합니다.
@@ -350,7 +599,18 @@ export class MyChartCmp {
 
 각 후크는 Angular이 레이아웃 지연을 줄이고 성능을 향상시키기 위해 콜백을 예약할 때 사용하는 phase 값을 지원합니다 (예: read, write).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 새 프로젝트의 기본은 Vite와 esbuild입니다
 
@@ -360,7 +620,18 @@ Angular에서 SSR을 시작할 수 있었던 것은 Angular CLI의 빌드 파이
 
 v16에서는 esbuild 및 Vite를 이용한 빌드 경험의 개발자 미리보기를 소개했습니다. 그 이후로 많은 개발자들이 이를 실험하고, 일부 기업 파트너들은 앱 중 일부에서 빌드 시간이 67% 단축되었다고 보고했습니다! 오늘, 새 어플리케이션 빌더가 개발자 미리보기를 떠나 새로운 어플리케이션에 대해 기본값으로 설정된 것을 기쁘게 알려드립니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 게다가, 혼합 렌더링을 사용할 때 빌드 파이프라인을 업데이트했습니다. SSR 및 SSG를 사용하면 ng build에서 최대 87%의 속도 향상과 ng serve에서 최대 80% 빠른 편집-새로고침 루프를 관찰할 수 있습니다.
 
@@ -370,7 +641,18 @@ v16에서는 esbuild 및 Vite를 이용한 빌드 경험의 개발자 미리보�
 
 # DevTools에서 의존성 주입 디버깅
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 작년에 우리는 Angular DevTools에서 의존성 주입 디버깅 기능의 미리보기를 보여드렸어요. 지난 몇 달 동안, 우리는 프레임워크의 런타임에 플러그인할 수 있는 새로운 디버깅 API를 구현했어요.
 
@@ -382,7 +664,18 @@ v16에서는 esbuild 및 Vite를 이용한 빌드 경험의 개발자 미리보�
 
 아래 애니메이션에서 기능의 빠른 미리보기를 찾을 수 있어요. Angular DevTools에 대해 더 알고 싶다면 angular.io를 방문해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Introducing Angular v17_8](/assets/img/IntroducingAngularv17_8.png)
 
@@ -392,7 +685,18 @@ v16에서는 esbuild 및 Vite를 이용한 빌드 경험의 개발자 미리보�
 
 작년 반 이상 동안 독립형 컴포넌트, 디렉티브 및 파이프에 대한 피드백을 모은 후, 그들의 DevEx를 향상시키고, 새로운 모든 응용프로그램에서 처음부터 사용할 수 있는 자신감을 가지고 있습니다. 이제 모든 `ng generate` 명령은 독립형 컴포넌트, 디렉티브 및 파이프를 생성할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이에 더불어, 일관된 학습 경험, 개발 관행 및 권장 사항을 보장하기 위해 angular.io 및 angular.dev의 전체 문서도 다시 검토했습니다.
 
@@ -404,7 +708,18 @@ ng generate @angular/core:standalone
 
 자세한 정보는 이주 가이드를 확인해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 반응성의 다음 단계
 
@@ -414,7 +729,18 @@ Angular의 새로운 신호 기반 반응형 시스템은 이 프레임워크에
 
 다음 몇 달 동안 우리는 신호 기반 입력, 뷰 쿼리 등의 기능을 추가할 예정입니다. Angular v18에서는 내년 5월까지 개발자 경험을 더욱 향상시키는 기능이 많이 포함될 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 테스트에 대한 다음 단계
 
@@ -424,7 +750,18 @@ Angular의 새로운 신호 기반 반응형 시스템은 이 프레임워크에
 
 저희는 구글의 Material Design 팀과 긴밀히 협력하여 Angular Material 내부를 리팩토링하여 디자인 토큰을 통합하고, 구성 요소에 대한 큰 변형 옵션을 제공하고 Material 3을 지원할 수 있는 시스템을 구축하기 위해 노력해 왔습니다. 우리는 아직 v17용 디자인 토큰과 M3 지원을 제공할 준비가 되지 않았지만, v17 마이너 릴리스에서 이러한 기능을 곧 출시할 것으로 예상합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 20222년 4분기에 MDC 기반의 새로운 Angular Material 컴포넌트를 발표했고, 동등한 기능을 갖추고 있지만 다른 DOM 구조와 스타일을 가진 레거시 컴포넌트의 사용이 폐기될 예정입니다. 레거시 컴포넌트는 v15에서 폐기되고 v17에서 완전히 제거될 예정입니다. Angular Material v17 패키지에 레거시 컴포넌트가 포함되지 않겠지만, 여전히 앱을 Angular v17로 업데이트하고 v16 Angular Material 패키지를 사용할 수 있습니다. 이 옵션은 v18까지 제공될 예정이며, 그 이후에는 Angular Material v16이 더 이상 새로운 Angular 버전과 호환되지 않을 것입니다. 또한, 아직 마이그레이션을 수행할 수 없는 경우에 대비하여 HeroDevs와의 파트너쉽을 통해 유료 무기한 지원을 제공할 예정입니다.
 
@@ -434,7 +771,18 @@ Angular의 새로운 신호 기반 반응형 시스템은 이 프레임워크에
 
 # 실험적인 뷰 전환 지원
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 뷰 전환 API를 사용하면 DOM을 변경할 때 부드러운 전환을 제공할 수 있습니다. Angular 라우터에서는 이제 withViewTransitions 기능을 통해 이 API에 직접 지원을 제공합니다. 이를 사용하면 브라우저의 원래 기능을 사용하여 라우트간에 애니메이션 전환을 만들 수 있습니다.
 
@@ -448,7 +796,18 @@ bootstrapApplication(App, {
 
 withViewTransitions 함수는 onViewTransitionCreated 속성이 있는 선택적 구성 객체를 허용합니다. 이 콜백은 추가적인 제어를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 특정 애니메이션을 건너 띌지 여부를 결정하세요
 - 문서에 클래스를 추가하여 애니메이션을 사용자 정의하고 애니메이션이 완료되면 이러한 클래스를 제거하세요
@@ -460,7 +819,18 @@ Angular 이미지 지시문은 이제 이미지 로더에 전달한 도메인에
 
 이미지 지시문 가이드에서 이 기능에 대해 자세히 알아보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 애니메이션 모듈의 로딩을 지연시키기
 
@@ -476,7 +846,18 @@ bootstrapApplication(RootCmp, {
 
 ## 입력 값 변환
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일반적인 패턴 중 하나는 부울 입력을 받는 구성 요소를 가지고 있는 것입니다. 하지만, 이는 해당 구성 요소에 값을 전달하는 방법에 제약을 설정합니다. 예를 들어, 다음과 같은 Expander 구성 요소의 정의가 있다고 가정해 봅시다:
 
@@ -497,7 +878,18 @@ export class Expander {
 <my-expander expanded />
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "string is not assignable to boolean"라는 오류가 발생할 수 있습니다. Input 값 변환(transforms)을 사용하여 input 데코레이터를 구성함으로써 이를 수정할 수 있습니다:
 
@@ -516,7 +908,18 @@ GitHub에서 원본 피처 요청을 찾을 수 있습니다 — Boolean propert
 
 # Style and styleUrls as strings
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Angular 컴포넌트는 여러 스타일시트를 지원합니다. 그러나 컴포넌트에 스타일을 적용할 때 대부분의 경우 한 요소를 가진 배열을 생성하여 인라인 스타일을 가리키거나 외부 스타일시트를 참조합니다. 새로운 기능을 이용하여 다음과 같은 코드로 바꿀 수 있습니다:
 
@@ -528,7 +931,18 @@ Angular 컴포넌트는 여러 스타일시트를 지원합니다. 그러나 컴
 
 ...보다 단순하고 더 논리적으로:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 @Component({
@@ -550,7 +964,18 @@ Angular 컴포넌트는 여러 스타일시트를 지원합니다. 그러나 컴
 
 # 커뮤니티 스키매틱
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 커뮤니티 도식 작성을 지원하기 위해 @schematics/angular/utility의 일부로 몇 가지 유틸리티 메서드를 제공했습니다. 이제 Angular 앱의 루트로 표현식을 직접 가져올 수 있고 Angular 앱의 루트에 제공자를 추가할 수 있습니다. 또한 이미 존재하는 package.json에 의존성을 추가하는 기능도 있습니다.
 
@@ -560,7 +985,18 @@ Angular 컴포넌트는 여러 스타일시트를 지원합니다. 그러나 컴
 
 우리는 인터랙티브 EdTech 플랫폼인 SoloLearn과 협력하여 최근 개발한 "Angular 소개" 코스를 기반으로 한 새로운 Angular 교육을 개발했습니다. 그들은 2개월 동안 7만 명 이상의 사용자에게 도달하는 인터랙티브 학습 여정을 만들었습니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/IntroducingAngularv17_9.png" />
 
@@ -570,7 +1006,18 @@ Angular 컴포넌트는 여러 스타일시트를 지원합니다. 그러나 컴
 
 Angular v17를 특별하게 만들어 준 346명의 기여자 여러분께 감사드립니다! 우리가 소개하고 싶은 몇 가지 하이라이트는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - HttpClient은 이제 백엔드로 fetch를 사용할 수 있어 Angular이 엣지 워커에서 실행되도록 하는 기능 중 하나입니다. Matthieu Riegler에게 도움을 주셔서 감사드립니다.
 - Matthieu는 또한 HttpTransferCache의 사용자 정의를 활성화하여 헤더, 필터 및 포스트 요청에 대한 캐싱을 지정할 수 있게 했습니다.
@@ -581,6 +1028,17 @@ Angular v17를 특별하게 만들어 준 346명의 기여자 여러분께 감�
 
 다음 릴리스 사이클에서 Angular의 시그널 기반 반응성, 하이브리드 렌더링 및 학습 여정에서 많은 진화를 기대해 주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희는 Angular를 통해 미래를 함께 만들어가는 여정에서 함께할 수 있어 자랑스럽습니다! 감사합니다!

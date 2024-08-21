@@ -3,16 +3,13 @@ title: "AI 에이전트들을 해킹했어요 이제 모두 무료로 이용할 
 description: ""
 coverImage: "/assets/img/2024-05-20-IhackedtheAIagentsNowyoucanhavethemallforfree_0.png"
 date: 2024-05-20 21:59
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-20-IhackedtheAIagentsNowyoucanhavethemallforfree_0.png
 tag: Tech
 originalTitle: "I hacked the AI agents! Now you can have them all for free!"
 link: "https://medium.com/generative-ai/i-hacked-the-ai-agents-now-you-can-have-them-all-for-free-08cae7d29714"
 isUpdated: true
 ---
-
-
-
 
 ![image](/assets/img/2024-05-20-IhackedtheAIagentsNowyoucanhavethemallforfree_0.png)
 
@@ -22,7 +19,18 @@ Langchain과 함께 Gradio API를 사용하여 무한한 AI 에이전트의 가�
 
 자리에 튼튼히 잡히세요. 이 기사에서도 여러분이 같은 일을 할 수 있는 방법을 설명하겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 왜 AI 에이전트?
 
@@ -32,7 +40,18 @@ Langchain과 함께 Gradio API를 사용하여 무한한 AI 에이전트의 가�
 
 저는 공정 제어 산업 자동화 엔지니어이기 때문에 에이전트가 무엇인지 설명하는 것은 쉽게 이해되어요: 에이전트들은 의사 결정 과정의 주도 역할을 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 환경과 상호작용하며 선택을 내리고 특정 목표를 달성하기 위해 설계된 컴퓨터 프로그램 또는 시스템입니다.
 - 인간에 의해 직접적으로 제어되지 않고, 자율적인 개체로 독립적으로 작동하여 유연한 문제 해결 능력을 발휘합니다.
@@ -44,7 +63,18 @@ Langchain과 함께 Gradio API를 사용하여 무한한 AI 에이전트의 가�
 
 여러 에이전트가 협력할 때, 그들은 다중 에이전트 시스템을 형성하며 각각이 공통 목표에 기여합니다. 효과적인 조정과 소통을 보장하기 위해 이러한 에이전트들은 행동을 동기화하고 서로 상호작용해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Langchain은 내장된 기능을 갖춘 강력한 프레임워크로, 모든 종류의 AI 에이전트를 조직화하고 조정하는 데 사용할 수 있습니다. 다음 글에서 그에 대해 자세히 배워보겠습니다.
 
@@ -52,7 +82,18 @@ Langchain은 내장된 기능을 갖춘 강력한 프레임워크로, 모든 종
 
 # 문서는 퍼즐입니다
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아직 예제가 없습니다. Gradio와 Langchain의 문서는 꽤 좋지만 주로 OpenAI 예제에 초점을 맞추고 있습니다. 오픈 소스 도구와 AI를 사용할 때마다 가장 큰 숙제가 바로 이겁니다.
 
@@ -62,7 +103,18 @@ Langchain은 내장된 기능을 갖춘 강력한 프레임워크로, 모든 종
 
 두 프레임워크의 문서를 훑어 보면서 몇 가지 영감을 얻었습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Gradio Python client: Gradio Python client을 사용하면 어떤 Gradio 앱이든 API로 쉽게 사용할 수 있습니다. 예를 들어, 마이크로부터 녹음된 오디오 파일을 전사하는 Hugging Face Space를 고려해보세요. 아래에 예시가 있습니다.
 
@@ -72,29 +124,60 @@ gradio_client 라이브러리를 사용하면 프로그래밍 방식으로 오�
 
 Langchain Gradio component: Hugging Face Spaces에는 수천 개의 Gradio 앱이 있습니다. 이 라이브러리는 이러한 앱들을 LLM(Large Language Model)의 손끝에 두는 데 도움이 됩니다. 구체적으로, gradio-tools는 Gradio 앱을 도구로 변환하는 Python 라이브러리로, 이를 이용해 큰 언어 모델(LLM) 기반 에이전트가 작업을 완료하는 데 활용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, LLM은 온라인에서 찾은 음성 녹음을 전사하고 그 내용을 요약하는 Gradio 도구를 사용할 수 있습니다. 또는 Google 드라이브의 문서에 OCR을 적용한 다음 해당 내용에 대한 질문에 답변하는 다른 Gradio 도구를 사용할 수도 있습니다.
 
 Langchain의 블로그에 따르면, 사전에 구축된 도구 중 하나가 아닌 공간을 사용하려면 쉽게 자체 도구를 만들 수 있습니다. 본 기사를 통해 프로세스가 실제로 쉬운지 여부를 직접 판단하게 될 것입니다...
 
-
 ![이미지](/assets/img/2024-05-20-IhackedtheAIagentsNowyoucanhavethemallforfree_3.png)
 
 # 사용자 지정 래퍼를 만들어야 합니다
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Langchain은 거대한 통합 모음을 보유하고 있어요: 기본적으로 언어 모델, 문서 로더, 데이터베이스 등을 모듈식이고 쉽게 연결할 수 있어요.
 
-그들은 우리 모두의 도구 세트와 함께 사용될 수 있는 사용자 정의 LLM 클래스를 생성할 수 있는 가능성을 열어 두었어요. 
+그들은 우리 모두의 도구 세트와 함께 사용될 수 있는 사용자 정의 LLM 클래스를 생성할 수 있는 가능성을 열어 두었어요.
 
-여기서는 LangChain에서 Llama-3-8b에 연결하는 방법을 배웠어요. 하지만 이 과정은 다른 툴을 사용하고 싶거나 LangChain에서 지원하는 것과 다른 래퍼를 사용하고 싶을 때에도 동일해요. 
+여기서는 LangChain에서 Llama-3-8b에 연결하는 방법을 배웠어요. 하지만 이 과정은 다른 툴을 사용하고 싶거나 LangChain에서 지원하는 것과 다른 래퍼를 사용하고 싶을 때에도 동일해요.
 
 그럼 시작해봐요. 이 예제에서는 Langchain을 Llama-3-8b에 연결할 거에요. 하지만 그레디오 API와 허깅페이스 허브 데모 애플리케이션에 대해서도 (작은 트릭들이 있긴 하지만) 동일한 프로세스가 적용돼요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 무료 구글 Colab 노트북을 열어보자. CPU만 있는 것으로 충분하다. Google Colab를 처음 사용하거나 무료로 얻는 방법을 모르는 경우 여기 지침을 읽어보세요:
 
@@ -106,7 +189,18 @@ Langchain은 거대한 통합 모음을 보유하고 있어요: 기본적으로 
 
 이 노트북은 HuggingFace 토큰이 없어도 작동합니다. 그러나 강력히 권장하긴 하지만요: 여기 기사에서 지시 사항을 따라 해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Gradio 클라이언트 인스턴스화
 
@@ -129,7 +223,18 @@ print(result)
 
 노트북 셀을 실행하면 데모 엔드포인트와 결과에 대한 연결이 표시됩니다. HF_token을 전달하지 않으면 경고 메시지가 표시됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해당 부분을 수정하려면 다음과 같이 하세요:
 
@@ -144,7 +249,18 @@ client = Client("ysharma/Chat_with_Meta_llama3_8b", hf_token=yourHFtoken)
 
 전체 노트북은 해당 GitHub 저장소에서 찾을 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 사용자 정의 LLM 래퍼
 
@@ -152,9 +268,20 @@ client = Client("ysharma/Chat_with_Meta_llama3_8b", hf_token=yourHFtoken)
 
 ![이미지](/assets/img/2024-05-20-IhackedtheAIagentsNowyoucanhavethemallforfree_4.png)
 
-위 문서 페이지에 따르면 새로운 클래스에서 최소한으로 _call 및 _llm_type 매개변수부터 시작합니다.
+위 문서 페이지에 따르면 새로운 클래스에서 최소한으로 \_call 및 \_llm_type 매개변수부터 시작합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 알림: 위의 Python 코드의 80%는 Langchain 설명서에서 직접 가져온 것입니다 😅 걱정하지 마세요, Colab 노트북 링크를 올릴 테니 그 전에 단계별로 설명해드리겠습니다.
 
@@ -212,11 +339,22 @@ class GradioClientChat(LLM):
 
 처음 접하신 분들을 위해, 여기에서는 함수를 만드는 게 아니라 클래스를 생성하고 있습니다. 파이썬 클래스는 비슷한 객체 그룹이 공유할 수 있는 메서드(함수)와 속성(변수) 세트를 정의하는 청사진 또는 템플릿입니다. 객체를 생성하는 데 사용되는 청사진 역할을 하며, 건물의 설계와 구조를 개요로 나타내는 건축 청사진과 유사합니다. 클래스는 코드를 구조화하고 코드 재사용성을 제공하여 대규모 프로그램을 쉽게 작성하고 유지할 수 있게 해줍니다.
 
-우리의 클래스로 돌아가면: 필요한 모든 langchain 라이브러리를 가져온 후, GradioClientChat(LLM)라는 새로운 클래스를 생성합니다. 여기서 Gradio 클라이언트를 챗봇으로 사용합니다. 클래스는 LLM Langchain 클래스의 속성을 상속합니다. 이러한 이유로 _call 및 _llm_type 같은 몇 가지 속성과 메서드가 기본 사용자 정의 객체에서 필수적인 것입니다.
+우리의 클래스로 돌아가면: 필요한 모든 langchain 라이브러리를 가져온 후, GradioClientChat(LLM)라는 새로운 클래스를 생성합니다. 여기서 Gradio 클라이언트를 챗봇으로 사용합니다. 클래스는 LLM Langchain 클래스의 속성을 상속합니다. 이러한 이유로 \_call 및 \_llm_type 같은 몇 가지 속성과 메서드가 기본 사용자 정의 객체에서 필수적인 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-첫 번째 부분은 객체의 초기화와 _llm_type에 대한 부분이에요:
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+첫 번째 부분은 객체의 초기화와 \_llm_type에 대한 부분이에요:
 
 ```js
 class GradioClientChat(LLM):
@@ -237,7 +375,7 @@ class GradioClientChat(LLM):
         return "Gradio API client Meta_llama3_8b"
 ```
 
-그 다음으로, _call 메서드를 생성해요. 이 메서드는 가장 중요한 부분인데, 특정 Gradio API에 구성된 모델 매개변수(프롬프트 및 모델 매개변수)를 수락하여 추론을 실행하는 메서드입니다.
+그 다음으로, \_call 메서드를 생성해요. 이 메서드는 가장 중요한 부분인데, 특정 Gradio API에 구성된 모델 매개변수(프롬프트 및 모델 매개변수)를 수락하여 추론을 실행하는 메서드입니다.
 
 ```js
 def _call(
@@ -268,7 +406,18 @@ def _call(
         return str(result)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 입력 매개변수에는 변수 이름과 함께 기본값으로 request: float = 0.95, param: float = 512와 같은 값을 설정합니다. 이 값들은 구체적인 Gradio API를 반영해야 합니다. 우리의 경우 API 문서에서 ysharma/Chat_with_Meta_llama3_8b를 확인해주세요.
 
@@ -287,7 +436,18 @@ result = chatbot.predict(   #.submit은 스트리밍 효과, .predict은 일반 
 return str(result)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "새로 만든 클래스를 사용하여 셀을 실행해주세요.
 
@@ -297,7 +457,18 @@ return str(result)
 
 이제 HuggingFace 데모 공간으로 둘러싸인 Langchain LLM를 실행할 준비가 되었습니다."
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # llm을 인스턴스화하세요
@@ -312,10 +483,20 @@ print(result)
 
 # 보너스 트랙: 스트리밍 효과
 
-한 번 더 단계를 추가하는 것은 문제가 되지 않겠죠? 몇 가지 추가적인 메서드를 생성할 수 있음을 보았습니다. 그 중 하나인 _stream은 생성될 때 토큰을 하나씩 반환하는 역할을 합니다. 이를 위해 이전 클래스 끝에 추가 메서드를 추가할 수 있어요.  
+한 번 더 단계를 추가하는 것은 문제가 되지 않겠죠? 몇 가지 추가적인 메서드를 생성할 수 있음을 보았습니다. 그 중 하나인 \_stream은 생성될 때 토큰을 하나씩 반환하는 역할을 합니다. 이를 위해 이전 클래스 끝에 추가 메서드를 추가할 수 있어요.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 def _stream(
@@ -328,22 +509,22 @@ def _stream(
     param: float = 512,
     **kwargs: Any,
 ) -> Iterator[GenerationChunk]:
-    """주어진 프롬프트에서 LLM을 스트리밍합니다. 
+    """주어진 프롬프트에서 LLM을 스트리밍합니다.
 
-    이 메서드는 스트리밍을 지원하는 하위 클래스에 의해 재정의되어야 합니다. 
+    이 메서드는 스트리밍을 지원하는 하위 클래스에 의해 재정의되어야 합니다.
 
-    구현되지 않은 경우, stream에 대한 호출의 기본 동작은 모델의 비스트리밍 버전으로 
-    대체하여 출력을 단일 청크로 반환하는 것입니다. 
+    구현되지 않은 경우, stream에 대한 호출의 기본 동작은 모델의 비스트리밍 버전으로
+    대체하여 출력을 단일 청크로 반환하는 것입니다.
 
-    Args: 
-        prompt: 생성할 프롬프트. 
-        stop: 생성 시 사용할 정지 단어입니다. 모델 출력은 이러한 하위 문자열 중 
-            하나가 처음 발생하는 곳에서 잘립니다. 
-        run_manager: 실행을 위한 콜백 매니저. 
-        **kwargs: 임의의 추가 키워드 인수입니다. 일반적으로 모델 공급자 API 
-            호출에 전달됩니다. 
+    Args:
+        prompt: 생성할 프롬프트.
+        stop: 생성 시 사용할 정지 단어입니다. 모델 출력은 이러한 하위 문자열 중
+            하나가 처음 발생하는 곳에서 잘립니다.
+        run_manager: 실행을 위한 콜백 매니저.
+        **kwargs: 임의의 추가 키워드 인수입니다. 일반적으로 모델 공급자 API
+            호출에 전달됩니다.
 
-    Returns: 
+    Returns:
         GenerationChunks의 이터레이터.
     """
     if chatbot is None:
@@ -373,8 +554,18 @@ def _stream(
 
 이제 새로운 추가와 print에서 작은 변경을 한 Class를 다시 실행할 수 있습니다. Google Colab에서도 텍스트가 생성 중에 스트리밍되는 것을 확인할 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 llm = GradioClientChat()
@@ -398,8 +589,18 @@ Streamlit을 사용하는 경우, 위의 코드는 필요하지 않습니다. It
 
 우리는 어디에서든 실행할 수 있는 AI 에이전트들의 자유 무리의 기초를 단순하게 놓았습니다. 솔직히 말해서, Gradio API 주변에 새롭게 만든 래퍼를 사용하여 Langchain 튜토리얼을 자유롭게 시도해볼 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 큰 모델인 Qwen100b와 같은 모델을 약간 조정하여 실행해 볼 수도 있어요. 성공하면 알려주세요.
 
@@ -409,7 +610,18 @@ Streamlit을 사용하는 경우, 위의 코드는 필요하지 않습니다. It
 
 이 이야기가 가치 있는 정보를 제공했고 조금이라도 지원하고 싶다면, 다음을 해볼 수 있어요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이 이야기에 대해 많이 박수를 쳐주세요.
 - 기억하기 좀 더 유용한 부분을 강조합니다 (나중에 그것들을 더 쉽게 찾을 수 있고, 나는 더 나은 기사를 쓸 수 있습니다.)
@@ -424,7 +636,18 @@ Youssef Hosni의 이 기사로 직접 시도해 볼 수 있습니다.
 
 학습 자료:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파이썬 클래스의 예시:
 
@@ -433,10 +656,21 @@ Youssef Hosni의 이 기사로 직접 시도해 볼 수 있습니다.
 이 클래스의 인스턴스를 생성하려면 다음과 같이 클래스를 호출하는 방식으로 인스턴스화하면 됩니다:
 
 ```js
-account1 = BankAccount("12345", 1000)
+account1 = BankAccount("12345", 1000);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금, account1은 BankAccount 클래스의 객체이며, 계좌 번호가 "12345"이며 시작 잔고는 1000원입니다. 그런 다음 account1에서 deposit(500)과 같은 메서드를 호출하여 잔고에 500을 추가하거나 withdraw(200)를 호출하여 200을 빼는 등의 작업을 할 수 있습니다.
 
@@ -446,7 +680,18 @@ account1 = BankAccount("12345", 1000)
 
 이 이야기는 Generative AI 출판물의 일환으로 발행되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리와 함께 최신 AI 이야기 속에 머무르기 위해 Substack, LinkedIn 및 Zeniteq에서 연락을 유지해보세요. 함께 AI의 미래를 만들어 봅시다!
 

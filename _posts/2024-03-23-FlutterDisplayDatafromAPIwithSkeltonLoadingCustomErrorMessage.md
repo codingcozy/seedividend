@@ -3,17 +3,13 @@ title: "플러터 API 데이터 페칭시 스켈레톤 로딩, 사용자 정의 
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Flutter Display Data from API with Skelton Loading , Custom Error Message"
 link: "https://theflutterway.medium.com/flutter-display-data-from-api-with-skelton-loading-custom-error-message-4f557a05abdf"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1400/1*CyMhFuPpx9vbNr99b5QGjQ.gif)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ![이미지](/assets/img/Flutter-Display-Data-from-API-with-Skelton-Loading-Custom-Error-Message_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 DiscoverScreen에 카테고리를 표시할 시간이에요.
 
@@ -33,7 +40,18 @@ getCategories가 Future를 반환하는 것을 알고 계시죠. Flutter에서�
 
 ![이미지](/assets/img/Flutter-Display-Data-from-API-with-Skelton-Loading-Custom-Error-Message_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저 사용자가 어떤 작업이 진행 중인지 이해할 수 있도록 로딩을 보여주고 싶어요. 만약 connectionState가 대기 중이라면 지금은 CircularProgressIndicator로 표시된 로딩 표시자를 보여줍니다.
 
@@ -43,7 +61,18 @@ getCategories가 Future를 반환하는 것을 알고 계시죠. Flutter에서�
 
 더 나은 사용자 경험을 위해 CircularProgressIndicator 대신 shimmer 로딩 효과를 사용할 수 있어요. Center 위젯을 Expanded로 대체하고 CircularProgressIndicator를 DiscoverCategoriesSkelton으로 대체하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/Flutter-Display-Data-from-API-with-Skelton-Loading-Custom-Error-Message_6.png)
 
@@ -53,7 +82,18 @@ getCategories가 Future를 반환하는 것을 알고 계시죠. Flutter에서�
 
 만약 shimmer 효과를 만드는 방법을 배우고 싶다면 여기를 확인해보세요👇
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 로딩이 끝났습니다! 이제 카테고리를 보여주는 시간이에요. snapshort에 데이터가 있으면 데이터는 카테고리 목록이 됩니다. \_categories라는 변수를 만들고 값을 snapshort.data로 설정하세요. 카테고리를 확장 위젯 내부에 표시하려면 ListView.builder을 정의하고 itemCount를 \_categories.length로 설정하고 itemBuilder는 NormalCategory가 될 거에요. (이 NormalCategory 위젯은 제가 만들었습니다.)
 
@@ -63,7 +103,18 @@ getCategories가 Future를 반환하는 것을 알고 계시죠. Flutter에서�
 
 거의 다 끝났어요! 하지만 오류가 발생했을 때 어떻게 처리해야 할까요? 사용자에게 오류가 발생했음을 알리는 것이 좋습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/Flutter-Display-Data-from-API-with-Skelton-Loading-Custom-Error-Message_11.png)
 
@@ -73,6 +124,17 @@ getCategories가 Future를 반환하는 것을 알고 계시죠. Flutter에서�
 
 ![이미지](/assets/img/Flutter-Display-Data-from-API-with-Skelton-Loading-Custom-Error-Message_13.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![플러터 Display Data from API with Skelton Loading Custom Error Message](/assets/img/Flutter-Display-Data-from-API-with-Skelton-Loading-Custom-Error-Message_14.png)

@@ -3,7 +3,7 @@ title: "구글 로그인 SwiftUI로 쉽게 연동하기 및 UI 커스텀 방법"
 description: ""
 coverImage: "/assets/img/2024-08-18-GoogleSignInFirebaseAuthenticationIntegrationwithSwiftUICUSTOMGOOGLESIGNIN_0.png"
 date: 2024-08-18 11:49
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-18-GoogleSignInFirebaseAuthenticationIntegrationwithSwiftUICUSTOMGOOGLESIGNIN_0.png
 tag: Tech
 originalTitle: "Google Sign In  Firebase Authentication Integration with SwiftUI CUSTOM GOOGLE SIGN IN"
@@ -11,7 +11,6 @@ link: "https://medium.com/codex/google-sign-in-firebase-authentication-integrati
 isUpdated: true
 updatedAt: 1724032757806
 ---
-
 
 Firebase Authentication은 실시간으로 데이터를 저장하고 동기화할 수 있는 강력한 도구입니다. SwiftUI는 아름답고 인터랙티브한 사용자 인터페이스를 쉽게 만들 수 있는 현대적인 UI 프레임워크입니다. 이 글에서는 이 두 기술을 결합하여 Google로 로그인하는 방법을 보여드릴 것입니다. Apple로 로그인하려면 여기를 클릭하세요. Firebase Realtime Database에 대해 자세히 알고 싶다면 여기를 클릭하세요. Firebase로 웹사이트를 만드는 방법을 배우고 싶다면 여기를 클릭하세요.
 
@@ -21,7 +20,18 @@ Firebase Authentication은 실시간으로 데이터를 저장하고 동기화�
 
 우선 Firebase가 무엇인지 알아볼까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Firebase는 모바일 앱 개발을 위한 호스팅된 백엔드 서비스를 제공하는 Backend-as-a-Service (BaaS) 플랫폼입니다. Firebase는 실시간 데이터베이스, 클라우드 스토리지, 인증, 충돌 보고, 머신 러닝, 원격 구성, 정적 파일을 위한 호스팅과 같은 다양한 기능을 제공합니다. Firebase를 사용하면 기반이 되는 인프라에 대해 걱정할 필요 없이 앱을 쉽고 확장 가능하게 구축할 수 있습니다. Firebase에 대해 더 자세히 알아보세요.
 
@@ -31,8 +41,18 @@ Firebase 계정 설정은 간단한 과정입니다. Firebase 웹사이트에 �
 
 그 후 Go To Console을 클릭하여 아래 페이지로 이동할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-08-18-GoogleSignInFirebaseAuthenticationIntegrationwithSwiftUICUSTOMGOOGLESIGNIN_0.png)
 
@@ -42,8 +62,18 @@ Firebase 계정 설정은 간단한 과정입니다. Firebase 웹사이트에 �
 
 # 프로젝트 만들기(3단계)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트에 이름을 지어주고 Firebase 약관에 동의하는 것부터 시작해요.
 
@@ -53,8 +83,18 @@ Firebase 계정 설정은 간단한 과정입니다. Firebase 웹사이트에 �
 
 두 번째 단계는 앱에 Google Analytics를 연결할지 여부를 선택하는 것이에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Step 2: Google Analytics](/assets/img/2024-08-18-GoogleSignInFirebaseAuthenticationIntegrationwithSwiftUICUSTOMGOOGLESIGNIN_2.png)
 
@@ -62,8 +102,18 @@ The third step is to configure your google analytics.
 
 ![GoogleSignInFirebaseAuthenticationIntegrationwithSwiftUICUSTOMGOOGLESIGNIN_3](/assets/img/2024-08-18-GoogleSignInFirebaseAuthenticationIntegrationwithSwiftUICUSTOMGOOGLESIGNIN_3.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 구글 애널리틱스 설정하기
 
@@ -73,7 +123,18 @@ The third step is to configure your google analytics.
 
 계속 버튼을 눌러주세요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트 개요 페이지입니다. Firebase를 성공적으로 설정하신 것을 축하드립니다! 본 문서에서는 Firebase의 가장 강력한 기능 중 하나인 실시간 데이터베이스에 초점을 맞추겠습니다.
 
@@ -83,7 +144,18 @@ The third step is to configure your google analytics.
 
 # iOS 앱에 Firebase 추가하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 iOS 앱에 Firebase를 추가하려면 iOS 버튼을 누르면 해당 페이지로 이동될 것입니다. 모든 과정을 따라 진행하고 콘솔 계속 클릭하십시오.
 
@@ -94,7 +166,18 @@ Apple 앱에 Firebase 추가
 
 다섯 단계를 완료한 후에 데이터베이스 작업을 시작할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 All products 페이지로 이동한 후, Realtime Database 옵션을 클릭해주세요.
 
@@ -104,7 +187,18 @@ All products 페이지로 이동한 후, Realtime Database 옵션을 클릭해�
 
 ![Get Started](/assets/img/2024-08-18-GoogleSignInFirebaseAuthenticationIntegrationwithSwiftUICUSTOMGOOGLESIGNIN_8.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Get Started 버튼을 클릭하면 여기로 이동합니다.
 
@@ -114,7 +208,18 @@ Get Started 버튼을 클릭하면 여기로 이동합니다.
 
 ![이미지](/assets/img/2024-08-18-GoogleSignInFirebaseAuthenticationIntegrationwithSwiftUICUSTOMGOOGLESIGNIN_10.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Enable 스위치를 눌러주세요. 그리고 이메일을 추가해주세요.
 
@@ -124,7 +229,18 @@ Enable 스위치를 눌러주세요. 그리고 이메일을 추가해주세요.
 
 ![이미지](/assets/img/2024-08-18-GoogleSignInFirebaseAuthenticationIntegrationwithSwiftUICUSTOMGOOGLESIGNIN_12.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저 Xcode에서 패키지를 추가할 때, 파일-패키지 추가로 이동하여 해당 링크를 입력하고 정확한 버전을 클릭하여 패키지를 추가할 수 있습니다: https://github.com/firebase/firebase-ios-sdk
 
@@ -134,7 +250,18 @@ Google 서비스 정보 plist를 추가하세요. Firebase 설정에서 다운�
 
 # 단계별 설명
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1. Firebase 앱 설정하기
 
@@ -167,7 +294,18 @@ struct Firebase_Test_CodeApp: App {
 - FirebaseApp.configure(): 앱이 시작될 때 Firebase를 초기화합니다.
 - onOpenURL: 앱에서 열린 URL을 처리하며 Google Sign-In 프로세스를 관리하는 데 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2. 구글 인증
 
@@ -207,7 +345,18 @@ struct Authentication {
 - ID 토큰을 사용하여 Firebase로 인증합니다.
 - logout: 구글 및 Firebase에서 사용자를 로그아웃합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 3. 오류 처리를 위한 문자열 확장
 
@@ -219,7 +368,18 @@ extension String: Error {}
 
 ## 4. 메인 콘텐츠 뷰
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앱의 메인 뷰는 인증 상태를 관리하고 사용자가 로그인했는지에 따라 로그인 화면 또는 홈 화면을 표시합니다:
 
@@ -247,7 +407,18 @@ struct ContentView: View {
 
 ## 5. 로그인 화면
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로그인 뷰는 Google 로그인 버튼을 표시하고 로그인 프로세스를 처리합니다:
 
@@ -280,7 +451,18 @@ struct Login: View {
 
 ## 6. 홈 뷰
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로그인된 사용자를 위해 홈 뷰에는 환영 메시지와 로그아웃 버튼이 표시됩니다.
 
@@ -313,7 +495,18 @@ struct Home: View {
 
 # 미리보기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로그인 및 홈 뷰는 Xcode 캔버스에서 시각화할 수 있는 미리보기를 포함하고 있습니다:
 
@@ -467,6 +660,17 @@ struct Home: View {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기까지 읽어주셨다면 박수를 치세요! 👏👏👏

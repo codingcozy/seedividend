@@ -3,17 +3,13 @@ title: "디자인 경험을 공부하기 좋은 15가지 웹사이트"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "15 Game-Changing Websites to Revolutionize Your Design Experience"
 link: "https://medium.com/@ranisa-gupta/15-game-changing-websites-to-revolutionize-your-design-experience-16fd5fa16efa"
 isUpdated: true
 ---
-
-
-
-
 
 ![15Game-ChangingWebsitestoRevolutionizeYourDesignExperience_0.png](/assets/img/15Game-ChangingWebsitestoRevolutionizeYourDesignExperience_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ![15Game-ChangingWebsitestoRevolutionizeYourDesignExperience_1.png](/assets/img/15Game-ChangingWebsitestoRevolutionizeYourDesignExperience_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 🔼 커스터마이즈 가능한 스타일로 버튼 디자인을 간단하게 만들어보세요. 귀찮은 버튼 작성 작업과 이별하세요!
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ## 🔼 물리적 물체를 흉내 내는 뉴모피즘 요소로 UI를 높여보세요. 세련된 현대적인 외관을 위한 준비된 CSS 코드를 받아보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. CSS Strips Generator:
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 4. Google Fonts:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![15Game-ChangingWebsitestoRevolutionizeYourDesignExperience_4](/assets/img/15Game-ChangingWebsitestoRevolutionizeYourDesignExperience_4.png)
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 ![15Game-ChangingWebsitestoRevolutionizeYourDesignExperience_5](/assets/img/15Game-ChangingWebsitestoRevolutionizeYourDesignExperience_5.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 🔼 멋진 SVG 패턴으로 창의력의 파도를 타보세요. 쉽게 웹사이트에 활력을 불어넣어보세요.
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 ## 🔼 브라우저 호환성 문제를 앞서 나아가 보세요. 플랫폼 간에 CSS가 원활하게 작동하는지 확인하기 위해 실시간 지원 테이블을 확인하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 7. 색 공간:
 
@@ -73,7 +124,18 @@ isUpdated: true
 
 8. CSS 그리드 생성기:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/15Game-ChangingWebsitestoRevolutionizeYourDesignExperience_8.png" />
 
@@ -83,7 +145,18 @@ isUpdated: true
 
 <img src="/assets/img/15Game-ChangingWebsitestoRevolutionizeYourDesignExperience_9.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 🔼 BEM 네이밍 규칙을 활용하여 코딩을 간편하게 만들어보세요. 더 깔끔하고 효율적인 CSS를 위한 빠른 참고서를 제공합니다.
 
@@ -93,7 +166,18 @@ isUpdated: true
 
 ## 🔼 맞춤형 SVG 블롭으로 창의력을 펼쳐보세요. 독특한 모양으로 배경과 삽화를 향상시킵니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 11. CSS 그라데이션 생성기:
 
@@ -103,7 +187,18 @@ isUpdated: true
 
 12. Animate.css:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![15Game-ChangingWebsitestoRevolutionizeYourDesignExperience_12](/assets/img/15Game-ChangingWebsitestoRevolutionizeYourDesignExperience_12.png)
 
@@ -113,7 +208,18 @@ isUpdated: true
 
 ![15Game-ChangingWebsitestoRevolutionizeYourDesignExperience_13](/assets/img/15Game-ChangingWebsitestoRevolutionizeYourDesignExperience_13.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 🔼 트렌디한 퍼스트 글래스 효과를 손쉽게 구현하세요. 멋진 UI 요소를 위해 투명도, 흐림 및 색상을 사용자 정의하세요.
 
@@ -123,7 +229,18 @@ isUpdated: true
 
 ## 🔼 디자인을 정밀하게 다듬어보세요. CSS clip-path로 손쉽게 복잡한 모양을 만드세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 15. CSS Validator:
 

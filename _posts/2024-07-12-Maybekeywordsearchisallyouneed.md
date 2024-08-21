@@ -3,18 +3,13 @@ title: "키워드 검색이 모든 것을 해결해줄까"
 description: ""
 coverImage: "/assets/img/2024-07-12-Maybekeywordsearchisallyouneed_0.png"
 date: 2024-07-12 20:41
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-12-Maybekeywordsearchisallyouneed_0.png
 tag: Tech
 originalTitle: "Maybe keyword search is all you need"
 link: "https://medium.com/@fabio.matricardi/maybe-keyword-search-is-all-you-need-4c1cdedbb3f9"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![이미지](/assets/img/2024-07-12-Maybekeywordsearchisallyouneed_0.png)
 
@@ -24,8 +19,18 @@ isUpdated: true
 
 # 의미 검색과 키워드 검색의 차이점은 무엇인가요?
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저 몇 가지 간단한 정의들을 살펴봐요.
 
@@ -35,7 +40,18 @@ isUpdated: true
 
 그래서 의미 검색과 키워드 검색의 주요 차이는 의미 검색이 검색 용어 뒤의 맥락과 의도에 초점을 맞추는 데 반해, 키워드 검색은 검색에 사용된 키워드에 기반하여 검색 기록을 일치시킨다는 것이에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # also a keyword search is all you need
 
@@ -45,7 +61,18 @@ isUpdated: true
 
 2. 간단하고 명확합니다: 이 직관적인 방식은 모호성을 제거합니다. 키워드를 입력하면 해당 키워드를 포함한 결과를 얻습니다. 잘못 해석하거나 의도하지 않은 연상을 피할 수 있어서 법적 연구나 기술 문서 검색과 같은 작업에 이상적입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. **속도 악당**: 직접적인 매칭에 의존하기 때문에 클래식 검색 알고리즘은 쿼리를 더 빨리 처리합니다. 이 효율성은 과학 데이터베이스나 금융 거래 플랫폼과 같이 실시간 응답을 필요로 하는 대규모 데이터 세트나 응용 프로그램에 중요합니다.
 
@@ -55,7 +82,18 @@ isUpdated: true
 
 5. **구조화된 데이터의 낙원**: 클래식 검색은 제품 카달로그, 분류 체계, 메타 데이터 풍부한 데이터베이스와 같이 잘 구조화된 데이터에서 번성합니다. 정확한 키워드는 이러한 조직화된 시스템을 레이저 포커스로 탐색하여 특정 정보를 효율적으로 검색할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 6. 친숙한 친구: 전통적인 검색 방법에 익숙한 사용자들에게는 클래식한 접근 방식이 편안한 인터페이스를 제공합니다. 그들은 게임의 규칙을 이해하므로 학습 곡선 없이 필요한 것을 쉽게 찾을 수 있습니다.
 
@@ -65,7 +103,18 @@ isUpdated: true
 
 그래서 나는 직접 테스트해 보기로 결정했습니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 100개의 미디엄 기사를 텍스트 파일로 저장하고 데이터베이스를 구축하기 시작했어요. 목표는(참 간단해 보일 수 있지만...) 내 기사들의 모든 키워드를 안내해주는 검색 창을 갖는 것이에요.
 
@@ -75,7 +124,18 @@ isUpdated: true
 
 먼저 필요한 db의 종류를 결정해야 했어요. 이건 간단한 검색이니까 전통적인 데이터베이스가 적당할 거 같아요. 저는 pandas 데이터프레임을 선택했어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 번째로 고려해야 할 사항은 데이터베이스 내의 관계입니다: 키워드를 검색하고 쿼리와 일치하는 텍스트 청크를 반환하고 싶습니다. 그러나 동일한 키워드가 매우 동일한 청크를 반환하면 해당 청크 중 하나만 원합니다. 이해를 돕기 위해 설명드리겠습니다:
 
@@ -85,7 +145,18 @@ isUpdated: true
 
 첫 두 hits에서 청크가 동일하지만 다른 키워드를 가리키는 것을 볼 수 있습니다. 실제로 쿼리에서 요청한 것과 일치합니다. 동일한 적용은 세 번째와 네 번째 태그(키워드)에도 적용되며 동일한 문서 청크가 반환됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 결과를 유일하게 유지하고 싶어해요 (이미 언급된 청크가 있으면 그 중 하나만 남겨둡니다).
 
@@ -95,7 +166,18 @@ isUpdated: true
 
 데이터 수집 중 (우리의 기사들) 우리는 사용자 지정 청크로 나누고, LangChain 문서 형식으로 저장하기 전에 그 특정 청크의 키워드를 추출하기 위해 KeyBERT (이 매우 빠릅니다)를 실행합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그런 다음 키워드도 메타데이터로 추가합니다.
 
@@ -105,7 +187,18 @@ isUpdated: true
 
 데이터베이스가 엄청나게 커질 거에요!!! 하지만 누가 신경을 쓰겠어요? Pandas는 정말 효율적이고 간단한 키워드 일치를 실행할 것이기 때문에 복잡하지 않아요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 그래픽 인터페이스
 
@@ -115,21 +208,43 @@ isUpdated: true
 
 그래서 중요한 작업 중 하나는 db에서 모든 키워드 태그를 추출하고, 중복을 제거하는 거에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-st.session_state.kwcollection = st.session_state.df['tag'].unique()
+st.session_state.kwcollection = st.session_state.df["tag"].unique();
 ```
 
 다중 선택 객체는 파이썬 리스트를 반환합니다. 이것은 매우 좋은데, pandas 데이터프레임을 .isin() 메서드로 필터링할 수 있기 때문입니다.
 
 ```js
-dfsearch1 = st.session_state.df[st.session_state.df['tag'].isin(kw)]
+dfsearch1 = st.session_state.df[st.session_state.df["tag"].isin(kw)];
 ```
 
 여기서 kw는 다중 선택 객체에서 얻은 파이썬 리스트이며, st.session_state.df는 세션 상태 객체에 저장된 데이터프레임입니다. 이렇게 함으로써 전역 변수로 사용되며 Streamlit이 재 실행될 때마다 변경되지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -139,7 +254,18 @@ dfsearch1 = st.session_state.df[st.session_state.df['tag'].isin(kw)]
 
 이 검색 전략이 얼마나 빠른지 볼 수는 있지만... 기억하세요, 고전적인 키워드 검색이 항상 만병통치약은 아니라는 걸요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 세세한 질문이나 다양한 관점을 탐구하려면, 의미론적 검색은 명백한 장점을 제공합니다.
 
@@ -154,7 +280,18 @@ dfsearch1 = st.session_state.df[st.session_state.df['tag'].isin(kw)]
 - 미디엄에서 나를 팔로우하기
 - 내 최신 기사 읽기 https://medium.com/@fabio.matricardi
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 많은 정보를 원하시면 아래의 아이디어를 확인해보세요:
 

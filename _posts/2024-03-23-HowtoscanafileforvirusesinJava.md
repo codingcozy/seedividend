@@ -3,17 +3,13 @@ title: "java로 파일의 바이러스를 스캔하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How to scan a file for viruses in Java"
 link: "https://cloudmersive.medium.com/how-to-scan-a-file-for-viruses-in-java-bca09045abdc"
 isUpdated: true
 ---
-
-
-
-
 
 바이러스는 사용자가 제출한 콘텐츠뿐만 아니라 때로는 고객이 제출한 콘텐츠와 관련된 주요 문제가 될 수 있습니다. 시스템을 안전하게 유지하는 가장 좋은 방법은 모든 수신 파일을 시스템이 상호 작용하기 전에 스크린하는 것입니다. 이를 위해, 이 튜토리얼에서는 Java를 사용하여 자동 바이러스 스캔 시스템을 빠르고 쉽게 설정하는 방법을 안내할 것입니다. 바로 시작해 봅시다.
 
@@ -30,7 +26,18 @@ isUpdated: true
 
 그리고:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <dependencies>
@@ -70,7 +77,18 @@ e.printStackTrace();
 
 그리고 이것이 전달된 응답 형식입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```json
 {

@@ -3,17 +3,13 @@ title: "React 사이트를 AWS S3에 배포하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How To Deploy A React App To AWS S3"
 link: "https://medium.com/technology-hits/how-to-deploy-a-react-app-to-aws-s3-2ea6bb59892f"
 isUpdated: true
 ---
-
-
-
-
 
 리액트 앱을 배포하고 볼 수 있는 가장 빠른 방법 중 하나는 호스팅이나 도메인 이름에 돈을 지불하지 않고 AWS S3에 배포하는 것입니다.
 
@@ -23,7 +19,18 @@ AWS S3는 대량의 비구조화된 데이터를 저장할 수 있는 저장 서
 
 테스트나 기타 목적으로 종종 우리는 리액트 앱을 구축하고 웹에서 액세스할 수 있는 곳에 앱을 호스팅하고자 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이를 수행하는 인기있는 방법 중 하나는 CICD 파이프라인을 생성하고 프로젝트 파일의 변경 사항이 호스팅 제공업체에 배포되도록 트리거하고 앱의 최신 변경 사항을 프로덕션에 업데이트하는 것입니다.
 
@@ -33,7 +40,18 @@ AWS S3는 대량의 비구조화된 데이터를 저장할 수 있는 저장 서
 
 먼저 할 일은 리액트 앱을 호스팅할 S3 버킷을 생성하고 설정하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이를 위해서 S3 콘솔로 이동하세요. 새 버킷을 만들고 my-react-app 또는 비슷한 이름을 붙이세요.
 
@@ -43,7 +61,18 @@ AWS S3는 대량의 비구조화된 데이터를 저장할 수 있는 저장 서
 
 ![이미지](/assets/img/HowToDeployAReactAppToAWSS3_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다시 하단에 공개 액세스 설정의 모든 확인란을 해제해 주세요:
 
@@ -53,7 +82,18 @@ AWS S3는 대량의 비구조화된 데이터를 저장할 수 있는 저장 서
 
 생성한 버킷을 클릭하여 '권한' 탭으로 이동해 주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/HowToDeployAReactAppToAWSS3_4.png" />
 
@@ -76,7 +116,18 @@ AWS S3는 대량의 비구조화된 데이터를 저장할 수 있는 저장 서
 
 Resource의 값을 "uriel-my-react-app"처럼 제 이름이 아닌 자신의 버킷 이름으로 변경하는 것을 잊지 마세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/HowToDeployAReactAppToAWSS3_5.png" />
 
@@ -86,7 +137,18 @@ Resource의 값을 "uriel-my-react-app"처럼 제 이름이 아닌 자신의 버
 
 <img src="/assets/img/HowToDeployAReactAppToAWSS3_6.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 맨 아래까지 스크롤하여 정적 웹사이트 호스팅 섹션을 찾아보세요.
 
@@ -96,7 +158,18 @@ Resource의 값을 "uriel-my-react-app"처럼 제 이름이 아닌 자신의 버
 
 여기서 enable을 선택한 후 다른 선택지는 기본 설정으로 남겨두시면 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래와 같이 변경해주세요:
 
@@ -108,7 +181,18 @@ Resource의 값을 "uriel-my-react-app"처럼 제 이름이 아닌 자신의 버
 
 이제 여러분의 버킷은 정적 웹 사이트를 호스팅할 준비가 되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 우리의 리액트 앱 만들기
 
@@ -120,7 +204,18 @@ Resource의 값을 "uriel-my-react-app"처럼 제 이름이 아닌 자신의 버
 vite run build
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/HowToDeployAReactAppToAWSS3_9.png)
 
@@ -132,7 +227,18 @@ vite run build
 npm run build
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앱을 빌드한 후 CRA를 사용했다면 빌드 폴더의 모든 파일을 가져와서 또는 Vite를 사용했다면 dist 폴더의 파일을 가져와서 S3 버킷에 업로드하세요.
 
@@ -142,7 +248,18 @@ npm run build
 
 이게 다에요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # React 앱 보기
 
@@ -152,7 +269,18 @@ npm run build
 
 ![React 앱 보기](/assets/img/HowToDeployAReactAppToAWSS3_11.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 프로젝트에 유용하고 실용적인 것을 배웠으면 좋겠어요!
 
@@ -166,6 +294,17 @@ npm run build
 
 좋아하셨다면 👏 눌러주시고 더 많은 내용을 보시려면 팔로우해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Uriel

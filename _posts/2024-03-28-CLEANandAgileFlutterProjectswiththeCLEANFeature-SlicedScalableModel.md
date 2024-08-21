@@ -3,17 +3,13 @@ title: "CLEAN Feature-Sliced 를 사용하는 Agile Flutter 프로젝트 확장 
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "CLEAN and Agile Flutter Projects with the CLEAN Feature-Sliced Scalable Model"
 link: "https://medium.com/@jovazcode/clean-and-agile-flutter-projects-with-the-clean-feature-sliced-scalable-model-79e524248322"
 isUpdated: true
 ---
-
-
-
-
 
 ![CLEANandAgileFlutterProjectswiththeCLEANFeature-SlicedScalableModel_0](/assets/img/CLEANandAgileFlutterProjectswiththeCLEANFeature-SlicedScalableModel_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 유일한 문제는 /lib 폴더 아래에서 개발자로서 우리가 조직화하고 혼란스럽게 만들 수 있다는 것이에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 실제로 회사에서 앱의 수명 주기가 길거나 빈번한 변경이 필요한 경우와 같이 전문적인 환경에서는 프로젝트를 조직하는 방식이 품질, 유지 관리성 및 기능 확장성 측면에서 중요합니다. 때때로 이 둘을 동시에 다루어야 하는 경우도 있어요! 😅
 
@@ -31,7 +38,18 @@ isUpdated: true
 
 ## 💪 Clean Architecture (“CLEAN Architecture”)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트 구조화에 대해 이야기하기 전에, 먼저 적용할 기본 소프트웨어 아키텍처를 확립하는 것이 중요합니다.
 
@@ -41,7 +59,18 @@ isUpdated: true
 
 여기에서 제안된 참조 프레임워크는 "CLEAN Architecture"의 일부인데, 구체적으로 다음과 같은 레이어를 가지고 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - “애플리케이션”은 사용자 상호작용, 그래픽 요소, 대화형 요소, 사용자 요청을 위한 관리 및 조정 컨트롤러, 사용자에게 표시될 상태 및 데이터 관리 구성 요소가 모두 위치하는 곳입니다. 이것은 단순히 한 레이어 이상을 나타내는 것이 아니라 실제로 THE Flutter 앱 “프론트엔드” 프로젝트를 나타내며, 다른 레이어는 더 많은 “프론트엔드” 앱이 생성될 수 있는 “라이브러리”(“패키지”)입니다.
 - “도메인”은 사용자에게 가치를 제공하기 위해 “프론트엔드” 애플리케이션이 필요로 하는 모든 비지니스 개념과 로직이 위치하는 곳입니다. 시간이 지남에 따라 변화가 가장 적게 일어나는 레이어로, 이것이 소프트웨어의 중심 레이어인 이유입니다.
@@ -53,7 +82,18 @@ isUpdated: true
 
 우리는 대부분의 개발에서 "과도한 엔지니어링"을 피하기 위해 “CLEAN Architecture”의 일부를 유지할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어쨌든, 원하신다면 또는 언젠가 프로젝트가 필요로 하는 경우, 이 기사에서 소개된 프로젝트 조직 방식은 이미 배포 및 운영 중인 것을 변경하지 않고, 원하는 "CLEAN" 구현 수준까지 확장할 수 있습니다.
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 Flutter 프로젝트에서 프레임워크를 구축하는 데 있어서 또 다른 중요한 문제는 상태 관리입니다 (React 프로젝트와 마찬가지)! 😅
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 다 아는 대로, Bloc, Riverpod, MobX 등 여러 대안들이 있습니다. 각각의 장단점과 팬들이 있죠.
 
@@ -73,7 +124,18 @@ Flutter 프로젝트에서 프레임워크를 구축하는 데 있어서 또 다
 
 하지만 사실은, 원한다면:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/CLEANandAgileFlutterProjectswiththeCLEANFeature-SlicedScalableModel_2.png" />
 
@@ -83,7 +145,18 @@ Flutter 프로젝트에서 프레임워크를 구축하는 데 있어서 또 다
 
 하지만, 우리는 (단지) 여기서 멈출 수는 없습니다 👇
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Layer Organization vs “Features” Organization
 
@@ -93,7 +166,18 @@ Flutter 프로젝트에서 프레임워크를 구축하는 데 있어서 또 다
 
 ![CLEAN](/assets/img/CLEANandAgileFlutterProjectswiththeCLEANFeature-SlicedScalableModel_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 그리고 또 다른 사람들은 폴더를 논리적 섹션과 기능(또는 "기능")으로 매핑합니다:
 
@@ -103,7 +187,18 @@ Flutter 프로젝트에서 프레임워크를 구축하는 데 있어서 또 다
 
 응용 프로그램의 모든 코드를 기술적 고려사항(패턴, 구성 요소 유형 및 해제)에만 기반하여 구성하는 것은 애플리케이션이 실제로 무엇을 제공하는지(및 어떻게)에 대한 시야 손실을 일으킵니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ⚠️ 그러나 주의하세요. "기능 중심" 코드 구조의 경우 종종 밑바닥 의존성이 명확하게 표시되지 않을 수 있습니다!!
 
@@ -113,7 +208,18 @@ Flutter 프로젝트에서 프레임워크를 구축하는 데 있어서 또 다
 
 "기능 중심 설계" (FSD)는 "프론트엔드" 소프트웨어 앱을 위한 아키텍처 방법론으로, 기능을 중심으로 구조화하고 "층"과 "의존성"에 대해 표준화하고 규칙을 설정합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "Feature-Sliced" 디자인에 대해 익숙하지 않다면, 여기 👈 공식 페이지를 자세히 살펴보세요.
 
@@ -123,7 +229,18 @@ Flutter 프로젝트에서 프레임워크를 구축하는 데 있어서 또 다
 
 ## "CLEAN Feature-Sliced" (CFS): 견고하고 민첩한 모델
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 모든 것을 고려하면서 항상 해당 분야의 전문 건축가와 개발자들이 공유한 최상의 관행을 선호하는 것이 가장 중요합니다. 여기에는 Flutter를 사용하여 UI 앱을 개발하는 데 가장 적합한 조합이 아마도 제시됩니다. 이 조합은 기술적인 관점에서 견고함과 질서, 그리고 관리적인 관점에서 민첩성과 다재다능성을 모두 제공합니다.
 
@@ -134,7 +251,18 @@ Flutter 프로젝트에서 프레임워크를 구축하는 데 있어서 또 다
 
 "CLEAN" 계층 간의 관심사를 명확히 분리하며 "기능"으로 명확하고 표준화된 분해를 통해 개발의 민첩성과 모듈성을 증가시킨다는 방식입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 "프론트엔드" 앱을 위한 아키텍처 및 프로젝트 구조화 모델인 "CLEAN Feature-Sliced"는 제가 플러터 개발에 적용하기로 결정한 혼합 방법론입니다. 이 방법론은 "CLEAN Architecture"의 원칙과 "Feature-Sliced Design" 방법론의 기준을 결합하여 구성되었습니다.
 
@@ -148,7 +276,18 @@ Flutter 프로젝트에서 프레임워크를 구축하는 데 있어서 또 다
 
 ## BLoC 라이브러리의 공식 문서에서 예시 앱 "Todos"
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 공식 BLoC 라이브러리의 문서에서 "Todos" 앱을 예시로 삼기로 결정했어요. 여기 👈 에서 찾을 수 있어요.
 
@@ -158,7 +297,18 @@ Flutter 프로젝트에서 프레임워크를 구축하는 데 있어서 또 다
 
 ![이미지](/assets/img/CLEANandAgileFlutterProjectswiththeCLEANFeature-SlicedScalableModel_7.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ⚠️️️️ FSD는 이 앱과 같은 작은 앱에는 적용하기 어렵고 전혀 쓸모가 없습니다 → 이것은 단지 연습용으로, 매우 적은 코드로 FSD의 "레이어", "스라이스", "세그먼트"가 플러터 애플리케이션 내에서 어떻게 작동하는지를 보여주는 예제입니다!!!
 
@@ -168,7 +318,18 @@ Flutter 프로젝트에서 프레임워크를 구축하는 데 있어서 또 다
 
 이 경우, 앞서 언급한 대로 플러터 "프런트엔드" 프로젝트는 "application" 레이어이며 다른 레이어("domain" 및 "data")는 플러터 패키지로 선언된 종속성입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![CLEAN and Agile Flutter Projects with the CLEAN Feature-Sliced Scalable Model 9](/assets/img/CLEANandAgileFlutterProjectswiththeCLEANFeature-SlicedScalableModel_9.png)
 
@@ -178,13 +339,35 @@ The most notable and “novel” (at least for the Flutter ecosystem) comes in t
 
 ![CLEAN and Agile Flutter Projects with the CLEAN Feature-Sliced Scalable Model 10](/assets/img/CLEANandAgileFlutterProjectswiththeCLEANFeature-SlicedScalableModel_10.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "FSD" 방법론은 "프론트엔드" 애플리케이션을 계층으로 분해하고, 이를 다시 "슬라이스"로 나누며, 이를 또 "세그먼트"로 분해합니다:
 
 - 각 계층은 표준화된 이름을 가지며, 각각 역할이나 작업이 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - FSD에서는 레이어들이 의존성과 관련하여 완벽하게 정렬되어 있습니다 (shared는 다른 레이어에서 참조할 수 있지만, pages는 applayer에서만 참조할 수 있음).
 
@@ -197,7 +380,18 @@ The most notable and “novel” (at least for the Flutter ecosystem) comes in t
 
 각 레이어의 책임을 좀 더 자세히 살펴봅시다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - app: 애플리케이션 및 그 종속 항목을 초기화하는 곳입니다. 이것이 모든 것의 시작점입니다. 여기서 저는 애플리케이션의 "모듈"을 명시적으로 반영하며, 페이지, 경로, 기능 및 엔티티가 모두 조직되는 애플리케이션의 계층입니다.
 - pages: 이 계층에는 앱의 페이지가 포함되어 있습니다. 이것은 플러터 세계에서 위젯 트리의 시작점이며 사용자에게 제공되는 기능 및 데이터의 진입점입니다.
@@ -212,7 +406,18 @@ The most notable and “novel” (at least for the Flutter ecosystem) comes in t
 
 ## 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 글에서는 React와 Vue와 같은 "프런트엔드" 기술에서 적용되는 "Feature-Sliced Design" 🍰 방법론을 발견했어요. 이 방법론이 가져다주는 혜택을 살펴보았고, "CLEAN Architecture"와 BLoC 상태 관리자를 기반으로 한 Flutter 💙 애플리케이션을 통한 구현 예시도 살펴보았어요.
 
@@ -222,4 +427,15 @@ The most notable and “novel” (at least for the Flutter ecosystem) comes in t
 
 이 글이 여러분의 프로젝트에 도움이 되기를 희망합니다!!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

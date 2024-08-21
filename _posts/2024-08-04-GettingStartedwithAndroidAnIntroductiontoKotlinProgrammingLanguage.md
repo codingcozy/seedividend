@@ -3,17 +3,13 @@ title: "안드로이드 시작하기 2024년 코틀린 프로그래밍 언어 �
 description: ""
 coverImage: "/assets/img/2024-08-04-GettingStartedwithAndroidAnIntroductiontoKotlinProgrammingLanguage_0.png"
 date: 2024-08-04 19:09
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-04-GettingStartedwithAndroidAnIntroductiontoKotlinProgrammingLanguage_0.png
 tag: Tech
 originalTitle: "Getting Started with Android An Introduction to Kotlin Programming Language"
 link: "https://medium.com/@royanimesh2211/getting-started-with-android-an-introduction-to-kotlin-programming-language-dea82a6cf17c"
 isUpdated: true
 ---
-
-
-
-
 
 ![Getting Started with Android: An Introduction to Kotlin Programming Language](/assets/img/2024-08-04-GettingStartedwithAndroidAnIntroductiontoKotlinProgrammingLanguage_0.png)
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 이 글에서는 코틀린의 기본 언어 기능을 배우고 이 언어의 탄탄한 기반을 구축해보겠습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 문서를 따라가기 위해 무료로 제공되는 IntelliJ IDEA(Community Edition) IDE 또는 웹 기반의 Kotlin Playground를 다운로드할 수 있어요.
 
@@ -38,7 +44,18 @@ fun main() {
 
 당신이 이미 이 프로그램이 무엇을 하는지 추측했다면 틀렸어요. 이 프로그램은 "Hello, Kotlin"을 출력해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Kotlin 컴파일러
 
@@ -48,7 +65,18 @@ fun main() {
 
 Kotlin 프로그램은 시작점인 main 함수를 가져야 합니다. main 함수는 프로그램이 실행되기 시작하는 장소입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 함수란 무엇인가요?
 
@@ -58,7 +86,18 @@ Kotlin 프로그램은 시작점인 main 함수를 가져야 합니다. main 함
 
 함수를 정의한 후에는 함수를 호출하여 함수의 명령이 실행되거나 수행될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 함수 정의하는 방법
 
@@ -70,7 +109,18 @@ Kotlin 프로그램은 시작점인 main 함수를 가져야 합니다. main 함
 
 예를 들어보겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 fun main() {
@@ -87,7 +137,18 @@ Camel Case 형식으로 함수명 작성:
 
 함수명은 카멜 케이스 규칙을 따라야 합니다. 함수명의 첫 번째 단어는 소문자로 시작하고 나머지 단어는 대문자로 시작해야 합니다. 예: calculateTip(), takePhoto(), callMeHere()
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 함수에서 값을 반환하기:
 
@@ -97,7 +158,18 @@ Camel Case 형식으로 함수명 작성:
 
 예시:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```kotlin
 fun birthdayGreeting(): String {
@@ -111,7 +183,18 @@ Unit 타입
 
 기본적으로 반환 타입을 지정하지 않으면 기본 반환 타입은 Unit입니다. Unit은 함수가 값을 반환하지 않음을 의미합니다. Unit은 다른 언어의 void 반환 타입과 동등합니다 (Java 및 C의 void; Swift의 Void/빈 튜플(); Python의 None 등). 값을 반환하지 않는 함수는 암시적으로 Unit을 반환합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 보통 같은 용어로 사용되지만, 매개변수와 인수는 같은 것이 아닙니다. 함수를 정의할 때 함수를 호출할 때 전달할 매개변수를 정의합니다. 함수를 호출할 때, 매개변수에 대한 인수를 전달합니다. 매개변수는 함수에서 접근 가능한 변수들입니다. 예를 들어, 이름 변수입니다. 한편, 인수는 전달하는 실제 값입니다. 예를 들어, "Rover"라는 문자열입니다.
 
@@ -121,7 +204,18 @@ Kotlin의 명명된 인수는 함수를 호출할 때 매개변수의 이름을 
 
 다음은 간단한 예시입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 fun createUser(name: String, age: Int, email: String) {
@@ -138,7 +232,18 @@ createUser(name = “Alice”, age = 30, email = “alice@example.com”)
 
 ## 기본 인수 설정
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코틀린에서는 기본 인수를 사용하여 함수의 매개변수에 기본값을 지정할 수 있습니다. 호출자가 기본값이 지정된 매개변수에 값을 제공하지 않으면, Kotlin은 대신 기본값을 사용합니다. 이 기능은 함수 호출을 간소화하고 오버로드된 함수가 필요한 경우를 줄일 수 있습니다.
 
@@ -155,7 +260,18 @@ fun greet(name: String, greeting: String = “안녕하세요”) {
 greet(“Alice”, “안녕”) // 출력: 안녕, Alice!
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // ‘greeting’의 기본값으로 호출하기
@@ -168,7 +284,18 @@ greet(“Bob”) // 출력: Hello, Bob!
 
 전체 스타일 가이드는 여기에 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 관련 스타일 권고 사항입니다:
 
@@ -183,7 +310,18 @@ greet(“Bob”) // 출력: Hello, Bob!
 
 컴퓨터 프로그래밍에서 변수란 데이터의 단일 컨테이너를 가리킵니다. 그 값을 포함한 상자로 상상할 수 있습니다. 상자에는 변수의 이름인 레이블이 있습니다. 변수의 이름으로 그 상자를 지칭함으로써 그 값에 액세스할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어: val name = "Animesh"
 
@@ -193,7 +331,18 @@ greet(“Bob”) // 출력: Hello, Bob!
 
 Kotlin에서는 변수에 저장할 수 있는 데이터 유형을 명시하는 것이 중요합니다. Kotlin에는 일반적인 기본 데이터 유형이 있습니다. 아래는 몇 가지 데이터 유형입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문자열: 텍스트 데이터를 포함하며, 예를 들어, "안녕, 코틀린", "일요일" 등이 포함됩니다.
 
@@ -203,7 +352,18 @@ Kotlin에서는 변수에 저장할 수 있는 데이터 유형을 명시하는 
 
 플롯: 더블보다 정밀하지 않은 십진수를 포함하며, 숫자 끝에 f나 F가 붙습니다. 예를 들어, 344.0, -1398.0, 55.0 등이 포함됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## val vs var 키워드
 
@@ -211,7 +371,18 @@ val: 변수 값이 변경되지 않을 것으로 예상될 때 사용합니다. 
 
 var: 변수 값이 변경될 수 있다고 예상할 때 사용합니다. 값이 변경 가능(mutable)하다는 것을 의미하며, 값이 변경되거나 수정될 수 있습니다. 값은 변이될(mutated) 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코틀린에서는 가능한 경우 var 키워드 대신 val 키워드를 사용하는 것이 좋습니다.
 
@@ -220,24 +391,46 @@ var: 변수 값이 변경될 수 있다고 예상할 때 사용합니다. 값이
 변수를 1씩 증가시키고 싶다면, 두 개의 플러스 기호로 이루어진 증가 연산자(++)를 사용할 수 있습니다. 변수 이름 바로 뒤에 이러한 기호를 사용함으로써 컴파일러에게 현재 변수 값을 1 더하고, 그 새로운 값을 변수에 저장하고 싶다고 알릴 수 있습니다. 다음 두 줄의 코드는 동일하지만, ++ 증가 연산자를 사용하는 것이 타이핑을 덜 할 수 있습니다.
 
 ```js
-count = count + 1
+count = count + 1;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-count++
+count++;
 ```
 
 만약 변수를 1 감소시키고 싶다면 감소 연산자를 사용할 수 있어요.
 
 ```js
-count--
+count--;
 ```
 
 ## 코드 주석화
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코드를 작성할 때 코드의 목적과 기능을 설명하는 주석을 포함하는 것이 유익합니다. 주석을 추가하면 다른 사람들이 코드를 이해하고 따라가기 쉬워집니다. 주석을 추가하려면 두 개의 슬래시 //를 사용하십시오. 이는 해당 라인에서 그 뒤에 오는 텍스트가 주석임을 나타내며 코드로 실행되지 않아야 함을 의미합니다. // 뒤에 공백을 추가하는 것이 가독성을 높이는 좋은 습관입니다.
 
@@ -245,10 +438,21 @@ count--
 
 ```js
 // 이것은 한 줄 주석입니다.
-height = 1 // 높이가 1이라고 가정합니다.
+height = 1; // 높이가 1이라고 가정합니다.
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /*

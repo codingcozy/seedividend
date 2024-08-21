@@ -3,17 +3,13 @@ title: "JavaScript와 TypeScript 비교 정리"
 description: ""
 coverImage: "/assets/img/2024-05-27-AllJavaScriptandTypeScriptFeaturesofthelast3years_0.png"
 date: 2024-05-27 18:10
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-AllJavaScriptandTypeScriptFeaturesofthelast3years_0.png
 tag: Tech
 originalTitle: "All JavaScript and TypeScript Features of the last 3 years"
 link: "https://medium.com/better-programming/all-javascript-and-typescript-features-of-the-last-3-years-629c57e73e42"
 isUpdated: true
 ---
-
-
-
-
 
 ![2024-05-27-AllJavaScriptandTypeScriptFeaturesofthelast3years_0.png](/assets/img/2024-05-27-AllJavaScriptandTypeScriptFeaturesofthelast3years_0.png)
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 많은 TypeScript 기능들을 생략했는데, 그 이유는 "이전과 달리 예상대로 작동하지 않았으나, 지금은 그렇게 됩니다"로 요약할 수 있습니다. 따라서 과거에 작동하지 않았던 것이 있다면, 다시 시도해 보세요.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - JavaScript / ECMAScript (가장 오래된 것부터)
 - TypeScript (가장 오래된 것부터)
@@ -35,7 +41,18 @@ isUpdated: true
 
 ## 과거 (아직도 중요한 이전 소개들)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Tagged template literals: 템플릿 리터럴 앞에 함수 이름을 붙이면 함수가 템플릿 리터럴 및 템플릿 값들을 전달받게 됩니다. 이 방법에는 재미있는 활용법이 있습니다.
 
@@ -52,9 +69,12 @@ function translateKey(key: string): string {
   return key.toLocaleLowerCase();
 }
 function translate(strings: TemplateStringsArray, ...expressions: string[]): string {
-  return strings.reduce((accumulator, currentValue, index) => accumulator + currentValue + translateKey(expressions[index] ?? ''), '');
+  return strings.reduce(
+    (accumulator, currentValue, index) => accumulator + currentValue + translateKey(expressions[index] ?? ""),
+    ""
+  );
 }
-console.log(translate`Hello, this is ${'NAME'} to say ${'MESSAGE'}.`); // Hello, this is name to say message.
+console.log(translate`Hello, this is ${"NAME"} to say ${"MESSAGE"}.`); // Hello, this is name to say message.
 ```
 
 - Symbols: 객체에 대한 고유 키: Symbol("foo") === Symbol("foo"); // false. 내부적으로 사용됩니다.
@@ -62,30 +82,41 @@ console.log(translate`Hello, this is ${'NAME'} to say ${'MESSAGE'}.`); // Hello,
 ```js
 const obj: { [index: string]: string } = {};
 
-const symbolA = Symbol('a');
-const symbolB = Symbol.for('b');
+const symbolA = Symbol("a");
+const symbolB = Symbol.for("b");
 
 console.log(symbolA.description); // "a"
 
-obj[symbolA] = 'a';
-obj[symbolB] = 'b';
-obj['c'] = 'c';
-obj.d = 'd';
+obj[symbolA] = "a";
+obj[symbolB] = "b";
+obj["c"] = "c";
+obj.d = "d";
 
 console.log(obj[symbolA]); // "a"
 console.log(obj[symbolB]); // "b"
 
 // 다른 심볼이나 심볼 없이는 키에 액세스할 수 없습니다.
-console.log(obj[Symbol('a')]); // undefined
-console.log(obj['a']); // undefined
+console.log(obj[Symbol("a")]); // undefined
+console.log(obj["a"]); // undefined
 
 // for ... in을 사용할 때 키가 열거되지 않습니다.
 for (const i in obj) {
   console.log(i); // "c", "d"
 }
-```  
+```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## ES2020
 
@@ -95,52 +126,63 @@ for (const i in obj) {
 // 이전:
 // 우리가 정확히 정의된 것인지 확신할 수 없는 객체 변수 (또는 다른 구조)가 있을 때,
 // 속성에 쉽게 액세스할 수 없습니다.
-const object: { name: string } | undefined = Math.random() > 0.5 ? undefined : { name: 'test' };
+const object: { name: string } | undefined = Math.random() > 0.5 ? undefined : { name: "test" };
 const value = object.name; // 타입 오류: 'object' 가 'undefined' 일 수 있습니다.
 
 // 먼저 정의되었는지 확인해야 했지만, 이는 가독성을 해치며 중첩된 객체에 대해 복잡해집니다.
-const objectOld: { name: string } | undefined = Math.random() > 0.5 ? undefined : { name: 'test' };
+const objectOld: { name: string } | undefined = Math.random() > 0.5 ? undefined : { name: "test" };
 const valueOld = objectOld ? objectOld.name : undefined;
 
 // 새로운 방법:
 // 대신 선택적 연결을 사용할 수 있습니다.
-const objectNew: { name: string } | undefined = Math.random() > 0.5 ? undefined : { name: 'test' };
+const objectNew: { name: string } | undefined = Math.random() > 0.5 ? undefined : { name: "test" };
 const valueNew = objectNew?.name;
 
 // 이것은 인덱싱 및 함수에도 사용할 수 있습니다.
-const array: string[] | undefined = Math.random() > 0.5 ? undefined : ['test'];
+const array: string[] | undefined = Math.random() > 0.5 ? undefined : ["test"];
 const item = array?.[0];
-const func: (() => string) | undefined = Math.random() > 0.5 ? undefined : () => 'test';
+const func: (() => string) | undefined = Math.random() > 0.5 ? undefined : () => "test";
 const result = func?.();
 ```
 
 - 널 병합 연산자 (??): 조건부 할당을 위해 || 연산자를 사용하는 대신 새로운 ?? 연산자를 사용할 수 있습니다. 모든 거짓 값에 적용되는 대신 undefined와 null에만 적용됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-const value: string | undefined = Math.random() > 0.5 ? undefined : 'test';
+const value: string | undefined = Math.random() > 0.5 ? undefined : "test";
 
 // 이전:
 // 값이 undefined 또는 null인 경우 다른 값으로 조건적으로 할당하려면 "||" 연산자를 사용할 수 있었습니다.
-const anotherValue = value || 'hello';
+const anotherValue = value || "hello";
 console.log(anotherValue); // "test" 또는 "hello"
 
 // 이는 참 값 사용 시 잘 작동하지만, 0이나 빈 문자열과 비교할 경우에도 적용됩니다.
-const incorrectValue = '' || 'incorrect';
+const incorrectValue = "" || "incorrect";
 console.log(incorrectValue); // 항상 "incorrect"
-const anotherIncorrectValue = 0 || 'incorrect';
+const anotherIncorrectValue = 0 || "incorrect";
 console.log(anotherIncorrectValue); // 항상 "incorrect"
 
 // 새로운 방법:
 // 이제 nullish 병합 연산자를 사용할 수 있습니다. 이는 오직 undefined와 null 값에만 적용됩니다.
-const newValue = value ?? 'hello';
-console.log(newValue) // 항상 "hello"
+const newValue = value ?? "hello";
+console.log(newValue); // 항상 "hello"
 
 // 이제 falsy 값들이 교체되지 않습니다.
-const correctValue = '' ?? 'incorrect';
+const correctValue = "" ?? "incorrect";
 console.log(correctValue); // 항상 ""
-const anotherCorrectValue = 0 ?? 'incorrect';
+const anotherCorrectValue = 0 ?? "incorrect";
 console.log(anotherCorrectValue); // 항상 0
 ```
 
@@ -149,17 +191,27 @@ console.log(anotherCorrectValue); // 항상 0
 ```js
 let importModule;
 if (shouldImport) {
-  importModule = await import('./module.mjs');
+  importModule = await import("./module.mjs");
 }
 ```
 
 - String.matchAll(): 루프를 사용하지 않고 정규 표현식의 여러 일치 항목과 캡처 그룹을 모두 얻을 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-const stringVar = 'testhello,testagain,';
+const stringVar = "testhello,testagain,";
 
 // 이전:
 // 일치 항목만 검색되며 캡처 그룹은 포함되지 않습니다.
@@ -236,10 +288,19 @@ for (const result of results) {
 ```
 
 - BigInt: 새로운 BigInt 데이터 유형을 사용하여 큰 (정수) 숫자를 정확하게 저장하고 처리할 수 있어 JavaScript가 숫자를 부동 소수점으로 저장하는 것에 의한 오류를 방지할 수 있습니다. BigInt() 생성자를 사용하여 생성할 수 있고(불완전성을 방지하기 위해 문자열을 선호) 또는 숫자 끝에 n을 추가하여 생성할 수 있습니다.
-  
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 // 이전:
 // JavaScript는 숫자를 부동 소수점으로 저장하기 때문에 항상 약간의 부정확성이 있습니다.
@@ -284,7 +345,7 @@ console.log(binary); // 9007199254740991
 const addition = maxSafeIntegerPreviously + 2n;
 console.log(addition); // 9007199254740993
 
-const multiplication = maxSafeIntegerPreviously * 2n;
+const multiplication = maxSafeIntegerPreviously \* 2n;
 console.log(multiplication); // 18014398509481982
 
 const subtraction = multiplication - 10n;
@@ -293,13 +354,13 @@ console.log(subtraction); // 18014398509481972
 const modulo = multiplication % 10n;
 console.log(modulo); // 2
 
-const exponentiation = 2n ** 54n;
+const exponentiation = 2n \*\* 54n;
 console.log(exponentiation); // 18014398509481984
 
 const exponentiationAgain = 2n ^ 54n;
 console.log(exponentiationAgain); // 18014398509481984
 
-const negative = exponentiation * -1n;
+const negative = exponentiation \* -1n;
 console.log(negative); // -18014398509481984
 
 // BigInt로 인한 정수 나눗셈은 조금 다르게 작동합니다.
@@ -336,56 +397,85 @@ console.log(BigInt.asIntN(2, -2n)); // -2
 // 음수 숫자는 부호가 있는 숫자로 변환될 때 2의 보수로 변환됩니다.
 console.log(BigInt.asUintN(8, -2n)); // 254
 
-
 - globalThis: 환경(브라우저, NodeJS, ...)와 상관없이 전역 컨텍스트에서 변수에 액세스할 수 있습니다. 여전히 권장되지는 않지만 때로는 필요합니다. 브라우저의 최상위 수준에서 this와 유사합니다.
-
 
 console.log(globalThis.Math); // Math Object
 
-
 - import.meta: ES-모듈을 사용할 때 현재 모듈 URL import.meta.url을 얻습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 console.log(import.meta.url); // "file://..."
 ```
 
-- export * as … from …: 쉽게 기본값을 하위 모듈로 다시 내보냅니다.
+- export \* as … from …: 쉽게 기본값을 하위 모듈로 다시 내보냅니다.
 
 ```js
-export * as am from 'another-module'
+export * as am from "another-module";
 ```
 
 ```js
-import { am } from 'module'
+import { am } from "module";
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## ES2021
 
 - String.replaceAll(): 이제 문자열 내에서 부분 문자열의 모든 인스턴스를 대체할 수 있습니다. 더 이상 항상 전역 플래그(/g)를 사용하는 정규 표현식을 사용할 필요가 없습니다.
 
 ```js
-const testString = 'hello/greetings everyone/everybody';
+const testString = "hello/greetings everyone/everybody";
 // 이전:
 // 첫 번째 인스턴스만 대체함
-console.log(testString.replace('/', '|')); // 'hello|greetings everyone/everybody'
+console.log(testString.replace("/", "|")); // 'hello|greetings everyone/everybody'
 
 // 대체하기 위해 정규 표현식을 사용해야 했는데, 이는 성능이 좋지 않고 이스케이프가 필요합니다.
 // 전역 플래그(/g)를 참고하세요.
-console.log(testString.replace(/\//g, '|')); // 'hello|greetings everyone|everybody'
+console.log(testString.replace(/\//g, "|")); // 'hello|greetings everyone|everybody'
 
 // 새로운 기능:
 // replaceAll을 사용하면 더 명확하고 빠릅니다.
-console.log(testString.replaceAll('/', '|')); // 'hello|greetings everyone|everybody'
+console.log(testString.replaceAll("/", "|")); // 'hello|greetings everyone|everybody'
 ```
 
 - Promise.any(): 프로미스 목록 중 하나의 결과만 필요한 경우, 첫 번째 결과를 반환합니다. 모든 프로미스가 거부될 때만 거부하고 AggregateError를 반환하며, 즉시 거부되는 Promise.race가 아닙니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 console.log(await Promise.race([success1(), success2()])); // "a"
@@ -398,11 +488,23 @@ try {
 // 유의: 하나의 오류만 catch하고 성공 값을 액세스할 수 없습니다.
 
 // 이전 수정 (정말 최적화되지 않음):
-console.log(await Promise.race([ // "a"
-  fail1().catch(e => { console.log(e); }), // "fail 1"
-  fail2().catch(e => { console.log(e); }), // "fail 2"
-  success1().catch(e => { console.log(e); }),
-  success2().catch(e => { console.log(e); })]));
+console.log(
+  await Promise.race([
+    // "a"
+    fail1().catch((e) => {
+      console.log(e);
+    }), // "fail 1"
+    fail2().catch((e) => {
+      console.log(e);
+    }), // "fail 2"
+    success1().catch((e) => {
+      console.log(e);
+    }),
+    success2().catch((e) => {
+      console.log(e);
+    }),
+  ])
+);
 
 // 새로운:
 console.log(await Promise.any([fail1(), fail2(), success1(), success2()])); // "a"
@@ -419,58 +521,80 @@ try {
 
 ```js
 let x1 = undefined;
-let x2 = 'a';
-const getNewValue = () => 'b';
+let x2 = "a";
+const getNewValue = () => "b";
 
 // undefined는 nullish이므로 새 값이 x1에 할당됩니다.
-x1 ??= 'b';
-console.log(x1) // "b"
+x1 ??= "b";
+console.log(x1); // "b"
 
 // 문자열은 nullish가 아니므로 x2에 새 값이 할당되지 않습니다.
 // 또한 참고: getNewValue()가 실행되지 않습니다.
 x2 ??= getNewValue();
-console.log(x2) // "a"
+console.log(x2); // "a"
 ```
 
 - Logical and assignment (&&=): 이전에 "truthy"였을 때만 값을 할당합니다 (true 또는 true로 변환되는 값).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 let x1 = undefined;
-let x2 = 'a';
-const getNewValue = () => 'b';
+let x2 = "a";
+const getNewValue = () => "b";
 
 // 지정되지 않은 값인 x1에 새 값이 할당되지 않습니다. 왜냐하면 지정되지 않은 값은 참이 아닙니다.
 // 또한 주의: getNewValue()는 실행되지 않습니다.
 x1 &&= getNewValue();
-console.log(x1) // undefined
+console.log(x1); // undefined
 
 // 문자열은 참이므로 새 값이 x2에 할당됩니다.
-x2 &&= 'b';
-console.log(x2) // "b"
+x2 &&= "b";
+console.log(x2); // "b"
 ```
 
 - 논리 또는 할당 (||=): 이전에 "거짓"인 경우에만 값이 할당됩니다 (false 또는 false로 변환).
 
 ```js
 let x1 = undefined;
-let x2 = 'a';
-const getNewValue = () => 'b';
+let x2 = "a";
+const getNewValue = () => "b";
 
 // x1에 새 값이 할당됩니다. 왜냐하면 지정되지 않은 값은 거짓이기 때문입니다.
-x1 ||= 'b';
-console.log(x1) // "b"
+x1 ||= "b";
+console.log(x1); // "b"
 
 // x2에 새 값이 할당되지 않습니다. 왜냐하면 문자열은 거짓이 아닙니다.
 // 또한 주의: getNewValue()는 실행되지 않습니다.
 x2 ||= getNewValue();
-console.log(x2) // "a"
+console.log(x2); // "a"
 ```
 
 - WeakRef: 객체가 가비지 수집되는 것을 방지하지 않고 객체에 "약한" 참조를 보유합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const ref = new WeakRef(element);
@@ -481,7 +605,7 @@ console.log(value); // undefined
 // 객체가 더는 존재하지 않는 것 같습니다.
 ```
 
-- 숫자 리터럴 구분자 (_): 가독성을 위해 숫자를 _로 구분합니다. 이는 기능에 영향을 미치지 않습니다.
+- 숫자 리터럴 구분자 (*): 가독성을 위해 숫자를 *로 구분합니다. 이는 기능에 영향을 미치지 않습니다.
 
 ```js
 const int = 1_000_000_000;
@@ -489,23 +613,33 @@ const float = 1_000_000_000.999_999_999;
 const max = 9_223_372_036_854_775_807n;
 const binary = 0b1011_0101_0101;
 const octal = 0o1234_5670;
-const hex = 0xD0_E0_F0;
+const hex = 0xd0_e0_f0;
 ```
 
 ## ES2022
-  
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 최상위 대기: await 키워드는 이제 ES 모듈의 최상위 수준에서 사용할 수 있습니다. 이는 래퍼 함수의 필요성을 제거하고 오류 처리를 개선합니다.
 
 ```js
 async function asyncFuncSuccess() {
-  return 'test';
+  return "test";
 }
 
 async function asyncFuncFail() {
-  throw new Error('Test');
+  throw new Error("Test");
 }
 
 // 이전:
@@ -529,7 +663,7 @@ try {
 }
 
 // 비동기 함수가 기다려지지 않았기 때문에 이 프로미스 결과보다 먼저 기록됩니다.
-console.log('Hey'); // "Hey"
+console.log("Hey"); // "Hey"
 
 // 새로운:
 // 파일이 ES 모듈이라면(package.json에 설정되었고, exports가 있고, ".mts"로 명명된 경우) 최상위 수준에서 바로 await할 수 있습니다.
@@ -541,7 +675,7 @@ try {
 }
 
 // 모든 비동기 호출이 기다려지기 때문에 이 프로미스 결과 뒤에 기록됩니다.
-console.log('Hello'); // "Hello"
+console.log("Hello"); // "Hello"
 ```
 
 - #private: 클래스 멤버(속성 및 메서드)를 이름이 #로 시작하게하여 비공개로 만듭니다. 따라서 이러한 멤버는 클래스 내부에서만 액세스할 수 있습니다. 삭제되거나 동적으로 할당할 수 없습니다. 잘못된 동작은 JavaScript(하지만 TypeScript가 아닌) 구문 오류를 발생시킵니다. TypeScript 프로젝트에서는 권장되지 않습니다. 대신 기존 private 키워드를 사용하십시오.
@@ -563,21 +697,32 @@ const instance = new ClassWithPrivateField();
 instance.#privateField === 42; // 구문 오류
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - static 클래스 멤버: 클래스 필드(속성 및 메서드)를 static으로 표시하세요.
 
 ```js
 class Logger {
-  static id = 'Logger1';
-  static type = 'GenericLogger';
+  static id = "Logger1";
+  static type = "GenericLogger";
   static log(message: string | Error) {
     console.log(message);
   }
 }
 
 class ErrorLogger extends Logger {
-  static type = 'ErrorLogger';
+  static type = "ErrorLogger";
   static qualifiedType;
   static log(e: Error) {
     return super.log(e.toString());
@@ -585,12 +730,12 @@ class ErrorLogger extends Logger {
 }
 
 console.log(Logger.type); // "GenericLogger"
-Logger.log('Test'); // "Test"
+Logger.log("Test"); // "Test"
 
 // 정적으로만 있는 클래스를 생성하는 것은 무의미하지만 여기선 시연을 위해 수행되었습니다.
 const log = new Logger();
 
-ErrorLogger.log(new Error('Test')); // 에러: "Test" (부모 클래스의 생성에 영향을 받지 않음)
+ErrorLogger.log(new Error("Test")); // 에러: "Test" (부모 클래스의 생성에 영향을 받지 않음)
 console.log(ErrorLogger.type); // "ErrorLogger"
 console.log(ErrorLogger.qualifiedType); // undefined
 console.log(ErrorLogger.id); // "Logger1"
@@ -603,10 +748,10 @@ console.log(log.log()); // log.log is not a function
 
 ```js
 class Test {
-  static staticProperty1 = '속성 1';
+  static staticProperty1 = "속성 1";
   static staticProperty2;
   static {
-    this.staticProperty2 = '속성 2';
+    this.staticProperty2 = "속성 2";
   }
 }
 
@@ -614,19 +759,30 @@ console.log(Test.staticProperty1); // "Property 1"
 console.log(Test.staticProperty2); // "Property 2"
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 가져오기 어설션 (비표준, V8에서 구현됨): 가져온 항목의 유형을 확인하기 위해 사용할 수 있습니다. `import ... from ... assert ' type: `json` '`로 JSON을 직접 가져오고 구문 분석할 필요 없이 사용할 수 있습니다.
 
 ```js
-import json from './foo.json' assert { type: 'json' };
+import json from "./foo.json" assert { type: "json" };
 console.log(json.answer); // 42
 ```
 
 - 정규표현식 일치 인덱스: 정규표현식 일치 및 캡처 그룹의 시작 및 끝 인덱스를 가져올 수 있습니다. RegExp.exec(), String.match() 및 String.matchAll()에 대해 작동합니다.
 
 ```js
-const matchObj = /(test+)(hello+)/d.exec('start-testesthello-stop');
+const matchObj = /(test+)(hello+)/d.exec("start-testesthello-stop");
 
 // 이전:
 console.log(matchObj?.index);
@@ -642,7 +798,18 @@ if (matchObj) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Negative indexing (.at(-1)): 배열이나 문자열을 인덱싱할 때, at()을 사용하여 뒤에서부터 인덱싱할 수 있습니다. 값 가져오기(arr[arr.length - 1]와 동일)만 가능하며 값을 설정할 수는 없습니다.
 
@@ -656,13 +823,24 @@ array.at(-1) = 3; // SyntaxError: Assigning to rvalue
 - hasOwn: 객체가 어떤 속성을 가지고 있는지 obj.hasOwnProperty()을 사용하는 대신 추천되는 새 방법입니다. 일부 특수한 경우에 더 잘 작동합니다.
 
 ```js
-const obj = { name: 'test' };
+const obj = { name: "test" };
 
-console.log(Object.hasOwn(obj, 'name')); // true
-console.log(Object.hasOwn(obj, 'gender')); // false
+console.log(Object.hasOwn(obj, "name")); // true
+console.log(Object.hasOwn(obj, "gender")); // false
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 오류 원인: 이제 오류에 대한 선택적 원인을 지정할 수 있습니다. 이는 다시 throw할 때 원래 오류를 지정할 수 있게 합니다.
 
@@ -671,7 +849,7 @@ try {
   try {
     connectToDatabase();
   } catch (err) {
-    throw new Error('데이터베이스 연결에 실패했습니다.', { cause: err });
+    throw new Error("데이터베이스 연결에 실패했습니다.", { cause: err });
   }
 } catch (err) {
   console.log(err.cause); // ReferenceError: connectToDatabase is not defined
@@ -682,7 +860,18 @@ try {
 
 - Auto-Accessor: 속성을 자동으로 비공개로 만들고 get/set 접근자를 만듭니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 class Person {
@@ -703,7 +892,18 @@ const person = new Person('test');
 
 - 제네릭: 다른 유형으로 유형을 전달합니다. 이를 통해 유형을 일반화 할 수 있지만 여전히 유형 안전성을 유지할 수 있습니다. 항상 `any` 또는 `unknown` 대신 이를 선호해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // WITHOUT:
@@ -760,14 +960,14 @@ type TestReadonly = Readonly<Test>; // typed as { readonly name: string; readonl
 // Record 유틸리티 타입은 객체/맵/사전을 간단하게 정의할 수 있습니다. 가능한 경우에는 인덱스 시그니처보다 선호됩니다.
 const config: Record<string, boolean> = { option: false, anotherOption: true };
 // Pick 유틸리티 타입은 지정된 속성만 가져옵니다.
-type TestLess = Pick<Test, 'name'>; // typed as { name: string; }
-type TestBoth = Pick<Test, 'name' | 'age'>; // typed as { name: string; age: string; }
+type TestLess = Pick<Test, "name">; // typed as { name: string; }
+type TestBoth = Pick<Test, "name" | "age">; // typed as { name: string; age: string; }
 // Omit 유틸리티 타입은 지정된 속성을 무시합니다.
-type TestFewer = Omit<Test, 'name'>; // typed as { age: string; }
-type TestNone = Omit<Test, 'name' | 'age'>; // typed as {}
+type TestFewer = Omit<Test, "name">; // typed as { age: string; }
+type TestNone = Omit<Test, "name" | "age">; // typed as {}
 // Parameters 유틸리티 타입은 함수 타입의 매개변수를 가져옵니다.
 function doSmth(value: string, anotherValue: number): string {
-  return 'test';
+  return "test";
 }
 type Params = Parameters<typeof doSmth>; // typed as [value: string, anotherValue: number]
 // ReturnType 유틸리티 타입은 함수 타입의 반환 타입을 가져옵니다.
@@ -776,7 +976,18 @@ type Return = ReturnType<typeof doSmth>; // typed as string
 // 이 외에도 많은 유틸리티 타입이 있으며, 그 중 일부는 아래에서 소개됩니다.
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 조건부 타입: 어떤 타입이 다른 타입과 일치/확장되면 그에 따라 타입을 조건부로 설정합니다. 이는 JavaScript의 조건부(삼항) 연산자와 비슷하게 해석될 수 있습니다.
 
@@ -810,7 +1021,18 @@ type Str = GetReturnType<(x: string) => string>; // string 타입으로 지정�
 type Bools = GetReturnType<(a: boolean, b: boolean) => void>; // undefined 타입으로 지정됨
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 튜플 Optional Elements와 Rest: 튜플에서 `?`를 사용하여 옵셔널 요소를 선언하고, 다른 타입을 기반으로 나머지 요소를 사용할 수 있습니다.
 
@@ -857,7 +1079,18 @@ new Animal(); // 컴파일 오류: 추상 클래스의 인스턴스를 생성할
 const dog = new Dog().makeSound(); // "woof"가 출력됩니다
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 생성자 서명: 클래스 선언 외부에서 생성자의 유형을 정의합니다. 대부분의 경우에 사용되지 않아야 하며, 추상 클래스 대신 사용할 수 있습니다.
 
@@ -882,7 +1115,7 @@ class AnotherTest {
 }
 
 function makeObj(n: ConstructsMyInterface) {
-  return new n('hello!');
+  return new n("hello!");
 }
 
 const obj = makeObj(Test); // Test로 타입 지정됨
@@ -913,10 +1146,21 @@ function makeObj(test: ConstructsMyInterface, ...args: ConstructorParameters<Con
 }
 
 makeObj(Test); // 타입 오류: 2개의 매개변수가 필요하지만 1개만 전달되었습니다.
-const obj = makeObj(Test, 'test'); // Test로 타입 지정됨
+const obj = makeObj(Test, "test"); // Test로 타입 지정됨
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## TypeScript 4.0
 
@@ -948,7 +1192,18 @@ console.log(tuple[6]); // 타입 오류: 길이 '6'인 튜플 타입 '[23, "hey"
 
 - Labeled Tuple Elements: 튜플 요소는 이제 [start: number, end: number]와 같이 이름을 지정할 수 있습니다. 요소 중 하나가 이름이 지정되면 모두 이름이 있어야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 혹시 클래스 생성자에서 속성이 설정될 때 속성의 타입을 자동으로 추론할 수 있어서 더 이상 수동으로 설정할 필요가 없습니다.
 
@@ -966,14 +1221,24 @@ class Animal {
 
 - JSDoc @deprecated 지원: JSDoc/TSDoc의 @deprecated 태그가 TypeScript에서 인식됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /** @deprecated 메시지 */
 type Test = string;
 
-const test: Test = 'dfadsf'; // 타입 오류: '테스트'가 사용되지 않습니다.
+const test: Test = "dfadsf"; // 타입 오류: '테스트'가 사용되지 않습니다.
 ```
 
 ## TypeScript 4.1
@@ -993,7 +1258,18 @@ const dir3: Direction = 'left top'; // 타입 오류: '"left top"'은(는) '"top
 declare function makeId<T extends string, U extends string>(first: T, second: U): `${Capitalize<T>}-${Lowercase<U>}`;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 키 다시 매핑하기: 매핑된 타입을 다시 정의하여 그 값들을 사용할 수 있습니다. [K in keyof T as NewKeyType]: T[K].
 
@@ -1013,7 +1289,18 @@ type P2 = Awaited<Promise<string>>; // string으로 타입이 지정됩니다.
 type P3 = Awaited<Promise<Promise<string>>>; // string으로 타입이 지정됩니다.
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - JSDOC @see 태그를 지원하는 편집기: 이제 편집기에서 JSDoc/TSDoc @see 변수/유형/링크 태그가 지원됩니다.
 
@@ -1045,7 +1332,18 @@ tsc --explainFiles
 output
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Destructured 변수는 명시적으로 사용되지 않음을 표시할 수 있습니다: 구조 분해할 때 밑줄을 사용하여 변수가 사용되지 않음을 표시할 수 있습니다. 이를 통해 TypeScript에서 "사용되지 않는 변수" 오류를 방지할 수 있습니다.
 
@@ -1062,7 +1360,18 @@ console.log(value);
 
 - 속성에 대한 별도의 쓰기 유형: set/get 접근자를 정의할 때, 쓰기/설정 형식이 읽기/가져오기 형식과 다를 수 있습니다. 이를 통해 동일한 값의 여러 형식을 수락하는 setter를 정의할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 class Test {
@@ -1112,8 +1421,18 @@ class NewTest extends NewParent {
 
 - static Index Signatures: 클래스에서 정적 속성을 사용할 때, 정적 [propName: string]: string을 사용하여 색인 서명을 설정할 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 이전 코드:
@@ -1141,7 +1460,18 @@ const value = originalValue;
 
 ## TypeScript 4.4
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 정확한 선택적 속성 유형 (--exactOptionalPropertyTypes): 컴파일러 플래그 --exactOptionalPropertyTypes (또는 tsconfig.json에)를 사용하면, 암시적으로 undefined를 허용하는 속성에 대해 undefined로 할당하는 것이 허용되지 않습니다 (예: property?: string). 대신, property: string | undefined와 같이 명시적으로 undefined를 허용해야 합니다.
 
@@ -1159,9 +1489,20 @@ console.log(test.age); // undefined
 
 ## TypeScript 4.5
 
-- Awaited`` 유형 및 Promise 개선: 새로운 Awaited`` 유틸리티 유형은 무한히 중첩된 Promises에서 값 유형을 추출합니다 (값에 대해 await이 하는 것과 같이). 이는 또한 Promise.all()에 대한 유형 추론을 개선했습니다.
+- Awaited` 유형 및 Promise 개선: 새로운 Awaited` 유틸리티 유형은 무한히 중첩된 Promises에서 값 유형을 추출합니다 (값에 대해 await이 하는 것과 같이). 이는 또한 Promise.all()에 대한 유형 추론을 개선했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 제네릭 대기값을 가지고 싶다고 가정해 봅시다.
@@ -1177,18 +1518,29 @@ type P3 = Awaited<Promise<Promise<string>>>; // 문자열로 타입 지정
 ```js
 // 이전:
 // 유형을 가져오는 가장 좋은 방법은 `import type` 키워드를 사용하여 컴파일 이후에 실제로 가져오지 않도록 하는 것입니다.
-import { something } from './file';
-import type { SomeType } from './file';
+import { something } from "./file";
+import type { SomeType } from "./file";
 // 이 파일에 대해 두 개의 import 문이 필요했습니다.
 
 // 새로운:
 // 이제 이를 하나의 문으로 결합할 수 있습니다.
-import { something, type SomeType } from './file';
+import { something, type SomeType } from "./file";
 ```
 
 - Const 어순: 상수를 정의할 때 const 키워드를 사용하여 이를 리터럴 타입으로 정확하게 지정할 수 있습니다. 이는 다양한 용례가 있으며 정확한 유형 정의가 쉬워집니다. 또한 상수 객체와 배열은 읽기 전용이 되어 상수 객체의 변이를 방지합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 이전:
@@ -1218,7 +1570,18 @@ tupleNew[3] = 0; // 타입 에러: 'readonly["name", 4, true]'에 있는 인덱�
 
 ## TypeScript 4.6
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 인덱스된 액세스 추론 개선: 키로 직접 타입을 색인화할 때, 이제 같은 객체에 있는 경우 타입이 더 정확해집니다. 현대적인 TypeScript로 어떤 것이 가능한지 보여주는 좋은 예시입니다.
 
@@ -1292,7 +1655,18 @@ cat trace/types.json
 출력
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## TypeScript 4.7
 
@@ -1309,7 +1683,18 @@ cat trace/types.json
 
 - package.json의 type: package.json의 type 필드를 "module"로 설정할 수 있습니다. 이것은 Node.js와 ES 모듈을 사용하기 위해 필요합니다. 대부분의 경우에 TypeScript에 충분하며 위의 컴파일러 옵션이 필요하지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 ...
@@ -1352,7 +1737,18 @@ const makeNumberList = makeList<number>;
 
 - 추론된 유형 변수에 대한 extend 제한: 조건부 유형에서 유형 변수를 추론할 때, extends를 사용하여 직접 좁히거나 제한할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 배열의 첫 번째 요소가 문자열인 경우에만 해당 요소를 가져오는 유형을 작성하려고 한다고 가정해 봅시다.
@@ -1457,7 +1853,18 @@ type SetterNew<in T> = (value: T) => void;
 
 - moduleSuffixes로 해상도 사용자 정의: 사용자 정의 파일 접미사를 사용하는 환경(예: 네이티브 앱 빌드에 .ios를 사용하는 경우)에서는 TypeScript가 가져오기를 정확하게 해석하도록 이 접미사를 tsconfig.json에 지정할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 ...
@@ -1469,7 +1876,7 @@ type SetterNew<in T> = (value: T) => void;
 ```
 
 ```js
-import * as foo from './foo';
+import * as foo from "./foo";
 // 이 코드는 먼저 ./foo.ios.ts를 확인하고, 그 다음에는 ./foo.native.ts를, 마지막으로 ./foo.ts를 확인합니다.
 ```
 
@@ -1477,8 +1884,18 @@ import * as foo from './foo';
 
 <img src="https://miro.medium.com/v2/resize:fit:800/1*y45nF8mb-nfBuVIUPt7KJQ.gif" />
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](https://miro.medium.com/v2/resize:fit:800/1*qvzGqfF844cXCPMeDrg_IQ.gif)
 
@@ -1522,7 +1939,18 @@ const newRgb4 = newObj.fireTruck[3]; // 타입 오류: 길이가 '3'인 튜플 �
 const newHex = newObj.bush; // 문자열로 타입 지정
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 편집기의 "사용되지 않는 Imports 제거" 및 "Imports 정렬" 명령: 편집기에서 새로운 "사용되지 않는 Imports 제거" 및 "Imports 정렬" 명령(및 자동 수정)을 사용하면 Imports를 관리하는 것이 더 쉬워집니다.
 
@@ -1532,7 +1960,18 @@ const newHex = newObj.bush; // 문자열로 타입 지정
 
 - ES 데코레이터 지원: TypeScript는 이제 ES 데코레이터(곧 나올 ES 기능)를 지원하며, 기존 데코레이터와는 다릅니다. 이전에 TypeScript는 데코레이터에 대해 실험적인 지원을 했었는데, 이는 Angular와 같은 프레임워크에서 사용되는 것으로, --experimentalDecorators 플래그(또는 tsconfig.json에서)로 선택할 수 있었으며 약간 다르게 동작했습니다. 그러나 이제 새로운 ES 데코레이터는 이전 것과는 다르게 메타데이터를 내보내지 못하며 아직은 매개변수에서도 지원되지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 주의: 2023년 5월 기준으로 이것은 예정된 ES 기능이므로 이 코드는 아직 작동하지 않습니다.
@@ -1650,8 +2089,18 @@ console.log(boundFunc()); // "작업 중"
 
 - 타입을 활용한 여러 구성 파일 지원: 복잡한 상속 구조를 만들거나 모든 "tsconfig"에서 항상 동일한 구성을 확장하거나 모든 설정을 복사하여 모두 복사하는 대신, "tsconfig" 파일에서 "extends": ["./tsconfig1.json", "./tsconfig2.json"]를 지정함으로써 여러 파일을 확장하여 동작을 재정의할 수 있습니다. 후자의 파일이 오버라이드 동작을 우선시합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 ...
@@ -1691,7 +2140,18 @@ type PrimaryColorRandom = ColorRandom.Red | ColorRandom.Green | ColorRandom.Blue
 
 - --moduleResolution bundler: TS 4.7의 모듈 해결 전략 "node16"은 ES 모듈을 더 잘 모델링할 수 있게 해주지만 일부 불필요한 제약이 있었습니다(파일 확장자를 명시해야 했으며, ...). 번들러를 사용 중이라면, 새 전략은 최신 기능을 유지하면서 일부 제약을 제거하려고 시도합니다. 컴파일러 플래그 --moduleResolution bundle를 지정하여 사용할 수 있습니다(또는 tsconfig.json에서). 번들러를 사용할 때만 사용하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```json
 ...
@@ -1724,7 +2184,18 @@ import * as foo from './foo';
 ...
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 {
@@ -1744,11 +2215,11 @@ import * as foo from './foo';
 
 ```js
 // `verbatimModuleSyntax`가 설정되지 않으면 이 import는 최종 컴파일에서 제거될 것입니다.
-import { Car } from './car';
+import { Car } from "./car";
 // 이 import는 아무 경우에나 제거될 것입니다.
-import type { Car } from './car';
+import type { Car } from "./car";
 // 이 import는 절대로 제거되지 않습니다.
-import { logCar } from './car';
+import { logCar } from "./car";
 
 export function drive(car: Car) {
   logCar(car);
@@ -1756,9 +2227,20 @@ export function drive(car: Car) {
 }
 ```
 
-- **export type * 지원:** 기본 형식을 하위 모듈로 쉽게 다시 내보낼 수 있습니다.
+- **export type \* 지원:** 기본 형식을 하위 모듈로 쉽게 다시 내보낼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 기본 타입들을 다른 모듈로서 서브모듈로 내보냅니다.
@@ -1768,9 +2250,9 @@ export type * from 'another-module';
 ```
 
 ```js
-import type { am } from 'module';
+import type { am } from "module";
 // 또는
-import type { } from 'module';
+import type {} from "module";
 ```
 
 - --build 하위에서 Emit-Specific 플래그 전달: 빌드에 대한 동작을 지정하는 플래그들 (--build를 사용할 때). 이들은 --declaration, --emitDeclarationOnly, --declarationMap, --sourceMap 및 --inlineSourceMap를 포함합니다. 모두 이제 컴파일러 플래그로 지정할 수 있습니다. 이전에는 tsconfig.json에서만 설정할 수 있었어요.
@@ -1780,7 +2262,18 @@ import type { } from 'module';
 tsc --build --declaration
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 에디터에서 대소문자 구분 없는 import 정렬: 에디터에서 import를 정렬할 때 대소문자 구분 동작을 변경하세요. 이 기능은 VSCode의 JSON 설정 내 typescript.unstable 아래에서 활성화하고 구성할 수 있습니다.
 

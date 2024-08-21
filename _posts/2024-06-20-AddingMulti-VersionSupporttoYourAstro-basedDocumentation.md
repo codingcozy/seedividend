@@ -3,16 +3,13 @@ title: "Astro 기반 문서에 다중 버전 지원 추가하기"
 description: ""
 coverImage: "/assets/img/2024-06-20-AddingMulti-VersionSupporttoYourAstro-basedDocumentation_0.png"
 date: 2024-06-20 04:15
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-AddingMulti-VersionSupporttoYourAstro-basedDocumentation_0.png
 tag: Tech
 originalTitle: "Adding Multi-Version Support to Your Astro-based Documentation"
 link: "https://medium.com/bitsrc/adding-multi-version-support-to-your-astro-based-documentation-429aa2ca7089"
 isUpdated: true
 ---
-
-
-
 
 ## 같은 문서 안에 여러 버전을 가질 수 있는 방법은 무엇인가요?
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 다른 곳에서 이주할 때 여러 렌더링 라이브러리를 통합할 수 있는 능력은 채택을 도와 줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 문서 사이트를 만드는 것은 아마도 지금 이 시점에서는 사소한 문제일지 모르지만, 최근에 해결해야 했던 문제인 문서 사이트에 다중 버전 지원을 추가하는 방법에 대해 다루고 싶었습니다.
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 문서 사이트를 구축하는 것은 많은 페이지로 이루어진 정적 사이트를 구축하는 것 이상을 의미하지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 용하기 쉬우면 Astro를 사용하면 간단합니다.
 
@@ -43,7 +62,18 @@ isUpdated: true
 - 쉬운 문제: 라우팅 프로세스에 버전을 추가합니다. 버전 간에 전환할 수 있어야하며, Astro는 파일 경로 기반의 라우팅을 사용하므로 각 버전에 대한 폴더를 만들어야 합니다.
 - 어려운 문제: 현재 버전에 맞게 모든 상대적 링크를 처리하고 내부 탐색을 일관되게 유지해야 합니다 (현재 선택된 버전에 따라 동일한 링크가 다른 버전으로 리디렉트되어야 합니다).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 문제들은 사소해 보일 수 있지만 쉽게 해결되지 않습니다.
 
@@ -53,7 +83,18 @@ isUpdated: true
 
 해결해야 할 문제는 두 가지이므로 한 가지씩 해결해 봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 라우팅 프로세스에 버전 추가하기
 
@@ -63,7 +104,18 @@ isUpdated: true
 
 이것은 단순한 것으로 보이네요. 해야 할 일은 폴더 구조를 변경하는 것뿐입니다. 따라서 이렇게 변경해야 합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /
@@ -77,7 +129,18 @@ isUpdated: true
 
 위와 같이 변경해 주세요. 변경 후에 Astro가 콘텐츠를 찾을 수 있도록 알려주었으며, 이제 Astro는 제대로 동작할 것입니다. 이제 npm run build를 실행하면 모든 것이 제대로 빌드되지만 새로운 폴더에 생성될 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 아직 끝나지 않았어요. 이것은 1단계의 반만이에요. 우리는 아직 버전 지원의 중요한 부분을 놓치고 있어요. 바로 버전 전환기에요.
 
@@ -87,7 +150,18 @@ isUpdated: true
 
 코드를 보면, 컴포넌트는 VERSIONS 배열 내에 나열된 버전을 기반으로 버전 드롭다운을 그려줄 거에요. 거기서 표시할 레이블과 경로를 가져올 거에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최신 버전에서는 경로가 없다는 것을 주목해주세요. 이렇게 하면 최신 버전을 루트 폴더 아래의 docs 폴더에 유지하고, 버전이 명시된 경우에만 버전 폴더를 사용할 수 있게 됩니다.
 
@@ -97,7 +171,18 @@ isUpdated: true
 
 그런데 잠깐, 이제 새 버전을 릴리스할 때마다 문서 링크를 모두 확인하고 사용자가 버전 간을 이동하는 것을 방지하기 위해 내부 링크를 업데이트해야 한다는 말인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그렇게하면 정말 귀찮을 텐데, 특히 문서가 충분히 큰 경우 말이죠. 그래서 이에 대해 처리할 방법을 찾아보겠습니다.
 
@@ -107,7 +192,18 @@ isUpdated: true
 
 왜냐하면 그렇게 한다면 각 새 버전을 릴리스할 때마다 최신 버전의 문서를 복제해야 하기 때문에 매번 검색 및 교체 프로세스를 실행해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 우리가 그것을 잊어버리거나 어떠한 이유로 인해, 검색 패턴이 모든 URL을 포착하지 못하면, 결함이 있는 문서 사이트가 공개될 수 있습니다.
 
@@ -117,7 +213,18 @@ isUpdated: true
 
 그 스크립트를 내 메인 레이아웃 파일의 하단에 넣었습니다. 그렇게 하면 컨텐츠가 로드될 때 스크립트가 실행됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해당 코드는 모든 링크를 실행하고, 사이트 도메인 내의 장소로 리디렉션하는 링크를 찾습니다 (이상적으로 "docs.yourdomain.com"과 같은 것) 그 중에서만 현재 버전이 있는 새 링크로 변경합니다.
 
@@ -125,7 +232,18 @@ isUpdated: true
 
 그게 전부에요. Astro는 정적 사이트에 JavaScript를 추가하고 컴포넌트를 만들 때 매우 유연성을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예제들은 두 가지 다른 사용 사례를 보여줍니다. 하나는 동적 부분이 있는 컴포넌트가 생성될 때이며, 서버에서 드롭다운이 렌더링되더라도 여전히 작동하도록하기 위해 추가적인 JS 코드를 추가해야 합니다.
 
@@ -135,8 +253,18 @@ isUpdated: true
 
 # 레고처럼 재사용 가능한 컴포넌트로 앱을 개발하세요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-20-AddingMulti-VersionSupporttoYourAstro-basedDocumentation_1.png)
 
@@ -146,8 +274,18 @@ Easily turn any UI, feature, or page into a reusable component — and share it 
 
 → Learn more
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앱을 컴포넌트로 분리하여 앱 개발을 쉽게 만들고, 원하는 작업을 위한 최상의 경험을 즐기세요:
 
@@ -157,7 +295,18 @@ Easily turn any UI, feature, or page into a reusable component — and share it 
 
 ## → 코드 공유 및 재사용
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## → Monorepo
 

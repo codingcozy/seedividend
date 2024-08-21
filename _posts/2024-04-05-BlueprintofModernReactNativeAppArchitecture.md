@@ -3,17 +3,13 @@ title: "최신 React Native 앱 아키텍처 정리2024년"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Blueprint of Modern React Native App Architecture"
 link: "https://medium.com/@anil-gudigar/blueprint-of-modern-react-native-app-architecture-ba432deffdde"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/BlueprintofModernReactNativeAppArchitecture_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 계층 분리
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제품 요구 사항을 기술적 설계로 번역할 때 제품이나 애플리케이션이 해결하고자 하는 다양한 과제의 측면을 분석하고 이해하는 것이 중요합니다. 이는 문제를 해결하거나 특정 기능을 충족시키는 데 기여하는 각각 독립적인 우려 영역을 식별하고 분류하는 것을 포함합니다.
 
@@ -37,7 +44,18 @@ isUpdated: true
 - 네트워크 트랜잭션
 - 계측(Instrumentation)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 분류는 구성 요소가 Native인지 JavaScript 기반인지를 결정하는 데 일부 기준을 따라 달성할 수 있습니다.
 
@@ -47,7 +65,18 @@ isUpdated: true
 
 Native Core 라이브러리는 제품의 다양한 사용 사례를 고려하여 구현할 수 있으며, 애플리케이션의 기초를 설계할 때 일부 기본 네이티브 라이브러리를 모바일 플랫폼 제공의 일부로 구축할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코어 기반 라이브러리:
 
@@ -62,7 +91,18 @@ Native Core 라이브러리는 제품의 다양한 사용 사례를 고려하여
 
 # 모듈식 및 재사용 가능
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 이 기본 구성 요소는 조직 내에서 공유할 수 있는 모듈식이고 재사용 가능한 저장소가 될 수 있습니다. 이는 모든 다른 제품들 간에 공유될 수 있습니다.
 
@@ -72,7 +112,18 @@ Native Core 라이브러리는 제품의 다양한 사용 사례를 고려하여
 
 조직의 디자인 언어와 일치하는 UI 스타일 킷 프레임워크를 구축할 수 있습니다. 이는 버튼, 텍스트, 입력란, 타이포그래피와 같은 모든 UI 위젯들의 저장소가 될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/BlueprintofModernReactNativeAppArchitecture_4.png)
 
@@ -84,7 +135,18 @@ Native Core 라이브러리는 제품의 다양한 사용 사례를 고려하여
 - 텍스트 버튼
 - 아이콘 버튼
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![BlueprintofModernReactNativeAppArchitecture_5](/assets/img/BlueprintofModernReactNativeAppArchitecture_5.png)
 
@@ -118,7 +180,18 @@ export const defaultTheme: Theme = {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![BlueprintofModernReactNativeAppArchitecture_6](/assets/img/BlueprintofModernReactNativeAppArchitecture_6.png)
 
@@ -128,11 +201,33 @@ export const defaultTheme: Theme = {
 
 오프라인 우선 설계와 연결 불안정 처리
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용자가 앱과 상호작용하는 모든 내용을 기록하는 로거 모듈을 사용할 수 있습니다. 또한 실시간 디버깅 또는 경고 및 모니터링을 통해 앱의 높은 신뢰성을 유지할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![텍스트](/assets/img/BlueprintofModernReactNativeAppArchitecture_8.png)
 
@@ -143,7 +238,18 @@ export const defaultTheme: Theme = {
 
 위에서 소개한 솔루션은 Splunk와 같은 모니터링 도구에서 알림을 받을 때 데이터를 수집할 수 있도록 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또한, 앱 내장 결함 탐지 메커니즘에서 보고된 문제를 캡처합니다. 이는 중요한 프로세스나 우리 운영팀이 식별한 문제에 해당합니다. 수집된 로그와 실시간 메트릭(자세한 내용은 아래에 나와 있음)을 사용하여 우리 팀은 데이터를 신속히 분석하여 문제 해결을 가속화할 수 있습니다.
 

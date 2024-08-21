@@ -3,16 +3,13 @@ title: "AI 에이전트들이 어디를 찾아야 하는지 알고 있어요 교
 description: ""
 coverImage: "/assets/img/2024-05-20-AIAgentsKnowWheretoLookACrossKnowledgeBaseSearchArchitecture_0.png"
 date: 2024-05-20 22:21
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-20-AIAgentsKnowWheretoLookACrossKnowledgeBaseSearchArchitecture_0.png
 tag: Tech
 originalTitle: "AI Agents Know Where to Look: A Cross Knowledge Base Search Architecture"
 link: "https://medium.com/better-programming/ai-agents-know-where-to-look-a-simple-cross-knowledge-base-search-architecture-60b3c6a9179b"
 isUpdated: true
 ---
-
-
-
 
 ## 대화형 챗봇을 만들기 위해 여러 AI 에이전트를 활용하는 방법에 도전해 봅시다! 🔎📚
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 이 기사를 끝까지 읽으면, AI 에이전트가 복잡한 작업을 보다 쉽게 처리하고 다양한 정보 소스로부터 가치 있는 통찰을 얻는 데 얼마나 큰 잠재력을 가지고 있는지에 대해 더 잘 이해하게 될 거에요. 기사가 너무 길어서 걱정이 된다면, 최종 아키텍처에 대한 간략한 미리보기를 제공해 드리겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-05-20-AIAgentsKnowWheretoLookACrossKnowledgeBaseSearchArchitecture_0.png)
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-05-20-AIAgentsKnowWheretoLookACrossKnowledgeBaseSearchArchitecture_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 문제는... 여러 조각의 텍스트와 대화할 수 있게 하는 방법이 무엇인가요? 다섯 권의 책이 있다고 가정해보세요. 질문이 있습니다. 각 "책"에 동일한 질문을 하되, 네 권이 별도로 "모르겠어"라고 대답하는 번거로운 과정일텐데요.
 
@@ -42,7 +61,18 @@ isUpdated: true
 
 그래서 아이디어는... 여러 지식 베이스에 관련이 있을 수 있는 단일 질문을 어떻게 하고 하나의 답변을 받을 수 있을까요? 그건 실제로 가능한 건지요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 기본 시맨틱 검색 앱
 
@@ -52,7 +82,18 @@ isUpdated: true
 
 여기서 사용자는 두 가지 입력을 기대합니다: 질문 자체와 질문할 관련 지식 베이스의 이름입니다. 일반적인 질문뿐만 아니라 관련 정보가 포함된 지식 베이스가 어느 것인지 알아야 합니다! 알고 계시면 좋지만, 모르겠다면 어떨까요? 어느 지식 베이스를 살펴볼 지 모르는 상태에서 간단한 질문을 하면 좋겠죠?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Selector Logic에 집중하기
 
@@ -62,7 +103,18 @@ Selector Logic은 꽤 간단합니다. 네임스페이스는 텍스트 말뭉치
 
 하지만 질문 자체를 기반으로 네임스페이스를 "추론"할 수 있다면 어떨까요? 그게 가능할까요? 단순한 일처럼 들리지 않나요? 다행히도, 이 힘든 작업을 AI에게 위임할 방법이 있을 수 있습니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 해결책: AI 에이전트!
 
@@ -72,11 +124,22 @@ addTwoNumbers 함수가 있다고 상상해 보세요. 이 함수는 다음과 �
 
 ```js
 const addTwoNumbers = (a, b) => {
-  return a + b
-}
+  return a + b;
+};
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단하죠. 그런데 이렇게도 해볼까요?
 
@@ -84,7 +147,7 @@ const addTwoNumbers = (a, b) => {
 const addTwoNumbers = async (a, b) => {
   const aiAgent = new openai("계산기 에이전트로서...");
   return (await aiAgent.chat(`add ${a} + ${b}`)).toNumber();
-}
+};
 ```
 
 너무 과한 느낌일 수도 있지만 😆, 이 개념은 여기서도 잘 적용됩니다. 함수의 논리를 작성하지 않았고, 단지 AI 프롬프트에 정보 몇 개를 제공했을 뿐이에요:
@@ -92,7 +155,18 @@ const addTwoNumbers = async (a, b) => {
 - 시스템 프롬프트 - "계산기 에이전트로서..."
 - 질문 - "a와 b를 더하세요".
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 보다 복잡한 함수가 있다고 상상해 보세요! 사실 코드에서 어려운 결정을 내리는 것을 대규모 언어 모델에 맡기고 있다는 거죠.
 
@@ -102,7 +176,18 @@ const addTwoNumbers = async (a, b) => {
 
 ![이미지](/assets/img/2024-05-20-AIAgentsKnowWheretoLookACrossKnowledgeBaseSearchArchitecture_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 다이어그램을보면 선택기 로직이 AI 에이전트로 대체되었음을 알 수 있습니다!
 
@@ -112,7 +197,18 @@ const addTwoNumbers = async (a, b) => {
 
 아래에서 에이전트에 공급한 원본 시스템 프롬프트를 볼 수 있습니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const systemPrompt = `당신은 주어진 질문에 대한 지식 베이스의 관련성을 결정하는 선택 요원입니다.
@@ -140,8 +236,18 @@ ${namespaceDescriptionMap
 
 ![다이어그램](/assets/img/2024-05-20-AIAgentsKnowWheretoLookACrossKnowledgeBaseSearchArchitecture_5.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 많은 에이전트들을 추가해봐요! 간단히 소개해볼게요.
 
@@ -151,7 +257,18 @@ ${namespaceDescriptionMap
 
 위 다이어그램에서, 선택자 에이전트가 특정 지식베이스를 관련이 있다고 판단하면, 벡터 데이터베이스에 대한 의미 검색이 수행되며 실제 관련 텍스트가 나옵니다. 이 텍스트는 사용자가 제공한 원시 질문 외에도 요약 에이전트에 전달됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이번에는 요약기 에이전트들이 시맨틱 검색으로 추출된 텍스트 조각들을 원문 질문에 대한 것으로 답하는 것처럼 요약하는 과정을 말이죠!
 
@@ -161,7 +278,18 @@ ${namespaceDescriptionMap
 
 위 다이어그램에 설명된 대로, 이 최종 에이전트는 활성화된 모든 요약기 에이전트들의 요약과 사용자 원문 질문을 받습니다. 이 에이전트의 출력물이 사용자에게 반환되는 정보입니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 질문과 대화로!
 
@@ -171,8 +299,18 @@ ${namespaceDescriptionMap
 
 아래 다이어그램에서 이 아키텍처 내에서 어떻게 위치하는지 확인해보세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-05-20-AIAgentsKnowWheretoLookACrossKnowledgeBaseSearchArchitecture_8.png)
 
@@ -183,8 +321,18 @@ QuestionRefiner agent is placed at the beginning of the pipeline and its main ta
 
 The QuestionRefiner agent uses the conversation history to refine the user's input question by adding context or clarifying the question based on previous exchanges. This refined question is then passed down to the Selector agent and subsequent pipeline.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전 대화 기록 캐시는 요구 사항에 따라 간단한 인메모리 저장소 또는 더 정교한 데이터 저장 시스템이 될 수 있습니다.
 
@@ -209,10 +357,22 @@ If the question is irrelevant or you dont know, preserve the question by returni
 - the current question
 
 Conversation History:
-${constructConversationHistoryPrompt(conversationHistory)}`};
+${constructConversationHistoryPrompt(conversationHistory)}`;
+};
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 앱이 동작 중입니다
 
@@ -222,7 +382,18 @@ ${constructConversationHistoryPrompt(conversationHistory)}`};
 
 멀티 지식베이스 QnA 챗봇을 만드는 방법을 탐험하는 데 정말 즐거웠어요. 이 글도 즐거웠으면 좋겠어요! 우리는 셀렉터 로직, 요약, 집계, 대화 이력에 따라 질문을 다듬는 데 다양한 AI 에이전트들과 놀았습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결과는 무엇인가요? 여러 지식 베이스에서의 질문을 다루면서 이전 상호 작용에서의 맥락을 추적할 수 있는 상당히 유연한 챗봇이 탄생했어요. 이 구조는 한 사이즈가 모두에게 맞는 해결책은 아니지만 탐구와 실험을 위한 환상적인 시작점이에요. 게다가 조정하고 더 발전시키기 충분히 간단해서 더 멋진 앱을 만들 수도 있어요! ⚡
 

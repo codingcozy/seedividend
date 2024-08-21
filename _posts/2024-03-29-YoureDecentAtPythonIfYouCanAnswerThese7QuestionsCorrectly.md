@@ -3,17 +3,13 @@ title: "파이썬 주니어 개발자 면접 질문 7가지"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Youre Decent At Python If You Can Answer These 7 Questions Correctly"
 link: "https://medium.com/@zlliu/youre-decent-at-python-if-you-can-answer-these-7-questions-correctly-7de5e8279e7f"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/YoureDecentAtPythonIfYouCanAnswerThese7QuestionsCorrectly_0.png)
 
@@ -28,7 +24,18 @@ def testing():
 
 이건 뭘 하는 거야?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - A) 문법 오류입니다. Python에는 @라는 것이 없습니다.
 - B) 이것은 testing()을 호출할 때 자동으로 1000을 인쇄합니다.
@@ -45,7 +52,18 @@ print(_)
 
 이것은 무엇을 출력합니까?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - A) 구문 오류
 - B) [3, 4, 5]
@@ -62,7 +80,18 @@ print(__, _)
 
 이 코드는 무엇을 출력할까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - A) 문법 오류
 - B) [1] [4, 5, 6]
@@ -84,7 +113,18 @@ dog = Dog('rocky', 5)
 
 이것이 어떤 오류를 일으키나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - A) 오류 없음
 - B) ZeroDivisionError
@@ -102,7 +142,18 @@ dog = Dog('rocky', 5)
 - D) 한 번에 하나의 스레드만 인터프리터에서 실행할 수 있는 요소입니다.
 - E) Python 인터프리터가 코드를 더 빠르게 실행할 수 있도록 하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 6) True = False
 
@@ -121,7 +172,18 @@ print(not True, not False)
 - D) True True
 - E) False False
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 7) 컨텍스트 매니저
 
@@ -135,7 +197,18 @@ print(not True, not False)
 
 # 아래에 답이 있습니다!!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 답변!!
 
@@ -150,7 +223,18 @@ def testing():
 
 이것은 무엇을 하는 건가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - A) 문법 오류입니다. Python에는 @이라는 것이 없습니다.
 - B) 이것은 testing()을 호출할 때 자동으로 1000을 인쇄합니다.
@@ -170,7 +254,18 @@ testing = print(testing)
 
 print(testing)이 호출되면, `function testing at 0x1023e2340`가 인쇄됩니다. (끝의 난해한 숫자는 다를 수 있습니다)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 2) \*\_ ???
 
@@ -187,11 +282,22 @@ print(_)
 - D) `generator object `genexpr` at 0x1003847c0`
 - E) NameError: ‘\_’는 유효한 변수명이 아닙니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - \_은 유효한 변수 이름입니다.
 - a에는 1이, b에는 2가 할당됩니다 (튜플 언패킹).
-- * 앞에 \*를 붙이면 *가 여러 값을 "잡을" 수 있습니다 (0부터 무한대까지).
+- - 앞에 \*를 붙이면 \*가 여러 값을 "잡을" 수 있습니다 (0부터 무한대까지).
 - \_는 따라서 모든 미할당 숫자를 "잡아"낼 것입니다 — 3, 4, 5를 포함한 모든 숫자.
 - \_는 결국 [3, 4, 5]가 될 것입니다.
 
@@ -204,7 +310,18 @@ print(__, _)
 
 이 코드는 무엇을 출력할까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - A) 구문 오류
 - B) [1] [4, 5, 6]
@@ -226,7 +343,18 @@ class Dog:
 dog = Dog('rocky', 5)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 코드에서 발생하는 오류는 무엇입니까?
 
@@ -240,7 +368,18 @@ dog = Dog('rocky', 5)
 
 Dog(`rocky`, 5)는 **init**에 2개의 위치 인수를 전달하므로, args=(`rocky`, 5)이 되고, kwargs={} (여기에는 키워드 인수가 없음)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `args`, `kwargs` = `kwargs`, `args`는 `args`와 `kwargs`를 교환합니다. 따라서 이제 `args={}`이고 `kwargs=(`rocky`, 5)`입니다.
 
@@ -250,7 +389,18 @@ Dog(`rocky`, 5)는 **init**에 2개의 위치 인수를 전달하므로, args=(`
 
 Python Global Interpreter Lock(GIL)이란 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - A) Python 서버를 침입자로부터 안전하게 보호하는 물리적 잠금 장치
 - B) Python 인터프리터가 컴퓨터의 다른 프로세스로부터 데이터 누출을 방지하는 것
@@ -267,7 +417,18 @@ True = False;
 False = True;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 print(not True, not False)
@@ -283,7 +444,18 @@ print(not True, not False)
 
 True는 Python의 예약어이기 때문에 True에 아무것도 할당할 수 없습니다. 제대로 답변했기를 바랍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 7) 컨텍스트 매니저
 
@@ -305,7 +477,18 @@ print(file.read())
 file.close()
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약이를 실행하면 몇 가지 오류로 인해 file.close()가 실행되지 않을 수 있습니다. 파일을 닫지 않으면 다음과 같은 문제가 발생할 수 있습니다:
 
@@ -323,7 +506,18 @@ with open('hi.txt') as file:
 
 with 키워드를 사용하면 open('hi.txt')를 컨텍스트 매니저로 사용할 수 있습니다. 이는 컨텍스트가 시작될 때 **enter**가 실행되고, 컨텍스트가 종료될 때 **exit**가 실행된다는 것을 의미합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 알아두어야 할 점: 이것은 파일을 제대로 닫을 것입니다.
 
@@ -333,4 +527,15 @@ with 키워드를 사용하면 open('hi.txt')를 컨텍스트 매니저로 사�
 
 다 맞추지 못했다고 해서 당신이 패배자라는 뜻은 아닙니다. 그저 1) 어딘가 부주의했거나 2) 아직 파이썬에 익숙하지 않은 것 뿐일 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

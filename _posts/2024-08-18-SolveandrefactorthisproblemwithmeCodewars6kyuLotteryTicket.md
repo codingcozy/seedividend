@@ -3,7 +3,7 @@ title: "Lottery Ticket Codewars 6kyu 알고리즘 풀기"
 description: ""
 coverImage: "/assets/img/2024-08-18-SolveandrefactorthisproblemwithmeCodewars6kyuLotteryTicket_0.png"
 date: 2024-08-18 11:41
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-18-SolveandrefactorthisproblemwithmeCodewars6kyuLotteryTicket_0.png
 tag: Tech
 originalTitle: "Solve and refactor this problem with me Codewars 6kyu Lottery Ticket"
@@ -12,17 +12,31 @@ isUpdated: true
 updatedAt: 1724032816620
 ---
 
-
 <img src="/assets/img/2024-08-18-SolveandrefactorthisproblemwithmeCodewars6kyuLotteryTicket_0.png" />
 
 리팩터링은 기능을 변경하지 않고 코드를 다시 작성하는 것을 의미합니다. Codewars의 이 연습 문제(링크: https://www.codewars.com/kata/57f625992f4d53c24200070e/train/ruby)에서는 초기 솔루션을 어떻게 리팩터링했는지를 보여줄 거에요(그런데 함께 고민해보고 싶네요, Ruby, Python 또는 다른 프로그래밍 언어로 작업할 수 있어요). 이게 문제 설명이에요.
 
 복권 티켓(티켓)이 주어지는데, 이는 2 값 배열들의 배열로 표현됩니다. 당첨금을 받았는지 확인해야 해요. 예시 티켓:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-[ [ 'ABC', 65 ], [ 'HGR', 74 ], [ 'BYHT', 74 ] ]
+[
+  ["ABC", 65],
+  ["HGR", 74],
+  ["BYHT", 74],
+];
 ```
 
 이를 위해 먼저 티켓에서 '미니 당첨'을 세어야 합니다. 각 하위 배열에는 문자열과 숫자가 모두 포함되어 있습니다. 문자열 내의 어떤 문자의 문자 코드가 숫자와 일치하면 미니 당첨을 받습니다. 주의: 서브 배열 당 미니 당첨은 한 번만 받을 수 있습니다.
@@ -31,7 +45,18 @@ updatedAt: 1724032816620
 
 모든 입력값은 올바른 형식으로 제공됩니다. 티켓의 문자열은 항상 같은 길이가 아닐 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테스트 케이스 및 예상 결과:
 
@@ -56,7 +81,18 @@ p get_jackpot_results([['HGTYRE', 74], ['BE', 66], ['JKTY', 74]], 3) == 'Loser!'
 # -미니-승리 수가 동일하거나 크면, 메소드는 'Winner!'을 반환하고, 그렇지 않으면 'Loser!'를 반환합니다
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그런 다음, 문제를 이해했는지 확인하기 위해 예시를 분석했습니다(1개의 예시 실제로만):
 
@@ -68,7 +104,7 @@ p get_jackpot_results([['HGTYRE', 74], ['BE', 66], ['JKTY', 74]], 3) == 'Loser!'
 # ['ABC', 65]
 # 'ABC'를 분석합니다 ->, ASCII 코드 'A', 'B' 및 'C'를 'ord' 메소드를 사용하여 확인합니다
 # 'A' -> 65 -> 미니 당첨입니다. 더 분석할 필요 없음(티켓당 미니 당첨은 1회만 가능)
-# 
+#
 # ['HGR', 74]
 # 'HGR'를 분석합니다 ->
 # 'H' -> 72
@@ -105,7 +141,18 @@ p get_jackpot_results([['HGTYRE', 74], ['BE', 66], ['JKTY', 74]], 3) == 'Loser!'
 # - 점수가 같거나 더 크면 'Winner!'를 반환, 아니면 'Loser!'를 반환
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 알고리즘에 따라 첫 번째 솔루션을 코딩했어요:
 
@@ -168,7 +215,18 @@ p get_jackpot_results([['ABC', 65], ['HGR', 74], ['BYHT', 74]], 1) == 'Winner!'
 p get_jackpot_results([['HGTYRE', 74], ['BE', 66], ['JKTY', 74]], 3) == 'Loser!'
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 별로 많이 바뀐 부분은 없지만, 단어를 2개 지워서 코드를 간소화하겠어요. 코드를 보고 있으니 아이디어가 떠오르네요 (주석으로 표현):
 
@@ -198,7 +256,18 @@ p get_jackpot_results([['HGTYRE', 74], ['BE', 66], ['JKTY', 74]], 3) == 'Loser!'
 
 제가 그것을 구현한 방법은 다음과 같다고 해요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 def calculate_mini_win(inner_ticket)
@@ -222,8 +291,17 @@ end
 
 의자에 기대어, 만족스럽게 현재 순간을 즐기고 있어요. 알고 있어요, 이 순간은 오래가지 않을 거란 걸. 왜냐하면 지금 이제 난 다른 사람들의 솔루션을 살펴보게 될 거니까, 분명 나도 그 중에서 내가 왜 그렇게 생각 못했을까하는 것을 발견하리라는 걸 알면서요. 그래서 그래요, c0nspiracy의 솔루션을 발견했어요:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 표를 마크다운 형식으로 변경하실래요.

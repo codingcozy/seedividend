@@ -3,16 +3,13 @@ title: "리스코프 치환 원칙은 복잡하지 않아요 한 번 시도해 �
 description: ""
 coverImage: "/assets/img/2024-06-20-LiskovSubstitutionPrincipleIsntComplexJustGiveItaTry_0.png"
 date: 2024-06-20 07:26
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-LiskovSubstitutionPrincipleIsntComplexJustGiveItaTry_0.png
 tag: Tech
 originalTitle: "Liskov Substitution Principle Isn’t Complex. Just Give It a Try"
 link: "https://medium.com/better-programming/liskov-substitution-principle-isnt-complex-just-give-it-a-try-d4f84093ca5f"
 isUpdated: true
 ---
-
-
-
 
 ## 리스코프 치환 원칙을 더 잘 이해할 수 있는 가이드
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 우리 모두가 알다시피, 소프트웨어 요구 사항은 항상 변합니다. 그리고 우리 개발자로서는 이러한 변경으로 기존 코드가 망가지지 않도록 해야 합니다. 그래서 객체지향 설계에서 SOLID 원칙이 소개되었습니다. 이를 통해 이 프로세스를 더 쉽게 할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SOLID 원칙은 로버트 C. 마틴 (Bob 삼촌)이 만든 원칙 세트입니다. 이 원칙들은 더 유연하고 유지보수 가능하며 이해하기 쉬운 소프트웨어를 만드는 데 도움을 줍니다. 이 원칙들은 다음과 같습니다:
 
@@ -36,7 +44,18 @@ SOLID 원칙은 로버트 C. 마틴 (Bob 삼촌)이 만든 원칙 세트입니�
 
 # 정의
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 수학적으로 LSP의 정의를 소개하고 자세히 알아보겠습니다. Barbara Liskov는 1988년에 이를 도입했습니다.
 
@@ -46,7 +65,18 @@ SOLID 원칙은 로버트 C. 마틴 (Bob 삼촌)이 만든 원칙 세트입니�
 
 하지만 이것이 의미하는 바는 무엇일까요? 간단히 말해, 슈퍼타입은 서브타입으로 대체될 수 있어야 하며 기존 코드를 망가뜨리지 않고 대체될 수 있어야 합니다. 다시 말해, 슈퍼타입은 서브타입과 동일하게 동작해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼 어떻게 우리가 슈퍼타입을 서브타입으로 교체해도 기존 코드에 부작용이 없는지 보장할 수 있을까요?
 
@@ -56,7 +86,18 @@ SOLID 원칙은 로버트 C. 마틴 (Bob 삼촌)이 만든 원칙 세트입니�
 
 우리가 보게 되겠지만, LSP는 Open-Closed 원칙을 확장하며, OCP의 규칙을 따르는 것만으로는 코드가 확장을 허용하고 수정을 닫는지 보장할 수 없습니다. 하지만 코드는 부작용을 피하기 위해 리스코프 치환 원칙에도 준수해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 이 점을 더 잘 이해하는 데 도움이 되는 예시입니다:
 
@@ -66,7 +107,18 @@ SOLID 원칙은 로버트 C. 마틴 (Bob 삼촌)이 만든 원칙 세트입니�
 
 좋아 보이네요. 그러나 한 가지 질문이 있습니다. 게스트 역할을 어떻게 구현하겠습니까? 네, 게스트 역할은 listPosts를 수행할 수 있지만, 게스트 직원에 대한 인증이 없으므로 로그인 기능을 어떻게 처리할지 궁금합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 텍스트를 번역해 드리겠습니다.
 
@@ -79,7 +131,18 @@ SOLID 원칙은 로버트 C. 마틴 (Bob 삼촌)이 만든 원칙 세트입니�
 - 기능이 없이 빈칸으로 남겨 둘 경우: 이제 클라이언트 코드는 인증된 사용자 토큰을 반환하는 로그인 함수를 기대합니다. 아무것도 반환하지 않는 Guest.login을 사용하면 어떻게 될까요? 기존 코드가 망가질 거예요, 맞죠?
 - 지원되지 않는 예외를 throw하는 경우: 다시 말해서, 기존 코드는 Guest.login으로부터 이 새로운 예외를 처리하지 않습니다. 결과적으로 Guest.login을 사용하면 기존 코드가 망가질 거예요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 의왕 교체하신 것에 깜짝 놀랐네요! 요 디자인은 OCP를 완벽하게 따르고 있어요. 그러나 LSP를 위반하고 있군요.
 
@@ -89,7 +152,18 @@ SOLID 원칙은 로버트 C. 마틴 (Bob 삼촌)이 만든 원칙 세트입니�
 
 아쉽게도 이 원칙을 코드에 강제로 적용하는 쉬운 방법은 없어요. 그러나 코드에서 이 원칙을 올바르게 적용하려면 두 가지 유형의 규칙, 즉 서명과 동작을 따라야 해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자바와 같은 컴파일된 언어를 사용하여 서명 규칙을 강제할 수는 있지만 행동 규칙을 강제할 수는 없습니다. 대신 특정 동작을 강제하기 위해 검사를 구현해야 합니다.
 
@@ -99,7 +173,18 @@ SOLID 원칙은 로버트 C. 마틴 (Bob 삼촌)이 만든 원칙 세트입니�
 
 클라이언트 코드가 SuperType에서 문자열 인수만 예상한다면, 해당 SuperType을 문자열 또는 숫자 인수 (더 넓은)를 허용하는 SubType으로 대체하면 클라이언트 코드에는 차이점이 없습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 반환 유형의 공변성: 보다 일반적인 유형에서 보다 구체적인 유형으로 변환됩니다. 다시 말해, 오버라이드된 서브유형 메서드의 반환 유형은 수퍼유형이나 더 좁은 유형과 같아야 합니다.
 
@@ -109,7 +194,18 @@ SOLID 원칙은 로버트 C. 마틴 (Bob 삼촌)이 만든 원칙 세트입니�
 
 이전 규칙과 마찬가지로, 클라이언트 코드가 슈퍼유형에 더 많은 예외를 처리하도록 의존한다면, 이 슈퍼유형을 더 적은 예외를 처리하는 서브유형으로 대체한다 해도 클라이언트 코드에는 차이가 없을 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 그 다음, 행동 규칙을 소개할게요
 
@@ -119,17 +215,39 @@ SOLID 원칙은 로버트 C. 마틴 (Bob 삼촌)이 만든 원칙 세트입니�
 
 2. 이력 제약 (속성 규칙): 서브타입 메서드는 슈퍼타입이 허용하지 않는 상태 변경을 허용해서는 안 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만일 SubType이 상속받은 제약을 무시한다면, 이는 이러한 제약에 의존하는 클라이언트 코드를 손상시킬 수 있습니다. 따라서 SubType은 SuperType으로 대체될 수 없습니다.
 
 2. 사전조건 (메서드 규칙): 서브타입 메서드는 오버라이드된 수퍼타입 메서드의 사전조건을 보존하거나 약화해야 합니다. 여기서 조건을 약화한다면 그 제약을 완화합니다.
 
-이전 예제에서, SuperType 조건 hour ` 0 && hour ` 12가 적용된 시간 입력을 제공하는 클라이언트 코드는 SubType에서 시간 ` 0 && 시간 ` 23의 더 넓은 범위를 적용받습니다. 다시 말해, 부작용 없이 SubType이 SuperType을 대체할 수 있습니다.
+이전 예제에서, SuperType 조건 hour `0 && hour` 12가 적용된 시간 입력을 제공하는 클라이언트 코드는 SubType에서 시간 `0 && 시간` 23의 더 넓은 범위를 적용받습니다. 다시 말해, 부작용 없이 SubType이 SuperType을 대체할 수 있습니다.
 
 3. 사후조건 (메서드 규칙): 서브타입 메서드는 오버라이드된 수퍼타입 메서드의 사후조건을 보존하거나 강화해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전 예제처럼 SuperType으로부터 반환된 값의 최댓값이 50이라고 클라이언트 코드가 기대한다면, 이를 SubType으로 변경하여 30의 최댓값을 반환하는 값으로 대체하면 유효해질 것입니다.
 
@@ -139,7 +257,18 @@ SOLID 원칙은 로버트 C. 마틴 (Bob 삼촌)이 만든 원칙 세트입니�
 
 처음에는 Liskov 치환 원칙이 상속에 관한 모든 것이라고 생각할 수 있지만, 그렇지 않습니다. 이 원칙을 배우는 동안 많이 혼란스러웠기 때문에 이 점을 강조하기 위해 별도의 섹션을 할애하는 것을 선호했습니다. LSP는 상속을 사용할 때만 적용할 수 있다고 생각했었죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리스코프 치환 원칙은 상속과는 아무런 관련이 없습니다. LSP는 단순히 서브타이핑에 관한 것입니다. 그럼에도 불구하고, 이 서브타이핑은 상속이나 합성에서 나올 수 있습니다. LSP는 상속과는 관련이 없기 때문에 상속을 사용하든 말든 LSP가 적용되는지 여부는 중요하지 않습니다. StackExchange의 이 해결책을 살펴보세요.
 
@@ -149,7 +278,18 @@ SOLID 원칙은 로버트 C. 마틴 (Bob 삼촌)이 만든 원칙 세트입니�
 
 ![이미지](/assets/img/2024-06-20-LiskovSubstitutionPrincipleIsntComplexJustGiveItaTry_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가장 일반적인 LSP 위반 사례를 소개하고 LSP를 준수하도록 다시 디자인해보겠습니다.
 
@@ -159,7 +299,18 @@ SOLID 원칙은 로버트 C. 마틴 (Bob 삼촌)이 만든 원칙 세트입니�
 
 코드에서 보듯이 이 루프는 직원 유형에 따라 두 가지 다른 기능을 수행합니다. 그러나 이 구현에서 어떤 문제가 있는 것일까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 번 더 생각해보세요. 여기서 첫 번째 문제는 직원과 작업할 때마다, 특정 기능을 실행하기 위해 이 직원이 '게스트' 유형인지를 확인해야 할 수도 있다는 것입니다. 또 다른 유형인 경우 다른 기능을 실행해야 할 수도 있습니다.
 
@@ -169,7 +320,18 @@ SOLID 원칙은 로버트 C. 마틴 (Bob 삼촌)이 만든 원칙 세트입니�
 
 ## 2. Null checking
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그것은 형식 검사와 동일한 동작을 갖습니다. 아래 예제를 확인해보세요. Guest 유형을 확인하는 대신, 이처럼 null 값에 대해 확인하고 있습니다. (employee === null) 이것은 LSP를 위반합니다.
 
@@ -179,7 +341,18 @@ SOLID 원칙은 로버트 C. 마틴 (Bob 삼촌)이 만든 원칙 세트입니�
 
 이것은 인터페이스나 기본 클래스의 부분적 구현으로 인해 발생하는 일반적인 문제입니다. "LSP extends OCP" 섹션의 예제를 다시 살펴보세요. Guest 하위 유형의 login 메소드에서는 IEmployee 인터페이스 (상위 유형)를 완전히 구현할 수 없기 때문에 Not Implemented Exception을 던져야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 문제의 해결책은 수퍼타입을 완전히 구현하는 것입니다. 이것이 인터페이스인지 기본 클래스인지에 상관없이요.
 
@@ -189,7 +362,18 @@ SOLID 원칙은 로버트 C. 마틴 (Bob 삼촌)이 만든 원칙 세트입니�
 
 이 글에서는 리스코프 치환 원칙을 소개했습니다. LSP가 객체 지향 설계에 새로운 제약 조건을 추가한다는 것을 이해했습니다. 이것은 관계만으로는 충분하지 않고 서브타입이 수퍼타입을 대체할 수 있는지 확인해야 한다는 것을 말합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해당 원칙을 올바르게 적용하기 위해 따라야 하는 규칙을 알고 계셨습니다. 그리고 이러한 규칙은 서명 및 행동 규칙으로 분류할 수 있습니다.
 
@@ -199,7 +383,18 @@ SOLID 원칙은 로버트 C. 마틴 (Bob 삼촌)이 만든 원칙 세트입니�
 
 만일 이 글이 유용하다고 느끼셨다면, 아래의 글도 함께 확인해보세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 단일 책임 원칙을 정말로 이해하고 계신가요?
 - 개방-폐쇄 원칙: 어려운 부분
@@ -212,7 +407,18 @@ SOLID 원칙은 로버트 C. 마틴 (Bob 삼촌)이 만든 원칙 세트입니�
 
 # 참고문헌
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - C# 개발자를 위한 SOLID 원칙
 - 자바에서의 Liskov 대체 원칙

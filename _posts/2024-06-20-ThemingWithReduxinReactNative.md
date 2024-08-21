@@ -3,16 +3,13 @@ title: "리액트 네이티브에서 Redux를 이용한 테마 설정"
 description: ""
 coverImage: "/assets/img/2024-06-20-ThemingWithReduxinReactNative_0.png"
 date: 2024-06-20 00:06
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-ThemingWithReduxinReactNative_0.png
 tag: Tech
 originalTitle: "Theming With Redux in React Native"
 link: "https://medium.com/@banjolakunri/theming-with-redux-in-react-native-f321037e82f0"
 isUpdated: true
 ---
-
-
-
 
 ![image](/assets/img/2024-06-20-ThemingWithReduxinReactNative_0.png)
 
@@ -22,7 +19,18 @@ Theming은 현대 앱의 주요 부분이 되어, 사용자 맞춤화 기능을 
 
 Redux로 Theming을 하는 이유는 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리덕스는 사용자가 상태를 중앙에서 조직적으로 관리할 수 있도록 도와주는 상태 관리 라이브러리입니다. 리덕스는 애플리케이션 상태를 저장하는 저장소 역할을 하며, 사용자는 이 저장소로 읽기, 업데이트 또는 액션을 전달할 수 있습니다. 리액트 컨텍스트, 리액트 쿼리 등 다른 더 쉬운 옵션이 있지만, 사용자를 위해 상태 관리를 간단하게 만드는 목적으로 이 글을 리덕스로 작성했습니다.
 
@@ -34,7 +42,18 @@ Redux로 Theming을 하는 이유는 무엇인가요?
 
 이 프로젝트를 작성하는 시점을 기준으로, React Native 버전인 0.72.7, TypeScript 버전인 4.8.4, Node 버전인 16.17.1, 그리고 NPM 버전인 8.15.0을 사용할 것입니다. 사용할 리덕스 패키지 버전은 다음과 같습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - "redux": "5.0.1",
 - "redux-logger": "3.0.6",
@@ -53,7 +72,18 @@ Redux로 Theming을 하는 이유는 무엇인가요?
 
 전제 조건
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Javascript, Typescript, React Native 및 Redux에 대한 지식이 있습니다.
 - 위의 패키지가 설치되었습니다.
@@ -69,7 +99,18 @@ npm i redux redux-logger redux-persist @react-native-async-storage/async-storage
 yarn add redux redux-logger redux-persist @react-native-async-storage/async-storage
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 색구성 만들기
 
@@ -96,53 +137,50 @@ export interface ColorProps {
   gradientColor: string;
 }
 export const Colors: ColorProps = {
-  screenColor: '#E5E5E5',
-  primaryTextColor: '#000000',
-  lighterBlack: '#FFFFFF',
-  secondaryTextColor: '#FFFFFF',
-  tertiaryTextColor: '#FFFFFF',
-  gradientColor: '#61D2C4',
-  tabColor: '#FFFFFF',
-  ratingIconColor: '#FFCD00',
-  primary: '#2DDA93',
-  disabledButtonColor: '#AAAAAA',
-  onboardingInactiveIconColor: '#DBDBDB',
-  inActiveUnderlineTextInputColor: '#A7A7A7',
-  lightPrimaryColor: '#61D2C4',
-  tabBarTextColor: '#D2D2D2',
-  whiteColor: '#FFFFFF',
-  favouriteButtonColor: '#FF6262',
-  addPhotoButtonColor: '#48A2F5',
+  screenColor: "#E5E5E5",
+  primaryTextColor: "#000000",
+  lighterBlack: "#FFFFFF",
+  secondaryTextColor: "#FFFFFF",
+  tertiaryTextColor: "#FFFFFF",
+  gradientColor: "#61D2C4",
+  tabColor: "#FFFFFF",
+  ratingIconColor: "#FFCD00",
+  primary: "#2DDA93",
+  disabledButtonColor: "#AAAAAA",
+  onboardingInactiveIconColor: "#DBDBDB",
+  inActiveUnderlineTextInputColor: "#A7A7A7",
+  lightPrimaryColor: "#61D2C4",
+  tabBarTextColor: "#D2D2D2",
+  whiteColor: "#FFFFFF",
+  favouriteButtonColor: "#FF6262",
+  addPhotoButtonColor: "#48A2F5",
 };
 
 export const DarkColors: ColorProps = {
-  primaryTextColor: '#FFFFFF',
-  tertiaryTextColor: '#1E1E1E',
-  secondaryTextColor: '#F5F5F5',
-  screenColor: '#1B1C1E',
-  lighterBlack: '#777777',
-  tabColor: '#FFFFFF',
-  ratingIconColor: '#FFCD00',
-  primary: '#2DDA93',
-  disabledButtonColor: '#AAAAAA',
-  lightPrimaryColor: '#61D2C4',
-  gradientColor: '#1B1C1E',
-  onboardingInactiveIconColor: '#DBDBDB',
-  inActiveUnderlineTextInputColor: '#A7A7A7',
-  tabBarTextColor: '#D2D2D2',
-  whiteColor: '#FFFFFF',
-  favouriteButtonColor: '#FF6262',
-  addPhotoButtonColor: '#48A2F5',
+  primaryTextColor: "#FFFFFF",
+  tertiaryTextColor: "#1E1E1E",
+  secondaryTextColor: "#F5F5F5",
+  screenColor: "#1B1C1E",
+  lighterBlack: "#777777",
+  tabColor: "#FFFFFF",
+  ratingIconColor: "#FFCD00",
+  primary: "#2DDA93",
+  disabledButtonColor: "#AAAAAA",
+  lightPrimaryColor: "#61D2C4",
+  gradientColor: "#1B1C1E",
+  onboardingInactiveIconColor: "#DBDBDB",
+  inActiveUnderlineTextInputColor: "#A7A7A7",
+  tabBarTextColor: "#D2D2D2",
+  whiteColor: "#FFFFFF",
+  favouriteButtonColor: "#FF6262",
+  addPhotoButtonColor: "#48A2F5",
 };
 const themes = {
-  light: {...Colors},
-  dark: {...DarkColors},
+  light: { ...Colors },
+  dark: { ...DarkColors },
 };
 
-export const getThemeColor = (
-  theme: 'light' | 'dark' = 'light',
-  useSystemTheme?: 'light' | 'dark',
-) => {
+export const getThemeColor = (theme: "light" | "dark" = "light", useSystemTheme?: "light" | "dark") => {
   const themeMode = themes[theme];
   return themeMode;
 };
@@ -150,7 +188,18 @@ export const getThemeColor = (
 
 더 진행하기 전에, store, action 및 reducer는 무엇인가요? 간단히 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어딘가에서 배운 상인의 비유를 사용해 보자. 좋은 걸로 알고 있어.
 
@@ -162,24 +211,35 @@ export const getThemeColor = (
 
 ![image](/assets/img/2024-06-20-ThemingWithReduxinReactNative_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 미리 정의된 유형과 초기 테마 상태를 정의해 봅시다 (이 기능은 더 큰 앱의 일부이므로 혼란스러워하지 않도록 이렇게 하고 있어요). 상태 매개변수에 초기 상태를 기본값으로 전달하는 것이 중요합니다. 이렇게 함으로써 상태가 정의되지 않은 경우 첫 번째로 리듀서를 호출할 때 처리할 수 있습니다.
 
 ```js
 export default {
-  TOGGLE_STATUS: 'Toggle',
+  TOGGLE_STATUS: "Toggle",
 };
 export type ThemeData = {
-  theme: 'light' | 'dark' | 'system';
+  theme: "light" | "dark" | "system",
 };
 const initialState: ThemeData = {
-  theme: 'light',
+  theme: "light",
 };
 ```
 
 이제 액션(고객)을 만들어 봅시다.
-먼저 액션 생성자부터 시작할게요 - 액션을 반환하는 함수(유형, 페이로드)를 반환하고, 페이로드를 새로운 테마로 설정하여 나중에 컴포넌트에서 디스패치할 것입니다. 
+먼저 액션 생성자부터 시작할게요 - 액션을 반환하는 함수(유형, 페이로드)를 반환하고, 페이로드를 새로운 테마로 설정하여 나중에 컴포넌트에서 디스패치할 것입니다.
 
 ```js
 export const toggleTheme = (newTheme: string) => {
@@ -190,20 +250,28 @@ export const toggleTheme = (newTheme: string) => {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희 상태를 업데이트하기 위한 reducer를 생성 중입니다 (상점 주인님)
 
 여기서 이전 상태를 가져오고 이를 이전 상태가 없는 경우 초기 상태로 설정하는데 사용합니다. 그런 다음 액션에서 전달된 테마 값을 새 상태로 반환합니다. 여기서 액션은 'type, payload'로 구조화되어 있습니다. 타입이 없는 경우에는 이전 상태를 기본 블록에 전달합니다. 이 동작은 새로운 테마 모드로 상태를 업데이트합니다.
 
 ```js
-const toggleThemeReducer = (
-  state: ThemeData = initialState,
-  {type, payload}: {type: string; payload: any},
-) => {
+const toggleThemeReducer = (state: ThemeData = initialState, { type, payload }: { type: string, payload: any }) => {
   switch (type) {
     case types.TOGGLE_STATUS:
-      return {...state, theme: payload};
+      return { ...state, theme: payload };
     default:
       return state;
   }
@@ -212,7 +280,18 @@ const toggleThemeReducer = (
 
 리덕스 스토어 설정 중입니다
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 와, 그것은 쉬운 부분이었네요. 이제 더 쉬운 부분으로 넘어가겠습니다. (다만 좀 더 신경 써야 할 수도 있어요 :-)).
 
@@ -224,7 +303,18 @@ export type ThemeState = ReturnType<typeof toggleThemeReducer>;
 
 그런 다음에는 우리의 toggleThemeReducer 주위에 래퍼 역할을 하는 루트 리듀서를 가지고 있어요. 그 루트 리듀서는 redux-persist를 사용할 때 지속 상태를 처리하는 데 도움을 줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const rootReducer = (state: ThemeState | undefined, action: any) => {
@@ -237,9 +327,9 @@ const rootReducer = (state: ThemeState | undefined, action: any) => {
 
 ```js
 const persistConfig = {
-  key: 'root',
+  key: "root",
   storage: AsyncStorage,
-  whitelist: ['theme'],
+  whitelist: ["theme"],
 };
 
 const persistedReducer = persistReducer(persistConfig, rootReducer);
@@ -247,9 +337,18 @@ const persistedReducer = persistReducer(persistConfig, rootReducer);
 
 이제 저장소를 설정하고 이 저장소를 지속해야 합니다. 지속된 리듀서를 사용하여 저장소를 생성하면 테마 상태를 지속하고 다시 살립니다. 지속된 저장소(persistor)는 persistStore와 Redux 저장소를 사용하여 만듭니다. 이 persistor는 필요할 때 상태를 수동으로 보존하고 다시 살릴 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 상태 = createStore(
@@ -273,7 +372,18 @@ middleware = [reduxlogger];
 );
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Redux Logger: 이것은 모든 Redux 액션과 상태 변경을 콘솔에 로그로 남기는 개발 도구입니다. 이는 디버깅 목적으로 매우 유용한데, 액션의 흐름을 추적하고 그에 따라 상태가 어떻게 업데이트되는지 확인할 수 있기 때문입니다.
 
@@ -287,7 +397,7 @@ GROUP  action persist/PERSIST @ 16:15:46.681
 LOG    prev state {"theme": {"theme": "light"}
 LOG    action     {"register": [Function register], "rehydrate": [Function rehydrate], "type": "persist/PERSIST"}
 LOG    next state {"_persist": {"rehydrated": false, "version": -1}, "theme": {"theme": "light"}
-LOG    {"theme": {"theme": "light"} 재수행상태 
+LOG    {"theme": {"theme": "light"} 재수행상태
 LOG    {"_persist": {"rehydrated": true, "version": -1}, "theme": {"theme": "dark"} 페이로드 {"theme": "light"} 상태
 GROUP  action persist/REHYDRATE @ 16:15:46.923
 LOG    prev state {"_persist": {"rehydrated": false, "version": -1}, "theme": {"theme": "light"}
@@ -295,7 +405,18 @@ LOG    action     {"err": undefined, "key": "root", "payload": {"_persist": {"re
 LOG    next state {"_persist": {"rehydrated": true, "version": -1}, "theme": {"theme": "dark"}
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기에서 무슨 일이 일어나고 있는 거죠?
 
@@ -305,9 +426,9 @@ LOG    next state {"_persist": {"rehydrated": true, "version": -1}, "theme": {"t
 
 ```js
 const persistConfig = {
-  key: 'root',
+  key: "root",
   storage: AsyncStorage,
-  whitelist: ['theme'],
+  whitelist: ["theme"],
 };
 
 const rootReducer = (state: ThemeState | undefined, action: any) => {
@@ -317,16 +438,24 @@ const rootReducer = (state: ThemeState | undefined, action: any) => {
 
 const persistedReducer = persistReducer(persistConfig, rootReducer);
 
-export const store = createStore(
-  persistedReducer,
-  applyMiddleware(...middlewares),
-);
+export const store = createStore(persistedReducer, applyMiddleware(...middlewares));
 export const persistor = persistStore(store);
 
 export type RootState = ReturnType<typeof rootReducer>; // 사전 정의된 이 유형 추론을 돕기 위한 것.
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리 컴포넌트와 함께 이들 저장된 상태를 사용합니다.
 
@@ -442,20 +571,31 @@ export default DropDown;
 
 위에 무슨 일이 발생했나요? "CustomTheme"을 선택했을 때, 현재 테마의 값을 확인한 후, 테마를 번갈아가며 변경합니다. 그러나 "system" 옵션을 선택하면 폰의 기본 테마를 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시스템 기본 테마 사용하기
 
 마지막으로 시스템 테마를 사용하려면 useColorScheme 훅을 활용할 수 있습니다. 이 훅은 기기에서 현재 사용 중인 색상테마에 대한 업데이트를 제공합니다. colors.tsx 파일에서 getThemeColor 함수를 수정해봅시다.
 
 ```js
-export const getThemeColor = (theme: 'light' | 'dark' = 'light') => {
-  const systemTheme = useColorScheme() || 'light';
+export const getThemeColor = (theme: "light" | "dark" = "light") => {
+  const systemTheme = useColorScheme() || "light";
   const userTheme = useSelector((state: RootState) => state.theme);
-  const {theme: storedTheme} = userTheme;
+  const { theme: storedTheme } = userTheme;
   let themeMode;
 
-  if (storedTheme === 'system') {
+  if (storedTheme === "system") {
     const themeMode = themes[systemTheme];
     return themeMode;
   } else {
@@ -467,11 +607,22 @@ export const getThemeColor = (theme: 'light' | 'dark' = 'light') => {
 
 아래의 코드를 사용하여 저장소에서 현재 테마 색상을 제공받아 원하는 동작을 구현하는데 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const userTheme = useSelector((state: RootState) => state.theme);
-const {theme} = userTheme;
+const { theme } = userTheme;
 const Colors = getThemeColor(theme);
 ```
 

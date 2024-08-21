@@ -3,17 +3,13 @@ title: "성능 개선을 위한 자바스크립트 최적화 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Forever Functional 35  Optimizing JavaScript Which Way"
 link: "https://medium.com/stackanatomy/forever-functional-35-optimizing-javascript-which-way-b51ae420b600"
 isUpdated: true
 ---
-
-
-
-
 
 이전 글에서는 긴 배열 작업을 최적화하기 위한 두 가지 다른 방법을 살펴보았어요... 그렇다면 어느 쪽이 더 나은 방법일까요? 실제 성능에 주목하지 않고 본다면, 트랜스듀서를 사용하는 첫 번째(매우 기능적인!) 솔루션이 복잡하고 이해하기 어려울 수 있지만, 더 직관적인 트랜스듀서 없이 구현된 솔루션은 길지만 명확할 수 있습니다.
 
@@ -25,7 +21,18 @@ isUpdated: true
 - 그 다음 시도를 몇 번해볼 거에요.
 - 마지막으로 여러가지 가능한 JavaScript 최적화 기술을 적용하고 결과를 측정하겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 글 끝까지 다 읽으면, 두 해결책 중 전체 속도 측면에서 어떤 것이 더 좋은지에 대해 좋은 아이디어를 갖게 될 거에요. 하지만 먼저, 문제와 그 해결책을 상기해 봅시다.
 
@@ -35,7 +42,18 @@ isUpdated: true
 
 ![이미지](/assets/img/ForeverFunctional35OptimizingJavaScriptWhichWay_0.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 좋은 아이디어는 변환 단계별이 아니라 값 단위로 진행하는 것입니다. 위 이미지 오른쪽에서 보여지는 것처럼 말이죠. 이렇게 하면 동일한 작업 횟수를 수행하지만 중간 배열이 필요 없어지고 시간을 절약할 수 있어요. 멋지죠!
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 대체 솔루션인 트랜스듀서 없는 방법은 간단한 루프를 사용하여 적용할 작업 배열 (fnList)과 각각을 매핑 ("M") 또는 필터링 ("F")으로 식별하는 방식으로 작동합니다. 자세한 내용은 이전 글을 확인하는 것이 좋습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const singlePassMoreGeneral = (
@@ -80,7 +109,18 @@ const singlePassMoreGeneral = (
 
 성능은 어떻게 측정합니까? 실제 정확한 타이밍을 얻어야합니다. 또한 코드의 성능은 사용할 함수 및 데이터에 크게 의존하기 때문에 단일 측정으로는 충분하지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전 글에서 고차 함수에 대해 다루었는데, 함수를 시간 측정을 보고하는 새로운 함수로 변환하는 방법을 소개했습니다. 그러나 정확히 필요한 것은 아닙니다. 유효한 측정값을 얻기 위해 무작위 데이터를 사용하여 여러 테스트를 실행해야 하므로 특정 실행에 대해 관심을 갖지 않고 모든 실행에 대한 시간을 누적해야 합니다.
 
@@ -90,7 +130,18 @@ const singlePassMoreGeneral = (
 
 좋아요, 그런데 당연히 물론, 이 정밀도가 필요한가요? 안타깝게도 그렇지 않습니다 - 그렇지만 이전에 사용하지 않은 BigInt 값으로 작업하고 싶었기 때문에 일단 진행했습니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시간 측정 코드는 매우 간단합니다: 코드를 실행하기 전과 후에 process.hrtime.bigint()의 값을 가져오고, 두 값의 차이가 필요한 시간입니다. 이제 우리가 시간을 측정하는 방법을 알았으니, 테스트 자체를 계획해 봅시다.
 
@@ -104,15 +155,22 @@ const duplicate = (x) => x + x;
 const testUnderFifty = (x) => x < 50;
 const addThree = (x) => x + 3;
 const myArray = [22, 9, 60, 24, 11, 63];
-const newArray = myArray
-  .filter(testOdd)
-  .map(duplicate)
-  .filter(testUnderFifty)
-  .map(addThree);
+const newArray = myArray.filter(testOdd).map(duplicate).filter(testUnderFifty).map(addThree);
 console.log(newArray); // [21,25]
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 랜덤 배열을 사용하여 작업할 것이며, 0~100 사이의 TEST_SIZE 항목이 있습니다. (값을 변경함으로써 다양한 크기의 테스트를 실행할 수 있도록 const를 사용하고 있습니다.) 또한 TRIALS번 실행하여 다양한 결과를 얻을 것이며, 모든 실행의 총 시간을 최종 측정값으로 삼겠습니다.
 
@@ -161,7 +219,18 @@ for (let i = 0; i < TRIALS; i++) {
 
 랜덤성의 영향을 최소화하고 더 나은 결과를 얻기 위해 TRIALS 번 실행할 것입니다. 작은 배열의 경우 모두 짧은 시간이 소요되므로 최적화가 큰 효과를 내지 못할 것이기 때문에 대규모 배열을 사용할 것입니다. 위와 같이 진행하기로 결정하였습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const TRIALS = 100;
@@ -173,13 +242,21 @@ const TEST_SIZE = 10_000_000;
 모든 구현이 올바른지 확실하게 확인하기 위해 결과를 일치시켰습니다. 구현이 버그가 있다면 즉시 알게 되었을 것입니다. 예를 들어, 2번째 계산 후에 다음을 추가했습니다:
 
 ```js
-console.assert(
-  JSON.stringify(result1st) === JSON.stringify(result2nd),
-  "test2nd"
-);
+console.assert(JSON.stringify(result1st) === JSON.stringify(result2nd), "test2nd");
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서, 이제 테스트를 진행하는 방법을 알게 되었어요. 결과를 얻기 시작합시다!
 
@@ -189,7 +266,18 @@ console.assert(
 
 ![ForeverFunctional35OptimizingJavaScriptWhichWay_1](/assets/img/ForeverFunctional35OptimizingJavaScriptWhichWay_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희는 "no-transducer" 버전을 최적화해 보아야 합니다. 함께 해보죠!
 
@@ -200,7 +288,18 @@ if 문을 피하도록 하여 세 번째 솔루션을 만들었습니다. every(
 - 매핑을 수행 중이면, 첫 번째 값을 업데이트하고 계속 루핑을 유지하기 위해 두 번째 값에 true를 반환합니다.
 - 필터링을 수행 중이면, 첫 번째 값(매핑되지 않음)을 유지하고 함수를 사용하여 true 또는 false를 반환할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const applyMap3 = (fn) => (value) => [fn(value), true];
@@ -237,7 +336,18 @@ const singlePassMoreGeneralNoIf = (
 
 이는 새로운 비교를 추가할 수 있었다는 의미였습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 start = process.hrtime.bigint();
@@ -256,7 +366,18 @@ accum3rd += process.hrtime.bigint() - start;
 
 이 기술을 사용하니 시간이 두 배로 늘어났어요. 아주 기능적인 아이디어가 있었을 수 있지만, 성능 면에서는 별 효과가 없었네요. 다른 방법을 시도해봅시다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 세 번째 실행: 루프 사용하기
 
@@ -290,7 +411,18 @@ const singlePassMoreGeneralWithLoops = (
 
 내부 루프에서 벗어나는 방법은 무엇일까요? every() 메서드는 조건이 충족되지 않을 때 중단됩니다. 같은 동작을 위해 continue 문을 사용하여 외부 루프의 맨 위로 돌아가야 했어요. 이 함수의 테스트는 비-transducer 함수와 동일했고, 결과는 정말로 훌륭했어요. 소요 시간은 transducer 함수보다 약 20% 더 적었답니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/ForeverFunctional35OptimizingJavaScriptWhichWay_3.png" />
 
@@ -300,7 +432,18 @@ const singlePassMoreGeneralWithLoops = (
 
 한 가지 일반적인 최적화 방법은 배열 값들을 변수에 저장하여 빨리 액세스할 수 있는 것입니다. 이전 섹션의 코드를 확인하면 fnList[j]를 저장할 변수를 사용하여 하나의 인덱싱 액세스를 피할 수 있습니다. 또한 .length 프로퍼티에 액세스하는 것을 피할 수 있습니다; 우리는 someArray와 fnList 배열의 길이를 저장할 쌍의 값을 사용할 수 있습니다. 마지막으로, JavaScript가 변수들을 여러 번 생성하는 것을 피하기 위해 모든 루프 이전에 i, j 등을 정의할 수도 있습니다. 그러면 어디서든 새 변수가 생기지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 변경된 코드입니다.
 
@@ -341,8 +484,18 @@ const singlePassMoreGeneralWithLoopsAndManyVars = (
 
 <img src="/assets/img/ForeverFunctional35OptimizingJavaScriptWhichWay_4.png" />
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 흔히 사용하는 루프가 있는 코드가 여전히 최상이에요. 마지막 아이디어를 시도해볼게요!
 
@@ -375,7 +528,18 @@ const singlePassMoreGeneralWithArray = (
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 같은 방식으로 작업 중이에요. 우리의 fnList 함수들은 이제 업데이트된 값이나 플래그를 반환하지만, 어떠한 if 문도 없이요. 어떻게 진행되고 있나요?
 
@@ -385,7 +549,18 @@ const singlePassMoreGeneralWithArray = (
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지난 두 편의 글에서 최적화 문제를 살펴보았고 두 가지 다른 해결책을 찾아냈습니다: 기능 중심적인 접근과 더 간단한 도구를 사용한 "일반적인 스타일"의 접근 방식입니다. 본 글에서는 이 두 접근 방식의 성능을 분석한 결과, 첫 번째, 기능 중심적인 접근 방식이 두 번째 방식보다 더 빠르다는 사실을 발견했습니다. 시간을 테스트할 방법을 계획하고 테스트를 실행한 후 두 번째 함수에 여러 변경을 적용하여 성능을 개선하는 방법을 찾아냈습니다. 일부 변경 사항은 훨씬 나빴지만 우리는 더 나은, 빠른 해결책을 얻을 수 있었습니다.
 
@@ -395,4 +570,15 @@ const singlePassMoreGeneralWithArray = (
 
 OpenReplay를 활용하여 고객 데이터를 완전한 통제하며 몇 분 안에 자체 호스팅할 수 있는 오픈소스 세션 리플레이 도구를 활용하여 극한의 어려움을 해결하고 버그를 이해하고 속도 저하를 해결하세요. GitHub 리포지토리를 확인하고 수천 명의 개발자들과 함께 커뮤니티에 참여해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

@@ -3,16 +3,13 @@ title: "데이터 엔지니어링의 최신 동향 2024 놓치지 말아야 할 
 description: ""
 coverImage: "/assets/img/2024-06-23-TheLatestinDataEngineering_0.png"
 date: 2024-06-23 13:33
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-TheLatestinDataEngineering_0.png
 tag: Tech
 originalTitle: "The Latest in Data Engineering"
 link: "https://medium.com/@nydas/the-latest-in-data-engineering-a7e4989b0b57"
 isUpdated: true
 ---
-
-
-
 
 ## 주요 개발 사항 및 그 영향
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 # 뉴스 속으로
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## DuckDB v1.0.0 릴리스
 
@@ -32,7 +40,18 @@ DuckDB는 SQL OLAP 데이터베이스 관리 시스템으로, 1.0.0 마일스톤
 
 Snowflake은 Apache Iceberg를 위한 벤더 중립적 카탈로그 구현인 Polaris를 공개했습니다. 오픈 소스로 나아가는 이 전략적인 움직임은 데이터 관리 커뮤니티에서 보다 큰 협력과 표준화를 촉진하기 위한 것입니다. Polaris는 앞으로 3개월 동안 오픈 소스로 공개될 예정이며, Snowflake의 상호 운용성과 혁신에 대한 약속을 강화합니다. 오픈 소스를 채택함으로써 Snowflake는 생태계의 유연성을 향상시켜 사용자가 다양한 플랫폼에서 데이터를 보다 효율적으로 관리하고 쿼리할 수 있도록 합니다. 릴리스에 대한 링크는 여기에서 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## DataBricks 오픈소스 Unity 카탈로그
 
@@ -42,7 +61,18 @@ Snowflake은 Apache Iceberg를 위한 벤더 중립적 카탈로그 구현인 Po
 
 Rust로 작성된 고성능 DataFrame 라이브러리인 Polars는 앞으로 몇 주 안에 1.0.0 버전을 출시할 예정입니다. 현재 1.0.0 버전은 여기에서 알파 버전으로 제공됩니다. 다중 코어 프로세서를 활용하여 빠른 데이터 처리를 지원하는 능력으로 알려진 Polars는 대규모 데이터 분석용 Pandas의 매력적인 대안을 제공합니다. 이 도구는 여러 기술 문서에 사용하는 내 선택 도구이며, 제 GitHub 계정에서 강력하게 활용될 것입니다. 이 출시는 다양한 새로운 기능과 성능 향상을 가져와서 Python을 사용하는 데이터 엔지니어들에게 필수적인 도구로서의 입지를 더욱 굳히게 될 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## DataBricks가 Tabular를 인수했습니다
 
@@ -52,7 +82,18 @@ Rust로 작성된 고성능 DataFrame 라이브러리인 Polars는 앞으로 몇
 
 이러한 발표들은 오픈 소스 솔루션, 상호운용성 및 향상된 데이터 관리 능력으로 나아가는 일반적인 추세를 반영합니다. 이러한 발전들이 데이터 엔지니어링의 미래에 미치는 의미는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 향상된 안정성과 신뢰성: DuckDB의 v1.0.0 릴리스에서 안정성에 대한 강조는 다른 데이터베이스 관리 시스템에 선례를 제공합니다. 신뢰성 있고 하위 호환성 있는 시스템은 데이터 무결성과 가용성이 중요한 기업 애플리케이션에서 필수적입니다.
 - 오픈 소스 우위: Snowflake와 DataBricks의 오픈 소스 노력은 커뮤니티 기반 개발과 협업의 중요성을 강조합니다. 오픈 소스 프로젝트는 다른 성공적인 오픈 소스 데이터베이스 및 도구들과 마찬가지로 빠른 혁신과 채택을 이끌어냅니다.

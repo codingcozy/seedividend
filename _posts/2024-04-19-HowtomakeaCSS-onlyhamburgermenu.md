@@ -3,17 +3,13 @@ title: "CSS만으로 햄버거 메뉴 만드는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How to make a CSS-only hamburger menu"
 link: "https://medium.com/@threkk/how-to-make-a-css-only-hamburger-menu-f7ad41e13399"
 isUpdated: true
 ---
-
-
-
-
 
 요즘에 제가 사이트에 작은 수정을 하고 있었을 때, 제가 만들었던 햄버거 메뉴를 다시 발견했어요. 아주 특별한 것은 아니에요. 작은 해상도로 들어가면 숨겨진 수직 메뉴로 자신을 압축하는 메뉴인데요. 버튼을 눌러서 보이게하거나 숨길 수 있어요. 흥미로운 점은 이것을 HTML과 CSS만을 사용해서 만든 것이에요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이 프로젝트를 시작할 때, 수행해야 할 몇 가지 요구 사항이 있었어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - HTML과 CSS만 사용할 수 있습니다. 상호작용도 포함됩니다.
 - 두 개의 다른 메뉴가 아닌 동일한 메뉴여야 하며 한 가지만 표시해야 합니다.
@@ -38,7 +45,18 @@ isUpdated: true
 - 링크 목록을 작은 화면에 맞게 꾸밈니다.
 - 작은 화면의 링크 목록을 접을 수 있도록 만듭니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 시작점, 링크 목록
 
@@ -63,7 +81,18 @@ isUpdated: true
 
 이 목록은 사실상 전체 메뉴에서 사용할 모든 HTML입니다. 나머지는 CSS 마법일 뿐입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 큰 화면에서 목록 깔끔하게 만들기
 
@@ -89,7 +118,18 @@ nav ul li {
 
 이 부분은 여기까지입니다. 이 부분에서는 변경 사항이 없을 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 작은 화면에서 목록을 예쁘게 만들기
 
@@ -124,7 +164,18 @@ nav ul li {
 
 <img src="/assets/img/HowtomakeaCSS-onlyhamburgermenu_0.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 작은 화면에서 링크 목록을 접을 수 있게 만들기.
 
@@ -138,7 +189,18 @@ input[type='checkbox']:not(:checked)+ul {
 
 먼저, HTML에 라벨이 달린 체크박스를 추가해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <nav>
@@ -172,7 +234,18 @@ nav input[type='checkbox'], nav label {
 
 그러나 작은 화면 해상도에서는 디자인 상의 이유로 레이블을 표시하고 체크박스는 숨깁니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /* 메뉴 아이콘 스타일링, 체크박스는 숨겨져 있습니다 */
@@ -190,7 +263,3 @@ nav label {
 에쇼! 여기까지입니다. 실제 예시를 확인하려면 여기를 클릭하고, 전체 소스 코드는 GitHub에서 확인할 수 있습니다.
 
 이 글이 마음에 드셨나요? Mastodon이나 Twitter에서 알려주세요!
-
-
-
-

@@ -3,16 +3,13 @@ title: "강력한 인사이트를 얻는 법 Rails에 New Relic Analytics 통합
 description: ""
 coverImage: "/assets/img/2024-07-01-UnlockPowerfulInsightsIntegratingNewRelicAnalyticsinRails_0.png"
 date: 2024-07-01 16:47
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-01-UnlockPowerfulInsightsIntegratingNewRelicAnalyticsinRails_0.png
 tag: Tech
 originalTitle: "Unlock Powerful Insights: Integrating New Relic Analytics in Rails"
 link: "https://medium.com/@m.jamil.ajaz/unlock-powerful-insights-integrating-new-relic-analytics-in-rails-6db22345c8c7"
 isUpdated: true
 ---
-
-
-
 
 New Relic은 개발자가 애플리케이션의 상태와 성능을 모니터링할 수 있도록 도와주는 강력한 응용 프로그램 성능 모니터링 (APM) 도구입니다. New Relic 젬은 New Relic의 APM 기능을 Ruby 응용 프로그램에 통합하여 응용 프로그램 성능, 오류 추적 및 자세한 트랜잭션 추적을 제공하는 Ruby 라이브러리입니다.
 
@@ -25,7 +22,18 @@ New Relic은 개발자가 애플리케이션의 상태와 성능을 모니터링
 
 ## 단계 1: 젬 설치하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Gemfile에 New Relic Gem을 추가해주세요:
 
@@ -35,7 +43,18 @@ gem 'newrelic_rpm'
 
 그런 다음, `bundle install` 명령어를 실행하여 gem을 설치해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 2: 구성
 
@@ -47,7 +66,18 @@ bundle exec newrelic install --license_key=YOUR_NEW_RELIC_LICENSE_KEY
 
 실제 뉴 렐릭 라이센스 키로 YOUR_NEW_RELIC_LICENSE_KEY를 대체하세요. 이 명령어는 구성 디렉토리에 newrelic.yml 파일을 생성합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 3: 환경 설정 구성
 
@@ -69,7 +99,18 @@ production:
   monitor_mode: true
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 4: 애플리케이션을 배포합니다
 
@@ -79,7 +120,18 @@ production:
 
 New Relic 계정으로 로그인하고 APM 섹션으로 이동하세요. 여기에서 애플리케이션의 성능 데이터를 볼 수 있습니다. 응답 시간, 처리량, 오류율 등이 포함됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

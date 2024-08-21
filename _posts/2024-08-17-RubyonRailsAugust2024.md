@@ -3,7 +3,7 @@ title: "2024년 8월에 알아야 할 Ruby on Rails 최신 정보 정리"
 description: ""
 coverImage: "/assets/img/2024-08-17-RubyonRailsAugust2024_0.png"
 date: 2024-08-17 01:21
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-17-RubyonRailsAugust2024_0.png
 tag: Tech
 originalTitle: "Ruby on Rails  August 2024"
@@ -12,10 +12,20 @@ isUpdated: true
 updatedAt: 1723864241787
 ---
 
-
 마크다운 형식으로 테이블 태그를 변경하십시오.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기에 모든 세부 사항을 읽어보세요.
 
@@ -25,7 +35,18 @@ updatedAt: 1723864241787
 
 레일스 가이드의 새로운 디자인이 이제 공개되었습니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 모든 세부 내용을 확인해 보세요.
 
@@ -35,7 +56,18 @@ updatedAt: 1723864241787
 
 인정받을 만한 뛰어난 개인들을 지명해 주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 모든 세부 정보를 읽어보세요.
 
@@ -46,7 +78,18 @@ Rails Routing 및 Active Record Associations에 능통하신 경우, 커뮤니�
 - Rails Routing PR
 - Active Record Associations PR
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제 Medium 계정에서 새로운 시리즈를 시작했어요. 제가 part-time으로 만드는 것들을 모두 공유하고 있어요. 첫 번째 에피소드는 여기에서 확인해보세요:
 
@@ -56,7 +99,18 @@ Rails Routing 및 Active Record Associations에 능통하신 경우, 커뮤니�
 
 # 기본 세션 생성기 추가
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 PR은 기본 세션 생성기를 추가하여 사용자가 자체 인증 시스템을 시작할 때 도움을 받을 수 있도록 합니다. 이것은 모든 인증 관련 문제에 대한 완벽한 해결책이 될 목적이 아닙니다. 기본 경로를 명확히 하고, 자체 인증 시스템을 만드는 것이 특별한 모험이 아님을 보여주기 위한 것입니다.
 
@@ -66,7 +120,18 @@ Rails Routing 및 Active Record Associations에 능통하신 경우, 커뮤니�
 
 이 Pull Request은 Rails 앱 생성기를 변경하여 일회용 스크립트, 데이터 이관 스크립트, 정리 스크립트, 벤치마크 스크립트 등을 보관할 수 있는 새로운 스크립트 기본 디렉토리를 생성합니다. 또한 이 PR은 이러한 스크립트를 생성할 수 있는 기본 스크립트 생성기를 추가합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기에 모든 세부 정보가 있습니다.
 
@@ -78,7 +143,18 @@ Rails Routing 및 Active Record Associations에 능통하신 경우, 커뮤니�
 - connection_handler.rb의 retrieve_connection_pool 메소드가 수정되어, 우리가 샤드와/또는 역할을 누락했는지 여부를 반영하는 더 구체적인 오류 메시지를 제공합니다.
 - 이러한 변경 내용을 반영하기 위해 테스트 케이스가 업데이트되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기에 모든 세부 사항을 읽어보세요.
 
@@ -91,7 +167,18 @@ Rails Routing 및 Active Record Associations에 능통하신 경우, 커뮤니�
 bin/rails generate migration CreateUsers email_address:string!:uniq password_digest:string!
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 결과:
@@ -113,8 +200,18 @@ end
 
 이제 Hotwire가 기본값이므로 대부분의 앱에서는 사용자 정의 채널이 필요하지 않을 것이며, 필요한 경우 파일을 발생기를 통해 다시 가져올 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기에 모든 세부 사항을 읽어보세요.
 
@@ -124,7 +221,18 @@ end
 
 여기에 모든 세부 사항을 읽어보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Dropped Hash#except 코어 익스텐션
 
@@ -134,7 +242,18 @@ https://docs.ruby-lang.org/en/3.1/Hash.html#method-i-except
 
 해당 코드가 제거되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기에 모든 세부 정보가 있습니다.
 
@@ -154,7 +273,18 @@ rectangle = Rectangle.new
 rectangle.assign_attributes(height: 10) # => "height에 할당하는 중 알 수 없는 속성이 있습니다."가 로그에 남습니다
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기본적으로 #attribute_writer_missing을 재정의하지 않은 클래스는 ActiveModel::UnknownAttributeError을 발생시킵니다.
 
@@ -164,7 +294,18 @@ rectangle.assign_attributes(height: 10) # => "height에 할당하는 중 알 수
 
 일반적으로 신용카드 세부정보를 직접 서버에 게시하는 것은 피해야 합니다. 그 대신 Stripe나 Braintree와 같은 결제 처리기를 사용하는 것이 좋습니다. 그러나 실수로 사용자의 신용카드 번호를 제출 양식에 포함했다면, 서버가 해당 정보를 처리하지 않더라도 그 세부정보가 기본적으로 로깅될 수 있습니다. 이러한 상황은 "카드 데이터 저장"으로 이어질 수 있어 안전한 처리를 보장하기 위한 추가적인 법적 의무를 부담하게 될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 풀 리퀘스트에는 새로운 애플리케이션의 기본 매개변수에 cvv와 cvc가 추가되었습니다. 이 변경으로 ActiveSupport::ParameterFilter에 필터링되는 매개변수에 이 이름이 기본적으로 기록되지 않게 됩니다. 유의할 점은 이 변경이 새로운 앱에만 적용된다는 것입니다. 기존 앱에는 영향을 미치지 않습니다.
 
@@ -174,7 +315,18 @@ rectangle.assign_attributes(height: 10) # => "height에 할당하는 중 알 수
 
 SQLite가 Rails 애플리케이션의 프로덕션 데이터베이스 엔진으로서의 인기가 증가함에 따라 견고하고 강인한 기본 구성이 필요해졌습니다. Rails 애플리케이션에서 SQLite를 사용할 때 가장 흔한 문제 중 하나는 가끔씩 ActiveRecord::StatementInvalid (SQLite3::BusyException: database is locked) 예외가 발생하는 것입니다. 이러한 예외는 DEFERRED 트랜잭션이 SQLite 데이터베이스 잠금을 획득하려고 할 때 발생합니다. 이때 다른 연결이 데이터베이스 잠금을 보유하고 있는 상황에서 기록 쿼리를 수행하다가 트랜잭션 중간에 SQLite 데이터베이스 잠금을 얻지 못한 경우입니다. 이 상황에서 SQLite는 트랜잭션을 다시 시도하지 않습니다. 대신 바쁜 예외로 즉시 오류를 반환합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 PR은 혼잡 예외를 피하고 동시성 지원을 개선하기 위해 가능한 경우 SQLite 어댑터를 즉시 모드로 업데이트했습니다.
 
@@ -184,7 +336,18 @@ SQLite가 Rails 애플리케이션의 프로덕션 데이터베이스 엔진으�
 
 이 커밋은 애플리케이션이 생성된 로컬 시크릿으로 대체될 것이므로 secret_key_base를 무조건적으로 설정할 수 있도록 본 행동을 되돌립니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 모든 세부 정보를 읽어보세요.
 
@@ -198,7 +361,18 @@ Product.in_batches(cursor: [:shop_id, :id]) do |relation|
 end
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 모든 세부 내용을 읽어보세요.
 
@@ -212,7 +386,18 @@ Rails.application.routes.draw do
 end
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 내용은 다음과 같이 쉽고 더 가독성이 높게 작성할 수 있습니다:
 
@@ -228,7 +413,18 @@ end
 
 # 인증 생성기에 비밀번호 재설정 기능 추가
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 pull request에서는 새로운 Rails 생성기에 기본 비밀번호 재설정 흐름을 추가하여 메일러와 서명 된 ID의 사용을 보여줍니다.
 
@@ -238,7 +434,18 @@ end
 
 # 새로운 유지 보수 정책을 적용했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주요 변경 사항은 다음과 같습니다.
 
@@ -250,7 +457,18 @@ end
 
 # has_secure_password에 기본 비밀번호 재설정 토큰 추가
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 PR은 has_secure_password를 사용할 때 15분 동안 유효한 기본 설정을 추가했습니다:
 
@@ -272,7 +490,18 @@ User.find_by_password_reset_token!(token)
 
 # bin/rails boot 명령어를 구현했습니다
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새로운 bin/rails boot 명령은 애플리케이션을 시작한 후 종료합니다. 표준 -e/--environment 옵션을 지원하여 Rails 앱의 부팅 프로세스를 테스트하거나 벤치마킹 목적으로 유용합니다.
 
@@ -282,7 +511,18 @@ User.find_by_password_reset_token!(token)
 
 일부 도우미 메서드 이름이 변경되었으며 기존 이름은 별칭으로 유지되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - check_box를 checkbox로 이름 변경
 - text_area를 textarea로 이름 변경
@@ -294,7 +534,18 @@ User.find_by_password_reset_token!(token)
 
 도커는 Docker biuld 검사를 도입했으며 기본적으로 경고가 있는 Docker biuld를 실행해도 빌드가 실패하지 않습니다 (비-제로 종료 코드 반환). 경고가 있는 biuld에서 오류를 발생시키려면 Dockerfile에 # check=error=true 선언을 추가해야 합니다. 이 PR이 그렇게 했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 모든 세부 정보를 읽어보세요.
 
@@ -304,7 +555,18 @@ config.i18n.raise_on_missing_translations = true로 설정되어 있을 때, 컨
 
 여기서 모든 세부 정보를 읽어보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 사용 금지된 해시 키 경로 매핑
 
@@ -324,7 +586,18 @@ mount MyApp, at: "/my_app"
 
 여기에서 자세한 내용을 읽어보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 레일스 8은 기본적으로 Thruster를 사용합니다
 
@@ -334,7 +607,18 @@ Thruster는 자산 압축 및 캐싱 프록시로, X-Sendfile 가속화를 사�
 
 자세한 내용은 여기를 참조해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 스키마 지정 이름을 사용하여 disable_extension을 호출할 수 있도록 변경되었습니다
 
@@ -344,7 +628,18 @@ Thruster는 자산 압축 및 캐싱 프록시로, X-Sendfile 가속화를 사�
 
 # allow_browser가 이제는 봇을 허용합니다
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "allow_browser" 기능은 특정 브라우저 버전과 일치하지 않는 사용자 에이전트의 요청을 차단합니다. 이로 인해 일부 검색 엔진에서 사이트를 크롤링하지 못할 수도 있습니다.
 
@@ -354,7 +649,18 @@ Thruster는 자산 압축 및 캐싱 프록시로, X-Sendfile 가속화를 사�
 
 # 라우트 매핑 범위 조회 속도가 향상되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 Pull Request는 scope 구현을 변경합니다. 스코프는 해시 배열을 기반으로 하지만, 상속된 값들을 즉시 해시로 합병함으로써 룩업 속도를 빠르게 할 수 있습니다. 이것은 깊게 중첩된 경로에 대한 불필요한 반복을 줄일 수 있습니다.
 
@@ -364,7 +670,18 @@ Thruster는 자산 압축 및 캐싱 프록시로, X-Sendfile 가속화를 사�
 
 puma.rb에서 Concurrent.available_processor_count 도우미를 사용하는 것은 공유 CPU가있는 일부 클라우드 호스트나 CPU 개수를 부정확하게 보고하는 플랫폼에서 부정확한 구성을 가져올 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 Pull Request에는 다음과 같은 변경 사항이 있습니다:
 
@@ -377,7 +694,18 @@ puma.rb에서 Concurrent.available_processor_count 도우미를 사용하는 것
 
 # 중복된 Puma 구성 설정 제거
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 Pull Request는 puma.rb에서 다음과 같은 중복 환경 설정을 제거합니다:
 
@@ -399,7 +727,18 @@ end
 
 # 개선된 기본 액션 메일러 구성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 PR은 기본 Action Mailer 구성 설정에 몇 가지 개선 사항이 추가되었습니다:
 

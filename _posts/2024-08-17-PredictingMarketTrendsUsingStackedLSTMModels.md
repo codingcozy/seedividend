@@ -3,7 +3,7 @@ title: "스택드 LSTM 모델을 사용한 시장 트렌드 예측 방법"
 description: ""
 coverImage: "/assets/img/2024-08-17-PredictingMarketTrendsUsingStackedLSTMModels_0.png"
 date: 2024-08-17 01:44
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-17-PredictingMarketTrendsUsingStackedLSTMModels_0.png
 tag: Tech
 originalTitle: "Predicting Market Trends Using Stacked LSTM Models"
@@ -11,7 +11,6 @@ link: "https://medium.com/@matthew1992/predicting-market-trends-using-stacked-ls
 isUpdated: true
 updatedAt: 1723864227927
 ---
-
 
 현재 연구는 Stacked Long Short-Term Memory (LSTM) 네트워크를 활용하여 주식 가격을 예측하는 데 초점을 맞추고 있습니다. 이 방법은 과거 가격 데이터를 기반으로 시장 트렌드를 분석하고 예측하는 데 고급 신경망 구조를 활용합니다.
 
@@ -28,7 +27,18 @@ from tensorflow.keras.layers import Dense, LSTM
 
 이 코드 스니펫은 Python 프로그래밍 환경에서 데이터 분석 및 머신러닝에 널리 사용되는 여러 라이브러리를 소개합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 판다스는 pd로 가져오며, 데이터 조작 및 분석에 필수적인 기능을 제공합니다. 특히 데이터프레임과 같은 구조화된 데이터를 다루는 데 유용합니다. 이 기능은 데이터를 모델링하기 전 중요한 역할을 합니다.
 
@@ -38,7 +48,18 @@ from tensorflow.keras.layers import Dense, LSTM
 
 MinMaxScaler는 sklearn.preprocessing 모듈에서 가져오며, 일반적으로 0과 1 사이의 범위 내로 특성을 스케일링하는 데 활용됩니다. 이 스케일링 프로세스는 머신러닝에서 데이터를 처리할 때 모델 수렴의 속도와 정확도를 향상시키는 중요한 전처리 단계입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 TensorFlow에서 제공하는 Keras API를 활용하여 신경망 모델을 구축합니다. 특히 Sequential 모델을 활용하고 있습니다. 이 방식은 딥러닝 구조를 개발하는 데 도움이 됩니다. 모델에는 다양한 레이어가 포함되어 있습니다. Dense 레이어는 완전 연결된 신경망 레이어이고, LSTM 레이어는 시퀀스 예측 작업에 특히 효과적인 Long Short-Term Memory 레이어를 나타냅니다. 시계열 분석이나 자然어 처리와 같은 작업에 유용합니다.
 
@@ -51,7 +72,18 @@ plt.show()
 
 이 코드는 Python에서 데이터 시각화를 위해 설계되었습니다. 특히 DataFrame 객체인 df_close에 포함된 시계열 데이터를 나타내는 선 그래프를 그리는 데 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 코드의 주요 기능은 df_close DataFrame에 저장된 값들을 시각적으로 나타내는 라인 플롯을 생성하는 것입니다. 이러한 시각화는 데이터 분석에서 시간에 따른 추세를 식별하거나 다른 데이터셋을 효과적으로 비교하는 데 널리 활용됩니다.
 
@@ -61,20 +93,42 @@ plt.show()
 
 MinMax 스케일링은 LSTM(Long Short-Term Memory) 네트워크와 함께 작업할 때 특히 관련이 있는 전처리 기술입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일반적으로, LSTM 모델은 입력 특성이 특정 범위로 정규화되었을 때 더 좋은 성능을 발휘합니다. MinMax 스케일링은 데이터를 압축하여 일반적으로 0과 1 사이의 정의된 최솟값과 최댓값 사이에 놓이도록 변환합니다. 이 조정은 다양한 입력 특성이 학습 프로세스에 동등하게 기여하도록 보장하여 모델의 성능과 안정성을 향상시킵니다.
 
 MinMax 스케일링을 적용할 때, 데이터 내의 패턴에 미칠 수 있는 영향을 주의 깊게 고려해야 합니다. 입력 값을 표준화하는 데 효과적이지만, 원래 데이터셋에 있는 기본적인 관계를 유지하는 것이 중요합니다. 따라서 LSTM 네트워크를 활용할 때 MinMax 스케일링을 통합하면 모델 정확도와 효율성이 향상될 수 있습니다.
 
 ```js
-scaler = MinMaxScaler(feature_range=(0,1))
-df_close = scaler.fit_transform(np.array(df_close).reshape(-1,1))
+scaler = MinMaxScaler((feature_range = (0, 1)));
+df_close = scaler.fit_transform(np.array(df_close).reshape(-1, 1));
 ```
 
 이 코드 조각은 Scikit-learn 라이브러리에서 제공하는 Min-Max 스케일링 기술을 활용하여 데이터셋에 특성 스케일링을 적용하는 방법을 보여줍니다. 이 프로시저의 목적은 df_close 데이터셋에 있는 값들(일반적으로 종가 주가나 유사한 수치 데이터)을 0부터 1까지의 표준 범위로 변환하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로세스는 (0, 1)의 특징 범위로 구성된 MinMaxScaler 객체의 초기화로 시작됩니다. 이는 변환된 데이터가 최소값이 0이 되고 최대값이 1이 되도록 다시 조정되도록 허용합니다. 이러한 초기화는 스케일링 프로세스에서 중요한 첫 번째 단계입니다.
 
@@ -84,7 +138,18 @@ df_close = scaler.fit_transform(np.array(df_close).reshape(-1,1))
 
 이 코드의 사용은 데이터 전처리의 맥락에서 매우 중요합니다. 특히 머신러닝과 통계 분석 내에서 중요합니다. 정규화는 데이터 스케일에 민감한 알고리즘에서 거리 계산에 특징이 동등하게 기여하도록 보장합니다. K-최근접 이웃 및 경사 하강 최적화 방법과 같이 데이터 스케일에 민감한 알고리즘에서 수렴 속도를 향상시킬 수 있습니다. 또한 스케일링은 특정 알고리즘의 수렴 속도를 향상시키고, 훈련 프로세스를 가속화하고 효율성을 향상시키는 데 도움이 될 수 있습니다. 또한, 아웃라이어의 영향을 줄이고, 이로 인해 모델 학습 프로세스에 부정적인 영향을 미치는 것을 방지할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 train_size = int(len(df_close)*0.65)
@@ -99,7 +164,18 @@ test_data = df_close[train_size:,:]
 
 이 분할을 구현하기 위해 코드는 먼저 훈련 데이터셋의 크기인 train_size를 결정합니다. 이 값은 df_close 내 전체 행 수의 65%를 나타내는 정수값으로 계산됩니다. 그런 다음 테스트 데이터셋의 크기인 test_size는 전체 행 수에서 train_size를 뺌으로써 결정되며, df_close 내 모든 데이터가 활용되도록 보장합니다. 마지막으로 코드는 DataFrame을 슬라이싱하여 훈련 및 테스트 목적으로 두 가지 다른 세그먼트를 만듭니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 코드를 사용하는 이유는 모델 학습 및 검증 개념에 중점을 두고 있습니다. 데이터셋을 분할함으로써 모델을 한 부분에서 학습시키고 다른 부분에서 모델의 효과를 평가할 수 있습니다. 이 접근 방식은 모델이 이전에 만난 데이터와 직면했을 때 얼마나 일반화되는지에 대한 통찰을 제공합니다.
 
@@ -108,18 +184,28 @@ test_data = df_close[train_size:,:]
 시계열 분석의 맥락에서, 데이터의 시간 구조를 유지하는 것이 중요합니다. 이 코드는 데이터셋의 초기 세그먼트를 학습에, 그 다음 세그먼트를 테스트에 할당함으로써 이 원칙을 준수합니다. 이 방법은 역사적 데이터가 미래 결과를 예측하는 데 적용되는 현실적인 시나리오를 효과적으로 시뮬레이션합니다.
 
 ```js
-plt.figure(figsize=[15,5])
-plt.subplot(121)
-plt.plot(train_data)
-plt.title('학습 데이터')
-plt.subplot(122)
-plt.plot(test_data)
-plt.title('테스트 데이터')
-plt.show()
+plt.figure((figsize = [15, 5]));
+plt.subplot(121);
+plt.plot(train_data);
+plt.title("학습 데이터");
+plt.subplot(122);
+plt.plot(test_data);
+plt.title("테스트 데이터");
+plt.show();
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Training and Test Data Visualization](/assets/img/2024-08-17-PredictingMarketTrendsUsingStackedLSTMModels_1.png)
 
@@ -129,8 +215,18 @@ plt.show()
 
 이 코드의 활용은 다양한 이유로 중요합니다. 이는 머신러닝 및 통계 분야에서 모델이 이전에 보지 못한 데이터에 대해 얼마나 효과적으로 수행될 수 있는지를 평가하는 데 중요합니다. 두 데이터 집합의 패턴, 추세 및 분포를 시각적으로 분석함으로써 모델의 일반화 가능성을 파악하고, 오버피팅이나 언더피팅과 같은 문제를 식별할 수 있습니다. 요약하자면, 시각화는 데이터 분석과 해석의 중요한 구성 요소를 형성하며, 효과적인 데이터 탐색을 위해 이 코드는 필수적입니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모델 훈련은 2023년 10월까지 수집된 정보를 포함합니다. 이는 해당 날짜 이후에 발생한 모든 개발 또는 변경 사항이 모델의 지식에 반영되지 않음을 의미합니다. 따라서 모델의 이해력과 응답은 해당 시점까지의 데이터 및 사건에 한정됩니다.
 
@@ -140,7 +236,7 @@ def create_dataset(dataset, time_step=1):
     for i in range(len(dataset)-time_step-1):
         dataX.append(dataset[i:(i+time_step),0])
         dataY.append(dataset[(i+time_step),0])
-    
+
     return np.array(dataX), np.array(dataY)
 ```
 
@@ -148,7 +244,18 @@ def create_dataset(dataset, time_step=1):
 
 이 함수는 보통 NumPy 배열과 같은 다차원 배열인 데이터셋과 time_step 매개변수를 허용합니다. time_step은 다음 값 예측 시 사용할 이전 시간 단계의 수를 나타냅니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 초기에 함수는 두 개의 빈 리스트인 dataX와 dataY를 설정합니다. dataX 리스트는 입력 데이터 시퀀스를 보유하기 위해 지정되며, dataY는 각 시퀀스 뒤를 따르는 대응하는 출력 값들을 포함하도록 되어 있습니다.
 
@@ -157,12 +264,23 @@ def create_dataset(dataset, time_step=1):
 데이터셋 전체를 처리한 후, 함수는 dataX와 dataY를 모두 NumPy 배열로 변환하여 리턴합니다.
 
 ```js
-time_step = 100
-train_x, train_y = create_dataset(train_data, time_step)
-test_x, test_y = create_dataset(test_data, time_step)
+time_step = 100;
+train_x, (train_y = create_dataset(train_data, time_step));
+test_x, (test_y = create_dataset(test_data, time_step));
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 코드 스니펫은 시계열 기계 학습 또는 심층 학습 작업을 위한 데이터 전처리를 용이하게 하는 데 사용됩니다. 스크립트는 시간 단계를 나타내는 변수를 설정하여 전처리 과정을 돕습니다. 이 변수는 100으로 설정되어 있으며, 두 가지 다른 데이터 세트(학습을 위한 데이터 세트와 테스트를 위한 데이터 세트)를 변환하는 데 사용됩니다.
 
@@ -172,11 +290,22 @@ test_x, test_y = create_dataset(test_data, time_step)
 
 또한 중요한 점은 많은 기계 학습 모델, 특히 순환 신경망(RNN) 및 LSTM(장단기 메모리 네트워크)와 같은 모델이 데이터가 특정한 형식으로 구성되어야 한다는 것입니다. 이 구조는 이러한 모델이 시간적인 관계를 효과적으로 이해할 수 있도록 중요합니다. 따라서 이 전처리 단계는 데이터가 시간에 따라 종속되어 있는 데이터로부터 모델이 학습할 수 있도록 하는 데 필수적입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-train_x = train_x.reshape(train_x.shape[0], train_x.shape[1], 1)
-test_x = test_x.reshape(test_x.shape[0], test_x.shape[1], 1)
+train_x = train_x.reshape(train_x.shape[0], train_x.shape[1], 1);
+test_x = test_x.reshape(test_x.shape[0], test_x.shape[1], 1);
 ```
 
 위 코드는 train_x와 test_x로 참조되는 훈련 및 테스트 데이터 세트를 다시 구성하기 위한 것입니다. 이러한 데이터 세트는 일반적으로 머신 러닝 모델에 필요한 입력 데이터를 포함하며 배열 또는 행렬로 구성됩니다.
@@ -185,12 +314,20 @@ test_x = test_x.reshape(test_x.shape[0], test_x.shape[1], 1)
 
 이 재구성 프로세스는 특히 순차 데이터를 처리하는 특정 신경망 아키텍처에서 필요합니다. 주로 순환 신경망(RNN) 및 합성곱 신경망(CNN)과 같은 모델은 일반적으로 세 가지 차원 형식의 입력 데이터가 필요합니다. 이러한 차원은 일반적으로 샘플 수, 시간 단계 또는 피처 수, 채널 수에 해당하며 이 경우 채널 수는 1로 정의됩니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 train_x.shape, train_y.shape, test_x.shape, test_y.shape
-
 
 ![image](/assets/img/2024-08-17-PredictingMarketTrendsUsingStackedLSTMModels_2.png)
 
@@ -198,24 +335,45 @@ train_x.shape, train_y.shape, test_x.shape, test_y.shape
 
 일반적으로 train_x 변수는 학습용 특징 데이터를 보유하며, 모델이 학습할 입력 변수들을 포함합니다. 반면에 train_y는 train_x에 해당하는 타겟 또는 레이블 데이터를 포함하고 있어서 그 입력 특징들에 대한 원하는 출력을 나타냅니다. test_x 변수는 테스트용으로 의도된 특징 데이터를 포함하며, 훈련된 모델이 새로운, 보이지 않은 데이터에 대한 성능을 평가합니다. 한편, test_y는 테스트용 타겟이나 레이블 데이터를 저장하며, 이는 테스트용 특징 데이터인 test_x에 대한 모델의 예측을 비교할 기준 역할을 합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 배열들에 .shape 속성을 호출하면 행과 열의 수를 나타내는 차원을 확인할 수 있습니다. 이 정보는 여러 이유로 중요합니다. 먼저, 데이터 구조를 이해하는 데 도움이 되며, 데이터가 올바르게 구성되어 있는지 및 입력 및 출력 데이터 세트 간 샘플 및 특성의 수가 적절하게 정렬되어 있는지 확인할 수 있습니다.
 
 둘째, 데이터 세트의 모양을 알고 있는 것은 모델 입력 유효성 검사에 매우 중요합니다. 학습을 시작하기 전에 기계 학습 모델에서 필요로 하는 예상 차원에 부합하는지 확인합니다. 또한 학습이나 평가 중 문제가 발생한 경우에는 이러한 데이터 세트의 모양을 확인하여 데이터 준비 단계에서 잠재적 불일치나 오류를 식별하는 데 초기 단계로 자주 사용됩니다.
 
 ```js
-model = Sequential()
-model.add(LSTM(50, return_sequences=True, input_shape=(100,1)))
-model.add(LSTM(50, return_sequences=True))
-model.add(LSTM(50))
-model.add(Dense(1))
+model = Sequential();
+model.add(LSTM(50, (return_sequences = True), (input_shape = (100, 1))));
+model.add(LSTM(50, (return_sequences = True)));
+model.add(LSTM(50));
+model.add(Dense(1));
 ```
 
 이 코드는 순차 아키텍처를 활용한 신경망 모델을 설정하는데, 특히 시계열이나 순서 있는 데이터 포인트와 같은 순차 데이터를 분석하기 위해 구체적으로 설계되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 모델은 Dense 레이어와 함께 세 개의 Long Short-Term Memory (LSTM) 레이어를 특징으로 합니다. LSTM 레이어는 이전 시간 단계에서의 문맥 정보에 의존하는 작업에 특히 적합하여, 다양한 시간 간격 동안 정보를 보존하는 능력 덕분에 이 작업에 용이합니다.
 
@@ -225,23 +383,44 @@ model.add(Dense(1))
 
 이 코드의 주요 목표는 순차 데이터에 근간을 둔 예측을 수행할 수 있는 모델을 구현하는 것입니다. 주식 가격 예측, 날씨 예측 또는 자연어 처리 작업과 같은 응용 프로그램이 이에 포함될 수 있습니다. LSTM 레이어의 포함을 통해 모델은 데이터 내의 시간 종속성을 효과적으로 포착하여, 시간에 따른 패턴을 인식하는 능력을 향상시킬 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-model.compile(loss='mean_squared_error', optimizer='adam')
+model.compile((loss = "mean_squared_error"), (optimizer = "adam"));
 ```
 
 이 코드는 머신 러닝 모델을 준비하는 과정에서 매우 중요한 역할을 합니다. 특히 TensorFlow나 Keras와 같은 딥러닝 프레임워크를 활용하는 경우에 그 역할이 더욱 중요해집니다. 이 코드는 모델의 학습을 위한 기반을 마련하며 손실 함수와 최적화 알고리즘을 정의하는 역할을 합니다.
 
 손실 매개변수는 모델의 학습 과정 중 성능을 평가하는 데 사용되는 메트릭을 결정하는 중요한 요소입니다. 이 경우에는 평균 제곱 오차가 선택되었는데, 이는 회귀 작업에 일반적으로 사용되는 표준적인 선택입니다. 이 메트릭은 예측 값과 실제 값 사이의 제곱된 차이의 평균을 계산합니다. 따라서 낮은 평균 제곱 오차는 모델이 학습 데이터와 더 잘 일치한다는 것을 나타냅니다.
 
-최적화 매개변수는 학습 과정 중 모델의 가중치를 조정하는 데 사용되는 알고리즘을 지정합니다. 이 경우에는 Adam 최적화기가 지정되었는데, Adam은 Adaptive Moment Estimation의 약자입니다. 이 최적화 방법은 두 가지 변형의 확률적 경사 하강법의 장점을 결합하는 능력으로 인해 선호됩니다. 그래디언트의 평균과 이차 모멘트의 추정을 기반으로 각 매개변수에 대한 학습률을 개별적으로 조정하여 학습 과정의 효율성과 안정성을 향상시킵니다. 
+최적화 매개변수는 학습 과정 중 모델의 가중치를 조정하는 데 사용되는 알고리즘을 지정합니다. 이 경우에는 Adam 최적화기가 지정되었는데, Adam은 Adaptive Moment Estimation의 약자입니다. 이 최적화 방법은 두 가지 변형의 확률적 경사 하강법의 장점을 결합하는 능력으로 인해 선호됩니다. 그래디언트의 평균과 이차 모멘트의 추정을 기반으로 각 매개변수에 대한 학습률을 개별적으로 조정하여 학습 과정의 효율성과 안정성을 향상시킵니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-model.summary()
+model.summary();
 ```
 
 ![Image](/assets/img/2024-08-17-PredictingMarketTrendsUsingStackedLSTMModels_3.png)
@@ -250,21 +429,43 @@ model.summary() 명령은 TensorFlow/Keras 및 PyTorch와 같은 머신러닝 �
 
 레이어 유형을 상세히 설명하며, 이는 합성곱 레이어, 밀집 레이어, 순환 레이어 등이 포함됩니다. 또한 각 레이어에서 생성된 출력 형태에 대한 통찰력을 제공하여 데이터 흐름을 이해하는 데 중요합니다. 섬세는 각 레이어 및 전체 모델을 통틀어 가중치와 편향을 포함한 매개변수의 총 개수를 열거합니다. 이 정보는 모델의 복잡성과 능력을 평가하는 데 도움이 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또한, 이 요약은 훈련 가능 및 비훈련 가능한 매개변수를 구분합니다. 특히 전이 학습 기술을 활용하는 모델에서 이 구분은 중요한데, 이를 통해 훈련 중에 조정할 수 있는 매개변수와 고정된 매개변수가 명확해집니다.
 
 이 요약의 유틸리티는 모델 개발과 연구의 다양한 측면으로 확장됩니다. 사용자가 모델을 정확하게 구성했는지 확인하여 레이어 간의 적절한 연결 및 차원의 정렬을 보장함으로써 디버깅을 지원합니다. 또한 모델 복잡성을 개요로 제공하여 의도한 작업에 적합한 모델인지 판단하고 데이터의 과소적합 및 과적합 위험을 평가하여 모델 평가를 용이하게 합니다.
 
 ```python
-model_history = model.fit(train_x, train_y, 
-                          validation_data=(test_x, test_y), 
+model_history = model.fit(train_x, train_y,
+                          validation_data=(test_x, test_y),
                           epochs=100, batch_size=64)
 ```
 
 ![image](/assets/img/2024-08-17-PredictingMarketTrendsUsingStackedLSTMModels_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 코드는 특정 데이터셋을 활용한 기계 학습 모델의 훈련을 목적으로 합니다. 이 코드는 train_x와 train_y로 명명된 훈련 데이터에 대한 모델을 최적화하고, 독립적인 검증 데이터인 test_x와 test_y에서 모델의 성능을 평가하도록 구성되어 있습니다.
 
@@ -274,23 +475,45 @@ model_history = model.fit(train_x, train_y,
 
 이 맥락에서 에포크 개념은 중요합니다. epochs 매개변수는 모델이 훈련 데이터 전체를 여러 번 횡단할 횟수를 나타내며, 이 경우 100으로 설정되어 있습니다. 이 반복은 모델이 데이터로부터 배울 기회를 여러 번 제공하여 가중치를 세밀하게 조정하여 예측 오류를 최소화합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또 다른 중요한 매개변수는 배치 크기입니다. 이 매개변수는 모델이 매개변수를 조정하기 전에 학습 데이터셋에서 모아진 샘플의 수를 지정합니다. 배치 크기가 64이면 학습 데이터가 64개씩의 그룹으로 나뉘어 모델이 순차적으로 처리합니다. 이 전략은 메모리 사용량을 최적화하고 학습 과정의 수렴을 가속화하는 데 도움이 될 수 있습니다.
 
 이 코드를 사용하는 이유는 여러 가지 중요한 측면을 포함합니다. 모델을 학습하는 것은 데이터를 정확하게 예측하거나 분류할 수 있는 시스템을 구축하는 데 기본적입니다. 또한, 검증 데이터를 사용하여 모델이 과적합되지 않도록 하는 것이 중요합니다. 이는 학습 데이터셋을 넘어 실제 응용 프로그램에서의 효과를 보장합니다. 또한, 에포크 수나 배치 크기와 같은 하이퍼파라미터를 조정할 수 있는 능력은 실무자가 특정 데이터셋과 목표에 맞게 학습 계획을 세밀하게 조정하여 결과를 향상시킬 수 있도록 합니다.
 
 ```js
-plt.figure(figsize=[10,6])
-plt.plot(model_history.history['loss'], label='train loss')
-plt.plot(model_history.history['val_loss'], label='val loss')
-plt.legend()
-plt.show()
+plt.figure((figsize = [10, 6]));
+plt.plot(model_history.history["loss"], (label = "train loss"));
+plt.plot(model_history.history["val_loss"], (label = "val loss"));
+plt.legend();
+plt.show();
 ```
 
 <img src="/assets/img/2024-08-17-PredictingMarketTrendsUsingStackedLSTMModels_5.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 코드는 기계 학습 모델의 훈련 과정을 시각화하는 데 사용됩니다. 구체적으로는 훈련 단계에서 다양한 에포크에서 손실 값들을 보여주는 것이 목적입니다.
 
@@ -300,20 +523,42 @@ plt.show()
 
 예측은 과거 데이터와 분석을 기반으로 미래 이벤트에 대한 예측을 수행하는 프로세스를 의미합니다. 이 실천은 의사결정 및 전략적 계획을 이끄는 데 여러 산업 분야 전반에 널리 활용됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 정확한 예측은 기업이 시장 동향, 소비자 행동 및 잠재적인 도전 과제를 예상할 수 있도록 돕습니다. 지난 패턴과 현재 상황을 분석함으로써, 기업은 정보를 기반으로 전략을 개발하여 운영을 향상시키고 전반적인 성과를 향상시킬 수 있습니다.
 
 ```js
-train_predict = model.predict(train_x)
-test_predict = model.predict(test_x)
+train_predict = model.predict(train_x);
+test_predict = model.predict(test_x);
 ```
 
 이 코드 스니펫은 기계 학습 분야에서 사용되며, 훈련된 모델을 활용하여 예측을 수행하는 목적으로 특별히 설계되었습니다. 코드는 두 가지 주요 섹션으로 나뉘어 있으며, 각 섹션은 서로 다른 데이터 집합에 대해 예측을 생성하는 데 책임이 있습니다.
 
 코드의 첫 번째 부분은 훈련 데이터 집합에 대한 예측을 수행하는 내용입니다. train_predict = model.predict(train_x)라는 줄은 이 작업을 수행합니다. 이 단계는 모델이 훈련 데이터를 기반으로 한 학습 능력을 평가하고, 이전에 접하지 않은 데이터에 대한 모델의 잠재적인 성능에 대한 가치 있는 통찰을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코드의 두 번째 부분은 test_predict = model.predict(test_x)라는 줄에 나와 있는 대로 별도의 테스트 데이터셋에 대한 예측을 수행하는 것을 포함합니다. 이 단계는 모델의 일반화 능력을 평가하는 데 중요한 요소로, 이는 모델이 보지 못한 데이터에 대한 성능을 의미합니다.
 
@@ -337,7 +582,18 @@ plt.plot(scaler.inverse_transform(testPredictPlot))
 plt.show()
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-08-17-PredictingMarketTrendsUsingStackedLSTMModels_6.png)
 
@@ -347,7 +603,18 @@ plt.show()
 
 다음 단계는 trainPredictPlot 배열을 훈련 데이터 집합에서 유도된 예측으로 채우는 것입니다. 이 과정은 시계열 데이터의 예측을 생성하는 데 관련된 지연을 고려하는 정의된 time_step에 해당하는 오프셋이 포함되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 동시에, 코드는 테스트 단계에서 예측값을 testPredictPlot 배열로 채웁니다. 여기서 추가적인 오프셋이 적용되는데, 이는 훈련 예측 기간의 지속 시간을 기반으로 합니다. 이 조정은 예측값이 훈련 이후 해당 시간 기간과 정확하게 일치하도록 보장합니다.
 
@@ -357,21 +624,43 @@ plt.show()
 
 이 코드를 사용하는 이유는 복합적입니다. 이는 실제 관측값과 예측값 간의 시각적 비교를 용이하게 하며, 기계 학습 모델의 정확성과 효과를 평가하는 데 중요합니다. 또한 모델 예측값이 실제 데이터와 얼마나 잘 일치하는지 시각적으로 평가함으로써, 트렌드와 계절적 패턴을 포착하는 모델의 능력을 더 잘 이해할 수 있으며, 오버피팅이나 언더피팅을 나타낼 수 있는 불일치를 식별하는 데 도움이 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막으로, 결과의 시각적인 표현은 리포트나 프레젠테이션에 필수적이며, 이를 통해 이해관계자들이 예측 모델의 효과를 쉽게 파악할 수 있습니다.
 
 ```js
-temp_input = list(x_input)
-temp_input = temp_input[0].tolist()
-temp_input
+temp_input = list(x_input);
+temp_input = temp_input[0].tolist();
+temp_input;
 ```
 
 <img src="/assets/img/2024-08-17-PredictingMarketTrendsUsingStackedLSTMModels_7.png" />
 
 제공해 주신 코드 조각은 x_input이라는 입력 변수에 대해 일련의 작업을 수행합니다. 첫 번째 작업은 x_input을 list로 변환한 temp_input으로 지정하는 것입니다. 이 변환은 x_input이 numpy 배열과 같은 배열 구조에서 비롯된 경우에 유용하며, 표준 Python 리스트 프레임워크 내에서의 쉬운 반복과 조작을 가능케 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로, 코드는 temp_input의 첫 번째 요소를 index 0을 사용하여 액세스하고 이 요소에 대해 tolist() 메서드를 호출하여 검색합니다. 이것은 첫 번째 요소가 또 다른 배열 구조일 가능성이 높으며, 아마도 넘파이 배열일 것으로 예상됩니다. tolist()의 사용은 이 요소를 전통적인 리스트 형식으로 변환하는 데 도움이 됩니다. 이 단계는 데이터 처리 유연성을 향상시키며, 특히 첫 번째 요소에 중요한 정보가 포함되어 있는 경우 유용합니다.
 
@@ -383,7 +672,7 @@ days = 517
 for i in range(days):
     print('start')
     x_input = np.array(temp_input[i:])
-    print(f'{i} day input {x_input}')    
+    print(f'{i} day input {x_input}')
     x_input = x_input.reshape((1, time_step, 1))
     yhat = model.predict(x_input, verbose=0)
     print(yhat)
@@ -393,7 +682,18 @@ for i in range(days):
 
 ![image](/assets/img/2024-08-17-PredictingMarketTrendsUsingStackedLSTMModels_8.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 코드 스니펫은 머신 러닝 모델을 사용하여 예측을 생성하는 데 설계되었습니다. 이는 대부분의 경우 시계열 예측과 관련이 있습니다.
 
@@ -403,7 +703,18 @@ for i in range(days):
 
 입력 데이터의 형태는 재구성 과정을 통해 조정됩니다. 이는 모델이 입력 차원을 정확히 해석할 수 있도록 필수적입니다. 이 변환은 데이터를 모델에서 요구하는 예상 형식과 일치시키는 데 사용됩니다. 이 형식은 한 시퀀스, 정의된 시간 단계 수 및 단일 피처로 구성됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모델은 그 후에 재구성된 입력을 기반으로 예측을 생성합니다. verbose=0 매개변수의 포함으로 인해 예측 단계에서 부가적인 출력이 없어져 효율성과 명확성을 높입니다. 예측 이후에는 예상 값이 인쇄되어 그 특정 날짜에 대한 모델의 예측에 대한 실시간 피드백을 제공합니다. 더불어, 이 예측된 값은 temp_input과 output에 모두 통합됩니다. temp_input에 추가함으로써 코드는 다음 날의 입력 데이터가 이 예측된 값이 포함되도록 보장하여 계속된 예측 프로세스를 용이하게 합니다.
 

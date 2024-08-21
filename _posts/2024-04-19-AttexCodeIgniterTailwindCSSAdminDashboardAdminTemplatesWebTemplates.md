@@ -3,17 +3,13 @@ title: "Attex  코드이그나이터CodeIgniter Tailwind CSS 관리자, 대시�
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Attex  CodeIgniter Tailwind CSS Admin , Dashboard Admin Templates Web Templates"
 link: "https://medium.com/@glitchgoddess/attex-codeigniter-tailwind-css-admin-dashboard-admin-templates-web-templates-0f51956f4190"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/AttexCodeIgniterTailwindCSSAdmin-DashboardAdminTemplatesWebTemplates_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 Attex — CodeIgniter Tailwind CSS Admin & Dashboard Template는 강력한 관리자 대시보드 템플릿입니다. Attex는 다양한 UI 요소, 구성 요소, 위젯 및 페이지를 제공하여 웹 애플리케이션을 신속하고 효율적으로 구축하는 데 도움이 되는 대시보드 및 관리자 템플릿을 제공합니다. 다양하고 아름다운 스타일과 전체 화면 레이아웃으로 관리자 대시보드, 캘린더, 채팅, 이메일, 파일 관리자, 작업 관리, 칸반 보드 등에 완벽하게 맞습니다. Attex는 세 가지 사전 구축된 레이아웃 옵션과 현대 웹 애플리케이션의 요구 사항을 충족하는 유연한 레이아웃 시스템을 제공합니다. gulp 기반 도구를 사용한 UI 요소의 빌드 자동화를 통해 Attex는 개발자들이 빠르고 효율적으로 웹 애플리케이션을 만들 수 있도록 돕습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기능:
 
@@ -52,7 +59,18 @@ Attex — CodeIgniter Tailwind CSS Admin & Dashboard Template는 강력한 관�
 
 현대 웹 응용 프로그램 요구 사항을 충족시키기 위해 6가지 미리 제작된 레이아웃 옵션이 있습니다. 유연한 레이아웃 시스템과 빌드 자동화(gulp 기반 빌드 도구) 및 사용 준비가된 UI 요소는 최고의 속도로 현대적인 웹 응용 프로그램을 개발할 수 있도록 지원합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Apps:
 
@@ -73,7 +91,18 @@ Apps:
 - 상자형 레이아웃
 - 스크롤 가능한 및 고정된 레이아웃
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 페이지:
 
@@ -96,7 +125,18 @@ Apps:
 
 #어드민 #테일윈드 #CSS #대시보드 #ERP #앱 #CRM #백엔드 #SAAS #파이썬 #플랫 #기술 #소프트웨어 #UI #키트
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 파일 유형
 
@@ -108,7 +148,18 @@ CSS, JS, HTML
 반응형
 문서 포함
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 상업 라이선스
 
@@ -118,13 +169,35 @@ CSS, JS, HTML
 
 더 보러 가기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![PowerX — Bootstrap 5 Admin & Dashboard UI Kit by coderthemes](/assets/img/AttexCodeIgniterTailwindCSSAdmin-DashboardAdminTemplatesWebTemplates_1.png)
 
 ![Konrix — Django Tailwind Admin Dashboard Template by coderthemes](/assets/img/AttexCodeIgniterTailwindCSSAdmin-DashboardAdminTemplatesWebTemplates_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Jidox — Django Admin Dashboard Template by coderthemes](/assets/img/AttexCodeIgniterTailwindCSSAdmin-DashboardAdminTemplatesWebTemplates_3.png)
 
@@ -134,7 +207,18 @@ Jidox는 coderthemes가 제작한 Django Admin 대시보드 템플릿입니다.
 
 Attex는 coderthemes가 제작한 Laravel 10 Admin & 대시보드 템플릿입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## coderthemes에서 더 많은 소식을 확인해보세요
 
@@ -144,16 +228,36 @@ Attex는 coderthemes가 제작한 Laravel 10 Admin & 대시보드 템플릿입�
 
 Konrix — CakePHP Tailwind CSS Admin & Dashboard by coderthemes
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Ubold — NodeJS Admin & Dashboard Template by coderthemes](/assets/img/AttexCodeIgniterTailwindCSSAdmin-DashboardAdminTemplatesWebTemplates_6.png)
 
 ![Opixo — Tailwind CSS Landing & Coming Soon Pages by coderthemes](/assets/img/AttexCodeIgniterTailwindCSSAdmin-DashboardAdminTemplatesWebTemplates_7.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/AttexCodeIgniterTailwindCSSAdmin-DashboardAdminTemplatesWebTemplates_8.png)
 
 PowerX — Bootstrap 5 Admin & Dashboard UI Kit by coderthemes
-

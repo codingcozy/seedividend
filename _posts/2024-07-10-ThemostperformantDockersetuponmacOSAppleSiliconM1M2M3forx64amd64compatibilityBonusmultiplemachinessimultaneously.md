@@ -3,16 +3,13 @@ title: "macOS에서 x64 및 amd64 호환성을 위한 최고의 Docker 설정 Ap
 description: ""
 coverImage: "/assets/img/2024-07-10-ThemostperformantDockersetuponmacOSAppleSiliconM1M2M3forx64amd64compatibilityBonusmultiplemachinessimultaneously_0.png"
 date: 2024-07-10 02:20
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-10-ThemostperformantDockersetuponmacOSAppleSiliconM1M2M3forx64amd64compatibilityBonusmultiplemachinessimultaneously_0.png
 tag: Tech
 originalTitle: "The most performant Docker setup on macOS (Apple Silicon M1, M2, M3) for x64   amd64 compatibility. Bonus: multiple machines simultaneously!"
 link: "https://medium.com/@guillem.riera/the-most-performant-docker-setup-on-macos-apple-silicon-m1-m2-m3-for-x64-amd64-compatibility-da5100e2557d"
 isUpdated: true
 ---
-
-
-
 
 ![이미지](/assets/img/2024-07-10-ThemostperformantDockersetuponmacOSAppleSiliconM1M2M3forx64amd64compatibilityBonusmultiplemachinessimultaneously_0.png)
 
@@ -26,17 +23,39 @@ isUpdated: true
 
 최근에는 amd64 컨테이너에서 실행되는 중형 워크로드가 포함된 프로젝트를 진행 중이었어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-성능이 점점 중요해지다보니, 사용 사례에 대한 대안을 찾기 시작했습니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-과거에 콜리마를 접했지만, 지금부터 매일 사용하기 시작했습니다. 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
-Apple의 하이퍼바이저와 로제타 번역 레이어를 사용할 수 있는 가능성으로 인해, 현재는 성능 면에서 Podman을 앞지르고 있습니다. 
+성능이 점점 중요해지다보니, 사용 사례에 대한 대안을 찾기 시작했습니다.
+
+과거에 콜리마를 접했지만, 지금부터 매일 사용하기 시작했습니다.
+
+Apple의 하이퍼바이저와 로제타 번역 레이어를 사용할 수 있는 가능성으로 인해, 현재는 성능 면에서 Podman을 앞지르고 있습니다.
 
 # 어떻게 작동하나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 colima와 docker CLI를 설치합니다. 그 후 macOS의 가상화 레이어와 x86/amd64를 Apple Silicon으로 변환하는 특별 구성 플래그를 사용하여 VM을 시작합니다.
 
@@ -46,7 +65,18 @@ Lima는 rosetta로 향상된 x86/amd64 호환성과 도커 런타임을 제공�
 
 # 설치
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 brew install colima # 이 래퍼를 사용하여 리마 가상 머신을 만듭니다
@@ -73,7 +103,18 @@ colima start \
 --verbose
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 핵심 구성 설정
 
@@ -85,7 +126,18 @@ colima start \
 
 # 도커를 대체하는 셸 구성하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기계가 작동하도록 기다리고 도커 환경을 설정해 봅시다. (사실, 이 과정은 엄격히 필요하지는 않습니다. 번들 nerdctl 도구를 사용해도 됩니다.)
 
@@ -99,7 +151,18 @@ export COLIMA_VM_SOCKET="${HOME}/.colima/${COLIMA_VM}/docker.sock"
 export DOCKER_HOST="unix://${COLIMA_VM_SOCKET}"
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 보너스: 여러 대의 기계 동시에 운영
 
@@ -109,7 +172,18 @@ export DOCKER_HOST="unix://${COLIMA_VM_SOCKET}"
 
 Podman은 이러한 유형의 작업 부하를 공식적으로 지원하지 않지만, 여전히 동일한 결과를 얻을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 보조 머신을 생성하려면 colima 명령을 하나 더 실행하면 됩니다
 
@@ -137,6 +211,17 @@ export DOCKER_HOST="unix://${COLIMA_VM_SOCKET}"
 
 이것으로 끝입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 즐겨보세요!

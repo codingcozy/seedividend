@@ -3,17 +3,13 @@ title: "리액트에서 조건부 렌더링을 구현하는 8가지 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "8 Ways to Implement Conditional Rendering Techniques in React"
 link: "https://medium.com/gitconnected/code-like-a-pro-advanced-conditional-rendering-techniques-in-react-8e0cfb9aa04f"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/8WaystoImplementConditionalRenderingTechniquesinReact_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 더 알아보기 전에, 저의 개인 웹사이트에서 웹 개발에 대한 보다 심층적인 기사를 살펴보세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## React에서 조건부 렌더링 이해하기
 
@@ -40,7 +47,18 @@ React에서는 React 앱 내에서 조건부 렌더링을 다루는 여러 가�
 - 고차 컴포넌트 (HOCs)
 - 렌더 프롭스
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각 접근 방식에 대한 설명을 자세히 살펴봅시다.
 
@@ -50,7 +68,18 @@ React에서는 React 앱 내에서 조건부 렌더링을 다루는 여러 가�
 
 ![이미지](/assets/img/8WaystoImplementConditionalRenderingTechniquesinReact_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 if/else 문은 조건을 확인합니다: 조건이 참이면 `if` 블록 내의 코드가 실행됩니다. 그렇지 않으면 `else` 블록이 실행됩니다.
 
@@ -60,7 +89,18 @@ if/else 문은 조건을 확인합니다: 조건이 참이면 `if` 블록 내의
 
 ![이미지](/assets/img/8WaystoImplementConditionalRenderingTechniquesinReact_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 논리 AND (&&):
 
@@ -70,7 +110,18 @@ if/else 문은 조건을 확인합니다: 조건이 참이면 `if` 블록 내의
 
 ## 널 병합 연산자 (??)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 널 병합 연산자 (??)는 널 또는 정의되지 않은 피연산자에 기본값을 제공합니다. React에서는 후속 콘텐츠나 값 설정에 유용하며, 컴포넌트가 데이터가 누락되어 망가지는 것을 방지할 수 있습니다.
 
@@ -80,7 +131,18 @@ if/else 문은 조건을 확인합니다: 조건이 참이면 `if` 블록 내의
 
 컴포넌트 내에서 널 병합 연사자 (??)를 사용하여 나이가 널이거나 정의되지 않은 경우를 처리합니다. 사용자 나이가 없는 경우, userAge 변수가 `사용할 수 없음`으로 기본 설정되며, 렌더링된 출력에 사용됩니다. 이를 통해 나이 데이터가 없더라도 컴포넌트가 이를 우아하게 처리하고 대체값을 제공하여 완전하고 사용자 친화적인 인터페이스를 유지할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 스위치 케이스 문장:
 
@@ -90,7 +152,18 @@ if/else 문은 조건을 확인합니다: 조건이 참이면 `if` 블록 내의
 
 # 고급 조건부 렌더링 기술
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기본적인 방법을 마스터한 후, 더 복잡한 해결책이 필요한 상황에 직면할 수 있습니다. 이러한 고급 기술은 일반적으로 더 큰 애플리케이션이나 더 높은 추상화 수준이 필요한 특정 상황에서 사용됩니다:
 
@@ -100,7 +173,18 @@ if/else 문은 조건을 확인합니다: 조건이 참이면 `if` 블록 내의
 
 조건부 렌더링에서의 역할: 에러 바운더리는 컴포넌트 하위 트리에서 오류가 발생할 때 대체 백업 UI를 조건부로 렌더링합니다. 전체 애플리케이션이 충돌하고 흰 화면이 표시되는 대신 오류가 있는 컴포넌트 하위 트리만 사용자 정의 대체 백업 UI로 대체됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/8WaystoImplementConditionalRenderingTechniquesinReact_6.png" />
 
@@ -110,7 +194,18 @@ HOCs는 컴포넌트를 감싸는 함수로, 컴포넌트 로직을 재사용할
 
 프리미엄 계정을 가진 사용자만 볼 수 있는 기능이 있는 경우를 상상해보세요. 사용자의 계정 유형을 확인하고 해당에 따라 조건적으로 컴포넌트를 렌더링하는 HOC를 만들 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 우선, 우리는 고유의 파일(withPremiumFeature.js와 같은)에 HOC (Higher-Order Component)인 withPremiumFeature를 정의합니다:
 
@@ -120,7 +215,18 @@ HOCs는 컴포넌트를 감싸는 함수로, 컴포넌트 로직을 재사용할
 
 ![이미지](/assets/img/8WaystoImplementConditionalRenderingTechniquesinReact_8.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로, 특별기능(SpecialFeature) 컴포넌트를 withPremiumFeature HOC로 강화하여 사용자 계정 유형에 기반한 조건부 렌더링 기능을 추가할 것입니다.
 
@@ -130,7 +236,18 @@ HOCs는 컴포넌트를 감싸는 함수로, 컴포넌트 로직을 재사용할
 
 이 패턴은 컴포넌트에 전달된 함수를 사용하여 React 요소를 반환합니다. 이는 컴포넌트 간 렌더링 로직을 공유하기 위해 사용되며, 렌더 프롭 내에 포함된 상태, 프롭 또는 로직에 따라 UI의 다른 부분을 조건부로 렌더링할 수 있도록 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 재사용 가능한 컴포넌트를 만들고 싶은 시나리오를 고려해 봅시다. 이 컴포넌트는 사용자의 온라인 상태를 추적하고 해당 상태에 따라 콘텐츠를 조건부로 렌더링합니다.
 
@@ -140,7 +257,18 @@ HOCs는 컴포넌트를 감싸는 함수로, 컴포넌트 로직을 재사용할
 
 이제 부모 컴포넌트에서 UserOnlineStatus를 사용하고 해당 사용자 온라인 상태를 기반으로 원하는 콘텐츠를 렌더링하기 위해 함수를 전달할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![8WaystoImplementConditionalRenderingTechniquesinReact](/assets/img/8WaystoImplementConditionalRenderingTechniquesinReact_11.png)
 
@@ -150,7 +278,18 @@ HOCs는 컴포넌트를 감싸는 함수로, 컴포넌트 로직을 재사용할
 
 다양한 조건부 렌더링 기술을 이해하는 것이 중요하지만, React 애플리케이션에서 언제 어떤 기술을 사용해야 하는지 알아내는 것도 중요합니다. 여기에는 의사결정 프로세스를 이끌어낼 수 있는 몇 가지 최상의 관행이 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - If/Else 문: 단일 조건에 따라 컴포넌트를 렌더링하는 간단한 분기 로직에 전통적인 if/else 문을 사용하세요. 이 방식은 직관적이고 읽기 쉽습니다. 조건이 간단하고 한정적인 경우, if/else 문을 선택하는 것이 좋습니다.
 - 삼항 연산자 (?): 삼항 연산자는 한 가지 조건에 따라 두 가지 컴포넌트 중 하나를 렌더링할 때 간결하고 효율적입니다. JSX를 깔끔하고 읽기 쉽게 유지하고 싶을 때 훌륭합니다.
@@ -166,7 +305,18 @@ HOCs는 컴포넌트를 감싸는 함수로, 컴포넌트 로직을 재사용할
 
 위의 모범 사례를 따르면 React 애플리케이션에서 조건부 렌더링을 구현할 때 신중한 결정을 내릴 수 있습니다. 각 기술에는 각각의 강점이 있으며, 적절한 기법을 선택하면 더 깨끗하고 유지보수가 쉬운 코드를 작성하고 더 나은 사용자 경험을 제공할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 조건부 렌더링에서의 유용한 팁, 트릭 및 흔한 함정들
 
@@ -177,7 +327,18 @@ HOCs는 컴포넌트를 감싸는 함수로, 컴포넌트 로직을 재사용할
 - 팁: 삼항 연산자 (condition ? true : false)는 간결함으로 유명하지만 복잡하고 중첩된 조건에서는 가독성을 해치기도 합니다. 간단한 조건에 사용하세요.
 - 함정: 삼항 연산자를 중첩해서 사용하는 것을 피하세요. 이를 발견하면 별도의 구성 요소로 리팩터링하거나 if 문이나 특정 렌더링 함수를 사용하는 것이 더 적합한 접근 방식임을 나타냅니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2. 논리 && 연산자의 남용:
 
@@ -189,6 +350,17 @@ HOCs는 컴포넌트를 감싸는 함수로, 컴포넌트 로직을 재사용할
 - 팁: nullish coalescing 연산자 (??)는 null 또는 undefined 값에 대한 대체 콘텐츠를 렌더링하고 싶을 때 사용하세요. 모든 falsy 값에 대해 사용하지 마세요.
 - 함정: 논리 || 연산자와 혼동하지 마세요. expression 값 ?? alternative는 "value"가 null 또는 undefined일 때만 "alternative"를 보여주지만, value || alternative는 모든 falsy 값 (예: ``, 0, false)에 대해 "alternative"를 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 결론

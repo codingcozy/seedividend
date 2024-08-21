@@ -3,17 +3,13 @@ title: "Nextjs 14에서 Zod 및 useFormState를 사용해 폼 유효성 검사�
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Client Side Form Validation with Zod , useFormState in Nextjs 14"
 link: "https://medium.com/javascript-in-plain-english/client-side-form-validation-with-zod-useformstate-in-next-js-14-dc011a9c44fb"
 isUpdated: true
 ---
-
-
-
-
 
 웹 애플리케이션에서의 인증은 모든 풀스택 개발자가 알아야 할 중요한 부분입니다. 처음으로 인증을 구현하는 것은 많은 라이브러리와 전략이 존재하기 때문에 사람들(나 포함!)에게 성가신 경험이 될 수 있습니다. 그래서 이 블로그는 Next.js 14에서 Next-Auth v5를 사용하여 완벽한 인증을 구현하는 데 대해 쓰는 내 두 부분 블로그 중 첫 번째 부분입니다.
 
@@ -21,7 +17,18 @@ isUpdated: true
 
 ## 다음 앱 만들기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 터미널에서 아래 명령을 사용하여 Next 앱을 만들어보겠습니다.
 
@@ -33,7 +40,18 @@ npx create-next-app@latest
 
 비슷하게, Node.js 대신 Bun이 이미 설치된 경우 다음 명령을 실행하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 bunx create-next-app
@@ -62,7 +80,18 @@ my-app/
 
 다음 앱을 만든 후 프로젝트의 폴더 구조는 위와 같습니다. Next.js에 익숙하지 않은 경우에는 압도될 수 있을 수 있지만, 이것이 얼마나 간단한지 알려드리겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - node-modules: 만약 이전에 Node.js를 다뤄본 적이 있다면 이 폴더가 무엇을 의미하는지 알 것입니다. 하지만 이가 처음이라면, 이 폴더에는 프로젝트의 모든 종속성이 저장됩니다. 우리가 npm을 사용해 설치하는 모든 외부 종속성은 여기서 가져옵니다.
 - public: 이 폴더에는 이미지, 비디오, GIF 또는 PDF와 같은 다른 종류의 문서를 포함한 모든 정적 자산이 저장됩니다. 이 파일들은 크롬에 캐싱됩니다. 성능을 높이기 위해 자주 바뀌지 않습니다.
@@ -76,7 +105,18 @@ my-app/
 - package.json 및 package-lock.json: 이 파일들은 설치된 모든 패키지와 버전을 추적하고 프로젝트를 실행하기 위한 미리 정의된 스크립트를 유지합니다.
 - tailwind.config.js: 이 파일에는 Tailwind가 사용할 모든 구성이 포함되어 있어 사용자 정의를 정의합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금 이 부분을 처리했으니 npm run dev 명령을 사용해서 개발 모드로 서버를 실행해 보세요.
 
@@ -86,7 +126,18 @@ my-app/
 
 위에서 논의한 대로, 새로운 경로를 만들기 위해 app 디렉토리에 login이라는 이름의 새 폴더를 만들고 page.js라는 파일을 포함해야 합니다. 여기에 작성하는 모든 코드는 /login에 렌더링됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 사용자 이름과 비밀번호를 입력하는 간단한 양식을 만들거나 사용자는 OAuth 제공 업체인 Google, Github, Reddit 및 Twitter을 사용할 수 있습니다.
 
@@ -94,7 +145,18 @@ my-app/
 
 하지만 원하는 어떤 구성 요소 라이브러리든 사용할 수 있습니다. 정말 중요하지 않아요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마침내, 우리 페이지는 다음과 같이 보이고 이제 작업을 시작할 수 있어요.
 
@@ -104,7 +166,18 @@ my-app/
 
 ![이미지](https://miro.medium.com/v2/resize:fit:996/0*V_3NRp1Kj-niQieY.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아니에요, 여기 내 친구는 크립토어니언이 아니에요 😅
 
@@ -114,7 +187,18 @@ Zod는 TypeScript를 우선으로 한 스키마 선언 및 유효성 검사 라�
 
 Zod는 문자열, 숫자, 부울, 날짜 등과 같은 필드를 위한 기본값을 문서에서 제공합니다. 우리는 두 개의 필드만 가지고 있는데, 둘 다 문자열 값을 사용하므로 두 개 모두에 대해 별도의 스키마를 생성할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Zod은 아래에 표시된 대로 문자열 유효성 검사를 위한 많은 옵션을 기본적으로 제공합니다. 이러한 인수들을 순차적으로 처리할 수 있는 옵션과 함께 사용할 수 있습니다.
 
@@ -152,7 +236,18 @@ const passSchema = z
   });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 스키마를 사용하는 예는 .safeParse() 메소드를 사용하는 것입니다:
 
@@ -173,7 +268,18 @@ passSchema.safeParse("Password123*"); // ✅ { success: true; data: "Password123
 <input type="text" name="username" onChange={checkSchema} />
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 폼 데이터 가져오기
 
@@ -185,7 +291,18 @@ const [state, formAction] = useFormState(fn, initialState);
 
 공식 문서에서는 다음과 같이 설명합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 훅을 사용하려면 useFormState() 훅을 정의하고 제출되는 양식마다 호출될 handleCredentials라는 함수를 함께 정의하면 됩니다. 그런 다음 formData.get("input")를 사용하여 해당 입력 필드에서 데이터를 가져올 수 있습니다.
 
@@ -215,7 +332,18 @@ const [state, formAction] = useFormState(handleCredentials, initialState);
 
 클라이언트 측에서 자격 증명을 확인한 후에는 서버측 유효성 검사를 위해 해당 내용을 서버에 보낼 수 있습니다. 입력된 자격 증명이 올바른지 확인하려면 요청에 대한 응답을 받게 됩니다. 응답에 오류 메시지가 포함되어 있는 경우 해제 가능한 모달을 사용하여 해당 메시지를 표시하게 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Zod로 클라이언트 측 유효성 검사를 성공적으로 구성했습니다. 블로그를 건너뛴 모든 친구들과 코드에만 관심이 있는 분들을 위해 아래에 소스 코드를 첨부했어요.
 
@@ -225,7 +353,18 @@ Zod로 클라이언트 측 유효성 검사를 성공적으로 구성했습니�
 
 ![ClientSideFormValidationwithZod-useFormStateinNextjs14_3](/assets/img/ClientSideFormValidationwithZod-useFormStateinNextjs14_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 참고 자료:
 
@@ -238,7 +377,18 @@ Zod로 클라이언트 측 유효성 검사를 성공적으로 구성했습니�
 
 ![이미지](https://miro.medium.com/v2/resize:fit:996/0*DqPaqJr_veut8_bv.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 솔직한 영어 커뮤니티에 참여해 주셔서 감사합니다! 떠나시기 전에:
 

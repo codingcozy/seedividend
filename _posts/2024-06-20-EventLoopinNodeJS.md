@@ -3,7 +3,7 @@ title: "NodeJS의 이벤트 루프"
 description: ""
 coverImage: "/assets/img/2024-06-20-EventLoopinNodeJS_0.png"
 date: 2024-06-20 04:22
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-EventLoopinNodeJS_0.png
 tag: Tech
 originalTitle: "Event Loop in NodeJS"
@@ -11,29 +11,34 @@ link: "https://medium.com/@manikmudholkar831995/event-loop-in-nodejs-999f6db7eb0
 isUpdated: true
 ---
 
-
-
-
 ## Node.js 내부 심층 분석 (블로킹, 논블로킹 IO, 이벤트 루프, nextTick, 프로미스)
 
 ![NodeJS Event Loop](/assets/img/2024-06-20-EventLoopinNodeJS_0.png)
 
 안녕하세요! 이 글은 저의 고급 NodeJS 기술자를 위한 시리즈의 세 번째 글입니다. 이 글에서는 노드JS의 이벤트 루프가 무엇이며, 왜 그리고 어떻게 작동하는지에 대해 자세히 설명하고 있습니다. 아래에서 고급 NodeJS 기술자 시리즈의 다른 글들을 찾아볼 수 있어요:
 
-
 글 시리즈 로드맵
 
-* V8 JavaScript 엔진
-* NodeJS에서의 비동기 IO
-* NodeJS의 이벤트 루프 (이 글)
-* Worker Threads: NodeJS에서의 멀티태스킹
-* 자식 프로세스: NodeJS에서의 멀티태스킹
-* 클러스터링과 PM2: NodeJS에서의 멀티태스킹
-* 흔한 NodeJS 오해들을 해소
+- V8 JavaScript 엔진
+- NodeJS에서의 비동기 IO
+- NodeJS의 이벤트 루프 (이 글)
+- Worker Threads: NodeJS에서의 멀티태스킹
+- 자식 프로세스: NodeJS에서의 멀티태스킹
+- 클러스터링과 PM2: NodeJS에서의 멀티태스킹
+- 흔한 NodeJS 오해들을 해소
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 차례
 
@@ -51,15 +56,24 @@ isUpdated: true
   - process.nextTick 프로미스 및 setTimeout
   - IO, process.nextTick 프로미스 및 setTimeout setImmediate
 
-
 이 글에서는 Event Loop에 대해 깊이 설명하겠습니다. 따라서 초보자라도 이해하기 쉽게 했습니다. 자바스크립트를 배우기 시작할 때 이벤트 루프는 매우 추상적이며 이러한 개념들로 Node.js로 넘어가면 오해하기 쉬울 수 있습니다. 게다가 인터넷에는 많은 잘못된 다이어그램이 있습니다.
 
 # Node.js에서의 이벤트 루프
 
 ![Event Loop in Nodejs](https://miro.medium.com/v2/resize:fit:1080/1*17w5J0pMc9Ae49wztRWHhw.gif)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이벤트 루프는 종종 "반 무한 루프"라고 불리며, 이벤트 처리할 것이 없을 때까지 실행되며 루프가 살아 있으면 종료되지 않습니다. 활성 핸들이 있거나 활성 요청이 있을 경우도 마찬가지입니다.
 
@@ -82,7 +96,18 @@ isUpdated: true
 
 따라서 이러한 단계들은 때로는 단계 또는 큐로 축소될 수 있습니다. 각 상자를 이벤트 루프의 "단계"로 참조할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-20-EventLoopinNodeJS_2.png" />
 
@@ -92,7 +117,18 @@ isUpdated: true
 
 process.nextTick()은 현재 작업이 완료된 후, 이벤트 루프가 다음 단계로 진행하기 전에 즉시 콜백 함수를 실행할 수 있게 하는 함수입니다. 이는 재귀적으로 process.nextTick() 호출을 통해 I/O를 "굶게" 만들고 폴링 단계에 도달하지 못하게 하는 나쁜 상황을 만들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 process.nextTick()를 사용해야 하는 때:
 
@@ -105,7 +141,18 @@ process.nextTick()를 사용해야 하는 때:
 - process.nextTick()은 즉시 동일한 단계에서 발생합니다.
 - setImmediate()는 이벤트 루프의 다음 반복이나 `tick`에서 발생합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 개념도는 다음과 같이 나타날 것입니다
 
@@ -115,35 +162,57 @@ process.nextTick()를 사용해야 하는 때:
 
 몇 가지 예시를 살펴봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시 1)
 
 ```js
-const fs = require('fs')
+const fs = require("fs");
 
 setTimeout(() => {
-  console.log('hello');
+  console.log("hello");
 }, 0);
-fs.readFile('./AWS Migration.txt', () => {
-  console.log('world');
+fs.readFile("./AWS Migration.txt", () => {
+  console.log("world");
 });
 setImmediate(() => {
-  console.log('immediate');
+  console.log("immediate");
 });
 
 for (let index = 0; index > 2000000000; index++) {}
 ```
 
 ```js
-hello
-immediate
-world
+hello;
+immediate;
+world;
 ```
 
 세계가 먼저 출력될 것으로 예상했겠죠? 단계별로 살펴봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 먼저 "sync user code"를 실행합니다. 즉, for 루프가 실행됩니다.
 - EventLoop는 타이머 콜백을 실행하고 타이머가 완료되고 실행 준비가 된 것을 발견합니다. 결과적으로 타이머인 setTimeout이 실행됩니다. 콘솔에는 "hello"가 표시됩니다.
@@ -154,41 +223,63 @@ world
 예시 2)
 
 ```js
-const fs = require('fs')
+const fs = require("fs");
 const now = Date.now();
 setTimeout(() => {
-  console.log('hello');
+  console.log("hello");
 }, 50);
 fs.readFile(__filename, () => {
-  console.log('world');
+  console.log("world");
 });
 setImmediate(() => {
-  console.log('immediate');
+  console.log("immediate");
 });
-while(Date.now() - now < 2000) {} // 2초간 블록
+while (Date.now() - now < 2000) {} // 2초간 블록
 ```
 
 세 가지 작업을 수행합니다: setTimeot, readFile 및 setImmediate. 그 후에는 스레드를 2초 동안 차단하는 while 루프가 있습니다. 이 기간 동안 세 가지 이벤트가 각각의 대기열에 추가되어야 합니다. 따라서 while 루프가 종료될 때, EventLoop는 모든 세 가지 이벤트를 동일한 사이클에서 처리하고 다이어그램에 표시된 순서대로 콜백을 실행합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-안녕
-즉시
-세계
+안녕;
+즉시;
+세계;
 ```
 
 하지만 실제 결과는 이렇게 보입니다:
 
 ```js
-안녕
-세계
-즉시
+안녕;
+세계;
+즉시;
 ```
 
 그 이유는 I/O 폴링이라는 추가적인 과정이 있기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 I/O 이벤트는 다른 유형의 이벤트와는 달리 특정 시점에 대기열에 추가됩니다. 그래서 setImmediate()의 콜백이 readFile()의 콜백보다 먼저 실행됩니다. 둘 다 while 루프가 끝날 때 준비가 된 상태입니다.
 
@@ -201,43 +292,89 @@ while 루프가 끝난 후 2초가 지난 후 일어나는 일은 다음과 같�
 - 다음 단계로 진행하여 EventLoop는 setImmediate() 콜백을 실행합니다. 콘솔에 "immediate"가 표시됩니다.
 - 이후 EventLoop는 다시 시작합니다. 실행할 타이머가 없으므로 I/O 콜백 단계로 이동하고 마침내 readFile() 콜백을 찾아 실행합니다. 콘솔에 "world"가 나타납니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예제는 이해하기 약간 어려울 수 있지만, I/O 폴링 프로세스에 대한 유용한 통찰력을 제공합니다. 2초짜리 while 루프를 제거하면 다른 결과를 볼 수 있을 것입니다.
 
 ```js
-즉시
-월드
-안녕
+즉시;
+월드;
+안녕;
 ```
 
 setImmediate()는 setTimeout이나 파일 시스템 프로세스 중 하나도 완료되지 않았을 때 EventLoop의 첫 번째 사이클에서 작동합니다. 일정 기간이 지나면 타임아웃이 끝나고 EventLoop은 해당 콜백을 실행할 것입니다. 나중에 파일이 읽히면 EventLoop은 readFile의 콜백을 실행할 것입니다.
 
 모든 것은 타임아웃의 지연 시간과 파일의 크기에 따라 달라집니다. 파일이 크면 읽기 프로세스가 완료되는 데 더 오래 걸릴 것입니다. 마찬가지로 타임아웃이 길면 파일 읽기 프로세스가 타임아웃 이전에 완료될 수 있습니다. 그러나 setImmediate() 콜백은 고정되어 있으며 V8이 실행하는 즉시 항상 이벤트 큐에 등록됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 실습 예시
 
 ## 예시 1) setTimeout
 
 ```js
-console.log('첫번째');
-setTimeout(() => { console.log('두번째') }, 10);
-console.log('세번째');
+console.log("첫번째");
+setTimeout(() => {
+  console.log("두번째");
+}, 10);
+console.log("세번째");
 ```
 
 ```js
-첫번째
-세번째
-두번째
+첫번째;
+세번째;
+두번째;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 Markdown 형식으로 변경하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 왜 결과가 비슷한 걸까요? 네, 이유는 실행 시간이 0밀리초이지만 비동기 함수이기 때문에 여전히 타이머 큐에 들어가서 실행됩니다. 그래서 시간이 걸립니다.
 
@@ -246,17 +383,28 @@ console.log('세번째');
 만약 세 번째 호출이 루프를 3초 동안 차단하면 우리가 0 밀리초로 설정했던 두 번째 호출이 될까요?
 
 ```js
-console.log('first');
-setTimeout(() => { console.log('second') }, 0);
-const startTime = new Date()
-const endTime = new Date(startTime.getTime() + 3000)
-while (new Date() < endTime) {
-}
-console.log('third');
+console.log("first");
+setTimeout(() => {
+  console.log("second");
+}, 0);
+const startTime = new Date();
+const endTime = new Date(startTime.getTime() + 3000);
+while (new Date() < endTime) {}
+console.log("third");
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 첫 번째
 세 번째
@@ -268,39 +416,61 @@ console.log('third');
 
 ```js
 setTimeout(() => {
-  console.log('setTimeout');
+  console.log("setTimeout");
 }, 0);
 
 setImmediate(() => {
-  console.log('setImmediate');
+  console.log("setImmediate");
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가끔 프로세스가 실행하는 데 더 오랜 시간이 걸릴 수 있어(밀리초 기준) 타이머 대기열이 비어 있을 때 이벤트 루프가 지나가는 경우가 있습니다. 또는 이벤트 루프가 너무 빨리 작동하여 다중화기가 이벤트를 제때 이벤트 큐에 등록하지 못할 수도 있습니다. 결과적으로 이 예제를 여러 번 실행하면 각 시간마다 다른 결과를 얻을 수 있습니다.
 
 ## 예제 4) fs 콜백 내부의 setTimeout & setImmediate
 
 ```js
-const fs  = require('fs');
+const fs = require("fs");
 
 fs.readFile(__filename, () => {
   setTimeout(() => {
-    console.log('setTimeout');
+    console.log("setTimeout");
   }, 0);
-  
+
   setImmediate(() => {
-    console.log('setImmediate');
+    console.log("setImmediate");
   });
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-setImmediate
-setTimeout
+setImmediate;
+setTimeout;
 ```
 
 setTimeout와 setImmediate는 readFile 함수 내부에 작성되어 있으므로, 콜백이 실행될 때 이벤트 루프가 I/O 단계에 있음을 알 수 있습니다. 따라서, 다음으로 진행되는 것은 setImmediate 대기열입니다. setImmediate가 즉시 대기열에 등록되므로 항상 이 순서로 로그가 표시되는 것은 놀라운 일이 아닙니다.
@@ -308,22 +478,31 @@ setTimeout와 setImmediate는 readFile 함수 내부에 작성되어 있으므�
 ## 예제 5) process.nextTick 및 Promise
 
 ```js
-console.log('first');
+console.log("first");
 
 process.nextTick(() => {
-  console.log('nextTick');
+  console.log("nextTick");
 });
 
-Promise.resolve()
-  .then(() => {
-    console.log('Promise');
-  });
+Promise.resolve().then(() => {
+  console.log("Promise");
+});
 
-console.log('second');
+console.log("second");
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 첫 번째
@@ -336,22 +515,21 @@ console.log('second');
 
 ```js
 process.nextTick(() => {
-  console.log('다음 실행 1');
+  console.log("다음 실행 1");
 
   process.nextTick(() => {
-    console.log('다음 실행 2');
+    console.log("다음 실행 2");
 
-    process.nextTick(() => console.log('다음 실행 3'));
-    process.nextTick(() => console.log('다음 실행 4'));
+    process.nextTick(() => console.log("다음 실행 3"));
+    process.nextTick(() => console.log("다음 실행 4"));
   });
 
   process.nextTick(() => {
-    console.log('다음 실행 5');
+    console.log("다음 실행 5");
 
-    process.nextTick(() => console.log('다음 실행 6'));
-    process.nextTick(() => console.log('다음 실행 7'));
+    process.nextTick(() => console.log("다음 실행 6"));
+    process.nextTick(() => console.log("다음 실행 7"));
   });
-  
 });
 ```
 
@@ -365,7 +543,18 @@ process.nextTick(() => {
 다음 실행 7
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 설명 드릴게요:
 이 코드를 실행하면 중첩된 process.nextTick 콜백들이 일련의 일정에 맞게 예약됩니다.
@@ -388,85 +577,116 @@ nT5 executed: [ nT3, nT4, nT6, nT7 ]
 // ...
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 예제 6) process.nextTick promises 및 setTimeouts
 
 ```js
 process.nextTick(() => {
-  console.log('nextTick');
+  console.log("nextTick");
 });
 
-Promise.resolve()
-  .then(() => {
-    console.log('Promise');
-  });
+Promise.resolve().then(() => {
+  console.log("Promise");
+});
 
 setTimeout(() => {
-  console.log('setTimeout');
+  console.log("setTimeout");
 }, 0);
 
 setImmediate(() => {
-  console.log('setImmediate');
+  console.log("setImmediate");
 });
 ```
 
 ```js
-nextTick
-Promise
-setTimeout
-setImmediate
+nextTick;
+Promise;
+setTimeout;
+setImmediate;
 ```
 
 ## 예제 7) IO, process.nextTick promises와 setTimeouts setImmediate
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-const fs  = require('fs');
+const fs = require("fs");
 
 fs.readFile(__filename, () => {
   process.nextTick(() => {
-    console.log('nextTick in fs');
+    console.log("nextTick in fs");
   });
 
   setTimeout(() => {
-    console.log('setTimeout');
+    console.log("setTimeout");
 
     process.nextTick(() => {
-      console.log('nextTick in setTimeout');
+      console.log("nextTick in setTimeout");
     });
   }, 0);
-  
+
   setImmediate(() => {
-    console.log('setImmediate');
+    console.log("setImmediate");
 
     process.nextTick(() => {
-      console.log('nextTick in setImmediate');
+      console.log("nextTick in setImmediate");
 
-      Promise.resolve()
-        .then(() => {
-          console.log('Promise in setImmediate');
-        });
+      Promise.resolve().then(() => {
+        console.log("Promise in setImmediate");
+      });
     });
-  });  
+  });
 });
 ```
 
 ```js
-nextTick in fs
-setImmediate
-nextTick in setImmediate
-Promise in setImmediate
-setTimeout
-nextTick in setTimeout
+nextTick in fs;
+setImmediate;
+nextTick in setImmediate;
+Promise in setImmediate;
+setTimeout;
+nextTick in setTimeout;
 ```
 
 V8이 코드를 실행할 때, 처음에는 fs.readFile() 하나의 작업만 있습니다. 이 작업이 처리되는 동안 Event Loop가 각 큐를 확인하며 작업을 계속합니다. 계속해서 카운터가 0이 되어 Event Loop는 프로세스를 종료할 때까지 큐를 확인합니다.
 
 결국 파일 시스템 읽기 작업이 완료되고, Event Loop는 I/O 큐를 확인하면서 이를 감지합니다. 콜백 함수 내에는 nextTick, setTimeout, 그리고 setImmediate와 같이 세 가지 새로운 작업이 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자 이제 우선순위에 대해 생각해보세요.
 
@@ -477,17 +697,28 @@ V8이 코드를 실행할 때, 처음에는 fs.readFile() 하나의 작업만 �
 이 시점에서 모든 마이크로태스크 큐가 비어 있으므로 이벤트 루프가 계속 진행하고 다음으로 타이머 큐 안에 이벤트를 발견합니다.
 이제 마지막으로 “setTimeout”과 “setTimeout 내부의 nextTick”이 우리가 논의한 로직과 동일한 방식으로 기록됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 예제 8) IO, process.nextTick promises 및 setTimeouts setImmediate
 
 ```js
-setTimeout(() => console.log('Timeout 1'));
+setTimeout(() => console.log("Timeout 1"));
 setTimeout(() => {
-    console.log('Timeout 2');
-    Promise.resolve().then(() => console.log('promise resolve'));
+  console.log("Timeout 2");
+  Promise.resolve().then(() => console.log("promise resolve"));
 });
-setTimeout(() => console.log('Timeout 3'));
+setTimeout(() => console.log("Timeout 3"));
 ```
 
 ```js
@@ -499,7 +730,18 @@ Timeout 3
 
 ## 참고문헌
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 노드 JS 내부 아키텍처 | Ignition, Turbofan, Libuv
 - 노드.js가 확장하는 이유는? Libuv 및 epoll 및 fcntl

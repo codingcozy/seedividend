@@ -3,17 +3,13 @@ title: "NextJs 앱을 안전하게 유지하세요 Supabase Auth에 대한 간�
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Secure Your NextJs App A Simple Guide to Supabase Auth"
 link: "https://medium.com/@whateverittech/secure-your-nextjs-app-a-simple-guide-to-supabase-auth-4e69cf9ecf99"
 isUpdated: true
 ---
-
-
-
-
 
 ## NextJs 14 앱 라우터에서 Supabase Auth를 사용하는 단계별 가이드
 
@@ -25,7 +21,18 @@ isUpdated: true
 - TailwindCSS
 - Supabase Auth
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 설치:
 
@@ -41,7 +48,18 @@ npm install @supabase/supabase-js @supabase/ssr
 
 # 단계 1: UI 구성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 설치가 완료되면 로그인, 가입, 오류 및 환영 페이지를 만들어보세요.
 
@@ -112,7 +130,18 @@ const Label: React.FC<LabelProps> = ({ children, ...rest }) => {
 const Separator = () => <hr className="border-white/10 my-2" />;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - SupabaseLogo 컴포넌트용 /components/logo-supabase.tsx 파일을 생성하세요.
 
@@ -129,7 +158,18 @@ export default function SupabaseLogo() {
       <path d="M485.645 66.7608
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 export default function ErrorPage() {
@@ -165,25 +205,27 @@ export default async function Home() {
   );
 }
 
-const LinkButton = ({
-  href,
-  children,
-}: {
-  href: string,
-  children: React.ReactNode,
-}) => {
+const LinkButton = ({ href, children }: { href: string, children: React.ReactNode }) => {
   return (
-    <Link
-      href={href}
-      className="text-white/30 hover:text-white transition duration-100 ease-in-out"
-    >
+    <Link href={href} className="text-white/30 hover:text-white transition duration-100 ease-in-out">
       {children}
     </Link>
   );
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 2: 클라이언트 Supabase 생성하기
 
@@ -197,7 +239,18 @@ const LinkButton = ({
 - 루트 폴더에 .env.local 파일 생성
 - URL 및 Anon/Public Key 값을 .env.local로 복사하세요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 NEXT_PUBLIC_SUPABASE_URL=<당신의_수파베이스_프로젝트_URL>
@@ -219,7 +272,18 @@ export function createClient() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. 서버 측 Supabase 클라이언트 생성
 
@@ -258,7 +322,18 @@ export function createClient() {
 
 4. 미들웨어 생성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 미들웨어는 getUser() 함수를 사용하여 인증 토큰을 새로 고칩니다. 루트 폴더에 middleware.ts 라는 새 파일을 만들고 다음 코드를 따라하거나 복사하세요.
 
@@ -342,7 +417,18 @@ export const config = {
 
 Supabase를 위한 기능을 생성한 후에는 해당 유틸 함수를 로그인/가입 및 환영 페이지와 통합할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1. 로그인/가입 동작
 
@@ -395,7 +481,18 @@ export async function signup(formData: FormData) {
 
 2. 로그인 페이지와 통합하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 로그인 페이지의 기능 로그인 및 가입 기능을 /app/login/page.tsx에 가져오세요
 
@@ -424,15 +521,22 @@ export default function LoginPage() {
 
 Supabase Auth에서 가입한 후 사용자는 사용자를 활성화하는 이메일을 수신합니다. 이 페이지는 사용자에게 이메일을 확인하도록 알림하는 페이지입니다. 이 페이지를 만들려면 /app/auth/notification/page.tsx에 새 파일을 만들고 다음 코드를 따르세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 export default function NotificationPage() {
-  return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      이메일을 확인해주세요.
-    </main>
-  );
+  return <main className="flex min-h-screen flex-col items-center justify-between p-24">이메일을 확인해주세요.</main>;
 }
 ```
 
@@ -448,7 +552,18 @@ export default function NotificationPage() {
 <p><a href="{ .SiteURL }/auth/confirm?token_hash={ .TokenHash }&type=signup">이메일 확인</a></p>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 5. API 사용자 활성화
 
@@ -492,7 +607,18 @@ export async function GET(request: NextRequest) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 6. 로그아웃 컴포넌트
 
@@ -513,10 +639,7 @@ export default function SignOut() {
 
   return (
     <form>
-      <button
-        formAction={logout}
-        className="text-white/30 hover:text-white transition duration-100 ease-in-out"
-      >
+      <button formAction={logout} className="text-white/30 hover:text-white transition duration-100 ease-in-out">
         로그아웃
       </button>
     </form>
@@ -526,7 +649,18 @@ export default function SignOut() {
 
 7. 웰컴 페이지에 Supabase 통합하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 웰컴 페이지 업데이트 /app/page.tsx
 - SignOut 가져와 utils에서 createClient 서버 사이드로 임포트

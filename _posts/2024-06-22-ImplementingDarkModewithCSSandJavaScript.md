@@ -3,16 +3,13 @@ title: "CSS와 JavaScript로 다크 모드 구현하는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-22-ImplementingDarkModewithCSSandJavaScript_0.png"
 date: 2024-06-22 15:19
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-ImplementingDarkModewithCSSandJavaScript_0.png
 tag: Tech
 originalTitle: "Implementing Dark Mode with CSS and JavaScript"
 link: "https://medium.com/@volodymyrzh/implementing-dark-mode-with-css-and-javascript-fd3b2105e081"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-06-22-ImplementingDarkModewithCSSandJavaScript_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 구현 세부 사항에 대해 자세히 알아보기 전에, CSS와 JavaScript를 사용하는 것이 다크 모드 기능을 만드는 데 유리한 이유를 살펴보겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - CSS: Cascading Style Sheets (CSS)는 문서의 프리젠테이션을 내용으로부터 분리할 수 있게 해줍니다. CSS 변수와 미디어 쿼리를 사용하여 어두운 테마와 밝은 테마 스타일을 효율적으로 정의하고 원활하게 전환할 수 있습니다.
 - JavaScript: JavaScript는 사용자 상호작용을 기반으로 테마 간 전환을 중요한 역할을 합니다. 클래스를 동적으로 추가하거나 제거하고, 실시간으로 CSS 변수를 조작하며, 심지어 후속 방문을 위한 사용자 환경 설정을 저장하는 데 사용할 수 있습니다.
@@ -33,7 +41,18 @@ CSS의 스타일링 기능과 JavaScript의 인터랙티브 기능을 결합하�
 
 # 단계별 구현
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 1: 색 스키마를 위한 CSS 변수 정의
 
@@ -50,9 +69,20 @@ CSS의 스타일링 기능과 JavaScript의 인터랙티브 기능을 결합하�
 
 # 단계 2: 기본 밝은 모드 적용
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-정의된 CSS 변수를 사용하여 기본 라이트 모드 스타일을 적용하십시오. 이 단계를 통해 웹 사이트가 나중에 전환될 수 있는 기본외관을 갖게 됩니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+정의된 CSS 변수를 사용하여 기본 라이트 모드 스타일을 적용하십시오. 이 단계를 통해 웹 사이트가 나중에 전환될 수 있는 기본외관을 갖게 됩니다.
 
 ```js
 body {
@@ -65,7 +95,18 @@ body {
 
 기본의 라이트 모드 스타일을 다크 모드 값으로 변경하는 클래스 .dark-mode를 생성하십시오. 이 클래스는 사용자의 선택에 따라 JavaScript를 사용하여 토글됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 .dark-mode {
@@ -80,11 +121,22 @@ body {
 
 ```js
 function toggleDarkMode() {
-  document.body.classList.toggle('dark-mode');
+  document.body.classList.toggle("dark-mode");
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 5: 사용자의 선호도 기억하기
 
@@ -92,21 +144,32 @@ function toggleDarkMode() {
 
 ```js
 function toggleDarkMode() {
-  let isDark = document.body.classList.toggle('dark-mode');
-  localStorage.setItem('darkMode', isDark ? 'enabled' : 'disabled');
+  let isDark = document.body.classList.toggle("dark-mode");
+  localStorage.setItem("darkMode", isDark ? "enabled" : "disabled");
 }
 
 // 페이지 로드 시
-document.addEventListener('DOMContentLoaded', (event) => {
-  if (localStorage.getItem('darkMode') === 'enabled') {
-    document.body.classList.add('dark-mode');
+document.addEventListener("DOMContentLoaded", (event) => {
+  if (localStorage.getItem("darkMode") === "enabled") {
+    document.body.classList.add("dark-mode");
   }
 });
 ```
 
 # 단계 6: 토글 버튼 추가
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마침내, 웹 사이트에 다크 모드 전환 함수를 호출하는 버튼을 추가해보세요. 이렇게 하면 사용자가 모드를 쉽게 전환할 수 있습니다.
 
@@ -118,7 +181,18 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
 워드프레스 사이트에 좋은 호스팅을 찾고 계신가요? Host4Biz를 주목해보세요. 유럽에 현대적인 서버를 갖추고 있는 신뢰할 수 있는 호스팅업체로, 우크라이나 팀이 운영하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로모션 코드 MYHOST10을 사용하면 첫 결제 시 10% 할인 혜택을 받을 수 있어요. 이를 위해서는 여기에서 등록하고 결제 전에 코드를 입력해주세요.
 

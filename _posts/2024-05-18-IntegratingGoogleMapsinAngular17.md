@@ -3,16 +3,13 @@ title: "Angular 17에서 Google 지도 통합하기"
 description: ""
 coverImage: "/assets/img/2024-05-18-IntegratingGoogleMapsinAngular17_0.png"
 date: 2024-05-18 22:02
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-18-IntegratingGoogleMapsinAngular17_0.png
 tag: Tech
 originalTitle: "Integrating Google Maps in Angular 17"
 link: "https://medium.com/@selsa-pingardi/integrating-google-maps-in-angular-17-66487ed2238c"
 isUpdated: true
 ---
-
-
-
 
 만약 당신이 Angular에서 Google 지도 컴포넌트를 사용해 왔다면, 2024년 2월 21일부로 Marker가 사용 중단되었다는 경고를 받은 적이 있을 것입니다. 새롭고 더 사용자 정의할 수 있는 Advanced Marker를 사용하도록 권장되었습니다.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 그러면 시작해봅시다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 준비물
 
@@ -34,7 +42,18 @@ https://developers.google.com/maps/documentation/get-map-id
 
 만일 맵 ID를 가지고 있지 않거나 얻을 수 없다면, 구글에서 제공한 개발용 맵 ID를 사용할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Map ID = DEMO_MAP_ID
 
@@ -47,7 +66,18 @@ ng new angular-google-maps
 cd angular-google-maps
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Google Maps 모듈을 설치하려면 다음 명령어를 실행하세요:
 
@@ -59,7 +89,18 @@ Angular v17에서는 새 응용 프로그램이 기본적으로 독립적인 프
 
 독립적인 컴포넌트의 경우 모듈을 src/app/app.component.ts 파일에 다음과 같이 가져옵니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 ...
@@ -91,7 +132,18 @@ export class AppModule {}
 
 다음 스크립트를 애플리케이션의 src/index.html 파일에 추가하고 YOUR_API_KEY를 해당하는 API 키로 교체하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <!DOCTYPE html>
@@ -134,7 +186,18 @@ export class AppModule {}
 
 이제 맵의 높이와 너비를 추가하고, 옵션을 설정하여 구글 지도 컴포넌트를 애플리케이션에 추가할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 지도가 렌더링된 맵의 ID를 나타냅니다
 - center는 맵의 중심 (위도 및 경도)
@@ -161,7 +224,18 @@ export class AppComponent {
 
 이제 다음 명령을 사용하여 응용 프로그램을 실행하실 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 ng serve
@@ -173,7 +247,18 @@ ng serve
 
 # 고급 마커 추가하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, 마커의 위치(위도 및 경도)를 정의해야 합니다. 다음 변수를 app.component.ts 파일에 선언해주세요:
 
@@ -215,20 +300,25 @@ export class AppComponent {
 ```html
 <google-map height="600px" width="800px" [options]="options">
   @for (location of nzLocations; track location) {
-  <map-advanced-marker
-    #markerElem="mapAdvancedMarker"
-    [position]="{ lat: location.lat, lng: location.lng }"
-  />
+  <map-advanced-marker #markerElem="mapAdvancedMarker" [position]="{ lat: location.lat, lng: location.lng }" />
   } @for (location of auLocations; track location) {
-  <map-advanced-marker
-    #markerElem="mapAdvancedMarker"
-    [position]="{ lat: location.lat, lng: location.lng }"
-  />
+  <map-advanced-marker #markerElem="mapAdvancedMarker" [position]="{ lat: location.lat, lng: location.lng }" />
   }
 </google-map>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금은 파일을 저장할 수 있고, 지도에 여러 호주 및 뉴질랜드 위치 표시기가 삽입된 것을 확인할 수 있습니다.
 
@@ -238,7 +328,18 @@ export class AppComponent {
 
 이제 우리가 지도를 성공적으로 초기화하고 표시기를 추가했으므로, 사용자 정의 이미지로 그들을 계속하여 사용자 정의할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 인라인 SVG 사용하기
 
@@ -257,7 +358,18 @@ ngOnInit() {
 
 다음으로, 우리의 뉴질랜드 마커를 루프하여 원하는 이미지로 설정합니다. forEach 루프를 사용하여 각 위치의 내용 속성을 파서를 사용하여 문서 요소로 설정합니다. 위 코드에 이어 ngOnInit() 함수 내에서 이 작업을 수행하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 this.nzLocations.forEach((location) => {
@@ -268,20 +380,29 @@ this.nzLocations.forEach((location) => {
 모든 위치의 내용이 설정된 후에는 New Zealand 위치의 `map-advanced-marker` 태그의 내용 속성을 app.component.html 파일에서도 추가하고 수정해야 합니다.
 
 ```html
-...
-@for (location of nzLocations; track location) {
+... @for (location of nzLocations; track location) {
 <map-advanced-marker
   #markerElem="mapAdvancedMarker"
   [position]="{ lat: location.lat, lng: location.lng }"
   [content]="location.content"
 />
-}
-...
+} ...
 ```
 
 다음 이미지는 마커의 기본 핀 모양을 변경한 후 현재 지도가어떻게 보여야하는지 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-05-18-IntegratingGoogleMapsinAngular17_2.png" />
 
@@ -291,7 +412,18 @@ PNG 이미지를 사용하려면 이미지를 참조하고 해당 요소를 위�
 
 app.component.ts 파일에서 먼저 PNG 이미지에 대한 링크를 정의합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 ngOnInit() {
@@ -313,8 +445,18 @@ this.auLocations.forEach((location) => {
 
 한번 더, app.component.html 파일에서 오스트레일리아 위치들의 `map-advanced-marker` 태그의 내용 속성을 추가 및 수정해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 @for (location of auLocations; track location) {
@@ -326,24 +468,43 @@ this.auLocations.forEach((location) => {
 }
 ```
 
-
 The final result should look like the following image:
 
 ![Integrating Google Maps in Angular](/assets/img/2024-05-18-IntegratingGoogleMapsinAngular17_3.png)
 
 ## Adding a Title
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마커 위로 마우스를 올리면 제목 텍스트가 나타나며, 이는 `map-advanced-marker` 태그의 title 속성을 수정하여 설정합니다. 아래 코드에서는 각 위치의 인덱스 번호를 기반으로 제목을 추가했지만, 원하는 대로 변경할 수 있습니다.
-
 
 따라서 마커 위로 커서를 올리면 해당 위치 번호가 나타나는 작은 텍스트가 표시됩니다.
 
 <img src="/assets/img/2024-05-18-IntegratingGoogleMapsinAngular17_4.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 정보 창 추가하기
 
@@ -362,7 +523,18 @@ export class AppComponent {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼, 마커를 클릭했을 때 실행될 AppComponent 클래스의 함수를 작성할 수 있어요:
 
@@ -381,7 +553,18 @@ export class AppComponent {
 
 이제 할 일은 만들어둔 onMarkerClick 함수와 `map-info-window` 태그를 app.component.html 파일에 추가하는 거에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파일을 저장하고 이제 마커를 클릭하면 마커 제목이 나타나는 정보 창이 표시됩니다.
 
@@ -389,8 +572,18 @@ export class AppComponent {
 
 # 결론
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금까지 따라오신 여러분, 축하드립니다! 구글 지도를 구현하여 클릭 시 정보 창이 열리는 사용자 정의 고급 마커가 포함된 지도를 성공적으로 만들었습니다.
 

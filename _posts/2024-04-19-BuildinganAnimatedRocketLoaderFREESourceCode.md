@@ -3,17 +3,13 @@ title: "애니메이션 로켓 로더 만들기소스코드 있음"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Building an Animated Rocket Loader  FREE Source Code"
 link: "https://medium.com/@withaarzoo/building-an-animated-rocket-loader-free-source-code-543edcdbc2a8"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/1*7ZmbAQ3KO-vYEaFiol1_tQ.gif" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 먼저, Visual Studio Code 또는 Sublime Text와 같은 텍스트 편집기가 준비되어 있는지 확인해주세요. 프로젝트를 위한 새 폴더를 만들고 선호하는 텍스트 편집기에서 해당 폴더를 열어주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 2: HTML 구조
 
@@ -55,7 +62,18 @@ isUpdated: true
 
 # 단계 3: CSS로 스타일링하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 로켓 로더를 멋지게 보이도록 몇 가지 스타일을 추가해 봅시다. style.css라는 새 파일을 만들고 HTML 파일에 링크하세요.
 
@@ -83,7 +101,18 @@ isUpdated: true
 
 우리는 로켓 및 구름 아이콘에 Font Awesome를 사용할 것입니다. HTML 파일에 Font Awesome가 연결되어 있는지 확인해 주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <head>
@@ -152,7 +181,18 @@ isUpdated: true
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 6: 마지막 손질과 테스트
 
@@ -162,7 +202,18 @@ isUpdated: true
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오늘은 HTML과 CSS를 사용하여 애니메이션 로켓 로더를 만드는 방법을 배웠어요. 이 프로젝트는 사용자 경험을 향상시키는데 도움이 되며, 당신의 웹페이지에 창의성을 더해줍니다. 계속해서 새로운 기술을 실험하고 탐험해보세요. 즐거운 코딩되세요!
 

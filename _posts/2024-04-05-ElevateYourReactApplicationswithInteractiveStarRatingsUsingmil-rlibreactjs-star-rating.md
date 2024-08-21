@@ -3,17 +3,13 @@ title: "React에서 mil-rliB reactjs-star-rating를 사용하여 대화형 별�
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Elevate Your React Applications with Interactive Star Ratings Using mil-rlib reactjs-star-rating"
 link: "https://medium.com/@milayek86/elevate-your-react-applications-with-interactive-star-ratings-using-mil-rlib-reactjs-star-rating-89c16a2d312f"
 isUpdated: true
 ---
-
-
-
-
 
 지금의 경쟁 심화된 디지털 환경에서는 사용자 참여를 강화하는 것이 모든 웹 애플리케이션의 성공에 중요합니다. 이를 달성하는 한 가지 효과적인 방법은 별점과 같은 인터랙티브 기능을 통합하는 것입니다. 이 포괄적인 안내서에서는 ReactJS Star Rating 컴포넌트의 파워를 활용하여 애플리케이션을 향상시키고 사용자 상호작용을 촉진하는 방법을 살펴보겠습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 사용자 피드백은 사용자 경험을 형성하고 제품 결정을 이끌어내는 데 중요한 역할을 합니다. ReactJS Star Rating 컴포넌트를 애플리케이션에 통합함으로써 사용자들이 자신의 의견을 표현할 수 있는 간단하고 효과적인 방법을 제공할 수 있습니다. 전자 상거래 플랫폼, 리뷰 사이트 또는 소셜 네트워킹 앱을 개발하고 있다면, 별점을 구현하여 가치 있는 피드백을 수집하고 사용자 참여를 강화하는 것이 중요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 특징들
 
@@ -36,7 +43,18 @@ isUpdated: true
 
 React 애플리케이션에 별점 평가를 구현하는 첫 번째 단계는 ReactJS Star Rating 구성 요소를 설치하는 것입니다. 다음 명령을 실행하여 쉽게 설치할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 패키지 @mil-rlib/reactjs-star-rating
 
@@ -48,7 +66,18 @@ npm install @mil-rlib/reactjs-star-rating
 
 또는
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 yarn add @mil-rlib/reactjs-star-rating
@@ -60,7 +89,18 @@ yarn add @mil-rlib/reactjs-star-rating
 
 ReactJS Star Rating 컴포넌트를 설치하면 응용 프로그램에 별점을 추가하는 것이 매우 쉽습니다. StarRating 컴포넌트를 가져와서 원하는 등급을 속성(prop)으로 전달하면 됩니다. 다음은 기본적인 예시입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import React from ‘react’;
@@ -106,7 +146,18 @@ const App = () => {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 비활성화된 평가
 
@@ -132,7 +183,18 @@ export default DisabledExample;
 
 정적인 별점 평가를 표시하는 것은 유용하지만, 사용자가 상호작용하여 피드백을 제공할 수 있도록 하는 것은 사용자 참여를 높일 수 있습니다. ReactJS Star Rating 구성 요소를 사용하면 상호작용하는 별점 평가를 구현하기가 간단합니다. React의 상태 관리 기능을 활용하고 구성 요소가 제공하는 onChange 콜백을 사용하여 동적이고 상호작용하는 별점 평가 시스템을 만들 수 있습니다. 이를 통해 사용자는 제품, 서비스 등을 쉽게 평가할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 속성:
 
@@ -142,7 +204,18 @@ export default DisabledExample;
 
 마지막으로, ReactJS 스타 등급 컴포넌트를 React 애플리케이션에 통합하는 것은 사용자 참여를 촉진하고 가치 있는 피드백을 모을 수 있는 확실한 방법입니다. 귀하의 전자 상거래 플랫폼에서 사용자 경험을 향상시키거나 리뷰 사이트에서 사용자 참여를 촉진하려는 경우, 스타 등급은 중요한 기능으로서 상당한 차이를 만들 수 있습니다. 이 안내서에 소개된 단계를 따르면 React 애플리케이션에 스타 등급을 원활하게 통합하여 사용자가 자신의 의견을 시각적이고 직관적인 방식으로 표현할 수 있도록 제공할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프론트 엔드 개발자님 안녕하세요!
 

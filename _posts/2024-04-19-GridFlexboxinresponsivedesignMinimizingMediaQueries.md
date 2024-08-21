@@ -3,17 +3,13 @@ title: "미디어 쿼리 안쓰고 반응형 웹사이트 만드는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Grid , Flexbox in responsive design Minimizing Media Queries"
 link: "https://medium.com/@armstrongjustin034/grid-flexbox-in-responsive-design-minimizing-media-queries-1d00e1791c3b"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/Grid-FlexboxinresponsivedesignMinimizingMediaQueries_0.png" />
 
@@ -115,7 +111,18 @@ isUpdated: true
 </html>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리드의 내재된 반응성을 통해 그리드 항목의 유동적인 크기 조정과 재배치가 가능해지며, 이는 미디어 쿼리에서 빈번한 조정이 필요한 고정 너비 레이아웃의 양을 줄여줍니다.
 

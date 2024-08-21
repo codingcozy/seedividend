@@ -3,16 +3,13 @@ title: "TypeScript, Express, TypeORM, 인증, 권한 부여 및 Postgres를 활�
 description: ""
 coverImage: "/assets/img/2024-06-20-BuildingaRESTAPIwithTypeScriptExpressTypeORMAuthenticationAuthorizationandPostgres_0.png"
 date: 2024-06-20 05:21
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-BuildingaRESTAPIwithTypeScriptExpressTypeORMAuthenticationAuthorizationandPostgres_0.png
 tag: Tech
 originalTitle: "Building a REST API with TypeScript, Express, TypeORM, Authentication, Authorization, and Postgres"
 link: "https://medium.com/@christianinyekaka/building-a-rest-api-with-typescript-express-typeorm-authentication-authorization-and-postgres-e87d07d1af08"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-06-20-BuildingaRESTAPIwithTypeScriptExpressTypeORMAuthenticationAuthorizationandPostgres_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 시작하기 전에 다음 도구에 대한 경험이나 이해가 필요합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - TypeScript
 - TypeORM
@@ -37,7 +45,18 @@ ORM은 Object-Relational Mapping의 약자로, 객체 지향 패러다임을 사
 
 TypeORM은 Node.js 및 다양한 플랫폼에서 작동하는 다재다능한 ORM입니다. TypeScript 응용 프로그램에 매우 적합하며, 엔티티 및 열을 정의하기 위해 데코레이터를 사용한다는 점이 특히 잘 어울립니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 캐시(캐싱)란 무엇인가요?
 
@@ -47,7 +66,18 @@ TypeORM은 Node.js 및 다양한 플랫폼에서 작동하는 다재다능한 OR
 
 # 프로젝트 설정
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트를 초기화하려면 TypeORM CLI를 사용해보세요:
 
@@ -59,7 +89,18 @@ npx typeorm init --name restAPi --database postgres
 
 참고: 위 명령을 실행하기 전에 컴퓨터에 TypeORM이 전역으로 설치되어 있는지 확인하세요. 만약 없다면 간단히 아래 명령을 실행해보세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm i -g typeorm
@@ -83,7 +124,18 @@ restApi
 
 이제 추가적인 종속성을 설치해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm install express dotenv bcrypt jsonwebtoken concurrently memory-cache
@@ -98,9 +150,20 @@ npm install express dotenv bcrypt jsonwebtoken concurrently memory-cache
 - concurrently: 단일 터미널에서 여러 npm 스크립트를 동시에 실행할 수 있게 하는 Node.js 유틸리티입니다.
 - memory-cache: Node.js를 위한 간단한 메모리 캐싱 라이브러리로, 데이터를 메모리에 저장하여 빠르게 액세스하고 검색할 수 있는 방법을 제공합니다.
 
-## 이러한 종속성들에 대한 TypeScript 타입 정의 설치:  
+## 이러한 종속성들에 대한 TypeScript 타입 정의 설치:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 TypeScript로 작업하고 있으니 의존성에 대한 @types를 설치하는 것이 좋습니다.
 
@@ -112,7 +175,18 @@ npm i @types/express @types/bcrypt @types/jsonwebtoken @types/memory-cache
 
 # 프로젝트 파일 수정하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새 폴더 구조:
 
@@ -154,7 +228,18 @@ step-by-step
 
 다음 종속성을 포함하여 package.json 파일을 업데이트하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```json
 {
@@ -195,14 +280,24 @@ step-by-step
 }
 ```
 
-필요한 종속성과 개발에 필요한 스크립트 및 마이그레이션 실행이 포함되어 있습니다. 
+필요한 종속성과 개발에 필요한 스크립트 및 마이그레이션 실행이 포함되어 있습니다.
 
 concurrently를 사용하여 "tsc -w" 및 "nodemon build/index.js"를 동시에 실행하므로 앱을 실행하려면 npm run start:dev를 실행하면 ts 파일을 js로 컴파일한 다음 nodemon을 실행할 것입니다.
 
 # src/index.ts
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기에 향상된 src/index.ts 파일이 있습니다:
 
@@ -241,7 +336,18 @@ AppDataSource.initialize()
 
 # src/data-source.ts
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 업데이트된 src/data-source.ts 파일입니다:
 
@@ -257,8 +363,7 @@ import { Movie } from "./entity/Movies.entity";
 
 dotenv.config();
 
-const { DB_HOST, DB_PORT, DB_USERNAME, DB_PASSWORD, DB_DATABASE, NODE_ENV } =
-  process.env;
+const { DB_HOST, DB_PORT, DB_USERNAME, DB_PASSWORD, DB_DATABASE, NODE_ENV } = process.env;
 
 export const AppDataSource = new DataSource({
   type: "postgres",
@@ -269,7 +374,7 @@ export const AppDataSource = new DataSource({
   database: DB_DATABASE,
 
   synchronize: NODE_ENV === "dev" ? false : false,
-//logging logs sql command on the treminal
+  //logging logs sql command on the treminal
   logging: NODE_ENV === "dev" ? false : false,
   entities: [User, Movie],
   migrations: [__dirname + "/migration/*.ts"],
@@ -279,20 +384,25 @@ export const AppDataSource = new DataSource({
 
 # Entities
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것들은 데이터베이스 테이블의 구조를 정의합니다:
 
 # 사용자 엔터티
 
 ```js
-import {
-  Entity,
-  PrimaryGeneratedColumn,
-  Column,
-  CreateDateColumn,
-  UpdateDateColumn,
-} from "typeorm";
+import { Entity, PrimaryGeneratedColumn, Column, CreateDateColumn, UpdateDateColumn } from "typeorm";
 
 @Entity({ name: "users" })
 export class User {
@@ -321,16 +431,21 @@ export class User {
 
 # 영화 엔터티
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-import {
-  Column,
-  CreateDateColumn,
-  Entity,
-  PrimaryGeneratedColumn,
-  UpdateDateColumn,
-} from "typeorm";
+import { Column, CreateDateColumn, Entity, PrimaryGeneratedColumn, UpdateDateColumn } from "typeorm";
 
 @Entity({ name: "movies" })
 export class Movie {
@@ -372,7 +487,18 @@ src/helpers/helpers.ts
 
 Encrypt 클래스는 비밀번호를 암호화하고, 로그인 프로세스를 위해 비교하며 토큰을 생성하는 데 도움이 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import * as jwt from "jsonwebtoken";
@@ -402,17 +528,23 @@ export class encrypt {
 
 src/middlewares/error.middleware.ts에서 전역 오류 처리 미들웨어를 설정해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { NextFunction, Request, Response } from "express";
 
-export const errorHandler = (
-  error: Error,
-  req: Request,
-  res: Response,
-  next: NextFunction
-) => {
+export const errorHandler = (error: Error, req: Request, res: Response, next: NextFunction) => {
   console.error(`Error: ${error.message}`);
   return res.status(500).json({ message: "내부 서버 오류" });
 };
@@ -428,11 +560,7 @@ import * as jwt from "jsonwebtoken";
 import * as dotenv from "dotenv";
 dotenv.config();
 
-export const authentification = (
-  req: Request,
-  res: Response,
-  next: NextFunction
-) => {
+export const authentification = (req: Request, res: Response, next: NextFunction) => {
   const header = req.headers.authorization;
   if (!header) {
     return res.status(401).json({ message: "인가되지 않음" });
@@ -450,7 +578,18 @@ export const authentification = (
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요청에 인증 속성을 포함하는 헤더가 있는지 확인합니다. 그런 속성이 없는 경우에는 권한이 없음을 반환합니다. 사용자는 특정 경로에 액세스할 수 없습니다. 속성이 있는 경우에는 해당 토큰을 추출한 다음 그 토큰을 생성할 때 사용한 비밀 키로 복호화합니다. 그 토큰의 데이터가 올바른 경우 토큰에 있는 데이터를 요청에 전달하여 애플리케이션의 나머지 부분에서 사용할 수 있습니다. 토큰이 복호화되지 않으면 다음 함수가 호출되지 않습니다.
 
@@ -478,7 +617,18 @@ export const authorization = (roles: string[]) => {
 
 API 응답에 전송된 사용자 데이터를 맞춤 설정하는 데 user.dto.ts 파일을 활용하고자 하는 관심이 표현되었습니다. 이 특정 파일은 제공된 코드 샘플에 명시적으로 포함되지는 않았지만, API 응답을 위해 구조화하고 수정할 데이터를 형성하는 강력한 도구로 작용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## user.dto.ts이 무엇인가요?
 
@@ -488,7 +638,18 @@ user.dto.ts 파일은 Data Transfer Object의 약자로, API로부터 응답으�
 
 다음은 user.dto.ts 파일을 구조화하는 예시입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 export class UserResponce {
@@ -504,7 +665,18 @@ API 응답에서 사용자 데이터의 사용자 정의가 필요한 시나리�
 
 이 접근 방식은 API 응답을 특정 요구 사항에 맞게 유연하게 조정하여 응용 프로그램의 상호 운용성과 효율성을 향상시킵니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트에 맞게 user.dto.ts 파일을 통합 및 조정하고, API 엔드포인트를 통해 전송되는 데이터를 정확하게 제어할 수 있습니다.
 
@@ -530,25 +702,34 @@ export class UserController {
 
     const userRepository = AppDataSource.getRepository(User);
     await userRepository.save(user);
-    
+
     // 응답으로 보내는 데이터 구조화를 위해 UserResponse DTO 사용
     const userDataSent = new UserResponce();
     userDataSent.name = user.name;
-    userDataSent.email= user.email;
+    userDataSent.email = user.email;
     userDataSent.role = user.role;
-    
+
     const token = encrypt.generateToken({ id: user.id });
 
-    return res
-      .status(200)
-      .json({ message: "사용자가 성공적으로 생성되었습니다", token, userDataSent });
+    return res.status(200).json({ message: "사용자가 성공적으로 생성되었습니다", token, userDataSent });
   }
 }
 ```
 
 UserResponse 클래스가 UserController 파일로 올바르게 가져와지고 속성들이 API 응답에 전송할 데이터와 일치하는지 확인하세요. 이 접근 방식을 사용하면 API 엔드포인트를 통해 전송되는 사용자 데이터를 정확하게 사용자 정의할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 컨트롤러
 
@@ -558,8 +739,18 @@ UserResponse 클래스가 UserController 파일로 올바르게 가져와지고 
 
 # Auth Controller (src/controllers/Auth.controller.ts)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 사용자 컨트롤러 (src/controllers/user.controller.ts)
 
@@ -586,9 +777,7 @@ export class UserController {
     // userRepository.create({ Name, email, password });
     const token = encrypt.generateToken({ id: user.id });
 
-    return res
-      .status(200)
-      .json({ message: "User created successfully", token, user });
+    return res.status(200).json({ message: "User created successfully", token, user });
   }
   static async getUsers(req: Request, res: Response) {
     const data = cache.get("data");
@@ -635,8 +824,18 @@ export class UserController {
 
 # 영화 컨트롤러 (src/controllers/movie.controller.ts)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { Request, Response } from "express";
@@ -663,8 +862,7 @@ export class MovieController {
     }
   }
   static async createMovie(req: Request, res: Response) {
-    const { title, description, director, year, rating, image, cast } =
-      req.body;
+    const { title, description, director, year, rating, image, cast } = req.body;
     const movie = new Movie();
     movie.title = title;
     movie.description = description;
@@ -675,15 +873,12 @@ export class MovieController {
     movie.cast = cast;
     const movieRepository = AppDataSource.getRepository(Movie);
     await movieRepository.save(movie);
-    return res
-      .status(200)
-      .json({ message: "영화가 성공적으로 생성되었습니다", movie });
+    return res.status(200).json({ message: "영화가 성공적으로 생성되었습니다", movie });
   }
 
   static async updateMovie(req: Request, res: Response) {
     const { id } = req.params;
-    const { title, description, director, year, rating, image, cast } =
-      req.body;
+    const { title, description, director, year, rating, image, cast } = req.body;
     const movieRepository = AppDataSource.getRepository(Movie);
     const movie = await movieRepository.findOne({
       where: { id },
@@ -696,9 +891,7 @@ export class MovieController {
     movie.image = image;
     movie.cast = cast;
     await movieRepository.save(movie);
-    return res
-      .status(200)
-      .json({ message: "영화가 성공적으로 업데이트되었습니다", movie });
+    return res.status(200).json({ message: "영화가 성공적으로 업데이트되었습니다", movie });
   }
 
   static async deleteMovie(req: Request, res: Response) {
@@ -708,9 +901,7 @@ export class MovieController {
       where: { id },
     });
     await movieRepository.remove(movie);
-    return res
-      .status(200)
-      .json({ message: "영화가 성공적으로 삭제되었습니다", movie });
+    return res.status(200).json({ message: "영화가 성공적으로 삭제되었습니다", movie });
   }
 }
 ```
@@ -721,7 +912,18 @@ src/routes/user.routes.ts 파일에 사용자 관리와 관련된 라우트를 �
 
 라우트는 웹 애플리케이션 내에서 클라이언트가 다양한 작업을 수행하거나 특정 리소스를 요청할 수 있는 특정 URL 또는 엔드포인트를 가리킵니다. 라우트는 수신된 HTTP 요청에 대한 웹 애플리케이션이 응답하는 방식을 정의하는 데 중요한 요소입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```javascript
 import * as express from "express";
@@ -731,32 +933,12 @@ import { authorization } from "../middleware/authorization";
 import { AuthController } from "../controllers/auth.controller";
 const Router = express.Router();
 
-Router.get(
-  "/users",
-  authentification,
-  authorization(["admin"]),
-  UserController.getUsers
-);
-Router.get(
-  "/profile",
-  authentification,
-  authorization(["user", "admin"]),
-  AuthController.getProfile
-);
+Router.get("/users", authentification, authorization(["admin"]), UserController.getUsers);
+Router.get("/profile", authentification, authorization(["user", "admin"]), AuthController.getProfile);
 Router.post("/signup", UserController.signup);
 Router.post("/login", AuthController.login);
-Router.put(
-  "/update/:id",
-  authentification,
-  authorization(["user", "admin"]),
-  UserController.updateUser
-);
-Router.delete(
-  "/delete/:id",
-  authentification,
-  authorization(["admin"]),
-  UserController.deleteUser
-);
+Router.put("/update/:id", authentification, authorization(["user", "admin"]), UserController.updateUser);
+Router.delete("/delete/:id", authentification, authorization(["admin"]), UserController.deleteUser);
 export { Router as userRouter };
 ```
 
@@ -773,24 +955,25 @@ const Router = express.Router();
 Router.get("/movies", authentification, MovieController.getAllMovies);
 Router.post("/movies", authentification, MovieController.createMovie);
 
-Router.put(
-  "/movies/:id",
-  authentification,
-  authorization(["admin"]),
-  MovieController.updateMovie
-);
-Router.delete(
-  "/movies/:id",
-  authentification,
-  authorization(["admin"]),
-  MovieController.deleteMovie
-);
+Router.put("/movies/:id", authentification, authorization(["admin"]), MovieController.updateMovie);
+Router.delete("/movies/:id", authentification, authorization(["admin"]), MovieController.deleteMovie);
 export { Router as movieRouter };
 ```
 
 # 미들웨어 순서 설정
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Express.js는 미들웨어를 정의된 순서대로 실행합니다. 라우트 정의 시에 올바른 순서로 미들웨어를 배치하는 것이 중요합니다.
 
@@ -800,7 +983,18 @@ Express.js는 미들웨어를 정의된 순서대로 실행합니다. 라우트 
 
 우리는 엔티티에 대한 마이그레이션을 생성하고 실행해야 합니다. 이로써 해당 데이터베이스 테이블이 생성됩니다. 문서에 나와 있는 대로 수행해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 명령어는 src/migration 디렉토리에 마이그레이션 파일을 생성합니다. 생성된 마이그레이션 파일을 편집하여 테이블 구조를 정의하고 아래 코드에 나와 있는 대로 마이그레이션을 실행하세요.
 
@@ -815,7 +1009,7 @@ export class User1698321500514 implements MigrationInterface {
   public async up(queryRunner: QueryRunner): Promise<void> {
 // 여기에 직접 추가할 부분
     await queryRunner.query(
-      ` 
+      `
           --테이블 정의
           CREATE TABLE "users"  (
             "id" uuid NOT NULL DEFAULT uuid_generate_v4(),
@@ -828,10 +1022,10 @@ export class User1698321500514 implements MigrationInterface {
             CONSTRAINT "PK_cace4a159ff9f2512dd42373760" PRIMARY KEY ("id")
           )
 
-          
-          
-          
-          
+
+
+
+
           `
     ),
       undefined;
@@ -864,11 +1058,11 @@ export class Movie1698321512351 implements MigrationInterface {
             "updatedAt" TIMESTAMP NOT NULL DEFAULT now(),
             CONSTRAINT "PK_1031171c13130102495201e3e20" PRIMARY KEY ("id")
           )
-          
-          
-          
-          
-          
+
+
+
+
+
           `),
       undefined;
   }
@@ -879,7 +1073,18 @@ export class Movie1698321512351 implements MigrationInterface {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 패키지 JSON 파일에 데이터베이스 마이그레이션을 실행하기 위한 스크립트를 추가해야 합니다:
 
@@ -891,7 +1096,18 @@ data-source.ts 파일은 데이터베이스 구성이 저장된 위치입니다.
 
 # 테스트
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 API를 테스트하려면 Postman, cURL 또는 다른 HTTP 클라이언트와 같은 도구를 사용할 수 있습니다. API 엔드포인트에 요청을 보내어 제대로 작동하는지 확인할 수 있습니다.
 
@@ -901,7 +1117,18 @@ API를 테스트하려면 Postman, cURL 또는 다른 HTTP 클라이언트와 �
 
 맺음말
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이번 튜토리얼에서는 TypeScript, Express.js 및 TypeORM을 사용하여 강력한 REST API를 만드는 여정에 출발했습니다. 이 과정에서 인증, 권한 부여 및 데이터베이스 상호 작용과 같은 기본 개념을 탐험했습니다. 우리가 배운 내용을 되짚어봅시다:
 
@@ -913,7 +1140,18 @@ API를 테스트하려면 Postman, cURL 또는 다른 HTTP 클라이언트와 �
 
 이 학습 여정에 함께해 주셔서 기쁩니다. 궁금한 점이 있거나 피드백이나 경험을 공유하고 싶다면 망설이지 말고 연락해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 개발의 끊임없이 발전하는 세계에서는 항상 배울 것이 더 많고 만들 것이 더 많습니다. 계속 코딩하고, 계속 탐험하고, 놀라운 것을 계속 만들어 보세요. 웹은 당신의 캔버스이며, 당신이 아티스트입니다.
 

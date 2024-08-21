@@ -3,17 +3,13 @@ title: "React 리액트 쿼리로 데이터 가져오기 간단하게 하기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Understanding React Query"
 link: "https://medium.com/bina-nusantara-it-division/understanding-react-query-11e56960e90c"
 isUpdated: true
 ---
-
-
-
-
 
 ## 리액트 애플리케이션에서 데이터 가져오기 간소화
 
@@ -23,7 +19,18 @@ React Query는 TanStack에서 개발한 강력한 라이브러리로, 리액트 
 
 # React Query란 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React Query는 React 애플리케이션에서 데이터 가져오기와 캐싱을 간단하게 처리하도록 설계된 JavaScript 라이브러리입니다. 이는 useQuery 및 useMutation과 같은 훅을 사용하여 REST API, GraphQL 또는 심지어 로컬 상태와 같은 다양한 소스에서 데이터를 관리할 수 있도록 도와줍니다.
 
@@ -37,7 +44,18 @@ React Query는 React 애플리케이션에서 데이터 가져오기와 캐싱�
 
 # React Query로 시작하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React Query를 시작하는 것이 얼마나 간단한지 기본 예제를 살펴보겠습니다. 먼저 해야 할 일은 @tanstack/react-query 라이브러리를 설치하는 것입니다. 실행에는 npm을 사용하겠습니다.
 
@@ -67,7 +85,18 @@ root.render
 );
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 후에 React Query Hooks를 바로 사용할 수 있습니다. App.tsx스크립트에 적용해 봅시다.
 
@@ -81,9 +110,7 @@ function App() {
   const userData = useQuery(
     ["users"],
     () => {
-      return fetch("https://jsonplaceholder.typicode.com/users").then(
-        (response) => response.json()
-      );
+      return fetch("https://jsonplaceholder.typicode.com/users").then((response) => response.json());
     },
     {
       enabled: false,
@@ -97,9 +124,7 @@ function App() {
         <div>
           {userData.isFetching && <div>데이터 가져오는 중...</div>}
           {userData.isError && <div>{`데이터 가져오기 오류!!!`}</div>}
-          {userData.data &&
-            userData.data.length > 0 &&
-            userData.data.map((user: any) => <div>{user.name}</div>)}
+          {userData.data && userData.data.length > 0 && userData.data.map((user: any) => <div>{user.name}</div>)}
         </div>
       </div>
     </div>
@@ -113,7 +138,18 @@ export default App;
 
 <img src="https://miro.medium.com/v2/resize:fit:576/1*VMVis07NyntygP6-WrYLRg.gif" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Get Users버튼을 클릭하면 API에서 데이터를 가져옵니다. 데이터 양이 적기 때문에 데이터를 가져오는 프로세스가 너무 빨라서 거의 눈에 띄지 않을 수 있어요.
 
@@ -129,9 +165,7 @@ function App() {
   const userData = useQuery(
     ["users"],
     () => {
-      return fetch("https://jsonplaceholder.typicode.com/users").then(
-        (response) => response.json()
-      );
+      return fetch("https://jsonplaceholder.typicode.com/users").then((response) => response.json());
     },
     {
       enabled: false,
@@ -155,9 +189,7 @@ function App() {
         <div>
           {userData.isFetching && <div>사용자 데이터 가져오는 중...</div>}
           {userData.isError && <div>{`데이터 가져오는 중 에러 발생!!!`}</div>}
-          {userData.data &&
-            userData.data.length > 0 &&
-            userData.data.map((user: any) => <div>{user.name}</div>)}
+          {userData.data && userData.data.length > 0 && userData.data.map((user: any) => <div>{user.name}</div>)}
         </div>
       </div>
       <hr />
@@ -175,12 +207,8 @@ function App() {
         </button>
         <div>
           {mutatePost.isLoading && <div>새로운 포스트 추가 중...</div>}
-          {mutatePost.isError && (
-            <div>{`새로운 포스트 추가하는 중 에러 발생!!!`}</div>
-          )}
-          {mutatePost.data && (
-            <div>{`성공적으로 새로운 포스트 추가 : '${mutatePost.data.title}'`}</div>
-          )}
+          {mutatePost.isError && <div>{`새로운 포스트 추가하는 중 에러 발생!!!`}</div>}
+          {mutatePost.data && <div>{`성공적으로 새로운 포스트 추가 : '${mutatePost.data.title}'`}</div>}
         </div>
       </div>
     </div>
@@ -192,7 +220,18 @@ export default App;
 
 위 예제에서 새로운 포스트를 추가하는 데 useMutation을 사용했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="https://miro.medium.com/v2/resize:fit:820/1*8PXYBNVu3ySVOCbBytoD4Q.gif" />
 
@@ -205,7 +244,18 @@ export default App;
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트 쿼리는 리액트 생태계에 귀중한 추가 요소로, 데이터 가져오기와 동기화를 이전보다 쉽게 만들어줍니다. 작은 애플리케이션을 개발하거나 대규모 프로젝트를 구축하든 상관없이, 리액트 쿼리의 간결함과 강력한 기능을 통해 데이터를 효과적으로 관리할 수 있습니다.
 

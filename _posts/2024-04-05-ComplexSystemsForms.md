@@ -3,17 +3,13 @@ title: "복잡한 form 작성 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Complex Systems Forms"
 link: "https://medium.com/@dinashkenazi/complex-systems-forms-2d6440a572c2"
 isUpdated: true
 ---
-
-
-
-
 
 복잡한 시스템에서 폼을 디자인하는 것은 항상 간단한 작업이 아닙니다. 사용자들에게 최상의 경험을 제공하고 싶어요. 사용자들이 혼란 없이 신속하게 폼을 완료할 수 있어야 합니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 디자인이 복잡함: 사용자들이 폼이 복잡하다고 느낀다면 완료율이 떨어질 수 있어요. 그래서 우리는 폼을 최대한 간단하고 쉽게 보이도록 만들고 싶어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 집중: 양식이 사용자에게 집중, 강한 사고, 시간을 요구하면 완료율도 감소할 수 있습니다. 그는 정신적 에너지를 소모하게 됩니다. 우리는 양식이 가능한 쉽고 간결하도록 만들고 싶습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 그럼 기본 사항부터 시작해보죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 양식 구성 요소
 
@@ -51,7 +69,18 @@ isUpdated: true
 - 제목 및 섹션
 - 오류 구성 요소 (인라인 메시지, 토스트 메시지, 입력 오류)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 텍스트 필드에 초점을 맞출 거예요. 텍스트 필드는 가장 흔하면서도 아마도 가장 복잡한 요소일 거에요. 디자이너들이 이 부분에서 실수를 많이 하더라구요.
 
@@ -62,7 +91,18 @@ isUpdated: true
 
 # 폼 페이지 레이아웃
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 처음으로 양식과 관련된 최상의 방법론에 대해 알아보기 시작했을 때, 최상의 그리고 가장 쉬운 양식 레이아웃에 대한 명확한 답변을 찾지 못했습니다. 쉬운 해답은 새 페이지에서 양식을 왼쪽에 정렬하는 것이지만 결국, 그것은 상황에 따라 다름을 깨달았습니다. 양식의 복잡도와 사용 사례에 달려 있기 때문이죠.
 
@@ -75,7 +115,18 @@ isUpdated: true
 
 이것들은 최상의 양식 레이아웃을 이해하는 데 도움이 되는 질문들입니다. 그래서 저는 양식 페이지 레이아웃 옵션을 개요로 설명하겠습니다. 그리고 언제 사용해야 하는지를 적어보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/ComplexSystemsForms_0.png" />
 
@@ -85,7 +136,18 @@ isUpdated: true
 
 장점:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 비교적 빠른 완료 속도
 - 쉽게 확장 가능
@@ -98,7 +160,18 @@ isUpdated: true
 
 ## 팝업 폼
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/ComplexSystemsForms_1.png)
 
@@ -111,7 +184,18 @@ isUpdated: true
 - 사용자 화면 이동을 방해하지 않음
 - 다른 화면에서 프롬프트 될 수 있음
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단점:
 
@@ -122,7 +206,18 @@ isUpdated: true
 
 ![이미지](/assets/img/ComplexSystemsForms_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 장점:
 
@@ -137,7 +232,18 @@ isUpdated: true
 - 필요한 항목을 쉽게 스캔하고 확인하기 어렵습니다.
 - 여러 버튼이 있어 혼란스러울 수 있습니다. 나가기, 이전, 다음, 임시 저장 등 (가끔).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 섹션
 
@@ -147,7 +253,18 @@ isUpdated: true
 
 장점:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 긴 양식에 적합
 - 쉽게 스캔 가능 (사용자가 무엇을 하는지 이해 가능)
@@ -162,7 +279,18 @@ isUpdated: true
 
 # 양식 정렬
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 한 열 또는 여러 열?
 
@@ -172,7 +300,18 @@ isUpdated: true
 
 아랍어나 이스라엘 국가를 위한 디자인을 할 때 기억해야 할 점은 규칙이 거꾸로 적용된다는 것입니다. 오른쪽에서 왼쪽으로 (RTL)입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 알겠어요! 그래서 이를 염두에 두고, 두 개의 열로 된 양식을 디자인하는 것은 눈에게 매우 혼란스러울 수 있어요.
 
@@ -182,7 +321,18 @@ isUpdated: true
 
 하지만! 입력값이 작거나 매우 익숙할 때는 항상 몇 가지 기대되는 점이 있어요. 예를 들어 신용카드 양식이나 개인 정보 양식처럼 말이에요. 사용자는 양식 유형에 익숙하고 구조를 직관적으로 이해하죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/ComplexSystemsForms_5.png" />
 
@@ -192,7 +342,18 @@ isUpdated: true
 
 ## 수직 정렬:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 폼을 다룰 때 핵심 요소입니다.
 
@@ -202,7 +363,18 @@ isUpdated: true
 
 ![ComplexSystemsForms_7](/assets/img/ComplexSystemsForms_7.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 복잡한 시스템에서는 수평으로 된 양식이 매우 인기가 있어요. 수직 정렬이 "최상의 실천 방법"이라고 여겨지지만, 복잡한 양식에는 수평 정렬이 더 어울려요. 이를 고려해야 하는 이유는 다음과 같아요:
 
@@ -213,7 +385,18 @@ isUpdated: true
 
 ## 레이블은 왼쪽에 정렬할까요, 오른쪽에 정렬할까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/ComplexSystemsForms_8.png" />
 
@@ -224,7 +407,18 @@ isUpdated: true
 - 눈은 항상 각 행마다 다른 지점에서 읽기 시작해야 합니다.
 - 글이 너무 길 경우 뒤로 줄 바꿈이 발생합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 왼쪽 정렬:
 
@@ -234,7 +428,18 @@ isUpdated: true
 
 ![image](/assets/img/ComplexSystemsForms_9.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![ComplexSystemsForms_10](/assets/img/ComplexSystemsForms_10.png)
 
@@ -244,7 +449,18 @@ When labels are aligned to the right, the spacing between the label and the inpu
 
 This format works well with long labels and long forms.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <img src="/assets/img/ComplexSystemsForms_11.png" />
@@ -256,7 +472,18 @@ This format works well with long labels and long forms.
 <img src="/assets/img/ComplexSystemsForms_13.png" />
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시각적 거리 문제를 해결하기 위해 "얼룩말무늬(zebra)" UI를 구현해보세요.
 
@@ -266,7 +493,18 @@ This format works well with long labels and long forms.
 
 ## 툴팁 및 도움말
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용자들이 특정 입력 요구 사항에 대해 추가적인 문맥이나 지침이 필요할 수 있습니다. 툴팁이나 도움말 텍스트를 추가하여 도와주세요.
 
@@ -276,7 +514,18 @@ This format works well with long labels and long forms.
 
 <img src="/assets/img/ComplexSystemsForms_15.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 플레이스홀더
 
@@ -286,11 +535,33 @@ This format works well with long labels and long forms.
 
 ![이미지](/assets/img/ComplexSystemsForms_16.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 표 태그를 Markdown 형식으로 변경하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 필수 대 선택 사항 필드
 
@@ -300,7 +571,18 @@ This format works well with long labels and long forms.
 
 ## 입력 오류
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 입력 오류는 입력란 아래의 힌트 텍스트로 대체할 수 있습니다. 주로 입력 형식을 확인하여 사용자가 제출 단계로 이동하고 오류를 발견하는 것을 방지하는 데 사용됩니다.
 
@@ -310,7 +592,18 @@ This format works well with long labels and long forms.
 
 일반 오류는 특정 입력과 관련이 없는 오류를 보여줄 때 사용할 수 있습니다. 사용자의 내부 연결 끊김이나 백엔드 임시 문제가 발생한 경우입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/ComplexSystemsForms_18.png)
 
@@ -320,7 +613,18 @@ This format works well with long labels and long forms.
 
 ![이미지](/assets/img/ComplexSystemsForms_19.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 인라인 오류
 
@@ -330,7 +634,18 @@ This format works well with long labels and long forms.
 
 # 폼 버튼 배치
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 폼 버튼을 다루는 것은 조금 까다로울 수 있어요. 특히 위자드 폼이거나 임시 저장 옵션이 있는 폼 같은 경우면 더 복잡해질 수 있어요.
 
@@ -341,7 +656,18 @@ This format works well with long labels and long forms.
 
 ## 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 복잡한 시스템을 위한 양식을 디자인하는 것은 어려울 수 있어요. 항상 표준 양식이 아니며 때로는 기술적인 제한으로 사용자 경험에 조금 타협해야 할 수도 있어요. 하지만 언제나 이런 가치 있는 사례들을 염두에 두고 사용자 중심 디자인의 의도로 디자인해주세요. 그들을 도와주세요. 이것은 복잡하고 에너지를 많이 소비하는 작업이에요. 이 기사가 도움이 되었길 바랍니다.
 

@@ -3,16 +3,13 @@ title: "Laravel 개발 혁신하기 매크로에 작별을 고하고 믹신스�
 description: ""
 coverImage: "/assets/img/2024-05-27-RevolutionizeLaravelDevelopmentSayGoodbyetoMacrosHellotoMixins_0.png"
 date: 2024-05-27 19:24
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-RevolutionizeLaravelDevelopmentSayGoodbyetoMacrosHellotoMixins_0.png
 tag: Tech
 originalTitle: "Revolutionize Laravel Development: Say Goodbye to Macros, Hello to Mixins!"
 link: "https://medium.com/@ismayil-dev/revolutionize-laravel-development-say-goodbye-to-macros-hello-to-mixins-82019211bfbb"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-05-27-RevolutionizeLaravelDevelopmentSayGoodbyetoMacrosHellotoMixins_0.png" />
 
@@ -23,8 +20,18 @@ Str 헬퍼의 경우 다음과 같이 사용할 수 있습니다:
 fullName
 initials
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Arr 도우미 클래스에 대해:
 
@@ -77,7 +84,18 @@ class AppServiceProvider extends ServiceProvider
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 라라벨(Laravel)에서는 사용자 정의 메소드로 쉽게 확장할 수 있는 여러 클래스가 있습니다. 이러한 클래스들을 "매크로 가능(Macroable)" 클래스라고 합니다. 각 클래스마다 AppServiceProvider를 다른 매크로 메소드로 혼잡하게 만드는 대신에, 각 매크로 가능 클래스에 대한 개별 제공자 클래스를 만들고 config/app.php 파일에 등록할 수 있습니다. 그러나 이러한 방법은 모든 메소드를 추적하는 것이 조금 귀찮고 혼잡하게 만들 수 있습니다. 저는 보다 자연스럽고 가독성이 좋고 유지보수가 용이한 접근법을 선호합니다. 그렇다면 어떻게 해야 할까요? 여기에서 Mixins이 나옵니다. Mixins을 사용하면 클래스를 확장하는 프로세스를 간단하게 만들어 코드를 보다 구조적으로 관리하기 쉽게 할 수 있습니다.
 
@@ -87,11 +105,33 @@ class AppServiceProvider extends ServiceProvider
 
 - Mixin 클래스에는 다른 클래스에 추가하려는 메소드가 포함되어 있습니다. 이러한 메소드는 일반적으로:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - `Table` 태그를 Markdown 형식으로 변경해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ArrayMixin.php
 
@@ -177,7 +217,18 @@ class StringMixin
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 AppServiceProvider에 이 Mixin들을 등록하세요:
 
@@ -196,7 +247,18 @@ public function boot(): void
 
 여전히 Str::initials(...), Arr::filterNulls(...)와 같이 이 도우미 메서드를 이전과 같은 방식으로 사용할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 믹신의 장점:
 

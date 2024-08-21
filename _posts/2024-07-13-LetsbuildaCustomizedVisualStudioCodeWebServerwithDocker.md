@@ -3,16 +3,13 @@ title: "Docker로 커스터마이즈된 Visual Studio Code 웹 서버 구축 방
 description: ""
 coverImage: "/assets/img/2024-07-13-LetsbuildaCustomizedVisualStudioCodeWebServerwithDocker_0.png"
 date: 2024-07-13 01:46
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-LetsbuildaCustomizedVisualStudioCodeWebServerwithDocker_0.png
 tag: Tech
 originalTitle: "Let's build a Customized Visual Studio Code Web Server with Docker"
 link: "https://medium.com/@kpatronas/lets-build-a-customized-visual-studio-code-web-server-with-docker-7a1151bf80d3"
 isUpdated: true
 ---
-
-
-
 
 ![Image](/assets/img/2024-07-13-LetsbuildaCustomizedVisualStudioCodeWebServerwithDocker_0.png)
 
@@ -22,68 +19,92 @@ isUpdated: true
 
 도커파일 자체가 주석과 함께 설명이 되어 있는 것 같아요. 하지만 몇 가지 섹션을 명확히 해보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 공식 Ubuntu 베이스 이미지 사용
+
 FROM ubuntu:latest
 
 # 구성 인수
+
 ARG USERNAME=a_username
 ARG GIT_USERNAME="First Last"
 ARG GIT_EMAIL="mail@example.com"
 
 # 업데이트하고 다양한 deb 패키지 설치, 여러분의 것을 여기에 삽입해 주세요
+
 RUN apt-get update && \
-    DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
-    ca-certificates git \
-    openssh-server iputils-ping coreutils sudo curl wget python3 python3-pip python3-dev build-essential && \
-    rm -rf /var/lib/apt/lists/*
+ DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
+ ca-certificates git \
+ openssh-server iputils-ping coreutils sudo curl wget python3 python3-pip python3-dev build-essential && \
+ rm -rf /var/lib/apt/lists/\*
 
 # 다양한 Python 라이브러리 설치, 여러분의 것을 여기에 삽입해 주세요
+
 RUN pip3 install ibm_db sqlalchemy ibm_db_sa notebook pandas sshtunnel matplotlib
 
 # ${USERNAME}이라는 새 사용자 생성 및 비밀번호 설정
+
 RUN useradd -m -s /bin/bash "${USERNAME}"
 RUN echo "${USERNAME}:password" | chpasswd
 
 # 비밀번호 없이 sudoers에 ${USERNAME} 추가
+
 RUN echo "${USERNAME} ALL=(ALL) NOPASSWD:ALL" > /etc/sudoers.d/coder
 
 # ${USERNAME}으로 변경
+
 USER ${USERNAME}
 
 # SSH 키 및 추가 호스트 파일에 대한 paths 생성
+
 RUN mkdir -p /home/${USERNAME}/.ssh && mkdir -p /home/${USERNAME}/projects && sudo mkdir -p /etc/hosts.d
 
 # .ssh 디렉터리로 SSH 키 파일 복사, 현재 디렉터리에 키를 복사했는지 확인해 주세요
+
 COPY id_rsa /home/${USERNAME}/.ssh/id_rsa
 COPY id_rsa.pub /home/${USERNAME}/.ssh/id_rsa.pub
 COPY hosts /etc/hosts.d/
 
 # .ssh 디렉터리 및 내용에 대한 올바른 권한 설정
+
 RUN sudo chmod 700 /home/${USERNAME}/.ssh
 RUN sudo chmod 600 /home/${USERNAME}/.ssh/id_rsa
 RUN sudo chmod 644 /home/${USERNAME}/.ssh/id_rsa.pub
 
 # Git 사용자 구성
+
 RUN git config --global user.name "${GIT_USERNAME}"
 RUN git config --global user.email "${GIT_EMAIL}"
 
 # code-server 확장 프로그램을 위한 디렉터리 생성
+
 RUN mkdir -p /home/${USERNAME}/.local/share/code-server/extensions
 
 # 파이썬 및 주피터 확장 프로그램과 함께 VSCode Server 설치, 여러분의 것을 여기에 삽입해 주세요
+
 RUN curl -fsSL https://code-server.dev/install.sh | sh && \
-    code-server --install-extension ms-python.python && \
-    code-server --install-extension ms-toolsai.jupyter
+ code-server --install-extension ms-python.python && \
+ code-server --install-extension ms-toolsai.jupyter
 
 # SSH 및 code-server용 포트 노출
+
 EXPOSE 8080 22
 
 # 컨테이너 시작 시 SSH 서비스 및 code-server 실행
-CMD sudo service ssh start && code-server --auth none --bind-addr 0.0.0.0:8080
 
+CMD sudo service ssh start && code-server --auth none --bind-addr 0.0.0.0:8080
 
 ## 위 명령어들은 무엇을 하는 걸까요?
 
@@ -92,8 +113,18 @@ CMD sudo service ssh start && code-server --auth none --bind-addr 0.0.0.0:8080
 - .ssh는 호스트에서 컨테이너로 복사할 수 있는 ssh 키를 저장하는 데 필요합니다.
 - hosts.d는 DNS 서버를 사용하지 않지만 하드코딩된 호스트가 있는 환경에 필요합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 호스트에서 컨테이너로 키를 복사하는 COPY 명령어는 키를 사용하지 않을 경우 해당 라인을 주석 처리할 수 있습니다.
 
@@ -116,7 +147,18 @@ RUN sudo chmod 644 /home/${USERNAME}/.ssh/id_rsa.pub
 
 다음에 아래와 같은 명령문들이 나와요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 코드 서버 확장 프로그램을 위한 디렉토리 생성
@@ -134,11 +176,21 @@ RUN curl -fsSL https://code-server.dev/install.sh | sh && \
 
 다음은 docker-compose.yml 파일인데, 이 파일은 매우 중요합니다. 왜냐하면 이 파일을 사용하여 로컬 디렉토리를 컨테이너에 마운트해 소스 파일을 저장하는 위치에 연결할 수 있기 때문입니다. 이 말은 즉, 디렉토리를 마운트하지 않으면 다음 컨테이너 재시작 때 모든 변경/추가 사항이 사라질 수 있다는 것을 의미합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```yaml
-version: '3'
+version: "3"
 services:
   vscode:
     platform: linux/amd64

@@ -3,7 +3,7 @@ title: "Fed 모델을 이용한 주식 시장 가치 평가 및 방향 예측 �
 description: ""
 coverImage: "/assets/img/2024-07-13-PredictingStockMarketValuationandDirectionUsingtheFedModel_0.png"
 date: 2024-07-13 19:06
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-PredictingStockMarketValuationandDirectionUsingtheFedModel_0.png
 tag: Tech
 originalTitle: "Predicting Stock Market Valuation and Direction Using the Fed Model"
@@ -11,16 +11,24 @@ link: "https://medium.com/ai-advances/predicting-stock-market-valuation-and-dire
 isUpdated: true
 ---
 
-
-
-
 ![image](/assets/img/2024-07-13-PredictingStockMarketValuationandDirectionUsingtheFedModel_0.png)
 
 코르델 태니(Cordell Tanny)는 금융 서비스 분야에서 24년 이상의 경험을 보유한 전문가로, 주로 양적 금융에 특화되어 있습니다. 코르델는 이전에 주요 캐나다 기관에서 양적 분석가 및 포트폴리오 매니저로 근무하며 20억 달러 규모의 다자산 소매 투자 프로그램을 관리했습니다.
 
 현재 코르델는 Trend Prophets의 대표이사이자 공동 창립자로 활동하고 있으며, 양적 금융 및 AI 솔루션 기업인 DigitalHub Insights의 경영 이사로도 활동하고 있습니다. 또한, 코르델는 맥길 대학(McGill University)에서 생물학 학사 학위를 취득한 바 있습니다. 그는 CFA 채터홀더로서 금융 리스크 관리자 자격증을 보유하고 있으며, 금융 데이터 전문가 자격증을 소지하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 trendprophets.com을 방문하여 더 많은 정보를 얻을 수 있어요.
 
@@ -30,7 +38,18 @@ S&P 500의 역사적 PE 데이터는 macrotrends.net의 공짜 다운로드로 �
 
 GitHub 저장소에도 이용 가능해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 간단 버전
 
@@ -40,7 +59,18 @@ Fed Model Basics: S&P 500의 수익률을 10년 만기 미국 국채 수익률�
 
 스프레드 해석: 양의 스프레드는 주식이 저평가되었음을 나타내고, 음의 스프레드는 채권이 더 매력적이라는 것을 시사합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인기를 얻은 Ed Yardeni에 의해 만들어진 이 모델은 혼돈스럽지만 여전히 유용한 가치평가 도구로 남아 있습니다.
 
@@ -50,7 +80,18 @@ Fed Model Basics: S&P 500의 수익률을 10년 만기 미국 국채 수익률�
 
 현재 시장 상황: 16년 만에 처음으로 스프레드가 마이너스로 전환되었으며, 이는 주식이 과대평가되었을 가능성과 채권의 매력성을 시그널하는 신호입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인플레이션의 역할: 그레인저 인과관계 검정 결과에 따르면, 과거 CPI 인플레이션율은 연방준비제도 모형 차이를 예측할 수 있어 시장 예측에 통찰을 제공합니다.
 
@@ -60,7 +101,18 @@ Fed Model Basics: S&P 500의 수익률을 10년 만기 미국 국채 수익률�
 
 ## 소개
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Fed Model은 주식이 채권보다 더 매력적인지 여부를 식별하는 데 도움을 주는 두 가지 지표를 사용하는 비교적 단순한 분석 기법입니다. 또한 시장 타이밍 모델로 활용될 수 있습니다. 이 두 가지 지표는 다음과 같습니다:
 
@@ -71,7 +123,18 @@ Fed Model은 주당 순이익률과 채권 수익률의 차이로 계산됩니�
 
 ## 스프레드 해석과 그 영향
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Fed 모델은 S&P 500의 수익률과 10년 만기 미국 국채의 이자율 간의 차이로 정의됩니다. 이 차이는 투자자가 주식과 채권 간 상대적 매력성을 비교하는 데 도움을 줍니다.
 
@@ -81,7 +144,18 @@ Fed 모델은 S&P 500의 수익률과 10년 만기 미국 국채의 이자율 �
 
 ## Fed 모델의 (매우) 간단한 역사
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내가 가장 좋아하는 투자 전략가 중 한 명이 페드 모델을 인기 있게 만들었어. 에드 야르데니는 주식 시장 수익과 장기 국채 수익률 사이의 관계를 분석한 작업을 기반으로 상당한 양의 작업물을 제작했지. 페드는 주식 수익률과 채권 수익률 사이의 관계를 보여주는 그래프를 많이 제작했지만, 그것을 모델로 형식화하거나 발표하거나 공식적으로 보증한 적은 없었어. 앨런 그린스팬은 중앙은행을 이끌 때 몇몇 기자회견에서 그에 대해 언급했어.
 
@@ -91,7 +165,18 @@ Fed 모델은 S&P 500의 수익률과 10년 만기 미국 국채의 이자율 �
 
 ![이미지](/assets/img/2024-07-13-PredictingStockMarketValuationandDirectionUsingtheFedModel_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제 1표는 1991년 이후 레세션 밴드가 중첩된 Fed 모델의 플롯을 보여줍니다. 우리는 또한 스프레드가 음수가 될 때를 나타내기 위해 y=0에 수평선을 그렸습니다. 이제 이는 스프레드이므로 양수 또는 음수의 판독이 발생할 수 있다는 점을 기억해야 합니다.
 
@@ -103,7 +188,18 @@ Fed 모델은 S&P 500의 수익률과 10년 만기 미국 국채의 이자율 �
 
 닷컴 붕괴 이후 2002년부터 2007년까지의 회복을 고려해봅시다. 인플레이션은 낮았으며 채권 금리는 3-5% 범위 내에 유지되었으며 어음 수입은 한 시점에서 6%를 초과했습니다. 2007년, 스프레드가 처음으로 부호를 바꾸고 2002년 이후 처음으로 음수로 전환된 것을 볼 수 있습니다. 2008년 침체가 곧 발생했습니다. 물론, 그때는 약간의 음수 지역에 빠질 정도가 아무것도 표시하지 않았을 것입니다. 오늘날 예지의 혜택이 주어져 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 이제 최저 금리의 10년대에 접어들었습니다. 그래서 다음 10년 동안 스프레드가 그렇게 높게 유지되는 것은 놀라운 일이 아닙니다. 채권은 단순히 수익을 제공하지 않았습니다. 올해에는 16년 만에 처음으로 스프레드가 음수로 전환되었습니다.
 
@@ -115,7 +211,18 @@ Fed 모델은 S&P 500의 수익률과 10년 만기 미국 국채의 이자율 �
 - 매우 오랜 시간 동안 보지 못한 수준의 급증한 이자율과 채권 금리.
 - 주식 시장이 역대 최고치를 경신하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 함께 하면 우리는 주식이 기업 실적 추격을 못하고 높은 수준에 이르렀으면서, 채권은 안정적인 이율을 제공하고 있다는 결론을 내릴 수 있습니다. 여전히 미 연방준비제도(Federal Reserve)의 계획이 불확실한 상황에서 채궘으로의 주요 자금 회전이 없다는 것을 감안하면, 현재 채권이 꽤 매력적으로 보입니다.
 
@@ -125,7 +232,18 @@ Fed 모델은 S&P 500의 수익률과 10년 만기 미국 국채의 이자율 �
 
 다음으로, 저는 인플레이션과 연방 모델 간의 관계를 조사하고 그 유무를 확인하고 싶었습니다. 직관적으로, 우리는 인플레이션이 두 자산 클래스의 가치에 영향을 미쳤다는 것을 알기 때문에 관련성이 있어야 하며, 이것은 몇 가지 양적 기법을 시도해보는 기회를 제공했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, 연간 기준 소비자물가지수(CPI) 플롯을 Fed 모델과 함께 살펴보겠습니다 (그림 2). 흥미로운 그래프군요. 경기 침체 시에는 분명한 관련성이 있습니다. 그러나 이 그래프에서 어떤 결론을 도출하는 것은 매우 어렵습니다.
 
@@ -135,17 +253,39 @@ Fed 모델은 S&P 500의 수익률과 10년 만기 미국 국채의 이자율 �
 
 ![Figure 3](/assets/img/2024-07-13-PredictingStockMarketValuationandDirectionUsingtheFedModel_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 The Granger Causality Test
 
 그레인저 인과관계 검정은 한 시계열이 다른 시계열을 예측할 수 있는지를 결정하기 위해 사용되는 통계적 가설 검정입니다. 이 방법은 그레인저라는 사람에 의해 개발되었는데, 이 기법에 대한 작업으로 노벨 경제학상을 수상했습니다. 이 검정은 변수 X가 변수 Y를 그레인저 인과로 유발한다면, X의 과거값은 Y의 과거값만으로는 예측할 수 없는 Y를 예측하는 데 도움이 되는 정보를 포함해야 한다는 원리에 기초합니다.
 
 이 분석에서는 과거 소비자물가지수(CPI) 인플레이션율이 Fed 모델차와를 예측할 수 있는지를 검정합니다. 결과는 3~4개월의 지연으로 중요한 예측력을 보여주며, 이는 지난 인플레이션 데이터가 Fed 모델에 의한 시장 가치평가를 예측하는 데 도움이 되는 것으로 나타납니다 (테이블 1, Python 함수에서의 결과). 이는 인플레이션의 과거값(3 또는 4개월 전)이 Fed 모델의 미래 방향을 추론하는 데 사용될 수 있다는 것을 시사합니다!
-  
+
 ![image](/assets/img/2024-07-13-PredictingStockMarketValuationandDirectionUsingtheFedModel_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 일부 생각
 
@@ -155,7 +295,18 @@ The Granger Causality Test
 
 최종 결론:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 지난 몇 년 동안 페드 모델에 대한 언급을 많이 보지 못했는데, 16년 만에 처음으로 부정적으로 전환된 사실을 전략가들이 주목해야 합니다.
 - 인플레이션을 잠재적 요인으로 확인하는 것은 직관적입니다. 더 많은 변수를 테스트하고 아마도 regime classification에 도움이 될 멋진 비지도 학습 모델을 만들어 볼 수 있을 것입니다.
@@ -166,6 +317,17 @@ The Granger Causality Test
 
 본문의 모든 Python 코드는 여기서 코드 템플릿을 등록하면 찾을 수 있습니다(페이지 하단의 "코드 템플릿 등록" 부분).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LinkedIn이나 Medium에서 나를 팔로우해 주세요!

@@ -3,16 +3,13 @@ title: "TypeScript로 NextJS 아키텍처 마스터하기  2024 디자인 추상
 description: ""
 coverImage: "/assets/img/2024-06-22-MasteringNextJSArchitecturewithTypeScriptinMindDesignAbstractions2024_0.png"
 date: 2024-06-22 14:39
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-MasteringNextJSArchitecturewithTypeScriptinMindDesignAbstractions2024_0.png
 tag: Tech
 originalTitle: "Mastering NextJS Architecture with TypeScript in Mind | Design Abstractions 2024"
 link: "https://medium.com/@sviat-kuzhelev/mastering-nextjs-architecture-with-typescript-in-mind-design-abstractions-2024-a6f9612300d1"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-06-22-MasteringNextJSArchitecturewithTypeScriptinMindDesignAbstractions2024_0.png" />
 
@@ -22,7 +19,18 @@ Next.js는 React 애플리케이션을 구축하기 위한 강력한 프레임�
 
 이 글을 읽으시면서 GitHub 프로젝트 링크를 남겨두었으니 걱정 말고 이 링크로 들어가서 포크하고 놀아보세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 https://github.com/BiosBoy/my-social-app
 
@@ -32,7 +40,18 @@ https://github.com/BiosBoy/my-social-app
 
 NextJS 앱을 빌드하도록 요청 받으면 인증, 다양한 API, 서비스, 데이터 구조를 포함한 실제 세계의 작업과는 "Hello World"에서와는 아예 다른 일이라는 것을 깨달을 거예요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사에서는 TypeScript와 함께 Next.js 프로젝트를 설정하고, 내비게이션 처리, 회원가입/로그인/로그아웃 관리, 그리고 SVG 자산을 효과적으로 다루는 방법에 대해 안내할 것입니다. 이 모든 것은 실제로 제품에 사용할 수 있는 방식으로 설명될 것이에요.
 
@@ -42,9 +61,21 @@ NextJS 앱을 빌드하도록 요청 받으면 인증, 다양한 API, 서비스,
 
 그래서 백엔드를 따로 준비해야 할 때에는 Rails를 나중에 nodeJS + MongoDB/PostgresDB로 쉽게 전환할 수 있을 것입니다. 어쨌든, 시작해봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리의 경우를 상상해보면 요청된대로 다음을 수행해야 합니다:
+
 - 필요한 페이지 생성: /, /feed, /signup, /signin, /signout, /:username, /friends.
 - 반응형 디자인을 염두에 두고 내비게이션 메뉴 생성.
 - 사용자 인증/로그아웃 흐름 통합하여 내부 소셜 데이터를 노출하지 않도록 함.
@@ -57,7 +88,18 @@ NextJS 앱을 빌드하도록 요청 받으면 인증, 다양한 API, 서비스,
 
 먼저, TypeScript와 함께 새 Next.js 프로젝트를 초기화해보죠. 터미널을 열고 다음 명령어를 실행하여 새 Next.js 프로젝트를 생성하고 프로젝트 디렉토리로 이동하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npx create-next-app@latest my-nextjs-app --typescript
@@ -70,7 +112,18 @@ package.json이나 tsconfig.json 파일들은 기본적으로 제공되기 때�
 
 이제 아키텍처로 들어가 봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 앱 아키텍처 디자인
 
@@ -80,7 +133,18 @@ package.json이나 tsconfig.json 파일들은 기본적으로 제공되기 때�
 
 ## 📁 ./app
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 NextJS의 핵심 폴더입니다. 대부분의 경우 가능한 한 간단하게 유지할 수 있습니다. 대부분의 시간에는 핵심 로직을 설정하고 싶어하는 곳입니다.
 
@@ -90,7 +154,18 @@ favicon.ico — 브라우저 탭의 시각적 디자인을 위한 .ico 기반 �
 
 layout.tsx — 내부 NextJS 애플리케이션으로, SSR 또는 SSG 렌더링을 위한 진입점으로 사용됩니다. 하지만, 우리의 경우는 현재 CSR에 초점을 맞추고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 📁 ./pages
 
@@ -100,9 +175,20 @@ layout.tsx — 내부 NextJS 애플리케이션으로, SSR 또는 SSG 렌더링�
 
 ![NextJS Architecture](/assets/img/2024-06-22-MasteringNextJSArchitecturewithTypeScriptinMindDesignAbstractions2024_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-_app.tsx은 NextJS 프로젝트의 주요 진입점입니다. 전체 애플리케이션을 포함하여 실행 중에 서버에서 사용될 것입니다.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+\_app.tsx은 NextJS 프로젝트의 주요 진입점입니다. 전체 애플리케이션을 포함하여 실행 중에 서버에서 사용될 것입니다.
 
 feed/friends/home/signin/signout/signup.tsx은 동적 동작 없이 화면에 표시해야 하는 페이지를 나타내는 정적 페이지입니다.
 
@@ -110,7 +196,18 @@ feed/friends/home/signin/signout/signup.tsx은 동적 동작 없이 화면에 �
 
 ## 📁 ./components
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기에서는 앱의 재사용 가능한 각 구성 요소를 저장할 수 있습니다. 여러 영역/페이지에서 사용할 수 있는 것들에게 가장 적합한 장소입니다.
 
@@ -120,7 +217,18 @@ AddPostModal.tsx — 나중에 우리 앱에서 사용할 것으로, 사용자�
 
 Header.tsx — 웹 앱 디자인에서 핵심적인 역할을 할 재사용 가능한 헤더입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 NavBar.tsx는 앱 내에서 탐색을 표현할 수 있는 또 다른 재사용 가능한 컴포넌트입니다.
 
@@ -130,7 +238,18 @@ NavBar.tsx는 앱 내에서 탐색을 표현할 수 있는 또 다른 재사용 
 
 ![이미지](/assets/img/2024-06-22-MasteringNextJSArchitecturewithTypeScriptinMindDesignAbstractions2024_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `AuthContext.tsx` 파일에는 사용자의 인증 정보가 저장됩니다. 사용자가 시스템에 로그인한 후에 사용자의 정적 데이터를 관리하기 위해 React Context를 사용할 것입니다.
 
@@ -140,7 +259,18 @@ NavBar.tsx는 앱 내에서 탐색을 표현할 수 있는 또 다른 재사용 
 
 앱의 다른 레이어(표현/비즈니스 등)와 작업할 때 서로를 혼동하지 않는 것이 항상 중요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또한 API 관련 코드를 별도의 폴더로 이동하는 것이 좋은 실천 방법입니다.
 
@@ -150,7 +280,18 @@ getCurrentUser.ts — SessionStorage에서 로그인한 사용자 데이터를 �
 
 getPosts.ts — 사용자가 게시한 사용 가능한 게시물을 검색하는 GET 요청입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 getUsers.ts - 시스템에 등록된 모든 사용자를 검색하기 위한 GET 요청입니다.
 
@@ -160,7 +301,18 @@ setUsers/setPosts.ts - 앱 초기화를 위해 LocalStorage에 데이터를 채�
 
 ## 📁 ./hooks
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React의 세계에서 (특히 훅에 대해 말할 때) UI 로직과 비즈니스 로직을 섞지 않는 것이 항상 가장 좋은 실천법입니다. 구성 요소를 설계할 때 항상 UI 레이어를 가능한 한 단순하게 유지하는 방법을 생각해 보세요.
 
@@ -170,7 +322,18 @@ React의 세계에서 (특히 훅에 대해 말할 때) UI 로직과 비즈니�
 
 useDataInitialize.ts — 앱 실행을 위해 목 데이터 세트를 초기화하는 주요 파일입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 usePosts/useFriends.ts — 이 훅들을 사용하면 우리는 친구/게시물 API 응답을 캡슐화된 방식으로 검색할 수 있게 될 거에요.
 
@@ -180,7 +343,18 @@ useSignup/useSignin/useSignout.ts — 이 훅들은 사용자 인증 플로우�
 
 여기 우리 사용자 정의 작업에 대해 도와줄 귀여운 녀석이 있어요. 이 폴더에는 데이터 무작위화와 같은 특정 사용 사례에만 사용되는 몇 가지 항목을 넣는 것이 항상 좋아요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-22-MasteringNextJSArchitecturewithTypeScriptinMindDesignAbstractions2024_7.png" />
 
@@ -190,7 +364,18 @@ dataRandomizer.ts — 이 파일은 앱을 랜덤한 게시물/사용자 데이�
 
 이 폴더는 앱 전체에서 여러 차례 유용하고 재사용 가능한 것들을 결합하여 앱의 재사용성을 높이는 데 도움이 될 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-22-MasteringNextJSArchitecturewithTypeScriptinMindDesignAbstractions2024_8.png" />
 
@@ -200,7 +385,18 @@ sortByDate.ts - 특정 타임스탬프별로 데이터 배열을 정렬하는 �
 
 TypeScript를 언급할 때는 종종 타입과 인터페이스를 다루어야 합니다. 일반적인 Hello World 앱의 경우, 이들은 코드 안에 자연스럽게 위치해야 하는 아주 작은 부분이어야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 실제 앱에서는 이것들을 분리하므로 라인 수는 그렇지 않으면 많아질 수 있습니다.
 
@@ -210,7 +406,18 @@ data.ts — 데이터 구조를 위한 인터페이스들입니다. 현재 하�
 
 ## 📁 ./static
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 작은 폴더는 앱 안에 포함하고 싶은 아이콘/이미지/gif/비디오 등과 같은 정적 데이터를 나타냅니다.
 
@@ -220,7 +427,18 @@ logo.svg — 메인 앱 로고.
 
 ## 📁 ./styles
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막으로 유명한 스타일 폴더입니다. CSS 모듈을 사용하여 코드를 격리하고 반복하지 않도록 권장합니다. 그럼에도 불구하고 일부 코드는 중앙에 유지되어 전체 사이트에서 초기화해야 합니다. 이러한 것들을 저장하는 장소가 이곳이며 globals/등이 있습니다.
 
@@ -230,7 +448,18 @@ global.css — 앱의 핵심 공유 스타일.
 
 # 핵심 아키텍처 원칙
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 좋아, 이제 앱 아키텍처를 설계하는 데 문제가 없네요. 이제 우리는 코드 재사용성과 유지 관리에 대해 더 많이 집중할 수 있어요.
 
@@ -240,7 +469,18 @@ global.css — 앱의 핵심 공유 스타일.
 
 응집도(cohesion)는 모듈/클래스 요소들이 얼마나 잘 어울리는지를 가리키며, 관련된 코드는 서로 가까이 위치하는 것이 좋다는 것을 의미합니다. 높은 응집도를 추구하고 관련 코드를 가능한 한 긴밀히 묶어야 합니다. 이는 모듈/클래스 내부 요소와 관련이 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결합성은 서로 다른 모듈/클래스가 서로 얼마나 의존하는지를 나타내는 정도를 의미합니다. 가능한 한 모든 모듈이 독립적이어야 한다는 것이 권장되며, 이것이 낮은 결합성을 유지해야 하는 이유입니다. 서로 다른 모듈/클래스 간의 요소와 관련이 있습니다.
 
@@ -250,7 +490,18 @@ global.css — 앱의 핵심 공유 스타일.
 
 리액트에서 우리에게 제시된 코드 유지보수를 간단하게 하기 위한 훅(Hooks)이라는 훨씬 더 나은 접근 방식이 있습니다. 구성 요소 대신에 자신을 대신해서 API 요청을 호출할 때, 이 코드를 따로 폴더/범위로 가져가고 격리된 상태로 관리하는 것이 더 나은 방법이 아닌가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러면 UI 레이어를 훨씬 멋지게 만들 수 있게 될 거예요:
 
@@ -260,7 +511,18 @@ global.css — 앱의 핵심 공유 스타일.
 
 `![비즈니스 레이어](/assets/img/2024-06-22-MasteringNextJSArchitecturewithTypeScriptinMindDesignAbstractions2024_14.png)`
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 API 호출을 다룬다는 것을 명심해주세요 — getUsers(). 여기에 그 로직을 넣게 될 거라고 상상해봐요... 음, 이걸 모두 한 곳에서 유지하는 것은 약간 복잡할 것 같아요.
 
@@ -270,7 +532,18 @@ global.css — 앱의 핵심 공유 스타일.
 
 그리고 마지막으로 인터페이스... 여기서는 코드에서 그들을 가져와서 공유 가능한 ./interfaces 폴더에 넣어요. 이렇게 하면 API 코드를 훨씬 깔끔하고 이해하기 쉽도록 유지하고 확장할 수 있게 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 NextJS 프로젝트를 위해 잘 설계된 추상화를 작성한 후에 코드를 깔끔하고 효율적으로 작성하는 4단계 Best Practice 입니다. 이전에 논의한 아키텍처로 계속 진행해야 하는 이유가 이제 더 명확해졌기를 바랍니다.
 
@@ -280,7 +553,18 @@ global.css — 앱의 핵심 공유 스타일.
 
 하지만, 이 작은 실제 예제가 어떻게 미래 앱을 더 잘 설계하고 웹 애플리케이션을 개발할 때 따라야 하는 올바른 추상화에 대한 감각을 제공해 줄 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에서 언급한 앱의 출처입니다. 원하신다면 여기에서 함께 놀아보세요: https://github.com/BiosBoy/my-social-app.
 

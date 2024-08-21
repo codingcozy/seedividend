@@ -3,17 +3,13 @@ title: "React 웹사이트에 SVG 애니메이션 추가하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Adding SVG animations to your React website"
 link: "https://medium.com/@0n9aldrin/adding-svg-animations-to-your-react-website-1056a82988bc"
 isUpdated: true
 ---
-
-
-
-
 
 ![gif1](https://miro.medium.com/v2/resize:fit:1000/1*QNgN523Uz11ckMtlwVUxLw.gif)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ![gif2](https://miro.medium.com/v2/resize:fit:1400/1*-kvdPYkqjphdR5s453wPzg.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 애니메이션이 멋져 보이고 가장 좋은 점은 Cassie가 SVG 및 애니메이션에 대한 자습서를 제공한다는 것입니다. 애니메이션된 각 요소에 완전한 제어를 약속하며 터미널 창 커서를 포함합니다. 그러나 이에 대해 깊이 파고들면 학교 학기 중에는 헌신할 수 없는 한 주 이상을 소비해야 할 수도 있습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 하지만 LottieFiles를 발견했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그들은 광고하고 있어요:
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 모든 게 좋았어요. 그러나 이러한 애니메이션을 내 React 앱에 통합하는 것은 어려움을 가지고 있었어요. 애니메이션을 GIF로 내보내거나 프로젝트에 Lottie 패키지를 추가해야 했는데, 어느 것도 매력적으로 보이지 않았어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 많은 애니메이션들이 익숙하게 느껴졌다는 것을 깨달았어요. 특히, 많은 디자인들은 https://storyset.com/ 에서 온 것이었어요. 저는 이 사이트를 이전 프로젝트에서 사용했었는데, 아주 좋아했죠.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 그리고 이 일러스트레이션에 애니메이션을 추가할 수 있다는 사실이 밝혀졌어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1400/1*EfCiHeW0w3_CL_-2AD0gRw.gif)
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 ![이미지](/assets/img/Adding-SVG-animations-to-your-React-website_6.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아! 애니메이션을 사용하기 위해 너무 기대돼서 SVG 코드를 다운로드하고 내 코드에 가져왔어:
 
@@ -85,7 +136,18 @@ SyntaxError: unknown file: Namespace tags are not supported by default. React's 
      |                                                                                                                                                                        ^^^^^^^^^^^
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 별 건 아니지만, SVG 파일을 불러와보니 React와 호환되지 않았어요. 어떻게든 JSX 컴포넌트로 변환해야 했죠. 좀 찾아보니 이 웹사이트를 발견했어요: https://svg2jsx.com/
 
@@ -97,7 +159,13 @@ import "./styles/programming-styles.css";
 
 function Programmer() {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" id="freepik_stories-programming" className="animated" version="1.1" viewBox="0 0 500 500">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      id="freepik_stories-programming"
+      className="animated"
+      version="1.1"
+      viewBox="0 0 500 500"
+    >
       ...
     </svg>
   );
@@ -108,7 +176,18 @@ export default Programmer;
 
 하지만 또 다른 문제가 있었어요. CSS 파일은 이렇게 생겼거든:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 svg#freepik_stories-programming:not(.animated) .animable {
@@ -146,7 +225,17 @@ svg#freepik_stories-programming.animated #freepik--speech-bubble--inject-2 {
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/1*8Xy-_V8Ga7wwpOMUUcNI7g.gif" />
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 감사합니다. 앞으로 더 많은 튜토리얼 스타일의 글을 작성할 계획이에요. 보시는 내용이 마음에 드시거나 저에 대해 더 알아보고 싶으시면 제 웹사이트를 방문해주세요: [https://aldrin-ong.vercel.app/](https://aldrin-ong.vercel.app/)

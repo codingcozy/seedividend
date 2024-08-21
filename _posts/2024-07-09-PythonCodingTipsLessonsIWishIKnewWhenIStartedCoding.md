@@ -3,15 +3,13 @@ title: "초보 때 알았더라면 좋았을 Python 코딩 꿀팁 10가지"
 description: ""
 coverImage: "/assets/img/2024-07-09-PythonCodingTipsLessonsIWishIKnewWhenIStartedCoding_0.png"
 date: 2024-07-09 15:05
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-PythonCodingTipsLessonsIWishIKnewWhenIStartedCoding_0.png
 tag: Tech
 originalTitle: "Python Coding Tips: Lessons I Wish I Knew When I Started Coding"
 link: "https://medium.com/@yaduvanshineelam09/python-coding-tips-lessons-i-wish-i-knew-when-i-started-coding-4e9d9cd0aefb"
 isUpdated: true
 ---
-
-
 
 ![Python Coding Tips](/assets/img/2024-07-09-PythonCodingTipsLessonsIWishIKnewWhenIStartedCoding_0.png)
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 ![Python Coding Tips](/assets/img/2024-07-09-PythonCodingTipsLessonsIWishIKnewWhenIStartedCoding_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사진: Kelly Sikkema 님의 Unsplash
 
@@ -31,7 +40,18 @@ isUpdated: true
 
 장점:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 간결하고 읽기 쉬운 구문.
 - 문자열 내부에 쉽게 표현식을 넣을 수 있습니다.
@@ -43,7 +63,18 @@ isUpdated: true
 
 예시:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 name = "John"
@@ -58,7 +89,18 @@ message = f"My name is {name}, and I am {age} years old."
 - 함수의 동작을 확장하는 깔끔한 방법을 제공합니다.
 - 코드 재사용성을 향상시킵니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Cons:
 
@@ -81,7 +123,18 @@ def example_function():
     # 함수 로직이 여기에 있습니다
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 3. Python 숙련도 향상을 위한 help() 함수 활용
 
@@ -92,7 +145,18 @@ def example_function():
 
 단점:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 제한된 정보: help()를 통해 제공되는 정보는 때로 간결할 수 있으며, 복잡한 주제에 대해서는 보다 자세한 문서가 필요할 수 있습니다. help()의 효과는 코드 내 docstrings의 존재와 품질에 따라 달라집니다.
 
@@ -114,7 +178,18 @@ help(calculate_square)
 
 # 4. List Comprehensions: 간결한 리스트 생성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 장점:
 
@@ -125,7 +200,18 @@ help(calculate_square)
 
 - 특히 복잡한 로직에서는 가독성을 높이기 위해 중첩된 리스트 컴프리헨션을 피해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시:
 
@@ -138,7 +224,18 @@ squares = [x**2 for x in range(10) if x % 2 == 0]
 
 장점:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 루프가 break 문이 없이 자연스럽게 완료될 때 코드를 실행할 수 있습니다.
 - 특정 동작이 성공적인 루프를 따라야 하는 시나리오에 이상적입니다.
@@ -149,7 +246,18 @@ squares = [x**2 for x in range(10) if x % 2 == 0]
 
 예시:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # else 절을 사용하여 소수 찾기
@@ -168,7 +276,18 @@ for n in range(2, 10):
 - 간단한 함수를 간결하게 한 줄에 작성할 수 있습니다.
 - 형식적인 함수 정의가 필요하지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단점:
 
@@ -183,7 +302,18 @@ add_numbers = lambda x, y: x + y
 result = add_numbers(3, 5)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 7. enumerate 및 zip을 활용한 파이썬적인 Iteration
 
@@ -194,7 +324,18 @@ result = add_numbers(3, 5)
 - enumerate(): 인덱스와 값 모두를 사용하여 반복을 간단하게 만듭니다.
 - zip(): 여러 리스트에 대해 병렬 반복을 용이하게 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Cons:
 
@@ -214,7 +355,18 @@ for name, age in zip(names, ages):
     print(f"{name}은(는) {age}살입니다.")
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 8. \*args 와 \*\*kwargs: 유연한 함수 인수
 
@@ -225,7 +377,18 @@ for name, age in zip(names, ages):
 
 단점:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 기능 시그니처가 모든 가능한 인수를 나타내지 않을 수 있으므로 주의 깊은 문서화가 필요합니다.
 
@@ -242,7 +405,18 @@ def multiply(*args):
 
 # 9. try 및 except를 사용한 안정적인 오류 처리
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 장점:
 
@@ -255,7 +429,18 @@ def multiply(*args):
 - 오버헤드: try와 except를 사용할 경우 일부 경우에 약간의 성능 오버헤드가 발생할 수 있습니다.
 - 잠재적인 실수: 오류를 잘못 잡거나 억제하는 경우 근본적인 문제를 숨길 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시:
 
@@ -281,7 +466,18 @@ divide_numbers("a", 2) # 예상치 못한 오류 (TypeError)
 
 장점:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 하위 목록 추출, 뒤집기, 요소 건너뛰기 등의 작업을 쉽게 수행할 수 있습니다.
 - 코드 가독성을 향상시키고 명시적인 반복문이 필요 없도록 합니다.
@@ -292,7 +488,18 @@ divide_numbers("a", 2) # 예상치 못한 오류 (TypeError)
 
 예시:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 인덱스 2부터 5까지의 서브리스트 추출
@@ -307,7 +514,18 @@ sublist = original_list[2:6]
 - 대규모 데이터 세트를 효율적으로 처리합니다.
 - 아이템을 실시간으로 생성하여 메모리를 절약합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단점:
 
@@ -324,7 +542,18 @@ def fibonacci(n):
         a, b = b, a + b
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 12. 단언문: 자신감을 가지고 디버깅하기
 
@@ -335,7 +564,18 @@ def fibonacci(n):
 
 단점:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 제품 코드에서 오버 사용하면 성능에 영향을 줄 수 있습니다.
 
@@ -349,7 +589,18 @@ assert num > 0, "숫자는 양수여야 합니다."
 
 # 13. 깊은 복사 vs 얕은 복사: 현명하게 복제하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 장점:
 
@@ -360,7 +611,18 @@ assert num > 0, "숫자는 양수여야 합니다."
 
 - deepcopy가 필요한데 얕은 복사를 사용하면 원본 데이터의 의도치 않은 수정이 발생할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시:
 
@@ -376,7 +638,18 @@ deep = copy.deepcopy(original)
 
 장점:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 시뮬레이션, 게임 또는 예측할 수 없는 상황에 유용합니다.
 - 다양한 무작위화 기능을 제공합니다.
@@ -387,7 +660,18 @@ deep = copy.deepcopy(original)
 
 예시:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import random
@@ -402,7 +686,18 @@ random_number = random.randint(1, 10)
 - 존재하지 않는 키에 대한 기본값을 제공하여 코드를 간소화합니다.
 - 명시적인 키 존재 여부 검사를 없애줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Cons:
 
@@ -418,7 +713,18 @@ for letter in word:
     letter_count[letter] += 1
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 16. 해저 쇠사자 연산자(:=): 효율적인 인라인 할당
 
@@ -429,7 +735,18 @@ for letter in word:
 
 단점:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이를 과도하게 사용하면 연산자에 익숙하지 않은 사람들에게 코드를 읽는 데 어렵게 만들 수 있습니다.
 
@@ -444,7 +761,18 @@ with open('file.txt', 'r') as f:
 
 # 17. 타입 힌팅: 코드 가독성 향상하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 장점:
 
@@ -455,7 +783,18 @@ with open('file.txt', 'r') as f:
 
 - Python은 여전히 동적으로 유형이 할당되는 언어이며, 유형 힌트는 옵션이며 강제되지 않습니다 — 인간 눈을 위한 것이죠 ;) .
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시:
 
@@ -469,7 +808,18 @@ def greet(name: str) -> str:
 
 장점:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 가볍고 변경할 수 없는 데이터 구조를 제공합니다.
 - 각 필드에 이름을 지정하여 코드 가독성을 향상시킵니다.
@@ -481,7 +831,18 @@ def greet(name: str) -> str:
 
 예시:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 # 사람을 위한 namedtuple 만들기
@@ -497,7 +858,18 @@ alice = Person(name="Alice", age=30)
 - 동시에 여러 리스트를 반복하는 것을 간단하게 만듭니다.
 - 서로 다른 리스트에서 항목을 함께 처리해야 하는 작업에 편리합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단점:
 
@@ -513,7 +885,18 @@ for name, score in zip(names, scores):
     print(f"{name}: {score}")
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 20. Dictionaries — get()과 setdefault(): 우아한 키 처리
 
@@ -524,7 +907,18 @@ for name, score in zip(names, scores):
 
 단점:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이러한 방법을 간과하면 중복 코드를 확인하는 데 유용합니다.
 
@@ -538,7 +932,18 @@ data.setdefault("country", "USA");
 
 # 21. **main** 가드: 스크립트 실행을 제어하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 장점:
 
@@ -549,7 +954,18 @@ data.setdefault("country", "USA");
 
 - 이 가드를 사용하는 것을 잊으면 모듈이 가져올 때 예기치 않은 동작을 초래할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시:
 
@@ -562,7 +978,18 @@ if __name__ == "__main__":
 
 장점:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 각 프로젝트를 위한 깨끗하고 격리된 환경을 보장합니다.
 - 의존성 관리를 용이하게 하고 충돌을 피할 수 있습니다.
@@ -573,7 +1000,18 @@ Cons:
 
 Example:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 # 가상 환경 생성 및 활성화
@@ -588,7 +1026,18 @@ source my_project_env/bin/activate
 - 컬렉션을 각각의 요소로 효율적으로 언패킹한다.
 - 함수 내에서 동적인 인수 처리를 용이하게 한다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단점:
 
@@ -602,7 +1051,18 @@ def func(a, b, c):
     return a + b + c
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 values = [1, 2, 3]
@@ -616,7 +1076,18 @@ print(func(*values))
 - 리소스의 적절한 설정 및 해제를 보장합니다.
 - 코드 가독성을 향상시키고 리소스 누수 가능성을 줄입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단점:
 
@@ -630,7 +1101,18 @@ with open('file.txt', 'r') as f:
     content = f.read()
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 25. 파이썬의 언더스코어(\_) 사용법: 명명과 루프에서의 다재다능함
 
@@ -642,7 +1124,18 @@ with open('file.txt', 'r') as f:
 
 단점:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 다양한 용도로 사용되면 특히 새로운 코더들에게 혼란스러울 수 있어요.
 
@@ -656,7 +1149,18 @@ for _ in range(5):
 
 # 26. 맵, 필터 및 리듀스: 파이썬에서의 함수형 프로그래밍
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 장점:
 
@@ -668,7 +1172,18 @@ for _ in range(5):
 
 - Python 3.x에서 map()과 filter()는 반복자를 반환하므로 필요하다면 리스트로 변환하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시:
 
@@ -682,7 +1197,18 @@ upper_names = list(map(str.upper, names))
 
 장점:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 여러 사전의 내용을 결합하는 것을 간편하게 해줍니다.
 - 병합 방법을 선택하는 데 유연성을 제공합니다.
@@ -693,7 +1219,18 @@ upper_names = list(map(str.upper, names))
 
 예시:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 딕셔너리를 update() 메서드를 사용하여 병합하기
 

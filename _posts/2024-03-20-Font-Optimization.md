@@ -3,17 +3,13 @@ title: "Nextjs 14 폰트 최적화하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # Nextjs 14 폰트 최적화하는 방법
 
@@ -24,7 +20,18 @@ next/font는 자동으로 폰트를 최적화하고 (사용자 정의 폰트 포
 > next/font에는 모든 글꼴 파일에 대한 내장 자동 셀프 호스팅이 포함되어 있습니다. 이는 CSS 크기 조정 속성을 이용하여 웹 폰트를 최적으로 로드할 수 있게 해 줍니다.
 > 이 새로운 폰트 시스템은 모든 Google Fonts를 효율적이고 개인 정보 보호를 고려하여 편리하게 사용할 수 있도록 합니다. CSS 및 글꼴 파일은 빌드 시 다운로드되어 정적 에셋과 함께 셀프 호스팅됩니다. 브라우저가 Google로 요청을 보내지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 구글 글꼴
 
@@ -49,7 +56,18 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 변수 글꼴을 사용할 수 없다면, 글꼴 무게를 지정해야 합니다.
 
@@ -82,7 +100,18 @@ const roboto = Roboto({
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 > 알아두면 좋은 정보: 여러 단어로 된 글꼴 명은 밑줄 (\_)을 사용하세요. 예: Roboto Mono의 경우 Roboto_Mono로 가져와야 합니다.
 
@@ -115,7 +144,18 @@ export const roboto_mono = Roboto_Mono({
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```typescript
 import { inter } from "./fonts";
@@ -143,7 +183,18 @@ export default function Page() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 예시에서 Inter는 전역적으로 적용되며, Roboto Mono는 필요할 때 가져와 적용할 수 있습니다.
 또는 CSS 변수를 만들고 원하는 CSS 솔루션과 함께 사용할 수도 있습니다:

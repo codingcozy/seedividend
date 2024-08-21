@@ -3,7 +3,7 @@ title: "Swift에서 코어 데이터를 멀티 스레딩으로 마스터하는 �
 description: ""
 coverImage: "/assets/img/2024-08-13-MasteringCoreDataMulti-ThreadinginSwiftAComprehensiveGuide_0.png"
 date: 2024-08-13 12:08
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-13-MasteringCoreDataMulti-ThreadinginSwiftAComprehensiveGuide_0.png
 tag: Tech
 originalTitle: "Mastering Core Data Multi-Threading in Swift A Comprehensive Guide"
@@ -11,7 +11,6 @@ link: "https://medium.com/@lioz.balki1/mastering-core-data-multi-threading-in-sw
 isUpdated: true
 updatedAt: 1723864028868
 ---
-
 
 ![이미지](/assets/img/2024-08-13-MasteringCoreDataMulti-ThreadinginSwiftAComprehensiveGuide_0.png)
 
@@ -21,7 +20,18 @@ updatedAt: 1723864028868
 
 # 코어 데이터와 멀티스레딩
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Core Data 컨텍스트 (NSManagedObjectContext)는 기본적으로 스레드에 안전하지 않습니다. 이는 각 컨텍스트가 한 번에 하나의 스레드에서만 액세스되어야 함을 의미합니다. Core Data를 멀티스레드 환경에서 사용해야 하는 경우, 컨텍스트를 올바르게 관리하여 데이터 손상이나 예기치 않은 충돌과 같은 문제를 피해야 합니다.
 
@@ -31,7 +41,18 @@ Core Data 컨텍스트 (NSManagedObjectContext)는 기본적으로 스레드에 
 
 여러 스레드에서 Core Data를 올바르게 사용하는지 확인하려면 환경 변수 -com.apple.CoreData.ConcurrencyDebug를 1로 설정하여 Core Data의 동시성 디버깅 어서션을 활성화할 수 있습니다. 이렇게 하면 개발 중에 잠재적인 동시성 위반을 식별하여 문제를 조기에 파악하고 수정하는 데 도움이 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어떻게 활성화하나요:
 
@@ -44,7 +65,18 @@ Core Data 컨텍스트 (NSManagedObjectContext)는 기본적으로 스레드에 
 
 # NSManagedObjectContextConcurrencyType 이해하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 NSManagedObjectContext를 생성할 때는 NSManagedObjectContextConcurrencyType 열거형을 사용하여 해당 동시성 유형을 지정할 수 있습니다. 주요 두 가지 유형이 있습니다:
 
@@ -55,7 +87,18 @@ NSManagedObjectContext를 생성할 때는 NSManagedObjectContextConcurrencyType
 
 NSPersistentContainer를 사용할 때 자동으로 설정된 viewContext를 제공합니다. viewContext는 기본적으로 mainQueueConcurrencyType을 사용하므로 즉시 UI를 업데이트해야 하는 작업에 적합합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 백그라운드에서 작업을 수행해야 할 때는 privateQueueConcurrencyType을 사용하여 새로운 컨텍스트를 생성해야 합니다. 이렇게 하면 백그라운드 작업이 UI에 영향을 미치지 않거나 메인 스레드를 블록하지 않도록 보장할 수 있습니다.
 
@@ -70,7 +113,18 @@ backgroundContext.perform {
 
 # performAndWait 및 perform 사용하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 NSManagedObjectContext은 context의 큐에서 코드 블록을 실행하는 두 가지 메서드를 제공합니다:
 
@@ -82,7 +136,18 @@ Concurrency Type Differences:
 - mainQueueConcurrencyType을 사용할 때 perform은 블록을 주 스레드에서 비동기적으로 실행하여 UI의 응답성을 유지합니다.
 - privateQueueConcurrencyType을 사용할 때 perform은 블록을 백그라운드 스레드에서 비동기적으로 실행하여 UI와 관련없는 작업에 적합합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # NSManagedObjectContext 병합 정책
 
@@ -96,7 +161,18 @@ Concurrency Type Differences:
 
 예시:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 let context = NSManagedObjectContext(concurrencyType: .privateQueueConcurrencyType)
@@ -113,7 +189,18 @@ context.mergePolicy = NSMergeByPropertyObjectTrumpMergePolicy
 - didSaveObjectIDsNotification: 컨텍스트가 성공적으로 변경 사항을 저장한 후에, 영향을 받는 객체들의 개체 식별자가 포함된 알림이 전송됩니다.
 - didMergeChangesObjectIDsNotification: 다른 컨텍스트에서의 변경 사항이 병합된 후에 전송됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 알림을 사용하면 Core Data 스택에서 변경 사항에 반응하여 UI가 데이터와 동기화되도록 할 수 있습니다.
 
@@ -134,7 +221,18 @@ NotificationCenter.default.addObserver(self, selector: #selector(contextDidSave(
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예시에서는 didSaveObjectsNotification을 관찰하고 주 컨텍스트로 변경 사항을 병합하여 UI가 최신 데이터를 반영하도록합니다. context.perform를 사용하여 UI 업데이트가 주 스레드에서 발생하도록 보장하여 앱이 반응적으로 유지되도록합니다.
 

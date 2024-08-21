@@ -3,17 +3,13 @@ title: "Nextjs 14 CSS in JS 라이브러리"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # Nextjs 14 CSS in JS 라이브러리
 
@@ -36,7 +32,18 @@ isUpdated: true
 - tss-react
 - vanilla-extract
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현재 지원 작업 중인 라이브러리는 다음과 같습니다:
 
@@ -54,7 +61,18 @@ CSS-in-JS를 구성하는 것은 세 단계의 선택 프로세스로 이루어�
 - 사용하기 전에 스타일 레지스트리에 규칙을 주입하는 새로운 useServerInsertedHTML 훅
 - 초기 서버 측 렌더링 중에 앱을 스타일 레지스트리로 래핑하는 클라이언트 컴포넌트
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### styled-jsx
 
@@ -67,11 +85,7 @@ import React, { useState } from "react";
 import { useServerInsertedHTML } from "next/navigation";
 import { StyleRegistry, createStyleRegistry } from "styled-jsx";
 
-export default function StyledJsxRegistry({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function StyledJsxRegistry({ children }: { children: React.ReactNode }) {
   // 초기 상태로 스타일시트를 한 번만 생성합니다
   const [jsxStyleRegistry] = useState(() => createStyleRegistry());
 
@@ -90,11 +104,7 @@ export default function StyledJsxRegistry({
 ```typescript
 import StyledJsxRegistry from "./registry";
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html>
       <body>
@@ -105,7 +115,18 @@ export default function RootLayout({
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예제는 여기에서 확인할 수 있습니다.
 
@@ -125,7 +146,18 @@ module.exports = {
 
 그런 다음 styled-components API를 사용하여 렌더링 중에 생성된 모든 CSS 스타일 규칙을 수집하는 전역 레지스트리 컴포넌트와 해당 규칙을 반환하는 함수를 만들어 보세요. 그런 다음 useServerInsertedHTML 훅을 사용하여 레지스트리에서 수집된 스타일을 루트 레이아웃의 `<head>` HTML 태그에 주입하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```typescript
 "use client";
@@ -134,11 +166,7 @@ import React, { useState } from "react";
 import { useServerInsertedHTML } from "next/navigation";
 import { ServerStyleSheet, StyleSheetManager } from "styled-components";
 
-export default function StyledComponentsRegistry({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function StyledComponentsRegistry({ children }: { children: React.ReactNode }) {
   // 초기 상태로 스타일시트를 한 번만 생성합니다
   const [styledComponentsStyleSheet] = useState(() => new ServerStyleSheet());
 
@@ -150,11 +178,7 @@ export default function StyledComponentsRegistry({
 
   if (typeof window !== "undefined") return <>{children}</>;
 
-  return (
-    <StyleSheetManager sheet={styledComponentsStyleSheet.instance}>
-      {children}
-    </StyleSheetManager>
-  );
+  return <StyleSheetManager sheet={styledComponentsStyleSheet.instance}>{children}</StyleSheetManager>;
 }
 ```
 
@@ -163,11 +187,7 @@ export default function StyledComponentsRegistry({
 ```typescript
 import StyledComponentsRegistry from "./lib/registry";
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html>
       <body>
@@ -178,7 +198,18 @@ export default function RootLayout({
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예제는 여기에서 확인할 수 있습니다.
 

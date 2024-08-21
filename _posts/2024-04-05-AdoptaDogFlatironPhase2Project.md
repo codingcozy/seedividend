@@ -3,17 +3,13 @@ title: "리액트로 강아지 입양 사이트 만들기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Adopt a Dog, Flatiron Phase 2 Project"
 link: "https://medium.com/@genesismcgruder/adopt-a-dog-flatiron-phase-2-project-178328665141"
 isUpdated: true
 ---
-
-
-
-
 
 지난 두 달 동안은 멋진 학습 기회로 가득 찼습니다. 이번에는 React였어요. 제 프로젝트는 강아지 입양 앱을 만들었어요.
 
@@ -23,7 +19,18 @@ npx create-react-app your-app-name --use-npm
 
 이 단계가 완료되면 JSON 파일을 만들었어요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 db.json 파일을 만들어주세요.
 
@@ -31,11 +38,20 @@ db.json 파일을 만들어주세요.
 
 db.json 파일을 설정한 후 다음 명령을 실행하세요:
 
-
 json-server --watch db.json
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 메시지가 나타나면 좋겠어요:
 
@@ -47,7 +63,18 @@ db.json 파일은 제 API로 작동합니다. 여기서 내비게이션을 시�
 npm install react-router-dom@6
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 버전 6을 사용 중입니다. 다른 버전을 사용 중이라면 약간 다를 수 있습니다.
 
@@ -57,7 +84,18 @@ npm install react-router-dom@6
 
 createBrowserRouter와 RouterProvider를 import해야 합니다. createBrowserRouter는 라우터를 만드는 데 사용되고, RouterProvider는 우리 애플리케이션을 위해 만든 라우터를 제공합니다. 라우터에서 우리는 이동할 수 있는 경로와 엘리먼트를 만들어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로 내 내비게이션 바를 만들었습니다.
 
@@ -67,7 +105,18 @@ createBrowserRouter와 RouterProvider를 import해야 합니다. createBrowserRo
 
 이제 채용 페이지로 넘어가보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/AdoptaDogFlatironPhase2Project_4.png)
 
@@ -77,7 +126,18 @@ createBrowserRouter와 RouterProvider를 import해야 합니다. createBrowserRo
 
 이 컴포넌트에서는 개 객체를 이름, 종, 이미지, 나이 및 훈련 여부로 구조화하여 정리했습니다. 이 정보를 사용하여 각 개 카드를 작성할 필요한 변수를 가져옵니다. 위의 db.json 파일에서, 훈련 여부는 true 또는 false 값으로 표시됩니다. 조건부 렌더링을 사용해야 했습니다. 훈련 여부가 true이면 Housetrained: Yes라는 h5를 반환하고, 그렇지 않으면 Housetrained: No라는 h5가 나타납니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막 단계는 폼 구성 요소를 생성하는 것입니다.
 

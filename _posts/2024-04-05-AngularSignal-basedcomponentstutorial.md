@@ -3,17 +3,13 @@ title: "앵귤러 시그널 기반 컴포넌트 튜토리얼"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Angular Signal-based components tutorial"
 link: "https://medium.com/angular-training/angular-signal-based-components-tutorial-4e4b4b1dfa96"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/AngularSignal-basedcomponentstutorial_0.png" />
 
@@ -40,7 +36,18 @@ export class HelloComponent {
   profileComponent: ProfileComponent;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 시그널 기반 접근 방식을 사용한 동일한 컴포넌트의 모습입니다:
 
@@ -64,7 +71,18 @@ export class HelloComponent {
 
 또한 입력과 출력 둘 다 가능한 model() 함수가 추가되었습니다. 이 함수는 양방향 데이터 바인딩에 완벽합니다. model()에 대한 간단한 튜토리얼은 여기에서 찾아볼 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/AngularSignal-basedcomponentstutorial_1.png" />
 
@@ -74,7 +92,18 @@ export class HelloComponent {
 
 변경 감지가 작동하는 방식에 대해 더 알아보려면 이 설명을 참고해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 추가 혜택 중 하나는 Angular 학습의 가장 어려운 부분이었던 RxJs에 대한 의존성이 줄어든다는 것입니다. 시그널 기반 컴포넌트는 구독, 서브젝트, 연산자 등 없이 작성할 수 있습니다. 이것은 Angular 팀의 다음 목표 중 하나로, ng-conf 2024에서 발표되었습니다: Zone.js와 RxJs 없이 Angular의 미래를 제공하는 것입니다.
 
@@ -84,7 +113,18 @@ export class HelloComponent {
 
 Angular의 현재 상태에서 시그널 기반 컴포넌트를 활성화하는 첫 번째 단계는 서비스를 Observable과 Subject 대신 시그널을 노출하도록 만드는 것입니다. 이러한 가이드라인과 최고의 실천 방법을 사용하여 서비스에서 시그널을 안전하게 노출할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 번째 단계는 구성 요소에서 사용 중인 모든 데코레이터를 새로운 시그널 기반 옵션으로 바꾸는 것입니다:
 
@@ -96,7 +136,18 @@ input()과 달리 output() 함수는 시그널을 반환하지 않는다는 점�
 
 다음과 같은 output 선언이 Typescript 컴포넌트 코드에 있다고 가정해 봅시다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 greetingClicked = output<string>();
@@ -110,7 +161,18 @@ greetingClicked.emit("일부 값");
 
 Rxjs 코드 및 레거시 데코레이터가 컴포넌트에서 완전히 제거되면 최종 단계는 컴포넌트의 변경 감지 전략을 OnPush로 변경하는 것입니다. 이는 곧 변경될 수 있지만 현재는 우리의 전체 컴포넌트 트리를 무조건 통과할 기본 전략을 비활성화하는 가장 쉬운 방법입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 @Component({
@@ -128,7 +190,18 @@ Stackblitz에서 작동하는 완전한 예제를 찾을 수 있습니다.
 
 # RxJs에 대해서 어떻게 생각하십니까?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 신호는 RxJs와 상호 운용할 수 있도록 여러 함수를 통해 설계되었습니다:
 

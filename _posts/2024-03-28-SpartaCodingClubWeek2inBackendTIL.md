@@ -3,17 +3,13 @@ title: "백엔드에서 CRUD 하는 방법 "
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Sparta Coding Club Week 2 in Backend  TIL"
 link: "https://medium.com/@sharannallathuru/sparta-coding-club-week-2-in-backend-til-d6eecd81cc70"
 isUpdated: true
 ---
-
-
-
-
 
 # 백엔드 개발 2주차: 데이터베이스, API, 그리고 플라스크의 심층 탐구
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 데이터 관리와 웹 개발의 핵심은 CRUD(Create, Read, Update, Delete)에 있습니다. 이 네 가지 작업은 데이터와 상호 작용하는 데 기초적입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## MongoDB Atlas를 탐험해보세요:
 
@@ -35,7 +42,18 @@ MongoDB Atlas은 MongoDB 기술을 바탕으로한 최신 데이터베이스 서
 - 성능을 향상시키고 지연 시간을 줄이기 위한 전역 데이터 분배.
 - 개발자가 우수한 애플리케이션을 만들 수 있도록 간소화된 관리.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## API의 역할:
 
@@ -45,7 +63,18 @@ API 또는 응용프로그램 프로그래밍 인터페이스는 서로 다른 �
 
 Flask는 간결함과 유연성으로 손꼽히는 Python 기반 웹 개발 도구로, 요청 처리, 페이지 맞춤 설정 및 기능 개선에 대한 간소화된 접근 방식을 제공하여 초보자와 숙련된 개발자 모두를 위한 도구로 인기를 끌고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 주 2 프로젝트 개요: 원페이지 쇼핑 몰
 
@@ -56,7 +85,18 @@ Flask는 간결함과 유연성으로 손꼽히는 Python 기반 웹 개발 도�
 
 MongoDB, CRUD 작업, API 및 Flask에 대한 이 탐구는 제 이해를 깊이 향상시켰습니다. 이러한 기술은 개발자들에게 힘을 실어줍니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 탁월한 효율성으로 데이터를 관리합니다.
 - 애플리케이션 간의 원활한 커뮤니케이션을 지원합니다.
@@ -66,4 +106,15 @@ MongoDB, CRUD 작업, API 및 Flask에 대한 이 탐구는 제 이해를 깊이
 
 당신이 나의 여정을 따라오고 앞으로 있는 학습 경험을 나누는 것을 초대합니다. 웹 개발 세계에서의 더 많은 통찰과 모험을 기대해주시기 바랍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

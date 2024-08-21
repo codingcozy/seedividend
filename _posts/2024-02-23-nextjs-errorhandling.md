@@ -3,17 +3,13 @@ title: "Nextjs에서 에러 처리 하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # 1.Nextjs의 에러 처리 방법
 
@@ -23,35 +19,33 @@ Nextjs의 에러 처리 방법을 알아보기 전에 기존에 React에서는 �
 
    jsx
    try {
-     // 예외가 발생할 수 있는 코드
+   // 예외가 발생할 수 있는 코드
    } catch (error) {
-     // 에러 핸들링
+   // 에러 핸들링
    }
-   
 
 2. **Error Boundary 사용**: React 16부터 도입된 개념으로, 컴포넌트 트리의 하위 컴포넌트에서 발생한 에러를 캐치하여 전체 애플리케이션이 멈추는 것을 방지합니다. Error Boundary는 componentDidCatch 라이프사이클 메서드를 사용하여 에러를 처리합니다.
 
    jsx
    class ErrorBoundary extends React.Component {
-     constructor(props) {
-       super(props);
-       this.state = { hasError: false };
-     }
-
-     componentDidCatch(error, info) {
-       this.setState({ hasError: true });
-       // 에러 로깅 등의 추가 작업 가능
-     }
-
-     render() {
-       if (this.state.hasError) {
-         // 대체 UI 표시
-         return <h1>에러가 발생했습니다.</h1>;
-       }
-       return this.props.children;
-     }
+   constructor(props) {
+   super(props);
+   this.state = { hasError: false };
    }
-   
+
+   componentDidCatch(error, info) {
+   this.setState({ hasError: true });
+   // 에러 로깅 등의 추가 작업 가능
+   }
+
+   render() {
+   if (this.state.hasError) {
+   // 대체 UI 표시
+   return <h1>에러가 발생했습니다.</h1>;
+   }
+   return this.props.children;
+   }
+   }
 
    Error Boundary를 사용하기 위해서는 해당 컴포넌트를 에러가 발생할 수 있는 컴포넌트의 상위 계층에 배치해야 합니다.
 
@@ -59,34 +53,33 @@ Nextjs의 에러 처리 방법을 알아보기 전에 기존에 React에서는 �
 
    jsx
    class MyComponent extends React.Component {
-     constructor(props) {
-       super(props);
-       this.state = { error: null, errorInfo: null };
-     }
-
-     componentDidCatch(error, errorInfo) {
-       this.setState({ error: error, errorInfo: errorInfo });
-       // 에러 로깅 등의 추가 작업 가능
-     }
-
-     render() {
-       if (this.state.errorInfo) {
-         // 에러 UI 표시
-         return (
-           <div>
-             <h2>에러가 발생했습니다.</h2>
-             <details style={{ whiteSpace: "pre-wrap" }}>
-               {this.state.error && this.state.error.toString()}
-               <br />
-               {this.state.errorInfo.componentStack}
-             </details>
-           </div>
-         );
-       }
-       return this.props.children;
-     }
+   constructor(props) {
+   super(props);
+   this.state = { error: null, errorInfo: null };
    }
-   
+
+   componentDidCatch(error, errorInfo) {
+   this.setState({ error: error, errorInfo: errorInfo });
+   // 에러 로깅 등의 추가 작업 가능
+   }
+
+   render() {
+   if (this.state.errorInfo) {
+   // 에러 UI 표시
+   return (
+   <div>
+   <h2>에러가 발생했습니다.</h2>
+   <details style={{ whiteSpace: "pre-wrap" }}>
+   {this.state.error && this.state.error.toString()}
+   <br />
+   {this.state.errorInfo.componentStack}
+   </details>
+   </div>
+   );
+   }
+   return this.props.children;
+   }
+   }
 
 4. **React Error Overlay 사용**: 개발 환경에서는 React Error Overlay를 사용하여 에러 메시지를 개발자에게 표시합니다. 이것은 개발 환경에서만 동작하며, 프로덕션 환경에서는 무시됩니다.
 
@@ -94,7 +87,18 @@ Nextjs의 에러 처리 방법을 알아보기 전에 기존에 React에서는 �
 
 이러한 방법들로 지금까지는 React에서 error handling을 해왔는데요. 그럼 이제 Nextjs에서는 어떻게 에러처리를 하는지 알아보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 2.Nextjs 에러 핸들링
 
@@ -115,13 +119,7 @@ route 세그먼트 내에 error.js 파일을 추가하고 React 컴포넌트를 
 
 import { useEffect } from "react";
 
-export default function Error({
-  error,
-  reset,
-}: {
-  error: Error & { digest?: string };
-  reset: () => void;
-}) {
+export default function Error({ error, reset }: { error: Error & { digest?: string }; reset: () => void }) {
   useEffect(() => {
     // 오류를 오류 보고 서비스에 기록합니다.
     console.error(error);
@@ -163,13 +161,7 @@ export default function Error({
 ```typescript
 "use client";
 
-export default function Error({
-  error,
-  reset,
-}: {
-  error: Error & { digest?: string };
-  reset: () => void;
-}) {
+export default function Error({ error, reset }: { error: Error & { digest?: string }; reset: () => void }) {
   return (
     <div>
       <h2>오류가 발생했습니다!</h2>
@@ -181,7 +173,18 @@ export default function Error({
 
 ### 중첩된 경로
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 특수 파일을 통해 생성된 React 컴포넌트는 특정 중첩된 계층 구조에서 렌더링됩니다.
 
@@ -219,13 +222,7 @@ global-error.js가 정의되어 있더라도 루트 error.js를 정의하는 것
 ```typescript
 "use client";
 
-export default function GlobalError({
-  error,
-  reset,
-}: {
-  error: Error & { digest?: string };
-  reset: () => void;
-}) {
+export default function GlobalError({ error, reset }: { error: Error & { digest?: string }; reset: () => void }) {
   return (
     <html>
       <body>
@@ -237,7 +234,18 @@ export default function GlobalError({
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 서버 오류 처리
 

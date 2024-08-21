@@ -3,16 +3,13 @@ title: "선형 프로그래밍 개론  2부"
 description: ""
 coverImage: "/assets/img/2024-07-13-IntroductiontoLinearProgrammingPartII_0.png"
 date: 2024-07-13 20:51
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-IntroductiontoLinearProgrammingPartII_0.png
 tag: Tech
 originalTitle: "Introduction to Linear Programming — Part II"
 link: "https://medium.com/towards-data-science/introduction-to-linear-programming-part-ii-4fa9521ac3a7"
 isUpdated: true
 ---
-
-
-
 
 작년에 작은 가족 소유 철강 및 금속 사업에서 일하는 친구에게 접근 받았습니다. 그는 철강 빔을 절단할 때 낭비를 최소화하는 데 도움이 되는 무언가를 만들 수 있는지 궁금해 했습니다. 선형 프로그래밍을 활용한 문제 해결 같네요!
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 이 글은 시리즈의 두 번째 부분이며, R에서 선형 프로그래밍에 대한 소개를 찾고 계시다면 첫 번째 부분을 참조해 주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 수학을 잘 못해서 조금 헷갈리는데요..!?
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 # 문제 정의하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나머지 부분에서는 각 부분마다 두 가지 소목을 설정하겠습니다: 수학식을 설명하고 코드와 어떻게 관련이 있는지를 설명하는 부문과, 코드에만 초점을 맞춘 부문입니다.
 
@@ -45,7 +64,18 @@ isUpdated: true
 - 선택한 빔은 작업 지시서의 차원과 일치해야 함
 - 선택된 빔은 작업 지시서의 표면 처리와 일치해야 함
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사를 위해 데이터 구조 중 일부를 단순화하고, 코드를 제공하여 모델을 만들 수 있도록 할 것입니다. 작업 항목은 workTable이라는 데이터 프레임에 보관되었고, 비슷하게 재고는 inventoryTable이라는 데이터 프레임에 보관되었습니다.
 
@@ -55,7 +85,18 @@ bigMNumber `- sum(workTable$Length)
 
 코드로 이동할 때 Big M의 역할이 더 분명해질 것입니다. 하지만 이 모델에서 우리는 새로운 재고 항목을 가져올 때 모델이 그것을 인식하는 시기를 알기 위해 이를 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 인수 (수학)
 
@@ -65,8 +106,18 @@ bigMNumber `- sum(workTable$Length)
 
 # 결정 변수 (수학)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-07-13-IntroductiontoLinearProgrammingPartII_2.png)
 
@@ -76,8 +127,18 @@ And the constraints can be expressed as follows:
 
 ![image](/assets/img/2024-07-13-IntroductiontoLinearProgrammingPartII_3.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 매개변수 (코드)
 
@@ -102,7 +163,18 @@ workTable <- data.frame(
 
 위 코드는 길이가 다른 10개의 보를 포함하는 재고 테이블을 생성하고, 작업 테이블은 우리가 계획해야 할 다섯 개의 작업을 포함하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 모델 매개변수 정의
@@ -147,7 +219,18 @@ MIPModel() |>
     )
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희의 첫 번째 결정 변수는 어떤 작업 항목이 어떤 재고 항목에서 잘릴지를 나타냅니다. 인덱스 work는 잘릴 작업 항목을 나타내며, inventory는 잘릴 보름가능한 보들을 나타냅니다. 결정 변수는 바이너리이며, cutSteel[1,1] = 1은 작업 항목 1이 재고 항목 1에서 잘렸을 때를 의미합니다. 이 변수를 통해 어떤 작업 항목이 어떤 재고 항목에 할당되었는지 추적할 수 있으며, 이후에 매우 중요해집니다.
 
@@ -157,7 +240,18 @@ MIPModel() |>
 
 # 제약 조건 (코드)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 총 여섯 가지 제약 조건이 있습니다:
 
@@ -208,7 +302,18 @@ MIPModel() |>
 
 중요: 재고 및 작업 정의의 배치 차이에 유의해야 합니다. 결정 변수에서는 둘 다 동일한 괄호 안에 정의했지만, 여기서는 inventory를 sum_over() 함수 내에서, work는 바깥쪽에서 정의했습니다. 왜 그럴까요? inventory는 총 재고 항목에 대한 총합 인덱스로 사용되기 때문입니다. 그에 반해 work는 제약 조건의 적용 가능성을 지정하는 데 사용되며, 즉 제약 조건이 모든 작업 항목에 대해 참이어야 합니다. 정의의 위치를 혼란스럽게 섞어 넣으면 버그 수정하는 데 시간이 많이 소비되고 머리카락을 추억하게 될 수도 있습니다(들어본 바가 있습니다…).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 번째 제약 조건은 상당히 명백하며, 재고에서 선택된 항목이 충분히 긴지를 보장하기 위해 사용됩니다 (`= inventoryTable$Length[inventory]` 여기서 재고가 있습니다). 이 제약 조건은 재고에 있는 모든 항목에 적용되므로 sum_over() 함수 외부에 정의된 인덱스입니다.
 
@@ -218,7 +323,18 @@ MIPModel() |>
 
 # 목적 함수 (수학)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-07-13-IntroductiontoLinearProgrammingPartII_4.png)
 
@@ -228,12 +344,23 @@ MIPModel() |>
 
 간단히 말해서, 사용된 모든 재고 품목의 총 길이를 계산하라는 뜻입니다. 순서대로 진행하겠지만, 예제부터 시작해봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 자르는 필요가 있는 빔이 세 개 있습니다. 길이가 1000mm, 1500mm 및 2000mm입니다 (이것이 우리의 생산 계획 또는 W입니다). 우리의 재고 빔은 길이가 3000mm, 4000mm 및 2000mm입니다 (이것이 우리의 재고 또는 I입니다). 실제로 자르기 치수, 표면 처리 또는 자르기 실제 크기를 고려하지는 않지만, 이 상당히 간단한 예제는 쉽게 해결할 수 있습니다. 우리는 최적의 해결책이 3000mm 빔을 사용하여 1000mm 및 2000mm인 빔을 자르고, 1500mm 주문은 2000mm인 빔으로 충족될 수 있다는 것을 알 수 있습니다.
 
 우선 생소할 수 있는 일부 기호의 번역을 시작하겠습니다:
- 
+
 - 크기가 큰 이상한 E는 “합계”를 의미합니다.
 - 합계 기호 아래에는 세 가지 기호, i, ∈ 및 I가 있습니다. ∈는 집합 소속을 나타내며 "소속 요소"로 해석할 수 있습니다. 소문자 i는 항목(빔)을 의미하고 대문자 I는 재고 물품의 집합을 나타냅니다.
 - takeItem은 이항 의사결정 변수이며, 항목(i)이 재고에서 꺼내져 사용되어 작업 항목을 자를 경우 1과 같고, 그렇지 않으면 0입니다.
@@ -241,7 +368,18 @@ MIPModel() |>
 
 종합적으로, 이 공식 일부를 해석하면:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 사용된 재고 품목의 총 길이를 계산하세요. 위의 예시에서, 만약 재고 보딩이 A(3000mm), B(4000mm), C(2000mm)로 표시되어 있다면, 우리는 A와 C를 사용하게 됩니다. 따라서 합계 결과는 6000mm이 될 것입니다(4000 x 1 + 2000 x 1).
 
@@ -251,7 +389,18 @@ MIPModel() |>
 
 한데 정리하면, 두 부분은 먼저 재고에서 사용된 보딩들의 총 길이를 계산한 후, 절단된 강철의 길이를 뺍니다. 그러면 어떤 재료 양이 남게 되는데, 이 양을 최소화하고 싶어합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 목적 함수 (코드)
 
@@ -272,11 +421,22 @@ MIPModel() |>
 
 만일 목적 함수의 수학 부분을 읽어보았다면, 코드가 익숙할 것입니다. 그렇지 않다면, 위의 코드에는 두 가지 합이 있습니다:
 
-첫째로, 재고에서 사용된 전체 보 길이를 요약합니다. takeInventory가 1인 (즉, 항목이 사용된 경우) 재고 항목마다 해당 길이와 곱함입니다. 따라서 3000mm 길이의 보를 가져오면, 1 * 3000 = 3000이 됩니다. 1:numberOfInventoryItems 인덱스는 이것이 inventoryTable의 모든 항목에 대해 이루어져야 한다는 것을 나타냅니다. 가져오지 않은 항목에 대해서 3000mm 보를 사용하는 경우, 공식은 0 * 3000 = 0이 됩니다.
+첫째로, 재고에서 사용된 전체 보 길이를 요약합니다. takeInventory가 1인 (즉, 항목이 사용된 경우) 재고 항목마다 해당 길이와 곱함입니다. 따라서 3000mm 길이의 보를 가져오면, 1 _ 3000 = 3000이 됩니다. 1:numberOfInventoryItems 인덱스는 이것이 inventoryTable의 모든 항목에 대해 이루어져야 한다는 것을 나타냅니다. 가져오지 않은 항목에 대해서 3000mm 보를 사용하는 경우, 공식은 0 _ 3000 = 0이 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-두 번째 부분은 동일한 작업을 수행하지만, 이번에는 결정 변수 cutSteel에 대해 진행합니다. 이 변수는 생산 계획에서 어떤 빔이 어떤 재고 항목에서 잘렸는지를 나타냅니다. 이 변수도 이진값을 가지며, 생산 계획의 빔 1이 재고의 빔 4에서 자르는 경우 cutSteel[1,4]라고 표기됩니다. 이때, 빔 1이 4000mm일 경우 1 * 4000 = 4000이 됩니다. 우리는 작업 및 재고 인덱스를 모두 정의하면서도 실제로 관심 있는 것은 생산 계획 항목의 길이입니다.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+두 번째 부분은 동일한 작업을 수행하지만, 이번에는 결정 변수 cutSteel에 대해 진행합니다. 이 변수는 생산 계획에서 어떤 빔이 어떤 재고 항목에서 잘렸는지를 나타냅니다. 이 변수도 이진값을 가지며, 생산 계획의 빔 1이 재고의 빔 4에서 자르는 경우 cutSteel[1,4]라고 표기됩니다. 이때, 빔 1이 4000mm일 경우 1 \* 4000 = 4000이 됩니다. 우리는 작업 및 재고 인덱스를 모두 정의하면서도 실제로 관심 있는 것은 생산 계획 항목의 길이입니다.
 
 그런 다음 첫 번째에서 두 번째를 빼서 선택한 빔에서 발생하는 초과 재료를 계산합니다. 매개변수 sense = "min"은 최적화 방향을 나타냅니다. 즉, 남은 재료 양을 최소화하려는 것입니다.
 
@@ -284,9 +444,20 @@ MIPModel() |>
 
 옵션 1: 1000mm(A), 2000mm(B), 4000mm(C)의 빔을 1000mm(1), 2000mm(2), 3000mm(3), 5000mm(4), 6000mm(5)의 빔 재고에서 잘라냅니다. A를 1에서, B를 2에서, C를 5에서 잘랐습니다. 선택된 항목의 길이 총합(목적 함수의 첫 번째 부분)은 1000 + 2000 + 6000 = 9000입니다. 잘린 재료의 총합(목적 함수의 두 번째 부분)은 1000 + 2000 + 4000 = 7000입니다. 그 결과, 두 값의 차인 9000 - 7000 = 2000이 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-옵션 2: 길이가 1000mm(A), 2000mm(B), 그리고 4000mm(C)인 보들을 1000mm(1), 20000mm(2), 3000mm(3), 5000mm(4), 6000mm(5)로 이루어진 재고에서 잘라내었습니다. A는 1에서, B는 2에서, C는 4에서 잘라냈습니다. 선택한 항목들의 길이 합은 1000 + 2000 + 5000 = 8000입니다. 잘라낸 재료의 총량은 1000 + 2000 + 4000 = 7000입니다. 두 합의 차이는 9000 - 7000 = 1000입니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+옵션 2: 길이가 1000mm(A), 2000mm(B), 그리고 4000mm(C)인 보들을 1000mm(1), 20000mm(2), 3000mm(3), 5000mm(4), 6000mm(5)로 이루어진 재고에서 잘라내었습니다. A는 1에서, B는 2에서, C는 4에서 잘라냈습니다. 선택한 항목들의 길이 합은 1000 + 2000 + 5000 = 8000입니다. 잘라낸 재료의 총량은 1000 + 2000 + 4000 = 7000입니다. 두 합의 차이는 9000 - 7000 = 1000입니다.
 
 남은 재료를 최소화하고 싶다면, 최적화 엔진은 옵션 2를 가장 좋은 선택으로 판단할 것입니다.
 
@@ -294,7 +465,18 @@ MIPModel() |>
 
 모델을 갖게 되면, 우리는 이를 솔버에 전달할 수 있습니다. 앞서 말한 바와 같이, 여러 상업용 솔버가 있지만, 이 문제에는 여전히 무료로 사용할 수 있는 "glpk" 솔버를 사용할 것입니다. 모델이라는 모델이 존재할 때, 다음은 결과와 해를 얻는 방법입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 모델 해결하기
@@ -317,7 +499,18 @@ solution <- get_solution(result, cutSteel[work, inventory]) %>%
 
 이렇게하면 다음과 같은 5행 데이터프레임을 얻을 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 변수 작업 재고 값
@@ -335,7 +528,18 @@ solution <- get_solution(result, cutSteel[work, inventory]) %>%
 
 좀 더 유용한 정보를 추가하면서 보기 좋은 생산 계획을 만들려면 다음과 같이 할 수 있어요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 문제 해결 방법 가져오기
@@ -365,7 +569,18 @@ productionPlan <- solution |>
     select(-c(work, inventory, cutLength))
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음과 같은 정보를 얻을 수 있습니다:
 
@@ -382,7 +597,18 @@ productionPlan <- solution |>
 
 이러한 정보를 다시 추가할 때, 모델에서 제공된 동일한 매트릭스를 사용합니다. 이를 통해 [work] 및 [inventory] 인덱스를 사용하여 각 작업의 이름을 얻을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 요약
 
@@ -392,7 +618,18 @@ productionPlan <- solution |>
 
 이 글에서 사용된 코드는 프로젝트의 일환으로 작성되었으며 (일부를 문서에 맞게 수정했습니다), Shiny 앱에서 사용되었습니다. 그러나 이 앱은 실제 문제를 다루기 때문에 훨씬 복잡합니다. 작업 계획, 자재 예약, 계획된 자재의 재고로의 반납, 배치 등 실제 문제도 다루고 있습니다. 충분한 관심이 있다면, 이 경험에 대한 글을 작성할 수도 있겠지만, 우리가 보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 흥미로운 두 번째 설치가 되었으면 좋겠습니다. 궁금한 사항이나 의견이 있으면 언제든지 문의해주세요.
 

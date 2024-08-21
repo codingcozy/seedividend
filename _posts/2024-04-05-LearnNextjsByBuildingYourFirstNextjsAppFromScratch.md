@@ -3,17 +3,13 @@ title: "웹사이트 처음부터 만들면서 Nextjs 배우기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Learn Nextjs By Building Your First Nextjs App From Scratch"
 link: "https://medium.com/gitconnected/learn-next-js-by-building-your-first-next-js-app-from-scratch-8ec7cc93a9cb"
 isUpdated: true
 ---
-
-
-
-
 
 ## NEXT.JS
 
@@ -25,7 +21,18 @@ isUpdated: true
 
 # 워크샵
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 무료 Next.js 워크샵에 참여하고 싶다면 계속 연락을 유지해요.
 
@@ -35,7 +42,18 @@ isUpdated: true
 
 이 시리즈의 게시물들은 간단한 블로그를 만들면서 Next.js의 기본을 소개해줘요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 주제를 다룰 예정입니다:
 
@@ -49,7 +67,18 @@ isUpdated: true
 
 저는 무료 Next.js 워크샵을 준비 중입니다. 관심 있으시면 언제든 참여해 주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 설정
 
@@ -61,7 +90,18 @@ Node.js 16.8 이상이 설치되어 있는지 확인하세요. 터미널에서 `
 npx create-next-app@latest blog --use-npm --example "https://github.com/vercel/next-learn/tree/master/basics/learn-starter"
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 터미널에서.
 
@@ -73,7 +113,18 @@ npx create-next-app@latest blog --use-npm --example "https://github.com/vercel/n
 npm run dev
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 브라우저에서 Next.js 앱을 시작하려면 다음의 단계를 따르세요. 템플릿 앱은 http://localhost:3000/에서 이용할 수 있으며 다음과 같이 보일 것입니다:
 
@@ -83,7 +134,18 @@ npm run dev
 
 우리가 주로 다룰 코드는 pages/index.js 안에 있지만, 다른 폴더들이 무엇인지와 언제 사용해야 하는지도 알아볼 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래에서는 애플리케이션 구조 및 각 최상위 폴더와 파일에 대한 간단한 설명을 확인할 수 있어요.
 
@@ -95,7 +157,18 @@ npm run dev
 
 이 표준 구조는 앱에서 효율적인 유지 관리와 관심사 분리를 가능케 해 줍니다. 그대로 유지하는 것이 좋은 아이디어에요:)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 내비게이션
 
@@ -106,7 +179,18 @@ npm run dev
 
 이 글에서는 가장 일반적인 페이지 라우터를 사용합니다. 나중에 앱 라우터로 마이그레이션할 예정입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마침내, 다른 게시물에서 앞으로 인기가 많을 수 있는 App 라우터를 사용하여 다른 앱을 만들 것입니다.
 
@@ -118,7 +202,18 @@ npm run dev
 
 이 게시물에서는 Pages 라우터를 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 페이지 라우터 및 네비게이션
 
@@ -130,7 +225,18 @@ Next.js에서 페이지는 pages 폴더의 파일에서 내보낸 React 구성 �
 - pages/about.js는 About이라는 React 구성 요소를 내보냅니다.
 - pages/contacts.js는 Contacts라는 React 구성 요소를 내보냅니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기본 설정으로 Next.js는 /about 및 /contacts라는 두 개의 루트를 만들고 해당 루트에서 About 및 Contacts 컴포넌트가 렌더링됩니다.
 
@@ -145,7 +251,18 @@ export default function About() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // pages/contacts.js
@@ -160,7 +277,18 @@ export default function Contacts() {
 
 ## 탐색 추가하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 단계는 사용자가 URL을 수동으로 변경하지 않고 다른 페이지로 이동할 수 있는 간단한 탐색 표시줄을 만드는 것입니다.
 
@@ -170,7 +298,18 @@ Next.js에서는 일반 `a` 태그 대신 `Link` 컴포넌트를 사용해야 �
 
 클라이언트 측 탐색은 페이지 이동이 JavaScript를 사용하여 발생하므로 브라우저가 수행하는 기본 탐색보다 빠릅니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 예시에서 확인할 수 있듯이 Link 컴포넌트를 간단히 사용하며 href 속성에 올바른 경로를 할당합니다.
 
@@ -183,7 +322,18 @@ Next.js에서는 일반 `a` 태그 대신 `Link` 컴포넌트를 사용해야 �
 
 Link 컴포넌트는 전반적으로 여러 가지 이점을 제공합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 사전 로드: Next.js는 사용자가 링크 구성 요소 위로 마우스를 올리거나 초점을 맞출 때 연결된 페이지를 자동으로 백그라운드에서 사전 로드합니다. 리소스가 미리로드되어 지연이 감소합니다.
 - 클라이언트 측 내비게이션: 페이지 간 이동이 전체 페이지 새로 고침을 발생시키지 않습니다. 이는 빠른 내비게이션 및 페이지 간 부드러운 전환을 제공하여 사용자 경험을 향상시킵니다.
@@ -216,7 +366,18 @@ export default function Home() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 약간의 스타일을 추가하면 다음과 같은 효과를 얻을 수 있습니다. 이 글에서는 나중에 CSS에 대해 더욱 추가할 예정입니다.
 
@@ -226,7 +387,18 @@ export default function Home() {
 
 About (pages/about.js)에서는 코드가 다음과 같이 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import Link from "next/link";
@@ -247,7 +419,18 @@ export default function About() {
 
 언급할 두 가지 사항이 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 코드 분할: Next.js는 코드를 자동으로 분할하여 요청된 코드만 로드합니다. 이로 인해 앱에 많은 다른 페이지가 있더라도 랜딩 페이지가 빠르게 로드됩니다.
 - 미리로딩: 프로덕션 환경(앱이 배포되어 사용자에게 제공 중인 경우)에서 Next.js는 자동으로 연결된 페이지의 코드를 백그라운드에서 미리로드합니다. 위 예시에서 Home 페이지(예: index.js)를 열 때 About와 Contacts가 백그라운드에서 로드됩니다.
@@ -258,7 +441,18 @@ export default function About() {
 
 많은 웹사이트와 블로그에서는 지금까지 생성한 간단한 라우팅 구조가 충분할 수 있습니다. 그러나 경우에 따라 동일한 페이지에서 다른 데이터를 표시하기 위해 더 세밀한 라우팅 시스템이 필요할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 몇 가지 예시가 있어요:
 
@@ -269,7 +463,18 @@ export default function About() {
 
 하지만 사용자가 /user/2로 이동한다면 사용자 2에 대한 데이터를 표시해야 하며 사용자 1이나 다른 사용자의 데이터를 표시해서는 안 됩니다. 따라서 URL의 마지막 세그먼트가 변경될 수 있고 미리 알 수 없습니다. 이를 동적 세그먼트라고 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Next.js 규칙에 따르면 "다이나믹 세그먼트는 폴더 이름을 대괄호로 감싸서 생성할 수 있습니다: [폴더이름]. 예를 들어, [id] 또는 [slug]."
 
@@ -293,7 +498,18 @@ export default function Users() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 users/[userId].js 파일은 동적 경로를 나타내며 [userId] 부분은 변경될 수 있는 파라미터를 나타냅니다. 예를 들어 Dynamic Segment입니다. 다음 URL로 변경하면 다음 URL을 볼 수 있습니다:
 
@@ -305,7 +521,18 @@ Users 컴포넌트에서 다른 데이터가 표시됨을 알 수 있습니다.
 
 컴포넌트 내에서 우리는 Next.js에서 useRouter를 가져와 router 객체에 액세스합니다. useRouter 훅을 사용하면 현재 경로 및 쿼리 매개변수에 대한 정보에 액세스할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현재 경로의 쿼리 매개변수를 나타내는 router.query에서 userId 매개변수를 얻습니다. 그런 다음 userId 값을 사용하여 사용자 데이터를 가져오거나 해당 ID의 사용자에게 특정한 논리를 수행할 수 있습니다.
 
@@ -315,24 +542,41 @@ Users 컴포넌트에서 다른 데이터가 표시됨을 알 수 있습니다.
 
 # Next.js에 이미지 추가하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Next.js는 이미지(또는 다른 정적 자산)를 추가할 수 있는 public 폴더를 제공합니다. 이 패턴은 React에서도 동일합니다.
 
 이 예에서 저는 public 폴더 내에 이미지 폴더를 만들었습니다. 여기에 여섯 개의 이미지를 추가하고, 다음과 같이 index.js에서 사용했습니다.
 
 ```js
-<Image
-  src="/images/eugene-z0j9Qf9jZ58-unsplash.jpg"
-  height={400}
-  width={600}
-  alt="Unsplash의 Eugene에 의한 사진"
-/>
+<Image src="/images/eugene-z0j9Qf9jZ58-unsplash.jpg" height={400} width={600} alt="Unsplash의 Eugene에 의한 사진" />
 ```
 
 주의하세요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - `img` 태그 대신 `Image` 컴포넌트를 사용합니다. `img` 태그를 사용할 수도 있지만, Next.js는 앱에서 이미지를 최적화하기 위해 `Image` 컴포넌트를 사용하는 것을 권장합니다.
 - 이미지의 소스는 `public` 폴더부터 시작하는 경로여야 합니다.
@@ -350,7 +594,18 @@ import Image from 'next/image'
 
 현재 애플리케이션은 이렇게 보입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![LearnNextjsByBuildingYourFirstNextjsAppFromScratch_4](/assets/img/LearnNextjsByBuildingYourFirstNextjsAppFromScratch_4.png)
 
@@ -360,7 +615,18 @@ import Image from 'next/image'
 
 ![LearnNextjsByBuildingYourFirstNextjsAppFromScratch_5](/assets/img/LearnNextjsByBuildingYourFirstNextjsAppFromScratch_5.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 경우에는 처음에 5개의 이미지만 로드됩니다. 아래로 스크롤하면 뷰포트에 진입하기 전에 여섯 번째 이미지가 자동으로 로드됩니다.
 
@@ -370,7 +636,18 @@ import Image from 'next/image'
 
 더 나아가 이미지 유형은 webp입니다. 브라우저가 지원하는 경우 WebP와 같은 현대적인 형식으로 이미지를 제공하기 위해 이미지 구성 요소를 사용하는 것이 좋습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Image 구성 요소를 사용하는 장점 중 몇 가지를 소개해드릴게요:
 
@@ -383,7 +660,18 @@ Image 구성 요소를 사용하는 장점 중 몇 가지를 소개해드릴게�
 
 이제 페이지 폴더 밖으로 나가서 styles 폴더 안으로 들어가보세요. 거기에는 두 개의 파일이 있을 거에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - global.css
 - Home.module.css
@@ -394,7 +682,18 @@ Image 구성 요소를 사용하는 장점 중 몇 가지를 소개해드릴게�
 
 전역 CSS는 앱 내 모든 요소에 영향을 미칩니다. 이상적으로 보일 수 있지만, 전역 CSS는 CSS 번들의 크기를 키우고 애플리케이션이 성장함에 따라 스타일을 관리하기 어렵게 만듭니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기에 몇 가지만 추가하고 싶다고 했어요.
 
@@ -411,7 +710,18 @@ h2 {
 
 이 시점에서는 아무 일도 일어나지 않아요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신의 애플리케이션의 모든 페이지를 감싸는 최상위 React 구성 요소에서 global.css를 prop으로 전달해야 하는 이유입니다.
 
@@ -421,7 +731,18 @@ h2 {
 
 global.css를 사용하려면 다음 내용을 포함하는 파일인 pages/\_app.js를 생성하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // pages/_app.js
@@ -439,7 +760,18 @@ export default function App({ Component, pageProps }) {
 
 App 구성 요소는 두 개의 props를 받습니다: Component와 pageProps.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Component 프롭은 애플리케이션이 그 순간에 보여주는 페이지 컴포넌트를 나타냅니다. 이유로 대문자 "C"를 가지고 있습니다.
 - pageProps 프롭은 서버 측 렌더링이나 정적 생성 중에 컴포넌트에 전달된 초기 프롭을 포함하는 객체입니다.
@@ -450,11 +782,33 @@ App 구성 요소는 두 개의 props를 받습니다: Component와 pageProps.
 
 이 시점에서, About과 Contacts의 h2 태그에 전역 스타일이 적용되었음을 확인할 수 있어야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 마크다운 형식으로 변경해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /* styles/Home.module.css */
@@ -513,7 +867,18 @@ export default function Home() {
 
 이 스타일을 적용하면 앱이 아래 사진처럼 보입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Learn Next.js by Building Your First Next.js App from Scratch](/assets/img/LearnNextjsByBuildingYourFirstNextjsAppFromScratch_7.png)
 
@@ -523,7 +888,18 @@ export default function Home() {
 
 ## 커스텀 버튼 컴포넌트
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문서의 레이아웃 컴포넌트 예제를 따라하면, 먼저 components라는 최상위 디렉토리를 만듭니다.
 
@@ -545,7 +921,18 @@ export const Button = ({ children }) => {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼, CSS Modules를 사용하여 Button 컴포넌트에 몇 가지 스타일을 추가하여 React 컴포넌트에서 CSS 파일을 가져올 수 있습니다.
 
@@ -593,7 +980,18 @@ export const Button = ({ children }) => {
 
 앱이 성장 중이고 페이지 및 컴포넌트 전반에 걸쳐 일관된 색상을 사용하고자 하기 때문에 주의하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 background: var(--color);
@@ -618,7 +1016,18 @@ background: var(--color);
 
 About 페이지나 다른 곳에서 다음과 같이 버튼을 사용할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // pages/about.js
@@ -643,7 +1052,18 @@ Next.js에서 "레이아웃은 여러 페이지간에 공유되는 UI입니다. 
 
 나중에 이것이 더 명확해질 것입니다. 그러나 About 컴포넌트의 내용을 Layout으로 감싸 시작할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/LearnNextjsByBuildingYourFirstNextjsAppFromScratch_8.png" />
 
@@ -653,7 +1073,18 @@ Next.js에서 "레이아웃은 여러 페이지간에 공유되는 UI입니다. 
 
 이번 글에서는 템플릿을 기반으로 초기 Next.js 앱을 구축했습니다. 다룬 내용은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Next.js 폴더 구조
 - 페이지 라우터와 링크 컴포넌트를 사용한 내비게이션

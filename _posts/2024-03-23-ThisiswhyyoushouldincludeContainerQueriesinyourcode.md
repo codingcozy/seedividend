@@ -3,17 +3,13 @@ title: "CSS Container Query를 반드시 사용해야하는 이유"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "This is why you should include Container Queries in your code"
 link: "https://medium.com/@mkachsah/why-do-you-need-to-include-container-queries-in-your-code-facadb83a5d2"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/This-is-why-you-should-include-Container-Queries-in-your-code_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 다음과 같이 생각해보세요: 사이드바나 본문과 같은 다른 섹션에 놓여 있는 동일한 카드는 주변에 맞게 신속하게 변환됩니다. 이것이 @컨테이너의 힘입니다. 개발자들이 환경에 진정으로 대응하는 인터페이스를 만들도록 돕습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서, 어떻게 작동하나요?
 
@@ -50,7 +57,18 @@ isUpdated: true
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 @container 쿼리를 통해 마법이 벌어집니다:
 
@@ -78,7 +96,18 @@ isUpdated: true
 
 하지만 여기서 더욱 흥미로운 점은 — Container Queries + Media Queries입니다. 이 다이내믹한 둘을 함께 사용하면 Container 쿼리로 미시적 레이아웃을 정의하면서 Media 쿼리로 거시적 레이아웃을 관리할 수 있습니다. 이것은 스타일의 교향곡을 연주하는 것과 같아서 각 요소가 조화롭게 역할을 하는 것처럼 느껴집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /* 컨테이너 쿼리 */

@@ -3,17 +3,13 @@ title: "슬렌더 맨 찌르기 허구와의 끔찍한 접촉"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "The Slender Man Stabbing A Chilling Encounter with Fiction"
 link: "https://medium.com/@rachelelizabeth_28041/the-story-of-the-slender-man-stabbing-d63609bc487c"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/TheSlenderManStabbingAChillingEncounterwithFiction_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ![이미지](/assets/img/TheSlenderManStabbingAChillingEncounterwithFiction_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 '슬랜더 맨'에 대해 익숙하지 않다면 기억을 새롭게 하겠어요. 그는 2009년에 만들어진 인터넷 포럼인 '크리피파스타'에서 탄생한 신화적인 존재입니다. 그는 키가 크고 얼굴이 없는 존재로 묘사되며 아이들을 납치하고 공포에 떨게 합니다. 게이저와 와이어는 이 살인을 저지른다면 슬랜더 맨의 대리인이 되어 그의 숲 속 저택에서 살 수 있다고 믿었습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 그녀의 말에 따르면, "전체 상황이 없었을 경우, 나는 이런 사람이 되지 못했을 것"이라고 말했습니다. 현재 2022년에는 루트너가 대학에서 “매우 잘 지내고 있다”고 ABC 뉴스가 보도했습니다. 그녀의 공개 인터뷰 이전까지 사건에 대한 대부분의 언론 보도는 이 공격 후 일급 고의 살인 혐의로 모두 기소된 게이저와 와이어에 초점을 맞추었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![The Slender Man Stabbing: A Chilling Encounter with Fiction](/assets/img/TheSlenderManStabbingAChillingEncounterwithFiction_3.png)
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 뉴욕 매거진에 따르면, 아니사 와이어, 모건 게이서, 페이튼 루트너는 2013년 가을 Horning 중학교에서 만났는데, 와이어와 게이서는 사회적으로 고립되어 있었고 루트너를 통해 자리를 잡았습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이때 친구 중 한 명이 안니사 위어에게 크리피파스타를 소개했습니다. 크리피파스타는 사용자들이 허구의 괴물과 초자연적 존재에 관한 가짜 백과사전 항목과 다른 증언을 만드는 공포 팬 사이트였죠. 캐릭터의 전설은 사이트에서 더 많은 게시물을 통해 확장되었고, 결국 그의 아이들을 납치하는 "패턴"까지 포함되었습니다. 위어는 슬렌더 맨이 실제로 존재한다고 자신을 확신하기 시작했고, 게이저는 캐릭터에 광적으로 집착했고 그녀는 그와 사적인 정신적 대화를 나누고 있다고 믿었습니다.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 슬렌더 맨 스탭 사건은 정신병, 인터넷 문화, 청소년 취약성이 위험하게 교차하는 것을 강조하는 끔찍하고 비극적인 사건이었습니다. 이 사건 전체는 비극적인 범행으로 영향을 받은 가해자들의 행동에 의해 저에게 매우 깊은 불안감을 줍니다. 이 사건은 유익한 콘텐츠가 영향력 있는 마음에 미치는 영향, 효과적인 정신 건강 개입의 필요성, 부모와 사회가 어린이를 해로운 영향으로부터 보호하는데 부여하는 책임에 대한 중요한 질문을 던집니다. 디지털 시대에서 허구와 현실이 어울리면서 발생하는 잠재적인 결과를 고려할 때, 이 사건은 이야기의 힘과 픽션과 현실의 경계가 흐려질 때의 잠재적인 결과에 대한 경고로 작용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![The Slender Man Stabbing: A Chilling Encounter with Fiction](/assets/img/TheSlenderManStabbingAChillingEncounterwithFiction_5.png)
 

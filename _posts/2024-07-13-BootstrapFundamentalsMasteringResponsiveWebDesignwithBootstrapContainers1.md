@@ -3,17 +3,13 @@ title: "부트스트랩 기본  부트스트랩 컨테이너로 반응형 웹 �
 description: ""
 coverImage: "/assets/img/2024-07-13-BootstrapFundamentalsMasteringResponsiveWebDesignwithBootstrapContainers1_0.png"
 date: 2024-07-13 18:50
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-BootstrapFundamentalsMasteringResponsiveWebDesignwithBootstrapContainers1_0.png
 tag: Tech
 originalTitle: "Bootstrap Fundamentals — Mastering Responsive Web Design with Bootstrap Containers #1"
 link: "https://medium.com/towardsdev/bootstrap-fundamentals-mastering-responsive-web-design-with-bootstrap-containers-1-0dd1253a4a33"
 isUpdated: true
 ---
-
-
-
-
 
 ![Bootstrap Fundamentals](/assets/img/2024-07-13-BootstrapFundamentalsMasteringResponsiveWebDesignwithBootstrapContainers1_0.png)
 
@@ -40,7 +36,18 @@ isUpdated: true
 </html>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 컨테이너란 무엇인가요?
 
@@ -50,7 +57,18 @@ isUpdated: true
 
 ## 컨테이너의 종류
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 7가지 유형의 컨테이너가 있어요. container-fluid는 항상 100%로 늘어나지만, 다른 것들은 창의 특정 너비에서 늘어나는 것을 멈추게 돼요. 아래 이미지를 살펴봅시다.
 
@@ -60,19 +78,28 @@ isUpdated: true
 
 다른 컨테이너 클래스를 가진 div 요소들을 추가해봅시다. 창의 너비를 늘리거나 줄일 때, 지정된 브레이크포인트에서 100%로 늘어나는 것이 멈춘다는 것을 볼 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 컨테이너
 
 ```js
 <div class="container">
-    <h3>컨테이너</h3>
-    <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid
-        similique porro praesentium quo. Aperiam officiis eos atque iure quo
-        nostrum voluptate laudantium distinctio! Hic pariatur in exercitationem
-        eaque ducimus aperiam.
-    </p>
+  <h3>컨테이너</h3>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid similique porro praesentium quo. Aperiam officiis
+    eos atque iure quo nostrum voluptate laudantium distinctio! Hic pariatur in exercitationem eaque ducimus aperiam.
+  </p>
 </div>
 ```
 
@@ -80,29 +107,36 @@ isUpdated: true
 
 ```js
 <div class="container-sm">
-    <h3>작은 컨테이너</h3>
-    <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid
-        similique porro praesentium quo. Aperiam officiis eos atque iure quo
-        nostrum voluptate laudantium distinctio! Hic pariatur in exercitationem
-        eaque ducimus aperiam.
-    </p>
+  <h3>작은 컨테이너</h3>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid similique porro praesentium quo. Aperiam officiis
+    eos atque iure quo nostrum voluptate laudantium distinctio! Hic pariatur in exercitationem eaque ducimus aperiam.
+  </p>
 </div>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## container-md
 
 ```js
 <div class="container-md">
-    <h3>중간 컨테이너</h3>
-    <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid
-        similique porro praesentium quo. Aperiam officiis eos atque iure quo
-        nostrum voluptate laudantium distinctio! Hic pariatur in exercitationem
-        eaque ducimus aperiam.
-    </p>
+  <h3>중간 컨테이너</h3>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid similique porro praesentium quo. Aperiam officiis
+    eos atque iure quo nostrum voluptate laudantium distinctio! Hic pariatur in exercitationem eaque ducimus aperiam.
+  </p>
 </div>
 ```
 
@@ -110,20 +144,28 @@ isUpdated: true
 
 ```js
 <div class="container-lg">
-    <h3>큰 컨테이너</h3>
-    <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid
-        similique porro praesentium quo. Aperiam officiis eos atque iure quo
-        nostrum voluptate laudantium distinctio! Hic pariatur in exercitationem
-        eaque ducimus aperiam.
-    </p>
+  <h3>큰 컨테이너</h3>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid similique porro praesentium quo. Aperiam officiis
+    eos atque iure quo nostrum voluptate laudantium distinctio! Hic pariatur in exercitationem eaque ducimus aperiam.
+  </p>
 </div>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## container-xl
-
 
 <div class="container-xl">
     <h3>Container Extra Large</h3>
@@ -135,9 +177,7 @@ isUpdated: true
     </p>
 </div>
 
-
 ## container-xxl
-
 
 <div class="container-xxl">
     <h3>Container Extra Extra Large</h3>
@@ -149,20 +189,28 @@ isUpdated: true
     </p>
 </div>
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## container-fluid
 
 ```js
 <div class="container-fluid">
-    <h3>Container Fluid</h3>
-    <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid
-        similique porro praesentium quo. Aperiam officiis eos atque iure quo
-        nostrum voluptate laudantium distinctio! Hic pariatur in exercitationem
-        eaque ducimus aperiam.
-    </p>
+  <h3>Container Fluid</h3>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid similique porro praesentium quo. Aperiam officiis
+    eos atque iure quo nostrum voluptate laudantium distinctio! Hic pariatur in exercitationem eaque ducimus aperiam.
+  </p>
 </div>
 ```
 
@@ -170,6 +218,17 @@ isUpdated: true
 
 <img src="/assets/img/2024-07-13-BootstrapFundamentalsMasteringResponsiveWebDesignwithBootstrapContainers1_2.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `![image](https://miro.medium.com/v2/resize:fit:400/0*dd3WcgJcMPN7E59D.gif)`

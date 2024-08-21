@@ -3,17 +3,13 @@ title: "CSS Flex로 웹사이트 레이아웃 잡는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Mastering Flexbox Layouts Essential Tips and Tricks"
 link: "https://medium.com/@rbaun/mastering-flexbox-layouts-essential-tips-and-tricks-6a682e707bb6"
 isUpdated: true
 ---
-
-
-
-
 
 ![Flexbox Layouts](/assets/img/MasteringFlexboxLayoutsEssentialTipsandTricks_0.png)
 
@@ -23,7 +19,18 @@ Flexbox는 강력한 CSS 레이아웃 모델로 웹 레이아웃을 설계하고
 
 Flexbox의 근본적인 측면 중 하나는 행과 열 레이아웃을 손쉽게 만들 수 있다는 점이에요. flex 컨테이너와 그 자식에 몇 가지 주요 속성을 적용하여 다목적이고 동적인 구조를 만들 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /* 행 레이아웃 정의 */
@@ -63,7 +70,18 @@ Flexbox의 근본적인 측면 중 하나는 행과 열 레이아웃을 손쉽�
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 동일 너비 칼럼
 
@@ -78,7 +96,18 @@ Flexbox를 사용하면 동일한 너비를 가진 칼럼을 손쉽게 만들 �
 
 # 반응형 Flexbox 그리드
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Flexbox의 유연성은 반응형 그리드 레이아웃을 구축할 때 돋보입니다. 행(row) 및 열(column) 클래스를 미디어 쿼리와 결합하여, 다양한 화면 크기에 매끄럽게 적응하는 디자인을 만들 수 있습니다.
 
@@ -97,7 +126,18 @@ Flexbox의 유연성은 반응형 그리드 레이아웃을 구축할 때 돋보
 
 더 복잡한 레이아웃을 위해, Flexbox를 사용하면 서로 중첩된 플렉스 컨테이너를 생성할 수 있습니다. 이 기술을 사용하면 각기 다른 수준에서 행과 열이 포함된 계층 구조를 만들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <div class="parent-container">
@@ -134,7 +174,18 @@ Flexbox를 사용하여 고정 헤더 레이아웃과 스크롤 가능한 콘텐
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 고정 푸터
 
@@ -159,7 +210,18 @@ Flexbox를 사용하여 고정 헤더 레이아웃과 스크롤 가능한 콘텐
 
 # 메이슨리 그리드 레이아웃
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가로 공간에 따라 아이템이 배치되어 시각적으로 매력적인 배열이 생성되는 메이슨리 스타일의 그리드 레이아웃을 만들어보세요.
 
@@ -180,7 +242,18 @@ Flexbox를 사용하여 고정 헤더 레이아웃과 스크롤 가능한 콘텐
 
 사용자 상호작용에 따라 사이드바가 확장 또는 축소되는 신축성 있는 레이아웃을 디자인해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /* 유연한 사이드바와 본문 콘텐츠 */
@@ -223,7 +296,18 @@ Flexbox를 사용하여 고정 헤더 레이아웃과 스크롤 가능한 콘텐
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 유연한 타일을 가진 이미지 갤러리
 
@@ -244,7 +328,18 @@ Flexbox를 사용하여 고정 헤더 레이아웃과 스크롤 가능한 콘텐
 
 # 반응형 카드 그리드
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다양한 화면 크기에 맞게 카드가 동적으로 위치와 크기를 조정하여 최적의 뷰잉 경험을 제공하는 반응형 카드 그리드 레이아웃을 만들어보세요.
 

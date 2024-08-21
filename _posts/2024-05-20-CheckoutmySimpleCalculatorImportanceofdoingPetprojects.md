@@ -3,17 +3,13 @@ title: "웹사이트로 계산기 프로젝트 만들기"
 description: ""
 coverImage: "/assets/img/2024-05-20-CheckoutmySimpleCalculatorImportanceofdoingPetprojects_0.png"
 date: 2024-05-20 23:03
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-20-CheckoutmySimpleCalculatorImportanceofdoingPetprojects_0.png
 tag: Tech
 originalTitle: "Check out my Simple Calculator| Importance of doing Pet projects"
 link: "https://medium.com/@dinithoshada2003/check-out-my-simple-calculator-importance-of-doing-pet-projects-78fc593f5caf"
 isUpdated: true
 ---
-
-
-
-
 
 ![Simple Calculator](/assets/img/2024-05-20-CheckoutmySimpleCalculatorImportanceofdoingPetprojects_0.png)
 
@@ -23,8 +19,18 @@ As a 1st year IT undergraduate, I always work on pet projects to enhance my skil
 
 I used HTML, CSS, and JavaScript to create this project and used Visual Studio Code as my code editor.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 하는 일의 중요성 반려동물 프로젝트
 
@@ -39,7 +45,18 @@ I used HTML, CSS, and JavaScript to create this project and used Visual Studio C
 
 또한, 이렇게 만든 반려동물 프로젝트를 취업 면접에서 보여줄 수 있어요. 분명히 당신에게 이점을 줄 거예요. 아직 시작하지 않았다면, 지금 반려동물 프로젝트에 착수하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 내 간단한 계산기에 관한 작은 비디오
 

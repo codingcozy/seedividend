@@ -3,17 +3,13 @@ title: "대부분 모르는 최신 JavaScript 기능2024년"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Empower Your Skills With Latest Javascript Features You Did Not Know About"
 link: "https://medium.com/@ori.holis/empower-your-skills-with-latest-javascript-features-you-did-not-know-about-c7972ed2ce3a"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/EmpowerYourSkillsWithLatestJavascriptFeaturesYouDidNotKnowAbout_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 대부분의 객체 지향 프로그래밍 언어에 이미 존재하는 프라이빗 클래스 필드와 메소드로 시작합니다. 2015년에 자바스크립트가 클래스를 도입한 것은 다른 발전된 언어에 따라잡기 위한 중대한 변화였으며, 2009년부터 발전이 늦어져 있었습니다. 2022년에 TC39가 프라이빗 필드와 메소드를 도입하여 대규모 프로젝트에서 팀원들이 협력하는데 큰 도움이 되었습니다. 다른 사람이 작성한 함수를 사용할 때 프라이빗해야 하는 문제점을 해결하는 중요한 기능입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 class ClassWithPrivateField {
@@ -47,7 +54,18 @@ instance.#privateField; // 문법 오류
 const item = arr[arr.lenght - 1];
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 at():
 
@@ -59,7 +77,18 @@ const item = arr.at(-1);
 
 ## 함수 toReversed, toSorted, with 그리고 toSpliced
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 reverse(), sort(), 그리고 splice() 함수들은 상당히 오랜 시간 동안 사용되어 왔습니다. 모두가 원래의 배열을 변경한다는 점에 대해 비판을 받아왔습니다. 이는 react나 vue와 같은 프레임워크에서 store가 있는 경우 큰 문제로 다가옵니다. 반면 store 값들은 변경 불가능하기 때문에 일반적으로 먼저 배열을 복사해야 하며, 그 후에 spread 연산자 (…)를 사용하여 이러한 함수 중 하나를 적용해야 합니다. 이제 더 이상 배열의 복사를 만들 필요가 없어졌습니다. toReversed(), toSorted(), with(), 그리고 toSplice() 함수 모두 수정된 복사된 배열을 반환합니다.
 

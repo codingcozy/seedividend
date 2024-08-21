@@ -3,7 +3,7 @@ title: "Concerns를 활용한 Ruby on Rails 마스터하기"
 description: ""
 coverImage: "/assets/img/2024-08-19-MasteringRubyonRailswithConcerns_0.png"
 date: 2024-08-19 03:17
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-19-MasteringRubyonRailswithConcerns_0.png
 tag: Tech
 originalTitle: "Mastering Ruby on Rails with Concerns"
@@ -11,7 +11,6 @@ link: "https://medium.com/@marouaneamqor/mastering-ruby-on-rails-with-concerns-3
 isUpdated: true
 updatedAt: 1724032947748
 ---
-
 
 ![이미지](/assets/img/2024-08-19-MasteringRubyonRailswithConcerns_0.png)
 
@@ -21,7 +20,18 @@ updatedAt: 1724032947748
 
 Rails에서의 Concerns는 모델, 컨트롤러 또는 응용 프로그램의 다른 부분에 포함할 수있는 모듈입니다. 관련 기능을 함께 그룹화하여 코드를 보다 조직화되고 관리하기 쉽게 만들어줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Concerns를 사용하면 "fat models" 또는 "fat controllers"의 일반적인 문제를 피할 수 있습니다. 공통 기능을 별도의 모듈로 추출함으로써 코드베이스를 DRY (Don’t Repeat Yourself) 상태로 유지하고 응용 프로그램을 테스트하고 디버깅하기 쉽게 만들 수 있습니다.
 
@@ -31,7 +41,18 @@ Concerns를 사용하면 "fat models" 또는 "fat controllers"의 일반적인 �
 
 ## Concern 생성:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, 응용 프로그램/models/concerns 또는 app/controllers/concerns 디렉토리 내에서 관심사를 정의해야 합니다. 여기서 모듈과 관련 로직을 정의합니다.
 
@@ -50,7 +71,18 @@ end
 
 다음으로, 모델이나 컨트롤러에 관심사를 포함해야 합니다. 이 단계를 통해 정의된 기능을 클래스에 섞어 넣을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```javascript
 # app/models/product.rb
@@ -68,7 +100,18 @@ Concern을 포함하면 필요한 곳 어디에서든 응용 프로그램 전체
 @products = Product.search("shirt")
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 관심사 구현의 최상의 방법
 
@@ -82,7 +125,18 @@ Concern을 포함하면 필요한 곳 어디에서든 응용 프로그램 전체
 
 # 기존 코드 리팩터링으로 관심사 활용하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기존 코드에 중요한 기능을 추가할 수 있는 Concerns의 사용이 유용할 수 있습니다. 공통 기능을 식별하여 Concerns로 추출하고, 이후 모델, 컨트롤러 및 기타 클래스를 해당 Concerns를 사용하도록 업데이트하세요.
 
@@ -92,7 +146,18 @@ Concerns를 사용한 리팩터링은 코드베이스 전체 구조와 유지 �
 
 이 예시에서 Searchable concern은 모델에 동적 검색 스코프를 추가합니다. 이를 통해 제품 이름 내의 하위 문자열을 기반으로 제품을 조회할 수 있으며, 모델에 추가적인 검색 로직을 혼란스럽게 만들지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # app/models/concerns/searchable.rb

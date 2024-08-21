@@ -3,16 +3,13 @@ title: "CSS flex 속성 완전 정복 flex1 속성 이해하고 사용하기"
 description: ""
 coverImage: "/assets/no-image.jpg"
 date: 2024-07-09 18:15
-ogImage: 
+ogImage:
   url: /assets/no-image.jpg
 tag: Tech
 originalTitle: "Flex Your CSS Muscles: Understanding and Using the flex:1 Property"
 link: "https://medium.com/@ozantekindev/flex-your-css-muscles-understanding-and-using-the-flex-1-property-6657fb2382b3"
 isUpdated: true
 ---
-
-
-
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/1*ykK41RatkzwYeC7NB8G7PQ.gif" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 flex 1이란 무엇을 의미합니까?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 flex:1 속성은 flex-grow 속성의 단축 표현으로, 플렉스 컨테이너 내 요소의 레이아웃을 제어하는 여러 속성 중 하나입니다. flex-grow 속성은 컨테이너 내 가능한 공간 중 요소가 차지해야 하는 양을 다른 요소들에 상대적으로 지정합니다.
 
@@ -32,7 +40,18 @@ flex-grow 값이 1로 설정되면 해당 요소가 가능한 공간을 최대�
 
 flex-grow 외에도, flex-shrink 및 flex-basis와 같이 플렉스 컨테이너 내 요소의 레이아웃을 제어할 수 있는 다른 속성들이 있습니다. flex-shrink 속성은 컨테이너가 너무 작아질 때 요소가 얼마나 줄어들지를 제어하며, flex-basis 속성은 남은 공간이 분배되기 전 요소의 초기 크기를 제어합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `flex:1`을 사용하면 `flex-grow:1 | flex-shrink:1 | flex-basis:0%`의 축약형입니다. 이 축약형은 세 가지 속성을 한 줄의 코드로 빠르게 설정하는 데 사용됩니다.
 

@@ -3,16 +3,13 @@ title: "타입스크립트로 설명하는 결합도와 응집도 이해하기"
 description: ""
 coverImage: "/assets/img/2024-06-22-CouplingandCohesionexplainedwithtypescript_0.png"
 date: 2024-06-22 14:48
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-CouplingandCohesionexplainedwithtypescript_0.png
 tag: Tech
 originalTitle: "Coupling and Cohesion explained with typescript"
 link: "https://medium.com/@gustavobruno/coupling-and-cohesion-explained-with-typescript-2949f9ee1c97"
 isUpdated: true
 ---
-
-
-
 
 ![image](/assets/img/2024-06-22-CouplingandCohesionexplainedwithtypescript_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 따라서 다양한 종류의 결합과 그 영향을 이해하는 것은 견고하고 확장 가능한 시스템을 만들려는 개발자들에게 중요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 커플링이란 무엇인가요?
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 소프트웨어 시스템의 구조와 유지관리에 영향을 미치는 여러 유형의 커플링이 존재합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 주요 결합 유형:
 
@@ -65,7 +84,18 @@ const userManager = new UserManager(user);
 userManager.showUserName();
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예제에서 UserManager은 User에 직접적으로 의존하므로 User 클래스 구조나 동작에 대한 변경사항이 UserManager에 직접적인 영향을 미칠 수 있습니다.
 
@@ -98,7 +128,18 @@ const orderManager = new OrderManager(order);
 orderManager.showOrderId();
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예시에서 OrderManager는 복잡한 데이터 구조를 가진 Order 객체에 종속되지만 특정 하위 집합 필드만 사용합니다(이 경우 id). 이는 스탬프 결합을 보여줍니다.
 
@@ -133,7 +174,18 @@ const cart = new ShoppingCart(processor);
 cart.completePurchase(true);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예제에서 ShoppingCart은 PaymentProcessor에 의존하여 결제 상태에 따라 구매가 성공적으로 완료되었는지를 결정합니다. 이것은 제어 결합을 보여줍니다.
 
@@ -165,7 +217,18 @@ const authService = new AuthenticationService(logger);
 authService.authenticateUser();
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예시에서 AuthenticationService는 인증 프로세스 중 로그 메시지를 기록하기 위해 Logger에 의존합니다. 두 모듈 모두 Logger에 의존하므로 공통적으로 결합되어 있음을 나타냅니다.
 
@@ -207,7 +270,18 @@ const logger = new CalculatorLogger(calculator);
 logger.logResult();
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예제에서 CalculatorLogger는 Calculator의 내부 구현에 직접 의존하며 결과 변수에 액세스하고 조작합니다. 이는 content coupling을 나타내며 가장 강한 유형으로 간주됩니다.
 
@@ -219,7 +293,18 @@ logger.logResult();
 
 # 높은 결합도의 단점:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 증가된 복잡성: 높은 결합은 모듈간의 상호 의존성을 증가시켜 시스템이 더 복잡하고 이해하기 어렵게 만듭니다.
 - 유연성 감소: 높은 결합은 개별 구성 요소를 수정하거나 교체하기가 전체 시스템에 영향을 미치게 만들어 어렵게 합니다.
@@ -231,7 +316,18 @@ logger.logResult();
 
 높은 응집력은 시스템의 구성 요소가 서로 관련이 깊고 명확한 목적을 수행하는 것을 의미하며, 낮은 응집력은 구성 요소가 구별되고 느슨하게 관련된 책임을 가지고 있는 것을 나타냅니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 커플링과 유사하게, 응집도는 소프트웨어의 품질과 유지 보수성에 중요한 역할을 합니다. 시스템의 모듈화 및 확장 가능성에 직접적인 영향을 미칩니다.
 
@@ -241,7 +337,18 @@ logger.logResult();
 
 기능 응집도는 모듈 내 요소가 관련되어 단일 특정 기능이나 작업을 수행할 때 발생합니다. 이는 모듈 내 각 구성 요소가 해당 주요 기능과 직접적으로 관련되어 동일한 목표를 달성하는 데 기여한다는 것을 의미합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 기능 응집의 예
@@ -270,7 +377,18 @@ class Calculator {
 
 순차 응집은 모듈 내의 작업이 특정 순서로 구성되어 있고, 한 작업의 출력이 다음 작업의 입력으로 작동할 때 발생합니다. 즉, 모듈 요소들이 순차적으로 관련되어 있고 서로 의존하여 일련의 단계를 순서대로 실행하기 위해 필요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 순차 응집의 예
@@ -301,8 +419,18 @@ class OrderProcessor {
 
 시간적 응집은 모듈 내의 작업이 시간적으로 관련이 있고 시간적 종속성으로 인해 함께 실행되어야 하는 경우 발생합니다. 이는 모듈 요소가 특정 기능이 아닌 실행해야 할 시간에 따라 그룹화되는 것을 의미합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 시간적 응집력의 예제
@@ -327,15 +455,25 @@ class TaskScheduler {
 
 논리적 응집력은 모듈 내의 요소가 특정 로직에 의해 관련되거나 동일한 데이터 집합을 처리할 때 발생합니다. 이는 모듈 요소가 공유된 논리나 동일한 데이터 조작을 기준으로 그룹화되어 있는 것을 의미합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 논리 응집의 예
 class FormValidator {
   validateRequiredField(value: string): boolean {
     // 필수 필드 유효성 검사 로직
-    return value.trim() !== '';
+    return value.trim() !== "";
   }
 
   validateEmailField(value: string): boolean {
@@ -356,8 +494,18 @@ class FormValidator {
 
 우연한 응집은 모듈 내 요소들이 중요한 관련성 없이 임의로 그룹화된 경우입니다. 이는 모듈 요소들이 편리함이나 우연한 이유로 함께 그룹화된 것을 의미하며, 공통 목적이나 논리를 위해 그룹화된 것이 아닙니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // Coincidental Cohesion의 예제
@@ -382,8 +530,18 @@ class Utility {
 
 읽어 주셔서 감사합니다!
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제 주변을 따라오세요!😜
 

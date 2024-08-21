@@ -3,16 +3,13 @@ title: "프롤팅 레이블을 더이상 사용해서는 안되는 이유"
 description: ""
 coverImage: "/assets/img/2024-05-01-Maybeitstimetoletthefloatinglabelsdie_0.png"
 date: 2024-05-01 22:35
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-01-Maybeitstimetoletthefloatinglabelsdie_0.png
 tag: Tech
 originalTitle: "Maybe it’s time to let the floating labels die"
 link: "https://medium.com/user-experience-design-1/maybe-its-time-to-let-the-floating-labels-die-a97d6a4ea1b2"
 isUpdated: true
 ---
-
-
-
 
 ![이미지](/assets/img/2024-05-01-Maybeitstimetoletthefloatinglabelsdie_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 플로팅 라벨 패턴은 모바일 기기에서 시각적 공간 부족을 해결하는 똑똑한 방법이었지만 데스크톱 웹 페이지로 전이되어야 할 필요가 없는 곳에서 사용되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전 글에서는 왜 개발자들이 전적으로 플레이스홀더 사용을 중단해야 하는지에 대해 설명했습니다. 일부 사람들은 그 글의 댓글들에서(그리고 다른 글들에서도) 플로팅 레이블이 이러한 우려 사항을 해소한다고 주장했습니다 — 즉, 사용자가 컨트롤에서 타이핑할 때 플레이스홀더가 사라지는 문제에 대해서요.
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 # 배경
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 플로팅 레이블 패턴이란 무엇인가요?
 
@@ -45,8 +64,18 @@ isUpdated: true
 
 이곳은 Matt D. Smith의 블로그 게시물 'Float Label Pattern Started'에서 가져온 gif입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/0*AJWNecCc9kGWUY74.gif" />
 
@@ -56,7 +85,18 @@ isUpdated: true
 
 이를 "플로팅 인필드 라벨"이라고 합니다. 하지만 이 글의 주제를 고려하면 그것은 별 차이가 없는 구별이라고 할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 간단한 역사
 
@@ -66,7 +106,18 @@ isUpdated: true
 
 그러나 이 패턴에는 몇 가지 비평가가 있었습니다. Smith는 그것에 판매하지 않는 여러 Twitter 응답에 대한 링크를 포함했지만 비판에도 불구하고 계속 진행했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 레이블은 텍스트 상자 내에 있으면 안 됩니다. (출처)
 - 이 패턴은 꽤 무의미해 보입니다. 즉, "디자인을 위한 디자인" (출처)
@@ -79,7 +130,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-05-01-Maybeitstimetoletthefloatinglabelsdie_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 플로팅 라벨의 문제점은 무엇인가요?
 
@@ -89,7 +151,18 @@ isUpdated: true
 
 ## 문제 #1: 포커스시 라벨이 읽기 어려워집니다
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 플로팅 레이블은 입력시 사라지지 않고 다른 위치로 이동합니다 — 따라서 이것은 플레이스홀더보다 나은 방법이지만 레이블의 텍스트는 작아집니다.
 
@@ -99,7 +172,18 @@ isUpdated: true
 
 이로서 다음 사항이 나옵니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 문제 #2: 포커스 시 레이블이 감소되었습니다
 
@@ -109,7 +193,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-05-01-Maybeitstimetoletthefloatinglabelsdie_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 부트스트랩의 구현(위에서 보여진 것)에서 "이메일 주소" 필드가 포커스를 받았지만 "비밀번호" 라벨은 더 크고 높은 색 대조 비율을 가지고 있습니다. 따라서, 포커스를 받은 컨트롤의 라벨보다 읽기 쉽습니다.
 
@@ -119,7 +214,18 @@ isUpdated: true
 
 라벨을 그대로 두고 원래 사용 목적대로 사용하세요. 정적이고 적절히 할당되며 해당 컨트롤 근처(하지만 내부가 아님)에 배치하십시오.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 문제 #3: 입력 컨트롤의 클릭 가능한 영역이 축소됨
 
@@ -129,7 +235,18 @@ isUpdated: true
 
 라벨이 입력 컨트롤에 적절하게 할당되었을 때(for 속성을 통해 또는 입력 컨트롤 요소를 라벨 요소 안에 중첩시킴으로써), 라벨의 전체 영역이 클릭 가능한 영역에 포함됩니다. 즉, 사용자가 라벨을 클릭하면 입력 컨트롤이 포커스를 받게 됩니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/0*9jGWt-elzwlWsj51.gif" />
 
@@ -139,7 +256,18 @@ isUpdated: true
 
 우스갯소리 같지만, 이 텍스트 상자가 사실상 폼에 있는 모든 것입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-05-01-Maybeitstimetoletthefloatinglabelsdie_3.png" />
 
@@ -149,7 +277,18 @@ isUpdated: true
 
 큰 엄지 손가락과 피곤한 눈을 가진 저 같은 사람들도 도와줄 거예요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 문제 #4: 레이블의 목적이 분명하지 않아요
 
@@ -159,7 +298,18 @@ isUpdated: true
 
 입력 컨트롤은 사용자의 공간입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 기사에서 자주 강조해 온 문제 중 하나에요 - 텍스트 상자 비활성화, 버튼 비활성화 또는 자리 표시자 사용에 관한 것이죠: 컨트롤의 목적이 사용자에게 더 이상 명확하지 않습니다.
 
@@ -169,7 +319,18 @@ isUpdated: true
 
 이것은 부유 레이블이 자리 표시자와 공유하는 또 다른 문제입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 입력 컨트롤에 텍스트를 넣으면, 해당 컨트롤의 값이 아니라면 혼란을 초래할 수 있습니다. 모든 사용자에게는 아니지만, 어떤 사용자에게는 혼란을 야기할 수 있습니다. 그리고 그것이 부동 라벨을 사용하지 말아야 하는 충분한 이유입니다.
 
@@ -179,7 +340,18 @@ isUpdated: true
 
 ## 문제 #6: 라벨의 크기/색상/위치가 일관성이 없습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 부트스트랩의 구현을 다시 살펴보세요:
 
@@ -189,7 +361,18 @@ isUpdated: true
 
 크리스찬 홀스트가 그의 3가지 잘못된 간단함 유형에서 말했듯이:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 라벨은 영구적인 공간이 있어야 합니다. 사실, 모든 요소들이 그렇습니다.
 모든 것을 제 자리에 두세요. 즉, 라벨은 텍스트 상자 바깥에 남겨 두어야 합니다...언제나요.
@@ -198,7 +381,18 @@ isUpdated: true
 
 플레이스홀더와 마찬가지로 부유하는 라벨 텍스트는 일반적으로 기본 라벨 텍스트보다 어둘 수 있습니다. 그래서, 해당 값처럼 충분히 어두울 수도 있고, 읽기 어려울 정도로 밝을 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해결책: 입력 컨트롤 바깥에 그대로 두세요.... 영구적으로.
 
@@ -208,7 +402,18 @@ isUpdated: true
 
 전통적인 레이블이 더 나은 결과를 제공하고 더 많은 사용자에게 더 작은 영향을 미칩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 문제 #9: 떠다니는 라벨은 의미가 없어요
 
@@ -220,7 +425,18 @@ isUpdated: true
 - 페이지가 깔끔해 보여요.
 - 예쁘게 보여요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문제를 해결하지 못하고 있습니다.
 
@@ -230,7 +446,18 @@ isUpdated: true
 
 아니요? 그럼 다음 섹션을 찾아가 보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 이의사항
 
@@ -240,7 +467,18 @@ isUpdated: true
 
 저는 placeholder에 대해 적은 것을 반복하겠습니다: 만약 라벨이 뜬 텍스트로 인해 절약되는 공간이 중요하다면, 당신의 폼은 너무 커진 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 폼을 간소화하세요. 즉, 필요한 정보만 요청하고 페이지 당 입력 컨트롤 수를 줄이세요.
 
@@ -250,7 +488,18 @@ isUpdated: true
 
 만일 구글이 무언가를 한다면, 그것은 확실히 사용자 경험과 접근성의 최고 표준을 보장하기 위해 철저히 연구되었을 것이라고 생각되죠, 그렇죠?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그렇게 많지 않아요.
 
@@ -260,7 +509,18 @@ isUpdated: true
 
 "레이아웃" 제목을 보셨죠? 그것은 `h2` 제목입니다. "라벨" 부제목을 보셨죠? 그것은 `h1`이에요. 얍스!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 거의 10년 동안 올려져 있었어요.
 
@@ -270,7 +530,18 @@ Adam Silver가 Smashing Magazine에 게재한 기사인 "Material Design Text Fi
 
 만약 그들이 그 이후로 일정 부분을 개선했다고 생각한다면, 최신 Material Design 인터레이션(버전 3)에서 이것을 한번 보세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-05-01-Maybeitstimetoletthefloatinglabelsdie_6.png)
 
@@ -280,7 +551,18 @@ Adam Silver가 Smashing Magazine에 게재한 기사인 "Material Design Text Fi
 
 ## 이의 제기 #3: "그렇다고 스크린 리더가 읽는다구요!"
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼요, 그렇죠. 스크린 리더는 일반적으로 스타일링에 따라 컨텐츠를 다르게 소비하지 않습니다.
 
@@ -290,7 +572,18 @@ Adam Silver가 Smashing Magazine에 게재한 기사인 "Material Design Text Fi
 
 모든 시각 장애인이 모든 작업에 이를 필요로 하는 것은 아닙니다. 페이지가 잘 구조화되어 있고 적절한 크기이며 하나의 페이지에 모든 것을 담으려 하지 않는다면, 시각 장애인은 확대기를 필요로하지 않을 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 레이블의 크기를 줄이면 시각 장애가 있는 사용자들이 확대기를 사용하도록 강요할 수 있어요.
 
@@ -300,7 +593,18 @@ Adam Silver가 Smashing Magazine에 게재한 기사인 "Material Design Text Fi
 
 네, 가능해요 - 하지만 뜬 레이블의 목적이 뭐에요? 레이블의 크기를 키우면 공간을 절약하는 것이 아니게 되어버려요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그냥 라벨을 올려놓으면 되지 않을까요? 입력 컨트롤 위에 라벨을 두시면 되는 곳입니다. 그리고 거기에 계속 두세요.
 
@@ -310,7 +614,18 @@ Adam Silver가 Smashing Magazine에 게재한 기사인 "Material Design Text Fi
 
 그것이 바로 구석구석에 플레이스홀더를 두게된 이유 중 하나에요. 사람들은 재치 있게 자신만의 프로토플레이스홀더를 만들려고 해왔죠. 하나의 나쁜 습관이 또 다른 것으로 이어진 것이에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또한, 쉽게 사라지는 실천 방법들이 많습니다. `marquee` 요소, 레이아웃 테이블 또는 인라인 JavaScript를 기억하나요?
 
@@ -320,7 +635,18 @@ WebAIM의 '밀리언 리포트'에 따르면, 나쁜 웹 접근성 관행은 심
 
 먼저 그것을 해결한 후에, 관례에 대한 토론을 진행해봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당분간 기존 레이블을 계속 사용해주세요.
 
@@ -330,7 +656,18 @@ WebAIM의 '밀리언 리포트'에 따르면, 나쁜 웹 접근성 관행은 심
 
 사용자는 눈속임이 아닌 일관성이 필요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신의 웹사이트를 방문하는 사용자들은 도페미늄 히트를 얻으러 온 것이 아니라, 작업을 완료하러 온 것입니다.
 
@@ -340,7 +677,18 @@ WebAIM의 '밀리언 리포트'에 따르면, 나쁜 웹 접근성 관행은 심
 
 아마도 플로팅 레이블에게 작별인사를 할 때가 되었을지도 모릅니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 링크
 
@@ -349,8 +697,8 @@ WebAIM의 '밀리언 리포트'에 따르면, 나쁜 웹 접근성 관행은 심
 - How the Float Label Pattern Started by MDS
 - Float Labels with CSS by Chris Coyier
 - Floating Labels Are Problematic by Adam Silver
-- Are Float Labels Really That Problematic After All? by MDS 
-(거기서 댓글도 확인해보세요)
+- Are Float Labels Really That Problematic After All? by MDS
+  (거기서 댓글도 확인해보세요)
 - Bootstrap의 떠다니는 라벨 구현
 - Google 번역: 웹사이트
 - 3가지 유형의 잘못된 간소화 by Christian Holst
@@ -361,7 +709,18 @@ WebAIM의 '밀리언 리포트'에 따르면, 나쁜 웹 접근성 관행은 심
 
 ## 추가로 읽을 거리
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 브래드 프로스트의 Float Label Pattern
 - 비탈리 프리드만의 Gone Floating Labels And Green Lighthouse Scores

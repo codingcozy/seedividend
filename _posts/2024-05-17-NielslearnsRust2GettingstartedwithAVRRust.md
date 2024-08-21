@@ -3,16 +3,13 @@ title: "Rust 2 공부 내용 정리"
 description: ""
 coverImage: "/assets/img/2024-05-17-NielslearnsRust2GettingstartedwithAVRRust_0.png"
 date: 2024-05-17 04:11
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-17-NielslearnsRust2GettingstartedwithAVRRust_0.png
 tag: Tech
 originalTitle: "Niels learns Rust 2 — Getting started with AVR Rust"
 link: "https://medium.com/@nielsreijers/niels-learns-rust-2-getting-started-with-avr-rust-010f3afd10b8"
 isUpdated: true
 ---
-
-
-
 
 저는 러스트를 배우기 위해 내 임베디드 Java 가상 머신을 러스트로 이식하는 여정을 문서화하는 시리즈의 두 번째 부분입니다.
 
@@ -24,7 +21,18 @@ isUpdated: true
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 안정적이고 반복 가능한 방식으로 하자면 개발 컨테이너를 사용하는 게 좋겠죠. 개발 컨테이너는 VS Code가 코드를 빌드, 실행 및 디버깅하기 위해 생성하는 컨테이너입니다. 모든 개발 작업은 컨테이너에서 이루어지며, 데스크톱에서 실행 중인 VS Code는 단순히 컨테이너에서 실행 중인 다른 VS Code 인스턴스와 통신하는 UI 역할을 합니다:
 
@@ -34,7 +42,18 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 이점은 더 나은 격리와 명확히 정의된 개발 환경입니다. 이 프로젝트에만 사용되는 로컬 도구를 로컬에 설치할 필요가 없으며, 이 리포지토리를 내려받는 모든 사람이 동일한 컨테이너를 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 개발 컨테이너를 만드는 것은 매우 쉬워요. 필요한 것은 .devcontainer/devcontainer.json 파일(.devcontainer.json도 가능) 하나 뿐인데, 이 파일 안에는 VS Code가 컨테이너를 빌드하는 데 필요한 정보들이 들어가 있어요.
 
@@ -54,7 +73,18 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 dev 컨테이너에서 실행 중인 VS Code 인스턴스에는 기본적으로 어떤 확장도 설치되어 있지 않아요. 로컬로 설치된 확장 목록에서 간단히 클릭하여 추가하거나, json 파일에서 명시하여 자동으로 추가할 수 있어요. 형식은 `provider`.`extension`이고, 실제 이름은 UI에서 매우 명확하지 않지만 ~/.vscode/extensions 디렉토리에서 쉽게 찾을 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도커 파일도 꽤 간단합니다:
 
@@ -71,7 +101,18 @@ Rust 프로젝트는 사용할 수 있는 도커 이미지를 제공하며, 보�
 
 cargo는 Rust의 빌드 매니저이며, .NET에서는 dotnet, Scala에서는 sbt, Golang에서는 go와 같은 역할을 합니다. 마지막 줄은 새로운 프로젝트를 템플릿을 기반으로 생성할 수 있도록 하는 크레이트를 설치합니다. 이를 다음 섹션에서 사용할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # AVR용 러스트
 
@@ -81,20 +122,39 @@ cargo는 Rust의 빌드 매니저이며, .NET에서는 dotnet, Scala에서는 sb
 
 하지만 이것은 저의 로컬 아키텍처에 맞게 빌드되었는데, 저희는 Atmel AVR ATmega128을 위해 빌드하고 싶어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 행운이다! 많은 사람들이 AVR을 개발하기 위해 Rust를 사용하고 있어서, 이 동영상을 포함하여 도움이 되는 다양한 자료들이 있습니다. 이 동영상은 새 프로젝트를 설정하기 위한 cargo generate 템플릿을 소개하고 있습니다.
 
-
 cargo generate --git https://github.com/Rahix/avr-hal-template.git
 
-
-이 명령은 우리 프로젝트를 위해 템플릿을 구성하는 상호작용적인 흐름을 시작합니다. 이 경우에는 프로젝트 이름과 대상 보드에 대해 두 가지 질문만 있습니다. 실제 보드를 사용하지는 않고 대신 시뮬레이터에서 VM을 실행할 것이기 때문에, 제가 선택한 것은 아두이노 메가 1280입니다. 
+이 명령은 우리 프로젝트를 위해 템플릿을 구성하는 상호작용적인 흐름을 시작합니다. 이 경우에는 프로젝트 이름과 대상 보드에 대해 두 가지 질문만 있습니다. 실제 보드를 사용하지는 않고 대신 시뮬레이터에서 VM을 실행할 것이기 때문에, 제가 선택한 것은 아두이노 메가 1280입니다.
 
 ![NielslearnsRust2GettingstartedwithAVRRust_2 이미지](/assets/img/2024-05-17-NielslearnsRust2GettingstartedwithAVRRust_2.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금은 ATmega128을 위해 구성된 프로젝트가 있습니다.
 
@@ -104,7 +164,18 @@ Cargo에 빌드하라고 요청하면, 흥미로운 일이 발생합니다:
 
 Rust의 새 버전을 다운로드 중입니다! Dockerfile이 1.78을 지정했는데도 불구하고 1.79의 nightly 빌드를 받고 있습니다. 왜 이런 일이 발생했을까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여러 개의 Rust 도구 체인을 나란히 설치할 수 있다는 것이 밝혀졌어요. rustup 도구체인 목록을 보면 설치된 도구 체인을 확인할 수 있어요:
 
@@ -114,7 +185,18 @@ Rust의 새 버전을 다운로드 중입니다! Dockerfile이 1.78을 지정했
 
 이 일이 발생하는 이유는 템플릿에 rust-toolchain.toml이 포함돼 있어서 특정 버전을 요청했기 때문이에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```json
 [toolchain]
@@ -129,7 +211,18 @@ profile = "minimal"
 
 Cargo도 프로그램을 실행할 수 있지만, 현재 버전에서 시도하면 다음과 같은 오류가 발생합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 md
 ![이미지](/assets/img/2024-05-17-NielslearnsRust2GettingstartedwithAVRRust_5.png)
@@ -143,8 +236,18 @@ cargo run을 실행하면 생성된 프로젝트의 capevm/.cargo/config.toml �
 runner = "ravedude mega1280 -cb 57600"
 ```
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 생성된 Rust 코드를 Avrora에서 실행하려면 다음과 같이 변경했어요:
 
@@ -157,7 +260,18 @@ runner = "java -jar ../avrora/avrora-beta-1.7.117.jar -monitors=memory,stack -si
 
 # AVR “Hello, world”
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 AVR을 위한 "Hello, world" 동등물을 생성하는 템플릿입니다:
 
@@ -182,9 +296,20 @@ fn main() -> ! {
 
 main 함수의 서명인 `fn main() -> !`는 흥미롭습니다: ! 반환 유형은 함수가 종료되지 않음을 나타냅니다.
 
-이것은 여전히 내게는 이해하기 어렵지만 코드에서 강요된 #[arduino_hal::entry] 속성에 의해 시행됩니다. Rust의 좋은 점 중 하나는 "F12"(정의로 이동)로 거의 모든 것을 조회하여 구현을 볼 수 있다는 것이며, arduino_hal::entry에는 syn::Type::Never(_)가 반환 유형인 !을 포함하는 이 코드 조각이 포함되어 있습니다:
+이것은 여전히 내게는 이해하기 어렵지만 코드에서 강요된 #[arduino_hal::entry] 속성에 의해 시행됩니다. Rust의 좋은 점 중 하나는 "F12"(정의로 이동)로 거의 모든 것을 조회하여 구현을 볼 수 있다는 것이며, arduino*hal::entry에는 syn::Type::Never(*)가 반환 유형인 !을 포함하는 이 코드 조각이 포함되어 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 함수 시그니처를 확인합니다
@@ -207,8 +332,18 @@ let valid_signature = f.sig.constness.is_none()
 
 <img src="/assets/img/2024-05-17-NielslearnsRust2GettingstartedwithAVRRust_6.png" />
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 좋아요, 작동이 되네요! 하지만 아직 결과물이 그렇게 유용하진 않네요.
 

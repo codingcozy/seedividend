@@ -3,15 +3,13 @@ title: "알아두면 쓸모 있는 잘 알려지지 않은 CSS 속성 10가지 -
 description: ""
 coverImage: "/assets/img/2024-07-09-10lesserknownCSSpropertiespart2_0.png"
 date: 2024-07-09 18:16
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-10lesserknownCSSpropertiespart2_0.png
 tag: Tech
 originalTitle: "10 lesser known CSS properties part 2"
 link: "https://medium.com/@creativebyte/10-lesser-known-css-properties-part-2-2414b8df4278"
 isUpdated: true
 ---
-
-
 
 ![이미지](/assets/img/2024-07-09-10lesserknownCSSpropertiespart2_0.png)
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 outline-offset 속성은 요소의 아웃라인과 테두리 사이의 간격을 제어할 수 있어서, 아웃라인을 스타일링할 때 정밀도를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 button {
@@ -45,7 +54,18 @@ li::before {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 03 단어 나누기 및 텍스트 줄 바꿈
 
@@ -60,7 +80,18 @@ p {
 
 # 04 텍스트 요약
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 텍스트가 포함 요소를 넘칠 때의 동작을 제어하는 text-overflow 속성입니다. 특히 긴 문자열이나 제한된 공간 내의 텍스트를 처리하는 데 유용합니다.
 
@@ -76,7 +107,18 @@ div {
 
 이러한 속성은 이미지가 컨테이너 내에 맞추어지고 위치가 조절되는 방법을 제어합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 img {
@@ -95,7 +137,18 @@ code {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 07 font-variant
 
@@ -109,7 +162,18 @@ p {
 
 # 08 caret-color 및 caret-shape
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 속성들은 입력 필드에서 캐럿(커서)을 스타일링하여 독특하고 시각적으로 매력적인 디자인을 가능하게 합니다.
 
@@ -124,7 +188,18 @@ input {
 
 text-align-last 속성은 블록의 마지막 줄의 정렬을 제어하여 텍스트 정렬에 더 많은 제어를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 p {

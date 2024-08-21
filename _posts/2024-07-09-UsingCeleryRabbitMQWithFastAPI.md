@@ -3,15 +3,13 @@ title: "FastAPI에서 Celery와 RabbitMQ 사용 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-UsingCeleryRabbitMQWithFastAPI_0.png"
 date: 2024-07-09 19:19
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-UsingCeleryRabbitMQWithFastAPI_0.png
 tag: Tech
 originalTitle: "Using Celery + RabbitMQ With FastAPI"
 link: "https://medium.com/stackademic/using-celery-rabbitmq-with-fastapi-2e6f0236841e"
 isUpdated: true
 ---
-
-
 
 ![표](/assets/img/2024-07-09-UsingCeleryRabbitMQWithFastAPI_0.png)
 
@@ -21,7 +19,18 @@ Celery는 실시간 처리를 지원하는 작업 큐이며 작업 스케줄링�
 
 # 구현
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저 RabbitMQ를 설정해 봅시다. 프로젝트를 개발하는 환경은 Windows를 사용하고 있어요. RabbitMQ를 설정하기 위해서 Docker 이미지를 사용하고 있어요. 원하신다면 Docker 대신에 RabbitMQ를 설치할 수도 있어요.
 
@@ -33,7 +42,18 @@ Docker 컨테이너가 시작되면, 브라우저를 통해 127.0.0.1:5672로 Ra
 
 <img src="/assets/img/2024-07-09-UsingCeleryRabbitMQWithFastAPI_1.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 Celery를 설치하고 설정해 봅시다. 다음 라이브러리를 설치하세요. 저는 python-dotenv 라이브러리를 사용하여 .env 파일에서 보안 정보를 관리합니다.
 
@@ -57,7 +77,18 @@ app/
 └── requirements.txt
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, .env 파일에서 환경 변수를 만들어봅시다. Celery에는 두 가지가 필요합니다. 첫 번째는 메시지 브로커 URL입니다. 제 경우에는 RabbitMQ 서버 URL입니다. (`USERNAME`, `PASSWORD`를 교체하여 사용자명과 비밀번호를 입력해주세요. 기본값은 guest입니다.) 두 번째는 결과 백엔드입니다. Celery가 작업 실행 결과를 저장하는 곳으로, 작업을 완료한 후에 이 결과를 검색할 수 있습니다.
 
@@ -86,7 +117,18 @@ celery_app.conf.update(
 )
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 분리된 파일을 만들어 Celery 작업을 정의했어요. 하지만 그건 꼭 필요하지 않아요. 이 파일 안에 작업들을 정의할 수 있어요. 만약 이 파일 안에 작업을 정의한다면, imports=['app.tasks.celery_tasks'] 라인을 추가할 필요가 없어요. 따라서, 당신의 구성은 이런 식이에요.
 
@@ -135,7 +177,18 @@ def my_second_task(x, y):
     return result
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 별도의 파일 대신 이러한 방식으로 구성 파일 내에서 작업을 정의할 수 있어요.
 
@@ -192,7 +245,18 @@ if __name__ == '__main__':
     uvicorn.run(app, port=8080)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 알겠어요. 코딩 부분은 끝났습니다. 이제 세럴리 워커를 실행해봅시다. 이 세럴리 워커는 RabbitMQ의 메시지 대기열에 있는 작업을 실행할 것입니다. 만약 RabbitMQ 서버를 시작하지 않았다면, 세럴리 워커를 시작하기 전에 RabbitMQ를 시작해주세요.
 
@@ -204,7 +268,18 @@ celery --app app.config.celery_config.celery_app worker --loglevel=info --pool=s
 
 <img src="/assets/img/2024-07-09-UsingCeleryRabbitMQWithFastAPI_2.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 이미지에서 [작업] 섹션 아래에서 celery_tasks.py 파일에 정의한 celery 작업을 볼 수 있습니다. 작업 대기열이 새 작업을 받으면 celery가 해당 작업을 실행합니다. 이제 FastAPI 서버를 실행해 봅시다.
 
@@ -216,7 +291,18 @@ Swagger 문서 페이지에서 엔드포인트를 시도해 봅시다. 엔드포
 
 <img src="/assets/img/2024-07-09-UsingCeleryRabbitMQWithFastAPI_3.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 작업을 받았고, 작업을 실행하기 시작했습니다. 그리고 실행이 완료된 후에는 작업이 성공했다고 합니다. 이는 우리의 작업이 FastAPI 서버에 의해 실행되는 것이 아닌 celery 워커에 의해 실행된다는 것을 의미합니다.
 
@@ -228,7 +314,18 @@ Celery 작업과 워커를 모니터링하기 위해 Flower를 사용할 수 있
 pip install flower
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로컬 머신에서 flower를 실행하세요.
 
@@ -240,7 +337,18 @@ celery flower --app app.config.celery_config.celery_app --broker:amqp://localhos
 
 ![Flower Monitoring Tool](/assets/img/2024-07-09-UsingCeleryRabbitMQWithFastAPI_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요즘 FastAPI 프로젝트에서 Celery + RabbitMQ를 사용하는 방법을 소개했어. 여기서 어떤 일이 벌어지는지 이해할 수 있을 거야. 이건 이 작업을 수행하는 가장 간단한 방법이야. 나는 기본 작업 대기열을 사용했어. 원한다면 더 많은 작업 대기열을 생성할 수도 있어. 그리고 더 많은 구성 가능한 사항들도 있어. 그들의 설명서를 확인해봐. 작업 완료 상태를 클라이언트에게 알리기 위해 WebSocket을 사용할 수도 있어. 이게 전부야. 다음 블로그에서 만나자. 즐거운 코딩이 되길!
 

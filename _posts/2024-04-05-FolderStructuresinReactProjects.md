@@ -3,17 +3,13 @@ title: "리액트 프로젝트의 폴더 구조 추천"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: " Folder Structures in React Projects"
 link: "https://medium.com/@safdaralii/%EF%B8%8F-folder-structures-in-react-projects-b507e46335c8"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/FolderStructuresinReactProjects_0.png" />
 
@@ -23,7 +19,18 @@ React 프로젝트 내 파일과 디렉토리를 조직하는 것은 유지보�
 
 이 구조는 간결함을 특징으로 하는데요 — 파일을 유형에 따라 그룹화하는 것입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 └── src/
@@ -52,7 +59,18 @@ React 프로젝트 내 파일과 디렉토리를 조직하는 것은 유지보�
 
 단점:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 빠르게 커지고 유지 관리하기 어려워집니다.
 - 비즈니스 관련 사항을 분리하지 않습니다.
@@ -63,7 +81,18 @@ React 프로젝트 내 파일과 디렉토리를 조직하는 것은 유지보�
 
 프로젝트가 성장함에 따라 “레벨 2” 구조는 각 유형 내에서 특성별로 그룹화를 소개합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 └── src/
@@ -101,7 +130,18 @@ React 프로젝트 내 파일과 디렉토리를 조직하는 것은 유지보�
 - 단순하고 직관적임
 - 기능별로 그룹화돼 있음
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단점:
 
@@ -111,7 +151,18 @@ React 프로젝트 내 파일과 디렉토리를 조직하는 것은 유지보�
 
 "레벨 2" 폴더 구조는 선택할 게 없다면 내가 권장하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 3️⃣ 레벨 3: 기능/모듈별 그룹화
 
@@ -161,7 +212,18 @@ React 프로젝트 내 파일과 디렉토리를 조직하는 것은 유지보�
 
 프로젝트 규모: 대형 및 복잡
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 장점:
 
@@ -172,7 +234,18 @@ React 프로젝트 내 파일과 디렉토리를 조직하는 것은 유지보�
 
 - 올바른 그룹화 결정을 내리기 위해 비즈니스 로직에 대해 잘 알아야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음에는 결제 로직을 제거하거나 수정하려면 시작해야 할 위치를 즉시 알 수 있습니다.
 
@@ -182,7 +255,18 @@ React 프로젝트 내 파일과 디렉토리를 조직하는 것은 유지보�
 
 일반적으로 폴더 이름에 대해 고려해야 할 사항은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # UI 구성 요소
 
@@ -196,7 +280,18 @@ React 프로젝트 내 파일과 디렉토리를 조직하는 것은 유지보�
 - hocs: React 고차 구성 요소.
 - contexts/providers: React 컨텍스트와 프로바이더를 포함합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 유틸리티 및 외부 연동
 
@@ -209,7 +304,18 @@ React 프로젝트 내 파일과 디렉토리를 조직하는 것은 유지보�
 - 서비스: 주요 비즈니스 및 애플리케이션 로직을 캡슐화합니다.
 - 도우미: 비즈니스에 특화된 유틸리티를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 스타일
 
@@ -221,7 +327,18 @@ React 프로젝트 내 파일과 디렉토리를 조직하는 것은 유지보�
 - configs: 애플리케이션을 위한 설정입니다 (예: 환경 변수).
 - constants: 변경되지 않는 값들입니다 (예: `export const MINUTES_PER_HOUR = 60`).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 서버 통신
 
@@ -233,7 +350,18 @@ React 프로젝트 내 파일과 디렉토리를 조직하는 것은 유지보�
 - states/store: 전역 상태 관리 논리 (Zustand, Valtio, Jotai 등)
 - reducers, store, actions, selectors: Redux에 특화된 논리
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 라우팅
 
@@ -244,7 +372,18 @@ React 프로젝트 내 파일과 디렉토리를 조직하는 것은 유지보�
 
 - tests: 코드에 대한 단위 테스트 및 기타 종류의 테스트를 정의합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 🏁 결론
 
@@ -254,7 +393,18 @@ React 프로젝트에서 적절한 폴더 구조를 선택하는 것은 매우 �
 
 만약 제 작업을 지원하고 싶으시다면 아래 링크를 통해 유튜브에서 구독해주시면 감사하겠습니다: [YouTube 채널](YouTube Channel). 여러분의 후원은 제 창의력을 지원하고 유용한 콘텐츠를 계속 공유할 수 있게 해줍니다. 지원해주셔서 감사합니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저와 연결하세요: LinkedIn.
 

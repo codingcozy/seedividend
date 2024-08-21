@@ -3,17 +3,13 @@ title: "Angular, Wiz와 통합하다 "
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Angular and Wiz are merging"
 link: "https://medium.com/@kristiyan.velkov/angular-and-wiz-are-merging-c4c56de4f705"
 isUpdated: true
 ---
-
-
-
-
 
 앵귤러와 위즈는 수천 명의 엔지니어들과 구글 내부의 앱들에서 사용되고 있어요.
 
@@ -25,7 +21,18 @@ isUpdated: true
 
 앵귤러는 높은 상호작용성 앱을 제공하고, 개발자 경험을 우선으로 하며 복잡한 UI를 빠르게 전달하는 데 초점을 맞추고 있어요. 예를 들어, Gemini와 Google Analytics 같은 앱들이 좋은 예시에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 오픈 소스
 - 구글 앱에서 사용: (Google Analytics, Google Cloud Console, Firebase Console)
@@ -37,7 +44,18 @@ Wiz은 성능에 중점을 둔 앱에 초점을 맞추고 있습니다. 이에 �
 - 구글 내부 전용
 - 구글 앱에서 사용 (Google Search, Photos, Payments)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Wiz에 대해 알아보기
 
@@ -56,7 +74,18 @@ Wiz은 성능에 중점을 둔 앱에 초점을 맞추고 있습니다. 이에 �
 - 이 신호에서의 변화가 성능을 현저히 개선시켰습니다.
 - 이러한 발전들은 Angular과 Wiz의 협업의 상호 이익을 보여주며, Google 검색 및 Gmail과 같은 주요 사이트를 향상시킬 잠재력을 가지고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 앵귤러의 미래 전망은?
 
@@ -71,4 +100,15 @@ Wiz은 성능에 중점을 둔 앱에 초점을 맞추고 있습니다. 이에 �
 
 결론적으로 안귤러와 Wiz 간 계속되는 통합은 성능과 상호작용성을 조화롭게 하기 위한 전망에 기반을 두고 있습니다. 각 프레임워크의 장점을 활용하여, 구글은 개발 경험을 통합할 수 있는 통합 개발 환경을 제공하여 웹 애플리케이션의 효율성과 기능성을 높일 것으로 기대됩니다. 이는 개발자와 최종 사용자들에게 혜택을 주게 될 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

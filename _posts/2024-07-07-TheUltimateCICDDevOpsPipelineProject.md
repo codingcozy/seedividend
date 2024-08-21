@@ -3,16 +3,13 @@ title: "궁극의 CICD DevOps 파이프라인 프로젝트 - 체계적인 구축
 description: ""
 coverImage: "/assets/img/2024-07-07-TheUltimateCICDDevOpsPipelineProject_0.png"
 date: 2024-07-07 23:40
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-TheUltimateCICDDevOpsPipelineProject_0.png
 tag: Tech
 originalTitle: "The Ultimate CI CD DevOps Pipeline Project"
 link: "https://medium.com/@zk36708/the-ultimate-ci-cd-devops-pipeline-project-ea450ca50a94"
 isUpdated: true
 ---
-
-
-
 
 ![이미지](/assets/img/2024-07-07-TheUltimateCICDDevOpsPipelineProject_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 # 단계 1: 인프라 구축
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 환경 설정
 
@@ -47,7 +55,18 @@ isUpdated: true
 
 # 쿠버네티스 설정하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Kubeadm을 사용하여 Kubernetes 클러스터를 설정했습니다. 클러스터는 네트워킹에 Calico를 사용하고 인그레스 컨트롤에 NGINX를 사용하도록 구성되어 있습니다. 이제 Kubernetes를 설치하는 단계를 알려드리겠습니다:
 
@@ -59,23 +78,45 @@ sudo apt-get update
 
 2. Docker 설치 [마스터 노드 및 워커 노드에서 실행]
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```shell
-sudo apt install docker.io -y 
+sudo apt install docker.io -y
 sudo chmod 666 /var/run/docker.sock
 ```
 
 - 마스터 및 워커 노드에서 쿠버네티스에 필요한 종속성 설치
 
 ```shell
-sudo apt-get install -y apt-transport-https ca-certificates curl gnupg 
+sudo apt-get install -y apt-transport-https ca-certificates curl gnupg
 sudo mkdir -p -m 755 /etc/apt/keyrings
 ```
 
 - 마스터 및 워커 노드에 쿠버네티스 저장소 및 GPG 키 추가
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```shell
 curl -fsSL https://pkgs.k8s.io/core:/stable:/v1.28/deb/Release.key | sudo gpg --dearmor -o /etc/apt/keyrings/kubernetes-apt-keyring.gpg
@@ -90,8 +131,18 @@ sudo apt update
 
 - Kubernetes 구성 요소 설치하기 [마스터 노드 및 워커 노드에서]
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 sudo apt install -y kubeadm=1.28.1-1.1 kubelet=1.28.1-1.1 kubectl=1.28.1-1.1
@@ -105,7 +156,18 @@ sudo kubeadm init -- pod-network-cidr=10.244.0.0/16
 
 - Kubernetes 클러스터를 구성합니다.[마스터 노드에서]
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 mkdir -p $HOME/.kube
@@ -121,7 +183,18 @@ kubectl apply -f https://docs.projectcalico.org/v3.20/manifests/calico.yaml
 
 - 인그레스 컨트롤러 (NGINX) 배포 [마스터 노드에]
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```yaml
 kubectl apply -f [4](https://raw.githubusercontent). com/kubernetes/ingress - nginx/controller-v0.49.0/deploy/static/provider/baremetal/deploy. yaml
@@ -133,8 +206,18 @@ kubectl apply -f [4](https://raw.githubusercontent). com/kubernetes/ingress - ng
 
 - OpenJDK 17 JRE Headless 설치하기
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # OpenJDK 17 JRE headless를 설치합니다.
@@ -149,7 +232,18 @@ sudo wget -O /usr/share/keyrings/jenkins-keyring.asc https://pkg.jenkins.io/debi
 
 - 패키지 관리자 소스에 Jenkins 저장소를 추가합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 /dev/null은 가상의 파일로, 텍스트와 데이터를 버리는 데 사용됩니다. 여기서는 로그 메시지 등이 이미 출력되었고 더 이상 관심이 없다는 뜻입니다.
 
@@ -159,7 +253,18 @@ sudo wget -O /usr/share/keyrings/jenkins-keyring.asc https://pkg.jenkins.io/debi
 sudo apt-get update
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Jenkins 설치하기
 
@@ -171,7 +276,18 @@ sudo apt-get install jenkins -y
 
 Nexus는 Docker 컨테이너를 사용하여 설정됩니다. 빌드 아티팩트를 저장하는 저장소로 사용됩니다. Nexus를 설정하는 방법은 아래와 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 패키지 매니저 저장소 업데이트
 
@@ -185,7 +301,18 @@ sudo apt-get update
 sudo apt-get install -y ca-certificates curl
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 도커 GPG 키를 저장할 디렉토리를 만듭니다
 
@@ -199,7 +326,18 @@ sudo install -m 0755 -d /etc/apt/keyrings
 sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 'key'에 대한 적절한 권한을 보장하세요.
 
@@ -211,7 +349,18 @@ sudo chmod a+r /etc/apt/keyrings/docker.asc
 
 /dev/null
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```shell
 echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \$(. /etc/os-release && echo \"$VERSION_CODENAME\") stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
@@ -225,7 +374,18 @@ sudo apt-get update
 
 - 도커 설치하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
@@ -239,7 +399,18 @@ docker run -d --name nexus -p 8081:8081 sonatype/nexus3:latest
 
 # 소나큐브 설정하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SonarQube은 Docker 컨테이너를 사용하여 설정됩니다. 코드 품질과 보안 분석에 사용됩니다. SonarQube를 설정하는 단계는 다음과 같습니다:
 
@@ -251,7 +422,18 @@ sudo apt-get update
 
 2. 필요한 종속성 설치
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 sudo apt-get install -y ca-certificates curl
@@ -265,8 +447,18 @@ sudo install -m 0755 -d /etc/apt/keyrings
 
 - Docker의 GPG 키를 다운로드합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/trusted.gpg.d/docker.gpg
@@ -276,27 +468,51 @@ sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmo
 
 ```bash
 sudo echo "deb [arch=amd64 signed-by=/etc/apt/trusted.gpg.d/docker.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
-```  
+```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코드 조각을 공유해 주셔서 감사합니다!
 
 다음과 같이 Docker 패키지 관리자 저장소를 시스템에 추가하고 패키지 관리자 리포지토리를 업데이트하는 과정을 설명해 드리겠습니다.
 
 먼저, Docker 패키지 관리자 저장소를 시스템에 추가합니다. 이를 위해 아래와 같은 명령어를 실행합니다.
+
 ```bash
 echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu $(. /etc/os-release && echo \"$VERSION_CODENAME\") stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 ```
 
 이후, 패키지 관리자 리포지토리를 업데이트하려면 아래 명령어를 사용하시면 됩니다.
+
 ```bash
 sudo apt-get update
 ```
 
 위의 내용들이 도움이 되셨길 바라며, 다른 궁금한 점이 있으시면 언제든지 물어보세요! 😊
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 도커 설치하기
 
@@ -310,7 +526,18 @@ sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plug
 docker run -d --name sonar -p 9000:9000 sonarqube:lts-community
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Phase 2: 개인 Git 설정
 
@@ -320,7 +547,18 @@ docker run -d --name sonar -p 9000:9000 sonarqube:lts-community
 
 선호하는 Git 호스팅 플랫폼(예: GitHub, GitLab, Bitbucket)으로 이동하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신의 계정에 로그인하거나 계정이 없다면 가입하세요.
 
@@ -330,7 +568,18 @@ docker run -d --name sonar -p 9000:9000 sonarqube:lts-community
 
 계정 설정 또는 프로필 설정으로 이동하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 “Developer settings” 또는 “개인 액세스 토큰” 섹션을 찾아보세요.
 
@@ -340,7 +589,18 @@ docker run -d --name sonar -p 9000:9000 sonarqube:lts-community
 
 Git Bash나 터미널을 열어주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여행 전문가 여러분, 환영합니다!
 
@@ -352,7 +612,18 @@ Git Bash나 터미널을 열어주세요.
 
 여기서 `repository_URL` 자리에 본인의 레포지토리 URL을 넣어주시면 됩니다. 여행을 떠나기 전에 손쉽게 레포지토리를 클론하는 방법이에요. 즐거운 여행 되세요! 🌍✈️
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 소스 코드 파일을 추가해 주세요:
 
@@ -362,7 +633,18 @@ Git Bash나 터미널을 열어주세요.
 
 ## 변경 내용 스테이징 및 커밋하기:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 변경 사항을 스테이징하기 위해 git add 명령어를 사용하세요:
 
@@ -372,19 +654,39 @@ Git Bash나 터미널을 열어주세요.
 
 - git commit -m "여기에 커밋 메시지를 작성하세요"
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 저장소에 변경 사항 반영하기:
 
 git push 명령어를 사용하여 커밋한 변경 사항을 원격 저장소로 푸시합니다:
 
-
 git push
-
 
 이 저장소에 처음으로 푸시하는 경우, 원격 저장소와 브랜치를 지정해야 할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - git push -u origin master
 
@@ -394,7 +696,18 @@ git push
 
 푸시하는 동안 자격 증명이 요청될 때, 사용자 이름(일반적으로 이메일)을 입력하고 비밀 액세스 토큰을 패스워드로 사용해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 단계를 따라하면 개인 Git 저장소를 만들고 Git Bash를 사용하여 연결하고 코드 변경 사항을 안전하게 푸시하는 데 개인 액세스 토큰을 사용할 수 있습니다.
 
@@ -404,7 +717,18 @@ git push
 
 파이프라인은 선언적 파이프라인 스크립트를 사용하여 Jenkins에서 구성되었습니다. 파이프라인 단계에는 Git 체크아웃, 코드 컴파일, 단위 테스트, 파일 시스템 스캔, SonarQube 분석, 품질 게이트 확인, 빌드 패키지화, Nexus로 아티팩트 배포, Docker 이미지 빌드 및 푸시, Kubernetes로 배포 및 배포 검증이 포함되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 Jenkins 파이프라인 설정의 예입니다:
 
@@ -531,7 +855,18 @@ pipeline {
 
 # Phase 4: Monitoring
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 애플리케이션 및 쿠버네티스 클러스터 모니터링을 위해 Prometheus, Node Exporter, Black Box Exporter, Grafana를 사용할 수 있습니다. 아래는 이러한 도구를 다운로드할 수 있는 링크입니다:
 
@@ -540,10 +875,21 @@ pipeline {
 - [Black Box Exporter](link)
 - [Grafana](link)
 
-이 도구들을 다운로드한 후, 각각의 설치 및 구성 가이드를 따라 애플리케이션과 쿠버네티스 클러스터 모니터링을 설정할 수 있습니다. 
+이 도구들을 다운로드한 후, 각각의 설치 및 구성 가이드를 따라 애플리케이션과 쿠버네티스 클러스터 모니터링을 설정할 수 있습니다.
 
 이것은 초안이므로 추가 수정이 필요할 수 있습니다. 또한 최종 기사를 공유할 때 민감한 정보는 자리 표시자로 교체해야 합니다. 더 필요한 도움이 있으면 언제든지 말씀해 주세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지 출처: 데브옵스 샥

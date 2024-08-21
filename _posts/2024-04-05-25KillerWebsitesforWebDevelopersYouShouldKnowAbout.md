@@ -3,17 +3,13 @@ title: "웹 개발자들의 생산성 향상을 위해 반드시 알아야 할 2
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "25 Killer Websites for Web Developers You Should Know About"
 link: "https://medium.com/@fatfish/25-killer-websites-for-web-developers-you-should-know-about-23dba47be195"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/25KillerWebsitesforWebDevelopersYouShouldKnowAbout_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 1. 소스 코드용 아름다운 이미지를 만들고 공유하세요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 링크
 
@@ -33,7 +40,18 @@ Carbon을 사용하여 소스 코드의 아름다운 이미지를 만들고 공�
 
 # 2. JavaScript 정규 표현식 시각화기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 링크
 
@@ -43,7 +61,18 @@ Carbon을 사용하여 소스 코드의 아름다운 이미지를 만들고 공�
 
 ### 3. 무작위 이미지
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 링크
 
@@ -53,7 +82,18 @@ Carbon을 사용하여 소스 코드의 아름다운 이미지를 만들고 공�
 
 # 4. 스마트 WebP, PNG 및 JPEG 압축
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 링크
 
@@ -63,7 +103,18 @@ Carbon을 사용하여 소스 코드의 아름다운 이미지를 만들고 공�
 
 # 5. CodePen
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 링크
 
@@ -73,7 +124,18 @@ CodePen을 사용하면 매우 편리하게 미디엄에 데모 코드를 삽입
 
 링크
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아이오닉에서는 웹, iOS, 안드로이드 및 데스크톱 앱에 사용할 수 있는 프리미엄 디자인 아이콘을 포함한 필요한 아이콘을 찾을 수 있어요. SVG 및 웹 폰트를 지원합니다. 완전히 오픈 소스인 아이오닉.
 
@@ -83,7 +145,18 @@ CodePen을 사용하면 매우 편리하게 미디엄에 데모 코드를 삽입
 
 링크
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신이 디자인할 때 적절한 색상을 찾지 못했나요? Color Hunt가 도와줄 거에요.
 
@@ -93,7 +166,18 @@ CodePen을 사용하면 매우 편리하게 미디엄에 데모 코드를 삽입
 
 링크
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프론트엔드 엔지니어들은 종종 브라우저 호환성을 확인해야 합니다. Can I use 웹사이트는 다양한 인기 브라우저에서 CSS와 JavaScript의 기능 및 호환성을 조회할 수 있는 사이트입니다.
 
@@ -103,7 +187,18 @@ CodePen을 사용하면 매우 편리하게 미디엄에 데모 코드를 삽입
 
 링크
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만일 git에 익숙하지 않다면, 아주 좋아하실 거예요.
 
@@ -113,7 +208,18 @@ CodePen을 사용하면 매우 편리하게 미디엄에 데모 코드를 삽입
 
 # 10. Animate.css
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 링크
 
@@ -123,7 +229,18 @@ CodePen을 사용하면 매우 편리하게 미디엄에 데모 코드를 삽입
 
 ![애니메이션 이미지](https://miro.medium.com/v2/resize:fit:1400/0*DMDVfBQnBnoQtq6N.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 11. boardmix.com
 
@@ -133,7 +250,18 @@ CodePen을 사용하면 매우 편리하게 미디엄에 데모 코드를 삽입
 
 # 12. Web Gradients
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 링크
 
@@ -143,7 +271,18 @@ CodePen을 사용하면 매우 편리하게 미디엄에 데모 코드를 삽입
 
 ## 13. 3D 아이콘
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 링크
 
@@ -154,7 +293,18 @@ CodePen을 사용하면 매우 편리하게 미디엄에 데모 코드를 삽입
 
 ## 14. 표준 이력서
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 링크
 
@@ -164,7 +314,18 @@ CodePen을 사용하면 매우 편리하게 미디엄에 데모 코드를 삽입
 
 ## 15. codetogo
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 링크
 
@@ -174,7 +335,18 @@ Codetogo는 웹사이트 개발 중 일어날 수 있는 일반적인 문제들�
 
 # 16. 개발자를 위한 최고의 코드 생성기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 링크
 
@@ -184,7 +356,18 @@ Codetogo는 웹사이트 개발 중 일어날 수 있는 일반적인 문제들�
 
 ## 17. 사용되지 않은 CSS
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 링크
 
@@ -194,7 +377,18 @@ Codetogo는 웹사이트 개발 중 일어날 수 있는 일반적인 문제들�
 
 # 18. 멋진 배경
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 링크
 
@@ -204,7 +398,18 @@ Codetogo는 웹사이트 개발 중 일어날 수 있는 일반적인 문제들�
 
 # 19. DevDocs
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 링크
 
@@ -214,7 +419,18 @@ Codetogo는 웹사이트 개발 중 일어날 수 있는 일반적인 문제들�
 
 ### 20. cdnjs
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 링크
 
@@ -224,7 +440,18 @@ Codetogo는 웹사이트 개발 중 일어날 수 있는 일반적인 문제들�
 
 # 21. 이미지 배경 제거
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 링크
 
@@ -234,7 +461,18 @@ Codetogo는 웹사이트 개발 중 일어날 수 있는 일반적인 문제들�
 
 # 22. Readme
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 링크
 
@@ -244,7 +482,18 @@ README 파일을 만드는 가장 쉬운 방법은 이 간단한 편집기를 �
 
 ## 23. 웹 사이트가 얼마나 빠르게 로드되나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 링크
 
@@ -254,7 +503,18 @@ README 파일을 만드는 가장 쉬운 방법은 이 간단한 편집기를 �
 
 # 24. 온라인에서 사진 편집
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 링크
 
@@ -264,7 +524,18 @@ README 파일을 만드는 가장 쉬운 방법은 이 간단한 편집기를 �
 
 # 25. 무료 일러스트 이미지
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 링크
 
@@ -274,6 +545,17 @@ README 파일을 만드는 가장 쉬운 방법은 이 간단한 편집기를 �
 
 # 마지막으로
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 감사합니다. 제 팔로우를 기다리고 더 많은 고품질 기사를 읽는 것을 기대하고 있어요.

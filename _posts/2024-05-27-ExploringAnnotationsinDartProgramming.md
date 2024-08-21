@@ -3,15 +3,13 @@ title: "Dart에서 Annotations 사용하는 방법"
 description: ""
 coverImage: "/assets/img/2024-05-27-ExploringAnnotationsinDartProgramming_0.png"
 date: 2024-05-27 19:20
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-ExploringAnnotationsinDartProgramming_0.png
 tag: Tech
 originalTitle: "Exploring Annotations in Dart Programming"
 link: "https://medium.com/nonstopio/exploring-annotations-in-dart-programming-ae6a8e4b8624"
 isUpdated: true
 ---
-
-
 
 ![Exploring Annotations in Dart Programming](/assets/img/2024-05-27-ExploringAnnotationsinDartProgramming_0.png)
 
@@ -21,7 +19,18 @@ Dart에서 주석은 개발자가 코드에 메타데이터를 추가할 수 있
 
 Dart에서 주석은 클래스, 메서드, 필드 등과 같은 다양한 프로그램 요소에 첨부할 수 있는 메타데이터 형식입니다. 컴파일러 또는 런타임에서 처리될 수 있는 추가 정보를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다트(Dart)에서 어노테이션은 상수 값이나 생성자 호출을 참조하는 '@' 기호로 표현됩니다. 이 값은 타입(type), 클래스의 인스턴스(instance) 또는 리터럴(literal)일 수 있습니다.
 
@@ -33,7 +42,18 @@ Dart에서 주석은 클래스, 메서드, 필드 등과 같은 다양한 프로
 
 ## 내장된 어노테이션
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Dart는 몇 가지 내장 주석을 제공합니다:
 
@@ -62,7 +82,18 @@ void main() {
 
 ## 사용자 정의 주석 만들기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다트(Dart)에서 사용자 정의 어노테이션을 만드는 것은 간단합니다. 어노테이션을 클래스로 정의한 후에 인스턴스화하면 됩니다.
 
@@ -138,7 +169,18 @@ bool hasPermission(String permission) {
 
 이 예시에서:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - `RequiresPermission` 커스텀 어노테이션이 정의되었으며 이 어노테이션은 권한 문자열을 가져옵니다.
 - `NetworkService` 클래스에는 `@RequiresPermission`으로 어노테이트된 메서드들이 있어서 `fetchData` 메서드가 인터넷 권한이 필요하다는 것을 나타냅니다.

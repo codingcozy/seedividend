@@ -3,15 +3,13 @@ title: "알아두었으면 좋았을 Python 리스트 방법 12가지"
 description: ""
 coverImage: "/assets/img/2024-07-09-12PythonListThingsIRegretNotKnowingEarlier_0.png"
 date: 2024-07-09 19:32
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-12PythonListThingsIRegretNotKnowingEarlier_0.png
 tag: Tech
 originalTitle: "12 Python List Things I Regret Not Knowing Earlier"
 link: "https://medium.com/gitconnected/12-python-list-things-i-regret-not-knowing-earlier-ad841b527666"
 isUpdated: true
 ---
-
-
 
 ![이미지](/assets/img/2024-07-09-12PythonListThingsIRegretNotKnowingEarlier_0.png)
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 리스트 앞에 \*을 추가하면 언팩합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 a = [1, 2]
@@ -49,7 +58,18 @@ print(x) # [1, 2, [3,4], 5, 6, [7, 8]]
 
 ^ \*이 붙은 리스트(a와 c)만 풀어 헤쳐진다는 것을 주목해 주세요. b와 d는 일반 요소처럼 처리됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 2) \*를 사용하여 리스트 언패킹하기
 
@@ -69,7 +89,18 @@ print(others)  # ['pear', 'pineapple', 'durian']
 - b는 mylist의 두 번째 요소에 할당됩니다.
 - others는 mylist의 모든 다른 요소를 받는 리스트에 할당됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 노트 - a와 b가 반드시 가장 앞에 있을 필요는 없습니다.
 
@@ -89,7 +120,18 @@ print(others)  # ['orange', 'pear', 'pineapple']
 
 # 3) 리스트를 함수 인수로 언패킹하는 방법
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 함수 이름, 나이, 성별을 받는 test 함수가 있다고 가정해보죠. 이 함수를 사용하려면 test(이름, 나이, 성별)와 같이 전달해주어야 합니다.
 
@@ -108,7 +150,18 @@ x = ['rocky', 5, 'male']
 test(*x) # rocky 5 male
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 내용은 다음과 같습니다:
 
@@ -120,7 +173,18 @@ test("rocky", 5, "male");
 
 어떤 이유로 인해 나는 리스트 컴프리헨션에 대해 상대적으로 늦게 배웠다 (자료 구조와 알고리즘에 대해서 배운 후에야).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 우리가 [1, 2, 3, 4, 5]라는 리스트가 있고, 각 요소를 10씩 곱해서 [10, 20, 30, 40, 50] 리스트를 만들고 싶다면, 리스트 컴프리헨션 없이는 어떻게 할 수 있을까요:
 
@@ -144,7 +208,18 @@ newlist = [n * 10 for n in numbers]
 print(newlist)  # [10, 20, 30, 40, 50]
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 5) 중첩된 리스트에 대한 리스트 컴프리헨션
 
@@ -163,7 +238,18 @@ print(newlist) # [(1, 3), (1, 4), (2, 3), (2, 4)]
 
 리스트 컴프리헨션을 사용하여 정확히 동일한 작업을 수행할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 newlist = [(i,j) for i in [1,2] for j in [3,4]]
@@ -177,7 +263,18 @@ print(newlist) # [(1, 3), (1, 4), (2, 3), (2, 4)]
 
 비기너였을 때 저는 꽤 오랫동안 튜플을 무시했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 튜플은 그냥 변경할 수 없는 목록입니다. 변경할 수 없다는 것은 튜플을 만든 후에는 변경할 수 없다는 것을 의미합니다.
 
@@ -200,7 +297,18 @@ mytuple.append(4) # ERROR
 
 그래서 튜플은 목록의 안 좋은 버전으로 보입니다. 왜 튜플을 사용해야 할까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 튜플의 불변성의 가장 큰 장점은 해시 가능하다는 것입니다.
 
@@ -229,7 +337,18 @@ d = {
 # OK
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 7) .insert()을 사용하여 특정 인덱스에 새 요소를 삽입합니다.
 
@@ -246,7 +365,18 @@ mylist.insert(0, 100)
 print(mylist) # [100, 1, 2, 3]
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ^ 기존 요소가 모두 오른쪽으로 이동해야 하므로 이 작업은 O(n) 시간이 걸립니다.
 
@@ -263,7 +393,18 @@ print(mylist) # [1, 2, 150, 3]
 
 # 8) .pop()을 사용하여 요소 제거
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 .pop() 메소드를 사용하면 2가지 작업을 동시에 할 수 있습니다:
 
@@ -282,7 +423,18 @@ print(mylist) # [1, 2]
 
 .pop()에 인덱스를 전달하면 해당 인덱스의 요소를 제거할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 내목록 = [1, 2, 3]
@@ -300,7 +452,18 @@ print(내목록)  # [2, 3]
 
 .extend()는 한 목록의 모든 요소를 다른 목록에 추가할 수 있게 해줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 a = [1, 2, 3]
@@ -319,7 +482,18 @@ print(b)  # [4, 5, 6]
 
 - `.sort()`은 리스트 자체를 정렬합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 mylist = [1, 3, 2]
@@ -342,7 +516,18 @@ print(mylist)   # [1, 3, 2]
 
 # 11) 사용자 정의 조건으로 .sort()하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **참고— 이것은 .sort()와 sorted()에 대해 동일하게 작동합니다.**
 
@@ -358,7 +543,18 @@ print(fruits) # ['apple', 'orange', 'pear']
 
 우리는 .sort()에서 key 인자에 함수를 전달하여 사용자 정의 정렬 조건을 정의할 수 있습니다. 예: list.sort(key=your_function)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 함수는 전체 요소를 가져와서
 - 우리가 정렬하려는 값을 반환합니다.
@@ -379,11 +575,33 @@ fruits.sort(key=your_condition)
 print(fruits) # ['orange', 'pear', 'apple']
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 Markdown 형식으로 변경하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 노트 - 이 코드는 .sort()와 sorted() 모두에 작동합니다.
 
@@ -402,7 +620,18 @@ students = [
 
 그리고 그들의 수학 점수에 따라 정렬한다고 가정합시다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 students.sort(key=lambda x:x['math'])
@@ -428,7 +657,18 @@ And what if we want to sort by math first, then science?
 - for students with the same math score, sort by science score
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이를 수행하기 위해서는 우리의 주요 함수는 단순히 튜플 (첫 번째 조건, 두 번째 조건)을 반환하면 됩니다. 이 경우에는 (수학 점수, 과학 점수)가 될 것입니다.
 
@@ -453,7 +693,18 @@ print(students)
 
 참고 — 3가지 조건에 따라 정렬하려면, 단순히 (첫 번째 조건, 두 번째 조건, 세 번째 조건)의 튜플을 반환하면 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -463,7 +714,18 @@ print(students)
 
 # 만약에 제작자로서 저를 지원하고 싶다면
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 제 책을 구입해 주세요! — 101 Things I Never Knew About Python
 - 확인할 수 있는 곳: [여기](https://payhip.com/b/vywcf)

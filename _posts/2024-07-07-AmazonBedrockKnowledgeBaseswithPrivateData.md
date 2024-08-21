@@ -3,15 +3,13 @@ title: "프라이빗 데이터를 활용한 Amazon Bedrock 지식 베이스 구�
 description: ""
 coverImage: "/assets/img/2024-07-07-AmazonBedrockKnowledgeBaseswithPrivateData_0.png"
 date: 2024-07-07 19:23
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-AmazonBedrockKnowledgeBaseswithPrivateData_0.png
 tag: Tech
 originalTitle: "Amazon Bedrock Knowledge Bases with Private Data"
 link: "https://medium.com/@leejamesgilmore/amazon-bedrock-knowledge-bases-with-private-data-7685d04ef396"
 isUpdated: true
 ---
-
-
 
 <img src="/assets/img/2024-07-07-AmazonBedrockKnowledgeBaseswithPrivateData_0.png" />
 
@@ -24,7 +22,18 @@ isUpdated: true
 
 # 소개 👋🏽
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사에서는 Amazon Bedrock Knowledge Bases에 대해 이야기하고, 최신 비공개 회사 정보로 AI 모델을 장착하는 방법에 대해 얘기할 것입니다. 이를 통해 사용자들이 자체 사용자 정의 데이터로 AI를 활용할 수 있게 됩니다. 우리는 코드 예제와 관련된 AWS 아키텍처에 대해 설명할 것입니다.
 
@@ -34,7 +43,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-07-07-AmazonBedrockKnowledgeBaseswithPrivateData_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 접대 직원은 자연어를 사용하여 사설 데이터를 쿼리할 수 있습니다. 예를 들어, 의료 분야에서 지불 지연에 대한 정책이 무엇인지 묻는 것이 있습니다.
 
@@ -44,7 +64,18 @@ isUpdated: true
 
 👇 더 나아가기 전에 — LinkedIn에서 저와 연결해주세요. 미래의 블로그 게시물과 서버리스 뉴스를 만날 수 있습니다. https://www.linkedin.com/in/lee-james-gilmore/
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-07-AmazonBedrockKnowledgeBaseswithPrivateData_4.png" />
 
@@ -54,7 +85,18 @@ isUpdated: true
 
 ## 약어
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시작하기 전에, 몇 가지 약어와 그 의미에 대해 알아보겠습니다:
 
@@ -63,7 +105,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-07-07-AmazonBedrockKnowledgeBaseswithPrivateData_5.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Bedrock Knowledge Bases란 무엇인가요? 🤖
 
@@ -73,7 +126,18 @@ isUpdated: true
 
 ## 사용자 정의 데이터를 어디에 저장하나요? 🤖
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아마존 베드락 지식 베이스를 사용하면 데이터 수집부터 Amazon S3에서 데이터를 검색하고 프롬프트 추가까지 전체 RAG 워크플로우를 구현할 수 있습니다. 사용자는 데이터 소스에 맞춤 통합을 작성하거나 데이터 흐름을 관리할 필요 없이 쉽게 다중 대화를 지원할 수 있습니다.
 
@@ -83,7 +147,18 @@ isUpdated: true
 
 벡터 임베딩에는 문서 내 텍스트 데이터의 숫자 표현이 포함됩니다. 각 임베딩은 데이터의 의미나 문맥적 의미를 포착하기 위해 노력합니다. 아마존 베드락은 벡터 저장소에서 임베딩을 생성, 저장, 관리 및 업데이트하며 데이터가 항상 벡터 저장소와 동기화되도록 보장합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ✔️ 전처리
 
@@ -93,7 +168,18 @@ isUpdated: true
 
 ✔️ 런타임 실행
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 실시간으로 모델은 사용자의 쿼리를 벡터로 변환하고 의미적으로 유사한 청크를 찾기 위해 벡터 인덱스를 탐색합니다. 이러한 청크들은 사용자 프롬프트를 보강하는 데 사용되고, 그 후에 모델로 전송되어 응답을 생성합니다. 이 프로세스는 아래 이미지에서 RAG의 실행 중인 작업을 보여줍니다.
 
@@ -103,7 +189,18 @@ isUpdated: true
 
 우리의 Amazon S3 버킷에 새 문서를 업로드하면 지식 베이스 데이터 원본으로 사용하게 되는데, 이때 데이터를 주기적으로 동기화하여 색인 작업과 쿼리를 위해 지식 베이스와 동기화해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 업데이트 동기화는 마지막 동기화 이후에 S3 버킷에 새로 추가되거나 수정된 객체들만을 처리하여 지식 베이스를 증분적으로 업데이트합니다.
 
@@ -113,7 +210,18 @@ isUpdated: true
 
 ![Amazon Bedrock Knowledge Bases with Private Data](/assets/img/2024-07-07-AmazonBedrockKnowledgeBaseswithPrivateData_8.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 다이어그램에서 알 수 있듯이:
 
@@ -127,7 +235,18 @@ isUpdated: true
 
 # 주요 코드 설명하기 👨‍💻
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 알겠어요. 우리는 이 기본 예제를 살펴보았으니 이제 TypeScript와 CDK 코드를 살펴보겠습니다. 전체 솔루션은 여기에서 찾을 수 있음을 기억해 주세요.
 
@@ -150,7 +269,18 @@ this.bucket = new s3.Bucket(this, "PatientRecordsBucket", {
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 코드에서는 Titan Text V1 기본 모델을 사용하고 있음을 알 수 있습니다.
 
@@ -166,7 +296,18 @@ new s3deploy.BucketDeployment(this, "ClientBucketDeployment", {
 
 마지막으로, 지식 베이스용 데이터 소스를 생성하며, 이는 우리의 S3 버킷을 가리킵니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // knowledge base를 위한 s3 버킷의 데이터 소스 설정
@@ -186,7 +327,18 @@ Stateful 스택을 배포하려면 npm 스크립트 npm run deploy:stateful을 �
 
 이제 Stateless 스택을 살펴보겠습니다. 우선 S3 트리거를 추가하여 S3 버킷 내에서 변경 사항(새 파일, 수정, 삭제 등)이 발생할 때 Ingestion Lambda 함수를 호출하는 방법을 살펴보겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 객체가 추가, 수정 또는 삭제될 때의 s3 이벤트 소스를 만듭니다
@@ -231,7 +383,18 @@ export async function ingestionProcess(): Promise<string> {
 
 다음으로 Lambda 함수가 동기화 수행을 허용하기 위해 필요한 IAM 정책을 살펴보겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // ensure that the lambda function can start a data ingestion job
@@ -257,7 +420,18 @@ queryModelLambda.addToRolePolicy(
 
 쿼리 람다의 두 번째 어댑터에 대한 코드가 아래에 표시되어 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import {
@@ -327,7 +501,18 @@ queries.addMethod(
 
 이제 npm 스크립트 npm run deploy:stateless로 무상태 스택을 배포하고 기능을 테스트할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 앱 테스트 🧪
 
@@ -337,7 +522,18 @@ postman/Bedrock Knowledge Bases.postman_collection.json 파일을 사용하여 �
 
 늦은 지불에 관한 간단한 쿼리를 시작해보세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 스크린샷에서 올바른 응답을 받았음을 확인할 수 있습니다:
 
@@ -347,7 +543,18 @@ postman/Bedrock Knowledge Bases.postman_collection.json 파일을 사용하여 �
 
 위의 예시는 우리 접수 직원이 모든 정책에서 필요한 정보를 빠르게 찾을 수 있는 두 가지 예시에 불과합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어째서 이 기능을 사용해보지 않고 가상의 환자 기록을 추가해 보시겠어요? 솔루션을 배포하는 비용을 기억해 주세요!
 
@@ -357,7 +564,18 @@ postman/Bedrock Knowledge Bases.postman_collection.json 파일을 사용하여 �
 
 제 유튜브 채널을 방문해 비슷한 콘텐츠를 구독해주세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-07-AmazonBedrockKnowledgeBaseswithPrivateData_9.png)
 
@@ -368,7 +586,18 @@ postman/Bedrock Knowledge Bases.postman_collection.json 파일을 사용하여 �
 
 만약 글을 즐겼다면, 저의 프로필 Lee James Gilmore를 팔로우하여 더 많은 글/시리즈를 만나보세요. 그리고 연락하여 인사도 잊지 마세요! 👋
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 나에 대해
 
@@ -377,7 +606,18 @@ postman/Bedrock Knowledge Bases.postman_collection.json 파일을 사용하여 �
 저는 서버리스를 주장하는 사람으로, AWS, 혁신, 소프트웨어 아키텍처, 기술 전반에 관심을 가지고 있습니다.”
 클래프 기능을 사용하여 이 게시물이 마음에 드셨다면 반드시 박수를 눌러주세요! (여러 번 박수를 두드릴 수 있어요!!)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **_ 제공된 정보는 제 개인적인 의견이며 정보 사용에 대한 책임은 지지 않습니다. _**
 

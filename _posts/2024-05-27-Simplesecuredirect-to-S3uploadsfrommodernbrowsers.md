@@ -3,16 +3,13 @@ title: "모던 브라우저에서 AWS S3 직접 업로드하는 방법"
 description: ""
 coverImage: "/assets/img/2024-05-27-Simplesecuredirect-to-S3uploadsfrommodernbrowsers_0.png"
 date: 2024-05-27 18:48
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-Simplesecuredirect-to-S3uploadsfrommodernbrowsers_0.png
 tag: Tech
 originalTitle: "Simple , secure direct-to-S3 uploads from modern browsers"
 link: "https://medium.com/@taylorhughes/simple-secure-direct-to-s3-uploads-from-modern-browsers-f42695e596ba"
 isUpdated: true
 ---
-
-
-
 
 안녕하세요, 제 이름은 Taylor Hughes입니다. 소프트웨어 엔지니어입니다. 저는 페이스북, 구글, 클럽하우스 및 중간의 여러 스타트업에서 앱을 출시하고 팀을 구축했습니다.
 
@@ -22,7 +19,18 @@ AWS 문서에 따르면 추가 인증 서비스를 설정하고 전체 AWS JS SD
 
 대신 사전 서명된 URL 및 현대적인 웹 API를 사용하여 브라우저에서 손쉽게 S3로 직접 업로드 할 수 있습니다. 코드 몇 줄을 사용하면 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용자 브라우저의 관점에서 전체 솔루션은 다음과 같습니다:
 
@@ -36,7 +44,18 @@ AWS 문서에 따르면 추가 인증 서비스를 설정하고 전체 AWS JS SD
 
 이 게시물에서는 단계별로 진행해 보겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## AWS 구성
 
@@ -44,19 +63,41 @@ AWS 문서에 따르면 추가 인증 서비스를 설정하고 전체 AWS JS SD
 
 둘째, web-upload-only라는 새 IAM 사용자를 추가합니다. 새 사용자의 액세스 키와 비밀을 가져와서 이를 백엔드 웹 서버에 추가하세요. (이 자격 증명은 주 AWS 자격 증명과 별도여야 합니다.)
 
-셋째, web-upload-only에게 새 버킷 yourproject-upload/*의 모든 경로에 대한 s3:PutObject 액세스 권한을 부여합니다. (우리는 사전 서명된 PutObject URL을 반환할 때 쓰기 키를 제한할 것입니다.)
+셋째, web-upload-only에게 새 버킷 yourproject-upload/\*의 모든 경로에 대한 s3:PutObject 액세스 권한을 부여합니다. (우리는 사전 서명된 PutObject URL을 반환할 때 쓰기 키를 제한할 것입니다.)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-05-27-Simplesecuredirect-to-S3uploadsfrommodernbrowsers_0.png" />
 
-마지막으로, 일반 AWS 역할 또는 사용자에게 yourproject-upload/* 버킷에 s3:GetObject 액세스도 부여하세요. 업로드 버킷에서 파일을 가져와 main/public 서빙 버킷으로 옮기기 위해 더 많은 권한을 가진 다른 사용자가 필요합니다.
+마지막으로, 일반 AWS 역할 또는 사용자에게 yourproject-upload/\* 버킷에 s3:GetObject 액세스도 부여하세요. 업로드 버킷에서 파일을 가져와 main/public 서빙 버킷으로 옮기기 위해 더 많은 권한을 가진 다른 사용자가 필요합니다.
 
 ## 웹 서버: "업로드 생성" API 엔드포인트 추가
 
 새 IAM 사용자의 액세스 키와 시크릿을 얻었다면 이제 S3에 특정 키를 쓸 수 있는 사전 서명된 URL을 생성할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새로운 엔드포인트로 전송되는 입력은 다음과 같습니다:
 
@@ -96,7 +137,18 @@ def create_upload(request: Request) -> Response:
     )
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 클라이언트 측: 모두 연결하기
 
@@ -121,7 +173,18 @@ function getPresignedUrl(file: File) {
 
 그런 다음, XmlHttpRequest를 만들어 파일을 직접 S3로 전송할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 function uploadFile(
@@ -164,27 +227,21 @@ React Hooks를 사용하는 프로젝트라면 다음과 같이 모두 연결할
 
 ```js
 export function useUpload() {
-  const [uploadState, setUploadState] = useState<
-    "idle" | "starting" | "uploading" | "finishing" | "done" | "error"
-  >("idle");
+  const [uploadState, setUploadState] =
+    (useState < "idle") | "starting" | "uploading" | "finishing" | "done" | ("error" > "idle");
   const [uploadProgress, setUploadProgress] = useState(0);
-  const [uploadError, setUploadError] = useState<Error | null>(null);
+  const [uploadError, setUploadError] = (useState < Error) | (null > null);
 
   return {
     uploadState,
     uploadProgress,
     uploadError,
-    upload: async (
-      file: File,
-      onSuccess: (uploadKey: string) => Promise<void>,
-    ) => {
+    upload: async (file: File, onSuccess: (uploadKey: string) => Promise<void>) => {
       setUploadState("starting");
 
       try {
         // 백엔드 API에서 사전 서명된 URL 가져오기:
-        const { key, presigned_upload_url } = await getPresignedUrl(
-          file,
-        );
+        const { key, presigned_upload_url } = await getPresignedUrl(file);
         setUploadState("uploading");
         // XmlHttpRequest를 사용하여 실제 업로드:
         await uploadFile(file, presigned_upload_url, (pct) => {
@@ -205,8 +262,18 @@ export function useUpload() {
 
 ## 마지막으로: 새로 업로드된 파일 사용하기
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 업로드가 완료되면 업로드한 S3 키를 API로 전송하여 다른 곳에 저장하거나 원하는 대로 후속 처리할 수 있습니다.
 
@@ -216,7 +283,18 @@ export function useUpload() {
 
 다음은 Python에서 버킷을 공개 서빙 버킷에 복사하는 예시입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 upload_key = request.validated_data["upload_key"]

@@ -3,17 +3,13 @@ title: "리액트 라우터 돔 v6로 여러 레이아웃 렌더링하기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "React render multiple layouts with react-router-dom v6"
 link: "https://medium.com/@najm-eddine-zaga/react-render-multiple-layouts-with-react-router-dom-v6-7a42bd984acf"
 isUpdated: true
 ---
-
-
-
-
 
 ![React 다중 레이아웃 렌더링 가이드](/assets/img/Reactrendermultiplelayoutswithreact-router-domv6_0.png)
 
@@ -27,7 +23,18 @@ isUpdated: true
 - useHistory()가 useNavigate()로 대체되었습니다.
 - Redirect가 Navigate로 대체되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 알겠어요, 일이 어떻게 진행될지 살펴봅시다.
 
@@ -39,7 +46,18 @@ isUpdated: true
 $ npx create-react-app multiple-layouts
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 TypeScript로 앱을 만들고 싶다면:
 
@@ -51,7 +69,18 @@ $ npx create-react-app multiple-layouts --template typescript
 
 이제 react-router-dom 패키지를 설치하고, 나중에 코딩에서 lodash 패키지를 사용할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 $ npm install react-router-dom lodash
@@ -65,7 +94,18 @@ $ yarn add react-router-dom lodash
 
 로직을 설정하기 위해 몇 가지 페이지를 만들어봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 /src 폴더 내에 /pages 폴더를 만들어서 새로운 페이지 4개를 생성해주세요:
 
@@ -90,7 +130,18 @@ const Home = () => {
 export default Home;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const CreateUser = () => {
@@ -112,7 +163,18 @@ export default ListUsers;
 
 이제 2개의 레이아웃만 있다고 가정하고 레이아웃을 생성합시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 익명 레이아웃 — 사용자가 앱에 로그인하지 않은 경우.
 - 메인 레이아웃 — 사용자가 앱에 로그인한 경우.
@@ -135,7 +197,18 @@ const MainLayout = () => {
 export default MainLayout;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 5 — 라우트 파일 생성
 
@@ -147,7 +220,18 @@ export default MainLayout;
 - /routes/ProtectedRoute/index.jsx — 라우트를 보호하고 미로그인 사용자가 페이지에 접근하는 것을 방지할 컴포넌트입니다.
 - /routes/generate-routes.jsx — 이 파일에서 라우트를 순회하고 라우트와 레이아웃을 생성할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우선 routes 배열을 생성해 봅시다.
 
@@ -214,7 +298,18 @@ export const routes = [
 ];
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각 속성을 더 자세히 살펴보고 어떻게 유용할지 살펴보겠습니다:
 
@@ -225,7 +320,18 @@ export const routes = [
 
 — 레이아웃 경로:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이름: 경로의 이름으로, 경로 매핑시 고유해야 합니다. [필수]
 - 제목: 브라우저 탭 제목 및 내비게이션 링크 레이블로 표시될 텍스트입니다. [필수]
@@ -250,7 +356,18 @@ const ProtectedRoute = ({ isPublic, isAuthorized }) => {
 export default ProtectedRoute;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 코드에서는 로그인이 필요한 페이지를 비로그인 사용자로부터 보호하기 위해 ProtectedRoute 컴포넌트를 생성했습니다.
 
@@ -261,7 +378,18 @@ export default ProtectedRoute;
 
 isPublic 또는 isAuthorized 중 하나라도 true이면 컴포넌트는 Outlet 컴포넌트를 반환합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나머지 설명은 나중에 제공될 예정입니다… `Outlet`에 대한 자세한 설명은 여기를 참조하세요.
 
@@ -273,7 +401,18 @@ isPublic 또는 isAuthorized 중 하나라도 true이면 컴포넌트는 Outlet 
 - ProtectedRoute from ProtectedRoute
 - flattenDeep from lodash/flattenDeep
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 참고: ReactRoutes를 원하는 대로 이름을 지을 수 있습니다. 이 예시에서는 generateFlattenRoutes 함수가 Routes라는 컴포넌트를 반환합니다.
 
@@ -296,7 +435,18 @@ import ProtectedRoute from "./ProtectedRoute";
 // 중첩된 배열은 전혀 없을 겁니다.
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앞서 제시한 예제가 이해되셨기를 바랍니다.
 
@@ -310,18 +460,24 @@ import ProtectedRoute from "./ProtectedRoute";
 
 const generateFlattenRoutes = (routes) => {
   if (!routes) return [];
-  return flattenDeep(
-    routes.map(({ routes: subRoutes, ...rest }) => [
-      rest,
-      generateFlattenRoutes(subRoutes),
-    ])
-  );
+  return flattenDeep(routes.map(({ routes: subRoutes, ...rest }) => [rest, generateFlattenRoutes(subRoutes)]));
 };
 ```
 
 위 코드는 재귀 함수로, 루트에 중첩된 경로 배열이 있는 경우마다 스스로를 호출합니다. 함수가 정의되지 않은 매개변수를 받으면 앱이 크래시되지 않도록 빈 배열을 반환합니다. routes 속성이 옵션인 것을 알 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로, 주요 기능을 생성하여 라우트를 생성할 것입니다:
 
@@ -333,12 +489,7 @@ import ProtectedRoute from "./ProtectedRoute";
 
 const generateFlattenRoutes = (routes) => {
   if (!routes) return [];
-  return flattenDeep(
-    routes.map(({ routes: subRoutes, ...rest }) => [
-      rest,
-      generateFlattenRoutes(subRoutes),
-    ])
-  );
+  return flattenDeep(routes.map(({ routes: subRoutes, ...rest }) => [rest, generateFlattenRoutes(subRoutes)]));
 };
 
 export const renderRoutes = (mainRoutes) => {
@@ -353,7 +504,18 @@ export const renderRoutes = (mainRoutes) => {
 
 renderRoutes 함수는 라우트를 생성한 뒤 Routes 컴포넌트를 반환할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 Routes 컴포넌트는 매핑된 경로 목록을 반환합니다:
 
@@ -365,12 +527,7 @@ import ProtectedRoute from "./ProtectedRoute";
 
 const generateFlattenRoutes = (routes) => {
   if (!routes) return [];
-  return flattenDeep(
-    routes.map(({ routes: subRoutes, ...rest }) => [
-      rest,
-      generateFlattenRoutes(subRoutes),
-    ])
-  );
+  return flattenDeep(routes.map(({ routes: subRoutes, ...rest }) => [rest, generateFlattenRoutes(subRoutes)]));
 };
 
 export const renderRoutes = (mainRoutes) => {
@@ -380,16 +537,9 @@ export const renderRoutes = (mainRoutes) => {
 
       return (
         <Route key={index} element={<Layout />}>
-          <Route
-            element={
-              <ProtectedRoute isPublic={isPublic} isAuthorized={isAuthorized} />
-            }
-          >
+          <Route element={<ProtectedRoute isPublic={isPublic} isAuthorized={isAuthorized} />}>
             {subRoutes.map(({ component: Component, path, name }) => {
-              return (
-                Component &&
-                path && <Route key={name} element={<Component />} path={path} />
-              );
+              return Component && path && <Route key={name} element={<Component />} path={path} />;
             })}
           </Route>
         </Route>
@@ -405,7 +555,18 @@ export const renderRoutes = (mainRoutes) => {
 
 1 — layouts라는 이름의 const를 생성하고 mainRoutes 매개변수를 매핑한 결과가 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2 — 맵 함수의 콜백에서는 레이아웃과 해당 루트 목록을 추출합니다. 물론 나중에 React 구성 요소로 사용하기 위해 레이아웃을 Layout으로 이름을 변경했습니다. 또한 콜백 함수에서 항목 인덱스를 고려했습니다.
 
@@ -417,17 +578,25 @@ const subRoutes = generateFlattenRoutes(routes);
 
 이제 결과적으로... 우리는 HTML 요소를 반환하고 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 반환(
   <Route key={index} element={<Layout />}>
     <Route element={<ProtectedRoute isAuthorized={isAuthorized} />}>
       {subRoutes.map(({ component: Component, path, name }) => {
-        return (
-          Component &&
-          path && <Route key={name} element={<Component />} path={path} />
-        );
+        return Component && path && <Route key={name} element={<Component />} path={path} />;
       })}
     </Route>
   </Route>
@@ -440,7 +609,18 @@ const subRoutes = generateFlattenRoutes(routes);
 
 ProtectedRoute 컴포넌트 내부에서는 컴포넌트 prop이 이전에 언급했던대로 element로 바뀌어 v.5의 react-router-dom을 사용하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 5 - subRoutes const은 우리의 평면 라우트이며, 우리는 라우트를 생성하기 위해 map 메서드를 호출하여 ProtectedRoute 컴포넌트에 자식으로 표시될 라우트를 생성합니다.
 
@@ -456,7 +636,18 @@ return (
 );
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 6 — 레이아웃 내용 업데이트
 
@@ -484,7 +675,18 @@ const MainLayout = () => {
 export default MainLayout;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 7 — 라우트 생성기 함수 호출
 
@@ -513,7 +715,18 @@ export const Routes = renderRoutes(routes);
 
 # 8 — 라우팅 시스템 구현
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리의 라우팅 시스템을 준비했으니, 마지막 단계가 시작됩니다.
 
@@ -539,7 +752,18 @@ root.render(
 
 그런 다음, App.jsx 파일로 이동하여 아래와 같이 ./routes에서 Routes를 import하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import React, { useEffect } from "react";
@@ -558,7 +782,18 @@ export default App;
 
 이 게시물을 읽어주셔서 감사합니다. 도움이 되었기를 바라며, 궁금한 점이 있으시면 댓글란에 남겨주세요. 기꺼이 답변해 드리겠습니다. 그리고 이 게시물이 마음에 드신다면 응원해 주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 행복한 코딩하세요 ❤
 

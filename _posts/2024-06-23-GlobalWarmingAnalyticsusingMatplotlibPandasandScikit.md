@@ -3,16 +3,13 @@ title: "Matplotlib, Pandas, Scikit으로 하는 지구 온난화 분석 방법"
 description: ""
 coverImage: "/assets/img/2024-06-23-GlobalWarmingAnalyticsusingMatplotlibPandasandScikit_0.png"
 date: 2024-06-23 13:26
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-GlobalWarmingAnalyticsusingMatplotlibPandasandScikit_0.png
 tag: Tech
 originalTitle: "Global Warming Analytics using Matplotlib, Pandas and Scikit."
 link: "https://medium.com/@sudhakar.chelliah1986/global-warming-analytics-using-matplotlib-pandas-and-scikit-a444916224d3"
 isUpdated: true
 ---
-
-
-
 
 NASA의 실제 글로벌 표면 온도 데이터 분석입니다.
 
@@ -22,7 +19,18 @@ NASA의 실제 글로벌 표면 온도 데이터 분석입니다.
 
 지난 140년간의 지구 온난화 그래프:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 데이터 프레임 gw에 전체 지구 온난화 데이터를 로드하고, 지난 140년간의 완전한 그래프 플롯을 생성했습니다 (음수 섭씨는 녹색, 양수 섭씨는 빨강색). 1970년부터 온도가 천천히 빨간 색으로 변하기 시작했고, 되돌아보지 않은 것 같습니다. 표면 온도가 0도 섭씨를 넘어선 후로 남극과 북극의 얼음이 천천히 녹고 있습니다.
 
@@ -45,22 +53,22 @@ x2 = gw2010['Year']
 y2 = gw2010['Index']
 
 # 음수 지수는 녹색, 양수는 빨간색으로 표시됩니다.
-colors = np.where(gw['Index'] >= 0, 'r', 'g') 
+colors = np.where(gw['Index'] >= 0, 'r', 'g')
 
 plt.figure(figsize =(20,8))
 plt.subplot(2, 1, 1)  # 전체 그래프를 표시할 첫 번째 행입니다.
-plt.xlabel('Year') 
-plt.ylabel('Index') 
+plt.xlabel('Year')
+plt.ylabel('Index')
 plt.bar(x, y, color=colors)
 
 plt.subplot(2, 2, 3) # 2000년 이후 그래프를 표시할 두 번째 행 첫 번째 열입니다.
-plt.xlabel('2000년부터의 연도') 
-plt.ylabel('Index') 
+plt.xlabel('2000년부터의 연도')
+plt.ylabel('Index')
 plt.scatter(x1, y1, s=100, c='y', marker="o", alpha=1, edgecolor='r')
 
 plt.subplot(2, 2, 4) # 2010년 이후 그래프를 표시할 두 번째 행 두 번째 열입니다.
-plt.xlabel('2010년부터의 연도') 
-plt.ylabel('Index') 
+plt.xlabel('2010년부터의 연도')
+plt.ylabel('Index')
 
 plt.scatter(x2, y2, s=400, c='r', marker="^", alpha=1, edgecolor='b')
 ```
@@ -69,7 +77,18 @@ plt.scatter(x2, y2, s=400, c='r', marker="^", alpha=1, edgecolor='b')
 
 직선 방정식의 값을 식별하는 중입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Y = mx + c의 직선 방정식입니다.
 여기서 m은 추세의 기욱이고 c는 Y-절편의 높이입니다.
@@ -103,18 +122,29 @@ Year Index
 
 <img src="/assets/img/2024-06-23-GlobalWarmingAnalyticsusingMatplotlibPandasandScikit_2.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 미래 추세를 생성하기 위해 기울기와 Y-절편을 기반으로 하는 테이블 값을 변환했습니다:
 
 ```js
 def line(x):
   # 함수 y = mx + c에 기울기(m)와 절편(c) 값을 할당합니다.
-  return 0.0196163 * x + (-38.71344489795919) 
+  return 0.0196163 * x + (-38.71344489795919)
 x_pred = range(1974,2051)  # 1974년부터 2051년까지의 범위입니다.
 
 # 연도가 증가함에 따라 직선 방정식을 기반으로 기울기가 추가됩니다.
-y_pred = [line(i) for i in x_pred] 
+y_pred = [line(i) for i in x_pred]
 
 import matplotlib.pyplot as plt
 fig,ax = plt.subplots()
@@ -130,7 +160,18 @@ plt.show()
 
 <img src="/assets/img/2024-06-23-GlobalWarmingAnalyticsusingMatplotlibPandasandScikit_3.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지난 몇 년 동안 표면 온도 분석을 기반으로 한 추론:
 

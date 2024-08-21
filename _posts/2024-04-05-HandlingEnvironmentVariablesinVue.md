@@ -3,17 +3,13 @@ title: "Vue에서 환경 변수 다루는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Handling Environment Variables in Vue"
 link: "https://fadamakis.com/handling-environment-variables-in-vue-da4d223aea71"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/HandlingEnvironmentVariablesinVue_0.png" />
 
@@ -28,7 +24,18 @@ Vue는 널리 사용되는 dotenv 모듈을 사용하여 환경 디렉토리에�
 
 각 파일은 다음 형식을 가지고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 VITE_SOME_KEY = 123;
@@ -43,7 +50,18 @@ VITE\_ 접두사가있는 모든 것은 import.meta.env 내의 클라이언트 �
 
 애플리케이션의 다른 부분은 .dotenv 파일을 사용하여 VITE\_ 접두사없이 안전하게 변수를 노출시킬수 있어서 클라이언트로 유출되지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금까지 쉽죠. 실제로는 각 환경에 대해 여러 구성 파일이 있을 것입니다.
 
@@ -57,7 +75,18 @@ VITE_PUBLIC_URL=http://localhost:3000/uploads/
 
 그리고 프로덕션 환경에서
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # .env.production
@@ -79,7 +108,18 @@ const instance = axios.create({
 
 만약 TypeScript를 사용하는 경우 (그래야죠, 그렇죠?), 조금은 도움이 안 될 수도 있는 오류를 볼 수 있을 거에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 'env' 속성은 'ImportMeta' 타입에 존재하지 않습니다.ts(2339)
@@ -102,7 +142,18 @@ interface ImportMeta {
 
 마지막으로, 코드에서 import.meta.env.VITE_BACKEND_URL을 너무 길어 보이는 것 같아요. 일반적으로 중간에 있는 appSettings.ts 파일을 만들어 이를 캡슐화하는 편이에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // src/config/appSetings.ts

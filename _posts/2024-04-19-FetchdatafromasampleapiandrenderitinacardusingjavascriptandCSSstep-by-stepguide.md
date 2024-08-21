@@ -3,17 +3,13 @@ title: "html CSS를 사용하여 샘플 API로 데이터를 가져와 카드에 
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Fetch data from a sample api and render it in a card using javascript and CSS step-by-step guide"
 link: "https://medium.com/design-bootcamp/fetch-data-from-a-sample-api-and-render-it-in-a-card-using-javascript-and-css-step-by-step-guide-332bd4b70346"
 isUpdated: true
 ---
-
-
-
-
 
 샘플 API에서 데이터를 가져와 JavaScript와 CSS를 사용하여 카드에 렌더링하려면 다음 단계를 따라하실 수 있어요:
 
@@ -40,7 +36,18 @@ isUpdated: true
 
 단계 2: CSS 파일(styles.css)을 만들어 카드를 스타일링하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .container {
@@ -114,8 +121,18 @@ renderData();
 
 <img src="/assets/img/FetchdatafromasampleapiandrenderitinacardusingjavascriptandCSSstep-by-stepguide_0.png" />
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 코드에서:
 
@@ -127,6 +144,17 @@ API 엔드포인트와 스타일링을 귀하의 특정 요구사항에 맞게 �
 
 실시간 예제는 다음을 확인해주세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 https://codepen.io/gauravprof27/pen/ExGXWXW

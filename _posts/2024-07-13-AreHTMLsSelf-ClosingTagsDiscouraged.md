@@ -3,7 +3,7 @@ title: " HTML의 자기 닫는 태그는 사용을 자제해야 할까"
 description: ""
 coverImage: "/assets/img/2024-07-13-AreHTMLsSelf-ClosingTagsDiscouraged_0.png"
 date: 2024-07-13 21:01
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-AreHTMLsSelf-ClosingTagsDiscouraged_0.png
 tag: Tech
 originalTitle: "🧑‍🚀 Are HTML’s Self-Closing Tags Discouraged?"
@@ -11,18 +11,26 @@ link: "https://medium.com/@tomaszs2/are-htmls-self-closing-tags-discouraged-f02a
 isUpdated: true
 ---
 
-
-
-
 <img src="/assets/img/2024-07-13-AreHTMLsSelf-ClosingTagsDiscouraged_0.png" />
 
 # HTML에서 self-closing 커스텀 태그는 표준화되어 있지 않은 이유가 있습니다. 그러나 안전하고 선택한 프레임워크에서 사용하는 것이 장려됩니다.
 
-요즘 웹 개발에 대해 많은 것을 배우고 있어요. 그 중에 흥미로운 사실 하나는 자체 닫히는 태그가 이제는 권장되지 않는다는 것이에요. 
+요즘 웹 개발에 대해 많은 것을 배우고 있어요. 그 중에 흥미로운 사실 하나는 자체 닫히는 태그가 이제는 권장되지 않는다는 것이에요.
 
 이것이 바로 뭐지? 생각해볼 만한 질문이 엄청 많이 생긴거예요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서, 평소처럼 이 주제를 조사해 봤어요. 그래서 우리 모두가 새로운 것을 배울 수 있게 되었어요.
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 예를 들어, 이 태그는 여는 태그와 닫는 태그가 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <div>something</div>
@@ -46,7 +65,18 @@ isUpdated: true
 
 자체로 닫힌 태그들은 내용을 전달할 필요가 없을 때에 사용되는 표준 태그의 간결한 버전입니다. HTML에서는 일부의 자체 닫힌 태그들이 정의되어 있습니다. 이 외의 태그들은 닫아주어야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 커스텀 태그를 고려할 때 일이 흥미로워집니다. Angular, React, Vue.js, Ember 같은 프레임워크를 사용하면 커스텀 컴포넌트를 생성할 수 있습니다.
 
@@ -58,7 +88,18 @@ isUpdated: true
 <my-custom-component>something</my-custom-component>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 복잡한 앱을 개발할 때 가능한 한 간결하게 작성하고 싶습니다. 그래서 내용을 전달할 필요가 없는 경우 자체 닫힘 태그를 사용하는 것이 좋습니다:
 
@@ -70,8 +111,18 @@ isUpdated: true
 
 ![Are HTML's Self-Closing Tags Discouraged](/assets/img/2024-07-13-AreHTMLsSelf-ClosingTagsDiscouraged_1.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 그것은 그리 간단하지 않다고 발생합니다. 실제로 Danny Engelman은 웹 컴포넌트가 자체 닫히는 태그를 지원하지 않을 것이라고 언급했습니다.
 
@@ -81,7 +132,18 @@ isUpdated: true
 
 예를 들어 Henri Sivonen은 오래된 브라우저와 라이브러리가 이것을 구문 분석할 수 없게 될 수 있기 때문에 HTML 표준 웹 컴포넌트의 일부가 되기를 원하지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 흥미로운 점은, 그 댓글이 작성된 시점에 소개되었다면, 이제 7년이 지난 지금, 우리는 자체 닫힌 웹 구성 요소를 즐길 수 있었을 것입니다.
 
@@ -91,8 +153,18 @@ isUpdated: true
 
 그 해와 다음 해에는 거의 주요 변경 사항이 거의 없었습니다. 그러나 매년 변경 사항이 증가하고, 현재에 이르러 매년 알고리즘 문서에서 거의 20건의 업데이트를 보게 됩니다. 이렇게 7년간 총 120건의 주요 업데이트가 있었습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image1](/assets/img/2024-07-13-AreHTMLsSelf-ClosingTagsDiscouraged_2.png)
 
@@ -102,8 +174,18 @@ isUpdated: true
 
 하지만 실제로 논의는 아직 계속되고 있습니다. 주된 관심사는 보안 문제입니다. 그리고 보안에 대해 들으면 나쁜 조짐입니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 HTML은 브라우저뿐만 아니라 다양한 도구, 이메일 클라이언트, 파서 등에서도 사용됩니다.
 
@@ -113,7 +195,18 @@ HTML은 브라우저뿐만 아니라 다양한 도구, 이메일 클라이언트
 
 예를 들어, 유효성 검사기가 업데이트되어 새로운 구문이 유효한 HTML임을 인식할 수 있습니다. 이 HTML은 새로운 구문을 이해하지 못하는 프로세서로 전달될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로세서는 유효성 검사기에서 비롯된 것이기 때문에 유효한 HTML로 간주할 것입니다. 따라서 구식 방법으로 구문 분석을 수행할 것입니다.
 
@@ -123,8 +216,18 @@ HTML은 브라우저뿐만 아니라 다양한 도구, 이메일 클라이언트
 
 이것은 약간 SQL 인젝션과 비슷합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![HTML Self-Closing Tags](/assets/img/2024-07-13-AreHTMLsSelf-ClosingTagsDiscouraged_4.png)
 
@@ -134,13 +237,33 @@ SQL Injection은 해커가 사용자가 제공한 텍스트가 살균되지 않�
 
 그래서 데이터를 제대로 살균하는 것이 매우 중요합니다. 그리고 이것이 자체 닫는 태그에 대한 모든 소란입니다. 세계의 모든 도구 체인이 트로이 목마 시나리오로부터 안전할 확실한 방법은 없습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 표의 형식을 마크다운 형식으로 변경하십시오.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-07-13-AreHTMLsSelf-ClosingTagsDiscouraged_5.png)
 
@@ -150,8 +273,18 @@ It just reminds me that HTML is a standard, and it’s a good thing it exists an
 
 But what about me and all the other developers who would still like to use self-closed tags?
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 바닐라 코딩으로도 문제를 해결하는 것이 가능합니다. 해야 할 일은 HTML 파일을 변환하고 자체 종료 태그를 포함하여 확장하는 작은 빌드 스크립트를 작성하는 것뿐입니다. 5분만 투자하세요.
 
@@ -161,7 +294,18 @@ But what about me and all the other developers who would still like to use self-
 
 ![image](/assets/img/2024-07-13-AreHTMLsSelf-ClosingTagsDiscouraged_6.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Vue는 6년 동안 싱글 파일 컴포넌트에 내용을 전달하지 않는 경우, 자가 닫힘 태그를 권장합니다.
 
@@ -171,7 +315,18 @@ React에서도 컴포넌트에 대해 자가 닫힘 태그를 사용할 수 있�
 
 모든 것은 프레임워크와 React가 HTML이나 JSX를 가져와 브라우저를 위한 HTML을 빌드하는 사실로 귀결됩니다. 이 프로세스에서 개발자는 자가 닫힘 태그를 얻고 브라우저는 보안 위험이나 브라우저 충돌이 없는 표준 HTML을 얻습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서 이것은 상호이익을 가져다줍니다. 아마도 프레임워크와 리액트에서 사용하는 HTML 문법은 표준 HTML과 다르지만, 어느 정도로는 HTML 표준에서 자체 닫힌 태그가 누락된 초기 실수를 수정합니다.
 
@@ -181,7 +336,18 @@ React에서도 컴포넌트에 대해 자가 닫힘 태그를 사용할 수 있�
 
 이는 HTML을 표준화할 때 내용이 없는 사용자 정의 태그를 예측하기 어려웠다는 것을 의미하며, 프레임워크는 자체 닫힌 태그로 이를 수정합니다. 이를 통해 템플릿에서 일정한 공간을 절약하고 명확성을 도입할 수 있게 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 자체 닫기 태그를 사용해보세요
 
@@ -191,7 +357,18 @@ React에서도 컴포넌트에 대해 자가 닫힘 태그를 사용할 수 있�
 
 이것이 주제에 대한 충분한 통찰력을 제공했으면 좋겠습니다. 연구를 하면서 놀랍게도 이 문제의 양쪽 모두가 상대방의 입장을 제대로 이해하지 못한다는 것을 깨달은 것이었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사가 유용하길 바랍니다. 기사의 주요 질문에 대한 답변은 명백히 "아닙니다." 놀라운 점은 없습니다. 일반적으로 제목 질문에 대한 답변은 "아니오"입니다.
 
@@ -201,7 +378,18 @@ React에서도 컴포넌트에 대해 자가 닫힘 태그를 사용할 수 있�
 
 보안 문제에 대해 걱정할 필요가 없습니다. 목록에 없는 선택한 프레임워크(Svelte와 같은)가 지원하지 않으면 오류가 발생하여 보안 문제가 발생하지 않습니다. 그저 작동하지 않을 뿐입니다. 자체 종료 태그가 도구 체인(브라우저, 이메일 클라이언트 등)으로 기적같이 전달된다면, 잘못된 HTML임을 인식하고 표준에 따라 안전하게 처리하여 존재를 무시합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요! 안전 사용을 위해 태그를 닫을 때 안전합니다.
 

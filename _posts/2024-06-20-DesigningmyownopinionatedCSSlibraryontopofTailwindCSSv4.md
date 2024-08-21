@@ -3,16 +3,13 @@ title: " TailwindCSS v4을 기반으로 하는 나만의 주관적인 CSS 라이
 description: ""
 coverImage: "/assets/img/2024-06-20-DesigningmyownopinionatedCSSlibraryontopofTailwindCSSv4_0.png"
 date: 2024-06-20 03:23
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-DesigningmyownopinionatedCSSlibraryontopofTailwindCSSv4_0.png
 tag: Tech
 originalTitle: "🌈 Designing my own opinionated CSS library on top of TailwindCSS v4"
 link: "https://medium.com/the-research-nest/designing-my-own-opinionated-css-library-on-top-of-tailwindcss-v4-8f8e11f4a875"
 isUpdated: true
 ---
-
-
-
 
 ## AltCSS를 소개합니다
 
@@ -24,7 +21,18 @@ isUpdated: true
 - Bootstrap 5
 - Semantic UI
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일부 새로운 및 앞으로 나올 옵션에는 Sugar CSS가 있습니다. 특정 분야를 위해 Animate CSS나 Pattern CSS와 같은 라이브러리가 있지만, 제게는 잘 맞지 않습니다.
 
@@ -36,7 +44,18 @@ isUpdated: true
 
 위 문제를 해결하기 위해 제게 잘 맞는 주관적인 CSS 라이브러리를 만들었습니다. 다른 사람들과 반드시 일치하지는 않을 것입니다. 간단히 말하면, 이 라이브러리는 다수의 사람과 일치하지 않는 실천원칙을 따르거나 사용할 수 없을 것입니다. 그래서, 이 라이브러리를 AltCSS라고 명명하기로 결정했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내가 AltCSS에 대한 목표는 다음과 같습니다:
 
@@ -47,30 +66,52 @@ isUpdated: true
 
 # 단계 1: 가장 흔히 사용되는 CSS
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가장 자주 사용되는 CSS 스타일로 좁혀봤어요. 이 과정에서 자주 다루는 네 가지 유형의 웹사이트를 고려해봤어요 (또는 미래에 다룰 계획이 있는). 각 유형에 대해 내 맥락에서 일반적으로 요구되는 스타일링 요소를 확인했어요.
 
 - 랜딩 페이지
-— 이미지
-— 버튼
-— 가입/이메일 폼
+  — 이미지
+  — 버튼
+  — 가입/이메일 폼
 - 포트폴리오 웹사이트
-— 그리드
-— 카드
+  — 그리드
+  — 카드
 - 블로그 및 문서 사이트
-— 타이포그래피
-— 텍스트 레이아웃
-— 링크
-— 내비게이션
+  — 타이포그래피
+  — 텍스트 레이아웃
+  — 링크
+  — 내비게이션
 - 싱글 페이지 웹 앱
-— 입력란, 라디오, 체크박스 등과 같은 폼 요소들
+  — 입력란, 라디오, 체크박스 등과 같은 폼 요소들
 
 MVP 버전에서는 현재 활동적으로 사용하는 스타일에만 초점을 맞췄어요.
 
 대부분의 CSS 라이브러리는 일정한 디자인 시스템을 따르지만, 저는 특정한 것을 따르지 않았어요. 모든 것을 자연스럽고 간단하게 유지했거든.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서, 모든 것을 처음부터 만들어야 할까요?
 
@@ -80,7 +121,18 @@ MVP 버전에서는 현재 활동적으로 사용하는 스타일에만 초점�
 
 TailwindCSS 알파 버전 4 외에, 저는 패키지 매니저로 Bun을 사용했어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 2: 명명 규칙
 
@@ -91,7 +143,18 @@ TailwindCSS 알파 버전 4 외에, 저는 패키지 매니저로 Bun을 사용�
 
 # 단계 3: CSS 작성하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, 빈 프로젝트 npm init을 생성하고 원하는 파일 구조를 만들었습니다.
 
@@ -104,7 +167,18 @@ TailwindCSS 알파 버전 4 외에, 저는 패키지 매니저로 Bun을 사용�
 
 내 첫 번째 선호도인 다크 모드로 직접 시작했습니다. 새로운 클래스 이름을 만들지 않고 원시 HTML 요소에 스타일을 적용하려고 노력했습니다. 카드 및 그리드와 같은 컴포넌트는 이런 식으로 만드는 것이 어려울 수 있습니다. 네이티브 요소를 특정한 방식으로 중첩하여 이러한 컴포넌트를 만드려고 노력했습니다. 모든 문서가 완료되면 이러한 예제들을 더 많이 공유하겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 MVP를 위해 제가 헤딩, 링크, 카드 및 그리드 레이아웃을 위한 기본 CSS를 구현했어요. 모든 것들이 표준 화면 크기에 대응할 수 있도록 했어요.
 
@@ -164,7 +238,18 @@ a:hover::after {
 
 # 단계 4: CSS 최소화
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코드가 준비되었으면, 그것을 단일 파일로 미니파이하면 됩니다 ( alt.min.css ). 이를 위해 Tailwind Cli의 알파 버전을 사용했어요.
 
@@ -188,7 +273,18 @@ a:hover::after {
 
 app.css 파일은 src 폴더에서 가져온 모든 CSS 파일을 포함하고 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 bun run build이 위 스크립트에 따라 압축 파일을 만드는 마법을 부릅니다.
 
@@ -199,7 +295,18 @@ bun run build이 위 스크립트에 따라 압축 파일을 만드는 마법을
 
 압축 파일이 준비되면, 모든 것을 테스트하기 위해 몇 가지 예제 페이지를 만들었습니다. 그 후에 다른 사람들이 쉽게 설치하고 프로젝트에 포함할 수 있도록 npm 패키지로 게시하는 시간이었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 6: NPM 게시
 
@@ -209,26 +316,29 @@ bun run build이 위 스크립트에 따라 압축 파일을 만드는 마법을
 
 ```json
 {
-    "name": "altcss",
-    "version": "0.0.6",
-    "description": "의견이 분분하고 독특하며 가벼운 CSS 컴포넌트 라이브러리.",
-    "main": "alt.min.css",
-    "files": [
-        "alt.min.css",
-        "README.md"
-    ],
-    "keywords": [
-        "css",
-        "library",
-        "altcss",
-        "tailwindcss"
-    ],
-    "author": "aditya-xq",
-    "license": "MIT"
+  "name": "altcss",
+  "version": "0.0.6",
+  "description": "의견이 분분하고 독특하며 가벼운 CSS 컴포넌트 라이브러리.",
+  "main": "alt.min.css",
+  "files": ["alt.min.css", "README.md"],
+  "keywords": ["css", "library", "altcss", "tailwindcss"],
+  "author": "aditya-xq",
+  "license": "MIT"
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 cd dist
@@ -242,7 +352,18 @@ npm publish
 
 MVP가 모두 설정되어 사용하고 실험할 준비가 되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트에 altcss를 추가하는 방법이에요. 아래 명령어 중 하나를 사용해서 altcss를 직접 프로젝트에 추가할 수 있어요.
 
@@ -255,10 +376,21 @@ bun add altcss
 그런 다음, 필요한 파일을 메인 스크립트나 전역 스타일로 가져와야 해요. 예를 들어, Sveltekit에서는 +layout.svelte 파일의 script 태그 아래에 가져와야 해요.
 
 ```js
-import 'altcss/alt.min.css';
+import "altcss/alt.min.css";
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 원시 HTML을 작성하고 자동으로 적용되는 스타일링을 즐기세요.
 
@@ -268,7 +400,18 @@ import 'altcss/alt.min.css';
 
 마지막으로 AltCSS를 사용하여 만든 또 다른 페이지가 여기에 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 끝 내용
 
@@ -281,6 +424,17 @@ import 'altcss/alt.min.css';
 - 적절한 라이트 모드와 다크 모드를 구현합니다.
 - 사람들이 AltCSS를 사용자의 디자인 선호에 맞게 사용자 인터페이스를 통해 모양을 조정하고 프로젝트용으로 최소화된 CSS를 내보낼 수 있는 "CSS 디자인 빌더"를 만듭니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음에 또 만나요.

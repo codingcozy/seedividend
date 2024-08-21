@@ -3,17 +3,13 @@ title: "React 프레임워크에 너무 의존하면 안되는 이유"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Why React Framework Is Not Going To Make You a Better Web Developer"
 link: "https://medium.com/@ori.holis/why-react-framework-is-not-going-to-make-you-a-better-web-developer-754529d32911"
 isUpdated: true
 ---
-
-
-
-
 
 ![React framework에 대한 부정적인 영향](/assets/img/WhyReactFrameworkIsNotGoingToMakeYouaBetterWebDeveloper_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 React의 학습 곡선은 내가 본 가장 빠른 것 중 하나입니다. 쉬운 개념, 사용할 준비가 된 여러 라이브러리, 거대한 커뮤니티 및 간단한 구문이 함께 제공됩니다. 거의 최고의 선택지인 것 같습니다. 그러나 특정 비용이 발생하며 그것은 속도입니다. 네, 들었던 대로입니다. React가 모든 것을 대신 처리해주지만 번들러는 만능이 아닙니다. 번들러는 당신의 의도를 명확하게 파악할 수 없기 때문에 리액트성을 제공하기 위해 많은 쓸모 없는 코드를 추가합니다. 그렇기 때문에 모든 라이브러리를 가져온 후에 코드 번들을 한 후에 번들 크기가 순수 Javascript 프레임워크의 경우보다 훨씬 커지는 경우가 많습니다. 극단적인 경우에는 몇 배나 커져서 더 느린 장치에서 로딩 시간이 길어질 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![WhyReactFrameworkIsNotGoingToMakeYouaBetterWebDeveloper_1.png](/assets/img/WhyReactFrameworkIsNotGoingToMakeYouaBetterWebDeveloper_1.png)
 
@@ -33,7 +40,18 @@ React의 학습 곡선은 내가 본 가장 빠른 것 중 하나입니다. 쉬�
 
 예를 들어 주문 시스템이 있을 때 많은 데이터가 있다면 사용자로서 데이터에 빠르게 액세스하고 싶을 것입니다. 그러나 Material UI DataGrid에 수백 개 이상의 행을 표시하려고 하면 작업이 느려지거나 제대로 렌더링되지 않을 수 있습니다. 그에 비해 다른 프레임워크(일반 자바스크립트, Vue 또는 Svelte)는 훨씬 더 원활합니다. 렌더링 속도가 빠르고 대량 데이터 세트를 빠르게 처리합니다. 이러한 이점들은 일반 자바스크립트 프레임워크나 Vue에서 서로 다른 비용이 들어가야 합니다(여기서 잘못 이해하진 말아주세요).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![WhyReactFrameworkIsNotGoingToMakeYouaBetterWebDeveloper_2.png](/assets/img/WhyReactFrameworkIsNotGoingToMakeYouaBetterWebDeveloper_2.png)
 

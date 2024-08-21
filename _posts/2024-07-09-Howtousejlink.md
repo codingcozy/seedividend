@@ -3,16 +3,13 @@ title: "jlink 사용하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-Howtousejlink_0.png"
 date: 2024-07-09 21:48
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-Howtousejlink_0.png
 tag: Tech
 originalTitle: "How to use jlink"
 link: "https://medium.com/@cat.edelveis/how-to-use-jlink-0b8f8b340c59"
 isUpdated: true
 ---
-
-
-
 
 ![How to use jlink](/assets/img/2024-07-09-Howtousejlink_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 jlink는 개발자들이 주어진 응용 프로그램을 실행하기 위해 필요한 플랫폼 모듈만을 포함한 사용자 정의 Java 런타임 이미지를 만들 수 있게 해주는 Java 링커입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자바 9부터 자바 애플리케이션 및 JDK 자체가 밀접한 관련 패키지(모듈) 그룹으로 구성됩니다. jlink를 사용하여 자르면 일반 JRE처럼 작동하지만 응용 프로그램 실행에 필요한 모듈만 포함된 사용자 정의 JRE 이미지가 생성됩니다.
 
@@ -34,7 +42,18 @@ jlink는 개발자들이 주어진 응용 프로그램을 실행하기 위해 �
 - Docker
 - 좋아하는 IDE
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Spring Petclinic을 예시로 사용해보겠습니다만, 여러분이 직접 사용하는 애플리케이션을 사용해도 좋아요. Spring Boot 3.3은 CDS 지원을 비롯한 다양한 개선 사항을 제공하는 것이 좋아요.
 
@@ -47,7 +66,18 @@ java -Djarmode=tools -jar target/spring-petclinic-3.3.0-SNAPSHOT.jar extract
 
 이렇게 하면 lib 하위 디렉토리를 포함하여 애플리케이션 라이브러리 및 애플리케이션 클래스가 포함된 spring-petclinic-3.3.0-SNAPSHOT 디렉토리가 생성되며, lib에 있는 라이브러리를 참조하는 매니페스트가 있는 애플리케이션 jar도 생성됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 애플리케이션이 사용하는 모듈을 나열하려면 jdeps를 사용하세요
 
@@ -60,7 +90,18 @@ jlink 도구를 사용하여 사용자 정의 런타임을 만들기 전에, 해
 - --ignore-missing-deps는 누락된 종속성을 무시합니다.
 - --list-deps는 모듈 종속성을 나열합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 많은 추가 옵션이 있습니다. 공식 문서에서 자세히 읽을 수 있어요.
 
@@ -93,7 +134,18 @@ jdeps --multi-release 21 --class-path 'spring-petclinic-3.3.0-SNAPSHOT/lib/*' --
 
 # jlink를 사용하여 사용자 정의 JRE 생성하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주어진 필수 모듈 목록으로 jlink를 사용할 준비가 끝났습니다! 다음 옵션을 포함하는 명령어를 사용할 것입니다:
 
@@ -108,7 +160,18 @@ jdeps --multi-release 21 --class-path 'spring-petclinic-3.3.0-SNAPSHOT/lib/*' --
 
 커스텀 Java 런타임 이미지를 생성하기 위한 jlink 명령어를 조합해봅시다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 jlink --compress=2 --strip-debug --no-header-files --no-man-pages --add-modules java.base,java.compiler,java.desktop,java.instrument,java.logging,java.management,java.naming,java.net.http,java.prefs,java.rmi,java.scripting,java.security.jgss,java.security.sasl,java.sql,java.sql.rowset,java.transaction.xa,java.xml,jdk.jfr,jdk.management,jdk.net,jdk.unsupported --output target/jlink-runtime
@@ -120,8 +183,18 @@ jlink --compress=2 --strip-debug --no-header-files --no-man-pages --add-modules 
 
 프로젝트 루트에 다음 Dockerfile을 배치하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 FROM bellsoft/liberica-runtime-container:jdk-all-21-musl as builder
 RUN jlink --compress=2 --strip-debug --no-header-files --no-man-pages --add-modules java.base,java.compiler,java.desktop,java.instrument,java.logging,java.management,java.naming,java.net.http,java.prefs,java.rmi,java.scripting,java.security.jgss,java.security.sasl,java.sql,java.sql.rowset,java.transaction.xa,java.xml,jdk.jfr,jdk.management,jdk.net,jdk.unsupported --output /jlink-runtime
@@ -133,15 +206,24 @@ COPY spring-petclinic-3.3.0-SNAPSHOT/ /spring-petclinic-3.3.0-SNAPSHOT/
 EXPOSE 8080
 ENTRYPOINT ["/jlink-runtime/bin/java", "-jar", "/spring-petclinic-3.3.0-SNAPSHOT/spring-petclinic-3.3.0-SNAPSHOT.jar"]
 
-
 여기서는 Docker 다중 단계 빌드를 사용하여 최종 이미지를 깔끔하게 유지합니다.
 
 우리는 커스텀 JRE를 생성하고 추출한 앱과 커스텀 JRE를 약 5MB 크기의 작은 Linux 배포인 Alpaquita Linux에 기반한 신선한 이미지로 복사합니다.
 
 이제 Docker 이미지를 빌드하세요:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 도커 빌드 -t petclinic-jre-jlink .
@@ -157,7 +239,18 @@ petclinic-jre-jlink                                 latest                      
 
 최종 컨테이너 이미지는 단 140MB밖에 차지하지 않아요! 모든 것이 제대로 작동하는지 확인하기 위해 애플리케이션을 실행해 보세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 docker run -p 8080:8080 petclinic-jre-jlink
@@ -169,7 +262,18 @@ docker run -p 8080:8080 petclinic-jre-jlink
 
 140 MB는 평균 크기의 데모 애플리케이션에 대한 양호한 결과로 보입니다. 그러나 실제로 얼마나 좋을까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 일반적인 JRE 기반 컨테이너 이미지를 만들기 위한 Dockerfile입니다:
 
@@ -188,7 +292,18 @@ REPOSITORY                                          TAG                         
 petclinic-jre-std                                   latest                                                325ba5c52e28   7 seconds ago       200MB
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 60 MB는 그렇게 큰 차이가 아니라고 말할 수 있습니다. 그러나 이는 클라우드 배포용으로 최적화된 Liberica JRE Lite를 기반으로 한 Liberica Runtime Container와 Alpine-inspired 경량 배포인 Alpaquita Linux을 사용했기 때문입니다.
 
@@ -202,7 +317,18 @@ COPY spring-petclinic-3.3.0-SNAPSHOT/ /spring-petclinic-3.3.0-SNAPSHOT/
 CMD ["java", "-jar", "/spring-petclinic-3.3.0-SNAPSHOT/spring-petclinic-3.3.0-SNAPSHOT.jar"]
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컨테이너 이미지를 빌드하고 크기를 확인해보세요:
 
@@ -217,7 +343,18 @@ petclinic-jre-temurin         latest     ac9fec0d6f8b   6 seconds ago   331MB
 
 따라서, jlink를 사용하지 않은 Liberica Runtime Container로 빌드하면 Eclipse Temurin으로 이미지를 빌드한 것보다 40% 작아집니다. 그리고 jlink를 사용하면 이미지 크기가 57% 작아집니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 가지 요점을 정리하자면, 기본 이미지를 변경하는 것만으로도 리소스 소비를 최적화할 수 있는 경우가 종종 있습니다. 그 결과를 더 향상시키고 메모리 사용량을 더 줄이기 위해 jlink 도구를 사용할 수 있습니다.
 

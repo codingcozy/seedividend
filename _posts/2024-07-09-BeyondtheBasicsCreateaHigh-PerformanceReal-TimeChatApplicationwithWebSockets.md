@@ -3,15 +3,13 @@ title: "기본기를 넘어 WebSockets로 고성능 실시간 채팅 애플리�
 description: ""
 coverImage: "/assets/img/2024-07-09-BeyondtheBasicsCreateaHigh-PerformanceReal-TimeChatApplicationwithWebSockets_0.png"
 date: 2024-07-09 09:00
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-BeyondtheBasicsCreateaHigh-PerformanceReal-TimeChatApplicationwithWebSockets_0.png
 tag: Tech
 originalTitle: "Beyond the Basics: Create a High-Performance Real-Time Chat Application with WebSockets!"
 link: "https://medium.com/@learntocodetoday/beyond-the-basics-create-a-high-performance-real-time-chat-application-with-websockets-8c0cc49036c5"
 isUpdated: true
 ---
-
-
 
 ![image](/assets/img/2024-07-09-BeyondtheBasicsCreateaHigh-PerformanceReal-TimeChatApplicationwithWebSockets_0.png)
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 # 필수 라이브러리 설치
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저 Python과 Node.js가 설치되어 있는지 확인해주세요. 그런 다음 pip를 사용하여 필요한 Python 라이브러리를 설치해주세요.
 
@@ -33,7 +42,18 @@ pip install websockets asyncio
 
 # 단계 2: WebSocket 서버 생성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파이썬의 asyncio와 웹소켓 라이브러리를 사용하여 서버를 생성할 거에요.
 

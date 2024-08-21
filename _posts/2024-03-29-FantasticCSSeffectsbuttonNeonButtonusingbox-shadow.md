@@ -3,17 +3,13 @@ title: "HTML CSS로 box-shadow를 이용한 네온 버튼 만드는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Fantastic CSS effects  button  Neon Button using box-shadow"
 link: "https://medium.com/@seasparta618/fantastic-css-effects-button-neon-button-using-box-shadow-6642ddee0c15"
 isUpdated: true
 ---
-
-
-
-
 
 이야기에서는 버튼에 환상적인 네온 효과를 만들어볼 거에요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 먼저 버튼을 준비해주세요. div나 button 요소 중 하나를 사용할 수 있어요. 버튼 요소를 선택한다면 기본 스타일을 재정의해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 | 속성             | 값           |
 | ---------------- | ------------ |
@@ -40,7 +47,18 @@ isUpdated: true
 | letter-spacing   | 4px          |
 | border           | none         |
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희는 기본 투명 버튼을 정의했어요. 네온 효과는 사이버펑크 스타일을 떠올리게 할 거에요. 그래서 Consolas와 같이 현대적으로 보이는 폰트 패밀리가 선택되었어요.
 
@@ -50,7 +68,18 @@ HTML 및 CSS를 표준 HTML 파일에 복사하면 이미지와 유사한 버튼
 
 이제 버튼에 호버 상태를 추가하여 box-shadow를 사용해 네온 효과를 만들어보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .neonShimmerButton:hover {
@@ -70,7 +99,18 @@ HTML 및 CSS를 표준 HTML 파일에 복사하면 이미지와 유사한 버튼
 
 여기에서 box-shadow 속성을 사용하여 버튼 주위에 광효과를 만듭니다. 이는 버튼을 뒤에서 조명을 받고 있는 것처럼 돋보이도록 만드는 빛의 후광 같은 효과입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 사이버펑크 분위기
 
@@ -109,7 +149,18 @@ HTML 및 CSS를 표준 HTML 파일에 복사하면 이미지와 유사한 버튼
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 추가로 버튼이 현재 네온 빛으로 깜박거리며 사이버펑크 영감을 받은 네온 깜박이 버튼을 완성했습니다.
 
@@ -119,7 +170,18 @@ HTML 및 CSS를 표준 HTML 파일에 복사하면 이미지와 유사한 버튼
 
 이 버튼 위에 디지털 눈부심을 한층 증폭시켰네요! box-shadow와 조금의 애니메이션 효과로 우리는 사이버펑크 우주 속에서 빛나는 네온 버튼을 만들었습니다. 여러분의 인터페이스에 이 기술적인 터치로 화사함을 불어넣을 준비가 되셨나요? 함께 코드로 만들어내어 그 네온 빛을 감상해봅시다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 다음 효과
 

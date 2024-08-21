@@ -3,15 +3,13 @@ title: "3일차, 4일차  진도가 부족한 이유"
 description: ""
 coverImage: "/assets/img/2024-07-09-Day3Day4NotEnoughProgress_0.png"
 date: 2024-07-09 15:04
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-Day3Day4NotEnoughProgress_0.png
 tag: Tech
 originalTitle: "Day 3 , Day 4 — Not Enough Progress!"
 link: "https://medium.com/datascience-ville/day-3-day-4-not-enough-progress-bc496f2632b7"
 isUpdated: true
 ---
-
-
 
 ## 30일 코딩 챌린지
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 제게 궁금증을 자아냅니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어쨌든, 그걸 생각하느라 시간을 낭비하지 말아요. 여기 오늘(4일차)의 내 보고서가 있어요:
 
@@ -31,7 +40,18 @@ Tkinter를 통해 내 온도 변환기의 두 번째 버전을 위한 창을 만
 
 하지만, 아마도 내 코드에 집중하지 못하고 거의 전혀 진전이 없었어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이유는요? 다른 급한 일이 더 많아서 그래요.
 

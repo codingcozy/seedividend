@@ -3,17 +3,13 @@ title: "React Class Component vs Function Component 비교"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "React Components Class vs Functional"
 link: "https://medium.com/@mohimishra016/react-components-class-vs-functional-c3a080125d22"
 isUpdated: true
 ---
-
-
-
-
 
 ![React Components: Class vs. Functional](/assets/img/React-Components:-Class-vs.-Functional_0.png)
 
@@ -23,7 +19,18 @@ React 개발을 시작하는 경우, class와 functional 컴포넌트 중 어떤
 
 class 컴포넌트를 React의 노련한 노인 마법사로 상상해보세요. 이들은 초기부터 존재해 왔고 우아하고 정교하게 힘을 발휘하고 있습니다. class 컴포넌트는 ES6 클래스를 사용하여 정의되며 React.Component 클래스를 확장합니다. 라이프사이클 메서드에 넉넉한 접근 권한을 가지고 있어 상태를 관리하고 DOM에 주문을 걸거나 다른 컴포넌트와 소통하는 등의 작업을 할 수 있습니다. 예시를 살펴보겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import React, { Component } from "react";
@@ -78,7 +85,18 @@ const SorcererComponent = () => {
 export default SorcererComponent;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 강자 대결: 힘의 대결
 
@@ -90,7 +108,18 @@ export default SorcererComponent;
 
 # 챔피언을 선택하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 클래스 컴포넌트를 선택해야 하는 때와 함수형 컴포넌트를 채택해야 하는 때는 무엇일까요?
 
@@ -101,6 +130,17 @@ export default SorcererComponent;
 
 React 컴포넌트의 영역에서, 클래스와 함수형 컴포넌트 둘 다 중요한 자리를 차지합니다. 클래스 컴포넌트의 지식을 활용하거나 Hooks를 활용한 현대적인 함수형 컴포넌트의 힘을 이용하더라도 그들의 차이를 이해하면 React 애플리케이션을 활기차게 만들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 행복한 코딩하세요! 🚀

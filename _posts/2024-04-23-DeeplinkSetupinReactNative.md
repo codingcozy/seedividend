@@ -3,17 +3,13 @@ title: "리액트 네이티브에서 딥링크 설정하기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Deeplink Setup in React Native"
 link: "https://medium.com/stackademic/deeplink-setup-in-react-native-40b32646b7f2"
 isUpdated: true
 ---
-
-
-
-
 
 이 블로그에서는 React Native 앱에서 안드로이드 및 iOS 플랫폼 모두에 대한 딥 링킹 설정하는 방법에 대해 논의할 예정입니다. 이것은 모바일 앱에서 제품 개발 관점에서 종종 요구되는 사항입니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 웹페이지에서 모바일 앱의 특정 화면을 열고 싶다는 특정 요구 사항이 있을 때, 딥 링킹을 통해 구성해야 합니다. 이렇게 하면 사용자에게 더 나은 사용자 인터페이스를 제공할 뿐만 아니라 사용자 참여도도 증가할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Deep linking은 모바일 애플리케이션 내에서 특정 화면으로 사용자를 리디렉션하는 간단한 URI입니다. 모바일 애플리케이션의 기본적인 딥 링크 형태는 사용자 지정 URI scheme과 유사합니다. 사용자 지정 URI scheme은 앱 내에서 정의되며 아래 예시처럼 내장 URI scheme도 제공됩니다.
 
@@ -41,7 +48,18 @@ Deep linking은 모바일 애플리케이션 내에서 특정 화면으로 사�
 
 # 딥링크 설정:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단계 1:
 Android 플랫폼:
@@ -54,7 +72,18 @@ iOS에서 사용자 정의 URI 스킴을 설정하려면 Xcode를 열고 아래 
 
 ![이미지](/assets/img/DeeplinkSetupinReactNative_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단계 2:
 Xcode에서 AppDelegate 파일을 열고 아래 스크린샷에 나와 있는 것처럼 iOS 기기에서 딥 링킹을 처리하기 위해 필요한 다음 코드가 있는지 확인해주세요.
@@ -66,7 +95,18 @@ Xcode에서 AppDelegate 파일을 열고 아래 스크린샷에 나와 있는 �
 
 React Native는 Linking을 통해 수신 링크를 통지할 수 있습니다. 이제 Linking API를 사용하고 앱에서 링크와 함께 제공된 매개변수나 데이터에 따라 내비게이션을 처리할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4단계:
 위의 예시에서 우리가 다루어야 하는 깊은 링크 처리에 대한 두 가지 시나리오가 있습니다. 함께 살펴보겠습니다.
@@ -87,7 +127,18 @@ useEffect(() => {
 
 2. 앱이 열린 상태일 때는 Linking addEventListener() 이벤트 리스너를 사용하여 처리해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 useEffect(() => {
@@ -113,7 +164,18 @@ npx uri-scheme open "demoapp://domain/sub_domain" --android
 
 아래는 앱의 닫힘 및 열린 상태에 대한 딥 링크 처리 최종 코드이며 결과는 다음과 같습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import React, { useEffect, useState } from "react";
@@ -185,7 +247,18 @@ export default App;
 
 먼저, 링크가 리디렉션되는 도메인을 소유해야 하므로 더 안전합니다. 또한 사용자가 앱을 설치하지 않은 경우 프로세스를 처리합니다. 그냥 웹 사이트를 브라우저에서 엽니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요약
 
@@ -195,7 +268,18 @@ export default App;
 
 즐거운 학습 되세요! 👨🏼‍💻👨🏼‍💻
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Stackademic
 

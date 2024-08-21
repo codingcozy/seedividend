@@ -3,17 +3,13 @@ title: "React에서 시그널 통신 하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Unlocking Communication in React A Journey into the Power of Signals"
 link: "https://medium.com/comsystoreply/unlocking-communication-in-react-a-journey-into-the-power-of-signals-f013d3a1ad7d"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/UnlockingCommunicationinReactAJourneyintothePowerofSignals_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 신호(Signals) 이해하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 시그널이란 무엇인가요?
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 일반적으로, 시그널은 발행-구독 모델에서 작동합니다. 컴포넌트(발행자)는 특정 이벤트가 발생할 때 시그널을 방출하며, 다른 컴포넌트(구독자)는 서로에 대한 직접적인 지식이 없어도 그 시그널을 듣고 반응할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 시그널을 사용하는 상황
 
@@ -45,7 +63,18 @@ isUpdated: true
 
 시그널은 React 애플리케이션에서 컴포넌트간 통신에 강력한 메커니즘을 제공합니다. 전통적인 상태 관리에만 의존하는 대신 React에서의 시그널은 더 이벤트 중심적인 접근 방식을 소개합니다. 컴포넌트는 시그널을 발신할 수 있고, 다른 컴포넌트는 이러한 시그널을 청취하여 느슨하게 결합되고 반응적인 아키텍처를 가능케 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # React에서 신호의 주요 이점
 
@@ -57,7 +86,18 @@ isUpdated: true
 
 학습하는 가장 효과적인 방법은 실제 예제를 통해 하는 것입니다. 여기서는 할 일 관리를 위한 간단한 신호 구현을 제시합니다. 할 일은 로컬 저장소에 저장되며, 신호의 초기 값은 로컬 저장소에서 데이터를 검색하여 설정됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const LOCAL_STORAGE_KEY = "todos";
@@ -84,12 +124,21 @@ effect(() => {
 
 게다가, 함수 내에서 발생하는 시그널의 변경에 따라 변수를 동적으로 다시 유효성을 검사하는 계산 함수가 있습니다. todos 시그널의 경우도 해당됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-export const completedTodoCount = computed(
-  () => todosSignal.value.filter((todo) => todo.isDone).length
-);
+export const completedTodoCount = computed(() => todosSignal.value.filter((todo) => todo.isDone).length);
 ```
 
 이 함수는 새로운 할 일을 목록에 추가할 때 활성화됩니다. 값이 직접 수정되면 시그널이 나머지를 처리합니다.
@@ -108,7 +157,18 @@ const onAddTodo = () => {
 
 예제는 GitHub 저장소에서 찾을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론: 리액트에서 신호의 힘
 
@@ -118,6 +178,17 @@ const onAddTodo = () => {
 
 프로젝트에서 신호의 잠재력을 탐색하는 과정에서 애플리케이션의 구체적인 요구사항과 제약 사항을 고려해보세요. 다양한 신호 패턴을 실험하고 신호의 힘을 활용하여 더 동적이고 반응적인 사용자 인터페이스를 만들어보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 블로그 포스트는 Comsysto Reply GmbH에서 게시되었습니다.

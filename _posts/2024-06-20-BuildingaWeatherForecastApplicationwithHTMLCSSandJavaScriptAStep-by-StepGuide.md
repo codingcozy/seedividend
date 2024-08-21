@@ -3,16 +3,13 @@ title: "HTML, CSS, 그리고 JavaScript로 날씨 예보 애플리케이션 만�
 description: ""
 coverImage: "/assets/img/2024-06-20-BuildingaWeatherForecastApplicationwithHTMLCSSandJavaScriptAStep-by-StepGuide_0.png"
 date: 2024-06-20 01:06
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-BuildingaWeatherForecastApplicationwithHTMLCSSandJavaScriptAStep-by-StepGuide_0.png
 tag: Tech
 originalTitle: "Building a Weather Forecast Application with HTML, CSS, and JavaScript: A Step-by-Step Guide"
 link: "https://medium.com/coinmonks/building-a-weather-forecast-application-with-html-css-and-javascript-a-step-by-step-guide-998583ec501b"
 isUpdated: true
 ---
-
-
-
 
 ![이미지](/assets/img/2024-06-20-BuildingaWeatherForecastApplicationwithHTMLCSSandJavaScriptAStep-by-StepGuide_0.png)
 
@@ -35,7 +32,18 @@ isUpdated: true
 
 이 안내서는 HTML, CSS 및 JavaScript를 사용하여 상호작용하는 날씨 예보 어플리케이션을 만드는 과정을 안내합니다. 사용자는 전 세계 어느 곳이든 현재 날씨 상황 및 예보에 접근할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 프로젝트 개요
 
@@ -45,7 +53,18 @@ isUpdated: true
 
 이 날씨 예보 애플리케이션을 만들기 위해서는 HTML, CSS 및 JavaScript에 대한 기본적인 이해가 필요합니다. 애플리케이션을 구성하기 위해 HTML에 익숙해야하며, 스타일링을 위해 CSS를 사용하고 애플리케이션의 로직을 구현하기 위해 JavaScript를 사용할 수 있어야합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코드를 작성하는 데는 텍스트 편집기 또는 IDE(예: Visual Studio Code)가 필요하며, 테스트를 위해 웹 브라우저가 필요합니다. 선택 사항으로는 애플리케이션을 호스팅하기 위한 GitHub 계정이 필요합니다.
 
@@ -58,7 +77,18 @@ isUpdated: true
 - 날씨 아이콘: 날씨 조건을 시각적으로 이해하기 쉽게 나타내기 위해 날씨 아이콘(예: 태양, 구름, 비)을 사용합니다.
 - 반응형 디자인: 애플리케이션이 다양한 기기 및 화면 크기에서 잘 작동하고 반응형임을 보장합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 코드 구조
 
@@ -68,7 +98,18 @@ isUpdated: true
 
 index.html 파일을 열고, 날씨 예보 애플리케이션을 위한 다음 HTML 코드를 붙여넣으세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 HTML 코드는 검색 바와 날씨 정보 표시를 갖춘 날씨 애플리케이션 인터페이스를 설정합니다. 입력, 버튼, 도시 이름, 온도, 날씨 아이콘, 설명, 습도 및 풍속을 위한 요소가 포함되어 있습니다.
 
@@ -76,133 +117,144 @@ index.html 파일을 열고, 날씨 예보 애플리케이션을 위한 다음 H
 
 ## 단계 2. CSS 스타일링:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 style.css 파일을 열어 날씨 예보 애플리케이션을 스타일링하는 다음 CSS 코드를 붙여넣어주세요:
 
 ```css
 body {
- display: flex;
- justify-content: center;
- align-items: center;
- height: 100vh;
- background: darkgrey;
- margin: 0;
- font-size: 120%;
- background-image: url("https://source.unsplash.com/1600x900/?nature,landscape");
- font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-} 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: darkgrey;
+  margin: 0;
+  font-size: 120%;
+  background-image: url("https://source.unsplash.com/1600x900/?nature,landscape");
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
 
 .card {
- background-color: black;
- padding: 2em;
- color: white;
- border-radius: 30px;
- width: 100%;
- max-width: 420px;
- margin: 1em;
- box-shadow: 1px 3px 5px rgba(141, 138, 138, 0.1);
+  background-color: black;
+  padding: 2em;
+  color: white;
+  border-radius: 30px;
+  width: 100%;
+  max-width: 420px;
+  margin: 1em;
+  box-shadow: 1px 3px 5px rgba(141, 138, 138, 0.1);
 }
 
 .search {
- display: flex;
- align-items: center;
- justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 input.search-bar {
- border: none;
- outline: none;
- padding: 0.4em 1em;
- border-radius: 30px;
- background-color: #534b4b;
- color: white;
- font-size: 120%;
- width: calc(100% - 100px);
- font-family: 'Roboto';
- letter-spacing: 2px;
-}
-
-button {
- margin: 0.5em;
- border-radius: 50%;
- border: none;
- height: 3em;
- width: 3em;
- outline: none;
- background-color: #534b4b;
- color: white;
- cursor: pointer;
- transition: 0.3s ease-in-out;
-}
-
-button:hover {
- background-color: #9b7979;
-}
-
-.weather {
- font-weight: bold;
-}
-
-.weather.loading {
- visibility: hidden;
- max-height: 20px;
- position: relative;
-}
-
-.weather.loading::after {
- position: absolute;
- top: 0;
- color: white;
- visibility: visible;
- content: "Page Loading...";
- font-weight: bold;
- left: 30px;
-}
-
-h1.city {
- letter-spacing: 2px;
- text-transform: uppercase;
- font-size: 1.3em;
-}
-
-h1.temp {
- margin: 0;
- margin-bottom: 0.5em;
- font-size: 1.3em;
-}
-
-.flex {
- display: flex;
- align-items: center;
- margin-left: -10px;
- margin-bottom: 0.5em;
-}
-
-.flex .description {
- text-transform: capitalize;
- margin-left: 8px;
-}
-
-.humidity {
- font-size: 1.2em;
- margin-bottom: 0.5em;
-}
-
-@media screen and (max-width: 420px) {
- .card {
-   border-radius: 35px;
-   max-width: 320px;
-  }
-
- input.search-bar {
-  padding: 0.3em 0.8em;
+  border: none;
+  outline: none;
+  padding: 0.4em 1em;
   border-radius: 30px;
   background-color: #534b4b;
   color: white;
+  font-size: 120%;
   width: calc(100% - 100px);
-  letter-spacing: 1px;
- }
+  font-family: "Roboto";
+  letter-spacing: 2px;
+}
+
+button {
+  margin: 0.5em;
+  border-radius: 50%;
+  border: none;
+  height: 3em;
+  width: 3em;
+  outline: none;
+  background-color: #534b4b;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #9b7979;
+}
+
+.weather {
+  font-weight: bold;
+}
+
+.weather.loading {
+  visibility: hidden;
+  max-height: 20px;
+  position: relative;
+}
+
+.weather.loading::after {
+  position: absolute;
+  top: 0;
+  color: white;
+  visibility: visible;
+  content: "Page Loading...";
+  font-weight: bold;
+  left: 30px;
+}
+
+h1.city {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 1.3em;
+}
+
+h1.temp {
+  margin: 0;
+  margin-bottom: 0.5em;
+  font-size: 1.3em;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  margin-left: -10px;
+  margin-bottom: 0.5em;
+}
+
+.flex .description {
+  text-transform: capitalize;
+  margin-left: 8px;
+}
+
+.humidity {
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+}
+
+@media screen and (max-width: 420px) {
+  .card {
+    border-radius: 35px;
+    max-width: 320px;
+  }
+
+  input.search-bar {
+    padding: 0.3em 0.8em;
+    border-radius: 30px;
+    background-color: #534b4b;
+    color: white;
+    width: calc(100% - 100px);
+    letter-spacing: 1px;
+  }
 }
 ```
 
@@ -210,7 +262,18 @@ h1.temp {
 
 ## 단계 3. 자바스크립트 로직:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 thescript.js 파일을 열고 다음 JavaScript 코드를 사용하여 Weather forecast 어플리케이션에 기능을 추가하세요:
 
@@ -234,52 +297,54 @@ let searchEl = document.querySelector(".search button");
 let weatherEl = document.querySelector(".weather");
 
 let weather = {
- "apikey": "a6f6fef1470f473cb0694459230605",
+  apikey: "a6f6fef1470f473cb0694459230605",
 
- fetchWeather: function (city) {
-  fetch("http://api.weatherapi.com/v1/current.json?key=a6f6fef1470f473cb0694459230605%20&q=" + city + "&aqi=no").then((response) => response.json()).then((data) => this.displayWeather(data));
- },
+  fetchWeather: function (city) {
+    fetch("http://api.weatherapi.com/v1/current.json?key=a6f6fef1470f473cb0694459230605%20&q=" + city + "&aqi=no")
+      .then((response) => response.json())
+      .then((data) => this.displayWeather(data));
+  },
 
- displayWeather: function (data) {
-  const { name } = data.location;
+  displayWeather: function (data) {
+    const { name } = data.location;
 
-  const { icon, text } = data.current.condition;
+    const { icon, text } = data.current.condition;
 
-  const { temp_c, humidity } = data.current;
+    const { temp_c, humidity } = data.current;
 
-  const { wind_kph } = data.current;
+    const { wind_kph } = data.current;
 
-  cityEl.innerText = `Weather in ${name}`;
+    cityEl.innerText = `Weather in ${name}`;
 
-  iconEl.src = icon;
+    iconEl.src = icon;
 
-  descriptionEl.innerText = text;
+    descriptionEl.innerText = text;
 
-  temperatureEl.innerText = `Temperature: ${temp_c}°C`;
+    temperatureEl.innerText = `Temperature: ${temp_c}°C`;
 
-  humidityEl.innerText = `Humidity: ${humidity}%`;
+    humidityEl.innerText = `Humidity: ${humidity}%`;
 
-  windEl.innerText = `Wind Speed: ${wind_kph} km/hr`;
+    windEl.innerText = `Wind Speed: ${wind_kph} km/hr`;
 
-  weatherEl.classList.remove("loading");
+    weatherEl.classList.remove("loading");
 
-  document.body.style.backgroundImage = "url('https://source.unsplash.com/1600x900/?" + name + "')";
- },
+    document.body.style.backgroundImage = "url('https://source.unsplash.com/1600x900/?" + name + "')";
+  },
 
- search: function () {
-  this.fetchWeather(searchBar.value);
- }
+  search: function () {
+    this.fetchWeather(searchBar.value);
+  },
 };
 
 searchEl.addEventListener("click", () => {
- console.log("Clicked!");
- weather.search();
+  console.log("Clicked!");
+  weather.search();
 });
 
 searchBar.addEventListener("keyup", (event) => {
- if (event.key === "Enter") {
-  weather.search();
- }
+  if (event.key === "Enter") {
+    weather.search();
+  }
 });
 
 weather.fetchWeather("Lagos");
@@ -289,7 +354,18 @@ weather.fetchWeather("Lagos");
 
 또한 사용자가 특정 도시의 날씨 데이터를 검색할 수 있도록 검색 버튼 및 검색 창에 대한 이벤트 리스너를 포함하고 있습니다. 추가로, 검색된 도시에 따라 배경 이미지를 변경합니다. 페이지가 로드될 때 Lagos의 기본 날씨 정보가 가져와집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 테스트 및 디버깅
 
@@ -303,7 +379,18 @@ weather.fetchWeather("Lagos");
 
 # 배운 교훈
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금은 코딩 프로세스를 시작하기 전에 응용 프로그램의 계획 및 로직을 설계하는 중요성을 이해했습니다. 또한 상호작용 웹 애플리케이션을 만드는 데 중요한 CSS 스타일, JavaScript 이벤트 및 DOM 조작에 대한 지식을 향상시켰습니다.
 
@@ -313,7 +400,18 @@ weather.fetchWeather("Lagos");
 
 애플리케이션 테스트: [https://wasiu-akindoyin.github.io/Weather-Forecast-Web-Application/](https://wasiu-akindoyin.github.io/Weather-Forecast-Web-Application/)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 GitHub 저장소에 액세스하여 소스 코드를 확인하거나 기여할 수 있습니다.
 
@@ -328,7 +426,18 @@ GitHub 저장소에 액세스하여 소스 코드를 확인하거나 기여할 �
 - 다른 도시의 날씨를 확인하려면 간단히 검색 창에 새로운 도시 이름을 입력하고 Enter를 누르거나 다시 검색 버튼을 클릭하세요.
 - 여러 도시의 현재 날씨 조건을 확인하는 즐거움을 누려보세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 미래 개선 사항
 
@@ -341,6 +450,17 @@ GitHub 저장소에 액세스하여 소스 코드를 확인하거나 기여할 �
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 HTML, CSS, 그리고 JavaScript를 사용하여 이 날씨 예보 애플리케이션을 개발하는 것은 저에게 큰 만족감을 줬어요. API를 통합하고 비동기 작업을 관리하며 반응형 웹 애플리케이션을 개발하는 방법에 대해 배웠습니다. 이 애플리케이션은 사용자에게 유용한 서비스를 제공하여 어디서나 쉽게 날씨 정보에 접근할 수 있도록 도와줍니다.

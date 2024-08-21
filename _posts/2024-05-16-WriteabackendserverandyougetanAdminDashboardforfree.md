@@ -3,16 +3,13 @@ title: "백엔드 서버를 작성하면 어드민 대시보드를 무료로 제
 description: ""
 coverImage: "/assets/img/2024-05-16-WriteabackendserverandyougetanAdminDashboardforfree_0.png"
 date: 2024-05-16 16:30
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-16-WriteabackendserverandyougetanAdminDashboardforfree_0.png
 tag: Tech
 originalTitle: "Write a backend server, and you get an Admin Dashboard for free!"
 link: "https://medium.com/@victor.teo/write-a-backend-server-and-you-get-an-admin-dashboard-for-free-bb2d2aeb041f"
 isUpdated: true
 ---
-
-
-
 
 테오(Teo)는 당신을 위해 관리자 대시보드를 생성할 수 있는 훌륭한 웹 프레임워크입니다.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 # 프로젝트 생성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새로운 디렉토리를 만들어서 그 안에 "schema.teo"라는 파일을 생성합시다. 문법 강조와 자동 완성을 위해 이 VSCode 플러그인을 설치할 수 있어요.
 
@@ -133,21 +141,43 @@ autoseed dataset default {
 - 모델 정의
 - 시드 데이터
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 딱 100줄로 많은 것들을 선언했어요. 구문이 매우 간결해요.
 
 인증 미들웨어와 모델 데코레이터에서 "JWT_SECRET"라는 환경 변수가 있을 거에요. 이 내용을 담은 " .env" 파일을 만들어봐요.
 
 ```js
-JWT_SECRET=my_top_secret
+JWT_SECRET = my_top_secret;
 ```
 
 # Teo 설치하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-당신의 기술 스택과 선호도에 따라 Rust 버전, Node.js 버전 또는 Python 버전을 설치할 수 있어요. 이 중 하나를 선택해 주세요. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+당신의 기술 스택과 선호도에 따라 Rust 버전, Node.js 버전 또는 Python 버전을 설치할 수 있어요. 이 중 하나를 선택해 주세요.
 
 Rust 버전을 설치하려면 "cargo"를 사용하세요.
 
@@ -157,27 +187,44 @@ cargo install teo
 
 Node.js 버전을 설치하려면, 이 명령을 실행하여 로컬 디렉토리에 설치하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 npm init -y
 npm install typescript ts-node -D
 npx tsc --init
 npm install @teocloud/teo
 
-
 파이썬 버전을 설치하려면 venv를 추천합니다.
-
 
 python3.12 -m venv .venv
 source .venv/bin/activate
 pip install teo
 
-
 Teo는 다른 웹 프레임워크와 마찬가지로 프로그래밍 코드로 라우트 핸들러를 작성하고 Teo의 ORM API에 접근할 수 있습니다. 이 글에서는 그를 다루지 않을 거예요.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 어드민 대시보드 생성하기
 
@@ -189,7 +236,18 @@ Rust 명령어:
 cargo teo generate admin
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Node.js 명령어:
 
@@ -203,7 +261,18 @@ Python 명령어 (venv를 활성화한 상태):
 teo generate admin
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 서버 시작하기
 
@@ -215,16 +284,38 @@ Rust 명령:
 cargo teo serve
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Markdown 형식의 표:
 
-| 언어 | 명령어 |
-|------|---------|
-| Node.js | `npx teo serve` |
-| Python (venv 활성화) | `teo serve` |
+| 언어                 | 명령어          |
+| -------------------- | --------------- |
+| Node.js              | `npx teo serve` |
+| Python (venv 활성화) | `teo serve`     |
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 관리자 대시보드 시작하기
 
@@ -237,7 +328,18 @@ npm start
 
 # 브라우저에서 localhost:9000 열기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막 단계는 브라우저를 열어 확인해 보는 거예요. 여기 로그인 자격 증명이 있어요:
 
@@ -249,7 +351,18 @@ npm start
 
 이제 레코드를 나열하거나 생성, 업데이트, 삭제할 수 있어요. 차트, 그래프 및 표와 같은 더 많은 기능이 나중에 구현될 거예요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](https://miro.medium.com/v2/resize:fit:1400/1*vEfD5wQTIrAAsGBqxOapJw.gif)
 
@@ -259,7 +372,18 @@ npm start
 
 GitHub: https://github.com/teocloud/teo
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 공식 웹사이트: [https://teodev.io](https://teodev.io)
 

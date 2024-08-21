@@ -3,17 +3,13 @@ title: "Nextjs 13 Redirects 사용 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # 리디렉션
 
@@ -35,7 +31,18 @@ module.exports = {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `redirects`는 소스, 대상 및 영구 속성을 가진 객체가 포함된 배열이 반환되는 것을 기대하는 비동기 함수입니다:
 
@@ -50,7 +57,18 @@ module.exports = {
 - has는 type, key 및 value 속성을 가진 has 객체의 배열입니다.
 - missing는 type, key 및 value 속성을 가진 missing 객체의 배열입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리다이렉트는 페이지 및 /public 파일을 포함하는 파일 시스템 이전에 확인됩니다.
 
@@ -66,7 +84,18 @@ module.exports = {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 /old-blog/post-1?hello=world가 요청되면, 클라이언트는 /blog/post-1?hello=world로 리디렉션됩니다.
 
@@ -88,7 +117,18 @@ module.exports = {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 와일드카드 경로 매칭
 
@@ -110,7 +150,18 @@ module.exports = {
 
 ### 정규식 경로 매칭
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 정규식 경로와 일치시키려면 매개변수 뒤에 괄호 안에 정규식을 감싸면 됩니다. 예를 들어 /post/:slug(\\d{1,})은 /post/123과 일치하지만 /post/abc와는 일치하지 않습니다:
 
@@ -145,7 +196,18 @@ module.exports = {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 헤더, 쿠키 및 쿼리 일치
 
@@ -157,7 +219,18 @@ has 및 missing 아이템에는 다음 필드가 포함될 수 있습니다:
 - key: String - 일치시킬 선택한 타입의 키입니다.
 - value: String 또는 undefined - 검사할 값입니다. undefined인 경우 모든 값이 일치합니다. 특정 값의 일부를 캡처하기 위해 정규식과 유사한 문자열을 사용할 수 있습니다. 예: 값이 first-(?`paramName`.\*)인 경우 first-second라는 값의 경우 목적지에서 :paramName으로 second를 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 module.exports = {
@@ -262,7 +335,18 @@ module.exports = {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### i18n 지원을 사용한 리다이렉트
 
@@ -317,7 +401,18 @@ module.exports = {
 
 드물게, 낡은 HTTP 클라이언트에게 올바른 리다이렉트를 위해 사용자 정의 상태 코드를 할당해야 할 때가 있습니다. 이런 경우에는 permanent 속성 대신 statusCode 속성을 사용할 수 있지만 둘 다 사용할 수는 없습니다. 308 상태 코드를 위해 IE11 호환성을 보장하려면 Refresh 헤더가 자동으로 추가됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 다른 리다이렉트
 
@@ -332,4 +427,15 @@ module.exports = {
 | `v10.2.0` | `has` 추가됨.       |
 | `v9.5.0`  | `redirects` 추가됨. |
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

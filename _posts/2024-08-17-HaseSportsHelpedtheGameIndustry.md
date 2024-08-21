@@ -3,7 +3,7 @@ title: "e스포츠가 게임 산업에 도움을 주었을까"
 description: ""
 coverImage: "/assets/img/2024-08-17-HaseSportsHelpedtheGameIndustry_0.png"
 date: 2024-08-17 01:06
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-17-HaseSportsHelpedtheGameIndustry_0.png
 tag: Tech
 originalTitle: "Has eSports Helped the Game Industry"
@@ -11,8 +11,6 @@ link: "https://medium.com/@GWBycer/has-esports-helped-the-game-industry-3a1ca035
 isUpdated: true
 updatedAt: 1723864190374
 ---
-
-
 
 ![img](/assets/img/2024-08-17-HaseSportsHelpedtheGameIndustry_0.png)
 
@@ -22,8 +20,18 @@ updatedAt: 1723864190374
 
 이스포츠와 라이브 서비스는 2000년대부터 함께해 왔으며 리그 오브 레전드의 등장과 함께 유명해졌습니다. 이스포츠를 만들어내면 게임이 게임만 하는 것을 넘어 더 인기 있어질 것으로 예상되었습니다. 사람들은 이스포츠를 따라가게 되며, 스폰서들은 광고 수익을 판매할 수 있습니다. 미국에서도 스타크래프트로 인해 한국에서 보았던 것과 같은 수준의 인식과 영향력을 이스포츠가 이루길 꿈꾸어 왔습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 게임에 대한 지원을 계속하면 콘텐츠에 더 많은 돈을 쓰게 되어 사람들이 해당 콘텐츠에 돈을 쓸 것이고, 그렇게 지원을 받으면 게임이 여러 해 동안 유지될 수 있습니다. 큰 성공 사례를 살펴보면 — LOL, CS:GO, Rainbow Six: Siege 등을 들 수 있습니다 — 다 그렇게 이어진다는 것이죠. 멀티플레이어 게임에 대해서는 경쟁적인 면에서 계속해서 플레이어들이 참여하므로 여러 해 동안 게임을 지속할 수 있었습니다. 이 교감 관계는 게임회사와 개발자들의 부러움거리는 대상이 되었으며, 이들이 자신만의 전략 게임, 모바일 온라인 배틀 아레나, 슈팅 게임 등을 만들어보았다는 것을 알 수 있습니다. 그리고 e스포츠가 이 게임들에게는 좋았지만, 이 장르에 대한 건강에는 좋지 않다는 것이 문제입니다.
 
@@ -33,7 +41,18 @@ updatedAt: 1723864190374
 
 e스포츠 디자인은 다른 게임으로부터 보는 전통적인 디자인과 메카닉과는 다릅니다. e스포츠를 만들 때는, 경쟁적인 면에 초점을 맞춰야 합니다 — 모든 맵 디자인, 균형 조정, 미래 콘텐츠는 경쟁을 원하는 사람들이 보기를 원하는 바탕으로 구축되어야 합니다. 이것은 오랫동안 격투 게임의 주요 요소였으며, 기존의 RTS 게임이 주류에서 물러나 모바일 온라인 배틀 아레나(MOBAs)를 선호하게 된 이유 중 하나였습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-08-17-HaseSportsHelpedtheGameIndustry_1.png" />
 
@@ -43,7 +62,18 @@ e스포츠 디자인은 다른 게임으로부터 보는 전통적인 디자인�
 
 # 캐주얼 대 대회경"He ping"
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 게임과 게임 장르를 살펴보면 다음 eSports가 되고자 하는 중요한 진실에 직면할 때입니다. eSports는 이러한 게임에서 재미를 배어 버립니다. 커뮤니티 측면에서 볼 때, 커뮤니티 관리와 질서 측면에서 최악의 게임 중 일부는 eSports 측면에서 나옵니다. 다른 플레이어에게 끔찍한 메시지를 보내는 사람들, 모두를 업신여기는 플레이어, 때때로 부패와 부정행위에 대한 보고서 등이 있습니다.
 
@@ -53,7 +83,18 @@ e스포츠 디자인은 다른 게임으로부터 보는 전통적인 디자인�
 
 <img src="/assets/img/2024-08-17-HaseSportsHelpedtheGameIndustry_2.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스타크래프트 2에 대해 이야기하자면, 전략 게임 중에서 적용된 완전히 지원되는 e스포츠 모델과 각 세력마다 독특한 유닛과 진행 방식을 갖춘 완전히 독창적인 캠페인이 있다는 점이 생각나네요. 여타 다른 곳에서는 찾아볼 수 없는 특별함이 느껴집니다. 이는 NetherRealm Studios가 2000년대 후반 격투 게임 장르를 부활시키면서 경쟁적 측면에 무관심한 사람들을 위한 콘텐츠에 초점을 맞춘 것과 일맥상통합니다.
 
@@ -63,7 +104,18 @@ e스포츠 선수들은 브랜드 협찬과 대회에 수많은 돈을 받을지
 
 라이브 서비스 게임 디자인은 계속적인 주기로 돈이 들어오고 나가는 것에 관한 것입니다. 새로운 콘텐츠를 만들지 않는다면 더 이상 수익을 올릴 수 없게 되고, 이는 새로운 콘텐츠를 만들 예산이 더 이상 마련되지 않음을 의미합니다. 그리고 사람들이 지출할 만한 "매력적인" 콘텐츠를 제공하지 않는다면, 개발 시간과 자금을 낭비하게 될 뿐입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 게임 콘텐츠와 성장을 전적인 e스포츠 플레이어에게만 맞추는 문제는 다른 사람들이 계속해서 플레이할 공간을 남겨두지 않는다는 것입니다. 이겼던 경쟁을 중심으로 하는 게임에 대해 이런 현상을 볼 수 있습니다. 첫 한 달 또는 두 달 동안은 게임을 배우려는 새로운 플레이어들로 인해 플레이어 수가 최고조에 도달할 것이고, 그런 다음, 그 수는 빠르게 줄어드는데, 계속 유지되는 사람들은 단지 경쟁적인 면 또는 경쟁적이려고 하는 사람들뿐입니다.
 
@@ -73,7 +125,18 @@ e스포츠 시장을 홀대하려는 문제는 게임을 새로운 콘텐츠와 
 
 # 더 나은 라이브 서비스
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요즘 가장 인기 있는 라이브 서비스 게임 중 일부는 모바일 공간에서 옵니다. 게임이 경쟁적 경험에서 최대한 멀다고 해도요. 라이브 서비스 게임을 위해 매력적인 콘텐츠를 만드는 것은 모든 관객이 체험할 수 있도록 하는 것이 중요합니다. 새로운 미션이나 스토리 등이 있다면 모든 그룹이 접근할 수 있어야 합니다. 추가 도전이나 제한된 시간 내 이벤트의 경우 각 플레이어 그룹에 맞는 콘텐츠가 필요합니다.
 
@@ -83,8 +146,18 @@ e스포츠 시장을 홀대하려는 문제는 게임을 새로운 콘텐츠와 
 
 전자 스포츠는 매우 어색한 위치에 있습니다. 이제는 시장에서 새로운 것이 아니며 LOL 챔피언십 시리즈나 EVO와 같은 대회는 주류로 발전했지만, 계속해서 성장하는 것은 논란이 됩니다. 문제의 일부는 게임을 전자 스포츠로 자연스럽게 발전시키는 것이 아닙니다. 이제는 많은 개발자 및 게시자들이 시장을 쫓아가서 자신의 게임을 전자 스포츠로 만들기 위해 노력하는 시대입니다. 그리고 특히 전문 전자 스포츠 플레이어들에 의해 구축되거나 상담받은 게임이 이들 외의 시장에서 찾을 수 없는 것들로 여겨집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-08-17-HaseSportsHelpedtheGameIndustry_3.png)
 
@@ -94,7 +167,17 @@ RTS 장르가 현대화되고 더 많은 사람들에게 매력을 느끼게 하
 
 당신은 어떻게 생각하시나요: e스포츠는 계속 성장할 것인가요, 아니면 이미 한계에 도달했을까요?
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내가 하는 일을 지원하고 매일 스트리밍을 더 많이 할 수 있도록 도와주고 싶다면, 내 Patreon을 확인해보세요. 내 Discord는 이제 모두에게 열려 있어서 게임 및 게임 디자인에 대해 이야기하고 있어요.

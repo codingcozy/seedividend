@@ -3,16 +3,13 @@ title: "HNG 챔피언십을 위한 내 모바일 앱 개발 여정"
 description: ""
 coverImage: "/assets/img/2024-06-30-MyMobileAppDevelopmentJourneyAQuestforHNGChampionship_0.png"
 date: 2024-06-30 22:52
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-30-MyMobileAppDevelopmentJourneyAQuestforHNGChampionship_0.png
 tag: Tech
 originalTitle: "My Mobile App Development Journey (A Quest for HNG Championship!)"
 link: "https://medium.com/@victorakanmidu/my-mobile-development-journey-a-quest-for-hng-championship-30e74f459912"
 isUpdated: true
 ---
-
-
-
 
 저는 Victor Akanmidu이고, 인구 밀집 지역인 HNG 인턴십에서 모바일 앱 개발이라는 위대한 모험에 도전하고 있어요!
 
@@ -22,7 +19,18 @@ HNG 인턴십이 다시 시작되었어요. 제게는 낯설지 않지만, 매�
 
 ### 나의 훈련 과정: 모바일 개발 플랫폼
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 원래 목표로 돌아갑시다! 우리 여행의 첫번째 정착지는 모바일 개발 플랫폼의 세계입니다. 이러한 플랫폼은 특정 운영 체제용 앱을 개발하는 데 필요한 도구와 프레임워크를 제공합니다. 여기 주요 두 가지 범주가 있습니다:
 
@@ -37,7 +45,18 @@ HNG 인턴십이 다시 시작되었어요. 제게는 낯설지 않지만, 매�
 
 플랫폼을 선택했다면, 앱을 위한 구조적 청사진을 결정할 차례입니다. 일반적인 패턴은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Model-View-Controller (MVC): 이 전통적인 패턴은 앱을 Model(데이터), View(사용자 인터페이스) 및 Controller(사용자 상호작용 처리)의 세 부분으로 분리합니다.
 - 장점: 간단하고 이해하기 쉽며, 코드 유지보수를 장려합니다.
@@ -55,6 +74,17 @@ HNG 인턴십이 다시 시작되었어요. 제게는 낯설지 않지만, 매�
 
 상상해보세요 — 새롭게 습득한 기술을 시험해보고, 훌륭한 머릿속과 협력하여 혹은 심지어 변화를 가져올 앱을 구축하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼, 이 모험에 함께 하세요! https://hng.tech 에서 가입하실 수 있어요. 모바일 개발의 흥미진진한 세계를 함께 탐험해봐요. 궁금한 점이나 제안이 있으시면 아래에 댓글을 남겨주세요. 혹시 당신도 모바일 개발 여정을 시작하고 있다면, 서로서로 알려주고 배울 수 있을지 모르겠네요!

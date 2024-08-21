@@ -3,17 +3,13 @@ title: "React에서 쿠키에 토큰 저장하기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Storing Tokens in Cookies with React"
 link: "https://medium.com/@amavictor/storing-tokens-in-cookies-with-react-93a5a818c3a8"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/StoringTokensinCookieswithReact_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이 문서에서는 Axios 라이브러리를 사용하여 React 애플리케이션에서 쿠키를 사용하여 토큰을 안전하게 저장하고 인증하는 방법을 살펴보겠습니다. 쿠키는 토큰을 저장하는 데 좋은 옵션입니다. 쿠키는 모든 요청과 함께 자동으로 전송되므로 토큰을 각 요청에 수동으로 포함시킬 필요 없이 쉽게 인증 요청을 수행할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # React에서 JWT 토큰을 쿠키에 저장하는 방법
 
@@ -35,7 +42,18 @@ import Cookies from "js-cookie";
 
 그런 다음 Cookies.set() 메서드를 사용하여 쿠키의 이름과 값을 설정할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const token = "YOUR_JWT_TOKEN";
@@ -50,7 +68,18 @@ Cookies.set("token", token, { expires: 7, secure: true });
 const token = Cookies.get("token");
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 코드를 통해 우리는 'token'이라는 쿠키에서 JWT 토큰을 가져옵니다.
 
@@ -68,7 +97,18 @@ axios
   .catch((error) => console.error(error));
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 withCredentials 속성을 true로 설정하여 Axios가 요청에 쿠키를 포함하도록합니다. 그런 다음 `/api/data` 엔드포인트로 GET 요청을 보내고 응답 데이터를 콘솔에 로깅합니다.
 
@@ -78,7 +118,18 @@ withCredentials 속성을 true로 설정하여 Axios가 요청에 쿠키를 포�
 
 ## 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요즘 쿠키를 사용하여 Axios 라이브러리를 활용해 React 애플리케이션에서 토큰을 안전하게 저장하고 인증하는 방법에 대해 알아보았어요. 쿠키를 사용하여 토큰을 저장함으로써 웹 애플리케이션의 보안성과 성능을 향상시킬 수 있어요. 하지만 쿠키는 크로스 사이트 스크립팅(XSS) 및 크로스 사이트 요청 위조(CSRF)와 같은 일부 공격에 취약할 수 있음을 기억하는 것이 중요해요. 따라서 httpOnly 플래그를 설정하고 CSRF 보호를 구현하는 등 추가 조치를 취해 쿠키를 안전하게 유지해야 해요. 또한, 사용자에게 브라우저 쿠키에 특정 정보를 저장한다는 것을 알리는 팝업이나 모달을 통해 알림을 주는 것도 중요합니다.
 

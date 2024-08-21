@@ -3,7 +3,7 @@ title: "루비에서의 벤치마킹 시간과 메모리 기반으로 측정하�
 description: ""
 coverImage: "/assets/img/2024-08-19-BenchmarkingTimeandMemoryBasedinRuby_0.png"
 date: 2024-08-19 03:15
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-19-BenchmarkingTimeandMemoryBasedinRuby_0.png
 tag: Tech
 originalTitle: "Benchmarking Time and Memory Based in Ruby "
@@ -11,7 +11,6 @@ link: "https://medium.com/@kavya24goyal/benchmarking-time-and-memory-based-in-ru
 isUpdated: true
 updatedAt: 1724032879563
 ---
-
 
 오늘은 벤치마킹과 프로파일링에 사용할 수 있는 몇 가지 도구와 루비 젬 💎에 대해 알아보겠습니다.
 
@@ -21,7 +20,18 @@ updatedAt: 1724032879563
 
 ## 설치
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 환경에 설치하기 (터미널 명령어)
@@ -37,15 +47,25 @@ require 'benchmark'
 
 ## 시간 측정하기
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아주 간단한 예제로 문자열을 구분자로 나누는 방법을 시작해봅시다.
 
 ```js
 require 'benchmark'
 
-time_taken = Benchmark.realtime do 
+time_taken = Benchmark.realtime do
     res = 'kavya'.split('a')
 end
 puts time_taken
@@ -55,13 +75,23 @@ puts time_taken
 
 이 시간 단위는 초입니다. 이제 문자열의 길이를 늘려 동일한 작업을 수행해 봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 require 'benchmark'
 
-time_taken = Benchmark.realtime do 
+time_taken = Benchmark.realtime do
     res = ('kavya' * 10_000).split('a')
 end
 puts time_taken
@@ -73,8 +103,18 @@ Well, the time increase was quite significant, at least by 1000x. Let's now perf
 
 In this case, we are attempting to convert a large string (1.5 million characters) into a SHA256 hash by repeating the process 1000 times.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 require 'benchmark'
@@ -85,10 +125,10 @@ def simple_hash(input)
 end
 
 n = 1000
-time_taken = Benchmark.realtime do 
+time_taken = Benchmark.realtime do
     plain_text = ('kavya' * 300_000)
-    n.times do 
-        cipher_text = simple_hash(plain_text)    
+    n.times do
+        cipher_text = simple_hash(plain_text)
     end
 end
 
@@ -108,18 +148,28 @@ def simple_hash(input)
 end
 
 n = 1000
-time_taken = Benchmark.realtime do 
-    n.times do 
+time_taken = Benchmark.realtime do
+    n.times do
         plain_text = ('kavya' * 300_000)
-        cipher_text = simple_hash(plain_text)    
+        cipher_text = simple_hash(plain_text)
     end
 end
 
 puts time_taken
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-08-19-BenchmarkingTimeandMemoryBasedinRuby_3.png](/assets/img/2024-08-19-BenchmarkingTimeandMemoryBasedinRuby_3.png)
 
@@ -129,8 +179,18 @@ Runs took slightly longer this time, about 1-2 seconds more than before.
 
 We'll use Benchmark.bm to analyze time statistics for various commands at the user and system levels.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 require 'benchmark'
@@ -142,8 +202,8 @@ end
 
 n = 10
 time_taken = Benchmark.bm do |x|
-    n.times do 
-        x.report{cipher_text = simple_hash('kavya' * 10_000_000)}    
+    n.times do
+        x.report{cipher_text = simple_hash('kavya' * 10_000_000)}
     end
 end
 
@@ -156,8 +216,18 @@ end
 
 각 실행 및 다른 구성 요소에 대한 레이블을 다음과 같이 추가할 수 있습니다
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 require 'benchmark'
@@ -173,11 +243,11 @@ time_taken = Benchmark.bm do |x|
             puts "I am running a step here before the n"
             puts "I will run the hash fxn #{n} times"
         }
-        
-        n.times do |idx| 
-            x.report("run: #{idx}") { cipher_text = simple_hash('kavya' * 10_000_000) }    
+
+        n.times do |idx|
+            x.report("run: #{idx}") { cipher_text = simple_hash('kavya' * 10_000_000) }
         end
-        
+
         x.report("after_run_step: ") {
             puts "I have completed the run"
         }
@@ -190,8 +260,18 @@ end
 
 시간에 기반을 둔 분할 이외에도, 실행 시점에서 얼마나 많은 메모리를 사용할 것인지 대략적으로 파악하는 것이 매우 중요합니다. 요즘에는 RAM과 같은 것들의 제약 사항을 고려하지 않는 경향이 있습니다. 왜냐하면 이러한 자원들이 우리에게 쉽게 이용 가능하기 때문입니다. 하지만 이러한 자원이 여전히 부족하다는 사실을 이해하고 항상 보장해야 합니다. 이를 위해 루비의 Memory-Profiler를 사용할 것입니다. (Github 참조)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 설치
 
@@ -207,7 +287,18 @@ gem install memory_profiler
 require 'memory_profiler'
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 시간 측정하기
 
@@ -297,7 +388,18 @@ report.pretty_print
          1  jdoodle.rb:3
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에서 보듯, 보고서의 범위를 벗어나서 메모리가 유지되지 않았습니다. 이제 메모리를 유지하는 더 복잡한 예제로 넘어가 봅시다.
 

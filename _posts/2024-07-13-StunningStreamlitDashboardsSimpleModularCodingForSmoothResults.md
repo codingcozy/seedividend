@@ -3,16 +3,13 @@ title: "Streamlit 대시보드 만들기 간단한 모듈식 코딩으로 매끄
 description: ""
 coverImage: "/assets/img/2024-07-13-StunningStreamlitDashboardsSimpleModularCodingForSmoothResults_0.png"
 date: 2024-07-13 19:11
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-StunningStreamlitDashboardsSimpleModularCodingForSmoothResults_0.png
 tag: Tech
 originalTitle: "Stunning Streamlit Dashboards : Simple Modular Coding For Smooth Results"
 link: "https://medium.com/gitconnected/stunning-streamlit-dashboards-simple-modular-coding-for-better-results-c7b0f977968c"
 isUpdated: true
 ---
-
-
-
 
 ![Stunning Streamlit Dashboards](/assets/img/2024-07-13-StunningStreamlitDashboardsSimpleModularCodingForSmoothResults_0.png)
 
@@ -22,7 +19,18 @@ Streamlit은 데이터 과학자와 분석가들이 쉽게 대화형 웹 애플�
 
 Data at Depth는 독자들의 지원을 받는 미디어입니다. 새로운 글을 받아보고 제 작품을 지원하기 위해 무료 또는 유료 구독자가 되는 것을 고려해 주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파이썬을 몇 줄만 사용하면 데이터 스크립트를 공유 가능한 웹 앱으로 변환할 수 있어요.
 
@@ -34,7 +42,18 @@ Streamlit을 사용하여 다중 페이지 대화형 애플리케이션을 만�
 - 피난처 국가별 분석
 - 코로플레스 지도를 활용한 피난신청국 전체 개요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 할 일은 Streamlit 셸 애플리케이션과 데이터 세트를 이용해 모든 것을 처음부터 만들어보는 것입니다.
 
@@ -44,7 +63,18 @@ Streamlit을 사용하여 다중 페이지 대화형 애플리케이션을 만�
 
 이는 각 페이지에 대한 별도의 함수를 만들고 페이지 간 탐색을 관리하는 주요 함수를 만드는 것을 포함합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 각 페이지를 셸로 사용하여 3페이지 Streamlit 애플리케이션을 설정하는 코드입니다.
 
@@ -82,6 +112,7 @@ def main():
 if __name__ == "__main__":
     main()
 ```
+
 ## 코드 설명:
 
 - Streamlit 라이브러리를 가져옵니다.
@@ -92,7 +123,18 @@ if __name__ == "__main__":
 - 사용자의 선택에 따라 해당 페이지 함수가 호출되어 페이지 내용이 표시됩니다.
 - 스크립트를 실행할 때 main() 함수가 호출됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 쉘은 다중 페이지 Streamlit 애플리케이션의 기본 구조를 설정합니다. 다음 섹션에서는 각 페이지 함수에 데이터 시각화 코드를 추가할 것입니다.
 
@@ -102,11 +144,33 @@ if __name__ == "__main__":
 
 애플리케이션은 기본 브라우저에서 실행됩니다. 셸 애플리케이션을 처음으로 살펴보겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 Markdown 형식으로 변경해 주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그들의 데이터는 여기에서 자유롭게 접근할 수 있습니다.
 
@@ -115,7 +179,18 @@ if __name__ == "__main__":
 
 UNHCR 다운로드 페이지 - "원국"과 "청국"을 선택합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 프로젝트에서는 각 난민의 출신 국가와 애쉬럼 국가를 가져와 봅시다.
 
@@ -126,8 +201,18 @@ UNHCR 다운로드 페이지 - "원국"과 "청국"을 선택합니다.
 
 데이터셋을 다운로드한 후에, 우리는 어떤 데이터를 다루고 있는지 확인하기 위해 스프레드시트 형식으로 열어볼 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Dashboard Screenshot](/assets/img/2024-07-13-StunningStreamlitDashboardsSimpleModularCodingForSmoothResults_4.png)
 
@@ -140,8 +225,18 @@ This project focuses on the following data fields:
 
 Both the country of origin and asylum have a 3-letter ISO code, which serves as a reliable unique identifier.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 애플리케이션의 각 페이지를 함께 만들어 봅시다.
 
@@ -151,7 +246,18 @@ Both the country of origin and asylum have a 3-letter ISO code, which serves as 
 
 우리는 글로벌 망명 결정을 연도 범위별로 보여주는 데이터 시각화 코드를 page_overview() 함수에 추가할 거에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터 세트를 로드하고 선택한 연도 범위에 따라 데이터를 필터링한 다음 두 가지 시각화를 만들어야 합니다: 총 난민 심사 결과 상위 10개 국가를 보여주는 수평 막대 차트와 출신 국가별로 나눈 Sunburst 차트입니다.
 
@@ -172,7 +278,18 @@ def get_asylum_counts(df, group_by_column):
 
 - 데이터 세트는 pd.read_csv()를 사용하여 로드되어 data 변수에 저장됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 도우미 함수:
 
@@ -182,7 +299,18 @@ def get_asylum_counts(df, group_by_column):
 
 데이터 시각화가 포함된 page_overview() 함수의 전체 코드는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 페이지 1: 개요
@@ -219,8 +347,18 @@ def page_overview():
 
 위 코드를 사용하여 진행 상황을 테스트하고, 성장 중인 애플리케이션을 저장하고 실행할 수 있습니다. 시각적 결과는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-13-StunningStreamlitDashboardsSimpleModularCodingForSmoothResults_5.png)
 
@@ -230,18 +368,39 @@ def page_overview():
 
 이 보기에서 각 국가 위로 마우스를 올리면 실제 숫자를 볼 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 좋아요! 이제 우리 페이지 2에 국가별 데이터를 몇 가지 추가해보겠습니다.
 
 # 페이지 2: 국가별 데이터 시각화
 
-이제 페이지_country_analysis() 함수에 데이터 시각화 코드를 추가하여 선택한 국가의 난민 심사 결정을 표시할 수 있습니다.
+이제 페이지\_country_analysis() 함수에 데이터 시각화 코드를 추가하여 선택한 국가의 난민 심사 결정을 표시할 수 있습니다.
 
 이 과정에는 두 가지 시각화가 포함됩니다: 연도별 인정된 및 거부된 난민 심사 결정 수를 보여주는 그룹화된 막대형 차트와 선택한 국가의 총 인정된, 거부된 및 총 심사 결정을 보여주는 수평 막대형 차트:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 페이지 2: 국가별 분석과 그룹화된 막대 차트
@@ -279,7 +438,18 @@ def page_country_analysis():
 
 이 코드를 간단히 복사하여 Page 2의 셸 애플리케이션에 붙여넣고 명령 프롬프트에서 실행할 수 있습니다. 결과:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-13-StunningStreamlitDashboardsSimpleModularCodingForSmoothResults_7.png" />
 
@@ -289,7 +459,18 @@ def page_country_analysis():
 
 이제 선택한 연도에 대한 전 세계 망명 결정의 분포를 표시하기 위해 데이터 시각화 코드를 page_choropleth() 함수에 추가해 보겠습니다. 이것은 각 나라별로 망명 결정의 총합을 시각화하는 choropleth 지도를 만드는 과정을 포함합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # Page 3: Choropleth Mapping
@@ -317,11 +498,20 @@ def page_choropleth():
 - 선택한 연도에 대한 각 국가의 총 난민 결정을 시각화하기 위해 코로플레스 맵 (px.choropleth)이 생성됩니다. 색상 스케일은 color_continuous_scale=px.colors.sequential.YlOrBr를 사용하여 설정합니다.
 - 난민 결정을 국가별로 내림차순으로 정렬된 데이터 테이블 (st.dataframe)이 표시됩니다.
 
-앞 페이지와 마찬가지로 이 코드를 페이지_choropleth() 함수에 복사하여 저장하고 실행하면 멋진 결과가 나타납니다:
+앞 페이지와 마찬가지로 이 코드를 페이지\_choropleth() 함수에 복사하여 저장하고 실행하면 멋진 결과가 나타납니다:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-13-StunningStreamlitDashboardsSimpleModularCodingForSmoothResults_8.png)
 
@@ -331,8 +521,18 @@ def page_choropleth():
 
 만약 빌드에 문제가 있다면 코드(그리고 데이터셋)는 GitHub에서 찾을 수 있습니다. [여기](링크)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 요약하자면...
 
@@ -342,7 +542,18 @@ Streamlit은 Plotly와 같은 표준 Python 데이터 시각화 라이브러리�
 
 우리는 사용자에게 이 데이터에 대해 다양한 이야기와 관점을 제공하기 위해 6가지 다른 데이터 시각화를 만들었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다중 페이지 애플리케이션 셸을 먼저 만들면 각 차트와 페이지를 쉽게 추가, 제거 또는 수정할 수 있습니다. 예를 들어, 네 번째 페이지를 추가하고 싶다면 "Page 4" 함수를 만들고 해당 페이지에 시각화를 추가한 다음 페이지 논리에 추가 메뉴 항목을 추가하면 됩니다(첫 번째 단계에서 만듦).
 
@@ -352,6 +563,17 @@ GitHub 저장소: [여기](HERE)
 
 이 유형의 내용이 마음에 든다면 작가로서 저를 지원하고 싶다면 제 Substack를 구독해 주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Substack에서 매주 두 번 뉴스레터와 다른 플랫폼에서는 찾을 수 없는 기사를 게시하고 있어요.

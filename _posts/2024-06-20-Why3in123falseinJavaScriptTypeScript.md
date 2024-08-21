@@ -3,7 +3,7 @@ title: "자바스크립트와 타입스크립트에서 1, 2, 3에 3이 있는지
 description: ""
 coverImage: "/assets/img/2024-06-20-Why3in123falseinJavaScriptTypeScript_0.png"
 date: 2024-06-20 07:31
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-Why3in123falseinJavaScriptTypeScript_0.png
 tag: Tech
 originalTitle: "Why 3 in [1, 2, 3] = false in JavaScript , TypeScript?"
@@ -11,22 +11,28 @@ link: "https://medium.com/@w3lt/why-3-in-1-2-3-return-false-464de649cb21"
 isUpdated: true
 ---
 
-
-
-
-
 <img src="/assets/img/2024-06-20-Why3in123falseinJavaScriptTypeScript_0.png" />
 
 안녕 친구들, 이번 주에는 몇 가지 재미있는 것들을 배웠어요. 오늘은 그 중 일부를 공유하고 싶습니다. 주제는 in 연산자에 대한 것이에요. 간단한 예제로 시작해보죠:
 
 ```js
-console.log(3 in [1, 2, 3]) // false
+console.log(3 in [1, 2, 3]); // false
 ```
 
 의아하지 않나요? 3이 [1, 2, 3] 안에 없어요. 왜 그럴까요??? 그 이유를 알아보기 위해 in 연산자를 살펴보도록 해요.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그것에 대해 아시지 못하는 분들을 위해, in 연산자는 지정된 속성이 지정된 객체나 해당 프로토타입 체인에 있는지 확인하여 true를 반환합니다. (MDN에 따르면). 이해가 되지 않는다면, 아래에서 in 연산이 하는 일을 살펴봅시다:
 
@@ -56,7 +62,18 @@ console.log('job' in person); // false
 // false
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 person 객체에는 이름과 나이가 있습니다. 따라서 `name` 및 `age`가 age에 대해 true를 반환하며, age도 마찬가지입니다. 그러나 person은 직업을 가지고 있지 않으므로 `job`은 person에서 false를 반환합니다.
 
@@ -83,7 +100,18 @@ console.log('job' in developer); // true
 
 이제 developer 객체에는 job 속성이 있지만 명시적으로 이름과 나이가 없습니다. 이러한 속성은 Person 클래스에서 상속되었습니다. 그러나 `name` in developer는 여전히 true를 반환합니다. 왜냐하면 name은 Person 클래스의 속성이며 Developer 클래스가 이를 상속하기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 알았어요. 그건 운영 동작을 위한 것이에요. 간단하죠? 그런데 왜 '운영 동작은 위험하다'고 말할까요? 제 의견으로는 두 가지 주요 이유가 있어요.
 
@@ -104,14 +132,27 @@ console.log(3 in arr); // false
 // false
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예시에서는 1과 2와 잘 동작하는 것을 볼 수 있지만, 3에서는 그렇지 않다는 것을 알 수 있어요. 왜 그럴까요? JavaScript와 TypeScript에서 배열은 인덱스가 키이고 값이 값인 객체입니다. 다른 버전에서 이 예시를 다시 작성해보도록 할게요.
 
 ```js
 let arr = {
-    0: 1, 1: 2, 2: 3
-}
+  0: 1,
+  1: 2,
+  2: 3,
+};
 
 console.log(1 in arr); // true
 console.log(2 in arr); // true
@@ -138,7 +179,18 @@ console.log(arr.includes(3)); // true
 // true
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 정의되지 않은 속성과 함께 사용하기
 
@@ -146,25 +198,36 @@ console.log(arr.includes(3)); // true
 
 ```js
 interface IPerson {
-    name?: string;
-    age: number;
+  name?: string;
+  age: number;
 }
 
 let person: IPerson = {
-    name: 'John Doe',
-    age: 24
+  name: "John Doe",
+  age: 24,
 };
 
-console.log(person.name, 'name' in person); // John Doe true
+console.log(person.name, "name" in person); // John Doe true
 
 person.name = undefined;
 
-console.log(person.name, 'name' in person); // undefined true
+console.log(person.name, "name" in person); // undefined true
 ```
 
 명시적으로 person의 name을 undefined로 설정해도, `person`에 `name`이 여전히 true를 반환하는 것을 볼 수 있습니다. JavaScript와 TypeScript는 이 경우를 “name은 여전히 person 안에 있으며, 그저 정의되지 않았지만 여전히 존재한다”로 처리합니다. 이 경우는 디버깅하기 매우 어렵습니다. 왜냐하면 어디서 실수를 저질렀는지조차 알 수 없기 때문입니다. 그래서 우리가 해야 할 일은 무엇일까요? person.name = undefined로 설정하는 대신, 객체의 속성을 완전히 제거할 수 있는 삭제(delete) 작업이 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 인터페이스 IPerson {
@@ -183,7 +246,6 @@ delete person.name;
 
 console.log(person.name, 'name' in person); // undefined false
 ```
-
 
 아하, 그러니까 이제 없어졌네요. 속성을 삭제하지 않고 값을 undefined로 설정하고 싶다면 in 대신 !== 연산자를 사용할 수 있습니다:
 
@@ -207,8 +269,18 @@ console.log(person.name, person.name !== undefined); // undefined false
 
 빠르게 다시 한 번 요약해보면
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 본문 전체를 읽을 시간이 없는 분들을 위해 복습해 드릴게요:
 

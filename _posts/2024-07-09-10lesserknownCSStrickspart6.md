@@ -3,15 +3,13 @@ title: "잘 알려지지 않은 CSS 트릭 10가지 파트 6"
 description: ""
 coverImage: "/assets/img/2024-07-09-10lesserknownCSStrickspart6_0.png"
 date: 2024-07-09 17:58
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-10lesserknownCSStrickspart6_0.png
 tag: Tech
 originalTitle: "10 lesser known CSS tricks part 6"
 link: "https://medium.com/@creativebyte/10-lesser-known-css-tricks-part-6-a0f89071083a"
 isUpdated: true
 ---
-
-
 
 <img src="/assets/img/2024-07-09-10lesserknownCSStrickspart6_0.png" />
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 요소에 믹스 블렌드 모드를 사용하여 블렌딩 모드를 적용하여 요소를 겹쳤을 때 흥미로운 시각적 효과를 만들어내세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .overlay {
@@ -39,7 +48,18 @@ img:broken {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 03. CSS 모양
 
@@ -53,7 +73,18 @@ img:broken {
 
 ## 04. 부분 문자열 일치를 위한 속성 선택자
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 부분 일치하는 내용을 찾기 위해 \*= 연산자를 사용한 속성 선택자를 사용하세요.
 
@@ -67,7 +98,18 @@ img:broken {
 
 유리에 얼음이 꽂힌 효과를 만들기 위해 backdrop-filter를 사용하여 배경에 흐린 효과를 적용하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 .element {
@@ -85,7 +127,18 @@ CSS에서 env() 함수를 사용하여 환경 변수에 액세스하세요.
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 07. CSS 속성 카운터
 
@@ -99,7 +152,18 @@ CSS에서 env() 함수를 사용하여 환경 변수에 액세스하세요.
 
 ## 08. 텍스트 래핑에 대한 CSS 모양
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 정밀한 텍스트 래핑을 위해 다각형(polygon()) 함수와 함께 shape-outside를 사용하세요.
 
@@ -113,7 +177,18 @@ CSS에서 env() 함수를 사용하여 환경 변수에 액세스하세요.
 
 커서 속성을 사용하여 커서 스타일을 변경하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .custom-cursor {

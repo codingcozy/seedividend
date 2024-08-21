@@ -3,17 +3,13 @@ title: "Nextjs 14에서 lazy loading으로 렌더링 하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # Nextjs 14에서 lazy loading으로 렌더링 하는 방법
 
@@ -21,7 +17,18 @@ Next.js의 'Lazy Loading'은 라우트를 렌더링하기 위해 필요한 JavaS
 클라이언트 컴포넌트와 가져온 라이브러리의 로딩을 지연시키고, 사용자가 필요할 때에만 클라이언트 번들에 포함시킬 수 있습니다. 예를 들어, 사용자가 모달을 열 때까지 모달의 로딩을 지연시킬 수 있습니다.
 Next.js에서 'Lazy Loading'을 구현하는 두 가지 방법이 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 다음/dynamic을 사용하여 동적 가져오기
 - React.lazy()와 Suspense를 사용하는 방법
@@ -31,7 +38,18 @@ Next.js에서 'Lazy Loading'을 구현하는 두 가지 방법이 있습니다:
 
 다음/dynamic은 React.lazy()와 Suspense의 조합입니다. 앱과 페이지 디렉토리에서 동일하게 작동하여 점진적으로 마이그레이션할 수 있도록 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 예시
 
@@ -69,7 +87,18 @@ export default function ClientComponentExample() {
 
 ### SSR 생략
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React.lazy()과 Suspense를 사용할 때, Client Components는 기본적으로 사전 렌더링(서버 측 렌더링)됩니다.
 만약 Client Component의 사전 렌더링을 비활성화하고 싶다면, ssr 옵션을 false로 설정하여 사용할 수 있습니다:
@@ -80,7 +109,18 @@ const ComponentC = dynamic(() => import("../components/C"), { ssr: false });
 
 ### 서버 컴포넌트 가져오기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 동적으로 서버 컴포넌트를 가져오면 서버 컴포넌트 자체가 지연로드되지 않고 서버 컴포넌트의 자식인 클라이언트 컴포넌트만이 지연로드됩니다.
 
@@ -103,7 +143,18 @@ export default function ServerComponentExample() {
 
 외부 라이브러리는 import() 함수를 사용하여 필요에 따라 로드할 수 있습니다. 이 예시는 퍼즈 검색을 위해 외부 라이브러리 fuse.js를 사용합니다. 사용자가 검색 입력란에 입력을 할 때에만 모듈이 클라이언트에 로드됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 '사용자용'
@@ -156,7 +207,18 @@ export default function Page() {
 
 ### Named Exports 가져오기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 명명된 내보내기를 동적으로 가져오려면, import() 함수에서 반환된 Promise에서 해당 내보내기를 반환할 수 있어요:
 
@@ -174,4 +236,15 @@ import dynamic from "next/dynamic";
 const ClientComponent = dynamic(() => import("../components/hello").then((mod) => mod.Hello));
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

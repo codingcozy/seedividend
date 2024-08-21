@@ -3,17 +3,13 @@ title: "React에서 테이블 쉽게 만드는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Building The Perfect React Table"
 link: "https://medium.com/bitsrc/building-a-react-table-f55783158e71"
 isUpdated: true
 ---
-
-
-
-
 
 ## 당신이 필요로 할 마지막 테이블 컴포넌트
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이 글에서는 우리는 내가 만든 컴포넌트를 처음부터 만들어가면서 검토해 볼 거야. 시작하기 전에, 이 해결방안을 더 나아지게 할 여지가 아직 있다는 것과, 당신이 도움을 줄 수 있다는 점을 말씀드리고 싶어. 만약 제안이나 생각이 있다면, 댓글에서 자유롭게 공유해 주세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 디자인 개요 및 기능
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 테이블에서 행을 선택하는 내용을 보여주는 또 다른 한 장면입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/BuildingThePerfectReactTable_1.png" />
 
@@ -48,7 +66,18 @@ isUpdated: true
 
 # 사용할 라이브러리
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리 컴포넌트에 필수 라이브러리는 Tanstack Table입니다. 이 패키지는 유연성과 맞춤 설정으로 유명하며, 지금까지 발견한 최고의 솔루션 중 하나입니다.
 
@@ -58,7 +87,18 @@ Tanstack 생태계가 익숙하지 않다면, 이들이 무엇을 만들고 있�
 
 또한, 언제든지 소스 코드를 여기서 찾으실 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 행과 열의 기본 렌더링
 
@@ -80,7 +120,18 @@ export type TableProps<D extends Record<string, any>> = Pick<
 
 이제 컴포넌트로 변경하여 기본 기능을 작성해 봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import {flexRender, getCoreRowModel, useReactTable} from '@tanstack/react-table';
@@ -181,7 +232,18 @@ export function flexRender<TProps extends object>(
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 곧 utils를 저장할 공간도 필요할 것이므로 그들을 위한 별도의 파일을 만들어 보겠습니다. 현재는 작은 getTableCellStyle 함수만 포함하게 될 것입니다.
 
@@ -207,7 +269,18 @@ export const getTableCellStyle = ({
 
 # 행 확장
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트 테이블에는 상자 밖으로 행을 확장하는 API가 내장되어 있어서 우리는 얼마나 운이 좋은지요! 그러나 제가 이해한 바로는, 이 기능은 하위 테이블을 렌더링할 때만 작동한다고 합니다. 저희 경우에는 좀 더 유연하고 예상치 못한 미래에 대비할 준비가 돼 있어야 한다고 생각했습니다. 그래서 '공식' 방법을 조금 바꾸기로 결심했습니다. 이렇게 하면 우리가 원하는 모든 것을 확장할 수 있게 될 거예요!
 
@@ -223,7 +296,18 @@ export type TableProps<D extends Record<string, any>> = Pick<TableOptions<D>, 'c
 
 자, 이제 우리의 주요 컴포넌트로 넘어가보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 export function Table<D extends Record<string, any>>({
@@ -337,9 +421,7 @@ export function Table<D extends Record<string, any>>({
         outcomeTypes,
         reasons,
       })}
-      onUpdateBet={(updatedBet) =>
-        onUpdateBet({ client: row.original.client, bet: updatedBet })
-      }
+      onUpdateBet={(updatedBet) => onUpdateBet({ client: row.original.client, bet: updatedBet })}
     />
   )}
 />
@@ -347,7 +429,18 @@ export function Table<D extends Record<string, any>>({
 
 # 행 선택
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React Table은 기본적으로 행 선택 기능을 갖추고 있어 설정이 매우 간답합니다. 행 선택을 위한 사용자 지정 체크박스를 만들고 선택 상태를 테이블 컴포넌트로 전달하기만 하면 됩니다.
 
@@ -366,7 +459,18 @@ export type TableProps<D extends Record<string, any>> = Pick<TableOptions<D>, 'c
 
 이제 행 선택 기능을 구현해봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 export function Table<D extends Record<string, any>>({
@@ -483,7 +587,18 @@ export function Table<D extends Record<string, any>>({
 
 당연히 React Table에는 정렬 및 필터링을 위한 API가 있지만 클라이언트 측에서만 사용할 수 있습니다. 나의 경우에는 React-Query 라이브러리를 사용하여 백엔드와 상호작용할 수 있는 시스템이 필요했어.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서, 저는 내 버전을 만들기로 결정했고 useReactTable 훅에서 meta 필드를 발견했습니다. 이 필드를 통해 원하는 메타데이터를 테이블 인스턴스로 전달할 수 있고 이 메타데이터는 사실상 모든 것이 될 수 있습니다. 우리 경우처럼 사용자 정의 동작을 구현하는 데 매우 유용합니다.
 
@@ -493,7 +608,18 @@ export function Table<D extends Record<string, any>>({
 
 저는 custom.d.ts라는 파일을 만들었지만, 여러분은 귀하만의 이름을 생각해내실 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 여기서 모듈을 확장합니다
@@ -522,15 +648,21 @@ export type TableProps<D extends Record<string, any>, ED extends Record<string, 
 
 또한 새로운 속성을 useReactTable 훅에 전달하여 라이브러리 코어 내에서 사용할 수 있도록 해야 합니다. 업데이트 이후 이 훅이 이렇게 보입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-const {
-  getHeaderGroups,
-  getRowModel,
-  getIsAllRowsSelected,
-  toggleAllRowsSelected,
-} = useReactTable({
+const { getHeaderGroups, getRowModel, getIsAllRowsSelected, toggleAllRowsSelected } = useReactTable({
   //...동일한 코드
   meta: {
     getExtraData: () => extraData,
@@ -563,7 +695,18 @@ const COLUMNS = [
 
 위는 가능한 가장 간단한 컬럼 정의입니다. 필터의 예로, 이 컬럼의 헤더에 있는 id 필드별 필터를 구현하고 이를 extraData에 연결해보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const COLUMNS = [
@@ -638,7 +781,18 @@ const IdTable = () => {
 
 또한 테이블에 필터를 연결하는 로직을 별도의 유틸리티로 이동하기로 결정했습니다. 이 방법을 사용하면 훨씬 쉽습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 export const getTableExtraDataModel = <D extends Record<string, any>>(table: Table<D>, name: string) => ({
@@ -666,7 +820,18 @@ const COLUMNS = [
 
 무한 스크롤의 구현은 대부분 백엔드와 비즈니스 요구에 따라 달라집니다. 하지만 제 경우에는 사용자가 일정 오프셋으로 테이블을 아래로 스크롤할 때 알림을 받아야 할 뿐입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, 우리는 페이지 하단 스크롤을 추적하는 데 도움을 주는 라이브러리를 설치해야 합니다. 저는 react-bottom-scroll-listener를 선택했지만, 다른 패키지를 사용하거나 이 기능을 직접 구축할 수도 있어요.
 
@@ -686,7 +851,18 @@ export type TableProps<D extends Record<string, any>, ED extends Record<string, 
 
 이제 남은 일은 새 라이브러리를 테이블에 연결하는 것 뿐이에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 export function Table<D extends Record<string, any>, ED extends Record<string, any>>({
@@ -763,7 +939,18 @@ export const useGetBetsTableData = () => {
 
 그리고 이 후크를 메인 컴포넌트에서 이렇게 간단하게 사용하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 export const Bets = observer(function Bets() {
@@ -779,10 +966,7 @@ export const Bets = observer(function Bets() {
     [t, onUpdateBet]
   );
 
-  const handleUpdateExtraData = (
-    key: BetsFiltersStateKey,
-    value: BetsFiltersStateValue
-  ) => {
+  const handleUpdateExtraData = (key: BetsFiltersStateKey, value: BetsFiltersStateValue) => {
     betsFiltersState.set((x) => ({
       ...x,
       [key]: value,
@@ -812,7 +996,18 @@ export const Bets = observer(function Bets() {
 
 가상화는 화면에 표시되는 목록이나 테이블의 일부분만 렌더링되는 기술입니다. 이 방법은 브라우저의 작업 부하를 줄여 사용자 경험을 빠르고 부드럽게 만들어줍니다. 스크롤할 때 보여야 할 항목만 신속하게 로드하고 나머지는 숨기는 방식으로 동작합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일반적으로, 가상화는 테이블 구성 요소에서 수행할 수있는 최상의 최적화 중 하나입니다. 특히 무한 스크롤이 있고 테이블에 수천 개의 행이 포함 될 수있는 우리의 경우에는 더욱 그렇습니다.
 
@@ -831,7 +1026,18 @@ export type TableProps<D extends Record<string, any>, ED extends Record<string, 
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 내부에 적용할 변경 사항은 꽤 흥미로운데요. 먼저 코드를 살펴보고 이해할 수 있도록 설명할게요.
 
@@ -882,7 +1088,18 @@ export function Table<D extends Record<string, any>, ED extends Record<string, a
 
 이제 우리의 테이블을 완전히 사용할 준비가 되었어요. 더 개선할 점이 있다고 생각되거나 제안 사항이 있다면, 꼭 댓글로 남겨주세요. 내용을 업데이트하고 여러분의 도움이 다른 사람들에게 도움이 될 것입니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 데모를 자세히 살펴보고 싶다면, 소스 코드를 확인해보세요.
 

@@ -3,17 +3,13 @@ title: "Angular ng-deep 사용 중단 후 대체 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Angular Alternatives after the deprecation of ng-deep"
 link: "https://medium.com/@simon.sharp_25406/angular-alternatives-after-the-deprecation-of-ng-deep-b51591a296e7"
 isUpdated: true
 ---
-
-
-
-
 
 ![Angular 대체품: ng-deep 폐기 후 대안](/assets/img/AngularAlternativesafterthedeprecationofng-deep_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # ngClass 버전
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컴포넌트에서 @Input() 어노테이션을 사용하여 변수를 전달할 수 있고, [ngClass]를 사용하여 조건부 클래스를 설정할 수 있습니다. 이렇게 하면 CSS 파일 중 하나에 정의된 클래스를 커버할 수 있습니다.
 
@@ -53,7 +60,18 @@ export class TestComponent {
 
 **test.component.scss** 파일
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 .test__specific-style {
@@ -67,7 +85,18 @@ export class TestComponent {
 
 styles.scss 파일에는 스타일 캡슐화를 신경 쓰지 않는 전역 스타일이 포함되어 있습니다. 이곳에서의 변경 사항은 전역적이므로 조금 더 신경써야 합니다. 여기에서 매우 구체적으로 스타일을 캡슐화하려고 하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 호스트 콘텍스트 버전
 
@@ -79,7 +108,18 @@ styles.scss 파일에는 스타일 캡슐화를 신경 쓰지 않는 전역 스�
 <test class="specific-style"></test>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 The test.component.ts TypeScript file Markdown
 
@@ -106,7 +146,18 @@ And the test.component.scss file Markdown
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # SCSS 변수 방식
 
@@ -122,7 +173,18 @@ And the test.component.scss file Markdown
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테스트.component.ts 타입스크립트 파일
 
@@ -139,7 +201,18 @@ export class TestComponent {}
 
 그리고 테스트.component.scss 파일
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .test {

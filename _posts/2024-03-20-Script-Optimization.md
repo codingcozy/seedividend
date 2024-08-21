@@ -3,17 +3,13 @@ title: "Nextjs 14 스크립트 최적화하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # Nextjs 14 스크립트 최적화하는 방법
 
@@ -34,7 +30,18 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 세 번째자 스크립트는 사용자가 폴더 경로 (예: dashboard/page.js) 또는 중첩 경로 (예: dashboard/settings/page.js)에 액세스할 때 가져옵니다. Next.js는 사용자가 동일한 레이아웃에서 여러 경로 사이를 이동하더라도 스크립트가 한 번만 로드되도록 보장합니다.
 
@@ -55,7 +62,18 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 스크립트는 애플리케이션의 모든 경로에 액세스할 때로드되고 실행됩니다. Next.js는 사용자가 여러 페이지를 넘나들어도 해당 스크립트가 한 번만로드되도록 보장합니다.
 
@@ -65,7 +83,18 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
 Next/script의 기본 동작은 모든 페이지나 레이아웃에서 서드 파티 스크립트를로드할 수 있도록 허용하지만, 전략 속성을 사용하여로드 동작을 미세 조정할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - beforeInteractive: 모든 Next.js 코드 및 페이지 수화가 발생하기 전에 스크립트를 로드합니다.
 - afterInteractive: (기본값) 페이지 수화가 약간 발생한 후에 스크립트를 조기에로드합니다.
@@ -77,7 +106,18 @@ Next/script의 기본 동작은 모든 페이지나 레이아웃에서 서드 �
 
 > 경고: 워커 전략은 아직 안정화되지 않았으며 앱 디렉터리와 아직 작동하지 않습니다. 주의해서 사용하십시오.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Partytown을 사용하는 워커 전략은 스크립트를 오프로드하고 실행하여 성능을 향상시킬 수 있습니다. 메인 스레드를 응용 프로그램 코드의 나머지에 전념함으로써 사이트의 성능을 향상시킬 수 있습니다.
 이 전략은 아직 실험적이며 next.config.js에서 nextScriptWorkers 플래그가 활성화된 경우에만 사용할 수 있습니다:
@@ -92,7 +132,18 @@ module.exports = {
 
 그런 다음, next를 실행하세요 (보통 npm run dev 또는 yarn dev) 그러면 Next.js가 필요한 패키지를 설치하기 위한 안내를 제공합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm run dev
@@ -113,7 +164,18 @@ export default function Home() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 워커에 써드 파티 스크립트를 로드할 때 고려해야 할 여러 가지 트레이드오프가 있습니다. 더 많은 정보는 Partytown의 트레이드오프 문서를 확인해주세요.
 
@@ -125,7 +187,18 @@ export default function Home() {
 <Script id="show-banner">{`document.getElementById('banner').classList.remove('hidden')`}</Script>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또는 dangerouslySetInnerHTML 속성을 사용하여:
 
@@ -142,7 +215,18 @@ export default function Home() {
 
 ### 추가 코드 실행하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스크립트 구성 요소와 함께 이벤트 핸들러를 사용하여 특정 이벤트가 발생한 후 추가 코드를 실행할 수 있습니다:
 
@@ -170,7 +254,18 @@ export default function Page() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음/script API 참조를 참고하여 각 이벤트 핸들러에 대해 자세히 알아보고 예제를 확인해 보세요.
 
@@ -190,4 +285,15 @@ export default function Page() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

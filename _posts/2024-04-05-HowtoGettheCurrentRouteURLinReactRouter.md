@@ -3,17 +3,13 @@ title: "React Router에서 현재 라우트 URL을 얻는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How to Get the Current Route URL in React Router"
 link: "https://medium.com/codingbeauty-tutorials/react-router-get-current-route-9c2e6bd8d689"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/HowtoGettheCurrentRouteURLinReactRouter_0.png" />
 
@@ -23,7 +19,18 @@ React Router에서 현재 경로를 가져오려면 useLocation() route를 사�
 
 JavaScript
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import React from "react";
@@ -92,7 +99,18 @@ export default function App() {
 
 참고
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 풀 URL을 얻으려면 useLocation() 대신 location.href를 사용합니다.
 
@@ -104,7 +122,18 @@ const url = window.location.href;
 
 # React에서 현재 페이지 URL 가져오기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트에서 현재 페이지 URL을 가져오고 싶다면 window.location.href를 사용할 수 있어요.
 
@@ -125,7 +154,18 @@ export default function App() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 window.location.href 속성은 전체 페이지 URL을 포함하는 문자열을 반환합니다.
 
@@ -137,7 +177,18 @@ window.location에는 URL에 대한 더 많은 정보를 제공하는 다른 속
 
 다음은 이러한 속성을 사용하여 전체 URL 외에도 다양한 URL 속성을 가져오는 예시입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 JavaScript
 
@@ -166,7 +217,18 @@ export default function App() {
 
 React Router에서 동적 라우트의 변수에 직접 액세스하려면 useParams() 훅을 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어:
 
@@ -196,7 +258,18 @@ export default function App() {
 
 id 변수는 /posts/:id 경로의 자리 표시자 값과 일치합니다. 따라서 예제에서 보았듯이, 경로 /posts/5 는 id 값이 5가되도록 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Next.js 앱에서 현재 경로 가져오기
 
@@ -206,7 +279,18 @@ useRouter() 함수가 반환하는 객체에는 Next.js 앱의 현재 경로인 
 
 pages/posts.tsx
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import Head from "next/head";
@@ -243,7 +327,18 @@ export default function Posts() {
 
 현재 앱 경로와 관련된 데이터를 가져오고 조치를 취하기 위해 `useRouter()`를 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Next.js에서 현재 동적 경로 데이터 가져오기
 
@@ -253,7 +348,18 @@ export default function Posts() {
 
 다음은 동적 경로로의 요청을 처리하는 Next.js 파일에서 어떻게 액세스하는지에 대한 예시입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 pages/posts/[id].tsx
 
@@ -289,7 +395,18 @@ export default function Posts() {
 
 현재 앱 루트에 대한 데이터를 가져오고 작업을 수행하기 위해 useRouter()를 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Next.js에서 쿼리 매개변수 데이터 가져오기
 
@@ -325,7 +442,18 @@ export default function Posts() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 주요 내용
 
@@ -339,7 +467,18 @@ export default function Posts() {
 
 이 안내서는 ECMAScript 13에 추가된 모든 최신 기능에 대해 알려드립니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 강력한 새로운 기능들은 더 짧고 표현력이 풍부한 코드로 당신의 JavaScript를 현대화할 것입니다.
 

@@ -3,16 +3,13 @@ title: "접근성을 위해 버튼을 절대 비활성화면 안되는 이유"
 description: ""
 coverImage: "/assets/img/2024-05-01-NevereverdisablebuttonsWhynot_0.png"
 date: 2024-05-01 23:13
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-01-NevereverdisablebuttonsWhynot_0.png
 tag: Tech
 originalTitle: "Never, ever disable buttons — Why not?"
 link: "https://medium.com/user-experience-design-1/never-ever-disable-buttons-part-1-why-not-73d16a0fb32b"
 isUpdated: true
 ---
-
-
-
 
 ## 사용 불가능한 컨트롤
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 버튼을 비활성화하는 문제
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **이 섹션에서는 버튼을 비활성화하는 것이 사용자에 대한 나쁜 해결책인 이유에 대해 이야기하겠습니다. 이에는 홍보되는 소통 부족 및 특정 사용자들이 인식할 수 없는 점이 포함됩니다.**
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 **결론**
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 링크
 
@@ -42,7 +61,18 @@ isUpdated: true
 
 **사용자:** "왜 비활성화되었죠?" **개발자:** "그건 당신의 문제죠."
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 버튼을 비활성화하는 데는 접근성 문제가 있을 수 있습니다(우리가 나중에 살펴볼 것이지만), 보조 기술(AT)을 의존하지 않는 사람들에게도 안좋은 메시지를 전달하고 있다고 생각해요.
 
@@ -54,7 +84,18 @@ isUpdated: true
 - "이 버튼은 지금 작동하지 않지만, 앞으로 작동할지에 대해 알려주지 않겠습니다."
 - "이 버튼이 비활성화된 이유는 당신의 문제입니다."
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신이 명백하게 이런 생각을 하지는 않겠지만, 그게 당신이 전달하고 있는 바입니다 — 또는 적어도, 그게 고객이 당신이 전달하고 있는 것이라고 생각하는 것입니다. 그것이 정말 중요한 부분이죠.
 
@@ -64,7 +105,18 @@ Hampus Sethfors가 "비활성화된 버튼은 최악입니다" 라는 제목의 
 
 사용자가 일반적으로 할 수 있는 작업을 수행하지 못하도록 하려면, 사용자가 알아야 하는 정보가 필요합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 그들은 그 행동을 할 수 없습니다.
 - 그들이 그 행동을 왜 할 수 없는지
@@ -76,7 +128,18 @@ Hampus Sethfors가 "비활성화된 버튼은 최악입니다" 라는 제목의 
 
 ## 스크린리더 사용자: "어떤 버튼?" 개발자: "여기 있어요. 보이지 않나요?"
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 버튼을 비활성화하면 보조 기술을 사용하는 많은 사용자들에게 숨겨지기 때문에요.
 
@@ -86,7 +149,18 @@ Hampus Sethfors가 "비활성화된 버튼은 최악입니다" 라는 제목의 
 
 세 개의 필수 필드가 있는 양식이 있다고 가정해봅시다. 세 필수 필드에 값이 모두 입력되었을 때에만 제출 버튼이 활성화되도록 하는 멋진 자바스크립트가 있다고 해봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AT(AT) 사용자가 양식 중 하나에 아무 내용도 입력하지 못한 채 실수로 양식을 완료한다고 생각합니다. 그 후:
 
@@ -100,7 +174,18 @@ AT(AT) 사용자가 양식 중 하나에 아무 내용도 입력하지 못한 �
 제임스 칼튼
 의 "UI 함정: 비활성화된 버튼 및 입력란"이라는 기사에서 쓴 내용입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 색각 이상이 있는 사용자: "버튼이 비활성화돼있어?" 개발자: "네! 못 봤어?"
 
@@ -110,7 +195,18 @@ AT(AT) 사용자가 양식 중 하나에 아무 내용도 입력하지 못한 �
 
 버튼이 비활성화되어 있는 것을 충분히 전달하는 방법에 대해 궁금하시다면, 이 기사의 제목을 다시 읽어보시라고 제안합니다: "절대로, 절대로 버튼을 비활성화하지 마세요."
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 이의에 대한 대답
 
@@ -120,7 +216,18 @@ AT(AT) 사용자가 양식 중 하나에 아무 내용도 입력하지 못한 �
 
 ## 이의 #1: WCAG는 허용한다고 말합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이의가 SC 1.4.3에 해당하는 것으로 추정합니다: 최소 대비:
 
@@ -130,7 +237,18 @@ WCAG가 이 법적 규정을 남겨 놓은 이유와(SC 1.4.1의 색상 사용 �
 
 그것들을 "지침"이라고 부르는 이유가 있습니다. WCAG를 최소한의 기준으로 간주하세요. 만약 귀하의 목표가 접근성이라면, 버튼을 비활성화하지 마세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 이의 제기 #2: 비활성화된 버튼이 필요한 특별한 사용 사례가 있어요
 
@@ -140,7 +258,18 @@ WCAG가 이 법적 규정을 남겨 놓은 이유와(SC 1.4.1의 색상 사용 �
 
 결국 사용자가 당신처럼 웹을 활용하고 생각한다고 가정하거나 접근성 해결책을 위해 필요한 작업을 하지 않고자 하는 것으로 보입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "테이블이 첫 번째 페이지나 마지막 페이지에 있을 때 페이지네이션 버튼을 어떻게 처리해야 할까요?"
 버튼을 비활성화하는 방법을 사용하지 않고도 접근성 있는 해결책이 있습니다.
@@ -152,7 +281,18 @@ WCAG가 이 법적 규정을 남겨 놓은 이유와(SC 1.4.1의 색상 사용 �
 
 그래서 유효성 검사를 하는 것입니다."
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고, 버튼을 비활성화하는 것은 잘못된 데이터가 있음을 사용자에게 전달하지 않는다. 사용자의 관점에서는 당신의 양식이 망가졌다고 생각할 수도 있어요.
 
@@ -162,7 +302,18 @@ WCAG가 이 법적 규정을 남겨 놓은 이유와(SC 1.4.1의 색상 사용 �
 
 그러니 보안이나 잘못된 입력을 위한 문으로서 비활성화된 버튼을 사용하지 마세요. 유효성 검사가 해야 할 역할을 하도록 두세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 이의 제기 #4: 버튼을 비활성화하고 툴팁을 제공하지 않으면 안 되나요?
 
@@ -172,7 +323,18 @@ WCAG가 이 법적 규정을 남겨 놓은 이유와(SC 1.4.1의 색상 사용 �
 
 title 속성을 사용할 때 대상 컨트롤이 포커스를 가지거나 사용자가 마우스 커서를 올리는 경우에만 작동한다는 것을 말하는 건가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 수비된 컨트롤은 초점을 받지 않습니다. 스크린 리더 사용자인 경우는 물론, 초점을 받지 않는 상태에서 사용자가 해당 텍스트를 인지할 수 없습니다.
 
@@ -182,7 +344,18 @@ title 속성을 사용할 때 대상 컨트롤이 포커스를 가지거나 사�
 
 ## 이의제기 #5: "F" 키를 사용하는 AT 사용자는 버튼을 여전히 인지할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 네, 그 말이 맞아요.
 
@@ -192,7 +365,18 @@ title 속성을 사용할 때 대상 컨트롤이 포커스를 가지거나 사�
 
 또한, 색각 이상 사용자도 있습니다. 그들은 여전히 몇 번 클릭하지 않고는 버튼이 비활성화되었음을 감지하지 못할 것입니다 — 이것이 고장났다고 결론을 내리지 않는다고 가정합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 이의 제기 #6: 유용한 솔루션에 시간이 없어요. 버튼 비활성화는 빠르고 간편하며 대다수 사용자에게 문제를 해결해줍니다.
 
@@ -202,7 +386,18 @@ title 속성을 사용할 때 대상 컨트롤이 포커스를 가지거나 사�
 
 네, 버튼에 비활성 속성을 덧붙이는 것보다 더 많은 작업이 필요해요. 하지만, 여러분이 제공하는 더 다양한 유용한 솔루션들이 있다면, 앞으로 유용한 솔루션들을 만드는 것이 더 쉬워질 거에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 반론 #7: 접근 가능한 솔루션이 추한 것일 것이다
 
@@ -212,7 +407,18 @@ title 속성을 사용할 때 대상 컨트롤이 포커스를 가지거나 사�
 
 그리고, 내가 아는 대부분의 UX 전문가들은 도전을 좋아해요. 이것을 도전으로 만들어 보세요: 추하지 않은, 사용하기 쉬우면서 접근 가능한 솔루션을 찾아보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 이의 제기 #8: 버튼 비활성화는 세기 전환 이후에 흔했던 관행입니다
 
@@ -224,7 +430,18 @@ title 속성을 사용할 때 대상 컨트롤이 포커스를 가지거나 사�
 <P CLASS="retro">그렇죠, 바뀌었어요.</P>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "늘 그래왔으니까"는 흔한 변명은 하지 않겠어요. 게다가 이것으로는 접근성 문제를 해결할 수 없어요.
 
@@ -234,7 +451,18 @@ title 속성을 사용할 때 대상 컨트롤이 포커스를 가지거나 사�
 
 나한테 '해결책을 제시하지 않았다'는 댓글을 보내시기 전에, 네 말이 맞아요. 그렇게 하면 기사가 아주 길어지겠죠. 그래서 이것은 Part 1입니다. 차기 기사에서는 버튼 비활성화에 대한 접근 가능한 대안을 살펴볼 거에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제가 빠뜨린 이의사항이 있으면 알려주세요. 접근성 문제를 초래시키는 문제에 비해 버튼을 비활성화하는 좋은 이유를 아직 발견하지 못했습니다.
 
@@ -247,7 +475,18 @@ title 속성을 사용할 때 대상 컨트롤이 포커스를 가지거나 사�
 - 색맹 사용자: 버튼을 클릭하고 있지만 아무 일도 일어나지 않아요. 비활성화되었건가 고장났나요? 누가 알겠어요?
 - 스크린 리더 사용자: 버튼이 어디 있죠?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 끝으로 버튼을 비활성화함으로써, 한 그룹의 사용자(전형적인 시각 장애가 없는 마우스/키보드 사용자)에게 웹 페이지 이용 방법에 대한 정보를 제공하지만 다른 그룹(AT 사용자)에게는 그 정보를 제공하지 않고 숨기게 됩니다.
 
@@ -257,20 +496,42 @@ title 속성을 사용할 때 대상 컨트롤이 포커스를 가지거나 사�
 
 여기 [Part 3]가 있어요: 절대로 버튼 비활성화하지 말아야 하는 이유 — 더 많은 접근성 대안들.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 링크
 
 ## 언급된 글들
 
 - Disabled buttons suck by
-Hampus Sethfors
+  Hampus Sethfors
 - UI Traps: Disabled Buttons and Inputs by
-James Carleton
+  James Carleton
 
 ## 추가로 읽어볼 만한 글들
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 비활성 버튼의 대비 수준은 어떻게 되어야 할까? by Giulia Alfarano
 - 버튼을 비활성화하지 마세요 by Chris Ferdinandi

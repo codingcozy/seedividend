@@ -3,17 +3,13 @@ title: "z-index가 작동하지 않는 이유"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Why Is My z-index Not Working A Comprehensive Guide to Understanding and Fixing z-index Issues"
 link: "https://medium.com/@harshvardhanonweb/why-is-my-z-index-not-working-a-comprehensive-guide-to-understanding-and-fixing-z-index-issues-06614675fd5b"
 isUpdated: true
 ---
-
-
-
-
 
 # z-index의 수수께끼 해독: 개발자를 위한 안내서
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 당신도 가끔 CSS z-index가 제대로 작동하지 않는 상황에 처해본 적이 있으신가요? 만약 그렇다면, 외로운 건 아닙니다. z-index는 통제하기 어려운 속성으로, 종종 당혹과 혼란을 초래합니다. 이 안내서에서는 z-index가 예상대로 작동하지 않는 일반적인 이유를 살펴보고, 이를 해결하기 위한 실용적인 해결책을 제공할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # z-index 이해하기
 
@@ -33,7 +40,18 @@ z-index는 웹 페이지의 요소들의 쌓임 순서를 제어하는 CSS 속�
 
 # z-index 작동하지 않는 일반적인 이유
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1. 위치 지정 부족
 
@@ -48,7 +66,18 @@ z-index가 예상대로 작동하지 않는 일반적인 이유 중 하나는 �
 
 ## 2. 상위 스택 콘텍스트(coantext)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다루는 또 다른 잠재적 문제는 쌓임 맥락에 대한 처리 시 발생할 수 있습니다. 문서의 각 요소는 쌓임 순서를 결정하는 쌓임 맥락에 속합니다. 요소의 부모가 낮은 z-index 값을 가지거나 위치 지정이 되어 있지 않은 경우, 각 요소의 개별적인 z-index 값과는 관계없이 해당 요소의 쌓임 순서에 영향을 줄 수 있습니다.
 
@@ -72,7 +101,18 @@ z-index가 예상대로 작동하지 않는 일반적인 이유 중 하나는 �
 
 ## 3. z-index 및 Flexbox/Grid
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Flexbox 또는 CSS 그리드를 사용할 때 z-index 속성이 예상대로 작동하지 않을 수 있습니다. 이는 그들이 생성하는 다른 쌓임 맥락 때문입니다. 플렉스 컨테이너나 그리드 컨테이너 내의 요소들은 그 밖의 요소들과 다르게 쌓일 수 있습니다.
 
@@ -102,7 +142,18 @@ Flexbox 또는 CSS 그리드를 사용할 때 z-index 속성이 예상대로 작
 
 # z-index 문제 해결 방법
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1. 올바른 위치 지정 확인하기
 
@@ -112,7 +163,18 @@ z-index를 사용하여 쌓을 요소들이 적절하게 위치 지정되어 있
 
 쌓임 순서에 영향을 미칠 수 있는 부모 요소들의 쌓임 맥락을 확인하세요. 필요에 따라 z-index 값이나 위치를 조정하여 대상 요소의 쌓임 순서를 조절하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 3. 대안 방법 고려하기
 
@@ -122,7 +184,18 @@ z-index를 사용하여 쌓을 요소들이 적절하게 위치 지정되어 있
 
 ## Q: z-index에 음수 값을 사용할 수 있나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 A: 네, z-index에 음수 값을 사용할 수 있어요. 음수 z-index 값을 가진 요소는 양수 값을 가진 요소 뒤에 표시돼요.
 
@@ -132,7 +205,18 @@ A: 동일한 z-index 값의 경우, 스택 순서는 HTML 문서에서 요소의
 
 ## Q: 인라인 요소에도 z-index를 적용할 수 있나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 A: 네, 인라인 요소에 z-index를 적용할 수 있지만 요소가 위치 지정되어 있어야 효과가 있습니다.
 

@@ -3,16 +3,13 @@ title: "시니어 개발자도 모르는 CSS 속성과 기술들"
 description: ""
 coverImage: "/assets/img/2024-05-01-UnveilingHiddenTreasuresLesser-KnownCSSPropertiesandTechniques_0.png"
 date: 2024-05-01 23:05
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-01-UnveilingHiddenTreasuresLesser-KnownCSSPropertiesandTechniques_0.png
 tag: Tech
 originalTitle: "Unveiling Hidden Treasures: Lesser-Known CSS Properties and Techniques"
 link: "https://medium.com/dev-genius/unveiling-hidden-treasures-lesser-known-css-properties-and-techniques-1d92716a5ce2"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-05-01-UnveilingHiddenTreasuresLesser-KnownCSSPropertiesandTechniques_0.png" />
 
@@ -26,7 +23,18 @@ div {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](https://miro.medium.com/v2/resize:fit:1400/1*2PbamXURjubWXJKy1oSWlg.gif)
 
@@ -40,7 +48,18 @@ div {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Scroll Snap Example](https://miro.medium.com/v2/resize:fit:1212/1*_S39ZNCxYi2eOIh66HTmKg.gif)
 
@@ -58,7 +77,18 @@ div {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](https://miro.medium.com/v2/resize:fit:900/1*nt6BatwGw0hctcRxLiAi_Q.gif)
 
@@ -72,7 +102,18 @@ div {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](https://miro.medium.com/v2/resize:fit:1400/1*fn8-zI7MWHBHw73F8P0fBg.gif)
 
@@ -86,7 +127,18 @@ div {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 6. shape-outside: 텍스트를 모양 주변으로 감싸기
 
@@ -100,7 +152,18 @@ img {
 
 <img src="https://miro.medium.com/v2/resize:fit:1304/1*C5njQ4Z4M216a5M_OEygPA.gif" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 7. 오버스크롤 동작 사용자 정의: 스크롤 동작을 제어하세요
 
@@ -114,7 +177,18 @@ div {
 
 ![예시 이미지](https://miro.medium.com/v2/resize:fit:784/1*K_A4_GW4p9mkJzmU_YBUbg.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 8. 텍스트 방향 및 writing-mode: 수직 텍스트 레이아웃
 
@@ -129,8 +203,18 @@ p {
 
 ![수직 텍스트 레이아웃](https://miro.medium.com/v2/resize:fit:1400/1*Wz7buEDtszMgOhHrF-tbTg.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](https://miro.medium.com/v2/resize:fit:1400/1*4MPGEuRjtxEsaUJ-FEgOhQ.gif)
 
@@ -142,10 +226,20 @@ p {
 ul {
   content-visibility: auto;
 }
-``` 
+```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](https://miro.medium.com/v2/resize:fit:1400/1*C2Q223zce9QYqesknQHaNQ.gif)
 
@@ -157,10 +251,20 @@ ul {
 div {
   aspect-ratio: 16 / 9;
 }
-``` 
+```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![CSS](https://miro.medium.com/v2/resize:fit:1400/1*FTxfXRBfT7sTlZHRG3oolQ.gif)
 

@@ -3,16 +3,13 @@ title: "파이썬, Jinja2, Weasyprint를 사용한 인보이스 생성기 만들
 description: ""
 coverImage: "/assets/img/2024-06-23-CreateAnInvoiceGeneratorUsingPythonJinja2Weasyprint_0.png"
 date: 2024-06-23 14:41
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-CreateAnInvoiceGeneratorUsingPythonJinja2Weasyprint_0.png
 tag: Tech
 originalTitle: "Create An Invoice Generator Using Python, Jinja2 , Weasyprint"
 link: "https://medium.com/@hammad.ai/create-an-invoice-generator-using-python-jinja2-weasyprint-48ef1f450ac5"
 isUpdated: true
 ---
-
-
-
 
 프리랜서 프로젝트로 작은 작업을 부탁받을 때는 어떻게 하시나요?
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 이 작업을 위한 빠르고 간편한 솔루션이 필요했기 때문에 이 스크립트를 만들었고, 정확히 어떻게 만들었는지 보여드릴게요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-23-CreateAnInvoiceGeneratorUsingPythonJinja2Weasyprint_0.png" />
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 invoice 자체는 jinja2 구문으로 작성된 HTML 파일입니다. 이 템플릿에 렌더링되는 데이터는 data.json에서 제공됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당연히 나는 render_template()를 팩토리로 사용하는 원시적인 팩토리 디자인 패턴을 선택했고 이는 invoice_gen.py 내에 있습니다.
 
@@ -44,7 +63,18 @@ invoice 자체는 jinja2 구문으로 작성된 HTML 파일입니다. 이 템플
 
 조금 더 이해하기 쉽게 하기 위해 아래 다이어그램에서 어떻게 작동하는지 설명했습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 기술
 
@@ -55,7 +85,18 @@ invoice 자체는 jinja2 구문으로 작성된 HTML 파일입니다. 이 템플
 
 # 데이터 파일
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이건 저희가 템플릿에 렌더링하려는 모든 정보를 포함한 JSON 파일입니다. 제 파일은 다음과 같은 형식을 가지고 있어요:
 
@@ -112,7 +153,18 @@ invoice 자체는 jinja2 구문으로 작성된 HTML 파일입니다. 이 템플
 
 # 주요 스크립트
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 data.json 파일에 정의된 데이터 세트에서 송장을 생성하는 프로세스는 송장을 만들기 위해 여러 리소스를 사용합니다. 클라이언트에게 보낼 수 있는 송장을 생성합니다.
 
@@ -125,16 +177,27 @@ import json
 
 그런 다음, Jinja HTML 템플릿에 일부 컨텍스트를 삽입하는 함수를 작성하고 나중에 이러한 템플릿을 pdf로 변환할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 def render_template(
-    template_file: str, 
-    context: dict, 
-    styles: list, 
+    template_file: str,
+    context: dict,
+    styles: list,
     output_filename: str
 ) -> str:
-    
+
     # 템플릿 파일을 가져와 컨텍스트 변수를 사용하여 렌더링합니다.
     template = Template(template_file)
     rendered_html = template.render(context)
@@ -161,7 +224,7 @@ def render_template(
 context_data = {}
 with open("./data.json") as data:
     context_data = get_context_data(json.load(data))
-    
+
 # Jinja 템플릿 로드
 template_html = ""
 with open(TEMPLATE_HTML_PATH) as template:
@@ -174,7 +237,18 @@ print(f"PDF 생성됨: {pdf_filename}")
 
 get_context_data() 함수에서 컨텍스트 데이터를 불러오고, 이 함수는 settings.py에 위치합니다. 이 함수는 파이썬 딕셔너리 하나를 매개변수로 받습니다. 이 딕셔너리는 data.json에서 가져옵니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 또한 Jinja 템플릿(HTML 파일)을 로드하고 'with' 키워드와 'open' 함수를 사용하여 내용을 읽습니다. TEMPLATE_HTML_PATH는 settings.py에서 왔는데, 이는 다음 섹션에서 설명됩니다.
 
@@ -184,7 +258,18 @@ get_context_data() 함수에서 컨텍스트 데이터를 불러오고, 이 함�
 
 이 파일에는 스크립트의 모든 사용자 정의 가능한 부분이 포함되어 있습니다. 따라서 위에서 언급한 스크립트의 결과를 변경하고 싶다면, 이 파일을 변경하면 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 의존성을 가져오세요. 이제 weasyprint가 포함되어 있습니다.
 
@@ -206,7 +291,18 @@ TEMPLATE_CSS = [
 ]
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 첫 두 변수는 설명이 분명하기 때문에 그에 대해 많은 시간을 낭비하지 않을 겁니다.
 
@@ -216,7 +312,18 @@ TEMPLATE_CSS = [
 
 이 목록의 첫 번째 요소는 제 개인적인 사용자 정의 CSS이므로 상대 경로를 갖고 있습니다. 다른 두 개는 Bootstrap 및 Font Awesome CDNs에서 가져온 링크입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 def get_context_data(context_json:dict)->dict:
@@ -233,8 +340,18 @@ get_context_data()는 정확히 그 이름이 의미하는 대로 동작합니�
 
 하지만 위의 함수에서 그중 어떤 것도 계산하지는 않았습니다. 그 이유는 저는 계산을 Jinja 템플릿 내에서 수행하기로 선택했기 때문입니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어찌되었든, 여기저기 숫자를 하드 코딩하진 않아요.
 
@@ -244,7 +361,18 @@ get_context_data()는 정확히 그 이름이 의미하는 대로 동작합니�
 
 # 샘플 미리보기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-23-CreateAnInvoiceGeneratorUsingPythonJinja2Weasyprint_1.png" />
 

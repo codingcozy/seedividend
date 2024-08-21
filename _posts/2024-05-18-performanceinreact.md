@@ -3,16 +3,13 @@ title: "리액트 웹사이트 성능 향상 시키는 방법"
 description: ""
 coverImage: "/assets/img/2024-05-18-performanceinreact_0.png"
 date: 2024-05-18 21:42
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-18-performanceinreact_0.png
 tag: Tech
 originalTitle: "performance in react ⚡"
 link: "https://medium.com/@lott.marcos/performance-in-react-e35511d9b21c"
 isUpdated: true
 ---
-
-
-
 
 현대 웹 애플리케이션을 개발할 때 최적의 성능을 달성하는 것이 중요합니다. ReactJS는 개발자가 빠르고 반응이 뛰어나며 효율적인 애플리케이션을 만들 수 있도록 도와주는 강력한 도구와 기술을 제공하지만, 이들을 어떻게 사용해야 하는지 알아야 합니다! 이 글에서는 ReactJS에서 성능을 극대화하기 위한 주요 원칙을 탐구하며, 재렌더링을 최소화하고 DOM과 가상 DOM 간의 차이를 이해하며 불변성을 활용하고 메모이제이션을 구현하는 것에 초점을 맞출 것입니다.
 
@@ -22,7 +19,18 @@ React의 성능 최적화의 핵심은 재렌더링을 최소화하는 원칙에
 
 # DOM vs. 가상 DOM 🌐
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 DOM 및 가상 DOM과 같은 개념이 성능과 연관이 있는 이유는 React와 같은 프레임워크가 사용자 인터페이스 업데이트를 다루는 방식 때문입니다. 문서 객체 모델(DOM)은 웹 문서를 프로그래밍적으로 다루는 인터페이스로, 웹페이지의 구조를 객체 트리로 표현합니다. 이 트리의 각 노드는 요소, 속성, 텍스트 컨텐츠와 같은 문서의 부분을 나타냅니다. 이것은 기본적으로 브라우저가 HTML 코드를 이해하는 방식입니다:
 
@@ -33,7 +41,18 @@ DOM 및 가상 DOM과 같은 개념이 성능과 연관이 있는 이유는 Reac
 하지만 React는 어떻게 이를 효율적으로 처리할까요?
 React는 실제 DOM의 추상화인 가상 DOM을 생성합니다. 이는 React가 메모리에 유지하는 DOM의 가벼운 사본입니다. React 컴포넌트의 상태가 변경되면 React는 먼저 가상 DOM을 업데이트합니다. 그런 다음에 실제 DOM을 새로운 가상 DOM 상태와 일치하도록 업데이트해야 하는 최소한의 변경 세트를 효율적으로 결정합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 말은 React가 모든 상태 변경에 대해 즉시 DOM을 업데이트하는 대신 변경 사항을 수집하고 한 번에 DOM을 업데이트한다는 것을 의미합니다. 이로써 DOM에 액세스하고 수정하는 횟수가 감소하여 성능이 향상됩니다. 이 프로세스를 reconciliation이라고 합니다.
 
@@ -43,7 +62,18 @@ React는 실제 DOM의 추상화인 가상 DOM을 생성합니다. 이는 React�
 
 ## 불변성🔒
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 불변성은 데이터 구조를 생성한 후에 수정하지 않는 실천 방식을 의미합니다. 대신, 모든 수정은 새로운 데이터 구조를 생성합니다. 이 개념은 React에서 아래와 같은 이유로 중요합니다:
 
@@ -55,7 +85,18 @@ React는 실제 DOM의 추상화인 가상 DOM을 생성합니다. 이는 React�
 
 앞에서 언급했듯이 불변 데이터를 사용하면 React의 diffing 알고리즘이 애플리케이션의 상태 변화를 더 효율적으로 추적할 수 있습니다. 왜냐하면 객체 참조를 간단히 비교함으로써 각 객체의 속성을 깊게 비교할 필요가 없기 때문입니다. JavaScript는 객체 포인터가 다른 메모리 위치에 있는지 확인함으로써 모든 키를 확인하지 않고도 차이점을 확인할 수 있습니다. 이렇게 하면 훨씬 빨라집니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 메모이제이션 🧠
 
@@ -65,7 +106,18 @@ React는 실제 DOM의 추상화인 가상 DOM을 생성합니다. 이는 React�
 
 ![React 성능 개선 이미지](/assets/img/2024-05-18-performanceinreact_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 메모이제이션과 불변성의 관계 🔗
 
@@ -77,9 +129,20 @@ React는 실제 DOM의 추상화인 가상 DOM을 생성합니다. 이는 React�
 
 데이터가 불변하면 메모이제이션 함수나 컴포넌트의 의존성이 안정적으로 유지됩니다. 이 안정성은 메모이제이션 값을 또는 콜백을 필요한 경우에만 다시 계산함으로써 불필요한 계산과 새로고침을 피할 수 있도록 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-![이미지](/assets/img/2024-05-18-performanceinreact_3.png) 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+![이미지](/assets/img/2024-05-18-performanceinreact_3.png)
 
 # 결론 📢
 
@@ -87,7 +150,18 @@ React는 실제 DOM의 추상화인 가상 DOM을 생성합니다. 이는 React�
 
 React 핵심 개념을 조화롭게 통합함으로써, 개발자들은 응답성이 뛰어나고 성능이 우수한 사용자 경험을 제공하여 응용 프로그램의 최대 잠재력을 발휘할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 음… 그것이 다야!
 내 LinkedIn에 연락해 보고 메시지를 보내주세요. 멋진 경험이 될 거에요!

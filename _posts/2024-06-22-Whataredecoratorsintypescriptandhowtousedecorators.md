@@ -3,16 +3,13 @@ title: "TypeScript 데코레이터란 무엇이며, 데코레이터를 사용하
 description: ""
 coverImage: "/assets/img/2024-06-22-Whataredecoratorsintypescriptandhowtousedecorators_0.png"
 date: 2024-06-22 14:46
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-Whataredecoratorsintypescriptandhowtousedecorators_0.png
 tag: Tech
 originalTitle: "What are “decorators” in typescript and how to use “decorators”?"
 link: "https://medium.com/@InspireTech/what-are-decorators-in-typescript-and-how-to-use-decorators-d82d15c5851f"
 isUpdated: true
 ---
-
-
-
 
 `<img src="/assets/img/2024-06-22-Whataredecoratorsintypescriptandhowtousedecorators_0.png" />`
 
@@ -22,7 +19,18 @@ Typescript 5.0부터 Stage 3 데코레이터 지원이 가능합니다.
 
 ## 데코레이터 사용 방법:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데코레이터에 대한 실험적인 지원을 활성화하려면 명령줄에서 tsc --target ES5 --experimentalDecorators를 사용하거나 tsconfig.json에서 experimentalDecorators 컴파일러 옵션을 활성화해야 합니다:
 
@@ -59,7 +67,18 @@ Hello, my name is Ron.
 I am 25 years old
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 각 함수 실행이 시작하고 끝나는 시점을 기록하고 싶어요:
 
@@ -86,7 +105,7 @@ user.printAge();
 
 
 
-Output: 
+Output:
 start: greet
 Hello, my name is Ron.
 end: greet
@@ -110,7 +129,18 @@ function logger(originalMethod: any, _context: any) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 메소드를 꾸밈을 준비했어요. 위의 예시에서 데코레이터를 사용해봅시다:
 
@@ -135,7 +165,7 @@ user.printAge();
 
 
 
-Output: 
+Output:
 start: greet
 Hello, my name is Ron.
 end: greet
@@ -146,7 +176,18 @@ end: printAge
 
 쉽죠? TypeScript는 여러 데코레이터를 지원합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
   @logger
@@ -197,7 +238,7 @@ function logger2(originalMethod: any, _context: any) {
 
 
 
-Output: 
+Output:
 log2
 log1
 Hello, my name is Ron.
@@ -205,7 +246,18 @@ Hello, my name is Ron.
 
 하나의 선언에 여러 데코레이터가 적용되면, 그 평가는 수학의 함수 합성과 유사합니다. 이 모델에서 함수 f와 g를 합성할 때, 결과 컴포지트(f ∘ g)(x)는 f(g(x))와 동등합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 올바른 형식의 데코레이터 예제:
 
@@ -231,7 +283,18 @@ function loggedMethod<This, Args extends any[], Return>(
 
 ## 1. 클래스 데코레이터
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 클래스 데코레이터는 클래스 선언 바로 전에 선언됩니다. 클래스 데코레이터는 클래스의 생성자에 적용되며, 클래스 정의를 관찰, 수정 또는 대체하는 데 사용할 수 있습니다. 클래스 데코레이터는 선언 파일이나 다른 주변 컨텍스트(예: 선언 클래스에 대해)에서 사용할 수 없습니다.
 
@@ -241,7 +304,18 @@ function loggedMethod<This, Args extends any[], Return>(
 
 여기에는 클래스 데코레이터를 사용하여 created 속성을 설정하려는 예제가 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 class User {
@@ -275,7 +349,18 @@ console.log(user.name, user.created)
 
 ## 2. 메소드 데코레이터
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 메소드 데코레이터는 메소드 선언 바로 전에 선언됩니다. 데코레이터는 해당 메소드의 속성 설명자에 적용되며, 메소드 정의를 관찰, 수정 또는 교체하는 데 사용할 수 있습니다. 메소드 데코레이터는 선언 파일에서, 오버로드에서, 또는 기타 환경에서 (예: 선언 클래스 내) 사용할 수 없습니다. 이미 메소드 데코레이터 예제를 보았으므로 추가적인 자세한 내용은 다루지 않겠습니다:
 
@@ -313,7 +398,18 @@ end: printAge
 
 접근자 데코레이터는 접근자 선언 바로 전에 선언됩니다. 접근자 데코레이터는 해당 접근자의 속성 설명자에 적용되며, 접근자의 정의를 관찰, 수정 또는 교체하는 데 사용할 수 있습니다. 접근자 데코레이터는 선언 파일이나 기타 환경 (예: 선언 클래스 내)에서 사용할 수 없습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 액세서 데코레이터의 표현은 런타임에서 다음 세 가지 인수와 함께 함수로 호출될 것입니다:
 
@@ -325,7 +421,18 @@ end: printAge
 
 다음은 Point 클래스의 멤버에 적용된 액세서 데코레이터 예시(@configurable)입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```typescript
 class Point {
@@ -353,7 +460,18 @@ function configurable(value: boolean) {
 
 프로퍼티 데코레이터의 표현식은 런타임 시 함수로 호출되며 아래 두 인수를 전달받습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 정적 멤버의 클래스 생성자 함수이거나 인스턴스 멤버의 클래스 프로토타입입니다.
 - 멤버의 이름입니다.
@@ -424,7 +542,18 @@ john@example.com
 - User의 인스턴스를 만들 때 email 속성을 유효한 이메일 주소로 설정하면 예상대로 작동합니다.
 - email 속성을 유효하지 않은 이메일 주소(예: `invalid-email`)로 설정하려고 하면 데코레이터가 유효하지 않은 이메일 주소임을 나타내는 오류를 throw합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 5. 매개변수 데코레이터
 
@@ -436,7 +565,18 @@ john@example.com
 - 멤버의 이름.
 - 함수의 매개변수 목록에서 매개변수의 순서 인덱스.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파라미터 데코레이터의 반환 값은 무시됩니다.
 
@@ -486,7 +626,18 @@ try {
 - sendEmail 메서드를 호출할 때, 제공된 이메일 파라미터가 이메일 유효성 정규 표현식과 일치하는지 확인합니다. 일치하지 않으면 오류를 throw합니다.
 - 유효한 이메일로 한 번, 그리고 유효하지 않은 이메일을 주면 이메일 유효성 오류가 발생하는 두 가지 sendEmail 메서드 호출을 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예제는 메서드 매개변수의 간단한 이메일 유효성 검사를 수행하기 위해 매개변수 데코레이터를 사용하는 방법을 보여줍니다. 특정 요구 사항에 따라 정규 표현식을 조정하거나 필요에 따라 더 복잡한 이메일 유효성 검사 로직을 추가할 수 있습니다.
 

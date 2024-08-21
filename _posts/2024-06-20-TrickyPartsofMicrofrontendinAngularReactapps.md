@@ -3,16 +3,13 @@ title: "앵귤러와 리액트 앱에서의 마이크로프론트엔드의 까�
 description: ""
 coverImage: "/assets/img/2024-06-20-TrickyPartsofMicrofrontendinAngularReactapps_0.png"
 date: 2024-06-20 05:33
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-TrickyPartsofMicrofrontendinAngularReactapps_0.png
 tag: Tech
 originalTitle: "Tricky Parts of Microfrontend in Angular   React apps"
 link: "https://medium.com/@kenjj/tricky-parts-of-microfrontend-in-angular-react-apps-3940641b48f3"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-06-20-TrickyPartsofMicrofrontendinAngularReactapps_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 # 정신적 모델:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 원격: 원격은 별도로 구축되고 배포되는 애플리케이션입니다. 다른 애플리케이션에서 로드할 수있는 ESM을 노출 할 수 있습니다.
 - 쉘: 쉘은 필요할 때 원격을 로드합니다. 프레임워크 관점에서 이 기능은 전통적인 지연 로딩과 비슷합니다. 큰 차이점은 컴파일 시간에 쉘이 원격을 모르는 것입니다.
@@ -32,27 +40,35 @@ isUpdated: true
 독립 구성 요소를 노출합니다. 예를 들어 간단한 프로필 구성 요소를 만들고 federation.config.js로 구성을 업데이트합니다.
 
 ```js
-const {
- withNativeFederation,
- shareAll,
-} = require('@angular-architects/native-federation/config');
+const { withNativeFederation, shareAll } = require("@angular-architects/native-federation/config");
 
 module.exports = withNativeFederation({
- name: 'profile',
- exposes: {
-  './MyProfileComponent': './src/app/myprofile/myprofile.component.ts',
- },
- shared: {
-  ...shareAll({
-   singleton: true,
-   strictVersion: true,
-   requiredVersion: 'auto',
-  }),
- },
+  name: "profile",
+  exposes: {
+    "./MyProfileComponent": "./src/app/myprofile/myprofile.component.ts",
+  },
+  shared: {
+    ...shareAll({
+      singleton: true,
+      strictVersion: true,
+      requiredVersion: "auto",
+    }),
+  },
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 쉘
 
@@ -68,7 +84,18 @@ module.exports = withNativeFederation({
 <ng-template #federatedComponent></ng-template>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { loadRemoteModule } from '@angular-architects/native-federation';
@@ -108,28 +135,39 @@ Create an enum for exposed remotes where we can map remote apps
 
 ```js
 export const FederatedModuleMap = {
-    profile: {
-        name: 'profile',
-        modules: {
-            myprofile: {
-                name: './MyProfileComponent',
-                componentName: 'MyProfileComponent',
-            },
-        },
+  profile: {
+    name: "profile",
+    modules: {
+      myprofile: {
+        name: "./MyProfileComponent",
+        componentName: "MyProfileComponent",
+      },
     },
+  },
 };
 ```
 
 Now let`s create the component that will load a remote application from our dynamic component, which we created — `app.federated.component /
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <app-federated-component
         [additionalProps]="props()"
         [entryName]="exposedName()"
         [module]="exposedModule()"
-        [componentName]="exposedComponent()"></ram-federated-component> 
+        [componentName]="exposedComponent()"></ram-federated-component>
 ```
 
 ```js

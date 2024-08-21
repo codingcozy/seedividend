@@ -3,17 +3,13 @@ title: "React Nextjs 프로젝트에서 styled-components 사용하기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Using styled-components in React Next Applications"
 link: "https://medium.com/@hcach90/using-styled-components-in-react-next-applications-acde9d6eeef6"
 isUpdated: true
 ---
-
-
-
-
 
 # 소개
 
@@ -23,7 +19,18 @@ React 애플리케이션을 CSS-in-JS 방식으로 스타일링할 때, styled-c
 
 # styled-components 설치
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm install styled-components
@@ -59,7 +66,18 @@ export default function Index() {
 
 # 테마 설정 추가하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ThemeProvider를 사용하여 전체 애플리케이션에 테마를 가져오고 React context를 사용하는 것과 비슷한 방식으로 어디서든 액세스할 수 있습니다.
 
@@ -107,7 +125,18 @@ export default function Index() {
 
 만약 Next 애플리케이션에서 사용하고 싶다면, app/layout.tsx 파일에 다음 코드 스니펫을 추가하여 모든 페이지의 레이아웃을 설정하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 export default function Index({ children }: { children: JSX.Element }) {
@@ -136,7 +165,18 @@ export default function Index() {
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서 우리는 React/Next에서 styled-components를 성공적으로 설정했습니다. 사용 예제와 ThemeProvider를 사용하여 구성하는 방법을 제공했습니다. 이 기사가 도움이 되기를 바랍니다.
 

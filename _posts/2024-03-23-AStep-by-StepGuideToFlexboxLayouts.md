@@ -3,17 +3,13 @@ title: "1차원 레이아웃을 위한 flexbox layout 정리"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "A Step-by-Step Guide To Flexbox Layouts"
 link: "https://medium.com/@ayush_91106/a-step-by-step-guide-to-flexbox-layouts-0edc8eaa021b"
 isUpdated: true
 ---
-
-
-
-
 
 현대의 웹사이트, 특히 웹 앱은 네이티브 iOS 또는 안드로이드 앱과 유사한 정교한 레이아웃을 가지고 있습니다. 하지만 웹 앱은 모바일, 데스크탑 또는 태블릿에서 보일 수 있는 화면에 적응해야 하는 추가적인 도전 과제를 안겨받습니다. HTML과 CSS의 기본적인 선형 흐름을 넘어 반응형 레이아웃을 구현하는 것은 어려울 수 있습니다. 여기서 플렉스박스와 미디어 쿼리를 활용하면 도움이 될 것이며, 이 안내서는 이러한 레이아웃을 구축하는 방법을 설명합니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 플렉스박스, 미디어 쿼리 및 기타 레이아웃 관련 CSS 스타일링은 단일 유틸리티 CSS 파일인 flexbox.css로 처리할 수 있습니다. 이 튜토리얼에서는 이러한 유틸리티 클래스의 예시를 사용할 것입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/A-Step-by-Step-Guide-To-Flexbox-Layouts_1.png" />
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 이제 페이지를 개별 플렉스박스 컨테이너로 분할하여 첫 번째 처리할 컨테이너는 헤더입니다. 헤더는 각 끝을 향하도록 간격을 두고 있는 행으로 구성되어 있으며 일부 패딩이 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/A-Step-by-Step-Guide-To-Flexbox-Layouts_3.png" />
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 다음은 검색 패널입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Flexbox Layout 1](/assets/img/A-Step-by-Step-Guide-To-Flexbox-Layouts_5.png)
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 이후 옵션을 가지고 있는 중간 컨테이너가 있습니다. 여기서 집 유형을 선택할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지1](/assets/img/A-Step-by-Step-Guide-To-Flexbox-Layouts_7.png)
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 ![이미지3](/assets/img/A-Step-by-Step-Guide-To-Flexbox-Layouts_9.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금 stay-examples 행이 있습니다.
 
@@ -73,7 +124,18 @@ isUpdated: true
 
 ![example image 11](/assets/img/A-Step-by-Step-Guide-To-Flexbox-Layouts_11.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모바일 뷰는 이 요소들의 다른 버전을 가지고 있고, 몇 가지 추가 요소와 일부 누락된 요소도 있습니다. Flexbox.css에는 사용자가 앱을 보는 디바이스(그리고 이에 적용되는 미디어 쿼리)에 따라 기능이 변경되는 몇 가지 클래스가 있어서 화면에 쉽게 적응하는 동적 레이아웃을 만드는 데 도움이 됩니다. 이러한 클래스는 일반적으로 적용되는 화면 크기에 따라 "xs"나 "sm"와 같은 접미사가 붙습니다. 따라서 "hide-xs"와 "show-xs"와 같은 클래스는 요소를 숨기거나 표시하는 데 사용되며, 다른 일부 클래스는 flex-basis를 변경합니다.
 
@@ -83,6 +145,17 @@ isUpdated: true
 
 ![GIF](https://miro.medium.com/v2/resize:fit:1400/0*DbhOUA72roS9nqqW.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문제가 있으신가요? Hungrypixel Technologies 에 문의하세요.

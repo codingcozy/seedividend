@@ -3,17 +3,13 @@ title: "(2024년 최신) Angular 면접 질문 및 답변 90가지"
 description: ""
 coverImage: "/assets/img/2024-05-20-Top90AngularInterviewQuestionsAndAnswersfor2024_0.png"
 date: 2024-05-20 22:25
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-20-Top90AngularInterviewQuestionsAndAnswersfor2024_0.png
 tag: Tech
 originalTitle: "Top 90+ Angular Interview Questions And Answers for 2024"
 link: "https://medium.com/@frontendinterviewquestions/top-90-angular-interview-questions-and-answers-55468da98392"
 isUpdated: true
 ---
-
-
-
-
 
 ![Angular Interview Questions](/assets/img/2024-05-20-Top90AngularInterviewQuestionsAndAnswersfor2024_0.png)
 
@@ -23,8 +19,18 @@ For more questions and answers visit our website at [Frontend Interview Question
 
 # Angular Interview Questions For Freshers
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Angular이란 무엇이며 주요 기능은 무엇인가요?
 
@@ -34,7 +40,18 @@ Angular는 구글에서 개발한 인기 있는 오픈 소스 웹 애플리케�
 
 2. 양방향 데이터 바인딩: Angular는 강력한 데이터 바인딩 시스템을 제공하여 모델과 뷰 간의 데이터 동기화를 가능케 합니다. 모델의 변경은 자동으로 뷰에 반영되며 그 반대의 경우도 마찬가지로 수동 업데이트가 필요하지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. 구성 요소 기반 아키텍처: Angular 애플리케이션은 구성 요소를 사용하여 구축되며, 이는 독립적이고 재사용 가능한 구성 요소입니다. 각 구성 요소는 자체 HTML 템플릿, CSS 스타일 및 비즈니스 로직을 캡슐화하여 모듈화와 유지 관리성을 촉진합니다.
 
@@ -44,7 +61,18 @@ Angular는 구글에서 개발한 인기 있는 오픈 소스 웹 애플리케�
 
 6. 반응형 폼: Angular는 유효성 검사, 값 추적 및 사용자 입력 처리와 같은 기능을 갖춘 복잡한 양식을 구축하는 데 강력한 지원을 제공합니다. 반응형 폼은 폼 상태와 데이터 흐름을 처리하는 데 옵저버블 기반 접근 방식을 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 7. 지시문: Angular에는 HTML을 사용자 정의 돌출로 확장하는 다양한 지시문이 있습니다. 지시문을 사용하면 DOM의 동적 조작, 요소의 추가 또는 제거, 스타일 적용 및 이벤트 처리가 가능해집니다.
 
@@ -54,7 +82,18 @@ Angular는 구글에서 개발한 인기 있는 오픈 소스 웹 애플리케�
 
 10. 모바일 지원: Angular은 Angular Mobile Toolkit 및 Angular Material과 같은 도구를 제공하여 모바일 반응형 애플리케이션을 개발하는 데 도움을 줍니다. 다양한 기기와 화면 크기에 걸쳐 일관된 경험을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Angular은 생산성과 성능에 중점을 둔 견고하고 확장 가능하며 유지 관리가 용이한 웹 애플리케이션을 구축하기 위한 포괄적인 프레임워크를 제공합니다.
 
@@ -64,7 +103,18 @@ Angular은 생산성과 성능에 중점을 둔 견고하고 확장 가능하며
 
 올바르게 구성된 SPA의 가장 큰 장점 중 하나는 사용자 경험(UX)입니다. 사용자는 페이지를 다시로드하거나 기타 작업을 기다릴 필요 없이 앱의 자연스러운 환경을 즐깁니다. 페이지는 JavaScript 프로그래밍 언어로 구동됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 계속 진행하기 전에, 이 기사에서 볼 수 있는 세 가지 약어가 있어요: SPA — 싱글 페이지 어플리케이션 (위에서 언급한 것처럼)
 
@@ -74,7 +124,18 @@ PWA — 프로그레시브 웹 어플리케이션 (자바스크립트 또는 프
 
 장점
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단일 페이지 응용 프로그램의 주요 장점은 속도입니다. 대부분의 SPA가 필요로하는 자원(HTML + CSS + 스크립트)은 응용 프로그램을 시작할 때 로드되며 사용 중에 다시로드할 필요가 없습니다. 변하는 것은 서버로부터 전송된 데이터뿐입니다. 결과적으로 응용 프로그램은 사용자의 쿼리에 매우 빠르게 반응하고 클라이언트-서버 통신을 항상 기다릴 필요가 없습니다.
 
@@ -85,21 +146,32 @@ Angular에서 컴포넌트는 응용 프로그램의 사용자 인터페이스�
 
 사용자에 관한 정보를 표시하는 간단한 컴포넌트를 만들고 싶다고 가정해 봅시다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 컴포넌트 클래스를 생성해주세요:
 
 ```js
 // user.component.ts
-import { Component } from '@angular/core';
+import { Component } from "@angular/core";
 
 @Component({
-  selector: 'app-user', // HTML 템플릿에서 사용되는 컴포넌트 셀렉터
-  templateUrl: './user.component.html', // HTML 템플릿 파일 경로
-  styleUrls: ['./user.component.css'] // 이 컴포넌트용 CSS 스타일 파일 경로
+  selector: "app-user", // HTML 템플릿에서 사용되는 컴포넌트 셀렉터
+  templateUrl: "./user.component.html", // HTML 템플릿 파일 경로
+  styleUrls: ["./user.component.css"], // 이 컴포넌트용 CSS 스타일 파일 경로
 })
 export class UserComponent {
-  userName: string = 'test user';
+  userName: string = "test user";
   age: number = 30;
 }
 ```
@@ -115,7 +187,18 @@ export class UserComponent {
 </div>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. 컴포넌트 스타일시트를 생성합니다 (선택 사항):
 
@@ -132,19 +215,30 @@ div {
 
 ```js
 // app.module.ts
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
-import { UserComponent } from './user.component'; // UserComponent를 가져옵니다
+import { NgModule } from "@angular/core";
+import { BrowserModule } from "@angular/platform-browser";
+import { UserComponent } from "./user.component"; // UserComponent를 가져옵니다
 
 @NgModule({
   imports: [BrowserModule],
   declarations: [UserComponent], // UserComponent를 선언합니다
-  bootstrap: [UserComponent] // UserComponent를 부트스트랩 컴포넌트로 설정합니다
+  bootstrap: [UserComponent], // UserComponent를 부트스트랩 컴포넌트로 설정합니다
 })
-export class AppModule { }
+export class AppModule {}
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 애플리케이션의 HTML에서 `app-user` 선택기를 사용하여 사용자 정보를 표시할 수 있습니다.
 
@@ -163,7 +257,18 @@ export class AppModule { }
 나이: 30
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 Angular 컴포넌트의 기본 예제입니다. 실제 애플리케이션에서는 컴포넌트가 조합되고 필요에 따라 중첩되어 복잡한 사용자 인터페이스를 구축하는 데 널리 사용됩니다.
 
@@ -176,34 +281,53 @@ Angular에서 컴포넌트는 다양한 단계와 이벤트로 구성된 라이�
 - ngDoCheck: 이 훅은 변경 감지 작업 중에 호출되며 사용자 정의 변경 감지 로직을 구현할 수 있습니다. 자주 호출되므로 성능 문제를 피하려면 신중하게 사용하세요.
 - ngAfterContentInit: 이 훅은 컴포넌트의 콘텐츠가 뷰로 프로젝트된 후에 호출됩니다. 콘텐츠 자식 컴포넌트와 상호 작용해야 하는 경우 유용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 Angular 컴포넌트에서 `ngAfterContentInit` 훅을 사용하는 방법의 예시입니다:
 
 ```js
-import { Component, AfterContentInit, ContentChild } from '@angular/core';
+import { Component, AfterContentInit, ContentChild } from "@angular/core";
 
 @Component({
-  selector: 'app-my-component',
-  template: `
-    <ng-content></ng-content>
-  `
+  selector: "app-my-component",
+  template: ` <ng-content></ng-content> `,
 })
 export class MyComponent implements AfterContentInit {
-  @ContentChild('myContent') myContent: ElementRef;
+  @ContentChild("myContent") myContent: ElementRef;
   ngAfterContentInit() {
     // 이 코드는 컴포넌트로 프로젝트된 내용이 초기화된 후에 실행됩니다
-    console.log('콘텐츠가 초기화되었습니다:', this.myContent.nativeElement.textContent);
+    console.log("콘텐츠가 초기화되었습니다:", this.myContent.nativeElement.textContent);
   }
 }
 ```
 
-이 예시에서 `MyComponent` 컴포넌트에는 템플릿이 포함된 ``ng-content`` 태그가 있는데, 이 태그는 컴포넌트를 사용할 때 콘텐츠가 프로젝트되는 위치를 나타냅니다.
+이 예시에서 `MyComponent` 컴포넌트에는 템플릿이 포함된 `ng-content` 태그가 있는데, 이 태그는 컴포넌트를 사용할 때 콘텐츠가 프로젝트되는 위치를 나타냅니다.
 
 컴포넌트 클래스 내에서는 `@ContentChild` 데코레이터를 사용하여 프로젝트된 콘텐츠에 대한 참조를 얻습니다. 이 경우에는 템플릿 레퍼런스 변수 `myContent`를 가진 요소를 찾고 있습니다. 특정 사용 사례에 따라 CSS 클래스나 컴포넌트 유형과 같은 다른 선택기를 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `ngAfterContentInit` 메소드는 `AfterContentInit` 인터페이스의 일부로 구현됩니다. 이를 통해 컴포넌트의 라이프사이클에 훅을 걸 수 있습니다. 이 메소드 내에서는 프로젝트된(content projection) 콘텐츠를 기반으로 필요한 초기화 또는 로직을 수행할 수 있습니다. 이 예시에서는 프로젝트된 엘리먼트의 텍스트 콘텐츠를 콘솔에 기록합니다.
 
@@ -215,10 +339,20 @@ export class MyComponent implements AfterContentInit {
 </app-my-component>
 ```
 
-위 코드가 실행되면 `MyComponent`의 `ngAfterContentInit` 메소드가 트리거되고, 프로젝트된 ``div`` 엘리먼트의 텍스트 콘텐츠를 콘솔에 기록합니다. Angular 컴포넌트에서 `Component`, `AfterContentInit`, `ContentChild`에 대한 필요한 임포트를 `@angular/core` 모듈에서 포함시켜야 합니다.
+위 코드가 실행되면 `MyComponent`의 `ngAfterContentInit` 메소드가 트리거되고, 프로젝트된 `div` 엘리먼트의 텍스트 콘텐츠를 콘솔에 기록합니다. Angular 컴포넌트에서 `Component`, `AfterContentInit`, `ContentChild`에 대한 필요한 임포트를 `@angular/core` 모듈에서 포함시켜야 합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 5. ngAfterContentChecked: 이 훅은 Angular의 변경 감지 메커니즘에 의해 컴포넌트의 콘텐츠가 확인된 후 호출됩니다. 콘텐츠 자식들의 확인이 모두 완료된 후에 호출됩니다.
 
@@ -227,24 +361,33 @@ export class MyComponent implements AfterContentInit {
 다음은 Angular 컴포넌트에서 `ngAfterViewInit` 훅을 사용하는 예제입니다:
 
 ```js
-import { Component, AfterViewInit, ViewChild, ElementRef } from '@angular/core';
+import { Component, AfterViewInit, ViewChild, ElementRef } from "@angular/core";
 
 @Component({
-  selector: 'app-my-component',
-  template: `
-    <div #myDiv>Some content</div>
-  `
+  selector: "app-my-component",
+  template: ` <div #myDiv>Some content</div> `,
 })
 export class MyComponent implements AfterViewInit {
-  @ViewChild('myDiv') myDiv: ElementRef;
+  @ViewChild("myDiv") myDiv: ElementRef;
   ngAfterViewInit() {
     // 이 코드는 컴포넌트의 뷰가 초기화된 후에 실행됩니다
-    console.log('뷰가 초기화되었습니다:', this.myDiv.nativeElement.textContent);
+    console.log("뷰가 초기화되었습니다:", this.myDiv.nativeElement.textContent);
   }
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예제에서 `MyComponent` 컴포넌트는 `myDiv` 템플릿 참조 변수를 포함하는 `div` 요소를 포함하는 템플릿을 가지고 있습니다. `@ViewChild` 데코레이터를 사용하여 이 요소에 대한 참조를 컴포넌트 클래스에서 가져올 수 있습니다.
 
@@ -254,19 +397,41 @@ export class MyComponent implements AfterViewInit {
 
 다음은 다른 템플릿에서 `MyComponent` 컴포넌트를 사용하는 예시입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <app-my-component></app-my-component>
 ```
 
-위 코드가 실행되면 `MyComponent` 내의 `ngAfterViewInit` 메소드가 호출되어, ``div`` 엘리먼트의 텍스트 내용이 콘솔에 로깅될 것입니다.
+위 코드가 실행되면 `MyComponent` 내의 `ngAfterViewInit` 메소드가 호출되어, `div` 엘리먼트의 텍스트 내용이 콘솔에 로깅될 것입니다.
 
 Angular 컴포넌트에서 `Component`, `AfterViewInit`, `ViewChild`, 그리고 `ElementRef`를 위한 필요한 `@angular/core` 모듈의 임포트를 포함시키는 것을 잊지 마십시오.
 
 7. ngAfterViewChecked: 이 훅은 Angular의 변경 감지 메커니즘에 의해 컴포넌트의 뷰가 확인된 후에 호출됩니다. 이는 컴포넌트의 뷰 및 해당 자식 뷰가 확인된 후에 호출됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 8. ngOnDestroy: 컴포넌트가 제거되고 DOM에서 제거되기 직전에 호출되는 훅입니다. 이는 옵저버블 구독 취소 또는 타이머 취소와 같은 리소스 정리에 사용됩니다.
 
@@ -274,53 +439,67 @@ Angular 컴포넌트에서 `Component`, `AfterViewInit`, `ViewChild`, 그리고 
 
 4. Angular 웹 구성요소에서 라우팅을 구현하는 방법은 다음 단계를 따릅니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-1) Angular의 @Component 데코레이터를 사용하여 웹 컴포넌트를 만드세요. 이것은 컴포넌트의 템플릿, 스타일 및 입력 또는 출력 속성을 정의할 것입니다.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-2) 컴포넌트 모듈의 Routes 배열을 사용하여 웹 컴포넌트의 라우트를 정의하세요. 각 라우트에는 경로와 컴포넌트가 포함되어야 합니다.
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+1. Angular의 @Component 데코레이터를 사용하여 웹 컴포넌트를 만드세요. 이것은 컴포넌트의 템플릿, 스타일 및 입력 또는 출력 속성을 정의할 것입니다.
+
+2. 컴포넌트 모듈의 Routes 배열을 사용하여 웹 컴포넌트의 라우트를 정의하세요. 각 라우트에는 경로와 컴포넌트가 포함되어야 합니다.
 
 ```js
-import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
-import { MyWebComponent } from './my-web-component.component';
+import { NgModule } from "@angular/core";
+import { Routes, RouterModule } from "@angular/router";
+import { MyWebComponent } from "./my-web-component.component";
 
-const routes: Routes = [
-  { path: 'my-component', component: MyWebComponent }
-];
+const routes: Routes = [{ path: "my-component", component: MyWebComponent }];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class MyWebComponentRoutingModule { }
+export class MyWebComponentRoutingModule {}
 ```
 
-3) RouterModule와 MyWebComponentRoutingModule 모듈을 컴포넌트 모듈에 가져와서 imports 배열에 추가하세요.
+3. RouterModule와 MyWebComponentRoutingModule 모듈을 컴포넌트 모듈에 가져와서 imports 배열에 추가하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1. 테이블 태그를 마크다운 형식으로 변경하세요.
 
-
 ```js
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { RouterModule } from '@angular/router';
-import { MyWebComponent } from './my-web-component.component';
-import { MyWebComponentRoutingModule } from './my-web-component-routing.module';
+import { NgModule } from "@angular/core";
+import { CommonModule } from "@angular/common";
+import { RouterModule } from "@angular/router";
+import { MyWebComponent } from "./my-web-component.component";
+import { MyWebComponentRoutingModule } from "./my-web-component-routing.module";
 
 @NgModule({
   declarations: [MyWebComponent],
-  imports: [
-    CommonModule,
-    RouterModule,
-    MyWebComponentRoutingModule
-  ],
-  exports: [MyWebComponent]
+  imports: [CommonModule, RouterModule, MyWebComponentRoutingModule],
+  exports: [MyWebComponent],
 })
-export class MyWebComponentModule { }
+export class MyWebComponentModule {}
 ```
 
 2. 웹 컴포넌트의 템플릿에서 router-outlet 지시문을 사용하여 라우팅된 컴포넌트를 표시하세요.
@@ -331,21 +510,39 @@ export class MyWebComponentModule { }
 
 3. 다른 컴포넌트나 템플릿에서 routerLink 지시문을 사용하여 웹 컴포넌트 루트로 이동하세요.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 [My Web Component](/my-component)
 
-
-6) 위 단계를 따라 애플리케이션을 빌드하고 실행하여 라우팅이 적용된 웹 컴포넌트를 확인할 수 있습니다.
+6. 위 단계를 따라 애플리케이션을 빌드하고 실행하여 라우팅이 적용된 웹 컴포넌트를 확인할 수 있습니다.
 
 이러한 단계를 따르면 Angular를 사용하여 라우팅이 포함된 웹 컴포넌트를 만들 수 있습니다. routerLink 지시문을 사용하여 웹 컴포넌트의 경로로 이동하고 router-outlet 지시문을 사용하여 웹 컴포넌트 내에서 라우팅된 컴포넌트를 표시할 수 있습니다.
 
-5. Angular에서의 레이지 로딩이란 무엇인가요?  
+5. Angular에서의 레이지 로딩이란 무엇인가요?
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Angular의 Lazy Loading은 응용 프로그램이 시작될 때 모든 모듈과 관련 리소스를 미리 로드하는 대신 필요할 때 모듈과 관련 리소스(컴포넌트, 서비스 등)를 필요할 때 로드하는 기술입니다. 이를 통해 응용 프로그램의 초기 로드 시간을 줄이고 전체 성능을 최적화할 수 있습니다.
 
@@ -356,36 +553,57 @@ Angular에서 Lazy Loading을 구현하려면 다음 단계를 따라야 합니�
 - 기능 모듈 생성: 응용 프로그램을 관련 컴포넌트, 서비스 및 기타 리소스를 캡슐화하는 기능 모듈로 나눕니다. 각 기능 모듈은 자체 라우팅 구성을 갖게 됩니다.
 - 라우트 구성: 응용 프로그램의 주 라우팅 구성에서 `component` 대신 `loadChildren` 속성을 사용하여 기능 모듈의 라우트를 설정합니다. `loadChildren` 속성은 지연 로드할 모듈 파일의 경로를 지정합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const routes: Routes = [
-     { path: '대시보드', component: DashboardComponent },
-     { path: '제품', loadChildren: () => import('./products/products.module').then(m => m.ProductsModule) },
-     // 다른 경로...
-   ];
+  { path: "대시보드", component: DashboardComponent },
+  { path: "제품", loadChildren: () => import("./products/products.module").then((m) => m.ProductsModule) },
+  // 다른 경로...
+];
 ```
 
 3. 피처 모듈 생성: 각 피쳐 모듈에서는 `RouterModule.forChild()` 메서드를 사용하여 해당 모듈의 라우팅 구성을 정의합니다.
 
 ```js
 const routes: Routes = [
-     { path: '', component: ProductListComponent },
-     { path: '상세/:id', component: ProductDetailsComponent },
-     // 피쳐 모듈에 특정한 다른 경로들...
-   ];
+  { path: "", component: ProductListComponent },
+  { path: "상세/:id", component: ProductDetailsComponent },
+  // 피쳐 모듈에 특정한 다른 경로들...
+];
 
 @NgModule({
-     imports: [RouterModule.forChild(routes)],
-     exports: [RouterModule]
-   })
-   export class ProductsRoutingModule { }
+  imports: [RouterModule.forChild(routes)],
+  exports: [RouterModule],
+})
+export class ProductsRoutingModule {}
 ```
 
 4. 빌드 및 실행: Angular CLI를 사용하여 Angular 애플리케이션을 빌드합니다. 지연로딩 모듈과 관련된 경로로 이동할 때, Angular는 필요한 모듈과 해당 리소스를 요청에 따라 가져와 로드합니다.
- 
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 게으른 로딩을 사용하면 필요할 때로 로드될 수 있는 작은 모듈로 애플리케이션의 성능을 최적화할 수 있습니다. 초기 로딩 시간을 줄이고 특히 여러 기능을 갖춘 대규모 애플리케이션에 대해 사용자 경험을 향상시킬 수 있습니다.
 
@@ -395,38 +613,56 @@ const routes: Routes = [
 
 ## Angular에서 2개의 컴포넌트 간에 데이터를 공유하는 여러 방법이 있습니다. 여기에는 일반적인 몇 가지 방법이 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 상위 구성 요소에서 하위 구성 요소로 데이터 공유(입력 바인딩): Angular에서는 상위 구성 요소에서 하위 구성 요소로 데이터를 공유할 수 있습니다. 이를 위해 입력 속성을 사용합니다. 상위 구성 요소는 하위 구성 요소의 입력 속성에 값을 바인딩합니다. 예시:
 
 상위 구성 요소:
 
 ```js
-import { Component } from '@angular/core';
+import { Component } from "@angular/core";
 
 @Component({
-  selector: 'app-parent',
-  template: `
-    
-  `
+  selector: "app-parent",
+  template: ``,
 })
 export class ParentComponent {
-  sharedData: string = 'Hello from parent!';
+  sharedData: string = "Hello from parent!";
 }
 ```
 
 하위 구성 요소:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-import { Component, Input } from '@angular/core';
+import { Component, Input } from "@angular/core";
 
 @Component({
-  selector: 'app-child',
-  template: `
-    { data }
-  `
+  selector: "app-child",
+  template: ` { data } `,
 })
 export class ChildComponent {
   @Input() data: string;
@@ -438,35 +674,42 @@ export class ChildComponent {
 자식 컴포넌트:
 
 ```js
-import { Component, EventEmitter, Output } from '@angular/core';
+import { Component, EventEmitter, Output } from "@angular/core";
 
 @Component({
-  selector: 'app-child',
-  template: `
-    Send Data
-  `
+  selector: "app-child",
+  template: ` Send Data `,
 })
 export class ChildComponent {
   @Output() dataEvent = new EventEmitter();
   sendData() {
-    const data = 'Hello from child!';
+    const data = "Hello from child!";
     this.dataEvent.emit(data);
   }
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 부모 컴포넌트:
 
 ```js
-import { Component } from '@angular/core';
+import { Component } from "@angular/core";
 
 @Component({
-  selector: 'app-parent',
-  template: `
-    { receivedData }
-  `
+  selector: "app-parent",
+  template: ` { receivedData } `,
 })
 export class ParentComponent {
   receivedData: string;
@@ -480,14 +723,25 @@ export class ParentComponent {
 
 공유 서비스:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-import { Injectable } from '@angular/core';
+import { Injectable } from "@angular/core";
 
 @Injectable()
 export class DataService {
-  sharedData: string = 'Hello from service!';
+  sharedData: string = "Hello from service!";
 }
 ```
 
@@ -510,7 +764,18 @@ export class ComponentA {
 
 Component B:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { Component } from '@angular/core';
@@ -536,8 +801,18 @@ Angular에서 두 개의 컴포넌트 간에 데이터를 공유하는 일반적
 
 사용자 정의 지시자는 Angular의 기능으로, 개발자가 자체적으로 사용자 정의 HTML 요소나 속성을 만들어 HTML의 기능을 확장할 수 있게 합니다. 사용자 정의 지시자를 사용하면 이벤트 리스너 추가, DOM 수정 또는 데이터 조작과 같은 동작을 정의할 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Angular에서 사용자 정의 지시문을 만드는 방법은 다음과 같습니다:
 
@@ -563,21 +838,41 @@ export class HighlightDirective {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예시에서는 HighlightDirective가 요소의 배경색을 초기화할 때 노란색으로 설정하고 제거할 때 배경색을 삭제합니다. ElementRef 및 Renderer2 클래스를 사용하여 DOM에서 요소에 액세스하고 조작합니다.
 
 이 지시문을 템플릿에서 사용하려면 요소에 appHighlight 속성을 간단히 추가하십시오:
 
 ```js
-<p apphighlight>
-  이 텍스트는 새로운 노란색 배경이 생깁니다.
-</p>
+<p apphighlight>이 텍스트는 새로운 노란색 배경이 생깁니다.</p>
 ```
 
 템플릿이 렌더링되면 HighlightDirective가 요소에 적용되어 배경색을 노란색으로 변경할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 8. ng serve와 npm start의 차이점은 무엇인가요?
 
@@ -587,7 +882,18 @@ ng serve와 npm start는 둘 다 웹 개발에서 사용되는 명령어이지�
 
 예를 들어 Angular 프로젝트에서 작업하고 있고, 개발 목적으로 로컬에서 실행하고 싶다고 가정해봅시다. 프로젝트 디렉토리로 이동하여 다음 명령어를 실행하면 됩니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 ng serve
@@ -599,7 +905,18 @@ ng serve
 
 `package.json` 파일에 `start` 스크립트가 정의된 Node.js 프로젝트에서 작업 중이라고 가정해보겠습니다. `start` 스크립트는 주 애플리케이션 파일인 `index.js`를 실행하도록 설정되어 있습니다. 애플리케이션을 시작하려면 프로젝트 디렉토리로 이동하여 다음 명령어를 실행하면 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm start
@@ -611,7 +928,18 @@ npm start
 
 `ng serve`는 개발 중에 Angular 프로젝트를 로컬에서 실행하는 데 사용되며 개발 서버와 자동 새로 고침을 제공합니다. 반면, `npm start`는 Node.js 프로젝트에서 일반적으로 사용되는 보다 일반적인 명령으로, `start` 스크립트에 지정된 명령을 실행하는 데 사용되며 종종 프로덕션 환경에서 응용 프로그램을 시작하는 데 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 9. ng add와 npm install의 차이는 무엇인가요?
 
@@ -621,7 +949,18 @@ ng add와 npm install의 주요 차이점은 Angular 생태계 내에서의 목�
 
 다음은 그 방법입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 ng add @angular/material
@@ -635,7 +974,18 @@ ng add @angular/material
 
 `ng add`는 필요한 설정 단계를 자동화하면서 프로젝트에 Angular 관련 패키지 또는 스키마틱을 추가하는 편리한 방법입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. npm install: 이 명령어는 npm(Node Package Manager)이 제공하는 일반적인 명령어로, npm 레지스트리에서 패키지를 설치하는 데 사용됩니다. Angular에 특화된 것은 아니지만 JavaScript와 Node.js 프로젝트 전반에 걸쳐 사용됩니다. `npm install `을 실행하면 지정된 패키지와 해당 종속성이 프로젝트에 설치됩니다. 보통 이 명령은 `package.json` 파일을 업데이트하여 설치된 패키지를 종속성으로 포함시킵니다. 그러나 `npm install`은 프로젝트 파일의 특정 구성 또는 수정을 수행하지 않습니다.
 
@@ -647,7 +997,18 @@ npm install lodash
 
 이 명령을 실행하면 다음을 수행할 것입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - `lodash` 패키지 및 해당 종속성을 npm 레지스트리에서 가져옵니다.
 - 패키지를 프로젝트의 `node_modules` 디렉토리에 로컬로 설치합니다.
@@ -659,9 +1020,20 @@ npm install lodash
 
 jQuery를 Angular 2/4/5에서 사용할 수 있을까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-네, 다음 단계를 따라 할 수 있어요: 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+네, 다음 단계를 따라 할 수 있어요:
 
 단계 1 — 설치
 
@@ -675,7 +1047,18 @@ npm install -D @types/jquery
 
 단계 2 — 가져오기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 지금, 어플리케이션 파일 중 어디에서든 (ES2015 스타일)
@@ -689,17 +1072,29 @@ $('#elemId').width();
 import $ = require('jquery')
 //
 ```
+
 # ES6 업데이트
 
-ES6에서는 '* as $'이 필요하지 않습니다.
+ES6에서는 '\* as $'이 필요하지 않습니다.
 
 ```js
-import $ from 'jquery';
+import $ from "jquery";
 //
-$('#elemId').width();
+$("#elemId").width();
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 11. Angular에서 API를 호출하는 방법은?
 
@@ -713,30 +1108,52 @@ import { HttpClient } from '@angular/common/http';
 constructor(private http: HttpClient) {}
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 원하는 HTTP 요청을 만들기 위해 `http.get()`, `http.post()`, `http.put()`, 또는 `http.delete()` 메소드를 사용하세요. 이러한 메소드들은 응답을 처리하기 위해 구독(subscribe)할 수 있는 `Observable`을 반환합니다.
 
 다음은 API에서 데이터를 검색하기 위해 GET 요청을 보내는 예시입니다:
 
 ```js
-this.http.get('https://api.example.com/data').subscribe(response => {
+this.http.get("https://api.example.com/data").subscribe((response) => {
   // 응답 데이터 처리
 });
 ```
 
 3. API가 헤더, 매개변수 또는 요청 본문을 필요로 하는 경우, HTTP 요청에 옵션으로 전달할 수 있습니다. 예를 들어, 헤더 또는 쿼리 매개변수를 포함하기 위해서는 `@angular/common/http`에서 제공하는 `HttpHeaders` 및 `HttpParams` 클래스를 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-import { HttpHeaders, HttpParams } from '@angular/common/http';
+import { HttpHeaders, HttpParams } from "@angular/common/http";
 
 // 헤더 및 쿼리 매개변수를 이용한 GET 요청
-const headers = new HttpHeaders().set('Authorization', 'Bearer token');
-const params = new HttpParams().set('param1', 'value1').set('param2', 'value2');
+const headers = new HttpHeaders().set("Authorization", "Bearer token");
+const params = new HttpParams().set("param1", "value1").set("param2", "value2");
 
-this.http.get('https://api.example.com/data', { headers, params }).subscribe(response => {
+this.http.get("https://api.example.com/data", { headers, params }).subscribe((response) => {
   // 응답 데이터 처리
 });
 ```
@@ -744,21 +1161,32 @@ this.http.get('https://api.example.com/data', { headers, params }).subscribe(res
 4. POST, PUT 또는 DELETE 요청의 경우, 두 번째 매개변수로 요청 본문을 전달할 수도 있습니다.
 
 ```js
-const book = { title: 'Example Book', author: 'John Doe' };
+const book = { title: "Example Book", author: "John Doe" };
 
-this.http.post('https://api.example.com/books', book).subscribe(response => {
+this.http.post("https://api.example.com/books", book).subscribe((response) => {
   // 응답 데이터 처리
 });
 ```
 
 위 예시는 HTTP 요청을 간단히 처리하는 방법을 보여줍니다. 실제 상황에서는 에러 처리, 메모리 누수 방지를 위한 `Observable` 구독 해제, 그리고 `HttpClient` 모듘에서 제공하는 다른 옵션과 기능을 활용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어플리케이션의 루트 또는 피처 모듈에 `HttpClientModule`을 import하여 `HttpClient` 서비스를 활성화하세요. 일반적으로 모듈의 `imports` 배열에서 다음과 같이 수행됩니다:
 
 ```js
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClientModule } from "@angular/common/http";
 
 @NgModule({
   imports: [HttpClientModule],
@@ -771,7 +1199,18 @@ export class AppModule {}
 
 12. `package.json` 파일의 ‘dependencies’와 ‘dev-dependencies’ 속성의 차이점은 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `package.json` 파일에서 `dependencies` 및 `devDependencies` 속성은 Node.js 프로젝트에서 다른 종류의 종속성을 관리하는 데 사용됩니다. 여기에 둘 간의 차이가 있습니다:
 
@@ -781,9 +1220,20 @@ export class AppModule {}
 
 — 이러한 패키지는 애플리케이션의 핵심 기능에 필요하며 일반적으로 런타임에서 요구됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-— `npm install` 명령어로 프로젝트 종속성을 설치하면 `dependencies` 섹션에 나열된 패키지들이 설치됩니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+— `npm install` 명령어로 프로젝트 종속성을 설치하면 `dependencies` 섹션에 나열된 패키지들이 설치됩니다.
 
 예시:
 
@@ -796,7 +1246,18 @@ export class AppModule {}
 
 2. `devDependencies`:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 — `devDependencies` 속성은 개발 중에만 필요한 패키지를 나열하는 데 사용됩니다. 예를 들어, 테스트 프레임워크, 빌드 도구 및 개발 전용 유틸리티가 있습니다.
 
@@ -806,7 +1267,18 @@ export class AppModule {}
 
 예시:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```json
 "devDependencies": {
@@ -821,8 +1293,18 @@ export class AppModule {}
 
 요약하면, `dependencies`는 프로덕션 환경에서 애플리케이션이 실행되는 데 필요한 패키지가 포함되며, `devDependencies`에는 개발 및 테스트 중에 필요하지만 프로덕션 배포에는 필요하지 않은 패키지가 포함됩니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 경험있는 분들을 위한 Angular 인터뷰 질문
 
@@ -832,7 +1314,18 @@ Angular에서 ReplaySubject는 RxJS 라이브러리에서 제공되는 Subject �
 
 ReplaySubject는 특정 수의 값을 기억하고 다른 구독자에게 값을 리플레이합니다. ReplaySubject에 구독자가 구독하면 지정된 버퍼 크기나 시간 범위까지 버퍼된 값들을 즉시받습니다. ReplaySubject의 주요 기능은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 버퍼링: ReplaySubject는 내가 방출한 값들을 버퍼로 유지합니다. ReplaySubject를 만들 때 버퍼 크기 매개변수를 사용하여 버퍼에 저장할 최대 값 수를 지정할 수 있습니다.
 - 구독: 새 구독자가 ReplaySubject에 구독을 시작하면 즉시 버퍼에 저장된 값들을 받습니다. 버퍼 크기에 도달하면, 구독자들이 새 값들을 수용하기 위해 이전 값들은 버퍼에서 사라집니다.
@@ -841,30 +1334,41 @@ ReplaySubject는 특정 수의 값을 기억하고 다른 구독자에게 값을
 아래는 Angular에서 ReplaySubject를 사용하는 예시입니다:
 
 ```js
-import { ReplaySubject } from 'rxjs';
+import { ReplaySubject } from "rxjs";
 
 // 3개의 값을 버퍼 크기로 가지는 ReplaySubject 생성
 const subject = new ReplaySubject(3);
 // ReplaySubject에 값들을 방출
-subject.next('Value 1');
-subject.next('Value 2');
-subject.next('Value 3');
+subject.next("Value 1");
+subject.next("Value 2");
+subject.next("Value 3");
 // ReplaySubject에 구독
-subject.subscribe(value => console.log('Received:', value));
+subject.subscribe((value) => console.log("Received:", value));
 // 출력: Received: Value 1, Received: Value 2, Received: Value 3
 // 다른 값 추가 방출
-subject.next('Value 4');
+subject.next("Value 4");
 // 출력: Received: Value 4 (새 구독자는 최신 값 수신)
 // 시간이 지난 후 다시 구독
 setTimeout(() => {
-  subject.subscribe(value => console.log('Received later:', value));
+  subject.subscribe((value) => console.log("Received later:", value));
 }, 2000);
 // 출력: Received later: Value 2, Received later: Value 3, Received later: Value 4
 ```
 
 위 예시에서 ReplaySubject는 마지막으로 방출된 3개의 값들을 버퍼에 저장합니다. 새 구독자가 구독하면 즉시 버퍼에 저장된 값들을 받습니다. 시간이 지난 후에 구독하는 두 번째 구독자는 지정된 시간대 내에 방출된 값들을 받습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ReplaySubjects는 Angular에서 여러 구독자 사이에서 값을 공유하고 재생할 때 특히 비동기 데이터 스트림을 다룰 때 강력한 도구입니다.
 
@@ -874,7 +1378,18 @@ Angular에서 `angular.json` 구성 파일에 스타일과 스크립트를 추�
 
 - `angular.json`:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `angular.json` 파일은 Angular 프로젝트의 구성 파일입니다. 프로젝트 빌드 프로세스와 관련된 여러 설정 및 옵션을 포함하며, 스타일 및 스크립트 구성을 포함합니다.
 
@@ -884,17 +1399,39 @@ Angular에서 `angular.json` 구성 파일에 스타일과 스크립트를 추�
 
 2. `index.html`:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `index.html` 파일은 Angular 애플리케이션의 주요 HTML 파일입니다. 이 파일은 애플리케이션의 진입점이며 HTML 문서의 기본 구조를 포함합니다.
 
-`index.html` 파일에서는 ``link`` 및 ``script`` 태그를 사용하여 외부 스타일시트나 스크립트를 직접 추가할 수 있습니다. 이러한 태그는 서버에서 호스팅되거나 CDN에서 가져온 외부 CSS 또는 JavaScript 파일을 참조합니다. `index.html` 파일에 포함하면 애플리케이션이 액세스될 때 브라우저에서 로드됩니다.
+`index.html` 파일에서는 `link` 및 `script` 태그를 사용하여 외부 스타일시트나 스크립트를 직접 추가할 수 있습니다. 이러한 태그는 서버에서 호스팅되거나 CDN에서 가져온 외부 CSS 또는 JavaScript 파일을 참조합니다. `index.html` 파일에 포함하면 애플리케이션이 액세스될 때 브라우저에서 로드됩니다.
 
 `index.html` 파일에 직접 추가된 스타일 및 스크립트는 `angular.json` 파일에서 지정된 것과 별개입니다. 이것들은 Angular에서 수행하는 빌드 프로세스나 번들링의 일부가 아닙니다. 대신, `index.html` 파일이 로드될 때 브라우저에서 직접로드되고 적용됩니다.
 
 요약하면, 주요 차이점은:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - `angular.json` 파일에서 지정된 스타일 및 스크립트는 Angular 빌드 프로세스의 일부이며 빌드 시 애플리케이션과 번들로 결합됩니다.
 - `index.html` 파일에 직접 추가된 스타일 및 스크립트는 브라우저에서 런타임에 로드되며 Angular 빌드 프로세스와 별도로 처리됩니다.
@@ -905,7 +1442,18 @@ Angular에서 `angular.json` 구성 파일에 스타일과 스크립트를 추�
 
 RxJS에서 반응형 프로그래밍을 위한 인기 있는 라이브러리인 RxJS에서 옵저버블은 Cold 옵저버블과 Hot 옵저버블 두 가지 유형으로 분류할 수 있습니다. 이 두 유형의 주요 차이점은 값의 방출 및 구독을 처리하는 방식에 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Cold Observables:
 
@@ -914,26 +1462,48 @@ Cold Observable은 구독을 시작할 때 값의 방출을 시작합니다. Col
 예를 들어:
 
 ```js
-import { Observable } from 'rxjs';
+import { Observable } from "rxjs";
 
-const coldObservable = new Observable(observer => {
-  console.log('Observable logic');
+const coldObservable = new Observable((observer) => {
+  console.log("Observable logic");
   observer.next(1);
   observer.next(2);
   observer.next(3);
 });
 
-coldObservable.subscribe(value => console.log('Subscriber 1:', value));
-coldObservable.subscribe(value => console.log('Subscriber 2:', value));
+coldObservable.subscribe((value) => console.log("Subscriber 1:", value));
+coldObservable.subscribe((value) => console.log("Subscriber 2:", value));
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래의 예시에서 각 구독자는 Observable 로직의 실행을 개별적으로 유발하며, 두 구독자 모두 발행된 값의 시퀀스를 완전히 받습니다.
 
 2. 핫 옵저버블:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 핫 옵저버블은 구독 여부에 관계없이 값들을 방출합니다. 생성과 동시에 즉시 값들을 방출하기 시작하며, 구독 이후에만 방출된 값들을 구독자가 받습니다. 데이터 스트림은 구독자들 사이에서 공유되며, 후에 구독하는 구독자는 이전에 방출된 값들을 놓칠 수 있습니다.
 
@@ -961,7 +1531,18 @@ hotObservable.next(7);
 
 출력 결과:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 가입자 1: 4
@@ -978,8 +1559,18 @@ hotObservable.next(7);
 
 요약하면, 콜드 옵저버블과 핫 옵저버블의 주요 차이점은 콜드 옵저버블은 구독 시 값들을 방출하고 각 구독은 별도의 실행을 트리거하며, 핫 옵저버블은 구독과 관계없이 값들을 방출하며 늦은 구독자는 이전에 방출된 값들을 놓칠 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. @ngModule 데코레이터 내부에 있는 속성들은 무엇인가요?
 
@@ -989,7 +1580,18 @@ hotObservable.next(7);
 
 Angular `8 CLI`용으로 업데이트되었습니다. 한 개의 컴포넌트를 생성하려면 아래 명령을 사용하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 ng generate component --skipTests=true component-name
@@ -998,7 +1600,7 @@ ng generate component --skipTests=true component-name
 한 프로젝트에서 angular.json 파일에서 다음을 변경하거나 추가하십시오:
 
 ```js
-{ 
+{
   "projects": {
     "{프로젝트_이름}": {
       "schematics": {
@@ -1013,7 +1615,18 @@ ng generate component --skipTests=true component-name
 
 모든 프로젝트에 대한 전역 설정을 변경하려면 angular.json 파일에서 다음을 변경하거나 추가하십시오:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 {
@@ -1033,32 +1646,50 @@ ng config schematics.@schematics/angular:component.skipTests true
 
 Angular `8`에서는 angular-cli.json에서 spec.component 매개변수를 false로 설정합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 위와 같은 테이블 태그를 마크다운 형식으로 변경하고 싶다면, 아래와 같이 변경하시면 됩니다.
 
-
 {
-   ...
-   "defaults" : {
-       ...
-       "spec": {
-           ...
-           "component": false
-       }
-   }
+...
+"defaults" : {
+...
+"spec": {
+...
+"component": false
 }
-
+}
+}
 
 또는 생성 시 `— spec=false` 옵션을 사용할 수 있습니다.
 
-
 ng generate component --spec=false component-name
-
 
 6. RxJS는 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 RxJS(JavaScript용 Reactive Extensions)은 함수형 프로그래밍 개념을 활용하여 비동기 또는 이벤트 기반 프로그램을 조합하는 것을 보다 쉽게 만들어주는 Observables를 사용하는 반응형 프로그래밍을 위한 라이브러리입니다. RxJS는 비동기 데이터 스트림을 Observables로 나타내는 방법을 제공하며, 이를 연산자를 사용하여 선언적으로 변환, 결합 및 사용할 수 있습니다. RxJS는 원래 .NET을 위해 개발된 ReactiveX API를 기반으로 하고 있으나 Java, Swift 및 JavaScript를 포함한 여러 프로그래밍 언어에서 구현되었습니다.
 
@@ -1067,24 +1698,22 @@ RxJS는 JavaScript에서 비동기 데이터 스트림을 효과적으로 관리
 다음은 JavaScript에서 RxJS를 사용하여 숫자 시퀀스를 방출하고 짝수를 제외한 Observable을 생성하는 예시입니다:
 
 ```js
-const { Observable } = require('rxjs');
+const { Observable } = require("rxjs");
 
-const source$ = new Observable(subscriber => {
+const source$ = new Observable((subscriber) => {
   let count = 0;
   const intervalId = setInterval(() => {
     subscriber.next(count);
     count++;
   }, 1000);
-  
+
   return () => clearInterval(intervalId);
 });
-const filtered$ = source$.pipe(
-  filter(num => num % 2 !== 0)
-);
+const filtered$ = source$.pipe(filter((num) => num % 2 !== 0));
 const subscription = filtered$.subscribe(
-  num => console.log(num),
-  err => console.error(err),
-  () => console.log('Complete')
+  (num) => console.log(num),
+  (err) => console.error(err),
+  () => console.log("Complete")
 );
 
 setTimeout(() => {
@@ -1092,7 +1721,18 @@ setTimeout(() => {
 }, 5000);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예제에서는 setInterval 함수를 사용하여 숫자 시퀀스를 발생하는 source$라는 Observable을 만듭니다. 그런 다음 source$ Observable에 filter 연산자를 적용하여 순서에서 짝수를 제거한 filtered$라는 새 Observable을 만듭니다. 마지막으로 filtered$ Observable을 구독하고 콘솔에 발생한 값을 기록한 후 5초 후에 Observable이 값을 더 이상 방출하지 않도록 구독을 취소합니다.
 
@@ -1102,27 +1742,47 @@ HttpClientModule은 Angular 버전 4.3.0에서 소개되었습니다.
 
 Angular 4.3.0 이전에는 `HttpModule`이 HTTP 요청 및 응답을 처리하는 데 사용되었습니다. 그러나 Angular 4.3.0부터는 `HttpModule`이 폐기되고 새로운 `HttpClientModule`이 권장됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `HttpClientModule`은 HTTP 요청을 만들고 응답을 처리하기 위한 더 현대적이고 개선된 API를 제공합니다. 이 모듈은 인터셉터 지원, 응답 유형 지정 및 개선된 오류 처리와 같은 기능을 포함하고 있습니다.
 
 `HttpClientModule`을 사용하려면 Angular 모듈에서 다음과 같이 해당 모듈을 가져와야 합니다:
 
 ```js
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClientModule } from "@angular/common/http";
 
 @NgModule({
-  imports: [
-    HttpClientModule
-  ],
+  imports: [HttpClientModule],
   // ...
 })
-export class AppModule { }
+export class AppModule {}
 ```
 
 모듈을 가져온 후에는 `HttpClient` 서비스를 컴포넌트나 서비스에 주입하여 HTTP 요청을 만들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { HttpClient } from '@angular/common/http';
@@ -1144,19 +1804,29 @@ export class MyService {
 
 Angular에서는 컴포넌트에 생성자를 정의할 필요가 없습니다. Angular는 컴포넌트에 대한 기본 생성자를 제공하며, 컴포넌트 클래스에 생성자를 정의하지 않으면 기본 생성자가 사용됩니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Angular이 제공하는 기본 생성자는 매개변수를 필요로하지 않으며 종종 비어있을 수 있습니다. 컴포넌트가 인스턴스화될 때 암시적으로 호출됩니다.
 
 다음은 생성자가 없는 컴포넌트의 예시입니다:
 
 ```js
-import { Component } from '@angular/core';
+import { Component } from "@angular/core";
 
 @Component({
-  selector: 'app-my-component',
-  template: 'Hello, Angular!'
+  selector: "app-my-component",
+  template: "Hello, Angular!",
 })
 export class MyComponent {
   // 명시적인 생성자가 정의되어 있지 않음
@@ -1165,7 +1835,18 @@ export class MyComponent {
 
 이 예시에서 `MyComponent` 클래스에는 생성자가 정의되어 있지 않습니다. `MyComponent`의 인스턴스를 만들 때 Angular는 자동으로 기본 생성자를 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 컴포넌트에서 초기화 작업이나 의존성 주입이 필요한 경우, 생성자를 정의하고 필요한 매개변수를 제공할 수 있습니다. 생성자는 의존성을 주입하고 컴포넌트 속성을 초기화하는 방법입니다.
 
@@ -1188,7 +1869,18 @@ export class MyComponent {
 
 따라서 컴포넌트에서 생성자를 정의하는 것이 필수는 아니지만, 필요한 경우 의존성을 주입하고 초기화를 수행할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 9. Angular에는 어떤 보안 기능이 있나요?
 
@@ -1198,32 +1890,51 @@ Angular는 개발자가 안전한 웹 애플리케이션을 구축하는 데 도
 
 Angular는 템플릿에서 사용자 제공 입력을 자동으로 살균화하여 Cross-Site Scripting (XSS) 공격을 방지합니다. 예를 들어, 다음과 같은 템플릿을 고려해보세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 {{ user.name }}
-
 
 If the `user.name` property contains potentially harmful HTML code, Angular automatically sanitizes it and renders it as plain text, preventing any script execution.
 
 - We have to add code to sanitize untrusted values. The security contexts are HTML (binding inner HTML), style (CSS), attributes (binding values), and resources (referring files). We should convert the untrusted values provided by users into trusted values with DomSanitizer.
 
 ```ts
-import { Injectable } from '@angular/core';
-import { BehaviorSubject } from 'rxjs';
-import { DomSanitizer } from '@angular/platform-browser';
- 
+import { Injectable } from "@angular/core";
+import { BehaviorSubject } from "rxjs";
+import { DomSanitizer } from "@angular/platform-browser";
+
 @Injectable()
 export class SecurityService {
-  constructor(private sanitizer: DomSanitizer) {
-  }
+  constructor(private sanitizer: DomSanitizer) {}
   getSafeHtml(html: string) {
     return this.sanitizer.bypassSecurityTrustHtml(html);
   }
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 메서드는 값의 유형에 따라 값을 신뢰할 수 있게 표시하는 데 사용됩니다:
 
@@ -1235,10 +1946,23 @@ export class SecurityService {
 2. Cross-Site Scripting (XSS) 방지: Angular에서는 기본적으로 보간된 값을 및 데이터 바인딩을 자동으로 이스케이프하여 XSS 공격을 방지합니다. 예를 들어, 다음 템플릿을 고려해보세요:
 
 ```js
-{ user.bio }
+{
+  user.bio;
+}
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `user.bio` 속성에 스크립트 태그나 기타 HTML 코드가 포함되어 있으면 Angular는 문자를 이스케이프하고 일반 텍스트로 렌더링하여 스크립트 실행을 방지합니다.
 
@@ -1250,7 +1974,18 @@ Angular는 어플리케이션에 엄격한 콘텐츠 보안 정책을 강제 적
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://trusted-cdn.com;">
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예시는 스크립트의 로딩을 동일한 출처와 신뢰할 수 있는 CDN에 제한하는 방법을 보여줍니다.
 
@@ -1275,7 +2010,18 @@ export class AuthInterceptor implements HttpInterceptor {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 인터셉터는 각 나가는 HTTP 요청에 Bearer 토큰이 포함된 `Authorization` 헤더를 추가합니다.
 
@@ -1308,7 +2054,18 @@ export class AuthGuard implements CanActivate {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용자가 인증되었는지 확인하고 보호된 경로에 대한 액세스를 허용하거나 거부하는 가드입니다.
 
@@ -1318,7 +2075,18 @@ export class AuthGuard implements CanActivate {
 
 이것들은 Angular에서 제공하는 보안 기능의 일부 예시에 불과합니다. 애플리케이션의 요구 사항에 따라 입력 유효성 검사, 안전한 통신 프로토콜(HTTPS), 적절한 오류 처리 및 의존성 및 라이브러리의 정기적인 보안 업데이트와 같은 추가 보안 조치를 구현하는 것이 중요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **10. Jasmine에서 testbed는 무엇인가요?**
 
@@ -1328,19 +2096,30 @@ TestBed는 Angular 테스팅 유틸리티의 일부이며, 주로 Karma 또는 J
 
 다음은 Jasmine에서 TestBed를 사용하는 기본 예제입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-import { TestBed } from '@angular/core/testing';
-import { MyComponent } from './my.component';
+import { TestBed } from "@angular/core/testing";
+import { MyComponent } from "./my.component";
 
-describe('MyComponent', () => {
+describe("MyComponent", () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       declarations: [MyComponent],
     }).compileComponents();
   });
-  it('should create the component', () => {
+  it("should create the component", () => {
     const fixture = TestBed.createComponent(MyComponent);
     const component = fixture.componentInstance;
     expect(component).toBeTruthy();
@@ -1355,7 +2134,18 @@ describe('MyComponent', () => {
 
 개별 테스트 케이스 내에서 `TestBed.createComponent`을 사용하여 테스트할 컴포넌트의 인스턴스를 생성합니다. 이는 `ComponentFixture` 객체를 반환하며, 해당 컴포넌트 인스턴스 (`componentInstance`)와 관련된 DOM 요소 (`nativeElement`)에 액세스할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 TestBed과 ComponentFixture를 사용하면 구성 요소의 속성, 메서드 및 렌더링된 DOM과 상호 작용하고 테스트할 수 있습니다.
 
@@ -1365,7 +2155,18 @@ TestBed는 테스트 모듈을 구성하는 데 사용되는 다른 유용한 �
 
 11. Subject와 Behaviour Subject의 차이점은 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자바스크립트에서 반응형 프로그래밍을 위한 인기 있는 라이브러리인 RxJS에는 Subject와 BehaviorSubject 두 가지 유형의 subjects가 있습니다. 두 subject 모두 Subject 클래스의 구현체이지만 동작에 몇 가지 중요한 차이점이 있습니다.
 
@@ -1376,7 +2177,18 @@ TestBed는 테스트 모듈을 구성하는 데 사용되는 다른 유용한 �
 
 — 초기 값: Subject는 초기 값이 없지만, BehaviorSubject는 생성 시 초기 값이 필요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 — 지연 구독: `Subject`를 구독하면 이전에 발생한 값들을 받지 않습니다. 그러나 `BehaviorSubject`를 구독할 때 값이 이미 발행된 후라면, 구독 즉시 최신 값이 전달됩니다.
 
@@ -1385,23 +2197,34 @@ TestBed는 테스트 모듈을 구성하는 데 사용되는 다른 유용한 �
 다음은 차이를 설명하는 예시입니다:
 
 ```js
-import { Subject, BehaviorSubject } from 'rxjs';
+import { Subject, BehaviorSubject } from "rxjs";
 
 const subject = new Subject();
-const behaviorSubject = new BehaviorSubject('초기 값');
+const behaviorSubject = new BehaviorSubject("초기 값");
 // Subject에 구독
-subject.subscribe(value => console.log('Subject:', value));
+subject.subscribe((value) => console.log("Subject:", value));
 // BehaviorSubject에 구독
-behaviorSubject.subscribe(value => console.log('BehaviorSubject:', value));
+behaviorSubject.subscribe((value) => console.log("BehaviorSubject:", value));
 // 값 발행
-subject.next('값 1');
-behaviorSubject.next('값 2');
+subject.next("값 1");
+behaviorSubject.next("값 2");
 // 값 발행 후에 구독
-subject.subscribe(value => console.log('Subject에 지연 구독:', value));
-behaviorSubject.subscribe(value => console.log('BehaviorSubject에 지연 구독:', value));
+subject.subscribe((value) => console.log("Subject에 지연 구독:", value));
+behaviorSubject.subscribe((value) => console.log("BehaviorSubject에 지연 구독:", value));
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 BehaviorSubject: Initial Value
@@ -1414,7 +2237,18 @@ Late Subscription to BehaviorSubject: Value 2
 
 결론:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요약하면 `Subject`와 `BehaviorSubject`의 주요 차이점은 `BehaviorSubject`가 초기 값이 있으며 가장 최근의 값을 유지하고 새로운 구독자들에게 값을 발행한다는 것입니다. 이것은 구독자가 일부 값이 발행된 후에 구독해도 기본값이나 가장 최신 값이 전달되도록 보장해야 하는 시나리오에서 유용합니다.
 
@@ -1426,10 +2260,21 @@ Promise는 단일 값만 발행하는 반면 Observable은 여러 값을 발행�
 프로미스 예시
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-const promise = new Promise((data) => { 
+const promise = new Promise((data) => {
   data(1);
   data(2);
   data(3);
@@ -1455,7 +2300,18 @@ Observable 3
 
 13. 권한 부여와 인증의 차이점. 기본 차이를 설명하되, 앵귤러 애플리케이션의 맥락에서도 설명해 주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인증(Authentication)과 권한 부여(authorization)는 사용자의 액세스와 소프트웨어 애플리케이션의 보안과 관련된 두 가지 다른 개념입니다. 이 내용은 Angular 애플리케이션을 포함한 소프트웨어 애플리케이션에 적용됩니다.
 
@@ -1465,7 +2321,18 @@ Observable 3
 
 Angular 애플리케이션의 맥락에서, 인증은 사용자의 신원을 확인한 후 애플리케이션의 보호받는 부분에 액세스를 허용하기 전의 과정입니다. 사용자가 자격 증명을 제공하고 애플리케이션이 저장된 사용자 데이터나 인증 서비스와 비교하여 검증하는 로그인 시스템을 구현함으로써 달성할 수 있습니다. 인증에 성공하면 사용자는 인증 토큰이나 세션을 받게 되는데, 이를 사용하여 사용자를 식별하고 애플리케이션의 제한된 영역에 액세스할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인증:
 
@@ -1475,7 +2342,18 @@ Angular 애플리케이션에서는 인증 후에 인가가 이루어집니다. 
 
 Angular 애플리케이션에서 인가를 구현하기 위해 개발자들은 일반적으로 역할과 권한을 정의한 다음 응용 프로그램 전체에 걸쳐 검사 및 가드를 적용하여 특정 작업을 수행하거나 특정 경로 또는 구성 요소에 액세스할 수 있는 사용자가 인가된 사용자만 수행할 수 있도록 보장합니다. 이는 역할 기반 액세스 제어 (RBAC)를 구현하거나 다른 인가 프레임워크나 라이브러리를 사용하는 것을 포함할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단히 말해, 인증과 권한 부여의 기본적인 차이점은 인증이 사용자의 신원을 확인하는 반면, 권한 부여는 인증된 사용자가 응용 프로그램 내에서 어떤 작업 또는 자원에 접근할 수 있는지를 제어합니다. 인증은 누구인지 확인하는 것이고, 권한 부여는 신원이 확인된 후 무엇을 할 수 있는지를 결정하는 것입니다.
 
@@ -1485,7 +2363,18 @@ Angular 애플리케이션에서 인가를 구현하기 위해 개발자들은 �
 
 Just-in-Time (JIT)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 JIT 컴파일 모드에서는 개발자가 작성한 TS 코드가 빌드 생성 중에 JS 코드로 컴파일됩니다. 이제 이 컴파일된 JS 코드에는 브라우저에서 다시 실행 시간에 JIT 컴파일러와 함께 전송되어 컴파일된 일부 Angular 특정 코드(컴포넌트, 데코레이터, 변경 감지, 의존성 주입 등)가 포함되어 있습니다.
 
@@ -1495,11 +2384,33 @@ JIT 모드에서 Angular 애플리케이션이 브라우저에서 부트스트�
 
 개발자가 작성한 TS 코드가 JS 코드로 컴파일되며, 이 JS 코드는 이미 Angular을 위해 컴파일되었습니다. 이제 이 컴파일된 JS 코드가 브라우저에 의해 다시 한 번 컴파일되어 HTML이 렌더링됩니다. 하지만 여기서 함정은 AOT 컴파일러가 Angular의 기능을 이미 처리했으므로 브라우저가 컴포넌트 생성, 변경 감지, 의존성 주입에 대해 크게 걱정할 필요가 없다는 점입니다. 따라서 우리는:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 Markdown 형식으로 변경하면 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 나은 보안
 
@@ -1509,7 +2420,18 @@ Angular 공식 문서 링크를 참조하여 AOT 이해하기
 
 15. Angular에서 커스텀 pipe를 생성하는 방법은 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Angular에서 사용자 정의 파이프를 만들려면 다음 단계를 따를 수 있어요:
 
@@ -1521,7 +2443,18 @@ ng generate pipe custom
 
 이 명령어를 실행하면 `custom.pipe.ts` 파일이 생성되고 프로젝트의 적절한 디렉토리에 추가될 거예요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 파이프 구현하기:
 
@@ -1530,10 +2463,10 @@ ng generate pipe custom
 다음은 주어진 숫자를 두 배로 만드는 사용자 정의 파이프 예시입니다:
 
 ```js
-import { Pipe, PipeTransform } from '@angular/core';
+import { Pipe, PipeTransform } from "@angular/core";
 
 @Pipe({
-  name: 'custom'
+  name: "custom",
 })
 export class CustomPipe implements PipeTransform {
   transform(value: number): number {
@@ -1542,7 +2475,18 @@ export class CustomPipe implements PipeTransform {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예제에서 `transform` 메서드는 숫자를 입력으로 받아들이고(`value`) 입력 숫자를 두 배로 만든 결과를 반환합니다(`value * 2`).
 
@@ -1551,39 +2495,56 @@ export class CustomPipe implements PipeTransform {
 Angular 애플리케이션에서 사용자 정의 파이프를 사용하려면 해당 모듈에 등록해야 합니다. 사용할 모듈 파일을 열어서(e.g., `app.module.ts`) `CustomPipe` 클래스를 import하세요. 그런 다음 모듈의 데코레이터 안의 `declarations` 배열에 `CustomPipe`를 추가하세요.
 
 ```js
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from "@angular/core";
+import { BrowserModule } from "@angular/platform-browser";
 
-import { AppComponent } from './app.component';
-import { CustomPipe } from './custom.pipe';
+import { AppComponent } from "./app.component";
+import { CustomPipe } from "./custom.pipe";
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    CustomPipe
-  ],
-  imports: [
-    BrowserModule
-  ],
+  declarations: [AppComponent, CustomPipe],
+  imports: [BrowserModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. 사용자 정의 파이프 사용하기:
 
 이제 사용자 정의 파이프가 등록되었으므로 해당 이름을 참조하여 템플릿에서 사용할 수 있습니다. 예를 들어, 컴포넌트의 템플릿(`app.component.html`)에서 다음과 같이 사용자 정의 파이프를 사용할 수 있습니다:
 
 ```js
-<h1>{ 5 | custom }</h1>
+<h1>{5 | custom}</h1>
 ```
 
 이 예에서 `custom` 파이프가 값 `5`에 적용되고 변환된 결과(10)가 `<h1>` 요소에 표시됩니다. 이 것으로 사용자 정의 파이프를 Angular에서 생성했습니다. 이제 해당 파이프를 사용하여 템플릿 내에서 데이터에 사용자 정의 변환을 적용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 16. 내장 Angular 파이프란 무엇인가요?
 
@@ -1592,10 +2553,21 @@ Angular은 여러 내장 파이프를 제공하여 Angular 애플리케이션에
 1. DatePipe: 지정된 형식에 따라 날짜 값을 형식화합니다.
 
 ```js
-<p>{ today | date }</p>
+<p>{today | date}</p>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <p>{{ today | date: 'short' }}</p>
@@ -1611,8 +2583,18 @@ Angular은 여러 내장 파이프를 제공하여 Angular 애플리케이션에
 
 3. DecimalPipe: 숫자를 지정된 정밀도에 따라 10진수 형식으로 서식화합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1. NumberPipe: 지정된 형식에 따라 숫자를 포맷합니다.
 
@@ -1634,11 +2616,21 @@ Angular은 여러 내장 파이프를 제공하여 Angular 애플리케이션에
 
 4. PercentPipe: 숫자를 백분율로 포맷합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-<p>{ 0.75 | percent }</p>
+<p>{0.75 | percent}</p>
 ```
 
 6. SlicePipe: 문자열이나 배열의 일부를 반환합니다.
@@ -1651,10 +2643,21 @@ Angular은 여러 내장 파이프를 제공하여 Angular 애플리케이션에
 
 7. AsyncPipe: 비동기 값에 대한 처리를 수행하며 observable 또는 promise를 구독하여 값이 변경될 때 자동으로 뷰를 업데이트합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-<p>{ asyncData$ | async }</p>
+<p>{asyncData$ | async}</p>
 ```
 
 위는 내장 Angular 파이프의 몇 가지 예시에 불과합니다. Angular는 `KeyValuePipe`, `JsonPipe`, `PercentPipe`와 같은 더 많은 파이프를 제공하는데, 각각이 특정한 목적을 제공합니다. 이전 응답에서 설명한 대로 자체 사용자 정의 파이프도 만들 수 있습니다.
@@ -1663,17 +2666,39 @@ Angular은 여러 내장 파이프를 제공하여 Angular 애플리케이션에
 
 의미 있는 버전(semantic versioning) 또는 SemVer은 소프트웨어 프로젝트에서 사용되는 버전 지정 방식으로, 소프트웨어의 다양한 릴리즈에서의 호환성, 기능 및 변경 사항에 대한 정보를 전달합니다. 특정 형식을 따릅니다: `..`.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-1. 주 버전(``major``): 주 버전은 소프트웨어에 중대한 변경사항을 나타냅니다. 이는 하위 호환되지 않는 변경사항, 주요 새로운 기능 또는 중요한 아키텍처 변경을 포함합니다.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-2. 부 버전(``minor``): 부 버전은 소프트웨어에 하위 호환적인 추가 또는 향상을 나타냅니다. 기존 기능을 망가뜨리지 않으면서 추가된 새로운 기능 또는 기능을 포함합니다.
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
-3. 패치 버전(``patch``): 패치 버전은 하위 호환적인 버그 수정, 보안 패치 또는 새로운 기능을 도입하지 않는 작은 업데이트를 나타냅니다. 이러한 업데이트는 일반적으로 소프트웨어의 문제, 버그 또는 보안 취약점을 해결합니다.
+1. 주 버전(`major`): 주 버전은 소프트웨어에 중대한 변경사항을 나타냅니다. 이는 하위 호환되지 않는 변경사항, 주요 새로운 기능 또는 중요한 아키텍처 변경을 포함합니다.
+
+2. 부 버전(`minor`): 부 버전은 소프트웨어에 하위 호환적인 추가 또는 향상을 나타냅니다. 기존 기능을 망가뜨리지 않으면서 추가된 새로운 기능 또는 기능을 포함합니다.
+
+3. 패치 버전(`patch`): 패치 버전은 하위 호환적인 버그 수정, 보안 패치 또는 새로운 기능을 도입하지 않는 작은 업데이트를 나타냅니다. 이러한 업데이트는 일반적으로 소프트웨어의 문제, 버그 또는 보안 취약점을 해결합니다.
 
 아래는 의미론적 버전 관리의 몇 가지 예시입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 — Version `1.0.0`: 소프트웨어의 초기 릴리스로 안정적인 상태에 도달했음을 나타냅니다. 일반적으로 첫 번째 안정적 릴리스에서 주 버전은 `1`로 시작합니다.
 
@@ -1683,7 +2708,18 @@ Angular은 여러 내장 파이프를 제공하여 Angular 애플리케이션에
 
 시맨틱 버전 관리는 개발자와 사용자가 소프트웨어 버전의 업데이트와 변경 사항의 영향을 이해하는 데 도움이 됩니다. 이것은 다양한 릴리스의 호환성과 중요성을 전달하기 위한 일관된 표준화된 방법을 제공하여 개발자가 종속성을 관리하고 업그레이드를 처리하며 프로젝트 간의 호환성을 보장할 수 있게 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 노트해야 할 점은 의미론적 버전 관리가 소프트웨어 프로젝트에만 적용되는 것이 아니라는 것입니다. 라이브러리, API, 프레임워크 또는 버전 관리 체계를 따르는 다른 프로젝트에도 적용할 수 있습니다.
 
@@ -1693,7 +2729,18 @@ Angular은 여러 내장 파이프를 제공하여 Angular 애플리케이션에
 
 19. Angular에서 사용되는 디자인 패턴은 무엇이 있나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앵귤러는 웹 애플리케이션을 구축하는 인기 있는 JavaScript 프레임워크로, 코드를 구조화하고 조직하는 데 일반적으로 사용되는 여러 디자인 패턴이 있습니다. 이러한 디자인 패턴은 개발자가 유지보수 가능하고 확장 가능하며 모듈화된 애플리케이션을 만들 수 있도록 돕습니다.
 
@@ -1703,7 +2750,18 @@ Angular은 여러 내장 파이프를 제공하여 Angular 애플리케이션에
 
 앵귤러에서 싱글톤 패턴을 구현하려면 다음 단계를 따를 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 a. Angular CLI를 사용하여 서비스를 생성하세요:
 
@@ -1715,17 +2773,28 @@ b. Angular에서 단일 서비스를 만드는 두 가지 방법이 있습니다
 
 - `providedIn` 속성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - NgModule providers 배열
 
 c. 생성된 서비스 파일(`my-singleton-service.service.ts`)을 열어서 다음과 같이 수정하십시오:
 
 ```js
-import { Injectable } from '@angular/core';
+import { Injectable } from "@angular/core";
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: "root",
 })
 export class MySingletonService {
   // 서비스 구현 내용을 여기에 작성합니다
@@ -1734,7 +2803,18 @@ export class MySingletonService {
 
 d. `@Injectable` 데코레이터 안의 `providedIn: 'root'` 속성은 Angular에서 싱글톤 패턴을 구현하는 데 중요합니다. 이는 Angular에 서비스를 루트 수준에서 제공하도록 알려주어 애플리케이션 전반에서 접근 가능하게 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 e. 이제 `MySingletonService`를 단일 인스턴스 서비스로 사용하기 위해 구성 요소에서 이를 생성자에 주입할 수 있습니다:
 
@@ -1757,30 +2837,52 @@ export class MyComponent {
 
 단일 인스턴스 서비스의 수명주기는 Angular 자체에서 관리됩니다. Angular는 서비스의 단일 인스턴스를 생성하고 유지하며 이를 요청하는 구성 요소들 사이에서 공유합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 NgModule providers 배열의 경우, providers 배열에 서비스를 값으로 전달하여 싱글톤 서비스를 생성하며, NgModule이 루트 앱 모듈인 경우 해당 서비스는 응용 프로그램 전체에서 싱글톤 서비스로 사용할 수 있습니다.
 
 ```js
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
-import { MySingletonService } from './my-singleton-service.service';
-import { AppComponent } from './app.component';
+import { NgModule } from "@angular/core";
+import { BrowserModule } from "@angular/platform-browser";
+import { MySingletonService } from "./my-singleton-service.service";
+import { AppComponent } from "./app.component";
 
 @NgModule({
   declarations: [AppComponent],
   imports: [BrowserModule],
   providers: [MySingletonService], // 서비스를 여기에 추가
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
 ```
 
 Angular에서 서비스를 사용하여 싱글톤 패턴을 구현하는 방법입니다. 이를 통해 데이터를 공유하고 상태를 유지하며 응용 프로그램 전체에서 중앙화된 기능을 제공할 수 있습니다.
 
 2. 의존성 주입 (DI) 패턴: Angular는 의존성 주입 패턴을 활용하여 컴포넌트와 서비스 간의 의존성을 관리합니다. DI를 사용하면 필요한 의존성이 구성자 주입 또는 속성 주입을 통해 컴포넌트나 서비스에 제공되어느 느슨한 결합을 촉진하고 테스트 가능성을 높입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```typescript
 // DI를 사용하는 컴포넌트
@@ -1803,8 +2905,18 @@ selectProduct(product: Product) {
 
 4. 전략 패턴: 전략 패턴을 통해 런타임에 특정 조건이나 요구 사항에 따라 동적으로 다양한 전략을 선택하고 전환할 수 있습니다. 이러한 동작을 별도의 클래스에 캡슐화하여 컴포넌트는 특정 조건에 따라 전략을 전환할 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앵귤러에서 전략 패턴을 구현하는 예시를 보여드릴게요:
 
@@ -1819,7 +2931,18 @@ export interface PaymentStrategy {
 
 b. `PaymentStrategy` 인터페이스를 구현하는 별도의 클래스를 생성하여 여러 전략을 구현해봅시다. 각 클래스는 `processPayment` 메서드의 고유한 구현을 제공할 것입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // credit-card-strategy.ts
@@ -1860,8 +2983,18 @@ export class PaymentContext {
 
 d. 이제 Angular 컴포넌트나 서비스에서 전략을 활용할 수 있습니다. 예를 들어:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { Component } from '@angular/core';
@@ -1892,33 +3025,54 @@ e. 이 예제에서 `PaymentComponent`는 사용자 조작 또는 조건에 따�
 
 전략 패턴은 클라이언트 코드로부터 다른 알고리즘이나 동작의 구현을 분리하여 기존 코드 수정 없이 전략을 변경하거나 확장할 수 있도록 함으로써 유연성과 유지 보수성을 제공합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 5. 데코레이터 패턴: Angular 데코레이터인 @Component와 @Injectable과 같은 데코레이터들은 데코레이터 패턴에 기반을 두고 있습니다. 데코레이터는 기본 코드를 직접 수정하지 않고 클래스나 클래스 멤버의 동작을 향상시키거나 수정하는 방법을 제공합니다.
 
 a. 핵심 기능을 나타내는 기본 컴포넌트를 만드세요:
 
 ```js
-import { Component } from '@angular/core';
+import { Component } from "@angular/core";
 
 @Component({
-  selector: 'app-base-component',
-  template: 'Base Component',
+  selector: "app-base-component",
+  template: "Base Component",
 })
 export class BaseComponent {}
 ```
 
 b. 기본 컴포넌트를 확장하는 데코레이터 컴포넌트를 만드세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-import { Component, ViewChild } from '@angular/core';
-import { BaseComponent } from './base-component';
+import { Component, ViewChild } from "@angular/core";
+import { BaseComponent } from "./base-component";
 
 @Component({
-  selector: 'app-decorator',
+  selector: "app-decorator",
   template: `
     <div>
       <p>This is the decorator component</p>
@@ -1934,10 +3088,10 @@ export class DecoratorComponent extends BaseComponent {}
 c. 애플리케이션에서 데코레이터 컴포넌트를 사용하세요:
 
 ```js
-import { Component } from '@angular/core';
+import { Component } from "@angular/core";
 
 @Component({
-  selector: 'app-root',
+  selector: "app-root",
   template: `
     <app-decorator>
       <app-base-component></app-base-component>
@@ -1947,9 +3101,20 @@ import { Component } from '@angular/core';
 export class AppComponent {}
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-`AppComponent` 템플릿에서 `BaseComponent`는 `DecoratorComponent` 내에서 셀렉터 ``app-decorator``를 사용하여 감싸집니다. `DecoratorComponent` 내에 다른 컴포넌트, 템플릿 또는 HTML 콘텐츠를 삽입하여 `BaseComponent`의 동작을 확장하거나 수정할 수 있습니다.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+`AppComponent` 템플릿에서 `BaseComponent`는 `DecoratorComponent` 내에서 셀렉터 `app-decorator`를 사용하여 감싸집니다. `DecoratorComponent` 내에 다른 컴포넌트, 템플릿 또는 HTML 콘텐츠를 삽입하여 `BaseComponent`의 동작을 확장하거나 수정할 수 있습니다.
 
 Angular에서 데코레이터 패턴을 사용하면 데코레이터 컴포넌트 내에서 기존 컴포넌트를 감싸면서 기존 컴포넌트의 기능을 동적으로 확장하거나 수정할 수 있습니다. 이 접근 방식은 유연성, 코드 재사용성 및 유지 보수성을 제공하며 필요에 맞게 특정 동작 또는 콘텐츠를 추가하여 기본 컴포넌트를 재사용할 수 있습니다.
 
@@ -1957,7 +3122,18 @@ Angular에서 데코레이터 패턴을 사용하면 데코레이터 컴포넌�
 
 다음은 Angular에서 Facade 패턴을 구현하는 예시입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 a. 사용자가 쉽게 사용할 수 있도록 간소화하고 싶은 복잡한 하위 시스템 또는 관련 구성 요소/서비스를 식별하세요.
 
@@ -1981,14 +3157,25 @@ export class FacadeService {
 
 c. Facade 서비스가 상호 작용하는 복잡한 하위 시스템 구성 요소/서비스를 구현하세요. 이러한 구성 요소/서비스는 실제 복잡한 로직을 처리합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```ts
 @Injectable()
 export class ComplexServiceA {
   complexOperationA(): void {
     // Service A의 복잡한 로직
-    console.log('복잡한 작업 A 수행 중');
+    console.log("복잡한 작업 A 수행 중");
   }
 }
 
@@ -1996,7 +3183,7 @@ export class ComplexServiceA {
 export class ComplexServiceB {
   complexOperationB(): void {
     // Service B의 복잡한 로직
-    console.log('복잡한 작업 B 수행 중');
+    console.log("복잡한 작업 B 수행 중");
   }
 }
 ```
@@ -2004,12 +3191,12 @@ export class ComplexServiceB {
 d. 복합 서브시스템을 간단하게 사용하기 위해 컴포넌트에서 Facade 서비스를 사용하세요:
 
 ```ts
-import { Component } from '@angular/core';
-import { FacadeService } from './facade.service';
+import { Component } from "@angular/core";
+import { FacadeService } from "./facade.service";
 
 @Component({
-  selector: 'app-client-component',
-  template: '...',
+  selector: "app-client-component",
+  template: "...",
 })
 export class ClientComponent {
   constructor(private facadeService: FacadeService) {}
@@ -2021,7 +3208,18 @@ export class ClientComponent {
 
 e. 이 예제에서 `ClientComponent`는 복잡한 서비스(`ComplexServiceA` 및 `ComplexServiceB`)와 직접 상호 작용하지 않아도 복잡한 작업을 수행하기 위해 `FacadeService`를 사용합니다. `FacadeService`는 복잡성을 캡슐화하고 간단한 인터페이스를 제공하여 클라이언트 컴포넌트가 상호 작용할 수 있게 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Angular에서 Facade 패턴을 사용하면 복잡한 하위 시스템의 사용을 간소화하고 구현 세부 정보를 숨기며 클라이언트에게 직관적이고 쉽게 사용할 수 있는 인터페이스를 제공할 수 있습니다. 이를 통해 여러 구성 요소나 서비스와 상호 작용의 복잡성을 단일 Facade 뒤에 숨김으로써 코드 유지보수성, 가독성 및 모듈성을 촉진할 수 있습니다.
 
@@ -2031,7 +3229,18 @@ Angular에서 Composite 패턴을 적용하여 구성 요소나 서비스 간에
 
 다음은 Angular에서 Composite 패턴을 구현하는 예시입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 a. 개별 객체와 그룹을 위한 공통 동작을 나타내는 추상 클래스 또는 인터페이스를 만들어보세요:
 
@@ -2046,16 +3255,27 @@ b. 개별 객체를 위해 추상 클래스나 인터페이스를 구현해보�
 
 ```js
 // leaf.component.ts
-import { ComponentInterface } from './component.interface';
+import { ComponentInterface } from "./component.interface";
 
 export class LeafComponent implements ComponentInterface {
   operation(): void {
-    console.log('단일 구성요소에 대한 작업을 수행합니다.');
+    console.log("단일 구성요소에 대한 작업을 수행합니다.");
   }
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 c. 복합 객체를 구현하는 추상 클래스 또는 인터페이스를 구현하세요. 이 객체는 개별 객체와 다른 복합 객체를 포함할 수 있습니다:
 
@@ -2086,9 +3306,9 @@ export class CompositeComponent implements ComponentInterface {
 d. 컴포넌트의 트리 모양 구조를 생성하기 위해 복합 객체를 사용하세요:
 
 ```js
-import { ComponentInterface } from './component.interface';
-import { LeafComponent } from './leaf.component';
-import { CompositeComponent } from './composite.component';
+import { ComponentInterface } from "./component.interface";
+import { LeafComponent } from "./leaf.component";
+import { CompositeComponent } from "./composite.component";
 
 // 개별 컴포넌트 생성
 const leaf1: ComponentInterface = new LeafComponent();
@@ -2105,7 +3325,18 @@ composite2.add(leaf1);
 composite2.operation();
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, 본 예제에서는 Composite 패턴을 사용하여 트리 구조를 만들었습니다. `CompositeComponent`는 개별 `LeafComponent` 객체와 다른 `CompositeComponent` 객체를 모두 포함할 수 있습니다. 최상위 `CompositeComponent`에서 `operation()` 메서드를 호출하면 leaf 컴포넌트나 다른 복합 컴포넌트에 대해 모두 재귀적으로 작업을 호출합니다.
 
@@ -2115,7 +3346,18 @@ Angular에서 Composite 패턴을 사용하면 컴포넌트 또는 서비스 간
 
 다음은 Angular에서 Factory 패턴을 구현하는 예시입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 a. 생성하려는 객체의 공통 동작을 나타내는 추상 클래스 또는 인터페이스를 정의하십시오:
 
@@ -2132,36 +3374,47 @@ b. `Product` 인터페이스를 준수하는 여러 클래스를 구현하십시
 // product-a.ts
 export class ProductA implements Product {
   operation(): void {
-    console.log('Product A operation.');
+    console.log("Product A operation.");
   }
 }
 
 // product-b.ts
 export class ProductB implements Product {
   operation(): void {
-    console.log('Product B operation.');
+    console.log("Product B operation.");
   }
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 c. 객체 생성 로직을 캡슐화하는 팩토리 클래스를 생성하세요:
 
 ```js
 // product-factory.ts
-import { Product } from './product.interface';
-import { ProductA } from './product-a';
-import { ProductB } from './product-b';
+import { Product } from "./product.interface";
+import { ProductA } from "./product-a";
+import { ProductB } from "./product-b";
 
 export class ProductFactory {
   createProduct(type: string): Product {
-    if (type === 'A') {
+    if (type === "A") {
       return new ProductA();
-    } else if (type === 'B') {
+    } else if (type === "B") {
       return new ProductB();
     }
-    throw new Error('유효하지 않은 제품 타입입니다');
+    throw new Error("유효하지 않은 제품 타입입니다");
   }
 }
 ```
@@ -2186,7 +3439,18 @@ export class ExampleComponent {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예제에서 `ExampleComponent`는 제공된 유형에 기반하여 다양한 제품의 인스턴스를 생성하기 위해 `ProductFactory`를 사용합니다. 원하는 유형(‘A’ 또는 ‘B’)으로 `createProduct` 메서드를 호출하면 해당 제품 클래스의 인스턴스를받고 `operation()` 메서드를 호출할 수 있습니다.
 
@@ -2196,7 +3460,18 @@ Angular에서 일반적으로 사용되는 몇 가지 디자인 패턴을 살펴
 
 AOT의 단점은 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주요 제한 사항은 AoT가 원시 코드를 컴파일하는 방식 때문에 일반적인 코드 패턴과 함께 사용할 수 없다는 점입니다. 예를 들어, 모듈에서의 기본 내보내기, 템플릿을 위한 템플릿 리터럴, 그리고 프로바이더, 라우트, 또는 선언에서의 함수와 같은 코드 패턴이 포함됩니다.
 
@@ -2206,20 +3481,27 @@ AoT 작업 및 지양사항
 
 - `화살표 함수 내보내기`
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 화살표 함수는 NgModule에 전달될 때 AoT와 함께 작동하지 않습니다.
 
 ```js
-피하세요:
-
-export const couterReducer = (state, action: Action) => {
+피하세요: export const couterReducer = (state, action: Action) => {
   // ...
-}
+};
 
-대신에:
-
-export function counterReducer(state, action: Action) {
+대신에: export function counterReducer(state, action: Action) {
   // ...
 }
 ```
@@ -2228,7 +3510,18 @@ export function counterReducer(state, action: Action) {
 
 이것은 가장 간단한 작동 케이스로 사용됩니다. default-exports 기본 익스포트는 AoT에서 지원되지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 디폴트 익스포트는 AoT에서 지원되지 않습니다.
 
@@ -2246,7 +3539,18 @@ export class AppComponent {};
 
 -` form-control-error
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문법 오류?은 AoT에서 지원되지 않습니다.
 
@@ -2262,7 +3566,18 @@ export class AppComponent {};
 
 루트에서 함수를 직접 사용하는 것은 AoT에서 지원되지 않습니다. 사용을 피하거나 다른 모듈에서 내보내기하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 하지 말아주세요:
@@ -2289,8 +3604,18 @@ const SAMPLE_APP_ROUTES: Routes = [{
 
 캐럿(^) 기호
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 "dependencies": {
@@ -2304,11 +3629,22 @@ Carets (`^`) allow you to:
 - Perform large internal refactorings
 - Apply bug fixes
 - Deprecate old functionalities while they are still operational
-- With the caret, you can get releases like 3.x.x, where the wildcard characters (*) will match the highest version number available. Changes in the major digit, like 4.0.0, will not be used in this case.
+- With the caret, you can get releases like 3.x.x, where the wildcard characters (\*) will match the highest version number available. Changes in the major digit, like 4.0.0, will not be used in this case.
 
 The tilde sign (~) indicates that only the last digit specified should change.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 "dependencies": {
@@ -2319,12 +3655,22 @@ The tilde sign (~) indicates that only the last digit specified should change.
 틸드(~)는
 
 - 버그 수정
-- 틸드를 사용하면 3.9.*와 같은 릴리스를 얻을 수 있습니다. 틸드를 사용하면 최신 버그 수정만 허용됩니다.
+- 틸드를 사용하면 3.9.\*와 같은 릴리스를 얻을 수 있습니다. 틸드를 사용하면 최신 버그 수정만 허용됩니다.
 
 그래서 우리는 요령(`~`) 문자를 사용해야 하는 결론에 이를 수 있습니다. 패치 번호를 고정하고 싶을 때는 이 문자를 사용해야 합니다. 이것은 버그 수정만 수용하려고 하고 잠재적으로 호환되지 않는 변경 사항에 부딪히고 싶지 않을 때 사용해야 합니다. 반면에 업스트로크(^) 문자는 패치 및 마이너 버전 번호를 고정하는 역할을 합니다. 역호환성을 가진 새 기능과 버그 수정을 원할 때 사용해야 합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 22. Angular에서 인터셉터란 무엇인가요?
 
@@ -2334,7 +3680,18 @@ Angular에서 인터셉터를 생성하려면 HttpInterceptor 인터페이스를
 
 다음은 나가는 요청에 인가 헤더를 추가하는 HTTP 인터셉터의 예시입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 인터셉터 클래스를 생성하세요:
 
@@ -2371,20 +3728,29 @@ export class AuthInterceptor implements HttpInterceptor {
 
 인터셉터를 사용하려면 AppModule이나 HTTP 요청을 하는 모듈에서 인터셉터를 제공해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```javascript
 // app.module.ts
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
-import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
-import { AuthInterceptor } from './auth-interceptor';
+import { NgModule } from "@angular/core";
+import { BrowserModule } from "@angular/platform-browser";
+import { HttpClientModule, HTTP_INTERCEPTORS } from "@angular/common/http";
+import { AuthInterceptor } from "./auth-interceptor";
 
 @NgModule({
   imports: [BrowserModule, HttpClientModule],
-  providers: [
-    { provide: HTTP_INTERCEPTORS, useClass: AuthInterceptor, multi: true },
-  ],
+  providers: [{ provide: HTTP_INTERCEPTORS, useClass: AuthInterceptor, multi: true }],
 })
 export class AppModule {}
 ```
@@ -2395,7 +3761,18 @@ export class AppModule {}
 
 Angular 프로젝트에서 dist 폴더의 이름을 변경할 수 있을까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 angular.json 파일에서 outputPath 속성의 값을 변경하십시오.
 
@@ -2406,13 +3783,24 @@ angular.json 파일에서 outputPath 속성의 값을 변경하십시오.
     "architect": {
       "options": {
          "outputPath": "변경하고 싶은 값",
-``` 
+```
 
 브라우저가 당신의 앱이 Angular 기반 앱임을 어떻게 알게 되나요?
 
 브라우저 콘솔에서 getAllAngularRootElements()를 실행하면 결과가 나옵니다. 현재는 [app-root]을 반환합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 25. Angular에서 사용자 정의 데코레이터를 만드는 방법은 무엇인가요?
 
@@ -2423,8 +3811,8 @@ angular.json 파일에서 outputPath 속성의 값을 변경하십시오.
 ```js
 function log(target, name, descriptor) {
   const original = descriptor.value;
-  descriptor.value = function(...args) {
-    console.log('이 함수가 해킹되었습니다');
+  descriptor.value = function (...args) {
+    console.log("이 함수가 해킹되었습니다");
     const result = original.apply(this, args);
     console.log("함수의 결과는 ", result);
     return result;
@@ -2434,7 +3822,18 @@ function log(target, name, descriptor) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데코레이터 사용법
 
@@ -2455,21 +3854,29 @@ sum(2,3)
 
 이는 forkJoin을 사용하여 달성할 수 있습니다. 이 오퍼레이터는 옵저버블 배열을 가져와 모든 소스 옵저버블의 완료를 기다립니다. 모든 옵저버블이 완료되면 각 옵저버블에서 마지막으로 발행된 값의 배열을 발행합니다. 예시:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-import { forkJoin, of, throwError } from 'rxjs';
+import { forkJoin, of, throwError } from "rxjs";
 
-const observables = [
-    of(1,2,3).pipe(delay(500)),
-    from([10,11,12])
-]
+const observables = [of(1, 2, 3).pipe(delay(500)), from([10, 11, 12])];
 
 const $forkJoin = forkJoin(observables);
 
-$forkJoin.subscribe(data=>{
-    console.log('forkjoin data', data); // [3,12] as forkJoin will return last emitted values of each observable
-})
+$forkJoin.subscribe((data) => {
+  console.log("forkjoin data", data); // [3,12] as forkJoin will return last emitted values of each observable
+});
 ```
 
 이 예제에서 `forkJoin`은 지연 후 각각 'A'와 'B'를 발행하는 두 옵저버블 및 지연 후 오류를 throw하는 옵저버블을 포함한 옵저버블 배열을 가져옵니다. `forkJoin`은 모든 옵저버블이 완료될 때까지 기다린 다음 각 옵저버블의 마지막으로 발행된 값을 배열로 반환합니다. 그러나 `forkJoin`에 있는 옵저버블 중 하나라도 오류를 throw하면 해당 오류는 `subscribe` 메서드의 오류 콜백으로 전달됩니다.
@@ -2478,8 +3885,18 @@ $forkJoin.subscribe(data=>{
 
 TypeScript에서 모듈은 응용 프로그램의 서로 다른 부분 간에 가져오고 내보낼 수 있는 재사용 가능한 독립 단위 코드로 코드를 구성하는 방법입니다. 모듈에는 클래스, 함수, 인터페이스 및 기타 코드가 포함될 수 있으며 프로젝트 내부 또는 외부 라이브러리일 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 TypeScript에서 모듈을 사용하려면 `export` 키워드를 사용하여 모듈을 정의해야 합니다. 이는 해당 모듈의 멤버를 애플리케이션의 다른 부분에서 사용할 수 있도록 만듭니다. 그런 다음 `import` 키워드를 사용하여 해당 모듈을 가져와 코드에서 해당 멤버를 사용할 수 있습니다.
 
@@ -2498,7 +3915,18 @@ export class MyClass {
 
 이 예시에서는 `myModule`이라는 모듈을 정의하고, `myFunction` 함수와 `MyClass` 클래스를 내보냅니다. `export` 키워드를 사용하여 이러한 멤버들을 모듈 외부에서 사용할 수 있게 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `myModule` 모듈의 멤버를 다른 파일에서 사용하려면 `import` 키워드를 사용하여 가져올 수 있어요:
 
@@ -2514,7 +3942,18 @@ const myInstance = new MyClass();
 
 TypeScript에서 모듈을 가져오고 내보내는 다양한 방법이 있어요. `* as` 구문을 사용하여 모든 멤버를 가져오거나, 기본 내보내기를 가져오거나, 가져온 멤버에 대한 별칭을 사용하는 등 다양한 방법이 있어요. 프로젝트의 규모와 복잡성에 따라 다른 구문과 그 영향을 이해하는 것이 중요해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모듈을 사용하면 TypeScript에서 코드를 더 모듈식으로 작성하고 유지 관리하기 쉽게 할 수 있습니다. 기능을 격리시키고 이름 충돌을 줄이기 때문입니다. 하지만, 적절하게 사용하고 너무 많은 작은 모듈을 만들지 않는 것이 중요합니다. 그렇게 하면 코드베이스의 복잡성이 증가할 수 있습니다.
 
@@ -2536,7 +3975,18 @@ export class HeroResolver implements Resolve {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래에 제공된 resolve() 함수는 라우터 구성의 Route 객체의 일부로 제공됩니다:
 
@@ -2545,15 +3995,15 @@ export class HeroResolver implements Resolve {
   imports: [
     RouterModule.forRoot([
       {
-        path: 'detail/:id',
+        path: "detail/:id",
         component: HeroDetailComponent,
         resolve: {
-          hero: HeroResolver
-        }
-      }
-    ])
+          hero: HeroResolver,
+        },
+      },
+    ]),
   ],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
 export class AppRoutingModule {}
 ```
@@ -2562,7 +4012,18 @@ export class AppRoutingModule {}
 
 NPM 패키지가 없는 경우, 해당 파일을 다운로드하고 프로젝트 어딘가에 넣어야 합니다 — vendor나 lib이라는 디렉토리에 넣는 것을 추천합니다. import 문은 사용하려는 모듈에 대한 상대 경로를 사용할 수 있으므로 간단할 것입니다. 예를 들어, 서드 파티 모듈을 vendor/some-lib.js에 넣었다면 다음과 같이 import 할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 Markdown 형식으로 변환한 코드입니다.
 
@@ -2587,7 +4048,18 @@ import 'vendor/some-lib';
 
 Tree shaking은 마지막 제품 번들로부터 사용되지 않는 모듈을 식별하고 제거하는 데드 코드 제거 프로세스입니다. 이 기법은 개발자들이 종종 다양한 라이브러리와 종속성을 포함하는 대규모 응용 프로그램에서 특히 중요합니다. 사용되지 않는 코드를 제거함으로써 Tree shaking은 번들 크기를 최적화하고 더 효율적인 응용 프로그램을 만들 수 있도록 돕습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Angular은 인기있는 프론트엔드 프레임워크로, 응용 프로그램의 성능을 향상시키기 위해 트리 쉐이킹을 활용합니다. 이는 Webpack과 같은 기본 빌드 도구를 활용하여 코드를 분석하고 사용되지 않는 부분을 제거합니다.
 
@@ -2597,10 +4069,10 @@ Angular에서의 트리 쉐이킹 예시:
 
 ```js
 // logger.service.ts
-import { Injectable } from '@angular/core';
+import { Injectable } from "@angular/core";
 
 @Injectable({
-  providedIn: 'root',
+  providedIn: "root",
 })
 export class LoggerService {
   log(message: string): void {
@@ -2609,7 +4081,18 @@ export class LoggerService {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 빌드 프로세스 중에 Angular의 빌드 도구와 Webpack은 트리 쉐이킹을 수행하여 사용되지 않는 코드를 제거합니다. 트리 쉐이킹은 최종 번들이 실제로 사용되는 코드만 포함되도록 보장하여 더 작은 번들 크기를 얻게 됩니다. 이는 코드베이스가 커질수록 Angular 애플리케이션의 성능을 최적화하는 데 중요합니다.
 
@@ -2620,7 +4103,18 @@ Angular 자체가 트리 쉐이킹을 지원하지만, 이 최적화를 활성�
 - 프로덕션 모드 사용: Angular 애플리케이션을 프로덕션 모드로 빌드하는 것을 확인하세요. 다음 명령어를 실행하여 이를 달성할 수 있습니다:
 - Webpack 구성: Angular 프로젝트는 종종 Webpack을 내부 빌드 도구로 사용합니다. Webpack 구성이 트리 쉐이킹을 활성화하도록 설정되어 있는지 확인하세요. 기본 Angular CLI 구성에는 이미 트리 쉐이킹을 위한 필요한 설정이 포함되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결론:
 
@@ -2630,7 +4124,18 @@ Angular 자체가 트리 쉐이킹을 지원하지만, 이 최적화를 활성�
 
 @injectable 데코레이터에는 다음과 같은 값이 올 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - ‘providedIn’: root — 이것은 서비스가 애플리케이션의 루트 주입기에서 제공되며 애플리케이션의 모든 모듈 및 컴포넌트에서 액세스할 수 있다는 것을 의미합니다. 애플리케이션이 지연 로드된 모듈을 갖고 있더라도, 동일한 서비스 인스턴스가 그들과 공유됩니다.
 - ‘providedIn’: moduleClassName — 이것은 서비스가 'providedIn' 키에 지정된 이름을 가진 특정 모듈의 주입기에 제공된다는 것을 의미합니다. 따라서 해당 모듈 수준에서 액세스할 수 있습니다.
@@ -2643,7 +4148,18 @@ Angular에서 'OnPush' 변경 감지 전략은 변경 감지 주기의 수를 �
 
 ## `OnPush` 전략을 사용하여 Angular 애플리케이션을 최적화하는 방법은 다음 단계를 따르십시오:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가정해보겠습니다. `ParentComponent`라는 부모 구성 요소와 `ChildComponent`라는 자식 구성 요소가 있다고 가정해봅시다. 자식 구성 요소는 항목 배열을 입력 속성으로 받아와 목록으로 표시합니다. 이 시나리오를 `OnPush` 전략을 사용하여 최적화하겠습니다.
 
@@ -2651,42 +4167,51 @@ Angular에서 'OnPush' 변경 감지 전략은 변경 감지 주기의 수를 �
 
 ```js
 // parent.component.ts
-import { Component, ChangeDetectionStrategy } from '@angular/core';
+import { Component, ChangeDetectionStrategy } from "@angular/core";
 
 @Component({
-  selector: 'app-parent',
-  template: `
-    <app-child [items]="items"></app-child>
-  `,
-  changeDetection: ChangeDetectionStrategy.OnPush
+  selector: "app-parent",
+  template: ` <app-child [items]="items"></app-child> `,
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class ParentComponent {
-  items: string[] = ['Item 1', 'Item 2', 'Item 3'];
+  items: string[] = ["Item 1", "Item 2", "Item 3"];
   addItem() {
-    this.items.push('New Item'); // 배열을 업데이트하는 잘못된 방법
+    this.items.push("New Item"); // 배열을 업데이트하는 잘못된 방법
   }
 }
 ```
 
 ```js
 // child.component.ts
-import { Component, Input, ChangeDetectionStrategy } from '@angular/core';
+import { Component, Input, ChangeDetectionStrategy } from "@angular/core";
 
 @Component({
-  selector: 'app-child',
+  selector: "app-child",
   template: `
     <ul>
       <li *ngfor="let item of items">{ item }</li>
     </ul>
   `,
-  changeDetection: ChangeDetectionStrategy.OnPush
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class ChildComponent {
   @Input() items: string[];
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 코드에서 `ParentComponent`와 `ChildComponent` 모두 `OnPush` 변경 감지 전략을 사용하고 있습니다.
 
@@ -2694,27 +4219,38 @@ export class ChildComponent {
 
 ```js
 // parent.component.ts
-import { Component, ChangeDetectionStrategy } from '@angular/core';
+import { Component, ChangeDetectionStrategy } from "@angular/core";
 
 @Component({
-  selector: 'app-parent',
+  selector: "app-parent",
   template: `
     <app-child [items]="items"></app-child>
     <button (click)="addItem()">Add Item</button>
   `,
-  changeDetection: ChangeDetectionStrategy.OnPush
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class ParentComponent {
-  items: string[] = ['Item 1', 'Item 2', 'Item 3'];
+  items: string[] = ["Item 1", "Item 2", "Item 3"];
   addItem() {
-    this.items = [...this.items, 'New Item']; // 스프레드 연산자를 사용하여 배열을 업데이트하는 올바른 방법
+    this.items = [...this.items, "New Item"]; // 스프레드 연산자를 사용하여 배열을 업데이트하는 올바른 방법
   }
 }
 ```
 
 `ParentComponent`에서 `items` 배열에 새로운 항목을 추가할 때, spread 연산자 `[…this.items]`를 사용하여 새 배열을 생성한 후 새 항목을 추가합니다. 이렇게 하면 새로운 참조가 만들어지며, 입력 속성이 변경될 때 `ChildComponent`에서 변경 감지가 트리거됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결론:
 
@@ -2724,7 +4260,18 @@ export class ParentComponent {
 
 글쓴 시점인 2024년 2월 기준으로, 최신 Angular 버전은 Angular 17입니다. 해당 기능에 대한 자세한 내용은 다음 링크에서 확인하실 수 있습니다:https://blog.angular.io/introducing-angular-v17-4d7033312e4b
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 34. Angular에서 사용 가능한 양식 유형은 무엇인가요? 구문을 사용하여 설명해주세요.
 
@@ -2734,7 +4281,18 @@ Angular에서는 사용자 입력을 처리하고 유효성을 검사하기 위�
 
 — 템플릿 기반 양식은 주로 Angular 지시문을 사용하여 구성 요소의 HTML 템플릿 내에서 정의됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 템플릿에서 양식 컨트롤 및 유효성 검사 규칙이 추론되어 구성 요소 코드에서 명시적인 양식 컨트롤 선언이 필요성이 줄어듭니다.
 
@@ -2746,15 +4304,26 @@ Angular에서는 사용자 입력을 처리하고 유효성을 검사하기 위�
 <form #myform="ngForm" (ngsubmit)="onSubmit()">
      <label for="name">이름:</label>
      <input type="text" id="name" name="name" ngmodel="" required="">
-     
+
      <label for="email">이메일:</label>
      <input type="email" id="email" name="email" ngmodel="" required="" email="">
-     
+
      <button type="submit">제출</button>
    </form>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 예에서 `ngForm`은 전체 양식을 나타내는 지시자입니다. 각 입력 요소는 양방향 데이터 바인딩을 위해 `ngModel` 지시자를 사용하며 `required` 및 `email`과 같은 유효성 검사를 위한 추가 지시자도 포함됩니다.
 
@@ -2763,49 +4332,71 @@ Angular에서는 사용자 입력을 처리하고 유효성을 검사하기 위�
 - 반응형 양식은 TypeScript를 사용하여 구성 요소 클래스에서 프로그래밍적으로 생성됩니다.
 - 양식 컨트롤은 구성 요소 코드에서 명시적으로 정의되어 더 많은 제어와 유연성을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 리액티브 폼은 동적 검증 요구사항과 고급 상호 작용을 가진 복잡한 폼에 적합합니다.
 
 구문:
 
 ```js
-import { Component, OnInit } from '@angular/core';
-import { FormGroup, FormControl, Validators } from '@angular/forms';
+import { Component, OnInit } from "@angular/core";
+import { FormGroup, FormControl, Validators } from "@angular/forms";
 
 @Component({
-     selector: 'app-my-form',
-     template: `
-       <form [formGroup]="myForm" (ngSubmit)="onSubmit()">
-         <label for="name">이름:</label>
-         <input type="text" id="name" formControlName="name">
-         
-         <label for="email">이메일:</label>
-         <input type="email" id="email" formControlName="email">
-         
-         <button type="submit">전송</button>
-       </form>
-     `,
-   })
-   export class MyFormComponent implements OnInit {
-     myForm: FormGroup;
-     ngOnInit() {
-       this.myForm = new FormGroup({
-         name: new FormControl('', Validators.required),
-         email: new FormControl('', [Validators.required, Validators.email]),
-       });
-     }
-     onSubmit() {
-       if (this.myForm.valid) {
-         // 폼 제출 처리
-       }
-     }
-   }
+  selector: "app-my-form",
+  template: `
+    <form [formGroup]="myForm" (ngSubmit)="onSubmit()">
+      <label for="name">이름:</label>
+      <input type="text" id="name" formControlName="name" />
+
+      <label for="email">이메일:</label>
+      <input type="email" id="email" formControlName="email" />
+
+      <button type="submit">전송</button>
+    </form>
+  `,
+})
+export class MyFormComponent implements OnInit {
+  myForm: FormGroup;
+  ngOnInit() {
+    this.myForm = new FormGroup({
+      name: new FormControl("", Validators.required),
+      email: new FormControl("", [Validators.required, Validators.email]),
+    });
+  }
+  onSubmit() {
+    if (this.myForm.valid) {
+      // 폼 제출 처리
+    }
+  }
+}
 ```
 
 위 예제에서 `FormGroup`는 전체 폼을 나타내며, `FormControl`은 개별 폼 컨트롤을 나타냅니다. 각 폼 컨트롤에는 유효성 검증 규칙을 정의하기 위해 Validators가 적용됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결론:
 
@@ -2815,7 +4406,18 @@ Angular에서 사용할 수 있는 주요 형식 유형은 템플릿 중심형(f
 
 Angular에서의 동적 폼은 폼의 구조와 컨트롤이 런타임에서 동적으로 생성되는 것을 허용합니다. 폼의 구조와 컨트롤은 데이터나 사용자 상호 작용에 따라 동적으로 결정됩니다. 이는 필드 수가 다양한 폼을 처리하거나 폼 구조를 동적으로 생성해야 하는 경우에 특히 유용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Angular에서 동적 폼을 만들려면 이 단계를 따르면 됩니다:
 
@@ -2841,7 +4443,7 @@ export class DynamicFormComponent implements OnInit {
   ngOnInit() {
     // 빈 폼 그룹 생성
     this.dynamicForm = this.formBuilder.group({});
-    
+
     // 동적 폼 컨트롤 추가
     this.addFormControl('name', Validators.required);
     this.addFormControl('email', [Validators.required, Validators.email]);
@@ -2858,7 +4460,18 @@ export class DynamicFormComponent implements OnInit {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 예시에서 `dynamicForm`은 `FormBuilder`를 사용하여 생성된 `FormGroup`입니다. `addFormControl()` 메서드는 필드 이름과 유효성 검사 규칙을 기반으로 `dynamicForm`에 동적으로 폼 컨트롤을 추가하는 데 사용됩니다. 폼 컨트롤은 템플릿에서 생성되며 `ngFor`를 사용하여 폼 그룹의 컨트롤을 반복합니다.
 
@@ -2868,7 +4481,18 @@ export class DynamicFormComponent implements OnInit {
 
 Angular 폼에서 유효성 검증 또는 오류 메시지를 표시하는 방법에 대한 정보는 다음 링크를 참조해주세요 — Angular Forms에서 유효성 검증 또는 오류 메시지 표시 방법
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 37. 특정 컴포넌트에서 모듈 전체가 아닌 서비스를 사용하는 방법은 무엇인가요?
 
@@ -2878,7 +4502,18 @@ Angular 폼에서 유효성 검증 또는 오류 메시지를 표시하는 방�
 
 Angular 버전 2 이상에서는 1개의 요소에 1개 이상의 구조 지시문을 넣을 수 없습니다. ngIf와 ngFor를 모두 사용해야 한다면 둘 중 하나를 ng-container 내에 넣을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 39. 옵저버블과 서브젝트의 차이점은 무엇인가요?
 
@@ -2888,15 +4523,35 @@ Angular 버전 2 이상에서는 1개의 요소에 1개 이상의 구조 지시�
 
 옵저버블:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1. Subjects let you send data to multiple subscribers, while Observables send data to each subscriber individually. Therefore, when you add a new subscriber to a Subject, they will all receive the same data, but with Observables, each subscriber may get different data as the Observable source is re-executed for each new subscriber.
 2. Observables are cold by default because the data source is contained within the Observable itself, as shown in the code above. On the other hand, Subjects are not cold.
-For more detailed differences, refer to the following YouTube links:
+   For more detailed differences, refer to the following YouTube links:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Subject와 Behavior Subject의 차이점 – RxJS.
 - RxJS Subject와 RxJS Observable의 차이점은 무엇인가요?
@@ -2907,7 +4562,18 @@ For more detailed differences, refer to the following YouTube links:
 
 41. Angular 앱 성능을 향상시키는 방법은 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 Angular 앱 성능을 크게 향상시킬 수 있는 몇 가지 필수 해킹들입니다:
 
@@ -2923,7 +4589,18 @@ For more detailed differences, refer to the following YouTube links:
 
 Angular에서 Auth Guard는 라우트를 보호하고 사용자가 인증 상태나 사용자 역할에 따라 특정 경로에 액세스할 수 있는지 여부를 결정하는 데 사용됩니다. Auth Guard는 서비스로 구현되며 일반적으로 Angular의 라우팅 시스템과 함께 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앵귤러에서 Auth 가드(Auth Guards)가 작동하는 방법을 설명하는 예시입니다:
 
@@ -2954,26 +4631,37 @@ export class AuthGuard implements CanActivate {
 
 2. 앱 모듈에서 라우트를 정의하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
-import { HomeComponent } from './home.component';
-import { AdminComponent } from './admin.component';
-import { LoginComponent } from './login.component';
-import { AuthGuard } from './auth.guard';
+import { NgModule } from "@angular/core";
+import { Routes, RouterModule } from "@angular/router";
+import { HomeComponent } from "./home.component";
+import { AdminComponent } from "./admin.component";
+import { LoginComponent } from "./login.component";
+import { AuthGuard } from "./auth.guard";
 
 const routes: Routes = [
-  { path: '', component: HomeComponent },
-  { path: 'admin', component: AdminComponent, canActivate: [AuthGuard] },
-  { path: 'login', component: LoginComponent }
+  { path: "", component: HomeComponent },
+  { path: "admin", component: AdminComponent, canActivate: [AuthGuard] },
+  { path: "login", component: LoginComponent },
 ];
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
 ```
 
 이 예시에서, 세 가지 라우트를 가지고 있습니다: 홈 라우트, 어드민 라우트, 로그인 라우트입니다. 어드민 라우트는 `AuthGuard`로 보호되어 `[AuthGuard]`를 `canActivate` 속성에 설정하여 보호되어 있습니다.
@@ -2981,16 +4669,27 @@ export class AppRoutingModule { }
 3. 보호된 컴포넌트를 구현하세요:
 
 ```js
-import { Component } from '@angular/core';
+import { Component } from "@angular/core";
 
 @Component({
-  selector: 'app-admin',
-  template: 'Admin Page'
+  selector: "app-admin",
+  template: "Admin Page",
 })
-export class AdminComponent { }
+export class AdminComponent {}
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. 템플릿 또는 컴포넌트에서 Auth Guard 사용하기:
 
@@ -3022,7 +4721,18 @@ export class SomeComponent {
 
 결론:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Auth Guards는 Angular 애플리케이션의 인증 및 권한 부여 규칙에 따라 경로를 보호하고 다른 부분의 액세스를 제어하는 데 중요한 역할을 합니다. Auth Guards를 구현하고 활용함으로써 특정 경로가 보호되어 권한이 있는 사용자만 액세스할 수 있도록 보장할 수 있습니다.
 
@@ -3032,7 +4742,18 @@ Angular에서 canActivateChild 라우트 가드는 사용자가 자식 라우트
 
 사용자가 자식 라우트로 이동할 때 Angular는 부모 라우트의 라우트 구성에서 관련 canActivateChild 가드가 있는지 확인합니다. 가드가 존재한다면, Angular는 자식 라우트를 활성화하기 전에 가드를 실행합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 canActivateChild 가드는 CanActivateChild 인터페이스를 구현하는 서비스로 구현됩니다. 이 인터페이스는 canActivateChild()라는 하나의 메서드를 가지고 있으며, boolean 값을 반환하거나 boolean으로 해결되는 프로미스를 반환합니다. 해당 메서드가 true를 반환하면 자식 라우트가 활성화됩니다. false나 false로 해결되는 프로미스를 반환하면 자식 라우트가 활성화되지 않고 사용자는 다른 라우트로 리디렉션되거나 사용자 정의 오류 페이지가 표시됩니다.
 
@@ -3064,42 +4785,64 @@ export class AuthGuard implements CanActivateChild {
 
 이 예시에서는 CanActivateChild 인터페이스를 구현하는 AuthGuard 서비스를 가지고 있습니다. canActivateChild() 메서드는 AuthService에서 제공하는 isAuthenticated() 메서드를 사용하여 사용자가 인증되었는지 확인합니다. 사용자가 인증되었다면 메서드는 true를 반환하여 자식 라우트가 활성화됩니다. 사용자가 인증되지 않았다면 메서드는 로그인 페이지로 이동하고 false를 반환하여 자식 라우트의 활성화를 방지합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AuthGuard 서비스를 사용하려면 그것을 자식 경로를 지키는 부모 경로의 경로 구성에 있는 canActivateChild 속성에 추가할 수 있습니다:
 
 ```js
-import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
-import { AuthGuard } from './auth.guard';
-import { ParentComponent } from './parent.component';
-import { ChildComponent } from './child.component';
+import { NgModule } from "@angular/core";
+import { Routes, RouterModule } from "@angular/router";
+import { AuthGuard } from "./auth.guard";
+import { ParentComponent } from "./parent.component";
+import { ChildComponent } from "./child.component";
 
 const routes: Routes = [
   {
-    path: 'parent',
+    path: "parent",
     component: ParentComponent,
     canActivateChild: [AuthGuard],
     children: [
       {
-        path: 'child',
-        component: ChildComponent
-      }
-    ]
-  }
+        path: "child",
+        component: ChildComponent,
+      },
+    ],
+  },
 ];
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
 ```
 
 이 예제에서 canActivateChild 속성은 AuthGuard 서비스를 포함하는 배열로 설정됩니다. AuthGuard로 자식 경로를 지킵니다.
 
 아직 헷갈리나요? 그렇다면 설명을 확인하기 위해 canActivateChild 링크를 참조해보세요 - tektutorialshub
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CanLoad 가드는 Lazy Loaded 모듈의 로딩을 확인합니다. 이 가드는 모듈의 어떤 경로로도 접근하지 못하도록 하고 모듈의 소스 코드를 보는 것조차 막고 싶을 때 사용합니다.
 
@@ -3107,7 +4850,18 @@ CanActivate 가드는 인가되지 않은 사용자가 경로에 접근하는 �
 
 스위치 맵, 머지 맵, forkJoin, combineLatest, concatMap, exhaustMap을 설명해주세요. 스위치 맵, 머지 맵 또는 forkJoin 중 하나의 요청이 실패하면 어떻게 될까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 각 연산자를 하나씩 살펴보고 예제와 함께 설명해보겠습니다. 또한 `switchMap`, `mergeMap`, 또는 `forkJoin`을 사용할 때 요청이 실패하는 경우에 대해서도 논의할 겁니다.
 
@@ -3116,18 +4870,31 @@ CanActivate 가드는 인가되지 않은 사용자가 경로에 접근하는 �
 예시:
 
 ```js
-import { of, interval } from 'rxjs';
-import { switchMap } from 'rxjs/operators';
-const $switchMap = from([1,2,3,4]).pipe(switchMap(data=>{
-  return of(data).pipe(delay(500))
-}));
+import { of, interval } from "rxjs";
+import { switchMap } from "rxjs/operators";
+const $switchMap = from([1, 2, 3, 4]).pipe(
+  switchMap((data) => {
+    return of(data).pipe(delay(500));
+  })
+);
 
-$switchMap.subscribe(data=>{
-  console.log('switch map data', data); // 새 observable이 발생할 때, switchMap은 모든 이전 observable을 취소하므로 4가 출력됩니다.
-})
+$switchMap.subscribe((data) => {
+  console.log("switch map data", data); // 새 observable이 발생할 때, switchMap은 모든 이전 observable을 취소하므로 4가 출력됩니다.
+});
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예제에서 `sourceObservable`은 매 초마다 값을 발생시킵니다. 발생된 각 값마다, `switchMap`은 `from` 연산자를 사용하여 내부 observable을 생성하고 소스 observable에서 값이 1초 후에 발생하도록 합니다. 이전 내부 observable이 완료되기 전에 새 값이 발생하면, 새 내부 observable로 전환되어 이전 것이 취소됩니다. 따라서, 가장 최근의 내부 observable 값만이 발생됩니다.
 
@@ -3136,8 +4903,8 @@ $switchMap.subscribe(data=>{
 예시:
 
 ```js
-import { of } from 'rxjs';
-import { mergeMap, delay } from 'rxjs/operators';
+import { of } from "rxjs";
+import { mergeMap, delay } from "rxjs/operators";
 
 // 세 개의 값이 발생하는 observable 생성
 const sourceObservable = of(1, 2, 3);
@@ -3150,11 +4917,22 @@ const resultObservable = sourceObservable.pipe(
 );
 // 결과 observable을 구독
 resultObservable.subscribe((value) => {
-  console.log(value); // 1 2 3 
+  console.log(value); // 1 2 3
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예시에서 `sourceObservable`은 1, 2, 3 세 개의 값을 방출합니다. 각 값이 방출될 때마다, `mergeMap`은 `of` 연산자를 사용하여 내부 observable을 생성하고 1초의 지연 후 값을 방출합니다. `mergeMap`은 내부 observables를 취소하거나 전환하지 않기 때문에, 각 내부 observable에서 모든 값이 하나의 observable로 병합되어 완료된 순서대로 방출됩니다.
 
@@ -3163,19 +4941,27 @@ resultObservable.subscribe((value) => {
 예시:
 
 ```js
-import { forkJoin, of, throwError } from 'rxjs';
+import { forkJoin, of, throwError } from "rxjs";
 
-const observables = [
-     of(1,2,3).pipe(delay(500)),
-    from([10,11,12])
-  ]
-  const $forkJoin = forkJoin(observables);
-  $forkJoin.subscribe(data=>{
-    console.log('forkjoin data', data); // [3,12] as forkJoin will return last emitted values of each observable
-  })
+const observables = [of(1, 2, 3).pipe(delay(500)), from([10, 11, 12])];
+const $forkJoin = forkJoin(observables);
+$forkJoin.subscribe((data) => {
+  console.log("forkjoin data", data); // [3,12] as forkJoin will return last emitted values of each observable
+});
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예시에서 `forkJoin`은 지연 후 각각 'A' 및 'B'를 내보내는 두 옵저버블과 일정 시간 후 에러를 발생시키는 옵저버블을 포함하는 옵저버블 배열을 가져옵니다. `forkJoin`은 모든 옵저버블이 완료될 때까지 기다린 후, 완료되면 각 옵저버블에서 마지막으로 내보낸 값을 포함하는 배열을 내보냅니다. 그러나 `forkJoin`의 옵저버블 중 하나라도 에러를 발생시키면, 그 에러는 `subscribe` 메소드의 에러 콜백으로 전달됩니다.
 
@@ -3184,30 +4970,38 @@ const observables = [
 예시:
 
 ```js
-import { combineLatest, interval } from 'rxjs';
+import { combineLatest, interval } from "rxjs";
 
-const observables = [
-    of(1,2,3,4),
-    from([10,11,12])
-]
+const observables = [of(1, 2, 3, 4), from([10, 11, 12])];
 
 const $combineLatest = combineLatest(observables);
-$combineLatest.subscribe(data => {
-    console.log('combineLatest data', data);
-})
+$combineLatest.subscribe((data) => {
+  console.log("combineLatest data", data);
+});
 /*  출력 */
 // [4, 10]
 // [4, 11]
 // [4, 12]
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 관찰 가능한 것이 아래와 같다면:
 
 ```js
 const observables = [
-    of(1,2,3,4).pipe(delay(500)), 
+    of(1,2,3,4).pipe(delay(500)),
     from([10,11,12])
  ]
 
@@ -3222,13 +5016,24 @@ const observables = [
 
 5. concatMap:이 연산자는 각 소스 값을 내부 observable에 매핑하고 각 내부 observable의 값을 순차적으로 연결합니다. 각 내부 observable이 완료될 때까지 기다렸다가 다음으로 넘어갑니다. 순서가 중요한 경우 mergeMap 대신 concatMap을 사용하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시:
 
 ```js
-import { of } from 'rxjs';
-import { concatMap, delay } from 'rxjs/operators';
+import { of } from "rxjs";
+import { concatMap, delay } from "rxjs/operators";
 
 // 세 개의 값을 방출하는 observable 생성
 const sourceObservable = of(1, 2, 3);
@@ -3249,27 +5054,49 @@ resultObservable.subscribe((value) => {
 
 6. exhaustMap: exhaustMap 연산자는 각 소스 값을 observable에 매핑한 다음 해당 observable에 구독하는 방식으로 작동합니다. 한 번에 하나의 내부 observable이 활성화되도록 보장합니다. 활성화된 내부 observable이 있는 상태에서 새로운 소스 값이 도착하면, 내부 observable이 완료될 때까지 새 값은 무시됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 Angular에서 exhaustMap을 사용하는 예제가 있어요:
 
 ```js
-const $exhaustMap = from([1,2,3,4]).pipe(
-    exhaustMap(data=>{
-      return of(data).pipe(delay(500)); 
-    })
- )
+const $exhaustMap = from([1, 2, 3, 4]).pipe(
+  exhaustMap((data) => {
+    return of(data).pipe(delay(500));
+  })
+);
 
-$exhaustMap.subscribe(data=> {
-    console.log('exhaustMap data', data); //1
- })
+$exhaustMap.subscribe((data) => {
+  console.log("exhaustMap data", data); //1
+});
 ```
 
 만약 `switchMap`, `mergeMap`, 또는 `forkJoin`에서 어떤 요청이 실패한다면 다음과 같은 일이 발생합니다:
 
 — switchMap: `switchMap`에 의해 생성된 내부 observable 중 하나가 오류를 throw하면, 해당 오류는 `subscribe` 메서드의 에러 콜백으로 전파됩니다. 또한, 이전 내부 observable에 대한 구독이 취소되고, `switchMap`은 새로운 내부 observable로 전환됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 — mergeMap: `mergeMap`으로 생성된 내부 Observable 중 하나라도 오류가 발생하면 해당 오류는 `subscribe` 메서드의 오류 콜백으로 전파됩니다. 그러나 한 내부 Observable의 오류가 다른 내부 Observables에 영향을 미치지 않습니다. `mergeMap`은 계속해서 다른 내부 Observables에서 값을 병합할 것입니다.
 
@@ -3279,7 +5106,18 @@ $exhaustMap.subscribe(data=> {
 
 46. 의존성 주입이란 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 소프트웨어 엔지니어링에서 — 의존성 주입은 클래스 A의 인스턴스(객체)를 생성하고 이 인스턴스를 클래스 B에 제공하여 클래스 A의 기능을 클래스 B에서 사용할 수 있도록 하는 프로세스입니다.
 
@@ -3289,7 +5127,18 @@ Angular의 맥락에서 — 의존성 주입은 서비스의 인스턴스(객체
 
 디바운싱은 JavaScript에서 사용되는 기술로, 짧은 시간 내에 반복해서 트리거되는 함수 호출의 빈도를 제한하는 것입니다. 종종 스크롤, 크기 조정 또는 검색 입력 변경으로 인한 API 호출과 같은 이벤트에서 함수 호출이 자주 발생할 수 있지만, 해당 이벤트가 멈췄을 때 일정한 지연 이후에 함수가 한 번만 실행되도록 보장하고 싶을 때 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 JavaScript에서 'Debounce'를 구현하는 방법:
 
@@ -3301,22 +5150,33 @@ HTML 코드:
 
 JavaScript 코드:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 let timerId;
-let delay=1000;
+let delay = 1000;
 
 function debounce(callback, delay) {
-  if(timerId) {
+  if (timerId) {
     clearTimeout(timerId);
   }
-  timerId = setTimeout(()=>{
-     callback();
-  },delay)
+  timerId = setTimeout(() => {
+    callback();
+  }, delay);
 }
 function api() {
-   console.log('api call code here');
+  console.log("api call code here");
 }
 function search() {
   debounce(api, delay);
@@ -3329,17 +5189,26 @@ setTimeout의 예시:
 
 버튼 클릭 후 2초 후에 알림을 표시하고 싶은 간단한 시나리오를 고려해 봅시다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const showNotification = () => {
-  console.log('Notification: Button clicked!');
+  console.log("Notification: Button clicked!");
 };
 
-const button = document.getElementById('my-button');
-button.addEventListener('click', () => {
+const button = document.getElementById("my-button");
+button.addEventListener("click", () => {
   setTimeout(showNotification, 2000);
 });
 ```
@@ -3350,8 +5219,18 @@ button.addEventListener('click', () => {
 
 RxJS에는 JavaScript에서 비동기 데이터 스트림을 처리하는 강력한 도구로 만드는 몇 가지 주요 기능이 있습니다:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Observables: RxJS는 비동기 데이터 스트림을 나타내는 Observables 개념을 중심으로 구축되었습니다. Observables는 연산자(operator)를 사용하여 선언적 방식으로 변형, 결합 및 소비할 수 있습니다.
 - Operators: RxJS에는 Observables를 변형하고 조작하는 데 사용할 수 있는 다양한 연산자가 제공됩니다. 이러한 연산자에는 `map`, `filter`, `reduce`, `scan`, `merge`, `concat`, `switchMap` 등이 포함됩니다.
@@ -3367,55 +5246,81 @@ RxJS는 Observables에서 발생하는 오류를 처리하기 위한 여러 연�
 
 - catchError: `catchError` 연산자는 Observable에서 발생할 수 있는 오류를 처리하고 고급 방법으로 처리하는 데 사용됩니다. 함수를 인수로 받아오며 해당 함수는 다른 Observable을 반환하거나 오류를 throw할 수 있습니다. 함수가 Observable을 반환할 경우 소스 Observable은 반환된 Observable로 대체됩니다. 함수가 오류를 throw할 경우 오류는 구독자에게 전파됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 예제가 있습니다:
 
 ```js
-import { of } from 'rxjs';
-import { catchError } from 'rxjs/operators';
+import { of } from "rxjs";
+import { catchError } from "rxjs/operators";
 
-of(1, 2, 3).pipe(
-  map(num => {
-    if (num === 2) {
-      throw new Error('Oops!');
-    }
-    return num;
-  }),
-  catchError(err => {
-    console.error(err.message);
-    return of(4, 5, 6);
-  })
-).subscribe(
-  num => console.log(num),
-  err => console.error(err),
-  () => console.log('Complete')
-);
+of(1, 2, 3)
+  .pipe(
+    map((num) => {
+      if (num === 2) {
+        throw new Error("Oops!");
+      }
+      return num;
+    }),
+    catchError((err) => {
+      console.error(err.message);
+      return of(4, 5, 6);
+    })
+  )
+  .subscribe(
+    (num) => console.log(num),
+    (err) => console.error(err),
+    () => console.log("Complete")
+  );
 ```
 
 이 예제에서 `map` 연산자는 숫자 2를 만나면 오류를 throw합니다. `catchError` 연산자는 오류를 catch하고 오류 메시지를 콘솔에 기록합니다. 그런 다음 소스 Observable을 새로운 Observable로 대체하여 숫자 4, 5 및 6을 방출합니다. 2. retry: `retry` 연산자는 오류가 발생했을 때 Observable을 자동으로 재시도하는 데 사용됩니다. 최대 재시도 횟수를 지정하는 선택적 인수를 취합니다.
 
 여기 예제가 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-import { of } from 'rxjs';
-import { map, retry } from 'rxjs/operators';
+import { of } from "rxjs";
+import { map, retry } from "rxjs/operators";
 
-of(1, 2, 3).pipe(
-  map(num => {
-    if (num === 2) {
-      throw new Error('Oops!');
-    }
-    return num;
-  }),
-  retry(2)
-).subscribe(
-  num => console.log(num),
-  err => console.error(err),
-  () => console.log('Complete')
-);
+of(1, 2, 3)
+  .pipe(
+    map((num) => {
+      if (num === 2) {
+        throw new Error("Oops!");
+      }
+      return num;
+    }),
+    retry(2)
+  )
+  .subscribe(
+    (num) => console.log(num),
+    (err) => console.error(err),
+    () => console.log("Complete")
+  );
 ```
 
 이 예제에서 `map` 오퍼레이터는 숫자 2를 만나면 오류를 발생시킵니다. `retry` 오퍼레이터는 오류를 구독자에 전파하기 전에 최대 2번까지 Observable을 다시 시도합니다.
@@ -3424,92 +5329,146 @@ of(1, 2, 3).pipe(
 
 백프레셔는 반응형 프로그래밍에서 사용되는 메커니즘으로, Observable이 데이터를 소비될 속도보다 빠르게 방출할 때의 상황을 처리하는 데 사용됩니다. 이로 인해 메모리 사용량이 높아지거나 처리 속도가 느려지는 문제 등이 발생할 수 있습니다. RxJS에는 `buffer`, `throttle`, `debounce`, `sample`, `switchMap`를 포함한 여러 오퍼레이터가 있는데, 이를 사용하여 백프레셔를 구현할 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 버퍼: `버퍼` 연산자는 소스 Observable에서 발행된 값을 배열로 수집하고 지정된 크기에 도달하면 배열을 발행합니다. 처리할 수 있을 때까지 발행된 값을 임시로 저장하는 데 사용할 수 있습니다.
 
 다음은 예제입니다:
 
 ```js
-import { interval } from 'rxjs';
-import { bufferTime } from 'rxjs/operators';
+import { interval } from "rxjs";
+import { bufferTime } from "rxjs/operators";
 
-interval(100).pipe(
-  bufferTime(1000)
-).subscribe(
-  values => console.log(values),
-  err => console.error(err),
-  () => console.log('Complete')
-);
+interval(100)
+  .pipe(bufferTime(1000))
+  .subscribe(
+    (values) => console.log(values),
+    (err) => console.error(err),
+    () => console.log("Complete")
+  );
 ```
 
 이 예제에서 `interval` Observable은 매 100밀리초마다 값을 발행합니다. `bufferTime` 연산자는 발행된 값을 배열로 수집하고 1000밀리초마다 배열을 발행합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. throttle: `throttle` 연산자는 지정된 시간 창 내에 발생한 이벤트를 제거하여 원본 Observable의 이벤트를 쓰로틀링합니다. 이를 사용하여 원본 Observable에서의 이벤트 발생 속도를 제한할 수 있습니다.
 
 다음은 예시입니다:
 
 ```js
-import { interval } from 'rxjs';
-import { throttleTime } from 'rxjs/operators';
+import { interval } from "rxjs";
+import { throttleTime } from "rxjs/operators";
 
-interval(100).pipe(
-  throttleTime(1000)
-).subscribe(
-  num => console.log(num),
-  err => console.error(err),
-  () => console.log('Complete')
-);
+interval(100)
+  .pipe(throttleTime(1000))
+  .subscribe(
+    (num) => console.log(num),
+    (err) => console.error(err),
+    () => console.log("Complete")
+  );
 ```
 
 위 예시에서 `interval` Observable은 100밀리초마다 값을 방출합니다. `throttleTime` 연산자는 이전 이벤트 발생 후 1000밀리초 내에 발생한 이벤트를 제거합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. 디바운스: `debounce` 연산자는 소스 Observable에서 발행되는 값을 마지막 발행 이후 지정된 시간이 경과할 때까지 지연시킵니다. 이를 사용하여 빠른 발행을 필터링하고 마지막 값만을 발행할 수 있습니다.
 
 다음은 예제입니다:
 
 ```js
-import { fromEvent } from 'rxjs';
-import { debounceTime } from 'rxjs/operators';
+import { fromEvent } from "rxjs";
+import { debounceTime } from "rxjs/operators";
 
-fromEvent(document, 'keyup').pipe(
-  debounceTime(1000)
-).subscribe(
-  event => console.log(event.target.value),
-  err => console.error(err),
-  () => console.log('Complete')
-);
+fromEvent(document, "keyup")
+  .pipe(debounceTime(1000))
+  .subscribe(
+    (event) => console.log(event.target.value),
+    (err) => console.error(err),
+    () => console.log("Complete")
+  );
 ```
 
 이 예제에서 `fromEvent` Observable은 문서에서 키를 뗄 때마다 값을 발행합니다. `debounceTime` 연산자는 1000밀리초의 경과 후에만 값을 발행하도록 지연시킵니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. 샘플: `sample` 연산자는 지정된 시간 간격에 source Observable에서 가장 최근의 값이 방출됩니다. 몇 개의 값이 방출되었는지에 관계없이 정기적인 간격으로 가장 최근의 값을 방출하는 데 사용할 수 있습니다.
 
 여기 예시가 있습니다:
 
 ```js
-import { interval } from 'rxjs';
-import { sampleTime } from 'rxjs/operators';
+import { interval } from "rxjs";
+import { sampleTime } from "rxjs/operators";
 
-interval(100).pipe(
-  sampleTime(1000)
-).subscribe(
-  num => console.log(num),
-  err => console.error(err),
-  () => console.log('완료')
-);
+interval(100)
+  .pipe(sampleTime(1000))
+  .subscribe(
+    (num) => console.log(num),
+    (err) => console.error(err),
+    () => console.log("완료")
+  );
 ```
 
 5. switchMap: `switchMap` 연산자는 소스 Observable에서 동시 방출 수를 제한하는 데 사용할 수 있습니다. `switchMap`을 사용하여 백프레셔를 구현하는 예시가 여기 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예제에서 `source$` Observable은 매 100밀리초마다 값을 방출합니다. `processValue` 함수는 1초 후에 resolve되는 Promise를 반환하여 처리 시간을 시뮬레이트합니다. `switchMap` 연산자는 최대 2개의 동시 방출을 허용하도록 설정되어 있어, 한 번에 2개의 값만 처리됩니다. `limitedSource$` Observable은 구독되어 처리된 값들을 방출합니다.
 
@@ -3517,7 +5476,18 @@ interval(100).pipe(
 
 RxJS에서 연산자의 목적은 값을 방출하고 조작하거나 조합하는 것입니다. 대표적인 연산자 예시로는 `map`, `filter`, `mergeMap`, `switchMap`, `concatMap` 등이 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 RxJS의 오퍼레이터는 옵저버블이 방출하는 데이터를 변환, 필터링 또는 결합하는 데 사용할 수 있는 함수입니다. 오퍼레이터는 RxJS의 주요 기능 중 하나이며, 개발자가 복잡한 데이터 처리 파이프라인을 쉽게 작성할 수 있도록 도와줍니다.
 
@@ -3526,22 +5496,31 @@ RxJS에서 가장 흔한 오퍼레이터 중 하나는 `map` 오퍼레이터입�
 다음은 예시입니다:
 
 ```js
-import { of } from 'rxjs';
-import { map } from 'rxjs/operators';
+import { of } from "rxjs";
+import { map } from "rxjs/operators";
 
 const source$ = of(1, 2, 3);
-const doubled$ = source$.pipe(
-  map(value => value * 2)
-);
+const doubled$ = source$.pipe(map((value) => value * 2));
 
 doubled$.subscribe(
-  value => console.log(value), // 결과: 2, 4, 6
-  err => console.error(err),
-  () => console.log('완료')
+  (value) => console.log(value), // 결과: 2, 4, 6
+  (err) => console.error(err),
+  () => console.log("완료")
 );
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예에서는 `of` 함수가 사용되어 1, 2 및 3 값을 방출하는 observable을 생성합니다. 그런 다음 `map` 연산자가 사용되어 observable에 의해 방출된 각 값이 두 배가 됩니다. `doubled$` observable이 구독되어 변환된 값이 발생하고 이 값들이 콘솔에 기록됩니다.
 
@@ -3551,14 +5530,25 @@ RxJS에서 스케줄러를 사용하는 목적에 대해 설명하고 일반적�
 
 RxJS에서 스케줄러는 발생한 이벤트의 타이밍을 제어하는 방법을 제공하는 객체입니다. 스케줄러는 특정 시간에 작업을 예약하거나 작업의 실행을 지연하거나 작업을 실행해야 하는 스레드를 지정할 수 있습니다. 스케줄러를 사용하는 목적은 개발자가 observable의 타이밍과 실행에 대해 더 세밀한 제어를 제공하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 RxJS에서 일반적으로 사용되는 스케줄러 중 하나는 `observeOn()` 연산자입니다. `observeOn()` 연산자는 observable이 값을 방출하는 스케줄러를 지정하는 데 사용됩니다. 예를 들어보겠습니다:
 
 ```js
-import { from } from 'rxjs';
-import { observeOn } from 'rxjs/operators';
-import { asyncScheduler } from 'rxjs';
+import { from } from "rxjs";
+import { observeOn } from "rxjs/operators";
+import { asyncScheduler } from "rxjs";
 ```
 
 ```js
@@ -3567,15 +5557,26 @@ const async$ = source$.pipe(
   observeOn(asyncScheduler) // async 스케줄러에서 값 방출
 );
 async$.subscribe(
-  value => console.log(value), // 출력: 1, 2, 3
-  err => console.error(err),
-  () => console.log('완료')
+  (value) => console.log(value), // 출력: 1, 2, 3
+  (err) => console.error(err),
+  () => console.log("완료")
 );
 ```
 
 이 예제에서 `from()` 함수를 사용하여 값을 1, 2, 3을 방출하는 observable을 생성합니다. 그런 다음 `observeOn()` 연산자를 사용하여 observable이 값을 async 스케줄러에서 방출하도록 지정하며, 이렇게 하면 값이 비동기적으로 방출됩니다. `asyncScheduler`는 `setTimeout()`을 사용하여 비동기적으로 실행할 작업을 스케줄링하는 RxJS의 일반적인 스케줄러입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스케줄러는 작업 실행을 지연시키거나 작업 실행 순서를 제어하거나 작업을 실행할 스레드를 지정하는 데 사용될 수 있습니다. RxJS에서 일반적으로 사용되는 몇 가지 스케줄러에는 `async`, `queue`, `animationFrame`, `immediate` 등이 있습니다.
 
@@ -3585,21 +5586,32 @@ RxJS에서 버전 5.5부터 파이프 가능 연산자는 연산자를 사용하
 
 ## 파이프 가능 연산자를 사용하여 옵저버블을 변환하는 예시입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-import { of } from 'rxjs';
-import { map, filter } from 'rxjs/operators';
+import { of } from "rxjs";
+import { map, filter } from "rxjs/operators";
 
 const source$ = of(1, 2, 3, 4, 5);
 const filtered$ = source$.pipe(
-  filter(value => value % 2 === 0),
-  map(value => value * 2)
+  filter((value) => value % 2 === 0),
+  map((value) => value * 2)
 );
 filtered$.subscribe(
-  value => console.log(value), // Output: 4, 8
-  err => console.error(err),
-  () => console.log('Complete')
+  (value) => console.log(value), // Output: 4, 8
+  (err) => console.error(err),
+  () => console.log("Complete")
 );
 ```
 
@@ -3609,21 +5621,29 @@ filtered$.subscribe(
 
 # 다음은 observable을 변환하는 패치 오퍼레이터 사용 예시입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-import { of } from 'rxjs';
+import { of } from "rxjs";
 
 const source$ = of(1, 2, 3, 4, 5);
-const filtered$ = source$
-  .filter(value => value % 2 === 0)
-  .map(value => value * 2);
+const filtered$ = source$.filter((value) => value % 2 === 0).map((value) => value * 2);
 
 filtered$.subscribe(
-  value => console.log(value), // Output: 4, 8
-  err => console.error(err),
-  () => console.log('Complete')
+  (value) => console.log(value), // Output: 4, 8
+  (err) => console.error(err),
+  () => console.log("Complete")
 );
 ```
 
@@ -3631,10 +5651,20 @@ filtered$.subscribe(
 
 54. Angular에서 서비스란 무엇인가요?
 
-Angular에서 서비스는 서로 다른 구성 요소 간이나 응용 프로그램 전반에 걸쳐 데이터, 로직 및 기능을 공유할 수 있도록 하는 아키텍처의 중요한 부분입니다. 서비스는 서버로부터 데이터 검색, 데이터 조작, 인증, 로깅 등과 같은 재사용 가능한 기능을 캡슐화하고 제공하는 데 사용됩니다. Angular에서 서비스의 주요 측면 및 특성은 다음과 같습니다: 
+Angular에서 서비스는 서로 다른 구성 요소 간이나 응용 프로그램 전반에 걸쳐 데이터, 로직 및 기능을 공유할 수 있도록 하는 아키텍처의 중요한 부분입니다. 서비스는 서버로부터 데이터 검색, 데이터 조작, 인증, 로깅 등과 같은 재사용 가능한 기능을 캡슐화하고 제공하는 데 사용됩니다. Angular에서 서비스의 주요 측면 및 특성은 다음과 같습니다:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 싱글톤 패턴: Angular 서비스는 일반적으로 싱글톤으로 구현됩니다. 이는 애플리케이션 전반에 하나의 서비스 인스턴스만 존재하며 여러 컴포넌트에서 공유할 수 있다는 것을 의미합니다. 서비스를 여러 컴포넌트에 주입하면 모든 컴포넌트가 동일한 인스턴스를 받아 데이터 일관성과 효율적인 메모리 사용을 보장합니다.
 - Injectable 데코레이터: 클래스를 Angular 서비스로 작동하도록 만들려면 `@Injectable` 데코레이터로 장식해야 합니다. 이 데코레이터는 의존성 주입을 활성화하고 서비스를 다른 Angular 컴포넌트에 제공하고 주입할 수 있도록 합니다.
@@ -3651,7 +5681,18 @@ Angular 서비스를 설명하기 위한 예제를 살펴봅시다.
 
 먼저, Angular CLI 명령어를 사용하여 새로운 Angular 서비스를 만들 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 ng generate service book
@@ -3690,7 +5731,18 @@ export class BookService {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예시에서 `BookService`는 `@Injectable` 데코레이터로 꾸며져 있습니다. 이는 이 서비스가 다른 Angular 컴포넌트에 주입될 수 있다는 것을 나타냅니다. `providedIn: ‘root’` 옵션은 서비스가 애플리케이션 전반에 걸쳐 싱글톤으로 사용 가능하도록 합니다. `BookService`에는 세 가지 메소드가 있습니다:
 
@@ -3702,8 +5754,18 @@ export class BookService {
 
 예를 들어, `BookListComponent`에서는 `BookService`를 주입하고 `getAllBooks()` 메소드를 사용하여 책 목록을 가져올 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { Component, OnInit } from '@angular/core';
@@ -3734,8 +5796,18 @@ export class BookListComponent implements OnInit {
 
 서비스를 사용하여 복잡한 로직과 데이터 작업을 처리할 수 있으므로 컴포넌트를 가볍게 유지할 수 있고 컴포넌트 간의 효율적인 통신과 데이터 공유를 가능하게 합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AOT와 JIT의 차이점은 무엇인가요?
 
@@ -3745,7 +5817,18 @@ Just-in-Time (JIT)
 
 JIT 컴파일 모드에서 개발자가 작성한 TS 코드는 빌드 생성 중에 JS 코드로 컴파일됩니다. 이제 이 컴파일된 js 코드에는 여전히 일부 Angular 특정 코드(컴포넌트, 데코레이터, 변경 감지, 의존성 주입 등)가 포함되어 있으며, 이는 JIT 컴파일러의 도움으로 다시 브라우저에서 런타임에 컴파일됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 JIT 모드에서 Angular 애플리케이션이 브라우저에서 부트스트랩될 때, JIT 컴파일러는 런타임에서 애플리케이션의 구성 요소를 분석하고 메모리에 코드를 생성하는 많은 작업을 수행합니다. 페이지를 새로고침하면 수행된 모든 작업이 폐기되고 JIT 컴파일러가 모든 작업을 다시 수행합니다.
 
@@ -3755,7 +5838,18 @@ JIT 모드에서 Angular 애플리케이션이 브라우저에서 부트스트�
 
 **보다 빠른 렌더링**
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앵귤러 컴파일러를 이미 컴파일한 경우에는 앵귈러 컴파일러를 다운로드할 필요가 없습니다. 컴파일러는 앵귈러의 절반 정도이므로 생략하면 애플리케이션 페이로드가 크게 줄어듭니다.
 
@@ -3765,7 +5859,18 @@ AOT 컴파일러는 사용자가 볼 수 있기 전에 빌드 단계에서 템�
 
 보안 강화
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AOT는 클라이언트에 제공되기 전에 HTML 템플릿과 컴포넌트를 JavaScript 파일로 컴파일합니다. 읽을 템플릿도 없고, 위험한 클라이언트 측 HTML 또는 JavaScript 평가도 없기 때문에, 삽입 공격 기회가 적어집니다.
 
@@ -3775,7 +5880,18 @@ Angular의 다양한 구성 요소란 무엇인가요?
 
 Angular는 함께 작동하여 견고한 웹 애플리케이션을 만드는 여러 구성 요소로 구성되어 있습니다. Angular의 주요 구성 요소는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 구성 요소: 구성 요소는 Angular 애플리케이션의 기본 구성 요소입니다. UI 및 로직을 캡슐화하여 사용자 인터페이스의 다른 부분을 나타냅니다. 구성 요소는 템플릿(HTML 마크업), 스타일(CSS), 구성 요소 동작을 정의하는 TypeScript 클래스로 구성됩니다.
 - 템플릿: 템플릿은 구성 요소의 UI의 구조와 레이아웃을 정의합니다. Angular의 템플릿 구문, 디렉티브, 데이터 바인딩 및 기타 기능을 결합한 HTML 마크업을 사용하여 데이터를 동적으로 조작하고 표시합니다.
@@ -3793,25 +5909,36 @@ Angular는 함께 작동하여 견고한 웹 애플리케이션을 만드는 여
 
 `retry()` 연산자는 RxJS에서 오류가 발생할 경우 옵저버블을 다시 구독하는 데 사용됩니다. 이 연산자는 자동으로 소스 옵저버블을 다시 구독하고, 지연이나 다른 사용자 정의 옵션을 사용하여 구독자에게 계속 값을 방출합니다. `retry()` 연산자는 옵저버블이 간헐적인 네트워크 오류 또는 다른 문제로 실패할 수 있는 상황에서 유용하며, 애플리케이션이 이러한 오류로부터 복구하고 계속 작동할 수 있도록 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 `retry()` 연산자를 사용하는 예시가 있습니다:
 
 ```js
-import { of } from 'rxjs';
-import { map, mergeMap, retry } from 'rxjs/operators';
+import { of } from "rxjs";
+import { map, mergeMap, retry } from "rxjs/operators";
 
-const source$ = of('http://my-api.com/data');
+const source$ = of("http://my-api.com/data");
 const data$ = source$.pipe(
-  mergeMap(url => fetch(url)), // fetch() 함수가 데이터와 함께 해결되는 프로미스를 반환한다고 가정합니다
-  map(response => response.json()),
+  mergeMap((url) => fetch(url)), // fetch() 함수가 데이터와 함께 해결되는 프로미스를 반환한다고 가정합니다
+  map((response) => response.json()),
   retry(3) // 에러 발생 시 최대 3회까지 시도
 );
 
 data$.subscribe(
-  data => console.log(data),
-  err => console.error(err),
-  () => console.log('완료')
+  (data) => console.log(data),
+  (err) => console.error(err),
+  () => console.log("완료")
 );
 ```
 
@@ -3819,7 +5946,18 @@ data$.subscribe(
 
 `retry()` 연산자는 `map()` 연산자 이후에 사용되어, 에러 발생 시 observable이 최대 3회까지 재시도되어야 함을 지정합니다. 만약 observable 실행 중 에러가 발생하면 RxJS가 자동으로 최대 3회까지 원본 observable을 다시 구독하여 네트워크 에러 등에서 회복할 수 있도록 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우선 `retry()` 연산자는 추가 옵션과 함께 사용자 정의할 수 있다는 점을 강조해 드리고 싶습니다. 이러한 옵션에는 재시도 간의 지연이나 재시도를 트리거하는 오류를 결정하는 술어 함수와 같은 것이 포함될 수 있습니다. 이러한 옵션은 더 복잡한 시나리오를 처리하는 데 유용할 수 있습니다.
 
@@ -3836,7 +5974,18 @@ Angular의 변경 감지는 응용 프로그램의 데이터 모델의 변경 �
 - 불변 데이터: Angular의 변경 감지는 변경 사항을 감지하기 위해 객체 참조를 사용합니다. 객체에 대한 참조가 같은 경우 Angular는 해당 객체가 변경되지 않았다고 가정합니다. 따라서 불변 데이터 패턴을 사용할 때는 변경 사항을 나타내기 위해 새로운 객체를 만드는 것이 중요합니다.
 - 성능 최적화: Angular의 변경 감지 시스템에는 여러 성능 최적화 기능이 포함되어 있습니다. 변경 사항이 없는 구성 요소에 대해 변경 감지 주기를 건너뛰기 때문에 성능이 최적화됩니다. Angular는 또한 컴포넌트가 입력 속성을 변경할 때에만 변경 사항을 확인해야 한다고 지정할 수 있는 OnPush 변경 감지 전략을 지원합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Angular의 변경 감지 시스템은 변경을 효율적으로 감지하고 전파하여 응용 프로그램의 UI를 기반 데이터 모델과 동기화시키는 데 도움이 됩니다. 이를 통해 반응적이고 최신의 사용자 경험을 제공할 수 있습니다.
 
@@ -3846,25 +5995,36 @@ zone.js는 Angular에서 사용되는 JavaScript 라이브러리로, 실행 컨�
 
 다음은 Angular에서 zone.js 사용 예시입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-import { Component } from '@angular/core';
+import { Component } from "@angular/core";
 
 @Component({
-  selector: 'app-example',
+  selector: "app-example",
   template: `
     <button (click)="simulateAsyncTask()">Simulate Async Task</button>
     <p>Status: { status }</p>
-  `
+  `,
 })
 export class ExampleComponent {
-  status: string = 'Not started';
+  status: string = "Not started";
   simulateAsyncTask() {
-    this.status = 'Processing...';
+    this.status = "Processing...";
     setTimeout(() => {
       // Simulating an asynchronous task completion
-      this.status = 'Completed';
+      this.status = "Completed";
     }, 2000);
   }
 }
@@ -3876,7 +6036,18 @@ export class ExampleComponent {
 
 결론:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Zone.js는 Angular에 비동기 작업을 변경 감지 메커니즘으로 원활하게 통합할 수 있는 방법을 제공하여, 비동기 작업이 완료되면 UI를 효율적으로 업데이트할 수 있습니다. 비동기 코드 처리를 간소화하고 Angular가 비동기 컨텍스트 내에서 발생하는 변경 사항을 인식하도록 보장합니다.
 
@@ -3887,7 +6058,18 @@ Zone.js는 Angular에 비동기 작업을 변경 감지 메커니즘으로 원�
 - 필요한 모듈 및 서비스를 가져오세요: — `@angular/forms`에서 `FormBuilder` 및 `FormGroup`를 가져옵니다.
 - 컴포넌트에서 폼 그룹과 폼 어레이를 동적으로 생성하세요: — 컴포넌트 클래스에서 `FormBuilder`를 사용하여 폼 그룹을 생성하고 그 안에 폼 어레이를 정의하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { Component, OnInit } from '@angular/core';
@@ -3897,7 +6079,7 @@ import { FormBuilder, FormGroup, FormArray, Validators } from '@angular/forms';
      selector: 'app-dynamic-form',
      templateUrl: './dynamic-form.component.html',
    })
-   
+
 export class DynamicFormComponent implements OnInit {
      dynamicForm: FormGroup;
      constructor(private formBuilder: FormBuilder) {}
@@ -3919,8 +6101,18 @@ export class DynamicFormComponent implements OnInit {
 
 — These methods should use the `FormArray` methods `push()` and `removeAt()` to add or remove form array controls.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 //...
@@ -3929,7 +6121,7 @@ addFormControl() {
    const control = this.formBuilder.control('', Validators.required);
    this.formArray.push(control);
  }
-   
+
 removeFormControl(index: number) {
    this.formArray.removeAt(index);
 }
@@ -3951,10 +6143,20 @@ removeFormControl(index: number) {
      <button (click)="addFormControl()">Add Field</button>
      <button type="submit">Submit</button>
  </form>
-```  
+```
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 예제에서 `formArray`를 `formArrayName` 속성을 사용하여 액세스하고, `*ngFor`를 사용하여 폼 배열 컨트롤을 반복 처리합니다. 각 컨트롤은 입력 필드로 렌더링되며 해당 컨트롤을 제거하는 "제거" 버튼이 제공됩니다.
 
@@ -3974,7 +6176,18 @@ onSubmit() {
    //...
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 단계를 따라하면 Angular에서 `FormArray`를 사용하여 동적으로 폼 필드를 생성할 수 있습니다. 폼 배열을 사용하면 동적으로 폼 컨트롤을 추가하거나 제거할 수 있으며, 폼 값에 필요한 대로 액세스하고 처리할 수 있습니다.
 
@@ -3984,7 +6197,18 @@ Angular에서 `NgZone`은 비동기 작업과 변경 감지의 실행을 관리�
 
 `NgZone`의 주요 목적은 Angular의 존(Zone) 바깥에서 실행되는 코드(세 번째 자료 라이브러리에서의 이벤트 또는 타이머, AJAX 요청 또는 웹소켓과 같은 비동기 작업)를 처리하고 최적화하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기본적으로 Angular는 "Angular zone"이라는 존에서 실행됩니다. 이 존 내에서 코드가 실행되면 Angular의 변경 감지 메커니즘이 자동으로 트리거되어 뷰가 업데이트됩니다. 그러나 Angular 존 외부에서 코드가 실행될 때는 Angular가 변경 사항을 감지하지 못할 수 있어 응용 프로그램 상태와 뷰 동기화에 문제가 발생할 수 있습니다.
 
@@ -4001,7 +6225,7 @@ import { Component, NgZone } from '@angular/core';
        <button (click)="onClick()">NgZone 내부에서 코드 실행</button>
      `,
  })
-   
+
 export class ExampleComponent {
      constructor(private ngZone: NgZone) {}
      onClick() {
@@ -4013,7 +6237,18 @@ export class ExampleComponent {
    }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 예제에서 `onClick()` 메서드는 `NgZone`의 `run()` 메서드 내에 포함되어 있습니다. 버튼을 클릭하면 `run()` 함수 내부의 코드가 Angular zone 내에서 실행되어 변경사항이 감지되고 뷰에 업데이트됩니다.
 
@@ -4042,7 +6277,18 @@ export class ExampleComponent {
 
 위의 예에서 `onClick()` 메서드는 `runOutsideAngular()` 메서드 내부의 코드를 실행합니다. 이를 통해 코드가 Angular zone 밖에서 실행되어 불필요한 변경 감지와 뷰 업데이트를 방지할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결론 :
 
@@ -4052,7 +6298,18 @@ export class ExampleComponent {
 
 아니요, 부모 구성 요소에서 트리거된 이벤트는 Angular의 `OnPush` 변경 감지 전략을 사용하는 하위 구성 요소에서 직접적으로 변경 감지를 일으킬 수 없습니다. `OnPush` 전략은 다음 조건 중 하나가 충족될 때에만 구성 요소에서 변경 감지를 트리거합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 컴포넌트의 입력 속성이 변경됩니다.
 - 컴포넌트 자체 또는 그 자식 컴포넌트 중 하나에서 발생한 이벤트가 수신되었습니다.
@@ -4061,42 +6318,51 @@ export class ExampleComponent {
 
 ```js
 // parent.component.ts
-import { Component } from '@angular/core';
+import { Component } from "@angular/core";
 
 @Component({
-  selector: 'app-parent',
+  selector: "app-parent",
   template: `
     <button (click)="triggerEvent()">이벤트 트리거</button>
     <app-child [inputproperty]="inputProperty"></app-child>
   `,
-  changeDetection: ChangeDetectionStrategy.OnPush
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class ParentComponent {
-  inputProperty: string = '초기값';
+  inputProperty: string = "초기값";
   triggerEvent() {
     // 부모 컴포넌트에서 트리거된 이벤트
-    console.log('부모 컴포넌트에서 트리거된 이벤트');
+    console.log("부모 컴포넌트에서 트리거된 이벤트");
   }
 }
 ```
 
 ```js
 // child.component.ts
-import { Component, Input, ChangeDetectionStrategy } from '@angular/core';
+import { Component, Input, ChangeDetectionStrategy } from "@angular/core";
 
 @Component({
-  selector: 'app-child',
-  template: `
-    { inputProperty }
-  `,
-  changeDetection: ChangeDetectionStrategy.OnPush
+  selector: "app-child",
+  template: ` { inputProperty } `,
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class ChildComponent {
   @Input() inputProperty: string;
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예제에서 `ParentComponent`에는 `triggerEvent()` 메서드를 트리거하는 버튼이 있습니다. 그러나 `ParentComponent`와 `ChildComponent` 모두 `OnPush` 변경 감지 전략을 사용하므로 부모 구성 요소에서 트리거된 이벤트는 직접적으로 자식 구성 요소에서 변경 감지를 트리거하지 않습니다.
 
@@ -4110,7 +6376,18 @@ triggerEvent() {
 
 입력 속성 값을 업데이트함으로써, Angular의 변경 감지 메커니즘은 변경 사항을 감지하고 `OnPush` 전략을 사용하는 자식 구성 요소 내에서 변경 감지를 트리거합니다. 이렇게 하면 자식 구성 요소의 뷰가 그에 맞게 업데이트됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결론:
 
@@ -4120,7 +6397,18 @@ triggerEvent() {
 
 63. Angular에서 OnPush 전략을 사용하는 자식 구성 요소에서 트리거된 이벤트가 부모 구성 요소의 변경 감지를 유발할 수 있나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아니요, Angular에서 `OnPush` 변경 감지 전략을 사용할 때 자식 컴포넌트에서 트리거된 이벤트는 직접적으로 부모 컴포넌트의 변경 감지를 호출하지 못합니다. `OnPush` 전략은 컴포넌트의 입력 프로퍼티 중 하나가 변경되거나 컴포넌트 자체 또는 해당 자식 컴포넌트에서 발생한 이벤트를 수신할 때에만 변경 감지를 트리거합니다.
 
@@ -4128,14 +6416,12 @@ triggerEvent() {
 
 ```js
 // child.component.ts
-import { Component, Output, EventEmitter, ChangeDetectionStrategy } from '@angular/core';
+import { Component, Output, EventEmitter, ChangeDetectionStrategy } from "@angular/core";
 
 @Component({
-  selector: 'app-child',
-  template: `
-    <button (click)="triggerEvent()">이벤트 트리거</button>
-  `,
-  changeDetection: ChangeDetectionStrategy.OnPush
+  selector: "app-child",
+  template: ` <button (click)="triggerEvent()">이벤트 트리거</button> `,
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class ChildComponent {
   @Output() childEvent: EventEmitter = new EventEmitter();
@@ -4147,15 +6433,15 @@ export class ChildComponent {
 
 ```js
 // parent.component.ts
-import { Component, ChangeDetectionStrategy } from '@angular/core';
+import { Component, ChangeDetectionStrategy } from "@angular/core";
 
 @Component({
-  selector: 'app-parent',
+  selector: "app-parent",
   template: `
     <app-child (childEvent)="handleChildEvent()"></app-child>
     <p>받은 이벤트: {{ eventReceived }}</p>
   `,
-  changeDetection: ChangeDetectionStrategy.OnPush
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class ParentComponent {
   eventReceived: boolean = false;
@@ -4165,7 +6451,18 @@ export class ParentComponent {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예시에서 `ChildComponent`는 버튼을 클릭할 때 `childEvent` EventEmitter를 사용하여 사용자 정의 이벤트를 방출합니다. `ParentComponent`는 이 이벤트를 청취하고 `handleChildEvent()` 메서드를 트리거하여 부모 컴포넌트의 `eventReceived` 속성을 업데이트합니다.
 
@@ -4175,7 +6472,18 @@ export class ParentComponent {
 
 부모 컴포넌트에서의 변경 감지는 자식 컴포넌트에서 방출된 이벤트로 인한 반응으로 트리거되지만, 실제로 이벤트 자체로 인해 발생되는 것은 아닙니다. 대신 부모 컴포넌트 상태의 변경이 변경 감지를 트리거합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 64. Angular 애플리케이션을 최적화하는 방법
 
@@ -4193,10 +6501,20 @@ Angular 애플리케이션을 최적화하는 것은 성능과 효율성을 향�
 
 결론:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 마크다운 형식으로 변경하세요.
-
 
 Remember that optimization is an iterative process, and the specific optimizations required may vary depending on the nature of your application. Monitor your application’s performance and gather feedback from users to identify areas that need further optimization.
 
@@ -4206,35 +6524,56 @@ In Angular, pipes are used to transform data in templates. They can be categoriz
 
 - Pure Pipes: Pure pipes are the default type of pipes in Angular. They are designed to be pure functions that take an input value and return a transformed output value. Pure pipes are stateless and deterministic, meaning their output is solely dependent on their input, and they don’t have any side effects. Angular optimizes pure pipes by executing them only when their input values change.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기에 Angular에서의 순수 파이프 예제가 있습니다:
 
 ```javascript
-import { Pipe, PipeTransform } from '@angular/core';
+import { Pipe, PipeTransform } from "@angular/core";
 
 @Pipe({
-     name: 'testPipe',
-     pure: true
- })
- export class TestPipe implements PipeTransform {
-     transform(value: string): string {
-       Object.keys(value).forEach(function(key,index) {
-            // key: 객체 키의 이름
-            // index: 객체 내의 키의 순서
-            value[key] = value[key].toUpperCase()
-        });
-        return value;
-     }
- }
+  name: "testPipe",
+  pure: true,
+})
+export class TestPipe implements PipeTransform {
+  transform(value: string): string {
+    Object.keys(value).forEach(function (key, index) {
+      // key: 객체 키의 이름
+      // index: 객체 내의 키의 순서
+      value[key] = value[key].toUpperCase();
+    });
+    return value;
+  }
+}
 ```
 
 위 예제에서 `TestPipe`는 문자열을 대문자로 변환하는 순수 파이프입니다. `@Pipe` 데코레이터의 `pure: true` 설정은 이 파이프가 순수함을 나타냅니다. 입력 `value`가 변경될 때에만 `transform` 함수가 실행됩니다.
 
 다음과 같은 HTML 코드가 있다고 가정해봅시다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 { user | testPipe} in HTML
@@ -4243,30 +6582,51 @@ import { Pipe, PipeTransform } from '@angular/core';
 참고로 컴포넌트 코드는 다음과 같습니다:-
 
 ```js
-user = { name:'test', city: 'test city'};
+user = { name: "test", city: "test city" };
 ```
 
 그리고 새로운 변경 사항은 다음과 같습니다:-
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-this.user.city = "new test city"
+this.user.city = "new test city";
 ```
 
 위의 예시에서, testPipe은 객체 참조가 변경되지 않아 실행되지 않습니다. Pipe를 실행하려면 testPipe의 순수 속성을 false로 설정하거나 컴포넌트 코드에 다음 변경 사항을 해야합니다:-
 
 ```js
 this.user = {
-    name: 'new test',
-    city: 'new test city'
-}
+  name: "new test",
+  city: "new test city",
+};
 ```
 
 위의 코드에서는 객체 참조가 변경되어 testPipe이 실행됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 순수하지 않은 Pipes:
 
@@ -4275,25 +6635,36 @@ this.user = {
 다음은 Angular에서 순수하지 않은 파이프의 예시입니다:
 
 ```js
-import { Pipe, PipeTransform } from '@angular/core';
+import { Pipe, PipeTransform } from "@angular/core";
 
 @Pipe({
-    name: 'testPipe',
-    pure: false
+  name: "testPipe",
+  pure: false,
 })
 export class TestPipe implements PipeTransform {
-    transform(value: string): string {
-        Object.keys(value).forEach(function(key,index) {
-            // key: 객체 키의 이름
-            // index: 객체 내 키의 순서 위치
-            value[key] = value[key].toUpperCase()
-        });
-        return value;
-    }
+  transform(value: string): string {
+    Object.keys(value).forEach(function (key, index) {
+      // key: 객체 키의 이름
+      // index: 객체 내 키의 순서 위치
+      value[key] = value[key].toUpperCase();
+    });
+    return value;
+  }
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음과 같은 HTML 코드와 컴포넌트 코드가 있습니다:-
 
@@ -4302,23 +6673,43 @@ export class TestPipe implements PipeTransform {
 ```
 
 ```js
-user = { name:'test', city: 'test city'};
+user = { name: "test", city: "test city" };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 새로운 변경 사항은 :-
 
-
 js
 this.user.city = "new test city"
-
 
 위 예제에서는 testPipe가 실행됩니다. Impure pipes는 입력 값의 변경 여부와 상관없이 Angular가 변경을 감지할 때마다 실행됩니다.
 
 결론:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 순수 파이프는 Angular에서 성능 최적화로 기본 및 권장되는 유형이지만, 상태를 가진 또는 결정론적이지 않은 변환을 처리할 때 일부 시나리오에서 비순수 파이프를 사용하는 게 유용할 수 있습니다. 그러나 비순수 파이프를 과도하게 또는 부적절하게 사용하면 Angular 애플리케이션의 성능에 영향을 줄 수 있습니다.
 
@@ -4328,21 +6719,32 @@ Angular에서의 단위 테스트는 개별 구성 요소, 서비스 및 다른 
 
 ## `CalculatorComponent` 라는 간단한 산술 연산을 수행하는 구성 요소를 고려해 봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-import { Component } from '@angular/core';
+import { Component } from "@angular/core";
 
 @Component({
-  selector: 'app-calculator',
+  selector: "app-calculator",
   template: `
     <div>
-      <input type="number" [(ngmodel)]="num1">
-      <input type="number" [(ngmodel)]="num2">
+      <input type="number" [(ngmodel)]="num1" />
+      <input type="number" [(ngmodel)]="num2" />
       <button (click)="add()">Add</button>
       <p>Result: { result }</p>
     </div>
-  `
+  `,
 })
 export class CalculatorComponent {
   num1: number;
@@ -4358,16 +6760,16 @@ export class CalculatorComponent {
 이 구성요소에 대한 단위 테스트를 작성하려면 Angular에서 제공하는 테스트 프레임워크를 활용할 수 있습니다. 다음은 Jasmine 테스트 프레임워크를 사용한 예제 테스트입니다:
 
 ```js
-import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { CalculatorComponent } from './calculator.component';
+import { ComponentFixture, TestBed } from "@angular/core/testing";
+import { CalculatorComponent } from "./calculator.component";
 
-describe('CalculatorComponent', () => {
+describe("CalculatorComponent", () => {
   let component: CalculatorComponent;
   let fixture: ComponentFixture;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ CalculatorComponent ]
+      declarations: [CalculatorComponent],
     }).compileComponents();
   });
 
@@ -4377,7 +6779,7 @@ describe('CalculatorComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should add two numbers', () => {
+  it("should add two numbers", () => {
     component.num1 = 5;
     component.num2 = 10;
     component.add();
@@ -4388,8 +6790,18 @@ describe('CalculatorComponent', () => {
 
 위의 테스트에서 `describe` 함수를 사용하여 `CalculatorComponent`에 대한 테스트 스위트를 정의합니다. `beforeEach` 함수 내에서 `TestBed.createComponent`를 사용하여 구성요소의 인스턴스를 생성하고, 이를 `fixture`에 할당합니다. 그런 다음 테스트 내에서 구성요소 인스턴스를 `component`에 할당하여 편리하게 테스트에서 사용할 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `it` 함수는 개별 테스트 케이스를 정의합니다. 이 경우에는 `num1`과 `num2`를 각각 5와 10으로 설정하고 `add` 메소드를 호출한 뒤 `result`가 15가 될 것으로 기대합니다.
 
@@ -4399,7 +6811,18 @@ describe('CalculatorComponent', () => {
 
 단위 테스트를 작성함으로써 개별 컴포넌트, 서비스 및 기타 코드 단위가 예상대로 작동하는지 확인할 수 있습니다. 이를 통해 버그를 일찍 발견하고 Angular 애플리케이션의 코드 품질을 유지할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 67. Angular 서비스를 테스트하는 방법
 
@@ -4412,17 +6835,17 @@ import { Injectable } from '@angular/core';
 
 @Injectable()
 export class UserService {
- 
+
  private users: string[] = [];
-  
+
  addUser(user: string) {
     this.users.push(user);
   }
-  
+
  getUserCount() {
     return this.users.length;
   }
-  
+
  deleteUser(user: string) {
     const index = this.users.indexOf(user);
     if (index !== -1) {
@@ -4432,30 +6855,41 @@ export class UserService {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 Angular의 테스트 유틸리티를 사용하여 `UserService`에 대한 단위 테스트를 작성해 봅시다:
 
 ```js
-import { TestBed } from '@angular/core/testing';
-import { UserService } from './user.service';
+import { TestBed } from "@angular/core/testing";
+import { UserService } from "./user.service";
 
-describe('UserService', () => {
+describe("UserService", () => {
   let service: UserService;
   beforeEach(() => {
     TestBed.configureTestingModule({});
     service = TestBed.inject(UserService);
   });
-  
- it('사용자 추가가 되어야 합니다', () => {
-    service.addUser('John');
+
+  it("사용자 추가가 되어야 합니다", () => {
+    service.addUser("John");
     expect(service.getUserCount()).toBe(1);
   });
- 
- it('사용자 삭제가 되어야 합니다', () => {
-    service.addUser('John');
-    service.addUser('Jane');
-    service.deleteUser('John');
+
+  it("사용자 삭제가 되어야 합니다", () => {
+    service.addUser("John");
+    service.addUser("Jane");
+    service.deleteUser("John");
     expect(service.getUserCount()).toBe(1);
   });
 });
@@ -4465,7 +6899,18 @@ describe('UserService', () => {
 
 `it` 함수는 개별 테스트 케이스를 정의합니다. 첫 번째 테스트에서는 'John' 사용자를 추가하고 사용자 수가 1인지를 기대합니다. 두 번째 테스트에서는 'John'과 'Jane' 두 명의 사용자를 추가한 후 'John'을 삭제한 뒤 사용자 수가 1인지를 기대합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 서비스의 단위 테스트를 실행하려면 Angular CLI 명령어 `ng test`를 사용할 수 있습니다. 이 명령은 Karma 테스트 러너를 사용하여 테스트를 실행합니다.
 
@@ -4475,34 +6920,54 @@ Angular 서비스에 대한 테스트를 작성함으로써 서비스가 예상�
 
 68. ngAfterContentInit 훅을 설명해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `ngAfterContentInit` 훅은 Angular에서 컴포넌트로 프로젝트된 콘텐츠가 초기화된 후에 호출되는 라이프사이클 훅입니다. 이 훅은 컴포넌트로 프로젝트된 콘텐츠가 초기화된 후에 초기화 또는 설정 로직을 수행하고 싶을 때 유용합니다.
 
 다음은 Angular 컴포넌트에서 `ngAfterContentInit` 훅을 사용하는 예입니다:
 
 ```js
-import { Component, AfterContentInit, ContentChild } from '@angular/core';
+import { Component, AfterContentInit, ContentChild } from "@angular/core";
 
 @Component({
-  selector: 'app-my-component',
-  template: `
-    <ng-content></ng-content>
-  `
+  selector: "app-my-component",
+  template: ` <ng-content></ng-content> `,
 })
 export class MyComponent implements AfterContentInit {
-  @ContentChild('myContent') myContent: ElementRef;
-  
+  @ContentChild("myContent") myContent: ElementRef;
+
   ngAfterContentInit() {
     // 콘텐츠가 컴포넌트로 프로젝트된 후에 이 코드가 실행됩니다
-    console.log('콘텐츠가 초기화되었습니다:', this.myContent.nativeElement.textContent);
+    console.log("콘텐츠가 초기화되었습니다:", this.myContent.nativeElement.textContent);
   }
 }
 ```
 
-위 예제에서 `MyComponent` 컴포넌트에는 템플릿이 ``ng-content``/ng-content`` 태그를 포함하고 있습니다. 이 태그는 컴포넌트를 사용할 때 콘텐츠가 프로젝트될 자리 표시자 역할을 합니다.
+위 예제에서 `MyComponent` 컴포넌트에는 템플릿이 `ng-content`/ng-content`` 태그를 포함하고 있습니다. 이 태그는 컴포넌트를 사용할 때 콘텐츠가 프로젝트될 자리 표시자 역할을 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컴포넌트 클래스 내부에서는 `@ContentChild` 데코레이터를 사용하여 프로젝트된 콘텐츠에 대한 참조를 가져옵니다. 이 경우에는 템플릿 참조 변수 `myContent`가 있는 요소를 찾고 있습니다. 특정 사용 사례에 따라 CSS 클래스나 컴포넌트 유형과 같은 다른 셀렉터를 사용할 수도 있습니다.
 
@@ -4516,7 +6981,18 @@ export class MyComponent implements AfterContentInit {
 </app-my-component>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 코드가 실행되면 `MyComponent`의 `ngAfterContentInit` 메서드가 트리거되어, 프로젝트된 `div` 요소의 텍스트 내용을 콘솔에 로그로 기록합니다.
 
@@ -4526,25 +7002,34 @@ Angular 컴포넌트에서 `Component`, `AfterContentInit`, 그리고 `ContentCh
 
 `ngAfterViewInit` 훅은 Angular에서의 라이프사이클 훅으로, Angular이 컴포넌트의 뷰 및 해당 자식 뷰를 초기화한 후 호출됩니다. 이 훅은 컴포넌트의 뷰나 해당 자식 뷰에 액세스할 필요가 있는 로직 또는 작업을 수행해야 할 때 유용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 Angular 컴포넌트에서 `ngAfterViewInit` 훅을 사용하는 방법 예제가 있어요:
 
 ```js
-import { Component, AfterViewInit, ViewChild, ElementRef } from '@angular/core';
+import { Component, AfterViewInit, ViewChild, ElementRef } from "@angular/core";
 
 @Component({
-  selector: 'app-my-component',
-  template: `
-    <div #myDiv>내용</div>
-  `
+  selector: "app-my-component",
+  template: ` <div #myDiv>내용</div> `,
 })
 export class MyComponent implements AfterViewInit {
-  @ViewChild('myDiv') myDiv: ElementRef;
-  
+  @ViewChild("myDiv") myDiv: ElementRef;
+
   ngAfterViewInit() {
     // 이 코드는 컴포넌트의 뷰가 초기화된 후 실행됩니다
-    console.log('뷰가 초기화됨:', this.myDiv.nativeElement.textContent);
+    console.log("뷰가 초기화됨:", this.myDiv.nativeElement.textContent);
   }
 }
 ```
@@ -4553,9 +7038,20 @@ export class MyComponent implements AfterViewInit {
 
 `ngAfterViewInit` 메서드는 `AfterViewInit` 인터페이스의 일부로 구현되어 있으며 컴포넌트 뷰의 라이프사이클에 연결할 수 있게 합니다. 이 메서드 내에서 컴포넌트 뷰의 DOM 요소에 액세스하고 조작할 수 있어요. 이 예에서는 `myDiv`의 텍스트 내용을 로깅합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-` 요소를 콘솔에 기록합니다. 컴포넌트 뷰가 초기화될 때 Angular은 `ngAfterViewInit` 메소드를 호출하며, 이때 컴포넌트 뷰나 해당 자식 뷰에 액세스해야 하는 필요한 작업을 수행할 수 있습니다.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+`요소를 콘솔에 기록합니다. 컴포넌트 뷰가 초기화될 때 Angular은`ngAfterViewInit` 메소드를 호출하며, 이때 컴포넌트 뷰나 해당 자식 뷰에 액세스해야 하는 필요한 작업을 수행할 수 있습니다.
 
 다음은 다른 템플릿에서 `MyComponent` 컴포넌트를 사용하는 예시입니다:
 
@@ -4563,9 +7059,20 @@ export class MyComponent implements AfterViewInit {
 <app-my-component></app-my-component>
 ```
 
-위 코드가 실행되면, `MyComponent`의 `ngAfterViewInit` 메소드가 트리거되어 ``div`` 요소의 텍스트 내용을 콘솔에 기록하게 됩니다.
+위 코드가 실행되면, `MyComponent`의 `ngAfterViewInit` 메소드가 트리거되어 `div` 요소의 텍스트 내용을 콘솔에 기록하게 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `@angular/core` 모듈에서 `Component`, `AfterViewInit`, `ViewChild`, 그리고 `ElementRef`을 가져와야 합니다.
 
@@ -4575,17 +7082,39 @@ export class MyComponent implements AfterViewInit {
 
 70. `ngAfterContentInit`과 `ngAfterViewInit`의 차이점은 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `ngAfterContentInit`와 `ngAfterViewInit` 후크는 둘 다 Angular에서 라이프사이클 후크이지만, 서로 다른 맥락에서 사용되며 다른 목적을 갖습니다.
 
-`ngAfterContentInit`은 Angular이 컴포넌트로 프로젝트된 내용을 초기화한 후 호출되는 라이프사이클 후크입니다. 이는 컴포넌트로 프로젝트된 내용에 의존하는 초기화 또는 설정 로직을 수행해야 할 때 사용됩니다. 이 후크는 일반적으로 부모 컴포넌트로부터 콘텐츠를 프로젝트하기 위해 템플릿에 ``ng-content`` 태그를 사용하는 컴포넌트에서 사용됩니다. `@ContentChild` 데코레이터를 사용하여 프로젝트된 콘텐츠에 접근할 수 있습니다.
+`ngAfterContentInit`은 Angular이 컴포넌트로 프로젝트된 내용을 초기화한 후 호출되는 라이프사이클 후크입니다. 이는 컴포넌트로 프로젝트된 내용에 의존하는 초기화 또는 설정 로직을 수행해야 할 때 사용됩니다. 이 후크는 일반적으로 부모 컴포넌트로부터 콘텐츠를 프로젝트하기 위해 템플릿에 `ng-content` 태그를 사용하는 컴포넌트에서 사용됩니다. `@ContentChild` 데코레이터를 사용하여 프로젝트된 콘텐츠에 접근할 수 있습니다.
 
 반면에, `ngAfterViewInit`은 Angular이 컴포넌트의 뷰 및 해당 하위 뷰를 초기화한 후 호출되는 라이프사이클 후크입니다. 이는 컴포넌트의 뷰나 해당 하위 뷰에 액세스가 필요한 로직이나 작업을 수행해야 할 때 사용됩니다. 이 후크는 주로 DOM 조작, ViewChild 요소에 액세스, 완전히 렌더링된 뷰가 필요한 타사 라이브러리와 상호 작용하는 데 사용됩니다. `@ViewChild` 데코레이터를 사용하여 뷰 요소에 액세스할 수 있습니다.
 
 `ngAfterContentInit`와 `ngAfterViewInit` 간의 주요 차이를 요약하면 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 목적:
 
@@ -4595,7 +7124,18 @@ export class MyComponent implements AfterViewInit {
 
 2. Timing:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 — `ngAfterContentInit`: 컨텐츠 프로젝션 초기화 후 호출됨.
 
@@ -4605,7 +7145,18 @@ export class MyComponent implements AfterViewInit {
 
 — `ngAfterContentInit`: 프로젝션된 컨텐츠에 액세스하려면 `@ContentChild` 데코레이터를 사용하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 — `ngAfterViewInit`: `@ViewChild` 데코레이터를 사용하여 뷰 요소에 액세스합니다.
 
@@ -4615,7 +7166,18 @@ export class MyComponent implements AfterViewInit {
 
 — `ngAfterViewInit`: 일반적으로 DOM 조작, 뷰 요소 액세스 또는 서드 파티 라이브러리와 상호 작용하는 데 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결론:
 
@@ -4625,28 +7187,50 @@ export class MyComponent implements AfterViewInit {
 
 Angular에서 View Encapsulation은 스타일이 구성 요소에 적용되고 범위가 제어되는 기능입니다. 구성 요소에서 정의된 스타일을 캡슐화하여 다른 구성 요소에 영향을주지 않도록하는 메커니즘입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기본적으로 Angular는 ViewEncapsulation.Emulated 모드가 사용됩니다. 또는 "그림자 DOM" 모방이라고도 합니다. 이 모드에서 Angular는 컴포넌트의 HTML 요소에 고유한 속성을 추가하여 이러한 속성을 사용하여 스타일을 적용하여 그림자 DOM의 동작을 모방합니다. 이 방법으로 컴포넌트 내에서 정의된 스타일은 해당 컴포넌트의 템플릿 내 요소에만 영향을 미치고 응용 프로그램의 다른 부분으로 유출되지 않습니다.
 
 Angular에서 사용할 수 있는 세 가지 ViewEncapsulation 모드가 있습니다:
 
-- ViewEncapsulation.Emulated (기본값): 이 모드는 고유한 속성을 컴포넌트의 요소에 추가하여 그림자 DOM을 흉내냅니다. 컴포넌트 템플릿 내에서 정의된 스타일은 해당 컴포넌트에만 범위가 있습니다. ViewEncapsulation.Emulated는 웹 사이트의 head 섹션에 css 스타일을 추가하고 컴포넌트의 고유한 id(_ngcontent)를 참조하여 적용합니다.
+- ViewEncapsulation.Emulated (기본값): 이 모드는 고유한 속성을 컴포넌트의 요소에 추가하여 그림자 DOM을 흉내냅니다. 컴포넌트 템플릿 내에서 정의된 스타일은 해당 컴포넌트에만 범위가 있습니다. ViewEncapsulation.Emulated는 웹 사이트의 head 섹션에 css 스타일을 추가하고 컴포넌트의 고유한 id(\_ngcontent)를 참조하여 적용합니다.
 - ViewEncapsulation.None: 이 모드에서는 컴포넌트 템플릿에서 정의된 스타일이 캡슐화되지 않고 전체 응용 프로그램에 영향을 줄 수 있습니다. 이 모드를 사용할 때 주의해야 하며, 동일한 스타일을 사용하는 여러 컴포넌트에서 스타일 충돌 및 의도하지 않은 부작용이 발생할 수 있습니다.
 - ViewEncapsulation.ShadowDom: 이 모드는 원래 브라우저의 그림자 DOM 구현을 사용하여 스타일을 캡슐화합니다. 이 모드는 브라우저가 그림자 DOM을 지원해야 합니다. 이 모드에서 컴포넌트의 스타일은 실제로 컴포넌트 내에서 완전히 격리되며 다른 컴포넌트나 전역 스타일로 유출되지 않습니다. ViewEncapsulation.ShadowDom은 컴포넌트의 생성된 DOM 내에 css 스타일을 추가합니다.
 
 컴포넌트의 ViewEncapsulation 모드를 지정하려면 컴포넌트 메타데이터에서 `encapsulation` 속성을 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-import { Component, ViewEncapsulation } from '@angular/core';
+import { Component, ViewEncapsulation } from "@angular/core";
 
 @Component({
-  selector: 'app-my-component',
-  templateUrl: './my-component.component.html',
-  styleUrls: ['./my-component.component.css'],
-  encapsulation: ViewEncapsulation.Emulated // 또는 ViewEncapsulation.None 또는 ViewEncapsulation.ShadowDom
+  selector: "app-my-component",
+  templateUrl: "./my-component.component.html",
+  styleUrls: ["./my-component.component.css"],
+  encapsulation: ViewEncapsulation.Emulated, // 또는 ViewEncapsulation.None 또는 ViewEncapsulation.ShadowDom
 })
 export class MyComponent {
   // 컴포넌트 로직을 여기에 작성합니다.
@@ -4659,7 +7243,18 @@ export class MyComponent {
 
 72. 폴리필(polyfills)의 사용 목적은 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 폴리필(Polyfills)은 모든 브라우저에서 지원하지 않는 기능이나 API에 대한 호환성을 제공하는 추가 스크립트입니다. 이러한 스크립트들은 빌드 프로세스 중에 Angular 애플리케이션에 자동으로 포함되어 오래된 버전을 포함한 여러 브라우저에서 애플리케이션이 실행될 수 있도록 보장합니다.
 
@@ -4670,11 +7265,22 @@ export class MyComponent {
 
 예를 들어, 특정 JavaScript 기능을 지원하지 않는 오래된 브라우저를 지원해야 한다면, 해당 특정 기능에 대한 폴리필을 주석 처리하거나 추가할 수 있습니다. 모든 브라우저에서 `Array.from` 메소드를 지원하려고 한다면, 다음 라인을 주석 처리하거나 추가할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 아래의 주석을 해제하여 이전 버전 브라우저에서 'Array.from'을 지원할 수 있도록 설정
-   // import 'core-js/es/array/from';
+// import 'core-js/es/array/from';
 ```
 
 이 줄은 'core-js' 라이브러리에서 폴리필을 가져와서 `Array.from` 메서드가 기본적으로 지원되지 않는 브라우저에서도 작동하도록 합니다.
@@ -4683,8 +7289,18 @@ export class MyComponent {
 
 3. 애플리케이션 빌드 및 배포: "polyfills.ts" 파일에 필요한 폴리필을 구성한 후, Angular CLI나 선호하는 빌드 프로세스를 사용하여 Angular 애플리케이션을 보통대로 빌드하고 배포할 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 빌드 프로세스 중에 Angular는 지정된 폴리필과 함께 응용 프로그램을 번들링합니다. 이러한 폴리필은 응용 프로그램 코드와 함께 브라우저에서 자동으로 로드됩니다.
 
@@ -4694,7 +7310,18 @@ export class MyComponent {
 
 응용 프로그램의 성능을 최적화하고 브라우저 표준의 진화에 대한 호환성을 확보하기 위해 폴리필을 주기적으로 검토하고 업데이트해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 73. RxJS의 scan 연산자란 무엇인가요?
 
@@ -4704,21 +7331,30 @@ scan 연산자는 누산기 함수와 선택적으로 시드 값이 파라미터
 
 아래는 scan 연산자의 일반적인 구문입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-const $scanOperator = from([1,2,3,4]).pipe(
-      scan((sum,num) => sum+num)
-    );
+const $scanOperator = from([1, 2, 3, 4]).pipe(scan((sum, num) => sum + num));
 
-$scanOperator.subscribe(data=> {
-      console.log('scan operator data', data);
-    });
- // output :
- // scan operator data 1
- // scan operator data 3
- // scan operator data 6
- // scan operator data 10
+$scanOperator.subscribe((data) => {
+  console.log("scan operator data", data);
+});
+// output :
+// scan operator data 1
+// scan operator data 3
+// scan operator data 6
+// scan operator data 10
 ```
 
 참고: scan 연산자에서는 중간 결과가 발행되지만 reduce 연산자에서는 중간 결과가 발행되지 않고 최종 결과만 발행됩니다.
@@ -4727,7 +7363,18 @@ $scanOperator.subscribe(data=> {
 
 scan 연산자는 상태를 유지하거나 값들을 시간이 지남에 따라 누적해야 하는 경우 유용합니다. 전체 카운트 추적, 평균 계산 또는 러닝 합을 시뮬레이션하는 경우와 같이 시간이 지남에 따라 값을 누적해야 하는 시나리오에 유용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 74. Angular에서 spyOn이 작동하는 방법은 무엇인가요?
 
@@ -4737,10 +7384,21 @@ Angular에서 `spyOn`은 Jasmine 테스팅 프레임워크에서 제공하는 �
 
 가정해봅시다. `DataService`라는 서비스가 외부 API와 상호 작용하는 경우:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-import { Injectable } from '@angular/core';
+import { Injectable } from "@angular/core";
 
 @Injectable()
 export class DataService {
@@ -4748,7 +7406,7 @@ export class DataService {
     return new Promise((resolve) => {
       // 비동기 API 호출을 시뮬레이션합니다
       setTimeout(() => {
-        const data = 'API에서 가져온 데이터';
+        const data = "API에서 가져온 데이터";
         resolve(data);
       }, 1000);
     });
@@ -4781,7 +7439,18 @@ describe('DataService', () => {
 
 위의 테스트에서, `spyOn` 함수를 사용하여 `DataService`의 `fetchData` 메서드에 스파이를 생성합니다. `and.returnValue` 메서드를 사용하여 스파이의 반환 값을 지정합니다. 이 값은 모킹된 API 응답이 포함된 해결된 프로미스입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그런 다음 `fetchData` 메서드를 호출하고 반환된 데이터가 모의 API 응답과 일치하는지 `expect` 함수를 사용하여 확인합니다. 또한 `toHaveBeenCalled` matcher를 사용하여 `fetchData` 메서드가 호출된 것을 확인합니다.
 
@@ -4791,7 +7460,18 @@ describe('DataService', () => {
 
 참고: `spyOn`은 Angular에 특정한 것이 아니라 Angular 단위 테스트에서 일반적으로 사용되는 Jasmine 테스팅 프레임워크의 일부입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 75. Angular에서 HTTP 요청을 모킹하는 방법
 
@@ -4801,7 +7481,18 @@ Angular 단위 테스트에서 HTTP 요청을 모킹하려면 Angular의 테스�
 
 가정해보겠습니다. Angular의 `HttpClient`를 사용하여 HTTP 요청을 하는 `DataService`라는 서비스가 있다고 가정해 봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { Injectable } from '@angular/core';
@@ -4819,17 +7510,17 @@ export class DataService {
 이제 `DataService`에 대한 단위 테스트를 작성하고 HTTP 요청을 모의(mock)해 봅시다:
 
 ```js
-import { TestBed } from '@angular/core/testing';
-import { HttpClientTestingModule, HttpTestingController } from '@angular/common/http/testing';
-import { DataService } from './data.service';
+import { TestBed } from "@angular/core/testing";
+import { HttpClientTestingModule, HttpTestingController } from "@angular/common/http/testing";
+import { DataService } from "./data.service";
 
-describe('DataService', () => {
+describe("DataService", () => {
   let service: DataService;
   let httpMock: HttpTestingController;
   beforeEach(() => {
     TestBed.configureTestingModule({
       imports: [HttpClientTestingModule],
-      providers: [DataService]
+      providers: [DataService],
     });
     service = TestBed.inject(DataService);
     httpMock = TestBed.inject(HttpTestingController);
@@ -4837,14 +7528,14 @@ describe('DataService', () => {
   afterEach(() => {
     httpMock.verify();
   });
-  
- it('API에서 데이터를 가져와야 합니다', () => {
-    const mockResponse = '모의 API 응답';
+
+  it("API에서 데이터를 가져와야 합니다", () => {
+    const mockResponse = "모의 API 응답";
     service.fetchData().then((data) => {
       expect(data).toBe(mockResponse);
     });
-    const req = httpMock.expectOne('https://api.example.com/data');
-    expect(req.request.method).toBe('GET');
+    const req = httpMock.expectOne("https://api.example.com/data");
+    expect(req.request.method).toBe("GET");
     req.flush(mockResponse);
   });
 });
@@ -4852,8 +7543,18 @@ describe('DataService', () => {
 
 위의 테스트에서는 `HttpClientTestingModule`을 가져오고 `TestBed.configureTestingModule()`에서 사용하여 테스트 모듈을 구성했습니다. 또한 `HttpTestingController`를 주입하여 HTTP 요청과 상호 작용합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테스트 내부에서는 `DataService`의 `fetchData` 메서드를 호출하고 응답 데이터를 확인합니다. 그런 다음, `httpMock.expectOne()`을 사용하여 HTTP 요청을 가로채고 `req.flush()`를 사용하여 목 응답을 반환합니다. 마지막으로, `afterEach` 블록에서 `httpMock.verify()`를 사용하여 예기치 않은 요청이 없는지 확인합니다.
 
@@ -4863,33 +7564,55 @@ describe('DataService', () => {
 
 76. RxJS에서 'from'과 'of' 연산자 간의 차이점은 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 RxJS에서는 `from` 및 `of` 연산자를 사용하여 다양한 데이터 원본에서 옵저버블을 생성합니다. 비슷해 보일 수 있지만, 이 둘 사이에 근본적인 차이가 있습니다:
 
 - `from`: `from` 연산자는 배열 형태, 이터러블 또는 프로미스 기반 데이터 원본에서 옵저버블을 생성하는 데 사용됩니다. 이는 원본의 각 항목을 하나씩 방출합니다.
 
 ```js
-import { from } from 'rxjs';
+import { from } from "rxjs";
 
 const arraySource = from([1, 2, 3, 4, 5]);
 // 방출: 1, 2, 3, 4, 5
 
-const stringSource = from('Hello');
+const stringSource = from("Hello");
 // 방출: 'H', 'e', 'l', 'l', 'o'
 
-const promiseSource = from(fetch('https://api.example.com/data'));
+const promiseSource = from(fetch("https://api.example.com/data"));
 // 프로미스의 해결된 값 방출
 ```
 
 `from` 연산자는 배열 또는 이터러블과 같은 항목의 컬렉션이 있고 각 항목을 순차적으로 방출하고자 할 때 적합합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. `of`: `of` 연산자는 값의 시퀀스를 방출하는 옵저버블을 생성하는 데 사용됩니다. 제공된 모든 값을 즉시 방출합니다.
 
 ```js
-import { of } from 'rxjs';
+import { of } from "rxjs";
 
 const source = of(1, 2, 3, 4, 5);
 // 방출: 1, 2, 3, 4, 5
@@ -4899,7 +7622,18 @@ const source = of(1, 2, 3, 4, 5);
 
 결론:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요약하면 `from`과 `of`의 주요 차이점은 그들이 처리할 수 있는 데이터 소스의 유형과 값의 방출 방식에 있습니다. `from`은 배열과 유사한 iterable 또는 promise 기반 데이터 소스에 사용되며, 값들을 하나씩 방출합니다. `of`는 즉시 값 시퀀스를 방출하는 데 사용됩니다.
 
@@ -4909,20 +7643,31 @@ RxJS에서 reduce 연산자는 observable 시퀀스에서 발생한 값에 누�
 
 reduce 연산자는 누적 함수와 선택적 초기값을 매개변수로 취합니다. 누적 함수는 소스 observable에서 발행된 각 값에 대해 호출되며, 직전 누적 값을 기반으로 중간 결과를 누적하고 소스의 현재 값에 따라 계산합니다. 누적된 값은 소스 observable이 완료될 때 최종 결과로 발행됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 reduce 연산자의 일반적인 구문입니다:
 
 ```js
-const $reduceOperator = from([1,2,3,4]).pipe(
-      reduce((sum,num) => {
-        return sum+num;
-      })
-    );
+const $reduceOperator = from([1, 2, 3, 4]).pipe(
+  reduce((sum, num) => {
+    return sum + num;
+  })
+);
 
-$reduceOperator.subscribe(data=> {
-      console.log('reduce operator data', data); 
-    })
+$reduceOperator.subscribe((data) => {
+  console.log("reduce operator data", data);
+});
 // 출력
 // reduce operator data 10
 ```
@@ -4931,7 +7676,18 @@ $reduceOperator.subscribe(data=> {
 
 결론:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 reduce 연산자는 값의 시퀀스에서 단일 누적 결과를 얻고 싶을 때 유용합니다. 값들을 합하거나 최대값 또는 최소값을 찾는 등 최종 결과를 생성하는 계산에 일반적으로 사용됩니다. 또는 방출된 값들에 대한 기타 축소 작업을 수행할 때도 사용됩니다.
 
@@ -4941,7 +7697,18 @@ reduce 연산자는 값의 시퀀스에서 단일 누적 결과를 얻고 싶을
 
 `trackBy` 함수는 두 개의 인수를 받습니다: 목록 내 항목의 인덱스와 항목 자체입니다. 각 항목에 대해 고유 식별자를 반환해야 합니다. Angular는 이 식별자를 사용하여 항목을 추적하고 목록 내에서 변경되었거나 이동되었는지 확인합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 `ngFor` 루프에서 `trackBy`를 사용하는 예시입니다:
 
@@ -4954,20 +7721,20 @@ reduce 연산자는 값의 시퀀스에서 단일 누적 결과를 얻고 싶을
 
 ```js
 // my-component.component.ts
-import { Component } from '@angular/core';
+import { Component } from "@angular/core";
 
 @Component({
-  selector: 'app-my-component',
-  templateUrl: './my-component.component.html',
-  styleUrls: ['./my-component.component.css']
+  selector: "app-my-component",
+  templateUrl: "./my-component.component.html",
+  styleUrls: ["./my-component.component.css"],
 })
 export class MyComponent {
   items = [
-    { id: 1, name: 'Item 1' },
-    { id: 2, name: 'Item 2' },
-    { id: 3, name: 'Item 3' }
+    { id: 1, name: "Item 1" },
+    { id: 2, name: "Item 2" },
+    { id: 3, name: "Item 3" },
   ];
-  
+
   trackByFn(index: number, item: any): number {
     return item.id; // 각 항목의 고유 식별자
   }
@@ -4976,7 +7743,18 @@ export class MyComponent {
 
 이 예시에서 `trackByFn` 함수는 각 항목의 `id` 속성을 고유 식별자로 반환합니다. Angular는 이 식별자를 사용하여 항목을 추적하고 변화가 발생할 때 효율적으로 DOM을 업데이트합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `trackBy`를 사용하면 Angular가 항목이 추가, 제거 또는 이동될 때 전체 목록을 다시 렌더링하거나 업데이트하지 않습니다. 대신 변경된 특정 항목만 업데이트하여 성능을 향상시키고 대량 목록을 처리할 때 더 부드러운 사용자 경험을 제공합니다.
 

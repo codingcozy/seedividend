@@ -3,17 +3,13 @@ title: "테일윈드 CSS 3 쿠키 팝업"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Tailwind CSS 3 Cookie Popup  Cookiz Landing Page Templates Web Templates"
 link: "https://medium.com/@auroraaether98/tailwind-css-3-cookie-popup-cookiz-landing-page-templates-web-templates-9403556dcaa4"
 isUpdated: true
 ---
-
-
-
-
 
 ![TailwindCSS3CookiePopupCookizLandingPageTemplatesWebTemplates_0.png](/assets/img/TailwindCSS3CookiePopupCookizLandingPageTemplatesWebTemplates_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 Cookiz - 서로 다른 화면 크기에 매끄럽게 적응하는 쿠키를 위해 세심하게 설계된 Tailwind CSS 3 템플릿. 이 템플릿은 100% W3C 웹 표준을 준수하기 위해 세심하게 제작된 포괄적인 HTML 및 CSS 파일 세트와 함께 제공됩니다. Tailwind UI로 귀사의 다양한 제공물을 완전히 반응형, 모바일 중심으로 우아하게 전시합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주요 속성:
 
@@ -70,7 +77,18 @@ Cookiz - 서로 다른 화면 크기에 매끄럽게 적응하는 쿠키를 위�
 
 #html #css #tailwind #e커머스 #tailwindcss #원페이지 #UI #쿠키 #팝업 #버튼 #쿠키팝업 #TaiwindUI #TailwindComponents #무료 #FreeTailwindUI
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 파일 유형
 
@@ -82,7 +100,18 @@ Retina 지원
 반응형
 문서 포함
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 상업적 라이선스
 
@@ -92,7 +121,18 @@ Retina 지원
 
 더 보기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![TailwindCSS3CookiePopupCookizLandingPageTemplatesWebTemplates_1](/assets/img/TailwindCSS3CookiePopupCookizLandingPageTemplatesWebTemplates_1.png)
 
@@ -102,7 +142,18 @@ TechButton — Tailwind CSS 3 Button HTML 템플릿 by Techzaa
 
 TechPopup — Ecommerce Popup HTML 템플릿 by Techzaa
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Blog Page Tailwind CSS 3 HTML Template](/assets/img/TailwindCSS3CookiePopupCookizLandingPageTemplatesWebTemplates_3.png)
 
@@ -112,7 +163,18 @@ TechPopup — Ecommerce Popup HTML 템플릿 by Techzaa
 
 - Techzaa
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## MyraStudio 더보기
 
@@ -122,7 +184,18 @@ TechPopup — Ecommerce Popup HTML 템플릿 by Techzaa
 
 MyraStudio에서 제작한 곧 출시될 HTML Tailwind 템플릿 - VibeUp
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![TailwindCSS3CookiePopupCookizLandingPageTemplatesWebTemplates_6.png](/assets/img/TailwindCSS3CookiePopupCookizLandingPageTemplatesWebTemplates_6.png)
 
@@ -132,7 +205,18 @@ Creative CSS Button HTML Template — Botan by MyraStudio
 
 Tailwind Templates & Testimonial UI Kit — Userview by MyraStudio
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![TailwindCSS3CookiePopupCookizLandingPageTemplatesWebTemplates_8.png](/assets/img/TailwindCSS3CookiePopupCookizLandingPageTemplatesWebTemplates_8.png)
 

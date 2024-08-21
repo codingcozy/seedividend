@@ -3,17 +3,13 @@ title: "인프라스트럭처의 코드화"
 description: ""
 coverImage: "/assets/img/2024-05-17-InfrastructureasCode_0.png"
 date: 2024-05-17 03:50
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-17-InfrastructureasCode_0.png
 tag: Tech
 originalTitle: "Infrastructure as Code"
 link: "https://medium.com/@kernelv5/infrastructure-as-code-c68df4a4dcb3"
 isUpdated: true
 ---
-
-
-
-
 
 ![Infrastructure as Code 0](/assets/img/2024-05-17-InfrastructureasCode_0.png)
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 Infrastructure as Code 또는 IaC는 코드와 스크립트를 사용하여 인프라를 자동으로 프로비저닝하고 구성하는 것을 말합니다. IaC를 사용하면 환경을 생성하여 인프라 구성 요소를 자동화할 수 있으므로 필요한 시스템 및 장치를 수동으로 설정하는 대신 시스템과 장치를 설정할 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # IaC 사용의 장점
 
@@ -34,7 +40,18 @@ Infrastructure as Code 또는 IaC는 코드와 스크립트를 사용하여 인�
 
 IaC는 인프라스트럭처의 프로비저닝을 더 쉽고 빠르며 확장 가능하게 만들어줌으로써 중요합니다. IaC는 조직에 다양한 이점을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 투명성 및 보안
 
@@ -50,7 +67,18 @@ IaC는 인프라스트럭처의 프로비저닝을 더 쉽고 빠르며 확장 �
 - 버전 제어 롤백: IaC의 버전 제어를 통해 문제 발생 시 안정적인 상태로 빠르게 롤백할 수 있습니다.
 - 동시 배포: IaC를 사용하여 동시 환경 프로비저닝을 할 수 있어 안정성이 향상됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 비즈니스 가치
 
@@ -71,7 +99,18 @@ IaC는 인프라스트럭처의 프로비저닝을 더 쉽고 빠르며 확장 �
 - 일회성으로 구현합니다. 솔루션이 계층의 일부인 경우 최상위 층이 제거될 때 쉽게 파괴될 수 있어야 합니다.
 - 모든 변경 이력을 추적하고 코드와 실행 중인 인프라의 차이를 비교할 수 있는 방법을 마련하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # IaC 원칙에 따른 코딩 표준.
 
@@ -86,15 +125,29 @@ IaC는 인프라스트럭처의 프로비저닝을 더 쉽고 빠르며 확장 �
 
 - 가능한 경우 함수형(true | false) 또는 컬렉션 유형 (리스트, 맵)을 사용하세요.
 - 시퀀스 블록을 참조하는 count 변수를 사용하세요. 대안으로 다중/대량 실행을 위한 옵션을 열어 두세요.
-- 동적 리소스 이름을 사용하세요. 이는 리소스 이름이 접미사와 입력을 — 또는 _로 구분하여 생성됨을 의미합니다.
+- 동적 리소스 이름을 사용하세요. 이는 리소스 이름이 접미사와 입력을 — 또는 \_로 구분하여 생성됨을 의미합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시: 리소스 그룹에 대한 템플릿
 
 ```js
-{surfix}-{business_unit}-{application_type}-{subscription}-{env}-{region}-{sequence}
-rg-mark-k8-001-dev-eas-01
+{
+  surfix;
+}
+-{ business_unit } - { application_type } - { subscription } - { env } - { region } - { sequence };
+rg - mark - k8 - 001 - dev - eas - 01;
 ```
 
 - 임시 버그 수정이 아닌 한 모듈은 여러 목적으로 개발되어야 합니다.
@@ -107,7 +160,18 @@ rg-mark-k8-001-dev-eas-01
 
 # - IaC 솔루션 표준 설정
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 코드는 변경을 추적하고 무단 액세스나 수정을 방지하기 위해 버전 제어되어야 합니다.
 - 각 클라우드 제공업체마다 별도의 프로젝트를 유지하세요.
@@ -124,7 +188,18 @@ rg-mark-k8-001-dev-eas-01
 - 고정된 파일 구조나 특정 도구 표준 파일 및 폴더를 준수해야 합니다.
 - 솔루션은 재사용성을 활용할 수 있는 방식으로 개발되어야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 동일한 배포의 예로는 여러 지역에 같은 구성 요소나 클러스터, 다른 이름을 가진 동일한 지역, 또는 다른 입력 세트를 가진 여러 배포 등이 있습니다.
 
@@ -137,7 +212,18 @@ rg-mark-k8-001-dev-eas-01
 
 ![Solution Group Table](/assets/img/2024-05-17-InfrastructureasCode_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 인프라스트럭처의 코드화 (IaC) 구현
 
@@ -147,7 +233,18 @@ rg-mark-k8-001-dev-eas-01
 
 1. 모듈 개발: 이 부분은 원하는 인프라를 만들기 위해 결합할 수 있는 개별 모듈을 개발하는 데 중점을 둡니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. IaC 프로젝트 코딩 및 구현: 이 파트에서 팀은 첫 번째 파트에서 개발된 모듈을 사용하여 IaC 프로젝트를 코딩하고 구현하는 데 초점을 맞춥니다.
 
@@ -157,8 +254,18 @@ rg-mark-k8-001-dev-eas-01
 
 ![InfrastructureasCode_3](/assets/img/2024-05-17-InfrastructureasCode_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Infrastructure as Code Image](/assets/img/2024-05-17-InfrastructureasCode_4.png)
 
@@ -168,8 +275,18 @@ Project: [tf-sample-project-demo](https://github.com/kernelv5/tf-sample-project-
 
 ![Infrastructure as Code Image](/assets/img/2024-05-17-InfrastructureasCode_5.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시 코드: https://github.com/kernelv5/tf-sample-project-demo 이 링크에서 두 모듈을 사용하여 리소스 그룹을 생성하고 스토리지 계정을 배포하세요.
 
@@ -179,8 +296,18 @@ Project: [tf-sample-project-demo](https://github.com/kernelv5/tf-sample-project-
 
 파일 구조: https://github.com/kernelv5/az-tf-storageaccount
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-05-17-InfrastructureasCode_7.png)
 
@@ -190,20 +317,41 @@ Project: [tf-sample-project-demo](https://github.com/kernelv5/tf-sample-project-
 
 ![image](/assets/img/2024-05-17-InfrastructureasCode_8.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Auto Version & Release
 
-[Semantic Release](https://github.com/semantic-release/semantic-release) 
-[Commit Convention](https://www.conventionalcommits.org/en/v1.0.0/) 
+[Semantic Release](https://github.com/semantic-release/semantic-release)
+[Commit Convention](https://www.conventionalcommits.org/en/v1.0.0/)
 [Example GitHub Action Workflow](https://github.com/kernelv5/tf-module-model-pipeline/blob/master/.github/workflows/main.yaml)
 
-[azure-tf-storage-account v1.1.0 release](https://github.com/kernelv5/az-tf-storage-account/releases/tag/v1.1.0) 
+[azure-tf-storage-account v1.1.0 release](https://github.com/kernelv5/az-tf-storage-account/releases/tag/v1.1.0)
 [azure-tf-resource-group v1.1.0 release](https://github.com/kernelv5/az-tf-resource-group/releases/tag/v1.1.0)
 
 ![Image](/assets/img/2024-05-17-InfrastructureasCode_9.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Infrastructure as Code](/assets/img/2024-05-17-InfrastructureasCode_10.png)

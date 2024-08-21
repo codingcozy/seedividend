@@ -3,15 +3,13 @@ title: "React와 Vite JS로 Tailwind CSS 설치하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-HowtoInstallTailwindCSSwithReactViteJS_0.png"
 date: 2024-07-09 18:34
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-HowtoInstallTailwindCSSwithReactViteJS_0.png
 tag: Tech
 originalTitle: "How to Install Tailwind CSS with React + Vite JS"
 link: "https://medium.com/@ansarimazhar7353/tahow-to-install-tailwind-css-with-react-vite-js-a51f4f89e2ec"
 isUpdated: true
 ---
-
-
 
 ![이미지](/assets/img/2024-07-09-HowtoInstallTailwindCSSwithReactViteJS_0.png)
 
@@ -21,7 +19,18 @@ Tailwind CSS는 매우 쉽게 웹사이트를 디자인할 수 있게 해주는 
 
 첫째로, ReactJS를 설치해야 해요. 저는 ReactJS를 설치하기 위해 Vite를 사용하고 있어요.⚛️
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우선 원하시는 프로젝트를 만들 폴더를 열어주세요 📂 VSCode 터미널이나 선호하는 다른 터미널에서 다음 명령어를 실행해주세요 :
 
@@ -33,7 +42,18 @@ npm create vite@latest
 
 <img src="/assets/img/2024-07-09-HowtoInstallTailwindCSSwithReactViteJS_1.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트와 패키지 이름을 지정하고 Enter 키를 누르세요.
 
@@ -43,7 +63,18 @@ npm create vite@latest
 
 그리고 나서 언어 선택을 요청하는 창이 나타날 텐데, 여기서 JavaScript를 선택한 후 Enter 키를 누르세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-09-HowtoInstallTailwindCSSwithReactViteJS_3.png" />
 
@@ -55,7 +86,18 @@ npm install
 
 필요한 종속성을 모두 설치하게 됩니다. 이제 프로젝트를 실행할 수 있게 되는데, “npm run dev”를 실행하여 프로젝트를 실행할 수 있습니다. 그전에 Tailwind CSS를 설치해야 합니다. 아래 링크를 통해 Tailwind 웹사이트로 이동하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 터미널에서 다음 2개의 명령어를 하나씩 실행해보세요 👨🏾‍💻:
 
@@ -69,7 +111,18 @@ npx tailwindcss init -p
 
 위의 2개의 명령어를 실행하면 tailwind.config.js와 postcss.config.js 파일이 추가됩니다 🗃️. 디렉토리와 파일 구조는 다음과 같이 보일 것입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-09-HowtoInstallTailwindCSSwithReactViteJS_4.png" />
 
@@ -88,7 +141,18 @@ export default {
 
 위의 코드에서는 Tailwind 웹사이트에서 보여주는 대로 "content" 키만 변경해야 합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-09-HowtoInstallTailwindCSSwithReactViteJS_5.png)
 
@@ -107,7 +171,18 @@ export default {
 
 이후에 src/index.css 파일 맨 위에 tailwind 지시문을 추가하시면 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```jsx
 @tailwind base;
@@ -121,7 +196,18 @@ export default {
 
 App.jsx 파일로 이동하여 tailwind css 클래스를 작성해보세요! ✍🏾
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-09-HowtoInstallTailwindCSSwithReactViteJS_7.png)
 
@@ -131,7 +217,18 @@ App.jsx 파일로 이동하여 tailwind css 클래스를 작성해보세요! ✍
 
 축하합니다!! 🥳🎉🥳🎊 React에 Tailwind를 성공적으로 설치하셨으니 이제 사이트를 원하는 대로 사용자 정의할 수 있습니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Tailwind CSS를 ReactJS와 구성하는 방법에 대해 설명했어요. 이 블로그 글이 마음에 들었으면 박수를 보내주세요. JavaScript, React 또는 웹 개발 관련 콘텐츠를 자주 올리기 때문에 팔로우해주시면 좋겠어요.
 

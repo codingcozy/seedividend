@@ -3,17 +3,13 @@ title: "React Hooks 치트 시트"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "React Hooks Cheat Sheet"
 link: "https://medium.com/stackademic/react-hooks-cheat-sheet-5ecba851e1fe"
 isUpdated: true
 ---
-
-
-
-
 
 React Hooks cheat sheet을 왜 필요로 하는지 궁금하십니까? React 세계에서 Hooks의 소개는 개발자 커뮤니티에 환영받는 추가였습니다. 본질적으로,
 
@@ -23,7 +19,18 @@ React Hooks cheat sheet을 왜 필요로 하는지 궁금하십니까? React 세
 
 # Basic level — React Hooks Cheat Sheet
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 1. 후크(React Hooks)가 도입된 이유 혹은 왜 필요한가요?
 
@@ -34,7 +41,18 @@ React팀은 후크를 도입한 이유를 다음과 같이 설명했습니다:
 
 ![React Hooks Cheat Sheet 1](/assets/img/ReactHooksCheatSheet_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 내장된 React Hooks인 useState와 useEffect를 사용하여 동일한 작업을 수행하려면 다음과 같이 할 수 있어요:
 
@@ -44,7 +62,18 @@ React팀은 후크를 도입한 이유를 다음과 같이 설명했습니다:
 
 React의 클래스 없이 더 많은 기능을 사용하는 방법: React에 Hooks 개념이 없던 시절에는 주로 클래스 기반 컴포넌트를 사용했어요. 클래스로 컴포넌트를 만들 때는 항상 클래스 사이를 전환해야 해서 번거로웠고 때로는 불필요한 노력이 필요했어요. React Hooks 덕분에 이제 함수형 컴포넌트를 사용하여 이 모든 것들을 클래스 간 전환없이 처리할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 클래스 기반 컴포넌트 사용:
 
@@ -54,7 +83,18 @@ React의 클래스 없이 더 많은 기능을 사용하는 방법: React에 Hoo
 
 ![ReactHooksCheatSheet_4](/assets/img/ReactHooksCheatSheet_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 두 가지를 비교해 보면, 함수형 컴포넌트를 사용하는 두 번째 방법은 동일한 결과를 얻는 데 사용되는 훨씬 간단한 코드입니다. 클래스 인스턴스에 공간을 할당하고 render() 함수를 호출할 필요가 없습니다. 대신에 간단히 함수를 호출하면 됩니다.
 
@@ -64,7 +104,18 @@ React의 클래스 없이 더 많은 기능을 사용하는 방법: React에 Hoo
 
 ![ReactHooksCheatSheet_5](/assets/img/ReactHooksCheatSheet_5.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 setState 함수는 상태를 업데이트하는 데 사용되며 새로운 상태 값을 (newState) 인자로 받습니다:
 
@@ -74,7 +125,18 @@ useState에 관한 중요한 점들은 다음과 같습니다:
 
 - 상태 변수 선언: 상태 변수를 선언하려면 초기 값과 함께 useState를 호출하기만 하면 됩니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![React Hooks Cheat Sheet 7](/assets/img/ReactHooksCheatSheet_7.png)
 
@@ -84,7 +146,18 @@ useState에 관한 중요한 점들은 다음과 같습니다:
 
 3. 다중 상태 변수 사용: 함수 컴포넌트 내에서 다중 상태 변수를 사용하고 업데이트할 수 있습니다. 아래 예시를 참고하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![React Hooks Cheat Sheet 9](/assets/img/ReactHooksCheatSheet_9.png)
 
@@ -94,7 +167,18 @@ useState에 관한 중요한 점들은 다음과 같습니다:
 
 새 상태 객체는 다음과 같이 됩니다. { name: "John", age: "unknown" }.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 5. 함수형 useState: useState를 호출한 후 반환된 업데이트 함수는 클래스 기반 컴포넌트의 setState에서 해왔던 것과 마찬가지로 함수를 사용할 수 있습니다:
 
@@ -104,7 +188,18 @@ useState에 관한 중요한 점들은 다음과 같습니다:
 
 # 3. useEffect Hook
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `useEffect`에 전달된 함수는 렌더가 화면에 반영된 후에 실행됩니다. 이 효과들은 렌더가 완료된 후에 실행되지만 특정 값의 변경에 따라 실행되도록 선택할 수도 있습니다.
 
@@ -114,7 +209,18 @@ useState에 관한 중요한 점들은 다음과 같습니다:
 
 기본적인 사이드 이펙트를 만들기 위해 다음 예제에서는 `useState`와 `useEffect` 후크를 모두 사용할 것입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![React Hooks Cheat Sheet](/assets/img/ReactHooksCheatSheet_13.png)
 
@@ -124,7 +230,18 @@ useEffect 블록은 handleClick 함수를 실행한 후 현재 탭/브라우저 
 
 - 효과 정리: 효과를 정리해야 하는데, 일반적으로 useEffect에 전달된 효과 함수 내에서 함수를 반환하여 정리합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/ReactHooksCheatSheet_14.png" />
 
@@ -134,7 +251,18 @@ useEffect 블록은 handleClick 함수를 실행한 후 현재 탭/브라우저 
 
 <img src="/assets/img/ReactHooksCheatSheet_15.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. 효과를 건너뛸 수 있는 여러 가지 방법: 우리는 매 렌더링마다 호출되지 않도록 useEffect 호출을 건너뛸 수 있습니다. 이를 위해 여러 가지 방법이 있습니다:
 
@@ -144,7 +272,18 @@ useEffect 블록은 handleClick 함수를 실행한 후 현재 탭/브라우저 
 
 - 빈 배열 의존성 사용: 이 경우에는 `useEffect`에 빈 배열 `[]`이 전달됩니다. 효과 함수는 이제 마운트할 때만 호출됩니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![img](/assets/img/ReactHooksCheatSheet_17.png)
 
@@ -154,7 +293,18 @@ useEffect 블록은 handleClick 함수를 실행한 후 현재 탭/브라우저 
 
 # 4. 훅 규칙
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React Hooks를 효율적으로 활용하기 위해서는 다음 두 가지 기본 규칙을 따라야 합니다:
 
@@ -164,7 +314,18 @@ React Hooks를 효율적으로 활용하기 위해서는 다음 두 가지 기�
 
 이는 컴포넌트가 렌더링될 때마다 Hooks가 동일한 순서로 호출되도록 보장하는 것을 의미합니다. 이는 앱의 상태를 유지하고 여러 개의 useState 및 useEffect 호출 사이에서 도움이 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 함수의 맨 위 레벨에서 조기 반환하기 전에 항상 Hook을 사용해야 합니다. React는 Hook이 호출된 순서에 의존하기 때문에 매번 동일한 순서로 Hook을 호출하면 다음과 같이 됩니다.
 
@@ -174,7 +335,18 @@ React Hooks를 효율적으로 활용하기 위해서는 다음 두 가지 기�
 
 ![React Hooks Cheat Sheet 20](/assets/img/ReactHooksCheatSheet_20.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼 조건문 안에서 Hook을 사용하면 첫 번째 규칙을 어겨버리게 돼요! 이제 순서가 다음과 같이 변경됩니다:
 
@@ -184,7 +356,18 @@ React는 두 번째 useState 호출에 어떤 값을 반환해야 하는지 모�
 
 2. 오직 React 함수 내부에서만 Hook을 호출하세요: 이 규칙은 다음과 같이 말하고 있어요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 일반 JavaScript 함수에서 Hooks를 호출하지 마세요.
 
@@ -195,7 +378,18 @@ React는 두 번째 useState 호출에 어떤 값을 반환해야 하는지 모�
 - React 함수 컴포넌트에서 Hooks를 호출합니다.
 - 커스텀 Hooks에서 Hooks를 호출합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 중급 단계 — React Hooks 요약 시트
 
@@ -205,7 +399,18 @@ useState와 useEffect 훅을 사용하는 것 외에도, 필요에 따라 커스
 
 커스텤 훅은 특정한 서명을 가져도록 하지 않아도 됩니다. 커스텀 훅을 만들 때 다음 사항을 기억해야 합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 커스텀 훅 추출하기: 커스텀 훅은 두 JavaScript 함수 사이에서 로직을 공유하고 이를 세 번째 함수로 추출하고 싶을 때 사용됩니다. 커스텀 훅 내에서 다른 훅을 호출할 때는 반드시 커스텀 훅의 최상위 수준에서 호출하는 것이 중요합니다.
   다음은 예시입니다:
@@ -216,7 +421,18 @@ useState와 useEffect 훅을 사용하는 것 외에도, 필요에 따라 커스
 
 2. 커스텀 훅 사용하기: 커스텀 훅을 만든 후에는 해당 훅을 컴포넌트 내에서 어디서든 사용할 수 있습니다. 예를 들어, useBoolean이라는 커스텀 훅을 만들었다면 해당 훅을 호출하여 상태와 상태 업데이트 함수를 배열로 반환할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/ReactHooksCheatSheet_23.png" />
 
@@ -226,7 +442,18 @@ useState와 useEffect 훅을 사용하는 것 외에도, 필요에 따라 커스
 
 # 2. The useContext Hook
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `useContext` 훅은 Context consumer에 의존하지 않아도 될 수 있도록 도와줍니다.
 
@@ -236,7 +463,18 @@ context 객체는 React.createContext로부터 오며, 트리에서 호출하는
 
 ![React Hooks Cheat Sheet 25](/assets/img/ReactHooksCheatSheet_25.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React의 Context는 createContext 최상위 API로 초기화됩니다. 여기에 예시가 있습니다:
 
@@ -246,7 +484,18 @@ createContext 함수는 초기값을 인수로 취하며, 값 prop이 정의되�
 
 ![Book 컴포넌트 예시](/assets/img/ReactHooksCheatSheet_27.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 useState Hook은 Context를 매개변수로 받아 그 값에서 값을 가져옵니다. 이제, useContext를 사용하여 위의 Book 컴포넌트를 작성하려면 아래와 같은 결과를 얻게 됩니다:
 
@@ -256,7 +505,18 @@ useState Hook은 Context를 매개변수로 받아 그 값에서 값을 가져�
 
 다음과 같은 호출 시그니처를 갖습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![React Hooks Cheat Sheet 29](/assets/img/ReactHooksCheatSheet_29.png)
 
@@ -266,7 +526,18 @@ useState Hook은 Context를 매개변수로 받아 그 값에서 값을 가져�
 
 우리는 초기화 함수를 세 번째 인수로 전달하여 상태를 늦게 초기화할 수 있습니다. 이 함수에서 반환된 것은 상태 객체로 반환됩니다. 이것을 설명하는 예시는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![React Hooks Cheat Sheet](/assets/img/ReactHooksCheatSheet_31.png)
 
@@ -276,7 +547,18 @@ useState Hook은 Context를 매개변수로 받아 그 값에서 값을 가져�
 
 ![React Hooks Cheat Sheet](/assets/img/ReactHooksCheatSheet_32.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인라인 함수와 함께 useCallback을 사용하려면 다음과 같이 호출할 수 있어요:
 
@@ -286,7 +568,18 @@ useState Hook은 Context를 매개변수로 받아 그 값에서 값을 가져�
 
 # 5. useMemo 훅
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 “create” 함수와 종속성 배열을 전달하면 memoized된 값이 생성됩니다. 이 훅은 다음과 같은 호출 서명을 가지고 있습니다:
 
@@ -299,7 +592,18 @@ useMemo Hook을 사용할 때 다음 사항을 유념해야 합니다:
 - 초기 렌더링 중에 useMemo은 계산을 호출하고 결과를 memoize한 후 해당 컴포넌트로 반환합니다.
 - 배열을 제공하지 않으면, useMemo이 사용된 컴포넌트의 각 렌더링마다 새 값이 계산됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `CalculateFactorial` 컴포넌트를 가지고 있다고 가정해 봅시다:
 
@@ -309,7 +613,18 @@ useMemo Hook을 사용할 때 다음 사항을 유념해야 합니다:
 
 ![Updated Code](/assets/img/ReactHooksCheatSheet_36.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 6. useRef 훅
 
@@ -319,7 +634,18 @@ useMemo Hook을 사용할 때 다음 사항을 유념해야 합니다:
 
 useRef에 관한 중요한 포인트는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - useRef는 `.current` 속성에 가변 값이 저장될 수 있는 "상자" 역할을 합니다.
 - 이 Hook은 일반 JavaScript 객체를 생성합니다. useRef()와 직접 { current: ... } 객체를 생성하는 것의 차이점은 useRef가 모든 렌더링마다 동일한 ref 객체를 제공한다는 것입니다.
@@ -333,7 +659,18 @@ useRef에 관한 중요한 포인트는 다음과 같습니다:
 
 inputRef에 입력 요소를 보관하기 위한 참조를 생성한 후, 이것이 입력 필드의 ref 속성에 할당됩니다. 마운트된 후, React는 inputRef.current를 입력 요소로 설정합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Advance level — React Hooks Cheatsheet
 
@@ -343,7 +680,18 @@ inputRef에 입력 요소를 보관하기 위한 참조를 생성한 후, 이것
 
 다음과 같은 컴포넌트가 있다고 가정해 봅시다. 이 컴포넌트는 당신이 버튼을 클릭한 횟수를 세는 기능을 합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![React Hooks Cheat Sheet 39](/assets/img/ReactHooksCheatSheet_39.png)
 
@@ -353,7 +701,18 @@ inputRef에 입력 요소를 보관하기 위한 참조를 생성한 후, 이것
 
 # 2. React Hooks로 데이터 가져오기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트 앱을 사용할 때 데이터를 가져오는 것은 꽤 전형적인 패턴입니다. 하지만 특정 앱 컴포넌트에서 Hooks를 사용하고 있다면 데이터를 가져오는 방법을 알아봅시다.
 
@@ -363,7 +722,18 @@ inputRef에 입력 요소를 보관하기 위한 참조를 생성한 후, 이것
 
 상태와 상태 업데이트 함수는 모두 useState Hook에서 제공됩니다. 이제 여기서 데이터를 가져오기 위해 Axios 라이브러리를 사용해봅시다. 우리는 다음과 같이 effect Hook을 구현할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![React Hooks Cheat Sheet #42](/assets/img/ReactHooksCheatSheet_42.png)
 
@@ -373,7 +743,18 @@ inputRef에 입력 요소를 보관하기 위한 참조를 생성한 후, 이것
 
 ![React Hooks Cheat Sheet #43](/assets/img/ReactHooksCheatSheet_43.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코드 품질을 더 향상시키기 위해 useEffect 내에서 async 함수를 사용하여 Promise에서 클린업 함수를 반환하도록 할 수 있습니다. 따라서 최종 코드는 다음과 같습니다:
 
@@ -383,7 +764,18 @@ inputRef에 입력 요소를 보관하기 위한 참조를 생성한 후, 이것
 
 위의 데이터로딩 예제와 동일한 예제를 사용하여 기본 로딩 지시기를 구현할 수 있습니다. 이를 위해 useState Hook을 사용하여 다른 상태 값을 추가할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/ReactHooksCheatSheet_45.png" />
 
@@ -393,7 +785,18 @@ inputRef에 입력 요소를 보관하기 위한 참조를 생성한 후, 이것
 
 컴포넌트가 마운트되거나 URL 상태가 변경될 때 데이터를 가져오기 위해 이펙트가 호출되면 로딩 상태가 true로 설정됩니다. 이 변경 후 전체 코드는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/ReactHooksCheatSheet_47.png" />
 
@@ -403,7 +806,18 @@ Component가 이미 마운트된 상태에도 컴포넌트 상태가 설정된 �
 
 컴포넌트가 마운트 해제될 때 실행되는 정리 함수가 포함된 effect Hook을 사용할 수 있습니다. 다음 예시에서 데이터 가져오기를 방지하는 데 사용해 봅시다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![React Hooks Cheat Sheet](/assets/img/ReactHooksCheatSheet_48.png)
 
@@ -413,7 +827,18 @@ Component가 이미 마운트된 상태에도 컴포넌트 상태가 설정된 �
 
 때로는 사용한 효과를 정리하기 위해 컴포넌트의 이전 props가 필요합니다. 이를 설명하기 위해 userId props에 기반한 소켓을 구독하는 효과가 있다고 가정해 봅시다. 이 prop이 변경되면 이전에 설정된 userId의 구독을 취소하고 다음 userId에 대해 구독하려고 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음과 같이 useEffect 함수와 함께 정리 기능을 사용할 수 있습니다.
 
@@ -423,7 +848,18 @@ Component가 이미 마운트된 상태에도 컴포넌트 상태가 설정된 �
 
 # 결론 — React Hooks Cheat Sheet
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React Hooks 치트 시트에서는 Hook에 관련된 모든 핵심 주제를 다루었습니다. 왜 필요한지부터 Hook의 강력한 기능을 활용해 앱 상태를 효과적으로 관리하고 처리하는 방법까지 모든 것이 관련 예제와 함께 다루어졌습니다.
 
@@ -433,7 +869,18 @@ React Hooks 치트 시트에서는 Hook에 관련된 모든 핵심 주제를 다
 
 끝까지 읽어 주셔서 감사합니다. 고맙습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 작가에게 박수를 보내 주시고 팔로우도 부탁드려요! 👏
 - 팔로우해 주세요 X | LinkedIn | YouTube | Discord

@@ -3,16 +3,13 @@ title: "Nodejs에서 SSO Single Sign-On 이해하기 구현 방법과 사례 설
 description: ""
 coverImage: "/assets/img/2024-06-23-UnderstandingSSOSingleSignOninNodejs_0.png"
 date: 2024-06-23 13:16
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-UnderstandingSSOSingleSignOninNodejs_0.png
 tag: Tech
 originalTitle: "Understanding SSO (Single Sign On) in Node.js"
 link: "https://medium.com/@patilchetan2110/understanding-sso-single-sign-on-in-node-js-7596ac73b9db"
 isUpdated: true
 ---
-
-
-
 
 싱글 사인온(SSO)은 현대 웹 애플리케이션에서 핵심 구성 요소로 사용되며 사용자 인증을 간소화하고 보안을 향상시킵니다. 이 블로그 포스트에서는 OAuth 2.0 및 OpenID Connect와 같은 인기있는 인증 프로토콜을 활용하여 Node.js 애플리케이션에 SSO를 구현하는 방법을 살펴보겠습니다.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 싱글 사인온은 사용자가 한 번 인증하면 각각의 애플리케이션이나 서비스에 다시 로그인할 필요 없이 여러 애플리케이션 또는 서비스에 접근할 수 있는 기능을 말합니다. 이는 사용자 경험을 향상시키는 데에 그치지 않고 조직이 인증과 권한 부여를 중앙 집중화하여 관리를 간소화합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SSO가 어떻게 동작하는지 단계별로 이해해 봅시다:
 
@@ -41,7 +49,18 @@ SSO가 어떻게 동작하는지 단계별로 이해해 봅시다:
 
 # SSO 전략이란?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Single Sign-On (SSO) 전략은 적절한 인증 프로토콜 및 신원 제공자(IdP) 선택, SSO 기능을 애플리케이션에 통합, 사용자 교육 및 훈련, 강력한 보안 조치 구현, 지속적인 모니터링 및 유지보수, 확장 가능성 계획, 사용자 경험 최적화, 규정 준수 및 거버넌스 요구 사항 준수를 포함합니다. 요구 사항을 평가하고 적합한 프로토콜과 IdP를 선택하며 매끄럽게 통합하고 사용자를 교육하고 보안을 보장하며 성능을 모니터링하고 확장 가능성을 계획하고 사용자 경험을 최적화하고 규정 준수를 유지함으로써 기관은 통합된 SSO 전략을 수립할 수 있습니다. 이를 통해 인증 프로세스를 강화하고 보안을 강화하며 애플리케이션 생태계 전반에서 사용자 만족도를 향상시킬 수 있습니다.
 
@@ -53,7 +72,18 @@ SSO를 구현하면 여러 가지 이점이 있습니다:
 - 향상된 보안: 중앙화된 인증은 암호 관련 보안 위반 위험을 줄이고 사용자 액세스에 대한 더 나은 제어를 가능케 합니다.
 - 효율적인 관리: 조직은 정책을 중앙에서 강제하고 관리 오버헤드를 줄이는 방식으로 사용자 액세스를 더 효과적으로 관리할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Node.js에서 SSO 구현하기
 
@@ -63,47 +93,68 @@ Node.js 애플리케이션에서 SSO 구현 세부사항을 살펴보겠습니�
 
 Google, Facebook과 같은 OAuth 2.0 제공 업체 또는 passport.js와 같은 라이브러리를 사용하여 사용자 정의 솔루션과 같은 여러 SSO 제공 업체가 있습니다. 이 예제에서는 SSO 제공자로 Google을 사용하겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2. 인증 서버 설정하기
 
 먼저, Node.js와 Express를 사용하여 인증 서버를 설정해 봅시다:
 
 ```js
-const express = require('express');
-const passport = require('passport');
-const GoogleStrategy = require('passport-google-oauth20').Strategy;
+const express = require("express");
+const passport = require("passport");
+const GoogleStrategy = require("passport-google-oauth20").Strategy;
 
 const app = express();
 
-passport.use(new GoogleStrategy({
-    clientID: '********your-client-id********',
-    clientSecret: '********your-client-secret********',
-    callbackURL: '/auth/google/callback'
-  },
-  (accessToken, refreshToken, profile, done) => {
-    return done(null, profile);
-  }
-));
-
-app.get('/auth/google',
-  passport.authenticate('google', { scope: ['profile', 'email'] }));
-
-app.get('/auth/google/callback',
-  passport.authenticate('google', { failureRedirect: '/login' }),
-  (req, res) => {
-    res.redirect('/');
-  }
+passport.use(
+  new GoogleStrategy(
+    {
+      clientID: "********your-client-id********",
+      clientSecret: "********your-client-secret********",
+      callbackURL: "/auth/google/callback",
+    },
+    (accessToken, refreshToken, profile, done) => {
+      return done(null, profile);
+    }
+  )
 );
 
+app.get("/auth/google", passport.authenticate("google", { scope: ["profile", "email"] }));
+
+app.get("/auth/google/callback", passport.authenticate("google", { failureRedirect: "/login" }), (req, res) => {
+  res.redirect("/");
+});
+
 app.listen(3000, () => {
-  console.log('서버가 3000번 포트에서 실행 중입니다');
+  console.log("서버가 3000번 포트에서 실행 중입니다");
 });
 ```
 
 위 코드에서:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Passport.js를 GoogleStrategy와 함께 구성합니다.
 - 인증을 시작하고 콜백을 처리하는 라우트를 정의합니다.
@@ -114,7 +165,18 @@ app.listen(3000, () => {
 
 ## 4. 라우트 보안화
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인증이 필요한 경로를 보호하기 위해 사용자가 인증되었는지 확인하는 미들웨어를 만들 수 있습니다:
 
@@ -123,11 +185,11 @@ function ensureAuthenticated(req, res, next) {
   if (req.isAuthenticated()) {
     return next();
   }
-  res.redirect('/login');
+  res.redirect("/login");
 }
 
-app.get('/profile', ensureAuthenticated, (req, res) => {
-  res.render('profile', { user: req.user });
+app.get("/profile", ensureAuthenticated, (req, res) => {
+  res.render("profile", { user: req.user });
 });
 ```
 
@@ -136,20 +198,33 @@ app.get('/profile', ensureAuthenticated, (req, res) => {
 - ensureAuthenticated 미들웨어는 Passport.js의 isAuthenticated 메서드를 사용하여 사용자가 인증되었는지 확인합니다.
 - 사용자가 인증되었으면 다음 미들웨어 또는 경로 핸들러로 진행하고, 그렇지 않으면 로그인 페이지로 리다이렉트됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 5. 사용자 세션 관리
 
 사용자 세션을 관리하기 위해 express-session 미들웨어를 Passport.js와 함께 사용할 수 있습니다:
 
 ```js
-const session = require('express-session');
+const session = require("express-session");
 
-app.use(session({
-  secret: 'your-secret-key',
-  resave: false,
-  saveUninitialized: false
-}));
+app.use(
+  session({
+    secret: "your-secret-key",
+    resave: false,
+    saveUninitialized: false,
+  })
+);
 
 app.use(passport.initialize());
 app.use(passport.session());
@@ -165,7 +240,18 @@ passport.deserializeUser((obj, done) => {
 
 # SSO에서의 안전성 (SSO는 안전한가요?)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Single Sign-On (SSO)은 올바르게 구현될 때 안전한 인증 방법이 될 수 있어요. SSO의 안전은 선택된 인증 프로토콜과 Identity Provider (IdP)의 신뢰성을 포함한 여러 요소에 달려 있어요. OAuth 2.0 또는 OpenID Connect와 같은 인증 프로토콜은 보안 기능과 기존 시스템과의 호환성을 고려하여 신중하게 선택돼야 해요. 또한 사용자를 인증하고 보안 토큰을 발급하는 IdP는 신뢰할 수 있어야 하며, 암호화 및 다중 인증 (MFA)과 같은 견고한 보안 조치를 채택해야 해요. 토큰의 안전한 전송, 저장 및 유효성 검사는 무단 액세스를 방지하기 위해 핵심적인 역할을 해요. 적절한 세션 관리, 안전한 구현 관행 준수, 그리고 보안 위협 인식 및 회피에 대한 사용자 교육은 SSO의 보안 수준에 추가적으로 기여해요.
 
@@ -175,7 +261,18 @@ Single Sign-On (SSO)은 올바르게 구현될 때 안전한 인증 방법이 �
 
 Node.js 애플리케이션에 Single Sign-On을 구현하면 보안이 강화되며 사용자 인증이 간단해지고 전반적인 사용자 경험이 향상됩니다. Passport.js와 같은 인기있는 인증 프로토콜 및 라이브러리를 활용함으로써, 개발자들은 SSO 기능을 애플리케이션에 원활하게 통합할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 추가 자료
 

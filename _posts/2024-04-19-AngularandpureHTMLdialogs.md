@@ -3,17 +3,13 @@ title: "앵귤러로 순수 HTML 다이얼로그 만드는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Angular and pure HTML dialogs"
 link: "https://medium.com/itnext/angular-and-pure-html-dialogs-da79a37ac1e7"
 isUpdated: true
 ---
-
-
-
-
 
 ## 라이브러리가 필요 없어요
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 (끝 부분에 Angular 코드로 이동하세요)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 다이얼로그란 무엇인가요?
 
@@ -33,7 +40,18 @@ https://design.mindsphere.io/patterns/dialog.html 에서 정의를 빌려옵시�
 
 ## 다이얼로그를 위해 외부 라이브러리가 필요한가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/AngularandpureHTMLdialogs_1.png" />
 
@@ -46,7 +64,18 @@ https://design.mindsphere.io/patterns/dialog.html 에서 정의를 빌려옵시�
 
 그리고 라이브러리가 없으면 모든 대화 상자 이벤트 또는 작업을 처리해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서 UI 라이브러리를 사용해야 하는 요구 사항이 있다면, 자체 대화 상자를 구현하는 것이 너무 어려울 수 있습니다. "Favorite Animal" 대화 상자 예제가 너무 복잡하다는 것은 아닙니다. 그리고 UI 라이브러리를 사용하면 번잡함이 따라오지 않는 경우를 본 적이 없습니다(Angular Material을 사용하면 번들 크기가 얼마나 증가하는지 확인해보세요).
 
@@ -56,7 +85,18 @@ https://design.mindsphere.io/patterns/dialog.html 에서 정의를 빌려옵시�
 
 이미지와 링크된 문서에서 볼 수 있듯이, HTML은 이미 대화 상자 태그를 제공하며 사용하기 매우 간단합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <dialog open>
@@ -74,7 +114,18 @@ open 속성을 주목해주세요. 이것은 대화 상자가 열린 상태로 �
 
 이 종류의 대화 상자의 문제는 모달 대화 상자가 아니라는 점입니다. 따라서 대화 상자 아래의 요소(예: 대화 상자 아래의 버튼)에 의해 트리거되어야 하는 이벤트가 여전히 트리거됩니다. 강조된 'Click + event' 버튼을 참조하세요. 또한, 기본으로 대화 상자 창에 백드롭이 없습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/AngularandpureHTMLdialogs_4.png" />
 
@@ -91,7 +142,18 @@ https://www.bennadel.com/blog/3620-most-of-your-modal-windows-should-be-directly
 </dialog>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 dialog 태그에 open 속성이 포함되지 않은 이유는 이 dialog를 JavaScript를 사용하여 열고 닫기 때문입니다 (아직은 Angular이 없어요).
 
@@ -108,7 +170,18 @@ function closeDialog() {
 
 하지만 dialog가 모달처럼 동작하더라도, 실제로 모달처럼 보이지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 모달 대화 상자 배경을 어떻게 스타일링할까요?
 
@@ -123,7 +196,18 @@ dialog::backdrop {
 
 <img src="/assets/img/AngularandpureHTMLdialogs_5.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS 코드는 펜에 주석 처리되어 있습니다. 주석 처리를 해제하고 시도해보세요.
 그것은 반투명한 검은색 배경(60% 불투명도)을 사용하고, 배경 뒤의 모든 것에 블러 효과를 적용할 것입니다.
@@ -134,7 +218,18 @@ CSS 코드는 펜에 주석 처리되어 있습니다. 주석 처리를 해제�
 
 이미 주요 아이디어는 갖고 계시겠죠. 템플릿을 위한 HTML, 일부 CSS, 그리고 showModal() 함수를 호출합니다. 우리의 대화 상자는 별도의 경로에 "거주"하기 때문에 대화 상자를 닫는 이벤트를 처리할 필요가 별로 없습니다(필요하다면, 닫기() 함수를 호출하시면 됩니다).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Tailwind를 사용하여 CSS 스타일을 적용할 것이에요. MHO는 라이브러리를 부풀리는 대신 HTML을 조금 더 많이 사용하는 것이 나은 선택이라고 생각해요.
 
@@ -149,7 +244,18 @@ Tailwind를 사용하여 CSS 스타일을 적용할 것이에요. MHO는 라이�
 
 이 종류의 대화상자에는 제목 표시줄을 디자인하지 않았어요. 그냥 h1 타이틀 태그를 넣었어요. 제목을 건너뛰고 프로젝트된 콘텐츠만 사용할 수 있는데요(ng-content 태그), 오픈 소스의 장점은 코드를 원하는 대로 조정할 수 있다는 거에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## SCSS (스타일):
 
@@ -165,7 +271,18 @@ Tailwind를 사용하여 CSS 스타일을 적용할 것이에요. MHO는 라이�
 
 ## 컴포넌트:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { ChangeDetectionStrategy, ChangeDetectorRef, Component, ElementRef, EventEmitter, Input, OnInit, Output, ViewChild, inject } from '@angular/core';
@@ -203,7 +320,18 @@ export class DialogComponent implements OnInit {
 
 app.routes.ts 파일:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { Route } from "@angular/router";
@@ -211,8 +339,7 @@ import { Route } from "@angular/router";
 export const appRoutes: Route[] = [
   {
     path: "my-dialog",
-    loadComponent: () =>
-      import("./pages/my-dialog.component").then((m) => m.MyDialogComponent),
+    loadComponent: () => import("./pages/my-dialog.component").then((m) => m.MyDialogComponent),
   },
   {
     path: "*",
@@ -249,7 +376,18 @@ export class MyDialogComponent {
 
 필요할 때마다 컴포넌트를 가져와서 사용하는 것을 잊지 마세요 (독립형 컴포넌트입니다).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 컴포넌트의 ./my-dialog.component.html 파일은 다음과 같습니다.
 

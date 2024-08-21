@@ -3,16 +3,13 @@ title: "챗GPT, TypeScript를 사용하여 기본 코드 주도형 DB 도구 만
 description: ""
 coverImage: "/assets/img/2024-05-27-UsingChatGPTtheTypeScriptCompilerandExperimentalDecoratorstoBuildaBasicCode-FirstDBTool_0.png"
 date: 2024-05-27 18:54
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-UsingChatGPTtheTypeScriptCompilerandExperimentalDecoratorstoBuildaBasicCode-FirstDBTool_0.png
 tag: Tech
 originalTitle: "Using ChatGPT, the TypeScript Compiler, and Experimental Decorators to Build a Basic Code-First DB Tool"
 link: "https://medium.com/better-programming/using-chatgpt-the-typescript-compiler-and-experimental-decorators-to-build-a-code-first-db-tool-30fbb377cc04"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-05-27-UsingChatGPTtheTypeScriptCompilerandExperimentalDecoratorstoBuildaBasicCode-FirstDBTool_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 우선, 어떤 것에 대한 복잡한 프롬프트를 선택해봅시다. 코드 기반 데이터베이스 마이그레이터를 만드는 것은 흥미로운 도전이 될 수 있을 것 같아요. 우리는 코드 파일을 이해하고 필요한 추가 컨텍스트로 일부 클래스 속성을 장식하는 메타프로그래밍 작업을 해야하기 때문이죠. 이 글을 간결하게 유지하기 위해, 우리는 Primary 및 Foreign 키가 있는 테이블 생성 스크립트를 생성하고 작업 순서를 보장하는 마이그레이터의 일부분만 만들 것이에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요구 사항 목록은 다음과 같습니다:
 
@@ -35,7 +43,18 @@ isUpdated: true
 
 이리저리 까다로운 조건들이 많지만, ChatGPT는 기꺼이 협조할 준비가 되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-05-27-UsingChatGPTtheTypeScriptCompilerandExperimentalDecoratorstoBuildaBasicCode-FirstDBTool_1.png)
 
@@ -45,7 +64,18 @@ isUpdated: true
 
 처음 텍스트 출력물은 놀랍네요. TypeScript를 거의 10년 동안 다루어왔지만, TypeScript 컴파일러 API에서 무언가를 가져오거나 내보내 본 적이 없었어요. 코드는 정말 흥미로워요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-05-27-UsingChatGPTtheTypeScriptCompilerandExperimentalDecoratorstoBuildaBasicCode-FirstDBTool_3.png" />
 
@@ -55,7 +85,18 @@ isUpdated: true
 
 <img src="/assets/img/2024-05-27-UsingChatGPTtheTypeScriptCompilerandExperimentalDecoratorstoBuildaBasicCode-FirstDBTool_4.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 그 다음에 나오는 내용은 제가 찾던 것과는 조금 다릅니다. ChatGPT는 다음 코드 파일에서 기존 솔루션을 재정의하고 로컬 Postgres 데이터베이스가 설정되었고 Sequelize가 추가되었으며 classInfoList 출력을 통해 정의된 모델을 설정합니다.
 
@@ -65,7 +106,18 @@ isUpdated: true
 
 그래서 해야 할 일 목록에서, ChatGPT가 우리를 다음과 같은 불필요한 일로부터 구해준 것을 볼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 우리가 존재하는 것을 모르고 발견 못할 수도 있는 해결책에 대해 조사 중이었습니다.
 - 원본 파일에서 클래스와 종속성을 추출할 수 있는 초기 프로토타입을 작성 중입니다.
@@ -76,7 +128,18 @@ isUpdated: true
 
 이 유형은 약간 복잡합니다. 그러므로 최종적인 TableInfo 인터페이스로부터 분해해 보겠습니다. 클래스 이름에서 파생된 테이블 이름, 열 집합 및 테이블 간 관계를 나타내는 문자열을 유지합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 관계 - 관계를 나열해 놓는 이유는 대부분의 RDBMS에서 활성 관계가 없는 경우 테이블을 삭제하는 작업이 가능하지 않은 경우가 있기 때문입니다. 관계를 나열함으로써 테이블을 만들고 삭제할 순서를 결정할 수 있습니다.
 - 컬럼 - 이는 테이블 정의의 본질을 담고 있습니다. 컬럼은 fieldName, datatype, nullable을 포함하며, 이는 자명한 내용입니다. "modifiers" 속성은 주/외래 키와 같은 주요 정의를 위한 대체 속성입니다.
@@ -87,7 +150,18 @@ isUpdated: true
 
 우리는 Automigrate API를 위한 일반적인 인터페이스를 정의했습니다. 이로써, 특정 데이터베이스를 위한 플러그인이 구현되어 있다면, 마이그레이터는 여러 데이터베이스 언어를 지원할 수 있을 만큼 유연해질 것입니다. 이제 프로그래밍할 인터페이스를 알았으니, CodeFirst 모델 관점에서 TableInfo를 작성하는 방법을 고민해볼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기에 예시 모델 몇 개를 작성해 보겠습니다. 우리는 일종의 TypeScript 클래스로 일련의 테이블을 코드 기반으로 정의할 것입니다.
 
@@ -97,7 +171,18 @@ isUpdated: true
 
 여기에는 필드에 메타데이터를 표시할 수 있게 해주는 실험적인 TypeScript 데코레이터 개념이 있습니다. '실험적인'이라는 표현에 겁먹지 마세요. 이 기능은 꽤 오랫동안 개선되어 왔습니다. 이를 활성화하기 위해 tsconfig.json 파일로 이동하여 experimentalDecorators와 emitDecoratorMetadata를 true로 표시하여 컴파일러에서 지원을 받을 수 있도록 설정해야 합니다. 이 작업을 마치면 기본 키와 외래 키에 대한 일부 데코레이터를 정의할 수 있어야 합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 코드는 두 개의 새로운 데코레이터, PrimaryKey 및 ForeignKey를 정의하고 reflect 라이브러리를 통해 메타데이터를 추출할 수 있는 메서드를 제공합니다. 여기서 "target"의 존재는 이러한 메서드를 클래스의 인스턴스화된 인스턴스에 호출하여 해당 메타데이터를 검색해야 한다는 것을 의미합니다. 이는 나중에 구현을 약간 복잡하게 만들 수 있지만 대부분의 경우에는 배포 스크립트를 효과적으로 작성할 수 있도록 해줄 것입니다.
 
@@ -107,7 +192,18 @@ isUpdated: true
 
 이제 우리가 예제 모델을 확인하고 지원하는 참조 메타데이터를 설정하고 플러그인 인터페이스를 구축했으므로, 문제의 핵심인 TypeScript 컴파일러 API를 통해 클래스 정의의 메타데이터를 추출할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 원래의 ChatGPT 코드 출력으로 돌아가 봅시다. 그 코드는 디렉토리에서 파일을 가져 와 TypeScript API를 통해 ClassInfo를 검색 한 다음 해당 이름과 종속성을 반환하는 코드를 생성 했습니다. 모두 함께, 우리가 작성해야 하는 유형의 코드입니다. 이 코드를 관련 책임으로 분해하여 각각에 대해 고려하고 무슨 일이 일어나고 있는지 명확하게합니다.
 
@@ -117,7 +213,18 @@ TypeScript 컴파일러의 SourceFiles 유형을 사용하고 코드를 가져 �
 
 여기서 SourceExtractor 클래스를 만들었습니다. 이 클래스에는 두 개의 static 메서드가 있습니다 - getSourceFile 및 getFilesFrom이라는, 파일을 읽고 해당 TypeScript SourceFile을 검색하기 위해 문자열 인수를 취하는 메서드입니다. 이것은 이제 클래스 정의를 해석하고 플러그인 API 유형을 생성하는 모델러에게 전달될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, 소스 파일 유형을 사용 가능한 데이터로 분해하는 데 도움이 되는 메서드를 분해하고 구축하는 것부터 시작합시다:
 
@@ -131,7 +238,18 @@ TypeScript 컴파일러의 SourceFiles 유형을 사용하고 코드를 가져 �
 
 이제 추출기를 설정하여 소스 파일 구문 분석기의 도우미 메서드를 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모델러는 여기서 단 하나의 도우미 함수인 extractForeignKeyTables만 가지고 있습니다. 이 함수는 현재 열 목록과 다른 모델 간의 종속성 목록을 생성하여 출력된 업 및 다운 마이그레이션의 순서를 정렬합니다.
 
@@ -141,7 +259,18 @@ TypeScript 컴파일러의 SourceFiles 유형을 사용하고 코드를 가져 �
 
 매우 간단합니다! 먼저 대상 파일(이 경우 CodeFirst.ts 파일)을 가져와 파일로부터 모델 추출을 실행하고 TableInfo 인터페이스를 상태 파일로 출력할 수 있습니다. 이는 로컬 환경과 새로 만든 변경 사항 간의 차이점을 나타내는 변경점에 대해서만 스크립트를 생성하기 위해 이전 마이그레이션 간의 차이를 구현할 가능성이 높은 곳입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 추가로 예제 플러그인이 생성하는 것을 모델링할 수 있습니다. AutomigrateAPI 인터페이스를 구현하는 스텁 클래스를 간단히 선언하여 해당 정보를 스크립트 파일로 출력하면 됩니다. 이러한 스크립트는 마이그레이션을 수행하는 대상 환경에서 실행하는 것입니다.
 
@@ -151,7 +280,18 @@ TypeScript 컴파일러의 SourceFiles 유형을 사용하고 코드를 가져 �
 
 ![이미지](/assets/img/2024-05-27-UsingChatGPTtheTypeScriptCompilerandExperimentalDecoratorstoBuildaBasicCode-FirstDBTool_8.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서 필요한 것은 TypeScript 컴파일러 출력을 해석하고 작업 중인 인터페이스를 위해 이러한 유형 (DatabaseType)의 표현을 반환하는 기능 세트가 있어야 할 것 같아요.
 
@@ -161,7 +301,18 @@ typescriptSyntaxKindToDatabaseTypeMap은 우리 라이브러리의 "방해 방�
 
 이 방법을 통해 API로부터 기저 구현의 세부 정보를 반환함으로써 이를 넘나드는 방법을 만들어봅시다. 우리가 지금 사용하는 것보다 우수한 새 라이브러리를 찾으면 이 라이브러리와는 아무 상관이 없는 응용 프로그램 코드의 중요 부분이 변경되어야 할 수도 있음을 발견할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 extractKeyData 메소드는 클래스 파일을 해석하면서 클래스 객체의 인스턴스에서 데코레이터 (AKA 키 데이터)를 생성합니다. 이는 미래 마이그레이션을 위한 ColumnDefinitions을 생성하는 중요한 부분입니다.
 
@@ -171,12 +322,23 @@ extractKeyData 메소드는 클래스 파일을 해석하면서 클래스 객체
 
 이는 상당히 큰 코드 청크이므로, 먼저 processClassProperty 메서드에서부터 다른 코드 경로를 방문하면서 분석해 보겠습니다. GitHub에 통합된 빠른 머메이드 차트를 작성해보겠습니다. 이를 README와 함께 문서화의 나머지 부분에 추가할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 flowchart TD
  A[processClassProperty]
- A --> B{Is Union Type?} 
+ A --> B{Is Union Type?}
  B --> |No| singleNode[processSingularNode]
  B --> |Yes| C[Definition is Valid]
  C --> |No| E[Error]
@@ -199,8 +361,18 @@ pTypeRef --> return
 
 그리하여 processSingularNode로 이어지는데, 이 처리 과정이 우리의 분류 작업의 주된 부분을 담당합니다. 현재 노드 유형을 가져오고 여러 코드 경로가 있으며 각각은 열 정의를 생성하는 방식에서 약간의 차이가 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Array - 배열은 자체 유형이며 그 아래에 더 많은 노드가 있어 배열화된 값을 정의합니다. 이에 따라 주요 배열 유형을 추출한 후 processSingularNode 호출로 다시 전달해야 합니다. 거기서 반환 값을 내부적으로 처리할 수 있습니다.
 - TypeReference - TypeReference는 사용자가 정의한 클래스나 JavaScript 자체의 데이터 유형인 이 속성을 의미합니다. 두 경우 모두 다룰 것이지만, 현재 우리는 다른 비-기본 유형에 대해서는 아무것도 하지 않습니다.
@@ -212,7 +384,18 @@ pTypeRef --> return
 
 그리고 자신의 테이블이 효과적으로 정렬되는지 확인하기 위해 몇 가지 테스트를 작성해보겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 상단의 테스트에서 우리가 기대한 정렬 순서가 유지되었음을 확인했으므로 테이블을 올바르게 삭제할 것입니다. 이것은 특히 복잡한 시나리오를 처리하지는 않지만, 미래 유지보수자나 이관 도구를 사용하고 싶어하는 사람들에게 일부 테스트된 리소스를 제공하는 방법을 보여주기 위한 단순한 구현입니다.
 
@@ -227,7 +410,18 @@ pTypeRef --> return
 - tableDropMapper는 유사하지만 테이블 삭제용입니다.
 - PostgresPlugin은 AutomigrateAPI를 실제로 구현하는 클래스입니다. 다른 함수들을 한 곳에 모아 AutoMigrateOutput을 생성하여 데이터베이스에 적용할 수 있는 up-and-down 이관을 만듭니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 좋아요, 이제 모든 코드를 미리 작성했고 모델도 작성했으니, 테스트를 한 번 해보겠습니다! 먼저, 방금 작성한 Postgres 플러그인을 사용하도록 예제 인덱스 파일을 변경하겠습니다:
 
@@ -237,7 +431,18 @@ pTypeRef --> return
 
 생산된 마이그레이션이 무엇인지 살펴보겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희가 보았을 때, 출력물이 API 정의와 일치하는 것을 확인할 수 있습니다. up 및 down 문자열 배열을 포함하는 JSON 객체는 마이그레이션 프로세스의 단계를 나타냅니다. 테이블 생성문이 작동하고, 데이터를 제대로 비우기 위해 테이블 삭제문이 순서대로 나열되어 있어 우리의 다운 마이그레이션 작업이 문제없이 진행될 수 있음을 알 수 있습니다. 우리의 기본 케이스가 잘 이행된 것이죠!
 
@@ -249,7 +454,18 @@ pTypeRef --> return
 - statefile에 해시 코드 또는 날짜 후위사항을 추가하여 어떤 순서로 statefile을 고려해야 하는지 추적할 수 있도록 합니다.
 - statefile 간의 차이를 활용하여 플러그인 아키텍처에서 호출할 메소드를 결정하는 책임을 지는 클래스를 만듭니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이렇게 하면 라이브러리 코드 실행 사이에 마이그레이션 차이점만 적용할 수 있습니다.
 
@@ -262,7 +478,18 @@ pTypeRef --> return
 
 ChatGPT가 우리에게 가르칠 수 있는 것들을 살펴보고 TypeScript 컴파일러 API에 대해 좀 더 배우는 것을 즐겼으면 좋겠습니다. 이것은 메타 프로그래밍 작업에 강력한 도구이며 개발자의 관점에서 매우 흥미로운 기능입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최종 작동 코드를 확인하고 싶다면, 디버깅으로 실행하고 npm 설치를 위한 로컬 라이브러리 빌드 구성이 포함된 최종 운영 코드를 확인하실 수 있습니다. GitHub 링크는 여기 있어요:
 

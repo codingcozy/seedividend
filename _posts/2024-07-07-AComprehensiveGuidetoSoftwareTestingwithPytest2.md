@@ -3,15 +3,13 @@ title: "Pytest로 소프트웨어 테스트하는 종합 가이드 2"
 description: ""
 coverImage: "/assets/img/2024-07-07-AComprehensiveGuidetoSoftwareTestingwithPytest2_0.png"
 date: 2024-07-07 19:17
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-AComprehensiveGuidetoSoftwareTestingwithPytest2_0.png
 tag: Tech
 originalTitle: "A Comprehensive Guide to Software Testing with Pytest #2"
 link: "https://medium.com/@rockeyrockssandeep1994/a-comprehensive-guide-to-software-testing-with-pytest-2-e0e59fdf1933"
 isUpdated: true
 ---
-
-
 
 <img src="/assets/img/2024-07-07-AComprehensiveGuidetoSoftwareTestingwithPytest2_0.png" />
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 # 소프트웨어 테스트의 필요성은 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 소프트웨어 요구 사항 충족을 보장합니다.
 - 올바른 구성을 확인합니다.
@@ -36,7 +45,18 @@ isUpdated: true
 
 ## 소프트웨어 테스트 수명 주기 (STLC)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 요구 사항 분석: 요구 사항 명확화.
 - 테스트 계획: 목표, 범위, 및 자원 정의.
@@ -52,7 +72,18 @@ isUpdated: true
 
 ## 다양한 관행 및 개발자의 마인드셋
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 실무에서 테스트 코드를 작성할 때 아래의 사고/실천 프레임워크 중 하나 이상을 반드시 사용한다는 것을 발견했습니다, 특히 CI/CD 부분에서!
 
@@ -62,7 +93,18 @@ isUpdated: true
 
 2. 행위 주도 개발 (BDD):
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - BDD는 테스트를 소프트웨어의 예상 동작을 설명하는 방식으로 작성하며, 자연어 구조를 사용하는 경우가 많습니다. 이를 통해 테스트가 비기술 관계자에게 더 잘 이해되어 개발자, 테스터 및 비즈니스 분석가 간의 협력을 촉진합니다.
 
@@ -72,7 +114,18 @@ isUpdated: true
 
 4. 지속적 배포 (CD):
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - CD는 자동화된 테스트를 통과하자마자 코드를 프로덕션 환경에 자동으로 배포하여 CI를 확장합니다. 이 실천 방법은 새로운 기능 및 수정 사항이 빠르고 일관되게 사용자에게 제공되도록 보장하며, 수동 개입을 최소화하고 배포 문제의 위험을 줄입니다.
 
@@ -82,7 +135,18 @@ isUpdated: true
 
 ## 테스트를 위한 최상의 실첵
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 명확하고 간결한 테스트 작성하기:
 
@@ -96,7 +160,18 @@ def test_addition_function_adds_two_numbers_correctly():
 
 2. 테스트 격리:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 테스트들은 서로에게 의존하지 않도록 해야합니다. 그렇지 않으면 잘못된 양성 또는 음성 결과가 발생할 수 있습니다.
 - 예시: 각 테스트는 자체 환경을 설정하고 해체해야 합니다. 즉, 각 데이터는 자체 데이터 입력 설정(예를 들어 fixtures를 통해)과 데이터 정리(해체) 로직을 가져야 합니다.
@@ -117,7 +192,18 @@ def test_example(setup_environment):
 - 테스트 함수에 설명적인 이름을 지어서 무엇이 테스트되고 있는지 명확하게 표현하세요.
 - 예시: 만약 두 숫자를 더하는 test_function이라는 함수가 있다면, test_function 대신 test_addition_function_adds_two_numbers_correctly와 같이 명확한 이름을 사용하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 def test_addition_function_adds_two_numbers_correctly():
 assert addition(2, 3) == 5
@@ -129,7 +215,18 @@ assert addition(2, 3) == 5
 - Pytest는 CI/CD 파이프라인에 쉽게 통합할 수 있습니다. 프로젝트에 구성 파일을 추가하여 테스트를 자동 실행합니다.
 - 예시: GitHub Actions를 위한 .github/workflows/python-app.yml을 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 5. 테스트 검토 및 리팩터링:
 
@@ -145,7 +242,18 @@ pytest -n 4  # 4개의 코어를 사용하여 테스트를 병렬로 실행합�
 
 # 참고 문헌
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Agile Alliance. "테스트 주도 개발(TDD)란 무엇인가요?" Agile Alliance
 - BrowserStack. "테스트 주도 개발(TDD)란 무엇인가요?" BrowserStack

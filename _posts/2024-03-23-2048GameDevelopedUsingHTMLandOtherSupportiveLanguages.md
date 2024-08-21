@@ -3,17 +3,13 @@ title: "HTML, CSS, JS로 2048 게임 만드는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "2048 Game Developed Using HTML and Other Supportive Languages"
 link: "https://compcit.medium.com/2048-game-developed-using-html-and-other-supportive-languages-1e6f52f04f15"
 isUpdated: true
 ---
-
-
-
-
 
 게임 보드에 대한 HTML 요소, 스타일링을 위한 CSS 및 게임 로직을 담당하는 JavaScript를 사용하여,이 코드는 2048 게임을 위한 기본 프레임워크를 구축합니다. 스와이프 제어, 점수 매기기 및 이기기/지는 기준과 같은 추가 기능은이 코드를 확장하여 추가할 수 있습니다.
 
@@ -43,7 +39,18 @@ index.html
 
 styles.css
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 css
@@ -171,7 +178,18 @@ init();
 
 어떻게 코드를 실행할 수 있나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - "project"라는 디렉토리를 만들어주세요.
 - "project" 디렉토리로 이동하여 index.html, styles.css 및 script.js 세 개의 스크립트를 생성해주세요.

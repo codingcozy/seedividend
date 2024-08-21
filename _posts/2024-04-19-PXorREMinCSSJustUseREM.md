@@ -3,17 +3,13 @@ title: "CSS에서 px과 rem 중 어느것을 사용해야할까 "
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "PX or REM in CSS Just Use REM"
 link: "https://medium.com/gitconnected/px-or-rem-in-css-just-use-rem-470c01882021"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/PXorREMinCSSJustUseREM_0.png" />
 
@@ -23,7 +19,18 @@ CSS에는 선택할 수있는 다양한 단위가 있습니다. 많은 경우, �
 
 오늘은 그 질문에 대한 답을 드리겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 설정
 
@@ -42,7 +49,18 @@ CSS에는 선택할 수있는 다양한 단위가 있습니다. 많은 경우, �
 
 <img src="/assets/img/PXorREMinCSSJustUseREM_1.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 픽셀은 절대 단위이기 때문에 글ꔀ 크기를 24픽셀로 설정하면 정확히 24픽셀이 됩니다. 반면에 렘은 상대적인 단위로 문서의 글ꔀ 크기를 기준으로 합니다. 문서의 기본 글ꔀ 크기는 16픽셀이므로 1.5렘 x 16픽셀은 24픽셀과 동일합니다.
 
@@ -52,7 +70,18 @@ CSS에는 선택할 수있는 다양한 단위가 있습니다. 많은 경우, �
 
 과거에는 레티나 또는 고밀도 디스플레이가 픽셀과 픽셀 밀도에 어떤 영향을 미치는지에 대한 혼란이 있었습니다. 너무 깊게 들어가지 않더라도, 픽셀이 이상하게 확대되는 순간이 있었지만 그 문제는 해결되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 문제가 해결되었으니, 계속해서 보게 되는 논점 중 하나는 브라우저를 확대 또는 축소하여 글꼴 크기를 조절할 수 있기 때문에 픽셀 크기와 rem 크기가 동일한 비율로 커진다는 것입니다.
 
@@ -62,7 +91,18 @@ CSS에는 선택할 수있는 다양한 단위가 있습니다. 많은 경우, �
 
 # 진짜 문제
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 문제는 실제로 CSS 단위가 브라우저 설정에 어떻게 반응하는지와 관련이 있어요. 사용자들은 브라우저 설정으로 가서 브라우저의 기본 글꼴 크기를 수정할 수 있어요.
 
@@ -72,7 +112,18 @@ CSS에는 선택할 수있는 다양한 단위가 있습니다. 많은 경우, �
 
 하지만, 브라우저를 확인하면, 절대 단위가 24픽셀인 단락은 사용자의 설정에 상관없이 계속해서 24픽셀로 유지될 거에요. 반면에 상대적 단위는 브라우저의 기본 설정에 따라 커질 거에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/PXorREMinCSSJustUseREM_3.png" />
 
@@ -82,7 +133,18 @@ CSS에는 선택할 수있는 다양한 단위가 있습니다. 많은 경우, �
 
 # 뉴안스
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 물론, 웹 개발에 관한 이야기인만큼 논의가 다층적입니다. 예를 들어, 여백(padding)과 테두리(border)와 같은 다른 속성은 어떻게 될까요?
 
@@ -115,7 +177,18 @@ CSS에는 선택할 수있는 다양한 단위가 있습니다. 많은 경우, �
 
 <img src="/assets/img/PXorREMinCSSJustUseREM_4.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신이 예상했던 대로, 두 번째 단락은 큰 폰트 크기에 더한 큰 패딩과 테두리 폭을 가지고 있습니다. 왜냐하면 rem 단위는 브라우저 설정과 함께 확장되기 때문입니다.
 
@@ -125,7 +198,18 @@ CSS에는 선택할 수있는 다양한 단위가 있습니다. 많은 경우, �
 
 미디어 쿼리나 컨테이너 쿼리를 소개하면 더 혼란스러워집니다. 설명하기가 매우 복잡하지만, 기본적으로 만약 당신의 글꼴이 브라우저 설정과 함께 확장된다면, 아마도 미디어 쿼리가 반응하길 원할 것입니다. 이는 REM(또는 EM) 단위로 정의해야 한다는 것을 의미합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 물론, 그 안에는 많은 요소들이 작용하고 따라서 지나치게 복잡해지고 싶지는 않아요. 다행히도, 2016년에 Zell Liew가 쓴 “PX, EM 또는 REM 미디어 쿼리”라는 질문을 다룬 기사가 있었어요.
 
@@ -135,7 +219,18 @@ CSS에는 선택할 수있는 다양한 단위가 있습니다. 많은 경우, �
 
 # 간단한 답변
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 질문에 대한 마지막으로 확실한 답을 해드리면, 픽셀이나 렘 중 어느 것을 사용해야 하는지에 대한 짧은 대답은...
 
@@ -145,7 +240,18 @@ CSS에는 선택할 수있는 다양한 단위가 있습니다. 많은 경우, �
 
 (실제로 다양한 브라우저 설정에서 애플리케이션을 테스트해 보고 결정하는 것이 좋습니다).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만
 
@@ -155,7 +261,18 @@ Rem은 (아마도) 미디어 쿼리에 더 좋아요.
 
 그리고 저는 가끔 예외를 두고 한 가지 간단한 규칙을 따르는 것이 혼합하는 것보다 더 쉽다고 생각해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하루가 끝나갈 때쯤, 모든 것이 사용자의 브라우저 설정에 따라 어떻게 확장되어야 하는지에 따라 다르기 때문에 당신에게는 큰 영향을 미치지 않을 수도 있습니다. 그러나 나에게는 모든 것이 동일한 비율로 확대 또는 축소되는 것이 합리적으로 보입니다.
 

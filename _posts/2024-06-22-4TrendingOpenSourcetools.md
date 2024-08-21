@@ -3,16 +3,13 @@ title: "2024년 인기를 끌고 있는 오픈 소스 도구 4가지"
 description: ""
 coverImage: "/assets/img/2024-06-22-4TrendingOpenSourcetools_0.png"
 date: 2024-06-22 13:44
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-4TrendingOpenSourcetools_0.png
 tag: Tech
 originalTitle: "4 Trending Open Source tools"
 link: "https://medium.com/sourcescribes/4-trending-open-source-tools-90e93e7e0c55"
 isUpdated: true
 ---
-
-
-
 
 효율적인 응용 프로그램을 개발하기 위한 효과적인 도구와 플랫폼의 필요성은 절대적입니다. 이 분야에서 큰 발전을 이루고 있는 네 가지 주목할만한 오픈 소스 솔루션은 Bisheng, CesiumJS, Dokploy 및 AgentScope입니다.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 UX를 위한 카드 정렬 이해
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4가지 개방형 소스 도구로 설명 가능한 AI
 
@@ -32,7 +40,18 @@ UX를 위한 카드 정렬 이해
 
 그리고 구독 무료인 AI 뉴스레터 BrainScriblr도 쓰고 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 비생
 
@@ -42,7 +61,18 @@ UX를 위한 카드 정렬 이해
 
 LLM 기술에 익숙한 개발자들을 위해, 비생은 수백 가지 개발 구성 요소와 시각적 프로세스 조종 기능을 제공하여 다양하고 정교한 LLM 애플리케이션을 만들 수 있도록 광범위한 유연성을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Bisheng은 계약 검토, 신용 조사, 문서 요약과 같은 작업에 대한 분석 보고서 생성을 포함한 다양한 응용 프로그램을 개발할 수 있도록 지원합니다. 또한 사용 설명서 Q&A 및 연구 보고서 지식 베이스를 포함한 지식 베이스 Q&A 시스템의 작성을 지원합니다.
 
@@ -52,7 +82,18 @@ Bisheng은 계약 검토, 신용 조사, 문서 요약과 같은 작업에 대�
 
 CesiumJS는 플러그인 없이 웹 브라우저에서 대화형 3D 지구 및 지도를 생성하기 위한 오픈 소스 JavaScript 라이브러리입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CesiumJS는 하드웨어 가속화된 그래픽을 위해 WebGL을 사용하며 크로스 플랫폼, 크로스 브라우저이며 대규모 데이터 시각화에 최적화되어 있습니다. 강력한 상호 운용성을 위해 오픈 포맷으로 구축되어 있으며 대규모 데이터 세트에 대한 확장성을 제공합니다. 주요 기능으로는 3D Tiles 스트리밍 및 기타 표준 포맷, 고정밀도 WGS84 지구를 사용한 데이터 시각화 및 분석, 데스크톱이나 모바일 사용자와 데이터 공유가 있습니다.
 
@@ -62,7 +103,18 @@ CesiumJS는 Apache 2.0 라이선스로 출시되었으며 2012년부터 오픈 �
 
 ![이미지](/assets/img/2024-06-22-4TrendingOpenSourcetools_0.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 독플로이
 
@@ -72,7 +124,18 @@ CesiumJS는 Apache 2.0 라이선스로 출시되었으며 2012년부터 오픈 �
 
 독플로이의 중요한 기능은 데이터베이스에 대한 자동 백업, Docker Compose의 네이티브 지원, Docker Swarm을 사용한 멀티 노드 스케일링, 오픈 소스 템플릿의 원클릭 배포, 자원의 실시간 모니터링 및 사용자 친화적인 웹 인터페이스가 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Dokploy는 Vercel, Netlify 및 Heroku와 같은 플랫폼 대안으로 개방형 소스로 위치하고 있습니다. 사용자들은 자체 VPS에 플랫폼을 호스팅하고 벤더 잠금 현상이나 관리 서비스 비용을 피할 수 있습니다.
 
@@ -82,7 +145,18 @@ Dokploy는 비교적 새로운 프로젝트이지만 활발한 커뮤니티를 �
 
 ![이미지](/assets/img/2024-06-22-4TrendingOpenSourcetools_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 에이전트 범위
 
@@ -92,7 +166,18 @@ Dokploy는 비교적 새로운 프로젝트이지만 활발한 커뮤니티를 �
 
 에이전트 스코프는 OpenAI (gpt-4, gpt-3.5-turbo 등), Hugging Face, BLOOM, Llama, Vicuna, Alpaca, ChatGLM, MOSS 등 다양한 모델 라이브러리 및 API를 지원합니다. 이를 쉽게 통합할 수 있도록 `ModelWrapper` 클래스를 제공합니다. 최신 릴리스(v0.0.4)에서는 에이전트 스코프 워크스테이션, AgentScope에 대한 질문에 대답하는 코파일럿, Llama3 및 DashScope와 같은 더 많은 모델 지원, 새로운 예제 등 여러 새로운 기능을 소개했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AgentScope은 Python 3.9 이상을 필요로 하며 소스로부터 설치할 수 있습니다. 자세한 설치 지침은 README에 제공됩니다. 해당 저장소에는 AgentScope의 기능을 보여주는 다양한 예제가 포함되어 있습니다. 예를 들어 멀티 에이전트 대화, AI 지원 프로그래밍, AI 지원 쉘, 멀티 에이전트 논쟁, 고모쿠 게임 등이 있습니다.
 

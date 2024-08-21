@@ -3,17 +3,13 @@ title: "React 앱 개발에 반드시 필요한 14개 라이브러리"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Top 14 Libraries for Any React App"
 link: "https://medium.com/gitconnected/top-14-libraries-for-any-react-app-7ef7933d8966"
 isUpdated: true
 ---
-
-
-
-
 
 ## 최고의 리액트 무기고
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ![이미지](/assets/img/Top14LibrariesforAnyReactApp_0.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 목차
 
@@ -37,7 +44,18 @@ isUpdated: true
 
 오늘날의 세상에서는 백엔드와의 연결 없이는 프론트엔드 애플리케이션이 완전하지 않습니다. 이로 인해 API 상호 작용을 위한 올바른 라이브러리 선택이 매우 중요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일반적으로, 만나게 될 API 유형은 주로 두 가지입니다: 전형적인 RESTful API와 GraphQL입니다. 아마도 도구들이 다르다는 것을 짐작하기 어렵지 않을 겁니다.
 
@@ -51,7 +69,18 @@ REST의 경우, React-Query가 강력한 캐싱 기능과 자동 백그라운드
 - 페이지네이션 및 레이지 로딩과 같은 다양한 최적화.
 - 낙관적 UI 업데이트.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## GraphQL API에 대하여
 
@@ -63,7 +92,18 @@ React Query와 거의 동일한 기능을 제공하지만 GraphQL을 위한 것�
 - 클라이언트 상태 관리.
 - 다양한 GraphQL 특화 최적화 기능.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트 애플리케이션에서는 상태를 사용하여 작업을 지속적으로 수행합니다. 대부분의 버그는 상태 관리가 잘못되었기 때문에 발생하기 때문에 즉시 올바른 전략을 선택하는 것이 중요합니다.
 
@@ -73,7 +113,18 @@ React Query와 거의 동일한 기능을 제공하지만 GraphQL을 위한 것�
 
 프런트엔드 개발에서는 많은 다른 상태 관리자가 있습니다. 눈 깜짝할 새에 새로운 상태 관리자가 오픈소스로 공개됩니다. 하지만 저에게 잘 작동하는 것은 MobX입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일부 사람들은 많은 "마법"이 당신의 통제 범위를 벗어나서 뒷면에서 일어나기 때문에 그것을 좋아하지 않을 수 있습니다. 그러나 제게 있어서는 그것이 기능이고 버그가 아닙니다. 제게 있어 제품 자체에 집중하고 기술적인 세부 사항에 너무 많은 시간을 쏟지 않는 것이 좋습니다. 내 생각에, 그 주요 장점들은 다음과 같습니다:
 
@@ -85,7 +136,18 @@ React Query와 거의 동일한 기능을 제공하지만 GraphQL을 위한 것�
 
 로컬 상태를 관리하는 것은 큰 도전이 아닙니다. 대부분의 경우, useState, useContext 및 useReducer와 같은 내장 React 훅을 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 경우에 따라 React Context와 useContext 훅이 필요할 수 있습니다. 이를 다룰 때는 과도한 다시 랜더링과 확장성 문제를 염두에 두어야 합니다.
 
@@ -95,7 +157,18 @@ React Query와 거의 동일한 기능을 제공하지만 GraphQL을 위한 것�
 
 UI-kit은 모든 프론트엔드 애플리케이션의 기반입니다. 견고하고 재사용 가능하며 프로젝트 요구에 완벽히 맞추어 사용자 정의된 모습을 가져야 합니다. 프로젝트 전체에 영향을 미칠 것이므로 신중히 생각하고 좋은 기술적 솔루션을 구현하는 것이 매우 중요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 오랫동안 사용자 정의 UI 키트를 만들어 왔고 항상 두 가지 유형의 상황이 있습니다: 모든 것을 완벽하게 만들 시간이 있을 때와 그렇지 않을 때.
 
@@ -105,7 +178,18 @@ UI-kit은 모든 프론트엔드 애플리케이션의 기반입니다. 견고�
 
 시작하고 확장할 수 있는 "헤들리스 UI" 패키지를 선택하는 것을 권장합니다. 이러한 유형의 패키지는 어떠한 스타일도 포함하지 않고 궁극적으로 유연하고 맞춤화할 수 있습니다. 게다가, 크로스 브라우저 호환성 및 접근성에 필요한 모든 것이 포함되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내가 가장 좋아하는 것들은:
 
@@ -117,7 +201,18 @@ UI-kit은 모든 프론트엔드 애플리케이션의 기반입니다. 견고�
 
 솔직히 말하자면, 대부분의 시간에 우리는 시간이 없어요. 속도를 위해 완벽한 디자인 매칭을 희생해야 할 준비가 되어 있어야 해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 문제에 대해 우리는 다양한 포괄적인 디자인 시스템을 제공합니다. 이 시스템들은 완전한 자유를 제공하지 않고 구성하는 데 시간을 투자해야 합니다. 하지만 그 결과로 많은 시간을 절약할 수 있습니다.
 
@@ -129,7 +224,18 @@ UI-kit은 모든 프론트엔드 애플리케이션의 기반입니다. 견고�
 
 # 스타일링
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스타일링에 관해 이야기할 때, 선택은 종종 개인 취향에 따라 결정됩니다. 저는 주로 Styled Components나 표준 SCSS 모듈을 선호해요.
 
@@ -139,7 +245,18 @@ SCSS 모듈은 전통적인 방식을 제공하며 스타일을 JavaScript 로�
 
 # Forms and Validation
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 많은 사람들이 올바른 형식 처리의 중요성을 과소평가하는 경우가 많은데, 이는 실수입니다. 사용자 입력을 캡처하는 것뿐만이 아니라, 원활하고 사용자 친화적인 경험을 제공하는 데 중요합니다.
 
@@ -149,7 +266,18 @@ SCSS 모듈은 전통적인 방식을 제공하며 스타일을 JavaScript 로�
 
 React Hook Form은 비제어 컴포넌트를 사용하며 입력 상태를 제어하지 않습니다. HTML 폼 요소의 기본 동작에 의존하며, 이는 다시 렌더링하는 횟수를 최소화합니다. 이 요인은 크고 복잡한 양식에서 중요한 역할을 할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Formik은 제어 컴포넌트를 사용하며 폼 상태를 완전히 관리합니다. 모든 입력 변경마다 상태를 업데이트하여 더 자주 다시 렌더링됩니다. 폼이 크거나 복잡한 유효성 검사가 있는 경우 주의하세요.
 

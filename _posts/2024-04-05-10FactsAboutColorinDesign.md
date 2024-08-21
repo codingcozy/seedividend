@@ -3,17 +3,13 @@ title: "웹 디자인에서 색상에 관한 10가지 사실"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "10 Facts About Color in Design"
 link: "https://medium.com/@uxplanet/10-facts-about-color-in-design-7291a6dfbe66"
 isUpdated: true
 ---
-
-
-
-
 
 ![10 Facts About Color in Design 0](/assets/img/10FactsAboutColorinDesign_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ![10 Facts About Color in Design 2](/assets/img/10FactsAboutColorinDesign_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/10FactsAboutColorinDesign_3.png)
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ![이미지](/assets/img/10FactsAboutColorinDesign_5.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대략 남성 중 8%와 여성 중 0.5%가 색각 이상자입니다 (~ 남성 12명 중 1명, 여성 200명 중 1명), 따라서 적절한 색 대비는 매우 중요한 고려 사항입니다.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 빨강과 주황색과 같은 따뜻한 색상은 서늘한 색조와 비교해 외부 시야에서 사용자에게 더 쉽게 인지됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/10FactsAboutColorinDesign_8.png)
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 ![이미지](/assets/img/10FactsAboutColorinDesign_10.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/10FactsAboutColorinDesign_11.png)
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 ![이미지](/assets/img/10FactsAboutColorinDesign_13.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지1](/assets/img/10FactsAboutColorinDesign_14.png)
 
@@ -73,7 +124,18 @@ isUpdated: true
 
 ![이미지2](/assets/img/10FactsAboutColorinDesign_15.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![10FactsAboutColorinDesign_16.png](/assets/img/10FactsAboutColorinDesign_16.png)
 
@@ -83,7 +145,18 @@ isUpdated: true
 
 ![10FactsAboutColorinDesign_18.png](/assets/img/10FactsAboutColorinDesign_18.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 색의 의미는 문화에 따라 다를 수 있기 때문에 전 세계 제품 디자인에서 지역화된 색상 연상을 고려해야 합니다.
 
@@ -93,7 +166,18 @@ isUpdated: true
 
 트렌드가 색상 선호도에 영향을 미치지만, 사용자들은 간단하고 일관된 UI 색상 구성에 가장 잘 반응합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - UI에 주목을 끌 수 있도록 너무 많은 선명하고 생생한 강조 색상이 경쟁하면 사용자에게 혼란, 스트레스, 그리고 이해력 감소를 초래할 수 있습니다.
 - 일관되게 사용된 색상 힌트는 사용자의 기억을 기능적 요소에 대해서 반복적으로 응용 사용함으로써 향상시킬 수 있습니다.

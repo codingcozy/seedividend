@@ -3,17 +3,13 @@ title: "외부 JWT를 Next Auth Credential Provider와 통합하기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How to Integrate External JWT with Next auth Credential Provider"
 link: "https://medium.com/javascript-in-plain-english/seamless-authentication-and-authorization-in-nextjs-leveraging-external-jwts-in-next-auth-1af1ef8fd7d8"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/HowtoIntegrateExternalJWTwithNextauthCredentialProvider_0.png)
 
@@ -23,7 +19,18 @@ JWT는 토큰 자체에 사용자 정보를 저장함으로써 서버가 세션 
 
 NextJs 애플리케이션에서 인증을 처리할 때 가장 일반적으로 사용되는 기술 중 하나는 Next Auth입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기본적으로 Next Auth는 다양한 인증 제공자와 기술을 지원하지만 외부 JWT를 사용하지는 않습니다.
 
@@ -33,7 +40,18 @@ Next Auth는 쿠키에 세션 식별자를 저장하는 세션 기반 인증을 
 
 이를 통해 JWT 기반 인증을 세션 기반 인증과 결합하거나 대신 사용할 수 있게 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그런데 NextJS 앱이 인가를 위해 옛날 방식인 이메일과 비밀번호로 저장된 외부 JWT에 의존하는 경우 어떻게 해야 할까요?
 
@@ -43,7 +61,18 @@ Next Auth는 쿠키에 세션 식별자를 저장하는 세션 기반 인증을 
 
 # 단계 1: Next Js 앱 만들기:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저 NextJS 앱을 만듭니다.
 
@@ -53,7 +82,18 @@ Next Auth는 쿠키에 세션 식별자를 저장하는 세션 기반 인증을 
 
 ![이미지](/assets/img/HowtoIntegrateExternalJWTwithNextauthCredentialProvider_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 2: NextAuth 설치하기
 
@@ -63,7 +103,18 @@ Next Auth는 쿠키에 세션 식별자를 저장하는 세션 기반 인증을 
 
 NextAuth는 제대로 작동하려면 환경 변수 몇 가지가 필요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시작하려면 프로젝트의 루트에 .env 파일을 생성하세요.
 
@@ -73,7 +124,18 @@ NEXTAUTH_URL: 이것은 프로젝트의 기본 URL입니다.
 
 NEXTAUTH_URL=”http://localhost:3000”
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로컬 환경에서 작업 중이니, 프로젝트의 기본 URL을 http://localhost:3000으로 설정할게요. 프로덕션 환경에서는 여러분의 도메인 이름이 될 거에요.
 
@@ -85,7 +147,18 @@ NEXTAUTH_SECRET: 이는 이메일 확인 토큰을 암호화하고 내부적으�
 openssl rand -base64 32
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 터미널에서 명령을 실행했을 때의 결과 스크린샷이 아래에 있어요.
 
@@ -95,16 +168,24 @@ NEXTAUTH_SECRET=”tgY5i4Ea/GZIYMC3J76rANVMf/Cyj0410bSulEicArM=”
 
 pages/\_app.js 파일에서 앱을 Next auth 패키지의 SessionProvider로 감싸 주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { AppProps } from "next/app";
 import { SessionProvider } from "next-auth/react";
 
-export default function App({
-  Component,
-  pageProps: { session, ...pageProps },
-}: AppProps) {
+export default function App({ Component, pageProps: { session, ...pageProps } }: AppProps) {
   return (
     <SessionProvider session={session}>
       <Component {...pageProps} />
@@ -119,7 +200,18 @@ pages/api/auth 디렉토리에 […nextauth].js라는 파일을 생성하세요.
 
 이 예제에서는 백엔드가 인증에 이메일과 비밀번호를 요구하기 때문에 자격 증명 제공자(Credentials provider)를 사용할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import NextAuth from "next-auth";
@@ -137,7 +229,18 @@ export default NextAuth(authOptions);
 
 pages/api/auth 경로의 [...nextauth].js 파일에서.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래와 같이 authOptions 변수를 업데이트 해주세요.
 
@@ -179,7 +282,18 @@ export default NextAuth(authOptions);
 
 /api/auth/signin으로 이동하면 아래 이미지에 나온 것과 같이 로그인 화면이 표시됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/HowtoIntegrateExternalJWTwithNextauthCredentialProvider_3.png" />
 
@@ -189,7 +303,18 @@ export default NextAuth(authOptions);
 
 여기 github 저장소 링크입니다: [https://github.com/Chinedu19/fake-api-jwt-json-server](https://github.com/Chinedu19/fake-api-jwt-json-server)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 저장소에는 보호된 루트 네 개와 보호되지 않은 루트 둘을 제공합니다.
 
@@ -199,7 +324,18 @@ export default NextAuth(authOptions);
 
 Next auth에서 제공하는 useSession 훅을 통해 클라이언트에서 세션을 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 …
@@ -216,7 +352,18 @@ export default function Home() {
 
 사용자 정보와 JWT를 가져오는 데 집중해 봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # JWT 가져오기
 
@@ -264,7 +411,18 @@ const authOptions = {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 코드는 백엔드에 POST 요청을 보내고 JWT를 검색한 다음 반환합니다.
 
@@ -274,7 +432,18 @@ const authOptions = {
 
 성공적인 로그인은 사용자를 홈페이지로 리디렉션합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 홈페이지에 useSession 훅을 사용하여 현재 세션을 로그할 때, 객체가 반환됩니다.
 
@@ -284,7 +453,18 @@ const authOptions = {
 
 이유가 뭘까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기본 설정으로 NextAuth는 보안을 강화하기 위해 토큰의 일부만을 반환합니다. 사용자 ID 및 비밀번호와 같은 정보는 무시됩니다.
 
@@ -294,7 +474,18 @@ JWT가 전달되도록 하는 방법은 `[...nextauth].js` 파일의 `authOption
 
 콜백은 특정 작업이 수행될 때 어떤 일이 발생하는지 제어할 수 있는 비동기 함수입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 콜백은 특히 JSON Web 토큰이 관련된 시나리오에서 매우 강력합니다. 이들은 API와 통합할 수 있도록 해줍니다.
 
@@ -305,7 +496,18 @@ JWT가 전달되도록 하는 방법은 `[...nextauth].js` 파일의 `authOption
 
 authorize 함수에 의해 반환되는 사용자 객체은 사용자가 첫 번째로 로그인할 때 JWT 콜백으로 전달됩니다. 그 이후 호출에서는 보안 상의 이유로 객체의 일부만 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/HowtoIntegrateExternalJWTwithNextauthCredentialProvider_5.png" />
 
@@ -337,7 +539,18 @@ callbacks: {
 
 위의 jwt 콜백에서 볼 수 있듯이, 사용자 객체가 존재할 때 (사용자가 성공적으로 로그인한 경우), JWT가 반환된 토큰에 추가됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 세션 콜백에서 JWT는 토큰 객체에서 가져와 세션 객체에 추가됩니다.
 
@@ -347,7 +560,18 @@ callbacks: {
 
 # 각 요청에 JWT 동적으로 첨부하기(fetch API 사용)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각 요청과 함께 사용자의 JWT가 전송되도록 하려면 세션에서 JWT를 가져와야 합니다.
 
@@ -357,7 +581,18 @@ Next auth는 클라이언트가 세션에 액세스해야 할 때 getSession 함
 
 세션이 있는 경우 해당 함수는 JWT를 Authorization 헤더에 추가합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { getSession } from "next-auth/react";
@@ -381,7 +616,18 @@ const fetchClient = async (url, options) => {
 
 # 각 요청에 JWT 동적으로 첨부하기 (Axios 사용)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Axios 인터셉터는 요청을 보내기 전에 요청에 더 많은 항목을 추가하는 훌륭한 방법입니다.
 
@@ -418,7 +664,18 @@ axiosInstance.interceptors.request.use(async (request) => {
 export const BackendInstance = axiosInstance;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 작동하는지 확인해 봤어요?
 
@@ -468,7 +725,18 @@ export default Products;
 
 이 페이지는 "/products" 보호된 엔드포인트를 호출합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 JWT가 없는 경우 "Unauthorized"를 반환하고 오류 상태를 설정합니다.
 
@@ -478,7 +746,18 @@ JWT가 없는 경우 "Unauthorized"를 반환하고 오류 상태를 설정합�
 
 ## 사용자가 로그인됨
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/HowtoIntegrateExternalJWTwithNextauthCredentialProvider_7.png" />
 
@@ -488,7 +767,18 @@ JWT가 없는 경우 "Unauthorized"를 반환하고 오류 상태를 설정합�
 
 다른 보안된 경로에서도 시도할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -498,7 +788,18 @@ Next Auth는 외부 JWT를 기본적으로 구현하지는 않지만, 커스텀 
 
 # 크레딧
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **techiediaries**님께 특별한 감사를 전합니다. fake API JWT json-server 설정에 도움을 주셔서 감사합니다.
 

@@ -3,17 +3,13 @@ title: "Tailwind CSS로 이미지 확대 도구 만드는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Create an Image magnifier with Tailwind CSS"
 link: "https://medium.com/@rayhaanrakib/create-an-image-magnifier-with-tailwind-css-77077353ea71"
 isUpdated: true
 ---
-
-
-
-
 
 이 게시물에서는 Tailwind CSS를 사용하여 동적이고 시각적으로 매력적인 이미지 확대기를 만드는 방법을 살펴보겠습니다. 확대기는 많은 웹 애플리케이션에서 일반적인 기능으로, 특히 전자 상거래 웹 사이트에서 제품 이미지를 자세히 살펴봐야 하는 사용자가 많습니다. Tailwind CSS, 유틸리티 중심의 CSS 프레임워크로, 기능적이면서도 아름답게 디자인된 이미지 확대기를 만들어보겠습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 먼저 컴포넌트를 만든 다음에 그에 대해 설명하겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```javascript
 import React, { useState } from "react";
@@ -72,9 +79,7 @@ const ProductMagnifier = () => {
               top: `${y - magnifierHeight / 2}px`,
               left: `${x - magnifieWidth / 2}px`,
               backgroundImage: `url('${yourphoto}')`,
-              backgroundSize: `${imgWidth * zoomLevel}px ${
-                imgHeight * zoomLevel
-              }px`,
+              backgroundSize: `${imgWidth * zoomLevel}px ${imgHeight * zoomLevel}px`,
               backgroundPositionX: `${-x * zoomLevel + magnifieWidth / 2}px`,
               backgroundPositionY: `${-y * zoomLevel + magnifierHeight / 2}px`,
             }}
@@ -98,7 +103,18 @@ const [showMagnifier, setShowMagnifier] = useState(false);
 
 2. 해당 상태를 업데이트하는 이벤트 핸들러.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 ...
@@ -137,7 +153,18 @@ const [[x, y], setXY] = useState([0, 0]);
    The pageXOffset/pageYOffset are the page’s scroll offsets.
    The left/top coordinates represent the image’s left and top positions.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const x = e.pageX - left - window.pageXOffset;
@@ -165,6 +192,17 @@ setXY([x, y]);
 
 여기까지 입니다. 읽어 주셔서 감사합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Create an Image magnifier with TailwindCSS_1](/assets/img/CreateanImagemagnifierwithTailwindCSS_1.png)

@@ -3,17 +3,13 @@ title: "React에서 사용하는 다양한 hooks 종류들 정리"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "What are the different types of hooks in React"
 link: "https://medium.com/womenintechnology/what-are-the-different-types-of-hooks-in-react-470fdeb86b9"
 isUpdated: true
 ---
-
-
-
-
 
 ![React Hooks](/assets/img/WhatarethedifferenttypesofhooksinReact_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 - `useState`: 이는 가장 일반적으로 사용되는 리액트 훅입니다. 함수형 컴포넌트가 상태 변수를 가질 수 있게 합니다. 초기 상태 값을 인수로 받고, 현재 상태 값을 나타내는 배열과 해당 상태를 업데이트하는 함수를 반환합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import React, { useState } from "react";
@@ -92,7 +99,18 @@ function Counter() {
 
 ## 2. Effect Hooks:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - ‘useEffect’: 컴포넌트가 렌더링된 후에 데이터를 가져오거나 구독하거나 DOM 조작과 같은 사이드 이펙트를 수행할 수 있게 합니다.
 
@@ -121,9 +139,7 @@ function Example() {
     };
   }, []); // 의존성 배열이 비어 있으므로 효과는 컴포넌트가 마운트될 때 한 번만 실행됩니다
 
-  return (
-    <div>{data ? <p>데이터: {data}</p> : <p>데이터 불러오는 중...</p>}</div>
-  );
+  return <div>{data ? <p>데이터: {data}</p> : <p>데이터 불러오는 중...</p>}</div>;
 }
 
 export default Example;
@@ -165,7 +181,18 @@ function Example() {
 export default Example;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - ‘useEffectOnce’: 컴포넌트가 마운트될 때 한 번만 효과를 실행하는 사용자 정의 훅입니다.
 
@@ -193,7 +220,18 @@ export default Example;
 
 - ‘useContext’: React의 이 훅은 React 컨텍스트로부터 값을 소비하는 데 사용됩니다. 이를 통해 함수형 컴포넌트가 컴포넌트 트리 상단에서 제공된 값에 접근할 수 있도록 하며 프롭 드릴링이 필요하지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 문맥 만들기
 
@@ -224,7 +262,18 @@ function App() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. 'useContext'을 사용하여 컨텍스트 값을 사용하기
 
@@ -243,7 +292,18 @@ function ChildComponent() {
 
 - 'useRef': 렌더링 사이에 지속되는 값이나 DOM 요소에 대한 가변 참조를 생성하는 방법을 제공합니다. 주로 DOM 요소에 접근하거나 조작하는 데 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import React, { useRef } from "react";
@@ -291,7 +351,18 @@ function Example() {
 export default Example;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - ‘useMemo’: 이것은 의존성이 변경되지 않으면 매 렌더링마다 다시 계산되지 않도록 값을 메모화합니다. 비싼 계산이나 복잡한 데이터 변환을 최적화하는 데 유용합니다.
 
@@ -322,7 +393,18 @@ export default Example;
 - ‘useDimensions’: 이것은 요소의 차원을 측정합니다.
 - ‘useWindowSize’: 현재 창 크기를 가져옵니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 7. Form Hooks:
 
@@ -332,7 +414,18 @@ export default Example;
 
 - ‘useSprings’: React Spring을 사용하여 애니메이션을 위한 애니메이션 값을 생성합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 9. 커스텀 훅:
 

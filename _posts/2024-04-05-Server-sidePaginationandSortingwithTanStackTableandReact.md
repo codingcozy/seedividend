@@ -3,17 +3,13 @@ title: "TanStack Table과 React를 사용한 Server-side Pagination 및 sorting 
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Server-side Pagination and Sorting with TanStack Table and React"
 link: "https://medium.com/@aylo.srd/server-side-pagination-and-sorting-with-tanstack-table-and-react-bd493170125e"
 isUpdated: true
 ---
-
-
-
-
 
 ## 테이블을 수동으로 정렬 및 페이지네이션 관리하여 제어권을 되찾으세요.
 
@@ -23,7 +19,18 @@ TanStack Table은 최소한의 입력으로 테이블을 자동으로 페이지�
 
 여기서 최종 결과물을 확인하실 수 있는 대화식 React 플레이그라운드가 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 어플리케이션
 
@@ -45,7 +52,18 @@ export const App = () => {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예시에서는 가짜 API를 사용할 것이며, { pagination: { skip, limit }, sort: { field, order } } 객체는 서버 측 정렬 및 페이지네이션 매개변수를 처리하는 일반적인 방법입니다. 그러나 이를 특정한 사용 사례에 맞게 수정할 수 있습니다.
 
@@ -55,7 +73,18 @@ export const App = () => {
 
 그런 다음 테이블에 총 페이지 수를 전달하여 표시합니다. 마지막으로, 서버와 상호 작용할 것이므로 사용자에게 알리고 로딩 단계 동안 특정 작업을 차단하는 데 필요한 로딩 prop이 있어야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기는 테이블의 속성에 대한 코드 조각입니다:
 
@@ -80,7 +109,18 @@ export type PaginationState = {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자, 이제 useReactTable 옵션을 추가해 봅시다:
 
@@ -97,40 +137,37 @@ const tableLib = useReactTable({
 
 이제 `table /` 바로 밑에 페이지네이션 상호작용을 포함하는 `footer /` 구성 요소를 추가할 것입니다. 페이지 사이를 이동할 수 있는 버튼 집합(이전, 다음, 처음, 마지막)과 함께 페이지 크기를 조정할 수 있는 선택 입력을 통합할 것입니다. 가독성을 위해, 이것을 별도의 컴포넌트로 추출할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const Pagination = ({ tableLib }) => (
   <footer className="pagination">
-    <button
-      disabled={!tableLib.getCanPreviousPage()}
-      onClick={() => tableLib.setPageIndex(0)}
-    >
+    <button disabled={!tableLib.getCanPreviousPage()} onClick={() => tableLib.setPageIndex(0)}>
       ⏪
     </button>
-    <button
-      disabled={!tableLib.getCanPreviousPage()}
-      onClick={tableLib.previousPage}
-    >
+    <button disabled={!tableLib.getCanPreviousPage()} onClick={tableLib.previousPage}>
       ◀️
     </button>
-    <span>{`페이지 ${
-      tableLib.getState().pagination.pageIndex + 1
-    } / ${tableLib.getPageCount()}`}</span>
+    <span>{`페이지 ${tableLib.getState().pagination.pageIndex + 1} / ${tableLib.getPageCount()}`}</span>
     <button disabled={!tableLib.getCanNextPage()} onClick={tableLib.nextPage}>
       ▶️
     </button>
-    <button
-      disabled={!tableLib.getCanNextPage()}
-      onClick={() => tableLib.setPageIndex(tableLib.getPageCount() - 1)}
-    >
+    <button disabled={!tableLib.getCanNextPage()} onClick={() => tableLib.setPageIndex(tableLib.getPageCount() - 1)}>
       ⏩
     </button>
     <span>Show: </span>
-    <select
-      value={tableLib.getState().pageSize}
-      onChange={(e) => tableLib.setPageSize(parseInt(e.target.value, 10))}
-    >
+    <select value={tableLib.getState().pageSize} onChange={(e) => tableLib.setPageSize(parseInt(e.target.value, 10))}>
       {[5, 10, 20].map((size) => (
         <option key={size} value={size}>
           {size}
@@ -153,7 +190,18 @@ const updatePagination: Updater = (...) => ...
 onPaginationState(updatePagination)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 useState가 필요한 기능을 포함하고 있으므로 직접 사용할 겁니다. 초기 pageSize 및 pageIndex를 전달하고, onPaginationChange으로 페이지네이션과 setter를 반환할 거에요.
 
@@ -178,7 +226,18 @@ API가 { pagination: { skip, limit } } 패러다임으로 페이지네이션을 
 
 마지막으로, 테이블은 아직 완전히 효과적으로 페이지를 필요로 합니다. 테이블 요소의 전체 수 (일반적으로 API에서 제공되는 정보 및 테이블을 채우는 데이터와 함께)를 페이지 크기 (또는 제한)로 나누어서 계산됩니다. API는 또한 로딩 여부를 제공할 겁니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 우리는 모든 것을 App 컴포넌트에서 함께 사용할 수 있게 되었습니다 :
 
@@ -211,7 +270,18 @@ export const App = () => {
 
 페이지 구성에 익숙해진 것을 바탕으로 TanStack Table의 정렬에 대해 더 빠르게 진행할 것입니다. 정렬은 페이지 구성과 동일한 원리를 기반으로 하고 있으며 (우리는 여전히 제어 컴포넌트를 다루고 있습니다), 다음 섹션의 목표는 컬럼 헤더 중 하나를 클릭할 때마다 테이블 데이터를 해당 열 ID에 따라 오름차순 또는 내림차순으로 정렬할 수 있도록 하는 것입니다. 또한 정렬 순서에 대한 시각적 힌트도 제공할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `Table` 컴포넌트에 전달된 프롭스를 통해 시작해 봅시다. `onSortingChange` 콜백 함수와 정렬 상태를 추가하겠습니다:
 
@@ -242,7 +312,18 @@ type ColumnSort = {
 type SortingState = ColumnSort[]
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ColumnSort은 정렬 중인 열의 ID와 해당 정렬이 내림차순인지를 나타내는 부울을 보유합니다. 이 튜토리얼에서는 단일 열 정렬을 다루고 있으므로 상태는 한 번에 하나 또는 제로 개의 열만 보유할 것입니다 (여기를 참조하세요).
 
@@ -261,7 +342,18 @@ const tableLib = useReactTable({
 
 이제 우리의 테이블의 `헤더 /`에 작업할 수 있습니다. 여기에 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <thead>
@@ -270,9 +362,7 @@ const tableLib = useReactTable({
       {headerGroup.headers.map((header) => (
         <th
           key={header.id}
-          {...(header.column.getCanSort()
-            ? { onClick: header.column.getToggleSortingHandler() }
-            : {})}
+          {...(header.column.getCanSort() ? { onClick: header.column.getToggleSortingHandler() } : {})}
         >
           {flexRender(header.column.columnDef.header, header.getContext())}
 
@@ -294,13 +384,22 @@ const tableLib = useReactTable({
 
 이제 usePagination 후크에 집중해보겠습니다. 이 후크는 이전 usePagination 후크와 동일한 비즈니스 로직을 따릅니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 export function useSorting(initialField = "id", initialOrder = "ASC") {
-  const [sorting, setSorting] = useState([
-    { id: initialField, desc: initialOrder === "DESC" },
-  ]);
+  const [sorting, setSorting] = useState([{ id: initialField, desc: initialOrder === "DESC" }]);
 
   return {
     // 🔽 테이블 정렬 상태
@@ -346,7 +445,18 @@ export const App = () => {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -356,7 +466,18 @@ export const App = () => {
 
 이 튜토리얼의 최종 결과물을 보려면 이 URL 기반의 대화형 React 플레이그라운드를 확인해보세요. 즐거운 코딩되세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 출처:
 

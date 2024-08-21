@@ -3,17 +3,13 @@ title: "더 나은 사용자 인터페이스 시스템 구축 후기 공유"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Building a better user interface system"
 link: "https://medium.com/@coyleandrew/building-a-better-user-interface-system-6f5a24d1b505"
 isUpdated: true
 ---
-
-
-
-
 
 ## 새롭게 개발 중인 프로젝트를 공유합니다
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 저의 경력에서 배운 모든 것을 활용하여 아름답고 이해하기 쉽게 구현할 수 있는 UX 베스트 프랙티스가 적용된 컴포넌트 라이브러리를 디자인하고 코딩하고자 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제가 지금까지 만든 것을 조금 엿볼 수 있어요. 피그마 파일과 나중에 리액트 컴포넌트를 받고 싶다면 프로젝트 이메일 리스트에 가입해주세요.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ## 날짜 선택기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 드롭다운
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 버튼을 디자인하는 방식에 대해 더 알아보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 알림
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 뱃지를 디자인하는 방법에 대해 더 알아보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 데이터 시각화
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 # 로더
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 테이블
 
@@ -73,7 +124,18 @@ isUpdated: true
 
 # 페이지네이션
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 페이지네이션을 디자인하는 방식에 대해 더 알아보세요.
 
@@ -83,7 +145,18 @@ isUpdated: true
 
 # 진행 중
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 모달
 
@@ -93,7 +166,18 @@ isUpdated: true
 
 # 툴팁
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 명령 메뉴 ⌘K
 
@@ -103,6 +187,17 @@ isUpdated: true
 
 여기서 디자이너와 소프트웨어 엔지니어가 구현하기 쉽도록 컴포넌트를 빌드하고 코딩을 계속할 계획입니다. 최소 수준의 UI 시스템을 Figma 커뮤니티에 공개하고 각 컴포넌트 카테고리에 대해 계속 글을 쓸 예정입니다. 또한 페이지와 흐름을 위한 다양한 템플릿을 만들 계획입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최종적으로, 여러 팀이 디자인 도전 과제를 해결하기 위해 쉽게 사용자 정의하고 구현할 수 있는 포괄적인 사용자 인터페이스 라이브러리의 유료 버전을 출시할 계획입니다. 관심 있으시면 이메일 목록에 가입해주시고, UI 시스템이 준비되었을 때 알려드리겠습니다. 피드백과 지원을 기다리겠습니다!

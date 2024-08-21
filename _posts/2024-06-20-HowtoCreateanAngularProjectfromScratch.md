@@ -3,17 +3,13 @@ title: "제목 Angular 프로젝트를 처음부터 만드는 방법DidLoad 어�
 description: ""
 coverImage: "/assets/img/2024-06-20-HowtoCreateanAngularProjectfromScratch_0.png"
 date: 2024-06-20 00:29
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-HowtoCreateanAngularProjectfromScratch_0.png
 tag: Tech
 originalTitle: "How to Create an Angular Project from Scratch"
 link: "https://medium.com/@dgongoragamboa/how-to-create-an-angular-project-from-scratch-b4031abeb4de"
 isUpdated: true
 ---
-
-
-
-
 
 ![Angular Project](/assets/img/2024-06-20-HowtoCreateanAngularProjectfromScratch_0.png)
 
@@ -23,8 +19,18 @@ Read this article in Spanish: Crear un proyecto en Angular | Medium
 
 # Prerequisites
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시작하기 전에, 당신의 컴퓨터에 Node.js가 설치되어 있는지 확인해주세요. Node.js는 공식 Node.js 웹사이트(https://nodejs.org)에서 다운로드하여 설치할 수 있습니다. Angular는 Node.js와 npm(Node Package Manager)을 사용하여 종속성 및 개발 환경을 관리합니다.
 
@@ -36,7 +42,18 @@ Angular CLI(Command Line Interface)는 Angular 프로젝트를 쉽게 생성하�
 npm install -g @angular/cli
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 설치가 완료되었으면 다음 명령을 실행하여 Angular CLI가 성공적으로 설치되었는지 확인하세요:
 
@@ -48,7 +65,18 @@ ng version
 
 이제 Angular CLI를 설치했으므로 새 Angular 프로젝트를 생성할 수 있습니다. 터미널에서 다음 명령을 실행하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 ng new my-angular-project
@@ -60,7 +88,18 @@ ng new my-angular-project
 
 다음 명령을 사용하여 새로 생성된 프로젝트 디렉토리로 이동하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 cd my-angular-project
@@ -74,7 +113,18 @@ cd my-angular-project
 ng serve
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트를 컴파일하고 로컬 서버에서 실행합니다. 웹 브라우저를 열고 http://localhost:4200으로 이동하세요. Angular 애플리케이션이 정상적으로 작동하는 것을 확인할 수 있습니다.
 
@@ -86,7 +136,18 @@ ng serve
 ng generate component 컴포넌트명
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이렇게 하면 새로운 컴포넌트를 위해 필요한 TypeScript 파일, HTML 템플릿 및 CSS 스타일링 파일이 자동으로 생성됩니다.
 
@@ -95,33 +156,55 @@ ng generate component 컴포넌트명
 라우트를 설정하면 애플리케이션 내의 여러 컴포넌트 간을 이동할 수 있습니다. 라우트를 구성하려면 app-routing.module.ts 파일을 열고 다음 코드를 추가하세요:
 
 ```js
-import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
-import { HomeComponent } from './home/home.component';
-import { AboutComponent } from './about/about.component';
+import { NgModule } from "@angular/core";
+import { Routes, RouterModule } from "@angular/router";
+import { HomeComponent } from "./home/home.component";
+import { AboutComponent } from "./about/about.component";
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const routes: Routes = [
-  { path: '', component: HomeComponent },
-  { path: 'about', component: AboutComponent },
+  { path: "", component: HomeComponent },
+  { path: "about", component: AboutComponent },
 ];
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
 ```
 
 위 코드는 "HomeComponent"와 "AboutComponent" 두 개의 컴포넌트를 위한 라우트를 구성합니다. 이에 따라 이러한 컴포넌트와 해당하는 템플릿을 만들어주세요.
 
 # 단계 7: 컴포넌트에 내용 추가하기
 
-이제 새롭게 생성한 컴포넌트에 내용을 추가할 수 있습니다. 컴포넌트 파일 (component-name.component.ts, component-name.component.html, 그리고 component-name.component.css)을 열고 필요에 맞게 사용자 정의하세요. 텍스트, 이미지, 링크 등을 추가할 수 있습니다.  
+이제 새롭게 생성한 컴포넌트에 내용을 추가할 수 있습니다. 컴포넌트 파일 (component-name.component.ts, component-name.component.html, 그리고 component-name.component.css)을 열고 필요에 맞게 사용자 정의하세요. 텍스트, 이미지, 링크 등을 추가할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 8: 애플리케이션 실행
 
@@ -133,7 +216,18 @@ ng serve
 
 그런 다음 브라우저를 열고 http://localhost:4200 으로 이동하세요. 여태까지 생성한 Angular 애플리케이션과 컴포넌트 및 라우트가 표시되어야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 축하합니다! 처음으로 Angular 프로젝트를 처음부터 만드셨군요. 이제 더 많은 것을 탐험하고 배우실 수 있을 거에요.
 
@@ -146,7 +240,18 @@ ng serve
 - 다양한 컴포넌트를 구축하고 Angular 기능들을 실험해보세요.
 - Angular 커뮤니티에 가입하고 포럼과 토론 그룹에 참여하세요. 다른 개발자들로부터 배우고 교류하는 좋은 방법입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 자신의 프로젝트를 Angular로 만들 준비가 되셨군요! 즐거운 여정을 즐기시고 계속해서 배워 나가세요.
 

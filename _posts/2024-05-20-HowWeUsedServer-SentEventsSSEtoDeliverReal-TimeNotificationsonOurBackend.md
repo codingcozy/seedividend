@@ -3,16 +3,13 @@ title: "백엔드에서 Server-Sent EventsSSE로 실시간 알림을 전달하�
 description: ""
 coverImage: "/assets/img/2024-05-20-HowWeUsedServer-SentEventsSSEtoDeliverReal-TimeNotificationsonOurBackend_0.png"
 date: 2024-05-20 22:16
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-20-HowWeUsedServer-SentEventsSSEtoDeliverReal-TimeNotificationsonOurBackend_0.png
 tag: Tech
 originalTitle: "How We Used Server-Sent Events (SSE) to Deliver Real-Time Notifications on Our Backend"
 link: "https://medium.com/trendyol-tech/how-we-used-server-sent-events-sse-to-deliver-real-time-notifications-on-our-backend-ebae41d3b5cb"
 isUpdated: true
 ---
-
-
-
 
 판매자 성장팀으로서, 우리의 업무에는 판매자들의 시스템과의 상호작용을 향상시키기 위해 고안된 작업들로 구성된 다양한 도전 과제를 지정, 추적 및 관리하는 것이 포함되어 있습니다.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-05-20-HowWeUsedServer-SentEventsSSEtoDeliverReal-TimeNotificationsonOurBackend_0.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 사용한 기술 소개
 
@@ -35,7 +43,18 @@ isUpdated: true
 
 ## 왜 SSE를 선택했는가
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 신중한 고려 끝에 SSE가 알림 시스템에 최적인 옵션이라고 결정했습니다. 이 결정의 주요 이유 중 하나는 HTTP 폴링이 가능한 옵션이지만 즉각적인 알림 전달을 제공하지 않는다는 것입니다. 폴링은 서버가 새 이벤트를 확인하기 위해 일정 간격마다 터치되어야 하며 많은 사용자가 알림에 구독되어있는 경우에는 자원을 많이 사용하고 비효율적일 수 있습니다.
 
@@ -45,7 +64,18 @@ isUpdated: true
 
 요약하면, 시간당 실시간 알림을 제공하고 웹 소켓에 비해 더 간단하고 가벼운 솔루션인 SSE를 사용하기로 결정했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Redis Pub/Sub
 
@@ -65,7 +95,7 @@ export class RedisService implements OnModuleInit {
       name: this.redisSentinelConfig.masterName,
       password: this.redisSentinelConfig.password,
     });
-    
+
     await this.subscriber.subscribe(this.redisSentinelConfig.channelName, async (err, count) => {
       if (err) {
         this.logger.error(`Failed to subscribe: ${err.message}`);
@@ -73,7 +103,7 @@ export class RedisService implements OnModuleInit {
       }
       this.logger.log(`Subscribed successfully! This client is currently subscribed to ${count} channels`);
     });
-    
+
     this.subscriber.on('message', async (channel, message: string) => {
       const liveNotification: LiveNotification = JSON.parse(message);
       await this.liveNotificationService.emit(liveNotification);
@@ -84,7 +114,18 @@ export class RedisService implements OnModuleInit {
 
 # 시스템 디자인
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다른 애플리케이션으로부터 알림을 수집하기 위해 알림 작성 API를 개발했습니다. 이 API는 알림을 Redis로 전송합니다. 알림 읽기 API는 Redis를 구독하고 모든 알림을 수신합니다. 알림을 수신한 후 읽기 API는 SSE를 통해 연결된 클라이언트에게 알림을 전송합니다.
 
@@ -94,7 +135,18 @@ export class RedisService implements OnModuleInit {
 
 [2024-05-20-HowWeUsedServer-SentEventsSSEtoDeliverReal-TimeNotificationsonOurBackend_1.png] 를 참고하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 table 태그를 Markdown 형식으로 변경하십시오.
 
@@ -121,20 +173,20 @@ import { filter, fromEvent } from 'rxjs';
 
 @Injectable()
 export class LiveNotificationService implements OnModuleInit {
-  
+
   private readonly emitter = new EventEmitter();
-  
+
   ...
-  
+
   public async emit(data: LiveNotification) {
     this.emitter.emit('liveNotification', { data });
   }
-  
+
   public subscribeForSeller(sellerId: number) {
     const source = fromEvent(this.emitter, 'liveNotification');
     return source.pipe(
-      filter(({ data: liveNotification }) => 
-        liveNotification?.content == 'heartbeat' || 
+      filter(({ data: liveNotification }) =>
+        liveNotification?.content == 'heartbeat' ||
         liveNotification?.sellerId == sellerId)
     );
   }
@@ -145,7 +197,18 @@ export class LiveNotificationService implements OnModuleInit {
 
 ## 수직 확장 문제
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리의 SSE와 Redis 기반 알림 시스템은 연결된 클라이언트에 신속하고 효율적으로 알림을 전달합니다. 그러나 알림이 증가함에 따라 모든 읽기 API가 모든 알림을 구독하기 때문에 시스템에서 잠재적인 수직 확장 문제가 예상됩니다. 이는 시스템에서 잠재적 병목 현상을 일으킬 수 있습니다. 판매자를 위해 Redis pub/sub를 통해 알림이 발행되면 읽기 API의 모든 인스턴스에서 받게 되지만, 모든 알림이 모든 연결된 클라이언트에게 관련이 있는 것은 아닙니다. 각 연결된 클라이언트에게는 관련 있는 알림만 전송되도록 하기 위해 읽기 API에서 고객의 구독에 따라 알림을 필터링합니다. 알림의 수가 많아지면 이 필터링 과정이 느려져 알림 전송이 지연될 수 있습니다.
 
@@ -163,7 +226,18 @@ onModuleInit(): any {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 성능
 
@@ -173,6 +247,17 @@ onModuleInit(): any {
 
 서버-센트 이벤트(SSE)는 실시간 알림 전달 기능을 제공하면서 웹 소켓과 비교해 더 간단하고 가벼운 솔루션으로 입증되었습니다. Redis pub/sub를 사용하여 알림을 여러 팟에 분산하여 모든 클라이언트가 제때 알림을 수신하도록 보장했습니다. SSE 기반의 알림 시스템을 통해 우리는 클라이언트에게 알림을 효과적으로 전달하는 안정적이고 효율적인 솔루션을 성공적으로 구축했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프론트엔드 세부 정보와 구현에 대해 좀 더 알고 싶다면, 제 동료가 쓴 기사를 읽어보시기를 추천합니다.

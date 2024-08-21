@@ -3,17 +3,13 @@ title: "Nextjs PageRouter 페이지, 레이아웃 폴더 구조 정리"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # 페이지 및 레이아웃
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 Next.js에서 페이지는 페이지 디렉토리의 .js, .jsx, .ts 또는 .tsx 파일에서 내보낸 React 구성 요소입니다. 각 페이지는 파일 이름을 기반으로 경로와 연결됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, 아래와 같이 React 컴포넌트를 내보내는 pages/about.js 파일을 만들면 이는 /about에서 접근할 수 있습니다.
 
@@ -37,7 +44,18 @@ export default function About() {
 
 라우터는 index라는 이름의 파일을 디렉토리 루트로 자동으로 라우팅합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - pages/index.js → /
 - pages/blog/index.js → /blog
@@ -49,7 +67,18 @@ export default function About() {
 - pages/blog/first-post.js → /blog/first-post
 - pages/dashboard/settings/username.js → /dashboard/settings/username
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 동적 경로를 가지는 페이지
 
@@ -59,7 +88,18 @@ Next.js는 동적 경로를 갖는 페이지를 지원합니다. 예를 들어, 
 
 ## 레이아웃 패턴
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트 모델을 사용하면 페이지를 여러 구성 요소로 분해할 수 있습니다. 이러한 구성 요소 중 많은 것이 종종 페이지간에 재사용됩니다. 예를 들어, 모든 페이지에 동일한 내비게이션 바와 푸터가 있는 경우가 있습니다.
 
@@ -82,7 +122,18 @@ export default function Layout({ children }) {
 
 ### 사용자 지정 앱을 사용한 단일 공유 레이아웃
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하나의 레이아웃만 사용하는 경우 Custom App을 생성하고 애플리케이션을 해당 레이아웃으로 감싸면 됩니다. 페이지를 변경할 때 사용되는 `Layout /` 컴포넌트는 상태가 유지되므로 (예: 입력 값) 페이지 간 이동 시 입력 값이 유지됩니다.
 
@@ -102,7 +153,18 @@ export default function MyApp({ Component, pageProps }) {
 
 여러 레이아웃이 필요한 경우 getLayout 속성을 페이지에 추가하여 레이아웃에 대한 React 컴포넌트를 반환할 수 있습니다. 이를 통해 페이지별로 레이아웃을 정의할 수 있습니다. 함수를 반환하기 때문에 원하는 경우 복잡한 중첩 레이아웃을 설정할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 
@@ -137,7 +199,18 @@ export default function MyApp({ Component, pageProps }) {
 
 이 레이아웃 패턴을 사용하면 React 컴포넌트 트리가 페이지 전환 사이에 유지되므로 상태가 지속됩니다. 컴포넌트 트리를 사용하면 React가 어떤 요소가 변경되었는지 이해하여 상태를 보존할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 > 알아두면 좋아요: 이 과정을 조정(reconciliation)이라고 합니다. 이것은 React가 어떤 요소가 변경되었는지를 이해하는 방법입니다.
 
@@ -166,7 +239,18 @@ Page.getLayout = function getLayout(page: ReactElement) {
 export default Page;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```typescript
 import type { ReactElement, ReactNode } from "react";
@@ -214,4 +298,15 @@ export default function Layout({ children }) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

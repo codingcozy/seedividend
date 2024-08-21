@@ -3,17 +3,13 @@ title: "node JS 익스프레스에서 반드시 사용해야하는 최고의 단
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "What Is The Best Node Js Express Shortcut, that will blow your mind"
 link: "https://medium.com/@ori.holis/what-is-the-best-node-js-express-shortcut-that-will-blow-your-mind-0ef468a677c7"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/WhatIsTheBestNodeJsExpressShortcutthatwillblowyourmind_0.png" />
 
@@ -23,7 +19,18 @@ Node.js와 Express를 사용하여 웹 애플리케이션을 개발하는 것이
 
 모든 Express 개발자가 직면한 문제는 오류를 효율적으로 처리하는 방법입니다. 저는 수없이 많은 개발자들이 이 구문을 사용하는 것을 보았습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 if (notFound) {
@@ -40,7 +47,18 @@ if (notFound) {
 
 우선, 오류 처리를 위한 견고한 기반을 마련해야 합니다. 코드는 심플하고 확장 가능한 오류 해결을 제공해야 하며, 잘못 작성된 코드에서 발생하는 처리되지 않은 예외나 널에 대한 호출로 인한 오류도 다룰 수 있어야 합니다. 모든 오류는 프론트엔드에서 쉽게 처리할 수 있도록 동일한 JSON 구조를 가져야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 foundation은 다음과 같이 보일 수 있습니다:
 
@@ -86,7 +104,18 @@ function handle_error(err, res) {
 
 따라서 우리는 다음과 같이 변경할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 코드를 다음과 같이 번역해 드리겠습니다.
 
@@ -98,7 +127,18 @@ if (notFound) {
 
 나중에 개발 초기 단계에서도 손쉽게 구현할 수 있도록 익스프레스 HTTP 함수를 위한 미들웨어 래퍼를 생성하겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const FallThrough = Symbol("api-fall-through");
@@ -151,4 +191,15 @@ app.get_json("/api/good-morning", async (req) => {
 
 ## 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

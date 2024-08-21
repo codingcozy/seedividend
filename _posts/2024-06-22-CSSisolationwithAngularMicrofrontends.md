@@ -3,16 +3,13 @@ title: "Angular 마이크로 프론트엔드에서 CSS 격리하는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-22-CSSisolationwithAngularMicrofrontends_0.png"
 date: 2024-06-22 15:23
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-CSSisolationwithAngularMicrofrontends_0.png
 tag: Tech
 originalTitle: "CSS isolation with Angular Micro frontends"
 link: "https://medium.com/@epavliy/css-isolation-with-angular-micro-frontends-eb3bd8261bb9"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-06-22-CSSisolationwithAngularMicrofrontends_0.png" />
 
@@ -23,7 +20,18 @@ isUpdated: true
 
 마이크로 프론트엔드에 대한 주제는 요즘 매우 인기가 있습니다. 모두가 독립적인 팀을 구축하고 개발 프로세스를 효율적으로 확장하고 싶어합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마이크로프론트엔드 앱을 구축하는 다양한 기술들이 있어요. 그 중에서 내가 아주 좋아하는 한 가지 방법은 Webpack 모듈 페더레이션을 사용하는 것이에요. 더 자세한 내용을 알고 싶다면, Angular 아키텍트(Manfred Steyer)의 이 훌륭한 시리즈를 적극 추천해요.
 
@@ -35,7 +43,18 @@ isUpdated: true
 - 웹 구성 요소를 사용하면 사용자 정의 요소를 정의할 수 있어서 게임에서 캡슐화의 일종을 가져다 줘요. Angular에서는 Angular Elements를 사용하는 것이 가장 좋아요.
 - Shadow DOM은 CSS를 캡슐화할 수 있게 해줘요. 이미로드된 HTML 페이지 안에서 자신만의 CSS 세계를 만들 수 있다고 상상해봐요. 그리고 루트/부모 CSS가 당신의 CSS를 더 이상 망가뜨릴 수 없다고요… 게다가, 격리된 CSS는 루트/부모도 망가뜨리지 않을 거예요. 멋지지 않나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 고립은 우리가 안전하게 개발할 수 있도록 해줍니다. 누군가가 당신의 스타일을 망가뜨리거나 당신이 누군가의 스타일을 망가뜨려도 걱정할 필요가 없습니다.
 
@@ -45,7 +64,18 @@ isUpdated: true
 
 우선 저희 상황을 설명해 보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 쉘이 있습니다. teamA에서 개발한 것입니다. 이는 고객의 진입점으로 간주되며 https://resource-portal.test.com을 통해 접근할 수 있습니다. 쉘은 모듈 페더레이션을 사용하여 MFE(Micro Frontend)를 로드하고 웹 컴포넌트로 표시합니다.
 
@@ -55,7 +85,18 @@ isUpdated: true
 
 기본적인 마이크로프론트엔드 설정으로, 쉘과 하나의 마이크로프론트엔드 애플리케이션이 있는 구성을 갖추고 있습니다. 이를 통해 쉘과 MFE가 CSS 측면에서 충돌하지 않도록하여 팀이 안전하게 느낄 수 있도록 하는 것이 주요 목표입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 여러 실용적인 경우에 대해 다뤄볼 것이고, 당신의 개발 과정에 유용할 것이라고 생 생각해요. 대부분의 변경 사항은 MFE 측면에서 발생할 것입니다.
 
@@ -64,10 +105,21 @@ isUpdated: true
 Angular에서 ShadowDom을 활성화하는 것은 정말 쉽습니다. ViewEncapsulation.ShadowDom을 설정하면 됩니다. 우리 경우에는 모듈 페더레이션을 통해 공유하는 MFE 내부의 앱 컴포넌트에 적용할 것입니다.
 
 ```js
-encapsulation: ViewEncapsulation.ShadowDom
+encapsulation: ViewEncapsulation.ShadowDom;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 웹 구성 요소 내부에 스타일 주입하기
 
@@ -78,7 +130,18 @@ encapsulation: ViewEncapsulation.ShadowDom
 일반적으로 styles.sccs에서 모든 CSS를 app.component.scss로 옮깁니다.
 또한 기업 테마, Material 스타일 등과 같은 서드 파티 자원을 주입해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그런 주입의 부작용 중 하나는 번들 크기입니다. 웹 구성 요소의 각 인스턴스마다 CSS를 중복으로 포함해야 하므로 모든 필요한 외부 구성 요소도 중복됩니다. 하지만 격리 혜택을 많이 얻을 수 있죠, 맞죠?
 
@@ -88,7 +151,18 @@ encapsulation: ViewEncapsulation.ShadowDom
 
 기본적으로 그림자 DOM으로도 — 일부 스타일은 최상위 수준에서 (우리 경우에는 Shell에서) 누출됩니다. 왜냐하면 상속 가능하기 때문이죠. 예를 들어 색상, 커서, 글꼴 등이 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 문제를 해결하기 위해 app.component에 지정된 CSS를 추가하면 됩니다.
 
@@ -102,7 +176,18 @@ encapsulation: ViewEncapsulation.ShadowDom
 
 모든 스타일을 조정했고 독립형 모드에서 확인한 결과 모든 것이 잘 작동합니다. 그러나 셸 내부에서는 적용되지 않는 스타일이 있습니다. 예를 들어, 전역 CSS 변수 등이 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 보통 이런 경우는 CSS에서 :host를 사용할 때 발생했었어요. 조사한 결과, :host에 추가로 :root를 추가해야 한다는 것을 발견했어요. 왜 이런 일이 발생하는지는 확실하지 않지만, 한 가지 관찰 결과를 공유하자면, 독립적으로 작업할 때는 :host를 사용하는 반면, 셸 내에서는 :root를 사용한다는 거예요.
 
@@ -112,7 +197,18 @@ encapsulation: ViewEncapsulation.ShadowDom
 
 이제 모든 필요한 CSS를 앱 구성 요소 CSS에 직접 주입했어요. 이제 같은 프로젝트에서 그 웹 구성 요소를 사용해요 (index.html에 넣어서).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예상대로 그것은 웹 구성 요소 그림자 DOM에만 존재해야합니다. 그러나 문서 헤드를 보면 거기에 훨씬 많은 스타일이 있습니다. 궁금하죠, 왜 그럴까요?
 
@@ -122,7 +218,18 @@ encapsulation: ViewEncapsulation.ShadowDom
 
 참고: 모듈 페더레이션과 웹 구성 요소를 공유하고 다른 앱에서 이 웹 구성 요소를 만드는 경우 이 문제가 발생하지 않을 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 몇 가지 기준 설정하기
 
@@ -137,7 +244,18 @@ html {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Angular Material. 게임에 있나요?
 
@@ -147,7 +265,18 @@ html {
 
 이렇게 하면 Material 스타일을 MFE 구성 요소 자체에 주입할 수 있습니다. 이제 독립적이고 독자적입니다. 번들 크기에 대해 생각하고, 바로 이런 직접적인 주입 대신 CDN을 사용하여 개선할 수 있는 방법이 있다는 것을 기억하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 아이고... Material 오버레이?
 
@@ -157,7 +286,18 @@ html {
 
 이 문제를 해결하기 위해 우리는 웹 컴포넌트 내부에 오버레이 컨테이너를 추가해야 해요. 즉, 그 안에 그림자 루트가 있어야 해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 좋은 점은 Material이 그것을 쉽게 처리할 수 있다는 점입니다.
 
@@ -172,7 +312,18 @@ html {
 
 이로써 오버레이 컨테이너가 웹 구성 요소의 쉐도우 루트로 이동하게 됩니다. 거기에 주입된 모든 스타일은 삽입된 오버레이에 영향을 미칠 것입니다. 승리입니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 잠깐… @font-face가 작동하지 않나요?
 
@@ -183,7 +334,18 @@ Material과 관련된 내용이지만 Material에 국한되지는 않습니다. 
 
 지금 @font-face가 작동하는 방식에 대한 명세 때문에 예기치 않은 결과입니다. 이를 해결하려면 웹 페이지 맨 위에서 폰트를 명시적으로 로드해야합니다. 그런 다음 필요한 위치에서 사용하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 좋은 점은 — Shell 팀에게 별도의 작업 요청을 하지 않아도 된다는 것입니다. 우리는 그 스크립트를 직접 삽입할 수 있습니다. 참고로, 이것은 물론 우리의 독립성에 영향을 미칩니다. 왜냐하면 다른 MFEs가 해당 폰트를 푸시할 수 있는 Shell scope의 상단으로 이동하게 됩니다. 하지만 현재는 다른 선택사항이 없습니다.
 
@@ -194,9 +356,20 @@ MFE에서 폰트를 로드하는 코드는 아래와 같이 보일 수 있습니
 일부 경우에는 셸과 MFE 웹 컴포넌트가 함께 있는 상황에서 셀렉터로 요소를 쿼리해야 할 수도 있습니다. 상황에 따라 — MFE 내부에서 ID로 요소를 쿼리하려고 시도할 때 document.querySelector을 사용해봤지만 실패했나요? 왜 그럴까요?
 음… 웹 컴포넌트와 쉐도우 DOM 작업을 시작하면 검색할 쉐도우 루트 컨텍스트를 명시적으로 지정해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-그래서 document.querySelector를 사용하는 대신 document.querySelector(``web_component_name``).shadowRoot.querySelector(``)을 사용하면 됩니다.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+그래서 document.querySelector를 사용하는 대신 document.querySelector(`web_component_name`).shadowRoot.querySelector(``)을 사용하면 됩니다.
 
 ## 마무리
 

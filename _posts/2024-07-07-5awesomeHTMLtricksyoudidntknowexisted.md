@@ -3,15 +3,13 @@ title: "알려지지 않은 5가지 놀라운 HTML 트릭"
 description: ""
 coverImage: "/assets/img/2024-07-07-5awesomeHTMLtricksyoudidntknowexisted_0.png"
 date: 2024-07-07 12:46
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-5awesomeHTMLtricksyoudidntknowexisted_0.png
 tag: Tech
 originalTitle: "5 awesome HTML tricks you didn’t know existed"
 link: "https://medium.com/@creativebyte/5-awesome-html-tricks-you-didnt-know-existed-9ab7cb6d8875"
 isUpdated: true
 ---
-
-
 
 ![이미지](/assets/img/2024-07-07-5awesomeHTMLtricksyoudidntknowexisted_0.png)
 
@@ -21,7 +19,18 @@ HTML은 웹의 기초이며 거의 모든 웹페이지의 콘텐츠를 구성합
 
 ## 1. 인라인 편집을 위한 contenteditable 속성 사용
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 페이지 콘텐츠를 텍스트 편집기처럼 편집할 수 있으면 좋지 않았나요? contenteditable 속성을 사용하여 모든 HTML 요소를 편집 가능한 필드로 변환하여 사용자가 브라우저 내에서 콘텐츠를 직접 수정할 수 있습니다.
 
@@ -33,7 +42,18 @@ HTML은 웹의 기초이며 거의 모든 웹페이지의 콘텐츠를 구성합
 
 맞춤 데이터 속성은 HTML 요소 내에 추가 정보를 저장하는 유연한 방법을 제공하여 접근성을 향상시키고 동적 상호작용을 가능하게 합니다. 이러한 속성은 "data-"로 시작하여 서술적인 이름을 따릅니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <div id="product" data-product-id="123" data-category="electronics">

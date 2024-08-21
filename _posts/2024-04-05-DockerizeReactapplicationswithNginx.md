@@ -3,17 +3,13 @@ title: "Nginx을 사용하여 React 애플리케이션 Dockerize 하기 "
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Dockerize React applications with Nginx"
 link: "https://medium.com/@alinaseri/dockerize-react-applications-with-nginx-17f752deb54"
 isUpdated: true
 ---
-
-
-
-
 
 ![Dockerize React applications with Nginx](/assets/img/DockerizeReactapplicationswithNginx_0.png)
 
@@ -23,7 +19,18 @@ Nginx를 사용하여 React 애플리케이션을 Docker화하는 것은 컨테�
 
 이미 React 애플리케이션이 있을 것으로 가정하고, 구조화되어 있고 정상적으로 작동하는지 확인하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 2: Dockerfile 만들기
 
@@ -63,7 +70,18 @@ CMD ["nginx", "-g", "daemon off;"]
 
 ## 단계 3: .dockerignore 파일 만들기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 동일한 디렉토리에 .dockerignore 파일을 생성하여 Docker 이미지로 복사되지 않도록 불필요한 파일과 디렉토리를 제외해주세요.
 
@@ -77,7 +95,18 @@ npm - debug.log;
 
 터미널을 열고 React 앱의 루트 디렉토리(여기에 Dockerfile이 있는 곳)로 이동한 다음 Docker 이미지를 빌드해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 docker build -t react-nginx-app .
@@ -89,7 +118,18 @@ docker build -t react-nginx-app .
 
 Docker 이미지를 빌드한 후에 컨테이너를 실행할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 도커 run --name react-nginx-app -p 8080:80 -d react-nginx-app
@@ -101,7 +141,18 @@ Docker 이미지를 빌드한 후에 컨테이너를 실행할 수 있습니다.
 
 이제 웹 브라우저를 열고 http://localhost:8080 또는 지정한 호스트와 포트로 이동하여 React 애플리케이션에 접속할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결론
 

@@ -3,16 +3,13 @@ title: "R에 대한 오픈 편지"
 description: ""
 coverImage: "/assets/img/2024-06-20-OpenletterforR_0.png"
 date: 2024-06-20 02:16
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-OpenletterforR_0.png
 tag: Tech
 originalTitle: "Open letter for R"
 link: "https://medium.com/@ddoraimon/open-letter-for-r-b029d5650c9d"
 isUpdated: true
 ---
-
-
-
 
 가슴을 털고 말하고 싶어졌어요. 이제 당신에 대해 언급하는 것은 마지막일 겁니다.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 시간이 흘러 현실이 들어왔어요. 저는 덜 연결된다고 느끼기 시작했고, 당신의 대답은 점점 떨어져 갔어요. 감정을 느끼려고 싸움을 일부러 일으켰어요. 첫 싸움을 기억하나요? 당신의 말이 나를 상처 입힌 첫 번째 시간이었고, 밤을 새며 울었어요. 당신에게는 아무 뜻이 없었던 말들이 저에게는 모든 것이었어요. 확인을 찾을 때, 듣게 된 것은 비꼬는 말뿐이었어요. 제가 원하는 확신을 제공해줄 수 없는 당신이었죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 안전을 찾기 위해 찾아왔던 우리 관계에서 내가 버려진 것 같았어. 너와 얘기하는 여자들에 대해 질투가 났어. 내 불안함이 나를 포위했었거든. 너와 이별을 많이 말해봤지만, 항상 실망했어. 너는 몇 주 동안 나에게 말을 걸지 않을 수도 있었지만, 나는 매일 밤 울면서 오는 메시지를 기다리곤 했어. 매번 나를 무겁게 떠밀어놓곤 했지.
 
@@ -32,6 +40,17 @@ isUpdated: true
 
 너를 사랑하지만, 이제 내 자신을 우선해야 해. 너로 인해 상처받은 내 자신을 다시 쌓아야 해. 우리의 분리를 나에게 돌리지 않을 거야; 우리 둘 다 있었지. 네 최선을 다해 줘서 고마워, 하지만 내게는 충분하지 않았어. 진정하게 사랑하는 사람을 만나길 바래, 그렇게 하기 위해 노력하는 사람을 찾길. 너가 찾아준 평화를 주지 못해 미안하고, 내 뒤죽박죽한 마음을 다루길 기대한 내 잘못도 미안해.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 서로 지쳐갔고, 얼마나 쉬어도 아무런 치유가 되지 않았어요. 나를 차단 해제하려면, 더 이상 여기 없을 거에요. 우리의 시작도 전에 끝났죠. 안녕, 자기 자신을 잘 부탁해요. 성공을 빕니다.

@@ -3,15 +3,13 @@ title: "TradingLab의 Insane 지표 모음 활용법"
 description: ""
 coverImage: "/assets/img/2024-07-09-TradingLabsInsaneIndicatorEnsemble_0.png"
 date: 2024-07-09 14:48
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-TradingLabsInsaneIndicatorEnsemble_0.png
 tag: Tech
 originalTitle: "TradingLab’s “Insane“ Indicator Ensemble"
 link: "https://medium.com/coinmonks/i-backtested-tradinglabs-indicator-that-you-ll-ever-need-f66d0b312e0b"
 isUpdated: true
 ---
-
-
 
 <img src="/assets/img/2024-07-09-TradingLabsInsaneIndicatorEnsemble_0.png" />
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 # 어떤 지표를 사용할까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 TradingLab은 TradingView에서 사용 가능한 두 지표에 중점을 둡니다:
 

@@ -3,17 +3,13 @@ title: "Angular에서 DOCUMENT를 사용해야 하는 이유"
 description: ""
 coverImage: "/assets/img/2024-06-22-WhyyoushoulduseDOCUMENTandnotdocumentinAngular_0.png"
 date: 2024-06-22 03:14
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-WhyyoushoulduseDOCUMENTandnotdocumentinAngular_0.png
 tag: Tech
 originalTitle: "Why you should use DOCUMENT and not document in Angular"
 link: "https://medium.com/@laban405/why-you-should-use-document-and-not-document-in-angular-b592908ff687"
 isUpdated: true
 ---
-
-
-
-
 
 ![image](/assets/img/2024-06-22-WhyyoushoulduseDOCUMENTandnotdocumentinAngular_0.png)
 
@@ -22,25 +18,36 @@ DOCUMENT은 Angular에서 제공하는 의존성 주입 토큰으로, 문서 객
 다음 예제는 HTML 템플릿의 섹션을 보고자 할 때 document를 사용하는 방법을 보여줍니다.
 
 ```js
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from "@angular/core";
 @Component({
-  selector: 'app-my-component',
-  templateUrl: './my-component.component.html',
-  styleUrls: ['./my-component.component.css'],
+  selector: "app-my-component",
+  templateUrl: "./my-component.component.html",
+  styleUrls: ["./my-component.component.css"],
 })
 export class MyComponent implements OnInit {
   constructor() {}
   ngOnInit(): void {
-    const myButton = document.getElementById('myButton');
-    myButton.addEventListener('click', () => {
-      const targetElement = document.getElementById('targetElement');
-      targetElement.scrollIntoView({ behavior: 'smooth' });
+    const myButton = document.getElementById("myButton");
+    myButton.addEventListener("click", () => {
+      const targetElement = document.getElementById("targetElement");
+      targetElement.scrollIntoView({ behavior: "smooth" });
     });
   }
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 예제는 이전 기능에 DOCUMENT를 사용하는 방법을 보여줍니다.
 
@@ -71,6 +78,17 @@ export class MyComponent implements OnInit {
 - 타입 안전성: DOCUMENT 토큰은 타입 정의를 제공하여 IDE에서 더 나은 타입 안전성과 코드 완성을 가능하게 합니다.
 - Angular zone 인식: Angular의 DOCUMENT는 Angular의 zone.js 라이브러리를 인식하고 변경 감지 메커니즘과 원활하게 통합됩니다. 이를 통해 Angular 컴포넌트에 의해 트리거된 DOM 업데이트가 올바르게 감지되고 처리되며, 변경 감지로 인한 발생할 수 있는 문제를 방지하여 일관된 사용자 경험을 보장합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 전역 문서는 특정 시나리오에 적합할 수 있지만 Angular의 DOCUMENT 토큰은 플랫폼 중립성, 의존성 주입, 유형 안전성 및 Angular 특정 기능 측면에서 여러 가지 장점을 제공합니다.

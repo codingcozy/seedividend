@@ -3,16 +3,13 @@ title: "웹 프레임워크의 유사발암화"
 description: ""
 coverImage: "/assets/img/2024-05-17-Thecarcinizationofwebframeworks_0.png"
 date: 2024-05-17 03:25
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-17-Thecarcinizationofwebframeworks_0.png
 tag: Tech
 originalTitle: "The carcinization of web frameworks"
 link: "https://medium.com/@toddledev/the-carcinization-of-web-frameworks-21f37acb268a"
 isUpdated: true
 ---
-
-
-
 
 프레임워크는 수렴 중입니까? 웹 개발 세계에서 발생하는 근본소생현상을 살펴보고, 과거를 향해 미래를 엿볼 수 있을까요?
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 스포일러 경고: 저는 이론적으로 완벽한 프레임워크가 존재한다고 말하고 싶진 않아요. 각 프로젝트는 다르며, 다른 요구 사항은 새로운 솔루션과 도구를 요구합니다. 그러나 대부분의 프레임워크가 결국 채택하게 될 거의 완벽한 기능 세트가 존재할 수 있습니다. 이 기사에서 그것을 엿볼 수도 있을지 모릅니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 어떻게 변했나요?
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 그래서, 오늘 우리가 전반적으로 보는 특징들은 무엇일까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 변경 불가능성 🪨
 
@@ -42,7 +61,18 @@ isUpdated: true
 
 ## 🐢 느리지만 완전히 변경 불가능합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 🐇 빠르지만 배열을 직접 변경합니다 😱
 
@@ -52,7 +82,18 @@ isUpdated: true
 
 Angular 팀에 의해 처음 소개된 양방향 데이터 바인딩은 마법 같았습니다 🪄 너무 신비로운 것 같아요! ✨ 자식 구성 요소에서 데이터를 변경하면 부모가 자신을 업데이트하고 남아 있는 모든 자식도 업데이트할 수 있습니다 — 뭐가 안 좋을까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 실제 예제에서는 종종 아무도 데이터를 실제로 소유하지 않는 스파게티 코드 🍝로 이어집니다. 진실의 근원이라고 할 수 있는 곳은 어디서나 동시에 존재하고 어디서나 존재하지 않았다. 어떤 것이 작동하지 않을 때 데이터를 손상시킨 사람을 찾을 수 없었습니다.
 
@@ -62,7 +103,18 @@ Angular 팀에 의해 처음 소개된 양방향 데이터 바인딩은 마법 �
 
 상태 관리는 프레임워크를 확장 가능하게 만드는 데 가장 중요한 개념입니다. 전역 상태 변수를 추가할 때마다, 최소한 이론적으로 존재하는 상태의 복잡성이 두 배로 증가합니다. 앱이 성장함에 따라 상태도 늘어나며, 어느 시점에서든 수십억 개의 가능한 상태에 있을 수 있습니다. 상태의 수가 급격하게 증가하면 앱을 개발하기 거의 불가능해집니다. 앱의 한 부분을 변경할 때 다른 곳에서 적어도 하나의 다른 것이 깨집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 상태 처리의 복잡성과 중요성을 고려할 때, JavaScript 프레임워크 간의 주요 차별 요소 중 하나로 상태 관리가 역사적으로 부상한 것은 놀라울 것이 없습니다. Angular는 수명 동안 여러 상태 시스템을 가졌고, Vue와 Svelte도 마찬가지입니다. React는 여러 시스템을 가졌으며 수천 개의 호환되는 상태 관리 라이브러리가 있습니다. 우리는 양방향 데이터 바인딩에서 옵저버블, 훅으로 이동했으며, 이제 다음으로 큰 열풍: 신호 ⚡
 
@@ -72,7 +124,18 @@ Angular 팀에 의해 처음 소개된 양방향 데이터 바인딩은 마법 �
 
 # 서버 측 렌더링 🌐
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여러 해 동안, 프레임워크들은 자신들을 클라이언트 측만을 다루는 라이브러리로 자랑스럽게 소개했습니다. 웹사이트를 렌더링하기 위해 서버 코드를 작성할 필요가 없는 방법이었죠. 더 이상 PHP나 Java가 필요 없이, 간단한 JavaScript로만 작업할 수 있었습니다. 그러나 오늘날, 이러한 작고도 클라이언트 전용 라이브러리들은 전체 생태계로 성장하였고, - 여러분이 짐작했듯이 - 서버 측 렌더링(SSR)을 갖추는 것이 기대됩니다.
 
@@ -80,7 +143,18 @@ Angular 팀에 의해 처음 소개된 양방향 데이터 바인딩은 마법 �
 
 SSR은 SEO를 더 잘 지원하며 종종 더 빠른 첫 번째 페인트 시간을 제공해 인기를 끌고 있습니다. 요즘에는 SSR이 거의 모든 프로젝트에서 엄격한 요구사항이 되었습니다. Toddle은 또한 완벽한 SSR 지원을 제공하며, 웹페이지를 최적의 SEO를 보장하고 콘텐츠를 가능한 빨리 화면에 표시할 수 있도록 서버에서 복잡한 공식과 API를 실행할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프레임워크들은 이미 많이 통합되었지만, 아직 혁신할 여지가 있습니다. 저는 대부분의 프레임워크에서 복사, 향상되고 적용될 것으로 예측되는 분야에서 발생하는 흥미로운 개발 동향을 살펴보려고 합니다.
 
@@ -90,7 +164,18 @@ SSR은 SEO를 더 잘 지원하며 종종 더 빠른 첫 번째 페인트 시간
 
 재개 가능성은 미래에 더 중요한 기능으로 부상할 것으로 예상되며, 개발자들은 불가피하게 성능을 최적화하고 애플리케이션의 확장성을 향상시키려는 노력을 하게 될 것입니다. 인터랙티브한 웹 환경에서 애플리케이션을 최적화하기 위한 노력이 더욱 활발해질 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 웹 컴포넌트
 
@@ -102,7 +187,18 @@ SSR은 SEO를 더 잘 지원하며 종종 더 빠른 첫 번째 페인트 시간
 - 조직 내 각 팀이 원하는 프레임워크를 선택할 수 있습니다. 팀 간에 웹 컴포넌트 표준을 통해 통신하고 원활하게 조합할 수 있습니다.
 - 웹 컴포넌트의 상속된 아일랜드 아키텍처는 toddle, solid 또는 Qwik로 만든 더 현대적인 앱으로의 유동적인 이동을 쉽게 만듭니다. 레거시 앱을 천천히 향상시키고 이전 사이트를 대체하며 섬이 퍼질 때마다 컴포넌트를 하나씩 변환할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 덜 혼란스러운 세상 🌎
 

@@ -3,16 +3,13 @@ title: "개발자의 매일 체크리스트, 딱 3가지만 있어도 우아한 
 description: ""
 coverImage: "/assets/img/2024-05-18-Adevelopersdailychecklistwithonly3itemsiselegantsimplicity_0.png"
 date: 2024-05-18 21:15
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-18-Adevelopersdailychecklistwithonly3itemsiselegantsimplicity_0.png
 tag: Tech
 originalTitle: "A developer’s daily checklist with only 3 items is elegant simplicity"
 link: "https://medium.com/developer-purpose/a-developers-daily-checklist-with-only-3-items-is-elegant-simplicity-79b1c6e0439"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-05-18-Adevelopersdailychecklistwithonly3itemsiselegantsimplicity_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 그 의미에서 할 일 목록은 의욕을 떨어뜨리는 생산성 도구입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가장 중요하고 실현 가능한 작업 목록을 추려본다면 어떨까요?
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 할 일 목록 대신 하루에 항목이 손에 쥐어지도록 하는 일일 체크리스트를 제안합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 시스템은 당신의 생산성을 혁신할 수 있어요. 왜냐하면 당신이 무엇이 중요한지 결정하도록 강제하기 때문이에요. 나머지는 잊어버릴 수 있어요.
 
@@ -42,7 +61,18 @@ isUpdated: true
 
 할 일 목록은 의욕을 떨어뜨리지만, 짧은 매일 체크리스트는 자신감을 줘요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 우아한 단순함
 
@@ -55,7 +85,18 @@ isUpdated: true
 
 어느 시점에나, 당신 앞에는 1-3개의 체크리스트 항목만 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 복잡한 시스템이나 긴 할 일 목록은 없어요. 할 일을 우선순위를 정하거나 정리할 필요도 없어요. 상태, 태그, 예상 소요 시간 등을 추가할 필요도 없죠.
 
@@ -65,7 +106,18 @@ isUpdated: true
 
 리스트에 무엇을 넣을지 어떻게 결정하나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대부분은 직감을 신뢰하세요. 특별한 비밀은 없어요. 매일 목록에 올리는 것은 개인적인 결정이에요.
 
@@ -75,7 +127,18 @@ isUpdated: true
 
 시간이 지남에 따라 매일 체크리스트를 사용함으로써, 목록을 만드는 데 능력이 향상될 거예요. 가장 중요한 작업에 집중하도록 강제합니다. 시간이 지남에 따라 중요한 작업을 인식하는 데 능력이 향상될 거예요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그것은 매우 유용한 기술입니다.
 
@@ -85,7 +148,18 @@ isUpdated: true
 
 ![개발자의 일일 체크리스트 예시](/assets/img/2024-05-18-Adevelopersdailychecklistwithonly3itemsiselegantsimplicity_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지1](/assets/img/2024-05-18-Adevelopersdailychecklistwithonly3itemsiselegantsimppng)
 
@@ -95,7 +169,18 @@ isUpdated: true
 
 # 세부사항
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저의 스크린샷으로부터 몇 가지 세부 정보를 보여드리겠습니다.
 
@@ -109,7 +194,18 @@ isUpdated: true
 
 가끔씩 가장 어리석은 해결책이 종종 가장 좋은 것이라는 것을 발견합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 (아마 그것은 나만 그런 것일지도, 하하.)
 
@@ -119,7 +215,18 @@ isUpdated: true
 
 여기서 중요한 교훈은, 무엇이든 간에 시스템을 간단하게 유지하는 것이에요. 또한, 매일의 목표는 실현 가능하고 동기부여가 되어야 합니다. 너무 모호하고 풀어내기 어려운 것은 많은 할 일 목록처럼 기운을 빼앗을 뿐이죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 동기 부여 심리학
 
@@ -129,7 +236,18 @@ isUpdated: true
 
 리스트에서 할 일을 체크해 나가는 것도 기분이 좋죠. 그것이 동기 부여죠!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "To have your daily list totally checked off at the end of the day feels amazing!
 
@@ -139,7 +257,18 @@ It's similar to the story of the tortoise and the hare. In the long run, you wil
 
 ## Daily list"
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기에서 읽은 내용이 마음에 드셨나요? 매일 새로운 내용을 2,000명의 소프트웨어 개발자를 위해 작성하고 있어요.
 

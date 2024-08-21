@@ -3,16 +3,13 @@ title: "부가 제조를 위한 3D 스캐닝 소개"
 description: ""
 coverImage: "/assets/img/2024-05-16-AnIntroductionto3DScanningforAdditiveManufacturing_0.png"
 date: 2024-05-16 17:26
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-16-AnIntroductionto3DScanningforAdditiveManufacturing_0.png
 tag: Tech
 originalTitle: "An Introduction to 3D Scanning for Additive Manufacturing"
 link: "https://medium.com/3dprintjunction/an-introduction-to-3d-scanning-for-additive-manufacturing-f40800b498db"
 isUpdated: true
 ---
-
-
-
 
 ![3D 스캔을 통한 추가 제조에 대한 소개](/assets/img/2024-05-16-AnIntroductionto3DScanningforAdditiveManufacturing_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 3D 스캔은 정확한 표면 세부 정보까지 물체를 빠르고 경제적인 방식으로 디지털화할 수 있는 방법을 제공합니다. 이는 스캔되는 항목에 접촉이나 손상이 없는 상태로 치수와 표면을 캡처합니다. 그런 다음 이 3D 스캔 데이터는 3D 모델 파일로 시각화, 분석 또는 3D 프린팅 방법을 사용한 추가 제조와 같은 다른 디지털 3D 모델 파일과 같이 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 변형 기능은 기존 개체를 역공학하여 건축 측정 및 CAD 도면을 처음부터 만들 필요없이 복제, 수정 또는 디지턈 보관할 수 있도록 해줍니다. 3D 스캐닝은 가장 복잡한 제품 기하학에 대해서도 더 빠르고 정확한 복제 프로세스를 제공합니다.
 
@@ -30,13 +38,24 @@ isUpdated: true
 
 목차
 
-* 3D 스캐닝을 추가 제조에 사용하는 이유
-* 3D 스캐닝 프로세스는 어떻게 작동하나요?
-* 3D 스캐닝 기술과 방법 개요
-* 추가 제조를 위해 3D 스캔 활용하기
-* 3D 스캔을 이용한 주요 포인트들
+- 3D 스캐닝을 추가 제조에 사용하는 이유
+- 3D 스캐닝 프로세스는 어떻게 작동하나요?
+- 3D 스캐닝 기술과 방법 개요
+- 추가 제조를 위해 3D 스캔 활용하기
+- 3D 스캔을 이용한 주요 포인트들
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 왜 부가 제조에 3D 스캔을 사용해야 할까요?
 
@@ -49,7 +68,18 @@ isUpdated: true
 
 부가 제조 워크플로우의 강화된 성능 혜택을 고려한다면, 저렴한 스캔 툴을 통합하는 것은 쉬운 선택입니다. 모든 소스 물체가 디지털 본들로만 다루어지며, 디지털화 후에 훼손없이 재사용됩니다. 이후 엑세스 가능한 3D 인쇄용 파일 포맷을 통해 하부 공정에서 조작되거나 복제됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 3D 스캐닝 프로세스는 어떻게 작동하나요?
 
@@ -62,8 +92,18 @@ isUpdated: true
 
 다양한 3D 스캐너 장비 모드는 다양한 좌표 측정 방법으로 다양한 접근 방식을 취하지만, 핵심 스캐닝 프로세스는 물체를 정확하게 디지털화하는데 이러한 4 가지 필수 단계를 따릅니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![An Introduction to 3D Scanning for Additive Manufacturing](/assets/img/2024-05-16-AnIntroductionto3DScanningforAdditiveManufacturing_1.png)
 
@@ -73,8 +113,18 @@ The resulting digital file enables further design work including model repair, e
 
 Various approaches and types of 3D scanning hardware have emerged leveraging common technologies adapted for real-world applications. Each method comes with its own pros and cons targeting specific uses which dictate scanner type selections.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가장 일반적인 3D 스캐닝 메커니즘 범주를 간단히 소개하겠습니다. 스캐너 하드웨어 기술은 기능 세트에 영향을 줍니다. 3D 스캔 기능을 추가할 때 대부분의 고려 사항 중 하나가 되는 방법 선택:
 
@@ -87,7 +137,18 @@ Various approaches and types of 3D scanning hardware have emerged leveraging com
 
 # 가산 제조를 위해 3D 스캔 활용하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그렇다면, 3D 스캔으로 디지털화된 레플리카가 어떻게 다운스트림 프린팅이나 부가 제조용으로 변환되는지 알고 계신가요? 마지막 단계는 완료된 3D 스캔 데이터 세트를 메쉬 조작 단계를 통해 처리했습니다:
 
@@ -100,7 +161,18 @@ Various approaches and types of 3D scanning hardware have emerged leveraging com
 
 이제 저렴하고 쉽게 사용할 수 있는 스캐닝 장비 또는 서비스를 통해 물체를 디지털로 변경하여 부가 제조 재이용을 제공할 수 있습니다. 이 스캔을 통해 생산을 주도하면, CAD 모델을 처음부터 만들어야 하는 경우에 필요한 시간을 단축할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 3D 스캔을 활용하는 중요 포인트
 
@@ -113,7 +185,18 @@ Various approaches and types of 3D scanning hardware have emerged leveraging com
 
 기존 부품을 캡처하고 다음 혁신적인 이터레이션을 위해 준비된 3D 스캔을 활용해 추가 제조 빠른 프로토타입 이점을 구축하기 시작하세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-이 게시물은 원본으로 3dprintjunction.com에 게시되었습니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+이 게시물은 원본으로 3dprintjunction.com에 게시되었습니다.
 저희 작업을 지원해 주신 모든 분들께 감사드리며, 더 많은 이러한 기사를 보기 위해 3dprintjunction.com을 방문해 주시기를 부탁드립니다.

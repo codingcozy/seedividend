@@ -3,16 +3,13 @@ title: "플러터에서 위젯을 showcase 하는 방법"
 description: ""
 coverImage: "/assets/img/2024-05-27-HowtoshowcaseawidgetinFlutter_0.png"
 date: 2024-05-27 19:18
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-HowtoshowcaseawidgetinFlutter_0.png
 tag: Tech
 originalTitle: "How to showcase a widget in Flutter?"
 link: "https://medium.com/nonstopio/how-to-showcase-a-widget-in-flutter-3b0a25fac1bb"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-05-27-HowtoshowcaseawidgetinFlutter_0.png" />
 
@@ -23,7 +20,18 @@ isUpdated: true
 RenderBox 클래스를 사용하여 대상의 위치를 가져올 수 있습니다. localToGlobal 메서드를 사용하여 위젯의 위치를 얻고 `size` 속성을 사용하여 위젯의 크기를 얻습니다. 이 정보를 사용하여 해당 위젯을 중점으로 하는 사각형을 그릴 수 있습니다.
 아래 코드 스니펫을 고려해 보세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 클래스 Clipper는 CustomClipper<Path>를 확장합니다. getClip 메서드를 재정의하여 대상 위젯 주변에 사각형을 그립니다.
 대상 위젯의 위치와 크기를 인수로 사용하여 오버레이를 그릴 경로를 반환합니다. PathFillType.evenOdd를 사용하여 사각형 외부 영역을 채웁니다.
@@ -41,7 +49,18 @@ RenderBox 클래스를 사용하여 대상의 위치를 가져올 수 있습니�
 
 다른 사각형은 오버레이의 크기를 정의합니다. Offset 클래스의 & 연산자를 사용하여 offset 자체와 우측 항에서 크기를 사용하여 Rect 객체를 만듭니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 ..addRect(Offset.zero & size);
@@ -71,7 +90,18 @@ Position getOffsetAndSize(BuildContext context) {
 
 이 함수를 사용하여 대상 위젯의 위치와 크기를 가져와서 해당 주변에 오버레이를 그릴 수 있습니다. 버튼이나 다른 트리거를 사용하여 쇼케이스를 토글할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 글로벌 키를 사용하여 대상 위젯의 현재 컨텍스트를 가져옵니다. 그러나 위젯의 컨텍스트를 가져오기 위해 위젯의 컨텍스트 속성을 사용하는 등 다른 방법을 사용할 수도 있습니다.
 사용자 정의 스택을 만들어 오버레이를 표시했습니다. 이는 오버레이의 범위를 현재 페이지로 유지하고자 하는 것입니다. 페이지가 변경되면 오버레이가 사라져야 합니다. 대안으로 `Overlay` 위젯을 사용할 수도 있습니다. 이 위젯은 자재 애플리케이션에 기본 제공됩니다. 이 위젯은 MaterialApp의 오버레이 글로벌 스택에 오버레이를 삽입합니다.

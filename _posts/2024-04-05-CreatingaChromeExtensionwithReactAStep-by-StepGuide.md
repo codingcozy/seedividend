@@ -3,17 +3,13 @@ title: "리액트로 크롬 익스텐션 만들기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Creating a Chrome Extension with React A Step-by-Step Guide"
 link: "https://medium.com/@tharshita13/creating-a-chrome-extension-with-react-a-step-by-step-guide-47fe9bab24a1"
 isUpdated: true
 ---
-
-
-
-
 
 ![Creating a Chrome extension with a React app built using TypeScript and bundled with Webpack](/assets/img/CreatingaChromeExtensionwithReactAStep-by-StepGuide_0.png)
 
@@ -23,7 +19,18 @@ GitHub 저장소
 
 다소 조급한 기분인가요? 바로 GitHub 저장소로 이동하세요. 도움이 되었다면 꼭 별표를 남겨 주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - https://github.com/Harshita-mindfire/react-chrome-extension
 
@@ -33,7 +40,18 @@ GitHub 저장소
 
 게다가, 다음 도구가 필요합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 구글 크롬
 - Visual Studio Code 또는 다른 코드 편집기
@@ -48,7 +66,18 @@ npx create-react-app react-chrome-ext --template typescript
 cd react-chrome-ext
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금 필요하지 않은 파일을 삭제해 봅시다. 삭제 후에 폴더 구조가 이렇게 되도록 해보세요:
 
@@ -64,7 +93,18 @@ function App() {
 export default App;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 index.tsx를 수정하여 DOM에서 루트 요소를 생성하고 앱을 추가해봅시다.
 
@@ -100,7 +140,18 @@ rootDiv.render(
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 2: 웹팩 추가
 
@@ -112,7 +163,18 @@ npm install --save-dev webpack webpack-cli copy-webpack-plugin css-loader ts-loa
 
 웹팩 구성 업데이트
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기본적으로 create-react-app 템플릿은 Webpack 구성 파일을 제공하지 않기 때문에 직접 만들어야 합니다. 프로젝트의 루트 디렉토리에 webpack.config.js라는 새 파일을 생성하고 다음 코드를 추가해주세요:
 
@@ -184,7 +246,18 @@ function getHtmlPlugins(chunks) {
   }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 스크립트를 사용하면 npm run build 명령어를 사용하여 확장 프로그램을 빌드하거나 npm run watch 명령어를 사용하여 웹팩을 감시 모드로 실행할 수 있습니다.
 
@@ -205,7 +278,18 @@ Manifest 파일은 Chrome 확장 프로그램의 메타데이터와 권한을 �
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 매니페스트 파일은 확장 프로그램의 이름, 버전, 설명을 지정합니다. 또한 팝업 창을 정의합니다.
 
@@ -215,7 +299,18 @@ Manifest 파일은 Chrome 확장 프로그램의 메타데이터와 권한을 �
 
 ![이미지](/assets/img/CreatingaChromeExtensionwithReactAStep-by-StepGuide_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 5: 확장 프로그램 로드
 
@@ -226,6 +321,17 @@ Manifest 파일은 Chrome 확장 프로그램의 메타데이터와 권한을 �
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그게 다야! TypeScript와 Webpack을 사용하여 간단한 "Hello World" 크롬 확장 프로그램을 만들었어요. 여기서부터는 크롬 확장 프로그램 API를 탐험하고 더 복잡한 확장 프로그램을 만들어 볼 수 있어요. 제 블로그가 React로 크롬 확장 프로그램을 만들기를 시작하는 데 도움이 되었으면 좋겠어요.

@@ -3,16 +3,13 @@ title: "루비 주간 소식 126호"
 description: ""
 coverImage: "/assets/img/2024-07-12-RubyWeeklyIssue126_0.png"
 date: 2024-07-12 21:43
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-12-RubyWeeklyIssue126_0.png
 tag: Tech
 originalTitle: "Ruby Weekly Issue 126"
 link: "https://medium.com/rubyweekly/ruby-weekly-issue-126-9266638479e0"
 isUpdated: true
 ---
-
-
-
 
 환영합니다. Ruby Weekly의 126번째 이슈에 오신 것을 환영합니다. Ruby 뉴스 및 기사들을 모아놓은 무료 이메일 소식지입니다.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 Stripe, PayPal을 이용하여 일시 기부를 보내거나 Amazon 제휴 링크를 사용해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 글과 자습서
 
@@ -32,7 +40,18 @@ Stripe, PayPal을 이용하여 일시 기부를 보내거나 Amazon 제휴 링�
 
 루비 위클리를 지원하고 더 나은 기술 컨텐츠를 만들기 위해 한 번이라도 후원해 주시면 감사하겠습니다. Ko-Fi에서 일회성 또는 월간 후원이 가능합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 번성 기부를 Stripe, PayPal을 통해 하시거나 저희 아마존 제휴 링크를 이용해주세요.
 

@@ -3,16 +3,13 @@ title: "미디어 쿼리에서 CSS 색상 변수를 사용하는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-22-EngineeringCSSColorVariablesinMediaQueries_0.png"
 date: 2024-06-22 03:43
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-EngineeringCSSColorVariablesinMediaQueries_0.png
 tag: Tech
 originalTitle: "Engineering: CSS Color Variables in Media Queries"
 link: "https://medium.com/@naqvishahwar120/engineering-css-color-variables-in-media-queries-7015fcfcccd6"
 isUpdated: true
 ---
-
-
-
 
 공학 (CSS)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 - 미디어 쿼리를 사용하면 장치의 특성에 따라 너비, 높이 등을 기준으로 다른 스타일을 적용할 수 있습니다. CSS 변수와 미디어 쿼리를 결합하여 변수의 값들을 동적으로 변경하여 반응형 디자인을 만들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 예시
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 - 미디어 쿼리에 초점을 맞추면,
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 @media (min-width: 600px) {
@@ -55,7 +74,18 @@ isUpdated: true
 - 뷰포트 너비가 600px 이상일 때, --alam-bg-color 변수가 #06c0ee (라이트 블루)로 재정의됩니다.
 - 이는 body의 배경 색상이 라이트 블루로 변경됨을 의미합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 900px 이상의 미디어 쿼리:
 
@@ -66,8 +96,18 @@ isUpdated: true
 
 - 너비가 600px 미만일 경우, 배경색은 기본 alam-yellow로 설정됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image 1](/assets/img/2024-06-22-EngineeringCSSColorVariablesinMediaQueries_2.png)
 

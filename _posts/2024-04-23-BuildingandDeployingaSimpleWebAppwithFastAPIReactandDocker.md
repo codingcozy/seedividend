@@ -3,17 +3,13 @@ title: "FastAPI, React 및 Docker를 사용하여 간단한 웹사이트 만들�
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Building and Deploying a Simple Web App with FastAPI, React, and Docker"
 link: "https://medium.com/@chigwel/building-and-deploying-a-simple-web-app-with-fastapi-react-and-docker-0ff07bc78ffb"
 isUpdated: true
 ---
-
-
-
-
 
 ![Building and Deploying a Simple Web App with FastAPI, React, and Docker](/assets/img/BuildingandDeployingaSimpleWebAppwithFastAPIReactandDocker_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 plain-fastapi-react-docker 프로젝트는 백엔드 API가 FastAPI를 사용하여 구축되는 미니멀한 설정을 갖추고 있습니다. FastAPI는 표준 Python 타입 힌트를 바탕으로 하는 Python 3.7+용 현대적이고 빠른(고성능) 웹 프레임워크입니다. 프론트엔드는 React를 활용하며, 이는 사용자 인터페이스를 구축하기 위한 JavaScript 라이브러리로, 특히 싱글 페이지 애플리케이션을 구축하는 데 적합합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트 디렉토리에 대한 간단한 개요입니다:
 
@@ -36,7 +43,18 @@ plain-fastapi-react-docker 프로젝트는 백엔드 API가 FastAPI를 사용하
 
 이 프로젝트를 시작하려면 시스템에 Docker 및 Docker Compose가 설치되어 있어야 합니다. 이 도구들은 애플리케이션 구성 요소용 컨테이너를 만들고 관리하는 데 도움이 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 레포지토리를 복제하세요:
 로컬 머신에 레포지토리를 복제하는 것으로 시작합니다:
@@ -53,7 +71,18 @@ cd plain-fastapi-react-docker
 docker-compose up --build
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 명령은 docker-compose.yml에 정의된 컨테이너를 시작하고 Docker 이미지를 컴파일합니다. 실행 중에는 FastAPI 백엔드를 http://localhost:80/에서, React 프론트엔드를 http://localhost:3000/에서 사용할 수 있습니다.
 
@@ -67,7 +96,18 @@ async def greet(name: str):
     return {"message": f"Hello, {name}!"}
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 함수는 사용자의 이름으로 인사하는 새 경로를 생성합니다. 이 새 엔드포인트는 http://localhost:80/api/greet/yourname에서 액세스할 수 있습니다.
 
@@ -83,7 +123,18 @@ useEffect(() => {
 }, []);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

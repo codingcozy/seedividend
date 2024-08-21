@@ -3,17 +3,13 @@ title: "Next 13 버전에 대한 생각 정리"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Some First Thoughts on Next 13"
 link: "https://medium.com/better-programming/some-first-thoughts-on-next-13-922a6a6c5200"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/SomeFirstThoughtsonNext13_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 경력을 시작할 때 개발자를 위한 소프트웨어는 대부분 유료였어요. 베타 프로그램은 대부분 커뮤니티의 중요 멤버들에게만 제한되어 있었어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한편, 이는 새 버전이 출시되었을 때 많은 개발자들이 새로운 기능을 제대로 파악하지 못했다는 것을 의미했습니다. 다른 한편으로, 소수의 베타 테스터들은 새로운 버전을 완전히 활용할 수 있도록 테스터들을 도와줌으로써 새 버전을 개발하는 팀이 도움을 줄 수 있었습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 Angular 2는 오픈 베타 버전에서 소프트웨어를 다루는 첫 경험이었습니다. 일자리를 잃은 후, 다음 일자리를 찾는 동안 학습해야 할 기술로 Angular를 선택했습니다. 문서가 총잡한 것과 이해하기 어려운 것이 힘들었고, 예제들이 지나치게 단순하여 어떻게 더 복잡한 앱을 만들지 추론하기 어려웠습니다. AngularJS보다 더 오랜 시간이 걸렸으며, 누군가가 지불하지 않는 한 제가 만든 것에는 아무도 관심을 보이지 않았습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막으로, 다른 AngularJS 프로젝트로 고용되었고, 그 회사에서 React로 전환하는 데에 대한 보상을 받았습니다. 그때부터 Angular는 한 번도 다뤄본 적이 없네요. Angular과 씨름하기 대신 강제 휴가를 즐기면서도 똑같은 결과를 얻었을 거예요.
 
@@ -43,7 +61,18 @@ Angular 2는 오픈 베타 버전에서 소프트웨어를 다루는 첫 경험�
 
 # 기대치 설정
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 넥스트 JS 문서에는 넥스트에 대해 다음과 같이 설명되어 있습니다:
 
@@ -53,7 +82,18 @@ Angular 2는 오픈 베타 버전에서 소프트웨어를 다루는 첫 경험�
 
 요약하면, 특정 경로로 이동한 다음 이전 경로로 이동하면, 다시 이동한 경로에서 만든 변경 사항을 반영하지 않습니다 (이 문장이 이해가 안 된다면, 비디오를 보거나 그 행동을 보여주는 첨부된 곳을 보세요). 메인 경로에서 revalidate=0을 설정하거나 하위 경로에서 revalidatePath()를 호출해도 해당 변경 사항이 반영되지 않는다는 문제가 발생합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Next가 "정적 우선" 방식 때문인 것 중 일부입니다. 이에 대한 또 다른 이유는 실제로 두 개의 캐시가 있다는 것입니다: 백엔드 캐시와 프론트엔드/리액트 캐시가 있습니다. 백엔드 캐시는 페이지의 렌더링된 버전을 저장하고, 프론트엔드/리액트 캐시는 방문한 페이지의 상태를 가진 저장된 리액트 컴포넌트를 포함합니다. 뒤로 이동은 항상 "소프트" 이동으로 간주되며, 이전에 방문한 페이지에서 해당 저장된 컴포넌트를 캐시에서 끄집어내거나 새 상태를 제공하는 것과는 상관이 없습니다. 다시 말씀드리겠습니다: 항상 소프트 이동으로 간주되며, 현재 Link 컴포넌트로 강제 이동할 수 있는 방법은 없습니다. 이 프로세스를 설명한 비디오가 있습니다:
 
@@ -63,7 +103,18 @@ Next 팀이 변이가 안정화되지 않았다고 말하는 것이 이것에 �
 
 이것만으로 충분히 나쁘지만 그 외에도 여러 가지 영향을 줄 수 있는 사항이 있습니다. 예를 들어, Next가 개발 빌드를 수행할 때 최대한 많은 정적 페이지를 생성하기 위해 데이터베이스에 접근합니다(앱이 데이터베이스를 사용하는 경우 가정).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 앱을 테스트하기 위해 컨테이너화 작업 중이고 아직 데이터베이스 컨테이너가 작동하지 않는 상황이라면, 개발 빌드가 실패할 것입니다. 하지만 도커 파일 대부분은 작업 디렉토리의 모든 것을 컨테이너로 복사하기 위한 지시를 가지고 있기 때문에 화면에서 오류 메시지를 볼 수 없을 수도 있고 빌드가 실패했음을 실제로 깨닫지 못할 수도 있습니다. 그리고 .next 디렉토리에는 아마도 로컬로 앱을 dev 모드로 실행했을 때 Next가 마지막으로 빌드한 정적 파일들이 들어 있을 것입니다. 컨테이너 안에서 사이트가 실행되는 것을 보고 있으면, 주의를 기울이지 않으면 화면에서 보이는 레코드가 테스트 데이터베이스에 존재하지 않는다는 것을 깨닫지 못할 수 있습니다. 이것이 빌드가 실패한 이유인데, 사이트가 동작하고 있기 때문에 실패했다는 것을 알 수 없습니다.
 
@@ -73,7 +124,18 @@ Next 팀이 변이가 안정화되지 않았다고 말하는 것이 이것에 �
 
 제게는 데이터 상호작용이 가능한 사이트이지만 주로 정적 페이지인 사이트가 기본적인 것이 아니라, 전체 세계에서 고대하는 것은 에지 케이스로 보입니다. 워드프레스가 있는데요. 만약 이를 고대하는 수요층이 있다면, Vercel은 이를 직접적으로 더 많이 홍보하고, 이 도구가 우리에게 맞지 않을 수도 있다는 것을 분명하게 해야 합니다. 또는 최소한, 더 일반적인 앱에 사용하는 방법을 알려주어야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 인터셉팅 라우트 미로 속 토끼 구멍
 
@@ -83,7 +145,18 @@ Next 팀이 변이가 안정화되지 않았다고 말하는 것이 이것에 �
 
 나는 처음에 원하는 행동을 보여주는 예시 저장소를 찾지 못해서 더욱 답답해했습니다. 결국, 인터셉팅 라우트 문서 맨 끝에 짧은 링크를 발견했고, 이 링크는 한 개의 인터셉팅 라우트를 보여주는 저장소로 이동했지만, 더 많은 인터셉팅 라우트가 있는 경우나 다른 깊이에 인터셉팅 라우트가 있는 경우에는 어떻게 해결해야 하는지에 대한 질문에 대한 해답을 제시하지 않았습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제가 원하는 결과물에 도달하기 위해 어떤 디렉토리 구조를 사용해야 할지 알아내는 데 많은 어려움을 겪었어요 (특히 예시 레포를 찾기 전까지). 그래서 라우팅을 가로채는 필요가 없다는 것을 깨달을 때 정말 안도했어요. 하지만 아직 문서에 이 부분이 어떻게 작동해야 하는지에 대한 많은 질문이 남아 있는 것 같아요.
 
@@ -93,7 +166,18 @@ Next 팀이 변이가 안정화되지 않았다고 말하는 것이 이것에 �
 
 이것은 서버 컴포넌트의 문제를 가리키는데, 비교적 사소한 것을 위해 showModal을 Dialog 요소에서 호출하는 것과 같이 자주 JavaScript를 사용해야 한다는 점이죠. 이렇게 하면 클라이언트를 사용해야 하는 선택사항으로 나오고, HTML을 스트리밍으로 사용할 수 없게 될 정도로 자주 사용할 수 없기 때문에 그만큼의 성능 이점을 얻지 못하게 됩니다. 그렇기 때문에 명시적으로 Next에서 제공하는 그것을 끄고 남은 시간동안에 문제 해결을 해야 합니다. 이렇게 하면 성능 이점을 얻지 못하고 번거로운 작업을 해야 하는 것이죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 JavaScript를 UI의 작은 부분에 끼워 넣는 방법으로도 기술적으로는 작동하지만 개념적으로는 잘 맞지 않는데요. 그건 내가 지옥이 얼어붙을 때 해야 할 일 목록에서 상당히 밑에 있는 항목이야.
 
@@ -103,7 +187,18 @@ JavaScript를 UI의 작은 부분에 끼워 넣는 방법으로도 기술적으�
 
 경로를 가로채는 문제에 부딪혔을 때, 어떻게 디버깅해야 할지가 즉시 분명하지 않았어요. 프레임워크를 파일을 올바른 경로에 두고 기반으로 하는 것의 문제는 당신이 그렇게 했다고 생각했는데 작동하지 않을 때, 어떻게 디버깅하거나 그 문제를 해결할지 알 수 없다는 것이에요. 그리고 Discord 채널에 물어봐도 분명히 대답이 될리가 없지요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또한, 문서에는 앱 라우터를 사용할 때 문서의 앱 라우터 "쪽"에 머무르도록 조심해야 한다는 내용이 나와 있지만, 앱 라우터 쪽에서 디버깅 도움을 중복으로 제공하지는 않았습니다. 도움을 찾아보더라도 Next가 기록을 유지하는 방법이나 더 나은 로깅을 활성화하는 방법에 대한 정보는 전혀 제공하지 않습니다.
 
@@ -113,7 +208,18 @@ JavaScript를 UI의 작은 부분에 끼워 넣는 방법으로도 기술적으�
 
 ![이미지](/assets/img/SomeFirstThoughtsonNext13_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나는 정말 이상한 일들도 겪었어요. 아마도 이건 미리 릴리스된 소프트웨어이기 때문이라고 생각해요. 예를 들어, 루트 매개변수로 10을 엔드포인트에 보낼 때, 1로 변환되었어요. 이 문제를 해결하기 위해 전체 컬렉션을 가져오는 작업 엔드포인트를 사용해서 id가 10인 아이템을 얻었어요. 이것은 분명히 프로덕션 시스템에서 사용하기에는 적합하지 않아요.
 
@@ -123,7 +229,18 @@ JavaScript를 UI의 작은 부분에 끼워 넣는 방법으로도 기술적으�
 
 또한, 서버 구성 요소에서 URL 검색 매개변수(쿼리 문자열)를 가져올 수 없다는 이상한 문서화되지 않은 제한이 있어요. 이는 그들의 유용성을 더욱 제한한다는 점입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 마지막으로
 
@@ -133,7 +250,18 @@ JavaScript를 UI의 작은 부분에 끼워 넣는 방법으로도 기술적으�
 
 이번 소프트웨어 버전에는 정말 멋진 기능들이 많지만, 실제 프로젝트에서 빠른 마감 기한을 가진 상황에서 Next에서 기본적인 작업을 하는 데 필요한 추가 시간을 허용할 수 있는 상상조차 할 수 없네요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 첫 번째로 React Server Components를 지원하는 첫 번째 프레임워크이기 때문에, 다른 프레임워크가 그 지원을 추가하지 않기로 결정할 수도 있다거나 관련하여 불합리하게 비난받을 수도 있다는 걱정이 있어요. 사실 Next 외에 RSC로 인해 확실히 아는 제한은 함수를 클라이언트 구성 요소로 전달할 수 없는 방식이고, 이는 Forms의 재사용을 방해한다는 것 뿐입니다. 함수를 직렬화하는 것은 가능하지 않았기 때문에 RSC에 그것을 돌릴 수 없다는 것을 우리는 정말 그들에게 돌릴 수 없습니다.
 
@@ -143,6 +271,17 @@ JavaScript를 UI의 작은 부분에 끼워 넣는 방법으로도 기술적으�
 
 하지만 아마도 너무 걱정하고 있는 것일지 모르겠고, 아마 괜찮을 거예요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 알림: 최소 1주일 동안 무료로 제공하고, 이후에는 유료로 전환할 계획입니다.

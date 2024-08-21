@@ -3,17 +3,13 @@ title: "내 아이가 어떤 상황에 강한 반응을 하는 이유는 무엇�
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "WHY DOES MY CHILD HAVE A STRONG REACTION TO CERTAIN SITUATIONS"
 link: "https://medium.com/@evabatsarii/why-does-my-child-have-a-strong-reaction-to-certain-situations-95d12a61df3d"
 isUpdated: true
 ---
-
-
-
-
 
 ![WHYDOESMYCHILDHAVEASTRONGREACTIONTOCERTAINSITUATIONS_0](/assets/img/WHYDOESMYCHILDHAVEASTRONGREACTIONTOCERTAINSITUATIONS_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이러한 요인 외에도, 어린이의 나이와 발달 단계가 중요한 역할을 합니다. 예를 들어, 어린이들은 감정을 통제하면서 자주 분노를 폭발시킬 수 있어요. 반면에 사춘기 청소년들은 신속한 신체적 및 정서적 변화로 인해 강하게 반응할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 · 원인 파악
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 반응 뒤에 있는 이유를 이해하면, 아이가 그것들을 관리하는 데 도움이 되는 전략을 개발할 수 있습니다. 이는 정신적 회복력 강화, 이완 기법 사용 또는 소통 능력 향상 등이 포함될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 인내와 이해
 

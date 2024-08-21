@@ -3,15 +3,13 @@ title: "CSS 트릭 매끄러운 둥근 모서리와 그래디언트 테두리 �
 description: ""
 coverImage: "/assets/img/2024-07-09-CSSTricksGradientBorderswithSmooth-RoundedCorners_0.png"
 date: 2024-07-09 13:54
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-CSSTricksGradientBorderswithSmooth-RoundedCorners_0.png
 tag: Tech
 originalTitle: "CSS Tricks: Gradient Borders with Smooth-Rounded Corners"
 link: "https://medium.com/javascript-in-plain-english/css-tricks-gradient-borders-with-smooth-rounded-corners-238211094580"
 isUpdated: true
 ---
-
-
 
 <img src="/assets/img/2024-07-09-CSSTricksGradientBorderswithSmooth-RoundedCorners_0.png" />
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 ## 그라데이션 테두리 만들기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저 요소의 테두리에 그라데이션을 추가하려면 border와 border-image 속성을 사용해야 합니다. 아래는 스타일의 예시입니다:
 
@@ -31,7 +40,18 @@ isUpdated: true
 
 그러나 그라데이션 효과는 성공했지만 둥근 모서리가 없습니다. 다행히도, 그것을 추가하는 것은 간단합니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 둥근 모서리 추가
 

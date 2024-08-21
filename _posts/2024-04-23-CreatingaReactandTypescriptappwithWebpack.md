@@ -3,17 +3,13 @@ title: "Webpack을 이용해 React와 Typescript 사이트 만들기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Creating a React and Typescript app with Webpack"
 link: "https://medium.com/@arpitmalik832/creating-a-react-and-typescript-app-with-webpack-d1a97497303d"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/CreatingaReactandTypescriptappwithWebpack_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 첫 번째 단계는 간단히 Typescript를 설치하는 것입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm install typescript --save-dev
@@ -37,7 +44,18 @@ npm install @types/node @types/react @types/react-dom @types/jest --save-dev
 
 # 단계 2: 웹팩 구성하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다양한 옵션이 있지만 저희는 설정에 ts-loader를 사용할 것입니다:
 
@@ -74,7 +92,18 @@ npm install ts-loader --save-dev
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 3: TypeScript 구성하기
 
@@ -98,7 +127,18 @@ npm install ts-loader --save-dev
 
 이 튜토리얼을 위해 React + TS + Webpack 통합에 필요한 최소한의 설정만 추가했지만, 모든 옵션에 대해 자세히 알아보고 싶다면 공식 문서에서 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 4: Typescript 사용 시작하기
 

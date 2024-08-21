@@ -3,17 +3,13 @@ title: "React-Bootstrap로 React 앱 스타일링하기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How to style your React Apps with React-Bootstrap"
 link: "https://medium.com/@tcknickerbocker/how-to-style-your-react-apps-with-react-bootstrap-73a6f5f5ecea"
 isUpdated: true
 ---
-
-
-
-
 
 ![React 앱을 React-Bootstrap 스타일링으로 어떻게 만들까요?](/assets/img/HowtostyleyourReactAppswithReact-Bootstrap_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 React-Bootstrap은 React를 위한 프론트엔드 스타일링 플러그인으로, 몇 줄의 코드로 미리 스타일이 적용된 컴포넌트를 쉽게 가져와 활용할 수 있게 해줘요. React-Bootstrap의 간단하고 직관적인 라이브러리는 개발하기 쉽고 미적으로 매력적인 프로젝트를 만들 수 있도록 도와줍니다. 이 프레임워크는 많은 전통적 JavaScript 프로젝트에서 사용되는 오픈 소스 Bootstrap CSS 프레임워크의 구조를 크게 따르고 있어요. (더 많은 정보는 여기에서 전통적 Bootstrap 링크에서 확인할 수 있어요).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 설정
 
@@ -33,7 +40,18 @@ npx와 react가 설치되어 있다고 가정하면 선택한 코드 편집기 �
 
 먼저, 코드 편집기에서 새 터미널을 엽니다. 프레임워크의 기능을 테스트하기 위해 새로운 React 프로젝트를 생성해볼까요? 다음 명령을 입력하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npx create-react-app react-bootstrap-demo
@@ -48,7 +66,18 @@ npm install react-bootstrap bootstrap
 
 이 단계에서 프레임워크를 프로젝트에 실제로 가져올 수 있습니다. 'index.js' 파일을 편집하고 파일의 시작 부분에 다음을 추가하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -60,7 +89,18 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 가장 먼저, 우리의 예제 애플리케이션에는 거의 모든 웹사이트와 웹 앱에서 사용되는 컴포넌트가 추가될 것입니다: 버튼! 이 컴포넌트는 이미 표준 HTML을 통해 간단하게 통합할 수 있지만 CSS를 향상시키기 위해 전용 클래스나 ID를 추가해야 합니다. React Bootstrap을 통해 색상, 외곽선, 크기 조절을 쉽게 할 수 있으며 많은 양의 텍스트 없이 인라인으로 처리할 수 있습니다. 첫 번째 단계는 import 문입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import Button from "react-bootstrap/Button";
@@ -76,8 +116,18 @@ import Button from "react-bootstrap/Button";
 
 <img src="/assets/img/HowtostyleyourReactAppswithReact-Bootstrap_1.png" />
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앞서 언급된 변형 디자이너들은 응용프로그램에 다채로운 색상을 제공하고 있어요. 그런데 만약 버튼의 외곽선만을 원하고, 마우스가 호버되었을 때 색상이 나타나게 하고 싶다면 어떨까요? 이는 변형 유형을 'outline'로 수정하여 다음과 같이 구현할 수 있어요:
 
@@ -91,7 +141,18 @@ import Button from "react-bootstrap/Button";
 
 가장 최근에 클릭된 것을 나타내는 버튼 세트가 필요하다면 어떨까요? React 상태와 라디오 버튼을 사용하여 이를 수행할 수 있어요. 이를 위해 몇 가지 추가적인 import 문이 필요합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import Button from "react-bootstrap/Button";
@@ -114,7 +175,18 @@ const radios = [
 
 radioValue와 setRadioValue를 사용하여 각 버튼의 값을 추적하고 필요할 때 변경할 수 있습니다. radios 변수를 사용하여 다음 예제에서 각 버튼을 매핑할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <ButtonGroup>
@@ -141,7 +213,18 @@ radioValue와 setRadioValue를 사용하여 각 버튼의 값을 추적하고 �
 
 좋아요! 이제 첫 번째 컴포넌트를 실용적인 애플리케이션에 통합해 봅시다. 전통적인 HTML 폼 컨테이너는 사용자 데이터를 수집하고 정보를 서버로 보내는 데 여러 가지 요소를 포함합니다. React Bootstrap 폼도 약간의 구문 조정을 통해 거의 동일하게 작동합니다. 시작하려면 다음과 같이 추가 컴포넌트 클래스를 가져와야 합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import Form from "react-bootstrap/Form";
@@ -155,16 +238,25 @@ import Form from "react-bootstrap/Form";
 
 이것은 사용자의 텍스트 입력 필드, 버튼 및 드롭다운 메뉴와 같은 모든 요소를 보유할 것입니다. 다음으로, 단일 텍스트 입력란과 폼을 제출하는 버튼을 추가할 것입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <Form>
   <Form.Group controlId="formBasicName">
     <Form.Label>이름을 입력하세요:</Form.Label>
     <Form.Control type="text" placeholder="여기에 이름을 입력해주세요" />
-    <Form.Text className="text-muted">
-      여기에 어떤 면책 조항 텍스트를 넣어주세요!
-    </Form.Text>
+    <Form.Text className="text-muted">여기에 어떤 면책 조항 텍스트를 넣어주세요!</Form.Text>
   </Form.Group>
   <Button variant="primary" type="submit">
     제출
@@ -182,9 +274,7 @@ import Form from "react-bootstrap/Form";
     <Form.Group controlId="formBasicName">
       <Form.Label>이름을 입력하세요:</Form.Label>
       <Form.Control type="text" placeholder="여기에 이름을 입력해주세요" />
-      <Form.Text className="text-muted">
-        여기에 어떤 면책 조항 텍스트를 넣어주세요!
-      </Form.Text>
+      <Form.Text className="text-muted">여기에 어떤 면책 조항 텍스트를 넣어주세요!</Form.Text>
     </Form.Group>
   </fieldset>
   <Button variant="primary" type="submit">
@@ -193,7 +283,18 @@ import Form from "react-bootstrap/Form";
 </Form>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/HowtostyleyourReactAppswithReact-Bootstrap_5.png" />
 
@@ -203,7 +304,18 @@ import Form from "react-bootstrap/Form";
 
 이 새로운 컴포넌트를 더 잘 구성하기 위해 독립적인 .jsx 파일로 분리하는 것이 좋아요. 저희는 이를 'Carousel.jsx'로 간단히 명명하고 CSS 파일인 'Carousel.module.css'에서 추가 스타일링 규칙을 가져왔어요. React Bootstrap으로부터의 모든 컴포넌트와 마찬가지로 첫 번째 단계는 이를 import 하는 것이에요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import Carousel from "react-bootstrap/Carousel";
@@ -217,7 +329,18 @@ import Carousel from "react-bootstrap/Carousel";
 
 캐러셀에 "슬라이드"를 추가하려면 `Carousel.Item` 태그를 추가해야 합니다. 일반적으로 이 안에 이미지 및 이미지 위에 배치할 텍스트 두 부분이 포함됩니다. 아이템 내에 `img` 태그와 `Carousel.Caption` 태그를 추가하여 첫 번째 슬라이드를 만드세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <카루셀>
@@ -240,7 +363,18 @@ import Carousel from "react-bootstrap/Carousel";
 
 코드 스니펫의 캡션 태그에 나타나는 것처럼 헤더 및 서브헤더 텍스트에 여러 가지 변형을 추가하여 추가할 수 있습니다. 이 예제는 태그를 새로운 구성 요소로 래핑하여 웹 앱에 세련된 기능을 추가할 때 React Bootstrap이 제공하는 간단함을 입증합니다. 이제 프레임워크에서 더 복잡한 기능을 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 'Navbar' 구성요소
 
@@ -255,7 +389,18 @@ import { Link } from "react-router-dom";
 
 이를 통해 각 항목이 다른 페이지나 구성 요소로 이동하는 클릭 가능한 링크가 되는 내비게이션 바를 쉽게 만들 수 있습니다. 이 내비게이션 바를 앱 전체에서 공유하려면 이를 별도의 React 파일에 중첩시켜야 합니다 ('Navbar.jsx' 파일이 우리의 것입니다). 여기서 "react-router-dom" 패키지를 사용하고 있는데, 이를 통해 사용자가 Link 구성 요소를 클릭하고 페이지 일부가 새로 고쳐지는 동안 페이지를 다시로드하지 않을 수 있습니다. 패키지의 전체 구성을 보려면 설명서나 src 폴더의 index.js 및 App.js를 참고하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내비게이션 바에 표시할 모든 항목은 다음과 같이 `Navbar` 컴포넌트 내에 중첩되어야 합니다:
 
@@ -267,7 +412,18 @@ import { Link } from "react-router-dom";
 
 간단하게 시작해서 내비게이션 바에 링크를 구현해 보겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <Navbar expand="lg" className="bg-body-tertiary" sticky="top">
@@ -290,7 +446,18 @@ import { Link } from "react-router-dom";
 
 이러한 항목들을 함께 사용하여 사용자 정의 내비게이션 바를 만들어보겠습니다. 앱의 브랜드, 간단한 링크, 링크가 포함된 드롭다운 메뉴 및 검색 기능으로 작동하는 폼 요소를 표시할 것입니다. 먼저 일부 추가로 가져와야 할 구성 요소가 필요합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import NavDropdown from 'react-bootstrap/NavDropdown';
@@ -346,7 +513,18 @@ import Col from 'react-bootstrap/Col';
 
 처음에는 복잡해 보일 수 있지만, 개별 항목 기능과 링크로 분해하면 이것이 어떻게 출력되는지 이해하는 데 도움이 됩니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/HowtostyleyourReactAppswithReact-Bootstrap_8.png" />
 
@@ -356,7 +534,18 @@ import Col from 'react-bootstrap/Col';
 
 # 페이지에 '진행 표시 막대' 구현하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 사이트에 매력적인 추가 사례로 더 엄밀한 예제를 살펴보겠습니다. 이를 위해 프레임워크 내에서 프로그래스 바 구성 요소를 살펴볼 것입니다. 이전 컴포넌트 가져오기와 동일하게, 문서 상단에 다음을 추가해야 합니다:
 
@@ -372,7 +561,18 @@ const scrollPos = 50;
 return <ProgressBar className={styles.progressBar} now={scrollPos} animated />;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/HowtostyleyourReactAppswithReact-Bootstrap_9.png" />
 
@@ -389,7 +589,18 @@ return <ProgressBar className={styles.progressBar} now={scrollPos} animated />;
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로, 주어진 웹페이지의 스크롤 위치를 기반으로 이벤트 리스너를 설정하기 위해 일반 리액트의 ‘useEffect’ 훅을 활용할 것입니다. 이제 import 문은 다음과 같이 수정되어야 합니다:
 
@@ -406,7 +617,18 @@ const [y, setY] = useState(window.scrollY);
 const [scrollPos, setScrollPos] = useState();
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마침내 프로그래스 바 내의 값 변경을 위해 useEffect() 함수를 'scroll' 작업을 기반으로 구현해야 합니다. 아래와 같이 약간 복잡합니다:
 
@@ -435,7 +657,18 @@ const [scrollPos, setScrollPos] = useState();
 
 <img src="/assets/img/HowtostyleyourReactAppswithReact-Bootstrap_10.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/HowtostyleyourReactAppswithReact-Bootstrap_11.png" />
 
@@ -445,7 +678,18 @@ csci5117s24/the-flask-fusion-force-tech-share (github.com)
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전에 표시된 예제들은 React Bootstrap 프레임워크의 일부 기본 기능을 보여주기 위해 제공되었습니다. 일반적으로, 이 프레임워크는 개발자가 명시적인 CSS로 작성해야 하는 번거로운 작업을 통합하여 웹 응용 프로그램에 아름다운 구성 요소를 통합할 수 있도록 합니다. 이러한 기능은 웹 응용 프로그램에서 스타일링 구성 요소를 활용하는 데 훨씬 간편함을 제공하지만 전체 앱을 빌드하는 데 이르지는 않습니다. 이제부터는 기능성 웹 앱을 만들기 위해 다른 기사들과 웹 개발 기술을 알아보는 시간을 할애해야 합니다. 이 글의 마지막에는 사용자 경험을 향상시키고 주어진 애플리케이션을 유지하는 데 권장되는 기술 목록이 포함될 것입니다.
 
@@ -455,6 +699,17 @@ React-Bootstrap 메인 웹사이트: https://react-bootstrap.netlify.app/
 
 React 라우터 기능: https://reactrouter.com/en/main/start/tutorial
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 부가적인 리액트 부트스트랩 컴포넌트: [https://react-bootstrap.netlify.app/docs/components/accordion/](https://react-bootstrap.netlify.app/docs/components/accordion/)

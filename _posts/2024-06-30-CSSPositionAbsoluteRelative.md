@@ -3,16 +3,13 @@ title: "CSS Position  Absolute와 Relative 비교 올바르게 사용하는 방�
 description: ""
 coverImage: "/assets/img/2024-06-30-CSSPositionAbsoluteRelative_0.png"
 date: 2024-06-30 18:37
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-30-CSSPositionAbsoluteRelative_0.png
 tag: Tech
 originalTitle: "CSS Position — Absolute , Relative"
 link: "https://medium.com/@sonikamaheshwari067/css-position-arelative-564c1eaed407"
 isUpdated: true
 ---
-
-
-
 
 # 위치: 상대적(relative);
 
@@ -52,7 +49,18 @@ isUpdated: true
 
 # 위치: 절대적(absolute);
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 절대 위치로 요소를 배치하면 이 요소는 가장 가까운 위치 지정된 조상에 대해 배치됩니다 (즉, 정적이 아닌 위치를 가진 가장 가까운 조상). 이러한 조상이 없는 경우 초기 포함 블록에 대해 배치됩니다 (일반적으로 뷰포트).
 
@@ -155,7 +163,18 @@ isUpdated: true
 </html>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 읽어 주셔서 감사합니다
 
@@ -165,7 +184,18 @@ isUpdated: true
 
 📰 코딩 및 디자인 라운드 인터뷰에 대한 더 많은 콘텐츠 보기 - https://sonikamaheshwari067.medium.com/
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 🔔 Follow me on LinkedIn! — [https://www.linkedin.com/in/sonika-maheshwari-81542220/](https://www.linkedin.com/in/sonika-maheshwari-81542220/)
 

@@ -3,17 +3,13 @@ title: "GPT-4o가 정말 엔드투엔드 멀티모달 모델인가요 공포, �
 description: ""
 coverImage: "/assets/img/2024-05-16-TerrifiedMortifiedPetrifiedIsGPT-4oTrulyanEnd-to-EndMulti-ModalModel_0.png"
 date: 2024-05-16 17:36
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-16-TerrifiedMortifiedPetrifiedIsGPT-4oTrulyanEnd-to-EndMulti-ModalModel_0.png
 tag: Tech
 originalTitle: "Terrified, Mortified, Petrified: Is GPT-4o Truly an End-to-End Multi-Modal Model?"
 link: "https://medium.com/@sergioli/terrified-mortified-petrified-is-gpt-4o-truly-an-end-to-end-multi-modal-model-fe2ab3b934f2"
 isUpdated: true
 ---
-
-
-
-
 
 ![GPT-4 Omni](/assets/img/2024-05-16-TerrifiedMortifiedPetrifiedIsGPT-4oTrulyanEnd-to-EndMulti-ModalModel_0.png)
 
@@ -23,14 +19,35 @@ OpenAI가 강력하고 다재다능한 AI 모델인 GPT-4 옴니를 소개했습
 
 엔드 투 엔드 모델 이해하기: 머신 러닝에서 "엔드 투 엔드"란 작업을 분리되지 않고 단일하고 일관된 프로세스에서 시작부터 끝까지 수행하는 모델을 가리킵니다. 그러나 GPT-4 옴니는 전달 방식을 사용하여 각각 다른 유형의 데이터 및 작업을 독립적으로 처리하는 전문 컴포넌트를 포함합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지켜보면서도 놀라운 발전을 지켜봤어요. 태스크에 특화된 NLP 모델에서부터 BERT와 GPT-3 같은 조기 단계의 사전 훈련된 LLM까지, 마침내 일반적이고 생산적인 ChatGPT로 이어졌습니다. 이러한 모델들은 세상의 지식, 상식적 지식, 심지어 도메인 특정 지식과 추론을 표현하는 데 놀라운 능력을 보여주었답니다. 이러한 발전에도 불구하고 연구자들은 여전히 이러한 신생 능력을 설명할 수 있는 탄탄한 이론을 개발하는 데 어려움을 겪고 있습니다.
 
 텍스트 전용 modalities에서의 종단 간 훈련에 대한 확장 법칙은 어느 정도 이해하기 쉽습니다. 그러나 다중 모달 데이터에 대해 단일 신경망을 최적화하는 종단 간 방식은 정말 놀라운 것이죠. 많은 질문이 떠오르는데요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 서로 다른 데이터 모달리티를 어떻게 정렬할까요? 각 모달리티(텍스트, 비전, 오디오)는 고유한 특성과 표현 요구사항이 있습니다. 이를 하나의 모델에 정렬하는 것은 복잡한 도전입니다.
 - 최적의 학습 매개변수: 각 모달리티가 자체 최적의 학습률, 손실 함수 및 훈련 일정이 필요할까요? 이러한 매개변수를 한 모델에서 균형있게 맞추는 것은 매우 어려울 수 있습니다.
@@ -42,7 +59,18 @@ End-to-End인가 아닌가? 다중 모달 데이터에서 GPT-4o를 훈련하는
 
 ![이미지2](/assets/img/2024-05-16-TerrifiedMortifiedPetrifiedIsGPT-4oTrulyanEnd-to-EndMulti-ModalModel_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 📝 참고: GPT-4o에서 자체적으로 엔드 투 엔드 훈련을 거부하고 다단계 파이프라인을 주장한 후 질문을 한 것으로, 제 개인적인 편견을 피하기 위해 정확한 정보를 확인하려고 노력했습니다.
 
@@ -52,7 +80,18 @@ GPT-4o와의 대화를 통해 "모듈식" 및 "분리된" 구성 요소에 대�
 
 GPT-4 Omni은 다양한 유형의 입력과 출력을 수용하고 생성할 수 있는 능력을 가지지만, 엔드 투 엔드 구조 대신 모듈식 접근 방식을 따릅니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 비텍스트 입력은 처리되기 전에 먼저 텍스트로 변환되어야 합니다: GPT-4 Omni의 핵심은 GPT-4 언어 모델이며, 이 모델은 텍스트 입력을 처리하고 텍스트 응답을 생성합니다. 이 모델은 방대한 텍스트 데이터 코퍼스에서 훈련되어 제공된 문맥을 기반으로 인간과 유사한 텍스트를 이해하고 생성할 수 있습니다.
 
@@ -64,6 +103,17 @@ GPT-4 Omni은 다양한 유형의 입력과 출력을 수용하고 생성할 수
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 GPT-4o의 기술 세부 정보가 공개되길 열심히 기다리고 있습니다. 멀티모달 모델에 대해 전문가가 아니기 때문에 더 알아보기 위해 계획 중입니다. 저와 같이 인간과 비슷한 지능을 모방하려는 연구자들에게 이 정보가 큰 영향을 줄 것으로 믿습니다.

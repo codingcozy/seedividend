@@ -3,17 +3,13 @@ title: "Nextjs 14 defaultjs 파일이란"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # Nextjs 14 default.js 파일이란
 
@@ -23,7 +19,18 @@ default.js 파일은 Next.js가 전체 페이지 로드 후 슬롯의 활성 상
 
 다음 폴더 구조를 참조하십시오. @team 슬롯에는 설정 페이지가 있지만 @analytics에는 없습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/default.js_0.png" />
 
@@ -33,7 +40,18 @@ default.js 파일은 Next.js가 전체 페이지 로드 후 슬롯의 활성 상
 
 추가로, children이 암시적 슬롯인 경우에도 Next.js가 부모 페이지의 활성 상태를 복구할 수 없을 때 children을 대체할 default.js 파일을 만들어야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 속성
 
@@ -46,4 +64,15 @@ default.js 파일은 Next.js가 전체 페이지 로드 후 슬롯의 활성 상
 | app/@sidebar/[artist]/default.js         | /zack      | { artist: 'zack' }                |
 | app/@sidebar/[artist]/[album]/default.js | /zack/next | { artist: 'zack', album: 'next' } |
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

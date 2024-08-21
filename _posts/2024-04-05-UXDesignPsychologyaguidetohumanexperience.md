@@ -3,17 +3,13 @@ title: "사용자 경험 디자인 심리학"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "UX Design Psychology  a guide to human experience"
 link: "https://medium.com/design-bootcamp/ux-design-psychology-a-guide-to-human-experience-ee01f878c876"
 isUpdated: true
 ---
-
-
-
-
 
 안녕하세요! 제 이름은 아미르입니다. 제품 디자이너로서 전 세계의 훌륭한 디자이너들인 Dieter Rams, Don Norman, Johny Ive, 스티브 잡스와 같은 분들로부터 가치 있는 교훈을 많이 얻었습니다. 트렌드, 현대적인 방법 및 데이터 분석에 대해 알고 있지만 디자인의 핵심 요소는 종종 잊혀지곤 합니다. 그것은 인간 경험에 대해 전부입니다.
 
@@ -23,13 +19,35 @@ isUpdated: true
 
 UX라는 용어는 종종 오해를 받지만, 고안한 Don Norman이 설명한 것처럼, 사람들이 실제로 물건을 경험하는 방법을 이해하는 것에 관한 것입니다. 여기서 심리학이 가장 유용합니다. 요약하면, 보다 인간적인 제품일수록 사용하기 즐겁습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 명확하게 하기 위해 우리는 디자인할 때 알아야 하는 몇 가지 핵심 심리학 용어를 살펴보겠습니다.
 
 ## 힉의 법칙
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 힉의 법칙은 심리학과 디자인에서의 원칙으로, 개인이 결정을 하는 데 걸리는 시간이 선택지 또는 자극의 수와 함께 증가한다는 것을 시사합니다. 이 법칙은 결정을 내리는 효율성을 높이기 위해 선택을 단순화하고 디자인의 복잡성을 줄이는 중요성을 강조합니다.
 
@@ -39,7 +57,18 @@ UX라는 용어는 종종 오해를 받지만, 고안한 Don Norman이 설명한
 
 # 확인 편향
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/UXDesignPsychologyaguidetohumanexperience_2.png" />
 
@@ -49,7 +78,18 @@ UX라는 용어는 종종 오해를 받지만, 고안한 Don Norman이 설명한
 
 ## 예시
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/UXDesignPsychologyaguidetohumanexperience_3.png" />
 
@@ -59,7 +99,18 @@ UX라는 용어는 종종 오해를 받지만, 고안한 Don Norman이 설명한
 
 ## 의미
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프라이밍은 심리학적 현상으로, 한 자극에 노출되는 것이 후속 자극에 대한 사람의 응답에 영향을 미치는 것을 말합니다. 이 효과는 종종 의식하지 않은 채로 발생하는데, 인식, 판단 및 행동에 영향을 미치며, 이전 경험과 자극이 우리의 생각과 행동을 형성하는 미묘한 방식을 보여줍니다.
 
@@ -69,7 +120,18 @@ UX라는 용어는 종종 오해를 받지만, 고안한 Don Norman이 설명한
 
 # 인지 부하
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/UXDesignPsychologyaguidetohumanexperience_6.png" />
 
@@ -79,7 +141,18 @@ UX라는 용어는 종종 오해를 받지만, 고안한 Don Norman이 설명한
 
 ## 예제
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/UXDesignPsychologyaguidetohumanexperience_7.png" />
 
@@ -89,6 +162,17 @@ UX라는 용어는 종종 오해를 받지만, 고안한 Don Norman이 설명한
 
 ## 100가지 이상의 UX 심리학 원리에 대해:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시그마 UX 핸드북

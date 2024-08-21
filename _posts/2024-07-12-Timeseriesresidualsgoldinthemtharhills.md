@@ -3,16 +3,13 @@ title: "시계열 잔차 분석 숨겨진 가치를 찾아라"
 description: ""
 coverImage: "/assets/img/2024-07-12-Timeseriesresidualsgoldinthemtharhills_0.png"
 date: 2024-07-12 19:36
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-12-Timeseriesresidualsgoldinthemtharhills_0.png
 tag: Tech
 originalTitle: "Time series residuals: gold in them thar hills"
 link: "https://medium.com/python-in-plain-english/time-series-residuals-gold-in-them-thar-hills-387faa9b85b0"
 isUpdated: true
 ---
-
-
-
 
 ![2024-07-12-Timeseriesresidualsgoldinthemtharhills_0.png](/assets/img/2024-07-12-Timeseriesresidualsgoldinthemtharhills_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 모델 잔차는 모델에서 "남는 부분"으로 생각할 수 있습니다. 이론적으로 좋은 모델의 잔차는 '좋은' 모델이 모든 진짜 신호를 잡았기 때문에 무작위 잡음에 불과할 것입니다. 그러나 현실적으로 이는 항상 그렇지 않으며, 잔차는 모델 개선을 위한 통찰력을 제공할 수 있습니다. 일반적으로 인기 있는 그래디언트 부스팅 트리 모델인 XGBoost와 LightGBM은 이를 수행하여 더 나은 모델을 구축합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오늘은 시계열 잔차가 어떻게 우리가 더 나은 예측 모델을 만드는 데 도움이 되는지 살펴볼 거에요.
 
@@ -34,7 +42,18 @@ isUpdated: true
 
 추가 정보: 제가 사용하는 용어나 개념에 어색하거나 조금 녹슬었다면 아래 링크된 지원 문서들을 참고해보세요. 즐거운 독해되세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 데이터
 
@@ -44,7 +63,18 @@ isUpdated: true
 
 일부 중요한 점들이 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 데이터에서 명백한 추세가 나타나고 있습니다. 1979년부터 2000년까지는 일반적인 하향 추세가 시작되기 전에 시리즈가 상당히 안정적인 것으로 보입니다. 게다가, 2014년쯤에 하향 추세 속도 변화가 보이네요.
 - 데이터에서 규칙적이고 주기적인 변동을 주목해보세요 — 강력한 계절성의 명백한 증거가 있습니다; 간단하게 말해서, 매년 1월마다 사고가 줄어드는 효과와 같이 특정 효과가 일정 주기로 반복된다는 것을 알 수 있어요.
@@ -57,7 +87,18 @@ isUpdated: true
 
 작은 모델을 구축하고 모델 맞춤 및 모델 잔차를 그래픽으로 표시하기 위한 함수를 만들어 보죠. 아래와 같은 형태를 가집니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 def fit_and_visualise_model(
@@ -114,13 +155,35 @@ def fit_and_visualise_model(
 
 시계열 데이터의 추세만을 포착하는 모델을 구축해보겠어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래의 차트는 우리가 원하는 것과 정확히 일치하는 것처럼 보이는데요. 하지만 시계열 데이터에는 상당한 계절성이 있고, 모델에 전혀 고려하지 않았기 때문에 실제로 그런지 알 수 없습니다. 모델 residual을 더 자세히 살펴보겠습니다. 지난 5년 동안의 정보를 확대해서 살펴보겠습니다:
 
 ![image](/assets/img/2024-07-12-Timeseriesresidualsgoldinthemtharhills_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 잔차에서 파도 모양 패턴을 눈치채셨나요? 패턴이 규칙적이고 주기적임을 볼 수 있으며, 무작위 변동이 몇 개 있는 것을 빼면요. 이것이 모델에서 포착되지 않는 계절성 신호입니다. 더 나은 모델은 이 계절성을 포착해 틈을 메울 것입니다.
 
@@ -130,7 +193,18 @@ def fit_and_visualise_model(
 
 ![image](/assets/img/2024-07-12-Timeseriesresidualsgoldinthemtharhills_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가장 강력한 계절 모델은 아니지만, 훈련 기간 끝에서 예측이 조금 엉뚱해 보이는 점을 무시한다면, 모델이 일반적으로 반복적인 계절 효과를 잘 포착한다는 것을 볼 수 있습니다.
 
@@ -140,8 +214,18 @@ def fit_and_visualise_model(
 
 이제 이를 마저 처리하고, 추세 및 계절성 효과를 모두 포함한 모델을 적합해 봅시다. 우리가 예상한 대로 결과 (그리고 잔차)가 훨씬 더 잘 작동하여, 이 모델이 데이터에서 진짜 신호를 더 많이 포착했다는 것을 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![그래프](/assets/img/2024-07-12-Timeseriesresidualsgoldinthemtharhills_5.png)
 
@@ -151,8 +235,18 @@ def fit_and_visualise_model(
 
 # 감싸고 어슬렁어슬렁
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자세한 내용을 이야기하기 전에 간단히 요약해 볼까요?
 
@@ -162,7 +256,18 @@ def fit_and_visualise_model(
 
 시계열에서 계절성을 캡처하지 못한 경향 모델이 어떻게 실패했는지, 그리고 이 결점이 모델 잔차에서 파형 신호로 나타났는지 보았습니다. 반면에 계절성 전용 모델은 잔차에서 명확한 추세를 보여주었습니다. 그리고 추세와 계절성 모델은 성능이 좋게 향상되었지만 아직 개선할 여지가 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## "좋은" 모델의 잔차는 어떻게 보이나요?
 
@@ -172,7 +277,18 @@ def fit_and_visualise_model(
 
 ## 시계열 모델을 위한 피처 엔지니어링
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 위에 언급된 각 모델이 어떻게 구축되었는지 대략적으로 살펴봤어요. 이 내용은 다른 글에서 자세히 다루었지만, 비밀은 간단해요: Lasso 모델에 입력하는 피처를 변경하세요. 계절성만 고려한 모델이 필요하다면, 회귀 모델에 계절성 피처만 사용하세요. 트렌드만 고려한 모델도 동일한 방법이 적용돼요.
 
@@ -182,7 +298,18 @@ def fit_and_visualise_model(
 
 여기까지! 이 글까지 읽어주셔서 감사합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 이 글을 즐겼고 제 더 많은 이야기들을 보고 싶다면, 여기를 한 번 봐주세요:
 
@@ -196,7 +323,18 @@ def fit_and_visualise_model(
 - [False Prophet: 시계열 회귀 모델 | Towards Data Science](https://github.com/)는 이 글에서 사용된 모델 구조와 유사한 회귀 모델에 대한 자세한 내용을 다룹니다.
 - 동분산성 및 이분산성 — 위키백과
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 친절한 한국어 번역 🚀
 

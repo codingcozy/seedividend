@@ -3,16 +3,13 @@ title: "Java 마이크로서비스 탐구 ZEALOUS TECH CORP 인턴십 경험기"
 description: ""
 coverImage: "/allround-coder.github.io/assets/no-image.jpg"
 date: 2024-07-09 09:29
-ogImage: 
+ogImage:
   url: /allround-coder.github.io/assets/no-image.jpg
 tag: Tech
 originalTitle: "Exploring Java Microservices: My Internship Journey at ZEALOUS TECH CORP"
 link: "https://medium.com/@bharathiselvakumar286/exploring-java-microservices-my-internship-journey-at-zealous-tech-corp-caa5d44c9891"
 isUpdated: true
 ---
-
-
-
 
 # 소개
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 개발 환경을 설정하는 것이 첫 번째 과제였는데, 여러 중요한 단계가 뒤따랐습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1. JVM 설치하기: Java Virtual Machine (JVM)은 Java 애플리케이션을 실행하는 데 필수적입니다. 제가 다양한 운영 체제에 다운로드하고 설치하는 방법을 배웠어요. 공식 Java 웹사이트에서 안내에 따라 진행하면 굉장히 간단해요.
 
@@ -34,7 +42,18 @@ Java 기초: 변수와 데이터 유형
 
 변수: Java에서 변수는 데이터 값을 보관하는 컨테이너와 같아요. `int`(정수용), `float`(부동 소수점 숫자용), `String`(텍스트용)과 같은 다양한 유형의 변수에 대해 배웠어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터 유형: 데이터 유형은 변수가 어떤 종류의 데이터를 보유할 수 있는지를 지정합니다. 자바에는 `byte`, `short`, `int`, `long`, `float`, `double`, `char`, 그리고 `boolean`과 같은 여러 가지 기본 데이터 유형이 있습니다.
 
@@ -46,7 +65,18 @@ OOP를 이해하는 것은 제게 큰 전환점이었습니다. 여기에 주요
 
 2. 상속: 상속은 한 클래스가 다른 클래스로부터 필드와 메소드를 상속받아 코드를 재사용하기 쉽게 만듭니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. 다형성: 이 개념은 하나의 인터페이스를 일반적인 작업 클래스로 사용할 수 있도록 합니다. 구체적인 동작은 상황의 정확한 성격에 따라 달라집니다.
 
@@ -56,7 +86,18 @@ OOP를 이해하는 것은 제게 큰 전환점이었습니다. 여기에 주요
 
 Control Flow:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제어 흐름 문장을 사용하면 코드에서 결정을 내릴 수 있어요:
 
@@ -66,7 +107,18 @@ Control Flow:
 
 배열은 여러 값들을 단일 변수에 저장하는 데 굉장히 유용해요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자바에서 배열은 기본 데이터 구조입니다. 배열을 사용하는 방법을 배우는 데 많은 시간을 소비했습니다. 배열을 초기화하는 방법, 요소에 접근하는 방법, 정렬 및 검색과 같은 다양한 작업을 수행하는 방법을 배웠습니다. 배열을 숙달하는 것은 자바에서 데이터 컬렉션을 효율적으로 처리하는 데 중요합니다.
 
@@ -77,13 +129,24 @@ import java.util.Scanner;
 
 /////////////////////// for-each 루프////////////////////////////////////////////////////////////////////
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 클래스 Insert {
     public void InsertArray() {
         String[] id = {"EvilJack", "DevilCrime", "kingJD", "KingOfDevil"};
-        
+
         for(String new_id : id) {
             System.out.println("newID: " + new_id);
         }
@@ -102,9 +165,20 @@ import java.util.Scanner;
         }
     }
 }
-```  
+```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 class TOstring extends Forloop {
@@ -131,18 +205,29 @@ class SCanner extends TOstring {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 class Update extends Scanner {
-    public void update() {
-        String[] names = {"EJ", "DevilCrime", "kingJD", "KingOfDevil"};
-        Scanner scan = new Scanner(System.in);
-        
+public void update() {
+String[] names = {"EJ", "DevilCrime", "kingJD", "KingOfDevil"};
+Scanner scan = new Scanner(System.in);
+
         System.out.println(Arrays.toString(names));
         System.out.println("Enter the position or index which you want to update: ");
         int index = scan.nextInt();
         scan.nextLine();
-        
+
         System.out.println("Enter the name you want to update to:");
         String new_name = scan.nextLine();
 
@@ -153,9 +238,21 @@ class Update extends Scanner {
         System.out.println("Enter the name you want to search:");
         String search_name = scan.nextLine();
     }
+
 }
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 String[] Name = {"John", "Alice", "Bob", "Eve"};
@@ -170,6 +267,7 @@ System.out.println("The name "+Search_name+" is not found");
 ```
 
 `passing_array` 클래스는 파라미터로 배열 데이터를 전달하는 데 사용됩니다.
+
 ```java
 import java.util.Arrays;
 
@@ -187,6 +285,7 @@ class PassingArray {
 ```
 
 `array` 클래스:
+
 ```java
 public class Array {
     public static void main(String[] args) {
@@ -197,7 +296,18 @@ public class Array {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 ////////////
@@ -214,7 +324,18 @@ obj1.Passing_array(id_ff);
 자바 뿐만 아니라 SQL에 대해 공부한 적이 있습니다. SQL 쿼리 작성, 조인 이해 및 SQL에서 코드 주석 작성 방법을 배웠습니다. 이러한 기술은 많은 애플리케이션의 중요한 구성 요소인 데이터베이스와 상호 작용하는 데 중요합니다.
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앞으로 다가올 것을 기대하며, 인턴십에서 저는 Java Spring Boot에 대해 배우게 될 예정에 흥분하고 있어요. Spring Boot는 Java 기반 백엔드 응용 프로그램을 구축하는 데 사용되는 프레임워크입니다. 이를 습득하는 것은 백엔드 개발자로서 나아가는 내 여정에서 중요한 한걸음일 것입니다.
 

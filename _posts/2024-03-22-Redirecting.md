@@ -3,17 +3,13 @@ title: "Nextjs 13 Redirecting 사용 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # 리다이렉팅
 
@@ -27,7 +23,18 @@ Next.js에서 리다이렉트하는 여러 가지 방법이 있습니다. 이 �
 
 ## useRouter() 훅
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컴포넌트 내에서 리디렉션해야 하는 경우 useRouter 훅의 push 메서드를 사용할 수 있어요. 예를 들어:
 
@@ -50,7 +57,18 @@ export default function Page() {
 
 추가 정보는 useRouter API 레퍼런스를 확인해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## next.config.js에서의 리다이렉트
 
@@ -60,7 +78,18 @@ next.config.js 파일의 리다이렉트 옵션을 사용하면 들어오는 요
 
 리다이렉트를 사용하려면 next.config.js 파일에 옵션을 추가하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 module.exports = {
@@ -92,7 +121,18 @@ module.exports = {
 
 ## Middleware에서의 NextResponse.redirect
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 미들웨어는 요청이 완료되기 전에 코드를 실행할 수 있게 해줍니다. 그런 다음 수신된 요청을 기반으로 NextResponse.redirect를 사용하여 다른 URL로 리다이렉트할 수 있습니다. 이것은 조건에 따라 사용자를 리디렉션하거나(예: 인증, 세션 관리 등) 또는 많은 수의 리디렉션을 가지고 있는 경우 유용합니다.
 
@@ -122,7 +162,18 @@ export const config = {
 > 알아두면 좋은 사항:
 > 미들웨어는 next.config.js에서 리디렉트 후에 실행되며 렌더링 전에 실행됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 미들웨어 문서에서 더 많은 정보를 확인해보세요.
 
@@ -132,7 +183,18 @@ export const config = {
 
 이를 수행하려면, 다음을 고려해야 합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 리디렉트 맵을 만들고 저장하기.
 - 데이터 조회 성능 최적화.
@@ -144,7 +206,18 @@ export const config = {
 
 리디렉트 맵은 보통 데이터베이스(일반적으로 키-값 저장소)나 JSON 파일에 저장할 수 있는 리디렉트 목록입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 데이터 구조를 고려해보세요:
 
@@ -188,7 +261,18 @@ export async function middleware(request: NextRequest) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 2. 데이터 조회 성능 최적화
 
@@ -199,7 +283,18 @@ export async function middleware(request: NextRequest) {
 
 이전 예제를 고려해보면, Middleware에 생성된 블룸 필터 파일을 가져와 들어오는 요청 경로명이 블룸 필터에 있는지 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그렇다면, 사용자에게 적절한 URL로 리디렉션해주기 위해 실제 파일을 확인하고 API Routes로 요청을 전달합니다. 이렇게 함으로써 Middleware에 큰 리디렉션 파일을 가져오는 것을 피할 수 있어서 모든 요청을 늦출 수 있는 문제를 방지할 수 있어요.
 
@@ -225,7 +320,10 @@ export async function middleware(request: NextRequest) {
   // Check if the path is in the bloom filter
   if (bloomFilter.has(pathname)) {
     // Forward the pathname to the Route Handler
-    const api = new URL(`/api/redirects?pathname=${encodeURIComponent(request.nextUrl.pathname)}`, request.nextUrl.origin);
+    const api = new URL(
+      `/api/redirects?pathname=${encodeURIComponent(request.nextUrl.pathname)}`,
+      request.nextUrl.origin
+    );
 
     try {
       // Fetch redirect data from the Route Handler
@@ -282,10 +380,32 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 > 좋은 정보:
 > 블룸 필터를 생성하려면 bloom-filters와 같은 라이브러리를 사용할 수 있어요.
 > Route Handler에 요청을 유효성 검사하여 악의적인 요청을 방지해야 해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

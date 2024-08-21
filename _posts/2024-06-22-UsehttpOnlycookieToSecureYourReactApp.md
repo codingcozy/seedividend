@@ -3,17 +3,13 @@ title: "httpOnly 쿠키로 React 앱 보안을 강화하는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-22-UsehttpOnlycookieToSecureYourReactApp_0.png"
 date: 2024-06-22 03:10
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-UsehttpOnlycookieToSecureYourReactApp_0.png
 tag: Tech
 originalTitle: "Use httpOnly cookie To Secure Your React App"
 link: "https://medium.com/@etearner/use-httponly-cookie-to-secure-your-react-app-4e8417d136b8"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-22-UsehttpOnlycookieToSecureYourReactApp_0.png" />
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 외부 사이트 스크립팅 (XSS) 공격을 통해 삽입된 악성 스크립트는 쉽게 localStorage에 접근하여 이러한 토큰을 도용할 수 있어 사용자 계정 및 중요한 정보에 미승인된 액세스를 유발할 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 위험을 줄이기 위한 더 안전한 대안은 세션 토큰을 저장하기 위해 httpOnly 쿠키를 사용하는 것입니다.
 
@@ -34,7 +40,18 @@ isUpdated: true
 
 # HttpOnly 쿠키란 무엇인가
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 HttpOnly 쿠키는 서버에서만 액세스할 수 있는 쿠키로, JavaScript와 같은 클라이언트 측 스크립트에서는 액세스할 수 없는 쿠키입니다.
 
@@ -44,7 +61,18 @@ HttpOnly 속성은 Set-Cookie HTTP 응답 헤더에 포함되며, 해당 쿠키�
 
 HttpOnly 쿠키를 구현하는 것은 일반적인 웹 취약점에 대한 응용 프로그램의 방어를 강화하는 간단하고 효과적인 방법입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 전제 조건
 
@@ -57,7 +85,18 @@ HttpOnly 쿠키를 구현하는 것은 일반적인 웹 취약점에 대한 응�
 
 # 인증 시스템 설정
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리의 React 앱은 로그인 페이지가 있고 사용자가 로그인한 후에 리소스에 액세스할 것입니다. 로그인 폼 제출 프로세스를 설정하는 방법을 알려드리겠습니다:
 
@@ -72,19 +111,22 @@ import { UserInterface } from "./types/UserInterface";
 import { useMutation } from "@tanstack/react-query";
 import { SubmitHandler, useForm } from "react-hook-form";
 import { useAuth } from "./Service/AuthProvider";
-import apiClient from './apiClient';
+import apiClient from "./apiClient";
 
 const Login = () => {
   const { mutate, isPending } = useMutation({
     mutationFn: (data: LoginRequest) => {
       const config = { withCredentials: true };
-      return apiClient.post<UserInterface | LoginFailure>("/login", data, config);
+      return (apiClient.post < UserInterface) | (LoginFailure > ("/login", data, config));
     },
   });
 
-  const { control, handleSubmit } = useForm<LoginRequest>({
-    defaultValues: { email: "", password: "" },
-  });
+  const { control, handleSubmit } =
+    useForm <
+    LoginRequest >
+    {
+      defaultValues: { email: "", password: "" },
+    };
 
   const { logUserIn } = useAuth();
   const onSubmit: SubmitHandler<LoginRequest> = (formData) => {
@@ -95,17 +137,24 @@ const Login = () => {
     });
   };
 
-  return (
-    <form onSubmit={handleSubmit(onSubmit)}>
-      {/* 여기에 폼 필드를 넣으세요 */}
-    </form>
-  );
-}
+  return <form onSubmit={handleSubmit(onSubmit)}>{/* 여기에 폼 필드를 넣으세요 */}</form>;
+};
 
 export default Login;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 여기서 우리가 한 일은 무엇인가요 ?
 
@@ -118,7 +167,18 @@ export default Login;
 
 httpOnly 쿠키를 고려해야 할 사항은 mutationFn 메서드에서 API 호출에 설정한 구성입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // ...
@@ -137,7 +197,18 @@ mutationFn: (data: LoginRequest) => {
 
 ## 알아두면 좋은 사항
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CORS 문제를 만날 수 있습니다. 해결하는 방법은 다음과 같습니다:
 
@@ -149,13 +220,24 @@ CORS 문제를 만날 수 있습니다. 해결하는 방법은 다음과 같습�
 
 Symfony 앱에서 lexik/LexikJWTAuthenticationBundle을 사용하는 경우 예시가 아래에 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```yaml
 lexik_jwt_authentication:
-  secret_key: '%env(resolve:JWT_SECRET_KEY)%'
-  public_key: '%env(resolve:JWT_PUBLIC_KEY)%'
-  pass_phrase: '%env(resolve:JWT_PASSPHRASE)%'
+  secret_key: "%env(resolve:JWT_SECRET_KEY)%"
+  public_key: "%env(resolve:JWT_PUBLIC_KEY)%"
+  pass_phrase: "%env(resolve:JWT_PASSPHRASE)%"
 
   token_extractors:
     cookie:
@@ -173,7 +255,18 @@ lexik_jwt_authentication:
 
 그리고 예를 들어 홈페이지에서 API 호출을 하게 될 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AuthProvier를 구현했습니다.
 
@@ -182,19 +275,18 @@ import { Context, ReactNode, createContext, useContext, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 type AuthContextType = {
-  isAuthenticated: boolean;
-  logUserIn: () => void;
+  isAuthenticated: boolean,
+  logUserIn: () => void,
 };
 
 type AuthContextPropsType = {
-  children: ReactNode;
+  children: ReactNode,
 };
 
-const AuthContext: Context<AuthContextType | null> =
-  createContext<AuthContextType | null>(null);
+const AuthContext: Context<AuthContextType | null> = (createContext < AuthContextType) | (null > null);
 
 export const AuthProvider = ({ children }: AuthContextPropsType) => {
-  const [isAuthenticated, setIsAuthenticated] = useState<boolean>(false);
+  const [isAuthenticated, setIsAuthenticated] = useState < boolean > false;
   const navigate = useNavigate();
 
   const logUserIn = () => {
@@ -204,11 +296,7 @@ export const AuthProvider = ({ children }: AuthContextPropsType) => {
     navigate("/");
   };
 
-  return (
-    <AuthContext.Provider value={{ isAuthenticated, logUserIn }}>
-      {children}
-    </AuthContext.Provider>
-  );
+  return <AuthContext.Provider value={{ isAuthenticated, logUserIn }}>{children}</AuthContext.Provider>;
 };
 
 export const useAuth = () => {
@@ -227,7 +315,18 @@ export const useAuth = () => {
 
 사용자 로그인 상태를 관리하고 앱 전체에서 이 상태에 액세스하고 업데이트할 수 있는 방법을 제공하기 위해 인증 컨텍스트를 설정했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인증 로직의 중앙 처리를 가능하게 합니다. 사용자가 한 번 로그인하면 자동으로 홈페이지로 리디렉션됩니다.
 
@@ -269,10 +368,23 @@ export default Home;
 
 여기서는 API에서 리소스를 가져오기 위해 전통적인 쿼리를 수행했고, credentials 구성도 설정했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-{ withCredentials: true }
+{
+  withCredentials: true;
+}
 ```
 
 이를 통해 세션이 유지됩니다.
@@ -281,7 +393,18 @@ export default Home;
 
 <img src="https://miro.medium.com/v2/resize:fit:996/1*aY_QKlVYUqtW2JmHjFaO1g.gif" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 이어서
 

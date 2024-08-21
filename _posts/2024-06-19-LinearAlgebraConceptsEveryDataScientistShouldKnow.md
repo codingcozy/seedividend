@@ -3,16 +3,13 @@ title: "데이터 과학자가 알아야 할 선형 대수학 개념"
 description: ""
 coverImage: "/assets/img/2024-06-19-LinearAlgebraConceptsEveryDataScientistShouldKnow_0.png"
 date: 2024-06-19 23:27
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-LinearAlgebraConceptsEveryDataScientistShouldKnow_0.png
 tag: Tech
 originalTitle: "Linear Algebra Concepts Every Data Scientist Should Know"
 link: "https://medium.com/bitgrit-data-science-publication/linear-algebra-concepts-every-data-scientist-should-know-18b00bd453dd"
 isUpdated: true
 ---
-
-
-
 
 ## 데이터 과학
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 이것은 이론적 모델을 실용적인 솔루션으로 변환하는 언어입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터에서 학습할 수 있도록 하는 원칙을 내포하고 있어요.
 
@@ -37,7 +45,18 @@ isUpdated: true
 - 유사성 측정: 임베딩은 벡터로 저장되며, 오늘날 추천 시스템과 AI 챗봇에서 사용됩니다.
 - 그 밖에도 많아요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사에서는 선형 대수학 개념, 시각적 설명 및 코드 예제를 살펴볼 거에요.
 
@@ -47,7 +66,18 @@ isUpdated: true
 
 # 목차
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 벡터
 
@@ -81,7 +111,18 @@ isUpdated: true
 
 이것이 선형 대수학의 기본적인 구성 요소입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 벡터를 생각하는 방법은 3가지가 있어요.
 
@@ -91,7 +132,18 @@ isUpdated: true
 
 세 번째는 수학자의 시각입니다. 벡터는 서로 더해지거나 숫자로 곱해지는 모든 것이 될 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단위 벡터
 
@@ -101,8 +153,18 @@ isUpdated: true
 
 ## 벡터 덧셈
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-LinearAlgebraConceptsEveryDataScientistShouldKnow_3.png" />
 
@@ -112,10 +174,20 @@ isUpdated: true
 
 ## 스칼라 곱
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-표 태그를 마크다운 형식으로 변경하세요. 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+표 태그를 마크다운 형식으로 변경하세요.
 
 ## 내적
 
@@ -123,7 +195,18 @@ isUpdated: true
 
 ![image](/assets/img/2024-06-19-LinearAlgebraConceptsEveryDataScientistShouldKnow_5.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 직관적으로 생각해보면 한 벡터의 방향성 성장을 다른 벡터에 적용하는 것이라고 생각할 수 있습니다. 또는 "한 벡터가 다른 벡터에게 얼마나 많은 밀어내기/에너지를 주는가?"라고 생각할 수도 있습니다. 결과는 우리가 원래의 벡터를 얼마나 더 강하게 만들었는지를 보여줍니다 (양수, 음수 또는 0).
 
@@ -133,7 +216,18 @@ isUpdated: true
 
 ![Image 7](/assets/img/2024-06-19-LinearAlgebraConceptsEveryDataScientistShouldKnow_7.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 반가운 비유를 하나 소개하겠습니다.
 
@@ -143,7 +237,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-19-LinearAlgebraConceptsEveryDataScientistShouldKnow_8.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 벡터 공간
 
@@ -155,7 +260,18 @@ V가 벡터 공간이라고 불리기 위해서는 공리 목록을 만족해야
 
 ![Vector Space Table](/assets/img/2024-06-19-LinearAlgebraConceptsEveryDataScientistShouldKnow_9.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 널 공간 (커널)
 
@@ -165,7 +281,18 @@ V가 벡터 공간이라고 불리기 위해서는 공리 목록을 만족해야
 
 주어진 행렬에 곱해졌을 때 두 벡터를 원점(영벡터)으로 수렴시키는 부분공간으로서 행렬의 널 공간을 시각화할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Span
 
@@ -173,8 +300,18 @@ V가 벡터 공간이라고 불리기 위해서는 공리 목록을 만족해야
 
 대부분의 벡터 쌍에 대해, 2차원 벡터 평면의 모든 점에 도달할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-19-LinearAlgebraConceptsEveryDataScientistShouldKnow_10.png)
 
@@ -184,8 +321,18 @@ span의 개념은 basis의 개념에 기초합니다.
 
 ## Basis
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기저는 전체 벡터 공간을 구성하는 선형 독립적인 벡터들의 모임입니다. 이는 벡터 공간 내의 모든 벡터를 기저 벡터의 선형 조합으로 표현할 수 있다는 것을 의미합니다.
 
@@ -195,7 +342,18 @@ span의 개념은 basis의 개념에 기초합니다.
 
 ## 선형 독립성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일련의 벡터가 선형 독립적인 경우 집합 내의 벡터들이 결과적으로 ax + by 형태인 어떤 식으로도 나타낼 수 없는 경우입니다.
 
@@ -205,7 +363,18 @@ span의 개념은 basis의 개념에 기초합니다.
 
 ![이미지](/assets/img/2024-06-19-LinearAlgebraConceptsEveryDataScientistShouldKnow_11.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 2행 2열의 행렬이 있어요.
 
@@ -215,8 +384,18 @@ span의 개념은 basis의 개념에 기초합니다.
 
 행렬을 함수로 생각할 수 있어요. 파이썬 함수가 입력 매개변수를 받아 처리하고 출력을 반환하는 것처럼, 행렬 변환은 선형 변환을 통해 입력 벡터를 출력 벡터로 변환합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Linear Transformation](/assets/img/2024-06-19-LinearAlgebraConceptsEveryDataScientistShouldKnow_12.png)
 
@@ -226,8 +405,18 @@ span의 개념은 basis의 개념에 기초합니다.
 
 선형 변환은 두 벡터 공간 간의 매핑 V → W로, 벡터 덧셈과 스칼라 곱셈의 연산을 보존하는 것을 말합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 실제로 행렬 A를 벡터 x에 적용하여 다른 벡터 y를 얻는 것(Ax = y 작업을 통해)은 선형 변환입니다.
 
@@ -239,7 +428,18 @@ span의 개념은 basis의 개념에 기초합니다.
 
 다음은 몇 가지 형태의 행렬입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 역행렬
 
@@ -249,7 +449,18 @@ span의 개념은 basis의 개념에 기초합니다.
 
 특이 행렬은 역행렬을 가지지 않는 정방 행렬입니다. 이는 행렬의 행렬식이 0이거나 랭크가 크기보다 작은 것과 동일합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 항등 행렬.
 
@@ -259,7 +470,18 @@ span의 개념은 basis의 개념에 기초합니다.
 
 대각 행렬은 모든 주 대각선을 제외한 항목이 0인 정사각 행렬입니다. 고유값을 찾거나 행렬식을 계산하는 데 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 직교 행렬
 
@@ -269,7 +491,18 @@ span의 개념은 basis의 개념에 기초합니다.
 
 형식적으로, 행렬 A가 AᵀA=AAᵀ = I를 만족하면 A는 직교 행렬입니다. 여기서 I는 항등 행렬입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기하학적으로, 행렬은 그 열과 행이 직교하는 단위 벡터인 경우 직교합니다. 다시 말해, 서로 수직이며 크기가 1인 벡터입니다.
 
@@ -279,7 +512,18 @@ span의 개념은 basis의 개념에 기초합니다.
 
 행렬 곱셈을 수행하는 데에 행렬을 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요! 아래는 선형대수에 관한 직관적인 가이드에서 가져온 멋진 시각화입니다.
 
@@ -289,7 +533,18 @@ span의 개념은 basis의 개념에 기초합니다.
 
 ![Operations](/assets/img/2024-06-19-LinearAlgebraConceptsEveryDataScientistShouldKnow_16.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 작업의 예시가 있어요.
 
@@ -299,7 +554,18 @@ span의 개념은 basis의 개념에 기초합니다.
 
 ![이미지](/assets/img/2024-06-19-LinearAlgebraConceptsEveryDataScientistShouldKnow_18.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 입력은 [3 x 2] 행렬이며, 우리의 작업 행렬은 [2 x 3]입니다. 그 결과는 [2 x 3] [3 x 2] = [2 x 2]입니다.
 
@@ -309,7 +575,18 @@ span의 개념은 basis의 개념에 기초합니다.
 
 행렬의 Trace는 모든 대각 요소의 합입니다. 기저 변경에 불변이며, 행렬에 대한 고유값의 합인 행렬에 대한 정보적인 값을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 행렬식
 
@@ -319,7 +596,18 @@ span의 개념은 basis의 개념에 기초합니다.
 
 예를 들어 이 행렬을 살펴보죠. A의 면적이 6배로 스케일링된 경우, 변환의 행렬식은 6이 되는 거죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 음수 determinant는 전체 공간이 뒤집혔음을 알려줍니다. 이 변환은 종이 더미를 뒤집는 것과 비슷합니다.
 
@@ -329,7 +617,18 @@ Determinant가 0이면 행렬이 "파괴적"이며 뒤집을 수 없습니다. 0
 
 Determinant는 행렬이 역행렬인지를 알려줄 수 있습니다. det(A)가 0이면 역행렬이 존재하지 않으며 행렬은 특이합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Rank
 
@@ -339,7 +638,18 @@ Determinant는 행렬이 역행렬인지를 알려줄 수 있습니다. det(A)�
 
 변환의 출력이 단일 선 (일차원이라고 함)인 경우, 해당 변환이 1의 순위를 가진다고 말합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 모든 벡터가 일부 2차원 평면에 있을 경우, 해당 변환은 랭크 2를 가졌다고 말합니다.
 
@@ -349,7 +659,18 @@ Determinant는 행렬이 역행렬인지를 알려줄 수 있습니다. det(A)�
 
 ## 고유벡터와 고유값
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 고유 벡터와 고유 값은 변환의 "축"을 나타냅니다.
 
@@ -359,8 +680,18 @@ Determinant는 행렬이 역행렬인지를 알려줄 수 있습니다. det(A)�
 
 여기 고유 벡터의 시각적 예시가 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](https://miro.medium.com/v2/resize:fit:600/1*d34D2o-Gx1IOgFnuuJ2kog.gif)
 
@@ -370,8 +701,18 @@ Determinant는 행렬이 역행렬인지를 알려줄 수 있습니다. det(A)�
 
 # 읽어 주셔서 감사합니다!
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 자원
 
@@ -382,7 +723,18 @@ Determinant는 행렬이 역행렬인지를 알려줄 수 있습니다. det(A)�
 
 시각화
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 그래픽 선형 대수학 — LA를 수행하는 새로운 방법
 - 3Blue1Brown의 선형대수학 본질 — 놀라운 애니메이션, 개념 시각화
@@ -398,7 +750,18 @@ Determinant는 행렬이 역행렬인지를 알려줄 수 있습니다. det(A)�
 
 # 연락을 유지하세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비트그릿 데이터 사이언스 퍼블리케이션을 팔로우하면 최신 소식을 받아보실 수 있어요!
 

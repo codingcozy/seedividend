@@ -3,15 +3,13 @@ title: "파이썬 데이터 시각화 Seaborn 라이브러리 사용법"
 description: ""
 coverImage: "/assets/img/2024-07-09-DataVisualizationinPythonSeabornLibrary_0.png"
 date: 2024-07-09 20:10
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-DataVisualizationinPythonSeabornLibrary_0.png
 tag: Tech
 originalTitle: "Data Visualization in Python: Seaborn Library"
 link: "https://medium.com/@pythonfundamentals/data-visualization-in-python-seaborn-library-be9febe601bc"
 isUpdated: true
 ---
-
-
 
 시각화는 데이터에서 통찰을 전달하는 강력한 방법입니다. 파이썬의 Seaborn 라이브러리는 Matplotlib을 기반으로 한, 시각적으로 매력적이고 정보를 제공하는 높은 수준의 인터페이스를 제공합니다. 이 기사에서는 Seaborn 라이브러리를 자세히 살펴보며 그 기능을 탐구하고 다양성을 보여주는 실용적인 코드 예제를 제시할 것입니다.
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 Seaborn은 복잡하고 아름다운 시각화를 만드는 과정을 단순화하는 데이터 시각화 라이브러리입니다. 시각적 경험을 향상하기 위해 내장된 테마와 색 팔레트를 제공합니다. Seaborn은 통계적 시각화를 생성하는 데 특히 적합하며 변수 간의 관계를 시각화하는 데 자주 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Seaborn을 이용한 시각화 생성
 
@@ -31,7 +40,18 @@ Seaborn의 주요 기능과 기능을 몇 가지 코드 예제와 함께 살펴�
 
 - a) 기본 산점도
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import seaborn as sns
@@ -55,7 +75,18 @@ plt.show()
 
 <img src="/assets/img/2024-07-09-DataVisualizationinPythonSeabornLibrary_1.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - b) 색상과 색조를 가진 산점도
 
@@ -80,7 +111,18 @@ plt.title('색상과 색조를 가진 산점도')
 plt.show()
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-09-DataVisualizationinPythonSeabornLibrary_2.png" />
 
@@ -93,7 +135,18 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 샘플 데이터
@@ -113,7 +166,18 @@ plt.show()
 
 - b) 색상 팔레트를 사용한 가로 상자 그림
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import seaborn as sns
@@ -136,7 +200,18 @@ plt.show()
 
 <img src="/assets/img/2024-07-09-DataVisualizationinPythonSeabornLibrary_4.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - c) 그룹화된 상자 그림
 
@@ -160,7 +235,18 @@ plt.legend(title='성별')
 plt.show()
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-09-DataVisualizationinPythonSeabornLibrary_5.png" />
 
@@ -176,7 +262,18 @@ import matplotlib.pyplot as plt
 data = sns.load_dataset('diamonds')
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # Seaborn을 사용하여 notch가 있는 상자 그림 만들기
@@ -196,7 +293,18 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 샘플 데이터
@@ -217,7 +325,18 @@ plt.show()
 
 ## 3. Pair Plot
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - a) 기본 Pair Plot
 
@@ -238,7 +357,18 @@ plt.title('Seaborn을 사용한 기본 Pair Plot')
 plt.show()
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-07-09-DataVisualizationinPythonSeabornLibrary_8.png)
 
@@ -254,7 +384,18 @@ import matplotlib.pyplot as plt
 data = sns.load_dataset('tips')
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # Seaborn을 사용하여 사용자 정의 색상 팔레트로 pair plot 만들기
@@ -272,7 +413,18 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 샘플 데이터
@@ -293,7 +445,18 @@ plt.show()
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시본은 파이썬에서 정보를 전달하고 미적으로 매력적인 데이터 시각화를 생성하는 강력한 라이브러리입니다. 산점도, 상자 그림, 쌍 플롯 또는 더 복잡한 시각화를 만들 때 시본의 우아한 구문과 내장 테마가 과정을 단순화합니다.
 

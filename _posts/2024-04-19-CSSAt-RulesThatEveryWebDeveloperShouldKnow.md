@@ -3,17 +3,13 @@ title: "모든 웹 개발자가 알아야 할 CSS At-Rules"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "CSS At-Rules That Every Web Developer Should Know"
 link: "https://medium.com/gitconnected/css-at-rules-that-every-web-developer-should-know-c63d59209a59"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/CSSAt-RulesThatEveryWebDeveloperShouldKnow_0.png" />
 
@@ -23,7 +19,18 @@ CSS at-rules 기능은 CSS 블록의 동작을 제어하고 브라우저의 CSS 
 
 이 이야기에서는 현대적이고 사용자 친화적이며 고품질의 웹 페이지를 개발하는 데 도움이 되는 여러 at-rules을 설명하겠습니다. 이 at-rules을 숙달하여 CSS 관련 개발 요구 사항에 대한 해결책을 제공할 수 있는 CSS 전문가가 되어보세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # @keyframes를 사용하여 애니메이션 키프레임 정의하기
 
@@ -34,7 +41,18 @@ CSS at-rules 기능은 CSS 블록의 동작을 제어하고 브라우저의 CSS 
 
 두 번째 접근 방식은 @keyframes at-rule을 사용하여 키프레임을 정의해야 합니다. 다음 예제를 살펴보세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 .board {
@@ -63,7 +81,18 @@ CSS at-rules 기능은 CSS 블록의 동작을 제어하고 브라우저의 CSS 
 
 ![미리보기](https://miro.medium.com/v2/resize:fit:1178/1*heY7a_mHKsvz1pNNBnntGg.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # @page를 사용하여 인쇄된 페이지 레이아웃 수정하기
 
@@ -78,7 +107,18 @@ CSS at-rules 기능은 CSS 블록의 동작을 제어하고 브라우저의 CSS 
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에 나와 있는 CSS 정의를 샘플 HTML 문서에 사용한 후 Ctrl + P를 누르면 다음과 같은 인쇄 미리보기가 나타납니다:
 
@@ -88,7 +128,18 @@ CSS at-rules 기능은 CSS 블록의 동작을 제어하고 브라우저의 CSS 
 
 # @media를 사용한 CSS 미디어 쿼리
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS 미디어 쿼리 기능은 미디어 유형 및 속성에 기반한 동적 스타일 블록 활성화를 도와 웹 개발자가 구현할 수 있게 해줍니다. 이 CSS 기능은 반응형 페이지 디자인 및 인쇄 페이지 사용자 정의에 자주 사용됩니다. 예를 들어, 다음과 같은 미디어 쿼리를 사용하여 작은 화면에서 입력 요소를 뷰포트 폭에 맞게 늘릴 수 있습니다:
 
@@ -103,7 +154,18 @@ CSS 미디어 쿼리 기능은 미디어 유형 및 속성에 기반한 동적 �
 
 위의 미디어 쿼리는 화면이 작아지면 활성화됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 구현은 미디어 쿼리의 화면 모드를 사용했습니다. 미디어 쿼리는 인쇄 유형도 지원하기 때문에 인쇄된 웹 페이지 버전을 위한 다른 스타일을 활성화하는 데 사용할 수 있습니다.
 
@@ -119,7 +181,18 @@ CSS 미디어 쿼리 기능은 미디어 유형 및 속성에 기반한 동적 �
 
 위 미디어 쿼리는 인쇄 모드에서 주 헤더 요소를 숨깁니다. 아래 미리보기에서 확인할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](https://miro.medium.com/v2/resize:fit:1400/1*b-yQfZeVuDljS8wE9u9XXA.gif)
 
@@ -135,7 +208,18 @@ CSS 미디어 쿼리 기능은 미디어 유형 및 속성에 기반한 동적 �
 
 # @counter-style을 사용하여 사용자 정의 목록 스타일 정의하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 HTML 문서에서는 자주 순서 있는 목록과 순서 없는 목록을 사용합니다. 이러한 목록을 사용자 정의하기 위해 표준 브라우저는 list-style-type CSS 속성을 통해 다양한 내장 목록 표시기 유형을 제공합니다. @counter-style at-rule을 사용하여 이러한 목록 스타일을 확장하거나 처음부터 사용자 정의 스타일을 구현할 수 있습니다.
 
@@ -155,11 +239,21 @@ ul li {
 
 여기서 우리는 세 개의 이모티콘을 가진 사용자 정의 순환 목록 스타일을 만들었습니다. 위 CSS 정의를 순서 없는 목록에 사용하면 다음과 같은 결과를 볼 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```html
-! [CSSAt-RulesThatEveryWebDeveloperShouldKnow_5.png]
-(/assets/img/CSSAt-RulesThatEveryWebDeveloperShouldKnow_5.png)
+! [CSSAt-RulesThatEveryWebDeveloperShouldKnow_5.png] (/assets/img/CSSAt-RulesThatEveryWebDeveloperShouldKnow_5.png)
 ```
 
 뿐만 아니라 이 at-rule을 사용하여 기존 내장 목록 스타일을 사용자 정의할 수도 있습니다:
@@ -185,9 +279,18 @@ ol li::marker {
 
 위의 CSS 정의는 기본 10진수 목록 스타일을 확장하여 prefix, suffix 및 0으로 패딩을 추가합니다. 다음 미리보기를 확인해보세요:
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/CSSAt-RulesThatEveryWebDeveloperShouldKnow_6.png" />
 
@@ -197,7 +300,18 @@ ol li::marker {
 
 # @starting-style을 사용하여 초기 DOM 렌더링 전환 추가
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 DOM 요소가 HTML 문서나 JavaScript 코드 스니펫에서 렌더링될 때 초기 전환 애니메이션없이 렌더링됩니다. 과거에는 일반적으로 이러한 초기 애니메이션을 JavaScript를 통해 동적으로 전환된 CSS 클래스로 구현했습니다. 요즘에는 CSS 애니메이션을 사용할 수 있지만 초기 애니메이션 개념은 확실히 CSS 전환 기능에 속합니다.
 
@@ -223,7 +337,18 @@ button {
 
 위의 코드 스니펫은 버튼 요소가 뷰포트에 렌더링될 때 전환 애니메이션을 재생합니다. 이 전환은 JavaScript로 새 요소를 동적으로 만들더라도 작동합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 미리보기를 확인해보세요:
 
@@ -233,7 +358,18 @@ button {
 
 # @scope를 사용한 스코프된 CSS 정의
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기본적으로 전통적인 CSS 구현은 전역 스코프 개념으로 웹 페이지를 스타일링합니다. 또한 과거에는 스타일 태그로도 스코프 기능이 없었습니다. 스타일 태그는 DOM 트리에서의 위치와 관계없이 모든 HTML 노드에 대해 적용 가능했습니다. HTML 표준이 'scoped' 속성을 사용하여 스코핑을 지원하려고 했지만 웹 표준이 되기 전에 사용 중단되었습니다. 현재 현대적인 CSS 명세에서는 스코프 CSS를 정의하기 위한 @scope at-rule을 도입했습니다.
 
@@ -261,7 +397,18 @@ button {
 
 위의 스타일 태그는 @scope를 사용하여 부모 div 요소에 대한 스코프 CSS 내용을 정의합니다. 여기서는 :scope 의사 클래스를 사용하여 스코프 요소를 대상으로 했습니다. 위 HTML 스니펫은 다음과 같이 간단한 독립된 알림 컴포넌트를 렌더링합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![CSSAt-RulesThatEveryWebDeveloperShouldKnow_8](/assets/img/CSSAt-RulesThatEveryWebDeveloperShouldKnow_8.png)
 
@@ -271,7 +418,18 @@ button {
 
 현대 CSS 명세는 이 요구 사항을 위해 @container at-rule을 통해 컨테이너 쿼리를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 예시를 확인해 주세요:
 
@@ -318,7 +476,18 @@ button {
 
 여기서 container-type CSS 속성을 사용하여 모든 alert 요소에 대한 컨테이너 쿼리를 활성화했습니다. 위의 CSS 정의를 사용하여 경고 상자(alert boxes)와 함께 사용하면 다음 결과가 표시됩니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![alt text](https://miro.medium.com/v2/resize:fit:994/1*_J1HhO-YOU5M6wS2ZPo7_Q.gif)
 
@@ -328,7 +497,18 @@ CSS 컨테이너 쿼리는 계산된 스타일을 감지할 수 있으며 중첩
 
 웹 디자인 시나리오에서 개발자는 일반적으로 여러 CSS 선택기를 사용하고 종종 스타일을 재정의해야 합니다. 여러 선택기로 CSS 스타일을 직접 재정의하지 않더라도 작성한 모든 CSS 블록은 자동으로 사용자 에이전트 스타일시트의 스타일을 재정의합니다. CSS의 스타일 재정의 프로세스는 브라우저의 특이성 알고리즘을 기반으로 발생하여 우선순위를 처리하기 위해 CSS 선택기의 가중치를 계산합니다. 과거에는 따로 !important를 혼동스럽게 사용하지 않고는 CSS 우선순위를 처리하는 방법이 없었기 때문에 모든 개발자가 특이성 알고리즘에 기반한 CSS 재정의 관련 코드를 조정했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 코드 스니펫을 살펴보세요:
 
@@ -360,7 +540,18 @@ button.btn {
 
 여기서 bg-success와 bg-danger 클래스는 버튼의 기본 배경색을 변경하지 못할 것입니다. 왜냐하면 button.btn의 특이성이 더 높기 때문이거든.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/CSSAt-RulesThatEveryWebDeveloperShouldKnow_10.png" />
 
@@ -390,7 +581,18 @@ button.btn {
 
 여기서 mods 레이어는 base 레이어와 비교했을 때 가장 높은 우선순위를 가지므로 기존의 명확성 효과와는 상관없이 버튼은 적절한 배경색을 받을 것입니다. 아래 프리뷰에서 확인할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/CSSAt-RulesThatEveryWebDeveloperShouldKnow_11.png" />
 

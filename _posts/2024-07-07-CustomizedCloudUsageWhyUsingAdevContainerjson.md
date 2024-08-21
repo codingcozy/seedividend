@@ -3,16 +3,13 @@ title: "맞춤형 클라우드 사용  devContainerjson 사용해야 하는 이�
 description: ""
 coverImage: "/assets/img/2024-07-07-CustomizedCloudUsageWhyUsingAdevContainerjson_0.png"
 date: 2024-07-07 03:16
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-CustomizedCloudUsageWhyUsingAdevContainerjson_0.png
 tag: Tech
 originalTitle: "Customized Cloud Usage — Why Using A devContainer.json ?"
 link: "https://medium.com/@zack4dev/customized-cloud-usage-why-using-a-devcontainer-json-f48507f32b6c"
 isUpdated: true
 ---
-
-
-
 
 요즘에는 클라우드 이미지를 자주 사용합니다. 그래서 왜 사용자 정의해야 할까요?
 
@@ -21,20 +18,40 @@ CodeSpace나 유사한 환경에서 devContainer.json 파일을 사용하는 것
 
 1. 개발 환경 일관성:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 팀원 모두가 동일한 환경에서 작업하도록 보장합니다.
 "내 컴퓨터에서 작동한다"라는 문제를 피하기 위해 개발 환경을 표준화합니다.
 
 3-미리 구성된 도구 및 의존성:
 
--컨테이네에 필요한 모든 도구, 라이브러리 및 의존성이 포함됩니다.
--새로운 팀원이나 새로운 기기를 위한 환경 설정 시간을 절약할 수 있습니다.
+-컨테이네에 필요한 모든 도구, 라이브러리 및 의존성이 포함됩니다. -새로운 팀원이나 새로운 기기를 위한 환경 설정 시간을 절약할 수 있습니다.
 
 4-개발 환경의 격리:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 호스트 머신과 개발 환경을 분리하여 보호합니다.
 - 서로 다른 프로젝트나 도구 버전 간의 충돌을 방지합니다.
@@ -46,7 +63,18 @@ CodeSpace나 유사한 환경에서 devContainer.json 파일을 사용하는 것
 
 5- 휴대성:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 개발자들이 다른 기기나 환경으로 신속하게 전환할 수 있도록 합니다.
 - Github Codespaces와 같은 원격 개발 환경 구성을 용이하게 합니다.
@@ -58,14 +86,24 @@ CodeSpace나 유사한 환경에서 devContainer.json 파일을 사용하는 것
 
 `! ---- devContainer.json 구성 요소 키 ----`
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1. 기본 이미지:
 
 - 베이스 환경으로 사용할 도커 이미지를 정의합니다.
 
 “image”: “mcr.microsoft.com/vscode/devcontainers/base:0-alpine-3.12”
-
 
 2. 확장 기능:
 
@@ -76,12 +114,23 @@ CodeSpace나 유사한 환경에서 devContainer.json 파일을 사용하는 것
 “dbaeumer.vscode-eslint”
 ]
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3- 설정:
 
 - 개발 환경을 위한 설정을 구성합니다.
+
 ```json
 "settings": {
   "terminal.integrated.shell.linux": "/bin/bash"
@@ -91,13 +140,26 @@ CodeSpace나 유사한 환경에서 devContainer.json 파일을 사용하는 것
 4- 생성 후 명령어:
 
 - 컨테이너가 생성된 후 스크립트 또는 명령어를 실행합니다.
+
 ```json
 "postCreateCommand": "npm install"
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 5- 마운트 및 볼륨:
+
 - 컨테이너의 파일 마운트 및 볼륨을 지정합니다.
 
 ```json
@@ -110,19 +172,14 @@ CodeSpace나 유사한 환경에서 devContainer.json 파일을 사용하는 것
 
 ```json
 {
-    "name": "Node.js & TypeScript",
-    "image": "mcr.microsoft.com/vscode/devcontainers/typescript-node:0-12",
-    "settings": {
-        "terminal.integrated.shell.linux": "/bin/bash"
-    },
-    "extensions": [
-        "dbaeumer.vscode-eslint",
-        "esbenp.prettier-vscode"
-    ],
-    "postCreateCommand": "npm install",
-    "mounts": [
-        "source=/호스트/경로,target=/컨테이너/경로,type=bind"
-    ]
+  "name": "Node.js & TypeScript",
+  "image": "mcr.microsoft.com/vscode/devcontainers/typescript-node:0-12",
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "extensions": ["dbaeumer.vscode-eslint", "esbenp.prettier-vscode"],
+  "postCreateCommand": "npm install",
+  "mounts": ["source=/호스트/경로,target=/컨테이너/경로,type=bind"]
 }
 ```
 

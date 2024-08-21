@@ -3,16 +3,13 @@ title: "Services in Angular"
 description: ""
 coverImage: "/assets/img/2024-06-20-ServicesinAngular_0.png"
 date: 2024-06-20 02:58
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-ServicesinAngular_0.png
 tag: Tech
 originalTitle: "Services in Angular"
 link: "https://medium.com/@aqeelabbas3972/services-in-angular-b125a5b5690e"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-06-20-ServicesinAngular_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 이 기사를 마치면 Angular 서비스에 대한 sol 이름을 갖추게 되고 보다 효율적이고 효과적인 애플리케이션을 구축하는 방법을 알 수 있을 것입니다. Angular를 막 시작했다면 또는 기술을 향상시키려는 숙련된 개발자라면, 이 기사는 여러분을 위한 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 목차:
 
@@ -37,7 +45,18 @@ isUpdated: true
 
 시작해 봅시다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Angular 앱의 중요한 구성 요소 중 하나는 Angular 서비스입니다. 서비스는 종종 데이터 검색, 조작 및 저장과 같은 기능을 그룹화하는 데 사용됩니다. 이러한 기능은 여러 구성 요소에서 사용할 수 있습니다.
 
@@ -47,7 +66,18 @@ Angular에서 클래스로 선언되기 때문에 서비스는 의존성 주입 
 
 일관성 유지와 메모리 누수를 방지하기 위해 Angular 서비스는 싱글톤입니다. 이는 애플리케이션 전체에서 서비스의 단일 인스턴스만 존재한다는 것을 의미합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 서비스 생성하기
 
@@ -59,7 +89,18 @@ Angular에서 새로운 서비스를 생성하려면 Angular CLI 명령 ng gener
 ng generate service my-service
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 명령은 응용 프로그램의 app 폴더에 my-service.service.ts라는 새 파일을 만듭니다. 이 파일은 서비스의 기본 구조를 포함하고 있습니다.
 
@@ -83,7 +124,18 @@ export class MyService {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예제에서는 MyService라는 서비스를 정의했습니다. 이 서비스에는 문자열 배열인 data라는 private 속성과 getData() 및 addData()라는 두 가지 메서드가 있습니다. getData() 메서드는 간단히 data 속성을 반환하고, addData() 메서드는 새로운 문자열을 data 배열에 추가합니다.
 
@@ -93,7 +145,18 @@ export class MyService {
 
 컴포넌트에서 서비스를 사용하려면 Angular의 의존성 주입 시스템을 사용하여 서비스를 주입해야 합니다. app.component.ts와 같은 컴포넌트 파일을 열고 다음 코드를 추가하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { Component } from '@angular/core';
@@ -109,7 +172,7 @@ export class AppComponent {
     this.newItem = '';
   }
 }
-``` 
+```
 
 ```js
 <div>
@@ -124,9 +187,20 @@ export class AppComponent {
 
 이 코드에서는 MyService 클래스를 가져와서 구성 요소의 constructor에 주입했습니다. 또한 서비스의 data 속성으로 구성 요소에 프로퍼티 data를 추가했습니다. 마지막으로 사용자가 데이터 배열에 새 항목을 추가할 수 있도록 input과 button을 추가했습니다.
 
-서비스의 데이터를 구성 요소의 템플릿에 표시하려면 *ngFor 지시문을 추가하여 데이터 배열을 반복하고 각 항목을 목록에 표시했습니다.
+서비스의 데이터를 구성 요소의 템플릿에 표시하려면 \*ngFor 지시문을 추가하여 데이터 배열을 반복하고 각 항목을 목록에 표시했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컴포넌트의 newItem 속성도 양방향 데이터 바인딩인 [(ngModel)]을 이용하여 입력 필드에 바인딩했습니다. 사용자가 "추가" 버튼을 클릭하면 컴포넌트의 addItem() 메서드가 호출됩니다. 이 메서드는 서비스의 addData() 메서드를 호출하여 새로운 항목을 데이터 배열에 추가합니다.
 
@@ -135,28 +209,32 @@ export class AppComponent {
 서비스를 주입 가능하게 하려면 해당 서비스를 모듈의 providers 배열에 추가해야 합니다. app.module.ts 파일을 열고 아래 코드를 추가하세요:
 
 ```js
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule } from '@angular/forms';
-import { AppComponent } from './app.component';
-import { MyService } from './my-service.service';
+import { NgModule } from "@angular/core";
+import { BrowserModule } from "@angular/platform-browser";
+import { FormsModule } from "@angular/forms";
+import { AppComponent } from "./app.component";
+import { MyService } from "./my-service.service";
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
-  imports: [
-    BrowserModule,
-    FormsModule
-  ],
-  providers: [
-    MyService
-  ],
-  bootstrap: [AppComponent]
+  declarations: [AppComponent],
+  imports: [BrowserModule, FormsModule],
+  providers: [MyService],
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 코드에서는 MyService 클래스를 가져와 @NgModule 데코레이터의 providers 배열에 추가했습니다. 이렇게하면 서비스가 응용 프로그램 전반에 걸쳐 주입 가능하게 됩니다.
 
@@ -166,7 +244,18 @@ Angular에서 서비스는 일반적으로 싱글톤으로 설계됩니다. 이�
 
 서비스의 싱글톤 특성을 이해하는 것은 서비스를 설계하고 사용하는 방식에 영향을 미치기 때문에 중요합니다. 이 기사에서는 싱글톤 개념을 자세히 살펴보고 Angular 응용 프로그램에서 어떻게 사용될 수 있는지 예를 살펴볼 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 싱글턴이란 무엇인가요?
 
@@ -176,7 +265,18 @@ Angular 서비스의 맥락에서, 싱글턴 서비스는 한 번 생성되고 �
 
 # Angular에서 싱글턴을 사용하는 이유는 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Angular 애플리케이션에서 싱글톤이 일반적으로 사용되는 몇 가지 이유가 있습니다:
 
@@ -186,7 +286,18 @@ Angular 애플리케이션에서 싱글톤이 일반적으로 사용되는 몇 �
 
 ## 메모리 관리
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여러 서비스 인스턴스를 만드는 것은 메모리 누수와 다른 문제를 야기할 수 있습니다. 서비스를 싱글톤으로 만들면 서비스의 유일한 인스턴스가 있음을 보장하여 메모리 사용량을 줄이고 성능을 향상시킬 수 있습니다.
 
@@ -196,7 +307,18 @@ Angular 애플리케이션에서 싱글톤이 일반적으로 사용되는 몇 �
 
 ## 내장 서비스
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Angular은 웹 애플리케이션을 개발하는 데 사용할 수 있는 여러 내장 서비스를 제공합니다. 이러한 서비스는 Angular 프레임워크의 일부이며 컴포넌트로 쉽게 가져올 수 있습니다. 이 기사에서는 Angular에서 가장 일반적으로 사용되는 내장 서비스 몇 가지를 탐색하고, Angular 애플리케이션에서 어떻게 사용될 수 있는지 예제를 제공하겠습니다.
 
@@ -206,7 +328,18 @@ HttpClient 서비스는 서버에 HTTP 요청을 보낼 수 있는 Angular 모�
 
 - Angular 프로젝트에서 todo.service.ts라는 새 서비스 파일을 만들고 HttpClient 서비스를 가져오세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { Injectable } from '@angular/core';
@@ -217,11 +350,11 @@ import { HttpClient } from '@angular/common/http';
 })
 export class TodoService {
   constructor(private http: HttpClient) { }
-  
+
   getTodos() {
     return this.http.get<any[]>('https://jsonplaceholder.typicode.com/todos');
   }
-  
+
   getTodoById(id: number) {
     return this.http.get<any>(`https://jsonplaceholder.typicode.com/todos/${id}`);
   }
@@ -245,9 +378,9 @@ import { TodoService } from './todo.service';
 })
 export class TodoListComponent implements OnInit {
   todos: any[];
-  
+
   constructor(private todoService: TodoService) { }
-  
+
   ngOnInit() {
     this.todoService.getTodos().subscribe(response => {
       this.todos = response;
@@ -258,33 +391,40 @@ export class TodoListComponent implements OnInit {
 
 - 별도의 컴포넌트에서 getTodoById() 메서드를 사용하세요:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```typescript
-import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
-import { TodoService } from './todo.service';
+import { Component, OnInit } from "@angular/core";
+import { ActivatedRoute } from "@angular/router";
+import { TodoService } from "./todo.service";
 
 @Component({
-  selector: 'app-todo-details',
+  selector: "app-todo-details",
   template: `
     <h1>Todo Details</h1>
-      <p>Title: { todo.title }</p>
-      <p>Completed: { todo.completed }</p>
-  `
+    <p>Title: { todo.title }</p>
+    <p>Completed: { todo.completed }</p>
+  `,
 })
 export class TodoDetailsComponent implements OnInit {
   todo: any;
 
-  constructor(
-    private route: ActivatedRoute,
-    private todoService: TodoService
-  ) { }
+  constructor(private route: ActivatedRoute, private todoService: TodoService) {}
 
   ngOnInit() {
-    const id = +this.route.snapshot.paramMap.get('id');
-    this.todoService.getTodoById(id).subscribe(response => {
+    const id = +this.route.snapshot.paramMap.get("id");
+    this.todoService.getTodoById(id).subscribe((response) => {
       this.todo = response;
     });
   }
@@ -297,56 +437,77 @@ export class TodoDetailsComponent implements OnInit {
 
 Angular 라우터 서비스는 Angular에서 내장된 서비스로, Angular 애플리케이션의 다른 뷰나 컴포넌트 간의 탐색을 관리하는 역할을 합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 홈 컴포넌트인 home.component.ts를 생성하고 about 컴포넌트로 이동할 수 있는 링크를 추가하세요:
 
 ```js
-import { Component } from '@angular/core';
+import { Component } from "@angular/core";
 @Component({
-  selector: 'app-home',
+  selector: "app-home",
   template: `
     <h1>홈 페이지에 오신 것을 환영합니다!</h1>
     <a routerLink="/about">회사 소개</a>
-  `
+  `,
 })
-export class HomeComponent { }
+export class HomeComponent {}
 ```
 
 - 어바웃 컴포넌트인 about.component.ts를 생성하고 홈 컴포넌트로 돌아갈 수 있는 링크를 추가하세요:
 
 ```js
-import { Component } from '@angular/core';
+import { Component } from "@angular/core";
 @Component({
-  selector: 'app-about',
+  selector: "app-about",
   template: `
     <h1>회사 소개</h1>
     <p>우리는 멋진 소프트웨어를 만드는 회사입니다!</p>
     <a routerLink="/">홈으로 돌아가기</a>
-  `
+  `,
 })
-export class AboutComponent { }
+export class AboutComponent {}
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - app-routing.module.ts 파일에서 앱 라우팅을 설정하세요:
 
 ```typescript
-import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
-import { HomeComponent } from './home.component';
-import { AboutComponent } from './about.component';
+import { NgModule } from "@angular/core";
+import { RouterModule, Routes } from "@angular/router";
+import { HomeComponent } from "./home.component";
+import { AboutComponent } from "./about.component";
 const routes: Routes = [
-  { path: '', component: HomeComponent },
-  { path: 'about', component: AboutComponent },
+  { path: "", component: HomeComponent },
+  { path: "about", component: AboutComponent },
 ];
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
 ```
 
 - 앱 컴포넌트 템플릿에 router-outlet 지시자를 추가하세요:
@@ -355,7 +516,18 @@ export class AppRoutingModule { }
 <router-outlet></router-outlet>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앱을 실행하면 HomeComponent가 표시되어 AboutComponent로 이동할 수 있는 링크가 나타납니다. 링크를 클릭하면 AboutComponent로 이동하고, AboutComponent에는 HomeComponent로 돌아갈 수 있는 링크가 있습니다.
 
@@ -365,7 +537,18 @@ export class AppRoutingModule { }
 
 Angular의 Title 서비스는 현재 HTML 문서의 제목을 동적으로 설정하는 방법을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기본적으로 HTML 문서의 제목은 페이지의 head 섹션에서 `title` 태그를 사용하여 설정됩니다. Angular로 구축된 단일 페이지 애플리케이션(SPA)에서 사용자가 다른 뷰나 컴포넌트 간을 이동할 때 페이지의 제목을 동적으로 변경할 수 있습니다.
 
@@ -377,7 +560,18 @@ Title 서비스를 사용하면 Angular 컴포넌트에서 현재 HTML 문서의
 ng generate service TitleService
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - src/app 폴더에 생성된 title.service.ts 파일을 열어서 다음 코드를 추가해주세요:
 
@@ -441,32 +635,43 @@ export class AppComponent implements OnInit {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 라우트 파일에 다음과 같이 각 라우트에 title 속성을 갖는 데이터 객체를 추가해 주세요:
 
 ```js
-import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
-import { HomeComponent } from './home.component';
-import { AboutComponent } from './about.component';
+import { NgModule } from "@angular/core";
+import { RouterModule, Routes } from "@angular/router";
+import { HomeComponent } from "./home.component";
+import { AboutComponent } from "./about.component";
 
 const routes: Routes = [
   {
-    path: '',
+    path: "",
     component: HomeComponent,
-    data: { title: '홈 페이지' }
+    data: { title: "홈 페이지" },
   },
   {
-    path: 'about',
+    path: "about",
     component: AboutComponent,
-    data: { title: '소개 페이지' }
-  }
+    data: { title: "소개 페이지" },
+  },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
 export class AppRoutingModule {}
 ```
@@ -475,7 +680,18 @@ export class AppRoutingModule {}
 
 이것은 내장 서비스 중 일부일뿐이며, Angular 공식 문서에서 더 많은 것을 배울 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 커스텀 서비스
 
@@ -485,20 +701,31 @@ Angular에서는 커스텀 서비스를 만들어서 로직과 기능을 캡슐�
 - 이 파일에서 @angular/core 모듈에서 Injectable 데코레이터를 가져와야 합니다.
 
 ```js
-import { Injectable } from '@angular/core';
+import { Injectable } from "@angular/core";
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. 다음으로, 우리는 사용자 정의 서비스 클래스에 @Injectable 데코레이터를 추가해야 합니다. 이는 Angular에게 이 클래스가 종속성과 함께 주입될 수 있다는 것을 알려줍니다.
 
 ```js
 @Injectable({
-  providedIn: 'root'
+  providedIn: "root",
 })
 export class CustomService {
-  constructor() { }
-  
+  constructor() {}
+
   // 여기에 사용자 정의 서비스 메서드 정의
 }
 ```
@@ -507,18 +734,29 @@ export class CustomService {
 
 ```js
 @Injectable({
-  providedIn: 'root'
+  providedIn: "root",
 })
 export class CustomService {
-  constructor() { }
-  
+  constructor() {}
+
   sayHello(name: string): string {
     return `안녕, ${name}!`;
   }
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 5. 컴포넌트에서 사용자 정의 서비스를 사용하려면 해당 서비스를 컴포넌트의 생성자에 주입해야 합니다. MyComponent라는 새 컴포넌트를 생성하고 CustomService를 주입해 보겠습니다.
 
@@ -541,7 +779,18 @@ export class MyComponent {
 
 이제 Angular 애플리케이션 전반에 걸쳐 사용할 수 있는 사용자 정의 서비스를 갖게 되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Angular에서 서비스의 중요성
 
@@ -556,7 +805,18 @@ export class MyComponent {
 
 # Angular 서비스 사용시 최선의 방법
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Angular 서비스는 응용 프로그램 전체에서 기능을 구성하고 공유하는 데 중요한 역할을 합니다. Angular에서 서비스를 최대한 활용하기 위해서는 최상의 관행을 따르는 것이 중요합니다. 이 글에서는 Angular 서비스 작업 시의 최상의 관행에 대해 알아보겠습니다.
 
@@ -566,13 +826,24 @@ Angular 서비스는 응용 프로그램 전체에서 기능을 구성하고 공
 
 - Injectable 데코레이터를 사용하세요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Angular에서 의존성 주입을 활성화하려면 서비스에 @Injectable 데코레이터가 있어야 합니다. 이 데코레이터는 Angular이 서비스에 의존성을 주입하는 데 사용하는 메타데이터를 제공합니다.
 
 ```js
 @Injectable({
-  providedIn: 'root'
+  providedIn: "root",
 })
 export class MyService {
   // 서비스 코드를 여기에 작성합니다
@@ -583,7 +854,18 @@ export class MyService {
 
 - 서비스에서는 비공개 속성을 사용하세요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 서비스에서 비공개 속성을 사용하는 것이 좋은 방법입니다. 비공개 속성은 서비스 외부에서 직접 액세스할 수 없기 때문에 서비스의 상태에 예기치 않은 변경을 방지하는 데 도움이 됩니다.
 
@@ -593,7 +875,7 @@ export class MyService {
 })
 export class MyService {
   private myProperty: any;
-  
+
   // 서비스 코드 작성
 }
 ```
@@ -602,7 +884,18 @@ export class MyService {
 
 서비스에 의존성을 주입하려면 생성자 인젝션을 사용합니다. 이를 위해 생성자 매개변수에 의존성을 선언하고, Angular가 의존성 주입을 처리합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 @Injectable({
@@ -621,8 +914,18 @@ Angular의 이전 버전에서는 서비스가 NgModule의 providers 배열에 �
 
 - 컴포넌트 간에 통신하기 위해 서비스를 사용하세요
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 서비스는 컴포넌트 간에 통신하는 데 사용될 수 있으며 데이터 및 기능을 서로 공유할 수 있도록 합니다. 이것은 서로 직접적으로 관련이 없지만 서로 통신해아하는 컴포넌트들에게 특히 유용합니다.
 
@@ -633,7 +936,7 @@ Angular의 이전 버전에서는 서비스가 NgModule의 providers 배열에 �
 export class MyService {
   private dataSubject = new BehaviorSubject<any>(null);
   public data$ = this.dataSubject.asObservable();
-  
+
   setData(data: any) {
     this.dataSubject.next(data);
   }
@@ -644,7 +947,18 @@ export class MyService {
 
 # 추가 학습 자료
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 추가 학습을 위한 다양한 자원이 많이 있어요. 아래는 Angular에 대한 깊은 이해를 돕는 데 도움이 되는 몇 가지 자원들이에요:
 
@@ -658,7 +972,18 @@ export class MyService {
 
 여기까지 읽어주셔서 정말 감사드려요! 이 기사를 끝까지 읽어보시고 도움이 되셨기를 바래요. 저는 Medium, Twitter, Linkedin 및 Facebook에서도 저를 팔로우하실 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 질문이 있으면 언제든지 물어보세요.
 

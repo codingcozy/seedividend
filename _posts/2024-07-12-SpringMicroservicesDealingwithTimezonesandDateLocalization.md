@@ -3,17 +3,13 @@ title: "스프링 마이크로서비스 타임존 및 날짜 로컬라이제이�
 description: ""
 coverImage: "/assets/img/2024-07-12-SpringMicroservicesDealingwithTimezonesandDateLocalization_0.png"
 date: 2024-07-12 21:12
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-12-SpringMicroservicesDealingwithTimezonesandDateLocalization_0.png
 tag: Tech
 originalTitle: "Spring Microservices: Dealing with Timezones and Date Localization"
 link: "https://medium.com/@AlexanderObregon/spring-microservices-dealing-with-timezones-and-date-localization-3924817d8be2"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-07-12-SpringMicroservicesDealingwithTimezonesandDateLocalization_0.png)
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 # Microservices에서의 시간대 도전
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마이크로서비스와 분산 아키텍처의 증가하는 채택으로 인해, 개발자들이 서로 다른 시간대를 다루면서 발생하는 복잡성에 대해 대책을 세워야 하는 필수적인 일이 되었습니다. 전 세계 어플리케이션 시대로 더 깊이 파고들수록, 다양한 시간대에서의 시간 데이터를 관리하고 해석하는 것이 간단히 이쁨이 아니라 필수적인 일임을 알 수 있습니다.
 
@@ -34,7 +40,18 @@ isUpdated: true
 
 실제 시나리오를 살펴보겠습니다: 세계적인 전자 상거래 플랫폼. 런던에 있는 사용자가 오후 3시 GMT에 주문을 한다고 가정해보겠습니다. 이 주문은 싱가포르에 위치한 데이터 센터에서 호스팅되는 재고 확인 마이크로서비스를 활성화할 수 있습니다. 동시에 뉴욕에 위치한 알림 서비스가 활성화되어 창고 팀에 알림을 줄 수도 있습니다. 이 간단한 거래는 세 개의 다른 시간대를 걸쳐 이루어집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 그렇다면, 어떤 도전 과제가 있는가요?
 
@@ -46,19 +63,43 @@ isUpdated: true
 
 협정 세계 표준시(UTC)는 이러한 여러 시간대의 복잡한 문제에 대한 슈퍼히어로로 등장합니다. 그렇다면 UTC가 왜 중요한 것일까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 균일한 표준: 세계 표준시(UTC)는 일광 절약 시간(DST) 조정이나 지역 시간대의 특이 사항에 영향을 받지 않습니다.
 - 간소화: 마이크로서비스의 내부 작업은 UTC에 뿌리를 둔 채 유저에게 노출되는 기능은 유저의 지역 시간대로 변환할 수 있습니다. 이 분리는 핵심 비즈니스 로직이 다양한 시간대의 도전에 영향을 받지 않도록 보장합니다.
 - 글로벌 동기화: 글로벌 시스템, 특히 금융 거래 플랫폼이나 항공편 예약 시스템과 같은 고도로 동기화가 필요한 시스템에서는 UTC에서 작동함으로써 거래 시간에 모호함이 없도록 보장합니다.
+
 ## 시간대 데이터 저장 및 검색
 
 날짜 및 시간 데이터를 저장할 때 사용하는 전략은 시간대 관리에 중요한 역할을 합니다:
+
 - 데이터베이스 시간대 설정: 많은 데이터베이스는 시간대 설정을 가지고 있습니다. 이 설정이 UTC를 사용하도록 구성되어 있는지 확인하는 것이 중요합니다. 기본 설정에서 두면 일부 데이터베이스가 서버 시간대를 사용할 수 있어 혼란과 오해를 야기할 수 있습니다.
 - 유저 프로필 시간대: 언제나 유저 프로필에 시간대 필드를 유지하세요. 이 관행은 필요할 때마다 데이터를 유저의 지역 시간대로 변환하고 표시하는 데 도움이 됩니다. 또한 유저가 여행을 할 때에도 유저 프로필을 조정하여 현재 시간대를 반영할 수 있습니다.
 - 서비스 간 통신: 한 마이크로서비스가 다른 서비스와 통신할 때는 항상 UTC에서 날짜 및 시간 데이터를 전송하세요. 이 접근 방식은 서비스가 호스팅되는 위치나 해당 지역 설정에 관계없이 시간 데이터가 일관되게 유지되도록 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Spring을 사용하여 날짜 로컬라이징하기
 
@@ -68,7 +109,18 @@ isUpdated: true
 
 로케일은 특정 지리적, 정치적 또는 문화적 지역을 나타냅니다. 이는 언어 선호도 뿐만 아니라 날짜, 시간, 숫자 및 통화 형식을 지시합니다. 날짜 관련 맥락에서의 차이는 "MM/dd/yyyy" 또는 "dd/MM/yyyy"와 같은 날짜 형식이 달라지는 것만 일 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스프링의 코어 모듈은 국제화(i18n)와 지역화(l10n)를 지원하며, 날짜, 시간 및 메시지의 표현을 포함합니다.
 
@@ -84,7 +136,18 @@ import org.springframework.context.i18n.LocaleContextHolder;
 Locale currentLocale = LocaleContextHolder.getLocale();
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Spring에서 로캘은 다양한 방법으로 결정될 수 있어요:
 
@@ -96,7 +159,18 @@ Spring에서 로캘은 다양한 방법으로 결정될 수 있어요:
 
 사용자의 로캘이 결정되면 날짜를 사용자의 기대에 맞게 서식 지정할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 import java.time.format.DateTimeFormatter;
@@ -114,8 +188,18 @@ String formattedDate = LocalDateTime.now().format(formatter);
 
 Spring의 MessageSource는 국제화에 강력한 메커니즘입니다. 이 메커니즘은 날짜 패턴에도 사용될 수 있습니다. 각 지역마다 다른 날짜 패턴을 가지도록 설정하는 것을 고려해보세요:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # messages_en_US.properties
@@ -146,8 +230,18 @@ String formattedDate = LocalDate.now().format(formatter);
 
 ## 비-그레고리안 달력 처리하기
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Spring은 일본 또는 태국 불교 달력과 같은 그레고리오력이 아닌 달력을 지원하는 기능도 제공합니다. 만약 여러분의 애플리케이션이 그레고리오력이 아닌 달력을 사용하는 지역을 대상으로 한다면, 해당 날짜가 지역화되어야 한다는 것이 중요합니다.
 
@@ -157,7 +251,18 @@ Spring은 일본 또는 태국 불교 달력과 같은 그레고리오력이 아
 
 ## 시간대 관리의 중요성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 솔루션에 들어가기 전에, 시간대 관리의 중요성에 대해 간략히 논의해 봅시다:
 
@@ -169,7 +274,18 @@ Spring은 일본 또는 태국 불교 달력과 같은 그레고리오력이 아
 
 Java 8은 java.time 패키지 아래에 새로운 Date and Time API를 도입했으며, 이를 통해 날짜와 시간 조작을 위한 포괄적이고 변경할 수 없는 클래스 세트가 제공되었습니다. ZoneId 및 ZonedDateTime과 같은 클래스를 사용하여 시간대 처리를 간단하게 수행할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 날짜 저장하기: UTC 방식
 
@@ -185,7 +301,18 @@ import java.time.Instant;
 Instant now = Instant.now();
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터베이스에 저장할 때 UTC로 현재 시간을 나타내면 일관성이 유지됩니다.
 
@@ -203,9 +330,21 @@ ZoneId userZoneId = ZoneId.of("Europe/London"); // 예시
 ZonedDateTime userLocalTime = now.atZone(userZoneId);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용자의 시간대를 결정하는 여러 가지 방법이 있습니다. 다음 중 하나를 통해 결정할 수 있습니다:
+
 - 사용자의 프로필 설정에서 확인하기.
 - 사용자의 IP 주소를 통해 추론하기.
 - 브라우저나 기기 설정을 이용하기.
@@ -214,7 +353,18 @@ ZonedDateTime userLocalTime = now.atZone(userZoneId);
 
 날짜를 UTC로 저장하는 것이 좋지만, 때로는 레거시 시스템이나 서드 파티 API와 통합할 때와 같이 Spring Boot 애플리케이션에 기본 시간대를 설정해야 할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시작 시 JVM의 기본 시간대를 설정할 수 있어요:
 
@@ -228,7 +378,18 @@ java -Duser.timezone=UTC -jar your-spring-boot-app.jar
 TimeZone.setDefault(TimeZone.getTimeZone("UTC"));
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 JVM의 기본 시간대를 변경하면 응용 프로그램의 모든 날짜 및 시간 작업에 영향을 미칩니다. 그러므로 보통은 기본값에 의존하는 대신 명시적으로 시간대를 처리하는 것이 가장 좋습니다.
 
@@ -237,10 +398,21 @@ JVM의 기본 시간대를 변경하면 응용 프로그램의 모든 날짜 및
 만약 Spring Boot와 JPA 그리고 Hibernate를 사용 중이라면, Hibernate가 날짜와 시간 값을 UTC로 처리하도록 하는 것이 매우 중요합니다. 다음 속성을 적용해야 합니다. application.properties 또는 application.yml 파일에:
 
 ```js
-spring.jpa.properties.hibernate.jdbc.time_zone = UTC
+spring.jpa.properties.hibernate.jdbc.time_zone = UTC;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 구성은 하이버네이트가 모든 날짜-시간 작업에 대해 UTC를 사용하도록 보장합니다.
 
@@ -250,7 +422,18 @@ spring.jpa.properties.hibernate.jdbc.time_zone = UTC
 
 ## 항상 내부적으로 UTC 사용하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - UTC를 기준으로 표준화: 모든 마이크로서비스가 조정 세계시(UTC)를 표준으로 사용하도록 합니다. 이는 일관된 기준을 제공하여 필요할 때 로컬 시간대로 변환하기 쉽게 합니다.
 - 비즈니스 로직에 지역 시간 사용하지 않기: 서버의 지역 시간을 기반으로 한 비즈니스 로직을 사용해서는 안 됩니다. 서버 위치가 변경될 수 있거나 동일 서비스가 다른 시간대에서 실행될 수 있기 때문입니다.
@@ -262,7 +445,18 @@ spring.jpa.properties.hibernate.jdbc.time_zone = UTC
 
 ## 서머타임(Daylight Saving Time, DST)에 유의하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 가정하지 말기: UTC와 로컬 시간대 간의 오프셋이 일정하다고 가정하지 말아야 합니다. 일광 절약 시간(DST) 때문에 변할 수 있습니다.
 - 라이브러리 활용: Java의 java.time 패키지나 Joda-Time과 같은 이미 구축된 라이브러리를 사용하세요. 이 라이브러리에는 DST 규칙이 내장되어 있습니다.
@@ -274,7 +468,18 @@ spring.jpa.properties.hibernate.jdbc.time_zone = UTC
 
 ## 적절한 데이터베이스 구성 확인하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - UTC에 대한 데이터베이스 구성: 데이터베이스는 UTC로 날짜를 저장하도록 구성되어야 합니다. 이를 통해 데이터 일관성이 유지되며, 특히 데이터베이스 서버가 이동하거나 다른 시간대 간 복제가 있는 경우에도 도움이 됩니다.
 - 데이터베이스 시간대 동작 테스트: 서로 다른 데이터베이스는 시간대를 다르게 처리합니다. 날짜 및 시간 저장 및 검색에 대한 가정이 유효한지 정기적으로 테스트해야 합니다.
@@ -286,7 +491,18 @@ spring.jpa.properties.hibernate.jdbc.time_zone = UTC
 
 ## 시간대 컨텍스트에 헤더 사용
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 시간대를 위한 HTTP 헤더: RESTful API를 노출할 때는 HTTP 헤더를 사용하여 시간대 컨텍스트를 지정하는 것이 좋습니다. 예를 들어, X-User-Timezone과 같은 사용자의 시간대를 나타내는 사용자 정의 헤더를 사용할 수 있습니다.
 - 기본값은 UTC: 서비스 간 통신에서 시간대가 제공되지 않는 경우에는 항상 일관성을 유지하기 위해 기본적으로 UTC를 사용하는 것이 좋습니다.
@@ -299,7 +515,17 @@ Spring Microservices에서 시간대와 날짜 지역화를 처리하는 것은 
 - IANA 시간대 데이터베이스
 - Joda-Time — Java 날짜 및 시간 API
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-07-12-SpringMicroservicesDealingwithTimezonesandDateLocalization_1.png)

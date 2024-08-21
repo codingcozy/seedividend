@@ -3,16 +3,13 @@ title: "오늘 React 컴파일러를 사용해 봤는데, 결과가 "
 description: ""
 coverImage: "/assets/img/2024-06-22-ItriedReactCompilertodayandguesswhat_0.png"
 date: 2024-06-22 04:52
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-ItriedReactCompilertodayandguesswhat_0.png
 tag: Tech
 originalTitle: "I tried React Compiler today, and guess what… 😉"
 link: "https://medium.com/@adevnadia/i-tried-react-compiler-today-and-guess-what-c0570ce10ecc"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-06-22-ItriedReactCompilertodayandguesswhat_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 이제 우리의 시간표가 그들의 시간표에 따라잡혔고, React Compiler가 실험적인 기능으로 실제로 일반 대중에게 출시되었으니, 앞으로 리액트에서는 메모이제이션을 잊을 수 있는지 여부를 조사해 봐야 할 때입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 리액트 컴파일러란?
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-22-ItriedReactCompilertodayandguesswhat_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 하위 다시 렌더링이 무겁거나 너무 자주 발생하면, 앱의 성능 문제를 야기할 수 있습니다.
 
@@ -42,7 +61,18 @@ isUpdated: true
 
 여기서 React 컴파일러가 등장합니다. 컴파일러는 React 코어 팀에 의해 개발된 도구입니다. 이 도구는 빌드 시스템에 통합되어 원본 컴포넌트 코드를 가져와 컴포넌트, 그 프롭스, 그리고 훅의 의존성이 기본적으로 메모이제이션되도록 코드로 변환하려고 노력합니다. 최종 결과는 모든 것을 memo, useMemo 또는 useCallback으로 감싸는 것과 유사합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 단지 그것을 이해하기 위해 대략적인 것일 뿐이에요. 실제로는 훨씬 더 복잡한 변환을 합니다. Jack Herrington이 최근 비디오에서 이에 대한 좋은 개요를 제시했어요(React Compiler: In-Depth Beyond React Conf 2024), 실제 세부 내용을 알고 싶다면 보는 것을 권해드려요. 혹은, 굉장히 복잡한 것을 체감하고 싶다면 "React Compiler Deep Dive" 토크에서 Sathya Gunasekaran이 컴파일러를 설명하고 Mofei Zhang이 20분 동안 실시간 코딩하는 것을 보세요. 🤯
 
@@ -52,7 +82,18 @@ isUpdated: true
 
 # 컴파일러 시도하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저에게 이 기사의 주요 목적은 컴파일러에 대한 우리의 기대가 현실과 일치하는지 조사하는 것이었습니다. 현재의 약속은 무엇인가요?
 
@@ -63,7 +104,18 @@ isUpdated: true
 
 ## 단순 예제: 독립적으로 컴파일러 테스트하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단한 예제의 전체 코드는 여기에서 확인할 수 있습니다: https://github.com/developerway/react-compiler-test
 
@@ -75,7 +127,18 @@ npm install next@canary babel-plugin-react-compiler
 
 그런 다음, next.config.js에서 컴파일러를 켤 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const nextConfig = {
@@ -93,7 +156,18 @@ module.exports = nextConfig;
 
 지금까지의 가정이 맞았습니다: 설치는 매우 간단하고 그냥 작동합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코드 작성을 시작해봅시다. 컴파일러가 어떻게 처리하는지 확인해 봅시다.
 
@@ -105,9 +179,7 @@ const SimpleCase1 = () => {
 
   return (
     <div>
-      <button onClick={() => setIsOpen(!isOpen)}>
-        다이얼로그 전환
-      </button>
+      <button onClick={() => setIsOpen(!isOpen)}>다이얼로그 전환</button>
       {isOpen && <Dialog />}
       <VerySlowComponent />
     </div>
@@ -117,7 +189,18 @@ const SimpleCase1 = () => {
 
 우리는 modal dialog가 열려 있는지 여부를 제어하는 isOpen 상태 변수를 가지고 있으며, 동일한 컴포넌트에서 렌더링된 VerySlowComponent가 있습니다. 일반 React 동작은 isOpen 상태가 변경될 때마다 VerySlowComponent를 다시 렌더링하므로, dialog가 지연되어 팝업하는 것을 볼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일반적으로 이러한 상황을 메모이제이션을 사용하여 해결하려면 (물론 다른 방법도 있지만), React.memo로 VerySlowComponent를 감싸야 합니다:
 
@@ -140,7 +223,18 @@ const SimpleCase1 = () => {
 
 [이 예제의 전체 코드는 여기에서 확인할 수 있습니다.](링크)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 두 번째 예시: 느린 컴포넌트의 속성(props).
 
@@ -153,7 +247,7 @@ const SimpleCase2 = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const onSubmit = () => {};
-  const data = [{ id: 'bla' }];
+  const data = [{ id: "bla" }];
 
   return (
     <>
@@ -164,7 +258,18 @@ const SimpleCase2 = () => {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금 수동 메모이제이션의 경우에는 React.memo로 VerySlowComponent를 감싸는 것 외에도 배열을 useMemo로 감싸고 (어떤 이유로 이를 바깥쪽으로 옮기지 못한다는 것을 가정해 봅시다) onSubmit을 useCallback으로 감싸야 합니다:
 
@@ -178,15 +283,12 @@ export const SimpleCase2Memo = () => {
   const onSubmit = useCallback(() => {}, []);
 
   // 여기에 메모이제이션
-  const data = useMemo(() => [{ id: 'bla' }], []);
+  const data = useMemo(() => [{ id: "bla" }], []);
 
   return (
     <div>
       ...
-      <VerySlowComponentMemo
-        onSubmit={onSubmit}
-        data={data}
-      />
+      <VerySlowComponentMemo onSubmit={onSubmit} data={data} />
     </div>
   );
 };
@@ -196,7 +298,18 @@ export const SimpleCase2Memo = () => {
 
 이 저장소에서 이러한 예제를 로컬에서 실행할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 세 번째 예시: 자식 요소로 요소들.
 
@@ -219,7 +332,18 @@ export const SimpleCase3 = () => {
 
 머릿속으로 바로 VerySlowComponent를 올바르게 메모이즈하는 방법을 기억할 수 있나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대부분의 사람들은 VerySlowComponent와 SomeOtherComponent를 모두 React.memo로 감싸야 한다고 생각할 것입니다. 하지만 이것은 틀렸어요. 우리는 대신에 `SomeOtherComponent /` 요소를 useMemo로 감싸야 합니다. 아래처럼요:
 
@@ -245,7 +369,18 @@ export const SimpleCase3 = () => {
 
 다행히 React 컴파일러는 여기서도 마법을 부릅니다 ✨! 모든 것이 메모이제이션되어, 매우 느린 컴포넌트는 다시 렌더링되지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 세 번의 시도 가운데 세 번 모두 성공하셨네요, 인상적입니다! 하지만 그 예시들은 매우 간단했죠. 현실에서는 쉬운 것이 그렇게 많지 않죠? 이제 진짜 도전을 해보겠습니다.
 
@@ -257,7 +392,18 @@ export const SimpleCase3 = () => {
 - 앱 둘: 조금 더 최근에 만들어진데도 여전히 상당히 큰 React & Next.js 앱으로, 여러 사람이 작성한 코드입니다.
 - 앱 셋: 제 개인 프로젝트로, 매우 최근에 시작했고, 최신 Next.js를 사용하며, 아주 작습니다 — 몇 개의 CRUD 작업을 수행하는 화면이 몇 개 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각 앱에 대해 다음을 수행했습니다:
 
@@ -272,7 +418,18 @@ export const SimpleCase3 = () => {
 
 이 앱은 아마도 React 부분의 전체 코드의 약 15만 줄 정도일 것으로 예상됩니다. 이 앱에는 10 개의 명확한 불필요한 다시 렌더링 사례를 식별했습니다. 그 중 일부는 전체 헤더 구성 요소를 전체 다시 렌더링하는 것과 같이 매우 사소한 것이었습니다. 또 다른 것은 입력 필드에 타이핑할 때 전체 페이지를 다시 렌더링하는 것과 같이 좀 더 큰 사례였습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 초기 건강 진단: 구성 요소의 97.7%가 컴파일될 수 있었습니다! 호환되지 않는 라이브러리는 없습니다.
 - Eslint 체크: 규칙 위반이 20건 발견되었습니다.
@@ -286,7 +443,18 @@ export const SimpleCase3 = () => {
 
 이 앱은 훨씬 작아요, 대략 30,000줄 정도의 React 코드로 이루어져 있습니다. 여기에서도 10가지 불필요한 재랜더링을 확인했어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 초기 건강 확인: 동일 결과, 97.7% 구성 요소가 컴파일될 수 있었습니다.
 - Eslint 확인: 단 하나의 규칙 위반만 발견되었어요! 🎉 완벽한 후보입니다.
@@ -299,7 +467,18 @@ export const SimpleCase3 = () => {
 
 이것은 모두 중에서 가장 작은 앱이며, 주말 또는 몇 주 동안 작성되었습니다. 데이터 테이블이 있는 몇 개 페이지와 테이블에서 엔티티를 추가/편집/제거할 수 있는 기능만 있어요. 앱 전체가 아주 작고 간단해서, 내가 식별한 불필요한 재랜더링이 8가지뿐이었습니다. 모든 상호작용에 대해 모든 것이 다시 렌더링되며, 어떠한 최적화 역시 하지 않았습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트 컴파일러에게 재랜더링 상황을 크게 개선할 수 있는 좋은 주제네요!
 
@@ -312,19 +491,39 @@ export const SimpleCase3 = () => {
 
 # 컴파일러에 의한 메모이제이션 결과 조사
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이슈를 유용하게 디버그하기 위해 세 번째 앱의 페이지 중 하나를 별도의 저장소로 추출했습니다. 여기서 확인할 수 있습니다: (https://github.com/developerway/react-compiler-test/) 제 생각을 따라가보고 코드 실습도 해보고 싶다면 들어가보세요. 세 번째 앱의 페이지 중 하나와 거의 동일한데, 가짜 데이터와 몇 가지 제거된 부분(SSR과 같은 것)이 있어서 디버깅 경험을 간소화했습니다.
 
 UI는 매우 간단합니다. 국가 목록이 있는 테이블, 각 행마다 "삭제" 버튼, 그리고 테이블 아래에 있는 입력 컴포넌트로 새로운 국가를 목록에 추가할 수 있습니다.
 
-
 ![테이블](/assets/img/2024-06-22-ItriedReactCompilertodayandguesswhat_3.png)
-
 
 코드적으로는 하나의 컴포넌트만 있는데, 상태, 쿼리 및 뮤테이션도 있습니다. 전체 코드는 여기 있습니다. 조사에 필요한 필수 정보만 있는 간소화된 버전은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 export const Countries = () => {
@@ -382,8 +581,18 @@ export const Countries = () => {
 
 이런 간단한 컴포넌트의 경우, 컴파일러가 이를 모두 해결해 줄 것으로 기대됩니다. 특히 React Dev Tools에서 모든 것이 메모이제이션되어 있는 것을 고려할 때요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![React Compiler](/assets/img/2024-06-22-ItriedReactCompilertodayandguesswhat_4.png)
 
@@ -393,8 +602,18 @@ export const Countries = () => {
 
 테이블 내 모든 컴포넌트에 console.log를 추가하면 헤더 컴포넌트를 제외한 모든 것이 모든 원천에서 상태 업데이트 시 다시 렌더링됩니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 왜 그러한지 조사하는 방법은 무엇인가요? 🤔
 
@@ -404,7 +623,18 @@ export const Countries = () => {
 
 # 수동 메모화를 통한 조사
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 부분은 모든 수동 메모이제이션 기술이 어떻게 작동하는지 완전히 이해하는 사람을 대상으로 합니다. React.memo, useMemo 또는 useCallback에 대해 불편하게 느낀다면, 먼저 이 비디오를 시청하는 것을 추천합니다.
 
@@ -414,7 +644,18 @@ export const Countries = () => {
 
 우리는 다시 테이블을 자세히 살펴보겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <Table>
@@ -429,15 +670,10 @@ export const Countries = () => {
     {countries?.map(({ name }, index) => (
       <TableRow key={`${name.toLowerCase()}`}>
         <TableCell className="font-medium">
-          <Link href={`/country/${name.toLowerCase()}`}>
-            {name}
-          </Link>
+          <Link href={`/country/${name.toLowerCase()}`}>{name}</Link>
         </TableCell>
         <TableCell className="text-right">
-          <Button
-            onClick={() => onDelete(name)}
-            variant="outline"
-          >
+          <Button onClick={() => onDelete(name)} variant="outline">
             삭제
           </Button>
         </TableCell>
@@ -458,15 +694,10 @@ const body = useMemo(
     countries?.map(({ name }, index) => (
       <TableRow key={`${name.toLowerCase()}`}>
         <TableCell className="font-medium">
-          <Link href={`/country/${name.toLowerCase()}`}>
-            {name}
-          </Link>
+          <Link href={`/country/${name.toLowerCase()}`}>{name}</Link>
         </TableCell>
         <TableCell className="text-right">
-          <Button
-            onClick={() => onDelete(name)}
-            variant="outline"
-          >
+          <Button onClick={() => onDelete(name)} variant="outline">
             삭제
           </Button>
         </TableCell>
@@ -474,11 +705,22 @@ const body = useMemo(
     )),
   // 이 부분은 그 코드 덩어리에서 사용되는 종속성들입니다.
   // eslint를 감사하게 생각합니다!
-  [countries, onDelete],
+  [countries, onDelete]
 );
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 전체 부분이 데이터의 countries 배열과 onDelete 콜백에 의존함을 명확히 알 수 있습니다. countries 배열은 쿼리에서 가져오기 때문에 매번 다시 렌더링될 수 없습니다. 이를 캐싱하는 것이 라이브러리의 주요 책임 중 하나입니다.
 
@@ -492,14 +734,25 @@ const onDelete = (name: string) => {
 
 이것이 의존성으로 들어가려면 memoized 되어야 합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const onDelete = useCallback(
   (name: string) => {
     deleteCountryMutation.mutate(name);
   },
-  [deleteCountryMutation],
+  [deleteCountryMutation]
 );
 ```
 
@@ -511,7 +764,18 @@ const deleteCountryMutation = useMutation({...});
 
 마지막 단계는 TableBody를 메모이즈하고 메모이즈된 자식을 렌더링하는 것입니다. 모든 것이 올바르게 메모이즈되었다면, 입력란에 타이핑할 때 행과 셀의 재렌더링이 멈추어야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const TableBodyMemo = React.memo(TableBody);
@@ -530,7 +794,18 @@ return { ...result, mutate, mutateAsync: result.mutate };
 
 반환값은 memoized되지 않은 객체야요!! 단순히 의존성으로 사용할 수 있다고 가정했던 것이 잘못된 판단이었네요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 mutate 함수 자체가 기억화(memoized)되어 있습니다. 이론상으로는, 의존성에 전달하는 것만으로 충분할 것 같아요:
 
@@ -553,7 +828,18 @@ const onDelete = useCallback(
 
 이제 이 단계를 거치면, 이론상으로 모든 수동 메모화를 제거하고 mutate 수정만 남기면, React 컴파일러가 이를 인식할 수 있어야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 정말 그렇죠! 이제 텍스트를 입력할 때 테이블 행과 셀이 더 이상 다시 렌더링되지 않네요 🎉
 
@@ -563,41 +849,59 @@ const onDelete = useCallback(
 
 ## "추가" 및 "삭제" 재렌더링 조사하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그는 다음과 같이 Markdown 형식으로 변경해보겠습니다.
 
-
-| TableBody |
-| --- |
+| TableBody                              |
+| -------------------------------------- | ---------------------------------------------- |
 | {countries?.map(({ name }, index) => ( |
-|   | <TableRow key={index}> |
-|   |   <TableCell className="font-medium"> |
-|   |     <Link href={`/country/${name.toLowerCase()}`}> |
-|   |       {name} |
-|   |     </Link> |
-|   |   </TableCell> |
-|   |   <TableCell className="text-right"> |
-|   |     <Button |
-|   |       onClick={() => onDelete(name)} |
-|   |       variant="outline"|
-|   |     > |
-|   |       Delete |
-|   |     </Button> |
-|   |   </TableCell> |
-|   </TableRow> |
-| ))} |
+|                                        | <TableRow key={index}>                         |
+|                                        | <TableCell className="font-medium">            |
+|                                        | <Link href={`/country/${name.toLowerCase()}`}> |
+|                                        | {name}                                         |
+|                                        | </Link>                                        |
+|                                        | </TableCell>                                   |
+|                                        | <TableCell className="text-right">             |
+|                                        | <Button                                        |
+|                                        | onClick={() => onDelete(name)}                 |
+|                                        | variant="outline"                              |
+|                                        | >                                              |
+|                                        | Delete                                         |
+|                                        | </Button>                                      |
+|                                        | </TableCell>                                   |
+| </TableRow>                            |
+| ))}                                    |
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, "key" 속성을 배열의 위치가 아니라 국가와 일치하도록 확인하세요. 인덱스는 사용하지 마세요. 목록의 처음에서 국가를 제거하면 아래의 모든 행의 인덱스가 변경되어 메모이제이션이 강제로 다시 렌더링되게 됩니다. 실제로는 각 국가를 위한 어떤 종류의 ID를 도입해야 할 것입니다. 우리 간소화된 경우에서는 이름을 사용하고 중복 이름을 추가하지 않도록 해야 합니다. 키는 고유해야 합니다.
 
 ```js
 {
-  countries?.map(({ name }) => (
-    <TableRow key={name}>...</TableRow>
-  ));
+  countries?.map(({ name }) => <TableRow key={name}>...</TableRow>);
 }
 ```
 
@@ -607,17 +911,25 @@ const onDelete = useCallback(
 const TableRowMemo = React.memo(TableRow);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 TableRow의 자식 요소를 useMemo로 메모이제이션하세요:
 
 ```js
 {
   countries?.map(({ name }) => (
-    <TableRow key={name}>
-      ... // 여기 안의 모든 것을 useMemo로 메모이제이션해야 합니다
-      with useMemo
-    </TableRow>
+    <TableRow key={name}>... // 여기 안의 모든 것을 useMemo로 메모이제이션해야 합니다 with useMemo</TableRow>
   ));
 }
 ```
@@ -626,22 +938,28 @@ TableRow의 자식 요소를 useMemo로 메모이제이션하세요:
 
 이를 해결하기 위해 TableRow 전체 내용을 컴포넌트로 추출해야 합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const CountryRow = ({ name, onDelete }) => {
   return (
     <TableRow>
       <TableCell className="font-medium">
-        <Link href={`/country/${name.toLowerCase()}`}>
-          {name}
-        </Link>
+        <Link href={`/country/${name.toLowerCase()}`}>{name}</Link>
       </TableCell>
       <TableCell className="text-right">
-        <Button
-          onClick={() => onDelete(name)}
-          variant="outline"
-        >
+        <Button onClick={() => onDelete(name)} variant="outline">
           Delete
         </Button>
       </TableCell>
@@ -655,19 +973,25 @@ const CountryRow = ({ name, onDelete }) => {
 ```js
 <TableBody>
   {countries?.map(({ name }) => (
-    <CountryRow
-      name={name}
-      onDelete={onDelete}
-      key={name}
-    />
+    <CountryRow name={name} onDelete={onDelete} key={name} />
   ))}
 </TableBody>
 ```
 
 그리고 CountryRow를 React.memo로 감싸주세요. onDelete은 이미 메모이제이션되어 있습니다 - 우리가 이미 수정했어요.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 매뉴얼 메모이제이션을 구현할 필요가 없었어요. 그 행들을 컴포넌트로 추출하기만 하자마자 컴파일러가 즉시 이를 감지하여 다시 렌더링이 멈춰버렸어요 🎉. 인간 대 기계 전투에서 2 대 0!
 
@@ -677,7 +1001,18 @@ const CountryRow = ({ name, onDelete }) => {
 
 # 그럼 판단은 뭘까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컴파일러는 간단한 경우와 구성 요소에서 놀라운 성능을 보여줍니다. 3번 시도 중 3번 모두 맞았어요! 하지만 현실은 조금 더 복잡해요.
 
@@ -687,7 +1022,18 @@ const CountryRow = ({ name, onDelete }) => {
 
 컴파일러의 동작을 개선하기 위해 기존 코드를 수정해야 했던 변경 사항:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - useMutation 훅의 반환 값에서 mutate를 추출하여 코드에 직접 사용하십시오.
 - TableRow 및 내부 모든 것을 분리된 컴포넌트로 추출하십시오.
@@ -699,7 +1045,18 @@ const CountryRow = ({ name, onDelete }) => {
 
 그냥 작동합니까? 기술적으로, 네. 그냥 켜놓기만 하면 깨진 것 같지 않습니다. 그러나 React Dev Tools에서 메모이즈된 것처럼 보이지만 모든 것을 올바르게 메모이즈하지는 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컴파일러를 설치한 후 메모, useMemo, useCallback을 잊어버릴 수 있을까요? 절대 그렇지 않아요! 적어도 현재 상태에서는 아닌 것 같아요. 실제로, 지금보다 더 잘 알아야 할 필요성이 있고, 컴파일러에 최적화된 컴포넌트를 작성할 수 있는 감각을 키워나가야 해요. 또는 디버그할 때 다시 렌더링을 고치려는 상황에서 사용할 수 있어요.
 
@@ -709,7 +1066,18 @@ const CountryRow = ({ name, onDelete }) => {
 
 미래에서 온 방문자들에 대해서는, 저는 그들이 병렬 우주에서 왔다고 확신해요. React가 유연성이 높은 JavaScript보다 구조화된 언어로 작성되었고, 컴파일러가 그런 이유로 100%의 경우를 해결하는 놀라운 곳이죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 원문은 https://www.developerway.com에서 확인하실 수 있어요. 해당 웹사이트에는 이와 유사한 더 많은 기사가 있습니다. 😉
 

@@ -3,17 +3,13 @@ title: "Nextjs 13 프로젝트 프로덕션 배포 하기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "배포하기"
 link: "undefined"
 isUpdated: true
 ---
-
-
-
-
 
 # 배포하기
 
@@ -23,7 +19,18 @@ Next.js를 Vercel에서 관리된 서비스로 배포하거나 Node.js 서버, D
 
 ## 프로덕션 빌드
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `next build` 명령을 실행하면 프로덕션용으로 최적화된 애플리케이션 버전이 생성됩니다. 페이지에 기반하여 HTML, CSS 및 JavaScript 파일이 생성됩니다. JavaScript는 컴파일되고 브라우저 번들은 최적화되어 최상의 성능을 제공하며 모든 최신 브라우저를 지원하기 위해 Next.js 컴파일러를 사용합니다.
 
@@ -33,7 +40,18 @@ Next.js는 관리 및 자체 호스팅되는 Next.js에서 사용되는 표준 �
 
 Vercel은 Next.js의 창조자 및 유지자로서 Next.js 애플리케이션을 위한 관리 인프라 및 개발자 경험 플랫폼을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Vercel로 배포하는 것은 구성이 필요 없으며 전 세계적으로 확장 가능성, 가용성 및 성능을 향상시키는 추가 기능을 제공합니다. 그러나 Next.js의 모든 기능은 자체 호스팅 시에도 지원됩니다.
 
@@ -45,7 +63,18 @@ Vercel에서 Next.js에 대해 더 알아보기
 
 Next.js를 세 가지 다른 방법으로 자체 호스팅할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 노드.js 서버
 - 도커 컨테이너
@@ -65,7 +94,18 @@ Next.js는 노드.js를 지원하는 모든 호스팅 공급업체에 배포할 
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼 `npm run build`를 실행하여 애플리케이션을 빌드하세요. 마지막으로 `npm run start`를 실행하여 Node.js 서버를 시작하세요. 이 서버는 모든 Next.js 기능을 지원합니다.
 
@@ -78,7 +118,18 @@ Next.js는 Docker 컨테이너를 지원하는 모든 호스팅 공급업체에 
 - 컨테이너를 빌드하세요: `docker build -t nextjs-docker .`
 - 컨테이너를 실행하세요: `docker run -p 3000:3000 nextjs-docker`
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Docker를 통해 Next.js는 모든 Next.js 기능을 지원합니다.
 
@@ -88,7 +139,18 @@ Next.js는 정적 사이트 또는 Single-Page Application (SPA)로 시작하여
 
 Next.js는 이 정적 익스포트를 지원하기 때문에 HTML/CSS/JS 정적 에셋을 제공할 수 있는 모든 웹 서버에 배포하고 호스팅할 수 있습니다. 이에는 AWS S3, Nginx 또는 Apache와 같은 도구가 포함됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 정적 익스포트로 실행하면 서버가 필요한 Next.js 기능을 지원할 수 없습니다. 자세한 내용은 링크를 확인해보세요.
 
@@ -99,7 +161,18 @@ Next.js는 이 정적 익스포트를 지원하기 때문에 HTML/CSS/JS 정적 
 
 ### 이미지 최적화
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 next/image를 통해 이미지 최적화는 next start를 사용하여 배포할 때 자체 호스팅되며 구성이 없이 작동합니다. 이미지를 최적화하는 별도 서비스를 원하시는 경우 이미지로더를 구성할 수 있습니다.
 
@@ -112,7 +185,18 @@ next/image를 통해 이미지 최적화는 next start를 사용하여 배포할
 
 ### 미들웨어
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 미들웨어는 `next start`를 사용하여 배포할 때 영 제로 구성으로 self-hosted로 작동합니다. 들어오는 요청에 액세스 권한이 필요하기 때문에 정적 익스포트를 사용할 때는 지원되지 않습니다.
 
@@ -122,7 +206,18 @@ next/image를 통해 이미지 최적화는 next start를 사용하여 배포할
 
 ### 환경변수
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Next.js는 빌드 타임과 런타임 환경 변수를 모두 지원할 수 있어.
 
@@ -143,7 +238,18 @@ export default function Component() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 > 알면 좋아요:  
 > 서버 시작 시 register 함수를 사용하여 코드를 실행할 수 있습니다.  
@@ -155,7 +261,18 @@ Next.js는 응답, 생성된 정적 페이지, 빌드 출력물 및 이미지, �
 
 페이지의 캐싱 및 재유효화 (증분적 정적 재생성(ISR) 또는 App Router의 최신 기능 사용)은 동일한 공유 캐시를 사용합니다. 기본적으로 이 캐시는 Next.js 서버의 파일 시스템(디스크)에 저장됩니다. 이는 Pages와 App Router를 모두 사용하여 자체 호스팅하는 경우에 자동으로 작동합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Next.js 캐시 위치를 구성할 수 있습니다. 이렇게 하면 캐시된 페이지와 데이터를 내구성 있는 저장소에 유지하거나 Next.js 애플리케이션의 여러 컨테이너 또는 인스턴스에서 캐시를 공유할 수 있습니다.
 
@@ -167,7 +284,18 @@ Next.js 캐시 위치를 구성할 수 있습니다. 이렇게 하면 캐시된 
 
 #### 정적 자산
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 정적 자산을 다른 도메인이나 CDN에 호스팅하려면 next.config.js 파일에서 assetPrefix 구성을 사용할 수 있어요. Next.js는 JavaScript 또는 CSS 파일을 가져올 때 이 asset 접두사를 사용할 거예요. 자산을 다른 도메인으로 분리하면 DNS 및 TLS 해결에 추가적인 시간이 필요할 수 있어요.
 
@@ -177,7 +305,18 @@ assetPrefix에 대해 더 알아보기
 
 기본적으로 생성된 캐시 자산은 메모리 (기본값: 50MB) 및 디스크에 저장될 거예요. 만약 Kubernetes와 같은 컨테이너 오케스트레이션 플랫폼을 사용해 Next.js를 호스팅하고 있다면, 각 파드에 캐시의 복사본이 생성될 거예요. 기본적으로 팟 간에 캐시가 공유되지 않기 때문에 오래된 데이터가 표시되는 것을 방지하기 위해 캐시 핸들러를 제공하고 메모리 내 캐싱을 비활성화할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 셀프 호스팅 시 ISR/데이터 캐시 위치를 구성하려면 next.config.js 파일에서 사용자 정의 핸들러를 구성할 수 있습니다.
 
@@ -224,7 +363,18 @@ module.exports = class CacheHandler {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 커스텀 캐시 핸들러를 사용하면 Next.js 애플리케이션을 호스팅하는 모든 pod 간 일관성을 유지할 수 있습니다. 예를 들어 Redis나 AWS S3와 같은 위치에 캐시된 값들을 저장할 수 있습니다.
 
@@ -235,7 +385,18 @@ module.exports = class CacheHandler {
 
 Next.js는 next build 중에 ID를 생성하여 현재 제공되는 애플리케이션 버전을 식별합니다. 동일한 빌드를 사용하여 여러 컨테이너를 부팅하도록 해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 환경의 각 단계를 다시 빌드해야 하는 경우, 컨테이너 간에 사용할 일관된 빌드 ID를 생성해야 합니다. 다음과 같이 next.config.js 파일에서 generateBuildId 명령을 사용하십시오:
 
@@ -252,7 +413,18 @@ module.exports = {
 
 Next.js는 대부분의 버전 스큐를 자동으로 완화하며 감지되면 새로운 에셋을 가져오기 위해 애플리케이션을 자동으로 다시로드합니다. 예를 들어, 배포 ID에 불일치가 있는 경우 페이지 간 전환은 사전로드된 값 대신 하드 네비게이션을 수행합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 애플리케이션이 다시 로드될 때, 페이지 이동 간에 상태가 지속되지 않도록 설계되어 있지 않으면 애플리케이션 상태가 손실될 수 있습니다. 예를 들어 URL 상태나 로컬 저장소를 사용하면 페이지 새로고침 후에도 상태가 지속될 수 있습니다. 그러나 useState와 같은 컴포넌트 상태는 이러한 페이지 이동에서 손실될 수 있습니다.
 
@@ -262,7 +434,18 @@ Vercel은 이전 버전의 에셋과 기능이 이전 버전의 클라이언트�
 
 ## 수동 Graceful 종료
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 셀프 호스팅할 때는, 서버가 SIGTERM 또는 SIGINT 신호로 종료될 때 코드를 실행하고 싶을 수 있습니다.
 
@@ -280,7 +463,18 @@ Vercel은 이전 버전의 에셋과 기능이 이전 버전의 클라이언트�
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 if (process.env.NEXT_MANUAL_SIG_HANDLE) {
@@ -295,4 +489,15 @@ if (process.env.NEXT_MANUAL_SIG_HANDLE) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

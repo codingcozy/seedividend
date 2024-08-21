@@ -3,17 +3,13 @@ title: "micro service 안티패턴 10가지와 해결하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Top 10 Microservice Anti-Patterns"
 link: "https://blog.bitsrc.io/10-microservice-anti-patterns-278bcb7f385d"
 isUpdated: true
 ---
-
-
-
-
 
 ## 10가지 흔한 안티 패턴 및 그 회피 방법
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이것이 말하고자 하는 바는 마이크로서비스 아키텍처가 실패하고 효과적이지 못해지는 방법이 항상 있을 수 있다는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사에서는 마이크로서비스 기반 아키텍처 내에서 문제점을 가져올 수 있는 가장 일반적인 안티패턴 또는 디자인 패턴을 살펴볼 것입니다.
 
@@ -35,7 +42,18 @@ isUpdated: true
 - 복잡한 배포: 더 작은 서비스로 분해되었지만 배포 프로세스는 여전히 복잡하며 시간이 많이 소요되며, 여러 팀 간의 협조와 수동 참여가 필요합니다. 이는 마이크로서비스를 구현했을 때 얻은 민첩성과 유연성을 제한합니다.
 - 충분하지 못한 서비스 경계: 명확히 지정되지 않은 서비스 경계는 중복 기능과 명확하지 않은 소유자 관계로 이어질 수 있습니다. 이는 업무 중복과 아키텍처를 제어하고 개선하기 어렵게 만들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러니까, 마이크로서비스에서 모놀리스를 피하기 위해서는 도메인 주도 설계를 통해 마이크로서비스마다 단일 데이터베이스를 사용하고 명확한 소유권을 정의하는 것을 추천합니다.
 
@@ -45,7 +63,18 @@ isUpdated: true
 
 효율성을 현저히 감소시킬 수 있는 몇 가지 시나리오를 살펴봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 자주 발생하는 인터 서비스 통신: 시스템 내의 마이크로서비스가 작은 작업을 수행하거나 작은 양의 데이터를 얻기 위해 다른 마이크로서비스로 많은 수의 요청을 보내는 경우. 이는 대규모의 네트워크 트래픽을 생성하고 응답 지연을 증가시킬 수 있습니다.
 - 세밀한 API: 마이크로서비스는 세밀한 API를 제공하며, 단일 사용자 요청이나 비즈니스트랜잭션을 완료하기 위해 많은 호출이 필요한 경우가 있습니다. 각 호출마다 직렬화, 네트워크 오버헤드, 심지어 블로킹 I/O 작업이 필요할 수 있어 성능 문제가 발생할 수 있습니다.
@@ -57,7 +86,18 @@ isUpdated: true
 
 # 3. 분산 단일체
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 안티 패턴은 분산 시스템으로 설계되고 구현된 애플리케이션에 적용되며, 여러 연결된 구성 요소나 서비스로 구성되어 서로 강하게 결합되어 있어 미크로서비스가 실제 독립성이 없는 상태를 가리킵니다.
 
@@ -69,7 +109,18 @@ isUpdated: true
 
 예를 들어, 다음과 같은 아키텍처를 고려해 보겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/Top-10-Microservice-Anti-Patterns_0.png" />
 
@@ -79,7 +130,18 @@ isUpdated: true
 
 # 4. 너무 많은 마이크로서비스
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마이크로서비스 기반 아키텍처를 디자인할 때 가장 흔한 오해 중 하나는 각 기능을 마이크로서비스로 분리하는 것; 심지어 가장 간단한 기능조차!
 
@@ -91,7 +153,18 @@ isUpdated: true
 - 낮은 응집도: 개별 마이크로서비스에 일관성이 부족하며, 이는 논리적으로 관련된 또는 일치하는 기능 집합이 포함되지 않을 수 있음을 의미합니다. 이는 흩어지고 조각난 비즈니스 로직을 야기하여 시스템 전체를 이해하고 관리하기 어렵게 만들 수 있습니다.
 - 높은 결합도: 마이크로서비스로 분할되었음에도 불구하고 서비스 간 상호작용과 상호의존으로 인해 서비스들이 꽤 밀접하게 결합될 수 있습니다. 한 마이크로서비스의 변경으로 많은 다른 마이크로서비스에 변경이 필요할 수 있으며, 복잡성과 위험이 증가할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 문제를 해결하는 한 가지 방법은 도메인 주도 설계(Domain Driven Design)를 마이크로서비스에 도입하고 앱의 특정 도메인을 위한 마이크로서비스를 만드는 것입니다. DDD에 대한 자세한 안내는 여기를 확인해보세요:
 
@@ -101,7 +174,18 @@ isUpdated: true
 
 이것은 객체지향 설계에서 함수의 책임의 기본적인 위반이다. 이것은 단일 함수 또는 마이크로서비스가 여러 책임이나 관심사를 담당하고 있을 때 발생한다. 예를 들어, 결제 처리 마이크로서비스가 사용자 등록도 처리하는 경우입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 메시지는 코드 구조를 꼬이게 만드는 일부 시나리오를 살펴보려 합니다:
 
@@ -113,7 +197,18 @@ isUpdated: true
 
 일부 안티패턴은 직관적으로 보이는데, 그 중 하나가 스파게티 아키텍처입니다. 스파게티 아키텍처는 명확한 구조와 조직이 부족하여 서로 얽힌 구성 요소, 모듈 또는 레이어의 엉키는 혼란으로 이어지는 소프트웨어 아키텍처를 가리킵니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 “스파게티 아키텍처” 안티 패턴의 주요 특성은 다음과 같습니다:
 
@@ -125,7 +220,18 @@ isUpdated: true
 
 이는 데이터가 여러 노드나 서비스에 복제되어 있고, 이러한 복제본들 간의 업데이트의 지연 또는 실패로 인해 일관성이 깨져서 서로 다른 부분에서 접근되는 부정확하거나 오래된 정보로 이어지는 상황을 말합니다. 결과적으로 부정확한 동작, 데이터 손상 또는 무결성 위반이 발생할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "Distributed Data Inconsistency" 앤티 패턴의 주요 특징은 다음과 같습니다:
 
@@ -137,7 +243,18 @@ isUpdated: true
 
 # 8. 강한 결합
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 Markdown 형식으로 변경하면 다음과 같습니다.
 
@@ -151,7 +268,18 @@ isUpdated: true
 
 # 9. 관측 능력 부족
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 응용 프로그램이 내부 상태, 작업 및 성능에 대한 충분한 통찰력을 제공하지 않는 경우가 있습니다. 개발자나 관리자가 응용 프로그램의 성능을 관찰하거나 문제를 효율적으로 해결하기가 어려워집니다.
 
@@ -163,7 +291,18 @@ isUpdated: true
 
 AWS X-Ray나 New Relic과 같은 클라우드 네이티브 도구를 사용해 보는 것을 고려해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이렇게 함으로써 시스템 오류에 대한 중요한 통찰을 얻고 성능 및 확장성 문제를 선제적으로 식별할 수 있습니다.
 
@@ -173,7 +312,18 @@ AWS X-Ray나 New Relic과 같은 클라우드 네이티브 도구를 사용해 �
 
 “인적 비용을 무시하는 것” 안티패턴의 주요 특징은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 과로: 팀원들이 프로젝트 마감일을 준수하거나 예상치 못한 문제를 해결하기 위해 저녁이나 주말, 공휴일을 포함한 연장근무를 해야 하는 경우가 자주 발생합니다. 이로 인해 심리적으로 지치고 생산성이 감소할 수 있습니다.
 - 비현실적인 기대: 팀의 기존 자원, 기술 능력을 고려하지 않고 프로젝트 일정과 성과물이 설정됩니다. 이는 합리적이지 않은 기대를 만들어내며 팀원들에게 쥬그리하게 느끼게 하고 타이트한 일정 하에서 실행하도록 압박을 받게 합니다.
@@ -186,7 +336,18 @@ AWS X-Ray나 New Relic과 같은 클라우드 네이티브 도구를 사용해 �
 
 그러므로 우리는 마이크로서비스 아키텍처가 확장성, 유연성, 탄력성을 가능하게 하여 의도한 대로 작동하도록 하기 위해 이러한 문제들을 피해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 내용이 도움이 되었으면 좋겠어요.
 

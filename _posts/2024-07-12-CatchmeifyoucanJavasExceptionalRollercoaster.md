@@ -3,17 +3,13 @@ title: "Catch me if you can Java의 예외 처리 롤러코스터"
 description: ""
 coverImage: "/assets/img/2024-07-12-CatchmeifyoucanJavasExceptionalRollercoaster_0.png"
 date: 2024-07-12 21:14
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-12-CatchmeifyoucanJavasExceptionalRollercoaster_0.png
 tag: Tech
 originalTitle: "Catch me if you can: Java’s Exceptional Rollercoaster"
 link: "https://medium.com/javarevisited/catch-me-if-you-can-javas-exceptional-rollercoaster-3b527e62904f"
 isUpdated: true
 ---
-
-
-
-
 
 ![CatchmeifyoucanJavasExceptionalRollercoaster](/assets/img/2024-07-12-CatchmeifyoucanJavasExceptionalRollercoaster_0.png)
 
@@ -23,10 +19,20 @@ isUpdated: true
 
 그것, 유명한 NPE입니다! 애플리케이션이 null 값을 가진 객체 참조를 사용하려고 시도했음을 나타냅니다. 다시 말해, null인 객체의 메서드를 호출할 때 발생합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-예를 들어, 아직 `ArrayList`이 null인 상태에서 `arrayList.get(i)`를 호출하거나, `new ArrayList``()`를 호출한 적이 없을 때 발생합니다. 또는 아직 문자열이 null인 상태에서 `string.toUpperCase()`을 호출할 때도 마찬가지입니다.
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+예를 들어, 아직 `ArrayList`이 null인 상태에서 `arrayList.get(i)`를 호출하거나, ` new ArrayList``() `를 호출한 적이 없을 때 발생합니다. 또는 아직 문자열이 null인 상태에서 `string.toUpperCase()`을 호출할 때도 마찬가지입니다.
 
 이것은 아마도 Java에서 가장 흔한 런타임 예외입니다. "예기치 않은" 것은 아니지만, 명확한 컨텍스트가 제공되지 않을 때 디버깅하는 것이 귀찮을 수 있습니다.
 
@@ -34,7 +40,18 @@ isUpdated: true
 
 # ArrayIndexOutOfBoundsException
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자바를 배운 지 얼마 되지 않은 사람들에게는 이것이 매우 잘 알려진 것이라고 생각해요. 배열을 계산하거나 행렬 과제를 해결하거나 알고리즘 문제를 풀 때 항상 마주치게 되는 오류죠.
 
@@ -44,7 +61,18 @@ isUpdated: true
 
 요 정도면 아주 특별한 경우이며, 요즘에는 거의 만나기 힘들어요! 그래서 이것은 제 컬렉션 속 보물인 거죠 :)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자바 8 이전에는 Permanent Generation(PermGen) 공간이 힙의 고정 크기 부분으로 사용되어 클래스 메타데이터와 정적 요소에 사용되었습니다. 계속해서 다시 시작하지 않고 배포를 진행하면 이 공간이 가득 차게 될 수 있습니다. 이 오류는 JVM이 PermGen 섹션에서 메모리 부족 상태에 빠졌음을 나타냅니다. 이는 종종 너무 많은 클래스나 너무 큰 클래스가 로드되어 발생할 수 있습니다.
 
@@ -54,7 +82,18 @@ isUpdated: true
 
 한 가지 이야기를 해 줄게요. 한 번 레거시 애플리케이션을 지원했었어요. 이 애플리케이션은 데이터베이스 전체를 캐시에 로드하고 몇 가지 규칙에 따라 집계한 후 UI에 집계된 데이터를 제공했었습니다. 데이터량이 꾸준히 늘어나고 있었어요. 절대로 천천히 늘어나는 것이 아니라서요 :) 이 애플리케이션은 매일 이 오류를 계속 발생시켰어요. 정말, 농담 아니에요. 그렇게 짜증이 나서 제가 그 애플리케이션을 종료해 버렸답니다. 후회는 없어요, 거의 죽어가는 상태였으니까요. 자비의 행동이었다고 생각해요 :)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 스택 오버플로우 오류
 
@@ -64,7 +103,18 @@ isUpdated: true
 
 예를 들어, 클라이언트가 악의적으로든 버그로든 깊게 중첩된 JSON을 보낸다고 상상해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 귀하의 재귀 논리는 적절한 확인 절차 없이 중첩 구조로 계속 깊이 들어가고 있습니다.
 
@@ -87,7 +137,18 @@ public class JsonProcessor {
 
 클라이언트가 수천 단계로 이어지는 깊은 중첩 JSON을 보내는 경우와 같이요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제공되는 서비스는 JSON 구조를 처리할 때 깊은 재귀로 인해 StackOverflowError가 발생할 수 있습니다.
 
@@ -97,7 +158,18 @@ public class JsonProcessor {
 
 개발자가 이 예외를 만날 수 있는 가장 일반적인 시나리오 중 하나는 JDBC를 사용하여 데이터베이스에 연결하려고 할 때입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 try {
@@ -114,7 +186,18 @@ try {
 
 이 오류는 조금 더 이상하게 발생합니다. JVM이나 ClassLoader 인스턴스가 특정 클래스를 로드하려고 시도하고 필요한 .class 파일이 컴파일 시에는 존재했지만 실행 시에는 존재하지 않은 경우에 발생합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자바니까 가능한 일들이야! 나는 네게 그 마법을 보여줄게. 내 손을 따라와 봐:
 
@@ -124,7 +207,18 @@ try {
 
 또 다른 전형적인 시나리오는 클래스패스에 동일한 라이브러리의 두 버전이 있는 경우야. 한 버전이 다른 것을 덮어씌우는 경우가 있다. 그렇게 되면 네가 기대한 것과 다른 버전에서 클래스가 로드될 수 있는 상황이 발생하여, 그 버전 간에 중요한 차이가 있으면 NoClassDefFoundError가 발생할 수 있어.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # UnsupportedClassVersionError
 
@@ -134,7 +228,18 @@ try {
 
 그런 다음 애플리케이션의 .jar 또는 .war 파일을 만들어 운영팀에 전달해 프로덕션 서버에 배포하도록 합니다. 안전을 위해 살짝 뒤처지거나 업데이트를 아직 진행하지 않은 운영팀이 프로덕션 서버에서 아직 JDK 11을 사용 중일 수 있습니다. 그들이 애플리케이션을 배포하자 서버가 UnsupportedClassVersionError을 던집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그게 왜 일어난 건가요?
 
@@ -144,7 +249,18 @@ try {
 
 이는 반복자(iterator)를 사용하여 컬렉션을 반복하는 동안 컬렉션을 수정하려고 시도하고 처리되지 않을 때 발생합니다. Java 컬렉션은 fail-fast이기 때문에 반복자 생성 후에 동시 수정이 발생하면 이 예외가 발생합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 채팅 어플리케이션을 만든다고 상상해봅시다. 사용자들이 다양한 채팅방에 참여할 수 있는 어플리케이션입니다. 간단히 설명하자면, 온라인 사용자 목록을 유지하는 글로벌 채팅방이 있습니다.
 
@@ -170,7 +286,18 @@ for (User user : onlineUsers) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 상기 시나리오에서 명확한 경쟁 조건이 있습니다. 백그라운드 작업이 onlineUsers 목록을 반복하고 비활성 사용자를 제거하는 동안 브로드캐스트 루프가 메시지를 전송하면 ConcurrentModificationException이 발생할 수 있습니다.
 
@@ -180,7 +307,18 @@ for (User user : onlineUsers) {
 
 자바 개발자로서 분산 시스템에서 작업 중인 상황을 상상해보세요. 사용자 지정 블로킹 큐를 구현하는 작업을 맡게 되었습니다. 이 큐는 생산자가 항목을 추가하고 소비자가 항목을 가져갈 수 있도록 하는데, 큐가 비어 있으면 소비자가 소비할 것이 있을 때까지 기다리고, 큐가 꽉 차 있으면 생산자가 생성할 공간이 생길 때까지 기다려야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Java의 락 (동기화된 메소드와 블록) 및 wait()과 notify() 메커니즘을 사용하여 이를 구현하기로 결정했습니다.
 
@@ -218,7 +356,18 @@ public class CustomBlockingQueue<T> {
 
 wait(), notify() 및 notifyAll() 메소드는 현재 스레드가 해당 객체의 모니터를 보유할 때만 해당 객체에 대해 호출할 수 있습니다. 이는 동기화된 메소드나 블록을 사용하여 획득됩니다. 위의 코드에서는 실수로 synchronized 문맥 외부에서 wait()와 notify()를 호출하였습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 예외 처리를 한 번 허용하고 코드가 올바르다고 생각하지 않게끔 하지 않겠습니다:
 
@@ -245,7 +394,18 @@ public synchronized T take() throws InterruptedException {
 
 # 단언 오류
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예외는 assert 문이 실패할 때 발생합니다. Java 언어의 일부이지만 특정 실행 환경에서 당신이 단언문이 활성화되어 있다고 기대하지 않는다면 가끔 예상치 못한 상황이 발생할 수 있습니다.
 
@@ -259,14 +419,14 @@ public class InventoryManager {
 
     public void reduceInventory(String productId, int count) {
         int currentCount = productInventory.getOrDefault(productId, 0);
-        
+
         // 재고가 영 아래로 내려가지 않도록 확인합니다.
         if (currentCount < count) {
             currentCount = 0;
         } else {
             currentCount -= count;
         }
-        
+
         // 안전을 위한 assert 문.
         assert currentCount >= 0: "제품의 재고가 음수가 되었습니다: " + productId;
 
@@ -275,7 +435,18 @@ public class InventoryManager {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 예상치 못한 충돌
 
@@ -285,7 +456,18 @@ public class InventoryManager {
 
 동일한 순간에 두 스레드가 동일한 상품의 재고를 줄이려고 시도하여 경합 조건을 발생시켜 해당 제품의 재고 수가 잠시간 음수가 되도록 했습니다. 이 이상한 현상을 인식하고 AssertionError를 발생시켜 서비스가 충돌하는 데에 영향을 미쳤고, 이는 세련되게 처리되지 않았습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 몇 년 동안 이러한 예외를 모두 보았으니, 현재는 짜증스러울지 모르지만 각각이 소중한 학습 기회를 제공한다고 확신합니다.
 

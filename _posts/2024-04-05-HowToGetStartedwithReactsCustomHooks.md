@@ -3,17 +3,13 @@ title: "리액트의 커스텀 훅을 활용하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How To Get Started with Reacts Custom Hooks"
 link: "https://medium.com/javascript-in-plain-english/how-to-get-started-with-reacts-custom-hooks-935c5ffeab0c"
 isUpdated: true
 ---
-
-
-
-
 
 `<img src="/assets/img/HowToGetStartedwithReactsCustomHooks_0.png" />`
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 리액트 훅은 함수형 컴포넌트에서 리액트의 기능에 '훅'을 걸 수 있게 해주는 특별한 함수입니다. 이는 React 16.8에서 소개되었는데, 이를 통해 사용자들이 클래스를 작성하지 않고도 리액트 기능을 사용할 수 있게 되었습니다. 리액트 훅은 클래스 컴포넌트의 객체 지향 표준과는 대조적으로 더 함수형 프로그래밍 스타일을 대표합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Hooks를 사용하기 전에, 몇 가지 이러한 훅이 무엇을 할 수 있는지 그리고 예시와 함께 이해해 보겠습니다.
 
@@ -35,7 +42,18 @@ Hooks를 사용하기 전에, 상태(state)는 클래스 컴포넌트에서만 �
 const [state, setState] = useState(initialState);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 예제에서 'initialState'는 상태 변수의 초기값을 선언합니다. 'state'는 현재 상태를 나타내며, 'setState'는 상태를 업데이트하는 함수입니다. 각 구성 요소의 목적을 더 잘 이해할 수 있도록 이 내용을 참고해주세요.
 
@@ -48,7 +66,18 @@ useState의 몇 가지 기능적 사용 사례는 다음과 같습니다:
 
 다음으로 넘어갑시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 2. useEffect
 
@@ -83,7 +112,18 @@ function DataFetchingComponent() {
 
 위의 예시에서, useEffect는 컴포넌트가 마운트된 후에 코드를 실행하는 데 사용됩니다. ‘fetchData’는 API에서 데이터를 가져 오는 비동기 함수이며, ‘[]’를 포함하여 컴포넌트가 처음 렌더링된 후 한 번만 실행되도록 보장했습니다. 이는 클래스 컴포넌트의 ‘componentDidMount’ 라이프사이클 메서드의 동작을 모방합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `useEffect`를 사용하는 시기:
 
@@ -97,7 +137,18 @@ function DataFetchingComponent() {
 
 # 3. useContext
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `useContext` 훅은 컴포넌트 트리 전반에 걸친 간소화된 데이터 흐름을 제공합니다. 이는 각 수준에서 수동으로 prop을 전달할 필요를 제거하여 공통 데이터를 전역적으로 공유하기에 이상적입니다. `useContext`는 컴포넌트 간 통신, 가독성, 재사용성 및 정기적인 유지보수를 향상시킵니다.
 
@@ -110,7 +161,18 @@ const value = useContext(MyContext);
 - `MyContext`: `React.createContext()`로 생성한 컨텍스트 객체입니다.
 - `value`: `MyContext`에 대한 현재 컨텍스트 값입니다. 이 값은 트리 내에서 호출된 컴포넌트 위에 있는 가장 가까운 `MyContext.Provider`에서 가져옵니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `useContext`의 혜택 및 사용법:
 
@@ -123,7 +185,18 @@ const value = useContext(MyContext);
 
 React 커스텀 훅은 프로젝트를 더 관리하기 쉽고 단순하며 재사용 가능하며, 무엇보다 가독성을 향상시킵니다. 더 청결하고 조직적인 코드를 작성하는 데 도움이 되며, 실제로 깊게 이해하면 상당히 유용합니다. 그러니 더 깊이 이해한 후에 도전해보고 React 기술을 키워보세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 안현경
 

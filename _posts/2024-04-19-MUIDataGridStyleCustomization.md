@@ -3,17 +3,13 @@ title: "MUI Data Grid 스타일 커스텀하기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "MUI Data Grid Style Customization"
 link: "https://medium.com/@epcm18/mui-data-grid-style-customization-ff54b530dfcd"
 isUpdated: true
 ---
-
-
-
-
 
 저는 최근 MUI DataGrid를 사용한 프로젝트를 진행하면서 컴포넌트에 적용된 기본 스타일을 변경하는 데 어려움을 겪었습니다. MUI 문서를 찾아보니 올바른 스타일링 방법을 찾기 어려웠습니다. 이와 관련하여, MUI DataGrid를 사용자 정의하는 더 쉬운 방법을 공유하고자 합니다. 이 방법에는 행 높이 변경, 열 헤더 색상 수정, 행 색상 조정 등의 작업이 포함됩니다.
 
@@ -88,7 +84,18 @@ export default function DataGridDemo() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # MUI 데이터 그리드 사용자 정의하기
 
@@ -98,7 +105,18 @@ export default function DataGridDemo() {
 
 일부 행 설정 변경하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 DataGrid 컴포넌트는 처음에 행 선택이 쉽도록 체크박스를 렌더링합니다. 이러한 체크박스를 비활성화하려면 checkboxSelection={false}로 설정하면 됩니다. 이러한 조정으로 체크박스가 숨겨지며 더 깔끔한 외관을 제공합니다.
 
@@ -108,7 +126,18 @@ rowHeight를 사용자 정의하려면 getRowHeight prop을 활용할 수 있습
 
 또한 행을 사용자 정의하는 데 사용할 수 있는 다른 prop이 있습니다. getRowSpacing을 사용하면 행 간의 간격을 추가할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일부 열 설정 변경하기
 
@@ -118,7 +147,18 @@ rowHeight를 사용자 정의하려면 getRowHeight prop을 활용할 수 있습
 
 또한, 특정 열에 대해 드롭다운 또는 날짜 선택기를 제공하여 자유 형식의 입력을 허용하는 대신 사용자 상호작용을 향상시킬 수 있습니다. 예를 들어, "성별" 열을 위해 type: `singleSelect`를 설정하고 `Male` 또는 `Female`과 같은 옵션을 드롭다운에서 선택할 수 있습니다. 마찬가지로, 열에 대해 날짜 선택기를 원하는 경우 type: `date`로 설정하십시오. 그러면 렌더링된 달력에서 날짜를 선택할 수 있습니다. 또한 숫자 필드의 경우 type: `number`를 지정하여 입력을 간소화하고 데이터 일관성을 향상시킬 수 있습니다. 이런 식으로 type 속성을 활용하여 각 열의 입력 방법을 데이터 요구 사항에 최적으로 맞추어 조정할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 데이터 그리드에 스타일 적용하기
 
@@ -134,7 +174,18 @@ sx = {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 그리드 테두리 조정 또는 제거하기:
 
@@ -150,7 +201,18 @@ sx = {
 
 3. 열 헤더 사용자 정의하기:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음과 같이 스타일에 접근하여 열 헤더를 사용자 정의하세요.
 
@@ -173,7 +235,18 @@ sx = {
 
 정렬 상태와 관계없이 항상 정렬 아이콘이 표시되도록 보장하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 sx = {
@@ -195,7 +268,18 @@ sx = {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 6. 셀 선택 시 포커스 제거하기:
 
@@ -211,7 +295,18 @@ sx = {
 
 sx 프롭을 사용하여 스타일을 변경하거나 수정할 때 해당 스타일이 컴포넌트에 적용되지 않는 경우, 위의 예시에서와 같이 sx 프롭에 !important를 추가하는 것을 고려해보세요. !important 선언은 지정된 스타일이 컴포넌트 내 다른 소스에서 오는 충돌 스타일보다 우선 적용되도록 보장합니다. 이는 기본 또는 외부 스타일이 커스터마이즈를 방해할 수 있는 경우에 특히 유용합니다. !important를 추가함으로써 지정된 스타일을 우선시함으로써 스타일 충돌을 해결하고 컴포넌트에 정확하게 적용되도록 하여 사용자 정의가 올바르게 적용되도록합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 더 많은 사용자 정의
 

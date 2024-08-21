@@ -3,17 +3,13 @@ title: "CSS display flex block, inline, inline-block 이해하기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "CSS Display FLEX vs Block, Inline, and Inline-Block Explained"
 link: "https://medium.com/dev-genius/css-display-flex-vs-block-inline-and-inline-block-explained-5fa588a3a960"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/CSSDisplayFLEXvsBlockInlineandInline-BlockExplained_0.png" />
 
@@ -27,7 +23,18 @@ isUpdated: true
 - Flex vs Inline-Flex
 - Flex를 사용하여 쉽게 가운데 정렬하는 방법
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 블록 수준 요소
 
@@ -47,7 +54,18 @@ isUpdated: true
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예제에서 위에 있는 이 4개의 div 요소(박스)들은 너비 속성을 할당하지 않았음에도 불구하고 각각의 행의 100% 공간을 차지하고 있습니다.
 
@@ -57,7 +75,18 @@ isUpdated: true
 
 이제 아마 생각하실 수 있겠죠, 만약 그들이 100%의 너비를 차지한다면, 만약 작은 너비를 할당한다면 어떻게 될까요, 예를 들어 20%라고 하면:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 .box {
@@ -71,7 +100,18 @@ isUpdated: true
 
 이것은 많은 사람들이 하는 일반적인 실수야. 작은 너비를 지정하더라도 지정된 (작은) 너비 여부와 관계없이 여전히 블록 수준의 표시 동작을 유지해.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러니까 두 가지를 옆으로 배치하고 싶다면, 그들의 표시 방식(display behavior)을 변경해야 해. inline으로 바꿔보자:
 
@@ -83,7 +123,18 @@ display: inline;
 
 그럼, 인라인(inline)이란 뭘까?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에서 블록 수준 요소의 예시를 보았어요. 반면에 기본적으로 일반 수준 요소들도 있어요 (`span`이나 `a` 태그 같은). 이들은 직접적으로 옆에 놓을 수 있어요:
 
@@ -100,7 +151,18 @@ display: inline;
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 인라인 요소의 단점은 너비나 높이 속성을 적용할 수 없다는 것입니다. 이러한 속성은 인라인 요소와 함께 작동하지 않습니다. 이 정보를 알지 못하면 CSS 작업이 정말 짜즯할 수 있어요.
 
@@ -110,7 +172,18 @@ display: inline;
 
 그래서 `display: inline-block`을 사용한다면:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 인라인 요소로는 할 수 없는 너비 및 높이 속성을 적용할 수 있습니다.
 - 블록 레벨 요소로는 할 수 없는 요소를 옆으로 배치할 수 있습니다.
@@ -125,7 +198,18 @@ display: inline;
 
 이 접근법은 요소의 위치 지정이나 표시 동작 변경을 위해 CSS에서 오랫동안 사용되어왔습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 플렉스 디스플레이는 무엇인가요?
 
@@ -137,7 +221,18 @@ display: flex;
 
 가장 중요한 것은 "플렉스(flex)"가 "블록(block)"이나 "인라인(inline)"과 같은 단순한 속성이 아니라 다양한 하위 속성을 가진 더 큰 CSS 모듈임을 알아야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희는 앞으로 더 자세한 내용으로 이야기할 예정이에요. (지금 당장은, 이 글의 튜토리얼 비디오를 여기서 확인해보실 수도 있어요.)
 
@@ -147,7 +242,18 @@ flex 속성을 사용하려면 부모(또는 컨테이너) 요소가 필요해�
 
 flex의 이점은 해당 컨테이너 내의 요소에만 적용될 수 있고, 컨테이너 외부에서는 작동하지 않아요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <div class="container">
@@ -169,7 +275,18 @@ flex의 이점은 해당 컨테이너 내의 요소에만 적용될 수 있고, 
 
 이렇게 하면 이 상자들이 모두 옆으로 자동으로 배치되어 표시되며, 표시 동작을 변경하지 않아도 됩니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/CSSDisplayFLEXvsBlockInlineandInline-BlockExplained_5.png" />
 
@@ -179,7 +296,18 @@ flex의 이점은 해당 컨테이너 내의 요소에만 적용될 수 있고, 
 
 반면에 플렉스 컨테이너를 인라인 수준의 플렉스 요소로 만들고 싶다면, 코드를 인라인-플렉스로 변경하면 됩니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 display: inline - flex;
@@ -197,8 +325,18 @@ display: inline - flex;
 
 <img src="/assets/img/CSSDisplayFLEXvsBlockInlineandInline-BlockExplained_6.png" />
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Flex를 사용하여 요소 가운데 정렬하기
 
@@ -214,7 +352,18 @@ Flex를 사용하면 정말 많은 일을 할 수 있어요. 예를 들어, just
 
 <img src="/assets/img/CSSDisplayFLEXvsBlockInlineandInline-BlockExplained_7.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 모든 자식 요소가 매우 쉽게 중앙에 배치되었습니다. justify-content 속성은 플렉스 요소에 대해서만 작동합니다. 나는 다음 게시물에서 더 많은 플렉스 기능에 대해 설명할 예정이에요.
 

@@ -3,17 +3,13 @@ title: "자바스크립트로 깔끔한 코드를 작성하는 5가지 팁과 �
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How To Write Clean Code With These 5 Javascript Tips And Tricks"
 link: "https://medium.com/@ori.holis/how-to-write-clean-code-with-these-5-javascript-tips-and-tricks-c3675914cc4d"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/HowToWriteCleanCodeWithThese5JavascriptTipsAndTricks_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ## 1. 속성별 객체 배열 그룹화
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 많은 개발자들이 객체 배열을 속성별로 그룹화된 배열로 변환하는 데 어려움을 겪습니다. 이 기능은 특히 두 배열을 병합할 때 유용합니다. 각 항목을 id로 연결하여 검색할 때, 시간 복잡도는 O(N²)가 됩니다. 그러나 두 배열 중 하나를 맵으로 변환하면 상수 시간복잡도인 O(1)으로 항목에 바로 액세스할 수 있습니다. 이렇게 하면 병합의 복잡성이 O(N)으로 줄어들며, 포인터들 덕분에 메모리 소비도 미미해집니다.
 
@@ -42,7 +49,18 @@ function groupArrayOfObjects(array, property) {
 
 숫자 내림은 매우 간단합니다. 그러나 긴 산술 연산을 수행할 때 더 간결하게 할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 Math.floor(1.245) == ~~1.245;
@@ -54,7 +72,18 @@ Math.floor(1.245) == ~~1.245;
 
 날짜 형식 지정은 꽤 귀찮을 수 있습니다. 많은 라이브러리들이 날짜 형식 지정을 수행합니다. 예를 들어 dateformat가 그 중 하나입니다. dateformat은 가장 널리 사용되고 있습니다. 하지만 유일한 옵션은 아닙니다. 번들 크기를 줄이고 싶을 때 라이브러리 없이 날짜 형식을 지정하고 싶다면 Intl.DateTimeFormat을 선택할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 날짜 형식을 변경하는 것은 간단하고 간결하며 직관적입니다. 다양한 옵션 중 선택할 수 있고 현재 언어로 날짜를 표시할 수도 있습니다.
 
@@ -73,7 +102,18 @@ function formatDate(date, locale) {
 
 날짜를 비교할 때 날짜의 길이는 날짜에 따라 다를 수 있습니다. 이 두 날짜는 연-월-일로 형식화할 때 서로 다른 길이를 가지고 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 1. 1. 2024 => 2024년 1월 1일
@@ -86,20 +126,27 @@ function formatDate(date, locale) {
 function formatDate2Digit(date) {
   const pad = (num) => (num + "").padStart(2, "0");
   return (
-    [date.getFullYear(), pad(date.getMonth() + 1), pad(date.getDate())].join(
-      "-"
-    ) +
+    [date.getFullYear(), pad(date.getMonth() + 1), pad(date.getDate())].join("-") +
     " " +
-    [pad(date.getHours()), pad(date.getMinutes()), pad(date.getSeconds())].join(
-      ":"
-    )
+    [pad(date.getHours()), pad(date.getMinutes()), pad(date.getSeconds())].join(":")
   );
 }
 ```
 
 ## 5. 배열 복사하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로드캐시나 다른 라이브러리를 사용하여 깊은 복사를 하지 않아도 괜찮아요. 자바스크립트에서는 복사하는 것이 이렇게 간단해요. 전개 연산자를 소개한 후에는 한 줄로 복사를 할 수 있어요.
 
@@ -113,4 +160,15 @@ console.log(...fruits);
 앞으로 도움이 될 수 있는 팁이 있기를 바래요. 저에게는 특히 큰 복잡한 애플리케이션을 작성할 때 특히 유용한데요. 시간을 절약하고 코드의 길이와 번들 크기를 줄이며 라이브러리의 필요성을 해결할 수 있어요.
 가장 많은 시간을 절약해 주는 팁이 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

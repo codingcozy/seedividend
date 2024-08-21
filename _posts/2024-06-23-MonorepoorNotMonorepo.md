@@ -3,16 +3,13 @@ title: "모노레포 vs 비모노레포 어떤 것이 더 나은 선택일까"
 description: ""
 coverImage: "/assets/img/2024-06-23-MonorepoorNotMonorepo_0.png"
 date: 2024-06-23 13:51
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-MonorepoorNotMonorepo_0.png
 tag: Tech
 originalTitle: "Monorepo or Not Monorepo"
 link: "https://medium.com/@parsakhosravani/monorepo-or-not-monorepo-ba2a4e3b2b84"
 isUpdated: true
 ---
-
-
-
 
 소프트웨어 아키텍처를 결정할 때입니다. 점진적인 방식이 좋을까요, 아니면 처음부터 최상의 디자인을 찾아야 할까요? 우리는 모두 완벽을 추구합니다 — 최고의 라이브러리, 최고의 도구 등을. 하지만 “best”는 상대적인 개념이며, 선한 사람이 되는 것과 같이 주관적이며 상황에 따라 달라집니다. 좋은 소프트웨어를 설계할 때 여러 매개변수가 의사결정에 영향을 미치고 변화할 수 있다는 것을 염두에 두세요.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 모노 레포는 “단일 저장소”를 줄인 용어로, 여러 프로젝트의 코드가 단일 저장소에 위치하는 버전 컨트롤 전략입니다. 이 방식은 각 프로젝트가 자체 저장소를 가지는 폴리 레포 모델과 대조됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Monorepos의 장점
 
@@ -37,7 +45,18 @@ isUpdated: true
 2. 복잡한 빌드 프로세스: 한 부분의 변경이 다른 부분에 영향을 줄 수 있어 빌드 및 테스트가 더 복잡해질 수 있습니다.
 3. 접근 제어: 액세스 및 권한 관리는 특히 여러 팀이 있는 대규모 조직에서 도전적일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코드 예제: TurboRepo를 이용한 단일저장소 설정
 
@@ -50,7 +69,18 @@ npx create-turbo@latest
 cd my-turbo-repo
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 애플리케이션과 패키지 추가하기:
 
@@ -77,7 +107,18 @@ const Home = () => {
 export default Home;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. TurboRepo 구성:
 
@@ -101,7 +142,18 @@ export default Home;
 npx turbo run build
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 증분 빌드 및 캐싱
 
@@ -111,7 +163,18 @@ TurboRepo는 대규모 코드베이스에 효율적인 증분 빌드와 캐싱�
 
 sa
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 
@@ -141,7 +204,18 @@ sa
 
 ## 단일 저장소(monorepo)를 피해야 하는 경우
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 대규모 다양한 팀: 서로 느슨하게 결합된 프로젝트에 참여하는 대규모 팀은 모노 레포를 사용하기 어려울 수 있습니다.
 - 독립적인 배포: 프로젝트가 서로에게 영향을 미치지 않고 독립적으로 배포되어야 하는 경우, 폴리 레포가 더 적합할 수 있습니다.

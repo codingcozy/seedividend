@@ -3,16 +3,13 @@ title: "HTML에서 접근성을 준수하는 방법"
 description: ""
 coverImage: "/assets/img/2024-05-01-InaccessiblenativeHTMLselectmultiple_0.png"
 date: 2024-05-01 23:07
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-01-InaccessiblenativeHTMLselectmultiple_0.png
 tag: Tech
 originalTitle: "Inaccessible native HTML: <select multiple>"
 link: "https://medium.com/user-experience-design-1/inaccessible-native-html-select-multiple-ec19c7bd67e7"
 isUpdated: true
 ---
-
-
-
 
 ## 접근하기 어려운 HTML
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 거의 항상 말이죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일부 네이티브 HTML 구현은 사용이 어려운 경우가 있습니다. 이 기사는 `select multiple` 요소에 초점을 맞출 것입니다.
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 그러나 이 기능이 사용하기 어렵다는 것뿐만 아니라 사용자 친화적이지도 않다는 것을 알게 될 것입니다. 아래는 마크업입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <label for="lbmPets">애완동물</label>
@@ -52,7 +71,18 @@ isUpdated: true
 
 그 multiple 속성이 설정되어 있어서, 사용자는 여러 애완동물을 선택할 수 있습니다. 사용자가 어떻게 여러 옵션을 선택할 수 있나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 마우스를 사용하여 여러 개 선택하기
 
@@ -62,8 +92,18 @@ isUpdated: true
 
 마우스와 키보드를 사용하여 연속적이고 비연속적인 옵션들을 선택할 수 있습니다. 연속적인 항목을 선택하려면, 선택하고자 하는 범위의 한쪽 끝을 선택한 뒤 Shift 키를 누른 채로 다른 끝에 해당하는 옵션을 클릭하면 됩니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](https://miro.medium.com/v2/resize:fit:804/1*JuD893iR1NkC9p47BgPVXw.gif)
 
@@ -73,7 +113,18 @@ isUpdated: true
 
 ## 키보드만으로 여러 항목 선택
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 키보드만 사용하면 마우스 클릭 대신 스페이스 바를 사용하여 동일한 작업을 수행할 수 있어요. 선택 상태를 전환하고 포커스를 조정하는 데 약간 까다로울 수 있지만 가능해요:
 
@@ -83,7 +134,18 @@ isUpdated: true
 
 여러분에게 도전 과제가 있어요: 아래 데모를 사용하여 한 손으로 여러 비연속 옵션을 선택해 보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 https://jsfiddle.net/6azcb2hu/
 
@@ -93,7 +155,18 @@ https://jsfiddle.net/6azcb2hu/
 
 문제가 보이나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아직 보조 기술에 대해 언급하지 않았네요.
 
@@ -103,7 +176,18 @@ https://jsfiddle.net/6azcb2hu/
 
 예를 들어, `select multiple` 컨트롤이 포커스를 가지면 사용자에게 레이블의 텍스트, 현재 선택된 옵션의 텍스트, 해당 옵션이 위치한 위치(예: "6개 중 2개"), 및 해당 옵션이 선택되었는지에 대한 정보를 전달합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 해당 컨트롤이 포커스를 잃으면, 다시 포커스를 받을 때 선택된 옵션을 확인할 방법이 없다고 보입니다. 컨트롤이 다시 포커스를 받으면 주로 레이블 텍스트와 현재 선택된 옵션이 소개됩니다.
 
@@ -113,7 +197,18 @@ https://jsfiddle.net/6azcb2hu/
 
 # 이제 어떻게 해야 할까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 왜 이것이 문제인가요?
 
@@ -123,7 +218,18 @@ Select2 및 SumoSelect와 같은 써드파티 콤보박스 라이브러리는 �
 
 ## 해결책은 있을까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서, 무엇을 할 수 있을까요?
 
@@ -133,7 +239,18 @@ W3C 내부의 커뮤니티 그룹인 OpenUI가 있습니다. "HTML, CSS, JS 및 
 
 그 중 하나의 제안은 'selectlist'라는 요소입니다. 이는 'select' 요소보다 훨씬 많은 사용자 정의 및 확장 기능을 제공하며, 관련 텍스트 삽입, 아이콘 추가, 스타일링 및 기타 몇 가지 기능을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 이게 접근 가능한건가요?
 
@@ -143,7 +260,18 @@ W3C 내부의 커뮤니티 그룹인 OpenUI가 있습니다. "HTML, CSS, JS 및 
 
 하지만... 노트에 적혀 있는대로:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서, 본질적으로는 작동 컨셉이지만 접근성이 거의 구현되지 않은 상태입니다. 이 요소(또는 그 변형)이 채택되면, 접근성의 기본적인 구현을 보장하기 위해 엄격한 검토를 거쳐야 할 것입니다.
 
@@ -153,7 +281,18 @@ W3C 내부의 커뮤니티 그룹인 OpenUI가 있습니다. "HTML, CSS, JS 및 
 
 제 생각이 틀리지 않았다면, `selectlist`가 곧 구현될 것으로 생각하기는 어렵습니다(혹시 그렇게 되더라도). 그래서 기다리는 것은 좋은 선택이 아닙니다. 심지어 내일 구현된다 해도 브라우저 지원이 느릴 가능성이 높습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한편, 여러 가지 옵션이 있습니다.
 
@@ -163,7 +302,18 @@ W3C 내부의 커뮤니티 그룹인 OpenUI가 있습니다. "HTML, CSS, JS 및 
 
 체크박스를 그룹화하기 위해 `fieldset`와 `legend`를 사용하는 것을 권장합니다 (ARIA나 역할 속성은 필요하지 않습니다):
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <fieldset>
@@ -183,7 +333,18 @@ W3C 내부의 커뮤니티 그룹인 OpenUI가 있습니다. "HTML, CSS, JS 및 
 
 많은 옵션이 있거나 이를 그룹화된 체크박스로 표시하는 것이 적절하지 않은 경우, 써드 파티 라이브러리를 사용해야 할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 개발 중에 알아두세요: 현재로서는 즉시 접근할 수 있는 제3자 멀티-선택 컨트롤을 아직은 본 적이 없습니다.
 
@@ -193,7 +354,18 @@ W3C 내부의 커뮤니티 그룹인 OpenUI가 있습니다. "HTML, CSS, JS 및 
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 문제가 발생하는 것은 정말 싫은 일이에요.
 
@@ -203,7 +375,18 @@ W3C 내부의 커뮤니티 그룹인 OpenUI가 있습니다. "HTML, CSS, JS 및 
 
 저의 겸손한 권고는 다중 선택 제어가 필요한 상황을 피할 수 있는 방법을 찾아보는 것입니다. 범위를 좁히거나 옵션을 제한하는 등의 방법을 통해요. 불가피한 상황일 수 있겠지만, 가능하다면 그룹화된 체크박스를 사용해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 그 방법을 선택할 수 없고, 제3자 솔루션을 도입해야 한다면, 준비하세요. 접근성을 확보하기 위해 매우 괴로운 작업을 많이 해야 할 것입니다. 그리고 접근성 감사자들이 그 제3자 컨트롤을 열심히 조사할 것입니다.
 
@@ -213,7 +396,18 @@ W3C 내부의 커뮤니티 그룹인 OpenUI가 있습니다. "HTML, CSS, JS 및 
 
 ## 언급된
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - `select multiple`에 대한 JSFiddle 예시
 - Select2
@@ -231,7 +425,18 @@ W3C 내부의 커뮤니티 그룹인 OpenUI가 있습니다. "HTML, CSS, JS 및 
 
 ## 더 읽어보기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 산드리나 페레이라에 의한 네이티브 및 커스텀 선택 요소 사이의 균형 찾기
 - 그렉 휘트워스에 의한 'select' 컨트롤을 스타일링할 수 있을까요?

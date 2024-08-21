@@ -3,17 +3,13 @@ title: "전문가를 위한 고급 Python 20 단계"
 description: ""
 coverImage: "/assets/img/2024-06-20-AdvancedPythonforExperts20Steps_0.png"
 date: 2024-06-20 01:57
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-AdvancedPythonforExperts20Steps_0.png
 tag: Tech
 originalTitle: "Advanced Python for Experts (20 Steps)"
 link: "https://medium.com/tech-talk-with-chatgpt/advanced-python-for-experts-20-steps-eb5039032467"
 isUpdated: true
 ---
-
-
-
-
 
 ![Image](/assets/img/2024-06-20-AdvancedPythonforExperts20Steps_0.png)
 
@@ -26,8 +22,18 @@ You will find the links to 20 tutorials on this story.
 
 ## Tutorials
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1. 파이썬의 고급 메모리 관리 및 최적화 기법 탐색
 2. 데이터 과학에서 파이썬의 파워 활용: 고급 라이브러리
@@ -56,6 +62,17 @@ You will find the links to 20 tutorials on this story.
 
 무료로 구독하여 42페이지 이북을 받아보세요: 데이터 과학 | 포괄적 핸드북
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 무료 자습서와 정신 건강 스타트업을 지원해주세요.

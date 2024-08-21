@@ -3,16 +3,13 @@ title: "로컬에서 Florence 2 시작하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-12-StartingwithFlorence2locally_0.png"
 date: 2024-07-12 20:11
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-12-StartingwithFlorence2locally_0.png
 tag: Tech
 originalTitle: "Starting with Florence 2 locally."
 link: "https://medium.com/@alexbuzunov/starting-with-florence-2-locally-722f035caba1"
 isUpdated: true
 ---
-
-
-
 
 플로렌스-2는 Microsoft의 고급 비전 기반 모델로, 프롬프트 기반 방식을 사용하여 다양한 비전 및 비전-언어 작업을 처리하기 위해 설계되었습니다. 로컬에서 플로렌스-2를 설정하고 실행하는 데 도움이 되는 시작 스크립트가 여기 있어요.
 
@@ -22,11 +19,22 @@ isUpdated: true
 
 플로렌스-2를 실행하는 데 사용할 수 있는 시작 스크립트입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 import os
-from transformers import AutoProcessor, AutoModelForCausalLM  
+from transformers import AutoProcessor, AutoModelForCausalLM
 from PIL import Image
 import requests
 from unittest.mock import patch
@@ -48,8 +56,8 @@ def run_example(task_prompt, text_input=None):
     )
     generated_text = processor.batch_decode(generated_ids, skip_special_tokens=False)[0]
     parsed_answer = processor.post_process_generation(
-        generated_text, 
-        task=task_prompt, 
+        generated_text,
+        task=task_prompt,
         image_size=(image.width, image.height),
     )
     return parsed_answer
@@ -72,7 +80,18 @@ File "C:\Users\alex_\aichat\florence2_vision\myenv\lib\site-packages\transformer
 ImportError: 이 모델링 파일은 환경에 없는 다음 패키지가 필요합니다: flash_attn. `pip install flash_attn`을 실행해 보세요.
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 상태 코드를 Markdown 형식으로 변경하십시오.
 
@@ -86,7 +105,18 @@ ImportError: DLL load failed while importing flash_attn_2_cuda: The specified pr
 
 # 깔끔한 환경 설정
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음과 같이 새로운 conda 환경을 만들어 보세요:
 
@@ -99,7 +129,18 @@ CUDA 설치 여부 확인:
 
 CUDA가 설치되어 있는지 확인해주세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 nvcc --version
@@ -120,7 +161,18 @@ set "CUDA_HOME=C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.5"
 
 PyTorch 및 종속성 설치하기:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
@@ -133,7 +185,18 @@ transformers 의존성에서 요구되지도 않고 알려진 문제입니다.
 
 이것이 해결책이에요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # With Python 3.11.7, transformers==4.36.2
@@ -163,8 +226,18 @@ with patch("transformers.dynamic_module_utils.get_imports", fixed_get_imports):
 
 <img src="/assets/img/2024-07-12-StartingwithFlorence2locally_1.png" />
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 스크립트를 실행한 후의 업데이트 내용입니다:
 
@@ -178,7 +251,18 @@ D:\DEV\MODELS\modules\transformers_modules\microsoft\Florence-2-large-ft\3112cd2
 
 # 마지막으로
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 단계를 따르면 어려움 없이 Florence-2를 로컬에서 실행할 수 있을 것입니다. 다른 문제가 발생하면 모든 의존성이 올바르게 설치되어 있는지, 환경이 올바르게 구성되어 있는지 확인해주세요.
 

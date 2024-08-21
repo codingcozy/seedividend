@@ -3,17 +3,13 @@ title: "Go, Flutter, 그리고 Firebase를 이용한 확장 가능한 모바일 
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Building Scalable Mobile Apps with Go, Flutter, and Firebase"
 link: "https://medium.com/@charan.arch/building-scalable-mobile-apps-with-go-flutter-and-firebase-f7533764e780"
 isUpdated: true
 ---
-
-
-
-
 
 소개:
 
@@ -25,7 +21,18 @@ isUpdated: true
 - Go의 가벼우면서 빠른 런타임은 마이크로서비스를 구축하기에 이상적인데, 이는 작고 독립적인 서비스들이 함께 작동하여 더 큰 애플리케이션을 형성하는 구조입니다.
 - Go를 사용함으로써 개발자들은 API를 통해 서로 통신하는 마이크로서비스를 쉽게 생성할 수 있어 복잡한 애플리케이션을 확장하고 유지하기 쉽습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/BuildingScalableMobileAppswithGoFlutterandFirebase_0.png)
 
@@ -37,7 +44,18 @@ isUpdated: true
 
 모바일 앱 개발을 위해 왜 Flutter를 선택해야 할까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 플러터는 Google이 개발한 크로스 플랫폼 UI 툴킷으로, 모바일, 웹 및 데스크탑용 네이티브 컴파일된 애플리케이션을 하나의 코드베이스에서 구축할 수 있습니다.
 - 플러터는 핫 리로드 기능을 제공하여, 개발자들이 실시간으로 변화를 확인하고 빠르게 반복할 수 있습니다.
@@ -51,7 +69,18 @@ isUpdated: true
 - 개발자들은 플러터의 위젯 라이브러리를 활용하여 사용자 정의 UI 컴포넌트를 만들거나 다양한 미리 제작된 위젯 중 선택할 수 있습니다.
 - 플러터의 반응형 프레임워크를 통해 백엔드 서비스와 API와의 원활한 통합이 가능하며, 실시간으로 데이터를 가져오고 표시하는 것이 쉽습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/BuildingScalableMobileAppswithGoFlutterandFirebase_2.png)
 

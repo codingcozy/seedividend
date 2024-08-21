@@ -3,17 +3,13 @@ title: "Nx 릴리즈와 Verdaccio를 활용한 로컬 라이브러리 개발"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: " Local Library Development with Nx Release and Verdaccio"
 link: "https://medium.com/itnext/local-library-development-with-nx-release-and-verdaccio-019af5c5bec0"
 isUpdated: true
 ---
-
-
-
-
 
 ## 사용자 정의 스크립트 및 Verdaccio를 활용하여 Nx 환경에서 업무 자동화하기
 
@@ -23,7 +19,18 @@ Nx는 NPM 패키지를 효율적으로 개발하고 배포할 수 있는 모든 
 
 이전에 쓴 글인 🍒 Cherry-Picked Nx v18.1 Updates에서는 사용자 정의 publish.mjs가 이제 발행 가능 라이브러리를 관리하는 Nx Release로 대체된다는 것을 강조했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Nx 릴리즈는 주로 세 가지 주요 단계를 이루고 있어요:
 
@@ -34,7 +41,18 @@ Nx 릴리즈에 익숙하지 않은 분들께 추천드리는 것은:
 - Juri Strumpflohner의 글: 모노레포에서의 버전 관리 및 패키지 릴리스를 읽어보세요.
 - Nx 문서를 확인하세요: 기능, 레시피 및 API
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 짧은 기사에서는 지역 개발을 위해 새 시스템을 Verdaccio와 함께 활용하는 통찰을 공유하고자 했습니다.
 
@@ -46,7 +64,18 @@ Nx 릴리즈에 익숙하지 않은 분들께 추천드리는 것은:
 npx create-nx-workspace@latest myorg --preset empty --workspaceType integrated --nxCloud skip && cd myorg
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로 @nx/js 플러그인 기능을 추가해주세요:
 
@@ -60,7 +89,18 @@ nx add @nx/js
 nx g @nx/js:lib my-lib --publishable --importPath=@myorg/my-lib
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 무슨 일이 있었나요?
 
@@ -70,7 +110,18 @@ nx g @nx/js:lib my-lib --publishable --importPath=@myorg/my-lib
 
 Nx는 @nx/js:setup-verdaccio를 사용하여 작업 공간에 Verdaccio를 자동으로 구성하며 다음 구성을 포함하는 루트 project.json이 결과로 생성됩니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 {
@@ -97,7 +148,18 @@ nx run local-registry
 
 ## Nx 글로벌 구성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Nx는 nx.json 파일에서 전역적으로 Nx 릴리스를 설정합니다:
 
@@ -115,7 +177,18 @@ preVersionCommand는 버전 업데이트 전에 빌드나 다른 작업이 완�
 
 ## 프로젝트 구성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막으로, 라이브러리 프로젝트 구성에는 Nx 릴리스에 특화된 설정 및 릴리스를 실행하는 대상인 nx-release-publish가 포함될 것입니다:
 
@@ -147,7 +220,18 @@ preVersionCommand는 버전 업데이트 전에 빌드나 다른 작업이 완�
 nx release
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 로컬 개발 플로우
 
@@ -161,7 +245,18 @@ nx release
 
 로컬에서 작업하는 일은 반복적이고 지루할 수 있습니다, 특히 매번 고유한 버전을 생성해야 하는 경우. 그렇지 않으면 Nx Release는 동일한 버전을 다시 발행하지 않습니다. 또한, 저는 발행취소 단계를 추가하지 않고 업무 흐름을 복잡하게 하는 것을 선호합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Nx 문서에서 특히 흥미로운 두 가지 예시가 강조되었습니다: Nx 릴리스를 위한 프로그래밍 API 사용과 로컬 레지스트리 업데이트. 이러한 예시는 표준 Nx 릴리스 프로세스를 향상시키기 위해 사용자 정의 스크립트를 작성하는 방법을 보여줍니다.
 
@@ -224,25 +319,19 @@ let stopLocalRegistry = () => {};
    * 단계 5: 라이브러리 설치
    */
   // 설치해야 하는 모든 게시된 Npm 패키지 얻기
-  const packagesToInstall = Object.entries(projectsVersionData).map(
-    ([projectName, { newVersion }]) => {
-      const project = readCachedProjectGraph().nodes[projectName];
+  const packagesToInstall = Object.entries(projectsVersionData).map(([projectName, { newVersion }]) => {
+    const project = readCachedProjectGraph().nodes[projectName];
 
-      const packageJson = JSON.parse(
-        readFileSync(
-          resolve(process.cwd(), project.data.root, `package.json`)
-        ).toString()
-      );
+    const packageJson = JSON.parse(readFileSync(resolve(process.cwd(), project.data.root, `package.json`)).toString());
 
-      return `${packageJson.name}@${newVersion}`;
-    }
-  );
+    return `${packageJson.name}@${newVersion}`;
+  });
 
   // 설치 명령 준비
   const targetPath = resolve(process.cwd(), options.targetPath);
-  const installCommand = `${getInstallCommand(
-    targetPath
-  )} ${packagesToInstall.join(" ")} --registry=http://localhost:4873`;
+  const installCommand = `${getInstallCommand(targetPath)} ${packagesToInstall.join(
+    " "
+  )} --registry=http://localhost:4873`;
 
   console.log(installCommand);
 
@@ -276,15 +365,24 @@ function getInstallCommand(targetPath: string): string {
   if (siblingFiles.includes("pnpm-lock.yaml")) {
     return "pnpm add";
   }
-  throw new Error(
-    `타겟 리포지토리에 대한 패키지 관리자를 찾을 수 없음: ${targetPath}`
-  );
+  throw new Error(`타겟 리포지토리에 대한 패키지 관리자를 찾을 수 없음: ${targetPath}`);
 }
 ```
 
 이제 단순히 실행하여 로컬로 패키지를 게시할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npx ts-node ./tools/scripts/publish-local.ts --targetPath ../app-using-my-lib
@@ -296,7 +394,18 @@ npx ts-node ./tools/scripts/publish-local.ts --targetPath ../app-using-my-lib
 
 그러나 이 도구를 수동으로 사용할지 아니면 사용자 지정 스크립트를 활용하여 자동화할지는 각자의 결정에 달려 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 글에서 한 가지 방법을 제안하고 있지만, 여러분만의 방법을 만들어보시는 걸 강력히 권장합니다.
 

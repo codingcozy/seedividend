@@ -3,17 +3,13 @@ title: "비하인드-어플리케이션 아키텍처와 리액트 앱 번들 사
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Screaming Architecture and Reducing bundle size of react-apps"
 link: "https://medium.com/@subham.saha_42355/screaming-architecture-and-reducing-bundle-size-of-react-apps-e36c013b3b1d"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/ScreamingArchitectureandReducingbundlesizeofreact-apps_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 얼마 전 온클 밥이 제시한 '화려한 아키텍처(Screaming Architecture)' 개념을 발견했어요. 이는 일반 리액트 어플리케이션과 약간 다르며, 모든 기능이 각각의 컴포넌트로 분리되어 src 하위의 components 디렉토리에 배치된다는 아이디어에 기반해요. 하지만 저희는 모든 기능을 기능별로 나누고 특정 기능에서 다른 기능과 상호 작용해야 하는 단일 또는 다중의 컴포넌트를 내보내는 방식으로 변경하기로 했어요. 이렇게 하면 추상화되고 분리된 상태로 유지할 수 있어요. 따라서 각 기능은 다음과 같은 구조를 가질 것이에요 :-
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 src/features/awesome-feature
@@ -51,7 +58,18 @@ src/features/awesome-feature
 
 개발 초기에 모든 것이 순조롭고 빨랐습니다. 그러나 애플리케이션의 기능이 계속 성장함에 따라 기능을 추가할수록 초기 로드 시간과 번들 크기도 증가한다는 것을 알게 되었습니다. 이는 팀 내에서 계속 논의되고 다른 이해관계자도 몇 번 이 문제에 대해 접수했습니다. 우리는 이것이 현재 주요 문제는 아니지만 계속 기능을 추가할 경우 대형 문제로 바뀔 것이라는 것을 알고 있었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 팀 모여라! :-
 
@@ -64,7 +82,18 @@ src/features/awesome-feature
 - 그러나 CRA에서 앱을 시작했고 npm eject를 수행하지 않았기 때문에 웹팩 구성이 우리에게 숨겨졌습니다. 우리 자체 구성을 제공하기 위해 webpack 위에 래퍼 역할을 하는 Craco를 사용하고 있었습니다.
 - 그 다음으로, react 문서에서 제안하는 두 가지 코드 분할 기술을 사용했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 i. 라우트 분할: 초기에 앱을 위해 두 가지 라우트를 정의했습니다. /courses는 Courses 목록 페이지로 이동하고, /courses/{courseId}는 강의 세부 페이지로 이동합니다. 그러나 이제 두 가지 다른 라우트를 소개했습니다. /course/create-course는 코스 생성 양식 페이지로 이동하고, /course/edit-course/:courseId는 동일한 코스 생성 양식 페이지로 이동하지만 코스를 편집할 때 사용됩니다.
 
@@ -75,7 +104,18 @@ ii. 동적 import로 분할: 모달, 팝오버와 같은 구성 요소들을 지
 
 ![이미지](/assets/img/ScreamingArchitectureandReducingbundlesizeofreact-apps_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Screaming Architecture and Reducing Bundle Size of React Apps](/assets/img/ScreamingArchitectureandReducingbundlesizeofreact-apps_2.png)
 
@@ -87,7 +127,18 @@ ii. 동적 import로 분할: 모달, 팝오버와 같은 구성 요소들을 지
 
 ![Screaming Architecture and Reducing Bundle Size of React Apps](/assets/img/ScreamingArchitectureandReducingbundlesizeofreact-apps_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앞으로 개발자들이 이를 따르도록 강제하기 위해 eslint 구성을 추가할 수 있습니다.
 

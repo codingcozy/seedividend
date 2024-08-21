@@ -3,17 +3,13 @@ title: "Objective-C 프로젝트에 SwiftUI 통합 두 가지 효과적인 방�
 description: ""
 coverImage: "/assets/img/2024-07-01-IntegratingSwiftUIintoObjective-CProjectsTwoEffectiveApproaches_0.png"
 date: 2024-07-01 17:05
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-01-IntegratingSwiftUIintoObjective-CProjectsTwoEffectiveApproaches_0.png
 tag: Tech
 originalTitle: "Integrating SwiftUI into Objective-C Projects: Two Effective Approaches"
 link: "https://medium.com/@kusalprabathrajapaksha/integrating-swiftui-into-objective-c-projects-two-effective-approaches-daa250fe195c"
 isUpdated: true
 ---
-
-
-
-
 
 ![2024-07-01-IntegratingSwiftUIintoObjective-CProjectsTwoEffectiveApproaches_0](/assets/img/2024-07-01-IntegratingSwiftUIintoObjective-CProjectsTwoEffectiveApproaches_0.png)
 
@@ -23,8 +19,18 @@ iOS 개발이 계속 진화함에 따라 SwiftUI는 강력하고 직관적인 �
 
 본 문서에서는 Objective-C 프로젝트에 SwiftUI 뷰를 통합하는 두 가지 효과적인 방법을 탐구할 것입니다: UIHostingController를 직접 사용하는 방법과 SwiftUI 래퍼를 만드는 방법. 하나의 SwiftUI 뷰를 추가하거나 전체 UI를 점진적으로 이전하려는 경우, 이러한 방법을 통해 최상의 결과를 얻을 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 방법 1: UIHostingController 직접 사용하기
 
@@ -34,7 +40,18 @@ UIHostingController은 SwiftUI와 UIKit 간의 다리 역할을 수행하여 Swi
 
 먼저 Swift 파일에서 SwiftUI 뷰를 정의하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import SwiftUI
@@ -58,13 +75,13 @@ import UIKit
 class MySwiftUIViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         let swiftUIView = MySwiftUIView()
         let hostingController = UIHostingController(rootView: swiftUIView)
-        
+
         addChild(hostingController)
         view.addSubview(hostingController.view)
-        
+
         hostingController.view.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([
             hostingController.view.leadingAnchor.constraint(equalTo: view.leadingAnchor),
@@ -72,13 +89,24 @@ class MySwiftUIViewController: UIViewController {
             hostingController.view.topAnchor.constraint(equalTo: view.topAnchor),
             hostingController.view.bottomAnchor.constraint(equalTo: view.bottomAnchor)
         ])
-        
+
         hostingController.didMove(toParent: self)
     }
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 3: 스위프트 뷰 컨트롤러를 Objective-C에 노출시키기
 
@@ -92,7 +120,18 @@ class MySwiftUIViewController: UIViewController {
 #import "YourProjectName-Swift.h"
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 4: Objective-C에서 Swift 뷰 컨트롤러 사용하기
 
@@ -110,11 +149,11 @@ class MySwiftUIViewController: UIViewController {
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+
     MySwiftUIViewController *swiftUIViewController = [[MySwiftUIViewController alloc] init];
     [self addChildViewController:swiftUIViewController];
     [self.view addSubview:swiftUIViewController.view];
-    
+
     swiftUIViewController.view.frame = self.view.bounds;
     [swiftUIViewController didMoveToParentViewController:self];
 }
@@ -124,7 +163,18 @@ class MySwiftUIViewController: UIViewController {
 
 # 방법 2: SwiftUI 래퍼 사용하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 방법은 SwiftUI 뷰를 래핑하는 Swift 클래스를 생성하여 관리하고 재사용하기 쉽게 만드는 것을 포함합니다.
 
@@ -134,7 +184,18 @@ Swift 파일에서 SwiftUI 뷰를 정의하세요. 이전과 같습니다.
 
 ## 단계 2: SwiftUI Wrapper 생성하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```swift
 import SwiftUI
@@ -153,8 +214,18 @@ import UIKit
 
 Ensure the wrapper class is accessible from Objective-C by adding the appropriate bridging header: Same as before.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이미 존재하지 않는 경우 "YourProjectName-Bridging-Header.h"라는 브릿징 헤더 파일을 생성하십시오.
 - 다음과 같은 임포트 문을 추가하십시오:
@@ -168,8 +239,18 @@ Ensure the wrapper class is accessible from Objective-C by adding the appropriat
 
 이제 Objective-C 코드에서 SwiftUIWrapper 클래스를 사용하여 SwiftUI 뷰를 표시하십시오.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // Objective-C ViewController
@@ -183,13 +264,13 @@ Ensure the wrapper class is accessible from Objective-C by adding the appropriat
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
+
     SwiftUIWrapper *swiftUIWrapper = [[SwiftUIWrapper alloc] init];
     UIViewController *swiftUIViewController = [swiftUIWrapper createSwiftUIViewController];
-    
+
     [self addChildViewController:swiftUIViewController];
     [self.view addSubview:swiftUIViewController.view];
-    
+
     swiftUIViewController.view.frame = self.view.bounds;
     [swiftUIViewController didMoveToParentViewController:self];
 }
@@ -203,8 +284,18 @@ Ensure the wrapper class is accessible from Objective-C by adding the appropriat
 
 장점:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 단순성: SwiftUI 뷰를 UIKit에 직접 포함시키면 설정 과정이 간단해집니다.
 - 성능: 표준 UIKit 뷰 컨트롤러를 사용하기 때문에 오버헤드가 최소화됩니다.
@@ -217,7 +308,18 @@ Ensure the wrapper class is accessible from Objective-C by adding the appropriat
 
 ## SwiftUI 래퍼 사용의 장단점
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 장점:
 
@@ -230,6 +332,17 @@ Ensure the wrapper class is accessible from Objective-C by adding the appropriat
 - 추가적인 추상화: 간단한 통합에 필요하지 않을 수 있는 또 다른 추상화 계층을 도입합니다.
 - 학습 곡선: Swift 및 Objective-C 상호 운용성 세부 사항을 모두 이해해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SwiftUI를 Objective-C 프로젝트에 통합하는 것은 어렵게 느껴질 수 있지만, 올바른 방법을 사용하면 단순해집니다. 이 안내서에서 보여주는 것처럼 UIHostingController를 직접 사용하거나 SwiftUI 래퍼를 만드는 것은 최신 기술을 활용하여 앱을 점진적으로 효율적으로 현대화할 수 있게 해줍니다.

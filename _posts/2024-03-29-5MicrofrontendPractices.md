@@ -3,17 +3,13 @@ title: "5개의 마이크로프론트엔드 설계 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "5 Microfrontend Practices"
 link: "https://medium.com/@davifsroberto/5-microfrontend-pratices-84d843958754"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/5MicrofrontendPractices_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 마이크로프론트엔드는 웹 애플리케이션 UI (프론트 엔드)가 다양한 그룹이 다양한 기술을 사용하여 작업할 수 있는 반자율적 섹션으로 생성되는 패턴입니다. 마이크로프론트엔드 아키텍처는 백엔드 아키텍처와 유사하며 백엔드가 반자율적인 마이크로서비스로부터 생성됩니다. 각 마이크로프론트엔드에는 자체 리포지토리, 자체 package.json 문서 및 자체 버전 관리 도구 설정이 있습니다. 따라서 각 마이크로프론트엔드에는 독립적인 버전 프로세스와 독립적인 배포/CI가 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Single-SPA
 
@@ -37,7 +44,18 @@ single-spa은 프론트엔드 응용 프로그램에서 다른 JavaScript 마이
 
 # Multi Page Application (MPA)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 멀티페이지 애플리케이션은 매우 많은 페이지로 구성된 웹 애플리케이션으로, 정보가 변경될 때마다 완전히 새로 고쳐집니다. 정보 변경이나 서버로의 정보 전송은 브라우저에서 새로운 페이지가 표시되도록 합니다.
 
@@ -47,7 +65,18 @@ single-spa은 프론트엔드 응용 프로그램에서 다른 JavaScript 마이
 
 # 모듈 연맹
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/5MicrofrontendPractices_2.png)
 
@@ -57,7 +86,18 @@ Module Federation은 JavaScript 애플리케이션이 다른 애플리케이션�
 
 # 저장소 모노 레포지토리의 아키텍처
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![/assets/img/5MicrofrontendPractices_3.png](/assets/img/5MicrofrontendPractices_3.png)
 
@@ -67,7 +107,18 @@ Module Federation은 JavaScript 애플리케이션이 다른 애플리케이션�
 
 # Nx Workspace Tool + Monorepo (완벽한 조합)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Nx 워크스페이스는 Angular DevKit을 기반으로 한 TypeScript 기반의 단일 저장소 도구로, 워크스페이스, CLI, 클라우드 기반의 계산 리소스 예약 및 탁월한 언어 수준의 IDE 지원을 제공합니다.
 
@@ -79,7 +130,18 @@ Nx 워크스페이스는 Angular DevKit을 기반으로 한 TypeScript 기반의
 
 # 결론:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 것들이 마이크로프론트엔드 사용 시 사용되는 몇 가지 관행들입니다. 어떤 것이 더 나은지 나쁜지 말하는 것이 아니라, 옵션에 대한 초기 접근 방식을 제공하는 것입니다.
 

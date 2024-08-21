@@ -3,16 +3,13 @@ title: "사용자를 기다리게 하지 마세요 서버 렌더링 페이지를
 description: ""
 coverImage: "/assets/img/2024-06-20-DontmakeuserwaitSecrettosuperchargeServerRenderedPages_0.png"
 date: 2024-06-20 01:11
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-DontmakeuserwaitSecrettosuperchargeServerRenderedPages_0.png
 tag: Tech
 originalTitle: "Don’t make user wait: Secret to supercharge Server Rendered Pages"
 link: "https://medium.com/angel-tech/dont-make-user-wait-secret-to-supercharge-server-rendered-pages-9f7cb50d0124"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-06-20-DontmakeuserwaitSecrettosuperchargeServerRenderedPages_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 연구는 항상 느린 페이지가 사용자 참여와 전환율에 심각한 영향을 미친다는 것을 발견해왔습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 온라인 소비자들은 판단을 빨리 내립니다. 연구에 따르면, 88%의 사용자는 나쁜 경험 후 웹사이트로 다시 돌아오기를 더욱 꺼립니다.
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-20-DontmakeuserwaitSecrettosuperchargeServerRenderedPages_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이거 엄청 커. 그렇기 때문에 웹 성능을 무시할 수 없어요.
 
@@ -42,7 +61,18 @@ isUpdated: true
 
 사용자는 3가지 방법으로 웹 앱에 접근할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Angelone Android 네이티브 앱
 - Angelone iOS 네이티브 앱
@@ -54,7 +84,18 @@ isUpdated: true
 
 # 병목 현상 식별 및 해결
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 초기의 SSR 슈퍼차징 단계는 성능 제한 요인을 식별하는 것입니다. 이러한 제한 요인은 서버 측과 브라우저 측에서 발생할 수 있습니다.
 
@@ -66,7 +107,18 @@ isUpdated: true
 
 브라우저 측 제한 요인:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 큰 JavaScript 번들: JavaScript는 상호 작용에 필수적이지만, 큰 번들은 페이지 렌더링을 지연시킬 수 있습니다. 코드 분할과 최소화를 통해 JavaScript 파일의 크기를 줄이고 로드 시간을 개선할 수 있습니다.
 - 최적화되지 않은 DOM 조작: 문서 객체 모델(DOM)의 과도하거나 비효율적인 조작은 성능 문제로 이어질 수 있습니다. DOM 업데이트를 신중히 최적화하면 렌더링 속도를 향상시킬 수 있습니다.
@@ -78,7 +130,18 @@ Google의 웹 비탈스는 웹 페이지에서 사용자 경험을 측정하고 
 
 ![이미지](/assets/img/2024-06-20-DontmakeuserwaitSecrettosuperchargeServerRenderedPages_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-20-DontmakeuserwaitSecrettosuperchargeServerRenderedPages_4.png" />
 
@@ -90,7 +153,18 @@ Google의 웹 비탈스는 웹 페이지에서 사용자 경험을 측정하고 
 
 이러한 지표를 모니터링하면 최적화가 필요한 영역을 식별하고 노력의 영향을 추적할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 전문가 도구
 
@@ -103,7 +177,18 @@ SSR 최적화 여정을 돕기 위한 여러 도구들이 있습니다:
 
 # 최적화 전략
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SSR 페이지를 업그레이드하기 위한 주요 최적화 전략 몇 가지를 소개해 드릴게요:
 
@@ -115,10 +200,20 @@ SSR 페이지를 업그레이드하기 위한 주요 최적화 전략 몇 가지
 
 우리는 초기 페이지 렌더링에 필요한 API 목록을 식별했고, 자주 변경되지 않는 데이터에 대한 단기 메모리 API 캐싱을 구현했어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 마크다운 형식으로 변경한 내용입니다.
-
 
 ![Image 1](/assets/img/2024-06-20-DontmakeuserwaitSecrettosuperchargeServerRenderedPages_5.png)
 
@@ -128,18 +223,40 @@ SSR 페이지를 업그레이드하기 위한 주요 최적화 전략 몇 가지
 
 이는 이제 Backend 서버가 다른 중요 사항에 더 많은 시간을 할애하고 더 적은 부하로 인해 더 빠르고 지연 시간이 낮아질 것을 의미합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리의 프런트엔드 서버와 백엔드 서버는 같은 가상 사설 클라우드(VPC) 안에 있어요. 이 설정을 활용해서 백엔드 API의 내부 엔드포인트를 호출하기 시작했어요.
 
 ![이미지](/assets/img/2024-06-20-DontmakeuserwaitSecrettosuperchargeServerRenderedPages_7.png)
 
 장점:
+
 - 성능: 내부 API는 외부 엔드포인트를 통과하는 것보다 더 빠를 수 있어요.
 - 신뢰성: 내부 API는 덜 고장이 날 가능성이 높기 때문에 믿을 만해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용자가 즉시 볼 수 있는 콘텐츠 렌더링을 우선시하세요.
 
@@ -150,7 +267,18 @@ SSR 페이지를 업그레이드하기 위한 주요 최적화 전략 몇 가지
 - html, javascript 및 이미지를 포함한 데이터 양을 줄여 데이터 전송 양을 줄임
 - 즉 브라우저가 더 적은 작업을 해야 하므로 콘텐츠를 보다 빠르게 렌더링할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로딩 프로세스 중에 필수 리소스를 미리 가져오세요.
 
@@ -160,19 +288,39 @@ SSR 페이지를 업그레이드하기 위한 주요 최적화 전략 몇 가지
 
 ![image2](/assets/img/2024-06-20-DontmakeuserwaitSecrettosuperchargeServerRenderedPages_10.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Pre-connect은 페이지 상단 콘텐츠가 제 3자 또는 CDN 네트워크에서 에셋이나 이미지를 필요로 하는 경우에 유용합니다.
 
-
 ![이미지](/assets/img/2024-06-20-DontmakeuserwaitSecrettosuperchargeServerRenderedPages_11.png)
-
 
 Pre-connect를 사용하지 않으면 브라우저는 우선 콘텐츠를 다운로드한 후, 다른 출처에 대한 에셋에 따라 특정 콘텐츠를 찾으면, 먼저 제 3자와 연결을 시도한 뒤 연결이 확립되면 콘텐츠를 다운로드하므로 중요한 시간이 소비됩니다.
 
 Pre-connect를 사용하면 브라우저는 우선 콘텐츠를 다운로드하는 동안 제 3자와 연결을 설정하고 필요한 다운로드가 즉시 시작됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 폰트는 두 가지 방법으로 사용할 수 있어요.
 
@@ -183,7 +331,18 @@ Pre-connect를 사용하면 브라우저는 우선 콘텐츠를 다운로드하�
 
 이전에는 브라우저의 공유 캐시 때문에 타사 폰트를 사용하는 것에 성능상의 이점이 있었어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 Chrome 버전 85부터 Chrome 팀이 캐시 파티션을 도입했는데, 이는 한 웹사이트의 캐시된 리소스를 다른 웹사이트가 사용할 수 없다는 뜻입니다. 따라서 성능 상의 이점이 없어졌습니다.
 
@@ -193,7 +352,18 @@ Pre-connect를 사용하면 브라우저는 우선 콘텐츠를 다운로드하�
 
 하지만 자체 호스팅 폰트를 사용하면 도전이 발생합니다. 모든 자체 호스팅 폰트의 제 75 백분위수 크기는 75KB로 매우 큽니다. 이는 폰트가 많은 언어와 문자를 포함하기 때문인데, 대부분의 경우 사이트에서 실제로 필요하지 않은 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희는 온라인으로 글꼴을 다운로드 받아서 (크기는 63kb였습니다) 모든 불필요한 문자를 제거하여 글꼴 크기를 7.2kb로 줄였어요. 이는 Yellow Lab 도구의 도움으로 88% 감소했습니다.
 
@@ -203,7 +373,18 @@ Pre-connect를 사용하면 브라우저는 우선 콘텐츠를 다운로드하�
 
 다행히도, SSR을 최대한 최적화하는 투자는 매우 좋은 수확을 낼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 엔젤 원을 예로 들어보면, FCP 숫자를 1500ms 대신 1230ms로 개선했더니 전환율이 최대 30%까지 상승했습니다.
 
@@ -213,7 +394,18 @@ Pre-connect를 사용하면 브라우저는 우선 콘텐츠를 다운로드하�
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요약하자면, 서버 측 렌더링의 최적화는 현대 웹에서 모두에게 이상적인 경험을 제공하기 위해 반드시 해야 합니다.
 

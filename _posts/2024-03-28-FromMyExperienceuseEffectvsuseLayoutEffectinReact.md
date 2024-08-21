@@ -3,17 +3,13 @@ title: "React의 useEffect vs useLayoutEffect 차이점 비교 정리 "
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "From My Experience useEffect vs useLayoutEffect in React"
 link: "https://medium.com/gitconnected/from-my-experience-useeffect-vs-uselayouteffect-in-react-582e9f90a6cf"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/FromMyExperienceuseEffectvsuseLayoutEffectinReact_0.png" />
 
@@ -23,7 +19,18 @@ React 16.8에서 훅스가 도입되면서 함수형 컴포넌트를 작성하�
 
 이 두 가지 필수적인 React 훅에 대한 실용적인 탐구를 시작해보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 들어가기 전에, 웹 개발에 관한 보다 심층적인 기사들을 제 개인 웹사이트에서 더 알아보세요:
 
@@ -33,7 +40,18 @@ useEffect는 함수형 컴포넌트에서 부수 효과를 수행할 수 있게 
 
 useEffect 사용 방법: 🚀
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 useEffect를 사용하면 렌더링 후에 React에게 어떤 작업을 수행할지 알립니다. React는 전달한 함수를 기억하고 DOM 업데이트를 수행한 후에 나중에 호출합니다.
 
@@ -47,7 +65,18 @@ useEffect(() => {
 
 두 번째 인수인 [dependencies]는 종속성(dependencies) 배열입니다. React는 종속성 중 하나가 변경될 때만 사이드 이펙트를 다시 실행합니다. 빈 배열([])을 전달하면 초기 렌더링 후 한 번만 사이드 이펙트가 실행되므로 클래스 컴포넌트의 componentDidMount와 유사합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## useLayoutEffect이란 무엇인가요? 🤔
 
@@ -57,7 +86,18 @@ useLayoutEffect은 useEffect와 유사하지만 실행 시기에 주요 차이�
 
 useLayoutEffect는 화면이 업데이트되기 전에 DOM 변경을 해야 하는 경우에 사용해야 합니다. 화면에 그려진 후에 DOM을 조작하면 발생할 수 있는 깜박임과 같은 시각적 문제를 피하고 싶은 경우에 중요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 useLayoutEffect 의 구문:
 
@@ -71,7 +111,18 @@ useEffect 와 마찬가지로 두 번째 인자로 의존성 배열을 전달합
 
 ## useEffect 와 useLayoutEffect 의 비교 동작 ⚖️
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 useEffect와 useLayoutEffect를 개별적으로 탐색한 후, 동일한 컴포넌트 내에서 이 두 훅을 함께 사용하는 것이 도움이 될 수 있습니다. 이 비교를 통해 실행 순서와 동작에 대한 보다 명확한 이해를 얻을 수 있습니다.
 
@@ -82,9 +133,7 @@ import React, { useEffect, useLayoutEffect } from "react";
 
 const Home = () => {
   useLayoutEffect(() => {
-    console.log(
-      "useLayoutEffect - DOM 수정 이후에 실행되지만 가장 먼저 실행됨"
-    );
+    console.log("useLayoutEffect - DOM 수정 이후에 실행되지만 가장 먼저 실행됨");
   }, []);
 
   useEffect(() => {
@@ -99,7 +148,18 @@ export default Home;
 
 이 컴포넌트에서는 useLayoutEffect와 useEffect를 모두 빈 의존성 배열로 사용하여, 초기 렌더 이후에 실행되어야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/FromMyExperienceuseEffectvsuseLayoutEffectinReact_1.png)
 
@@ -110,7 +170,18 @@ export default Home;
 
 useEffect와 useLayoutEffect의 세부사항을 잘 이해하기 위해, 각 훅이 다른 상황에서 어떻게 효과적으로 활용될 수 있는지 살펴봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1️⃣ 데이터 패칭을 위한 useEffect🌐📈
 
@@ -127,9 +198,7 @@ const App = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch(
-          "https://jsonplaceholder.typicode.com/posts"
-        );
+        const response = await fetch("https://jsonplaceholder.typicode.com/posts");
         const jsonData = await response.json();
         setData(jsonData);
       } catch (error) {
@@ -153,7 +222,18 @@ const App = () => {
 export default App;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컴포넌트는 API에서 가져온 제목 목록을 렌더링합니다. useEffect의 의존성 목록에 빈 배열을 넣어 데이터 가져오기가 클래스 컴포넌트의 componentDidMount와 유사하게 한 번만 실행되도록 합니다.
 
@@ -163,7 +243,18 @@ export default App;
 
 다음은 예시입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import React, { useState, useLayoutEffect, useRef } from "react";
@@ -173,9 +264,7 @@ const App = () => {
   const listRef = useRef(null);
 
   const addItems = () => {
-    const newItems = [...Array(5).keys()].map(
-      (i) => `Item ${i + items.length}`
-    );
+    const newItems = [...Array(5).keys()].map((i) => `Item ${i + items.length}`);
     setItems([...items, ...newItems]);
   };
 
@@ -210,7 +299,18 @@ export default App;
 
 이 예시는 useLayoutEffect를 사용하여 React 컴포넌트에서 상태 변경에 따른 DOM의 부드럽고 깜빡임 없는 조정을 어떻게 할 수 있는지 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 결론 ✅
 
@@ -220,4 +320,15 @@ useEffect는 대부분 DOM 작업과 상호 작용이 필요하지 않는 사이
 
 반면에 useLayoutEffect는 DOM 변경에 직접적으로 동기적 업데이트를 수행해야 할 때 필수적입니다. DOM을 조작할 때 시각적인 문제를 피하고 부드러운 사용자 경험을 보장하기 위한 완벽한 도구입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

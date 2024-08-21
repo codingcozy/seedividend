@@ -3,17 +3,13 @@ title: "ReactNative APK 직접 만들기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "EN ReactNative APK Creation"
 link: "https://medium.com/@OzturkSirin/en-reactnative-apk-creation-53be8a14bed3"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/ENReactNativeAPKCreation_0.png" />
 
@@ -23,7 +19,18 @@ APK 파일(Android Package Kit 파일 형식)은 안드로이드 운영 체제(O
 
 # APK가 왜 필요한가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, 우리가 앱을 개발했고 이를 다른 사람(고객 등)에게 테스트하거나 릴리스 전 최종 테스트를 수행하려고 할 때 APK 파일이 필요합니다.
 
@@ -34,7 +41,18 @@ APK 파일(Android Package Kit 파일 형식)은 안드로이드 운영 체제(O
 
 ![image](/assets/img/ENReactNativeAPKCreation_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - C:\Program Files\Java\jdk-X.X.X.X.X\bin 경로로 로그인한 후 Powershell 또는 터미널을 열어봅시다.
 
@@ -48,7 +66,18 @@ my-key-alias -keyalg RSA -keysize 2048 -validity 10000
 맥 컴퓨터의 파일 경로는 다음과 같습니다:
 /Library/Java/JavaVirtualMachines/jdkX.X.X.jdk/Contents/Home
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 sudo keytool -genkey -v -keystore my-upload-key.keystore -alias my-key-alias -keyalg RSA -keysize 2048 -validity 10000
@@ -58,7 +87,18 @@ sudo keytool -genkey -v -keystore my-upload-key.keystore -alias my-key-alias -ke
 
 4. Keystore 파일을 우리 프로젝트의 android/app 파일로 복사하여 붙여넣으세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 5. 안드로이드/gradle.properties 파일로 가서 (환경 변수) 정의를 작성해봅시다. 여기에 있는 정보는 우리가 키스토어를 생성할 때 작성한 정보와 동일해야 합니다.
 
@@ -90,7 +130,18 @@ signingConfigs {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 7. 마지막으로 터미널에서 cd .\projectName\android 폴더로 이동하여 ./gradlew bundleRelease 명령어를 사용하여 릴리스 번들을 생성할 수 있습니다.
 

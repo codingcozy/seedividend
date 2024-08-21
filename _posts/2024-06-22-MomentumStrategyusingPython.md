@@ -3,16 +3,13 @@ title: "파이썬으로 모멘텀 전략 구현하는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-22-MomentumStrategyusingPython_0.png"
 date: 2024-06-22 05:44
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-MomentumStrategyusingPython_0.png
 tag: Tech
 originalTitle: "Momentum Strategy using Python"
 link: "https://medium.com/@manishpeshwani/momentum-strategy-using-python-3a4bb7ecf5cf"
 isUpdated: true
 ---
-
-
-
 
 이번 주에는 점심 시간에 몇몇 동료들과 흥미로운 대화를 나누었습니다. 그들은 투자에 어떤 방법론을 사용하는지 물어보았어요. 저는 '모멘텀 투자'를 사용한다고 언급했는데, 그들은 정확히 무슨 의미인지 이해하기 어려워했어요. 그래서 이 기사를 쓰기로 결심했습니다. 제가 모멘텀 투자를 위해 따르는 단계를 설명하겠습니다.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 모멘텀 투자는 과거에 우수한 성과를 보인 주식이 가까운 미래에도 계속 우수한 성과를 내리라는 전제에 기반합니다. 이 전략은 특정 기간 동안(예: 지난 1년) 우수한 성과를 보인 주식을 매수하고, 일정 기간(예: 1개월) 보유한 후 포트폴리오를 재평가하는 것을 포함합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 전략 개요
 
@@ -36,7 +44,18 @@ isUpdated: true
 
 # 전략 백테스팅
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 백테스팅은 거래 전략의 성과를 평가하는 데 중요합니다. 이전 데이터에 전략을 적용하여 과거 성과를 평가하고 잠재적인 미래 성과에 대한 통찰력을 얻을 수 있습니다.
 
@@ -46,7 +65,18 @@ isUpdated: true
 
 먼저, 지난 3년간 Nifty 50 주식의 히스토리컬 가격 데이터를 수집해야 합니다. 여기서는 야후 파이낸스 API를 사용하여 지난 3년간의 히스토리컬 데이터를 가져왔습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import yfinance as yf
@@ -55,14 +85,14 @@ import numpy as np
 from datetime import datetime, timedelta
 
 # Nifty 50 주식 기호 목록
-nifty50_symbols = ["RELIANCE.NS", "HDFCBANK.NS", "INFY.NS", "ICICIBANK.NS", "TCS.NS", "KOTAKBANK.NS", 
-                   "HINDUNILVR.NS", "SBIN.NS", "BHARTIARTL.NS", "HDFC.NS", "ITC.NS", "BAJFINANCE.NS", 
-                   "ASIANPAINT.NS", "HCLTECH.NS", "LT.NS", "MARUTI.NS", "AXISBANK.NS", "ULTRACEMCO.NS", 
-                   "WIPRO.NS", "NESTLEIND.NS", "ONGC.NS", "TITAN.NS", "SUNPHARMA.NS", "M&M.NS", 
-                   "POWERGRID.NS", "JSWSTEEL.NS", "TATASTEEL.NS", "TECHM.NS", "HDFCLIFE.NS", "COALINDIA.NS", 
-                   "BPCL.NS", "INDUSINDBK.NS", "BAJAJ-AUTO.NS", "IOC.NS", "BRITANNIA.NS", "HEROMOTOCO.NS", 
-                   "ADANIPORTS.NS", "DRREDDY.NS", "GRASIM.NS", "CIPLA.NS", "DIVISLAB.NS", "EICHERMOT.NS", 
-                   "BAJAJFINSV.NS", "SHREECEM.NS", "TATAMOTORS.NS", "SBILIFE.NS", "ADANIENT.NS", 
+nifty50_symbols = ["RELIANCE.NS", "HDFCBANK.NS", "INFY.NS", "ICICIBANK.NS", "TCS.NS", "KOTAKBANK.NS",
+                   "HINDUNILVR.NS", "SBIN.NS", "BHARTIARTL.NS", "HDFC.NS", "ITC.NS", "BAJFINANCE.NS",
+                   "ASIANPAINT.NS", "HCLTECH.NS", "LT.NS", "MARUTI.NS", "AXISBANK.NS", "ULTRACEMCO.NS",
+                   "WIPRO.NS", "NESTLEIND.NS", "ONGC.NS", "TITAN.NS", "SUNPHARMA.NS", "M&M.NS",
+                   "POWERGRID.NS", "JSWSTEEL.NS", "TATASTEEL.NS", "TECHM.NS", "HDFCLIFE.NS", "COALINDIA.NS",
+                   "BPCL.NS", "INDUSINDBK.NS", "BAJAJ-AUTO.NS", "IOC.NS", "BRITANNIA.NS", "HEROMOTOCO.NS",
+                   "ADANIPORTS.NS", "DRREDDY.NS", "GRASIM.NS", "CIPLA.NS", "DIVISLAB.NS", "EICHERMOT.NS",
+                   "BAJAJFINSV.NS", "SHREECEM.NS", "TATAMOTORS.NS", "SBILIFE.NS", "ADANIENT.NS",
                    "DABUR.NS", "VEDL.NS", "APOLLOHOSP.NS"]
 
 # 시간 범위 정의
@@ -87,43 +117,43 @@ print(data.head())
 def calculate_portfolio_returns(data, top_n=10):
     # 월간 수익률 계산
     monthly_returns = data.resample('M').ffill().pct_change()
-    
+
     # 12개월 수익률 계산
     twelve_month_returns = monthly_returns.rolling(window=12).apply(lambda x: np.prod(1 + x) - 1, raw=True)
-    
+
     # 월별 포트폴리오 가치를 저장할 빈 목록 초기화
     portfolio_values = []
-    
+
     # 초기 자본 부여
     initial_capital = 100000  # 1 lakh
     capital = initial_capital
-    
+
     # 13번째 달부터 시작하여 각 월 반복
     for i in range(12, len(twelve_month_returns)):
         # 현재 달의 12개월 수익률 가져오기
         current_returns = twelve_month_returns.iloc[i]
-        
+
         # 주식을 12개월 수익률에 따라 순위 매기기
         ranked_stocks = current_returns.sort_values(ascending=False)
-        
+
         # 상위 N개 주식 선택
         top_stocks = ranked_stocks.head(top_n).index
-        
+
         # 각 주식에 대한 동일 가중치 계산
         weight = 1 / top_n
-        
+
         # 현재 달의 포트폴리오 수익률 계산
         portfolio_return = (monthly_returns.iloc[i][top_stocks] * weight).sum()
-        
+
         # 자본 업데이트
         capital = capital * (1 + portfolio_return)
-        
+
         # 현재 자본을 포트폴리오 가치 목록에 추가
         portfolio_values.append(capital)
-    
+
     # 포트폴리오 가치 목록을 pandas Series로 변환
     portfolio_values = pd.Series(portfolio_values, index=twelve_month_returns.index[12:])
-    
+
     return portfolio_values
 
 # 포트폴리오 수익률 계산
@@ -133,7 +163,18 @@ momentum_portfolio_returns = calculate_portfolio_returns(data)
 print(momentum_portfolio_returns)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 3: Nifty 50 지수와 비교
 
@@ -168,7 +209,18 @@ plt.show()
 
 <img src="/assets/img/2024-06-22-MomentumStrategyusingPython_0.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결과 및 분석
 
@@ -180,7 +232,18 @@ plt.show()
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 니프티 50 주식들에 대한 모멘텀 투자 전략은 지난 3년 동안 기대를 불러일으켰어요. 12개월 수익률에 기반한 상위 10개 주식을 선택하고 매월 포트폴리오를 리밸런싱 함으로써, 이 전략은 니프티 50 지수를 능가했어요. 하지만 과거 성과가 미래 성과를 반영한다는 점을 명심해야 하며, 투자자는 이 전략을 실행하기 전에 위험 허용 수준 및 투자 목표를 신중히 고려해야 해요.
 

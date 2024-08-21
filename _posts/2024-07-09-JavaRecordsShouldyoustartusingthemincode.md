@@ -3,15 +3,13 @@ title: "자바 레코드 코드에서 사용을 시작해야 하는 이유는"
 description: ""
 coverImage: "/allround-coder.github.io/assets/no-image.jpg"
 date: 2024-07-09 22:02
-ogImage: 
+ogImage:
   url: /allround-coder.github.io/assets/no-image.jpg
 tag: Tech
 originalTitle: "Java Records: Should you start using them in code ?"
 link: "https://medium.com/@abhijeet.gite/java-records-should-you-start-using-them-in-code-2b4b7d75be84"
 isUpdated: true
 ---
-
-
 
 # 소개
 
@@ -21,7 +19,18 @@ Java 16에서, 개발자들은 Java 생태계에 새로운 거주자인 record �
 
 Java Records는 데이터 표현을 위한 클래스를 정의하는 간단한 방법을 제공합니다. 명확성을 위해.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 public record User(String name, int age) {}
@@ -33,7 +42,18 @@ public record User(String name, int age) {}
 
 자바 레코드는 마치 마법처럼 보일 수 있지만, 실제로는 다음과 같이 작동합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 필드: Java는 각 구성 요소마다 private final 필드를 만듭니다.
 - 생성자: 공개 생성자를 만들어 이러한 필드를 초기화합니다.
@@ -48,7 +68,18 @@ Java 레코드는 데이터 표현에서의 새로운 패러다임을 제시하�
 
 1. 레코드를 빈으로 사용하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 레코드는 클래스와 마찬가지로 @Component, @Service, @Repository 또는 @Controller와 같은 주석으로 주석 처리될 수 있습니다. Spring으로 관리되는 빈으로 선언합니다. 레코드 빈의 인스턴스는 Spring 컨테이너에서 관리되며 수명 주기는 클래스 기반 빈과 동일합니다.
 
@@ -63,7 +94,18 @@ public record UserService(UserRepository repo) {
 
 2. 의존성 주입
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Spring의 의존성 주입 메커니즘은 레코드와 완벽하게 호환이 됩니다. 레코드의 불변성 특성을 감안할 때, 생성자 주입이 가장 자연스러운 선택입니다.
 
@@ -83,7 +125,18 @@ public record UserController(UserService userService) {
 
 3. 라이프사이클
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 레코드 빈의 라이프사이클은 클래스 기반 빈의 것과 별반 다르지 않습니다. 일반적인 라이프사이클 콜백 (@PostConstruct 및 @PreDestroy)은 레코드에도 적용됩니다.
 
@@ -99,7 +152,18 @@ public record AppConfig(String name, DatabaseConfig database) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 기능에 대한 spring-boot-configuration-processor 종속성을 포함해주시기 바랍니다.
 
@@ -109,7 +173,18 @@ Record는 훌륭한 추가 기능이지만 Spring Boot와 함께 사용할 때 �
 
 - Record는 불변이므로 record 구성 요소에 직접 @Autowired를 사용한 필드 주입이 불가능합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 public record UserService(@Autowired UserRepository repo) {
@@ -123,7 +198,18 @@ public record UserService(@Autowired UserRepository repo) {
 
 Records는 Spring Boot 코드베이스에 간결함과 명확성을 도입합니다. 많은 Spring Boot 기능과 잘 통합되지만, 그들의 특성과 가끔씩 발생할 수 있는 제한 사항을 유의하는 것이 중요합니다. 일반적인 원칙은 무엇일까요? Records는 필요한 곳에서 사용하여 가독성을 향상시키지만, 모든 곳에 강제로 적용하지는 마세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Records vs. 롬복
 
@@ -133,7 +219,18 @@ Records는 Spring Boot 코드베이스에 간결함과 명확성을 도입합니
 
 Java의 경쟁자들이 침묵하지 않습니다. Kotlin은 "데이터 클래스"를 갖고 있고, Scala는 "케이스 클래스"를 제공합니다. Scala는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 case class User(name: String, age: Int)
@@ -147,7 +244,18 @@ case class User(name: String, age: Int)
 - 내장된 솔루션: 주요 Java 기능인 레코드는 서드파티 종속성을 건너뛰었습니다.
 - 진화: Java 레코드는 이 언어가 현대적인 방향을 지키겠다는 약속을 반영합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 1. 레코드와 컬렉션
 
@@ -161,7 +269,18 @@ case class User(name: String, age: Int)
 - 기본적으로 잠금 메커니즘 없음: 동기화가 필요한 경우에는 Java의 표준 동기화 메커니즘을 사용하세요.
 - 가변 구성 요소 주의: 레코드의 구성 요소가 가변 구조(예: List와 같은 것)에 대한 참조인 경우, 해당 구조는 가변 상태로 유지됩니다. 공유된 변이가 있는 경우 적절한 동기화가 필요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 3. 기록과 반성
 
@@ -175,7 +294,18 @@ case class User(name: String, age: Int)
 - 공개 레코드 구성 요소: 기본적으로 레코드 구성 요소는 public이지만, 레코드 자체에는 public, protected 또는 패키지-내부 접근자와 같은 접근 수정자를 가질 수 있습니다.
 - 확장 가능성 제한: 레코드는 다른 클래스를 확장할 수 없지만 인터페이스를 구현할 수 있습니다. 이 설계는 데이터 일관성과 간결함을 보장합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론:
 
@@ -187,7 +317,18 @@ case class User(name: String, age: Int)
 
 레코드는 단순함과 강력함을 결합하여 현대적인 Java 개발자라면 반드시 알아야 할 도구입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 이전 방식: @Value 사용
 
@@ -215,7 +356,18 @@ public class AppConfig {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 방법은 작동하지만 많은 프로퍼티를 처리할 때에는 번거로워지고 조각날 수 있습니다.
 
@@ -225,7 +377,18 @@ public class AppConfig {
 
 레코드와 함께 @ConfigurationProperties를 사용한 예제:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 @ConfigurationProperties(prefix = "app")
@@ -243,7 +406,18 @@ public record AppConfig(String name, DatabaseConfig database) {
 
 블로그에 이 섹션을 통합하여 Spring Boot에서 속성 구성의 진화와 record가 @ConfigurationProperties와 함께 코드베이스를 단순화하는 방법을 강조할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 이것을 시도해볼까요?
 
@@ -253,7 +427,18 @@ public record AppConfig(String name, DatabaseConfig database) {
 
 만약 당신의 클래스가 주로 간단한 데이터 홀더이고, 보일러플레이트 코드를 최소화하고 싶다면, 레코드는 훌륭한 선택입니다. 레코드는 명확한 의미론을 제공합니다. 그러나 클래스 내에서 정교한 사용자 정의가 필요하다면 전통적인 클래스가 더 적합할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 성능 영향
 
@@ -263,7 +448,18 @@ public record AppConfig(String name, DatabaseConfig database) {
 
 POJO(Plain Old Java Objects)를 레코드로 일괄 변환해야 할까요? 아마 그렇지 않을 것입니다. 레코드는 멋진 기능이지만, 이미 존재하고 잘 테스트된 코드를 전면 개편하는 것은 노력과 잠재적인 위험을 정당화할만한 충분한 이점을 제공하지 않을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 새로운 구성 요소나 모듈, 특히 간단한 데이터 운송체가 필요한 경우 레코드를 고려할 가치가 있습니다.
 
@@ -273,6 +469,17 @@ POJO(Plain Old Java Objects)를 레코드로 일괄 변환해야 할까요? 아�
 
 # 적용에 대한 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Java records은 주목할 만한 추가 기능이지만, 모든 상황에 완벽한 해결책은 아닙니다. Java 도구 상자 속에서 또 다른 도구일 뿐입니다. 데이터 중심 클래스에서 불변성과 명확성이 중요한 경우를 고려해 보세요. 새로운 기능을 도입할 때는 프로젝트 상황을 고려하여 장단점을 생각해 보고, 특정 요구 사항에 맞추어 전통적인 클래스와 레코드를 혼용하는 것을 두렵지 않아해주세요.

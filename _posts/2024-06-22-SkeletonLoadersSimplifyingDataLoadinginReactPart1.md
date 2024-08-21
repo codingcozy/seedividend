@@ -3,16 +3,13 @@ title: "Skeleton Loaders React 데이터 로딩 쉽게 하기 - 1부"
 description: ""
 coverImage: "/assets/img/2024-06-22-SkeletonLoadersSimplifyingDataLoadinginReactPart1_0.png"
 date: 2024-06-22 02:58
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-SkeletonLoadersSimplifyingDataLoadinginReactPart1_0.png
 tag: Tech
 originalTitle: "Skeleton Loaders: Simplifying Data Loading in React: Part 1"
 link: "https://medium.com/@topeogunleye1/skeleton-loaders-simplifying-data-loading-in-react-part-1-945f50b4d2fd"
 isUpdated: true
 ---
-
-
-
 
 ![이미지](/assets/img/2024-06-22-SkeletonLoadersSimplifyingDataLoadinginReactPart1_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 ## Skeleton Loading 화면의 파워를 이해하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대부분의 최신 웹 사이트는 데이터를 서버 측이 아닌 브라우저에서 가져옵니다. 사용자가 콘텐츠를 서버에서로드하기까지 기다릴 필요가 없어서 이는 장점이 될 수 있었지만, 그러면 브라우저에서 데이터를 가져와야 하므로 기다려야 하는 상황이 발생했습니다. 이 데이터 가져오기 이벤트를 처리하고 사용자가 애플리케이션 또는 웹 사이트와 상호 작용하도록 유지하기 위해 일반적으로 어떤 종류의 로더나 스피너가 표시됩니다. 매우 실용적이고 점점 일반적인 접근 방법은 스켈레톤 로딩 화면을 사용하는 것입니다. 이는 콘텐츠의 레이아웃을 반영하는 플레이스홀더 요소를 추가하여 들어오는 데이터를 나타냅니다. Facebook 및 LinkedIn과 같은 주요 웹 사이트에서 사용되는 스켈레톤 로딩 화면은 이 상황에 대한 해결책입니다.
 
@@ -33,7 +41,18 @@ isUpdated: true
 
 # 프로젝트 설정하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저 새로운 리액트 애플리케이션을 생성하세요:
 
@@ -47,7 +66,18 @@ npx create-react-app react-skeleton-screens
 cd react-skeleton-screens
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Visual Studio Code에서 프로젝트를 열어보세요:
 
@@ -59,21 +89,43 @@ code .
 
 create-react-app으로 생성된 기본 파일들을 정리해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - `src` 폴더를 열어서 다음 파일들을 삭제해주세요:
-— App.css
-— App.test.js
-— logo.svg
-— setupTests.js
+  — App.css
+  — App.test.js
+  — logo.svg
+  — setupTests.js
 
 2. index.js 파일 내에서 service worker의 import 및 호출을 제거해주세요.
 
-3. App.js 파일 내에서 logo.svg와 App.css의 import를 제거해주세요. 
+3. App.js 파일 내에서 logo.svg와 App.css의 import를 제거해주세요.
 
 `App.js`에 다음 코드를 넣어주세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import React from "react";
@@ -105,7 +157,18 @@ const Home = () => {
 export default Home;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 애플리케이션에 스타일 추가하기
 
@@ -115,7 +178,18 @@ index.css 업데이트
 
 `index.css`의 내용을 다음 스타일로 대체해 주세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 * {
@@ -190,7 +264,18 @@ header h1 {
 
 변경 사항을 확인하려면 개발 서버를 시작하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 yarn dev
@@ -202,7 +287,18 @@ yarn dev
 
 MealDB API(https://www.themealdb.com/api.php)를 사용하여 데이터를 가져올 거에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 App.js에서 데이터를 저장할 상태를 생성해보세요:
 
@@ -219,9 +315,7 @@ function App() {
   const [meals, setMeals] = useState(null);
   useEffect(() => {
     setTimeout(async () => {
-      const res = await fetch(
-        "https://www.themealdb.com/api/json/v1/1/search.php?s=chicken"
-      );
+      const res = await fetch("https://www.themealdb.com/api/json/v1/1/search.php?s=chicken");
       const data = await res.json();
       setMeals(data);
     }, 5000);
@@ -240,7 +334,18 @@ function App() {
 export default App;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Home.js 파일에서 조건부 렌더링을 사용하여 식사 레시피 결과를 표시하십시오:
 
@@ -251,9 +356,7 @@ const Home = () => {
   const [meals, setMeals] = useState(null);
   useEffect(() => {
     setTimeout(async () => {
-      const res = await fetch(
-        "https://www.themealdb.com/api/json/v1/1/search.php?s=chicken"
-      );
+      const res = await fetch("https://www.themealdb.com/api/json/v1/1/search.php?s=chicken");
       const meals = await res.json();
       setMeals(meals);
     }, 5000);
@@ -266,11 +369,7 @@ const Home = () => {
             meals.meals.map((meal) => (
               <div className="meal" key={meal.idMeal}>
                 <Link to={`/MealInfo/${meal.idMeal}`}>
-                  <img
-                    className="meal-img"
-                    src={meal.strMealThumb}
-                    alt={meal.strMeal}
-                  />
+                  <img className="meal-img" src={meal.strMealThumb} alt={meal.strMeal} />
                   <div className="meal-info" data-mealid={meal.idMeal}>
                     <h3>{meal.strMeal}</h3>
                   </div>
@@ -289,7 +388,18 @@ export default Home;
 
 react-router-dom 설치하기:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm install react-router-dom
@@ -298,11 +408,11 @@ npm install react-router-dom
 react-router-dom에서 BrowserRouter을 사용하여 main.js에 App을 감싸세요:
 
 ```js
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
-import { BrowserRouter } from 'react-router-dom'
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App.jsx";
+import "./index.css";
+import { BrowserRouter } from "react-router-dom";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -315,7 +425,18 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 
 ## 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이번 시리즈의 첫 번째 파트에서는 리액트 애플리케이션에 스켈레톤 로딩 화면을 구현하는 기초 작업을 마무리지었습니다. 기본적인 React 프로젝트를 설정하고 컴포넌트를 생성하며, 스타일을 추가하고 API에서 데이터를 가져오면서 우리는 애플리케이션에 스켈레톤 로딩 화면을 통합할 기초를 마련했습니다.
 

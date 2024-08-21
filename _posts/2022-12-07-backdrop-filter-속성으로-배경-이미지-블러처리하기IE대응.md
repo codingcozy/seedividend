@@ -3,17 +3,13 @@ title: "backdrop-filter 속성으로 배경 이미지 블러처리하기(IE대�
 description: "backdrop-filter 속성으로 IE대응까지 가능한 배경 이미지 블러처리하는 방법에 대해서 알아봅니다"
 coverImage: ""
 date: 2024-08-03 16:52
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # backdrop-filter 속성으로 배경 이미지 블러처리하기(IE대응)
 
@@ -21,9 +17,18 @@ backdrop-filter 속성으로 배경 이미지에 블러처리를 줄 수 있어�
 
 <img  src="./img/2022-12-07-backdrop-filter-속성으로-배경-이미지-블러처리하기IE대응-2.png" width="300"/>
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```html
 <!DOCTYPE html>
@@ -46,7 +51,18 @@ backdrop-filter 속성으로 배경 이미지에 블러처리를 줄 수 있어�
 </html>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```scss
 .card {
@@ -79,7 +95,18 @@ backdrop-filter 속성으로 배경 이미지에 블러처리를 줄 수 있어�
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위와 같이 작성하면 아래 처럼 나옵니다.
 
@@ -91,9 +118,18 @@ backdrop-filter 속성으로 배경 이미지에 블러처리를 줄 수 있어�
 
 블러처리는 아래 .card 클래스 부분에 before 가상요소를 추가해주면 됩니다. **card 요소 자체에 블러처리를 하는 것이 아니라 이미지 위를 덮는 가상 요소를 만들고 그 가상요소를 블러처리하는 방식이죠.**
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```scss
 .card {
@@ -130,9 +166,18 @@ scss에는 `@supports` 문법이 존재하는데 **`@supports not (속성)` 속�
 
 아래와 같이 작성해서 사용할 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```scss
 @supports not (backdrop-filter: blur($amount)) {
@@ -148,7 +193,18 @@ scss에는 `@supports` 문법이 존재하는데 **`@supports not (속성)` 속�
 
 이런 경우에는 .card 스타일을 아래와 같이 수정해주면 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```scss
 .card {
@@ -168,11 +224,7 @@ scss에는 `@supports` 문법이 존재하는데 **`@supports not (속성)` 속�
     bottom: 0;
     left: 0;
     height: 100px;
-    background-image: linear-gradient(
-      90deg,
-      rgb(0, 0, 0) 0%,
-      rgb(0, 0, 0) 100%
-    );
+    background-image: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%);
     filter: blur(30px);
     -webkit-filter: blur(30px);
   }

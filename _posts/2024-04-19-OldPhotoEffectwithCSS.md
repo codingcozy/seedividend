@@ -3,17 +3,13 @@ title: "CSS를 사용해 오래된 사진 효과 만드는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Old Photo Effect with CSS"
 link: "https://medium.com/gitconnected/old-photo-effect-with-css-54f5be9912b"
 isUpdated: true
 ---
-
-
-
-
 
 ![Old Photo Effect with CSS](/assets/img/OldPhotoEffectwithCSS_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이 페이지의 예시에는 필립 로만옵스키의 사진을 사용할 거에요. 필립의 작품과 더불어 다른 많은 작가들의 놀라운 사진들도 Unsplash에서 만나볼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 이미지 태그 사용하기
 
@@ -35,7 +42,18 @@ HTML에서 이미지로 시작해볼까요:
 <img src="이미지-링크-입력.jpg" alt="이미지 설명" />
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼 CSS에 몇 가지 필터를 적용하고 간단한 마스크를 만들어보겠습니다:
 
@@ -53,7 +71,18 @@ img {
 - contrast(1.2): 이미지의 대조를 강조합니다. 값을 조정하여 우리가 원하는 대로 조정하고 각 이미지에 맞게 개인화할 수 있습니다. 하지만 조절 값을 너무 높게 하거나 너무 낮게 하면 이상해 보일 수 있습니다.
 - sepia(1): 이미지의 색상을 올드 포토 세피아 톤으로 변환합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또 다른 라인을 웹킷 마스크에 추가할 수도 있습니다. 예전 사진은 중앙이 더 집중되어 있는 것처럼 보이지만, 이후 색상이 사라지고 가장자리가 조금 흐릿해지면서 저하됩니다. 이를 CSS에 마스크를 적용하여 구현할 수 있습니다. 불행히도 마스크는 모든 브라우저에서 지원되지 않지만... 다행히도 벤더 접두사는 있습니다! 따라서 -webkit-mask를 사용하여 동일한 효과를 적용할 수 있습니다.
 
@@ -61,7 +90,18 @@ img {
 
 이 네 줄의 CSS를 적용하면 오래된 사진 효과를 얻을 수 있습니다. 원본과 결과 사진을 비교한 것이 여기 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Old Photo Effect with CSS](/assets/img/OldPhotoEffectwithCSS_1.png)
 
@@ -71,7 +111,18 @@ img {
 
 하나의 `img` 태그를 사용하는 경우 이미지에 ::before 또는 ::after와 같은 가상 요소가 없기 때문에 요소에 적용할 수 있는 효과가 제한됩니다. 대신 `div`를 사용하고 이미지를 배경으로 추가하면 가상 요소에 필터와 마스크를 적용하여 더 정확한 효과를 얻을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `img /` 태그로 비슷한 결과를 얻는 것은 간단합니다. HTML은 다음과 같이 보일 것입니다:
 
@@ -98,7 +149,18 @@ img {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그렇게 함으로써, 이전 섹션에서와 동일한 효과를 얻을 수 있습니다. 이미지의 가장자리를 흐리게 하는 것은 오래된 사진에서 흔한 현상입니다. 이를 위해 우리는 다시 마스크를 사용할 것입니다. 중심에서 가장자리 방향으로의 또 다른 원형 그라디언트인데, 이번에는 반대 방향으로 되겠습니다: 중앙에서 숨겨지고 끝에서 보이도록 설정됩니다. 이렇게 하면 이미지 자체에 백드롭 필터 효과를 적용할 수 있습니다.
 
@@ -117,7 +179,18 @@ img {
 
 결과 이미지는 가장자리 주변이 더 흐리게 처리되며, 더 많은 세피아가 추가되었습니다(따라서 색상이 더 조화롭게 결합됩니다):
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/OldPhotoEffectwithCSS_2.png" />
 
@@ -127,7 +200,18 @@ img {
 
 맞아요. 이 마지막 단계에는 약간의 SVG가 포함됩니다. 사실은 CSS에는 필터가 있지만, SVG의 필터가 그것보다 다양하고 고급스럽지는 않습니다. 우리에게 다행히도, 두 기술을 비교적 쉬운 방법으로 결합할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 가지 방법은 HTML에 인라인 SVG를 추가하고 CSS에서 참조하는 것입니다. 또 다른 방법으로는 HTML 쪽에 아무것도 추가하지 않고 CSS에서 SVG를 직접 인라인하는 것입니다. 이는 데이터 URI와 url() 함수를 결합하여 배경으로 SVG를 추가함으로써 가능합니다:
 
@@ -146,7 +230,18 @@ data:[<mime 타입>][;charset=<문자셋>][;base64],<인코딩된 데이터>
 </svg>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 필요한 건 #을 주의깊게 다루는 것 뿐입니다. #은 URL 인코딩되어 %23으로 대체되어야 합니다. 그런 다음 해당 속성을 ::after 의 가상 요소에 적용합니다:
 
@@ -168,7 +263,18 @@ data:[<mime 타입>][;charset=<문자셋>][;base64],<인코딩된 데이터>
 
 결과는 이전과 동일한 이미지지만, 이제 오래된 사진 이미지에 더 많은 현실감을 더해주는 골반/잡음 효과가 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/OldPhotoEffectwithCSS_3.png" />
 
@@ -178,7 +284,18 @@ data:[<mime 타입>][;charset=<문자셋>][;base64],<인코딩된 데이터>
 
 <img src="/assets/img/OldPhotoEffectwithCSS_4.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 필터 및 마스크값을 변경하면 완전히 다른 이미지가 생성됩니다. 코드를 다운로드하여 로컬에서 시도해보거나 CodePen에서 이 데모를 사용해보세요:
 
@@ -188,7 +305,18 @@ data:[<mime 타입>][;charset=<문자셋>][;base64],<인코딩된 데이터>
 
 ![old photo effect](/assets/img/OldPhotoEffectwithCSS_5.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![OldPhotoEffectwithCSS_6](/assets/img/OldPhotoEffectwithCSS_6.png)
 
@@ -198,7 +326,18 @@ data:[<mime 타입>][;charset=<문자셋>][;base64],<인코딩된 데이터>
 
 ![OldPhotoEffectwithCSS_8](/assets/img/OldPhotoEffectwithCSS_8.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사람들의 사진을 사용하면 효과가 더 좋아요. 그러나 사람이 없어도 작동합니다. 특히 사진의 주제가 옛날 물건인 경우 효과가 특히 좋아요:
 

@@ -3,16 +3,13 @@ title: "파이썬을 활용한 비즈니스 계획 - 재고 및 현금 흐름 �
 description: ""
 coverImage: "/assets/img/2024-06-20-BusinessPlanningwithPythonInventoryandCashFlowManagement_0.png"
 date: 2024-06-20 01:50
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-BusinessPlanningwithPythonInventoryandCashFlowManagement_0.png
 tag: Tech
 originalTitle: "Business Planning with Python — Inventory and Cash Flow Management"
 link: "https://medium.com/towards-data-science/business-planning-with-python-inventory-and-cash-flow-management-4f9beb7ecbec"
 isUpdated: true
 ---
-
-
-
 
 ## 데이터 분석을 활용하여 소기업이 재고를 관리하고 유동성 요구를 예측하며 수익을 극대화하는 방법은 무엇인가요?
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 중소기업을 경영하는 친구와 대화한 후, 성장에 있어 현금이 가장 큰 병목 현상일 수 있다는 것을 알게 되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 공급망 데이터 과학자로서, 나는 이 문제를 공급망, 재고 관리 및 유통 계획에 빠르게 연결했습니다.
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 우리는 제 친구의 소규모 사업을 예로 들 것입니다. 그들은 재생 가능한 재료로 만든 컵을 커피숍과 유통업체에 판매합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 💌 무료로 새로운 기사를 이메일로 받아보세요: 뉴스레터
 📘 공급망 분석에 대한 완벽한 가이드: 분석 요약 시트
@@ -66,22 +85,44 @@ III. 결론
 
 이 부분은 내 친구의 비즈니스 모델을 이해하기 위해 수집한 요소들을 간단히 소개합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 포인트들이 포함되어 있습니다:
 
 - 재고 관리: 제품 주문, 수령, 보관 및 배송
-❓ 고객 수요를 충족시키려면 언제 주문해야 할까요?
+  ❓ 고객 수요를 충족시키려면 언제 주문해야 할까요?
 - 재무: 비용 및 수익 흐름
-💡 주간 손익 분석.
+  💡 주간 손익 분석.
 - 상업: 판매 채널, 서비스 수준 협약 및 수수료
-❔ XXX에 판매하면 얼마의 이익을 올릴까요?
+  ❔ XXX에 판매하면 얼마의 이익을 올릴까요?
 
 ![이미지](/assets/img/2024-06-20-BusinessPlanningwithPythonInventoryandCashFlowManagement_2.png)
 
 우리는 이러한 요소를 모델링하여 서로 어떻게 상호 작용하고 전체 가치 사슬을 최적화할 수 있는지 이해할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 재고 관리 시뮬레이션
 
@@ -91,14 +132,25 @@ III. 결론
 
 재고 관리 규칙은 기계 속의 한 부분입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 재고는 상업 성장을 막을 수 있어요.
-손에 없는 아이템은 발송할 수 없어요.
+  손에 없는 아이템은 발송할 수 없어요.
 - 충전 능력은 재무 상황으로 제한됩니다.
-주문 지불을 위해 손에 있는 현금이 필요해요.
+  주문 지불을 위해 손에 있는 현금이 필요해요.
 - 전략적 결정은 재고 관리 방식에 영향을 미칩니다.
-예를 들어, 화물(항공, 해상) 소요 시간이 재고의 안정성에 영향을 줍니다.
+  예를 들어, 화물(항공, 해상) 소요 시간이 재고의 안정성에 영향을 줍니다.
 
 이 모듈은 고객 수요, 자기 시간, 그리고 안전 재고 매개변수에 기반하여
 보충 주문을 생성합니다.
@@ -108,7 +160,18 @@ III. 결론
 이 연습에서는 2023년의 역사적 판매 데이터를 사용하여
 최적의 재고 관리가 무엇이었을 지 모사했어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요! 이 요청에 대한 답변으로 지속적 검토 정책인 (s, Q)을 소개해보려고 해요.
 
@@ -119,8 +182,18 @@ III. 결론
 
 재주문 지점은 발주가 도착할 때까지 고객 요구를 충족하기 위해 필요한 재고 수준을 의미해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-20-BusinessPlanningwithPythonInventoryandCashFlowManagement_6.png)
 
@@ -130,8 +203,18 @@ III. 결론
 
 ![이미지](/assets/img/2024-06-20-BusinessPlanningwithPythonInventoryandCashFlowManagement_7.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 📈 전설
 
@@ -143,10 +226,21 @@ III. 결론
 
 💡 관찰 결과
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이 정책이 최적인지 확실하지 않아요.
-우리는 내 친구의 표준 운영 모델을 알고리즘으로 번역할 뿐이에요.
+  우리는 내 친구의 표준 운영 모델을 알고리즘으로 번역할 뿐이에요.
 - 주문 수량과 보충 리드 타임을 최소화하기 위해 조정할 수 있다는 것을 염두에 두세요.
 
 재주문 시기를 알게 되었으니, 현금 보유액을 시각화하기 위해 재무 흐름을 포함할 수 있어요.
@@ -155,7 +249,18 @@ III. 결론
 
 이전 섹션은 재무 흐름을 고려하지 않고 물류 관점에서 비즈니스를 설명해 왔어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 내 친구의 주요 문제는 재고를 보충하기 위해 주문 가능한 유동성이 제한된 것입니다.
 
@@ -166,12 +271,23 @@ III. 결론
 수익
 역사적 판매액은 판매 채널 별로 분할됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 배급업체는 출하 후 4 주 후 지급합니다.
-각 판매 후 4 주 후, 송장 금액 (단가 x 수량)이 입금됩니다.
+  각 판매 후 4 주 후, 송장 금액 (단가 x 수량)이 입금됩니다.
 - 커피숍은 주문 시 지불합니다.
-매주 끝날 때 마다, 송장 금액 (단가 x 수량)이 입금됩니다.
+  매주 끝날 때 마다, 송장 금액 (단가 x 수량)이 입금됩니다.
 
 ![이미지](/assets/img/2024-06-20-BusinessPlanningwithPythonInventoryandCashFlowManagement_9.png)
 
@@ -180,10 +296,21 @@ III. 결론
 
 고정 및 가변 비용
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 조달 및 인바운드 물류 비용
-공급업체 및 화물 운송업자는 공장에서 선적이 이뤄지면 지불되어야 합니다.
+  공급업체 및 화물 운송업자는 공장에서 선적이 이뤄지면 지불되어야 합니다.
 
 ![이미지](/assets/img/2024-06-20-BusinessPlanningwithPythonInventoryandCashFlowManagement_10.png)
 
@@ -191,10 +318,20 @@ III. 결론
 주문은 생성된 후 일주일 후에 선적 준비가 됩니다.
 
 - 보관 및 구조 비용
-이에는 팔레트 보관(팔레트당 단위 가격 사용) 및 인력 비용, 설비 비용 등과 같은 반복 비용이 포함됩니다.
+  이에는 팔레트 보관(팔레트당 단위 가격 사용) 및 인력 비용, 설비 비용 등과 같은 반복 비용이 포함됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![](/assets/img/2024-06-20-BusinessPlanningwithPythonInventoryandCashFlowManagement_11.png)
 
@@ -202,27 +339,48 @@ III. 결론
 내 친구는 창고에 팔렛을 보관하는 데 최소 요금을 지불할 필요가 없었다고 운이 좋았어요.
 
 - 비반복 비용
-이 비용은 일시불로 지불되며, 마케팅 자료 구매, 특별 직원 보너스 또는 유통업체 벌금을 포함할 수 있습니다.
+  이 비용은 일시불로 지불되며, 마케팅 자료 구매, 특별 직원 보너스 또는 유통업체 벌금을 포함할 수 있습니다.
 - 수수료 비용
-내 친구는 커피숍에 대한 판매 시 독립적인 영업 대행사와 함께 일하며, 이들은 매출의 30%의 수수료를 받습니다.
+  내 친구는 커피숍에 대한 판매 시 독립적인 영업 대행사와 함께 일하며, 이들은 매출의 30%의 수수료를 받습니다.
 
 ![](/assets/img/2024-06-20-BusinessPlanningwithPythonInventoryandCashFlowManagement_12.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 요약하자면, 다음과 같습니다:
 
 - 수익 흐름에는 두 채널에서의 매출이 포함됩니다.
-총 매출 = (유통업체 매출 + 커피 샵 매출)
+  총 매출 = (유통업체 매출 + 커피 샵 매출)
 - 총 비용에는 고정비용, 가변비용 및 비반복 비용이 모두 포함됩니다.
-총 비용 = (가변 비용 + 고정 비용 + 비반복 비용)
+  총 비용 = (가변 비용 + 고정 비용 + 비반복 비용)
 
 ![이미지](/assets/img/2024-06-20-BusinessPlanningwithPythonInventoryandCashFlowManagement_13.png)
 
 💡 관찰 사항
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 우리는 구조 비용이 매우 낮습니다. 고정 비용의 10% 미만입니다.
 - 수수료는 두 번째로 큰 비용 항목을 차지합니다.
@@ -233,8 +391,18 @@ III. 결론
 
 - 현금 흐름 = 매출액 — 비용
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-20-BusinessPlanningwithPythonInventoryandCashFlowManagement_14.png)
 
@@ -244,8 +412,18 @@ III. 결론
 
 만약 우리가 현금이 없는 상태에서 연도를 시작한다고 가정해보자 (나쁜 아이디어),
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 Markdown 형식으로 변경된 내용입니다.
 
@@ -258,7 +436,18 @@ III. 결론
 
 활동을 원활하게 운영하고 제 시간에 공급 업체에 지불하려면 적어도 연초에 125,000 달러 이상이 필요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 섹션에서는 여러 성과 지표를 정의하고 시나리오를 시뮬레이션하여 데이터 기반 비즈니스 통찰력을 제공할 것입니다.
 
@@ -268,7 +457,18 @@ III. 결론
 
 각 시나리오는 네 가지 지표를 사용하여 평가될 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-20-BusinessPlanningwithPythonInventoryandCashFlowManagement_16.png" />
 
@@ -285,7 +485,18 @@ The idea is to measure the business and operational performance along the value 
 
 ## Scenario 1: Order Quantity Optimization
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 공급망 엔지니어로서, 나는 물류 흐름과 재고 관리 규칙을 조사해보겠어요.
 
@@ -295,36 +506,69 @@ The idea is to measure the business and operational performance along the value 
 
 이제 우리가 안전 재고를 갖춘 최적의 재고 관리 규칙을 갖고 있으니, 주문 수량을 Q = 6주 용량으로 줄일 수 있을 거예요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![BusinessPlanningwithPythonInventoryandCashFlowManagement](/assets/img/2024-06-20-BusinessPlanningwithPythonInventoryandCashFlowManagement_17.png)
 
 예상 재고 손실을 방지하여 수익에 미치는 영향이 무시할 수 없습니다.
 
 - 연습 시작 시 손에 현금이 더 적게 필요합니다.
-시나리오 1: coh_0 = 74,733($) | -41%
+  시나리오 1: coh_0 = 74,733($) | -41%
 - 매출원가(COGS)가 크게 감소합니다.
-시나리오 1: cogs = 4,928($/파렛) | -2.6%
+  시나리오 1: cogs = 4,928($/파렛) | -2.6%
 - 각각의 판매 팔렛당 더 나은 이익을 창출합니다.
-시나리오 1: avg_profit = 3,815($/팔렛) | +3%
+  시나리오 1: avg_profit = 3,815($/팔렛) | +3%
 
 💡 결론
 이 빠른 승리는 유동성 요구 사항에 대한 여유를 제공하고 추가 수익을 가져다줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 피드백으로 인해 이 비즈니스 가치 사슬의 전략적 비전에 대해 심층적으로 고찰하게 되었습니다.
 
 - 🙋‍♂️ 왜 인바운드 물류를 항공 운송으로 전환하지 않을까요?
-항공 운송은 매우 비싸지만 더 많은 유연성을 제공합니다. 즉, 평균 재고가 낮아집니다.
+  항공 운송은 매우 비싸지만 더 많은 유연성을 제공합니다. 즉, 평균 재고가 낮아집니다.
 - 🙋‍♀️ 유통 업체에만 판매해야 할까요?
-유통업체의 지불 조건은 더 길지만(4주), 영업 수수료를 지불할 필요가 없고, 아웃바운드 물류 비용이 낮아집니다.
+  유통업체의 지불 조건은 더 길지만(4주), 영업 수수료를 지불할 필요가 없고, 아웃바운드 물류 비용이 낮아집니다.
 
 이런 의문점들은 합당하지만, 이에 답하기 위해서는 복잡한 계산이 필요하며, 우리 모델이 이를 완벽히 자동화할 수 있습니다.
 
 ## 시나리오 2: 인바운드 물류용 항공 운송
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 경험상, 항공 화물 운송은 주로 빠른 배송이 필요한 고가 제품에 사용됩니다(주로 명품이나 자동차 부품).
 
@@ -335,7 +579,18 @@ The idea is to measure the business and operational performance along the value 
 
 이제 주문 수량을 8주에서 3주로 줄일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-20-BusinessPlanningwithPythonInventoryandCashFlowManagement_18.png" />
 
@@ -346,14 +601,25 @@ The idea is to measure the business and operational performance along the value 
 
 안타깝게도, 이는 고비용의 항공 운송 비용을 상쇄하지 못합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이로 인해 판매원가(COGS)가 증가합니다.
-시나리오 2: cogs = 5,511 ($/팔렛) | +8 %
+  시나리오 2: cogs = 5,511 ($/팔렛) | +8 %
 - 이로 인해 팔렛 당 수익성이 낮아집니다.
-시나리오 2: avg_profit = 3,232 ($/팔렛) | -12 %
+  시나리오 2: avg_profit = 3,232 ($/팔렛) | -12 %
 - 다행히도, 연초에 필요한 현금이 줄어듭니다.
-시나리오 2: coh_0 = 17,288 ($) | -86 %
+  시나리오 2: coh_0 = 17,288 ($) | -86 %
 
 요약하면, 장기적으로 수익성이 감소하므로 이 아이디어는 좋은 아이디어가 아닙니다.
 
@@ -361,7 +627,18 @@ The idea is to measure the business and operational performance along the value 
 
 마지막 시나리오에서는 판매 채널 전략에 초점을 맞출 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현재 상황에서는 바로 커피숍에 직접 판매하는 것과 유통업체와의 협력이 혼합되어 있습니다.
 
@@ -371,27 +648,49 @@ The idea is to measure the business and operational performance along the value 
 
 - 출하 후 4주 후에 결제를 받게 됩니다.
 - 판매 수수료를 지불할 필요가 없습니다.
-    - 직접 판매의 경우 30%의 판매 수수료 vs. 0%의 판매 수수료
+  - 직접 판매의 경우 30%의 판매 수수료 vs. 0%의 판매 수수료
 - 결합 출하로 배송을 최적화할 수 있습니다.
 - 직접 판매와 비교했을 때 경비 운송 비용이 50% 절감됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 첫 번째 영향은 처음 지불을 받기까지 4주를 기다려야 한다는 것이며, 이는 유동성 요구에 영향을 미칩니다.
 
 <img src="/assets/img/2024-06-20-BusinessPlanningwithPythonInventoryandCashFlowManagement_20.png" />
 
 - 연습 시작 시 더 많은 현금이 필요합니다.
-시나리오 3: coh_0 = 197,602 달러 | -58 %
+  시나리오 3: coh_0 = 197,602 달러 | -58 %
 
 그러나 수수료 비용을 줄이고 수익성을 향상시키고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Cost of Goods Sales (COGS)에 큰 영향.
-새 시나리오: cogs = 3,172 ($/Pallet) | -38 %
+  새 시나리오: cogs = 3,172 ($/Pallet) | -38 %
 - 판매 당 더 나은 수익성.
-새 시나리오: avg_profit = 5,068 ($/Pallet) | +37 %
+  새 시나리오: avg_profit = 5,068 ($/Pallet) | +37 %
 
 ## 최적 시나리오
 
@@ -399,7 +698,18 @@ The idea is to measure the business and operational performance along the value 
 
 ![이미지](/assets/img/2024-06-20-BusinessPlanningwithPythonInventoryandCashFlowManagement_21.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 친구가 비즈니스 수익을 극대화하고 싶다면
 
@@ -410,7 +720,18 @@ The idea is to measure the business and operational performance along the value 
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 방법은 애매한 운영 절차와 비즈니스 관행을 간단한 모델로 번역할 수 있게 해줍니다.
 
@@ -420,7 +741,18 @@ The idea is to measure the business and operational performance along the value 
 
 한 번의 클릭으로 질문에 대한 답변을 제공하는 것이 목표였습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 바다 화물에서 항공 화물로 바꾸면 어떨까요?
 - 최고의 판매 채널이 무엇인가요?
@@ -432,7 +764,18 @@ The idea is to measure the business and operational performance along the value 
 
 이러한 구조를 바탕으로 제품을 주문하고 수령하는 비용을 최소화하는 최적 주문 수량을 찾을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사에는 더 많은 세부 내용이 있습니다.
 
@@ -442,7 +785,18 @@ The idea is to measure the business and operational performance along the value 
 
 저는 공급망 솔루션 매니저로 일하면서 이와 같은 연습을 자주 했습니다; 이 기사에 예시가 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 고정 비용은 범주별로 구체적으로 나누어야 합니다: CAPEX, 인력, 공과금 등
 
@@ -453,7 +807,18 @@ The idea is to measure the business and operational performance along the value 
 
 우리는 선형 프로그래밍과 Python을 사용하여 제 친구가 올바른 품목을 판매하면서 유동성, 저장 공간, 공급 업체 용량 제약을 고려하여 수익을 극대화하는 데 도움을 줄 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 방법론에 대해 더 자세히 알고 싶다면, 이 기사를 참고해보세요.
 
@@ -463,7 +828,18 @@ The idea is to measure the business and operational performance along the value 
 
 이러한 다양한 공급 업체로부터 데이터를 수집한 후, 저희는 제가 개발한 간단한 웹 애플리케이션을 사용하여 최적의 공급망 네트워크를 설계하는 데 도움을 받을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-20-BusinessPlanningwithPythonInventoryandCashFlowManagement_23.png" />
 
@@ -473,7 +849,18 @@ The idea is to measure the business and operational performance along the value 
 
 이는 귀하의 고객에게 제품을 생산하고 전달하기 위한 공급망 흐름을 생성합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 많은 세부 정보를 보려면 이 기사를 확인해보세요.
 
@@ -483,7 +870,18 @@ The idea is to measure the business and operational performance along the value 
 
 ![이미지](/assets/img/2024-06-20-BusinessPlanningwithPythonInventoryandCashFlowManagement_25.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 기사에서는 제 친구가 그의 비즈니스에 도입한 변화와 모델화에 대한 업데이트를 공유할 것입니다.
 

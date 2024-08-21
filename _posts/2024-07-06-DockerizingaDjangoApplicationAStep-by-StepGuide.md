@@ -3,16 +3,13 @@ title: "도커로 Django 애플리케이션 배포 단계별 가이드"
 description: ""
 coverImage: "/trivasor.github.io/assets/no-image.jpg"
 date: 2024-07-06 11:18
-ogImage: 
+ogImage:
   url: /trivasor.github.io/assets/no-image.jpg
 tag: Tech
 originalTitle: "Dockerizing a Django Application: A Step-by-Step Guide"
 link: "https://medium.com/@nomanali6011/dockerizing-a-django-application-a-step-by-step-guide-8eca3f6301e9"
 isUpdated: true
 ---
-
-
-
 
 # 소개
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 Docker는 응용 프로그램의 배포, 확장 및 관리를 자동화하기 위해 설계된 오픈 소스 플랫폼입니다. Docker는 응용 프로그램을 컨테이너로 패키징합니다. 이는 코드, 런타임, 라이브러리 및 설정이 모두 포함된 가벼우면서도 독립적이며 실행 가능한 단위입니다. 컨테이너와 호스트 시스템은 서로 격리되어 다양한 환경에서 일관된 성능을 보장합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 도커화 하는 이유
 
@@ -35,24 +43,44 @@ Docker는 응용 프로그램의 배포, 확장 및 관리를 자동화하기 �
 
 Dockerfile은 도커 이미지를 빌드하는 방법에 대한 일련의 명령어가 포함된 스크립트입니다. 환경 설정, 파일 복사, 및 종속성 설치 등 명령어가 포함됩니다. 아래는 저희 Django 응용 프로그램을 위한 Dockerfile입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 공식 Python 런타임을 부모 이미지로 사용합니다
+
 FROM python:3.11
+
 # 환경 변수 설정
+
 ENV PYTHONDONTWRITEBYTECODE 1
 ENV PYTHONUNBUFFERED 1
+
 # 컨테이너 내의 작업 디렉토리 설정
+
 WORKDIR /app
+
 # 현재 디렉토리의 내용을 컨테이너의 /app으로 복사합니다
+
 COPY . /app
+
 # requirements.txt에 명시된 필요한 패키지 설치
+
 RUN pip install -r requirements.txt
+
 # 포트 8000을 이 컨테이너 바깥 세상에 노출합니다
+
 EXPOSE 8000
 CMD ["gunicorn", "quora.wsgi:application", "--bind", "0.0.0.0:8080"]
-
 
 # 도커 파일(Dockerfile) 설명
 
@@ -64,15 +92,25 @@ CMD ["gunicorn", "quora.wsgi:application", "--bind", "0.0.0.0:8080"]
 - EXPOSE: 포트 8000을 외부로 노출.
 - CMD: Gunicorn을 사용하여 애플리케이션을 실행할 명령어 지정합니다.
 
-# 도커 컴포즈 파일(docker-compose.yml)이란?  
+# 도커 컴포즈 파일(docker-compose.yml)이란?
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 docker-compose.yml은 다중 컨테이너 Docker 애플리케이션을 정의하고 실행하는 YAML 파일입니다. 이를 통해 모든 애플리케이션 서비스를 한 곳에서 구성하고 함께 관리할 수 있습니다. 아래는 우리 Django 애플리케이션을 위한 docker-compose.yml 파일입니다:
 
 ```yaml
-version: '3'
+version: "3"
 services:
   web:
     build: .
@@ -85,13 +123,13 @@ services:
     depends_on:
       - db
 db:
-    image: postgres:latest
-    environment:
-      POSTGRES_DB: ${DB_NAME}
-      POSTGRES_USER: ${DB_USER}
-      POSTGRES_PASSWORD: ${DB_PASSWORD}
-    ports:
-      - "5432:5432"
+  image: postgres:latest
+  environment:
+    POSTGRES_DB: ${DB_NAME}
+    POSTGRES_USER: ${DB_USER}
+    POSTGRES_PASSWORD: ${DB_PASSWORD}
+  ports:
+    - "5432:5432"
 ```
 
 # docker-compose.yml 설명
@@ -110,7 +148,18 @@ db:
 - environment: 데이터베이스를 위한 환경 변수를 설정합니다.
 - ports: 호스트의 포트 5432를 컨테이너의 포트 5432에 매핑합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

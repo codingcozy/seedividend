@@ -3,17 +3,13 @@ title: "웹사이트에서 토글링 기능 구현하기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Implementing Feature Toggling in 2024"
 link: "https://medium.com/bitsrc/implementing-feature-toggling-in-2024-14cf29b78f9d"
 isUpdated: true
 ---
-
-
-
-
 
 ## Bit 및 Bit Platform을 사용한 기능 플래그 구현: 단계별 안내
 
@@ -25,7 +21,18 @@ isUpdated: true
 - 실험 토글 또는 A/B 테스트 토글은 팀이 일부 사용자 중 일부분을 사용하여 새로운 기능을 테스트할 수 있도록합니다.
 - Ops 토글은 운영 팀이 새로운 코드를 배포하지 않고 기능을 켜거나 끌 수 있도록 하는 것으로 종종 운영 측면을 관리하는 데 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 루스리 커플드된 Bit 구성 요소로 구축된 매우 조립 가능한 소프트웨어는 어떤 정밀도에서든 기능 토글을 구현하는 것을 훨씬 쉽게 만듭니다.
 
@@ -37,7 +44,18 @@ Bit 구성 요소와 기능 토글을 통합할 때, 앞서 언급한 세 가지
 
 # 동기화된 개발과 향상된 타입 지원을 위해 기능 플래그 구성 요소 공유
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저 "엔티티 컴포넌트"를 생성하겠습니다. 이는 조직 내 모든 관련 팀과 프로젝트에서 공유하는 비트 컴포넌트가 될 것입니다.
 
@@ -49,7 +67,18 @@ Bit 구성 요소와 기능 토글을 통합할 때, 앞서 언급한 세 가지
 bit create entity feature-flag-entity
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리의 기능 플래그 엔터티에는 SSO 인증 메커니즘을 포함할 것입니다. 활성화된 속성은 서버가 토글을 제어하기 때문에 정의되지 않은 상태로 남겨두어야 합니다.
 
@@ -96,7 +125,18 @@ bit tag -m "사용 가능한 기능 플래그에 SSO 추가"
 bit export
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 컴포넌트는 Bit 플랫폼에서 구축되고 공유되었어요. 언제든지 서비스를 유지하는 팀이 Bit 컴포넌트를 가져와서 새로운 기능 플래그로 업데이트하고 새 버전을 릴리스할 수 있다는 점에 유의해 주세요.
 
@@ -106,7 +146,18 @@ Bit 플랫폼에서 Ripple CI를 사용하면 의존하는 컴포넌트가 자�
 
 # 기본 기능 플래그 서비스 구현
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단히 말씀드리자면, 우리는 특징 플래그가 활성화되었는지 여부를 다른 서비스와 프런트엔드 애플리케이션 사이에서 통신하는 기본 익스프레스 서비스를 만들 것입니다. 이 경우, 우리는 무작위로 SSO와 비SSO 사이를 전환할 것입니다:
 
@@ -135,7 +186,18 @@ router.get("/feature-flags", (req, res) => {
 
 # 특징 플래그 조건을 갖는 페이지 구현하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로그인 양식을 개발하는 팀은 이제 양식에서 SSO 기능 플래그를 사용할 수 있습니다.
 
@@ -173,7 +235,18 @@ export const SignIn = ({ children }) => {
 
 이제 SSO 기능 플래그 조건으로 로그인 양식을 구현하는 여러 가지 대안이 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 사인인 양식 업데이트하여 SSO 버튼을 조건에 따라 렌더링하기
 
@@ -207,7 +280,18 @@ export function SignInForm() {
 
 ## 페이지 업데이트하여 조건에 따라 컴포넌트를 교체하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 대안에서 로그인 페이지를 개발하는 팀은 두 가지 다른 Bit 구성 요소 중 하나를 반환합니다. SSO가 포함된 하나와 SSO가 없는 다른 하나입니다. (이 특정 케이스에서 '확장 로그인 양식'은 아마도 기본 로그인 양식으로 구성될 것입니다):
 
@@ -226,7 +310,18 @@ export function SignInPage() {
 
 이 옵션은 동일한 Bit 구성 요소의 다른 버전을 사용합니다. 이 버전 중 하나는 아마도 프리 릴리스 태그를 포함할 것입니다. 예를 들어:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 bit tag forms/sign-in --unmodified -m "SSO 옵션 추가" --increment prerelease --prerelease-id beta
@@ -244,7 +339,18 @@ bit tag forms/sign-in --unmodified -m "SSO 옵션 추가" --increment prerelease
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 동일한 파일에서 두 가지 버전을 모두 사용할 수 있습니다:
 
@@ -263,6 +369,17 @@ export function SignInPage() {
 
 Bit 플랫폼을 사용하여 플랫폼 엔지니어링에 대해 더 알아보려면 Bit 플랫폼을 참조하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![ImplementingFeatureTogglingin2024_2](/assets/img/ImplementingFeatureTogglingin2024_2.png)

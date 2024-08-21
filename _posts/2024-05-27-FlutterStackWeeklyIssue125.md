@@ -3,16 +3,13 @@ title: "플러터 스택 주간 소식 제125호"
 description: ""
 coverImage: "/assets/img/2024-05-27-FlutterStackWeeklyIssue125_0.png"
 date: 2024-05-27 19:16
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-FlutterStackWeeklyIssue125_0.png
 tag: Tech
 originalTitle: "Flutter Stack Weekly — Issue#125"
 link: "https://medium.com/canopas/flutter-stack-weekly-issue-125-972aac728608"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-05-27-FlutterStackWeeklyIssue125_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 플러터에서 애플리케이션을 국제화하는 다양한 방법이 있습니다. 일반적인 방법 중 하나는 JSON 파일을 사용하는 것입니다. 이 글에서는 플러터에서 JSON 파일을 이용한 다국어 지원에 대해 알아보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## AWS로 풀스택 Dart 배포하기, 제 III부: AWS로 배포하기
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 이 글에서는 Flutter 앱 로컬라이제이션 중에 만날 수 있는 일반적인 실수들에 대해 살펴보고 이를 극복하기 위한 효과적인 전략을 탐구할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 플러터: 모바일 UI 테스트 자동화 도구 선택하기
 
@@ -42,9 +61,20 @@ isUpdated: true
 
 # 라이브러리 및 자원
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-## 내부_http_서버
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+## 내부*http*서버
 
 이 패키지는 앱 내부에 HTTP 서버를 만들 수 있도록 도와주는 패키지이며, 사용자가 웹 서버 내에서 파일을 업로드할 수 있습니다.
 
@@ -52,7 +82,18 @@ isUpdated: true
 
 Flutter용 Elevarm 디자인 시스템입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 비디오
 
@@ -62,7 +103,18 @@ Flutter용 Elevarm 디자인 시스템입니다.
 
 - Google I/O 2024에서 5분 안에 알아보는 Flutter
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 다음 주간을 위한 링크를 제안합니다
 

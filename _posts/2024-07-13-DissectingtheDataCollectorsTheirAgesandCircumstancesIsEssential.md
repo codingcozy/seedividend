@@ -3,16 +3,13 @@ title: "데이터 수집자들의 나이와 환경 분석이 중요한 이유"
 description: ""
 coverImage: "/assets/img/2024-07-13-DissectingtheDataCollectorsTheirAgesandCircumstancesIsEssential_0.png"
 date: 2024-07-13 21:15
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-DissectingtheDataCollectorsTheirAgesandCircumstancesIsEssential_0.png
 tag: Tech
 originalTitle: "Dissecting the Data Collectors, Their Ages, and Circumstances Is Essential"
 link: "https://medium.com/datadriveninvestor/dissecting-the-data-collectors-their-ages-and-circumstances-is-essential-c5c5fda3c02d"
 isUpdated: true
 ---
-
-
-
 
 인공지능 및 그를 위해 작성된 코드는 데이터를 수집하고 이를 사용하기 위해 엄청난 노력을 필요로 하지만, 이 작업을 하는 사람들에 대해 생각해볼 필요가 있지 않을까요?
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 인공지능 산업에서 인간 노동과 데이터 생산을 연구하는 사람들은 세계 다른 지역에서 미성년자들이 일하는 증거를 발견하고 있습니다. 특히 베네수엘라에 있는 한 연구원은 여전학교에 다니면서 플랫폼에 가입한 미성년자 노동자들을 만났다고 주장합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터가 수집되는 방식과 새로운 수집자 또는 코더를 참여시키는 프로그램이 어떤 것인지 조사할 때 사실들은 추가적인 고려가 필요합니다. 금융 안보를 제공하겠다 주장하는 그룹들이 적은 기회와 식량 부족으로 고통받는 개발도상국 사람들에게 많은 이러한 계획의 배후에 있습니다.
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 데이터 수집 및 분류 작업을 위한 이러한 회사들의 고용은 직원이 아닌 대표적인 아웃소싱 독립 계약업자들을 고용하는 법인들로부터 옵니다. 이러한 새로운 아웃소싱 회사들은 자율 주행 자동차를 개발하는 경쟁이 심해지고, 차량에 올바르게 시야를 제공하고 이동할 수 있도록 가르치는 것이 매우 중요하기 때문에 부분적으로 나타났습니다. 인공 지능이 방대한 양의 데이터를 라벨링하는 데 낮은 임금을 받는 인간들에게 의존한다는 것은 비밀이 아닙니다. 음성 녹음을 전사하거나 NSFW 이미지를 식별하는 모든 작업을 인간들이 수행합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 고객들은 근로자가 자신들의 소득을 유지하고 있는지 여부를 알 수 없을 수도 있습니다. 한 고용인은 한 사무실에 17명을 고용하여 컴퓨터, 스마트폰 및 인터넷 이용을 가능케 하면서 그들의 소득의 절반을 가져가기도 했습니다. 그의 직원들은 대부분 18세부터 20세 사이이지만 십대들도 해당 플랫폼을 사용하고 있다는 점을 알고 있습니다. 그러나 근로자는 자신의 나이를 18세 이상으로 주장하면서도 어떠한 서류를 제시하지 않거나 나이든 사람의 사진을 신분증으로 사용합니다.
 
@@ -42,7 +61,18 @@ isUpdated: true
 
 청소년 노동이 활용되지 않을 수 있는 조절은 한 분야지만, 그들의 정신적 건강이 어떻게 영향을 받는지, 그 스트레스가 어떻게 그들의 삶 속으로 번져 나가는지에 대해 우리 모두에게는 고려해야 할 문제입니다. 현재 AI가 회사들을 위해 이 작업을 수행할 수 없기 때문에 이 일은 우리 취약한 인간들에게 맡겨져 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 매일 거의 50억 명의 사용자가 인터넷을 이용하고 있으며, 매일 거의 9500만 장의 사진이 Instagram에 업로드됩니다. 이 중 일부 동영상과 사진은 정말 충격적일 수 있습니다. 누구든지 그런 내용들을 하루 종일 어떻게 견딜 수 있을까요? 우리는 이런 모더레이터들의 정신 건강이 어떨지 궁금해집니다.
 
@@ -52,7 +82,18 @@ DDIntel에 가입하여 구독하세요.
 
 창작자 생태계에 가입하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 DDIntel은 주요 사이트와 인기있는 DDI Medium 출판물에서 주목할 만한 내용을 소개합니다. 커뮤니티의 더 다양하고 통찰 있는 작품을 살펴보세요.
 

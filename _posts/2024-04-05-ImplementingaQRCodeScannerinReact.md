@@ -3,17 +3,13 @@ title: "React에서 QR 코드 스캐너 구현하기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Implementing a QR Code Scanner in React"
 link: "https://medium.com/readytowork-org/implementing-a-qr-code-scanner-in-react-4c8f4e3c6f2e"
 isUpdated: true
 ---
-
-
-
-
 
 ![QR Code Scanner Image](/assets/img/ImplementingaQRCodeScannerinReact_0.png)
 
@@ -23,7 +19,18 @@ QR 코드 스캐너는 매우 인기가 있는데 React에서 어떻게 구현�
 
 문제 😵‍💫: React에 전용 QR 코드 스캐너 패키지가 많지만 안정적이지 않은 것들도 많고, 특정 브라우저에서 버그가 발생하는 것도 있으며, 사용성이 부족한 것도 있고, 특정 기능이 부족한 것도 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해결 완료 ✅: JavaScript와 직접적으로 구현된 QR 코드 스캐너 패키지는 특정 JS 프레임워크에 특화된 패키지보다 더 나은 성능과 안정성을 보입니다.
 
@@ -33,7 +40,18 @@ QR 코드 스캐너는 매우 인기가 있는데 React에서 어떻게 구현�
 
 ## 코드 작성해보기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 a. 폴더 구조
 
@@ -56,7 +74,18 @@ a. 폴더 구조
 
 b. 패키지 설치
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 npm을 사용하는 경우:
 
@@ -70,7 +99,18 @@ yarn을 사용하는 경우:
 yarn add qr-scanner
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 c. 불필요한 CSS 정리하기
 
@@ -82,7 +122,18 @@ App.css와 index.css에서 모든 CSS를 삭제했어요. 이렇게 하면 깨�
 /* CSS 스타일 없음 */
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 css 스타일을 단순화하기 위해 우리는 /components/QrStyles.css에 위치한 하나의 css 파일만 사용할 것입니다. 이 파일에는 QR 스캐너에 필요한 모든 css 스타일이 포함되어 있습니다👇:
 
@@ -125,7 +176,18 @@ d. 의존성 가져오기
 
 다음 경로 /components/QrReader.tsx에 QrReader 컴포넌트를 만들고 qr-scanner, QrFrame 및 QrStyles.css를 가져 오겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 스타일
@@ -146,7 +208,18 @@ e. Qr 스캐너에서 필요한 JSX 요소 연결하기
 
 useRef로 얻은 videoEl과 qrBoxEl을 각 요소에 연결할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 외에도 아래와 같이 정확한 순서로 정확한 CSS 클래스를 가진 여러 `div` 요소가 필요합니다👇:
 
@@ -170,13 +243,7 @@ const QrReader = () => {
       {/* QR */}
       <video ref={videoEl}></video>
       <div ref={qrBoxEl} className="qr-box">
-        <img
-          src={QrFrame}
-          alt="Qr Frame"
-          width={256}
-          height={256}
-          className="qr-frame"
-        />
+        <img src={QrFrame} alt="Qr Frame" width={256} height={256} className="qr-frame" />
       </div>
     </div>
   );
@@ -189,7 +256,18 @@ f. QR 스캐너 초기화
 
 QR 스캐너를 초기화하기 위해서는 useRef에서 스캐너 엘리먼트와 qrOn 상태 및 setQrOn 상태 핸들러가 필요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 useEffect에서 Qr 스캐너를 초기화할 것입니다. 이를 위해 qr-scanner 패키지에서 제공하는 생성자 함수를 사용할 것입니다. 즉, new QrScanner() 입니다.
 
@@ -199,7 +277,18 @@ scanner?.current promise 함수를 사용하여 Qr 스캐너를 시작합니다.
 
 사용자가 다른 페이지로 이동하거나 QrReader 컴포넌트가 해제될 때(QrReader가 JavaScript의 DOM 트리에서 제거됨), Qr 스캐너를 중지할 것입니다. Qr 스캐너가 중지되면 디바이스 카메라 사용을 중단할 것입니다🎬. useEffect의 cleanup 함수 내에서 scanner?.current?.stop() 함수를 사용하여 이를 수행할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```javascript
 import { useEffect, useRef, useState } from "react";
@@ -271,7 +360,18 @@ const QrReader = () => {
 export default QrReader;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 실패 처리에 대해는 onScanFail 함수를 사용할 거에요. 여기서는 에러를 콘솔에 출력할 거랍니다 ❌. onScanFail 함수는 new Scanner() 생성자 함수 내부의 3번째 매개변수 객체의 1번 속성에 전달됩니다.
 
@@ -383,7 +483,18 @@ f. 전체 코드 👇
 
 만약 사용자가 브라우저에서 카메라 권한을 차단했다면, alert() 함수를 사용하여 JavaScript 경고를 표시할 거에요 😎.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 최종 코드입니다 👇:
 
@@ -502,7 +613,18 @@ export default QrReader;
 
 QR 스캐너가 작동하는지 확인하기 위해 내 Github 프로필 링크를 추출할 수 있는 QR 코드를 사용했습니다 👇: https://github.com/SurajanShrestha
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 a. 데스크톱/노트북 브라우저 💻
 
@@ -512,7 +634,18 @@ a. 데스크톱/노트북 브라우저 💻
 
 브라우저 권한에서 카메라 사용이 허용되지 않을 때 ❌:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Implementing a QR Code Scanner in React](/assets/img/ImplementingaQRCodeScannerinReact_2.png)
 
@@ -522,6 +655,17 @@ b. 모바일 브라우저에서 📱
 
 이 섹션을 읽고 계시다면, 저는 여러분께 제 글에 소중한 시간과 에너지를 할애해 주셔서 영원히 감사하다는 것을 알아주었으면 합니다. 만약 이 글이 도움이 되었다면, 감사표시를 자유롭게 해주세요 👏.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다시 한 번 감사하고, 코딩을 계속해보세요 😎.

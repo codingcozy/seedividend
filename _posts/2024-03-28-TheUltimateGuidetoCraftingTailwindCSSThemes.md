@@ -3,17 +3,13 @@ title: "테일윈드 CSS 테마 만드는 방법 정리2024년"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "The Ultimate Guide to Crafting Tailwind CSS Themes"
 link: "https://medium.com/canopas/the-ultimate-guide-to-crafting-tailwind-css-themes-46623a8b2a01"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/TheUltimateGuidetoCraftingTailwindCSSThemes_0.png)
 
@@ -23,7 +19,18 @@ Tailwind CSS는 유틸리티를 먼저 고려하는 스타일링 방식으로 �
 
 하지만... 기본 스타일 이상을 원한다면 어떨까요? 특정 섹션, 관객 또는 마케팅 캠페인에 맞게 웹사이트에 독특한 개성을 불어넣고 싶다면 어떨까요? 답은 애플리케이션을 위한 CSS 테마를 만드는 마법에 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 개발자로서 프로젝트를 더욱 높은 수준으로 발전시키고 싶거나 창의적인 가능성을 탐색하고 싶은 경우, 이 포스트는 여러분이 단계별로 쉽게 Tailwind 테마를 마스터하는 데 도움이 될 것입니다.
 
@@ -33,7 +40,18 @@ Tailwind CSS는 유틸리티를 먼저 고려하는 스타일링 방식으로 �
 
 혁신은 종종 역량을 확장함으로써 얻어집니다. 일관성을 유지하는 데 도움을 받아 이를 달성할 수 있습니다. 건강한 습관을 형성하고 일관성 있게 유지하기 위해 Justly를 시도해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 테마의 장점
 
@@ -48,7 +66,18 @@ Tailwind CSS는 유틸리티를 먼저 고려하는 스타일링 방식으로 �
 
 # Tailwind.css를 사용하여 다양한 테마 생성하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 섹션에서는 Tailwind CSS를 사용하여 웹 애플리케이션의 테마를 쉽게 만드는 방법에 대한 단계별 안내를 살펴보겠습니다.
 
@@ -58,7 +87,18 @@ Tailwind CSS는 유틸리티를 먼저 고려하는 스타일링 방식으로 �
 
 테마를 만들려면 다음 사항이 준비되어 있어야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 웹 프레임워크를 사용하는 경우 해당 프론트엔드 프레임워크에는 tailwind.css의 최신 버전이 설치되어 있습니다.
 - 프로젝트 루트에 tailwind.config 파일이 있습니다.
@@ -75,7 +115,18 @@ Tailwind CSS는 유틸리티를 먼저 고려하는 스타일링 방식으로 �
 
 적절한 색상을 선택하는 것은 시각적으로 매력적이고 일관된 테마를 만드는 데 중요합니다. 브랜드 아이덴티티, 타겟 오디언스 및 만들고자하는 전반적인 분위기를 고려하십시오. Adobe Color 또는 Coolors와 같은 온라인 도구를 사용하여 조화로운 색상 팔레트를 만드는 데 도움을 받을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다양한 테마를 작업하기 위해 가장 먼저 해야 할 것은 전체 응용 프로그램의 기본 색상 및 크기를 결정하는 것입니다.
 
@@ -85,7 +136,18 @@ Tailwind CSS는 유틸리티를 먼저 고려하는 스타일링 방식으로 �
 
 # 보여주시는 관심에 감사드립니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 글이 마음에 드신다면, 아래에 👏 👏👏 를 주시는 기회를 놓치지 마세요 — 작가로서 그것은 세상을 의미합니다!
 

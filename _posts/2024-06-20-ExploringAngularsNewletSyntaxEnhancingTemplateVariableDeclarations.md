@@ -3,17 +3,13 @@ title: "Angular의 새로운 let 구문 탐험 템플릿 변수 선언 강화"
 description: ""
 coverImage: "/assets/img/2024-06-20-ExploringAngularsNewletSyntaxEnhancingTemplateVariableDeclarations_0.png"
 date: 2024-06-20 00:34
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-ExploringAngularsNewletSyntaxEnhancingTemplateVariableDeclarations_0.png
 tag: Tech
 originalTitle: "Exploring Angular’s New @let Syntax: Enhancing Template Variable Declarations"
 link: "https://medium.com/netanelbasal/exploring-angulars-new-let-syntax-enhancing-template-variable-declarations-40487b022b44"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-06-20-ExploringAngularsNewletSyntaxEnhancingTemplateVariableDeclarations_0.png)
 
@@ -23,8 +19,18 @@ Angular의 진화가 계속되면서 최근 병합된 @let 구문과 같은 흥�
 
 @let 구문을 사용하면 Angular 템플릿 내에서 로컬 변수를 선언하고 사용할 수 있습니다. 사용법을 설명하기 위해 다음과 같이 간단한 예제를 살펴봅시다:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 @let user = user$ | async;
@@ -39,8 +45,18 @@ Angular의 진화가 계속되면서 최근 병합된 @let 구문과 같은 흥�
 
 ## Falsy 값 회피 또는 Async Pipe를 사용한 여러 구독 방지
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 템플릿에서 관측 가능한 항목과 해당 값들을 처리하는 것은 반복적인 코드와 여러 구독을 야기할 수 있습니다. 자주 발생하는 문제 몇 가지와 @let이 이를 해결하는 방법을 살펴봅시다.
 
@@ -54,7 +70,18 @@ Angular의 진화가 계속되면서 최근 병합된 @let 구문과 같은 흥�
 
 둘째, async 파이프를 직접 여러 곳에서 사용하면 여러 구독이 발생하여 비효율적이며 성능 문제를 야기할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 @let total = total$ | async;
@@ -67,7 +94,18 @@ Angular의 진화가 계속되면서 최근 병합된 @let 구문과 같은 흥�
 
 ## 템플릿에서의 신호 유형 좁히기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 신호에 대한 가장 귀찮은 문제 중 하나는 템플릿 내에서의 타입 좁힘 능력의 부재입니다. Angular은 이에 대한 해결책을 개발 중이지만, 그 동안 우리는 @let 기능을 활용하여 이 문제를 해결할 수 있습니다:
 
@@ -90,7 +128,18 @@ Angular의 진화가 계속되면서 최근 병합된 @let 구문과 같은 흥�
 
 @let 구문은 특히 @for 루프 내에서 유용합니다. 개발자는 템플릿 내에서 중간 속성을 생성하여 가독성을 높이고 추가 컴포넌트 로직이 필요한 경우를 줄일 수 있습니다. 예를 들어:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 @for (user of users(); track user.id) {
@@ -125,7 +174,18 @@ Angular의 진화가 계속되면서 최근 병합된 @let 구문과 같은 흥�
 <p>{ expensiveResult }</p>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

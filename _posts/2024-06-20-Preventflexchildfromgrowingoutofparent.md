@@ -3,16 +3,13 @@ title: "부모 요소를 벗어나는 플렉스 자식 요소 크기 조절 방�
 description: ""
 coverImage: "/assets/img/2024-06-20-Preventflexchildfromgrowingoutofparent_0.png"
 date: 2024-06-20 06:00
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-Preventflexchildfromgrowingoutofparent_0.png
 tag: Tech
 originalTitle: "Prevent flex child from growing out of parent"
 link: "https://medium.com/@adeli.farhad/prevent-flex-child-from-growing-out-of-parent-c2d55ebd079a"
 isUpdated: true
 ---
-
-
-
 
 부모 요소 내에 맞춰 콘텐츠 크기를 줄이고 싶어요.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-20-Preventflexchildfromgrowingoutofparent_0.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .my-box {
@@ -79,7 +87,18 @@ video {
 
 비디오 컨테이너의 flex: 1 0 auto 대신에 flex: 1을 사용하십시오. 이는 항목을 내용의 내재 높이가 아닌 사용 가능한 공간에 기반하여 크기를 결정합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러면 flex 항목은 내용보다 작아질 수 없습니다. min-height: auto는 기본값이므로 min-height: 0을 추가하여 항목이 컨테이너 내에 들어갈 수 있도록 합니다.
 
@@ -97,7 +116,18 @@ video {
 
 또는 비디오 컨테이너에 overflow: auto를 지정하여 위와 동일한 효과를 얻을 수 있지만 비디오를 전체 너비로 유지합니다. 이 기능을 활성화하려면 flex-shrink를 활성화해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .box-grow {
@@ -154,7 +184,18 @@ video {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <div class="my-box col">
@@ -178,7 +219,18 @@ video {
 
 이는 플렉스박스의 기본 설정으로 인한 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주축을 따라 플렉스 항목은 콘텐츠의 크기보다 작을 수 없어요.
 
@@ -189,7 +241,18 @@ video {
 
 ...행 방향 및 열 방향의 플렉스 항목에 대해 각각 적용돼요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여러분은 flex 항목을 다음과 같이 설정하여 기본값을 재정의할 수 있어요:
 
@@ -201,7 +264,18 @@ video {
 
 auto 값에 대해서는...
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다시 말해:
 
@@ -216,11 +290,22 @@ auto 값에 대해서는...
 - 보다 자세한 설명은 다음 게시물을 참조하세요:
 - flex-direction: row 및 flex-direction: column일 때 min-width가 다르게 렌더링됨
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 브라우저 렌더링 참고 사항
 
 - Chrome 대 Firefox / Edge
-적어도 2017년 이후로 Chrome은 min-width: 0 / min-height: 0 기본값으로 되돌아가거나(1) 특정 상황에서 신비한 알고리즘을 기반으로 0 기본값을 자동으로 적용하는 것으로 보입니다. (이를 개입(intervention)이라고도 할 수 있습니다.) 결과적으로 많은 사람들이 Chrome에서는 레이아웃(특히 원하는 스크롤 바)이 예상대로 작동하지만 Firefox / Edge에서는 그렇지 않다는 것을 알 수 있습니다. 이 문제에 대한 자세한 내용은 여기에서 다루고 있습니다: Firefox와 Chrome 사이의 flex-shrink 불일치
+  적어도 2017년 이후로 Chrome은 min-width: 0 / min-height: 0 기본값으로 되돌아가거나(1) 특정 상황에서 신비한 알고리즘을 기반으로 0 기본값을 자동으로 적용하는 것으로 보입니다. (이를 개입(intervention)이라고도 할 수 있습니다.) 결과적으로 많은 사람들이 Chrome에서는 레이아웃(특히 원하는 스크롤 바)이 예상대로 작동하지만 Firefox / Edge에서는 그렇지 않다는 것을 알 수 있습니다. 이 문제에 대한 자세한 내용은 여기에서 다루고 있습니다: Firefox와 Chrome 사이의 flex-shrink 불일치
 - IE11
-명세서에 명시된 대로, min-width 및 min-height 속성의 auto 값은 "new"입니다. 이는 일부 브라우저가 아직 최신값을 적용하지 않을 수 있음을 의미합니다. 왜냐하면 일부 브라우저는 flex 레이아웃을 업데이트하기 전에 구현했기 때문에 CSS 2.1에서 min-width 및 min-height의 초기값이 0이었기 때문입니다. IE11와 같은 브라우저가 해당됩니다. 다른 브라우저들은 flexbox 명세에 정의된 최신 auto 값으로 업데이트되었습니다.
+  명세서에 명시된 대로, min-width 및 min-height 속성의 auto 값은 "new"입니다. 이는 일부 브라우저가 아직 최신값을 적용하지 않을 수 있음을 의미합니다. 왜냐하면 일부 브라우저는 flex 레이아웃을 업데이트하기 전에 구현했기 때문에 CSS 2.1에서 min-width 및 min-height의 초기값이 0이었기 때문입니다. IE11와 같은 브라우저가 해당됩니다. 다른 브라우저들은 flexbox 명세에 정의된 최신 auto 값으로 업데이트되었습니다.

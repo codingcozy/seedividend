@@ -3,16 +3,13 @@ title: "애플리케이션 성능을 높이는 Angular Signals, Reactive Context
 description: ""
 coverImage: "/assets/img/2024-06-22-AngularSignalsReactiveContextandDynamicDependencyTracking_0.png"
 date: 2024-06-22 05:00
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-AngularSignalsReactiveContextandDynamicDependencyTracking_0.png
 tag: Tech
 originalTitle: "Angular Signals, Reactive Context, and Dynamic Dependency Tracking"
 link: "https://medium.com/@eugeniyoz/angular-signals-reactive-context-and-dynamic-dependency-tracking-d2d6100568b0"
 isUpdated: true
 ---
-
-
-
 
 Angular Signals를 효과적으로 사용하려면 "반응형 컨텍스트" 개념과 의존성 추적 방법을 이해하는 것이 중요합니다. 이 글에서는 이 두 가지를 설명하고 관련 버그를 피하는 방법을 보여 드리겠습니다.
 
@@ -24,7 +21,18 @@ Angular Signals를 사용할 때 구독하고 구독 해제에 대해 걱정할 
 - 생산자: 값을 포함하고 새 값에 대해 알림을 보내는 노드(반응성을 "생산"함).
 - 소비자: 생성된 값들을 읽는 노드(반응성을 "소비"함).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 신호는 생산자이며, computed()는 생산자이자 소비자이며, effect()는 소비자이며, 템플릿은 소비자입니다.
 
@@ -37,7 +45,18 @@ Angular Signals를 사용할 때 구독하고 구독 해제에 대해 걱정할 
 
 어떤 생산자도 읽힐 때는 activeConsumer의 값을 검색하고이 활성 소비자를 신호에 종속된 소비자 목록에 포함합니다. 신호가 업데이트되면 목록에서 각 소비자로 알림을 전송합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예시에서는 단계별로 어떻게 일이 진행되는지 살펴봅시다.
 
@@ -46,7 +65,7 @@ Angular Signals를 사용할 때 구독하고 구독 해제에 대해 걱정할 
   template: `
    Items count: { $items().length }
    Active items count: { $activeItemsCount() }
-`   
+`
 })
 class ExampleComponent {
   protected readonly $items = signal([{id: 1, $isActive: signal(true) }]);
@@ -79,7 +98,18 @@ class ExampleComponent {
 
 리스트가 길지만 꼼꼼히 읽어주시기 바랍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가장 중요한 것은 여기서 소비자들 (computed(), effect(), templates)가 읽은 신호를 종속성 목록에 추가하는 걱정을 할 필요가 없다는 것입니다. 신호들은 자체적으로 activeConsumer 변수를 사용하여 이 작업을 수행합니다. 이 변수는 모든 반응성 노드에서 접근할 수 있으므로, 어떤 신호가 함수 체인의 어느 정도 깊은 곳에서 읽히든 상관없이 모든 신호는 activeConsumer의 값을 얻고 이를 소비자 목록에 추가할 것입니다.
 
@@ -89,7 +119,18 @@ class ExampleComponent {
 
 이 앱에서 다음을 수행해주십시오:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 버튼 “2”를 눌러 활성화하고 다시 한 번 클릭하세요. 버튼 위의 “Active items” 텍스트가 변경되는 것을 확인하세요;
 - “Add Item” 버튼을 클릭하세요;
@@ -112,7 +153,7 @@ export type Item = {
     <div>
       <span>Click to to toggle:</span>
       @for(item of items; track item.id) {
-        <button (click)="item.$isActive.set(!item.$isActive())" 
+        <button (click)="item.$isActive.set(!item.$isActive())"
                 [class.active]="item.$isActive()">
           { item.id }
        </button>
@@ -151,12 +192,23 @@ export class App {
 
 이제 “Active items” 라인이 정확하게 업데이트되지 않는 이유를 분석해보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희 템플릿에서 바인딩:
 
 ```js
-<div>활성 항목: { $activeItems() }</div>
+<div>활성 항목: {$activeItems()}</div>
 ```
 
 $activeItems은 computed()에 의해 제공되는 시그널입니다:
@@ -173,7 +225,18 @@ protected readonly $activeItems = computed(() => {
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 computed() 함수에 전달하는 함수는 읽는 신호 중 하나라도 업데이트될 때마다 다시 실행됩니다. 그 곳에서는 어떤 신호를 읽을까요?
 
@@ -183,7 +246,18 @@ computed() 함수에 전달하는 함수는 읽는 신호 중 하나라도 업�
 
 계산 함수는 의존하는 신호 중 하나가 업데이트될 때에만 다시 실행됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "Add Item"을 클릭하면 이.items를 수정하고 새 항목 내에 새 신호를 생성합니다. 그러나 이 순간 이전에 computed() 함수가 해당 신호를 읽어본 적이 없기 때문에 의존 목록에 없습니다.
 
@@ -193,7 +267,18 @@ computed() 함수에 전달하는 함수는 읽는 신호 중 하나라도 업�
 
 우리는 새 항목을 버튼 목록에서 여러 번 토글할 수 있지만, 처음 세 항목의 신호만 $activeItems에 알림을 보내고 우리가 전송한 함수가 다시 실행됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 우리가 계산 함수를 다시 실행하면, 이.items에서 모든 항목을 다시 읽고 새로운 시그널을 읽게 될 것입니다. 새로운 시그널은 $activeItems 노드의 새로운 종속성이 되며, 그중 하나가 변경될 때마다 알림을 받게 될 것입니다.
 
@@ -203,7 +288,18 @@ computed() 함수에 전달하는 함수는 읽는 신호 중 하나라도 업�
 
 이것이 computed()가 어떤 종속성을 가지고 있고 그 중 어떤 것이 다시 계산을 유발해야 하는지 재확인하는 것이 언제나 유용한 이유입니다. 그 중 몇 가지는 유배제용()을 사용해야 할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 computed() 또는 effect()에 전달하는 일부 함수는 신호를 읽을 수 있습니다 (또는 호출된 함수가 신호를 읽을 수 있습니다).
 
@@ -221,7 +317,18 @@ isItGoodWeatherOutside() {
 
 - 만약 우리가 computed()가 새로운 값을 계산하지 말아야 하는 경우, 그 함수(isItGoodWeatherOutside())가 새로운 값을 반환할 때 untracked()로 감싸주세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 this.$petWalkingIsAllowed = computed(() => {
@@ -239,8 +346,18 @@ isItGoodWeatherOutside() {
 
 ## 반응형 컨텍스트
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 "자동 종속성 추적 방법"에서는 activeConsumer라는 변수에 대해 언급했어요.
 
@@ -250,7 +367,18 @@ activeConsumer가 null이 아닌 경우, 우리가 읽는 시그널은 activeCon
 
 대부분의 경우에는 반응적인 컨텍스트가 자동으로 처리되며, 의도한 링크와 종속성만이 생성되고 제거될 거예요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 때로는 반응적인 컨텍스트를 무의식적으로 노출시키기도 합니다.
 
@@ -261,7 +389,18 @@ activeConsumer가 null이 아닌 경우, 우리가 읽는 시그널은 activeCon
 - "항목 추가"를 클릭하면 모든 상태가 완전히 재설정됩니다.
 - 상태를 토글하면 무작위로 변경되어 한 가지 버튼 이상에 영향을 줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 빠르게 버그를 발견하실 수 있나요?
 
@@ -287,7 +426,7 @@ export class App {
 
   protected readonly $items: Signal<Item[]> = computed(() => {
     console.warn('Generating items!');
-   
+
     const items: Item[] = [];
     for (let id = 0; id < this.$itemsCount(); id++) {
       const $isActive = signal(Math.random() > 0.5);
@@ -319,7 +458,18 @@ export class App {
 - $items는 새로운 아이템 배열을 생성하며, 그 수는 $itemsCount 시그널에 의해 제어됩니다. $itemsCount를 수정할 때마다 아이템이 재생성됩니다.
 - addItem()은 단순히 $itemsCount를 증가시키고, $items의 재계산을 유도합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 "Add Item"이 이렇게 작동하는 이유를 알 수 있습니다. 이제 상태 토글이 이상하게 동작하는 이유를 알아보겠습니다.
 
@@ -331,7 +481,18 @@ export class App {
 const $scale = signal($isActive() ? 1.2 : 1);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 신호 ($isActive)은 반응적인 컨텍스트에서 읽힙니다: activeConsumer에는 $items이 포함되어 있으므로 $isActive은 모든 변경 사항에 대해 $items에 통지합니다. 따라서이 상태를 전환하려고 $isActive을 수정할 때 우리는 $items의 재계산을 발생시킵니다.
 
@@ -343,7 +504,18 @@ const $scale = signal(untracked($isActive) ? 1.2 : 1);
 
 untracked()가 하는 일은 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /**
@@ -370,8 +542,18 @@ export function untracked<T>(nonReactiveReadsFn: () => T): T {
 
 따라서 우리 함수가 실행되는 동안, 시그널이 읽혀지는 경우 activeConsumer에 null을 읽고 이를 소비자 목록에 추가하지 않습니다. 즉, 새로운 종속성이 생성되지 않습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예에서 콘솔에는 "힌트"가 있고, 우리의 코드는 매우 작고 간단합니다. 실제 앱에서는 신호 읽기가 함수 호출 체인 내에 깊이 숨겨져 있고, 코드가 훨씬 더 크고 복잡할 수 있습니다. 이러한 버그는 실제 앱에서 디버깅하기 어려울 수 있으므로 리액티브 컨텍스트를 누출하고 싶지 않을 때는 항상 untracked()을 사용하여 미리 방지하는 것을 권장합니다.
 
@@ -384,7 +566,18 @@ export function untracked<T>(nonReactiveReadsFn: () => T): T {
 
 computed()와 effect()를 사용할 때,
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 다른 신호를 읽을 때 주의하세요. 다른 함수가 변경될 때마다 전체 함수를 다시 실행하며 다른 함수에 의해 트리거됩니다.
 - 이러한 기능들을 읽고 이해하기 쉽게 만드세요;

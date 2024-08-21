@@ -3,16 +3,13 @@ title: "Angular에서 첫 번째 라이브러리 만드는 단계별 가이드"
 description: ""
 coverImage: "/assets/img/2024-06-23-Step-by-stepguidetocreatingyourfirstlibraryinAngular_0.png"
 date: 2024-06-23 13:52
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-Step-by-stepguidetocreatingyourfirstlibraryinAngular_0.png
 tag: Tech
 originalTitle: "Step-by-step guide to creating your first library in Angular"
 link: "https://medium.com/angular-in-depth/step-by-step-guide-to-creating-your-first-library-in-angular-6827276bfc9f"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-06-23-Step-by-stepguidetocreatingyourfirstlibraryinAngular_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 이 블로그 글에서는 라이브러리의 개요, 라이브러리 생성, 앵귤러 애플리케이션에서 로컬로 사용하는 방법, npm에 발행하는 방법에 대해 이야기하겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 라이브러리 만들기: [여기](https://github.com/NishuGoel/ngSLDemo)
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 우선, 프로그래밍에서 라이브러리란 일반적으로 무엇을 의미하는지 이해해 보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사전 컴파일된 루틴 - 이것은 반복적으로 수행할 작업의 컴파일된, 확립된, 즉시 사용 가능한 버전임을 시사합니다.
 프로그램이 사용할 수 있다 - 이는 이 재사용성이 라이브러리가 생성된 프로젝트가 아니더라도 여러 다른 프로젝트에서 활용될 수 있다는 것을 시사합니다.
@@ -45,7 +64,18 @@ isUpdated: true
 
 Angular 라이브러리에는 기능을 정의하기 위한 컴포넌트, 모듈, 서비스가 포함되어 있습니다. 우리 앱에서 이미 많은 라이브러리를 사용하고 있습니다. 예를 들어 카운트 다운 타이머나 스크롤 바와 같은 기능을 위해서 사용됩니다. 자주 사용되는 기능이 있다면 왜 그것을 라이브러리로 내보내어 활용하지 않을까요? 많은 Angular/Javascript 라이브러리에 연결된 Angular 애플리케이션으로 생각해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 어떤 라이브러리가 Angular 라이브러리로서 자격을 갖추려면 무엇이 있어야 할까요?
 
@@ -58,7 +88,18 @@ Angular 라이브러리에는 기능을 정의하기 위한 컴포넌트, 모듈
 
 Angular 패키지 포맷은 우리의 Angular 패키지를 배포하는 추천 방법입니다. 이는 다음에 중점을 두고 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 모듈 정의
 - 타이핑 파일
@@ -71,7 +112,18 @@ APF를 여기에서 읽으세요.
 
 주로 라이브러리를 만드는 데 필요한 중요한 단계는 모든 템플릿을 인라인하고 ngc로 컴파일하여 빌드 형식을 생성하는 것입니다. 그러나 이는 많은 수동 작업이 필요하고 ng-packagr이 이를 해결하기에 충분합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ng-packagr을 사용하여 라이브러리를 생성하는 방법에 대해 작성했어요.
 
@@ -85,7 +137,18 @@ ng-packagr이 우리를 위해 처리해주는 것들은 무엇이 있을까요?
 - aot 메타데이터 파일 생성
 - 모든 스타일과 템플릿을 인라인으로 처리합니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희 라이브러리를 위한 작업 공간을 만들어보겠습니다!
 
@@ -99,18 +162,39 @@ ng new `application-name` --create-application=false
 
 ![Step-by-step guide to creating your first library in Angular](/assets/img/2024-06-23-Step-by-stepguidetocreatingyourfirstlibraryinAngular_1.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ng generate library `library-name`
 
-이 명령은 lib 폴더가 포함된 projects 폴더를 생성합니다. 여기서 라이브러리에 추가할 기능을 작성할 수 있어요! 
+이 명령은 lib 폴더가 포함된 projects 폴더를 생성합니다. 여기서 라이브러리에 추가할 기능을 작성할 수 있어요!
 
 ![Step-by-step guide to creating your first library in Angular](/assets/img/2024-06-23-Step-by-stepguidetocreatingyourfirstlibraryinAngular_2.png)
 
 라이브러리 작성을 마쳤나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 라이브러리 구축 시간입니다!
 
@@ -122,7 +206,18 @@ ng generate library `library-name`
 
 ![이미지](/assets/img/2024-06-23-Step-by-stepguidetocreatingyourfirstlibraryinAngular_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이렇게 하면 라이브러리를 위한 dist 폴더가 생성됩니다.
 
@@ -133,7 +228,18 @@ ng generate library `library-name`
 
 # 라이브러리 패키징
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리 라이브러리를 패키징하려면 라이브러리 배포 디렉토리로 이동하여 npm pack 명령을 실행하면 됩니다.
 
@@ -143,7 +249,18 @@ ng generate library `library-name`
 
 이렇게 하면 라이브러리용 .tgz 패키지가 생성되고, 이를 내보낼 것입니다. 다른 애플리케이션에서 사용될 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-23-Step-by-stepguidetocreatingyourfirstlibraryinAngular_5.png" />
 
@@ -153,7 +270,18 @@ ng generate library `library-name`
 
 npm install `path-to-tgz-file`
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 패키지.json을 확인해 보세요. 종속성에 설치되었는지 확인하세요.
 
@@ -163,8 +291,18 @@ npm install `path-to-tgz-file`
 
 다음 단계로, 라이브러리의 모듈을 가져와 컴포넌트를 사용하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ' NishuLibraryModule'를 `nishu-library`에서 가져와주세요.
 
@@ -174,12 +312,22 @@ npm install `path-to-tgz-file`
 
 템플릿에서는,
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <section class="body-section">
-    <lib-nishu-library></lib-nishu-library>
+  <lib-nishu-library></lib-nishu-library>
 </section>
 ```
 
@@ -189,7 +337,18 @@ npm install `path-to-tgz-file`
 
 # 마지막으로 우리 라이브러리를 게시해 봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 라이브러리를 게시하려면 npm 패키지에 대한 네이밍 규칙을 따르고 고유하게 유지해야 합니다. npm에는 많은 라이브러리가 있으므로, 라이브러리를 @`your-username`/`library-name`과 같이 명명하는 것이 쉬운 방법입니다.
 
@@ -208,7 +367,18 @@ npm install `path-to-tgz-file`
 
 peerDependencies는 소비 프로젝트에 해당 패키지 버전과 잘 호환됨을 알리는 방법입니다. 라이브러리의 버전을 주요 버전, 부 버전, 패치 버전 구체적으로 따르기 위해 시맨틱 버전팅을 사용하세요. SemVer에 대해 자세히 알아보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 패키지.json에는 작성자, 라이선스 등 라이브러리에 대한 더 많은 정보를 추가할 수 있습니다.
 
@@ -218,11 +388,33 @@ peerDependencies는 소비 프로젝트에 해당 패키지 버전과 잘 호환
 
 npm login을 사용하여 npm에 로그인하고 npm whoami로 확인하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단계별로 첫 번째 Angular 라이브러리를 만드는 방법에 대한 안내서.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 짠, 이제 누구나 아래와 같이 Angular 프로젝트에서 이 공개 라이브러리를 사용할 수 있어요:
 

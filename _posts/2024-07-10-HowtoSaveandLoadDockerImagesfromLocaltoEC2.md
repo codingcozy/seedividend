@@ -3,16 +3,13 @@ title: "Docker 이미지 로컬에서 EC2로 저장하고 로드하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-10-HowtoSaveandLoadDockerImagesfromLocaltoEC2_0.png"
 date: 2024-07-10 01:58
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-10-HowtoSaveandLoadDockerImagesfromLocaltoEC2_0.png
 tag: Tech
 originalTitle: "How to Save and Load Docker Images from Local to EC2"
 link: "https://medium.com/@potterpurpp69/how-to-save-and-load-docker-images-from-local-to-ec2-6323a40e5728"
 isUpdated: true
 ---
-
-
-
 
 ## 노력없는 도커 이미지 이전: 로컬에서 EC2로 이동하는 가이드
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 현대 시스템 관리 및 소프트웨어 개발의 복잡성을 고려할 때, Docker 이미지를 효과적이고 효율적으로 관리하는 방법을 이해하는 것이 중요합니다. 이 기술에 대한 심도 있는 이해를 바탕으로, 우리는 개발 및 시스템 관리를 효율적으로 준비할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 도커 파일을 만들기 시작해봅시다
 
@@ -55,7 +63,18 @@ CMD ["node", "index.js"]
 
 ## 빌드해봅시다
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 docker build -t node21:latest .
@@ -69,7 +88,18 @@ docker save -o myapp2.tar node21:latest
 
 이후에 .tar 파일을 EC2로 복사하려면 다음 패턴을 따르세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```shell
 scp -i /경로/your-ec2-key.pem myapp2.tar ec2-user@your-ec2-ip:/경로/destination
@@ -83,8 +113,18 @@ scp -i "YouKeyPem.pem" myapp2.tar ubuntu@ec2-39-239-140-210.ap-southeast-1.compu
 
 ## 이제 인스턴스에 SSH로 접속해야 해요
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 ssh -i "YouKeyPem.pem" ubuntu@ec2-39-239-140-210.ap-southeast-1.compute.amazonaws.com
@@ -96,7 +136,18 @@ ssh -i "YouKeyPem.pem" ubuntu@ec2-39-239-140-210.ap-southeast-1.compute.amazonaw
 
 myapp2.tar 파일을 찾았다면, 도커 이미지를 생성하기 위해 로드해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 \`\`\`docker
 docker load -i ~/myapp2.tar

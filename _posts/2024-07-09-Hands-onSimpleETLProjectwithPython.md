@@ -3,15 +3,13 @@ title: "Python을 사용한 간단한 ETL 프로젝트 실습 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-Hands-onSimpleETLProjectwithPython_0.png"
 date: 2024-07-09 09:08
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-Hands-onSimpleETLProjectwithPython_0.png
 tag: Tech
 originalTitle: "Hands-on Simple ETL Project with Python"
 link: "https://medium.com/@hagermahmoud20202/hands-on-simple-etl-project-with-python-2013f05414a7"
 isUpdated: true
 ---
-
-
 
 # 개요
 
@@ -21,7 +19,18 @@ Extract, Transform, and Load (ETL)은 다양한 소스에서 데이터를 추출
 
 # 단계 1: 필요한 라이브러리 가져오기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 Markdown 형식으로 변경한 내용입니다.
 
@@ -29,7 +38,18 @@ Extract, Transform, and Load (ETL)은 다양한 소스에서 데이터를 추출
 
 ![Step 3: Extract Data from Files](/assets/img/2024-07-09-Hands-onSimpleETLProjectwithPython_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희 ETL 파이프라인의 첫 번째 단계는 데이터가 포함된 파일에서 데이터를 추출하는 것입니다. 우리는 pandas 라이브러리를 사용하여 파일을 DataFrame으로 읽을 것입니다.
 
@@ -39,7 +59,18 @@ Extract, Transform, and Load (ETL)은 다양한 소스에서 데이터를 추출
 
 # 단계 4: 데이터 변환
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 단계는 추출된 데이터를 대상 파일로로드하기 위한 원하는 형식으로 변환하는 것입니다. 이는 데이터 정리, 누락된 값 처리 및 데이터 유형 변환을 포함할 수 있습니다.
 
@@ -49,7 +80,18 @@ Extract, Transform, and Load (ETL)은 다양한 소스에서 데이터를 추출
 
 마지막 단계는 변환된 데이터를 대상 파일로로드하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Hands-on Simple ETL Project with Python](/assets/img/2024-07-09-Hands-onSimpleETLProjectwithPython_6.png)
 

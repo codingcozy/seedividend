@@ -3,16 +3,13 @@ title: "SwiftUI 성능을 크게 향상시키는 새로운 방법 Observation �
 description: ""
 coverImage: "/assets/img/2024-08-04-ADeepDiveIntoObservationANewWaytoBoostSwiftUIPerformance_0.png"
 date: 2024-08-04 19:20
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-04-ADeepDiveIntoObservationANewWaytoBoostSwiftUIPerformance_0.png
 tag: Tech
 originalTitle: "A Deep Dive Into Observation A New Way to Boost SwiftUI Performance"
 link: "https://medium.com/better-programming/a-deep-dive-into-observation-a-new-way-to-boost-swiftui-performance-f299831c664b"
 isUpdated: true
 ---
-
-
-
 
 ## 관측 프레임워크는 SwiftUI 뷰의 불필요한 업데이트를 줄여 성능을 향상시킬 것입니다.
 
@@ -22,7 +19,18 @@ WWDC 2023에서 Apple은 Observartion 프레임워크를 Swift 표준 라이브�
 
 이 기사에서는 Q&A 형식으로 Observation 프레임워크를 포괄적으로 탐구하며, 그 생성 배경, 사용 방법, 작동 방식 및 주의 사항을 다룰 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 관찰 프레임워크의 필요성
 
@@ -32,7 +40,18 @@ Swift 5.9 이전에는 Apple이 참조 유형 속성의 변경을 관찰하는 �
 
 이러한 제한 사항을 해결하기 위해 Swift 5.9에서 Observation 프레임워크가 도입되었습니다. 기존 KVO 및 Combine과 비교하여 다음과 같은 장점이 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 모든 Swift 참조 유형에 적용됩니다. NSObject 하위 클래스뿐만 아니라 모든 Swift 참조 유형에 교차 플랫폼 지원을 제공합니다.
 - 특정 프로퍼티 수준의 정밀한 관찰을 제공하며 관찰 가능한 프로퍼티에 특별 주석이 필요하지 않습니다.
@@ -60,7 +79,18 @@ class Store: ObservableObject {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 firstName, lastName 및 인스턴스의 count가 변경될 때 @Published는 objectWillChange(ObjectWillChangePublisher)를 통해 모든 구독자에게 현재 인스턴스가 변경될 예정임을 알리기 위해 알림을 보냅니다.
 
@@ -76,7 +106,7 @@ class Store {
     }
 
     private var count: Int = 0
-    
+
     init(firstName: String, lastName: String, count: Int) {
         self.firstName = firstName
         self.lastName = lastName
@@ -90,7 +120,18 @@ class Store {
 - 연산 프로퍼티도 관찰할 수 있습니다 (예: fullName도 관찰할 수 있음).
 - 관찰되지 않길 원하는 프로퍼티는 앞에 @ObservationIgnored를 주석화해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // count cannot be observed
@@ -104,7 +145,18 @@ Combine 기반 선언과 비교했을 때, Observation은 관찰 가능한 객�
 
 # @Observable가 무엇을 했나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기존의 @Published 프로퍼티 래퍼나 @available 조건부 컴파일과 같이 @로 시작하는 일반적인 키워드와는 달리, 여기서의 @Observable은 매크로를 나타냅니다.
 
@@ -114,52 +166,61 @@ Xcode 15에서 @Observable에 마우스 오른쪽 버튼을 클릭하고 "매크
 
 ![매크로 확장](https://miro.medium.com/v2/resize:fit:1400/1*VniNlYNR25VWtF_KabsvdQ.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 @Observable
 class Store {
-    @ObservationTracked
-    var firstName: String = "Yang" {
-        get {
-            access(keyPath: \.firstName)
-            return _firstName
-        }
-        set {
-            withMutation(keyPath: \.firstName) {
-                _firstName = newValue
-            }
-        }
-    }
-    @ObservationTracked // This code can also be expanded here.
-    var lastName: String = "Xu"
-    var fullName: String {
-        firstName + " " + lastName
-    }
-    @ObservationIgnored
-    private var count: Int = 0
-    init(firstName: String, lastName: String, count: Int) {
-        self.firstName = firstName
-        self.lastName = lastName
-        self.count = count
-    }
-    @ObservationIgnored private let _$observationRegistrar = ObservationRegistrar()
+@ObservationTracked
+var firstName: String = "Yang" {
+get {
+access(keyPath: \.firstName)
+return _firstName
+}
+set {
+withMutation(keyPath: \.firstName) {
+\_firstName = newValue
+}
+}
+}
+@ObservationTracked // This code can also be expanded here.
+var lastName: String = "Xu"
+var fullName: String {
+firstName + " " + lastName
+}
+@ObservationIgnored
+private var count: Int = 0
+init(firstName: String, lastName: String, count: Int) {
+self.firstName = firstName
+self.lastName = lastName
+self.count = count
+}
+@ObservationIgnored private let _$observationRegistrar = ObservationRegistrar()
     internal nonisolated func access<Member>(
         keyPath: KeyPath<Store, Member>
     ) {
         _$observationRegistrar.access(self, keyPath: keyPath)
-    }
-    internal nonisolated func withMutation<Member, T>(
-        keyPath: KeyPath<Store, Member>,
-        _ mutation: () throws -> T
-    ) rethrows -> T {
-        try _$observationRegistrar.withMutation(of: self, keyPath: keyPath, mutation)
-    }
-    @ObservationIgnored private var _firstName: String = "Yang"
-    @ObservationIgnored private var _lastName: String = "Xu"
+}
+internal nonisolated func withMutation<Member, T>(
+keyPath: KeyPath<Store, Member>,
+_ mutation: () throws -> T
+) rethrows -> T {
+try _$observationRegistrar.withMutation(of: self, keyPath: keyPath, mutation)
+}
+@ObservationIgnored private var \_firstName: String = "Yang"
+@ObservationIgnored private var \_lastName: String = "Xu"
 }
 extension Store: Observable {}
-
 
 Observable 매크로가 원래 선언을 조정하는 것을 확인할 수 있습니다. Store에서는 관찰 가능한 속성과 관찰자 간의 관계를 유지하고 관리하기 위해 ObservationRegistrar 구조체가 선언됩니다. 저장된 속성은 계산된 속성으로 다시 작성되며 원래 값은 동일한 이름을 가진 _ 접두사가 있는 버전에 저장됩니다. get 및 set 메서드에서 관찰자는 _$observationRegistrar를 통해 등록 및 통지됩니다. 마지막으로 매크로는 관찰 가능한 객체가 Observable 프로토콜을 준수하도록 코드를 추가합니다 (Sendable과 유사하게 구현을 제공하지 않지만 식별자 역할만 수행함).
 
@@ -167,8 +228,18 @@ Observable 매크로가 원래 선언을 조정하는 것을 확인할 수 있�
 
 ## 뷰에서 Observable 객체 선언하기
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ObservableObject 프로토콜을 준수하는 소스 오브 트루스와 달리, 뷰에서는 observable objects의 라이프사이클을 보장하기 위해 @State를 사용합니다.
 
@@ -190,7 +261,18 @@ struct ContentView: View {
 
 ObservableObject 프로토콜을 준수하는 소스 오브 트루스와 비교하여 Obervation 프레임워크를 사용하여 선언된 Observable Objects는 환경 주입에 대해 더 다양하고 유연한 옵션을 갖습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 환경을 통해 인스턴스 주입하기
 
@@ -240,7 +322,18 @@ struct ContentView: View {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 선택적 값을 주입하기
 
@@ -269,7 +362,18 @@ struct ContentView: View {
 
 Observable 프레임워크를 사용하여 선언된 Observable 개체의 주입 방법이 값 형식과 유사한데, ObservableObject 프로토콜을 준수하는 참조 형식은 주입할 개체를 나타내는 메서드(StateObject, EnvironmentObject)를 사용해야 한다는 점에서 혼란스러워하는 사람들이 있을 수도 있습니다. 이것이 혼란을 일으키지는 않을까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 iOS 17+ 애플리케이션 개발 과정에서는, Observation 프레임워크를 통해 선언된 Observable 객체와 ObservableObject 프로토콜을 준수하는 Observable 객체가 동시에 나타나는 시나리오가 점점 줄어들 것으로 예상됩니다. 따라서 곧 reference types와 value types는 주입 형태에서 높은 통일성을 갖게 될 것입니다 (environmentObject나 StateObject를 사용하는 시나리오는 거의 없을 것입니다).
 
@@ -293,7 +397,18 @@ struct SubView: View {
 
 let과 var 모두 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 바인딩 타입 만들기
 
@@ -317,7 +432,18 @@ struct SubView: View {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Method Two:
 
@@ -345,11 +471,33 @@ struct SubView: View {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 Markdown 형식으로 변경해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기능 시그니처:
 
@@ -384,7 +532,18 @@ store.a = 100
 // 아무 출력 없음
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테스트 2:
 
@@ -410,7 +569,18 @@ Apple이 제공한 withObservationTracking의 공식 문서에 따르면 해당 
 - onChange: 속성 값이 변경될 때 호출되는 클로저
 - Returns: apply 클로저가 반환하는 값(반환 값이 있는 경우); 그렇지 않으면 반환 값이 없습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 설명이 너무 간단하며 몇 가지 혼란스러운 부분이 여전히 있습니다:
 
@@ -423,24 +593,46 @@ Apple이 제공한 withObservationTracking의 공식 문서에 따르면 해당 
 
 # Observation 프레임워크의 관찰 원리는 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 코드를 읽으면 withObservationTracking을 사용하여 관찰을 만드는 과정을 이해할 수 있습니다. 다음과 같이 요약할 수 있습니다:
 
 ## 관찰 생성 단계
 
-- withObservationTracking은 현재 스레드의 _ThreadLocal.value에 _AccessList를 생성합니다.
+- withObservationTracking은 현재 스레드의 \_ThreadLocal.value에 \_AccessList를 생성합니다.
 - apply 클로저가 실행됩니다.
 - 관찰 대상 객체의 관찰 가능한 속성이 호출될 때 (apply 클로저에 의해 트리거된 경우), 관찰 대상 객체 인스턴스의 ObservationRegistrar에 관찰 가능한 속성과 콜백 클로저 간의 대응 관계를 저장하기 위해 access 메서드가 사용됩니다 (이 콜백 클로저는 여기서 withObservationTracking의 onChange 클로저를 호출하는 데 사용됩니다).
-- withObservationTracking은 관찰 가능한 속성과 onChange 콜백 클로저 간의 대응 관계를 _AccessList에 저장합니다.
+- withObservationTracking은 관찰 가능한 속성과 onChange 콜백 클로저 간의 대응 관계를 \_AccessList에 저장합니다.
 
 ## 관찰 대상 속성이 변경될 때
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 관찰된 속성은 ObservationRegistrar의 willSet 메서드를 호출하여 현재 속성 KeyPath에 해당하는 콜백 클로저를 찾습니다.
 - 클로저를 호출함으로써, withObservationTracking에 의해 시작된 스레드에서 onChange 클로저가 호출됩니다.
-- onChange 클로저가 호출된 후, withObservationTracking의 현재 스레드에 있는 _AccessList에 해당하는 정보가 지워집니다.
+- onChange 클로저가 호출된 후, withObservationTracking의 현재 스레드에 있는 \_AccessList에 해당하는 정보가 지워집니다.
 - ObservationRegistrar에서 관찰 작업과 관련된 속성 및 콜백 클로저 간의 대응 관계를 지웁니다.
 
 ## 결론
@@ -454,7 +646,18 @@ Apple이 제공한 withObservationTracking의 공식 문서에 따르면 해당 
 - 관찰 동작은 스레드 안전합니다. withObservationTracking은 다른 스레드에서 실행될 수 있으며, onChange 클로저는 withObservationTracking에 의해 시작된 스레드에서 실행됩니다.
 - 관찰 가능한 속성만 관찰할 수 있습니다. apply 클로저에서만 나타나는 관찰 가능한 객체는 관찰 작업을 생성하지 않습니다 (테스트 2를 설명합니다).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # SwiftUI 뷰에서 속성 변경을 관찰하는 방법
 
@@ -476,7 +679,18 @@ let bodyValue = withObservationTracking {
 
 이전 텍스트에서 요약했듯이, "apply 클로저 내에서 읽히는 (get 메서드를 호출하여)만 관찰 가능한 속성"으로 결론 내렸습니다. 따라서 다음 결론을 도출할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 Text(store.a) // store.a이 변경되면 body가 다시평가됩니다.
@@ -514,7 +728,18 @@ final class Store: ObservableObject {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # @Obervable과 ObservableObject을 뷰에서 함께 사용할 수 있을까요?
 
@@ -528,7 +753,18 @@ final class Store: ObservableObject {
 @StateObject var store = Store() // 속성(@Published)이 변경될 때마다 body가 다시평가됩니다.
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Observable은 중첩을 지원합니까 (한 Observable의 속성이 다른 Observable인 경우)?
 
@@ -548,7 +784,18 @@ let a = A()
 a.b.a = 100 // 뷰 업데이트를 유발하지 않습니다
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 번이라도 나는 이 문제를 해결하기 위해 @PublishedObject 프로퍼티 래퍼를 작성했었어. 더 많은 정보가 필요하면 "Beyond @Published:Custom Property Wrappers에 관한 글을 읽어봐.
 
@@ -556,7 +803,18 @@ a.b.a = 100 // 뷰 업데이트를 유발하지 않습니다
 
 그러나 관찰 프레임워크를 통해 생성된 관찰 가능한 객체의 중첩은 훨씬 간단해. withObservationTracking으로 관찰 작업을 만들 때, 읽힌 모든 관찰 가능한 프로퍼티가 구독자와의 관계를 적극적으로 생성해. 관계 체인 내 위치나 존재 방식(예: 배열, 딕셔너리 등)에 관계없이 정확하게 추적될 수 있어.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 @Observable
@@ -582,16 +840,27 @@ withObservationTracking {
 위의 코드에 대해서 위의 두 가지 방법 중 하나를 사용하면 onChange 클로저를 호출합니다 (한 번만 호출됨).
 
 ```js
-a.b.b = 100
+a.b.b = 100;
 
 // 또는
 
-a.b = B()
+a.b = B();
 ```
 
 a.b.b에서는 다른 객체와 다른 레벨의 두 가지 observable 속성, a.b 및 b.b에 대한 observations가 생성됩니다. 이것이 Observation 프레임워크의 강점입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 관찰: ObservableObject의 성능 이슈가 해결되었습니까?
 
@@ -602,7 +871,18 @@ a.b.b에서는 다른 객체와 다른 레벨의 두 가지 observable 속성, a
 
 그러나 관찰 프레임워크는 아직 지속 가능한 관찰 동작을 지원하지 않기 때문에 뷰는 평가될 때마다 관찰 작업을 재생성해야 합니다. 이것이 새로운 성능 문제를 발생시킬지에 대한 더 많은 시간이 필요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 관측 프레임워크가 SwiftUI 프로그래밍 습관에 영향을 줄까요?
 
@@ -612,7 +892,18 @@ a.b.b에서는 다른 객체와 다른 레벨의 두 가지 observable 속성, a
 
 또한, 뷰에서 사용하는 많은 최적화 기술들도 변경될 것입니다. 예를 들어, ObservableObject를 사용할 때, 현재 뷰에 유용한 데이터만을 도입하여 불필요한 새로고침을 줄일 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```swift
 class Store:ObservableObject {
@@ -681,7 +972,18 @@ struct B:View {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 본문에 있는 속성 중에서 읽혀지는 것만이 뷰 업데이트를 발생시킵니다. 수정 후에는 store.b가 변경될 때에는 B 뷰만 다시 평가될 것입니다.
 
@@ -691,7 +993,18 @@ Observation 프레임워크는 아직 새로운 것이므로 그 API도 끊임�
 
 본 글을 통해 독자들은 Observation 프레임워크에 대한 이해를 높일 수 있었을 것입니다. Observation 프레임워크는 현재 SwiftUI와 긴밀하게 통합되어 있지만, API가 더 풍부해지면 SwiftUI에만 한정되지 않고 점점 더 많은 애플리케이션 시나리오에서 나타날 것으로 기대됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 이 문서가 도움이 되었거나 즐겁게 읽었다면, 저의 글을 지원하기 위해 기부를 고려해주세요. 여러분의 기부는 저가 계속해서 가치 있는 콘텐츠를 제작하는 데 도움이 될 것입니다.
 Patreon, Buy Me aCoffee 또는 PayPal을 통해 기부해주세요.

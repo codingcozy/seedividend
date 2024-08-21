@@ -3,17 +3,13 @@ title: "SaaS 보일러플레이트를 무료로 사용하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "You dont need to pay for SaaS boilerplates  Open SaaS"
 link: "https://medium.com/@WaspLang/you-dont-need-to-pay-for-saas-boilerplates-open-saas-f4ee70bbe848"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/YoudontneedtopayforSaaSboilerplatesOpenSaaS_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 여기에서 실제로 확인해보세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Open SaaS는 최근에 보셨던 유료 SaaS 스타터들의 모든 기능을 갖추고 있지만 완전히 무료이며 오픈 소스입니다.
 
@@ -33,7 +40,18 @@ Open SaaS는 최근에 보셨던 유료 SaaS 스타터들의 모든 기능을 �
 
 또한 Open SaaS에서 사용하는 Wasp 프레임워크는 인증 및 크론 작업과 같은 여러 기능을 빌드하는 작업을 대신 수행하기 때문에 3자 서비스에 돈을 지불하거나 코드를 완전히 직접 작성할 필요가 없습니다 (나중에 이에 대해 자세히 설명하겠습니다).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 시작하기 전에...
 
@@ -43,7 +61,18 @@ Open SaaS는 최근에 보셨던 유료 SaaS 스타터들의 모든 기능을 �
 
 # 왜 우리가 만들었는지... 그리고 그것을 무료로 제공한 이유
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리의 사전 릴리스 초기 피드백은 대부분 긍정적이었지만 몇 가지 질문도 받았어요:
 
@@ -56,7 +85,18 @@ Open SaaS는 최근에 보셨던 유료 SaaS 스타터들의 모든 기능을 �
 
 먼저, 네, 이것은 100% 무료 및 오픈소스이며 그대로 유지될 거예요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 번째로, 개발자들, 인디핵커, 그리고 솔로기업가들의 지식이 모이면 개별이나 소규모 그룹보다 더 나은 보일러플레이트가 만들어질 것으로 믿습니다. 어떤 개발자로부터 SaaS 스타터를 구매하면 이미 주관적인 스택을 얻게 되는데, 거기에 더해 그들이 생각한 최고의 방법으로 앱이 구축되었다는 말입니다 — 하지만 그것이 항상 _당신에게_ 최선인 것은 아닐 수 있습니다.
 
@@ -66,7 +106,18 @@ Open SaaS는 최근에 보셨던 유료 SaaS 스타터들의 모든 기능을 �
 
 따라서 우리는 개발자 커뮤니티에 심각한 가치를 제공하고, 우리의 오픈 소스 풀스택 프레임워크에 대한 정보를 확산하고자 합니다. 그리고 이를 향해 커뮤니티가 기여하고, 이 템플릿이 성장하여 최고의 SaaS 보일러플레이트가 되기를 바라고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 오픈 SaaS가 무엇으로 이루어져 있는지
 
@@ -76,7 +127,18 @@ Open SaaS는 최근에 보셨던 유료 SaaS 스타터들의 모든 기능을 �
 
 현재 주요 기능은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 🔐 인증 (이메일 확인, 구글, 깃헙)
 - 📩 이메일 발송 (sendgrid, emailgun, SMTP)
@@ -94,7 +156,18 @@ Open SaaS는 최근에 보셨던 유료 SaaS 스타터들의 모든 기능을 �
 
 <img src="/assets/img/YoudontneedtopayforSaaSboilerplatesOpenSaaS_3.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 와스프 덕분에 Open SaaS는 다양한 인증 방법을 갖추고 있어요:
 
@@ -118,7 +191,18 @@ app SaaSTemplate {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 진짜에요. 그게 전부에요!
 
@@ -128,7 +212,18 @@ app SaaSTemplate {
 
 # 관리자 대시보드 및 분석
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![img](/assets/img/YoudontneedtopayforSaaSboilerplatesOpenSaaS_4.png)
 
@@ -149,7 +244,18 @@ job dailyStatsJob {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그게 다야! 와스프가 크론 작업을 설정하고 실행해 줍니다.
 
@@ -159,7 +265,18 @@ job dailyStatsJob {
 
 만약 SaaS를 직접 구축해 본 적이 없는 개발자라면, 스트라이프와 같은 결제 프로세서와 통합하는 것이 아마도 직면할 몇 안 되는 도전 중 하나일 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나는 처음으로 SaaS인 CoverLetterGPT.xyz를 만들 때 이 문제를 겪었습니다. 실제로 그것은 내가 그것을 만드는 주요 동기 중 하나였습니다; 어떻게 앱에 Stripe 결제를 통합하고 OpenAI API를 배울 것인지 배우기 위해서였죠.
 
@@ -174,7 +291,18 @@ job dailyStatsJob {
 
 그래서 Stripe 구독 결제가 이미 설정되어 있는 것은 이러한 힘든 작업을 성취하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 무엇보다 중요한 것은, 전체 과정이 편리하게 문서화되어 있는 것이죠! 그래서 Open SaaS는 당신을 위해 편리한 스트라이프 안내서를 문서에 제공합니다 🙂
 
@@ -184,7 +312,18 @@ job dailyStatsJob {
 
 Open SaaS는 타입스크립트로 구축되었으며, 풀 스택 앱이기 때문에 백엔드에서 프론트엔드로의 타입 안정성이 정말 큰 도움이 될 수 있어요. 어떤 주장적인 스택들이 이 기반에 근거하여 엄청나게 인기를 끌었지요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다행히도, Wasp는 아웃 오브 더 박스로 엔드 투 엔드 타입 안전성을 제공해줍니다(구성할 것이 없어요!), 그래서 Open SaaS가 이를 쉽게 활용할 수 있었어요.
 
@@ -201,7 +340,18 @@ action getResponse {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 서버 액션의 유형 및 구현을 작성해주세요.
 
@@ -219,7 +369,18 @@ const getResponse: GetResponse<RespArgs, string> = async ({ hours }) => {};
 
 ![이미지](/assets/img/YoudontneedtopayforSaaSboilerplatesOpenSaaS_7.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/YoudontneedtopayforSaaSboilerplatesOpenSaaS_8.png" />
 
@@ -229,7 +390,18 @@ const getResponse: GetResponse<RespArgs, string> = async ({ hours }) => {};
 
 AI 기술을 활용하면 새로운 앱 아이디어를 실현할 수 있습니다. 이것이 개발자들이 SaaS 앱을 만들기에 관심을 가지는 원인 중 하나입니다. 위에서 언급한 것처럼, 내가 처음으로 만든 SaaS 앱인 CoverLetterGPT는 "GPT Wrapper" 중 하나이며, 매월 약 $350의 수익을 올리는 것에 자부심을 갖고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 개인적으로 소프트웨어 개발 분야에서 우리는 새로운 AI 기술을 활용한 수익 창출이 가능한 많은 기회가 있는 단골 지점에 있다고 믿습니다. 특히 "인디해커"와 "솔로기업가"들이 그렇습니다.
 
@@ -239,7 +411,18 @@ AI 기술을 활용하면 새로운 앱 아이디어를 실현할 수 있습니�
 
 내부적으로, 이는 OpenAI의 API를 사용하여 각 작업에 우선 순위를 할당하고 커피 휴식을 포함한 자세한 하위 작업으로 분할합니다! 또한 사용자가 정의한 JSON 개체로 응답을 정확하게 소비할 수 있도록 OpenAI의 함수 호출 기능을 활용합니다. 미래에는 오픈소스 LLMs를 추가할 계획이므로 기대해 주세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데모 AI 스케줄러는 개발자들이 OpenAI API를 효과적으로 활용하는 방법을 배우고 창의적인 SaaS 애플리케이션 아이디어를 떠올릴 수 있도록 돕기 위해 있어요!
 
@@ -249,7 +432,18 @@ AI 기술을 활용하면 새로운 앱 아이디어를 실현할 수 있습니�
 
 Wasp는 풀스택 앱을 배포하는 데 무한한 가능성을 제공해줘요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - `wasp deploy` 명령으로 Fly.io에 쉽게 배포할 수 있어요!
 - `wasp build`를 사용하여 Dockerfiles를 빌드하고 클라이언트를 원하는 곳에 배포하세요!
@@ -260,7 +454,18 @@ Wasp는 풀스택 앱을 배포하는 데 무한한 가능성을 제공해줘요
 
 ![`wasp deploy` 예시](/assets/img/YoudontneedtopayforSaaSboilerplatesOpenSaaS_11.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최종적으로, 코드는 여러분이 소유하며, 벤더 잠금없이 자유롭게 배포할 수 있습니다.
 
@@ -270,7 +475,18 @@ Wasp는 풀스택 앱을 배포하는 데 무한한 가능성을 제공해줘요
 
 ![이미지](/assets/img/YoudontneedtopayforSaaSboilerplatesOpenSaaS_12.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 이제 여러분의 SaaS를 만들어 보세요!
 
@@ -280,7 +496,18 @@ Wasp는 풀스택 앱을 배포하는 데 무한한 가능성을 제공해줘요
 
 그리고 만약 오픈 SaaS나/또는 와스프(Wasp)가 유용하다고 생각되신다면, 지원하는 가장 쉬운 방법은 우리에게 스타를 주시는 것입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Open SaaS 레포에 스타를 눌러주세요.
 - Wasp 레포에 스타를 눌러주세요.

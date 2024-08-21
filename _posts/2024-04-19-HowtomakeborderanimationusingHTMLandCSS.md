@@ -3,17 +3,13 @@ title: "HTML과 CSS를 사용하여 테두리 애니메이션 만드는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How to make border animation using HTML and CSS"
 link: "https://medium.com/@tajammalmaqbool11/how-to-make-border-animation-using-html-and-css-a5bbf0f19df6"
 isUpdated: true
 ---
-
-
-
-
 
 웹 디자인에서 애니메이션은 웹 사이트를 생동감 있게 만들어주고 개성을 더해주어 더 매력적으로 만들어줄 수 있습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ## 시작해봐요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, HTML 구조를 설정해봅시다. `div` 요소를 만들고 클래스가 container인 요소를 생성합니다. 이는 상대적인 부모로 사용될 겁니다. (CSS 스타일에서 overflow: hidden;을 통해 모든 오버플로우를 숨기고 패딩은 테두리 너비가 될 것입니다.) 그리고 animated-border 클래스를 가진 또 다른 `div` 요소를 만들어 CSS 스타일을 적용할 겁니다. 모든 다른 내용은 container 안에 추가해주세요.
 
@@ -73,7 +80,18 @@ isUpdated: true
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 전체 CSS입니다:
 
@@ -133,7 +151,18 @@ body {
 
 여기서 애니메이션의 최종 결과를 확인하세요. 테두리가 버튼 주위를 돌고 있습니다. `button` 또는 `div` 등 모든 요소 주위에 테두리를 추가할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="https://miro.medium.com/v2/resize:fit:1200/1*hshvfvuBzcHYjGAOnoPLnw.gif" />
 

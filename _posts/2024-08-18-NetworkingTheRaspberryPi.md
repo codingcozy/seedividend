@@ -3,7 +3,7 @@ title: "라즈베리 파이를 활용한 네트워크 설정하는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-18-NetworkingTheRaspberryPi_0.png"
 date: 2024-08-18 11:35
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-18-NetworkingTheRaspberryPi_0.png
 tag: Tech
 originalTitle: "Networking , The Raspberry Pi"
@@ -11,7 +11,6 @@ link: "https://medium.com/@investigator515/networking-the-raspberry-pi-b23a1f0b9
 isUpdated: true
 updatedAt: 1724032792824
 ---
-
 
 ![네트워킹을 통해 라즈베리파이 배운다](/assets/img/2024-08-18-NetworkingTheRaspberryPi_0.png)
 
@@ -21,7 +20,18 @@ updatedAt: 1724032792824
 
 전자기기의 발전과 함께 시간이 지남에 따라 리퍼비시 기기의 가용성이 증가했습니다. 현재의 시장에서는 예전 기업용 시스템이 학습에 좋은 도구로 사용될 수 있고, 저렴하게 구할 수 있으며, 새로운 삶을 위해 리퍼비싱하고 새 목적으로 사용될 수 있습니다. 라즈베리파이와 같은 싱글 보드 컴퓨터의 성능 향상과 결합하면, 집에서 실험실이나 자체 호스팅 설정에서 실행할 시스템을 비교적 쉽게 적당한 비용으로 찾을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 결과, 자체 호스팅에 대한 재폴더가 있습니다. 오늘날의 클라우드 중심 세계에서는 거의 희귀한 것으로 여겨지는 많은 사람들이 자체 호스팅 시스템을 구성하고 사용하는 것이 리눅스, 네트워크 및 장치 구성 및 보안 문제와 같이 다양한 새로운 기술을 배우는 좋은 방법이 될 수 있다는 것을 확인했습니다. 오늘의 글에서는 교육 및 홈 랩 목적으로 라즈베리 파이에서 실행할 수 있는 몇 가지 간단한 프로젝트를 살펴보겠습니다. 간단한 메일 서버부터 자유로운 시스템까지 모든 것을 다루며 기술적으로 능동적이시라면 여기에 주목할 프로젝트가 있을 것입니다. 그런데 먼저, 메모리에 관한 간단한 이야기를 해보겠습니다.
 
@@ -31,7 +41,18 @@ updatedAt: 1724032792824
 
 ![네트워킹 더 라즈베리 파이](/assets/img/2024-08-18-NetworkingTheRaspberryPi_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # FreedomBox
 
@@ -41,7 +62,18 @@ Git 호스팅부터 Matrix 채팅 서버, 이메일 서버, VPN, 심지어 비�
 
 이미 Raspberry Pi용 다운로드 가능한 이미지가 제공되므로 FreedomBox는 시작할 수 있는 훌륭한 프로젝트가 될 수 있습니다. 그러나 기술적인 면에서 약간 어려운 것으로 생각하는 사람들도 있을 수 있습니다. 그럼에도 불구하고, FreedomBox의 웹 기반 데모를 사용하여 실제 사용 전에 먼저 시도해볼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 링크를 통해 FreedomBox 데모 버전을 확인해보세요
 
@@ -51,7 +83,18 @@ Git 호스팅부터 Matrix 채팅 서버, 이메일 서버, VPN, 심지어 비�
 
 웹 및 클라우드 기반 VPN 서비스에는 다양한 옵션이 있지만, 개인 정보 보호에 더 관심이 있는 사람들은 자체 VPN 서버를 구축해보는 것에 관심이 있을 것입니다. 이는 네트워킹에 대해 배우는 것 뿐만 아니라 데이터가 내부에 유지된다는 추가적인 안심감을 줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가장 좋은 옵션 중 하나는 OpenVPN 서버 패키지입니다. Raspberry Pi OS의 기본 패키지 관리자인 apt 패키지 관리자에 제공되며, 개인 정보 보호를 다시 시작하는 빠르고 쉬운 방법입니다.
 
@@ -61,7 +104,18 @@ Git 호스팅부터 Matrix 채팅 서버, 이메일 서버, VPN, 심지어 비�
 
 ![NetworkingTheRaspberryPi_3 이미지](/assets/img/2024-08-18-NetworkingTheRaspberryPi_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Plex 미디어 스테이션
 
@@ -71,7 +125,18 @@ Git 호스팅부터 Matrix 채팅 서버, 이메일 서버, VPN, 심지어 비�
 
 유료 버전도 있지만, 똑똑한 홈랩 사용자들은 대부분의 작업을 무료 버전으로 충분히 해낼 수 있습니다. 컴퓨터용 적절한 버전을 이 링크를 통해 다운로드하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Raspberry Pi networking](/assets/img/2024-08-18-NetworkingTheRaspberryPi_4.png)
 
@@ -81,7 +146,18 @@ Git 호스팅부터 Matrix 채팅 서버, 이메일 서버, VPN, 심지어 비�
 
 전용 시스템의 성능을 제공하지는 않지만, 많은 사람들에게는 프로젝트를 완료하는 데 필요한 추가 장비가 거의 없는 오래된 하드웨어를 다시 사용하는 완벽한 방법일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 OpenMediaVault은 라즈베리 파이에서 완벽하게 작동하는 무료 Linux 기반 OS로, 처음으로 미디어 서버를 구축하기에 좋은 선택지입니다. 다만, 제대로 보안을 유지해주는 것을 잊지 마세요!
 
@@ -91,7 +167,18 @@ OpenMediaVault은 라즈베리 파이에서 완벽하게 작동하는 무료 Lin
 
 # Pi-Hole 광고 차단기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 넷플릭스를 끊을 수 없다면, PiHole 광고 차단기를 구성하여 그들에게 대항할 수도 있어요. 전체 네트워크에서 광고를 차단하는 PiHole은 짜증나는 광고들이 간단히 사라지는 동굴처럼 작동해요.
 
@@ -101,7 +188,18 @@ OpenMediaVault은 라즈베리 파이에서 완벽하게 작동하는 무료 Lin
 
 많은 사람들과 가정 네트워크에 있어서 PiHole은 현재 사용되지 않는 보드의 가장 좋은 활용 중 하나에요. 올바르게 구성하면 유튜브에도 작동할 거예요. 또한 Reddit에 활발한 커뮤니티가 있어서 발생할 수 있는 어떤 문제든 도와줄 사람이 많아요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-08-18-NetworkingTheRaspberryPi_6.png" />
 
@@ -111,7 +209,18 @@ OpenMediaVault은 라즈베리 파이에서 완벽하게 작동하는 무료 Lin
 
 따라서 가끔 사용하는 하드웨어에 주의를 기울이는 것이 가겨게 다시 활용하기에 완벽할 수도 있습니다. 그리고 라우터에 중점을 둔다면, 기본 구성에서 사용할 수 없는 기능과 패키지를 지원하는 써드파티 펌웨어가 있다는 점을 언급할 가치가 있습니다. OpenWRT 프로젝트 같은 프로젝트는 오래된 하드웨어를 구성하거나 새로운 기능을 잠금해제하는 데 좋은 방법이 될 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 라즈베리 파이가 하드웨어 측면에서 가장 좋은 선택일 수 있지만, 유일한 선택이 아닌 것을 기억하는 것도 중요합니다. 집에서 활용할 수 있는 오래된 하드웨어가 있는지 확인해 보세요. 댓글에서 공유해 주시면 감사하겠습니다!
 
@@ -121,7 +230,18 @@ OpenMediaVault은 라즈베리 파이에서 완벽하게 작동하는 무료 Lin
 
 🌟 이 기사를 즐겨보셨나요? 우리의 작업을 지원하고 커뮤니티에 참여해 보세요! 🌟
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 💙 Ko-fi에서 제를 지원해주세요: Investigator515
 
@@ -131,7 +251,18 @@ OpenMediaVault은 라즈베리 파이에서 완벽하게 작동하는 무료 Lin
 
 🐦 트위터에서도 팔로우해주세요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 🟦 우리는 지금 Bluesky에 있어요!
 

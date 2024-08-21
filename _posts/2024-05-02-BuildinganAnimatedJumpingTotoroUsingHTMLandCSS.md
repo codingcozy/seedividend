@@ -3,16 +3,13 @@ title: "HTML과 CSS를 사용하여 애니메이션으로 뛰는 토토로 만�
 description: ""
 coverImage: "/assets/img/2024-05-02-BuildinganAnimatedJumpingTotoroUsingHTMLandCSS_0.png"
 date: 2024-05-02 00:03
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-02-BuildinganAnimatedJumpingTotoroUsingHTMLandCSS_0.png
 tag: Tech
 originalTitle: "Building an Animated Jumping Totoro Using HTML and CSS"
 link: "https://medium.com/@withaarzoo/building-an-animated-jumping-totoro-using-html-and-css-9ae9cb9bc14b"
 isUpdated: true
 ---
-
-
-
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1200/1*DQhfTbm3hP_-igEhkhk4Hw.gif)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 시작하기 전에, 제공된 링크에서 전체 소스 코드를 다운로드했는지 확인해주세요: 소스 코드 다운로드. 다운로드가 완료되면, 새 프로젝트 디렉토리를 생성하고 소스 코드 파일을 추출하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 2: 구조 이해하기
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 index.html 파일을 열어보세요. 이곳에서 우리의 웹 페이지 구조를 정의합니다. HTML 마크업에는 컨테이너, 토토로의 몸통 부분(귀, 눈, 코 등) 및 애니메이션 클래스 등 다양한 요소가 포함되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 4: CSS로 스타일링하기
 
@@ -42,7 +61,18 @@ style.css 파일에서 당신은 당신의 토토로에 생명을 불어넣는 �
 
 style.css 파일에 정의된 CSS 애니메이션 키프레임을 살펴보세요. 이러한 키프레임은 토토로의 몸통, 귀, 수염 및 그림자의 움직임과 압축 효과를 제어합니다. 원하는 효과를 달성하기 위해 애니메이션 지속 시간, 타이밍, 그리고 이징을 실험해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 6: 테스트 및 디버깅
 
@@ -52,7 +82,18 @@ style.css 파일에 정의된 CSS 애니메이션 키프레임을 살펴보세�
 
 원하는 대로 토토로 디자인, 색상 및 애니메이션을 사용자 정의하세요. 토토로의 몸통 부분의 크기, 위치, 모양을 조절하거나 전체적인 모습을 향상시키기 위해 추가 요소를 추가할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 8: 당신의 작품 공유하기
 

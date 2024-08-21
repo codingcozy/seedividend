@@ -3,16 +3,13 @@ title: "RaspirriV1로 라즈베리 파이 기반의 자동 급수기 만들기"
 description: ""
 coverImage: "/assets/img/2024-05-18-RaspirriV1ARaspberryPibasedirrigator_0.png"
 date: 2024-05-18 21:28
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-18-RaspirriV1ARaspberryPibasedirrigator_0.png
 tag: Tech
 originalTitle: "RaspirriV1: A Raspberry Pi based irrigator"
 link: "https://medium.com/@mariosk/raspirriv1-a-raspberry-pi-based-irrigator-6f121abb1a88"
 isUpdated: true
 ---
-
-
-
 
 몇 년 전에 제가 작은 잔디 정원을 관리하기 위한 책임을 맡아 상업용 스크린 LCD를 갖춘 자동 급수 시스템을 사용했어요. 그러나 COVID-19 대유행으로 인한 봉쇄 기간에 LCD 화면이 고장나면서 프로그래머 메뉴에 접근할 수 없게 되었어요.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 제 주요 목표 중 하나인 기존 급수 시스템을 Raspberry Pi로 대체하기 위해 프로젝트를 `RaspirriV1`로 적절하게 명명했어요. 이는 Raspberry Irrigator Version 1을 상징하는 이름이에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 서버 소프트웨어는 Python을 기반으로 하며, RaspirriV1 모바일 앱은 Flutter를 기반으로 합니다.
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 ![사진](/assets/img/2024-05-18-RaspirriV1ARaspberryPibasedirrigator_0.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 전자 연결의 정확성을 확인하고 LED의 켜고 끄기 기능을 검증하기 위해 간단한 Python 구현을 빠르게 시작했습니다. Concept 증명은 성공적인 기능을 보여줌으로써 우리가 다음 단계로 진행할 확신을 더했습니다:
 
@@ -47,13 +66,35 @@ isUpdated: true
 
 총액: $57–$83$
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에 나와 있는 회로도는 라즈베리 파이를 사용하여 릴레이를 제어하는 간단한 회로를 보여줍니다. 릴레이는 LED나 모터와 같은 고출력 부하를 켜고 끄는 데 사용됩니다. 이 회로는 24V DC 전원 공급기로 구동됩니다.
 
 라즈베리 파이는 디지털 출력 핀을 사용하여 릴레이에 연결됩니다. 라즈베리 파이가 출력 핀을 HIGH로 설정하면 릴레이 코일이 활성화되고 릴레이 접점이 닫힙니다. 이로써 24V 전원 공급기에서 하중으로 전류가 흐를 수 있습니다. 라즈베리 파이가 출력 핀을 LOW로 설정하면 릴레이 코일이 비활성화되고 릴레이 접점이 열립니다. 이로써 하중으로 전류가 흐르지 않게 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 회로 내 LED는 부하가 켜졌을 때 표시하는 데 사용됩니다. LED는 24V 전원 공급원을 통해 전류 제한 저항을 통해 연결됩니다. 전류 제한 저항은 LED가 너무 많은 전류를 빨아들이고 소멸되는 것을 방지하기 위해 필요합니다.
 
@@ -63,7 +104,18 @@ isUpdated: true
 
 ![Image](/assets/img/2024-05-18-RaspirriV1ARaspberryPibasedirrigator_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 UML 다이어그램에 따라 사용자가 모바일 앱을 라즈베리 파이 서버와 블루투스 통신을 통해 페어링하고 인터넷을 통해 제어하는 단계는 다음과 같습니다:
 
@@ -73,7 +125,18 @@ isUpdated: true
 
 단계 2: 사용자는 계속을 클릭하고 RaspirriV1 서버에서 사용할 사용 가능한 WiFi 네트워크 중 하나를 선택합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-05-18-RaspirriV1ARaspberryPibasedirrigator_4.png)
 
@@ -83,8 +146,18 @@ isUpdated: true
 
 ### 단계-4: 그런 다음 토글 버튼으로 밸브를 켜거나 끄거나 각 밸브에 대한 일정 프로그램을 만들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Program creation](/assets/img/2024-05-18-RaspirriV1ARaspberryPibasedirrigator_6.png)
 
@@ -94,8 +167,18 @@ STEP-5: To create a program, select days, start time, and duration. You can chan
 
 # Raspberry Pi Server
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 라스피리V1을 위한 서버 소프트웨어는 세 가지 주요 모듈로 구성되어 있습니다:
 
@@ -105,7 +188,18 @@ Bluetooth 특성을 등록하기 위해 설계된 이 모듈은 휴대 기기를
 
 MQTT 모듈의 상태를 모니터링하고 필요한 경우 다시 시작하는 이 모듈이 구현되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 모듈은 Raspbian OS에서 서로 다른 systemd 서비스로 시작됩니다. 사용된 Python 라이브러리는 다음과 같습니다:
 
@@ -163,7 +257,18 @@ uvicorn==0.27.0
 
 RaspirriV1 모바일 앱은 RaspirriV1 서버 소프트웨어의 자동 급수 시스템 컨트롤러입니다. Flutter 프레임워크와 Dart 프로그래밍 언어로 작성되었으며 Android 5 (롤리팝, API 21) 이후 버전의 모바일폰과 태블릿을 지원합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 핵심 구성 요소
 
@@ -173,7 +278,18 @@ Flutter로 제작된 Android 앱은 시각적으로 직관적인 인터페이스
 
 Riverpod는 반응형 캐싱 및 데이터 바인딩 프레임워크로, 애플리케이션의 상태를 쉽게 구성, 공유 및 업데이트할 수 있어 원활하고 유지보수 가능한 개발 경험을 보장합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리 시스템의 핵심은 MQTT 프로토콜에 있습니다. 이 프로토콜을 통해 안드로이드 앱과 라즈베리 파이 서버 간에 실시간 통신이 가능해집니다. Mqtt_client 패키지는 메시지를 신속하고 효율적으로 교환하여 관개 시스템을 빠르고 반응적으로 제어할 수 있도록 도와줍니다.
 
@@ -183,11 +299,22 @@ Riverpod는 반응형 캐싱 및 데이터 바인딩 프레임워크로, 애플�
 
 사용한 Flutter 패키지는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```yaml
 environment:
-  sdk: '>=3.1.0 <4.0.0'
+  sdk: ">=3.1.0 <4.0.0"
 
 dependencies:
   collection: ^1.18.0
@@ -195,10 +322,10 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_blue_plus: ^1.28.10
-  
+
   flutter_localizations:
     sdk: flutter
-  
+
   flutter_riverpod: ^2.4.5
   google_fonts: ^6.1.0
   http: ^1.1.2
@@ -229,7 +356,18 @@ dev_dependencies:
 
 따라서, 우리의 저장소에 대한 각 pull request에 대해, 우리는 사전 커밋 포매팅 도구, 린터, 단위 테스트를 실행합니다. 이러한 단계가 모두 성공적으로 통과되면 해당 pull request를 병합할 수 있습니다. 마찬가지로, 저장소 소유자가 새로운 Git 태그를 생성하여 새 릴리스를 작성하고자 할 때, 모든 CI 절차가 시작됩니다. 모든 검사가 통과되면:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 새 릴리스가 생성되어 릴리스 섹션에 업로드되었습니다.
 - CHANGELOG.md 파일이 자동으로 업데이트되어 이전 릴리스 이후의 최신 커밋이 반영되었습니다.
@@ -240,7 +378,18 @@ dev_dependencies:
 
 각 프로젝트의 이슈 섹션에는 구현을 기다리고 있는 여러 잠재적인 향상 사항이 기술되어 있습니다. 이 프로젝트의 상용화는 산업용 케이스를 개발하고 유료 클라우드 기반 MQTT 브로커를 활용함으로써 원활하게 달성할 수 있습니다. 다른 모든 구성 요소는 단일 밸브에 주력하여 우리의 지역 정원에서 여러 날 동안 엄격한 테스트를 거쳤습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -253,7 +402,18 @@ dev_dependencies:
 - 라즈베리 파이와 MQTT 가이드
 - GPIO 핀 연결 가이드
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **사용한 도구 및 자원:** VSCode, Raspberry Pi, CodiumAI
 

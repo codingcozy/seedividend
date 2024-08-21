@@ -3,15 +3,13 @@ title: "consolelog 대신 이 서비스 사용을 시작해야 하는 이유"
 description: ""
 coverImage: "/assets/img/2024-07-07-StopUsingconsolelogandStartUsingThisService_0.png"
 date: 2024-07-07 19:25
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-StopUsingconsolelogandStartUsingThisService_0.png
 tag: Tech
 originalTitle: "Stop Using console.log and Start Using This Service!"
 link: "https://medium.com/stackademic/stop-using-console-log-and-start-using-this-service-0d3eaddfde45"
 isUpdated: true
 ---
-
-
 
 ![Logging Image](/assets/img/2024-07-07-StopUsingconsolelogandStartUsingThisService_0.png)
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 # console.log 사용을 그만두어야 하는 이유
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코드 전체에 흩어진 console.log 문을 사용하면 여러 문제가 발생할 수 있습니다:
 

@@ -3,16 +3,13 @@ title: "웹 성능을 향상시키는 Angular FormArray 팁"
 description: ""
 coverImage: "/assets/img/2024-05-17-AngularFormArrayTipsforSmootherWebPerformanceEventListeners_0.png"
 date: 2024-05-17 21:12
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-17-AngularFormArrayTipsforSmootherWebPerformanceEventListeners_0.png
 tag: Tech
 originalTitle: "Angular FormArray Tips for Smoother Web Performance: Event Listeners"
 link: "https://medium.com/gitconnected/angular-form-array-event-listeners-400f3761965c"
 isUpdated: true
 ---
-
-
-
 
 ## 웹 개발
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 FormArrays의 한 가지 큰 도전 과제는 최적의 웹 성능과 원활한 사용자 상호 작용을 보장하기 위해 이벤트 리스너를 효율적으로 관리하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 사례 연구에서는 FormArray의 항목이 변경될 때 API에서 데이터를 가져 오는 두 가지 전략을 밝힐 것입니다. 실제 예제와 함께 이를 살아있게 만들 것입니다. 각 접근 방법을 안내하고 코드 디자인 및 웹 성능에 어떤 것이 도움이 될지 살펴볼 것입니다. 그러니 코딩 모자를 준비하고 시작해 보세요.
 
@@ -32,7 +40,18 @@ FormArrays의 한 가지 큰 도전 과제는 최적의 웹 성능과 원활한 
 
 여기서 "필드 클래스 추가" 버튼을 클릭하고 필드 클래스를 선택한 후, 필드 클래스를 선택하면 Get 요청이 트리거되어 API로 전송되는 것을 관찰하십시오. 두 번째 필드 클래스를 선택하면 추가 요청이 전송됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-05-17-AngularFormArrayTipsforSmootherWebPerformanceEventListeners_2.png)
 
@@ -42,7 +61,18 @@ FormArrays의 한 가지 큰 도전 과제는 최적의 웹 성능과 원활한 
 
 "사용자 지정 필드 세트 작성" 양식의 템플릿에서 fieldclasses 섹션에서 다음 FormArray가 있는 것을 확인할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 20번 라인에는 `mat-autocomplete` 목록이 포함되어 있습니다. 사용자가 "Add Fieldclass" 버튼을 클릭할 때마다 새로운 `mat-autocomplete`가 FormArray에 추가됩니다. 이는 가능한 fieldclass 값에 대한 제안이 포함된 드롭다운을 표시합니다.
 
@@ -52,7 +82,18 @@ ngOnInit() 라이프사이클 훅에서 다음 이벤트 리스너가 있습니�
 
 부모 컴포넌트는 이를 표현식으로 캐치합니다: (getOutputKeysForFieldClasses)="getOutputKeys($event)"
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 Store Service에서 getOutputKeysForFieldClasses(fieldClasses)을 호출할 거에요:
 
@@ -64,7 +105,18 @@ ngOnInit() 라이프사이클 훅에서 다음 이벤트 리스너가 있습니�
 - 항목을 선택하면 하나의 요청이 보내져요,
 - "필드클래스 추가"를 다시 클릭합니다. 두 번째 클릭 후에는 FormArray에 두 번째 폼 필드만 있지만, 아직 필드클래스를 선택하지 않았어요. 그런데 또 다른 요청이 API로 전송돼요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-05-17-AngularFormArrayTipsforSmootherWebPerformanceEventListeners_3.png" />
 
@@ -74,7 +126,18 @@ ngOnInit() 라이프사이클 훅에서 다음 이벤트 리스너가 있습니�
 
 # 문제 해결
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 문제를 어떻게 해결할 수 있는지 살펴봅시다.
 
@@ -84,10 +147,21 @@ ngOnInit() 라이프사이클 훅에서 다음 이벤트 리스너가 있습니�
 
 이전에는 Fieldclasses 목록도 FormArray에서 검색되었지만, getOutputKeysForFieldClasses 이벤트를 트리거해야 하는 시점이 다소 정확하지 않았습니다. 이제 옵션이 선택된 경우에만 이 이벤트가 발생됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 브라우저에서 동작을 확인해 볼게요:
-  
+
 - "Add Fieldclass"를 클릭하면 요청이 전송되지 않아요.
 - 2번 클릭해 봐도 요청이 전송되지 않아요.
 - 그런데 Fieldclass를 선택하면 요청이 한 번만 전송돼요.
@@ -96,7 +170,18 @@ ngOnInit() 라이프사이클 훅에서 다음 이벤트 리스너가 있습니�
 
 이제 요청이 예상대로 올바르게 전송돼요! 이를 통해 문제를 해결했어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그냥 명심해야 할 점은 API로 보내는 요청의 수가 늘어나거나 예상된 것보다 훨씬 많은 이벤트 리스너의 문제로 인해 성능 문제가 발생하지 않도록 하려면 예제처럼 로직을 올바른 위치에 추가해야 한다는 것이에요.
 
@@ -106,7 +191,18 @@ ngOnInit() 라이프사이클 훅에서 다음 이벤트 리스너가 있습니�
 
 디자인과 성능 측면에서 그 차이는 상당히 중요해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 원래 접근 방식: valueChanges 이벤트에 대해
 
@@ -121,7 +217,18 @@ ngOnInit() 라이프사이클 훅에서 다음 이벤트 리스너가 있습니�
 - 성능 향상: 선택 이벤트에만 반응함으로써 FormArray의 모든 미세한 변경에 반응하는 성능 부담을 피할 수 있습니다. 변경 빈도가 높은 양식에서 특히 유익할 수 있습니다.
 - 부수 효과 감소: 옵션 선택에 대한 응답을 단지 옵션 선택으로 제한함으로써 관련 없는 양식 컨트롤 변경으로 인한 불필요한 프로세스 또는 부수 효과를 트리거할 위험이 줄어듭니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요약하자면, `mat-autocomplete`의 (optionSelected) 이벤트에 관련된 새로운 접근 방식은 이벤트 중심 프로그래밍에서 더 나은 방법으로, 특히 복잡한 양식에서 효과적입니다.
 
@@ -131,7 +238,18 @@ ngOnInit() 라이프사이클 훅에서 다음 이벤트 리스너가 있습니�
 
 오늘 탐구한 것은 빙산의 일각에 불과합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 흥미로운가요?
 
@@ -141,7 +259,18 @@ ngOnInit() 라이프사이클 훅에서 다음 이벤트 리스너가 있습니�
 
 만약 이 포스트가 도움이 되었다면, 친구들과 공유해보세요. 호기심을 갖고 코딩을 계속해 나가다 보면, 다음 글에서 다시 만나요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 더 알고 싶으세요?
 

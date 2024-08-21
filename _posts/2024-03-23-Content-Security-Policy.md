@@ -3,17 +3,13 @@ title: "Nextjs 13 프로젝트의 콘텐츠 보안 정책"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "내용 보안 정책"
 link: "undefined"
 isUpdated: true
 ---
-
-
-
-
 
 # 콘텐츠 보안 정책
 
@@ -23,7 +19,18 @@ CSP를 사용하면, 개발자들은 콘텐츠 소스, 스크립트, 스타일�
 
 ## 논스
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 화폐화하는데 비밀번호가 유일한 랜덤 문자열로 생성되어 일회용으로 사용됩니다. 이는 CSP와 함께 사용되어 일반적인 CSP 지시문을 우회하여 특정 인라인 스크립트 또는 스타일의 실행을 선택적으로 허용합니다.
 
@@ -33,7 +40,18 @@ CSP는 악의적인 스크립트를 차단하기 위해 설계되었지만, 일�
 
 ### 미들웨어로 nonce 추가하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 미들웨어를 사용하면 페이지 렌더링 전에 헤더를 추가하고 논스를 생성할 수 있습니다.
 
@@ -78,7 +96,18 @@ export function middleware(request: NextRequest) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기본적으로 Middleware는 모든 요청에 실행됩니다. Matcher를 사용하여 특정 경로에서 Middleware를 실행하도록 필터링할 수 있습니다.
 
@@ -107,7 +136,18 @@ export const config = {
 
 ### nonce 값을 읽는 중
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 서버 구성요소에서 headers를 사용하여 nonce를 읽을 수 있게 되었습니다:
 
@@ -126,7 +166,18 @@ export default function Page() {
 
 Nonce가 필요하지 않은 애플리케이션을 위해, next.config.js 파일에 직접 CSP 헤더를 설정할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const cspHeader = `
@@ -164,4 +215,15 @@ module.exports = {
 
 Next.js를 v13.4.20 이상으로 사용하는 것을 권장합니다. 이는 nonce를 제대로 처리하고 적용할 수 있도록 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

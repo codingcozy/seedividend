@@ -3,15 +3,13 @@ title: "Tailwind CSS로 그라데이션 스피닝 보더 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-CreatingGradientSpinningBorderswithTailwindCSS_0.png"
 date: 2024-07-09 18:01
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-CreatingGradientSpinningBorderswithTailwindCSS_0.png
 tag: Tech
 originalTitle: "Creating Gradient Spinning Borders with Tailwind CSS"
 link: "https://medium.com/@akshitdayal99/creating-gradient-spinning-borders-with-tailwind-css-7c7f8a3d242b"
 isUpdated: true
 ---
-
-
 
 ![Image](/assets/img/2024-07-09-CreatingGradientSpinningBorderswithTailwindCSS_0.png)
 
@@ -24,7 +22,18 @@ isUpdated: true
 - 그라데이션 회전 테두리
 - 투명 네온 회전 원
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Tailwind Gradient Border
 
@@ -34,7 +43,18 @@ isUpdated: true
 
 우리는 "relative" 위치를 가진 부모 div를 사용하여 이 작업을 수행할 수 있습니다. 그 부모 div의 자식 요소에는 그라데이션 div와 위에 있는 우리 div가 포함됩니다. 다음과 같이 할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <!-- 부모 Div -->
@@ -64,7 +84,18 @@ isUpdated: true
 </div>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 배경을 흐릿하게 만들고 싶다면 Gradient div에 "blur"를 추가할 수 있어요. 이렇게 하면 됩니다:
 
@@ -76,7 +107,18 @@ isUpdated: true
 
 # 그라데이션 형광 배경 효과
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 배경을 빛나는 효과를 내기 위해 간단한 트릭은 점차 기울이는 애니메이션을 사용하여 빛나는 것처럼 보이도록 하는 것입니다.
 
@@ -105,7 +147,18 @@ module.exports = {
 
 rotate()의 숫자를 늘려 rotate(5deg) 및 rotate(-5deg) 또는 원하는 값에 따라 수를 증가시켜 기울이기를 늘릴 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 이 애니메이션을 그라디언트 `div`에 다음과 같이 추가할 수 있어요:
 
@@ -117,7 +170,18 @@ rotate()의 숫자를 늘려 rotate(5deg) 및 rotate(-5deg) 또는 원하는 값
 
 <img src="/assets/img/2024-07-09-CreatingGradientSpinningBorderswithTailwindCSS_4.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기에서는 네온 효과를 주기 위해 세 개의 원형 div를 사용하고 있어요. Tailwind에서 그라디언트 그림자를 만드는 것이 쉽지 않기 때문이에요.
 
@@ -133,7 +197,18 @@ rotate()의 숫자를 늘려 rotate(5deg) 및 rotate(-5deg) 또는 원하는 값
 
 이것은 주로 여러분이 사용하는 메인 div들을 이 것 아래에 추가하면 돼요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내용을 이 원 안에 넣으려면 다음과 같이 코드를 작성할 수 있어요:
 
@@ -155,7 +230,18 @@ rotate()의 숫자를 늘려 rotate(5deg) 및 rotate(-5deg) 또는 원하는 값
 
 # 네온 회전하는 원
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 원들을 돌리려면 회전 애니메이션을 추가할 수 있어요.
 
@@ -193,7 +279,18 @@ module.exports = {
 
 이제, 바깥쪽과 안쪽 원을 시계 방향으로, 중간 원을 반시계 방향으로 돌리겠어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <div class="flex w-[200px] h-[200px] justify-center items-center relative">

@@ -3,16 +3,13 @@ title: "구글이 Streamlit을 죽였는가"
 description: ""
 coverImage: "/assets/img/2024-06-27-DidGoogleJustKillStreamlit_0.png"
 date: 2024-06-27 18:19
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-27-DidGoogleJustKillStreamlit_0.png
 tag: Tech
 originalTitle: "Did Google Just Kill Streamlit?"
 link: "https://medium.com/google-cloud/did-google-just-kill-streamlit-76f719d9e275"
 isUpdated: true
 ---
-
-
-
 
 ## 구글의 Mesop 프레임워크를 살펴보면 Streamlit보다 더 나은지 확인해보세요.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 이 문제에 대처하기 위해 Python과 Tailwind CSS만 사용하여 아름다운 웹 앱을 개발하는 방법에 대해 작성한 블로그가 예상치 못하게 터져나왔습니다. 여기서 읽을 수 있습니다. 이 과정은 훨씬 더 제작 친화적이지만, 사용자 정의 가능한 프로토타입을 개발하려면 어떨까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신이 바로 Mesop이 하는 일입니다.
 
@@ -37,7 +45,18 @@ isUpdated: true
 - 구성 요소는 기본적으로 Python 함수입니다.
 - Angular로 구축되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Mesop 시작하기
 
@@ -49,7 +68,18 @@ isUpdated: true
 
 시작하기 전에 pip install mesop을 사용해서 메소프를 설치해보세요. 함께 즐거운 개발 시간 보내시길 바랍니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## State 클래스
 
@@ -67,7 +97,18 @@ class Article:
 
 우리가 생성하는 각 함수나 구성 요소에서 이 state 클래스 데이터는 유지되며 전역적으로 액세스할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 페이지 및 이벤트
 
@@ -82,7 +123,18 @@ def app():
 
 위의 코드는 두 개의 입력 필드가 있는 기본 페이지를 생성합니다. 이전에 만든 상태 클래스에 데이터를 저장할 수 있도록 각 필드에는 별도의 함수가 필요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 def on_title_input(title: me.InputEvent):
@@ -105,7 +157,18 @@ Mesop에서 이벤트는 InputEvent, ClickEvent 등의 클래스를 사용하여
 
 클릭 이벤트를 처리하기 위해 다른 함수를 호출하여 입력 데이터를 제출할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 응답 스키마
@@ -148,8 +211,18 @@ def app():
 
 Mesop에서 요소를 스타일링하는 것은 기존 CSS 속성과 유사하지만, 모든 속성은 me.style()의 매개변수입니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 me.style()을 사용하여 스타일을 정의한 후, 해당 스타일을 변수에 저장하여 컴포넌트에서 매개변수로 호출할 수 있습니다.
 
@@ -182,10 +255,20 @@ def app():
 
 <img src="/assets/img/2024-06-27-DidGoogleJustKillStreamlit_0.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-안녕하세요! 테이블 태그를 마크다운 형식으로 변경해 드릴게요. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+안녕하세요! 테이블 태그를 마크다운 형식으로 변경해 드릴게요.
 
 | Not the best-looking UI, but that’s because I didn’t make the effort to style it enough. It still looks a lot better than raw HTML with just a few tweaks here and there. With the ability to use all CSS properties for the components, you can make the UI unique. |
 
@@ -195,10 +278,20 @@ No, absolutely not. Mesop is still under development, and the documentation lack
 
 Streamlit still comes with its own set of benefits and is fundamentally stronger compared to Mesop, especially if you are looking to build something in the data visualization domain. Moreover, Streamlit Cloud is a boon for anyone looking to share their applications absolutely free of charge.
 
-
 무엇이든 더 도와드릴게요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 Mesop은 성장 잠재력이 있으며 매일 업데이트를 받고 있어 가벼운 성격으로 REST API에서 작동하는 빠른 도구 및 간단한 프로토 타입에 더 적합해지고 있습니다.
 
@@ -208,7 +301,18 @@ Mesop의 Will과 다른 기여자들에게 시간과 노력을 들여 이러한 
 
 Streamlit, Nicegui, Gradio 그리고 이제 Mesop와 같은 새로운 Python UI 프레임워크가 등장하는 것을 항상 좋게 생각합니다. Python의 관용구 문법은 코딩을 훨씬 더 접근 가능하게 만들어주며, 이는 지금 Streamlit 프로젝트의 많은 수로부터 명확히 확인됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 행운이던지 불행이던지, 파이썬이 내가 처음으로 배운 프로그래밍 언어였고, 그것에 즉시 사랑에 빠졌어요. 이와 같은 더 많은 프레임워크로 인해, Python은 사용량이 급격히 증가할 것이고, 미래에는 더 많은 실무급 Python 앱들을 볼 수 있기를 희망해요.
 

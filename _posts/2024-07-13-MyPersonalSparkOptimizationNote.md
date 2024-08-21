@@ -3,17 +3,13 @@ title: "나만의 Spark 최적화 노트"
 description: ""
 coverImage: "/assets/img/2024-07-13-MyPersonalSparkOptimizationNote_0.png"
 date: 2024-07-13 21:18
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-MyPersonalSparkOptimizationNote_0.png
 tag: Tech
 originalTitle: "My Personal Spark Optimization Note"
 link: "https://medium.com/@kevinchwong/my-intensive-spark-optimization-study-checklist-308dc8ae55e9"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-07-13-MyPersonalSparkOptimizationNote_0.png)
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 ## 데이터 프레임
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 데이터프레임 생성: 열, 스키마 및 RDD를 사용하여 데이터프레임 생성 방법을 배웁니다.
 - 데이터프레임 표시: 스키마, 구조 및 요약을 표시하는 방법을 살펴봅니다.
@@ -39,7 +45,18 @@ isUpdated: true
 
 ## 그룹화 및 집계
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 기본부터 고급 집계: `count(), max(), min(), avg(), sum()`과 같은 기술 탐색하기.
 - `collect_list()` 및 `collect_set()` 사용하기.
@@ -53,7 +70,18 @@ isUpdated: true
 
 ## 다른 쿼리들
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - rollup() 및 cube() 활용: 다차원 집계에 사용됩니다.
 - groupBy() 및 pivot(): Pivot 테이블처럼 행을 열로 변환합니다.
@@ -65,7 +93,18 @@ isUpdated: true
 
 # Spark를 최적화하는 방법?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 건강한 파이프라인
 
@@ -75,15 +114,26 @@ isUpdated: true
 - spark.sql() 사용
 - 더 나은 파일 형식
 - 더 나은 변환:
-    - 조인(join()) 및 agg() 전에 이전 선택 및 필터 사용
-    - limit() 사용
-    - RDD, ReduceByKey() + map() 사용
+  - 조인(join()) 및 agg() 전에 이전 선택 및 필터 사용
+  - limit() 사용
+  - RDD, ReduceByKey() + map() 사용
 
 ![이미지](/assets/img/2024-07-13-MyPersonalSparkOptimizationNote_4.png)
 
 **자세한 설명 및 파이썬 소스 코드는 [여기](링크)에서 확인할 수 있습니다**
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 파티션 → 병렬화
 
@@ -94,7 +144,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-07-13-MyPersonalSparkOptimizationNote_5.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기에 전체 버전과 모든 설명, 파이썬 소스 코드가 있습니다
 
@@ -106,8 +167,18 @@ isUpdated: true
 - 병렬처리 증가를 위해 Repartition 사용
 - 파티션 감소를 위해 Coalesce 사용
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-07-13-MyPersonalSparkOptimizationNote_6](/assets/img/2024-07-13-MyPersonalSparkOptimizationNote_6.png)
 
@@ -123,8 +194,18 @@ isUpdated: true
 - SQL 성능 튜닝: Catalyst 옵티마이저 활용
 - 가비지 컬렉션 튜닝: 메모리 관리 최적화
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-13-MyPersonalSparkOptimizationNote_7.png" />
 

@@ -3,16 +3,13 @@ title: "PDF 분할 로드  풀스택 솔루션 안내"
 description: ""
 coverImage: "/assets/img/2024-06-23-PDFSliceLoadingFullStackSolution_0.png"
 date: 2024-06-23 14:32
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-PDFSliceLoadingFullStackSolution_0.png
 tag: Tech
 originalTitle: "PDF Slice Loading — Full Stack Solution"
 link: "https://medium.com/@ggluopeihai/pdf-slice-loading-full-stack-solution-89c12d92a2a4"
 isUpdated: true
 ---
-
-
-
 
 # 서문
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 전반적으로 프런트엔드 페이지에서 PDF 파일을 로드해야 하는 필요성이 종종 발생합니다, 특히 정부 기관, 금융 업계 등에서 많이 발생합니다. PDF 파일은 여러 객체(텍스트, 이미지, 폰트 등)를 포함하는 컨테이너로, 파일 내부에는 어떤 순서로든 저장될 수 있습니다. 전체 PDF 파일은 네트워크로부터 다운로드된 후 파싱되어 렌더링되어야 페이지에 올바르게 표시됩니다. PDF 파일이 수십 메가바이트 또는 수백 메가바이트일 때, 사용자들은 PDF 파일 콘텐츠를 보기 위해 오랜 시간을 기다려야 합니다. 모바일 기기에서 PDF 파일을 여는 데 필요한 대기 시간은 더욱 길어질 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 스키마 비교
 
@@ -33,7 +41,18 @@ isUpdated: true
 
 솔루션 2: 이것은 이 장에서 소개하는 주요 내용입니다. 이 방법의 장점은 가시 범위 내의 PDF 콘텐츠를 먼저 로드할 수 있어 첫 화면에서 PDF 콘텐츠를 렌더링하는 시간을 크게 단축할 수 있다는 것입니다. 그러나 이 방법의 단점은 조각으로 표시된 PDF 이미지가 확대 및 복사를 지원하지 않는다는 것입니다. 제스처 확대 및 복사는 원본 PDF 파일이 로드될 때까지 지원되지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # PDF 분할 솔루션 비교
 
@@ -43,19 +62,39 @@ isUpdated: true
 
 이 그림은 원본 PDF 로딩 효과를 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](https://miro.medium.com/v2/resize:fit:480/1*6z6XdVED9HwQ4lBWiqjwMA.gif)
-  
+
 이 그림은 슬라이싱 솔루션로딩 효과를 보여줍니다
 
 ![이미지](https://miro.medium.com/v2/resize:fit:480/1*Cgp-GrVHbvSPYaunMduhZQ.gif)
 
 # 사용된 환경과 기술적인 포인트
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 서버: 노드, 네스트져스, MulterModule, ServeStaticModule, FileInterceptor, postman 도구
 - 프론트엔드: http-server (글로벌로 설치), pdfjs, pdfh5
@@ -66,23 +105,31 @@ isUpdated: true
 
 # 1. 네스트져스 프로젝트 생성 및 종속성 설치
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우선, NestJS 프로젝트를 빠르게 만들고 `upload` 모듈을 업로드해 보세요. 자세한 내용이 필요하시면 NestJS 시작하기 (파트 2): 사진 업로드를 꼭 읽어보세요. `upload.module`을 수정하여 PDF 형식의 업로드를 허용하도록 변경하세요.
 
 ```js
-  // src/upload/upload.module.ts
-  
-  fileFilter: (req, file, cb) => { 
-     if ( 
-       file.mimetype === 'image/jpeg' || 
-       file.mimetype === 'image/png' || 
-+       file.mimetype === 'application/pdf' ) { 
-         cb(null, true); 
-       } else { 
-         cb(new Error('Only images (JPEG, PNG) and PDF files are allowed...'), false);
-         } 
-       }
+// src/upload/upload.module.ts
+
+fileFilter: (req, file, cb) => {
+  if (file.mimetype === "image/jpeg" || file.mimetype === "image/png" || +file.mimetype === "application/pdf") {
+    cb(null, true);
+  } else {
+    cb(new Error("Only images (JPEG, PNG) and PDF files are allowed..."), false);
+  }
+};
 ```
 
 PDF 자르기에 필요한 도구를 설치해보세요:
@@ -91,7 +138,18 @@ PDF 자르기에 필요한 도구를 설치해보세요:
 - canvas: canvas를 통해 pdf 스트림을 읽어 이미지를 생성하세요.
 - @types/pdfjs-dist: pdfjs-dist 데클레어션 파일 패키지
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm install pdfjs-dist@2.7.570 canvas @types/pdfjs-dist --save
@@ -114,36 +172,47 @@ async function bootstrap() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 캔버스Create a class to convert PDF stream to image
 
 ```js
 // src/upload/node-canvas-factory.ts
 
-import { Canvas, createCanvas, CanvasRenderingContext2D } from 'canvas';
+import { Canvas, createCanvas, CanvasRenderingContext2D } from "canvas";
 
 export class NodeCanvasFactory {
-    create(width: number, height: number) {
-        const canvas = createCanvas(width, height);
-        const context = canvas.getContext('2d');
-        return {
-            canvas,
-            context,
-        };
-    }
+  create(width: number, height: number) {
+    const canvas = createCanvas(width, height);
+    const context = canvas.getContext("2d");
+    return {
+      canvas,
+      context,
+    };
+  }
 
-    reset(canvasAndContext: { canvas: Canvas; context: CanvasRenderingContext2D }, width: number, height: number) {
-        canvasAndContext.canvas.width = width;
-        canvasAndContext.canvas.height = height;
-    }
+  reset(canvasAndContext: { canvas: Canvas, context: CanvasRenderingContext2D }, width: number, height: number) {
+    canvasAndContext.canvas.width = width;
+    canvasAndContext.canvas.height = height;
+  }
 
-    destroy(canvasAndContext: { canvas: Canvas; context: CanvasRenderingContext2D }) {
-        canvasAndContext.canvas.width = 0;
-        canvasAndContext.canvas.height = 0;
-        canvasAndContext.canvas = null;
-        canvasAndContext.context = null;
-    }
+  destroy(canvasAndContext: { canvas: Canvas, context: CanvasRenderingContext2D }) {
+    canvasAndContext.canvas.width = 0;
+    canvasAndContext.canvas.height = 0;
+    canvasAndContext.canvas = null;
+    canvasAndContext.context = null;
+  }
 }
 ```
 
@@ -198,7 +267,18 @@ export class UploadService {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 The `convertPdfToImages` 함수는 PDF 파일을 읽고 슬라이싱하여 생성된 이미지의 주소를 반환합니다. `processPage` 함수는 PDF의 각 페이지를 이미지로 변환합니다.
 
@@ -210,7 +290,7 @@ The `convertPdfToImages` 함수는 PDF 파일을 읽고 슬라이싱하여 생�
 ...
 export class UploadController {
     ...
-    
+
 +    @Post('/uploadPdf')
 +    @UseInterceptors(FileInterceptor('file'))
 +    async uploadPdf(@UploadedFile() file) {
@@ -225,8 +305,18 @@ export class UploadController {
 
 이제 Postman을 사용하여 2024년 첫 번째 분기 NVIDIA 재무 보고서를 업로드 PDF 파일로 제출해주세요. 페이지 수는 183페이지이고 파일 크기는 34.8MB입니다. 업로드 프로세스 중 PDF 슬라이싱 과정을 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](https://miro.medium.com/v2/resize:fit:1400/1*I0SxO90cmJAwt4rxlvYcHA.gif)
 
@@ -247,7 +337,7 @@ import {
 ...
 export class UploadController {
     ...
-    
+
     @Get()
     async getPdf() {
         const baseUrl = 'http://localhost:3000/uploads/';
@@ -262,8 +352,18 @@ export class UploadController {
 }
 ```
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 PostmanGet 요청: localhost:3000/upload
 
@@ -272,12 +372,12 @@ PostmanGet 요청: localhost:3000/upload
 ```js
 {
    "pdf": "http://localhost:3000/uploads/1718437748872.pdf",
-   "images": [ 
+   "images": [
         "http://localhost:3000/uploads/images/output_page_0.png",
         "http://localhost:3000/uploads/images/output_page_1.png",
         "http://localhost:3000/uploads/images/output_page_2.png",
         .....
-   ] 
+   ]
 }
 ```
 
@@ -285,7 +385,18 @@ PostmanGet 요청: localhost:3000/upload
 
 주로 나중을 위해, 프런트엔드 프로젝트 서비스는 포트 8080이며, 해당 서비스 포트 3000에 대해 크로스도메인 문제가 있습니다. 여기서 main.ts를 업로드 인터페이스에 대한 크로스도메인 액세스를 허용하도록 설정해야 합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // src/main.ts
@@ -312,8 +423,18 @@ app.use('/uploads', express.static(join(process.cwd(), 'uploads'));
 
 본 문서에서는 H5 모바일 터미널에서 PDF 로드 속도를 최적화하는 해결책을 주로 다루므로, H5 터미널에서는 오픈 소스 프레임워크인 pdfh5를 사용하여 PDF 파일을 표시합니다. 이 문서에서는 HTML을 사용하여 pdfh5를 실행합니다. React, Vue에서 실행해야 하는 경우 저자의 해당 프레임워크 예제를 참조할 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 1. 프론트엔드 프로젝트 웹 만들기 및 로컬 서비스 시작하기
 
@@ -340,7 +461,18 @@ app.use('/uploads', express.static(join(process.cwd(), 'uploads'));
 
 프론트엔드는 순수한 Html 페이지이므로 로컬로 서비스를 시작해야합니다. 여기서 http-server을 사용하여 먼저 전역으로 설치해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
  npm i http-server -g
@@ -355,8 +487,18 @@ app.use('/uploads', express.static(join(process.cwd(), 'uploads'));
 
 브라우저에서 localhost:8080으로 접속하면 화면이 보일 거에요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-23-PDFSliceLoadingFullStackSolution_0.png)
 
@@ -368,7 +510,18 @@ pdfh5 프로젝트 다운로드
 git clone https://github.com/gjTool/pdfh5.git
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프론트엔드 웹 프로젝트에 CSS와 JS 파일을 복사하고, index.html 코드를 수정하여 이전에 작성한 서버 인터페이스인 localhost:3000/upload 를 요청하도록 변경해보세요.
 
@@ -413,10 +566,10 @@ git clone https://github.com/gjTool/pdfh5.git
             pdfh5 = new Pdfh5("#demo", {
               pdfurl: pdfUrl,
               pageNum: false,
-              URIenable: false, 
+              URIenable: false,
               lazy: false,
             });
- 
+
             // PDF 렌더링의 성공 이벤트 처리
             pdfh5.on("success", function (time) {
               time = time / 1000;
@@ -437,7 +590,18 @@ git clone https://github.com/gjTool/pdfh5.git
 
 브라우저가 H5 모드로 전환되었음을 확인하고, http://127.0.0.1:8080/ 로 이동하여 서버 인터페이스에 요청을 보내고, 반환된 PDF 주소가 성공적으로 로드되었습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-23-PDFSliceLoadingFullStackSolution_1.png)
 
@@ -447,7 +611,18 @@ PDF 표시에는 레이어를 다운로드한 후 렌더링이 필요하기 때�
 
 slice 맵 컨테이너를 추가하고 .image-list를 만들어 서비스 인터페이스 이미지의 배열에서 가져온이미지 노드 src를 생성하십시오. 먼저 첫 번째 맵을로드한 다음 로드가 성공하면 순서대로 조각 맵을로드하십니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // index.html
@@ -513,14 +688,25 @@ slice 맵 컨테이너를 추가하고 .image-list를 만들어 서비스 인터
 ```js
 // index.html
 
-  pdfh5.on("success", function (time) {
-+       imageList.remove();
-              time = time / 1000;
-              console.log("렌더링 완료: " + time + "초");
-  });
+pdfh5.on("success", function (time) {
+  +imageList.remove();
+  time = time / 1000;
+  console.log("렌더링 완료: " + time + "초");
+});
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 효과:
 
@@ -532,15 +718,26 @@ slice 맵 컨테이너를 추가하고 .image-list를 만들어 서비스 인터
 // index.html
 
 pdfh5.on("success", function (time) {
-    const scrollTop = $(window).scrollTop();
-    imageList.remove();
-    document.querySelector(".viewerContainer").scrollTo(0, scrollTop);
-    time = time / 1000;
-    console.log("pdf 렌더링 완료, 총 걸린 시간: " + time + "초");
+  const scrollTop = $(window).scrollTop();
+  imageList.remove();
+  document.querySelector(".viewerContainer").scrollTo(0, scrollTop);
+  time = time / 1000;
+  console.log("pdf 렌더링 완료, 총 걸린 시간: " + time + "초");
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막 효과:
 
@@ -550,7 +747,18 @@ pdfh5.on("success", function (time) {
 
 # 요약
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 PDF 슬라이스 솔루션에 대한 많은 기사가 있지만, 그 중에서도 다양한 관점에서 자세히 설명하는 것은 많지 않아서 이 기사를 쓰게 되었습니다. 이 기사는 프론트엔드와 백엔드 솔루션 및 공동 디버깅 단계를 주로 설명합니다. 현재 솔루션의 많은 세부 사항이 더 최적화될 수 있습니다. 예를 들어: 슬라이스의 압축, PDF의 총 폭과 높이에 대한 사전 페이지 높이 획득, 이미지의 가상 목록, 애플리케이션의 네이티브 측에서의 로컬 로드, pdfh5 종속성 패키지... 등이 있습니다. 나중에 최적화 솔루션 기사가 공개될 예정이니 기대해 주세요!
 

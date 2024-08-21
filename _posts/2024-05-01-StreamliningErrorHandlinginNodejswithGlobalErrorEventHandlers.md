@@ -3,16 +3,13 @@ title: "Node.js에서 글로벌 에러 이벤트 핸들러를 활용해 오류 �
 description: ""
 coverImage: "/assets/img/2024-05-01-StreamliningErrorHandlinginNodejswithGlobalErrorEventHandlers_0.png"
 date: 2024-05-02 00:00
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-01-StreamliningErrorHandlinginNodejswithGlobalErrorEventHandlers_0.png
 tag: Tech
 originalTitle: "Streamlining Error Handling in Node.js with Global Error Event Handlers"
 link: "https://medium.com/@rameshkannanyt0078/streamlining-error-handling-in-node-js-with-global-error-event-handlers-4080ab33936b"
 isUpdated: true
 ---
-
-
-
 
 Node.js 개발 세계에서는 오류를 세련되게 처리하는 것이 탄력적이고 유지보수가 간편한 애플리케이션을 구축하는 데 중요합니다. Node.js에서 오류를 관리하는 효과적인 방법 중 하나는 전역 오류 이벤트 핸들러를 사용하는 것입니다. 이 블로그 포스트에서는 Node.js 애플리케이션에서 전역 오류 처리를 구현하는 방법을 살펴보겠습니다. 이를 통해 전체 코드 베이스에서 일관된 오류 관리를 보장할 수 있습니다.
 
@@ -22,7 +19,18 @@ Node.js는 처리되지 않은 프라미스 rejections, 처리되지 않은 예�
 
 전역 오류 이벤트 핸들러 구현하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Node.js에서 전역 오류 이벤트 핸들러를 만들려면 process 객체를 사용하여 다음과 같은 오류 이벤트를 수신할 수 있습니다:
 
@@ -33,21 +41,32 @@ Node.js에서 전역 오류 이벤트 핸들러를 만들려면 process 객체�
 다음은 이러한 이벤트를 수신하고 오류를 기록하는 전역 오류 이벤트 핸들러의 간단한 예시입니다:
 
 ```js
-process.on('uncaughtException', (error) => {
-  console.error('Uncaught Exception:', error);
+process.on("uncaughtException", (error) => {
+  console.error("Uncaught Exception:", error);
   // 옵션: 추가적인 오류 처리 수행, 예를 들어 오류 보고서를 전송하거나 프로세스를 종료합니다.
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-process.on('unhandledRejection', (error) => {
-  console.error('Unhandled Rejection:', error);
+process.on("unhandledRejection", (error) => {
+  console.error("Unhandled Rejection:", error);
   // 선택 사항: 추가 에러 처리 수행, 예를 들어 에러 보고서 전송 또는 프로세스 종료.
 });
-process.on('warning', (warning) => {
-  console.warn('Warning:', warning);
+process.on("warning", (warning) => {
+  console.warn("Warning:", warning);
   // 선택 사항: 추가 에러 처리 수행, 예를 들어 경고 보고서 전송 또는 경고 로깅.
 });
 ```
@@ -60,7 +79,18 @@ process.on('warning', (warning) => {
 - Winston 또는 Bunyan과 같은 전용 로깅 라이브러리를 사용하여 에러 로깅.
 - 메모리 부족과 같은 심각한 에러의 경우 Node.js 프로세스를 안전하게 종료.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최상의 방법
 

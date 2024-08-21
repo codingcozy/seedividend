@@ -3,15 +3,13 @@ title: "인터랙티브 퀴즈 앱 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-HowtoCodeanInteractiveQuizApp_0.png"
 date: 2024-07-09 14:01
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-HowtoCodeanInteractiveQuizApp_0.png
 tag: Tech
 originalTitle: "How to Code an Interactive Quiz App"
 link: "https://medium.com/@learntocodetoday/how-to-code-an-interactive-quiz-app-413c07016f6c"
 isUpdated: true
 ---
-
-
 
 ![Quiz App](/assets/img/2024-07-09-HowtoCodeanInteractiveQuizApp_0.png)
 
@@ -21,7 +19,18 @@ Creating an interactive quiz app is a fun and educational project for web develo
 
 Before you start, ensure you have:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - HTML, CSS, JavaScript에 대한 기본 지식이 필요합니다.
 - 텍스트 편집기(예: VSCode, Sublime Text 또는 Atom)가 필요합니다.
@@ -33,7 +42,18 @@ Before you start, ensure you have:
 
 프로젝트 구조:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 quiz-app/
 ├── index.html
@@ -46,7 +66,18 @@ quiz-app/
 
 index.html:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <!DOCTYPE html>
 <html lang="en">

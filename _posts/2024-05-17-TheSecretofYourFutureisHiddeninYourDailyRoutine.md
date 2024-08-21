@@ -3,16 +3,13 @@ title: "당신의 미래 비밀은 당신의 일상 속에 숨어 있어요"
 description: ""
 coverImage: "/assets/img/2024-05-17-TheSecretofYourFutureisHiddeninYourDailyRoutine_0.png"
 date: 2024-05-17 03:35
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-17-TheSecretofYourFutureisHiddeninYourDailyRoutine_0.png
 tag: Tech
 originalTitle: "The Secret of Your Future is Hidden in Your Daily Routine"
 link: "https://medium.com/@kushwaharudraksha/the-secret-of-your-future-is-hidden-in-your-daily-routine-cd9be8504b45"
 isUpdated: true
 ---
-
-
-
 
 우리의 일상 루틴은 특히 프로그래밍 분야에서 미래에 거대한 영향을 미칩니다. 당신이 경험이 풍부한 코더이건 막 시작한 사람이건, 오늘 형성하는 습관이 내일의 성공을 결정짓습니다. 프로그래머들의 잠재력을 발휘할 수 있는 주목할 가치가 있는 일상 루틴에 대해 알아봅시다.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 1. 집중 유지: 꾸준한 습관은 방해요소를 최소화하여 작업에 더 집중할 수 있도록 도와줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 기술 향상: 매일 연습하는 것은 학습을 강화시켜 시간이 흐를수록 복잡한 개념과 기술을 더 쉽게 이해할 수 있게 합니다.
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 # 이상적인 일상 루틴 만들기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1. 하루를 시작하는 아침의 루틴
 
@@ -46,7 +65,18 @@ isUpdated: true
 - 시간 블록 활용: Pomodoro 기법(25분 집중, 5분 휴식)과 같은 포커스된 시간 블록으로 작업을 나누세요. 이는 생산성을 향상시키고 과로를 예방합니다.
 - 다중 작업 제한: 품질과 효율성을 위해 한 번에 한 가지 작업에 중점을 두세요. 다중 작업은 오류와 생산성 감소로 이어질 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 3. 정기적인 휴식과 신체 활동
 
@@ -59,7 +89,18 @@ isUpdated: true
 - 배우고 실험: 개인 프로젝트에 시간을 투자하거나 새로운 기술을 배워 계속해서 참여하고 향상시키세요.
 - 휴식: 독서, TV 시청 또는 가족과 함께 시간을 보내는 등 활동을 통해 완전히 휴식을 취하고 업무와의 연결을 끊으세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 개발자를 위한 현명한 팁
 
@@ -72,7 +113,18 @@ isUpdated: true
 
 꾸준한 일상적인 루틴을 만들면 미래의 성공에 대한 씨앗을 심는 것과 같습니다. 기억하세요, 위대함은 일상적인 행동에서 비롯되는 것이며 일회성 노력뿐만 아니라 일상적인 행동에서 나옵니다. 오늘부터 시작하여 일상적인 루틴이 위대함으로 이끌어주길 바랍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신과 연결하고 싶어요 🙃🙃 !!!!!
 

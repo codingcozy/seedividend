@@ -3,16 +3,13 @@ title: "스프링 부트 예외 로깅 베스트 프랙티스 실시간 예제"
 description: ""
 coverImage: "/assets/img/2024-07-06-BestPracticesforExceptionLogginginSpringBootReal-TimeExamples_0.png"
 date: 2024-07-06 02:35
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-06-BestPracticesforExceptionLogginginSpringBootReal-TimeExamples_0.png
 tag: Tech
 originalTitle: "Best Practices for Exception Logging in Spring Boot: Real-Time Examples"
 link: "https://medium.com/@psdevraye/best-practices-for-exception-logging-in-spring-boot-real-time-examples-5139607103aa"
 isUpdated: true
 ---
-
-
-
 
 /assets/img/2024-07-06-BestPracticesforExceptionLogginginSpringBootReal-TimeExamples_0.png
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 예외를 로깅할 때 오류 상황을 이해하기 위해 충분한 컨텍스트를 포착하는 것이 중요합니다. 이는 예외 메시지, 스택 추적 및 관련 애플리케이션 상태 또는 매개변수를 포함합니다. Spring Boot는 예외를 효과적으로 기록하는 다양한 방법을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시: @ControllerAdvice를 사용한 전역 예외 처리
 
@@ -60,7 +68,18 @@ public class GlobalExceptionHandler {
 
 위 예제에서:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 모든 내용을 제공하기 위해 예외 메시지, 스택 트레이스 및 요청 세부 정보를 로깅합니다.
 - 다양한 예외 유형을 구체적으로 처리하여 정확한 로깅 및 적절한 응답을 보장합니다.
@@ -71,7 +90,18 @@ public class GlobalExceptionHandler {
 
 예: Logback를 사용한 로그 레벨 구성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **스프링 부트**는 기본 로깅 프레임워크로 **Logback**을 사용합니다. **application.yml** 또는 **application.properties**에서 로그 수준을 구성할 수 있습니다.
 
@@ -89,7 +119,18 @@ logging:
 - 애플리케이션 패키지와 같은 특정 패키지는 다른 로그 수준을 가질 수 있습니다 (이 경우 **DEBUG**).
 - **Spring** 프레임워크 로그는 **ERROR** 수준으로 설정되어 소음을 줄입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로그 수준에 따른 예제
 
@@ -127,7 +168,18 @@ public class ExampleController {
 
 로깅 구성을 중앙화하면 일관성을 유지하고 관리를 단순화할 수 있습니다. Spring Boot의 application.yml 또는 application.properties를 사용하여 로깅 구성을 관리할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예: 중앙 집중식 Logback 구성
 
@@ -158,7 +210,18 @@ src/main/resources 디렉토리에 logback-spring.xml을 만듭니다.
 
 이 구성에서:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 로그는 매일 롤링되면서 app.log에 작성됩니다.
 - 루트 로거는 INFO로 설정됩니다.
@@ -170,7 +233,18 @@ Java에서 예외 로깅에 관련된 경우, 응용 프로그램의 유지 관�
 
 다음은 따르면 좋은 세 가지 중요한 규칙입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 1. 충분한 문맥 정보 기록하기
 
@@ -182,7 +256,18 @@ Java에서 예외 로깅에 관련된 경우, 응용 프로그램의 유지 관�
 
 다음은 java.util.logging 패키지를 사용하여 충분한 문맥 정보와 함께 예외를 기록하는 예시입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 import java.util.logging.*;
@@ -215,7 +300,18 @@ public class ExceptionLoggingExample {
 
 # 2. 적절한 로그 레벨 사용하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어플리케이션에 미치는 심각성과 영향에 따라 적절한 로그 레벨을 선택하세요:
 
@@ -227,7 +323,18 @@ public class ExceptionLoggingExample {
 
 # 3. 로깅 설정 통합 및 표준화
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로깅 구성을 중앙화하고 표준화하는 것은 관리를 간편하게 만들어주고 응용 프로그램 전체에서 일관성을 보장합니다. 다음과 같은 모범 사례를 고려해보세요:
 
@@ -263,9 +370,21 @@ public class Log4jExample {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 예시에서는:
+
 - 우리는 로깅을 위해 Log4j를 사용합니다.
 - 오류 수준(logger.error)으로 NullPointerException을 로깅하며, 예외 메시지와 예외 자체를 제공합니다.
 
@@ -273,7 +392,18 @@ public class Log4jExample {
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Spring Boot에서 효과적인 예외 로깅은 충분한 컨텍스트 정보를 캡처하고 적합한 로그 레벨을 사용하며 로깅 구성을 중앙 집중화하는 것을 포함합니다. 이러한 관행을 준수하면 애플리케이션 로그가 모니터링, 문제 해결 및 유지 관리에 유용하게 활용됩니다. 이러한 최상의 방법을 따르면 Spring Boot 애플리케이션의 관측 가능성과 신뢰성을 크게 향상시킬 수 있습니다.
 

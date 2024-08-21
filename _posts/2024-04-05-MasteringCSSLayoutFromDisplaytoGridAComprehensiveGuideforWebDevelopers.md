@@ -3,17 +3,13 @@ title: "CSS 레이아웃 마스터하기 display부터 grid까지 "
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Mastering CSS Layout From Display to Grid  A Comprehensive Guide for Web Developers"
 link: "https://medium.com/@jinlow/mastering-css-layout-from-display-to-grid-a-comprehensive-guide-for-web-developers-a1a5075f8ab8"
 isUpdated: true
 ---
-
-
-
-
 
 ## 최신 및 반응형 웹사이트를 구축하기 위한 CSS Display, Float, Positioning, Flexbox 및 Grid 기본기 배우기
 
@@ -24,7 +20,18 @@ isUpdated: true
 - 1994년 — Håkon Wium Lie가 문서 내용과 프레젠테이션을 분리하기 위해 CSS를 제안했습니다.
 - 1996년 — CSS 1이 소개되어 기본 스타일링 기능을 제공했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 글꼴 속성 — 웹 페이지의 텍스트 요소에 대한 글꼴 스타일, 크기, 두께 및 패밀리.
 - 색상과 배경 속성 — 텍스트, 배경 및 테두리의 색상 설정.
@@ -45,7 +52,18 @@ isUpdated: true
 
 4. 2011— 고급 웹 스타일링 기능을 제공.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 미디어 쿼리 - 스크린 크기, 해상도, 방향 등의 기기 특성에 따라 다양한 스타일을 적용합니다.
 - 플렉스박스 - 컨테이너 내 요소들을 쉽게 정렬하고 공간을 배분할 수 있어 다양한 화면 크기와 콘텐츠 차원을 수용합니다.
@@ -67,7 +85,18 @@ isUpdated: true
 
 6. 2019 - 스크롤 인터페이스 기능을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 스냅 지점 - 스크롤 가능한 컨테이너 내에서 특정 스냅 지점을 정의합니다.
 - 다양한 스크롤 방향 지원 - 수평 및 수직 스크롤 방향을 모두 지원하며, 프로젝트의 레이아웃 요구에 따라 어떤 방향으로든 스냅 지점을 구현할 수 있도록 합니다.
@@ -80,7 +109,18 @@ isUpdated: true
 
 - 디스플레이 개념
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS display 속성은 CSS1(1996년 12월)에서 소개되었으며 HTML 요소의 시각적 표현을 제어하여 레이아웃과 가시성에 영향을 줍니다. 이 속성에는 block, inline, inline-block, none과 같은 값이 포함되어 있으며 각 값은 레이아웃에 다르게 영향을 미칩니다.
 
@@ -120,7 +160,18 @@ CSS display 속성은 CSS1(1996년 12월)에서 소개되었으며 HTML 요소�
 
 2. float의 개념
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 플로트는 이미지를 플로팅하여 텍스트가 그 주위로 둘러싸이도록 하는 인쇄 디자인에서 시작되었습니다. 이는 전통적인 매거진 레이아웃을 모방하는 것입니다. 2001년경 CSS 명세에 추가된 플로트 속성은 웹 디자이너들이 요소를 왼쪽이나 오른쪽으로 위치시킬 수 있게 하여 인쇄물에서의 이미지 플로팅 동작을 모방하도록 했습니다. 이는 초기에 웹 레이아웃이 매거진 스프레드를 모방할 수 있도록 했지만, Flexbox나 CSS Grid와 같은 새로운 기술이 등장함에 따라 덜 선호되게 되었습니다. 그럼에도 불구하고, 보다 간단한 레이아웃이나 오래된 브라우저와의 하위 호환성을 위해 여전히 중요합니다.
 
@@ -147,7 +198,18 @@ CSS 레이아웃에서 요소가 플로트되면 일반 문서 흐름에서 벗�
 
 3. 포지셔닝 컨셉
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1996년에 CSS1이 데뷔했습니다. 이것은 static 및 relative와 같은 기본 위치 지정 속성을 소개했습니다. 그리고 1998년에 CSS2가 출시되었는데, 이것은 absolute 및 fixed 위치 지정을 통해 기능을 확장했습니다. CSS2.1은 2009년에 W3C 권고안으로 승인되어 위치 지정 모델을 확립했습니다. 그리고 2011년에 CSS3가 나와 sticky 값을 소개했는데, 이를 통해 요소들이 사용자가 스크롤할 때 컨테이너 내에서 고정될 수 있습니다.
 
@@ -197,7 +259,18 @@ CSS 레이아웃에서 요소가 플로트되면 일반 문서 흐름에서 벗�
 
 4. Flexbox 개념
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2008년 이전에 최초로 논의된 Flexbox은 2009년 7월 23일에 처음으로 작업 초안이 나왔습니다. 2014년에 명세가 변경되었는데, 이는 개발자들의 채택이 증가함에 따른 것입니다. Flexbox에 대한 포괄적인 안내서가 2013년 4월에 발표되어 이 기술의 기능과 응용 분야를 강조했습니다.
 
@@ -208,7 +281,18 @@ Flexbox (Flexible Box Layout)은 반응형 웹 디자인을 위한 CSS 모델로
 - .flex-container — display: flex를 사용하여 flex 컨테이너를 정의하며, 항목을 가로로 배열하고(flex-direction: row), 여러 줄로의 줄 바꿈을 방지합니다(flex-wrap: nowrap). 항목들을 주 축의 시작 부분에 정렬하며(justify-content: flex-start), 교차 축을 채우기 위해 그들을 늘립니다(align-items: stretch).
 - .flex-item— 컨테이너 내의 flex 항목을 나타냅니다. flex 속성은 flex-basis, grow, shrink 인자를 지정하여 항목이 사용 가능한 공간에 따라 크기를 조정할 수 있도록 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /* Flex 컨테이너 정의 */
@@ -234,7 +318,18 @@ Flexbox (Flexible Box Layout)은 반응형 웹 디자인을 위한 CSS 모델로
 - .grid-container 클래스 — grid-template-columns 및 grid-template-rows와 같은 속성을 사용하여 그리드의 구조를 정의하고 행과 열의 크기 및 개수를 결정합니다. 이를 통해 레이아웃의 차원과 배열에 대한 개발자의 제어를 부여하며, grid-gap 속성은 그리드 항목 간 일관된 간격을 제공하여 시각적 일관성과 정렬을 향상시킵니다.
 - .grid-item 클래스 — grid-column 및 grid-row와 같은 속성을 이용하여 각 항목이 차지하는 열과 행을 지정합니다. 이 수준의 제어는 반응형 및 시각적으로 매력적인 디자인을 만들 수 있도록 하며, 그리드 레이아웃 내에서 항목 배치와 정렬을 세세하게 조정할 수 있게 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 /* 그리드 컨테이너 정의 */
@@ -268,7 +363,18 @@ Flexbox (Flexible Box Layout)은 반응형 웹 디자인을 위한 CSS 모델로
 
 대신, 플렉스박스와 그리드 레이아웃과 같은 현대적 기술에 우선순위를 두는 것이 현재의 CSS 개발 트렌드와 일치합니다. 그러므로 CSS 레이아웃 진화에 발을 맞추기 위해 이러한 고급 기술에 대한 학습 노력에 집중할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 참고 자료
 
@@ -278,7 +384,18 @@ Patreon
 
 Ko-fi.com
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 buymeacoffee
 

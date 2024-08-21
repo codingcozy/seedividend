@@ -3,16 +3,13 @@ title: "Spring Boot에서 HTTP 요청으로 비동기 작업 호출하는 방법
 description: ""
 coverImage: "/assets/img/2024-07-06-InvokingAsynchronousTaskfromHTTPRequestinSpringBoot_0.png"
 date: 2024-07-06 10:37
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-06-InvokingAsynchronousTaskfromHTTPRequestinSpringBoot_0.png
 tag: Tech
 originalTitle: "Invoking Asynchronous Task from HTTP Request in Spring Boot"
 link: "https://medium.com/@dennisholee/invoking-asynchronous-task-from-http-request-in-spring-boot-fccf61be41f6"
 isUpdated: true
 ---
-
-
-
 
 HTTP 요청 내에서 오랜 시간이 걸리는 작업을 호출해야 하는 상황에서 비동기 스레드를 생성하면 전체 요청-응답 시간을 줄일 수 있습니다. 보통 스레드 풀을 사용하여 비동기 프로세스를 수행하지만, 작업 대기열이 메모리 상에만 존재하기 때문에 복원력이 부족합니다. 아래 솔루션은 대기열 유형과 실행자 구현을 추상화하는 인터페이스를 도입하여 영구 저장 및 다중 인스턴스 작업자 솔루션을 가능하게 합니다.
 
@@ -22,7 +19,18 @@ HTTP 요청 내에서 오랜 시간이 걸리는 작업을 호출해야 하는 �
 
 다음은 의존성입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <의존성>
@@ -62,7 +70,18 @@ public interface Command<R> {
 
 CommandQueue는 명령 (또는 스레드 풀이 실행할 작업)을 저장하기 위한 인터페이스를 제공합니다. 이 솔루션에서는 메모리 내 블로킹되지 않는 동시 큐를 사용합니다. 그러나 데이터 저장소를 사용하면 서비스의 전체 탄력성이 향상됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 public interface CommandQueue<C extends Command<?>> {
@@ -119,7 +138,18 @@ public class CommandQueueDecorator<C extends Command<?>> implements CommandQueue
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 PrintMessageCommand은 명령의 샘플 구현체입니다.
 
@@ -172,7 +202,18 @@ public class CommandExecutor<C extends Command<?>> {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대안으로 명령은 REST API를 통해 별도의 worker 인스턴스로 전송될 수 있습니다.
 
@@ -213,7 +254,18 @@ public class FooApplication {
 
 다음 두 클래스는 Command Pool 및 REST API에 대한 스프링 빈 구성입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 import java.util.Queue;
@@ -235,22 +287,22 @@ public class ApplicationConf {
  Queue<Command> queue() {
   return new ConcurrentLinkedQueue<Command>();
  }
- 
+
  @Bean
  CommandQueue commandQueue(@Autowired Queue<Command> queue) {
   return new CommandQueueDecorator(queue);
  }
- 
+
  @Bean
  FooApplication fooApplication(@Autowired CommandQueue commandQueue, @Autowired CommandExecutor commandPoolExecutor) {
   return new FooApplication(commandQueue, commandPoolExecutor);
  }
- 
+
  @Bean
  CommandExecutor commandPoolExecutor(@Autowired CommandQueue commandQueue) {
   return new CommandExecutor(commandQueue);
  }
- 
+
  @Bean(name="threadpool")
     public ThreadPoolTaskExecutor taskExecutor() {
         ThreadPoolTaskExecutor executor = new ThreadPoolTaskExecutor();
@@ -308,7 +360,7 @@ public class AdapterRestApiConf {
 @EnableAsync
 @Import({AdapterRestApiConf.class, ApplicationConf.class})
 public class Application {
- 
+
  public static void main(String[] args) {
   SpringApplication.run(Application.class, args);
  }
@@ -316,7 +368,18 @@ public class Application {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 PrintMessageCommand가 별도의 스레드에서 실행되었음을 강조한 샘플 로그 출력입니다.
 

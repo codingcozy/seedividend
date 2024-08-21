@@ -3,16 +3,13 @@ title: "Angular 프로젝트에서 React 컴포넌트 사용하는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-22-UseReactComponentInsideAngularProject_0.png"
 date: 2024-06-22 03:34
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-UseReactComponentInsideAngularProject_0.png
 tag: Tech
 originalTitle: "Use React Component Inside Angular Project"
 link: "https://medium.com/@wahidsaeed1/use-react-component-inside-angular-project-3c816213933c"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-06-22-UseReactComponentInsideAngularProject_0.png" />
 
@@ -22,7 +19,18 @@ React JS가 최고인지 Angular가 최고인지는 중요하지 않아요. 전�
 
 그래서 만약 우리가 Angular와 React JS를 동시에 단일 프로젝트에서 사용하여 이 논쟁을 마무리짓는다면 어떨까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이를 위해 첫 번째 단계는 다음 명령을 CMD에서 실행하여 Angular 프로젝트를 초기화하는 것입니다:
 
@@ -36,7 +44,18 @@ cd angular-react
 
 이후에 Angular 내에서 React를 지원하기 위한 모든 종속성들을 추가하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm install react, react-dom
@@ -56,7 +75,18 @@ npm install react, react-dom
 
 tsconfig.json 파일에서 compilerOptions 아래에 "jsx" 속성을 추가하고 값을 "react"로 설정하세요. 이렇게 하면 TypeScript 컴파일러가 JSX 또는 TSX 파일과 코드를 이해하고 지원할 수 있게 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Typescript 구성이 완료되면 Angular에서 실제 React 코드가 작성된 새 컴포넌트를 생성할 것입니다.
 
@@ -75,7 +105,18 @@ ng g c react-comp
     react-comp.component.ts -> react-comp.component.tsx
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 HTML 파일에 div를 추가하고 ID를 할당하세요. 이렇게 하면 React가 해당 루트 div를 찾도록 도와줍니다:
 
@@ -117,7 +158,18 @@ export class ReactCompComponent {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 코드는 Angular 컴포넌트이며, 컴포넌트 라이프사이클의 ngOnInit 이벤트에서 React 컴포넌트를 렌더링합니다.
 

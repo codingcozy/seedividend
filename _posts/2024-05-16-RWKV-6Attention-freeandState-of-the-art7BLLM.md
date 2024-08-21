@@ -3,16 +3,13 @@ title: "RWKV-6 주목할 필요 없이 최신 기술을 활용한 7B LLM"
 description: ""
 coverImage: "/assets/img/2024-05-16-RWKV-6Attention-freeandState-of-the-art7BLLM_0.png"
 date: 2024-05-16 17:38
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-16-RWKV-6Attention-freeandState-of-the-art7BLLM_0.png
 tag: Tech
 originalTitle: "RWKV-6: Attention-free and State-of-the-art 7B LLM"
 link: "https://medium.com/@bnjmn_marie/rwkv-6-attention-free-and-state-of-the-art-7b-llm-320720df3c8c"
 isUpdated: true
 ---
-
-
-
 
 RWKV 신경 구조는 주의를 사용하지 않습니다. 이는 시퀀스 길이에 대해 제곱으로 증가하는 어텐션 계산 비용을 갖는 트랜스포머 아키텍처보다 추론에서 훨씬 더 효율적입니다. 이 글에서 RWKV를 설명하고 사용하는 방법을 보여드렸어요:
 
@@ -22,7 +19,18 @@ RWKV를 개발한 팀은 주기적으로 아키텍처를 개선하고 새로운 
 
 이 모델은 100개 이상의 언어를 지원하며 2.5T 토큰에 대해 사전 훈련되었습니다. 이 사이즈의 LLM 중 비영어권 언어에 대해 최고의 성능을 보여준다고 하네요. 저희 자체 평가에 따르면요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-05-16-RWKV-6Attention-freeandState-of-the-art7BLLM_0.png](/assets/img/2024-05-16-RWKV-6Attention-freeandState-of-the-art7BLLM_0.png)
 

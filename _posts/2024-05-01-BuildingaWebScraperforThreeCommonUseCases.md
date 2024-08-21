@@ -3,16 +3,13 @@ title: "실무에 적용하면 퇴근시간 단축하는 웹 스크래퍼 만들
 description: ""
 coverImage: "/assets/img/2024-05-01-BuildingaWebScraperforThreeCommonUseCases_0.png"
 date: 2024-05-01 23:48
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-01-BuildingaWebScraperforThreeCommonUseCases_0.png
 tag: Tech
 originalTitle: "Building a Web Scraper for Three Common Use Cases"
 link: "https://medium.com/gitconnected/building-a-web-scraper-for-three-common-use-cases-7a5ffc88284f"
 isUpdated: true
 ---
-
-
-
 
 ![이미지](/assets/img/2024-05-01-BuildingaWebScraperforThreeCommonUseCases_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 그 후, 웹 스크래퍼를 사용하여 웹사이트의 내용을 구조화된(예: 테이블 형식) 데이터로 자동 변환하는 과정을 자동화하는 것에 대한 사례를 탐구했습니다. 본 문서는 다음 세 가지 일반적인 사용 사례에 대한 웹 스크래퍼의 실제 단계별 가이드를 제공합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 여러 페이지에 걸쳐 검색 결과를 반환하는 웹사이트를 찾을 때 ("페이지별 검색")
 - 수동으로 아래로 스크롤하여 더 많은 검색 결과를 반환하는 웹사이트를 찾을 때 ("무한 스크롤")
@@ -34,7 +42,18 @@ isUpdated: true
 
 이 기사의 목적을 위해 사용된 웹 스크레이퍼는 주로 BeautifulSoup 및 Selenium 라이브러리를 사용하여 Python으로 개발되었습니다. 특히, BeautifulSoup 라이브러리는 웹사이트 뒤의 HTML 코드에서 데이터를 검색하고 쿼리하며 반환하는 기능을 제공하며, Selenium 라이브러리는 브라우저 자동화를 지원합니다(예: Google Chrome 또는 Firefox 브라우저에서 특정 작업 수행).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 사용 사례 1: 페이지별 검색을 위한 웹 스크래퍼
 
@@ -48,7 +67,18 @@ import pandas as pd # 데이터를 데이터프레임에 저장하기 위해
 
 그런 다음 Google Chrome을 사용하여 검색 '페이지 1'에서 관심 있는 데이터를 스크래핑하려고 시도한 다음, For-Loop를 사용하여 다른 모든 페이지에 대해이 스크래핑을 구축할 것입니다. 각각 화장품 제품의 브랜드, 설명 및 가격을 스크래핑하기 위해 웹 사이트의 HTML 코드를 파이썬 객체인 soup_sephora로 구문 분석하기 시작할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 ## Sephora 웹 사이트에서 "파운데이션"을 검색한 결과 페이지 1의 URL
@@ -72,12 +102,23 @@ soup_sephora = BeautifulSoup(driver.page_source, 'lxml')
 
 <img src="/assets/img/2024-05-01-BuildingaWebScraperforThreeCommonUseCases_2.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 코드는 파이썬 리스트에 페이지 1의 모든 제품의 가격을 반환합니다.
 
 ```js
-soup_sephora.findAll(class_ = "product-price")
+soup_sephora.findAll((class_ = "product-price"));
 ```
 
 위 내용을 고려하면, 검색 결과 페이지 1에 있는 모든 제품의 브랜드, 설명, 가격을 다음과 같이 판다스 데이터프레임에 저장할 수 있습니다.
@@ -102,7 +143,7 @@ for item in soup_sephora.findAll(class_ = "product-card-brand"):
 for item in soup_sephora.findAll(class_ = "product-card-product"):
     i = i + 1
     description.append(item.get_text(strip = True))
-            
+
 for item in soup_sephora.findAll(class_ = "product-price"):
     i = i + 1
     price.append(item.get_text(strip = True))
@@ -116,7 +157,18 @@ df_sephora = pd.DataFrame(
 df_sephora.head(10)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 판다 데이터프레임의 출력은 아래 이미지에서 확인할 수 있습니다.
 
@@ -126,7 +178,18 @@ df_sephora.head(10)
 
 이후 페이지를 스크랩하기 위해서는 단순히 위의 코드를 For-Loop로 감싸고 아래와 같이 url 객체를 소프트 코딩하면 됩니다 (데이터프레임으로 열을 결합하기 전에).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 ## For-Loop에 페이지 수를 지정하기
@@ -144,7 +207,18 @@ for j in range(1, 페이지 수):
 
 그러나 무한 스크롤은 더 스크롤하는 모션을 흉내 내는 웹 스크레이퍼로 자동화할 수도 있습니다. 이를 위해 스크레이퍼에게 먼저 전체 웹페이지 길이만큼 스크롤하도록 지시하고, 컨텐츠가 로드되기를 기다린 후 몇 초 동안 기다린 후 다시 전체 페이지 길이만큼 스크롤하여 무한 스크롤의 끝에 도달한 후 HTML 코드를 Python 객체로 파싱할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 사용 사례를 보여주기 위해, "가방" 검색과 관련된 Acne Studio 웹사이트에서 데이터를 스크래핑할 것입니다.
 
@@ -157,7 +231,18 @@ from urllib.parse import urljoin ## url을 위한 문자열 결합에 사용
 
 먼저 Google Chrome을 시작하고 Use Case 1에 기반해 URL을 설정하고 "스크롤, 몇 초 대기한 후 다시 스크롤" 이동 순서를 다음과 같이 지정합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 options = webdriver.ChromeOptions()
@@ -191,19 +276,19 @@ price = []
 url = []
 soup = BeautifulSoup(driver.page_source, "html.parser")
 for desc in soup.find_all(class_="product-tile__name"):
-    
+
     description.append(desc.get_text(strip=True))
-    
+
 for desc in soup.find_all(class_="product-tile__price font--monospace"):
-    
+
     price.append(desc.get_text(strip=True))
-    
+
 for item in soup.find_all(class_="tile__link"):
-    
+
     base = "https://www.acnestudios.com/"
     link = item.attrs["href"]
     url_join = urljoin(base, link)
-    
+
     url.append(url_join)
 ## pandas 데이터프레임으로 변환
 df_acne = pd.DataFrame(
@@ -217,7 +302,18 @@ df_acne
 
 데이터프레임 결과 샘플은 아래와 같습니다. Infinite Scroll이 없었다면 데이터프레임에는 아마 10개 정도의 기록만 포함되었을 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-05-01-BuildingaWebScraperforThreeCommonUseCases_4.png" />
 
@@ -229,7 +325,18 @@ df_acne
 - 다운로드한 이미지는 오프라인에서 다시 확인할 수 있음 (즉, 인터넷 없이)
 - 다운로드한 이미지는 더 포괄적인 방식으로 확인할 수 있음 (예: 특정 순서로 또는 명명 규칙에 따라)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 사용 사례를 보여 주기 위해, MangaPark 웹 사이트에서 Manga 시리즈 아래의 모든 이미지를 스크랩하겠습니다. 개인 컴퓨터에 전체 Manga가 저장되어 있으면, 온라인에서 각 장에 대한 "다음" 버튼을 클릭하고 여러 개의 온라인 광고를 만나는 대신 Manga 페이지를 편리하게 넘길 수 있습니다.
 
@@ -240,7 +347,7 @@ url = "https://v2.mangapark.net/manga/h2/i294558/c1"
 print(url)
 options = webdriver.ChromeOptions()
 options.add_argument('--headless')
-driver = webdriver.Chrome( 
+driver = webdriver.Chrome(
                           executable_path = r'C:\Users\Jin\Documents\Webscraping\Drivers\chromedriver.exe',
                           chrome_options = options
                          )
@@ -251,7 +358,7 @@ soup = BeautifulSoup(driver.page_source, 'html')
 ## 이미지는 시간순으로 H2 폴더에 저장됨
 ## Python 스크립트가 저장된 경로에 저장됨
 try:
-for i in range(50):    
+for i in range(50):
         urllib.request.urlretrieve(str(soup.find_all(class_ = "img")[i].attrs["src"]),
                                "H2/" + str(i) + ".jpg".format(i))
 except:
@@ -260,13 +367,24 @@ except:
 
 위의 작업을 완료하면, "다음" 페이지의 URL을 찾고 위의 스크래핑을 반복하는 문제로 전환됩니다. 이 작업은 다음과 같이 수행할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 url = "https://v2.mangapark.net/manga/h2/i294558/c1"
 chapter_number = 338
 for j in range(1, upper_limit + 1):
-      
+
     print(url)
     options = webdriver.ChromeOptions()
     options.add_argument('--headless')
@@ -277,7 +395,7 @@ for j in range(1, upper_limit + 1):
     driver.get(url)
     soup = BeautifulSoup(driver.page_source, 'html')
 try:
-for i in range(50):    
+for i in range(50):
             urllib.request.urlretrieve(str(soup.find_all(class_ = "img")[i].attrs["src"]),
                                    "H2/" + str(j) + "_" + str(i) + ".jpg".format(i))
 except: ## number of pictures may vary on a webpage
@@ -294,6 +412,17 @@ url = urljoin(base_url, next_page)
 
 이 기사에서는 실행 가능한 코드로 웹 스크래핑의 세 가지 사용 사례를 소개했습니다. 이러한 사용 사례들은 쉽게 확장하여 웹사이트의 HTML 코드가 가지고 있는 추가 속성을 포함시킬 수 있습니다. 독자들이 자세히 살펴보면 됩니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로, 행위 보험사/데이터 과학자 모자를 쓰고, 경쟁 업체 웹사이트의 변경 사항을 모니터링하거나 리뷰 웹사이트에서 고객의 긍정적/부정적 댓글을 스크래핑하는 등의 상업 기회를 탐색할 예정입니다. 계속 주목해주세요!

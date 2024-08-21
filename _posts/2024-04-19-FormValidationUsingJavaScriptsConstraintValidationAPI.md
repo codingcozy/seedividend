@@ -3,17 +3,13 @@ title: "JavaScript의 Constraint Validation API를 사용한 폼 유효성 검�
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Form Validation Using JavaScripts Constraint Validation API"
 link: "https://medium.com/stackanatomy/form-validation-using-javascripts-constraint-validation-api-fd4b70720288"
 isUpdated: true
 ---
-
-
-
-
 
 ## JavaScript의 내장 API를 사용하여 훌륭한 폼 유효성 검사 만드는 방법 배우기
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 항상 서버에서 들어오는 사용자 데이터를 확인하세요. 모든 요청이 브라우저에서 올 것이라는 보장은 없으며, 모든 브라우저가 유효성 검사 코드를 실행할 것도 아닙니다. 클라이언트 측 유효성 검사는 시스템을 사용하기 더 편리하게 만드는 기능일 뿐입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그렇다면, 간단한 양식 유효성 검사에 JavaScript가 필요하지 않을 수 있습니다...
 
@@ -54,7 +61,18 @@ isUpdated: true
 - url: URL 입력
 - week: 주 번호 및 연도 선택기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 브라우저는 지원되지 않는 형식 속성을 생략하거나 사용할 때 텍스트를 가정합니다. 이는 오래된 브라우저에서 사용자가 자동으로 유효성을 검증할 수 없는 경우에도 무언가를 입력할 수 있도록 허용해야 합니다.
 
@@ -88,24 +106,41 @@ isUpdated: true
 
 # 입력 인터페이스
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 필드 유형과 제약 속성은 브라우저의 UI 동작을 변경할 수 있어요. 숫자 입력란은 모바일 기기에서 숫자 키보드를 보여주며 스피너를 표시하거나 상하 커서를 눌러 값을 증가 및 감소할 수 있어요.
 
 가장 명백한 유형을 사용하지만 신용 카드와 같은 특수 경우에 주의해야 해요. 이들은 숫자이지만 스피너와 키보드 커서 키가 도움이 되지 않아요. 표준 텍스트 입력란을 사용하는 것이 좋아요:
 
 ```js
-<input
-  type="text"
-  name="ccnumber"
-  inputmode="numeric"
-  autocomplete="cc-number"
-/>
+<input type="text" name="ccnumber" inputmode="numeric" autocomplete="cc-number" />
 ```
 
 브라우저는 자동 완성 유형을 만날 때 카메라 스캔이나 SMS 확인과 같은 기능을 제공할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 내장 유효성 검사
 
@@ -117,7 +152,18 @@ isUpdated: true
 
 빈 값, 유효하지 않은 값 또는 범위를 벗어난 값으로 제출하려고 시도하면 양식 제출이 중지되고 일반 오류 메시지가 표시됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/FormValidationUsingJavaScriptsConstraintValidationAPI_1.png" />
 
@@ -128,7 +174,18 @@ isUpdated: true
 
 # CSS 유효성 검사 스타일
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 가상 클래스들을 사용하면 입력 요소를 상태에 따라 스타일링할 수 있어요:
 
@@ -158,7 +215,18 @@ input:invalid { color: red; }
 input:enabled { color: blue; }
 \
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 잘못된 입력은 빨간색 텍스트로 표시됩니다 — 하지만 이는 모든 비비활성화된 입력들이 파란색으로 재정의되기 때문에 무효화됩니다.
 
@@ -173,7 +241,18 @@ input:enabled { color: blue; }
 
 일반적으로 사용자가 필드와 상호 작용하거나 전체 양식을 제출하려고 시도한 후에 오류 메시지와 색상을 표시하는 것이 좋습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 제약 검증 API
 
@@ -185,7 +264,18 @@ input:enabled { color: blue; }
 
 다음 섹션에서는 제약 검증 API를 사용하여 귀하의 코드에서 일반적인 접근 방식을 설명합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1. 기본 폼 유효성 검사 비활성화하기
 
@@ -200,7 +290,18 @@ myform.noValidate = true;
 
 ## 2. 폼 이벤트 핸들러 추가하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그런 다음 필요에 따라 form 제출 또는 개별 필드 변경에 대한 이벤트 핸들러를 추가해야 합니다. 예를 들면,
 
@@ -214,7 +315,18 @@ myform.addEventListener("submit", validateForm);
 - checkValidity() - 모든 하위 컨트롤이 제약 조건 유효성을 준수하고 제약 조건을 충족하는 경우 true를 반환
 - reportValidity() - 하위 컨트롤이 제약 조건 유효성의 대상이 아니거나 제약 조건을 충족하는 경우 true를 반환합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 양식이 제출될 때 두 가지 방법 모두 모든 잘못된 필드에서 잘못된 이벤트를 트리거합니다. 이는 버블링되지 않으므로 필요한 모든 필드에 대해서 핸들러를 설정해야 합니다.
 
@@ -234,7 +346,18 @@ function validateForm(e) {
 
 ## 3. 개별 필드 유효성 검사
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 개별 필드는 다음 제약 유효성 속성과 메소드를 가지고 있어요:
 
@@ -278,7 +401,18 @@ function validateForm(e) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 HTML5 폼에서 필수 이메일 필드를 정의했다면:
 
@@ -301,7 +435,18 @@ function validateForm(e) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/FormValidationUsingJavaScriptsConstraintValidationAPI_2.png" />
 
@@ -311,7 +456,18 @@ function validateForm(e) {
 
 <img src="/assets/img/FormValidationUsingJavaScriptsConstraintValidationAPI_3.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래에 있는 validateForm() 함수는:
 
@@ -350,7 +506,18 @@ function validateForm(e) {
 
 # 오픈 소스 세션 재생
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 애플리케이션을 프로덕션 환경에서 디버깅하는 것은 도전적이고 시간이 많이 소요될 수 있습니다. OpenReplay은 FullStory, LogRocket 및 Hotjar의 오픈 소스 대안입니다. 사용자가 하는 모든 작업을 모니터링하고 재생할 수 있으며 앱이 각 문제에 대해 어떻게 작동하는지 보여줍니다. 마치 사용자의 어깨 너머를 espi로 보는 것처럼 브라우저의 inspector를 열어두는 것과 같습니다. 현재 OpenReplay는 유일한 오픈 소스 대안입니다.
 
@@ -360,7 +527,18 @@ function validateForm(e) {
 
 # Summary
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 양식 유효성 검사는 지루할 수 있지만 필수적인 웹 개발 활동입니다. 그러나 자체 이메일 정규 표현식 및 숫자 확인기를 작성해야하는 날은 이미 지나갔습니다. 표준 HTML 입력 유형을 사용한 다음 필요할 때 Constraint Validation API로 JavaScript 향상 기능을 적용하십시오.
 

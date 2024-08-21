@@ -3,17 +3,13 @@ title: "위도와 경도를 사용한 피처 엔지니어링"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Feature Engineering With Latitude and Longitude"
 link: "https://medium.com/towards-data-science/feature-engineering-with-latitude-and-longitude-2577b7ad7a45"
 isUpdated: true
 ---
-
-
-
-
 
 오늘날 가장 치열한 기술 시장 중 많은 곳에서 지도 상의 점들이 움직입니다: 라이드 쉐어링 서비스 (Uber, Lyft, Grab), 마이크로 모빌리티 서비스 (Lime, Bird), 음식 배달 서비스 (Delivery Hero, Postmates, Doordash) 등이 있습니다. 게다가, 고객의 위치를 제품 사용 사례의 중심에 두지 않는 많은 서비스도 고객의 위치를 알아야 합니다. 그렇게 하면 고객이 어디에 있으며 주변에서 무슨 일이 일어나고 있는지에 따라 더 나은 맞춤형 경험을 제공할 수 있습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이 기사의 목표는 미국 마이애미 주택가의 판매 가격 예측 문제에 대해 단지 위도와 경도만을 사용하는 몇 가지 특성 공학 기술을 소개하고 그들의 예측력을 비교하는 것입니다. 구조는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 마이애미 주택 판매 가격 예측 문제 설정
 - 특성 공학 실험
@@ -40,7 +47,18 @@ isUpdated: true
 
 그리고 이제 출발합시다! 🚀
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 마이애미 주택 판매 가격 예측: 문제 설정
 
@@ -64,7 +82,18 @@ df = (
 
 그러나 어떤 머신러닝 예측을 시작하기 전에, 목표 변수를 조사하는 것이 중요합니다. 결국, "가격"이나 "수입"과 같은 금전적 변수는 종종 로그 정규 분포를 가지거나 적어도 매우 우측으로 치우친 경향이 있습니다. 그러므로 목표 변수를 먼저 로그 공간으로 변환하는 것이 좋을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 일반적으로 가격에 로그를 취하는 것이 필요하며 1을 더하기 위한, log(0) 오류를 고려해야 합니다. 하지만 집이 $0에 판매되는 경우는 없겠죠 :P
@@ -77,7 +106,18 @@ df = df.with_columns(pl.col("price").log10().suffix("_log10"))
 
 이제 column을 추가해서 train과 test 데이터를 구분할 수 있으면 이 모든 것이 잘 될 것 같습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 TRAIN_TEST_SPLIT_FRACTION = 0.8
@@ -102,7 +142,18 @@ df = (
 
 ## 1. 위도와 경도 (Raw Latitude and Longitude)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 첫 번째 특성 엔지니어링 기법은... 맞죠 — 특성 엔지니어링이 없는 것! 위도와 경도는 그 자체로 꽤 강력한 특성일 수 있지만, 그 특성은 모델에 따라 매우 달라집니다. 특히 위도나 경도가 목표 변수와 선형 관계를 갖는 것을 기대하기 어렵습니다. 이들은 주로 "온도"나 "습도"와 같이 지구적인 성질을 가진 목표 변수일 때 예측이 가능하지만, 이러한 상황에서 경위도가 RidgeRegression과 같은 선형 모델과 적합하지 않을 수 있습니다. 그러나 이들은 XGBoost와 같은 의사 결정 트리 기반 모델에서 이미 강력한 성능을 발휘할 수 있습니다:
 
@@ -128,7 +179,18 @@ for model_name, model_class in zip(
 
 직관이 맞았어요: XGBoost가 RidgeRegression보다 낮은 root_mean_squared_error를 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2. 공간 밀도
 
@@ -138,7 +200,18 @@ for model_name, model_class in zip(
 
 주택 주변의 공간 밀도를 측정하기 위한 다양한 방법을 사용할 수 있습니다: 각 주택 매매 지점 주변의 다른 주택 매매 건수를 세는 방법; 각 주택 매매 위치에 대한 커널 밀도 추정치를 계산하고 샘플링하는 방법; 또는 인구 밀도에 대한 서드 파티 인구조사 데이터를 가져 오는 방법도 있습니다. 이 경우, 나는 scipy의 cKDtree를 사용하여 각 주택 주변의 주택 매매 건수를 공간 밀도로 측정합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 def add_density_feature_columns_to_dataframe(geo_df: pl.DataFrame) -> pl.DataFrame:
@@ -161,7 +234,18 @@ df_w_density = add_density_feature_columns_to_dataframe(df)
 
 ![Feature Engineering with Latitude and Longitude](/assets/img/FeatureEngineeringWithLatitudeandLongitude_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 공간 밀도는 RidgeRegression 및 XGBoost 모두의 원시 위도와 경도보다 우수한 성능을 보여줍니다. 신기하게도 이 기능에 대해 RidgeRegression이 XGBoost보다 약간 우수한 성능을 보입니다.
 
@@ -171,7 +255,18 @@ df_w_density = add_density_feature_columns_to_dataframe(df)
 
 하지만 이를 어떻게 할까요? 혹은 더 중요한 질문은 무엇이 동네인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이웃은 어떤 것이든 될 수 있어요 — 우편번호, 거리, 또는 우리의 경우 Geohash코드일 수 있어요. (최근 Geohash 및 다른 지리적 인덱싱 도구에 대해 기사를 작성했어요 — 이 도구들이 어떻게 작동하며, 어떻게 사용하는지, 그리고 Geohash를 두 가지 다른 인기있는 지리적 인덱싱 도구와 비교한 내용이에요. 자세한 내용은 확인해보세요!)
 
@@ -222,7 +317,18 @@ df_w_geohash_target_encoded = add_target_encoding_to_df(df_w_geohash)
 
 ![이미지](/assets/img/FeatureEngineeringWithLatitudeandLongitude_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 내 아이디어에 대해 모델이 무엇을 생각하는지 알아보자:
 
@@ -250,7 +356,18 @@ for model_name, model_class in zip(
 
 지오해시 타겟 인코딩은 공간 밀도보다 약간 더 성능이 우수하다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 4. 모든 것을 합치기
 
@@ -287,7 +404,18 @@ for model_name, model_class in zip(
 
 ![이미지](/assets/img/FeatureEngineeringWithLatitudeandLongitude_6.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 우승자는... 모든 피처의 조합으로 학습된 XGBoost입니다!
 
@@ -299,7 +427,18 @@ for model_name, model_class in zip(
 - 타겟 인코딩: 여기에 제시된 것은 매우 기본적인 타겟 인코딩 접근 방식이지만, Bayesian Target Encoding과 같이 모델 일반화를 개선하는 다른 방법을 채택할 수 있을까요? 또한, 평균 이외의 중간값, 최대값 또는 최소값과 같은 다른 집계 함수를 타겟 인코딩에 사용할 수 있을까요? 또한, 공간 밀도의 다른 대리자로서 카운트도 흥미로운 선택일 것입니다.
 - 모델 앙상블: 왜 XGBoost와 RidgeRegression만 사용해야 하며, 두 모델의 조합은 어떨까요? 아니면, 각각의 다른 지오해시에 대해 다른 모델을 학습할 충분한 데이터가 있는지도 확인해볼 가치가 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 물론, 전체 기계 학습 접근 방식은 k-fold 교차 검증을 포함하거나 대상 변수의 두터운 꼬리 특성을 보다 풍부하게 반영하는 모델이나 비용 함수를 포함하여 개선될 수 있습니다.
 
@@ -307,7 +446,18 @@ for model_name, model_class in zip(
 
 마지막으로, 두 가지 다른 모델인 RidgeRegression과 XGBoost가 서로 다른 특성 엔지니어링 기술에 어떻게 반응하는지 본 것이 흥미로웠습니다. XGBoost는 원시 위도-경도, Geohash 타겟 인코딩 및 모든 특성의 결합에 대해 RidgeRegression보다 우수한 성능을 보였으나, 공간 밀도에 대해서는 RidgeRegression이 더 우수했습니다. 이를 염두에 두고, ML 실험은 구성 기반 접근 방식으로 항상 접근하는 것이 중요합니다. 예를 들어, 현재 모델과 함께 나빠지는 새로운 특성 엔지니어링 기술을 시도할 수 있지만, 몇 달 전에 포기했던 모델과 결합하면 현재까지 가장 성능이 우수한 구성이 될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기계 학습 문제를 다룰 때 위도와 경도가 포함된 데이터를 사용할 때 할 수 있는 몇 가지 아이디어를 소개했어요; 이를 통해 시작 지점을 제공해 드릴 수 있기를 바라요. 제 Github에서 코드를 확인해 보세요 (링크). 항상 읽어 주셔서 감사합니다 🙂 다음에 또 만나요!
 
@@ -317,4 +467,15 @@ for model_name, model_class in zip(
 
 # 연락처
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

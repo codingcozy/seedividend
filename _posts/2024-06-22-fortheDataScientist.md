@@ -3,16 +3,13 @@ title: "데이터 과학자를 위한 Claude 35 Sonnet Anthropic 활용 방법"
 description: ""
 coverImage: "/assets/img/2024-06-22-fortheDataScientist_0.png"
 date: 2024-06-22 14:30
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-fortheDataScientist_0.png
 tag: Tech
 originalTitle: "𝗖𝗹𝗮𝘂𝗱𝗲 𝟯.𝟱 𝗦𝗼𝗻𝗻𝗲𝘁 𝗯𝘆 𝗔𝗻𝘁𝗵𝗿𝗼𝗽𝗶𝗰 for the Data Scientist"
 link: "https://medium.com/@vinay1996/for-data-scientist-1dfe535f75d6"
 isUpdated: true
 ---
-
-
-
 
 ![이미지](/assets/img/2024-06-22-fortheDataScientist_0.png)
 
@@ -22,9 +19,21 @@ isUpdated: true
 
 클로드 3.5 소네트로 무엇을 만들어보고 싶으신가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 자연어 처리 프로세싱:
+
 Claude 3.5 Sonnet은 인간과 유사한 응답을 이해하고 생성하는 데 뛰어나며 다양한 응용 프로그램에 적합합니다.
 
 코드 어시스턴스:
@@ -36,7 +45,18 @@ AI는 긴 대화에서도 문맥을 유지하여 응답이 관련성 있고 일�
 성능 향상:
 보다 빠른 응답 시간과 향상된 정확성으로 이전 버전들을 크게 능가합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **사용자-친화적 정보:**
 직관적인 디자인 덕분에 AI 도구에 익숙하지 않은 사람들도 쉽게 상호작용할 수 있어요.

@@ -3,7 +3,7 @@ title: "HTTPS 성능 최적화를 위한 몇 가지 방법"
 description: ""
 coverImage: "/assets/img/2024-06-20-SomeMethodsforOptimizingHTTPSPerformance_0.png"
 date: 2024-06-20 04:25
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-SomeMethodsforOptimizingHTTPSPerformance_0.png
 tag: Tech
 originalTitle: "Some Methods for Optimizing HTTPS Performance"
@@ -11,16 +11,24 @@ link: "https://medium.com/codex/some-methods-for-optimizing-https-performance-4a
 isUpdated: true
 ---
 
-
-
-
 예상대로 HTTPS 연결이 느리다고 말하는 사람들을 들어본 적이 있을 것입니다. 이 "느림"의 이유는 무엇일까요?
 
 HTTPS 연결은 대략 두 부분으로 나눌 수 있습니다. 연결 설정 중에 대칭 암호화 핸드셰이크와 핸드셰이크 후의 대칭 암호화 메시지 전송입니다.
 
 인기 있는 알고리즘인 AES와 ChaCha20 같은 우수한 성능을 가지고 있고, 하드웨어 최적화로 메시지 전송의 성능 오버헤드는 무시할 정도로 미미할 수 있습니다. 따라서 사람들이 "느린 HTTPS 연결"에 대해 이야기할 때 주로 말하는 것은 초기 연결 설정 단계입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 TCP 연결이 설정되어 있는 상태에서 실제 데이터 전송이 이루어지기 전에 HTTPS는 최대 2개의 메시지 왕복 루트 또는 2-RTT가 소요될 수 있는 TLS 핸드셰이크 단계를 추가합니다. 핸드셰이크 메시지의 네트워크 시간 외에도 다음과 같은 "보이지 않는" 비용이 추가로 발생합니다:
 
@@ -32,7 +40,18 @@ TCP 연결이 설정되어 있는 상태에서 실제 데이터 전송이 이루
 
 그러나 위에서 설명한 상황은 이미 지나간 얘기입니다. 지금은 많은 효과적인 HTTPS 최적화 방법이 사용 가능하며, 적절히 사용하면 추가 연결 시간을 수십 밀리초로 줄이거나 완전히 "제로"로 만들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 TLS 핸드셰이크 과정 중 성능에 영향을 미치는 부분을 강조한 다이어그램을 만들었습니다. 이 다이어그램을 참고하여 HTTPS를 효과적으로 최적화할 수 있어요.
 
@@ -42,7 +61,18 @@ TLS 핸드셰이크 과정 중 성능에 영향을 미치는 부분을 강조한
 
 컴퓨터 세계에서 "최적화"는 "하드웨어 최적화"와 "소프트웨어 최적화" 두 가지 유형으로 나뉩니다. 먼저 하드웨어 방법을 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하드웨어 최적화는 본질적으로 "돈을 지출하는 것"입니다. 그러나 돈을 쓰는 것도 기술이 필요합니다. 돈을 낭비하는 대신에 가장 중요한 곳에 투자해야 합니다.
 
@@ -52,9 +82,20 @@ HTTPS 연결은 입출력보다는 계산 집약적입니다. 따라서 비싼 �
 
 먼저, AES 최적화가 내장된 더 빠른 CPU를 선택할 수 있습니다. 이는 핸드셰이크와 전송을 가속화할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-둘째, CPU로 부터 비대칭 암호화 및 복호화를 줄여주는 "SSL 가속기 카드"를 선택할 수도 있어요! 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+둘째, CPU로 부터 비대칭 암호화 및 복호화를 줄여주는 "SSL 가속기 카드"를 선택할 수도 있어요!
 
 하지만, "SSL 가속기 카드"는 소프트웨어 업그레이드가 느리고, 제한된 알고리즘을 지원하며 사용자 정의의 유연성이 부족한 등 몇 가지 단점이 있답니다.
 
@@ -62,7 +103,18 @@ HTTPS 연결은 입출력보다는 계산 집약적입니다. 따라서 비싼 �
 
 # 소프트웨어 최적화
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 CPU를 업그레이드하는 것 외에 다른 하드웨어 최적화 방법들은 돈을 쓰면 간단히 달성되지 않는 경우가 많습니다. 이것들은 어떤 개발과 적응 작업이 필요하며, 이는 매우 도전적일 수 있습니다. 예를 들어, "가속화 서버"의 중요한 측면 중 하나는 통신이 "비동기적"이어야 한다는 것이며, 그렇지 않으면 가속화는 무의미해질 수 있습니다.
 
@@ -72,7 +124,18 @@ HTTPS 연결은 입출력보다는 계산 집약적입니다. 따라서 비싼 �
 
 소프트웨어 업그레이드는 상대적으로 간단한데, 가능한 한 최신 버전의 소프트웨어로 업그레이드하는 것을 포함합니다. 예를 들어, Linux 커널을 2.x에서 4.x로, Nginx를 1.6에서 1.16로, OpenSSL을 1.0.1에서 1.1.0/1.1.1로 업그레이드하는 것 등이 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 소프트웨어 업데이트는 성능 최적화와 버그 수정을 포함하므로, 만약 작업이 적극적으로 협력할 수 있다면 이 최적화를 달성하는 것은 비교적 쉬운 일입니다.
 
@@ -82,7 +145,18 @@ HTTPS 연결은 입출력보다는 계산 집약적입니다. 따라서 비싼 �
 
 # 프로토콜 최적화
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 TLS 핸드셰이크 프로세스에서 키 교환은 성능에 큰 영향을 미치는 중요한 요소입니다. 프로토콜 최적화는 핵심 키 교환 프로세스부터 시작해야 합니다.
 
@@ -92,7 +166,18 @@ TLS 1.3로 업그레이드하는 것이 아직 불가능하고 TLS 1.2를 사용
 
 게다가, 타원 곡선의 경우 고성능 곡선을 선택해야 합니다. x25519를 선호하는 선택지로 하고 P-256을 대체 옵션으로 고려해야 합니다. 대칭 암호화 알고리즘으로는 "AES_256_GCM"보다 약간 성능이 빠른 "AES_128_GCM"을 선택할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 엔진엑스에서는 "ssl_ciphers" 및 "ssl_ecdh_curve"와 같은 지시문을 사용하여 서버의 암호 스위트 및 타원 곡선을 구성할 수 있습니다. 이를 통해 선호하는 옵션을 우선순위로 설정할 수 있습니다. 예를 들어:
 
@@ -105,7 +190,18 @@ ssl_ecdh_curve              X25519:P-256;
 
 키 교환에 추가로 핸드쉐이크 과정 중에 인증서 유효성 검사도 상대적으로 시간이 많이 소요되는 작업입니다. 서버는 클라이언트에게 자체 전체 인증서 체인을 보내야 하며, 그러면 클라이언트는 각 인증서를 확인해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기에는 인증서 전송과 인증서 유효성 검증이 두 가지 최적화 포인트가 있습니다.
 
@@ -115,7 +211,18 @@ ssl_ecdh_curve              X25519:P-256;
 
 CA에 의해 주기적으로 발급되는 CRL (인증서 폐기 목록)은 모든 폐기된 인증서의 일련 번호를 포함하고 있습니다. 이 목록을 확인하여 인증서가 유효한지 결정할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만, CRL은 "주기적"으로 발행되는 것으로 인해 보안 위험이 있으며, 폐기된 인증서의 수가 증가할수록 목록도 커져 종종 메가바이트에 이를 정도로 커집니다. 웹사이트에 연결할 때마다 몇 메가바이트의 "무의미한 데이터"를 사전에 다운로드해야 한다고 상상해보세요. 이것은 간단히 말해 실용적이지 않습니다.
 
@@ -125,7 +232,18 @@ CA에 의해 주기적으로 발급되는 CRL (인증서 폐기 목록)은 모�
 
 이 문제를 해결하기 위해 OCSP 스테이플링이라는 "패치"가 있습니다. 이 방법을 사용하면 서버가 CA로부터 사전에 OCSP 응답을 미리 가져와서 핸드셰이크 중에 인증서와 함께 보내어 클라이언트가 쿼리를 위해 CA 서버에 연결할 필요가 없도록 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # TLS 세션 재개
 
@@ -135,7 +253,18 @@ HTTPS 연결 설정 과정을 다시 살펴보겠습니다: 먼저 TCP 쓰이-�
 
 이 접근 방법은 "TLS 세션 재개" 라고 불리며, HTTP 캐시와 마찬가지로 HTTPS 성능을 향상시키는 "큰 무기"이며 브라우저와 서버에서 널리 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 세션 재개에는 두 가지 형태가 있습니다. 첫 번째는 "세션 ID"로, 클라이언트와 서버가 처음 연결 후 세션 ID를 저장하여 메모리에 Master Secret 키 및 다른 관련 정보를 저장합니다. 클라이언트가 다시 연결할 때 ID를 보내면 서버는 메모리에서 해당 ID를 찾아 세션 상태를 바로 복원하여 Master Secret 키를 사용하여 인증서 확인 및 키 교환을 건너뛰고 안전한 통신을 한 번의 메시지 교환으로 설정합니다."
 
@@ -145,7 +274,18 @@ HTTPS 연결 설정 과정을 다시 살펴보겠습니다: 먼저 TCP 쓰이-�
 
 # 세션 티켓
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 세션 ID는 가장 초기의 세션 재개 기술이었으며 가장 널리 사용되는 기술입니다. 그러나 이에는 단점이 있습니다. 서버는 각 클라이언트의 세션 데이터를 저장해야 하므로, 수백만 또는 수천만 사용자를 가진 웹사이트의 경우 서버의 부하가 증가하는 중요한 문제가 됩니다.
 
@@ -155,7 +295,18 @@ HTTPS 연결 설정 과정을 다시 살펴보겠습니다: 먼저 TCP 쓰이-�
 
 재연결할 때 클라이언트는 "세션 ID" 대신 "세션 티켓"을 사용하여 "session_ticket" 확장을 통해 "티켓"을 전송합니다. 서버는 티켓의 만료일을 해독하고 확인하여 세션을 재개하고 암호화 통신을 시작할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 "세션 티켓" 방식은 Ticket을 암호화하기 위해 고정 키 파일 (ticket_key)의 사용을 필요로 합니다. 키가 노출되는 것을 방지하고 전방 비밀 보장을 확보하기 위해 키 파일은 정기적으로 회전되어야 합니다. 예를 들어 매 시간 또는 매일마다 회전해야 합니다.
 
@@ -165,7 +316,18 @@ HTTPS 연결 설정 과정을 다시 살펴보겠습니다: 먼저 TCP 쓰이-�
 
 ![이미지](/assets/img/2024-06-20-SomeMethodsforOptimizingHTTPSPerformance_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 "PSK"는 완벽하지 않습니다. 보안을 약간 희생하여 효율성을 높였기 때문에 "재생 공격"에 취약해집니다. 해커들이 "PSK" 데이터를 가로채 서버로 반복적으로 보낼 수 있습니다. 이는 재생 장치를 사용하는 것과 유사합니다.
 
@@ -178,7 +340,17 @@ HTTPS 연결 설정 과정을 다시 살펴보겠습니다: 먼저 TCP 쓰이-�
 - 서버는 "OCSP Stapling"을 활성화하여 클라이언트가 CA에 인증서를 유효성 검사하기 위해 접근하지 않도록 해야 합니다.
 - 세션 재개는 캐싱과 유사합니다. 클라이언트가 이전에 연결을 성공적으로 설정했다고 가정하면 "세션 ID"나 "세션 티켓"과 같은 자격 증명을 사용하여 키 교환 및 인증서 유효성 검사 단계를 우회하고 암호화 통신을 직접 시작할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-06-20-SomeMethodsforOptimizingHTTPSPerformance_4.png](/assets/img/2024-06-20-SomeMethodsforOptimizingHTTPSPerformance_4.png)

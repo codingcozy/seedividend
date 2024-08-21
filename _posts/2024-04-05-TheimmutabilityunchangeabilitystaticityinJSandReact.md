@@ -3,17 +3,13 @@ title: "자바스크립트와 리액트에서의 불변성 불변성, 정적성"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "The immutability unchangeability staticity, in JS and React"
 link: "https://medium.com/@rapidreact/the-immutability-unchangeability-staticity-in-js-and-react-ad575812b5f1"
 isUpdated: true
 ---
-
-
-
-
 
 또는 상태 관리에서 왜 중요한지 😊
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 일반적으로 불변성이란 무엇인지, 상태 관리에서 어떻게 나타나며 어떻게 활용할 수 있는지 살펴볼 거에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기사를 마치면, 이 주제의 진정한 전문가가 되셨으면 좋겠습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ## 자바스크립트에서 불변성은 어떻게 나타나며, 어디에서 마주치게 되나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 JavaScript에서는 변경할 수 없는 타입(원시 타입)이 있습니다. JavaScript에는 심지어 타입이 없다고 할 수 있지만, 이는 완전히 틀린 말입니다!
 
@@ -43,7 +61,18 @@ typeof 연산자는 각 값의 타입을 알려줍니다. JavaScript 원시 데�
 
 # 함께 살펴보죠!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/TheimmutabilityunchangeabilitystaticityinJSandReact_1.png)
 
@@ -53,7 +82,18 @@ typeof 연산자는 각 값의 타입을 알려줍니다. JavaScript 원시 데�
 
 아래에 객체로 표현된 내 작은 것부터 시작해봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/TheimmutabilityunchangeabilitystaticityinJSandReact_2.png" />
 
@@ -63,7 +103,18 @@ typeof 연산자는 각 값의 타입을 알려줍니다. JavaScript 원시 데�
 
 아내가 집에 오자 아이의 이름이 바뀐 것을 발견해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/TheimmutabilityunchangeabilitystaticityinJSandReact_4.png)
 
@@ -73,7 +124,18 @@ typeof 연산자는 각 값의 타입을 알려줍니다. JavaScript 원시 데�
 
 # 어떻게 변이를 방지할 수 있을까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - JSON parse 및 stringify 메서드를 사용하면 됩니다
 
@@ -83,7 +145,18 @@ typeof 연산자는 각 값의 타입을 알려줍니다. JavaScript 원시 데�
 
 ![이미지](/assets/img/TheimmutabilityunchangeabilitystaticityinJSandReact_5.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신은 "Alex"라는 결과를 얻습니다.
 
@@ -93,7 +166,18 @@ typeof 연산자는 각 값의 타입을 알려줍니다. JavaScript 원시 데�
 
 ![이미지](/assets/img/TheimmutabilityunchangeabilitystaticityinJSandReact_6.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 "Alex"를 얻게 됩니다.
 
@@ -103,7 +187,18 @@ Object.assign은 첫 번째 매개변수로 생성된 빈 객체에 두 번째 �
 
 2번 항목에서 설명한 효과는 전개 연산자를 사용하여 동일하게 달성할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다시 결과는 "Alex"입니다.
 
@@ -111,13 +206,35 @@ Object.assign은 첫 번째 매개변수로 생성된 빈 객체에 두 번째 �
 
 주의:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. **구조 복제 사용**
 
 아직 상대적으로 새로운 글로벌 함수인 structuredClone()을 사용하면 주어진 객체의 깊은 복제를 생성하여 이 문제를 해결하는 것이 쉽습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 확인해 봅시다:
 
@@ -127,7 +244,18 @@ Object.assign은 첫 번째 매개변수로 생성된 빈 객체에 두 번째 �
 
 이제 데이터가 여러 계층에 중첩되어 있을 때 모든 것이 괜찮습니다. 이제 그들 사이에 참조가 없습니다; 새로운 객체 인스턴스가 생성되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 5. 불변성 라이브러리 사용
 
@@ -137,7 +265,18 @@ Object.assign은 첫 번째 매개변수로 생성된 빈 객체에 두 번째 �
 
 # React 상태 관리에서의 불변성 문제: 실제 예제
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 실용적인 예제가 소설 형식으로 설명하는 것보다 더 도움이 될 것이라고 믿습니다. 다음 코드로 문제를 설명해 보겠습니다.
 
@@ -147,7 +286,18 @@ Object.assign은 첫 번째 매개변수로 생성된 빈 객체에 두 번째 �
 
 코드를 검토하면 컴포넌트의 상태를 initialState 변수 (객체 배열)의 내용으로 초기화하는 것을 볼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "표시"하는 데이터와 함께 세 개의 버튼이 있는 pre 태그가 있습니다.
 
@@ -159,7 +309,18 @@ Object.assign은 첫 번째 매개변수로 생성된 빈 객체에 두 번째 �
 
 먼저 "표시"에서 두 명의 사람이 있는 것을 볼 수 있습니다. 첫 번째 버튼을 누른 후 상태에 세 명이 있는 것을 확인할 수 있습니다. 주의 깊게 검토하면, Andrew와 John 두 명이 축구를 취미로 삼고 있음을 알 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼 두 번째 ("축구 중단") 버튼을 클릭합니다. 기대대로 "표시"에서 취미가 축구인 사람들의 활동이 false로 변경되었다는 것을 볼 수 있어요.
 
@@ -169,7 +330,18 @@ Object.assign은 첫 번째 매개변수로 생성된 빈 객체에 두 번째 �
 
 문제가 발생한 handleCeaseFootball 함수에서 정확히 축구 취미 활동을 false로 설정할 때 (hobby.active = false) 발생한 것은 비밀이 아니에요. 이 작업으로 우리는 hobbies 배열을 직접 변이시켰습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전에 언급했던 대로, 여러 해결책이 있습니다. 여기에서는 전개 연산자를 사용한 해결책 하나를 제시합니다.
 
@@ -179,7 +351,18 @@ Object.assign은 첫 번째 매개변수로 생성된 빈 객체에 두 번째 �
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요약하자면, 이 기사는 JavaScript와 React 개발에서 불변성 개념과 그 중요성을 철저히 논의했습니다. 실제 예시를 통해 잠재적인 문제점과 그 가능한 해결책을 설명했습니다. React 상태 관리에서 함정을 피하는 방법과 올바르게 처리하는 방법을 자세히 살펴보았습니다.
 

@@ -3,17 +3,13 @@ title: "Angular 구독해야 할까요, 구독하지 말아야 할까요"
 description: ""
 coverImage: "/assets/img/2024-06-20-AngularToSubscribeorNotSubscribe_0.png"
 date: 2024-06-20 00:24
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-AngularToSubscribeorNotSubscribe_0.png
 tag: Tech
 originalTitle: "Angular: To Subscribe or Not Subscribe"
 link: "https://medium.com/stackademic/angular-to-subscribe-or-not-subscribe-f5fc78aae05a"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-06-20-AngularToSubscribeorNotSubscribe_0.png)
 
@@ -23,8 +19,18 @@ Angular에서의 구독(Subscriptions). 이 주제는 프레임워크를 처음 
 
 Angular에서 subscribe() 메서드는 Observable을 구독하는 데 사용됩니다. Observable은 Angular의 핵심 개념이며 이벤트, HTTP 요청과 같은 비동기 작업을 처리하는 데 사용됩니다. 거의 모든 것을 Observable로 변환할 수 있습니다. Observable을 구독하면 Observable이 새 값을 방출하거나 오류가 발생할 때 알림을 받고 싶습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 subscribe 함수는 세 가지 콜백을 제공합니다: next, error, 그리고 complete.
 
@@ -34,7 +40,18 @@ error 콜백은 Observable의 실행 중에 발생할 수 있는 오류를 처�
 
 Observable이 완료되면 complete 콜백이 실행되고 자동으로 구독이 해지됩니다. 이는 구독이 종료되고 더 이상 값을 방출하지 않을 것을 의미합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 예시 1 (명령형 구독)
 
@@ -44,8 +61,18 @@ Observable이 완료되면 complete 콜백이 실행되고 자동으로 구독�
 
 HTTP 호출은 "cold observables"로 인식됩니다. Observable(HTTP 이벤트)는 새 값을 한 번만 방출하고 완료됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](https://miro.medium.com/v2/resize:fit:1400/1*sjTC0Kw8kLgzFwvnHelfmw.gif)
 
@@ -55,8 +82,18 @@ HTTP 호출은 "cold observables"로 인식됩니다. Observable(HTTP 이벤트)
 
 # 구독 관리
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "핫 옵저버블"은 차가운 옵저버블과는 반대되는 다른 유형의 옵저버블입니다. 이는 얼마나 자주 새 값이 방출될지 예측할 수 없는 이벤트에 사용됩니다. 예시로는 마우스 이벤트, 폼 값 변경, 심지어 로컬 스토리지 업데이트 등이 있습니다.
 
@@ -70,8 +107,18 @@ HTTP 호출은 "cold observables"로 인식됩니다. Observable(HTTP 이벤트)
 - 구독 관리가 부적절하여 여러 구독이 생성됩니다.
 - 각 키 입력이 여러 번 옵저버블을 트리거하게 되어 여러 번 실행됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](https://miro.medium.com/v2/resize:fit:1400/1*5B8aXGdi_KtczL2Bj7XYFA.gif)
 
@@ -84,8 +131,18 @@ HTTP 호출은 "cold observables"로 인식됩니다. Observable(HTTP 이벤트)
 - 시작/중지 버튼을 클릭하여 이전 데모에서 발생했던 여러 구독 문제를 다시 만들어 보았지만 성공하지 못했습니다.
 - 이제 애플리케이션이 의도한대로 작동합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/1*HzcA5K_m8RveTyYgvKixZw.gif" />
 
@@ -114,7 +171,18 @@ ngOnDestroy(): void {
 
 그래도 모든 것을 배열에 넣는 것은 조금 이상하게 느껴질 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-20-AngularToSubscribeorNotSubscribe_1.png" />
 
@@ -128,8 +196,18 @@ ngOnDestroy(): void {
 
 Angular에서 Observable과 함께 async 파이프를 사용하는 것은 일반적으로 템플릿에서 비동기 데이터를 관리하는 데 가장 좋은 방법으로 여겨집니다. async 파이프는 Observable에 자동으로 구독하고 값을 가져와보여주면서 뷰를 업데이트합니다. 이렇게 함으로써 코드를 단순화하고 구성 요소가 소멸될 때 자동으로 구독을 해지하여 잠재적인 메모리 누수를 방지합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1400/1*56m_2d_sldWVyBmbl5T6ZA.gif)
 
@@ -139,8 +217,18 @@ Angular에서 Observable과 함께 async 파이프를 사용하는 것은 일반
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1400/1*ezlcTQirocW_SCwwTTXj4w.gif)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 수많은 구독이 생성되어 불필요한 HTTP 호출이 발생했습니다. 우리의 목표는 각 행의 세부 정보를 한 번만 호출한 후 구독을 해지하는 것이어야 합니다.
 
@@ -150,7 +238,18 @@ RxJs의 take 연산자를 실제로 살펴보겠습니다.
 
 의도한 대로 문제가 해결되었습니다. 여기서 확인할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - `take(1)`을 추가하면 발행된 항목이 하나로 제한됩니다.
 - 테이블의 각 행에 구독합니다.
@@ -165,7 +264,18 @@ RxJs의 take 연산자를 실제로 살펴보겠습니다.
 
 구독을 관리하는 또 다른 널리 사용되는 접근 방법은 인기 있는 RxJS `takeUntil` 연산자입니다. 이 연산자는 Observable이 특정 조건이 충족될 때까지 새로운 값을 발행하도록 허용합니다. 충분한 이론, 이제 코드를 작성해 봅시다. 먼저 문제를 해결해 보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자주 간과되는 문제: FormGroup의 valueChanges를 구독 해제하는 것을 잊는 것입니다. 이 시나리오에서는 간단한 양식을 만들었습니다. 이메일 양식 컨트롤의 값을 템플릿 문자열을 사용하여 동적으로 설정합니다. 이는 이름과 성의 소문자 버전을 점으로 구분하여 @gmail.com을 붙인 문자열을 결합합니다.
 
@@ -177,7 +287,18 @@ RxJs의 take 연산자를 실제로 살펴보겠습니다.
 
 ## takeUntilDestroy (v16부터)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Angular v16부터는 새로운 takeUntilDestroy() 연산자를 활용할 수 있습니다. 이전 예제의 takeUntil(this.destroy$)와 동일한 작업을 수행하며, destroy$ subject를 만들지 않고 수동으로 호출할 필요가 없어집니다.
 
@@ -188,7 +309,18 @@ Angular v16부터는 새로운 takeUntilDestroy() 연산자를 활용할 수 있
 
 결과를 확인해보겠습니다...
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래와 같은 결과를 얻지는 못했지만, 우리가 어떻게 개선할 수 있는지 살펴보겠습니다.
 
@@ -196,7 +328,18 @@ destroyRef를 주입하고 takeUntilDestroyed()에 매개변수로 전달한 후
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오늘은 여기까지입니다! 이 기사를 통해 다양한 Observable을 활용한 다양한 시나리오를 탐구했습니다. 이를 처리하는 다양한 접근 방식을 공유했습니다. 개발자들에게는 자신의 코딩 취향과 구체적인 코드베이스에 가장 적합한 방법을 찾는 것을 권장합니다. 여러분의 코드베이스가 최신 트렌드와 부합한다든지 그렇지 않다든지, 이 기사에서의 중요한 결론은 수동 구독 관리를 두려워할 필요가 없다는 것입니다. 핵심은 신중함을 유지하고 구독 취소를 처리할 때 적절히 주의를 기울이는 것입니다. 이러한 관행을 수용하면 장기적으로 더 견고하고 유지보수 가능한 코드베이스를 보장할 수 있습니다.
 

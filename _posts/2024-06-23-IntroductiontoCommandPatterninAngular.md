@@ -3,16 +3,13 @@ title: "Angular에서 Command 패턴 소개"
 description: ""
 coverImage: "/assets/img/2024-06-23-IntroductiontoCommandPatterninAngular_0.png"
 date: 2024-06-23 14:12
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-IntroductiontoCommandPatterninAngular_0.png
 tag: Tech
 originalTitle: "Introduction to Command Pattern in Angular"
 link: "https://medium.com/a-layman/introduction-of-command-pattern-in-angular-bdef4038ac48"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-06-23-IntroductiontoCommandPatterninAngular_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 직접적인 해결책은 컨트롤러 패널에서 SVG 경로로 작업을 위임하기 위해 옵저버 패턴을 사용하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 이 시나리오에 관찰자 패턴을 적용하는 데는 여전히 일부 단점이 있습니다. 이 글에서는 명령 패턴의 소개와 왜 더 나은 해결책이라고 생각했는지를 공유하고 싶습니다.
 
@@ -35,7 +43,18 @@ isUpdated: true
 - RxJS를 사용한 실행 취소 및 재설정 구현
 - 데모
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 이 시리즈에 대해
 
@@ -48,7 +67,18 @@ isUpdated: true
 
 # 토론: Observer 패턴 vs Command 패턴
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 옵저버 패턴
 
@@ -58,7 +88,18 @@ isUpdated: true
 
 옵저버 패턴은 옵저버와 서브젝트로 구성되어 있습니다. 우리의 시나리오에 이 패턴을 어떻게 매핑할 수 있는지 쉽게 상상해볼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 드롭다운 선택이 변경되면 Subject가 Observer에게 알림을 보냅니다.
 - Subject에는 이벤트 유형과 필요한 매개변수가 포함됩니다.
@@ -71,7 +112,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-23-IntroductiontoCommandPatterninAngular_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Command Pattern
 
@@ -81,7 +133,18 @@ Command 패턴의 주요 역할을 보여주는 다음 다이어그램입니다.
 
 Command 패턴의 Subject는 Observer에 이벤트와 분리된 매개변수를 보내는 대신, 매개변수를 하나의 객체로 캡슐화하고 Receiver를 직접 조작하기 위해 실행합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 해당 명령은 작업에 필요한 매개변수와 명령 유형을 분석하는 논리를 캡슐화합니다. 드롭다운 선택이 변경되면 인보커가 생성된 명령을 실행합니다.
 - 수신자(SVG 경로의 구성 요소)는 명령에 따라 해당 작업을 수행합니다.
@@ -93,7 +156,18 @@ Command 패턴의 Subject는 Observer에 이벤트와 분리된 매개변수를 
 
 ![이미지](/assets/img/2024-06-23-IntroductiontoCommandPatterninAngular_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 구현: 명령 패턴을 사용하여 제어 패널 다시 구성하기
 
@@ -103,7 +177,18 @@ Command 패턴의 Subject는 Observer에 이벤트와 분리된 매개변수를 
 
 ## 준비하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 필요한 패키지 설치하기
 
@@ -120,7 +205,18 @@ ng g c topology/topology-controller/topology-controller-assistant
 ng g s topology/topology-controller/topology-controller-assistant
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 필요한 모델을 생성하세요
 
@@ -130,21 +226,43 @@ ng g s topology/topology-controller/topology-controller-assistant
 
 이 경우에 Invoker는 ng-select 컴포넌트입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - topology-controller-assistant.component.html을 업데이트하십시오.
 
 구현 세부 정보는 공개하지 않지만, Invoker가 어떻게 작동하는지에만 집중하세요.
 
 - topology-controller-assistant.service.ts를 업데이트하십시오.
-— 서비스는 드롭다운 컴포넌트에 옵션을 제공합니다 (라인 5 ~ 10)
+  — 서비스는 드롭다운 컴포넌트에 옵션을 제공합니다 (라인 5 ~ 10)
 
 - topology-controller-assistant.component.ts를 업데이트하십시오.
 - 이 컴포넌트는 TopologyCommandInvoker 인터페이스를 구현해야 합니다.
 - 초기화할 때, 이 컴포넌트는 리소스를 검색할 것입니다 (라인 42)
 - Invoker는 호출할 때 커맨드를 스택에 저장할 것입니다 (라인 88)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 수신기 구현: SVG 경로 구성 요소 업데이트
 
@@ -156,7 +274,18 @@ ng g s topology/topology-controller/topology-controller-assistant
 
 클라이언트는 Invokers와 Receivers 간의 다리 역할을 하며 ViewChild를 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - app.component.html 파일을 업데이트하세요.
 - app.component.ts 파일을 업데이트하세요.
@@ -167,7 +296,18 @@ ng g s topology/topology-controller/topology-controller-assistant
 
 마지막 섹션에서 명령을 호출할 때 이미 명령을 스택에 푸시했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `undo` 기능을 구현할 때는 최신 Command를 제거하고 이전 Command를 되돌리는 Command를 실행하면 된다. `reset` 기능을 구현할 때는 스택을 지우고 이전 명령을 모두 되돌리면 된다.
 
@@ -179,7 +319,18 @@ ng g s topology/topology-controller/topology-controller-assistant
 - undo 및 reset을 위한 새로운 버튼 추가 (라인 15 ~ 18)
 - undoConfiguration$ 및 resetConfiguration$를 input() 매개변수로 전달 (라인 8 ~ 9)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - app.component.ts 파일을 업데이트해주세요
 
@@ -190,7 +341,18 @@ ng g s topology/topology-controller/topology-controller-assistant
 
 # 데모
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 리팩터링 전
 
@@ -200,7 +362,18 @@ ng g s topology/topology-controller/topology-controller-assistant
 
 - Callback/Command vs EventListener/Observer Pattern
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 개요
 
@@ -210,7 +383,18 @@ ng g s topology/topology-controller/topology-controller-assistant
 
 - 구독하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 기사를 위한 Facebook 페이지
 
@@ -220,7 +404,18 @@ ng g s topology/topology-controller/topology-controller-assistant
 
 ![image](/assets/img/2024-06-23-IntroductiontoCommandPatterninAngular_6.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 관련 주제
 
@@ -230,6 +425,17 @@ SignalR을 활용하여 채팅방 애플리케이션 만드는 법을 배워보�
 
 'Effective SQL'에 대한 제 생각:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 IT 및 네트워크:

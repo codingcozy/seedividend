@@ -3,17 +3,13 @@ title: "React Native 개발자라면 알아둬야할 새로운 아키텍처"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Become a React Native Developer  The New Architecture"
 link: "https://medium.com/@under_the_hook/react-native-the-new-architecture-c4ba8ed8b452"
 isUpdated: true
 ---
-
-
-
-
 
 과거 아키텍처는 예전에는 굉장한 해결책으로 여겨졌지만, 몇 가지 React Native 버전 이후에는 개선이 필수적인 것으로 보입니다. 과거 아키텍처를 살펴보겠습니다:
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 JavaScript는 웹 및 모바일에서 기능이 제한되어 있습니다. 그래서 JavaScript는 환경 모듈을 사용합니다. 웹에서는 브라우저가 제공하는 모듈(예: console.log)을 사용하고 모바일에서는 Java/ObjC로 작성된 네이티브 모듈이 있습니다. 네이티브 모듈은 JavaScript에서 사용할 수 없는 Bluetooth, 카메라 등과 같은 네이티브 기능 및 라이브러리를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## UIManager
 
@@ -63,7 +70,18 @@ UIManager.configureNextLayoutAnimation({
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 요가 (레이아웃 엔진)
 
@@ -73,7 +91,18 @@ UIManager.configureNextLayoutAnimation({
 
 요가는 React Native에서 UI 구성 요소의 레이아웃을 처리하기 위해 사용되는 레이아웃 엔진입니다. 이것은 React Native에 통합된 별도의 프로젝트로, 플랫폼 간 일관된 레이아웃 모델을 제공합니다. UI 스레드는 Flexbox 모델을 기반으로 UI 요소의 레이아웃과 위치를 결정하기 위해 Yoga 레이아웃 엔진과 상호 작용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React Native 컴포넌트는 flexDirection, justifyContent, alignItems 등의 Flexbox 속성을 사용하여 레이아웃을 지정합니다. Yoga는 이러한 속성을 해석하고 컴포넌트의 위치와 크기를 계산하여 Flexbox 레이아웃 모델을 준수합니다.
 
@@ -84,7 +113,18 @@ Yoga의 역할은 주로 두 가지입니다:
 - 레이아웃 계산
 - 트리 프로모션.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React Native이 Yoga가 필요한 이유는 무엇인가요?
 
@@ -98,7 +138,18 @@ React Native이 Yoga가 필요한 이유는 무엇인가요?
 
 ## 3 개의 분리된 스레드
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트 네이티브에서는 섀도우, 네이티브 및 자바스크립트 세 가지 주요 스레드로 구성된 아키텍처가 있습니다.
 
@@ -108,7 +159,18 @@ React Native이 Yoga가 필요한 이유는 무엇인가요?
 
 - 자바스크립트 엔진에 의해 사용되며, 자바스크립트 번들(리액트 네이티브 애플리케이션 논리 - 리액트 컴포넌트, 이벤트 핸들러, 데이터 처리 함수 등을 포함)을 실행하는 데 사용됩니다. 이 스레드에서 발생하는 더 많은 일들:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - React Native 컴포넌트 관리: React Native은 개발자가 JavaScript를 사용하여 네이티브 UI 요소를 만들 수 있게 해주는 일련의 컴포넌트와 API를 제공합니다. 이러한 컴포넌트들은 장치 화면에 렌더링되며 JavaScript 스레드는 이들의 라이프사이클, 상태 변경 및 상호작용을 관리합니다.
 - 네이티브 모듈과의 통신 처리: React Native은 개발자가 네이티브 코드를 JavaScript 코드베이스에 통합함으로써 플랫폼별 기능에 액세스할 수 있도록 합니다. 이러한 네이티브 모듈은 JavaScript에 네이티브 API를 노출하여 JavaScript만으로는 달성할 수 없는 작업을 수행할 수 있게 합니다. JavaScript 스레드는 이러한 네이티브 모듈과의 통신을 관리하며 메서드 호출, 데이터 전달 및 콜백 처리 등을 담당합니다.
@@ -125,7 +187,18 @@ React Native이 Yoga가 필요한 이유는 무엇인가요?
 - 이 스레드를 도입하기 전에, 메인 스레드는 터치 이벤트, UI 계산 및 UI 렌더링을 처리했습니다. 그러나 그림자 스레드가 추가되면 메인 스레드는 UI 터치와 UI 렌더링에 집중하고, 그림자 스레드는 UI 계산을 처리하고 결과를 메인 스레드에 전달하여 디스플레이에 렌더링합니다. 이는 레이아웃 계산이 수행되는 동안 UI가 계속 렌더링되므로 더 부드럽고 응답성이 뛰어난 UI를 제공합니다.
 - React Native은 기본적으로 레이아웃에 플렉스박스를 사용하나, 기본 네이티브 컴포넌트들은 이에 익숙하지 않습니다. 대신 프로젝트 내에서 사용되는 레이아웃 엔진인 Yoga에서 변환을 의존합니다. UI 관련 작업을 처리할 때 네이티브 컴포넌트는 UIManager 모듈을 통해 그림자 트리 모양에 접근해야 하므로 Yoga를 통해 순회할 필요가 있어 성능 부담이 발생할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/Become-a-React-Native-Developer-—-The-New-Architecture_2.png)
 
@@ -135,7 +208,18 @@ JavaScriptCore: React Native에서 JS 코드를 실행하는 데 사용되는 Ja
 
 JavaScript 번들을 JavaScript 스레드에서 실행합니다. 선택한 JavaScript 엔진은 iOS에서 제공하는 WebKit을 기반으로 한 JavaScriptCore입니다. 이의 큰 장점은 iOS에서 무료로 제공된다는 것입니다. Android에서는 JavaScript 번들에 포함되어 있어야 합니다. iOS의 JSC는 무료로 제공되지만 Android에는 그렇지 않으므로 React Native에서 번들에 포함해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - JSC — 안드로이드에서 번들화될 필요가 있습니다.\*
 
@@ -145,7 +229,18 @@ JavaScript 번들을 JavaScript 스레드에서 실행합니다. 선택한 JavaS
 
 비동기 일괄 메시지 대기열은 C++로 작성되었습니다. 이것이 하이라이트입니다 — 애플리케이션이 시작되면 브릿지가 실행됩니다. 이는 JavaScript 측과 네이티브 측 간의 메시지를 전달하는 비동기 대기열입니다. 메시지의 선택된 형식은 JSON이었습니다. 이는 유니버설 형식이기 때문에 통신에 일반적으로 사용되는 형식입니다. 브릿지는 네이티브/JavaScript 측에서 메시지를 일괄 처리하고 다른 쪽으로 비동기적으로 전달합니다. 여기 왔다가 계속 봐야 해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각 데이터가 다리를 통해 전송될 때마다 JSON으로 직렬화해야 합니다. 데이터가 반대편에서 받아지면 해독되어야 합니다.
 
@@ -155,7 +250,18 @@ JavaScript 번들을 JavaScript 스레드에서 실행합니다. 선택한 JavaS
 
 JS와 네이티브 스레드 사이의 통신은 브릿지라는 개체를 통해 이루어집니다. 브릿지를 통해 데이터를 보낼 때, 묶어(최적화)서 JSON으로 직렬화되어야 합니다. 이 브릿지는 비동기 통신만 처리할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, JavaScript 스레드가 일부 네이티브 모듈(예: 블루투스)에 액세스해야 할 경우 네이티브 스레드에 메시지를 보내야 합니다. JS 스레드는 직렬화된 JSON 메시지를 브릿지로 보냅니다. 브릿지는 이 메시지를 최적화하여 네이티브 스레드로 전송합니다. 메시지는 네이티브 스레드에서 디코딩되고 필요한 네이티브 코드가 실행됩니다.
 
@@ -165,7 +271,18 @@ JS와 네이티브 스레드 사이의 통신은 브릿지라는 개체를 통�
 
 화면에 보이는 요소만 렌더링되는 목록이 있는 앱을 예로 들어보겠습니다. 스크롤할 때 뷰포트가 변경되므로 새로운 행이 필요합니다. 브릿지를 통해 JavaScript로 각 행에 메시지를 보냅니다. JavaScript는 대기 중인 메시지를 받아 처리하고 다시 보냅니다. 빠르게 스크롤하면 행 대신 빈 공간이 나타날 수 있습니다. 이는 동기식으로 처리할 수 없기 때문에 발생합니다. 네이티브 환경에서는 이러한 문제가 없습니다. 이전의 동기식 방식으로 이러한 행을 재활용할 수 있습니다. 진짜 문제는 어떻게 네이티브 경험에 더 가까워질 수 있는지입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2개의 별도의 브릿지 및 브릿지 인터페이스
 
@@ -175,7 +292,18 @@ JS와 네이티브 스레드 사이의 통신은 브릿지라는 개체를 통�
 
 브릿지와의 모든 상호 작용은 네이티브 측의 브릿지 인터페이스를 통해 이루어집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 클릭 이벤트가 어딘가에 루트 뷰 아래에서 원래 발생 - 브릿지 인터페이스와 통신 - 네이티브에서 JS 브릿지로 전송 - 리액트 앱이 이를 받아 일부 BL을 수행 - UI 응답을 보내고 업데이트가 요소 트리에 발생 - 두 트리 간의 차이가 브릿지 인터페이스로 돌아가고 React Native가 변경 사항을 렌더링하는 방법을 결정합니다.
 
@@ -185,7 +313,18 @@ React Native 라이브러리에는 기본 네이티브 모듈이 함께 제공�
 
 ## Metro
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일반적으로, 이것은 사용자 정의 번들러입니다.
 
@@ -196,7 +335,18 @@ React Native 라이브러리에는 기본 네이티브 모듈이 함께 제공�
 - 비동기 - 코드는 동기 호출 옵션이 없기 때문에 블로킹되지 않습니다.
 - 분리된 - 자바스크립트와 네이티브 측면 간에 통신하기 위해 발명된 브릿지는 React Native에 결합되지 않았습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 구식 아키텍처 - 제한사항
 
@@ -207,7 +357,18 @@ React Native 라이브러리에는 기본 네이티브 모듈이 함께 제공�
 
 약 100ms마다 자바스크립트/리액트 네이티브 쪽의 모든 작업이 일괄 처리되어 브릿지를 통해 다른 쪽으로 이동합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 이전 아키텍처 — 단일 MQ
 
@@ -217,7 +378,18 @@ React Native 라이브러리에는 기본 네이티브 모듈이 함께 제공�
 
 다리의 데이터가 직렬화되고 일괄 처리되기 때문에 데이터는 동시에 모두 보내져야 합니다 — 특정 데이터를 우선순위로 설정할 수 없습니다. UI 이벤트의 우선순위를 설정하고 애니메이션을 중단시킬 방법이 없습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 과거 아키텍처 - 브릿지 성능
 
@@ -227,7 +399,18 @@ JS 및 UI 스레드가 동기화되지 않은 경우, 앱이 프레임을 놓치
 
 ## 과거 아키텍처 - 브릿지와 JavaScriptCore Engine의 강한 결합
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현재 아키텍처는 JavaScriptCore 엔진을 사용합니다. 이 브릿지는 이 특정 엔진과만 호환됩니다.
 
@@ -240,7 +423,18 @@ JS 및 UI 스레드가 동기화되지 않은 경우, 앱이 프레임을 놓치
 
 ## 이전 아키텍처 — 2 영역이 서로를 알지 못합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요가 — JS가 제어하지 않아요.
 
@@ -250,7 +444,18 @@ JS 및 UI 스레드가 동기화되지 않은 경우, 앱이 프레임을 놓치
 
 네이티브가 Yoga의 트리를 업데이트하기 위해 메시지를 보내는 경우와 JS가 그것을 제어하지 못하는 경우.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 과거 아키텍처에서 React Native는 브릿지를 사용했어 — 하나의 통신 채널이자 병목 현상이었지. 이전에는 JSON 번들을 통해 네이티브 측에 도달하는 좋은 해결책으로 보였어. 하나의 통신 채널이기 때문에 메시지가 많을 때 빠르게 도달하는데, 자바스크립트와 네이티브 측은 서로 아무것도 모르지. 그들은 JSON 번들을 수신하고 이를 이해하지 못하며, 그러다 보니 어디서 왔는지나 그 내용이 무엇인지 알 수가 없어.
 
@@ -260,7 +465,18 @@ JS 및 UI 스레드가 동기화되지 않은 경우, 앱이 프레임을 놓치
 
 리액트의 이러한 동기 전후처리가 필요한 기능들이 있어. 이제 리액트에는 많은 동시 기능들이 있고, 우리는 이 리액트를 뒤쳐지지 않을 거야.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 리액트 버전을 올리는 것이 쉽지 않았어요 - 리액트는 리액트 네이티브에 내장되어 있어서 18로 버전을 올리는 것은 동기화 메커니즘이 필요했기 때문이에요.
 - 리액트 네이티브 복잡한 인프라 - 리액트 네이티브는 기능을 위해 JavaScript, 쉐도우 및 네이티브 스레드가 3가지 주요 스레드를 사용해요. 게다가 그들 사이의 데이터 교환은 공유 메모리를 사용하지 않고 브릿지를 통해 데이터를 복사해 요.
@@ -273,7 +489,18 @@ JS 및 UI 스레드가 동기화되지 않은 경우, 앱이 프레임을 놓치
 
 해결책은 기존 시스템에서 가져왔어요 - 브라우저와 같은 시스템. 우리에게 JavaScript 런타임이 있고 JavaScript 언어의 일부가 아닌 기능도 있어요. 하지만 setInterval, setTimeout 등은 JavaScript의 일부가 아니지만 사용할 수 있어요. 이들을 사용할 때, JavaScript 런타임을 확장하는 C++ 함수에 대한 참조만 사용하는 거예요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트 네이티브의 새 아키텍처에서는 JavaScript 엔진 런타임을 확장하고 네이티브 메서드를 JavaScript로 프록시하는 네이티브 코드가 있습니다. 이 코드는 JavaScript에서 직접 호출할 수 있습니다.
 
@@ -283,7 +510,18 @@ JS 및 UI 스레드가 동기화되지 않은 경우, 앱이 프레임을 놓치
 
 ![React Native Developer](/assets/img/Become-a-React-Native-Developer-—-The-New-Architecture_6.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React 쪽은 모든 것이 그대로 유지됩니다. 네이티브 쪽에서는 많은 변화가 있었는데, 가장 중요한 부분은 JavaScript가 네이티브 쪽과 어떻게 통신하는지입니다. 새로운 아키텍쳐에는 4가지 주요 구성 요소가 있습니다:
 
@@ -296,7 +534,18 @@ React 쪽은 모든 것이 그대로 유지됩니다. 네이티브 쪽에서는 
 
 JavaScript Interface: 이것은 C++으로 작성된 경량의 "일반 목적" 레이어로, JavaScript 엔진이 네이티브 영역에서 메서드를 직접 호출하는 데 사용할 수 있습니다. JavaScript 엔진을 C++ 애플리케이션에 쉽게 내장할 수 있도록 만들어졌습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다리는 더 이상 새 아키텍처에서 사용되지 않습니다. 대신 새로운 "접착제"인 JSI (JavaScript Interface)가 있습니다. JSI는 JavaScript와 C++ 간에 서로 호출할 수 있는 새로운 인터페이스입니다.
 
@@ -306,7 +555,18 @@ JSI를 사용하면 2 가지 측이 서로 인식할 수 있습니다. 이는 Ja
 
 JSI는 JavaScript 측이 Native 측과 대화하는 것을 가능하게 하는 자바스크립트 인터페이스입니다. 두 측은 동일한 메모리를 공유합니다. 두 측 간의 JSON 메시지를 직렬화할 필요가 없습니다. JSI는 직접 액세스를 제공하며, 더 이상 직렬화할 필요가 없습니다. 이것은 엄청난 속도 향상을 가져다줍니다! 이제 C++ 측, Native 측, JavaScript 측 간에 직접 통신이 가능합니다. 이는 간단한 인터페이스를 제공하며 직접 호스팅이 가능합니다. JavaScript 코드가 C++ 코드를 호출하고 그 반대도 가능합니다. JavaScript/C++ 코드가 섞인 점프 수트를 가지게 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 JSI는 JavaScript와 C++ 간의 직접적인 연결을 제공하지만 JavaScript와 Java(Android) 및 JavaScript와 ObjC(iOS) 사이의 연결은 어떨까요?
 
@@ -316,7 +576,18 @@ ObjC에서 C++과의 관계를 볼 수 있으며 Android에서는 Java가 JNI를
 
 JavaScript 인터페이스는 JavaScript 엔진과 격리되어 있으므로 새로운 아키텍처는 Chakra, v8, Hermes 등의 JavaScriptCore와 같은 다른 JavaScript 엔진의 사용을 가능하게 합니다. 그래서 "일반 목적"이라는 용어가 사용되는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![React Native 개발자 되기 - 새로운 아키텍처](/assets/img/Become-a-React-Native-Developer-—-The-New-Architecture_7.png)
 
@@ -326,7 +597,18 @@ JSI는 코드에 대해 알아야 합니다. 레퍼런스를 노출할 수 있�
 
 자바스크립트는 네이티브로 직접 호출하거나 jsi를 통해 호출할 수 있습니다 (네이티브 코드에서 알려져야 함). C++에서 jsi 바인딩을 생성하려면 타입을 알아야 합니다. JavaScript에서 rt 이전에는 타입에 대한 정보가 없습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Become-a-React-Native-Developer-—-The-New-Architecture_8.png](/assets/img/Become-a-React-Native-Developer-—-The-New-Architecture_8.png)
 
@@ -336,7 +618,18 @@ JSI를 통해 Native 메소드는 C++ 호스트 객체를 통해 JavaScript에 �
 
 큰 소식은 JSI를 통해 JavaScript 코드가 Native 모듈을 참조할 수 있게 되었으며, 이를 브릿지가 허용하지 않았던 것입니다. JSI를 통해 JavaScript는이 참조를 통해 메소드를 직접 호출할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자바스크립트는 C++ 호스트 객체에 대한 참조를 보유할 수 있으며 해당 참조를 사용하여 메서드를 직접 호출할 수 있습니다. 우리는 모바일 세계에 대해 이야기하고 있지만, 웹도 비슷합니다. 자바스크립트 코드는 DOM 요소에 대한 참조를 보유하고 그 위에 메서드를 호출할 수 있습니다. 예를 들어:
 
@@ -355,7 +648,18 @@ document.getElementById("main").appendChild(container);
 
 위 예제에서 "container"는 자바스크립트 변수입니다. 그러나 실제로는 브라우저의 DOM 요소에 대한 참조를 보유하고 있습니다. 그리고 브라우저는 C++로 작성되었으므로 이 DOM 요소도 C++에서 초기화됩니다. "container" 변수에서 어떤 메서드를 호출하면 결과적으로 DOM 요소에서 메서드가 호출됩니다. JSI는 동일한 논리로 작동합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 그림에서 볼 수 있듯이 JavaScript는 네이티브 모듈에 직접 참조를 가지고 있으며 JavaScript 인터페이스를 통해 이 네이티브 모듈의 메서드를 호출할 수 있습니다.
 
@@ -363,7 +667,18 @@ JSI는 브릿지를 대체하는 것입니다. 브릿지를 사용하면 네이�
 
 요약하면, JSI는 다른 JavaScript 엔진을 사용할 수 있게 해주며, 쓰레드 간에 완전한 상호 운용성을 제공합니다. JavaScript 코드가 JavaScript 쓰레드에서 바로 네이티브 쪽과 직접 통신할 수 있습니다. 이를 통해 JSON 메시지를 직렬화할 필요 없이 브릿지의 혼잡과 비동기 문제를 해결할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - JavaScript과 Native (C++)는 서로를 알고 있어요 — 이제 JS 일부인 것처럼 함수를 호출할 수 있어요. 동기적으로 같은 스레드에서.
 - 동기 이벤트를 사용할 수 있어요.
@@ -376,7 +691,18 @@ JSI는 브릿지를 대체하는 것입니다. 브릿지를 사용하면 네이�
 
 ## Turbo Modules
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 터보 모듈: React Native의 네이티브 영역으로의 입구입니다. 네이티브 모듈의 새로운 구현체입니다. 그 중요한 이점은 필요할 때만 로드할 수 있다는 것입니다 - 사용할 때만 로드하고, 모든 것을 실행 시간에 로드하지 않는다는 것이죠.
 
@@ -386,7 +712,18 @@ JSI는 브릿지를 대체하는 것입니다. 브릿지를 사용하면 네이�
 
 ## 네이티브 모듈:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 네이티브 모듈에서의 이니셜라이징: 애플리케이션이 시작될 때 네이티브 모듈을 즉시 초기화할 수 있어 필요한 네이티브 코드 구성 요소가 JavaScript 레이어에서 사용 가능하고 준비되어 있는지 보장할 수 있습니다. 이는 네이티브 라이브러리 초기화, 통신 채널 설정 또는 네이티브 이벤트 리스너 등을 포함할 수 있습니다.
 - 네이티브 모듈에서의 싱글톤 라이프사이클: 애플리케이션의 런타임 동안 특정 모듈 인스턴스가 하나뿐임을 보장합니다. 이를 통해 JavaScript에서 네이티브 기능에 효율적이고 일관된 접근이 가능하며, 네이티브 리소스를 불필요하게 재초기화하는 것을 피할 수 있습니다.
@@ -400,7 +737,18 @@ JSI는 브릿지를 대체하는 것입니다. 브릿지를 사용하면 네이�
 
 React Native 팀은 모듈 시스템을 다시 쓰며 이를 "터보 모듈(Turbo Modules)"이라고 부릅니다. 지난 네이티브 모듈에는 "어떤 것이 언제"인지 모르기 때문에 우리는 그 모든 것을 업로드했습니다. JavaScript 측에서 그들과 통신은 브릿지를 통해 이루어졌습니다. 이제, JavaScript 측에서 JSI를 통해 네이티브 코드에 직접적으로 참조할 수 있으므로 필요할 때만 로드할 수 있습니다. 이는 애플리케이션 시작 시간의 거대한 향상이 됩니다. 모듈의 각 메소드가 동기적으로 호출될 수 있습니다. 따라서 JSON 브릿지를 통한 콜백이 필요 없습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Turbo Modules에 대한 몇 가지 중요한 사실:
 
@@ -416,7 +764,18 @@ React Native 팀은 모듈 시스템을 다시 쓰며 이를 "터보 모듈(Turb
 
 네이티브 모듈들을 동기적으로 호출할 수 있습니다. 다른 쪽에 도착할 때를 알고 있는 번들로 들어가는 JSON 메시지에 의존하지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미 직접적인 참조가 있다면 필요한 경우에 무엇이 필요한지 알 수 있습니다. 필요한 모듈을로드합니다. 필요할 때만 모듈을로드하고 각 모듈은 동기적으로 호출할 수 있습니다. 이전 브릿지를 통해 콜백을 기다릴 필요가 없습니다.
 
@@ -428,7 +787,18 @@ React Native 팀은 모듈 시스템을 다시 쓰며 이를 "터보 모듈(Turb
 - 이전 브릿지에서 일치하는 JSON 메시지를 사용하여 통신할 필요가 없어집니다.
 - 많은 네이티브 모듈을 사용하는 앱의 시작 시간을 크게 개선할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Fabric: 새로운 C++에서의 다시 렌더링
 
@@ -438,7 +808,18 @@ UIManager: React Native에서 제공하는 모듈로, 네이티브 UI 컴포넌�
 
 네이티브 UI의 렌더링을 위해 다시 렌더링이 있습니다: 다시 렌더링은 네이티브 쪽 UI 렌더링을 담당합니다. 새로운 아키텍처 다시 렌더링은 Fabric라고 불립니다. 그 큰 장점은 높은 우선 순위의 UI 작업을 허용한다는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새 아키텍처, 특히 Fabric은 그런 문제를 해결하기 위해 나왔어요 — 목록을 스크롤하다가 어느 순간에 화면이 플래시 하는 현상이죠. 그건 React Native이 JSON 브릿지를 통해 많은 메시지를 보내기 때문에 발생합니다.
 
@@ -448,7 +829,18 @@ Meta는 rerender를 C++ 세계로 이동시킵니다. Fabric을 사용하면 모
 
 네이티브 UI를 렌더링할 때, 우리는 rerender를 가지고 있어요: rerender는 네이티브 쪽 UI 렌더링을 담당하죠. 새 아키텍처 rerender는 Fabric이라고 불립니다. 이 큰 장점은 높은 우선 순위 UI 작업이 가능하다는 거예요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새 아키텍처, 특히 Fabric은 그런 문제들을 해결하기 위해 나왔어요 — 목록을 스크롤하는 중에 어느 순간 흰색으로 번쩍이는 현상이 있을 때가 있죠. 이는 React Native가 JSON 브리지를 통해 많은 메시지를 보내기 때문에 발생하는 문제입니다.
 
@@ -460,7 +852,18 @@ Fabric은 JSI를 사용하고 UIManager를 대체해야 합니다:
 - 모든 UI 작업을 생성하세요 — 새로운 UIManger는 특정 뷰 타입(예: Text, View 또는 Images)에 대한 ComponentDescriptors와 Shadow Nodes를 생성할 수 있어요.
 - Java/ObjC와 통신하여 플랫폼별 UI를 그리세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/Become-a-React-Native-Developer-—-The-New-Architecture_12.png" />
 
@@ -478,7 +881,18 @@ React Native 앱에서 현재 UI 렌더링은 다음과 같이 작동합니다:
 
 현재 방식의 문제는 JavaScript와 UI 스레드 간의 모든 통신이 브릿지를 통해 발생한다는 점입니다. 이는 비동기적인 성격을 가지고 있으며 JSON 직렬화 및 역직렬화를 강제합니다. 이러한 동작은 전송 속도를 떨어뜨리고 중복 데이터 복사를 유발합니다. 예를 들어, `Image/`: React (ReactElementTree)에서는 'Image/'가 있지만, ReactShadowTree의 이후 노드 또한 이미지일 것입니다. 이러한 데이터는 별도로 중복 저장되어야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사의 JSI 섹션에서 보았듯이 JavaScript Interface는 JavaScript에 네이티브 메소드를 직접 노출시켜주며 UI 메소드를 포함합니다. 이를 통해 JavaScript 및 UI 스레드가 동기화되어 리스트, 탐색, 제스처 처리 등의 성능이 향상됩니다.
 
@@ -500,7 +914,18 @@ React Native 앱에서 현재 UI 렌더링은 다음과 같이 작동합니다:
 
 그렇다면 언제 Turbo Modules가 유용할까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 기기 API에 액세스: 표준 JavaScript 모듈 이상의 기기 API에 직접 액세스해야 하는 경우 Turbo Modules가 유용합니다. 이 모듈들은 표준 JavaScript 모듈을 통해 즉시 노출되지 않는 센서 또는 블루투스와 같은 기기별 기능과의 통합을 가능케 합니다. 일부 기능은 표준 모듈을 통해 실행할 수도 있지만, Turbo Modules는 최적의 성능과 네이티브 API의 전체 범위에 접근할 수 있도록 보장합니다.
 - 네이티브 UI 구성 요소: 커스텀 네이티브 UI 구성 요소를 만들 때 Turbo Modules가 빛을 발합니다. 이러한 구성 요소는 자바스크립트 기반의 대안들보다 부드럽고 효율적인 사용자 경험을 제공합니다.
@@ -512,7 +937,18 @@ React Native 앱에서 현재 UI 렌더링은 다음과 같이 작동합니다:
 
 자세히 알아봅시다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/Become-a-React-Native-Developer-—-The-New-Architecture_13.png)
 
@@ -526,7 +962,18 @@ React Native 앱에서 현재 UI 렌더링은 다음과 같이 작동합니다:
 
 ## Fabric 네이티브 컴포넌트
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Fabric Native Component은 Fabric Renderer를 사용하여 화면에 렌더링되는 네이티브 구성요소입니다. 기존 네이티브 구성요소 대신 Fabric Native Component를 사용하면 새로운 아키텍처의 모든 이점을 누릴 수 있습니다:
 
@@ -541,7 +988,18 @@ Fabric Native Component은 Fabric Renderer를 사용하여 화면에 렌더링�
 - C++ 코드는 모든 플랫폼에서 동일합니다.
 - 컴포넌트가 기본 코드와 올바르게 연결되면 앱에서 가져와 사용할 준비가 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 코드 생성 - JS와 C++ 간의 타입 안전성을 제공하는 유틸리티
 
@@ -551,7 +1009,18 @@ Fabric Native Component은 Fabric Renderer를 사용하여 화면에 렌더링�
 
 코드 생성은 빌드 시간에 C++ 인터페이스를 생성하여 유형 안전성을 보장합니다. 이러한 인터페이스는 네이티브 코드와 JavaScript 측 데이터 간의 동기화를 유지합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CodeGen은 정적 타입 지정된 JavaScript 방언으로 작성된 입력 명세 파일을 입력으로 받습니다. 이것은 대상 언어인 ObjC, C++ 및 Java가 모두 정적으로 타입이 지정되어 있기 때문에 그들을 위해 타입이 지정된 코드를 생성해야 하기 때문에 필요합니다. JavaScript 측에서 네이티브 측으로 전달하려는 모든 것의 인터페이스와 데이터의 정적 유형을 생성합니다. 이것이 바로 타입 안전성입니다.
 
@@ -561,7 +1030,18 @@ JSI는 강력하게 타입이 지정된 C++로 작성되었으므로 인터페�
 
 ![그림](/assets/img/Become-a-React-Native-Developer-—-The-New-Architecture_15.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코드 생성기(Codegen) 입력은 TypeScript/Flow로 작성된 JavaScript 파일들입니다. 출력물로는 JSI 바인딩, ObjC 프로토콜 및 추상 자바 클래스가 있습니다. 코드 생성기는 JSI 바인딩을 용이하게 하여 JavaScript와 네이티브 코드 간에 빠르고 직접적인 상호 작용을 가능하게 하며 브릿지를 우회합니다. 이 최적화는 React Native 앱이 네이티브와 JavaScript 간의 더 신속하고 효율적인 통신을 이루도록 합니다.
 
@@ -571,7 +1051,18 @@ Codegen을 사용하는 것은 필수적이지 않습니다. 모두 수동으로
 
 iOS에서, 코드 생성기 프로세스는 앱 빌드와 긴밀하게 결합되어 있으며, 스크립트는 react-native NPM 패키지에 있습니다. 실행해야 하는 스크립트는 MyApp/node_modules/react-native/scripts/generate-codegen-artifacts.js에 위치해 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코드 생성기는 React Native를 통해 iOS 또는 Android 앱을 빌드할 때마다 자동으로 호출됩니다. 그러나 때로는 생성된 코드를 확인하기 위해 스크립트를 수동으로 실행하고 싶을 수도 있습니다. 이는 Turbo Native Modules 및 Fabric Native Components을 개발할 때 발생하는 일반적인 시나리오입니다.
 
@@ -591,7 +1082,18 @@ iOS에서, 코드 생성기 프로세스는 앱 빌드와 긴밀하게 결합되
 
 - 실행이 빠르고 안전하며 코드가 더 적어집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기존 구조와 새로운 구조를 요약하여 비교해 봅시다:
 
@@ -608,7 +1110,18 @@ iOS에서, 코드 생성기 프로세스는 앱 빌드와 긴밀하게 결합되
 
 빠른 시작을 위해 좋습니다, 바이트 코드를 배송하며, JavaScript가 아닙니다. 코드를 바이트 코드로 컴파일합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 바이트코드로 배송되었습니다. JS가 아닙니다. 코드를 바이트코드로 컴파일하세요.
 
@@ -624,7 +1137,18 @@ iOS에서, 코드 생성기 프로세스는 앱 빌드와 긴밀하게 결합되
 
 5. 주요 Hermes 아키텍처 결정:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 바이트 코드 사전 컴파일 — 일반적으로 JavaScript 엔진은 JavaScript 소스를 실행할 때(런타임에서) 파싱한 다음 바이트 코드를 생성합니다. 이 단계는 JavaScript 실행을 지연시킵니다. 이 단계를 건너뛰기 위해 Hermes는 모바일 애플리케이션 빌드 프로세스의 일부로 실행되는 미리 컴파일하는 컴파일러를 사용합니다. 결과적으로 더 많은 시간을 바이트 코드를 최적화하는 데 사용할 수 있어서 바이트 코드가 더 작고 효율적입니다.
 - JIT가 없음 — 실행 속도를 높이기 위해 가장 널리 사용되는 JavaScript 엔진은 자주 해석되는 코드를 기계 코드로 느리게 컴파일할 수 있습니다. 이 작업을 수행하는 것은 JIT(즉시 컴파일) 컴파일러입니다. 현재 Hermes는 JIT 컴파일러를 사용하지 않습니다. 이는 Hermes가 특히 CPU 성능에 의존하는 일부 벤치마크에서 성능이 부족하다는 것을 의미합니다. 이것은 의도적인 선택이었습니다. 이러한 벤치마크는 일반적으로 모바일 애플리케이션 작업 부하를 대표하지 않습니다. JIT에 대한 일부 실험을 진행했지만, 주요 지표에 손상을 입히지 않고 유익한 속도 향상을 달성하는 것은 상당히 어렵다고 생각했습니다. 애플리케이션이 시작될 때 JIT가 준비되어야 하기 때문에 TTI(Timeline To Interactive)를 개선하는 데 어려움이 있으며, 때로는 TTI를 해치기도 합니다. 또한 JIT는 네이티브 코드 크기와 메모리 사용량을 늘리므로 주요 지표에 부정적인 영향을 미칩니다. 우리가 가장 중요하게 생각하는 지표들을 손상시킬 가능성이 높으므로 JIT를 구현하지 않기로 결정했습니다. 대신, Hermes에 대한 적절한 교환으로 인터프리터 성능에 초점을 맞추었습니다.
@@ -646,7 +1170,18 @@ project.ext.react = [
 ]
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 나태한 컴파일
 
@@ -656,7 +1191,18 @@ project.ext.react = [
 
 헤르메스는 현재 ES6 명세를 대상으로 하며, JavaScript 명세의 발전에 맞추어 업데이트할 계획입니다. 엔진 크기를 작게 유지하기 위해, React Native 앱에서 일반적으로 사용되지 않는 프록시나 로컬 eval()과 같은 몇 가지 언어 기능을 지원하지 않기로 결정했습니다. 전체 목록은 GitHub에서 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Become a React Native Developer - The New Architecture_17](/assets/img/Become-a-React-Native-Developer-—-The-New-Architecture_17.png)
 
@@ -666,7 +1212,18 @@ project.ext.react = [
 
 리액트 네이티브는 거대한 repo였습니다. 현재 주요 코드 베이스의 일부를 별도의 repos(예: WebView, ScrollView, Switches 및 기타 UI 구성 요소)로 이동함으로써 전체 코드베이스의 견고성을 향상시킬 수 있습니다. 이렇게 하면 더 많은 사람들이 참여하고 앱에서 불필요한 코드를 줄일 수 있습니다. 이점으로는 런치 시간이 더 좋아지며, 수정이 더 쉬워지고 기여하기가 더 쉬워집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/Become-a-React-Native-Developer-—-The-New-Architecture_19.png)
 
@@ -678,7 +1235,18 @@ project.ext.react = [
 - React Native 팀은 플랫폼별 도구를 제공하길 원합니다.
 - Android —
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 안드로이드에서 Gradle을 확장하는 작업을 하고 있어요. 특히 C++ 코드를 빌드하는 데 필요한 지원을 추가하고 있어요. CMake 파일은 C++를 어떻게 컴파일할지 설명해요.
 - 또한 React Native 팀은 React Native Gradle 플러그인을 다시 작성했어요. 이것은 새로운 아키텍처의 주요 코드여야 해요. 앞으로는 템플릿에 있는 react.gradle 파일을 대체할 예정이에요.
@@ -694,7 +1262,18 @@ iOS에서는 동일한 작업을 했지만 이젠 코코아팟(cocoapods)을 사
 - Fabric — Shadow 노드: 보여질 노드 트리를 빌드해요
 - Fabric — Yoga: 레이아웃을 계산해요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/Become-a-React-Native-Developer-—-The-New-Architecture_20.png)
 

@@ -3,16 +3,13 @@ title: "수학적 프로그래밍으로 자산 저장 문제 해결하는 방법
 description: ""
 coverImage: "/assets/img/2024-07-12-HowtoSolveanAssetStorageProblemwithMathematicalProgramming_0.png"
 date: 2024-07-12 20:05
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-12-HowtoSolveanAssetStorageProblemwithMathematicalProgramming_0.png
 tag: Tech
 originalTitle: "How to Solve an Asset Storage Problem with Mathematical Programming"
 link: "https://medium.com/towards-data-science/how-to-solve-an-asset-storage-problem-with-mathematical-programming-3b96b7cc22d1"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-07-12-HowtoSolveanAssetStorageProblemwithMathematicalProgramming_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 저는 석유 및 가스 서비스 업종에서 일했었어요. 나라 내에서 비즈니스 환경이 급격히 악화되고 불안정해졌던 시기가 있었어요. 일부 서비스에 대해서는 상황이 더 이상 지속할 수 없어져, 경영진이 손실을 줄이기 위해 그 서비스를 폐쇄하기로 결정했어요. 이 서비스들이 발생한 중요한 비용 중 하나는 운영 시설의 임대료인데, 임대료를 절약하기 위해 그 시설을 사용 중지하는 것이 합리적이었어요. 그러나 시설을 폐쇄한다는 것은 전체 작업장을 닫고 모든 자산을 보관 장소로 이동해야 한다는 것을 의미했어요. 기억하세요, 이건 석유 및 가스 산업입니다. 이 자산들은 수십억 달러의 가치를 지닌 고도로 정교한 도구들이에요. 이 자산 중 일부 스페어 파츠만 수천 달러의 가치를 지니며 도둑질과 불법 시장 매매의 쉬운 표적이었어요. 그래서 도전 과제는 자산을 이동시키는 것뿐만 아니라 임시로 보관하고 그 중요성을 지키는 것이었어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제 매니저인 뛰어난 분이 이 문제를 제게 제기했어요. 우리는 전체 서비스 부문의 모든 자산을 본 시설로 이전하여 안전하고 제한된 공간에 보관할 계획이라고 말씀해 주셨어요. 이러한 자산들이 매우 귀중하기 때문에 도난이나 손상 가능성을 최대한 피하고 싶었습니다. 특히 몇몇 특수 트럭은 수천 달러가치의 부품이 장착되어 있었고, 국가의 상황을 감안할 때 도난 유혹이 높았어요. 따라서, 관리 부서의 허락이 없는 한 누구도 안전 구역에 들어가선 안 되었죠. 이 규칙을 시행하기 위해 우리는 전기 울타리와 경계를 침범한 사람이 있을 경우 알람이 울리도록 연결된 적외선 센서로 해당 영역을 둘러쌌어요 (진짜 말이죠; 이건 실화입니다). 그러나 이 계획의 문제는 그 모든 방어 조치가 비용이 많이 든다는 것이었고, 이 방어 시스템을 빌려주는 회사는 총 둘러싸인 영역을 기준으로 비용을 부과했어요. 제 매니저는 안전 구역 면적을 최소화하여 비용을 줄이기 위해 이 자산들의 공간 배치 방법을 찾아보라고 했어요. 전기 울타리 회사는 둘러싸인 영역이 직사각형이나 정사각형이어야 한다고 요구했어요. 게다가, 자산에 손상을 피하기 위해 자산을 쌓을 수 없었죠 (트럭 위에 다른 트럭을 올릴 수 없어요). 그래서 우리는 문서에 공통되게 "조합 문제"라고 알려진 이차원 저장 문제를 다루게 되었어요.
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 사실, 이러한 문제를 해결하는 방법을 배우는 것이 제 학습을 계속하는 주된 동기였어요. 그래서 이 기사에서는 이 문제를 어떻게 구성하는지, 파이썬과 gurobipy를 사용하여 어떻게 해결하는지, 그리고 마지막에는 이를 해결하기 위해 적용할 수 있는 일부 휴리스틱 절차에 대해 간단히 이야기할 거예요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Gurobi를 사용해본 적이 없다면, 특히 Google Colab에서 사용하는 경우, Gurobi 웹 라이선스를 Colab 환경에 설정하는 방법을 설명한 이전의 제 글 중 하나를 읽어보시기를 권유드립니다. 아래에서 해당 글 링크를 찾아볼 수 있어요:
 
@@ -49,7 +68,18 @@ Gurobi를 사용해본 적이 없다면, 특히 Google Colab에서 사용하는 
 - 결론
 - 참고 문헌
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 아이템 조합 문제
 
@@ -59,8 +89,18 @@ Gurobi를 사용해본 적이 없다면, 특히 Google Colab에서 사용하는 
 
 이 문제에 필요한 변수는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-07-12-HowtoSolveanAssetStorageProblemwithMathematicalProgramming_2.png)
 
@@ -73,8 +113,18 @@ Gurobi를 사용해본 적이 없다면, 특히 Google Colab에서 사용하는 
 
 ![image](/assets/img/2024-07-12-HowtoSolveanAssetStorageProblemwithMathematicalProgramming_3.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 공식은 처음에는 복잡해 보일 수 있지만 실제로는 꽤 간단합니다. 목적 함수는 총 면적에 해당하며, 이는 폭과 높이인 X와 Y의 곱입니다.
 
@@ -84,7 +134,18 @@ Gurobi를 사용해본 적이 없다면, 특히 Google Colab에서 사용하는 
 
 제약 조건 (8-11)은 변수가 적절한 도메인에 속하는 것을 보장합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 라이브러리 설치 및 콜랩 환경 설정하기
 
@@ -96,7 +157,18 @@ Gurobi를 사용해본 적이 없다면, 특히 Google Colab에서 사용하는 
 
 설치가 완료되면 이 프로젝트에 필요한 라이브러리를 가져올 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import pandas as pd
@@ -126,8 +198,18 @@ env = gp.Env(params=params) #이 줄은 gurobi 환경을 초기화합니다
 
 # 입력 데이터 및 전처리
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간편함을 위해, 7가지 다른 차원의 34개 아이템만 사용하겠습니다. 이 값들은 설명을 위해 작게 유지했습니다. 이전 경험상으로는 수백 개의 엄청난 크기의 자산들과 실제로 무거운 화물 트럭들도 처리해야 했었습니다. 예시 아이템들의 차원은 표 1에 나와 있습니다.
 
@@ -159,7 +241,18 @@ K = range(4) # OR 변수 "b"의 인덱스
 
 # Gurobipy로 문제 해결
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 필요한 모든 라이브러리와 입력 데이터가 준비되었으니, Figure 3에 설명된 수학 모델을 생성할 차례입니다. GurobiPy를 사용하여 이 모델을 구현하려면 아래의 코드 스니펫을 따르면 됩니다:
 
@@ -211,15 +304,26 @@ for i in I:
 참고로 제약 조건 (8–11)은 변수 생성 단계에서 설정되었으므로 model.addConstr 메서드를 통해 명시적으로 추가할 필요가 없습니다. 이제 모델이 완성되었으니 해결할 수 있습니다. 이 문제를 해결하기 위해 아래 코드를 따라주세요:
 
 ```js
-tl = 600
-mip_gap = 0.05
+tl = 600;
+mip_gap = 0.05;
 
-model.setParam('TimeLimit', tl)
-model.setParam('MIPGap', mip_gap)
-model.optimize()
+model.setParam("TimeLimit", tl);
+model.setParam("MIPGap", mip_gap);
+model.optimize();
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 600초 후에도 최적 솔루션에는 아직 멀리 떨어져 있지만 사용 영역이 크게 줄어들었습니다. 초기 값 620에서 최종 값 238로 줄었습니다. 이는 초기 솔루션의 약 1/3에 해당하는 값입니다. 나쁘지 않죠.
 
@@ -267,7 +371,18 @@ ax.set_title(f" Total area {total_X} x {total_Y} = {int(obj)}")
 plt.show()
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래의 그림 5에서 얻은 조합 솔루션을 시각화할 수 있습니다.
 
@@ -286,7 +401,18 @@ output_df = pd.DataFrame(output_list)
 output_df.to_csv("output_solution.csv") # 솔루션을 .csv 파일로 다운로드
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 휴리스틱 솔루션 구성
 
@@ -296,7 +422,18 @@ output_df.to_csv("output_solution.csv") # 솔루션을 .csv 파일로 다운로�
 
 ## FFDH: 첫 번째 적합 감소 높이 휴리스틱
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 접근 방식으로는, 간단히 사각형을 높이 순으로 정렬한 다음 각 자산을 왼쪽에서 오른쪽으로 이동하면서 맞는 첫 번째 위치에 배치합니다. 이 휴리스틱을 구현하기 위해 Python에서 새로운 클래스를 만든 후 해당 클래스의 인스턴스와 함께 작동하는 함수로 휴리스틱을 개발할 것입니다. 아래의 코드를 사용하여 간단히 새 클래스를 만들고 각 자산을 인스턴스화할 수 있습니다:
 
@@ -312,10 +449,10 @@ class Rectangle_class:
         self.index = index
 
 # 모든 자산의 목록 만들기
-rectangles = [] 
+rectangles = []
 
 # 각 자산을 위해 사각형 인스턴스 초기화
-for i in range(len(data_df)): 
+for i in range(len(data_df)):
     h, w = data_df.iloc[i,0], data_df.iloc[i,1]
     REC = Rectangle_class(w, h, i)
     rectangles.append(REC)
@@ -355,7 +492,18 @@ def ffdh(rectangles):
     return rectangles, total_width, total_height
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 함수는 수정된 좌표와 함께 자산의 총 너비와 높이를 반환합니다. 이 휴리스틱을 사용하여 34개의 자산 문제에 대해 어떤 결과를 얻을 수 있는지 확인해보겠습니다.
 
@@ -397,7 +545,18 @@ plt.show()
 
 <img src="/assets/img/2024-07-12-HowtoSolveanAssetStorageProblemwithMathematicalProgramming_6.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 휴리스틱으로 제공된 솔루션은 총 620의 면적을 갖고 있습니다. 우연히도 이 값은 Gurobi의 시작점이기도 했습니다. 솔루버가 가지-및-한정 알고리즘을 시작하기 전에, 초기 솔루션을 미세 조정하기 위해 여러 휴리스틱을 적용하며, 아마도 이 휴리스틱이 하나일 것입니다.
 
@@ -433,7 +592,18 @@ def shelf_heuristic(rectangles, max_width):
     return rectangles, total_width, total_height
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 좌표와 폭, 높이 값을 결정한 뒤, 해당 사각형을 도형으로 그려보세요. 이것이 우리가 34개의 자산과 선반 너비 20을 사용했을 때 발생한 결과입니다. 결과는 아래 그림 7에 표시되어 있습니다:
 
@@ -475,8 +645,18 @@ plt.show()
 
 <img src="/assets/img/2024-07-12-HowtoSolveanAssetStorageProblemwithMathematicalProgramming_7.png" />
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 휴리스틱으로 제공된 솔루션은 총 340의 면적을 가지고 있으며, FFDH로부터 얻은 면적의 거의 절반이 됩니다. 이는 이 휴리스틱처럼 빠르게 실행되는 휴리스틱이며, 자산의 회전을 허용하지 않기 때문에 휴리스틱의 품질이 크게 향상될 것으로 예상되는 것을 고려할 때 훌륭합니다. 이 문제에는 수십 개의 휴리스틱이 있음을 유의해 주세요. 저희는 인기 있는 두 가지만 다루었을 뿐이니, 더 자세한 정보는 참고 문헌 [6-8]을 확인해 주세요.
 
@@ -486,11 +666,22 @@ plt.show()
 
 Gurobi와 같은 최신 솔버는 사용자가 모델을 설정할 때 "웜 스타트" 솔루션을 제공할 수 있도록 합니다. 이 초기 솔루션은 최적화 프로세스를 더 효율적으로 만들어 줍니다. 저희의 선반 휴리스틱으로부터 얻은 솔루션에서 값을 추출하고 모델에서 기대하는 형식으로 솔루션을 변환할 수 있습니다. 기억하세요, 이에는 좌표 뿐만 아니라 총 너비, 높이, 회전 변수 및 겹치는 변수 b_i_j_k도 포함됩니다. 아래의 코드 스니펫을 사용하여 휴리스틱에서 솔루션을 쉽게 변환할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 heuristic_dict = dict()
-for rect in packed_rectangles: 
+for rect in packed_rectangles:
   index = rect.index
   heuristic_dict[index] = rect
 
@@ -502,7 +693,7 @@ for i in I:
     else:
       rect_i = heuristic_dict[i]
       rect_j = heuristic_dict[j]
-      
+
       # b의 초기값을 0으로 설정
       b_values[(i,j,0)] = 0
       b_values[(i,j,1)] = 0
@@ -520,7 +711,7 @@ for i in I:
         b_values[(i,j,2)] = 1
 
       if rect_j.y + rect_j.height <= rect_i.y:
-        b_values[(i,j,3)] = 1   
+        b_values[(i,j,3)] = 1
 
 # x, y 및 r의 솔루션 값을 저장
 x_dict = dict()
@@ -583,16 +774,26 @@ for var in B:
 
 이제 모델이 웜 스타트로 초기화되었으므로 해결할 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-tl = 600
-mip_gap = 0.05
+tl = 600;
+mip_gap = 0.05;
 
-model.setParam('TimeLimit', tl)
-model.setParam('MIPGap', mip_gap)
-model.optimize()
+model.setParam("TimeLimit", tl);
+model.setParam("MIPGap", mip_gap);
+model.optimize();
 ```
 
 만약 모든 게 예정대로 진행된다면, 최적화 프로세스를 시작하기 위해 사용자가 제공한 솔루션으로부터 시작한다는 솔버의 메시지가 나타날 것입니다. 아래 그림 8과 같이 보일 것입니다.
@@ -601,8 +802,18 @@ model.optimize()
 
 # 결론
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 글을 마무리하며, 수학적 프로그래밍을 사용하여 2차원 배열 문제를 해결하는 방법에 대한 세부적인 여정을 안내했습니다. 이 문제에 대한 혼합 정수 선형 프로그래밍 공식 및 일부 고전적인 인공 지능을 사용하여 이 문제를 해결하는 방법에 대해 논의했습니다. 또한 이러한 인공 지능에서 얻은 해결책을 우리의 솔버에 대한 초기 설정값으로 사용하는 방법을 다뤘습니다. 이 글이 현재 직무에서 비슷한 도전에 직면한 사람들에게 유용한 자원으로 기여하기를 희망합니다. 그당시 이 지식을 가지고 있었으면 정말 좋았을 텐데, 그럼에도 불구하고 항상 배우는 것은 늦지 않습니다. 이 글에 사용된 코드 전체를 포함한 노트북은 아래 나의 GitHub 저장소 링크에서 찾을 수 있습니다.
 

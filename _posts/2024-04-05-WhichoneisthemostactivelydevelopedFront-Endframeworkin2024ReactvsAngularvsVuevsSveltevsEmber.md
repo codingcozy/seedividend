@@ -3,17 +3,13 @@ title: "2024년 가장 많이 사용되는 프론트엔드 프레임워크는  R
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Which one is the most actively developed Front-End framework in 2024  React vs Angular vs Vue vs Svelte vs Ember"
 link: "https://medium.com/@borzifrancesco/which-one-is-the-most-actively-developed-front-end-framework-in-2024-d662c9951ecc"
 isUpdated: true
 ---
-
-
-
-
 
 # 또 다른 프론트엔드 프레임워크 비교?
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 더 짜즯네 한 점은 그 중 대부분이 얕은 정보를 던지고 공통으로 말하는 정치적으로 옳다고 할 수 있는 결론을 하려고 해요. "모든 프레임워크는 충분히 좋으니까, 선택은 당신의 취향과 특별한 필요에 달려있어요" 정도로 요약할 수 있겠죠. 이런 글들은 독자를 더 헷갈리게 만들죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 가장 거슬리는 것은 이러한 종류의 비교 기사들이 서로서로 "Angular를 배우는 게 어렵다"나 "React는 빠른 개발에 좋다"와 같은 평범한 주장들을 그냥 복사하는 것 같다는 점입니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 이 기사에서 제가 보여주고 싶은 것은 객관적인 데이터입니다: 각 프론트엔드 프레임워크의 개발 활동에 관한 통계입니다. 이 기사에서는 이미 GitHub에 공개된 정보를 그룹화했습니다. 이 프레임워크들이 오픈 소스라는 것은 정말 멋진 점이지요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 실험에서 나는 2024년에 가장 인기 있는 프론트엔드 프레임워크로 보이는 React, Angular, Vue, Svelte 및 Ember를 선택했습니다. 다른 중요한 것이 빠졌다고 생각되면 언제든지 연락해 주세요.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 새로운 응용 프로그램을 위한 프레임워크를 선택할 때 가장 활발하게 개발 중인 옵션을 확인하는 것이 중요합니다. 물론 이것이 고려해야 할 유일한 요소는 아니지만 실제로 중요한 역할을 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요! 보안, 빈번한 버그 수정, 커뮤니티 지원, 호환성, 지속적인 성능 및 기능 향상, 장기적인 지속 가능성, 산업 변화에 대한 적응력에 중요한 역할을 하는 것은 활발하게 개발 중인 프레임워크를 선택하는 것입니다.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 아래에 표시된 모든 통계는 2024년 2월 1일에 수집된 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 5. Ember
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 ## 4. Vue
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 소스: https://github.com/vuejs/core/pulse/monthly
 
@@ -73,7 +124,18 @@ isUpdated: true
 
 소스: https://github.com/sveltejs/svelte/pulse/monthly
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/WhichoneisthemostactivelydevelopedFront-Endframeworkin2024ReactvsAngularvsVuevsSveltevsEmber_3.png" />
 
@@ -83,7 +145,18 @@ isUpdated: true
 
 ![이미지](/assets/img/WhichoneisthemostactivelydevelopedFront-Endframeworkin2024ReactvsAngularvsVuevsSveltevsEmber_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1. Angular
 
@@ -93,7 +166,18 @@ isUpdated: true
 
 # 프론트엔드 프레임워크 개발 활동 비교
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 20개 모든 FE 프레임워크의 개발 활동 통계를 비교하기 위한 표를 만들었습니다:
 
@@ -103,7 +187,18 @@ React는 2위에 올랐습니다. 14명의 고유 기여자로 이루어진 작�
 
 위의 표의 이미지 버전을 참고하고 싶을 경우 다음을 복사하여 붙여넣기해보세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024 Front-End Framework Comparison](/assets/img/WhichoneisthemostactivelydevelopedFront-Endframeworkin2024ReactvsAngularvsVuevsSveltevsEmber_6.png)
 

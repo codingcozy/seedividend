@@ -3,17 +3,13 @@ title: "CSS에서 멋진 반전된 테두리 반지름 만들기 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How to make a fancy inverted border radius in CSS"
 link: "https://medium.com/itnext/how-to-make-a-fancy-inverted-border-radius-in-css-5db048a53f95"
 isUpdated: true
 ---
-
-
-
-
 
 얼마 전에 Emre Mazursky가 올린 흥미로운 Dribbble 게시물을 발견했는데, 제 뇌에서는 용어 부분에서 더 나은 영감이 없어서 '역반전 둥근 테두리 반경'이라고 불렀습니다. 이 아름다운 디자인을 몇 줄의 CSS로 만드는 방법을 알아봅시다!
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 시작 코드는 정말 기본적입니다. body에 하나의 div를 추가하고 div와 본문 자체에 대한 몇 가지 css를 추가하면 일반적인 테두리 반경을 가진 상자가 만들어집니다. 이제 반전된 효과를 적용해 봅시다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1. 모서리를 곧게 만들기
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ## 2. 가상 요소 생성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 역방향 모서리 반경을 만드는 요령(적어도 이 방법을 사용하는 경우)은 의사 요소를 만들고 그 요소에서 일반적인 모서리 반경을 잘라내는 것입니다. 의사 요소를 설정하고 동시에 이미 모서리 반경을 추가하여 일을 좀 더 빠르게 해 봅시다!
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 ## 3. 의사 요소에 그림자 추가
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이렇게 하면 테두리 반지름이 외부로 나가게 됩니다! 우리가 원하는 것은 div와 의사 요소 사이의 공간을 채워서, 만약 div와 동일한 색상을 주면 역전된 테두리 반지름처럼 보이도록 하는 것입니다! 이 색상을 채우는 가장 좋은 방법은 박스 그림자를 사용하는 것입니다. 의사 요소에 박스 그림자를 추가하고 위쪽으로 움직여, 흐림 없이 효과를 얻을 수 있습니다!
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 ![HowtomakeafancyinvertedborderradiusinCSS_4](/assets/img/HowtomakeafancyinvertedborderradiusinCSS_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래에는이 예제에 대한 전체 CSS 코드가 있습니다.
 

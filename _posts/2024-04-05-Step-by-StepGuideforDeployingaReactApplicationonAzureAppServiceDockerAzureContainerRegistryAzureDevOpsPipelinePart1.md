@@ -3,17 +3,13 @@ title: "리액트 애플리케이션을 Azure App Service, Docker, Azure Contain
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Step-by-Step Guide for Deploying a React Application on Azure App Service, Docker, Azure Container Registry , Azure DevOps Pipeline  Part 1"
 link: "https://medium.com/@yogender.singh.wd/step-by-step-guide-for-deploying-a-react-application-on-azure-app-service-docker-azure-container-a3ad2f79bdb1"
 isUpdated: true
 ---
-
-
-
-
 
 Azure App Service에 React 애플리케이션을 배포하는 것은 올바르게 수행한다면 매우 원활한 프로세스일 수 있어요. 이 포괄적인 가이드에서는 각 단계를 세심하게 안내하며, 필요한 경우 효과적으로 문제를 해결할 수 있도록 보장해 드릴 거예요. 게다가 이곳에서 설명하는 단계는 React 애플리케이션에만 한정되지 않아요. 도커화된 프로젝트에 유사한 원칙을 적용할 수 있답니다.
 
@@ -23,7 +19,18 @@ Azure App Service에 React 애플리케이션을 배포하는 것은 올바르�
 
 먼저 npx create-react-app react-demo 명령을 사용하여 새 React 앱을 생성하세요. 그런 다음, 일반적으로 "build": "react-scripts build"처럼 패키지.json 파일에 빌드 명령이 올바르게 설정되어 있는지 확인하세요. 제품 빌드를 생성하려면 npm run build를 실행하세요. 모든 것이 예상대로 작동하는지 확인하기 위해 npx http-server .와 같은 로컬 서버를 사용하여 로컬에서 빌드를 확인하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 2: React 앱에 Docker 적용하기
 
@@ -34,7 +41,18 @@ Docker 자산을 편리하게 관리하기 위해 Docker Desktop을 설치해보
 
 다음은 Dockerfile의 간소화된 버전입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 단계 1: React 앱 빌드하기
@@ -56,7 +74,18 @@ EXPOSE 80
 
 ## 단계 4: 이미지 실행 및 컨테이너 확인
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Docker Desktop에서 이미지 섹션으로 이동하여 원하는 이미지를 클릭하고 포트를 지정하여 실행합니다. 또는 docker run -p 4000:80 react-demo과 같은 터미널 명령어를 사용하여 컨테이너를 실행할 수도 있습니다.
 
@@ -70,7 +99,18 @@ Azure 컨테이너 레지스트리 (ACR)는 Azure 생태계 내에서 Docker 컨
 - 향후 작업: 로컬 환경이나 CI/CD 파이프라인에서 Docker 이미지를 레지스트리에 푸시할 준비를 합니다. 이 단계는 Azure App Service 또는 Azure Kubernetes Service (AKS)와 같은 Azure 서비스에서 이미지에 액세스할 수 있도록 하는 데 필수적입니다.
 - 이러한 단계를 따라 Azure 컨테이너 레지스트리를 신속하게 구성하여 Azure에서 컨테이너 이미지를 안전하게 저장하고 관리할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 6: React 이미지를 Azure 컨테이너 레지스트리에 푸시하는 방법: 재미있는 시작!
 
@@ -84,7 +124,18 @@ React 애플리케이션을 도커 이미지로 만든 후, Azure 컨테이너 �
 
 옵션 2: Azure CLI 사용 (일부 자동화)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # Azure에 로그인
@@ -112,7 +163,18 @@ docker push <ACR-registry-name>.azurecr.io/<image-name>:<image-tag>
 
 배포를 완료하기 위해, Azure App Service에 애플리케이션을 설정하는 방법은 다음 단계를 따르세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Azure 포털에 액세스하세요: portal.azure.com에 가서 "App Service"를 검색합니다.
 - 새 서비스 생성:
@@ -144,7 +206,18 @@ Azure App Service에 애플리케이션이 배포되면 Azure 포털의 왼쪽 �
 
 여기서 중요한 부분은, 컨테이너 레지스트리 세부 정보와 함께 웹훅 URL이 존재한다는 것입니다. 이 웹훅은 배포 프로세스의 중요한 구성요소로 작용합니다. 새 이미지가 컨테이너 레지스트리에 푸시될 때마다 이 웹훅이 트리거됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Webhook은 본질적으로 통신 메커니즘이며, Azure 앱 서비스에 애플리케이션 Docker 이미지의 업데이트를 알리는 역할을 합니다. 이 자동화된 프로세스는 수동 개입없이 애플리케이션이 최신 상태를 유지하도록 보장합니다. 이는 배포 워크플로우를 간소화하며 컨테이너 레지스트리와 Azure 앱 서비스 간의 원활한 통합을 제공합니다.
 

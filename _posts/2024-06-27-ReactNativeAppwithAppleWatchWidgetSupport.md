@@ -3,16 +3,13 @@ title: "Apple Watch와 위젯을 지원하는 React Native 앱 개발 방법"
 description: ""
 coverImage: "/assets/img/2024-06-27-ReactNativeAppwithAppleWatchWidgetSupport_0.png"
 date: 2024-06-27 14:23
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-27-ReactNativeAppwithAppleWatchWidgetSupport_0.png
 tag: Tech
 originalTitle: "React Native App with Apple Watch , Widget Support"
 link: "https://medium.com/simform-engineering/react-native-app-with-apple-watch-widget-support-9daef5e131d7"
 isUpdated: true
 ---
-
-
-
 
 ## 사용자들의 손목에 앱을 확장해보세요
 
@@ -22,7 +19,18 @@ React Native를 사용하여 모바일 앱을 개발하는 것을 모두가 좋�
 
 맞죠! React Native 애플리케이션에서 스마트 워치 기기도 지원한다는 것이죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 글에서는 Apple watchOS 애플리케이션을 React Native 애플리케이션과 통합하는 방법을 배우겠습니다. 더불어, 워치 페이스의 복잡성으로 설정할 수 있는 위젯도 생성할 것입니다.
 
@@ -33,7 +41,18 @@ React Native를 사용하여 모바일 앱을 개발하는 것을 모두가 좋�
 
 # 개발 환경 설정
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 watchOS 앱을 React Native 앱에 추가하기 위해 Apple에서 제공하는 IDE인 Xcode를 사용할 거에요.
 
@@ -43,7 +62,18 @@ watchOS 앱을 React Native 앱에 추가하기 위해 Apple에서 제공하는 
 
 iOS와 watchOS 앱 간 통신을 구현하기 위해 react-native-watch-connectivity라는 라이브러리를 사용할 거에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이 패키지를 설치하려면 프로젝트에 따라 yarn 또는 npm을 사용할 수 있습니다:
 
@@ -57,7 +87,18 @@ yarn add react-native-watch-connectivity
 
 코코아팟도 설치하는 것을 잊지 마세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 cd ios && pod install && cd ..
@@ -69,7 +110,18 @@ cd ios && pod install && cd ..
 
 이제 iOS 앱을 설정했으므로, watchOS 앱을 개발하기 시작해 봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Xcode를 열어 iOS 프로젝트를 엽니다. 툴바에서 File - New - Target를 선택합니다.
 
@@ -79,7 +131,18 @@ Xcode를 열어 iOS 프로젝트를 엽니다. 툴바에서 File - New - Target�
 
 다음으로, watchOS 앱에 대한 자세한 정보를 제공하는 또 다른 창이 표시됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 창에서 워치OS 앱의 앱 이름과 번들 식별자를 제공해주세요.
 
@@ -87,7 +150,18 @@ Xcode를 열어 iOS 프로젝트를 엽니다. 툴바에서 File - New - Target�
 
 Finish 버튼을 클릭한 후에는 Xcode 프로젝트에 새 폴더가 추가된 것을 알 수 있습니다. 해당 폴더에는 우리의 watchOS 프로젝트 파일이 포함되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 워치OS 앱의 UI 디자인
 
@@ -97,7 +171,18 @@ Finish 버튼을 클릭한 후에는 Xcode 프로젝트에 새 폴더가 추가�
 
 우리의 ContentView는 다음과 같이 보여야 합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 기능 구현하기
 
@@ -107,7 +192,18 @@ Finish 버튼을 클릭한 후에는 Xcode 프로젝트에 새 폴더가 추가�
 
 - iOS 앱이 발신자
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 워치OS 앱에 메시지를 보내려면 React Native 앱에 설치된 패키지를 사용해야 합니다.
 
@@ -117,7 +213,18 @@ react-native-watch-connectivity에서 sendMessage 및 getReachability 함수를 
 
 - 수신자로서 워치OS 앱
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 watchOS 앱이 iOS 앱에서 전송된 메시지를 수신하도록 설정하려면 새 Swift 파일을 만들어 ConnectionHelper.swift로 이름을 지정합시다. 이 클래스를 사용하여 iOS 앱에서 보내는 메시지와 이벤트를 캡처할 것입니다.
 
@@ -127,7 +234,18 @@ watchOS 앱이 iOS 앱에서 전송된 메시지를 수신하도록 설정하려
 
 코드를 깨끗하게 유지하기 위해 ConnectionHelper 클래스의 확장(extension)을 만들고 거기에 WCSessionDelegate를 구현하세요. 확장(extension)은 아래 표시된 메서드를 반드시 구현해야 한다는 필수 조건이 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 방법은 WCSession의 활성화 상태에 변경이 있는지 표시하는 데 유용합니다. 이것은 iOS 앱과 페어링된 Apple Watch 간의 통신이 현재 활성화되어 있는지 확인할 수 있다는 뜻입니다. 그렇지 않으면 오류가 발생합니다.
 
@@ -137,7 +255,18 @@ watchOS 앱이 iOS 앱에서 전송된 메시지를 수신하도록 설정하려
 
 변수 count를 선언하고 Published로 주석을 달고 ObservableObject 프로토콜을 클래스에 구현했습니다. 왜냐하면 이 count 변수가 변경될 때마다 추적하고 싶기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 iOS 앱에서 이벤트를 받을 때마다 count 값을 업데이트하는 로직을 구현해야 합니다. 이를 위해 ConnectionHelper 확장에서 정의한 didReceiveMessage 메서드를 사용할 것입니다.
 
@@ -147,7 +276,18 @@ watchOS 앱이 iOS 앱에서 전송된 메시지를 수신하도록 설정하려
 
 ## watchOS 앱에서 iOS 앱으로 메시지 보내기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - watchOS 앱을 보낸 사람
 
@@ -157,7 +297,18 @@ watchOS 앱에서 iOS 앱으로 메시지를 보내기 위해, 먼저 Connection
 
 그러나 기다려주세요! 아직은 iOS 앱을 설정하여 watchOS 앱에서 보낸 메시지를 수신할 준비를 마치지 않았습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - **수신기로 사용되는 iOS 앱**
 
@@ -167,7 +318,18 @@ watchOS 앱에서 iOS 앱으로 메시지를 보내기 위해, 먼저 Connection
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1076/1*PqaAgPuCgE1W_RGKEC9r7Q.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 워치OS 애플리케이션에 위젯 추가하기
 
@@ -177,8 +339,18 @@ watchOS 앱에서 iOS 앱으로 메시지를 보내기 위해, 먼저 Connection
 
 프로젝트에 '위젯 익스텐션'이라는 새로운 타겟을 추가할 것이며, 이는 워치OS 타겟과 유사합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![ReactNativeAppwithAppleWatchWidgetSupport image 2](/assets/img/2024-06-27-ReactNativeAppwithAppleWatchWidgetSupport_2.png)
 
@@ -188,8 +360,18 @@ watchOS 앱에서 iOS 앱으로 메시지를 보내기 위해, 먼저 Connection
 
 위젯 확장 대상을 설정한 후 프로젝트에 새 폴더가 표시됩니다. 이 경우 CounterWidget이라는 이름의 폴더가 있습니다. 이 폴더에는 처음에 AppIntent 및 CounterWidget이라는 두 개의 Swift 파일이 포함되어 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-27-ReactNativeAppwithAppleWatchWidgetSupport_4.png" />
 
@@ -199,7 +381,18 @@ UI를 수정하기 전에 먼저 위젯 확장에 count 변수를 설정해보�
 
 이를 위해 AppIntent 파일을 열고 currentCount라는 변수를 선언하고 다음 코드 스니펫에 표시된대로 생성자를 설정해주세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위젯 UI를 디자인하기 위해 CounterWidget 파일을 열어보세요. 위젯 확장을 생성할 때 Xcode에서 자동으로 생성한 EntryView로 스크롤하세요. 아래에 보여지는 대로 현재 카운트 변수를 보여줄 매우 간단한 텍스트 구성요소를 만들 것입니다:
 
@@ -209,7 +402,18 @@ UI를 수정하기 전에 먼저 위젯 확장에 count 변수를 설정해보�
 
 watchOS 앱과 위젯 확장 사이에서 공유할 단일 속성을 추가하려면 watchOS와 위젯 확장 모두에 App Groups이라는 새 능력을 추가해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해당 방법을 수행하려면, 프로젝트 설정을 열고, 타겟을 선택한 다음, Signing & Capabilities 탭을 선택하세요. 그러면 + Capability 버튼을 클릭하여 그 창에서 타겟을 선택하세요.
 
@@ -219,7 +423,18 @@ App Groups을 기능으로 추가한 후에는, 이 창 안에 이 섹션이 표
 
 ![image](/assets/img/2024-06-27-ReactNativeAppwithAppleWatchWidgetSupport_6.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제, 여러 대상에서 사용되고 프로젝트에서 데이터가 저장되고 사용될 컨테이너에 대한 유효한 식별자(또한 UserDefaults의 스위트 이름으로 사용될 것)를 제공해주세요.
 
@@ -229,7 +444,18 @@ App Groups을 기능으로 추가한 후에는, 이 창 안에 이 섹션이 표
 
 CounterWidget 파일에는 사용자 인터페이스(UI)를 관리하는 모든 로직과 해당 기능이 포함될 것입니다. 그러나, 주요 기능은 지정된 간격으로 위젯의 UI를 새로 고치는 timeline 함수입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앞으로 나아가면, 우리 앱 그룹이 준비되었으니, watchOS 앱과 위젯 익스텐션 간에 데이터를 공유하기 위한 메커니즘을 설정해 봅시다.
 
@@ -239,7 +465,18 @@ watchOS 타겟 폴더에 선언된 ConnectionHelper 클래스 내부에 appCount
 
 다음 단계에서, 위젯의 UI 내에 이를 표시하고 싶다면, 위젯의 Timeline Provider를 수정해야 합니다. 이를 위해 CounterWidget 파일 내의 미리 생성된 Provider 구조로 이동하십시오.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, 해당 구조체의 범위 내에서 appCount 변수를 선언하고 프로바이더 함수를 아래와 같이 수정해야 합니다:
 
@@ -249,8 +486,18 @@ watchOS 타겟 폴더에 선언된 ConnectionHelper 클래스 내부에 appCount
 
 이제 iOS 애플리케이션에서 카운트를 수정해 보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1196/1*u8y-X3CelS4YDm0JLFuIdg.gif)
 
@@ -260,7 +507,17 @@ React Native 앱을 watchOS와 연동하고 워치 페이스용 위젯을 지원
 
 이제 WatchKit과 WidgetKit을 사용하여 멋진 앱을 만들어보세요. 아이디어와 프로젝트를 아래 댓글에서 공유해주세요.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 행복한 코딩! 😉

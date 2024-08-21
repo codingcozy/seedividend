@@ -3,20 +3,15 @@ title: "react-textarea-autosize 라이브러리 사용 방법 정리"
 description: "React에서 텍스트인풋의 사이즈를 자동으로 조절해주는 react-textarea-autosize 라이브러리의 사용 방법을 정리한 것입니다"
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
 
-
-
-
-
 # react-textarea-autosize 라이브러리 사용 방법 정리
-
 
 1. 소개
 
@@ -50,7 +45,6 @@ isUpdated: true
 
    - 주의해야 할 점 및 알아두면 유용한 팁 소개
 
-
 **React-textarea-autosize 라이브러리 소개**
 
 React-textarea-autosize는 React 애플리케이션에서 사용할 수 있는 자동으로 크기가 조절되는 `<textarea>`를 생성해주는 라이브러리입니다. 이 라이브러리를 사용하면 텍스트 내용에 따라 `<textarea>`의 높이가 자동으로 조절되므로 사용자 경험을 향상시킬 수 있습니다.
@@ -67,7 +61,18 @@ React-textarea-autosize는 React 애플리케이션에서 사용할 수 있는 �
 
 이러한 특징들로 인해 React-textarea-autosize는 React 기반 프로젝트에서 텍스트 입력 요소를 사용할 때 매우 유용한 도구로 평가되고 있습니다. 사용자 경험을 향상시키고 코드 작성을 더 간단하게 만들어주는 이 라이브러리는 React 개발자들 사이에서 널리 사용되고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## autosize textarea 의 필요성
 
@@ -103,7 +108,18 @@ yarn add react-textarea-autosize
 
 설치가 완료되면 React 애플리케이션의 컴포넌트에서 `react-textarea-autosize`를 가져와 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 프로젝트에 라이브러리 추가하기
 
@@ -130,7 +146,18 @@ function MyComponent() {
 
 이것으로 프로젝트에 `react-textarea-autosize` 라이브러리를 추가하고 사용할 준비가 되었습니다. 이제 해당 컴포넌트를 사용하여 자동으로 크기가 조절되는 `<textarea>`를 만들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 기본 사용법
 
@@ -290,7 +317,18 @@ function MyComponent() {
 
 이러한 고급 사용법을 활용하면 `<TextareaAutosize>` 컴포넌트를 더욱 다양하고 유연하게 활용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 5. 예제와 실습
 

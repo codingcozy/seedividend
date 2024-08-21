@@ -3,17 +3,13 @@ title: "HTML, CSS, 그리고 JavaScript로 핑퐁 게임 만들기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Building a Ping Pong Game with HTML, CSS, and JavaScript A Step-by-Step Guide"
 link: "https://medium.com/web-3-digitals/building-a-ping-pong-game-with-html-css-and-javascript-a-step-by-step-guide-91f607eb0a10"
 isUpdated: true
 ---
-
-
-
-
 
 ![BuildingaPingPongGamewithHTMLCSSandJavaScriptAStep-by-StepGuide_0](/assets/img/BuildingaPingPongGamewithHTMLCSSandJavaScriptAStep-by-StepGuide_0.png)
 
@@ -35,7 +31,18 @@ isUpdated: true
 
 이 프로젝트는 HTML, CSS, 그리고 JavaScript의 기본 요소를 사용하여 즐겁고 상호작용적인 핑퐁 게임을 만드는 데 도움을 줄 것입니다. 이 과정을 통해 애니메이션, 사용자 참여, 그리고 게임의 기본 원칙에 관련된 중요한 기술들을 습득할 것입니다. 이는 웹 개발의 동적인 분야에 대한 훌륭한 입문서가 될 것입니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 프로젝트 개요
 
@@ -45,7 +52,18 @@ isUpdated: true
 
 이 프로젝트에서는 다음과 같은 특징을 갖춘 탁구 게임을 개발할 예정입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 두 명용 패들: 게임에는 사용자와 컴퓨터용 패들이 포함되어 상호 작용하는 게임플레이를 가능하게 합니다.
 - 공 움직임: 패들 간에 공이 움직이며, 플레이어들은 계속해서 공을 주고받아 게임을 이어나가야 합니다.
@@ -59,7 +77,18 @@ isUpdated: true
 
 코드를 작성할 텍스트 편집기나 IDE(예: Visual Studio Code)가 필요하며, 테스트를 위해 웹 브라우저가 필요합니다. 선택 사항으로는 애플리케이션을 호스팅하기 위한 GitHub 계정이 포함될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 코드 구조
 
@@ -69,13 +98,35 @@ isUpdated: true
 
 index.html 파일을 열고 다음 HTML 코드를 병합하여 "핑퐁 게임"을 만들어보세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 HTML 코드는 핑퐁 게임의 기본 구조를 설정합니다. 시작, 일시정지 및 재시작 버튼이 있는 헤더와 이미지 로고가 포함되어 있습니다. 게임 영역은 게임 렌더링을 위한 ping-pong id가 있는 캔버스 요소로 구성되어 있습니다.
 
 스타일링을 위한 외부 CSS 파일과 게임 기능을 위한 JavaScript 파일에 대한 링크가 포함되어 있으며, 스크립트 태그는 최적의 로딩을 위해 defer로 설정되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `style.css` 파일을 열고 다음 CSS 코드를 붙여넣어 Ping Pong 게임을 스타일링하세요:
 
@@ -156,7 +207,18 @@ body{
 
 ## 단계 3. JavaScript 로직:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 'script.js' 파일을 열고 다음 JavaScript 코드를 사용하여 핑퐁 게임에 기능을 추가하세요:
 
@@ -235,13 +297,7 @@ function drawNet() {
 
   // 오른쪽 절반 네트 그리기
   for (let i = 0; i <= canvas.height; i += netSpacing) {
-    drawRectangle(
-      net.x + net.width - netWidth,
-      net.y + i,
-      netWidth,
-      net.height,
-      net.color
-    );
+    drawRectangle(net.x + net.width - netWidth, net.y + i, netWidth, net.height, net.color);
   }
 }
 
@@ -281,13 +337,7 @@ function render() {
 
   // 사용자 및 컴퓨터 패들 그리기
   drawRectangle(user.x, user.y, user.width, user.height, user.color);
-  drawRectangle(
-    computer.x,
-    computer.y,
-    computer.width,
-    computer.height,
-    computer.color
-  );
+  drawRectangle(computer.x, computer.y, computer.width, computer.height, computer.color);
 
   // 공 그리기
   drawCircle(ball.x, ball.y, ball.radius, ball.color);
@@ -317,9 +367,7 @@ function collision(b, p) {
   p.left = p.x;
   p.right = p.x + p.width;
 
-  return (
-    b.right > p.left && b.bottom > p.top && b.left < p.right && b.top < p.bottom
-  );
+  return b.right > p.left && b.bottom > p.top && b.left < p.right && b.top < p.bottom;
 }
 
 // 공 초기화 함수
@@ -407,7 +455,18 @@ pauseBtn.addEventListener("click", () => {
 
 캔버스에 도형을 그리고 게임 요소를 업데이트하고 게임 루프를 애니메이션화하는 함수가 포함되어 있습니다. 컴퓨터 패들은 공의 수직 위치를 따르는 간단한 AI를 갖고 있습니다. 점수는 공이 패들을 지나치는 것을 기준으로 합니다. 공이 패들에 부딪힐 때마다 게임 속도가 증가합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 배운 교훈
 
@@ -417,7 +476,18 @@ pauseBtn.addEventListener("click", () => {
 
 핑퐁 게임을 플레이하려면 다음 단계를 따라주세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 게임 시작하기: 게임을 시작하려면 시작 버튼을 클릭하세요. 이렇게 하면 공이 움직이기 시작하고, 사용자 및 컴퓨터가 패들을 제어합니다.
 - 패들 제어하기: 패들(즉, 빨간 패들)을 마우스로 상하로 이동하여 데스크톱에서 공을 쳐라.
@@ -431,7 +501,18 @@ pauseBtn.addEventListener("click", () => {
 
 게임하기: https://wasiu-akindoyin.github.io/Ping-Pong-Game-Web-Application/
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 텍스트를 친근한 톤으로 한국어로 번역하면 다음과 같습니다:
 
@@ -446,7 +527,18 @@ GitHub 저장소에 접속하여 소스 코드를 확인하거나 기여할 수 
 - 향상된 그래픽 및 애니메이션
 - 플레이어 점수 및 게임 기록을 저장하기 위한 백엔드 서버 통합
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

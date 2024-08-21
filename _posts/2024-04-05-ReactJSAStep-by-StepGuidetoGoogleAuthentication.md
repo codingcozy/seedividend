@@ -3,17 +3,13 @@ title: "React JS 구글 인증 단계별 안내"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "React JS  A Step-by-Step Guide to Google Authentication"
 link: "https://medium.com/@muhammedsahad/react-js-a-step-by-step-guide-to-google-authentication-926d0d85edbd"
 isUpdated: true
 ---
-
-
-
-
 
 ![ReactJS Google Authentication](/assets/img/ReactJSAStep-by-StepGuidetoGoogleAuthentication_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 구글 로그인에 필요한 패키지 설치하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 @react-oauth/google 패키지를 설치해야 합니다. 이 Google Identity Services JavaScript 라이브러리는 Google API를 호출하는 데 필요한 액세스 토큰을 빠르고 안전하게 얻는 데 도움이 됩니다.
 
@@ -37,7 +44,18 @@ $ npm install @react-oauth/google@latest
 $ yarn add @react-oauth/google@latest
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 구글 API 클라이언트 ID 가져오기
 
@@ -47,7 +65,18 @@ $ yarn add @react-oauth/google@latest
 
 ![프로젝트 생성](/assets/img/ReactJSAStep-by-StepGuidetoGoogleAuthentication_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트를 생성한 후 프로젝트 이름을 클릭하면 아래에 표시된 대시보드가 나타납니다. 구글 클라우드 로고 오른쪽 상단에 현재 프로젝트 이름이 표시됩니다.
 
@@ -57,7 +86,18 @@ $ yarn add @react-oauth/google@latest
 
 동의 화면은 사용자가 외부 또는 제3자 라이브러리를 사용하여 로그인할 것인지를 안내하는 화면입니다. 이 단계에서 사용자에게 앱의 루트 페이지를 떠나 제3자 페이지에 액세스하는 것을 허용하도록 경고합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신의 앱이 사용자에게 표시하는 Google 로그인 동의 화면에는 프로젝트에 대한 간략한 설명, 정책 및 요청된 액세스 범위가 포함될 수 있습니다.
 
@@ -67,7 +107,18 @@ React 앱을 위해 Google 동의 페이지를 구성하려면 Google Cloud Cons
 
 이 탭에 들어가면 외부를 선택하세요. Google에서 확인된 조직 또는 애플리케이션을 사용하지 않는 한 선택할 수 있는 유일한 옵션입니다. 그리고 동의 화면을 만들려면 만들기 버튼을 클릭하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![ReactJS에서 Google 인증을 위한 단계별 가이드](/assets/img/ReactJSAStep-by-StepGuidetoGoogleAuthentication_4.png)
 
@@ -77,7 +128,18 @@ React 앱을 위해 Google 동의 페이지를 구성하려면 Google Cloud Cons
 
 일단 나머지 등록 섹션은 건너뛰세요. 완료 후 대시보드로 돌아 오도록 구성 완료를 클릭할 때까지 각 섹션을 아래로 스크롤하고 "저장하고 계속"을 클릭하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 웹 클라이언트 ID 생성하기
 
@@ -87,7 +149,18 @@ React 앱을 위해 Google 동의 페이지를 구성하려면 Google Cloud Cons
 
 ![이미지](/assets/img/ReactJSAStep-by-StepGuidetoGoogleAuthentication_6.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래에 표시된 대로 애플리케이션 유형을 선택하라는 프롬프트가 표시됩니다. React 애플리케이션에 대해 이 단계를 따르는 경우 Google 클라이언트 ID를 웹용으로 사용하므로 웹 애플리케이션을 선택하십시오:
 
@@ -97,7 +170,18 @@ React 앱을 위해 Google 동의 페이지를 구성하려면 Google Cloud Cons
 
 승인된 자바스크립트 출처 URL은 애플리케이션이 로그인을 시작하는 URL입니다. 즉, React 개발자의 경우 localhost 및 localhost:3000이거나 애플리케이션을 호스팅했다면 호스팅된 URL입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인증된 리디렉트 URL은 Google이 로그인이 성공한 후 사용자를 리디렉트할 링크입니다. 예를 들어, 사용자를 원래 링크로 돌아가거나 또는 다른 링크로 리디렉트할 수도 있습니다. 어떤 방식이든 URL을 여기에 포함해야 합니다.
 
@@ -107,7 +191,18 @@ React 앱을 위해 Google 동의 페이지를 구성하려면 Google Cloud Cons
 
 ![이미지](/assets/img/ReactJSAStep-by-StepGuidetoGoogleAuthentication_9.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 웹 클라이언트 ID를 성공적으로 생성했으니, 이제 React 앱으로 들어가서 설치하고 Google 로그인을 통합해봅시다.
 
@@ -117,7 +212,18 @@ React 앱을 위해 Google 동의 페이지를 구성하려면 Google Cloud Cons
 
 index.js 파일 안에서는 애플리케이션을 다음과 같이 감쌀 것입니다;
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // Index.js
@@ -167,11 +273,33 @@ export default App;
 
 위의 코드는 Google 로그인을 사용하는 방법을 간단하게 보여주는 방법입니다. @react-oauth/google에서 GoogleLogin 모듈을 가져와 컴포넌트에서 호출했습니다. 그 다음 로그인이 성공했을 때 응답을 console에 기록하는 두 함수를 만들었고, 로그인에 실패했을 때는 오류를 기록했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 표 태그를 Markdown 형식으로 변경해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /*App.js*/
@@ -192,15 +320,12 @@ function App() {
   useEffect(() => {
     if (user) {
       axios
-        .get(
-          `https://www.googleapis.com/oauth2/v1/userinfo?access_token=${user.access_token}`,
-          {
-            headers: {
-              Authorization: `Bearer ${user.access_token}`,
-              Accept: "application/json",
-            },
-          }
-        )
+        .get(`https://www.googleapis.com/oauth2/v1/userinfo?access_token=${user.access_token}`, {
+          headers: {
+            Authorization: `Bearer ${user.access_token}`,
+            Accept: "application/json",
+          },
+        })
         .then((res) => {
           setProfile(res.data);
         })
@@ -245,7 +370,18 @@ useGoogleLogin API를 사용하면 사용자 정의 버튼으로 Google에 로�
 
 요청이 성공하면 useGoogleLogin이 여전히 제공하는 onSuccess 함수에서 처리하고, 요청이 실패하면 실패 함수에서 오류를 처리합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 다음으로, onSuccess 함수에서 우리는 반환된 데이터로 프로필 상태를 설정합니다. 이 데이터에는 google_id, access_token, email, name 등 사용자의 세부 정보가 포함되어 있습니다. 사용자 배열이 변경될 때마다 useEffect 훅이 실행되어 Google 로그인에서 반환된 액세스 토큰을 사용하여 사용자 세부 정보를 가져옵니다. 사용자가 종속성으로 지정되어 있어서 사용자 배열이 변경될 때, 즉 null 배열에서 Google 로그인에서 응답을 받을 때 useEffect가 감시하고 그에 맞게 트리거됩니다.
 
@@ -255,4 +391,15 @@ useGoogleLogin API를 사용하면 사용자 정의 버튼으로 Google에 로�
 
 Google 로그인은 시간을 절약하고 사용자 경험을 향상시키기 위해 응용 프로그램에 포함해야 하는 중요한 기능입니다. 또 다른 좋은 추가 기능인 이유는 구현 및 사용이 간단하고 빠르다는 것입니다. 궁금한 사항이 있으면 언제든지 문의해 주세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

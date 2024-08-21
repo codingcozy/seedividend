@@ -3,17 +3,13 @@ title: "Tailwind 클래스 중에서 이전에 알았더라면 좋았을 것 같
 description: ""
 coverImage: "/assets/img/2024-06-20-TheseTailwindClassesIWishYouKnewSooner_0.png"
 date: 2024-06-20 00:46
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-TheseTailwindClassesIWishYouKnewSooner_0.png
 tag: Tech
 originalTitle: "These Tailwind Classes I Wish You Knew Sooner"
 link: "https://medium.com/javascript-in-plain-english/these-tailwind-classes-i-wish-you-knew-sooner-cedd1fec8adb"
 isUpdated: true
 ---
-
-
-
-
 
 ![Tailwind CSS](/assets/img/2024-06-20-TheseTailwindClassesIWishYouKnewSooner_0.png)
 
@@ -23,14 +19,21 @@ Tailwind CSS는 빠른 개발과 높은 사용자 정의가 필요한 프런트�
 
 isolate 클래스는 요소가 새로운 쌓임 맥락을 만들지 여부를 제어하는 CSS isolation 속성을 설정하는 데 사용됩니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-<div class="isolate">
-  This element creates a new stacking context
-</div>
+<div class="isolate">This element creates a new stacking context</div>
 ```
 
 더 알아보기: https://tailwindcss.com/docs/isolation
@@ -39,8 +42,18 @@ isolate 클래스는 요소가 새로운 쌓임 맥락을 만들지 여부를 �
 
 scroll-snap 클래스는 수평 또는 수직 스크롤이 있는 컨테이너에 적합한 스크롤 스냅 효과를 구현하는 데 사용됩니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <div class="scroll-snap-x snap-mandatory overflow-x-auto flex">
@@ -56,7 +69,18 @@ scroll-snap 클래스는 수평 또는 수직 스크롤이 있는 컨테이너�
 
 pointer-events 클래스는 요소의 마우스 이벤트 응답 동작을 제어하는 데 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <div class="pointer-events-none">
@@ -73,8 +97,18 @@ pointer-events 클래스는 요소의 마우스 이벤트 응답 동작을 제�
 
 Tailwind CSS에서 truncate는 텍스트 자르기에 사용되는 유틸리티 클래스입니다. 텍스트 내용이 컨테이너의 너비를 초과하는 경우, 생략 부분을 점 세 개(…)으로 표시하여 페이지에서 텍스트가 넘치지 않도록 합니다. 이 유틸리티 클래스는 카드 제목, 테이블 셀 등 고정 너비 텍스트 요소를 표시할 때 유용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## This is a very long title that will be truncated with an ellipsis.
 
@@ -84,10 +118,20 @@ More details can be found here: [Text Overflow in Tailwind CSS](https://tailwind
 
 # 5. Gradients: from, via, to
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-선형 그라디언트는 가장 일반적인 그라디언트 유형입니다. Tailwind CSS는 접두사 from-*, via-*, 및 to-*를 사용하여 그라디언트의 시작점, 중간점, 및 끝점 색상을 정의하는 클래스를 제공합니다.
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+선형 그라디언트는 가장 일반적인 그라디언트 유형입니다. Tailwind CSS는 접두사 from-_, via-_, 및 to-\*를 사용하여 그라디언트의 시작점, 중간점, 및 끝점 색상을 정의하는 클래스를 제공합니다.
 
 ```js
 <div class="bg-gradient-to-r from-green-400 via-blue-500 to-purple-600 text-white p-10 rounded-lg shadow-lg">
@@ -103,8 +147,18 @@ More details can be found here: [Text Overflow in Tailwind CSS](https://tailwind
 - via-blue-500: 그라디언트의 중간 색상을 정의합니다.
 - to-purple-600: 그라디언트의 끝 색상을 정의합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-20-TheseTailwindClassesIWishYouKnewSooner_2.png)
 
@@ -114,8 +168,18 @@ More details can be found here: [Text Overflow in Tailwind CSS](https://tailwind
 
 Tailwind CSS는 간단한 CSS 애니메이션 효과를 빠르게 추가할 수 있도록 내장된 애니메이션 클래스 세트를 제공합니다. 이 클래스에는 회전, 흔들림, 맥박 등과 같은 일반적인 애니메이션이 포함되어 있어 사용자 지정 CSS를 작성하지 않고도 빠르게 애니메이션을 적용할 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 일반적인 Tailwind CSS 애니메이션 클래스 몇 가지입니다:
 
@@ -134,8 +198,18 @@ Tailwind CSS는 간단한 CSS 애니메이션 효과를 빠르게 추가할 수 
 
 ![로딩 중](https://miro.medium.com/v2/resize:fit:1400/1*EgQzEHlcZlmUFIg6W3lWtw.gif)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내장된 애니메이션 클래스 외에도 Tailwind CSS를 통해 구성 파일을 통해 애니메이션을 확장하고 사용자 정의할 수 있습니다. Tailwind CSS 구성 파일에 사용자 지정 애니메이션 효과를 추가할 수 있습니다.
 
@@ -145,8 +219,8 @@ module.exports = {
   theme: {
     extend: {
       animation: {
-        'spin-slow': 'spin 3s linear infinite',
-        'ping-slow': 'ping 2s infinite',
+        "spin-slow": "spin 3s linear infinite",
+        "ping-slow": "ping 2s infinite",
       },
     },
   },
@@ -157,7 +231,18 @@ module.exports = {
 
 자세히 알아보기: https://tailwindcss.com/docs/animation
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 7. 가로세로비
 
@@ -169,7 +254,18 @@ aspect-ratio 플러그인을 사용하기 전에 설치하고 구성해야 합�
 npm install @tailwindcss/aspect-ratio
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 tailwind.config.js 파일에서 다음 플러그인을 추가해주세요:
 
@@ -177,10 +273,8 @@ tailwind.config.js 파일에서 다음 플러그인을 추가해주세요:
 // tailwind.config.js
 module.exports = {
   // ...
-  plugins: [
-    require('@tailwindcss/aspect-ratio'),
-  ],
-}
+  plugins: [require("@tailwindcss/aspect-ratio")],
+};
 ```
 
 플러그인을 구성한 후에는 HTML 파일에서 aspect-ratio 클래스를 사용할 수 있습니다.
@@ -192,12 +286,22 @@ module.exports = {
     title="YouTube video"
     class="w-full h-full"
     allowfullscreen
-  >
-  </iframe>
+  ></iframe>
 </div>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 많은 정보: [https://tailwindcss.com/docs/aspect-ratio](https://tailwindcss.com/docs/aspect-ratio)
 
@@ -209,7 +313,18 @@ ring 유틸리티는 요소에 링 효과를 적용하는 데 사용됩니다. �
 <div class="ring-2 ring-blue-500">이 요소에는 링이 있습니다.</div>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 코드는 너비가 2인 요소 주위에 파란색 링을 그립니다.
 
@@ -226,8 +341,18 @@ ring 유틸리티는 요소에 링 효과를 적용하는 데 사용됩니다. �
 
 이 예시는 Tailwind CSS의 ring 클래스를 사용하여 다양한 링 효과를 생성하는 방법을 보여줍니다. 이 유틸리티 클래스를 사용함으로써 프로젝트에 링 효과를 쉽게 추가하여 사용자 인터페이스(UI)의 시각적 효과와 상호작용 경험을 향상시킬 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-20-TheseTailwindClassesIWishYouKnewSooner_3.png)
 
@@ -237,8 +362,18 @@ Tailwind CSS는 프론트엔드 개발자에게 강력한 도구이며, 유틸�
 
 # 간단히 설명한 것 🚀
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 In Plain English 커뮤니티에 참여해 주셔서 감사합니다! 떠나시기 전에:
 

@@ -3,17 +3,13 @@ title: "Nextjs 14에서 오픈 그래프, 트위터에 보냈을 때 이미지 �
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # Nextjs 14에서 오픈 그래프, 트위터에 보냈을 때 이미지 추가 하는 방법
 
@@ -23,7 +19,18 @@ opengraph-image와 twitter-image 파일 규칙을 사용하면 라우트 세그�
 
 Open Graph 및 Twitter 이미지 설정하는 두 가지 방법이 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이미지 파일 (.jpg, .png, .gif)
 - 이미지 생성을 위한 코드 (.js, .ts, .tsx)
@@ -34,7 +41,18 @@ Open Graph 및 Twitter 이미지 설정하는 두 가지 방법이 있습니다:
 
 Next.js는 파일을 평가하고 해당 앱의 `head` 요소에 적절한 태그를 자동으로 추가합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 | File convention                               | Supported file types            |
 | --------------------------------------------- | ------------------------------- |
@@ -54,7 +72,18 @@ Add an opengraph-image.(jpg|jpeg|png|gif) image file to any route segment.
 <meta property="og:image:height" content="<generated>" />
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### twitter-image
 
@@ -69,7 +98,18 @@ Add an opengraph-image.(jpg|jpeg|png|gif) image file to any route segment.
 
 ### opengraph-image.alt.txt
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 같은 경로 세그먼트에 opengraph-image.(jpg|jpeg|png|gif) 이미지와 함께 opengraph-image.alt.txt 파일을 추가하세요. 해당 이미지의 alt 텍스트를 작성해 주세요.
 
@@ -83,7 +123,18 @@ About Acme
 
 ### twitter-image.alt.txt
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 동양산업(ACME) 소개
@@ -95,7 +146,18 @@ About Acme
 
 ## 코드를 사용하여 이미지 생성 (.js, .ts, .tsx)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지 파일을 직접 사용하는 것 외에도 코드를 사용하여 이미지를 프로그래밍 방식으로 생성할 수 있습니다.
 
@@ -110,7 +172,18 @@ About Acme
 > 기본적으로 생성된 이미지는 정적으로 최적화됩니다(빌드 시간에 생성되고 캐시됨), 동적 함수나 캐시되지 않은 데이터를 사용하지 않는 경우입니다.
 > `generateImageMetadata`를 사용하여 동일한 파일에서 여러 이미지를 생성할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가장 쉬운 방법은 next/og의 ImageResponse API를 사용하여 이미지를 생성하는 것입니다.
 
@@ -180,7 +253,18 @@ export default async function Image() {
 
 ### Props
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기본 내보내기 함수는 다음과 같은 props를 받습니다:
 
@@ -194,7 +278,18 @@ export default function Image({ params }: { params: { slug: string } }) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Markdown 형식으로 변경한 테이블입니다.
 
@@ -204,7 +299,18 @@ Markdown 형식으로 변경한 테이블입니다.
 
 > 알아두면 좋은 사실: ImageResponse는 이 반환 유형을 충족합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 설정 내보내기
 
@@ -218,7 +324,18 @@ Markdown 형식으로 변경한 테이블입니다.
 
 #### alt
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```typescript
 export const alt = "나의 이미지 대체 텍스트";
@@ -238,7 +355,18 @@ export const size = { width: 1200, height: 630 };
 export default function Image() {}
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <meta property="og:image:width" content="1200" />
@@ -257,7 +385,18 @@ export default function Image() {}
 <meta property="og:image:type" content="image/png" />
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 #### 라우트 세그먼트 구성
 
@@ -276,7 +415,18 @@ export const runtime = "edge";
 export default function Image() {}
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 예시
 
@@ -286,7 +436,18 @@ export default function Image() {}
 
 > 참고: 기본적으로 이 생성된 이미지는 정적으로 최적화됩니다. 개별 fetch 옵션이나 route 세그먼트 옵션을 구성하여 이 동작을 변경할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```typescript
 import { ImageResponse } from 'next/og'
@@ -334,4 +495,15 @@ export default async function Image({ params }: { params: { slug: string } }) {
 | --------- | ------------------------------------------ |
 | `v13.3.0` | `opengraph-image` 및 `twitter-image` 도입. |
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

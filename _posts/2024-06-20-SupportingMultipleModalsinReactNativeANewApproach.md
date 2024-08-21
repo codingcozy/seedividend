@@ -3,16 +3,13 @@ title: "리액트 네이티브에서 다중 모달 지원하기 새로운 방식
 description: ""
 coverImage: "/assets/img/2024-06-20-SupportingMultipleModalsinReactNativeANewApproach_0.png"
 date: 2024-06-20 01:20
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-SupportingMultipleModalsinReactNativeANewApproach_0.png
 tag: Tech
 originalTitle: "Supporting Multiple Modals in React Native: A New Approach"
 link: "https://medium.com/whitespectre/supporting-multiple-modals-in-react-native-a-new-approach-a6a4f4ff0339"
 isUpdated: true
 ---
-
-
-
 
 ## 여러 모달을 관리하는 것은 React Native의 표준 모달 구현 및 인기있는 서드 파티 라이브러리에서 볼 수 있는 제한 사항입니다. 이 문제에 대한 우리만의 접근 방식 및 우리의 rn-modal-presenter 라이브러리 사용 방법을 알아보세요.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 이 기사는 화이트 스펙트어 React Native 팀 구성원인 Lucas Diez de Medina와 Rui Lu가 공동 저술했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어플 빌드를 위한 조사 중에, 현재 React Native 표준 모달 구현이 동시에 여러 모달을 관리하지 못한다는 사실을 발견했습니다. 인기 있는 서드 파티 라이브러리들도 비슷한 제한을 가지고 있어서 우리에겐 작동하지 않았습니다. 더욱 복잡한 React Native 앱일수록 더 많은 제약이 생길 것입니다. 더 나쁜 점은, 에러가 발생할 수 있지만 눈에 띄지 않을 수도 있습니다.
 
@@ -35,7 +43,18 @@ isUpdated: true
 - 우리의 해결책: rn-modal-presenter 라이브러리
 - rn-modal-presenter 라이브러리 구현 방법
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 rn-modal-presenter 라이브러리의 전체 문서를 npm 및 GitHub에서 읽어보세요.
 
@@ -45,7 +64,18 @@ rn-modal-presenter 라이브러리의 전체 문서를 npm 및 GitHub에서 읽�
 
 모달은 일반적으로 프롭을 기반으로 표시되거나 숨겨지는 컴포넌트이며, 이 프롭은 일반적으로 표시하는 컴포넌트의 상태에 의해 제어됩니다. 해당 컴포넌트는 컴포넌트 트리의 일부여야 하며 표시하고 싶은 모든 컴포넌트의 자식으로 나타나야 합니다. 이러한 이유로 하나의 컴포넌트로 표시되는 여러 모달을 표시하려는 경우나 모달이 표시되는 별도의 화면으로 이동해야 하는 경우에 기본적인 제한 사항과 복잡성이 발생합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 내용을 한국어로 번역하면 다음과 같습니다:
 
@@ -58,7 +88,18 @@ rn-modal-presenter 라이브러리의 전체 문서를 npm 및 GitHub에서 읽�
 
 # 간단한 예시
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단한 예제로이 한계를 확인해 보겠습니다. 여기서는 전통적인 모달을 사용하여 앱 평가를 받으려고 시도하지만, 특정 상황에서만 만족한 사용자에게만 보여줍니다.
 
@@ -70,7 +111,18 @@ rn-modal-presenter 라이브러리의 전체 문서를 npm 및 GitHub에서 읽�
 - 긍정적인 답변일 경우 AppStore에서 앱 평가를 요청하는 모달을 보여줍니다.
 - 부정적인 답변인 경우 피드백을 남겨 주시라는 모달을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼, 모든 이 modal들이 같은 메인 화면에서 제시되며 이 코드 스니펫에서 볼 수 있듯이 네 가지 다른 modal에 대한 모든 상태를 가지고 있으며 그 상태에 따라 각 modal을 표시합니다.
 
@@ -80,7 +132,7 @@ const App = () => {
  const [showAppRatedPositiveModal, setShowAppRatedPositiveModal] = useState(false);
  const [showAppRatedNegativeModal, setShowAppRatedNegativeModal] = useState(false);
  const [showActivateGadgetModal, setShowActivateGadgetModal] = useState(false);
- 
+
  return (
    <SafeAreaView>
      {showActivateGadgetModal && (
@@ -128,7 +180,18 @@ const App = () => {
 
 이제 실수로 두 개의 modal을 동시에 표시하려고하면 어떻게 작동하는지 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 경우에는 첫 번째 모달이 iOS에서만 표시될 것이며, 이 문제의 가장 나쁜 부분은 React Native 콘솔에서는 오류가 발생하지 않았다는 것입니다.
 
@@ -140,7 +203,18 @@ const App = () => {
 Warning: Attempt to present <UIViewController: 0x147d2c6b0> on <UIViewController: 0x147d614c0> which is already presenting (null)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 iOS에서 올바른 흐름은 첫 번째 모달을 표시한 후에, 첫 번째 모달이 해제되면(해당 상태 변수를 false로 설정함으로써) 다음 모달의 상태 변수를 true로 설정하여 표시하는 것입니다.
 
@@ -150,7 +224,18 @@ iOS에서 올바른 흐름은 첫 번째 모달을 표시한 후에, 첫 번째 
 
 우리에게 가장 큰 문제는 한 가지 실수를 하게 되면, 두 개의 모달을 동시에 표시하려고 한다면 두 번째 모달이 나타나지 않고 오류/경고 메시지도 표시되지 않는다는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 시도한 대체품
 
@@ -161,7 +246,18 @@ iOS에서 올바른 흐름은 첫 번째 모달을 표시한 후에, 첫 번째 
 
 이러한 두 가지 문제로 인해 표준 네이티브 모달 컴포넌트를 사용하면서 이를 해결하기 위해 다양한 옵션을 시도해 보았습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래에는 여기서 가장 일반적으로 사용되는 2개의 라이브러리가 있으며, 이들을 사용한 이유와 우리가 고유한 방식으로 진행하기로 결정한 이유를 설명했습니다.
 
@@ -171,7 +267,18 @@ iOS에서 올바른 흐름은 첫 번째 모달을 표시한 후에, 첫 번째 
 
 하지만 이러한 기능이 얼마나 좋든, 이 라이브러리는 결국 React Native에서 모달이 작동하는 방식을 변경하지 않기 때문에 여전히 동시에 여러 모달을 표시하거나 코드 복잡성을 줄이는 등 위에서 언급한 같은 제한 사항을 갖고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # react-native-modalfy
 
@@ -181,7 +288,18 @@ iOS에서 올바른 흐름은 첫 번째 모달을 표시한 후에, 첫 번째 
 
 다른 중요한 점은 명령형 API를 기반으로 하고 있으며, 각 모달의 외형에 대한 애니메이션과 전환을 완전히 사용자 정의할 수 있다는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 장점들에도 불구하고, 이 라이브러리는 설정하기 위해 일부 뼈대 코드가 필요했습니다. 이런 면에서 React Navigation과 매우 유사합니다. 여러분은 프로젝트 내에서 사용할 각 모달을 미리 정의하고 각각에 대한 구성을 제공해야 합니다.
 
@@ -191,7 +309,18 @@ iOS에서 올바른 흐름은 첫 번째 모달을 표시한 후에, 첫 번째 
 
 다양한 옵션을 분석한 후, 우리는 다음 기반으로 우리만의 라이브러리를 만들기로 결정했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 유연한 구성요소와 명령형 API
 
@@ -201,7 +330,18 @@ iOS에서 올바른 흐름은 첫 번째 모달을 표시한 후에, 첫 번째 
 
 # 콘텐츠는 부모 구성요소(보통 귀하의 구성요소) 위에 표시됩니다
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 부보 컴포넌트는 우리 라이브러리에서 노출되었고, 여러분은 해당 컴포넌트 트리 어딘가에 배치해야 합니다. 이것은 모달 창이 다른 일반 뷰와 화면에 비해 가장 높은 우선순위를 가지고 있기 때문에 멋집니다.
 
@@ -211,7 +351,18 @@ iOS에서 올바른 흐름은 첫 번째 모달을 표시한 후에, 첫 번째 
 
 그러나 이에는 조금 제한이 있습니다. 자바스크립트 솔루션이기 때문에 프로젝트에 다른 네이티브 모달이 있는 경우, 해당 나중 모달은 여전히 우리 모달 위에 있을 수 있습니다. 왜냐하면 네이티브 컴포넌트가 가장 높은 우선순위를 가지기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 라이브러리 통합 방법
 
@@ -222,7 +373,18 @@ iOS에서 올바른 흐름은 첫 번째 모달을 표시한 후에, 첫 번째 
 
 단계 2: 모달을 표시하고 싶은 컴포넌트 위에 래핑하기:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { ModalPresenterParent, showModal } from '@whitespectre/rn-modal-presenter';
@@ -245,7 +407,18 @@ export declare const showModal: <ContentProps>(
 ) => ModalHandler;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그게 다야. 충분히 준비됐어요.
 
@@ -255,16 +428,23 @@ export declare const showModal: <ContentProps>(
 
 모달 위에 표시하려는 컴포넌트에 속성을 추가하려면 컴포넌트에 도우미 함수를 만들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 경우에는 showModal 함수를 호출하는 helper 함수를 만들 수 있습니다. 이 함수는 사용자에게 보여줄 텍스트와 사용자가 닫기 버튼을 눌렀을 때 실행할 완료 핸들러를 받는데, 이것은 custom text modal이 받는 속성을 받게 됩니다.
 
 ```js
-export const showCustomAlert = (
-  title: string,
-  body: string,
-  buttons: CustomAlertButton[] = [defaultButton],
-) => {
+export const showCustomAlert = (title: string, body: string, buttons: CustomAlertButton[] = [defaultButton]) => {
   return showModal(CustomAlert, { title, body, buttons });
 };
 ```
@@ -273,7 +453,18 @@ export const showCustomAlert = (
 
 이 기능은 컴포넌트를 설치할 때 라이브러리에 의해 제공되며, dismiss 함수를 포함합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const CustomAlert = ({
@@ -292,7 +483,18 @@ const CustomAlert = ({
 
 rn-modal-presenter 라이브러리를 사용하면 상태를 관리할 필요가 없고 어디에서든 모달 표시를 강제로 트리거할 수 있기 때문에 원본 예제는 다음과 같이 다시 작성할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 메인 앱 컴포넌트는 Gadget Activation 모달을 표시할 것입니다:
 
@@ -338,7 +540,18 @@ const ActivateGadgetModal = ({dismiss}: ModalContentProps) => {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 미래 개선 사항
 
@@ -353,6 +566,17 @@ rn-modal-presenter 라이브러리는 현재 진행 중인 프로젝트에 우�
 - 더불어 네이티브 모듈을 구축하여 내용을 네이티브 뷰 위에 표시할 수 있도록 하기
 - 각 효과에 대해 사용자 정의 가능한 애니메이션 및 지속 시간 허용하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 이러한 기능 중 어떤 것을 구현하고 싶거나 우리 라이브러리에 기여하고 싶다면, 언제든지 다음 링크에서 PR을 열어주세요: [https://github.com/whitespectre/rn-modal-presenter](https://github.com/whitespectre/rn-modal-presenter).

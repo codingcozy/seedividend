@@ -3,16 +3,13 @@ title: "Vue3에서 구성 요소 간 통신하는 9가지 방법"
 description: ""
 coverImage: "/assets/img/2024-06-20-9WaysofComponentCommunicationinVue3_0.png"
 date: 2024-06-20 04:12
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-9WaysofComponentCommunicationinVue3_0.png
 tag: Tech
 originalTitle: "9 Ways of Component Communication in Vue3"
 link: "https://medium.com/stackademic/9-ways-of-component-communication-in-vue3-9059520f070e"
 isUpdated: true
 ---
-
-
-
 
 ![이미지](/assets/img/2024-06-20-9WaysofComponentCommunicationinVue3_0.png)
 
@@ -30,7 +27,18 @@ isUpdated: true
 
 # Props / Emit
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 부모 컴포넌트는 props를 사용하여 데이터를 자식 컴포넌트로 전달하고, 자식 컴포넌트는 이벤트를 사용하여 부모 컴포넌트에 데이터를 전달합니다.
 
@@ -65,7 +73,18 @@ isUpdated: true
 
 참고:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 부모 컴포넌트가 setup() 메서드를 사용하고 자식 컴포넌트가 script setup 구문을 사용하는 경우, 부모의 데이터에서 속성을 전달받지 못하며 부모의 setup 함수에서 전달받은 속성만 받을 수 있습니다.
 
@@ -82,7 +101,7 @@ isUpdated: true
     <button @click="handleClick">버튼</button>
 </template>
 <script setup lang="ts">
-    
+
     // 방법 1: Vue3.2 버전에 적합, import 필요 없음
     // import { defineEmits } from "vue"
     // 방법 1에 대응
@@ -91,7 +110,7 @@ isUpdated: true
     const handleClick = ()=>{
         emit("myClick", "부모 컴포넌트로 전송된 메시지입니다")
     }
-    
+
     // 방법 2: Vue3.2 버전에 적합하지 않음, useContext()는 사용이 중단됨
     import { useContext } from "vue"
     const { emit } = useContext()
@@ -112,7 +131,18 @@ isUpdated: true
 </script>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 제공 / 주입
 
@@ -122,7 +152,18 @@ isUpdated: true
 
 주입: 어떠한 하위 구성 요소에서도 이 구성 요소에 추가하고 싶은 데이터를 수신합니다. 구성 요소가 얼마나 심층적으로 중첩되었는지와는 관계없이 직접 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // Parent.vue
@@ -152,7 +193,7 @@ createApp(App).use(createPinia()).mount('#app')
 import { defineStore } from 'pinia'
 export const userStore = defineStore('user', {
     state: () => {
-        return { 
+        return {
             count: 1,
             arr: []
         }
@@ -173,7 +214,18 @@ const store = userStore()
 </script>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 노출 / 참조
 
@@ -192,7 +244,7 @@ const store = userStore()
             console.log("이것은 자식 구성 요소의 메서드입니다")
         }
     })
-    
+
     // 방법 2 Vue 3.2 버전에 적합하며, import할 필요가 없습니다.
     // import { defineExpose } from "vue"
     defineExpose({
@@ -221,8 +273,18 @@ const store = userStore()
 
 # attrs
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 attrs: 부모 스코프에서 클래스 및 스타일을 제외한 컬렉션을 포함합니다.
 
@@ -252,8 +314,18 @@ attrs: 부모 스코프에서 클래스 및 스타일을 제외한 컬렉션을 
 
 여러 데이터 요소에 대한 양방향 데이터 바인딩을 지원합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // Parent.vue
@@ -270,15 +342,15 @@ attrs: 부모 스코프에서 클래스 및 스타일을 제외한 컬렉션을 
     <button @click="handlerClick">Button</button>
 </template>
 <script setup>
-    
+
     // Method 1은 useContext()이 폐기됨에 따라 Vue 3.2 버전에 적합하지 않습니다.
     import { useContext } from "vue"
     const { emit } = useContext()
-    
+
     // Method 2는 Vue 3.2 버전에 적합하며, import 할 필요가 없습니다.
     // import { defineEmits } from "vue"
     const emit = defineEmits(["key","value"])
-    
+
     // 사용법
     const handlerClick = () => {
         emit("update:key", "새로운 키")
@@ -305,7 +377,7 @@ const handleClick = () => {
 }
 </script>
 
-// 컴포넌트 B 
+// 컴포넌트 B
 <script setup>
 import mitt from './mitt'
 import { onUnmounted } from 'vue'
@@ -317,7 +389,18 @@ onUnmounted(()=>{
 </script>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 슬롯
 
@@ -337,7 +420,18 @@ onUnmounted(()=>{
 </button>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 이름이 지정된 슬롯
 
@@ -368,7 +462,18 @@ onUnmounted(()=>{
 
 ## 스코프 있는 슬롯
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 슬롯의 내용은 자식 컴포넌트의 상태에 액세스할 수 없습니다. 그러나 경우에 따라 슬롯의 내용이 부모 컴포넌트의 sphere와 자식 컴포넌트의 sphere에서 데이터를 사용하고 싶을 수 있습니다. 이를 달성하기 위해서는 렌더링 시 자식 컴포넌트가 슬롯에 데이터를 제공할 수 있는 방법이 필요합니다.
 
@@ -418,7 +523,18 @@ const props = defineProps({
 
 끝까지 읽어주셔서 감사합니다. 가기 전에:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 작가에게 박수와 팔로우를 부탁드립니다! 👏
 - 팔로우하기: X | LinkedIn | YouTube | Discord

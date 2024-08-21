@@ -3,16 +3,13 @@ title: "템플릿 간소화하기 Angular 17에서의 제어 흐름"
 description: ""
 coverImage: "/assets/img/2024-05-18-StreamlineYourTemplatesControlFlowinAngular17_0.png"
 date: 2024-05-18 22:35
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-18-StreamlineYourTemplatesControlFlowinAngular17_0.png
 tag: Tech
 originalTitle: "Streamline Your Templates: Control Flow in Angular 17"
 link: "https://medium.com/@mayankjain1394/streamline-your-templates-control-flow-in-angular-17-6045eca1a6c0"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-05-18-StreamlineYourTemplatesControlFlowinAngular17_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 ## 왜 지시문 대신 제어 흐름을 선택해야 할까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 변경하는 것이 좋은 몇 가지 설득력 있는 이유입니다:
 
@@ -34,7 +42,18 @@ isUpdated: true
 
 참/거짓 변수에 따라 메시지를 표시하려는 시나리오를 상상해보십시오. 기존에는 다음과 같이 사용할 것입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 @if (isLoggedIn) {
@@ -46,11 +65,22 @@ isUpdated: true
 
 이렇게 제어 흐름 구문을 사용하면 JavaScript에서 제어 흐름을 작성하는 방식과 더 자연스러워집니다. 더 복잡한 조건을 위해 @else if 문을 연결할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Level Up Loops with @for
 
-데이터 컬렉션을 반복하는 것은 Angular 애플리케이션의 기본적인 부분입니다. 이전에 우리는 *ngFor을 사용했습니다. 제어 흐름은 유사한 접근 방식을 제공합니다:
+데이터 컬렉션을 반복하는 것은 Angular 애플리케이션의 기본적인 부분입니다. 이전에 우리는 \*ngFor을 사용했습니다. 제어 흐름은 유사한 접근 방식을 제공합니다:
 
 ```js
 <ul>
@@ -60,15 +90,22 @@ isUpdated: true
 
 제어 흐름에 대한 비교:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <ul>
-  @for (과일 in 과일들; trackBy: 과일.name) {
-    <li>{ 과일.name }</li>
-  } @empty {
-    <li>과일이 없습니다.</li>
-  }
+  @for (과일 in 과일들; trackBy: 과일.name) {<li>{과일.name}</li>} @empty {<li>과일이 없습니다.</li>}
 </ul>
 ```
 
@@ -78,8 +115,18 @@ isUpdated: true
 
 여러 조건에 따라 콘텐츠를 렌더링해야 하는 경우 @switch 문이 구원의 손을 내밀어줍니다:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 @switch(selectedFruit) {
@@ -101,7 +148,18 @@ isUpdated: true
 
 아래에서 제어 흐름 구문의 상세 정보를 찾을 수 있어요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Angular — @for
 - Angular — @switch

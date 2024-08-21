@@ -3,15 +3,13 @@ title: "플러터에서 흔히 하는 로컬라이제이션 실수 방지하는 
 description: ""
 coverImage: "/assets/img/2024-05-27-AvoidingcommonlocalizationmistakesinFlutterbestpracticesandsolutions_0.png"
 date: 2024-05-27 19:19
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-AvoidingcommonlocalizationmistakesinFlutterbestpracticesandsolutions_0.png
 tag: Tech
 originalTitle: "Avoiding common localization mistakes in Flutter: best practices and solutions"
 link: "https://medium.com/@pomis172/avoiding-common-localization-mistakes-in-flutter-best-practices-and-solutions-eeba39fa91ac"
 isUpdated: true
 ---
-
-
 
 완벽한 로컬라이제이션을 달성하려면 번역만으로는 충분하지 않습니다. 언어적 뉘앙스와 지역적 선호도를 신중히 고려해야 합니다. 이 글에서는 Flutter 앱 로컬라이제이션 중에 생길 수 있는 일반적인 오류들과 그것들을 극복하기 위한 효과적인 전략을 탐구해보겠습니다.
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 강조된 부분은 다른 텍스트 스타일을 가지고 클릭할 수 있어야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 많은 사람들이 종종 여러 항목으로 나누어서 TextSpan을 연결합니다. 이 해결책은 영어에는 작동하지만 앱의 다른 언어에도 적용될 수 있습니다. 그러나 문제는 문법 격조나 다른 단어 순서를 가진 언어와 작업할 때 발생합니다.
 
@@ -31,7 +40,18 @@ isUpdated: true
 
 에스토니아어로 동일한 문장을 작성하면 다음과 같이 됩니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 병적으로 이용약관 및 개인정보 보호 정책에 동의합니다
 
@@ -41,7 +61,18 @@ isUpdated: true
 
 처음에 만든 솔루션이 이걸 지원하지 않아. 개인정보 보호 정책 단어 다음에 텍스트가 있는데 거기에 추가 텍스트 스팬을 더해야 돼. 머리가 아플 것 같아?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 솔루션: 태그된 로컬라이제이션 항목을 사용하세요. 예를 들어, styled_text 패키지를 사용하면 문자열에 사용자 정의 태그를 추가한 다음 코드에서 처리할 수 있습니다:
 
@@ -51,11 +82,22 @@ isUpdated: true
 
 ```js
 dependencies: styled_text: git: ref: bd403bd6c7c7df422b8d13e14b995662818fd9a9;
-url: //github.com/Maatteogekko/styled_text_package.git
-https: path: styled_text;
+//github.com/Maatteogekko/styled_text_package.git
+url: https: path: styled_text;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 코드에 그겨되어 있을 것입니다:
 
@@ -86,7 +128,18 @@ https: path: styled_text;
 
 <img src="/assets/img/2024-05-27-AvoidingcommonlocalizationmistakesinFlutterbestpracticesandsolutions_0.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2. 복수형 무시하거나 사용자 정의 로직을 적용하여 처리하기
 
@@ -96,7 +149,18 @@ https: path: styled_text;
 
 하지만 러시아어를 보겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1명 온라인
 
@@ -106,7 +170,18 @@ https: path: styled_text;
 
 21명 온라인
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아랍어는 더 복잡해요.
 
@@ -121,7 +196,18 @@ https: path: styled_text;
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
     "usersOnline": {
@@ -140,7 +226,18 @@ Text(t.usersOnline(n: 3)),
 
 그 결과로 문법적으로 올바른 복수형을 얻게됩니다. POEditor와 같은 온라인 편집기도 이를 지원합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 3. 날짜와 시간을 수동으로 형식 지정하고, 월의 이름과 요일의 이름을 하드코딩하기
 
@@ -150,7 +247,18 @@ Text(t.usersOnline(n: 3)),
 
 기본적으로 DateFormat은 앱에서 사용되는 로캘을 사용하지만 데모 목적을 위해 특정 로캘을 명시하여 출력을 확인할 수 있습니다. TimeOfDay는 컨텍스트에서 로캘을 가져옵니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 final date = DateTime.now();
@@ -176,7 +284,18 @@ flutter: 13:24
 
 ## 4. Concatenating currency and price strings
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어떤 국가에서는 천 단위 구분으로 콤마를 사용하는 반면, 다른 국가에서는 점을 사용합니다. 이런 작은 변화가 앱에 영향을 줄 수도 있어요.
 
@@ -184,7 +303,18 @@ flutter: 13:24
 String formatCurrency(String currency, String amount) => currency + amount;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금은 intl 패키지를 사용하여 통화를 다루는 방법을 살펴보겠습니다:
 
@@ -202,7 +332,18 @@ flutter: £199.99
 flutter: 199,99 €
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또한, 짧고 명확한 형식이 있습니다. 가장 일반적인 사용 사례는 판매 중인 상품 목록이나 쇼핑 카트에서 짧은 형식을 표시하는 것입니다. 그리고 명시적 형식은 체크아웃 중에 사용해야 합니다. 이에 대해 더 읽어 보려면 Shopify의 이 기사를 확인하세요.
 
@@ -218,7 +359,18 @@ String explicitFormat(String currencyCode, String? locale, num amount) {
 
 이 기사가 유익했기를 바랍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오른쪽에서 왼쪽으로 (RTL/LTR) 케이스와 서로 다른 측정 시스템을 다루지 않았어요. 별도의 기사를 쓸 가치가 있어요. 업데이트를 받으시려면 구독을 확인해주세요.
 

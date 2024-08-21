@@ -3,16 +3,13 @@ title: "Spring Boot Starter로 커스텀 라이브러리 개발하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-12-DevelopingCustomLibrariesWithSpringBootStarter_0.png"
 date: 2024-07-12 21:34
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-12-DevelopingCustomLibrariesWithSpringBootStarter_0.png
 tag: Tech
 originalTitle: "Developing Custom Libraries With Spring Boot Starter"
 link: "https://medium.com/better-programming/developing-custom-libraries-with-spring-boot-starter-cf463a5eca39"
 isUpdated: true
 ---
-
-
-
 
 ![이미지](/assets/img/2024-07-12-DevelopingCustomLibrariesWithSpringBootStarter_0.png)
 
@@ -24,7 +21,18 @@ isUpdated: true
 - 공유 코드 사용이 서비스 경계를 넘어서면 이는 결합의 한 형태를 도입한 것입니다. 저결합과 고응집력을 바탕으로 하는 마이크로서비스의 원칙에는 이는 바람직하지 않습니다.
 - 어떤 사람들은 "서비스 간의 결합도가 너무 높은 것이 코드 중복으로 인한 문제보다 훨씬 더 나쁘다"고 주장합니다. (Sam Newman의 책 '빌딩 마이크로서비스'에서 인용)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 커스텀 라이브러리를 설계하는 가장 좋은 방법은 무엇일까요?
 
@@ -36,12 +44,23 @@ isUpdated: true
 
 Spring Boot 스타터 라이브러리는 Spring Boot 애플리케이션의 주요 구성 요소 중 하나입니다. Spring Boot 개발자로서, 우리는 spring-boot-starter-web, spring-boot-starter-data-jpa, spring-boot-starter-actuator 등과 같은 애착있는 스타터 라이브러리를 사용해왔습니다. 이 글에서는 Spring Boot 스타터 프레임워크를 탐구하여 우리만의 커스텀 스타터 라이브러리를 만들어보려고 합니다. Spring Boot 스타터를 사용하면 우리의 커스텀 스타터 라이브러리 프레임워크를 만든다는 여러 이점이 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Spring Boot의 자동 구성과의 심술을 더 매끄럽게 통합합니다.
 - 성숙한 Spring Boot starter 프레임워크에 더 균형있는 접근 방식을 택하여 Spring Boot의 확장으로 만듭니다.
 - 제 의견으로는, Spring Boot starter 프레임워크의 가장 큰 장점은 사용자 지정 라이브러리의 기본 동작을 제공하는 능력이며, 사용자 정의 동작으로 기본 동작을 덮어쓰도록 허용하기도 합니다. 이 기능 하나만으로도, 많은 면에서 사용자 지정 라이브러리가 마이크로서비스 사이에 결합을 유발하는 딜레마를 해결합니다.
-네, 사용자 정의 라이브러리를 가질 수 있고 필요 시 마이크로서비스에서 해당 라이브러리의 사용자 지정 로직을 가질 수 있으며, 브릴리언트한 프레임워크인 Spring Boot starter가 제공하는 옵션을 통해 결합을 줄일 수 있습니다.
+  네, 사용자 정의 라이브러리를 가질 수 있고 필요 시 마이크로서비스에서 해당 라이브러리의 사용자 지정 로직을 가질 수 있으며, 브릴리언트한 프레임워크인 Spring Boot starter가 제공하는 옵션을 통해 결합을 줄일 수 있습니다.
 
 # Spring Boot Starter를 사용하여 사용자 정의 라이브러리 구축하는 방법
 
@@ -49,7 +68,18 @@ Spring Boot는 Spring Boot 자동 구성을 이용해 매우 쉽게 자체 사�
 
 # 단계 1: 멀티 모듈 또는 싱글 모듈 중 선택하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Spring의 문서에 따르면, 커스텀 스타터에는 다음이 포함될 수 있습니다:
 
@@ -60,7 +90,18 @@ Spring의 문서에 따르면, 커스텀 스타터에는 다음이 포함될 수
 
 또한, 선택적 종속성에 대한 의견을 제공하는 스타터를 만들 수 있습니다. 동시에, 다른 사람은 autoconfigure 모듈만을 활용하고 다른 의견으로 자체 스타터를 만들 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 자동 구성이 비교적 간단하고 선택적 기능이 없다면, 스타터의 두 모듈을 병합하는 것이 라이브러리 구조를 간단하게 만드는 데 이상적입니다.
 
@@ -70,7 +111,18 @@ Spring의 문서에 따르면, 커스텀 스타터에는 다음이 포함될 수
 
 Spring의 사용자 정의 라이브러리 네이밍 규칙에 따르면, 우리는 이름을 먼저 라이브러리 이름으로 시작하고 그 뒤에 "-spring-boot-starter"를 붙여야 합니다. 예를 들어, 샘플 사용자 정의 라이브러리의 경우, 우리의 아티팩트 ID를 "sample-spring-boot-starter"로 지정해야 합니다. 이유는 만약 우리가 라이브러리 이름을 "spring-boot-starter-"로 시작한다면, 이는 Spring Boot Starter 라이브러리나 앞으로 제공할 수 있는 새로운 스타터와 충돌할 가능성이 높기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 커스텀 라이브러리를 위한 의존성을 추가할 때는 pom 내에서 라이브러리의 artifact id를 명시해야 합니다. 예를 들어:
 
@@ -80,7 +132,18 @@ Spring의 사용자 정의 라이브러리 네이밍 규칙에 따르면, 우리
 
 또한, spring-boot-autoconfigure 의존성을 추가하는 것도 잊지 말아주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 4: 사용자 지정 라이브러리의 주요 로직을 정의하는 서비스 레이어 만들기
 
@@ -90,7 +153,18 @@ Spring의 사용자 정의 라이브러리 네이밍 규칙에 따르면, 우리
 
 이 단계는 사용자 정의 라이브러리가 사용자 정의 Spring Boot 스타터가 되는 핵심입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 샘플 코드입니다:
 
@@ -101,19 +175,42 @@ Spring의 사용자 정의 라이브러리 네이밍 규칙에 따르면, 우리
 
 spring.factories 파일은 Spring Boot가 부팅 중에 자동으로 로드하는 파일입니다. Spring Boot는 jar 파일 내 META-INF 디렉토리에 spring.factories 파일이 있는지 확인합니다. 해당 파일에는 EnableAutoConfiguration 키 아래에 구성 클래스를 나열해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희 샘플에서는 Spring Boot에게 SampleAutoConfiguration 클래스를 EnableAutoConfiguration의 후보로 사용하도록 지시합니다. 이를 위해 META-INF/spring.factories에 아래와 같이 등록합니다:
 
 ```js
-org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.github.wenqiglantz.library.sample.config.SampleAutoConfiguration
+org.springframework.boot.autoconfigure.EnableAutoConfiguration =
+  com.github.wenqiglantz.library.sample.config.SampleAutoConfiguration;
 ```
 
 커스텀 스타터 라이브러리를 만들었다면, 단순히 새로운 의존성을 추가하여 마이크로서비스에서 우리의 커스텀 스타터 라이브러리를 호출할 수 있습니다. 이는 일반적인 Spring Boot 스타터 라이브러리를 추가하는 방법과 동일합니다.
 
 이 곳에서 GitHub에서 샘플 커스텀 Spring Boot 스타터를 찾을 수 있습니다. 이 샘플은 새로운 커스텀 라이브러리를 만드는 데 사용할 수 있는 템플릿 역할을 합니다. 상기 모든 기능을 제공하며, 추가로 다음을 제공합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 코딩 스타일 자동화를 보장하기 위한 체크스타일 메이븐 플러그인
 - 단위 테스트 커버리지를 보장하기 위한 자코코 메이븐 플러그인
@@ -125,7 +222,18 @@ org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.github.wenqig
 
 ![Dependency Hierarchy](/assets/img/2024-07-12-DevelopingCustomLibrariesWithSpringBootStarter_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 커스텀 라이브러리를 보관하는 모노레포
 
@@ -138,7 +246,18 @@ org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.github.wenqig
 - 대규모 코드 리팩터링. 특정 기능을 리팩터링하기 위해 여러 프로젝트에 걸쳐 여러 PR을 작성할 필요 없이, 모노레포를 사용하면 해당 기능을 활용하는 서비스를 한 번의 커밋으로 해결할 수 있습니다.
 - 단순화된 릴리스. 새 릴리스를 빌드할 때 모든 라이브러리에 동일한 버전을 생성하여, 라이브러리를 사용할 때 모두 동일한 버전을 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단점
 
@@ -151,7 +270,18 @@ org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.github.wenqig
 
 우리는 이야기의 초반에 사용자 정의 라이브러리에 대한 주장을 탐구했습니다. 그런 다음 Spring Boot 스타터 프레임워크가 사용자 정의 라이브러리를 개발하는 데 훌륭한 선택인 이유를 살펴보았습니다. 이어서 Spring Boot 스타터를 사용하여 사용자 정의 라이브러리를 개발하는 단계별 지침을 살펴보았습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저의 GitHub 저장소에서 샘플 코드를 찾을 수 있어요.
 
@@ -161,7 +291,18 @@ org.springframework.boot.autoconfigure.EnableAutoConfiguration=com.github.wenqig
 
 Spring Boot 참조 문서
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마이크로서비스 공유 라이브러리 - 디자인 및 모베스트 프랙티스
 

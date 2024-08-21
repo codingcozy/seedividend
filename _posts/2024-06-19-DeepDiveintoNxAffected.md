@@ -3,16 +3,13 @@ title: " Nx Affected에 대한 심층 탐구"
 description: ""
 coverImage: "/assets/img/2024-06-19-DeepDiveintoNxAffected_0.png"
 date: 2024-06-19 23:00
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-DeepDiveintoNxAffected_0.png
 tag: Tech
 originalTitle: "🔎 Deep Dive into Nx Affected"
 link: "https://medium.com/@jgelin/deep-dive-into-nx-affected-b3c29c715d41"
 isUpdated: true
 ---
-
-
-
 
 ## 모놀리포의 Nx 영향을 이해하고 최적화하기
 
@@ -47,7 +44,18 @@ isUpdated: true
 
 # 😵‍ 왜 이대로 내버려둔 프로젝트가 영향을 받게 되었을까?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 질문은 매일 듣는 질문입니다! 이 질문은 제가 Nx Affected 프로세스의 디버깅 세션으로 많은 시간을 소비하게 한 질문입니다.
 
@@ -57,7 +65,18 @@ isUpdated: true
 
 Monorepo에서 큰 코드베이스에서 작업할 때 여러 응용 프로그램과 라이브러리를 포함하는 저장소가 있을 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신의 Monorepo가 성장함에 따라 CI에서 모든 앱/라이브러리를 재빌드하는 데 시간이 오래 걸릴 수 있습니다. 영향을 받는 앱/라이브러리만 다시 실행할 수 있는 능력은 소프트웨어 개발 주기를 크게 단축시킬 수 있습니다.
 
@@ -67,7 +86,18 @@ Monorepo에서 큰 코드베이스에서 작업할 때 여러 응용 프로그�
 
 ![영향을 받는 프로젝트](/assets/img/2024-06-19-DeepDiveintoNxAffected_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앱/라이브러리 간의 종속성을 이해하기 위해 Nx는 모든 노드(앱/라이브러리), 외부 노드(npm) 및 그들 간의 모든 종속성을 포함한 프로젝트 그래프를 생성합니다.
 
@@ -77,7 +107,18 @@ Monorepo에서 큰 코드베이스에서 작업할 때 여러 응용 프로그�
 
 ![Afftected Task](/assets/img/2024-06-19-DeepDiveintoNxAffected_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앱/라이브러리 간 작업 종속성을 이해하기 위해 Nx는 작업에 의해 앱/라이브러리가 연결된 노드로 Task Graph를 생성합니다.
 
@@ -87,7 +128,18 @@ Nx는 어떤 프로젝트/작업이 영향을 받았는지 식별하는 여러 �
 
 ### 영향을 받는 실행
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주로 CI에서 사용하는 주요 명령어는 Nx 영향을 받는 명령어입니다:
 
@@ -99,7 +151,18 @@ nx affected -t lint test build
 
 이 명령어를 사용하면 영향을 받는 작업 목록만 실행할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Show Command
 
@@ -111,7 +174,18 @@ nx show projects --affected
 
 <img src="/assets/img/2024-06-19-DeepDiveintoNxAffected_4.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 명령은 콘솔에서 영향을 받는 프로젝트/작업을 직접 확인하고 결과를 JSON 파일로 내보내는 것을 가능하게 합니다.
 
@@ -123,10 +197,20 @@ nx show projects --affected
 nx graph --affected
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 Markdown 형식의 코드입니다.
-
 
 ![이미지1](/assets/img/2024-06-19-DeepDiveintoNxAffected_5.png)
 
@@ -136,8 +220,18 @@ nx graph --affected
 
 ## 😶‍🌫️ 영향 받는 규칙
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Nx 영향을 받는 프로세스는 여러 단계를 거치며 어떤 프로젝트가 영향을 받을 수 있는지 결정하기 위해 여러 파일 및 구성을 고려합니다:
 
@@ -147,8 +241,18 @@ Nx 영향을 받는 프로세스는 여러 단계를 거치며 어떤 프로젝�
 
 Nx는 영향을 받는 프로젝트의 목록을 계산하기 전에 수정/변경된 파일 목록을 로드합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-DeepDiveintoNxAffected_8.png)
 
@@ -158,8 +262,18 @@ Nx는 대상 영향을 받은 베이스 이후의 수정된 파일을 계산합�
 
 아직 커밋되지 않거나 추적되지 않은 모든 수정된 파일도 추가됩니다. -uncommitted 또는 -untracked 옵션을 사용하여 동작을 변경할 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 Nx에게 파일 목록을 계산하지 않았으면, -files 옵션을 사용하여 직접 파일 목록을 제공할 수 있습니다.
 
@@ -169,8 +283,18 @@ Nx는 대상 영향을 받은 베이스 이후의 수정된 파일을 계산합�
 
 모든 변경된 파일이 정의되었을 때, Nx는 해당 파일들이 프로젝트에 어떻게 영향을 줄 수 있는지 확인합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-DeepDiveintoNxAffected_9.png)
 
@@ -180,9 +304,18 @@ Nx는 대상 영향을 받은 베이스 이후의 수정된 파일을 계산합�
 
 Nx 작업을 실행할 때 두 가지 개념이 고려됩니다:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-19-DeepDiveintoNxAffected_10.png)
 
@@ -193,8 +326,18 @@ Nx 작업을 실행할 때 두 가지 개념이 고려됩니다:
 
 입력 목록을 재사용하기 쉽게 하려면 nx.json 또는 project.json에서 Named Inputs를 사용하여 정의할 수 있습니다:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 {
@@ -221,7 +364,18 @@ Nx 작업을 실행할 때 두 가지 개념이 고려됩니다:
 
 파일을 변경하더라도 해당 작업 목록에는 영향을 미치지 않습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 이미지를 확인해주세요👇
 
@@ -233,8 +387,18 @@ Nx 작업을 실행할 때 두 가지 개념이 고려됩니다:
 
 Nx 프로젝트 크리스털과 추론된 구성을 통한 Nx 플러그인의 일반화로 인해 Nx는 플러그인 패턴이 터치된 파일 목록에 영향을 받는지도 확인합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-06-19-DeepDiveintoNxAffected_12](/assets/img/2024-06-19-DeepDiveintoNxAffected_12.png)
 
@@ -244,10 +408,20 @@ Nx 프로젝트 크리스털과 추론된 구성을 통한 Nx 플러그인의 �
 
 만약 package.json이 수정되면, Nx는 어떤 것이 정확히 변경되었는지 이해하기 위해 스마트한 접근법을 사용합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-만약 npm 라이브러리를 수정한다면, Nx는 해당 라이브러리를 사용하는 모든 프로젝트를 찾아서 영향을 받는 것으로 표시합니다. 만약 @types/* 라이브러리를 수정한다면, Nx는 관련 라이브러리를 추출하여 동일한 원리로 라이브러리를 수정하는 것과 같은 원리를 적용합니다.
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+만약 npm 라이브러리를 수정한다면, Nx는 해당 라이브러리를 사용하는 모든 프로젝트를 찾아서 영향을 받는 것으로 표시합니다. 만약 @types/\* 라이브러리를 수정한다면, Nx는 관련 라이브러리를 추출하여 동일한 원리로 라이브러리를 수정하는 것과 같은 원리를 적용합니다.
 
 만약 nx.json 플러그인에서 사용하는 라이브러리를 수정하거나 삭제한다면, 모든 프로젝트가 영향을 받는 것으로 간주됩니다:
 
@@ -255,7 +429,18 @@ Nx 프로젝트 크리스털과 추론된 구성을 통한 Nx 플러그인의 �
 
 기본적으로 패키지 매니저 락 파일을 수정하는 것은 모든 프로젝트에 영향을 줍니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 Markdown 형식으로 표현해 보겠습니다.
 
@@ -265,7 +450,7 @@ Nx 프로젝트 크리스털과 추론된 구성을 통한 Nx 플러그인의 �
 
 ```js
 "pluginsConfig": {
-    "@nx/js": { 
+    "@nx/js": {
         "projectsAffectedByDependencyUpdates": "auto"
     }
 }
@@ -273,7 +458,18 @@ Nx 프로젝트 크리스털과 추론된 구성을 통한 Nx 플러그인의 �
 
 옵션:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 모든: 모든 프로젝트에 영향을 미칩니다.
 - 자동: 수정된 종속성과 관련된 프로젝트에만 영향을 줍니다.
@@ -285,7 +481,18 @@ Nx 프로젝트 크리스털과 추론된 구성을 통한 Nx 플러그인의 �
 
 ![이미지](/assets/img/2024-06-19-DeepDiveintoNxAffected_15.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 경로가 수정되면, Nx는 루트 경로와 일치하는 관련 프로젝트에 영향을 줍니다. 그러나 전역 구성을 수정하거나 경로를 삭제할 경우 모든 프로젝트에 영향을 줍니다.
 
@@ -295,7 +502,18 @@ Nx 프로젝트 크리스털과 추론된 구성을 통한 Nx 플러그인의 �
 
 ![Nx Affected](/assets/img/2024-06-19-DeepDiveintoNxAffected_16.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 3 - 영향을 받은 그래프 생성
 
@@ -305,7 +523,18 @@ Nx는 영향을 받는 노드를 가져와 프로젝트 그래프의 모든 종�
 
 ![Afftected Graph Example](/assets/img/2024-06-19-DeepDiveintoNxAffected_17.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, 영향을 받는 노드인 lib10이 lib4에서 사용되고 lib4는 app1에서 사용된다면, 이 모든 노드가 영향 받는 프로젝트 그래프에 추가됩니다.
 
@@ -315,7 +544,18 @@ Nx는 externalNodes에도 동일한 원칙을 적용합니다:
 
 예를 들어, 영향을 받는 npm 라이브러리인 enquirer가 npm 라이브러리인 nx에 의해 사용되고 nx가 내부 라이브러리 tools에 사용되는 경우입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금까지 영향을 받는 그래프가 완전한지 확인하려면 Nx가 관련 종속성을 추가할 것입니다.
 
@@ -325,7 +565,18 @@ Nx는 externalNodes에도 동일한 원칙을 적용합니다:
 
 ## Nx 그래프 사용하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 영향을 받는 명령어로 Nx 그래프를 열면, 🤓 영향을 받는 프로젝트 섹션에 명시된 대로 모든 영향을 받는 프로젝트를 볼 수 있습니다.
 
@@ -335,7 +586,18 @@ Nx는 externalNodes에도 동일한 원칙을 적용합니다:
 
 그러나 대규모 저장소의 경우, 그래프는 디버깅에 사용하기 어려울 수 있습니다. 제가 선호하는 방법은 Nx-affected 프로세스를 디버깅하여 정확히 어떤 단계가 책임을 지고 있는지를 확인하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 패키지/nx/src/command-line/affected/affected.ts에서 중단점을 설정하고 디버그 모드에서 nx show project --affected를 실행해보세요.
 
@@ -345,7 +607,18 @@ Nx는 externalNodes에도 동일한 원칙을 적용합니다:
 
 ## 어플리케이션/라이브러리의 잘 구분된 분리
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앱/라이브러리를 정확히 분할했는지 확인해 주세요.
 
@@ -355,7 +628,18 @@ Nx는 externalNodes에도 동일한 원칙을 적용합니다:
 
 Named Inputs가 올바르게 구성되었는지 확인하세요. Named Inputs는 파일을 수정했을 때 해당 대상의 출력에 영향을 줄 수 있는지를 정의합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, 스펙 파일을 수정하면 테스트에 영향을 미칠 수 있지만 빌드에는 영향을 주지 않을 수 있습니다. 기본 명명된 입력을 사용하면 한 파일을 수정하면 프로젝트의 모든 대상에 영향을 줄 수 있습니다.
 
@@ -365,7 +649,18 @@ Named Inputs가 올바르게 구성되었는지 확인하세요. Named Inputs는
 
 ## Nx 패치
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 조작적인 해결책이지만, 나는 영향을 받는 프로세스를 사용자 정의하기 위해 그것을 사용합니다. 패키지 관리자의 패치 시스템을 사용하여 Nx 라이브러리를 패치하여 규칙을 변경할 수 있습니다.
 
@@ -432,7 +727,18 @@ index c5aec64..edaa989 100644
 
 # 🙂 마지막으로 생각해보세요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 보시다시피, 영향을 받는 프로세스는 수정된 파일 목록을 고려하는 것뿐만 아니라 다른 여러 요소를 기반으로 프로젝트 목록을 계산합니다.
 
@@ -442,7 +748,18 @@ index c5aec64..edaa989 100644
 
 미래에는 종속성 업데이트에 의해 영향을 받는 프로젝트와 같은 옵션 목록을 일반화하여 영향을 받는 프로세스에 대한 더 많은 사용자 정의 옵션이 있기를 희망합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 곧 시작됩니다 🚀
 

@@ -3,16 +3,13 @@ title: "데스크톱에서 모바일 UI 검사 마스터하기 단계별 가이�
 description: ""
 coverImage: "/assets/img/2024-06-20-MasteringMobileUIInspectiononDesktopAStep-by-StepGuide_0.png"
 date: 2024-06-20 05:10
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-MasteringMobileUIInspectiononDesktopAStep-by-StepGuide_0.png
 tag: Tech
 originalTitle: "Mastering Mobile UI Inspection on Desktop: A Step-by-Step Guide"
 link: "https://medium.com/@iambharathpadhu/mastering-mobile-ui-inspection-on-desktop-a-step-by-step-guide-6619708d1b2e"
 isUpdated: true
 ---
-
-
-
 
 ![이미지](/assets/img/2024-06-20-MasteringMobileUIInspectiononDesktopAStep-by-StepGuide_0.png)
 
@@ -24,20 +21,45 @@ isUpdated: true
 
 단계 2: 모바일 장치를 데스크톱에 연결 USB 케이블을 사용하여 모바일 장치와 데스크톱을 연결하세요. 연결되면 장치에서 USB 디버깅을 허용할 지 여부를 확인하는 메시지가 표시될 것입니다. 허용하고 계속 진행하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 단계 3: 데스크탑에서 크롬 실행
+
 데스크탑에서 Google Chrome을 열고 휴대폰에서 검사하려는 웹 페이지로 이동합니다.
 
 ### 단계 4: 크롬 검사 열기
+
 크롬 브라우저의 주소 표시줄에 chrome://inspect를 입력하고 Enter 키를 누르세요. 이렇게 하면 크롬 검사 페이지가 열립니다.
 
 ![이미지](/assets/img/2024-06-20-MasteringMobileUIInspectiononDesktopAStep-by-StepGuide_1.png)
 
 ### 단계 5: 모바일 장치 확인
+
 크롬 검사 페이지의 "장치" 섹션에서 연결된 모바일 장치가 표시됩니다. 장치 이름 옆의 "검사" 버튼을 클릭하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **단계 6:** 모바일 UI 요소 살펴보기! 이제 데스크톱 화면에서 기기의 모바일 브라우저 인터페이스를 확인할 수 있어요. 모바일 기기에서 표시된 웹 페이지 요소들을 탐험해보세요.
 
@@ -47,7 +69,18 @@ isUpdated: true
 
 **단계 9:** 변경 사항 저장 및 적용 필요한 수정 사항을 완료했다면 변경 사항을 개발자 도구 패널에서 직접 저장할 수 있어요. 변경 사항을 실시간으로 웹 페이지에 적용하려면 "저장" 버튼을 클릭하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제 10 단계: 반응성 및 기능 테스트 마무리하기 전에 검사를 마무리하기 전에 다양한 화면 크기에서 웹 페이지의 반응성과 기능을 테스트하는 것을 잊지 마세요. Chrome Inspect를 사용하면 다른 기기 해상도를 시뮬레이트하여 사용자 경험을 원활하게 만들 수 있습니다.
 

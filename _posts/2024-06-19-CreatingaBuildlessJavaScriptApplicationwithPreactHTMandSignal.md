@@ -3,16 +3,13 @@ title: "Preact, HTM, 그리고 Signal을 활용한 빌드 없이 구축하는 Ja
 description: ""
 coverImage: "/assets/img/2024-06-19-CreatingaBuildlessJavaScriptApplicationwithPreactHTMandSignal_0.png"
 date: 2024-06-19 23:57
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-CreatingaBuildlessJavaScriptApplicationwithPreactHTMandSignal_0.png
 tag: Tech
 originalTitle: "Creating a Buildless JavaScript Application with Preact, HTM, and Signal"
 link: "https://medium.com/@antoniogallo.it/creating-a-buildless-javascript-application-with-preact-htm-and-signal-f99386ad36d4"
 isUpdated: true
 ---
-
-
-
 
 현대 웹 개발 시대에는 빌드 도구의 복잡성이 때로는 초보자들과 간단하게 유지하고 싶은 사람들에게 장벽이 될 수 있습니다 (K.I.S.S.).
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 ## 왜 Preact, HTM, 그리고 Signal을 선택해야 할까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Preact: React의 3KB 빠른 대안인 Preact는 동일한 현대적 API를 제공하며, DOM 위에 가장 얇은 Virtual DOM 추상화를 제공합니다. 그 간결함과 작은 크기로 빌드 없이 설정이 필요한 환경에서 각 바이트가 중요한 경우 이상적입니다.
 - HTM: Hyperscript Tagged Markup (HTM)은 JSX와 유사한 구문을 변환 없이 브라우저에서 직접 사용할 수 있게 해줍니다. HTM은 Preact와 아름답게 결합되어, 빌드 단골 없이도 개발자 친화적인 템플릿 제작 경험을 제공합니다.
@@ -32,7 +40,18 @@ isUpdated: true
 
 [여기](https://github.com/badpenguin/buildless-pwa)에서 GitHub에서 제 제작 App을 시작할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 빌드 없이 구현되는 전체 컨셉은 다음 두 가지 기반을 갖고 있어요:
 
@@ -43,7 +62,18 @@ isUpdated: true
 
 https://github.com/guybedford/es-module-shims
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <script async src="https://ga.jspm.io/npm:es-module-shims@1.7.3/dist/es-module-shims.js"></script>
@@ -53,7 +83,18 @@ https://github.com/guybedford/es-module-shims
 
 현대 브라우저에서도 이 기본 구조가 작동하지만, 기기의 기능을 항상 확인하는 것을 추천합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 외부에는 오래된 "스마트 TV"와 미친 JVM과 같은 이상한 오래된 장치들이 많이 있어요. 그래서 그들의 브라우저가 너무 오래되었다고 표시해 주는 것도 나쁘지 않겠죠.
 
@@ -63,7 +104,18 @@ https://github.com/guybedford/es-module-shims
 
 HTML 파일의 importmap은 종속성을 직접 선언하고, Preact, HTM, 그리고 Signal의 번들 버전을 가리키며, script 태그를 통해 로드할 수 있는 내용입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 설정은 개발 중에 번들러나 모듈 로더가 필요하지 않도록 만들어줍니다.
 
@@ -86,7 +138,18 @@ HTML 파일의 importmap은 종속성을 직접 선언하고, Preact, HTM, 그�
 
 standalone.js를 눈치채셨나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 몇 개의 라이브러리를 하나의 파일에 패키징했습니다. 이 프로젝트 덕분에:
 
@@ -96,7 +159,18 @@ https://github.com/mujahidfa/preact-htm-signals-standalone
 
 이제 주 애플리케이션 컴포넌트를 부트스트랩할 준비가 되었습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <script type="module">
@@ -118,8 +192,18 @@ React에 익숙하다면, 이것은 단지 "hello world"일 뿐입니다.
 
 ## The splash screen example
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단순한 스플래시 화면 예제 역시 "신호"를 활용하는 방법을 보여드리기 위해 추가했어요.
 
@@ -129,7 +213,18 @@ React에 익숙하다면, 이것은 단지 "hello world"일 뿐입니다.
 
 가능하다면 외부 HTTP 요청을 피하기 위해 이미지를 base64로 인라인으로 포함해주세요. 그렇지 않으면 여기서 "사전로드(preload)"의 개념을 잃을 것이에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 프리로드
@@ -161,23 +256,35 @@ preload 요소 내의 링크는 다음과 같은 스타일이 지정되어 있�
 
 그리고 이것이 "Main" 컴포넌트입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-import {html} from 'htm';
-import Router, {route} from 'preact-router';
-import {signal} from '@preact/signals';
-import {effect} from '@preact/signals-core';
+import { html } from "htm";
+import Router, { route } from "preact-router";
+import { signal } from "@preact/signals";
+import { effect } from "@preact/signals-core";
 
 export function MainApp() {
- console.debug('- render MainApp');
- return html`
-  ${$loading.value ? null : html`
-   <${Router}>
-    <${PageHome} path="/"/>
-    <${PageNotFound} default/>
-   <//>`}
- `;
+  console.debug("- render MainApp");
+  return html`
+    ${$loading.value
+      ? null
+      : html` <${Router}>
+          <${PageHome} path="/" />
+          <${PageNotFound} default />
+        <//>`}
+  `;
 }
 ```
 
@@ -187,8 +294,18 @@ HTM 구문은 브라우저에서 직접 JSX와 유사한 컴포넌트를 생성�
 
 이 구성 요소에서 $loading이 TRUE일 때만 렌더링되지 않습니다(널 값), 즉 div#main이 아닌 div#preload가 그대로 표시됩니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로딩이 완료되면 preact-router의 설정에 따라 페이지를 최종적으로 렌더링합니다.
 
@@ -200,12 +317,23 @@ export const $loading = signal(true);
 
 메인 컴포넌트를 미리 채우는 초기화 함수를 만들고 작업이 완료되면 이 변수를 FALSE로 설정할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-setTimeout(function(){
- console.log('- loading completed.');
- $loading.value = false;
+setTimeout(function () {
+  console.log("- loading completed.");
+  $loading.value = false;
 }, 1000);
 ```
 
@@ -213,20 +341,31 @@ setTimeout(function(){
 
 ```js
 const dispose = effect(() => {
- if ($loading.value) {
-  return;
- }
- console.debug('- app ready');
- // 프리로드 숨기기
- const preloadDiv = document.getElementById("preload");
- preloadDiv.style.display = "none";
- dispose();
+  if ($loading.value) {
+    return;
+  }
+  console.debug("- app ready");
+  // 프리로드 숨기기
+  const preloadDiv = document.getElementById("preload");
+  preloadDiv.style.display = "none";
+  dispose();
 });
 ```
 
 $loading은 우리의 “Main” 컴포넌트 내에서 사용되므로, Main 컴포넌트를 자동으로 다시 렌더링하게 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 신호 및 HTM을 사용한 간단한 카운터 생성
 
@@ -238,28 +377,42 @@ export const $counter = signal(0);
 
 그리고 이 두 버튼으로 조작해보세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-const PageHome = function() {
- console.debug('- render PageHome');
- return html`
-  <div class="page active ">
-
+const PageHome = function () {
+  console.debug("- render PageHome");
+  return html` <div class="page active ">
     <div class="flex-row">
+      <a
+        class="btn"
+        onclick="${() => {
+          $counter.value--;
+        }}"
+        >«</a
+      >
 
-     <a class="btn" onclick="${() => {
-      $counter.value--;
-     }}">\u00AB</a>
+      <span class="counter">${$counter}</span>
 
-     <span class="counter">${$counter}</span>
-
-     <a class="btn" onclick="${() => {
-      $counter.value++;
-     }}">\u00BB</a>
-
+      <a
+        class="btn"
+        onclick="${() => {
+          $counter.value++;
+        }}"
+        >»</a
+      >
     </div>
-
   </div>`;
 };
 ```
@@ -270,7 +423,18 @@ const PageHome = function() {
 
 만약 풀 기능의 PWA를 만들기 위해 Manifest.json과 좋아하는 ServiceWorker 구현을 추가하고 싶다면 언제라도 추가해 주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 빌드 없는 접근 방식의 이점
 
@@ -283,7 +447,18 @@ const PageHome = function() {
 - 확장성: 프로젝트가 커짐에 따라 빌드 시스템의 부재는 트리 쉐이킹, 최소화, 고급 번들링 전략과 같은 최적화 옵션을 제한할 수 있습니다.
 - 브라우저 호환성: 현대 브라우저 기능에 지나치게 의존할 경우 응용 프로그램이 이전 브라우저와 호환되는 것을 제한할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 결론
 
@@ -293,7 +468,18 @@ Preact, HTM 및 Signals를 활용한 빌드 없는 JavaScript 애플리케이션
 
 모든 프로젝트에 적합하지는 않을 수 있지만, 특히 대규모 애플리케이션에는 해당하지 않을 수 있지만, 빠른 설정과 적은 종속성을 우선시하는 사람들에게 매력적인 옵션을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 나에 대해
 

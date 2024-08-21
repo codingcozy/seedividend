@@ -3,17 +3,13 @@ title: "Expo를 이용한 React Native 앱에서의 Supabase 인증 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Supabase Authentication in a React Native app using Expo, complete with step-by-step instructions and code breakdown"
 link: "https://medium.com/@ricardotech/supabase-authentication-in-a-react-native-app-using-expo-complete-with-step-by-step-instructions-2778b1c672e4"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/Supabase-Authentication-in-a-React-Native-app-using-Expo-complete-with-step-by-step-instructions-and-code-breakdown._0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 왜 Supabase가 좋은 선택인가?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Supabase는 여러 가지 이유로 개발자들에게 강력한 도구로 두드러지는데요:
 
@@ -37,7 +44,18 @@ Supabase를 인증 수단으로 선택함으로써 당신의 React Native 앱을
 
 먼저 이 인증 플로우를 복제하려면 Supabase 계정과 프로젝트가 필요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React Native Expo 애플리케이션을 설정하려면 터미널(맥 또는 리눅스 사용자)이나 명령 프롬프트(윈도우 사용자)에서 다음 명령을 실행하세요.
 
@@ -49,7 +67,18 @@ npx create-expo-app -t expo-template-blank-typescriptbash
 
 이제 React Native Expo 애플리케이션이 준비되었습니다. 실행하려면 터미널에서 다음 명령을 실행하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 cd yourApplicationName && npx expo start
@@ -63,7 +92,18 @@ cd yourApplicationName && npx expo start
 npx expo install @supabase/supabase-js @react-native-async-storage/async-storage react-native-elements react-native-url-polyfill
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import "react-native-url-polyfill/auto";
@@ -139,7 +179,14 @@ export default function Authentication() {
   return (
     <View style={styles.container}>
       <View style={[styles.verticallySpaced, styles.mt20]}>
-        <Input label="이메일" leftIcon={{ type: "font-awesome", name: "envelope" }} onChangeText={(text) => setEmail(text)} value={email} placeholder="email@address.com" autoCapitalize={"none"} />
+        <Input
+          label="이메일"
+          leftIcon={{ type: "font-awesome", name: "envelope" }}
+          onChangeText={(text) => setEmail(text)}
+          value={email}
+          placeholder="email@address.com"
+          autoCapitalize={"none"}
+        />
       </View>
       <View style={styles.verticallySpaced}>
         <Input
@@ -178,7 +225,18 @@ const styles = StyleSheet.create({
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 App.tsx
 

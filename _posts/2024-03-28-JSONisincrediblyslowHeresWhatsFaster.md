@@ -3,17 +3,13 @@ title: "더이상 느려빠진 JSON을 사용하지 않아도 되는 이유"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "JSON is incredibly slow Heres Whats Faster"
 link: "https://medium.com/data-science-community-srm/json-is-incredibly-slow-heres-what-s-faster-ca35d5aaf9e8"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/JSONisincrediblyslowHeresWhatsFaster_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 <img src="/assets/img/JSONisincrediblyslowHeresWhatsFaster_1.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 JSON은 JavaScript Object Notation의 줄임말로, 웹 응용 프로그램에서 데이터를 전송하고 저장하는 데 사용되는 가벼운 데이터 교환 형식입니다. 그 간단함과 인간이 읽을 수 있는 형식 덕분에 사람들과 기계 모두가 쉽게 작업할 수 있습니다. 하지만 웹 개발 프로젝트에서 JSON에 대해 왜 관심을 가져야 할까요?
 
@@ -33,7 +40,18 @@ JSON과 그 세부사항을 이해하는 것은 모든 웹 개발자에게 필�
 
 # JSON의 인기와 사람들이 그것을 사용하는 이유...
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 JSON의 인기는 웹 개발 세계에서 지나치게 강조할 수 없습니다. JSON은 몇 가지 실질적인 이유로 데이터 교환의 표준으로 나타났습니다:
 
@@ -48,7 +66,18 @@ JSON의 인기는 웹 개발 세계에서 지나치게 강조할 수 없습니�
 
 # 속도의 필요성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 애플리케이션 속도와 반응성의 중요성
 
@@ -62,7 +91,18 @@ JSON의 인기는 웹 개발 세계에서 지나치게 강조할 수 없습니�
 
 ## JSON이 우리 애플리케이션을 느리게 만드는 걸까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 중심 질문에 대해 이야기해 봅시다: JSON이 우리 애플리케이션을 느리게 만들까요?
 
@@ -72,7 +112,18 @@ JSON의 인기는 웹 개발 세계에서 지나치게 강조할 수 없습니�
 
 다음 섹션에서는 JSON이 애플리케이션에서 병목 현상이 될 수 있는 구체적인 이유를 탐구하고, 더 중요한 것은 이러한 문제를 완화하는 방법을 탐색해 보겠습니다. 앞으로 진행함에 따라 JSON을 비하하는 것이 아니라 그 한계를 이해하고 더 빠르고 반응이 빠른 애플리케이션을 위해 성능 최적화 전략을 발견하는 것이 목표라는 것을 기억해 주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/JSONisincrediblyslowHeresWhatsFaster_2.png" />
 
@@ -82,7 +133,18 @@ JSON은 널리 사용되고 있지만 성능적인 문제에 면역이 아니다
 
 ## 1. 구문 분석 오버헤드
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 JSON 데이터가 응용 프로그램에 도착하면, 유용한 데이터 구조로 변환하기 위해 구문 분석 과정을 거쳐야 합니다. 구문 분석은 광범위하거나 깊게 중첩된 JSON 데이터를 처리할 때 특히 느릴 수 있습니다.
 
@@ -92,7 +154,18 @@ JSON은 클라이언트에서 서버로 전송될 때 데이터를 직렬화(객
 
 마이크로서비스 아키텍처의 세계에서는 JSON이 서비스 간 메시지를 전달하는 데 자주 사용됩니다. 그러나 JSON 메시지가 직렬화와 역직렬화를 필요로 한다는 점을 인식하는 것이 중요합니다. 이러한 작업은 상당한 오버헤드를 도입할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/JSONisincrediblyslowHeresWhatsFaster_3.png" />
 
@@ -102,7 +175,18 @@ JSON은 텍스트 기반이며 연결 및 구문 분석과 같은 작업에 대�
 
 ## 4. 데이터 유형의 부족
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 JSON은 한정된 데이터 유형 세트(예: 문자열, 숫자, 부울)을 갖고 있습니다. 복잡한 데이터 구조는 효율적이지 않은 표현이 필요할 수 있어서, 메모리 사용량이 증가하고 처리 속도가 느려질 수 있습니다.
 
@@ -112,7 +196,18 @@ JSON은 한정된 데이터 유형 세트(예: 문자열, 숫자, 부울)을 갖
 
 JSON의 인간이 읽기 쉬운 디자인은 장황성으로 이어질 수 있습니다. 중복된 키와 반복적인 구조는 페이로드 크기를 증가시켜 더 긴 데이터 전송 시간을 야기할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 6. 이진 데이터 지원 없음
 
@@ -122,7 +217,18 @@ JSON은 이진 데이터에 대한 네이티브 지원이 없습니다. 이진 �
 
 어떤 상황에서는 JSON 데이터가 깊게 중첩될 수 있어 재귀적으로 구문 분석하고 탐색해야 할 수도 있습니다. 이 계산 복잡성은 최적화되지 않은 경우에는 애플리케이션의 성능을 저하시킬 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # JSON 대안
 
@@ -132,7 +238,18 @@ JSON은 다목적 데이터 교환 형식이지만 특정 시나리오에서의 
 
 Protocol Buffers, 일반적으로 protobuf로 불리는 것은 구글이 개발한 이진 직렬화 형식입니다. protobuf는 효율성, 소형성 및 속도를 고려하여 설계되었습니다. protobuf의 이진 형태는 직렬화 및 역직렬화에 있어서 JSON보다 훨씬 빠릅니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 언제 선택해야 하는가: protobuf는 고성능 데이터 교환을 필요로 할 때 선택합니다. 특히, 마이크로서비스 아키텍처, IoT 애플리케이션 또는 네트워크 대역폭이 제한된 시나리오에서 유용합니다.
 
@@ -142,7 +259,18 @@ MessagePack은 빠르고 간결한 이진 직렬화 형식으로 알려져 있�
 
 - 언제 선택해야 하는가: MessagePack은 속도와 다국어 호환성 사이의 균형이 필요할 때 좋은 선택지입니다. 실시간 애플리케이션 및 데이터 크기 축소가 중요한 상황에 적합합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 3. BSON (Binary JSON)
 
@@ -152,7 +280,18 @@ BSON 또는 바이너리 JSON은 JSON에서 파생된 바이너리 인코딩 형
 
 ## 4. Apache Avro
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아파치 Avro는 컴팩트한 이진 형식을 제공하는 데이터 직렬화 프레임워크입니다. 스키마 기반으로, 효율적인 데이터 인코딩 및 디코딩이 가능합니다.
 
@@ -162,7 +301,18 @@ JSON 대비 성능 향상의 차이를 제공하는 이 대안은 사용 사례�
 
 ![JSON 대신 빠른 속도를 제공하는 이미지](/assets/img/JSONisincrediblyslowHeresWhatsFaster_5.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 모든 바이트의 중요성: 데이터 형식 최적화
 
@@ -172,7 +322,18 @@ JSON 대비 성능 향상의 차이를 제공하는 이 대안은 사용 사례�
 
 우리는 간단한 JSON 데이터 구조로 여정을 시작합니다. 아래는 샘플 JSON 데이터 일부입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```json
 {
@@ -203,7 +364,18 @@ JSON은 다재다능하고 작업하기 쉬운 장점이 있지만, 텍스트로
 
 # 효율적인 저장 방식: 바이너리 포맷으로 크기 축소하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/JSONisincrediblyslowHeresWhatsFaster_6.png" />
 
@@ -229,7 +401,18 @@ message User {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 0A 0E 4A 6F 68 6E 20 44 6F 65 0C 4A 6F 68 6E 20 44 6F 65 65 78 61 6D 70 6C 65 2E 63 6F 6D 04 21 00 00 00 05 01 12 41 31 32 33 03 42 DC CC CC 3F 05 30 31 31 32 34 34 35 36 25 02 9A 99 99 3F 0D 31 02 42 34 35 36 25 02 9A 99 99 3F
@@ -241,7 +424,18 @@ message User {
 
 (참고: MessagePack은 이진 형식이며 여기 표시된 내용은 사람이 읽기에는 적합하지 않습니다.)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이진 표현 (16 진수):
 
@@ -253,7 +447,18 @@ a36a6964000000000a4a6f686e20446f650c6a6f686e646f65406578616d706c652e636f6d042100
 
 ## BSON (바이너리 JSON):
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 (Binary format is a binary representation and is not readable by humans.)
 
@@ -265,7 +470,18 @@ a36a6964000000000a4a6f686e20446f650c6a6f686e646f65406578616d706c652e636f6d042100
 
 총 BSON 크기: 약 43 바이트
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Avro:
 
@@ -277,7 +493,18 @@ a36a6964000000000a4a6f686e20446f650c6a6f686e646f65406578616d706c652e636f6d042100
 0e120a4a6f686e20446f650c6a6f686e646f65406578616d706c652e636f6d049a999940040a020b4108312e3525312e323538323539
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 전체 Avro 크기: ~32바이트
 
@@ -287,7 +514,18 @@ a36a6964000000000a4a6f686e20446f650c6a6f686e646f65406578616d706c652e636f6d042100
 
 ## 1. Avro:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Avro는 데이터를 인코딩하기 위해 스키마를 사용하며, 이 스키마는 일반적으로 이진 표현에 포함됩니다.
 - Avro의 스키마 기반 인코딩은 데이터의 구조를 사전에 지정하여 효율적인 데이터 직렬화 및 역직렬화를 가능케 합니다.
@@ -301,7 +539,18 @@ a36a6964000000000a4a6f686e20446f650c6a6f686e646f65406578616d706c652e636f6d042100
 
 ## 3. BSON:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - BSON은 JSON 데이터의 이진 인코딩이며 각 값에 대한 유형 정보를 포함합니다.
 - BSON의 설계는 JSON에 근접하지만 JSON에는 없는 날짜 및 바이너리 데이터와 같은 이진 데이터 유형을 추가합니다.
@@ -315,7 +564,18 @@ a36a6964000000000a4a6f686e20446f650c6a6f686e646f65406578616d706c652e636f6d042100
 
 요약하면 이러한 차이는 각 형식의 설계 목표와 기능에서 비롯됩니다. Avro는 스키마 호환성에 우선순위를 두고, MessagePack은 콤팩트성에 초점을 맞추며, BSON은 이진 유형이 추가된 JSON과 유사한 구조를 유지합니다. 형식의 선택은 스키마 호환성, 데이터 크기 및 사용 편의성과 같은 특정 사용 사례와 요구 사항에 따라 달라집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # JSON 성능 최적화
 
@@ -325,7 +585,18 @@ JSON은 매우 다재다능하고 웹 개발에서 널리 사용되지만 속도
 
 ## 1. 데이터 크기 최소화:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 간단하고 설명적인 키 사용: JSON 객체의 크기를 줄이기 위해 간결하지만 의미 있는 키 이름을 선택하세요.
 
@@ -355,7 +626,18 @@ JSON은 매우 다재다능하고 웹 개발에서 널리 사용되지만 속도
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2. 배열을 현명하게 사용하세요:
 
@@ -380,7 +662,18 @@ JSON은 매우 다재다능하고 웹 개발에서 널리 사용되지만 속도
 
 ## 3. 숫자 표현 최적화:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 가능한 정수를 사용하세요: 값이 정수로 표현될 수 있다면, 부동 소수점 숫자 대신에 정수를 사용하세요.
 
@@ -400,7 +693,18 @@ JSON은 매우 다재다능하고 웹 개발에서 널리 사용되지만 속도
 
 - 반복된 데이터 피하기: 공유 값에 대한 참조를 통해 중복 데이터를 제거하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 비효율적
@@ -449,7 +753,18 @@ zlib.gzip(JSON.stringify(jsonData), (err, compressedData) => {
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 6. 서버 측 캐싱 활용하기:
 
@@ -459,7 +774,18 @@ zlib.gzip(JSON.stringify(jsonData), (err, compressedData) => {
 
 - 성능 프로필링: 프로필링 도구를 사용하여 JSON 처리 코드에서 병목 현상을 식별한 다음 해당 부분을 최적화하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 실제 최적화: 실무에서 JSON 속도 향상
 
@@ -471,7 +797,18 @@ zlib.gzip(JSON.stringify(jsonData), (err, compressedData) => {
 - 해결책: 그들은 JSON을 대체하기 위해 이진 직렬화 형식인 프로토콜 버퍼를 채택하여 마이크로 서비스 통신에 사용했습니다.
 - 영향: 이 최적화로 지연 시간을 최대 60%까지 줄여 LinkedIn 서비스의 속도와 응답성을 향상시켰습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2. Uber의 H3 지오-인덱스:
 
@@ -485,7 +822,18 @@ zlib.gzip(JSON.stringify(jsonData), (err, compressedData) => {
 - 해결책: Slack은 JSON 구조를 최적화하여 각 메시지에 필수 정보 만 포함하여 불필요한 데이터를 줄였습니다.
 - 영향: 이 최적화로 메시지 렌더링 속도가 더 빨라지고 Slack 사용자의 전반적인 채팅 성능이 향상되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 4. Auth0의 Protocol Buffers 구현:
 
@@ -497,7 +845,18 @@ zlib.gzip(JSON.stringify(jsonData), (err, compressedData) => {
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 개발의 세계에서 JSON은 데이터 교환을 위한 다재다능하고 필수적인 도구로 자리매김하고 있습니다. 인간이 읽기 쉬운 형식과 여러 언어와 호환되는 장점으로 현대 애플리케이션의 중심 요소가 되었습니다. 그러나 우리가 이 가이드에서 탐구한 대로 JSON의 널리 사용되는 측면이 성능 도전을 면제해 주지는 않는다는 사실을 기억해야 합니다.
 
@@ -510,7 +869,18 @@ JSON 성능 최적화 여정에서 얻을 수 있는 주요 포인트는 명확�
 
 웹 애플리케이션을 계속해서 구축하고 개선할 때 JSON의 성능 영향을 고려해 주세요. 데이터 구조를 신중하게 설계하고 의미 있는 키 이름을 선택하며 필요한 경우 대체 직렬화 형식을 탐색해 보세요. 이렇게 함으로써 애플리케이션이 사용자의 속도와 효율성 기대치를 단순히 충족하는 것이 아니라 능가할 수 있도록 보장할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 개발의 끊임없이 변화하는 풍경 속에서 JSON 성능 최적화는 귀중한 기술로 여러분의 프로젝트를 돋보이게 만들어주고 앱이 순간적인 디지턷 경험 시대에 성장할 수 있도록 보장합니다.
 
@@ -530,6 +900,17 @@ JSON 성능 최적화 주제를 더 깊게 파헤치고 싶은 독자를 위한 
 - google/brotli: Brotli 압축 형식 (github.com)
 - gzip 홈페이지
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 자료들은 JSON 성능 최적화의 다양한 측면에 대한 심층적인 통찰을 제공합니다. 실제 사례 연구와 응용 프로그램의 속도와 효율성을 향상시킬 수 있는 대체 데이터 직렬화 형식도 포함되어 있습니다.

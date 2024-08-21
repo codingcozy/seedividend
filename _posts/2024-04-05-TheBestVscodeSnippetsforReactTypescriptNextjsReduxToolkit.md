@@ -3,17 +3,13 @@ title: "React Typescript  Nextjs  Redux Toolkit을 위한 VSCode 코드 Snippets
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "The Best Vscode Snippets for React Typescript  Nextjs  Redux Toolkit"
 link: "https://medium.com/@bhanu1776/the-best-vscode-snippets-for-react-typescript-nextjs-redux-toolkit-e70db3ed3afd"
 isUpdated: true
 ---
-
-
-
-
 
 안녕하세요! ES7 React snippets 확장 프로그램을 사용해 보셨나요? 제공되는 막대한 양의 스니펫에 압도되었다고 느낀 적이 있나요? 그렇지 않다면, 여기 제가 추천하는 가장 필수적인 스니펫 목록이 있어요. 필수 사항에만 초점을 맞추면서 Visual Studio Code 설정을 간소화하고 코딩 경험을 효율적으로 만들어볼 수 있어요.
 
@@ -30,7 +26,18 @@ isUpdated: true
   },
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## React useEffect → ue
 
@@ -58,7 +65,18 @@ isUpdated: true
   },
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## React useMemo → 음
 
@@ -95,7 +113,18 @@ isUpdated: true
   },
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 프롭스를 사용한 React 함수형 컴포넌트 → rafcep
 
@@ -125,7 +154,18 @@ isUpdated: true
 
 ## 비동기 React 함수형 컴포넌트 → arafce
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 "비동기 리액트 함수 컴포넌트": {
@@ -167,7 +207,18 @@ isUpdated: true
 
 # Imports alias → imp & imd
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 "import": {
@@ -215,6 +266,17 @@ isUpdated: true
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 상단의 코드 스니펫을 TypeScriptReact.json 파일에 추가하거나 VSCode에서 제 제공해드리는 스니펫 파일을 사용해보세요. GitHub에서 확인하실 수 있습니다.

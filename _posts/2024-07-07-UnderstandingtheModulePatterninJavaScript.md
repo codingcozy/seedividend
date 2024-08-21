@@ -3,16 +3,13 @@ title: "자바스크립트에서 모듈 패턴 이해하기 쉽게 따라하는 
 description: ""
 coverImage: "/assets/no-image.jpg"
 date: 2024-07-07 02:19
-ogImage: 
+ogImage:
   url: /assets/no-image.jpg
 tag: Tech
 originalTitle: "Understanding the Module Pattern in JavaScript"
 link: "https://medium.com/@vembarrajan/understanding-the-module-pattern-in-javascript-2663c2e6a970"
 isUpdated: true
 ---
-
-
-
 
 자바스크립트는 다재다능하고 동적인 언어로, 코드를 구조화하고 조직하는 다양한 방법을 제공합니다. 자바스크립트 개발에서 가장 인기 있는 패턴 중 하나는 모듈 패턴입니다. 이 패턴은 단일 객체 내에서 개인 및 공용 멤버를 캡슐화하는 방법을 제공하여 코드를 깔끔하고 유지보수 가능하며 재사용하기 쉽게 만들어줍니다.
 
@@ -24,29 +21,40 @@ isUpdated: true
 - 조직화: 모듈을 사용하면 관련 기능을 논리적으로 구성하여 코드를 조직화하는 데 도움이 되어 가독성과 유지보수성을 향상시킵니다.
 - 재사용성: 모듈은 다른 응용 프로그램 부분 또는 다른 프로젝트에서 충돌 없이 쉽게 재사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 모듈 패턴의 구조
 
 모듈 패턴은 JavaScript의 클로저와 즉시 호출 함수 표현(IIFE)을 활용하여 캡슐화를 달성합니다. 이 구조를 살펴보겠습니다:
 
 ```js
-var Module = (function() {
-    // 비공개 변수와 함수
-    var privateVariable = '비공개입니다';
-    function privateFunction() {
-        console.log('이것은 비공개 함수입니다');
-    }
-    // 공개 인터페이스
-    return {
-        publicVariable: '공개 변수입니다',
-        publicFunction: function() {
-            console.log('이것은 공개 함수입니다');
-            // 비공개 멤버에 접근
-            console.log(privateVariable);
-            privateFunction();
-        }
-    };
+var Module = (function () {
+  // 비공개 변수와 함수
+  var privateVariable = "비공개입니다";
+  function privateFunction() {
+    console.log("이것은 비공개 함수입니다");
+  }
+  // 공개 인터페이스
+  return {
+    publicVariable: "공개 변수입니다",
+    publicFunction: function () {
+      console.log("이것은 공개 함수입니다");
+      // 비공개 멤버에 접근
+      console.log(privateVariable);
+      privateFunction();
+    },
+  };
 })();
 // 사용 예:
 console.log(Module.publicVariable); // 출력: '공개 변수입니다'
@@ -55,7 +63,18 @@ Module.publicFunction(); // 출력: '이것은 공개 함수입니다', '비공�
 
 ## 설명:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 모듈 정의: 모듈은 IIFE(즉시 호출 함수 표현)를 사용하여 정의됩니다. 이는 즉시 실행되는 함수를 생성하여 모듈을 나타내는 객체를 반환합니다.
 - 비공개 멤버: IIFE 내부에서 선언된 변수와 함수는 해당 함수에 로컬이므로 모듈 외부에서 접근할 수 없습니다.
@@ -69,7 +88,18 @@ Module.publicFunction(); // 출력: '이것은 공개 함수입니다', '비공�
 
 # 모듈 패턴을 언제 사용해야 하는가
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모듈 패턴은 논리적으로 관련된 기능을 캡슐화하고
 
@@ -80,51 +110,51 @@ Module.publicFunction(); // 출력: '이것은 공개 함수입니다', '비공�
 
 ```js
 const ShoppingCart = (() => {
-    // Private variables
-    const cartItems = [];
+  // Private variables
+  const cartItems = [];
 
-    // Private methods
-    const addItem = (item) => {
-        cartItems.push(item);
-        console.log(`${item.name}가 장바구니에 추가되었습니다.`);
-    };
+  // Private methods
+  const addItem = (item) => {
+    cartItems.push(item);
+    console.log(`${item.name}가 장바구니에 추가되었습니다.`);
+  };
 
-    const removeItem = (index) => {
-        if (index >= 0 && index < cartItems.length) {
-            const removedItem = cartItems.splice(index, 1)[0];
-            console.log(`${removedItem.name}가 장바구니에서 제거되었습니다.`);
-        } else {
-            console.log('잘못된 인덱스입니다.');
-        }
-    };
+  const removeItem = (index) => {
+    if (index >= 0 && index < cartItems.length) {
+      const removedItem = cartItems.splice(index, 1)[0];
+      console.log(`${removedItem.name}가 장바구니에서 제거되었습니다.`);
+    } else {
+      console.log("잘못된 인덱스입니다.");
+    }
+  };
 
-    const getTotalPrice = () => {
-        let totalPrice = 0;
-        cartItems.forEach(item => {
-            totalPrice += item.price;
-        });
-        return totalPrice.toFixed(2);
-    };
+  const getTotalPrice = () => {
+    let totalPrice = 0;
+    cartItems.forEach((item) => {
+      totalPrice += item.price;
+    });
+    return totalPrice.toFixed(2);
+  };
 
-    const displayCart = () => {
-        console.log('장바구니 내역:');
-        cartItems.forEach(item => {
-            console.log(`${item.name} - $${item.price.toFixed(2)}`);
-        });
-        console.log(`총액: $${getTotalPrice()}`);
-    };
+  const displayCart = () => {
+    console.log("장바구니 내역:");
+    cartItems.forEach((item) => {
+      console.log(`${item.name} - $${item.price.toFixed(2)}`);
+    });
+    console.log(`총액: $${getTotalPrice()}`);
+  };
 
-    // 공용 API
-    return {
-        addItem,
-        removeItem,
-        displayCart
-    };
+  // 공용 API
+  return {
+    addItem,
+    removeItem,
+    displayCart,
+  };
 })();
 
 // 예제 사용법
-const item1 = { name: '노트북', price: 999.99 };
-const item2 = { name: '헤드폰', price: 149.99 };
+const item1 = { name: "노트북", price: 999.99 };
+const item2 = { name: "헤드폰", price: 149.99 };
 
 ShoppingCart.addItem(item1); // 출력: "노트북이 장바구니에 추가되었습니다."
 ShoppingCart.addItem(item2); // 출력: "헤드폰이 장바구니에 추가되었습니다."
@@ -143,7 +173,18 @@ ShoppingCart.displayCart();
 // 총액: $999.99
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예제에서:
 
@@ -156,7 +197,18 @@ ShoppingCart.displayCart();
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결론적으로, JavaScript의 모듈 패턴은 코드를 구조화하고 조직화하는 강력한 도구이며 캡슐화를 제공하고 명확하게 정의된 인터페이스를 가진 재사용 가능한 모듈을 생성할 수 있습니다. 클로저와 즉시 실행 함수 식을 활용하여 견고하고 유지보수가 쉬운 애플리케이션을 구축하는 데 도움이됩니다.
 

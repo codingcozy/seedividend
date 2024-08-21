@@ -3,15 +3,13 @@ title: "간단한 파이썬 포트 스캐너 사용법"
 description: ""
 coverImage: "/assets/img/2024-07-09-Asimplepythonportscanner_0.png"
 date: 2024-07-09 09:14
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-Asimplepythonportscanner_0.png
 tag: Tech
 originalTitle: "A simple python port scanner"
 link: "https://medium.com/@alhobabtagiddin/a-simple-python-port-scanner-57f99c154cef"
 isUpdated: true
 ---
-
-
 
 ![포트 스캐너](/assets/img/2024-07-09-Asimplepythonportscanner_0.png)
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 선호하는 편집기를 사용하여 코드를 작성할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제가 선호하는 것은 PyCharm입니다 :)
 
@@ -35,7 +44,18 @@ from datetime import datetime
 
 ## 이제 대상을 정의해 봅시다
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 부분 1
 
@@ -51,7 +71,18 @@ else:
 
 이제 예쁜 배너를 추가해 봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 print("*" * 50)
@@ -75,7 +106,18 @@ try:
             print(f"port {port} is open ")
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 s.close();
@@ -100,7 +142,18 @@ except socket.error:
 #서버가 응답하지 않을 때
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 파트1
 
@@ -118,7 +171,18 @@ python 3 scanner.py 192.168.1.10 4444
 
 # 파트2
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 50부터 85까지 포트에 대한 for 루프를 실행했습니다.

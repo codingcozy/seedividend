@@ -3,17 +3,13 @@ title: "루비에서 싱글턴 메서드 사용하는 방법 입문 가이드"
 description: ""
 coverImage: "/assets/img/2024-06-30-IntroductiontoSingletonMethodsinRuby_0.png"
 date: 2024-06-30 22:48
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-30-IntroductiontoSingletonMethodsinRuby_0.png
 tag: Tech
 originalTitle: "Introduction to Singleton Methods in Ruby"
 link: "https://medium.com/passgage-tech/introduction-to-singleton-methods-in-ruby-a36c04e04189"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-06-30-IntroductiontoSingletonMethodsinRuby_0.png)
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 ## 싱글톤 메서드의 정의
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 루비에서의 싱글톤 메소드는 단일 객체에 대해 정의된 메소드입니다. 클래스 메소드가 클래스의 모든 인스턴스에 적용되는 반면, 싱글톤 메소드는 특정 객체를 대상으로 합니다.
 
@@ -34,7 +40,18 @@ isUpdated: true
 
 # 왜 싱글톤 메소드를 사용해야 할까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 싱글톤 메서드의 장점
 
@@ -48,7 +65,18 @@ isUpdated: true
 - 이벤트 처리: 특정 객체에 대한 이벤트 응답을 사용자 정의합니다.
 - 프로토타이핑: 실험적 목적으로 기능을 빠르게 추가합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Singleton 메소드 생성
 
@@ -58,7 +86,18 @@ isUpdated: true
 
 Singleton 메소드를 정의하는 것은 간단합니다. 해당 메소드를 객체에 직접 지정하는 것을 포함합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 object = Object.new
@@ -84,7 +123,18 @@ end
 puts obj.unique_method  # 출력: "This method is unique to obj"
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 싱글톤 메서드 vs 클래스 메서드
 
@@ -95,7 +145,18 @@ puts obj.unique_method  # 출력: "This method is unique to obj"
 - 범위: 싱글톤 메서드는 개별 객체를 위한 것이며, 클래스 메서드는 클래스에 적용됩니다.
 - 사용: 싱글톤 메서드는 단일 인스턴스를 수정하는 반면, 클래스 메서드는 모든 인스턴스에서 공유됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 유사점
 
@@ -105,7 +166,18 @@ puts obj.unique_method  # 출력: "This method is unique to obj"
 
 ## 실용적인 예제
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 싱글톤 메서드는 설정용으로 유용합니다. 예를 들어 인스턴스에 고유한 속성을 설정하는 것 등이 있습니다.
 
@@ -127,7 +199,18 @@ app_config.set(:timeout, 30)
 
 ## 싱글톤 디자인 패턴
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 싱글톤 메서드와는 조금 다르지만, 싱글톤 디자인 패턴은 클래스가 하나의 인스턴스만 가지고 그 인스턴스에 전역적으로 접근할 수 있도록 하는 것을 보장합니다.
 
@@ -167,7 +250,18 @@ else
 end
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 예시는 다음 주소에서 확인할 수 있습니다: https://refactoring.guru/design-patterns/singleton
 
@@ -177,7 +271,18 @@ end
 
 많은 Ruby 애플리케이션은 특별한 로깅, 고유 구성 및 객체 동작의 예외적인 경우를 처리하기 위해 싱글톤 메서드를 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 프로젝트
 
@@ -187,7 +292,18 @@ end
 
 ### 잠재적인 단점
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 오버헤드: 과도한 사용은 혼란과 유지보수 노력 증가로 이어질 수 있습니다.
 - 복잡성: 싱글톤 메서드의 이해와 디버깅은 일반 메서드보다 더 복잡할 수 있습니다.
@@ -198,7 +314,18 @@ end
 
 # 싱글톤 메서드 사용에 대한 최상의 적용 방법
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 효과적인 사용 팁
 
@@ -211,7 +338,18 @@ end
 - 남용: 싱글톤 메서드를 지나치게 사용하지 않도록 주의하세요. 이는 지저분하고 유지하기 어려운 코드로 이어질 수 있습니다.
 - 오용: 싱글톤 메서드가 문제 해결에 적합한 도구인지 확인하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 싱글톤 메서드와 객체 지향 프로그래밍
 
@@ -221,7 +359,18 @@ end
 
 ## OOP 개념과의 통합
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그들은 클래스 구조의 무결성을 해치지 않고 객체별 동작을 추가할 수 있는 방법을 제공합니다.
 
@@ -232,7 +381,18 @@ end
 - 단위 테스트: 싱글턴 메서드를 분리하여 개별적으로 테스트합니다.
 - 목 객체(Mocking): 목 객체를 사용하여 싱글턴 메서드가 있는 객체의 동작을 모방합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 테스트 도구
 
@@ -242,7 +402,18 @@ RSpec와 MiniTest와 같은 도구를 사용하면 싱글톤 메소드에 대한
 
 ## 싱글톤 메소드와 메타프로그래밍
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 루비의 메타프로그래밍 기능을 통해 싱글톤 메서드의 동적 정의가 가능해져 유연성이 증가합니다.
 
@@ -259,7 +430,18 @@ puts object.dynamic_method  # 출력: "This method was defined dynamically!"
 
 런타임에서 메서드를 동적으로 정의하는 것은 유연한 애플리케이션 구축에 강력한 도구가 될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 루비 라이브러리 및 젬에서의 싱글톤 메서드
 
@@ -269,7 +451,18 @@ puts object.dynamic_method  # 출력: "This method was defined dynamically!"
 
 ## 인기 있는 젬에서의 사용
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ActiveRecord 및 Rails 자체와 같은 보석들은 설정 및 초기화를 위해 싱글톤 메서드를 활용합니다.
 
@@ -279,7 +472,18 @@ ActiveRecord 및 Rails 자체와 같은 보석들은 설정 및 초기화를 위
 
 싱글톤 메서드는 이해하기 쉽고 유지보수가 용이하도록 정기적으로 문서화 및 검토되어야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 가독성
 
@@ -289,7 +493,18 @@ ActiveRecord 및 Rails 자체와 같은 보석들은 설정 및 초기화를 위
 
 ## 블로그
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Ruby Flow: 다양한 루비 주제에 대한 포스트가 있는 커뮤니티 사이트입니다.
 
@@ -300,7 +515,18 @@ ActiveRecord 및 Rails 자체와 같은 보석들은 설정 및 초기화를 위
 
 ## 포럼
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Ruby Forum: 루비 개발자들과 지식을 공유하고 질문을 할 수 있는 곳입니다.
 - Stack Overflow: 루비 질문에 대한 답변을 찾을 수 있는 Q&A 사이트입니다.

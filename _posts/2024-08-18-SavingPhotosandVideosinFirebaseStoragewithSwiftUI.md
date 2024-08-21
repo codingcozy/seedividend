@@ -3,7 +3,7 @@ title: "SwiftUI로 Firebase Storage에 사진과 동영상 저장하는 방법"
 description: ""
 coverImage: "/assets/no-image.jpg"
 date: 2024-08-18 11:50
-ogImage: 
+ogImage:
   url: /assets/no-image.jpg
 tag: Tech
 originalTitle: "Saving Photos and Videos in Firebase Storage with SwiftUI"
@@ -11,7 +11,6 @@ link: "https://medium.com/@createapp1234/saving-photos-and-videos-in-firebase-st
 isUpdated: true
 updatedAt: 1724032799108
 ---
-
 
 Firebase 스토리지에 사진과 비디오를 저장하는 것은 많은 모바일 애플리케이션에서 필요한 작업입니다. Firebase 스토리지는 대량의 데이터를 처리하기 위한 견고하고 확장 가능한 솔루션을 제공합니다. 이 기사에서는 SwiftUI 애플리케이션에 Firebase 스토리지를 통합하여 사진과 비디오를 업로드하는 프로세스를 안내합니다.
 
@@ -24,7 +23,18 @@ Firebase 스토리지에 사진과 비디오를 저장하는 것은 많은 모�
 
 # 단계 1: 프로젝트에 Firebase 설정하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, iOS 프로젝트에 Firebase를 추가해야 합니다. Firebase를 설정하려면 다음 단계를 따르세요:
 
@@ -40,7 +50,18 @@ pod 'Firebase/Storage'
 
 - pod install을 실행하여 Firebase SDK를 설치합니다. 또는 Xcode 패키지를 통해 가져올 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 2: 앱에서 Firebase 초기화하기
 
@@ -64,7 +85,18 @@ struct YourApp: App {
     }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 3: 사진 및 비디오 선택기 추가하기
 
@@ -108,7 +140,18 @@ struct ImagePicker: UIViewControllerRepresentable {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 4: Firebase Storage에 업로드하기
 
@@ -152,7 +195,18 @@ class FirebaseManager: ObservableObject {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Step 5: SwiftUI 뷰에 통합하기
 
@@ -226,7 +280,18 @@ struct ContentView: View {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

@@ -3,17 +3,13 @@ title: "Laravel  Inertiajs  react 간단한 CRUD 예제"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Laravel  Inertiajs  React  Simple CRUD Example"
 link: "https://medium.com/@demian.kostelny/laravel-inertia-js-react-simple-crud-example-2e0d167365d"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/LaravelInertiajsReactSimpleCRUDExample_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 새로운 라라벨 앱을 생성하는 방법은 원하는대로 사용할 수 있습니다. 제 경우에는 다음과 같은 컴포저 명령어를 사용할 예정입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 $ composer create-project laravel/laravel laravel-react-crud
@@ -51,7 +58,18 @@ $ composer create-project laravel/laravel laravel-react-crud
 
 또한 Inertia.js의 주요 컴포저 패키지를 설치하는 것을 잊지 마세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 $ composer require inertiajs/inertia-laravel
@@ -65,7 +83,18 @@ $ composer require inertiajs/inertia-laravel
 $ php artisan inertia:middleware
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 명령 이후에, Kernel.php 파일을 열어서 웹 라우트 그룹으로 이동하고, 그 배열 안에 다음 코드 라인을 넣어주세요:
 
@@ -84,7 +113,18 @@ $ php artisan inertia:middleware
 
 # 클라이언트 셋업
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, NPM이나 Yarn을 사용하여 다음 종속성을 설치하십시오:
 
@@ -110,7 +150,18 @@ export default defineConfig({
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 알겠어요. 이제 "resources/js" 폴더 안으로 들어가서 app.js 파일을 삭제하고 "app.jsx"라는 새 파일을 만들어주세요. 그리고 다음 코드를 넣어주세요:
 
@@ -122,11 +173,7 @@ import { resolvePageComponent } from "laravel-vite-plugin/inertia-helpers";
 
 createInertiaApp({
   // 아래에서 볼 수 있듯이, resources/js/Pages 폴더에서 모든 React 컴포넌트를 가져올 것입니다.
-  resolve: (name) =>
-    resolvePageComponent(
-      `./Pages/${name}.jsx`,
-      import.meta.glob("./Pages/**/*.jsx")
-    ),
+  resolve: (name) => resolvePageComponent(`./Pages/${name}.jsx`, import.meta.glob("./Pages/**/*.jsx")),
   setup({ el, App, props }) {
     createRoot(el).render(<App {...props} />);
   },
@@ -137,7 +184,18 @@ createInertiaApp({
 
 # CRUD 백엔드 로직
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 말씀드렸듯이, 이 튜토리얼에서는 간단한 CRUD를 만들고 있습니다. 따라서 포스트 리소스 로직을 갖춘 간단한 어플리케이션을 구축하려고 합니다. 이를 위해 팩토리와 마이그레이션이 적용된 "Post"라는 새 모델을 만들어봅시다:
 
@@ -182,7 +240,18 @@ return new class extends Migration
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 필요한 모든 필드를 입력했어요. 이제 마이그레이션을 실행해볼게요:
 
@@ -196,7 +265,18 @@ $ php artisan migrate
 $ php artisan make:controller PostController --resource --model=Post
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 좋아요, 이제 `Post` 팩토리를 열어서 시드로 생성할 예시 게시물에 대한 규칙을 설정해봅시다:
 
@@ -251,7 +331,18 @@ class DatabaseSeeder extends Seeder
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼 이제 시더 플래그를 사용하여 모든 마이그레이션을 실행해 봅시다:
 
@@ -281,7 +372,18 @@ export default function Index({ posts }) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에서 볼 수 있듯이, 이것은 정말 간단한 컴포넌트입니다. 이제 이미 만든 Post 컨트롤러 내에서 다음 코드로 이 컴포넌트를 렌더링할 시간입니다:
 
@@ -336,7 +438,18 @@ Route::get('/', function () {
 Route::resource('/post', PostController::class);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로컬 서버 및 Vite.js 서버를 실행하는 것을 잊지 마세요:
 
@@ -349,7 +462,18 @@ $ npm run dev
 
 ![라벨인털리아 및 리액트 간단한 CRUD 예시](/assets/img/LaravelInertiajsReactSimpleCRUDExample_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 멋지네요! 이제 다음 주제로 넘어가서 폼을 처리해볼게요.
 
@@ -397,11 +521,7 @@ export default function Create() {
         <input id="title" value={values.title} onChange={handleChange} />
 
         <label htmlFor="body">내용:</label>
-        <textarea
-          id="body"
-          value={values.body}
-          onChange={handleChange}
-        ></textarea>
+        <textarea id="body" value={values.body} onChange={handleChange}></textarea>
         <button type="submit">만들기</button>
       </form>
     </>
@@ -409,7 +529,18 @@ export default function Create() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 해야 할 다음 일은 포스트 컨트롤러에 함수를 생성하고 저장하는 코드를 작성하는 것입니다:
 
@@ -476,7 +607,18 @@ class Post extends Model
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Boom! 한 번 테스트해 보자 🔥
 
@@ -486,7 +628,18 @@ Boom! 한 번 테스트해 보자 🔥
 
 ![이미지](/assets/img/LaravelInertiajsReactSimpleCRUDExample_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 모든 것을 올바르게 했다면 — 당신은 당신의 게시물을 페이지 맨 끝에 볼 것입니다. 그러니 여기에서 양식을 처리하는 방법을 배우고, 우리 CRUD 예제를 마무리해야 합니다. 따라서 편집, 업데이트, 표시, 그리고 삭제 기능을 만들어 봅시다.
 
@@ -529,11 +682,7 @@ export default function Edit({ post }) {
         <input id="title" value={values.title} onChange={handleChange} />
 
         <label htmlFor="body">Body:</label>
-        <textarea
-          id="body"
-          value={values.body}
-          onChange={handleChange}
-        ></textarea>
+        <textarea id="body" value={values.body} onChange={handleChange}></textarea>
         <button type="submit">Update</button>
       </form>
     </>
@@ -541,7 +690,18 @@ export default function Edit({ post }) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 편집 페이지를 렌더링하고 게시물을 업데이트하는 코드를 작성하세요:
 
@@ -598,7 +758,18 @@ export default function Show({ post }) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 코드를 사용하여 함수를 보여주세요(그리고 여기에는 특별한 것이 없습니다, 그냥 간단한 렌더링 호출입니다):
 
@@ -631,7 +802,18 @@ class PostController extends Controller
 
 # 게시물 삭제 함수
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아무것도 특별한 것은 없을 거에요. 그냥 하나의 함수 호출이 있을 뿐입니다.
 
@@ -687,7 +869,18 @@ export default function Index({ posts }) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 코드를 실행해보시면 요청이 수행되고 게시물이 사라지는 것을 확인할 수 있습니다.
 

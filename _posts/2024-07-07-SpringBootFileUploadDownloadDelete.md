@@ -3,16 +3,13 @@ title: "Spring Boot 파일 업로드, 다운로드 및 삭제하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-07-SpringBootFileUploadDownloadDelete_0.png"
 date: 2024-07-07 22:02
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-SpringBootFileUploadDownloadDelete_0.png
 tag: Tech
 originalTitle: "Spring Boot File Upload Download Delete"
 link: "https://medium.com/@saijanand/spring-boot-file-upload-download-delete-94982145bea0"
 isUpdated: true
 ---
-
-
-
 
 이 문서는 문서 관리 시스템에 관한 모든 것입니다.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 문서 관리 시스템(DMS)은 사용자가 PDF, 이미지, 텍스트 파일과 같은 다양한 종류의 문서를 업로드, 다운로드 및 관리할 수 있게 합니다. 시스템은 문서에 대한 안전하고 신뢰할 수 있는 저장 공간을 제공하며 효율적인 검색 및 관리 기능을 갖춰야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 사용자
 
@@ -35,7 +43,18 @@ isUpdated: true
 - 시스템은 충분한 저장 공간과 적절한 디렉터리 권한이 있어야 합니다.
 - 문서는 무단 액세스를 방지하기 위해 안전하게 저장되어야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 사후 조건
 
@@ -47,7 +66,18 @@ isUpdated: true
 
 ## 시나리오 1: 문서 업로드
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Primary Actor: 사용자
 
@@ -60,7 +90,18 @@ Trigger: 사용자가 업로드할 문서를 선택하고 응용 프로그램을
 - 시스템이 파일을 지정된 업로드 디렉토리에 저장합니다.
 - 시스템이 업로드를 확인하는 성공 메시지를 반환합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대체 플로우:
 
@@ -72,7 +113,18 @@ Trigger: 사용자가 업로드할 문서를 선택하고 응용 프로그램을
 
 기본 주체: 사용자
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Trigger: 특정 문서를 다운로드하라는 사용자 요청이 발생합니다.
 
@@ -85,7 +137,18 @@ Trigger: 특정 문서를 다운로드하라는 사용자 요청이 발생합니
 
 대체 흐름:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 파일을 찾을 수 없음: 요청된 문서가 존재하지 않으면 시스템이 오류 메시지를 반환합니다.
 - 읽기 오류: 문서를 저장소에서 읽을 수 없는 경우 시스템이 오류 메시지를 반환합니다.
@@ -96,7 +159,18 @@ Trigger: 특정 문서를 다운로드하라는 사용자 요청이 발생합니
 
 발동: 관리자가 특정 문서를 삭제하도록 요청합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 주요 성공 시나리오:
 
@@ -110,7 +184,18 @@ Trigger: 특정 문서를 다운로드하라는 사용자 요청이 발생합니
 - 파일을 찾을 수 없음: 문서가 존재하지 않을 경우 시스템은 오류 메시지를 반환합니다.
 - 삭제 오류: 문서를 삭제할 수 없는 경우 시스템은 오류 메시지를 반환합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 package com.javacodex.controller;
@@ -201,9 +286,20 @@ public class FileUploadController {
 - downloadFile: 파일 다운로드를 처리하고 지정된 디렉토리에서 파일을 검색하며 오류 발생 시 FileStorageException을 throw합니다.
 - deleteFile: 파일 삭제를 처리하고 지정된 디렉토리에서 파일을 삭제하며 오류 발생 시 FileStorageException을 throw합니다.
 
-이 구현은 적절한 오류 처리와 사용자 피드백을 제공하여 견고하고 유지 보수가 용이한 문서 관리 시스템을 보장합니다. 특정 요구 사항 및 환경에 따라 예외 메시지, 로깅 및 기타 구성을 조정하십시오.  
+이 구현은 적절한 오류 처리와 사용자 피드백을 제공하여 견고하고 유지 보수가 용이한 문서 관리 시스템을 보장합니다. 특정 요구 사항 및 환경에 따라 예외 메시지, 로깅 및 기타 구성을 조정하십시오.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 package com.javacodex.exception;
@@ -248,13 +344,22 @@ public class FileStorageException extends RuntimeException {
 
 사용자 정의 예외 (FileStorageException): 파일 작업과 관련된 오류를 처리합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 업로드 디렉토리 = /경로/대상/업로드-디렉토리
 spring.servlet.multipart.max-file-size = 10MB
 spring.servlet.multipart.max-request-size = 10MB
-
 
 고마워요, 계속 공부해요!
 
@@ -262,8 +367,18 @@ spring.servlet.multipart.max-request-size = 10MB
 
 끝까지 읽어줘서 고마워요. 가기 전에:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 저자에게 박수를 보내주시고 팔로우를 부탁드립니다! 👏
 - YouTube에서도 팔로우해주세요!

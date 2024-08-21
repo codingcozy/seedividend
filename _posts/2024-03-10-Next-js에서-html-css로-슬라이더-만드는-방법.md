@@ -3,17 +3,13 @@ title: "Next js에서 html css로 슬라이더 만드는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # Next.js에서 HTML 및 CSS를 사용하여 슬라이더 만드는 방법
 
@@ -22,7 +18,18 @@ isUpdated: true
 이 글에서는 React, Next.js 및 CSS를 사용하여 슬라이더를 만드는 과정을 소개합니다.
 이 슬라이더는 사용자가 왼쪽 및 오른쪽 탐색 버튼을 사용하여 트렌드 제품 컬렉션을 스크롤할 수 있게 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 1: 프로젝트 설정하기
 
@@ -42,7 +49,18 @@ npx create-next-app@latest
 - 프로젝트 디렉토리 내에 components라는 새 디렉토리를 만듭니다.
 - components 디렉토리 내에 TrendingSlider.js 파일을 생성하고 다음 코드를 추가하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 "use client"; // for nextjs 13.4 user
@@ -138,7 +156,18 @@ const TrendingSlider = () => {
 export default TrendingSlider;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이제 components 디렉토리에 TrendingSlider.css 파일을 만들고 다음 CSS 코드를 추가하세요:
 
@@ -261,7 +290,18 @@ html {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 3: TrendingSlider 컴포넌트 통합하기
 

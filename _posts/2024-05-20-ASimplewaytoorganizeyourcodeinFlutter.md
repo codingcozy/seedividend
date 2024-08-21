@@ -3,16 +3,13 @@ title: "플러터에서 코드를 작성하는 간단한 방법"
 description: ""
 coverImage: "/assets/img/2024-05-20-ASimplewaytoorganizeyourcodeinFlutter_0.png"
 date: 2024-05-20 23:16
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-20-ASimplewaytoorganizeyourcodeinFlutter_0.png
 tag: Tech
 originalTitle: "A Simple way to organize your code in Flutter"
 link: "https://medium.com/@kanellopoulos.leo/a-simple-way-to-organize-your-code-in-flutter-e175e7004fb5"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-05-20-ASimplewaytoorganizeyourcodeinFlutter_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 저는 모든 프로젝트에서 사용하는 이 구조를 사용하여 프로젝트 간의 이동이 쉽고 물건의 위치를 파악하기 위해 더 이상 찾아다니지 않아도 됩니다. 저희 팀은 이 구조에 익숙해져 있어, 제작량을 최소화하여 며칠 안에 앱을 개발할 수 있는 수준까지 줄일 수 있었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-05-20-ASimplewaytoorganizeyourcodeinFlutter_1.png)
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 위젯: 이 폴더에는 일반적으로 앱의 재사용 가능한 위젯이 들어갑니다. 이 폴더에는 custom_scaffold와 "리사이클러" 또는 리스트 아이템 위젯과 같은 파일을 저장합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 서비스: 나는 내가 만드는 앱에서 사용하는 모든 외부 서비스를 가지고 있는 DIO 폴더로 알려진 것이다. 여기에는 보통 앱에 데이터를 공급하는 REST API에 연결하는 클래스들이 포함되어 있습니다.
 
@@ -58,8 +77,18 @@ class TermVO {
 
 유틸리티: 이 폴더는 외부 API나 로컬 라이브러리를 위한 "도우미" 파일들의 집입니다. 여기에는 Firebase 헬퍼 클래스, OneSignal 헬퍼 클래스 또는 우리 프로젝트에서 문자열을 포맷하는 함수를 포함하는 내 StringHelper 클래스와 같은 것들이 들어갈 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Styles: 테마와 스타일을 포함하므로 직관적입니다.
 
@@ -69,7 +98,18 @@ Commons.dart: 이 파일은 앱에서 사용되는 모든 것을 주요 "import"
 
 이 구조를 사용하면 큰 프로젝트조차도 상당히 조직화하여 귀하의 삶을 훨씬 쉽게 만들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # UI와 코드의 분리
 
@@ -79,10 +119,20 @@ REST API에서 뉴스 목록이 포함된 화면의 예시를 살펴보겠습니
 
 ![News screen](/assets/img/2024-05-20-ASimplewaytoorganizeyourcodeinFlutter_3.png)
 
-"뉴스" 화면은 UI를 포함하는 *_screen.dart 파일과 기능을 포함하는 *_controller.dart 파일로 나뉘어 있음을 확인할 수 있습니다. 이를 달성하기 위해, screen.dart에서 "part 'news_controller.dart'"를 사용하고, controller.dart 파일에서는 "part of 'news_screen.dart'"를 사용합니다. 이렇게 두 파일이 하나처럼 작동합니다.
+"뉴스" 화면은 UI를 포함하는 _\_screen.dart 파일과 기능을 포함하는 _\_controller.dart 파일로 나뉘어 있음을 확인할 수 있습니다. 이를 달성하기 위해, screen.dart에서 "part 'news_controller.dart'"를 사용하고, controller.dart 파일에서는 "part of 'news_screen.dart'"를 사용합니다. 이렇게 두 파일이 하나처럼 작동합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image1](/assets/img/2024-05-20-ASimplewaytoorganizeyourcodeinFlutter_4.png)
 
@@ -92,8 +142,18 @@ You can see that the first file is simple and only contains the UI part.
 
 This is the controller file which is used to load the news and sort them. As you can see, the newsList is loaded with content in the `controller.dart` and used in the `screen.dart`.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 간단한 예제이지만 코드를 정리하고 깨끗하게 유지하는 두 파일을 가지는 가치를 볼 수 있습니다.
 
@@ -103,8 +163,18 @@ This is the controller file which is used to load the news and sort them. As you
 
 이를 템플릿에 추가하려면 다음 단계를 따라야 합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![screenshot](/assets/img/2024-05-20-ASimplewaytoorganizeyourcodeinFlutter_6.png)
 
@@ -114,67 +184,82 @@ This is the controller file which is used to load the news and sort them. As you
 
 ![screenshot](/assets/img/2024-05-20-ASimplewaytoorganizeyourcodeinFlutter_7.png)
 
-- 파일 이름은 $'NAME'_screen이어야 합니다
+- 파일 이름은 $'NAME'\_screen이어야 합니다
 - 확장자는 dart여야 합니다
 - 메인 파일 (screen.dart)에 대한 다음 코드 사용
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 #set($class = ${NAME})
 #set($class_start = $class.substring(0,1).toUpperCase())
 #set($class_rest = $class.substring(1).toLowerCase())
 #set($class = $class_start + $class_rest)
 
-part '${NAME}_controller.dart';
+part '${NAME}\_controller.dart';
 
 class ${class}Screen extends StatefulWidget {
-  const ${class}Screen({Key? key}) : super(key: key);
+const ${class}Screen({Key? key}) : super(key: key);
 
-  @override
-  createState() => _${class}Screen();
+@override
+createState() => \_${class}Screen();
 }
 
-class _${class}Screen extends ${class}Controller {
-  @override
-  Widget build(BuildContext context) {
-    return Container();
-  }
+class \_${class}Screen extends ${class}Controller {
+@override
+Widget build(BuildContext context) {
+return Container();
 }
-
+}
 
 7. 메인 파일 아래에 다음 코드와 함께 자식 템플릿 파일을 만듭니다.
 
-
 #set($class = ${NAME})
 #set($class_start = $class.substring(0,1).toUpperCase())
 #set($class_rest = $class.substring(1).toLowerCase())
 #set($class = $class_start + $class_rest)
 
-part of '${NAME}_screen.dart';
+part of '${NAME}\_screen.dart';
 
 abstract class ${class}Controller extends State<${class}Screen> {
 
-  @override
-  void initState() {
-    // TODO: initState 구현
-    super.initState();
-  }
-
-  @override
-  void dispose() {
-    // TODO: dispose 구현
-    super.dispose();
-  }
+@override
+void initState() {
+// TODO: initState 구현
+super.initState();
 }
 
+@override
+void dispose() {
+// TODO: dispose 구현
+super.dispose();
+}
+}
 
-8. 자식 템플릿 파일을 '$'NAME'_controller.dart'로 명명하고 확장자는 이전과 동일한 dart로 설정합니다.
-  
+8. 자식 템플릿 파일을 '$'NAME'\_controller.dart'로 명명하고 확장자는 이전과 동일한 dart로 설정합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-05-20-ASimplewaytoorganizeyourcodeinFlutter_8.png)
 
@@ -185,7 +270,17 @@ abstract class ${class}Controller extends State<${class}Screen> {
 
 제가 앞서 말했듯이, 이것은 제 팀이 코드를 구성하는 방식일 뿐이며 다양한 방법이 있지만, 2019년 첫 번째 Flutter 프로젝트의 엉망으로부터 잘 구성되고 유지 관리가 빠른 방식으로 나아가게 도와준 것을 잠시 공유하고 싶었습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 메서드를 좋아하신다면, 귀하의 프로젝트에 통합하고 플러터 개발자 동료들과 공유하며 박수 치는 것을 잊지 마세요.

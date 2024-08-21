@@ -3,17 +3,13 @@ title: "Vercel로 자체 Ollama LLM 챗봇 사이트를 만들기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "The fastest way to deploy your own Ollama LLM chatbot frontend on Vercel"
 link: "https://medium.com/@roschnowski8/the-fastest-way-to-deploy-your-own-ollama-llm-chatbot-frontend-on-vercel-d735e8611c92"
 isUpdated: true
 ---
-
-
-
-
 
 ![The fastest way to deploy your own Ollama LLM chatbot frontend on Vercel](/assets/img/ThefastestwaytodeployyourownOllamaLLMchatbotfrontendonVercel_0.png)
 
@@ -23,7 +19,18 @@ Ollama는 정확히 그것을 할 수 있게 해줍니다. 이것은 인기 있�
 
 이 안내서는 귀하의 LLM 모델과 함께 사용할 수 있는 자체 호스팅된 ChatGPT 스타일 프론트엔드 애플리케이션을 설정하는 가장 쉽고 편리한 방법을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Ollama를 설치하고 로컬 머신에 실행하거나 호스팅해야 합니다.
 

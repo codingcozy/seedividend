@@ -3,16 +3,13 @@ title: "Flutter 초보자를 위한 테스트 및 디버깅 가이드"
 description: ""
 coverImage: "/assets/img/2024-07-01-FlutterTestingandDebuggingABeginnersGuide_0.png"
 date: 2024-07-01 17:08
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-01-FlutterTestingandDebuggingABeginnersGuide_0.png
 tag: Tech
 originalTitle: "Flutter: Testing and Debugging (A Beginner’s Guide)"
 link: "https://medium.com/@cloderaldo/flutter-testing-and-debugging-a-beginners-guide-1178aa0a5dbc"
 isUpdated: true
 ---
-
-
-
 
 소프트웨어 개발에서 테스트와 디버깅은 중요한 구성 요소입니다. 이들을 통해 애플리케이션이 의도한 대로 작동하고 사용자에게 원활한 경험을 제공할 수 있습니다. 이 블로그에서는 플러터(Flutter)에서의 유닛 테스트, 통합 테스트 및 위젯 테스트에 대해 탐구할 것입니다. 만약 플러터에서의 테스트가 처음이라면, 이 안내서가 처음 시작하는 데 도움이 될 것입니다.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 구체적인 내용에 대해 들어가기 전에, 테스트가 왜 중요한지 이해하는 것이 중요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 품질 보증: 테스트는 앱이 올바르게 작동하는지 확인하는 데 도움이 됩니다.
 - 초기 버그 검출: 개발 초기에 버그를 찾아 고치면 시간과 노력을 절약할 수 있습니다.
@@ -37,7 +45,18 @@ isUpdated: true
 - 위젯 테스트: UI 구성 요소를 테스트합니다.
 - 통합 테스트: 전체 앱 또는 앱의 큰 부분을 테스트합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 플러터에서의 유닛 테스트
 
@@ -47,7 +66,18 @@ isUpdated: true
 
 먼저, pubspec.yaml 파일에 test 패키지를 추가하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 dev_dependencies:
@@ -62,9 +92,18 @@ dev_dependencies:
 
 간단한 덧셈 메소드를 가진 계산기 클래스가 있다고 가정해봅시다:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 class Calculator {
@@ -92,8 +131,18 @@ void main() {
 
 이 테스트에서는:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 테스트 패키지 및 Calculator 클래스를 가져옵니다.
 - Calculator를 위한 테스트 그룹을 정의합니다.
@@ -107,7 +156,18 @@ void main() {
 flutter test
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 위젯 테스트 작성
 
@@ -117,7 +177,18 @@ flutter test
 
 Flutter에는 기본적으로 flutter_test 패키지가 포함되어 있으므로 수동으로 추가할 필요가 없습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 위젯 테스트 작성
 
@@ -147,9 +218,20 @@ void main() {
 }
 ```
 
-이 테스트에서는:  
+이 테스트에서는:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 필요한 패키지를 import하세요.
 - 카운터의 초기 상태를 확인하는 테스트를 작성하세요.
@@ -164,7 +246,18 @@ void main() {
 flutter test
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 통합 테스트 작성하기
 
@@ -174,7 +267,18 @@ flutter test
 
 pubspec.yaml 파일에 integration_test 패키지를 추가하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요청하신 내용은 다음과 같습니다.
 
@@ -192,7 +296,18 @@ dev_dependencies:
 
 동일한 카운터 앱을 대상으로 통합 테스트를 작성해봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import 'package:integration_test/integration_test.dart';
@@ -226,7 +341,18 @@ void main() {
 
 새 파일 test_driver/integration_test.dart를 생성하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import 'package:integration_test/integration_test_driver.dart';
@@ -242,8 +368,18 @@ flutter drive --driver=test_driver/integration_test.dart --target=test_driver/ap
 
 # 결론
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 플러터 개발자에게는 테스트와 디버깅이 필수적인 기술입니다. 단위 테스트, 위젯 테스트, 통합 테스트를 작성함으로써 앱이 의도한 대로 작동하고 사용자에게 뛰어난 경험을 제공할 수 있습니다. 테스트를 통해 더 많은 경험을 쌓으면 코드베이스를 유지하고 확장하기가 더 쉬워질 것입니다.
 

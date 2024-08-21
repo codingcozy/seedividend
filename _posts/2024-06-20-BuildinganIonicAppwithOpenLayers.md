@@ -3,16 +3,13 @@ title: "OpenLayers를 사용하여 Ionic 앱 만들기"
 description: ""
 coverImage: "/assets/img/2024-06-20-BuildinganIonicAppwithOpenLayers_0.png"
 date: 2024-06-20 00:40
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-BuildinganIonicAppwithOpenLayers_0.png
 tag: Tech
 originalTitle: "Building an Ionic App with OpenLayers"
 link: "https://medium.com/@vishaldarekar/building-an-ionic-app-with-openlayers-4f4649daea99"
 isUpdated: true
 ---
-
-
-
 
 요즘 애플리케이션에서 대화식 및 동적 지도가 점점 필요해지면, OpenLayers와 같은 강력한 지도 라이브러리를 모바일 애플리케이션에 통합하는 것이 중요합니다. 이 튜토리얼에서는 Angular의 독립 구성 요소 기능을 활용하여 OpenLayers를 사용하는 Ionic 앱을 생성하는 과정을 안내합니다.
 
@@ -22,7 +19,18 @@ OpenLayers는 모든 지도 요구에 대한 고성능이며 각종 기능을 �
 
 ![Building an Ionic App with OpenLayers](/assets/img/2024-06-20-BuildinganIonicAppwithOpenLayers_0.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 준비물
 
@@ -35,7 +43,18 @@ OpenLayers는 모든 지도 요구에 대한 고성능이며 각종 기능을 �
 npm install -g @ionic/cli
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 1: Ionic Framework 설정하기
 
@@ -48,7 +67,18 @@ cd myOpenLayersApp
 
 # 단계 2: OpenLayers 설치하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트 디렉토리로 이동하여 OpenLayers를 설치해주세요:
 
@@ -60,7 +90,18 @@ npm install ol
 
 Angular CLI를 사용하여 독립형 컴포넌트를 생성해보세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 ng generate component open-layers-map --standalone
@@ -74,8 +115,18 @@ ng generate component open-layers-map --standalone
  "skipLibCheck": true
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![OpenLayers Map](/assets/img/2024-06-20-BuildinganIonicAppwithOpenLayers_1.png)
 
@@ -119,8 +170,18 @@ export class OpenLayersMapComponent implements AfterViewInit {
 }
 ```
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. open-layers-map.component.html:
 
@@ -136,34 +197,56 @@ export class OpenLayersMapComponent implements AfterViewInit {
   height: 100%;
   position: absolute;
 }
-```  
+```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 4: 지도 컴포넌트를 메인 페이지에 통합하기
 
 - home.page.ts:
 
 ```js
-import { Component } from '@angular/core';
-import { IonicModule } from '@ionic/angular';
-import { CommonModule } from '@angular/common';
-import { FormsModule } from '@angular/forms';
-import { OpenLayersMapComponent } from '../open-layers-map/open-layers-map.component';
+import { Component } from "@angular/core";
+import { IonicModule } from "@ionic/angular";
+import { CommonModule } from "@angular/common";
+import { FormsModule } from "@angular/forms";
+import { OpenLayersMapComponent } from "../open-layers-map/open-layers-map.component";
 
 @Component({
-  selector: 'app-home',
-  templateUrl: 'home.page.html',
-  styleUrls: ['home.page.scss'],
+  selector: "app-home",
+  templateUrl: "home.page.html",
+  styleUrls: ["home.page.scss"],
   standalone: true,
-  imports: [IonicModule, CommonModule, FormsModule, OpenLayersMapComponent]
+  imports: [IonicModule, CommonModule, FormsModule, OpenLayersMapComponent],
 })
 export class HomePage {}
 ```
 
 2. home.page.html:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <ion-header>
@@ -187,7 +270,18 @@ export class HomePage {}
 ionic serve
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Ionic 앱의 메인 페이지에서 간단한 OpenLayers 지도를 확인할 수 있어요.
 

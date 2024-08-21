@@ -3,16 +3,13 @@ title: "네스트JS는 ASPNET 팀이 노드js로 이전하거나 그 반대로 �
 description: ""
 coverImage: "/assets/img/2024-06-20-WhyNestJSisthePerfectFrameworkforASPNETTeamsMigratingtoNodejsOrVice-Versa_0.png"
 date: 2024-06-20 07:18
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-WhyNestJSisthePerfectFrameworkforASPNETTeamsMigratingtoNodejsOrVice-Versa_0.png
 tag: Tech
 originalTitle: "Why NestJS is the Perfect Framework for ASP.NET Teams Migrating to Node.js (Or Vice-Versa)"
 link: "https://medium.com/nestjs-hero/why-nestjs-is-the-perfect-framework-for-asp-net-teams-migrating-to-node-js-or-vice-versa-e0e94dd4692a"
 isUpdated: true
 ---
-
-
-
 
 ## Nest.js 대 ASP.NET: 프레임워크 비교
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 구축할 웹 사이트 유형, 사이트의 성능 요구 사항, 사용 가능한 개발자 풀, 그리고 사용하는 클라우드 제공 업체에 따라 만들어야 할 결정에 영향을 줄 것입니다. 결과적으로, 프레임워크를 선택할 때 고려할 사항이 많이 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Nest.js와 ASP.NET이 무엇인가요?
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 Nest.js는 TypeScript 프로그래밍 언어를 사용하여 완전히 구현된 Node.js 웹 프레임워크입니다. 다른 Node.js 웹 프레임워크와 비교할 때, Nest.js는 코드의 잘 정리된 프로젝트 구조에 중점을 둡니다. 경험 많은 개발자들은 Nest.js가 코드를 Angular 같은 다른 프레임워크로 어떻게 정리하는지를 알아볼 수 있을 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Nest.js는 Express의 함수형 접근 방식과 비교하여 TypeScript의 객체 지향 프로그래밍을 완전히 활용합니다. 그러나 내부적으로 Nest.js는 HTTP 서버를 실행하기 위해 Express 또는 Fastify(구성에 따라 다름)를 사용합니다. 따라서 다른 프레임워크 위에 있는 추상화 계층으로 생각할 수 있습니다.
 
@@ -42,7 +61,18 @@ ASP.NET은 Microsoft가 만든 웹 프레임워크입니다. Microsoft의 C# 프
 
 웹 프레임워크는 이제 보편적으로 .NET Core로 불리며, .NET 6가 최신 버전입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # TypeScript과 C#이 무엇인가요?
 
@@ -52,7 +82,18 @@ JavaScript도 닷컴 붐 이후 지금까지 인기를 얻고 있었습니다. 2
 
 동일한 회사가 두 프로그래밍 언어를 만들었기 때문에 두 언어는 공통점이 많으며, 익숙함으로 인해 개발 경험이 증진되고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 언어 모두 컴파일되기 때문에 컴파일러가 컴파일 시간에 오류를 확인합니다.
 
@@ -70,9 +111,20 @@ class Car {
     this.color = _color;
   }
 }
-```  
+```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 TypeScript에는 JavaScript에 없는 인터페이스가 있습니다.
 
@@ -110,7 +162,18 @@ class Audi implements Car{
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Nest.js는 TypeScript에서 OOP를 가장 효율적으로 활용하는 프레임워크 중 하나입니다. 모든 것이 인터페이스, 클래스 및 의존성 주입과 같은 OOP 개념에 기반을 두고 있습니다.
 
@@ -120,19 +183,30 @@ C#은 당시 가장 인기 있는 OOP 프로그래밍 언어인 Java를 모델�
 
 C#에서 유사한 베이스 클래스를 만드는 방법은 다음과 같을 것입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 class Car
 {
   private string color;
-  
-  public void getColor() 
+
+  public void getColor()
   {
     return this.color;
   }
-  
-  public void setColor(string color) 
+
+  public void setColor(string color)
   {
     this.color = color;
   }
@@ -151,26 +225,37 @@ interface ICar
 
 전체 구현은 다음과 같이 보일 것입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 class Audi : ICar
 {
   private string type;
   private string color;
-  public void getColor() 
+  public void getColor()
   {
     return this.color;
   }
-  public void setColor(string color) 
+  public void setColor(string color)
   {
     this.color = _color;
   }
-  public void getType() 
+  public void getType()
   {
     return this.type;
   }
-  public void setType(string type) 
+  public void setType(string type)
   {
     this.type = _type;
   }
@@ -183,8 +268,18 @@ class Audi : ICar
 
 이제 논란이 될 부분으로 향하고 있습니다. 프로젝트에는 무엇을 선택해야 할까요?
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 둘 다 놀라운 프레임워크인데 고려해야 할 일부 결정은 개인적인 기호에 따라 다르게 결정될 수 있습니다. 이 둘 사이에서 선택을 하는 것은 얼마나 유사한지 때문에 까다로운 일입니다.
 
@@ -194,7 +289,18 @@ Nest.js와 ASP.NET은 인증, 캐싱 및 데이터베이스 액세스와 관련�
 
 Tevpro의 기사에서는 Nest.js가 제공하는 기본 기능의 집합을 설명하고 있습니다. Nest.js와 ASP.NET 간의 사용 가능한 패키지를 비교한 테이블을 참조하여 더 자세한 내용을 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각 프레임워크의 주요 기능 간 결과는 비슷하지만, Nest.js와 ASP.NET은 둘 다 거대한 커뮤니티를 뒷받침하고 있습니다. 예를 들어, Nest.js는 Node.js 커뮤니티를 의지할 수 있고, ASP.NET은 거의 모든 대규모 기업 시스템에서 사용되기 때문에 대규모 기업 후원을 받고 있습니다.
 
@@ -204,7 +310,18 @@ Tevpro의 기사에서는 Nest.js가 제공하는 기본 기능의 집합을 설
 
 Nest.js와 ASP.NET 사이에는 많은 유사점이 있다는 것이 놀라울 수도 있습니다. 그러나 둘 다 일상적으로 OOP에 크게 의존하고 있으며 TypeScript와 C#이 프로그래밍 언어로서 얼마나 유사한지를 고려할 때, 어떤 프레임워크를 사용하는지에 따라 앱을 비교할 때 큰 차이가 없습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단한 Nest.js 프로젝트를 위한 서비스 컨트롤러는 아래와 같이 보일 것입니다:
 
@@ -212,7 +329,7 @@ Nest.js와 ASP.NET 사이에는 많은 유사점이 있다는 것이 놀라울 �
 @Controller()
 export class AppController {
   constructor(private readonly appService: AppService) {}
-  
+
   @Get()
   getHello(): string {
     return this.appService.getHello();
@@ -229,12 +346,12 @@ namespace Backend.AppController
     public class AppController
     {
         private readonly AppService appService;
-        
+
         public AppController(AppService _appService)
         {
             this.appService = _appService;
         }
-        
+
         [HttpGet]
         public async Task<IActionResult> GetHello()
         {
@@ -244,7 +361,18 @@ namespace Backend.AppController
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Nest.js와 비교하면 ASP.NET에서 작성하는 것이 더 장황해 보입니다. 그리고 두 가지 모두 컴파일된 언어를 사용하기 때문에 컴파일러가 런타임 전에 유형 오류와 같은 사소한 오류를 잡아줄 수 있습니다.
 
@@ -254,8 +382,18 @@ Nest.js와 비교하면 ASP.NET에서 작성하는 것이 더 장황해 보입�
 
 2022년 Tech Empower Web Benchmarks에 따르면 ASP.NET Core는 14위로 세계에서 14번째로 빠른 프레임워크입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image 1](/assets/img/2024-06-20-WhyNestJSisthePerfectFrameworkforASPNETTeamsMigratingtoNodejsOrVice-Versa_1.png)
 
@@ -265,8 +403,18 @@ While Nest.js, using a Fastify backend, is ranked at #239.
 
 Please note that these benchmarks are arbitrary speed calculations of how fast a framework would respond. You don’t necessarily need a fast framework most of the time. And the most important metric is (arguably) your development speed, but that’s VERY subjective, bringing us to the next point.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ---
 
@@ -280,7 +428,18 @@ Nest.js는 이미 TypeScript를 사용하고 있으니, 이것이 문제를 해�
 
 ---
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어 클라우드 공급업체가 Azure이고 벤더 락인이 신경 쓰이지 않는다면 ASP.NET이 더 나은 선택입니다.
 
@@ -292,7 +451,18 @@ Nest.js는 이미 TypeScript를 사용하고 있으니, 이것이 문제를 해�
 - 제품 개발 일정.
 - 사용 중인 클라우드 공급업체.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 프레임워크 모두 서버 측 렌더링 프레임워크로, 전통적인 MVC 애플리케이션을 간편하게 연결하여 밀접하게 통합된 모노리스를 만들 수 있습니다.
 
@@ -302,10 +472,21 @@ Nest.js는 이미 TypeScript를 사용하고 있으니, 이것이 문제를 해�
 
 Nest.js와 ASP.NET은 놀라운 프레임워크이지만, 일반적으로 사용 사례는 구축하고 있는 팀(또는 가지게 되는 팀) 유형에 제한됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 프레임워크들을 명백하게 선택해야 하는 이유는 없어요. 다른 언어보다 여기서 사용하라고 강제하거나 산업에 특화된 작업을 진행하는 경우, 게임 개발에 Unity를 사용하면서 C#을 사용해야 하는 경우처럼 특정 언어 집합을 사용해야 하는 경우를 제외하고는 백엔드로 ASP.NET을 고려해 보세요.
 
-Nest.js와 ASP.NET 중에서 선택하는 것은 Nest.js와 고성능 Go/Rust 웹 프레임워크 중에서 선택하는 것만큼 중대하지 않아요. 각각의 독특함은 있지만 전반적으로 차이보다는 중첩된 부분이 더 많아요. 그러니 기술에 대해 너무 꼼꼼하게 고려할 필요 없어요. 시대에 맞춰 움직이세요. 즐겁게 코딩하세요! 
+Nest.js와 ASP.NET 중에서 선택하는 것은 Nest.js와 고성능 Go/Rust 웹 프레임워크 중에서 선택하는 것만큼 중대하지 않아요. 각각의 독특함은 있지만 전반적으로 차이보다는 중첩된 부분이 더 많아요. 그러니 기술에 대해 너무 꼼꼼하게 고려할 필요 없어요. 시대에 맞춰 움직이세요. 즐겁게 코딩하세요!
 
 원문: https://blog.logrocket.com, 2022년 11월 22일에 발행됨.

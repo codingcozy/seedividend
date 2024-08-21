@@ -3,17 +3,13 @@ title: "CSS의 3가지 기본 개념 Inheritance, Cascading, Specificity 알아�
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "30s for 3 Fundamental Concepts of CSS Inheritance, Cascading, and Specificity"
 link: "https://medium.com/@caodanju/30s-for-3-fundamental-concepts-of-css-inheritance-cascading-and-specificity-0b44d17d5bee"
 isUpdated: true
 ---
-
-
-
-
 
 CSS (Cascading Style Sheets)은 웹 페이지를 스타일링하는 데 필수적인 언어입니다. 핵심 개념을 이해하면 잘 구조화되고 유지보수가 용이한 스타일시트를 만들 수 있습니다. 이 블로그 포스트에서는 Cascading, Inheritance 및 Specificity라는 세 가지 주요 개념을 살펴볼 것입니다. 이러한 개념을 숙지함으로써 엔지니어들은 CSS 기술을 향상시키고 UI에 더 일관된 스타일을 작성할 수 있습니다.
 
@@ -23,7 +19,18 @@ CSS (Cascading Style Sheets)은 웹 페이지를 스타일링하는 데 필수�
 
 CSS 속성은 부모 요소에서 자식 요소로 상속될 수 있습니다. 이는 부모 요소에 스타일이 적용된 경우, 자식 요소들은 그 스타일을 상속받을 것을 의미합니다. 그렇지 않은 경우에는 특별히 지정하지 않는 한 자식 요소가 그 스타일을 상속합니다. 예를 들어 설명해보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <!-- 상속 예시 -->
@@ -45,7 +52,18 @@ CSS 속성은 부모 요소에서 자식 요소로 상속될 수 있습니다. �
 
 카스케이딩은 HTML 요소에 스타일이 적용되는 방식을 스타일 규칙과의 관계에 기반으로 합니다. CSS는 스타일이 부모 요소로부터 상속받아 더 구체적인 규칙에 의해 재정의될 수 있는 카스케이딩 순서를 따릅니다. 간단한 예시로 이 작동 방식을 살펴봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <!-- Cascading 예시 -->
@@ -71,7 +89,18 @@ CSS 속성은 부모 요소에서 자식 요소로 상속될 수 있습니다. �
 
 특이성은 CSS가 요소에 적용할 스타일이 충돌하는 규칙이 있을 때 결정하는 메커니즘입니다. 의도한 대로 스타일이 적용되도록 보장하려면 특이성이 작동하는 방식을 이해하는 것이 중요합니다. 특이성은 네 가지 카테고리를 기반으로 하며, 각각이 고유한 가중치를 가지고 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1. 인라인 스타일: 이 스타일은 style 속성을 사용하여 HTML 요소에 직접 적용됩니다. 요소에 직접 부착되어 있기 때문에 가장 높은 우선 순위를 갖습니다.
 
@@ -89,7 +118,18 @@ CSS 속성은 부모 요소에서 자식 요소로 상속될 수 있습니다. �
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. 클래스, 가상 클래스, 속성 선택자: 이 선택자들은 클래스, 상태 또는 속성에 기반한 요소를 대상으로 합니다. 중간 수준의 특이성을 갖습니다.
 
@@ -124,7 +164,18 @@ h1 {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 특이성 계산하기
 
@@ -137,7 +188,18 @@ h1 {
 
 예시:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

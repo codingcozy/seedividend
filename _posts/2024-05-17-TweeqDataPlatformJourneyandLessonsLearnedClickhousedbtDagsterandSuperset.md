@@ -3,16 +3,13 @@ title: "투윅 데이터 플랫폼 여정과 배운 점 Clickhouse, dbt, Dagster
 description: ""
 coverImage: "/assets/img/2024-05-17-TweeqDataPlatformJourneyandLessonsLearnedClickhousedbtDagsterandSuperset_0.png"
 date: 2024-05-17 04:01
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-17-TweeqDataPlatformJourneyandLessonsLearnedClickhousedbtDagsterandSuperset_0.png
 tag: Tech
 originalTitle: "Tweeq Data Platform: Journey and Lessons Learned: Clickhouse, dbt, Dagster, and Superset"
 link: "https://medium.com/tweeq-engineering/tweeq-data-platform-journey-and-lessons-learned-clickhouse-dbt-dagster-and-superset-fa27a4a61904"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-05-17-TweeqDataPlatformJourneyandLessonsLearnedClickhousedbtDagsterandSuperset_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 제품 설계에 앞서 고려해야 할 기술적, 규정적 요구 사항이 있었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 규제 요구 사항을 준수하기 위해 데이터 플랫폼은 해당 지역 내에서 호스팅되어야 합니다.
 - 미래의 클라우드 공급 업체 이주를 위해 클라우드에 중립적인 데이터 플랫폼이어야 합니다.
@@ -33,11 +41,22 @@ isUpdated: true
 
 # 데이터 플랫폼 아키텍쳐:
 
-이 섹션에서는 Tweeq 제품 시스템, 전체 데이터 스택, 설계 선택 사항 및 여정을 통해 배운 교훈에 대해 설명합니다. 
+이 섹션에서는 Tweeq 제품 시스템, 전체 데이터 스택, 설계 선택 사항 및 여정을 통해 배운 교훈에 대해 설명합니다.
 
 <img src="/assets/img/2024-05-17-TweeqDataPlatformJourneyandLessonsLearnedClickhousedbtDagsterandSuperset_1.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 투잉 프로덕션 시스템:
 
@@ -47,7 +66,18 @@ isUpdated: true
 
 고객을 위한 기능에 사용해야 하는 몇 가지 뷰들 때문에, 컬럼 스토어 데이터베이스가 저희의 첫 번째 선택이었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AWS 및 GCP 도구인 Redshift 및 BigQuery는 데이터를 해당 지역 내에 저장해야 한다는 규정 때문에 거론되지 않았지만, Tweeq는 미래의 클라우드 이관을 대비해 준비되어야 했습니다. Clickhouse는 필요한 모든 요건을 충족시켰습니다. 게다가 Altinity ClickHouse K8s Operator를 사용하여 클라우드에 독립적인 데이터 웨어하우스를 구축할 수 있었습니다.
 
@@ -57,7 +87,18 @@ Tweeq 데이터 플랫폼은 EtLT(엑스트랙트, transform -작은 t 사용-, 
 
 데이터는 우리의 프로덕션 CockroachDB 데이터베이스에서 Kafka 클러스터인 버퍼 레이어로 푸시됩니다. 이는 CockroachDB에서 기본 제공되는 Change Data Capture (CDC) 및 changefeed 작업을 활용하여 달성됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 클릭하우스는 Kafka 테이블과 유사한 소비자 역할을 하는 Kafka 엔진 테이블을 제공합니다. 이를 통해 제3자 싱크 도구를 사용하지 않아도 될 정도로 우리를 도왁이해 주었습니다. 그러나 Kafka 엔진 테이블의 주요 제한 중 하나는 스키마 변경을 관리하는 것입니다. 다운 타임 없이 테이블을 삭제하고 다시 만드는 작업은 번거로울 수 있습니다.
 
@@ -67,7 +108,18 @@ Tweeq 데이터 플랫폼은 EtLT(엑스트랙트, transform -작은 t 사용-, 
 
 데이터 모델링은 dbt를 통해 이루어졌습니다. 우리는 사실 및 차원 모델의 신선도를 보장하기 위해 dbt가 제공하는 점진적 로드 기능을 활용했습니다. 테스트 목적으로 로컬 모크를 만들기 위해 시드 기능을 활용했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 dbt은 강력하고 개발자 친화적이며 쿼리가 버전 관리된다는 점에서 유용하지만, dbt가 Clickhouse 클러스터에 쓰기를 하는 데 문제가 있었습니다. 데이터를 하나의 노드에 저장하여 일부 타협해야 했지만, 이후 새로운 dbt 버전에서 문제가 해결되었습니다.
 
@@ -77,7 +129,18 @@ dbt은 강력하고 개발자 친화적이며 쿼리가 버전 관리된다는 �
 
 우리는 Dagster를 사용하여 이를 달성할 수 있었습니다. 우리는 dbt와 매우 원활하게 통합되는 데이터 파이프라인 전용으로 개발된 오케스트레이션 도구인 Dagster를 선택했는데, K8s 위에 배포할 수 있고 데이터 라인어지 기능과 사용하기 쉬운 UI를 갖고 있는 것이 그 이유입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 태그 기능을 사용하여 대시보드별로 데이터의 신선도 간격을 구분했어요. 개발된 파이프라인의 실패를 모니터링하기 위해 센서를 사용했고, 실패 메시지는 Slack 채널로 전송됩니다.
 
@@ -87,7 +150,18 @@ Dagster의 유일한 단점은 k8s에서의 초기 설정 부분인데요, 그�
 
 K8s 위에 배포할 수 있는 오픈 소스 도구인 Superset을 선택했어요. 또한 사용자 관리를 위해 GoogleAuth와 통합할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 초반에는 UI가 조금 복잡해 보일 수도 있지만, 시각화 옵션들은 충분히 좋습니다. 우리는 제품 중심의 분석을 위해 Posthog와 같은 제품 분석 도구도 사용해야 했습니다.
 

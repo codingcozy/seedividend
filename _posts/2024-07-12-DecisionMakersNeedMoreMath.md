@@ -3,16 +3,13 @@ title: "의사결정자들이 수학을 더 배워야 하는 이유"
 description: ""
 coverImage: "/assets/img/2024-07-12-DecisionMakersNeedMoreMath_0.png"
 date: 2024-07-12 21:05
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-12-DecisionMakersNeedMoreMath_0.png
 tag: Tech
 originalTitle: "Decision Makers Need More Math"
 link: "https://medium.com/@keith-mcnulty/decision-makers-need-more-math-78ba07306193"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-07-12-DecisionMakersNeedMoreMath_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 내가 한 질문은 두가지였어요. 먼저, 그들이 두 그룹의 차이가 우연 때문이 아닌지 확인했느냐 물어보았고, 그 다음으로 소프트웨어 사용이 그 차이를 일으켰다는 것이 결정적으로 입증되었는지 확인했느냐 물었어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 말끔히 당황했다. 그는 우연히 차이가 발생할 수 있다는 것을 전혀 몰랐다며 원인과 결과에 대한 질문은 심지어 논의되지 않았다고 말했다. 그는 경영진이 단지 차트를 삼켜버리고 숫자들과 그 의미에 대한 추가 논쟁 없이 결정을 내렸다고 설명했다.
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 ## 왜 수학이 더 중요해지고 있는 것일까?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단히 말하면, 데이터의 양이 많이 증가했습니다. IBM에 따르면, 우리는 이제 매일 2.5 퀸틸리언 바이트 이상의 데이터를 생성하고 있습니다. 이러한 추세가 계속될 것으로 보여주는 다양한 통계가 있습니다:
 
@@ -44,7 +63,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-07-12-DecisionMakersNeedMoreMath_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 수학 능력은 높아지고 있지만 기술은 부족합니다
 
@@ -56,7 +86,18 @@ isUpdated: true
 
 # 의사 결정자들이 알아야 할 것은 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 세련된 매크로 요소와 트렌드 가운데, 데이터 중심 환경에서 의사 결정자가 알아야 할 몇 가지 기본적인 요소들이 있다고 생각이 듭니다:
 
@@ -68,6 +109,17 @@ isUpdated: true
 
 매년마다 직장에서 수학적 지식이 더욱 중요해지는 건 의심할 여지가 없습니다. 우리가 좋아하든 안 하든, 노력을 기울여 학습을 해 나가야 할 필요가 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 수학이 당신의 업무에서 얼마나 중요한가요? 자유롭게 의견을 남겨주세요.

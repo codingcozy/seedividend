@@ -3,16 +3,13 @@ title: "SQL 트리거 이해하는 방법"
 description: ""
 coverImage: "/assets/img/2024-05-17-UnderstandingSQLTriggers_0.png"
 date: 2024-05-17 04:02
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-17-UnderstandingSQLTriggers_0.png
 tag: Tech
 originalTitle: "Understanding SQL Triggers"
 link: "https://medium.com/devops-dev/understanding-sql-triggers-36e62492ce09"
 isUpdated: true
 ---
-
-
-
 
 ## Microsoft SQL Server 트리거 탐색
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 ## 트리거 중요성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현대 데이터베이스 시스템에서 트리거는 중요한 역할을 합니다. 트리거는 반복적인 작업을 자동화하고 비즈니스 규칙을 준수하며 여러 테이블 간의 데이터 무결성을 유지하는 데 도움을 줄 수 있습니다. 트리거를 활용하면 데이터베이스 관리자와 개발자가 데이터의 변경에 동적으로 반응하는 견고하고 신뢰할 수 있는 데이터베이스 애플리케이션을 만들 수 있습니다.
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 DML(데이터 조작 언어) 트리거는 MS SQL Server에서 가장 일반적인 유형의 트리거입니다. 이러한 트리거는 테이블이나 뷰에 대한 INSERT, UPDATE 또는 DELETE 작업과 같은 DML 이벤트에 응답하여 발생합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 후 트리거
 
@@ -51,7 +70,18 @@ END
 
 ## 대신 트리거
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 트리거 대신 트리거를 사용하여 트리거 이벤트의 기본 작업을 재정의합니다. 이들은 원래 이벤트 대신 실행되어 개발자가 데이터 수정 작업의 동작을 사용자 정의할 수 있게 합니다.
 
@@ -70,7 +100,18 @@ END
 
 DDL(데이터 정의 언어) 트리거는 CREATE, ALTER 또는 DROP 문과 같은 DDL 이벤트에 응답하여 실행됩니다. 이들은 데이터베이스나 서버 수준에서 스키마 변경을 감사하고 정책을 강제하는 데 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 CREATE TRIGGER trgDDLTrigger
@@ -98,7 +139,18 @@ BEGIN
 END
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 트리거 생성 및 관리
 
@@ -108,7 +160,18 @@ MS SQL Server에서 트리거를 생성하는 것은 트리거의 이벤트, 범
 
 ## 예시: 삽입 후 트리거 생성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```sql
 CREATE TRIGGER trgAfterInsert
@@ -127,10 +190,21 @@ END
 
 ### 예: After Insert 트리거 수정하기
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 md
+
 ```js
 ALTER TRIGGER trgAfterInsert
 ON Orders
@@ -149,8 +223,18 @@ END
 
 ## 예시: After Insert 트리거 삭제
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 DROP TRIGGER trgAfterInsert
@@ -163,7 +247,18 @@ ON Orders
 
 트리거는 제약 조건만으로 구현할 수 없는 비즈니스 규칙을 강제하는 데 일반적으로 사용됩니다. 예를 들어 주문의 총액이 특정 한도를 초과하지 않도록 하는 것과 같은 경우가 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 예시: 트리거를 사용하여 비즈니스 규칙 강제하기
 
@@ -187,7 +282,18 @@ END
 
 트리거는 관련된 테이블 간의 일관성을 보장하여 데이터 무결성을 유지하는 데 도움을 줍니다. 예를 들어, 외래키 무결성을 유지하기 위해 연쇄 업데이트 또는 삭제를 수행할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 예시: 트리거를 사용하여 데이터 무결성 유지하기
 
@@ -205,34 +311,56 @@ END
 
 트리거는 중요 데이터의 변경 사항을 감사하고 로깅하는 데 널리 사용됩니다. 이를 통해 규정 준수 및 문제 해결 목적으로 데이터 수정에 대한 이력 기록이 제공됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 예제: 트리거를 사용한 데이터 변경 감사
 
 ```js
-CREATE TRIGGER trgAuditOrderChanges 
-ON Orders 
-AFTER INSERT, UPDATE, DELETE 
-AS 
-BEGIN 
-    DECLARE @Action CHAR(6) 
-    IF EXISTS (SELECT * FROM inserted) AND EXISTS (SELECT * FROM deleted) 
-        SET @Action = 'UPDATE' 
-    ELSE IF EXISTS (SELECT * FROM inserted) 
-        SET @Action = 'INSERT' 
-    ELSE 
-        SET @Action = 'DELETE' 
+CREATE TRIGGER trgAuditOrderChanges
+ON Orders
+AFTER INSERT, UPDATE, DELETE
+AS
+BEGIN
+    DECLARE @Action CHAR(6)
+    IF EXISTS (SELECT * FROM inserted) AND EXISTS (SELECT * FROM deleted)
+        SET @Action = 'UPDATE'
+    ELSE IF EXISTS (SELECT * FROM inserted)
+        SET @Action = 'INSERT'
+    ELSE
+        SET @Action = 'DELETE'
 
-    INSERT INTO AuditLog (Action, TableName, ActionDate) 
-    VALUES (@Action, 'Orders', GETDATE()) 
-END 
+    INSERT INTO AuditLog (Action, TableName, ActionDate)
+    VALUES (@Action, 'Orders', GETDATE())
+END
 ```
 
 # 복잡한 비즈니스 로직 구현
 
 트리거를 사용하여 여러 단계 또는 조건을 포함하는 복잡한 비즈니스 로직을 구현할 수 있습니다. 이는 데이터베이스 수준에서 비즈니스 규칙을 캡슐화하는 데 도움이 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 예시: 트리거를 사용하여 복잡한 비즈니스 로직 구현
 
@@ -259,7 +387,18 @@ END
 
 # 신중하게 트리거 사용하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 트리거는 복잡성과 성능 부담을 야기할 수 있습니다. 중요한 비즈니스 규칙을 시행하거나 데이터 무결성을 유지해야 할 때에만 신중하게 사용하세요.
 
@@ -269,17 +408,37 @@ END
 
 ## 중첩 트리거 사용 최소화하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 마크다운 형식으로 변경해보세요.
 
-
 | Header1 | Header2 |
-|---------|---------|
+| ------- | ------- |
 | Data1   | Data2   |
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각 트리거의 목적과 논리를 문서화하여 코드를 이해하고 유지 관리하기 쉽도록 하세요.
 
@@ -289,7 +448,18 @@ END
 
 트리거는 DML 작업의 성능에 영향을 줄 수 있습니다. 왜냐하면 추가적인 처리 단계를 도입하기 때문입니다. 트리거의 성능 영향을 특히 높은 트랜잭션 환경에서는 평가하는 것이 중요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 색인 및 트리거
 
@@ -299,7 +469,18 @@ END
 
 정기적으로 트리거의 성능을 모니터링하고 필요에 따라 튜닝하십시오. SQL Server Profiler 및 Extended Events와 같은 도구를 사용하여 데이터베이스 성능에 미치는 트리거의 영향을 분석하십시오.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 고급 주제
 
@@ -312,7 +493,18 @@ ALTER DATABASE AdventureWorks2012
 SET RECURSIVE_TRIGGERS ON
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 트리거 비활성화 및 활성화
 
@@ -326,7 +518,18 @@ DISABLE TRIGGER trgAuditOrderChanges ON Orders
 ENABLE TRIGGER trgAuditOrderChanges ON Orders
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 대신에 뷰에서의 트리거
 
@@ -351,7 +554,18 @@ BEGIN
 END
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 스키마
 
@@ -369,8 +583,18 @@ CREATE TABLE Employees (
 
 ## 주문 테이블
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```javascript
 CREATE TABLE Orders (
@@ -394,7 +618,18 @@ CREATE TABLE AuditLog (
 
 ## Customers Table
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```sql
 CREATE TABLE Customers (
@@ -419,8 +654,18 @@ CREATE TABLE Sales (
 
 # Creating Views
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 주문 보기
 
@@ -435,7 +680,18 @@ FROM Orders;
 
 트리거의 성능을 최적화하기 위해 Orders 및 Customers 테이블의 CustomerID 및 Orders 테이블의 OrderAmount와 같은 트리거 논리에서 자주 사용되는 열에 인덱스를 생성하는 것이 좋습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 CREATE INDEX idxOrders_CustomerID ON Orders(CustomerID);
@@ -449,8 +705,18 @@ CREATE INDEX idxSales_SaleAmount ON Sales(SaleAmount);
 
 ## 직원 테이블에 샘플 데이터 삽입
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 INSERT INTO 직원 (이름, 성, 입사일, 직책)
@@ -470,8 +736,18 @@ VALUES
 
 ## 주문 테이블에 샘플 데이터 삽입
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 INSERT INTO Orders (CustomerID, OrderDate, OrderAmount)
@@ -491,7 +767,18 @@ VALUES
 
 이러한 테이블을 생성하고 샘플 데이터를 삽입함으로써, 기사에서 설명한 트리거를 효과적으로 구현하고 테스트할 수 있습니다. 이 스키마는 데이터베이스 환경에서 다양한 유형의 트리거와 실제 적용에 대한 포괄적인 기초를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -501,6 +788,17 @@ Microsoft SQL Server의 트리거는 작업 자동화, 비즈니스 규칙 강�
 
 # 마지막으로 생각해 볼 점
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 트리거는 중요한 이점을 제공하지만, 성능 및 유지 관리에 미치는 영향을 신중히 고려하여 신중하게 사용되어야 합니다. 최상의 모범 사례를 따르고 트리거를 철저히 테스트함으로써 기관은 데이터베이스 응용 프로그램의 기능성과 신뢰성을 향상시키는 데 그들의 전체 잠재력을 활용할 수 있습니다.

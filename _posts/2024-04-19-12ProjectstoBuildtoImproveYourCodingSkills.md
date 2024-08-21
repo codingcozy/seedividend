@@ -3,17 +3,13 @@ title: "코딩 실력 향상을 위해 만들어 볼 수 있는 12가지 사이�
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "12 Projects to Build to Improve Your Coding Skills "
 link: "https://medium.com/stackademic/12-projects-to-build-to-improve-your-coding-skills-3e6a45b85ace"
 isUpdated: true
 ---
-
-
-
-
 
 ![12ProjectstoBuildtoImproveYourCodingSkills](/assets/img/12ProjectstoBuildtoImproveYourCodingSkills_0.png)
 
@@ -25,7 +21,18 @@ isUpdated: true
 
 이 글은 BigDevSoon의 후원을 받은 파트너십 기사입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사는 대시보드 레이아웃 및 갤러리, 실용적인 웹 애플리케이션 및 재미있는 게임을 포함한 12가지 매력적인 프로젝트 아이디어를 제공하여 이 문제를 다루고자 합니다.
 
@@ -35,7 +42,18 @@ isUpdated: true
 
 ## 1. 대시보드 패널
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/12ProjectstoBuildtoImproveYourCodingSkills_1.png" />
 
@@ -45,7 +63,18 @@ isUpdated: true
 
 이 프로젝트에는 웹 개발의 다양한 측면에서 독특한 학습 기회를 제공하는 다양한 컴포넌트가 포함될 것이며, 특히 데이터 처리, UI 디자인 및 상호 작용에 중점을 둘 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2. 블로그 앱
 
@@ -55,7 +84,18 @@ isUpdated: true
 
 라이프스타일 주제에 관심 있는 사용자들에게 매력적인 세련되고 기능적인 블로그를 개발하여 코딩 능력을 향상시킵니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각각 웹 개발의 다양한 측면에서 학습 경험이 되도록 만들어진 다양한 요소가 특징이 될 것입니다.
 
@@ -65,7 +105,18 @@ isUpdated: true
 
 ## ➡️ 이 프로젝트 만들기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 프로젝트는 사용자가 다양한 포켓몬을 탐험할 수 있는 매력적인 포켓몬 도감 애플리케이션을 만드는 것을 포함합니다.
 
@@ -75,7 +126,18 @@ API에서 데이터를 가져오고 포켓몬 카드를 렌더링하며, 반응�
 
 <img src="/assets/img/12ProjectstoBuildtoImproveYourCodingSkills_4.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## ➡️ 이 프로젝트 만들기
 
@@ -85,7 +147,18 @@ API에서 데이터를 가져오고 포켓몬 카드를 렌더링하며, 반응�
 
 ## 5. 틱택토
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/12ProjectstoBuildtoImproveYourCodingSkills_5.png)
 
@@ -95,7 +168,18 @@ API에서 데이터를 가져오고 포켓몬 카드를 렌더링하며, 반응�
 
 CPU와 대결할 수 있는 플레이어들이 상호작용할 수 있는 플랫폼을 만들어보며, 게임에 몰입하고 승리를 경험하거나 결론을 도출해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 6. 퀴즈 앱
 
@@ -105,7 +189,18 @@ CPU와 대결할 수 있는 플레이어들이 상호작용할 수 있는 플랫
 
 매번 플레이할 때마다 새로운 10개의 랜덤 질문 세트를 생성하는 멋진 웹 애플리케이션을 만들어보세요. 각 세션마다 새롭고 흥미진진한 도전을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 트리비아 실력을 테스트할 수 있는 각종 주제와 난이도를 다루는 간편하고 상호작용적인 방법입니다.
 
@@ -115,7 +210,18 @@ CPU와 대결할 수 있는 플레이어들이 상호작용할 수 있는 플랫
 
 ## ➡️ 이 프로젝트 만들기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 기반 음악 플레이어는 노래를 재생하고 재생 옵션을 관리하며 다양한 트랙을 탐험하는 몰입형 경험을 제공합니다.
 
@@ -125,7 +231,18 @@ CPU와 대결할 수 있는 플레이어들이 상호작용할 수 있는 플랫
 
 ![이미지](/assets/img/12ProjectstoBuildtoImproveYourCodingSkills_8.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## ➡️ 이 프로젝트 만들기
 
@@ -135,7 +252,18 @@ CPU와 대결할 수 있는 플레이어들이 상호작용할 수 있는 플랫
 
 ## 9. AI 포스트 생성기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/12ProjectstoBuildtoImproveYourCodingSkills_9.png" />
 
@@ -145,7 +273,18 @@ CPU와 대결할 수 있는 플레이어들이 상호작용할 수 있는 플랫
 
 소셜 미디어를 위한 콘텐츠 작성 경험을 제공하며 OpenAI의 능력을 활용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 10. GIF 갤러리
 
@@ -155,7 +294,18 @@ CPU와 대결할 수 있는 플레이어들이 상호작용할 수 있는 플랫
 
 끝없는 GIF 탐험을 위해 디자인된 플랫폼을 만들어보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 휴대폰과 데스크톱 레이아웃 사이를 전환하면 사용자를 망설임 없이 시각적 이야기로 안내하여 GIF 세계에서 제공하는 최고의 콘텐츠를 사랑스럽게 탐험할 수 있습니다.
 
@@ -165,7 +315,18 @@ CPU와 대결할 수 있는 플레이어들이 상호작용할 수 있는 플랫
 
 ## ➡️ 이 프로젝트 만들기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 즉각적으로 사용자를 연결하는 실시간 메시징 플랫폼을 만들어보세요.
 
@@ -175,7 +336,18 @@ CPU와 대결할 수 있는 플레이어들이 상호작용할 수 있는 플랫
 
 ![이미지](/assets/img/12ProjectstoBuildtoImproveYourCodingSkills_12.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## ➡️ 이 프로젝트 만들기
 
@@ -185,7 +357,18 @@ CPU와 대결할 수 있는 플레이어들이 상호작용할 수 있는 플랫
 
 글쓰기는 항상 제 열정이었고, 사람들을 돕고 영감을 주는 것이 저에게 기쁨을 줍니다. 궁금한 점이 있으면 언제든지 연락해 주세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가장 좋은 자료, 도구, 생산성 팁, 그리고 경력 성장 팁을 발견하고 있는 제 뉴스레터를 구독해보세요!
 
@@ -195,7 +378,18 @@ CPU와 대결할 수 있는 플레이어들이 상호작용할 수 있는 플랫
 
 끝까지 읽어주셔서 감사합니다. 떠나시기 전에:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 작가를 박수로 격려해주세요! 👏
 - 팔로우하기: X | LinkedIn | YouTube | Discord

@@ -3,16 +3,13 @@ title: "Python 내장 함수 sum의 강력함 이해하기"
 description: ""
 coverImage: "/assets/img/2024-07-13-UnderstandthePowerofPythonsBuilt-insum_0.png"
 date: 2024-07-13 21:04
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-UnderstandthePowerofPythonsBuilt-insum_0.png
 tag: Tech
 originalTitle: "Understand the Power of Python’s Built-in sum()"
 link: "https://medium.com/python-in-plain-english/understand-the-power-of-pythons-built-in-sum-5ddc48dd54b0"
 isUpdated: true
 ---
-
-
-
 
 파이썬 내부를 깊게 파헤쳐 sum() 함수가 어떻게 구현되었는지 알아보세요.
 
@@ -26,7 +23,18 @@ total = sum(elements)
 print(total) # 6
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만, 왜 sum() 함수를 구현해야 할까요? 다른 프로그래밍 언어에는 내장 sum() 함수가 없으므로 Python에 있어야 할 이유가 무엇일까요? 아래와 같이 for 루프를 사용하여 등가 코드를 쉽게 작성할 수 있습니다:
 
@@ -43,13 +51,24 @@ print(total) # 6
 
 이 글에서는 CPython 소스 코드를 직접 살펴보면서 sum() 함수가 왜 중요한지 알아보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 편의 이상의 가치
 
 내장 sum() 함수를 구현하는 이유 중 하나는 편의성일 수 있습니다. 카운터와 함께 for 루프 대신 단일 함수 호출을 작성하는 것은 훨씬 빠르고 간결합니다. 그러나 여기에는 더 많은 부분이 있습니다.
 
-Python에서 클래스의 특정 기능을 구현하기 위해 magic dunder 메서드라고 불리는 메서드를 정의할 수 있습니다. 예를 들어 클래스에 __iter__()를 정의하면 sum() 함수가 그 메서드를 사용하여 클래스 인스턴스를 iterable로 처리합니다.
+Python에서 클래스의 특정 기능을 구현하기 위해 magic dunder 메서드라고 불리는 메서드를 정의할 수 있습니다. 예를 들어 클래스에 **iter**()를 정의하면 sum() 함수가 그 메서드를 사용하여 클래스 인스턴스를 iterable로 처리합니다.
 
 ```python
 class MyContainer:
@@ -65,7 +84,18 @@ total = sum(my_container)
 print(total)  # 15
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기능은 매번 클래스별 for 루프를 작성하는 것보다 모듈화되고 간결한 코드 패턴을 구현하는 데 사용할 수 있습니다. 하지만 더욱 두드러진 차이가 있습니다.
 
@@ -115,8 +145,18 @@ print(f"Pure:\nAverage: {np.average(pure_times)}\nMax:     {max(pure_times)}\nMi
 
 그리고 결과는 두 번째 자릿수까지 숫자로 표시됩니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내장 함수:
 평균: 0.327
@@ -128,15 +168,24 @@ print(f"Pure:\nAverage: {np.average(pure_times)}\nMax:     {max(pure_times)}\nMi
 최대값: 1.418
 최소값: 1.398
 
-
 보다시피, 내장 sum() 함수는 순수한 Python 코드에 비해 훨씬 빠르게 실행됩니다. 지금까지 언급한 모든 것을 고려할 때, 가능한 경우 항상 내장 함수를 순수한 Python 코드보다 선택해야 합니다. 여기서 이야기 끝입니다.
 
 하지만, 잠깐만요. 재미있는 부분이 여기서 시작됩니다. sum() 함수가 왜 그렇게 빠른 것일까요? 그리고 어떻게 모든 iterable 형식에 대해 합을 수행하는 방법을 알 수 있을까요?
 
 ## CPython 내부로의 심층 탐색
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파이썬 언어는 때때로 그 추상화 수준과 내장 기능 때문에 다소 신비로울 수 있어요. sum() 함수가 어떻게 작동하는지 보려면, 파이썬 인터프리터의 소스 코드를 살펴봐야 합니다. 공식 파이썬 구현인 CPython의 소스 코드는 GitHub에서 확인할 수 있어요. 다만, 버전 3.13.0 알파 2에 명시된 소스 코드를 가리키고 있으니 후속 버전은 다를 수 있습니다.
 
@@ -146,8 +195,18 @@ Python/clinic/bltinmodule.c.h 헤더 파일에서 찾을 수 있는 builtin_sum(
 
 한 단계씩 분석해보겠습니다. 따라서 이해를 돕기 위해 주석도 추가했어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 static PyObject *
@@ -156,13 +215,13 @@ builtin_sum_impl(PyObject *module, PyObject *iterable, PyObject *start)
     // 함수 내에서 사용될 변수를 초기화하고 선언합니다.
     PyObject *result = start;
     PyObject *temp, *item, *iter;
-    
+
     // iterable 객체를 반복하며 이터레이터를 가져옵니다.
     iter = PyObject_GetIter(iterable);
     // 만약 iterable이 이터러블이 아니면 NULL을 반환합니다.
     if (iter == NULL)
         return NULL;
-    
+
     ...
 ```
 
@@ -202,45 +261,52 @@ PyObject_GetIter(PyObject *o)
 
 이터레이터를 가져온 후, CPython은 start 인수를 유효성 검사합니다:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 'start' 인수(`result` 여기에서)를 유효성 검사합니다
 if (result == NULL) {
-    // 'start' 인수가 제공되지 않은 경우, 0을 사용합니다
-    // `result`가 `start`와 같은 객체를 가리킨다는 점에 유의하세요
-    result = PyLong_FromLong(0);
-    if (result == NULL) {
-        Py_DECREF(iter);
-        return NULL;
-    }
+  // 'start' 인수가 제공되지 않은 경우, 0을 사용합니다
+  // `result`가 `start`와 같은 객체를 가리킨다는 점에 유의하세요
+  result = PyLong_FromLong(0);
+  if (result == NULL) {
+    Py_DECREF(iter);
+    return NULL;
+  }
 } else {
-    // 'start' 인수가 제공된 경우, 문자열 값은 거부합니다
+  // 'start' 인수가 제공된 경우, 문자열 값은 거부합니다
 
-    // 유니코드 문자열 거부
-    if (PyUnicode_Check(result)) {
-        PyErr_SetString(PyExc_TypeError,
-            "sum() can't sum strings [use ''.join(seq) instead]");
-        Py_DECREF(iter);
-        return NULL;
-    }
-    // 바이트 문자열 거부
-    if (PyBytes_Check(result)) {
-        PyErr_SetString(PyExc_TypeError,
-            "sum() can't sum bytes [use b''.join(seq) instead]");
-        Py_DECREF(iter);
-        return NULL;
-    }
-    // 바이트 배열 거부
-    if (PyByteArray_Check(result)) {
-        PyErr_SetString(PyExc_TypeError,
-            "sum() can't sum bytearray [use b''.join(seq) instead]");
-        Py_DECREF(iter);
-        return NULL;
-    }
-    // Py_INCREF() 및 Py_DECREF()는 가비지 컬렉션을 위해 참조 횟수를 관리하는 데 사용됩니다. 그러므로 신경 쓰지 마세요
-    Py_INCREF(result);
+  // 유니코드 문자열 거부
+  if (PyUnicode_Check(result)) {
+    PyErr_SetString(PyExc_TypeError, "sum() can't sum strings [use ''.join(seq) instead]");
+    Py_DECREF(iter);
+    return NULL;
+  }
+  // 바이트 문자열 거부
+  if (PyBytes_Check(result)) {
+    PyErr_SetString(PyExc_TypeError, "sum() can't sum bytes [use b''.join(seq) instead]");
+    Py_DECREF(iter);
+    return NULL;
+  }
+  // 바이트 배열 거부
+  if (PyByteArray_Check(result)) {
+    PyErr_SetString(PyExc_TypeError, "sum() can't sum bytearray [use b''.join(seq) instead]");
+    Py_DECREF(iter);
+    return NULL;
+  }
+  // Py_INCREF() 및 Py_DECREF()는 가비지 컬렉션을 위해 참조 횟수를 관리하는 데 사용됩니다. 그러므로 신경 쓰지 마세요
+  Py_INCREF(result);
 }
 ```
 
@@ -249,26 +315,25 @@ if (result == NULL) {
 ```js
 // 반복 가능한 객체를 순환합니다
 for (;;) {
-    // 반복 가능한 객체의 다음 항목을 가져옵니다
-    item = PyIter_Next(iter);
-    if (item == NULL) {
-        /* 오류 또는 시퀀스의 끝에 도달함 */
-        if (PyErr_Occurred()) {
-            Py_SETREF(result, NULL);
-        }
-        // 항목이 없고 오류가 발생하지 않았으면 반복이 완료됩니다
-        break;
+  // 반복 가능한 객체의 다음 항목을 가져옵니다
+  item = PyIter_Next(iter);
+  if (item == NULL) {
+    /* 오류 또는 시퀀스의 끝에 도달함 */
+    if (PyErr_Occurred()) {
+      Py_SETREF(result, NULL);
     }
-    
-    // 항목과 결과를 Python 객체로 더합니다
-    // 덧셈 결과를 임시 변수에 저장합니다
-    temp = PyNumber_Add(result, item);
-    Py_DECREF(result);
-    Py_DECREF(item);
-    result = temp;
-    // 덧셈이 실패하면 중단하고 NULL을 반환합니다
-    if (result == NULL)
-        break;
+    // 항목이 없고 오류가 발생하지 않았으면 반복이 완료됩니다
+    break;
+  }
+
+  // 항목과 결과를 Python 객체로 더합니다
+  // 덧셈 결과를 임시 변수에 저장합니다
+  temp = PyNumber_Add(result, item);
+  Py_DECREF(result);
+  Py_DECREF(item);
+  result = temp;
+  // 덧셈이 실패하면 중단하고 NULL을 반환합니다
+  if (result == NULL) break;
 }
 Py_DECREF(iter);
 // 마지막으로 결과를 반환합니다(혹은 오류 발생 시 NULL을 반환합니다)
@@ -277,9 +342,20 @@ return result;
 
 여기서 PyNumber_Add() 메서드는 두 Python 객체를 더하는 적절한 방법을 찾으려고 합니다. 그의 소스 코드 구현은 꽤 난해하고 복잡하기 때문에 대신 단어로 설명해 드리겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-- 결과 및 항목 객체에 대한 추가 함수를 찾아보세요. Python 용어로는 __add__() 및 __radd__() 메서드입니다.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+- 결과 및 항목 객체에 대한 추가 함수를 찾아보세요. Python 용어로는 **add**() 및 **radd**() 메서드입니다.
 - 결과에 추가 함수가 있고 항목이 결과의 하위 유형인 경우, 항목의 추가 함수를 사용하여 두 객체를 더해보세요. 구현되지 않았을 경우 결과의 추가 함수를 대신 사용합니다.
 - 결과에 추가 함수가 없는 경우, 특정 형식에 대해 구현된 항목의 추가 함수를 사용하여 객체를 더해보세요.
 - 두 객체 유형에 대해 추가 연산이 구현되지 않은 경우, TypeError 예외를 발생시켜보세요.
@@ -290,7 +366,18 @@ return result;
 
 만약 반복 가능 항목이 엄격하게 숫자 유형인 경우, CPython은 모든 계산을 C에서 유지하고 효율적인 C long int 유형을 추가하여 Python 객체 대신 사용할 수 있습니다. 이것이 내장 sum() 함수가 순수한 Python 반복문보다 훨씬 빠른 이유입니다. 그러나 반복 가능 항목에 비숫자 유형이 포함된 경우, 성능 차이가 훨씬 덜 중요해집니다 (기준).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 최적화된 합계 코드를 살펴보겠습니다.
 
@@ -304,7 +391,7 @@ if (PyLong_CheckExact(result)) {
     if (overflow == 0) {
         Py_SETREF(result, NULL);
     }
-    
+
     // 반복 가능한 항목들의 합을 구합니다
     while(result == NULL) {
       ...
@@ -314,7 +401,7 @@ if (PyLong_CheckExact(result)) {
 
 ```js
 // 반복 가능한 항목들의 합을 구합니다
-while(result == NULL) {           
+while(result == NULL) {
     // 반복 가능한 대상에서 다음 요소를 가져옵니다
     item = PyIter_Next(iter);
     if (item == NULL) {
@@ -330,7 +417,18 @@ while(result == NULL) {
     ...
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 총합은 반복이 완료될 때에만 파이썬 객체로 변환되어, C 유형을 사용하여 시간을 절약합니다.
 
@@ -363,9 +461,20 @@ if (PyLong_CheckExact(item) || PyBool_Check(item)) {
 
 간편한 정수는 -5에서 256 사이의 Python 정수 객체로, 해석기가 시작될 때 미리 인스턴스화됩니다. 작은 정수는 매우 흔하기 때문에 CPython은 프로그램 실행 중에 한 번만 인스턴스화합니다. 이렇게 함으로써, 같은 값을 가진 모든 작은 정수는 메모리에서 동일한 객체를 참조하여 새로운 객체를 불필요하게 인스턴스화하는 것을 피합니다.
 
-또한, 간편한 정수는 특정 범위 내에 보장되므로 C long으로 변환시 오버플로우를 확인할 필요가 없어서, 비용이 많이 드는 PyLong_AsLongAndOverflow() 변환 함수를 적용하는 대신 _PyLong_CompactValue()를 사용하여 원시값을 가져올 수 있습니다.
+또한, 간편한 정수는 특정 범위 내에 보장되므로 C long으로 변환시 오버플로우를 확인할 필요가 없어서, 비용이 많이 드는 PyLong_AsLongAndOverflow() 변환 함수를 적용하는 대신 \_PyLong_CompactValue()를 사용하여 원시값을 가져올 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 왜 Python 숫자 객체를 C long으로 변환하는 것이 그렇게 비용이 많이 드는 걸까요? 숫자 객체는 그 안에 원시 숫자 값을 보유하고 있지 않나요? 정확히 그렇지 않습니다. CPython은 숫자의 매우 큰 값과 고정밀도를 위해 숫자의 자릿수를 저장하여 원시 값 대신 배열에 저장함으로써 구현합니다. 이런 트레이드오프는 비효율적인 연산 비용에도 불구하고 사실상 무한한 정밀도와 숫자 크기를 가능케 합니다.
 
@@ -388,9 +497,9 @@ Compact integer 5:
 // 현재 합계 총액을 Python 객체로 변환합니다
 result = PyLong_FromSsize_t(i_result);
 if (result == NULL) {
-    Py_DECREF(item);
-    Py_DECREF(iter);
-    return NULL;
+  Py_DECREF(item);
+  Py_DECREF(iter);
+  return NULL;
 }
 // 항목 및 결과를 Python 객체로 추가합니다
 temp = PyNumber_Add(result, item);
@@ -398,14 +507,25 @@ Py_DECREF(result);
 Py_DECREF(item);
 result = temp;
 if (result == NULL) {
-    Py_DECREF(iter);
-    return NULL;
+  Py_DECREF(iter);
+  return NULL;
 }
 
 // 일반 합 루틴으로 되돌아갑니다
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결과가 NULL과 같기 때문에 현재 while 루프가 종료되고 제어가 이전에 본 일반 합 루틴으로 전달될 것입니다.
 
@@ -415,7 +535,18 @@ if (result == NULL) {
 
 그러나 가장 중요한 것은 추상화의 '어떻게'와 '왜'를 이해하는 가장 좋은 방법은 해당 구현을 분석하는 것입니다. 어떻게 작동하는지뿐만 아니라 왜 작동하는지에 대해 정말 이해하려면 계층화된 추상화의 미로를 탐험해 보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 글을 즐겁게 보셨으면 좋겠어요! 궁금한 점이나 생각이 있으시면 댓글을 남겨주세요. 읽어 주셔서 감사합니다!
 
@@ -426,10 +557,21 @@ if (result == NULL) {
 - GitHub의 CPython 소스 코드
 - GitHub의 Python 버전 3.13.0 알파 2
 - CPython의 Argument clinic (Python/clinic 디렉토리)
-- 유형 객체: 맵 던더 메서드를 C 함수에 매핑하기 (예: __iter__ =` tp_iter)
+- 유형 객체: 맵 던더 메서드를 C 함수에 매핑하기 (예: **iter** =` tp_iter)
 - 작은 정수 캐싱이란 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # PlainEnglish.io 🚀
 

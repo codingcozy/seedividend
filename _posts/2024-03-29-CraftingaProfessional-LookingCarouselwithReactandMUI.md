@@ -3,17 +3,13 @@ title: "React와 MUI로 깔끔한 디자인의 캐러셀 만들기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Crafting a Professional-Looking Carousel with React and MUI"
 link: "https://medium.com/@ltomblock/crafting-a-professional-looking-carousel-with-react-and-mui-746a86af0ab0"
 isUpdated: true
 ---
-
-
-
-
 
 ### Part 1
 
@@ -23,7 +19,18 @@ MUI의 기존 카드 구성요소를 사용한 매우 기본적인 정적 예제
 
 # 프로페셔널 웹 앱을 위한 여정
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나의 첫 번째 중요한 애플리케이션을 만들기 시작할 때 명백한 것이 한 가지 있었습니다: 아름다움과 사용자 경험은 극도로 중요했습니다. 멋진 반응형 디자인은 단순한 호화로운 것이 아니라 필수품이었습니다. 나는 Airbnb, Netflix, Apple TV 등을 존경하는 플랫폼들의 우아함과 기능성을 흉내 내고자 했습니다. 이들의 사용자 인터페이스는 "캐로셀"과 "카드"라는 두 가지 도구를 자주 활용합니다. 이 디자인 요소들은 단순한 장식에 그치는 것이 아니라 정보를 효율적이고 매력적으로 그리고 반응적으로 표시하는 데 사용되는 기본 구성 요소입니다.
 
@@ -33,7 +40,18 @@ React는 나에게 자연스러운 선택이었습니다. 그의 컴포넌트 �
 
 반면에 Material-UI 또는 MUI는 구글의 Material Design을 구현하는 React 컴포넌트 모음을 제공하는 인기 있는 라이브러리입니다. 이는 스타일링 프로세스를 가속화하고 앱이 현대적으로 보이고 상호 작용적인 느낌을 제공하도록 약속합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 예상치 못한 도전
 
@@ -43,7 +61,18 @@ React는 나에게 자연스러운 선택이었습니다. 그의 컴포넌트 �
 
 # 캐러셀 작성 여정에 나서다
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 튜토리얼은 React와 MUI를 사용하여 캐러셀 컴포넌트를 만드는 과정을 안내하는 시리즈의 첫 번째 부분입니다. 이번 편에서는 간단히 시작하겠습니다. MUI의 "card" 컴포넌트 데모에서 직접 가져온 정적 카드를 활용할 것입니다. 동적이거나 데이터베이스 기반 접근 방식 대신 이 카드들의 배열을 생성하고 이들을 매끄럽게 표시하는 캐러셀 기능을 구현할 것입니다.
 
@@ -55,7 +84,18 @@ React는 나에게 자연스러운 선택이었습니다. 그의 컴포넌트 �
 - MUI에 대한 친숙함.
 - https://github.com/tweezerchef/carousel 에서 저장소를 클론하여 레포지토리를 받아옵니다. 이 레포지토리에는 모든 파일이 포함되어 있으며, 이를 클론하여 따라할 수 있는 모든 것이 준비됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Node.js, React, 및 npm에 익숙한 경우, 필요한 MUI 라이브러리만 추가 설치하면 됩니다. 이를 통해 스타일링 및 컴포넌트 구조가 Material Design 원칙과 일관되도록 보장됩니다.
 
@@ -65,7 +105,18 @@ Node.js, React, 및 npm에 익숙한 경우, 필요한 MUI 라이브러리만 �
 
 http://3.128.189.242:3000/
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 캐러셀 컴포넌트의 내용을 살펴보기
 
@@ -75,7 +126,18 @@ http://3.128.189.242:3000/
 
 ## 이 부분에서 무슨 일이 벌어지고 있을까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - React, useState, useEffect: 이것들은 React의 기본 훅입니다. useState는 컴포넌트에서 상태를 유지하는 데 사용되고, useEffect는 데이터를 가져오거나 DOM을 업데이트하는 등의 사이드 이펙트를 실행할 수 있게 해줍니다.
 - Box, IconButton, Slide, Stack: 이것들은 MUI에서 제공하는 컴포넌트입니다. Box는 스타일링을 위한 다목적 컴포넌트입니다. IconButton은 자식으로 아이콘을 사용하는 버튼입니다. Slide는 애니메이션 컴포넌트이며, Stack은 자식 컴포넌트를 쌓을 때 사용됩니다.
@@ -88,7 +150,18 @@ http://3.128.189.242:3000/
 
 ## 세부 내용:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - cards: 캐러셀에 표시할 카드를 저장하는 배열입니다.
 - currentPage: 현재 페이지나 표시된 카드 세트를 나타내는 숫자입니다.
@@ -101,7 +174,18 @@ http://3.128.189.242:3000/
 - cardsPerPage: 페이지 당 표시할 카드 수를 정의하는 상수입니다.
 - duplicateCards: Card 컴포넌트를 사용하여 10개의 중복된 카드 배열을 생성합니다. 이는 데모용 더미 세트입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 4. 캐러셀을 탐색하는 함수들
 
@@ -111,7 +195,18 @@ http://3.128.189.242:3000/
 
 ## 5. useEffect: 초기 데이터 설정
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/CraftingaProfessional-LookingCarouselwithReactandMUI_5.png" />
 
@@ -121,7 +216,18 @@ http://3.128.189.242:3000/
 
 # 캐러셀 렌더링
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1. 캐러셀을 위한 컨테이너:
 
@@ -137,7 +243,18 @@ http://3.128.189.242:3000/
 
 ## 2. 이전 페이지 버튼:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/CraftingaProfessional-LookingCarouselwithReactandMUI_7.png" />
 
@@ -150,7 +267,18 @@ http://3.128.189.242:3000/
 
 <img src="/assets/img/CraftingaProfessional-LookingCarouselwithReactandMUI_8.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 상자는 카드를 담는 컨테이너 역할을 합니다. 카드에 지정된 공간이 항상 부모 컨테이너의 전체 너비와 높이를 차지하도록 보장합니다.
 
@@ -160,7 +288,18 @@ http://3.128.189.242:3000/
 
 .map 함수를 사용하여 cards 상태의 각 카드를 반복합니다. 각 카드에 대해 현재 페이지를 기준으로 표시 여부를 결정하고 싶습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 5. 카드에 대한 표시 논리:
 
@@ -172,7 +311,18 @@ http://3.128.189.242:3000/
 
 ## 6. 카드에 대한 슬라이드 애니메이션:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![CraftingaProfessional-LookingCarouselwithReactandMUI_11](/assets/img/CraftingaProfessional-LookingCarouselwithReactandMUI_11.png)
 
@@ -184,7 +334,18 @@ http://3.128.189.242:3000/
 
 ![CraftingaProfessional-LookingCarouselwithReactandMUI_12](/assets/img/CraftingaProfessional-LookingCarouselwithReactandMUI_12.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 스택(Stack)은 항목들을 쌓는 MUI 구성 요소입니다. 여기서는 카드의 하위 집합을 가로로 쌓기 위해 사용하고 있습니다.
 - cards.slice(...) 함수는 중요합니다. 현재 페이지에 해당하는 카드의 하위 집합만 가져와서 표시하도록 보장합니다. 현재 페이지(인덱스)와 페이지당 카드 수(cardsPerPage)를 기반으로 어떤 카드를 표시할지를 계산합니다.
@@ -196,7 +357,18 @@ http://3.128.189.242:3000/
 - 이 버튼은 다음 페이지나 카드 세트로 이동하기 위해 설계되었습니다.
 - 이곳에서의 비활성화 로직은 이전 버튼보다 약간 복잡합니다. 카드의 마지막 페이지에 있는지 계산하고, 그렇다면 더 이상 탐색할 수 없도록 버튼을 비활성화합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 코딩 튜토리얼의 이 부분이 마무리되었습니다. 다음에는 이 코드를 여러분의 필요에 맞게 사용자 정의하는 방법과 다음 단계에 대해 간략히 살펴보겠습니다.
 
@@ -217,7 +389,18 @@ http://3.128.189.242:3000/
 - 동적 데이터 로딩:
   - 주어진 코드에서는 duplicateCards 배열을 사용해 시연 목적으로 카드를 복제했습니다. 실제 시나리오에서는 API 또는 데이터베이스에서 데이터를 동적으로로드하고 정적 데이터 초기화를 대체할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

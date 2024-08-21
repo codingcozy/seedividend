@@ -3,16 +3,13 @@ title: "Route 53과 AWS Lambda, S3를 이용해 간편하게 DNS 레코드 백�
 description: ""
 coverImage: "/assets/img/2024-05-17-SimpleautomatingDNSRecordBackupsfromRoute53withAWSLambdaandS3_0.png"
 date: 2024-05-17 03:44
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-17-SimpleautomatingDNSRecordBackupsfromRoute53withAWSLambdaandS3_0.png
 tag: Tech
 originalTitle: "Simple automating DNS Record Backups from Route 53 with AWS Lambda and S3"
 link: "https://medium.com/@WillEvaristo/automating-dns-record-backups-from-route-53-with-aws-lambda-and-s3-16f817f48336"
 isUpdated: true
 ---
-
-
-
 
 # 소개
 
@@ -24,7 +21,18 @@ DNS 레코드를 관리하는 것은 여러 개의 호스티드 존을 다룰 �
 - Route 53 및 S3에 액세스 할 적절한 권한.
 - 백업을 저장할 S3 버킷이 만들어져 있어야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계별 가이드
 
@@ -36,7 +44,18 @@ DNS 레코드를 관리하는 것은 여러 개의 호스티드 존을 다룰 �
 - 런타임: Python 3.x
 - 역할: Lambda 기본 권한을 가진 새 역할을 생성하고 Route 53 및 S3에 액세스할 수 있는 권한을 추가합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 람다 정책 권한:
 
@@ -90,7 +109,18 @@ DNS 레코드를 관리하는 것은 여러 개의 호스티드 존을 다룰 �
 
 우리 람다 함수의 코드입니다. 이 코드는 여러 호스팅된 존에서 DNS 레코드를 검색하여 이를 S3 버킷에 저장합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 import boto3
@@ -150,7 +180,7 @@ def lambda_handler(event, context):
             Key=s3_key,
             Body=records
         )
-        
+
         s3_client.upload_file("/tmp/" + backup_filename_csv, '$BUCKET_NAME', s3_key_csv)
 
     return {
@@ -165,7 +195,18 @@ HOSTED_ZONE_ID 및 BUCKET_NAME의 값을 교체해주세요. 필요하다면 bac
 
 함수를 테스트하려면 Lambda 콘솔에서 테스트 이벤트를 구성할 수 있습니다. 예를 들어 사용하지 않는 직접적인 입력이 없으므로 빈 JSON ''을 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 4. 실행 일정 예약하기 (선택 사항)
 
@@ -175,7 +216,18 @@ HOSTED_ZONE_ID 및 BUCKET_NAME의 값을 교체해주세요. 필요하다면 bac
 
 여기에 당신의 도메인 레코드가 어떻게 포맷될지 표시됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-05-17-SimpleautomatingDNSRecordBackupsfromRoute53withAWSLambdaandS3_0.png" />
 

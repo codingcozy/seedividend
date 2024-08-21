@@ -3,16 +3,13 @@ title: "Anthropic Claude V3 함수 호출 방법"
 description: ""
 coverImage: "/assets/no-image.jpg"
 date: 2024-07-12 19:56
-ogImage: 
+ogImage:
   url: /assets/no-image.jpg
 tag: Tech
 originalTitle: "Anthropic Claude V3 Function Calling"
 link: "https://medium.com/gitconnected/anthropic-claude-v3-function-calling-2c7b5dc8f715"
 isUpdated: true
 ---
-
-
-
 
 이 기사에서는 Anthropics의 새로운 Claude V3 Opus 모델이 제시하는 질문에 대한 응답을 향상시키기 위해 함수 호출을 사용하는 방법을 보여드리겠습니다. 이를 위해서는 API 키를 받아와서 LLM의 API와 함께 사용해야 합니다.
 
@@ -22,7 +19,18 @@ API 키를 받는 방법과 API를 사용하는 방법에 대해 이전 기사�
 
 ## 함수 호출 사용 방법
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최선의 방법으로 코딩 작업을 수행하기 위해 별도의 코딩 환경을 설정해야 합니다. 저는 conda를 사용하지만 여러분에게 적합한 방법을 사용하시면 됩니다.
 
@@ -38,7 +46,18 @@ conda create -n opus_fc python=3.12 -y
 conda activate opus_fc
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 필요한 라이브러리 설치
@@ -50,24 +69,43 @@ pip install anthropic
 conda install jupyter -y
 ```
 
-이제 명령 프롬프트에 'jupyter notebook'을 입력하세요. 브라우저에서 주피터 노트북이 열리는 것을 확인할 수 있습니다. 만약 자동으로 열리지 않는다면, 주피터 노트북 명령어 입력 후 정보가 화면에 표시될 것인데, 그 중간쯤에 브라우저에 복사하여 붙여넣어야 할 URL이 있을 것입니다. 
+이제 명령 프롬프트에 'jupyter notebook'을 입력하세요. 브라우저에서 주피터 노트북이 열리는 것을 확인할 수 있습니다. 만약 자동으로 열리지 않는다면, 주피터 노트북 명령어 입력 후 정보가 화면에 표시될 것인데, 그 중간쯤에 브라우저에 복사하여 붙여넣어야 할 URL이 있을 것입니다.
 
-당신의 URL은 제 것과 다를 수 있지만, 다음과 같이 보일 것입니다:-  
+당신의 URL은 제 것과 다를 수 있지만, 다음과 같이 보일 것입니다:-
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 http://127.0.0.1:8888/tree?token=3b9f7bd07b6966b41b68e2350721b2d0b6f388d248cc69da
 
-
-그럼, 코드 작업을 시작해봅시다. 섹션으로 나눠서 코드를 설명하는 주석을 추가할 거에요. 
+그럼, 코드 작업을 시작해봅시다. 섹션으로 나눠서 코드를 설명하는 주석을 추가할 거에요.
 
 우선, 함수 호출이 왜 필요한지 알아볼까요? 주요 이유 중 하나는 클로드가 최신 및/또는 실시간 정보에 액세스할 수 없기 때문이랍니다.
 
 아래 예시를 봐봅시다. 에든버러(영국)의 현재 온도가 몇 도인지 클로드에게 물어봤을 때요.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 필수 라이브러리 가져오기
@@ -82,12 +120,12 @@ os.environ["ANTHROPIC_API_KEY"]="YOUR_ANTHROPIC_API_KEY"
 import anthropic
 
 client = anthropic.Anthropic(
-    
+
     api_key=os.environ.get("ANTHROPIC_API_KEY")
 )
 
 내_질문= {
-    "role": "user", 
+    "role": "user",
     "content": "에든버러의 현재 온도를 알려주세요"
 }
 
@@ -102,12 +140,12 @@ message = client.messages.create(
 print(message.content[0].text)
 
 >>
-죄송합니다만, 저는 실시간 날씨 데이터에 접근할 수 없습니다. AI 언어 모델로써 
-특정 위치의 현재 날씨 정보를 검색할 수 있는 능력이 없습니다. 그러나 
-실시간 날씨 업데이트를 제공하는 날씨 앱이나 웹사이트를 사용하여 
-에든버러의 현재 온도를 쉽게 확인할 수 있습니다. 인기 있는 옵션으로는 
-메트 오피스, BBC 날씨, AcuWeather 등이 있습니다. 이 플랫폼에서 
-"에든버러"를 검색하면 도시의 현재 온도와 관련된 기타 날씨 정보를 
+죄송합니다만, 저는 실시간 날씨 데이터에 접근할 수 없습니다. AI 언어 모델로써
+특정 위치의 현재 날씨 정보를 검색할 수 있는 능력이 없습니다. 그러나
+실시간 날씨 업데이트를 제공하는 날씨 앱이나 웹사이트를 사용하여
+에든버러의 현재 온도를 쉽게 확인할 수 있습니다. 인기 있는 옵션으로는
+메트 오피스, BBC 날씨, AcuWeather 등이 있습니다. 이 플랫폼에서
+"에든버러"를 검색하면 도시의 현재 온도와 관련된 기타 날씨 정보를
 찾을 수 있을 것입니다.
 ```
 
@@ -117,8 +155,18 @@ Claude가 특정 위치의 현재 온도를 모르는 것을 확인하실 수 �
 
 Anthropic은 용어인 도구(tool)와 함수를 서로 바꿔 사용하므로 먼저 특정 위치의 현재 온도를 가져오는 도구(함수)를 만들어야 합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이를 위해, OpenWeatherMap의 API를 사용할 겁니다. 무료로 등록하여 API 키를 받을 수 있어요. 아래 링크를 클릭해주세요.
 
@@ -130,17 +178,17 @@ import requests
 def get_temp(location):
     # 여기에 API 키를 입력해주세요
     API_KEY = "YOUR_WEATHERMAP_API_KEY"
-    
+
     # url을 저장할 base_url 변수
     base_url = "http://api.openweathermap.org/data/2.5/weather?"
-    
+
     # 여기서 변수를 API_KEY에서 api_key로 수정했습니다
     complete_url = base_url + "appid=" + API_KEY + "&q=" + location
-    
+
     # requests 모듈의 get 메소드를 사용하여 응답 객체를 리턴합니다
     response = requests.get(complete_url)
     x = response.json()
-    
+
     # "cod" 키의 값이 "404"와 같은 경우는 도시가 발견된 경우이며,
     # 그렇지 않으면 도시가 발견되지 않은 것입니다
     if x["cod"] != "404":
@@ -154,7 +202,18 @@ def get_temp(location):
 
 일반적으로 이를 호출하려면,
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 temp = get_temp("Edinburgh")
@@ -186,7 +245,18 @@ tool = """
 
 이제 우리의 시스템 프롬프트를 설정해야 합니다. 이 프롬프트는 Claude에게 이 추가 기능(함수 호출을 통해)이 사용 가능하다는 것을 알려줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 system_prompt = f"""
@@ -245,8 +315,18 @@ print(message)
 
 잘 보입니다. 이제 우리는 get_temp 도구에 전달해야 하는 매개변수를 얻기 위해 도구 설명의 XML을 구문 분석하는 헬퍼 함수가 필요합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import re
@@ -283,11 +363,11 @@ def construct_successful_function_run_injection_prompt(invoke_results):
     constructed_prompt = (
         "<function_results>\n"
         + '\n'.join(
-            f"<result>\n<tool_name>{res['tool_name']}</tool_name>\n<stdout>\n{res['tool_result']}\n</stdout>\n</result>" 
+            f"<result>\n<tool_name>{res['tool_name']}</tool_name>\n<stdout>\n{res['tool_result']}\n</stdout>\n</result>"
             for res in invoke_results
         ) + "\n</function_results>"
     )
-    
+
     return constructed_prompt
 
 formatted_results = [{
@@ -312,36 +392,44 @@ print(function_results)
 
 다음으로, 원본 메시지, Claude가 함수를 호출한 부분까지의 부분 반환, 그리고 함수 결과를 결합하여 Claude에게 최종 출력을 생성하기 위한 프롬프트를 얻겠습니다. 이 작업을 용이하게 하기 위해 Assistant 역할에서 미리 작성된 메시지를 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 partial_assistant_message = message + "</function_calls>" + function_results
 
 final_message = client.messages.create(
-    model="claude-3-opus-20240229",
-    max_tokens=1024,
-    messages=[
-        my_message,
-        {
-            "role": "assistant",
-            "content": partial_assistant_message
-        }
-    ],
-    system=system_prompt,
-    stop_sequences=["\n\nHuman:", "\n\nAssistant", "</function_calls>"]
+model="claude-3-opus-20240229",
+max_tokens=1024,
+messages=[
+my_message,
+{
+"role": "assistant",
+"content": partial_assistant_message
+}
+],
+system=system_prompt,
+stop_sequences=["\n\nHuman:", "\n\nAssistant", "</function_calls>"]
 ).content[0].text
 
 print(final_message)
 
->>
+> >
 
-
-The tool returned that the current temperature in Edinburgh is 4.81 degrees 
-Celsius. 
+The tool returned that the current temperature in Edinburgh is 4.81 degrees
+Celsius.
 
 Therefore, the final message is:
 
 The current temperature in Edinburgh is 4.81 degrees Celsius.
-
 
 만약 이 내용이 마음에 드셨다면, 아래 관련 기사들도 흥미로울 수 있습니다.

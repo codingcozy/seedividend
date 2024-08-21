@@ -3,17 +3,13 @@ title: " 라이브러리 사용 없이 Nextjs어플리케이션 라우터와 Prz
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Przelewy24 P24 integration with Nextjs App Router  no library in use"
 link: "https://medium.com/@pether.maciejewski/przelewy24-p24-integration-with-next-js-app-router-no-library-in-use-89557c3aa4fc"
 isUpdated: true
 ---
-
-
-
-
 
 ![Przelewy24 Payment Integration without External Libraries](/assets/img/Przelewy24P24integrationwithNextjsAppRouternolibraryinuse_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 P24 - Przelewy24는 폴란드에서 국내 결제 기관으로 인정받으며, 승인 및 정산 메커니즘을 포함한 다양한 결제 서비스를 제공합니다. Przelewy24 API를 활용하기 위해 상인은 먼저 P24 관리 패널에서 계정을 설정해야 합니다. 이 등록 프로세스를 통해 상인은 계정 잔액을 감시하고, 클라이언트 결제를 모니터링하고, 환불을 처리하는 등 다양한 도구를 활용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1단계: Next.js 애플리케이션 설정
 
@@ -36,7 +43,18 @@ cd my-p24-app
 
 Next.js 애플리케이션에서 P24 거래를 생성하는 요청을 처리해야합니다. 필요한 모듈을 가져와주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { NextResponse } from "next/server";
@@ -56,7 +74,18 @@ const corsHeaders = {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 헤더들은 Cross-Origin Resource Sharing(CORS)를 활성화하여 다른 도메인에서 API를 호출할 수 있도록 합니다.
 
@@ -72,7 +101,18 @@ function calculateSHA384(data) {
 
 이 함수는 주어진 데이터 문자열의 SHA-384 해시를 계산합니다. 이는 P24에 요청을 서명하기 위해 필요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 P24 클래스 정의
 
@@ -110,10 +150,7 @@ class P24 {
         posId: this.posId,
         sign: sign,
       };
-      const response = await this.client.post(
-        "/transaction/register",
-        orderData
-      );
+      const response = await this.client.post("/transaction/register", orderData);
       console.log(response.data.data.token);
       return {
         token: response.data.data.token,
@@ -130,7 +167,18 @@ P24 클래스는 API 자격 증명으로 초기화하고 P24와 거래 등록을
 
 옵션과 POST 요청 처리
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 export async function OPTIONS() {
@@ -148,7 +196,18 @@ export async function POST(req) {
 
 POST 메서드에서 요청 본문에서 필요한 매개변수를 추출하고, P24 자격 증명으로 P24 클래스를 인스턴스화하고 주문 세부 정보로 createTransaction을 호출합니다. 오류를 적절하게 처리하고 거래 결과를 클라이언트에 반환합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 설정의 중요한 측면 중 하나는 sessionID 생성입니다. 이 sessionID는 거래 추적, 유효성 검사 및 환불 처리에 중요합니다. 상인 자체 논리에 따라 고유하게 만들어져야 합니다.
 
@@ -194,23 +253,28 @@ export async function POST(req) {
       return NextResponse.json(transactionResult, { headers: corsHeaders });
     } catch (error) {
       console.error(error);
-      return NextResponse.json(
-        { error: "내부 서버 오류" },
-        { headers: corsHeaders, status: 500 }
-      );
+      return NextResponse.json({ error: "내부 서버 오류" }, { headers: corsHeaders, status: 500 });
     }
   } else {
-    return NextResponse.json(
-      { error: "허용되지 않는 메소드" },
-      { headers: corsHeaders, status: 405 }
-    );
+    return NextResponse.json({ error: "허용되지 않는 메소드" }, { headers: corsHeaders, status: 405 });
   }
 }
 ```
 
 /api/p24/route.ts 파일의 전체 코드:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { NextResponse } from "next/server";
@@ -263,10 +327,7 @@ class P24 {
         posId: this.posId,
         sign: sign,
       };
-      const response = await this.client.post(
-        "/transaction/register",
-        orderData
-      );
+      const response = await this.client.post("/transaction/register", orderData);
       console.log(response.data.data.token);
       return {
         token: response.data.data.token,
@@ -321,16 +382,10 @@ export async function POST(req) {
       return NextResponse.json(transactionResult, { headers: corsHeaders });
     } catch (error) {
       console.error(error);
-      return NextResponse.json(
-        { error: "내부 서버 오류" },
-        { headers: corsHeaders, status: 500 }
-      );
+      return NextResponse.json({ error: "내부 서버 오류" }, { headers: corsHeaders, status: 500 });
     }
   } else {
-    return NextResponse.json(
-      { error: "허용되지 않은 방법" },
-      { headers: corsHeaders, status: 405 }
-    );
+    return NextResponse.json({ error: "허용되지 않은 방법" }, { headers: corsHeaders, status: 405 });
   }
 }
 ```
@@ -372,7 +427,18 @@ const onP24Checkout = async () => {
 
 단계 4: 통합 테스트하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 라이브로 전환하기 전에 P24 샌드박스 환경을 사용하여 통합을 철저히 테스트하세요. 거래가 성공적으로 생성되고 결제 프로세스가 예상대로 작동하는지 확인하세요.
 
@@ -382,7 +448,18 @@ const onP24Checkout = async () => {
 
 /lib/actions/getPMethods.action.js
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 'server'를 사용합니다
@@ -420,7 +497,18 @@ export const getPaymentMethods = async () => {
 
 금융 거래를 다룰 때는 보안과 신뢰성이 중요합니다. 항상 민감한 정보를 암호화하고 입력 데이터를 유효성 검사하며, 안전하고 효율적인 결제 프로세스를 보장하기 위해 통합을 철저히 검사하십시오.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 즐거운 코딩하세요 :)
 

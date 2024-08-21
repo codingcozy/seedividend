@@ -3,16 +3,13 @@ title: "자바스크립트의 기본 타입과 참조 타입 이해하기"
 description: ""
 coverImage: "/assets/img/2024-05-17-UnderstandingPrimitiveandReferenceTypesinJavaScript_0.png"
 date: 2024-05-17 20:25
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-17-UnderstandingPrimitiveandReferenceTypesinJavaScript_0.png
 tag: Tech
 originalTitle: "Understanding Primitive and Reference Types in JavaScript"
 link: "https://medium.com/@sharareshaddev/understanding-primitive-and-reference-types-in-javascript-1994e307de0b"
 isUpdated: true
 ---
-
-
-
 
 JavaScript을 다룰 때, 원시(primitive) 타입과 참조(reference) 타입의 차이를 알고 데이터가 가변(mutable)인지 불변(immutable)인지 이해하는 것이 매우 중요합니다. 간단한 용어로 설명해보겠습니다.
 
@@ -29,7 +26,18 @@ JavaScript을 다룰 때, 원시(primitive) 타입과 참조(reference) 타입�
 
 변수에 원시 값을 할당할 때, 값을 복사합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시:
 
@@ -52,7 +60,18 @@ console.log(obj1.name); // "Reza"
 console.log(obj2.name); // "Reza"
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가변이란 무엇을 의미합니까?
 가변이란 데이터가 생성된 후에 변경될 수 있다는 것을 의미합니다. JavaScript의 객체, 배열 및 함수는 가변입니다.
@@ -73,7 +92,18 @@ console.log(numbers); // [1, 2, 3, 4]
 
 문자열을 사용한 예시:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 let greeting = "Hello";
@@ -83,6 +113,7 @@ console.log(newGreeting); // "Jello"
 ```
 
 왜 중요한가요?
+
 - 메모리 관리: 가변 데이터는 변경이 원본 데이터에 직접적으로 반영되기 때문에 메모리 사용을 최적화하는 데 도움이 됩니다.
 
 실용적인 팁:
@@ -96,10 +127,20 @@ copy.name = "Reza";
 console.log(original); // { name: "Ali", age: 25 }
 console.log(copy); // { name: "Reza", age: 25 }
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 깊은 복사를 통해 원본 객체의 완전히 독립적인 복사본을 생성하므로 복사본을 변경해도 원본에는 영향을 미치지 않습니다.
 
 ---
 
 이 개념을 이해하면 더 나은 코드를 작성하고 잠재적인 문제를 피할 수 있습니다. 이에 대해 어떻게 생각하시나요? 생각과 경험을 공유해 주세요!
+```

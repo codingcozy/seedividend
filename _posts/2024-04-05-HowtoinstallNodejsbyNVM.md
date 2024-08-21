@@ -3,17 +3,13 @@ title: "Nodejs를 NVM으로 설치하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How to install Nodejs by NVM"
 link: "https://medium.com/geekculture/how-to-install-node-js-by-nvm-61addf4ab1ba"
 isUpdated: true
 ---
-
-
-
-
 
 ## nvm을 사용하여 여러 버전의 Node.js를 설치하고 관리하세요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # Ubuntu 및 Mac OS에 nvm 설치하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기계에 nvm을 설치하거나 업데이트하는 방법은 여러 가지가 있지만, 저는 인스톨러 스크립트를 사용해서 nvm을 설치하는 것을 선호해요. 이 글을 작성할 당시 nvm 인스톨러의 최신 버전은 0.38.0이었어요. 그래서 터미널에서 아래의 명령어로 curl을 사용하여 다운로드한 다음 bash로 실행할 수 있어요.
 
@@ -37,7 +44,18 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앞으로 설치 프로그램은 nvm 저장소를 ~/.nvm/ 디렉토리에 복제하고, nvm을 로드하려면 ~/.bashrc 파일 끝에 아래 줄을 추가해야 합니다.
 
@@ -56,7 +74,18 @@ nvm --version
 # 0.38.0
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 nvm을 사용할 준비가 되었습니다.
 
@@ -66,7 +95,18 @@ nvm에는 설치, 사용, 제거 등 많은 하위 명령이 있습니다. 우�
 
 ## Node.js 버전 설치
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, 사용 가능한 버전 목록을 list-remote 또는 ls-remote 하위 명령을 사용하여 확인할 수 있어요.
 
@@ -80,7 +120,18 @@ nvm list-remote # 또는 nvm ls-remote
 nvm install <version> # 예시: 14.17.6
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LTS 버전을 설치하려면 버전 번호 대신 --lts를 사용할 수 있어요.
 
@@ -94,7 +145,18 @@ nvm install --lts
 nvm install node
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 특정 버전의 Node.js 로드하기
 
@@ -106,7 +168,18 @@ nvm list # 또는 nvm ls
 
 특정 버전을 로드하려면 use 하위 명령어를 사용하세요. 이 하위 명령어를 사용하면 버전 번호나 --lts 플래그로 Node.js를 로드할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 nvm 사용 <버전>
@@ -120,7 +193,18 @@ nvm 사용 --lts
 
 또는 최신 버전을 사용하려면
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 nvm use node
@@ -132,7 +216,18 @@ nvm use node
 
 먼저, use를 사용하여 다른 버전으로 전환한 다음에 제거할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 nvm uninstall <version>
@@ -146,7 +241,18 @@ Node.js 프로젝트에서 해당 버전과 호환되는 Node.js 버전을 파�
 node --version > /path/to/project/.nvmrc
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러면 팀원들의 다른 기기에서도 호환되는 버전을 사용할 수 있어요.
 
@@ -160,7 +266,18 @@ nvm use
 
 NVM으로 설치된 Node.js에 패키지를 설치하는 방법은 일반적인 node.js 설치와 동일하지만, 패키지 설치는 버전 번호를 기반으로 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 nvm use 14.17.5
@@ -175,6 +292,17 @@ NVM을 사용하면 한 대의 컴퓨터에서 여러 가지 node.js 버전을 �
 
 따라서 Node.js를 설치하고 쉽게 관리하기 위해 NVM을 사용하는 것을 권장합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 자료:

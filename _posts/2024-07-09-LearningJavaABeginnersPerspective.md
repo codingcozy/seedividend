@@ -3,16 +3,13 @@ title: "자바 배우기 초보자를 위한 가이드"
 description: ""
 coverImage: "/assets/img/2024-07-09-LearningJavaABeginnersPerspective_0.png"
 date: 2024-07-09 09:37
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-LearningJavaABeginnersPerspective_0.png
 tag: Tech
 originalTitle: "Learning Java: A Beginner’s Perspective"
 link: "https://medium.com/@brindha220605/learning-java-a-beginners-perspective-da6e5af51a6d"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-07-09-LearningJavaABeginnersPerspective_0.png" />
 
@@ -22,17 +19,39 @@ isUpdated: true
 
 # "JAVA와 나: 두려움을 이겨내며":
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로그래밍 언어 초심자로서, 자바는 복잡한 구문과 위협적인 외관 때문에 언제나 두렵게 느껴졌어요. 모두들 자바가 가장 어렵다고 말할 때, 흥미가 줄어들었죠. 하지만 학업과 다른 분야에서 자바의 중요성을 이해하면서 불안하면서도 배우겠다는 다짐을 했어요.
 
 솔직히 말하자면, 자바를 배우는 것이 항상 내 버킷 리스트에 있었다고 과장하지 않겠어요. 오늘, Zealous Academy의 지도로 자바 세계로의 여정을 떠나게 되었어요.
 
-## JAVA: 객체 지향 언어 
+## JAVA: 객체 지향 언어
 
 자바는 클래스와 객체를 효율적으로 구조화하는데 많은 의존성을 가진 객체 지향 프로그래밍 언어에요. Oracle이 개발하고 유지보수하고 있어 전 세계 개발자들에게 신뢰할 수 있는 언어로 꼽히고 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자바는 주로 세 가지를 기반으로 작동합니다:
 
@@ -44,7 +63,18 @@ JDK - Java 개발 키트:
 
 JDK는 자바 프로그램을 컴파일하고 실행하는 데 사용됩니다. 효율적으로 자바 코드를 작성, 컴파일 및 디버깅하기 위한 모든 필요한 도구를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 JVM-Java Virtual Machine:
 
@@ -54,7 +84,18 @@ JRE-Java Runtime Environment:
 
 JRE에는 다양한 내장 패키지가 포함되어 있어 Java 애플리케이션이 원활히 실행되며 Java 개발에 풍부한 환경을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 다이어그램은 자바에서 이 세 가지 요소의 작업 흐름을 보여줍니다:
 
@@ -64,7 +105,18 @@ JRE에는 다양한 내장 패키지가 포함되어 있어 Java 애플리케이
 
 자바는 개발자들 사이에서 인기 있는 선택지로 만드는 몇 가지 주요한 기능을 자랑합니다. 객체 지향 프로그래밍(OOP) 패러다임, 멀티 스레딩 지원, 그리고 높은 수준의 보안으로 유명합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Java 개발용 소프트웨어
 
@@ -77,12 +129,23 @@ Java 개발을 위한 여러 소프트웨어 도구가 있습니다. 각각 다�
 
 # "Hello World: 그 외에 뭘 더 할까요?"
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새로운 프로그래밍 언어를 배울 때, 전통적인 "Hello, World!" 프로그램은 일반적으로 첫 번째 이정표입니다. 화면에 "Hello, World!"라는 구문을 표시하는 간단한 프로그램으로, 언어의 구문과 구조에 대한 기본 소개 역할을 합니다.
 
 ```js
-public class Sample 
+public class Sample
 {
     public static void main(String[] args)
     {
@@ -108,7 +171,18 @@ public class Sample
 - ': main 메소드 본문의 끝을 나타냅니다.
 - ': 클래스 본문의 끝을 나타냅니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Java의 복잡성:
 
@@ -118,6 +192,17 @@ public class Sample
 
 # 결론:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결론적으로, 초심자로서 자바의 세계에 발을 들이는 것은 굉장히 보람찬 경험이 될 수 있습니다. 언어의 기본 원리를 마스터하고, 다양한 기능을 탐험하며, 다양한 소프트웨어 도구를 활용하여 코딩 기술을 향상시킴으로써, 희망하는 개발자들은 차근차근 자바에 대한 능력을 향상시킬 수 있습니다. 이 과정은 프로그래밍 원리에 대한 깊은 이해를 기르는 데 도움이 되는 동시에 계속 발전하는 기술 환경에서 혁신을 일으키고 영향력 있는 애플리케이션을 만드는 능력을 부여합니다.

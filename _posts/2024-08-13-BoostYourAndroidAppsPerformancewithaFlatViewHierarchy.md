@@ -3,7 +3,7 @@ title: "플랫 뷰 계층 구조로 안드로이드 앱 성능 향상 시키는 
 description: ""
 coverImage: "/assets/img/2024-08-13-BoostYourAndroidAppsPerformancewithaFlatViewHierarchy_0.png"
 date: 2024-08-13 11:55
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-13-BoostYourAndroidAppsPerformancewithaFlatViewHierarchy_0.png
 tag: Tech
 originalTitle: "Boost Your Android Apps Performance with a Flat View Hierarchy"
@@ -11,7 +11,6 @@ link: "https://medium.com/@theadityatiwari/boost-your-android-apps-performance-w
 isUpdated: true
 updatedAt: 1723863976069
 ---
-
 
 <img src="/assets/img/2024-08-13-BoostYourAndroidAppsPerformancewithaFlatViewHierarchy_0.png" />
 
@@ -21,7 +20,18 @@ updatedAt: 1723863976069
 
 # 왜 평면 뷰 계층구조가 중요한 이유
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 성능 향상:
 
@@ -32,7 +42,18 @@ updatedAt: 1723863976069
 
 - 평평한 계층구조는 레이아웃에 있는 뷰 객체 수를 줄여 메모리 사용량을 낮출 수 있습니다. 더 적은 뷰는 View 및 ViewGroup 객체의 오버헤드를 줄이므로 더 메모리 효율적인 앱을 만들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 유지보수 용이성:
 
@@ -42,7 +63,18 @@ updatedAt: 1723863976069
 
 - 안드로이드는 평면 구조로 뷰를 효율적으로 렌더링하여 더 부드럽고 빠른 UI 성능을 제공할 수 있습니다. 이는 훌륭한 사용자 경험을 제공하는 반응형 앱을 만드는 데 중요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오버드로우 감소:
 
@@ -52,7 +84,18 @@ updatedAt: 1723863976069
 
 # 평평한 뷰 계층 구조를 달성하는 기술
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 평면 뷰 계층의 중요성을 이해했으니, 안드로이드 프로젝트에서 이를 달성하는 방법을 살펴보겠습니다:
 
@@ -62,30 +105,41 @@ ConstraintLayout은 복잡한 레이아웃을 평면 계층으로 만들 수 있
 
 예시:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 특정 레이아웃을 구현하기 위해 여러 개의 LinearLayout을 중첩하는 대신에 ConstraintLayout을 사용하여 요소를 직접 배치할 수 있습니다. 이렇게 하면 뷰의 수가 줄고 중복이 제거됩니다.
 
 ```js
-<ConstraintLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content">
-    <TextView
-        android:id="@+id/label1"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:text="Label 1"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/label2"
-        app:layout_constraintTop_toTopOf="parent"/>
-    <TextView
-        android:id="@+id/label2"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:text="Label 2"
-        app:layout_constraintStart_toEndOf="@+id/label1"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+<ConstraintLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+  <TextView
+    android:id="@+id/label1"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:text="Label 1"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toStartOf="@+id/label2"
+    app:layout_constraintTop_toTopOf="parent"
+  />
+  <TextView
+    android:id="@+id/label2"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:text="Label 2"
+    app:layout_constraintStart_toEndOf="@+id/label1"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+  />
 </ConstraintLayout>
 ```
 
@@ -93,7 +147,18 @@ ConstraintLayout은 복잡한 레이아웃을 평면 계층으로 만들 수 있
 
 `merge` 태그는 레이아웃에서 불필요한 뷰 그룹을 줄이는 데 유용한 도구입니다. 재사용 가능한 구성 요소를 포함할 때 특히 유용합니다. `merge`를 사용하면 그렇지 않았을 때 View 그룹의 추가적인 레이어를 방지하여 레이아웃 계층 구조를 비대해지지 않게 할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시:
 
@@ -112,7 +177,18 @@ ConstraintLayout은 복잡한 레이아웃을 평면 계층으로 만들 수 있
 
 ## 3. ViewStub 사용하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ViewStub은 필요할 때까지 뷰를 팽창시키지 않고 가벼운 미처리 뷰입니다. 특히 처음부터 뷰 계층을 얕게 유지하려는 경우에 유용합니다.
 
@@ -122,13 +198,25 @@ ViewStub은 필요할 때까지 뷰를 팽창시키지 않고 가벼운 미처�
 
 ```js
 <ViewStub
-    android:id="@+id/viewStub"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout="@layout/reusable_component" />
+  android:id="@+id/viewStub"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:layout="@layout/reusable_component"
+/>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 4. 태그 포함하기
 
@@ -138,12 +226,21 @@ ViewStub은 필요할 때까지 뷰를 팽창시키지 않고 가벼운 미처�
 
 여러 XML 파일에 동일한 레이아웃 코드를 복사하는 대신 필요한 곳 어디에서든 별도의 레이아웃 파일을 만들고 포함시킬 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-<include
-    android:id="@+id/included_layout"
-    layout="@layout/reusable_component"/>
+<include android:id="@+id/included_layout" layout="@layout/reusable_component" />
 ```
 
 # 면접 질문과 답변
@@ -152,7 +249,18 @@ ViewStub은 필요할 때까지 뷰를 팽창시키지 않고 가벼운 미처�
 
 Q1: 안드로이드에서 왜 깊게 중첩된 계층 구조 대신 평면 뷰 계층 구조를 선호하는가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 A1: 메져, 레이아웃 및 드로우 패스에 필요한 시간을 줄여 성능을 향상시키는 것이 중요하기 때문에 평면 뷰 계층 구조가 선호됩니다. 이는 뷰 객체의 수를 줄여 메모리 사용량을 감소시키고 레이아웃의 유지 관리를 간단하게 만듭니다. 또한 오버드로우를 최소화하여 더 부드러운 UI 성능을 제공합니다.
 
@@ -165,7 +273,18 @@ A2: 안드로이드 레이아웃에서 평면 뷰 계층 구조를 구현하는 
 - 필요할 때까지 뷰를 인플레이션하는 것을 연기하기 위해 ViewStub을 구현합니다.
 - 추가적인 레이어를 추가하지 않고 일관성을 유지하기 위해 `include`로 레이아웃을 재사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Q3: 안드로이드 애플리케이션의 성능에 오버드로우가 미치는 영향은 무엇이며, 평면 계층 구조가 어떻게 도움이 되나요?
 
@@ -175,7 +294,18 @@ Q4: ConstraintLayout을 사용하여 중첩 레이아웃을 어떻게 평면화�
 
 A4: 물론! 예를 들어, 여러 LinearLayout이 있는 중첩 레이아웃은 요소들을 서로 직접 위치에 맞춰 ConstraintLayout을 사용하여 평면화할 수 있습니다. 이렇게 하면 불필요한 중첩을 제거하고 전체 뷰 계층구조를 간소화할 수 있으며, 이는 블로그의 예시와 같이 표시됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -185,7 +315,18 @@ Android 레이아웃을 최적화하면 평면 뷰 계층 구조를 채택하여
 
 만약 이 블로그가 도움이 되었다면 공유하고 댓글로 의견을 남겨주세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 안드로이드 개발에 흥미를 느낀다면, 깊이 있는 기사를 보기 위해 제 Medium을 팔로우하고 테크 커뮤니티에서 인사이트를 공유하며 함께 성장하기 위해 LinkedIn에서 연결해주세요! 🚀
 

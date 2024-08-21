@@ -3,15 +3,13 @@ title: "쉽게 따라 하는 나만의 예상 수명 계산기 만들기 단계�
 description: ""
 coverImage: "/assets/img/2024-07-07-BuildYourOwnLifeExpectancyCalculatorAStep-by-StepGuide_0.png"
 date: 2024-07-07 02:15
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-BuildYourOwnLifeExpectancyCalculatorAStep-by-StepGuide_0.png
 tag: Tech
 originalTitle: "Build Your Own Life Expectancy Calculator: A Step-by-Step Guide!"
 link: "https://medium.com/@kartavyavg/build-your-own-life-expectancy-calculator-a-step-by-step-guide-81e621ad1fe5"
 isUpdated: true
 ---
-
-
 
 # 소개 🏹
 
@@ -22,7 +20,18 @@ isUpdated: true
 - 이 프로젝트는 반응형 양식에서 요구된 다양한 라이프스타일 요소를 기반으로 개인의 추정 수명을 계산합니다.
 - 이 프로젝트는 또한 수명을 늘리기 위한 개인 맞춤 제안을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 사용된 기술 ⚙️
 
@@ -34,7 +43,18 @@ isUpdated: true
 
 이 계산기는 사용자의 나이, 성별, 흡연 습관, 운동 빈도, 식습관, 스트레스 수준, 음주량, 수면 패턴 및 정기적인 건강 검진과 같은 입력을 받습니다. 이러한 입력은 JavaScript 로직을 사용하여 산출되는 예상 수명에 영향을 줍니다. 프로젝트는 현대적이고 반응 형 디자인을 보장하기 위해 Tailwind CSS로 스타일이 적용되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 주요 구성 요소
 
@@ -46,7 +66,18 @@ isUpdated: true
 
 프로젝트를 만들기 위해 코딩 환경을 설정해야 합니다. 다음과 같은 단계를 진행하시면 됩니다 —
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 원하는 위치에 PC에 폴더를 만들어주세요.
 - index.html이라는 HTML 파일을 생성해주세요.
@@ -60,7 +91,18 @@ isUpdated: true
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 최종 HTML 코드
 
@@ -251,7 +293,16 @@ function calculateLifeExpectancy() {
 
     if (suggestions.length >
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 최종 결과
 

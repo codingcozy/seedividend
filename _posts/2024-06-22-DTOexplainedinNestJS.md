@@ -3,7 +3,7 @@ title: "NestJS에서 DTO 쉽게 이해하기"
 description: ""
 coverImage: "/assets/img/2024-06-22-DTOexplainedinNestJS_0.png"
 date: 2024-06-22 14:44
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-DTOexplainedinNestJS_0.png
 tag: Tech
 originalTitle: "DTO explained in NestJS"
@@ -11,14 +11,22 @@ link: "https://medium.com/@yelinliu/dto-explained-in-nestjs-3a296498d77b"
 isUpdated: true
 ---
 
-
-
-
 DTO(Data Transfer Object) 패턴은 어플리케이션의 서로 다른 레이어 간에 데이터를 전송하는 데 일반적으로 사용되는 설계 패턴입니다. DTO 패턴의 주요 아이디어는 데이터를 캡슐화하고 어플리케이션의 서로 다른 부분 간에 데이터를 전송하는 표준화된 방법을 제공하는 것입니다.
 
 실무에서 DTO는 데이터를 포함하고 일부 유효성 검사 로직을 갖는 간단한 객체입니다. Domain 객체의 일부 또는 전체 데이터를 정의하지만 비즈니스 로직은 포함하지 않습니다. 주로 클라이언트와 서버 간 또는 서버 측 어플리케이션의 서로 다른 레이어 간에 데이터를 전송하는 데 사용됩니다. DTO 객체는 일반적으로 서버 측 코드에서 생성되며 데이터베이스 또는 기타 소스에서 데이터로 채워진 후 클라이언트로 전송됩니다. 클라이언트 측 코드는 그 후 DTO 객체를 사용하여 데이터를 사용자에게 표시하거나 처리를 위해 서버로 보낼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 기본 사용법
 
@@ -34,7 +42,18 @@ export class CreateUserDto {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 당신의 DTO 클래스를 컨트롤러에서 사용하세요:
 
@@ -54,20 +73,42 @@ export class UsersController {
 
 DTO는 서로 다른 도메인 객체에서 데이터를 구성하거나 도메인 객체의 일부 데이터만 가져오는 데 도움을 주도록 설계되었습니다. 또한 데이터 유효성 검사를 지원하거나 직렬화 논리의 캡슐화를 지원합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 DTO를 사용하여 데이터 일부만 사용하는 예시입니다:
 
 예를 들어, User 엔티티가 있다고 가정해 봅시다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 class User {
- id: number;
- name: string;
- email: string;
- password: string;
+  id: number;
+  name: string;
+  email: string;
+  password: string;
 }
 ```
 
@@ -75,18 +116,29 @@ class User {
 
 ```js
 class UserService {
- // 데이터베이스에서 사용자 객체 가져오기
- getUserById(userId: number): User {
- // 데이터베이스에서 사용자 데이터 가져오기
- // …
- return user;
- }
+  // 데이터베이스에서 사용자 객체 가져오기
+  getUserById(userId: number): User {
+    // 데이터베이스에서 사용자 데이터 가져오기
+    // …
+    return user;
+  }
 }
 ```
 
 이제 이름과 이메일 필드만을 가진 사용자 프로필을 만들고 싶다면 DTO를 정의할 수 있어요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 사용자 데이터의 하위 집합을 나타내는 DTO 클래스를 정의합니다
@@ -121,8 +173,18 @@ class UsersController {
 
 또 다른 예시로 하나의 DTO를 통해 여러 도메인 객체를 구성하는 데도 DTO를 사용할 수 있습니다:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 고객이 사용자의 최신 블로그 게시물을 요청한다면, 그리고 여러분은 다른 게시물 엔티티를 가지고 있다면:
 
@@ -144,7 +206,7 @@ class UserService {
   getUserWithLatestPost(userId: number): { user: User, latestPost: Post } {
     // 데이터베이스에서 사용자 데이터 가져오기
     // ...
-    
+
     // 데이터베이스에서 사용자의 최신 게시물 데이터 가져오기
     // ...
 
@@ -153,7 +215,18 @@ class UserService {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 UserWithLatestPostDto를 만들 수 있습니다:
 
@@ -192,6 +265,17 @@ class UsersController {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예시에서 DTO는 API 호출 횟수를 줄이고, 클라이언트가 필요로 하는 데이터만 전송할 수 있도록 도와줍니다.

@@ -3,16 +3,13 @@ title: "JavaScript 프로미스 이해하기 BMW 이야기"
 description: ""
 coverImage: "/assets/img/2024-06-23-UnderstandingJavaScriptPromisesTheBMWStory_0.png"
 date: 2024-06-23 13:11
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-UnderstandingJavaScriptPromisesTheBMWStory_0.png
 tag: Tech
 originalTitle: "Understanding JavaScript Promises: The BMW Story"
 link: "https://medium.com/@danielochoja/understanding-javascript-promises-the-bmw-story-00ba7f0227ad"
 isUpdated: true
 ---
-
-
-
 
 ![이미지](/assets/img/2024-06-23-UnderstandingJavaScriptPromisesTheBMWStory_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 간단히 말해, 자바스크립트의 Promise는 아버지의 약속과 비슷합니다. 미래의 결과를 위한 자리 표시자인 것이죠. 하지만 우리의 머릿속에만 존재하는 게 아니라 컴퓨터 메모리에 있고 코드를 통해 조작할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기에서 유사성을 살펴보겠습니다:
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 성공: 아빠가 결국 BMW를 사주면, 약속이 이행됩니다. JavaScript에서는 약속이 성공적으로 해결되어 예상한 결과를 제공하는 것을 의미합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 거절: 아버지가 BMW을 사지 않으면 약속이 깨집니다. JavaScript 용어로 말하면 이 약속은 거부되어 작업이 실패했음을 나타냅니다.
 
@@ -42,7 +61,18 @@ isUpdated: true
 
 1. 대기 중: 이것은 초기 상태입니다. 이 Promise은 충족되지도 거절되지도 않았으며 결과를 기다리고 있습니다. 이는 아버지가 "잠깐만 기다려, 좀 더 시간을 주세요"라고 말할 때 상황과 대응됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 이행됨: 약속이 성공적으로 완료되었습니다. 우리의 비유에서는 BMW를 수령할 때입니다. JavaScript에서는 약속이 값으로 해결됩니다.
 
@@ -52,35 +82,56 @@ isUpdated: true
 
 다음은 JavaScript에서 약속을 생성하고 처리하는 간단한 예제입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // Promise 생성
 let promise = new Promise((resolve, reject) => {
   let isPromiseKept = true; // 약속을 지키는지를 시뮬레이션
   if (isPromiseKept) {
-    resolve('BMW를 받았어요!');
-  } 
-  else {
-    reject('약속을 어겼네요, BMW가 없어요.');
+    resolve("BMW를 받았어요!");
+  } else {
+    reject("약속을 어겼네요, BMW가 없어요.");
   }
- });
+});
 ```
 
 ```js
 // Promise 처리
 promise
- .then((message) => {
-   console.log(message); // 출력: BMW를 받았어요!
- })
- .catch((error) => {
-   console.log(error); // 출력: 약속을 어겼네요, BMW가 없어요.
- });
+  .then((message) => {
+    console.log(message); // 출력: BMW를 받았어요!
+  })
+  .catch((error) => {
+    console.log(error); // 출력: 약속을 어겼네요, BMW가 없어요.
+  });
 ```
 
 # 코드 설명하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 let promise = new Promise((resolve, reject) => {....});
@@ -92,15 +143,26 @@ let promise = new Promise((resolve, reject) => {....});
 
 let isPromiseKept = true;: 이 변수는 프로미스가 유지될지 여부를 시뮬레이션합니다. 시연 목적을 위해 간단한 boolean 값입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Promise 해결 또는 거부:
 
 ```js
 if (isPromiseKept) {
-    resolve('BMW를 받았습니다!');
+  resolve("BMW를 받았습니다!");
 } else {
-    reject('약속이 깨졌습니다, BMW가 없어요.');
+  reject("약속이 깨졌습니다, BMW가 없어요.");
 }
 ```
 
@@ -108,16 +170,27 @@ if (isPromiseKept) {
 
 Promise 결과 처리하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 promise
- .then((message) => {
-   console.log(message); // Output: BMW received!
- })
- .catch((error) => {
-   console.log(error); // Output: Promise broken, no BMW.
- });
+  .then((message) => {
+    console.log(message); // Output: BMW received!
+  })
+  .catch((error) => {
+    console.log(error); // Output: Promise broken, no BMW.
+  });
 ```
 
 프로미스가 처리된 후 — 성공적으로 해결되거나 거부된 경우 — 프로미스 객체의 .then() 또는 .catch() 메서드를 사용하여 결과를 가져옵니다. 이러한 메서드는 콜백 함수를 매개변수로 사용합니다. 이러한 콜백은 resolve 또는 reject에서 반환된 데이터를받습니다. 프로미스가 해결되거나 거부되는 경우 결과를 처리하기 위해 .then() 또는 .catch() 중 하나가 실행됩니다.
@@ -126,6 +199,17 @@ promise
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자바스크립트의 Promise는 비동기 작업을 효과적으로 관리할 수 있는 강력한 도구입니다. 이를 통해 코드가 결과를 기다리는 동안 멈추지 않고 작업을 처리할 수 있습니다. 약속을 아빠가 BMW를 사주겠다고 하는 것처럼 생각하면, Promise가 가질 수 있는 다양한 상태인 보류 중(pending), 이행됨(fulfilled), 거부됨(rejected)을 더 잘 이해할 수 있습니다. 당신이 아빠가 약속을 이행할 때까지 기다리는 동안 다른 작업을 병행하는 것처럼, JavaScript는 Promise가 해결되거나 거부될 때까지 다른 작업을 수행할 수 있게 해줍니다. 이 개념을 받아들이면 코드를 더 효율적으로 만들고 관리하기 쉽게 할 수 있으며, 더 부드럽고 반응성이 높은 애플리케이션을 구축할 수 있습니다.

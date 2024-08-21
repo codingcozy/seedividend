@@ -3,17 +3,13 @@ title: "HTML, CSS 및 JavaScript로 다이나믹아일랜드 팝업 만들기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Building an Interactive Island Popup with HTML, CSS, and JavaScript  FREE Source Code"
 link: "https://medium.com/@withaarzoo/building-an-interactive-island-popup-with-html-css-and-javascript-free-source-code-af2e39717e03"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1400/1*8CRNlJ-0OirG-3vxkTs_-g.gif)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 단계 1: HTML 구조 설정먼저, 프로젝트용 기본 HTML 구조를 만들어봅시다. 컨테이너 상자, 섬 팝업 및 탐색 버튼과 같은 필요한 요소를 포함할 거에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <!DOCTYPE html>
@@ -207,7 +214,18 @@ body {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 섬 팝업 요소 선택
@@ -224,7 +242,3 @@ popup.onclick = function () {
 축하합니다! HTML, CSS, 그리고 JavaScript를 사용하여 상호작용하는 섬 팝업을 만들어 #100DaysOfCode 도전의 제 8일을 성공적으로 완료했습니다. 이 프로젝트를 통해 웹 개발에서 소중한 기술을 배우고 창의적인 프로젝트를 포트폴리오에 추가했습니다. 훌륭한 작업을 이어가고 앞으로 더 많은 코딩 모험을 기대해주세요!
 
 이 프로젝트의 전체 소스 코드는 여기서 다운로드할 수 있습니다. 질문이나 제안이 있으면 Bento에서 언제든지 연락해주세요. 즐거운 코딩하세요! 🚀
-
-
-
-

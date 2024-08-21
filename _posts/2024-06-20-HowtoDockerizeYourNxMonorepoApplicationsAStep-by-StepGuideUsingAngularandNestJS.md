@@ -3,7 +3,7 @@ title: "Nx 모노레포 애플리케이션을 도커화하는 방법 Angular과 
 description: ""
 coverImage: "/assets/img/2024-06-20-HowtoDockerizeYourNxMonorepoApplicationsAStep-by-StepGuideUsingAngularandNestJS_0.png"
 date: 2024-06-20 05:35
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-HowtoDockerizeYourNxMonorepoApplicationsAStep-by-StepGuideUsingAngularandNestJS_0.png
 tag: Tech
 originalTitle: "How to Dockerize Your Nx Monorepo Applications: A Step-by-Step Guide Using Angular and NestJS"
@@ -11,19 +11,27 @@ link: "https://medium.com/@abdullahzengin/how-to-dockerize-your-nx-monorepo-appl
 isUpdated: true
 ---
 
-
-
-
 <img src="/assets/img/2024-06-20-HowtoDockerizeYourNxMonorepoApplicationsAStep-by-StepGuideUsingAngularandNestJS_0.png" />
 
 안녕하세요,
 저는 Medium에 처음으로 포스팅하는 중입니다 (사실 인생에서 처음이에요 😔). 요즘 작업 중이었고 다양한 시각을 검토하기 위해 이 플랫폼에서 많은 도움을 받은 소스를 스캔하는 동안 누락된 것 같다고 생각한 주제에 대해 첫 블로그를 쓰기로 결심했습니다. 수년 동안 써보고 싶었지만 시작하는 동기를 얻지 못했어요. 먼저 Aziz Nal에게 지원해주시고 글을 쓰라고 격려해 준 분께 감사드립니다.
 
-이 글은 Angular, NestJS 및 이들이 사용하는 라이브러리가 포함된 NX Monorepo 프로젝트에서 각 프로젝트에 대한 Dockerfile을 작성하는 방법과 각 프로젝트를 개별 컨테이너에 배포하는 방법을 단일 Docker-Compose 파일을 사용해 살펴볼 것입니다. 
+이 글은 Angular, NestJS 및 이들이 사용하는 라이브러리가 포함된 NX Monorepo 프로젝트에서 각 프로젝트에 대한 Dockerfile을 작성하는 방법과 각 프로젝트를 개별 컨테이너에 배포하는 방법을 단일 Docker-Compose 파일을 사용해 살펴볼 것입니다.
 
 이 글은 터키어로도 읽을 수 있습니다. 해당 링크에서 읽어보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼 시작해 보죠 😄
 
@@ -35,7 +43,18 @@ isUpdated: true
 npx create-nx-workspace@latest
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 명령을 실행한 후 워크스페이스 설정을 위해 몇 가지 선택지와 입력을 요청받게 됩니다.
 
@@ -45,7 +64,18 @@ npx create-nx-workspace@latest
 
 ![이미지](/assets/img/2024-06-20-HowtoDockerizeYourNxMonorepoApplicationsAStep-by-StepGuideUsingAngularandNestJS_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 후 설정을 계속 진행할 구성을 선택해야 해요. 제 글의 시작 부분에서도 언급했듯이, Angular 및 NestJS 애플리케이션에 대해 마지막 옵션을 선택했어요.
 
@@ -55,8 +85,18 @@ npx create-nx-workspace@latest
 
 프로젝트 설정이 완료되면, 프로젝트 구조는 이렇게 보일 거에요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-20-HowtoDockerizeYourNxMonorepoApplicationsAStep-by-StepGuideUsingAngularandNestJS_4.png)
 
@@ -66,8 +106,18 @@ Api 및 My-app 프로젝트를 실행하고 브라우저에서 열면 다음 페
 
 ![이미지](/assets/img/2024-06-20-HowtoDockerizeYourNxMonorepoApplicationsAStep-by-StepGuideUsingAngularandNestJS_5.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 작은 업데이트를 진행하겠습니다. NX의 미리 구성된 설정을 사용할 때 Angular 프로젝트를 위한 준비된 프록시 구성이 함께 제공됩니다. 이 글의 주제가 제품 환경에 맞게 프록시 구성을 조정하는 데 있지 않기 때문에 이 구성을 무시하고 나의 프로젝트에서 선호하는대로 작은 변경을 가할 것입니다.
 
@@ -76,28 +126,39 @@ Api 및 My-app 프로젝트를 실행하고 브라우저에서 열면 다음 페
 ```js
 export const environment = {
   production: false,
-  BACKEND_URL: 'http://localhost:3333', // 실제 백엔드 포트와 다를 경우 업데이트 해야 합니다.
+  BACKEND_URL: "http://localhost:3333", // 실제 백엔드 포트와 다를 경우 업데이트 해야 합니다.
 };
 ```
 
 그 다음, 제품 환경으로 프로젝트를 컴파일하고 배포할 것이므로, 동일한 폴더 아래에 있는 'environment.prod.ts' 파일을 다음과 같이 업데이트합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 export const environment = {
   production: true,
-  BACKEND_URL: 'http://192.168.1.154:8080',
+  BACKEND_URL: "http://192.168.1.154:8080",
 };
 ```
 
 마침내, 우리는 ‘my-app/src/app’ 폴더 아래의 ‘app.component.ts’ 파일을 열어 위에서 업데이트한 주소에 따라 api 프로젝트로 요청을 보낼 수 있도록 다음과 같이 업데이트합니다:
 
 ```js
-import { environment } from './../environments/environment';
-import { Component } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
-import { Message } from '@nxdocker-deployment/api-interfaces';
+import { environment } from "./../environments/environment";
+import { Component } from "@angular/core";
+import { HttpClient } from "@angular/common/http";
+import { Message } from "@nxdocker-deployment/api-interfaces";
 ```
 
 ```js
@@ -112,7 +173,18 @@ export class AppComponent {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 업데이트를 한 후에도, 애플리케이션을 실행하고 브라우저에서 열면 이전과 같은 화면을 볼 수 있을 거에요.
 
@@ -122,25 +194,34 @@ export class AppComponent {
 
 'api/src' 폴더 아래의 'main.ts' 파일을 열어서, "app.enableCors()"라인을 추가하여 CORS를 활성화해 주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-import { Logger } from '@nestjs/common';
-import { NestFactory } from '@nestjs/core';
+import { Logger } from "@nestjs/common";
+import { NestFactory } from "@nestjs/core";
 ```
 
 ```js
-import { AppModule } from './app/app.module';
+import { AppModule } from "./app/app.module";
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
-  const globalPrefix = 'api';
+  const globalPrefix = "api";
   app.setGlobalPrefix(globalPrefix);
   app.enableCors();
   const port = process.env.PORT || 3333;
   await app.listen(port);
-  Logger.log(
-    `🚀 Application is running on: http://localhost:${port}/${globalPrefix}`
-  );
+  Logger.log(`🚀 Application is running on: http://localhost:${port}/${globalPrefix}`);
 }
 bootstrap();
 ```
@@ -149,8 +230,18 @@ bootstrap();
 
 ## Dockerfile 파일 작성하기
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 내 앱 Angular 프로젝트를 위한 Dockerfile
 
@@ -173,9 +264,20 @@ RUN rm -rf ./*
 COPY --from=builder /app/dist/apps/my-app ./
 RUN sed -i '10i \\ttry_files $uri $uri/ /index.html;' /etc/nginx/conf.d/default.conf
 ENTRYPOINT ["nginx", "-g", "daemon off;"]
-```  
+```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 함께 한 작업을 다시 한 번 살펴봐요.
 먼저, Angular 프로젝트인 my-app에 대해 두 단계 배포를 진행하고 있어요. 첫 번째 단계에서는 프로젝트의 종속성을 설치하는 작업을 수행하고 빌드할 수 있는 node 이미지에서 프로젝트를 실행하고 빌드해요. 그리고 프로젝트를 컴파일하고 제품용으로 사용할 파일들을 생성해요. 두 번째 단계에서는 웹 서버에서 빌드 프로세스를 완료하고 컴파일된 프로젝트 파일을 게시할 수 있도록 필요한 조정을 완료해요. 저는 여기서 SPA (싱글 페이지 애플리케이션) 애플리케이션에서 흔히 사용되는 설정을 가진 nginx를 선호하고 설정했어요. 지금까지 우리가 한 작업을 대략적으로 살펴보았으니, 코드를 한 줄씩 자세히 살펴보려는 나와 같은 세부 사항에 관심 있는 친구들을 위해 코드를 살펴봐요.
@@ -184,7 +286,7 @@ ENTRYPOINT ["nginx", "-g", "daemon off;"]
 - 다음 단계에서 사용할 /app 폴더를 작업 디렉토리로 지정해요.
 - 프로젝트에서 필요한 패키지를 포함한 package.json 및 package-lock.json 파일들을 프로젝트에서 이 디렉토리로 복사해요.
 - 성공적인 배포를 위해 필요한 종속성을 설치해요.
-참고: 사용하는 배포본에 따라 이 단계가 달라질 수 있고 다른 패키지 설치 요구사항이 있거나 전혀 필요하지 않을 수 있어요.
+  참고: 사용하는 배포본에 따라 이 단계가 달라질 수 있고 다른 패키지 설치 요구사항이 있거나 전혀 필요하지 않을 수 있어요.
 - npm install 명령을 실행하여 앞서 복사한 패키지 파일에 따라 필요한 패키지를 설치해요.
 - 프로젝트 파일들을 작업 디렉토리로 모두 복사해요.
 - 프로덕션 환경을 위해 프로젝트를 빌드해요.
@@ -199,7 +301,18 @@ ENTRYPOINT ["nginx", "-g", "daemon off;"]
 
 이제 백엔드 프로젝트용 Dockerfile을 작성해보겠어요. 이를 위해 프로젝트의 apps/api 폴더 아래 Dockerfile이라는 파일을 만들고 다음 코드를 복사해 넣어주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 FROM node:alpine AS builder
@@ -230,7 +343,7 @@ ENTRYPOINT ["pm2-runtime", "build/main.js"]
 - 다음 단계에서 사용할 /usr/src/app 폴더를 작업 디렉토리로 지정합니다.
 - 프로젝트에서 필요한 패키지를 포함하는 package.json 및 package-lock.json 파일을 프로젝트에서 이 디렉토리로 복사합니다.
 - 성공적으로 배포하기 위해 필요한 종속성을 설치 중입니다.
-참고: 사용하는 배포에 따라 이 단계가 다를 수 있으며 다른 패키지 설치 요구 사항이 있을 수도 있습니다. 또는 전혀 필요하지 않을 수도 있습니다.
+  참고: 사용하는 배포에 따라 이 단계가 다를 수 있으며 다른 패키지 설치 요구 사항이 있을 수도 있습니다. 또는 전혀 필요하지 않을 수도 있습니다.
 - 이전에 복사한 패키지 파일에 따라 필요한 패키지만 설치하도록 지정하여 npm install 명령을 실행합니다.
 - 모든 프로젝트 파일을 작업 디렉토리로 복사합니다.
 - 프로덕션 환경을 위해 프로젝트를 빌드합니다.
@@ -243,9 +356,20 @@ ENTRYPOINT ["pm2-runtime", "build/main.js"]
 - 이 단계에서 express 패키지를 설치합니다. 이 패키지를 별도로 설치해야 하는 이유는 express 패키지가 설치를 위한 package.json 파일에 포함되어 있지 않기 때문입니다. 이미 프로젝트에 express를 설치한 경우 이 단계가 필요하지 않을 것입니다.
 - 첫 번째 단계에서 'builder' 이미지 내에서 프로젝트를 컴파일한 위치에서 컴파일된 프로젝트 파일을 이 작업 디렉토리의 build 폴더로 복사합니다.
 - 그런 다음 main.js 파일에서 pm2-runtime 명령을 사용하여 백엔드 서버를 시작합니다.
-참고: 이 컨테이너를 시작하면 main.ts에서 지정된 포트에서 프로젝트가 실행됩니다. 저는 이를 3333으로 설정했으므로 프로젝트는 이 포트에서 실행됩니다.
+  참고: 이 컨테이너를 시작하면 main.ts에서 지정된 포트에서 프로젝트가 실행됩니다. 저는 이를 3333으로 설정했으므로 프로젝트는 이 포트에서 실행됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 도커 Compose 파일 준비
 
@@ -255,14 +379,25 @@ ENTRYPOINT ["pm2-runtime", "build/main.js"]
 
 ![이미지](/assets/img/2024-06-20-HowtoDockerizeYourNxMonorepoApplicationsAStep-by-StepGuideUsingAngularandNestJS_7.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 도커 컴포즈 파일의 내용을 채워봅시다.
 
 VSCode에서 만든 docker-compose.yml 파일을 열고 다음 코드를 복사하여 붙여넣어주세요.
 
 ```js
-version: "3"
+version: "3";
 ```
 
 ```js
@@ -275,7 +410,7 @@ services:
     build:
       context: ./nxdocker-deployment
       dockerfile: ./apps/api/Dockerfile
-      
+
   frontend-app:
     container_name: frontend-app
     restart: always
@@ -288,7 +423,18 @@ services:
       dockerfile: ./apps/my-app/Dockerfile"
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 코드를 단계별로 살펴봅시다.
 
@@ -309,7 +455,18 @@ services:
 
 이제 코드를 하나씩 따라가면서 프로젝트를 실행해봅시다. 어느새 설정에 지쳤나요? 프로젝트 끝이 보이지 않나요? 언제쯤 끝날까요? 😊
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 믿기 어렵지만, 프로젝트를 시작할 준비가 모두 마련되었어요. 필요한 것은 터미널과 그 마법 같은 명령어만 남았네요 🙂
 
@@ -321,7 +478,18 @@ docker-compose up -d
 
 이 명령어를 실행하면 docker-compose 파일에 있는 모든 설정이 실행됩니다. 필요한 이미지가 다운로드되고, Dockerfile 구성에 따라 레이어가 작성되며, 인터넷 속도에 따라 작업이 완료될 거예요. 작업이 끝나면 ‘-d’ 플래그가 터미널을 제어권으로 돌려줄 거에요. 🙏
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 마법 같은 명령을 함께 실행해보고 결과를 확인해봐요!
 
@@ -331,7 +499,18 @@ docker-compose up -d
 
 바로 브라우저에서 확인해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image1](/assets/img/2024-06-20-HowtoDockerizeYourNxMonorepoApplicationsAStep-by-StepGuideUsingAngularandNestJS_9.png)
 
@@ -341,7 +520,18 @@ docker-compose up -d
 
 ## 결과
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 첫 블로그 포스트에서는 Nrwl NX Monorepo를 사용하여 프로젝트를 개발한 후 제작한 도커파일들이 어떻게 제작되는지 쉽게 설명해보려고 노력했어요. 그리고 단일 도커 컴포즈를 준비한 후 한 번의 명령으로 발행하는 방법을 알려드렸어요. 물론 이 과정은 프로젝트의 요구사항 및 필요에 따라 다양하게 달라질 수 있고, 배포는 간단하지 않지만, 이 글이 여러분에게 조금이나마 도움이 되었으면 좋겠어요.
 
@@ -351,7 +541,18 @@ docker-compose up -d
 
 ## 참고 자료 및 링크
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - NX 문서
 - Docker 문서

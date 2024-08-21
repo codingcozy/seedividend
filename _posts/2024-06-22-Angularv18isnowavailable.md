@@ -3,16 +3,13 @@ title: "Angular v18 출시 최신 기능 알아보기"
 description: ""
 coverImage: "/assets/img/2024-06-22-Angularv18isnowavailable_0.png"
 date: 2024-06-22 04:58
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-Angularv18isnowavailable_0.png
 tag: Tech
 originalTitle: "Angular v18 is now available!"
 link: "https://medium.com/angular-blog/angular-v18-is-now-available-e79d5ac0affe"
 isUpdated: true
 ---
-
-
-
 
 오늘은 Angular 진화의 다음 단계를 공유하게 되어 흥분됩니다! 지난 세 번의 릴리스 동안 새로운 기능과 개선사항을 많이 소개했습니다. 이번에는 새로운 API 중 많은 부분을 안정 버전으로 승격하고, 개발자의 요청에 맞는 기능을 해결하며, 열망했던 로드맵 프로젝트 중 하나인 zoneless change detection을 실험적으로 출시했습니다.
 
@@ -25,7 +22,18 @@ isUpdated: true
 - Material 3, deferrable views, 내장 제어 흐름이 안정화되었으며 여러 개선사항이 포함되어 있습니다
 - i18n 수분화 지원, 더 나은 디버깅, Angular Material의 수분화 지원, Google 검색과 동일한 라이브러리를 통해 구동되는 이벤트 재생을 통한 서버사이드 렌더링 개선내용
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시각적 개요를 위해 릴리스 이벤트에서 비디오를 확인해보세요:
 
@@ -35,13 +43,22 @@ isUpdated: true
 
 오늘부터 Angular에서 실험적인 zoneless 지원을 시도해 볼 수 있습니다! 애플리케이션 부트스트랩에 provideExperimentalZonelessChangeDetection을 추가해 보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 bootstrapApplication(App, {
-  providers: [
-    provideExperimentalZonelessChangeDetection()
-  ]
+  providers: [provideExperimentalZonelessChangeDetection()],
 });
 ```
 
@@ -55,7 +72,18 @@ bootstrapApplication(App, {
 - 더 가독성이 좋은 스택 트레이스
 - 더 간단한 디버깅
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컴포넌트에서 zoneless를 사용하는 가장 좋은 방법은 signals로 처리하는 것입니다:
 
@@ -80,7 +108,18 @@ export class App {
 
 위의 버튼을 클릭하면 Angular이 코얼리싱을 통해 변경 감지를 한 번만 실행합니다. 더 많은 정보는 당사의 문서에서 zoneless를 배우세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 존리스로 업데이트 중
 
@@ -90,7 +129,18 @@ export class App {
 
 # 기본값으로 병합하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 v18부터는 존이 없는 앱과 zone.js를 사용하며 coalescing이 활성화된 앱에 대해 동일한 스케줄러를 사용하고 있습니다. 새로운 zone.js 앱의 변경 감지 주기 수를 줄이기 위해 우리는 기본적으로 zone coalescing을 활성화했습니다.
 
@@ -100,13 +150,22 @@ v18부터는 존이 없는 앱과 zone.js를 사용하며 coalescing이 활성�
 
 ```js
 bootstrapApplication(App, {
-  providers: [
-    provideZoneChangeDetection({ eventCoalescing: true })
-  ]
+  providers: [provideZoneChangeDetection({ eventCoalescing: true })],
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 네이티브 await을 사용하여 Zone이 필요 없는 앱
 
@@ -116,7 +175,18 @@ Zone.js는 Angular의 변경 감지를 위해 많은 브라우저 호출을 가�
 
 # 컴포넌트들은 Zone을 지원합니다
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Angular CDK와 Angular Material에서 Zoneless 지원을 활성화했습니다. 이로 인해 Zoneless 모델의 일부 문제점을 발견하고 개선할 수 있었습니다.
 
@@ -126,7 +196,18 @@ Angular CDK와 Angular Material에서 Zoneless 지원을 활성화했습니다. 
 
 새롭고 현대적인 느낌뿐만 아니라 WebContainers를 기반으로 한 대화형 실습 튜토리얼, 예제와 함께 제공되는 대화형 플레이그라운드, Algolia를 통해 구동되는 개선된 검색, 업데이트된 안내서, 간소화된 내비게이션 등이 추가되었습니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-22-Angularv18isnowavailable_1.png" />
 
@@ -136,7 +217,18 @@ angular.dev로 가서 확인해보세요!
 
 # Material 3이 이제 안정화되었습니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 몇 달 전에 저희는 Material 3에 대한 실험적인 지원을 소개했어요. 개발자들의 피드백을 고려하고 Material 3 컴포넌트를 다듬은 후, 안정 버전으로 업데이트했어요!
 
@@ -146,7 +238,18 @@ angular.dev로 가서 확인해보세요!
 
 이제 우리의 안내서에서 어떻게 Angular Material 3를 앱에서 사용할 수 있는지 찾아보세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 개발자 미리보기에서의 Signal API
 
@@ -156,7 +259,18 @@ Angular 버전 17.1과 17.2에서 새로운 signal 입력, signal 기반 쿼리,
 
 # 지연 로드 뷰가 이제 안정화되었습니다
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지난 6개월 동안, 우리는 deferrable views에 대한 많은 관심을 받았습니다. 이를 통해 개발자들이 앱의 핵심 웹 가치를 쉽게 향상시킬 수 있다는 것을 알게되었습니다. 예를 들어, Bill.com은 @defer를 사용하여 한 앱의 번들 크기를 50% 줄였다고 나누었습니다. 오늘, deferrable views가 이제 안정화되었습니다! 여러분은 여러분의 응용 프로그램과 라이브러리에서 이를 사용할 수 있습니다.
 
@@ -166,7 +280,18 @@ v17에서 deferrable views와 함께, 성능을 개선한 새로운 내장 제�
 
 미리보기 단계에서는 제어 흐름의 타입 체크를 추가로 개선했고, 더 많은 효율적인 암시적 변수 별칭을 활성화하고, 특정 성능 관련 안티 패턴에 대한 가드레일을 설정했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 서버 측 렌더링 개선사항
 
@@ -176,7 +301,18 @@ v17에서 deferrable views와 함께, 성능을 개선한 새로운 내장 제�
 
 # 이벤트 재생
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 달 가량 전에, 우리는 Angular과 Google의 내부 프레임워크 Wiz를 융합하는 장기 진행 중인 프로젝트를 발표했어요. Angular과 Wiz는 과거에 서로 다른 앱 세그먼트를 제공했었죠 — Wiz는 소비자를 주 타깃으로 한 앱에서 주로 사용되며 성능에 초점을 맞추었고, Angular은 생산성과 개발자 경험에 중점을 둔 것이었어요.
 
@@ -186,7 +322,18 @@ v17에서 deferrable views와 함께, 성능을 개선한 새로운 내장 제�
 
 ![이미지](/assets/img/2024-06-22-Angularv18isnowavailable_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오늘은 Google.com에서 실행 중인 핵심 라이브러리 중 하나인 이벤트 디스패치(event dispatch)가 Angular 모노레포에 추가되었다는 좋은 소식을 전해드립니다. 이벤트 디스패치는 이제 하이브리드 렌더링을 사용할 때 이벤트 재생을 담당하며, v18부터 제공됩니다.
 
@@ -196,13 +343,22 @@ v17에서 deferrable views와 함께, 성능을 개선한 새로운 내장 제�
 
 이벤트 재생 기능은 개발자 미리보기로 v18에서 사용할 수 있습니다. withEventReplay()를 사용하여 기능을 활성화할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 bootstrapApplication(App, {
-  providers: [
-    provideClientHydration(withEventReplay())
-  ]
+  providers: [provideClientHydration(withEventReplay())],
 });
 ```
 
@@ -212,18 +368,39 @@ Angular DevTools를 업데이트하여 Angular의 수화 프로세스를 시각�
 
 <img src="/assets/img/2024-06-22-Angularv18isnowavailable_5.png" />
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리 커뮤니티 기여자 Matthieu Riegler에게 이 기능을 추가해 준 것에 대해 큰 감사를 전합니다!
 
-## CDK 및 Material의 수분 보충 지원 
+## CDK 및 Material의 수분 보충 지원
 
 v17에서 일부 Angular Material 및 CDK 구성 요소가 수분 보충에서 제외되어 다시 렌더링되는 문제가 있었습니다. v18부터 모든 구성 요소 및 기본 구성 요소가 완전한 수분 보충 호환성을 갖추었습니다.
 
 ## 우리의 부분적 수분 보충 계획
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ng-conf와 Google I/O에서 부분 수분화를 발표했어요. 이 기술은 서버 사이드 렌더링 후 앱을 점진적으로 수분화할 수 있게 해줘요. 앱의 점진적 수분화는 처음에 적은 양의 JavaScript를 로드하고 앱의 성능을 향상시키는데 도움을 줘요.
 
@@ -237,7 +414,18 @@ ng-conf와 Google I/O에서 부분 수분화를 발표했어요. 이 기술은 �
 
 위의 블록은 캘린더 컴포넌트를 서버에서 렌더링할 거예요. 클라이언트로 도달하면 Angular가 해당 JavaScript를 다운로드하고, 뷰포트에 들어간 후에만 상호작용 가능한 캘린더를 수분화할 거에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금까지 부분 수분 유화에 대해 노력하고 있습니다. 이미 상호 작용 트리거와 함께 사용할 수 있는 상태에 있습니다. 우리는 현재 파트너와 함께 작업하여 구성 요소가 속성을 수신하거나 바인딩 값을 변경하는 데이터 트리거의 중요성을 평가하고 있습니다.
 
@@ -247,8 +435,18 @@ ng-conf와 Google I/O에서 부분 수분화를 발표했어요. 이 기술은 �
 
 웹 플랫폼의 점점 더 복잡해지면서 응용 프로그램의 호스팅은 성능, 신뢰성, 생산성 및 확장성 측면에서 중요한 역할을 합니다. 하이브리드 렌더링을 사용하는 앱은 서버 측 렌더링, 사전 렌더링 및 클라이언트 측 렌더링을 위한 다른 호스팅 요구 사항이 있습니다. 이 복잡성을 수동으로 관리하는 것은 부담스러울 수 있습니다. Firebase 앱 호스팅은 개발자를 위해 이 모든 것을 투명하게 처리하고 있습니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-22-Angularv18isnowavailable_6.png" />
 
@@ -256,10 +454,20 @@ ng-conf와 Google I/O에서 부분 수분화를 발표했어요. 이 기술은 �
 
 Angular와 함께 Firebase 작업을 하면서 개발자 경험을 보다 원할하게 만들도록 노력해 왔습니다. 오늘 앱 호스팅을 시작하는 것에 관한 속기 보세요!
 
-# 그리고 추가로... 
+# 그리고 추가로...
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 계속 나아가는 대규모 프로젝트들과 함께, 항상 개발자들의 일반적인 요구를 해결하기 위해 시간을 보내고 있어요. v18의 하이라이트 중 일부는 다음과 같아요:
 
@@ -269,7 +477,7 @@ Angular와 함께 Firebase 작업을 하면서 개발자 경험을 보다 원할
 
 ```js
 @Component({
-  selector: 'app-profile',
+  selector: "app-profile",
   template: `
     <ng-content select=".greeting">Hello </ng-content>
 
@@ -279,7 +487,18 @@ Angular와 함께 Firebase 작업을 하면서 개발자 경험을 보다 원할
 export class Profile {}
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 컴포넌트를 사용할 수 있습니다:
 
@@ -296,7 +515,18 @@ export class Profile {}
 알 수 없는 사용자
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 통합된 제어 상태 변경 이벤트
 
@@ -305,13 +535,24 @@ Angular Forms에서 FormControl, FormGroup 및 FormArray 클래스는 이제 eve
 이제 다음과 같이 사용할 수 있습니다:
 
 ```js
-const nameControl = new FormControl<string|null>('name', Validators.required);
-nameControl.events.subscribe(event => {
+const nameControl = (new FormControl() < string) | (null > ("name", Validators.required));
+nameControl.events.subscribe((event) => {
   // 개별 이벤트 처리
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기능 요청은 GitHub에서 440개 이상의 좋아요를 받았습니다. 저희 커뮤니티 기여자 Matthieu Riegler님 덕분에 모든 사람들에게 이용할 수 있게 되었습니다!
 
@@ -321,7 +562,18 @@ Angular v17에서 우리는 "응용 프로그램 빌더"를 안정적인 상태�
 
 대부분의 앱들에 대해, 개발자들은 angular.json을 업데이트함으로써 새로운 빌드 시스템으로 업데이트할 수 있었습니다. 지난 6개월 동안 우리는 사용자로부터 더 많은 피드백을 수집하고, 업데이트 경험을 개선하여 모두가 새로운 빌드 경험으로 이동하고 편집/새로 고침 효과를 받을 수 있도록 했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당사의 업데이트 가이드에서 업데이트 경험을 자동화하기 위해 개발한 도구를 찾을 수 있습니다.
 
@@ -331,8 +583,18 @@ Angular v17에서 우리는 "응용 프로그램 빌더"를 안정적인 상태�
 
 리디렉션 처리 시 더 높은 유연성을 제공하기 위해 Angular v18에서 redirectTo는 이제 문자열을 반환하는 함수를 허용합니다. 예를 들어 런타임 상태에 따라 라우트로 리디렉션하고 싶은 경우 함수에서 더 복잡한 로직을 구현할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 const routes: Routes = [
 { path: "first-component", component: FirstComponent },
@@ -352,15 +614,24 @@ return `/not-found`;
 { path: "user/:userId", component: OtherComponent },
 ];
 
-
 ### TypeScript 5.4
 
 마지막으로 TypeScript의 종속성이 업데이트되어 최신 TypeScript 5.4 기능을 모두 활용할 수 있게 되었습니다!
 
 ### 커뮤니티 하이라이트
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앵귤러에서 일어나는 혁신은 커뮤니티에서 많은 발전을 보게 되었어요!
 
@@ -370,7 +641,18 @@ ngrx, ngxs, rxAngular와 같은 인기 있는 상태 관리 라이브러리들�
 
 또 다른 생태계의 인기 라이브러리가 앵귤러 어댑터를 개발하고 있는 것도 흥미롭게 보여요. Chau Tran, Arnoud de Vries, 그리고 Corbin Crutchley가 TanStack Store, TanStack Query, TanStack Forms 지원을 앵귤러로 출시했어요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 세계 각지의 Angular 커뮤니티 컨퍼런스에 참여할 수 있어 기뻐요. 올해 남은 행사들도 기대되네요. 수백 명의 참가자와 수십 명의 연사를 대상으로 컨퍼런스를 기획하는 것은 쉬운 일이 아니에요. 올해 이 힘든 과제를 현실로 만들어준 모든 분들께 감사의 말씀을 전합니다. 이들에는 ng-conf, Angular Belgrade, ng-de, ng-be, NGPoland, ngRome, NG Kenya, ngIndia, Angular TLV 등이 포함돼요! 만약 빠뜨린 컨퍼런스가 있다면 댓글에서 공유해주세요.
 
@@ -380,7 +662,18 @@ ngrx, ngxs, rxAngular와 같은 인기 있는 상태 관리 라이브러리들�
 
 Angular 부흥의 일환으로 지난 2년 동안 많은 것을 선보였고 앞으로도 더 많은 혁신이 예정돼 있어요. 이 부분에서 현재를 살펴보고 어디에 있는지 축하하고 싶었어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Angular을 신호 및 고급 혼합 렌더링 기능으로 진화시키면서, 우리는 항상 개발자들이 자신감을 가지고 웹 애플리케이션을 제공할 수 있도록 하는 우리의 미션을 충실하게 이행해왔습니다. 현재 세계에서 두 번째로 큰 웹사이트인 YouTube가 Angular의 반응성 기본 요소를 사용하고 있어, 우리는 더 큰 작업 그룹의 일부로 신호를 웹 플랫폼에 추가하기 위해 협업하고 있습니다.
 

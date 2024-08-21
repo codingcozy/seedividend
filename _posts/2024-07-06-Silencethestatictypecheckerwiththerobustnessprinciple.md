@@ -3,15 +3,13 @@ title: "견고성 원칙으로 정적 타입 검사기 무력화하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-06-Silencethestatictypecheckerwiththerobustnessprinciple_0.png"
 date: 2024-07-06 02:22
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-06-Silencethestatictypecheckerwiththerobustnessprinciple_0.png
 tag: Tech
 originalTitle: "Silence the static type checker with the robustness principle"
 link: "https://medium.com/@cautaerts/silence-the-static-type-checker-with-the-robustness-principle-0beebfa88252"
 isUpdated: true
 ---
-
-
 
 /assets/img/2024-07-06-Silencethestatictypecheckerwiththerobustnessprinciple_0.png
 
@@ -21,6 +19,17 @@ isUpdated: true
 
 하지만 많은 Python 개발자들 — 특히 강력한 타입 시스템을 경험하지 않은 경우 — 타입 힌팅에 어려움을 겪습니다. 내장된 데이터 유형을 사용하는 단순한 예제를 넘어서면 타입 체커의 모든 규칙을 따르기는 끝없는 오류의 연속으로 이어질 수 있습니다. 타입 체커와의 장시간의 싸움 끝에 대부분의 개발자들은 수많은 Any 주석이나 # type: ignore 주석을 사용하여 항복하게 됩니다. 이는 결국 타입 체크로부터 얻는 안전 보장을 피하는 결과를 초래합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파이썬 개발자들이 타입 힌트에 어려움을 겪는 주요 이유 중 하나는 전투 규칙을 정확히 모르기 때문입니다. 타입 힌트는 함께...

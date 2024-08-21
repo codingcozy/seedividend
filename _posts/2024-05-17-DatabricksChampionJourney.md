@@ -3,7 +3,7 @@ title: "Databricks 사용 방법 정리"
 description: ""
 coverImage: "/assets/img/2024-05-17-DatabricksChampionJourney_0.png"
 date: 2024-05-17 03:45
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-17-DatabricksChampionJourney_0.png
 tag: Tech
 originalTitle: "Databricks Champion : Journey"
@@ -11,14 +11,22 @@ link: "https://medium.com/@muthu.bharanidharan/databricks-champion-journey-f3b42
 isUpdated: true
 ---
 
-
-
-
 다음은 Databricks 챔피언 배지를 획득하고 지명되기 위한 요구 사항입니다.
 
 1. 다음 중 하나의 경로를 통해 Databricks 인증을 취득하십시오:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 A. 데이터 엔지니어링 트랙은 다음과 같은 자격 인증 요구 사항으로 구성됩니다.
 
@@ -34,7 +42,18 @@ B. 데이터 과학 트랙은 다음과 같은 자격 인증 요구 사항으로
 
 저는 현재 진행 중인 업무와 일치하기 때문에 데이터 엔지니어링 경로를 선택했습니다. 데이터 엔지니어링 어소시에이트 및 프로페셔널 인증 모두 완료했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또한 PySpark 기술을 강화하기 위해 Spark 개발자 어소시에이트 시험을 응시하여 해당 자격증을 획득했습니다.
 
@@ -44,8 +63,18 @@ B. 데이터 과학 트랙은 다음과 같은 자격 인증 요구 사항으로
 
 솔루션 아키텍트 필수 자격은 데이터브릭스 파트너 포털을 통해 수강할 수 있는 여러 과정과 평가를 거쳐야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-05-17-DatabricksChampionJourney_2.png)
 
@@ -61,8 +90,18 @@ This step requires preparing a deck with the following contents:
 - Project outlook / next steps
 - Contribution to the community (I have shared my medium.com blogs relating to Databricks topics)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내부적으로 Databricks 챔피언들과 함께 덱을 검토하세요. 때로는 당신이 제출을 평가하고 있는 Databricks 직원과 함께 모의 실행도 할 수 있어요.
 
@@ -72,8 +111,18 @@ This step requires preparing a deck with the following contents:
 
 ![이미지](/assets/img/2024-05-17-DatabricksChampionJourney_4.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 참고: 여기 언급된 체크리스트는 경우에 따라 다를 수 있습니다.
 

@@ -3,17 +3,13 @@ title: "Reactjs 유닛 테스트코드 있음"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Reactjs Unit Testing Best Practices and Tools with examples"
 link: "https://medium.com/@natnael.awel/react-js-unit-testing-best-practices-and-tools-5454a01326ea"
 isUpdated: true
 ---
-
-
-
-
 
 유닛 테스팅은 모든 소프트웨어 개발 프로세스의 필수 요소입니다. 이를 통해 개발자들은 응용 프로그램의 개별 구성 요소를 테스트하고 프로덕션 환경에 배포되기 전에 발생할 수 있는 버그를 잡을 수 있습니다. React.js는 가장 인기 있는 프론트엔드 프레임워크 중 하나로, 유닛 테스팅을 위한 많은 리소스가 제공됩니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 유닛 테스팅을 통해 개발자는 응용 프로그램의 각 구성 요소가 의도대로 작동하는지 확인할 수 있습니다. React.js 컴포넌트는 다양한 상태와 동작을 갖고 있을 수 있으며, 잠재적인 문제를 피하기 위해 그 모든 것을 테스트하는 것이 중요합니다. 유닛 테스트는 또한 개발 프로세스 초기에 버그를 발견해 수정하기 쉽게 하여, 프로덕션 환경에 이르기 전에 이러한 문제를 해결할 수 있도록 도와줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## React.js 유닛 테스트의 모범 사례
 
@@ -33,7 +40,18 @@ React.js 컴포넌트에 대한 유닛 테스트를 작성할 때, 한 번에 �
 
 한 번에 하나의 기능만 테스트함으로써 문제를 분리하고 테스트가 구체적이고 집중되도록 할 수 있습니다. 이는 문제가 발생할 때 디버그하고 수정하기가 더 쉽게 만들어줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. Mocks와 Stubs 사용하기
 
@@ -43,7 +61,18 @@ Mocks는 종속성의 가짜 구현이며, 스텁은 종속성의 동작을 시�
 
 3. 코드 작성 전에 테스트 작성하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React.js 유닛 테스트의 또 다른 모범 사례는 코드를 작성하기 전에 테스트를 작성하는 것입니다. 이 방법은 Test-Driven Development (TDD)로 알려져 있으며 더 신뢰할 수 있고 예측 가능한 코드를 만들어낼 수 있습니다.
 
@@ -53,7 +82,18 @@ React.js 유닛 테스트의 또 다른 모범 사례는 코드를 작성하기 
 
 React.js에는 Jest, React Testing Library (RTL), Enzyme과 같은 여러 테스팅 프레임워크가 있습니다. 이러한 프레임워크는 테스트를 쉽게 작성하고 실행하며 결과에 대한 보고서를 생성하는 방법을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테스트 프레임워크를 사용하면 개발자가 시간을 절약할 수 있고 테스트가 일관되고 신뢰할 수 있도록 할 수 있습니다. 또한 코드 커버리지 분석 및 테스트 병렬화와 같은 추가 기능을 제공할 수도 있습니다.
 
@@ -63,7 +103,18 @@ React.js에는 Jest, React Testing Library (RTL), Enzyme과 같은 여러 테스
 
 Jest는 React.js 애플리케이션을 위한 인기있는 테스트 프레임워크입니다. 테스트를 작성하고 실행하기 위한 간단하고 사용하기 쉬운 인터페이스를 제공합니다. Jest에는 내장된 모킹 기능이 있으며, 이를 사용하면 의존성에 대해 걱정하지 않고 구성 요소를 테스트할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Jest는 매우 구성 가능하며 Enzyme 및 React Testing Library와 같은 다양한 테스트 유틸리티와 함께 사용할 수 있습니다.
 
@@ -73,7 +124,18 @@ React Testing Library는 React.js 애플리케이션을 위한 또 다른 인기
 
 이는 구성 요소의 동작을 테스트하고 있음을 보장하여 더 효과적이고 신뢰할 수 있는 테스트를 작성하기 쉽게 만들어 줍니다. React Testing Library 또한 매우 구성 가능하며 다양한 테스트 프레임워크와 함께 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. Enzyme
 
@@ -83,7 +145,18 @@ Enzyme은 특히 컴포넌트의 라이프사이클 메소드를 테스트하고
 
 # 데모 시간
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나는 React Testing Library (RTL)과 Jest를 함께 사용하는데, RTL과 Jest의 조합은 React 애플리케이션을 테스트하는 강력한 경험을 제공하면서 설정, 유지 보수 및 확장이 쉽습니다.
 
@@ -93,7 +166,18 @@ React Testing Library를 사용한 예제를 살펴봅시다. 이 예제는 Reac
 
 1. React 테스팅 라이브러리 및 jest 설정하기.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm install --save-dev @testing-library/react @testing-library/jest-dom jest ts-jest @types/jest
@@ -105,7 +189,18 @@ npm install --save-dev @testing-library/react @testing-library/jest-dom jest ts-
 
 3. mockApi를 작성하고, 테스트마다 모든 모의 객체를 지우기 위해 beforeEach를 호출하는 hooks를 작성합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/ReactjsUnitTestingBestPracticesandToolswithexamples_1.png)
 
@@ -115,7 +210,18 @@ npm install --save-dev @testing-library/react @testing-library/jest-dom jest ts-
 
 ![이미지](/assets/img/ReactjsUnitTestingBestPracticesandToolswithexamples_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 두 번째 테스트는 모의 API에서 반환된 작업을 TaskList가 렌더링하는지 확인합니다. 이를 위해 React Testing Library의 screen.getByText 메서드를 사용하여 렌더링된 구성 요소에서 특정 텍스트 요소를 찾습니다.
 
@@ -125,7 +231,18 @@ npm install --save-dev @testing-library/react @testing-library/jest-dom jest ts-
 
 ![이미지](/assets/img/ReactjsUnitTestingBestPracticesandToolswithexamples_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -135,7 +252,18 @@ React.js 컴포넌트를 테스트할 때 한 번에 한 가지를 테스트하�
 
 React.js 유닛 테스트에 대한 가장 인기 있는 도구로는 Jest, Enzyme, React Testing Library 등이 있습니다. 이러한 도구들은 개발자에게 효과적이고 신뢰할 수 있는 코드를 작성할 수 있는 필요한 기능을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 도움이 될 만한 몇 가지 자료들이 있어요:
 

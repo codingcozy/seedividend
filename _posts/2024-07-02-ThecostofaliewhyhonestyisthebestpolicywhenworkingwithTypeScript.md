@@ -3,15 +3,13 @@ title: "TypeScript와 함께 작업할 때 정직이 최선의 정책인 이유 
 description: ""
 coverImage: "/assets/img/2024-07-02-ThecostofaliewhyhonestyisthebestpolicywhenworkingwithTypeScript_0.png"
 date: 2024-07-02 21:49
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-02-ThecostofaliewhyhonestyisthebestpolicywhenworkingwithTypeScript_0.png
 tag: Tech
 originalTitle: "The cost of a lie — why honesty is the best policy when working with TypeScript"
 link: "https://medium.com/swinginc/the-cost-of-a-lie-5d9814fe2853"
 isUpdated: true
 ---
-
-
 
 ![이미지](/assets/img/2024-07-02-ThecostofaliewhyhonestyisthebestpolicywhenworkingwithTypeScript_0.png)
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 그러나 당신이 책상에 돌아가 앉은 순간, 예상치 못한 광경이 당신을 반격합니다: 슬랙 인박스에 99개의 읽지 않은 메시지가 있는 것입니다. 무엇이 잘못되었을까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-02-ThecostofaliewhyhonestyisthebestpolicywhenworkingwithTypeScript_1.png)
 
@@ -33,7 +42,18 @@ isUpdated: true
 - 이러한 실천으로 이어지는 근본적인 이유들
 - 기만의 사이클에서 벗어나 보다 투명한 코딩 접근 방식을 채택하는 전략
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Chapter 1: 속임수의 기술
 
@@ -43,7 +63,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-07-02-ThecostofaliewhyhonestyisthebestpolicywhenworkingwithTypeScript_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 거짓의 정의를 이해했으니, 우리에게 한 가지 질문을 해 보겠습니다:
 
@@ -56,7 +87,18 @@ let pets = [new Dog(), new Cat(), new Bird()];
 let pets: (Dog | Cat | Bird)[];
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 실제 코딩은 종종 예상과는 다르게 복잡할 때가 많아요!
 
@@ -71,7 +113,18 @@ const name = params.get("name");
 const hello = `Welcome ${name!}`;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Case 2.
 
@@ -106,7 +159,18 @@ const checkIfAllowed = (userType: UserType) => {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 한 발자국 물러나서 이 경우들을 다시 살펴보고 "거짓말"을 찾아보세요.
 
@@ -116,7 +180,18 @@ const checkIfAllowed = (userType: UserType) => {
 
 우리 함께 모든 경우를 해결해 낼 거에요 💪.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 케이스 1
 
@@ -133,7 +208,18 @@ const hello = `환영합니다, ${name}님!`;
 const hello = `환영합니다, ${name}님!`;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신이 왜 이것을 문제로 생각하는지 궁금할 수도 있습니다. URL에 이름 매개변수가 없는 경우, "이름이 정의되지 않은 상태에서 '안녕하세요'가 표시됩니다. 코드에는 TypeScript에게 모든 것이 괜찮다고 확신하는! - non-null assertion operator가 포함되어 있습니다. (여기서는 사실이 아닙니다 😠). 우리에게 다행히, 해결책은 간단합니다:
 
@@ -152,7 +238,18 @@ TypeScript를 사용하여 narrowing을 하고, 오래된 if 문의 도움으로
 
 ## 케이스 2
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { ColorsEnum } from 'happy-lib/colors';
@@ -172,7 +269,18 @@ const handleColorChange = async (colorToUpdate: LocalColorsEnum) => {
 
 아래 줄에 집중해보겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 ...
@@ -186,7 +294,18 @@ happy-lib/colors 패키지가 주요 패치를 받을 경우를 가정해 봅시
 
 우리는 진실을 이야기하기 위해 이 코드를 다시 작성해보겠습니다. 이 연습의 목적을 위해 colorToUpdate 유형을 변경할 수 없으며, 이 작업을 함수 내부에서 처리해야 합니다. TypeScript(또는 JavaScript)에서 열거형을 비교하는 것은 어렵습니다. 우리가 할 수 있는 것은 번역기를 작성하거나(또는 사전을 사용하는 것)하는 것입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 function transformColorEnum(localColor: LocalColorsEnum): ColorsEnum | null {
@@ -235,7 +354,18 @@ const handleColorChange = async (colorToUpdate: LocalColorsEnum) => {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 케이스 3
 
@@ -279,7 +409,18 @@ const checkIfAllowed = (userType: UserType) => {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 형변환(casting)이 안전한 이유는 `isSpecialUser` 유형 가드 함수 내부에서 사용하기 때문입니다. TypeScript는 includes 확인이 통과되면 `userType`이 `SpecialUsers` 유형이어야 한다는 것을 이해합니다. 따라서 형변환은 안전하며 유형 안전성을 위반하지 않습니다. 이렇게 하면 `userType` 변수는 if 블록의 범위 내에서 `SpecialUsers` 유형을 유지합니다.
 
@@ -289,7 +430,18 @@ const checkIfAllowed = (userType: UserType) => {
 
 # 2장: 거짓말의 해부학.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희 코드에서 문제점을 파악했습니다. 이제는 그 문제들이 처음에 발생한 이유를 이해해야 합니다.
 
@@ -299,7 +451,18 @@ const checkIfAllowed = (userType: UserType) => {
 
 가장 일반적으로 '거짓말'을 하는 경우는 데이터가 불확실한 출처에서 올 때입니다. 예를 들어, 이 코드 조각을 살펴보죠:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // API에서 사용자 데이터를 가져옵니다
@@ -315,7 +478,18 @@ const users: Users = await response.json() as Users;
 
 대부분의 경우에는 잘 작동합니다. 그러나 이 코드는 실제로 안전하지 않습니다. 우리가 호출하는 엔드포인트가 지정된 형식의 데이터를 반환하는지 알 방법이 없습니다. 유형 단언(as Users)을 사용하여 사실상 코드에 거짓말을 하고 원하는 것이 맞다고 코드에 알려주는 것입니다. 하지만 이러한 "소백한 거짓말"은 종종 미래 문제의 근본 원인이 되며 오류 케이스를 무시합니다. getUsers가 반환하는 유형이 변경되면 어떻게 될까요? TypeScript에 모든 것이 괜찮고 특정 유형(e.g., Users)이 반환될 것이 확실하다고 확신할 수 있지만, 실제로는 코드가 예기치 않은 유형을 처리할 준비가 되어 있지 않습니다. 이는 프로덕션 코드를 망가뜨릴 수 있는 런타임 오류로 이어질 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-02-ThecostofaliewhyhonestyisthebestpolicywhenworkingwithTypeScript_5.png" />
 
@@ -325,7 +499,18 @@ const users: Users = await response.json() as Users;
 
 예를 들어 단위 테스트에서 대량의 모의 객체가 있는 경우를 생각해봅시다. 특정 속성만 신경 쓰지만 자동완성과 타입 안전성의 이점을 원한다면, 이런 식의 코드가 될 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const veryBigObjectMock: BigObjectType = {
@@ -338,7 +523,18 @@ const veryBigObjectMock: BigObjectType = {
 
 무엇이 잘못되었는지 알아내려고 몇 시간을 낭비한 후, 오래된 키 이름을 가진 잊혀진 목 객체를 기억낼 수 있습니다. 시간을 낭비한 셈이죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 준비되지 않은 데이터 사용
 
@@ -366,7 +562,18 @@ const TodoList = () => {
 export default TodoList;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 컴포넌트를 사용할 때는 잘 렌더링됩니다. 그러나 주의 깊게 관찰하거나 인터넷 연결이 느린 경우에는 1초 미만의 깜빡임이 발생할 수도 있습니다. 하지만 받는 데 시간이 걸리는 경우나 애플리케이션에서 할 일 항목에 대한 실시간 업데이트를 보여주려는 경우에는 어떨까요? 이 순진한 방법을 사용하면 사용자 경험이 좋지 않을 수 있습니다. TypeScript는 할 일 항목이 비어 있을 수 있다고 알려줬는데도 우리는 그 경고를 무시하기로 결정했습니다.
 
@@ -376,7 +583,18 @@ export default TodoList;
 
 지금까지 코드에서 거짓이 어떻게 보이는지와 그 코드베이스에 나타난 이유에 중점을 두었습니다. 그러나 우리는 진실을 말할 수 있는 방법이 무엇이며 어떻게 거짓을 멈출 수 있을까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다행히도, 쉬운 일은 아니지만 우리 삶을 많이 개선해 줄 것입니다.
 
@@ -386,7 +604,18 @@ Typescript는 당신을 위해 최선을 다해줍니다. 당신에게 경고를
 
 **엄격한 eslint 및 tsconfig 규칙을 추가하세요.**
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자동화할 수 있는 것은 자동화하고 엄격한 @typescript-eslint 구성을 사용하세요. 이는 오류를 보여주는 것뿐만 아니라 미래 실수를 방지하는 데 도움이 될 수 있습니다. 최상의 관행과 권장 사항을 사용하여 tsconfig를 설정하세요 (예: https://www.totaltypescript.com/tsconfig-cheat-sheet). 이렇게 하면 올바른 방향으로 유지될 수 있습니다. 수동으로 확인할 필요가 줄수록 더 좋습니다.
 
@@ -404,7 +633,18 @@ if (!optionalValue) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 optionalValue에 값이 항상 있으므로 else 본문에서 수동 타입 체크가 필요하지 않습니다.
 
@@ -414,7 +654,18 @@ optionalValue에 값이 항상 있으므로 else 본문에서 수동 타입 체�
 
 ## 런타임에서 유효성 검사하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예방 조치인 입력 유효성 검사와 유형 검사와 같은 것들은 중요하지만, 알려지지 않거나 신뢰할 수 없는 객체를 다룰 때는 런타임에 데이터를 유효성 검사하는 것이 매우 중요합니다. 이를 달성하는 강력한 도구 중 하나는 zod입니다. TypeScript를 기반으로 한 스키마 유효성 검사 라이브러리로 데이터의 예상 형태와 유형을 정의하는 엄격한 스키마를 설정할 수 있습니다. 데이터 구조물의 청사진과 같은 개념입니다! Zod를 사용하면 런타임에서 잘못된 또는 예기치 않은 데이터에 대해 경고를 내어주는 강력한 스키마를 만들 수 있습니다. 예를 들어, 외부 API나 사용자 입력에서 데이터를 받는 경우, 해당 데이터의 예상 구조를 나타내는 Zod 스키마를 정의하고 해당 스키마를 사용하여 들어오는 데이터를 유효성 검사할 수 있습니다. 이를 통해 지정된 유형, 형태 및 제약 조건을 준수하는지 확인할 수 있습니다. 데이터가 이러한 기대에 미치지 않는 경우, Zod는 유용한 오류를 발생시켜 이 문제를 세련되게 처리할 수 있게 도와줍니다. 또한, 유형 가드나 어서션 함수와 같은 기술을 구현하는 자체 파서를 작성할 수도 있습니다.
 
@@ -424,7 +675,18 @@ TypeScript의 타입 어설션을 사용하면 값의 유형에 대해 컴파일
 
 완벽한 세상에서는 사용하는 라이브러리에서 모든 타이핑을 처리할 수 있고 가능한 한 순수 JavaScript에 가까운 코드만 작성할 수 있을 것입니다. 불행하게도, 이것은 현실적으로 어렵고, 타입을 어떻게 구조화할지에 대해 신중해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 TypeScript는 개발자가 오류를 잡고 코드 품질을 향상시키는 데 도움을 주도록 설계되었지만, 마법같은 해결책은 아닙니다. 여전히 그 아래에는 옛날의 JavaScript가 있다는 것을 기억해야 합니다. TypeScript는 정적 유형 검사를 위한 강력한 도구를 제공하지만 모든 잠재적인 런타임 오류를 제거할 수는 없습니다.
 

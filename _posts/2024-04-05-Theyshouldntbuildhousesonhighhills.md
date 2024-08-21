@@ -3,17 +3,13 @@ title: "고지대에 집을 짓지 말아야 해요"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "They shouldnt build houses on high hills"
 link: "https://medium.com/@joya00228/they-shouldnt-build-houses-on-high-hills-98ba005ce372"
 isUpdated: true
 ---
-
-
-
-
 
 ![Theyshouldntbuildhousesonhighhills_0.png](/assets/img/Theyshouldntbuildhousesonhighhills_0.png)
 
@@ -23,11 +19,33 @@ isUpdated: true
 
 ---
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 Markdown 형식으로 변경하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 아빠도요
 

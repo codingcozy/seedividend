@@ -3,17 +3,13 @@ title: "html css js로 progressbar 만드는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 16:52
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # html css js로 progressbar 만드는 방법
 
@@ -92,7 +88,18 @@ Progress Bar의 HTML 구조를 먼저 작성해보겠습니다. 콘텐츠를 구
 </html>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # CSS 스타일링:
 
@@ -337,7 +344,18 @@ body {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # JavaScript 상호작용:
 

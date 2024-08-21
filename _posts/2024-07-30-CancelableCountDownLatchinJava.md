@@ -3,16 +3,13 @@ title: "Java에서 Cancelable CountDownLatch 사용 방법"
 description: ""
 coverImage: "/assets/img/2024-07-30-CancelableCountDownLatchinJava_0.png"
 date: 2024-07-30 17:12
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-30-CancelableCountDownLatchinJava_0.png
 tag: Tech
 originalTitle: "Cancelable CountDownLatch in Java"
 link: "https://medium.com/itnext/cancelable-countdownlatch-in-java-2b960fb77403"
 isUpdated: true
 ---
-
-
-
 
 최근에 아주 동기화 유틸리티에 대한 시리즈 기사를 쓰기 시작했어요. 이 가상의 멀티스레드 파일 다운로더를 구현하여 다양한 버전의 다운로더를 만들었습니다. 그중에는 wait() 및 notifyAll(), RenerantLock, CyclicBarrier, 그리고 Countdownlatch를 사용한 버전들이 있어요.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 # 첫 번째: 요약
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전에 다뤘던 멀티 스레드 파일 다운로더와 관련된 기사와 비슷하게, 시작하기 전에 이전 구현을 검토하고 어떤 점을 개선하고 싶은지 살펴봅시다. 멀티 스레드 파일 다운로더 샘플의 소스 코드는 이 GitHub 저장소에 있으며, CyclicBarrier를 사용하는 구현을 볼 수 있는 Second implementation: Using Java synchronization utilities라는 전용 커밋을 찾을 수 있습니다.
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 # CountDownLatch를 취소 가능하게 만들기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 취소 가능한 Countdownlatch를 구현하는 다양한 방법이 있습니다. 아이디어를 얻으려면 스택 오버플로 질문을 읽어보세요. 일반적으로 우리는 CancelableCountDownLatch 또는 AbortableCountDownLatch라는 새로운 클래스를 소개해야 합니다. 이 새로운 클래스를 구현하는 방법은 다음 중 하나일 수 있습니다:
 
@@ -43,7 +62,18 @@ isUpdated: true
 
 대부분의 경우에는 상속 대신 구성을 선호하기 때문에, 첫 번째 방법을 권장하고 Countdownlatch를 위한 래퍼인 CancelableCountDownLatch라는 새 클래스를 만들겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 package com.saeed;
@@ -79,6 +109,7 @@ public class CancelableCountDownLatch {
     }
 }
 ```
+
 이 클래스에는 취소 상태를 나타내는 boolean 필드(AtomicBoolean)와 기본 CountDownLatch 인스턴스가 있습니다.
 
 이 클래스에는 3개의 공개 메서드가 있습니다:
@@ -87,7 +118,18 @@ public class CancelableCountDownLatch {
 - cancel(): 이 메소드는 사실상 기본 latch의 남은 수를 카운트 다운한 다음 latch의 취소된 상태 필드를 true로 변경합니다.
 - isCanceled(): latch가 취소되었는지를 확인할 수 있도록 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## CancelableCountDownLatch를 사용하여 다운로더를 다시 구현하기
 
@@ -185,7 +227,18 @@ public class Downloader {
 
 이 구현에서 주목할 점이 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 다운로드 작업에 실패하거나 주 스레드에서 오류가 발생할 때는 항상 latch.cancel() 메서드를 호출해야 합니다.
 - 주 스레드에서는 latch.isCanceled() 메서드를 호출하여 latch 취소 상태를 확인해야 합니다.
@@ -196,7 +249,18 @@ Countdownlatch를 취소 가능하게 만들어서 멀티스레드 파일 다운
 
 🧵 Java 동시성 시리즈:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 🙏 읽어 주셔서 감사합니다. 아래 연락처로 연락하실 수 있습니다:
 

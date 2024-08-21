@@ -3,17 +3,13 @@ title: "플러터에서 로그인 및 회원가입 페이지 만드는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Login SignUp Page in Flutter"
 link: "https://medium.com/@flutterdynasty/login-signup-page-design-with-code-c593e7c82a4c"
 isUpdated: true
 ---
-
-
-
-
 
 플러터(Flutter)에서 로그인/가입 페이지를 만들 때는 앱 요구 사항에 따라 디자인과 복잡성이 다양할 수 있어요. 플러터(Flutter)에서 세 가지 다른 로그인 페이지 UI 예제를 소개할게요:
 
@@ -132,7 +128,18 @@ class SignupCard extends StatelessWidget {
 
 ![로그인 회원가입 페이지](/assets/img/LoginSignUpPageinFlutter_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import 'package:flutter/material';

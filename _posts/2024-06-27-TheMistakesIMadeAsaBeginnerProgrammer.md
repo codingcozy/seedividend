@@ -3,7 +3,7 @@ title: "초보 프로그래머가 흔히 저지르는 실수 10가지"
 description: ""
 coverImage: "/assets/img/2024-06-27-TheMistakesIMadeAsaBeginnerProgrammer_0.png"
 date: 2024-06-27 17:48
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-27-TheMistakesIMadeAsaBeginnerProgrammer_0.png
 tag: Tech
 originalTitle: "The Mistakes I Made As a Beginner Programmer"
@@ -11,18 +11,26 @@ link: "https://medium.com/edge-coders/the-mistakes-i-made-as-a-beginner-programm
 isUpdated: true
 ---
 
+![이미지](/assets/img/2024-06-27-TheMistakesIMadeAsaBeginnerProgrammer_0.png)
 
+우선 한 가지 명백하게 말씀드리겠습니다. 당신이 초보 프로그래머라면, 이 기사는 당신이 저지르고 있는 실수로 인해 자책감을 느끼게 하려는 것이 아니라 오히려 그 실수에 대해 인식하게 하고, 그 실수의 징후를 알려주고, 피할 수 있도록 가르치려는 것입니다.
 
-
-![이미지](/assets/img/2024-06-27-TheMistakesIMadeAsaBeginnerProgrammer_0.png)  
-
-우선 한 가지 명백하게 말씀드리겠습니다. 당신이 초보 프로그래머라면, 이 기사는 당신이 저지르고 있는 실수로 인해 자책감을 느끼게 하려는 것이 아니라 오히려 그 실수에 대해 인식하게 하고, 그 실수의 징후를 알려주고, 피할 수 있도록 가르치려는 것입니다.  
-
-과거에 이런 실수들을 저도 했었고, 각각의 실수로부터 배웠습니다. 나 자신이 이를 피하도록 코딩 습관을 형성했어서 기쁩니다. 당신도 그렇게 해야 합니다.  
+과거에 이런 실수들을 저도 했었고, 각각의 실수로부터 배웠습니다. 나 자신이 이를 피하도록 코딩 습관을 형성했어서 기쁩니다. 당신도 그렇게 해야 합니다.
 
 이러한 실수들은 특정한 순서로 나열되어 있지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 1) 계획 없이 코드 작성하기
 
@@ -34,7 +42,18 @@ isUpdated: true
 
 초보 프로그래머로서 내가 한 가장 큰 실수 중 하나는 많은 사고와 연구 없이 코드 작성을 곧바로 시작한 것입니다. 이 방법은 작은 독립형 응용프로그램에는 동작할 수 있겠지만, 큰 응용프로그램에는 큰 부정적인 영향을 미칩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신이 후회할 만한 말을 하기 전에 생각하는 것처럼, 후회할 만한 것을 코딩하기 전에도 생각해야 합니다. 코딩 또한 당신의 생각을 전달하는 방법이에요.
 
@@ -42,7 +61,18 @@ isUpdated: true
 
 프로그래밍을 코드를 쓰는 것으로만 생각하지 마세요. 프로그래밍은 양육이 필요한 논리 기반의 창의력이에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 2) 코드를 작성하기 전에 계획을 너무 많이 세우지 마세요
 
@@ -52,7 +82,18 @@ isUpdated: true
 
 작은 기능에 대한 계획만 얘기하고 있어요. 모든 기능을 한꺼번에 계획하는 건 단죄되어야 해요! 바로 폭포수 접근법이죠. 이것은 하나씩 완료되어야 할 명확한 단계가 있는 선형 계획 시스템을 뜻해요. 이러한 방식으로 얼마나 많은 계획이 필요한지 상상할 수 있죠. 이곳에서 얘기하고 있는 계획은 아니에요. 폭포수 접근법은 대부분의 소프트웨어 프로젝트에 적합하지 않아요. 복잡한 것은 현실에 대한 민첩한 적응을 통해 구현할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로그램 개발은 민첩한 활동이어야 합니다. 폭포수 모델 계획에서는 상상조차 하지 못했을 기능을 추가하게 될 것입니다. 그리고 폭포수 모델 계획에서는 고려하지 못했던 이유로 인해 기능을 제거해야 할 때도 있을 것입니다. 버그를 수정하고 변화에 적응해야 합니다. 당신은 기민해야 합니다.
 
@@ -62,7 +103,18 @@ isUpdated: true
 
 작성한 코드의 하나의 측면에만 집중할 수 있다면, 그것은 코드의 가독성이어야 합니다. 이해하기 어려운 코드는 쓰레기입니다. 심지어 재활용할 수 없습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코드 품질의 중요성을 절대 얕보지 마세요. 코딩을 구현을 전달하는 방법으로 생각해 보세요. 코더로서 귀하의 주요 업무는 작업 중인 해결책의 구현을 명확하게 전달하는 것입니다.
 
@@ -72,13 +124,22 @@ isUpdated: true
 
 작은 것들조차 중요하다는 사실을 명심하세요. 예를 들어, 들여쓰기 및 대소문자 사용에 일관성이 없다면, 코드 작성 라이선스를 그냥 잃어버릴만 하다구요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-이것은 
-  생각보다 훨씬 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+이것은
+생각보다 훨씬
 중요합니다.
-
 
 또 다른 간단한 것은 긴 줄의 사용입니다. 80자를 넘는 내용은 읽기가 훨씬 어렵습니다. if문 블록을 더 잘 보이게 하려면 동일한 줄에 긴 조건을 넣을 유혹을 느낄 수도 있습니다. 그렇게 하지 말아주세요. 80자 제한을 절대 넘지 마세요.
 
@@ -86,9 +147,18 @@ isUpdated: true
 
 다음은 코드 품질과 관련된 몇 가지 더 많은 실수입니다:
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 함수나 파일에서 여러 줄을 사용하는 것은 좋은 습관이에요. 코드가 너무 길어지면 관리하기 힘들어지므로 작은 조각으로 나눠서 테스트하고 관리하세요. 제 개인적인 생각으로는 10줄 이상인 함수는 너무 길다고 생각해요. 하지만 이것은 대략적인 기준일 뿐이에요.
 
@@ -98,7 +168,18 @@ isUpdated: true
 
 - 문자열이나 숫자를 하드코딩하는 것도 좋지 않아요. 고정된 값에 의존하는 로직을 작성하려면 상수에 값을 할당하고 의미 있는 이름을 지어주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const answerToLifeTheUniverseAndEverything = 42;
@@ -110,7 +191,18 @@ const answerToLifeTheUniverseAndEverything = 42;
 
 - 조건 로직의 과도한 사용. 대부분의 경우 조건 로직이 필요하다고 생각하는 것은 없습니다. 모든 대안을 고려하고 가독성을 기준으로만 선택하세요. 측정할 수 없는 한 성능 최적화를 피하세요. 관련: Yoda 조건 및 조건 내 할당을 피하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 4) 첫 번째 해결책 선택하기
 
@@ -120,7 +212,18 @@ const answerToLifeTheUniverseAndEverything = 42;
 
 전문 프로그래머로서 여러분의 역할은 문제에 대한 해결책을 찾는 것이 아닙니다. 문제에 대한 가장 간단한 해결책을 찾는 것입니다. 여기서 "간단"하다는 것은 해결책이 제대로 작동하고 충분히 성능이 우수해야 하지만, 여전히 읽기, 이해 그리고 유지가 용이해야 한다는 것을 의미합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 5) 그만 두지 않기
 
@@ -130,7 +233,18 @@ const answerToLifeTheUniverseAndEverything = 42;
 
 # 6) 검색하지 않기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 많은 경우에 보물 같은 시간을 낭비하면서 문제를 해결하려고 노력한 적이 많았어요. 그럴 때에는 먼저 구글에서 조사하는 게 더 현명한 선택이 되곤 해요.
 
@@ -140,7 +254,18 @@ const answerToLifeTheUniverseAndEverything = 42;
 
 하지만, 구글링할 때 주의해야 해요. 초보자의 특징 중 하나는 다른 사람의 코드를 이해하지 않고 그대로 복사해 사용하는 것입니다. 그 코드가 문제를 올바르게 해결할 수 있더라도, 완전히 이해하지 못하는 코드는 사용하지 말아야 해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 창의적인 코더가 되고 싶다면, 자신이 무엇을 하고 있는지 알고 있다고 생각하지 마세요.
 
@@ -150,7 +275,18 @@ const answerToLifeTheUniverseAndEverything = 42;
 
 어플리케이션에서 특정 기능은 그것을 처리하는 곳이 딱 하나 있어야 합니다. 보통 이것은 단일 객체의 책임입니다. 이 객체는 어플리케이션의 다른 객체가 사용하는 데 절대적으로 필요한 것만을 노출해야 합니다. 이는 비밀스러울 필요가 있는 것이 아니라 애플리케이션의 다른 부분 간 의존성을 줄이는 개념에 관한 것입니다. 이러한 규칙을 따르면 클래스, 객체 및 함수의 내부를 안전하게 변경할 수 있으며 큰 규모로 문제를 일으킬 걱정 없이 변경할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 논리와 상태의 개념적 단위는 각각 고유한 클래스를 가져야 합니다. 여기서 클래스란, 일종의 청사진 템플릿을 의미합니다. 이는 실제 Class 객체이거나 Function 객체일 수 있습니다. 이를 Module이나 Package로도 식별할 수 있습니다.
 
@@ -160,7 +296,18 @@ const answerToLifeTheUniverseAndEverything = 42;
 
 클래스에 메소드를 추가하거나 메소드에 더 많은 책임을 추가하기 전에, 여러분의 직감을 생각하고 의문을 제기해야 합니다. 시간이 필요합니다. 이를 건너뛰지 마시고, 나중에 리팩토링할 것이라고 생각하지 마세요. 처음부터 올바르게 해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 중요한 아이디어는 코드가 높은 응집도와 낮은 결합도를 갖는 것이 좋다는 것입니다. 이는 관련된 코드를 함께 유지하고(한 클래스 안에) 서로 다른 클래스 간의 의존성을 줄이는 것을 의미하는 멋진 용어일 뿐입니다.
 
@@ -170,7 +317,18 @@ const answerToLifeTheUniverseAndEverything = 42;
 
 이러한 '만약' 상황들이 어느 주요 범주에 속하는지 식별해야 합니다. 오늘 필요 없는 코드는 작성하지 마십시오. 미래를 위한 계획을 세우지 마십시오.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 미래에 필요할 것 같아서 기능을 작성하는 것은 그저 잘못된 방법이에요. 그러지 마세요.
 
@@ -180,7 +338,18 @@ const answerToLifeTheUniverseAndEverything = 42;
 
 면접 준비를 할 때 초보 프로그래머들은 보통 알고리즘에 너무 많은 초점을 둡니다. 필요할 때 좋은 알고리즘을 식별하고 사용하는 것은 좋지만, 그것들을 암기하는 것이 당신의 프로그래밍 천재성에 기여하지는 않을 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 언어에서 사용할 수 있는 다양한 데이터 구조의 강점과 약점을 외우는 것은 분명히 여러분을 더 좋은 개발자로 만들 것입니다.
 
@@ -190,7 +359,18 @@ const answerToLifeTheUniverseAndEverything = 42;
 
 - 레코드 관리에 배열 대신 객체(맵)을 사용하는 것
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가장 흔한 데이터 구조 오류는 레코드 목록을 관리할 때 리스트 대신 맵을 사용하는 것입니다. 네, 레코드 목록을 관리할 때는 맵을 사용해야 합니다.
 
@@ -200,7 +380,18 @@ JavaScript에서 가장 일반적인 목록 구조는 배열이며 가장 일반
 
 레코드를 관리하기 위해 리스트 대신 맵을 사용하는 것은 종종 잘못된 방법입니다. 이 점은 주로 큰 컬렉션에 대한 이야기이지만, 저는 그냥 항상 이를 준수하는 것이 좋다고 말할 것입니다. 이것이 중요한 이유는 식별자를 사용하여 레코드를 조회할 때 맵이 리스트보다 훨씬 빠르기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 — 스택을 사용하지 않음
 
@@ -210,7 +401,18 @@ JavaScript에서 가장 일반적인 목록 구조는 배열이며 가장 일반
 
 초보자로서 우리가 종종 간과하는 것은 재귀 함수를 사용하는 대안이 있다는 점입니다. 단순히 Stack 구조를 사용할 수 있습니다. Stack에 함수 호출을 직접 넣고, 호출을 되돌아가야 할 준비가 되면 이를 꺼내기 시작하면 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 10) 기존 코드를 더 나빠지게 만들기
 
@@ -220,7 +422,18 @@ JavaScript에서 가장 일반적인 목록 구조는 배열이며 가장 일반
 
 그리고 그 방에 물건을 하나 추가해야 한다고 요청받았다고 상상해보세요. 이미 방이 큰 난잡한 상태이기 때문에 물건을 어디든 넣을 수 있을 것입니다. 몇 초만에 작업을 끝낼 수 있을 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지저분한 코드로 그렇게 하지 마십시오. 더 안 좋아지도록 만들지 마세요! 언제나 코드가 좀 더 깨끗하게 유지되도록 해야 합니다.
 
@@ -232,7 +445,18 @@ JavaScript에서 가장 일반적인 목록 구조는 배열이며 가장 일반
 - 구성 파일을 사용하지 않음. 다른 환경이나 다른 시기에 달라질 수 있는 값을 사용해야 한다면 해당 값은 구성 파일에 속합니다. 코드의 여러 위치에서 사용해야 하는 값이라면 해당 값은 구성 파일에 속합니다. 새 값이 코드에 도입될 때 이 질문을 항상 스스로에게 물어보십시오: 이 값은 구성 파일에 속하는가? 대답은 아마도 예일 것입니다.
 - 불필요한 조건문 및 임시 변수 사용. 매 if문은 최소 두 번 테스트해야 하는 논리 분기입니다. 가독성을 희생하지 않고 조건문을 피할 수 있는 경우 피해야 합니다. 이에 대한 주요 문제는 다른 함수를 도입하는 대신 함수에 분기 논리를 확장하는 것입니다. if문이나 새 함수 변수가 필요하다고 생각할 때마다 스스로에게 이 질문을 던져보십시오: 코드를 올바른 수준에서 수정하고 있는 것인가, 아니면 문제를 보다 높은 수준에서 생각해야 하는 것인가?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 불필요한 if문에 대해 얘기해보겠습니다. 다음 코드를 살펴보세요:
 
@@ -250,12 +474,23 @@ function isOdd(number) {
 
 이 함수는 불필요한 if문을 사용하고 있습니다. 다음은 동등한 코드입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```jsx
 function isOdd(number) {
-  return (number % 2 === 1);
-};
+  return number % 2 === 1;
+}
 ```
 
 # 11) 당연한 것에 대한 코멘트 작성하기
@@ -264,16 +499,28 @@ function isOdd(number) {
 
 예를 들어, 다음 코드 대신에:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 이 함수는 배열에서 홀수만 더합니다
 const sum = (val) => {
   return val.reduce((a, b) => {
-    if (b % 2 === 1) { // 현재 숫자가 홀수인 경우
-      a+=b;            // 현재 숫자를 누산기에 더합니다
+    if (b % 2 === 1) {
+      // 현재 숫자가 홀수인 경우
+      a += b; // 현재 숫자를 누산기에 더합니다
     }
-    return a;          // 누산기를 반환합니다
+    return a; // 누산기를 반환합니다
   }, 0);
 };
 ```
@@ -283,7 +530,7 @@ const sum = (val) => {
 ```js
 const sumOddValues = (array) => {
   return array.reduce((accumulator, currentNumber) => {
-    if (isOdd(currentNumber)) { 
+    if (isOdd(currentNumber)) {
       return accumulator + currentNumber;
     }
     return accumulator;
@@ -293,7 +540,18 @@ const sumOddValues = (array) => {
 
 함수와 인수에 더 나은 이름을 사용하면 대부분의 주석이 필요 없어집니다. 주석을 작성하기 전에 이 사실을 염두에 두세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 때로는 코드에 명확성을 더할 수 있는 유일한 방법이 주석을 통한 설명일 때가 있습니다. 이때는 이 코드 대신 이 코드를 왜 사용했는지에 대한 질문에 대답할 수 있도록 주석을 작성해야 합니다.
 
@@ -314,7 +572,18 @@ array.forEach(
 
 그런 프로그래머가 되지 마세요. 그러한 코드를 받아들이지 마세요. 이와 같은 주석을 다루어야 할 때 이런 주석을 제거하세요. 가장 중요한 것은 이런 주석을 쓰는 프로그래머들에게 그것이 얼마나 나쁜지 깨달게 하는 것입니다. 위와 같은 주석을 쓰는 프로그래머를 고용하고 있다면 이 문제가 실제로 그들이 일자리를 잃을 수 있음을 알려주세요. 그래, 그 정도로 심각합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 12) 테스트 코드 작성하지 않기
 
@@ -324,7 +593,18 @@ array.forEach(
 
 당신은 사람입니다. 각 코드 변경 후 모든 이전에 성공했던 유효성 검사를 테스트하는 것을 잊을 것입니다. 컴퓨터에게 그 일을 맡기세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가능하다면 코드를 작성하여 이를 충족시키기 전에 유효성을 추측하거나 설계해 보는 것이 좋습니다. 테스트 주도 개발(TDD)은 그냥 화려한 날조가 아닙니다. 기능에 대해 생각하는 방식에 긍정적인 영향을 미치고 더 나은 설계를 고안하는 데 도움이 됩니다.
 
@@ -334,29 +614,48 @@ TDD가 모두에게 적합한 것은 아니며 모든 프로젝트에 잘 작동
 
 sumOddValues 기능을 구현하는 이 함수를 살펴보세요. 어떤 문제가 있나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const sumOddValues = (array) => {
   return array.reduce((accumulator, currentNumber) => {
-    if (currentNumber % 2 === 1) { 
+    if (currentNumber % 2 === 1) {
       return accumulator + currentNumber;
     }
     return accumulator;
   }, 0);
 };
- 
- 
-console.assert(
-  sumOddValues([1, 2, 3, 4, 5]) === 9
-);
+
+console.assert(sumOddValues([1, 2, 3, 4, 5]) === 9);
 ```
 
 단언이 통과되었습니다. 즐거운 코딩하세요! 뭔가 빠진 부분이 있어요. 몇가지 문제를 설명해 드릴게요:
 
 — 문제 #1: 빈 입력에 대한 처리가 없어요. 함수를 인자 없이 호출하면 어떻게 동작해야 할까요? 현재 상태에서는 해당 경우에 함수의 구현이 노출되는 오류가 발생합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 TypeError: 정의되지 않은 프로퍼티 'reduce'를 읽을 수 없습니다.
@@ -369,7 +668,18 @@ TypeError: 정의되지 않은 프로퍼티 'reduce'를 읽을 수 없습니다.
 - 함수를 사용하는 사용자는 구현 세부 정보를 알아서는 안 됩니다.
 - 사용자에게 도움이 되지 않는 오류입니다. 사용자의 경우 함수가 단순히 작동하지 않았음을 알게 되는 것입니다. 그러나 오류가 사용 문제에 대해 더 명확하게 설명되면, 함수를 잘못 사용했음을 알 수 있습니다. 예를 들어, 함수가 이렇게 사용자 정의 예외를 throw하도록 선택할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 TypeError: 빈 목록에 대해 함수를 실행할 수 없습니다.
@@ -381,7 +691,18 @@ TypeError: 빈 목록에 대해 함수를 실행할 수 없습니다.
 
 이제 함수가 던지는 에러를 보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 sumOddValues(42);
@@ -394,7 +715,18 @@ sumOddValues(42);
 
 혼란스럽다고 느껴지시나요? 아마 더 도움이 될만한 에러 메시지는 다음과 같았으면 좋겠네요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 TypeError: 42은(는) 배열이 아니야, 친구야.
@@ -403,24 +735,46 @@ TypeError: 42은(는) 배열이 아니야, 친구야.
 문제 #1과 #2는 때때로 엣지 케이스라고 불리기도 합니다. 이들은 고려해야 할 일반적인 엣지 케이스들입니다. 하지만 생각해야 할 덜 명백한 엣지 케이스들도 보통 있습니다. 예를 들어 음수를 사용했을 때 어떻게 될까요?
 
 ```js
-sumOddValues([1, 2, 3, 4, 5, -13]) // => 여전히 9
+sumOddValues([1, 2, 3, 4, 5, -13]); // => 여전히 9
 ```
 
 음수인 -13은 홀수입니다. 이 함수가 가져야 하는 동작인가요? 에러를 던져야 하나요? 음수를 합계에 포함해야 하나요? 아니면 현재와 같이 음수를 무시해야 하나요? 아니면 함수의 이름이 sumPositiveOddNumbers로 지어져야 하는지를 깨닫게 될지도 모릅니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 문제에 대한 결정은 쉽습니다. 더 중요한 점은, 당신의 결정을 문서화하기 위해 테스트 케이스를 작성하지 않으면, 함수를 유지보수하는 사람들은 당신이 음수를 무시한 것이 고의적인 것인지 버그인지 알 수 없을 겁니다.
 
 — 문제 #3: 유효한 여러 경우에 대해 테스트하지 않았습니다. 경계 경우를 잊고, 이 함수는 다루지 못하는 합리적이고 매우 간단한 경우가 있습니다:
 
 ```js
-sumOddValues([2, 1, 3, 4, 5]) // => 11
+sumOddValues([2, 1, 3, 4, 5]); // => 11
 ```
 
 위에서 2가 합산됐지만 합산되지 말아야 하는 경우입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해결책은 간단합니다. reduce 함수는 어큐뮈레이터의 초기값으로 사용될 두 번째 매개변수를 받습니다. 만약 해당 인수가 제공되지 않았다면(위의 코드처럼), reduce는 컬렉션의 첫 번째 값이 어큐뮈레이터의 초기값으로 사용됩니다. 이것이 테스트 케이스에서 위의 첫 번째 짝수 값이 합에 포함된 이유입니다.
 
@@ -430,7 +784,18 @@ sumOddValues([2, 1, 3, 4, 5]) // => 11
 
 # 14) 기존 코드 의심하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 상당한 분량의 코드를 혼자서 작업하지 않는 한, 당신이 삶 속에서 어떤 종류의 바보 같은 코드와 마주칠 가능성은 의심할 여지가 없습니다. 초심자들은 그것을 인식하지 못하며, 그것이 작동하는 것처럼 보이고 오랜 시간 동안 코드베이스의 일부이기 때문에 좋은 코드라고 가정합니다.
 
@@ -440,7 +805,18 @@ sumOddValues([2, 1, 3, 4, 5]) // => 11
 
 초심자로서 이해하지 못하는 문서화되지 않은 코드는 나쁜 것이 될 가능성이 있다고 가정해야 합니다. 의문을 가져 보세요. 그것에 대해 질문하세요. git blame을 사용해 보세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 그 코드의 작성자가 오래 전에 사라졌거나 기억하지 못한다면, 그 코드를 조사하고 이해하려고 노력하세요. 코드를 완전히 이해한 후에 그것이 좋은지 나쁜지에 대해 의견을 형성할 수 있습니다. 이 전에는 가정하지 마세요.
 
@@ -450,9 +826,20 @@ sumOddValues([2, 1, 3, 4, 5]) // => 11
 
 최적의 방법은 없습니다. 오늘을 위한 좋은 방법이 있을 뿐이며, 이 프로그래밍 언어에 적합한 것이 있을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-프로그래밍에서 이전에 최선의 방법으로 인식되었던 것 중 일부는 오늘날 나쁜 방법으로 레이블이 지정됩니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+프로그래밍에서 이전에 최선의 방법으로 인식되었던 것 중 일부는 오늘날 나쁜 방법으로 레이블이 지정됩니다.
 
 충분한 시간을 투자한다면 더 나은 방법을 항상 찾을 수 있습니다. 최상의 방법에 대해 걱정하지 말고 자신의 재능에 집중하세요.
 
@@ -460,7 +847,18 @@ sumOddValues([2, 1, 3, 4, 5]) // => 11
 
 # 16) 성능에 대한 집착
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로그래밍은 도널드 누스가 위 문장을 쓴 이후에 상당히 변화했지만, 내 생각에는 지금도 유익한 조언으로 여겨집니다.
 
@@ -470,7 +868,18 @@ sumOddValues([2, 1, 3, 4, 5]) // => 11
 
 물론 새 코드를 도입하기 전에 항상 고려해야 할 몇 가지 명백한 최적화가 있습니다. 예를 들어, Node.js에서 이벤트 루프를 즉시 차단하지 않거나 호출 스택을 차단하지 않는다는 것은 매우 중요합니다. 이것은 항상 염두에 두어야 할 초기 최적화의 한 예입니다. 자신에게 물어보세요: 고민 중인 코드가 호출 스택을 차단할까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기존 코드에 대한 어떠한 명확하지 않은 최적화도 측정 없이 진행된다면 해로울 수 있으며 피해야 합니다. 당신이 생각하는 최적화가 성능 향상으로 작용할 것이라고 생각되더라도 예상치 못한 새로운 버그의 원인이 될 수 있습니다.
 
@@ -480,7 +889,18 @@ sumOddValues([2, 1, 3, 4, 5]) // => 11
 
 어플리케이션에 기능을 추가하는 가장 쉬운 방법은 무엇인가요? 자신의 관점에서 살펴보거나 현재 사용자 인터페이스에 어떻게 맞추는지를 고려해보는 것입니다. 그렇죠? 만약 사용자로부터 일종의 입력을 받는 기능을 추가해야 한다면, 이미 있는 양식에 추가하세요. 만약 페이지에 링크를 추가해야 한다면, 이미 있는 중첩된 링크 메뉴에 추가하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 개발자가 되지 마세요. 자신을 사용자의 입장에 놓아 생각해보세요. 특정 기능의 사용자가 필요로 하는 것과 그들이 어떻게 행동할지 상상해봅니다. 기능이 사용자들이 찾고 사용하기 쉽도록 만드는 방법을 고민하며, 그 기능이 어떻게 찾아지고 사용되는지에 대해 고민하지 않고 어떻게든 애플리케이션에 그 기능을 간단히 구현할 방법에만 집중하지 않습니다.
 
@@ -490,7 +910,18 @@ sumOddValues([2, 1, 3, 4, 5]) // => 11
 
 망치는 벽에 못을 박는 데 탁월한 도구이지만 나사를 조이는 데는 최악의 도구입니다. "망치를 좋아한다"는 이유로 나사에 망치를 사용하지 마세요. "아마존에서 5.0 사용자 평가를 받은 가장 인기 있는 망치"라는 이유로 나사에 망치를 사용하지 마세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도구의 인기에 의존하는 것보다 문제에 얼마나 잘 맞는지가 더 중요하다는 건 진정한 초보자의 특징입니다.
 
@@ -500,7 +931,18 @@ sumOddValues([2, 1, 3, 4, 5]) // => 11
 
 원시 도구로 집을 짓고 맘편히 시간을 들일 수도 있지만, 좋은 도구에 시간과 돈을 투자하고 훨씬 빠르게 더 나은 집을 짓을 수도 있습니다. 도구는 계속 발전하고 있으며, 그에 대해 배우고 사용하는 데 편안해지는 것이 중요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 19) 코드 문제를 이해하지 못하면 데이터 문제가 발생할 수 있습니다
 
@@ -510,7 +952,18 @@ sumOddValues([2, 1, 3, 4, 5]) // => 11
 
 초보자들은 코드-데이터 관계에 대한 연결을 즉시 이해하지 못할 수 있습니다. 중요하지 않은 기능 X가 작동하지 않아도 좋다고 느낄 수 있습니다. 문제는 버그 있는 코드가 초기에는 명확하지 않은 데이터 무결성 문제를 계속 도입할 수 있다는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 나쁜 것은 버그를 수정하는 코드를 배송할 때, 이 버그로 인해 발생한 미묘한 데이터 문제를 해결하지 않으면 "회복 불가능 수준"으로 갈수록 데이터 문제가 더 쌓일 것입니다.
 
@@ -524,7 +977,18 @@ sumOddValues([2, 1, 3, 4, 5]) // => 11
 - PRIMARY KEY 제약은 열의 값이 Not-Null이며 고유해야 함을 의미합니다. 아마 이것을 사용하고 있을 것입니다. 데이터베이스의 각 테이블은 레코드를 식별하기 위한 기본 키를 가져야합니다.
 - FOREIGN KEY 제약은 열의 값이 일반적으로 기본 키인 다른 테이블 열의 값과 일치해야 함을 의미합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터 무결성과 관련된 또 다른 초보자 문제는 트랜잭션 관점에서 생각하지 않는 부분입니다. 여러 작업이 동일한 데이터 원본을 변경해야 하고 서로에게 의존하는 경우, 이러한 작업은 반드시 롤백할 수 있는 트랜잭션으로 묶여야 합니다. 그렇게 해야 한 작업이 실패할 경우 롤백할 수 있습니다.
 
@@ -534,9 +998,20 @@ sumOddValues([2, 1, 3, 4, 5]) // => 11
 
 예를 들어, 하루 시간에 따라 다른 속도로 회전하는 바퀴가 필요한 경우, 우리가 알고 사랑하는 바퀴를 맞춤화하는 대신, 다시 생각할 필요가 있을 수 있습니다. 그러나 전혀 다른 디자인으로 사용되지 않는 바퀴가 필요하지 않다면, 바퀴를 다시 발명하지 마세요. 그냥 그 바퀴를 사용하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-가끔 필요한 휠의 브랜드를 선택하는 것은 다양한 옵션이 있어 쉬운 일이 아닙니다. 사전 조사를 하고 살기 전에 시도해보세요! 소프트웨어 "휠"의 멋진 점은 대부분의 것들이 무료이며 내부 디자인을 볼 수 있습니다. 내부 디자인 품질에 따라 코딩 휠을 쉽게 판단할 수 있습니다. 가능하다면 오픈 소스 휠을 사용하세요. 오픈 소스 패키지는 쉽게 디버그하고 수정할 수 있습니다. 또한 쉽게 대체할 수도 있습니다. 또한 내부에서 용이하게 지원하기도 쉽습니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+가끔 필요한 휠의 브랜드를 선택하는 것은 다양한 옵션이 있어 쉬운 일이 아닙니다. 사전 조사를 하고 살기 전에 시도해보세요! 소프트웨어 "휠"의 멋진 점은 대부분의 것들이 무료이며 내부 디자인을 볼 수 있습니다. 내부 디자인 품질에 따라 코딩 휠을 쉽게 판단할 수 있습니다. 가능하다면 오픈 소스 휠을 사용하세요. 오픈 소스 패키지는 쉽게 디버그하고 수정할 수 있습니다. 또한 쉽게 대체할 수도 있습니다. 또한 내부에서 용이하게 지원하기도 쉽습니다.
 
 하지만, 휠이 필요한 경우, 전체 새 차를 사서 유지 중인 차를 위에 올리지 마세요. 라이브러리 전체를 가져올 필요가 없는 경우에도 함수 두 개를 사용하려고 전체 라이브러리를 포함하지 마세요. 이와 관련된 좋은 예는 JavaScript의 lodash 라이브러리입니다. 배열을 섞기만 하려면 섞기 메소드만 가져와 사용하세요. 전체 lodash 라이브러리를 가져오지 마세요.
 
@@ -544,7 +1019,18 @@ sumOddValues([2, 1, 3, 4, 5]) // => 11
 
 코딩 초보자들의 한 가지 특징은 코드 리뷰를 비판으로만 바라본다는 것입니다. 코드 리뷰를 싫어합니다. 감사하지도 않습니다. 때로는 두렵기까지 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이건 완전히 잘못됐어요. 만약 그렇게 느낀다면, 당신도 이 태도를 곧바로 바꿔야 해요. 모든 코드 리뷰를 학습 기회로 여기세요. 환영하고 감사드리세요. 거기서 배우세요. 그리고 가장 중요한 건, 누군가가 당신에게 무언가 가르칠 때 그들에게 고맙다고 말해주세요.
 
@@ -554,7 +1040,18 @@ sumOddValues([2, 1, 3, 4, 5]) // => 11
 
 # 22) 소스 컨트롤 사용하지 않기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 신입들은 때때로 좋은 소스/변경 관리 시스템이 갖는 힘을 과소평가합니다. 여기서 말하는 '좋은 시스템'은 Git을 의미합니다.
 
@@ -564,7 +1061,18 @@ sumOddValues([2, 1, 3, 4, 5]) // => 11
 
 커밋 메시지에 불필요한 정보를 포함하지 마세요. 예를 들어, 추가된, 수정된, 삭제된 파일들을 커밋 요약에 나열하지 마세요. 해당 목록은 커밋 객체 자체에 존재하며 몇 가지 Git 명령 인자를 사용하여 쉽게 표시할 수 있습니다. 요약 메시지에는 단순히 노이즈가 될 뿐입니다. 어떤 팀들은 각 파일 변경 별로 다른 요약을 가지는 것을 선호하지만, 그것은 커밋이 너무 크다는 또 다른 신호로 생각합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 소스 제어는 발견 가능성과 관련이 있어요. 함수를 만나게 되면 그 함수에 대해 필요성이나 설계를 의심하기 시작할 수도 있는데, 소스 제어를 통해 해당 함수를 도입한 커밋을 찾아 해당 함수의 문맥을 확인할 수 있어요. 커밋은 프로그램에 버그를 도입한 코드를 식별하는 데도 도움이 되죠. Git은 심지어 커밋 내에서 이진 탐색(바이섹트 명령)을 제공하여 버그를 도입한 유일한 지시 커밋을 찾을 수도 있어요.
 
@@ -574,7 +1082,18 @@ Git을 잘 알고 있는 기능이 적을수록 제 책에서는 초보자라고
 
 # 23) 공유 상태 남발하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다시 말하지만, 함수형 프로그래밍 대비 다른 패러다임에 대한 이야기는 아닙니다. 이것은 다른 기사를 위한 주제입니다.
 
@@ -584,7 +1103,18 @@ Git을 잘 알고 있는 기능이 적을수록 제 책에서는 초보자라고
 
 공유 상태의 주요 문제는 여러 자원이 이벤트 루프의 동일한 틱에서 함께 상태를 변경해야 할 때 발생합니다 (이벤트 루프 기반 환경에서). 경쟁 상태가 발생할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 주제가 있어요: 초심자는 데이터 락 문제를 다룰 때, 특히 공유 상태 경쟁 조건 문제로 인해 타이머를 해결책으로 사용하려 할 수 있어요. 그렇게 하면 큰 경고 신호에요. 하지 마세요. 이를 주시하고, 코드 리뷰에서 지적하고, 절대 받아들이지 마세요.
 
@@ -594,7 +1124,18 @@ Git을 잘 알고 있는 기능이 적을수록 제 책에서는 초보자라고
 
 전문 프로그래머는 오류를 좋아해해요. 초심자는 싫어해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 이 멋진 작은 빨간 에러 메시지를 보는 것이 괴롭다면, 태도를 바꾸어야 합니다. 이들을 도우미로 생각해야 합니다. 그들과 대응해야 합니다. 진행을 이끌기 위해 그들을 활용해야 합니다.
 
@@ -604,7 +1145,18 @@ Git을 잘 알고 있는 기능이 적을수록 제 책에서는 초보자라고
 
 당신은 인간이고 당신의 뇌에는 휴식이 필요합니다. 당신의 몸에도 휴식이 필요합니다. 종종 자리에 묶여 휴식을 잊게 될 것입니다. 나는 이것을 초보자의 또 다른 신호로 보고 있습니다. 이것은 타협할 수 없는 것입니다. 작업 흐름에 휴식의 강제 요소를 통합하여 휴식을 취하도록 하세요. 짧은 휴식을 자주 취하세요. 의자를 떠나 짧게 산책을 하며 다음에 해야 할 일을 생각하도록 하세요. 신선한 눈으로 코드를 다시 보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 긴 글을 읽느라 수고 많으셨어요.
 

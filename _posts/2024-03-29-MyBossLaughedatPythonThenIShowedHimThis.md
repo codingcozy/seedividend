@@ -3,17 +3,13 @@ title: "더이상 파이썬을 비웃을 수 없는 이유"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "My Boss Laughed at PythonThen I Showed Him This"
 link: "https://medium.com/python-in-plain-english/my-boss-laughed-at-python-then-i-showed-him-this-3dfcd77a3736"
 isUpdated: true
 ---
-
-
-
-
 
 ![My Boss Laughed at Python, Then I Showed Him This](/assets/img/MyBossLaughedatPythonThenIShowedHimThis_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 그런 다음, 스프레드시트를 열었어요. 오 내 신이 그 스프레드시트를 보고 말았어요. 마치 화소가 난폭한 몬스터가 숫자를 토한 것 같았어요. 하루 종일 그것과 씨름하다 뇌가 아프더라고요. 학교에서 배운 그 모든 멋진 머신 러닝 모델들? 소용없었어요. 그것은 엑셀 지옥이었고, 저는 공식적으로 넘어지고 말았어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 작업 1: 몬스터 피벗 테이블
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 그런데, 나의 반항의 사소한 불꽃이 타오르기 시작했어요. 그 모든 판다 튜토리얼들이 무산되기엔 너무도 아까웠죠! 소심하게 빈 스크립트를 열었어요. 처음에는 시행착오의 엉망이었지만, 점점 코드들이 얽혀갔어요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import pandas as pd
@@ -49,7 +67,18 @@ pivot.to_excel('new_report.xlsx')
 
 두 번째 작업은 고객 주소에 관련된 것이었다. 주소처럼 표준화되어야 할 것 같은 것이 있을 텐데 말이다. 그렇다고 생각했는데, 아니었다. "123 Main St," "123 Main Street," 심지어 "123 Main St. (Apt 402)"까지 있었다. 이 엉망인 상태를 정리하거나 매핑하려는 시도는 불가능했다. 나는 멍하니 되어 있었고, 내 직업 선택에 대해 의문을 품기 시작했다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시간이 낭비되었어요. 대문자를 고치고 귀찮은 아파트 번호를 제거하는 데 노력을 많이 했어요. 새 데이터 일괄 처리를 받을 때마다 악몽이 다시 시작되었어요. 그러덴 어느 날 내게 깨달음이 왔어요 — 이것은 정규 표현식을 사용할 수 있는 전형적인 사례였다는 거죠!
 
@@ -69,7 +98,18 @@ def clean_address(address):
 
 가장 우아한 코드는 아니었지만, 작동했어요. 갑자기 몇 줄로 혼돈이 깨끗하고 일관된 열로 변신했어요. 그 느낌? 순수한 힘이었어요. 마치 지저분한 데이터의 비밀언어를 어떻게 말해야 하는지 마침내 깨달은 것 같았어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 작업 3: 시각화 고난
 
@@ -79,7 +119,18 @@ def clean_address(address):
 
 이제 충분해요. 나는 내 Python 튜토리얼에서 본 깔끔하고 아름다운 시각화를 기억했어요. 분명히 이보다 더 잘할 수 있을 거라고 생각했죠. Matplotlib할 때가 왔어요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 import matplotlib.pyplot as plt
@@ -100,7 +151,18 @@ plt.show()
 
 몇 주 후, 나는 용감해졌어요. 몇 가지 작은 작업을 자동화했고 호되게 엉망인 데이터셋 몇 개를 정리했어요... 작은 발걸음이지만 자신감을 쌓는 과정이었어요. 그런 다음 다음 엑셀 몬스터가 나타났고, 이게 내가 빛을 발할 순간이라고 생각했어요. 하룻밤을 안주며 나의 해결책을 신중히 코딩했지만 단지 기능에만 신경 쓴 것이 아니라 결과물을 세련되게 만들기 위해서였어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 날 나는 상사에게 다가가서 이렇게 말했다. "안녕하세요, 보고서를 처리하는 더 빠른 방법을 찾은 것 같아요…" 그가 "빠르다"라는 말을 듣자 눈이 살짝 멍해졌어요. 아마 새로운 스프레드시트 공식을 발명하고 있는 나를 상상했나 봐요.
 
@@ -110,7 +172,18 @@ plt.show()
 
 그의 눈썹이 슉 올라갔어요. 아니, 그는 갑자기 Python 입문자가 된 건 아니에요. 그러나 남을 무시하는 태도는 "...음, 이건 뭔가 있네요." 로 변했어요. 그 아주 작은 가능성의 빛줄기가 오늘의 승리였어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 마무리
 
@@ -120,7 +193,18 @@ plt.show()
 
 스프레드시트와 씁쓸함을 겪는 데이터 초보자들에게 전하고 싶은 말, 너 혼자가 아니야! 코드를 두려워하며 시작한 누군가라면 나처럼 할 수 있어. 너가 하는 일을 더 잘할 수 있게 도와주는 도구들을 찾는 거야, 때로는 그 도구가 바로 파이썬이 될 수도 있어.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자동화에 대해 더 알고 싶다면, Travis를 만나보세요. 이는 인공지능으로 구동되는 파이썬 튜터입니다. 완전 무료이며 시작하기에 최적인 방법입니다.
 
@@ -130,7 +214,18 @@ plt.show()
 
 In Plain English 커뮤니티의 일원이 되어 주셔서 감사합니다! 떠나시기 전에:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 작가를 클릭하고 팔로우해주세요! 👏️️
 - 팔로우하기: X | LinkedIn | YouTube | Discord | Newsletter

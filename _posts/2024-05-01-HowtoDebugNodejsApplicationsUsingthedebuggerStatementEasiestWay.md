@@ -3,16 +3,13 @@ title: "Node.js 애플리케이션을 디버깅하는 방법"
 description: ""
 coverImage: "/assets/img/2024-05-01-HowtoDebugNodejsApplicationsUsingthedebuggerStatementEasiestWay_0.png"
 date: 2024-05-01 17:44
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-01-HowtoDebugNodejsApplicationsUsingthedebuggerStatementEasiestWay_0.png
 tag: Tech
 originalTitle: "How to Debug Node.js Applications Using the debugger; Statement — Easiest Way"
 link: "https://medium.com/gitconnected/how-to-debug-node-js-applications-using-the-debugger-statement-easiest-way-8902124a162e"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-05-01-HowtoDebugNodejsApplicationsUsingthedebuggerStatementEasiestWay_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 이 튜토리얼의 비디오 버전을 보고 싶나요? 아래 비디오를 확인해보세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 일반적으로 우리가 Node.js 애플리케이션을 디버깅하는 방법
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 하지만 콘솔에 출력된 데이터가 중첩 객체를 포함하거나 많은 데이터인 경우 console.log를 사용하는 것은 실용적이지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 좋은 방법이 있어요.
 
@@ -42,7 +61,18 @@ isUpdated: true
 
 아래 코드에서 보듯이 Express.js API 라우트를 가지고 사용자를 등록하는 경우를 가정해봅시다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // controllers/auth.js
@@ -54,26 +84,24 @@ const register = async (req, res) => {
       email,
     });
     if (existingUser) {
-      return res.status(400).send('이미 등록된 사용자가 해당 이메일로 존재합니다');
+      return res.status(400).send("이미 등록된 사용자가 해당 이메일로 존재합니다");
     }
     // 추가 코드
     return res.status(201).send();
   } catch (error) {
     console.log(error);
-    return res
-      .status(500)
-      .send('새 사용자 등록 중 오류가 발생했습니다. 나중에 다시 시도해주세요.');
+    return res.status(500).send("새 사용자 등록 중 오류가 발생했습니다. 나중에 다시 시도해주세요.");
   }
 };
 
 module.exports = { register };
 
 // routes/auth.js
-const { register } = require('../controllers/auth');
+const { register } = require("../controllers/auth");
 
 const Router = express.Router();
 
-Router.post('/api/register', register);
+Router.post("/api/register", register);
 ```
 
 그리고 사용자 등록시 문제가 발생하여 register 함수 코드를 디버그하려고 합니다.
@@ -89,20 +117,29 @@ const register = async (req, res) => {
       email,
     });
     if (existingUser) {
-      return res.status(400).send('이미 등록된 사용자가 해당 이메일로 존재합니다');
+      return res.status(400).send("이미 등록된 사용자가 해당 이메일로 존재합니다");
     }
     // 추가 코드
     return res.status(201).send();
   } catch (error) {
     console.log(error);
-    return res
-      .status(500)
-      .send('새 사용자 등록 중 오류가 발생했습니다. 나중에 다시 시도해주세요.');
+    return res.status(500).send("새 사용자 등록 중 오류가 발생했습니다. 나중에 다시 시도해주세요.");
   }
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 디버깅을 위한 애플리케이션 실행 방법
 
@@ -114,7 +151,18 @@ node index.js
 
 하지만 대신에, 다음 명령을 실행할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 노드를 검사하려면 index.js를 입력하세요.
@@ -126,8 +174,18 @@ node index.js
 
 <img src="/assets/img/2024-05-01-HowtoDebugNodejsApplicationsUsingthedebuggerStatementEasiestWay_1.png" />
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 출력에서 디버거가 연결된 것을 확인할 수 있어요, 이제 코드 디버깅을 시작할 수 있어요.
 
@@ -137,7 +195,18 @@ node index.js
 
 ![이미지](/assets/img/2024-05-01-HowtoDebugNodejsApplicationsUsingthedebuggerStatementEasiestWay_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 `node inspect index.js` 명령을 실행하여 inspecting을 시작했으니, 원격 대상 섹션 아래에 새로운 대상 항목이 표시된 것을 볼 수 있어요.
 
@@ -147,7 +216,18 @@ node index.js
 
 위 이미지의 오른쪽 패널에서 볼 수 있듯이, 디버거 일시 중지 메시지가 표시되고 디버깅 제어가 코드의 첫 줄에 있는 것을 확인할 수 있어요 (하이라이트된 노란색 줄로 확인 가능합니다).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 코드의 첫 번째 줄부터 디버깅을 시작하려는 것은 원하지 않습니다. 대신, 등록 코드만 디버깅하려고 합니다. 아래 디버거 일시 중지 메시지 위에 표시된 파란 삼각형 아이콘을 클릭해주세요:
 
@@ -157,7 +237,18 @@ node index.js
 
 ![API call](/assets/img/2024-05-01-HowtoDebugNodejsApplicationsUsingthedebuggerStatementEasiestWay_5.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에서 볼 수 있듯이 새 계정 만들기 버튼을 클릭하면 자동으로 debugger; 문이 추가된 코드로 리디렉션됩니다.
 
@@ -167,7 +258,18 @@ node index.js
 
 때로는 디버깅 중에 마우스를 가리키면 실제 값이 표시되는 변수가 너무 길어서 많은 속성을 가진 객체일 수 있습니다. 그래서 간단하게 마우스 오버로는 쉽게 볼 수 없을 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼, 디버거가 계속 활성화된 채로 콘솔 탭을 열고 우리가 보고 싶은 변수의 이름을 입력할 수 있어요. 이 과정은 아래 GIF에서 확인할 수 있어요:
 
@@ -177,7 +279,18 @@ node index.js
 
 # 디버깅을 위한 스크립트 작성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 터미널에서 매번 node inspect index.js 명령어를 수동으로 입력하기 싫다면, package.json 파일 안에 아래와 같이 새로운 디버그 스크립트를 생성할 수 있어요:
 
@@ -193,7 +306,18 @@ node index.js
 
 # 간단한 요약
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Node.js 애플리케이션을 디버깅하려면 다음 단계를 따라야합니다:
 
@@ -209,7 +333,18 @@ Node.js 애플리케이션을 디버깅하려면 다음 단계를 따라야합�
 
 이 튜토리얼은 여기까지입니다. 새로운 것을 배우셨기를 바랍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 튜토리얼의 비디오 버전을 시청하고 싶으신가요? 이 비디오를 확인해보세요.
 

@@ -3,17 +3,13 @@ title: "NET 애플리케이션 유연성 향상 구조화된 코드 작성을 �
 description: ""
 coverImage: "/assets/img/2024-07-13-BoostingFlexibilityinNETApplicationsAGuidetoStructuredCode_0.png"
 date: 2024-07-13 21:27
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-BoostingFlexibilityinNETApplicationsAGuidetoStructuredCode_0.png
 tag: Tech
 originalTitle: "Boosting Flexibility in .NET Applications: A Guide to Structured Code"
 link: "https://medium.com/gitconnected/boosting-flexibility-in-net-applications-a-guide-to-structured-code-f65a13f4ef36"
 isUpdated: true
 ---
-
-
-
-
 
 ![Boosting Flexibility in .NET Applications](/assets/img/2024-07-13-BoostingFlexibilityinNETApplicationsAGuidetoStructuredCode_0.png)
 
@@ -23,9 +19,18 @@ isUpdated: true
 
 먼저, 두 구성 요소가 어떻게 구조화되어 있고 서로 어떻게 통신하는지 살펴보겠습니다. 저는 .NET Core를 사용하여 C#으로 응용 프로그램을 작성하고 있습니다. 주기적으로 스크레이핑하는 스크레이퍼 구성 요소를 갖고 있습니다. 이를 백그라운드 서비스로 디자인했습니다. 이 구성 요소의 구체적인 내용은 이 기사에 중요하지 않습니다. 그냥 이 서비스가 스크랩에서 생성된 페이로드를 일종의 원시 데이터로 Azure EventGrid에 발행한다는 것만 알아두세요. 핵심 서비스는 이를 구문 분석하고 Azure SQL 데이터베이스에 저장하는 .NET Core Web API 서비스입니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Boosting Flexibility in .NET Applications](/assets/img/2024-07-13-BoostingFlexibilityinNETApplicationsAGuidetoStructuredCode_1.png)
 
@@ -36,10 +41,10 @@ isUpdated: true
 ```js
 public class CompanyService {
   ...
-  
+
   public async Task CreateOrUpdateCompany(EventGridEvent eventGridEvent, CancellationToken cancellationToken){
     var receivedEvent = eventGridEvent.Data.ToObjectFromJson<CompanyScrapedEvent>();
-    
+
     // 회사가 이미 있는지 확인 등.
 
     var company = new CompanyData {
@@ -48,12 +53,23 @@ public class CompanyService {
     }
 
     await _dbContext.Companies.AddAsync(company, cancellationToken);
-    await _dbContext.SaveChangesAsync(cancellationToken); 
+    await _dbContext.SaveChangesAsync(cancellationToken);
   }
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 방법을 처음 보면 꽤 간단해 보일 수 있어요. 하지만 실제로 무슨 일이 일어나는 걸까요? 우리는 구조가 변경될 수 있는 외부 이벤트를 통합하고, 이를 도메인별 모델에 꽤 밀접하게 결합하고 있어요. 이벤트의 변경은 쉽게 내 코드에 오류를 일으킬 수 있어요. 외부 이벤트와 도메인별 요구 사항 간의 결합이 너무 밀접하다고 생각해요.
 
@@ -63,7 +79,18 @@ public class CompanyService {
 
 # 수직 슬라이스 아키텍처 적용
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나의 최근 기사에서는 수직 슬라이스 아키텍처 접근 방식을 자세히 설명했습니다. 물론, 여기서도 계속 설명하고 싶습니다. 쿼리와 명령을 구분한다는 것을 기억해 주세요. 또한 사용 사례의 구현이 별도의 슬라이스로 작동하는 방법을 보여줬습니다. 각 사용 사례에 대해 핸들러, 명령 또는 쿼리, 그리고 필요한 경우 응답 정의 클래스를 포함하는 별도의 폴더가 있습니다.
 
@@ -76,7 +103,18 @@ await context.Response.WriteAsJsonAsync(companies);
 
 엔드포인트 구현은 해당 쿼리에 대한 지식만 가지고 있으며 MediatR을 사용하여 요청을 전송하며, MediatR은 다시 해당 쿼리를 해결하고 요청을 처리하기 위해 올바른 핸들러 구현을 호출할 수 있습니다. 이것은 코드에서 느슨한 결합과 높은 응집력을 위해 작성하는 뛰어난 예입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-07-13-BoostingFlexibilityinNETApplicationsAGuidetoStructuredCode_2.png)
 
@@ -86,7 +124,18 @@ Vertical Slice Architecture에 아직 익숙하지 않다면 다음 기사들을
 
 Rethinking Architectural Boundaries: From Layered to Vertical Slice Architecture
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아키텍처 경계 다시 생각하기: .NET Core에서 수직 슬라이싱을 통한 디커플링
 
@@ -103,7 +152,18 @@ public static RouteGroupBuilder WebhooksEndpoint(this RouteGroupBuilder group)
 
 핸들러는 메서드 의존성 주입을 사용한 정적 메서드가 될 수 있습니다. 이 핸들러의 유일한 책임은 POST 웹훅을 받아 페이로드를 추출하고 올바른 명령을 호출하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 async static Task HandleEventGridWebhook(
@@ -114,7 +174,7 @@ async static Task HandleEventGridWebhook(
     try
     {
         // 먼저 시스템 이벤트인지 확인하여 구독을 등록할 수 있는지 유효성을 검사합니다...
-        ...  
+        ...
 
         foreach (var eventGridEvent in eventGridEvents)
         {
@@ -126,7 +186,7 @@ async static Task HandleEventGridWebhook(
         }
 
         await context.Response.WriteAsync("비즈니스 이벤트가 수신되어 처리되었습니다!");
-    
+
     }
     catch (Exception ex)
     {
@@ -143,8 +203,18 @@ async static Task HandleEventGridWebhook(
 
 인프라스트럭처 레이어: 이 레이어는 데이터베이스, 파일 시스템, 웹 서비스 등과 같은 외부 시스템 및 상호 작용과 관련된 모든 문제에 대해 책임을 지닙니다. 외부 이벤트 모델(즉, 외부 시스템에서 데이터를 역직렬화하는 데 사용하는 모델)은 일반적으로 여기에 속합니다. 외부 시스템과의 상호 작용 방식을 정의하는 이 모델들은 시스템이 외부 시스템과 어떻게 상호 작용하는지를 정의하기 때문입니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 응용 계층: 이 계층은 응용프로그램별 로직을 담당합니다. 즉, 시스템 내에서 사용 사례의 흐름을 조정합니다. 명령 및 쿼리는 일반적으로 여기에 위치하지만, 외부 시스템에서 수신한 데이터의 정확한 형태는 보통 여기에 속하지 않습니다. 일반적으로 여기에 사용 사례를 배치합니다. 이미 이 주제에 대해 기사에서 예제를 보여 드렸습니다.
 
@@ -154,7 +224,18 @@ async static Task HandleEventGridWebhook(
 
 제게 두 번째 문제는 이미 위의 예에서 언급한 대로 엔드포인트 핸들러에 이벤트에서 명령으로의 매핑이 포함된다는 점입니다. 이것은 큰 객체를 다룰 때 혼란스러울 수 있습니다. 필요한 경우 추가로 유효성 검사도 수행됩니다. 이것은 내 의견으로는 핸들러를 불필요하게 복잡하게 만들고 그 자리에 없어야 할 코드입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다시 말해서 매핑 코드를 외부에 아웃소싱하는 것이 더 나을 수 있습니다. 그렇게 하면 쉽게 확장 가능한 구조를 얻을 수 있습니다.
 
@@ -178,7 +259,18 @@ async static Task HandleEventGridWebhook(
 
 이렇게 조직화하면:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 우리는 시스템의 통합 포인트를 신속하게 식별하고 격리할 수 있습니다.
 - 새로운 외부 시스템과 통합하거나 기존 통합이 변경될 때, 새로운 모델이나 로직을 추가해야 할 위치가 명확합니다.
@@ -190,7 +282,18 @@ async static Task HandleEventGridWebhook(
 
 제가 예상하기에, 다른 시스템과 상호작용하는 응용프로그램에서는 일반적으로 여러 이러한 맵핑이 필요할 것입니다. 그래서 아래와 같이 인터페이스를 정의하는 것이 좋은 아이디어라고 생각합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 public interface IEventMapper<in TIn, out TOut>
@@ -218,7 +321,18 @@ public class CompanyScrapedEventToCreateOrUpdateCompanyCommandMapper : IEventMap
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 다음과 같이 전략 클래스를 구현합시다:
 
@@ -251,7 +365,18 @@ public class EventMapperStrategy
 
 이 솔루션으로 SOLID 원칙을 따릅니다. 특히 개방/폐쇄 원칙과 단일 책임 원칙을 준수합니다. 기존 코드를 변경하지 않고 새로운 매퍼를 추가하여 시스템을 쉽게 확장할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이벤트 유형에 따라 사용할 올바른 매퍼를 결정하는 것은 관심사 분리를 보장하는 EventMapperStrategy 클래스의 전적인 책임입니다.
 
@@ -263,14 +388,25 @@ builder.Services.AddSingleton<EventMapperStrategy>();
 
 엔드포인트 핸들러 내부의 구현을 살펴봅시다. 여전히 간결하고 명확하며 이해하기 쉽습니다. 여기에 최신화된 핸들러 구현이 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 static async Task HandleEventGridWebhook(
         [FromBody] EventGridEvent[] eventGridEvents,
         HttpContext context,
         EventMapperStrategy eventMapperStrategy,
-        IMediator mediator) 
+        IMediator mediator)
     {
         try
         {

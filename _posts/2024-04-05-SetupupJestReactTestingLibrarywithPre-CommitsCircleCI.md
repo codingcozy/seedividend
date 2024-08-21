@@ -3,17 +3,13 @@ title: "Jest 및 React Testing Library를 Pre-Commits 및 CircleCI와 함께 설
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Setup up Jest , React Testing Library with Pre-Commits , CircleCI"
 link: "https://medium.com/readytowork-org/setup-up-jest-react-testing-library-with-pre-commits-circleci-2890d8453da1"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/SetupupJest-ReactTestingLibrarywithPre-Commits-CircleCI_0.png)
 
@@ -23,7 +19,18 @@ TDD는 테스트를 작성하고 응용 프로그램이 예상대로 실행되�
 
 # 우리가 하는 일
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사는 두 부분으로 나뉩니다:
 
@@ -37,7 +44,18 @@ TDD는 테스트를 작성하고 응용 프로그램이 예상대로 실행되�
 - Pre-Commit 도구: Husky 🐶
 - CI (지속적 통합) 플랫폼: CircleCI 🚢
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 폴더 구조
 
@@ -62,7 +80,18 @@ TDD는 테스트를 작성하고 응용 프로그램이 예상대로 실행되�
 
 # 1. 첫 번째 부분: Pre-Commit을 이용한 TDD 설정 (Husky)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프리 커밋 훅은 커밋을 하기 전에 실행되는 특별한 스크립트입니다. 우리는 이러한 훅을 사용하여 특정 조건이 충족될 때에만 커밋이 발생하도록 합니다. 이는 더 나은 코드 품질을 유지하고 불필요한 커밋을 줄여줍니다.
 
@@ -75,7 +104,18 @@ Husky 🐶은 프리 커밋 훅을 처리하고 설정하는 데 사용되는 �
 
 이는 변경 사항을 푸시하기 전에 오류를 잡아 코드 품질을 보장하는 데 도움이 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## a. Husky 설치하기
 
@@ -87,7 +127,18 @@ npm install --save-dev husky
 
 ## b. Husky 초기화하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리의 루트 디렉터리에서 'husky init' 명령을 실행해주세요.
 
@@ -100,7 +151,18 @@ npx husky init
 - .husky/pre-commit와 같은 .husky 폴더 내의 pre-commit 스크립트를 생성합니다.
 - package.json 파일에서 prepare 스크립트를 업데이트하거나 추가합니다. package.json 파일의 scripts 섹션 안에 "prepare": "husky" 라는 항목을 찾을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## c. 패키지.json에서 테스트 스크립트 설정하기
 
@@ -122,7 +184,18 @@ npx husky init
 },
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## d. 커밋하기 전에 실행할 테스트 설정
 
@@ -134,7 +207,18 @@ npm run test:staged
 
 만약 테스트가 통과하면 ✅, 커밋이 진행됩니다. 그렇지 않으면, 테스트가 실패하면 ❌, 커밋이 중지되고 실패한 이유를 설명하는 오류 메시지가 출력됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## d. 우리가 pre-commit에서 "test:staged"를 사용한 이유는 무엇인가요? 🤔
 
@@ -146,7 +230,18 @@ npm run test:staged
 
 ## e. 데모
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 의도적으로 코드를 깨뜨려서 몇 가지 테스트가 실패하도록 해 봅시다 ❌.
 
@@ -156,7 +251,18 @@ npm run test:staged
 
 ![Test Image 2](/assets/img/SetupupJest-ReactTestingLibrarywithPre-Commits-CircleCI_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 실패는 이제 그만! 이제 테스트를 통과해보세요 ✅. 여기서 코드를 수정하여 테스트가 통과하도록 변경했어요 ✅.
 
@@ -166,7 +272,18 @@ npm run test:staged
 
 ![이미지](/assets/img/SetupupJest-ReactTestingLibrarywithPre-Commits-CircleCI_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 2. 두 번째 부분: CI/CD 플랫폼(CircleCI)에서 TDD 설정하기
 
@@ -176,7 +293,18 @@ Pre-Commit으로 테스트를 실행할 때, 마지막 커밋 이후에 변경�
 
 CI/CD 환경에서 🚢, 언제나 모든 테스트를 실행하여 애플리케이션이 오류가 발생하기 어려운 상태를 유지하는 것이 최선의 실천 방법입니다. ✅
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## a. CI 모드에서 모든 테스트를 실행하는 스크립트 작성하기
 
@@ -197,7 +325,18 @@ CI/CD 환경에서 🚢, 언제나 모든 테스트를 실행하여 애플리케
 },
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## b. 로컬에서 CircleCI 설정하기
 
@@ -207,7 +346,18 @@ CI/CD 환경에서 🚢, 언제나 모든 테스트를 실행하여 애플리케
 
 아래 내용을 .circleci/config.yml 파일에 넣어주세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```yaml
 # 소스 코드로부터 설정 파일을 자동으로 생성할 수 없었습니다.
@@ -279,7 +429,18 @@ config.yml 파일의 25번째 줄인 jobs:`test:`steps:에는 다음 단계들�
 
 나머지 내용은 무시해도 상관없어요 🙇‍♂️.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## c. Github으로 변경 사항 푸시하기
 
@@ -289,7 +450,18 @@ config.yml 파일의 25번째 줄인 jobs:`test:`steps:에는 다음 단계들�
 
 CircleCI 웹사이트로 이동하여 계정을 만드세요. 이미 계정이 있다면 로그인하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## e. 새 프로젝트 만들기
 
@@ -299,7 +471,18 @@ CircleCI 대시보드에서 Projects로 이동하여 "프로젝트 만들기"를
 
 이제 원격 저장소 서비스를 선택하세요. 제 프로젝트 저장소는 Github에 있으므로 Github를 선택했습니다. Github, Gitlab 및 Bitbucket 중 하나를 선택할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![SetupupJest-ReactTestingLibrarywithPre-Commits-CircleCI_6.png](/assets/img/SetupupJest-ReactTestingLibrarywithPre-Commits-CircleCI_6.png)
 
@@ -309,7 +492,18 @@ CircleCI 대시보드에서 Projects로 이동하여 "프로젝트 만들기"를
 
 해결 방법 ✅: 이를 해결하려면, GitHub 앱 저장소 권한 업데이트 링크를 클릭하여 CircleCI 앱으로 리디렉션됩니다. Github의 Repository Access 섹션으로 이동하십시오. "Only select repositories" 선택한 다음, CircleCI가 액세스 권한을 부여해야 하는 리포지토리를 선택하세요. 제 프로젝트의 경우 article-tdd-jest입니다(이미지 2 🌁).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/SetupupJest-ReactTestingLibrarywithPre-Commits-CircleCI_7.png)
 
@@ -319,7 +513,18 @@ CircleCI 대시보드에서 Projects로 이동하여 "프로젝트 만들기"를
 
 ![이미지](/assets/img/SetupupJest-ReactTestingLibrarywithPre-Commits-CircleCI_9.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## f. CircleCI를 실제로 보기
 
@@ -329,7 +534,18 @@ Counter.test.tsx를 업데이트하여 테스트를 통해 통과되도록 해 �
 
 ![이미지](/assets/img/SetupupJest-ReactTestingLibrarywithPre-Commits-CircleCI_10.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼, 우리 Github의 main 브랜치에 커밋하고 푸시해주세요.
 
@@ -341,7 +557,18 @@ Markdown 형식으로 테이블 태그를 변경합니다.
 
 ![이미지2](/assets/img/SetupupJest-ReactTestingLibrarywithPre-Commits-CircleCI_12.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CI 파이프라인이 CircleCI에서 작동 중임을 확인할 수 있어요. 자세히 보려면 "test" 작업을 클릭하세요.
 
@@ -351,7 +578,18 @@ CI 파이프라인이 CircleCI에서 작동 중임을 확인할 수 있어요. �
 
 자세한 테스트 내용을 보려면 "Run Tests"를 클릭하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/SetupupJest-ReactTestingLibrarywithPre-Commits-CircleCI_14.png)
 
@@ -361,6 +599,17 @@ CI 파이프라인이 CircleCI에서 작동 중임을 확인할 수 있어요. �
 
 여기까지 읽어주셔서 감사합니다 🙇‍♂️. 제 글에 귀중한 시간과 에너지를 투자해주셔서 영원히 감사할 거예요. 궁금한 점이 있으시면 👏 반응과 댓글을 남겨주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 행복한 코딩하세요!

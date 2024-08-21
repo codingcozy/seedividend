@@ -3,16 +3,13 @@ title: "Angular를 사용하여 단일 SPA로 마이크로 프론트엔드를 �
 description: ""
 coverImage: "/assets/img/2024-05-20-HowtocreateanangularmicrofrontendsusingsingleSPA_0.png"
 date: 2024-05-20 22:23
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-20-HowtocreateanangularmicrofrontendsusingsingleSPA_0.png
 tag: Tech
 originalTitle: "How to create an angular micro frontends using single SPA?"
 link: "https://medium.com/@ShubhamRout_00/microfrontend-application-using-angular-17-standalone-0e24f50ae062"
 isUpdated: true
 ---
-
-
-
 
 ANGULAR 17을 사용한 마이크로프론트엔드 애플리케이션 (독립형).
 
@@ -22,7 +19,18 @@ Single SPA는 마이크로프론트엔드(MF) 애플리케이션을 만드는 �
 
 시작하기 전에 single SPA CLI를 글로벌로 설치해야 합니다. —
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm i -g create-single-spa
@@ -31,12 +39,23 @@ npm i -g create-single-spa
 설치가 완료되면 첫 번째 마이크로 프론트엔드를 만들 준비가 된 것입니다. JavaScript 라이브러리 중에 사용할 수 있는 MFs 를 만들 수 있습니다. 그러나 여기서는 Angular MFs 를 만들 것입니다. 터미널에서 다음 명령어를 입력하세요.
 
 ```js
-create-single-spa
+create - single - spa;
 ```
 
 싱글 스파 프로젝트를 생성하기 위해 아래 데이터를 요청합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새 프로젝트의 디렉토리 (.): testProject
 
@@ -46,7 +65,18 @@ create-single-spa
 
 이 프로젝트에서 TypeScript를 사용합니까? (y/N): 당연히 yes
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `프로젝트를 시작할 때 single-spa 레이아웃 엔진을 사용하시겠습니까? (Y/n) -` single-spa 레이아웃 엔진을 사용하려면 Y를 선택하세요. 그렇지 않다면 N을 입력하세요.
 
@@ -56,7 +86,18 @@ create-single-spa
 
 ![이미지](/assets/img/2024-05-20-HowtocreateanangularmicrofrontendsusingsingleSPA_0.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 축하합니다! 앱 루트가 잘 작동하고 있어요. 다음 단계는 Angular MFs를 만드는 것입니다.
 
@@ -65,10 +106,21 @@ create-single-spa
 마이크로프론트엔드를 생성하려면 새 터미널을 열고 아래 명령어를 실행하세요.
 
 ```js
-create-single-spa
+create - single - spa;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 제공된 단계를 따라주세요.
 
@@ -78,7 +130,7 @@ create-single-spa
 ? 어떤 프레임워크를 사용하시겠습니까? angular
 ? 프로젝트 이름 (문자, 숫자, 대시 또는 밑줄 사용 가능) login
 ? 어떤 스타일시트 포맷을 사용하시겠습니까? Sass (SCSS)     [https://sass-lang.com/documentation/syntax#scss]
-? 서버 측 렌더링 (SSR) 및 정적 사이트 생성(SSG/프리랜더링)을 활성화하시겠습니까? 
+? 서버 측 렌더링 (SSR) 및 정적 사이트 생성(SSG/프리랜더링)을 활성화하시겠습니까?
 아니요
 ```
 
@@ -86,7 +138,18 @@ create-single-spa
 
 앵귤러의 분석 활성화 여부를 물을 것입니다. (귀하는 요구에 따라 선택하십시오)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 ? 이 프로젝트에 대한 익명의 사용 데이터를 구글의 개인정보 보호 정책인 Google의 개인정보 처리방침에 따라 구글 Angular 팀과 공유하시겠습니까? 자세한 내용 및 이 설정을 변경하는 방법은 https://angular.io/analytics를 참조하십시오. 예
@@ -101,8 +164,18 @@ single-spa-angular@9.1.2 패키지가 설치되고 실행됩니다.
 
 그런 다음 라우팅 및 포트를 요청합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 ? Does your application use Angular routing? Yes
@@ -115,8 +188,18 @@ single-spa-angular@9.1.2 패키지가 설치되고 실행됩니다.
 
 ![How to create an angular micro frontend using single SPA](/assets/img/2024-05-20-HowtocreateanangularmicrofrontendsusingsingleSPA_1.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Step-2 → Angular 앱을 실행하려면 index.ejs 파일에서 아래 이미지에 표시된 대로 zone 스크립트를 활성화해야 합니다.
 
@@ -126,7 +209,18 @@ Step -3 → microfrontend-layout.html 파일을 열고 다음 사항을 변경�
 
 route 태그 내부에 새로 생성한 MF의 경로를 라우트 경로로 추가하세요 —
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-05-20-HowtocreateanangularmicrofrontendsusingsingleSPA_3.png)
 
@@ -136,7 +230,18 @@ Step -4 → login 폴더 내 angular.json 파일에서 다음 변경 사항을 �
 
 Step -5 → login/src/main.single-spa.ts로 이동하여 라이프사이클이 AppModule와 구성되어 있는 것을 볼 수 있지만, Angular 17에서는 더 이상 AppModule을 사용하지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-05-20-HowtocreateanangularmicrofrontendsusingsingleSPA_5.png)
 
@@ -147,7 +252,18 @@ Step -5 → login/src/main.single-spa.ts로 이동하여 라이프사이클이 A
 
 ![image](/assets/img/2024-05-20-HowtocreateanangularmicrofrontendsusingsingleSPA_6.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최종 단계 -
 
@@ -159,7 +275,18 @@ npm run serve:single-spa:login
 
 만약 오류가 발생한다면 npm i를 입력한 뒤 위 명령어를 실행해 주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금 브라우저를 열고 microfrontend-layout.html 파일에서 언급된 URL 경로를 변경해주세요. (저희 경우에는 루트 파일의 경우 http://localhost:9000 및 로그인 페이지의 경우 http://localhost:9000/login을 엽니다).
 

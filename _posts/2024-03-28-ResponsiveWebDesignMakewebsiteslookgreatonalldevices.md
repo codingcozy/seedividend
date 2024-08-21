@@ -3,17 +3,13 @@ title: "반응형 웹 디자인을 통해서 웹사이트 만드는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Responsive Web Design  Make websites look great on all devices"
 link: "https://medium.com/@hanekcud/responsive-web-design-make-websites-look-great-on-all-devices-ea32ea6d67b9"
 isUpdated: true
 ---
-
-
-
-
 
 ![Responsive Web Design](/assets/img/ResponsiveWebDesignMakewebsiteslookgreatonalldevices_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 그럼, 이것은 어떻게 작동할까요? 기본 아이디어는 다음과 같습니다. 웹사이트는 텍스트, 이미지, 메뉴와 같은 요소들을 표시하는 방법을 브라우저에 알려주는 코드를 사용하여 구축됩니다. 반응형 디자인은 이 코드에서 특별한 도구를 활용하여 화면 크기에 따라 레이아웃을 조정합니다. 주변 환경에 맞게 축소 혹은 늘어날 수 있는 웹사이트를 상상해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 반응형 디자인의 주요 기능 몇 가지를 소개해 드리겠습니다:
 
@@ -37,7 +44,18 @@ isUpdated: true
 - 더 좋은 검색 엔진 최적화(SEO): Google과 같은 검색 엔진은 모바일 친화적인 웹사이트를 선호합니다. 반응형 디자인은 웹사이트의 순위를 높일 수 있습니다.
 - 비용 절감: 서로 다른 기기용 별도 웹사이트를 만드는 대신, 반응형 디자인을 통해 모두에게 동작하는 하나의 웹사이트를 관리할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 반응형 웹사이트를 만드는 것은 코딩 지식이 필요하지만, 반응형 디자인 기능을 제공하는 웹사이트 빌더도 있어요.
 
@@ -51,18 +69,38 @@ isUpdated: true
 
 간단한 반응형 디자인을 가진 웹페이지를 HTML과 CSS를 사용하여 만들어봐요. 아래는 설명과 함께 코드예요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마크다운 (index.md):
-
 
 # 반응형 웹사이트 데모
 
 - HTML 구조 기본으로 헤더, 내비게이션, 메인 콘텐츠 섹션 및 푸터가 포함됩니다.
 - `meta name="viewport" content="width=device-width, initial-scale=1.0"` 태그는 반응형 디자인에 중요합니다. 이는 브라우저에게 디바이스에 따라 웹사이트 너비를 조정하도록 하고 초기 확대 수준을 100%로 설정합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS (style.css):
 
@@ -119,7 +157,18 @@ img {
 - @media screen and (max-width: 768px) 블록이 중요합니다. 이 미디어 쿼리는 최대 폭이 768px인 화면 (태블릿 및 스마트폰에 일반적인 크기)에 특정한 스타일을 적용합니다.
 - 미디어 쿼리 내에서는 글꼴 크기를 조정하고 작은 화면에서 가독성을 높이기 위해 네비게이션 레이아웃을 수직으로 변경합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테스트 중입니다:
 
@@ -129,7 +178,18 @@ index.html과 style.css 파일을 동일한 폴더에 저장하고 웹 브라우
 
 1. 유동 그리드:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .container {
@@ -155,7 +215,18 @@ index.html과 style.css 파일을 동일한 폴더에 저장하고 웹 브라우
 
 2. Flexbox:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .flex-container {
@@ -181,7 +252,18 @@ index.html과 style.css 파일을 동일한 폴더에 저장하고 웹 브라우
 
 3. 미디어 쿼리:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /* 기본 스타일 */
@@ -210,7 +292,17 @@ body {
 
 이것은 몇 가지 예시에 불과하며, 반응형 디자인은 훨씬 더 복잡해질 수 있습니다. 그러나 이러한 코드는 유동적인 그리드, 플렉스박스 및 미디어 쿼리의 핵심 개념을 보여줌으로써 반응형 레이아웃을 구현하는데 도움이 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결론적으로, 반응형 디자인은 여러분의 웹사이트가 거대한 데스크톱 화면부터 작은 스마트폰까지 어떤 기기에서도 원활하게 작동되도록 하는 마법과 같은 기술입니다. 똑똑한 코딩 기술을 사용하여 웹사이트는 레이아웃과 콘텐츠를 사용자의 화면 크기에 맞게 조정할 수 있습니다. 이는 누구나 웹을 탐색하는 방식에 관계없이 모두에게 원활한 경험을 제공합니다. 반응형 디자인은 더 이상 선택의 문제가 아닌, 오늘날의 모바일 최우선 세계에서 여러분의 웹사이트를 사용자 친화적이고 접근성있게 유지하기 위한 필수불가결한 요소입니다.
-

@@ -3,16 +3,13 @@ title: "파이썬에서 HTML을 PDF로 변환하는 방법"
 description: ""
 coverImage: "/assets/img/2024-05-01-ConvertHTMLtoPDFinPythonStep-by-StepGuide_0.png"
 date: 2024-05-01 23:45
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-01-ConvertHTMLtoPDFinPythonStep-by-StepGuide_0.png
 tag: Tech
 originalTitle: "Convert HTML to PDF in Python: Step-by-Step Guide"
 link: "https://medium.com/@vidvatek/convert-html-to-pdf-in-python-step-by-step-guide-fc4e6d3dbd39"
 isUpdated: true
 ---
-
-
-
 
 요즘 디지털 시대에는 HTML 콘텐츠를 PDF 형식으로 변환해야 하는 일이 자주 있습니다. 보고서 생성, 웹 콘텐츠 보관, 인쇄 가능 문서 작성 등 다양한 목적으로 HTML을 PDF 파일로 변환해야 하는데, 이는 제 프로그래밍 도구상에서 중요한 기술이 되었습니다.
 
@@ -22,7 +19,18 @@ pdfkit 및 wkhtmltopdf와 같은 Python 라이브러리를 활용함으로써, �
 
 저는 이러한 라이브러리의 설치 및 구성을 안내하여, 모든 것을 올바르게 설정할 수 있도록 도와 드리겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리 환경이 준비되면 실제 변환 과정으로 들어가게 될 거에요. HTML 파일 또는 HTML 콘텐츠를 로드하고 아름다운 PDF 문서로 변환하는 방법을 보여드릴 거에요.
 
@@ -32,7 +40,18 @@ pdfkit 및 wkhtmltopdf와 같은 Python 라이브러리를 활용함으로써, �
 
 이미지와 외부 자원을 원활하게 처리할 수 있는 지식을 제공해 드릴 거에요, 이를 통해 여러분의 PDF가 원본 HTML 콘텐츠를 정확하게 반영할 수 있도록 도와드릴 거에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 프로그래밍 작업과 마찬가지로, 문제 해결은 과정에서 불가피한 부분임을 알고 있습니다. 안심하세요, 변환 과정 중에 발생할 수 있는 글꼴 문제나 렌더링 차이와 같은 잠재적인 어려움에 대처하고, 극복할 수 있는 실용적인 팁과 해결책을 제시해 드리겠습니다.
 
@@ -42,7 +61,18 @@ pdfkit 및 wkhtmltopdf와 같은 Python 라이브러리를 활용함으로써, �
 
 이 새로운 능력은 문서 생성을 자동화하고 응용 프로그램을 향상시키며, 시각적으로 매력적이고 전문적인 PDF 문서를 제작하는 데 창의성을 발휘할 수 있는 힘을 줄 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러니 함께 HTML을 PDF로 변환하는 Python의 잠재력을 발휘해 보도록 하죠!
 
@@ -54,7 +84,18 @@ pdfkit을 설치하고 파이썬 환경에 추가하려면 다음 코드 스니�
 pip install pdfkit
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 명령 줄 인터페이스나 터미널에서이 명령을 실행하면 pdfkit 라이브러리의 설치 과정이 시작됩니다. pip는 Python의 패키지 관리자이며, Python 패키지 인덱스 (PyPI)에서 pdfkit을 자동으로 다운로드하고 설치합니다.
 
@@ -64,7 +105,18 @@ pdfkit이 성공적으로 설치되면 HTML에서 PDF로 변환하는 프로세�
 
 아래 스크린샷을 참조해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 wkhtmltopdf를 설치해보세요.
 
@@ -74,7 +126,18 @@ Ubuntu:
 
 터미널을 열고 다음 명령을 실행하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 sudo apt-get install wkhtmltopdf
@@ -86,7 +149,18 @@ macOS:
 
 Homebrew가 설치되어 있는 경우, 터미널을 열고 다음 명령어를 실행하십시오.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 brew install homebrew/cask/wkhtmltopdf
@@ -104,7 +178,18 @@ Windows:
 - 명령 프롬프트에서 어디서든 명령을 실행할 수 있도록 하기 위해 환경 변수 설정에서 시스템의 PATH 변수에 bin 폴더를 추가해야 합니다.
 - 예를 들어, PATH 변수에 C:\Program Files\wkhtmltopdf\bin을 추가해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 설치가 완료되고 필요한 구성이 마무리되면 Python 프로젝트에서 HTML을 PDF로 변환하는 데 wkhtmltopdf를 사용할 준비가 됩니다.
 
@@ -114,7 +199,18 @@ Windows:
 
 pdfkit을 사용하여 URL로부터 PDF 파일을 생성하는 방법을 보여주는 예제입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import pdfkit
@@ -128,7 +224,18 @@ pdfkit.from_url('https://www.google.com/', 'test.pdf')
 
 URL과 출력 파일명을 필요에 맞게 사용자 정의할 수 있습니다. 이 코드를 실행하면 변환 프로세스가 시작되고 제공된 URL에서 PDF 파일이 생성됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시:
 
@@ -137,12 +244,23 @@ URL과 출력 파일명을 필요에 맞게 사용자 정의할 수 있습니다
 생성된 PDF 파일은 `example.pdf`라는 파일 이름으로 저장됩니다.
 
 ```js
-import pdfkit 
+import pdfkit
 
 pdfkit.from_file('test.html', 'example.pdf')
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 HTML 파일의 실제 경로 또는 파일 이름을 입력하고 싶은 HTML 파일의 경로나 파일 이름으로 대체해주세요.
 
@@ -152,10 +270,21 @@ HTML 파일의 실제 경로 또는 파일 이름을 입력하고 싶은 HTML �
 
 이 예시에서는 헤딩과 단락이 포함된 HTML 문자열 html_str을 정의합니다. from_string()을 사용하여 이 HTML 문자열을 `test.pdf`라는 PDF 파일로 변환합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-import pdfkit 
+import pdfkit
 
 pdfkit.from_string('안녕하세요!', 'test.pdf')
 
@@ -172,7 +301,18 @@ pdfkit.from_string(htmlstr, 'test.pdf')
 
 예시 1: 여러 URL을 PDF로 변환하기:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import pdfkit
@@ -186,7 +326,18 @@ pdfkit.from_url(['google.com', 'yandex.ru', 'engadget.com'], 'test.pdf')
 
 예제 2: 여러 HTML 파일을 PDF로 변환하기:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import pdfkit
@@ -200,7 +351,18 @@ pdfkit.from_file(['file1.html', 'file2.html'], 'test.pdf')
 
 추가로 도움이 될 만한 정보:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 추천 도서: 파이썬 입문: 파이썬 시작하기
 - 추천 도서: 파이썬: 세계에서 가장 인기 있는 언어로의 여정

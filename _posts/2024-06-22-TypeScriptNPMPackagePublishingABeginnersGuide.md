@@ -3,16 +3,13 @@ title: "TypeScript NPM 패키지 배포 초보자 가이드"
 description: ""
 coverImage: "/assets/img/2024-06-22-TypeScriptNPMPackagePublishingABeginnersGuide_0.png"
 date: 2024-06-22 14:43
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-TypeScriptNPMPackagePublishingABeginnersGuide_0.png
 tag: Tech
 originalTitle: "TypeScript NPM Package Publishing: A Beginner’s Guide"
 link: "https://medium.com/@pauloe-me/typescript-npm-package-publishing-a-beginners-guide-40b95908e69c"
 isUpdated: true
 ---
-
-
-
 
 ![image](/assets/img/2024-06-22-TypeScriptNPMPackagePublishingABeginnersGuide_0.png)
 
@@ -22,7 +19,18 @@ NPM (Node Package Manager)은 JavaScript 프로그래밍 언어의 기본 패키
 
 ## TypeScript은 무엇이며 왜 사용해야 하나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 TypeScript은 Microsoft에서 개발한 프로그래밍 언어입니다. 이는 JavaScript의 상위 집합으로, 모든 유효한 JavaScript 코드가 TypeScript 코드로도 유효하다는 것을 의미합니다. 이는 다음을 제공하여 일반 JavaScript에 비해 이점을 제공합니다:
 
@@ -37,7 +45,18 @@ TypeScript은 Microsoft에서 개발한 프로그래밍 언어입니다. 이는 
 
 이 기사에서는 TypeScript로 자신의 NPM 패키지를 생성하고 NPM 레지스트리에 게시하는 방법을 배울 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Typescript 프로젝트 설정하기
 
@@ -49,19 +68,39 @@ TypeScript은 Microsoft에서 개발한 프로그래밍 언어입니다. 이는 
 
 - 첫 번째 필드는 패키지 이름이며, 이는 패키지를 위한 고유한 이름이어야 합니다. NPM 레지스트리를 확인하여 이름이 사용 가능한지 확인할 수 있습니다. 이름을 사용할 수 있다면 Enter를 눌러 다음으로 넘어갈 수 있습니다. 이 경우 `npm-demo-ts`이(가) 사용 가능했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```html
-![image](/assets/img/2024-06-22-TypeScriptNPMPackagePublishingABeginnersGuide_2.png)
-
-- The next field is the version, and the default value is 1.0.0. Package versions generally use Semantic Versioning.
-
-## What is Semantic Versioning?
-
-It provides a standard way to convey the compatibility and changes in a package across different releases. It consists of three numerical components: Major version, Minor version, and Patch version, represented as MAJOR.MINOR.PATCH, for example, 1.0.7
+![image](/assets/img/2024-06-22-TypeScriptNPMPackagePublishingABeginnersGuide_2.png) - The next field is the version,
+and the default value is 1.0.0. Package versions generally use Semantic Versioning. ## What is Semantic Versioning? It
+provides a standard way to convey the compatibility and changes in a package across different releases. It consists of
+three numerical components: Major version, Minor version, and Patch version, represented as MAJOR.MINOR.PATCH, for
+example, 1.0.7
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 주 버전 증가: 호환되지 않는 변경 사항을 도입합니다.
 - 부 버전 증가: 역호환성을 유지하면서 새로운 기능을 추가합니다.
@@ -80,7 +119,18 @@ It provides a standard way to convey the compatibility and changes in a package 
 
 ![image](/assets/img/2024-06-22-TypeScriptNPMPackagePublishingABeginnersGuide_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 패키지 종속성을 설치하려면 다음 명령어를 실행하세요: npm install --save-dev typescript ts-node (npm 사용자) 또는 yarn add -D typescript ts-node (yarn 사용자)
 - tsconfig.json을 설정하려면 다음 명령어를 실행하세요: npx tsc --init, 프로젝트의 기본 디렉터리에 tsconfig 파일이 생성됩니다. outDir 필드를 "dist"로 업데이트하세요.
@@ -109,7 +159,18 @@ console.log(add(3, 5)); //결과: 8
 /dist
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - README.md 파일을 만들어 프로젝트에 대한 설명과 사용 방법을 포함하는 것도 좋은 아이디어입니다.
 
@@ -119,18 +180,28 @@ console.log(add(3, 5)); //결과: 8
 
 tsup, babel, webpack, rollup 등 다양한 전용 빌드 도구가 있어 이 프로세스를 돕는데 도움이 됩니다. 이 글에서는 tsup에 초점을 맞출 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Tsup 설정하기
 
 - 다음 명령어를 실행하여 프로젝트에 tsup을 추가하세요.
-  
+
   npm install tsup -D
-  
+
   또는
-  
+
   yarn add tsup --dev
-  
 
 - 아래 코드를 붙여넣어서 `yourtsup.config.ts` 파일을 생성하세요.
 
@@ -149,7 +220,18 @@ export default defineConfig({
 
 - package.json 에서 스크립트를 업데이트하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
  "scripts": {
@@ -174,7 +256,18 @@ export default defineConfig({
 
 - 이제 패키지를 출판할 준비가 모두 끝났지만, 그 전에 계획대로 모든 것이 작동하는지 확인하기 위해 패키지를 테스트해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 당신의 NPM 패키지를 테스트해 봅니다
 
@@ -183,10 +276,21 @@ export default defineConfig({
 ## Jest 설정하기
 
 - 다음 명령어를 실행하여 프로젝트에 jest를 추가합니다
-npm install -D jest ts-jest @types/jest or yarn add -D jest ts-jest @types/jest
+  npm install -D jest ts-jest @types/jest or yarn add -D jest ts-jest @types/jest
 - 프로젝트에 jest.config.js 파일을 추가하고 다음 코드를 복사하세요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 module.exports = {
@@ -198,9 +302,9 @@ module.exports = {
 - 프로젝트 내에 tests 폴더를 생성하고 add.test.ts 파일을 생성하여 다음 테스트를 추가해주세요.
 
 ```js
-import { add } from '../src';
+import { add } from "../src";
 
-test('두 숫자를 정확히 더합니다', () => {
+test("두 숫자를 정확히 더합니다", () => {
   const result = add(2, 3);
   expect(result).toBe(5);
 });
@@ -208,7 +312,18 @@ test('두 숫자를 정확히 더합니다', () => {
 
 - 다음 스크립트를 포함하여 package.json 파일을 업데이트해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```json
 "scripts": {
@@ -223,7 +338,18 @@ test('두 숫자를 정확히 더합니다', () => {
 
 이제 당신은 npm 패키지를 성공적으로 작성하고 테스트했습니다. 이제 NPM 패키지를 게시하는 방법으로 넘어가 봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # NPM 패키지를 게시하는 방법
 
@@ -232,13 +358,23 @@ test('두 숫자를 정확히 더합니다', () => {
 ## 로컬로 NPM 패키지를 게시하는 방법
 
 - 패키지의 루트 디렉터리에서 다음 명령어를 실행하세요
-npm link
+  npm link
 - 다른 테스트 프로젝트를 만들고 npm 패키지를 로컬로 연결하세요
-이 경우 npm link npm-demo-ts처럼 npm link name-of-package명령어를 사용하세요
+  이 경우 npm link npm-demo-ts처럼 npm link name-of-package명령어를 사용하세요
 - 테스트 프로젝트에 main.ts 파일을 만들고 패키지를 가져와서 테스트하세요. 또한 TypeScript의 많은 혜택 중 하나인 프로젝트에 타입 정보를 입력하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-22-TypeScriptNPMPackagePublishingABeginnersGuide_5.png" />
 
@@ -248,11 +384,21 @@ npm link
 
 - 이미 없는 경우 NPM에서 계정을 만듭니다.
 - 터미널에서 NPM 계정에 로그인합니다.
-npm login
+  npm login
 - 사용자 이름, 암호, 이메일 및 OTP를 입력합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Screenshot 6](/assets/img/2024-06-22-TypeScriptNPMPackagePublishingABeginnersGuide_6.png)
 
@@ -262,7 +408,18 @@ npm login
 
 ![Screenshot 8](/assets/img/2024-06-22-TypeScriptNPMPackagePublishingABeginnersGuide_8.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

@@ -3,16 +3,13 @@ title: "동기식 vs 비동기식 Python과 Java 웹 개발의 진화 이야기"
 description: ""
 coverImage: "/assets/img/2024-08-04-TheTaleofTwoParadigmsFromSyncToAsyncEvolutioninPythonandJavaWebDevelopment_0.png"
 date: 2024-08-04 18:59
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-04-TheTaleofTwoParadigmsFromSyncToAsyncEvolutioninPythonandJavaWebDevelopment_0.png
 tag: Tech
 originalTitle: "The Tale of Two Paradigms  From Sync To Async Evolution in Python and Java Web Development"
 link: "https://medium.com/@juliastolin/the-tale-of-two-paradigms-the-sync-to-async-evolution-python-vs-java-web-development-01d8134ce304"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-08-04-TheTaleofTwoParadigmsFromSyncToAsyncEvolutioninPythonandJavaWebDevelopment_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 파이썬은 계속 변화하는 웹 개발 환경에서 간단함과 강력함의 상징이 되었습니다. 이러한 환경의 핵심에는 웹 애플리케이션 아키텍처를 결정하는 중요한 선택이 있습니다: 동기식 또는 비동기식 접근 방식을 사용할 것인가. 이 결정은 Java 생태계에서 Jetty와 Netty 간의 선택과 같이 다른 경로를 나타내며, 각각은 웹 요청을 처리하는 방식에서 다른 방향을 나타냅니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 동기식 Python: 전통적인 길
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 비동기식 접근 방법은 작업을 조율하는 다른 방법입니다. Sanic과 같은 프레임워크가 보여주는 비동기식 Python은 각 작업이 완료될 때까지 기다리지 않고 여러 작업을 동시에 실행할 수 있도록 합니다. 이는 점프하는 사람이 여러 공을 동시에 공중에 유지하는 것과 유사합니다. 비동기 서버가 일반적으로 차단될 것으로 예상되는 데이터베이스 액세스와 같은 작업을 만나면 해당 작업을 한쪽에 두고 다른 작업으로 넘어갑니다. 기다리는 동안 미사용 시간을 활용하여 다른 요청을 처리하는 것이 아닙니다. 이러한 비차단 동작은 특히 I/O에 바운드된 애플리케이션에서 자원을 효율적으로 활용할 수 있도록 해줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 동기식에서 비동기식으로의 전환이 단순히 기술적인 변화만이 아니라 패러다임의 전환이기 때문에 개발자들에게 코드의 흐름에 대해 다르게 생각하고 동시성의 힘을 받아들이며, 그에 따라 발생하는 복잡성을 관리해야 합니다. 그러나 이를 받아들일 용의가 있는 사람들에게는 상당한 보상이 있을 수 있습니다 - 더 빠른 응답 시간, 더 나은 확장성, 그리고 높은 부하를 우아하게 처리할 수 있는 능력 등이 있습니다.
 
@@ -42,7 +61,18 @@ isUpdated: true
 
 수신된 JSON을 클라이언트로 다시 에코하는 서비스를 상상해 보세요. 이 예는 단순화된 예시지만, 더 복잡한 시나리오를 위한 준비를 합니다. 실제 응용 프로그램에서 요청 처리는 CPU 집약적인 계산, 데이터베이스 상호 작용, 네트워크 IO 또는 외부 서비스 호출을 포함할 수 있습니다. 이러한 작업에 소요되는 시간은 크게 달라질 수 있으며, 여기서 동기식과 비동기식 아키텍처 중 어떤 것을 선택하는지가 중요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 동기 서버(Flask를 사용)와 비동기 서버 (Sanic을 사용)의 기본 구현을 스케치하는 것으로 시작해 봅시다.
 
@@ -70,7 +100,18 @@ if __name__ == '__main__':
     app.run()
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 네, 당신이 하는 방법으로 네 개의 코어를 사용하고 네 개의 CPU 코어에 작업 부하를 효율적으로 분산시킬 수 있습니다. 다음 명렁어로 서버를 시작하세요:
 
@@ -82,7 +123,18 @@ gunicorn -w 4 -b 0.0.0.0:8000 app:app
 
 반면에 Sanic은 요청을 비동기적으로 처리하도록 설계되었습니다. 이는 여러 요청을 동시에 처리하고 모든 요청이 서로 차단되지 않고 이벤트 루프에서 처리할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 from sanic import Sanic, text
@@ -113,7 +165,18 @@ sanic app:app --host=0.0.0.0 --port=8000 --workers=4
 
 이 구현에는 async 키워드가 포함되어 있음을 알 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일반적으로, async는 Python에서 함수를 정의하는 중단 및 재개가 가능한 키워드입니다. async로 정의된 함수는 "비동기 함수"로, 전체 프로그램을 멈추지 않고 시간이 오래 걸릴 수 있는 작업을 수행할 수 있습니다.
 
@@ -123,7 +186,18 @@ sanic app:app --host=0.0.0.0 --port=8000 --workers=4
 
 벤치마크를 측정하는 여러 가지 가능성이 있으며 결과는 하드웨어 사양 및 사용하려는 리소스에 따라 달라집니다. 두 웹 서버를 동일한 기기에 설정하여 규모와 성능의 초기 모습을 얻은 후, 명령줄 합성 생성 도구를 사용하여 서버에 부하를 보내고 처리하는 레이턴시와 처리량을 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기계 사양은 다음과 같습니다:
 
@@ -136,7 +210,18 @@ Flask 서버 및 Sanic을 순차적으로 트래픽을 보내서 벤치마킹할
 
 REST API 벤치마크를 위해 wrk, ab (Apache Bench), 또는 hey와 같은 도구를 사용할 수 있습니다. 이번 벤치마크에는 최신이자 쉬운 사용성을 갖춘 hey를 사용할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, 5분 동안 20개의 동시 연결을 사용하여 서버에 특정 JSON 요청을 보내는 로드가 실행될 때 어떻게 보이는지 살펴봅시다.
 
@@ -162,7 +247,18 @@ hey -z 5m -c 20 -m POST -T "application/json" -D request.json http://bench_serve
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 설정을 사용하여 Flask와 Sanic을 비교한 결과를 살펴봅시다:
 
@@ -178,30 +274,39 @@ http://bencmark_server:8000/bench/receive_data
 
 # 결과:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-|      Sanic (async)       |      Flask (sync)        |
-|--------------------------|--------------------------|
-| Summary:                 | Summary:                 |
-| Total:   300.0055 secs   | Total:   300.0064 secs   |
-| Slowest:  0.2099 secs    | Slowest:  1.0335 secs    |
-| Fastest:  0.0002 secs    | Fastest:  0.0007 secs    |
-| Average:  0.0060 secs    | Average:  0.0060 secs    |
-| Requests/sec: 33593.4268 | Requests/sec: 7191.2708  |
-|                          |                          |
-| Latency distribution:    | Latency distribution:    |
-| 10% in 0.0004 secs       | 10% in 0.0020 secs       |
-| 25% in 0.0004 secs       | 25% in 0.0022 secs       |
-| 50% in 0.0005 secs       | 50% in 0.0025 secs       |
-| 75% in 0.0007 secs       | 75% in 0.0028 secs       |
-| 90% in 0.0008 secs       | 90% in 0.0032 secs       |
-| 95% in 0.0009 secs       | 95% in 0.0036 secs       |
-| 99% in 0.0015 secs       | 99% in 0.0054 secs       |
-|                          |                          |
-| Status code distribution:| Status code distribution:|
-| [200] 1000000 responses  | [200] 1000000 responses  |
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
+| Sanic (async)             | Flask (sync)              |
+| ------------------------- | ------------------------- |
+| Summary:                  | Summary:                  |
+| Total: 300.0055 secs      | Total: 300.0064 secs      |
+| Slowest: 0.2099 secs      | Slowest: 1.0335 secs      |
+| Fastest: 0.0002 secs      | Fastest: 0.0007 secs      |
+| Average: 0.0060 secs      | Average: 0.0060 secs      |
+| Requests/sec: 33593.4268  | Requests/sec: 7191.2708   |
+|                           |                           |
+| Latency distribution:     | Latency distribution:     |
+| 10% in 0.0004 secs        | 10% in 0.0020 secs        |
+| 25% in 0.0004 secs        | 25% in 0.0022 secs        |
+| 50% in 0.0005 secs        | 50% in 0.0025 secs        |
+| 75% in 0.0007 secs        | 75% in 0.0028 secs        |
+| 90% in 0.0008 secs        | 90% in 0.0032 secs        |
+| 95% in 0.0009 secs        | 95% in 0.0036 secs        |
+| 99% in 0.0015 secs        | 99% in 0.0054 secs        |
+|                           |                           |
+| Status code distribution: | Status code distribution: |
+| [200] 1000000 responses   | [200] 1000000 responses   |
 
 top 명령어를 실행할 때 CPU 사용량이 어떻게 보이는지 확인할 수 있습니다:
 
@@ -209,8 +314,18 @@ top 명령어를 실행할 때 CPU 사용량이 어떻게 보이는지 확인할
 
 또한 Gunicorn이 Flask의 성능에 어떤 영향을 미치는지 주목할 가치가 있습니다. Flask는 본질적으로 동기적이지만 Gunicorn으로 배포하면 비동기성의 모습을 얻을 수 있습니다. Gunicorn은 여러 프로세스를 생성하여 각각 한 번에 하나의 요청을 처리할 수 있는 상태를 만들어 동시에 요청을 처리할 수 있게 합니다. 이 설정은 Flask를 비동기 프레임워크로 전환하지는 않지만, Sanic과 같이 비동기 작업을 위해 처음부터 설계된 프레임워크를 사용하는 것보다 효율적이지 않습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 발견은 흥미로운데, 온라인 서빙 시나리오에서의 Python 성능에 대한 선입견을 도전합니다. Python이 고성능 웹 서비스에 최적의 선택이 아닐 수도 있다는 대중적인 견해가 이제 논의의 여지가 있습니다. 적절한 프레임워크와 구성을 갖추면 Python이 빠르고 효율적일 수 있다는 것을 입증했습니다.
 
@@ -220,7 +335,18 @@ top 명령어를 실행할 때 CPU 사용량이 어떻게 보이는지 확인할
 
 # Java 구현
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 호기심을 충족시키기 위해 기본 Java Spring Boot 구현을 살펴봤어요.
 
@@ -267,14 +393,25 @@ public class MyController {
 
 SpringBoot를 Tomcat 서버로 빌드하기 위한 의존성입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <dependencies>
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-web</artifactId>
-    </dependency>
+  <dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-web</artifactId>
+  </dependency>
 </dependencies>
 ```
 
@@ -282,28 +419,50 @@ SpringBoot를 Tomcat 서버로 빌드하기 위한 의존성입니다.
 
 ```js
 <dependencies>
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-webflux</artifactId>
-    </dependency>
- </dependencies>
+  <dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-webflux</artifactId>
+  </dependency>
+</dependencies>
 ```
 
-자바는 특정 CPU 코어 수에 Java 애플리케이션을 제한하는 직접적인 명령줄 옵션을 제공하지 않습니다. JVM은 호스트 운영 체제에서 실행되며 CPU 리소스의 할당을 관리합니다. 그러나 특정 프로세스가 실행할 수있는 코어를 제어하는 운영 체제 수준에서 프로세서 집약성을 설정할 수 있습니다.  
+자바는 특정 CPU 코어 수에 Java 애플리케이션을 제한하는 직접적인 명령줄 옵션을 제공하지 않습니다. JVM은 호스트 운영 체제에서 실행되며 CPU 리소스의 할당을 관리합니다. 그러나 특정 프로세스가 실행할 수있는 코어를 제어하는 운영 체제 수준에서 프로세서 집약성을 설정할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리눅스에서는 taskset 명령어를 사용하여 JVM 프로세스에 프로세서 어피니티를 설정할 수 있습니다. 아래는 자바 응용 프로그램을 실행하고 4개의 특정 코어만 사용하도록 제한하는 예시입니다:
 
 ```js
-taskset -c 0,1,2,3 java -cp bench-trunk.jar com.bench.MyApp 
+taskset -c 0,1,2,3 java -cp bench-trunk.jar com.bench.MyApp
 ```
 
 # 성능 평가
 
 서버는 이전 파이썬 테스트와 동일한 머신에서 실행되었고 외부 부하 없이 동일한 hey 명령어를 사용했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SpringBoot Tomcat 대 Netty를 비교한 내용입니다:
 
@@ -336,8 +495,18 @@ Java에서 Tasklet을 사용하여 4개의 CPU에 바인딩하였기 때문에 h
 
 다음은 htop 명령을 사용하여 CPU 사용량이 어떻게 보이는지에 대한 내용입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-08-04-TheTaleofTwoParadigmsFromSyncToAsyncEvolutioninPythonandJavaWebDevelopment_1.png)
 
@@ -368,9 +537,20 @@ Java에서 Tasklet을 사용하여 4개의 CPU에 바인딩하였기 때문에 h
 ║ Status code distribution: ║ Status code distribution:  ║
 ║ [200] 1000000 responses   ║   [200] 1000000 responses  ║
 ╚═══════════════════════════╩════════════════════════════╝
-```  
+```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 개요
 

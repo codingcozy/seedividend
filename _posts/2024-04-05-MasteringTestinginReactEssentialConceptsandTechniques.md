@@ -3,17 +3,13 @@ title: "React에서 테스팅 마스터하기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Mastering Testing in React Essential Concepts and Techniques"
 link: "https://medium.com/stackademic/mastering-testing-in-react-essential-concepts-and-techniques-a4a5ad10872f"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/MasteringTestinginReactEssentialConceptsandTechniques_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 완벽한 주방 만들기 (아무것도 태우지 않고!)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신이 꿈꾸던 주방을 만들어보세요 — 모든 것이 원활하게 작동하고 맛있는 요리를 할 수 있는 곳. 완벽한 케이크를 굽는 것처럼 멋진 부엌을 만들려면 모든 것이 잘 작동하는지 확인하기 위해 약간의 테스트가 필요합니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 테스트는 당신의 코드를 건강하게 유지합니다. 여기에 그 이유가 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 수리하기 쉬움: 문제를 일찍 발견하는 것이 기다려서 모든 것이 망가지기를 기다리는 것보다 쉽습니다.
 - 자신감 상승: 테스트에서 코드가 작동한다는 것을 보여주어 마음에 안심감을 줍니다.
@@ -46,7 +64,18 @@ isUpdated: true
 - Jest: Jest를 테스트하는 놀이터로 상상해보세요. 코드가 계획대로 작동하는지 확인할 수 있도록 명령을 작성할 수 있습니다.
 - React Testing Library: 이 도우미는 사용자처럼 작동하여 React 컴포넌트에서 버튼을 클릭하고 양식을 채우는 역할을 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 곧 다가올 주제!
 
@@ -56,7 +85,18 @@ isUpdated: true
 
 오늘은 테스트 도구를 설정하고 React 컴포넌트에 대한 첫 번째 테스트를 작성함으로써 손을 더럽힐 것입니다. 두 개의 라이브러리를 사용할 예정입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Jest:
 - React Testing Library:
@@ -70,7 +110,18 @@ isUpdated: true
   - React Testing Library를 사용하여 버튼을 클릭하는 시뮬레이션을 수행합니다.
   - 버튼이 예상대로 작동하는 지 확인합니다 (예를 들어 색상이 변경되거나 메시지가 표시되는 지 확인).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1. 환경 설정:
 
@@ -80,7 +131,18 @@ isUpdated: true
 
 우리는 create-react-app을 사용하여 빠르게 새로운 React 프로젝트를 설정할 것입니다. 터미널을 열고 다음 명령어를 실행해주세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npx create-react-app my-test-app
@@ -92,7 +154,18 @@ npx create-react-app my-test-app
 
 터미널을 사용하여 프로젝트 디렉토리로 이동하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 cd my-test-app
@@ -106,7 +179,18 @@ npm install --save-dev jest @testing-library/react @testing-library/jest-dom
 
 만약 yarn을 사용한다면 npm install을 yarn add로 바꿔주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. 버튼 컴포넌트 생성하기:
 
@@ -124,7 +208,18 @@ export default Button;
 
 이 코드는 "Click Me!" 텍스트가 있는 버튼을 렌더링하는 Button 컴포넌트를 정의합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 5. 테스트 작성:
 
@@ -164,7 +259,18 @@ test("버튼을 클릭하면 색상이 변경되어야 합니다", () => {
 
 ## 테스트 설명:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 첫 번째 테스트는 React Testing Library의 getByText를 사용하여 버튼이 “Click Me!” 텍스트를 렌더링하는지를 확인합니다. 대소문자를 무시하는 정규 표현식 (/Click Me!/i)을 사용합니다.
 - 두 번째 테스트는 fireEvent.click을 사용하여 버튼을 클릭하는 작업을 시뮬레이션합니다. 클릭 후 버튼이 예상대로 작동하는지 확인하기 위해 직접 어서션을 추가해야 합니다 (예: 색상이 변경되는지 확인).
@@ -177,7 +283,18 @@ test("버튼을 클릭하면 색상이 변경되어야 합니다", () => {
 npm test
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 (야악시에 사용 중이라면 npm test를 yarn test로 바꿔 주세요)
 
@@ -187,7 +304,18 @@ npm test
 
 ## React Testing Library: 우리의 슈퍼파워
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테스트를 작성하기 전에, React Testing Library가 무엇을 할 수 있는지 알아보죠:
 
@@ -200,7 +328,18 @@ npm test
 
 이제, 유닛 테스트를 작성해봅시다! 우리가 배울 것은:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 유닛 테스트란: 우리는 각 구성요소가 올바르게 작동하는지 확인하는 데 유니테스트가 어떻게 도움이 되는지 이해할 것입니다. 마치 레시피 전에 개별 재료를 테스트하는 것처럼요.
 - Jest로 테스트 작성하기: 강력한 테스트 프레임워크인 Jest를 사용하여 테스트를 작성할 겁니다.
@@ -215,7 +354,18 @@ npm test
 - 테스트 구조와 Matchers: 테스트를 어떻게 구조화하고 적절한 Jest matchers를 선택하여 단언을 하는 방법에 대해 배우게 될 거에요.
 - 연습이 완벽을 이룹니다: 우리는 컴포넌트 내에서 다양한 시나리오와 경계상황에 대해 테스트를 작성하고 다양한 요리 기술을 테스트하는 것과 같이 연습할 겁니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 재료 (라이브러리):
 
@@ -227,7 +377,18 @@ npm test
 
 - 테스트 환경 설정하기:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 필요한 라이브러리 가져오기: React from react, render, screen from @testing-library/react, act from react-dom/test-utils (비동기 업데이트 시뮬레이션용), OmeletteFormFields(컴포넌트 경로), 그리고 필요에 따라 useOmeletteForm(커스텀 훅 사용 시).
 - 테스트를 위해 초기 폼 데이터를 제어하기 위해 useOmeletteForm 훅을 목업화합니다(해당하는 경우):
@@ -240,7 +401,18 @@ jest.mock("./useOmeletteForm"); // 본인의 훅 경로로 변경
 
 - @testing-library/react의 render를 사용하여 OmeletteFormFields 컴포넌트 렌더링하기:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 await act(async () => {
@@ -254,7 +426,18 @@ await act(async () => {
 
 - 렌더링된 컴포넌트 내에서 특정 요소를 찾기 위해 @testing-library/react의 screen을 활용하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const nameInput = screen.getByLabelText(/이름:/i);
@@ -269,7 +452,18 @@ const additionalIngredientsInput = screen.getByLabelText(/추가 재료:/i);
 
 - useOmeletteForm 코드에서 다루지 않았지만, @testing-library/react의 fireEvent.change와 같은 함수를 사용하여 사용자 상호작용(입력, 옵션 선택)을 시뮬레이션할 수 있습니다. 이를 통해 양식 업데이트를 테스트할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 fireEvent.change(nameInput, { target: { value: "Jane Doe" } }); // 이름 변경 시뮬레이션
@@ -287,7 +481,18 @@ expect(omeletteTypeSelect.value).toBe("Vegetarian"); // 초기 오믈렛 유형 
 expect(additionalIngredientsInput.value).toBe("Onions, Peppers"); // 초기 재료 확인
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 예제 테스트 코드:
 
@@ -314,7 +519,18 @@ test('OmeletteFormFields가 올바르게 렌더링되고 폼 데이터를 반영
 
 이제 여러분이 주방장이 되는 차례입니다! 이미 존재하는 React 컴포넌트에 대한 유닛 테스트를 작성해보세요. 이 실습을 통해 여러분의 이해를 공고히 하고 실제 상황에 대한 테스트 작성 방법을 보여줄 겁니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Redux 테스팅: 요리 탐구
 
@@ -325,17 +541,24 @@ test('OmeletteFormFields가 올바르게 렌더링되고 폼 데이터를 반영
 - 액션이란 무엇인가요? 액션은 애플리케이션에서 발생한 일을 설명하는 일반 JavaScript 객체입니다. type 속성 (필수)과 선택적인 payload 속성을 갖습니다.
 - 왜 액션을 테스트해야 하나요? 액션 생성자는 일관된 액션 생성을 보장하며, 테스트를 통해 그들의 정확성을 확인합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 예시 액션 테스트:
 
 ```js
 // actions.test.js
-import {
-  fetchKitchenItemsRequest,
-  fetchKitchenItemsSuccess,
-  fetchKitchenItemsFailure,
-} from "./actions";
+import { fetchKitchenItemsRequest, fetchKitchenItemsSuccess, fetchKitchenItemsFailure } from "./actions";
 
 describe("Redux Actions", () => {
   it("FETCH_KITCHEN_ITEMS_REQUEST 액션을 생성합니다", () => {
@@ -373,18 +596,25 @@ describe("Redux Actions", () => {
 - 리듀서란 무엇인가요? 리듀서는 현재 상태와 액션 객체를 가져와 액션 유형에 따라 새로운 상태를 반환하는 순수 함수입니다.
 - 왜 리듀서를 테스트해야 하나요? 리듀서를 테스트하면 상태 갱신을 격리하고 액션을 올바르게 처리하는지 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 예제 리듀서 테스트:
 
 ```js
 // kitchenReducer.test.js
 import kitchenReducer from "./reducers";
-import {
-  fetchKitchenItemsRequest,
-  fetchKitchenItemsSuccess,
-  fetchKitchenItemsFailure,
-} from "./actions";
+import { fetchKitchenItemsRequest, fetchKitchenItemsSuccess, fetchKitchenItemsFailure } from "./actions";
 
 describe("kitchenReducer", () => {
   it("초기 상태를 반환합니다", () => {
@@ -420,7 +650,18 @@ describe("kitchenReducer", () => {
 - 액션과 리듀서를 격리하여 테스트하려면 Redux 스토어를 모킹합니다. Jest의 jest.fn() 모킹 함수는 이를 위한 유용한 도구입니다.
 - 모킹된 스토어를 사용하여 액션이 디스패치되는 것을 확인하고, 리듀서가 예상 상태를 반환하는지 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 비동기 작업 및 미들웨어 테스트:
 
@@ -456,7 +697,18 @@ test("fetchKitchenItems가 성공적으로 fetch하는 경우 성공 액션을 �
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 설명:
 
@@ -471,7 +723,18 @@ test("fetchKitchenItems가 성공적으로 fetch하는 경우 성공 액션을 �
 
 이 테스트는 API 호출이 데이터를 성공적으로 검색할 때 fetchKitchenItems가 올바른 액션 (요청 및 성공)을 디스패치하는지 확인합니다. 에러 처리 또는 미들웨어가 액션과 상호작용하는 방식을 테스트하는 등의 다양한 시나리오를 커버하는 유사한 테스트를 작성할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 디버깅 및 그 역할 정의
 
@@ -482,7 +745,18 @@ test("fetchKitchenItems가 성공적으로 fetch하는 경우 성공 액션을 �
 
 - 브라우저 개발자 도구:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 콘솔: 로그 메시지를 기록하고 변수를 검사하며 표현식을 평가하여 깊이 있는 검사를 수행합니다.
 - 네트워크: 네트워크 요청 및 응답을 분석하고 API 호출 문제를 식별합니다.
@@ -494,7 +768,18 @@ test("fetchKitchenItems가 성공적으로 fetch하는 경우 성공 액션을 �
 
 - 중단점: 개발 중에 특정한 줄에서 코드 실행을 일시 중지하며 IDE의 디버거(예: Visual Studio Code에서 중단점 설정)를 사용하여 단계별 디버깅을 수행할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. 리액트 개발도구:
 
@@ -505,7 +790,18 @@ test("fetchKitchenItems가 성공적으로 fetch하는 경우 성공 액션을 �
 
 - Redux 개발도구 확장 기능:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 애플리케이션 내에서 상태 변경과 발송된 작업을 시각화해 보세요.
 - 상태 변이를 디버깅하고 리듀서 또는 미들웨어에서 발생할 수 있는 문제를 식별하세요.
@@ -520,7 +816,18 @@ test("fetchKitchenItems가 성공적으로 fetch하는 경우 성공 액션을 �
 - 디버깅 기술: 브라우저 개발자 도구, React DevTools 및 console.log 문에서 문제를 식별하고 효과적으로 수정하는 방법을 활용.
 - 실제 시나리오: 이러한 기술을 실습하여 오픈 소스 프로젝트 및 클라이언트 상호작용 시뮬레이션 디버깅에 적용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 왜 테스트와 디버깅이 중요한가요?
 
@@ -533,7 +840,18 @@ test("fetchKitchenItems가 성공적으로 fetch하는 경우 성공 액션을 �
 
 좀 더 깊이있는 이해를 공고히하기 위해서
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 퀴즈: 테스트 개념(15분)
 
@@ -545,7 +863,18 @@ test("fetchKitchenItems가 성공적으로 fetch하는 경우 성공 액션을 �
 
 ## React 테스팅 및 디버깅 기술을 테스트하고 싶나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Quizizz 페이지에 재미있는 퀴즈를 만들어서 이 개념을 얼마나 잘 이해하고 있는지 확인해볼 수 있도록 했어요. 자신을 도전하고 지식을 확고히 하는 좋은 방법이에요.
 
@@ -555,7 +884,18 @@ Quizizz 페이지에 재미있는 퀴즈를 만들어서 이 개념을 얼마나
 
 시작할 준비가 되셨나요? 여기 시작 링크가 있어요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Quizizz: [https://quizizz.com/embed/quiz/660c3afa822a4338718b888c](https://quizizz.com/embed/quiz/660c3afa822a4338718b888c)
 
@@ -565,6 +905,17 @@ Quizizz: [https://quizizz.com/embed/quiz/660c3afa822a4338718b888c](https://quizi
 
 # Stackademic 🎓
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 Markdown 형식으로 변경해주세요.

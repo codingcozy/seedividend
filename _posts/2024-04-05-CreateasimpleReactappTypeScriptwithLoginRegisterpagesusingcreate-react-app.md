@@ -3,17 +3,13 @@ title: "create-react-app을 사용하여 Login 및 Register 페이지를 만들�
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Create a simple React app TypeScript with Login   Register pages using create-react-app"
 link: "https://medium.com/@prabhashi.mm/create-a-simple-react-app-typescript-with-login-register-pages-using-create-react-app-e5c12dd6db53"
 isUpdated: true
 ---
-
-
-
-
 
 이것은 풀 스택 애플리케이션의 인증 및 권한 부여 프로세스를 구현하는 시리즈의 첫 번째 부분입니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 터미널을 열고 앱을 만들 폴더로 이동하세요. 아래 명령을 실행하세요. 이 명령은 TypeScript로 "frontend"라는 이름의 React 앱을 생성합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npx create-react-app frontend --template typescript
@@ -37,7 +44,18 @@ npm start
 
 앱은 http://localhost:3000/ 에서 실행됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희 애플리케이션 폴더 아래 생성된 일부 파일은 필요하지 않습니다. 이 파일들 (App.css, App.test.tsx, index.css, logo.svg)을 제거하고 파일 구조를 아래와 같이 유지하십시오.
 
@@ -47,7 +65,18 @@ index.tsx 파일에서 index.css를 가져오는 부분을 제거하세요. App.
 
 ![이미지](/assets/img/CreateasimpleReactappTypeScriptwithLogin-Registerpagesusingcreate-react-app_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 앱 구현을 계속할 수 있습니다.
 
@@ -59,7 +88,18 @@ index.tsx 파일에서 index.css를 가져오는 부분을 제거하세요. App.
 npm i react-router-dom
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래와 같이 pages 폴더 아래에 3개의 파일을 만들어 기본 구현을 하세요.
 
@@ -69,7 +109,18 @@ index.tsx 파일에서 BrowserRouter를 import하고 아래와 같이 App 컴포
 
 ![이미지2](/assets/img/CreateasimpleReactappTypeScriptwithLogin-Registerpagesusingcreate-react-app_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 App.tsx 파일에서 페이지에 대한 구성 요소를 가져와 아래와 같이 라우팅을 구현하세요.
 
@@ -79,7 +130,18 @@ App.tsx 파일에서 페이지에 대한 구성 요소를 가져와 아래와 �
 
 ![이미지](/assets/img/CreateasimpleReactappTypeScriptwithLogin-Registerpagesusingcreate-react-app_5.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 3. UI 구현 (로그인 / 회원가입)
 
@@ -91,22 +153,24 @@ App.tsx 파일에서 페이지에 대한 구성 요소를 가져와 아래와 �
 npm i @mui/material @emotion/react @emotion/styled @mui/icons-material
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로그인 페이지를 구현하고 입력 필드 데이터를 처리하기 위해 Login.tsx에 아래 코드를 추가하세요.
 
 ```js
 import { LockOutlined } from "@mui/icons-material";
-import {
-  Container,
-  CssBaseline,
-  Box,
-  Avatar,
-  Typography,
-  TextField,
-  Button,
-  Grid,
-} from "@mui/material";
+import { Container, CssBaseline, Box, Avatar, Typography, TextField, Button, Grid } from "@mui/material";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
@@ -159,12 +223,7 @@ const Login = () => {
               }}
             />
 
-            <Button
-              fullWidth
-              variant="contained"
-              sx={{ marginTop: 3, marginBottom: 2 }}
-              onClick={handleLogin}
-            >
+            <Button fullWidth variant="contained" sx={{ marginTop: 3, marginBottom: 2 }} onClick={handleLogin}>
               로그인
             </Button>
             <Grid container justifyContent={"flex-end"}>
@@ -185,16 +244,7 @@ export default Login;
 회원가입 페이지를 구현하고 입력 필드 데이터를 처리하기 위해 Register.tsx에 아래 코드를 추가하세요.
 
 ```js
-import {
-  Avatar,
-  Box,
-  Button,
-  Container,
-  CssBaseline,
-  Grid,
-  TextField,
-  Typography,
-} from "@mui/material";
+import { Avatar, Box, Button, Container, CssBaseline, Grid, TextField, Typography } from "@mui/material";
 import { LockOutlined } from "@mui/icons-material";
 import { useState } from "react";
 import { Link } from "react-router-dom";
@@ -261,12 +311,7 @@ const Register = () => {
                 />
               </Grid>
             </Grid>
-            <Button
-              fullWidth
-              variant="contained"
-              sx={{ marginTop: 3, marginBottom: 2 }}
-              onClick={handleRegister}
-            >
+            <Button fullWidth variant="contained" sx={{ marginTop: 3, marginBottom: 2 }} onClick={handleRegister}>
               회원가입
             </Button>
             <Grid container justifyContent="flex-end">
@@ -284,7 +329,18 @@ const Register = () => {
 export default Register;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 UI가 업데이트됩니다.
 
@@ -294,7 +350,18 @@ export default Register;
 
 양식 필드를 유효성 검사하고, 유효성 검사가 실패하면 오류 메시지를 표시해야 합니다. 유효성 검사가 성공하면 이 기능을 처리하기 위해 백엔드로 API 요청을 시작해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저를 따라오세요! 궁금한 점이 있으면 댓글로 알려주세요!
 
@@ -304,7 +371,18 @@ export default Register;
 
 다음으로는 오류/성공 메시지 알림을 중앙에서 처리할 것입니다 (Redux Toolkit 및 MUI를 사용하여 메시지 UI 구성).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 다음으로, 사용자가 로그인했는지 여부에 따라 리다이렉트와 보호된 경로로 프론트엔드 코드를 업데이트할 거에요 (인증된 사용자인지 아닌지).
 

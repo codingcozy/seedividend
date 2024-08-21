@@ -3,16 +3,13 @@ title: "NestJS 데이터 검증 및 변환하는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-27-NestJSDataValidationandTransformation_0.png"
 date: 2024-06-27 17:54
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-27-NestJSDataValidationandTransformation_0.png
 tag: Tech
 originalTitle: "NestJS: Data Validation and Transformation"
 link: "https://medium.com/devops-dev/nestjs-data-validation-and-transformation-ce99115c760d"
 isUpdated: true
 ---
-
-
-
 
 이 보고서는 Node.js 서버 측 애플리케이션 개발을 위한 프레임워크 인 NestJS에서 데이터 유효성 검사 및 변환 기술을 요약합니다.
 
@@ -23,7 +20,18 @@ isUpdated: true
 - 잘못된 또는 해로운 데이터: SQL 인젝션 및 예기치 않은 데이터 유형과 같은 공격에 대비합니다.
 - 오류 및 예외: 유효하지 않은 데이터 형식으로 인한 오류를 방지합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 장점
 
@@ -35,7 +43,18 @@ isUpdated: true
 
 # 컨트롤러 이전에 DTO 및 입력 데이터의 유효성 검사를 확인하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 https://github.com/typestack/class-validator
 
@@ -47,7 +66,18 @@ https://github.com/typestack/class-validator
 yarn add class-validator class-transformer
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 문서 유효성 검사
 
@@ -59,14 +89,25 @@ yarn start:dev
 
 # 파이프 컨트롤러 추가
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 main.ts
 
 ```js
-import { NestFactory } from '@nestjs/core';
-import { AppModule } from './app.module';
-import { ValidationPipe } from '@nestjs/common';
+import { NestFactory } from "@nestjs/core";
+import { AppModule } from "./app.module";
+import { ValidationPipe } from "@nestjs/common";
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
@@ -79,7 +120,7 @@ bootstrap();
 DTO 폴더
 
 ```js
-import { IsNotEmpty } from 'class-validator';
+import { IsNotEmpty } from "class-validator";
 
 export class CreateTaskDto {
   @IsNotEmpty()
@@ -90,7 +131,18 @@ export class CreateTaskDto {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # ID가 존재하는지 확인하기
 
@@ -108,7 +160,18 @@ export class CreateTaskDto {
 
 # 요소가 삭제된 경우 ID가 존재하는지 확인하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
   deleteTask(id: string): void {
@@ -129,14 +192,24 @@ export class CreateTaskDto {
 
 ## 상태 업데이트 확인하기
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 dto 폴더에 update-task-status.dto를 추가해주세요.
 
 ```js
-import { IsEnum } from 'class-validator';
-import { TaskStatus } from '../tasks.model';
+import { IsEnum } from "class-validator";
+import { TaskStatus } from "../tasks.model";
 
 export class UpdateTaskStatus {
   @IsEnum(TaskStatus)
@@ -157,7 +230,18 @@ updateTaskStatus(
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 검색을 위한 유효성 검사
 

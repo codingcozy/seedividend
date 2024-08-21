@@ -3,17 +3,13 @@ title: "HTML에서 깔끔한 코드를 위해 클래스명 짓는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How Should class Naming Be in HTML  Clean Code"
 link: "https://blog.stackademic.com/how-should-class-naming-be-in-html-clean-code-3b13e86f58b1"
 isUpdated: true
 ---
-
-
-
-
 
 ![How-Should-class-Naming-Be-in-HTML?](/assets/img/How-Should-class-Naming-Be-in-HTML0.png)
 
@@ -29,7 +25,18 @@ isUpdated: true
 - DRY(Don't repeat yourself: 중복을 피하라) 원칙을 준수하여 코드 반복을 방지합니다.
 - 대규모 프로젝트에서는 새로운 영역, 기능 및 디자인 수정이 계속해서 추가됩니다. 적절한 네이밍은 이러한 변경에 대한 더 나은 적응을 용이하게 하여 코드 업데이트의 원할한 진행을 보장합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 소프트웨어 개발에서 Clean Code라는 중요한 개념이 있습니다. Clean Code는 코드의 가독성, 이해도, 유지보수성, 그리고 조직화를 강조합니다. 적절한 명명은 Clean Code의 중요한 요소이며, Clean Code 원칙을 준수하는 것은 정확한 명명부터 시작합니다.
 
@@ -42,7 +49,18 @@ isUpdated: true
 <div class="header_block"></div>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <!-- 하이픈(-)으로 구분되지 않는 경우, 두 개의 별개의 클래스 이름으로 정의됩니다. -->
@@ -64,7 +82,18 @@ isUpdated: true
 <div class="header-block"></div>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - HTML 요소에 할당하는 ID에는 CamelCase 네이밍 규칙이 사용됩니다.
 
@@ -80,7 +109,18 @@ isUpdated: true
 <div class="post-date"></div>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 가능하면 짧고 간결하게 유지하며 지나친 긴 이름을 피해야 합니다.
 
@@ -98,7 +138,18 @@ isUpdated: true
 
 - 다른 컨텍스트의 개발자들이 이해하기 어려울 정도로 너무 짧은 네이밍 규칙을 피하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <div class=”lg-cn”></div>
@@ -119,7 +170,18 @@ isUpdated: true
 <div class="back"></div>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <!-- 다음과 같은 방식으로 사용하는 것이 더 적절합니다: -->
@@ -139,7 +201,18 @@ isUpdated: true
 
 위에서 언급된 모든 상황은 웹 개발 커뮤니티의 습관, 특정 라이브러리 기대치 및 HTML 및 CSS 표준을 준수하여 설정된 규칙입니다. 일반적인 사용은 이러한 규칙에 따라 정렬되지만 필수적인 것은 아닙니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 네이밍 표준은 코드 가독성을 높이고 프로젝트의 일관성을 유지하며 조직을 제공하며 오류 가능성을 줄이며 팀 내의 효과적인 협업을 촉진하기 위해 정립됩니다.
 
@@ -166,8 +239,18 @@ HTML 관련 W3C 문서에 액세스할 수 있습니다. 이 문서는 웹 세�
 </header>
 
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이번 주제는 여기까지입니다. 읽어 주셔서 감사합니다!
 
 
+```

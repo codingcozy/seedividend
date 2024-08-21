@@ -3,15 +3,13 @@ title: "당신이 꼭 알아야 할 21가지 HTML 팁"
 description: ""
 coverImage: "/assets/img/2024-07-02-21HTMLTipsYouMustKnowAbout_0.png"
 date: 2024-07-02 21:37
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-02-21HTMLTipsYouMustKnowAbout_0.png
 tag: Tech
 originalTitle: "21 HTML Tips You Must Know About"
 link: "https://medium.com/stackademic/21-html-tips-you-must-know-about-f771c05713c0"
 isUpdated: true
 ---
-
-
 
 <img src="/assets/img/2024-07-02-21HTMLTipsYouMustKnowAbout_0.png" />
 
@@ -21,9 +19,19 @@ isUpdated: true
 
 # 연락 링크 만들기
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 [Send Email](mailto:name@example.com)
 
 [Call Us](tel:+1234567890)
@@ -34,9 +42,19 @@ isUpdated: true
 
 You can use the `details` and `summary` tags when you want to include collapsible content on your web page.
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 `details` 태그는 숨겨진 콘텐츠를 담는 컨테이너를 만들고, `summary` 태그는 해당 콘텐츠의 가시성을 토글하기 위한 클릭 가능한 레이블을 제공합니다.
 
 ```js
@@ -50,9 +68,18 @@ You can use the `details` and `summary` tags when you want to include collapsibl
 
 웹사이트에서 비의미적 요소 대신 의미적 요소를 선택하세요. 이는 코드를 의미 있게 만들고 구조, 접근성, SEO를 개선합니다.
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <img src="/assets/img/2024-07-02-21HTMLTipsYouMustKnowAbout_1.png" />
 
 # Form Elements Grouping
@@ -61,9 +88,19 @@ You can use the `details` and `summary` tags when you want to include collapsibl
 
 더 효율적이고 접근성 있는 폼을 만드는 데 유용합니다.
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ```js
 <form>
   <fieldset>
@@ -85,9 +122,19 @@ You can use the `details` and `summary` tags when you want to include collapsibl
 
 이 기능은 큰 드롭다운 메뉴나 긴 옵션 목록을 사용할 때 유용합니다.
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ```js
 <select>
   <optgroup label="과일">
@@ -113,9 +160,19 @@ You can use the `details` and `summary` tags when you want to include collapsibl
 </video>
 ```
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 # 여러 선택지 지원하기
 
 `input`과 `select` 요소에 multiple 속성을 사용하여 사용자가 한 번에 여러 값을 선택/입력할 수 있습니다.
@@ -132,9 +189,19 @@ You can use the `details` and `summary` tags when you want to include collapsibl
 
 # 텍스트를 아래첨자 및 위첨자로 표시하기
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 `sub`과 `sup` 요소는 텍스트를 아래 첨자 및 위 첨자로 표시하는 데 사용될 수 있습니다.
 
 ![Supplemental Image](/assets/img/2024-07-02-21HTMLTipsYouMustKnowAbout_2.png)
@@ -143,9 +210,19 @@ You can use the `details` and `summary` tags when you want to include collapsibl
 
 사용자가 링크를 클릭할 때 연결된 리소스를 탐색하는 대신 다운로드해야 한다고 지정하려면 `a` 요소와 함께 다운로드 속성을 사용할 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ```js
 <a href="document.pdf" download="document.pdf">
   {" "}
@@ -159,9 +236,18 @@ You can use the `details` and `summary` tags when you want to include collapsibl
 
 웹 페이지의 모든 상대 URL에 대한 공통 시작점을 만들고, 리소스를 쉽게 찾아서 로드하기 위해 유용합니다.
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <head>
    <base href="https://shefali.dev" target="_blank" />
 </head>
@@ -178,9 +264,19 @@ You can use the `details` and `summary` tags when you want to include collapsibl
 <img src="picture.jpg" loading="lazy">
 ```
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 # 번역 기능 관리하기
 
 브라우저의 번역 기능을 사용하여 요소의 내용을 번역할지 여부를 지정하기 위해 translate 속성을 사용할 수 있습니다.
@@ -191,9 +287,19 @@ You can use the `details` and `summary` tags when you want to include collapsibl
 
 # 최대 입력 길이 설정하기
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 maxlength 속성을 사용하면 입력 필드에 사용자가 입력하는 최대 문자 수를 설정할 수 있어요.
 
 ```js
@@ -204,9 +310,18 @@ maxlength 속성을 사용하면 입력 필드에 사용자가 입력하는 최�
 
 minlength 속성을 사용하면 입력 필드에 사용자가 입력하는 최소 문자 수를 설정할 수 있어요.
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <input type="text" minlength="3">
 
 # 내용 편집 활성화
@@ -215,9 +330,19 @@ contenteditable 속성을 사용하여 요소의 내용을 편집할 수 있는�
 
 사용자가 요소 내의 내용을 수정할 수 있도록 합니다.
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ```js
 <div contenteditable="true">내용을 편집할 수 있어요.</div>
 ```
@@ -230,9 +355,19 @@ contenteditable 속성을 사용하여 요소의 내용을 편집할 수 있는�
 <input type="text" spellcheck="true" />
 ```
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 # 접근성 확보하기
 
 alt 속성은 이미지가 표시되지 않을 때 이미지에 대한 대체 텍스트를 지정합니다.
@@ -243,9 +378,19 @@ alt 속성은 이미지가 표시되지 않을 때 이미지에 대한 대체 �
 <img src="picture.jpg" alt="이미지에 대한 설명">
 ```
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 # 링크를 위한 대상 동작 정의
 
 링크된 리소스가 클릭되었을 때 표시될 위치를 지정하기 위해 target 속성을 사용할 수 있습니다.
@@ -269,14 +414,34 @@ alt 속성은 이미지가 표시되지 않을 때 이미지에 대한 대체 �
 
 # 추가 정보 제공
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 테이블 태그를 마크다운 형식으로 변경해주세요.
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ```js
 <input type="file" accept="image/png, image/jpeg" />
 ```
@@ -291,9 +456,19 @@ alt 속성은 이미지가 표시되지 않을 때 이미지에 대한 대체 �
 </video>
 ```
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 오늘은 여기까지입니다.
 
 도움이 되셨기를 바라요.
@@ -302,9 +477,19 @@ alt 속성은 이미지가 표시되지 않을 때 이미지에 대한 대체 �
 
 더 많은 이런 내용을 보시려면 여기를 클릭해주세요.
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 마크다운 형식으로 테이블 태그를 변경할 수도 있어요.
 
 계속 코딩해요!!

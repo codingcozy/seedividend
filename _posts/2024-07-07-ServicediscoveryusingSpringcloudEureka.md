@@ -3,16 +3,13 @@ title: "Spring Cloud Eureka를 이용한 서비스 디스커버리 방법"
 description: ""
 coverImage: "/assets/img/2024-07-07-ServicediscoveryusingSpringcloudEureka_0.png"
 date: 2024-07-07 13:04
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-ServicediscoveryusingSpringcloudEureka_0.png
 tag: Tech
 originalTitle: "Service discovery using Spring cloud Eureka"
 link: "https://medium.com/@cg32485/service-discovery-using-spring-cloud-eureka-26c7f4bc230b"
 isUpdated: true
 ---
-
-
-
 
 분산 시스템이나 마이크로서비스에서는 성격상 많은 노드나 구성 요소를 볼 수 있습니다. 그러한 환경에서 개별 구성 요소 간의 통신은 매우 중요해집니다.
 
@@ -24,7 +21,18 @@ isUpdated: true
 
 이 세 가지 방법 중에서 가장 쉽고 잘 알려진 방법은 RPI입니다. RPI는 REST나 유사한 프로토콜을 통해 발생합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 REST API 호출을 하려면 호출할 서버의 호스트 주소와 포트 번호를 알아야 합니다. 모든 서비스에 대해 호스트 IP 주소와 포트 번호를 고정시키면 문제가 되지 않습니다. 그러나 프로덕션 등급 시스템의 경우, 일반적으로 서비스를 클라우드 플랫폼에 배포합니다. 부하와 트래픽에 따라 서비스의 책임 스케일링이 클라우드 플랫폼에 위임됩니다. 이것은 시스템 부하가 높을 때 클라우드 플랫폼이 시스템에 서버의 인스턴스를 동적으로 추가 또는 제거할 수 있음을 의미합니다.
 
@@ -35,7 +43,18 @@ isUpdated: true
 - 서버 측 디스커버리
 - 클라이언트 측 디스커버리
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사의 나머지 부분에서는 서버 측 발견에 대해서만 다룰 것입니다.
 
@@ -47,7 +66,18 @@ isUpdated: true
 
 ## 서버 측 발견
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 서버 측 디스커버리에서 모든 인스턴스의 주소를 알고 있는 라우터 서비스를 소개할 것입니다. 라우터가 아닌 서비스는 안정 상태에 도달하면 라우터 서비스에 자신을 등록하고 정보를 유지할 수 있도록 만들어집니다.
 
@@ -57,7 +87,18 @@ isUpdated: true
 
 이 섹션에서는 서비스 레지스트리 및 디스커버리 서비스로 작용할 라우터 노드를 추가하고, 서비스가 디스커버리 서비스에 자체 등록하도록 할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 Spring Initializr에서 Spring Boot 프로젝트를 생성하여 시작합니다. 다음 종속성이 필요합니다.
 
@@ -74,18 +115,24 @@ dependencies:
 이제 application.yml 파일에 구성을 추가할 것입니다.
 
 ```js
-spring:
-  application:
-    name: eureka-server
-server:
-  port: 8761
-eureka:
-  client:
-    registerWithEureka: false
-    fetchRegistry: false
+spring: application: name: eureka - server;
+server: port: 8761;
+eureka: client: registerWithEureka: false;
+fetchRegistry: false;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 우리는 애플리케이션이 eureka-server라고 불릴 것임을 설정하고 있습니다.
 - 이 애플리케이션은 8761번 포트에서 실행될 것입니다.
@@ -114,8 +161,18 @@ public class EurekaServiceRegistryApplication {
 
 이제 이 애플리케이션을 Docker화할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 FROM openjdk:21
@@ -132,8 +189,18 @@ docker build -t eureka-server:latest
 
 이미지를 실행하고 디스커버리 서비스가 작동하는지 확인해 봅시다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 도커 실행 -p8761:8761 eureka-server:latest
@@ -145,8 +212,18 @@ docker build -t eureka-server:latest
 
 # 호출 서비스를 디스커버리 서비스와 등록하는 방법 추가하기
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 다른 Spring Boot 애플리케이션을 만들 것입니다. 이 애플리케이션은 callee 서비스로 작동하며 eureka-server에 자체 등록합니다.
 
@@ -155,36 +232,38 @@ docker build -t eureka-server:latest
 ```js
 <dependencies>
   <dependency>
-   <groupId>org.springframework.boot</groupId>
-   <artifactId>spring-boot-starter-web</artifactId>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-web</artifactId>
   </dependency>
 
-  
   <dependency>
-   <groupId>org.springframework.cloud</groupId>
-   <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
-   <version>4.1.2</version>
+    <groupId>org.springframework.cloud</groupId>
+    <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+    <version>4.1.2</version>
   </dependency>
-
- </dependencies>
+</dependencies>
 ```
 
 그런 다음 구성을 추가합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-spring:
-  application:
-    name: order
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://eureka-server:8761/eureka
-    instance:
-      preferIpAddress: true
-server:
-  port: 9000
+spring: application: name: order;
+eureka: client: serviceUrl: defaultZone: //eureka-server:8761/eureka
+http: instance: preferIpAddress: true;
+server: port: 9000;
 ```
 
 - spring.application.name은 이 서비스를 주문으로 호출할 것임을 지정합니다.
@@ -207,7 +286,18 @@ public class OrderApplication {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - @EnableDiscoveryClient 어노테이션을 부트 클래스에 추가하여 해당 서비스가 유레카 서버에 등록될 때 발견 기능을 얻을 수 있습니다.
 
@@ -238,7 +328,18 @@ services:
 
 위의 도컴포즈 파일에서 다음을 수행하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 나는 services 탭 아래에 eureka-server와 order 서비스 2개를 생성 중이야.
 - 각 서비스마다 포트를 구성 중이야. eureka-serve는 8761 포트를, order 서비스는 9000 포트를 구성하고 있어.
@@ -252,6 +353,17 @@ services:
 
 여기까지가 이 글의 내용이야. 다음 글에서는 eureka 서버가 요청을 대상 서비스로 라우팅하는 방법을 살펴볼 거야.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주문에 대한 소스 코드는 여기에서 찾을 수 있고, 유레카 서버에 대한 소스 코드는 여기에서 찾을 수 있어요.

@@ -3,17 +3,13 @@ title: "플러터 앱에서 Firebase 인증을 사용한 로그인 방법 2024"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How to Login in Flutter App with Firebase Authentication 2024"
 link: "https://medium.com/@kunalvagh645/how-to-login-in-flutter-app-with-firebase-authentication-b62b8128758f"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/HowtoLogininFlutterAppwithFirebaseAuthentication2024_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 필수 사항:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 코드를 살펴보기 전에 다음 사항이 설정되어 있는지 확인하세요:
 
@@ -37,7 +44,18 @@ isUpdated: true
 
 ![이미지](/assets/img/HowtoLogininFlutterAppwithFirebaseAuthentication2024_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파이어베이스 프로젝트를 생성한 후 플러터를 클릭하고 다음 단계를 따르세요
 
@@ -47,7 +65,18 @@ isUpdated: true
 
 ![이미지](/assets/img/HowtoLogininFlutterAppwithFirebaseAuthentication2024_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음,
 
@@ -57,7 +86,18 @@ isUpdated: true
 
 Build -` Select Authentication을 클릭하십시오.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/HowtoLogininFlutterAppwithFirebaseAuthentication2024_5.png)
 
@@ -67,7 +107,18 @@ Build -` Select Authentication을 클릭하십시오.
 
 이메일/비밀번호를 선택하고, 이메일/비밀번호 옵션을 활성화하고 저장하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/HowtoLogininFlutterAppwithFirebaseAuthentication2024_7.png" />
 
@@ -77,7 +128,18 @@ Build -` Select Authentication을 클릭하십시오.
 
 Flutter 앱에서
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 pubspec.yaml 파일에 필요한 종속성을 추가해주세요:
 
@@ -98,7 +160,18 @@ void main() async {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어플리케이션을 실행해보세요. 아무것도 눈에 띄지 않을 텐데, 이것은 파이어베이스 연결을 성공적으로 설정했다는 명확한 메시지입니다.
 
@@ -142,7 +215,18 @@ singIn() async {
 
 이 signIn() 메서드는 사용자가 로그인 버튼을 클릭했을 때 호출되며 이메일과 비밀번호 필드를 채우도록 유도하고, 값을 가져와서 signInWithEmailAndPassword 메서드에 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서, 먼저 loader를 표시하고 있습니다. 사용자는 현재 프로세스가 실행 중임을 알 수 있습니다. 이메일 및 비밀번호 필드가 비어 있지 않은 지 확인한 다음, 인증을 위해 signInWithEmailAndPassword 메서드를 호출합니다. 인증이 성공하면 대시보드 또는 홈 화면으로 이동합니다. 이메일과 패스워드 값이 모두 비어 있다면, flutter toast 메시지 "자격 증명을 입력하세요"를 표시합니다. 이메일 값이 비어 있다면, flutter toast 메시지 "이메일을 입력하세요"를 표시하고, 비밀번호 값이 비어 있다면 flutter toast 메시지 "비밀번호를 입력하세요"를 표시합니다. 마지막으로 loader를 숨깁니다.
 

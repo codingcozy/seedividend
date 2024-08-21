@@ -3,17 +3,13 @@ title: "터미널 생산성 향상을 위한 Zsh 플러그인"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Terminal Productivity Booster Zsh Plugins"
 link: "https://medium.com/codimis/terminal-productivity-booster-zsh-plugins-e8750ad1453d"
 isUpdated: true
 ---
-
-
-
-
 
 하루 중 상당 부분을 터미널에서 작업하는 개발자들에게는 작은 효율 향상도 장기적으로 많은 시간을 절약할 수 있는 점이 있습니다. 대부분의 시스템에서 기본 터미널 환경은 기능적이지만 종종 작업 흐름을 실제로 최적화해주는 세련되고 편리한 기능이 부족합니다. 여기에서 Zsh 플러그인이 등장합니다. Z 셸(Zsh)의 기능을 확장하는 가벼운 스크립트로, 기본 Bash 셸의 강력하고 매우 사용자 정의 가능한 대안입니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 시작하기 전 다음 사항을 설치해 두세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Homebrew (맥용 패키지 관리자)
 - Git (버전 관리 시스템)
@@ -35,7 +42,18 @@ isUpdated: true
 
 오타나 구문 오류로 고생하지 마세요. 이 플러그인은 명령줄에 실시간 구문 강조 기능을 제공하여 눈으로 한 눈에 오류와 잘못된 명령을 쉽게 알 수 있게 해줍니다. 이 플러그인은 zsh-syntax-highlighting의 최적화된 버전입니다. fast-syntax-highlighting을 사용하면 터미널에서 시각적 코딩 경험을 즐길 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 명령어를 사용하여 빠른 구문 강조 기능을 복제할 수 있어요.
 
@@ -51,7 +69,18 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting
 ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 명령어 실행이 완료되면 아래 명령어로 플러그인 폴더를 확인할 수 있어요.
 
@@ -63,7 +92,18 @@ ls $ZSH_CUSTOM/plugins
 
 $ZSH_CUSTOM/plugins 경로에 repo를 복제한 후, .zshrc 파일의 플러그인 목록에 플러그인 이름을 추가하세요. 이 단계는 모든 설치에 적용됩니다. .zshrc 파일의 플러그인 목록을 업데이트하는 것을 잊지 마세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/TerminalProductivityBoosterZshPlugins_0.png" />
 
@@ -73,7 +113,18 @@ $ZSH_CUSTOM/plugins 경로에 repo를 복제한 후, .zshrc 파일의 플러그�
 
 이 플러그인을 다른 zsh 플러그인 관리자와 함께 다음 명령어를 사용하여 설치할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # Using zinit
@@ -92,7 +143,18 @@ antigen bundle zsh-users/zsh-syntax-highlighting
 
 이 플러그인의 설치 과정도 동일합니다. 해당 레포를 플러그인 경로에 복사하세요. 그리고 .zshrc 파일의 플러그인 목록에 플러그인 이름을 추가하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 git clone https://github.com/zsh-users/zsh-autosuggestions
@@ -105,7 +167,18 @@ ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
 <img src="/assets/img/TerminalProductivityBoosterZshPlugins_4.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Terminal Productivity Booster Zsh Plugins](/assets/img/TerminalProductivityBoosterZshPlugins_5.png)
 
@@ -124,7 +197,18 @@ antigen bundle zsh-users/zsh-autosuggestions
 
 이 플러그인들은 파일 유형을 색으로 구분할 수 있도록 도와줍니다. 따라서 동일한 유형의 파일을 쉽게 인식할 수 있게 만들어줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Zsh Syntax Highlighting Filetypes
 
@@ -137,7 +221,18 @@ ${ZSH_CUSTOM}/plugins/zsh-syntax-highlighting-filetypes
 
 <img src="/assets/img/TerminalProductivityBoosterZshPlugins_6.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 .zshrc 파일에 플러그인을 추가하는 것을 잊지 마세요.
 
@@ -147,7 +242,18 @@ ${ZSH_CUSTOM}/plugins/zsh-syntax-highlighting-filetypes
 
 이미 설치되어 있지 않다면 먼저 colorls를 설치해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 gem install colorls
@@ -161,7 +267,18 @@ git clone https://github.com/gretzky/auto-color-ls ${ZSH_CUSTOM}/plugins/auto-co
 
 복제한 후 .zshrc 파일을 업데이트하고 플러그인을 플러그인 목록에 추가하세요. cd 명령어로 디렉토리를 변경하면 아이콘이 표시됩니다. 또한 auto-color-ls는 파일과 폴더를 다른 색상으로 나열합니다. 여기에 예가 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/TerminalProductivityBoosterZshPlugins_7.png)
 
@@ -174,7 +291,18 @@ git clone https://github.com/zsh-users/zsh-completions
 ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-completions
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다시 이 플러그인 이름을 플러그인 목록에 추가하고 source 명령을 실행하세요.
 
@@ -188,7 +316,18 @@ source ~/.zshrc
 
 이 플러그인을 플러그인 목록에 추가하고 새 터미널을 열면 탭 버튼을 눌렀을 때 완성 기능이 보입니다. 가능한 완성이 너무 많으면 다음과 같은 프롬프트가 표시됩니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![TerminalProductivityBoosterZshPlugins_8](/assets/img/TerminalProductivityBoosterZshPlugins_8.png)
 
@@ -200,7 +339,18 @@ source ~/.zshrc
  git clone https://github.com/zsh-users/zsh-history-substring-search ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-history-substring-search
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 클론한 후, .zshrc 파일의 플러그인 목록에 플러그인 이름을 추가하고 .zshrc 파일을 소스합니다.
 
@@ -216,7 +366,18 @@ plugins=(... zsh-history-substring-search)
 - cat -v를 종료하려면 동시에 Control 및 C 키를 누르세요.
 - 그런 다음 관찰된 키를 바인딩하세요. 화면에 ^[[A 및 ^[[B가 표시된다면 아래 명령을 실행하세요. 다른 것이 나타나면 해당 값을 바꾸세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 bindkey '^[[A' history-substring-search-up
@@ -229,7 +390,18 @@ bindkey '^[[B' history-substring-search-down
 
 키 바인딩 후에도 작동하지 않는 경우, terminfo를 사용해볼 수 있습니다. 다음 명령어를 실행해보세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 bindkey "$terminfo[kcuu1]" history-substring-search-up
@@ -242,7 +414,18 @@ bindkey "$terminfo[kcud1]" history-substring-search-down
 
 많은 alias 명령어를 가지고 있지만 가끔 까먹으신다구요? 아니면 git 같은 유용한 alias를 제공하는 zsh 플러그인을 사용하지만 까먹는다구요? 그럼 반드시 이 플러그인들이 필요합니다(적어도 하나는).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 별명 팁
 - 반드시 사용하세요
@@ -253,7 +436,18 @@ bindkey "$terminfo[kcud1]" history-substring-search-down
 
 ![이미지](/assets/img/TerminalProductivityBoosterZshPlugins_9.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 별칭 팁을 사용하려면 아래 명령어를 실행하고 플러그인을 플러그인 폴더에 복제하세요.
 
@@ -267,7 +461,18 @@ git clone https://github.com/djui/alias-tips.git ${ZSH_CUSTOM:-~/.oh-my-zsh/cust
 plugins=(... alias-tips)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다른 플러그인 매니저를 사용할 수도 있어요.
 
@@ -289,7 +494,18 @@ antigen bundle djui/alias-tips
 git clone https://github.com/MichaelAquilina/zsh-you-should-use.git $ZSH_CUSTOM/plugins/you-should-use
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그런 다음 .zshrc 파일에 플러그인을 추가하세요.
 
@@ -310,7 +526,18 @@ zplug "MichaelAquilina/zsh-you-should-use"
 antigen bundle "MichaelAquilina/zsh-you-should-use"
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프롬프트 메시지를 두 플러그인 모두 사용자 정의할 수 있어요. 최신 구성을 확인하려면 GitHub 저장소를 확인하세요.
 
@@ -320,7 +547,18 @@ antigen bundle "MichaelAquilina/zsh-you-should-use"
 
 소프트웨어 개발의 급변하는 세계에서는 매 순간이 소중해요. 이러한 생산성 향상 Zsh 플러그인을 사용하여 터미널을 슈퍼충전하면 시간뿐만 아니라 더 즐겁고 효율적인 개발 경험을 만들어 낼 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 👏 읽어주셔서 감사합니다!
 
@@ -330,7 +568,18 @@ antigen bundle "MichaelAquilina/zsh-you-should-use"
 
 ✍ 이야기에 대한 피드백이나 의견을 공유해 주세요. 여러분의 입력은 제가 향상되고 더 가치 있는 콘텐츠를 만드는 데 도움이 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ✌ 접속 유지! 🚀 더 매력적인 기사를 보려면 소셜 미디어에서 제를 팔로우하세요:
 

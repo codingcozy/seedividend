@@ -3,16 +3,13 @@ title: "의견 SSR 프론트엔드 유닛 테스트의 가치가 없는 이유"
 description: ""
 coverImage: "/assets/img/2024-06-22-OpinionSSRFront-EndUnitTestingNotWorthIt_0.png"
 date: 2024-06-22 04:49
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-OpinionSSRFront-EndUnitTestingNotWorthIt_0.png
 tag: Tech
 originalTitle: "Opinion: SSR Front-End Unit Testing, Not Worth It"
 link: "https://medium.com/codex/opinion-ssr-front-end-unit-testing-not-worth-it-ff0132481d8a"
 isUpdated: true
 ---
-
-
-
 
 ## 프로덕션에서 개발자들이 직면하는 문제와 해결 방법 강조
 
@@ -22,8 +19,18 @@ isUpdated: true
 
 이런 환경에서 우리의 상황은 아마 다음과 같을 것입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![OpinionSSRFront-EndUnitTestingNotWorthIt](/assets/img/2024-06-22-OpinionSSRFront-EndUnitTestingNotWorthIt_0.png)
 
@@ -33,8 +40,18 @@ isUpdated: true
 
 # 면책조항
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래에 있는 내용이 모두 해당되지 않을 수 있지만, FAANG-tier 레거시 프로젝트와 같은 경우 상품 카드가 여러 가지 상태를 가진 프로토타입 디자인 시스템 또는 백엔드가 아닌 프런트엔드에 매우 복잡한 비즈니스 로직을 가진 경우를 제외하고, 저는 꼭 확인하거나 여러분이 아는 프런트엔드 개발자와 공유하길 강력히 권장합니다.
 
@@ -44,7 +61,18 @@ isUpdated: true
 
 이로 인해 우리는 토론의 핵심으로 도달했습니다. 프런트엔드 앱에서 무엇을 테스트해야 할까요? 더 구체적으로 말하면, SSR Gatsby 웹사이트에서는 무엇을 테스트해야 할까요? 백엔드가 없지만 Storyblok CMS와 Bitbucket의 CI/CD를 가진 경우 빌드가 실패하면 배포가 방지되는 상황에서요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기술 슈퍼바이저가 나에게 일반적으로 요구하는 것은 유닛 테스트였어요. 왜냐하면 그것들이 가장 “인기가 많고” “관리하기 쉽다”고 생각하기 때문이에요. 이 아이디어의 핵심은 당신이 개발하고 컴포넌트를 독립적으로 테스트하고, 그것이 정상적으로 작동하고 올바르게 동작하는지 확인하는 것이에요. 하지만 프런트엔드 유닛 테스트는 우리에게 무엇을 보여줄까요? 공식 문서와 몇 가지 관련 기사를 살펴보도록 하죠.
 
@@ -55,7 +83,18 @@ isUpdated: true
 - 컴포넌트 트리 렌더링
 - 완전한 앱 렌더링
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Jest 문서
 
@@ -71,7 +110,18 @@ isUpdated: true
 - 타이머
 - 스냅샷 테스트
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요약하면, FreeCodeCamp의 "리액트에서 유닛 테스트 작성 방법"이라는 기사는 테스트를 다음과 같은 카테고리로 나누어 내는 뛰어난 일을 해냅니다:
 
@@ -85,8 +135,18 @@ isUpdated: true
 - 컴포넌트가 영향을 받는지 여부
 - 컴포넌트가 상호작용 가능한지 여부
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![OpinionSSRFront-EndUnitTestingNotWorthIt_1.png](/assets/img/2024-06-22-OpinionSSRFront-EndUnitTestingNotWorthIt_1.png)
 
@@ -96,8 +156,18 @@ isUpdated: true
 
 위에서 언급한 대로, 문서에 실제 시나리오가 있었으면 좋겠지만, 그럴 만한 것이 없다면 웹사이트에서 만난 문제들을 분류해보려 한다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 컴포넌트가 필요한 일부 props을 받지 못하고 렌더링됩니다.
 
@@ -111,7 +181,18 @@ isUpdated: true
 - 결과: 빌드가 파이프라인에서 충돌하고, 프로덕션에서 아무 변화도 없습니다.
 - 영향: 나쁜 개발 경험, 기능 배송이 느려집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 에러가 발생하면 "RENDERED vs. NOT RENDERED" 범주 내에 해당하는 문제에 직면하게 될 수 있어요. 상태 변경이나 사용자 조작에 응답하지 않는 것을 배포한 적이 없다는 건 저에게는 생각조차 해본 적이 없었어요. 만약 이와 같은 것을 개발하고 QA가 이를 식별하지 못한다면, 아마도 테스트도 도움이 되지 않을 것이고 이 글도 솔직히 도움이 되지 않을 겁니다. 하지만, 아주 복잡한 마이크로 프론트엔드 구성요소가 설계 키트 없이 연결돼 있는 경우...
 
@@ -121,7 +202,18 @@ isUpdated: true
 
 사람들이 처음으로 제안하는 것은 "단위 테스트를 작성하세요!"라고 말하는 것인데, 음... 아닙니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기에는 "아니요"에 대한 몇 가지 층이 있어요:
 
@@ -132,7 +224,18 @@ isUpdated: true
 
 ## Storyblok 데이터 구조를 모의하는 것이 정말 어려워요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - CMS에서 많이 사용되는 richtext입니다. 게다가 Storyblok의 rich text를 역공학하여 성공하더라도 즉시 긴밀하게 결합된 레거시가됩니다. 이 span의 피라미드는 외부에서 업데이트 할 때마다 깨질 수도 있습니다. 또는 다른 방식을 채택한 다른 CMS로 이동할 수도 있습니다.
 - 내부 및 "중첩" 루트가 있는 외부의 링크, 일반 URL이 있는 외부의 링크, 2가지 매우 다른 구조를 테스트하기 위해 가장하는 것입니다. 우리가 받는 것을 알 수 없기 때문에.
@@ -144,8 +247,18 @@ isUpdated: true
 
 다행히도 "RENDERED vs. NOT RENDERED" 이분법에 접근할 "저렴한" 방법이 있습니다. 모든 컴포넌트에 "필수" props을 검사하는 if 문만 있으면 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-22-OpinionSSRFront-EndUnitTestingNotWorthIt_3.png)
 
@@ -153,10 +266,20 @@ isUpdated: true
 
 ## if 문장만으로 충분할까요?
 
-이미 반복된 느낌일 수 있지만, 사실 "아니요". 이번에는 "아니지만 충분합니다." 
+이미 반복된 느낌일 수 있지만, 사실 "아니요". 이번에는 "아니지만 충분합니다."
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러면 결과에 대해 알아봅시다:
 
@@ -167,7 +290,18 @@ isUpdated: true
 
 ## 단점
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 서투르고 반복적인 부분이 있습니다.
 - 모든 구성 요소가 아닌지 확인할 수 없습니다. (이것에 대해 생각해 보세요!)
@@ -178,7 +312,18 @@ isUpdated: true
 
 # 문제를 개선하는 방법
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## DRY 원칙 적용
 
@@ -192,8 +337,18 @@ DRY(Don't Repeat Yourself) 원칙부터 적용해보겠습니다. 재사용이 �
 
 제 구현은 아마도 다음과 같을 것입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-22-OpinionSSRFront-EndUnitTestingNotWorthIt_4.png" />
 
@@ -203,8 +358,18 @@ DRY(Don't Repeat Yourself) 원칙부터 적용해보겠습니다. 재사용이 �
 
 <img src="/assets/img/2024-06-22-OpinionSSRFront-EndUnitTestingNotWorthIt_5.png" />
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 만약 팀이 이를 무시한다면?
 
@@ -214,7 +379,18 @@ DRY(Don't Repeat Yourself) 원칙부터 적용해보겠습니다. 재사용이 �
 
 모든 것이 올바르게 처리되면, CMS로부터 "필수" 필드가 부족한 컴포넌트를 렌더링하지 않는 설정이 있습니다. 하지만 유연성이 필요한 몇몇 컴포넌트와 일반 CMS의 유연성 때문에 이러한 "필수" 필드를 누락할 수 있으며 결과적으로 페이지에 컴포넌트가 없을 수 있습니다. 모든 것이 작동하나, 요금제가 없는 요금 페이지는 많은 의미가 없습니다. 특히 수십 개의 페이지와 5개 국가 언어에 대한 로컬라이제이션을 진행하는 다른 부서들이 작업 중인 상황에서는 상황이 더욱 복잡해집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내가 제안하는 해결책은 뛌륭하진 않지만, 각 구성요소에 대해 if 문과 똑같이 작동합니다. 메커니즘은 다음과 같이 동작합니다:
 
@@ -226,7 +402,18 @@ DRY(Don't Repeat Yourself) 원칙부터 적용해보겠습니다. 재사용이 �
 
 ![디버거 CLI 버전](/assets/img/2024-06-22-OpinionSSRFront-EndUnitTestingNotWorthIt_6.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 내용 작성자들은 무엇이 빠졌는지 명확히 알아보고 그것이 우연히 빠진 것인지 확인할 수 있습니다. 그런 다음 필요하다면 Storyblok에 가서 해당 필드를 수정하면 됩니다.
 
@@ -237,7 +424,18 @@ DRY(Don't Repeat Yourself) 원칙부터 적용해보겠습니다. 재사용이 �
 
 다음 단계를 생각해보면 디버거를 자동화해 보고 싶습니다. 최신 빌드 이후 "비어 있는" 필드가 되어버린 콘텐츠 변경을 기업의 슬랙 채널에 보고하는 차이 시스템을 설정해야 합니다. 이상적으로는 CMS의 마지막으로 게시된 페이지에 대한 보고서를 생성하여 해당 페이지의 비어 있는 필드를 강조해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 내용을 공유하고 다시 게시해주세요. 전면 테스트에 대한 나의 비전통적인 접근에 대한 비평과 토론을 환영합니다. 그리고 절대 잊지 말아 주세요. 당신이 하는 모든 것은 어떤 의미가 있어야 합니다. "최상의 사례"를 따르는 것이 허용되지 않습니다. 그것이 전면 응용 프로그램의 단위 테스트인 경우에 특히 그렇습니다.
 

@@ -3,15 +3,13 @@ title: "전문가처럼 이메일 서명을 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-EmailSignature_0.png"
 date: 2024-07-09 14:18
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-EmailSignature_0.png
 tag: Tech
 originalTitle: "Email Signature"
 link: "https://medium.com/@aquaaetherial98/email-signature-7b19736b9feb"
 isUpdated: true
 ---
-
-
 
 🔍 지금 이메일 서명을 확인해보세요! 📁 웹 사이트 그래픽 템플릿 라이브러리를 살펴보고 여기서 🆓 무료 다운로드 혜택을 받아보세요. 함께 제작을 시작해봐요! 🚀
 
@@ -21,11 +19,33 @@ isUpdated: true
 
 이 상품은 20개의 색상 믹스에서 50개의 이메일 서명 디자인을 포함하고 있습니다: 에게아블루, 블루, 다크블루, 그린, 다크그린, 그레이, 제이드, 오렌지, 핑크, 살몬, 퍼플, 레드, 옐로우, 에크루, 브라운, 블루-골드, 블루-제이드, 그린-옐로우, 퍼플-블루, 레드-오렌지.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 변경된 Markdown 포맷에서는 이 테이블에 대한 내용을 찾을 수 없습니다. 원하는 정보에 대해 더 많이 설명해 주시면 도움을 드릴 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 1000개의 .html 이메일 서명 파일.
 - 20개의 .psd 이메일 서명 파일 (Lato 글꼴만 지원).
@@ -48,7 +68,18 @@ isUpdated: true
 
 글꼴
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 폰트 다운로드 링크입니다:
 
@@ -64,7 +95,18 @@ isUpdated: true
 
 ![Email Signature](/assets/img/2024-07-09-EmailSignature_0.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ---
 
@@ -76,6 +118,17 @@ isUpdated: true
 
 Photo by brandifystudio on Envato Elements
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 면책 조항: 본 글에는 제휴 링크가 포함되어 있습니다. 이 링크를 통해 구매를 하시면 별도의 비용 없이 커미션을 받을 수 있습니다.

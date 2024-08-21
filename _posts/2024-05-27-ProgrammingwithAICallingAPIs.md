@@ -3,16 +3,13 @@ title: "AI와 함께 하는 프로그래밍,  API 호출하기"
 description: ""
 coverImage: "/assets/img/2024-05-27-ProgrammingwithAICallingAPIs_0.png"
 date: 2024-05-27 18:37
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-ProgrammingwithAICallingAPIs_0.png
 tag: Tech
 originalTitle: "Programming with AI — Calling APIs"
 link: "https://medium.com/@sausheong/programming-with-ai-calling-apis-1a01f19074b4"
 isUpdated: true
 ---
-
-
-
 
 몇 주 전에 AI 프로그래밍 수업을 가르쳐달라는 요청을 받았어요. 그래서 슬라이드와 코드를 열심히 준비했는데, 물질들이 커져갔어요. 그래서 이 모든 자료들을 하나로 모아 시리즈 형식의 글로 만들어보자는 생각이 들었죠. 수업 이후에 이를 참고할 수 있는 사람들이 많을 것이라 생각해요. 또한 이 글들은 세션 이후에도 수업에 도움이 될 수 있는 참고 자료가 될 거예요.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 ![Programming with AI Image](/assets/img/2024-05-27-ProgrammingwithAICallingAPIs_0.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 따뜻한 시작부터 시작해봅시다. 그것은 몇 가지 API를 호출하는 것을 의미합니다. AI를 활용하기 위해 API를 호출하는 것은 AI 능력에 가장 흔하고 쉬운 방법이에요. 많은 사람들이 이를 비웃고 "충분히 AI가 아니다" 라고 생각하지만, 그건 좀 어리석은 생각이죠 - 시스템의 가치는 사용자에게 기능을 제공하는 것이지 얼마나 많은 AI가 사용되었는지에 달려 있지 않습니다.
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 # REST APIs
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내가 아는 바에 의하면, 각 제공업체는 REST API를 갖고 있어요. 그들을 호출하는 것은 매우 간단해요. curl과 API URL 엔드포인트 그리고 JSON 페이로드를 전달하기만 하면 돼요.
 
@@ -59,7 +78,18 @@ $ curl https://api.openai.com/v1/chat/completions \
 
 각 제공업체로부터 유효한 API 키가 필요해요. 대부분의 경우 계정에 가입하고 API 키를 생성하기만 하면 돼요. API 키를 얻었다면 직접 전달하거나 환경 변수로 설정할 수 있어요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 $ export OPENAI_API_KEY=<당신의 API 키>
@@ -95,43 +125,61 @@ API를 호출하면 다음과 같은 결과가 반환되어야 합니다:
 
 아마도 OpenAI가 이러한 API를 처음으로 개발한 것이거나, 더 인기가 많아서 다른 많은 공급자들이 그들의 REST API에서 비슷한 형식을 사용하는 것일 수도 있습니다. 예를 들어, Anthropic의 형식은 다음과 같습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 $ curl https://api.anthropic.com/v1/messages \
-  -H "content-type: application/json" \
-  -H "x-api-key: $ANTHROPIC_API_KEY" \
-  -H "anthropic-version: 2023-06-01" \
-  -d '{
-    "model": "claude-3-opus-20240229",
-    "max_tokens": 1024,
-    "messages": [
-        {"role": "user", "content": "Why is the sky blue?"}
-    ]
+ -H "content-type: application/json" \
+ -H "x-api-key: $ANTHROPIC_API_KEY" \
+ -H "anthropic-version: 2023-06-01" \
+ -d '{
+"model": "claude-3-opus-20240229",
+"max_tokens": 1024,
+"messages": [
+{"role": "user", "content": "Why is the sky blue?"}
+]
 }'
-
 
 위에서 보듯이, API 키는 다른 헤더를 통해 전달되지만 페이로드는 거의 동일하지만 모델 작동 방식에 따라 약간 차이가 있습니다. 예를 들어, Anthropic에서 메시지의 일부로 시스템 역할 콘텐츠를 전달할 수 없습니다.
 
 또 다른 예시는 Mistral의 것입니다.
 
-
 $ curl https://api.mistral.ai/v1/chat/completions \
-     --header 'Content-Type: application/json' \
-     --header 'Accept: application/json' \
-     --header "Authorization: Bearer $MISTRAL_API_KEY" \
-     --data '{
-    "model": "mistral-large-latest",
-    "messages": [
-     {
-        "role": "user",
-        "content": "Why is the sky blue?"
-      }
-    ]
-  }'
+ --header 'Content-Type: application/json' \
+ --header 'Accept: application/json' \
+ --header "Authorization: Bearer $MISTRAL_API_KEY" \
+ --data '{
+"model": "mistral-large-latest",
+"messages": [
+{
+"role": "user",
+"content": "Why is the sky blue?"
+}
+]
+}'
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그런데, Google은 실제로 API에 대해 약간 다른 방식을 사용하며 API 키를 URL 쿼리의 일부로 전달하고 모델을 URL의 일부로 포함시킵니다. 페이로드도 다르지만 아이디어는 거의 동일합니다.
 
@@ -148,7 +196,18 @@ REST API는 정말 유용하고 거의 보편적입니다. 제공 업체에서 �
 
 그러나 대부분의 제공 업체는 대부분 Python을 지원하기도 합니다. 그 이유는 대부분의 AI 관련 작업이 Python으로 프로그래밍되기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 파이썬
 
@@ -171,7 +230,18 @@ print(completion.choices[0].message.content)
 
 너무 간단하죠? 클라이언트를 만들 때 매개변수와 옵션을 설정할 수 있지만 그게 전부입니다. API 키를 더 이상 지정할 필요가 없다는 것을 알아채셨을 것입니다. 환경 변수로 API 키를 설정했다면 Python 라이브러리가 해당 환경 변수에서 가져올 거에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요! Anthropic과 Mistral도 마찬가지에요.
 
@@ -207,7 +277,18 @@ chat_response = client.chat(
 print(chat_response.choices[0].message.content)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Google의 Python 라이브러리도 사용하기 매우 쉽지만, 다른 라이브러리들과 조금 다릅니다.
 
@@ -225,7 +306,18 @@ print(response.text)
 
 # Javascript
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파이썬이 가장 잘 지원되는 언어라고 해도, 인기가 많기 때문에 자바스크립트/타입스크립트도 많이 사용됩니다. 자바스크립트와 node.js를 사용하여 OpenAI API에 액세스하는 방법을 살펴봅시다.
 
@@ -237,9 +329,9 @@ const openai = new OpenAI();
 const completion = await openai.chat.completions.create({
   model: "gpt-4o",
   messages: [
-      { role: "system", content: "You are a helpful assistant." },
-      { role: "user", content: "Why is the sky blue?" }
-  ],    
+    { role: "system", content: "You are a helpful assistant." },
+    { role: "user", content: "Why is the sky blue?" },
+  ],
 });
 
 console.log(completion.choices[0]);
@@ -249,7 +341,18 @@ console.log(completion.choices[0]);
 
 이것이 JSON 결과 출력입니다 (completion.choices[0]만 표시).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Markdown 형식으로 표를 변경하려면 다음과 같이 하면 됩니다.
 
@@ -280,16 +383,14 @@ Markdown 형식으로 표를 변경하려면 다음과 같이 하면 됩니다.
 마찬가지로, Javascript와 node.js를 사용하여 Anthropic API를 호출하는 방법은 아래와 같습니다.
 
 ```js
-import Anthropic from '@anthropic-ai/sdk';
+import Anthropic from "@anthropic-ai/sdk";
 
 const anthropic = new Anthropic();
 
 const completion = await anthropic.messages.create({
   model: "claude-3-haiku-20240307",
   max_tokens: 1024,
-  messages: [
-    {"role": "user", "content": "하늘이 파란 이유는 무엇인가요?"}
-  ]
+  messages: [{ role: "user", content: "하늘이 파란 이유는 무엇인가요?" }],
 });
 
 console.log(completion);
@@ -297,8 +398,18 @@ console.log(completion);
 
 다른 공급자들로는 진행하지 않겠지만, 아이디어를 얻으실 수 있습니다. 공식적으로 지원되는 라이브러리를 사용하시려면 Python 및 Javascript가 좋습니다. REST API 외에도 Python 및 Javascript를 포함한 대부분의 공급자는 다른 언어에 대한 공식 지원이 없지만 Google은 훨씬 더 다양한 언어를 지원합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 다른 언어용 라이브러리가 없는 것은 아닙니다.
 
@@ -341,7 +452,18 @@ func main() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저기요! 여기 SwiftOpenAI라는 Swift용 써드파티 OpenAI 라이브러리가 있어요. XCode 프로젝트에서 패키지 종속성으로 추가해서 사용할 수 있어요. 이 함수는 OpenAI API를 호출하는 예시에요.
 
@@ -349,33 +471,33 @@ func main() {
     func sendMessage() async {
         let input = userInput.trimmingCharacters(in: .whitespacesAndNewlines)
         guard !input.isEmpty else { return }
-        
+
         let message = Message(content: input, isUser: true)
         messages.append(message)
         userInput = ""
-        
+
         let openAI = SwiftOpenAI(apiKey: Config.openAIKey)
         let msgs: [MessageChatGPT] = [
             MessageChatGPT(text: "You are a helpful assistant.", role: .system),
             MessageChatGPT(text: input, role: .user)
         ]
-        
+
         let optionalParameters = ChatCompletionsOptionalParameters(
             temperature: 0.7,
             stream: true,
             maxTokens: 1024
         )
-        
+
         do {
             let stream = try await openAI.createChatCompletionsStream(
                 model: .gpt4o(.base),
                 messages: msgs,
                 optionalParameters: optionalParameters
             )
-            
+
             let resp = Message(content: "", isUser: false)
             messages.append(resp)
-            
+
             for try await response in stream {
                 let content = response.choices[0].delta?.content ?? ""
                 if let lastMessage = messages.last, !lastMessage.isUser {
@@ -396,7 +518,18 @@ func main() {
 
 # LLM 프레임워크
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LLM 프레임워크는 LLM 기반 어플리케이션을 작성할 수 있게 해주는 어플리케이션 프레임워크의 일종입니다. 이러한 프레임워크는 지원과 구조를 제공하며, 일반적으로 LLM 기반 어플리케이션을 작성하는 방법을 표현합니다.
 
@@ -406,7 +539,18 @@ Langchain, LlamaIndex, Haystack 등 여러 프레임워크가 있지만, 이 글
 
 ## Langchain 🦜️🔗
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가장 인기 있는 프레임워크는 아마도 Langchain일 것입니다. Langchain은 2022년 10월에 처음 릴리스되었으며 그 이후로 급속하게 발전하여 LLM 세계의 거의 모든 것을 다루는데 이르렀습니다. 현재 시점에서 거의 400개의 릴리스에 이를 정도로 성장했습니다. 한 때 릴리스는 거의 매일 발생했으며 가끔은 하루에 두 번씩 이루어졌습니다!
 
@@ -432,20 +576,41 @@ results = chain.invoke({"input": "why is the sky blue?"})
 print(results)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코드를 한눈에 보면 그리 다른 것 같지는 않지만, 챗 프롬프트, LLM 및 출력 파서를 연결하여 결과를 생성했음을 알아차릴 수도 있을 것입니다. 이것은 Langchain의 더 강력한 기능 중 하나의 예시이며, Langchain에 이름을 부여한 것 중 하나인 연쇄입니다.
 
 연쇄는 서로 연결된 호출의 일련이다. 연쇄는 Langchain 표현 언어(LCEL)를 사용하여 생성되며, 가장 기본적인 연쇄는 위에서 보여진 것과 같습니다:
 
 ```js
-chain = prompt | llm | output_parser
+chain = prompt | llm | output_parser;
 ```
 
 연쇄를 실행하기 위해, 우리는 연쇄에 대해 몇 가지 메서드 중 하나를 호출하면 됩니다(위의 코드의 경우 invoke를 사용했습니다). 적절한 입력을 사용하여 호출하면 결과를 얻을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Programming with AI: Calling APIs](/assets/img/2024-05-27-ProgrammingwithAICallingAPIs_1.png)
 
@@ -487,8 +652,18 @@ results = chain.invoke("스마트 네이션은 어떻게 시민들의 삶을 개
 print(results)
 ```
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 코드에서는 먼저 hansard.txt 문서의 각 줄에서 인메모리 벡터 저장소를 만들고 OpenAI의 임베딩을 사용합니다. 벡터 저장소로부터 리트리버를 생성하여 프롬프트에 입력으로 적합한 줄을 가져올 수 있습니다.
 
@@ -498,7 +673,18 @@ print(results)
 
 나머지 부분은 거의 동일하지만 여기에 출력이 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 % python langchain_test_rag.py
@@ -511,8 +697,18 @@ print(results)
 
 다른 인기 있는 LLM 프레임워크인 LlamaIndex가 있습니다. LlamaIndex는 2022년 11월에 GPTIndex라는 이름의 프레임워크로 시작되었습니다. LlamaIndex의 기본 개념은 LLM을 데이터에 연결하는 것입니다. 실제로 LlamaIndex와 Langchain은 거의 동시에 시작되었다는 것에 주목할 수 있습니다. 사실, Langchain의 창시자인 해리슨 체이스와 LlamaIndex의 창시자인 제리 류는 인공 지능 보안 회사인 Robust Intelligence에서 동료였습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 빠른 대화 완성을 위해 LlamaIndex 사용 방법을 간단히 살펴봅시다.
 
@@ -547,7 +743,18 @@ response = query_engine.query("How has Smart Nation improved citizen's lives?")
 print(response)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, 데이터 디렉토리(즉, 우리의 hansard.txt 파일)에서 파일을 가져와서 벡터 저장소에 저장합니다. 그런 다음 해당 벡터 저장소를 쿼리 엔진으로 사용하여 쿼리를 보내면 문서에서 데이터를 사용하여 응답을 형성할 것입니다.
 

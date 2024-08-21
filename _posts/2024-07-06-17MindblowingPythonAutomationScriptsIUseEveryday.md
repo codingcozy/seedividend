@@ -3,15 +3,13 @@ title: "일상에서 유용한 놀라운 17가지 Python 자동화 스크립트"
 description: ""
 coverImage: "/assets/img/2024-07-06-17MindblowingPythonAutomationScriptsIUseEveryday_0.png"
 date: 2024-07-06 10:26
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-06-17MindblowingPythonAutomationScriptsIUseEveryday_0.png
 tag: Tech
 originalTitle: "17 Mindblowing Python Automation Scripts I Use Everyday"
 link: "https://medium.com/pythoneers/17-mindblowing-python-automation-scripts-i-use-everyday-523fb1eb9284"
 isUpdated: true
 ---
-
-
 
 ## 해야 할 자동화 스크립트 (컬렉션)
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 # 1. Speakify
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 책을 좋아하지만 혼자 읽는 것은 싫어해요. 대신에 책을 듣는 걸 좋아해요. 이 자동화 스크립트는 정말 생명 구조자인데요. PDF 파일을 듣기 위해 많이 사용해요.
 

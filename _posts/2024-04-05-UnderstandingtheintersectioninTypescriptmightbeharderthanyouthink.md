@@ -3,17 +3,13 @@ title: "TypeScript에서 intersection 알아보기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Understanding the intersection in Typescript might be harder than you think"
 link: "https://medium.com/@trekinbami/understanding-the-intersection-in-typescript-might-be-harder-than-you-think-d185beb234a0"
 isUpdated: true
 ---
-
-
-
-
 
 Typescript에서의 교차는 매우 쉬운 개념이에요. 여러 개의 타입을 하나로 결합하는 거죠? 음, 사실은 -그렇게- 간단하지 않아요. 왜 그런지 알아볼까요?
 
@@ -28,7 +24,18 @@ type Student = { grade: number };
 type Combined = Person & Student; // { name: string; grade: number; }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 이름 교집합은 집합 이론에서 온 것이에요
 
@@ -38,7 +45,18 @@ type Combined = Person & Student; // { name: string; grade: number; }
 
 # TypeScript에서 교집합이 어떻게 동작하는 걸까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 두 가지 객체 유형을 가져와 교차시켜 보겠습니다:
 
@@ -54,7 +72,18 @@ type Smallville = Hero & Villain;
 { hero: "Clark Kent", villain: "Lex Luthor" };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 집합 이론 예시에서의 교집합과는 다르게, 영웅(Hero)과 악당(Villain)은 공유 멤버를 갖고 있지 않습니다. 두 유형 모두에서 사용 가능한 키가 없습니다. 그렇다면 어떻게 결과를 얻었을까요? 무슨 것을 교차했을까요? 필수 속성이었을까요? 사실 아닙니다. 다음 예제가 어떤 결과를 내는지 생각해보세요:
 
@@ -72,7 +101,18 @@ type Example7 = ("Clark Kent" | "Bruce Wayne") & ("Lex Luthor" | "Joker");
 
 # 구조적 타이핑 이해하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인터섹션이 실제로 무엇을 하는지와 어떤 것을 교차하는지를 이해하려면 Typescript의 타입 시스템을 이해해야 합니다. Typescript는 구조적 타입 시스템을 가지고 있어서 타입은 클래스 또는 인터페이스의 이름이 아니라 데이터의 구조에 의해 결정됩니다 (명칭적 타이핑이 아닌 경우입니다). 하지만 이겯은 현재 단계에서는 아마 아무 의미가 없을 것입니다.
 
@@ -91,7 +131,18 @@ const movie = { title: "The Dark Knight" };
 const hero = printMovie(movie); // ✅
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이해가 돼요. 여기서 이상한 점은 없네요. 하지만, 익명 객체 movie에 추가 속성을 넣는다고 생각해 봅시다:
 
@@ -113,7 +164,18 @@ const movie = {
 const hero = printMovie(movie); // ✅
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 영화는 문자열 값이 있는 title 키를 가지고 있습니다. 따라서 영화 타입을 준수합니다. 다른 속성에 대해서는 신경쓰지 않습니다.
 
@@ -125,7 +187,18 @@ const hero = printMovie(movie); // ✅
 type Movie = { title: string };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해당 값이 최소한 { title: string } 키-값 쌍을 가지고 있다면 어떤 객체 값도 할당될 수 있다고 설명하고 있습니다. 아래 값들은 모두 type Movie에 대해 유효합니다:
 
@@ -145,7 +218,18 @@ const movie = {
 
 타입은 가능한 값의 집합을 설명합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 교집합은 유형에 할당할 수 있는 가능한 값들의 교집합입니다.
 
@@ -159,7 +243,18 @@ type Smallville = Hero & Villain;
 
 이것은 Hero와 Villain 두 유형을 포함하는 교집합입니다. Hero는 할당할 수 있는 거의 무한한 양의 가능한 값들을 설명합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const hero = { hero: "Clark Kent" };
@@ -176,7 +271,18 @@ const hero = { hero: "Clark Kent", villain: "Lex Luthor" };
 
 악당에 대해서도 마찬가지로:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const villain = { villain: "Lex Luthor" };
@@ -200,7 +306,18 @@ const villain = { villain: "lex luthor", hero: "clark kent" };
 
 그리고 그것이 교차하는 곳입니다. 그래서 교차점이라고 부릅니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Understanding the intersection in TypeScript might be harder than you think](/assets/img/UnderstandingtheintersectioninTypescriptmightbeharderthanyouthink_1.png)
 
@@ -212,7 +329,18 @@ const villain = { villain: "lex luthor", hero: "clark kent" };
 type Hero = string;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것도 마찬가지로 해야 합니다; 문자열 유형을 가능한 값 집합으로 간주해야 합니다. 이 경우 무한한 양의 리터럴 문자열 집합입니다:
 
@@ -232,7 +360,18 @@ const hero = "aquaman";
 
 이제 문자열 리터럴 유형을 만들어 봅시다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 type Villain = "Lex Luthor";
@@ -249,7 +388,18 @@ const villain = "Lex Luthor";
 
 우리는 이제 "Lex Luthor" 이외에 다른 값을 Villain에 할당할 수 없습니다. 왜냐하면 우리가 허용하는 가능한 값들의 집합이 단지 "Lex Luthor" 하나의 문자열 리터럴이라고 명시했기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 교차하는 곳을 살펴봅시다:
 
@@ -267,7 +417,18 @@ type Villain = "Lex Luthor";
 type MovieIntersection = Hero & Villain; // "Lex Luthor"
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 빈 교집합 (집합)은 never 타입을 생성합니다
 
@@ -285,7 +446,18 @@ type Ages = MinAge & MaxAge; // never
 
 ![이미지](/assets/img/UnderstandingtheintersectioninTypescriptmightbeharderthanyouthink_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 객체에도 동일한 규칙이 적용됩니다. 예를 들면; 문자열 상수를 키로 사용한 두 개의 세트는 일치하는 가능한 값이 결코 없을 것입니다.
 
@@ -299,7 +471,18 @@ type Characters = Hero & Villain; // 결코
 
 이론을 살펴보고 왜 그렇게 불리는지 및 작동 방식에 대해 이야기했습니다. 하지만 중요한 점 한 가지를 놓치지 마세요. Typescript는 구조적 타입의 표준 구현에서 특정한 예외를 만들었습니다: 주석이 달린 객체 리터럴에는 초과 속성이 검사될 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이렇게 설명할게요; 우리 이전 예제는 다음과 같아요:
 
@@ -315,7 +498,18 @@ const movie = { title: "The Dark Knight", hero: "Batman" };
 const hero = printMovie(movie); ✅
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 객체 리터럴을 삽입하려고 하면:
 
@@ -332,7 +526,18 @@ Typescript는 오류를 표시할 것입니다:
 ❌ Object literal may only specify known properties, and 'hero' does not exist in type 'Movie'.(2353)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 이유는 TypeScript가 객체 리터럴에 대한 내장 초과 속성 확인을 가지고 있기 때문입니다. 명시적으로 Movie 유형과 정확히 일치하지 않는 값을 값으로 전달할 때 오류를 발생시켰다고 가정합니다.
 
@@ -347,7 +552,18 @@ const movie: Movie = { title: "Superman", villain: "Lex Luthor" };
 
 # 마무리말
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Typescript의 타입 시스템을 이해하는 것이 언어를 숙달하는 열쇠라고 생각합니다. 우리는 교차점에 초점을 맞추었지만, 동일한 원칙을 Typescript의 다른 부분에도 적용할 수 있습니다.
 

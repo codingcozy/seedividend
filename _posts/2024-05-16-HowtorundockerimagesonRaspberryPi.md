@@ -3,16 +3,13 @@ title: "라즈베리 파이에서 도커 이미지를 실행하는 방법"
 description: ""
 coverImage: "/assets/img/2024-05-16-HowtorundockerimagesonRaspberryPi_0.png"
 date: 2024-05-16 17:30
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-16-HowtorundockerimagesonRaspberryPi_0.png
 tag: Tech
 originalTitle: "How to run docker images on Raspberry Pi"
 link: "https://medium.com/@dogabudak/how-to-run-docker-images-on-raspberry-pi-ed63b0b9b758"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-05-16-HowtorundockerimagesonRaspberryPi_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 # SD 카드 준비하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 라즈베리 파이 OS의 최신 버전을 다운로드하려면 다음 단계를 따라주세요:
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 3. 라즈베리 파이 OS 선택: 다운로드 섹션 안에서 사용 가능한 운영 체제 목록을 보실 수 있습니다. "Raspberry Pi OS" 또는 해당 변형(최소 버전의 경우 "Raspberry Pi OS Lite"와 같은)을 찾아주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. 에디션 선택: 사용 가능한 다양한 에디션이 있을 수 있습니다. 전체 데스크톱 버전이나 Lite 버전과 같이 선택할 수 있습니다. 당신의 요구에 가장 잘 맞는 것을 선택하세요. 데스크톱 버전에는 그래픽 사용자 인터페이스가 포함되어 있고 Lite 버전은 명령줄만 지원합니다. 저는 대부분의 경우 Lite 버전을 선호합니다.
 
@@ -42,7 +61,18 @@ isUpdated: true
 
 7. SD 카드 준비: 다운로드가 완료되면, 다운로드한 이미지를 SD 카드에 작성해야 합니다. 이 작업에는 Etcher(https://www.balena.io/etcher/)와 같은 소프트웨어를 사용할 수 있습니다. 소프트웨어가 제공하는 지침에 따라 이미지를 SD 카드에 작성하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SD 카드를 추출하기 전에 해당 카드에서 SSH를 활성화하세요. 라즈베리파이 재단은 라즈베리파이 전역의 보안을 향상시키고 해킹 위험을 줄이기 위해 예방 조치로 기본 이미지에서 SSH(Secure Shell) 액세스를 비활성화했습니다. 대신 사용자는 "boot/" 디렉토리에 "ssh"라는 이름의 텍스트 파일을 만듦으로써 SSH를 활성화할 수 있습니다. 이 파일은 비어 있어도 되고 원하는 텍스트를 포함할 수도 있습니다.
 
@@ -52,7 +82,18 @@ SD 카드를 추출하기 전에 해당 카드에서 SSH를 활성화하세요. 
 
 # Docker 설치
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 라즈베리 파이를 부팅하면 본주어(avahi) 서비스를 통해 네트워크에서 해당 장치를 찾을 수 있습니다.
 
@@ -64,7 +105,18 @@ $ ssh pi@raspberrypi.local
 
 비밀번호는 raspberry입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 보안 상의 이유로 passwd 명령어를 사용하여 사용자 pi의 암호를 변경하는 것이 좋습니다.
 
@@ -74,7 +126,18 @@ $ ssh pi@raspberrypi.local
 
 Docker 프로젝트에서 유지보수하는 스크립트는 systemd 서비스 파일의 생성을 자동화하고 관련 Docker 이진 파일을 /usr/bin/ 디렉토리로 복사합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스크립트를 실행하려면 다음 명령을 실행하세요:
 
@@ -86,7 +149,18 @@ curl -sSL https://get.docker.com | sh
 
 더 최신 버전을 테스트하고 싶다면 get.docker.com을 test.docker.com으로 교체하여 테스트 버전 사용으로 전환할 수 있습니다. 그러나 이러한 버전에는 아직 해결되지 않은 문제가 일부 남아 있을 수 있음을 감안해주시기 바랍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 도커 구성
 
@@ -98,7 +172,18 @@ curl -sSL https://get.docker.com | sh
 $ sudo systemctl enable docker
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 라즈베리 파이를 다시 시작하거나 다음 명령을 사용하여 도커 데몬을 시작할 수 있습니다:
 
@@ -110,7 +195,18 @@ $ sudo systemctl start docker
 
 도커 클라이언트를 사용하려면 관리자 권한이 있거나 docker 그룹에 속해 있어야 합니다. "pi" 사용자 또는 그와 동일한 권한을 가진 사용자가 docker 그룹에 추가되었는지 확인하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 $ sudo usermod -aG docker pi
@@ -122,8 +218,18 @@ $ sudo usermod -aG docker pi
 
 ARM 아키텍처를 사용하는 Raspberry Pi 3 및 Raspberry Pi 4와 같은 모델을 위한 이미지는 대부분 latest로 표시되어 있어 ARM 아키텍처를 지원하도록 제작되어있어 잘 작동해야 합니다. 그러나 ARMv6 아키텍처를 사용하는 이전 모델 (예: Raspberry Pi 1 및 Raspberry Pi Zero)의 경우 호환성이 제한 될 수 있으며 ARMv6를 대상으로한 이미지를 별도로 지정하거나 직접 빌드해야 할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도커를 실행할 준비가 되었습니다. 라즈베리 파이를 사용할 수 있습니다. 이제 라즈베리 파이에서 새 이미지를 실행해 보세요. 제 웹 서비스를 라즈베리 파이에 배포하고 집에서 애플리케이션 백엔드를 실행할 예정입니다.
 

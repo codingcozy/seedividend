@@ -3,7 +3,7 @@ title: "Kotlin Multiplatform과 Swift 간의 격차를 좁히는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-17-BridgingtheGapBetweenKotlinMultiplatformandSwift_0.png"
 date: 2024-08-17 01:37
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-17-BridgingtheGapBetweenKotlinMultiplatformandSwift_0.png
 tag: Tech
 originalTitle: "Bridging the Gap Between Kotlin Multiplatform and Swift"
@@ -11,7 +11,6 @@ link: "https://medium.com/next-level-swift/bridging-the-gap-between-kotlin-multi
 isUpdated: true
 updatedAt: 1723864122912
 ---
-
 
 코틀린 멀티플랫폼과 스위프트를 사용하고 계신가요? SKIE를 탐험하고 이 도구가 프로세스를 간소화하고 스위프트 개발자를 능력있게 만드는 방법을 배워보세요.
 
@@ -25,8 +24,18 @@ updatedAt: 1723864122912
 - 안드로이드와 iOS용으로 만든 모든 네이티브 라이브러리 사용 가능.
 - 필요한 경우 플랫폼별 코드 작성 가능.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 스위프트 / iOS 개발자를 위한 도전 과제
 
@@ -41,7 +50,18 @@ updatedAt: 1723864122912
 
 ![이미지](/assets/img/2024-08-17-BridgingtheGapBetweenKotlinMultiplatformandSwift_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서 코틀린과 스위프트는 모두 현대적인 언어이지만, 두 언어 간의 호환성은 좋지 않아요. 주된 이유는 코틀린 코드가 코틀린의 일부 기능이 부족한 Objective-C로 번역되기 때문이에요.
 
@@ -51,12 +71,23 @@ updatedAt: 1723864122912
 
 # SKIE 기능
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 완전한 열거형: Swift는 이제 Kotlin에서 완전한 열거형을 처리할 수 있어서 기본 케이스가 필요 없어졌어요.
 - 기본 인수: Kotlin 함수에서 정의된 기본 인수는 이제 Swift에서 사용할 수 있어서 모든 인수를 전달할 필요가 없어요.
 - 완전한 실드 클래스: 열거형과 마찬가지로 이제 Swift 컴파일러는 각 가능한 Kotlin 데이터 클래스나 데이터 객체에 대한 케이스를 구현했는지 감지할 수 있어요. 게다가 Kotlin 데이터 클래스의 연관 값을 쉽게 액세스할 수 있어요.
-우리는 실드 클래스를 스위치하는 것이 조금 다르다는 점을 명심하기만 하면 됩니다:
+  우리는 실드 클래스를 스위치하는 것이 조금 다르다는 점을 명심하기만 하면 됩니다:
 
 ![이미지](/assets/img/2024-08-17-BridgingtheGapBetweenKotlinMultiplatformandSwift_2.png)
 
@@ -67,19 +98,41 @@ updatedAt: 1723864122912
 - Kotlin Flow는 Swift의 비동기 수명 주기에 참여합니다. 예를 들어, SwiftUI 뷰의 task 수정자에서 Flow를 관찰하면 뷰가 제거될 때 자동으로 취소될 거에요.
 - StateFlow의 특별한 구현이 있어서(StateFlow messages인 경우) 다음과 같이 StateFlow의 값을 가져오고 설정(가변이면)할 수 있어요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-08-17-BridgingtheGapBetweenKotlinMultiplatformandSwift_3.png" />
 
 - Suspend functions: SKIE를 통해 우리는 어떤 스레드에서든 Kotlin 일시 중단 함수를 호출하고 동시에 취소를 관리할 수 있습니다!
 - 오류 처리: 취소를 지원하기 위해 일시 중단 함수는 throwable async Swift 함수로 변환됩니다. 그러나 CancellationException 이외의 예외가 발생하면 Kotlin 내에서 오류가 발생합니다.
-그러나 @Throws 어노테이션을 추가하면 예외는 스위프트 측에서 나타나며 그곳에서 잡고 처리할 수 있습니다:
+  그러나 @Throws 어노테이션을 추가하면 예외는 스위프트 측에서 나타나며 그곳에서 잡고 처리할 수 있습니다:
 
 <img src="/assets/img/2024-08-17-BridgingtheGapBetweenKotlinMultiplatformandSwift_4.png" />
 
 # SKIE가 작동하는 방식
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SKIE는 Kotlin 구현과 클래스를 나타내는 Swift 코드를 생성하여 통합을 간소화합니다. 이 생성된 코드는 두 언어 사이의 다리 역할을 하며 개발자들에게 익숙한 Swift API를 제공합니다.
 
@@ -89,7 +142,18 @@ SKIE는 Kotlin 구현과 클래스를 나타내는 Swift 코드를 생성하여 
 
 # 플러그인 구성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SKIE는 글로벌(global) 및 로컬(local) 두 가지 구성 옵션을 제공합니다.
 
@@ -98,16 +162,27 @@ SKIE는 글로벌(global) 및 로컬(local) 두 가지 구성 옵션을 제공�
 이 접근 방식은 Gradle 파일 내에서 구성을 설정하는 것을 포함합니다
 
 ```js
-skie { 
-features { 
-       group { 
-          FlowInterop.Enabled(true) 
-      } 
+skie {
+features {
+       group {
+          FlowInterop.Enabled(true)
+      }
     }
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 경우에는 Flow 상호 운용성 기능이 프로젝트 전체에서 기본적으로 활성화됩니다. 그러나 SKIE를 사용하면 특정 패키지에서 기능을 선택적으로 활성화할 수 있습니다. 코드베이스의 특정 부분에서만 Flow 지원이 필요한 경우 유용할 수 있습니다.
 
@@ -123,7 +198,18 @@ fun enabledFlow(): Flow<Int> = flowOf(1)
 fun disabledFlow(): Flow<Int> = flowOf(1)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 gradle 구성 옵션과 주석의 전체 목록을 확인할 수 있어요.
 
@@ -133,7 +219,18 @@ fun disabledFlow(): Flow<Int> = flowOf(1)
 
 기존 프로젝트의 경우, SKIE 기능을 기본적으로 활성화하는 것은 좋은 아이디어가 아닐 수도 있어요. 기존 코드베이스에 SKIE를 활성화하는 것은 망가진 코드를 유발할 가능성이 매우 높습니다. SKIE의 각 기능을 활성화하는 것에 대한 위험을 검토해봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Sealed Classes: SKIE가 원본 sealed 클래스를 내보낸 Objective-C 헤더에 유지하고 병렬 Swift 열거형을 생성하기 때문에 Sealed 클래스를 활성화해도 안전합니다.
 - Enums: SKIE는 이전의 Kotlin enum 이름을 가진 새로운 Swift enum을 생성하고 Kotlin enum 앞에 두 개의 밑줄을 붙여 숨깁니다. SKIE에 따르면, 열거형을 기본적으로 활성화하는 것은 컴파일 문제를 일으킬 수 있습니다.
@@ -149,7 +246,18 @@ fun disabledFlow(): Flow<Int> = flowOf(1)
 
 알려진 문제 및 제한 사항 목록을 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 마지막으로
 
@@ -159,7 +267,18 @@ SKIE는 Swift와 Kotlin Multiplatform 개발 간의 간극을 줄이는 데 유�
 
 아직 제가 SKIE를 제품 애플리케이션에서 사용해 본 경험은 없지만, 빌드 시간과 이진 크기의 증가 가능성은 유효한 우려입니다. 다행히도, SKIE의 기능 선택의 유연성을 통해 개발자들은 필요한 경우에만 해당 기능을 활성화하여 이러한 우려를 완화할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SKIE는 Kotlin Multiplatform을 사용하는 Swift 및 Android 개발자들을 위한 통합 개발 환경을 위한 중요한 한 걸음을 나타냅니다.
 

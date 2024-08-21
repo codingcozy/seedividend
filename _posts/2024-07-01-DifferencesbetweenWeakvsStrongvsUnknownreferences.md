@@ -3,16 +3,13 @@ title: "약한 참조 vs 강한 참조 vs 알 수 없는 참조 차이점 비교
 description: ""
 coverImage: "/assets/img/2024-07-01-DifferencesbetweenWeakvsStrongvsUnknownreferences_0.png"
 date: 2024-07-01 17:04
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-01-DifferencesbetweenWeakvsStrongvsUnknownreferences_0.png
 tag: Tech
 originalTitle: "Differences between Weak vs Strong vs Unknown references"
 link: "https://medium.com/@dyaremyshyn/differences-between-weak-vs-strong-vs-unknown-references-ee5dd822a2ed"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-07-01-DifferencesbetweenWeakvsStrongvsUnknownreferences_0.png" />
 
@@ -26,7 +23,18 @@ Swift에서 객체에 대한 참조는 3가지 유형의 참조(weak, strong, un
 - 자동 Nil 할당: 약한 참조가 가리키는 객체가 해제되면, 약한 참조는 자동으로 nil로 설정됩니다.
 - 사용 방법: 약한 참조를 사용하여 강한 참조 순환을 피하십시오. 일반적으로 부모-자식 관계에서 부모가 살아 있어야 하는 경우에는 자식은 부모를 유지하지 않아야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 강력한 참조
 
@@ -42,7 +50,18 @@ Swift에서 객체에 대한 참조는 3가지 유형의 참조(weak, strong, un
 - 자동적으로 nil 할당하지 않음: 무소유 참조는 참조하는 객체가 해제될 때 자동으로 nil이 되지 않습니다. 객체가 해제된 후에 액세스하면 런타임 충돌이 발생합니다.
 - 사용: 참조하는 객체가 무소유 참조가 사용 중인 한 해제되지 않을 것이 확실한 경우에 사용하며, 일반적으로 참조하는 객체가 더 긴 수명주기를 가지는 경우에 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## ARC(자동 참조 계산)는 클래스 인스턴스의 메모리 관리에 어떤 영향을 미치나요?
 
@@ -54,7 +73,18 @@ ARC는 컴파일 시간에 정의된 객체의 범위에 따라 retain, release,
 
 새로운 클래스 인스턴스를 만들 때마다, ARC는 해당 인스턴스에 대한 데이터를 저장할 메모리를 할당합니다. 필요 없어지면 해당 인스턴스에 사용된 메모리를 해제하여 메모리를 다른 목적으로 사용할 수 있게 합니다. 클래스의 각 인스턴스에는 참조 횟수라는 속성이 있으므로, 참조 횟수가 0보다 크다면 인스턴스는 여전히 메모리에 유지되고, 그렇지 않으면 메모리에서 제거됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -64,7 +94,18 @@ ARC는 컴파일 시간에 정의된 객체의 범위에 따라 retain, release,
 
 약한 참조는 특히 한 객체가 다른 객체의 할당 해제를 막아서는 안 되는 경우에 메모리 누수를 방지하기 위한 중요한 도구입니다. 참조 대상 객체가 할당 해제되면 자동으로 nil로 설정되므로 약한 참조를 통해 메모리 누출을 피하고 깨끗한 객체 라이프사이클을 유지할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 소유권이 유지되지 않지만 참조가 사용 중 일 때 항상 유효하다고 예상되는 중간 지점을 제공하는 미소유 참조(unowned references)가 있습니다. 이러한 미소유 참조는 참조된 객체가 미소유 참조가 스코프 내에 있는 한 살아 있음을 보장하는 명확하고 장기적인 소유권 관계가 있는 경우 특히 유용합니다. 그러나 개발자는 조심해야 합니다. 미소유 참조가 할당 해제된 객체에 액세스하면 실행 중에 충돌이 발생할 수 있습니다.
 

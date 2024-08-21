@@ -3,17 +3,13 @@ title: "네이티브 애플리케이션을 위한 Rust를 이용한 선언적 UI
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Declarative UI Programming in Rust for Native Applications"
 link: "https://medium.com/better-programming/declarative-ui-programming-in-rust-for-native-applications-d93862886545"
 isUpdated: true
 ---
-
-
-
-
 
 ![image](/assets/img/DeclarativeUIProgramminginRustforNativeApplications_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 Appy는 Rust, RSX, OpenGL 및 Simple DirectMedia Layer (SDL) 라이브러리에 의존하여 그래픽을 렌더링합니다. SDL은 크로스 플랫폼 기능을 제공하므로 Appy로 구축된 응용 프로그램은 여러 플랫폼에 배포될 수 있습니다. 그러나 현재 Android 및 데스크톱 버전의 배포 툴만 완전히 운영 중입니다. 그렇다고 해도 iOS 또는 wasm 도구 체인을 추가하는 것은 간단한 프로세스여야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 안녕, 세상아!
 
@@ -43,7 +50,18 @@ pub fn app() -> Elements {
 
 그러나 리액트와 달리, Appy는 UI 업데이트를 관리하기 위해 가상 DOM을 사용하지 않습니다. 대신 Appy는 OpenGL를 사용하여 구성 요소를 직접 렌더링합니다. 이 접근 방식은 DOM이나 그를 업데이트하는 필요가 없어지므로 전통적인 UI 프레임워크보다 빠르고 효율적인 성능 이점을 제공하는 보다 가벼우며 빠르며 효율적인 프레임워크를 선사합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 훅
 
@@ -76,7 +94,18 @@ pub fn app()->Elements {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 배포
 
@@ -86,7 +115,18 @@ pub fn app()->Elements {
 
 Appy의 코드는 GitHub에서 확인할 수 있고, 몇 가지 예제도 제공됩니다. 그 중 하나는 간단한 계산기이며, 이 프레임워크를 사용하는 데 어떤 느낌인지 알아보기 위해 만들었어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Appy를 사용하는 작업 흐름을 매우 즐겁게 느꼈습니다. 함수형 스타일로 코드를 작성할 수 있으면서도 가상 DOM을 다룰 필요 없이 네이티브 성능을 얻을 수 있다는 것은 상쾌했습니다. Rust 클로저를 사용해 상태 업데이트 및 기타 이벤트를 처리하는 것이 자연스럽고 직관적으로 느껴졌어요.
 
@@ -96,7 +136,18 @@ Appy 작업을 계속 진행하고 Rust에서 선언적 UI 프로그래밍의 �
 
 여기까지 오신 분이라면, 제가 현재 흥미로운 프로젝트에 기여할 수 있는 직업 기회를 찾고 있음을 언급하고 싶습니다. 혹시 Appy를 활용하고 발전시킬 수 있는 프로젝트가 있다면? 아니면 다른 흥미로운 것이라도.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 r/rust와 Rust 포럼에서 토론해보세요.
 
@@ -106,7 +157,18 @@ r/rust와 Rust 포럼에서 토론해보세요.
 
 ## 참고 자료 및 링크
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 깃허브에 있는 소스 코드를 확인해보세요. 몇 가지 예제와 빌드 방법에 대한 설명이 포함되어 있어요.
 - Rust와 SDL을 사용하여 안드로이드 앱을 빌드하는 튜토리얼이 있어요. 제 배포 도구가 이 프로세스를 자동화해줘요.

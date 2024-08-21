@@ -3,17 +3,13 @@ title: "Nextjs 14에서 middlewarejs로 미들웨어 관리하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # Nextjs 14에서 middleware.js로 미들웨어 관리하는 방법
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 프로젝트의 루트에 middleware.ts (또는 .js) 파일을 사용하여 미들웨어를 정의하세요. 예를 들어, app이나 pages와 같은 수준이거나 해당하는 경우 src 내부에 위치시킬 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```typescript
 import { NextResponse, NextRequest } from "next/server";
@@ -44,7 +51,18 @@ export const config = {
 
 파일은 기본 내보내기 또는 명명된 미들웨어로 단일 함수를 내보내야 합니다. 동일한 파일에서 여러 미들웨어를 지원하지 않는다는 점을 유의하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 기본 내보내기 예시
@@ -59,7 +77,18 @@ export default function middleware(request) {
 
 #### 매처
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 매처 옵션은 미들웨어가 실행되는 특정 경로를 대상으로 지정할 수 있습니다. 이러한 경로를 지정하는 방법은 다음과 같습니다:
 
@@ -70,7 +99,18 @@ export default function middleware(request) {
 
 매처 옵션은 다음 키를 가진 객체 배열도 허용합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 소스: 요청 경로와 일치시키기 위해 사용되는 경로 또는 패턴입니다. 직접 경로 일치를 위한 문자열 또는 더 복잡한 매칭을 위한 패턴일 수 있습니다.
 - regexp (선택 사항): 소스를 기반으로 매칭을 미세 조정하는 정규 표현식 문자열입니다. 특정 경로가 포함되거나 제외되는 추가 제어를 제공합니다.
@@ -99,7 +139,18 @@ export const config = {
 
 ### 요청
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 미들웨어를 정의할 때, 기본 내보내기 함수는 request라는 단일 매개변수를 받습니다. 이 매개변수는 NextRequest의 인스턴스로, 들어오는 HTTP 요청을 나타냅니다.
 
@@ -116,7 +167,18 @@ export function middleware(request: NextRequest) {
 
 ## NextResponse
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 > 미들웨어는 Web Response API를 확장하는 NextResponse 객체를 사용할 수 있어요. NextResponse 객체를 반환함으로써 쿠키를 직접 조작하고, 헤더를 설정하고, 리디렉트를 구현하며, 경로를 재작성할 수 있어요.
 
@@ -126,7 +188,18 @@ export function middleware(request: NextRequest) {
 
 미들웨어는 Edge 런타임만 지원해요. Node.js 런타임은 사용할 수 없어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 버전 이력
 
@@ -138,4 +211,15 @@ export function middleware(request: NextRequest) {
 | `v12.0.9` | Edge 런타임에서 절대 URL을 강제로 사용함 (<a href="https://github.com/vercel/next.js/pull/33410" rel="noopener noreferrer" target="_blank">PR<span class="inline-flex"><svg class="with-icon_icon__MHUeb" data-testid="geist-icon" fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24" style="color:currentColor;width:14px;height:14px"><path d="M7 17L17 7"></path><path d="M7 7h10v10"></path></svg></span></a>) |
 | `v12.0.0` | 미들웨어 (베타) 추가됨                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

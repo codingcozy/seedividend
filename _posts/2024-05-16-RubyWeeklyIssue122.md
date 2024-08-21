@@ -3,16 +3,13 @@ title: "루비 주간 이슈 122"
 description: ""
 coverImage: "/assets/img/2024-05-16-RubyWeeklyIssue122_0.png"
 date: 2024-05-16 16:36
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-16-RubyWeeklyIssue122_0.png
 tag: Tech
 originalTitle: "Ruby Weekly Issue 122"
 link: "https://medium.com/rubyweekly/ruby-weekly-issue-122-ed3721235236"
 isUpdated: true
 ---
-
-
-
 
 환영합니다! 루비 주간 뉴스 및 기사를 무료로 제공해주는 Ruby Weekly의 122호에 오신 것을 환영합니다.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 Stripe, PayPal을 통해 일회성 기부를 하거나, 아마존 제휴 링크를 이용해 주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 기사 및 자습서
 
@@ -32,7 +40,18 @@ Stripe, PayPal을 통해 일회성 기부를 하거나, 아마존 제휴 링크�
 
 Ko-Fi에서 일시적 또는 매달 기부로 Ruby Weekly를 지원해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 번성기 기증을 하려면 Stripe, PayPal을 사용하거나 당사의 Amazon 제휴 링크를 이용해주세요.
 

@@ -3,17 +3,13 @@ title: "2024년, ReactJS 코딩 면접 과제 10개 소개"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Top 10 ReactJS Coding Interview Challenge For 2024"
 link: "https://medium.com/javascript-in-plain-english/top-10-reactjs-coding-interview-challenge-for-2024-c1e591f9384c"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/Top10ReactJSCodingInterviewChallengeFor2024_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 오픈 소스 REST 엔드포인트에서 사용자의 세부 정보를 가져오고 테이블에서 적절한 스타일로 사용자의 세부 정보를 중앙에 표시하는 코드를 작성하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import React, { useEffect, useState } from "react";
@@ -39,9 +46,7 @@ const App = () => {
         console.log("users", data);
         setUsers(data);
       })
-      .catch((error) =>
-        console.error("사용자 데이터를 불러오는 중 오류 발생:", error)
-      );
+      .catch((error) => console.error("사용자 데이터를 불러오는 중 오류 발생:", error));
   }, []);
 
   return (
@@ -144,7 +149,18 @@ function UserTable() {
 export default UserTable;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 작업-2: 검색 기능 구현
 
@@ -164,9 +180,7 @@ const UserList = () => {
       .catch((error) => console.error("사용자 데이터 가져오기 오류:", error));
   }, []);
 
-  const filteredUsers = users.filter((user) =>
-    user.name.toLowerCase().includes(searchTerm.toLowerCase())
-  );
+  const filteredUsers = users.filter((user) => user.name.toLowerCase().includes(searchTerm.toLowerCase()));
 
   return (
     <div>
@@ -191,11 +205,33 @@ export default UserList;
 
 ## 작업-3: 디바운스와 취소 가능 기술을 사용한 최적화된 검색
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 Markdown 형식으로 변경하실래요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { useState, useEffect } from "react";
@@ -215,16 +251,12 @@ const App = () => {
   }, []);
 
   const handleAscendingSort = () => {
-    const users = [...usersData].sort((a, b) =>
-      a.username.localeCompare(b.username)
-    );
+    const users = [...usersData].sort((a, b) => a.username.localeCompare(b.username));
     setUsersData(users);
   };
 
   const handleDescendingSort = () => {
-    const users = [...usersData].sort((a, b) =>
-      b.username.localeCompare(a.username)
-    );
+    const users = [...usersData].sort((a, b) => b.username.localeCompare(a.username));
     setUsersData(users);
   };
 
@@ -269,12 +301,8 @@ const UserRegistrationForm = () => {
   const schema = Yup.object().shape({
     firstName: Yup.string().required("이름을 입력해주세요"),
     lastName: Yup.string().required("성을 입력해주세요"),
-    email: Yup.string()
-      .email("유효하지 않은 이메일입니다")
-      .required("이메일을 입력해주세요"),
-    password: Yup.string()
-      .required("비밀번호를 입력해주세요")
-      .min(6, "비밀번호는 최소 6자 이상이어야 합니다"),
+    email: Yup.string().email("유효하지 않은 이메일입니다").required("이메일을 입력해주세요"),
+    password: Yup.string().required("비밀번호를 입력해주세요").min(6, "비밀번호는 최소 6자 이상이어야 합니다"),
   });
 
   const validateField = async (name, value) => {
@@ -317,56 +345,26 @@ const UserRegistrationForm = () => {
       <h2>사용자 등록</h2>
       <form onSubmit={handleSubmit}>
         <div>
-          <input
-            type="text"
-            name="firstName"
-            value={formData.firstName}
-            onChange={handleChange}
-          />
-          {errors.firstName && (
-            <span className="error-message">{errors.firstName}</span>
-          )}
+          <input type="text" name="firstName" value={formData.firstName} onChange={handleChange} />
+          {errors.firstName && <span className="error-message">{errors.firstName}</span>}
         </div>
         <div>
-          <input
-            type="text"
-            name="lastName"
-            value={formData.lastName}
-            onChange={handleChange}
-          />
-          {errors.lastName && (
-            <span className="error-message">{errors.lastName}</span>
-          )}
+          <input type="text" name="lastName" value={formData.lastName} onChange={handleChange} />
+          {errors.lastName && <span className="error-message">{errors.lastName}</span>}
         </div>
         <div>
-          <input
-            type="email"
-            name="email"
-            value={formData.email}
-            onChange={handleChange}
-          />
-          {errors.email && (
-            <span className="error-message">{errors.email}</span>
-          )}
+          <input type="email" name="email" value={formData.email} onChange={handleChange} />
+          {errors.email && <span className="error-message">{errors.email}</span>}
         </div>
         <div>
-          <input
-            type="password"
-            name="password"
-            value={formData.password}
-            onChange={handleChange}
-          />
-          {errors.password && (
-            <span className="error-message">{errors.password}</span>
-          )}
+          <input type="password" name="password" value={formData.password} onChange={handleChange} />
+          {errors.password && <span className="error-message">{errors.password}</span>}
         </div>
         <button type="submit" disabled={loading}>
           {loading ? "제출 중..." : "제출"}
         </button>
       </form>
-      {successMessage && (
-        <div className="success-message">{successMessage}</div>
-      )}
+      {successMessage && <div className="success-message">{successMessage}</div>}
     </div>
   );
 };
@@ -374,7 +372,18 @@ const UserRegistrationForm = () => {
 export default UserRegistrationForm;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 작업-6: 다크 모드 및 라이트 모드
 
@@ -409,7 +418,18 @@ export const DisplayModeProvider = ({ children }) => {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - App.js 파일
 
@@ -429,9 +449,7 @@ export default function App() {
   return (
     <div style={appStyle}>
       <h3>디스플레이 모드를 변경하려면 아래 버튼을 누르세요</h3>
-      <button onClick={() => toggleDisplayMode()}>
-        {displayMode === "light" ? "다크 모드" : "라이트 모드"}
-      </button>
+      <button onClick={() => toggleDisplayMode()}>{displayMode === "light" ? "다크 모드" : "라이트 모드"}</button>
     </div>
   );
 }
@@ -458,7 +476,18 @@ root.render(
 );
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 태스크-7: 할 일 목록
 
@@ -504,8 +533,7 @@ export default function App() {
             taskList.map((item, index) => (
               <div key={index}>
                 <li>
-                  {item}{" "}
-                  <button onClick={() => handleRemoveTask(index)}>삭제</button>
+                  {item} <button onClick={() => handleRemoveTask(index)}>삭제</button>
                 </li>
               </div>
             ))}
@@ -518,7 +546,18 @@ export default function App() {
 
 ## 태스크-8: 쇼핑 카트 컴포넌트
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```json
 {
@@ -542,7 +581,18 @@ export default function App() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { useState } from "react";
@@ -589,10 +639,7 @@ export default function App() {
   };
 
   const calculateTotal = () => {
-    return cart.reduce(
-      (total, item) => total + item.price * (item.quantity || 1),
-      0
-    );
+    return cart.reduce((total, item) => total + item.price * (item.quantity || 1), 0);
   };
 
   return (
@@ -612,12 +659,7 @@ export default function App() {
         {cart.map((item) => (
           <li key={item.id}>
             {item.name} - ${item.price} -
-            <select
-              value={item.quantity || 1}
-              onChange={(e) =>
-                updateQuantity(item.id, parseInt(e.target.value))
-              }
-            >
+            <select value={item.quantity || 1} onChange={(e) => updateQuantity(item.id, parseInt(e.target.value))}>
               {[...Array(5).keys()].map((number) => (
                 <option key={number + 1} value={number + 1}>
                   {number + 1}
@@ -640,7 +682,18 @@ API에서 데이터를 가져와 고정된 페이지 당 항목 수를 보여주
 
 -paginated.js
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import React, { useState, useEffect } from "react";
@@ -653,9 +706,7 @@ const PaginationComponent = ({ apiUrl, itemsPerPage }) => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch(
-          `${apiUrl}?_page=${currentPage}&_limit=${itemsPerPage}`
-        );
+        const response = await fetch(`${apiUrl}?_page=${currentPage}&_limit=${itemsPerPage}`);
         // API가 JSON 데이터로 응답한다고 가정
         const jsonData = await response.json();
         setData(jsonData);
@@ -682,19 +733,13 @@ const PaginationComponent = ({ apiUrl, itemsPerPage }) => {
         ))}
       </ol>
       <div>
-        <button
-          onClick={() => handlePageChange(currentPage - 1)}
-          disabled={currentPage === 1}
-        >
+        <button onClick={() => handlePageChange(currentPage - 1)} disabled={currentPage === 1}>
           이전
         </button>
         <span>
           현재 {currentPage} 페이지 / 총 {totalPages} 페이지
         </span>
-        <button
-          onClick={() => handlePageChange(currentPage + 1)}
-          disabled={currentPage === totalPages}
-        >
+        <button onClick={() => handlePageChange(currentPage + 1)} disabled={currentPage === totalPages}>
           다음
         </button>
       </div>
@@ -714,10 +759,7 @@ const App = () => {
   return (
     <div>
       <h1>페이징 예제</h1>
-      <PaginationComponent
-        apiUrl="https://jsonplaceholder.typicode.com/posts"
-        itemsPerPage={10}
-      />
+      <PaginationComponent apiUrl="https://jsonplaceholder.typicode.com/posts" itemsPerPage={10} />
     </div>
   );
 };
@@ -727,7 +769,18 @@ export default App;
 
 ## Task-10: 무한 스크롤 갤러리와 지연 로딩
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 페이지를 스크롤할 때 사용자가 스크롤하면 추가 이미지를 불러오는 이미지 갤러리를 만들어보세요. 성능을 높이기 위해 lazy loading을 구현해보세요.
 
@@ -769,11 +822,7 @@ const App = () => {
   }, []);
 
   const handleScroll = () => {
-    if (
-      window.innerHeight + document.documentElement.scrollTop !==
-        document.documentElement.offsetHeight ||
-      loading
-    )
+    if (window.innerHeight + document.documentElement.scrollTop !== document.documentElement.offsetHeight || loading)
       return;
     fetchImages();
   };
@@ -788,11 +837,7 @@ const App = () => {
       <h1>이미지 갤러리</h1>
       <div className="image-gallery">
         {images.map((image) => (
-          <img
-            key={image.id}
-            src={image.urls.small}
-            alt={image.alt_description}
-          />
+          <img key={image.id} src={image.urls.small} alt={image.alt_description} />
         ))}
         {loading && <p>로딩 중...</p>}
       </div>
@@ -807,7 +852,18 @@ export default App;
 
 Medium에서 더 많은 흥미로운 글을 확인하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다른 플랫폼:
 
@@ -817,7 +873,18 @@ X에서 나를 팔로우하세요: [https://twitter.com/JS_Centric?t=nyKrM6oaUig
 
 내 YouTube 채널을 구독하세요: [https://www.youtube.com/channel/UC9MmyicGIveu0AId8OFAOmQ](https://www.youtube.com/channel/UC9MmyicGIveu0AId8OFAOmQ)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 쉽게 이해하는 영어 커뮤니티에 참여해 주셔서 감사합니다! 떠나시기 전에:
 

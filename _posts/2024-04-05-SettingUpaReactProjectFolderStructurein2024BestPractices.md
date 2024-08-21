@@ -3,17 +3,13 @@ title: "2024년 기준으로 React 프로젝트 폴더 구조 설정하기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Setting Up a React Project Folder Structure in 2024 Best Practices"
 link: "https://medium.com/@megha.kumari_63653/setting-up-a-react-project-folder-structure-in-2024-best-practices-93c27a49bbfe"
 isUpdated: true
 ---
-
-
-
-
 
 ![SettingUpaReactProjectFolderStructurein2024BestPractices_0](/assets/img/SettingUpaReactProjectFolderStructurein2024BestPractices_0.png)
 
@@ -23,7 +19,18 @@ React.js는 Facebook에 의해 소개된 이후 웹 개발 세계에서 급격�
 
 잘 구성된 폴더 구조는 대규모 코드 베이스를 유지하는 데 중요합니다. 이를 통해 코드를 이해하기 쉽고, 디버깅하고 확장하기에 용이해집니다. 또한 새로운 개발자가 빠르게 숙련될 수 있도록 도와줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 권장 폴더 구조
 
@@ -60,7 +67,18 @@ my-app/
 
 # 폴더 구조 이해하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각 폴더의 목적을 살펴봅시다:
 
@@ -87,7 +105,18 @@ context/
 - tests/ 또는 **tests**/: 테스트 주도 개발(TDD) 접근 방식을 채택하는 경우, 단위 및 통합 테스트용으로 tests 또는 **tests** 폴더를 만드세요.
 - config/: 설정 파일들을 중앙에서 다룰 수 있는 config 폴더를 만드세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

@@ -3,17 +3,13 @@ title: "HTML과 CSS를 사용해서 이력서를 만들고 PDF로 저장하는 �
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Creating a resume using HTML and CSS and saving it as a PDF"
 link: "https://medium.com/@iftimiealexandru/creating-a-resume-using-html-and-css-and-saving-it-as-a-pdf-e85d24b0408e"
 isUpdated: true
 ---
-
-
-
-
 
 최근에 나는 아래 이미지에서 볼 수 있는 것과 같은 특정 현대적 형식을 따르는 이력서를 가지고 싶었습니다. 이 기사에서는 몇 가지 기술적인 과제를 해결한 방법과 세부 정보를 추가하는 단계별 프로세스를 공유하겠습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 글꼴과 이력서 레이아웃을 선택하기 전에 디자인에 관한 몇 가지 기사를 읽는 것이 유용할 수 있다고 제안하고 싶습니다. 나는 특히 99design.com의 이 기사가 매우 유용하다고 생각했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Creating a resume using HTML and CSS and saving it as a PDF](/assets/img/CreatingaresumeusingHTMLandCSSandsavingitasaPDF_0.png)
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 이제 어떻게 시작했는지 공유하겠어요. 첫 번째로 다중 페이지 이력서를 작성할 수 있도록 기본적인 설정을 구성하는 것이었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 레이아웃
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 ![이미지](/assets/img/CreatingaresumeusingHTMLandCSSandsavingitasaPDF_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음에는 일부 div를 만들고 CSS를 추가하려고 했어요.
 
@@ -74,7 +103,18 @@ index.css
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 index.html
 
@@ -96,7 +136,18 @@ index.html
 이미지를 참고하실래요:
 <img src="/assets/img/CreatingaresumeusingHTMLandCSSandsavingitasaPDF_2.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 왼쪽 패널
 
@@ -137,7 +188,18 @@ img {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 index.html
 
@@ -171,7 +233,18 @@ index.html
 
 ## Font Awesome 사용하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로, 예쁘고 쉽게 설정할 수 있는 아이콘을 추가하기 위해 Font Awesome를 사용했습니다.
 
@@ -205,7 +278,18 @@ index.css
 
 index.html
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
@@ -251,7 +335,18 @@ index.html
 
 다음으로 하고 싶은 작은 디테일은 경력의 년수를 정렬하고 "year" 단어의 단수와 복수를 맞추는 것이었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 index.css
 
@@ -315,7 +410,18 @@ index.html
 </div>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/CreatingaresumeusingHTMLandCSSandsavingitasaPDF_5.png)
 
@@ -325,7 +431,18 @@ index.html
 
 index.css
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .bolded {
@@ -351,8 +468,18 @@ index.html
 
 <img src="/assets/img/CreatingaresumeusingHTMLandCSSandsavingitasaPDF_6.png" />
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 오른쪽 패널
 
@@ -377,10 +504,20 @@ h3 {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 index.html
-
 
 ```js
 <div class="rightPanel">
@@ -393,25 +530,30 @@ index.html
 </div>
 ```
 
-
-
-
 ![CreatingaresumeusingHTMLandCSSandsavingitasaPDF_7](/assets/img/CreatingaresumeusingHTMLandCSSandsavingitasaPDF_7.png)
 
 index.html
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <div>
   <h2>나에 대해</h2>
   <div class="smallText">
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris venenatis,
-      justo sed feugiat pulvinar., quam ipsum tincidunt enim, ac gravida est
-      metus sit amet neque. Curabitur ut arcu ut nunc finibus accumsan id id
-      elit.
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris venenatis, justo sed feugiat pulvinar., quam ipsum
+      tincidunt enim, ac gravida est metus sit amet neque. Curabitur ut arcu ut nunc finibus accumsan id id elit.
     </p>
     <p>Vivamus non magna quis neque viverra finibus quis a tortor.</p>
   </div>
@@ -424,7 +566,18 @@ index.html
 
 아래 마지막 도전 과제는 작업 경험 섹션 항목의 글머리 기호를 연결하는 예쁜 선을 추가하는 것이었습니다. 이를 구현하기 위해 이 좋은 기사를 참고했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 index.css
 
@@ -511,7 +664,18 @@ index.html
 </div>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/CreatingaresumeusingHTMLandCSSandsavingitasaPDF_9.png)
 
@@ -521,7 +685,18 @@ index.html
 
 마지막 부분에서는 CSS 섹션을 기능별로 정렬하여 글꼴 패밀리, 색상 및 크기에 대한 하위 섹션을 만들었습니다. 이제 몇 가지 수정만으로 완전히 새로운 스타일 느낌을 줄 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 이미지에서 등간 고정폭 글꼴을 사용했어요. 글꼴 크기 조정하는 데 약 2분 정도 걸렸어요. 가독성이 좋지 않기 때문에 이 글꼴을 사용해서 이력서를 어떤 채용 담당자에게도 보내지 않겠죠.
 
@@ -531,6 +706,17 @@ index.html
 
 인쇄용 문서를 HTML과 CSS를 사용해 작성하는 것은 확실히 가능하지만, 나쁜 결과물을 만들지 않도록 각 변경 사항을 주의깊게 살펴봐야 해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 디자인 스킬을 향상시키는 데 도움이 된 재미있는 연습이었고, 이 글도 작성할 수 있어서 기쁩니다. HTML과 CSS로 이력서를 작성하는 것이 오랫동안 제 해야할 일 목록에 있었는데, 이번 도전은 목록에서 또 다른 항목을 해결할 수 있는 완벽한 기회였습니다.

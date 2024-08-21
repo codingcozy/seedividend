@@ -3,17 +3,13 @@ title: "TypeScript에서 에러 처리를 제대로하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Handling errors like a pro in TypeScript"
 link: "https://medium.com/udacity-engineering/handling-errors-like-a-pro-in-typescript-d7a314ad4991"
 isUpdated: true
 ---
-
-
-
-
 
 ![Handling errors like a pro in Type/JavaScript](/assets/img/HandlingerrorslikeaproinTypeScript_0.png)
 
@@ -23,7 +19,18 @@ Type/JavaScript에서의 오류 처리는 중요성을 충분히 인식받지 �
 
 ![Handling errors like a pro in Type/JavaScript](/assets/img/HandlingerrorslikeaproinTypeScript_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오류의 유형이 알 수없으므로 오류와 관련된 어떤 작업도 수행할 수 없습니다. 그대로 사용할 수 있도록 새 유형으로 캐스트하거나 유형을 좁히기 전에 다시 시도해야 합니다. 올바른 답변은 유형을 좁히는 것이며, 이를 어떻게 해야 하는지 살펴보겠지만, 왜 그렇게 해야 하는지도 알아볼 겁니다.
 
@@ -33,7 +40,18 @@ JavaScript에서는 거의 모든 것을 던질 수 있습니다:
 
 따라서 실제로 잡히는 오류는 알 수 없습니다. 하지만 TypeScript를 사용하여 깔끔하게 오류를 처리할 수 있는 방법이 있으며, 지난 몇 년 동안 나는 이를 도와주는 디자인 패턴을 개발했습니다. 제가 정말 즐겨 사용하는 방법입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 자바스크립트 오류의 기본 사항
 
@@ -45,7 +63,18 @@ JavaScript에서는 거의 모든 것을 던질 수 있습니다:
 - TypeError — 값이 예상한 유형이 아닙니다.
 - SyntaxError — 코드가 구문적으로 올바르지 않았습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 에러 처리
 
@@ -55,7 +84,18 @@ JavaScript에서는 거의 모든 것을 던질 수 있습니다:
 
 ## 에러 처리하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 번 오류가 발생하면 try/catch 문에서 잡히기 전까지 콜스택을 따라 올라갑니다. try 블록 내에서 실행되는 코드가 오류를 발생시키면 catch 블록에서 해당 오류가 "잡히게" 됩니다. 오류는 함수 내부의 함수에서 발생할 수 있으며, try/catch 문에서 잡히기 전까지 콜스택을 계속 올라갈 수 있습니다.
 
@@ -65,7 +105,18 @@ JavaScript에서는 거의 모든 것을 던질 수 있습니다:
 
 한 번 잡힌 오류를 확인하는 것이 유용할 수 있습니다. 이를 통해 알 수 없는 유형에서 특정 유형으로 유형을 좁힐 수 있습니다. 이를 해결하기 위해 instanceof를 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/HandlingerrorslikeaproinTypeScript_5.png" />
 
@@ -75,7 +126,18 @@ JavaScript에서는 거의 모든 것을 던질 수 있습니다:
 
 ## 사용자 지정 오류 유형 만들기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 errors.ts 파일에 클래스를 내보냅니다. 잠재적인 이름에 대한 유니언 타입을 유지하여 IntelliSense와 타입 안전성을 높였습니다. 해당 클래스는 Error 객체를 확장하므로 대부분의 JS 런타임에서 스택 트레이스를 삽입할 수 있습니다.
 
@@ -85,7 +147,18 @@ errors.ts 파일에 클래스를 내보냅니다. 잠재적인 이름에 대한 
 
 새로운 에러가 인스턴스화될 때, name 값은 IntelliSense를 제공하며 유니언 타입에 정의된 이름 중 하나여야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Handling Errors Like a Pro in TypeScript](/assets/img/HandlingerrorslikeaproinTypeScript_7.png)
 
@@ -95,7 +168,18 @@ errors.ts 파일에 클래스를 내보냅니다. 잠재적인 이름에 대한 
 
 ![Handling Errors Like a Pro in TypeScript](/assets/img/HandlingerrorslikeaproinTypeScript_8.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 재사용 가능한 에러 베이스 만들기
 
@@ -105,7 +189,18 @@ errors.ts 파일에 클래스를 내보냅니다. 잠재적인 이름에 대한 
 
 이제 새로운 사용자 정의 에러 클래스를 만들 때 이 기본 클래스를 확장하면, 사용 가능한 이름의 유니언 타입을 지정해주는 것만 하면 돼요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/HandlingerrorslikeaproinTypeScript_10.png" />
 

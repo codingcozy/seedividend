@@ -3,17 +3,13 @@ title: "HTML, JavaScript로 카운트다운 타이머 만드는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Simple Countdown Timer Using HTML and JavaScript"
 link: "https://medium.com/@cwrworksite/simple-countdown-timer-using-html-and-javascript-6bd77818bedf"
 isUpdated: true
 ---
-
-
-
-
 
 안녕하세요, 코더 여러분! Codewithrandom 블로그에 오신 것을 환영합니다. 이 블로그에서는 HTML, CSS 및 JavaScript를 사용하여 카운트다운 타이머를 만드는 방법을 배웁니다. 카운트다운 타이머는 특정 시간부터 시작하여 제로로 카운트다운되는 기능을 말합니다. 중요한 이벤트가 다가오거나 게임에 남은 시간이 몇 초인 경우, 상황에서 흥미를 더하거나 긴장감을 증가시키는 데 자주 활용됩니다.
 
@@ -24,7 +20,18 @@ isUpdated: true
 
 카운트다운 타이머 프로젝트는 경주나 수영 경기처럼 시간이 중요한 상황에서 항상 보는데, 우리의 카운트다운 타이머는 특별합니다. 왜냐하면 우리는 날, 시간, 분 그리고 초를 세는 기능을 추가했기 때문입니다. 그러니 카운트다운 타이머 만들기를 시작해봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리 블로그를 즐기시기를 바랍니다, 그러면 이제 카운트다운 타이머를 위한 기본 HTML 구조로 시작해 봅시다.
 
@@ -59,7 +66,18 @@ isUpdated: true
 
 카운트다운 타이머를 위한 컨테이너를 만들기 위해 div 태그와 클래스 "container"를 사용할 것입니다. 카운트다운 타이머의 제목은 `h1` 태그를 사용하여 만들 것입니다. 이제 일, 시간, 분 및 초로 카운트다운되는 타이머를 만들어 보겠습니다. 비순차 목록을 활용하여 카운트다운을 만들 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새로운 div 태그에 "emoji" 클래스가 추가됩니다. 각기 다른 이모지를 위한 span 태그는 세 가지 태그로 만들 것입니다.
 
@@ -69,7 +87,18 @@ HTML 코드 출력:
 
 ![이미지](/assets/img/SimpleCountdownTimerUsingHTMLandJavaScript_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 카운트다운 타이머 CSS 코드:-
 
@@ -148,7 +177,18 @@ font-size: calc(3.375rem * var(--smaller));
 
 이것이 카운트다운 타이머를 위한 모든 CSS 코드입니다. 여기에 Html + Css를 사용한 최신 출력이 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS 출력:
 
@@ -181,15 +221,9 @@ CSS 출력:
       const now = new Date().getTime(),
         distance = countDown - now;
       (document.getElementById("days").innerText = Math.floor(distance / day)),
-        (document.getElementById("hours").innerText = Math.floor(
-          (distance % day) / hour
-        )),
-        (document.getElementById("minutes").innerText = Math.floor(
-          (distance % hour) / minute
-        )),
-        (document.getElementById("seconds").innerText = Math.floor(
-          (distance % minute) / second
-        ));
+        (document.getElementById("hours").innerText = Math.floor((distance % day) / hour)),
+        (document.getElementById("minutes").innerText = Math.floor((distance % hour) / minute)),
+        (document.getElementById("seconds").innerText = Math.floor((distance % minute) / second));
       // 날짜가 도달되면 나중에 뭔가를 처리하세요
       if (distance < 0) {
         document.getElementById("headline").innerText = "오늘은 내 생일이에요!";
@@ -202,7 +236,18 @@ CSS 출력:
 })();
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 코드는 먼저 dayMonth라는 변수를 선언하여 값은 "09/30/"입니다. 이는 9월이고 연도가 30임을 의미합니다. 다음으로 birthday라는 변수를 선언하여 값은 "09/30/2015"입니다.
 
@@ -212,7 +257,18 @@ CSS 출력:
 
 # Html 및 JavaScript 코드를 사용한 카운트다운 타이머의 최종 결과:-
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/SimpleCountdownTimerUsingHTMLandJavaScript_3.png)
 
@@ -222,7 +278,18 @@ CSS 출력:
 
 이 포스트는 Html, Css 및 JavaScript를 사용하여 카운트다운 타이머를 만드는 방법을 가르쳐줍니다. 만약 실수나 혼란이 있으면 언제든 댓글을 남겨 질문하거나 쉽게 배울 수 있도록 도와드리겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 작성자 — Code With Random/Anki
 

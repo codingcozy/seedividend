@@ -3,7 +3,7 @@ title: "TypeScript의 매핑된 타입 알아보기 기초부터 고급까지 8�
 description: ""
 coverImage: "/assets/img/2024-06-22-ExploringMappedTypesinTypeScript8ExamplesfromBasictoAdvanced_0.png"
 date: 2024-06-22 14:45
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-ExploringMappedTypesinTypeScript8ExamplesfromBasictoAdvanced_0.png
 tag: Tech
 originalTitle: "Exploring Mapped Types in TypeScript: 8 Examples from Basic to Advanced"
@@ -11,16 +11,24 @@ link: "https://medium.com/@awwwesssooooome/exploring-mapped-types-in-typescript-
 isUpdated: true
 ---
 
-
-
-
 **Mapped types**는 TypeScript에서 한 타입의 속성을 다른 타입으로 변환하는 강력한 도구입니다. 이것들은 `map` 및 `filter`와 같은 배열 메서드와 유사하지만, 이러한 작업은 타입에 대해 수행됩니다. 실용적인 예제를 통해 그 사용법을 이해할 것이고, 이어서 기초부터 고급까지 점진적으로 8가지 Mapped type 예제를 보여드릴 것입니다. 이를 통해 이 강력한 타입 변환 도구를 손쉽게 마스터할 수 있을 거예요.
 
 # I. 기초적인 타입 변환
 
 TypeScript에서 때로는 한 타입의 속성을 다른 타입으로 변환해야할 때가 있습니다. 이것은 Mapped types을 사용하여 쉽게 달성할 수 있습니다. 아래에서 한 Product 타입의 속성을 문자열 타입으로 변환하는 방법을 구체적인 예제를 통해 보여드겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1. 제품 유형 정의
 
@@ -28,15 +36,26 @@ TypeScript에서 때로는 한 타입의 속성을 다른 타입으로 변환해
 
 ```js
 type Product = {
-    name: string;
-    price: number;
-    inStock: boolean;
+  name: string,
+  price: number,
+  inStock: boolean,
 };
 ```
 
 ## 2. ProductToString 유형 정의
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로, 우리는 모든 Product 형식의 속성을 문자열 형식으로 변환하는 새로운 형식 ProductToString을 정의합니다.
 
@@ -50,13 +69,24 @@ type ProductToString = {
 
 마지막으로, 결과 ProductToString 형식은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```typescript
 type ProductToString = {
-    name: string;
-    price: string;
-    inStock: string;
+  name: string;
+  price: string;
+  inStock: string;
 };
 ```
 
@@ -66,13 +96,24 @@ TypeScript에서 종종 유형의 모든 속성을 선택적으로 만들어야 
 
 ### 1. 제품 유형 정의
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 type Product = {
-    name: string;
-    price: number;
-    inStock: boolean;
+  name: string,
+  price: number,
+  inStock: boolean,
 };
 ```
 
@@ -86,13 +127,24 @@ type ProductToOptional = {
 
 ## 3. Resulting Type
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 type ProductToOptional = {
-    name?: string;
-    price?: number;
-    inStock?: boolean;
+  name?: string,
+  price?: number,
+  inStock?: boolean,
 };
 ```
 
@@ -102,8 +154,18 @@ In TypeScript, sometimes we need to convert all optional properties of a type in
 
 ## 1. Define Product Type
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 종류 Product = {
@@ -123,14 +185,24 @@ In TypeScript, sometimes we need to convert all optional properties of a type in
 
 ## 3. 결과 유형
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 type ProductToRequired = {
-    name: string;
-    price: number;
-    inStock: boolean;
+  name: string,
+  price: number,
+  inStock: boolean,
 };
 ```
 
@@ -140,8 +212,18 @@ In TypeScript, sometimes we need to make all properties of a type read-only. Thi
 
 ## 1. Define Product Type
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2. Define ProductToReadonly Type
 
@@ -153,8 +235,18 @@ type ProductToReadonly = {
 
 ## 3. Resulting Type
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 type ProductToReadonly = {
@@ -170,13 +262,24 @@ TypeScript에서 때로는 유형에서 특정 속성을 제거해야 하는 경
 
 ### 1. Product 유형 정의
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 type Product = {
-    name: string;
-    price: number;
-    inStock: boolean;
+  name: string,
+  price: number,
+  inStock: boolean,
 };
 ```
 
@@ -190,8 +293,18 @@ type ProductWithoutPrice = {
 
 ## 3. Resulting Type
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 타입 ProductWithoutPrice = {
@@ -206,15 +319,25 @@ TypeScript에서 조건부 타입을 사용하여 특정 유형의 속성만 포
 
 ## 1. 제품 유형 정의하기
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```typescript
 type Product = {
-    name: string;
-    price: number;
-    inStock: boolean;
-    tags: string[];
+  name: string;
+  price: number;
+  inStock: boolean;
+  tags: string[];
 };
 ```
 
@@ -222,14 +345,24 @@ type Product = {
 
 ```typescript
 type OnlyStringProperties<Type> = {
-    [Key in keyof Type as Type[Key] extends string ? Key : never]: Type[Key];
+  [Key in keyof Type as Type[Key] extends string ? Key : never]: Type[Key];
 };
 ```
 
 ## 3. Use OnlyStringProperties
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 유형 ProductOnlyStringProperties = OnlyStringProperties<Product>;
@@ -245,7 +378,18 @@ type OnlyStringProperties<Type> = {
 
 # VII. 템플릿 리터럴 유형을 사용하여 새로운 속성 이름 생성하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 TypeScript에서는 템플릿 리터럴 타입을 사용하여 특정 접두사와 대문자로 시작하는 속성 이름을 가진 새로운 타입을 생성할 수 있습니다.
 
@@ -253,15 +397,26 @@ TypeScript에서는 템플릿 리터럴 타입을 사용하여 특정 접두사�
 
 ```js
 type Product = {
-    name: string;
-    price: number;
-    inStock: boolean;
+  name: string,
+  price: number,
+  inStock: boolean,
 };
 ```
 
 ## 2. 접두사가 포함된 속성을 가진 타입 생성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 TypeScript에서는 템플릿 리터럴 타입을 사용하여 get로 접두사가 붙은 속성 이름을 가진 새로운 타입을 생성할 수 있어요.
 
@@ -277,15 +432,26 @@ type Getters<Type> = {
 type ProductGetters = Getters<Product>;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 4. 결과 타입
 
 ```js
 type ProductGetters = {
-    getName: () => string;
-    getPrice: () => number;
-    getInStock: () => boolean;
+  getName: () => string,
+  getPrice: () => number,
+  getInStock: () => boolean,
 };
 ```
 
@@ -293,7 +459,18 @@ type ProductGetters = {
 
 TypeScript에서 Mapped 타입과 조건부 타입을 결합하여 더 복잡한 타입 변환 로직을 만들 수 있습니다. 예를 들어, 속성의 타입에 따라 다른 중첩 타입 구조를 생성할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1. 중첩된 객체 유형 정의
 
@@ -301,19 +478,30 @@ TypeScript에서 Mapped 타입과 조건부 타입을 결합하여 더 복잡한
 
 ```js
 type NestedObject = {
-    id: number;
-    name: string;
-    metadata: {
-        createdAt: Date;
-        updatedAt: Date;
-    };
-    tags: string[];
+  id: number,
+  name: string,
+  metadata: {
+    createdAt: Date,
+    updatedAt: Date,
+  },
+  tags: string[],
 };
 ```
 
 ## 2. DeepReadonly 유형 정의
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로, 모든 속성을 읽기 전용으로 변환하는 DeepReadonly 타입을 정의합니다. 이는 중첩된 객체의 속성도 포함됩니다.
 
@@ -323,11 +511,22 @@ type DeepReadonly<T> = {
 };
 ```
 
-이 정의에서 T[P] extends object은 속성 타입이 객체인지 확인하기 위해 사용됩니다. 만약 객체인 경우, DeepReadonly가 재귀적으로 적용되며, 그렇지 않은 경우 속성이 읽기 전용으로 설정됩니다. 
+이 정의에서 T[P] extends object은 속성 타입이 객체인지 확인하기 위해 사용됩니다. 만약 객체인 경우, DeepReadonly가 재귀적으로 적용되며, 그렇지 않은 경우 속성이 읽기 전용으로 설정됩니다.
 
 ## 3. DeepReadonly 타입 사용하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 딥 읽기 전용을 사용하여 NestedObject의 심층적으로 읽기 전용 버전인 ReadonlyNestedObject를 정의할 수 있습니다.
 
@@ -339,7 +538,18 @@ type ReadonlyNestedObject = DeepReadonly<NestedObject>;
 
 마지막으로, 결과로 나오는 ReadonlyNestedObject 타입은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 유형 ReadonlyNestedObject = {
@@ -357,13 +567,13 @@ type ReadonlyNestedObject = DeepReadonly<NestedObject>;
 
 ```js
 const readonlyNestedObject: ReadonlyNestedObject = {
-    id: 1,
-    name: "예시",
-    metadata: {
-        createdAt: new Date(),
-        updatedAt: new Date()
-    },
-    tags: ["타입스크립트", "프로그래밍"]
+  id: 1,
+  name: "예시",
+  metadata: {
+    createdAt: new Date(),
+    updatedAt: new Date(),
+  },
+  tags: ["타입스크립트", "프로그래밍"],
 };
 
 // readonlyNestedObject.id = 2; // 오류: 'id'는 읽기 전용 속성이기 때문에 할당할 수 없습니다.
@@ -372,7 +582,18 @@ const readonlyNestedObject: ReadonlyNestedObject = {
 
 TypeScript의 매핑된 유형은 다양한 복잡한 유형 변환을 달성할 수 있는 매우 강력한 기능입니다. 이를 사용하여 다음을 수행할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 속성 변환: 타입 내 기존 속성의 유형을 변경합니다.
 - 속성 추가 또는 제거: 새로운 속성을 추가하거나 기존 속성을 제거합니다.

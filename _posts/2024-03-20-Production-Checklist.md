@@ -3,17 +3,13 @@ title: "Nextjs 14 사이트 배포시 체크해야하는 것들"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # Nextjs 14 사이트 배포시 체크해야하는 것들
 
@@ -22,7 +18,18 @@ Next.js 애플리케이션을 프로덕션 환경으로 이동하기 전에 사�
 
 ## 자동 최적화
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 Next.js 최적화 기능은 기본적으로 활성화되어 있으며 구성이 없이 사용할 수 있습니다:
 
@@ -35,7 +42,18 @@ Next.js 애플리케이션을 프로덕션 환경으로 이동하기 전에 사�
 
 ## 개발 중
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신의 애플리케이션을 구축하는 동안, 최상의 성능과 사용자 경험을 보장하기 위해 다음 기능들을 사용하는 것을 권장합니다:
 
@@ -48,7 +66,18 @@ Next.js 애플리케이션을 프로덕션 환경으로 이동하기 전에 사�
 - 동적 함수: cookies()와 searchParams 프롭과 같은 동적 함수들이 전체 라우트를 동적 렌더링으로 전환이 되니 유념해야 합니다 (또는 Root 레이아웃에서 사용 시 전체 애플리케이션). 동적 함수 사용이 의도된 대로 이루어졌는지 확인하고, 적절한 곳에 `<Suspense>` 경계로 감싸세요.
   > 알아두면 좋은 사항: 부분 사전 렌더링 (실험적)을 통해 전체 라우트를 동적 렌더링으로 전환하지 않고도 라우트의 일부를 동적으로 할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 데이터 가져오기와 캐싱
 
@@ -63,7 +92,18 @@ Next.js 애플리케이션을 프로덕션 환경으로 이동하기 전에 사�
 
 - 양식 및 유효성 검사: 서버 액션을 사용하여 양식 제출, 서버 측 유효성 검사 및 오류 처리를 처리하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 폰트 모듈: 폰트 모듈을 사용하여 폰트 파일을 최적화하세요. 이 모듈은 자동으로 폰트 파일을 다른 정적 자산과 함께 호스팅하고 외부 네트워크 요청을 제거하여 레이아웃 이동을 줄입니다.
 - `<Image>` 컴포넌트: 이미지 컴포넌트를 사용하여 이미지를 최적화하세요. 이 컴포넌트는 이미지를 자동으로 최적화하고 레이아웃 이동을 방지하며 WebP 또는 AVIF와 같은 현대적인 형식으로 제공합니다.
@@ -77,7 +117,18 @@ Next.js 애플리케이션을 프로덕션 환경으로 이동하기 전에 사�
 - 환경 변수: .env.\* 파일을 .gitignore에 추가하고 공개 변수에는 NEXT*PUBLIC* 접두사가 붙도록 합니다.
 - 컨텐츠 보안 정책: 다양한 보안 위협으로부터 응용 프로그램을 보호하기 위해 컨텐츠 보안 정책을 추가하는 것을 고려하세요. 이는 크로스 사이트 스크립팅, 클릭잭킹 및 기타 코드 삽입 공격과 같은 보안 위협으로부터 애플리케이션을 보호합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 메타데이터 및 SEO
 
@@ -89,7 +140,18 @@ Next.js 애플리케이션을 프로덕션 환경으로 이동하기 전에 사�
 
 - TypeScript 및 TS 플러그인: TypeScript와 TypeScript 플러그인을 사용하여 더 나은 유형 안전성을 제공하고 오류를 빨리 잡을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 프로덕션으로 이동하기 전에
 
@@ -100,7 +162,18 @@ Next.js 애플리케이션을 프로덕션 환경으로 이동하기 전에 사�
 - 라이트하우스
   : 시크릿 모드에서 라이트하우스를 실행하여 사용자가 사이트를 어떻게 경험할지에 대한 이해를 높이고 개선할 수 있는 영역을 식별할 수 있습니다. 이는 시뮬레이션 테스트이며 필드 데이터(예: 핵심 웹 핵심 지표)를 확인하는 것과 함께 진행되어야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - useReportWebVitals 훅: 이 훅을 사용하여 핵심 웹 핵심 데이터를 분석 도구에 전송하세요.
 
@@ -108,7 +181,18 @@ Next.js 애플리케이션을 프로덕션 환경으로 이동하기 전에 사�
 
 @next/bundle-analyzer 플러그인을 사용하여 JavaScript 번들의 크기를 분석하고 애플리케이션 성능에 영향을 줄 수 있는 큰 모듈 및 종속성을 식별하세요. 또한 새로운 종속성을 추가하는 것이 어떻게 영향을 미칠 수 있는지 이해할 수 있는 다음 도구들이 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 수입 비용
 - 패키지 공포증
@@ -120,7 +204,18 @@ Next.js 애플리케이션을 프로덕션 환경으로 이동하기 전에 사�
 응용 프로그램을 배포하는 위치에 따라 응용 프로그램의 성능을 모니터링하고 향상시키는 데 도움이 되는 추가 도구 및 통합을 제공받을 수 있습니다.
 Vercel 배포의 경우 다음을 권장합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 분석
   : 내장된 분석 대시보드로 애플리케이션 트래픽을 이해할 수 있도록 도와줍니다. 고유 방문자 수, 페이지 뷰 등을 포함한 트래픽을 확인할 수 있어요.
@@ -132,4 +227,15 @@ Vercel 배포의 경우 다음을 권장합니다:
   > Vercel에서 제품 서비스를 위한 최상의 실천 방법을 포함한 자세한 웹사이트 성능 향상 전략을 이해하려면 Vercel 제작 체크리스트를 참조해 주세요.
   > 이 권장 사항을 따르면 사용자를 위한 더 빠르고 신뢰할 수 있으며 안전한 애플리케이션을 개발할 수 있을 거에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

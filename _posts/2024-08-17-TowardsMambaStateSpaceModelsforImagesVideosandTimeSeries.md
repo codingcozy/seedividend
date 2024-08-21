@@ -3,7 +3,7 @@ title: "이미지, 비디오 및 시계열 데이터를 위한 맘바 상태 공
 description: ""
 coverImage: "/assets/img/2024-08-17-TowardsMambaStateSpaceModelsforImagesVideosandTimeSeries_0.png"
 date: 2024-08-17 01:41
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-17-TowardsMambaStateSpaceModelsforImagesVideosandTimeSeries_0.png
 tag: Tech
 originalTitle: "Towards Mamba State Space Models for Images, Videos and Time Series"
@@ -11,7 +11,6 @@ link: "https://medium.com/towards-data-science/towards-mamba-state-space-models-
 isUpdated: true
 updatedAt: 1723864289194
 ---
-
 
 ## 🐍 이미지, 비디오 및 시계열을 위한 맘바 상태 공간 모델로 향하면서
 
@@ -21,7 +20,18 @@ updatedAt: 1723864289194
 
 ❓ 그 질문은: 더 나은 방법이 있을까요? 성능을 유지하면서 O(N²) 복잡성을 줄일 수 있는 방법이 있을까요? 그럼 이 새로운 아키텍처는 어떻게 보일까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 🏊‍♂️ 함께 뛰어들어서 함께해요! 여기 Mamba 상태 공간 모델의 다단원 집중 공략 시리즈로, 왜 Mamba가 많은 애플리케이션과 데이터 형태에 대해 흥미로운 새로운 일반 목적 방법론인지 발견할 것입니다.
 
@@ -40,9 +50,20 @@ updatedAt: 1723864289194
 
 # 1. 이 시리즈는 무엇에 대해인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-당연히 Mamba에 관한 모든 것인데요, 강력한 Transformer를 대체할 모델이라고 말할 수 있어요! 하지만 이게 어떻게 작동하는 걸까요? 논문에 언급되지 않은 세부 사항은 무엇인가요? 그리고 어떻게 모든 종류의 데이터 모달리티를 처리할까요? 이런 질문들과 더 많은 질문에 답변을 찾을 수 있는 시리즈 기사가 있습니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+당연히 Mamba에 관한 모든 것인데요, 강력한 Transformer를 대체할 모델이라고 말할 수 있어요! 하지만 이게 어떻게 작동하는 걸까요? 논문에 언급되지 않은 세부 사항은 무엇인가요? 그리고 어떻게 모든 종류의 데이터 모달리티를 처리할까요? 이런 질문들과 더 많은 질문에 답변을 찾을 수 있는 시리즈 기사가 있습니다.
 
 특히, 1부에서는 RNN과 Transformer의 장단점을 이해하고 Mamba의 탄생을 도와 주는 새로운 아키텍처가 필요하다는 동기부여를 검토할 것입니다. 더불어 해당 시리즈의 모든 부분에 대한 기본 개념을 소개하며 Mamba의 성공을 바탕으로 한 많은 최근 연구 논문을 소개할 것입니다.
 
@@ -51,7 +72,18 @@ updatedAt: 1723864289194
 
 앞으로, Vision Mamba, VideoMamba, MambaMixer, Mamba-2와 같은 최근 연구 논문들을 자세히 살펴보며 Mamba가 이미지, 동영상, 시간 신호와 같은 다양한 데이터 모달리티로 확장되는 방법과 지속적인 개선이 어떻게 이루어지는지 살펴볼 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 2. 왜 새로운 모델이 필요한가요?
 
@@ -61,7 +93,18 @@ updatedAt: 1723864289194
 
 최종적으로, 우리의 목표는 빠르게 학습하고 빠르게 추론하는 모델을 가지면서도 작은 메모리 풋프린트를 가지며 시퀀스의 다른 샘플들의 모든 관련 데이터에 액세스할 수 있는 모델을 갖는 것입니다 (그 이상 그 이하로는 아니죠).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 RNN과 Transformer를 매우 상위 수준에서 비교해 보겠습니다:
 
@@ -71,7 +114,18 @@ RNN과 Transformer를 매우 상위 수준에서 비교해 보겠습니다:
 
 RNN에서 입력 x는 숨겨진 상태 h를 통해 출력 y를 얻습니다. 출력 y[t]는 오직 현재의 숨겨진 상태 h[t]와 현재 입력 x[t]에만 의존한다는 점을 주목하세요. 또한 현재 숨겨진 상태 h[t]는 이전 숨겨진 상태 h[t-1]과 현재 입력 x[t]에 의존합니다. 이에 따라 다음과 같은 영향을 미칩니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 과거 입력 샘플은 과거 데이터 포인트의 정보를 압축한 숨겨진 상태를 통해서만 액세스할 수 있으며, 각 새로운 샘플마다 새 입력을 사용하여 업데이트해야 합니다.
 - 우리는 과거 샘플에만 액세스할 수 있습니다.
@@ -83,7 +137,18 @@ RNN은 3의 이유로 추론 속도가 빠르지만, 1과 2의 이유로 훈련 
 
 Transformer에서는 입력 시퀀스의 각 샘플이 직접 자신에게 그리고 시퀀스의 다른 모든 샘플에 어태션을 줍니다. N개의 샘플 시퀀스에서 각 개별 샘플은 다른 샘플에 얼마나 많이 어태션하는지 점수를 계산하며, 이것이 O(N²) 복잡성의 이유입니다. 이는 (바닐라 어텐션 메커니즘의 경우에) 해당합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 각각의 샘플 간에 전혀 압축이 없으며 상태는 NxN 크기입니다.
 - 각 샘플은 이전 및 향후 샘플에 동시에 참석할 수 있습니다.
@@ -95,7 +160,18 @@ Transformer에서는 입력 시퀀스의 각 샘플이 직접 자신에게 그�
 
 🤔 '맘바'가 정확히 이를 달성할 수 있는 후보인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 3. 구조화된 상태 공간 모델
 
@@ -105,7 +181,18 @@ Transformer에서는 입력 시퀀스의 각 샘플이 직접 자신에게 그�
 
 컴퓨터에서는 이산 데이터를 다루기 때문에 상태 공간 모델을 이산화해야 합니다. 이산 상태 공간 모델을 갖게 되면 순환 표현과 합성 표현 두 가지 다른 표현을 발견할 수 있습니다. 이 두 가지 표현은 동일하며 표준 SSM은 선형 및 시간 불변(LTI) 시스템이기 때문에 같습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 이 이중성을 활용하여 추론을 위해 순환 표현을 사용하고 훈련을 위해 합성 표현을 사용할 수 있습니다. 이는 입력 시퀀스의 길이에 선형적으로 변화하는 추론 시간과 모던 하드웨어 가속기에서 효율적으로 모델을 훈련할 수 있다는 것을 의미합니다.
 
@@ -115,8 +202,18 @@ S4 (구조화된 상태 공간 시퀀스 모델)을 사용하면 입력 시퀀�
 
 S4가 표현을 전환하는 데 활용한 선형 시스템이라는 사실은 동시에 가장 큰 약점이기도 합니다. 각 입력 샘플은 행렬이 시간에 영향을 받지 않기 때문에 동일하게 처리됩니다. 이는 중요한 입력을 다르게 처리하거나 관련 없는 입력을 무시하는 것과 같이 중요한 작업을 수행할 때 큰 제약으로 작용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Mamba State Space Model](/assets/img/2024-08-17-TowardsMambaStateSpaceModelsforImagesVideosandTimeSeries_2.png)
 
@@ -126,9 +223,18 @@ Mamba는 해당 문제를 해결하기 위해 병렬 스캔을 소개하고, 커
 
 또한 트랜스포머 블록과 마찬가지로 서로 쌓아서 깊은 네트워크를 구축할 수 있는 일반 아키텍처인 Mamba 블록을 제시합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-08-17-TowardsMambaStateSpaceModelsforImagesVideosandTimeSeries_3.png)
 
@@ -138,8 +244,18 @@ Having a new general architecture for sequence modeling, the Mamba Block, histor
 
 ![image](/assets/img/2024-08-17-TowardsMambaStateSpaceModelsforImagesVideosandTimeSeries_4.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Vision Mamba는 Mamba 상태 공간 모델을 사용하여 새로운 일반적인 비전 백본을 정의하는 데 목표를 두고 있습니다.
 
@@ -149,7 +265,18 @@ Vision Mamba는 Mamba 상태 공간 모델을 사용하여 새로운 일반적�
 
 <img src="/assets/img/2024-08-17-TowardsMambaStateSpaceModelsforImagesVideosandTimeSeries_5.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 6. VideoMamba — 동영상 이해
 
@@ -157,7 +284,18 @@ Mamba는 딥 러닝의 최신 발전 상황을 매우 빠르게 따라잡아야 
 
 VideoMamba는 Vision Mamba의 확장판이지만 동영상에 적용됩니다. 이미지가 아닌 동영상을 분류합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비디오는 입력 데이터에 추가적인 시간적 차원을 제공합니다. 이전 방법들은 비디오를 처리하기 위해 3D 합성곱이나 트랜스포머를 사용했지만, 두 방법 모두 계산 및 메모리 사용 측면에서 매우 비용이 많이 듭니다. 비디오는 시간을 통해 장거리 의존성을 도입하는 반면, 프레임 간에는 픽셀이 종종 변경되지 않거나 약간만 변경되기 때문에 매우 중복적입니다(파란 하늘을 포함한 장면을 상상해보세요). 이러한 중복성을 다루는 한 가지 요령은 필요한 프레임 수를 줄이기 위해 주요 프레임을 추출하는 것이었습니다. 다시 말해, 선형 복잡성 O(N)을 가진 Mamba가 유용하게 사용됩니다.
 
@@ -167,7 +305,18 @@ Vision Mamba의 경우, 픽셀 간의 인과 관계를 다루기 위해 양방�
 
 # 7. MambaMixer — 채널에 선택성 추가하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사에서 아직 언급하지 않은 작은 세부 사항 하나가 있습니다: Mamba 및 해당 변형은 각 채널에 SSM을 개별적으로 적용합니다. 이는 정보가 한 채널에서 다른 채널로 흐르지 않음을 의미합니다. 다르게 말하면 다음과 같습니다: 채널 간에 정보를 전송하는 선택이 없으며, 이는 Mamba가 다차원 데이터(예: 3가지 색상 채널을 갖는 이미지) 또는 다변량 시간 신호에서 관계를 찾는 능력을 제한합니다.
 
@@ -177,8 +326,18 @@ MambaMixer는 이 문제를 해결하는 깔끔한 작은 속임수로 처리합
 
 이러한 방식으로 SSM은 먼저 토큰 축을 대상으로 적용되고, 그런 다음 채널 축을 대상으로 적용됩니다. 개별 블록은 각각 TokenMixer 및 ChannelMixer라고 불립니다. TokenMixer와 ChannelMixer는 결합하여 MambaMixer 블록을 형성합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-08-17-TowardsMambaStateSpaceModelsforImagesVideosandTimeSeries_8.png)
 
@@ -188,8 +347,18 @@ MambaMixer는 이 문제를 해결하는 깔끔한 작은 속임수로 처리합
 
 ![image](/assets/img/2024-08-17-TowardsMambaStateSpaceModelsforImagesVideosandTimeSeries_9.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 논문은 Vision Transformer (ViT)의 아키텍처를 간소화하기 위한 MLP Mixer 논문에서 강력한 영감을 받았습니다. 여기에서는 MLP Mixer를 간단히 소개한 내 게시물의 링크를 공유하겠습니다:
 
@@ -199,7 +368,18 @@ MambaMixer는 이 문제를 해결하는 깔끔한 작은 속임수로 처리합
 
 Mamba-2는 SSM을 재정의하여 주목받는 이 최적화된 생태계와 현대 하드웨어 가속기의 빠른 행렬 곱셈 유닛을 활용할 수 있도록 하여, attention 메커니즘과의 이중성을 보여주고자 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 특별히, SSM이 TxT 반분리 행렬의 용어로 정의되면 정확히 그것을 달성할 수 있습니다.
 
@@ -209,7 +389,18 @@ Mamba-2는 SSM을 재정의하여 주목받는 이 최적화된 생태계와 현
 
 이 상태 공간 이중성(SSD)을 정의함으로써 저자들은
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - SSM과 주의를 연결하는 방법을 보여줍니다,
 - 세미분할 행렬 변환을 사용하여 SSM을 재정의하면 메모리를 적게 사용하고 GPU의 전용 행렬 곱셈 코어를 활용하는 빠른 알고리즘의 구현이 가능해집니다,
@@ -222,7 +413,18 @@ Mamba-2는 SSM을 재정의하여 주목받는 이 최적화된 생태계와 현
 
 Mamba 상태 공간 모델은 트랜스포머와 RNN에 대안이 되는 유망한 아키텍처로, 어떤 데이터 모달리티에도 적용할 수 있는 새로운 세대의 범용 아키텍처를 구축하는 데 기여할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 잠시 만에, 맘바와 같은 모델들이 딥러닝에서 많은 문제에 성공적으로 적용되었습니다.
 
@@ -232,7 +434,18 @@ Mamba 상태 공간 모델은 트랜스포머와 RNN에 대안이 되는 유망�
 
 ## 시각적으로 설명된 구조화된 State Space 모델들
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 추가 참고 자료 및 자원
 
@@ -245,7 +458,18 @@ Mamba 상태 공간 모델은 트랜스포머와 RNN에 대안이 되는 유망�
 
 ## 논문:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - S4: Efficiently Modeling Long Sequences with Structured State Spaces by A. Gu 등., 2021년 10월 31일
 - Mamba: Linear-Time Sequence Modeling with Selective State Spaces by A. Gu 등., 2023년 12월 1일

@@ -3,15 +3,13 @@ title: "브라우저에서 AI 활용하기 2024년 Google Chrome의 새로운 Pr
 description: ""
 coverImage: "/assets/img/2024-06-26-AIWithinYourBrowserExploringGoogleChromesNewPromptAPI_0.png"
 date: 2024-06-26 12:20
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-26-AIWithinYourBrowserExploringGoogleChromesNewPromptAPI_0.png
 tag: Tech
 originalTitle: "AI Within Your Browser: Exploring Google Chrome’s New Prompt API"
 link: "https://medium.com/@muthuishere/ai-within-your-browser-exploring-google-chromes-new-prompt-api-a5c2c6bd5b4c"
 isUpdated: true
 ---
-
-
 
 브라우저에서 강력한 AI를 직접 사용할 수 있다면 어떻겠어요? WebGPU와 유사하지만 크롬이 모든 것을 처리해줍니다. 외부 서비스에 의존하거나 서버를 설정하거나 대용량 파일을 다운로드할 필요가 없어요. 이겔 시작하려고 600MB 모델을 다운로드하는 것이 아니에요. 이것은 브라우저에서 직접할 수 있는 것을 재정의하는 혁신적인 방법입니다.
 
@@ -23,7 +21,18 @@ isUpdated: true
 - 주소 표시줄에 `chrome://flags`를 입력합니다.
 - "Prompt API for Gemini Nano"를 찾은 후 설정을 'Enabled'로 변경합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-26-AIWithinYourBrowserExploringGoogleChromesNewPromptAPI_0.png" />
 
@@ -34,10 +43,20 @@ isUpdated: true
 - '다시 시작' 버튼을 클릭하여 브라우저를 다시 시작하세요.
 - 브라우저를 다시 열면 주소 표시줄에 `chrome://components/`을 입력한 후 "Optimization Guide On Device Model"을 찾고 '업데이트 확인'을 클릭하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래의 코드를 Markdown 포맷으로 변경하였습니다.
-
 
 ![이미지](/assets/img/2024-06-26-AIWithinYourBrowserExploringGoogleChromesNewPromptAPI_2.png)
 
@@ -47,8 +66,18 @@ isUpdated: true
 
 - 개발자 도구를 여는 방법: 웹페이지에서 개발자 도구를 열고, 프롬프트를 사용할 세션을 설정하세요.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const session = await window.ai.createTextSession();
@@ -62,7 +91,18 @@ session.prompt("아재 개그 하나 알려줄래?").then(console.log);
 
 웃음이 절로 나올 수도 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-26-AIWithinYourBrowserExploringGoogleChromesNewPromptAPI_3.png" />
 
@@ -84,7 +124,18 @@ async function getAnswer(question) {
 
 작은 Next.js 앱은 https://chrome-llm-local-nextjs-git-main-muthukumaran-ns-projects.vercel.app/ 에서 이용 가능합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-26-AIWithinYourBrowserExploringGoogleChromesNewPromptAPI_4.png" />
 

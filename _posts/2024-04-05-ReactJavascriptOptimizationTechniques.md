@@ -3,17 +3,13 @@ title: "React, 자바스크립트 최적화 기술"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "React , Javascript Optimization Techniques"
 link: "https://medium.com/globant/javascript-optimization-techniques-20d8d167dadd"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/React-JavascriptOptimizationTechniques_0.png" />
 
@@ -30,7 +26,18 @@ isUpdated: true
 - Error Boundaries
 - Inline Functions
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 많은 기법이 더 있지만, 이 글에서는 이미 언급된 것들에 초점을 맞출 것입니다.
 
@@ -40,7 +47,18 @@ isUpdated: true
 
 특정 사용자 작업에 응답해야 하는 애플리케이션의 경우, 특정 함수들이 반복적으로 실행되는 것을 피할 수 없는 경우가 많습니다. 예를 들어, mousemove나 window.resize와 같은 이벤트들은 단순한 마우스 이동이나 브라우저 창 크기 조정으로 이러한 함수들에 수백 번의 호출을 일으킬 수 있습니다. 이런 경우에는 이러한 호출을 제한하고 이벤트나 함수에서 발생할 수 있는 성능 문제를 해결하기 위해 디바운싱과 같은 기법을 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 디바운싱 작업은 꽤 간단합니다. 우리가 최적화하고자 하는 콜백 함수를 호출하는 빈도를 제한하는 인터셉터의 역할을 하는 함수를 생성하는 것으로 이루어져 있습니다. 이 함수는 최소 두 개의 매개변수를 갖습니다: 시간(time)과 콜백(callback). 시간 매개변수는 함수가 호출되기 전에 대기해야 하는 시간을 디바운스에 알려주는 데 사용되며, 콜백 매개변수는 이 시간 제한에 종속된 함수입니다. 제어 메커니즘이 생성되면, 디바운스 함수는 원래의 함수 자리에 사용할 새로운 최적화된 함수를 반환합니다.
 
@@ -61,7 +79,18 @@ const debounce = (callback, time = 300) => {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단한 버전에서, debounce 함수는 debounce를 처리할 함수를 반환합니다. 반환된 함수는 이전에 생성된 타임아웃의 타이머 변수를 지우고 매개변수로 받은 콜백을 통해 새로운 타임아웃을 설정합니다. 새로운 debounce 함수가 실행될 때마다 같은 타이머 변수에 접근하여 지우고 각 시간마다 타임아웃을 교체합니다.
 
@@ -84,7 +113,18 @@ for (let i = 0; i < 10000; i++) {
 
 이 예시에서 debouncedMessage 함수는 for 루프에서 10,000번 호출됩니다. 그러나 debounce 덕분에 메시지는 10,000번이 아닌 한 번만 표시됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 쓰로틀링
 
@@ -109,7 +149,18 @@ const throttle = (callback, time = 300) => {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 예에서 볼 수 있듯이, 디바운스와는 달리 이제 타이머 대신 일시 정지 변수인 pause 변수가 있습니다. 그리고 반환된 함수의 동작이 다릅니다. 이제는 pause가 true인지 확인한 후 반환하는 것을 볼 수 있는데, 이는 코드의 나머지 부분이 실행되는 것을 막는 것으로, 탈출 조건입니다. 이 조건에서 실행이 중단되지 않는 경우, pause를 활성화하여 이 함수에 대한 후속 호출이 실행되지 않도록 합니다. 그런 다음 콜백을 호출하고, 마지막으로 스로틀링 프로세스를 종료하고 정의한 시간이 경과하면 pause를 해제하는 setTimeout을 남깁니다.
 
@@ -132,7 +183,18 @@ for (let i = 0; i < 10000; i++) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 디바운싱의 경우에는 각 실행마다 타임아웃이 마지막 호출이 10초(10,000밀리초) 지속될 때까지 갱신되었기 때문에 메시지가 한 번만 표시되었습니다. 그에 반해, 쓰로틀링의 경우에는 일 초마다 한 번(1000밀리초)메시지가 10번 표시되었는데, 실행을 조건 지을 일시 정지 때문입니다. 보시다시피 두 기술은 동일한 목표를 가지고 있지만 코드와 동작에서 약간의 차이가 있습니다. 이 약간의 차이로 인해 상황에 맞게 한 가지 기법이나 다른 기법을 선택할 수 있습니다. 따라서 언제 어느 것을 구현해야 하는지 알아야 하므로 이 두 가지 기술을 알고 있는 것이 중요합니다.
 
@@ -142,7 +204,18 @@ for (let i = 0; i < 10000; i++) {
 
 이 기술은 React에서도 사용할 수 있으며 React에서는 다음과 같은 메모이제이션 기능을 활용할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - React.memo
 - useMemo
@@ -161,7 +234,18 @@ const getFactorial = (n) => {
 
 처음에는 이 알고리즘이 간단해 보입니다. 그러나 재귀 함수이기 때문에, 매우 큰 숫자를 전달할 때 주의해야 합니다. 제공하는 값에 따라 이 함수는 처리에 매우 많은 비용이 들 수 있습니다. 아시다시피, 숫자의 팩토리얼은 간단히 이전 숫자들과의 재귀적인 곱셈을 계속 수행하여 1에 도달할 때까지의 값입니다. 공식은 다음과 같이 됩니다: n! = n · (n - 1) · (n - 2) · … · 1.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, 6의 팩토리얼을 계산하려면 다음과 같이 계산할 수 있습니다: 6! = 6 · 5 · 4 · 3 · 2 · 1. 이 알고리즘의 특징은 이러한 곱셈 중 많은 것들이 한 번만 수행될 수 있고 그 결과를 조회 테이블이나 객체에 저장할 수 있다는 것입니다. 그렇게 하면 다시 해당 값을 얻어야 할 때마다 다시 계산할 필요가 없어집니다. 이 함수를 메모이제이션하는 한 가지 방법은 다음과 같습니다:
 
@@ -196,7 +280,18 @@ getFactorial(99);
 
 그런 다음 getFactorial 함수가 memoize 함수에 전달되고 그 결과가 새 변수에 할당됩니다. 이제 memoized된 getFactorial을 다른 함수처럼 호출할 수 있지만 이전 결과를 캐시에 저장하여 반복된 계산에 더 효율적입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것을 다시 말하면, 100의 팩토리얼을 계산할 때, 함수는 100번 실행될 것입니다. 그러나 그 때까지 이미 모든 계산을 캐시 오브젝트에 저장해 두었을 것입니다. 따라서 동일한 값이나 100 미만의 값으로 함수를 다시 실행할 때는 다시 모든 것을 계산할 필요가 없어지며, 대신에 우리가 만들어 둔 캐시 오브젝트에서 값을 얻을 것입니다; 결과적으로 함수는 단 한 번만 실행될 것입니다.
 
@@ -206,7 +301,18 @@ getFactorial(99);
 
 이것은 컴포넌트가 받는 프롭들이 변경되지 않을 때 불필요한 렌더링을 피하는 데 유용한 도구입니다. React.memo의 목적은 애플리케이션 성능을 향상시키는 것입니다. 하지만, React.memo는 상태나 콘텍스트(React.Context) 업데이트로 인한 컴포넌트 렌더링을 막지 못한다는 점을 유의해야 합니다. React.memo는 프롭만 고려하여 다시 렌더링을 피하기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React.memo를 사용하는 것은 구현하기가 매우 간단합니다. 아래에 사용 방법 예제가 나와 있어요:
 
@@ -240,7 +346,18 @@ export const App = () => {
 
 ## React.useMemo
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 hook은 컴포넌트 렌더링 사이에서 비용이 많이 드는 함수의 결과를 캐싱하고, 해당 함수의 종속성이 변경될 때만 함수를 다시 실행하는 것을 허용합니다. 하지만 조심해야 합니다. 이 hook은 루프나 조건문 내에서가 아니라 컴포넌트나 다른 hook 내에서만 사용해야 합니다.
 
@@ -269,7 +386,18 @@ export const MyComponent = (props) => {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예시에서는 useMemo를 사용하여 비싼 계산 함수(expensiveCalculationFn)가 모든 컴포넌트 렌더링마다 비용이 많이 드는 실행을 피합니다. 이 경우 의존성인 props가 변경되지 않으면 훅은 마지막 캐시된 값만 반환합니다. 또한, useMemo와 함께 사용하는 함수는 순수 함수여야 하는 것이 권장됩니다.
 
@@ -279,7 +407,18 @@ export const MyComponent = (props) => {
 
 ## React.useCallback
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 콜백 훅은 이전 것과 매우 유사하지만, 이 훅은 함수 정의를 캐시하고 실행 결과 값은 캐시하지 않는 점에서 다릅니다. 정의된 의존성이 값으로 변경될 때만 업데이트가 발생합니다. useCallback은 함수를 실행하지 않고 함수를 저장하고 나중에 실행될 수 있도록 정의를 업데이트합니다. 그에 반해, React.useMemo은 함수를 실행하고 캐시에 결과 값을 저장하고 업데이트합니다.
 
@@ -321,7 +460,18 @@ export const MyComponent = (props) => {
 
 여기에는 최적화되지 않은 보통의 컴포넌트가 있습니다. 여러 상태 및 변수를 가지고 있으며, 함수 callbackFn을 props로 전달받는 자식 컴포넌트를 렌더링합니다. 이 경우 우리가 컴포넌트의 상태를 업데이트할 때마다 기본적으로 자식 컴포넌트가 다시 렌더링됩니다. 자식 컴포넌트의 다시 렌더링을 피하려면 React.memo로 캡슐화해야합니다. React.memo는 props가 변경되지 않으면 컴포넌트의 다시 렌더링을 피합니다. 그러니 이를 해보죠:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 예제 10
@@ -395,7 +545,18 @@ export const MyComponent = (props) => {
 
 useCallback의 사용에 대해 더 알고 싶다면 추가 사용 사례가 설명된 공식 문서를 계속 읽어보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 순수 컴포넌트
 
@@ -429,7 +590,18 @@ const MyComponent = (props) => <div>내 컴포넌트</div>;
 const MyComponent = memo((props) => <div>내 컴포넌트</div>);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어떤점에서든, React에서 호출되는 라이프사이클 메서드인 shouldComponentUpdate() 메서드를 사용할 수 있습니다. 기본적으로 항상 true를 반환하며, 이는 해당 컴포넌트가 상태나 프롭스가 변경될 때 항상 리렌더링된다는 것을 의미합니다.
 
@@ -439,7 +611,18 @@ const MyComponent = memo((props) => <div>내 컴포넌트</div>);
 
 함수형 컴포넌트에서는 shouldComponentUpdate()와 동등한 것으로 React.memo나 useMemo 훅을 사용할 수 있습니다. 이러한 방법은 프롭스의 얕은 비교를 실행하여 불필요한 재렌더링을 방지하여 useState와 함께 사용하여 해당 컴포넌트의 상태를 처리할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 레이지 로딩
 
@@ -459,7 +642,18 @@ import MyNormalComponent from "./MyNormalComponent";
 const MyLazyComponent = lazy(() => import("./MyLazyComponent"));
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React.lazy를 사용하여 가져온 컴포넌트는 Suspense라는 다른 React 컴포넌트 내에 캡슐화하는 것이 좋습니다. 이 컴포넌트를 사용하면 우리는 게으른(lazy) 컴포넌트가 로드될 때 기다릴 때 대체 콘텐츠를 표시할 수 있습니다. 이 대체 콘텐츠에서는 사용자에게 로딩 중임을 알리기 위해 메시지나 로딩 애니메이션을 표시할 수 있습니다. React.Suspense를 사용하여 게으른 컴포넌트를 어떻게 사용하는지에 대한 예제는 다음과 같습니다:
 
@@ -484,7 +678,18 @@ React.lazy는 기본 내보내기(default export)와 함께만 사용할 수 있
 
 또 하나 강조해야 할 중요한 점은 create-react-app으로 구축한 애플리케이션을 보유하고 있다면 React.lazy를 React Router와 함께 사용할 수 있다는 것입니다. 이를 통해 애플리케이션의 네비게이션을 최적화하여 자동으로 라우트별로 코드 분할을 생성합니다. 애플리케이션 전체 번들을 로드할 필요없이 애플리케이션을 탐색하는 동안 번들이 로드됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 create-react-app이 웹팩을 기본적으로 구성해 놓아서 그럽니다. 그렇지 않은 경우에는 코드 분할 기능을 활성화하기 위해 수동으로 구성해야 합니다. React Router와 함께 lazy loading을 사용하는 예제가 여기 있습니다:
 
@@ -521,7 +726,18 @@ const MyApp = () => {
 
 # 가상화 (윈도잉)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트 가상화는 현재 사용 중인 요소만 표시하여 고성능 사용자 인터페이스를 만들 수 있는 강력한 기술입니다. 리액트 가상화 라이브러리를 사용하거나 자체 알고리즘을 구축하든, 이 기술은 대량 데이터 집합을 처리하고 UI 성능을 향상시키도록 특별히 설계되었습니다. 언제든지 필요한 요소만 렌더링하여 가상화하면 리액트에서 더 나은 성능을 발휘할 수 있으며 더 원활한 사용자 경험을 제공합니다.
 
@@ -531,7 +747,18 @@ const MyApp = () => {
 
 가상화는 테이블에도 적용할 수 있으며, 행과 열 모두를 가상화하여 상당한 성능 향상을 달성할 수 있습니다. 이 기술은 특히 테이블과 같이 대량의 데이터를 표시하는 컴포넌트에 유용합니다. 현재 보이는 행과 열만 렌더링하면 리액트의 가상화가 이러한 컴포넌트의 성능을 크게 향상시킬 수 있습니다. 이를 더 잘 설명하기 위해 다음 예시를 살펴보죠:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![React-JavascriptOptimizationTechniques_2.png](/assets/img/React-JavascriptOptimizationTechniques_2.png)
 
@@ -541,7 +768,18 @@ const MyApp = () => {
 
 에러 경계(Error boundaries)는 자식 컴포넌트 트리 어디에서든 JavaScript 오류를 잡고 해당 오류를 로그에 기록하며, 충돌한 컴포넌트 트리 대신 대체 UI를 표시하는 React 컴포넌트입니다. 에러 경계는 그 아래 전체 트리의 렌더링, 라이프사이클 메서드 및 생성자 중에서 오류를 잡습니다. 중요한 점은 에러 경계가 이벤트 핸들러, 비동기 코드 또는 에러 경계 자체에서 발생하는 오류를 잡지 않는다는 것입니다. 에러 경계에 대한 자세한 내용은 여기에서 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기에 React를 사용하여 컴포넌트에서 에러 바운더리를 구현하는 방법의 예시가 있습니다:
 
@@ -583,7 +821,18 @@ export class ErrorBoundaries extends PureComponent {
 
 # 인라인 함수
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React에서 인라인 함수 사용을 피하는 것이 권장되는 이유가 몇 가지 있습니다. 이 중 일부는 다음과 같습니다:
 
@@ -623,7 +872,18 @@ export const InlineFunctions = () => {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 경우 클릭 이벤트를 처리하는 더 나은 방법은 각 버튼의 onClick 이벤트에 콜백으로 사용할 클릭 이벤트 처리를 위한 별도의 함수를 정의하는 것입니다. 이렇게 하면 함수가 컴포넌트가 렌더링될 때마다 재생성되지 않아 성능이 향상됩니다. 아래는 별도의 함수를 사용한 업데이트된 예제입니다:
 
@@ -653,7 +913,18 @@ export const InlineFunctions = () => {
 
 # 요약
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요약하자면, 리액트 애플리케이션 최적화와 관련된 여러 주제를 다뤘습니다. 디바운싱, 스로틀링, 그리고 메모이제이션은 모두 불필요한 렌더링과 처리를 줄여 성능을 향상시키는 기술입니다. 순수 컴포넌트는 구성 요소가 필요할 때만 다시 렌더링되도록 보장하는 또 다른 중요한 최적화 방법입니다.
 
@@ -663,6 +934,17 @@ export const InlineFunctions = () => {
 
 마지막으로, 성능, 유지보수 및 가독성에 미치는 영향 때문에 가능한 한 인라인 함수를 피하는 중요성에 대해 논의했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 기술을 JavaScript 또는 React 어플리케이션에 적용함으로써 더 효율적이고 빠르며 확장 가능한 어플리케이션을 만들 수 있습니다. 이러한 주제에 대해 더 알고 싶다면 React 문서를 살펴보는 것을 권장하며, Globant가 미디엄에 게시한 다른 글들도 살펴보기를 권장합니다.

@@ -3,17 +3,13 @@ title: "디자인 시스템 - 디자인 토큰 시작하기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Where to Start with Design Tokens"
 link: "https://medium.com/@mcapoz/where-to-start-with-design-tokens-fbfd1c168101"
 isUpdated: true
 ---
-
-
-
-
 
 디자인 시스템을 연구하고 있다면, "디자인 토큰"이라는 용어를 접해본 적이 있을 것입니다. (처음 들어보았다면 걱정하지 마세요! 여기에서 읽어볼 수 있어요.) 심지어 이 용어를 들어봤다 하더라도, 그들이 무엇이며 어디에서 시작해야 하는지 정말 이해하기 어려울 수 있어요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 내 의견으로는, 디자인 토큰은 디자인 시스템의 세계를 천천히 체험할 수 있는 좋은 방법입니다. 저는 디자인 시스템을 5개의 레이어로 생각합니다. 디자인 토큰은 그 시스템의 가장 작은 구성 요소입니다(또는 첫 번째 레이어). 또한 멀티 플랫폼 디자인 시스템을 해제하는 열쇠 역할을 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 보통 디자이너와 개발자가 앱 작업을 시작할 때, 색상 및 글꼴과 같은 스타일 데이터를 구조화하고 중앙 집중식으로 정리하는 방법을 만들지 않습니다. 이것은 몇 년 동안은 전혀 문제가 되지 않지만, 결국 팀이 다음과 같은 문제 중 하나에 봉착하게 됩니다:
 
@@ -35,7 +42,18 @@ isUpdated: true
 
 # 1. 디자인 토큰에 투자하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 첫 번째 단계는 위에 나열된 세 가지 상황에 대응하는 좋은 도구로 디자인 토큰을 인식하는 것입니다. 이 시점에서 당신은 당신의 팀에게 연구하고 디자인 토큰을 실행하는 데 투자할 것을 권장해야 합니다.
 
@@ -45,7 +63,18 @@ isUpdated: true
 
 ## 3. 토큰을 구현할 방법 선택하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 토큰을 구현하는 방법에는 몇 가지 옵션이 있어요. 많은 팀이 자체 구조와 명명 체계를 구현하는 것을 선택해요. 이 방식을 택하면 외부 라이브러리에 의존하지 않아도 되어요. 중요한 점은 토큰의 이름이 특히 일반적으로 지어졌는지 확인하는 거예요! Salesforce와 같은 기업의 예제를 보고 토큰을 어떻게 구조화할지 아이디어를 얻을 수 있어요. 이 주제에 대해 더 자세히 살펴보려면 여기를 확인하세요.
 
@@ -55,7 +84,18 @@ isUpdated: true
 
 이 시점에서 팀의 디자이너와 협의하여 토큰의 이름과 구조를 결정하고, 구조화된 스타일 데이터를 포함하는 객체를 만들어야 해요. 마지막 단계는 애플리케이션의 구성 요소를 수정하여 하드코딩된 값이 아닌 토큰에서 읽도록 설정하는 거예요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 당신의 토큰이 이렇게 생겼다면:
 
@@ -75,4 +115,15 @@ const Nav = styled("nav")`
 `;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

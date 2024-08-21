@@ -3,7 +3,7 @@ title: "HackTheBox-RunnerWriteUp 해커를 위한 HackTheBox-Runner 완벽 공�
 description: ""
 coverImage: "/assets/img/2024-07-10-HackTheBox-RunnerWriteUp_0.png"
 date: 2024-07-10 02:29
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-10-HackTheBox-RunnerWriteUp_0.png
 tag: Tech
 originalTitle: "HackTheBox-Runner(WriteUp)"
@@ -11,19 +11,26 @@ link: "https://medium.com/@aniketdas07770/hackthebox-runner-writeup-1b0e22968745
 isUpdated: true
 ---
 
-
-
-
 여러분 안녕하세요! 모두가 잘 지내시길 바래요. 이번에도 글 쓰기 목록에 추가하게 되었어요. 학기 실기시험 때문에 정신이 없었고 6월 첫 주까지 계속 바빠할 것 같아요. 이 글은 상자가 공개된 직후에 작성했지만 HTB 이용 약관(T&Cs) 때문에 지금 발행하고 있어요. 그래서 잠시 보류해뒀었지요. 아직 발행하기에는 너무 이른 시기라는 걸 알아요. 하지만 이미 사람들이 시작했다는 걸 봤거든요. 그래서 저도 자신을 쥐락펴락해야 했어요. 따라서 이미 두-세 주가 지났으니 이제 적기가 되었다고 생각했어요. 그럼 시작해볼까요?
 
 ![이미지](/assets/img/2024-07-10-HackTheBox-RunnerWriteUp_0.png)
 
-*참고: 정답을 먼저 보여주고 바로 아래에 해설을 붙일 거에요. 그리고 항상 복사하여 붙여넣기를 하지 못하게 할 거에요. 보고 이해하고 직접 타이핑하며 반복해서 진짜로 배워보세요.
+\*참고: 정답을 먼저 보여주고 바로 아래에 해설을 붙일 거에요. 그리고 항상 복사하여 붙여넣기를 하지 못하게 할 거에요. 보고 이해하고 직접 타이핑하며 반복해서 진짜로 배워보세요.
 
 1번 문제. 사용자 플래그.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-10-HackTheBox-RunnerWriteUp_1.png)
 
@@ -33,8 +40,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-07-10-HackTheBox-RunnerWriteUp_3.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![HackTheBox-RunnerWriteUp_4](/assets/img/2024-07-10-HackTheBox-RunnerWriteUp_4.png)
 
@@ -44,7 +61,18 @@ isUpdated: true
 
 그래서 호스트 파일에 'runner.htb'를 추가한 후, 홈페이지를 80번 포트에서 발견했어요. 지금은 feroxbuster를 실행 중이고, 흥미로운 것은 아무것도 찾을 수 없어요. gobuster로 몇 가지 서브도메인을 찾아봤지만, 유용한 정보는 없었어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-10-HackTheBox-RunnerWriteUp_6.png)
 
@@ -54,7 +82,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-07-10-HackTheBox-RunnerWriteUp_8.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-10-HackTheBox-RunnerWriteUp_9.png)
 
@@ -64,7 +103,18 @@ isUpdated: true
 
 여기 로그인 페이지가 있네요. 기본 자격 증명을 찾아보려고 했는데, 성공은 아직 없네요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-07-10-HackTheBox-RunnerWriteUp_11.png](/assets/img/2024-07-10-HackTheBox-RunnerWriteUp_11.png)
 
@@ -74,7 +124,18 @@ isUpdated: true
 
 ![2024-07-10-HackTheBox-RunnerWriteUp_13.png](/assets/img/2024-07-10-HackTheBox-RunnerWriteUp_13.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아마 사용자는 우리가 찾고 있던 사용자는 아닐 것이고 다른 사용자는 없을 것입니다. 아마도 그냥 컨테이너인 것 같아요. 하지만 hosts 파일에서 흥미로운 것을 발견했어요.
 
@@ -84,7 +145,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-07-10-HackTheBox-RunnerWriteUp_15.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서, 이 취약점을 이용하여 새로운 관리자 계정을 만들 수 있습니다. 이 계정을 활용해 보겠습니다.
 
@@ -94,7 +166,18 @@ isUpdated: true
 
 ![이미지2](/assets/img/2024-07-10-HackTheBox-RunnerWriteUp_17.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 서브도메인에서 feroxbuster를 실행했을 때 관리자 페이지를 발견했어요. 여기서 확인하실 수 있습니다.
 
@@ -104,8 +187,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-07-10-HackTheBox-RunnerWriteUp_19.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![HackTheBox-RunnerWriteUp_20](/assets/img/2024-07-10-HackTheBox-RunnerWriteUp_20.png)
 
@@ -115,8 +208,18 @@ isUpdated: true
 
 SSH를 시도했지만 작동하지 않았어요.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오케이! config 디렉토리를 열거하다가 SSH 개인 키를 발견했어요.
 
@@ -124,7 +227,18 @@ SSH를 시도했지만 작동하지 않았어요.
 
 이제 인코딩된 SSH 키를 디코드하여 사용자 이름을 찾았어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![HackTheBox-RunnerWriteUp_24](/assets/img/2024-07-10-HackTheBox-RunnerWriteUp_24.png)
 
@@ -134,8 +248,18 @@ SSH를 시도했지만 작동하지 않았어요.
 
 ![HackTheBox-RunnerWriteUp_26](/assets/img/2024-07-10-HackTheBox-RunnerWriteUp_26.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-10-HackTheBox-RunnerWriteUp_27.png)
 
@@ -145,8 +269,18 @@ Q.2. 루트 플래그.
 
 ![이미지](/assets/img/2024-07-10-HackTheBox-RunnerWriteUp_28.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오호! 정말 흥미로운 경험이에요. 다른 사용자로 전환해 보려다가 깨진 암호로 실패했어요.
 
@@ -156,7 +290,18 @@ Q.2. 루트 플래그.
 
 ![Runner WriteUp Image 30](/assets/img/2024-07-10-HackTheBox-RunnerWriteUp_30.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서, 그 하위도메인이랑 이야기인데, 구글에서 기본 자격 증명을 찾아보다가 하나를 찾았는데 실패했어. 그래서 얼마 지나지 않아 몇 가지 악용을 찾아보려 했지만 아무것도 찾지 못했어. 결국 '매튜' 사용자의 자격 증명을 시도해 봤더니, 성공했어.
 
@@ -166,7 +311,18 @@ Q.2. 루트 플래그.
 
 그래서, 이제 구글에서 권한 상승 기술을 찾았어. 링크 확인해봐.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 문제는 이 단계를 따라하려고 했더니, 기사가 이전 포트레이너 버전이라는 것을 발견했습니다. 따라서 이 최신 버전에서의 변경 사항을 찾기 위해 문서를 통과해야 합니다.
 
@@ -176,7 +332,18 @@ Q.2. 루트 플래그.
 
 ![RunnerWriteUp_34](/assets/img/2024-07-10-HackTheBox-RunnerWriteUp_34.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 와! 이해했습니다. 이제 접근한 셸은 제 생각에 2번째 컨테이너 이미지입니다. 그래서 이제 이 우분투 이미지를 사용하여 우리가 찾은 기사의 지시에 따라 루트를 마운트해야 합니다.
 
@@ -186,7 +353,18 @@ Q.2. 루트 플래그.
 
 이 두 버전이 완전히 다른 것을 보십시오. 따라서 루트 경로로 '/mnt/root'를 설정하려면 동일한 정확한 설정을 어떻게 얻는지 알아야합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-07-10-HackTheBox-RunnerWriteUp_37.png](/assets/img/2024-07-10-HackTheBox-RunnerWriteUp_37.png)
 
@@ -196,7 +374,18 @@ Volumes 섹션에서 'path'라는 옵션을 만들어보려 했지만, 아쉽게
 
 ![2024-07-10-HackTheBox-RunnerWriteUp_39.png](/assets/img/2024-07-10-HackTheBox-RunnerWriteUp_39.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서 문서에서 몇 가지 지원되는 옵션을 찾았어요. 그러나 여전히 그들의 값을 어떻게 설정해야할지 모르겠어요.
 
@@ -210,7 +399,18 @@ type: none
 
 device 옵션 값은 우리가 마운트할 경로입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-10-HackTheBox-RunnerWriteUp_40.png)
 
@@ -220,7 +420,18 @@ device 옵션 값은 우리가 마운트할 경로입니다.
 
 이제 이미지 ID를 복사하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼 이제 새 컨테이너를 추가할 시간입니다.
 
@@ -228,7 +439,18 @@ device 옵션 값은 우리가 마운트할 경로입니다.
 
 ![image](/assets/img/2024-07-10-HackTheBox-RunnerWriteUp_44.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 남은 설정을 기본값으로 설정하고 이전에 찾은 기사와 동일하게 소개된 볼륨과 컨테이너를 설정하십시오.
 
@@ -238,7 +460,18 @@ device 옵션 값은 우리가 마운트할 경로입니다.
 
 ![이미지](/assets/img/2024-07-10-HackTheBox-RunnerWriteUp_46.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시간이다! 첫 번째를 배포해 보세요.
 
@@ -248,7 +481,18 @@ device 옵션 값은 우리가 마운트할 경로입니다.
 
 ![HackTheBox-RunnerWriteUp_48](/assets/img/2024-07-10-HackTheBox-RunnerWriteUp_48.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 클릭해서 콘솔에 액세스하세요.
 
@@ -258,12 +502,23 @@ device 옵션 값은 우리가 마운트할 경로입니다.
 
 따라서 bash 쉘을 얻고 나서 정상적인 마운트를 찾았습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-10-HackTheBox-RunnerWriteUp_51.png)
 
 ![이미지](/assets/img/2024-07-10-HackTheBox-RunnerWriteUp_52.png)
 
-그리고 루트 플래그까지 완성! 
+그리고 루트 플래그까지 완성!
 
 즐겁게 즐기셨기를 바랍니다. 다음 시간에 만나요. 잘 가세요!

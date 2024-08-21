@@ -3,16 +3,13 @@ title: "RxJS Creation Operators 마스터하기"
 description: ""
 coverImage: "/assets/img/2024-05-18-MasteringRxJSCreationOperatorsUnlockingthePowerofDataStreams_0.png"
 date: 2024-05-18 22:03
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-18-MasteringRxJSCreationOperatorsUnlockingthePowerofDataStreams_0.png
 tag: Tech
 originalTitle: "Mastering RxJS Creation Operators: Unlocking the Power of Data Streams"
 link: "https://medium.com/@nandeepbarochiya/mastering-rxjs-creation-operators-unlocking-the-power-of-data-streams-e9f126c87e72"
 isUpdated: true
 ---
-
-
-
 
 반응형 프로그래밍은 현대 웹 개발에서 중요한 기반 기술이 되었으며 비동기 데이터 스트림을 처리하는 견고한 방법을 제공합니다. RxJS 또는 JavaScript용 반응형 익스텐션은 JavaScript에서 반응형 프로그래밍을 구현하는 가장 인기있는 라이브러리 중 하나입니다. 생성 연산자는 여러 기능 중에서도 관찰 가능한 스트림을 생성하는 데 필수적인 도구로 강조됩니다. 이 블로그 포스트에서는 다양한 RxJS 생성 연산자, 작동 방식 및 각각에 대한 실제 사용 사례를 살펴보겠습니다.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 이러한 연산자는 다양한 데이터 소스에서 새로운 Observables를 생성합니다. 이러한 연산자는 개발자들이 작업할 데이터 스트림의 소스를 정의할 수 있도록 해주기 때문에 중요합니다. 이러한 연산자를 이해하는 것은 RxJS의 전체 기능을 최대한 활용하는 데 필수적입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Creation Operators 목록
 
@@ -46,7 +54,18 @@ isUpdated: true
 
 이제 Creation Operator를 하나씩 검토하고 예제를 통해 학습하겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Ajax
 
@@ -54,31 +73,42 @@ XMLHttpRequest API를 사용하여 HTTP 요청을 보냅니다.
 
 ```js
 /* 실시간 사용 사례: 요청에서 반환되는 응답 객체를 방출하는 Observable */
-import { ajax } from 'rxjs/ajax';
+import { ajax } from "rxjs/ajax";
 
 const githubUsers = `https://api.github.com/users?per_page=2`;
 const users = ajax(githubUsers);
 
 const subscribe = users.subscribe(
-  res => console.log(res),
-  err => console.error(err)
+  (res) => console.log(res),
+  (err) => console.error(err)
 );
 ```
 
 ```js
 /* 실시간 사용 사례: 요청에서 반환되는 응답 객체의 json 키만 방출하는 Observable */
-import { ajax } from 'rxjs/ajax';
+import { ajax } from "rxjs/ajax";
 
 const githubUsers = `https://api.github.com/users?per_page=2`;
 const users = ajax.getJSON(githubUsers);
 
 const subscribe = users.subscribe(
-  res => console.log(res),
-  err => console.error(err)
+  (res) => console.log(res),
+  (err) => console.error(err)
 );
-```  
+```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # bindCallback
 
@@ -87,31 +117,45 @@ const subscribe = users.subscribe(
 ```js
 /* 실시간 사용 사례: jQuery의 getJSON을 Observable API로 변환하는 방법 */
 
-import { bindCallback } from 'rxjs';
-import * as jQuery from 'jquery';
+import { bindCallback } from "rxjs";
+import * as jQuery from "jquery";
 
 const getJSONAsObservable = bindCallback(jQuery.getJSON);
-const result = getJSONAsObservable('/my/url');
-result.subscribe(x => console.log(x), e => console.error(e));
+const result = getJSONAsObservable("/my/url");
+result.subscribe(
+  (x) => console.log(x),
+  (e) => console.error(e)
+);
 ```
 
 # bindNodeCallback
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 노드 스타일 콜백 함수를 Observable로 변환합니다.
 
 ```js
 /* 실시간 사용 사례: 파일 시스템에서 파일 읽어오기 및 데이터를 Observable로 얻기 */
-import { bindNodeCallback } from 'rxjs';
-import * as fs from 'fs';
+import { bindNodeCallback } from "rxjs";
+import * as fs from "fs";
 
 const readFileAsObservable = bindNodeCallback(fs.readFile);
-const result = readFileAsObservable('./roadNames.txt', 'utf8');
+const result = readFileAsObservable("./roadNames.txt", "utf8");
 
 result.subscribe(
-  x => console.log(x), // 파일 내용 처리
-  e => console.error(e) // 오류 처리
+  (x) => console.log(x), // 파일 내용 처리
+  (e) => console.error(e) // 오류 처리
 );
 ```
 
@@ -119,27 +163,38 @@ result.subscribe(
 
 Subscriber가 Observable에 구독할 때까지 실행을 지연시키는 Observable를 생성합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 RxJS에서 defer는 Observable을 생성하는 함수입니다. 주요 목적은 Observable이 구독될 때까지 Observable의 생성을 지연하는 것입니다. 이는 새로운 옵저버가 Observable을 구독할 때마다 설정 또는 초기화 논리가 실행되어야 하는 시나리오에서 유용합니다.
 
 ```js
 /* 실시간 사용 사례: `of`를 사용하여 난수 생성 */
-import { of, defer } from 'rxjs';
+import { of, defer } from "rxjs";
 const randomOf$ = of(Math.random());
 
 // 랜덤 숫자 생성을 위해 `defer` 사용
 const randomDefer$ = defer(() => of(Math.random()));
 
 // `randomOf$`를 여러 번 구독
-randomOf$.subscribe(randomNumber => console.log('랜덤 숫자 (of):', randomNumber));
-randomOf$.subscribe(randomNumber => console.log('랜덤 숫자 (of):', randomNumber));
-randomOf$.subscribe(randomNumber => console.log('랜덤 숫자 (of):', randomNumber));
+randomOf$.subscribe((randomNumber) => console.log("랜덤 숫자 (of):", randomNumber));
+randomOf$.subscribe((randomNumber) => console.log("랜덤 숫자 (of):", randomNumber));
+randomOf$.subscribe((randomNumber) => console.log("랜덤 숫자 (of):", randomNumber));
 
 // `randomDefer$`를 여러 번 구독
-randomDefer$.subscribe(randomNumber => console.log('랜덤 숫자 (defer):', randomNumber));
-randomDefer$.subscribe(randomNumber => console.log('랜덤 숫자 (defer):', randomNumber));
-randomDefer$.subscribe(randomNumber => console.log('랜덤 숫자 (defer):', randomNumber));
+randomDefer$.subscribe((randomNumber) => console.log("랜덤 숫자 (defer):", randomNumber));
+randomDefer$.subscribe((randomNumber) => console.log("랜덤 숫자 (defer):", randomNumber));
+randomDefer$.subscribe((randomNumber) => console.log("랜덤 숫자 (defer):", randomNumber));
 ```
 
 Output
@@ -153,7 +208,18 @@ Output
 랜덤 숫자 (defer): 0.123456789
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 빈
 
@@ -163,40 +229,61 @@ RxJS의 빈 연산자는 값을 방출하지 않고 즉시 완료되는 Observab
 
 ```js
 /* 실시간 사용 사례: 빈 Observable 생성 */
-import { empty } from 'rxjs';
+import { empty } from "rxjs";
 const emptyObservable$ = empty();
 // 빈 Observable에 구독하기
 emptyObservable$.subscribe({
-  next: () => console.log('다음 값'), // 호출되지 않음
-  complete: () => console.log('완료됨') // 즉시 호출됨
+  next: () => console.log("다음 값"), // 호출되지 않음
+  complete: () => console.log("완료됨"), // 즉시 호출됨
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # from
 
 배열, 프로미스, 이터러블 객체 또는 Observable과 유사한 객체에서 Observable을 생성합니다.
 
 ```js
-import { from } from 'rxjs';
+import { from } from "rxjs";
 const arraySource = from([1, 2, 3, 4, 5]);
-const subscribe = arraySource.subscribe(val => console.log(val));
+const subscribe = arraySource.subscribe((val) => console.log(val));
 //출력: 1, 2, 3, 4, 5
 ```
 
 ```js
-import { from } from 'rxjs';
-const source = from('Hello World');
-const subscribe = source.subscribe(val => console.log(val));
+import { from } from "rxjs";
+const source = from("Hello World");
+const subscribe = source.subscribe((val) => console.log(val));
 //출력: 'H', 'e', 'l', 'l', 'o', ' ', 'W', 'o', 'r', 'l', 'd'
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-const numbers = from(new Promise((resolve, reject) => resolve('Hello World')));
+const numbers = from(new Promise((resolve, reject) => resolve("Hello World")));
 numbers.subscribe((data) => {
   console.log(data);
 });
@@ -209,15 +296,26 @@ numbers.subscribe((data) => {
 
 ```js
 /* 실시간 사용 사례: 사용자가 화면을 클릭할 때 시간 추적 */
-import { fromEvent } from 'rxjs';
-import { map } from 'rxjs/operators';
+import { fromEvent } from "rxjs";
+import { map } from "rxjs/operators";
 
-const source = fromEvent(document, 'click');
-const example = source.pipe(map(event => event.timeStamp));
-const subscribe = example.subscribe(val => console.log(`이벤트 시간: ${val / 1000} 초`));
+const source = fromEvent(document, "click");
+const example = source.pipe(map((event) => event.timeStamp));
+const subscribe = example.subscribe((val) => console.log(`이벤트 시간: ${val / 1000} 초`));
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 출력
 
@@ -230,7 +328,18 @@ const subscribe = example.subscribe(val => console.log(`이벤트 시간: ${val 
 
 fromEventPattern은 이벤트를 반환하는 함수에서 Observable을 생성합니다. fromEventPattern을 사용하면 이벤트 처리기 함수를 등록하는 API를 Observable로 변환할 수 있습니다. fromEvent과 유사하지만 훨씬 유연합니다. fromEvent의 모든 사용 사례는 fromEventPattern으로 쉽게 처리할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 생성
 
@@ -239,9 +348,14 @@ fromEventPattern은 이벤트를 반환하는 함수에서 Observable을 생성�
 ```js
 /* 실시간 사용 사례: 숫자 시퀀스 생성 */
 
-import { generate } from 'rxjs';
-const result = generate(0, x => x < 3, x => x + 1, x => x);
-result.subscribe(x => console.log(x));
+import { generate } from "rxjs";
+const result = generate(
+  0,
+  (x) => x < 3,
+  (x) => x + 1,
+  (x) => x
+);
+result.subscribe((x) => console.log(x));
 
 // 결과:
 // 0
@@ -251,17 +365,28 @@ result.subscribe(x => console.log(x));
 
 # 간격
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일정한 간격으로 정수 시퀀스를 방출하는 Observable을 생성합니다.
 
 ```js
 /* 실시간 사용 사례: 1초 간격으로 값 시퀀스를 방출 */
-import { interval } from 'rxjs';
+import { interval } from "rxjs";
 
 // 1초마다 시퀀스 값 방출
 const source = interval(1000);
-const subscribe = source.subscribe(val => console.log(val));
+const subscribe = source.subscribe((val) => console.log(val));
 //결과: 0, 1, 2, 3, 4, 5....
 ```
 
@@ -269,17 +394,27 @@ const subscribe = source.subscribe(val => console.log(val));
 
 - 지정된 값을 순서대로 방출하는 Observable을 생성합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-import { of } from 'rxjs';
+import { of } from "rxjs";
 
-of(10, 20, 30)
-  .subscribe({
-    next: value => console.log('다음 값:', value),
-    error: err => console.log('에러 발생:', err),
-    complete: () => console.log('완료'),
-  });
+of(10, 20, 30).subscribe({
+  next: (value) => console.log("다음 값:", value),
+  error: (err) => console.log("에러 발생:", err),
+  complete: () => console.log("완료"),
+});
 
 // 결과
 // 다음 값: 10
@@ -295,13 +430,24 @@ of(10, 20, 30)
 ```js
 /* 실시간 사용 사례: 1에서 10까지 순차적으로 방출 */
 
-import { range } from 'rxjs';
+import { range } from "rxjs";
 const source = range(1, 10);
-const example = source.subscribe(val => console.log(val));
+const example = source.subscribe((val) => console.log(val));
 // 출력: 1,2,3,4,5,6,7,8,9,10
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # throwError
 
@@ -309,29 +455,40 @@ const example = source.subscribe(val => console.log(val));
 
 ```js
 /* 구독 시 오류 발생 */
-import { throwError } from 'rxjs';
+import { throwError } from "rxjs";
 // 특정 값과 함께 오류를 발생시킵니다.
 
-const source = throwError('오류 발생!');
+const source = throwError("오류 발생!");
 // 출력: 'Error: 오류 발생!'
 
 const subscribe = source.subscribe({
-  next: val => console.log(val),
-  complete: () => console.log('완료!'),
-  error: val => console.log(`오류: ${val}`)
+  next: (val) => console.log(val),
+  complete: () => console.log("완료!"),
+  error: (val) => console.log(`오류: ${val}`),
 });
 ```
 
 # timer
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 특정 시간 간격 후에 발행을 시작하고 정수 시퀀스를 발행하는 Observable를 생성합니다.
 
 ```js
 /* 실제 시나리오: 타이머는 1초 후에 발행을 시작하고 그 이후 매 2초마다 값을 발행합니다 */
 
-import { timer } from 'rxjs';
+import { timer } from "rxjs";
 
 /*
   timer 함수는 두 번째 인자를 가지며, 연속적으로 값들을 발행하는 빈도를 정의합니다.
@@ -339,43 +496,50 @@ import { timer } from 'rxjs';
 */
 const source = timer(1000, 2000);
 //출력: 0,1,2,3,4,5......
-const subscribe = source.subscribe(val => console.log(val));
+const subscribe = source.subscribe((val) => console.log(val));
 ```
 
 # iif
 
 조건에 따라 함수의 출력을 발행하는 Observable를 생성합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /* Observable에 대한 액세스 제어 */
 
-import { iif, of, EMPTY } from 'rxjs';
- 
+import { iif, of, EMPTY } from "rxjs";
+
 let accessGranted;
-const observableIfYouHaveAccess = iif(
-  () => accessGranted,
-  of('액세스가 허용된 것 같아요...'),
-  EMPTY
-);
- 
+const observableIfYouHaveAccess = iif(() => accessGranted, of("액세스가 허용된 것 같아요..."), EMPTY);
+
 accessGranted = true;
 observableIfYouHaveAccess.subscribe({
-  next: value => console.log(value),
-  complete: () => console.log('끝')
+  next: (value) => console.log(value),
+  complete: () => console.log("끝"),
 });
- 
+
 // 출력:
 // '액세스가 허용된 것 같아요...'
 // '끝'
- 
+
 accessGranted = false;
 observableIfYouHaveAccess.subscribe({
-  next: value => console.log(value),
-  complete: () => console.log('끝')
+  next: (value) => console.log(value),
+  complete: () => console.log("끝"),
 });
- 
+
 // 출력:
 // '끝'
 ```

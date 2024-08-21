@@ -3,16 +3,13 @@ title: "React 앱을 Azure Webapp에 배포하는 방법 다단계 Azure YAML �
 description: ""
 coverImage: "/assets/img/2024-06-20-DeployReactApptoAzureWebappusingmutistageAzureYAMLPipeline_0.png"
 date: 2024-06-20 02:22
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-DeployReactApptoAzureWebappusingmutistageAzureYAMLPipeline_0.png
 tag: Tech
 originalTitle: "Deploy React App to Azure Webapp using muti stage Azure YAML Pipeline"
 link: "https://medium.com/@prasad.reddy0708/deploy-react-app-to-azure-webapp-using-muti-stage-azure-yaml-pipeline-99444112437f"
 isUpdated: true
 ---
-
-
-
 
 이 글에서는 Azure YAML Pipeline을 사용하여 React 앱을 Azure Webapp에 배포하는 배포 프로세스를 안내하겠습니다.
 
@@ -23,8 +20,18 @@ isUpdated: true
 - Azure 포털에 로그인하고 자격 증명으로 이동하세요: https://portal.azure.com/#home
 - 검색 창에서 App Services를 찾아 서비스 아래에서 해당 옵션을 선택합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-20-DeployReactApptoAzureWebappusingmutistageAzureYAMLPipeline_1.png)
 
@@ -37,9 +44,18 @@ isUpdated: true
 
 ![image](/assets/img/2024-06-20-DeployReactApptoAzureWebappusingmutistageAzureYAMLPipeline_2.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image 3](/assets/img/2024-06-20-DeployReactApptoAzureWebappusingmutistageAzureYAMLPipeline_3.png)
 
@@ -49,8 +65,18 @@ isUpdated: true
 
 ![Image 6](/assets/img/2024-06-20-DeployReactApptoAzureWebappusingmutistageAzureYAMLPipeline_6.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. '만들기' 버튼을 클릭한 후에는 새 웹 앱 생성 프로세스가 시작됩니다.
 
@@ -60,7 +86,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-20-DeployReactApptoAzureWebappusingmutistageAzureYAMLPipeline_8.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 6. 빈 템플릿 페이지가 표시됩니다.
 
@@ -70,7 +107,18 @@ isUpdated: true
 
 # 서비스 연결 생성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 7. 웹 앱이 생성되었으니, Azure YAML 파이프라인을 사용하여 React 앱을 웹 앱에 배포하는 데 집중해 봅시다.
 
@@ -80,7 +128,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-20-DeployReactApptoAzureWebappusingmutistageAzureYAMLPipeline_11.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 10. Azure의 리소스와 통신하기 위해 파이프라인에 서비스 연결을 생성하려면 프로젝트 설정을 클릭해주세요.
 
@@ -90,7 +149,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-20-DeployReactApptoAzureWebappusingmutistageAzureYAMLPipeline_13.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-20-DeployReactApptoAzureWebappusingmutistageAzureYAMLPipeline_14.png)
 
@@ -100,7 +170,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-20-DeployReactApptoAzureWebappusingmutistageAzureYAMLPipeline_16.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-20-DeployReactApptoAzureWebappusingmultistageAzureYAMLPipeline_17.png" />
 
@@ -112,7 +193,18 @@ isUpdated: true
 azureSubscription: your_service_connection_name (이미지 #12에 표시된 서비스 연결 이름)
 webAppName: your_webapp_name (이미지 #3에 표시된 Web App 이름)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 파이프라인에서 deploy 단계 환경인 dev는 dev 환경으로 코드를 배포하기 위한 승인을 받기 위해 사용됩니다. 비슷하게, 추가 단계를 추가하여 test 및 prod 환경으로 배포할 수 있습니다.
 
@@ -151,7 +243,7 @@ stages:
                archiveType: "zip"
                archiveFile: "$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip"
                replaceExistingArchive: true
-            
+
           - task: PublishBuildArtifacts@1
             inputs:
                PathtoPublish: "$(Build.ArtifactStagingDirectory)"
@@ -184,7 +276,18 @@ stages:
 
 15. Azure DevOps의 Repo에 코드를 게시하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-20-DeployReactApptoAzureWebappusingmutistageAzureYAMLPipeline_19.png" />
 
@@ -194,8 +297,18 @@ stages:
 
 17. 코드가 포함된 Azure YAML 파이프라인이 있는 리포지토리를 찾아보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Table 1](/assets/img/2024-06-20-DeployReactApptoAzureWebappusingmutistageAzureYAMLPipeline_21.png)
 
@@ -205,8 +318,18 @@ stages:
 
 # 환경 변수 구성
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 18. 우리는 App.js 파일의 React 코드에서 REACT_APP_ENVIRONMENT라는 환경 변수를 사용하고 있습니다. 따라서 파이프라인에도 환경 변수를 생성해 봅시다.
 
@@ -216,8 +339,18 @@ stages:
 
 ![이미지](/assets/img/2024-06-20-DeployReactApptoAzureWebappusingmutistageAzureYAMLPipeline_25.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image 1](/assets/img/2024-06-20-DeployReactApptoAzureWebappusingmutistageAzureYAMLPipeline_26.png)
 
@@ -227,8 +360,18 @@ stages:
 
 20. If you have multiple environment variables to configure, repeat Step #19.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 21. 파이프라인을 실행하려면 실행 옵션을 클릭하세요.
 
@@ -238,7 +381,18 @@ stages:
 
 ![이미지](/assets/img/2024-06-20-DeployReactApptoAzureWebappusingmutistageAzureYAMLPipeline_30.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 23. 빌드 프로세스가 완료되면 배포 단계로 이동합니다. "View" 버튼을 클릭하여 배포를 승인하세요.
 
@@ -248,8 +402,18 @@ stages:
 
 ![이미지3](/assets/img/2024-06-20-DeployReactApptoAzureWebappusingmutistageAzureYAMLPipeline_33.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Deployment successful](/assets/img/2024-06-20-DeployReactApptoAzureWebappusingmutistageAzureYAMLPipeline_34.png)
 
@@ -259,7 +423,17 @@ stages:
 
 24. Browse the Web App and you can see React App is deployed successfully. The environment variable value that we configured in Step #19 is displayed here.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요! 위 문서를 읽어주셔서 감사합니다. 만약 이 레포지토리가 도움이 되었다면, 별풍선을 주시고 저를 팔로우해주세요. 앞으로도 많은 유익한 글을 공유할 예정이에요. 감사합니다!

@@ -3,16 +3,13 @@ title: "API 버전 관리 이해하기 왜 중요한 것인지"
 description: ""
 coverImage: "/assets/img/2024-06-20-UnderstandingAPIVersioningWhyItsImportant_0.png"
 date: 2024-06-20 04:28
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-UnderstandingAPIVersioningWhyItsImportant_0.png
 tag: Tech
 originalTitle: "Understanding API Versioning: Why It’s Important"
 link: "https://medium.com/web-tech-journals/understanding-api-versioning-why-its-important-9ed7e924000b"
 isUpdated: true
 ---
-
-
-
 
 API(응용 프로그램 프로그래밍 인터페이스)는 현대 소프트웨어 개발의 중추로, 다른 시스템이 통신하고 데이터를 교환할 수 있게 합니다.
 
@@ -22,7 +19,18 @@ API(응용 프로그램 프로그래밍 인터페이스)는 현대 소프트웨�
 
 이 글에서는 API 버전 관리가 무엇인지, 왜 중요한지, 언제 사용해야 하는지, 그리고 Node.js를 사용한 실용적인 예제에 대해 탐구해 보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # API 버전 관리란 무엇인가요?
 
@@ -32,7 +40,18 @@ API 버전 관리는 API의 변경 사항을 관리하기 위해 API의 다른 �
 
 이를 통해 개발자는 특정 API 버전에 의존하는 기존 사용자를 방해하지 않고 업데이트와 개선 사항을 적용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # API 버전 관리의 중요성
 
@@ -45,7 +64,18 @@ API 버전 관리는 API의 변경 사항을 관리하기 위해 API의 다른 �
 
 # API 버전 관리의 사용 시기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 API 버전 관련 시기를 강조한 내용입니다.
 
@@ -57,7 +87,18 @@ API 버전 관리는 API의 변경 사항을 관리하기 위해 API의 다른 �
 
 다음은 API 버전 관리를 사용하지 말아야 하는 경우를 강조한 내용입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-20-UnderstandingAPIVersioningWhyItsImportant_1.png" />
 
@@ -68,7 +109,18 @@ API 버전 관리는 API의 변경 사항을 관리하기 위해 API의 다른 �
 
 <img src="/assets/img/2024-06-20-UnderstandingAPIVersioningWhyItsImportant_2.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 클라이언트 요청: 클라이언트는 API에 요청을 보냅니다.
 - API 게이트웨이: API 게이트웨이는 이러한 요청을 받아들이고 요청 URL 또는 헤더에 지정된 버전에 따라 적절한 API 버전으로 라우팅합니다.
@@ -81,7 +133,18 @@ API 버전 관리는 API의 변경 사항을 관리하기 위해 API의 다른 �
 
 ## 단계 1: 프로젝트 설정하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우선 새로운 Node.js 프로젝트를 만들고 Express를 설치하세요.
 
@@ -96,31 +159,42 @@ npm install express
 
 gateway.js라는 파일을 만들고 API 게이트웨이로 작동하는 기본 Express 서버를 설정하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```javascript
-const express = require('express');
+const express = require("express");
 const app = express();
 const port = 3000;
 
 // API v1 route
-app.use('/api/v1', (req, res, next) => {
-    // Forward the request to the API v1 server
-    // Assuming the API v1 server is running on port 3001
-    const proxy = require('http-proxy').createProxyServer();
-    proxy.web(req, res, { target: 'http://localhost:3001' });
+app.use("/api/v1", (req, res, next) => {
+  // Forward the request to the API v1 server
+  // Assuming the API v1 server is running on port 3001
+  const proxy = require("http-proxy").createProxyServer();
+  proxy.web(req, res, { target: "http://localhost:3001" });
 });
 
 // API v2 route
-app.use('/api/v2', (req, res, next) => {
-    // Forward the request to the API v2 server
-    // Assuming the API v2 server is running on port 3002
-    const proxy = require('http-proxy').createProxyServer();
-    proxy.web(req, res, { target: 'http://localhost:3002' });
+app.use("/api/v2", (req, res, next) => {
+  // Forward the request to the API v2 server
+  // Assuming the API v2 server is running on port 3002
+  const proxy = require("http-proxy").createProxyServer();
+  proxy.web(req, res, { target: "http://localhost:3002" });
 });
 
 app.listen(port, () => {
-    console.log(`API Gateway is now running at http://localhost:${port}/`);
+  console.log(`API Gateway is now running at http://localhost:${port}/`);
 });
 ```
 
@@ -130,23 +204,34 @@ Create separate API servers for v1 and v2.
 
 Step 3.1: API v1 (port 3001):
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // api-v1.js
-const express = require('express');
+const express = require("express");
 const app = express();
 const port = 3001;
 
-app.get('/users', (req, res) => {
-    res.json([
-        { id: 1, name: 'John Doe' },
-        { id: 2, name: 'Jane Smith' }
-    ]);
+app.get("/users", (req, res) => {
+  res.json([
+    { id: 1, name: "John Doe" },
+    { id: 2, name: "Jane Smith" },
+  ]);
 });
 
 app.listen(port, () => {
-    console.log(`API v1 running at http://localhost:${port}/`);
+  console.log(`API v1 running at http://localhost:${port}/`);
 });
 ```
 
@@ -154,27 +239,37 @@ app.listen(port, () => {
 
 ```js
 // api-v2.js
-const express = require('express');
+const express = require("express");
 const app = express();
 const port = 3002;
 
-app.get('/users', (req, res) => {
-    res.json([
-        { userId: 1, fullName: 'John Doe' },
-        { userId: 2, fullName: 'Jane Smith' },
-        { userId: 3, fullName: 'Jim Beam' }
-    ]);
+app.get("/users", (req, res) => {
+  res.json([
+    { userId: 1, fullName: "John Doe" },
+    { userId: 2, fullName: "Jane Smith" },
+    { userId: 3, fullName: "Jim Beam" },
+  ]);
 });
 
 app.listen(port, () => {
-    console.log(`API v2 running at http://localhost:${port}/`);
+  console.log(`API v2 running at http://localhost:${port}/`);
 });
 ```
 
 ## 단계 4: 서버 실행하기
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 API 게이트웨이와 두 개의 API 버전을 시작하세요:
 
@@ -188,12 +283,21 @@ node api-v2.js
 
 다른 버전에 요청을 보내어 API 게이트웨이를 테스트하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 curl http://localhost:3000/api/v1/users
 curl http://localhost:3000/api/v2/users
-
 
 API 게이트웨이 및 버전별 API를 Node.js에서 구현하여 클라이언트 요청을 적절한 API 버전으로 라우팅하고 관리할 수 있습니다.
 
@@ -201,8 +305,18 @@ API 게이트웨이 및 버전별 API를 Node.js에서 구현하여 클라이언
 
 # 결론
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 API 버전 관리는 API 설계 및 개발의 중요한 측면이며, 기존 기능을 손상시키지 않고 변경 사항을 도입할 수 있도록 개발자들을 가능하게 합니다.
 
@@ -212,8 +326,18 @@ API의 다양한 버전을 신중하게 관리함으로써 사용자들에게 �
 
 도움이 되었거나 흥미로웠다면 박수 버튼을 클릭하여 응원해주시겠어요? 🎉
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](https://miro.medium.com/v2/resize:fit:1400/0*4KabDY9ZImT3QdwF.gif)
 

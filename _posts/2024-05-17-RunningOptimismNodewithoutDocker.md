@@ -3,17 +3,13 @@ title: "도커 없이 Optimism 노드 실행하는 방법"
 description: ""
 coverImage: "/assets/img/2024-05-17-RunningOptimismNodewithoutDocker_0.png"
 date: 2024-05-17 03:55
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-17-RunningOptimismNodewithoutDocker_0.png
 tag: Tech
 originalTitle: "Running Optimism Node without Docker"
 link: "https://medium.com/@hiroyukinaito.eth/draft-running-optimism-node-without-docker-cb65fa9f780d"
 isUpdated: true
 ---
-
-
-
-
 
 ![Optimism node](/assets/img/2024-05-17-RunningOptimismNodewithoutDocker_0.png)
 
@@ -23,8 +19,18 @@ Optimism 노드를 설치하는 것은 매우 간단합니다. 다른 슈퍼체�
 
 본 문서에서는 다음과 같은 설정을 하게 됩니다:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - `/etc/environment`에 환경 변수 설정하기
 - op-node 및 op-geth용 systemd 파일 생성하기
@@ -37,7 +43,18 @@ Optimism 노드를 설치하는 것은 매우 간단합니다. 다른 슈퍼체�
 
 # 2. `/etc/environment`에 Optimism 노드 환경 변수 추가 및 데이터 디렉토리 생성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2–1. 당신의 노드에 `/etc/environment` 파일에 다음 템플릿을 추가해주세요.
 
@@ -91,7 +108,18 @@ OP_GETH_SYNCMODE=snap
 
 아래 세 가지 변수를 변경해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 OP_NODE_L1_ETH_RPC: 귀하의 L1 노드 (이더리움) RPC URL 또는 L1 PRC 노드 공급 업체 URL입니다.
 
@@ -103,7 +131,18 @@ OP_NODE_L1_ETH_RPC=http://192.168.1.2:8545
 
 OP_NODE_L1_BEACON: 귀하의 L1 노드 (이더리움) Beacon RPC URL 또는 L1 Beacon 노드 공급 업체 URL입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 예시 (등대 비콘 rpc)
 
@@ -115,7 +154,18 @@ OP_NODE_P2P_ADVERTISE_IP: 공용 IP 주소(개인 IP 주소가 아닙니다!)
 
 - 예시
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 OP_NODE_P2P_ADVERTISE_IP=34.149.58.211
@@ -131,7 +181,18 @@ $ curl http://api.ipify.org
 
 (선택 사항) 다른 P2P 포트를 사용하거나 L1 RPC를 신뢰하지 않는 경우 환경에 맞게 변경해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 P2P_PORT=30304 # op-geth용 P2P 포트
@@ -198,8 +259,18 @@ OP_GETH_GCMODE=full
 OP_GETH_SYNCMODE=snap
 ```
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2-3. 블록체인 데이터를 보존하기 위한 data 디렉토리 생성
 
@@ -212,7 +283,18 @@ $ mkdir data
 
 # 3. op-node systemd 파일 생성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 $ sudo touch /etc/systemd/system/op-node.service
@@ -248,7 +330,18 @@ WantedBy=multi-user.target
 
 op-node systemd 파일을 성공적으로 생성했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 4. op-geth systemd 파일 만들기
 
@@ -313,7 +406,18 @@ SyslogIdentifier=op-geth
 WantedBy=multi-user.target
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 마크다운 형식으로 변경해주세요.
 
@@ -326,7 +430,18 @@ $ sudo touch /etc/rsyslog.d/24-op-node.conf
 $ sudo vim /etc/rsyslog.d/24-op-node.conf
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 설정을 붙여넣고 저장하세요.
 
@@ -337,24 +452,42 @@ if $programname == 'op-node' then ~
 
 ## 5-2. op-geth rsyslog 구성 파일
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 $ sudo touch /etc/rsyslog.d/25-op-geth.conf
 $ sudo vim /etc/rsyslog.d/25-op-geth.conf
-
 
 참고:
 선호하는 파일 이름으로 변경해주세요.
 
 다음 설정을 붙여넣고 저장하세요.
 
-
 if $programname == 'op-geth' then /var/log/op-geth.log
 if $programname == 'op-geth' then ~
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 5-3. rsyslog 데몬 재시작
 
@@ -366,7 +499,18 @@ $ sudo systemctl restart rsyslog
 
 로그를 회전하지 않으면 많은 디스크 공간을 사용하므로 로그 회전을 설정해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```shell
 $ sudo touch /etc/logrotate.d/op-client
@@ -395,7 +539,18 @@ $ sudo vim /etc/logrotate.d/op-client
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 7. 옵티미즘 노드 실행하기
 
@@ -403,7 +558,18 @@ $ sudo vim /etc/logrotate.d/op-client
 
 ## 7-1. op-node 실행
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 $ sudo systemctl enable op-node
@@ -436,9 +602,19 @@ $ sudo systemctl status -l op-geth
 ```
 
 ## 7–3. 로그 확인하기
-  
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 명령어를 사용하여 로그를 확인할 수 있어요:
 
@@ -451,8 +627,18 @@ $ sudo tail -f /var/log/op-node.log
 
 - Left (op-node), Right (op-geth)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image 1](/assets/img/2024-05-17-RunningOptimismNodewithoutDocker_1.png)
 
@@ -462,8 +648,18 @@ Roughly within 20 hours, op-geth will complete syncing with snap mode, as shown 
 
 - Synced Example
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/1*YTH6tEbhxERWqcUMkOsJxw.gif" />
 ## 7-4. 동기화 여부 확인
@@ -472,8 +668,18 @@ Roughly within 20 hours, op-geth will complete syncing with snap mode, as shown 
 
 - 공개 Optimism 노드에서 최신 블록 번호 가져오기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 $ curl -sX POST -H "Content-Type: application/json" \
@@ -493,8 +699,18 @@ http://localhost:8545/ \
 
 - 출력 예시
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-05-17-RunningOptimismNodewithoutDocker_3.png" />
 
@@ -512,7 +728,18 @@ $ sudo systemctl start op-node
 $ sudo systemctl start op-geth
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 부록 2: 사용자 정의
 
@@ -522,7 +749,18 @@ Optimism 환경 변수를 기반으로 사용자 정의를 원하시는 경우, 
 
 ## A3–1. CPU 사용량
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Rock 5B에서 작동하는 Rockchip RK3588은 비용 효율적이고 겸손한 8코어 CPU입니다. 스냅 동기화 모드를 사용하는 Optimism 노드는 최대 사용량이 800%인 RK3588의 용량을 200%에서 300% 소비합니다.
 
@@ -535,7 +773,18 @@ $ top -p $(pgrep op-geth)  -p $(pgrep op-node)
 
 <img src="/assets/img/2024-05-17-RunningOptimismNodewithoutDocker_4.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## A3-2. 메모리 사용량
 
@@ -550,12 +799,21 @@ Swap:            0B          0B          0B
 
 지금은 2024년 5월 16일이며, --state.scheme=path 옵션을 사용한 스냅 동기화 모드는 지금까지 404 GB만 소비되었습니다. 따라서 1 TB 미만의 SSD로도 노드를 실행할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 $ du -sh ~/data
-404G    /home/ethereum/data
-
+404G /home/ethereum/data
 
 # 소감
 

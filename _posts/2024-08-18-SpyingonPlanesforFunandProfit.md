@@ -3,7 +3,7 @@ title: "재미와 이익을 위해 비행기를 감시하기 신기한 비행기
 description: ""
 coverImage: "/assets/img/2024-08-18-SpyingonPlanesforFunandProfit_0.png"
 date: 2024-08-18 11:38
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-18-SpyingonPlanesforFunandProfit_0.png
 tag: Tech
 originalTitle: "Spying on Planes for Fun and Profit"
@@ -11,7 +11,6 @@ link: "https://medium.com/codex/spying-on-planes-for-fun-and-profit-789f4ef7d799
 isUpdated: true
 updatedAt: 1724032818451
 ---
-
 
 싸고 저렴한 SDR(소프트웨어 정의 라디오) 동글과 라즈베리 파이를 이용해서 ADS-B 데이터를 수집하는 방법을 알아보았어요.
 
@@ -21,7 +20,18 @@ updatedAt: 1724032818451
 
 최근 아마존에서 싸고 저렴한 SDR 동글을 구입했어요. 온라인에서 항공 추적에 대한 토론을 살펴보면서 이 제품을 알게 되었고, 항공 산업에서 사이버 보안 전문가로 일하고 있는 저에게 항공기 시스템에 대한 큰 관심이 있어요. 특히 오픈 소스와 프로프라이어터리 기술 간의 상호작용을 이해하는 데 흥미를 느끼고 있어요. 업무 중 ACARS 데이터를 자주 다루는데, 이것이 제 궁금증을 자극하여 radarplane.com과 adsbexchange.com 같은 온라인 자료들을 더 탐색해보게 되었어요. flightradar24.com의 내용이 매력적이라고 생각했지만, 세션 타임아웃 문제로 사용에 어려움을 겪었어요. 더 나은 설정을 위해 역방향 프록시를 저렴한 "미니 PC"(Celeron 프로세서와 eMMC 저장 장치 탑재)로 옮겼어요. 베니라 데비안, Nginx 및 Crowdsec를 실행하는 이 구성은 매우 효율적이었어요. 남는 자원을 활용하기 위해 Raspberry Pi를 다시 활용해 플래싱하고 Docker를 설치한 후 Audiobookshelf를 배포했는데, 성능이 훌륭했고 개인 안드로이드 폰과도 원활하게 연결되었어요. 특히, 이 설정은 라즈베리 파이가 이전에 사용했던 자원보다 훨씬 적게 소비했고 추가 기능을 위한 충분한 공간이 남았어요. 이 성공에 자극받아, Flightradar24.com에서 제공하는 문서를 따라 새로운 ADB-S(자율형 의존적 추적-브로드캐스트) SDR 동글을 Pi 설정에 통합하여 사무실 내에서 추적 스테이션을 구축했어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-08-18-SpyingonPlanesforFunandProfit_1.png](/assets/img/2024-08-18-SpyingonPlanesforFunandProfit_1.png)
 
@@ -31,7 +41,18 @@ updatedAt: 1724032818451
 
 한편, 제 설정은 라즈베리 파이에 USB 동글을 연결하고 더 나은 안테나로 수신을 향상시키는 것으로 간단하게 되어 있습니다. 저는 방송 활동에 종사하지 않으며, 이 설정 이외에 더 진보된 SDR 하나와 아마존 위시 리스트에 있는 Beofung 라디오만이 라디오 재고로 있습니다. 이런 노력들은 본질적으로 집에서 실험하는 영역에 속합니다. 여기서는 사실상 비트를 다루고 있지만, 비행기에서 전송된 비트를 해독하는 것입니다. 저는 항상 이런 비정상적인 프로젝트에 종사하며, 이러한 독특한 프로젝트에 참여하는 것은 저의 세계에서 흔한 일입니다. 저는 이런 식으로 이상한 것들을 자주 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 이것으로 무엇을 얻을까요?
 
@@ -41,7 +62,18 @@ FlightRadar24와 같은 서비스는 정확한 비행 추적을 위해 ADS-B 데
 
 키트 안테나는 처음에 천장 타일에 부착되어 있었지만, 새로운 안테나를 천장 위의 줄기에 파란색 테이프 한 조각 위에 세밀하게 잠재워 새로운 안테나를 설치하여 청결한 설치를 선택했습니다. 케이블은 이더넷 연결 옆으로 세심하게 배치하여 서버에 연결되어 있습니다. 이 업그레이드로 범위의 뚜렷한 향상이 있었으며, 나의 범위가 10에서 25해리로 확대되었습니다. 결과적으로 더 많은 사설 항공기와 헬기의 신호를 수신하기 시작했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단히 키트 안테나를 2층 사무실 창가에 두는 것으로도 만족할 수 있는 경우가 있겠지만, 저는 최상의 성능을 위해 숨길 수 있고 고정된 설치를 선호했습니다. 성능 차이가 분명합니다. 7달러를 투자하고 Rp-SMA 여성-Mcx 남성 어댑터만 있으면 됐어요.
 
@@ -51,7 +83,18 @@ FlightRadar24와 같은 서비스는 정확한 비행 추적을 위해 ADS-B 데
 
 # 이 작업을 어떻게 하나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 FLightradar24.com을 위한 SDR 동글과 피드를 설정하는 것은 정말 쉽습니다.
 
@@ -61,7 +104,18 @@ SDR 동글을 삽입하고 안테나를 연결하세요. 안테나를 좋은 곳
 
 ![Spying on Planes for Fun and Profit](/assets/img/2024-08-18-SpyingonPlanesforFunandProfit_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 공식 문서는 그들의 웹사이트에서 확인하실 수 있어요.
 
@@ -71,7 +125,18 @@ SDR 동글을 삽입하고 안테나를 연결하세요. 안테나를 좋은 곳
 
 sudo apt update
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 sudo apt upgrade
 
@@ -83,7 +148,18 @@ wget -qO- https://fr24.com/install.sh | sudo bash -s
 
 이메일과 공유 키를 입력해야 합니다. 또한 수신기 타입을 선택해야 하는데, 옵션 1 또는 dvbt여야 합니다. dvbt를 선택하세요, 그게 동글의 타입이에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어떤 문제가 있으면 설정 파일을 편집할 수 있어요:
 
@@ -93,19 +169,39 @@ sudo nano /etc/fr24feed.ini
 
 <img src="/assets/img/2024-08-18-SpyingonPlanesforFunandProfit_5.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 FlightRadar24.com에서 성공적인 피드를 가지고 있다면, 다른 ADB-S 사이트로 피드를 시작하는 것도 좋은 아이디어일 겁니다. 그들은 종종 회원들에게 프리미엄 혜택을 제공합니다. adsbexchange.com은 큰 항공 추적 사이트이며, 그들의 항공 추적기는 매우 정교하고 다양한 기능이 있습니다. 피더들은 프리미엄 액세스를 받습니다. 그들의 설정은 문서에서 설명한대로 매우 쉽습니다.
 
 인스톨 스크립트를 실행하세요:
 
-
 curl -L -o /tmp/axfeed.sh https://www.adsbexchange.com/feed.sh
 
 sudo bash /tmp/axfeed.sh
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스탯 클라이언트를 설치해주세요:
 
@@ -117,7 +213,18 @@ sudo bash /tmp/axstats.sh
 
 아래 링크를 통해 여러분이 피드를 제공하고 있는지 확인해보세요: [https://www.adsbexchange.com/myip/](https://www.adsbexchange.com/myip/)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 성공적으로 수집하고 프리미엄 액세스를 표시하여 트래킹 맵과 통계에 액세스할 수 있어야 합니다:
 

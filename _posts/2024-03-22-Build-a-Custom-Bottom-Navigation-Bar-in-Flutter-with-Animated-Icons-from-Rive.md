@@ -3,17 +3,13 @@ title: "플러터 애니메이션 사용해 사용자 정의 하단 네비게이
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 오늘은 플러터에서 Rive의 애니메이션 아이콘을 사용하여 사용자 정의 하단 내비게이션 바를 만드는 방법을 보여 드리겠습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 빈 플러터 프로젝트로 여정을 시작하고, assets 디렉토리를 생성합니다. 첫 번째 단계는 Rive 커뮤니티에서 애니메이션 아이콘을 다운로드하는 것입니다. 그런 다음 파일 이름을 animated-icons.riv로 변경하고 assets 폴더에 추가합니다. 이 파일이 pubspec.yaml에서 assets 하위에 올바르게 참조되었는지 확인하는 것이 중요합니다. 마지막 단계는 프로젝트에 Rive 패키지를 추가하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## RiveModel
 
@@ -43,7 +50,18 @@ class RiveModel {
 
 지금, 여러분은 아트보드와 스테이트 머신 이름이 정확히 무엇인지 궁금할 것입니다. 애니메이션 아이콘으로 돌아가 보면, 리믹스 버튼을 클릭하면 마치 청사진을 보는 것과 같죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/Build-a-Custom-Bottom-Navigation-Bar-in-Flutter-with-Animated-Icons-from-Rive_1.png" />
 
@@ -76,7 +94,18 @@ List<RiveModel> bottomNavItems = [
 ];
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자, 이제 다시 본 코드로 돌아가서 가장 재미있는 부분을 시작해 보겠습니다.
 
@@ -108,7 +137,18 @@ class _BottomNavWithAnimatedIconsState
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 대신에 기존의 BottomNavigationBar 위젯을 사용하지 않고 Container를 사용할 거에요. 아래 코드로 ToDo: Bottom Nav Bar를 교체하세요.
 
@@ -137,7 +177,18 @@ bottomNavigationBar: SafeArea(
 
 이제 아이콘을 표시할 거에요. List.generate를 사용하여 자식으로 설정된 Row를 통해 각 아이콘의 높이와 너비를 36으로 설정하세요. RiveAnimation.asset를 사용하여 소스를 정의하세요. ToDo: Animated Icons을 아래 코드로 교체하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 child: Row(
@@ -162,7 +213,18 @@ child: Row(
 
 이는 파일에 모든 아이콘이 포함되어 있기 때문에 발생하며, 원하는 것을 지정해야 합니다. 아트보드를 사용하여 지정하세요. TO DO: Mention Artboard를 다음으로 바꿔주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 artboard: bottomNavItems[index].artboard,
@@ -174,7 +236,18 @@ artboard: bottomNavItems[index].artboard,
 
 일부 아이콘이 애니메이션되고 일부는 그렇지 않다는 것을 알 수 있습니다. 애니메이션을 관리하려면 컨트롤러를 설정해야 합니다. 이를 위해 riveOnInIt이라는 함수를 생성하고 StateMachineController를 정의한 다음, artboard 및 stateMachineName을 전달해야 합니다. 그런 다음 이 컨트롤러를 artboard에 연결하는 것이 다음 단계입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컨트롤러를 설정하면, 정확히 어떤 것을 컨트롤할 지 궁금할 것입니다. 이를 대답하기 위해 Rive 편집기로 돌아가 보겠습니다.
 
@@ -184,7 +257,18 @@ artboard: bottomNavItems[index].artboard,
 
 코드에서 해당 내용을 액세스하려면 findInput을 사용합니다. 여기에 입력의 이름을 명시해야 합니다. 여기가 바로 우리의 함수입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 void riveOnInIt(Artboard artboard, {required String stateMachineName}) {
@@ -208,7 +292,18 @@ int selctedNavIndex = 0;
 
 컨트롤러를 저장하여 더 이상 필요하지 않을 때 삭제할 수 있도록 합니다. 선택된 NavIndex는 이후에 서로 다른 페이지 간을 탐색하고 기타 목적을 위해 사용될 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 'RiveAnimation'으로 돌아오면 'onInit'에서는 'riveOnInit'을 참조해야 합니다.
 
@@ -222,7 +317,18 @@ onInit: (artboard) {
 
 아이콘이 탭될 때 애니메이션을 트리거하는 마지막 단계입니다. SizedBox를 GestureDetector로 감싸주어야 합니다. 탭할 때 입력 상태가 true로 설정됩니다. 각 아이콘은 애니메이션을 완료하는 데 1초가 걸리며 반복됩니다. 그래서 1초 후에 애니메이션을 멈추려면 Future.delayed를 사용해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 GestureDetector(
@@ -271,7 +377,18 @@ class AnimatedBar extends StatelessWidget {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막 단계는 SizedBox를 Column으로 감싸고 AnimatedBar를 상단에 배치하는 것입니다.
 
@@ -412,4 +529,15 @@ class AnimatedBar extends StatelessWidget {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

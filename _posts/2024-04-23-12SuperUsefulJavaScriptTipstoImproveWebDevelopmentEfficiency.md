@@ -3,17 +3,13 @@ title: "12가지 웹 개발 효율을 높이는 유용한 자바스크립트 팁
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "12 Super Useful JavaScript Tips to Improve Web Development Efficiency"
 link: "https://medium.com/javascript-in-plain-english/12-super-useful-javascript-tips-to-improve-web-development-efficiency-5b39511e76f4"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/12SuperUsefulJavaScriptTipstoImproveWebDevelopmentEfficiency_0.png)
 
@@ -24,7 +20,18 @@ JavaScript은 매우 유연한 프로그래밍 언어로, 실용적인 방법을
 
 "대문자 낙타 표기법"은 프로그래밍에서 사용되는 용어로, 각 단어가 소문자로 시작하는 첫 번째 단어를 제외한 모든 단어가 대문자로 시작하는 복합 단어나 구를 작성하는 방법을 말합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 기능 camelize (str) {
@@ -46,7 +53,18 @@ function numFormat(num) {
 console.log(numFormat("123456789")); //결과: 123,456,789
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 🎈3. a&a.b&a.b.c
 
@@ -65,7 +83,18 @@ console.log(proxy.b.c); //결과: undefined
 
 📱4. 모바일 전화기 유형
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요! 안드로이드 폰, 아이폰 또는 아이패드 종류를 확인하는 데 사용할 수 있어요.
 
@@ -85,7 +114,18 @@ function getBrowserInfo() {
 
 파일 내보내기 기능을 구현해야 할 때, 폼 제출 방법을 시뮬레이션할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /**
@@ -133,7 +173,18 @@ customEventBind(document, "click", function () {
 🌟7. 쿠키 설정하기
 특정 사이트의 요구 사항에 따라 쿠키를 설정하는 방법을 파악하고 구현해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 쿠키는 이름과 해당 값으로 구성되어 있으며, 이름, 값, 도메인 이름, 경로, 만료 시간 및 보안 플래그를 포함합니다.
 
@@ -143,9 +194,7 @@ function setCookie({ key, value, expires, path, domain, secure }) {
 
   if (expires) {
     let expirationDate = new Date();
-    expirationDate.setTime(
-      expirationDate.getTime() + expires * 24 * 60 * 60 * 1000
-    );
+    expirationDate.setTime(expirationDate.getTime() + expires * 24 * 60 * 60 * 1000);
     cookieString += "; expires=" + expirationDate.toUTCString();
   }
   if (path) cookieString += "; path=" + path;
@@ -159,8 +208,7 @@ function setCookie({ key, value, expires, path, domain, secure }) {
 
 ```js
 function getBrowserInfo() {
-  const browserRegex =
-    /(Chrome|Firefox|Safari|Opera|Edge|Trident)[\/ ]?([0-9a-zA-Z.]*)/;
+  const browserRegex = /(Chrome|Firefox|Safari|Opera|Edge|Trident)[\/ ]?([0-9a-zA-Z.]*)/;
   const browserMatch = userAgent.match(browserRegex);
 
   let browserName = null;
@@ -176,7 +224,18 @@ console.log(getBrowserInfo());
 //결과: { browserName: 'Chrome', browserVersion: '120.0.0.0'}
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 🚀9. 운영 체제 정보 가져오기
 
@@ -206,7 +265,18 @@ console.log(getUserOsInfo());
 
 날짜 형식을 사용할 때 사용자가 선택한 ⏪ 시작 날짜가 ⏩ 종료 날짜보다 이전인지 확인해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 10월 10일의 시작 날짜는 2023년 12월 9일의 종료 날짜보다 빠릅니다.
 
@@ -224,7 +294,18 @@ function getQueryStringRegExp(queryName) {
 console.log(getQueryStringRegExp("name")); // 출력: amelia
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ⛺12. 엑셀 파일 내보내기
 
@@ -267,11 +348,7 @@ function exportExcel(headers, data, fileName = "export.xlsx") {
     )
     .reduce((prev, next) => prev.concat(next))
     // 워크시트 구조로 변환
-    .reduce(
-      (prev, next) =>
-        Object.assign({}, prev, { [next.position]: { v: next.content } }),
-      {}
-    );
+    .reduce((prev, next) => Object.assign({}, prev, { [next.position]: { v: next.content } }), {});
   // 헤더와 데이터 병합
   const output = Object.assign({}, _headers, _data);
   // 모든 셀의 위치 가져오기
@@ -307,7 +384,18 @@ export default exportExcel;
 
 위에 소개된 12가지 팁은 프로젝트 개발에서 매우 실용적이고 유용합니다. 자주 활용하시는 저로서 여러분의 프로젝트 개발 과정에 도움이 되기를 바라며, 여러분의 툴 라이브러리 🛠️를 개선하고, 프로그래밍 기술 🚀을 확장하고, 효율성 ⏱️을 향상시켜서 큰 성과를 이루시길 바랍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 친절한 한국어 번역 🚀
 

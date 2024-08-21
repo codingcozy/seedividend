@@ -3,15 +3,13 @@ title: "드래그 앤 드롭 Nextjs 프로젝트에 커스텀 아이템 추가�
 description: ""
 coverImage: "/assets/img/2024-07-07-AddingCustomDraggableItemsToDrag-And-DropNextJsProject_0.png"
 date: 2024-07-07 12:59
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-AddingCustomDraggableItemsToDrag-And-DropNextJsProject_0.png
 tag: Tech
 originalTitle: "Adding Custom Draggable Items To Drag-And-Drop Next.Js Project"
 link: "https://medium.com/@programming-advice/adding-custom-draggable-items-to-drag-and-drop-next-js-project-7087d494d19a"
 isUpdated: true
 ---
-
-
 
 ## 이전 글의 연속입니다.
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 이전 글을 읽거나 살펴본 적이 있다면, 여러분의 프로젝트에 드래그 앤 드롭 기능이 있을 것입니다. 그러나 만약 작은 상자가 아닌 다른 것들을 드래그 앤 드롭하고 싶다면 어떻게 할까요? 실제로 엘리먼트를 드래그 앤 드롭하고 싶다면요? 뭔가 더 멋진 것을 원한다면, 이 튜토리얼은 여러분을 위한 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 시작하기 전에 여기서 정확히 무엇을 하는지 이해하려면 이전 기사를 읽어야 합니다. 그래서 그것을 확인하고 돌아와주세요. 여러분과 공유할 많은 코드가 있습니다. 그러니 함께 시작해봅시다!
 

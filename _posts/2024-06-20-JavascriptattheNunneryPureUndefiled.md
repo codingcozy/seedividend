@@ -3,16 +3,13 @@ title: "자바스크립트 공부 순수하고 불량한"
 description: ""
 coverImage: "/assets/img/2024-06-20-JavascriptattheNunneryPureUndefiled_0.png"
 date: 2024-06-20 02:44
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-JavascriptattheNunneryPureUndefiled_0.png
 tag: Tech
 originalTitle: "Javascript at the Nunnery: Pure , Undefiled"
 link: "https://medium.com/@rayepps/javascript-at-the-nunnery-pure-undefiled-353e32fd6e1b"
 isUpdated: true
 ---
-
-
-
 
 가장 좋은 자바스크립트는 간단하고 깔끔하며 클래스, this, 상속 및 데코레이터와 같은 추종할만한 기능으로 오염되지 않았어야 한다.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 자바스크립트는 다양한 언어 기능을 갖춘 매우 강력한 프로그래밍 언어입니다. 그러나 대부분은 완전한 쓰레기입니다. 지난 10년 동안 엔지니어들이 품질 좋은 코드를 작성하는 능력을 저해하는 데 그 기능들은 소용이 없었습니다. 저는 객체와 함수만 사용하는 것이 훨씬 좋습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # JavaScript의 문제
 
@@ -32,7 +40,18 @@ JavaScript는 그 규칙의 예외입니다.
 
 JavaScript가 약했더라도 웹을 구동하는 기술로서 죽어서는 안되었습니다. 대신 새로운 기능들이 외부로 테이핑, 접착, 그리고 끈과 와이어로 결합되어 추가되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 오늘 알고 있는, 싫어하는, 그리고 사랑하는 JavaScript는 처음부터 의심스러운 핵심 엔진에 계층 지어 쌓인 기능들의 집합이에요.
 
@@ -42,7 +61,18 @@ JavaScript가 약했더라도 웹을 구동하는 기술로서 죽어서는 안�
 
 거짓말이에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로토타입 상속을 예로 들어보죠. 좀 이상하고, 좀 추잡하며, 현대 프로그래밍 언어에는 어울리지 않는 개념이죠. 언어에 그 개념이 존재한다고 해서 우리가 받아들여야 하는 것은 아니라고 생각해요.
 
@@ -52,7 +82,18 @@ JavaScript가 약했더라도 웹을 구동하는 기술로서 죽어서는 안�
 
 ## 클래스를 사용하지 않아요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 클래스는 상태가 초기화된 객체일 뿐입니다. 정말, 그게 전부에요!
 
@@ -62,8 +103,18 @@ JavaScript가 약했더라도 웹을 구동하는 기술로서 죽어서는 안�
 
 그렇다면 왜 클래스를 사용해야 할까요? 상속에 대해 생각 중이라면 다음 코드 조각을 고려해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-20-JavascriptattheNunneryPureUndefiled_2.png)
 
@@ -73,8 +124,18 @@ JavaScript가 약했더라도 웹을 구동하는 기술로서 죽어서는 안�
 
 사실 데코레이터 아이디어를 좋아해요. 안타깝게도 자바스크립트 위원회가 금기 주류에 취해 있었던 그 날 밤, 형식을 결정해버렸어요.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이를 수행하기 위해 자바스크립트가 만든 형식을 배워야 합니다. 저는 파이썬 접근 방식을 선호합니다. 파이썬에서 데코레이터는 함수를 인수로 받아들이고 함수를 반환하는 함수입니다.
 
@@ -84,7 +145,18 @@ JavaScript가 약했더라도 웹을 구동하는 기술로서 죽어서는 안�
 
 이 예제에서는 `speak` 함수를 우리의 `uppercase` 및 `emphasize` 데코레이터로 장식하여 `scream` 함수를 만들었습니다. 실제로 우리는 데코레이팅하는 것이 아니라 조합하고 있습니다. 그것은 버그가 아니라 기능입니다. 어쨌든, 우리는 동일한 꾸미기 목표를 달성하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 그런데 왜요?
 
@@ -94,7 +166,18 @@ JavaScript가 약했더라도 웹을 구동하는 기술로서 죽어서는 안�
 
 이것은 절대적인 규칙은 아니지만, 제 경력 동안 본 경향입니다. 개인적으로, 결정론적인 코드와 가능한 한 순수한 함수를 강력히 선호합니다. 당신이 단호하다면 클래스로도 이러한 것들을 달성할 수 있습니다. 그러나 항상 그대로인 것 같지는 않습니다. 제가 단호해도, 다음 10 명의 엔지니어들은 같은 생각을 공유할 가능성이 낮습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시간이 지남에 따라 클래스는 더 많은 속성을 저장하고 해당 속성에 의존하는 더 많은 함수를 추가하는 경향이 있습니다. 클래스가 정말 통제를 벗어날 때, 어느 시점에 적절한 속성 값은 메소드의 올바른 기능에 중요해집니다. 즉, 상태의 악몽입니다.
 
@@ -104,7 +187,18 @@ JavaScript가 약했더라도 웹을 구동하는 기술로서 죽어서는 안�
 
 이를 클래스로 수행할 수 있지만, 30년 이상의 전통이 있어 이 방식으로 작업하지 않는 것이 좋습니다. 다른 사람들이 당신의 코드를 분석하고 클래스를 찾게 되면, 그들은 깊게 생각하지 않고 상태를 더 늘리게 될 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 클래스 테스트하기 어렵습니다
 
@@ -114,7 +208,18 @@ JavaScript가 약했더라도 웹을 구동하는 기술로서 죽어서는 안�
 
 <img src="/assets/img/2024-06-20-JavascriptattheNunneryPureUndefiled_5.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리의 오토바이 수업은 약간 특이해요 — 빨간 오토바이가 가장 빠르다는 건 누구나 알고 있죠 — 하지만 이것은 국가가 결과를 파생해내는 실제 시나리오를 보여줘요.
 
@@ -122,7 +227,18 @@ JavaScript가 약했더라도 웹을 구동하는 기술로서 죽어서는 안�
 
 함수 및 객체 버전에서, getSpeed 함수를 위한 테스트를 작성하면 개발자에게 색상 — 필수 인수 — 가 결과에 영향을 미친다는 것을 알려줄 거에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 객체는 인지 부담을 줄입니다
 
@@ -132,7 +248,18 @@ JavaScript가 약했더라도 웹을 구동하는 기술로서 죽어서는 안�
 
 ## 데코레이터는 영원히 함수에 데코레이터를 바인딩합니다
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 JavaScript에서 @decorator 기능을 사용할 때는 데코레이터 함수를 영원히 데코레이트된 함수에 바인딩하는 것입니다. 이것은 함수를 격리해서 테스트하는 능력을 완전히 파괴합니다.
 
@@ -142,7 +269,18 @@ speak/scream 데코레이터 예제의 버전을 살펴봅시다. 이 예제는 
 
 나는 데코레이터를 실행하지 않고는 speak 메서드를 테스트할 수 없습니다. 품질 높은 단위 테스트를 중요시하는 사람으로서, 이는 시작조차 할 수 없는 상황입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 장식자는 난해한 형식에 대한 지식이 필요합니다
 
@@ -152,7 +290,18 @@ speak/scream 데코레이터 예제의 버전을 살펴봅시다. 이 예제는 
 
 장식자의 정의는 간단하고 아름다운데...함수를 취하고 함수를 반환하는 함수입니다. 자바스크립트는 복잡한 형식으로 실로 우아한 패턴을 와해시켰습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 데코레이터들은 이를 필요로 합니다
 

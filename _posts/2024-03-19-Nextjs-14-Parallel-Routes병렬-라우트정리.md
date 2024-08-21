@@ -3,20 +3,15 @@ title: "Nextjs 14 Parallel Routes병렬 라우트정리"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
 
-
-
-
-
 # Nextjs 14 Parallel Routes(병렬 라우트)정리
-
 
 # 병렬 라우트
 
@@ -26,7 +21,18 @@ isUpdated: true
 
 <img src="/assets/img/Parallel-Routes_0.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 슬롯
 
@@ -34,7 +40,19 @@ isUpdated: true
 
 <img src="/assets/img/Parallel-Routes_1.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 슬롯은 공유 부모 레이아웃에 속성(props)으로 전달됩니다. 위의 예제에서는 app/layout.js 파일의 컴포넌트가 이제 @analytics 및 @team 슬롯 props를 수용하고, 이를 children props와 함께 병렬로 렌더링할 수 있습니다:
 
 ```typescript
@@ -59,7 +77,18 @@ export default function Layout({
 
 그러나 슬롯은 라우트 세그먼트가 아니며 URL 구조에 영향을 주지 않습니다. 예를 들어, /dashboard/@analytics/views의 경우 URL은 /dashboard/views가 됩니다. 왜냐하면 @analytics는 슬롯이기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 > 알아두세요:
 > children props는 슬롯을 폴더에 매핑할 필요가 없는 암시적인 슬롯입니다. 즉, app/page.js는 app/@children/page.js와 동일합니다.
@@ -74,7 +103,18 @@ export default function Layout({
 > 알아두세요:
 > 일치하지 않는 라우트에 대한 404는 의도하지 않은 병렬 라우트가 의도되지 않은 페이지에 렌더링되지 않도록 보장합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### default.js
 
@@ -92,7 +132,18 @@ export default function Layout({
 
 또한, children이 암시적인 슬롯인 경우 부모 페이지의 활성 상태를 복구할 수 없는 경우를 대비해 대체 렌더링을 위해 default.js 파일을 생성해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### useSelectedLayoutSegment(s)
 
@@ -111,7 +162,18 @@ export default function Layout({ auth }: { auth: React.ReactNode }) {
 
 사용자가 app/@auth/login(또는 URL 표시줄의 /login)로 이동할 때, loginSegments는 "login" 문자열과 동일합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 예시
 
@@ -124,13 +186,7 @@ export default function Layout({ auth }: { auth: React.ReactNode }) {
 ```typescript
 import { checkUserRole } from "@/lib/auth";
 
-export default function Layout({
-  user,
-  admin,
-}: {
-  user: React.ReactNode;
-  admin: React.ReactNode;
-}) {
+export default function Layout({ user, admin }: { user: React.ReactNode; admin: React.ReactNode }) {
   const role = checkUserRole();
   return <>{role === "admin" ? admin : user}</>;
 }
@@ -142,7 +198,18 @@ export default function Layout({
 
 예를 들어, @analytics 슬롯에는 두 개의 하위 페이지(/page-views 및 /visitors)가 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/Parallel-Routes_4.png" />
 
@@ -175,7 +242,18 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 
 다음과 같은 UI 패턴을 고려해 보겠습니다. 사용자는 레이아웃에서 클라이언트 측 네비게이션을 사용하여 로그인 모달을 열거나 별도의 /login 페이지에 액세스할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/Parallel-Routes_5.png" />
 
@@ -201,7 +279,18 @@ export default function Default() {
 
 @auth 슬롯 내부에서 /login 라우트를 가로채기 위해 /(.)login 폴더를 업데이트합니다. `<Modal>` 컴포넌트 및 해당 자식을 /(.)login/page.tsx 파일에 가져옵니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```typescript
 import { Modal } from "@/app/ui/modal";
@@ -229,13 +318,7 @@ export default function Page() {
 ```typescript
 import Link from "next/link";
 
-export default function Layout({
-  auth,
-  children,
-}: {
-  auth: React.ReactNode;
-  children: React.ReactNode;
-}) {
+export default function Layout({ auth, children }: { auth: React.ReactNode; children: React.ReactNode }) {
   return (
     <>
       <nav>
@@ -248,7 +331,18 @@ export default function Layout({
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용자가 `<Link>`를 클릭하면 /login 페이지로 이동하는 대신 모달이 열립니다. 그러나 새로 고침이나 초기 로드에서 /login으로 이동하면 사용자가 메인 로그인 페이지로 이동합니다.
 
@@ -294,7 +388,18 @@ export function Modal({ children }: { children: React.ReactNode }) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```typescript
 export default function CatchAll() {

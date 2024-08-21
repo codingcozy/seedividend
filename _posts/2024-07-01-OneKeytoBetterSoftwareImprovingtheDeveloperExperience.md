@@ -3,16 +3,13 @@ title: "소프트웨어 품질 향상의 열쇠 개발자 경험 개선하는 �
 description: ""
 coverImage: "/assets/img/2024-07-01-OneKeytoBetterSoftwareImprovingtheDeveloperExperience_0.png"
 date: 2024-07-01 16:57
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-01-OneKeytoBetterSoftwareImprovingtheDeveloperExperience_0.png
 tag: Tech
 originalTitle: "One Key to Better Software: Improving the Developer Experience"
 link: "https://medium.com/@dangoslen/one-key-to-better-software-improving-the-developer-experience-8965cf9b44fb"
 isUpdated: true
 ---
-
-
-
 
 ![OneKeytoBetterSoftwareImprovingtheDeveloperExperience](/assets/img/2024-07-01-OneKeytoBetterSoftwareImprovingtheDeveloperExperience_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 관찰자로 차례가 돌아왔을 때, 동료들이 자신들의 코드를 로컬에서 실행시키지 못하고 있음을 깨달았어요. 그들은 앱을 디버그할 수 있는 재현 가능한 방법을 설정하지 못했고 (IDE나 다른 방법으로), 코드 전체에 프린트 문을 넣은 것으로 타협해야 했어요. 테스트를 신뢰할 수 없었기 때문에 테스트를 믿을 수 없었어요. 때로는 테스트가 실패하고 예상치 못하게 실패하기도 했어요. 더 나빠진 것은, Docker 컨테이너의 혼란스러운 무리와 화면에 텍스트를 흘리는 네 개 이상의 터미널 창을 이용해 싸운다는 것이었어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 진행을 못한 이유는 애플리케이션을 독립적으로 쉽고 신뢰성 있게 실행하거나 디버깅할 수 없었기 때문이었습니다. 코드는 바로 있었지만 접근하기 어려웠습니다.
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 # 가장 중요한 작업
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 피닉스 프로젝트를 처음 읽고 나서 멈출 수가 없었어요. 나 같이 느리게 읽는 사람이 이 책을 일주일도 안에 다 읽는 거야. 등장인물과 분위기에 공감할 수 있는 느낌이 짙었어요. 사실, 몇 부분은 읽는 게 힘들 정도로 공감이 느껴졌어요.
 
@@ -42,7 +61,18 @@ isUpdated: true
 
 젠의 삼 가지 방법과 다섯 가지 이상(Three Ways and Five Ideals)이 이것에 관해 날보다 더 잘 설명해 주지만, 이 아이디어와 매일 개선에 대한 요약은 이렇습니다: 안전하고 쉽게 코드를 팀의 코드베이스에 기여하는 데 어떤 개선도 시간이 지남에 따라 누적된 혜택을 가져다줄 것이라는 거예요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 오늘 코드 작성 능력을 5% 향상시킨다면, 내일은 팀 전체가 그 5%의 향상을 경험할 것입니다. 그 5%의 향상은 다음주에 개발자 경험을 개선하는 중요한 단계를 더 쉽게 만들어줍니다.
 
@@ -52,7 +82,18 @@ isUpdated: true
 
 개발자가 빠르고 안전하게 코드를 기여할 수 없을 때에는 코드에 여러 문제가 발생하기 시작합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 테스트가 너무 어려워서 건너뛰기 시작합니다.
 - 좋은 코드 구조가 없기 때문에 팀이 같은 작업을 반복적으로 다시 작성하기 시작합니다.
@@ -64,7 +105,18 @@ isUpdated: true
 
 이러한 패턴은 매일 변경하기가 더 쉬워지는 선순환을 만듭니다. 이는 더 나은 코드, 더 빠른 제품 출시 시간(코드가 더 이상 방해가 되지 않습니다) 및 종종 제품의 더 적은 버그를 유발합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 코드를 보다 쉽게 기여할 수 있게 하는 것은 코드에만 도움이 되는 것이 아닙니다. 팀에 상당한 혜택이 됩니다.
 
@@ -74,7 +126,18 @@ isUpdated: true
 
 SPACE 프레임워크와 다른 연구에서 언급한 것처럼, 개발자들은 작업에 즐거움이 있을 때 가장 효과적입니다. 이 때의 '즐거움'은 개발자가 일상적인 업무에 만족하고 기쁨을 느끼는 것을 의미합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 개발자들이 자신의 일을 즐기면 팀이 자신들의 일, 팀 그리고 방향에 대해 긍정적이고 자신감을 느끼는 데 훨씬 더 수월해집니다.
 
@@ -84,7 +147,18 @@ SPACE 프레임워크와 다른 연구에서 언급한 것처럼, 개발자들�
 
 이제 이 프로젝트 전에 코드베이스를 개선할 시간을 가져주었다면 팀은 어땠을지 상상해보세요. 기능을 출시하는 데 초점을 맞추기보다는 코드베이스를 개선하는 데 시간을 할애했다면 어땠을까요. 부서지기 쉬운 테스트를 수정하거나, 환경 설정을 자동화하거나, 단순히 코드의 결합된 부분을 리팩토링하기 시작했을 수도 있습니다. 혹은 이 모든 것을 약간씩 할 수도 있겠죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 경우에는 일상적인 업무의 개선이 팀에 큰 영향을 미쳤을 것입니다. 팀은 코드베이스에 대한 소유감을 느끼고 긍정적인 흐름을 타고 있으며, 전반적으로 높은 사기를 가지게 될 것입니다. 이러한 사기와 긍정적인 마음가짐은 더 많은 가치를 창출하며 일상적인 업무를 개선하는 데 큰 역할을 합니다.
 
@@ -94,7 +168,18 @@ SPACE 프레임워크와 다른 연구에서 언급한 것처럼, 개발자들�
 
 만약 이것이 중요한 아이디어라고 확신한다면, 아마도 이미 "하지만 어떻게하면 일상적인 업무를 개선할 수 있을까?"라고 물을 수도 있습니다. 좋은 질문입니다. 코드베이스를 살펴보고 어떠한 개선을 해야할지 알아내는 것은 어려운 일입니다. 하나의 개선을 하기도 어려운데 더 말이죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제가 작업한 코드베이스를 개선하는 데 도움이 된 몇 가지 지침이 여기 있습니다.
 
@@ -104,7 +189,18 @@ SPACE 프레임워크와 다른 연구에서 언급한 것처럼, 개발자들�
 
 어떤 경우에도, 코드 내에서 올바른 지렛대 지점을 식별해야 합니다. 이를 위해 옵저버가 되어야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코드와 상호작용하는 방식에 주의를 기울이세요. 테스트를 실행하는 방법은 무엇인가요? 자동화된 테스트의 결과를 어떻게 확인하나요? 비유적으로 문에 "들어오지 마세요!"라는 표시가 붙은 코드 부분은 있나요? 사용하고 이해하기 어려운 추상화가 있나요?
 
@@ -114,7 +210,18 @@ SPACE 프레임워크와 다른 연구에서 언급한 것처럼, 개발자들�
 
 어떤 것에 객관적으로 대할 때 판단하기는 쉽습니다. 정치부터 스포츠(쇼파에서의 수비수들)에 이르기까지, 다른 사람에 대해 판단을 내리는 것은 멀리 떨어져 있을 때 쉽게 할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코드베이스에도 동일한 것이 적용될 수 있습니다. 우리는 코드를 파헤치기 시작하면서 모든 결함을 볼 수 있고 코드와 기여한 개발자들을 비판하기 시작할 수 있습니다. "도대체 왜 그렇게 했을까?" 라는 생각을 머릿속에 하게 됩니다.
 
@@ -124,7 +231,18 @@ SPACE 프레임워크와 다른 연구에서 언급한 것처럼, 개발자들�
 
 이러한 변형은 종종 코드에 이상한 "공백"을 생성하는데, 이를 코드가 작동하기 위해 메꿔지거나 덮어야 합니다. 이는 너무 빨리 추가가 이루어진 집에 대한 일어나는 현상과 유사합니다. 방들이 이상하게 느껴지고 레이아웃이 이해되지 않을 수 있으며 (문자 그대로) 실제적인 공백과 갈라진 곳이 시멘트나 페인트로 가려져 있을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 맥락을 이해하면 코드가 문제가 있을 수 있지만 그 목적을 충족했다는 것을 기억할 수 있습니다. 이 마음가짐을 갖게 되면 코드를 즉시 수정하는 대신 어디로 코딩을 이끌어야 하는지에 대해 더 나은 질문을 하게 될 것입니다. 아이러니하게도, 즉행으로 변화를 주는 것이 바로 그런 코드의 처음 되는 방식일 수 있네요 :)
 
@@ -134,7 +252,18 @@ SPACE 프레임워크와 다른 연구에서 언급한 것처럼, 개발자들�
 
 개선할 점을 식별하기 시작하면, 바로 뛰어들고 싶어질 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 조심해야 해요. 대규모 리팩토링과 거대한 재작성은 비참하게 실패하는 경향이 있어요. 많은 경우, 그 이유는 단순히 변경이 너무 커서 그렇습니다.
 
@@ -144,7 +273,18 @@ SPACE 프레임워크와 다른 연구에서 언급한 것처럼, 개발자들�
 
 물론, 더 많은 사고, 계획, 시간이 필요한 변경이 있을 수 있어요. 이런 경우에는 코드와 개발자 경험에 대한 개선의 영향을 추정하기 위해 최선을 다하셔야 해요. "왜 이것을 하죠?"와 "지금 이걸 왜 하죠?"에 대한 좋은 답변을 가지는 것이 중요합니다. 달러로 표기하거나 구체적인 시간 추정을 할 수 없을 수도 있지만, 지연된 프로젝트, 장애, 또는 지속적인 긴급 호출 문제를 지적할 수 있다면 그런 곳을 시작 지점으로 삼아보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 함께 이야기하기
 
@@ -154,7 +294,18 @@ SPACE 프레임워크와 다른 연구에서 언급한 것처럼, 개발자들�
 
 물론 모두가 동의할 수 있는 것은 아닙니다. 모든 팀에는 회의론자나 냉소주의자들이 있습니다. 그들은 당신의 진전에 어려운 장애물을 제공할 수 있습니다. 우리는 그들을 완전히 배척하길 원하지는 않지만, 팀이 흥분할만한 좋은 일을 방해하는 것을 허용하고 싶지도 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아직 배우는 중이지만, 효과가 있을 것 같은 몇 가지 조합을 본 적이 있어요.
 
@@ -164,7 +315,18 @@ SPACE 프레임워크와 다른 연구에서 언급한 것처럼, 개발자들�
 
 마지막으로, 모든 변경 사항이나 개선 사항에 대해 합의를 반드시 이룰 필요는 없다는 것을 기억하세요. 팀 중 나머지가 찬성을 할 때 일관적으로 한 명만 반대하는 경우 — 이루세요. 악의적인 방식으로 하거나 어떤 사람의 견해를 무시하게 되는 방식으로 하지는 마세요. 그러나 코드를 병합하는 데 너무 겁먹지도 마세요. 항상 누구든지 만족시킬 수는 없습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오늘 요약은 명확합니다: 일상 업무의 개선을 일상 업무에 통합하는 데 노력하세요.
 
@@ -174,7 +336,18 @@ SPACE 프레임워크와 다른 연구에서 언급한 것처럼, 개발자들�
 
 즐거운 코딩되세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 이 기사를 즐겼다면, 제 뉴스레터에 가입해보세요! 매주 화요일마다, 저는 여러분에게 훌륭한 소프트웨어를 만드는 멋진 팀을 구축하는 데 도움이 되는 도구, 자료 및 새로운 기사를 보내드립니다.
 

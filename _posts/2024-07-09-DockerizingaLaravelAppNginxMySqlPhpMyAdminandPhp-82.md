@@ -3,16 +3,13 @@ title: "Laravel 애플리케이션 도커화 Nginx, MySql, PhpMyAdmin, Php-82 �
 description: ""
 coverImage: "/assets/img/2024-07-09-DockerizingaLaravelAppNginxMySqlPhpMyAdminandPhp-82_0.png"
 date: 2024-07-09 10:56
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-DockerizingaLaravelAppNginxMySqlPhpMyAdminandPhp-82_0.png
 tag: Tech
 originalTitle: "Dockerizing a Laravel App: Nginx, MySql, PhpMyAdmin, and Php-8.2"
 link: "https://medium.com/@syedkamruzzaman/dockerizing-a-laravel-app-nginx-mysql-phpmyadmin-and-php-8-2-cc65b71acad4"
 isUpdated: true
 ---
-
-
-
 
 ![이미지](/assets/img/2024-07-09-DockerizingaLaravelAppNginxMySqlPhpMyAdminandPhp-82_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 도커가 필요한 이유는 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - **환경 간 일관성**: Docker는 애플리케이션이 배포되는 장소에 관계없이 항상 동일하게 실행됨을 보장합니다. 개발자의 로컬 머신, 테스트 서버 또는 프로덕션 환경에서라도 일관성을 유지합니다. 이는 "내 컴퓨터에서는 작동하는데" 문제를 제거합니다.
 - **고립성**: 컨테이너는 애플리케이션을 실행하는 데 필요한 모든 것을 캡슐화하여 의존성, 라이브러리 및 구성 요소를 다른 애플리케이션으로부터 격리시킵니다. 이 고립성은 동일한 호스트에서 다른 애플리케이션 간의 충돌을 방지합니다.
@@ -38,7 +46,18 @@ isUpdated: true
   - macOS: Docker 웹사이트에서 Docker Desktop을 다운로드하고 설치합니다.
   - Linux: 해당하는 리눅스 배포판에 대한 Docker 웹사이트의 지침을 따릅니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 터미널에서 다음 명령을 실행하여 Docker가 실행 중인지 확인하세요:
 
@@ -50,7 +69,18 @@ docker --version
 
 Docker Compose는 여러 컨테이너 Docker 응용 프로그램을 정의하고 실행하는 도구입니다. 이 도구는 종종 다중 서비스(예: 웹 서버, 데이터베이스 등)로 구성된 복잡한 환경을 설정하는 데 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Windows 및 macOS의 경우: Docker Desktop에 Docker Compose가 포함되어 있습니다.
 - Linux의 경우: Docker Compose를 설치하려면 Docker Compose 설치 페이지의 지침을 따르세요.
@@ -63,7 +93,18 @@ docker-compose --version
 
 ## Laravel 프로젝트 설정
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 여러분이 이미 라라벨 프로젝트가 없다면 새로 만들어보세요. 이미 라라벨 프로젝트를 가지고 있다면, 이 단계는 건너뛰시면 됩니다.
 
@@ -76,7 +117,18 @@ cd example-app
 
 ## 1. 루트 프로젝트에 Dockerfile을 만드세요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도커파일(Dockerfile)은 애플리케이션을 위한 도커 이미지를 구축하는 방법에 대한 지시사항이 포함된 스크립트입니다.
 
@@ -114,7 +166,18 @@ USER $user
 
 여기서 사용자와 uid 두 가지 인자를 전달하여 새 사용자를 생성하고 다른 권한을 설정합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2. docker-compose 폴더를 생성하세요. 그리고 이 폴더 안에 다음과 같은 폴더를 생성해주세요.
 
@@ -124,7 +187,18 @@ b. Nginx
 
 - ssl
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 c. Php
 
@@ -134,7 +208,18 @@ d. Redis
 
 이렇게요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 나중에 생성할 다른 파일들이에요.
 
@@ -142,16 +227,26 @@ d. Redis
 
 docker-compose.yml
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```yaml
 version: "3.7"
 
 services:
-
-####################################################################################################
-# 앱
-####################################################################################################
+  ####################################################################################################
+  # 앱
+  ####################################################################################################
   app:
     build:
       args:
@@ -170,13 +265,13 @@ services:
       - ~/.ssh:/root/.ssh
     depends_on:
       - db
-      - redis  
+      - redis
     networks:
       - laravel
 
-####################################################################################################
-# 데이터베이스 (MySQL)
-####################################################################################################
+  ####################################################################################################
+  # 데이터베이스 (MySQL)
+  ####################################################################################################
   db:
     image: mysql:8.0
     container_name: mysql-rifive-laravel
@@ -197,9 +292,9 @@ services:
     networks:
       - laravel
 
-####################################################################################################
-# Nginx
-####################################################################################################      
+  ####################################################################################################
+  # Nginx
+  ####################################################################################################
   nginx:
     image: nginx:alpine
     container_name: nginx-rifive-laravel
@@ -215,9 +310,9 @@ services:
     networks:
       - laravel
 
-####################################################################################################
-# phpMyAdmin
-####################################################################################################      
+  ####################################################################################################
+  # phpMyAdmin
+  ####################################################################################################
   phpmyadmin:
     image: phpmyadmin/phpmyadmin:latest
     container_name: phpmyadmin-rifive-laravel
@@ -233,9 +328,9 @@ services:
     networks:
       - laravel
 
-####################################################################################################
-# Redis
-####################################################################################################
+  ####################################################################################################
+  # Redis
+  ####################################################################################################
   redis:
     image: "redis:alpine"
     container_name: ri-rifive-redis
@@ -258,8 +353,18 @@ networks:
 
 2. 데이터베이스 MySQL
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. Nginx
 
@@ -267,9 +372,20 @@ networks:
 
 5. Redis
 
-4. Nginx에 필요한 파일을 만들어봅시다. docker-compose/nginx 폴더로 이동해서 다음 파일들을 만들어주세요.
+6. Nginx에 필요한 파일을 만들어봅시다. docker-compose/nginx 폴더로 이동해서 다음 파일들을 만들어주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 laravel.conf
 
@@ -340,7 +456,18 @@ server {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 도커 컨테이너를 실행하세요
 
@@ -354,7 +481,18 @@ server {
 도커 컴포즈 익스큐 –아이티 앱 쉘
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 셸 터미널을 볼 수 있어요. whoami 명령을 실행하면 사용자로 developer가 나올 거에요. 아래 명령어를 실행해 보세요.
 
@@ -365,7 +503,18 @@ openssl req -x509 -sha256 -nodes -days 365 -newkey rsa:2048 -keyout self-signed.
 
 이 명령은 docker-compose/nginx/ssl 폴더에 두 개의 파일을 생성해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1. self-signed.crt
 
@@ -375,7 +524,18 @@ openssl req -x509 -sha256 -nodes -days 365 -newkey rsa:2048 -keyout self-signed.
 
 ![이미지](/assets/img/2024-07-09-DockerizingaLaravelAppNginxMySqlPhpMyAdminandPhp-82_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 다음 명령어를 실행하세요
 
@@ -388,7 +548,18 @@ php artisan migrate
 
 # Laravel 앱
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```shell
 https://localhost
@@ -403,7 +574,17 @@ http://localhost:8080/
 저만큼이에요. 즐거운 학습 되세요 :) .
 [도움이 되셨다면 🌟 리포지토리에 별을 주세요 😇]
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해당 링크는 깃허브 페이지로 연결됩니다. 도커를 이용한 라라벨 및 엔진엑스 설정에 관심이 있다면 방문해보세요! 😊

@@ -3,17 +3,13 @@ title: "리액트에서 사용되는 Load, Unload, and BeforeUnload Event Listen
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Load, Unload, and BeforeUnload Event Listeners in React Significance, Use Cases, Best Practices, and Pitfalls"
 link: "https://medium.com/@stheodorejohn/load-unload-and-beforeunload-event-listeners-in-react-significance-use-cases-best-practices-59b31ffb5097"
 isUpdated: true
 ---
-
-
-
-
 
 ## 로드, 언로드 및 beforeunload 이벤트 리스너를 구현하여 동적이고 인터랙티브한 웹 애플리케이션을 만들어봅시다. 페이지 로딩, 언로딩 및 데이터 보호를 다루는 기술을 마스터해보세요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ## 로드 이벤트 리스너:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 “로드” 이벤트 리스너는 이미지, 스크립트 또는 전체 문서와 같은 요소가 로드를 완료했을 때 트리거됩니다. 이는 페이지의 모든 자산이 완전히 로드된 후에 동작을 수행하는 데 일반적으로 사용됩니다. 일부 중요한 사용 사례는 다음과 같습니다:
 
@@ -49,7 +56,18 @@ const MyComponent = () => {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 페이지 언로드 이벤트 리스너:
 
@@ -61,7 +79,18 @@ const MyComponent = () => {
 
 ## 언로드 이벤트에 대한 React 코드 스니펫:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import React, { useEffect } from "react";
@@ -87,7 +116,18 @@ const MyComponent = () => {
 - 저장되지 않은 변경 사항을 저장하거나 사용자에게 양식 제출을 요청하기.
 - 사용자 입력이나 데이터의 실수적 손실 방지하기.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## BeforeUnload 이벤트용 리액트 코드 스니펫:
 
@@ -117,7 +157,18 @@ const MyComponent = () => {
 - "beforeunload" 이벤트를 사용할 때 사용자 경험이 명확하고 간결한지 확인하세요. 지나치거나 오해를 일으킬 수 있는 프롬프트는 사용자를 답답하게 만들 수 있습니다.
 - 호환성과 일관된 동작을 보장하기 위해 다양한 브라우저에서 이벤트 리스너를 테스트하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## useEffect와의 차이점:
 
@@ -127,6 +178,17 @@ const MyComponent = () => {
 
 React 개발에서 중요한 도구인 로드, 언로드, 그리고 beforeunload 이벤트 리스너는 사용자 상호작용을 향상시키고, 자원 관리를 처리하며, 데이터의 실수 손실을 방지하는 데 유용합니다. 이러한 이벤트 리스너의 중요성, 최선의 실천 방법 및 사용 사례를 이해하면 React 프로젝트에서 이 이벤트 리스너를 효과적으로 활용할 수 있습니다. useEffect 훅의 적절한 사용을 고려하여 사용자 경험, 성능 영향 및 적절한 사용을 고려할 때 조심스럽게 사용해야 합니다. 즐거운 코딩 되세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 글이 조금이나마 이해에 도움이 되었으면 좋겠어요. 이 글에서 다룬 내용이나 개선할 부분에 대해 질문이 있거나 의견을 주고 싶은 점이 있다면 언제든지 아래 댓글로 남겨주세요.

@@ -3,17 +3,13 @@ title: "CSS color-contrast로 색상 대조시키기 "
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: " CSS Lab 1 A world of contrasts"
 link: "https://medium.com/@mina-pecheux/css-lab-1-i-spy-with-my-little-eye-c41a8004df24"
 isUpdated: true
 ---
-
-
-
-
 
 당신의 웹사이트에 적합한 색상을 찾는 것은 물론 중요한 문제입니다. 한편으로는 전반적인 스타일과 독특한 개성을 결정하고, 다른 한편으로는 모든 사람에게 웹사이트에 접근할 수 있도록 보장합니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 이것은 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 MDN 웹 문서에서 기능에 대한 개요를 확인해보세요:
 
@@ -33,7 +40,18 @@ MDN 웹 문서에서 기능에 대한 개요를 확인해보세요:
 
 # 사용 방법은?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사를 작성하는 시점인 2024년 4월에는 이 기능이 Safari에서만 사용 가능합니다:
 
@@ -43,7 +61,18 @@ MDN 웹 문서에서 기능에 대한 개요를 확인해보세요:
 
 하지만 만약 시도해보고 싶고 손에 Safari 브라우저가 있다면, Safari를 열고 개발 | 실험 기능 메뉴로 이동하여 활성화할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 빠른 예시
 
@@ -53,7 +82,18 @@ MDN 웹 문서에서 기능에 대한 개요를 확인해보세요:
 
 그러나 color-contrast()를 사용하면 CSS 변수와 두 텍스트를 위한 공통 텍스트 클래스를 사용하여, 코드를 이렇게 리팩터링할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 물론 덜 "지나친" 색상들과도 잘 작동해요:
 
@@ -63,7 +103,18 @@ MDN 웹 문서에서 기능에 대한 개요를 확인해보세요:
 
 # 사용해야 하는 이유
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 사이트에서 접근성은 매우 중요합니다. 간단히 말해서, 장애나 장애에 관계 없이 누구나 사용할 수 있도록 웹 사이트나 앱을 제공하는 것이죠.
 
@@ -71,7 +122,18 @@ MDN 웹 문서에서 기능에 대한 개요를 확인해보세요:
 
 시각 장애를 가진 사용자를 돕는 스크린 리더 관련 도구를 추가하거나, 운동 장애가 있는 사람들을 위한 대체 입력 방법을 제공하는 등의 방식으로, 접근 가능한 디자인을 통해 모든 사람이 정보에 동등하게 접근할 수 있도록 보장합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저 이것이 기이해 보일 수 있지만, 사실 올바른 색상을 고르는 것도 아주 중요합니다! 적절한 대비를 가지지 않으면 텍스트가 일부 사용자에게 가독성이 떨어질 수 있기 때문에, 그러한 사용자들이 당신이 만드는 경험을 즐길 수 없게 될 수도 있습니다.
 

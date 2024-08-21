@@ -3,17 +3,13 @@ title: "곧 AI로 대체될 프론트엔드 엔지니어링"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "A Glimpse into The Future of Front-End Engineering"
 link: "https://medium.com/hackernoon/a-glimpse-into-the-future-of-front-end-engineering-21bbebfc7008"
 isUpdated: true
 ---
-
-
-
-
 
 앞으로 기술이 발전함에 따라 프런트엔드 엔지니어의 역할이 어떻게 발전할 것인가요? 알리바바 엔지니어들의 견해를 살펴보세요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ![이미지](/assets/img/AGlimpseintoTheFutureofFront-EndEngineering_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오늘날 프로그래밍은 대규모 작업을 여러 작은 작업으로 나누는 분업 생산 과정을 따라갑니다. 각 작업이 다른 사람에게 할당되어 해당 사람이 특정 분야에서 전문화하고 발전할 수 있게 합니다. 그러나 이 과정은 프로그래머들이 프런트엔드 웹 개발의 다양한 측면에 집중할 수 있도록 기반을 놓았지만, 생산성을 높이기 위해 더 많은 다양성과 통합이 필요하며, 이러한 발전은 의심의 여지없이 프런트엔드 엔지니어의 역할을 변화시킬 것입니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 앞으로는 웹 개발의 프런트엔드에 관여하는 분야, 산업 및 기술이 계속 다양화될 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 알리바바에서는 현재 프론트 엔드가 다음 다섯 부서로 나뉘어 있습니다. 이 모든 부서는 더욱 특화된 팀으로 나뉘어 있습니다.
 
@@ -47,7 +65,18 @@ isUpdated: true
 
 모바일 앱(예: WeChat 및 Weibo), PC 데스크톱 애플리케이션 및 제품 웹사이트와 같은 B2C 산업 또한 중요합니다. 또한 리액트(Native), 앵귤러(NativeScript) 및 뷰(Weex)와 같은 기술 스택도 중요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 추가 통합
 
@@ -57,7 +86,18 @@ isUpdated: true
 
 - 프런트엔드와 클라이언트 측 기술 사이의 아이디어 융합:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 컴포넌트 (컴포넌트 구축 페이지)
 
@@ -67,7 +107,18 @@ isUpdated: true
 
 · 프론트엔드의 통합:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Virtual DOM: React / ReactNative / ReactCanvas
 
@@ -77,7 +128,18 @@ isUpdated: true
 
 ## 풀 스택 웹 개발
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프론트엔드와 백엔드 기술의 융합:
 
@@ -87,7 +149,18 @@ isUpdated: true
 
 - GraphQL (SQL)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - IndexedDB (데이터베이스)
 
@@ -97,7 +170,18 @@ isUpdated: true
 
 - 여기서 터미널이란 최종 사용자에게 도달하는 노드를 의미합니다
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 데이터 획득 -> 백엔드 머신 러닝, 데이터 분석 -> 스마트 추천 제시
 
@@ -107,7 +191,18 @@ isUpdated: true
 
 # 프론트엔드의 미래
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 운영 체제, 알고리즘, 데이터 구조의 본질과 프론트 엔드의 가독성과 아름다움을 동시에 추구하는 불변의 열망으로 인해, 프론트엔드 웹 개발의 본질적인 부분은 급진적인 변화를 겪을 가능성이 거의 없다는 점은 언급할 가치가 있습니다.
 
@@ -115,4 +210,15 @@ isUpdated: true
 
 한편, 인터페이스가 없는 상호작용은 확대되고 있습니다. 음성 및 얼굴 인식 기술의 품질이 지속적으로 향상되고 있기 때문에 인터페이스 없는 IoT 기기는 자체 통신 프로토콜과 명세를 갖추고 있을 것이며, 그들의 프론트 엔드 작업의 많은 부분이 백 엔드에서 취해질 예정입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

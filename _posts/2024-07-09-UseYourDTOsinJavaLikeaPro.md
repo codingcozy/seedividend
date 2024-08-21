@@ -3,16 +3,13 @@ title: "DTO를 Java에서 프로처럼 사용하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-UseYourDTOsinJavaLikeaPro_0.png"
 date: 2024-07-09 21:15
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-UseYourDTOsinJavaLikeaPro_0.png
 tag: Tech
 originalTitle: "Use Your DTOs in Java Like a Pro"
 link: "https://medium.com/javarevisited/use-your-dtos-in-java-like-a-pro-1cd3f6b2fda8"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-07-09-UseYourDTOsinJavaLikeaPro_0.png" />
 
@@ -22,7 +19,18 @@ https://medium.com/javarevisited/use-your-dtos-in-java-like-a-pro-1cd3f6b2fda8?s
 
 ## 소개
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 REST API를 작성할 때 사용자가 요청한 객체를 반환해야 하는 경우나 사용자로부터 객체를 가져와 데이터베이스에 저장할 객체를 생성해야 하는 상황이 종종 발생합니다.
 
@@ -32,7 +40,18 @@ REST API를 작성할 때 사용자가 요청한 객체를 반환해야 하는 �
 
 ## DTO란 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 DTO(Data Transfer Object)는 데이터를 송수신하는 데 사용되는 객체입니다. 많은 소프트웨어 개발자들이 사용하는 일반적인 디자인 패턴입니다. 이는 개발자가 필드가 모델과 다른 경우 응답 또는 요청 바디를 모델링하는 데 사용됩니다. 우리는 프로세스 간 전송되는 데이터 크기를 증가시키는 불필요한 필드를 제거할 수 있습니다.
 
@@ -42,7 +61,18 @@ DTO(Data Transfer Object)는 데이터를 송수신하는 데 사용되는 객�
 
 우리는 두 개의 엔티티, Book과 Author가 있습니다 (Book이 항상 한 명의 저자에 의해 쓰인다고 간소화한 상황):
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 @Entity
@@ -85,7 +115,18 @@ public class Author {
 
 아마 가장 일반적인 DTO 작성 방법은 POJO(Plain Old Java Object)를 직접 만드는 것입니다. 이 방법은 간단하지만 상당한 선행 작업 코드로 제공됩니다. 다음과 같이 보일 것입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 @Data
@@ -113,7 +154,18 @@ DTO 객체에서는 세터를 사용할 필요가 없습니다. 이러한 객체
 
 첫 번째 옵션은 Lombok 라이브러리를 사용하여 불필요한 보일러플레이트 코드를 제거하는 것입니다. 향상된 후에 우리의 DTO는 다음과 같이 보일 것입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 @AllArgsConstructor
@@ -130,6 +182,7 @@ public class BookDTO {
 멋지게 보이지만 사실, 외부 라이브러리를 사용하지 않고 더 나은 방법이 있습니다. Java는 빠르게 발전하고 새 버전에서 많은 새로운 기능을 제공합니다. 그 중 하나는 레코드(Records)입니다. 레코드 키워드는 Java 14와 함께 도입되었습니다. 레코드 기능을 만드는 목적 중 하나는 POJO(Plain Old Java Object)에 따라 오는 보일러플레이트(boilerplate)를 줄이는 것입니다.
 
 레코드를 선언하면 다음과 같은 것들을 얻을 수 있습니다:
+
 - 데이터 조각마다 private, final 필드
 - 각 필드에 대한 getter
 - 각 필드에 해당하는 인수가 있는 public 생성자
@@ -137,8 +190,18 @@ public class BookDTO {
 - 모든 필드가 일치할 때 동일한 값을 반환하는 hashCode 메서드
 - 클래스 이름, 각 필드의 이름 및 해당 값이 포함된 toString 메서드
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 상기 내용을 고려하면 기록(Records)은 DTO에 완벽합니다. 롬복 구현을 레코드로 바꿔보겠습니다:
 
@@ -150,7 +213,18 @@ public record BookDTO(long bookId, String title, int pages, String description, 
 
 책을 저장하는 데 필요한 DTO에도 마찬가지로 적용할 수 있습니다. 여기서는 작가 ID만 필요하고 아직은 책 ID가 필요하지 않습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 public record BookSaveDTO(String title, int pages, String description, long authorId) {}
@@ -191,7 +265,18 @@ public class BookController {
 
 그게 다에요, 쉽고 간단하죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 옵션으로는 DTO를 쉽게 만들고 가독성을 높이기 위해 빌더 디자인 패턴을 적용할 수 있습니다. 예를 들어 Lombok 빌더 어노테이션을 사용하여 이를 달성할 수 있습니다.
 
@@ -201,7 +286,18 @@ public class BookController {
 
 ❌ DTO의 남용. 모든 상황이나 엔드포인트마다 별도의 DTO를 만들어서는 안 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ❌ 모든 상황에 대해 하나의 DTO. 이것은 위의 반대입니다. 우리는 너무 많은 DTO를 원하지 않기 때문에 추가적인 필드가 있는 경우라도 하나의 DTO만 사용합니다. 균형이 필요합니다.
 
@@ -211,7 +307,18 @@ public class BookController {
 
 글이 마음에 드셨다면, 클랩(clap)과 댓글을 남겨주세요. Medium 알고리즘을 개선하고 제 콘텐츠를 확인할 기회를 얻을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 글을 놓치고 싶지 않다면, 팔로우해주세요.
 

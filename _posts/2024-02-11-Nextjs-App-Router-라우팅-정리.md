@@ -3,20 +3,15 @@ title: "Nextjs App Router 라우팅 방법 정리"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
 
-
-
-
-
 # Nextjs App Router 라우팅 정리
-
 
 App Router는 말 그대로 App 디렉토리의 모든 파일과 폴더들을 라우터로 사용하는 Nextjs 14의 방법입니다.
 기존의 Page Router는 Page하위의 디렉토리들을 라우터로 사용했었는데요. 그것보다 많은 것들이 업그레이드가 되었으니 차근차근 알아가보겠습니다.
@@ -34,7 +29,18 @@ Next.js 애플리케이션에서 라우트를 정의하는 방법은 파일 시�
 라우트 세그먼트를 사용하려면 `page.js`라는 특수 파일을 사용해야 합니다.
 이 파일에 있는 내용들이 사용자에게 보여지는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 3. 파일 확장자
 
@@ -60,14 +66,23 @@ layouts는 항상 고정인 부분이라고 생각하시면 됩니다. 예를 �
 
 폴더 구조는 다음과 같습니다:
 
-
 pages/
-  └── admin/
-        └── auth/
-              └── page.js
+└── admin/
+└── auth/
+└── page.js
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 2. UI 정의
 
@@ -105,7 +120,18 @@ export default function Page() {
 
 그런 다음, 추가 페이지를 만들려면 새 폴더를 만들고 해당 폴더에 page.js 파일을 추가합니다. 예를 들어, /admin 경로에 대한 페이지를 만들려면 새로운 admin라는 폴더를 만들고 그 안에 page.js 파일을 추가합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```jsx
 // `app/admin/page.tsx`는 `/admin` URL의 UI입니다
@@ -120,7 +146,18 @@ export default function Page() {
 4. 페이지는 기본적으로 서버 컴포넌트입니다만 클라이언트 컴포넌트로 설정할 수 있습니다. 'use client' 사용
 5. 페이지는 데이터를 가져올 수 있습니다.
 
- <div class="content-ad"></div>
+ <!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 레이아웃
 
@@ -152,11 +189,7 @@ export default function adminLayout({
 루트 레이아웃은 앱 디렉터리의 최상위에서 정의되며 모든 경로에 적용됩니다. 이 레이아웃은 필수이며 서버에서 반환된 초기 HTML을 수정할 수 있도록 html 및 body 태그를 포함해야 합니다.
 
 ```jsx
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode,
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <body>
@@ -168,7 +201,18 @@ export default function RootLayout({
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 레이아웃 중첩
 
@@ -178,17 +222,12 @@ export default function RootLayout({
 
 ```jsx
 // 중첩된 레이아웃
-export default function adminLayout({
-  children,
-}: {
-  children: React.ReactNode,
-}) {
+export default function adminLayout({ children }: { children: React.ReactNode }) {
   return <section>{children}</section>;
 }
 ```
 
 위의 두 레이아웃을 결합하면 루트 레이아웃(app/layout.js)이 대시보드 레이아웃(app/admin/layout.js)을 래핑하고, 대시보드/\* 내의 경로 세그먼트를 래핑합니다.
-
 
 - .js, .jsx 또는 .tsx 파일 확장명을 레이아웃에 사용할 수 있습니다.
 - 루트 레이아웃에만 `<html>` 및 `<body>` 태그를 포함할 수 있습니다.

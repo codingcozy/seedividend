@@ -3,16 +3,13 @@ title: "Nextjs 14 앱에서 NextAuth와 Prisma로 인증 구현하는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-22-BuildingAuthenticationinaNextjs14AppUsingNextAuthandPrisma_0.png"
 date: 2024-06-22 03:25
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-BuildingAuthenticationinaNextjs14AppUsingNextAuthandPrisma_0.png
 tag: Tech
 originalTitle: "Building Authentication in a Next.js 14 App Using NextAuth and Prisma."
 link: "https://medium.com/@pawanrijal/building-authentication-in-a-next-js-14-app-using-nextauth-and-prisma-59c9d67a0eca"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-06-22-BuildingAuthenticationinaNextjs14AppUsingNextAuthandPrisma_0.png" />
 
@@ -24,7 +21,18 @@ Step I : Next 14 프로젝트 설정하기
 bunx create-next-app@latest next-auth-prisma
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 명령어를 입력하시거나 프로젝트 설정을 위해 NextJS의 공식 문서를 참고하시면 됩니다.
 
@@ -36,7 +44,18 @@ Next 앱을 설치한 후에는 다음 명령어를 통해 앱 안에 next-auth 
 bun add next-auth
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 다음 인증에 사용할 인증 옵션을 구성해야 합니다. 기본 폴더로 이동하여 lib라는 새 폴더를 만들고 lib 폴더 안에 auth.ts라는 새 파일을 만들고 다음 코드를 복사하세요.
 
@@ -72,7 +91,18 @@ export const authOptions: NextAuthOptions = {
 
 위 코드는 다음 인증 구성 설정 프로세스를 보여줍니다. 저는 next-auth에서 CredentialsProvider를 사용했지만 Google, Github, Facebook 등의 다른 프로바이더를 사용할 수 있습니다. 이러한 프로바이더를 구현하려면 해당 프로바이더의 구성에 대해 공식 문서를 참조하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금 자격 증명 객체에는 로그인 양식에 표시되는 이메일과 비밀번호가 필드로 포함되어 있습니다. 인증 단계에는 목업 사용자 객체를 반환하는 더미 자격 증명이 있습니다.
 
@@ -88,7 +118,18 @@ const handler = NextAuth(authOptions);
 export { handler as GET, handler as POST };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프렌들리하게 번역하면 다음과 같습니다:
 
@@ -100,7 +141,18 @@ export { handler as GET, handler as POST };
 
 /components/buttons.component.tsx
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 "use client";
@@ -140,12 +192,7 @@ export const ProfileButton = () => {
 이제 홈 컴포넌트에서 버튼들을 import하세요.
 
 ```js
-import {
-  LoginButton,
-  LogoutButton,
-  ProfileButton,
-  RegisterButton,
-} from "@/components/buttons.component";
+import { LoginButton, LogoutButton, ProfileButton, RegisterButton } from "@/components/buttons.component";
 
 export default function Home() {
   return (
@@ -170,8 +217,18 @@ export default function Home() {
 
 이제 NextAuth에서 JWT 인증을 추가해야 하므로 프로젝트의 루트 디렉토리 내 .env 파일에 JWT의 시크릿을 정의해야 합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```yaml
 #.env
@@ -184,7 +241,18 @@ NEXTAUTH_URL=http://localhost:3000
 ![이미지](/assets/img/2024-06-22-BuildingAuthenticationinaNextjs14AppUsingNextAuthandPrisma_1.png)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 We have mock credentials, so feel free to use any email and password to submit the form. Once the submission is successful, you will be redirected back to the home page. At that point, you can view the application's cookies.
 
@@ -194,7 +262,18 @@ Step IV: Integrating with database
 
 For real-world users, we need to connect to a database. I will be using PostgreSQL as the database and Prisma as the ORM.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새 데이터베이스를 생성하고 데이터베이스 URL을 .env 파일에 넣으세요
 
@@ -208,7 +287,18 @@ DATABASE_URL=postgresql://postgres:pawan123@localhost:5432/next-auth?schema=publ
 npm add @prisma/client bcryptjs && npm add -D ts-node prisma @types/bcryptjs
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프리즈마를 설정하고 포스트그리스 데이터베이스에 연결하려면 다음 명령을 실행하여 프로젝트에서 프리즈마를 초기화하고 포스트그레스SQL용 데이터 소스를 만드세요.
 
@@ -239,7 +329,18 @@ model User {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 새 사용자를 생성하고 데이터베이스에 저장하는 등록 기능을 만들 수 있지만, 나는 직접 데이터베이스에 사용자를 입력할 것이다. 시작하려면 prisma 디렉토리에 seed.ts 파일을 만들고 아래 코드를 복사해 넣어라.
 
@@ -275,13 +376,24 @@ main()
 
 쉽게 테스트 사용자로 데이터베이스에 시드(seed)를 생성할 수 있도록 하기 위해 package.json 파일에 스크립트를 추가할 것이다. 파일을 열어 다음 스크립트를 추가하라:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```json
 {
-    "prisma": {
-        "seed": "ts-node --compiler-options {\"module\":\"CommonJS\"} prisma/seed.ts"
-    }
+  "prisma": {
+    "seed": "ts-node --compiler-options {\"module\":\"CommonJS\"} prisma/seed.ts"
+  }
 }
 ```
 
@@ -293,7 +405,18 @@ npx prisma migrate dev --name init
 
 마이그레이션을 생성한 후 다음 명령을 사용하여 데이터베이스에 사용자를 시드하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npx prisma db seed
@@ -317,7 +440,18 @@ if (process.env.NODE_ENV !== "production") globalForPrisma.prisma = prisma;
 
 Prisma와 데이터베이스 설정을 완료했으니, 이제 auth.ts 파일에서 로그인 양식을 인증할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { prisma } from "@/lib/prisma";
@@ -399,8 +533,18 @@ callbacks: {
 
 Step V: NextAuth 세션 데이터 가져오기
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 next 앱 내에서 권한이 부여된 사용자 세션 데이터를 얻는 두 가지 방법이 있습니다.
 
@@ -409,12 +553,7 @@ i. 서버 컴포넌트에서
 서버 컴포넌트 내에서 세션 데이터를 가져오기 위해 getServerSession 함수를 사용할 수 있습니다.
 
 ```js
-import {
-  LoginButton,
-  LogoutButton,
-  ProfileButton,
-  RegisterButton,
-} from "@/components/buttons.component";
+import { LoginButton, LogoutButton, ProfileButton, RegisterButton } from "@/components/buttons.component";
 import { getServerSession } from "next-auth";
 import { authOptions } from "@/lib/auth";
 
@@ -445,13 +584,24 @@ export default async function Home() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 서버 페이지를 무단 사용자로부터 보호하기 위해 미인가 사용자를 signin 페이지로 리다이렉트하는 다음 코드를 사용할 수 있습니다.
 
 ```js
 if (!session) {
-    redirect("/api/auth/signin");
+  redirect("/api/auth/signin");
 }
 ```
 
@@ -459,7 +609,18 @@ ii. 클라이언트 컴포넌트
 
 클라이언트 컴포넌트에서 세션 데이터를 검색하려면 next auth에서 제공하는 세션 제공자를 사용하고 앱을 세션 제공자로 래핑해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기본 디렉토리에 providers 폴더를 만들고, NextAuthProvider.tsx라는 새 파일을 생성한 다음 아래 코드를 붙여넣어주세요.
 
@@ -469,7 +630,7 @@ ii. 클라이언트 컴포넌트
 import { SessionProvider } from "next-auth/react";
 
 type Props = {
-  children?: React.ReactNode;
+  children?: React.ReactNode,
 };
 
 export const NextAuthProvider = ({ children }: Props) => {
@@ -487,11 +648,7 @@ export const metadata = {
   description: "Generated by create next app",
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <body>
@@ -502,7 +659,18 @@ export default function RootLayout({
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 세션 데이터를 가져오는 클라이언트 컴포넌트를 생성해보세요.
 
@@ -527,18 +695,29 @@ export const User = () => {
 
 ```js
 const { status } = useSession({
-    required: true,
-    onUnauthenticated() {
-      redirect("/api/auth/signin");
-    },
-  });
+  required: true,
+  onUnauthenticated() {
+    redirect("/api/auth/signin");
+  },
+});
 
-  if (status === "loading") {
-    return <p>Loading....</p>;
-  }
+if (status === "loading") {
+  return <p>Loading....</p>;
+}
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결론
 

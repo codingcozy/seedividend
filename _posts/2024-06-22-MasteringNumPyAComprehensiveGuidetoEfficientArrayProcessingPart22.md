@@ -3,16 +3,13 @@ title: "NumPy 마스터하기 효율적인 배열 처리 종합 가이드 Part 2
 description: ""
 coverImage: "/assets/img/2024-06-22-MasteringNumPyAComprehensiveGuidetoEfficientArrayProcessingPart22_0.png"
 date: 2024-06-22 05:37
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-MasteringNumPyAComprehensiveGuidetoEfficientArrayProcessingPart22_0.png
 tag: Tech
 originalTitle: "Mastering NumPy: A Comprehensive Guide to Efficient Array Processing (Part 2 2)"
 link: "https://medium.com/python-in-plain-english/mastering-numpy-a-comprehensive-guide-to-efficient-array-processing-part-2-2-627393d34169"
 isUpdated: true
 ---
-
-
-
 
 ## 빠르고 똑똑한 데이터 조작을 위한 NumPy의 힘을 활용하세요.
 
@@ -35,7 +32,18 @@ NumPy 튜토리얼의 두 번째 파트에 오신 것을 환영합니다! 이전
 - 모양 및 재구성
 - 연결 및 분할
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 참고: 이 문서에서 사용된 모든 자료는 제 GitHub 저장소에서 확인할 수 있습니다. 여기에 링크를 남깁니다.
 
@@ -45,7 +53,18 @@ NumPy를 사용하면 랜덤 숫자를 생성할 수 있습니다. 제 경우에
 
 ## 균일 분포
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 np.random.rand()로 시작해 봅시다. 이 함수는 [0.0, 1.0) 범위 내에서 균일 분포에서 무작위 숫자를 생성합니다. 이는 숫자가 정확히 0.0이 될 수는 있지만, 1.0에 근접할 뿐입니다. 이 함수를 사용하려면 우리가 원하는 배열의 형태를 전달해주기만 하면 됩니다. np.random.random()은 사실상 np.random.rand()와 동일합니다. 그러나 이 함수에 대한 입력은 튜플 형태여야 한다는 것을 염두에 두세요. 이 두 함수 중 어느 것이든 실제로 서로 교차하여 사용할 수 있습니다. 이는 단지 사용자의 취향에 따라 다를 뿐입니다.
 
@@ -61,7 +80,18 @@ np.random.rand(10,3)
 
 아직 무작위 균일 분포와 관련하여, 더 많은 유연성이 필요하다면 np.random.uniform()를 사용할 수 있습니다. 이 함수를 사용하면 분포의 범위를 지정할 수 있어 [0.0, 1.0)에 고정되어 있는 것보다 더 유연해집니다. 아래 코드 블록에서 수를 90부터 100 사이로 범위 설정하는 방법을 보여드리겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 코드 블록 2
@@ -81,7 +111,18 @@ np.histogram(np.random.uniform(size=(50000)))
 # np.histogram(np.random.random(50000))
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-22-MasteringNumPyAComprehensiveGuidetoEfficientArrayProcessingPart22_2.png" />
 
@@ -94,8 +135,18 @@ np.histogram(np.random.uniform(size=(50000)))
 np.random.randn(6,4)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-06-22-MasteringNumPyAComprehensiveGuidetoEfficientArrayProcessingPart22_3.png)
 
@@ -108,8 +159,18 @@ np.random.normal(loc=8, scale=3, size=(5,5))
 
 ![Image](/assets/img/2024-06-22-MasteringNumPyAComprehensiveGuidetoEfficientArrayProcessingPart22_4.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제가 앞서 사용한 np.histogram() 함수는 np.random.randn() 및 np.random.normal()에 의해 생성된 배열이 실제로 정규 분포를 따르는지 확인하는 데 사용될 수 있습니다. 아래 그림 6은 이를 설명하는데, 첫 번째 배열을 통해 가운데 있는 bin이 가장 빈도가 높음을 보여줍니다.
 
@@ -125,7 +186,18 @@ np.histogram(np.random.normal(loc=0, scale=1, size=50000))
 
 지금까지 많은 유사한 함수가 존재한다는 것을 알아차렸습니다. 특히, 무작위 숫자를 생성하는 데 사용되는 함수들은 균일 및 정규 분포와 관련된 함수들이 많습니다. 그런 경우에는 np.random.uniform() 및 np.random.normal()만 사용하는 것을 권장드립니다. 두 함수가 가장 유연하기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 랜덤 정수
 
@@ -138,7 +210,18 @@ np.random.randint(low=5, high=10, size=(20,3))
 
 ![이미지](/assets/img/2024-06-22-MasteringNumPyAComprehensiveGuidetoEfficientArrayProcessingPart22_6.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 배열 섞기
 
@@ -152,7 +235,18 @@ K
 
 <img src="/assets/img/2024-06-22-MasteringNumPyAComprehensiveGuidetoEfficientArrayProcessingPart22_7.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아마 알아챌 수 있었던 것처럼, np.random.shuffle()은 배열의 요소 순서를 섞어주는 함수입니다. 이 함수는 배열을 그 자리에서 섞기 때문에, 새로운 배열을 만드는 것이 아니라 원본 배열을 직접 섞는다는 것을 명심해 주세요.
 
@@ -167,7 +261,18 @@ print('섞은 후 K\t: ', K)
 
 ## 랜덤 선택
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아직 배열 K와 작업 중이시군요. 이제 그 중에서 숫자를 무작위로 선택하는 방법을 알려드릴게요. np.random.choice()를 사용하면 간단하죠. 아래 코드 블록에서 함수를 사용하는 여러 예제를 보여드릴게요.
 
@@ -182,7 +287,18 @@ print(np.random.choice(K, size=(2,4), replace=False)) #(3)
 
 (1)에서 지정된 줄에서, 함수에 배열만 전달하면 해당 배열에서 한 개의 숫자를 반환합니다. (2)의 size 매개변수를 사용하여 출력의 차원을 지정할 수도 있어요. 출력 결과를 보면 16이 두 번 나타나는 것을 알 수 있어요. 이는 기본적으로 함수가 복원 선택으로 무작위 숫자를 선택하기 때문인데요, 즉, 원래 배열에서 하나의 숫자가 여러 번 선택될 수 있습니다. 이를 원치 않는 경우, replace=False를 써서 다음과 같이 쓸 수 있어요. (3)에서처럼요. 이렇게 하면 결과 배열의 요소 수가 원본 배열의 요소 수보다 크면 안 된다는 점에 유의하세요. 궁금하시다면, 세 번째 출력에서 두 번 나타나는 12는 배열 K에 12가 실제로 두 번 나타난 것 때문입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 시드
 
@@ -194,7 +310,18 @@ np.random.seed(99)
 np.random.randint(low=0, high=10, size=(2,5))
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```json
 # 코드 블록 12
@@ -208,8 +335,18 @@ np.random.randint(low=0, high=10, size=(2,5))
 
 ## 뷰(View)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 변수에서 다른 변수로 배열을 할당할 때 Numpy의 성질을 고려해야 합니다. 다음 예제를 살펴보겠습니다.
 
@@ -224,7 +361,18 @@ print(M)
 
 여기서 배열 L을 변수 M에 할당했으므로 두 변수가 동일한 배열을 포함하게 됩니다. 다음으로, 아래 코드 블록 14를 사용하여 M의 0번 인덱스를 변경하려고 합니다. 그러나 M의 첫 번째 요소만 바꾸려고 했지만 배열 L의 요소도 변경됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 코드 블록 14
@@ -239,8 +387,18 @@ print('M:', M)
 
 ## 복사
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 경우가 발생하지 않도록하려면, M에 할당할 때 copy() 메서드를 L에 넣으면 됩니다. 이렇게 하면 M에 저장된 배열이 완전히 다른 배열이 되어, 하나의 배열에 대한 수정이 다른 배열에 영향을 미치지 않도록 보장됩니다.
 
@@ -258,7 +416,18 @@ print('M:', M)
 
 # 10. 수학 함수
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 기본 수학 연산
 
@@ -272,15 +441,25 @@ O = np.array([4,5,6], dtype='int32')
 
 우리는 가장 기초적인 것부터 시작할 것입니다: 덧셈, 뺄셈, 곱셈 및 나눗셈입니다. Numpy에서 배열에 이러한 연산자를 적용하면 연산은 요소별로 수행됩니다. 이러한 이유로 배열 피연산자의 차원이 정확히 일치하는지 확인해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 코드 블록 17
+
 print(N + O)
 print(N - O)
-print(N * O)
+print(N \* O)
 print(N / O)
-
 
 ![이미지](/assets/img/2024-06-22-MasteringNumPyAComprehensiveGuidetoEfficientArrayProcessingPart22_15.png)
 
@@ -288,8 +467,18 @@ print(N / O)
 
 대안으로 np.add(), np.subtract(), np.multiply() 및 np.divide()와 같은 Numpy에서 제공하는 함수들을 사용할 수도 있습니다. 연산자 기호와 함수 모두 정확히 같은 결과를 생성합니다. 따라서 이 경우에는 개인 취향에 따라 선택하면 됩니다. 아래 코드블록은 이러한 함수들을 어떻게 사용하는지 보여줍니다. 결과 출력은 Figure 16에 표시된 것과 완전히 동일합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # Codeblock 18
@@ -311,19 +500,30 @@ print(N / 5)
 
 <img src="/assets/img/2024-06-22-MasteringNumPyAComprehensiveGuidetoEfficientArrayProcessingPart22_16.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제가 다음으로 논의하고 싶은 것은 행렬 곱셈입니다. 이전에 언급한 대로, 네 가지 기본 수학 연산 함수는 요소별로 작동합니다. 이는 np.multiply() 함수가 행렬 곱셈을 위해 의도된 것이 아니라는 것을 의미합니다. 대신 np.matmul()을 사용해야 합니다. 이 경우 두 입력 행렬이 연산 가능한지 확인해야 합니다. 다음 예제에서는 각각 크기가 (4,3)과 (3,2)인 배열 O와 P 사이의 곱셈을 수행합니다.
 
 ```js
 # 코드블록 20
-O = np.array([[2, 1, 0], 
-              [5, 4, 3], 
-              [8, 7, 6], 
+O = np.array([[2, 1, 0],
+              [5, 4, 3],
+              [8, 7, 6],
               [1, 0, 9]])
 
-P = np.array([[4, 3], 
-              [6, 5], 
+P = np.array([[4, 3],
+              [6, 5],
               [8, 7]])
 
 np.matmul(O, P)
@@ -333,7 +533,18 @@ np.matmul(O, P)
 
 여전히 기본 수학 연산과 관련된 다른 함수에는 np.sign(), np.negative() 및 np.abs()가 있습니다. 이러한 함수들의 사용법을 배열 Q에 대해 보여드리겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 코드 블록 21
@@ -350,7 +561,18 @@ print(np.abs(Q))      # 대안: np.absolute()
 
 ## 최대공약수(GCD)와 최소공배수(LCM)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최대공약수(GCD)와 최소공배수(LCM)는 Numpy에서 각각 np.gcd()와 np.lcm()으로 구현되어 있습니다. 이러한 함수들을 사용하려면, 간단히 두 숫자나 배열을 입력인수로 넣으면 됩니다.
 
@@ -365,7 +587,18 @@ print(np.lcm([3, 12, 9], [24, 16, 3]))    #(3)
 
 위 코드블록 22의 예제를 살펴봅시다. #(1)으로 표시된 줄은 81과 72의 최대공약수인 하나의 숫자를 반환합니다. 한편, #(2) 줄에서는 숫자 24가 첫 번째 인수에 브로드캐스트되어 LCM이 24와 목록의 각 숫자 간에 계산됩니다. 마지막으로, 두 인수에 대해 리스트를 전달하면, LCM 또는 GCD 계산이 요소별로 수행됩니다 (#(3)).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 지수 함수
 
@@ -380,7 +613,18 @@ print(np.power(144, 1/2))
 
 ![이미지](/assets/img/2024-06-22-MasteringNumPyAComprehensiveGuidetoEfficientArrayProcessingPart22_20.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 유연성이 있긴 하지만, np.power()은 실제로 연산 속도에 있어서 최상이라고 할 수는 없습니다. 실제로 더 빠른 계산을 제공하는 몇 가지 특정 목적을 위한 대안들이 있습니다. np.square(), np.sqrt(), np.cbrt() 및 np.exp()가 그 예입니다. 아래 코드 블록은 np.power()와 이러한 함수들의 동등한 사용법을 보여줍니다.
 
@@ -396,7 +640,18 @@ print(np.exp([2,3,4]))          # np.power(np.e, [2,3,4])와 동일
 
 ## 각도 변환 및 삼각함수
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 넘파이에서는 삼각함수를 사용할 수 있습니다. np.sin(), np.cos() 및 np.tan()을 사용할 때 주의해야 할 점은 이 함수들이 라디안 단위의 각도를 입력으로 받는다는 것입니다. 따라서 각도가 도(degree)로 주어진 경우 np.deg2rad()를 사용하여 라디안으로 변환해야 합니다. 아래 Codeblock 25에서는 각도를 도와 라디안으로 변환하는 방법을 보여줍니다.
 
@@ -413,7 +668,18 @@ print(np.rad2deg(S))
 
 각도 변환 방법을 이해했으니, 이제 삼각함수의 사용법을 실제로 보여드리겠습니다. 다음 코드에서 숫자 0, 45, 60이 각도 (도)를 나타낸다고 가정합니다. 이 숫자들은 라디안으로 변환된 후 배열 T에 저장되어 np.sin(), np.cos(), np.tan()의 입력으로 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 코드 블록 26
@@ -430,17 +696,26 @@ print(np.tan(T))
 
 로그 함수에 대해 이야기할 때, 적어도 가장 기본적이라고 생각되는 세 가지 함수가 있습니다. 아래 코드 블록 27에서는 배열 U에 np.log(), np.log2() 및 np.log10() 함수를 어떻게 사용하는지 보여줍니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 코드 블록 27
+
 U = [1, 2, 10, np.e]
 
 print(np.log(U))
 print(np.log2(U))
 print(np.log10(U))
-
 
 ![Image](/assets/img/2024-06-22-MasteringNumPyAComprehensiveGuidetoEfficientArrayProcessingPart22_24.png)
 
@@ -448,8 +723,18 @@ Numpy에서 np.log()는 수학의 ln() 함수와 동일합니다 (밑이 e인 �
 
 ## 통계 함수
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 숫자 데이터 분포를 가지고 있다면, 통계적 특성을 계산하여 추가 분석을 수행할 수 있습니다. 우리에게 운이 좋은 것은 Numpy가 이 작업을 쉽게 수행할 수 있는 다양한 함수를 제공해준다는 것입니다. 이와 관련된 모든 함수들 — 아마도 이들 모두가 명확히 이해할 만한 함수들로 보입니다 — 이 코드 블록 28에 나와 있습니다.
 
@@ -473,7 +758,18 @@ print('max\t:', np.max(V))
 
 이 주제 외에도 통계 측정과 직접적인 관련이 없지만 여전히 유용할 수 있는 두 가지 다른 함수가 실제로 있습니다. 말하고자 하는 두 함수는 np.argmin()과 np.argmax()인데, 이 두 함수는 배열에서 가장 작은 값과 가장 큰 값이 들어 있는 인덱스를 반환합니다. 가장 작거나 큰 값이 여러 개인 경우, 이 두 함수는 가장 낮은 인덱스를 반환합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 코드 블록 29
@@ -487,7 +783,18 @@ print('argmax\t:', np.argmax(V))
 
 넘파이는 선형 대수 계산을 수행하는데 다양한 도구를 제공합니다. 여기서 여러분께 보여드릴 수 있는 몇 가지 사항들이 있습니다. 코드 블록 30에 표시된 두 배열이 있다고 가정해 봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 코드 블록 30
@@ -504,7 +811,18 @@ np.dot(W, X)
 
 ![이미지](/assets/img/2024-06-22-MasteringNumPyAComprehensiveGuidetoEfficientArrayProcessingPart22_27.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또한 NumPy는 np.inner() 및 np.outer()를 통해 내적과 외적을 계산할 수 있도록 합니다.
 
@@ -518,7 +836,18 @@ print(np.outer(W, X))
 
 이제 2D 배열을 다루고 있다면 우리가 할 수 있는 것들에 대해 좀 더 자세히 알아보겠습니다. 이를 시연하기 전에 배열 Y를 미리 초기화하고 싶습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 코드 블록 33
@@ -539,10 +868,20 @@ np.transpose(Y)
 
 ![이미지](/assets/img/2024-06-22-MasteringNumPyAComprehensiveGuidetoEfficientArrayProcessingPart22_29.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-넘파이는 행렬의 역행렬을 계산하는 함수도 제공합니다. `np.linalg.inv()`를 사용하면 행렬 Y의 역행렬을 계산할 수 있습니다. 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+넘파이는 행렬의 역행렬을 계산하는 함수도 제공합니다. `np.linalg.inv()`를 사용하면 행렬 Y의 역행렬을 계산할 수 있습니다.
 
 ```js
 # 코드 블록 35
@@ -553,7 +892,18 @@ np.linalg.inv(Y)
 
 그러나 중요한 점은 행렬이 특이행렬일 때, 즉 행렬식이 0일 때 `np.linalg.inv()`가 오류를 반환한다는 것입니다. 따라서 역행렬을 계산하기 전에 행렬의 행렬식 값을 확인하는 것이 좋은 아이디어라고 생각합니다. 확인을 위해 `np.linalg.det()`을 사용하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # Codeblock 36
@@ -572,7 +922,18 @@ print(eigenvalues, end='\n\n')
 print(eigenvectors)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-22-MasteringNumPyAComprehensiveGuidetoEfficientArrayProcessingPart22_32.png" />
 
@@ -582,7 +943,18 @@ print(eigenvectors)
 
 ## 논리 연산자
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사의 맨 처음에, NumPy가 우리에게 boolean 자료형의 배열을 만들 수 있게 한다고 언급했지만, 이 주제에 대해 아직 자세히 다루지는 않았습니다. 그리고 이제, 이 장에서 그에 대해 이야기하고 싶습니다. 먼저, Z와 AA라는 이름으로 두 배열을 초기화하는 것으로 시작합시다.
 
@@ -601,8 +973,18 @@ print(np.logical_or(Z, AA))
 print(np.logical_xor(Z, AA))
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-22-MasteringNumPyAComprehensiveGuidetoEfficientArrayProcessingPart22_33.png)
 
@@ -618,8 +1000,18 @@ print('np.all(AA):', np.all(AA))
 
 ![이미지](/assets/img/2024-06-22-MasteringNumPyAComprehensiveGuidetoEfficientArrayProcessingPart22_34.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 실제로 np.any()와 np.all()을 좀 더 고급으로 사용할 수 있어요. 다음 코드 블록에서 #(1) 행에서, np.any()는 배열 AB에서 4보다 큰 숫자가 하나 이상 있는 경우 True를 반환할 거에요. 다음으로, #(2) 행에서는 AB의 모든 요소가 4보다 큰 경우에만 True를 반환할 거에요.
 
@@ -635,7 +1027,18 @@ print(np.all(AB > 4))    #(2)
 
 ## 비트 연산자
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비트 연산자는 논리 연산자만큼 직관적으로 보이지 않을 수 있습니다. 그럼에도 불구하고 두 가지의 기본 아이디어는 정확히 같습니다. 차이는 비트 연산자가 정수를 입력으로 사용한다는 점뿐입니다. 연산 중에 이러한 정수들은 이진으로 먼저 변환된 후 비트 단위로 작동됩니다. 아래 예시에서는 np.bitwise_and(), np.bitwise_or() 및 np.bitwise_xor()에 12와 13을 입력 인수로 넣었습니다.
 
@@ -650,7 +1053,18 @@ print(np.bitwise_xor(12, 13))
 
 위 함수들은 모두 처음에 12와 13을 이진으로 변환하여 작동합니다: 1100과 1101. 이 값을 AND 연산자로 처리하면 1100이 됩니다. 한편 OR 연산자는 1101을 반환하고 XOR는 0001을 반환합니다. 이진 수열을 10진수로 변환하면 최종 결과로 12, 13 및 1이 나옵니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 주제에 추가로, np.binary_repr()을 사용하여 10진수의 이진 표현을 확인할 수 있습니다.
 
@@ -664,7 +1078,18 @@ print(np.binary_repr(13))
 
 # 12. 검색 및 정렬
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 특정 숫자를 찾을 때에는 불리언 인덱싱이라는 기법을 사용할 수 있어요. 이 방법을 마스킹처럼 생각할 수도 있죠. 여기서 저는 다음 코드 블록에서 초기화한 배열 AC를 이 아이디어로 설명하고 싶어요.
 
@@ -678,7 +1103,18 @@ mask
 
 이름이 "mask"인 것은 사실상 AC와 길이가 정확히 같은 다른 배열이며, 여기에는 불리언 값만 포함돼요. 이렇게 배열을 생성하려면 (1) 라인에서 하는 것처럼 조건을 적용하면 되요. 이 코드 라인에서는 배열 AC의 모든 요소가 지정된 조건을 충족하는지 확인해요. 만약 조건을 충족한다면 해당 인덱스는 True로 할당돼요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 실제 마스킹은 아래의 코드블록 45를 사용하여 실행됩니다. 이렇게 하면 우리의 기준을 충족하는 숫자만 출력됩니다.
 
@@ -691,7 +1127,18 @@ AC[mask]
 
 사실, 마스크를 별도의 변수에 저장할 필요는 없습니다. 대신, 다음과 같이 간단히 작성할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 코드블록 46
@@ -707,8 +1154,18 @@ AC[AC > 5]
 AC[(AC > 5) & (AC != 9)]
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-06-22-MasteringNumPyAComprehensiveGuidetoEfficientArrayProcessingPart22_41.png)
 
@@ -721,29 +1178,46 @@ AC[np.where((AC > 5) & (AC != 9))]
 
 np.where() 함수 자체는 배열에서 지정된 기준을 충족하는 색인을 반환하여 작동합니다. 이 특정 경우에는 선택된 색인이 6, 8 및 6에 해당하는 5, 6 및 7이며, 이는 배열 AC에서의 값들과 일치합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 코드블록 49
+
 np.where((AC > 5) & (AC != 9))
 
 # AC의 요소를 떠올려보세요: [9, 4, 5, 3, 2, 6, 8, 6, 5, 4, 5, 5, 3, 2].
-
 
 ![이미지](/assets/img/2024-06-22-MasteringNumPyAComprehensiveGuidetoEfficientArrayProcessingPart22_42.png)
 
 np.where() 함수는 3개의 인수를 전달할 때 더 유용할 수 있습니다. 즉, 조건, x 및 y를 정확한 순서로 전달합니다. 이러한 인수를 다음과 같이 생각할 수 있습니다: "조건이 True를 반환하면 x를 수행하고, 그렇지 않으면 y를 수행합니다." 이를 더 잘 설명하기 위해 다음 코드는 배열 AC의 모든 요소를 5보다 큰 경우 0으로 변환합니다. 그렇지 않으면 숫자가 2씩 추가됩니다.
 
-
 # 코드블록 50
+
 print(AC)
 print(np.where(AC > 5, 0, AC+2))
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
-
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![마스터링 넘파이 효율적인 배열 처리를 위한 포괄적인 가이드 22_43 이미지](/assets/img/2024-06-22-MasteringNumPyAComprehensiveGuidetoEfficientArrayProcessingPart22_43.png)
 
@@ -756,8 +1230,18 @@ np.unique(AC, return_counts=True)
 
 ![마스터링 넘파이 효율적인 배열 처리를 위한 포괄적인 가이드 22_44 이미지](/assets/img/2024-06-22-MasteringNumPyAComprehensiveGuidetoEfficientArrayProcessingPart22_44.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 정렬
 
@@ -774,7 +1258,18 @@ print(np.sort(AE))
 
 <img src="/assets/img/2024-06-22-MasteringNumPyAComprehensiveGuidetoEfficientArrayProcessingPart22_45.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 결과에서 두 배열이 오름차순으로 정렬되어 있음을 확인할 수 있습니다. 실제로 np.sort()에는 결과 배열을 내림차순으로 정렬할 수 있는 매개변수가 없습니다. 따라서, 만일 원한다면 np.flip()을 사용하여 내림차순으로 정렬할 수 있습니다.
 
@@ -792,25 +1287,45 @@ print(np.flip(np.sort(AE)))
 
 만약 배열을 정렬하긴 하되 값이 아닌 인덱스만 필요한 경우, np.argsort()를 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 코드블록 54
+
 np.argsort(AD)
 
 # AD의 요소들을 상기해 봅시다: [77, 33, 44, 99, 22, 88, 55, 11, 66].
-
 
 ![이미지](/assets/img/2024-06-22-MasteringNumPyAComprehensiveGuidetoEfficientArrayProcessingPart22_47.png)
 
 Figure 48에 표시된 출력은 기본적으로 AD 배열에서 가장 작은 숫자를 포함하는 7번째 인덱스를 보여줍니다. 이후로 AD[4], AD[1], 등이 따릅니다. 정렬이 제대로 작동하는지 확인하기 위해 np.argsort()의 전체 출력을 사용하여 다음과 같이 인덱싱을 수행할 수 있습니다:
 
-
 # 코드블록 55
+
 AD[np.argsort(AD)]
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-22-MasteringNumPyAComprehensiveGuidetoEfficientArrayProcessingPart22_48.png" />
 
@@ -819,13 +1334,24 @@ AD[np.argsort(AD)]
 ```js
 # 코드블록 56
 AF = np.array([[3, 1, 5, 7],
-               [8, 9, 3, 2], 
+               [8, 9, 3, 2],
                [4, 8, 2, 6]])
 ```
 
 만약 위 행렬을 열을 따라 정렬하고 싶다면, axis=0을 사용해야 합니다. 반면, axis=1은 행을 따라 정렬할 수 있게 합니다. 아래 코드블록 57는 그 방법을 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # Codeblock 57
@@ -843,7 +1369,18 @@ AG = np.arange(13)
 AG
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 codeblock를 사용하여 시퀀스를 shift 매개변수에 전달한 값에 따라 회전시킬 수 있습니다. 이 경우에는 AG를 오른쪽으로 3번(#(1)) 회전하고 왼쪽으로 3번(#(2)) 회전해 봅니다.
 
@@ -855,7 +1392,18 @@ print(np.roll(AG, shift=-3))    #(2)
 
 <img src="/assets/img/2024-06-22-MasteringNumPyAComprehensiveGuidetoEfficientArrayProcessingPart22_51.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 13. 형태와 변경
 
@@ -863,10 +1411,10 @@ Python 리스트에서는 len() 함수를 사용하여 요소의 개수를 알 �
 
 ```js
 # 코드 블록 60
-AH = np.array([[0,   1,  2,  3,  4,  5], 
-               [6,   7,  8,  9, 10, 11], 
-               [12, 13, 14, 15, 16, 17], 
-               [18, 19, 20, 21, 22, 23], 
+AH = np.array([[0,   1,  2,  3,  4,  5],
+               [6,   7,  8,  9, 10, 11],
+               [12, 13, 14, 15, 16, 17],
+               [18, 19, 20, 21, 22, 23],
                [24, 25, 26, 27, 28, 29]])
 
 len(AH)
@@ -874,7 +1422,18 @@ len(AH)
 
 <img src="/assets/img/2024-06-22-MasteringNumPyAComprehensiveGuidetoEfficientArrayProcessingPart22_52.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 len() 함수와 다르게 Numpy 배열의 shape 속성을 활용하면 더 정확한 결과를 얻을 수 있어요. 아래의 코드블록 61의 출력 결과를 보면 배열 AH가 5개의 내부 배열로 구성되어 있고, 각 내부 배열은 6개의 요소로 이루어져 있음을 알 수 있어요. 이를 이전 챕터에서 설명했던 대로 5×6 크기의 행렬로 생각할 수 있어요. 또는 이미지 처리에 관심이 있는 경우, 이는 높이가 5이고 너비가 6인 픽셀을 가진 이미지에 해당해요.
 
@@ -887,7 +1446,18 @@ AH.shape
 
 Numpy는 reshape() 메소드를 통해 배열의 모양을 변경할 수 있게 해줘요. 다음 예제에서는 AH를 사이즈 (3,10)으로 재구성하는 방법을 보여드릴게요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # Codeblock 62
@@ -900,7 +1470,18 @@ AH.reshape(3,10)
 
 배열 재구성은 2D 배열에만 국한되지 않습니다. 아래 코드 블록에서 배열을 3D로 변환하는 예시를 보여드리겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 코드 블록 63
@@ -916,8 +1497,18 @@ AH.reshape(2,3,5)
 AH.reshape(-1,5)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-22-MasteringNumPyAComprehensiveGuidetoEfficientArrayProcessingPart22_56.png" />
 
@@ -930,8 +1521,18 @@ AH.reshape(-1,1)
 
 <img src="/assets/img/2024-06-22-MasteringNumPyAComprehensiveGuidetoEfficientArrayProcessingPart22_57.png" />
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 다차원 배열을 1차원 배열로 재구성하고 싶다면 flatten()이나 reshape(-1) 메소드를 사용할 수 있어요.
 
@@ -947,30 +1548,51 @@ AH.flatten()
 
 이 주제 외에도, 만약 배열에 빈 축을 추가하고 싶다면 np.newaxis를 사용할 수 있어요. 솔직히 말해서, 이 기술은 조금 직관적이지 않아요. 그래서, 제가 일반적으로 Codeblock 65에서 한 것과 같은 작업을 하는 데 np.reshape()를 사용해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 코드 블록 67
+
 AH.flatten()[:, np.newaxis]
 
 ### 대안
-# AH.flatten().reshape(-1,1)
 
+# AH.flatten().reshape(-1,1)
 
 ![이미지](/assets/img/2024-06-22-MasteringNumPyAComprehensiveGuidetoEfficientArrayProcessingPart22_59.png)
 
 아래는 np.newaxis에 대한 또 다른 예제입니다. 여기서는 행에 새로운 축을 추가하는 데 사용했습니다.
 
-
 # 코드 블록 68
+
 AH.flatten()[np.newaxis, :]
 
 ### 대안
+
 # AH.flatten().reshape(1,-1)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-06-22-MasteringNumPyAComprehensiveGuidetoEfficientArrayProcessingPart22_60.png)
 
@@ -980,8 +1602,18 @@ AH.flatten()[np.newaxis, :]
 
 이 주제를 논의하기 전에 먼저 두 개의 새 배열 AI와 AJ를 초기화하고 싶습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 코드블록 69
@@ -1001,7 +1633,18 @@ print(AJ)
 np.vstack((AI,AJ))
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 알수 있듯이, np.hstack()은 두 배열을 수평으로 쌓는 데 사용됩니다.
 
@@ -1010,7 +1653,18 @@ np.vstack((AI,AJ))
 np.hstack((AI, AJ))
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 np.vstack()과 np.hstack() 함수는 여러 배열을 한 번에 쌓을 수 있습니다. 주의할 점은 배열의 열 수가 동일한 경우 수직 스택이 가능하다는 것입니다. 수평 스택의 경우, 배열의 행 수가 동일할 때만 작동합니다.
 
@@ -1024,27 +1678,47 @@ print(np.hstack((AI,AJ,AJ,AJ,AI)))
 
 또한, np.append() 함수는 배열을 연결하기 전에 먼저 배열을 평평하게 만든 후 작동합니다. 따라서 결과적으로 얻는 출력물은 1차원 배열이 됩니다. 이 기본 동작과는 상관없이 np.append() 함수를 np.vstack() 및 np.hstack()와 동일하게 작동하도록 axis 매개변수를 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 코드 블록 73
+
 print(np.append(AI, AJ), end='\n\n')
 print(np.append(AI, AJ, axis=0), end='\n\n')
 print(np.append(AI, AJ, axis=1))
-
 
 <img src="/assets/img/2024-06-22-MasteringNumPyAComprehensiveGuidetoEfficientArrayProcessingPart22_65.png" />
 
 사실 np.append() 함수는 한 번에 두 개 이상의 배열을 결합할 수 없습니다. 만약 그렇게 하고 싶다면 np.concatenate()를 사용할 수 있습니다. axis 매개변수도 np.append()와 동일하게 작동합니다. 만약 axis에 값을 지정하지 않으면 np.concatenate() 함수는 수직 스택을 수행합니다.
 
-
 # 코드 블록 74
+
 print(np.concatenate([AI, AI, AI], axis=None), end='\n\n')
 print(np.concatenate([AI, AI, AI]), end='\n\n')
 print(np.concatenate([AI, AI, AI], axis=1))
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <table> 태그를 Markdown 형식으로 바꿔보세요.
 
@@ -1060,8 +1734,18 @@ AK = np.random.randint(0, 10, (20))
 AK
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-22-MasteringNumPyAComprehensiveGuidetoEfficientArrayProcessingPart22_67.png)
 
@@ -1074,8 +1758,18 @@ np.split(AK, indices_or_sections=[3,5])
 
 ![이미지](/assets/img/2024-06-22-MasteringNumPyAComprehensiveGuidetoEfficientArrayProcessingPart22_68.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2D 배열을 나누려면 np.hsplit() 또는 np.vsplit()을 사용할 수 있습니다. 사실 np.split()에 축 매개변수를 전달하여 동일한 작업을 수행할 수도 있습니다. 주요 아이디어는 기본적으로 동일하지만, np.vsplit() 및 np.hsplit()을 사용하여 분할 지점은 각각 행 번호와 열 번호를 참조합니다. 이러한 두 함수를 배열 AL에 대해 시연하겠습니다.
 
@@ -1089,29 +1783,51 @@ AL
 
 아래는 np.vsplit()을 사용하는 방법입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 코드 블록 78
+
 np.vsplit(AL, [2,4])
 
 ### 대안
-# np.split(AL, [2,4], axis=0)
 
+# np.split(AL, [2,4], axis=0)
 
 <img src="/assets/img/2024-06-22-MasteringNumPyAComprehensiveGuidetoEfficientArrayProcessingPart22_70.png" />
 
 마지막으로 np.hsplit() 사용법입니다.
 
-
 # 코드 블록 79
+
 np.hsplit(AL, [3,4])
 
 ### 대안
+
 # np.split(AL, [3,4], axis=1) #동등한
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-22-MasteringNumPyAComprehensiveGuidetoEfficientArrayProcessingPart22_71.png" />
 
@@ -1121,7 +1837,18 @@ np.hsplit(AL, [3,4])
 
 읽어 주셔서 감사해요. 이 글이 유용했기를 바라며, 다음 글에서 만나요. 안녕히 계세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 참고 자료
 
@@ -1131,7 +1858,18 @@ np.hsplit(AL, [3,4])
 
 In Plain English 커뮤니티의 일원이 되어 주셔서 감사합니다! 떠나시기 전에:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 작가를 칭찬하고 팔로우하려면 클랩을 눌러주세요! 👏
 - 팔로우하기: X | LinkedIn | YouTube | Discord | 뉴스레터

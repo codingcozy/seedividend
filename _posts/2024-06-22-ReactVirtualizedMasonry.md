@@ -3,17 +3,13 @@ title: "React Virtualized로 Masonry 레이아웃 구현하는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-22-ReactVirtualizedMasonry_0.png"
 date: 2024-06-22 14:51
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-ReactVirtualizedMasonry_0.png
 tag: Tech
 originalTitle: "React Virtualized Masonry"
 link: "https://medium.com/@onix_react/react-virtualized-masonry-221c7a4f297b"
 isUpdated: true
 ---
-
-
-
-
 
 ![React Virtualized Masonry](/assets/img/2024-06-22-ReactVirtualizedMasonry_0.png)
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 Masonry 컴포넌트 소개
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Masonry 구성 요소는 윈도잉 기술을 사용하여 동적으로 크기가 조정되고 사용자가 위치를 지정한 셀을 효율적으로 표시합니다. 셀의 위치는 삽입된 cellPositioner 속성으로 제어됩니다. 윈도잉은 수직 방향이며, 이 구성 요소는 수평 스크롤을 지원하지 않습니다.
 
@@ -34,7 +40,18 @@ Masonry 구성 요소는 윈도잉 기술을 사용하여 동적으로 크기가
 
 생산성 향상
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용자들은 요소를 빠르게 재배열할 수 있어서 더 효율적인 작업 흐름을 이끌어냅니다. 특히 프로젝트 관리 도구나 디자인 소프트웨어와 같이 구성 요소를 자주 재조직해야 하는 애플리케이션에서 특히 유용합니다.
 
@@ -44,7 +61,18 @@ Masonry 구성 요소는 윈도잉 기술을 사용하여 동적으로 크기가
 
 미적 매력
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현대적이고 세련된 외관으로, Masonry는 응용 프로그램을 시각적으로 매력적으로 만듭니다. 부드러운 전환과 애니메이션은 정교한 사용자 인터페이스를 형성하며 전반적인 사용자 경험을 향상시킵니다.
 
@@ -56,7 +84,18 @@ Masonry 구성 요소는 윈도잉 기술을 사용하여 동적으로 크기가
 - 레이아웃 알고리즘: 빠르고 단순한 레이아웃 알고리즘은 이미지를 순서대로 쌓아 뷰포트가 채워질 때까지 진행됩니다.
 - 캐싱: 모든 측정값은 성능을 위해 캐시되며, keyMapper에서 제공된 키를 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위치 지정 및 캐싱
 
@@ -72,7 +111,18 @@ Masonry 구성 요소는 윈도잉 기술을 사용하여 동적으로 크기가
 - 폭 동일: 열의 모든 항목은 동일한 너비를 가져야 합니다. 항목은 여러 열에 걸칠 수 없습니다.
 - 동기식 측정: 빈번한 레이아웃 무효화를 피하기 위해 셀 측정은 동기적이어야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 공용 메소드
 
@@ -85,7 +135,18 @@ Masonry 구성 요소는 윈도잉 기술을 사용하여 동적으로 크기가
 
 # 속성 유형
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React Virtualized Masonry에서 Prop Types는 컴포넌트에서 사용되는 다양한 속성(prop)의 예상 데이터 유형을 정의하고 강제하는 방법입니다. 이들은 올바른 데이터가 컴포넌트로 전달되도록 보장하여 잠재적인 오류를 줄이고 코드 신뢰성을 향상시키는 데 도움이 됩니다.
 
@@ -95,7 +156,18 @@ Prop types에 대한 자세한 정보는 👉 여기에서 찾을 수 있습니�
 
 다음은 React Virtualized를 사용하여 Masonry 레이아웃을 만드는 방법을 실제 예제로 보여줍니다. 이 예제는 항목 목록을 만들고 CellMeasurerCache를 사용하여 항목의 크기를 캐시합니다. cellPositioner는 셀을 세 개의 열이 있는 그리드에 배치하는 데 도움을 줍니다. 각 셀은 항목의 이미지와 캡션을 포함하는 CellMeasurer 컴포넌트를 반환하는 cellRenderer 함수를 사용하여 렌더링됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const cellPositioner = createMasonry(cellPositionerConfig);
@@ -146,8 +218,18 @@ const MasonryComponent = ({ itemsWithSizes, setRef }) => {
 
 # 마무리
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React Virtualized과 Masonry를 결합하면 그리드 내에서 동적 크기의 사용자 위치 지정 셀을 처리하는 효율적인 방법을 제공합니다. 예제 코드는 측정 및 레이아웃 단계가 최적의 성능을 위해 중요함을 강조하며 통합을 보여줍니다. 이 조합은 대규모 데이터셋을 다루는 복잡한 레이아웃을 React 애플리케이션에서 효과적으로 관리하는 견고한 해결책이며 반응성과 부드러운 사용자 경험을 보장합니다.
 

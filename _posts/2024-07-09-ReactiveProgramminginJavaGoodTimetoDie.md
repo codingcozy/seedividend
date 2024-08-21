@@ -3,16 +3,13 @@ title: "Java Reactive Programming  지금 배우기 좋은 때"
 description: ""
 coverImage: "/assets/img/2024-07-09-ReactiveProgramminginJavaGoodTimetoDie_0.png"
 date: 2024-07-09 21:45
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-ReactiveProgramminginJavaGoodTimetoDie_0.png
 tag: Tech
 originalTitle: "Reactive Programming in Java — Good Time to Die"
 link: "https://medium.com/@viraj_63415/reactive-programming-in-java-good-time-to-die-79f243dc1275"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-07-09-ReactiveProgramminginJavaGoodTimetoDie_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 # 동기식 블로킹 디자인
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이를 이해하기 위해 일반적인 기업용 사례 요청을 살펴보겠습니다. 이 요청에서 코드는 데이터베이스에서 데이터를 가져 오고, 웹 서비스에서 데이터를 가져 와서 결과를 병합 한 다음 최종 결과를 사용자에게 다시 보내야합니다. Tomcat과 같은 Application Server에서는 사용자 요청에 대해 하나의 플랫폼 스레드가 할당되며 데이터베이스에서 데이터를 가져 오기 위해 호출을 하고(fetchDataFromDB 호출), 웹 서비스에서 데이터를 가져 오기 위해 호출을 한 다음(FetchDataFromService 호출) 병합하고 데이터를 사용자에게 보내기 위해(procceed to send the data to user) 호출합니다.
 
@@ -32,7 +40,18 @@ Figure 1에서는 수직 화살표로 위에서 아래로 실행 스레드를 �
 
 Java에서 플랫폼 스레드는 기본적으로 각 플랫폼 스레드가 1MB의 스택 메모리를 사용하기 때문에 비용이 많이 드는 리소스입니다. 즉, JVM에서 실행되는 플랫폼 스레드 수에는 상한선이 있습니다. 따라서 하나의 플랫폼 스레드가 사용자 요청에 전담된 경우 다수의 동시 사용자를 가진 애플리케이션에 대한 문제가 발생합니다. 이 문제를 해결하는 전통적인 방법은 최대 스레드 수 (예: 200)를 갖는 스레드 풀을 생성하고 수직 또는 수평으로 애플리케이션을 확장하여 필요한 만큼 큰 수의 사용자를 지원하는 것입니다. 수직 확장은 컨테이너 또는 VM에 더 많은 리소스를 추가하는 것을 의미하고, 수평 확장은 애플리케이션의 인스턴스를 더 추가하는 것을 의미합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 비동기 블로킹 디자인
 
@@ -42,7 +61,18 @@ Java에서 플랫폼 스레드는 기본적으로 각 플랫폼 스레드가 1MB
 
 이 시나리오에서 사용자 요청 스레드는 두 스레드를 시작합니다. 하나는 데이터베이스로부터 데이터를 가져 오고 다른 하나는 웹 서비스에서 데이터를 가져옵니다. 그런 다음 두 결과를 얻기 위해 블록된 후에 데이터를 병합하여 사용자에게 데이터를 보내게 됩니다. Java에서는 Executor Service에 Callable 또는 Runnable 작업을 제출하고 Java Futures를 사용하여 이를 성취할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이렇게 하면 성능이 향상되며 두 데이터 가져오기가 병렬로 수행됩니다. 그러나 대부분의 경우 성능이 향상될 수 있지만, 단기간 동안 플랫폼 스레드 수가 1에서 3으로 증가합니다. 확장성 측면에서는이 기간 동안 문제가 더욱 악화될 것입니다.
 
@@ -52,7 +82,18 @@ Java에서 플랫폼 스레드는 기본적으로 각 플랫폼 스레드가 1MB
 
 결국 사용자 요청 스레드는 사용 사례를 위한 CompletableFuture 파이프라인(또는 다른 파이프라인)을 지정하기만 하고 사용자에게 데이터를 다시 보내기 위해 계속 살아 있을 필요가 없기 때문에 가능한 빨리 풀로 할당될 것입니다. 그림 3은 이를 다이어그램 형식으로 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Reactive Programming in Java](/assets/img/2024-07-09-ReactiveProgramminginJavaGoodTimetoDie_3.png)
 
@@ -62,7 +103,18 @@ Java에서 플랫폼 스레드는 기본적으로 각 플랫폼 스레드가 1MB
 
 # 완전히 반응형 스타일 디자인
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것을 어떻게 더 나아지게 만들까요? 이 디자인을 완전히 반응형으로 만들기 위해서는 데이터베이스 및 웹 서비스에 대한 데이터를 가져오는 작업을 비차단 방식으로 수행해야 합니다. Java에서는 JDK 7의 일환으로 NIO (New IO)가 도입되면서 IO 작업을 비차단으로 수행할 수 있게 되었습니다. 이제 Java의 모든 IO 기반 클래스와 메서드에는 비차단 버전이 있습니다. 예를 들어 소켓 읽기/쓰기, 파일 읽기/쓰기, 락 API 등이 그 예시입니다. 개발자로서, 이러한 클래스/메서드의 비차단 버전이나 NIO를 지원하는 라이브러리를 사용하여 데이터에 대한 호출을 해야 합니다. Figure 4는 이러한 설계의 다이어그램적 표현을 보여줍니다.
 
@@ -72,7 +124,18 @@ Fetch Data 내에서 요청을 수행하는 스레드와 데이터를 가져오�
 
 이 개발 스타일을 사용하면 애플리케이션의 높은 확장성을 달성할 수 있습니다. 그러나 이 해결책은 너무 복잡합니다. 반응형 파이프라인을 생성하고 디버깅하고 실행하는 것은 어려운 일입니다. 그래서 이러한 개발 스타일은 매우 인기가 없는 편입니다. Spring Boot는 Reactive Style 프로그래밍에 전념한 전체 개발 스택을 제공하는데, Spring WebFlux라고 불리며 Project Reactor를 사용합니다. 이 스타일은 데이터베이스, 웹 서비스 등에 대해 비차단 동작을 제공하는 많은 라이브러리를 활용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 가상 스레드
 
@@ -82,7 +145,18 @@ Fetch Data 내에서 요청을 수행하는 스레드와 데이터를 가져오�
 
 애플리케이션 서버에서 개발자들은 이제 사용자 요청에 대해 가상 스레드를 사용할 수 있는 옵션을 갖게 되었습니다. 이 결과로 개발자들은 기존과 같은 명령형 스타일로 개발할 수 있으면서 반응형 파이프라인을 사용할 때 얻는 확장성 이점을 얻을 수 있게 되었습니다(복잡함 없이). 다이어그램 형식으로 동기 블로킹 디자인을 보여주는 Figure 5를 참조하세요(블로킹 문제가 없음에 유의).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-09-ReactiveProgramminginJavaGoodTimetoDie_5.png" />
 
@@ -92,8 +166,18 @@ Fetch Data 내에서 요청을 수행하는 스레드와 데이터를 가져오�
 
 도표 6은 비동기 블로킹 디자인에서 가상 스레드의 사용을 다이어그래 매티칭 형태로 보여줍니다 (다시 한 번, 블로킹은 문제가 되지 않습니다). 기사에서 이전에 언급했듯이, 우리는 Java Futures를 사용할 수 있고 이를 할 수 있는 옵션이 분명히 있습니다. 그러나 Java 21은 구조화된 비동기 동작을 처리하기 위해 새로운 클래스인 StructuredTaskScope와 Subtask 몇 개를 도입했습니다. 현재 이러한 클래스들은 미리보기 모드에 있지만, 시도해 볼 가치가 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Reactive Programming in Java](/assets/img/2024-07-09-ReactiveProgramminginJavaGoodTimetoDie_6.png)
 
@@ -106,8 +190,18 @@ Fetch Data 내에서 요청을 수행하는 스레드와 데이터를 가져오�
 - 비블로킹 IO를 코드에서 직접 사용할 필요 없음
 - 코딩, 디버깅 및 디자인 이해하기가 더 쉬움
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그것은 정말 훌륭합니다.
 

@@ -3,16 +3,13 @@ title: "Docker 이미지를 빌드하고 GitHub Actions를 사용하여 Docker H
 description: ""
 coverImage: "/assets/img/2024-05-17-BuildPushtheDockerimagetoDockerHubusingGitHubActions_0.png"
 date: 2024-05-17 03:47
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-17-BuildPushtheDockerimagetoDockerHubusingGitHubActions_0.png
 tag: Tech
 originalTitle: "Build , Push the Docker image to Docker Hub using GitHub Actions"
 link: "https://medium.com/overcast-blog/build-push-the-docker-image-to-docker-hub-using-github-actions-74f20d47c483"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-05-17-BuildPushtheDockerimagetoDockerHubusingGitHubActions_0.png" />
 
@@ -24,7 +21,18 @@ isUpdated: true
 - 이 튜토리얼에서는 매우 기본적인 도커 파일을 만들고 해당 파일을 사용하여 이미지를 빌드할 것입니다.
 - Dockerfile을 만들고 아래 코드를 추가하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # Docker Hub에서 공식 Apache HTTP 서버 이미지를 사용하세요
@@ -40,7 +48,18 @@ COPY ./index.html /usr/local/apache2/htdocs/
 
 - index.html 파일을 생성하고 아래 코드를 추가하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <!DOCTYPE html>
@@ -61,9 +80,19 @@ COPY ./index.html /usr/local/apache2/htdocs/
 - 귀하의 저장소에서 자격 증명을 시크릿에 저장하세요.
 
 ![이미지](/assets/img/2024-05-17-BuildPushtheDockerimagetoDockerHubusingGitHubActions_1.png)
-  
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 4: GitHub 액션 워크플로우 생성하기
 
@@ -87,11 +116,11 @@ jobs:
             username: ${secrets.DOCKERHUB_USERNAME}
             password: ${secrets.DOCKERHUB_PASSWORD}
           run: |
-            docker login -u $username -p $password 
+            docker login -u $username -p $password
         - name: build the docker image
           id: build-docker-image
           run: |
-            ls -la 
+            ls -la
             docker build . -f Dockerfile -t dhruvin30/demo-image-test:latest
         - name: push the docker image
           id: push-docker-image
@@ -101,7 +130,18 @@ jobs:
 - 위 워크플로우는 main 브랜치에 커밋할 때마다 트리거됩니다.
 - 워크플로우는 secrets(사용자 이름 및 비밀번호)를 사용하여 docker hub에 로그인합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 5: 코드를 커밋합니다
 
@@ -111,7 +151,18 @@ jobs:
 
 ## 단계 6: 변경 사항 확인하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 한 번 Workflow가 성공적으로 실행되면 이미지가 도커 허브에 표시될 것입니다.
 
@@ -121,6 +172,17 @@ jobs:
 
 LinkedIn에서 팔로우해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 이런 이야기를 보고 싶다면 팔로우해 주세요 😁

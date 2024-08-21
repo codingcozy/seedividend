@@ -3,16 +3,13 @@ title: "프론트엔드 개발자를 위한 TypeScript 마스터하기"
 description: ""
 coverImage: "/assets/img/2024-05-17-MasteringTypeScriptinEverydayProgramming_0.png"
 date: 2024-05-17 21:00
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-17-MasteringTypeScriptinEverydayProgramming_0.png
 tag: Tech
 originalTitle: "Mastering TypeScript in Everyday Programming"
 link: "https://medium.com/@Choco23/mastering-typescript-in-everyday-programming-2e21c3d43763"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-05-17-MasteringTypeScriptinEverydayProgramming_0.png" />
 
@@ -22,7 +19,18 @@ Microsoft에서 개발된 TypeScript는 2012년 10월 오픈 소스로 등장한
 
 🌐 널리 인정받아 현재는 대규모 프로젝트에서 표준으로 사용되며, 정적 타입 시스템을 통해 코드 가독성과 유지보수성을 향상시킵니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 💪 최신 JavaScript 기능을 제공하는 TypeScript은 강력한 컴포넌트를 만들 수 있게 해주어 매 반복 업데이트마다 프론트엔드 코딩을 더욱 편안하게 만듭니다.
 
@@ -32,29 +40,56 @@ Microsoft에서 개발된 TypeScript는 2012년 10월 오픈 소스로 등장한
 
 # TypeScript를 선택해야 하는 이유? ✨
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마이크로소프트는 TypeScript를 소개할 때 두 가지 주요 목표를 가졌습니다: JavaScript를 위한 선택적 유형 시스템 제공 및 현재 및 미래의 JavaScript 기능과의 호환성 보장.
 
 🛠️ 코드 품질과 유지 관리:
+
 - 유형은 코드 리팩터링을 돕고 런타임이 아니고 컴파일 시간에 오류를 잡아낸다.
 - 유형은 탁월한 문서화 역할을 하며 명확한 함수 선언을 통해 코드 이해를 높인다.
 
 🔄 TypeScript의 접근 방식:
+
 - TypeScript는 선택적 유형을 제공하여 JavaScript를 너무 복잡하지 않게 개선하는 균형을 유지한다.
 - 이는 "JavaScript 슈퍼셋" 역할을 하며 컴파일 시간 유형 안전성을 제공하면서 JavaScript와 완전히 호환된다.
 
 👀 유형 추론 및 주석:
+
 - TypeScript는 개발 중 비용 효율적인 유형 안전성을 위해 유형을 추론한다.
 - 명시적 유형 주석은 코드 이해와 가독성을 돕는 미래 개발자를 지원할 수 있다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 🚀 원활한 통합 및 이전:
+
 - TypeScript는 JavaScript에서 원활한 이전을 보장하며, 오류가 있더라도 호환 가능한 JavaScript로 컴파일됩니다.
 - 타입 오류는 일반적인 JavaScript 런타임을 방해하지 않습니다.
 
 🌐 TypeScript의 주요 기능:
+
 - 아파치 라이선스 하에 무료 및 오픈 소스입니다.
 - ECMAScript 표준을 기반으로 구축되었으며, JavaScript를 확장합니다.
 - 선택적인 정적 타입, 클래스 및 모듈을 추가합니다.
@@ -67,7 +102,18 @@ Microsoft에서 개발된 TypeScript는 2012년 10월 오픈 소스로 등장한
 
 ## TypeScript 종속성 설치
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 TypeScript 개발 환경을 설정하는 것은 매우 쉬운 일이에요. 특히 대부분의 프론트엔드 프로젝트에서 TypeScript를 손쉽게 통합할 수 있죠. 아래 간단한 단계를 따라 시작해보세요:
 
@@ -79,7 +125,18 @@ TypeScript 개발 환경을 설정하는 것은 매우 쉬운 일이에요. 특�
 npm install --save-dev typescript ts-node
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ✨ TypeScript 및 필수 런타임 ts-node를 함께 설치합니다.
 
@@ -89,7 +146,18 @@ Babel 통합 설치
 
 프론트엔드 프로젝트의 동적한 세계에서 Babel은 중요한 동료입니다. TypeScript와 Babel을 결합하면 강력한 개발 환경이 구성됩니다. TypeScript 컴파일러는 정적 타입 확인을 처리하고, Babel은 TypeScript 코드를 실행 가능한 JavaScript로 변환합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Babel을 TypeScript와 원활하게 통합하기 위해서는 주요 의존성 패키지 '@babel/preset-typescript'이 필요합니다. 아래 npm 명령어를 실행해주세요:
 
@@ -109,7 +177,18 @@ npm install -D @babel/preset-typescript
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 통합을 통해 TypeScript와 Babel이 손을 맞잡고 프론트엔드 개발 경험을 높여줍니다! 🚀🔧
 
@@ -119,7 +198,18 @@ ESLint 통합 설치 방법
 
 ESLint를 사용하여 TypeScript 코드를 구문 분석하려면 필요한 구문 분석기와 플러그인을 설치하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm install --save-dev @typescript-eslint/parser @typescript-eslint/eslint-plugin
@@ -147,8 +237,18 @@ ESLint 구성 파일 (`.eslintrc.js`)에 다음 옵션을 추가해주세요:
 
 이 구성을 통해 ESLint가 TypeScript 코드를 구문 분석하도록 설정되며, 권장 규칙을 적용하거나 필요에 따라 규칙을 사용자 정의할 수 있습니다. 🧐🔍✨
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## TypeScript 컴파일 구성
 
@@ -158,7 +258,18 @@ TypeScript는 명령줄 매개변수를 사용하여 파일을 컴파일할 수 
 
 초기 단계에서는 기본 `tsconfig.json` 파일이 적절하며, 일반적으로 다음과 같은 기본 컴파일 옵션이 포함됩니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 {
@@ -179,7 +290,18 @@ TypeScript는 명령줄 매개변수를 사용하여 파일을 컴파일할 수 
 
 엄격한 유형 검사 옵션
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 TypeScript을 구성할 때는 프로젝트의 동작을 맞춤화하기 위한 다양한 엄격한 타입 확인 옵션이 있습니다. 여기에 몇 가지 주요 옵션을 안내해드리겠습니다:
 
@@ -197,7 +319,18 @@ TypeScript을 구성할 때는 프로젝트의 동작을 맞춤화하기 위한 
 
 TypeScript가 모듈을 구문 분석하는 방법을 구성하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - moduleResolution: 모듈 해결 전략을 설정합니다 (기본값: 'node' 또는 'classic').
 - baseUrl: 상대적이지 않은 모듈 이름을 해결하기 위한 루트 디렉터리를 지정합니다.
@@ -208,6 +341,7 @@ TypeScript가 모듈을 구문 분석하는 방법을 구성하세요:
 소스 맵 옵션
 
 소스 맵 설정을 세밀하게 조정하세요:
+
 - sourceRoot: 디버거가 소스 파일 대신 TypeScript 파일을 찾을 위치를 지정합니다.
 - mapRoot: 디버거가 생성된 파일 대신 맵 파일을 찾을 위치를 지정합니다.
 - inlineSourceMap: 단일 소스 맵 파일을 생성할지 여부를 결정합니다.
@@ -215,9 +349,21 @@ TypeScript가 모듈을 구문 분석하는 방법을 구성하세요:
 
 기타 옵션
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 추가 구성 옵션을 살펴보세요:
+
 - experimentalDecorators: 데코레이터를 활성화하거나 비활성화합니다.
 - emitDecoratorMetadata: 데코레이터를 위한 메타데이터 지원을 제어합니다.
 
@@ -234,7 +380,18 @@ TypeScript가 모듈을 구문 분석하는 방법을 구성하세요:
 
 이러한 구성 옵션을 사용하여 TypeScript를 프로젝트의 요구 사항에 맞게 정교하게 조정할 수 있어요! 🔧🎛️
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## TypeScript 유형 주석
 
@@ -243,54 +400,108 @@ TypeScript가 모듈을 구문 분석하는 방법을 구성하세요:
 이제 TypeScript 관련 구성에 익숙해졌으니, TypeScript에서 제공하는 기본 유형에 대해 알아봅시다. 다음 비교는 TypeScript 유형과 그 ES6 상당품과의 차이점을 요약합니다:
 
 1. Numeric Type:
-— TypeScript: `number` | ES6: `number`
+   — TypeScript: `number` | ES6: `number`
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 텍스트 유형:
+
 - TypeScript: `string` | ES6: `string`
 
 3. 논리 유형:
+
 - TypeScript: `boolean` | ES6: `boolean`
 
 4. 순차적인 유형:
+
 - TypeScript: `array` | ES6: `array`
 
 5. 정렬된 유형 (튜플):
+
 - TypeScript: ✅ | ES6: ❌
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 6. Enumerated Type (Enum):
+
 - TypeScript: ✅ | ES6: ❌
 
 7. Dynamic Type:
+
 - TypeScript: `any` | ES6: `any`
 
 8. Void Type:
+
 - TypeScript: `void` | ES6: `void`
 
 9. Null Type:
+
 - TypeScript: ✅ | ES6: ❌
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 10. 정의되지 않은 유형:
+
 - TypeScript: ✅ | ES6: ❌
 
 11. Never 유형:
+
 - TypeScript: ✅ | ES6: ❌
 
 이 간단한 형식은 TypeScript와 ES6 모두에 해당 유형이 존재하는지 (✅) 존재하지 않는지 (❌)를 나타냅니다.
 
 TypeScript의 유형 주석은 다른 언어의 유형 선언과 일치합니다. 변수 선언에는 `let`과 `const`를 사용할 수 있으며, 다음 구문을 따릅니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 구문: let 또는 const 변수이름: 데이터타입 = 초기값;
 // 예시:
-let varName: string = '안녕 타입스크립트';
+let varName: string = "안녕 타입스크립트";
 ```
 
 함수 선언에 대해서는 함수 표현식을 사용하는 것이 좋습니다. 또는 화살표 함수를 사용하여 간결함을 높일 수 있습니다:
@@ -301,15 +512,25 @@ let varName: string = '안녕 타입스크립트';
 // // return xx;
 // }
 // 예시:
-let sum = function(num1: number, num2: number): number {
- return num1 + num2;
-}
+let sum = function (num1: number, num2: number): number {
+  return num1 + num2;
+};
 ```
 
 이 구조는 TypeScript의 타입 주석, 변수 선언 및 함수 표현식에 대한 논리적 개요를 제공하며, 명확성을 위해 이모지로 장식되어 있습니다. 🌟
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## TypeScript 특수 타입
 
@@ -319,7 +540,18 @@ TypeScript의 기본 타입 사용은 다른 백엔드 언어와 일치합니다
 
 `any`는 TypeScript에서 독특한 위치를 차지하며 타입 시스템에서 "백도어" 역할을 합니다. 이것은 타입 확인을 비활성화하여 모든 타입과의 호환성을 가능케 합니다. 그러나 타입 안전성을 유지하기 위해 `any`에 대한 의존을 최소화해야 하며, 특정 문제를 해결하는 경우를 제외하고 사용해야 합니다. `any`를 사용하면 TypeScript 컴파일러에 타입 확인을 건너뛰도록 지시합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 임의의 값 유형은 `Object`과 유사하지만 `Object` 유형의 변수가 다양한 값 할당을 허용하는 반면에 해당 메서드는 호출할 수 없습니다.
 
@@ -329,7 +561,18 @@ TypeScript의 기본 타입 사용은 다른 백엔드 언어와 일치합니다
 
 `null`과 `undefined`는 모든 유형의 하위 유형으로, 모든 유형의 변수에 할당할 수 있습니다. `strictNullChecks` 구성을 활성화하면 `void` 및 스스로에 대한 할당이 제한됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 열거형 🌌
 
@@ -346,7 +589,18 @@ enum SendType {
 
 `never` 유형 🎭
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `never` 타입은 복잡한 상황에서 사용됩니다. 예외가 발생하거나 정상적으로 종료되지 않을 수 있는 함수에서 나타납니다.
 
@@ -355,10 +609,21 @@ enum SendType {
 배열과 유사하게, 튜플 유형은 서로 다른 유형의 요소를 허용합니다.
 
 ```js
-let row: [number, string, number] = [1, 'hello', 88];
+let row: [number, string, number] = [1, "hello", 88];
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인터페이스 🎨
 
@@ -368,7 +633,18 @@ TypeScript의 인터페이스는 읽기 전용 속성, 선택적 속성 및 상�
 
 타입 별칭은 유니언 타입, 튜플 타입, 함수 타입, 객체 타입 및 교차 타입을 지원하는 타입 주석을 위한 별칭을 설정하는 편리한 방법을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 네임스페이스 🌐
 
@@ -392,7 +668,18 @@ namespace Validation { // 같은 네임스페이스
 
 제네릭 🧬
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일반적으로 사용되는 이몽다는 서로 다른 유형과 함께 작업하는 코드를 작성할 수 있게 합니다. 클래스 멤버, 메소드 매개변수 및 함수 반환값에 유용합니다.
 
@@ -417,7 +704,18 @@ strQueue.push('1');
 
 타입 단언은 개발자가 값을 수동으로 유형으로 지정할 수 있게 해주며 컴파일러에게 어떤 유형이어야 하는지 전달하는 방법을 제공합니다. `대상 유형`, `as T`, `!` (null이 아님 타입 단언)과 같은 다양한 구문 형식은 다양한 시나리오에 맞게 제공됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // Type assertions
@@ -437,7 +735,18 @@ let immutableValue = 'hello' as const;
 - 🏗️ 범위: 실무에 기반한 기본 사용법과 기본 지식.
 - 🧠 한계: 아키텍처 설계에 대한 심화 분석은 이루어지지 않으며, 열성적인 사람들을 위한 오프라인 소통을 권장합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 💡 TypeScript 능숙도의 장점:
 

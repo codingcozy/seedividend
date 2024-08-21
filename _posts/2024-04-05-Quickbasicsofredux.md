@@ -3,17 +3,13 @@ title: "리덕스의 기본 사항을 빠르게 알아보자"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Quick basics of redux"
 link: "https://medium.com/@devi.u/quick-basics-of-redux-acd2ec20a709"
 isUpdated: true
 ---
-
-
-
-
 
 React -Ui 라이브러리
 Redux -상태 관리 라이브러리
@@ -31,7 +27,18 @@ Redux의 3가지 핵심 개념
 2. 상태를 변경하는 유일한 방법은 액션을 발행하는 것으로, 일어난 일을 설명하는 객체(앱의 상태를 업데이트하려면 리덕스에 액션 내에서 알려줘야 하며, 상태 객체를 직접 업데이트하는 것은 허용되지 않음).
 3. 액션에 의해 변환된 상태 트리를 지정하려면 순수 리듀서를 작성하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리듀서 (가게주인)
 
@@ -50,7 +57,18 @@ const reducer = (state, action) => {
 
 리듀서 : 상태와 액션을 매개변수로받아 애플리케이션의 다음 상태를 반환하는 함수입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 리덕스 스토어 :
 

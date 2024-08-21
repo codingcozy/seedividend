@@ -3,17 +3,13 @@ title: "React19, 컴파일러의 수동 메모이제이션을 제거하다"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "React Compiler Say Goodbye to Manual Memoization"
 link: "https://medium.com/@tanmaythole/react-compiler-say-goodbye-to-manual-memoization-13a0fdfeaeab"
 isUpdated: true
 ---
-
-
-
-
 
 ![ReactCompilerSayGoodbyetoManualMemoization_0.png](/assets/img/ReactCompilerSayGoodbyetoManualMemoization_0.png)
 
@@ -23,7 +19,18 @@ React 컴파일러는 프레임워크의 진화에 중요한 한걸음을 나아
 
 이 블로그에서는 곧 출시될 React 컴파일러에 대해 깊이 알아보고, 동작 방식 및 React에서 바뀌는 점에 대해 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # React 19에서 리액트 컴파일러가 출시되나요?
 
@@ -33,7 +40,18 @@ React 컴파일러는 프레임워크의 진화에 중요한 한걸음을 나아
 
 ![이미지](/assets/img/ReactCompilerSayGoodbyetoManualMemoization_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # React 컴파일러
 
@@ -43,7 +61,18 @@ React 컴포넌트가 상태 또는 프롭이 변경될 때 불필요하게 다�
 
 ## React 컴파일러로 무엇이 정확히 변경되나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 답변은 — 이제 모든 것이 메모이제이션됩니다. React 컴파일러는 일반적인 React 코드를 모두 메모이제이션된 코드로 변환합니다. 모든 코드 블록, 컴포넌트 및 훅이 자동으로 메모이제이션됩니다.
 
@@ -61,7 +90,18 @@ const Login = () => {
 
 위의 코드는 컴파일러에 의해 내부적으로 메모이제이션됩니다. React 컴파일러는 onSubmit 함수와 LoginForm 컴포넌트를 각각 useCallback과 React.memo를 사용하여 감쌀 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const LoginForm = React.memo(LoginFormComponent);
@@ -81,7 +121,18 @@ React 핵심 팀 중 한 멤버가 제시한 비디오를 참고하시면, 컴�
 
 ## 불필요한 자식 요소의 재랜더링 없음:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현재, 부모 컴포넌트가 다시 렌더링될 때 모든 자식 컴포넌트도 다시 렌더링됩니다. 그러나 자식 프롭스는 변경되지 않습니다. 예를 들어:
 
@@ -107,7 +158,18 @@ const App = () => {
 
 이러한 불필요한 다시 렌더링을 피하기 위해 개발자는 모든 자식 컴포넌트를 메모이즈 할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const MemoizedChild = React.memo(Child);
@@ -134,7 +196,18 @@ const App = () => {
 
 이전 예제에서 상태가 변경될 때 모든 하위 컴포넌트가 다시 렌더링됩니다. 이상적으로는 h1 및 button과 같이 영향을 받는 컴포넌트만 다시 렌더링되어야 합니다. 이러한 불필요한 다시 렌더링을 줄이기 위해 코드를 분할하는 구성 패턴을 따르는 state를 내려주기와 같은 방법을 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 상태가 내려간 컴포넌트
@@ -168,7 +241,18 @@ const App = () => {
 
 때로 최적화 기술은 React 코드의 가독성에 영향을 미칠 수 있습니다. 메모화 개념을 많이 사용하면 코드 품질을 향상시킬 수 있지만 가독성이 떨어지고 코드 라인 수가 증가할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, 메모이제이션을 사용한 다음의 최적화된 컴포넌트를 살펴보세요:
 
@@ -185,12 +269,7 @@ const Button = () => {
   }, []);
 
   return (
-    <button
-      type="button"
-      onClick={changeColor}
-      onPointerEnter={changeColor}
-      style={{ backgroundColor: bgColor }}
-    >
+    <button type="button" onClick={changeColor} onPointerEnter={changeColor} style={{ backgroundColor: bgColor }}>
       색상 변경
     </button>
   );
@@ -201,7 +280,18 @@ const Button = () => {
 
 동일한 컴포넌트의 더 가독성있는 버전은:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const Button = () => {
@@ -226,7 +316,18 @@ React 컴파일러의 출시 이후에는 함수를 컴포넌트 상단으로 �
 
 React 팀의 최신 업데이트에 따르면 React 컴파일러는 더 이상 연구 프로젝트가 아니라 인스타그램의 프로덕션 환경에서 이미 사용 중이라고 합니다. 코드 기반으로 된 프로덕션 애플리케이션에서 컴파일러를 활용함으로써 안정성과 효율성을 입증하고 있습니다. React 팀은 이를 Meta의 더 많은 플랫폼으로 확대하고 최종적으로 미래에 오픈 소스로 공개할 계획입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론:
 
@@ -236,7 +337,18 @@ React 팀의 최신 업데이트에 따르면 React 컴파일러는 더 이상 �
 
 팔로우하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 GitHub: https://github.com/tanmaythole
 
@@ -248,6 +360,17 @@ LinkedIn: https://www.linkedin.com/in/tanmay-thole-b82978175/
 - https://www.youtube.com/watch?v=qOQClO3g8-Y
 - https://www.youtube.com/watch?v=kjOacmVsLSE
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 읽어 주셔서 감사합니다! 코딩 즐기세요! 👨🏽‍💻

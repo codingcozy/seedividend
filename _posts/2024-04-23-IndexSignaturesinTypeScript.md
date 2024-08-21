@@ -3,17 +3,13 @@ title: "TypeScript에서의 인덱스 시그니처"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Index Signatures in TypeScript"
 link: "https://medium.com/@szaranger/index-signatures-in-typescript-ccfffc097913"
 isUpdated: true
 ---
-
-
-
-
 
 인덱스 시그니처는 우리가 익숙하지 않은 속성을 포함하는 객체를 다루는 데 적합한 방법을 제공합니다. 그 구문은 일반적인 속성을 설명하지만, 표준 속성 이름 대신 키의 유형과 속성을 정의합니다.
 
@@ -39,7 +35,18 @@ const utilityBill3 = {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해당 합계를 계산하는 함수를 만들어보세요.
 
@@ -57,7 +64,18 @@ function calculateBillTotal(utilityBill: { [key: string]: number }) {
 
 문제를 해결하기 위해 인덱스 시그니처를 사용할 수 있습니다. 다음과 같은 형태를 가지고 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 { [키: string]: number }
@@ -77,7 +95,18 @@ function calculateBillTotal(utilityBill: { [키: string]: number }) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 TypeScript에게 utilityBill이 문자열 유형인 키와 숫자 유형인 값으로 구성된 객체여야 한다고 알려줍니다. 이렇게 함으로써 calculateBillTotal 함수에 utilityBill1, utilityBill2 및 utilityBill3 중 어느 것이라도 함수의 인수로 전달될 수 있습니다.
 
@@ -100,7 +129,18 @@ calculateBillTotal(utilityBill);
 
 💡 인덱스 시그니처는 키 유형으로 문자열, 숫자 또는 심볼만을 허용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 존재하지 않는 속성
 
@@ -123,7 +163,18 @@ phoneBill; // 👉🏻 undefined 💥
 
 이 예에서 TypeScript는 경고를 표시하지 않습니다. 인덱스 시그니처는 단순히 키 유형을 값 유형에 매핑하기 때문입니다. 따라서 UtilityBill 유형을 올바르게 주석 처리해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 type UtilityBill = {
@@ -144,7 +195,18 @@ type UtilityBill = {
 
 # Mapped Types
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Mapped Types은 인덱스 시그니처를 사용하여 리터럴 문자열의 유니언에 속하는 인덱스 문자열을 강제로 지정할 수 있게 합니다.
 
@@ -158,7 +220,18 @@ type UtilityBill = { [k in Utilities]: number };
 
 인덱스 시그니처와 유사하게, TypeScript에는 레코드를 주석 처리하는 유틸리티 타입 Record<Keys, Type>이 있습니다. 우리는 더 정확한 유형으로 UtilityBill 타입을 주석 처리하기 위해 Record<Keys, Type>을 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 유틸리티 타입을 정의하고 필요한 값을 할당할 수 있는 유틸리티 빌 객체가 있어요.

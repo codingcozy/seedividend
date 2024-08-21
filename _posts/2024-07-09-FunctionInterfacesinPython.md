@@ -3,15 +3,13 @@ title: "파이썬에서 함수 인터페이스 사용하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-FunctionInterfacesinPython_0.png"
 date: 2024-07-09 20:34
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-FunctionInterfacesinPython_0.png
 tag: Tech
 originalTitle: "Function Interfaces in Python"
 link: "https://medium.com/towards-data-science/function-interfaces-in-python-4846ede71cd9"
 isUpdated: true
 ---
-
-
 
 ## 파이썬 프로그래밍
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 추상 베이스 클래스(ABC)와 타입 프로토콜은 다른 프로그래밍 언어에서의 인터페이스와 비슷한 클래스의 구조 및 행동을 정의하는 파이썬의 메커니즘으로 작용합니다. 파이썬 자체는 이 기능을 설명하기 위해 공식적으로 "인터페이스"라는 용어를 사용하지는 않지만, 파이썬의 "프로토콜"이 제공하는 내용과 밀접한 개념입니다. 사실, typing 모듈에 typing.Protocol이 추가되기 전에 파이썬에서 "프로토콜"이라는 용어가 인터페이스를 설명하는 데 사용되었습니다. 따라서 파이썬의 동적 특성은 동적 인터페이스의 생성을 허용하고, 타입 힌트와 타입 프로토콜은 정적 확인 관점에서 인터페이스의 명세를 용이하게 합니다. 이에 대해 이 기사에서 논의하겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 추상 기본 클래스와 타이핑 프로토콜은 주로 사용자 정의 클래스를 만들 때 고려됩니다: 사용자가 특정 구조와 동작을 갖는 클래스를 구현해야 할 때 추상 기본 클래스나 프로토콜을 만들 수 있습니다. ABC(추상 기본 클래스)는 클래스와 함께 작동하지만 타이핑 프로토콜은 ABC가 제공하지 않는 기능 인터페이스를 제공합니다.
 
@@ -31,7 +40,18 @@ isUpdated: true
 
 파이썬 타입 힌트는 클래스에 대한 인터페이스 사양에 대한 직접적인 지원은 제공하지 않습니다. 그러므로 함수에 대한 클래스와 함수에 대해 동일한 방식으로 작동하지 않습니다. 따라서 파이썬에서 함수 인터페이스를 이해하기 위해서는 클래스 인터페이스와 다르게 취급할 것을 기억해야 합니다. 이 구분의 중요한 결과는 파이썬에서 클래스 인터페이스를 정의하는 주요 도구인 추상 기본 클래스가 함수 인터페이스를 정의하는 데 직접적으로 적용되지 않는다는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 글은 함수 인터페이스에 대해 논의하고 있어요. Python에서는 함수와 호출 가능한(callable) 객체 간에 명확한 구분이 없다는 것에 주목해주세요. 호출 가능한 객체에 대해 더 알고 싶다면 여기를 참고해보세요:
 
@@ -41,7 +61,18 @@ isUpdated: true
 
 # 함수 인터페이스란 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 함수 인터페이스는 함수의 기대 서명을 정의합니다: 입력(인수 및 유형) 및 출력(반환 유형).
 
@@ -51,7 +82,18 @@ isUpdated: true
 
 물론, 이 설명은 Python에서 유효한 함수 인터페이스에 필요한 구문을 사용하지는 않습니다. 이 기사에서는 이러한 개념적 함수 인터페이스를 형식적인 Python 함수 인터페이스로 번역하는 방법을 보여드리겠습니다. 바로 타입 힌트와 타입 프로토콜을 사용하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 파이썬에서 함수 인터페이스는 어떻게 사용되나요?
 
@@ -61,7 +103,18 @@ isUpdated: true
 
 함수 인터페이스의 일반적인 사용법을 다음과 같은 주요 측면으로 분해할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 문서화. 기능 인터페이스는 함수를 설명하는 가독성 좋은 방법을 제공하여 문서의 품질을 향상시킵니다. 함수의 기대되는 입력 유형과 반환 유형을 명확하게 표시하여 코드의 예상 동작을 이해하는 데 도움이 됩니다. 즉, 구현 세부 사항을 분석하지 않고도 개발자가 코드의 예상 동작을 이해하는 데 도움이 됩니다.
 - 코드 가독성. 동일한 이유로, 함수 인터페이스는 함수에 관한 정보의 명확성 덕분에 코드의 가독성을 높입니다.
@@ -73,7 +126,18 @@ isUpdated: true
 
 함수 인터페이스를 구현한다는 것은 무엇을 의미할까요? 간단히 말해서, 함수 인터페이스를 구현하는 Python 함수는 인터페이스가 정의한 시그니처를 가져야 합니다. 예를 들어, 앞에서 설명한 인터페이스를 고려해보겠습니다. 이 인터페이스를 구현하려면, 함수는 두 개의 인수를 정확히 — 그리고 오직 두 개의 인수만 — 가져야 하며, 이 인수들은 둘 다 부동 소수점수여아 하고 부동 소수점수를 반환해야 합니다. 이러한 함수만이 이 인터페이스를 구현합니다. 따라서 세 개의 부동 소수점수를 인수로 받는 함수가 있다면 이 인터페이스를 구현하지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 글에서는 함수 인터페이스 용어를 사용합니다. 그러나 이미 언급했듯이 Python은 실제적인 관점에서 콜러블(callables)과 함수를 구별하지 않습니다. 기술적으로 클래스¹, 호출 가능 클래스, 함수, 부분 함수 및 익명 함수와 같은 다양한 유형의 콜러블을 만날 수 있습니다. 그러나 이 중 어느 것을 호출하더라도 차이를 알 수 없을 것입니다: 모두 동일한 방식으로 호출됩니다.
 
@@ -83,7 +147,18 @@ isUpdated: true
 
 # 타입 힌트를 사용한 함수 인터페이스
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 함수 인터페이스를 구현하는 가장 간단하고 기본적인 방법은 타입 힌트를 사용하는 것입니다. 그러므로 직접 타입 힌트를 사용하거나 필요한 인터페이스를 나타내는 타입 별칭을 생성할 수 있습니다. 타입 별칭은 가독성을 높일 수 있으며, 별칭을 통해 인터페이스에 이름을 부여할 수 있습니다.
 
@@ -97,7 +172,18 @@ ThreeFloatCallable = Callable[[float, float], float]
 
 이 타입 힌트를 해석해봅시다: ThreeFloatCallable은 2개의 부동소수점 숫자를 입력으로 받아 부동소수점 숫자를 반환하는 callable입니다. 이것이 바로 우리가 정의하고자 했던 인터페이스입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해당 인터페이스를 사용하는 방법은 어떤가요? 예를 들어, 이 인터페이스를 구현하는 함수를 입력으로 받는 다른 함수를 구현할 수 있습니다:
 
@@ -121,7 +207,18 @@ def call_threefloats(
     return func(x, y)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 두 정의는 함수(기술적으로는 호출될 수 있는 함수)를 예상하며, 다음 인터페이스를 구현하는 함수를 요구합니다: Callable[[float, float], float].
 
@@ -147,7 +244,18 @@ call_threefloats(1., 1.5, add)
 
 함수 add는 ThreeFloatCallable 인터페이스를 구현하므로 mypy는 이 코드에서 문제를 발견하지 않을 것입니다. 그러나 add() 함수를 다음과 같이 변경하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 def add(x: int, y: float) -> float:
@@ -166,7 +274,18 @@ call_threefloats(1, 1.5, add)
 
 보시는 바와 같이, mypy는 우리가 정의한 형식 별칭(ThreeFloatCallable)을 사용하지 않고 전체 유형을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 동일한 함수 인터페이스를 호출 가능한 클래스를 사용하여 구현해 봅시다:
 
@@ -184,7 +303,18 @@ call_threefloats(1, 1.5, Adder())
 call_threefloats(1, 1.5, Adder);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음과 같은 정적 오류가 발생합니다:
 
@@ -198,7 +328,18 @@ Adder 클래스의 메서드 중 하나인 **call**()만 구현했지만, 필요
 
 ## typing.Callable의 한계
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 typing.Callable 구문은 그 한계가 있습니다. 예를 들어, 두 개의 실수 인자와 추가 선택적 위치 및 키워드 인자를 사용하여 float를 반환하는 함수를 구현해야 할 때 어떻게 해야 할지 어려움이 있습니다.
 
@@ -208,7 +349,18 @@ typing.Callable 구문은 이를 자연스럽게 처리할 수 있는 방법을 
 
 typing.Protocol을 사용하여 두 개의 함수 인터페이스를 구현해 봅시다. 먼저, 선택적 인자 없이 한 경우부터 시작합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 from typing import Protocol
 
@@ -230,7 +382,18 @@ kwargs: Any
 
 이것들은 선택적 인수입니다. 그러나 이 인터페이스를 구현하는 함수는 이러한 선택적 인수를 반드시 가져야 합니다. 따라서 이 함수는 이 인터페이스를 구현합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 def implements(
@@ -262,7 +425,18 @@ def implements_not_only_kwargs(
 
 보는 바와 같이 인터페이스가 정의한 것과 정확히 동일한 서명을 사용해야 합니다: 동일한 수의 인수, 동일한 유형의 인수 및 동일한 반환 값 유형을 가져야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인수 이름은 중요하지 않습니다. 중요한 것은 유형입니다. 따라서, 다음 두 함수 모두 ThreeFloatCallable 인터페이스를 구현합니다. 첫 번째 함수만 인터페이스와 동일한 인수 이름을 사용하지만 다음 함수도 그것을 구현합니다:
 
@@ -281,7 +455,18 @@ def add_named(*, x: float, y: float) -> float:
     return x + y
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음과 같은 오류 메시지가 표시됩니다:
 
@@ -300,7 +485,18 @@ def add_a_positional(a: float, /, b: float) -> float:
 call_threefloats(1, 1.5, add_a_positional)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `add_a_positional()` 함수는 ThreeFloatCallable 인터페이스를 구현합니다. 이 함수에서 a는 위치 전용 인자이지만 b는 위치 지정 또는 이름 지정 모두 가능합니다.
 
@@ -310,7 +506,18 @@ call_threefloats(1, 1.5, add_a_positional)
 
 typing.Protocol을 사용하여 함수 인터페이스를 생성하고 pylint을 사용하는 경우, 일반적으로 R0903 경고가 발생할 수 있습니다: Too few public methods (x/y), 여기서 x/y의 x와 y는 각각 실제 및 예상하는 공개 메서드 수를 나타냅니다. 이 경고는 클래스가 적절하게 설계되지 않았을 가능성을 제안합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나, 이 권장 사항은 항상 typing.Protocol의 사용 사례와 일치하지는 않습니다. 함수 인터페이스는 여기에 해당하는 예시입니다: 대부분의 경우에는 **call**이라는 단일 메소드를 정의하고 다른 것은 필요하지 않습니다.
 
@@ -338,7 +545,18 @@ class StrFloatStr(Protocol):
 # pylint: enable=too-few-public-methods
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 코드의 특정 부분에서이 경고를 억제 할 수 있습니다. 예를 들어 typing.Protocol을 사용하여 여러 함수 인터페이스를 정의하는 곳에서이를 할 수 있습니다.
 
@@ -360,7 +578,18 @@ disable = [
 ]
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 마지막으로, 경고 메시지를 전역적으로 무시할 수 있습니다. 이것은 자주 typing.Protocol을 사용하여 함수 인터페이스를 정의할 때 유용할 수 있지만, 주의하십시오. 만약 함수 인터페이스 외의 다른 유형의 인터페이스를 정의할 때에도 typing.Protocol을 사용한다면, 모든 인터페이스에 대해 경고가 무시될 것입니다. .pylintrc 구성 파일에서 [MESSAGES CONTROL] 섹션 아래의 disable 목록에 too-few-public-methods를 추가하여 이를 수행할 수 있습니다:
 
@@ -373,7 +602,18 @@ disable=too-few-public-methods,
 
 # 인터페이스의 간접 구현
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 번 이상 다음과 같은 문제를 마주쳤습니다. 특정 인터페이스를 인수와 키워드 인수 없이 함수에 제공해야 하는데, 사용하려는 함수는 인수와 키워드 인수를 사용합니다. 어떻게 해야 할까요?
 
@@ -396,7 +636,18 @@ def func_of_squares(
 
 그러나 ThreeFloatCallable로 사용해야 하는 함수의 시그니처가 호환되지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 def model(
@@ -418,7 +669,18 @@ model() 함수를 func_of_squares() 함수의 func 인자로 직접 사용할 �
 
 이것이 우리가 따를 방향입니다. 일부 인수의 값이 고정된 함수를 부분 함수(partial functions)라고 합니다. 오늘은 이 주제를 자세히 다루지 않겠습니다. 별도의 기사가 필요한 만큼 우리의 작업에 집중합시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ThreeFloatCallable 타입을 따르는 부분 함수를 만들어야 합니다. 이를 여러 가지 방법으로 할 수 있습니다. 예를 들어, 다음과 같이 래퍼 함수를 정의할 수 있습니다:
 
@@ -431,7 +693,18 @@ def modelwrapper_raw(x: float, y: float) -> float:
 
 modelwrapper_raw() 함수가 ThreeFloatCallable 인터페이스를 구현한다는 것에 유의하세요! 따라서 이 부분 함수를 func_of_squares()에서 사용할 수 있습니다. 이 곳에서 mypy는 오류를 주장하지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 func_of_squares((x = 1.5), (y = 2.34), (func = modelwrapper_raw()));
@@ -452,7 +725,18 @@ modelwrapper_partial = partial(
 )
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `modelwrapper_partial()`은 ThreeFloatCallable 타입의 부분 함수이므로 `func_of_squares()`에서 func로 사용할 수 있습니다. 다시 말하지만, mypy는 불평하지 않을 겁니다:
 
@@ -471,7 +755,18 @@ func_of_squares((x = 1.5), (y = 2.34), (func = modelwrapper_partial));
 <class 'functools.partial'>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 동일한 방식으로 mypy가 람다 문을 사용하여 생성된 다음 함수에 대해 불평하지 않을 것입니다:
 
@@ -483,7 +778,18 @@ modelwrapper_lambda = lambda x, y: model(x, y, 1, 1, 1)
 
 재미있게도 functools.partial이나 익명 (람다) 함수를 사용하여 만든 부분 함수는 타입 힌트를 가지지 않습니다. 특히 부분 함수는 주석을 상속하지 않으며, 따라서 본래 부분화할 함수인 foo에 주석이 달린 경우에도 **annotations** 속성이 비어 있습니다. 하지만 functools.partial(foo, ...)는 **annotations** 속성을 전혀 갖지 않을 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서 정적 체커는 왜 에러를 발생시키지 않을까요? 왜 부분 함수가 어노테이션이 없어도 인터페이스를 구현할 수 있을까요?
 
@@ -499,7 +805,18 @@ modelwrapper_lambda()에서도 비슷한 상황을 볼 수 있습니다: **annot
 {}
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 여러분들이 원하는 방식으로 사용해야 하는 함수가 필요한 인터페이스를 구현하지 않을 때 유용한 해결책을 이 섹션에서 제시하고 있습니다. 이 해결책은 간단하며 이런 시나리오에서 대부분의 경우에 충분합니다.
 
@@ -507,7 +824,18 @@ modelwrapper_lambda()에서도 비슷한 상황을 볼 수 있습니다: **annot
 
 타입 힌트는 Python 3.5에서 PEP 484의 일부로 소개되었습니다. 그 이후로 Python 타입 힌트 시스템은 크게 개선되었으며, 각 새로운 Python 버전에서 타입 힌트에 중요한 변화가 도입되고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 맨 처음부터 Python이 동적 프로그래밍 언어로 개발된 것을 잊어서는 안 됩니다.
 
@@ -525,7 +853,18 @@ call_threefloats(1.1, 1.4, add)
 
 동적으로 이 코드는 완벽하게 작동할 것입니다. 왜냐하면 add() 함수가 func 인자의 인터페이스를 구현하기 때문입니다. 그러나 아래 코드 또한 동적으로 작동할 것입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 def add_and_do_sth(x, y, *args, **kwargs):
@@ -541,7 +880,18 @@ call_threefloats(1.1, 1.4, add_and_do_sth)
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 함수 인터페이스는 함수를 일급 시민으로 다룰 때 특히 유용합니다. 그래서 매개변수로 전달하거나 함수와 메서드에서 반환되고, 심지어 수정되거나 삭제될 수 있는 다른 객체들처럼 사용됩니다. 그러나 함수 인터페이스는 코드 개발자와 코드 사용자 모두에게 도움이 되는 더 넓은 주제라는 것을 이해하셨죠.
 
@@ -552,7 +902,18 @@ call_threefloats(1.1, 1.4, add_and_do_sth)
 
 이들이 어떻게 작동하는지 보여주는 것 외에도, 우리는 다음 질문에 대한 답변을 원했습니다: Python에서 함수 인터페이스를 정의하기 위해 타입 힌트를 사용해야 할까요, 아니면 타입 프로토콜을 사용해야 할까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 죄송하지만 단 하나의 정답만 제공할 수는 없습니다. 선택할 메소드는 두 가지에 달려있어요: 만들어야 하는 인터페이스의 간단함과 당신의 선호도에 따라 달라져요.
 
@@ -566,7 +927,18 @@ ThreeFloatCallable = Callable[[float, float], float]
 
 이 코드는 명확해요. 하지만 복잡한 인터페이스는 가독성이 떨어질 수 있어요. Python 문서에서 가져온 다음 예제를 살펴봅시다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Function Interfaces in Python](/assets/img/2024-07-09-FunctionInterfacesinPython_1.png)
 
@@ -585,7 +957,18 @@ BroadCastFunction = Callable[[str, Sequence[Server]], None]
 
 또는, 타입 별칭을 사용하지 않는 경우:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 BroadCastFunction = Callable[
 [str,
@@ -612,7 +995,18 @@ servers: Sequence[Server]
 
 or
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 from typing import Protocol, Sequence
@@ -635,7 +1029,18 @@ class BroadcastMessage(Protocol):
 
 이것은 비교적 자주 발생하는 시나리오이지만, 타입 힌트를 사용할 수 없거나 (명확성을 위해서든지) 사용하고 싶지 않은 상황이 더 많을 수 있어요. 이러한 상황의 예시는 아래와 같아요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 입력 유형에 따라 반환 유형 지정
 - 인터페이스에 추가 함수 속성 포함
@@ -648,7 +1053,18 @@ class BroadcastMessage(Protocol):
 
 Python에서 함수 인터페이스는 함수를 일급 시민으로 다루기 시작할 때 특히 중요해집니다. 일반적으로 함수를 인수로 전달하거나 다른 함수에서 반환할 때 이렇게 합니다. 데코레이터 및 다른 클로저를 포함한 예가 있습니다. 그런 다음 함수 인터페이스가 중요해지는데, 이를 통해 함수의 입력 및 출력 값을 정확히 정의할 수 있습니다. 솔직히 말해서, 이러한 인터페이스는 함수의 동작을 정의하지 않고, 그렇게 하지 않아야 합니다. 그러나 이러한 함수를 호출하는 방법 및 반환 값 처리 방법을 명시하므로 함수 인터페이스가 정확히 지정해야 하는 내용입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Markdown 형식으로 테이블 태그를 변경합니다.
 

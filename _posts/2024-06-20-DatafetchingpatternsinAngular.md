@@ -3,16 +3,13 @@ title: "앵귤러에서의 데이터 가져오기 패턴"
 description: ""
 coverImage: "/assets/img/2024-06-20-DatafetchingpatternsinAngular_0.png"
 date: 2024-06-20 00:10
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-DatafetchingpatternsinAngular_0.png
 tag: Tech
 originalTitle: "Data fetching patterns in Angular"
 link: "https://medium.com/medialesson/data-fetching-patterns-in-angular-185da4cfbcde"
 isUpdated: true
 ---
-
-
-
 
 쥬타오 취(邱俊涛)는 최근 마틴 파울러의 웹사이트에 싱글 페이지 애플리케이션에서의 데이터 패칭 패턴에 관한 기사를 게시했어요. 꼭 읽어보길 추천하는데, 모든 예시는 React나 순수 JavaScript를 사용해요. 이어서 나오는 내용에서는 모든 설명된 패턴들을 Angular 애플리케이션에 적용하는 방법을 볼 거에요. Angular와 React 간의 알려진 차이 때문에 결과가 많이 다르게 나타나요.
 
@@ -22,7 +19,18 @@ React는 라이브러리로서 자신을 소개하지만, Angular는 웹 프레�
 
 # 조금 다른 프로필 컴포넌트
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 설명된 소스 코드는 Angular 애플리케이션에 내장되어 있으며 Codeberg에서 사용할 수 있습니다.
 
@@ -32,7 +40,18 @@ Juntao Qiu는 프로필 구성 요소를 구현하는데, 사용자의 ID를 매
 
 Angular의 HTTP 클라이언트의 주요 차이점 중 하나는 다른 구현과 비교했을 때 각 메서드가 RxJS Observable을 반환한다는 것입니다. RxJS는 반응형 프로그래밍을 위한 라이브러리로, Node.js와 TypeScript와 함께 Angular의 주요 종속성입니다. 이렇게 함으로써, Angular은 네트워크 요청을 만들 때 반응형 프로그래밍을 권장하지만 강제하지는 않는다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 물론, 다른 HTTP 클라이언트를 사용할 수도 있습니다. 또는 Observables를 Promises로 변환하고 Juntao Qiu의 구현을 약간 수정할 수도 있습니다. 그러나 두 경우 모두 몇 가지 이점을 잃게 될 것입니다. 예를 들어 Angular의 HTTP 클라이언트를 사용하면 쉽게 인터셉터를 사용할 수 있습니다. 또한 Observables은 취소할 수 있어서 소홀히 여길 수 없는 장점입니다. 애플리케이션의 다른 페이지로 빠르게 이동하는 사용자를 상상해보세요. Promises는 트리거하는 구성 요소가 이미 파괴되었더라도 네트워크 요청을 계속하므로 무언가를 반환할 때까지 지속됩니다.
 
@@ -42,7 +61,18 @@ Angular의 HTTP 클라이언트의 주요 차이점 중 하나는 다른 구현�
 
 이 패턴의 일반적인 아이디어를 이해하려면 Juntao Qiu의 비동기 상태 핸들러 섹션을 읽어보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비동기 상태 핸들러의 아이디어는 비동기 작업을 명시적인 로딩 및 오류 상태와 결합하는 것입니다. 비동기 작업이 진행 중인 경우 상태는 로딩입니다. 작업은 오류 상태로 또는 작업의 실제 결과와 함께 끝납니다. 일반적인 작업 결과 T를考える 때, 비동기 상태 핸들러는 T 또는 `로딩` 또는 `오류`를 반환하는 함수입니다. 유니언 타입을 사용하면 결과가 항상 정확히 하나의 상태임을 강조합니다. 로딩 및 오류 상태를 나타내는 문자열 리터럴 타입을 사용하면 간단하지만 설명적입니다. 필요한 경우 다른 타입으로 대체할 수도 있습니다.
 
@@ -52,7 +82,18 @@ Angular의 HTTP 클라이언트의 주요 차이점 중 하나는 다른 구현�
 
 우리는 커스텀 RxJS 오퍼레이터로 Angular에서 비동기 상태 핸들러를 구현할 수 있습니다. 간단한 용어로, 오퍼레이터는 observable 형태의 임의의 비동기 작업을 입력 매개변수로 받습니다. 구독할 때 즉시 로딩 상태를 발행합니다. 비동기 작업이 완료되면 결과를 반환합니다. 무언가 잘못되면 오류 상태를 반환합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 function toAsynchronousStateHandler<T, R>(
@@ -85,7 +126,18 @@ protected readonly user$: Observable<UserResponse | 'loading' | 'error'> =
 
 컴포넌트의 마크업에서는 Asynchronous State Handler의 현재 유형을 결정하기 위해 협소화(narrowing)를 사용할 수 있습니다. 이는 순수 TypeScript와 거의 유사합니다. 사용자 Observable에 구독하여 초기 가져오기를 초기화하고, 구독 취소로도 중지할 수 있습니다. Angular의 비동기 파이프(async pipe) 덕분에 사용자 Observable을 수동으로 구독하고 취소할 필요가 없습니다. 컴포넌트가 렌더링된 후 자동으로 구독하며, 컴포넌트가 파괴될 때 HTTP 요청을 취소할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 @if (user$ | async; as user) {
@@ -110,7 +162,7 @@ export function toAsynchronousStateHandler<T, R>(
 ) {
   return function (source: Observable<T>) {
     return combineLatest([
-     source, 
+     source,
      reloadTrigger.pipe(startWith(void 0))
  ]).pipe(
       switchMap(([value, _]) =>
@@ -126,8 +178,18 @@ export function toAsynchronousStateHandler<T, R>(
 
 프로필 구성요소에서는 값을 발행할 수 있는 표준 Subject를 사용하고 있습니다. 이를 연산자에 전달하고 해당 Subject의 next() 함수를 사용하여 다시 가져오기를 트리거할 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```javascript
 private readonly refetchTrigger$$ = new Subject<void>();
@@ -154,8 +216,18 @@ protected onRefetch() {
 
 이름 그대로, 병렬 데이터 가져오기 패턴은 데이터를 병렬로 가져오는 것을 다룹니다. 이를 통해 요청 폭포를 줄일 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Angular에서 병렬 데이터 가져오기 구현
 
@@ -180,7 +252,18 @@ protected readonly dataRequest$ = this.activatedRoute.params.pipe(
 );
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마크업에서는 여전히 우리의 비동기 데이터 요청의 현재 유형(또는 상태)을 결정하기 위해 narrowing을 사용합니다. 로딩 중이거나 오류 상태가 아닌 경우에는 forkJoin 연산자에 전달한 구조에 안전하게 접근할 수 있습니다.
 
@@ -201,7 +284,18 @@ protected readonly dataRequest$ = this.activatedRoute.params.pipe(
 
 이 패턴의 일반 아이디어를 이해하려면 전투 마크업에 대한 Juntao Qiu의 섹션을 읽어주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Fallback Markup 패턴의 아이디어는 로딩 또는 에러와 같은 비동기 작업의 다양한 상태를 처리하는 데 필요한 보일러플레이트 코드를 줄이는 데 있습니다.
 
@@ -222,7 +316,18 @@ Fallback Markup 패턴의 아이디어는 로딩 또는 에러와 같은 비동�
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 React의 Suspense 컴포넌트와 유사한 방식을 적용할 수 있습니다. 그러나 타입을 좁게 하는 것을 잃을 가능성이 높습니다. 아니면 더 나쁜 경우에는 어떤 타입 안전성도 잃을 수 있습니다. Angular 템플릿을 다룰 때 이러한 일이 종종 발생합니다. 물론 로딩 및 오류 상태를 처리하는 전용 컴포넌트를 만들 수 있습니다. 또는 모든 네트워크 요청의 로딩 및 오류 상태를 처리하는 인터셉터를 사용할 수도 있습니다.
 
@@ -232,7 +337,18 @@ Fallback Markup 패턴의 아이디어는 로딩 또는 에러와 같은 비동�
 
 Juntao Qiu의 코드 분할 섹션을 읽어 이 패턴의 일반 아이디어를 이해해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Angular에서 라우터를 사용하여 코드 분할 구현하기
 
@@ -241,37 +357,40 @@ Angular의 내장 라우터를 사용하면 브라우저의 동적 `import` 표�
 프로필 컴포넌트를 제공하고 다른 라우트에서 사진 앨범을 표시하는 애플리케이션의 간략한 라우터 구성은 다음과 같이 보일 수 있습니다.
 
 ```js
-import { Routes } from '@angular/router';
+import { Routes } from "@angular/router";
 
 export const routes: Routes = [
   {
-    path: 'profile',
-    loadComponent: () =>
-      import('./profile/profile.component').then(
-        (module) => module.ProfileComponent,
-      )
+    path: "profile",
+    loadComponent: () => import("./profile/profile.component").then((module) => module.ProfileComponent),
   },
   {
-    path: 'albums',
-    loadComponent: () =>
-      import('./albums/albums.component').then(
-        (module) => module.AlbumsComponent,
-      )
-  }
+    path: "albums",
+    loadComponent: () => import("./albums/albums.component").then((module) => module.AlbumsComponent),
+  },
 ];
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 표는 Markdown 형식으로 변경하였습니다.
 
-
-| Lazy chunk files  | Names            | Raw size  |
+| Lazy chunk files  | Names             | Raw size  |
 | ----------------- | ----------------- | --------- |
-| chunk-OQXIE7JX.js | profile-component | 6.70 kB   | 
-| chunk-FX2UNWRV.js | albums-component  | 4.96 kB   | 
+| chunk-OQXIE7JX.js | profile-component | 6.70 kB   |
+| chunk-FX2UNWRV.js | albums-component  | 4.96 kB   |
 | chunk-REKZS4LG.js | -                 | 500 bytes |
-
 
 기본적으로 Angular 라우터가 청크의 지연 로드를 수행할 때 특별한 표시가 없습니다. 사용자 경험을 향상시키기 위해 어플리케이션의 루트 수준에 일부 로딩 표시기를 표시하는 것이 유용할 수 있습니다. Angular 라우터는 지연 로드가 시작되거나 끝날 때 두 가지 특정 이벤트를 제공합니다.
 
@@ -280,23 +399,30 @@ export class AppComponent {
   private readonly router = inject(Router);
 
   protected readonly isRouterLazyLoading$ = this.router.events.pipe(
-    filter(
-      (event) =>
-        event instanceof RouteConfigLoadStart ||
-        event instanceof RouteConfigLoadEnd,
-    ),
+    filter((event) => event instanceof RouteConfigLoadStart || event instanceof RouteConfigLoadEnd),
     map((event) => {
       if (event instanceof RouteConfigLoadStart) {
         return true;
       }
       return false;
     }),
-    startWith(false),
+    startWith(false)
   );
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Angular에서 Deferrable Views로 코드 분할 구현하기
 
@@ -316,14 +442,25 @@ Angular의 최근에 도입된 Deferrable Views를 사용하면 컴포넌트 템
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현재 Angular가 하는 일은 Deferrable View의 내용을 별도의 청크로 분리하는 것입니다. 이 작업을 수행하려면 내용이 다른 곳에서 직접 참조되지 않아야 합니다. 빌드 결과에서 추가적인 청크를 확인할 수 있습니다.
 
 ```js
 최적화 청크 파일    | 이름               |  원본 크기
-chunk-OQXIE7JX.js   | 프로필 컴포넌트    |   6.70 kB | 
-chunk-FX2UNWRV.js   | 앨범 컴포넌트     |   4.96 kB | 
+chunk-OQXIE7JX.js   | 프로필 컴포넌트    |   6.70 kB |
+chunk-FX2UNWRV.js   | 앨범 컴포넌트     |   4.96 kB |
 chunk-4UTUEDCN.js   | 게시물 컴포넌트  |   2.02 kB |
 chunk-REKZS4LG.js   | -                  | 500 bytes |
 ```
@@ -332,7 +469,18 @@ chunk-REKZS4LG.js   | -                  | 500 bytes |
 
 ## 이미지 최적화와 함께 Angular에서 코드 분할 구현하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 이미지를 청크로 간주하고 코드 분할이 "필요할 때 로드되는 청크"를 다루는 것이라면, 이미지도 다른 청크와 마찬가지로 처리하는 것이 좋을 수 있습니다. 뷰포트에 보이지 않는 이미지도 많이 담고 있는 수십 개의 이미지를 표시하는 컴포넌트를 상상해보세요. 브라우저에 따라 `img` 요소는 한 번에 모든 이미지를 로드하게 할 것입니다. 심지어 이미지 로딩이 시작되면 웹사이트를 닫아야만 취소할 수 있습니다. 사용자가 단일 페이지 애플리케이션 내에서 다른 경로로 이동할 때도 모든 이미지의 다운로드가 완료될 때까지 계속될 것입니다.
 
@@ -348,7 +496,18 @@ chunk-REKZS4LG.js   | -                  | 500 bytes |
 
 이러한 단순한 방법론은 위에서 언급한 모든 문제점을 함께 가져올 수 있습니다. Angular에 통합된 이미지 최적화는 뷰포트와 가깝지 않은 이미지를 지연로드하는 크로스 브라우저 솔루션입니다. 이미지의 여러 가지 최적화 기법을 적용하는 것 외에도 플레이스홀더도 지원합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 @for (album of albums; track album.id) {
@@ -370,8 +529,18 @@ chunk-REKZS4LG.js   | -                  | 500 bytes |
 
 Juntao Qiu의 사전로드 섹션을 읽어 이 패턴의 일반적인 아이디어를 이해해보세요.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Angular에서 Deferrable Views로 선입(preload) 구현하기
 
@@ -391,7 +560,18 @@ Angular의 Deferrable Views는 사용자 지정 조건이나 미리 정의된 �
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어떤 도구를 선택하든, Juntao Qiu가 설명한 패턴들은 웹 애플리케이션을 개발할 때 항상 염두에 둬야 할 가치가 있습니다. Angular는 최근 도입된 기능들을 포함한 여러 내장 기능을 제공하며, 이 패턴들을 간단하고 표준화된 방식으로 적용하는 데 도움이 됩니다.
 

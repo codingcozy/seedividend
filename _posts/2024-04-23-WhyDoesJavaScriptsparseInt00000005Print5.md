@@ -3,17 +3,13 @@ title: "10년차 개발자도 모르는 JavaScript에서 parseInt00000005가 5�
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Why Does JavaScripts parseInt00000005 Print 5"
 link: "https://medium.com/javascript-in-plain-english/why-does-javascripts-parseint-0-0000005-print-5-1d63c8e937c5"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/WhyDoesJavaScriptsparseInt00000005Print5_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 1. parseInt를 언제 사용하나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, 보통 언제 parseInt를 사용하나요? 대부분 우리는 문자열을 구문 분석하여 해당 정수 부분을 반환하기 위해 사용합니다. 이 질문을 통해 parseInt 메서드를 살펴보겠습니다.
 
@@ -33,7 +40,18 @@ MDN 문서에 따르면 "parseInt(string, radix) 함수는 문자열 인수를 �
 
 구문
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 parseInt(문자열);
@@ -57,7 +75,18 @@ parseInt("15px", 10); // 15
 
 # 3. parseInt가 숫자를 어떻게 변환하는가?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 parseInt의 첫 번째 매개 변수가 숫자인 경우, 어떻게 구문 분석되나요?
 
@@ -67,7 +96,18 @@ parseInt(0.0000005) === 5가 사실임을 여기에서도 확인할 수 있어�
 
 이제 각각의 결과가 무엇인지 확인하기 위해 문자열 기반의 값들을 확인해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 String(0.5); // => '0.5'
@@ -85,7 +125,18 @@ String(0.0000005); // => '5e-7' 여기에 주의하세요
 
 “parseInt(0.0000005)를 사용하면 parseInt(`5e-7`)와 같고 정의에 따라:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 parseInt(0.0000005);
@@ -99,7 +150,18 @@ parseInt("5e-7"); // 5
 
 # 4. 부동 소수점 수의 정수 부분을 안전하게 얻는 방법?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 The following Math.floor() function is recommended:
 
@@ -117,7 +179,18 @@ Math.floor(0.0000005); // => 0
 
 그러면, parseInt(99999999999999999999999999)가 1과 같은 이유를 설명해볼 수 있나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 마침내
 
@@ -127,7 +200,18 @@ Math.floor(0.0000005); // => 0
 
 In Plain English 커뮤니티의 일원이 되어 주셔서 감사합니다! 떠나시기 전에:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 작가를 클릭하고 팔로우해주세요! 👏
 - 팔로우하기: X | LinkedIn | YouTube | Discord | 뉴스레터

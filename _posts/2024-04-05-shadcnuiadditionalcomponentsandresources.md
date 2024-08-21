@@ -3,17 +3,13 @@ title: "shadcn UI 추가 구성 요소"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "shadcn ui additional components and resources"
 link: "https://jidefr.medium.com/shadcn-ui-add-components-and-resources-0846b0f57596"
 isUpdated: true
 ---
-
-
-
-
 
 # 원래 게시물 이후 추가 내용:
 
@@ -26,7 +22,18 @@ isUpdated: true
 
 2024년 02월 25일:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - shadcn-keyboard-shortcuts
 - image-upload
@@ -37,7 +44,18 @@ shadcn/ui 프로젝트에서 사용할 수 있는 추가 컴포넌트/라이브�
 
 그래서 여기에 여러분의 프로젝트에서 사용할 수 있는 이러한 컴포넌트들의 목록이 있어요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 다른 유용한 자료를 찾으신다면 아래에 댓글을 남겨주세요. 그럼 제가 목록에 추가하겠습니다.
 
@@ -47,7 +65,18 @@ shadcn/ui 프로젝트에서 사용할 수 있는 추가 컴포넌트/라이브�
 
 shadcn/ui를 기반으로 만들어진 추가 컴포넌트 세트:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 자동 크기 조절 텍스트 에어리어
 - 인용문
@@ -64,7 +93,18 @@ shadcn/ui를 기반으로 만들어진 추가 컴포넌트 세트:
 
 campsite.design과 cal.com의 설정 폼에서 영감을 받은 멀티 셀렉트 구성 요소입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 멋진 상자
 
@@ -74,7 +114,18 @@ GitHub의 PR 라벨 선택기에서 영감을 받은 Combobox 컴포넌트.
 
 # 멋진 영역
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/shadcnuiadditionalcomponentsandresources_3.png" />
 
@@ -84,7 +135,18 @@ GitHub의 PR 코멘트 섹션에서 영감을 받은 Textarea 컴포넌트입니
 
 <img src="/assets/img/shadcnuiadditionalcomponentsandresources_4.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 표 태그를 Markdown 형식으로 변경하십시오.
 
@@ -94,7 +156,18 @@ https://stackblitz.com/edit/stackblitz-starters-dlsw2v
 
 ![이미지](/assets/img/shadcnuiadditionalcomponentsandresources_5.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 드래그 앤 드롭, 다중 업로드 및 진행률 표시기가 포함된 이미지 업로드 컴포넌트입니다.
 
@@ -104,7 +177,18 @@ https://stackblitz.com/edit/stackblitz-starters-dlsw2v
 
 많은 유용한 도우미와 서버 측 정렬, 필터링 및 페이지네이션 기능을 제공하는 데이터 테이블을 생성하기 위한 유틸리티 세트입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 태그 입력
 
@@ -114,7 +198,18 @@ https://stackblitz.com/edit/stackblitz-starters-dlsw2v
 
 # Plate Rich Text Editor
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/shadcnuiadditionalcomponentsandresources_8.png" />
 
@@ -124,7 +219,18 @@ https://stackblitz.com/edit/stackblitz-starters-dlsw2v
 
 <img src="/assets/img/shadcnuiadditionalcomponentsandresources_9.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그라데이션 / 색상 / 배경 선택 도구
 
@@ -134,7 +240,18 @@ https://stackblitz.com/edit/stackblitz-starters-dlsw2v
 
 zod 스키마에서 자동으로 양식을 생성합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 크레덴자 모달
 
@@ -144,8 +261,18 @@ zod 스키마에서 자동으로 양식을 생성합니다.
 
 # 멋진 다중 선택
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![다중 선택 컴포넌트](/assets/img/shadcnuiadditionalcomponentsandresources_12.png)
 
@@ -155,8 +282,18 @@ zod 스키마에서 자동으로 양식을 생성합니다.
 
 ![전화번호 입력](/assets/img/shadcnuiadditionalcomponentsandresources_13.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 전화번호 입력 컴포넌트입니다.
 
@@ -166,7 +303,18 @@ zod 스키마에서 자동으로 양식을 생성합니다.
 
 더 많은 변형이 있는 버튼 컴포넌트의 버전입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 날짜 범위 선택기
 
@@ -176,7 +324,18 @@ Radix UI를 기반으로 한 날짜 범위 선택기입니다.
 
 # 채팅
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/shadcnuiadditionalcomponentsandresources_16.png" />
 
@@ -186,7 +345,18 @@ Radix UI를 기반으로 한 날짜 범위 선택기입니다.
 
 <img src="/assets/img/shadcnuiadditionalcomponentsandresources_17.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아주 재미있는 shadcn/ui 테마의 오픈소스 확장입니다.
 
@@ -196,7 +366,18 @@ Radix UI를 기반으로 한 날짜 범위 선택기입니다.
 
 shadcn/ui 컴포넌트와 예시들을 추가로 정리한 목록입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Next.js 14 Admin 대시보드 스타터 템플릿
 
@@ -206,7 +387,18 @@ shadcn/ui를 사용한 준비된 Next.js admin 템플릿입니다.
 
 # Veryfront 사전 제작 UI 컴포넌트
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/shadcnuiadditionalcomponentsandresources_20.png" />
 
@@ -216,7 +408,18 @@ shadcn/ui를 사용한 준비된 Next.js admin 템플릿입니다.
 
 <img src="/assets/img/shadcnuiadditionalcomponentsandresources_21.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다양한 색상 테마 조합이 있어요.
 
@@ -226,7 +429,18 @@ shadcn/ui를 사용한 준비된 Next.js admin 템플릿입니다.
 
 shadcn/ui의 Svelte 플레이버.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # shadcn Vue
 
@@ -236,7 +450,18 @@ Vue flavor of shadcn/ui.
 
 # React native reusables
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/shadcnuiadditionalcomponentsandresources_24.png)
 
@@ -246,7 +471,18 @@ shadcn/ui에서 영감을 받은 매우 좋은 React Native UI 라이브러리�
 
 ![이미지](/assets/img/shadcnuiadditionalcomponentsandresources_25.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 shadcn/ui의 또 다른 React Native 구현입니다.
 
@@ -256,7 +492,18 @@ shadcn/ui의 또 다른 React Native 구현입니다.
 
 shadcn/ui를 사용한 준비된 Remix 템플릿입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 피그마 디자인 시스템
 
@@ -266,7 +513,18 @@ shadcn/ui를 사용한 준비된 Remix 템플릿입니다.
 
 여기에는 최신 구성 요소와 다크 모드가 있는 다른 구현도 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # VSCode 확장 프로그램
 
@@ -276,7 +534,18 @@ shadcn/ui를 사용한 준비된 Remix 템플릿입니다.
 
 # VSCode UI 스니펫 확장 프로그램
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/shadcnuiadditionalcomponentsandresources_29.png)
 

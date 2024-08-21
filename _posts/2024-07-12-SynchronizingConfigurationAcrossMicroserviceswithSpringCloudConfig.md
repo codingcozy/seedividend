@@ -3,16 +3,13 @@ title: "Spring Cloud Config를 사용하여 마이크로서비스 간 설정 동
 description: ""
 coverImage: "/assets/img/2024-07-12-SynchronizingConfigurationAcrossMicroserviceswithSpringCloudConfig_0.png"
 date: 2024-07-12 21:07
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-12-SynchronizingConfigurationAcrossMicroserviceswithSpringCloudConfig_0.png
 tag: Tech
 originalTitle: "Synchronizing Configuration Across Microservices with Spring Cloud Config"
 link: "https://medium.com/@AlexanderObregon/synchronizing-configuration-across-microservices-with-spring-cloud-config-a2bb36e7d8eb"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-07-12-SpringCloudConfigMicroservices.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 # Spring Cloud Config 소개
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마이크로서비스의 급변하는 풍경 속에서 팀들이 직면하는 주요 과제 중 하나는 애플리케이션 코드에서 외부로 분리된 구성을 관리하는 것입니다. 이러한 구성 요소에는 데이터베이스 연결, 서비스 엔드포인트, 기능 토글 및 다양한 환경별 설정 등이 포함될 수 있습니다. 이러한 구성 요소는 마이크로서비스의 동작을 변경할 수 있어 많은 서비스를 포함하는 시스템에서 이를 관리하는 것은 복잡한 작업이 됩니다. 이런 상황에서 Spring Cloud Config가 중요한 역할을 하게 됩니다.
 
@@ -37,7 +45,18 @@ Spring Cloud Config는 마이크로서비스 아키텍처에서 중앙 집중식
 - 암호화 및 복호화: 보안은 중요합니다. 특히 API 키 또는 데이터베이스 자격 증명과 같은 민감한 데이터가 관련된 구성 요소의 경우 더욱 중요합니다. Spring Cloud Config는 구성 속성의 암호화와 복호화를 지원하여 민감한 데이터가 안전하게 유지되도록 합니다.
 - 로컬 테스트용 네이티브 프로필: Git 저장소에 연결하지 않고 로컬로 테스트하려는 개발자들을 위해 Spring Cloud Config는 네이티브 프로필을 제공합니다. 이를 통해 설정을 로컬 파일 시스템에서 읽어들일 수 있어 로컬 개발 및 테스트 프로세스가 단순화됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마이크로서비스 아키텍처에서 구성 관리의 중요한 측면을 다루는 Spring Cloud Config는 구성의 일관성을 유지하면서 시스템을 확장하려는 개발자 및 팀에게 중요한 도구로 부상합니다. 이후 섹션에서 설정 및 사용법을 더 자세히 살펴보면, 이 도구가 마이크로서비스 툴킷에서 얼마나 중요한 역할을 하는지 명백해질 것입니다.
 
@@ -47,7 +66,18 @@ Spring Cloud Config는 마이크로서비스 아키텍처에서 중앙 집중식
 
 ## Maven 종속성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우선적으로 Maven 프로젝트에서 필요한 종속성을 가지고 있는지 확인해주세요:
 
@@ -66,7 +96,18 @@ spring-cloud-config-server 종속성은 우리 애플리케이션을 구성 서�
 
 ## 구성 서버 부트스트랩하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주요 애플리케이션 클래스에서는 @EnableConfigServer로 주석을 달아야 합니다. 이 주석은 이 서비스를 구성 서버로 취급하도록 Spring Boot에 알려줍니다:
 
@@ -84,7 +125,18 @@ public class ConfigServerApplication {
 
 Spring Cloud Config Server의 강력한 기능 중 하나는 다양한 백엔드 시스템과 통합할 수 있는 능력입니다. 가장 일반적으로 사용되는 것은 Git입니다. 이 예시에서는 서버를 Git 저장소에서 구성을 가져오도록 설정할 것입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```yaml
 spring:
@@ -103,7 +155,18 @@ spring:
 
 ## 보안 고려사항
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기본 설정으로 Config Server는 보안이 적용되지 않아 어떤 서비스나 사용자든지 구성을 열람할 수 있습니다. 실제 시나리오에서는 이것이 중요한 리스크가 될 수 있습니다. 서버를 보안하려면 다음과 같은 조치를 취할 수 있습니다:
 
@@ -115,7 +178,18 @@ spring:
 
 모든 것을 설정한 후에는 다른 Spring Boot 애플리케이션과 마찬가지로 응용 프로그램을 실행할 수 있습니다. 기본적으로 Config Server는 8888 포트에서 시작됩니다. 이를 변경하려면 application.properties 또는 application.yml 파일에서 server.port 속성을 설정하면 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Spring Cloud Config Server를 설정하는 것은 간단한 과정이지만 중앙 집중식 및 관리되는 구성으로 제공되는 혜택은 엄청납니다. 위의 단계를 따르면 견고한 시스템을 구축하여 모든 마이크로서비스에 일관되고 신뢰할 수 있는 구성을 제공할 준비가 됩니다. 시스템이 성장하고 발전함에 따라 Config Server는 다양한 환경 및 구성의 복잡성을 관리하는 데 매우 유용할 것입니다.
 
@@ -125,14 +199,25 @@ Spring Cloud Config Server가 가동되면 다음으로 진행할 합리적인 �
 
 ## Config Client 종속성 통합
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, 우리는 Config Client를 마이크로서비스에 통합해야 합니다. 이는 적절한 Maven 종속성을 추가하여 달성할 수 있습니다:
 
 ```js
 <dependency>
-    <groupId>org.springframework.cloud</groupId>
-    <artifactId>spring-cloud-starter-config</artifactId>
+  <groupId>org.springframework.cloud</groupId>
+  <artifactId>spring-cloud-starter-config</artifactId>
 </dependency>
 ```
 
@@ -140,7 +225,18 @@ spring-cloud-starter-config는 Config Server에 마이크로서비스를 연결�
 
 ## Config Server 가리키기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마이크로서비스는 Config 서버의 위치를 알아야합니다. bootstrap.properties 또는 bootstrap.yml 파일에서(Config 서버에 대한이 구성은 시작 초기 단계에서 매우 필요하기 때문에 application이 아닌) Config Server의 URI를 지정하십시오:
 
@@ -155,7 +251,18 @@ config-server-host를 Config Server가 실행되는 기기의 적절한 호스�
 
 ## 서비스 이름 및 프로필 지정
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 구성 서버가 올바른 구성을 제공하려면 서비스 이름과 활성 프로필을 알아야 합니다. 이를 bootstrap.properties 또는 bootstrap.yml 파일에 정의하세요:
 
@@ -172,7 +279,18 @@ spring:
 
 ## 구성 접근하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 설정을 통해 Spring의 @Value 어노테이션이나 Environment 추상화를 사용하여 속성을 검색할 수 있습니다:
 
@@ -192,7 +310,18 @@ public String getCustomProperty() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 빠른 실패 전략
 
@@ -207,7 +336,18 @@ spring:
 
 이렇게 하면 마이크로서비스가 구성 서버에서 구성을 검색할 수 없는 경우 서비스가 시작되지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Spring Cloud Config Server에 마이크로서비스를 연결하는 것은 설정이 외부화되고 중앙 집중화되며 효율적으로 관리되도록 하는 원활한 프로세스입니다. 이 설정은 서비스 간의 설정 일관성을 유지하는 데 도움이 되는데, 각 서비스의 코드베이스에 신경 쓰지 않고 설정을 업데이트하는 프로세스를 간편화합니다. 시스템이 확장되고 복잡해지면 이러한 중앙 집중화된 설정 관리는 운영 효율성과 시스템 일관성을 보장하는 데 중요해집니다.
 
@@ -217,7 +357,18 @@ Spring Cloud Config의 중요한 기능 중 하나는 마이크로서비스가 �
 
 ### Spring Boot Actuator 소개
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Spring Boot Actuator는 우리의 애플리케이션에 안정적으로 운영되는 기능을 제공하여 모니터링 및 관리할 수 있게 해줍니다. 그 중 하나의 엔드포인트는 /refresh이며, 이를 사용하여 구성을 새로 고침할 수 있습니다.
 
@@ -225,37 +376,55 @@ Spring Boot Actuator는 우리의 애플리케이션에 안정적으로 운영�
 
 ```js
 <dependency>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-starter-actuator</artifactId>
+  <groupId>org.springframework.boot</groupId>
+  <artifactId>spring-boot-starter-actuator</artifactId>
 </dependency>
 ```
 
 ## /refresh 엔드포인트 노출하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기본적으로 Actuator의 대부분 엔드포인트는 보안 상의 이유로 비활성화되어 있습니다. /refresh 엔드포인트를 명시적으로 활성화해야 합니다. application.properties 또는 application.yml 파일을 업데이트해주세요:
 
 ```js
-management:
-  endpoints:
-    web:
-      exposure:
-        include: refresh
+management: endpoints: web: exposure: include: refresh;
 ```
 
 ## Spring Cloud Bus 사용하기 (선택 사항)
 
 단일 마이크로서비스의 여러 인스턴스가 실행 중인 경우 개별 인스턴스에서 활성화를 수동으로 트리거하는 것은 번거로울 수 있습니다. Spring Cloud Bus는 메시지 브로커(예: RabbitMQ 또는 Kafka)와 통합하여 구성 변경을 브로드캐스트합니다. 하나의 인스턴스가 구성 변경을 수신하면 이 변경을 모든 다른 인스턴스에 브로드캐스트할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Spring Cloud Bus를 사용하려면 다음 종속성을 추가하십시오:
 
 ```js
 <dependency>
-    <groupId>org.springframework.cloud</groupId>
-    <artifactId>spring-cloud-starter-bus-amqp</artifactId>
+  <groupId>org.springframework.cloud</groupId>
+  <artifactId>spring-cloud-starter-bus-amqp</artifactId>
 </dependency>
 ```
 
@@ -263,7 +432,18 @@ Spring Cloud Bus를 사용하려면 다음 종속성을 추가하십시오:
 
 ## 구성 새로 고침 트리거
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 중앙 집중식 구성 저장소에서 변경 사항을 적용하고 변경을 푸시한 후에는 마이크로서비스가 업데이트된 구성을 가져가도록하고 싶을 것입니다.
 
@@ -275,7 +455,18 @@ curl -X POST http://microservice-host:port/actuator/refresh
 
 마이크로서비스는 Config Server에 연락하여 최신 구성을 검색하고 컨텍스트를 새로고침하며 재시작없이 모든 이를 수행합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 새로 고침 가능한 빈에 주석 추가
 
@@ -287,14 +478,25 @@ curl -X POST http://microservice-host:port/actuator/refresh
 public class MyBean {
     @Value("${config.property}")
     private String configProperty;
-    
+
     // ...
 }
 ```
 
 @RefreshScope로 설정하면 Spring이 구성 새로 고침 시 빈을 다시 만들어서 config.property의 새 값이 적용되도록 보장합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 동적 구성 새로 고침은 마이크로서비스 생태계에 유연성과 탄력성을 제공하는 스프링 클라우드 구성의 증거입니다. 다운타임을 최소화하고 서비스가 항상 가장 최신 구성으로 실행되도록 보장하여, 이 기능은 동적이고 끊임없이 변화하는 프로덕션 환경에서 가치를 입증합니다. 스프링 클라우드 구성을 도입하면 구성을 동적으로 새로 고치는 능력이 의심할 여지없이 여러분이 가장 감사해할 기능 중 하나가 될 것입니다. 지속성과 안정성을 보장합니다.
 
@@ -306,6 +508,17 @@ public class MyBean {
 - 스프링 부트 액추에이터 문서
 - 스프링 클라우드 버스 문서
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `<img src="/assets/img/2024-07-12-SynchronizingConfigurationAcrossMicroserviceswithSpringCloudConfig_1.png" />`

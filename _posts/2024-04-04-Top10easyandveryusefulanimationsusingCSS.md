@@ -3,17 +3,13 @@ title: "CSS를 사용하여 만들 수 있는 쉽고 매우 유용한 10가지 �
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Top 10 easy and very useful animations using CSS"
 link: "https://medium.com/@tajammalmaqbool11/top-10-easy-and-very-useful-animations-using-css-00b75b49cd0d"
 isUpdated: true
 ---
-
-
-
-
 
 CSS를 사용하여 애니메이션을 만들면 웹 프로젝트에 상호작용성과 시각적 매력을 추가할 수 있어요. 여기에는 구현할 수 있는 10가지 쉽고 매우 유용한 CSS 애니메이션이 있어요:
 
@@ -21,7 +17,18 @@ CSS를 사용하여 애니메이션을 만들면 웹 프로젝트에 상호작�
 
 버튼, 링크 또는 이미지에 호버 효과를 적용하여 마우스 커서가 올라갈 때 색상, 크기 또는 불투명도가 변경되도록 할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .button:hover {
@@ -38,8 +45,18 @@ CSS를 사용하여 애니메이션을 만들면 웹 프로젝트에 상호작�
 
 <img src="/assets/img/Top10easyandveryusefulanimationsusingCSS_1.png" />
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .fade-in {
@@ -79,7 +96,18 @@ CSS를 사용하여 애니메이션을 만들면 웹 프로젝트에 상호작�
 
 <img src="/assets/img/Top10easyandveryusefulanimationsusingCSS_2.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 .slide-in {
@@ -119,7 +147,18 @@ CSS를 사용하여 애니메이션을 만들면 웹 프로젝트에 상호작�
 
 <img src="/assets/img/Top10easyandveryusefulanimationsusingCSS_3.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .spin {
@@ -143,8 +182,18 @@ CSS를 사용하여 애니메이션을 만들면 웹 프로젝트에 상호작�
 
 <img src="/assets/img/Top10easyandveryusefulanimationsusingCSS_4.png" />
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 .pulse {
@@ -172,8 +221,18 @@ CSS를 사용하여 애니메이션을 만들면 웹 프로젝트에 상호작�
 
 <img src="/assets/img/Top10easyandveryusefulanimationsusingCSS_5.png" />
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .bounce {
@@ -199,7 +258,18 @@ Make text or elements glow softly.
 
 <img src="/assets/img/Top10easyandveryusefulanimationsusingCSS_6.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 .glow {
@@ -223,8 +293,18 @@ Make text or elements glow softly.
 
 <img src="/assets/img/Top10easyandveryusefulanimationsusingCSS_7.png" />
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 .shake {
@@ -260,7 +340,18 @@ Make text or elements glow softly.
 
 ![이미지](/assets/img/Top10easyandveryusefulanimationsusingCSS_8.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 .image-zoom {
@@ -289,7 +380,18 @@ Make text or elements glow softly.
 
 ![image](/assets/img/Top10easyandveryusefulanimationsusingCSS_9.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .gradient {

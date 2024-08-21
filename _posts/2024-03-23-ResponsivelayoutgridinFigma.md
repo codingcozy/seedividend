@@ -3,17 +3,13 @@ title: "Figma에서 React형 레이아웃 그리드 디자인 하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Responsive layout grid in Figma"
 link: "https://uxplanet.org/responsive-layout-grid-in-figma-dfec9733b568"
 isUpdated: true
 ---
-
-
-
-
 
 ![Figma를 사용하여 반응형 레이아웃 그리드 디자인하는 방법](/assets/img/Responsive-layout-grid-in-Figma_0.png)
 
@@ -23,7 +19,18 @@ Figma를 사용하여 반응형 레이아웃 그리드를 디자인하는 것은
 
 ## 1. 데스크탑, 태블릿 및 모바일용 프레임 생성하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 툴바에서 프레임 도구를 선택하거나 키보드에서 “F”를 누른 다음 캔버스를 클릭하여 프레임을 생성하세요. 프레임의 미리 설정된 크기를 선택하거나 사용자 정의 차원을 정의할 수 있어요. 첫 번째 옵션이 더 좋아요. 데스크탑을 위한 데스크톱 프레임, 태블릿을 위한 아이패드 미니, 그리고 모바일을 위한 아이폰 14 & 15 Pro 중에서 선택할 수 있어요.
 
@@ -33,7 +40,18 @@ Figma를 사용하여 반응형 레이아웃 그리드를 디자인하는 것은
 
 프레임을 선택한 상태에서 오른쪽 패널에서 “디자인” 탭을 선택하세요. 여기에서 “레이아웃 그리드” 옵션을 볼 수 있어요. 새로운 그리드를 추가하려면 “+” 아이콘을 클릭하세요. Figma는 세 가지 유형의 그리드를 제공해요: 그리드 (기본값), 열, 행이 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/Responsive-layout-grid-in-Figma_2.png" />
 
@@ -43,7 +61,18 @@ Figma를 사용하여 반응형 레이아웃 그리드를 디자인하는 것은
 
 ## 3. Columns 그리드 구성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 “열”을 선택한 후에는 그리드 설정을 구성할 수 있습니다. 주요 설정은 다음과 같습니다:
 
@@ -56,7 +85,18 @@ Figma를 사용하여 반응형 레이아웃 그리드를 디자인하는 것은
 
 8포인트 그리드를 만드는 경우, 거터에 대해 8로 나눌 수 있는 값으로 설정해야 합니다. 거터를 24로 설정하는 것을 권장드립니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여백은 그리드 시스템의 오른쪽과 왼쪽에 있는 빈 영역입니다. 화면 가장자리까지 그리드를 항상 확장하길 원하지는 않을 수 있습니다. 그래서 여백을 설정하여 컨테이너에 얼마나 많은 빈 공간을 두고 싶은지를 지정할 수 있습니다. 여백에 관해선 일반적으로 여백의 크기는 컨테이너의 너비에 따라 선택됩니다.
 
@@ -66,7 +106,18 @@ Figma를 사용하여 반응형 레이아웃 그리드를 디자인하는 것은
 
 ![Responsive-layout-grid-in-Figma_6](/assets/img/Responsive-layout-grid-in-Figma_6.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 4. 행 그리드 만들기
 
@@ -76,7 +127,18 @@ Figma를 사용하여 반응형 레이아웃 그리드를 디자인하는 것은
 
 ## 5. 태블릿 및 모바일 뷰포트에 그리드 시스템 복사하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데스크톱 그리드 작업이 끝나면 태블릿을 위한 그리드를 만들 차례에요. 처음부터 시작하고 싶지 않다면, 데스크톱용으로 만든 레이아웃 그리드를 태블릿 프레임에 그대로 복사하여 붙여 넣고, 수평 그리드의 값을 수정하면 돼요.
 
@@ -84,7 +146,18 @@ Figma를 사용하여 반응형 레이아웃 그리드를 디자인하는 것은
 
 마지막으로, 태블릿용 레이아웃 그리드를 모바일로 복사하여 붙여 넣을 수 있어요. 모바일에서는 열의 수를 4로 줄이면 될 거에요. 여분 여백은 16으로 설정하고, 거터도 16으로 맞출 거예요. 모바일에서의 최소 권장 여백 크기는 16이어야 하는데, 이는 콘텐츠 주변에 안전한 공간을 보장해줘요. 또한 16은 8포인트 그리드를 만드는 우리의 목표와 일치하도록 8로 나눌 수 있는 값이에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Responsive-layout-grid-in-Figma_9](/assets/img/Responsive-layout-grid-in-Figma_9.png)
 

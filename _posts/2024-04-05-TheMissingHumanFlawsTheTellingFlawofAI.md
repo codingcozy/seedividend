@@ -3,17 +3,13 @@ title: "인간의 결함 부재 AI의 드러나는 결함"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "The Missing Human Flaws The Telling Flaw of AI"
 link: "https://medium.com/ai-ai-oh/the-missing-human-flaws-the-telling-flaw-of-ai-3bdf4a63959f"
 isUpdated: true
 ---
-
-
-
-
 
 ![TheMissingHumanFlawsTheTellingFlawofAI_0.png](/assets/img/TheMissingHumanFlawsTheTellingFlawofAI_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 최근 이미지 생성기들에는 명백한 문제가 있었습니다. 예를 들어 손에 엄지손가락이 더 생겨나는 등의 문제가 있었죠. 그런데 Midjourney가 V6 알파를 발표한 이후(텍스트 추가 기능이 추가된)로는 이러한 손의 오류가 훨씬 덜 발생합니다. 그리고 현실과 구분하기 어려운 얼굴 이미지도 생성해냅니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/TheMissingHumanFlawsTheTellingFlawofAI_1.png)
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 사람들이 자신의 사진을 찍힌다는 것을 알 때 몇몇 사람들이 주는 즐거움과 기쁜 표정입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 좋은 조명이네요 (머리칼이 빛나는 것을 보면 황금 시간쯤일 것 같아요.)
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 이 사진을 거리의 모르는 사람을 찍었다면 아주 흡족했을 거예요. 하지만 사실은 아니죠. Midjourney 6와 간단한 명령으로 몇 초만에 만들었어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 많은 사람들이 이것을 "좋아요"하고 넘겨 갈 것이지만, 나는 재능 있는 초상화 작가라고 생각하면서 "결함"을 인식하지 못할 수도 있어요. 이 경우, 진짜인 것 같지 않은 완벽한 것들이 그것이죠.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 하지만 저는 Midjourney에게 커버 모델을 요청한 적은 없어요. 그저 웃고 있는 여자를 요청했을 뿐이에요. 그것은 기본적으로 젊고 아름다운 여자를 제공했지요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대부분의 사람들은 어떤 "독특한" 특징을 갖고 있을 것이에요.
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 다시 말해, 우리가 종종 "결점"으로 여기는 특징이 없어진다면, 우리가 공기로 뿌린 모델이 아니라 인간으로 보이게 되는 거에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이번에도 "실감나는 사람"을 요청하여 실행한 결과, 이번에는 또 다른 예쁜 젊은 여성이 나왔어요. 그러나 주목할 점은 이번에는 주근깨가 있습니다. 아마도 Midjourney가 출력물을 더 현실적으로 만들기 위한 방법 중 하나인 것 같아요.
 
@@ -73,7 +124,18 @@ isUpdated: true
 
 공정하게 말하자면, 그녀의 턱에 작은 흠이 있어요. (혹시 면도하다가 자르셨을지도요?) 그렇지만 윤광나는 피부와 여성분들이 종종 최대 $1,000를 지불하는 풍부한 입술 덕분에 잘 보이지 않아요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신의 보석조차도 이제는 Ai 이미지의 지표로서 유명한 요소 중 하나인데, 실제와 정확한 위치에 있는 것처럼 보입니다.
 
@@ -83,7 +145,18 @@ isUpdated: true
 
 ![이미지](/assets/img/TheMissingHumanFlawsTheTellingFlawofAI_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Midjourney이 나를 보는 방법입니다. Midjourney는 출력물의 기본으로 동일한 참조 사진을 사용할 때 나를 어떻게 보는지입니다:
 
@@ -93,7 +166,18 @@ Midjourney은 내 비대칭적인 얼굴을 보완해 주는 동시에 주름도
 
 이제 텍스트 생성으로 넘어갑니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ChatGPT이 한동안 화제였고 많은 사람들을 속인 적도 있어요. 언론의 출처를 의심하지 않는 독자들을 상정하고 ChatGPT가 꽤 그럴싸한 가짜 뉴스를 생산하는 방법에 대해 썼어요.
 
@@ -103,7 +187,18 @@ Ai 이미지 생성기와 마찬가지로 누구나 ChatGPT를 사용하여 "스
 
 하지만 문법/서식 결함의 부재는 당신이 Ai를 읽고 있다는 신호가 될 수도 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 ChatGPT에서 제공한 단편 기사입니다. 많은 팬들이 아직 우리 가운데 살아있다고 믿는 늦은 래퍼 투팍 샤크르에 관한 내용이에요:
 
@@ -113,7 +208,18 @@ Pages에 내장된 철자 검사기는 문법 오류를 발견하지 못했습�
 
 ![투팍](/assets/img/TheMissingHumanFlawsTheTellingFlawofAI_5.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그분은 50대 중반에 이 정도면 꽤 좋아 보여요. 솔직히 말해요. 아마 조금 과하지 않을까 싶기도 해요.
 
@@ -123,7 +229,18 @@ ChatGPT의 무료 모델은 2021년까지의 교육 데이터에 제한이 있�
 
 그럼 젬미니가 이 같은 가짜 뉴스 기사를 어떻게 다루는지 확인해 볼까요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 응. 흥미로운 시각이네, 2011년으로 돌아가는 것. 나는 아마도 이 이야기에 속아들 것 같아. 짧아서 약간 귀찮은 데에 유혹되기 쉬운걸.
 
@@ -133,7 +250,18 @@ ChatGPT의 무료 모델은 2021년까지의 교육 데이터에 제한이 있�
 
 ![이미지](/assets/img/TheMissingHumanFlawsTheTellingFlawofAI_6.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 응, 나도 이것에 속을 사람들이 많을 것 같아. 특히 신문에 작은 사진으로 실린다면 더 그렇겠지.
 
@@ -143,7 +271,18 @@ ChatGPT의 무료 모델은 2021년까지의 교육 데이터에 제한이 있�
 
 하지만 여전히 "진짜처럼 좋은" 느낌이 들어. Ai 이미지 플랫폼은 많은 세부 사항을 올바르게 표현하고 있지만, 어떤 경우에는 현실보다 더 나아 보인다. 심지어 이른바 "결함이 있는" 얼굴들조차 거의 완벽한 모델들이야.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아마도 제가 Ai를 오랫동안 사용해서 여전히 그 차이를 분간할 수 있는 것 같아요. 그러나 많은 사람들이 Ai의 발전에 무지하고, 컴퓨터가 이런 결과물을 생산할 수 있다고 믿지 않을 것입니다.
 
@@ -153,7 +292,18 @@ ChatGPT의 무료 모델은 2021년까지의 교육 데이터에 제한이 있�
 
 하지만 처음 시작할 때 우리가 실수를 드러내 주는 단서를 찾던 때와는 달리, 인공지능 알고리즘들은 더 이상 같은 실수를 하지 않습니다. 이제 중요한 것은 너무 좋아 보이거나 읽히는 것들을 의심하는 것이죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희들이 디지털 필터를 사용해 피부 결함을 없애는 데 집착하는 동안, 우리의 독특한 인간적인 얼굴이 더욱 신뢰할 수 있는 이미지로 드러날 것입니다.
 

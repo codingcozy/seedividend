@@ -3,16 +3,13 @@ title: "Node에서 안정적인 분산 시스템 구축하는 방법"
 description: ""
 coverImage: "/assets/img/2024-05-17-BuildingReliableDistributedSystemsinNode_0.png"
 date: 2024-05-17 20:34
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-17-BuildingReliableDistributedSystemsinNode_0.png
 tag: Tech
 originalTitle: "Building Reliable Distributed Systems in Node"
 link: "https://medium.com/@lorendsr/building-reliable-distributed-systems-in-node-aff92fa45ad8"
 isUpdated: true
 ---
-
-
-
 
 이 게시물은 Stripe, Netflix, Coinbase, Snap 및 기타 많은 회사들이 분산 시스템에서 다양한 문제를 해결하기 위해 사용하는 durable execution 개념을 소개합니다. 그리고 Temporal의 TypeScript/JavaScript SDK를 사용하여 durable 코드를 작성하는 것이 얼마나 간단한지 보여줍니다.
 
@@ -25,15 +22,26 @@ isUpdated: true
 - 서버가 데이터베이스에 도달하지만 트랜잭션이 실패하는 경우 서버는 오류로 응답하고 클라이언트가 다시 시도합니다.
 - 트랜잭션이 성공하지만 서버가 클라이언트에 응답하기 전에 종료된 경우 클라이언트가 서버가 다시 켜질 때까지 다시 시도하고, 트랜잭션은 두 번째로 실패합니다(트랜잭션이 이미 적용되었는지를 알려주는 idempotency token과 같은 확인이 있음을 가정), 그리고 서버는 클라이언트에게 작업이 이미 수행되었음을 보고합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 번에 두 번째 위치를 추가하면 데이터베이스를 사용하는 서비스나 외부 API와 같은 일은 장애를 처리하고 일관성을 유지하는 것(모든 데이터 저장소 간의 정확성)이 훨씬 더 복잡해집니다. 예를 들어, 서버가 신용 카드를 청구하고 데이터베이스를 업데이트해야 하는 경우처럼, 단순한 코드를 더 이상 작성할 수 없게 됩니다.
 
 ```js
 function handleRequest() {
-  paymentAPI.chargeCard()
-  database.insertOrder()
-  return 200
+  paymentAPI.chargeCard();
+  database.insertOrder();
+  return 200;
 }
 ```
 
@@ -43,7 +51,18 @@ function handleRequest() {
 - 완료한 프로그램 단계를 유지
 - 데이터베이스에서 미완료 주문을 확인하고 다음 단계로 계속 진행하는 워커 프로세스 실행
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그, 그리고 재시도 상태를 유지하고 각 단계에 시간 제한을 추가하는 것만으로도 많은 코드를 작성해야 하고, 특정 가장자리 경우나 실패 모드를 놓칠 수 있습니다. 만약 전체적이고 확장 가능한 아키텍처를 보려면 클릭하세요. 우리가 모든 그 코드를 작성하고 디버그할 필요 없이 좀 더 빠르고 신뢰할 수 있는 것들을 구축할 수 있었으면 좋겠다. 그걸 할 필요 없다는 건 우리가 내구성 실행을 사용할 수 있기 때문입니다.
 
@@ -53,7 +72,18 @@ function handleRequest() {
 
 내구성 실행은 하드웨어가 얼마나 신뢰할지나 하류 서비스가 얼마나 오랫동안 오프라인인지에 상관없이 코드가 완료되도록 보장합니다. 재시도와 타임아웃은 자동으로 수행되며, 코드가 아무것도 하지 않을 때(예를 들어 sleep('1 month') 문을 기다리는 동안) 자원이 해제됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내구성 있는 실행은 이벤트 주도 아키텍처, 작업 대기열, 사가, 회로 차단기 및 트랜잭션 아웃박스와 같은 분산 시스템 패턴을 구현하는 것이 중요하지 않거나 불필요하게 만듭니다. 이것은 더 높은 추상화 수준에서 프로그래밍하는 것으로, 서버 충돌이나 네트워크 문제와 같은 일시적인 실패에 대해 걱정할 필요가 없는 곳입니다. 이것은 다음과 같은 새로운 가능성을 엽니다:
 
@@ -65,7 +95,18 @@ function handleRequest() {
 
 # 내구성 있는 JavaScript
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 분산 시스템에서의 일관성과 내구 실행이 무엇인지 살펴보았으니, 실제 예시를 살펴보겠습니다. 내가 만든 이 음식 주문 앱은 내구성 있는 코드가 어떻게 생겼고 어떤 문제를 해결하는지 보여줍니다:
 
@@ -75,7 +116,18 @@ temporal.menu
 
 이 앱은 네 가지 주요 기능을 갖고 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 주문 생성 및 고객에게 청구
 - 주문 상태 가져오기
@@ -88,7 +140,18 @@ temporal.menu
 
 모든 이 기능은 내구성이 있는 JavaScript 또는 TypeScript의 단일 기능에서 구현할 수 있습니다. 저희는 TypeScript를 사용하고 있습니다 - TypeScript를 권장하며 라이브러리의 이름은 TypeScript SDK입니다. 그러나 npm에는 JavaScript 형식으로 게시되어 있으며 모든 Node.js 프로젝트에서 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 주문 생성하기
 
@@ -100,7 +163,18 @@ npx @temporalio/create@latest --sample food-delivery
 
 사용자가 주문 버튼을 클릭하면 React 프론트엔드가 tRPC 백엔드에서 정의된 createOrder 뮤테이션을 호출합니다. createOrder API 경로 핸들러는 내구성 주문 함수를 시작하여 주문을 생성합니다. 내구성 함수인 Workflows은 @temporalio/client의 Client 인스턴스를 사용하여 시작된다. 이는 tRPC 컨텍스트에 ctx.temporal로 추가되었으며, 경로 핸들러는 유효성이 검증된 입력(제품 ID 번호 및 주문 ID 문자열을 포함한 객체)을 받아들이며, ctx.temporal.workflow.start를 호출하여 주문 Workflows을 시작합니다. 입력.productId를 인수로 제공합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```typescript
 apps/menu/pages/api/[trpc].ts
@@ -130,8 +204,18 @@ The order function starts out validating the input, setting up the initial state
 
 packages/workflows/order.ts
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 type OrderState = 'Charging card' | 'Paid' | 'Picked up' | 'Delivered' | 'Refunding'
@@ -159,8 +243,18 @@ export async function order(productId: number): Promise<void> {
 
 다음 코드 부분은 약간의 백그라운드 지식이 필요합니다. 일반 함수는 오래 실행할 수 없으므로, 일이 발생할 때까지 대기하는 동안 리소스를 차지하고, 언젠가는 새 코드를 배포하고 이전 컨테이너가 종료되면 종료될 것입니다. 내구성 함수는 두 가지 이유로 임의의 길이로 실행할 수 있습니다:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 어떤 것을 기다리고 있을 때에는 리소스를 차지하지 않습니다.
 - 그들을 실행하는 프로세스가 종료되어도 문제가 되지 않습니다. 다른 프로세스가 실행을 계속할 것이기 때문입니다.
@@ -171,7 +265,18 @@ export async function order(productId: number): Promise<void> {
 
 apps/menu/pages/api/[trpc].ts
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 getOrderStatus: t.procedure
@@ -197,7 +302,18 @@ export async function order(productId: number): Promise<void> {
   })
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 getStatusQuery를 전달하는 order 함수가 호출되면, setHandler에 전달된 함수가 호출되어 로컬 변수의 값을 반환합니다. chargeCustomer 호출이 성공하면 상태가 '지불 완료'로 변경되고, getStatusQuery를 계속 폴링하던 드라이버 사이트가 업데이트된 상태를 받습니다. 그리고 'Pick up' 버튼을 표시합니다.
 
@@ -207,12 +323,23 @@ getStatusQuery를 전달하는 order 함수가 호출되면, setHandler에 전�
 
 apps/driver/pages/api/[trpc].ts
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 pickUp: t.procedure
   .input(z.string())
-  .mutation(async ({ input: orderId, ctx }) => 
+  .mutation(async ({ input: orderId, ctx }) =>
     ctx.temporal.workflow.getHandle(orderId).signal(pickedUpSignal)
   ),
 ```
@@ -231,9 +358,20 @@ export async function order(productId: number): Promise<void> {
       state = 'Picked up'
     }
   })
-```  
+```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 함수의 하단에서는 고객에 청구된 후에 픽업이 발생할 때까지 기다려왔다:
 
@@ -263,7 +401,18 @@ export async function order(productId: number): Promise<void> {
 
 `await condition(() => state === 'Picked up', '1 min')` 함수는 상태 변화를 'Picked up'으로 변경할 때까지 1분 동안 대기합니다. 1분이 지나도 상태가 변경되지 않으면 false를 반환하고 고객에게 환불을 합니다. (우리는 요리사와 배송 기사의 속도에 엄격한 기준을 가지고 있거나, 데모 앱의 사용자가 모든 실패 모드를 볼 수 있기를 원하는 것 같아요 😄.)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 배송
 
@@ -292,7 +441,18 @@ export async function order(productId: number): Promise<void> {
   await sendPushNotification('✅ 주문이 배달되었습니다!')
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 배송이 성공적으로 완료되면 고객이 식사를 하는 데 한 분을 기다리고, 그들에게 경험을 평가하도록 요청합니다.
 
@@ -306,8 +466,18 @@ export async function order(productId: number): Promise<void> {
 
 ![이미지](/assets/img/2024-05-17-BuildingReliableDistributedSystemsinNode_1.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 요약
 
@@ -319,7 +489,18 @@ export async function order(productId: number): Promise<void> {
 
 이를 통해 분산 시스템에 대한 여러 문제점을 해결할 수 있었으며:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 로컬 변수를 사용하여 상태를 데이터베이스에 저장하는 대신에 활용할 수 있습니다.
 - 주문이 너무 오래 걸려 주문을 취소하거나 chargeCustomer와 같은 일시적 함수를 재시도하고 시간 초과하는 내장 기능을 위해 데이터베이스에 타이머를 설정할 필요가 없었습니다.
@@ -331,7 +512,18 @@ export async function order(productId: number): Promise<void> {
 
 # 더 배우기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 알아보려면 다음 자료를 추천합니다:
 
@@ -349,8 +541,19 @@ export async function order(productId: number): Promise<void> {
 - TS SDK 1.0.0 릴리스
 - Workflow 결정론을 강제하기 위해 V8 독립체 사용하는 방법
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-💬 하커 뉴스, 레딧, 트위터, 또는 링크드인에서 토론해보세요. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+💬 하커 뉴스, 레딧, 트위터, 또는 링크드인에서 토론해보세요.
 
 이 게시물 초안을 읽어준 제시카 웨스트, 브라이언 호건, 애밀리아 망고, 그리고 짐 워커에게 감사드립니다.

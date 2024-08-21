@@ -3,16 +3,13 @@ title: "리액트 앱에서 노드js 백엔드를 통해 API 호출 보안하기
 description: ""
 coverImage: "/assets/img/2024-06-20-SecuringAPICallsinReactAppswithNodejsBackend_0.png"
 date: 2024-06-20 07:35
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-SecuringAPICallsinReactAppswithNodejsBackend_0.png
 tag: Tech
 originalTitle: "Securing API Calls in React Apps with Node.js Backend"
 link: "https://medium.com/@aifuture/securing-api-calls-in-react-apps-with-node-js-backend-a485812955c6"
 isUpdated: true
 ---
-
-
-
 
 오늘날 연결된 세상에서 안전한 웹 앱을 만드는 것은 매우 중요합니다. 애플리케이션의 통신 링크는 민감한 사용자 데이터를 관리하거나 거래를 돕는 경우 모두 안전해야 합니다. 다른 이의 엿보는 데서 민감한 데이터를 보호하기 위해, 리액트 프로젝트에서 API 호출을 안전하게 하는 방법에 대해 살펴보면서 업계 모베스트 프랙티스를 준수합니다.
 
@@ -23,7 +20,18 @@ isUpdated: true
 
 우리의 여정은 Node.js와 Express.js를 사용하여 백엔드를 설정하는 것으로 시작됩니다. Express.js는 Node.js를 위한 인기 있는 웹 애플리케이션 프레임워크입니다. 우리는 인증 기능을 갖춘 간단한 RESTful API를 만들어 보호된 리소스에만 인증된 사용자가 접근할 수 있도록 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희 Node.js 백엔드에서는:
 
@@ -33,45 +41,45 @@ isUpdated: true
 
 ```js
 // server.js
-const express = require('express');
-const jwt = require('jsonwebtoken');
+const express = require("express");
+const jwt = require("jsonwebtoken");
 
 const app = express();
 const PORT = process.env.PORT || 5000;
-const SECRET_KEY = 'your_secret_key';
+const SECRET_KEY = "your_secret_key";
 
 app.use(express.json());
 
 // 사용자 데이터 모의 (실제 시나리오에서는 데이터베이스에서 검색됨)
 const users = [
-  { id: 1, username: 'user1', password: 'password1' },
-  { id: 2, username: 'user2', password: 'password2' }
+  { id: 1, username: "user1", password: "password1" },
+  { id: 2, username: "user2", password: "password2" },
 ];
 
 // JWT 토큰 생성을 위한 로그인 라우트
-app.post('/login', (req, res) => {
+app.post("/login", (req, res) => {
   const { username, password } = req.body;
-  const user = users.find(u => u.username === username && u.password === password);
+  const user = users.find((u) => u.username === username && u.password === password);
   if (!user) {
-    return res.status(401).json({ message: '유효하지 않은 사용자 이름 또는 비밀번호' });
+    return res.status(401).json({ message: "유효하지 않은 사용자 이름 또는 비밀번호" });
   }
   const token = jwt.sign({ userId: user.id }, SECRET_KEY);
   res.json({ token });
 });
 
 // 보호된 라우트
-app.get('/api/data', verifyToken, (req, res) => {
-  res.json({ message: '보호된 데이터' });
+app.get("/api/data", verifyToken, (req, res) => {
+  res.json({ message: "보호된 데이터" });
 });
 
 function verifyToken(req, res, next) {
   const token = req.headers.authorization;
   if (!token) {
-    return res.status(401).json({ message: '인가되지 않음' });
+    return res.status(401).json({ message: "인가되지 않음" });
   }
   jwt.verify(token, SECRET_KEY, (err, decoded) => {
     if (err) {
-      return res.status(401).json({ message: '유효하지 않은 토큰' });
+      return res.status(401).json({ message: "유효하지 않은 토큰" });
     }
     req.userId = decoded.userId;
     next();
@@ -85,7 +93,18 @@ app.listen(PORT, () => {
 
 # React로 프론트엔드 구현하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 백엔드 설정이 완료되어, 이제 프론트엔드에 주력하게 됩니다. 리액트 애플리케이션을 구축하여 백엔드 API와 상호작용할 것입니다. 리액트 앱은 사용자 인증을 용이하게 하며, 보호된 데이터를 가져오기 위해 백엔드로 요청을 보냅니다.
 
@@ -97,30 +116,30 @@ app.listen(PORT, () => {
 
 ```js
 // App.js
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 function App() {
-  const [token, setToken] = useState('');
-  const [data, setData] = useState('');
+  const [token, setToken] = useState("");
+  const [data, setData] = useState("");
 
   const login = async () => {
-    const response = await fetch('/login', {
-      method: 'POST',
+    const response = await fetch("/login", {
+      method: "POST",
       headers: {
-        'Content-Type': 'application/json'
+        "Content-Type": "application/json",
       },
-      body: JSON.stringify({ username: 'user1', password: 'password1' })
+      body: JSON.stringify({ username: "user1", password: "password1" }),
     });
     const { token } = await response.json();
     setToken(token);
   };
 
   const fetchData = async () => {
-    const response = await fetch('/api/data', {
-      method: 'GET',
+    const response = await fetch("/api/data", {
+      method: "GET",
       headers: {
-        'Authorization': token
-      }
+        Authorization: token,
+      },
     });
     const result = await response.json();
     setData(result.message);
@@ -138,7 +157,18 @@ function App() {
 export default App;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # API 호출 및 데이터 전송 보안
 
@@ -151,7 +181,18 @@ API 호출을 보호하는 것은 여러 층의 보호를 포함합니다:
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React 프로젝트에서 Node.js 백엔드와 API 호출을 할 때는 최상의 방법을 준수하고 견고한 보안 메커니즘을 적용하여 안전하게 보호할 수 있습니다. JWT 토큰으로 인증 설정부터 서버를 통해 요청 프록시하는 것까지, 각 단계는 미인가된 접근으로부터 민감한 데이터를 보호하고 잠재적인 보안 문제를 예방하는 데 중요합니다.
 

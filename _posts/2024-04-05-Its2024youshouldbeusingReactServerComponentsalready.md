@@ -3,17 +3,13 @@ title: "2024년에는 React Server Components를 사용해야 하는 이유"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Its 2024, you should be using React Server Components already"
 link: "https://medium.com/itnext/its-2024-you-should-be-using-react-server-components-already-6cb24a7140a1"
 isUpdated: true
 ---
-
-
-
-
 
 ## 모든 프로젝트에서 실제로 RSC를 사용해야 하는 3가지 이유
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 하지만 그것만이 아니라, 그들은 많은 혜택을 놓치고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 글에서는 여러분에게 그들을 사용하도록 설득하려고 해요. 그러니 시작해볼까요?
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 만약 여러분이 항상 프런트엔드 개발자였다면, 이것이 실제로 여러분이 필요한 빠진 조각일 수도 있으니 주의 깊게 읽어보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 RSC는 서버에서 실행됩니다 (따라서 이름에 "서버" 부분이 포함되어 있습니다). 하지만 이게 정확히 무슨 의미를 가지는 걸까요?
 
@@ -45,7 +63,18 @@ RSC는 서버에서 실행됩니다 (따라서 이름에 "서버" 부분이 포�
 
 이 번들은 React Server Component Payload라고 불리며, 그 안에는 브라우저가 다음을 찾을 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 각 RSC를 실행하여 생성된 실제 HTML.
 - 브라우저에서 활성화되어야 하는 클라이언트 구성 요소를 위한 HTML 내부 플레이스홀더.
@@ -57,7 +86,18 @@ RSC는 서버에서 실행됩니다 (따라서 이름에 "서버" 부분이 포�
 
 이것은 주변에서 자주 묻는 질문입니다. 혼동을 이해합니다만, 아니요, RSC와 SSR은 같은 것이 아닙니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SSR (서버 사이드 렌더링)은 전체 애플리케이션을 서버에서 렌더링한 다음 그것을 클라이언트로 보내 하이드레이션이 발생하는 반면, RSC는 단일 구성 요소에만 집중합니다. 그들은 렌더링 프로세스를 최적화하지만 더 세분화된 수준에서 이루어집니다.
 
@@ -67,7 +107,18 @@ SSR (서버 사이드 렌더링)은 전체 애플리케이션을 서버에서 �
 
 React 구성 요소에서 데이터 가져오기를 하다가 곤란했던 적이 있나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일반적으로 다음과 같이 진행됩니다:
 
@@ -81,7 +132,18 @@ React 구성 요소에서 데이터 가져오기를 하다가 곤란했던 적�
 - 사용자에게 데이터 가져오기 로직이 노출되어, 코드와 로직이 최종 사용자(또는 잠재적 공격자)에게 노출될 수 있습니다.
 - 데이터 소스의 오류 처리 로직이 UI 구성 요소와 결합되는 문제가 발생할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 대신 옵션 2를 선택하게 되면, 그것의 보안 측면을 해결하게 되지만, 데이터 가져오기 오류 처리 로직을 UI 컴포넌트에 결합하지 않아도 된다는 것이 사실입니다. 그러나 내부 API 엔드포인트를 생성하는 추가 코드 작성 작업을 계속해야 합니다.
 
@@ -110,7 +172,18 @@ async function MyComponent() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서, 거기에 무엇이 있나요? 한 번 자세히 살펴보죠:
 
@@ -127,7 +200,18 @@ async function MyComponent() {
 - 이 방법을 사용하면 CORS 문제에 부딪힐 위험도 없습니다.
 - getUserData 함수에서 어떤 데이터 소스든 실제로 쿼리할 수 있습니다. 데이터베이스, 외부 API 또는 로컬 텍스트 파일이든지, 어디서든 원하는 데이터를 가져올 수 있죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서 모두 결론적으로 지금까지 큰 성과를 거뒀네요. 하지만 계속해서 나아가요!
 
@@ -137,7 +221,18 @@ async function MyComponent() {
 
 그럼 이유가 무엇을 의미하는지 알아봐요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 RSC는 서버에서 렌더링되므로 브라우저가 DOM의 일부를 렌더링하는 데 필요한 작업을 하지 않아도 된다는 점이 가장 먼저 눈에 띕니다. 예, 서버에서 해당 노드를 받아 전체 트리에 추가해야하지만 코드를 구문 분석하고 HTML 요소를 동적으로 생성한 후에야 DOM을 업데이트하는 데 관여하는 JavaScript가 없습니다.
 
@@ -147,7 +242,18 @@ RSC는 서버에서 렌더링되므로 브라우저가 DOM의 일부를 렌더�
 
 # 이유 #3: 더 간단한 UI 코드
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 RSC를 사용하기 시작하는 또 다른 매우 타당한 이유는 클라이언트 구성 요소의 로직을 간단화할 수 있다는 것입니다.
 
@@ -157,7 +263,18 @@ RSC를 사용하기 시작하는 또 다른 매우 타당한 이유는 클라이
 
 이렇게 하면 클라이언트 구성 요소의 크기를 줄일 수 있어서 새로운 구성 요소가 렌더링되어야 할 때 클라이언트로 전송되는 번들의 크기도 줄일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 서버 컴포넌트를 추가함으로써 이제 클라이언트 전용 컴포넌트 내에 있던 코드를 분리할 수 있게 되었습니다. UI와 관련이 없는 논리를 수행하던 불필요한 코드를 제거하고, 렌더링 부분은 건드리지 않고 서버로 이동할 수 있습니다.
 
@@ -167,7 +284,18 @@ RSC를 사용하기 시작하는 또 다른 매우 타당한 이유는 클라이
 
 요약하자면, 리액트 서버 컴포넌트는 나쁜 것이 아니라 사실상 좋습니다. 단, 과거에 백엔드 코딩 경험이 없었다면 처음에는 많은 생각의 전환이 필요할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 개발 업무에 많은 개선 사항을 가져다 주지만, 제가 발견한 주요 사항은 다음과 같아요:
 

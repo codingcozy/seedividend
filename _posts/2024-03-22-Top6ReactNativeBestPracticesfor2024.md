@@ -3,17 +3,13 @@ title: "2024년 최신 React Native 팁 6가지"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Top 6 React Native Best Practices for 2024"
 link: "https://medium.com/@hello_chirag/top-6-react-native-best-practices-for-2024-d90763aeedfc"
 isUpdated: true
 ---
-
-
-
-
 
 # React Native 프로젝트를 한 단계 높이고 싶으신가요? 혁신적인 소프트웨어 솔루션의 신뢰할 수 있는 파트너 Striver와 연결하세요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 코딩 세계에서 'best practices(최고의 관행)'는 엄격한 규칙보다는 지침을 의미합니다. 처음에는 선택 사항처럼 보일 수 있지만, 이러한 제안에 따르는 것은 코드베이스가 확장됨에 따라 중요해집니다. 처음에는 이러한 규칙 없이도 코드가 적절하게 작동할 수 있지만, 코드가 성장함에 따라 그 유지와 가독성을 유지하는 것이 점점 더 어려워집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Top-6-React-Native-Best-Practices-for-2024_1](/assets/img/Top-6-React-Native-Best-Practices-for-2024_1.png)
 
@@ -33,7 +40,18 @@ React Native 개발에 몰두하고 모바일 앱 프로젝트에서 탁월함�
 
 ![Top-6-React-Native-Best-Practices-for-2024_2](/assets/img/Top-6-React-Native-Best-Practices-for-2024_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1. 리액트 네이티브 앱에 TypeScript 사용하기
 
@@ -47,7 +65,18 @@ function calculatePrice(order) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현재 코드는 잘 작동하지만 주문 객체가 어떤 속성을 포함하는지에 대해 많은 정보를 제공하지 않습니다. 이는 속성이 존재하지 않는 속성에 액세스하려고 할 때 더 큰 충돌로 이어질 수 있습니다.
 
@@ -69,7 +98,18 @@ function calculatePrice(order: Order) {
 
 이제 동일한 기능을 가진 함수를 제공하며 이제 코드에서 객체 속성 및 해당 유형을 인식하기 때문에 기능을 확장하는 것이 더 쉬워집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 클래스 컴포넌트 대신 함수형 컴포넌트 사용하기
 
@@ -81,7 +121,18 @@ function calculatePrice(order: Order) {
 함수형 컴포넌트 예시
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import React, { Component } from "react";
@@ -130,7 +181,18 @@ const FunctionalComponent = () => {
 export default FunctionalComponent;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 함수형 컴포넌트 예제에서는 리액트의 useState 훅을 사용하여 상태를 관리합니다. 컴포넌트는 UI를 렌더링하기 위해 JSX를 반환하는 간단한 JavaScript 함수로 정의됩니다.
 
@@ -140,7 +202,18 @@ export default FunctionalComponent;
 
 동시에 의존성이 올바른 순서로 import되도록도 확인해야 합니다. 순서가 올바르지 않으면 컴포넌트의 동작에 영향을 미치고 찾기 어려운 버그를 발생시킬 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기에 가져온 항목을 구성하는 방법 예제가 있어요:
 
@@ -162,7 +235,18 @@ import { StyledCard } from "./styles.ts";
 
 이러한 문제를 피하기 위해 올바른 가져오기 순서를 자동화하고 강제할 수 있는 Eslint와 Prettier와 같은 형식 지원 도구를 사용할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. 긴 임포트를 피하려면 경로 별칭을 사용하세요
 
@@ -177,7 +261,18 @@ OR;
 import { CircleButton } from "buttons";
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 TypeScript와 React Native에서 경로 별칭을 사용하여 코드에서 더 짧고 의미 있는 가져오기 경로를 생성하는 방법입니다.
 
@@ -187,7 +282,18 @@ import { CircleButton } from "buttons";
 2. baseUrl을 . 으로 설정하여 디렉토리의 루트를 나타냅니다. 이는 모든 경로 별칭의 시작점을 설정합니다.
 3. paths 객체에 경로 별칭을 추가하세요. 이 예시에서는 두 개의 경로 별칭이 정의되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```json
 // tsconfig.json
@@ -217,7 +323,18 @@ import { CircleButton } from "buttons";
 
 2. React Native 경로 별칭
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저 개발자 의존성으로 babel-plugin-module-resolver를 설치해주세요.
 
@@ -250,7 +367,18 @@ module.exports = function (api) {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 5. React Native 앱에서 반응형 레이아웃 만들기
 
@@ -260,7 +388,18 @@ React에서 반응형 스타일 속성은 다양한 화면 크기 및 방향에 
 
 충돌 분석 도구는 앱을 24시간 365일 감시해주는 마법 도구와 같습니다. 이 도구들은 실시간 모니터링을 통해 충돌 및 오류를 식별하는 데 도움을 줍니다. 이 도구들은 충돌 데이터를 분석하고 무슨 일이 일어나고 있는지 파악할 수 있도록 도와줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서, 개발 과정 중에 어플이 갑자기 크래시가 발생했을 때, 크래시 분석을 도입하면 쉽게 크래시 발생 원인을 찾을 수 있어요.
 
@@ -270,4 +409,15 @@ Sentry, Firebase, Crashlytics 등과 같이 멋진 크래시 분석 도구들이
 
 React Native 최고의 실천 방법과 더불어 깊이 있는 탐구를 하려면, Medium의 특집 블로그인 'React Native Best Practices by Striver'를 읽어보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

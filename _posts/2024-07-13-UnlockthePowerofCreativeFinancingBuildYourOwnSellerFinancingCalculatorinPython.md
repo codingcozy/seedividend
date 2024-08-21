@@ -3,16 +3,13 @@ title: "파이썬으로 셀러 파이낸싱 계산기 만들기 창의적 금융
 description: ""
 coverImage: "/assets/img/2024-07-13-UnlockthePowerofCreativeFinancingBuildYourOwnSellerFinancingCalculatorinPython_0.png"
 date: 2024-07-13 19:45
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-UnlockthePowerofCreativeFinancingBuildYourOwnSellerFinancingCalculatorinPython_0.png
 tag: Tech
 originalTitle: "Unlock the Power of Creative Financing: Build Your Own Seller Financing Calculator in Python 🏠💡"
 link: "https://medium.com/@analyticsariel/unlock-the-power-of-creative-financing-build-your-own-seller-financing-calculator-in-python-97759329e9e0"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-07-13-UnlockthePowerofCreativeFinancingBuildYourOwnSellerFinancingCalculatorinPython_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 높은 가격, 높은 이자율, 그리고 낮은 재고로 특징 지어지는 현재 시장에서는, 크리에이티브 파이낸싱 전략은 이러한 도전에 대처하고자 하는 부동산 투자자에게 특히 가치 있는 솔루션일 수 있습니다 🚀.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 판매자 융자란 무엇인가요? 🤔
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 이는 구매자가 부동산을 쉽게 구입하고, 판매자가 그렇지 않으면 어려운 부동산을 판매하는 데 도움을 줄 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 왜 판매자 금융이 부동산 투자자에게 가장 좋은 선택인가요?
 
@@ -45,7 +64,18 @@ isUpdated: true
 
 파이썬으로 직접 판매자 금융 계산기를 작성하기에 들어가기 전에, Streamlit 앱을 소개하고 싶습니다 💻.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 앱은 여기에서 이용할 수 있으며, 우리가 살펴볼 동일한 코드를 실시간으로 사용할 수 있게 해줍니다. 매개변수를 입력하고 결과를 즉시 확인할 수 있어 잠재적 거래를 분석하는 강력한 도구가 될 것입니다.
 
@@ -60,7 +90,18 @@ isUpdated: true
 - balloon_due_years = 5
 - interest_only_years = False
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 1: 초기 대출 금액 설정 💵
 
@@ -82,7 +123,18 @@ print(f"대출 금액: ${loan_amount:0,.0f}")
 
 설명: 우리는 판매 가격과 계약금 비율에 기반하여 계약금을 계산하고, 판매 가격에서 계약금을 뺀 결과를 통해 대출 금액을 결정합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 2: 매월 상환액 계산하기 📅
 
@@ -110,7 +162,18 @@ print(f"매월 상환액: ${매월 상환액:0,.2f}")
 
 해설: 대출금액, 연간 이자율 및 대출 기간을 사용하여 매월 상환액을 계산합니다. 이 단계에서는 월 이자율을 결정하고 완전 상환 대출의 매월 상환액 공식을 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 3: 분할 상환 표 작성하기 📊
 
@@ -137,7 +200,18 @@ df_amortization_table.head()
 
 설명: 월별 지불의 이자 및 원금 부분을 계산하고 남은 대출 잔액을 업데이트합니다. 이 정보는 분할 상환 표에 저장되며 DataFrame을 사용하여 표시됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 4: 풍선 상환 및 이자 전만기 처리하기 🎈
 
@@ -173,7 +247,18 @@ print(f"총 지급액: ${total_payments_made:0,.2f}")
 
 설명: 풍선 상환금이 있을 경우, 분할상환표를 이에 맞게 조정합니다. 풍선 상환 후 잔금은 0으로 설정됩니다. 또한 총 지급 이자와 총 지급액을 계산합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 완성된 코드 구현 🖥️
 
@@ -240,7 +325,18 @@ print(f"총 지불 금액: ${round(total_payments_made, 2)}")
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 단계를 따라가면 Python에서 강력한 판매자 금융 계산기를 만들 수 있어요.
 
@@ -250,7 +346,18 @@ print(f"총 지불 금액: ${round(total_payments_made, 2)}")
 
 창조적인 금융 전략을 활용할 기회를 찾고 다음 투자를 성공적으로 이루는 Coffee Clozers Creative을 확인해보세요! 👉
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 노트북 복제
 

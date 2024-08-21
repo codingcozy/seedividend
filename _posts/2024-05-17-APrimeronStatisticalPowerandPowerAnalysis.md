@@ -3,16 +3,13 @@ title: "통계적 파워와 파워 분석 개요"
 description: ""
 coverImage: "/assets/img/2024-05-17-APrimeronStatisticalPowerandPowerAnalysis_0.png"
 date: 2024-05-17 20:47
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-17-APrimeronStatisticalPowerandPowerAnalysis_0.png
 tag: Tech
 originalTitle: "A Primer on Statistical Power and Power Analysis"
 link: "https://medium.com/@keith-mcnulty/a-primer-on-statistical-power-and-power-analysis-bdce41e97475"
 isUpdated: true
 ---
-
-
-
 
 만약 내 경험이 너의 것과 비슷하다면, 너도 일할 때 '통계적 파워'에 대해 다양한 사람들이 이야기하는 것을 들어본 적이 있을 거야. 대부분의 경우, 이들 사람들은 더 큰 표본 크기를 주장하면서 보통 더 많은 n이 항상 좋다는 모호한 개념을 기반으로 이야기하는 것 같아.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 ‘통계적 파워’라는 용어는 가설 검정을 할 때만 의미가 있어. 아마도 네가 기억할 수 있듯이, 가설 검정은 데이터 샘플의 통계적 특성을 사용해 그 샘플이 추출된 전체 모집단에 대한 진술의 확신 수준을 결정하는 것을 포함해. 예를 들어보자. 사람들 분석 데이터 R 패키지의 세일즈인 사원들의 데이터 셋은 기술 회사의 샘플 세일즈인들의 데이터를 포함하고 있어, 이들의 연간 매출액(천 달러)과 최근에 증가하는 순서 척도의 평가 등급을 포함하고 있어. 처음 몇 행을 살펴보자.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 library(peopleanalyticsdata)
@@ -55,7 +63,18 @@ t.test(sales4, sales1)$p.value
 
 위 결과는 만일 우리의 귀무 가설이 전체 인구에서 사실이라면, 우리의 샘플이 보이는 방식은 매우 잘 나타나지 않을 가능성이 있다는 것을 의미합니다. 우리는 귀무 가설을 기각하기로 합의하는 확률 수준을 정의하고, 이를 알파로 알려집니다. 종종 알파 값은 0.05이지만, 때로는 더 낮을 수도 있습니다. 여기서 알파 값을 0.05로 설정하면, 귀무 가설을 편안하게 기각하고 대립 가설을 결론 내리게 됩니다 — 즉, 인구에서 낮은 성과자와 높은 성과자 간 평균 매출액에 차이가 있다는 것입니다. 알파 값을 0.05로 선택함으로써, 평균적으로 20번 중 1회 틀린 결론을 내리게 될 것이라는 것을 유의하십시오. 가설 검정은 확률에 관한 것이며, 확신에 관한 것이 아닙니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 통계적 유의성 정의
 
@@ -68,7 +87,18 @@ t.test(sales4, sales1)$p.value
 
 통계적 유의성은 4번과 관련이 있습니다 — 이는 모집단에 대해 거짓이라는 것이 주어졌을 때 샘플을 기반으로 귀무 가설이 기각될 확률입니다. 직관적으로, 이는 샘플의 크기, 실제(미관측) 모집단의 차이(적절히 정규화된), 그리고 귀무 가설을 기각하는 확신의 수준(알파)에 따라 달라집니다. 예를 들어 실제 모집단의 차이가 더 클 경우, 더 작은 샘플에서 확인할 수 있습니다. 알파가 작을 경우, 더 큰 모집단 차이나 더 높은 'n'이 필요할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 방에 있는 코끼리는 물론 우리는 인구 차이를 결코 알 수 없을 것입니다. 우리는 우리 샘플의 차이만을 알고 있습니다. 따라서 보통 우리는 우리 샘플에서 관측된 통계적인 파워를 만족시키고 자신을 다스립니다. 여기서 우리의 영업사원 예시를 들어 보면, 이것이 t-검정이기 때문에 우리는 Cohen의 효과 크기 d를 정규화된 관측된 차이로 사용합니다. 이를 샘플 크기와 알파 0.05와 결합하여 우리의 가설 검정을 위한 통계적인 파워를 0.996로 계산할 수 있습니다. 우리는 귀무가설이 정확하게 기각될 것이라고 매우 확신할 수 있습니다.
 
@@ -97,13 +127,24 @@ wp.t(n4, n1, d = d, type = "two.sample.2n")
 
 솔직히 말해서 그렇게 자주 사용되지는 않습니다. 당신이 샘플들과 데이터들을 가지고 이미 가설 테스트를 진행한 상황에서, 통계적인 파워는 실제로 단지 얼마나 잘 알파 바를 넘어섰는지를 나타내는 지표일 뿐입니다. 알파가 덜 엄격할수록 파워가 높아집니다. 한번 확인해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 library(ggplot2)
 
 # 통계적 파워
-test <- WebPower::wp.t(n4, n1, d = d, type = "two.sample.2n", 
+test <- WebPower::wp.t(n4, n1, d = d, type = "two.sample.2n",
                        alpha = seq(0.05, 0.0001, by = -0.0001))
 
 test_df <- data.frame(
@@ -124,8 +165,18 @@ ggplot(test_df, aes(x = Alpha, y = Power)) +
 
 하지만 실제로는 관측된 효과 크기를 알아야 하는데, 물론 아직 실험을 실행하지 않았기 때문에 알 수가 없습니다. 따라서 통계적 파워 계산에서 나오는 대부분의 샘플 크기 추정은 민감도 범위의 형태를 취하는 경향이 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 실험은 조직하고 자원을 조달하기 어려울 수 있으며, 통계적 파워는 필요한 규모를 결정하는 데 도움이 될 수 있습니다. 또한 샘플 크기를 테스트할 때 중요한 부분에서 추가적인 n이 파워에 큰 영향을 미치지 않는 지점이 있는지 보여줄 수도 있습니다. 예를 들어, 중간 효과 크기와 알파 0.05를 가진 쌍체 t-테스트에서 여러 샘플 크기 범위를 시험하면, 추가적인 n이 파워에 큰 차이를 만들지 않는 시점을 볼 수 있습니다.
 
@@ -149,7 +200,18 @@ ggplot(power_df, aes(x = n, y = Power)) +
 
 전반적으로, 통계적 파워는 총명치인 도구입니다. 이것은 주로 실험 디자인과 관련된 특정 상황에서만 유용한 가설 검정의 '볼트온'으로 생각할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 통계적 역량 및 검정 및 회귀 모델에서 사용되는 다양한 통계에 대해 더 자세히 탐구하고 싶다면, People Analytics의 Handbook of Regression Modeling의 11장을 확인해보세요.
 

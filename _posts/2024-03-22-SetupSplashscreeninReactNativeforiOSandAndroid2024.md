@@ -3,17 +3,13 @@ title: "React 네이티브에서 iOS 및 Android용 스플래시 화면 추가�
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Set up Splash screen in React Native for iOS and Android  2024"
 link: "https://medium.com/@svbala99/set-up-splash-screen-in-react-native-for-ios-and-android-2023-dbedb87fe75e"
 isUpdated: true
 ---
-
-
-
-
 
 안녕하세요 여러분. 좋은 하루 되시길 바랍니다. 이번에는 리액트 네이티브 앱에서 안드로이드 및 iOS용 스플래시 화면을 설정하는 경험을 공유하려고 해요. 함께 알아보겠습니다..
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 스플래시 화면은 사용자가 앱의 기능을 이용하기 전에 나타나는 첫 화면입니다. 스플래시 화면은 모바일 애플리케이션의 브랜드 이름과 아이콘을 사용자에게 기억되게 하는 가장 좋은 방법 중 하나라고 할 수 있어요. 더 많은 내용은 여기에서 확인해보세요: https://docs.expo.dev/develop/user-interface/splash-screen/
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React Native에서 스플래시 화면을 만드는 것에는 많은 이점이 있어요. 예를 들어 API에서 데이터를 로드하는 시나리오를 생각해보세요. 사용자가 기다리는 동안 로더를 보여주는 것은 좋은 사용자 경험입니다. 같은 원리가 스플래시 화면에도 적용됩니다. 앱이 시작되자마자 로더를 보여주면 사용자가 앱을 기다리는 동안 깔끔하고 잘 디자인된 화면을 제공할 수 있어요.
 
@@ -33,7 +40,18 @@ React Native에서 스플래시 화면을 만드는 것에는 많은 이점이 �
 
 ![iOS와 Android용 React Native에서 스플래시 화면 설정하기](/assets/img/Set-up-Splash-screen-in-React-Native-for-iOS-and-Android-2024_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모바일 애플리케이션을 위한 스플래시 화면을 만드는 것은 조심스러울 수 있습니다. 스플래시 화면 해상도의 불일치로 인해 일부 기기에서 표시 문제가 발생하지 않도록 조심해야 합니다. 예를 들어, 안드로이드 기기의 요구 사항은 iOS와는 전혀 다릅니다. 대부분의 숙련된 디자이너들은 두 기기 모두에 필요한 스플래시 화면 해상도를 처음부터 만들어낼 수 있습니다.
 
@@ -41,7 +59,18 @@ React Native에서 스플래시 화면을 만드는 것에는 많은 이점이 �
 
 먼저, Appicon에 들어가세요. 이미지를 상자에 끌어다 놓고, 기본 크기로 4배를 선택해주세요. iOS와 Android 모두에 체크하고 '생성'을 클릭하십시오.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼, 이제 다운로드한 파일을 추출해서 iOS 및 Android 폴더를 클론한 스타터 프로젝트의 assets 디렉토리에 위치한 assets 폴더로 복사해주세요:
 
@@ -58,7 +87,18 @@ yarn add react-native-splash-screen
 
 # iOS용 스플래시 화면 구축
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 cd ios // IOS 디렉터리로 이동하세요
@@ -95,7 +135,18 @@ pod install
 
 이제 Xcode에서 프로젝트 워크스페이스를 열고 Images를 클릭한 다음 Appicon 아래 아무 곳이나 마우스 오른쪽 버튼을 클릭하고 새 이미지 세트를 선택하세요. 이미지 이름을 "splash"로 설정하고 assets 폴더를 열어 iOS 폴더로 이동하세요. iOS의 세 가지 이미지를 Xcode의 1x, 2x 및 3x란에 각각 드래그하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/Set-up-Splash-screen-in-React-Native-for-iOS-and-Android-2024_5.png)
 
@@ -105,7 +156,18 @@ pod install
 
 ![이미지](/assets/img/Set-up-Splash-screen-in-React-Native-for-iOS-and-Android-2024_6.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지 뷰를 설정했으니 이미지 속성 아이콘을 클릭하고 이미지를 "splash"로 변경하세요. 콘텐츠 모드를 "aspect fit"으로 설정하세요. 아래와 같이 설정해주세요:
 
@@ -115,7 +177,18 @@ pod install
 
 MainActivity.kt 파일에 다음 라인을 추가하세요:-
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 package com.techoedgecorp.aptster
@@ -149,7 +222,18 @@ class MainActivity : ReactActivity() {
 
 <img src="/assets/img/Set-up-Splash-screen-in-React-Native-for-iOS-and-Android-2024_8.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 이미지에 표시된 대로, 적절한 폴더에 만들어둔 스플래시 화면용 launch_screen.png 이미지를 추가하세요.
 
@@ -171,7 +255,18 @@ class MainActivity : ReactActivity() {
 
 # 앱이 로드된 후 스플래시 화면 숨기기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import SplashScreen from 'react-native-splash-screen';
@@ -196,6 +291,17 @@ return ret;
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그거야. 우리는 iOS와 Android용 스플래시 에셋으로 스플래시 화면을 만들었어. 고마워.

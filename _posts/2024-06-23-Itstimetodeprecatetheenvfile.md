@@ -3,16 +3,13 @@ title: "env 파일 이제는 그만 둘 때  더 나은 대안 찾기"
 description: ""
 coverImage: "/assets/img/2024-06-23-Itstimetodeprecatetheenvfile_0.png"
 date: 2024-06-23 13:05
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-Itstimetodeprecatetheenvfile_0.png
 tag: Tech
 originalTitle: "It’s time to deprecate the .env file"
 link: "https://medium.com/@tony.infisical/its-time-to-deprecate-the-env-file-for-a-better-stack-a519ac89bab0"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-06-23-Itstimetodeprecatetheenvfile_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 # .env에 대한 내 의견은 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 .env 파일을 사용하는 접근 방식은 zuverlässigekeit(신뢰성) 및 보안과 관련된 상당한 결함을 가지고 있다고 생각하지만 여기에서 자세히 설명하는 것과는 별개로, 이를 계속해서 사용하여 오래된, 부실한 개념을 앞세우는 데 대해 더 큰 문제를 느낍니다. 특히 클라우드 네이티브 컴퓨팅 시대를 고려할 때, 우수한 도구를 대면하여 오래된 개념을 보급하는 것은 더욱 부적절합니다. 요즘에는 각 소프트웨어 인프라 수직으로 필요한 목적에 맞는 도구가 있으므로, 오래된, 오류가 발생하기 쉬우며 비효율적인 방식을 대체하기 위한 새로운 산업 표준을 배우고 채택해야 합니다.
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 이전에 언급했듯이, "일에 적합한 적절한 도구"가 필요하며, 특히 오늘날의 환경에서 일의 성격은 확실히 변했습니다. 변수를 관리하는 문맥에서는 대규모 조직에서 복잡한 스택 전반에 걸쳐 조정되는 수천 개 또는 수십만 개의 변수에 대해 빠르게 이야기하게 됩니다. 따라서 이와 관련하여 귀하의 조직 전반에서 사용해야 할 것들에 대해 논의해 보겠습니다, 이미 채택하지 않았다면요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 시크릿 매니저란 무엇이며 환경 변수 관리에서의 역할은 무엇인가요?
 
@@ -45,7 +64,18 @@ isUpdated: true
 - 시크릿이 어떤 식으로 유출되었는지 알게 되지만, 사건을 조사하는 능력이 부족하여 그에 대한 다섯 가지 질문에 대답할 수 없게 됩니다.
 - 시크릿이 유출되고, 복잡한 인프라 내에서 그 위치가 명확하지 않아 즉시 폐기하지 못하는 경우가 발생하여, 확산이 발생합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어떤 사람들에게는 관련성이 적을 수도 있지만 매우 흔하고 문제가 되는 상황들도 있습니다:
 
@@ -56,7 +86,18 @@ isUpdated: true
 
 전반적으로, 시크릿 매니저를 응용 프로그램 구성 및 시크릿에 관한 모든 것을 효과적으로 관리하는 데 도움을 주기 위해 만들어진 목적에 맞는 도구로 생각할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 모두가 "적절한 도구를 올바른 작업에 사용"을 찾고 있습니다
 
@@ -66,7 +107,18 @@ isUpdated: true
 
 # "적절한 도구를 올바른 작업에 사용"은 모두에게 다르게 적용됩니다
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대부분의 사람들이 환경 변수를 가장 잘 관리하는 방법에 대해 의견이 분분한 이유는 "작업" 정의가 다른 사람에게는 다르기 때문이라고 믿습니다. 결과적으로, 일부는 최소한의 추가 도구 사용으로 .env 파일을 사용할 것을 주장하고, 다른 사람들은 시크릿 매니저나 보다 정교한 도구가 필요하다는 데에 동의합니다.
 
@@ -76,7 +128,18 @@ isUpdated: true
 
 오늘날 더 정교한 환경 변수 관리 도구가 필요한 더 구체적인 예시는 현대 은행 인프라에서 발생합니다. 여기서는 핵심 은행 및 대출 발행 등을 포괄하는 시스템이 복잡하며 규정 및 보안 문제로 인해 멀티 클라우드 및 온프레미스로 구성되어 시크릿 스프롤에 직면하는 경우가 일반적입니다. 애플리케이션/서버 구성의 실수가 수백만 명의 은행 고객에게 지불에 영향을 미칠 수 있기 때문에 오류 허용 여부가 낮으며, 그 결과 환경 변수를 잘못 관리하는 가능성을 낮추기 위해 시크릿 매니저를 사용하는 것은 장기적으로 중요한 비용 절감을 이끌어낼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 고유한 케이스 스펙트럼에 따라 각각의 요구 사항이 다르므로, "일에 알맞은 적절한 도구"는 작업의 규모와 함께 조절됩니다. 언제나 도구 선택은 조직의 사용 가능한 자원, 능력 및 적응해야하는 정책을 고려해야 합니다.
 
@@ -86,7 +149,18 @@ isUpdated: true
 
 한 가지 예를 들어보겠습니다. SaaS 플랫폼을 구축하고 다른 조직에게 판매하는 경우를 상상해보세요. 자신의 플랫폼을 공유 클러스터로 구축하여 노드 간에 적용된 환경 변수를 하나의 세트로 제공하는 대신에, 이제 각 고객에게 플랫폼의 전용 클러스터 또는 인스턴스를 제공하도록 인프라를 변경했다고 가정해 봅시다. 이 새로운 모델에서 각 클러스터는 고유한 환경 변수 세트가 필요합니다. 관리해야 할 조직이 1만개일 경우, 각 조직의 클러스터를 위한 비밀 관리를 체계화하고 자동화할 일정 수준의 구조가 필요하다는 것을 빨리 깨닫게 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 보통 비록 특이해 보일지라도, 이 사용 사례는 GitHub, MongoDB, Fly.io 등 다양한 플랫폼에 매우 관련이 높습니다. 예를 들어 Fly.io는 풀 스택 앱 및 데이터베이스를 실행하는 플랫폼으로, 여기에서 플랫폼을 통해 배포된 애플리케이션의 환경 변수/시크릿을 어떻게 관리하는지 공개적으로 문서화하고 있습니다. 이 경우에는 "시크릿이 암호화된 보관소에 저장"되며, "flyctl을 통해 시크릿을 설정하면 시크릿 값이 우리의 API를 통해 전송되어, Fly 앱에 대한 보관소로 기록됩니다. API 서버는 암호화만 할 수 있고, 시크릿 값을 해독할 수는 없습니다. 시크릿 값은 절대 기록되지 않습니다."
 
@@ -96,7 +170,18 @@ isUpdated: true
 
 일반적으로, 조직이 시크릿 매니저가 필요하다고 판단하는 것은 시크릿 매니저 없이 작업하는 것이 고통스러워질 때입니다. 그렇지만 적정한 타이밍을 결정하는 데 도움이 되는 두 가지 지표는 시크릿이 널리 퍼지기 시작하고 회사가 인프라에 더 관심을 기울이기 시작할 때입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, 알아차릴 수 있었을 것으로 생각되는대로, 시크릿 관리자가 필요한 정도는 개발자, CI/CD 파이프라인, 및 변수에 액세스해야 하는 애플리케이션 등의 클라이언트 수에 많이 의존합니다. 일반적으로 그 숫자가 충분히 많아지고 연관된 시크릿 확산이 문제가 될 때, 혼돈을 완화하기 위해 전용 도구를 도입하고 싶어할 것입니다.
 
@@ -106,7 +191,18 @@ isUpdated: true
 
 # 그런데... 인터넷에서는 시크릿 관리자가 필요 없다고 생각하는 사람도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 솔직히 말해서, 모든 산업 전반에 걸친 소프트웨어 도구 카테고리는 지지자와 반대자가 있습니다. 공급망에서 비밀 관리 소프트웨어를 포함한 다양한 도구 집합이 "필요하지 않다"는 이유로 채택하지 말아야 한다고 주장할 수는 있지만, 그 도구들이 산업 전반에 표준으로 자리 잡고 있다는 점에 대해 당신은 틀렸습니다. 사실은 목적에 특화된 개발자 도구는 소프트웨어 스택 및 개발 프로세스를 개선하고, 제품 제공과 직접적으로 관련이 없는 항목들을 전문적으로 제공하는 업체에게 외부로 전담하여 도와줍니다. 예를 들어,
 
@@ -118,7 +214,18 @@ isUpdated: true
 
 비밀 관리의 맥락에서, 이것은 저만의 권고가 아닌 업계 전체에서 채택되는 인프라 실천 방식 및 도구입니다. 비밀 퍼지기가 심각한 문제로 여겨질 때 특정 규모에 도달한 조직이 채택하는 것입니다. 제가 말하는 게 마구잡이 광고가 아니라 그것은 주요 클라우드 제공 업체들이 자사의 비밀 관리 제품을 보유하거나 GitHub나 Ubisoft와 같은 조직들이 어떻게 비밀 관리자를 사용하는지 알아보는 것을 통해 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 좋은데… 하지만 도구의 안전성은 어떻게 되나요?
 
@@ -130,7 +237,18 @@ isUpdated: true
 - 특히 나쁜 행위자들을 위한 주요 대상이 될까봐 걱정하실 수도 있습니다. 이에 대해, Infisical 및 Vault와 같은 오픈 소스 솔루션들을 살펴보는 것을 강력히 추천드립니다. 이러한 솔루션들은 클라우드 인프라나 온프레미스에 배포하여 다른 사람의 대상이 되는 것을 방지할 수 있습니다.
 - 마지막으로, 규모 확장에 따른 시크릿 분산과 관련된 위험을 다루는 것이 문제를 완화하는 전용 도구를 사용하는 것보다 훨씬 나을 수 있습니다. 아직 느끼지 못했을지 모르겠지만, 문제가 자연스럽게 발생하면 알게 될 것입니다. 여기서 사용하는 비유는 시크릿 관리자를 패스워드 관리자에 비교하는 것인데, 많은 암호를 관리해야 할 때 더 유용해집니다. 사용하기 전에 여러 서비스에 걸친 약간의 패스워드에 만족했으며 때때로 암호를 잊어버린 적이 있어 암호 복구 과정을 거쳐 서비스 로그인을 재설정했었습니다. 그렇지만, 서로 다른 암호 요구 사항을 충족시키는 각 암호의 수가 증가함에 따라, 각 조합을 수동으로 추척하고 효과적으로 패스워드 분산에 직면하게 되었습니다. 이것은 나에게 비밀번호 관리자에 가입하도록 설득하였고, 그 이후로는 되돌아보지 않았습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최종적으로, 비밀 노출 문제에 직면할 때 보안 정보가 널리 퍼지는 상황을 고려할 때 비밀 관리자를 사용하는 필요성이 그것이 없는 것에 비해 더 높습니다. 따라서 신뢰할 수 있는 솔루션을 채택하고 권장된 보안 제어를 구현해야 합니다. 해결책 구성이든 개발 주기 전체에서 변수를 최상의 방법으로 검색하는 워크플로 권장사항이든 상관없이요.
 
@@ -140,7 +258,18 @@ isUpdated: true
 
 ![그림](/assets/img/2024-06-23-Itstimetodeprecatetheenvfile_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어쨌든, 이 간단한 예제를 통해 런타임에 환경 변수를 가져오기 위해 Node SDK를 사용할 것입니다. 그러나 환경 변수를 API 호출을 통해 가져오거나, 다른 SDK(파이썬, 자바, C# 등), CLI, 쿠버네티스 오퍼레이터, 인피지컬 에이전트 등의 다른 메서드도 사용할 수 있습니다. 이는 당신의 스택 및 개발 주기와 같은 여러 요인에 따라 당신에게 더 적합할 수 있습니다.
 
@@ -152,7 +281,18 @@ isUpdated: true
 $ npm install @infisical/sdk
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로 SDK를 가져와서 기계 식별 유니버설 인증 자격증명으로 클라이언트 인스턴스를 생성하세요.
 
@@ -160,9 +300,9 @@ $ npm install @infisical/sdk
 import { InfisicalClient, LogLevel } from "@infisical/sdk";
 
 const client = new InfisicalClient({
-    clientId: "YOUR_CLIENT_ID",
-    clientSecret: "YOUR_CLIENT_SECRET",
-    logLevel: LogLevel.Error
+  clientId: "YOUR_CLIENT_ID",
+  clientSecret: "YOUR_CLIENT_SECRET",
+  logLevel: LogLevel.Error,
 });
 ```
 
@@ -170,20 +310,31 @@ const client = new InfisicalClient({
 
 이제 클라이언트를 사용하여 애플리케이션에 필요한 비밀을 필요에 따라 가져올 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 app.get("/", async (req, res) => {
-    // 접근 값 설정
+  // 접근 값 설정
 
-    const name = await client.getSecret({
-        environment: "dev",
-        projectId: "PROJECT_ID",
-        path: "/",
-        secretName: "NAME"
-    });
+  const name = await client.getSecret({
+    environment: "dev",
+    projectId: "PROJECT_ID",
+    path: "/",
+    secretName: "NAME",
+  });
 
-    res.send(`안녕하세요! 제 이름은: ${name.secretValue}`);
+  res.send(`안녕하세요! 제 이름은: ${name.secretValue}`);
 });
 ```
 
@@ -193,7 +344,17 @@ app.get("/", async (req, res) => {
 
 # 결론
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시크릿 매니저는 인프라스트럭처 공간에 처음 입문하는 사람들에게 종종 오해받는 도구지만, 복잡한 인프라 작업을 간소화하고 여러 변수에 의존하는 조직에게 매우 관련이 있습니다. 클라우드 네이티브 컴퓨팅 시대에는 전형적인 인프라가 수백 개 이상의 분산된 서비스 및 복제로 구성되어 있기 때문에, 작업에 적합한 도구를 배우고 사용하는 것이 중요합니다.

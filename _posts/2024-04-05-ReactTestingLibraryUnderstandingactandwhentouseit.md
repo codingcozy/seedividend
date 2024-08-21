@@ -3,17 +3,13 @@ title: "React Testing Library act 함수 이해하기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "React Testing Library Understanding act and when to use it"
 link: "https://medium.com/@AbbasPlusPlus/react-testing-library-understanding-act-and-when-to-use-it-301bd06fd1bc"
 isUpdated: true
 ---
-
-
-
-
 
 ![React Testing Library](/assets/img/ReactTestingLibraryUnderstandingactandwhentouseit_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 act()의 주요 목적은 React 컴포넌트와 관련된 모든 업데이트(예: 상태 변경, 효과 등)가 처리되고 적용된 후 테스트에서 다음 작업으로 넘어가도록 하는 것입니다. 이는 테스트가 실제 브라우저 환경에서 React가 작동하는 방식을 시뮬레이션하도록 도와줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # `act()` 함수를 사용해야 하는 경우
 
@@ -33,7 +40,18 @@ act()의 주요 목적은 React 컴포넌트와 관련된 모든 업데이트(�
 
 다음과 같은 간단한 컴포넌트를 살펴보겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import React, { useState } from "react";
@@ -68,7 +86,18 @@ it("카운트를 증가시킵니다", () => {
 
 이 예시에서는 어떤 경고 메시지도 보이지 않을 수 있습니다. 그러나 비동기 호출과 같은 부작용이 있는 컴포넌트의 경우 "not wrapped in act(...)" 경고가 나타날 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # findBy로 이동
 
@@ -80,7 +109,18 @@ findBy 쿼리는 getBy 쿼리의 슈퍼히어로 버전 같은 것인데 비동�
 const button = await findByRole("button", { name: "Click Me" });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 왜 findBy를 사용하는 것이 더 나은 이유
 
@@ -90,7 +130,18 @@ findBy는 쿼리를 자동으로 act()로 래핑합니다. 이는 테스트를 �
 
 ## 쉬운 비동기 처리
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 예시를 살펴보겠습니다:
 
@@ -123,7 +174,18 @@ it("데이터를 가져와서 표시해야 합니다", async () => {
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## findBy 사용
 
@@ -142,7 +204,18 @@ findBy 예제에서 코드가 훨씬 더 깔끔하다는 것을 알 수 있습�
 
 # 에러 처리
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 findBy가 지정된 시간 내에 요소를 찾지 못하면 자동으로 오류를 throw하며, 어떤 문제가 발생했는지 쉽게 디버깅할 수 있습니다. 이는 테스트 코드를 작성할 때 실제 코드가 실제 환경에서 동작하는 방식과 유사하도록 만드는 철학과 일치합니다.
 
@@ -152,7 +225,18 @@ findBy가 act()로 쿼리를 암묵적으로 감싸는 유일한 함수가 아�
 
 ![이미지](/assets/img/ReactTestingLibraryUnderstandingactandwhentouseit_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

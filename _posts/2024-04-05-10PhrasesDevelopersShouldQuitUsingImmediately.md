@@ -3,17 +3,13 @@ title: "개발자들이 가장 많이 실수하는 10가지"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "10 Phrases Developers Should Quit Using Immediately"
 link: "https://medium.com/@tsecretdeveloper/10-phrases-developers-should-quit-using-immediately-348cc4b30dea"
 isUpdated: true
 ---
-
-
-
-
 
 ![Image](/assets/img/10PhrasesDevelopersShouldQuitUsingImmediately_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 하지만 은퇴하는 대신, 소프트웨어 개발자들이 다음 스탠드업 이전에 이 10가지 문구를 은퇴한다면 더 나은 삶을 살 수 있을 거예요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 증오 표현 몇 가지가 있어요. 그 유해한 말들을 그만하는 이유와 대신 사용해야 할 말을 알려 드릴게요.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 어떤 개발자들은 받는 질문에 "모르겠어요"라고 대답하는 경우가 종종 있어요. 그런 사람들을 아시겠죠. 그들은 빠르게 대답하지 않고, 대답할 때는 아무것도 모른다는 듯한 느낌을 줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시크릿 개발자는 거의 아무것도 모른다는 일은 거의 없어요.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 어깨를 으쓱하고 모른다고 말하면 일반적으로 팀 다른 사람이 대답해야 한다는 뜻일 때가 많아요. 이는 부족한 준비와 협업을 위한 빈약한 변명일 뿐이에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 물론, 정말 모르는 것이 있다면 솔루션을 억지로 내놓지 마세요. 당신이 모르는 것인데, 찾아보고 해결책을 찾을 의사가 있다면 그것이 훨씬 좋습니다. 적극적으로 대응해 보세요!
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 # 틀렸어요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리 모두 한 번쯤은 그렇게 말하고 싶을 때가 있어요. 누군가 기술적인 질문에 대한 답을 추측합니다. 그런데 그들은 릴리스 일정을 잊어버린 상태입니다. 그들은 아무것도 모르는 것 같아 보이니까, 그들에게 알려주는 유혹이 너무 강합니다. 그래서 "네가 틀렸어"라고 말하고 성취감을 느낍니다.
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 다른 사람에게 그들이 틀렸다고 말하는 것은 사실상 그들이 가치 없고 시도할 가치도 없다고 말하는 것과 같습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 팀 내 분위기를 파괴하고 동료들과 적대 관계를 만들 수 있어요. 남에게 잘못했다고 말하면 개인적인 공격으로 받아들여질 수 있고 앞으로 당신의 의견을 듣지 않을 가능성이 높아져요. 이는 진정한 승자가 없는 상황이죠.
 
@@ -73,7 +124,18 @@ The Secret Developer에게 잘못했다고 말하면, 당신이 잘못일 가능
 
 누군가의 작업이나 의견을 잘못이라고 말할 수 있지만, 그들 자체를 잘못이라고는 말하지 않아도 돼요. "그 의견은 틀렸다"와 같은 표현이 될 수 있어요. 더 세련된 접근 방식은 "생각해 본 적 있나요..."나 "어떻게 생각하세요..." 같은 힌트를 주어 잘못된 점을 언급함으로써 상대방의 존엄성을 지키고 사회적, 전문적으로 최대한 많은 것을 얻을 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 내 컴퓨터에서는 작동해
 
@@ -83,7 +145,18 @@ The Secret Developer에게 잘못했다고 말하면, 당신이 잘못일 가능
 
 이렇게 말하지 말아야 하는 이유
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신이 컴퓨터에서 작동한다고 말한다는 것은 테스트 팀(또는 결함을 보고한 사람)이 코드에 문제가 있는지 증명해야 한다는 책임을 떠넘기는 것과 같습니다. 테스트 환경에서 확인하지 않았기 때문에 (당신이 확인하지 않았다는 건 알아요) 그에 대해 확신할 수 없습니다.
 
@@ -93,7 +166,18 @@ The Secret Developer에게 잘못했다고 말하면, 당신이 잘못일 가능
 
 왜 작동하지 않는지를 파악하고 이에 대해 어떻게 해야 하는지를 식별할 수 있어야 합니다. 이는 회의 전에 준비를 하고 열심히 작업해야 한다는 것을 의미합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 그는 항상 그렇게 해
 
@@ -103,7 +187,18 @@ The Secret Developer에게 잘못했다고 말하면, 당신이 잘못일 가능
 
 ![이미지](/assets/img/10PhrasesDevelopersShouldQuitUsingImmediately_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 왜 말하지 말아야 하는지
 
@@ -113,7 +208,18 @@ The Secret Developer에게 잘못했다고 말하면, 당신이 잘못일 가능
 
 희생양으로 만들지 말고, 대신 개선하고 성장할 수 있도록 지원해보세요. 전체 팀, 회사 및 고객 모두에게 이득이 될 겁니다. 다른 사람을 괴롭히는 것은 전문적이지 않습니다. 이런 경우에는 아무 말도 하지 않는 것이 좋습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 티켓 T1234 작업 중입니다
 
@@ -123,7 +229,18 @@ The Secret Developer에게 잘못했다고 말하면, 당신이 잘못일 가능
 
 ![image](/assets/img/10PhrasesDevelopersShouldQuitUsingImmediately_5.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 왜 그렇게 말하지 말아야 하는지
 
@@ -133,7 +250,18 @@ Agile에서는 전체 팀이 문제를 이해해야 합니다. 문제를 숫자�
 
 티켓 번호를 언급할 수는 있지만, 작업에 대한 맥락을 함께 언급해 보세요. 그렇게 하면 모두가 당신이 무엇을 말하고 있는지 이해하기 쉬워집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 아무 말도 안 하는 것
 
@@ -143,7 +271,18 @@ Agile에서는 전체 팀이 문제를 이해해야 합니다. 문제를 숫자�
 
 ![이미지](/assets/img/10PhrasesDevelopersShouldQuitUsingImmediately_6.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 왜 말해서는 안 되는지
 
@@ -153,7 +292,18 @@ Agile에서는 전체 팀이 문제를 이해해야 합니다. 문제를 숫자�
 
 임신한 부모가 될 사람이라면 축하의 인사를 전하세요. 기술적인 질문이 있다면 답해주세요. 깨어 있듯이 깨어 있게 대응하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # FE 문제 | BE 문제
 
@@ -163,7 +313,18 @@ Agile에서는 전체 팀이 문제를 이해해야 합니다. 문제를 숫자�
 
 왜 이런 식으로 이야기하면 안 되는지
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 클래식한 탓 놀이. 당신이 자신의 일에 대한 책임을 지지 않는다면, 그 책임을 다른 사람이나 팀에게 미뤄주는 것과 다름없습니다. 이는 좋은 모습이 아니며 어떤 사람도 소프트웨어 기능을 제공하는 데 도움이 되지 않습니다.
 
@@ -173,7 +334,18 @@ Agile에서는 전체 팀이 문제를 이해해야 합니다. 문제를 숫자�
 
 교체해야 할 내용:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나는 X와 협력하여 이 문제를 해결하려고 합니다. 물론, 이것은 문제로 완전히 드러나기 전에 솔루션을 연구하고 작업해야 한다는 것에 의존합니다.
 
@@ -183,7 +355,18 @@ Agile에서는 전체 팀이 문제를 이해해야 합니다. 문제를 숫자�
 
 ![개발자가 즉시 중단해야 할 10가지 문구](/assets/img/10PhrasesDevelopersShouldQuitUsingImmediately_8.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 왜 하면 안 되는지
 
@@ -193,7 +376,18 @@ Agile에서는 전체 팀이 문제를 이해해야 합니다. 문제를 숫자�
 
 주어진 작업에 대한 유효한 추정치.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 위대한 힘에는 큰 책임이 따릅니다
 
@@ -203,7 +397,18 @@ Agile에서는 전체 팀이 문제를 이해해야 합니다. 문제를 숫자�
 
 왜 말해서는 안 되는지
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 전문성은 이해하기 쉬운 커뮤니케이션이죠. 라이크라 안에서 누군가를 인용하는 건 전문적이지 않아요.
 
@@ -213,7 +418,18 @@ Agile에서는 전체 팀이 문제를 이해해야 합니다. 문제를 숫자�
 
 # 그건 [****]
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스웨어링은 전문적인 환경에서 올바른 행동이 아닙니다. 절대로요.
 
@@ -223,7 +439,18 @@ Agile에서는 전체 팀이 문제를 이해해야 합니다. 문제를 숫자�
 
 누군가가 \*이더라도 친절하게 대해주세요. 항상 비판적이지 않고 업무용 언어를 사용해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음과 같이 변경해야 할 것입니다.
 
@@ -233,7 +460,18 @@ Agile에서는 전체 팀이 문제를 이해해야 합니다. 문제를 숫자�
 
 이러한 구문을 사용한다고 해서 전문적이지 않은 개발자라는 보장은 없습니다. 그렇지만 더 그럴 듯한 가능성을 가지게 될 수는 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어떻게 생각하고 말을 할지 고민해보는 건 어때요?
 
@@ -243,6 +481,17 @@ Agile에서는 전체 팀이 문제를 이해해야 합니다. 문제를 숫자�
 
 프로페셔널 소프트웨어 개발자인 "시크릿 개발자"는 트위터 @TheSDeveloper에서 찾을 수 있으며 주로 Medium.com을 통해 기사를 발행합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비밀 개발자는 결코 화낼 때 퍽을 친 적이 없습니다.

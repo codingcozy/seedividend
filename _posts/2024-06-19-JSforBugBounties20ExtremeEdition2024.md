@@ -3,16 +3,13 @@ title: "자바스크립트 버그 바운티 20 익스트림 에디션 2024"
 description: ""
 coverImage: "/assets/img/2024-06-19-JSforBugBounties20ExtremeEdition2024_0.png"
 date: 2024-06-19 22:41
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-JSforBugBounties20ExtremeEdition2024_0.png
 tag: Tech
 originalTitle: "JS for Bug Bounties 2.0 Extreme Edition 2024"
 link: "https://medium.com/@kongsec/js-for-bug-bounties-2-0-extreme-edition-2024-f167fa48276a"
 isUpdated: true
 ---
-
-
-
 
 안녕하세요 여러분,
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 이 기사는 특별 기사를 위해 완전히 업그레이드된 버전입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-JSforBugBounties20ExtremeEdition2024_0.png" />
 
@@ -46,7 +54,18 @@ isUpdated: true
 
 하지만 다른 사용자와 같은 파일을 받고 있어요. 중복되는 결과를 생성하고 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 초기 발견 내용은 다음과 같았어요
 
@@ -56,7 +75,18 @@ isUpdated: true
 
 dialogs540f334e628dbce748a8js navigation_secondary55dfd8fe215f8edecd48js dialogsb18150a252f68f70f0c9js navigation_secondary147987372ed67d94de50js buttons147987372ed67d94de50jsnpmangular-animate8f9be52ce8a521f715a3js mainb18150a252f68f70f0c9js navigation7b5ba7de4b5e5fb011c7js dialogs147987372ed67d94de50js appmain7b5ba7de4b5e5fb011c7js main147987372ed67d94de50js buttons7b5ba7de4b5e5fb011c7jsnpmangulary-focus-store9327d7778ee0d85c3500js mainfb562f3396222d196abfjs breeze7b5ba7de4b5e5fb011c7js breezeb18150a252f68f70f0c9js breeze30886581e43164d9d721js breeze147987372ed67d94de50js navigationb18150a252f68f70f0c9js appmain147987372ed67d94de50js breezeee32c0b1526644e9b562js main7b5ba7de4b5e5fb011c7js dialogs7b5ba7de4b5e5fb011c7js navigationba64bbac173b1d655721js navigation147987372ed67d94de50js navigation_secondaryb18150a252f68f70f0c9js buttonscf9c75fee1de19837ae7js appmainb18150a252f68f70f0c9js navigation_secondary7b5ba7de4b5e5fb011c7js modalsb0f4a82ac6f25a46dc71js npmangular-ui-calendar423a597b943dc586730dns npmapollo-angular-link-httpe7a942f9925da8411a4ejsnpmangular-ui-switch90766204ecd17b03ca76js appmainaf9ea97e6139d8cd52c2js npmapollo-angular-link-http-common87eff82eb4bc194887bfjs npmapollo-angular22f1de8a666515c86242js npmapollo-cache53668769616dc1466d8js npmapollo-cache-inmemorydaeb4f1b88a15680fd12js buttonsb18150a252f68f70f0c9js npmangular-ui-bootstrapcd3d849d20f1a4f7dfacjs configjs npmattr-accept81d56f5e133bac14feb5js npmapollo-clientf1fffac92f44507c8f3ajs npmbase64-js61d2367f7816d6fec60fjs npmapollo-utilities9e092209349bda108468js npmaxiosb02cc1c0e336b6ce9d09js app147987372ed67d94de50js npmauth0b681a646eef51d083006js npmbraintree24d4f13fb9a355dadc24js npmbabel5fd8b43fabbd6864e9a2js npmcall-bind0f09a0bd48e4dac9d679js npmbreeze-client-labs03a64fb13d406c33bbc8js appaf9ea97e6139d8cd52c2js npmavailable-typed-arrays558d90654f4d4fc2aa04js npmcharacter-entities-legacy7f4022465f0c9c4a6fabjs npmblueimp-load-image3d0d2393c631d92c5a1ejs npmchartjs-color-stringbd3a54729bf6f60404afjs npmapollo-linka5d82a3252db6d3e8d15jsnpmaria-hiddena316c352eb617c047815js npmckeditorfde05d6a29366eaf2c71js npmcollapse-white-spacebdd075f4c3faca5c940fjs npmcharacter-reference-invalid2f9cdaeeea24c3f3897ejs npmbail2e238f58e0858fcf0e31js npmcolor-convert101a98cb8d9df306dc12js npmchartjs-color703b6867120bd9ebf784js npmbreeze-client75c1a11b2c8e46de7ce4js
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 명령어를 사용하여 새로운 대상에 대한 단어 목록을 사용할 수 있습니다.
 
@@ -64,23 +94,44 @@ dialogs540f334e628dbce748a8js navigation_secondary55dfd8fe215f8edecd48js dialogs
 
 waybackurls "site.com" | grep -Eo 'https?://[^/]+/[^"]+\.js' | sed 's|^https\?://[^/]\+/||' | awk -F '/' 'print $NF'
 
-
 명령어의 각 부분을 살펴보겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - waybackurls "example.com": 해당 명령어는 Wayback Machine 아카이브에서 "example.com"과 관련된 URL을 검색합니다.
 - grep -Eo `https?://[^/]+/[^"]+\.js`: 이 명령어는 .js 확장자를 가진 URL을 검색합니다. -E 플래그는 확장 정규 표현식을 활성화하고, -o 플래그는 grep이 일치하는 부분만 출력하도록 지시합니다.
 - sed `s|^https\?://[^/]\+/||`: 이 몤령어는 각 URL에서 프로토콜(http:// 또는 https://)과 도메인 이름을 제거하고 경로만 남깁니다.
 - awk -F `/` `'print $NF'`: 이 명령어는 URL을 /로 분할한 뒤 각 URL의 마지막 부분을 추출하여 도메인 부분을 제거합니다.
 
-따라서, 이 명령어를 실행하면 도메인 이름을 제외한 아카이브 스냅샷에서 추출된 .js 엔드포인트 목록이 제공됩니다. "site.com"을 원하는 도메인으로 대체하십시오. 
+따라서, 이 명령어를 실행하면 도메인 이름을 제외한 아카이브 스냅샷에서 추출된 .js 엔드포인트 목록이 제공됩니다. "site.com"을 원하는 도메인으로 대체하십시오.
 
 ![2024-06-19-JSforBugBounties20ExtremeEdition2024_1](/assets/img/2024-06-19-JSforBugBounties20ExtremeEdition2024_1.png)
 
 ![2024-06-19-JSforBugBounties20ExtremeEdition2024_2](/assets/img/2024-06-19-JSforBugBounties20ExtremeEdition2024_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일부 키워드가 새롭고 독특하다는 것을 확인할 수 있어요. 하나의 대상에서 JS 단어 목록을 정리하고 이를 새로운 대상에 활용할 수 있어요. 예를 들어,
 
@@ -90,7 +141,18 @@ waybackurls "site.com" | grep -Eo 'https?://[^/]+/[^"]+\.js' | sed 's|^https\?:/
 
 우리는 최종적으로 새로운 대상에서 매우 새로운 JS 파일들을 얻을 수 있어요. 크기, 데이터 유형, 내용 등을 기준으로 정렬할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 동일한 키워드를 쇼단에서 얻은 IP에 적용할 수 있습니다.
 
@@ -100,69 +162,86 @@ waybackurls "site.com" | grep -Eo 'https?://[^/]+/[^"]+\.js' | sed 's|^https\?:/
 
 나머지 공격은 마찬가지지만 작은 수정점이 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 curl -s https://app.site.com/config.js |
 grep -E “environment: ‘Production’|storageUrl: ‘https://buildxact.blob.core.windows.net/’|googleApiKey: ‘|appInsightsInstrumentationKey: ‘|globalApiEndpoint: ‘|streamChatApiKey: ‘|auth0ClientId: ‘|auth0Domain: ‘|flatfileApiKey: ‘|webSpellCheckerServiceId: ‘|webSpellCheckerServiceUrl: ‘|clientPortalUrl: ‘|appVersion: ‘|appVersionDate: ‘|appDomainUrl: ‘|oneBuildKey: ‘|flatfilePlatformPublishableKey: ‘|flatfilePlatformEnvironmentId: ‘“ |
-sed “s/.*’\([^']*\)’.*/\1/”
-
+sed “s/._’\([^']_\)’.\*/\1/”
 
 We can add the words which we think are sensitive here:
 
 Example:
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 Markdown 형식의 표입니다.
 
-
-| 변수명                           | 값                   |
-|------------------------------------|---------------------|
-| ANACONDA_TOKEN                    |                     |
-| ANALYTICS                         |                     |
-| ANDROID_DOCS_DEPLOY_TOKEN         |                     |
-| android_sdk_license               |                     |
-| android_sdk_preview_license       |                     |
-| ANSIBLE_VAULT_PASSWORD            |                     |
-| aos_key                           |                     |
-| aos_sec                           |                     |
-| API_KEY_MCM                       |                     |
-| API_KEY_SECRET                    |                     |
-| API_KEY_SID                       |                     |
-| API_KEY                           |                     |
-| API_SECRET                        |                     |
-| APIARY_API_KEY                    |                     |
-| APIDOC_KEY                        |                     |
-| APIGW_ACCESS_TOKEN                |                     |
-| apiKey                            |                     |
-| apiSecret                         |                     |
-| APP_BUCKET_PERM                   |                     |
-| APP_ID                            |                     |
-| APP_NAME                          |                     |
-| APP_REPORT_TOKEN_KEY              |                     |
-| APP_SECRETE                       |                     |
-| APP_SETTINGS                      |                     |
-| APP_TOKEN                         |                     |
-| appClientSecret                   |                     |
-| APPLE_ID_PASSWORD                 |                     |
-| APPLE_ID_USERNAME                 |                     |
-| APPLICATION_ID_MCM                |                     |
-| APPLICATION_ID                    |                     |
-| applicationCacheEnabled           |                     |
-| ARGOS_TOKEN                       |                     |
-| ARTIFACTORY_KEY                   |                     |
-| ARTIFACTORY_USERNAME              |                     |
-| ARTIFACTS                         |                     |
-| ARTIFACTS_AWS_ACCESS_KEY_ID       |                     |
-| ARTIFACTS_AWS_SECRET_ACCESS_KEY   |                     |
-| ARTIFACTS_BUCKET                  |                     |
-| ARTIFACTS_KEY                     |                     |
-| ARTIFACTS_SECRET                  |                     |
-| ASSISTANT_IAM_APIKEY              |                     |
-| ASYNC_MQ_APP_SECRET               |                     |
-
+| 변수명                          | 값  |
+| ------------------------------- | --- |
+| ANACONDA_TOKEN                  |     |
+| ANALYTICS                       |     |
+| ANDROID_DOCS_DEPLOY_TOKEN       |     |
+| android_sdk_license             |     |
+| android_sdk_preview_license     |     |
+| ANSIBLE_VAULT_PASSWORD          |     |
+| aos_key                         |     |
+| aos_sec                         |     |
+| API_KEY_MCM                     |     |
+| API_KEY_SECRET                  |     |
+| API_KEY_SID                     |     |
+| API_KEY                         |     |
+| API_SECRET                      |     |
+| APIARY_API_KEY                  |     |
+| APIDOC_KEY                      |     |
+| APIGW_ACCESS_TOKEN              |     |
+| apiKey                          |     |
+| apiSecret                       |     |
+| APP_BUCKET_PERM                 |     |
+| APP_ID                          |     |
+| APP_NAME                        |     |
+| APP_REPORT_TOKEN_KEY            |     |
+| APP_SECRETE                     |     |
+| APP_SETTINGS                    |     |
+| APP_TOKEN                       |     |
+| appClientSecret                 |     |
+| APPLE_ID_PASSWORD               |     |
+| APPLE_ID_USERNAME               |     |
+| APPLICATION_ID_MCM              |     |
+| APPLICATION_ID                  |     |
+| applicationCacheEnabled         |     |
+| ARGOS_TOKEN                     |     |
+| ARTIFACTORY_KEY                 |     |
+| ARTIFACTORY_USERNAME            |     |
+| ARTIFACTS                       |     |
+| ARTIFACTS_AWS_ACCESS_KEY_ID     |     |
+| ARTIFACTS_AWS_SECRET_ACCESS_KEY |     |
+| ARTIFACTS_BUCKET                |     |
+| ARTIFACTS_KEY                   |     |
+| ARTIFACTS_SECRET                |     |
+| ASSISTANT_IAM_APIKEY            |     |
+| ASYNC_MQ_APP_SECRET             |     |
 
 JS URL을 얻으면 nuclei 노출 태그를 사용하여 더 많은 민감한 정보를 얻을 수 있습니다.
 
@@ -170,10 +249,20 @@ js.txt 파일에서 노출 태그를 사용하여 Nuclei 명령을 실행하려�
 
 ```bash
 nuclei -l js.txt -t ~/nuclei-templates/exposures/ -o js_exposures_results.txt
-``` 
+```
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 명령어 각 부분에 대한 설명입니다:
 

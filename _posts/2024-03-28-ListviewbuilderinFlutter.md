@@ -3,17 +3,13 @@ title: "Flutter에서 스크롤, 그리드 만드는 방법Listviewbuilder"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Listviewbuilder in Flutter"
 link: "https://medium.com/@flutterdynasty/listview-builder-in-flutter-e54a8fa2c7a0"
 isUpdated: true
 ---
-
-
-
-
 
 ListView.builder는 효율적으로 스크롤 가능한 목록이나 그리드를 만드는 데 사용되는 강력한 Flutter 위젯입니다. 사용자가 스크롤 할 때 필요에 따라 항목을 생성하여 메모리 사용량을 줄이고 성능을 향상시킬 수 있어 많은 수의 항목을 처리할 때 특히 유용합니다. 여기에 주요 구성 요소에 대한 설명이 있습니다:
 
@@ -36,7 +32,18 @@ ListView.builder(
 
 ListView.builder는 일반적으로 다음 시나리오에서 사용됩니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 동적 데이터 표시: 메시지, 연락처 또는 API에서 가져온 제품 목록과 같이 크기가 변경될 수 있는 항목 목록이 있는 경우, ListView.builder를 사용하면 각 항목에 대한 UI 요소를 동적으로 생성할 수 있습니다.
 - 성능 최적화: 많은 수의 항목을 처리할 때, ListView.builder는 가시 항목에 대해서만 위젯을 생성하기 때문에 정적 위젯 목록을 생성하는 것보다 메모리를 더 효율적으로 사용합니다.
@@ -121,7 +128,18 @@ class CardList extends StatelessWidget {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 코드에서:
 

@@ -3,17 +3,13 @@ title: "앵귤러에서 NgRx 사용하지 마세요"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Stop using NgRx in Angular"
 link: "https://medium.com/@hclatomic/stop-using-ngrx-in-angular-a3ab7c694a14"
 isUpdated: true
 ---
-
-
-
-
 
 구글 엔지니어들이 외부 라이브러리인 NgRx와 같은 게임으로 만든 라이브러리가 필요할 정도로 미숙한 것 같나요? 구글 엔지니어들이 V8 자바스크립트 엔진과 노드.js를 발명한 사람들이 자바스크립트에 미숙해서 복잡하고 무거운 웹 앱을 만들기 위해 독립된 프레임워크를 제작할 수 없을 정도인 것 같나요?
 
@@ -33,7 +29,18 @@ NgRx를 사용하면 Angular의 기본 2-way 데이터 바인딩에 컴포넌트
 
 사실 Angular의 목표는 프런트엔드 개발자의 작업을 최대한 편리하게 만드는 것입니다. 중간웨어 및 Observable에 가능한 적은 시간을 할애하고 대신 최종 사용자가 기대하는 높은 비즈니스 가치가 있는 인터페이스를 생성하기 위한 최대한의 시
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # user.ts
 
@@ -49,7 +56,18 @@ export interface User {
 
 # store.service.ts
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 store라는 서비스를 설정하고, 그 안에 User 타입의 user라는 전역 변수를 선언합니다.
 
@@ -69,7 +87,18 @@ export class StoreService {
 
 서버에 호출하는 흉내를 내기 위해 서버에 비동기성을 구현하는 API 서비스를 설정합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```typescript
 import { Injectable } from "@angular/core";
@@ -117,7 +146,18 @@ export class AComponent {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # b.component.ts
 
@@ -148,7 +188,18 @@ export class BComponent {
 
 # c.component.ts
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 컴포넌트는 외부 라이브러리나 디자인 시스템에서 제공되는 컴포넌트처럼 @Input/@Output을 사용하기 때문에 스토어를 가져오지 않습니다. 그러나 app.component.ts에서 설명된 방법으로 스토어에 연결할 수 있습니다.
 
@@ -182,7 +233,18 @@ export class InOutComponent {
 
 app 컴포넌트는 API 서비스를 호출하여 비동기 데이터를 검색하고, 이 데이터가 스토어 서비스에서 사용 가능할 때 컴포넌트를 표시합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { Component, OnInit } from '@angular/core';

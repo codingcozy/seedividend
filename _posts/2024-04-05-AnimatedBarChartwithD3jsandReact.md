@@ -3,17 +3,13 @@ title: "D3js와 React로 애니메이션 바 차트 만드는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Animated Bar Chart with D3js and React"
 link: "https://medium.com/gitconnected/animated-bar-chart-with-d3-js-and-react-54779f19d333"
 isUpdated: true
 ---
-
-
-
-
 
 ![AnimatedBarChartwithD3jsandReact](/assets/img/AnimatedBarChartwithD3jsandReact_0.png)
 
@@ -25,7 +21,18 @@ isUpdated: true
 - 이러한 구성 요소를 그리기 위해 SVG와 D3.js를 사용합니다.
 - React 콜백 ref를 사용하여 DOM에 렌더링합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # D3로 차트 작성은 레고 조립과 비슷해요
 
@@ -35,7 +42,18 @@ D3.js로 차트를 그릴 때, 레고 블록을 조립하는 것과 비슷한 �
 
 막대 차트의 예를 살펴보죠. 우리는 이를 여러 구성 요소로 분해할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/AnimatedBarChartwithD3jsandReact_2.png)
 
@@ -48,7 +66,18 @@ D3.js로 차트를 그릴 때, 레고 블록을 조립하는 것과 비슷한 �
 
 이제 D3.js와 React를 사용하여 가장 일반적인 차트 유형 중 하나인 막대 차트를 만드는 단계를 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 1. 리액트 컴포넌트에서 설정
 
@@ -72,7 +101,18 @@ return <div ref={ref} />;
 
 이제, plotChart() 함수에서 차트를 그리는 논리를 추가하기 시작합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 2. 컨테이너
 
@@ -91,7 +131,18 @@ const selection = d3
 
 대량의 데이터를 처리해야 할 때는 SVG보다 성능이 더 좋은 캔버스 요소를 사용할 수도 있습니다. SVG는 대량 데이터셋으로 인해 성능이 저하될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 3. 척도
 
@@ -103,7 +154,18 @@ D3에서 척도에 대해 이해해야 할 세 가지 주요 용어가 있습니
 
 D3의 다양한 차트에 대한 척도 함수가 있습니다. 그 중 일부는 특정 사용 사례에 대해 매우 일반적입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/AnimatedBarChartwithD3jsandReact_3.png" />
 
@@ -131,7 +193,18 @@ const DATA = [
 
 ## X-축 축척
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희 목표는 각 카테고리를 표시하고 차트의 너비(500픽셀)에 걸쳐 X 축에 고르게 분배하는 것입니다.
 
@@ -141,7 +214,18 @@ const DATA = [
 
 따라서 X 축의 도메인 및 범위는 다음과 같을 것입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 도메인: ["빨강", "초록", "파랑"]
 - 범위: [40, 460]
@@ -167,7 +251,18 @@ scaleBand() 함수를 사용하여 범위를 도메인의 길이인 'n' 개의 �
 
 ![테이블 이미지](/assets/img/AnimatedBarChartwithD3jsandReact_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼, 우리는 주어진 스케일 함수를 사용하여 아래쪽으로 방향을 향한 축 라인을 반환하는 축 생성기인 axisBottom()함수를 호출합니다. 여백에 따라 요소를 변환 추가하여 위치를 위로 이동해야 합니다.
 
@@ -177,7 +272,18 @@ scaleBand() 함수를 사용하여 범위를 도메인의 길이인 'n' 개의 �
 
 ## Y 축 척도
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비슷한 개념이 Y 축에도 적용됩니다. 막대 차트의 Y 축에서는 숫자 데이터 값을 시각적 요소에 매핑해야 합니다. 여기서는 막대의 높이에서 여백을 뺀 값입니다. 우리 카테고리에 해당하는 데이터 값은 [2, 4, 8]입니다. 이 값들을 사용하여 Y 축의 범위와 영역을 설정할 것입니다.
 
@@ -192,13 +298,21 @@ const yScale = d3
   .domain([0, 8])
   .range([HEIGHT - MARGIN_BOTTOM, MARGIN_TOP]);
 
-selection
-  .append("g")
-  .call(d3.axisLeft(yScale))
-  .attr("transform", `translate(${MARGIN_LEFT}, 0)`);
+selection.append("g").call(d3.axisLeft(yScale)).attr("transform", `translate(${MARGIN_LEFT}, 0)`);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 데이터 값을 Y 축의 픽셀 값에 비례하도록 매핑하기 위해 scaleLinear()를 사용합니다.
 
@@ -208,7 +322,18 @@ selection
 
 두 축을 추가한 후에는 이제 다음과 같이 보입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![바 그래프 이미지](/assets/img/AnimatedBarChartwithD3jsandReact_7.png)
 
@@ -219,7 +344,18 @@ selection
 - 도메인: ["빨강", "초록", "파랑"]
 - 레인지: [`#ff0000`, `#00ff00`, `#0000ff`]
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const colorScale = d3
@@ -234,7 +370,18 @@ const colorScale = d3
 
 스케일이 설정되면, 다음 단계는 데이터를 나타내는 막대를 생성하고 그것을 SVG 컨테이너에 배치하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 selection
@@ -265,10 +412,20 @@ selection
 - 막대의 높이를 가장 낮은 값인 yScale(0)에서 시작하여 yScale() 함수로 설정합니다.
 - 이전에 정의한 colorScale() 함수로 막대의 색상을 설정합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결과는:
-
 
 <img src="/assets/img/AnimatedBarChartwithD3jsandReact_8.png" />
 
@@ -276,7 +433,18 @@ selection
 
 축 눈금의 스타일을 사용자 정의하고, 막대를 애니메이션하는 등의 작업으로 차트를 개선할 수 있습니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 할 일은 다음과 같아요:
 
@@ -291,111 +459,120 @@ selection
 
 ```js
 const plotChart = () => {
-  const WIDTH = 500
-  const HEIGHT = 500
-  const MARGIN_TOP = 40
-  const MARGIN_RIGHT = 40
-  const MARGIN_BOTTOM = 40
-  const MARGIN_LEFT = 40
+  const WIDTH = 500;
+  const HEIGHT = 500;
+  const MARGIN_TOP = 40;
+  const MARGIN_RIGHT = 40;
+  const MARGIN_BOTTOM = 40;
+  const MARGIN_LEFT = 40;
 
   const DATA = [
     {
-      category: 'Red',
+      category: "Red",
       value: 2,
-      color: '#ff0000',
+      color: "#ff0000",
     },
     {
-      category: 'Green',
+      category: "Green",
       value: 4,
-      color: '#00ff00',
+      color: "#00ff00",
     },
     {
-      category: 'Blue',
+      category: "Blue",
       value: 8,
-      color: '#0000ff',
+      color: "#0000ff",
     },
-  ]
+  ];
 
-  const categories = DATA.map((d) => d.category)
+  const categories = DATA.map((d) => d.category);
 
-  const values = DATA.map((d) => d.value)
+  const values = DATA.map((d) => d.value);
 
-  const maxValue = Math.max(...values)
+  const maxValue = Math.max(...values);
 
-  const selection = d3.create('svg')
-    .attr('viewBox', `0 0 ${WIDTH} ${HEIGHT}`)
-    .style('width', '100%')
-    .style('height', 'auto')
+  const selection = d3
+    .create("svg")
+    .attr("viewBox", `0 0 ${WIDTH} ${HEIGHT}`)
+    .style("width", "100%")
+    .style("height", "auto");
 
   const xScale = d3
     .scaleBand()
     .domain(categories)
     .range([MARGIN_LEFT, WIDTH - MARGIN_RIGHT])
-    .padding(0.2) // 막대 사이의 공백
+    .padding(0.2); // 막대 사이의 공백
 
   selection
-    .append('g')
+    .append("g")
     .call(d3.axisBottom(xScale).tickSize(0).tickPadding(12)) // x 축 라벨과 막대 사이 간격
-    .attr('transform', `translate(0, ${HEIGHT - MARGIN_BOTTOM})`)
-    .call((g) => g.select('.domain').remove()) // x 축 선 제거
-    .call((g) => g.selectAll('.tick text').style('font-size', 14)) // x 축 라벨의 글꼴 크기
+    .attr("transform", `translate(0, ${HEIGHT - MARGIN_BOTTOM})`)
+    .call((g) => g.select(".domain").remove()) // x 축 선 제거
+    .call((g) => g.selectAll(".tick text").style("font-size", 14)); // x 축 라벨의 글꼴 크기
 
   const yScale = d3
     .scaleLinear()
     .domain([0, maxValue])
-    .range([HEIGHT - MARGIN_BOTTOM, MARGIN_TOP])
+    .range([HEIGHT - MARGIN_BOTTOM, MARGIN_TOP]);
 
   selection
-    .append('g')
+    .append("g")
     .call(
       d3
         .axisLeft(yScale)
         .tickSize(-WIDTH) // 격자 선
         .tickPadding(12) // 격자 선과 라벨 사이 간격
-        .tickFormat((d) => `${d} cm`), // 라벨 형식 지정
+        .tickFormat((d) => `${d} cm`) // 라벨 형식 지정
     )
-    .attr('transform', `translate(${MARGIN_LEFT}, 0)`)
-    .call((g) => g.select('.domain').remove()) // y 축 선 제거
-    .call((g) => g.style('stroke-dasharray', 5).style('stroke-opacity', 0.2)) // y 축 격자 선
+    .attr("transform", `translate(${MARGIN_LEFT}, 0)`)
+    .call((g) => g.select(".domain").remove()) // y 축 선 제거
+    .call((g) => g.style("stroke-dasharray", 5).style("stroke-opacity", 0.2)); // y 축 격자 선
 
   const colorOrdinal = d3
     .scaleOrdinal()
     .domain(DATA.map((d) => d.category))
-    .range(DATA.map((d) => d.color))
+    .range(DATA.map((d) => d.color));
 
   selection
-    .selectAll('.bar')
+    .selectAll(".bar")
     .data(DATA)
     .enter()
-    .append('rect')
-    .attr('class', 'bar')
-    .attr('x', (d) => xScale(d.category))
-    .attr('width', xScale.bandwidth())
-    .attr('y', yScale(0)) // 막대는 처음에 차트의 맨 아래에서 시작합니다 - 0px
+    .append("rect")
+    .attr("class", "bar")
+    .attr("x", (d) => xScale(d.category))
+    .attr("width", xScale.bandwidth())
+    .attr("y", yScale(0)) // 막대는 처음에 차트의 맨 아래에서 시작합니다 - 0px
     .transition() // 애니메이션
     .duration(1000) // 애니메이션 지속 시간
     .ease(d3.easeCubic) // 애니메이션 효과
-    .attr('y', (d) => yScale(d.value))
-    .attr('height', (d) => yScale(0) - yScale(d.value))
-    .attr('fill', (d) => colorOrdinal(d.category))
+    .attr("y", (d) => yScale(d.value))
+    .attr("height", (d) => yScale(0) - yScale(d.value))
+    .attr("fill", (d) => colorOrdinal(d.category));
 
-  return selection.node()
-}
+  return selection.node();
+};
 
-const ref = useCallback(
-  (node) => {
-    if (node !== null) {
-      const plot = plotChart()
-      node.append(plot)
-    }
-  },
-  []
-)
+const ref = useCallback((node) => {
+  if (node !== null) {
+    const plot = plotChart();
+    node.append(plot);
+  }
+}, []);
 
-return <div ref={ref} />
+return <div ref={ref} />;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최종 결과:
 
@@ -405,6 +582,17 @@ return <div ref={ref} />
 
 마무리하면 D3.js로 차트를 만들어내는 것은 레고 블록을 조합하는 것과 비슷합니다. 서로 다른 부분들 - 축과 막대 등 - 을 하나의 주요 컨테이너 안에 배치합니다. 중요한 것은 이러한 부분들을 척도와 데이터 바인딩을 올바르게 연결하여 모든 것을 올바르게 정렬하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 D3는 매우 유연합니다. 차트를 만드는 유일한 방법은 없습니다. 이 안내서는 기본 템플릿을 제공하지만 D3를 더 익숙해지면 더 많은 작업을 할 수 있습니다. 더 자세한 스타일링이나 다양한 상호 작용을 위한 이벤트 핸들러 구현 등이 가능합니다.

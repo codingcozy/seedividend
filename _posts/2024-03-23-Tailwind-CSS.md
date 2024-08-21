@@ -3,17 +3,13 @@ title: "Nextjs 13 에서 Tailwind CSS 사용 하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Tailwind CSS"
 link: "undefined"
 isUpdated: true
 ---
-
-
-
-
 
 # Tailwind CSS
 
@@ -23,7 +19,18 @@ Tailwind CSS는 Next.js와 탁월하게 작동하는 유틸리티 기반 CSS 프
 
 Tailwind CSS 패키지를 설치하고 init 명령어를 실행하여 tailwind.config.js와 postcss.config.js 파일을 생성하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm install -D tailwindcss postcss autoprefixer
@@ -52,7 +59,18 @@ module.exports = {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 postcss.config.js를 수정할 필요가 없습니다.
 
@@ -66,7 +84,18 @@ Tailwind CSS 지시문을 추가하면 Tailwind가 생성한 스타일을 전역
 @tailwind utilities;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 커스텀 앱 파일(pages/\_app.js) 안에서 전역 스타일 시트인 globals.css를 import하여 애플리케이션의 모든 경로에 스타일을 적용하세요.
 
@@ -84,7 +113,18 @@ export default function App({ Component, pageProps }: AppProps) {
 
 Tailwind CSS를 설치한 후 전역 스타일을 추가하면 응용 프로그램에서 Tailwind의 유틸리티 클래스를 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```typescript
 export default function Page() {
@@ -96,4 +136,15 @@ export default function Page() {
 
 Next.js 13.1부터 Turbopack로 Tailwind CSS와 PostCSS를 지원합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

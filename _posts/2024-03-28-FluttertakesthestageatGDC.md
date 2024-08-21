@@ -3,17 +3,13 @@ title: "2024 GDC Flutter 강의 소개"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Flutter takes the stage at GDC"
 link: "https://medium.com/flutter/flutter-takes-the-stage-at-gdc-b4e14900d606"
 isUpdated: true
 ---
-
-
-
-
 
 작년에는 Flutter Casual Games 툴킷에 대한 주요 업데이트가 있었습니다. 이번 주에는 Flutter가 게임 개발자 컨퍼런스 (GDC)에서 샌프란시스코에서 데뷔했습니다. GDC는 게임 산업의 주요 전문가 행사로, 게임 개발자들과 그들의 기술 발전을 지지합니다. Flutter를 사용하여 게임을 개발한 개발자들이 얼마나 발전했는지 그리고 Flutter 게임 개발의 미래에 대해 알아보세요.
 
@@ -23,7 +19,18 @@ Flutter Casual Games Toolkit를 출시한 이후에 Flutter는 게임 개발 분
 
 Flutter는 모든 크기의 게임 앱에 대한 매력적인 옵션이 되었으며, 플러터를 사용하여 여가 시간에 Tinies Merge를 만들고 Google Play의 인디 게임 축제에서 상위 20의 파이널리스트 자리를 확보한 Tatsuya와 같은 처음으로 게임을 개발하는 개발자들뿐만 아니라 전 세계적으로 수억 다운로드를 기록하고 있는 인기 타이틀 Trivia Crack팀과 같은 팀까지 모두에게 힘을 실어 주고 있습니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 왜 게임에 플러터를 선택해야 하는가?
 
@@ -33,7 +40,18 @@ Flutter는 모든 크기의 게임 앱에 대한 매력적인 옵션이 되었�
 
 2024년에는 플러터를 통해 놀라운 캐주얼 게임 경험을 만들 수 있도록 노력할 것입니다. 다음에 초점을 맞출 것은:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 개발 간소화: 템플릿, 플러그인 통합 및 심층 가이드와 같은 확장된 게임 개발 리소스를 기대하십시오. 이를 통해 작업 흐름을 가속화하고 Flutter의 게임 개발 잠재력을 발휘할 수 있습니다.
 - 전파 확대: 웹 및 기타 플랫폼에 Flutter 게임을 배포하는 과정을 더 순조롭게 만들기 위해 노력하고 있습니다. 이를 통해 창작물을 위한 새로운 관객층을 열어줍니다.
@@ -45,7 +63,18 @@ Flutter는 모든 크기의 게임 앱에 대한 매력적인 옵션이 되었�
 
 여러분의 끊임없는 지원과 중요한 기여에 우리는 대단히 감사하며, 여러분의 업적에 감탄하고 다음과 같은 많은 훌륭한 기여에 대해 극도로 감사드립니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 루안 니코, 루카스 클링스보, 에릭 자나르도, 레난 아라우조, 아론 워싱턴, 파샤 스테첸코, 요훔 반 데르 플루흐, 페르난도 울트레마레, 데브카게 (Flame): 플러터 게임 개발에 혁명적인 역할을 한 Flame 엔진 및 관련 프로젝트에 대해 감사드립니다.
 - 라파엘 바르보사 (Bonfire): 강력하고 다재다능한 게임 엔진으로 RPG 스타일 게임을 구축하는 데 탁월한 도구입니다.
@@ -60,6 +89,17 @@ Flutter는 모든 크기의 게임 앱에 대한 매력적인 옵션이 되었�
 
 게임 개발 플랫폼으로서의 플러터의 여정은 시작에 불과합니다. 커뮤니티와 함께 성장하고 여러분의 피드백을 경청하며 여러분이 필요로 하는 도구를 제공하는 데 헌신하겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기대돼요! 당신이 만드는 것을 보러 기대돼요!

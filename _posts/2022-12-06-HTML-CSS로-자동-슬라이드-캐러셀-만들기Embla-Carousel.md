@@ -3,17 +3,13 @@ title: "HTML CSS로 자동 슬라이드 캐러셀 만들기(Embla Carousel)"
 description: "Embla Carousel라이브러리를 이용해 자동 스와이프 캐러셀을 만들어봅니다"
 coverImage: ""
 date: 2024-08-03 16:52
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # HTML CSS로 자동 슬라이드 캐러셀 만들기(Embla Carousel)
 
@@ -21,9 +17,18 @@ HTML CSS로 자동으로 슬라이드 되는 캐러셀을 만들 수 있습니�
 
 <img  src="./img/2022-12-06-HTML-CSS로-자동-슬라이드-캐러셀-만들기Embla-Carousel-1.gif" width="400"/>
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트를 진행하다보면 위와 같은 캐러셀을 필요로하는 경우가 많은데,
 **Embla Carousel 라이브러리를 사용해 손쉽게 추가할 수 있는 방법에 대해 정리했습니다.**
@@ -47,9 +52,18 @@ html은 아래와 같은 구조로 작성합니다.
 아래 코드의 추가 부분의 script를 추가해줍니다.
 CDN을 사용해서 손쉽게 라이브러리를 적용할 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```html
 <!DOCTYPE html>
@@ -110,9 +124,18 @@ CDN을 사용해서 손쉽게 라이브러리를 적용할 수 있습니다.
 }
 ```
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 4. 스크립트 추가
 
@@ -127,7 +150,18 @@ CDN을 사용해서 손쉽게 라이브러리를 적용할 수 있습니다.
 </script>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러면 아래와 같이 마우스로 동작가능한 캐러셀이 완성됩니다.
 
@@ -170,7 +204,18 @@ CDN을 사용해서 손쉽게 라이브러리를 적용할 수 있습니다.
 </html>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 아래 스크립트 부분에 `EmblaCarouselAutoplay()`를 EmblaCarousel의 3번째 인자에 넣어주면 아래처럼 자동으로 넘어가는 캐러셀을 만들 수 있습니다.
 

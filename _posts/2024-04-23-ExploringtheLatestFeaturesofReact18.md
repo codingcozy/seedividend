@@ -3,17 +3,13 @@ title: "리액트 18의 최신 기능들 정리"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Exploring the Latest Features of React 18"
 link: "https://medium.com/@vlad-grigoryan/exploring-the-latest-features-of-react-18-1240ad0663e1"
 isUpdated: true
 ---
-
-
-
-
 
 ![React 18 소개 이미지](/assets/img/ExploringtheLatestFeaturesofReact18_0.png)
 
@@ -23,7 +19,18 @@ React 18는 웹 애플리케이션 성능과 사용자 경험을 향상시키는
 
 ![Concurrent Rendering](/assets/img/ExploringtheLatestFeaturesofReact18_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트 18의 중요한 특징 중 하나는 동시 렌더링(Concurrent Rendering)입니다. 이를 통해 리액트는 사용자 인터페이스를 블로킹하지 않고 동시에 여러 렌더링 작업을 처리할 수 있습니다. 예를 들어, 실행 중인 렌더링 작업을 일시 중지하거나 다시 시작하거나 포기하여 부드럽고 반응성 있는 사용자 상호작용을 보장할 수 있습니다. 이는 이전 버전과는 다르게 렌더링 작업을 중단할 수 없었던 것과는 큰 변화입니다.
 
@@ -33,7 +40,18 @@ React 18는 웹 애플리케이션 성능과 사용자 경험을 향상시키는
 
 자동 일괄 처리는 다수의 상태 업데이트를 하나의 다시 렌더링 주기로 그룹화하는 성능 중심적인 기능입니다. 이를 통해 동시에 여러 상태가 변경될 때 필요한 다시 렌더링을 최소화하여 처리 오버헤드를 크게 줄일 수 있습니다. 이전의 리액트 버전에서는 일괄 처리가 클릭 핸들러와 같은 동기 이벤트로만 제한되어 있었습니다. 리액트 18은 이 기능을 프로미스와 타임아웃과 같은 비동기 작업에도 확장하여, 이러한 함수 내에서 업데이트가 함께 일괄 처리되어 이로 인해 발생하는 다시 렌더링이 감소하고 성능이 향상될 수 있도록 보장합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 전환
 
@@ -43,7 +61,18 @@ React 18에서는 UI 업데이트를 보다 효과적으로 관리하기 위해 
 
 ## 향상된 서스펜스 지원
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/ExploringtheLatestFeaturesofReact18_4.png" />
 
@@ -53,7 +82,18 @@ React 18에서의 Suspense는 서버 측 렌더링을 지원하도록 확장되�
 
 <img src="/assets/img/ExploringtheLatestFeaturesofReact18_5.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트 18에서는 이제 더 이상 사용되지 않는 방법을 대체하는 새로운 API가 클라이언트 및 서버 측 렌더링을위한 도입되었습니다. 이에는 클라이언트 측 렌더링을위한 createRoot 및 hydrateRoot 및 서버 측 렌더링을위한 renderToPipeableStream 및 renderToReadableStream이 포함됩니다. 이러한 새로운 방법은 리액트 컴포넌트를 렌더링하는 데 더 많은 유연성과 성능 향상을 제공합니다.
 
@@ -63,7 +103,18 @@ React 18에서의 Suspense는 서버 측 렌더링을 지원하도록 확장되�
 
 # 마무리
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React 18에서 소개된 업그레이드 사항인 Concurrent Rendering, Automatic Batching, Transitions, 그리고 개선된 Suspense 처리 등은 개발자들에게 고성능 및 반응성 있는 웹 애플리케이션을 만들기 위한 강력한 도구를 제공합니다. 이러한 기능들은 앞으로의 업데이트를 위한 기반을 마련하고 React로 개발자가 어떤 것을 달성할 수 있는 한계를 더욱 넓혀줍니다.
 

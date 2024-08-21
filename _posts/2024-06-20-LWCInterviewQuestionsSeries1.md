@@ -3,16 +3,13 @@ title: "LWC 인터뷰 질문 시리즈 1"
 description: ""
 coverImage: "/assets/img/2024-06-20-LWCInterviewQuestionsSeries1_0.png"
 date: 2024-06-20 07:28
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-LWCInterviewQuestionsSeries1_0.png
 tag: Tech
 originalTitle: "LWC Interview Questions: Series 1"
 link: "https://medium.com/@saurabh.samirs/top-lwc-interview-questions-and-answers-2024-dec2ca786453"
 isUpdated: true
 ---
-
-
-
 
 ## (2024)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 우리는 이러한 노력을 돕기 위해 개념적 이해와 현실 시나리오에 대한 LWC 인터뷰 문제를 철저하게 수집했습니다. 이러한 질문의 목적은 후보자의 문제 해결 능력, LWC 개발에 대한 전문 지식, 그리고 Salesforce 개발의 최선의 실천 방법의 적용을 평가하는 데 도움을 주는 것입니다. 이제 시작해 보겠습니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 주의 !
 
@@ -32,7 +40,18 @@ LWC 인터뷰 준비는 압도적인 과제일 수 있습니다. LWC 개념, 최
 
 ## 인터뷰 시리즈
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 번쨰 인터뷰 시리즈를 시작해볼까요? 라이트닝 웹 컴포넌트에 대해 얘기해보려고 해요. 인터뷰어와 인터뷰 대상자 사이에서 진행될거에요.
 
@@ -42,7 +61,18 @@ LWC 인터뷰 준비는 압도적인 과제일 수 있습니다. LWC 개념, 최
 
 ## 인터뷔 대상자:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 번개 웹 컴포넌트(LWC)는 Salesforce 플랫폼에서 번개 컴포넌트를 구축하기 위한 새로운 프로그래밍 모델입니다. 이는 ECMAScript 6와 같은 현대 웹 표준을 활용하여 Aura 컴포넌트와 비교하여 더 나은 성능을 제공합니다. Aura와 달리 LWC는 더 가벼운 프레임워크를 사용하며 웹 개발에 더 간단하고 표준 기반의 접근을 촉진합니다.
 
@@ -52,7 +82,18 @@ LWC 인터뷰 준비는 압도적인 과제일 수 있습니다. LWC 개념, 최
 
 ## 인터뷰어: LWC와 Aura 컴포넌트의 주요 차이점은 무엇인가요? 아키텍처, 성능 및 개발 경험을 비교해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인터뷰ee: LWC와 헤일로 컴포넌트 사이의 차이점:
 
@@ -64,7 +105,18 @@ LWC 인터뷰 준비는 압도적인 과제일 수 있습니다. LWC 개념, 최
 - 마크업, JavaScript 컨트롤러 및 스타일이 하나의 파일 내에 캡슐화된 컴포넌트 기반 구조를 따름.
 - 이벤트, 속성 및 메소드를 포함한 컴포넌트 간 통신을 위해 Aura 컴포넌트 모델을 활용함.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LWC (라이트닝 웹 컴포넌트):
 
@@ -76,7 +128,18 @@ LWC (라이트닝 웹 컴포넌트):
 
 Aura 컴포넌트:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 성능은 프레임워크의 오버헤드와 통신을 위한 Aura 컴포넌트 모델의 사용으로 영향을 받을 수 있습니다.
 - 데이터 검색 및 업데이트를 위한 서버 라운드트립은 지연을 유발하고 전체적인 성능에 영향을 줄 수 있습니다.
@@ -88,7 +151,18 @@ LWC (라이트닝 웹 컴포넌트):
 
 ## 3. 개발 경험:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오로라 컴포넌트:
 
@@ -102,7 +176,18 @@ LWC (라이트닝 웹 컴포넌트):
 - Salesforce CLI 및 VS Code 확장 프로그램과 같은 현대적인 도구를 활용하여 효율적인 개발 워크플로우를 위해 지원합니다.
 - 오로라와 비교하여 더 깨끗하고 직관적인 구문을 제공하여 코드의 가독성과 유지 보수성이 향상됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 개요: 전반적으로 LWC는 Aura 구성 요소에서 중요한 발전을 나타내며, Salesforce 플랫폼에서 구성 요소를 구축하기 위해 더 현대적이고 성능 중심적인 접근 방식을 제공합니다. Aura 구성 요소는 계속 지원되지만, LWC는 Salesforce 개발의 미래 방향으로 위치하고 있으며, 개발자들에게 더 효율적이고 확장 가능한 프레임워크를 제공하여 Lightning UI를 구축합니다.
 
@@ -112,7 +197,18 @@ LWC (라이트닝 웹 컴포넌트):
 
 라이트닝 웹 컴포넌트(LWC)에서 데이터 바인딩은 컴포넌트의 JavaScript 컨트롤러와 HTML 템플릿 간의 연결을 설정하는 메커니즘입니다. 이를 통해 두 요소 간에 데이터의 동기화를 가능케 하여 JavaScript 컨트롤러에서 수행한 변경 사항이 HTML 템플릿에 반영되고 그 반대도 성립합니다. 데이터 바인딩은 컴포넌트 내에서 무결한 통신과 상호작용을 용이하게 하며, 데이터나 사용자 입력의 변경에 따라 동적으로 업데이트하고 콘텐츠를 렌더링할 수 있도록 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 데이터 바인딩이 어떻게 통신을 용이하게 하는지:
 
@@ -125,7 +221,18 @@ LWC (라이트닝 웹 컴포넌트):
 
 ## 2. 이벤트 바인딩:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이벤트 바인딩을 사용하면 DOM 이벤트를 JavaScript 컨트롤러의 메서드나 함수에 바인딩할 수 있습니다.
 - HTML 템플릿에서 이벤트 바인딩을 지정하려면 이벤트 이름 뒤에 `on-` 접두사를 사용합니다.
@@ -150,31 +257,53 @@ HTML 템플릿 (dataBinding.html):
 </template>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 JavaScript Controller (dataBinding.js):
 
 ```js
 //dataBinding.js
-import { LightningElement,track } from 'lwc';
- 
+import { LightningElement, track } from "lwc";
+
 export default class DataBinding extends LightningElement {
-  @track message = 'Initial message';
- 
+  @track message = "Initial message";
+
   handleChange(event) {
-      this.message = event.target.value;
+    this.message = event.target.value;
   }
 }
 ```
 
 ## 이 예제에서:
 
-- HTML 템플릿에서 `'message'` 구문은 속성 바인딩을 나타내며, JavaScript 컨트롤러의 `message` 속성이 ``p`` 요소의 내용에 바인딩됩니다.
+- HTML 템플릿에서 `'message'` 구문은 속성 바인딩을 나타내며, JavaScript 컨트롤러의 `message` 속성이 `p` 요소의 내용에 바인딩됩니다.
 - 입력 필드의 값이 변경될 때 (`onchange` 이벤트), JavaScript 컨트롤러의 `handleChange` 메서드가 호출되어 `message` 속성이 업데이트됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-결과적으로, ``p`` 요소의 내용이 `message` 속성의 새 값으로 자동으로 업데이트됩니다.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+결과적으로, `p` 요소의 내용이 `message` 속성의 새 값으로 자동으로 업데이트됩니다.
 
 ## 결과:
 
@@ -182,7 +311,18 @@ export default class DataBinding extends LightningElement {
 
 LWC에서 데이터 바인딩은 컴포넌트의 JavaScript 컨트롤러와 HTML 템플릿 간에 원활한 통신을 용이하게 합니다. 이를 통해 컴포넌트의 UI 내에서 동적 업데이트와 상호 작용이 가능해집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 인터뷰어: 쉐도우 DOM이란 무엇이며, LWC가 어떻게 활용하는가?
 
@@ -192,7 +332,18 @@ LWC에서 데이터 바인딩은 컴포넌트의 JavaScript 컨트롤러와 HTML
 
 라이트닝 웹 컴포넌츠(LWC)에서는 쉐도우 DOM이 컴포넌트의 마크업과 스타일을 주변 문서와 격리시키는 데 활용됩니다. 이는 컴포넌트 내에서 정의한 스타일이 해당 컴포넌트의 쉐도우 DOM 내 요소에만 적용되도록 함으로써 페이지의 다른 컴포넌트나 요소와의 의도치 않은 스타일 충돌을 방지합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 예시:
 
@@ -209,14 +360,25 @@ LWC에서 데이터 바인딩은 컴포넌트의 JavaScript 컨트롤러와 HTML
 
 ```javascript
 // helloWorld.js
-import { LightningElement } from 'lwc';
+import { LightningElement } from "lwc";
 
 export default class HelloWorld extends LightningElement {
-    greeting = 'Hello, World!';
+  greeting = "Hello, World!";
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예시에서는:
 
@@ -227,7 +389,18 @@ export default class HelloWorld extends LightningElement {
 
 <img src="/assets/img/2024-06-20-LWCInterviewQuestionsSeries1_1.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `helloWorld` 컴포넌트가 렌더링되면 라이트닝 웹 컴포넌트 컨텍스트에서 자체 Shadow DOM을 생성합니다. 브라우저에 나타나는 결과물은 다음과 같습니다:
 
@@ -239,11 +412,22 @@ export default class HelloWorld extends LightningElement {
 <!----/shadow-root---->
 ```
 
-``div class=”container”``와 ``h1`` 요소는 `helloWorld` 컴포넌트의 Shadow DOM 경계 내에 캡슐화됩니다. 이러한 요소에 적용된 스타일은 컴포넌트 내의 요소에만 영향을 미치므로 격리되어 의도치 않은 스타일 충돌을 방지합니다.
+`div class=”container”`와 `h1` 요소는 `helloWorld` 컴포넌트의 Shadow DOM 경계 내에 캡슐화됩니다. 이러한 요소에 적용된 스타일은 컴포넌트 내의 요소에만 영향을 미치므로 격리되어 의도치 않은 스타일 충돌을 방지합니다.
 
 요약하자면, LWC의 Shadow DOM은 컴포넌트 마크업, 스타일링, 동작을 캡슐화하는 메커니즘을 제공하여 향상된 모듈성, 재사용성, 그리고 컴포넌트 기능의 더 나은 캡슐화를 도모합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 면접관: LWC의 맥락에서 명령형과 선언형 프로그래밍을 구별하십시오.
 
@@ -253,39 +437,61 @@ export default class HelloWorld extends LightningElement {
 
 ## 명령형 프로그래밍:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 명령형 프로그래밍은 작업이 어떻게 수행되어야 하는지를 명시적으로 정의하는 상세한 지시 사항을 지정하는 것을 포함합니다. LWC의 맥락에서 명령형 프로그래밍은 일반적으로 DOM을 직접 조작하거나 외부 리소스와 상호 작용하기 위해 명령형 API 호출을 하는 것을 포함합니다.
 
 LWC에서의 명령형 프로그래밍 예시:
 
 ```js
-import { LightningElement, wire } from 'lwc';
-import { getRecord } from 'lightning/uiRecordApi';
- 
+import { LightningElement, wire } from "lwc";
+import { getRecord } from "lightning/uiRecordApi";
+
 export default class ImperativeExample extends LightningElement {
-    recordId;
-    error;
- 
-    @wire(getRecord, { recordId: '$recordId', fields: ['Account.Name'] })
-    wiredRecord({ error, data }) {
-        if (data) {
-            // 데이터 처리
-        } else if (error) {
-            // 오류 처리
-        }
+  recordId;
+  error;
+
+  @wire(getRecord, { recordId: "$recordId", fields: ["Account.Name"] })
+  wiredRecord({ error, data }) {
+    if (data) {
+      // 데이터 처리
+    } else if (error) {
+      // 오류 처리
     }
- 
-    handleClick() {
-        // 레코드 데이터를 로드하기 위한 명령형 호출
-        this.recordId = '001XXXXXXXXXXXXXXX';
-    }
+  }
+
+  handleClick() {
+    // 레코드 데이터를 로드하기 위한 명령형 호출
+    this.recordId = "001XXXXXXXXXXXXXXX";
+  }
 }
 ```
 
 ## 선언적 프로그래밍:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 반면에 선언적 프로그래밍은 어떻게 해야 하는지 자세히 설명하지 않고 달성해야 할 목표를 지정하는 것을 포함합니다. LWC에서 선언적 프로그래밍은 주로 마크업을 사용하여 구성 요소 동작을 정의하고 프레임워크에서 제공하는 내장 기능 및 기능을 활용하는 것을 포함합니다.
 
@@ -310,35 +516,46 @@ LWC에서 선언적 프로그래밍의 예시:
 
 ```js
 //declarativeExample.js
-import { LightningElement, wire } from 'lwc';
-import { getRecord } from 'lightning/uiRecordApi';
+import { LightningElement, wire } from "lwc";
+import { getRecord } from "lightning/uiRecordApi";
 
 export default class DeclarativeExample extends LightningElement {
-    recordId = '001XXXXXXXXXXXXXXX';
-    error;
-    accountName;
-    isDataLoaded = false;
+  recordId = "001XXXXXXXXXXXXXXX";
+  error;
+  accountName;
+  isDataLoaded = false;
 
-    @wire(getRecord, { recordId: '$recordId', fields: ['Account.Name'] })
-    wiredRecord({ error, data }) {
-        if (data) {
-            // 데이터를 선언적으로 처리
-            this.accountName = data.fields.Name.value;
-            this.isDataLoaded = true;
-        } else if (error) {
-            // 오류를 선언적으로 처리
-            this.error = error.body.message;
-        }
+  @wire(getRecord, { recordId: "$recordId", fields: ["Account.Name"] })
+  wiredRecord({ error, data }) {
+    if (data) {
+      // 데이터를 선언적으로 처리
+      this.accountName = data.fields.Name.value;
+      this.isDataLoaded = true;
+    } else if (error) {
+      // 오류를 선언적으로 처리
+      this.error = error.body.message;
     }
+  }
 
-    handleClick() {
-        // 레코드 데이터 로드를 선언적으로 트리거
-        this.recordId = '001XXXXXXXXXXXXXXX';
-    }
+  handleClick() {
+    // 레코드 데이터 로드를 선언적으로 트리거
+    this.recordId = "001XXXXXXXXXXXXXXX";
+  }
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 예시입니다:
 
@@ -351,7 +568,18 @@ export default class DeclarativeExample extends LightningElement {
 
 <img src="/assets/img/2024-06-20-LWCInterviewQuestionsSeries1_2.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 차이점:
 
@@ -363,7 +591,18 @@ LWC에서 명령형과 선언적 프로그래밍의 주요 차이점은 구성 �
 - 주로 DOM을 직접 조작하거나 명령형 API 호출을 하는 것을 포함합니다.
 - 더 많은 제어와 유연성을 제공하지만 길고 가독성이 떨어지는 코드로 이어질 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2. 선언형 프로그래밍:
 
@@ -375,7 +614,18 @@ LWC 개발에서 명령형 및 선언형 프로그래밍 패러다임은 각각�
 
 ## 인터뷰어: LWC는 구성 요소 간 통신을 어떻게 용이하게 해주나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 면접자:
 
@@ -385,7 +635,18 @@ LWC는 구성 요소 통신을 위한 여러 메커니즘을 제공합니다. �
 
 여기서 인터뷰관은 위의 질문들을 다른 방식으로도 할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 면접관: 라이트닝 웹 컴포넌트 간 통신하는 다양한 방법은 무엇인가요? 컴포넌트 이벤트, 공개 속성, 그리고 메소드의 사용법에 대해 비교하고 대조해보세요.
 
@@ -395,7 +656,18 @@ LWC는 구성 요소 통신을 위한 여러 메커니즘을 제공합니다. �
 
 ## 1. 컴포넌트 이벤트:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 목적: 컴포넌트 이벤트는 컴포넌트 계층 구조에서 직접적으로 관려되지 않은 컴포넌트 간의 통신을 가능하게 합니다. 이를 통해 컴포넌트가 서로의 구현 세부 정보를 알 필요 없이 통신할 수 있는 느슨한 결합을 가능하게 합니다.
 
@@ -405,10 +677,21 @@ LWC는 구성 요소 통신을 위한 여러 메커니즘을 제공합니다. �
 
 ```js
 // 커스텀 이벤트 발송
-this.dispatchEvent(new CustomEvent('customEventName', { detail: eventData }));
+this.dispatchEvent(new CustomEvent("customEventName", { detail: eventData }));
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 장점:
 
@@ -420,7 +703,18 @@ this.dispatchEvent(new CustomEvent('customEventName', { detail: eventData }));
 - 다른 방법에 비해 추가 설정과 오버헤드가 필요합니다.
 - 특히 초보자에게는 구현과 이해가 더 복잡할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2. 공개 속성:
 
@@ -430,14 +724,22 @@ this.dispatchEvent(new CustomEvent('customEventName', { detail: eventData }));
 
 예제:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```html
-// 자식 컴포넌트
-import { LightningElement, api } from 'lwc';
-export default class ChildComponent extends LightningElement {
-    @api message;
-}
+// 자식 컴포넌트 import { LightningElement, api } from 'lwc'; export default class ChildComponent extends
+LightningElement { @api message; }
 ```
 
 장점:
@@ -447,8 +749,18 @@ export default class ChildComponent extends LightningElement {
 
 단점:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 더 복잡한 통신 시나리오에는 사용할 수 없는 부모-자식 관계로 제한됩니다.
 - 컴포넌트 내부를 부모 컴포넌트에 노출하여 긴밀한 결합을 유발할 수 있습니다.
@@ -459,17 +771,28 @@ export default class ChildComponent extends LightningElement {
 
 사용법: 메서드는 컴포넌트의 JavaScript 클래스에서 정의되며 다른 컴포넌트에서 메서드 호출을 통해 호출될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시:
 
 ```js
 // 하위 컴포넌트
-import { LightningElement } from 'lwc';
+import { LightningElement } from "lwc";
 export default class ChildComponent extends LightningElement {
-    handleClick() {
-        // 클릭 로직 처리
-    }
+  handleClick() {
+    // 클릭 로직 처리
+  }
 }
 ```
 
@@ -478,7 +801,18 @@ export default class ChildComponent extends LightningElement {
 - 컴포넌트가 서로 기능을 호출하여 상호작용하고 협업하는 방법을 제공합니다.
 - 부모에서 자식으로, 그리고 자식에서 부모로 통신을 지원합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단점:
 
@@ -489,7 +823,18 @@ export default class ChildComponent extends LightningElement {
 
 ## 인터뷰어: LWC에서 라이프사이클 훅의 개념을 설명해주세요. 사용 가능한 여러 라이프사이클 훅은 무엇이며, 구성 요소 라이프사이클 중에 언제 호출되나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 면접자:
 
@@ -500,7 +845,18 @@ LWC의 다양한 라이프사이클 훅:
 1. constructor():
    생성자 함수는 생성자 메서드로서 객체 인스턴스가 생성될 때 호출되는 훅입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 컴포넌트가 생성될 때 호출됩니다.
 - 컴포넌트 속성 및 상태를 초기화하는 데 사용됩니다.
@@ -516,12 +872,24 @@ constructor() {
 
 2. connectedCallback():
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - DOM에 구성 요소가 삽입될 때 호출됩니다.
 - DOM에 액세스가 필요한 설정 작업을 수행하는 데 사용됩니다.
 
 예:
+
 ```js
 connectedCallback() {
     // 설정 작업
@@ -530,7 +898,18 @@ connectedCallback() {
 
 3. renderedCallback():
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 구성 요소 템플릿 렌더링 후에 호출됩니다.
 - 렌더링된 DOM에 따라 동작을 수행하는 데 사용됩니다.
@@ -545,7 +924,18 @@ renderedCallback() {
 
 4. disconnectedCallback():
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - DOM에서 구성 요소가 제거될 때 호출됩니다.
 - 리소스 정리 또는 정리 작업을 수행하는 데 사용됩니다.
@@ -560,7 +950,18 @@ disconnectedCallback() {
 
 5. render():
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 컴포넌트 템플릿을 렌더링하기 위해 호출됩니다.
 - 컴포넌트 UI의 구조와 내용을 정의하는 데 사용됩니다.
@@ -575,7 +976,18 @@ render() {
 
 6. reconnectedCallback():
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 구성 요소가 제거된 후 DOM에 다시 삽입될 때 호출됩니다.
 - 상태를 재설정하거나 설정 작업을 수행하는 데 사용됩니다.
@@ -590,7 +1002,18 @@ reconnectedCallback() {
 
 라이프사이클 훅 호출:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 생성자(Constructor): 컴포넌트가 생성될 때 호출됩니다.
 - 연결된 콜백(Connected Callback): 컴포넌트가 DOM에 삽입될 때 호출됩니다.
@@ -605,6 +1028,17 @@ LWC(Lightning Web Components)에서 제공되는 라이프사이클 훅과 그 �
 
 희망하건대, 이번 Lightning Web Components (LWC) 인터뷰 시리즈가 LWC 개념에 관한 질문들을 명확히 이해하고 인터뷰에 성공하는 데 도움이 될 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 표 태그를 마크다운 형식으로 변경해주세요.

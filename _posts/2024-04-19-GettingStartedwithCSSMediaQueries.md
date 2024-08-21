@@ -3,17 +3,13 @@ title: "CSS 미디어 쿼리로 반응형 웹사이트 만드는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Getting Started with CSS Media Queries"
 link: "https://medium.com/@rashmipatil24/css-media-queries-73a3cbf3f138"
 isUpdated: true
 ---
-
-
-
-
 
 ## 반응형 디자인 101
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # CSS 미디어 쿼리란?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS 미디어 쿼리는 화면 크기, 기기 방향 또는 기기 기능과 같은 다양한 요인에 따라 웹 페이지에 다른 스타일을 적용할 수 있는 강력한 기능입니다.
 
@@ -33,7 +40,18 @@ CSS 미디어 쿼리는 화면 크기, 기기 방향 또는 기기 기능과 같
 
 # 미디어 쿼리는 어떻게 작동하나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 미디어 쿼리는 미디어 유형과 특정 조건을 확인하는 하나 이상의 표현식으로 구성됩니다. 예를 들어, 화면 너비가 특정 값보다 크거나 작을 때만 특정 스타일이 적용되도록 지정할 수 있습니다.
 
@@ -57,7 +75,18 @@ CSS 미디어 쿼리는 화면 크기, 기기 방향 또는 기기 기능과 같
 
 이 예시에서는 화면 너비에 따라 글꼴 크기를 조정합니다. 화면 너비가 600픽셀 이하이면 글꼴 크기가 14픽셀이 되고, 600픽셀보다 넓으면 글꼴 크기가 16픽셀이 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 공통 미디어 쿼리 기능:
 
@@ -72,7 +101,18 @@ CSS 미디어 쿼리는 화면 크기, 기기 방향 또는 기기 기능과 같
 - 테스트, 테스트, 테스트: 웹사이트를 다양한 기기에서 테스트하여 어디서나 멋지게 보이는지 확인하는 것을 잊지 마세요.
 - 다른 사람으로부터 배우기: 영감을 주기 위해 미디어 쿼리를 사용하는 웹사이트를 탐색하고 조사하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여러분, 여기에 있습니다! 기억하세요, 반응형 웹 디자인은 사용자가 사용하는 기기와 관계없이 매끄러운 경험을 제공하는 것이 중요합니다. 그러니 앞으로 실험해보고, 재미있게 멋진 웹사이트를 만들어보세요!
 

@@ -3,16 +3,13 @@ title: "루비에서 Proc, Block, Lambda를 혼동하는 이유는"
 description: ""
 coverImage: "/assets/img/2024-07-02-RubyProcBlockLambdaWhatstheConfusion_0.png"
 date: 2024-07-02 22:14
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-02-RubyProcBlockLambdaWhatstheConfusion_0.png
 tag: Tech
 originalTitle: "Ruby — Proc, Block , Lambda — What’s the Confusion?"
 link: "https://medium.com/@rajputlakhveer/ruby-proc-block-lambda-whats-the-confusion-8d624f67a37a"
 isUpdated: true
 ---
-
-
-
 
 이 기사에서는 Ruby에서 블록, 프록 및 람다에 대해 이해할 것입니다. 기사를 통해 그들이 무엇인지, 어떻게 작동하는지, 그리고 그들 간의 차이나 유사성에 대해 더 잘 알 수 있을 것입니다.
 
@@ -41,7 +38,7 @@ def simple_block(&name)
     puts "After the Block Call"
 end
 
-simple_block { |a| puts "Hey Block Called #{a} time" } 
+simple_block { |a| puts "Hey Block Called #{a} time" }
 
 # Inside Method
 # Hey Block Called 1 time
@@ -52,7 +49,18 @@ simple_block { |a| puts "Hey Block Called #{a} time" }
 
 위의 예제에서 블록이 실제로 어떻게 작동하는지 매우 명확해질 것입니다. 블록을 두 가지 방법으로 메서드에 전달했습니다 - 명시적(변수 이름 사용) 및 암시적(이름 없이 직접).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프록은 작업에서 블록과 유사하지만 블록은 변수에 할당될 수 없는 반면, 프록은 변수에 할당될 수 있습니다. 블록 클래스를 보면 프록 클래스에 속하는 경향이 있어 더 명확해집니다. 이는 모든 블록이 단순 블록, 프록 인스턴스 또는 람다인 동일한 클래스인 Proc에 속함을 의미합니다. 우선 예제를 통해 프록을 살펴보겠습니다:
 
@@ -84,7 +92,7 @@ def simple_block(&name)
     puts "블록 호출 이후"
 end
 
-simple_block { |a| puts "블록이 호출됨 #{a} 번째" } 
+simple_block { |a| puts "블록이 호출됨 #{a} 번째" }
 
 # 메서드 안
 # Proc
@@ -95,7 +103,18 @@ simple_block { |a| puts "블록이 호출됨 #{a} 번째" }
 
 람다도 Proc 클래스의 인스턴스로 정의되는 자체 구문을 갖고 있습니다. 람다도 변수에 할당되고 Proc처럼 호출될 수 있습니다. 람다 구문과 예제를 먼저 살펴보고 그들 사이의 차이를 알아보겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 def lambda_blocks(lambda_block)
@@ -164,6 +183,17 @@ end
 # 블록 호출됨  번
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Block, Proc 및 Lambda의 작동 방식은 유사하지만 위에 언급된 특정 차이로 인해 각각의 타입에서 사용 사례가 더 구체적이 됩니다. 그러므로 우리가 어떻게 사용할 수 있는지 주의 깊게 살펴보세요.

@@ -3,16 +3,13 @@ title: "웹 개발자가 알아야하는 필수 HTML 속성들"
 description: ""
 coverImage: "/assets/img/2024-05-01-HTMLAttributesThatEveryWebDeveloperShouldKnow_0.png"
 date: 2024-05-01 22:58
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-01-HTMLAttributesThatEveryWebDeveloperShouldKnow_0.png
 tag: Tech
 originalTitle: "HTML Attributes That Every Web Developer Should Know"
 link: "https://medium.com/gitconnected/html-attributes-that-every-web-developer-should-know-8ffd4cd88288"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-05-01-HTMLAttributesThatEveryWebDeveloperShouldKnow_0.png" />
 
@@ -22,7 +19,18 @@ W3C 및 협력사들은 의심할 여지없이 HTML 기능을 확장하여, 무�
 
 이 이야기에서, 현대 웹 개발자로서 알아야 할 HTML 속성을 설명하고, 무거운, 제3자 라이브러리를 사용하지 않고 미래지향적인 프론트엔드를 디자인하세요. 이러한 네이티브 HTML 기능을 활용하여 최소한의 리소스로 높은 성능을 가진 웹 페이지를 제작해보세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 웹 애플리케이션에서 원래 팝업 요소로 사용되던 네이티브 브라우저 창을 대안으로 사용하여 상위 레이어 콘텐츠를 표시했습니다 (예를 들어, 전자상거래 웹 사이트에서 사용자가 링크를 클릭할 때 T-셔츠 사이즈 차트를 표시합니다). 그러나 여러분들이 사용한 네이티브 창은 사용자 친화적이지 않았고 수정 가능하지 않았습니다. 나중에 개발자들은 UI/UX에 친화적으로 콘텐츠를 표시하기 위해 CSS 스타일이 적용된 인페이지 팝오버를 외부 라이브러리로 구축했습니다.
 
@@ -30,7 +38,18 @@ W3C 및 협력사들은 의심할 여지없이 HTML 기능을 확장하여, 무�
 
 다음 소스 코드를 살펴보세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 div[popover]::backdrop {
@@ -49,7 +68,18 @@ div[popover] {
 
 MDN 설명에 따라 네이티브 팝오버에 애니메이션을 추가할 수 있습니다. 또한, 팝오버 API의 JavaScript 메소드를 사용하여 CSS 스타일링된 툴팁을 만들 수 있습니다. 팝오버 웹 API는 아직 새로운 브라우저 기능이므로 제품에서 사용하기 전에 시간이 필요할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 대화 상자 및 페이지에서 autofocus 속성 사용하기
 
@@ -59,7 +89,18 @@ HTML 표준은 페이지 로드 및 대화 상자/팝오버 표시 상태에서 
 
 다음 샘플 모달을 살펴보세요. 첫 번째 입력이 미리 채워져 있기 때문에 두 번째 텍스트 입력에 자동 초점이 맞춰집니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="https://miro.medium.com/v2/resize:fit:1148/1*PvC6Czz14_44TLa_sTbhGA.gif" />
 
@@ -80,7 +121,18 @@ HTML 표준은 페이지 로드 및 대화 상자/팝오버 표시 상태에서 
 
 위 HTML 조각은 두 군데에서 포커스 속성을 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 페이지 로드 이벤트 후에 쇼 모달 버튼 요소에 포커스를 맞추세요.
 - 첫 번째 텍스트 입력란이 미리 채워져 있기 때문에 두 번째 텍스트 입력란을 자동으로 포커스하세요.
@@ -91,7 +143,18 @@ HTML 표준은 페이지 로드 및 대화 상자/팝오버 표시 상태에서 
 
 요즘 거의 모든 현대적인 웹 앱은 폼에서 클라이언트 측 유효성 검사를 사용합니다. 개발자들은 종종 유저 친화성을 향상시키기 위해 클라이언트 측에서 실시간 유효성 검사를 구현합니다. 이제 HTML의 input 요소에 pattern 속성이 있기 때문에 Regex 기반의 실시간 입력 유효성 검사를 구현하기 위해 JavaScript를 사용할 필요가 없어졌습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제품 식별자를 확인해야 한다고 가정해요. 이 식별자는 두 개의 영어 글자와 하이픈으로 연결된 여섯 자리 숫자로 구성돼요. 예를 들어 GR-100200 같은 거죠.
 
@@ -99,19 +162,25 @@ HTML 표준은 페이지 로드 및 대화 상자/팝오버 표시 상태에서 
 
 ```js
 <form>
-  <input 
-    type="text" 
-    placeholder="예: GR-100200" 
-    pattern="[A-Z]{2}-[0-9]{6}" 
-    required 
-   />
-  <input type="submit"/>
+  <input type="text" placeholder="예: GR-100200" pattern="[A-Z]{2}-[0-9]{6}" required />
+  <input type="submit" />
 </form>
 ```
 
 여기서 pattern 속성은 유효하지 않은 입력에 대한 브라우저별 유효성 메시지를 표시하여 제출을 방지해요. 그렇다면 실시간 유효성 검사를 어떻게 구현할 수 있을까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 패턴에 대한 실시간 유효성 검사는 다음 HTML 코드 조각에 표시된 대로 :valid 및 :invalid CSS 가상 클래스를 사용하여 가능합니다:
 
@@ -132,7 +201,7 @@ HTML 표준은 페이지 로드 및 대화 상자/팝오버 표시 상태에서 
       color: red;
     }
   }
-  
+
   input[type=text]:valid {
     border: green 1px solid;
     + span::before {
@@ -144,9 +213,9 @@ HTML 표준은 페이지 로드 및 대화 상자/팝오버 표시 상태에서 
 
 </style>
 
-<input 
-  type="text" 
-  placeholder="예: GR-100200" 
+<input
+  type="text"
+  placeholder="예: GR-100200"
   pattern="[A-Z]{2}-[0-9]{6}" required
 />
 <span></span>
@@ -156,22 +225,43 @@ HTML 표준은 페이지 로드 및 대화 상자/팝오버 표시 상태에서 
 
 <img src="https://miro.medium.com/v2/resize:fit:954/1*yCIHUIN8Sn6IMxuFbv0YVg.gif" />
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 이야기에서 :valid 및 :invalid와 같은 CSS 가상 요소에 대해 더 알아보세요:
 
 JavaScript에서 패턴을 사용하는 입력의 validity를 확인하기 위해 다음과 같이 JavaScript에서 입력의 validityState 인터페이스에 액세스할 수 있습니다:
 
 ```js
-if(productInput.validity.valid) {
+if (productInput.validity.valid) {
   // 할 일...
 }
 ```
 
 # inputmode 속성을 사용하여 모바일 가상 키보드 모드 다루기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현대 모바일 기기는 일반적으로 물리 키보드가 없습니다. 그 대신 터치 스크린에 렌더링되는 가상 키보드가 제공됩니다. 이 가상 키보드에는 여러 모드가 있습니다. 예를 들어 숫자 입력 요소에는 숫자 키만 표시되고 일반 문자열 입력에 대해서는 전체 키보드 인터페이스가 표시될 수 있습니다. 모바일 브라우저는 입력 유형에 따라 가상 키보드 모드를 자동으로 변경하지만 개발자는 input 요소의 inputmode 속성을 사용하여 사용자 정의할 수도 있습니다.
 
@@ -183,21 +273,41 @@ if(productInput.validity.valid) {
 
 이는 범용 문자열 유형 입력이므로 모바일은 전체 키보드 레이아웃을 표시합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-05-01-HTMLAttributesThatEveryWebDeveloperShouldKnow_1.png)
 
 입력 요소와 함께 inputmode 속성을 다음과 같이 사용해봅시다:
 
 ```js
-inputmode="numeric"
+inputmode = "numeric";
 ```
 
 이제 모바일에서 숫자 키보드 레이아웃을 확인할 수 있습니다. 아래 미리보기를 참고하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-05-01-HTMLAttributesThatEveryWebDeveloperShouldKnow_2.png)
 
@@ -207,7 +317,18 @@ inputmode="numeric"
 
 img 태그의 loading 속성을 사용하면 JavaScript 코드없이 또는 서드파티 라이브러리를 사용하지 않고 브라우저 레벨의 이미지 지연 로딩을 활성화할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 소스 코드를 살펴보세요:
 
@@ -221,38 +342,66 @@ img 태그의 loading 속성을 사용하면 JavaScript 코드없이 또는 서�
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/1*uy6OnakZEP-X8_0mbRHVPw.gif" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현재 HTML 명세에서는 lazy loading을 사용자화할 수 없지만, 브라우저는 브라우저 수준의 lazy-loading을 사용하는 개발자가 더 많아진다면 커스터마이즈 옵션을 제공할 수 있습니다.
 
-## 사용자 지정 data-* 속성 사용
+## 사용자 지정 data-\* 속성 사용
 
 브라우저는 일반적으로 HTML 속성 이름에 엄격한 유효성 검사 규칙을 적용하지 않으므로 개발자는 원하는 사용자 정의 속성 이름을 사용할 수 있습니다. 그러나 사용자 정의 속성에 대한 다양한 명명 규칙을 사용하는 것은 좋지 않은 실천 방법입니다. 왜냐하면 그것은 HTML 문서 명세를 무효화하기 때문입니다. HTML 표준은 사용자 정의 속성에 대해 data- 접두사 사용을 권장하며 DOM API에서도 명시적인 기능을 제공하여 개발자를 독려합니다.
 
 다음은 일부 사용자 정의 data 속성을 사용하는 샘플 HTML 요소입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-<div 
-  id="elm" 
-  data-player-name="John"
-  data-player-score="20"
-  data-player-city="LA">
-</div>
+<div id="elm" data-player-name="John" data-player-score="20" data-player-city="LA"></div>
 ```
 
 자바스크립트를 통해 디스트럭처링으로 카멜 표기법 키를 사용하여 이러한 사용자 지정 속성 값을 쉽게 액세스할 수 있습니다. 다음 코드 스니펫에서 보여지듯이:
 
 ```js
-let { playerName, playerScore, playerCity } = document.getElementById('elm').dataset;
+let { playerName, playerScore, playerCity } = document.getElementById("elm").dataset;
 
 console.log(playerName, playerScore, playerCity); // John 20 LA
 ```
 
 또한 CSS 문서 내에서 이러한 데이터 속성에 액세스할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 #elm::before {
@@ -272,6 +421,17 @@ console.log(playerName, playerScore, playerCity); // John 20 LA
 
 제3자 라이브러리를 사용하지 않고도 최신 네이티브 HTML 태그를 사용하여 간결하고 사용자 친화적이며 성능이 우수하며 접근성이 좋은 웹 프론트엔드를 개발할 수 있습니다. 아래 이야기로 더 자세히 알아보세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 읽어 주셔서 감사합니다!

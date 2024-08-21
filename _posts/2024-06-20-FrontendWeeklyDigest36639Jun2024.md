@@ -3,17 +3,13 @@ title: "프론트엔드 주간 다이제스트 366 2024년 6월 3일 - 6월 9일
 description: ""
 coverImage: "/assets/img/2024-06-20-FrontendWeeklyDigest36639Jun2024_0.png"
 date: 2024-06-20 00:44
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-FrontendWeeklyDigest36639Jun2024_0.png
 tag: Tech
 originalTitle: "Frontend Weekly Digest #366 (3–9 Jun 2024)"
 link: "https://medium.com/@frontender-ua/frontend-weekly-digest-366-3-9-jun-2024-c507affc6136"
 isUpdated: true
 ---
-
-
-
-
 
 ![Frontend Weekly Digest](/assets/img/2024-06-20-FrontendWeeklyDigest36639Jun2024_0.png)
 
@@ -32,8 +28,18 @@ isUpdated: true
 - 독립적인 웹 컴포넌트의 라이브 데모
 - 그리드 항목에 푸시 애니메이션
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # CSS
 
@@ -54,11 +60,23 @@ isUpdated: true
 - 모든 것을 병합하기 - 객체 및 기타 유형 재귀적으로 병합하기. 간단하고 작은 통합.
 - TypeScript로 API 응답 타입 작성하는 방법
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - React
+
   - React Compound Component Pattern을 활용한 Rating Component 구축 방법
-  - React & NodeJS를 위한 최고의 무료 오픈 소스 SaaS 템플릿 
+  - React & NodeJS를 위한 최고의 무료 오픈 소스 SaaS 템플릿
   - React.js를 이용한 클래식 스네이크 게임 구축 방법
 
 - Vue
@@ -66,7 +84,6 @@ isUpdated: true
   - Vue에서 렌더링 최적화
   - Vue Router의 History Modes 이해하기
   - Vue 3 앱을 Nuxt 3로 이주하는 방법
-  
 - Angular
   - Angular 상태 관리를 위한 Signals vs. ngOnChanges 비교
   - Angular 아키텍처: 파트 3 - 데이터 Mocking의 용이성

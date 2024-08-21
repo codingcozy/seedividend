@@ -3,17 +3,13 @@ title: "React에서 자동완성이 있는 검색창 만드는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Building a Search Bar with Dropdown and Arrow Key Event Handling in React A Comprehensive Guide"
 link: "https://medium.com/@adi8090808766/building-a-search-bar-with-dropdown-and-arrow-key-event-handling-in-react-a-comprehensive-guide-084440ffe017"
 isUpdated: true
 ---
-
-
-
-
 
 ![image](https://miro.medium.com/v2/resize:fit:1400/1*b1MmVu5Ivb6BgNhzESNO2g.gif)
 
@@ -23,7 +19,18 @@ React에 초심자가 아니라고 가정하고 있습니다. 제어 컴포넌�
 
 이외에도 React 전문 개발자이신 경우 의견을 환영합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 준비 사항
 
@@ -138,7 +145,18 @@ a:active {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 경로: src/components/Search.jsx
@@ -216,7 +234,18 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 );
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 서버를 실행하면 입력란으로 검색 상자가 나타납니다.
 
@@ -230,7 +259,18 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 - 현재, 우리는 "id"와 "name"이 키인 색을 나타내는 객체 배열을 사용하고 있습니다.
 - 마지막으로 이러한 필터링된 결과를 사용자에게 드롭다운으로 표시합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 //경로: src/components/Search.jsx
@@ -317,7 +357,18 @@ export const colors = [
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/1*F9v4zCtWJddPW_QHgAf9Ng.gif" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 2. Key Down 이벤트 리스너 및 "ENTER" 키에서 함수 실행
 
@@ -358,7 +409,18 @@ export const colors = [
       />
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](https://miro.medium.com/v2/resize:fit:1400/1*eK3gk3QV0ZwFVqDJOQUbqg.gif)
 
@@ -368,7 +430,18 @@ export const colors = [
 
 이제 실제 API를 사용하여 테스트하고 사용자를 대시보드 페이지로 이동하도록 안내할 것입니다. 또한 필터링된 컴포넌트를 표시할 것이기 때문에 속도가 조금 빨라질 것입니다. 빠르게 진행되므로 놓친 부분이나 이해하지 못한 부분에 대해 댓글을 남겨주시고 걱정하지 마세요. 주석이 달린 코드도 준비되어 있을 겁니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 경로: src/lib/hooks/useFetch.jsx
@@ -513,7 +586,17 @@ export default Search;
 
 우리가 가진 내용을 검토해보고 궁금한 점이 있으면 알려주세요. 그리고 마음에 드신다면 기립 박수를 추가해 주세요.
 
-<img src="https://miro.medium.com/v2/resize:fit:904/1*6h2-hGeAdwENKl2c5cXCTg.gif" />  
+<img src="https://miro.medium.com/v2/resize:fit:904/1*6h2-hGeAdwENKl2c5cXCTg.gif" />
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

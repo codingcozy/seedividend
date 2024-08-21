@@ -3,16 +3,13 @@ title: "포켓몬은 몇 마리나 들어갈까요"
 description: ""
 coverImage: "/assets/img/2024-06-19-HowManyPokmonFit_0.png"
 date: 2024-06-19 23:30
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-HowManyPokmonFit_0.png
 tag: Tech
 originalTitle: "How Many Pokémon Fit?"
 link: "https://medium.com/towards-data-science/how-many-pok%C3%A9mon-fit-84f812c0387e"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-06-19-HowManyPokmonFit_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 # 포켓몬 역사를 조금 알아보기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오리지널 포켓몬의 제1세대는 1996년에 일본에서 발매된 포켓몬 레드와 그린 게임에 소개된 151마리의 포켓몬으로 구성되어 있어요. 이후 여러 세대와 버전의 포켓몬이 추가로 출시되어 1,000여 마리가 넘는 포켓몬이 생성되었는데, 전자 게임, 애니메이션, 트레이딩 카드, 상품 등에서 포켓몬은 문화적 상징으로 자리매김했습니다. 그럼에도 불구하고, 이 튜토리얼에서는 제1세대의 원래 151마리 포켓몬 데이터만 사용할 거에요.
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 각 포켓몬은 게임 플레이 메카닉을 형성하는 여러 독특한 특성을 가지고 있어요. 게임을 즐기고 다양한 환경에서 포켓몬 결투의 승자를 결정하도록 도와주죠. 각 포켓몬에는 HP(체력), 공격력, 방어력, 특수공격력, 특수방어력, 스피드와 같은 6가지 기본 통계가 있어요. 기본 통계 외에도 화재, 물, 전기 등 포켓몬 타입, 포켓몬 기술, 현재 포켓몬 레벨 등과 같은 다양한 특성이 포켓몬의 효과성에 기여합니다. 그래도, 포켓몬 커뮤니티에서 효과성을 평가하는 인기 지표는 포켓몬의 총 기본 통계(BST)입니다. BST는 포켓몬의 기본 통계의 총합이라고 생각하시면 됩니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 우리가 선택해야 할 포켓몬이 6마리뿐이라는 단 하나의 제약 조건만 있다면, 문제는 비교적 쉽고 명백한 해결책을 갖게 됩니다. 즉, 각 후보 포켓몬의 BST를 계산하고, 그 중에서 가장 효과적인 상위 6마리의 포켓몬을 우리 팀에 포함시키는 것입니다.
 
@@ -42,7 +61,18 @@ isUpdated: true
 
 난쟁이 문제는 다음과 같이 표현될 수 있는 고전적인 결합 최적화 문제입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다시 말해, 낙석 문제에서는 특정 가치와 크기를 가진 항목 집합을 일정 크기의 낙석가방에 담아야 합니다. 문제는 총 항목 중에서 낙석가방에 맞게 최대 총 가치를 얻을 수 있는 부분집합을 찾는 것입니다.
 
@@ -52,7 +82,18 @@ isUpdated: true
 
 0/1 낙석 문제는 바이너리 정수 프로그래밍(BIP) 문제로서 이렇게 정식으로 정의할 수 있습니다, 좀 멋있게 말하면:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 특히:
 
@@ -65,7 +106,18 @@ isUpdated: true
 
 배낭 문제는 NP-어려운 문제로 알려져 있지만, 작은 경우에는 정확한 알고리즘을 사용하여 효율적으로 해결할 수 있습니다. 따라서, 이 게시물에서는 PuLP Python 라이브러리를 사용하여 PokeAPI 데이터를 활용하여 0/1 배낭 문제를 모델링하고 해결합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 모두 잡기!
 
@@ -75,7 +127,18 @@ isUpdated: true
 
 분석에 필요한 다양한 포켓몬 특성을 획득하기 위해 PokeAPI에서 제공하는 데이터를 사용할 것입니다. 더 구체적으로, requests 라이브러리를 이용하여 Python에서 PokeAPI에 접근할 수 있습니다. 'limit = 151'을 설정하여 PokeAPI에서 1세대의 처음 151마리 포켓몬과 그 URL을 쉽게 얻을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import requests
@@ -111,10 +174,21 @@ for url in pokemon_urls:
 
 데이터프레임 형식으로 데이터셋을 살펴볼 수도 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
-import pandas as pd 
+import pandas as pd
 df = pd.DataFrame(pokemon_data)
 df
 ```
@@ -125,7 +199,18 @@ df
 
 ## PuLP을 사용하여 문제 모델링하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최적화 문제를 구조화하는 매우 첫 번째 단계는 결정 변수를 정의하는 것입니다. 우리의 경우, 우리가 결정하려고 하는 것은 어떤 포켓몬을 팀에 포함할 것인지입니다. 다시 말해, 151마리의 포켓몬 각각에 대해 그 포켓몬을 팀에 포함할지(따라서 이 포켓몬에 대한 결정 변수는 1이 될 것) 아닐지를 결정하려고 합니다(따라서 결정 변수는 0이 될 것). 결과적으로, 이 문제의 결정 변수는 이 문제에서 포켓몬이 우리 팀에 포함되어 있는지 여부를 나타내는 이진 결정 변수 x입니다.
 
@@ -135,7 +220,18 @@ df
 
 마지막으로, 우리는 문제의 제약 조건도 정해야 합니다. 이는:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 결정 변수 x는 바이너리(0 또는 1)여야 합니다.
 - 우리의 포켓몬 팀의 총 무게는 1,000kg 이하이어야 합니다.
@@ -151,24 +247,46 @@ import pulp
 prob = pulp.LpProblem("포켓몬 팀 최적화", pulp.LpMaximize)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그런 다음, 결정 변수를 정의합니다. 여기에는 바이너리 변수 제약 조건이 직접 통합됩니다.
 
 ```js
-x = pulp.LpVariable.dicts("x", range(len(pokemon_data)), cat='Binary')
+x = pulp.LpVariable.dicts("x", range(len(pokemon_data)), (cat = "Binary"));
 ```
 
 그리고 목적 함수는 다음과 같습니다.
 
 ```js
 prob += pulp.lpSum(
-    (pokemon['hp'] + pokemon['attack'] + pokemon['defense'] + pokemon['special_attack'] + pokemon['special_defense'] + 
+    (pokemon['hp'] + pokemon['attack'] + pokemon['defense'] + pokemon['special_attack'] + pokemon['special_defense'] +
      pokemon['speed']) * x[i] for i, pokemon in enumerate(pokemon_data)
 ), "Total Combat Effectiveness"
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 …그리고 문제 제약 사항입니다.
 
@@ -185,23 +303,43 @@ prob += pulp.lpSum(x[i] for i in range(len(pokemon_data))) == 6, "팀 크기"
 
 ## 포켓몬 드림 팀
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래와 같이 Markdown 형식으로 변경할 수 있습니다:
-
 
 The defined problem can be solved simply by:
 
 ```js
-prob.solve()
+prob.solve();
 ```
 
 … which returns ‘1’, meaning that the status of our problem is ‘LpStatusOptimal’, meaning the problem has an optimal solution. prob.solve() may also return other outputs, as for instance ‘-1’ (LpStatusInfeasible), meaning that there is no feasible solution for the problem given the constraints, or ‘-2’ (LpStatusUnbounded), indicating that the solution is unbounded.
 
 In any case, given that our problem has an optimal solution, we can display it by:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 선택된_포켓몬 = [포켓몬_데이터[i]['이름'] for i in range(len(포켓몬_데이터)) if pulp.value(x[i]) == 1]
@@ -214,7 +352,18 @@ print("선택된 포켓몬:", 선택된_포켓몬)
 
 우리의 포켓몬 드림 팀을 얻었어요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문제의 제약 조건(허용 중량 및/또는 포켓몬 수 변경, 포켓몬 유형 추가 등), 다른 목적 함수 정의 또는 기본 통계 중 하나에 대한 다른 계수 할당으로 인해 서로 다른 팀을 얻을 수 있다고 하는 것 같아요.
 
@@ -224,9 +373,9 @@ print("선택된 포켓몬:", 선택된_포켓몬)
 # 모든 포켓몬의 BST 계산
 for pokemon in pokemon_data:
     pokemon['BST'] = (pokemon['hp'] + pokemon['attack'] + pokemon['defense'] +
-                                             pokemon['special_attack'] + pokemon['special_defense'] + 
+                                             pokemon['special_attack'] + pokemon['special_defense'] +
                                              pokemon['speed'])
-    
+
 all_pokemon_df = pd.DataFrame(pokemon_data)
 selected_df = pd.DataFrame(selected_pokemon_data)
 
@@ -259,7 +408,7 @@ fig.update_layout(
     xaxis_title="무게 (kg)",
     yaxis_title="BST",
     legend_title="범례",
-    width=1000, 
+    width=1000,
     height=600,
     showlegend=True
 )
@@ -270,7 +419,18 @@ fig.show()
 
 # 제 생각
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 포켓몬 챔피언십을 위해 팀을 구성하는 것 외에도 배낭 문제는 여러 다양한 분야에서 실제 결정 과정에서 발생합니다. 이러한 실제 상황에는 예산 할당, 화물/트럭 적재, 투자 포트폴리오 최적화, 의약품 제조 또는 식단 계획 등이 포함됩니다. 이러한 문제를 프로그래밍적으로 인식, 모델링 및 해결하는 것은 어떤 조직에게도 중요한 통찰력을 제공할 수 있습니다. PuLP는 파이썬 환경에서 효율적으로 최적화 문제를 모델링하고 해결할 수 있는 강력한 라이브러리이며, 이는 파이썬의 다재다능성을 완전하게 보여줍니다.
 
@@ -280,7 +440,18 @@ fig.show()
 
 ✨읽어 주셔서 감사합니다!✨
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 게시물을 즐겼나요? 친구가 되어요!
 

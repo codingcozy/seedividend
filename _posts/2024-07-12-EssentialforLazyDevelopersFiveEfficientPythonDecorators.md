@@ -3,16 +3,13 @@ title: "게으른 개발자를 위한 필수 효율적인 파이썬 데코레이
 description: ""
 coverImage: "/assets/img/2024-07-12-EssentialforLazyDevelopersFiveEfficientPythonDecorators_0.png"
 date: 2024-07-12 20:47
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-12-EssentialforLazyDevelopersFiveEfficientPythonDecorators_0.png
 tag: Tech
 originalTitle: "Essential for Lazy Developers: Five Efficient Python Decorators"
 link: "https://medium.com/faun/essential-for-lazy-developers-five-efficient-python-decorators-a8d5964994f8"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-07-12-EssentialforLazyDevelopersFiveEfficientPythonDecorators_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 그러나 코드 리뷰 중에 코드에 소개된 예외 처리 데코레이터를 발견했는데, 이는 제 생각을 바꾸어 코드를 더 읽기 쉽게 만들었으며 간결한 형태로 강력한 기능을 제공했습니다. 이것이 나의 호기심을 자극하여 데코레이터의 다른 기능을 탐구하게 만들었으므로, 이 글에서는 데코레이터의 개념을 깊이 탐구하고 우리의 파이썬 코드를 개선하는 데 도움이 되는 다섯 가지 실용적인 데코레이터를 소개하겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 데코레이터란
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 데코레이터는 함수를 수정, 확장 또는 래핑하여 코드를 보다 가독성 있고 유지보수하기 쉽게 만드는 간결하고 우아한 방법을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데코레이터는 일반적으로 다음과 같은 시나리오에서 사용됩니다:
 
@@ -44,7 +63,18 @@ isUpdated: true
 
 ## 01 타이머: 함수 실행 시간 측정
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코드 성능 최적화는 매우 중요합니다. 이 데코레이터는 특정 함수의 실행 시간을 추적하고 경과 시간을 출력하는 데 도움을 줍니다. 이 데코레이터로 함수를 감싸면 병목 현상을 신속하게 식별하고 코드의 핵심 부분을 최적화할 수 있습니다.
 
@@ -70,9 +100,20 @@ def timer(func):
 
 파이썬에서 데코레이터를 만들려면 timer라는 함수를 정의해야 합니다. 이 함수는 데코레이터 함수임을 나타내는 func라는 매개변수를 받습니다. timer 함수 내부에서는 원하는 함수를 데코레이트하기 위해 매개변수를 일반적으로 전달하는 wrapper라는 다른 함수를 정의합니다.
 
-wrapper 함수 내에서는 제공된 인수를 사용하여 필요한 함수를 호출합니다. 이렇게 할 수 있습니다: result = func(*args, **kwargs).
+wrapper 함수 내에서는 제공된 인수를 사용하여 필요한 함수를 호출합니다. 이렇게 할 수 있습니다: result = func(\*args, \*\*kwargs).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막으로, 래퍼 함수는 장식된 함수의 실행 결과를 반환합니다. 데코레이터 함수는 방금 만든 래퍼 함수에 대한 참조를 반환해야 합니다.
 
@@ -90,7 +131,18 @@ train_model()
 
 ## 02 debugger: Make Debug Easier
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 유용한 추가 래퍼 함수를 만들어 디버깅을 용이하게 할 수 있습니다. 각 함수의 입력 및 출력을 출력하여 실행 흐름을 확인할 수 있습니다. 이 방법을 통해 복수의 print 문으로 애플리케이션을 혼란스럽게 만들 필요가 없습니다.
 
@@ -107,18 +159,29 @@ def debugger(func):
     return wrapper
 ```
 
-호출된 함수의 이름을 가져오기 위해 __name__ 매개변수를 사용할 수 있으며, args와 kwargs 매개변수를 사용하여 전달된 내용을 출력할 수 있습니다.
+호출된 함수의 이름을 가져오기 위해 **name** 매개변수를 사용할 수 있으며, args와 kwargs 매개변수를 사용하여 전달된 내용을 출력할 수 있습니다.
 
 ```python
 @debugger
 def add_numbers(x, y):
     return x + y
-add_numbers(7, y=5)  
+add_numbers(7, y=5)
 # 출력: Calling add_numbers with args: (7,) kwargs: {'y': 5}
 # add_numbers returned: 12
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 03 memoize: 반환 결과 캐시
 
@@ -139,7 +202,18 @@ def memoize(func):
     return wrapper
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데코레이터는 함수 매개변수와 반환 값을 저장하는 사전(dictionary)을 사용합니다. 이 함수를 실행할 때, 데코레이터는 이전 결과 사전을 확인합니다. 저장된 값이 없을 때만 실제 함수가 호출됩니다.
 
@@ -156,7 +230,18 @@ def fibonacci(n):
 
 이 함수의 실행 시간을 캐시를 사용하거나 사용하지 않을 때 각각 측정한 결과입니다. 캐시된 버전은 실행에 몇 밀리초만 소요되지만, 캐시되지 않은 버전은 거의 1분이 소요됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전 실행 결과를 저장할 때 사전을 사용하는 것은 간단하고 직관적인 방법입니다. 더 강력한 기능을 제공하기 위해 데이터를 캐시하는 인메모리 데이터베이스인 Redis나 Memcache와 같은 것을 사용할 수 있습니다.
 
@@ -166,7 +251,18 @@ def fibonacci(n):
 
 예기치 않은 이벤트가 발생할 때 코드가 일정 시간을 기다려 외부 시스템이 복구되기를 기다리고 다시 시도할 수 있기를 원할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그런 retry 로직을 Python 데코레이터로 구현하는 것이 좋습니다. 이렇게 하면 재시도 동작을 어떤 함수에든 적용할 수 있어요.
 
@@ -193,7 +289,18 @@ def retry(max_attempts, delay=1):
 
 데코레이터 함수가 호출되면 wrapper 함수가 호출돼요. 이 함수는 시도 횟수(0부터 시작)를 기록하고 while 루프에 진입해요. 루프는 장식된 함수를 실행하려고 시도하고, 성공하면 결과를 즉시 반환해요. 그러나 예외가 발생하면 시도 횟수를 증가시키고, 시도 횟수와 발생한 특정 예외를 나타내는 오류 메시지를 출력해요. 지정된 지연 시간 동안 함수를 다시 시도하기 전에 time.sleep을 사용해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 함수를 호출하려면 각 함수 호출 사이의 최대 시도 횟수와 시간 간격(초)을 지정할 수 있습니다.
 
@@ -203,7 +310,7 @@ def fetch_data(url):
     print("데이터를 가져오는 중..")
     # 서버 응답 없음을 모의하기 위해 시간 초과 오류 발생..
     raise TimeoutError("서버가 응답하지 않습니다.")
-fetch_data("https://example.com/data")  
+fetch_data("https://example.com/data")
 # 시도 간격이 2초인 3번 재시도
 ```
 
@@ -211,7 +318,18 @@ fetch_data("https://example.com/data")
 
 exception_handler는 함수에서 발생한 모든 예외를 잡아 적절히 처리할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요구 사항에 맞게 래퍼 함수에서 예외 처리를 사용자 정의할 수 있습니다. 예를 들어 예외를 로깅하거나 추가 오류 처리 단계를 수행할 수 있습니다.
 
@@ -235,11 +353,22 @@ def exception_handler(func):
 def divide(x, y):
     result = x / y
     return result
-divide(10, 0)  
+divide(10, 0)
 # 출력: 예외가 발생했습니다: division by zero
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 요약
 
@@ -249,8 +378,19 @@ divide(10, 0)
 
 ![이미지](/assets/img/2024-07-12-EssentialforLazyDevelopersFiveEfficientPythonDecorators_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-## 👋 만약 이 게시물이 도움이 된다면, 작가를 지원하는 의미로 아래 👏 버튼을 클릭해 주세요 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+## 👋 만약 이 게시물이 도움이 된다면, 작가를 지원하는 의미로 아래 👏 버튼을 클릭해 주세요
 
 ## 🚀 FAUN 개발자 커뮤니티에 가입하고 매주 이메일로 유사한 이야기를 받아보세요

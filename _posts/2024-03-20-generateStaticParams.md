@@ -3,17 +3,13 @@ title: "Nextjs 14에서 generateStaticParams로 동적 경로 세그먼트 생�
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # Nextjs 14에서 generateStaticParams로 동적 경로 세그먼트 생성하기
 
@@ -43,7 +39,18 @@ export default function Page({ params }) {
 > revalidation (ISR) 중에는 generateStaticParams가 다시 호출되지 않습니다.
 > generateStaticParams는 페이지 라우터의 getStaticPaths 함수를 대체합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 매개변수
 
@@ -53,7 +60,18 @@ options.params (선택 사항)
 
 params 객체에는 부모 generateStaticParams로부터 생성된 매개변수가 포함되어 있습니다. 이를 사용하여 자식 세그먼트의 매개변수를 생성할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 반환값
 
@@ -70,7 +88,18 @@ Markdown 형식으로 변경된 표입니다.
 | `/products/[category]/[product]` | `{ category: string, product: string }[]` |
 | `/products/[...slug]`            | `{ slug: string[] }[]`                    |
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단일 동적 세그먼트
 
@@ -112,7 +141,18 @@ export default function Page({ params }: { params: { category: string; product: 
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 모든 동적 세그먼트 캐치하기
 
@@ -136,7 +176,18 @@ export default function Page({ params }: { params: { slug: string[] } }) {
 
 ### 라우트에서 여러 동적 세그먼트 사용하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현재 레이아웃 또는 페이지 위에 동적 세그먼트를 생성할 수 있지만 아래에는 생성할 수 없습니다. 예를 들어, app/products/[category]/[product] 경로가 주어졌을 때:
 
@@ -147,7 +198,18 @@ export default function Page({ params }: { params: { slug: string[] } }) {
 
 ### 아래에서부터 위로 매개변수 생성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```typescript
 // [category] 및 [product]을 모두 위한 세그먼트 생성
@@ -169,7 +231,18 @@ export default function Page({ params }: { params: { category: string; product: 
 
 먼저 상위 세그먼트를 생성하고 결과를 사용하여 하위 세그먼트를 생성합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```typescript
 // [category]에 대한 세그먼트를 생성합니다
@@ -205,7 +278,18 @@ export default function Page({ params }: { params: { category: string; product: 
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 > 좋은 정보입니다: fetch 요청은 모든 generate 접두사 함수, 레이아웃, 페이지 및 서버 구성 요소 전체에서 동일한 데이터에 대해 자동으로 메모이제이션됩니다. fetch를 사용할 수 없을 때 React 캐시를 사용할 수 있습니다.
 
@@ -227,7 +311,18 @@ export async function generateStaticParams() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 버전 이력
 
@@ -235,4 +330,15 @@ export async function generateStaticParams() {
 | --------- | ------------------------------ |
 | `v13.0.0` | `generateStaticParams` 도입됨. |
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

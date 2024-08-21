@@ -3,17 +3,13 @@ title: "웹사이트 개발에 SVG 스프라이트 이미지 사용하는 방법
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Complete guide to SVG sprites"
 link: "https://medium.com/@hayavuk/complete-guide-to-svg-sprites-7e202e215d34"
 isUpdated: true
 ---
-
-
-
-
 
 ## 프론트엔드 프로젝트에서 SVG 아이콘 스프라이트를 만들고 사용하기
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 SVG는 HTML 마크업 내에 직접 배치될 수 있지만, 불필요한 코드로 마크업을 부풀리며, 동일한 아이콘을 여러 번 반복적으로 사용할 경우 효율적이지 않습니다. 또한 SVG 아이콘에 `img` 태그를 사용할 수도 있지만, 모양을 제어하는 데 많은 제어권을 잃게 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SVG 스프라이트를 사용하는 대안 방법이 있습니다. 이 기사에서는 SVG 아이콘을 내보내는 방법과 이를 단일 SVG 스프라이트 파일로 만드는 방법을 보여 드리겠습니다. 또한 문서에서 그들이 어떻게 사용되는지, 그리고 외관과 필요 대역폭을 제어할 수 있는 몇 가지 멋진 트릭을 보여 드리겠습니다.
 
@@ -33,7 +40,18 @@ SVG 스프라이트를 사용하는 대안 방법이 있습니다. 이 기사에
 
 SVG는 아이콘의 크기와 외관을 다양한 상황에서 더 잘 제어할 수 있는 뚜렷한 장점을 가지고 있습니다. 또한 웹 폰트에서는 불가능한 다중 색상 아이콘을 사용할 수 있습니다. 또 하나의 주요 장점은 SVG를 간단한 텍스트 편집기로 조작할 수 있지만, 폰트는 전문 도구가 필요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 폰트의 유일한 장점은 HTML에서 약간 덜 마크업이 필요하다는 것이지만, 그만큼 CSS가 더 많이 필요합니다. 예를 들어 다음과 같은 차이가 있습니다:
 
@@ -47,7 +65,18 @@ SVG는 아이콘의 크기와 외관을 다양한 상황에서 더 잘 제어할
 <svg class="icon"><use href="img/icons.svg#folder"></svg>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아이콘이 많이 사용된다면, 아이콘 폰트를 사용하면 대역폭을 조금 더 절약할 수 있어요.
 
@@ -57,7 +86,18 @@ SVG는 아이콘의 크기와 외관을 다양한 상황에서 더 잘 제어할
 
 먼저 아이콘 제작에 대해 다뤄볼게요. 그래픽의 잘 정리된 세트를 준비하는 것은 성공으로 향하는 첫걸음이에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 아트보드 사용하기
 
@@ -67,7 +107,18 @@ SVG는 아이콘의 크기와 외관을 다양한 상황에서 더 잘 제어할
 
 ## 일관된 채우기와 스트로크 색상
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SVG를 사용하면 페이지에서 사용할 때 그래픽의 색상, 선 굵기 및 기타 속성을 매우 세밀하게 제어할 수 있어요. 선 굵기, 색상 및 기타 요소를 일관성 있게 정의하는 것이 매우 중요해요.
 
@@ -77,7 +128,18 @@ SVG를 사용하면 페이지에서 사용할 때 그래픽의 색상, 선 굵�
 
 모든 선은 동일한 굵기여야 해요. 서로 다른 선 굵기가 필요한 경우(권장되지 않음) 다른 굵기의 수를 제한하고 미리 정의해야 해요. 선 굵기를 제멋대로 사용하는 것은 결코 바람직하지 않아요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 레이어와 아트보드 명명
 
@@ -90,7 +152,18 @@ SVG를 사용하면 페이지에서 사용할 때 그래픽의 색상, 선 굵�
 - newFolder
 - NewFolder
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 표 태그를 Markdown 형식으로 변경해주세요.
 
@@ -100,7 +173,18 @@ SVG를 사용하면 페이지에서 사용할 때 그래픽의 색상, 선 굵�
 
 ## 윤곽선은 윤곽선으로 유지하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 폰트를 다룬 적이 있다면, 획(Stroke)를 확장(변환하여 채운 외곽선으로)해야 하는지 알고 계실 것입니다. 이 작업은 SVG에서는 필요하지 않으며, 사실 불필요합니다. 획은 획 그대로 유지될 수 있습니다.
 
@@ -110,7 +194,18 @@ SVG를 사용하면 페이지에서 사용할 때 그래픽의 색상, 선 굵�
 
 ## Figma
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 피그마는 다양한 옵션이 없어요. 기억해야 할 중요한 점은 전체 아트보드를 내보내야 하며, 그 안의 그래픽만 내보내는 것이 아니라는 것입니다. 또한 아트보드에 채우기가 없어야 해요.
 
@@ -120,7 +215,18 @@ Adobe 일러스트레이터에서 SVG를 내보내는 두 가지 방법이 있�
 
 "내보내기" 옵션을 사용할 때 "아트보드 사용" 옵션이 선택되어 있는지 확인하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![CompleteguidetoSVGsprites_1](/assets/img/CompleteguidetoSVGsprites_1.png)
 
@@ -130,7 +236,18 @@ Adobe 일러스트레이터에서 SVG를 내보내는 두 가지 방법이 있�
 
 ![CompleteguidetoSVGsprites_2](/assets/img/CompleteguidetoSVGsprites_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각 아트보드의 형식이 "SVG"로 되어 있는지 확인해야 해요.
 
@@ -140,7 +257,18 @@ Adobe 일러스트레이터에서 SVG를 내보내는 두 가지 방법이 있�
 
 어떤 내보내기 방법을 사용하든 SVG 출력과 관련된 옵션은 동일합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "인라인 스타일" 옵션을 선택해 주세요. 이렇게 하면 스타일 정보가 스타일 속성으로 출력됩니다. 이는 SVG 스프라이트에 중요합니다. (이 외에도 "내부 CSS"말고 두 가지 옵션 중 하나를 사용할 수 있습니다.)
 
@@ -150,7 +278,18 @@ Adobe 일러스트레이터에서 SVG를 내보내는 두 가지 방법이 있�
 
 다른 옵션들은 그대로 두어도 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Affinity Designer
 
@@ -160,7 +299,18 @@ Affinity Designer에서 SVG를 내보내려면, Export persona 또는 "파일" �
 
 ![이미지](/assets/img/CompleteguidetoSVGsprites_5.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Export 페르소나에서 아트보드를 선택하면 "Export Options" 패널에서 일부 익스포트 옵션을 얻을 수 있습니다.
 
@@ -170,7 +320,18 @@ Export 페르소나에서 아트보드를 선택하면 "Export Options" 패널�
 
 추가로 다음 옵션은 켜져 있어야 합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - "상대 좌표 사용"
 - "16진수 색상 사용"
@@ -183,7 +344,18 @@ Export 페르소나에서 아트보드를 선택하면 "Export Options" 패널�
 
 # 스프라이트 파일
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SVG를 내보내면 스프라이트 SVG 파일을 준비할 수 있습니다.
 
@@ -200,7 +372,18 @@ SVG를 내보내면 스프라이트 SVG 파일을 준비할 수 있습니다.
 
 `defs` 태그에는 여러 `symbol` 태그가 들어갈 것입니다. `defs` 태그는 이후에 사용할 그래픽의 라이브러리를 포함하고 있습니다. 아이콘 스프라이트는 이 라이브러리의 일부이며 뷰어에서 SVG 파일을 열거나 페이지에 직접 사용할 때 그려지지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `svg` 태그에 viewBox 속성이 없다는 것을 알려드립니다. 다른 예제에서 사용된 적이 있을 수 있지만, 아이콘 스프라이트에는 필요하지 않으므로 생략해도 됩니다.
 
@@ -210,7 +393,18 @@ SVG를 내보내면 스프라이트 SVG 파일을 준비할 수 있습니다.
 
 각 아이콘은 `symbol` 태그 내에 포함되어 있습니다. 일반적으로 다음과 같이 보입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <symbol id="my-icon" viewBox="0 0 24 24">
@@ -224,8 +418,18 @@ SVG가 페이지에 그려질 때, 자체적인 뷰포트를 받으며 실제 �
 
 구체적으로 설명하자면, 32px 네모아이콘에 2px 스트로크 두께가 있는 경우를 가정해 봅시다. SVG의 뷰포트도 32px 네모인 경우, 아이콘은 어떤 확대도 없이 그려집니다. 뷰포트가 2배 큰 경우, 아이콘은 64px 네모에 그려지며 스트로크는 4px가 됩니다. 만약 뷰포트가 16px 네모인 경우, 아이콘도 16px로 그려지고 스트로크는 1px에 불과합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/CompleteguidetoSVGsprites_7.png" />
 
@@ -235,8 +439,18 @@ SVG가 페이지에 그려질 때, 자체적인 뷰포트를 받으며 실제 �
 
 요약하자면, `symbol` 태그에 올바른 viewBox를 항상 포함해야 합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 소스 SVG 변환하기
 
@@ -246,16 +460,21 @@ SVG가 페이지에 그려질 때, 자체적인 뷰포트를 받으며 실제 �
 
 다음은 Figma에서 출력한 예시입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-<svg
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  xmlns="http://www.w3.org/2000/svg"
->
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
   <symbol id="folder-add" viewBox="0 0 24 24">
     <path
       d="M9 8.5C9.27614 8.5 9.5 8.27614 9.5 8V5.5H19.5V18.5H4.5V8.5H9Z"
@@ -268,7 +487,18 @@ SVG가 페이지에 그려질 때, 자체적인 뷰포트를 받으며 실제 �
 </svg>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Illustrator SVG 변환
 
@@ -284,7 +514,18 @@ SVG가 페이지에 그려질 때, 자체적인 뷰포트를 받으며 실제 �
 
 변환된 기호는 다음과 같이 보입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <symbol id="folder-add" viewBox="0 0 24 24">
@@ -292,10 +533,7 @@ SVG가 페이지에 그려질 때, 자체적인 뷰포트를 받으며 실제 �
     d="m9.5,8v-2.5h10v13H4.5v-10h4.5c.28,0,.5-.22.5-.5Z"
     style="fill: #e7ca62; stroke: #000; stroke-linejoin: round;"
   />
-  <path
-    d="m15,12v4m-2-2h4"
-    style="fill: none; stroke: #000; stroke-linecap: round;"
-  />
+  <path d="m15,12v4m-2-2h4" style="fill: none; stroke: #000; stroke-linecap: round;" />
 </symbol>
 ```
 
@@ -305,7 +543,18 @@ SVG가 페이지에 그려질 때, 자체적인 뷰포트를 받으며 실제 �
 
 다음은 Affinity Designer에서의 예시 출력입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
@@ -332,7 +581,18 @@ SVG가 페이지에 그려질 때, 자체적인 뷰포트를 받으며 실제 �
 
 파일로부터 `g` 태그와 해당 내용을 추출하고, `svg` 태그의 viewBox 속성을 복사합니다. 또한 Affinity Designer에서만 사용하는 serif:id 속성을 제거합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Affinity Designer은 ID를 숫자로 추가합니다 (이 경우에는 folder-add 대신 folder-add1로 내보냅니다). 필요하지 않은 이 숫자를 제거했습니다.
 
@@ -346,7 +606,18 @@ Affinity Designer은 ID를 숫자로 추가합니다 (이 경우에는 folder-ad
 </svg>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SVG는 XML이기 때문에 `use/`와 같은 자체 닫히는 태그에 대해 /가 필요합니다. (HTML5에서는 브라우저에서 허용되지만 필요하지는 않습니다.)
 
@@ -360,7 +631,18 @@ URL에 fragment 식별자 #folder-add가 포함되어 있으며, 이는 스프�
 </svg>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 .icon {
@@ -373,7 +655,18 @@ URL에 fragment 식별자 #folder-add가 포함되어 있으며, 이는 스프�
 
 # 아이콘 색상 사용자 정의하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문맥에 따라 동일한 아이콘이 서로 다른 색상으로 표시될 수 있습니다. 또한 다크 모드를 위한 다양한 색상 스키마를 지원하거나, 예술적 결정에 따라 색상 스키마를 완전히 변경해야 할 수도 있습니다. 스프라이트 자체에 다양한 색상 변형을 포함할 수 있지만, CSS를 통해 단일 변형을 포함하고 색상을 제어하는 것이 더 효율적입니다. 이를 위해 두 가지 방법으로 수행할 수 있습니다.
 
@@ -383,7 +676,18 @@ URL에 fragment 식별자 #folder-add가 포함되어 있으며, 이는 스프�
 
 선 아트 아이콘의 경우, 아이콘은 선으로만 이루어져 있습니다. 아이콘 SVG를 심볼로 변환하는 과정에서 현재 색상 키워드(currentColor 또는 소문자로 currentcolor로 표기할 수 있음)로 선 색상을 간단히 바꿀 수 있습니다. 이는 부모 요소의 텍스트 색상( CSS color 속성)을 나타내는 마법 같은 값입니다. 이렇게 함으로써 선은 항상 주변 텍스트의 색상과 동일하게 유지되며, 필요한 곳에서 color 속성을 사용하여 각각의 아이콘에 대해 색상을 변경할 수 있습니다. 예를 들면:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .alert .icon {
@@ -408,7 +712,18 @@ URL에 fragment 식별자 #folder-add가 포함되어 있으며, 이는 스프�
 
 위의 SVG는 다음 아이콘을 나타냅니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/CompleteguidetoSVGsprites_10.png" />
 
@@ -423,7 +738,18 @@ URL에 fragment 식별자 #folder-add가 포함되어 있으며, 이는 스프�
 
 일반 아이콘들의 일부 속성에는 currentColor 키워드를 사용할 수도 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 :root {
@@ -449,7 +775,18 @@ SVG에서는 이러한 사용자 정의 속성을 활용하기 위해 필요한 
 
 나중에 이렇게 아이콘 색상을 사용자 정의할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .alert .icon {
@@ -463,7 +800,18 @@ SVG 파일의 값을 교체하는 작업은 스프라이트로 변환된 후에 
 
 # 테두리 모양 정의하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SVG의 스트로크에는 외관을 정의하는 여러 특성이 있어요.
 
@@ -475,7 +823,18 @@ SVG의 스트로크에는 외관을 정의하는 여러 특성이 있어요.
 
 우리가 `svg` 태그를 유지하지 않기 때문에, 이러한 요소를 어딘가에서 정의하지 않으면 그래픽이 잘못 보일 수 있어요. 이러한 불일치를 다루는 가장 간단한 방법은 CSS에서 처리하는 것이에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .icon {
@@ -489,7 +848,18 @@ SVG의 스트로크에는 외관을 정의하는 여러 특성이 있어요.
 
 이전에 설명한 바와 같이 SVG는 렌더링된 뷰포트 크기에 비례하여 확대/축소됩니다. 이는 선의 굵기를 포함합니다. 디자인이 의도한대로 동작하도록 하기 위해서는 이것이 바람직한지 여부를 고려해야 합니다. 예를 들어, 디자이너는 아이콘 크기에 관계없이 선의 굵기가 일정하게 유지되기를 원할 수 있습니다. 이 경우에는 CSS에서 선의 굵기에 대한 완전한 제어권을 원할 것입니다. 이를 위해 두 가지 방법 중 하나로 이를 달성할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 첫 번째 방법은 SVG에서 모든 테두리 너비 선언을 제거하고 CSS에서 단일 전역 선 두께를 추가하는 것입니다:
 
@@ -503,7 +873,18 @@ SVG의 스트로크에는 외관을 정의하는 여러 특성이 있어요.
 
 저는 하드 코딩된 값 대신 사용자 지정 속성을 사용할 것을 권장합니다. 이유는 두 가지입니다. 첫째, 하나 이상의 테두리 너비를 처리할 수 있기 때문에(권장되지는 않지만 발생할 수 있음), 둘째, 부모에 정의된 사용자 지정 속성은 모든 하위 항목에 적용되며, 그들이 자체적으로 재정의하는 경우를 제외하면 특정 SVG 요소를 대상으로하지 않아도 다른 테두리 너비를 적용할 필요가 없다는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 SVG 내에서 직접 사용자 지정 속성을 적용할 수 있습니다. 또한, SVG에서 stroke-width 선언을 제거하고 CSS에서 하나를 적용하는 방법도 있습니다. 후자의 경우는 다음과 같이 수행됩니다:
 
@@ -521,7 +902,18 @@ SVG의 스트로크에는 외관을 정의하는 여러 특성이 있어요.
 
 이전에 설명한대로 em 값으로 아이콘 크기를 설정했다고 가정해 봅시다. 이제 아이콘이 폰트 크기가 200%인 요소 내에 있는 경우를 가정해 봅시다. 선은 아이콘 크기와 함께 확대/축소됩니다. 따라서 이제 두 배 넓은 선에 대해 이야기하게 됩니다. 디자이너는 선이 일정해야 한다고 명시했으므로 다시 크기를 조정해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```json
 {
@@ -538,7 +930,18 @@ SVG의 스트로크에는 외관을 정의하는 여러 특성이 있어요.
 
 가끔은 동일한 그래픽이 여러 아이콘에서 반복될 수 있습니다. 다음 예시를 살펴봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![SVG Sprite](/assets/img/CompleteguidetoSVGsprites_11.png)
 
@@ -565,7 +968,18 @@ SVG의 스트로크에는 외관을 정의하는 여러 특성이 있어요.
 </svg>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `path d="M9.5,8l0,-2.5l10,0l0,13l..."/`태그가 세 번 반복됩니다. 이를 `use/`태그를 사용하여 요소화할 수 있습니다:
 
@@ -592,7 +1006,18 @@ SVG의 스트로크에는 외관을 정의하는 여러 특성이 있어요.
 
 `use/`태그는 viewbox 주변에서 이동하는 데 사용할 수 있는 x 및 y 속성을 지원합니다. 이는 반복되는 요소가 아이콘 내에서 항상 동일한 위치에 있지 않을 때에도 이 리팩터링을 사용할 수 있다는 것을 의미합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 교차 도메인 문제 다루기
 
@@ -602,7 +1027,18 @@ SVG의 스트로크에는 외관을 정의하는 여러 특성이 있어요.
 
 두 번째 옵션은 JavaScript를 사용하여 SVG를 인라인으로 삽입하는 것입니다. 이를 수행하는 코드는 다음과 같을 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 fetch("https://cdn.my-domain.com/icons.svg")
@@ -632,7 +1068,18 @@ fetch("https://cdn.my-domain.com/icons.svg")
 
 Id는 문서 전체에서 고유해야 합니다. `use/` 태그의 id 참조는 스프라이트 내의 아이콘에만 해당하는 것이 아니라 페이지의 다른 요소에도 해당될 수 있습니다. 따라서 페이지 내의 HTML 요소에 사용되는 id들과 충돌을 피하기 위해 스프라이트 SVG 내의 id를 icon-과 같이 일반적인 접두어로 지정하는 것이 좋습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 번째 옵션은 CDN 상에 스프라이트를 유지하므로 "더 좋을 것" 같아 보일 수 있지만, 실제로는 그렇지 않습니다. 그 이유는 스프라이트가 JavaScript 없이는 작동하지 않기 때문입니다.
 
@@ -642,6 +1089,17 @@ Id는 문서 전체에서 고유해야 합니다. `use/` 태그의 id 참조는 
 
 어떤 도구들은 디자이너가 사용하는 특정 디자인 도구에 대해 충분히 작동할 수 있고, 아이콘에 대한 충분히 좋은 시작점을 제공할 수 있습니다. 사용해보고 결과를 확인해야 할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그렇다고 해서 이 모든 것을 수동으로 처리하는 것이 어려운 것은 아닙니다. 개인적으로는 최종 결과물이 어떻게 보이는지에 대한 이 수준의 제어를 선호합니다. 완료해야 하는 일은 가끔할 뿐이기 때문에 필요한 계기가 됩니다. 연습이 조금 필요하지만, 그게 문제가 될까요!

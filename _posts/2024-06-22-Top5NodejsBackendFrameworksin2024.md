@@ -3,16 +3,13 @@ title: "2024년 최고의 Nodejs 백엔드 프레임워크 5가지"
 description: ""
 coverImage: "/assets/img/2024-06-22-Top5NodejsBackendFrameworksin2024_0.png"
 date: 2024-06-22 05:27
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-Top5NodejsBackendFrameworksin2024_0.png
 tag: Tech
 originalTitle: "Top 5 Node.js Backend Frameworks in 2024"
 link: "https://medium.com/bitsrc/top-5-nodejs-frameworks-in-2024-32c7fe9d49c6"
 isUpdated: true
 ---
-
-
-
 
 ## 2024년 API를 구축하기 위해 Hapi, Express.js, NestJS, Koa.js 및 Adonis.js를 탐험해보세요
 
@@ -22,7 +19,18 @@ Node.js는 2009년 이후로 핫한 주제였으며 대부분의 백엔드 개�
 
 ![이미지](/assets/img/2024-06-22-Top5NodejsBackendFrameworksin2024_0.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인기 증가의 이유는 로딩 시간의 감소와 성능 향상 때문입니다. 따라서, 2024년을 위한 상위 5개 Node.js 백엔드 프레임워크를 분석하는 것이 중요합니다.
 
@@ -32,7 +40,18 @@ Node.js는 2009년 이후로 핫한 주제였으며 대부분의 백엔드 개�
 
 # Express.js: 검증된 챔피언
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Express.js](/assets/img/2024-06-22-Top5NodejsBackendFrameworksin2024_2.png)
 
@@ -40,23 +59,34 @@ Express.js는 Node.js의 가장 유명한 백엔드 프레임워크 중 하나�
 
 # 주요 기능: 높은 효율의 라우팅
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Express.js는 다양한 HTTP 요청을 관리하고 특정 작업에 할당하는 간단하고 깔끔한 방법을 제공합니다. 아래 예제를 살펴봅시다.
 
 ```js
 // app.js
-const express = require('express');
+const express = require("express");
 const app = express();
 const port = 3000;
 
 // 홈페이지 라우트
-app.get('/', (req, res) => {
-  res.send('홈페이지에 오신 것을 환영합니다!');
+app.get("/", (req, res) => {
+  res.send("홈페이지에 오신 것을 환영합니다!");
 });
 
 // 사용자 라우트
-app.get('/user/:id', (req, res) => {
+app.get("/user/:id", (req, res) => {
   const userId = req.params.id;
   res.send(`사용자 프로필 페이지 - ID: ${userId}`);
 });
@@ -66,15 +96,26 @@ app.get('/user/:id', (req, res) => {
 
 Express.js는 HTTP 요청을 처리하기 위한 미들웨어 지원을 제공합니다. HTTP 요청 세부 정보를 기록하는 미들웨어를 만드는 간단한 예제를 살펴봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-const express = require('express');
+const express = require("express");
 const app = express();
 const port = 3000;
 
 app.use((req, res, next) => {
-  console.log(`[${new Date().toLocaleString()}] ${req.method} ${req.url}` );
+  console.log(`[${new Date().toLocaleString()}] ${req.method} ${req.url}`);
   next();
 });
 ```
@@ -85,8 +126,18 @@ Express.js는 데이터베이스에 구애받지 않습니다. 특정 데이터�
 
 4. 배우기 쉽습니다
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Express.js는 간결하고 최소주의 디자인으로 유명하며, 특히 JavaScript와 Node.js에 익숙한 개발자들에게 배우기 쉬운 것으로 알려져 있어요.
 
@@ -96,7 +147,18 @@ Express.js는 간결하고 최소주의 디자인으로 유명하며, 특히 Jav
 
 ![이미지](/assets/img/2024-06-22-Top5NodejsBackendFrameworksin2024_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제목: Bit 및 독립 컴포넌트를 사용하여 설계된 Express API의 범위
 
@@ -106,7 +168,18 @@ Express.js는 간결하고 최소주의 디자인으로 유명하며, 특히 Jav
 
 이 완벽한 구현을 보려면 Bit Scope를 확인해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # NestJS: 현대적이고 체계적인 방법
 
@@ -116,28 +189,48 @@ NestJS는 확장 가능하고 효율적인 Node.js 서버 측 애플리케이션
 
 # 주요 기능: 높게 평가되는 이유
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1. 모듈성
 
 Nest.js는 코드를 별도의 관리 가능한 모듈로 분할할 수 있어 유지 보수가 더 쉬워집니다. 예를 들어 아래 모듈을 살펴봅시다.
 
 ```js
-import { Module } from '@nestjs/common';
+import { Module } from "@nestjs/common";
 
 @Module({
- imports: [
-  CacheModule
- ],
- controllers: [PaymentController],
- providers: [PaymentService],
+  imports: [CacheModule],
+  controllers: [PaymentController],
+  providers: [PaymentService],
 })
 export class PaymentModule {}
 ```
 
 이 결제 모듈은 다른 모듈로 내보낼 수 있습니다. 이 예시에서는 이 모듈 내에서 공통 캐시 모듈을 내보냈습니다. Nest.js는 모듈 구조를 가지고 있기 때문에 관리가 용이합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 2. 확장 가능성
 
@@ -147,22 +240,29 @@ Nest.js는 어플리케이션을 관리 가능한 모듈로 분할하여 확장�
 
 의존성 주입은 외부 종속성을 클래스 내부에서 생성하는 대신 클래스에 추가하는 간단한 방법입니다. 예제를 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-import {
- HttpException, Injectable, NotFoundException
-} from '@nestjs/common';
+import { HttpException, Injectable, NotFoundException } from "@nestjs/common";
 
 @Injectable()
 export class PaymentService {
+  constructor() {}
 
- constructor() {}
-
- getReceipt() {
-   return 'Payment Receipt';
- }
-
+  getReceipt() {
+    return "Payment Receipt";
+  }
 }
 ```
 
@@ -183,16 +283,26 @@ export class PaymentController {
 
 4. 타입 안전성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `Nest.js`에서는 TypeScript를 사용하여 유형 안전성을 제공하며, 개발 중 잠재적인 오류를 찾아내고 코드 유지보수성을 개선하는 데 사용할 수 있습니다. 예를 살펴봅시다.
 
 ```js
 export class PaymentDto {
-
   @IsNotEmpty()
   @IsEnum(SERVICE_PROVIDER_SLUG, {
-    message: `Invalid serviceProvider. Valid options are: ${Object.values(SERVICE_PROVIDER_SLUG).join(', ')}`,
+    message: `Invalid serviceProvider. Valid options are: ${Object.values(SERVICE_PROVIDER_SLUG).join(", ")}`,
   })
   serviceProvider: string;
 
@@ -209,8 +319,7 @@ export class PaymentDto {
   @ArrayNotEmpty()
   @ValidateNested()
   @Type(() => PaymentAttributesDto)
-  paymentAttributes: PaymentAttributesDto[]
-
+  paymentAttributes: PaymentAttributesDto[];
 }
 ```
 
@@ -218,8 +327,18 @@ export class PaymentDto {
 
 # Koa.js: 우아하고 가벼운
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-22-Top5NodejsBackendFrameworksin2024_5.png" />
 
@@ -229,18 +348,28 @@ Koa.js는 Express.js 팀이 설계한 더 작고 표현력 있는 웹 프레임�
 
 1. 컨텍스트 객체(ctx)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Koa.js에는 요청과 응답 세부 사항을 캡처하는 ctx라는 기능이 포함되어 있습니다. 이 컨텍스트는 각 미들웨어에 전달됩니다. 이 예시에서는 ctx 객체에서 메서드와 요청을 기록했습니다.
 
 ```js
-const Koa = require('koa');
+const Koa = require("koa");
 const app = new Koa();
 
 app.use(async (ctx) => {
   const { method, url, request, response } = ctx;
-  console.log('Method :' + method + ' Request : ' + request);
+  console.log("Method :" + method + " Request : " + request);
 });
 
 app.listen(3000);
@@ -250,14 +379,25 @@ app.listen(3000);
 
 Express Js와 유사하게, Koa는 HTTP 요청과 응답을 처리하기 위한 미들웨어 함수를 지원합니다. 이 예시에서는 간단한 미들웨어를 만들었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-const Koa = require('koa');
+const Koa = require("koa");
 const app = new Koa();
 
 app.use(async (ctx, next) => {
-  await next(); 
+  await next();
 });
 
 app.listen(3000);
@@ -268,7 +408,7 @@ app.listen(3000);
 Koa는 비동기 코드를 더 동기적으로 보이게 작성하기 위해 async/await 구문을 사용합니다. 아래 예제는 async/await 키워드를 사용하는 예시입니다.
 
 ```js
-const Koa = require('koa');
+const Koa = require("koa");
 const app = new Koa();
 
 app.use(async (ctx) => {
@@ -279,33 +419,44 @@ app.use(async (ctx) => {
 app.listen(3000);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. 오류 처리
 
 Koa.Js는 다양한 종류의 오류 처리를 지원합니다. 오류를 처리하기 위해 app.emit() 또는 ctx.throw()를 사용할 수 있습니다. 아래 예시는 언급된 오류 처리 방법을 포함하고 있습니다.
 
 ```js
-const koa = require('koa');
+const koa = require("koa");
 const app = new koa();
 
 // 오류 처리 방법 1
 app.use(async (ctx, next) => {
   try {
-    await Promise.reject('문제가 발생했습니다');
+    await Promise.reject("문제가 발생했습니다");
   } catch (err) {
     ctx.status = err.status || 500;
     ctx.body = err.message;
-    ctx.app.emit('error', err, ctx);
+    ctx.app.emit("error", err, ctx);
   }
 });
 
 // 오류 처리 방법 2
 app.use(async (ctx, next) => {
-  ctx.throw(500, '에러');
+  ctx.throw(500, "에러");
 });
 
-app.on('error', (err, ctx) => {
+app.on("error", (err, ctx) => {
   console.log(err);
 });
 
@@ -314,7 +465,18 @@ app.listen(3000);
 
 # Hapi.js
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-22-Top5NodejsBackendFrameworksin2024_6.png" />
 
@@ -324,12 +486,23 @@ Hapi.js는 Http-API를 축약한 것으로, 확장 가능한 웹 애플리케이
 
 1. 구성 중심 설계
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Hapi.js의 구성 객체를 사용하면 라우트, 설정 및 플러그인을 설정할 수 있습니다.
 
 ```js
-const Hapi = require('@hapi/hapi');
+const Hapi = require("@hapi/hapi");
 
 const server = Hapi.server({
   port: 3000,
@@ -339,16 +512,16 @@ const server = Hapi.server({
 });
 
 server.route({
-  method: 'GET',
-  path: '/',
+  method: "GET",
+  path: "/",
   handler: (request, h) => {
-    return 'Hello, Hapi!';
+    return "Hello, Hapi!";
   },
 });
 
 async function start() {
   await server.start();
-  console.log('서버가 ${server.info.uri}에서 실행 중');
+  console.log("서버가 ${server.info.uri}에서 실행 중");
 }
 
 start();
@@ -358,41 +531,66 @@ start();
 
 Hapi.js는 플러그인을 간편하게 통합할 수 있는 기능을 제공합니다. 다음 예제를 살펴봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const start = async function () {
+  const server = Hapi.server();
 
-    const server = Hapi.server();
-
-    await server.register([{
-        plugin: require('plugin1'),
-        options: {}
-    }, {
-        plugin: require('plugin2'),
-        options: {}
-    }]);
+  await server.register([
+    {
+      plugin: require("plugin1"),
+      options: {},
+    },
+    {
+      plugin: require("plugin2"),
+      options: {},
+    },
+  ]);
 };
 ```
+
 이 예제에서는 두 개의 플러그인이 통합되었습니다. 옵션은 options 키를 사용하여 플러그인에 전달할 수 있습니다.
 
 3. 인증 및 권한
 
 Hapi.js는 다양한 인증 전략에 대한 내장 지원을 제공하며, 개발자들이 쉽게 액세스 제어 정책을 정의할 수 있도록 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 server.route({
-  method: 'GET',
-  path: '/private-data',
+  method: "GET",
+  path: "/private-data",
   handler: (request, h) => {
     // 인증된 경우에만 개인 데이터에 액세스합니다
     const user = request.auth.credentials;
     return `환영합니다, ${user.username}!`;
   },
   options: {
-    auth: 'jwt', // JWT 인증 전략 사용
+    auth: "jwt", // JWT 인증 전략 사용
   },
 });
 ```
@@ -403,16 +601,26 @@ server.route({
 
 입력 유효성 검사는 hapi.js의 또 다른 중요한 측면입니다. route의 options 객체에서 어떤 입력을 검증해야 하는지 정의할 수 있습니다. 기본 validate 객체는 아래 값으로 구성됩니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-{ 
-   headers: true, 
-   params: true, 
-   query: true, 
-   payload: true, 
-   state: true, 
+{
+   headers: true,
+   params: true,
+   query: true,
+   payload: true,
+   state: true,
    failAction: 'error'
 }
 ```
@@ -423,7 +631,18 @@ server.route({
 
 Adonis.js는 Node.js를 위한 전체 기능을 갖춘 MVC 프레임워크입니다. 확장 가능하고 유지 보수 가능한 애플리케이션을 구축할 수 있습니다. Adonis.js는 Laravel과 유사한 구조를 따르며 ORM, 인증 및 라우팅과 같은 기능을 기본 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 핵심 기능: 두드러지는 이유
 
@@ -433,31 +652,52 @@ Adonis.js는 MVC 아키텍처 패턴을 따릅니다. MVC 프레임워크를 사
 
 2. 데이터베이스 상호 작용을 위한 통합된 ORM(Lucid)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Adonis.js는 Lucid라는 자체 ORM을 가지고 있어요. Lucid는 표현적인 쿼리 빌더를 제공하며 다양한 데이터베이스 시스템을 지원해요. Lucid에서는 데이터베이스에 읽고 쓰기 위해 모델을 생성할 수 있어요. 아래 예시를 살펴보세요.
 
 ```js
-const Model = use('Model')
+const Model = use("Model");
 
-class User extends Model {
-}
+class User extends Model {}
 
-module.exports = User
+module.exports = User;
 ```
 
 우리는 이 사용자 모델을 데이터베이스 쿼리 대신 사용하고 있어요. 이제 라우트를 생성하는데, 해당 내부에서 사용자를 가져오고 있어요. 사용자를 가져오기 위해, 간단히 `User.all()`을 사용할 수 있어요.
 
 ```js
-const Route = use('Route')
-const User = use('App/Models/User')
+const Route = use("Route");
+const User = use("App/Models/User");
 
-Route.get('users', async () => {
-return await User.all()
-})
+Route.get("users", async () => {
+  return await User.all();
+});
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. 인증 시스템
 
@@ -467,7 +707,18 @@ Adonis.js에는 사용자 인증 및 권한 부여를 위한 기본 지원이 �
 
 2024년에는 위에서 언급한 백엔드 프레임워크들이 시장에서 높은 위치를 차지하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Express.js는 간결함 때문에, Nest.js는 구조 때문에, Adonis.js는 생산성 때문에, Koa.js는 우아함 때문에 선택했을지라도, 올바른 프레임워크를 선택하는 것이 중요합니다.
 

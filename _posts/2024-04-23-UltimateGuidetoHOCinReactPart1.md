@@ -3,17 +3,13 @@ title: "React에서 HOC를 왜 사용해야하는가"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Ultimate Guide to HOC in React Part 1"
 link: "https://medium.com/javascript-in-plain-english/ultimate-guide-to-hoc-in-react-part-1-8e2be7557751"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/UltimateGuidetoHOCinReactPart1_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 React 고차 컴포넌트는 많은 React 개발자들에게 친숙한 개념입니다. 이는 React 컴포넌트를 유연하게 사용하는 똑똑한 기술입니다. HOC 자체는 컴포넌트가 아니라, 컴포넌트를 입력으로 받아 다른 컴포넌트를 반환하는 함수입니다. HOC는 컴포넌트를 향상시키고, 로직을 재사용하며, 렌더링 성능을 향상시키는 데 사용됩니다. 🚀
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이해하기 어렵지 않아요. 실제로, 익숙해지면 꽤 간단하게 느껴질 거예요. 다음 섹션에서 HOC가 무엇인지, 어떻게 사용하는지, 그리고 적용 시나리오에 대해 설명하고, 실제 소스 코드 수준에서 실용적인 예제로 들어가면서 더욱 철저히 '고차 컴포넌트' 개념을 숙지하는 데 도움을 줄 거예요.🌟
 
@@ -36,7 +43,18 @@ React 고차 컴포넌트는 많은 React 개발자들에게 친숙한 개념입
 
 HOC는 React에서 컴포넌트 로직을 재사용하는 고급 기술이에요. HOC 자체는 React API의 일부가 아니라, React의 구성 기능에 기반한 디자인 패턴이에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 컴포넌트 래핑 방식🎯
 
@@ -68,7 +86,18 @@ const APP = React.createClass({
 
 React에서의 이전 믹스인 패턴은 createClass 내에서만 사용 가능했으나, 나중에 React.createClass과 믹스인은 사용 중지되었습니다. 믹스인은 일부 부정적인 영향을 미쳤습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 암시적 종속성: 믹스인은 암시적 종속성을 도입하여 특정 기능이 어디서 왔는지 더 어렵게 추적하게 만들었습니다.
 - 순서 및 충돌 문제: 서로 다른 믹스인은 특정 순서로 적용해야 할 수 있으며, 믹스인 코드 간의 충돌이나 재정의가 발생할 수 있습니다.
@@ -80,7 +109,18 @@ createClass가 더 이상 사용되지 않지만, React 생태계에서 믹스�
 
 예시 🌟:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const customMixin = {
@@ -149,7 +189,18 @@ class Index extends Base {
 export default Index;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## HOC 패턴🗝️
 
@@ -187,7 +238,18 @@ class Index extends React.Component {
 
 ## Custom Hooks 패턴📖
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 클래스 없이 상태와 로직 재사용성이 부족한 컴포넌트를 다루는 문제를 대부분 해결하는 것이 훅의 등장입니다. 훅을 사용하면 로직을 캡슐화하여 쉽게 사용할 수 있습니다. 이에 대해 더 자세히 알아보려고 합니다.
 
@@ -200,7 +262,18 @@ HOC(고차 컴포넌트)의 원래 의도는 컴포넌트의 재사용성과 로
 - 강화된 컴포넌트: HOC는 래핑된 비즈니스 컴포넌트에 추가 기능을 제공하는 독특한 기능을 가지고 있습니다. 이는 추가 수명주기 메서드, 추가 이벤트 핸들러 등을 포함할 수 있습니다. 그러나 이러한 HOC는 비즈니스 컴포넌트와 밀접하게 통합되어야 할 수 있습니다. React-keepalive-router의 keepaliveLifeCycle이 비즈니스 컴포넌트에 추가 수명주기 메서드를 추가하기 위해 HOC를 사용하는 전형적인 예시입니다.
 - 렌더링 제어: HOC의 주목할만한 기능 중 하나는 렌더링 가로채기입니다. 래핑된 컴포넌트에서 조건부 렌더링, 시간 제한된 렌더링, 게으른 로딩 등과 같은 기능을 구현할 수 있습니다. 이에 대해 나중에 자세히 다루겠습니다. 예를 들어, react-redux의 connect 및 dva의 동적 컴포넌트에서 게으른 로딩을 위해 HOC를 사용하는 것이 전형적인 예시입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 고차 컴포넌트의 원래 의도에 대해 설명하겠습니다. 이 원리와 사용 방법에 대해 설명할 겁니다. 제 생각을 따라가며, 먼저 비즈니스 컴포넌트에서 고차 컴포넌트가 어떻게 사용되는지 알아봅시다.
 
@@ -217,7 +290,18 @@ class Index extends React.Component {
 
 상태를 가지지 않는 컴포넌트에 대해서는 이렇게 쓸 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 함수 Index(){
@@ -238,7 +322,18 @@ export default withStyles(styles)(withRouter( keepaliveLifeCycle(Index) ))
 
 매개변수를 필요로 하는 HOC의 경우에는 프록시에 추가적인 레이어를 추가해야 합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 function connect(mapStateToProps) {
@@ -254,7 +349,18 @@ High Order Components (HOCs)에는 두 가지 주요 접근 방식이 있어요.
 
 전방 속성 프록시는 컴포넌트를 프록시 컴포넌트로 래핑하는 것을 포함해요. 프록시 컴포넌트에서 원본 컴포넌트를 프록시하기 위한 다양한 작업을 수행할 수 있어요. 피버 트리에서 프록시 컴포넌트가 먼저 마운트된 다음 비즈니스 컴포넌트가 따라오죠. 이 관계를 부모-자식 관계로 이해할 수 있는데, 부모 컴포넌트가 자식 컴포넌트에 대해 일련의 개선작업을 수행하게 되는 것이에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 기능 HOC(WrapComponent){
@@ -296,7 +402,16 @@ function HOC(Component) {
 const newIndex = HOC(Index);
 console.log(newIndex.say);
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사에서는 하이어오더 컴포넌트(HOC)를 작성하는 두 가지 다른 방법과 그 응용 프로그램을 탐구했습니다. 모든 것은 하이어오더 컴포넌트의 기능에서 시작되었습니다. 이 기사는 대부분 잘 알려진 오픈 소스 하이어오더 컴포넌트와 그 사용 사례를 다룹니다.
 
@@ -308,3 +423,4 @@ In Plain English 커뮤니티의 일원이 되어 주셔서 감사합니다! 떠
 - 팔로우하기: X | LinkedIn | YouTube | Discord | Newsletter
 - 다른 플랫폼 방문하기: Stackademic | CoFeed | Venture | Cubed
 - PlainEnglish.io에서 더 많은 콘텐츠 확인하기
+```

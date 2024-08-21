@@ -3,17 +3,13 @@ title: "Nextjs 13 저장소의 Instrumentation 방법 정리"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "기관화"
 link: "undefined"
 isUpdated: true
 ---
-
-
-
-
 
 # Instrumentation
 
@@ -23,7 +19,18 @@ Instrumentation(계측)은 코드를 사용하여 모니터링 및 로깅 도구
 
 계측을 설정하려면 프로젝트의 루트 디렉토리에 instrumentation.ts|js 파일을 만드세요 (사용 중인 경우 src 폴더 내부에 위치).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼, 파일에 등록 함수를 내보내세요. 이 함수는 새로운 Next.js 서버 인스턴스가 초기화될 때 한 번 호출됩니다.
 
@@ -39,7 +46,18 @@ export function register() {
 
 전체 구현 사례를 보려면 OpenTelemetry 예제를 참조하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 > 좋아 알아두세요
 > 이 기능은 실험적입니다. 사용하려면 experimental.instrumentationHook = true;를 next.config.js 파일에서 명시적으로 정의해야 합니다.
@@ -52,7 +70,18 @@ export function register() {
 
 가끔은 코드에서 파일을 가져오는 것이 유용할 수 있습니다. 이는 부작용 때문일 수 있습니다. 예를 들어, 전역 변수 집합을 정의하는 파일을 가져올 수 있지만 코드에서 해당 가져온 파일을 명시적으로 사용하지 않을 수도 있습니다. 이렇게 하면 패키지에서 선언한 전역 변수에 여전히 액세스할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 JavaScript import 구문을 사용하여 파일을 불러오는 것을 권장합니다. 아래 예제는 register 함수 내에서 import를 기본적으로 사용하는 방법을 보여줍니다:
 
@@ -67,7 +96,18 @@ export async function register() {
 
 ### 런타임별 코드 불러오기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Next.js는 모든 환경에서 register를 호출하므로 특정 런타임(예: Edge 또는 Node.js)을 지원하지 않는 코드를 조건부로 가져오는 것이 중요합니다. 현재 환경을 확인하려면 NEXT_RUNTIME 환경 변수를 사용할 수 있습니다:
 
@@ -83,4 +123,15 @@ export async function register() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

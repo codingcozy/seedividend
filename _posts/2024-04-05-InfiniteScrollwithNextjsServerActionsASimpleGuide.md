@@ -3,17 +3,13 @@ title: "Nextjs 서버 액션을 이용한 무한 스크롤 구현하기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Infinite Scroll with Nextjs Server Actions A Simple Guide"
 link: "https://medium.com/@ferlat.simon/infinite-scroll-with-nextjs-server-actions-a-simple-guide-76a894824cfd"
 isUpdated: true
 ---
-
-
-
-
 
 대량의 데이터를 처리할 때, 효과적인 프론트엔드 페이지네이션은 성능과 가독성을 유지하는 데 중요합니다. 특히 더 느린 장치에서는 더 그렇습니다. 페이지네이션에 현대적인 감각을 더하려면, 무한 스크롤을 살펴보고 Next.js 서버 액션의 강점을 활용하는 방법에 대해 알아보겠습니다.
 
@@ -25,7 +21,18 @@ isUpdated: true
 npx create-next-app@latest
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예제에서는 TypeScript, Tailwind 및 Next.js 앱 라우터를 사용했어요.
 
@@ -37,7 +44,18 @@ npx create-next-app@latest
 
 # 단계 2 — 초기 사용자 표시
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 사용자 가져오기 함수
 
@@ -64,7 +82,18 @@ export const getUsers = async (offset: number, limit: number) => {
 
 # 사용자 UI 구성요소
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용자 데이터를 표시하는 간단한 카드 컴포넌트를 만들어주세요. 이를 위해 src/components/UserCard.tsx 파일을 작성해주세요.
 
@@ -92,7 +121,18 @@ export default function UserCard({ user }: UserProps) {
 
 src/app/page.tsx 파일에 있는 Next.js 홈페이지를 사용자 페이지로 대체하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import UserCard from "@/components/UserCard";
@@ -119,7 +159,18 @@ export default async function Home() {
 
 사용자 페이지의 내용을 자식 클라이언트 컴포넌트로 이동하십시오. src/components/UserList.tsx를 생성하고 src/app/page.tsx에 포함시킵니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // components/UserList.tsx
@@ -159,7 +210,18 @@ export default async function Home() {
 
 사용자 목록 컴포넌트에서 사용자 목록은 이제 React 상태입니다. 초기 값은 부모 페이지에서 정적으로 로드된 10명의 사용자로 설정되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // components/UserList.tsx
@@ -225,7 +287,18 @@ export default function UserList({ initialUsers }: UserListProps) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 🥳 우리는 이제 사용자를 더 불러오는 버튼으로 활성화된 완전히 기능적인 페이징 기능을 갖추었습니다.
 
@@ -235,7 +308,18 @@ export default function UserList({ initialUsers }: UserListProps) {
 
 프로젝트에 마지막 손질로 사용자의 스크롤을 감지하고 loadMoreUsers 함수를 활성화하는 작업이 필요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이를 위해 react-intersection-observer 라이브러리를 설치할 것입니다. 이 라이브러리는 컴포넌트가 뷰포트 내에 있는지 모니터링하는 프로세스를 간소화합니다.
 

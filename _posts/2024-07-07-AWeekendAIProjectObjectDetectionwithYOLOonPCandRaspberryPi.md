@@ -3,15 +3,13 @@ title: "주말 AI 프로젝트 PC와 Raspberry Pi에서 YOLO를 사용한 객체
 description: ""
 coverImage: "/assets/img/2024-07-07-AWeekendAIProjectObjectDetectionwithYOLOonPCandRaspberryPi_0.png"
 date: 2024-07-07 02:24
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-AWeekendAIProjectObjectDetectionwithYOLOonPCandRaspberryPi_0.png
 tag: Tech
 originalTitle: "A Weekend AI Project: Object Detection with YOLO on PC and Raspberry Pi"
 link: "https://medium.com/towards-data-science/a-weekend-ai-project-object-detection-with-yolo-on-pc-and-raspberry-pi-0653e01032c1"
 isUpdated: true
 ---
-
-
 
 <img src="/assets/img/2024-07-07-AWeekendAIProjectObjectDetectionwithYOLOonPCandRaspberryPi_0.png" />
 
@@ -21,7 +19,18 @@ YOLO(You Only Look Once)는 인기 있는 객체 검출 라이브러리로, 첫 
 
 본문에 제시된 코드는 크로스 플랫폼이므로 Raspberry Pi가 없는 독자들도 Windows, Linux 또는 OS X 컴퓨터에서 실행할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 계속해서, 어떻게 작동하는지 살펴보겠습니다!
 

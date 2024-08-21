@@ -3,7 +3,7 @@ title: "Angular HttpClient와 Signals를 연결하는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-23-AngularmakingbridgesbetweenHttpClientandSignals_0.png"
 date: 2024-06-23 14:04
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-AngularmakingbridgesbetweenHttpClientandSignals_0.png
 tag: Tech
 originalTitle: "Angular: making bridges between HttpClient and Signals"
@@ -11,16 +11,24 @@ link: "https://medium.com/@IgorPak-dev/angular-making-bridges-between-httpclient
 isUpdated: true
 ---
 
-
-
-
 Ever since the 18th release and the new upcoming releases of the Angular framework, the entire Angular community has been experiencing significant changes, such as zoneless apps and reduced usage of RxJS in everyday code. It’s essential to consider whether or not to use RxJS carefully. Still, you should understand and use both the main concepts of the reactive mechanisms we have in our applications without neglecting either of them. I recommend using signals for the state and RxJS to manage events and complex logic.
 
 But first, let’s touch on the article’s topic: how we should interact with HttpClient-based services when connecting them with signal-based components. This involves managing the transition from HttpClient’s Observable-based responses to the Signal-based properties used in signal-based components.
 
 Amidst the discussions about using the fetch API instead of HttpClient, I want to reiterate my advice: it’s not necessary to drop HttpClient. It offers useful out-of-the-box features that we can benefit from. Remember, we have the tools to handle the Observable-to-Signal bridge without any issues.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## RxJS 직접 구독
 
@@ -43,7 +51,18 @@ public ngOnInit() {
 
 ## Promises 활용하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 번째 방법은 프로미스를 활용하는 것입니다. 표준 then/catch 또는 async/await을 사용할 수 있습니다. 이것은 조금 까다로울 수도 있습니다, 특히 async/await의 구체적인 내용을 잊게 되었거나 모르는 경우입니다. RxJS의 firstValueFrom 함수를 사용하여 첫 번째 발행된 값을 observable로 변환할 수 있습니다(일반적으로 API 응답은 한 가지 값이기 때문에 잘 맞습니다). 여기에는 두 가지 주의해야 할 점이 있습니다:
 
@@ -59,21 +78,32 @@ public async ngOnInit() {
 
 코드 실행을 중지하지 않으려면 전용 함수 래퍼를 사용할 수 있습니다. 다른 방법은 IIFE를 사용하는 것입니다. 이 방법이 더 일관된 것으로 생각될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 public async initData() {
   this.data = signal(await firstValueFrom(this.testService.getItems()));
 }
 
-public ngOnInit() {   
+public ngOnInit() {
   this.initData();
   ....
 }
 ```
 
 ```js
-public ngOnInit() {    
+public ngOnInit() {
   (async () => {
     this.data = signal(await firstValueFrom(this.testService.getItems()));
     console.log('data inited');
@@ -85,14 +115,25 @@ public ngOnInit() {
 다른 방법은 old-faithful then을 사용하는 것입니다. 위의 모든 프로미스 케이스에서 then 콜백 실행을 마이크로태스크로 생각할 때, 그것은 자체적인 특징이 있으며 어떤 경우에는 예측할 수 없는 결과를 줄 수 있음을 잊지 마세요.
 
 ```js
-public ngOnInit() {   
+public ngOnInit() {
   firstValueFrom(this.testService.getItems()).then((items) => {
     this.data = signal(items);
   });
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## rxjs-interop을 사용하여 toSignal을 활용해보세요
 
@@ -106,7 +147,7 @@ rxjs-interop은 우리에게 세 번째 방법을 제공했는데, 그것은 toS
 ```js
 private _injector = inject(Injector);
 
-public ngOnInit() {  
+public ngOnInit() {
   this.data = toSignal(this.testService.getItems(), {
     // injector에 대한 참조 제공
     injector: this._injector,
@@ -122,9 +163,20 @@ public ngOnInit() {
   });
   ....
 }
-```  
+```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 결론:
 

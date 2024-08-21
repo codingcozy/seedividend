@@ -3,17 +3,13 @@ title: "프론트엔드 주간 소식들2024년 4월 둘째주"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Frontend Weekly Digest 358 814 April 2023"
 link: "https://medium.com/@frontender-ua/frontend-weekly-digest-358-8-14-april-2023-8e4cf81d0010"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/FrontendWeeklyDigest358814April2023_0.png" />
 
@@ -30,7 +26,18 @@ isUpdated: true
 - Jest 채택 가이드: 개요, 예시 및 대체 방법
 - Deno: 우리가 JSR(JavaScript Registry)을 어떻게 구축했는지
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # CSS
 
@@ -49,7 +56,18 @@ isUpdated: true
 - Kosko - JavaScript로 Kubernetes 매니페스트 조직화하기
 - React 이상의 Frontend 개발: Svelte (1/3)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - React
   - 리액트로 마퀴 컴포넌트를 만드는 방법

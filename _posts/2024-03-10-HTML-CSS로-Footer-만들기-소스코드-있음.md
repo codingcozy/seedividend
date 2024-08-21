@@ -3,23 +3,30 @@ title: "HTML CSS로 푸터 만들기 소스코드 포함"
 description: "HTML과 CSS를 사용하여 간단한 푸터 만들기 프로젝트 소개와 소스코드를 제공합니다"
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
 
-
-
-
-
 # HTML CSS로 푸터 만들기 (소스코드 포함)
 
 HTML과 CSS를 사용하여 간단한 푸터를 만드는 방법과 프로젝트 소개, 소스코드를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 글에서는 HTML과 CSS를 사용하여 간단한 푸터를 만들어봅니다. 이 푸터에는 회사 소개 텍스트, 중요 링크, 웹사이트의 중요 페이지 및 소셜 미디어 아이콘이 포함됩니다. 그러니 HTML과 CSS를 사용하여 만들어 보겠습니다.
 
@@ -27,7 +34,18 @@ HTML과 CSS를 사용하여 간단한 푸터를 만드는 방법과 프로젝트
 
 하지만 이 작은 공간이 끝나는 부분에서 중요한 역할을 합니다. 우리가 어떤 웹페이지나 관련 자료의 끝에 도달하면 무엇을 할까요? 그것을 종료하지만 푸터는 우리가 다시 그 자료로 돌아갈 수 있도록 해줍니다. 페이지의 맨 위로 스크롤할 필요 없이 링크를 클릭하여 해당 페이지로 이동할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이와 비슷한 기능을 우리가 직접 디자인해 보겠습니다.
 
@@ -39,7 +57,18 @@ HTML과 CSS를 사용하여 간단한 푸터를 만드는 방법과 프로젝트
 - 3개의 다른 열이 있고, 그 아래에 수평선이 있으며, 그 아래에 저작권 메시지와 소셜 링크가 있습니다. 이것은 어떤 푸터의 기본 구조입니다. 더 많은 상호 작용을 원한다면 이를 구축하고 편의에 맞게 편집하세요.
 - 우리의 푸터는 반응형입니다. 그래서 반응형 사이드에서 어떻게 보이는지도 함께 첨부했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/Create-Footer-Using-HTML-and-CSS-With-Source-Code_1.png" />
 
@@ -54,7 +83,18 @@ HTML 섹션에는 다음과 같은 부분이 있습니다.
 
 아래 코드를 확인하고 HTML에서 실행해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```html
 <!DOCTYPE html>
@@ -83,10 +123,9 @@ HTML 섹션에는 다음과 같은 부분이 있습니다.
           <div class="col-sm-12 col-md-6">
             <h6>About</h6>
             <p class="text-justify">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+              industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+              scrambled it to make a type specimen book.
             </p>
           </div>
           <div class="col-6 col-md-3">
@@ -124,9 +163,7 @@ HTML 섹션에는 다음과 같은 부분이 있습니다.
           <div class="col-md-4 col-sm-6 col-12">
             <ul class="social-icons">
               <li>
-                <a class="facebook" href="#"
-                  ><i class="fab fa-facebook-f"></i
-                ></a>
+                <a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a>
               </li>
               <li>
                 <a class="twitter" href="#"><i class="fab fa-twitter"></i></a>
@@ -135,9 +172,7 @@ HTML 섹션에는 다음과 같은 부분이 있습니다.
                 <a class="dribbble" href="#"><i class="fab fa-dribbble"></i></a>
               </li>
               <li>
-                <a class="linkedin" href="#"
-                  ><i class="fab fa-linkedin-in"></i
-                ></a>
+                <a class="linkedin" href="#"><i class="fab fa-linkedin-in"></i></a>
               </li>
             </ul>
           </div>
@@ -163,7 +198,18 @@ HTML 섹션에는 다음과 같은 부분이 있습니다.
 </html>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # CSS 푸터 소스 코드:
 
@@ -171,7 +217,18 @@ CSS를 사용하여 컨테이너를 디자인하고 중앙으로 가져와서 �
 
 아래 코드를 추가하여 HTML 파일의 절반을 완성하고 마법을 보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");

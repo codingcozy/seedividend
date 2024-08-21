@@ -3,17 +3,13 @@ title: "2024년에 React로 가능한 다양한 기능들"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Exciting React Features in 2023 A Look into the Future of Web Development"
 link: "https://medium.com/better-programming/exciting-react-features-in-2023-a-look-into-the-future-of-web-development-440107a3129d"
 isUpdated: true
 ---
-
-
-
-
 
 ![ExcitingReactFeaturesin2023ALookintotheFutureofWebDevelopment_0](/assets/img/ExcitingReactFeaturesin2023ALookintotheFutureofWebDevelopment_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 동시 모드(Concurrent Mode)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2023년 발매 예정인 React의 Concurrent Mode는 복잡하고 연산이 많은 애플리케이션에서 특히 성능 향상을 약속합니다. 이 모드는 React가 여러 작업을 동시에 처리할 수 있게 하여 작업을 작은 단위로 나누거나 "fibers"로 분할합니다. 이 기능 세트는 비용이 많이 드는 계산, 네트워크 요청 또는 대규모 컴포넌트 트리 렌더링을 수행할 때에도 응답성을 유지할 수 있도록 합니다.
 
@@ -52,7 +59,18 @@ const ReactComponent = () => {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 다음 예제에서는 응용 프로그램의 초기 로드 시간을 개선하는 데 사용되는 React.lazy 함수를 사용할 것입니다.
 
@@ -83,7 +101,18 @@ export default App;
 
 Suspense 컴포넌트는 레이지 컴포넌트가 로드되는 동안 렌더링될 컴포넌트를 나타내는 fallback 속성을 사용합니다. 이 경우 LoadingFallback 컴포넌트를 정의하여 간단한 로딩 메시지를 표시합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **번들러나 번들 캐쉬 수정 및 사용자 지정 파일 확장자 지정 외에도 Vue CLI 3는 다양한 기능을 제공합니다. 다음은 몇 가지 추가 기능입니다:**
 
@@ -91,7 +120,18 @@ Suspense 컴포넌트는 레이지 컴포넌트가 로드되는 동안 렌더링
 
 2. **UI로 프로젝트 구성:** Vue CLI UI는 GUI 방식으로 프로젝트를 관리할 수 있는 기능을 제공합니다. 이를 통해 사용자는 터미널 명령어를 사용하지 않고도 프로젝트를 관리하고 모니터링할 수 있습니다. 이는 시각적인 환경에서 개발을 원하는 개발자에게 유용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, Concurrent Mode가 활성화된 React 애플리케이션 설정을 사용하도록 하겠습니다. Concurrent Mode를 사용하려면 React 버전 18 이상이 필요합니다. 아래는 애플리케이션의 기본 구조입니다:
 
@@ -135,20 +175,14 @@ const ChatContainer = () => {
 
   const handleUserMessage = async (message) => {
     // 사용자 메시지를 대화에 추가
-    setConversation((prevConversation) => [
-      ...prevConversation,
-      { author: "user", message },
-    ]);
+    setConversation((prevConversation) => [...prevConversation, { author: "user", message }]);
 
     // ChatGPT에서 응답 생성
     const response = await generateChatGPTResponse(session, message);
     // generateChatGPTResponse 함수는 ChatGPT의 응답을 얻기 위해 API에 요청을 보내는 것으로 가정
 
     // ChatGPT의 응답을 대화에 추가
-    setConversation((prevConversation) => [
-      ...prevConversation,
-      { author: "chatbot", message: response },
-    ]);
+    setConversation((prevConversation) => [...prevConversation, { author: "chatbot", message: response }]);
   };
 
   return (
@@ -184,7 +218,18 @@ const ChatConversation = ({ conversation }) => {
 export default ChatConversation;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // ChatInput.js
@@ -219,7 +264,18 @@ const ChatInput = ({ onMessage }) => {
 
 이것은 단순화된 예제이므로 귀하의 구체적인 요구사항 및 ChatGPT API의 통합 세부 정보에 따라 코드를 수정해야 할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 리액트 서버 컴포넌트
 
@@ -233,15 +289,24 @@ import { serverComponent, useState } from "react-server-component";
 const Counter = () => {
   const [count, setCount] = useState(0);
 
-  return (
-    <button onClick={() => setCount(count + 1)}>클릭한 횟수: {count}</button>
-  );
+  return <button onClick={() => setCount(count + 1)}>클릭한 횟수: {count}</button>;
 };
 
 export default serverComponent(Counter);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 예제에서는 클릭할 때 count 상태가 증가하는 간단한 Counter 컴포넌트를 정의합니다. react-server-component에서 serverComponent를 사용하여이 컴포넌트를 서버 및 클라이언트에서 원활하게 렌더링하여 더 빠르고 더 인터랙티브 한 사용자 경험을 제공할 수 있습니다.
 
@@ -274,7 +339,18 @@ export default renderServerComponent;
 
 이 예제에서는 react 패키지에서 createSignal 함수를 사용하여 count 변수의 상태를 관리합니다. 서버 컴포넌트는 제목을 렌더링하고 현재 카운트를 표시하는 단락 및 카운트를 증가시키는 버튼을 렌더링합니다. 버튼을 클릭할 때마다 setCount 함수를 사용하여 count 값이 업데이트됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `renderServerComponent` 함수는 서버 컴포넌트를 문자열로 렌더링하기 위해 react-dom/server의 `renderToStringAsync`를 사용하는 비동기 함수입니다. 이 함수는 생성된 HTML을 반환합니다.
 
@@ -284,7 +360,18 @@ export default renderServerComponent;
 
 # React Query 통합
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트 쿼리는 리액트 애플리케이션에서 비동기 데이터 관리를 간단하게 해주는 강력한 데이터 가져오기 라이브러리입니다. 2023년 현재, 리액트 개발자들에게 필수적인 도구가 되었으며, 리액트와의 통합이 매우 원활합니다. 예시를 살펴봅시다:
 
@@ -292,9 +379,7 @@ export default renderServerComponent;
 import { useQuery } from "react-query";
 
 const UserProfile = () => {
-  const { data, isLoading, isError } = useQuery("user", () =>
-    fetch("/api/user").then((res) => res.json())
-  );
+  const { data, isLoading, isError } = useQuery("user", () => fetch("/api/user").then((res) => res.json()));
 
   if (isLoading) {
     return <div>Loading...</div>;
@@ -314,7 +399,18 @@ export default UserProfile;
 
 # 리액트 개발자 도구 프로파일러 업그레이드
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트 DevTools는 리액트 애플리케이션의 디버깅을 돕는 브라우저 확장 프로그램으로, 컴포넌트의 성능을 더 잘 이해할 수 있도록 지속적으로 발전하고 있어요. 2023년에는 향상된 프로파일링 기능이 추가되어, 애플리케이션의 렌더링 및 다시 렌더링 성능을 분석하고 최적화할 수 있는 기회를 제공했어요. 프로파일러를 통해 성능 병목 현상을 식별하고 해결하며, 불필요한 렌더링을 줄이고 원활한 사용자 경험을 보장할 수 있어요.
 
@@ -334,24 +430,9 @@ function App() {
   );
 }
 
-function callback(
-  id,
-  phase,
-  actualDuration,
-  baseDuration,
-  startTime,
-  commitTime
-) {
+function callback(id, phase, actualDuration, baseDuration, startTime, commitTime) {
   // 여기서 콜백 처리
-  console.log(
-    "Render",
-    id,
-    phase,
-    actualDuration,
-    baseDuration,
-    startTime,
-    commitTime
-  );
+  console.log("Render", id, phase, actualDuration, baseDuration, startTime, commitTime);
 }
 
 export default App;
@@ -361,7 +442,18 @@ export default App;
 
 리액트 에러 바운더리를 사용하면 렌더링 중 발생하는 오류를 잡아내고 처리할 수 있어요. 서스펜스와 함께 사용하면 데이터를 불러오는 동안 대체 UI를 만들 수 있어요. 아래는 예시에요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { ErrorBoundary } from "react";
@@ -387,16 +479,24 @@ import { useContextSelector } from "react";
 const ReactContext = React.createContext();
 
 const ReactComponent = () => {
-  const value = useContextSelector(
-    MyContext,
-    (contextValue) => contextValue.someValue
-  );
+  const value = useContextSelector(MyContext, (contextValue) => contextValue.someValue);
 
   return <div>{value}</div>;
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## JSX 변환
 
@@ -422,7 +522,18 @@ const MyComponent = () => {
 export default MyComponent;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새 JSX 변환을 사용하면 각 JSX 코드 파일에서 React를 명시적으로 가져와야 하는 필요가 없어졌어요!
 
@@ -432,7 +543,18 @@ export default MyComponent;
 
 이 글에서는 2023년에 React에서 소개된 중요한 기능 중 일부를 살펴보았어요. 이 중에는 동시 모드, React 서버 구성 요소, React Query 통합, React DevTools 프로파일러 개선, Suspense와 함께 사용되는 React 에러 경계, React Hooks 개선, 그리고 JSX 변환 등이 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앞으로 나아가면서 React의 최신 개발 동향을 계속해서 따라가는 것이 중요합니다. 이를 통해 React의 모든 가능성을 활용하고 첨단 웹 애플리케이션을 개발할 수 있습니다.
 

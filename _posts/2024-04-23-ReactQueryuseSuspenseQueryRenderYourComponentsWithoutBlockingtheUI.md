@@ -3,17 +3,13 @@ title: "UI를 차단하지 않고 컴포넌트 렌더링할 수 있는 React Que
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "React Query useSuspenseQuery Render Your Components Without Blocking the UI"
 link: "https://medium.com/@amalhan43/react-query-usesuspensequery-render-your-components-without-blocking-the-ui-fc746ec5467e"
 isUpdated: true
 ---
-
-
-
-
 
 written by Vivek Malhan
 
@@ -23,7 +19,18 @@ written by Vivek Malhan
 
 useSuspenseQuery는 React Query v5에서 새롭게 도입된 훅으로, 데이터를 가져오는 동안 컴포넌트를 렌더링할 수 있는 Suspense 기능을 활용할 수 있게 해줍니다. 이를 활용하면 더 부드럽고 반응이 빠른 사용자 인터페이스를 만들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # useSuspenseQuery 사용 방법
 
@@ -46,7 +53,18 @@ const MyComponent = () => {
 
 useSuspenseQuery가 Promise를 반환하기 때문에 컴포넌트를 `Suspense` 컴포넌트로 감쌀 수 있습니다. 이렇게 하면 React가 데이터를 가져올 동안 대체 컴포넌트를 렌더링하도록 만들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { Suspense, useSuspenseQuery } from "react-query";
@@ -71,7 +89,18 @@ useSuspenseQuery는 더 부드럽고 빠르게 반응하는 사용자 인터페�
 
 사용자 데이터를 가져오면, 리액트가 업데이트된 데이터로 컴포넌트를 다시 렌더링할 거예요. 이를 통해 사용자에게 데이터가 아직 로딩 중이지만 반응성을 느끼게 해줄 거예요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Best practices
 
@@ -84,7 +113,18 @@ useSuspenseQuery는 더 부드럽고 빠르게 반응하는 사용자 인터페�
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 useSuspenseQuery은 React Query v5에서 사용할 수 있는 강력한 새로운 훅입니다. 이 훅을 사용하면 더 부드럽고 반응성 있는 사용자 인터페이스를 만들 수 있습니다. 위에서 소개한 최상의 실천 방법을 따라 사용하면 효율적이고 사용자 친화적인 코드를 작성할 수 있습니다.
 
@@ -96,7 +136,18 @@ useSuspenseQuery은 React Query v5에서 사용할 수 있는 강력한 새로�
 
 이러한 팁을 따라 React 응용 프로그램의 성능과 사용자 경험을 향상시키기 위해 useSuspenseQuery를 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 감사합니다. 끝까지 오신 것을 축하드려요.
 

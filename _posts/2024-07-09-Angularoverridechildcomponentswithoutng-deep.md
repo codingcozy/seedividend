@@ -3,15 +3,13 @@ title: "Angular ng-deep 없이 자식 컴포넌트 오버라이드하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-Angularoverridechildcomponentswithoutng-deep_0.png"
 date: 2024-07-09 18:51
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-Angularoverridechildcomponentswithoutng-deep_0.png
 tag: Tech
 originalTitle: "Angular: override child components without ng-deep"
 link: "https://medium.com/@vugar-005/angular-override-child-components-without-ng-deep-c76e691082d4"
 isUpdated: true
 ---
-
-
 
 ![Image](/assets/img/2024-07-09-Angularoverridechildcomponentswithoutng-deep_0.png)
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 ✅ 호스트 선택자를 회피하여 자식 컴포넌트 스타일이 불필요하게 커지는 것을 피하고 싶습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 💎 실시간 데모: [여기를 클릭해주세요](https://stackblitz.com/edit/stackblitz-starters-lvddww)
 
@@ -31,7 +40,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-07-09-Angularoverridechildcomponentswithoutng-deep_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 Markdown 형식으로 표시됩니다:
 
@@ -80,7 +100,18 @@ isUpdated: true
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 아래와 같이 포스트 카드 스타일을 전환하려고 합니다:
 
@@ -90,7 +121,18 @@ isUpdated: true
 
 우리의 목표는 포스트 카드 컴포넌트의 스타일을 위의 디자인과 비슷하게 변형하는 것입니다. 그러나 중첩된 컴포넌트의 스타일을 직접 코딩하는 대신에 CSS 변수를 사용하여 부모 컴포넌트에서 이러한 변수를 조작할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새롭고 개선된 post-card의 SCSS 구조입니다:
 
@@ -136,7 +178,18 @@ isUpdated: true
 background: var(--post-card-background, #fff);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 코드는 'var( — post-card-background)'를 배경색으로 사용하되 만약 해당 CSS 변수가 없다면 기본값 (#fff)을 사용하도록 하는 것을 의미합니다 😎.
 
@@ -152,7 +205,18 @@ background: var(--post-card-background, #fff);
 
 그리고 HTML 구조는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <div class="post-list">
@@ -166,7 +230,18 @@ background: var(--post-card-background, #fff);
 
 제 소개: 저는 주니어 프론트엔드 개발자에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 트위터: https://twitter.com/Vugar005
 

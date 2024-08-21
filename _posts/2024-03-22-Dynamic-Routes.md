@@ -3,17 +3,13 @@ title: "Nextjs 13 PageRouter Dynamic Route"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # 다이내믹 라우트
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 동적 세그먼트는 파일이나 폴더 이름을 대괄호로 감싸서 생성할 수 있습니다: [세그먼트명]. 예를 들면 [id]나 [slug]와 같이 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `useRouter`를 통해 동적 세그먼트에 접근할 수 있습니다.
 
@@ -40,7 +47,18 @@ export default function Page() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 | Route                | Example URL | `params`      |
 | -------------------- | ----------- | ------------- |
@@ -54,14 +72,24 @@ export default function Page() {
 
 예를 들어, pages/shop/[...slug].js는 /shop/clothes와 /shop/clothes/tops, /shop/clothes/tops/t-shirts 등과 일치합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-| Route                  | Example URL           | `params`            |
-|------------------------|-----------------------|---------------------|
-| `pages/shop/[...slug].js` | `/shop/a`              | `{ slug: ['a'] }`   |
-| `pages/shop/[...slug].js` | `/shop/a/b`            | `{ slug: ['a', 'b'] }` |
-| `pages/shop/[...slug].js` | `/shop/a/b/c`          | `{ slug: ['a', 'b', 'c'] }` |
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+| Route                     | Example URL   | `params`                    |
+| ------------------------- | ------------- | --------------------------- |
+| `pages/shop/[...slug].js` | `/shop/a`     | `{ slug: ['a'] }`           |
+| `pages/shop/[...slug].js` | `/shop/a/b`   | `{ slug: ['a', 'b'] }`      |
+| `pages/shop/[...slug].js` | `/shop/a/b/c` | `{ slug: ['a', 'b', 'c'] }` |
 
 ## Optional Catch-all Segments
 
@@ -69,8 +97,18 @@ Catch-all Segments can be made optional by including the parameter in double squ
 
 For example, `pages/shop/[[...slug]].js` will also match `/shop`, in addition to `/shop/clothes`, `/shop/clothes/tops`, `/shop/clothes/tops/t-shirts`.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 catch-all과 optional catch-all 세그먼트의 차이점은 옵션으로, 매개 변수 없이 라우트도 일치합니다(위 예제의 경우 /shop).
 
@@ -81,4 +119,15 @@ catch-all과 optional catch-all 세그먼트의 차이점은 옵션으로, 매�
 | `pages/shop/[[...slug]].js` | `/shop/a/b`   | `{ slug: ['a', 'b'] }`      |
 | `pages/shop/[[...slug]].js` | `/shop/a/b/c` | `{ slug: ['a', 'b', 'c'] }` |
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

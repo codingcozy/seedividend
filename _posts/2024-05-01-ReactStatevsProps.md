@@ -3,15 +3,13 @@ title: "리액트 - State vs Props 둘의 차이점을 이해하자"
 description: ""
 coverImage: "/assets/img/2024-05-01-ReactStatevsProps_0.png"
 date: 2024-05-01 18:21
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-01-ReactStatevsProps_0.png
 tag: Tech
 originalTitle: "React: 'State vs Props'"
 link: "https://medium.com/javascript-in-plain-english/react-state-vs-props-3066a1766463"
 isUpdated: true
 ---
-
-
 
 ![React State vs Props](/assets/img/2024-05-01-ReactStatevsProps_0.png)
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 State는 컴포넌트의 내부 데이터 저장소로, 현재 상태나 상황을 나타냅니다. 이는 컴포넌트의 개인 다이어리와 같습니다. 여기에는 행동과 외관을 정의하는 모든 흥미로운 세부사항이 기록됩니다. State가 변경될 때마다 React는 컴포넌트와 그 하위 요소를 지혜롭게 다시 렌더링하여 사용자 인터페이스가 최신 상태로 유지되고 데이터와 동기화되도록 보장합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import React, { Component } from "react";
@@ -55,7 +64,18 @@ class Counter extends Component {
 
 Props는 속성을 의미하는 단어의 축약형으로, 부모 컴포넌트로부터 받는 컴포넌트에 전달되는 데이터입니다. Props는 변경할 수 없으며, 즉 컴포넌트 자체에서 직접적으로 변경할 수 없습니다. 대신, props는 데이터를 컴포넌트 트리 아래로 전달하며, 재사용성과 캡슐화를 가능하게 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import React from "react";
@@ -80,7 +100,18 @@ const App = () => {
 
 상태와 프롭스는 분리된 엔티티처럼 보일 수 있지만, 종종 동적이고 인터랙티브한 사용자 인터페이스를 만들기 위해 함께 작동합니다. 한 컴포넌트의 상태는 자식 컴포넌트의 프롭스가 될 수 있어 데이터가 컴포넌트 트리를 따라 흐를 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import React, { Component } from "react";
@@ -115,7 +146,18 @@ const ChildComponent = (props) => {
 
 ## 콜백 문제: 자식에서 부모로 통신하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 props가 컴포넌트 트리 아래로 흘러가는 동안, 자식 컴포넌트가 부모에게 다시 통신해야 할 때가 있습니다. 이때 콜백 함수가 필요합니다. 부모 컴포넌트는 자식 컴포넌트에게 콜백 함수를 prop으로 전달하여 자식이 콜백을 호출하고 데이터를 부모에게 다시 전달할 수 있습니다.
 
@@ -169,7 +211,18 @@ class ChildComponent extends Component {
 
 ChildComponent에는 입력 필드와 버튼이 있습니다. 사용자가 입력 필드에 입력하면 handleInputChange 메소드가 ChildComponent의 message 상태를 업데이트합니다. 사용자가 "부모에게 메시지 전송" 버튼을 클릭하면 sendMessageToParent 메소드가 호출되어 onMessageReceived 콜백 prop을 호출하고 현재의 message 상태를 인자로 전달합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 부모 컴포넌트에서는 자식 컴포넌트로부터 받은 메시지로 handleChildMessage 콜백 함수를 호출하고, childMessage 상태가 업데이트됩니다. 그리고 부모 컴포넌트는 업데이트된 childMessage 값을 가지고 재렌더링됩니다.
 
@@ -239,7 +292,18 @@ export default TemperatureApp;
 사용자가 새 온도를 입력하면 TemperatureInput 컴포넌트의 handleChange 메서드가 호출되며, 이는 TemperatureApp 컴포넌트에서 제공한 onTemperatureChange 콜백 prop을 호출하여 새 온도 값을 인수로 전달합니다.
 그리고 TemperatureApp 컴포넌트는 새 온도 값을 가지고 상태를 업데이트하며, 업데이트된 온도 값과 척도와 함께 두 TemperatureInput 컴포넌트가 다시 렌더링됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 와우, 여기에 많은 내용이 있어서 이해하기 어렵지 않았으면 좋겠어요.
 
@@ -249,7 +313,18 @@ State와 Props를 사용하여 친숙해지세요. 서로 다른 부분을 이�
 
 # 간단히 설명하면 🚀
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인 플레인 잉글리쉬 커뮤니티에 참여해 주셔서 감사합니다! 떠나시기 전에:
 

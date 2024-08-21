@@ -3,15 +3,13 @@ title: "Django 앱 사이에서 모델을 이동하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-06-HowToMoveAModelFromOneDjangoAppToAnother_0.png"
 date: 2024-07-06 10:26
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-06-HowToMoveAModelFromOneDjangoAppToAnother_0.png
 tag: Tech
 originalTitle: "How To Move A Model From One Django App To Another"
 link: "https://medium.com/@shweta17/how-to-move-a-model-from-one-django-app-to-another-743184d6a5b2"
 isUpdated: true
 ---
-
-
 
 /assets/img/2024-07-06-HowToMoveAModelFromOneDjangoAppToAnother_0.png
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 공용 앱에서 사용자 앱으로 고객 모델을 이전하는 예시가 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 초기 모델 구조를 고려하십시오
 
@@ -46,7 +55,18 @@ class Customer(models.Model):
 
 ## 이제 모델을 새 앱으로 이동하세요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 common/models.py 파일에서 Customer 모델을 잘라내어 users/models.py 파일에 붙여넣으세요.
 
@@ -72,7 +92,18 @@ class Customer(models.Model):
 
 ## 데이터베이스 마이그레이션 생성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 이 명령어를 실행하여 마이그레이션 파일을 생성하세요.
 
@@ -84,7 +115,18 @@ python manage.py makemigrations
 
 - 하나는 공통 앱에서 모델을 삭제하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 from django.db import migrations
@@ -136,7 +178,18 @@ class Migration(migrations.Migration):
 
 ## 데이터 손실을 방지하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 데이터베이스 테이블 이름을 변경하지 않았기 때문에 여전히 common_customer 테이블입니다.
 - 데이터베이스에 DeleteModel 작업이 적용되지 않도록 해야 합니다.
@@ -201,7 +254,18 @@ class Migration(migrations.Migration):
     ]
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 마이그레이션 적용
 
@@ -213,7 +277,18 @@ python manage.py migrate
 
 성공적으로 공통 앱에서 사용자 앱으로 Customer 모델을 이동했고, 데이터베이스 변경이나 데이터 손실 없이 처리되었습니다. 완료되었습니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 알림: 이 방법은 매우 안전하지만 데이터베이스 작업을 수행하기 전에 데이터베이스를 백업하는 것이 좋습니다 (이 문서에서는 데이터베이스 변경을 수행하지 않지만 마이그레이션 작업을 수행하고 있습니다). 특히 프로덕션 환경에서는 항상 백업을 권장합니다.
 

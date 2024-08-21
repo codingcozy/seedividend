@@ -3,18 +3,13 @@ title: "React 컴포넌트 스타일링 마스터하기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Mastering React Component Styling"
 link: "https://medium.com/@mohimishra016/mastering-react-component-styling-d76a88af0eea"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![React 구성 요소 스타일링 마스터하기](/assets/img/Mastering-React-Component-Styling_0.png)
 
@@ -24,15 +19,26 @@ React 구성 요소 스타일링은 단순히 깔끔하게 만드는 것이 아�
 
 인라인 CSS는 가장 추천되지 않는 방법은 아니지만, React 구성 요소 내에서 스타일을 쉽게 적용할 수 있는 편리한 방법을 제공합니다. 스타일 객체를 구성 요소 요소에 직접 전달함으로써 빠르고 타겟팅된 스타일링을 달성할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시:
 
 ```js
 const styles = {
-  backgroundColor: 'lightblue',
-  padding: '10px',
-  borderRadius: '5px',
+  backgroundColor: "lightblue",
+  padding: "10px",
+  borderRadius: "5px",
 };
 
 const MyComponent = () => {
@@ -44,7 +50,18 @@ const MyComponent = () => {
 
 React 컴포넌트를 스타일링할 때 가끔은 옛 방식이 최선의 방법일 수 있습니다. CSS 파일을 컴포넌트로 가져와서 사용하면 마크업과 스타일 사이에 명확한 구분을 유지하여 조직 및 재사용성을 높일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시:
 
@@ -58,8 +75,8 @@ React 컴포넌트를 스타일링할 때 가끔은 옛 방식이 최선의 방�
 ```
 
 ```js
-import React from 'react';
-import './styles.css';
+import React from "react";
+import "./styles.css";
 
 const MyComponent = () => {
   return <div className="container">안녕, 세상아!</div>;
@@ -68,14 +85,25 @@ const MyComponent = () => {
 
 # 3. CSS in JS: 동적으로 스타일이 적용된 컴포넌트
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS in JS 라이브러리인 Styled Components와 같은 경우, React 컴포넌트에 스타일을 적용하는 강력한 방법을 제공합니다. 컴포넌트 정의 내에서 스타일을 캡슐화함으로써, 스코프된 스타일을 보장하고 동적이고 반응적인 디자인을 구성하는 데 더 많은 유연성을 제공합니다.
 
 예시 (styled-components):
 
 ```js
-import styled from 'styled-components';
+import styled from "styled-components";
 
 const StyledDiv = styled.div`
   background-color: lightblue;
@@ -90,7 +118,18 @@ const MyComponent = () => {
 
 # 4. CSS 모듈: 스코프된 스타일
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS 모듈은 React 애플리케이션에서 스코프 스타일링에 대한 해결책을 제공하며 스타일 충돌을 방지하고 모듈화를 촉진합니다. 각 컴포넌트에 고유한 클래스 이름을 생성하여 CSS 모듈은 캡슐화와 유지 보수성을 보장합니다.
 
@@ -106,15 +145,26 @@ CSS 모듈은 React 애플리케이션에서 스코프 스타일링에 대한 �
 ```
 
 ```js
-import React from 'react';
-import styles from './styles.module.css';
+import React from "react";
+import styles from "./styles.module.css";
 
 const MyComponent = () => {
   return <div className={styles.container}>안녕, 세계!</div>;
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 5. 프리프로세서: 스타일링 강화하기
 
@@ -133,18 +183,29 @@ $primary-color: lightblue;
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-import React from 'react';
-import './styles.scss';
+import React from "react";
+import "./styles.scss";
 
 const MyComponent = () => {
   return <div className="container">안녕, 세상아!</div>;
 };
 ```
 
-- Less(Less  스타일시트): Less는 전통적인 CSS와 비교하여 더 간결한 구문을 제공하는 CSS 전처리기입니다. Less를 사용하면 변수와 믹스인과 같은 기능을 활용하면서 더 깔끔하고 간결한 스타일시트를 작성할 수 있습니다.
+- Less(Less 스타일시트): Less는 전통적인 CSS와 비교하여 더 간결한 구문을 제공하는 CSS 전처리기입니다. Less를 사용하면 변수와 믹스인과 같은 기능을 활용하면서 더 깔끔하고 간결한 스타일시트를 작성할 수 있습니다.
 
 ```js
 /* styles.less */
@@ -158,15 +219,26 @@ const MyComponent = () => {
 ```
 
 ```js
-import React from 'react';
-import './styles.less';
+import React from "react";
+import "./styles.less";
 
 const MyComponent = () => {
   return <div className="container">안녕, 세상아!</div>;
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론:
 
@@ -177,6 +249,17 @@ const MyComponent = () => {
 독해해 주셔서 감사합니다! 즐겁게 코딩하세요! 🚀
 즐겁게 공부하고, 언제나 코딩을 계속하세요. Medium 및 Linkedin에서 저를 팔로우하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 👏 좋아요, 공유하기, 댓글 남기기: 궁금한 점이나 피드백이 있으면 아래 댓글로 알려주세요 👇

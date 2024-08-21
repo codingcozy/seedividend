@@ -3,16 +3,13 @@ title: "FB Prophet과 하이퍼파라미터 최적화를 사용한 BTC-USD 가�
 description: ""
 coverImage: "/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_0.png"
 date: 2024-07-13 19:54
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_0.png
 tag: Tech
 originalTitle: "BTC-USD Price Prediction using FB Prophet with Hyperparameter Optimization, Cross-Validation QC , Modified Algo-Trading Strategies"
 link: "https://medium.com/@alexzap922/btc-usd-price-prediction-using-fb-prophet-with-hyperparameter-optimization-cross-validation-qc-7848b41dac30"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_0.png" />
 
@@ -27,7 +24,18 @@ isUpdated: true
 - CoinCodex: BTC의 역사적인 가격 변동과 BTC 하프 사이클을 기반으로, BTC가 상한 가격 대상에 도달한다면 2025년까지 201.59%의 이익을 올릴 수 있습니다. 한편, BTC의 가격은 내년에 $173,833까지 상승할 것으로 예측됩니다.
 - 하지만 비트코인 가격이 2030년까지 1백만 달러에 도달할까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## FB Prophet에 대해
 
@@ -41,7 +49,18 @@ isUpdated: true
 
 ## 주요 설치 방법
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - pip은 저희가 선호하는 설치 프로그램입니다. Python 3.4부터 Python 이진 설치 프로그램에 기본적으로 포함되어 있습니다.
 - Jupyter Notebook을 실행하고 필수 Python 라이브러리를 설치합니다.
@@ -54,7 +73,18 @@ isUpdated: true
 
 - 코드를 성공적으로 실행할 수 있도록 필요한 라이브러리 및 종속성이 제대로 설치되어 있는지 확인하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import pandas as pd
@@ -92,9 +122,9 @@ d2 = date.today() - timedelta(days=730)
 d2 = d2.strftime("%Y-%m-%d")
 start_date = d2
 
-data = yf.download('BTC-USD', 
-                      start=start_date, 
-                      end=end_date, 
+data = yf.download('BTC-USD',
+                      start=start_date,
+                      end=end_date,
                       progress=False)
 data["Date"] = data.index
 data = data[["Date", "Open", "High", "Low", "Close", "Adj Close", "Volume"]]
@@ -108,24 +138,46 @@ data.tail()
 |2024-07-04| 60,147.14  | 60,399.68  | 56,777.80|   56,977.70 |  56,977.70  |  41149609230  |
 |2024-07-05| 57,022.81  | 57,497.15  | 53,717.38|   56,662.38 |  56,662.38  |  55417544033  |
 |2024-07-06| 56,659.07  | 58,472.55  | 56,038.96|   58,303.54 |  58,303.54  |  20610320577  |
-```   
+```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 종가 그래프 그리기
 
 ```js
-plt.plot(data['Date'], data['Close'])
-plt.xlabel('날짜')
-plt.ylabel('종가(USD)')
-plt.title('BTC-USD 종가')
+plt.plot(data["Date"], data["Close"]);
+plt.xlabel("날짜");
+plt.ylabel("종가(USD)");
+plt.title("BTC-USD 종가");
 ```
 
 ![BTC-USD Close Price](/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_1.png)
 
 ## 데이터 준비
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Box Cox 변환을 사용하여 비정규적인 종속 변수인 Close 가격을 정규분포 형태로 변환합니다.
 
@@ -153,7 +205,18 @@ data1.tail()
 729 2024-07-06 41.781750
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Prophet에 입력해야 하는 것은 항상 ds와 y 두 개의 열이 있는 데이터프레임입니다. ds (날짜) 열은 Pandas에서 예상하는 형식이어야 합니다. 날짜의 경우 YYYY-MM-DD이고, 타임스탬프의 경우 YYYY-MM-DD HH:MM:SS입니다. y 열은 숫자이어야 하며, 예측하려는 측정 값을 나타냅니다.
 
@@ -163,15 +226,26 @@ data1.tail()
 
 ```js
 model_param = {
-    "daily_seasonality": False,
-    "weekly_seasonality": False,
-    "yearly_seasonality": True,
-    "seasonality_mode": "multiplicative",
-    "growth": "logistic"
-}
+  daily_seasonality: False,
+  weekly_seasonality: False,
+  yearly_seasonality: True,
+  seasonality_mode: "multiplicative",
+  growth: "logistic",
+};
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 기본적으로 Prophet은 가법 계절성 모델을 적합시키며, 계절성의 영향이 예측을 얻기 위해 추세에 더해집니다. 위 모델에서 계절성은 Prophet이 가정한 것처럼 일정한 가법적 요소가 아니라 추세와 함께 증가하는 다중 계절성입니다.
 - 기본적으로 Prophet은 예측을 위해 선형 모델을 사용합니다. 성장을 예측할 때 일반적으로 일정한 최대 달성 가능 지점이 있습니다: 총 시장 규모 등. 이를 운반 용량이라고하며, 예측은 이 지점에서 포화되어야 합니다. Prophet은 지정된 운반 용량을 갖춘 로지스틱 성장 트렌드 모델을 사용하여 예측을 수행할 수 있습니다.
@@ -184,42 +258,75 @@ model = Prophet(**model_param)
 - 로지스틱 성장을 사용하기 때문에 예측에 대한 상한선 또는 상한 값을 설정합니다. 상한값은 가격의 최대값에 표준편차의 5%를 더하는 것입니다.
 
 ```js
-data1['cap'] = data1["y"].max() + data1["y"].std() * 0.05
+data1["cap"] = data1["y"].max() + data1["y"].std() * 0.05;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 모델을 맞추는 중
 
 ```js
-model.fit(data1)
+model.fit(data1);
 ```
 
 - 위의 캡을 사용하여 샘플 내부 및 1년 장기 예측 생성
 
 ```js
-future= model.make_future_dataframe(periods=365)
+future = model.make_future_dataframe((periods = 365));
 
-future['cap'] = data1['cap'].max()
+future["cap"] = data1["cap"].max();
 
-forecast= model.predict(future)
+forecast = model.predict(future);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 중요한 구성 요소를 사용하여 (ds-y) 도메인 예측을 플로팅합니다.
 
 ```js
-model.plot(forecast,figsize=(14, 8))
+model.plot(forecast, (figsize = (14, 8)));
 ```
 
 ![BTC-USD 가격 예측](/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_2.png)
 
 ```js
-model.plot_components(forecast,figsize=(16, 10));
+model.plot_components(forecast, (figsize = (16, 10)));
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전에 사용하던 table tag를 Markdown 형식으로 변경해보세요.
 
@@ -248,7 +355,18 @@ from prophet.plot import plot
 plot(model, forecast, figsize=(14, 8))
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 from prophet.plot import plot_components
@@ -258,23 +376,44 @@ plot_components(model, forecast, figsize=(10, 12))
 
 위의 코드 블록은 Prophet 모델을 사용하여 예측한 데이터의 구성요소를 시각화하는 부분입니다. 코드를 실행하여 예측 결과를 확인해보세요! 🚀
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 원래 가격을 얻기 위해 역 Box-Cox 변환을 수행합니다
 
 ```js
-forecast["yhat"]=bc.untransform_boxcox(x=forecast["yhat"], lmbda=lmbda)
-forecast["yhat_lower"]=bc.untransform_boxcox(x=forecast["yhat_lower"], lmbda=lmbda)
-forecast["yhat_upper"]=bc.untransform_boxcox(x=forecast["yhat_upper"], lmbda=lmbda)
-forecast.plot(x="ds", y=["yhat_lower", "yhat", "yhat_upper"])
+forecast["yhat"] = bc.untransform_boxcox((x = forecast["yhat"]), (lmbda = lmbda));
+forecast["yhat_lower"] = bc.untransform_boxcox((x = forecast["yhat_lower"]), (lmbda = lmbda));
+forecast["yhat_upper"] = bc.untransform_boxcox((x = forecast["yhat_upper"]), (lmbda = lmbda));
+forecast.plot((x = "ds"), (y = ["yhat_lower", "yhat", "yhat_upper"]));
 ```
 
 ![BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_7](/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_7.png)
 
 - 수동으로 선택한 cutoff를 사용하여 예측 성능의 몇 가지 유용한 통계를 계산합니다
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 from prophet.diagnostics import cross_validation, performance_metrics
@@ -301,22 +440,44 @@ df_p.head()
 4 13 days 8071.329465 89.840578 55.027843 1.658574 0.426625 0.584601 0.0
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - MAPE 그래프 그리기
 
 ```js
-fig = plot_cross_validation_metric(df_cv2, metric='mape')
+fig = plot_cross_validation_metric(df_cv2, (metric = "mape"));
 ```
 
 <img src="/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_9.png" />
 
 - MAE 그래프 그리기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-fig = plot_cross_validation_metric(df_cv2, metric='mae')
+fig = plot_cross_validation_metric(df_cv2, (metric = "mae"));
 ```
 
 ![BTC-USD Price Prediction using FB Prophet with Hyperparameter Optimization Cross-Validation QC Modified Algorithm Trading Strategies](/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_10.png)
@@ -325,7 +486,18 @@ fig = plot_cross_validation_metric(df_cv2, metric='mae')
 
 - Running HPO by adding monthly/quarterly seasonality and US holidays
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 rmses = list()
@@ -333,23 +505,23 @@ rmses = list()
 # 각 조합을 순회합니다.
 for params in all_params:
     m = Prophet(**params)
-    
+
     m = m.add_seasonality(name='monthly', period=30, fourier_order=5)
     m = m.add_seasonality(name='quarterly', period=92.25, fourier_order=10)
 
     m.add_country_holidays(country_name='US')
-    
+
     m.fit(data1)
-    
+
     df_cv = cross_validation(m, initial='500 days', period='180 days', horizon='90 days')
-    
+
     df_p = performance_metrics(df_cv, rolling_window=1)
-    
+
     rmses.append(df_p['rmse'].values[0])
-    
+
 # 최적의 매개변수를 찾습니다.
 best_params = all_params[np.argmin(rmses)]
-    
+
 print("\n최적의 매개변수는:", best_params)
 ```
 
@@ -381,45 +553,72 @@ forecast = model1.predict(future)
 
 - 원래 가격을 얻기 위해 역 Box-Cox 변환을 적용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
- js
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+js
 forecast["yhat"]=bc.untransform_boxcox(x=forecast["yhat"], lmbda=lmbda)
 forecast["yhat_lower"]=bc.untransform_boxcox(x=forecast["yhat_lower"], lmbda=lmbda)
 forecast["yhat_upper"]=bc.untransform_boxcox(x=forecast["yhat_upper"], lmbda=lmbda)
 forecast.plot(x="ds", y=["yhat_lower", "yhat", "yhat_upper"])
-
 
 <img src="/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_11.png" />
 
 - 수동 cutoff로 교차 검증 QC 실행 중
 
 ```js
-cutoffs = pd.to_datetime(['2022-09-01', '2023-05-01', '2024-03-01'])
-df_cv2 = cross_validation(model1, cutoffs=cutoffs, horizon='90 days')
-fig = plot_cross_validation_metric(df_cv2, metric='rmse')
-``` 
+cutoffs = pd.to_datetime(["2022-09-01", "2023-05-01", "2024-03-01"]);
+df_cv2 = cross_validation(model1, (cutoffs = cutoffs), (horizon = "90 days"));
+fig = plot_cross_validation_metric(df_cv2, (metric = "rmse"));
+```
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_12.png)
 
-
 ```js
-fig = plot_cross_validation_metric(df_cv2, metric='mape')
+fig = plot_cross_validation_metric(df_cv2, (metric = "mape"));
 ```
 
 ![image](/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_13.png)
 
 ```js
-fig = plot_cross_validation_metric(df_cv2, metric='mae')
-``` 
+fig = plot_cross_validation_metric(df_cv2, (metric = "mae"));
+```
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![BTC-USD Price Prediction](/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_14.png)
 
@@ -450,7 +649,7 @@ stock_price["날짜"] = stock_price.index
 stock_price.tail()
 
            Open      High      Low       Close    Adj Close   Volume      날짜
-Date       
+Date
 2024-07-03 62,034.33 62,187.70 59,419.39 60,173.92 60,173.92 29756701685 2024-07-03
 2024-07-04 60,147.14 60,399.68 56,777.80 56,977.70 56,977.70 41149609230 2024-07-04
 2024-07-05 57,022.81 57,497.15 53,717.38 56,662.38 56,662.38 55417544033 2024-07-05
@@ -463,7 +662,7 @@ stock_price.columns = ['ds', 'y']
 stock_price.tail()
 
            ds          y
-Date  
+Date
 2024-07-03 2024-07-03 60,173.92
 2024-07-04 2024-07-04 56,977.70
 2024-07-05 2024-07-05 56,662.38
@@ -471,8 +670,18 @@ Date
 2024-07-07 2024-07-07 57,198.04
 ```
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 기본 Prophet 모델을 적합시키고 2027년 7월 7일까지의 예측을 생성합니다.
 
@@ -482,7 +691,7 @@ model.fit(stock_price)
 future = model.make_future_dataframe(1095, freq='d')
 
 future_boolean = future['ds'].map(lambda x : True if x.weekday() in range(0, 5) else False)
-future = future[future_boolean] 
+future = future[future_boolean]
 
 future.tail()
 ds
@@ -502,11 +711,20 @@ model.plot(forecast);
 
 - 주요 구성 요소를 플롯합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 model.plot_components(forecast);
-
 
 ![Forecast Plot](/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_16.png)
 
@@ -518,8 +736,18 @@ df = pd.merge(stock_price, stock_price_forecast, on='ds', how='right')
 df.set_index('ds').plot(figsize=(16,8), color=['royalblue', "#34495e", "#e74c3c", "#e74c3c"], grid=True);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_17.png)
 
@@ -529,9 +757,9 @@ df.set_index('ds').plot(figsize=(16,8), color=['royalblue', "#34495e", "#e74c3c"
 stock_price['dayname'] = stock_price['ds'].dt.day_name()
 stock_price['month'] = stock_price['ds'].dt.month
 stock_price['year'] = stock_price['ds'].dt.year
-stock_price['month/year'] = stock_price['month'].map(str) + '/' + stock_price['year'].map(str) 
+stock_price['month/year'] = stock_price['month'].map(str) + '/' + stock_price['year'].map(str)
 
-stock_price = pd.merge(stock_price, 
+stock_price = pd.merge(stock_price,
                        stock_price['month/year'].drop_duplicates().reset_index(drop=True).reset_index(),
                        on='month/year',
                        how='left')
@@ -550,12 +778,12 @@ for num, item in enumerate(loop_list):
         df = stock_price.set_index('ds')[
              stock_price[stock_price['month/year'] == loop_list[0]]['ds'].min():\
              stock_price[stock_price['month/year'] == item]['ds'].max()]
-        
+
         df = df.reset_index()[['ds', 'y']]
-        
+
         model = Prophet()
         model.fit(df)
-        
+
         future = stock_price[stock_price['month/year_index'] == (num + 1)][['ds']]
 
         forecast = model.predict(future)
@@ -564,8 +792,18 @@ for num, item in enumerate(loop_list):
 
 - In-sample forecast와 원래 가격을 비교하는 그래프 그리기
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 주가 예측 = reduce(lambda top, bottom: pd.concat([top, bottom], sort=False), 예측_프레임)
@@ -596,33 +834,64 @@ from prophet.plot import plot_cross_validation_metric
 그래프 = plot_cross_validation_metric(df_cv, metric='rmse')
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Plotting MAPE](/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_19.png)
 
 - MAPE 플로팅
 
 ```js
-fig = plot_cross_validation_metric(df_cv, metric='mape')
+fig = plot_cross_validation_metric(df_cv, (metric = "mape"));
 ```
 
 ![MAPE Plot](/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_20.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - MAE 그래프 플로팅하기
 
 ```js
-fig = plot_cross_validation_metric(df_cv, metric='mae')
+fig = plot_cross_validation_metric(df_cv, (metric = "mae"));
 ```
 
 ![MAE Plot](/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_21.png)
 
 - 그리드 검색 하이퍼파라미터 최적화 구현 및 MAE를 사용하여 모델 평가하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 하이퍼파라미터 그리드 정의
@@ -690,8 +959,18 @@ ax.set_ylabel("가격", size=15)
 
 ![BTC-USD Stock Price Forecast](/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_22.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - scikit-learn과 Prophet 지표를 사용하여 교차 검증 QC 수행 중
 
@@ -725,7 +1004,18 @@ fig = plot_cross_validation_metric(df_cv, metric='rmse')
 
 - MAPE 플로팅하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 fig = plot_cross_validation_metric(df_cv, metric='mape')
@@ -739,7 +1029,18 @@ fig = plot_cross_validation_metric(df_cv, metric='mape')
 fig = plot_cross_validation_metric(df_cv, metric='mae')
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_25.png" />
 
@@ -758,9 +1059,9 @@ for num, item in enumerate(loop_list):
         df = stock_price.set_index('ds')[
              stock_price[stock_price['month/year'] == loop_list[0]]['ds'].min():\
              stock_price[stock_price['month/year'] == item]['ds'].max()]
-        
+
         df = df.reset_index()[['ds', 'y']]
-        
+
         future = stock_price[stock_price['month/year_index'] == (num + 1)][['ds']]
 
         forecast = m_best.predict(future)
@@ -776,7 +1077,18 @@ df1.set_index('ds')[['y', 'yhat', 'yhat_lower', 'yhat_upper']].plot(figsize=(16,
 
 <img src="/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_26.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 수정된 암호화폐 알고리즘 트레이딩 전략
 
@@ -805,7 +1117,18 @@ Seasonality = 7,172
 
 ![이미지](/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_27.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 여기에서 Prophet Thresh df['y']` df['yhat_lower'] 를 조건 df['y']` df['yhat_upper'] 로 바꿔 더 높은 예상 수익을 얻을 수 있었습니다.
 - 위의 Prophet 임계값을 최적화해 봅시다.
@@ -816,7 +1139,7 @@ performance = {}
 for x in np.linspace(.9,.99,10):
     y = ((df['y'] < df['yhat_upper']*x).shift(1)* (df['퍼센트 변화']) + 1).cumprod()
     performance[x] = y
-    
+
 best_yhat = pd.DataFrame(performance).max().idxmax()
 pd.DataFrame(performance).plot(figsize=(16,8), grid=True);
 f'최적의 Yhat = {best_yhat:,.2f}'
@@ -828,13 +1151,24 @@ f'최적의 Yhat = {best_yhat:,.2f}'
 
 - Best Yhat = 0.92로 백테스트 실행중
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-df['Optimized Prophet Thresh'] = ((df['y'] < df['yhat_upper'] * best_yhat).shift(1) * 
+df['Optimized Prophet Thresh'] = ((df['y'] < df['yhat_upper'] * best_yhat).shift(1) *
                                   (df['Percent Change']) + 1).cumprod()
 
-(df.dropna().set_index('ds')[['Hold', 'Prophet', 'Prophet Thresh', 
+(df.dropna().set_index('ds')[['Hold', 'Prophet', 'Prophet Thresh',
                               'Seasonality', 'Optimized Prophet Thresh']] * 1000).plot(figsize=(16,8), grid=True)
 
 print(f"Hold = {df['Hold'].iloc[-1]*1000:,.0f}")
@@ -853,15 +1187,26 @@ Optimized Prophet Thresh = 36,769
 <img src="/assets/img/2024-07-13-BTC-USDPricePredictionusingFBProphetwithHyperparameterOptimizationCross-ValidationQCModifiedAlgo-TradingStrategies_29.png" />
 
 - 요약:
-    - ROI(Prophet)/ROI(Optimized Prophet Thresh) 약 2.4배
-    - ROI(Prophet)/ROI(Hold) 약 14.0배
-    - ROI(Optimized Prophet Thresh)/ROI(Prophet Thresh) 약 2.0배
-    - ROI(Prophet Thresh)/ROI(Seasonality) 약 2.5배
-    - ROI(Seasonality)/ROI(Hold) 약 1.0배
+  - ROI(Prophet)/ROI(Optimized Prophet Thresh) 약 2.4배
+  - ROI(Prophet)/ROI(Hold) 약 14.0배
+  - ROI(Optimized Prophet Thresh)/ROI(Prophet Thresh) 약 2.0배
+  - ROI(Prophet Thresh)/ROI(Seasonality) 약 2.5배
+  - ROI(Seasonality)/ROI(Hold) 약 1.0배
 
 ## 프로핏 플롯리 시각화와 변경 지점들
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Prophet Plotly 시각화 옵션을 살펴봅시다.
 
@@ -880,7 +1225,18 @@ plot_plotly(mm, forecast)
 
 - Plotly를 사용하여 Prophet 예측값과 변화점을 시각화합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 from prophet.plot import plot_plotly
@@ -899,8 +1255,18 @@ plot_plotly(mm, forecast, changepoints=True)
 - Prophet 교차 검증 기능에 대한 자세한 내용을 탐구하여 두 데이터 세트에 대한 RMSE, MAPE 및 MAE와 같은 여러 주요 지표를 비교했습니다.
 - 데이터 세트 2: 최종 인샘플 Prophet 오류 지표는 다음과 같습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 Mean Absolute Error: 8675.43
@@ -921,7 +1287,18 @@ MAPE 약 0.2-0.4, (MAE, RMSE) 약 10k-15k
 - Prophet의 다른 통계 모델 및 기계 학습보다 중요한 장점 중 하나는 해석 가능성입니다. Prophet은 시간 기능을 따로 만들 필요가 없기 때문에 빠르게 좋은 기준을 제공합니다.
 - 전반적으로, 시계열이 비즈니스 주기를 따라간다면 Prophet를 기준 모델로 사용할 가치가 있다는 결론을 내립니다 (참고 자료 참조).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 참고 자료
 
@@ -941,7 +1318,18 @@ MAPE 약 0.2-0.4, (MAE, RMSE) 약 10k-15k
 - Mastodon
 - Tumblr
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 고지사항
 
@@ -956,6 +1344,17 @@ MAPE 약 0.2-0.4, (MAE, RMSE) 약 10k-15k
 
 https://www.kaggle.com/code/alexkaggle95/stock-prices-forecast-plotly-prophet 나쁨
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 https://www.kaggle.com/code/ghazanfarali/stock-price-analysis-and-forecasting 페이지를 방문해 보세요! 해당 페이지에는 주식 가격 분석 및 예측과 관련된 정보가 있습니다. 좋은 정보를 얻을 수 있을 거예요!

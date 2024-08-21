@@ -3,17 +3,13 @@ title: "HTML, CSS, JS로 Tic-Tac-Toe 게임 만드는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Tic-Tac-Toe using JavaScript"
 link: "https://medium.com/@imPradhyumn/tic-tac-toe-using-javascript-48b079bcd015"
 isUpdated: true
 ---
-
-
-
-
 
 ![Tic-Tac-Toe-using-JavaScript_0.png](/assets/img/Tic-Tac-Toe-using-JavaScript_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 또한 이것은 제 친구 중 한 명이 머신 코딩 면접에서 물어본 질문이기도 했어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 동일한 작업을 계속하기 위해 3개의 파일이 필요합니다:
 
@@ -35,7 +42,18 @@ isUpdated: true
 
 - HTML 파일
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파일에서 각 상자에 아이디를 부여했고, 배열과 같이 행 및 열을 지정했습니다. 게임을 시작하는 시작 버튼과 게임 상태를 보여주는 메시지도 있습니다 (h4 태그).
 
@@ -64,7 +82,18 @@ isUpdated: true
 </div>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <div>
@@ -87,7 +116,18 @@ isUpdated: true
 
 여기에는 기본적인 스타일이 구현되어 있습니다. 더 많은 스타일링을 추가하여 색상, 테두리 등을 변경하여 더 좋아 보이게 할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 body {
@@ -124,7 +164,18 @@ body {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 #start-btn {
@@ -138,7 +189,18 @@ body {
 
 이제 로직 부분으로 넘어가 봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. 자바스크립트
 
@@ -148,7 +210,18 @@ body {
 
 boxes : HTML 요소들의 배열
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 totalMovesMade: 플레이어 'x'와 플레이어 'y'의 움직임 수의 합입니다.
 
@@ -165,7 +238,18 @@ const msg = document.getElementById("game-status");
 
 이제 우리는 사이즈 = size\*size의 2차원 배열을 생성하고 null 값으로 초기화합니다. 이 배열은 각 플레이어의 움직임을 추적하며 승자를 확인하거나 게임이 비겼는지를 확인하는 데 사용될 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 let boardArr = Array(size)
@@ -191,7 +275,18 @@ function startGame() {
       }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const id = e.target.id; // 클릭한 상자의 id
@@ -213,7 +308,18 @@ updateBoardArray(row, col);
 if (totalMovesMade >= size * 2 - 1) checkIsGameOver(row, col);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 선수 교체
@@ -229,7 +335,18 @@ if (totalMovesMade >= size * 2 - 1) checkIsGameOver(row, col);
 
 현재 플레이어가 상자 중 하나를 클릭하면 이 코드 블록이 실행됩니다. 여기서 makeMove(), updateBoard(), checkIsGameOver()와 같이 호출된 3개의 추가 함수를 볼 수 있습니다. 마지막에는 현재 플레이어를 토글합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 함수에서 볼 수 있듯이 코드 라인이 있습니다. 플레이어가 한 번 움직였을 때 우승자를 확인하는 것은 의미가 없습니다. 따라서 우승자를 확인하려면 적어도 (size\*2–1) 번의 움직임이 필요합니다. 저희의 경우 사이즈는 3이므로 총 5번 이상의 움직임이 필요합니다.
 
@@ -246,7 +363,18 @@ function makeMove(boxId) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "updateBoardArray()" 함수는 currentPlayer 변수가 보유한 값을 사용하여 배열을 업데이트합니다 (x 또는 y).
 
@@ -262,7 +390,18 @@ function updateBoardArray(row, col) {
 - 플레이어가 필요로 하는 움직임 수는 보드 크기와 같아야 합니다. 우리의 경우 3입니다. 따라서 4개의 변수 중 어느 하나의 카운트가 크기 변수와 일치한다면 승자가 있고 게임이 종료됩니다.
 - 마지막으로 전체 움직임이 크기인 3에 도달하면 게임이 비긴 것으로 간주됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 function checkIsGameOver(row, col) {
@@ -289,7 +428,18 @@ if (row == col) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 //rightDiagonalTraverse
@@ -314,6 +464,17 @@ if (condition1 || condition2) {
 
 행복한 코딩 하세요!!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 감사합니다!! 좋아요와 댓글을 달아주시면 감사하겠어요.

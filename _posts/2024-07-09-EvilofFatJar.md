@@ -3,16 +3,13 @@ title: "FatJar의 단점 분석 왜 피해야 할까"
 description: ""
 coverImage: "/assets/img/2024-07-09-EvilofFatJar_0.png"
 date: 2024-07-09 21:12
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-EvilofFatJar_0.png
 tag: Tech
 originalTitle: "Evil of FatJar"
 link: "https://medium.com/helidon/evil-of-fatjar-3c3011b4bd55"
 isUpdated: true
 ---
-
-
-
 
 2024년이 왔어요! ThinJar를 사용해보세요!
 
@@ -22,7 +19,18 @@ FatJar는 오랜 시간동안 우리와 함께해 왔어요. 처음에는 Java �
 
 # FatJar
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 팻잔은 Java 애플리케이션을 한 개의 JAR에 패키징하는 방법으로, 모든 종속성의 클래스가 한 개의 새로운 JAR에 다시 패키징됩니다.
 
@@ -32,7 +40,18 @@ FatJar는 오랜 시간동안 우리와 함께해 왔어요. 처음에는 Java �
 
 - 쉬운 배포와 배포
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단점:
 
@@ -46,7 +65,18 @@ FatJar는 오랜 시간동안 우리와 함께해 왔어요. 처음에는 Java �
 
 ThinJar는 모든 종속성을 수반하는 /lib 폴더에 보관하는 멋진 이름일 뿐입니다. C 프로그램에서 정적으로 링크된 라이브러리와 마찬가지 방식입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-09-EvilofFatJar_2.png" />
 
@@ -60,7 +90,18 @@ ThinJar는 모든 종속성을 수반하는 /lib 폴더에 보관하는 멋진 �
 
 단점:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 클래스패스 설정 시 번거로움이 더 많음
 
@@ -72,7 +113,18 @@ ThinJar는 모든 종속성을 수반하는 /lib 폴더에 보관하는 멋진 �
 COPY --from=build /helidon/target/quickstart.jar ./
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 thinjar를 사용하면 종속성을 독립적인 단계로 컨테이너 이미지로 복사할 수 있어요.
 
@@ -85,7 +137,18 @@ COPY --from=build /helidon/target/quickstart.jar ./
 
 빠른 데모와 비교해볼까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 git clone git@github.com:danielkec/thinjar-vs-fatjar.git
@@ -102,8 +165,18 @@ docker history helidon/demo-fatjar:latest
 
 FatJar는 하나의 2Mb 크기 layer를 생성하는 것을 볼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-09-EvilofFatJar_3.png)
 
@@ -115,8 +188,18 @@ docker history helidon/demo-thinjar:latest
 
 ![이미지](/assets/img/2024-07-09-EvilofFatJar_4.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 조금만 변경하고 두 이미지를 다시 빌드해 봅시다.
 
@@ -130,8 +213,18 @@ docker build -t helidon/demo-fatjar . -f Dockerfile.fatjar
 
 ![FatJar의 악질 (Evil of FatJar)](/assets/img/2024-07-09-EvilofFatJar_5.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![FatJar image](/assets/img/2024-07-09-EvilofFatJar_6.png)
 
@@ -141,8 +234,18 @@ Creating a new layer with all the dependencies for the FatJar image.
 
 ![FatJar image](/assets/img/2024-07-09-EvilofFatJar_8.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하나의 작은 변경 사항으로 FatJar로 패키징된 애플리케이션의 크기가 불필요하게 2Mb가 더 커지나요? 이제 이미 DevOps가 불평하고 있는 소리가 들리시나요?
 
@@ -152,7 +255,18 @@ ThinJar이 마이크로서비스 개발에 훨씬 적합합니다. 원격 저장
 
 Helidon은 처음부터 ThinJar로 제공되도록 설계되었으며, Helidon의 스타터를 사용해보세요. 모든 것이 기본적으로 작동합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리 새해 다짐은 ThinJar를 사용하는 것으로 합시다! 우리 개발팀이 감사할 거예요.
 

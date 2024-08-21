@@ -3,17 +3,13 @@ title: "시니어 개발자를 위한 3가지 React Native Hooks"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Beyond the Basics 3 Lesser-Used React Native Hooks for Advanced Developers"
 link: "https://medium.com/@shreeyash.dev/beyond-the-basics-3-lesser-used-react-native-hooks-for-advanced-developers-801f9412fc76"
 isUpdated: true
 ---
-
-
-
-
 
 useReducer, useMemo 및 useCallback을 활용한 "최적 개발"
 
@@ -23,7 +19,18 @@ useReducer, useMemo 및 useCallback을 활용한 "최적 개발"
 
 useState와 대비적으로 useReducer은 종종 빛을 발하지 못하지만, 컴포넌트 내에서 복잡한 상태 로직을 관리할 때 빛을 발합니다. 서로 다른 액션에 대한 여러 업데이트가 필요한 상태 객체에게 특히 유용합니다. 실용적인 예시를 살펴보겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import React, { useReducer } from "react";
@@ -73,11 +80,7 @@ const SinglePageForm = () => {
         onChangeText={(value) => handleChange("lastName", value)}
         placeholder="Last Name"
       />
-      <TextInput
-        value={state.email}
-        onChangeText={(value) => handleChange("email", value)}
-        placeholder="Email"
-      />
+      <TextInput value={state.email} onChangeText={(value) => handleChange("email", value)} placeholder="Email" />
       <Button onPress={handleSubmit} title="Submit" />
       <Button onPress={handleReset} title="Reset" />
     </View>
@@ -93,7 +96,18 @@ export default SinglePageForm;
 
 2. useMemo를 활용한 성능 최적화: 비용이 많이 드는 계산 결과를 메모화하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `useMemo`은 다른 소중한 훅으로, 비싼 계산을 메모이징하여 성능을 크게 최적화할 수 있는 점에서 과소평가되고 있습니다. 자주 컴포넌트를 렌더링하거나 무거운 계산이 필요한 상황에서 값어치가 있습니다. 다음 예시를 고려해보세요:
 
@@ -119,7 +133,18 @@ function ExpensiveComponent({ data }) {
 
 `useMemo`은 강력하지만, 모든 계산에 사용하는 것을 피하는 것이 중요합니다. 특히 작고 사소한 계산에 대해 사용할 때 주의해야 합니다. 정확한 메모이제이션을 보장하기 위해 의존성 배열에 올바른 의존성을 지정하는 것이 중요합니다. `useMemo`을 과도하게 사용하면 조기 최적화와 불필요한 복잡성으로 이어질 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. useCallback을 사용하여 효율성 향상: 콜백 함수 메모화
 
@@ -152,7 +177,18 @@ export default ParentComponent;
 
 <img src="/assets/img/BeyondtheBasics3Lesser-UsedReactNativeHooksforAdvancedDevelopers_2.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일반적으로 모든 콜백 함수에 useCallback을 적용하는 것은 피하세요. 모든 콜백 함수가 메모화의 이점을 누리지는 않습니다. 특히 다시 렌더링을 유발하지 않는 경우에는 더욱 그렇습니다. useCallback을 사용할 때는 의존성 배열에서 의도치 않은 동작을 피하기 위해 신중하게 의존성을 고려해야 합니다.
 

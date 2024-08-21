@@ -3,17 +3,13 @@ title: "Flutter에서 파일 업로드, 사진 및 기본 64 비트 표현 가�
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Uploading Files, Photo and Getting Base64 Representation in Flutter"
 link: "https://medium.com/@emdiya/uploading-files-photo-and-getting-base64-representation-in-flutter-999af1839835"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/UploadingFilesPhotoandGettingBase64RepresentationinFlutter_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 개요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파일을 업로드하고 사진을 base64 문자열로 변환하는 것은 모바일 앱 개발에서 흔한 작업입니다. 이미지, 문서 또는 다른 파일 유형을 다룰 때 Flutter는 파일 작업을 효율적으로 처리하기 위한 편리한 라이브러리를 제공합니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 # 단계별 안내:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 1: 종속 항목 추가
 
@@ -54,7 +72,18 @@ dependencies:
 
 ## 단계 2: 파일 선택
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신을 위해 테이블 태그를 마크다운 형식으로 변경해 드릴게요.
 
@@ -63,7 +92,18 @@ dependencies:
 | NSPhotoLibraryUsageDescription | We need access to your photo library to allow you to select photos for upload.        |
 | NSCameraUsageDescription       | This app requires access to the camera and this lets you do things like scan QR code. |
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 프로젝트에 전역 플랫폼을 정의하려면 이 줄의 주석을 해제하세요
@@ -194,7 +234,18 @@ class HomeController extends GetxController{
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 3: 화면에서 파일 내용 읽기
 
@@ -231,7 +282,18 @@ ListView.separated(
 
 ## 단계 4: Base64로 변환
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Dart의 내장 라이브러리를 사용하여 파일 내용을 base64 문자열로 변환하십시오:
 
@@ -257,7 +319,18 @@ home_controller.dart
 
 ## 단계 5: 도우미 함수 처리
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Handling helper function은 파일 선택이나 base64 변환 과정 중에 발생할 수 있는 함수를 처리하기 위해 구현되었습니다:
 
@@ -275,7 +348,18 @@ String? getContentType(String filePath) {
 
 getFileName
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
   String getFileName(File file) {
@@ -305,7 +389,18 @@ getFileSize
 
 checkTypeFile
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 checkTypeFile(File file) {
@@ -337,7 +432,18 @@ removeItems
 
 # 전체 코드 예시:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 home_controller.dart
 
@@ -648,7 +754,18 @@ class HomeScreen extends StatelessWidget {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # UI 데모:
 
@@ -658,6 +775,17 @@ class HomeScreen extends StatelessWidget {
 
 # 결론:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 축하합니다! 플러터에서 파일을 업로드하고 해당 파일의 base64 표현을 얻는 방법을 배웠어요. 제공된 코드 조각들로 자유롭게 실험해보고 자신의 플러터 프로젝트에 통합해보세요 🚀

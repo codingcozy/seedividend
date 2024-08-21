@@ -3,16 +3,13 @@ title: "디자인 패턴 01 - 싱글톤 패턴 완벽 가이드"
 description: ""
 coverImage: "/assets/img/2024-07-02-DesignPattern01-Singleton_0.png"
 date: 2024-07-02 22:10
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-02-DesignPattern01-Singleton_0.png
 tag: Tech
 originalTitle: "Design Pattern 01 - Singleton"
 link: "https://medium.com/@noyoncse3101/design-pattern-01-singleton-cb9db180cffe"
 isUpdated: true
 ---
-
-
-
 
 싱글턴은 한 클래스가 하나의 인스턴스만 가지도록 보장하면서 이 인스턴스에 대한 전역 액세스 포인트를 제공하는 생성 패턴입니다.
 
@@ -23,7 +20,18 @@ isUpdated: true
 
 ## Java 싱글턴 패턴 구현
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 싱글톤 패턴을 구현할 때 다양한 방법이 있지만 모두 공통적인 개념을 가지고 있습니다.
 
@@ -35,7 +43,18 @@ isUpdated: true
 
 즉시 초기화에서는 싱글톤 클래스 인스턴스가 클래스 로딩 중에 생성됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 public class EagerInitializedSingleton {
@@ -57,8 +76,18 @@ public class EagerInitializedSingleton {
 
 게으른 초기화는 싱글톤 인스턴스의 초기화를 필요할 때까지 늦추는 방식입니다. 이 방법은 리소스를 절약합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 public class LazyInitializedSingleton {
 
@@ -72,8 +101,8 @@ public class LazyInitializedSingleton {
         }
         return instance;
     }
-}
 
+}
 
 이 구현은 단일 스레드 환경에서는 잘 작동합니다. 그러나 다중 스레드 시스템의 경우, 여러 스레드가 동시에 if 문 안에 있을 때 문제를 일으킬 수 있습니다. 싱글톤 패턴이 깨지고 두 스레드가 싱글톤 클래스의 서로 다른 인스턴스를 가져올 수 있습니다.
 
@@ -81,8 +110,18 @@ public class LazyInitializedSingleton {
 
 위의 예(Lazy initialization)는 싱글톤 패턴이 스레드 안전하지 않습니다. 스레드 안전을 보장하기 위해 다음 접근 방식을 사용할 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - getInstance() 메서드를 동기화합니다. 아래는 구현 코드입니다
 
@@ -109,7 +148,18 @@ public class ThreadSafeSingleton {
 - 클라이언트 응용 프로그램은 매개변수를 전달할 수 있습니다.
 - 지연 초기화가 달성되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단점
 
@@ -124,7 +174,7 @@ public class ThreadSafeSingleton {
     private static ThreadSafeSingleton instance;
 
     private ThreadSafeSingleton(){}
-  
+
     public static ThreadSafeSingleton getInstanceUsingDoubleLocking() {
         if (instance == null) {
             synchronized (ThreadSafeSingleton.class) {
@@ -138,7 +188,18 @@ public class ThreadSafeSingleton {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 장점
 
@@ -151,7 +212,18 @@ public class ThreadSafeSingleton {
 
 - 추가적인 if 조건문이 필요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 싱글톤 패턴의 장점
 
@@ -169,7 +241,18 @@ public class ThreadSafeSingleton {
 - 확장성 제한: 싱글톤 클래스를 확장하거나 수정하는 것은 제한된 생성으로 인해 도전적일 수 있습니다.
 - 단일 책임 원칙 위반: 싱글톤 클래스에는 두 가지 책임이 있습니다. 하나는 단일 인스턴스 생성이고 다른 하나는 작업 실행입니다. 그래서 단일 책임 원칙을 위반합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 실제 싱글톤 예제 몇 가지:
 
@@ -185,7 +268,18 @@ public class ThreadSafeSingleton {
 - https://refactoring.guru/design-patterns/singleton
 - https://belatrix.globant.com/us-en/blog/the-singleton-design-pattern/
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 읽어 주셔서 감사합니다. 의견이나 제안이 있으시면 아래 댓글로 자유롭게 남겨주세요.
 

@@ -3,15 +3,13 @@ title: "Hugging Face 시작을 위한 종합 가이드"
 description: ""
 coverImage: "/assets/img/2024-07-09-AComprehensiveGuideforGettingStartedwithHuggingFace_0.png"
 date: 2024-07-09 21:02
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-AComprehensiveGuideforGettingStartedwithHuggingFace_0.png
 tag: Tech
 originalTitle: "A Comprehensive Guide for Getting Started with Hugging Face"
 link: "https://medium.com/towards-artificial-intelligence/a-comprehensive-guide-for-getting-started-with-huggingface-94aeea38692f"
 isUpdated: true
 ---
-
-
 
 ![Hugging Face](/assets/img/2024-07-09-AComprehensiveGuideforGettingStartedwithHuggingFace_0.png)
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 본문에서는 Hugging Face의 잠재력, 이를 활용하는 방법 및 가능한 사용 사례에 대해 설명하겠습니다. 시작해봅시다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 목차:
 
@@ -36,7 +45,18 @@ isUpdated: true
 
 <img src="/assets/img/2024-07-09-AComprehensiveGuideforGettingStartedwithHuggingFace_1.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 허깅페이스는 다양한 작업을 위한 사전 훈련 모델에 민주적인 접근을 제공하는 허브입니다. 번역, 요약, 질의응답, 객체 감지, 이미지 분할 등 다양한 작업에 사용됩니다. 사용자들이 오픈 소스 모델에 기여할 것을 장려합니다.
 
@@ -46,7 +66,18 @@ isUpdated: true
 
 ## 허깅페이스의 기본 구성요소
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 허깅페이스에는 모델, 데이터셋 및 스페이스 세 가지 주요 구성 요소가 있어요.
 
@@ -56,7 +87,18 @@ isUpdated: true
 
 ![image](/assets/img/2024-07-09-AComprehensiveGuideforGettingStartedwithHuggingFace_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모델과 마찬가지로, 다양한 종류의 데이터셋이 있어서 다양한 작업에 활용할 수 있습니다. 이전과 마찬가지로 최종 목표에 따라 작업별로 필터링하고 결과를 정렬하는 것이 중요합니다.
 
@@ -66,7 +108,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-07-09-AComprehensiveGuideforGettingStartedwithHuggingFace_5.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에는 입력 텍스트로부터 이미지를 생성하는 전문 공간 예시가 있습니다. 이 데모인 PixArt-Sigma는 4K 해상도에서 이미지를 생성할 수 있는 PixArt-Sigma 1024px 확산 변환 모델을 활용합니다.
 
@@ -76,7 +129,18 @@ isUpdated: true
 
 Hugging Face의 또 다른 중요한 기여는 오픈 LLM 리더보드입니다. 이는 오픈 소스 LLMs와 챗봇을 추적하고 평가할 수 있는 머신 러닝 데모 또는 Hugging Face 공간입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모델 페이지와 마찬가지로 사용 가능한 모델이 너무 많습니다. 과업을 해결하기 위해 필요한 모델 유형을 식별한 후 이를 기반으로 결과를 필터링하는 것이 좋습니다.
 
@@ -86,7 +150,18 @@ Hugging Face의 또 다른 중요한 기여는 오픈 LLM 리더보드입니다.
 
 필터를 수정하면 리더보드 상단의 모델 대부분이 Meta 및 Databricks와 같은 대규모 기술 회사에서 나온 것을 알 수 있을 것입니다. 이것은 모든 회사가 이러한 대규모 모델을 훈련시키기에 컴퓨팅 능력을 갖추지 못한 이유입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Hugging Face에 접속하는 방법
 
@@ -96,7 +171,18 @@ Hugging Face의 또 다른 중요한 기여는 오픈 LLM 리더보드입니다.
 
 ![hugging-face-image](/assets/img/2024-07-09-AComprehensiveGuideforGettingStartedwithHuggingFace_9.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 토큰의 이름인 HF_TOKEN과 해당 토큰의 유형을 결정하세요. 이 유형은 read 또는 write 중 하나로 선택할 수 있습니다. 모델을 다운로드하거나 모델에서 추론을 실행하는 경우 read를 선택하면 가장 일반적인 선택지입니다. 모델을 훈련시키려면 write를 선택하는 것이 좋습니다.
 
@@ -106,7 +192,18 @@ Hugging Face의 또 다른 중요한 기여는 오픈 LLM 리더보드입니다.
 
 ## Hugging Face와 놀기 시작
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/1*2AywAoMAEN5v8VG8wIFU7Q.gif" />
 
@@ -118,7 +215,18 @@ Hugging Face의 개념이 명확해지면, 이제는 자습서의 실제 부분�
 
 우리는 트렌딩 순으로 정렬된 첫 번째 결과 중에서 나타나는 모델 NLLB-200을 선택하기로 결정했습니다. 모델의 웹 페이지에는 프로젝트 목적에 따라 유용할 수 있는 다양한 버튼도 포함되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-09-AComprehensiveGuideforGettingStartedwithHuggingFace_11.png)
 
@@ -128,7 +236,18 @@ Hugging Face의 개념이 명확해지면, 이제는 자습서의 실제 부분�
 
 실험을 진행할 경우, Google Colab을 사용하는 것을 추천드립니다. Google Colab은 코드를 웹 브라우저에서 실행하며 CPU 또는 GPU 리소스에 액세스할 수 있는 클라우드 기반 플랫폼입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또한, 이 환경은 이전에 얻은 허깅페이스의 액세스 키와 같은 환경 변수를 간단히 가져오는 것을 가능하게 합니다.
 
@@ -138,7 +257,18 @@ Hugging Face의 개념이 명확해지면, 이제는 자습서의 실제 부분�
 
 설치해야 할 라이브러리가 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 pip install transformers
@@ -158,7 +288,18 @@ translator = pipeline(task="translation",
                       )
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 pipeline()은 번역 작업용 모델 NLLB-200을 다운로드하고 캐시합니다. 이러한 매개변수들 외에도, 모델을 압축하는 데 성능이 감소하지 않는 torch의 유형을 지정합니다.
 
@@ -180,7 +321,18 @@ print(text_translated[0]['translation_text'])
 
 이것이 출력 내용입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 OpenAI의 ChatGPT 개발자가 새로운 도구를 소개했어요!
@@ -195,7 +347,18 @@ OpenAI의 ChatGPT 개발자가 새로운 도구를 소개했어요!
 
 이것은 Hugging Face를 시작하는 데 도움이 되는 입문 가이드였어요. Transformers는 상위 모델, 특히 NLP 모델에 쉽게 액세스할 수 있게 해주는 파이썬 라이브러리에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 플랫폼과 파이썬 라이브러리에 대해 더 깊이 파고들고 싶다면, 아래에서 제안하는 리소스를 살펴보세요.
 

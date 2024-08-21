@@ -3,7 +3,7 @@ title: "LLM ABCs LLM으로 동력을 주는 애플리케이션 구축 - AI 미�
 description: ""
 coverImage: "/assets/img/2024-06-20-LLMABCsBuildingLLM-PoweredApplicationsAGatewaytoAIsFuture_0.png"
 date: 2024-06-20 01:58
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-LLMABCsBuildingLLM-PoweredApplicationsAGatewaytoAIsFuture_0.png
 tag: Tech
 originalTitle: "LLM ABCs: “Building LLM-Powered Applications” — A Gateway to AI’s Future"
@@ -11,18 +11,26 @@ link: "https://medium.com/generative-ai/llm-abcs-building-llm-powered-applicatio
 isUpdated: true
 ---
 
-
-
-
 ![이미지](/assets/img/2024-06-20-LLMABCsBuildingLLM-PoweredApplicationsAGatewaytoAIsFuture_0.png)
 
 AI는 방대한 주제입니다. 어디서부터 시작해야 할지 알기 어려운 주제입니다. 개발자, 연구자, 그리고 꿈꾸는 이들을 위해 길을 밝혀 주는 방법은 무엇일까요?
 
-하지만 매일 뉴스에서 자주 듣는 AI 열풍과 항상 반복되는 AI 거품에도 불구하고, AI에 대한 지식이 표면적으로만 알려져 있습니다. 
+하지만 매일 뉴스에서 자주 듣는 AI 열풍과 항상 반복되는 AI 거품에도 불구하고, AI에 대한 지식이 표면적으로만 알려져 있습니다.
 
 AI는 멋진 가전제품에 관한 것만이 아닙니다; 의료부터 교육까지 저희의 미래를 형성하는 중요한 요소이며, 우리는 수동적인 방관자가 아니라 정보를 알고 참여해야 합니다. 🌐
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 분산된 뉴스, 바이럴 트윗 또는 재미난 유튜브 클립으로 수영을 배우려는 것은 끝없이 재밌겠지만 수심에서 생존할 수는 없는 것과 같아요! 🏊‍♂️
 
@@ -32,7 +40,18 @@ Valentina Alto의 "LLM-파워 어플리케이션 구축"은 인공지능에 대�
 
 이 기사에서는 책에 대해 이야기하고, LangChain과 대형 언어 모델에 대한 이해를 통해 우리가 어떻게 배울 수 있고 할 수 있는지 몇 가지 예시를 제시할 거예요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-20-LLMABCsBuildingLLM-PoweredApplicationsAGatewaytoAIsFuture_1.png)
 
@@ -42,14 +61,25 @@ Valentina Alto의 "LLM-파워 어플리케이션 구축"은 인공지능에 대�
 
 ChatGPT 출시 후, 생성 모델 AI는 긴급한 문제가 되었어요. 새로운 시대의 징후인 걸 분명히 알았고, 나에게는 더 이상의 경고 같은 것이었어요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ChatGPT의 등장과 생성형 AI의 신속한 발전은 기술 발전의 중요한 새 단계를 의미합니다. 저에게 이는 최신 트렌드를 따라가는 것 이상을 의미합니다. 이는 교육부터 의료, 금융, 창의적 예술 등 모든 산업이 어떻게 혁신되는지를 이해하는 것입니다.
 
 "학습하기"는 이러한 시스템을 구동하는 기계 학습, 자연 언어 처리(NLP), 딥 러닝의 원리를 깊게 파고들어 흥미를 느껴보는 것을 의미합니다. 포함된 내용은 다음과 같습니다:
 
 - 기초 이해: 지도 및 비지도 학습, 강화 학습, 그리고 이를 지원하는 알고리즘을 포함한 AI 및 기계 학습의 기초를 학습으로 시작합니다.
-- 자연 언어 처리(NLP): 중요한 역할을 하는 NLP에 대해 더 깊게 이해해보세요. 
+- 자연 언어 처리(NLP): 중요한 역할을 하는 NLP에 대해 더 깊게 이해해보세요.
 - 윤리와 영향: AI의 윤리적 고려사항, 개인정보 보호, 편향, 그리고 이러한 기술의 사회적 영향에 대해 공부합니다. 기술적 지식과 동등한 중요성을 가집니다.
 - 실용적인 실행: 생성형 모델을 사용해볼 수 있는 플랫폼 및 도구를 실험해보세요. OpenAI의 API, TensorFlow, PyTorch, Hugging Face를 시작점으로 활용할 수 있습니다.
 - 지속적인 학습: AI는 빠르게 진화하는 분야입니다. 연구 논문, 온라인 강의, 팟캐스트, 그리고 회의 등을 통해 최신 정보를 유지합니다.
@@ -57,7 +87,18 @@ ChatGPT의 등장과 생성형 AI의 신속한 발전은 기술 발전의 중요
 
 Valentina Alto의 "Building LLM-Powered Applications"는 최근 몇 주간 인공 지능에 대한 나의 안내서가 되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 작가는 LLM의 복잡한 메커니즘을 해소하여 건설자의 도구상자로 변환하는 능력이 있습니다. 우리가 사랑하는 레고 브릭으로 돌아간 것과 같습니다. 그녀는 "인간과는 달리, LLM은 스스로 오류에서 회복할 수 없다"는 현실을 회피하지 않습니다.
 
@@ -67,7 +108,18 @@ Valentina Alto의 "Building LLM-Powered Applications"는 최근 몇 주간 인�
 
 ## ReAct와 웹 검색
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 한 예가 있어요: 프로젝트 중 하나를 골라서 오직 오픈 소스 LLMs와 함께 작동하도록 수정했어요. 4장의 지침을 따라 ReAct를 살펴봅시다. 이 프로젝트는 추론과 행동을 결합한 일반적인 패러다임인데요. ReAct는 언어 모델에게 작업을 위한 언어적 추론 트레이스와 행동을 생성하도록 유도하며, 또한 웹 검색이나 데이터베이스와 같은 외부 소스로부터 관측을받습니다.
 
@@ -79,7 +131,18 @@ Valentina Alto의 "Building LLM-Powered Applications"는 최근 몇 주간 인�
 %pip install --upgrade --quiet gradio_tools huggingface_hub langchain langchain-community langgraph google-search-results faiss-cpu tiktoken duckduckgo-search
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LLM을 마무리해봅시다
 
@@ -155,12 +218,23 @@ tools = [
     )
     ]
 
-agent_executor = initialize_agent(tools, model, 
-                                agent=AgentType.ZERO_SHOT_REACT_DESCRIPTION, 
+agent_executor = initialize_agent(tools, model,
+                                agent=AgentType.ZERO_SHOT_REACT_DESCRIPTION,
                                 verbose=True)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 에이전트 템플릿을 출력하면 우리가 다루는 내용에 대한 감을 잡을 수 있어요…
 
@@ -191,10 +265,21 @@ Thought:{agent_scratchpad}
 이제 에이전트를 실행시켜봐서, 2024년 5월 프라임 미니스터 지오르자 멜로니가 총독 중 한 명을 만났을 때 무슨 일이 있었는지 알려줄 거예요
 
 ```js
-agent_executor('온라인 뉴스에서 2024년 5월 지오르자 멜로니가 델루카 총독을 만난 사건을 알려줘')
+agent_executor("온라인 뉴스에서 2024년 5월 지오르자 멜로니가 델루카 총독을 만난 사건을 알려줘");
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 이것을 실행하면 최종 답을 얻기 전에 에이전트가 하는 일에 대한 멋진 설명을 받을 수 있어요
 
@@ -203,13 +288,13 @@ agent_executor('온라인 뉴스에서 2024년 5월 지오르자 멜로니가 �
 
 이 특정 이벤트에 대한 관련 정보를 찾기 위해 검색 기능을 사용해야 합니다.
 
-**작업: 검색(Search)** 
+**작업: 검색(Search)**
 작업 입력: "May 2024 Giorgia Meloni governor De Luca incident"
 관찰: Leggi su Sky TG24 l'articolo De Luca risponde a Meloni dopo incontro Caivano: "Ha comunicato sua vera identità" ... 29 mag 2024 - 14:21 ... Dal presidente del Consiglio Giorgia Meloni, ha ... "Presidente De Luca, la stronza della Meloni!''. La premier stringe la mano al governatore della Campania così, ricordandogli come il … Nel corso di Tagadà, su La7, viene mandato il passaggio delle comunicazioni social di De Luca che a mente fredda contrattacca ad alzo zero contro Meloni. Ecco i rosicon...zi contro Giorgia. Da De ... Caivano (Napoli), 28 maggio 2024 - È ancora lite tra la premier Giorgia Meloni e Vincenzo De Luca, presidente della Regione Campania. L'occasione, questa volta, la offre l'inaugurazione del ... Premier Giorgia Meloni introduced herself as "that bitch" to Campania Governor Vincenzo De Luca on Tuesday after he called her a 'stronza' (bitch) when talking to reporters in the Lower House in ...
 
 **생각:** 이제 최종 답을 알게 되었어요
 
-**최종 답:**  
+**최종 답:**
 2024년 5월, 이탈리아 총리 조르자 멜로니(Giorgia Meloni)와 카만니아 주지사 빈첸조 데 루카(Vincenzo De Luca) 사이에 너프 공식 행사 중 사건이 발생했어요. 지난 주, 주지사 데 루카가 통신사에 대한 발언 중에서 멜로니를 "stronza"로 불렀고 이는 둘 사이에 긴장을 일으켰어요. 그들의 만남 동안 멜로니가 데 루카에게 "그 짜증나는 여자"라고 자신을 소개했다는 소문이 있어요. 이 교환은 추가적인 논란과 언론의 주목을 불러일으켰어요.
 ```
 
@@ -217,7 +302,18 @@ agent_executor('온라인 뉴스에서 2024년 5월 지오르자 멜로니가 �
 
 이곳은 상기 코드를 사용한 GitHub 저장소 링크예요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-20-LLMABCsBuildingLLM-PoweredApplicationsAGatewaytoAIsFuture_3.png)
 
@@ -227,7 +323,18 @@ agent_executor('온라인 뉴스에서 2024년 5월 지오르자 멜로니가 �
 
 하지만 이 책을 돋보이게 하는 것은 그 포용적인 성격이죠. 파이썬 초보자부터 경험 많은 AI 전문가까지 누구나 환영받으며 지침을 제공합니다. 저자는 데이터 과학자, 스타트업 CTO, 초보자의 기대치에 부응할 수 있어요. 아무도 뒤쳐지지 않고 함께 할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 이것을 큰 소리로 말할 수 있어요! 전 인공 지능 전문가는 아니지만 배운 것으로 심지어 코드를 맞춤화해 제가 좋아하는 오픈 소스 접근 방식에 맞추어 만들었어요!
 
@@ -237,7 +344,18 @@ agent_executor('온라인 뉴스에서 2024년 5월 지오르자 멜로니가 �
 
 "LLM을 활용한 애플리케이션 개발"은 단순히 매뉴얼이 아니에요; 책임 있는 인공 지능을 위한 선언문이에요. 12장은 AI의 윤리를 다루며, 위대한 권력이 따라오면 큰 책임이 따른다는 사실을 상기시켜 줘요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희가 새로운 스파이더맨은 아니지만, 확실히 에마파시와 선견지명으로 AI 파이오니어로서 만들어낸 결과물의 영향을 고려해야 합니다.
 
@@ -247,7 +365,18 @@ agent_executor('온라인 뉴스에서 2024년 5월 지오르자 멜로니가 �
 
 기사를 즐겁게 읽어 주셨기를 바랍니다. 만약 이 이야기가 가치를 제공했고 조금이라도 지원하고 싶다면, 아래 방법을 이용하실 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이 이야기에 대해 많이 박수를 치다
 - 기억하기에 더 중요한 부분을 강조하세요 (나중에 찾기 쉽고 더 나은 기사를 쓸 수 있게 될 것입니다)
@@ -262,7 +391,18 @@ agent_executor('온라인 뉴스에서 2024년 5월 지오르자 멜로니가 �
 
 ![이미지](/assets/img/2024-06-20-LLMABCsBuildingLLM-PoweredApplicationsAGatewaytoAIsFuture_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 이야기는 Generative AI에서 발행되었습니다. LinkedIn에서 저희와 연결하고 최신 AI 이야기를 놓치지 마세요.
 

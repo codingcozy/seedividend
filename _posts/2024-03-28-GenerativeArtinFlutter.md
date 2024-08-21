@@ -3,17 +3,13 @@ title: "플러터에서 생성형 AI 적용하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Generative Art in Flutter"
 link: "https://medium.com/flutter-community/generative-art-in-flutter-9e53701f7805"
 isUpdated: true
 ---
-
-
-
-
 
 최근에 FlutterCon Berlin 2023에서 저는 Flutter에서 저수준 API를 사용하여 애니메이션을 만드는 방법에 대해 강의를 했어요. 강의를 준비하면서 컨텐츠는 예술, 특히 생성적 예술과 그 기술적 역사에 관한 것으로 발전했어요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 어린 시절부터 Molnar는 무작위성에 매료되었으며, 알고리즘을 사용하여 예술 작품을 렌더링하는 초기의 채택자 중 한 명이었어요. 컴퓨터 생성 예술이 비인간화되었다고 주장되고 그 신뢰성이 매우 의심스러워지는 시기에, 그녀는 기계의 무작위성과 효율적으로 많은 출력물을 생산하는 능력과 함께 작업한다는 것은 이러한 주장의 반대 증거임을 주장했어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Generative Art in Flutter](/assets/img/GenerativeArtinFlutter_1.png)
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 생성적 예술이란 아티스트가 천연 언어 규칙 세트, 컴퓨터 프로그램 또는 기계와 같은 시스템을 활용한 다음, 일정한 자율성으로 작동하도록 하는 모든 예술적 실천을 말합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 50년대에 그녀는 우리에게 "Machine Imaginere" 또는 상상 속 기계라는 용어를 소개했습니다. 그녀는 수학의 기본 원리와 주사위를 굴리는 등의 아날로그 '랜덤 생성기'를 사용했습니다. 이렇게 하여 그녀는 그림의 순서를 '생성'하고, 한 번에 한 개의 매개변수를 수정했습니다. 그녀는 그 다양한 변형을 세심하게 수작업으로 제작했습니다.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1400/1*TVPsK_-tjXNYyaHyswF-ug.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 코드로 그리기가 얼마나 오래된 것인지, 그리고 Molnar와 많은 다른 뛰어난 예술가들이 제한된 기술로는 상상할 수 없는 예술 작품을 구성하고 있다는 사실을 알게 되었을 때 정말 매혹을 느꼈습니다.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 오늘날에는 최신 기술을 활용하여 탁월한 예술 작품들이 생산되고 있으며, Flutter는 크로스 플랫폼 기능과 쉽게 다룰 수 있는 API를 통해 이러한 작품에 적합한 훌륭한 도구가 될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Vera Molnar의 예술 스타일과 아이디어에 영감을 받아, Flutter의 CustomPainter 및 Canvas API를 탐험하여 창의적인 예술의 기본 원칙을 알아보고, 애니메이션을 도입하여 우리의 작품을 생동감 있게 만들어 보겠습니다.
 
@@ -63,7 +103,18 @@ Vera Molnar의 예술 스타일과 아이디어에 영감을 받아, Flutter의 
 
 CustomPainter 및 Canvas API를 탐험하여 화면에 자유롭게 그림을 그리기 시작할 수 있습니다. Widget의 build 메서드에 CustomPaint 위젯을 추가하고, CustomPainter 구현체를 제공해 주면 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 @override
@@ -96,7 +147,18 @@ class SquareCustomPainter extends CustomPainter {
 
 간단히 시작해서 `paint` 메소드 안에서 canvas의 `drawRect` API를 사용하여 직사각형을 그려보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 @override
@@ -128,7 +190,18 @@ void paint(Canvas canvas, Size size) {
 
 그런 다음 Paint 객체를 추가할 수 있습니다. 이 Paint 객체를 통해 다음과 같은 속성을 지정할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 테이블 태그를 마크다운 형식으로 변경합니다.
 
@@ -164,7 +237,18 @@ void paint(Canvas canvas, Size size) {
 
 <img src="/assets/img/GenerativeArtinFlutter_6.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 플러터 문서에서는 여러분에게 직사각형을 만드는 다양한 API의 작동 방식을 보여주는 유용한 이미지를 제공합니다:
 
@@ -192,7 +276,18 @@ void paint(Canvas canvas, Size size) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 알아보았을 때, 사각형이 가운데가 아닌 왼쪽 상단에 배치된 결과를 보게 될 것입니다. 이것은 캔버스 작업 시 중요한 개념으로 이어집니다.
 
@@ -202,7 +297,18 @@ void paint(Canvas canvas, Size size) {
 
 ![GenerativeArtinFlutter_8.png](/assets/img/GenerativeArtinFlutter_8.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서 가운데에 그림을 그리고 싶다면 다음과 같이 해야 해요:
 
@@ -224,7 +330,18 @@ canvas.restore(); // 4
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/1*dyhjZqMf-l868gIzF4wGMQ.gif" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 창조적인 아트 도구
 
@@ -234,7 +351,18 @@ canvas.restore(); // 4
 
 벽에 타일을 깔듯이, 여러분은 작품의 조각들을 가로와 세로로 반복하여 타일을 만들어나갈 수 있습니다. 이전에 만든 사각형에 타일링을 소개해봅시다. 캔버스 위에 그리드 형태로 사각형을 만들어봄으로써 가로 및 세로로 배치된 사각형의 수를 계산하여 단순한 for 루프를 이용해 사각형을 그립니다. 이를 위해 CustomPainter를 포함하는 위젯 내에 사각형이 들어갈 수 있는 수를 계산하고, CustomPainter의 paint 메서드를 통해 그 위젯의 크기에 접근할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그림을 중앙에 맞추기 위해 오프셋을 얼마나 설정해야 하는지도 계산할 거예요.
 
@@ -279,7 +407,18 @@ void paint(Canvas canvas, Size size) {
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/1*ARg9rA7kdFDpoacr6RU6zw.gif" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 재귀 — 창조적인 아트 도구 #2
 
@@ -305,7 +444,18 @@ for (int index = 0; index < totalCount; index++) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 재귀 함수:
 
@@ -339,7 +489,18 @@ void drawNestedSquares(
 
 <img src="/assets/img/GenerativeArtinFlutter_11.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 랜덤성 - 창조적인 예술 도구 #3
 
@@ -350,7 +511,18 @@ void drawNestedSquares(
 - 재귀 함수 내 다음 정사각형의 변의 길이를 랜덤화합니다.
 - 결국 가장 작은 정사각형의 크기를 랜덤화할 랜덤한 깊이 값을 도입합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 void drawNestedSquares(
@@ -386,9 +558,18 @@ void drawNestedSquares(
 
 ## Widgetbook 및 입력 매개변수 실험하기
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 처음부터 생성 예술가들이 하는 것과 비슷하게, 여러 매개변수를 시스템 입력값으로 설정하고 무작위 값이 아닌 값으로 실험해보면서 상상한 대로 조합하는 것이 가능합니다. 혹은 더 나아가, 우연히 상상 이상의 효과를 발견할 수도 있습니다!
 
@@ -398,7 +579,18 @@ Flutter에서 이를 빠르고 쉽게 수행하려면 Widgetbook 패키지를 �
 
 예를 들어, 무작위 재귀적인 사각형을 고려해보면, 격자 간격이 0이라면 어떻게 보일까요? 사각형이 더 두껍거나, 더 작거나, 더 크다면 어떻게 변할까요? 이 모든 것을 실험해보고 위젯의 노브(knobs)를 사용하여 즉시 결과를 확인할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 WidgetbookUseCase(
@@ -423,7 +615,18 @@ WidgetbookUseCase(
 
 좋아요, 흑백은 조금 지루하죠. 조금 색상을 넣어 봅시다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 색상
 
@@ -433,7 +636,18 @@ WidgetbookUseCase(
 
 다행히도, 우리는 플러터의 Color 클래스가 있어서 그럴 필요가 없습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 색상을 무작위로 설정하는 것이 조금 까다롭다!
 
@@ -445,7 +659,18 @@ WidgetbookUseCase(
 Color.fromARGB(a, r, g, b);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](https://miro.medium.com/v2/resize:fit:1400/1*qcfwCT4daTT63NccnpgC-w.gif)
 
@@ -457,7 +682,18 @@ HSLColor.fromAHSL(a, h /* 무작위 값 */, s, l).toColor();
 
 ![Image](https://miro.medium.com/v2/resize:fit:1400/1*jgpusTUfkprdV8WJ7nV_Yw.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 이전 작품에 무작위 색상을 도입한다면 다음 결과를 얻을 수 있습니다:
 
@@ -467,7 +703,18 @@ HSLColor.fromAHSL(a, h /* 무작위 값 */, s, l).toColor();
 
 ![Adjust Colors](https://miro.medium.com/v2/resize:fit:1400/1*wWkpJHtoRcYanUylrq6D8A.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 🔗 이 결과의 전체 코드는 다음과 같습니다
 
@@ -477,7 +724,18 @@ HSLColor.fromAHSL(a, h /* 무작위 값 */, s, l).toColor();
 
 예를 들어, 원래의 정사각형으로 돌아가보면, 각 모서리를 원래 위치에서 무작위 거리만큼 이동하여 무작위 다각형을 만들고 싶다고 말할 수 있습니다. 이렇게 하면 변위와 무작위성을 결합하여 더 깊은 수준의 혼돈을 만들어낼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <pre>
 ![Generative Art in Flutter](/assets/img/GenerativeArtinFlutter_19.png)
@@ -502,7 +760,18 @@ canvas.drawPoints(
 여기서 topLeft, topRight 등은 정사각형 변의 길이와 캔버스 중심 오프셋에 기반한 사전 계산된 오프셋입니다. 이제 이러한 점들을 미리 정의된 maxCornersOffset 변수의 음수와 양수 값 사이의 랜덤 범위 내에서 오프셋합니다.
 </pre>
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 페인트 메서드
@@ -534,9 +803,18 @@ canvas.drawPoints(
 
 # 반복 — 창조적인 예술 도구 #5
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리 창의적인 미술 도구상자의 마지막 도구로는 for 루프를 사용하여 단순히 반복을 구현할 수 있습니다. 이때 min과 max 값을 시스템에 입력 매개변수로 제공할 수 있습니다.
 
@@ -572,7 +850,18 @@ for (int i = 0; i < repetition; i++) {
 
 ![image](https://miro.medium.com/v2/resize:fit:1400/1*7M6F_uIaN5SQDHcAFj7S-A.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 작품을 완성하기 위해 몇 가지 마지막 손질을 해봐요:
 
@@ -582,7 +871,18 @@ for (int i = 0; i < repetition; i++) {
 
 2. 타일링을 추가해봅시다 (저희의 첫 번째 생성적 예술 도구):
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Generative Art in Flutter step 3](/assets/img/GenerativeArtinFlutter_23.png)
 
@@ -592,7 +892,18 @@ for (int i = 0; i < repetition; i++) {
 
 그리고 와라! 몇 가지 창조적인 예술 기본 사항을 사용하고, Flutter의 캔버스 API의 기본 기능을 구현하는 몇 줄의 코드로 단순한 지루한 정사각형에서 모양, 색상 및 혼돈으로 가득 찬 캔버스까지 이동했습니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 여기서 왜 멈춰 있나요? 이 혼돈을 생동감 있게 만들기 위해 애니메이션도 추가해 봅시다!
 
@@ -622,7 +933,18 @@ class Polygon {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이렇게 하면 유틸리티 메서드(예: generatePolygonSets)를 구현할 수 있어요! 이 메서드는 데이터를 채우고 CustomPainter의 paint 메서드에서 Polygon getter를 직접 사용할 수 있게 해 줄 거에요.
 
@@ -667,7 +989,18 @@ class PolygonsCustomPainter extends CustomPainter {
 
 추가로, 다각형의 원래 코너 오프셋 값(변위 전의 사각형 포인트)을 저장할 수 있어요. 이를 활용해 Flutter의 Offset.lerp() 기능을 사용하는 getLerpedPoints 메서드를 구현할 수 있어요. 이를 통해 0부터 1 사이의 정규화된 값을 사용하여 두 오프셋 사이의 값을 얻을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 Class Polygon{
@@ -719,9 +1052,18 @@ for (int i = 0; i < polygons.length; i++) {
 
 이렇게 하면 다음 결과가 생성됩니다:
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/GenerativeArtinFlutter_25.png" />
 
@@ -731,7 +1073,18 @@ for (int i = 0; i < polygons.length; i++) {
 
 무엇을 애니메이션화할지 결정하기 위해, 하나의 다각형 집합부터 시작해서 각 다각형의 투명도를 애니메이트할 수 있음을 보았습니다. 이를 통해 각 다각형을 서로 다음에 서서히 사라지도록 만들 수 있고, 또한 각 다각형을 균일한 정사각형에서 현재의 모양으로 애니메이트할 수도 있습니다. 이제 리팩터링 후에 이 작업이 쉽게 가능해 졌습니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/GenerativeArtinFlutter_26.png" />
 
@@ -753,7 +1106,18 @@ class PolygonsCustomPainter extends CustomPainter {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 기본적으로 애니메이션 컨트롤러가 실행 중일 때 다시 그리기를 유발합니다. 그리고 다음과 같이 CustomPainter의 shouldRepaint 메서드를 구현하는 것과 동일합니다:
 
@@ -793,7 +1157,18 @@ class PolygonsCustomPainter extends CustomPainter {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각각이 부모 애니메이션 컨트롤러에 연결된 Tween이며 사용자 지정 곡선 및 시작 및 끝 값이 지정된 간격을 가진 Tween입니다. 우리의 Polygon 클래스를 활용하여 각 폴리곤 애니메이션이 시작할 때의 정규화된 값에 대한 게터를 생성할 수 있습니다. 이 값은 폴리곤의 레벨을 사용할 수 있으며, 이것은 폴리곤의 반복 중 위치입니다.
 
@@ -846,7 +1221,18 @@ for (int i = 0; i < polygons.length; i++) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 결과를 생성합니다:
 
@@ -865,7 +1251,18 @@ class Polygon {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래와 같이 변경하면 됩니다:
 
@@ -874,7 +1271,18 @@ class Polygon {
 
 ![image](https://miro.medium.com/v2/resize:fit:1400/1*Rnumw3KArbifnzZ1AaB7Ig.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -884,7 +1292,18 @@ class Polygon {
 
 ![image](https://miro.medium.com/v2/resize:fit:1400/1*z-O5nKpm4Wk3YEmxfLzKcA.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 링크
 

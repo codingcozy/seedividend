@@ -3,17 +3,13 @@ title: "플러터의 앞으로의 비전"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Whats next for Flutter"
 link: "https://medium.com/flutter/whats-next-for-flutter-b94ce089f49c"
 isUpdated: true
 ---
-
-
-
-
 
 ## 내로비에서 개최된 Flutter Forward 이벤트에서 우리의 비전을 제시합니다
 
@@ -23,7 +19,18 @@ Flutter는 모바일, 웹 및 데스크톱용 앱을 한 곳에서 개발할 수
 
 Flutter는 현재 70만 개 이상의 앱이 출시되면서 인기를 얻고 있습니다. 작은 스타트업부터 중요한 요구사항을 가진 기업까지 다양한 조직이 사용하고 있습니다. Google에서도 Flutter를 중요한 도구로 인식하고 있으며 Google Classroom 팀을 포함한 다양한 팀이 이를 활용하여 모바일 및 웹 사용자에게 고품질의 솔루션을 제공하고 있습니다. 또한 Google 광고, Google 지도, Google 페이, 그리고 Firebase를 비롯한 다른 개발 도구에서도 이를 지원하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 플러터의 첫 번째 릴리스는 안드로이드와 iOS에서 모바일 앱을 구축하는 UI 도구 세트를 제공했지만, 플러터 3에서는 Windows, macOS, Linux 및 웹에 대한 프로덕션 지원을 확대했습니다. 또한 임베디드 플랫폼이 플러터를 사용할 수 있도록 지원하고 있습니다. 그 위에 서, 이번 주에 우리는 최신 안정 버전인 플러터 3.7을 출시했는데, 이 버전은 iOS에 새로운 렌더링 엔진, Material 3 및 iOS 스타일 위젯을 위한 향상된 지원, 국제화를 위한 개선된 지원, 백그라운드 처리 개선, 그리고 개발자 도구 업데이트를 포함한 다양한 새로운 기능을 추가했습니다.
 
@@ -33,7 +40,18 @@ Flutter는 현재 70만 개 이상의 앱이 출시되면서 인기를 얻고 �
 
 ![다음플러터발전](/assets/img/WhatsnextforFlutter_0.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 혁신적인 그래픽 성능
 
@@ -43,7 +61,18 @@ Flutter Forward에서는 Impeller, Flutter의 차세대 렌더링 엔진에 대�
 
 Impeller는 부드러운 UI를 제공하는 것에 더해 특정 시나리오에서 성능을 극적으로 향상시킬 수 있습니다. 한 데모(아래 표시됨)는 이를 가장 잘 보여주는 예시입니다. 왼쪽은 현재 기본 렌더러를 사용하여 구축된 SVG 클리핑을 사용하는 플라워 앱입니다. 페이지를 아래로 스크롤하면 렌더링 속도가 느려져 프레임 예산보다 오랜 시간이 걸리고, 초당 7~10프레임의 프레임 속도를 보입니다. 오른쪽은 Impeller에서 실행 중인 동일한 앱을 보여주는데, 여기서는 60fps의 끊김없이 렌더링됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 초석부터 쌓는 장점 중 하나는 아키텍처가 새로운 사용 사례를 지원할 수 있다는 점입니다. 사용자 정의 셰이더를 지원하는 새로운 기능이 이미 플러터 위젯 계층과 원활히 통합되는 멋진 새로운 데모를 제공하고 있습니다. 여기서의 작업은 모바일 장치에만 국한되지 않습니다. 지금은 웹에서도 사용자 정의 셰이더를 초기 지원하고 있으며, 동일한 코드가 이제 iOS, Android 및 브라우저에서 하드웨어 가속화된 경험을 제공합니다.
 
@@ -53,7 +82,18 @@ Impeller는 부드러운 UI를 제공하는 것에 더해 특정 시나리오에
 
 3D 및 사용자 정의 셰이더를 추가하면 휴대용 UI 툴킷의 그래픽 성능이 새로운 수준으로 높아집니다. 이러한 새로운 기능을 활용할 때 귀하께서 어떤 일을 할지 매우 기대되어집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 웹 및 모바일을 위한 완벽한 통합
 
@@ -63,7 +103,18 @@ Impeller는 부드러운 UI를 제공하는 것에 더해 특정 시나리오에
 
 또한 js 패키지에 몇 가지 큰 변경을 가하고, JavaScript와 Dart 코드 간의 완벽한 상호 운용성을 제공합니다. js를 사용하면 Dart 코드에서 @JSExport 속성을 가진 함수를 어떤 함수에도 주석 처리하여 작성한 다음 JavaScript 코드에서 호출할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 두 가지 새로운 기능을 결합하면 Flutter를 웹에서 사용하는 새로운 흥미로운 시나리오가 열립니다. Flutter Forward에서 시연한 개념 증명 데모에서는 HTML 기반 웹 페이지에 임베드된 간단한 Flutter 앱을 볼 수 있습니다. CSS를 사용하여 애니메이션 회전 효과를 적용하고 있습니다. 회전하는 동안에도 Flutter 콘텐츠는 상호 작용 가능합니다. 데모에서는 HTML 버튼 및 JavaScript 이벤트 핸들러를 사용하여 Flutter 상태를 변경하거나 그 반대도 가능한 것을 보여줍니다. 이 작업이 완료되면 Flutter를 사용하여 기존 웹 앱에 상호 작용성을 추가하는 새로운 기회가 열릴 것으로 기대됩니다.
 
@@ -73,7 +124,18 @@ Impeller는 부드러운 UI를 제공하는 것에 더해 특정 시나리오에
 
 지금은 라이브러리를 직접 호출할 수 있는 시스템 상호 운용성에 대한 새로운 접근 방식을 개발하고 있습니다. iOS에서는 C 상호 운용성을 위해 FFI 작업을 기반으로하며, Swift 및 Objective-C 라이브러리를 지원합니다. Android에서는 Kotlin으로 작성된 Jetpack 라이브러리로 이어지는 JNI를 사용합니다. 새로운 명령을 통해 Dart는 자동으로 크로스 언어 상호 운용성을 위한 바인딩을 생성하고 데이터 클래스를 적절하게 변환합니다. 이 작업이 완료되면, Flutter 개발자가 플러그인을 사용하거나 다른 API 구문을 학습할 필요 없이 새로운 Jetpack 또는 iOS 라이브러리를 호출할 수 있도록 해주며, 플러그인 작성자의 작업을 크게 용이하게 할 것으로 기대됩니다. 자세한 내용은 샘플을 확인해보세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 새로운 아키텍처에 대한 초기 작업
 
@@ -83,7 +145,18 @@ WebAssembly는 플랫폼 중립적 이진 명령어 형식으로 성숙도가 �
 
 또 다른 눈길을 끌고 있는 플랫폼 아키텍처는 RISC-V로, 널리 사용될 수 있도록 설계된 오픈 표준 명령 집합 아키텍처(ISA)입니다. 안드로이드 팀이 최근 RISC-V 지원에 관한 발표를 하였으며, 저희도 마찬가지로 Flutter가 RISC-V 장치에서 작동할 수 있도록 지원하는 내용을 발표하는 것을 기쁘게 여기고 있습니다. 제작용 RISC-V 하드웨어는 아직 초기 단계에 있지만, Flutter Forward에서는 리눅스를 실행하는 패키지형 터미널인 ClockworkPi DevTerm Kit R-01에서 현재까지 진행된 작업을 소개했습니다. Flutter가 다양한 필요에 대한 강력한 UI 툴킷을 제공할 수 있는 임베디드 시나리오에서 특히 관심을 끌 것으로 기대됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![WhatsnextforFlutter_3](/assets/img/WhatsnextforFlutter_3.png)
 
@@ -93,7 +166,18 @@ WebAssembly는 플랫폼 중립적 이진 명령어 형식으로 성숙도가 �
 
 Flutter Forward에서는 언어의 적정진화에 대한 우리의 헌신을 보여주는 일부 주요한 새로운 Dart 언어 기능 중 일부를 예고하고 있습니다. 개발 채널에서는 레코드(record)와 패턴(patterns) 같이 특히 잘 동작하는 두 가지 새로운 향상 기능에 대한 초기 지원이 이제 가능합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![WhatsnextforFlutter_4.png](/assets/img/WhatsnextforFlutter_4.png)
 
@@ -103,7 +187,18 @@ Flutter Forward에서는 언어의 적정진화에 대한 우리의 헌신을 �
 
 # 함께 앞으로 나아가요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 플러터의 발전 방향에 대해 갖고 있는 열정을 함께 나누기를 희망합니다. 우리는 핵심 개발자 경험에 대한 투자를 계속하면서 플러터를 통해 더욱 강력한 경험을 만들 수 있도록 기초적인 개선을 이어가고 있습니다.
 
@@ -113,6 +208,17 @@ Flutter Forward에서는 언어의 적정진화에 대한 우리의 헌신을 �
 
 우리 자체 개발 주제를 넘어, Flutter 생태계가 계속 확장되고 있다는 사실이 기쁩니다. FlutterFlow는 네이티브 모바일 애플리케이션을 개발하기 위한 로우코드 빌더이며, Widgetbook은 디자이너와 개발자가 사용자 인터페이스 개발에 협업할 수 있는 유연한 도구를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막으로 케냐를 방문하고 현지 개발자들의 기업가 정신과 재능을 보게 되어 정말 멋졌습니다. 아프리카의 플러터 커뮤니티의 활기는 특별합니다. 플러터 케냐 사용자 그룹만 해도 1,000명 이상의 개발자가 모여 있습니다. 그리고 아프리카 전역의 개발자들이 빠르게 성장하는 앱 시장에 참여할 수 있는 새로운 기회를 제공할 수 있다는 점이 기쁩니다. Klasha는 플러터를 활용하여 빠르게 시장에 진출하고 현지 문제를 해결하는 이러한 약속의 좋은 예입니다. 이곳에서 그들의 플러터 경험을 담은 비디오가 있습니다:

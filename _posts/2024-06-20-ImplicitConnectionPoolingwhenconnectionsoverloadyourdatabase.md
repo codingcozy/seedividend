@@ -3,16 +3,13 @@ title: "데이터베이스에 연결이 과부하될 때 암시적 연결 풀링
 description: ""
 coverImage: "/assets/img/2024-06-20-ImplicitConnectionPoolingwhenconnectionsoverloadyourdatabase_0.png"
 date: 2024-06-20 01:44
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-ImplicitConnectionPoolingwhenconnectionsoverloadyourdatabase_0.png
 tag: Tech
 originalTitle: "Implicit Connection Pooling when connections overload your database"
 link: "https://medium.com/@cjones-oracle/implicit-connection-pooling-when-connections-overload-your-database-3fe7c59acae2"
 isUpdated: true
 ---
-
-
-
 
 긴 실행 앱에서 앱 수명 동안 데이터베이스 연결을 열어 두면 연결이 자주 유휴 상태이고 SQL 문을 실행하는 데 사용되지 않을 가능성이 높습니다. 그러나 이는 연결의 서버 프로세스와 세션 메모리를 데이터베이스 호스트에서 유지하며 결국 연결할 수 있는 다른 사용자 수를 제한합니다. Oracle 애플리케이션 연결 풀을 사용하여 재아키텍처링하는 것이 불가능할 때는 간단한 연결 문자열 변경을 통해 Oracle Database 23ai의 "암시적 연결 풀링"을 사용하여 데이터베이스 호스트 리소스를 공유할 수 있습니다. 이를 통해 필요한 메모리가 줄어들고 데이터베이스가 확장 가능해집니다.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 다음 예제는 긴 실행 애플리케이션이 종료될 때만 연결 해제 호출이 발생하는 점에서 다릅니다. 순수 DRCP는 도저히 도움이 되지 않습니다. 왜냐하면 데이터베이스 서버 프로세스를 재사용할 때 "경계"인 연결 사용이 없기 때문입니다. 다행히도 Oracle Database 23ai의 "암시적 연결 풀링"이 이를 해결해 줄 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데모를 살펴보겠습니다. 다음 간단한 Python 앱인 long_run.py은 연결을 열고 루프를 실행합니다. 각 반복에서는 쿼리가 실행되며 쿼리 사이에 사용자 "생각 시간"을 모방하는 sleep이 존재합니다. 앱이 종료될 때 연결이 닫힙니다 (with context 블록 끝에서 처리됨). 이는 SQL 문을 실행하지 않을 때도 연결을 유지하는 장기 실행 앱을 모방합니다:
 
@@ -67,7 +75,18 @@ with oracledb.connect(
 User01 sid-ser 407-62786 at time 2024-06-11 20:29:34.632666
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 연결 문자열은 localhost/orclpdb1과 같이 간단한 형태입니다. DRCP는 사용되지 않았습니다.
 
@@ -114,7 +133,18 @@ if __name__ == "__main__":
 
 현재 구현된 대로, 각 long_run.py 프로세스는 5개의 쿼리를 실행하고 각 쿼리 사이에 5초의 슬립 시간을 갖습니다. (실제로는 애플리케이션에서 훨씬 오랫동안 실행될 수 있습니다). 오버헤드, 연결 및 문 실행을 추가하면 총 예상 소요 시간은 25초보다 약간 더 걸릴 것으로 예상됩니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 $ python3 runner.py
@@ -142,8 +172,18 @@ Time 26.85 seconds
 
 암시적 연결 풀링은 데이터베이스 서버 프로세스 및 세션 메모리를 공유하기 위해 데이터베이스 주거 연결 풀링을 활용하는 Oracle Database 23ai의 기능입니다. 이는 python-oracledb, node-oracledb, JDBC를 포함한 인기 있는 Oracle Database 드라이버에서 지원됩니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Implicit Connection Pooling은 데이터베이스 작업을 수행하지 않을 때 연결을 보유하는 응용 프로그램에 적합합니다. 이에는 데이터베이스와의 연결을 풀의 수명 동안 열어둔 채 자체 연결 풀 솔루션을 구현하는 응용 프로그램이 포함됩니다.
 
@@ -153,7 +193,18 @@ Implicit Connection Pooling은 순수 DRCP와 다릅니다. 순수 DRCP에서는
 
 long_run.py는 한 번의 open/close 쌍만 갖고 있으므로(Implicit Connection Pooling의 이상적인 대상입니다. 데이터베이스에서 DRCP를 시작하고, 연결 문자열을 DRCP 풀 서버 사용하도록 변경하고, 연결 문자열에 POOL_BOUNDARY 매개변수를 추가 설정하는 것만으로 구현 가능합니다. 응용 프로그램 코드를 수정할 필요가 없습니다. 데모를 다시 실행하면 결과가 출력됩니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 $ python3 runner.py
@@ -221,14 +272,23 @@ User02 sid-ser 399-25678 at time 2024-06-11 20:28:46.830118
 
 If you analyze the output, you can see that in this run, only three servers are used for all the queries being executed. The session identifier/serial number pairs are:
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-152-55977
-277-27334
-399-25678
+152 - 55977;
+277 - 27334;
+399 - 25678;
 ```
 
 이는 암시적 연결 풀링 없이 필요한 서버가 열 개보다 훨씬 적습니다. 절대 결과는 타이밍과 같은 요소에 따라 다를 수 있습니다.
@@ -237,8 +297,18 @@ If you analyze the output, you can see that in this run, only three servers are 
 
 # 암시적 연결 풀링 구성하기
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 DRCP는 암시적 연결 풀링에서 사용하는 데이터베이스 서버 프로세스의 구성 가능한 풀을 제공합니다. DRCP는 데이터베이스에서 활성화, 모니터링 및 조정되어야 하며, 기술 브리프 'Database Resident Connection Pooling으로 극한의 Oracle 데이터베이스 연결 확장성 실현'을 참조하십시오.
 
@@ -249,7 +319,18 @@ POOL_BOUNDARY 매개변수에는 STATEMENT 또는 TRANSACTION 값이 있을 수 
 - STATEMENT: 연결이 암시적으로 상태를 유지하지 않을 때, 즉 연결에 활성 커서가 없고(커서의 모든 행이 내부적으로 검색되었음), 활성 트랜잭션이 없음, 임시 테이블도 없고 임시 LOB도 없는 경우, 연결은 DRCP 연결 풀로 반환됨.
 - TRANSACTION: 응용 프로그램에서 커밋이나 롤백이 시작될 때 연결이 DRCP 연결 풀로 반환됩니다. 암시적 연결 풀링을 사용할 때는 "autocommit" 설정을 활성화하지 않는 것이 좋습니다. 만약 활성화한다면, 데이터베이스로 여러 번의 왕복이 필요한 데이터를 가져올 수 없게 되며, 스트리밍 LOB 데이터와 같은 데이터를 가져올 수 없게 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 보안을 위한 표준 DRCP 권장 사항에 따라, 연결 문자열에 POOL_CONNECTION_CLASS 매개변수를 추가하여 유사한 모든 애플리케이션에 동일한 값을 사용해야 합니다. 예를 들어:
 
@@ -259,7 +340,18 @@ Implicit Connection Pooling에서 사용하는 DRCP "순도"는 기본적으로 
 
 선택적으로 PL/SQL 패키지 ORA_CPOOL_STATE를 만들어 연결 세션 상태를 가져오고 재설정할 수 있는 프로시저를 만들 수 있습니다. 오라클 콜 인터페이스 문서를 참조하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 암시적 연결 풀링을 사용하지 말아야 하는 경우
 
@@ -269,7 +361,18 @@ Implicit Connection Pooling에서 사용하는 DRCP "순도"는 기본적으로 
 
 응용 프로그램 수준에서 암시적 연결 풀링이 맞지 않는 경우도 있습니다. 이 게시물의 예제에서 보았듯이 각각의 SQL 문에 대해 "사용자"가 본 세션 식별자와 일련 번호는 해당 사용자 스크립트의 수명 동안 변할 수 있습니다. 그래서 귀하의 앱이 값이 변경되지 않는 것을 의존한다면, 암시적 연결 풀링이 적합하지 않을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여러 개의 커서를 동시에 사용하거나 LOB를 스트리밍할 때 TRANSACTION을 문 단위로 사용하는 것은 문제가 발생할 수 있는 적합한 예입니다. 이러한 시나리오에서는 어떤 어플리케이션 커밋이든 열린 커서를 무효화하거나 LOB 스트리밍을 방해할 수 있습니다.
 
@@ -279,7 +382,18 @@ Implicit Connection Pooling을 사용할 때 어플리케이션을 철저히 테
 
 Implicit Connection Pooling을 사용하면 연결을 오랫동안 유지하는 애플리케이션이 데이터베이스 서버 프로세스와 세션 메모리를 공유할 수 있습니다. 이는 데이터베이스 호스트의 메모리 부하를 줄이고 전체 시스템을 확장 가능하게 만듭니다. Implicit Connection Pooling은 단일 연결을 열거나 Oracle이 제공하는 애플리케이션 연결 풀을 사용하는 대신 자체 연결 풀링 솔루션을 구현하는 앱에 유용할 수 있습니다. 인기 있는 Oracle 데이터베이스 드라이버에서 지원됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 게시물은 암시적 연결 풀링이 DRCP를 사용하는 방법에 대해 논의했습니다. 또한 귀하의 시스템이 Oracle Connection Manager를 Traffic Director 모드로 사용하는 경우 PRCP를 사용할 수도 있습니다.
 

@@ -3,15 +3,13 @@ title: "ReactJS와 Firebase를 사용하여 사용자 로그인 및 가입 구�
 description: ""
 coverImage: "/assets/img/2024-05-01-ImplementingUserLoginandSignUpwithReactJSandFirebaseAComprehensiveGuide_0.png"
 date: 2024-05-01 17:51
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-01-ImplementingUserLoginandSignUpwithReactJSandFirebaseAComprehensiveGuide_0.png
 tag: Tech
 originalTitle: "Implementing User Login and SignUp with ReactJS and Firebase: A Comprehensive Guide"
 link: "https://medium.com/@Rushabh_/implementing-user-login-and-signup-with-reactjs-and-firebase-a-comprehensive-guide-7300bd33cb01"
 isUpdated: true
 ---
-
-
 
 <img src="/assets/img/2024-05-01-ImplementingUserLoginandSignUpwithReactJSandFirebaseAComprehensiveGuide_0.png" />
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 본문에서는 ReactJS와 Firebase를 사용하여 로그인 및 사용자 가입 기능을 구현하는 단계별 안내를 제공하며, Bootstrap의 유연성과 디자인 기능을 활용합니다. 이 튜토리얼을 완료하면 ReactJS 응용 프로그램의 사용자 경험을 향상시킬 수 있는 원활하고 안전한 사용자 인증 시스템을 만들기 위한 지식과 기술을 갖추게 될 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 튜토리얼을 통해 다음 주제를 다룰 예정입니다:
 
@@ -35,7 +44,18 @@ isUpdated: true
 
 # 1. ReactJS 프로젝트 설정 및 필요한 종속 항목 설치하기:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 구현 세부 사항에 들어가기 전에 ReactJS에 대해 기본적인 이해가 있고 ReactJS 프로젝트를 이미 설정한 것으로 가정한 이 기사를 읽으셔야 합니다. ReactJS에 익숙하지 않거나 프로젝트 설정에 대한 지침이 필요한 경우 이전 기사를 참고하는 것을 권장합니다.
 
@@ -43,7 +63,18 @@ ReactJS에서 로그인 및 사용자 가입 기능을 구현하려면 이 과�
 
 - Bootstrap: Bootstrap은 반응형이고 시각적으로 매력적인 사용자 인터페이스를 구축하기 위한 다양한 CSS와 JavaScript 컴포넌트를 제공하는 인기 있는 프론트엔드 프레임워크입니다. 응용 프로그램을 디자인하고 스타일을 쉽게할 수 있도록 도와주며 복잡한 CSS 스타일링에 시간을 할애하는 대신 기능에 집중할 수 있게 해줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트의 터미널이나 명령 프롬프트를 열고 ReactJS 프로젝트의 루트 디렉토리로 이동하세요. 다음 명령을 사용하여 npm(Node Package Manager)을 통해 Bootstrap을 설치해보세요:
 
@@ -57,7 +88,18 @@ Firebase: Firebase는 Firebase 인증을 포함한 다양한 서비스를 제공
 npm install firebase
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. react-bootstrap: react-bootstrap은 Bootstrap의 강력함과 ReactJS의 쉬운 사용성 및 유연성을 결합한 라이브러리입니다. 재사용 가능한 React 컴포넌트로 구성된 미리 만들어진 Bootstrap 컴포넌트를 제공하여 Bootstrap의 스타일링 기능을 ReactJS 애플리케이션에 원활하게 통합할 수 있습니다.
 
@@ -71,7 +113,18 @@ npm install react-bootstrap
 npm install react-google-button
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 5. react-router-dom: react-router-dom은 ReactJS 애플리케이션에서 라우팅 기능을 활성화하는 패키지입니다. 이를 사용하면 애플리케이션의 각 페이지에 대한 다른 경로를 정의하여 로그인 페이지, 가입 페이지 및 사용자 대시 보드와 같은 서로 다른 뷰 간에 원할하게 이동할 수 있습니다.
 
@@ -85,7 +138,18 @@ npm install react-router-dom
 npm install web-vitals
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 패키지를 설치하고 활용하면 강력한 로그인 및 사용자 가입 시스템을 구현하는 데 필요한 도구를 갖게 됩니다.
 
@@ -95,7 +159,18 @@ ReactJS 애플리케이션을 위한 Firebase 프로젝트를 만들고 Firebase
 
 - Firebase 프로젝트 생성:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Firebase 콘솔(https://console.firebase.google.com/)로 이동해서 Google 계정으로 로그인해주세요.
 - "프로젝트 추가" 버튼을 클릭하여 새 Firebase 프로젝트를 만드세요.
@@ -111,7 +186,18 @@ ReactJS 애플리케이션을 위한 Firebase 프로젝트를 만들고 Firebase
 
 3. Firebase 구성 세부정보 획득:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Firebase 프로젝트 대시보드에서 왼쪽 상단에있는 "프로젝트 개요" 옆에 있는 "프로젝트 설정" 기어 아이콘을 클릭합니다.
 - "일반" 탭에서 "앱" 섹션으로 스크롤하고 프로젝트에 새 웹 앱을 추가하려면 "/" 아이콘을 클릭합니다.
@@ -142,7 +228,18 @@ export const auth = getAuth(app);
 export default app;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 3. 컨텍스트 API 구축:
 
@@ -152,7 +249,18 @@ ReactJS에서는 컨텍스트 API를 사용하여 컴포넌트 트리를 통해 
 
 - 컨텍스트 생성: (UserAuthContext.js)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const userAuthContext = createContext();
@@ -178,13 +286,21 @@ export function UserAuthContextProvider({ children }) {
 
 3. App을 Provider로 감싸기: (App.js)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-<UserAuthContextProvider>
-           내 앱
-</UserAuthContextProvider>
+<UserAuthContextProvider>내 앱</UserAuthContextProvider>
 ```
 
 컨텍스트 프로바이더는 여러 컴포넌트에서 필요로 하는 데이터가 있고 props를 수동으로 전달하는 것을 원치 않을 때 유용합니다. 데이터 공유를 간소화하고 코드베이스를 유지보수 가능하고 확장 가능하게 만듭니다. 그러나 컨텍스트를 과도하게 사용하면 복잡하고 관리하기 어려운 코드로 이어질 수 있습니다.
@@ -193,23 +309,33 @@ export function UserAuthContextProvider({ children }) {
 
 이제 LogIn, SignUp, LogOut 및 googleSignIn 함수를 만들겠습니다. 여기서는 firebase.js 파일에서 만든 Auth 인스턴스를 사용할 것입니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
- function logIn(email, password) {
-    return signInWithEmailAndPassword(auth, email, password);
-  }
-  function signUp(email, password) {
-    return createUserWithEmailAndPassword(auth, email, password);
-  }
-  function logOut() {
-    return signOut(auth);
-  }
-  function googleSignIn() {
-    const googleAuthProvider = new GoogleAuthProvider();
-    return signInWithPopup(auth, googleAuthProvider);
-  }
+function logIn(email, password) {
+  return signInWithEmailAndPassword(auth, email, password);
+}
+function signUp(email, password) {
+  return createUserWithEmailAndPassword(auth, email, password);
+}
+function logOut() {
+  return signOut(auth);
+}
+function googleSignIn() {
+  const googleAuthProvider = new GoogleAuthProvider();
+  return signInWithPopup(auth, googleAuthProvider);
+}
 ```
 
 onAuthStateChanged:
@@ -218,20 +344,30 @@ onAuthStateChanged:
 
 onAuthStateChanged 함수는 Firebase 인증 시스템에 옵저버를 등록하고 사용자의 인증 상태 변경을 듣습니다. 사용자가 로그인하거나 로그아웃하거나 인증 토큰이 만료될 때와 같이 사용자의 인증 상태가 변경될 때마다 콜백 함수를 트리거합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-  useEffect(() => {
-    const unsubscribe = onAuthStateChanged(auth, (currentuser) => {
-      console.log("인증 상태", currentuser);
-      setUser(currentuser);
-    });
+useEffect(() => {
+  const unsubscribe = onAuthStateChanged(auth, (currentuser) => {
+    console.log("인증 상태", currentuser);
+    setUser(currentuser);
+  });
 
-    return () => {
-      unsubscribe();
-    };
-  }, []);
+  return () => {
+    unsubscribe();
+  };
+}, []);
 ```
 
 # 5. 사용자 가입 작업중:
@@ -240,7 +376,18 @@ onAuthStateChanged 함수는 Firebase 인증 시스템에 옵저버를 등록하
 
 여기서 먼저 부트스트랩을 사용하여 간단한 폼 UI를 만들겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이메일과 비밀번호에 대한 값은 각각 이메일(email)과 비밀번호(password)로 설정할 것입니다.
 
@@ -284,7 +431,18 @@ const Signup = () => {
     };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 6. 유저 로그인 작업 중:
 
@@ -294,7 +452,18 @@ const Signup = () => {
 
 또한 Google 로그인을 위해 react-google-button을 사용하여 디자인할 예정입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <GoogleButton className="g-btn" type="dark" onClick={handleGoogleSignIn} />
@@ -316,7 +485,18 @@ const handleGoogleSignIn = async (e) => {
 
 ReactJS에서 보호된 라우트란 응용 프로그램의 경로 중 인증된 사용자만 액세스할 수있는 경로를 나타냅니다. 일부 응용 프로그램의 특정 부분에 대한 액세스를 제한하여 로그인에 성공한 사용자 만이 특정 페이지 또는 구성 요소를 볼 수 있도록합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ReactJS 애플리케이션에서 보호된 경로를 구현하는 방법에 대한 단계별 안내서가 있어요:
 
@@ -335,7 +515,18 @@ App.js에서 `Home /`을 보호된 경로로 설정할 거에요,
 />
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 PretectedRoute.js 파일에서는 사용자가 로그인했는지 여부를 확인하고, 로그인되지 않은 경우 로그인 페이지로 리디렉션합니다.
 
@@ -355,7 +546,18 @@ const ProtectedRoute = ({ children }) => {
 
 이 기사가 ReactJS 애플리케이션에서 견고한 로그인 및 사용자 가입 기능을 구현할 수 있는 지식과 자신감을 제공했기를 바랍니다. 여기서 제시된 단계를 따라가면 사용자의 전체 경험을 향상시키는 안전하고 사용자 친화적인 인증 시스템을 만들기 위한 준비가 충분히 갖춰집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 행복한 코딩과 ReactJS 앱을 Firebase와 Bootstrap으로 멋지게 만드는 여정에 행운을 빕니다!
 

@@ -3,17 +3,13 @@ title: "getStaticProps, getServersideProps 적절한 사용 방법"
 description: "Nextjs의 client-side props와 server-side props를 어떤 상황에 사용해야하는지 정리합니다"
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # getStaticProps, getServersideProps 적절한 사용 방법
 
@@ -21,9 +17,18 @@ getStaticProps, getServerSideProps, getStaticPaths를 각각 어느 상황에 �
 
 세가지 시나리오에 따라서 적절한 상황에 맞추어서 사용할 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1. 외부 데이터가 필요 없는 경우
 
@@ -54,9 +59,18 @@ export default function Blog({ posts }) {
 }
 ```
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위와 같이 **렌더링 되기 전에 API요청으로 원하는 데이터(posts)를 불러와야하는 경우에 `getStaticProps` 를 사용합니다.**
 
@@ -85,7 +99,18 @@ export async function getStaticProps() {
 세번째로는 페이지의 경로(path)가 외부 데이터에 의존하는 경우인데요.
 예를 들어 블로그 포스트들을 API요청을 통해 불러오고 해당 블로그 포스팅 id로 path를 결정해야하는 경우에 아래와 같이 `getStaticPaths`를 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```tsx
 // 이 함수는 페이지 빌드시에 호출됩니다.
@@ -118,7 +143,16 @@ export async function getStaticPaths() {
 
 
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 export async function getStaticProps({ params }) {
   // params에는 post의 id를 포함하고 있기 때문에 아래와 같이 포스트 정보를 요청 받을 수 있습니다.
@@ -156,7 +190,18 @@ export async function getServerSideProps() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용방법은 위와 같이 기존 Static 함수들과 동일합니다.
 차이점은 아래와 같습니다.

@@ -3,15 +3,13 @@ title: "CSS로 반응형 글자 제어하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-ControlledResponsiveTypeUsingCSS_0.png"
 date: 2024-07-09 08:56
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-ControlledResponsiveTypeUsingCSS_0.png
 tag: Tech
 originalTitle: "Controlled Responsive Type Using CSS"
 link: "https://medium.com/@carlos-ruiz-web/controlled-responsive-type-using-css-ab53a00f5322"
 isUpdated: true
 ---
-
-
 
 <img src="/assets/img/2024-07-09-ControlledResponsiveTypeUsingCSS_0.png" />
 
@@ -24,7 +22,18 @@ isUpdated: true
 하한 값 = 300px
 상한 값 = 1440px
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 휴대폰 중심 용어를 사용하면, 가장 작은 글꼴 크기를 14px로 설정하고, 300px 화면 너비부터 글꼴 크기가 점진적으로 증가하여 1440px 화면 너비에 도달하면 글꼴 크기가 68px로 유지됩니다.
 
@@ -36,7 +45,18 @@ isUpdated: true
 
 다음은 CSS입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .responsive-type-class {

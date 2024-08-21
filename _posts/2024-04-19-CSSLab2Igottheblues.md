@@ -3,17 +3,13 @@ title: "CSS brightness로 명도 조절하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: " CSS Lab 2 I got the blues"
 link: "https://medium.com/@mina-pecheux/css-lab-2-i-got-the-blues-6bb678319ce3"
 isUpdated: true
 ---
-
-
-
-
 
 웹 개발자나 웹 디자이너로서, 당신의 일 중 큰 부분은 사이트나 앱 인터페이스를 멋지고 직관적으로 만드는 것입니다. 그 일을 하기 위한 다양한 기술들이 있지만, 그 중 가장 중요한 것은 물론 색상 선택입니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 이것은 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 MDN 웹 문서에서 직접 제공하는 기능 개요입니다:
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 이 양은 백분율 (예: 40%)로 작성하거나 0-1 비율 (예: 0.4)로 작성할 수 있습니다. 100% 미만의 값은 색을 어둡게하고, 100% 초과의 값은 더 밝게합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 브라우저 호환성
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 # 간단한 예제
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 기본 색상을 가진 카드가 있고 비슷한 파란색 조토인 변형을 만들고 싶다면:
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 물론 정말 멋진 건, 우리의 .block 클래스에서 주요 색상을 변경함으로써, 모든 다른 요소들이 논리적인 방식으로 즉시 업데이트된다는 것이죠:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 왜 사용해야 하는가
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 그런데, 웹 접근성에 대한 또 다른 빠른 CSS 트릭을 배우고 싶다면, 저가 color-contrast() 명령어에 대해 다룬 다른 기사도 읽어보세요 :)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 색 팔레트를 효율적으로 활용하면 디자인 프로세스를 간소화할 수 있어요. 어디에 어떤 색을 사용할지 즉시 알 수 있고, 프로젝트 간 일관성도 높아집니다!
 

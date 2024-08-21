@@ -3,16 +3,13 @@ title: "제트팩 컴포즈에서 WebView 사용하기"
 description: ""
 coverImage: "/assets/img/2024-05-02-UsingWebViewinJetpackCompose_0.png"
 date: 2024-05-02 00:21
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-02-UsingWebViewinJetpackCompose_0.png
 tag: Tech
 originalTitle: "Using WebView in Jetpack Compose"
 link: "https://medium.com/@kevinnzou/using-webview-in-jetpack-compose-bbf5991cfd14"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-05-02-UsingWebViewinJetpackCompose_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 # 권한
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저 Android Manifest에 권한을 추가해야 합니다:
 
@@ -44,15 +52,26 @@ isUpdated: true
 
 그런 다음 웹 페이지를 표시하는 Composable 컴포넌트를 만들어야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 @Composable
 fun WebView(){
-  
+
     // URL을 포함한 문자열 선언
     val mUrl = "https://www.google.com"
-  
+
     // AndroidView 내에 WebView를 추가
     // 전체 화면 레이아웃
     AndroidView(factory = {
@@ -74,15 +93,26 @@ fun WebView(){
 
 특정 URL을 가로채야 할 때는 어떻게 할까요? View와 유사하게 WebViewClient를 사용자 정의하고 shouldOverrideUrlLoading 메서드를 재정의하면 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 @Composable
 fun WebView(){
-  
+
     // URL을 포함하는 문자열 선언
     val mUrl = "https://www.google.com"
-  
+
     // 전체 화면 레이아웃의 AndroidView 내부에 WebView 추가
     AndroidView(factory = {
         WebView(it).apply {
@@ -114,10 +144,10 @@ class CustomWebViewClient: WebViewClient(){
 ```java
 @Composable
 fun WebView(){
-  
+
     // URL을 포함하는 문자열 선언
     val mUrl = "https://www.google.com"
-  
+
     // 전체 화면 레이아웃의 AndroidView 내부에 WebView 추가
     AndroidView(factory = {
         WebView(it).apply {
@@ -134,12 +164,23 @@ fun WebView(){
 
 class CustomWebChromeClient : WebChromeClient() {
     override fun onCloseWindow(window: WebView?) {}
-    
+
     override fun onConsoleMessage(consoleMessage: ConsoleMessage?): Boolean {}
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 라이브러리
 
@@ -149,7 +190,18 @@ class CustomWebChromeClient : WebChromeClient() {
 
 다행히도 이미 이러한 기능을 제공하는 라이브러리가 있었습니다. Compose 내에서 직접 사용할 수있는 WebView 구성 요소를 제공하여 개발자가 WebView의 캡슐화 논리를 직접 작성할 필요가 없게합니다. 또한 웹 페이지 속성을 가져 오고 로딩 상태를 수신하는 기능과 같은 기능을 제공하여, 모두 사용 가능합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기본적인 사용법은 아래와 같이 매우 간단합니다. URL을 로드하고 표시하는 데 사용할 수 있습니다.
 

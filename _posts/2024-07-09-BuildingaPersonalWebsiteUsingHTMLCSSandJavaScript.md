@@ -3,15 +3,13 @@ title: "HTML, CSS, JavaScript로 개인 웹사이트 제작하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-BuildingaPersonalWebsiteUsingHTMLCSSandJavaScript_0.png"
 date: 2024-07-09 14:06
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-BuildingaPersonalWebsiteUsingHTMLCSSandJavaScript_0.png
 tag: Tech
 originalTitle: "Building a Personal Website Using HTML, CSS, and JavaScript"
 link: "https://medium.com/@learntocodetoday/building-a-personal-website-using-html-css-and-javascript-b6c1ffa16019"
 isUpdated: true
 ---
-
-
 
 ![이미지](/assets/img/2024-07-09-BuildingaPersonalWebsiteUsingHTMLCSSandJavaScript_0.png)
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 코딩에 들어가기 전에 프로젝트를 위한 폴더를 생성하고 필요한 파일들을 설정해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 프로젝트 폴더 생성: 관련성 있는 이름으로 만들어주세요, 예를 들면 personal_website으로 지정해보세요.
 - HTML, CSS, JavaScript 파일 생성: 프로젝트 폴더 안에 세 가지 파일을 만들어보세요:
@@ -34,7 +43,18 @@ isUpdated: true
 
 HTML (하이퍼텍스트 마크업 언어)는 웹사이트 콘텐츠를 구조화하는 데 사용됩니다. 여기 index.html 파일의 기본 구조가 있습니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # My Personal Website
 

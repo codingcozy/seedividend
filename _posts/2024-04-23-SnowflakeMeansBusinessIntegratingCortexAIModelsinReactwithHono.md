@@ -3,17 +3,13 @@ title: "React에서 Hono와 함께 Cortex AI 모델 통합하기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Snowflake Means Business Integrating Cortex AI Models in React with Hono"
 link: "https://medium.com/@kaarthikandavar/snowflake-means-business-integrating-cortex-ai-models-in-react-with-hono-1cf0fcbf2024"
 isUpdated: true
 ---
-
-
-
-
 
 Snowflake Cortex는 Snowflake의 AI에 대한 큰 기반으로, 응용 프로그램에 통합할 수 있는 다양한 LLM 모델 및 기능을 제공하여 새로운 가능성을 탐험할 수 있습니다.
 
@@ -23,7 +19,18 @@ Snowflake Cortex는 Snowflake의 AI에 대한 큰 기반으로, 응용 프로그
 
 웹 사이트로 바로 이동하려면 — [https://ohno-1sq.pages.dev](https://ohno-1sq.pages.dev)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 코드는 https://github.com/kaarthik108/ohno
 
@@ -33,7 +40,18 @@ HonoX는 전체 스택 웹 사이트 또는 웹 API를 만드는 데 사용할 �
 
 ## 왜 snowflake Cortex를 선택해야 하나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Snowflake Cortex는 기존 데이터 웨어하우스 내에서 언어 모델을 활용할 수 있는 안전하고 원활한 방법을 제공합니다. Snowflake Cortex 기능은 Snowflake 환경 내에서 직접 실행되므로 추가 인프라를 관리할 필요가 없으며, 서버리스 및 개인 정보 보호에 초점을 맞춘 솔루션을 제공합니다.
 
@@ -43,7 +61,18 @@ Snowflake Cortex는 기존 데이터 웨어하우스 내에서 언어 모델을 
 
 백엔드 API를 설정하고 이를 localhost에 배포하는 방법을 살펴볼 것입니다 😜 (맞아, 제대로 읽으셨어요).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 이제 우리는 백엔드에서 결과를 가져와 표시하기 위한 프론트엔드 채팅 인터페이스를 만들 것입니다.
 
@@ -57,7 +86,18 @@ Snowflake Cortex는 기존 데이터 웨어하우스 내에서 언어 모델을 
 
 ## 백엔드 API 설정하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리 API는 인증을 처리하고 Snowflake 연결을 설정하며 쿼리를 실행할 것입니다. Cortex 플랫폼과 상호 작용하기 위해 Snowflake Node.js SDK를 사용할 것입니다.
 
@@ -71,7 +111,18 @@ export const POST = createRoute(async (c) => {
 
 2. npm을 통해 snowflake-sdk를 설치한 다음 아래 코드를 사용하여 연결을 만드십시오. wrangler.toml 또는 .env.local에 env를 추가해야 합니다 (다른 위치에 배포하는 경우)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 -- snowflake 연결 생성
@@ -138,7 +189,18 @@ export const POST = createRoute(async (c) => {
 
 이제 AWS Lambda 또는 Vercel과 같은 nodejs 런타임에서 배포할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 여기서는 간단함을 위해 로컬호스트에 배포하고 클라우드플레어 터널을 사용하여 인터넷에 노출시킬 것입니다 (일부 차가운 시작을 줄이기 위해서)
 
@@ -149,7 +211,18 @@ export const POST = createRoute(async (c) => {
 
 이제 여러분이 API를 호스팅했고(네, 호스팅했지만 호스팅하지 않았습니다) 준비가 끝났습니다 🚀
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 거의 다 왔어요. 백엔드는 준비됐어요.
 
@@ -159,7 +232,18 @@ export const POST = createRoute(async (c) => {
 
 다음은 백엔드 API로 쿼리를 보내는 방법을 보여주는 코드 조각이에요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - API에서 결과를 가져 오는 도우미 함수를 만들어 보세요.
 
@@ -253,7 +337,18 @@ async function handleSnowflakeSubmit(inputMessage: string) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 폼 요소: 버튼을 클릭했을 때 위에서 생성한 submit 함수를 호출하는 곳입니다.
 
@@ -300,11 +395,7 @@ async function handleSnowflakeSubmit(inputMessage: string) {
           )}
           aria-label="메시지 전송"
         >
-          {isLoading ? (
-            <Loader2 className="animate-spin" />
-          ) : (
-            <CornerDownLeft size={16} className="-ml-px" />
-          )}{" "}
+          {isLoading ? <Loader2 className="animate-spin" /> : <CornerDownLeft size={16} className="-ml-px" />}{" "}
         </button>
       </div>
     </div>
@@ -325,7 +416,18 @@ async function handleSnowflakeSubmit(inputMessage: string) {
               </div>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 Snowflake의 Cortex 위에 구축된 ChatGPT와 비슷한 웹사이트를 갖고 있어요.
 
@@ -336,7 +438,18 @@ async function handleSnowflakeSubmit(inputMessage: string) {
 
 더 많은 통찰력 있는 콘텐츠를 위해 팔로우하고 저와 함께 오픈소스 세계를 탐험해보세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - k01.dev
 - Medium: Kaarthikandavar

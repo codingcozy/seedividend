@@ -3,17 +3,13 @@ title: "리액트에서 이벤트 처리하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How Events Work in React"
 link: "https://medium.com/stackademic/how-events-work-in-react-795dc02b23b6"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/HowEventsWorkinReact_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 그럼 지금, 세 개의 버튼 중 하나를 클릭하는 등 어떤 이벤트가 발생한다고 가정해봅시다. 그러면 브라우저에서 어떤 일이 일어날지 살펴보겠습니다. 이벤트가 발생하면 곧바로 새로운 이벤트 객체가 생성됩니다. 그러나 이 객체는 클릭이 실제로 발생한 곳에 생성되지 않습니다. 대신, 객체는 문서의 루트에서 생성됩니다. 즉, 트리의 맨 위에서 생성됩니다. 거기서 이벤트는 "캡처링" 단계 동안 전체 트리를 따라 아래로 이동합니다. 그리고 그 이벤트는 대상 요소에 도달하는데, 대상 요소는 사실 이벤트가 실제로 처음으로 트리거된 요소입니다. 따라서 대상에서이 이벤트를 처리하기 위해 일반적으로 이 요소에 이벤트 핸들러 함수를 배치할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1400/1*7478CY5Lj47cZY45VAOCeQ.gif)
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 두 번째 중요한 점은 기본적으로 이벤트 핸들러가 대상 요소뿐만 아니라 버블링 단계에서도 이벤트를 수신한다는 것입니다. 그러면 이 두 가지를 결합하면 부모 요소의 모든 이벤트 핸들러가 대상 요소와 같은 유형의 이벤트를 수신하는 동안 버블링 단계에서 실행된다는 것을 의미합니다. 예를 들어, 헤더 요소에 다른 클릭 이벤트 핸들러를 추가하면이 전체 프로세스 중에 클릭이 발생할 때 대상 및 헤더 요소의 핸들러가 모두 실행됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![HowEventsWorkinReact_3](/assets/img/HowEventsWorkinReact_3.png)
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 이렇게 이벤트가 버블링되는 사실은 개발자가 이벤트 위임(Event Delegation)이라는 매우 일반적이고 유용한 기술을 구현할 수 있게 해줍니다. 이벤트 위임을 사용하면 여러 요소의 이벤트를 한 곳인 부모 요소 중 하나에서 처리할 수 있습니다. 예를 들어 세 개의 버튼 대신 1,000개의 버튼이 있다고 상상해보세요. 이들 모두에게 이벤트를 처리하려면 각 버튼마다 고유한 이벤트 핸들러 함수를 가지고 있어야 하는데, 이는 앱의 성능과 메모리 사용에 문제가 될 수 있습니다. 그 대신 이벤트 위임을 사용하면 이 버튼들의 첫 번째 부모 요소에 하나의 핸들러 함수만 추가하면 됩니다. 그런 다음 버튼 중 하나에서 클릭이 발생하면, 이벤트는 이 예제에서 옵션 div까지 버블링되고, 그 때 우리는 버튼 중 하나에서 이벤트가 발생했는지 확인하기 위해 이벤트 대상 속성을 사용할 수 있습니다. 그리고 그렇게 하면 중앙 이벤트 핸들러 함수에서 이벤트를 처리할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 리액트 앱에서는 이 기술을 사용하는 것이 실제로 그리 흔하지 않지만, 만약 이게 리액트에서 실제로 중요하지 않다면, 왜 우리가 심지어 이에 대해 이야기하고 있는지 궁금하게 될 수도 있어요.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 그래서 동일한 DOM 트리를 고려해보고, 다시 한 번 버튼 중 하나 또는 다른 DOM 요소에 이벤트 핸들러를 추가하고 싶다고 가정해 봅시다. 리액트 코드에서 이것이 어떻게 보일지 살펴봅시다. 그래서 우리는 간단히 onClick 프롭을 사용하여 클릭 이벤트를 기다리고, 그에 대해 함수를 전달합니다. 정말 쉬운 거죠? 이제, 리액트가 실제로 이러한 이벤트 핸들러를 내부적으로 등록하는 방법에 대해 생각해보면, 리액트가 엘리먼트를 선택하고, 그 엘리먼트에 이벤트 처리기를 추가할 것으로 생각할지도 모릅니다. 그렇기 때문에 이것은 꽤 논리적으로 들릴 수 있어요. 그러나 사실은 리액트가 내부적으로 이렇게 처리하지는 않는단 말이죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/HowEventsWorkinReact_6.png)
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1400/1*Vz0IKlu2zRyNciihY_1WMg.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서 다시 한 번 버튼을 클릭하면 새로운 이벤트 객체가 발생되고, 그 후 DOM 트리를 따라 이벤트가 대상 요소에 도달할 때까지 이동합니다. 그런 다음 이벤트는 다시 위로 버블링됩니다. 그리고 React가 모든 핸들러를 등록한 루트 컨테이너에 이벤트가 도달하면 해당 이벤트는 실제로 이벤트와 대상 요소에 일치하는 핸들러에 따라 처리됩니다. 마침내 이 모든 작업이 완료되면 이벤트는 물론 사라질 때까지 계속해서 위로 버블링됩니다. 이 과정은 모두 자동적으로 처리되며 우리의 React 앱을 조금 더 성능 향상시키기 위해 눈에 보이지 않게 발생하는 것입니다.
 
@@ -73,7 +124,18 @@ isUpdated: true
 
 자, 그래서 우리는 이벤트와 이벤트 객체에 대해 많이 이야기했으니, 이제 이 이벤트 객체들이 실제로 어떻게 작동하는지 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![HowEventsWorkinReact_9](/assets/img/HowEventsWorkinReact_9.png)
 
@@ -83,7 +145,18 @@ isUpdated: true
 
 그래서 바닐라 JavaScript에서는 간단히 원시 DOM 이벤트 객체에 액세스할 수 있지만, React에서는 Synthetic 이벤트라는 것을 제공합니다. Synthetic 이벤트는 기본적으로 DOM의 원시 이벤트 객체 주위에 얇은 래퍼이며, 래퍼란 간단히 말해 Synthetic 이벤트가 원시 이벤트 객체와 매우 유사하지만 그 위에 일부 기능을 추가하거나 변경한다는 것입니다. 따라서 이러한 Synthetic 이벤트는 원시 이벤트 객체와 동일한 인터페이스를 갖고 있으며, 중요한 메소드 중 하나인 stopPropagation 및 preventDefault를 포함합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 합성 이벤트가 특별한 점이 뭘까요? 리액트 팀이 그것들을 구현하기로 결정한 이유 중 하나는 브라우저의 일관성 문제를 해결하고, 모든 브라우저에서 이벤트가 완전히 동일한 방식으로 작동하도록 만든다는 점입니다. 리액트 팀은 또한 모든 중요한 합성 이벤트가 실제로 버블링되도록 결정했습니다. 포커스, 블러 및 변경 이벤트와 같은 이벤트는 일반적으로 버블링되지 않지만 해당 이벤트들은 리액트에서는 버블링됩니다. 여기서 유일한 예외는 스크롤 이벤트인데, 리액트에서도 버블링되지 않습니다.
 
@@ -93,7 +166,18 @@ isUpdated: true
 
 이제 순수 자바스크립트에서 브라우저의 기본 동작을 중지하려면 이벤트 핸들러 함수에서 false를 반환할 수 있습니다. 예를 들어, 양식을 제출할 때 브라우저가 자동으로 페이지를 다시로드하는 것이 대표적인 예입니다. 그러나 리액트 이벤트 핸들러에서 false를 반환하려고 하면 작동하지 않습니다. 따라서 리액트에서 브라우저의 기본 동작을 방지하는 유일한 방법은 합성 이벤트 객체에서 preventDefault를 호출하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막으로, 버블링 단계가 아닌 캡처링 단계에서 이벤트를 처리해야 하는 경우가 매우 드물지만, 그럴 때는 이벤트 핸들러 이름에 Capture를 달아주면 됩니다. 예를 들어 onClick 대신에 onClickCapture를 사용하면 됩니다. 하지만 실제로 이를 사용할 일은 거의 없을 것이므로, 그냥 머리 속 어딘가에 이 정보를 기억해 두세요.
 
@@ -103,7 +187,18 @@ isUpdated: true
 
 끝까지 읽어주셔서 감사합니다. 가기 전에:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 작가를 박수 치고 팔로우 해주세요! 👏
 - 팔로우하기 X | 링크드인 | 유튜브 | 디스코드

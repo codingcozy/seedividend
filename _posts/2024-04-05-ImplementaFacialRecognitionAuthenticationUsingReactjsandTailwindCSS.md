@@ -3,17 +3,13 @@ title: "React와 TailwindCSS로 얼굴 인식 인증 구현하기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Implement a Facial Recognition Authentication Using Reactjs and TailwindCSS"
 link: "https://medium.com/better-programming/replace-your-auth-system-with-facial-recognition-using-reactjs-and-tailwindcss-9af4898ab5a2"
 isUpdated: true
 ---
-
-
-
-
 
 ## 얼굴 승인 기능으로 앱 보안 강화하기
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 인공지능 및 기계 학습 기술의 발전으로 얼굴 인식이 쉽게 구현되고 매우 신뢰할 수 있어졌습니다. 요즘 대부분의 스마트폰은 기기 잠금을 해제하기 위해 광학 기반 얼굴 인식 기술을 사용합니다. 그러나 웹 개발 분야에서는 사용자를 인증할 수단으로 얼굴 인식을 채택하는 것을 볼 수 없습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 글에서는 전통적인 인증 시스템의 문제점, 이 문제를 얼굴 인식을 활용해 해결하는 방법 및 ReactJS와 TailwindCSS를 사용하여 동일한 시스템을 구현하는 단계별 가이드에 대해 논의하고 있어요.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 모든 이러한 문제를 해결하기 위해 oAuth가 등장했습니다. oAuth는 oAuth 제공 업체를 사용하여 웹 사이트에 가입하는 프로토콜이에요. 여러 웹사이트에서 'Google', 'Facebook', 'GitHub' 등을 통해 로그인할 수 있는 옵션을 볼 수 있어요. 이것이 oAuth의 예시에요. 사용자로서, 당신은 하나의 계정만 관리하고 다른 웹사이트에서 정보를 사용할 권한을 부여할 수 있습니다. 개발자로서, 당신은 oAuth 제공 업체가 올바른 정보를 제공할 것이라고 믿어야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최근에는 비밀번호 없는 로그인 또는 매직 링크 인증이 매우 인기가 있습니다. 이 시스템에서는 웹 사이트에 이메일 주소를 입력해야 합니다. 그런 다음 로그인 링크가 포함된 이메일을 받게 됩니다. 이 링크를 클릭하면 해당 웹 사이트에서 인증되어 가입됩니다. 이는 로그인하기 매우 쉬운 시스템으로, 비밀번호를 기억할 필요가 없습니다.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 인증 스택에서 이메일을 제거하기 위해 지문 인증 및 얼굴 인식과 같은 옵션이 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지문 인증의 문제는 특수 하드웨어가 필요하다는 것입니다. 대부분의 컴퓨터 하드웨어에는 지문 판독기가 기본으로 탑재되어 있지 않습니다. 디바이스 지문 판독기와 상호작용하기 위한 웹의 네이티브 표준 API가 없기 때문에, 지문 인증이 가까운 미래에 실현 가능할 것으로 보입니다.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 이 튜토리얼에서는 FaceIO 라이브러리를 사용하여 웹 애플리케이션에서 얼굴 인증을 실습합니다. 따라서 따라오려면 FaceIO의 무료 계정을 만드세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 테일윈드 CSS를 사용한 Reactjs 프로젝트 생성하기
 
@@ -65,7 +105,18 @@ npm create vite@latest my-project — — template react
 
 이제 터미널 프롬프트를 따라 프로젝트를 스캐폴드하십시오. 이 단계를 완료한 후, 즐겨 사용하는 코드 편집기에서이 프로젝트를 엽니다. 프로젝트 구조는 다음과 같아야합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .
@@ -92,7 +143,18 @@ npx tailwindcss init -p
 
 이제 tailwind.config.cjs 파일을 열고 프로젝트 소스 경로를 추가하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 src/App.css 파일 내에 tailwind CSS 지시문을 추가하세요.
 
@@ -102,7 +164,18 @@ src/App.css 파일 내에 tailwind CSS 지시문을 추가하세요.
 
 FaceIO의 멋진 점은 매우 쉽게 사용할 수 있는 JavaScript 라이브러리를 제공한다는 것입니다. 이 라이브러리에는 등록(enroll) 및 인증(authenticate)이라는 두 가지 주요 함수가 포함되어 있습니다. 그러나 이러한 함수에 대해 논의하기 전에 먼저 FaceIO 라이브러리를 React 애플리케이션에 링크해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트의 index.html 파일을 열고 FaceIO CDN을 프로젝트에 링크하세요.
 
@@ -112,7 +185,18 @@ faceIO 객체를 인스턴스화할 때 ID를 인수로 사용하는 것을 보�
 
 모든 설정이 완료되었으니 이제 FaceIO를 사용하여 사용자를 인증하는 데 집중해봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## FaceIO를 사용하여 새 사용자 등록하기
 
@@ -122,7 +206,18 @@ enroll 함수에는 2개의 별칭이 있습니다. enroll 대신 register 및 r
 
 이 함수를 브라우저에서 실행하면 faceIO 위젯이 시작됩니다. 처음에는 사용자의 얼굴을 스캔하는 데 동의를 요청하고, 그런 다음 웹캠 권한을 수락하도록 요청합니다. 모든 요구 사항이 충족되면 faceIO 위젯이 카메라를 열고 얼굴을 스캔합니다. 이렇게 하여 얼굴 데이터가 부동 소수점 수의 배열로 변환됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![ImplementaFacialRecognitionAuthenticationUsingReactjsandTailwindCSS_1](/assets/img/ImplementaFacialRecognitionAuthenticationUsingReactjsandTailwindCSS_1.png)
 
@@ -132,7 +227,18 @@ enroll 함수에는 2개의 별칭이 있습니다. enroll 대신 register 및 r
 
 이제 react 애플리케이션에 faceIO 등록을 추가해봅시다. 우리는 앱을 매우 간단하게 유지합니다. 따라서 'register'라는 버튼을 만들어서 누군가 그 버튼을 클릭하면, enroll 함수를 실행하여 새 사용자를 등록합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 레지스터 버튼을 추가하고 버튼 클릭 시 자바스크립트 핸들러를 추가한 후 App.jsx 파일은 다음과 같이 보입니다.
 
@@ -142,7 +248,18 @@ enroll 함수는 선택적 매개변수 객체만 허용합니다. 이 선택적
 
 payload 내부에서 사용자의 JSON 직렬화 가능한 고유 값도 추가할 수 있습니다. 이 예시에서는 사용자의 이메일을 payload로 추가했습니다. 나중에 사용자가 로그인할 때, FaceIO 반환 객체에서 이메일 payload에 액세스할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 FaceIO의 Enroll 함수는 프로미스를 반환합니다. 따라서 예제에서는 자바스크립트의 async/await 기능을 사용하고 있습니다. async/await를 선호하지 않는 경우 .then을 대신 사용할 수도 있습니다.
 
@@ -152,7 +269,18 @@ FaceIO의 Enroll 함수는 프로미스를 반환합니다. 따라서 예제에�
 
 사용자를 성공적으로 등록한 후에는 등록된 사용자를 인증하는 시간입니다. 이를 위해 Pixlab은 authenticate 함수를 제공합니다. 이 authenticate 함수는 auth, recognize 및 identify 3가지 별칭도 가지고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인증 기능은 사용자가 인식할 수있는 단일 프레임만 필요합니다. 따라서 대역폭을 매우 효율적으로 사용합니다. 성공적으로 인증되면 userData 객체가 반환됩니다. 이 userData에는 등록 시 지정한 페이로드와 사용자의 얼굴이 포함되어 있습니다.
 
@@ -162,7 +290,18 @@ App.jsx 파일 안에서 우리는 Log-in이라는 또 다른 버튼을 만듭�
 
 handleLogIn 함수 내에서 try-catch 블록을 사용하여 인증이 실패할 경우 오류를 잡습니다. 인증 함수가 프라미스를 반환하기 때문에 프라미스가 완료되면 값을 얻기 위해 async-await 방법을 사용했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인증 함수는 faceIO 인증 위젯을 사용자 정의하기 위해 일부 선택적 매개변수를 받습니다. 주로 권한 시간 초과, idleTimeout 및 replyTimeout 매개변수를 사용하여 시간 초과를 사용자 정의할 수 있습니다. 컴파일이 완료된 후에는 우리의 웹 애플리케이션이 이렇게 보일 것입니다.
 
@@ -172,7 +311,18 @@ FaceIO에 계정을 만들 때 API 키가 할당됩니다. 이 API 키는 faceIO
 
 현재 FaceIO REST API는 3가지 기능을 지원합니다. 사용자의 얼굴 삭제, 얼굴 ID에 추가 페이로드 설정하기 및 얼굴 ID에 핀 코드 설정하기입니다. 이러한 API 엔드포인트를 안전한 환경이나 백엔드 서버에서 사용하도록 하십시오. 이러한 API를 클라이언트 측에서 실행하지 마십시오.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 얼굴 ID 삭제하기
 
@@ -185,7 +335,18 @@ curl — request GET \
 
 FaceIO는 응답으로 상태 코드와 삭제된 데이터와 함께 페이로드가 성공적으로 삭제되었는지를 알려주는 `payload` 부울 값을 반환합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 페이로드를 FaceID로 설정하기
 
@@ -198,7 +359,18 @@ curl — request POST \
 
 응답으로, FaceIO는 상태 코드 및 페이로드 부울을 반환하는데, 이는 페이로드와 함께 데이터가 성공적으로 삭제되었는지 여부를 알려줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 핀 코드를 얼굴ID로 설정하기
 
@@ -211,7 +383,18 @@ curl — request POST \
 — url 'https://api.faceio.net/setfacialidpincode?key=APIkey&fid=FaceID&pin=12345'
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # FaceIO 웹훅
 
@@ -221,7 +404,18 @@ curl — request POST \
 
 각 필드의 이름은 해당 값이 담고 있는 내용에 대해 명확하게 설명하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 faceIO 서버와 웹훅을 구성하는 방법을 알아봅시다.
 

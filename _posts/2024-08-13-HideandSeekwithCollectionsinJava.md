@@ -3,7 +3,7 @@ title: "Java에서 컬렉션과 숨바꼭질 효과적 사용 방법을 알아�
 description: ""
 coverImage: "/assets/img/2024-08-13-HideandSeekwithCollectionsinJava_0.png"
 date: 2024-08-13 11:38
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-13-HideandSeekwithCollectionsinJava_0.png
 tag: Tech
 originalTitle: "Hide and Seek with Collections in Java"
@@ -11,7 +11,6 @@ link: "https://medium.com/@donraab/hide-and-seek-with-java-collections-cb988aeef
 isUpdated: true
 updatedAt: 1723863993900
 ---
-
 
 Eclipse Collections의 Collection Accessor Method 패턴을 다시 살펴보자.
 
@@ -21,7 +20,18 @@ Eclipse Collections의 Collection Accessor Method 패턴을 다시 살펴보자.
 
 이 블로그는 사고실험입니다. 전통적인 아이디어들을 다시 살펴보고 새로운 아이디어를 탐구하고 있습니다. 몇 가지 직감이 있는데, 그것들을 코드 예제를 통해 확인하려고 합니다. 조급해하지 마세요. 여기에 중요한 것이 있다고 생각해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 변화는 일어날 수 있고, 그를 관리하는 것은 도전적일 수 있어요. 객체지향 도메인을 모델링할 때 안전하게 변화를 관리하는 방법은 해결해야 할 주요 문제 중 하나에요. "많은"을 나타내는 클래스 간의 관계는 종종 컬렉션을 사용해 메모리 안에서 모델링돼요. 이 블로그에서는 Order와 LineItem의 간단한 모델을 탐구할 거에요. Order는 LineItem과의 0개 이상의 관계를 가지고 있어요.
 
@@ -31,7 +41,18 @@ Eclipse Collections의 Collection Accessor Method 패턴을 다시 살펴보자.
 
 이 다이어그램에서 Order 클래스를 구현하는 여러 가지 방법이 있어요. LineItem 클래스는 훨씬 간단해요. 우리는 Java 레코드를 사용하고 상태를 불변하게 만들 거에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 블로그에서 컬렉션을 사용하여 객체 지향 도메인을 안전하게 모델링하고 구현하는 세 가지 방법을 살펴볼 겁니다.
 
@@ -43,7 +64,18 @@ Eclipse Collections의 Collection Accessor Method 패턴을 다시 살펴보자.
 
 그래서 여기서 우리는 Java 컬렉션을 숨기고 찾는 게임을 시작합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Collection Accessor Method
 
@@ -53,7 +85,18 @@ Eclipse Collections의 Collection Accessor Method 패턴을 다시 살펴보자.
 
 한 가지 방법이 여섯, 반가지 방법이 여섯입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SBPP 및 IP가 작성될 당시, Smalltalk 및 Java 개발자 양쪽 모두에게 사용 가능했던 컬렉션 옵션은 변경 가능한 컬렉션들이었습니다. 변경 가능한 컬렉션을 사용하여 Java에서 컬렉션을 캡슐화하는 간단한 예제를 작성했습니다. 도메인은 간단합니다. 주문은 일련의 LineItem 인스턴스를 일정한 컬렉션 유형에 유지하는 것입니다.
 
@@ -96,7 +139,18 @@ public class Order
 public record LineItem(String name, double value) {}
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 간단한 사용 사례에서는 lineItems 컬렉션의 쿼리가 제한적이므로 이 방법이 잘 작동합니다. 다음 테스트 클래스는 Order와 LineItem의 사용법 및 다양한 접근자 메서드를 보여줍니다.
 
@@ -128,7 +182,7 @@ public class OrderTest
         StringJoiner join = new StringJoiner(",");
         this.order.forEachLineItem(lineItem -> join.add(lineItem.name()));
         Assertions.assertEquals(
-                "컵,접시,포크,숟가락,칼", 
+                "컵,접시,포크,숟가락,칼",
                 join.toString());
     }
 
@@ -178,7 +232,18 @@ public class SynchronizedOrder
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 많은 메서드를 추가하면 과도해질 수 있습니다. 또한 추가하는 각 메서드에 대해 스레드 안전성을 테스트하는 도전도 있고, 미래에 누군가가 메서드 중 하나에서 synchronized 키워드를 추가하거나 삭제하는 것을 잊어버릴 수도 있습니다.
 
@@ -190,20 +255,42 @@ Order 클래스의 lineItems 정의를 다음과 같이 변경함으로써 Order
 private final MutableList<LineItem> lineItems = Lists.mutable.empty().asSynchronized();
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 동기화된 목록(SynchronizedList)은 목록에 접근하는 독자와 작성자를 차단할 것입니다. 동기화된 목록(SynchronizedList)의 유일한 보호되지 않는 위치는 iterator입니다. Iterator를 사용할 때 컬렉션에 대한 액세스를 수동으로 동기화하는 일은 사용자에게 달려 있습니다. 특히 Order 내에서 Iterator를 사용하지 않고 lineItems을 클라이언트에 노출하지 않으므로 이 특정 유즈케이스에는 문제가 되지 않습니다.
 
 Eclipse Collections에는 스레드 안전한 List에 대한 다른 대안이 있습니다. MultiReaderList를 사용할 수 있습니다.
 
 ```java
-private final MutableList<LineItem> lineItems = 
+private final MutableList<LineItem> lineItems =
         Lists.multiReader.empty();
 ```
 
 MultiReaderList는 그 이름이 시사하는 대로 작동합니다. 여러 독자가 목록의 쿼리 메서드에 액세스할 수 있고, 단일 작성자는 추가 또는 삭제와 같은 변이 메서드에 액세스할 때 모든 독자를 차단할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 수시로도 좋은 점은 Collection Accessor Method를 사용하면 내부 구현을 변경할 수 있지만 클라이언트에는 영향을 미치지 않는다는 것입니다. 이것은 캡슐화를 사용하여 의도된 것처럼 사용하는 것입니다.
 
@@ -213,7 +300,18 @@ MultiReaderList는 그 이름이 시사하는 대로 작동합니다. 여러 독
 
 만약 Mutable Collection 타입만 사용하는 경우라면 Collection Accessor Method 패턴이 최선의 선택입니다. 변경할 수 없는 래퍼를 통해 콜렉션을 노출하거나 제거 메소드가 강제로 제거된 Iterator만 노출하는 것은 최악의 경우에는 끔찍하며, 매우 위험합니다. 선택이 주어진다면 절대 Java Collection에 Iterator를 노출하지 않을 것입니다. Iterator는 동시성에 대한 악몽입니다. 나는 항상 forEach와 같은 내부 반복자를 선호합니다. 이들은 적절하게 콜렉션 타입에 의해 보호될 수 있습니다. Iterator는 사용하는 개발자 이외에는 누구도 보호할 수 없습니다. 이는 콜렉션을 사용하는 소비자에게 의도한 지식과 콜렉션을 제공하는 쪽에 대한 신뢰가 필요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아무도 믿지 말고, 계약적으로 그리고 구조적으로 Immutable Collection 유형을 사용하세요. "불변" 컬렉션이 가변 인터페이스 뒤에 안전하지 않게 감춰져 있지 않도록 암묵적으로 믿지 마세요.
 
@@ -223,7 +321,18 @@ Order 및 LineItem의 도메인을 Immutable Collection 유형을 사용하도�
 
 다음은 Java 레코드를 사용하여 Order를 정의하고 라인아이템 컬렉션에 ImmutableBag`LineItem`를 사용하는 구현 예시입니다. LineItem 또한 Java 레코드입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 public record Order(ImmutableBag<LineItem> lineItems)
@@ -315,7 +424,18 @@ public class OrderTest
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 뮤터블과 이뮤터블 케이스 사이의 addLineItem 호출은 매우 유사해 보이지만 결과는 매우 다를 수 있습니다. 이뮤터블 케이스에서 addLineItem을 호출할 때마다 새로운 Order와 ImmutableBag 'LineItem'이 생성됩니다. addLineItem에 대해 코드를 자세히 살펴보면 차이를 알 수 있을 것입니다. 클라이언트 코드는 매우 유사해 보입니다.
 
@@ -325,7 +445,18 @@ ImmutableBag가 계약적으로나 구조적으로 변경할 수 없다는 점 �
 
 Collection Accessor Method를 완전히 사용하거나 명시적으로 ImmutableList 'LineItem'에 직접 액세스하는 두 가지 안전한 방법을 사용하여 컬렉션을 가진 객체 지향 도메인을 설계할 수 있습니다. 저는 Immutable Collection 방식을 선호하지만, Collection Accessor Method와 Immutable Collection 사이 어딘가에 위치한 또 다른 해결책이 있는데, 이를 읽기 가능한 컬렉션이라고 부릅니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Eclipse Collections의 컬렉션 유형 디자인은 예측 가능한 세 가지 인터페이스를 사용합니다. 이 인터페이스는 Mutable, Immutable 및 Readable입니다. Readable 인터페이스는 때로는 Iterable 접미사로 끝나는데, 이는 List, Set, Map과 같이 java.util에서 정의된 가변 컬렉션 유형과 충돌을 방지하기 위함입니다.
 
@@ -335,8 +466,18 @@ Eclipse Collections의 컬렉션 유형 디자인은 예측 가능한 세 가지
 
 Order 인터페이스를 통해 수정을 보호하기 위해 Collection Accessor Method 접근 방식을 사용할 수 있지만, lineItems에 대해 RichIterable과 같이 "readable" 인터페이스를 노출할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Hide and Seek with Collections in Java](/assets/img/2024-08-13-HideandSeekwithCollectionsinJava_5.png)
 
@@ -347,7 +488,7 @@ Order 인터페이스를 통해 수정을 보호하기 위해 Collection Accesso
 ```java
 public class Order
 {
-    private final MultiReaderBag<LineItem> lineItems = 
+    private final MultiReaderBag<LineItem> lineItems =
             Bags.multiReader.empty();
 
     public Order addLineItem(String name, double value)
@@ -368,7 +509,18 @@ public class Order
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 Order 클래스가 어떻게 사용되는지 보여주는 단위 테스트입니다.
 
@@ -439,7 +591,18 @@ public class OrderTest
 
 우리는 클래스 간 관계를 나타내는 컬렉션을 사용하여 OO 도메인을 모델링하는 세 가지 방법을 탐구했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 컬렉션 액세서 메소드
 - 불변 컬렉션
@@ -451,7 +614,18 @@ public class OrderTest
 
 읽기 전용 컬렉션은 안전성과 유연성을 잘 조합하여 제공하며, 애플리케이션 라이프사이클 동안 애플리케이션 데이터에 가끔씩 발생하는 쓰기 작업에 더 적합합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 네 번째 방법이 있어요 (쉿!!!)
 
@@ -466,7 +640,18 @@ public RichIterable<LineItem> lineItems()
 
 Order 테스트는 여전히 통과하지만, MultiReaderBag에서 iterator에서 예외가 throw됩니다. Iterator는 remove에서 throw됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 RichIterable의 클래스 다이어그램을 다시 살펴보면 LazyIterable이라는 하위 유형이 있다는 것을 알 수 있습니다. LazyIterable은 Collection이 아닙니다. LazyIterable은 Stream과 같이 지연된 특성을 가지지만 Stream처럼 "일회용"이 아닙니다. LazyIterable은 반복적으로 안전하게 사용할 수 있으며 모든 Iterable과 같이 작동합니다.
 
@@ -476,6 +661,17 @@ LazyIterable 사용 가능성을 탐색하는 것은 독자에게 연습으로 �
 
 즐겁게 보내세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 Eclipse Collections OSS 프로젝트의 창조자이자 기여자입니다. 해당 프로젝트는 Eclipse Foundation에서 관리됩니다. Eclipse Collections는 기여를 환영합니다.

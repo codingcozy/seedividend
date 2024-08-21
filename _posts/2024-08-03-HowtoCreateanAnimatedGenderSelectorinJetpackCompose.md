@@ -3,16 +3,13 @@ title: "Jetpack Compose에서 애니메이션 성별 선택기 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-03-HowtoCreateanAnimatedGenderSelectorinJetpackCompose_0.png"
 date: 2024-08-03 18:55
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-03-HowtoCreateanAnimatedGenderSelectorinJetpackCompose_0.png
 tag: Tech
 originalTitle: "How to Create an Animated Gender Selector in Jetpack Compose"
 link: "https://medium.com/@kappdev/how-to-create-an-animated-gender-selector-in-jetpack-compose-a2f1cdb1afc0"
 isUpdated: true
 ---
-
-
-
 
 # 안녕하세요 🙋
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 ![Gender Selector](/assets/img/2024-08-03-HowtoCreateanAnimatedGenderSelectorinJetpackCompose_0.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 도형
 
@@ -64,7 +72,18 @@ object MaleShape : Shape {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 여성 🚺
 
@@ -105,7 +124,18 @@ object FemaleShape : Shape {
 
 이제 모양을 정의했으므로, 해당 모양을 옵션 버튼으로 렌더링하는 컴포저를 생성해보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## GenderOptionStyle
 
@@ -126,7 +156,18 @@ data class GenderOptionStyle(
 
 effectOrigin은 채워지는 효과 애니메이션의 중심점을 결정하며, 성장하는 원 효과의 원점입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 옵션 코드
 
@@ -182,7 +223,18 @@ fun GenderOption(
 
 이 섹션에서는 선택기 Composable을 구성합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 옵션
 
@@ -194,7 +246,18 @@ enum class Gender { MALE, FEMALE }
 
 ## 유틸리티
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코드를 더 깔끔하게 만들기 위해, clickableGenderOption modifier를 정의해보겠습니다. 이 modifier는 시각적인 표시 없이 성별 옵션을 클릭하는 이벤트를 처리할 것입니다:
 
@@ -253,7 +316,18 @@ fun GenderSelector(
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 축하드립니다 🥳! 성공적으로 구축했습니다 👏. GitHub Gist에서 전체 코드를 찾을 수 있어요 🧑‍💻. 사용 방법을 살펴보죠 👇
 
@@ -263,7 +337,18 @@ fun GenderSelector(
 
 ## 상태
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 예시는 이 상태를 사용합니다:
 
@@ -283,7 +368,18 @@ GenderSelector(
 )
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지 태그의 Markdown 형식으로 변경하겠습니다.
 
@@ -309,7 +405,18 @@ GenderSelector(
 
 ![](https://miro.medium.com/v2/resize:fit:800/1*SrIPDOLcG28q0fqC77yZuA.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 측면 이동
 
@@ -333,7 +440,18 @@ GenderSelector(
 
 아래 내용도 맘에 드실 수 있어요 👇
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 글을 읽어주셔서 감사합니다! ❤️ 만약 즐겁고 가치 있는 정보를 얻으셨다면 👏 클랩(박수)을 보내주시고 더 많은 흥미로운 글을 위해 Kappdev를 팔로우해주세요 😊
 

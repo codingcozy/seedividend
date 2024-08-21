@@ -3,17 +3,13 @@ title: "두 명의 십대가 피타고라스의 정리의 새로운 증명을 �
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Two Teenagers Found a New Proof of the Pythagorean Theorem  Heres How"
 link: "https://medium.com/@keith-mcnulty/two-teenagers-found-a-new-proof-of-the-pythagorean-theorem-heres-how-4bc038a09f12"
 isUpdated: true
 ---
-
-
-
-
 
 최근에, 두 청소년 소녀 - Calcea Johnson과 Ne'Kiya Jackson - 가 미국 수학 협회에 발표를 하여 피타고라스의 정리의 새로운 증명을 시연했습니다. 이 새로운 증명은 상당한 반향을 일으켰어요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 그 이유는 이들의 증명이 삼각법을 사용한다는 점 때문입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 왜 이게 중요한 문제인가요? 우리의 삼각함수 항등식과 법칙 중 많은 것들이 피타고라 정리에 의존하기 때문에 일부 수학자들은 삼각법을 사용한 정리의 증명은 순환 논리라고 주장합니다. 다시 말해, 그들은 삼각법을 사용하여 피타고라를 증명하는 것은 원래 B에 의존하는 A를 사용하는 것과 동일하다고 주장합니다. 이 의견을 강력하게 주장한 한 명의 수학자는 1927년에 트리고논적인 증명을 불가능하다고 명시하며 피타고라 정리의 약 삼각법적인 증명으로 가득한 책을 출판한 엘리야 루미스였습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ![이미지](/assets/img/TwoTeenagersFoundaNewProofofthePythagoreanTheoremHeresHow_0.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 피타고라스 정리란 무엇인가요?
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 위의 삼각형을 참조하면 ⍺를 a의 길이와 c의 길이 사이의 각도로 두겠습니다. 그런 다음 삼각 함수 비율을 사용하면 sin⍺ = b/c 및 cos⍺ = a/c임을 알 수 있습니다. 따라서 sin²⍺ + cos²⍺ = (a² + b²)/c² = 1입니다. 따라서 인기있는 항등식 sin²⍺ + cos²⍺ = 1은 피타고라스 정리에서 유도되며 이 항등식을 사용하여 파생된 모든 항등식을 사용하는 피타고라스 정리의 증명은 원형 논리 때문에 무효입니다. 그렇지만, 삼각 함수 비율 자체는 피타고라스 정리와 독립적으로 증명될 수 있으므로, 피타고라스로부터 파생된 삼각 함수 항등식을 참조하지 않는 한, 이러한 비율을 증명에 사용하지 못할 이유가 없습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 이 새로운 증명은 무엇인가요?
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 먼저, 왼쪽 상단에 있는 우리의 단순한 직각삼각형을 보세요. a, b 그리고 c(대각선)라는 변들로 이루어져 있죠. 일단 a ≠ b라고 가정합시다. 우리는 a = b라는 특이한 경우에 대한 참고 내용을 이 기사의 끝에 다루겠습니다. b와 c의 길이 간의 각을 ⍺로, a와 c의 길이 간의 각을 β로 가정합시다. 이 오른쪽 상단에 있는 것처럼요. 이제 이 기본적인 직각삼각형에서 세 기하학적 단계를 거쳐 보겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 길이 b의 쪽을 반사하여 오른쪽 상단에 동등한 삼각형을 형성합니다.
 - 원래 삼각형의 쪽에 수직으로 선을 연장합니다.
@@ -65,7 +105,18 @@ isUpdated: true
 
 이제 이 무한한 수의 유사한 삼각형 순서를 사용하여 변 A와 C의 길이를 어떻게 유도하는지 알아보려고 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 작은 삼각형의 변 길이 유도하기
 
@@ -75,7 +126,18 @@ isUpdated: true
 
 이 과정을 계속할 수 있지만, 각 작은 유사한 삼각형이 a²/b²의 비율로 감소하는 것을 알 수 있습니다. 이는 변 A가 (2ac)/b의 첫 번째 항과 공비가 a²/b²인 등비급수임을 의미합니다. 마찬가지로, 변 C는 c로 시작하여 a²/b²의 공비를 가지는 등비급수입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## A와 C의 길이 계산하기
 
@@ -85,7 +147,18 @@ isUpdated: true
 
 ![image](/assets/img/TwoTeenagersFoundaNewProofofthePythagoreanTheoremHeresHow_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 내용을 한 번 쭉 살펴보고, k = (2a²c)/b²와 같은 방법으로 접근하고, 시작 부분에 c를 더해야 한다는 것을 기억하신다면, 다음과 같은 결과를 얻게 됩니다.
 
@@ -95,7 +168,18 @@ isUpdated: true
 
 이제 A를 C로 나눈 비율을 살펴보세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/TwoTeenagersFoundaNewProofofthePythagoreanTheoremHeresHow_4.png)
 
@@ -105,7 +189,18 @@ isUpdated: true
 
 그러므로:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/TwoTeenagersFoundaNewProofofthePythagoreanTheoremHeresHow_5.png)
 
@@ -115,7 +210,18 @@ isUpdated: true
 
 이를 간소화하면:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Two Teenagers Found a New Proof of the Pythagorean Theorem](/assets/img/TwoTeenagersFoundaNewProofofthePythagoreanTheoremHeresHow_7.png)
 
@@ -125,6 +231,17 @@ isUpdated: true
 
 Johnson과 Jackson님께 축하 말씀을 드립니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 존슨과 잭슨의 피타고라스 정리 증명에 대한 의견이 어땠나요? 자유롭게 의견을 남겨주세요!

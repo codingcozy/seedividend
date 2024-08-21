@@ -3,16 +3,13 @@ title: "Angular, Docker, Nginx 한 번 빌드하고 어디서든 배포하세요
 description: ""
 coverImage: "/assets/img/2024-06-20-AngularDockerNginxBuildonceDeployanywhere_0.png"
 date: 2024-06-20 05:31
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-AngularDockerNginxBuildonceDeployanywhere_0.png
 tag: Tech
 originalTitle: "Angular, Docker , Nginx: Build once, Deploy anywhere."
 link: "https://medium.com/@fabiozuin/build-once-deploy-anywhere-with-angular-17-bf477c49668f"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-06-20-AngularDockerNginxBuildonceDeployanywhere_0.png" />
 
@@ -22,7 +19,18 @@ Github 코드: https://github.com/fbzz/angular-build-once-deploy-anywhere
 
 ## 한 번 빌드하고 어디에나 배포하세요…
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서, DEV와 PROD라는 두 가지 환경이 있는 예제를 살펴보겠습니다. 하나의 빌드를 사용하려면 다음을 사용합니다:
 
@@ -34,18 +42,40 @@ Github 코드: https://github.com/fbzz/angular-build-once-deploy-anywhere
 
 세 가지 파일을 생성해보겠습니다. 이 파일들은 환경에 기반한 다른 구성을 처리할 것입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `src\config`
 
-- `app-config.dev.json` — 개발용.  
+- `app-config.dev.json` — 개발용.
 - `app-config.prod.json` — 프로덕션용.
 
 `src\`
 
 - `app-config.json` — 로컬 개발용이며, 향후 대체될 예정입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 //App 구성의 예시, 간단한 JSON입니다.
@@ -72,8 +102,18 @@ Github 코드: https://github.com/fbzz/angular-build-once-deploy-anywhere
 
 npm run build를 실행하면 dist에 config 폴더가 생깁니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Angular Docker Nginx BuildonceDeployanywhere](/assets/img/2024-06-20-AngularDockerNginxBuildonceDeployanywhere_1.png)
 
@@ -121,8 +161,18 @@ export class ConfigService {
 
 1.3 - Angular에서는 APP_INITIALIZER라는 DI 토큰을 제공하여 하나 이상의 초기화 함수를 제공할 수 있습니다. 이 함수는 응용 프로그램 부트스트랩 프로세스 중에 실행되며 시작할 때 필요한 데이터가 사용 가능해집니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 NgModules:
 
@@ -146,7 +196,6 @@ export function initConfig(appConfig: ConfigService) {
     },
   ],
 })
-
 export class AppModule {}
 ```
 
@@ -175,23 +224,34 @@ bootstrapApplication(App, {
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1.4 - 이제, 구성 요소에서 소비하는 것은 간단합니다!
 
 ```js
-import { Component, inject } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { RouterOutlet } from '@angular/router';
-import { ConfigService } from '../util/config.service';
+import { Component, inject } from "@angular/core";
+import { CommonModule } from "@angular/common";
+import { RouterOutlet } from "@angular/router";
+import { ConfigService } from "../util/config.service";
 
 @Component({
-  selector: 'app-root',
+  selector: "app-root",
   standalone: true,
   imports: [CommonModule, RouterOutlet],
-  templateUrl: './app.component.html',
+  templateUrl: "./app.component.html",
   //참고: 우리가 이미 제공했기 때문에 providers에서 제공할 필요가 없습니다.
-  styleUrl: './app.component.scss',
+  styleUrl: "./app.component.scss",
 })
 export class AppComponent {
   //참고: 이 구성 요소는 독립 실행형으로 사용하고 있으며, ngModules의 경우 module providers에서 가져오기만 하면 됩니다.
@@ -209,8 +269,18 @@ export class AppComponent {
 
 프로젝트 루트에서 자산을 제공하기 위한 간단한 구성 파일을 작성합니다. 참고: 귀하의 구성을 자유롭게 포함하십시오.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 server {
@@ -238,7 +308,7 @@ server {
         access_log off;
         add_header 'Content-Type' 'text/plain';
         return 200 "Healthy\n";
-    
+
   }
 }
 ```
@@ -283,8 +353,18 @@ RUN chmod +x /usr/local/app/entrypoint.sh
 ENTRYPOINT [ "/usr/local/app/entrypoint.sh" ]
 ```
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리 애플리케이션은 현재 컨테이너 내에 캡슐화되어 있습니다. 그러나 지정된 앱 구성을 사용하는 방법을 지정해야 합니다. 실행 중인 기기에는 현재 환경 정보를 전달하는 환경 변수가 있는 것으로 가정해 봅시다. 이를 용이하게 하기 위해 프로젝트 루트에서 entrypoint.sh를 생성할 수 있습니다. 이 스크립트는 애플리케이션이 작동하는 특정 환경에 기반한 파일 교체를 결정할 것입니다.
 
@@ -307,7 +387,18 @@ fi
 nginx -g 'daemon off;'
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 4 - 컨테이너 실행하기
 
@@ -321,11 +412,22 @@ docker build . -t angular-boda
 docker run -p 8080:80 -e ENVIRONMENT=Production -t angular-boda
 ```
 
-localhost:8080에서 애플리케이션을 볼 수 있어야합니다: 
+localhost:8080에서 애플리케이션을 볼 수 있어야합니다:
 
 ![이미지](/assets/img/2024-06-20-AngularDockerNginxBuildonceDeployanywhere_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 5. 마무리
 

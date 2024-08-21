@@ -3,17 +3,13 @@ title: "브라우저 CSS 필터를 사용하여 비트맵 이미지의 색상 �
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Change Colours in a Bitmap Image using Browser CSS Filters"
 link: "https://medium.com/gitconnected/change-colours-in-a-bitmap-image-using-browser-css-filters-199cf75932fe"
 isUpdated: true
 ---
-
-
-
-
 
 ![ChangeColoursinaBitmapImageusingBrowserCSSFilters_0.png](/assets/img/ChangeColoursinaBitmapImageusingBrowserCSSFilters_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 색 이론에 대한 높은 수준의 탐구
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 색을 여러 가지 방법으로 표현할 수 있어요. CSS에서 흔히 사용되는 형식 중 하나는 16진수 코드예요. 예를 들면, #6495ed 이렇게 말이죠. 여기서 첫 두 글자(64)는 색상의 빨간색 양을 나타내고, 그 다음 두 글자(95)는 녹색, 마지막 두 글자(ed)는 파란색을 나타내요. 다시 말해, 우리는 순수한 빨강, 녹색, 파랑의 강도를 이용해서 색을 설명해요.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 # 색조 변경하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리 앱에 이미지를 다른 색상으로 설정하고 싶을 때 한 가지 방법은 CSS hue-rotate 필터를 사용하는 것입니다. 회전 각도를 지정함으로써 이미지의 모든 색상을 지정된 양만큼 오프셋시킬 수 있습니다.
 
@@ -45,7 +63,18 @@ filter: hue-rotate(120deg)
 
 이 결과는 이미지 3에서 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/ChangeColoursinaBitmapImageusingBrowserCSSFilters_2.png)
 
@@ -57,7 +86,18 @@ filter: hue-rotate(120deg)
 filter: hue-rotate(240deg)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/ChangeColoursinaBitmapImageusingBrowserCSSFilters_4.png" />
 
@@ -67,4 +107,15 @@ filter: hue-rotate(240deg)
 
 일부 색상 모델은 360도에 걸쳐 기본 색조를 분배합니다. hue-rotate CSS 필터를 사용하면 지정된 양만큼 이미지 내의 색상을 변경할 수 있습니다. 신중한 사용으로, 테마링과 같은 영역에서 이를 활용할 수 있습니다 - 아이콘의 서로 다른 색상 버전을 갖게 될 것이지만 별도의 파일을 관리하는 번거로움 없이 할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

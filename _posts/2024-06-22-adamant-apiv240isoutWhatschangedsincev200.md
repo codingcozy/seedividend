@@ -3,16 +3,13 @@ title: "adamant-api v240 출시 v200 이후 달라진 점은"
 description: ""
 coverImage: "/assets/img/2024-06-22-adamant-apiv240isoutWhatschangedsincev200_0.png"
 date: 2024-06-22 01:56
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-adamant-apiv240isoutWhatschangedsincev200_0.png
 tag: Tech
 originalTitle: "adamant-api v2.4.0 is out. What’s changed since v2.0.0?"
 link: "https://medium.com/adamant-im/adamant-api-v2-4-0-is-out-whats-changed-since-v2-0-0-809360bad3b8"
 isUpdated: true
 ---
-
-
-
 
 adamant-api는 패키지의 가장 큰 업데이트 이후 중요한 개선 사항과 수정 사항을 거쳐 상당한 향상을 이루었습니다. 전체적인 개발자 경험과 버그 수정을 목표로 한 패키지의 최대 업데이트 이후 주요 변경 사항을 살펴봅시다.
 
@@ -24,7 +21,18 @@ adamant-api는 패키지의 가장 큰 업데이트 이후 중요한 개선 사�
 - 노드 체크 버그 (v2.3.1): 헬스 체크 프로세스 중에 랜덤 노드가 한 개만 체크되던 버그를 해결하였습니다.
 - 전역 설치 (v2.3.0): adamant-api에 의존하는 패키지의 전역 설치 문제를 해결하였습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # DX 개선 사항
 
@@ -38,17 +46,30 @@ const blocks = await api.getTransactions({
     toHeight: 7586280, // 'and:toHeight' 대신 7586280 사용
   },
   or: {
-    senderId: 'U18132012621449491414', // 'or:senderId' 대신 '...' 사용
+    senderId: "U18132012621449491414", // 'or:senderId' 대신 '...' 사용
   },
 });
 ```
 
 - WebSocket 초기화 (v2.1.0): api.initSocket() 메서드는 이제 WebSocketClient의 인스턴스를 수락합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-const socket = new WebSocketClient({ /* ... */ });
+const socket = new WebSocketClient({
+  /* ... */
+});
 api.initSocket(socket);
 ```
 
@@ -66,7 +87,18 @@ const keyPair = createKeypairFromPassphrase('...');
 const message = decodeMessage(,, keyPair);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 유틸리티 함수
 
@@ -86,7 +118,18 @@ function admToSats(amount: number): number;
 
 - 거래 쿼리 객체 변환(v2.3.0): transformTransactionQuery 함수를 소개하여 거래 쿼리를 간결화하고 구조화하여 더 읽기 쉽고 관리하기 쉽도록 만들었습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 상수 transformed를 transformTransactionQuery 함수로 변환했습니다. {

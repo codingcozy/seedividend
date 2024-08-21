@@ -3,17 +3,13 @@ title: "시니어 자바 리드 인터뷰 질문 고급 - 2024 최신 목록"
 description: ""
 coverImage: "/assets/img/2024-07-30-SeniorJavaLeadInterviewQuestionsAdvanced-04_0.png"
 date: 2024-07-30 17:13
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-30-SeniorJavaLeadInterviewQuestionsAdvanced-04_0.png
 tag: Tech
 originalTitle: "Senior Java Lead Interview QuestionsAdvanced-04"
 link: "https://medium.com/@vikas.taank_40391/senior-java-lead-interview-questions-advanced-04-636b8d118ed2"
 isUpdated: true
 ---
-
-
-
-
 
 ![Image](/assets/img/2024-07-30-SeniorJavaLeadInterviewQuestionsAdvanced-04_0.png)
 
@@ -34,7 +30,18 @@ public class MyApplication {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 @SpringBootApplication(excludeName = {"org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration"})
@@ -58,11 +65,22 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @EnableAutoConfiguration(exclude = {DataSourceAutoConfiguration.class})
 public class MyApplicationConfig {
-    
+
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Patch와 Post의 차이점은 무엇인가요?
 
@@ -74,7 +92,18 @@ public class MyApplicationConfig {
 - 데이터 제출: 폼 데이터를 제출하거나 파일을 업로드하는 데 사용될 수 있습니다.
 - 기타 작업: 때로는 표준 CRUD (Create, Read, Update, Delete) 작업으로 들어맞지 않는 작업에 사용됩니다. 예를 들어 동작 수행 (예: POST /orders/123/cancel).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # PATCH
 
@@ -84,7 +113,18 @@ PATCH 방법은 리소스에 대한 부분적 업데이트에 사용됩니다.
 
 사용법:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - PATCH는 부분 업데이트에 사용될 수 있습니다: PATCH는 리소스 데이터의 일부만 업데이트해야 할 때 사용됩니다. 예를 들어 사용자 리소스가 있고 사용자의 이메일만 업데이트하려는 경우, 새 이메일 값을 지정한 payload와 함께 PATCH /users/123를 사용할 것입니다.
 - 네트워크 대역폭을 최소화하기 위해 클라이언트와 서버 간에 전송되는 데이터양을 최소화하고 싶을 때 이점이 있습니다. 전체 리소스를 전송하는 대신 변경 사항만 전송됩니다.
@@ -95,7 +135,18 @@ PATCH 방법은 리소스에 대한 부분적 업데이트에 사용됩니다.
 
 - 싱글톤 범위는 Spring 컨테이너에 빈의 인스턴스가 하나만 있는 것을 보장합니다. 한 번 정의되면 동일한 인스턴스가 반환됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```jsx
 import org.springframework.context.annotation.Bean;
@@ -121,8 +172,18 @@ public class ApplicationConfiguration {
 
 - 사용 사례: 각 소비자가 새 인스턴스를 요구하는 상태를 유지해야 하는 빈에 유용합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 import org.springframework.context.annotation.Bean;
@@ -168,7 +229,18 @@ public class WebAppConfig {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 4. 세션
 
@@ -196,7 +268,18 @@ public class WebAppConfig {
 
 ## 5. 어플리케이션
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 애플리케이션 범위는 ServletContext의 라이프사이클을 따르는 빈 인스턴스를 생성합니다.
 
@@ -224,7 +307,18 @@ public class WebAppConfig {
 
 ## 6. 웹 소켓
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 범위: WebSocket 범위는 WebSocket 세션 수명 동안 빈 인스턴스를 만들며, 각 WebSocket 세션마다 새 인스턴스가 생성됩니다.
 - 사용 사례: WebSocket 상호 작용의 범위 내에서 데이터를 관리하는 데 유용합니다.
@@ -268,7 +362,18 @@ public class WebSocketConfig implements WebSocketConfigurer {
 - 싱글톤 범위는 리소스를 효율적으로 사용합니다.
 - 요청, 세션, 응용 프로그램 및 WebSocket 범위는 Web 컨텍스트에서 사용되도록 의도된 웹 인식적인 특성을 가지고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전 기사에서 스프링 빈 범위에 대해 확인해보세요.
 

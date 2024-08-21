@@ -3,17 +3,13 @@ title: "CSS로 DIV를 수평 및 수직으로 가운데 정렬하는 간단한 �
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "5 Simple Ways to Center a Div Horizontally and Vertically in CSS"
 link: "https://medium.com/design-bootcamp/5-simple-ways-to-center-a-div-horizontally-and-vertically-in-css-23bbaa5f9f52"
 isUpdated: true
 ---
-
-
-
-
 
 가장 간단한 방법으로 div를 가운데 정렬하는 방법
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 - display: flex 사용하기: 이 방법은 CSS 플렉스박스 레이아웃을 사용하여 div를 부모 컨테이너 내에서 가로 및 세로 중앙에 배치합니다. 부모 컨테이너에 다음 CSS를 추가할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .container {
@@ -45,7 +52,18 @@ div {
 
 - display: grid 사용: 이 방법은 CSS 그리드 레이아웃을 사용하여 div를 수평 및 수직으로 부모 컨테이너 내에서 가운데 정렬합니다. 아래 CSS를 부모 컨테이너에 추가할 수 있습니다.:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .container {
@@ -66,7 +84,18 @@ div {
 
 - position: absolute 및 transform: translate 사용: 이 방법은 절대 위치 지정과 transform 속성을 사용하여 div를 부모 컨테이너의 가로와 세로 중앙에 배치합니다. 부모 컨테이너에 다음과 같은 CSS를 추가할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 .container {
@@ -90,7 +119,18 @@ div {
 
 - table 및 table-cell 표시 속성 사용: 이 방법은 표 셀의 동작을 모방하기 위해 display 속성을 사용하며, div를 수평 및 수직으로 부모 컨테이너 내에서 가운데 정렬합니다. 부모 컨테이너에 다음 CSS를 추가할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 .container {
@@ -114,7 +154,18 @@ div {
 
 - line-height를 사용하는 방법: 이 방법은 line-height 속성을 사용하여 div를 수직 및 수평으로 부모 컨테이너 내에서 가운데 정렬합니다. 부모 컨테이너에 다음 CSS를 추가할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .container {
@@ -138,7 +189,18 @@ div {
 
 이것들은 CSS를 사용하여 div를 수평 및 수직으로 가운데 정렬하는 5가지 간단한 방법입니다. 구체적인 사용 사례에 따라 특정 방법을 선택할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 결론
 

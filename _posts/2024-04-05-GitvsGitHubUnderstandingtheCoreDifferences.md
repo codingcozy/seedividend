@@ -3,17 +3,13 @@ title: "Git vs Github 핵심 차이점 이해하기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Git vs GitHub Understanding the Core Differences"
 link: "https://medium.com/@pelinokutan/git-vs-github-understanding-the-core-differences-708591d72156"
 isUpdated: true
 ---
-
-
-
-
 
 소프트웨어 개발 분야에서 Git과 GitHub은 종종 상호 교환 가능하게 사용되는 두 용어로, 초보자와 숙련된 개발자 모두에게 혼란을 야기합니다. 비록 둘은 밀접한 관련이 있지만, 각각 다른 목적으로 사용되며 버전 관리 및 협업 코딩 세계를 탐색하는 데 매우 중요합니다. Git과 GitHub의 차이를 이해하는 것이 중요합니다.
 
@@ -23,7 +19,18 @@ Git은 2005년 Linus Torvalds가 만든 분산 버전 관리 시스템(VCS)으�
 
 Git의 주요 특징:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 로컬 저장소: Git은 모든 변경 사항과 브랜치를 개발자 각자의 컴퓨터에 완벽한 히스토리로 저장합니다. 이는 개발자들이 오프라인으로 작업할 수 있고 변경 사항을 지역적으로 커밋하고 나중에 중앙 저장소와 동기화할 수 있음을 의미합니다.
 - 브랜치 및 병합: Git은 새로운 기능을 실험하거나 버그를 수정할 때 본 코드베이스에 영향을 주지 않고 브랜치를 만드는 프로세스를 단순화합니다. 변경 사항이 테스트되고 준비되면 개발자들은 브랜치를 메인 브랜치로 병합할 수 있습니다.
@@ -35,7 +42,18 @@ GitHub란 무엇인가요?
 
 반면에 GitHub은 2008년 Tom Preston-Werner, Chris Wanstrath, PJ Hyett에 의해 설립된 Git 저장소를 위한 웹 기반 호스팅 서비스입니다. 이는 개발자가 Git 저장소를 호스팅하고 다른 사람과 협업하며 오픈 소스 프로젝트에 기여할 수 있는 플랫폼을 제공합니다. Git이 기본 버전 관리 시스템인 반면, GitHub은 개발자들을 위해 특별히 제작된 협업 기능과 소셜 네트워킹 요소의 레이어를 추가합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 GitHub의 주요 기능:
 
@@ -47,7 +65,18 @@ Git vs GitHub: 차이점 이해하기
 
 요약하자면, Git은 프로젝트의 변경 내역을 관리하는 버전 관리 시스템이며 GitHub는 Git을 기반으로 구축된 웹 기반 플랫폼으로, 저장소를 호스팅하고 다른 사람들과 협업하며 소프트웨어 프로젝트를 관리할 수 있는 기능을 제공합니다. Git은 로컬 기계에서 독립적으로 사용할 수 있지만, GitHub는 중앙 집중식 플랫폼을 제공하여 Git 저장소를 호스팅하고 공유할 수 있어 소프트웨어 개발의 협업 측면을 강화합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결론적으로, Git과 GitHub는 현대 소프트웨어 개발 워크플로우에서 중요한 역할을 합니다. Git은 버전 관리의 기초를 형성하는 반면, GitHub는 다양한 협업 도구와 소셜 기능으로 보완하여 오픈 소스 기여 및 팀 협업에 강력한 플랫폼이 됩니다. Git과 GitHub 사이의 차이를 이해하는 것은 개발자가 개발 프로세스를 간소화하고 더 넓은 소프트웨어 개발 커뮤니티와 소통하는 데 중요합니다.
 

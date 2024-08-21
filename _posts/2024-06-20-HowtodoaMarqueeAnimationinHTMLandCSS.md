@@ -3,7 +3,7 @@ title: "HTML과 CSS로 Marquee 애니메이션을 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-20-HowtodoaMarqueeAnimationinHTMLandCSS_0.png"
 date: 2024-06-20 05:53
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-HowtodoaMarqueeAnimationinHTMLandCSS_0.png
 tag: Tech
 originalTitle: "How to do a Marquee Animation in HTML and CSS"
@@ -11,17 +11,22 @@ link: "https://medium.com/javascript-in-plain-english/how-to-do-a-marquee-animat
 isUpdated: true
 ---
 
-
-
-
-
 ![Marquee Animation](https://miro.medium.com/v2/resize:fit:1400/1*u9Rh5cAUft9Hiqdnursjog.gif)
 
 안녕하세요, 코더 여러분! 오늘은 마퀴 애니메이션을 만들어 보려고 해요. 이런 소리를 하는 것도 웃겼네요. 제목을 클릭했다면, 무엇을 구독했는지 이미 알고 계셨겠죠? 저도 바보 같습니다. 이렇게 만들어 볼 것입니다:
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹사이트에 많은 매력을 불어넣지만 매우 간단한 애니메이션이에요. "단순함이 뛰어남의 열쇠"라고 말한 사람이 맞았네요. 그런데 그는 브루스 리일테니까요.
 
@@ -30,7 +35,18 @@ isUpdated: true
 - HTML 및
 - CSS에 대한 기본 지식
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하대도 충분합니다 우리는 그들을 사용할 것이므로.
 
@@ -40,7 +56,18 @@ isUpdated: true
 
 우리 프로젝트의 루트 디렉토리에 index.html 파일, assets 폴더(이미지를 넣을 폴더), 그리고 style.css 파일을 만들어 봅시다. 최종 결과물은 다음과 같이 보여야 합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-20-HowtodoaMarqueeAnimationinHTMLandCSS_1.png" />
 
@@ -90,19 +117,41 @@ index.html 파일에 다음 코드를 붙여넣으세요:
 </html>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-- 보시는 바와 같이, 우리는 두 개의 marquee__slider 클래스가 포함된 marque 클래스를 가지고 있습니다.
-- 이 marquee__slider 클래스들이 같은 이미지를 포함하고 있는 것을 알 수 있습니다.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+- 보시는 바와 같이, 우리는 두 개의 marquee\_\_slider 클래스가 포함된 marque 클래스를 가지고 있습니다.
+- 이 marquee\_\_slider 클래스들이 같은 이미지를 포함하고 있는 것을 알 수 있습니다.
 - 이는 연속적인 애니메이션처럼 보이도록 하기 위한 것입니다. 그렇지 않으면 애니메이션이 끝나고 재시작되기 전에 공백이 생기게 됩니다. 이렇게 보일 것입니다:
-  
+
 ![이미지](https://miro.medium.com/v2/resize:fit:1400/1*2i5NoSzmWYqFglWRxZ8y0g.gif)
 
 3. 스타일링 🎨
 
 style.css 파일에 다음 코드를 붙여넣으세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 * {
@@ -158,8 +207,8 @@ img {
 }
 ```
 
-- 우리의 스타일링에서 핵심 부분은 우리가 만든 key frame입니다. 여기서는 marquee__slider를 오른쪽에서 왼쪽으로 이동시키고, 애니메이션이 끝나자마자 애니메이션이 다시 시작하도록 초기 위치로 이동됩니다.
-- marquee__slider 클래스의 animation 속성에 주목하세요. animation-name(키프레임 참조), animation-duration, animation-timing-function 및 animation-iteration-count와 같은 다른 속성을 추가합니다.
+- 우리의 스타일링에서 핵심 부분은 우리가 만든 key frame입니다. 여기서는 marquee\_\_slider를 오른쪽에서 왼쪽으로 이동시키고, 애니메이션이 끝나자마자 애니메이션이 다시 시작하도록 초기 위치로 이동됩니다.
+- marquee\_\_slider 클래스의 animation 속성에 주목하세요. animation-name(키프레임 참조), animation-duration, animation-timing-function 및 animation-iteration-count와 같은 다른 속성을 추가합니다.
 - hover 상태에서 애니메이션을 일시 중지할 수도 있습니다. 아래와 같은 코드로 가능합니다:
 
 ```js
@@ -170,7 +219,18 @@ img {
 
 ## 핫픽 ☀️:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이 애니메이션이 올바로 작동하려면 항상 marquee_slider 클래스의 너비가 marquee 클래스의 너비보다 커야 합니다. 애니메이션이 끝나면 슬라이더가 다시 0%로 이동되는데, 슬라이더의 크기가 너무 작으면 사용자가 위치로 되돌아가는 것을 알아차리고 애니메이션이 덜 매력적으로 보일 수 있습니다.
 
@@ -180,7 +240,18 @@ img {
 
 In Plain English 커뮤니티에 참여해 주셔서 감사합니다! 떠나시기 전에:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 작가에게 박수를 보내고 팔로우도 하세요! 👏️️
 - 저희를 팔로우해주세요: X | LinkedIn | YouTube | Discord | Newsletter

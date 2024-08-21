@@ -3,16 +3,13 @@ title: "SASS로 웹사이트 스타일링 하는 방법"
 description: ""
 coverImage: "/assets/img/2024-05-18-SASSFundamentals_0.png"
 date: 2024-05-18 22:07
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-18-SASSFundamentals_0.png
 tag: Tech
 originalTitle: "SASS — Fundamentals"
 link: "https://medium.com/@hassani20120/sass-fundamentals-086070382bb1"
 isUpdated: true
 ---
-
-
-
 
 ![그림](/assets/img/2024-05-18-SASSFundamentals_0.png)
 
@@ -22,10 +19,21 @@ isUpdated: true
 
 들여쓰기 구문으로 알려진 SASS는 코드 블록을 구분하기 위해 공백과 들여쓰기를 활용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-//SASS 
+//SASS
 $primaryColor: #fff
 .myclass
   color: $primaryColor
@@ -43,7 +51,18 @@ $primaryColor: #fff
 
 이로써 SCSS는 CSS에 익숙한 개발자들에게 더 친숙하며, 두 언어 간의 전환을 쉽게 만들어 줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 변수의 힘을 이용하기:
 
@@ -59,21 +78,32 @@ body {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Sass의 중첩 기능을 사용하면 개발자가 CSS 규칙을 계층적으로 구성하여 HTML 요소의 구조를 반영할 수 있습니다. 이는 가독성을 향상시키고 코드의 반복을 줄이는데 도움이 됩니다. 서로 중첩된 선택기를 사용하여 개발자는 더 간결하고 구조화된 스타일 시트를 만들 수 있습니다. 그러나 네스팅을 사용할 때는 과도하게 구체적이거나 부풀어 올라간 CSS 출력을 생성하지 않도록 주의해야 합니다.
 
 ```js
-.button { 
+.button {
   &:visited {
       color: blue;
-    } 
+    }
   &:hover {
       color: red;
-    } 
+    }
   &:active {
       color: yellow;
-    } 
+    }
 }
 ```
 
@@ -81,7 +111,18 @@ Sass의 중첩 기능을 사용하면 개발자가 CSS 규칙을 계층적으로
 
 믹신은 Sass의 또 다른 강력한 기능으로, 재사용 가능한 스타일과 동작을 캡슐화할 수 있게 해줍니다. 그레디언트, 전환, 또는 애니메이션과 같은 일반적인 패턴에 대한 믹신을 정의함으로써 개발자는 코드를 중복하지 않고 여러 요소에 이러한 스타일을 쉽게 적용할 수 있습니다. 믹신은 인수를 받아들일 수도 있어 더 큰 유연성과 사용자 정의가 가능합니다. 이는 코드 재사용을 촉진하고 유지 관리를 간편화하여 효율적인 개발 워크플로를 이끌어냅니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 @mixin theme($theme: DarkGray) {
@@ -109,7 +150,18 @@ Sass의 중첩 기능을 사용하면 개발자가 CSS 규칙을 계층적으로
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예시에서는 세 가지 다른 클래스에 테마 mixin을 적용했습니다: .info, .alert 및 .success입니다. .info 클래스는 $theme의 기본 값을 사용하고, .alert 및 .success 클래스는 각각 $theme에 대한 고유한 값을 전달합니다.
 
@@ -137,7 +189,18 @@ SASS를 CSS로 컴파일하면 다음과 같은 결과물이 나타납니다:
 
 컨트롤 지시문으로 제어를 향상시키기:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Sass는 @if, @else, @for 및 @each와 같은 제어 지시문을 제공합니다. 이를 통해 개발자들은 조건과 반복을 기반으로 한 동적 스타일 시트를 생성할 수 있습니다. 이러한 지시문은 CSS 생성에 대한 더 큰 제어를 제공하여 개발자들이 표현력 있고 효율적인 코드를 작성할 수 있게 합니다. 예를 들어, 개발자들은 @for 반복문을 사용하여 증가하는 값으로 스타일의 시리즈를 생성하거나 @if문을 사용하여 특정 조건에 따라 다른 스타일을 적용할 수 있습니다.
 

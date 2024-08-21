@@ -3,20 +3,15 @@ title: "꼭 설치해야하는 VS Code 확장 프로그램 10가지"
 description: "웹 개발자를 위한 필수 확장 프로그램들을 소개합니다 이 글을 통해 더 나은 개발 환경을 구축하세요"
 coverImage: ""
 date: 2024-08-03 16:52
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
 
-
-
-
-
 # 꼭 설치해야하는 VS Code 확장 프로그램 10가지
-
 
 안녕하세요 여러분!! 모두 잘 지내고 계시길 바랍니다.
 
@@ -32,7 +27,18 @@ VS Code 마켓플레이스에는 멋진 확장 프로그램들이 가득하며, 
 
 우리 모두는 깔끔하지 않은 것을 좋아하지 않습니다. 코딩에서 코드가 잘 정렬되지 않으면 어떤 난잡함이라도 느껴집니다. 잘 정리되고 깔끔한 코드는 항상 인정받으며, 개발자의 눈에 좋아 보입니다. 이 확장 프로그램은 코드를 정렬하고 정렬하여 코드가 조밀하게 보이도록 도와줍니다. 파일을 저장할 때마다 코드를 서식 지정하도록 기본 설정을 변경할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="./img/Top-10-VS-code-extensions-for-web-developers_1.png" />
 
@@ -48,7 +54,18 @@ VS Code 마켓플레이스에는 멋진 확장 프로그램들이 가득하며, 
 
 <img src="./img/Top-10-VS-code-extensions-for-web-developers_3.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. VS Code Icons
 
@@ -62,7 +79,18 @@ VS Code 마켓플레이스에는 멋진 확장 프로그램들이 가득하며, 
 
 <img src="./img/Top-10-VS-code-extensions-for-web-developers_5.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 6. Live Server
 
@@ -86,7 +114,18 @@ ESLint는 JavaScript 파일에서 발생할 수 있는 문제나 일반적인 �
 
 <img src="./img/Top-10-VS-code-extensions-for-web-developers_9.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 9. Better Comments
 

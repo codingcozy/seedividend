@@ -3,16 +3,13 @@ title: "Power BI 보고서에 HTML, CSS를 활용하기"
 description: ""
 coverImage: "/assets/img/2024-05-01-ElevatingPowerBIReportswithHTMLCSSJoiningForces_0.png"
 date: 2024-05-01 22:51
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-01-ElevatingPowerBIReportswithHTMLCSSJoiningForces_0.png
 tag: Tech
 originalTitle: "Elevating Power BI Reports with HTML , CSS: Joining Forces 💪"
 link: "https://medium.com/microsoft-power-bi/elevating-power-bi-reports-with-html-css-joining-forces-f90fbd654e8b"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-05-01-ElevatingPowerBIReportswithHTMLCSSJoiningForces_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 HTML(HyperText Markup Language)은 웹 페이지를 만들고 디자인하는 데 사용되는 표준 프로그래밍 언어입니다. CSS(Cascading Style Sheets)와 결합되어 광범위한 스타일링 및 레이아웃 조정이 가능하며, 이 두 언어는 거의 모든 종류의 웹 인터페이스 디자인을 가능하게 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 HTML/CSS 전문가는 아니지만, Power BI 보고서의 일부에 점점 HTML/CSS를 활용하여 사용자 정의 모양, 아이콘 등을 통해 시각적 매력을 높이고 있어요. 이를 통해 보고서에서 사용된 도형과 측정 항목의 수를 줄이거나 간단하게 만들 수도 있어요. 이전 기사에서 공유된 PBIX 파일을 보신 분들 중 많이 알고 계실 것 같은데요, 저는 주로 Power BI의 기능과 HTML/CSS의 다양성을 효과적으로 결합할 수 있는 HTML Content 비주얼을 활용하곤 해요 💪.
 
@@ -32,7 +40,18 @@ HTML/CSS 전문가는 아니지만, Power BI 보고서의 일부에 점점 HTML/
 
 HTML 내용 비주얼은 Power BI의 표준 시각화 도구가 아니에요. 보고서에 추가하려면 다음 단계를 따라 가져와야 해요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Power BI의 시각화 패널에서 "Get more visuals" 세 개의 점(...)을 클릭합니다.
 - HTML Content 시각화를 선택합니다. 빠르게 찾으려면 오른쪽에 있는 검색 바를 사용하세요.
@@ -44,7 +63,18 @@ HTML 내용 비주얼은 Power BI의 표준 시각화 도구가 아니에요. �
 
 Power BI에서 HTML 콘텐츠 시각화를 사용하려면 시각화를 보고서에 추가하고 HTML 코드를 포함하는 측정 항목이나 필드를 사용하면 됩니다. HTML 코드는 항상 측정 항목이나 필드에서 따옴표(" ")로 둘러싸여 있어야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 HTML 콘텐츠 비주얼에 감사드리는 점은 DAX와 HTML의 기능을 결합하여 시각화를 최대한 활용할 수 있는 측정치를 만들 수 있는 점입니다. 몇 가지 예시를 통해 더욱 명확해질 것입니다.
 
@@ -54,7 +84,18 @@ HTML에 대해 간단히 알아보기...
 
 HTML은 웹 브라우저에 콘텐츠를 표시하는 방법을 지시하는 일련의 요소나 태그로 구성됩니다. 예를 들어, 텍스트는 다양한 태그로 둘러싸여 있어야 하는데, 이는 문단으로 표시할지, 제목으로 표시할지, 아니면 목록 항목으로 표시할지를 나타내는 것입니다. HTML 태그는 일반적으로 `p`로 시작하는 문단과 `/p`로 끝나는 것과 같이 짝을 이룹니다. 이러한 태그 내의 속성은 스타일, 링크 또는 기타 속성을 더 자세히 정의할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 HTML의 기본 이해가 내 프로그래밍 여정 전체에 많은 도움이 되었다는 것을 발견했어요. 저는 프로젝트를 통해 가장 잘 배우는 편이에요. 그래서 HTML을 사용하는 방법을 시작할 때 도움이 되도록 몇 가지 간단한 예제를 다음 섹션에서 보여드릴 거에요. 그러나 강의를 통해 학습하는 것을 선호한다면, Codecademy의 HTML 강의를 권해드립니다. 몇 년 전에 CSS 강의와 함께 수강한 적이 있어요. 각 강의의 수강 시간은 약 6시간이고, 제게 견고한 기반이 마련되도록 도와주었어요 (제 생각에요 😅).
 
@@ -69,7 +110,18 @@ HTML의 기본 이해가 내 프로그래밍 여정 전체에 많은 도움이 �
 - `span style="color:#FF5733;"`와 `/span`은 텍스트 색상을 바꿀 수 있어요.
 - `div style="font-family:`Arial`;"`와 `/div`은 글꼴을 바꿀 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 HTML 태그들을 조치나 필드에 직접 통합하여 보고서 내에서 텍스트 모양을 동적으로 수정할 수 있습니다. 이 기능은 주요 지표를 강조하거나 특정 부분을 강조하거나 보고서를 더 멋지게 만드는 데 특히 유용합니다 😎.
 
@@ -79,21 +131,43 @@ HTML의 기본 이해가 내 프로그래밍 여정 전체에 많은 도움이 �
 
 여기 Average Score KPI 아래 "지난 학기/작년" 텍스트를 표시하기 위해 만든 DAX 측정값이 있어요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-시각화 마지막 학기/작년 평균 점수 = 
+시각화 마지막 학기/작년 평균 점수 =
 "지난 학기: " & "<b>" & FORMAT([작년 학기 평균 점수], "0.0") & "</b><br>" &
 "작년: " & "<b>" & FORMAT([작년 평균 점수], "0.0") & "</b>"
 ```
 
-이 측정값에서는 강조하려는 텍스트를 `b`와 `/b` 태그 사이에 넣어 텍스트를 굵게 표시했습니다. 새 줄로 이동하기 위해 `br` 태그를 사용했습니다. 모든 HTML 태그는 인용 부호 안에 포함되어야 합니다. DAX 측정값에서 두 개 이상의 HTML 태그를 연달아 사용해야 할 때(`/b``br`와 같이), 같은 인용 부호 내에 함께 넣을 수 있습니다.
+이 측정값에서는 강조하려는 텍스트를 `b`와 `/b` 태그 사이에 넣어 텍스트를 굵게 표시했습니다. 새 줄로 이동하기 위해 `br` 태그를 사용했습니다. 모든 HTML 태그는 인용 부호 안에 포함되어야 합니다. DAX 측정값에서 두 개 이상의 HTML 태그를 연달아 사용해야 할 때(` /b``br `와 같이), 같은 인용 부호 내에 함께 넣을 수 있습니다.
 
 ## 2. 모양 생성하기
 
 HTML과 CSS는 Power BI 보고서 내에서 직접 사용자 지정 모양을 생성하는 강력한 도구 상자를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 보고서에서는 전 학기와 작년을 보여주는 KPI의 변화를 나타내기 위해 다음과 같은 배경 타원 모양을 생성했습니다.
 
@@ -103,7 +177,18 @@ HTML과 CSS는 Power BI 보고서 내에서 직접 사용자 지정 모양을 �
 
 이를 위해 'Oval Set Up'이라는 DAX 측정 항목을 생성하여 시작했습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 Oval Set Up = "<head>
@@ -141,7 +226,18 @@ Oval Set Up = "<head>
   - color: FONT_COLOR;는 원형 내 텍스트의 색상을 설정하는데, FONT_COLOR는 텍스트 색상을 위한 플레이스홀더입니다.
   - font-size: 10px;은 원형 내의 텍스트 크기를 지정합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. HTML 본문과 콘텐츠:
 
@@ -152,30 +248,41 @@ Oval Set Up = "<head>
 
 <img src="/assets/img/2024-05-01-ElevatingPowerBIReportswithHTMLCSSJoiningForces_4.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-형식화된 지난 학기 평균 점수 변동 = 
+형식화된 지난 학기 평균 점수 변동 =
 VAR _Variation = FORMAT(ABS([지난 학기 평균 점수 % 변동]), "0.0%")
-VAR _BackgroundColor = 
+VAR _BackgroundColor =
     IF(
         [지난 학기 평균 점수 변동]<0,
         [Color Light Red],
         [Color Light Green]
     )
-VAR _FontColor = 
+VAR _FontColor =
     IF(
             [지난 학기 평균 점수 변동]<0,
             [Color Red],
             [Color Green]
         )
-VAR _Text = 
+VAR _Text =
     IF(
             [지난 학기 평균 점수 변동]<0,
             [아이콘 빨간 삼각형 아래] &  _Variation,
             [아이콘 초록 삼각형 위] &  _Variation
         )
-VAR _Shape = 
+VAR _Shape =
 SUBSTITUTE(
     SUBSTITUTE(
         SUBSTITUTE(
@@ -189,7 +296,7 @@ SUBSTITUTE(
     "{텍스트}",
     _Text
 )
-RETURN IF([지난 학기평균 점수] <> 빈칸(), _Shape) 
+RETURN IF([지난 학기평균 점수] <> 빈칸(), _Shape)
 ```
 
 지난 학기에 이루어지는 측정 항목은 다음과 같습니다:
@@ -205,7 +312,18 @@ RETURN IF([지난 학기평균 점수] <> 빈칸(), _Shape)
 
 ## 3. 온라인에서 찾은 아이콘 통합
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파워 BI 보고서에 이미지로 아이콘을 로드하는 대신 HTML로 표시하면 더 깔끔해 보입니다. 비즈니스 규칙에 따라 적용할 수 있는 다양한 사용자 정의 옵션이 있습니다(예: 아이콘 크기를 더 작게하거나 크게 만들기, 색상 변경, 회전 등).
 
@@ -215,7 +333,18 @@ RETURN IF([지난 학기평균 점수] <> 빈칸(), _Shape)
 
 <img src="/assets/img/2024-05-01-ElevatingPowerBIReportswithHTMLCSSJoiningForces_5.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가끔 이 라이브러리에서 여러 아이콘을 사용하기 때문에, 타원 모양과 같은 아이콘들을 사용하는 경우가 많습니다. 먼저 DAX 측정값을 설정하여, 그 중 일부를 대체합니다.
 
@@ -237,7 +366,18 @@ RETURN IF([지난 학기평균 점수] <> 빈칸(), _Shape)
 - 아이콘 표시 및 사용자 지정: 'i' 태그를 사용하여 HTML 콘텐츠에 아이콘을 삽입합니다. 'class' 속성은 ICON_CODE (Font Awesome의 특정 클래스 이름의 플레이스홀더)와 SIZE(크기를 나타내는 플레이스홀더, 크기 조절 메타데이터를 사용하며, 예를 들어 'fa-lg'는 큰 크기입니다)를 사용하여 표시할 아이콘을 지정합니다. 'style' 속성은 원하는 색상 코드로 대체될 COLOR를 사용하여 아이콘의 색상을 설정하는 데 사용됩니다.
 - 공간 관리: 끝에 있는 '&nbsp;'(간격을 유지하는 비중단 공백) 문자는 아이콘 뒤에 텍스트나 다른 요소가 따라오는 경우 적절한 간격을 유지하기 위해 사용됩니다. 이는 보고서에서 아이콘 다음에 텍스트나 다른 요소가 있을 경우 올바른 간격을 유지하는 데 유용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 실제 값으로 COLOR, ICON_CODE, 및 SIZE 자리 표시자를 대체함으로써, 이 방법을 사용하면 커스텀 아이콘을 Power BI 보고서에 동적으로 삽입할 수 있습니다.
 
@@ -248,15 +388,15 @@ RETURN IF([지난 학기평균 점수] <> 빈칸(), _Shape)
 ```js
 Color Green = "#2C6D6A"
 
-Icon green arrow up = 
+Icon green arrow up =
 SUBSTITUTE(
         SUBSTITUTE(
             SUBSTITUTE(
                 [Icon Font awesome icon set up],
                 "ICON_CODE",
                 "fa-solid fa-arrow-trend-up"
-                ), 
-            "SIZE", 
+                ),
+            "SIZE",
             "fa-md"
         ),
         "COLOR",
@@ -264,7 +404,18 @@ SUBSTITUTE(
     )
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아이콘 녹색 화살표 측정치가 이루어내는 것은 다음과 같습니다:
 
@@ -273,11 +424,22 @@ SUBSTITUTE(
 - 두 번째 치환 — SIZE: 다음 SUBSTITUTE 함수는 SIZE 플레이스홀더를 "fa-md"로 대체하여 아이콘의 크기를 중간으로 설정합니다. Font Awesome는 다양한 크기 클래스(fa-xs, fa-sm, fa-md, fa-lg, fa-xl, fa-2x부터 fa-10x)를 사용하여 아이콘을 손쉽게 크기 조절할 수 있도록 합니다. fa-md를 선택함으로써 아이콘이 너무 작거나 너무 크지 않게 조절하여 사용되는 맥락 내에서 시각적으로 균형을 맞추게 됩니다.
 - 세 번째 치환 — COLOR: 마지막 SUBSTITUTE 함수는 COLOR 플레이스홀더를 [초록색]로 대체합니다. 이 측정치의 이 부분은 아이콘의 색상을 사용자 정의하며, 사전 정의된 변수나 측정치 [초록색]을 사용하여 사용할 정확한 녹색 쉐이드를 지정합니다. 녹색은 긍정적 성과와 관련되어 있어 상승하는 화살표 아이콘에 적합한 선택으로 여겨집니다.
 
-파워 BI 보고서에서 만들어진 다른 모든 아이콘의 DAX 측정치를 확인하려면 이 기사의 끝에 제공된 PBIX 파일을 다운로드하여 사용할 수 있습니다. 이들은 _Constants/HTML Set Up 측정치 폴더 아래에서 모두 확인할 수 있습니다.
+파워 BI 보고서에서 만들어진 다른 모든 아이콘의 DAX 측정치를 확인하려면 이 기사의 끝에 제공된 PBIX 파일을 다운로드하여 사용할 수 있습니다. 이들은 \_Constants/HTML Set Up 측정치 폴더 아래에서 모두 확인할 수 있습니다.
 
 ![이미지](/assets/img/2024-05-01-ElevatingPowerBIReportswithHTMLCSSJoiningForces_7.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## HTML 콘텐츠 시각을 활용하는 다른 기회들
 
@@ -290,7 +452,18 @@ SUBSTITUTE(
 
 물론 이 외에도 더 많은 방법이 있을 거에요!!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 마무리
 
@@ -300,7 +473,18 @@ SUBSTITUTE(
 
 즐거운 디자인 🎨 그리고 저의 다음 업데이트를 기대해주세요! 🥸
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 여기에서 나를 찾거나 팔로우하세요:
 

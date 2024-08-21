@@ -3,16 +3,13 @@ title: "제이쿼리 4, 다시 부활할 수 있을까? "
 description: ""
 coverImage: "/assets/img/2024-05-18-jQuery4ANewEra_0.png"
 date: 2024-05-18 21:16
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-18-jQuery4ANewEra_0.png
 tag: Tech
 originalTitle: "jQuery 4: A New Era"
 link: "https://medium.com/@alexefimenko/jquery-4-a-new-era-3695332777ef"
 isUpdated: true
 ---
-
-
-
 
 jQuery, 수십년 동안 무수히 많은 웹사이트를 구동해 온 "옛날식" 자바스크립트 라이브러리가 다음 주요 릴리스, jQuery 4.0.0 베타를 향하여 나아가고 있습니다.
 
@@ -22,7 +19,18 @@ jQuery, 수십년 동안 무수히 많은 웹사이트를 구동해 온 "옛날�
 
 # 2024년에도 jQuery가 중요한 이유
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최근 몇 년 동안 새로운 프레임워크와 라이브러리가 등장했지만, jQuery는 현대 웹 개발에서 중요한 도구로 남아 있습니다.
 
@@ -32,7 +40,18 @@ jQuery, 수십년 동안 무수히 많은 웹사이트를 구동해 온 "옛날�
 
 <img src="/assets/img/2024-05-18-jQuery4ANewEra_1.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # jQuery 4.0.0 Beta의 주요 기능 및 개선 사항
 
@@ -51,7 +70,18 @@ jQuery 4.0.0 베타 릴리스에는 몇 가지 새로운 기능과 개선 사항
 
 ![image](/assets/img/2024-05-18-jQuery4ANewEra_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 개발 과정에서 극복한 도전
 
@@ -63,7 +93,18 @@ jQuery 팀은 개발 과정 중 다양한 도전을 겪었습니다:
 
 # 추가 정보
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이것은 베타 릴리스이므로 최종 릴리스 이전에 일부 버그와 변경 사항이 예상됩니다.
 - 최종 릴리스 전에 전체적인 업그레이드 안내서가 게시될 예정입니다.
@@ -77,7 +118,18 @@ jQuery 팀은 개발 과정 중 다양한 도전을 겪었습니다:
 
 ![이미지](/assets/img/2024-05-18-jQuery4ANewEra_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 흥미로운 내용이었나요? 👏 좋아요 눌러주세요! 다음 이야기도 가져올 수 있도록 제게 동기부여해주세요!
 

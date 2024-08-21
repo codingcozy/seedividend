@@ -3,17 +3,13 @@ title: "TypeScript에서 함수형 프로그래밍 금융 데이터 흐름 적�
 description: ""
 coverImage: "/assets/img/2024-06-23-FunctionalProgramminginTypeScriptAFinancialDataFlow_0.png"
 date: 2024-06-23 13:56
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-FunctionalProgramminginTypeScriptAFinancialDataFlow_0.png
 tag: Tech
 originalTitle: "Functional Programming in TypeScript: A Financial Data Flow"
 link: "https://medium.com/@rasool.rahmanzade/functional-programming-in-typescript-a-financial-data-flow-033e0ede3b93"
 isUpdated: true
 ---
-
-
-
-
 
 ![Functional Programming in TypeScript](/assets/img/2024-06-23-FunctionalProgramminginTypeScriptAFinancialDataFlow_0.png)
 
@@ -27,8 +23,18 @@ isUpdated: true
 - 함수 합성: 더 간단한 함수들을 결합하여 복잡한 함수를 구축합니다. 이 기술을 사용하면 기본 작업을 연결하여 복잡한 기능을 만들 수 있으며 고수준의 추상화를 유지할 수 있습니다. 함수 합성은 코드 재사용과 명확성을 촉진하며 각 함수를 단독으로 테스트하고 이해하고부터 큰 워크플로에 통합되기 전까지 더 자세히 이해할 수 있습니다.
 - 선언적 코드: 제어 흐름을 명시적으로 설명하지 않고 로직을 표현합니다. 선언적 코드는 계산 논리를 세세하게 설명하지 않고 제어 흐름을 자세히 설명하지 않습니다. 명령형 프로그래밍과 달리 목표를 달성하기 위한 명시적 단계를 지정하는 대신 선언적 프로그래밍은 프로그램이 달성해야 하는 것을 기술합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 함수형 프로그래밍을 위한 TypeScript 기능들
 
@@ -41,46 +47,57 @@ isUpdated: true
 
 ADTs는 복잡한 데이터 구조를 효과적으로 표현하며 각각의 독특한 특성과 행위를 포착할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-type Currency = 'EUR' | 'USD';
+type Currency = "EUR" | "USD";
 
 interface Cash {
-    type: 'cash';
-    amount: number;
-    currency: Currency;
+  type: "cash";
+  amount: number;
+  currency: Currency;
 }
 
 interface Stock {
-    type: 'stock';
-    ticker: string;
-    quantity: number;
+  type: "stock";
+  ticker: string;
+  quantity: number;
 }
 
 interface Credit {
-    type: 'credit';
-    isin: string;
-    maturity: Date;
-    faceValue: number;
-    interestRate: number;
+  type: "credit";
+  isin: string;
+  maturity: Date;
+  faceValue: number;
+  interestRate: number;
 }
 
 type Element = Cash | Stock | Bond;
 
 const calculateValue = (instrument: Element, exchangeRates: Record<Currency, number>): number => {
-    switch (instrument.type) {
-        case 'cash':
-            return instrument.amount * exchangeRates[instrument.currency];
-        case 'stock':
-            // Some complex value calcuation
-            return instrument.quantity * 100;
-        case 'credit':
-            // Some complex value calcuation
-            return instrument.faceValue * (1 + instrument.interestRate / 100);
-        default:
-            throw new Error('Unknown financial instrument');
-    }
+  switch (instrument.type) {
+    case "cash":
+      return instrument.amount * exchangeRates[instrument.currency];
+    case "stock":
+      // Some complex value calcuation
+      return instrument.quantity * 100;
+    case "credit":
+      // Some complex value calcuation
+      return instrument.faceValue * (1 + instrument.interestRate / 100);
+    default:
+      throw new Error("Unknown financial instrument");
+  }
 };
 ```
 
@@ -113,12 +130,23 @@ const calculateInterest = (amount: number, rate: number): Option<number> =>
     rate >= 0 ? some(amount * rate) : none;
 
 const result = flatMapOption(some(1000), amount => calculateInterest(amount, 0.05));
-console.log(result); 
+console.log(result);
 // Should be....
 // Some { tag: 'Some', value: 50 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 금융 데이터 조작을 위한 렌즈
 
@@ -126,40 +154,51 @@ console.log(result);
 
 ```js
 type Lens<S, A> = {
-    get: (s: S) => A;
-    set: (a: A, s: S) => S;
+  get: (s: S) => A,
+  set: (a: A, s: S) => S,
 };
 
 const lens = <S, A>(getter: (s: S) => A, setter: (a: A, s: S) => S): Lens<S, A> => ({
-    get: getter,
-    set: setter,
+  get: getter,
+  set: setter,
 });
 
 type Portfolio = {
-    owner: string;
-    instruments: FinancialInstrument[];
+  owner: string,
+  instruments: FinancialInstrument[],
 };
 
 const instrumentsLens = lens(
-    (p: Portfolio) => p.instruments,
-    (instruments, p) => ({ ...p, instruments })
+  (p: Portfolio) => p.instruments,
+  (instruments, p) => ({ ...p, instruments })
 );
 
 const addInstrument = (portfolio: Portfolio, instrument: FinancialInstrument): Portfolio => {
-    const instruments = instrumentsLens.get(portfolio);
-    return instrumentsLens.set([...instruments, instrument], portfolio);
+  const instruments = instrumentsLens.get(portfolio);
+  return instrumentsLens.set([...instruments, instrument], portfolio);
 };
 
-const myPortfolio: Portfolio = { owner: 'Rass', instruments: [] };
-const updatedPortfolio = addInstrument(myPortfolio, { kind: 'cash', amount: 1000, currency: 'USD' });
-console.log(updatedPortfolio); 
+const myPortfolio: Portfolio = { owner: "Rass", instruments: [] };
+const updatedPortfolio = addInstrument(myPortfolio, { kind: "cash", amount: 1000, currency: "USD" });
+console.log(updatedPortfolio);
 // 예상 출력 결과...
 // 현금 계기가 추가된 포트폴리오
 ```
 
 # 실용적 예시: 금융 데이터 처리 파이프라인
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여러 소스에서 금융 데이터를 가져 와서 처리하고 리스크 분석을 수행해야 하는 작업을 고려해 보세요.
 
@@ -167,50 +206,72 @@ console.log(updatedPortfolio);
 
 ```js
 const fetchStockPrices = async (): Promise<Option<Record<string, number>>> => {
-    return some({ 'AAAA': 150, 'BBBB': 2800 });
+  return some({ AAAA: 150, BBBB: 2800 });
 };
 
 const fetchExchangeRates = async (): Promise<Option<Record<Currency, number>>> => {
-    return some({ 'EUR': 1.2, 'USD': 1 });
+  return some({ EUR: 1.2, USD: 1 });
 };
 ```
 
 ## 데이터 처리와 결합하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여러 소스에서 데이터를 결합합니다.
 
 ```js
-const processFinancialData = async (): Promise<Option<{ stocks: Record<string, number>; rates: Record<Currency, number> }>> => {
-    const stockPrices = await fetchStockPrices();
-    const exchangeRates = await fetchExchangeRates();
+const processFinancialData = async (): Promise<
+  Option<{ stocks: Record<string, number>, rates: Record<Currency, number> }>
+> => {
+  const stockPrices = await fetchStockPrices();
+  const exchangeRates = await fetchExchangeRates();
 
-    return flatMapOption(stockPrices, stocks =>
-        mapOption(exchangeRates, rates => ({ stocks, rates }))
-    );
+  return flatMapOption(stockPrices, (stocks) => mapOption(exchangeRates, (rates) => ({ stocks, rates })));
 };
 
-processFinancialData().then(data => console.log(data));
+processFinancialData().then((data) => console.log(data));
 ```
 
 ## 위험 분석
 
 결합된 데이터에 대한 위험 분석을 처리합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-const analyzeRisk = (data: { stocks: Record<string, number>; rates: Record<Currency, number> }): string => {
-    const totalValue = Object.values(data.stocks).reduce((acc, price) => acc + price, 0);
-    return totalValue > 5000 ? 'High Risk' : 'Low Risk';
+const analyzeRisk = (data: { stocks: Record<string, number>, rates: Record<Currency, number> }): string => {
+  const totalValue = Object.values(data.stocks).reduce((acc, price) => acc + price, 0);
+  return totalValue > 5000 ? "High Risk" : "Low Risk";
 };
 
 const performRiskAnalysis = async () => {
-    const data = await processFinancialData();
-    const riskLevel = mapOption(data, analyzeRisk);
-    // The riskLevel variable here is an option holding the result.
-    console.log(riskLevel);
+  const data = await processFinancialData();
+  const riskLevel = mapOption(data, analyzeRisk);
+  // The riskLevel variable here is an option holding the result.
+  console.log(riskLevel);
 };
 
 performRiskAnalysis();

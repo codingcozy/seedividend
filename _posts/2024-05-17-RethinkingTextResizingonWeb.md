@@ -3,17 +3,13 @@ title: "웹에서 텍스트 크기 조절을 하는 방법"
 description: ""
 coverImage: "/assets/img/2024-05-17-RethinkingTextResizingonWeb_0.png"
 date: 2024-05-17 21:46
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-17-RethinkingTextResizingonWeb_0.png
 tag: Tech
 originalTitle: "Rethinking Text Resizing on Web"
 link: "https://medium.com/airbnb-engineering/rethinking-text-resizing-on-web-1047b12d2881"
 isUpdated: true
 ---
-
-
-
-
 
 ![Airbnb의 웹 접근성 개선](/assets/img/2024-05-17-RethinkingTextResizingonWeb_0.png)
 
@@ -25,8 +21,18 @@ Airbnb는 대문자 텍스트 크기가 필요한 호스트 및 게스트를 위
 - 모든 프론트엔드 엔지니어들의 워크플로에 영향을 미칠 변경 사항 도입의 어려움
 - 이러한 접근성 향상을 시작한 이후 본 이점들
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 by: Steven Bassett
 
@@ -36,7 +42,18 @@ by: Steven Bassett
 
 # 시력이 어려운 사용자의 요구 충족하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 미리 앞을 내다: 미래를 위한 우리의 시야 개선” CDC
 
@@ -46,7 +63,18 @@ by: Steven Bassett
 
 접근성 도전 과제를 더 잘 이해하기 위해 브라우저 확대 기능이 어떻게 작동하는지 알아봅시다. 이미 이 기능에 익숙할 수도 있습니다. 창 내에서 모든 콘텐츠의 크기를 조절하기 위해 Command / Ctrl + 또는 Command / Ctrl —와 같은 키보드 단축키를 사용해 본 적이 있을 것입니다. 확대 비율이 100%를 초과하면 뷰포트의 높이와 너비가 비례적으로 줄어들고, 컨텐츠는 더 큰 창에 맞게 확대되어 표시됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 접근성 테스트 전략의 일환으로, 데스크톱 및 모바일 크기에서 페이지의 사용성을 테스트하기 위해 브라우저 확대 기능을 사용했습니다. 데스크톱 테스트 결과, 반응형 웹 방식이 전체 사이트에 걸쳐 200% 확대 수준에서 상대적으로 잘 작동하는 것으로 나타났습니다. 모바일 웹과 비교했을 때 전반적인 사용자 경험에서 문제가 적었습니다.
 
@@ -56,7 +84,18 @@ by: Steven Bassett
 
 # 폰트 스케일링
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 폰트 스케일링은 전체 페이지 줌과는 독립적으로 텍스트 크기를 조절하는 기능을 설명하는 용어입니다. 브라우저 줌과 달리 모든 콘텐츠를 비례적으로 확대 또는 축소하는 대신, 폰트 스케일링은 페이지의 텍스트 요소에만 적용됩니다. 이를 통해 사용자는 화면 레이아웃이나 반응성에 큰 영향을 주지 않으면서 원하는 글꼴 크기에 맞게 폰트 크기를 사용자 정의할 수 있습니다.
 
@@ -66,7 +105,18 @@ by: Steven Bassett
 
 독립적인 폰트 스케일링 개념은 iOS의 동적 타입 기능과 유사합니다. 저희 블로그 글 "Airbnb의 동적 타입 지원"에서 논의한 것처럼, 동적 타입을 이용하면 사용자가 선호하는 시스템 전체 텍스트 크기를 설정할 수 있고 이는 모든 호환되는 앱에 걸쳐 자동으로 폰트 크기를 조정합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 iOS에서의 원래 접근 전략을 고려할 때, 웹 접근성 접근 방식에 글꼴 크기 확장(확대 축소 대신)을 통합하는 것은 플랫폼 간의 접근 방식 동등성을 도울 수 있는 당연한 다음 단계였습니다.
 
@@ -76,7 +126,18 @@ iOS에서의 원래 접근 전략을 고려할 때, 웹 접근성 접근 방식�
 
 3가지 CSS 길이 단위에 대해 깊게 살펴보고 글꼴 크기 조정과 관련이 있는 방식을 살펴봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - px 단위는 웹에서 가장 흔히 사용되는 단위로, 이론적으로 화면에서 한 화소를 나타내야 합니다. 렌더링된 값이 변하지 않는 고정 단위입니다.
 - em 단위는 상대적인 단위로, 부모 요소의 글꼴 크기를 기준으로 합니다. ‘em’이란 이름은 주어진 글꼴에서 대문자 ‘M’의 너비에 따라 지어졌으며, 글꼴 크기에 대한 참조점으로 전통적으로 사용되었습니다. 1 em 단위는 현재 글꼴 크기의 높이에 해당하며, 기본 값으로 약 16px를 나타냅니다. em 단위는 비례적으로 크기가 조정되므로 부모의 글꼴 크기에 영향을 받을 수 있습니다.
@@ -88,7 +149,18 @@ em과 rem 단위 사이의 선택은 종종 글꼴 크기 조정에 필요한 �
 
 px와 같은 고정 단위를 사용할 수 있는 곳이라면 rem과 같은 상대적인 단위를 사용할 수 있습니다. 그러나 모든 속성에 rem 단위를 무분별하게 사용하는 것은 원치 않는 크기 조정 행동과 복잡성이 증가할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 에어비앤비의 경우, 팀은 모든 요소를 비례적으로 확장하는 대신 폰트 크기 조절을 위해 특히 rem 단위의 사용을 우선시하기로 결정했습니다. 이 목표 지향적인 방식은 레이아웃의 모든 측면을 확장하는 잠재적인 단점 없이 일관된 텍스트 크기 조절의 주요 이점을 제공했습니다.
 
@@ -99,7 +171,18 @@ px와 같은 고정 단위를 사용할 수 있는 곳이라면 rem과 같은 �
 
 # 디자이너와 개발자를 위한 원활한 전환 가능성 활성화
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 픽셀 단위에서 rem 단위로의 변경은 CSS 작업 방식을 회사 전반에 걸쳐 중요하게 바꾸는 것이므로, 특히 여러 팀 간에 협업할 때는 상당한 도전이 될 수 있습니다. 디자이너 및 프론트엔드 개발자들에게 새로운 방식을 교육하고 기존의 픽셀 단위 값을 rem 단위로 변환하도록 요구하는 시간과 노력은 도입 장벽이 될 수 있습니다. 이에 대응하기 위해 에어비앤비 팀은 가능한 한 단위 변환 프로세스를 자동화하는 데 초점을 맞추기로 결정하여, 새로운 rem 기반 시스템으로의 원활한 전환을 도와주고자 합니다.
 
@@ -109,7 +192,18 @@ px와 같은 고정 단위를 사용할 수 있는 곳이라면 rem과 같은 �
 
 디자인팀과 함께 주로 집중한 부분은 Text Resizer - 접근성 확인 도구를 활용하여 폰트 스케일링을 테스트하여 디자인이 폰트 크기의 2배로 설정되었을 때 어떻게 보일지 시뮬레이션하는 것이었습니다. 이 도구를 활용하면 디자인 프로세스 초기에 문제점을 더 빨리 발견할 수 있었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 두 가지 CSS-in-JS 시스템의 복잡성 다루기
 
@@ -119,7 +213,18 @@ px와 같은 고정 단위를 사용할 수 있는 곳이라면 rem과 같은 �
 
 Linaria의 CSS 사용자 지정 속성 지원을 활용하여 팀은 기존 픽셀 기반 값들을 자동으로 그들의 rem 단위 상당값으로 변환하는 새로운 타이포그래피 테마 값을 생성할 수 있었습니다. 이 접근 방식을 통해 팀은 새로운 rem 기반 테마 값을 중앙에서 도입함으로써 자식 요소에서 이를 사용할 수 있게 했습니다. 이는 팀에게 전환 과정 중 필요한 유연성을 제공하기 위해 페이지별로 rem 값을 재정의하는 능력을 제공했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { typography } from './site-theme';
@@ -129,7 +234,7 @@ const theme: css`
  ${getCssVariables({ typography: replacePxWithREMs(typography) })}
  // 다음과 같이 변환됩니다:
  // - body-font-size: 16px;
- // - body-font-size: 1rem; 
+ // - body-font-size: 1rem;
 `;
 
 // 이 컴포넌트의 자식들에 대한 테마 변수를 무시하고 linaria가 생성한 클래스명을 사용합니다.
@@ -156,7 +261,18 @@ const RemThemeLocalProvider: React.FC = ({ children }) => {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 스타일과 함께 React
 
@@ -165,29 +281,40 @@ const RemThemeLocalProvider: React.FC = ({ children }) => {
 ```js
 export const withRemStyles = (
   styleFn?: Nullable<(theme: Theme) => Styles>,
-  options?: WithStylesOptions & { disableConvertToRemUnits?: boolean },
+  options?: WithStylesOptions & { disableConvertToRemUnits?: boolean }
 ) => {
   const disableConvertToRemUnits = getDisableConvertToRemUnits(options);
-   // 변환이 비활성화된 경우, 원래 withStyles 함수를 그대로 반환합니다 
-   if (disableConvertToRemUnits) {
-     return _withStyles(styleFn, options);
+  // 변환이 비활성화된 경우, 원래 withStyles 함수를 그대로 반환합니다
+  if (disableConvertToRemUnits) {
+    return _withStyles(styleFn, options);
+  }
+  // 그렇지 않은 경우, 원래 스타일 함수를 새 함수로 감싸서
+  // px를 rem으로 변환하는 방법을 적용합니다
+  return _withStyles((theme: Theme) => {
+    if (styleFn) {
+      const styles = styleFn(theme);
+      const remStyles = convertToRem(styles);
+      return remStyles;
     }
-   // 그렇지 않은 경우, 원래 스타일 함수를 새 함수로 감싸서 
-   // px를 rem으로 변환하는 방법을 적용합니다
-   return _withStyles((theme: Theme) => {
-     if (styleFn) {
-     const styles = styleFn(theme);
-     const remStyles = convertToRem(styles);
-     return remStyles;
-   }
-   return {};
- }, options);
+    return {};
+  }, options);
 };
 ```
 
 그런 다음, convertToRem은 키와 값 중에서 폰트 크기 속성 중 어떤 것이든 변환된 값을 매핑합니다. 이를 통해 변환 프로세스를 더 직관적으로 자동화할 수 있었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 컴포넌트 테스팅을 위한 개선 사항
 
@@ -197,7 +324,18 @@ export const withRemStyles = (
 
 # 모바일 사파리에서의 글꼴 스케일링
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Supporting font scaling for Mobile Safari was more difficult. Unlike other browsers, there is not a font size preference available in Mobile Safari. However, they have released support for their own font: -apple-system-body but there are some important considerations.
 
@@ -215,20 +353,31 @@ Since macOS High Sierra (10.13), desktop Safari also supports the font preferenc
 
 Another consideration is that the “100%” default font size selected does not equal the standard font size of 16px, but rather 17px. This is a very subtle difference, but it is critical for the design quality bar we aim to achieve at Airbnb. To resolve this issue, we ended up using an inline head script to normalize the value. By placing it early into the page execution, we avoided seeing a change in font size.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 (() => {
   // 만약 브라우저가 supports 문에 일치하지 않으면 아무 작업도 하지 마세요
-  if (!CSS.supports('(font: -apple-system-body) and (-webkit-touch-callout: default)')) return;
+  if (!CSS.supports("(font: -apple-system-body) and (-webkit-touch-callout: default)")) return;
   // 루트 요소 스타일이 아직 구문 분석되지 않았으므로 요소를 생성해야 함
-  const div = document.createElement('div');
-  div.setAttribute('style', 'font: -apple-system-body');
+  const div = document.createElement("div");
+  div.setAttribute("style", "font: -apple-system-body");
   // body 요소는 아직 사용할 수 없으므로 루트 요소에 추가해야 함
   documentElement.appendChild(div);
   const style = getComputedStyle(div);
-  if (style.fontSize === '17px') {
-    documentElement.style.setProperty('font-size', '16px');
+  if (style.fontSize === "17px") {
+    documentElement.style.setProperty("font-size", "16px");
   }
   documentElement.removeChild(div);
 })();
@@ -240,8 +389,18 @@ Another consideration is that the “100%” default font size selected does not
 
 확장 가능한 글꼴을 지원하는 것은 호스트 및 시각 장애가 있는 손님들 및 큰 글꼴 크기와 브라우징 경험을 제어할 수 있는 사람들에게 혁명적인 차이를 만들어줄 투자입니다. 아래는 홈페이지가 블러된 시야를 가진 사람에게 기본 글꼴 크기(16px)가 어떻게 보이는지와 글꼴 크기를 두 배로 늘려(32px) 어떻게 보이는지 보여주는 두 가지 예시입니다. 두 번째 이미지가 훨씬 더 가독성이 높고 사용하기 편합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 폰트 크기 조정을 제품의 접근성 전략으로 선택한 것은 우리 플랫폼의 전반적인 사용자 경험을 현저히 향상시킨 여러 가지 이점을 가져왔습니다. 이 변경을 자동화하여 rem 단위로 변환하는 것으로 전환하는 일은 이러한 전환을 더 쉽게 만들어주었습니다. 이 변경 후 전체 사이트에서 우리의 전체 문제 수를 볼 때, 기존의 텍스트 크기 조정 문제 중 80% 이상이 해결되었습니다. 뿐만 아니라 이후 새로운 문제가 줄어들고 있습니다.
 
@@ -254,6 +413,17 @@ Another consideration is that the “100%” default font size selected does not
 - 접근 방식을 지원해준 Jordanna Kwok, Sarah Alley, JN Vollmer에게
 - 디자인 지원을 해준 Veronica Reyes, Jamie Cristal에게
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 제품 이름, 로고 및 브랜드는 해당 소유자들의 소유물입니다. 이 웹사이트에서 사용된 모든 회사, 제품 및 서비스 이름은 식별 목적으로만 사용되었습니다. 이러한 이름, 로고 및 브랜드의 사용은 어떠한 보증을 시사하지 않습니다.

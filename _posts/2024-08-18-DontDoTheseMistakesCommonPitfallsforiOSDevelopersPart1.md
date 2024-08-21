@@ -3,7 +3,7 @@ title: "iOS 개발자가 자주하는 치명적인 실수"
 description: ""
 coverImage: "/assets/img/2024-08-18-DontDoTheseMistakesCommonPitfallsforiOSDevelopersPart1_0.png"
 date: 2024-08-18 11:46
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-18-DontDoTheseMistakesCommonPitfallsforiOSDevelopersPart1_0.png
 tag: Tech
 originalTitle: "Dont Do These Mistakes Common Pitfalls for iOS Developers  Part 1"
@@ -11,7 +11,6 @@ link: "https://medium.com/gitconnected/dont-do-these-mistakes-common-pitfalls-fo
 isUpdated: true
 updatedAt: 1724032699674
 ---
-
 
 <img src="/assets/img/2024-08-18-DontDoTheseMistakesCommonPitfallsforiOSDevelopersPart1_0.png" />
 
@@ -21,7 +20,18 @@ iOS 개발의 빠른 세계에서는 여러분이 내린 모든 결정이 앱을
 
 이 미끄러운 물길을 탐험하는 데 도움이 되도록, iOS 개발에서 가장 빈번하고 파괴적인 함정을 식별했습니다. 이러한 오류를 인식하고 피해가면, 여러분의 응용프로그램이 기능적으로만이 아니라 탁월하게 될 수 있도록 할 수 있습니다. 여기 주의해야 할 중요한 실수들이 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1. 메모리 관리 소홀
 
@@ -46,7 +56,18 @@ class MyViewController: UIViewController {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예제에서, deinit 메서드에서 타이머를 무효화하는 것을 잊는다면, 리테인 사이클을 만들어 메모리 누수를 발생시킬 수 있습니다.
 
@@ -57,7 +78,18 @@ class MyViewController: UIViewController {
 예시:
 사용자 지만적이지 않은 UI 요소나 사용자 지정 네비게이션 동작을 사용하면 사용자를 혼란스럽게 만들 수 있습니다. 일관된 사용자 경험을 보장하려면 UITableView, UICollectionView, UINavigationController과 같은 네이티브 컴포넌트를 사용하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-08-18-DontDoTheseMistakesCommonPitfallsforiOSDevelopersPart1_1.png" />
 
@@ -67,7 +99,18 @@ class MyViewController: UIViewController {
 
 예시:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 안좋은 예시
@@ -88,7 +131,18 @@ if isEligible {
 
 원활한 사용자 경험을 위해 적절한 오류 처리가 중요합니다. 앱이 오류를 세련되게 처리하고 사용자에게 유용한 피드백을 제공하도록 해야 합니다. 가능한 경우 일반적인 오류 메시지를 피하고 구체적인 세부 정보를 제공해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시:
 
@@ -107,8 +161,18 @@ do {
 
 ## 5. 성능 최적화를 소홀히 하는 것
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 성능은 좋은 사용자 경험에 중요합니다. 주 스레드를 차단하지 않고 시간이 오래 걸릴 수 있는 작업에 대해 백그라운드 처리를 활용해보세요. 성능 병목 현상을 식별하고 해결하기 위해 프로파일링 도구를 사용하세요.
 
@@ -125,7 +189,18 @@ DispatchQueue.global(qos: .background).async {
 
 이 예시는 시간이 오래 걸리는 작업이 백그라운드 스레드에서 수행되어 UI가 반응적인 상태를 유지합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 결론
 
@@ -135,6 +210,17 @@ iOS 개발자가 높은 품질의, 효율적이고 사용자 친화적인 애플
 
 Part 2:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 행복한 코딩하세요!

@@ -3,16 +3,13 @@ title: "Multi-Stage 빌드를 사용하는 Rust 애플리케이션 도커라이�
 description: ""
 coverImage: "/assets/img/2024-07-10-DockerizingaRustapplicationwithMulti-StageBuilds_0.png"
 date: 2024-07-10 02:40
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-10-DockerizingaRustapplicationwithMulti-StageBuilds_0.png
 tag: Tech
 originalTitle: "Dockerizing a Rust application with Multi-Stage Builds"
 link: "https://medium.com/@ams_132/dockerizing-a-rust-application-with-multi-stage-builds-31ac8a5ce7c7"
 isUpdated: true
 ---
-
-
-
 
 한국에서 여행 전문가인데요! 러스트 어플리케이션을 위한 최소 이미지 크기로 Docker 이미지 만들기 ⚒️
 
@@ -21,17 +18,40 @@ isUpdated: true
 Docker에 처음이신가요? 🧐
 간단한 베이스 Dockerfile로 어플리케이션의 Docker 이미지를 만들어 본 적 있나요? 그때 이미지 사이즈가 커서 ( `800Mb ) RAM을 모두 소모하는 일이 있으셨을텐데요. 😭
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 챙기지 마세요! 😙 여기 있어요...
 
 오늘은 러스트 어플리케이션을 위한 가벼운 이미지를 만드는 것에 대해 이야기할 거예요. 다른 어플리케이션용으로도 곧 (가깝지 않을래요 😅) 발표할 예정이에요...
 
 이미지를 가볍게 만들기 위해 사용할 수 있는 방법에 대해 이야기해볼게요:
+
 - 멀티 스테이지 빌드 사용하기
 - 알파인, 슬림 등과 같이 가벼운 이미지 사용해서 실행 파일 실행하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 방법으로 이미지를 만드는 것과 간단한/기본적인 Dockerfile로 이미지를 만드는 것 사이에는 이미지 크기 측면에서 많은 차이가 있어요. ( 예를 들어 1Gb `==` 20Mb )
 
@@ -41,9 +61,21 @@ Docker에 처음이신가요? 🧐
 
 # 간단한 Dockerfile로 이미지 만들기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 필요한 준비물:
+
 - Rust가 설치되어 있어야 합니다.
 - Cargo가 설치되어 있어야 합니다. (Rust의 패키지 관리자📦)
 
@@ -53,7 +85,18 @@ Docker에 처음이신가요? 🧐
 cargo new simple
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 cd simple
@@ -81,7 +124,18 @@ CMD ["./target/release/myapp"]
 
 이제 도커 구성 파일이 준비되었으니 빌드해보겠습니다. (도커 데몬이 실행 중이어야 합니다😈)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 도커 빌드 -t simple-rust-app .
@@ -93,17 +147,39 @@ CMD ["./target/release/myapp"]
 
 우리가 만든 "simple-rust-app" 이미지의 크기는 1.42Gb라는 것을 확인할 수 있어요! 🤯.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자, 이제 최적화된 방법을 살펴봅시다…
 
 # 다단계 빌드로 이미지 만들기
 
-여기서는 러스트 어플리케이션을 그대로 사용하지만 Dockerfile만 변경할 것입니다. 
+여기서는 러스트 어플리케이션을 그대로 사용하지만 Dockerfile만 변경할 것입니다.
 
 몇 줄을 더 추가함으로써 가벼우면서 최적화된 빌드를 얻는 방법을 알아보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Multi-Stage Build에서 뭐하고 있는 걸까요?🧐
 
@@ -113,7 +189,18 @@ Multi-Stage Build에서 뭐하고 있는 걸까요?🧐
 
 또한, 몇 가지 보안 관행 팁도 있습니다 💡
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 실행 파일은 루트 사용자가 아닌 기본 이미지에서 권한이 없는 사용자로 실행되어야 합니다.
 - 취약성 위험을 줄이기 위해 패키지 수를 필요에 맞게 최소화해야 합니다. 더 적은 패키지는 더 적은 취약성 위험과 용량이 작은 이미지를 의미합니다.😤
@@ -162,7 +249,18 @@ CMD ["/bin/server"]
 
 또한 "ARG RUST_VERSION=`rust_version`"에 자신의 Rust 버전을 입력하도록 기억하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해당 명령은 다음과 같이 찾을 수 있습니다.
 
@@ -176,7 +274,18 @@ cargo --version
 docker build -t rust-app-with-multi-stage-build .
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 빌드가 완료되면 빌드 크기를 비교해보겠습니다 🤔
 
@@ -186,7 +295,18 @@ docker build -t rust-app-with-multi-stage-build .
 
 즐겁게 감상하셨길 바랍니다!!!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 곧 새로운 글이 올라오니 @ams_132를 꼭 확인해주세요!!!
 

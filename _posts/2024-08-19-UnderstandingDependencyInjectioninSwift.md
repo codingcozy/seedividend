@@ -3,7 +3,7 @@ title: "스위프트에서 의존성 주입Dependency Injection 이해하기"
 description: ""
 coverImage: "/assets/img/2024-08-19-UnderstandingDependencyInjectioninSwift_0.png"
 date: 2024-08-19 03:27
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-19-UnderstandingDependencyInjectioninSwift_0.png
 tag: Tech
 originalTitle: "Understanding Dependency Injection in Swift"
@@ -11,8 +11,6 @@ link: "https://medium.com/@harshaag99/understanding-dependency-injection-in-swif
 isUpdated: true
 updatedAt: 1724032972018
 ---
-
-
 
 ![Dependency Injection](/assets/img/2024-08-19-UnderstandingDependencyInjectioninSwift_0.png)
 
@@ -22,8 +20,18 @@ updatedAt: 1724032972018
 
 그러나 그 대신 각 지점마다 최고의 커피 머신, 원두 및 훈련받은 바리스타를 공급하는 공급업체가 있다면 어떨까요? 이렇게 하면 많은 시간이 절약되며 모든 지점이 동일한 고품질을 보장받을 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로그래밍에서 이는 의존성 주입(Dependency Injection, DI)과 유사합니다. 여러분의 클래스가 필요로 하는 객체를 생성(또는 "소유")하는 대신, 이러한 객체들을 클래스로 전달하게 됩니다. 이렇게 하면 코드를 관리하고 테스트하며 업데이트하기가 더 쉬워집니다.
 
@@ -33,8 +41,18 @@ Swift에서 DI는 여러 가지 방법으로 수행할 수 있지만, 그중에�
 
 1. 생성자 주입(Constructor Injection): 의존성을 클래스의 이니셜라이저(생성자)를 통해 전달합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 class CoffeeShop {
@@ -73,8 +91,18 @@ class CoffeeShop {
 }
 ```
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 방식은 Swift에서는 덜 흔하지만 의존성 설정을 지연시키고 싶을 때 유용할 수 있습니다.
 
@@ -84,7 +112,18 @@ class CoffeeShop {
 
 # 왜 의존성 주입을 사용해야 할까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 유연성: 다른 구현을 간단히 교체할 수 있습니다. 만약 다른 커피 머신을 사용하고 싶다면, CoffeeShop을 생성할 때 다른 머신을 제공하기만 하면 됩니다.
 - 테스트 용이성: 테스트 중에 mock이나 가짜 의존성을 전달할 수 있습니다. 예를 들어, CoffeeShop에 특정한 방식으로 동작하는 테스트용 Barista를 전달하여 상점이 올바르게 작동하는지 쉽게 확인할 수 있습니다.
@@ -111,7 +150,18 @@ class B {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - In this case, A와 B는 서로 의존하게 되어 복잡성이 발생합니다.
 
@@ -121,7 +171,18 @@ class B {
 
 1. Missing Dependencies: 의존성을 제공하는 것을 잊어버리면 해당 클래스가 충돌하거나 제대로 작동하지 않을 수 있습니다. CoffeeShop 예시를 사용하면, 커피 머신을 제공하는 것을 잊으면 상점이 커피를 만들 수 없습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시나리오: 필요한 의존성이 제공되지 않아 충돌이 발생하거나 예기치 않은 동작이 발생합니다.
 
@@ -154,7 +215,18 @@ coffeeShop.makeCoffee()
 
 발생하는 일: makeCoffee()가 호출될 때 앱이 "Error: CoffeeMachine is missing!"을 출력하고 커피를 만들지 못합니다. 실제 앱에서는 충돌이나 기능이 손상될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 실제 세계 비유: 커피 전문점을 오픈하는데 주문한 커피 머신이 도착하지 않습니다. 바리스타는 준비가 되어 있지만, 머신이 없으면 커피를 만들 수 없어서 고객들이 실망할 것입니다.
 
@@ -164,7 +236,18 @@ coffeeShop.makeCoffee()
 
 예시: 실수로 CoffeeMachine 대신 TeaMachine을 주입했다고 가정해 봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```swift
 class CoffeeMachine {
@@ -200,7 +283,18 @@ class CoffeeShop {
 3. 초기화 순서: 때로는 의존성이 특정 순서로 초기화되어야 한다는데 의존할 때 있습니다. 올바른 순서로 주입하지 않으면 문제가 발생할 수 있습니다.
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 상황: 의존성이 서로 의존하지만 잘못된 순서로 주입되어 실패가 발생합니다.
 
@@ -239,7 +333,18 @@ bank.openAccount(for: customer)
 
 무슨 일이 일어날까요?: 이 예시에서는 고객이 계좌보다 먼저 생성되기 때문에 모든 것이 작동합니다. 그러나 만약 openAccount 내의 로직이 존재하지 않는 고객을 액세스하려고 하거나 계좌가 아직 초기화되지 않은 다른 의존성에 의존한다면, 충돌이 발생하거나 정의되지 않은 동작이 발생할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 실제 세계에서의 비유: 은행이 고객 신원을 확인하기 전에 은행 계좌를 열려고 하는 상황을 생각해보세요. 고객 정보가 충분히 확립되지 않았다면, 은행은 잘못된 또는 불완전한 데이터로 계정을 열어 에러를 발생시킬 수 있습니다.
 
@@ -249,7 +354,18 @@ DI가 항상 최선의 해결책은 아닙니다. 앱이 작고 간단한 경우
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 의존성 주입은 Swift에서 강력한 패턴으로, 코드를 더 유연하고 테스트 가능하며 유지보수하기 쉽게 만들어 줍니다. 객체를 생성하는 책임과 사용하는 책임을 분리함으로써 더 깔끔하고 모듈식인 코드를 만들 수 있어요. 그러나 순환 의존성과 과도한 주입 같은 특수한 상황과 함께 발생할 수 있는 잠재적인 문제에 유의해야 합니다.
 
@@ -260,7 +376,18 @@ DI가 항상 최선의 해결책은 아닙니다. 앱이 작고 간단한 경우
 
 이 글들은 의존성 주입을 더 자세히 설명하고 예제를 제공하여 Swift 프로젝트에서 의존성 주입을 더 잘 이해하고 구현할 수 있도록 도와줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## TL;DR
 
@@ -271,7 +398,18 @@ DI를 사용하는 이유는 무엇인가요?
 - 유연성: 다양한 종속성을 쉽게 교체할 수 있습니다.
 - 테스트 가능성: 테스트용 목 객체(mock object)를 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일반적인 DI 유형:
 
@@ -284,7 +422,18 @@ DI를 사용하는 이유는 무엇인가요?
 - 누락된 또는 잘못된 의존성은 충돌 또는 버그를 유발할 수 있습니다.
 - 초기화 순서 문제에 주의하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 추가 읽을거리:
 

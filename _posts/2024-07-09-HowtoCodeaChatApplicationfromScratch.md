@@ -3,15 +3,13 @@ title: "기초부터 채팅 애플리케이션 코딩하는 방법 Step-by-Step 
 description: ""
 coverImage: "/assets/img/2024-07-09-HowtoCodeaChatApplicationfromScratch_0.png"
 date: 2024-07-09 14:01
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-HowtoCodeaChatApplicationfromScratch_0.png
 tag: Tech
 originalTitle: "How to Code a Chat Application from Scratch"
 link: "https://medium.com/@learntocodetoday/how-to-code-a-chat-application-from-scratch-0509181edd18"
 isUpdated: true
 ---
-
-
 
 <img src="/assets/img/2024-07-09-HowtoCodeaChatApplicationfromScratch_0.png" />
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 시작하기 전에 다음 사항을 확인해주세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - HTML, CSS, 그리고 JavaScript에 대한 기본 지식이 필요합니다.
 - 컴퓨터에 Node.js와 npm (Node Package Manager)가 설치되어 있어야 합니다.
@@ -37,7 +46,18 @@ cd chat-app
 npm init -y
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요구 사항에 필요한 종속 항목을 설치하십시오:
 
@@ -49,7 +69,18 @@ npm install express socket.io
 
 먼저 HTML을 사용하여 채팅 애플리케이션의 기본 구조를 만들어 보겠습니다. 메시지를 입력하는 입력 필드, 메시지를 보내는 버튼 및 채팅 메시지를 표시하는 영역이 필요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 index.html:
 

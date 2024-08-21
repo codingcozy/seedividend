@@ -3,17 +3,13 @@ title: "모던 CSS 사용하기 Angular 레이아웃"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Modern CSS in Angular Layouts"
 link: "https://medium.com/angular-blog/modern-css-in-angular-layouts-4a259dca9127"
 isUpdated: true
 ---
-
-
-
-
 
 ![Modern CSS in Angular Layouts](/assets/img/ModernCSSinAngularLayouts_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 @angular/flex-layout은 v5부터 Angular 조직의 베타 버전으로 남아있는 하이브리드 JavaScript 및 CSS 레이아웃 시스템입니다. 이 기간 동안 CSS는 혁신적으로 발전하여 성능 및 확장 가능한 레이아웃을 구축하는 새로운 방법을 제공했습니다. 이 블로그 포스트에서는 Angular에서 권장되는 레이아웃 접근 방식에 대해 더 알아보게 될 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 최신 CSS 레이아웃
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 Flexbox는 행이나 열에 항목을 배열할 수 있는 일차원 레이아웃 방법입니다. 항목들은 추가 공간을 채우기 위해 확장(expand)하거나 작은 공간에 맞게 축소(shrink)됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Angular 데모에서 Flexbox를 확인할 수 있습니다:
 
@@ -43,7 +61,18 @@ Flexbox를 배우기 시작하려면 CSS Tricks: A Complete Guide to Flexbox를 
 
 ## CSS Grid
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS Grid은 웹을 위한 2차원 레이아웃 시스템입니다. 이를 사용하면 콘텐츠를 행과 열로 배치할 수 있습니다. 개발자가 복잡한 레이아웃을 쉽게 구축할 수 있도록 도와주는 많은 기능이 있습니다.
 
@@ -53,7 +82,18 @@ CSS Grid를 배우기 시작하기 위해 CSS Tricks: Grid에 대한 완전 가�
 
 # Flex, grid & 유연한 레이아웃의 미래
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Angular의 주요 원칙 중 하나는 관심사의 분리입니다. flex-layout를 CSS의 지지대로 사용하지 않도록 함으로써, 더 읽기 쉽고 유지보수가 용이한 코드로 사용자를 이끌어가고 있습니다. 게다가 @angular/cdk의 레이아웃 패키지는 반응형 UI를 구축하기 위한 가벼운 유틸리티를 제공합니다. 이러한 옵션들은 payload 크기와 런타임 비용을 줄이며, Lighthouse 성능 메트릭을 향상시킵니다.
 
@@ -63,7 +103,18 @@ Angular의 주요 원칙 중 하나는 관심사의 분리입니다. flex-layout
 
 # 최신 CSS로 이주 계획
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현대적인 레이아웃 시스템을 선택하는 것은 앱의 구조에 기반을 둡니다. 크롬의 Learn CSS 코스에서 현대적인 레이아웃에 대해 더 알아보세요.
 
@@ -73,7 +124,18 @@ Angular의 주요 원칙 중 하나는 관심사의 분리입니다. flex-layout
 
 Flexbox는 Angular 템플릿에서 Flexbox 레이아웃을 적용하는 개발자들에게 효율적인 방법을 제공하기 위해 설계된 @angular/flex-layout에 가장 유사합니다. 아래 코드 예제는 일반적인 Flexbox 속성과 @angular/flex-layout의 해당 속성을 매핑한 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 display: flex;
@@ -91,7 +153,18 @@ justify-content: flex-start; // fxLayoutAlign
 
 ## @angular/cdk의 layout 패키지
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 뷰포트 크기를 다루기 위해 TypeScript 코드에서 레이아웃 특정 유틸리티가 필요하다면, Angular은 @angular/cdk의 레이아웃 패키지를 제공합니다.
 
@@ -101,7 +174,18 @@ justify-content: flex-start; // fxLayoutAlign
 
 Tailwind CSS는 @angular/flex-layout과 유사한 스타일링을 위한 템플릿 지향 접근 방식을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테일윈드 CSS는 플렉스, pt-4, 텍스트-센터, 90도 회전 등의 클래스로 가득 찬 유틸리티-퍼스트 CSS 프레임워크로, 이를 조합하여 마크업에서 직접 어떠한 디자인이든 구축할 수 있습니다. Angular + 테일윈드 CSS에 대해 더 알아보세요.
 
@@ -111,7 +195,18 @@ Tailwind CSS는 @angular/flex-layout과 유사한 스타일링을 위한 템플�
 
 CSS가 몇 년 동안 어떻게 발전하고 제공하는 현대적인 레이아웃 대안에 흥미로워합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 장의 솔루션을 권장하는 것은 성능 면에서 개발자들이 안정적인 방향을 유지할 수 있도록 해주면서 Angular 팀이 앞으로의 발전을 이끌 수 있는 중요한 프로젝트에 집중할 수 있습니다.
 

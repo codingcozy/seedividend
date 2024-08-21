@@ -3,17 +3,13 @@ title: "Angular에서 Signals를 위한 ComputedAsync 구조 잡는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Building ComputedAsync for Signals in Angular"
 link: "https://medium.com/itnext/building-computedasync-for-signals-in-angular-501246c9b7ea"
 isUpdated: true
 ---
-
-
-
-
 
 ## Angular에서 Signals와 Rxjs를 사용하여 비동기 작업 처리하기
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 Angular에서 비동기 작업 처리는 항상 Observables의 역할이었습니다. Observables은 비동기 작업을 처리하는 좋은 방법입니다. 그러나 Angular에서 Signals가 도입되면서 모든 사람들이 모든 것에 Signals를 사용하려고 합니다. 하지만 Signals는 비동기 작업을 처리하기 위해 고안된 것이 아닙니다. Signals는 값을 처리하는 데 있어서 이벤트가 아닙니다. 그렇다면 Signals를 사용하여 비동기 작업을 어떻게 처리할까요? 함께 알아봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 동기부여
 
@@ -49,7 +56,18 @@ export class UserComponent {
 
 위 코드를 보시다시피, 내장된 반응성을 사용하기 위해 신호 입력도 사용하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만, 우리는 구독 취소 부분을 다루지 않습니다. 따라서 수동으로 그 부분을 처리해야 합니다. effect 함수에는 매번 실행될 때 호출되는 콜백 함수가 포함되어 있습니다. 이를 사용하여 구독을 취소할 수 있습니다.
 
@@ -60,11 +78,9 @@ export class UserComponent {
   constructor() {
     // onCleanup은 효과가 실행될 때마다 호출되는 콜백 함수입니다
     effect((onCleanup) => {
-      const sub = this.imagesService
-        .getImages(this.user().favoriteImages)
-        .subscribe((images) => {
-          this.favoriteImages.set(images);
-        });
+      const sub = this.imagesService.getImages(this.user().favoriteImages).subscribe((images) => {
+        this.favoriteImages.set(images);
+      });
       onCleanup(() => sub.unsubscribe()); // 구독 취소
     });
   }
@@ -73,7 +89,18 @@ export class UserComponent {
 
 요약하면, 위의 코드에서 무슨 일이 일어나는지에 대해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - `user` 입력이 변경될 때마다 실행될 효과를 등록합니다.
 - 효과는 기본적으로 적어도 한 번 실행되므로 초기 API 호출을 수행합니다.
@@ -88,7 +115,18 @@ export class UserComponent {
 
 다른 해결책으로 `toObservable` 도우미 함수를 사용하는 것이 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 export class UserComponent {
@@ -122,7 +160,18 @@ export class UserComponent {
 
 이렇게 되면 코드가 빠르게 복잡해지죠! 점점 더 많은 rxjs 연산자가 포함되면서 `toObservable`와 `toSignal`을 모든 곳에 사용해야 해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 할 수 있어요!
 
@@ -131,12 +180,21 @@ export class UserComponent {
 우리는 `computedAsync` 함수가 `computed` 함수처럼 동작하되 비동기 작업을 처리해야 한다는 것을 원합니다. 기본적으로 비동기 작업의 값을 가진 신호를 반환해야 합니다.
 
 ```js
-favoriteImages = computedAsync(() =>
-  this.imagesService.getImages(this.user().favoriteImages)
-);
+favoriteImages = computedAsync(() => this.imagesService.getImages(this.user().favoriteImages));
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 observable(또는 promise)을 반환하고, `computedAsync` 함수가 해당 구독 및 구독 해지를 처리하도록 하고 싶어요.
 
@@ -146,7 +204,18 @@ favoriteImages = computedAsync(() =>
 
 다음은 가능한 경우들입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 유형 ComputationResult<T> = Promise<T> | Observable<T> | T | undefined;
@@ -155,16 +224,25 @@ favoriteImages = computedAsync(() =>
 콜백 함수를 받아들이고 Signal을 반환하고 싶습니다. 따라서, `ComputationResult<T>`를 반환할 콜백 함수를 받아들일 필요가 있습니다.
 
 ```js
-export function computedAsync<T>(
-  computation: () => ComputationResult<T>
-): Signal<T> {
+export function computedAsync<T>(computation: () => ComputationResult<T>): Signal<T> {
   // ...
 }
 ```
 
 ## 현재 값과 결과 처리하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현재 값 처리와 계산 결과 반환을 해야 합니다. 현재 값 처리에는 `WritableSignal`을 사용하고, 계산 결과를 반환하기 위해 계산된 시그널을 사용할 수 있습니다.
 
@@ -181,7 +259,18 @@ export function computedAsync<T>(
 
 계산에는 시그널이 포함되므로 시그널 변경을 감시하는 유일한 방법인 `effect`를 사용해 계산을 처리해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { isObservable } from 'rxjs';
@@ -217,7 +306,18 @@ function isPromise<T>(value: any): value is Promise<T> {
 
 `ngxtension` 라이브러리에 포함된 Chau Tran이 만든 `assertInjector` 도우미 함수를 사용하겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `assertInjector` 함수는 인젝터가 제공되었는지 확인하고, 제공되지 않았다면 오류를 발생시킵니다. 세 번째 인수에는 인젝션 컨텍스트에서 호출될 콜백 함수를 전달할 수 있습니다.
 
@@ -231,7 +331,18 @@ interface ComputedAsyncOptions<T> extends CreateComputedOptions<T> {
 
 이제 `assertInjector` 함수를 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 export function computedAsync<T>(
@@ -256,7 +367,18 @@ export function computedAsync<T>(
 
 `sourceEvent$`의 값은 promise 또는 observable이어야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const sourceEvent$ = new Subject<Promise<T> | Observable<T>>();
@@ -268,7 +390,18 @@ const sourceEvent$ = new Subject<Promise<T> | Observable<T>>();
 
 그래서 observable을 펼치기 위해 `switchMap` 연산자를 사용하겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const sourceResult = sourceEvent$.pipe(switchMap((s$) => s$)).subscribe({
@@ -289,7 +422,18 @@ Petrus Nguyễn Thái Học와 Lucas Garcia에게 그것을 지적해 줘서 감
 const sourceResult = sourceEvent$.pipe(switchAll()).subscribe();
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 구독 정리하기
 
@@ -318,7 +462,18 @@ export function computedAsync<T>(
 
 여기까지입니다! 값 얻기 위해 구독하고, 구성요소가 파괴될 때 구독을 해제합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 계산된 Observable 또는 Promise 다루기
 
@@ -365,7 +520,18 @@ export function computedAsync<T>(
 
 위 코드의 TODO를 처리해봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저 일반 값 케이스를 처리해 봅시다. `sourceValue` 시그널의 값을 설정하면 됩니다.
 
@@ -393,7 +559,18 @@ effect(
 ); // 시그널 쓰기 허용
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만, 이 문제를 해결할 또 다른 방법이 있습니다. 우리는 `untracked` 함수를 사용하여 시그널의 값을 설정할 수 있습니다. 여기서 효과를 활성화하지 않고 값만 설정하는 거죠 (이는 사실상 위의 코드와 동일한 작업을 합니다). 이 속임수에 대해 더 읽어보세요.
 
@@ -405,7 +582,18 @@ untracked(() => sourceValue.set(value));
 
 Observable 및 promise 케이스를 처리해 봅시다. 시그널에서 값 설정과 마찬가지로, 우리는 `sourceEvent$` observable로 `next`를 해주어야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 효과(() => {
@@ -437,7 +625,18 @@ export class UserComponent {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `someValue` 시그널은 계산 내부에서 설정될 것이지만, 우리의 계산은 이펙트 내에 있습니다. 다시 말해, 우리는 이펙트 내부에서 시그널의 값을 설정하고 있습니다. 이것은 에러를 발생시킬 것입니다. 그래서 `sourceEvent$.next()`를 추적하지 않아도 되게끔 해야 합니다.
 
@@ -458,7 +657,18 @@ effect(() => {
 
 ## 초기 값
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기본적으로 `sourceValue` 시그널의 초기 값은 `undefined`입니다. 그러나 `computedAsync` 함수에 초기 값 전달할 수 있어요.
 
@@ -493,7 +703,18 @@ export class UserComponent {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 레이스 조건 처리하기 (동작)
 
@@ -511,7 +732,18 @@ interface ComputedAsyncOptions<T> extends CreateComputedOptions<T> {
 
 `behavior` 옵션을 사용하여 구독을 처리할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `behavior` 옵션에 따라 연산자를 처리할 `createFlattenObservable` 함수를 만들어 봅시다.
 
@@ -534,13 +766,21 @@ function createFlattenObservable<T>(
 이제 `createFlattenObservable` 함수를 사용하여 구독을 처리할 수 있습니다.
 
 ```js
-const source$: Observable<T> = createFlattenObservable(
-  sourceEvent$,
-  options?.behavior ?? "switch"
-);
+const source$: Observable<T> = createFlattenObservable(sourceEvent$, options?.behavior ?? "switch");
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기본적으로 `switch` 동작을 사용하지만 다른 동작을 전달할 수 있습니다.
 
@@ -570,7 +810,18 @@ export class UserComponent {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 계산에서 이전 값을 어떻게 사용할까요?
 
@@ -586,7 +837,18 @@ effect(() => {
 
 이렇게하면 계산에서 이전 값을 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 export class UserComponent {
@@ -611,7 +873,18 @@ npm install ngxtension
 yarn add ngxtension
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼, 'ngxtension' 라이브러리에서 해당 모듈을 가져와서 사용할 수 있어요.
 
@@ -633,4 +906,15 @@ export class UserComponent {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

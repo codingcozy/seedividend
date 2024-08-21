@@ -3,17 +3,13 @@ title: "리액트 useState 훅 4가지 활용 예시"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "4 Different Examples of the useState Hook in React"
 link: "https://medium.com/gitconnected/4-different-examples-of-the-usestate-hook-in-react-5504ce011a20"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/4DifferentExamplesoftheuseStateHookinReact_0.png" />
 
@@ -23,7 +19,18 @@ React와 상태에 대한 기본 지식이 있다고 가정합니다. 그렇지 
 
 # 상태 초기화하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앞서 말씀드린 대로, 상태를 초기화하는 방법에 대해 설명해 드리겠습니다. 먼저 useState를 import한 다음, 다음과 같은 방식으로 상태 변수를 선언하십시오.
 
@@ -36,7 +43,18 @@ setName은 상태인 name을 설정하는 데 사용되는 함수입니다. 기�
 
 상태를 직접 설정하지 말고 항상 함수를 사용해 주세요. 왜 그런지 알고 싶으시면 이 글을 읽어보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자, 사용 사례 몇 가지를 살펴봅시다.
 
@@ -46,7 +64,18 @@ setName은 상태인 name을 설정하는 데 사용되는 함수입니다. 기�
 
 이 예제에서는 모든 사용자가 볼 수 있는 레코드 세트가 있습니다. 그러나 관리자 사용자는 각 레코드를 편집할 수 있는 옵션이 있습니다. 먼저 사용자를 상태로 정의하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const [user, setUser] = useState({
@@ -71,7 +100,18 @@ return (
 
 여기서 일반 사용자는 처음 세 열만 볼 수 있습니다. 그러나 관리자 사용자는 편집 버튼을 포함한 4번째 열도 볼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 isAdmin 속성이 false인 경우에는 해당 열이 표시되지 않습니다.
 
@@ -83,7 +123,18 @@ isAdmin 속성이 false인 경우에는 해당 열이 표시되지 않습니다.
 const [toggleTables, setToggleTables] = useState(false);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 개의 테이블은 다른 데이터를 보여주며 조건문을 사용하여 상태 값에 따라 렌더링할 수 있습니다.
 
@@ -123,7 +174,18 @@ const handleClick = () => {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2. 카운터
 
@@ -135,7 +197,18 @@ const [count, setCount] = useState(0);
 
 그런 다음, 동일한 작업을 렌더링하고 onClick 핸들러와 함께 증가 및 감소 버튼 두 개를 만들어주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <h2> {count} </h2>
@@ -155,7 +228,18 @@ function setCounter(value) {
 
 카운터를 증가 또는 감소시킬 양을 제어하는 입력 필드도 추가해 보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <div>
@@ -178,7 +262,18 @@ const handleSubmit = (event) => {
 
 양식을 제출할 때 event.preventDefault()를 사용하세요. 자세한 내용은 [여기](링크)에서 확인하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 3. Form Handling
 
@@ -211,7 +306,18 @@ const handleSubmit = (event) => {
 </form>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 동일한 상태 변수를 정의하세요.
 
@@ -226,7 +332,18 @@ const [gender, setGender] = useState("");
 
 실시간 응용 프로그램에서는 폼 제출이 일정 시간이 걸릴 수 있습니다. 사용자에게 폼이 제출되고 있다는 것을 알리는 것이 중요합니다. 또 다른 상태 변수를 사용하여 그것을 수행할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const [isSubmitting, setIsSubmitting] = useState(false);
@@ -248,7 +365,18 @@ const handleSubmit = (event) => {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 폼 제출 전에 몇 초를 기다리기 위해 setTimeout을 사용하세요. 제출 버튼 바로 아래에 메시지를 표시하세요.
@@ -264,7 +392,18 @@ setTimeout(() => {
 
 useState 훅의 가장 간단한 사용 사례 중 하나는 간단한 할 일 목록입니다. 추가, 업데이트 및 삭제 기능을 구현하는 방법을 보여드리겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저 작업을 추가할 수 있는 입력 필드와 버튼이 필요해요. 사용자의 입력 내용은 상태로 유지해줘요.
 
@@ -280,7 +419,18 @@ const [taskInput, setTaskInput] = useState("");
 
 또한, 전체 할 일 목록을 유지할 상태가 필요해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const [todoList, setTodoList] = useState([]);
@@ -302,7 +452,18 @@ const handleSubmit = () => {
 
 현재 타임스탬프를 id로 하는 새로운 할 일 객체를 생성하세요. updateFlag 필드는 현재 항목이 업데이트되고 있는지를 나타냅니다. 이제, 업데이트 및 삭제 옵션을 포함한 리스트를 표시하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <ul>
@@ -326,7 +487,18 @@ function handleDelete(id) {
 
 요소를 업데이트하려면 사용자가 업데이트된 값을 입력할 수 있는 입력 필드가 필요합니다. 따라서 updateFlag를 사용하여 항목을 표시 및 업데이트 간 전환합니다. 목록의 각 항목에 대해 다음을 수행합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 {todo.updateFlag == true
@@ -344,7 +516,18 @@ const [updateTaskInput, setUpdateTaskInput] = useState();
 
 만약 updateFlag가 true인 경우, 항목은 새 값 입력을 위한 폼이 표시됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 handleUpdate 함수를 구현해보세요. 이 함수는 할 일의 id를 매개변수로 받습니다. 만약 업데이트된 값이 비어있다면 함수를 종료합니다.
 
@@ -362,7 +545,18 @@ const todo = todoList.find((todo) => todo.id === id);
 const updatedList = todoList.filter((todo) => todo.id !== id);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제, updateFlag가 false인 경우 입력 필드를 표시하도록 true로 설정하십시오.
 
@@ -384,7 +578,18 @@ setTodoList(updatedList);
 setUpdateTaskInput("");
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 Git 저장소에서 코드를 찾을 수 있어요.
 
@@ -394,7 +599,18 @@ setUpdateTaskInput("");
 
 네 번째는 상태 업데이트를 다양한 시나리오에서 처리하는 매우 일반적인 예제에요. 뭔가 틀린 부분이 있으면 알려주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 내용을 이해하지 못하거나 설명이 만족스럽지 않다고 느끼신다면 아래에 의견을 남겨주세요. 새로운 아이디어는 언제나 환영입니다! 이 게시물이 마음에 들었다면 손뼉을 몇 번 치세요. 매주 업데이트되는 콘텐츠를 위해 구독하고 팔로우해주세요. 무엇이든 토론하고 싶다면 LinkedIn을 통해 메시지를 보내주세요. 그동안 안녕히 계세요!
 
@@ -406,6 +622,17 @@ setUpdateTaskInput("");
 - 📰 "코딩 실력 향상" 게시물에서 더 많은 콘텐츠를 보세요
 - 🔔 팔로우하기: Twitter | LinkedIn | 뉴스레터
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 🚀👉 레벨 업 탤런트 컬렉티브에 가입하여 멋진 직업을 찾아보세요!

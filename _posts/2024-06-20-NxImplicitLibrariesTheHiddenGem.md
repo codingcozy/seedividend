@@ -3,16 +3,13 @@ title: "Nx 암시적 라이브러리 숨겨진 보물 "
 description: ""
 coverImage: "/assets/img/2024-06-20-NxImplicitLibrariesTheHiddenGem_0.png"
 date: 2024-06-20 01:19
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-NxImplicitLibrariesTheHiddenGem_0.png
 tag: Tech
 originalTitle: "Nx Implicit Libraries: The Hidden Gem 💎"
 link: "https://medium.com/marmicode/nx-implicit-libraries-the-hidden-gem-d965d5118ecd"
 isUpdated: true
 ---
-
-
-
 
 Nx가 제공하는 엄청난 기능을 활용하기 위해, 여러 라이브러리로 애플리케이션을 분할하는 것이 일반적입니다. 사실, 애플리케이션을 라이브러리로 분리하는 것은 관심사와 경계를 명확히 분리하고, Nx의 캐싱, 그래프 및 병렬화 덕분에 빠른 작업 실행을 제공한다는 장점 중 하나입니다.
 
@@ -22,7 +19,18 @@ Nx가 제공하는 엄청난 기능을 활용하기 위해, 여러 라이브러�
 
 다음은 최근 생성된 웹 라이브러리의 예시입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 libs
@@ -50,7 +58,18 @@ libs
 
 이를 통해 project.json 파일에서의 중복이 줄어들고 더 중앙 집중화된 구성이 가능해집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 프로젝트 크리스털 이전
 
@@ -60,7 +79,18 @@ libs
 
 ![이미지](/assets/img/2024-06-20-NxImplicitLibrariesTheHiddenGem_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 🪄 암시적 라이브러리
 
@@ -70,7 +100,18 @@ Nx 추론을 사용하면 Nx 그래프에 노드를 추가하거나 기존 노�
 
 ![이미지](/assets/img/2024-06-20-NxImplicitLibrariesTheHiddenGem_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 📂 공유 설정
 
@@ -80,7 +121,18 @@ Nx 추론을 사용하면 Nx 그래프에 노드를 추가하거나 기존 노�
 
 그러나 특정 그룹 내의 대부분의 라이브러리가 유사한 구성을 공유하기 때문에 이러한 구성 파일을 상위 그룹 디렉토리로 이동시킬 수 있습니다. 이전 예에서는 libs/web 디렉토리가 해당됩니다. 이렇게 하면 IDE 및 다른 도구가 여전히 구성을 인식할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 🎯 암시적 라이브러리의 대상
 
@@ -90,7 +142,18 @@ Implicit Libraries 플러그인을 수정하여 라이브러리를 생성하는 
 
 <img src="/assets/img/2024-06-20-NxImplicitLibrariesTheHiddenGem_3.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 공유된 구성 및 대상을 제대로 설정하여 작업이 라이브러리 파일에서만 실행되도록 해야 합니다.
 
@@ -112,7 +175,18 @@ Implicit Libraries 플러그인을 수정하여 라이브러리를 생성하는 
 
 # 🏷️ 추론된 태그
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신의 Implicit Libraries 플러그인은 당신의 프로젝트 구조와 규칙을 인식합니다. 이는 경계를 강제하거나 작업을 실행할 때 필터링하기 쉽도록 태그를 추가할 수 있습니다.
 
@@ -122,7 +196,18 @@ Implicit Libraries 플러그인을 수정하여 라이브러리를 생성하는 
 
 # 🏗️ Implicit Libraries Generators
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 생성기가 Implicit Libraries에 대해 쓸모없어 보일 수 있지만, tsconfig.base.json의 경로를 업데이트하는 데 사용될 수 있어 유용합니다. 개발자에게 올바른 카테고리(예: 플랫폼, 범위, 유형)를 제공하여 유효한 라이브러리 경로를 생성할 수 있습니다.
 
@@ -133,7 +218,18 @@ Implicit Libraries는 워크스페이스의 구성 파일 수를 줄이고 개�
 - 대부분의 Nx 내장 플러그인은 project.json 파일을 사용하여 대상 구성을 추론합니다. 이는 Implicit Libraries 플러그인을 수정하여 필요한 대상을 추가해야 한다는 것을 의미합니다.
 - 대상 옵션을 사용하여 도구의 모든 옵션을 항상 쉽게 제어할 수 있는 것은 아닙니다. 예를 들어, 현재 Vitest 옵션에는 캐시 디렉토리를 재정의할 수 있는 방법이 없습니다. 해결책은 현재 작업 디렉토리를 사용하여 계산하는 것이지만, 이는 Nx 일괄 처리 모드와 간섭할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 📖 Marmicode Cookbook
 
@@ -143,7 +239,18 @@ Implicit Libraries는 워크스페이스의 구성 파일 수를 줄이고 개�
 
 # 📚 추가 자료
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 💻 암시적 라이브러리 예제
 - 📝 Nx 암시적 라이브러리 | Marmicode Cookbook

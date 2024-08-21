@@ -3,16 +3,13 @@ title: "브라우저의 로컬 오버라이드 웹 개발자를 위한 안내"
 description: ""
 coverImage: "/assets/img/2024-05-17-LocalOverridesintheBrowserGuideforWebDevelopers_0.png"
 date: 2024-05-17 21:54
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-17-LocalOverridesintheBrowserGuideforWebDevelopers_0.png
 tag: Tech
 originalTitle: "Local Overrides in the Browser: Guide for Web Developers"
 link: "https://medium.com/@yaron-galperin/local-overrides-in-the-browser-guide-for-web-developers-aa5fb6b40476"
 isUpdated: true
 ---
-
-
-
 
 때로는 웹 페이지의 내용을 원본 소스 코드에 액세스하지 않고 빠르게 변경해야 할 때가 있습니다. 테스트, 디버깅 또는 브라우징 경험을 사용자 정의하는 경우 등 여러 가지 이유로 그럴 수 있습니다.
 이 문서에서는 Local Overrides라는 멋진 도구를 사용하는 방법을 소개하겠습니다.
@@ -24,7 +21,18 @@ isUpdated: true
 웹 애플리케이션을 개발할 때 특정 페이지의 다양한 측면을 변경하고 테스트해야 할 때가 있습니다. 변경한 내용을 서빙하기 전에 소스 코드를 수정하고 애플리케이션 파일을 재구축하는 옵션이 있습니다. 또 다른 방법으로는 실시간으로 코드를 수정하고 원하는 결과를 얻을 때까지 코드베이스를 변경하지 않고 변경 사항을 즉시 테스트할 수 있습니다.
 이 도구를 사용하면 다음과 같은 작업이 가능합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 피드백 — 실제 소스 파일을 수정하거나 웹사이트를 다시 배포할 필요 없이 실시간으로 변경 사항 확인 가능합니다.
 - 실험 — 다양한 스타일, 스크립트 및 HTML로 신속한 실험 가능합니다.
@@ -37,8 +45,18 @@ isUpdated: true
 
 시작하려면 모든 파일을 저장할 오버라이드 폴더를 설정해야 합니다. "Sources" 탭을 클릭하고 왼쪽 사이드바에서 "Overrides"를 선택하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image 1](/assets/img/2024-05-17-LocalOverridesintheBrowserGuideforWebDevelopers_1.png)
 
@@ -50,8 +68,18 @@ DevTools는 선택한 폴더에 대한 전체 액세스 권한을 요청하여 �
 참고: Pokemon 웹 사이트에서 보여드리겠지만, 원하는 웹 사이트를 자유롭게 사용해도 괜찮습니다.
 링크: https://pokemon-kde6.vercel.app
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 사이트의 리소스를 편집하려면 DevTools를 열고 "네트워크" 탭으로 이동하십시오 (네트워크 탭은 단순히 예시입니다. 다른 곳에서도 DevTools 내에서 콘텐츠를 재정의할 수 있습니다. 예를 들어 소스 -` 페이지에서), 그런 다음 편집하려는 리소스를 선택하십시오. 제 경우에는 변경 사항을 적용하기 전에 응용 프로그램에서 시험하고 싶어서 수정을 원합니다. CSS 파일을 선택합니다 (어떤 파일이든 될 수 있지만, CSS 파일을 선택했습니다). 이 파일을 마우스 오른쪽 버튼으로 클릭하고 나타나는 메뉴에서 "콘텐츠 재정의"를 선택하십시오.
 
@@ -61,7 +89,18 @@ DevTools는 선택한 폴더에 대한 전체 액세스 권한을 요청하여 �
 
 ![이미지](/assets/img/2024-05-17-LocalOverridesintheBrowserGuideforWebDevelopers_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금은, 주요 색상을 변경해보려고 해요. 화면에 변경 사항이 반영되는 것을 확인해 볼까요?
 
@@ -71,8 +110,18 @@ Before:
 
 After:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-05-17-LocalOverridesintheBrowserGuideforWebDevelopers_6.png)
 
@@ -83,7 +132,18 @@ After:
 
 ![이미지](/assets/img/2024-05-17-LocalOverridesintheBrowserGuideforWebDevelopers_7.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 요약:
 

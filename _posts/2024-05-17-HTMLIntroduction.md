@@ -3,16 +3,13 @@ title: "대부분 모르는 HTML을 제대로 사용 하는 방법"
 description: ""
 coverImage: "/assets/img/2024-05-17-HTMLIntroduction_0.png"
 date: 2024-05-17 21:28
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-17-HTMLIntroduction_0.png
 tag: Tech
 originalTitle: "HTML Introduction"
 link: "https://medium.com/static-flow/html-introduction-44368ec43501"
 isUpdated: true
 ---
-
-
-
 
 ![이미지](/assets/img/2024-05-17-HTMLIntroduction_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 모든 티저와 주요 기사의 업데이트는 Twitter(X), Instagram 및 Mastodon에 게시됩니다. 아래로 스크롤해주세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Part 1이 무엇을 의미하는지 알고 싶다면, 다음을 확인해보세요: Unleash Your Web Development Potential: Dive into HTML with Static & Flow!
 
@@ -32,7 +40,18 @@ Part 1이 무엇을 의미하는지 알고 싶다면, 다음을 확인해보세�
 
 하이퍼텍스트 마크업 언어인 HTML은 웹 개발의 중요 구성 요소로 인식되며, 웹 페이지를 작성하는 가장 기본적인 언어로 알려져 있습니다. 그러나 더 많은 기능을 제공할 수 있습니다. Chrome이나 Firefox와 같은 브라우저를 사용하여 데이터를 온라인으로 공유하는 웹페이지를 유지할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹에서 제공되는 콘텐츠에 구조를 제공하는 데 HTML은 주요 역할을 합니다. 다음으로, 우리는 웹 페이지의 다양한 요소를 발표하기 위해 이러한 태그들을 사용합니다. 이 요소들은 제공된 다양한 요소들을 사용하여 콘텐츠를 표시하는 방법에 대한 브라우저 장치에 대한 지침을 만들어 일관성과 정확성을 유지합니다.
 
@@ -42,7 +61,18 @@ HTML은 결과적으로 웹을 서핑할 때마다 정보를 조직하고 제공
 
 ![HTML 소개](/assets/img/2024-05-17-HTMLIntroduction_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # HTML의 세계 탐험
 
@@ -52,19 +82,39 @@ HTML에서 사용되는 주요 기법 중 하나는 태그, 요소 및 주석을
 
 태그, 요소 및 속성을 최적으로 활용하여 개발자는 사용자 친화적인 웹 페이지에 매력적인 콘텐츠를 구축하고자 합니다. 이러한 요소는 웹 페이지를 배열하는 데 그치지 않고 웹 페이지가 접근 가능하고 반응적이며 사용자들에게 즐겁게하는지 여부를 결정합니다. 올바른 코드를 작성함으로써 개발자는 자신의 웹 사이트에 질서와 기능을 부여하여 인터넷 사용자들에게 최상의 클라이언트 서비스를 제공하는 웹 사이트를 구축할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 HTML의 기능은 콘텐츠가 표시되는 견고한 기반을 구축하여 개발자가 전 세계의 다양한 사용자에게 현대적이고 도전적인 경험을 제공할 수 있도록 하는 것입니다. HTML 프로그래밍의 기초를 이해하면 웹 개발에서 최상의 결과물을 얻을 수 있으며 그 결과 웹 페이지는 완전한 정보를 제공하고 플랫폼의 그룹을 관여시킬 수 있습니다. 웹 개발 분야로 나아감에 따라 HTML 프로그래밍 애플리케이션의 활용은 창의력을 자극하여 지속적인 디지털 개발로 이끌어주는 문을 열어줄 것입니다.
 
-
 ![image](/assets/img/2024-05-17-HTMLIntroduction_4.png)
-
 
 # HTML의 발전: 포괄적인 역사
 
 HTML의 역사에서는 1990년 CERN에서 팀 버너스-리에 의해 시작되었다고 볼 수 있으며, 이는 아직 보여지지 않은 웹 개발의 한 단계를 열었습니다. HTML이 작동하는 언어는 최초에 구조적 텍스트 파일을 보다 사람이 읽기 쉬운 형태로 만드는 것을 목적으로 제작되었습니다. 마크업 언어로서, HTML은 계속해서 새로운 기능과 기능을 소개한 후속 버전에 의해 지속적으로 개선되었으며, 이는 웹의 발전에 기여하였습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 HTML의 역사는 XHTML와 같은 표준의 등장과 같은 다양한 이정표를 보여주었습니다. XHTML은 HTML의 기능을 변화하고 확장하기 위해 계획된 것으로, XML 표준에 더 가까워졌으며, 이것은 동시에 웹 문서의 상호 운용성을 향상시키는 데 도움이 되었습니다.
 
@@ -74,7 +124,18 @@ HTML의 채택은 웹 개발 분야에서 계속해서 새로운 기술과 표�
 
 과거에서 현재로 이어지는 HTML 기술 환경의 지속적인 상승은 웹 개발 커뮤니티 내에서 발생한 독창적이고 파트너십을 포함하는 예기치 못한 측면을 포함합니다. HTML은 항상 온라인 경험의 새롭고 창의적인 차원을 탐색하는 끝없는 상태의 디지털 미디어의 주도 역할을 하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-05-17-HTMLIntroduction_5.png" />
 
@@ -84,7 +145,18 @@ HTML의 채택은 웹 개발 분야에서 계속해서 새로운 기술과 표�
 
 ## 문서 객체 모델(DOM)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각 웹 페이지에는 객체 트리로 구조화된 HTML DOM이 있습니다. 요소, 태그, 텍스트 조각, 노드가 DOM과 유사합니다. 웹 페이지 디자인에 대한 실용적인 접근 방식과 최대한의 조작 가능성은 DOM 생성 과정에서 나타납니다. 반면 DOM은 브라우저가 웹 페이지 내용을 이해하고 상호 작용할 수 있도록 만드는 패러다임입니다. 초급 이론으로부터 시작된 DOM을 통해 브라우저는 요소를 가져오고 업데이트하며 스타일을 조작하고 사용자 조작에 반응하여 원활한 대화형 웹 접근을 가능하게 합니다.
 
@@ -94,7 +166,18 @@ CSS(계단식 스타일 시트)가 제공하는 핵심 장점 중 하나는 페�
 
 ## 상호 작용성을 위한 JavaScript 통합
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 JavaScript을 사용하면 웹페이지가 동적이고 반응형이며 흥미로워집니다. 웹페이지에서 상호 작용할 수 있는 능력은 주로 JavaScript를 통해 실현됩니다. 이는 주로 DOM(Document Object Model)을 수정하고 변경함으로써 발생하며, 클릭, 스크롤 등의 이벤트를 통해 상호 작용을 확인하고 사용자 입력을 검증하며 콘텐츠를 변경할 수 있습니다. 결과적으로 JavaScript를 사용하면 다양한 애니메이션을 만들 수 있습니다.
 
@@ -104,7 +187,18 @@ JavaScript을 사용하면 웹페이지가 동적이고 반응형이며 흥미�
 
 <img src="/assets/img/2024-05-17-HTMLIntroduction_6.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # HTML 문서의 기본 구조
 
@@ -114,7 +208,18 @@ HTML 문서를 작성할 때는 특정 구조를 준수해야 합니다. 이 구
 
 문서 유형 선언은 HTML 문서의 가장 상단에 위치하며 해당 문서에서 사용된 HTML 버전을 웹 브라우저에 통지하는 데 사용됩니다. 가장 일반적으로 사용되는 선언은 `!DOCTYPE html`입니다. 이는 문서가 HTML5 형식으로 작성되었음을 나타냅니다. 해당 선언은 브라우저로 하여금 HTML 표준에 따라 페이지를 렌더링하도록 요청합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 헤드 섹션
 
@@ -124,7 +229,18 @@ HTML 문서를 작성할 때는 특정 구조를 준수해야 합니다. 이 구
 
 바디의 부분은 사용자와 직접적인 관계를 형성하여 사용자가 볼 수 있는 웹페이지의 일부이며, HTML 시스템 내의 유기체 일부에 불과합니다. 이 섹션의 내용은 다양한 요소로 구성됩니다. 이러한 주요 구성 요소에는 제목(`h1`, `h2` 등), 단락(`p`), 링크(`a`), 이미지(`img`), 목록(`ul`, `ol`, `li`) 등이 있습니다. 이러한 요소들을 통해 개발자는 웹페이지의 실제 콘텐츠를 형성하고 공유하여 방문객들이 만족할 만큼 웹페이지를 더 읽기 쉽게 찾을 수 있도록 할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 예시 HTML 구조
 
@@ -147,7 +263,18 @@ HTML 문서를 작성할 때는 특정 구조를 준수해야 합니다. 이 구
 
 ![HTML 소개](/assets/img/2024-05-17-HTMLIntroduction_7.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # HTML Elements and Tags
 
@@ -157,7 +284,18 @@ HTML에서 요소와 태그는 웹 콘텐츠를 구조화하고 정리하는 데
 
 HTML에서는 요소와 태그가 주로 웹 콘텐츠를 보다 잘 관리하고 정렬하는 데 사용됩니다. 일반적인 HTML 태그와 그 역할을 함께 `div`, `span`, `header`, `footer` 및 관련 양식 태그를 사용한 특수 문자가 함께 사용되는 경우를 살펴보겠습니다. 각 태그가 실제 상황에서 어떻게 사용되는지 설명하는 예시가 제공됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1. `div` 태그
 
@@ -180,7 +318,18 @@ HTML에서는 요소와 태그가 주로 웹 콘텐츠를 보다 잘 관리하�
 
 ## 2. `span` 태그
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `span` 태그를 사용하면 개발자가 블록의 큰 섹션에서 텍스트 줄의 특정 섹션을 스타일링할 수 있습니다. 일반적으로 인라인 스타일링 및 CSS 클래스가 가장 많이 사용됩니다. `span` 태그를 사용하는 예시는 아래와 같습니다:
 
@@ -205,7 +354,18 @@ HTML에서는 요소와 태그가 주로 웹 콘텐츠를 보다 잘 관리하�
 
 `header` 및 `footer` 태그 모두 웹 페이지의 헤더 및 푸터 부분을 지정하는 데 사용됩니다. 대개 상단(헤더)에는 일반적으로 소개 또는 탐색 콘텐츠가 있으며, 하단(푸터)에는 마감 세부정보가 있습니다. 이러한 태그의 사용 예시는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <!DOCTYPE html>
@@ -220,7 +380,7 @@ HTML에서는 요소와 태그가 주로 웹 콘텐츠를 보다 잘 관리하�
             <a href="#">Home</a> | <a href="#">About</a> | <a href="#">Contact</a>
         </nav>
     </header>
-    
+
     <footer>
         <p>&copy; 2024 Example Company. All rights reserved.</p>
     </footer>
@@ -242,17 +402,28 @@ HTML은 웹 페이지에서 상호작용하는 양식을 생성할 수 있도록
     <form>
         <label for="name">Name:</label>
         <input type="text" id="name" name="name">
-        
+
         <label for="email">Email:</label>
         <input type="email" id="email" name="email">
-        
+
         <button type="submit">Submit</button>
     </form>
 </body>
 </html>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 명령어를 이해하고 활용함으로써 웹 개발자들은 잘 구조화되고 사용자 친화적인 웹 페이지를 만들 수 있으며 일반적으로 관객에게 더 나은 경험을 제공할 수 있습니다.
 
@@ -262,7 +433,18 @@ HTML은 웹 페이지에서 상호작용하는 양식을 생성할 수 있도록
 
 기본 HTML 요소로 프로젝트를 시작하는 웹 개발자들은 고급 HTML 태그를 알아야 한다는 것을 인지해야 합니다. 이는 더 깊은 학습 단계로 나아가는 길을 열어주며, 멀티미디어를 개선하고, 웹 사이트를 견고하게 만들며, 장애를 가진 사용자들이 효율적으로 웹 사이트에 접근할 수 있도록 하는 것을 도와줍니다. 또한, 최신 버전은 HTML5로 XHTML의 자리를 차지하며 현대 웹 개발의 요구를 더 잘 충족하는 새로운 태그를 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 그림을 그리기 위한 캔버스 요소
 
@@ -272,7 +454,18 @@ HTML5의 `canvas` 요소는 페이지에 스크립트를 동적으로 넣어 사
 
 HTML5는 비디오 및 오디오 태그를 사용하여 비디오 및 오디오 컨텐츠를 웹 페이지 내에서 직접 스트리밍할 수 있도록 네이티브 지원을 제공합니다. 최신 운영 방식으로, 개발자들은 플래시와 같은 제3자 플러그인이 필요하지 않은 멀티미디어 인터페이스를 효과적으로 결합할 수 있습니다. 비디오 요소에는 형식 및 속성과 같은 사용자 정의 기능이 있으며, 오디오 요소를 사용하여 사용자에게 더 풍부한 경험을 제공할 수 있습니다. 이러한 기술을 사용하면 웹 사이트에서 멀티미디어 및 특히 이 플랫폼과 상호 작용하는 사용자들의 이야기 및 관객과의 상호 작용과 관련된 것들을 구현할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 향상된 상호 작용을 위한 새로운 양식 컨트롤
 
@@ -282,7 +475,18 @@ HTML5는 데이터 입력 및 상호 작용을 더 효율적으로 구성하는 
 
 HTML5의 사용 자체만으로도 개발자들에게는 훌륭한 것입니다. 이는 반응성과 접근성에 중점을 둔 것입니다. 웹 사이트는 화면 크기 및 장치에 매끄럽게 적응하지만 장애를 가진 사람들에게도 사용 가능합니다. 많은 요소들, 예를 들어, 의미론적 요소들(`header`, `nav`, `main`, `footer`), 반응형 이미지(`img srcset`), 그리고 랜드마크 역할(ARIA 속성)이 구조와 웹 탐색을 위해 사용되었습니다. 이를 실현하기 위해 개발자들은 이러한 의미론적 인프라, 반응성, 그리고 ARIA 랜드마크들을 웹 페이지의 구조에 사용해야 합니다. 항상 시각적 디자인과 탐색을 향상시키고 웹 사이트는 모든 사용자를 환영해야 합니다. 이러한 기능을 따르면, 개발자들은 사이트의 실용성뿐만 아니라 모든 사용자에게 접근 가능한 환경을 만드는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 HTML5의 고급 기능 활용은 개발자들이 전자 학습 및 모바일 학습을 포함한 다양한 수정 작업을 수행하는 데 도움이 되는 새로운 도구를 사용할 수 있게 합니다. 3D 모델, 데이터 시각화 및 일반 대중에게 수용 가능한 접근 가능한 인터페이스와 같은 리소스를 포함하여 다양한 수정 작업을 수행하는 데 도움이 되는 새로운 도구를 사용할 수 있게 합니다. HTML 캔버스는 몰입형 멀티미디어 경험에 신뢰성을 제공하는 동시에 이러한 특별한 구현으로 사용자와 웹 사이트의 상호 작용 방식을 변경할 수 있습니다.
 
@@ -294,7 +498,18 @@ HTML5의 고급 기능 활용은 개발자들이 전자 학습 및 모바일 학
 
 CSS 및 웹 개발 사용량을 줄이려는 욕망을 형성하는 동안 HTML 표준이 작업에서 필수적으로 구현되어야 함을 이해할 필요가 있습니다. 의미론적 HTML, 접근성 고려, SEO 최적화, 그리고 표시되는 것의 가독성을 유지하기 위한 가이드라인을 준수함으로써 사용자 경험을 향상시키고 개발 프로세스를 간소화할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 시맨틱 HTML
 
@@ -304,7 +519,18 @@ CSS 및 웹 개발 사용량을 줄이려는 욕망을 형성하는 동안 HTML 
 
 HTML 코드를 작성할 때 웹 사이트의 접근성에 대해 이해하고 있는 것은 단순히 명령이 아니라 모든 사용자가 장애가 있는 경우를 포함해 사이트에 문제없이 액세스할 수 있어야 한다는 가장 중요한 점입니다. 이미지에 대한 대체 텍스트 추가, 설명적인 링크 텍스트, 적절한 제목 구조, 키보드 탐색 지원과 같은 기능을 추가하여 접근성을 높이면 공통접근성을 의미하는 포용적이고 접근 가능한 방식으로 제공됩니다. 설정된 접근성 가이드라인을 따르는 것은 많은 관객에 손길을 남기면서 모든 웹 사이트가 어디에서나 누구에게나 접근 가능해야 한다는 요구 사항을 충족시키는 한 가지 방법입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## SEO 고려 사항
 
@@ -314,7 +540,18 @@ HTML 코드를 작성할 때 웹 사이트의 접근성에 대해 이해하고 �
 
 HTML 문서가 깨끗하고 조직적이며 이해하기 쉽도록 보장하기 위해서는 미래 협업 및 유지보수를 위한 최고의 코드 관행을 준수해야 합니다. 코드 블록을 일관된 방식으로 정렬하고 클래스와 ID에 명확한 이름을 부여하며 복잡한 섹션이나 기능을 설명하는 설명적인 주석을 추가하세요. 린터 및 코드 유효성 검사와 같은 도구의 사용은 개발 중에 오류를 감지하고 코드를 공통 스타일에서 벗어나지 않도록 방지하여 코드를 쉽게 읽을 수 있도록 도와줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 HTML 효율적인 작성 기준을 따르면 웹 프로젝트를 다음 수준으로 발전시킬 수 있어요. 이는 사용자 경험을 향상시키고 디지털 콘텐츠의 영향력과 범위를 확대하는 데 도움이 될 거예요. 의미 있는 작성의 실용적인 구현을 내재화하면, 모든 사용자에게 웹 접근이 가능해지고 SEO 최적화 및 가독성 있는 콘텐츠 작성을 통해 현재 프로젝트를 개선할 수 있을 뿐만 아니라 미래 웹 프로젝트의 견고한 기초를 마련할 수 있어요.
 
@@ -324,7 +561,18 @@ HTML은 웹페이지의 핵심 요소임을 부인할 수 없어요. 요소와 �
 
 p 태그를 사용하면 닫는 태그가 필요 없고, 매우 간결하게 단락을 정의할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 HTML의 매체는 계층 구조를 따라가며 웹사이트를 더 깔끔하고 명확하게 만들 수 있게 도와줍니다. 한편으로, 텍스트가 어려워지는 것 같은데, 태그 뒤에 따라오는 현실이 그렇습니다. 태그가 따라오면서 HTML 문서를 생성하고 구성해야 하는데, 이는 정리되고 조직화된 문서를 만들 수 있게 합니다. 각 div의 높이와 너비를 설정하면 각 문단의 어느 쪽에 배치할지를 정의할 수 있습니다. 태그가 HTML에 중요한 이유는 다른 부분들을 조립하고, 제목, 문단 또는 기타 부분들이 어떻게 표시될지를 지시하기 때문입니다.
 
@@ -334,11 +582,23 @@ HTML의 매체는 계층 구조를 따라가며 웹사이트를 더 깔끔하고
 
 ![HTML 소개](/assets/img/2024-05-17-HTMLIntroduction_10.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 퀴즈
 
 ## 1. HTML은 무엇을 의미합니까?
+
 a) 하이퍼텍스트 마크업 언어
 b) 하이 텍스트 기계 언어
 c) 하이퍼링크 및 텍스트 마크업 언어
@@ -346,7 +606,18 @@ d) 홈 도구 마크업 언어
 
 ## 2. 내부 스타일 시트를 정의하는 데 사용되는 HTML 태그는 무엇입니까?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 a) `script`
 b) `style`
@@ -362,7 +633,18 @@ d) `newline`
 
 ### 4. HTML에서 하이퍼링크를 생성하는 데 사용되는 다음 태그는 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 a) `link`
 b) `href`
@@ -373,12 +655,23 @@ d) `url`
 
 a) `<!-- Comment -->`
 b) // Comment
-c) /* Comment */
+c) /_ Comment _/
 d) # Comment
 
 ## 6. Which HTML element is used to specify a footer for a document or section?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 a) 'foot'
 b) 'bottom'
@@ -394,7 +687,18 @@ d) `image href=”image.jpg”`
 
 ## 8. HTML의 `title` 태그는 무엇을 하는 것입니까?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 a) 웹 페이지의 제목을 만듭니다.
 b) 제목을 브라우저의 제목 표시줄이나 탭에 표시합니다.
@@ -410,7 +714,18 @@ d) styles
 
 ## 10. HTML에서 번호가 매겨진 목록을 만드는 데 사용되는 것은 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 a) `ul`
 b) `ol`
@@ -423,7 +738,18 @@ Part 1 퀴즈 끝!
 
 ![이미지](/assets/img/2024-05-17-HTMLIntroduction_12.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 더 많은 업데이트를 받고 싶다면 팔로우하세요!
 

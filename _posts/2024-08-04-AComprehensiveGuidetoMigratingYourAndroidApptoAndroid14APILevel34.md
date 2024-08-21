@@ -3,16 +3,13 @@ title: "당신의 안드로이드 앱을 안드로이드 14 API 레벨 34로 마
 description: ""
 coverImage: "/assets/img/2024-08-04-AComprehensiveGuidetoMigratingYourAndroidApptoAndroid14APILevel34_0.png"
 date: 2024-08-04 19:13
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-04-AComprehensiveGuidetoMigratingYourAndroidApptoAndroid14APILevel34_0.png
 tag: Tech
 originalTitle: "A Comprehensive Guide to Migrating Your Android App to Android 14 API Level 34"
 link: "https://medium.com/@riteshmaagadh/a-comprehensive-guide-to-migrating-your-android-app-to-android-14-api-level-34-a9e6c5c6fe90"
 isUpdated: true
 ---
-
-
-
 
 안녕하세요 독자 여러분, 이 글에서는 안드로이드 앱을 안드로이드 14 (API 레벨 34)로 이주하는 방법을 쉽게 안내해 드릴 것입니다. 그냥 글을 따라오세요. 시작해봅시다...
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-08-04-AComprehensiveGuidetoMigratingYourAndroidApptoAndroid14APILevel34_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 알겠어요!
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 ## 포그라운드 서비스 유형은 필수입니다
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트에서 전경 서비스를 사용 중이라면 AndroidManifest.xml의 서비스 선언에서 android:foregroundServiceType을 반드시 지정해야 합니다.
 
@@ -42,7 +61,18 @@ isUpdated: true
 
 foregroundServiceType에 대해 더 알아보려면 여기를 클릭하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## AndroidManifest.xml에 BLUETOOTH_CONNECT 권한
 
@@ -54,7 +84,18 @@ foregroundServiceType에 대해 더 알아보려면 여기를 클릭하세요.
 
 ## JobScheduler는 콜백과 네트워크 동작을 강화합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 앱이 Android 14(API 레벨 34) 이상을 대상으로 하고 onStartJob 및 onStopJob의 부여된 시간을 초과하면 ANR이 발생합니다.
 
@@ -64,7 +105,18 @@ JobScheduler에서 setRequiredNetworkType 또는 setRequiredNetwork 제약 조�
 
 ## 전체 화면 인텐트 알림을 안전하게 보호하세요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요! Android 11(API 레벨 30)부터 휴대폰 잠금 상태에서 전체 화면 인텐트를 보내기 위해 Notification.Builder.setFullScreenIntent를 사용하고 있었어요. AndroidManifest.xml에 USE_FULL_SCREEN_INTENT 권한을 선언하여 앱 설치 시 자동으로 부여할 수 있었지만, 이제 사용자가 앱 설정에서 이 권한을 끌 수 있어요.
 
@@ -76,7 +128,18 @@ Android 14부터는 Android 14를 대상으로 할 때 목적지의 패키지 �
 
 언제든지 더 물어보세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```kotlin
 val explicitIntent = Intent("com.example.action.APP_ACTION")
@@ -92,6 +155,17 @@ context.startActivity(explicitIntent)
 
 Android 14의 이주 가이드 및 중요한 변경 사항은 여기까지입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 즐거운 코딩하세요!

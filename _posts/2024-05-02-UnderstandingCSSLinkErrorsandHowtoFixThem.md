@@ -3,15 +3,13 @@ title: "CSS Link Errors 이해 및 해결 방법 알아보기"
 description: ""
 coverImage: "null"
 date: 2024-05-02 00:51
-ogImage: 
+ogImage:
   url: null
 tag: Tech
 originalTitle: "Understanding CSS Link Errors and How to Fix Them"
 link: "https://medium.com/@kasata/understanding-css-link-errors-and-how-to-fix-them-6ec15028736f"
 isUpdated: true
 ---
-
-
 
 이미 완벽한 CSS 코드를 작성했는데 HTML 페이지에서 제대로 작동하지 않았던 적이 있나요? 그렇다면 걱정하지 마세요. 이 문제는 많은 개발자, 특히 초보자들이 자주 마주치는 문제입니다. 종종 문제는 CSS 코드 자체가 아니라 HTML과 CSS 사이의 링크 과정에 있을 수 있습니다.
 
@@ -22,7 +20,18 @@ HTML에 CSS를 연결할 때 흔히 발생하는 두 가지 오류가 있습니�
 - 올바르지 않은 파일 경로: HTML 링크 태그에서 CSS 파일의 올바른 경로를 지정하지 않았을 때 발생하는 오류입니다.
 - 링크 태그 내 올바르지 않은 구문 또는 오타: HTML 링크 태그의 꺾쇠 괄호 사이에 입력한 텍스트에 오류가 있을 때 발생합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 일반적인 오류 해결 방법
 
@@ -32,7 +41,18 @@ HTML에 CSS를 연결할 때 흔히 발생하는 두 가지 오류가 있습니�
 
 CSS 파일을 위한 링크 태그 예시:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 줄에서 "styles.css"는 CSS 파일의 경로입니다. 이 파일 경로는 절대 경로 또는 상대 경로일 수 있습니다.
 
@@ -41,7 +61,18 @@ CSS 파일을 위한 링크 태그 예시:
 
 만약 href 속성의 경로가 프로젝트 디렉토리 내 CSS 파일의 위치와 정확히 대응하지 않으면 CSS가 HTML에 적용되지 않을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 링크 태그에 있는 구문 오류 또는 오타
 
@@ -53,7 +84,18 @@ CSS 파일을 위한 링크 태그 예시:
 
 위 예시에서 rel 뒤에 "="가 빠져있고, 마지막에 "`"가 빠져있습니다. 이는 CSS가 올바르게 링크되지 않게 만들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 추천 사항
 

@@ -3,16 +3,13 @@ title: "리액트 앱을 Vite로 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-19-HowToCreateaReactAppwithVite_0.png"
 date: 2024-06-19 23:57
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-HowToCreateaReactAppwithVite_0.png
 tag: Tech
 originalTitle: "How To Create a React App with Vite"
 link: "https://medium.com/@miahossain8888/how-to-create-a-react-app-with-vite-571883b100ef"
 isUpdated: true
 ---
-
-
-
 
 ![이미지](/assets/img/2024-06-19-HowToCreateaReactAppwithVite_0.png)
 
@@ -23,7 +20,18 @@ isUpdated: true
 - Node 버전 ≥ 18
 - NPM 버전 8
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Vite는 Node.js 버전 ≥ 18과 npm 버전 8을 필요로 합니다. 그러나 일부 템플릿은 작동하려면 더 높은 Node.js 버전이 필요합니다.
 
@@ -33,7 +41,18 @@ Vite를 사용하여 React 프로젝트를 만들려면 먼저 터미널을 사�
 
 여기서 두 가지 다른 방법을 보여드리겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 방법 1:
 
@@ -45,7 +64,18 @@ npm create vite@latest
 
 ![이미지](/assets/img/2024-06-19-HowToCreateaReactAppwithVite_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기에 프로젝트 이름을 지정해주세요. 해당 이름은 프로젝트 폴더의 이름이 됩니다.
 
@@ -55,7 +85,18 @@ npm create vite@latest
 
 ![프로젝트 이미지](/assets/img/2024-06-19-HowToCreateaReactAppwithVite_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 키보드 화살표를 사용하여 React를 선택한 후 엔터키를 눌러주세요.
 
@@ -65,7 +106,18 @@ npm create vite@latest
 
 ![JavaScript image](/assets/img/2024-06-19-HowToCreateaReactAppwithVite_5.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해결되었습니다.
 
@@ -77,7 +129,18 @@ npm create vite@latest
 npm create vite@latest my-app -- --template react
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-HowToCreateaReactAppwithVite_6.png" />
 
@@ -87,9 +150,20 @@ npm create vite@latest my-app -- --template react
 
 ```js
 cd my-app
-```  
+```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 프로젝트 폴더로 이동하세요.
 
@@ -103,7 +177,18 @@ npm install
 npm run dev
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마침내, 프로젝트를 시작해보세요.
 
@@ -113,7 +198,18 @@ npm run dev
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사에서는 Vite를 사용하여 React 프로젝트를 만드는 방법을 보여드렸어요.
 공식 문서는 여기서 확인할 수 있어요.

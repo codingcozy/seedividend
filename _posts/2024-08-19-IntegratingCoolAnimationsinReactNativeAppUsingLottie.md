@@ -3,7 +3,7 @@ title: "로티Lottie를 이용하여 React Native 앱에 애니메이션 적용�
 description: ""
 coverImage: "/assets/no-image.jpg"
 date: 2024-08-19 03:32
-ogImage: 
+ogImage:
   url: /assets/no-image.jpg
 tag: Tech
 originalTitle: "Integrating Cool Animations in React Native App Using Lottie"
@@ -11,8 +11,6 @@ link: "https://medium.com/@mdshibi/integrating-cool-animations-in-react-native-a
 isUpdated: true
 updatedAt: 1724032944878
 ---
-
-
 
 ![animation](https://miro.medium.com/v2/resize:fit:1400/1*qZMz2abxuSdvi6YQOFkLVg.gif)
 
@@ -22,8 +20,18 @@ updatedAt: 1724032944878
 
 시작하기 전에 다음을 준비하세요:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - React Native 프로젝트 설정 완료 (React Native CLI 또는 Expo).
 - Node.js 및 npm / yarn이 설치되어 있습니다.
@@ -34,7 +42,18 @@ updatedAt: 1724032944878
 
 React Native에서 Lottie를 시작하려면 lottie-react-native 및 lottie-ios 패키지를 설치해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로티 패키지를 설치해보세요:
 
@@ -46,7 +65,18 @@ yarn add lottie-react-native lottie-ios@latest
 
 또는, 만약 npm을 사용 중이라면:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm install lottie-react-native lottie-ios@latest
@@ -60,25 +90,58 @@ React Native CLI 프로젝트의 경우, 프로젝트에 Lottie 패키지를 연
 npx pod-install
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 Markdown 형식으로 테이블 태그를 변경하겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LottieView를 가져와보세요:
 
 React Native 컴포넌트 파일에 LottieView 컴포넌트를 가져오세요:
 
 ```js
-import React from 'react';
-import { View, StyleSheet } from 'react-native';
-import LottieView from 'lottie-react-native';
+import React from "react";
+import { View, StyleSheet } from "react-native";
+import LottieView from "lottie-react-native";
 ```
 
 로티 애니메이션을 불러와보세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로티 애니메이션을 불러오려면 JSON 파일을 로컬 또는 URL에서 제공하면 됩니다.
 
@@ -90,11 +153,7 @@ import LottieView from 'lottie-react-native';
 const App = () => {
   return (
     <View style={styles.container}>
-      <LottieView
-        source={require('./path/to/animation.json')}
-        autoPlay
-        loop
-      />
+      <LottieView source={require("./path/to/animation.json")} autoPlay loop />
     </View>
   );
 };
@@ -102,15 +161,26 @@ const App = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
+    justifyContent: "center",
+    alignItems: "center",
   },
 });
 
 export default App;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 원격 JSON 파일:
 
@@ -120,11 +190,7 @@ export default App;
 const App = () => {
   return (
     <View style={styles.container}>
-      <LottieView
-        source={{ uri: 'https://example.com/path/to/animation.json' }}
-        autoPlay
-        loop
-      />
+      <LottieView source={{ uri: "https://example.com/path/to/animation.json" }} autoPlay loop />
     </View>
   );
 };
@@ -132,8 +198,8 @@ const App = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
+    justifyContent: "center",
+    alignItems: "center",
   },
 });
 
@@ -142,7 +208,18 @@ export default App;
 
 LottieView 사용자 정의:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로티뷰 컴포넌트에는 애니메이션을 사용자 지정하는 여러 프롭스가 있습니다:
 
@@ -182,7 +259,18 @@ const styles = StyleSheet.create({
 export default App;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 3: 애니메이션 테스트
 
@@ -193,7 +281,18 @@ export default App;
 
 모든 것이 올바르게 설정되었다면, 앱 내에서 Lottie 애니메이션이 재생되는 것을 확인할 수 있어야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 결론
 

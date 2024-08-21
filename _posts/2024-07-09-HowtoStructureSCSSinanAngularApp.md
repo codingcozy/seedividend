@@ -3,15 +3,13 @@ title: "Angular 앱에서 SCSS 구조화하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-HowtoStructureSCSSinanAngularApp_0.png"
 date: 2024-07-09 18:09
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-HowtoStructureSCSSinanAngularApp_0.png
 tag: Tech
 originalTitle: "How to Structure SCSS in an Angular App"
 link: "https://medium.com/@stefaniefluin/how-to-structure-scss-in-an-angular-app-a1b8a759a028"
 isUpdated: true
 ---
-
-
 
 SCSS를 좋아하는 경우, Angular 애플리케이션에서 사용해야 합니다. 다행히 Angular CLI가 모든 설정을 해줍니다!
 
@@ -21,7 +19,18 @@ SCSS를 좋아하는 경우, Angular 애플리케이션에서 사용해야 합�
 
 # Angular CLI를 사용한 새 프로젝트 설정
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새 Angular 앱을 만들 때 ng new app-name 명령을 사용하면 CLI가 "어떤 스타일 시트 형식을 사용하시겠습니까?"라고 묻습니다. SCSS를 선택해주세요.
 
@@ -32,7 +41,18 @@ SCSS를 좋아하는 경우, Angular 애플리케이션에서 사용해야 합�
 - angular.json 빌드/options/styles 섹션에 `src/styles.scss`를 추가합니다.
 - `styles.scss` 파일을 생성하여 src 폴더에 추가합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CLI는 테스트 파일 및 참조도 구성하지만, 이 부분에 대해서는 다루지 않을 거예요.
 
@@ -42,7 +62,18 @@ CLI는 테스트 파일 및 참조도 구성하지만, 이 부분에 대해서�
 
 CLI 구성 업데이트
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다른 것을 하실 일은 CLI 구성을 업데이트하여 새로운 컴포넌트를 생성할 때 CSS 파일 대신 SCSS 파일을 생성하도록 하는 것입니다. 이 작업을 하는 방법은 두 가지가 있습니다. CLI 명령을 사용하거나 참조를 수동으로 추가하는 것입니다. 명령을 사용하려면 다음을 터미널에 입력하세요:
 
@@ -58,7 +89,18 @@ ng config schematics.@schematics/angular:component.styleext scss
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "schematics":'"@schematics/angular:component":'"style": "scss"',
 
@@ -68,7 +110,18 @@ SCSS-Scaffold NPM 패키지 사용하기
 
 여기서 제가 쓴 게시물을 확인해 볼 수 있어요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # SCSS 구조
 
@@ -78,7 +131,18 @@ SCSS-Scaffold NPM 패키지 사용하기
 
 저는 원활한 협업을 위해 컴포넌트 스타일링을 피하고 가능한 한 전역 스타일로 유지하는 것을 선호합니다. 특히 여러 명의 개발자가 협업하는 경우에는 금방 지저분해질 수 있기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 글로벌 스타일을 사용하면 모든 사람이 동일한 구조와 시스템을 사용하게 되며, 패턴 및 사용 사례에 대한 토론을 촉진합니다.
 
@@ -88,7 +152,18 @@ Angular 프로젝트를 준비하고 SCSS를 사용할 수 있도록 설정한 �
 
 시작하려면:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 앞서 src 프로젝트 폴더에 styles라는 폴더를 만들어주세요.
 - styles.scss 파일을 새로 만든 styles 폴더로 옮겨주세요.
@@ -100,7 +175,18 @@ Angular 프로젝트를 준비하고 SCSS를 사용할 수 있도록 설정한 �
 
 아래는 제가 스타일 폴더를 어떻게 배치하는지 예시입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Base Folder](/assets/img/2024-07-09-HowtoStructureSCSSinanAngularApp_2.png)
 
@@ -108,7 +194,18 @@ My base folder contains global styles which include general layout items, a few 
 
 Additionally, the base folder includes a typography stylesheet for all font-related styles. This covers headings, general text fonts, links, and any necessary custom font classes.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 페이지
 
@@ -118,7 +215,18 @@ Additionally, the base folder includes a typography stylesheet for all font-rela
 
 모듈(또는 일반적으로 구성 요소로 알려진)은 전체적으로 재사용 가능한 구성 요소 스타일을 유지합니다. 이에는 헤더 및 푸터, 버튼, 레이블, 탐색, 카드 또는 프로젝트 전체에서 여러 곳에서 사용 중인 다른 요소가 포함됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도우미
 
@@ -128,7 +236,18 @@ Additionally, the base folder includes a typography stylesheet for all font-rela
 
 공급업체(선택 사항)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막으로, 만약 부트스트랩이나 Normalize.css와 같은 서드 파티 라이브러리를 포함시키는 경우 벤더 폴더를 추가하는 것이 좋을 수도 있어요. 때로는 이 벤더 폴더에 모든 벤더별 구성 또는 스타일을 오버라이드하는 설정을 유지하는 것이 도움이 될 수 있어요. 여기에 동일한 스타일시트(예: 부트스트랩 베이스 도구)만 가져와서 유지할 수도 있어요.
 
@@ -143,7 +262,18 @@ Additionally, the base folder includes a typography stylesheet for all font-rela
 
 가끔 포함시키는 다른 파일은 print.scss 스타일시트입니다. 여기에는 사이트의 사용자 정의 프린트 스타일링이 포함돼요. 이것은 기술 문서를 포함하는 매우 애니메이팅되거나 화려한 웹사이트에서 특히 유용하죠 - 당신이 일부 스타일을 포함해서 콘텐츠를 단순화하고, 프린트할 때 눈에 잘 들어오도록 몇몇 요소를 제외할 수도 있어요. 이것을 베이스 폴더에 쉽게 담을 수도 있지만, 전체 애플리케이션에 사용될 때 알맞은 형식(디지털 장치)으로 적용될 때 주로 전체적인 콘텐츠를 크게 수정하기 때문에, 별도로 유지해 두는 것을 선호해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SCSS 디렉토리 파일
 
@@ -153,7 +283,18 @@ SCSS 구조에는 해당 폴더 내의 모든 개별 스타일시트를 포함�
 
 해더는 내가 무엇을 보고 있는지 빨리 파악하는 데 도움을 줍니다 - 특히 파일을 많이 편집할 때. 아래에는 해당 폴더 내에서 개별 스타일시트를 가져올 중요한 부분들이 있습니다. 이 경우, 베이스 폴더입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SCSS 메인 파일 롤업
 
@@ -163,7 +304,18 @@ SCSS 메인 파일 롤업
 
 ![이미지](/assets/img/2024-07-09-HowtoStructureSCSSinanAngularApp_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 컴포넌트 스타일링 사용하기
 
@@ -175,7 +327,18 @@ SCSS 메인 파일 롤업
 
 이 파일을 이동하거나 이름을 변경하는 경우, 이 경로를 업데이트해야 함을 유의하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 요약
 
@@ -185,7 +348,18 @@ SCSS 메인 파일 롤업
 
 # 후기 📋
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CLI에는 다양한 설정 옵션이 있지만, 저는 컴포넌트를 생성할 때 현재 있는 --skipTests=false 플래그와 유사한 "스타일 없음" 플래그가 있는 것이 좋다고 생각해요. 제가 스타일시트를 모두 스타일 폴더에서 독립적으로 구성하기 때문에 컴포넌트 기반 스타일시트가 필요하지 않아요.
 
@@ -195,7 +369,18 @@ CLI에는 다양한 설정 옵션이 있지만, 저는 컴포넌트를 생성할
 
 더 많이 알고 싶다면 SCSS 및 Angular 및 CLI와 함께 SCSS 사용에 대해 더 알아볼 수 있는 몇 가지 자료가 여기에 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - https://sass-guidelin.es/#architecture
 - https://sass-lang.com/styleguide/layout

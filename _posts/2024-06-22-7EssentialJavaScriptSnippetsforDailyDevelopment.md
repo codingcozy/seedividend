@@ -3,16 +3,13 @@ title: " 일상 개발에 꼭 필요한 7가지 자바스크립트 코드 스니
 description: ""
 coverImage: "/assets/img/2024-06-22-7EssentialJavaScriptSnippetsforDailyDevelopment_0.png"
 date: 2024-06-22 13:48
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-7EssentialJavaScriptSnippetsforDailyDevelopment_0.png
 tag: Tech
 originalTitle: "🚀 7 Essential JavaScript Snippets for Daily Development"
 link: "https://medium.com/javascript-in-plain-english/7-essential-javascript-snippets-for-daily-development-9fe66c340c35"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-06-22-7EssentialJavaScriptSnippetsforDailyDevelopment_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 # 1️⃣ 클립보드로 콘텐츠 복사하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지정된 DOM 요소에서 내용을 사용자 클립보드로 복사하는 버튼을 사용하는 방법:
 
@@ -34,26 +42,37 @@ const copyToClipboard = (content) => {
   textarea.select();
   document.execCommand("Copy");
   textarea.remove();
-}
+};
 ```
 
 # 2️⃣ URLSearchParams를 사용하여 URL 검색 매개변수 가져 오기
 
 이것은 매우 흔한 작업입니다. 이 작업에 대해 regex에 의존했지만 이제는 더 간단한 접근 방법이 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const getQueryByName = (name) => {
   const query = new URLSearchParams(location.search);
   return decodeURIComponent(query.get(name));
-}
+};
 
 // 사용 예시:
 // URL: https://sunday.com/?name=fatfish&age=100
-const name = getQueryByName('name'); // fatfish
-const age = getQueryByName('age'); // 100
-const gender = getQueryByName('gender'); // null
+const name = getQueryByName("name"); // fatfish
+const age = getQueryByName("age"); // 100
+const gender = getQueryByName("gender"); // null
 ```
 
 # 3️⃣ 페이지 상단으로 스무스하게 스크롤
@@ -67,10 +86,21 @@ const scrollToTop = () => {
     window.requestAnimationFrame(scrollToTop);
     window.scrollTo(0, c - c / 8);
   }
-}
+};
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 4️⃣ 현재 스크롤 위치 가져오기
 
@@ -87,7 +117,18 @@ getScrollPosition(); // { x: 0, y: 215 }
 
 # 5️⃣ 기기가 안드로이드인지 iOS인지 확인하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현재 기기의 운영 체제를 식별하십시오:
 
@@ -96,7 +137,7 @@ function getOSType() {
   let u = navigator.userAgent;
   let isAndroid = u.indexOf("Android") > -1 || u.indexOf("Linux") > -1;
   let isIOS = !!u.match(/\(i[^]+( U)? CPU.+Mac OS X/);
-  
+
   if (isIOS) {
     return 0; // iOS
   } else if (isAndroid) {
@@ -113,12 +154,23 @@ getOSType(); // 0은 iOS
 
 숫자를 통화 형식으로 변환하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const formatMoney = (money) => {
   return money.toLocaleString();
-}
+};
 
 console.log(formatMoney(123456789)); // '123,456,789'
 console.log(formatMoney(123456789.123)); // '123,456,789.123'
@@ -159,7 +211,18 @@ function exitScreen() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 쉽게 말해 🚀
 

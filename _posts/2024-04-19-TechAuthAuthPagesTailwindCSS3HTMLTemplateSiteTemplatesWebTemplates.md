@@ -3,17 +3,13 @@ title: "Auth Pages Tailwind CSS 3 HTML 템플릿"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "TechAuth  Auth Pages Tailwind CSS 3 HTML Template Site Templates Web Templates"
 link: "https://medium.com/@glitchgiselle/techauth-auth-pages-tailwind-css-3-html-template-site-templates-web-templates-7bbcb2da95bd"
 isUpdated: true
 ---
-
-
-
-
 
 ![TechAuth Auth Pages Tailwind CSS 3 HTML Template](/assets/img/TechAuthAuthPagesTailwindCSS3HTMLTemplateSiteTemplatesWebTemplates_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 TechAuth는 로그인, 회원가입, 비밀번호 잊어버림 등 인증 목적의 세련되고 간단한 HTML 페이지 세트입니다. 소스 코드는 깨끗하고 간결합니다. Tailwind CSS의 최신 버전(v3.3.3)을 이용해 HTML5, SCSS 및 CSS3로 구축되어 완전히 반응형입니다. 이 템플릿은 사용자 친화적이고 구현하기 쉬우며 성능이 향상되었습니다. 다음 프로젝트를 위해 특정 요구 사항에 맞게 손쉽게 사용자 정의할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주요 기능
 
@@ -53,7 +60,18 @@ TechAuth는 로그인, 회원가입, 비밀번호 잊어버림 등 인증 목적
 - 쉽게 사용할 수 있는 다음 프레임워크도 함께 사용할 수 있습니다: Next, Laravel, Nuxt, Svelte Kit, Qwik, Ruby on Rails, Meteor, Astro, Shopify, .NET, Vue.js, Django, Spring, Flask, CodeIgniter, Symfony, Native, React Native, Ionic, Framework 7,
 - 다음 번들러도 사용할 수 있습니다: Vite, Parcel, Yarn, NPM, Gulp
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 항목 태그
 
@@ -63,7 +81,18 @@ TechAuth는 로그인, 회원가입, 비밀번호 잊어버림 등 인증 목적
 
 HTML, CSS, JS
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 추가 기능
 
@@ -75,7 +104,18 @@ HTML, CSS, JS
 
 더 많은 정보
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 비슷한 웹 템플릿
 
@@ -85,13 +125,35 @@ HTML, CSS, JS
 
 테크자의 TechButton — Tailwind CSS 3 버튼 HTML 템플릿
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![TechCard — Tailwind CSS 3 Card HTML Template by Techzaa](/assets/img/TechAuthAuthPagesTailwindCSS3HTMLTemplateSiteTemplatesWebTemplates_2.png)
 
 ![TechPopup — Ecommerce Popup HTML Template by Techzaa](/assets/img/TechAuthAuthPagesTailwindCSS3HTMLTemplateSiteTemplatesWebTemplates_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/TechAuthAuthPagesTailwindCSS3HTMLTemplateSiteTemplatesWebTemplates_4.png)
 
@@ -101,7 +163,18 @@ TechService — Techzaa에서 만든 HTML & CSS 서비스 템플릿
 
 더 보기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Techsoon](/assets/img/TechAuthAuthPagesTailwindCSS3HTMLTemplateSiteTemplatesWebTemplates_5.png)
 
@@ -111,7 +184,18 @@ Techzaa사의 Coming Soon HTML Tailwind 템플릿 — Techsoon
 
 Techzaa사의 TailHero — 창의적인 히어로 섹션 템플릿
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/TechAuthAuthPagesTailwindCSS3HTMLTemplateSiteTemplatesWebTemplates_7.png)
 

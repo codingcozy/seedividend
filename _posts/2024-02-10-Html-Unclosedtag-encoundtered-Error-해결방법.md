@@ -3,20 +3,15 @@ title: "Html Unclosedtag encoundtered Error 해결방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 16:52
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
 
-
-
-
-
 # Html Unclosedtag encoundtered Error 해결방법
-
 
 ## 에러 메세지
 
@@ -44,7 +39,18 @@ HTML 검증 도구 사용: 온라인 HTML 검증 도구를 사용하여 문서�
 
 HTML 문서를 검증하고 오류를 찾는 데 도움이 되는 몇 가지 인기 있는 온라인 HTML 검증 도구를 추천해 드립니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 [W3C Markup Validation Service](https://validator.w3.org/): W3C가 제공하는 공식 HTML 유효성 검사 도구로, HTML 문서를 W3C 표준에 따라 검사하여 오류를 식별합니다.
 

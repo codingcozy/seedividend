@@ -3,16 +3,13 @@ title: "알고리즘을 이해하라는 관객을 이해하라의 현대적인 �
 description: ""
 coverImage: "/assets/img/2024-05-17-KnowYourAlgorithmIstheModernEquivalentofKnowYourAudience_0.png"
 date: 2024-05-17 04:05
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-17-KnowYourAlgorithmIstheModernEquivalentofKnowYourAudience_0.png
 tag: Tech
 originalTitle: "“Know Your Algorithm” Is the Modern Equivalent of “Know Your Audience”"
 link: "https://medium.com/writing-cooperative/know-your-algorithm-is-the-modern-equivalent-of-know-your-audience-125f5e2a6a4"
 isUpdated: true
 ---
-
-
-
 
 ## 무모한 작가
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 이 모든 것이 작가로서의 성공이 본인의 통제를 벗어나는 여러 요소들에 의해 결정된다는 결론을 내게 합니다. 때로는 내 작품이 일부러 억압되는 것 같기도 하고, 때로는 모든 이점을 갖게 되기도 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사회 정의 문제에 대한 목소리를 내는 것은 나에게 중요합니다. 많은 뉴스 소스들이 문제의 모든 면을 충분히 제시하지 못하고 있다고 생각합니다. 저는 작가로서, 자격이 있다면 생산적이고 사회적으로 책임 있는 의견을 제공하는 것이 내 의무라고 생각합니다.
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 역사적으로 작가들은 동료들 사이에서 인기 없는 사회적으로 유익한 아이디어를 전달하는 데 아주 능숙함을 입증했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 작가들이 자신의 시대의 시각에 영향을 미치기를 원한다면, 배포 메커니즘의 작동 방식을 확실하게 이해하는 것이 중요합니다. 이제 우리는 품질 높은 작품의 창작에만 초점을 맞추는 여유가 없어요. 우리는 사람들이 볼 가능성도 있는 매력적인 작품을 써야 합니다.
 
@@ -42,7 +61,18 @@ isUpdated: true
 
 현대의 글쓰기 시장을 낚시와 비교해보세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 작가는 누가 낚시줄을 던지는 사람입니다.
 - 독자들은 물고기입니다.
@@ -56,7 +86,18 @@ isUpdated: true
 
 멋진 미끼를 사용하여 좋은 줄로 죽은 호수로 던진다면, 아무 효과를 얻을 수 없습니다. 물고기를 잡지 못할 때 항상 장비에 문제가 있는 것으로 가정하는 것은 어리석습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 분배 메커니즘은 제어할 수 없는 것일지라도, 그것에 대해 고민하지 않을 여유는 없습니다. 모래위에 시온을 던지고 싶지 않으시죠.
 
@@ -66,7 +107,18 @@ isUpdated: true
 
 현실에서도 작가들 역시 머리를 잃을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 출판 업계에서 몇몇 사람들은 궁극적으로 독자들이 어떤 작품이 성공할지를 선택한다고 주장하기도 합니다. 그러나 배경에는 독자들이 선택할 수 있는 옵션을 조작하는 힘이 작용하고 있음을 일축하는 것은 어리석은 일입니다.
 
@@ -76,7 +128,18 @@ isUpdated: true
 
 나는 (어쩌면 어리석게도) 대부분의 작가들이 세상에 긍정적인 영향을 주려는 선량한 사람들이라고 믿습니다. 그러므로 그들은 때때로 이미 존재하는 배포 제한을 인식하지 못할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 거의 모든 소셜 미디어나 뉴스 피드는 허용되지 않는 콘텐츠 유형을 기술하는 이용 약관을 가지고 있습니다. 이로는 비하적인 댓글, 폭력을 부추기는 발언 등이 포함됩니다. 대부분의 작가들은 이러한 매개변수에 대해 크게 고민하지 않을 것이라고 생각합니다. 왜냐하면 그들이 쓸 내용은 아니기 때문이죠.
 
@@ -86,7 +149,18 @@ isUpdated: true
 
 # 적대적 글쓰기 억제의 필요성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사람들은 "언급의 자유" 개념에 대해 이야기하며, 그것을 모든 형태에서 고귀하다고 만들기도 합니다. 그러나 규칙적인 사람들이 떠나는 순간 얼마나 악랄한 토론이 될 수 있는지를 깨달을만한 시간을 많이 쏟을 필요가 없습니다.
 
@@ -96,8 +170,18 @@ isUpdated: true
 
 문제는 역사가 이러한 시나리오가 매우 유익하다는 것을 보여준다는 점입니다. 이것이 큰 출판사들이 "돈을 벌기 위해" 사업을 한다고 말하는 사람들에 대해 의식이 부족하다고 도전하는 이유 중 하나입니다. 이 발언은 이미 고의적으로 억압되고 있는 글쓰기 유형에 대한 인식 부족을 나타냅니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대모적 환멸에 빠지는 것은 권력과 영향력을 얻는 매우 효과적인 방법입니다. 하지만 아무도 "나는 대모자가 되기를 염원한다"고 말하지는 않습니다. 대신, 그들은 "나는 양심의 자유를 옹호하는 챔피언이다"라고 말함으로써 그들의 야망을 숨깁니다. 이는 양심의 자유를 옹호하는 모든 챔피언이 사악한 목적을 가지고 있다는 의미는 아닙니다. 그들 중 일부는 진심이며, 양심의 자유에는 방어자가 필요합니다.
 
@@ -107,7 +191,18 @@ isUpdated: true
 
 # 유익한 아이디어가 억압되고 있는가?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에서 언급한 주장은 상당히 흥미로운 것 같아요. “언론의 자유를 지키는 챔피언”이라 주장하는 사람이 사실 독재자가 되고 싶어하는 것일 수도 있죠. 하지만 또 다른 경우에는 그냥 아이들이 ‘죽은 살인자의 죄’를 검열되지 않은 상태로 볼 수 있기를 원하는 사람일 수도 있어요.
 
@@ -117,7 +212,18 @@ isUpdated: true
 
 유해한 아이디어를 억제하기 위한 다양한 매커니즘이 존재하는 것은 우리가 알고 있죠. 대다수 플랫폼들은 정당하게 유해한 언어를 게시하는 것을 허용하지 않을 거예요. 그러나 다시 말하지만, 작가들은 모든 플랫폼이 오직 “나쁜” 아이디어만을 억제할 것이라고 가정해서는 안 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사실 그 가정은 책임감이 없다고 할 수 있어요.
 
@@ -127,7 +233,18 @@ isUpdated: true
 
 스크롤하는 뉴스 피드에서는 사회 프로그래밍이 많이 작용하고 있어요. 그 중 일부는 책임감 있는 것이 있고, 일부는 그렇지 않을 수도 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 작가로서 여러분은 자신에게 다음과 같은 질문을 하고 있어야 합니다. "내가 볼 수 있는 이 기사가 어떤 메커니즘을 통해 여기에 왔을까요?" 다음으로 고민해야 할 것은 그 기사를 더 큰 사회적 이점을 제공할 수 있는 기사로 대체하는 방법입니다.
 
@@ -137,7 +254,18 @@ isUpdated: true
 
 팬으로서 나는 경기장에서 뛰는 선수들에 관심이 있었습니다. 하지만 팀을 다루는 전문 작가로서는 게임의 재정적 측면에 대해 보다 주의 깊게 살펴봐야 한다는 것을 깨달았습니다. 놀랍게도, 회계사가 명예의 전당급 쿼터백을 갖는 것만큼이나 NFL 프랜차이즈의 성공에 중요한 역할을 한다는 것을 발견했습니다. 이를 인식하지 못하면 시즌이 어떻게 진행되고 있는지에 대한 가치 있는 통찰을 제공할 수 없습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 렉퍼가 팀이 선수를 영입할 때마다 그 선수를 영입하길 원해요. 그러나 전문가들은 대중에게 왜 그것이 불가능한지 설명해야 합니다.
 
@@ -147,7 +275,18 @@ isUpdated: true
 
 # 작가들의 의무
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "독자가 궁극적으로 선택한다는 생각은 사실이 아닙니다. 네, 독자는 어떤 기사를 클릭할지 선택하지만, 그 선택지는 그들에게 제공된 심사숙고한 선택지에서 옵션을 고를 뿐입니다. 많은 아이디어가 억압되어 왔고, 그것은 사회에 이로움이나 해로움을 주는 것을 고려해요.
 
@@ -157,7 +296,18 @@ isUpdated: true
 
 그래서 '최고의 작품이 항상 선보인다'라고 말하는 것은 부정확해요. 기사가 얼마나 훌륭하게 제작되었는지는 중요하지 않아요, 만약 그것이 배포 채널에 들어가지 않는다면요. 사람들은 '열심히 일하면 항상 보상을 받을 수 있다'고 말하지만, 그게 사실은 아니에요. 땅에서 구멍을 파는 데 하루종일 투자할 수 있겠죠. 그것은 열심히 일하는 것이지만, 구멍을 파는 것 외에는 보상이 없어요."
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가끔은 글쓰기를 할 때 허용 메시지를 숨기기 위해 큰 노력을 기울여야 하거나, 분명히 사회적 피해를 초래하는 보편적인 견해에 대항하는 반박을 제공해야 할 수도 있습니다. 작가들은 또한 메시지를 동적이고 재미잌면서 유효한 방식으로 제공해야 하며 배포 메커니즘에도 매력을 줘야 합니다. 마지막으로, 여러분의 작품은 자체로 주목을 끌 수 있어야 합니다.
 

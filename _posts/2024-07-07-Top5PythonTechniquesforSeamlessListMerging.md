@@ -3,16 +3,13 @@ title: "리스트 병합을 쉽게 만드는 상위 5가지 파이썬 기법"
 description: ""
 coverImage: "/assets/no-image.jpg"
 date: 2024-07-07 21:33
-ogImage: 
+ogImage:
   url: /assets/no-image.jpg
 tag: Tech
 originalTitle: "Top 5 Python Techniques for Seamless List Merging"
 link: "https://medium.com/top-python-libraries/top-5-python-techniques-for-seamless-list-merging-fcd52c05dc2d"
 isUpdated: true
 ---
-
-
-
 
 ## 파이썬 리스트 병합 간단히 알아보기
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 리스트 병합은 두 개 이상의 리스트에서 요소들을 하나로 결합하는 것을 의미합니다. 파이썬은 이를 수행하는 여러 가지 방법을 제공하는데, 각각 다른 상황에 적합한 방법이 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 1. `+` 연산자 사용하기
 
@@ -37,7 +45,18 @@ print(merged_list) # 출력: [1, 2, 3, 4, 5, 6]
 
 이 방법은 두 리스트를 직접 연결해야 할 때 빠르고 쉽습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 2. `extend()` 메소드 사용하기
 

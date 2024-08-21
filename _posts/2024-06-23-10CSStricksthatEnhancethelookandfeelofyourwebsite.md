@@ -3,16 +3,13 @@ title: "당신의 웹사이트를 향상시키는 10가지 CSS 트릭"
 description: ""
 coverImage: "/assets/img/2024-06-23-10CSStricksthatEnhancethelookandfeelofyourwebsite_0.png"
 date: 2024-06-23 14:22
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-10CSStricksthatEnhancethelookandfeelofyourwebsite_0.png
 tag: Tech
 originalTitle: "10 CSS tricks that Enhance the look and feel of your website"
 link: "https://medium.com/@chandantechie/10-css-tricks-that-enhance-the-look-and-feel-of-your-website-c7dc530ad056"
 isUpdated: true
 ---
-
-
-
 
 `<img src="/assets/img/2024-06-23-10CSStricksthatEnhancethelookandfeelofyourwebsite_0.png" />`
 
@@ -22,8 +19,18 @@ isUpdated: true
 
 색상 간의 부드러운 전환을 추가하기 위해 그라디언트를 사용하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 body {
@@ -41,7 +48,18 @@ Add depth to your elements using box shadows
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 3. 호버 효과
 
@@ -60,11 +78,22 @@ Add depth to your elements using box shadows
 .button:hover {
     background-color: #0056b3;
 }
-``` 
+```
 
 # 4. 반응형 타이포그래피
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 화면 크기에 반응하는 텍스트를 만듭니다.
 
@@ -78,14 +107,25 @@ h1 {
 
 Flexbox를 사용하여 요소를 쉽게 가운데 정렬할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 ```
 
@@ -95,11 +135,22 @@ Flexbox를 사용하여 요소를 쉽게 가운데 정렬할 수 있습니다.
 
 ```css
 .custom-cursor {
-    cursor: url('커서이미지경로.png'), auto;
+  cursor: url("커서이미지경로.png"), auto;
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 7. CSS 그리드 레이아웃
 
@@ -107,21 +158,32 @@ CSS 그리드를 사용하여 복잡한 레이아웃을 만드세요.
 
 ```css
 .grid-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
 }
 
 .grid-item {
-    background-color: #f8f9fa;
-    padding: 20px;
-    border: 1px solid #dee2e6;
+  background-color: #f8f9fa;
+  padding: 20px;
+  border: 1px solid #dee2e6;
 }
 ```
 
 # 8. 텍스트 그림자
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그림자로 텍스트에 깊이와 강조를 추가합니다.
 
@@ -135,7 +197,18 @@ h2 {
 
 키프레임으로 애니메이션을 생성하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 @keyframes bounce {
@@ -168,7 +241,18 @@ h2 {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 CSS 트릭들은 당신의 웹사이트의 시각적 매력과 사용자 경험을 크게 향상시킬 수 있어요.
 

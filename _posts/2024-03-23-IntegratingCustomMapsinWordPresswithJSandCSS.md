@@ -3,17 +3,13 @@ title: "JS와 CSS를 사용해서 워드프레스에 지도 추가하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Integrating Custom Maps in WordPress with JS and CSS"
 link: "https://volodymyrzh.medium.com/integrating-custom-maps-in-wordpress-with-js-and-css-7207378f51a7"
 isUpdated: true
 ---
-
-
-
-
 
 ![Integrating Custom Maps in WordPress with JS and CSS](/assets/img/Integrating-Custom-Maps-in-WordPress-with-JS-and-CSS_0.png)
 
@@ -23,11 +19,33 @@ isUpdated: true
 
 사용자 정의 맵은 지리적 데이터의 맞춤형 표현을 가능하게 하며 웹사이트의 디자인 및 기능 요구 사항과 맞닿습니다. 정적인 맵 이미지 이상으로 사용자 정의 맵은 확대, 축소, 이동 및 마커 또는 루트 추가를 통해 위치 기반 정보를 동적으로 표시하는 방법을 제공하여 위치 기반 정보를 표시하는 동적 방법을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 Markdown 형식으로 변경해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - API 키: 먼저 Google 클라우드 플랫폼 콘솔을 방문하여 Google Maps API 키를 얻으세요. 이 키를 사용하면 웹사이트에서 Google Maps 서비스를 사용할 수 있습니다.
 - 지도 삽입: 보통 연락처 또는 위치 페이지에 지도를 표시하고 싶다면 아래 HTML을 삽입합니다.
@@ -57,7 +75,18 @@ isUpdated: true
 </script>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 신규 Google Maps API 키를 YOUR_API_KEY 자리에 넣어주세요.
 
@@ -67,7 +96,18 @@ Google Maps JavaScript API를 사용하여 맵의 외관을 사용자 정의하�
 
 # Leaflet 통합
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리플릿(Leaflet)은 모바일 친화적 대화형 지도를 만들 수 있는 오픈 소스 JavaScript 라이브러리입니다. 가벼우며 다양한 플러그인을 지원합니다.
 
@@ -80,7 +120,18 @@ Google Maps JavaScript API를 사용하여 맵의 외관을 사용자 정의하�
 <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 지도 삽입:
 
@@ -100,7 +151,18 @@ L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
 L.marker([51.5, -0.09]).addTo(map).bindPopup("아주 멋진 CSS3 팝업.<br> 쉽게 사용자 정의할 수 있어요.").openPopup();
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Leaflet으로 지도 사용자 정의하기
 
@@ -110,7 +172,18 @@ Leaflet은 마커 클러스터링, 히트맵 또는 복잡한 지리적 시각�
 
 지도가 반응형이 되어 워드프레스 사이트 레이아웃 내에 잘 맞도록 하려면 CSS를 사용하세요. 미디어 쿼리를 추가하여 다른 화면 크기에 맞게 지도의 크기를 조정하거나 항상 컨테이너 내에서 중앙에 위치하도록 보장할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 #map {
@@ -131,7 +204,18 @@ Leaflet은 마커 클러스터링, 히트맵 또는 복잡한 지리적 시각�
 
 그리고 프로모션 코드 MYHOST10을 입력하시면 첫 결제 시 10% 할인 혜택을 받을 수 있습니다. 이를 위해 여기에서 등록하고 결제 전에 코드를 입력해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다른 WordPress 호스팅의 훌륭한 옵션은 Hostinger입니다. 다음 링크를 통해 계정을 등록하고 https://hostinger.com.ua?REFERRALCODE=1VOLODYMYR55 내 블로그 업데이트를 확인하세요.
 

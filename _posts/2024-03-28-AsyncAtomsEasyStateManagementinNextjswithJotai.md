@@ -3,17 +3,13 @@ title: "Jotai를 활용해 Nextjs에서 상태 관리 하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Async Atoms  Easy State Management in Nextjs with Jotai"
 link: "https://medium.com/@rasitcolakel/async-atoms-easy-state-management-in-next-js-with-jotai-39fc29adecae"
 isUpdated: true
 ---
-
-
-
-
 
 ![Async Atoms Easy State Management in Next.js with Jotai](/assets/img/AsyncAtomsEasyStateManagementinNextjswithJotai_0.png)
 
@@ -43,7 +39,18 @@ export const getPostsAtom = loadable(postsAtom);
 
 설명:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 페이지네이션 정보를 저장하는 postsPaginationAtom 원자를 만듭니다.
 - 페이지네이션 정보에 따라 게시물을 가져오는 postsAtom 원자를 만듭니다.
@@ -63,7 +70,18 @@ function PostsPage() {
 
 response 변수의 모양은 다음과 같을 것입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 {
@@ -89,7 +107,18 @@ if (response.state === "hasData") {
 
 data 속성은 state가 hasData인 경우 데이터를 포함하고, error 속성은 state가 hasError인 경우 오류를 포함합니다. async atom을 사용하는 구성 요소 예제는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 "사용자 최적화";
@@ -153,10 +182,7 @@ const Pagination = (props: Props) => {
         이전
       </button>
       <span>페이지: {pagination.start + 1}</span>
-      <button
-        onClick={handleNext}
-        className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-      >
+      <button onClick={handleNext} className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
         다음
       </button>
     </div>
@@ -168,7 +194,18 @@ export default Pagination;
 
 또한, AsyncPostList 구성요소는 다음과 같이 구현할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 "use client";
@@ -232,7 +269,18 @@ export default function Header({}: Props) {
 
 Jotai에서 async atom을 사용하여 데이터를 비동기적으로 가져오고 응용 프로그램의 데이터 상태를 관리할 수 있는 방법입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 데모
 
@@ -242,7 +290,18 @@ Jotai에서 async atom을 사용하여 데이터를 비동기적으로 가져오
 
 전체 데모: [https://jotai-example.rasit.me/](https://jotai-example.rasit.me/)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 깃허브 저장소: https://github.com/rasitcolakel/next-js-jotai
 
@@ -252,7 +311,18 @@ Jotai에서 async atom을 사용하여 데이터를 비동기적으로 가져오
 
 # 참고문헌
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Jotai 문서
 - TypeScript

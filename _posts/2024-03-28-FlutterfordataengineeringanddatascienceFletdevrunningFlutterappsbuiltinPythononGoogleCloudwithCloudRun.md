@@ -3,17 +3,13 @@ title: "파이썬으로 만든 Flutter 앱을 Google Cloud에서 실행하는 Fl
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Flutter for data engineering and data science Fletdev  running Flutter apps built in Python on Google Cloud with Cloud Run"
 link: "https://medium.com/google-cloud/flutter-for-data-engineering-and-data-science-1ab54381f9d3"
 isUpdated: true
 ---
-
-
-
-
 
 플러터(Flutter)는 구글의 SDK로, 모바일, 웹 및 데스크톱에서 아름답고 빠른 사용자 경험을 제작하기 위한 것이며, 하나의 코드베이스로 제작됩니다. 2021년 개발자 설문조사에 따르면, 플러터는 가장 인기 있는 크로스 플랫폼 프레임워크입니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 Flet.dev 프로젝트는 데이터 엔지니어 및 데이터 과학자에게 플러터를 제공하여 사용자가 쉽게 자신이 선호하는 언어인 Python으로 실시간 웹, 모바일 및 데스크톱 앱을 구축할 수 있도록 합니다. 반면 소프트웨어 엔지니어는 일반적으로 Dart 언어로 플러터를 사용할 것입니다. 프론트엔드 경험이 없어도 됩니다. Flet.dev는 아파치 2.0 라이선스로 오픈 소스이며 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/FlutterfordataengineeringanddatascienceFletdevrunningFlutterappsbuiltinPythononGoogleCloudwithCloudRun_1.png)
 
@@ -36,7 +43,18 @@ Flet.dev 프로젝트는 데이터 엔지니어 및 데이터 과학자에게 �
 
 본 문서는 이러한 모든 사용 사례의 기초로, flet.dev로 구축된 데이터 응용 프로그램을 Google Cloud 플랫폼의 Cloud Run에서 배포 및 확장하는 방법을 보여줍니다. Cloud Run은 서버리스 HTTP 컨테이너를 배포하고 확장하기 위한 완전 관리형 컴퓨팅 환경을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Flet 앱을 선택할 때 호스팅 플랫폼을 선택할 때 필요한 요구 사항 중 하나는 Flet 앱이 UI의 실시간 부분적 업데이트 및 이벤트를 프로그램으로 다시 전송하기 위해 이 메커니즘을 사용하는 WebSockets의 지원입니다. Cloud Run은 추가 구성 없이도이 요구 사항을 충족합니다.
 
@@ -46,7 +64,18 @@ Flet 앱을 선택할 때 호스팅 플랫폼을 선택할 때 필요한 요구 
 
 우리는 코드를 어디에서, 어떻게 작성하던지에 관계없이이 안내서를 쉽게 따를 수 있도록하고 싶습니다. 그래서 클라우드 기반 앱을 개발, 빌드, 디버깅 및 배포하도록 허용하는 통합 클라우드 코드 경험을 기반으로 내장 코드 편집기를 제공하는 Cloud Shell을 사용하겠습니다. Cloud Shell을 열어보세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![](/assets/img/FlutterfordataengineeringanddatascienceFletdevrunningFlutterappsbuiltinPythononGoogleCloudwithCloudRun_2.png)
 
@@ -85,7 +114,18 @@ def main(page: ft.Page):
 ft.app(target=main, port=int(os.environ.get("PORT", 8080)), view = ft.AppView.WEB_BROWSER)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단일 입력 필드(ft.TextField)와 두 개의 버튼(ft.IconButton)이 생성됩니다. 각 버튼에는 사용자가 클릭할 때 실행해야 하는 로직을 지정할 수 있는 옵션이 있습니다(on_click). 우리의 경우 클릭할 때마다 클릭 횟수를 증가하거나 감소시킵니다(minus_click, plus_click 파이썬 함수).
 
@@ -97,7 +137,18 @@ pip install flet
 
 로컬에서 앱을 실행하는 것은 main.py 스크립트를 실행하는 것만큼 쉽습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 python main.py
@@ -113,7 +164,18 @@ view = ft.AppView.WEB_BROWSER)
 
 이것이 우리가 Flet에게 우리 애플리케이션의 웹 인터페이스를 준비하도록 지시하는 방법입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만일 노트북에서 같은 코드를 실행하지만 Flet에 다음과 같이 지시한다면:
 
@@ -125,7 +187,18 @@ ft.app((target = main));
 
 이 문서에서는 웹 인터페이스에 초점을 맞춥니다. 코드를 실행할 때:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 python main.py
@@ -137,7 +210,18 @@ python main.py
 
 애플리케이션을 미리보려면 Web 미리보기 버튼을 클릭 한 다음 표시된 메뉴에서 [포트 8080에서 미리보기] 옵션을 선택하십시오 (여기서 Flet 앱을 다른 포트에서 시작했다면 포트를 변경할 수도 있습니다).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![FlutterfordataengineeringanddatascienceFletdevrunningFlutterappsbuiltinPythononGoogleCloudwithCloudRun_4.png](/assets/img/FlutterfordataengineeringanddatascienceFletdevrunningFlutterappsbuiltinPythononGoogleCloudwithCloudRun_4.png)
 
@@ -147,7 +231,18 @@ Cloud Shell은 새 브라우저 창에서 프록시 서비스를 통해 미리�
 
 지금까지 Flet 앱을 로컬에서 시뮬레이션 실행했습니다. 이제 Cloud Run에 앱을 배포할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이를 위해 두 가지 추가 파일이 필요합니다:
 
@@ -159,7 +254,18 @@ flet>=0.2.4
 
 - Dockerfile - Cloud Run은 컨테이너를 실행하기 위한 완전 관리형 컴퓨팅을 제공하며, Dockerfile은 우리의 응용 프로그램을 나타내는 Docker 이미지로 패키징해야 하는 내용에 대한 지시 사항이 담긴 레시피와 같습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 FROM python:3-alpine
@@ -184,7 +290,18 @@ CMD ["python", "./main.py"]
 gcloud run deploy <your_app_name> --allow-unauthenticated
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - allow-unauthenticated는 모두에게 앱을 사용할 수 있게 합니다.
 
@@ -194,7 +311,18 @@ Google이 앱을 호스트하고 확장할 지역을 지정해야 합니다:
 
 우리는 폴란드/바르샤바인 유럽-중부-2를 선택했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Dockerfile을 사용하여 Docker 이미지를 빌드하고, 결과 Docker 이미지를 Artifact Registry에 푸시한 다음 클라우드 런에 서비스로 배포하는 것은 모두 우리를 위해 백그라운드에서 처리됩니다:
 
@@ -204,7 +332,18 @@ Dockerfile을 사용하여 Docker 이미지를 빌드하고, 결과 Docker 이�
 
 ![이미지](/assets/img/FlutterfordataengineeringanddatascienceFletdevrunningFlutterappsbuiltinPythononGoogleCloudwithCloudRun_8.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요약에서 [서비스 URL]을 클릭하여 온라인으로 어플리케이션을 확인해보세요:
 
@@ -214,7 +353,18 @@ Cloud Run을 사용하면 앱을 쉽게 설정하고 실행할 수 있습니다.
 
 ![Cloud Run 메트릭](/assets/img/FlutterfordataengineeringanddatascienceFletdevrunningFlutterappsbuiltinPythononGoogleCloudwithCloudRun_10.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컨테이너 인스턴스 수에 대한 주석이 필요합니다. 각 인스턴스당 최대 동시 요청 수를 구성할 수 있습니다. 기본적으로 각 인스턴스는 동시에 최대 80개의 요청을 받을 수 있으며, 이를 최대 1000개까지 늘릴 수 있습니다.
 
@@ -224,7 +374,18 @@ Cloud Run을 사용하면 앱을 쉽게 설정하고 실행할 수 있습니다.
 
 ![다이어그램](/assets/img/FlutterfordataengineeringanddatascienceFletdevrunningFlutterappsbuiltinPythononGoogleCloudwithCloudRun_12.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 동시성이 1로 설정되어 있으면 각 요청은 고유한 컨테이너 인스턴스에서 처리됩니다. 동시성을 80으로 설정하면 각 컨테이너 인스턴스당 최대 80개의 슬롯이 있어 들어오는 요청을 처리하는 데 사용될 수 있습니다. 만약 들어오는 요청의 수가 80을 초과하면 Cloud Run은 이 수요를 처리하기 위해 추가 컨테이너 인스턴스를 준비할 것입니다. 각 컨테이너 인스턴스는 최대 80개의 요청을 처리할 수 있습니다.
 
@@ -234,7 +395,18 @@ Cloud Run을 사용하면 앱을 쉽게 설정하고 실행할 수 있습니다.
 
 앱이 트래픽을 제공할 준비가 되었고, Cloud Run이 확장할 준비가 되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Cloud Run에 대해 더 알고 싶다면, Wietse Venema의 책인 "Building Serverless Applications with Google Cloud Run: A Real-World Guide to Building Production-Ready Services"를 시작으로 삼는 것을 강력히 추천합니다.
 

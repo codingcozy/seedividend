@@ -3,17 +3,13 @@ title: "ngIf, ngFor, ngSwitch 사라졌나요 앵귤러의 새로운 템플릿 �
 description: ""
 coverImage: "/assets/img/2024-06-23-IsngIfngForandngSwitchDeadAngularsNewWaytoControlYourTemplates_0.png"
 date: 2024-06-23 14:08
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-IsngIfngForandngSwitchDeadAngularsNewWaytoControlYourTemplates_0.png
 tag: Tech
 originalTitle: "Is *ngIf, *ngFor and ngSwitch Dead? Angular’s New Way to Control Your Templates"
 link: "https://medium.com/@hmidihamdi7/is-ngif-ngfor-and-ngswitch-dead-angulars-new-way-to-control-your-templates-881886f56516"
 isUpdated: true
 ---
-
-
-
-
 
 ![Angular 17 Release](/assets/img/2024-06-23-IsngIfngForandngSwitchDeadAngularsNewWaytoControlYourTemplates_0.png)
 
@@ -23,9 +19,18 @@ Angular의 17 버전 릴리스는 템플릿 시스템을 개선하는 등 매우
 
 다음은 템플릿에서 이 새로운 제어 흐름의 예시입니다:
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 @if (user.isHuman) {
@@ -55,17 +60,37 @@ Angular의 17 버전 릴리스는 템플릿 시스템을 개선하는 등 매우
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 table 태그를 Markdown 형식으로 변경할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 @for (skill of user.skills; track $index) {
-  <human-skills  [name]="skill.name" [level]="skill.level" />
+<human-skills [name]="skill.name" [level]="skill.level" />
 }
-
 
 트랙: Angular는 변경되는 컬렉션과 작업할 때 성능을 최적화하기 위해 개별 항목을 식별하는 트랙 표현식을 사용합니다. 이 기능은 각 항목을 해당 DOM 뷰와 연결하는 데 사용되는 키를 지정합니다. 이러한 키를 비교함으로써 Angular는 추가, 제거 또는 이동된 항목을 효율적으로 파악하여 불필요한 DOM 조작을 최소화할 수 있습니다. 효율적으로 트랙을 사용하면 Angular 애플리케이션의 성능을 크게 향상시킬 수 있습니다.
 
@@ -73,8 +98,18 @@ table 태그를 Markdown 형식으로 변경할 수도 있습니다.
 
 ![contextual variables](/assets/img/2024-06-23-IsngIfngForandngSwitchDeadAngularsNewWaytoControlYourTemplates_1.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 @for (skill of user.skills; track $index) {
@@ -88,7 +123,18 @@ table 태그를 Markdown 형식으로 변경할 수도 있습니다.
 
 다른 모든 프로그래밍 언어의 switch 문을 영감받아, 값은 === 연산자로 케이스 표현식과 비교됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 @switch (condition) {
@@ -110,7 +156,18 @@ Angular의 @switch 블록은 fallthrough가 없으므로 return 또는 break 문
 
 Angular의 제어 흐름 및 지연 가능한 뷰 제안서는 긍정적인 피드백을 받았지만 템플릿에 대한 #-구문은 논란을 빚었습니다. 초기 RFC에서는 HTML과 유사한 태그를 제안했지만 커뮤니티 피드백은 새로운 "@-구문"을 선호했습니다. Angular 팀은 이 대안을 인기 때문에 평가하고 최종 결정을 내리기 전에 더 많은 데이터를 수집할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Angular은 제어 흐름 구문 옵션인 #과 @에 대한 개발자 경험을 조사했습니다. 내부 팀, Google 개발자 전문가(GDE), 개발자 설문 및 사용자 연구를 통해 피드백을 수집했습니다. 결과는 분명하게 나타났습니다: 약 2 대 1의 비율로 개발자들이 원래의 "#-syntax" 대신 커뮤니티가 제안한 "@-syntax"를 선호했습니다.
 
@@ -120,18 +177,40 @@ Angular은 제어 흐름 구문 옵션인 #과 @에 대한 개발자 경험을 �
 
 Angular 팀이 커뮤니티가 제안한 @-syntax를 고려하는 것은 그들의 의지를 향한 증명입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 어떤 제어 흐름이 대체될 것인가
 
 - @switch 지시어는 여러 이점을 갖는 ngSwitch를 대체합니다. 먼저, 조건을 보관할 컨테이너 요소가 필요하지 않습니다. 둘째로, 템플릿 유형 확인을 지원합니다.
-- @for 블록은 *ngFor 지시어를 대체합니다. 또한, @empty 블록 지원이 도입되며 추적에 대한 최적화를 제공합니다. 요소 컬렉션의 변경에 대한 응답으로 필요한 최소 DOM 작업 횟수를 계산하는 새로운 최적화 알고리즘을 활용합니다.
+- @for 블록은 \*ngFor 지시어를 대체합니다. 또한, @empty 블록 지원이 도입되며 추적에 대한 최적화를 제공합니다. 요소 컬렉션의 변경에 대한 응답으로 필요한 최소 DOM 작업 횟수를 계산하는 새로운 최적화 알고리즘을 활용합니다.
 
 ## 구조 지시어에서 마이그레이션
 
 이 문서에서 언급된 대로, Angular 팀은 Angular 17부터 구조 지시어에서 단순화된 제어 흐름 구문으로의 마이그레이션을 고려해 왔습니다. 이 마이그레이션은 CommonModule이 필요하지 않도록 만듭니다. Angular CLI에는 이 프로세스를 자동화하는 새로운 스키매틱이 포함되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 $ ng generate @angular/core:control-flow

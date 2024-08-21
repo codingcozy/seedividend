@@ -3,16 +3,13 @@ title: "오늘 배운 것 Nodejs 타이머의 Promise API 사용 방법"
 description: ""
 coverImage: "/assets/img/2024-06-22-TILNodejstimershavepromiseAPI_0.png"
 date: 2024-06-22 13:58
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-TILNodejstimershavepromiseAPI_0.png
 tag: Tech
 originalTitle: "TIL: Node.js timers have promise API"
 link: "https://medium.com/@salimbinusman/til-node-js-timers-have-promise-api-ff9dc9124ca1"
 isUpdated: true
 ---
-
-
-
 
 안녕하세요! 코드 개발자 여러분!
 
@@ -29,7 +26,18 @@ await new Promise<void>((resolve, reject) => {
 
 저는 저런 경우를 참 많이 겪었어요. 특히 직장에서 코드를 작성할 때죠. 때로는 그런 게 간단하지 않다는 건 거니까요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 노드.js는 setTimeout, setInterval 및 setImmediate 같은 모든 타이머에 대한 프로미스 API를 이미 제공했으므로 기뻐해야 합니다.
 
@@ -37,14 +45,25 @@ await new Promise<void>((resolve, reject) => {
 
 ```js
 // 프로미스를 사용한 정확히 2초의 지연
-import { setTimeout } from 'timers/promises'
+import { setTimeout } from "timers/promises";
 
-await setTimeout(2_000, 'success')
+await setTimeout(2_000, "success");
 ```
 
 그리고 두 번째 인자로 전달한 값으로 2초 후에 프로미스가 해결됩니다. 멋지죠!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오늘 새로운 것을 배우셨으면 좋겣습니다.
 

@@ -3,17 +3,13 @@ title: "Django REST 및 Nextjs로 풀스택 웹사이트 만들기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Building a FullStack Application with Django, Django REST , Nextjs"
 link: "https://medium.com/stackademic/building-a-fullstack-application-with-django-django-rest-next-js-c0b948f248bd"
 isUpdated: true
 ---
-
-
-
-
 
 ![FullStackApplication](/assets/img/BuildingaFullStackApplicationwithDjangoDjangoREST-Nextjs_0.png)
 
@@ -23,7 +19,18 @@ Python 기반의 Django는 "배터리 포함" 접근법으로 유명합니다. �
 
 이 기사에서는 Django를 백엔드로 사용하여 REST API를 구축하고, 그 데이터를 사용하여 Nextjs를 통해 멋지고 간단한 프론트엔드를 만드는 방법을 배우겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 어플리케이션은 레스토랑 메뉴를 관리하는 간단한 CRUD 앱입니다. 프론트엔드에서 사용자는 다음을 할 수 있어야 합니다:
 
@@ -37,7 +44,18 @@ Python 기반의 Django는 "배터리 포함" 접근법으로 유명합니다. �
 
 ## 설정
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시작하기 전에 필요한 도구와 기술로 프로젝트를 설정해 봅시다. 백엔드에서는 Python 3.11과 Django 4.2를 사용할 예정입니다. 최신 버전을 사용함으로써 백엔드가 원할하게 운영되고 안전하게 유지될 수 있습니다.
 
@@ -47,7 +65,18 @@ Python 기반의 Django는 "배터리 포함" 접근법으로 유명합니다. �
 
 ## Django API 구축하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 장고만을 사용해서 안정적인 API를 만드는 것은 상당히 어렵습니다. 애플리케이션의 뷰 함수나 클래스에서 JSON 데이터를 반환할 수는 있지만 권한, 인증, 파싱, 쓰로틀링, 데이터 직렬화 등을 어떻게 처리해야 할지는 고민이 됩니다.
 
@@ -57,7 +86,18 @@ Python 기반의 Django는 "배터리 포함" 접근법으로 유명합니다. �
 
 ## 애플리케이션 만들기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Python 3.11이 설치되어 있는지 확인해주세요. 기계의 터미널에서 다음 명령어를 실행하여 작업 디렉토리, 가상 환경, 그리고 프로젝트를 생성해보세요.
 
@@ -76,7 +116,18 @@ django-admin startproject RestaurantCore .
 
 RestaurantCore에는 다음과 같은 파일이 포함되어 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Django 프로젝트의 모든 설정을 포함하는 settings.py입니다. 여기에는 Django rest-framework 패키지 및 기타 패키지에 대한 구성을 추가할 것입니다.
 - 프로젝트의 모든 URL을 포함하는 urls.py입니다.
@@ -88,7 +139,18 @@ RestaurantCore에는 다음과 같은 파일이 포함되어 있습니다:
 
 그러니 애플리케이션 추가부터 시작해봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 메뉴 애플리케이션 추가하기
 
@@ -100,7 +162,18 @@ django-admin startapp menu
 
 이 명령어를 실행한 후에 다음 이미지와 같은 디렉토리 구조를 가지고 있는지 확인하세요 :
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/BuildingaFullStackApplicationwithDjangoDjangoREST-Nextjs_1.png" />
 
@@ -128,7 +201,18 @@ INSTALLED_APPS = [
 
 INSTALLED_APPS 목록에 애플리케이션이 추가되었으므로 이제 menu Django 애플리케이션 로직 작성을 시작할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 models.py 파일부터 시작해보겠습니다. 대부분의 경우, 이 파일에는 데이터베이스 테이블을 나타내는 모델이 포함되어 있습니다. Django ORM을 사용하면 SQL을 한 줄도 작성할 필요가 없이 테이블을 생성하고 필드를 추가할 수 있습니다.
 
@@ -151,7 +235,18 @@ Menu 모델은 다음과 같은 필드를 가지고 있습니다:
 - 객체 생성 날짜를 나타내는 created. auto_now_add가 True로 설정되어 있으면 데이터가 자동으로 추가됩니다.
 - 마지막으로 객체의 수정 또는 업데이트 날짜를 나타내는 updated. 객체를 저장할 때마다 auto_now를 사용하면 날짜가 업데이트됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 단계는 직렬화기(serializer)를 추가하는 것입니다. 이 것은 Django가 JSON 데이터를 Python 네이티브 객체로 매끄럽게 변환하여 더 쉽게 처리할 수 있도록 도와줍니다.
 
@@ -173,7 +268,18 @@ class MenuSerializer(serializers.ModelSerializer):
 
 위 줄들에서 우리는 ModelSerializer 클래스를 사용하여 직렬화기를 만드는 중입니다. ModelSerializer 클래스는 쿼리셋과 필드 유효성 검사를 다루기 위해 모델에 대한 직렬화기를 추가하는 바로 가기 역할을 합니다. 따라서 우리의 유효성 검증 로직과 오류 처리를 추가할 필요가 없습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 시리얼라이저에서는 Meta 클래스를 정의하고 모델과 필드, 읽기 전용 필드를 설정합니다. 이러한 필드는 변경 요청을 통해 수정되지 않아야 합니다.
 
@@ -194,7 +300,18 @@ class MenuViewSet(viewsets.ModelViewSet):
 
 위의 코드에서 ModelViewSet 클래스를 사용하여 새 뷰셋 클래스를 만듭니다. 왜 뷰셋을 사용하고 API 뷰를 사용하지 않는 걸까요? 뷰셋은 이미 목록, 검색, 업데이트, 생성, 삭제와 같은 모든 CRUD 작업에 필요한 논리가 포함되어 있습니다. 이를 통해 개발 프로세스를 더 빠르고 깔끔하게 만들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 엔드포인트에 대해 우리는 모든 사용자가 이러한 CRUD 작업을 수행할 수 있도록 허용하고자 합니다. (인증 및 권한에 대해 다음 기사에서 다룰 예정입니다 😁)
 
@@ -204,7 +321,18 @@ CRUD 작업을 돕는 viewset을 갖고 있으며, 이를 등록하고 메뉴를
 
 Django 프로젝트의 루트 디렉토리에 routers.py라는 파일을 생성하세요. 이 파일에는 모든 API의 엔드포인트가 포함될 것이며, 이 경우 /menu/ 엔드포인트가 포함됩니다. 그런 다음 Django 애플리케이션의 urls.py 파일에 이러한 엔드포인트를 등록합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우선 routers.py 파일에 코드를 작성해 봅시다.
 
@@ -229,7 +357,18 @@ urlpatterns = router.urls
 - router.register의 basename 매개변수는 "menu"로 설정됩니다. 이 basename은 MenuViewSet의 URL 이름을 구성하는 데 사용됩니다.
 - 마지막으로 urlpatterns = router.urls는 이 애플리케이션 부분의 urlpatterns를 MenuViewSet에 대해 라우터가 생성한 것으로 설정합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 Django 프로젝트의 urls.py 파일에 정의된 라우터 URL을 등록할 수 있습니다.
 
@@ -252,7 +391,18 @@ urlpatterns = [
 
 URL과 엔드포인트를 정의했으니, 프런트엔드를 생성하고 API에서 데이터를 소비하기 시작할 수 있어야 할 것입니다 😍. 하지만 기다려봐요, 설정해야 할 것이 아직 있는데요, 바로 웹 개발자의 큰 고민인 CORS에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 중요한 구성: CORS
 
@@ -262,7 +412,18 @@ API를 프런트엔드 POV에서 사용할 수 있도록 하려면 CORS를 구�
 
 ![image](/assets/img/BuildingaFullStackApplicationwithDjangoDjangoREST-Nextjs_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 API에서 CORS를 구성하여이 오류를 해결해 보겠습니다. 먼저 생성 된 API에 CORS를 구성하려면 django-cors-headers 패키지를 설치해야 합니다.
 
@@ -292,7 +453,18 @@ CORS_ALLOWED_ORIGINS = [
 ]
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 코드에서 CORS_ALLOWED_ORIGINS는 Django에게 수락할 도메인 원본을 알려주는 데 도움이 됩니다. 우리는 프론트엔드에 Next.js를 사용할 계획이므로, 이러한 앱들은 기본적으로 3000 포트에서 실행됩니다. Django가 허용할 수 있는 두 개의 주소를 추가하여 Django가 수락할 수 있는 요청을 나타냅니다.
 
@@ -302,7 +474,18 @@ CORS_ALLOWED_ORIGINS = [
 
 ## Next.js를 사용하여 프론트엔드 구축하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전 섹션에서 이 기사의 프리설트에서는 Django를 사용하여 풀스택 응용 프로그램의 백엔드를 구축했습니다. 이번 섹션에서는 React 애플리케이션의 개발 및 배포가 라이브러리를 직접 사용하는 것보다 훨씬 쉬운 React 프레임워크 인 Next.js를 사용하여 프론트 엔드를 구축할 것입니다.
 
@@ -312,7 +495,18 @@ CORS_ALLOWED_ORIGINS = [
 
 Next.js 팀은 Next.js 프로젝트를 만드는 것을 매우 쉽게 만들었습니다. 새 프로젝트를 만들려면 다음 명령을 실행하십시오.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npx create-next-app@latest
@@ -332,7 +526,18 @@ App Router를 사용하시겠습니까? (권장) Yes
 
 제가 가장 흥미로운 옵션이라고 생각하는 것은 선택의
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트를 생성하는 옵션을 선택한 후에는, 개발, 시작 및 Next.js 프로젝트 빌드에 필요한 모든 리소스가 포함 된 새로운 디렉토리 인 next-js-front이 만들어집니다.
 
@@ -344,7 +549,18 @@ cd next-js-front && npm run dev
 
 <img src="/assets/img/BuildingaFullStackApplicationwithDjangoDjangoREST-Nextjs_3.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트를 설치했으니, 이제 애플리케이션의 첫 번째 블록을 구축할 차례입니다.
 
@@ -354,7 +570,18 @@ cd next-js-front && npm run dev
 
 기사의 끝 부분은 아래 이미지와 같아야 합니다.👇
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Next.js](/assets/img/BuildingaFullStackApplicationwithDjangoDjangoREST-Nextjs_4.png)
 
@@ -369,7 +596,18 @@ Next.js 프로젝트에서는Next.js 프로젝트의 src/app 내용을 찾을 �
 - 이 파일은 전역 상태 관리 및 테마 제공자와 같은 구성 요소를 통합하여 모든 페이지에서 일관된 환경을 보장합니다. 또한 layout.js는 메타데이터 관리를 중앙 집중화하고 공통 요소의 재렌더링 필요성을 줄여 SEO 및 성능 최적화에 유리합니다.
 - style.css: 프로젝트의 CSS 코드를 포함하고 있습니다. 이것은 layout.js 파일에 삽입할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금부터 코딩을 시작해봅시다. 먼저 필요한 CSS 클래스 정의를 추가하여 Next.js 코드에 집중해보겠습니다.
 
@@ -493,7 +731,18 @@ export default function RootLayout({ children }) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 코드에서는 주로 자산인 글꼴 및 CSS 파일을 가져오고 있습니다. 타이틀과 설명이 포함된 메타데이터 객체를 선언한 다음 menu-container className으로 RootLayout 컴포넌트를 정의하고 몸체 태그에 우리의 글꼴을 가져오고 있습니다.
 
@@ -503,7 +752,18 @@ export default function RootLayout({ children }) {
 
 이전 섹션에서 CSS에 대한 필요한 코드와 layout.js 파일을 정의했음을 보장했습니다. 이제 목록 페이지의 인터페이스를 구축할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 /src/app/page.js에서 파일을 시작하기 위해 다음 import가 있는지 확인하세요.
 
@@ -520,7 +780,18 @@ use client 지시문을 사용했음을 알 수 있을 것입니다. 이는 Next
 
 이 페이지에 서버 측 코드를 사용하려면 use server 대신에 사용하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 외에도, useState와 useEffect 훅을 사용하여 애플리케이션 내에서 상태와 효과를 관리합니다. useRouter와 useSearchParams를 사용하여 편집 페이지로 이동하거나 추가 페이지로 이동하는 버튼이 있을 때 유용합니다.
 
@@ -558,7 +829,18 @@ async function getData() {
 
 위 코드에서는 두 함수를 선언하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - deleteMenu: 하나의 매개변수, 즉 기사의 id를 가져와 삭제 요청을 보내는 함수입니다. 요청을 보내기 위해 fetch API를 사용합니다.
 - getData: API에서 모든 메뉴를 검색하기 위해 요청을 보내는 함수입니다. 응답의 json을 반환합니다.
@@ -597,7 +879,18 @@ const MenuItem = ({ id, name, price, onEdit, onDelete }) => {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 코드에서는 메뉴 항목 컴포넌트를 정의하며, 메뉴의 id, 이름, 가격, 편집 버튼을 클릭했을 때의 동작 방법 및 삭제 버튼이 만들어졌을 때 트리거되는 onDelete 메소드와 같은 프롭을 전달합니다. 이제 페이지의 코드를 작성하고 MenuItem 컴포넌트를 사용할 수 있습니다.
 
@@ -688,7 +981,18 @@ export default function Page() {
 - 다음 줄에서는 getData 메소드를 호출하여 API에서 데이터를 가져오는 데 도움이 되는 세 useEffect 훅을 정의하고 있습니다. 두 번째 useEffect는 만들기 또는 업데이트가 성공한 경우 메시지를 표시하고 세 번째 useEffect는 메시지 표시 시간을 관리하는 데 사용됩니다. setTimeout 메소드를 사용하여 메시지를 3초 동안만 표시합니다.
 - 마지막으로, JSX 코드를 작성하고 추가 버튼을 추가했습니다. 또한 페이지.js 파일에서 선언된 MenuItem 컴포넌트를 사용하여 메뉴 정보를 표시합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 GitHub 리포지토리에서 전체 파일의 코드를 찾을 수 있어요.
 
@@ -698,7 +1002,18 @@ GitHub 리포지토리에서 전체 파일의 코드를 찾을 수 있어요.
 
 지난 섹션에서 모든 메뉴를 나열하는 페이지를 만들었어요. 이번 섹션에서는 메뉴를 만드는 페이지를 만들어보겠어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 이름과 가격 필드가 있는 양식일 뿐입니다. 시작해 봅시다.
 
@@ -735,7 +1050,18 @@ async function createMenu(data) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 코드에서는 부수 효과, 상태 및 라우팅을 관리하기 위해 필요한 후크를 가져옵니다. 다음 코드 블록이 더 흥미로운데, 메뉴를 생성하기 위한 POST 요청을 보내는 createMenu 메서드를 작성하고 있습니다. 이 메서드는 메뉴 객체를 생성하기 위해 필요한 데이터가 포함된 JSON 객체인 data를 매개변수로 받습니다.
 
@@ -813,7 +1139,18 @@ export default Page;
 
 위의 코드도 꽤 길지만, 거기에서 무엇이 이루어지는지 알아보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 우리는 폼 데이터 formData를 관리하는 세 가지 상태를 정의합니다. 요청이 보류 중인 경우 로딩, 백엔드에서 받은 오류를 저장하고 프론트엔드에 표시하는 상태도 있습니다 error.
 - 다음으로 사용자가 폼을 제출할 때 실행되는 onFinish 메서드가 있습니다. 이 메서드는 먼저 event.preventDefault();를 호출하여 사용자가 폼의 제출 버튼을 클릭할 때 브라우저의 기본 동작을 방지합니다. 기본 동작은 페이지를 다시로드합니다.
@@ -828,7 +1165,18 @@ export default Page;
 - 편집 페이지에서 id로 메뉴를 검색하여 기존 값을 사용하여 폼을 채우어 사용자가 수정할 수 있도록 합니다.
 - 대부분 이게 전부입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 에디션 페이지를 만들어 봅시다.
 
@@ -838,7 +1186,18 @@ export default Page;
 
 이 섹션에서는 메뉴의 이름과 가격을 수정하기 위한 에디션 페이지를 만들겠습니다. 생성 페이지와 달라진 점은 경로 및 수정하려는 메뉴에 대한 정보가 필요하다는 점 뿐입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 src/app/ 디렉토리 안에 update 라는 디렉토리를 생성하세요. 이 디렉토리 안에 [menuId]라는 새 디렉토리를 만들어주세요. 이렇게 하면 Next.js에게 menuId가 선택된 아이템에 따라 변경될 수 있다는 것을 나타냅니다.
 
@@ -887,7 +1246,18 @@ async function updateMenu(id, data) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 코드에서는 부수 효과, 상태 및 라우팅을 관리하기 위해 필요한 후크를 가져오고 있습니다. 다음 코드 블록에서는 두 가지 메서드를 정의하고 있습니다 :
 
@@ -976,7 +1346,18 @@ const Page = ({ params }) => {
 export default Page;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 코드는 메뉴를 생성하기 위한 양식과 거의 동일하지만, Page 컴포넌트에 전달되는 prop이 다릅니다.
 
@@ -986,7 +1367,18 @@ Next.js 13에서 params 객체는 동적 세그먼트 값을 포함하는 prop�
 
 ![Demo](/assets/img/BuildingaFullStackApplicationwithDjangoDjangoREST-Nextjs_6.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 결론
 
@@ -996,7 +1388,18 @@ Next.js 13에서 params 객체는 동적 세그먼트 값을 포함하는 prop�
 
 기억하세요, 여기서 여정이 끝나는 것은 아닙니다. Django와 Next.js는 다양한 기능과 가능성으로 가득 차 있습니다. 더 심층적으로 파고들고, 더 고급 기능을 실험하고, 풀 스택 개발자로서 기술을 계속 연마하길 권장합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기는이 기사에서 구축 된 애플리케이션의 코드베이스 링크입니다.
 

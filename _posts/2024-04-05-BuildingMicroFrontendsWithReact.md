@@ -3,17 +3,13 @@ title: "React로 마이크로 프론트엔드 만들기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Building Micro Frontends With React"
 link: "https://medium.com/@kunalznk/building-micro-frontends-with-react-7f5a21a99825"
 isUpdated: true
 ---
-
-
-
-
 
 리액트로 마이크로 애플리케이션의 힘을 발휘해보세요: 단계별 안내
 
@@ -29,7 +25,18 @@ isUpdated: true
 
 ![BuildingMicroFrontendsWithReact_0.png](/assets/img/BuildingMicroFrontendsWithReact_0.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전 섹션에서는 Micro Frontend 애플리케이션의 통합에 대해 간략히 다뤘습니다. 이제 더 자세히 통합 방법에 대해 알아볼 것입니다. 통합을 위해 주로 세 가지 방법을 따를 수 있습니다: 서버 측 통합, 클라이언트 측 통합 및 빌드 시간 통합.
 
@@ -39,7 +46,18 @@ isUpdated: true
 
 우리의 Micro Frontend에서는 Runtime 통합을 사용할 것입니다. 이는 필요한 Micro Frontend 애플리케이션이 클라이언트로 다운로드되고 실행 중에 통합되는 것을 의미합니다. 이를 통해 초기 로드 시간을 줄일 수 있습니다. Runtime 통합을 위해 Webpack 5와 Module Federation을 사용할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 `create-mf-app` 도구를 사용하여 세 개의 Micro Frontend 애플리케이션을 만들어 보겠습니다. 이 도구는 Webpack과 React를 포함한 최소 구성으로 Create React App을 설정합니다.
 
@@ -56,7 +74,18 @@ Micro Frontend 애플리케이션을 만들려면 다음 명령을 실행하세�
 - 언어: JavaScript
 - CSS: Tailwind
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 상기 세부 내역을 제공한 후 '제품' 프로젝트가 실행 준비될 것입니다.
 
@@ -68,7 +97,18 @@ npm i axios react-router-dom
 
 다음으로, 애플리케이션에 라우팅을 추가해야 합니다. 여기서 basename 속성은 루트 경로로 간주되어 모든 링크가 "/products"로 시작함을 의미합니다. 이를 통해 애플리케이션이 "/products"에서 렌더링되고 "/"가 아닌 곳에 렌더링됨이 보장됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제품 마이크로 앱의 전체 코드를 확인하려면 여기를 확인해보세요.
 
@@ -78,7 +118,18 @@ npm i axios react-router-dom
 
 이 변경으로 제품 마이크로 앱을 성공적으로 완료했습니다. 다른 마이크로 앱의 코드를 여기에서 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 게시물로 넘어가기 전에 코드를 완전히 모아놓으셨는지 확인해주세요. 블로그 글이 지나치게 길어져서 지나쳤던 것에 대해 사과드립니다. 그래도 이런 일이 발생하지 않도록 잠들지 않게 하려고 했어요! 😫😪
 

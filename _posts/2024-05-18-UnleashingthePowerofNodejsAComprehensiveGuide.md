@@ -3,16 +3,13 @@ title: "Nodejs를 제대로 알고 사용하는 방법"
 description: ""
 coverImage: "/assets/img/2024-05-18-UnleashingthePowerofNodejsAComprehensiveGuide_0.png"
 date: 2024-05-18 21:25
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-18-UnleashingthePowerofNodejsAComprehensiveGuide_0.png
 tag: Tech
 originalTitle: "Unleashing the Power of Node.js: A Comprehensive Guide"
 link: "https://medium.com/@areebkhan123123/unleashing-the-power-of-node-js-a-comprehensive-guide-86be86489313"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-05-18-UnleashingthePowerofNodejsAComprehensiveGuide_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 Node.js는 브라우저 외부에서 JavaScript 코드를 실행할 수 있도록 하는 오픈 소스 크로스 플랫폼 런타임 환경입니다. 2009년 Ryan Dahl에 의해 개발되었으며, Node.js는 많은 현대 웹 애플리케이션의 기반이 되었습니다. Google Chrome을 구동하는 V8 JavaScript 엔진을 사용하여 매우 빠르다는 특징을 가지고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Node.js의 주요 기능
 
@@ -32,7 +40,18 @@ Node.js는 브라우저 외부에서 JavaScript 코드를 실행할 수 있도�
 
 NPM (Node Package Manager): Node.js에는 NPM이라는 내장된 패키지 매니저가 함께 제공됩니다. 이는 개발자가 애플리케이션을 향상시키기 위한 다양한 도구와 모듈을 제공하는 오픈 소스 라이브러리의 최대 생태계입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 크로스 플랫폼: Node.js는 Windows, macOS 및 Linux를 포함한 다양한 운영 체제에서 실행되므로 개발자에게 다재다능한 선택지가 됩니다.
 
@@ -42,7 +61,18 @@ Node.js는 개발자와 기업 사이에서 엄청난 인기를 얻고 있습니
 
 # 뛰어난 성능
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Node.js의 비차단 I/O 작업 및 이벤트 기반 아키텍처는 많은 동시 연결을 높은 처리량으로 처리할 수 있는 능력을 제공합니다. 이는 채팅 애플리케이션, 온라인 게임 및 협업 도구와 같은 실시간 애플리케이션에 이상적입니다.
 
@@ -52,7 +82,18 @@ Node.js의 단일 스레드 모델과 이벤트 루핑은 요청을 처리하는
 
 ## 견고한 생태계
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 NPM에는 백만 개가 넘는 패키지가 있어 개발자들이 다양한 도구, 라이브러리 및 프레임워크에 액세스할 수 있습니다. 이 방대한 생태계는 개발 시간을 단축시키고 써드파티 서비스를 쉽게 통합할 수 있도록 합니다.
 
@@ -62,7 +103,18 @@ JavaScript는 클라이언트 측과 서버 측에서 모두 사용되며 Node.j
 
 # Node.js 시작하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Node.js에 뛰어들 준비가 되셨나요? 시작하는 방법에 대한 빠른 안내서가 여기 있어요.
 
@@ -72,21 +124,39 @@ Node.js에 뛰어들 준비가 되셨나요? 시작하는 방법에 대한 빠�
 
 ## Hello World
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `app.js` 파일을 생성하고 아래 코드를 추가해주세요:
 
-
 ![Unleashing the Power of Node.js: A Comprehensive Guide](/assets/img/2024-05-18-UnleashingthePowerofNodejsAComprehensiveGuide_1.png)
 
-
-터미널에서 다음 명령어를 실행하여 해당 디렉토리로 이동한 후 애플리케이션을 실행하세요: 
-
+터미널에서 다음 명령어를 실행하여 해당 디렉토리로 이동한 후 애플리케이션을 실행하세요:
 
 node app.js
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 브라우저를 열고 http://127.0.0.1:3000/ 주소로 이동하여 "Hello World" 메시지를 확인해보세요.
 
@@ -95,14 +165,25 @@ node app.js
 Node.js와 인기 있는 웹 프레임워크 Express를 이용하여 간단한 REST API를 만들어봅시다.
 
 - 프로젝트 초기화
-mkdir myapp
-cd myapp
-npm init -y
+  mkdir myapp
+  cd myapp
+  npm init -y
 - Express 설치
-npm install express
+  npm install express
 - index.js 파일을 생성하고 다음 코드를 추가하세요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-05-18-UnleashingthePowerofNodejsAComprehensiveGuide_2.png" />
 

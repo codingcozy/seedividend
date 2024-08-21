@@ -3,17 +3,13 @@ title: "파이썬을 사용하여 PDF 문서에서 이미지 추출하기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Extract Images from PDF Documents in Python"
 link: "https://medium.com/@alexaae9/python-how-to-extract-images-from-pdf-documents-9492a767a613"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/Extract-Images-from-PDF-Documents-in-Python_0.png)
 
@@ -24,7 +20,18 @@ PDF 파일에서 이미지를 추출하는 것은 다양한 상황에서 유용�
 
 ## 종속성 설치
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 솔루션을 사용하려면 Python에서 PDF 문서를 읽고 생성 및 조작하는 Python 라이브러리인 Spire.PDF for Python이 설치되어 있어야 합니다. 다음 pip 명령을 실행하여 설치할 수 있습니다.
 
@@ -36,7 +43,18 @@ pip install Spire.PDF
 
 Spire.PDF for Python은 지정된 페이지에서 이미지를 추출하기 위한 PdfPageBase.ExtractImages() 메서드를 제공합니다. 아래는 상세한 단계입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - PdfDocument 객체를 생성합니다.
 - PdfDocument.LoadFromFile() 메서드를 사용하여 PDF 문서를 로드합니다.
@@ -75,7 +93,18 @@ doc.Close()
 
 ## Python에서 PDF 문서에서 모든 이미지 추출
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 PDF 문서 전체에서 모든 이미지를 추출하려면 문서의 각 페이지를 순회한 다음 각 페이지에서 이미지를 별도로 가져와야 합니다. 아래는 상세한 단계입니다.
 
@@ -115,7 +144,18 @@ doc.Close()
 
 <img src="/assets/img/Extract-Images-from-PDF-Documents-in-Python_2.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 결론
 
@@ -125,7 +165,18 @@ doc.Close()
 
 Python에서 PDF 문서에서 텍스트 추출하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파이썬으로 PDF 메타데이터 추가, 읽기 또는 제거하기
 

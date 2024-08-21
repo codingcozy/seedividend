@@ -3,17 +3,13 @@ title: "Nextjs 에서 특정 페이지 캐싱하지 않는 방법unstable_noStor
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # Nextjs 에서 특정 페이지 캐싱하지 않는 방법(unstable_noStore)
 
@@ -33,7 +29,18 @@ export default async function Component() {
 > unstable_noStore 는 fetch에서 사용되는 cache: `no-store` 와 동일합니다.
 > unstable_noStore 는 export const dynamic = `force-dynamic` 보다 세밀하며 컴포넌트별로 사용할 수 있기 때문에 선호됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - unstable_cache 내부에서 unstable_noStore를 사용하는 경우 정적 생성을 선택하지 않습니다. 대신, 결과를 캐시할지 여부를 결정하는 데 캐시 구성을 따를 것입니다.
 
@@ -51,7 +58,18 @@ export default async function Component() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 버전 내역
 
@@ -59,4 +77,15 @@ export default async function Component() {
 | --------- | ------------------------------------ |
 | `v14.0.0` | `unstable_noStore`이 도입되었습니다. |
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

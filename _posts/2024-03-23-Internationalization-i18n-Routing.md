@@ -3,17 +3,13 @@ title: "Nextjs 13 저장소 다국어 셋팅 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "국제화 i18n 라우팅"
 link: "undefined"
 isUpdated: true
 ---
-
-
-
-
 
 # 국제화 (i18n) 라우팅
 
@@ -23,7 +19,18 @@ Next.js는 v10.0.0부터 내장된 국제화(i18n) 라우팅을 지원합니다.
 
 ## 시작하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시작하려면 next.config.js 파일에 i18n 구성을 추가하세요.
 
@@ -35,7 +42,18 @@ Next.js는 v10.0.0부터 내장된 국제화(i18n) 라우팅을 지원합니다.
 - nl-NL - 네덜란드에서 사용되는 네덜란드어
 - nl - 네덜란드어, 특정 지역 없음
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용자 로케일이 nl-BE이고 구성에 나열되어 있지 않으면, 사용 가능한 경우 nl로 이동하거나 그렇지 않으면 기본 로케일로 이동됩니다. 나라의 모든 지역을 지원할 계획이 없다면, 대체되는 요소로 작동할 나라 로케일을 포함하는 것이 좋은 실천법입니다.
 
@@ -72,7 +90,18 @@ module.exports = {
 
 로케일 처리 전략은 두 가지가 있습니다: 하위 경로 라우팅 및 도메인 라우팅.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 하위 경로 경로 지정
 
@@ -89,7 +118,18 @@ module.exports = {
 
 위의 구성에서 en-US, fr 및 nl-NL이 경로 지정될 수 있고, en-US가 기본 로캘입니다. 만약 pages/blog.js를 가지고 있다면 아래 URL들이 사용 가능합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - /blog
 - /fr/blog
@@ -101,8 +141,18 @@ module.exports = {
 
 도메인 라우팅을 사용하여 다른 도메인에서 제공되는 로캘을 구성할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 module.exports = {
 i18n: {
@@ -132,7 +182,6 @@ defaultLocale: 'en-US',
 },
 }
 
-
 예를 들어, 만일 당신이 pages/blog.js 파일을 가지고 있다면 다음과 같은 URL을 사용할 수 있습니다:
 
 - example.com/blog
@@ -143,7 +192,18 @@ defaultLocale: 'en-US',
 
 ## 자동 로캘 탐지
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용자가 애플리케이션 루트(보통 /)를 방문하면 Next.js는 Accept-Language 헤더와 현재 도메인을 기반으로 사용자가 선호하는 로캘을 자동으로 감지하려고 시도합니다.
 
@@ -154,7 +214,18 @@ defaultLocale: 'en-US',
 
 도메인 라우팅을 사용하는 경우, Accept-Language 헤더가 fr;q=0.9 인 사용자가 example.com을 방문하면 해당 도메인이 기본적으로 fr 로캘을 처리하므로 example.fr로 리디렉션됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 서브 경로 라우팅을 사용할 때, 사용자는 /fr로 리디렉션됩니다.
 
@@ -164,7 +235,18 @@ Next.js 12와 미들웨어를 사용하여 기본 로캘에 접두사를 추가�
 
 예를 들어, 몇 가지 언어를 지원하는 next.config.js 파일이 있습니다. "default"로캘이 의도적으로 추가되었음을 유의하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 module.exports = {
@@ -185,7 +267,11 @@ import { NextRequest, NextResponse } from "next/server";
 const PUBLIC_FILE = /\.(.*)$/;
 
 export async function middleware(req: NextRequest) {
-  if (req.nextUrl.pathname.startsWith("/_next") || req.nextUrl.pathname.includes("/api/") || PUBLIC_FILE.test(req.nextUrl.pathname)) {
+  if (
+    req.nextUrl.pathname.startsWith("/_next") ||
+    req.nextUrl.pathname.includes("/api/") ||
+    PUBLIC_FILE.test(req.nextUrl.pathname)
+  ) {
     return;
   }
 
@@ -199,7 +285,18 @@ export async function middleware(req: NextRequest) {
 
 이 미들웨어는 API 경로와 폰트 또는 이미지와 같은 공개 파일에 대한 기본 접두사 추가를 건너 뜁니다. 요청이 기본 로캘로 이루어지면 접두사 /en으로 리디렉션됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 자동 로캘 감지 비활성화
 
@@ -215,7 +312,18 @@ module.exports = {
 
 localeDetection을 false로 설정하면 Next.js가 더 이상 사용자의 선호하는 로캘에 따라 자동으로 리디렉션하지 않고 위에서 설명한 로캘 기반 도메인이나 로캘 경로에서 감지된 로캘 정보만 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 로캘 정보에 액세스하기
 
@@ -227,7 +335,18 @@ Next.js 라우터를 통해 로캘 정보에 액세스할 수 있습니다. 예�
 
 getStaticProps 또는 getServerSideProps로 페이지를 사전 렌더링할 때, 로캘 정보는 함수에 제공된 컨텍스트에 제공됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 getStaticPaths를 활용할 때, 설정한 로케일은 locales 밑에 있고, 설정한 기본 로케일은 defaultLocale 밑에 제공됩니다.
 
@@ -237,7 +356,18 @@ getStaticPaths를 활용할 때, 설정한 로케일은 locales 밑에 있고, �
 
 next/link를 사용할 경우, locale 속성을 제공하여 현재 활성화된 로케일에서 다른 로케일로 전환할 수 있습니다. locale 속성을 제공하지 않는 경우 클라이언트 전환 중에 현재 활성화된 로케일이 사용됩니다. 예를 들어:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import Link from "next/link";
@@ -273,7 +403,18 @@ export default function IndexPage(props) {
 
 로케일만 전환하면서 동적 경로 쿼리 값이나 숨겨진 href 쿼리 값과 같은 모든 경로 정보를 보존하는 경우(href 매개변수를 객체로 제공하면 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { useRouter } from "next/router";
@@ -299,7 +440,18 @@ export default function IndexPage(props) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## NEXT_LOCALE 쿠키 활용하기
 
@@ -309,7 +461,18 @@ Next.js는 accept-language 헤더를 NEXT_LOCALE=the-locale 쿠키로 재정의�
 
 ## 검색 엔진 최적화
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Next.js는 사용자가 방문하는 언어를 인식하기 때문에 `html` 태그에 자동으로 lang 속성을 추가합니다.
 
@@ -319,7 +482,18 @@ Next.js는 페이지의 변형에 대해 알지 못하기 때문에 hreflang 메
 
 > 국제화된 라우팅은 `export` 출력과 통합되지 않으므로 Next.js 라우팅 레이어를 활용하지 않습니다. `export` 출력을 사용하지 않는 하이브리드 Next.js 애플리케이션은 완벽히 지원됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 동적 라우트 및 getStaticProps 페이지
 
@@ -342,7 +516,18 @@ export const getStaticPaths = ({ locales }) => {
 
 자동으로 정적으로 최적화된 동적이 아닌 getStaticProps 페이지의 경우, 각 로케일에 대한 페이지 버전이 생성됩니다. 무엇보다 이를 고려하는 것이 중요합니다. 왜냐하면 getStaticProps 내에서 구성된 로케일 수에 따라 빌드 시간이 증가할 수 있기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, 10개의 동적 페이지를 사용하여 구성된 50개의 로케일이 있다면, getStaticProps를 사용하여 500회 호출될 것입니다. 각 빌드마다 10개의 페이지의 50가지 버전이 생성될 것입니다.
 
@@ -352,7 +537,18 @@ getStaticProps를 사용하여 동적 페이지의 빌드 시간을 줄이려면
 
 자동으로 정적으로 최적화된 페이지의 경우, 각 로케일마다 해당 페이지의 버전이 생성됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 동적이 아닌 getStaticProps 페이지
 
@@ -383,11 +579,33 @@ export async function getStaticProps({ locale }) {
 
 ## i18n 구성에 대한 제한
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 로케일: 총 100개 로케일
 - 도메인: 총 100개 로케일 도메인 아이템
 
 > 알아 두면 좋은 점: 이러한 제한은 빌드 시 잠재적인 성능 문제를 방지하기 위해 처음에 추가되었습니다. Next.js 12에서 미들웨어를 사용하여 사용자 정의 라우팅으로 이러한 제한을 우회할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

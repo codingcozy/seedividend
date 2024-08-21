@@ -3,17 +3,13 @@ title: "커스텀 애너테이션 완벽 마스터하기"
 description: ""
 coverImage: "/assets/img/2024-07-07-CustomAnnotationsMastery_0.png"
 date: 2024-07-07 13:05
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-CustomAnnotationsMastery_0.png
 tag: Tech
 originalTitle: "Custom Annotations Mastery"
 link: "https://medium.com/@ahmed.abdelfaheem/custom-annotations-mastery-5bcf1d9f91bd"
 isUpdated: true
 ---
-
-
-
-
 
 ![Custom Annotations Mastery](/assets/img/2024-07-07-CustomAnnotationsMastery_0.png)
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 스프링 부트의 어노테이션은 클래스, 메소드, 필드 및 기타 프로그램 요소들을 꾸며 동적으로 구성된 엔터티로 변환합니다. 어노테이션은 최상의 사례를 캡슐화하고 보일러플레이트 코드를 줄이며 모듈화된 디자인을 촉진하여 애플리케이션의 민첩성을 높이고 보다 유지보수하기 쉽게 만듭니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # ElementType 및 RetentionPolicy 이해하기
 
@@ -34,7 +40,18 @@ Spring Boot에서 사용자 정의 주석을 생성하기 전에 ElementType 및
 
 ElementType은 주석이 적용될 수 있는 위치를 지정하는 Java의 enum입니다. 다음은 주요 상수들입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - TYPE: 어노테이션은 클래스의 모든 요소에 적용할 수 있습니다.
 - FIELD: 어노테이션은 클래스 내의 필드(인스턴스 변수)에 적용할 수 있습니다.
@@ -51,7 +68,18 @@ ElementType은 주석이 적용될 수 있는 위치를 지정하는 Java의 enu
 
 RetentionPolicy는 어노테이션이 유지되는 기간을 지정합니다. 가능한 세 가지 값이 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - **원본**: 어노테이션은 컴파일러에 의해 폐기되며 클래스 파일에 포함되지 않습니다.
 - **클래스**: 어노테이션은 컴파일러에 의해 유지되지만 실행시에 접근할 수 없습니다.
@@ -63,7 +91,18 @@ Spring Boot 애플리케이션의 맥락에서는 보안 검사 또는 트랜잭
 
 Spring Boot에서 RESTful API를 설계하는 경우 특정 엔드포인트에는 인증이 필요하며 spring security에 대해 아무것도 모르는 상황이라고 상상해보세요 😃. 여러 컨트롤러 메소드에 걸쳐 인증 로직을 포함하는 대신, 사용자 정의 어노테이션인 @Authenticated를 사용하여이 요구사항을 우아하게 적용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 1: @Target 및 @Retention을 사용하여 주석 정의하기
 
@@ -84,7 +123,18 @@ public @interface Authenticated {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 봄 부트 경험을 높이세요: 커스텀 어노테이션 마스터리
 
@@ -94,7 +144,18 @@ public @interface Authenticated {
 
 ## ElementType
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ElementType은 Java에서 어노테이션을 적용할 수 있는 위치를 지정하는 enum입니다. 여기에는 주요 상수들이 있습니다:
 
@@ -111,7 +172,18 @@ ElementType은 Java에서 어노테이션을 적용할 수 있는 위치를 지�
 
 ## RetentionPolicy
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 보관 정책은 어노테이션이 유지되어야 하는 기간을 지정합니다. 세 가지 가능한 값이 있습니다:
 
@@ -123,7 +195,18 @@ Spring Boot 애플리케이션에서는, 어노테이션들이 종종 런타임 
 
 # 커스텀 어노테이션 만들기: @Authenticated
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ElementType 및 RetentionPolicy에 대한 이해를 바탕으로 Spring Boot에서 메소드 수준의 인증을 중점으로 하는 사용자 정의 어노테이션 @Authenticated을 생성해 봅시다.
 
@@ -144,7 +227,18 @@ public @interface Authenticated {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 @Authenticated 주석은 이제 메서드(ElementType.METHOD)에만 적용되고 실행 시간(RetentionPolicy.RUNTIME)까지 유지되도록 정의되었습니다. 이를 통해 Spring Boot가 응용 프로그램 실행 중에 이 주석을 동적으로 처리할 수 있도록 보장합니다.
 
@@ -157,7 +251,18 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 @RestController
@@ -181,7 +286,18 @@ public class MyController {
 인증을 강제하기 위해 사용자 지정 인터셉터나 Spring Security 구성을 사용하여 런타임에서 @Authenticated 어노테이션을 확인할 수 있습니다. 여기 간소화된 인터셉터 접근 방법이 있습니다:
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import org.springframework.web.method.HandlerMethod;
@@ -221,7 +337,18 @@ public class AuthenticationInterceptor implements HandlerInterceptor {
 
 Spring Boot 애플리케이션에서 @Authenticated와 같은 Annotation을 활용하여 코드의 가독성과 유지 관리성을 높일 수 있습니다. Annotation은 핵심 동작을 캡슐화하여 인증 관련 고민을 비즈니스 로직과 분리하고 모듈화 개발 관행을 촉진합니다. ElementType과 RetentionPolicy를 이해하면 컴파일 시 최적화 또는 동적 런타임 구성을 위해 Annotation을 의도된 애플리케이션 컨텍스트에 맞게 정확하게 맞춤할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론: Spring Boot에서 사용자 정의 주석 습득하기
 
@@ -231,8 +358,18 @@ Spring Boot 애플리케이션에서 @Authenticated와 같은 Annotation을 활�
 
 이제 여러분은 사용자 정의 주석을 탐구하고 만들 준비가 되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](https://miro.medium.com/v2/resize:fit:996/0*n2Ue7GtLj9vRl9Li.gif)
 

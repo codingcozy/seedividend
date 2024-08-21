@@ -3,16 +3,13 @@ title: "안드로이드 14 포어그라운드 서비스 가이드"
 description: ""
 coverImage: "/assets/img/2024-07-01-GuidetoForegroundServicesonAndroid14_0.png"
 date: 2024-07-01 20:13
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-01-GuidetoForegroundServicesonAndroid14_0.png
 tag: Tech
 originalTitle: "Guide to Foreground Services on Android 14"
 link: "https://medium.com/@domen.lanisnik/guide-to-foreground-services-on-android-9d0127dc8f9a"
 isUpdated: true
 ---
-
-
-
 
 안녕하세요! 안드로이드 14에는 SDK 버전 34를 타겼다면 포그라운드 서비스와 관련된 중요 변경 사항이 포함되어 있습니다. 이 변경 사항을 적용하려면 어떤 작업을 해야 하는지 살펴보겠습니다.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 ![Foreground Services on Android 14](/assets/img/2024-07-01-GuidetoForegroundServicesonAndroid14_0.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 포그라운드 서비스란 무엇인가요?
 
@@ -34,7 +42,18 @@ isUpdated: true
 - 폰이 잠겨 있을 때에도 걸음 수를 추적하는 피트니스 앱(예: Google Fit),
 - 운전 방향을 제공하는 네비게이션 앱(예: Google Maps) 등이 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 포그라운드 서비스 유형
 
@@ -44,7 +63,18 @@ Android 14에서는 포그라운드 서비스 유형을 지정하는 것이 필�
 
 현재 지원되는 유형은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 카메라 (Android 11에서 필수) — 비디오 통화 앱과 같이 백그라운드에서 카메라에 액세스할 때
 - connectedDevice — Bluetooth 피트니스 장치와 상호 작용할 때
@@ -75,7 +105,18 @@ Android 14를 지원하기 위한 첫 번째 단계는 AndroidManifest 파일에
 </manifest>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 매니페스트에서 해당 서비스의 유형을 선언하지 않고 foreground service를 시작하려고 하면 startForeground()를 호출할 때 시스템에서 MissingForegroundServiceTypeException을 throw할 것입니다.
 
@@ -84,34 +125,56 @@ Android 14를 지원하기 위한 첫 번째 단계는 AndroidManifest 파일에
 Android 9 (API 28)부터 앱은 앱 매니페스트에서 FOREGROUND_SERVICE 권한을 요청해야 했으며, 이는 시스템에서 자동으로 부여되었습니다.
 
 ```js
-<uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+<uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Android 14(API 34)부터 앱은 전경 서비스의 유형에 따라 추가 권한을 요청해야 합니다. 따라서, 서비스가 외부 블루투스 장치에 연결되면 FOREGROUND_SERVICE_CONNECTED_DEVICE를 지정해야 합니다. 시스템에서 권한이 자동으로 부여됩니다.
 
 ```js
-<uses-permission android:name="android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE"/>
+<uses-permission android:name="android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE" />
 ```
 
 만약 서비스가 여러 유형이 필요하다면, 각 유형마다 해당 권한을 선언해야 합니다.
 
 두 권한 중 하나라도 선언을 잊어버리면, 정확한 이유를 설명하는 SecurityException을 받게 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-java.lang.SecurityException: 
-     Permission Denial: startForeground from pid=8589, uid=10623 
+java.lang.SecurityException:
+     Permission Denial: startForeground from pid=8589, uid=10623
      requires android.permission.FOREGROUND_SERVICE
 
 or
 
-java.lang.SecurityException: 
-     Starting FGS with type mediaPlayback targetSDK=34 
-     requires permissions: 
-        all of the permissions allOf=true 
+java.lang.SecurityException:
+     Starting FGS with type mediaPlayback targetSDK=34
+     requires permissions:
+        all of the permissions allOf=true
         [android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK]
 ```
 
@@ -121,7 +184,18 @@ manifest에서 foreground service 유형을 선언하는 것 외에도 startFore
 
 서비스를 foreground에서 실행하려면 서비스 내에서 ServiceCompat.startForeground()를 호출해야 합니다. 보통 onStartCommand()에서 호출됩니다. 이 함수는 서비스, 알림의 ID, 알림 객체, 그리고 서비스가 수행하는 작업을 나타내는 foreground service 유형을 인자로 받습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안드로이드 이전 버전에서는 foregroundServiceType 인수에 0을 전달하기만 하면 됐었지만, 이제는 매니페스트에 선언된 올바른 타입 또는 타입의 하위 집합을 전달해야 합니다. 사용 사례에 따라 추가된 타입으로 startForeground()를 여러 번 호출하는 것이 가능합니다.
 
@@ -141,30 +215,52 @@ ServiceCompat.startForeground(
 foregroundServiceType에 0을 전달하여 startForeground()를 시도하면 예외가 발생합니다:
 
 ```js
-android.app.InvalidForegroundServiceTypeException: 
-  Starting FGS with type none 
+android.app.InvalidForegroundServiceTypeException:
+  Starting FGS with type none
   targetSDK=34 has been prohibited
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 매니페스트에 선언하지 않은 타입을 전달하면, 이와 유사한 예외를 받게 됩니다:
 
 ```js
-java.lang.IllegalArgumentException: 
-  foregroundServiceType 0x00000002 is not a subset of 
-  foregroundServiceType attribute 0x00000000 in service 
+java.lang.IllegalArgumentException:
+  foregroundServiceType 0x00000002 is not a subset of
+  foregroundServiceType attribute 0x00000000 in service
   element of manifest file
 ```
 
 ```js
-android.app.ForegroundServiceDidNotStartInTimeException: 
+android.app.ForegroundServiceDidNotStartInTimeException:
   Context.startForegroundService() did not then call Service.startForeground()
 ```
 
 ## 런타임 권한 요청하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각 전경 서비스 유형에는 필요한 권한 목록이 있습니다. 전경 서비스를 시작하기 전에 필요한 런타임 권한을 요청하고 승인받아야 합니다. 권한이 승인되지 않은 상태에서 서비스를 시작하려고 하면 해당 서비스에서 예외가 발생합니다.
 
@@ -185,25 +281,36 @@ android.app.ForegroundServiceDidNotStartInTimeException:
 - UWB_RANGING
 - UsbManager.requestPermission() 호출하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 서비스 시작 전 조건을 충족하지 않을 경우, 해당 조건이 충족되지 않았다는 정보를 포함한 예외가 발생합니다. 아래 예시에서는 앱이 필요한 권한을 부여받지 못한 상태입니다.
 
 ```js
-Starting FGS with type connectedDevice targetSDK=34 requires permissions: 
-- all of the permissions allOf=true 
-  - [android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE] 
-- any of the permissions allOf=false 
-  - [android.permission.BLUETOOTH_ADVERTISE, 
-     android.permission.BLUETOOTH_CONNECT, 
-     android.permission.BLUETOOTH_SCAN, 
-     android.permission.CHANGE_NETWORK_STATE, 
-     android.permission.CHANGE_WIFI_STATE, 
-     android.permission.CHANGE_WIFI_MULTICAST_STATE, 
-     android.permission.NFC, 
-     android.permission.TRANSMIT_IR, 
-     android.permission.UWB_RANGING, 
-     USB Device, 
+Starting FGS with type connectedDevice targetSDK=34 requires permissions:
+- all of the permissions allOf=true
+  - [android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE]
+- any of the permissions allOf=false
+  - [android.permission.BLUETOOTH_ADVERTISE,
+     android.permission.BLUETOOTH_CONNECT,
+     android.permission.BLUETOOTH_SCAN,
+     android.permission.CHANGE_NETWORK_STATE,
+     android.permission.CHANGE_WIFI_STATE,
+     android.permission.CHANGE_WIFI_MULTICAST_STATE,
+     android.permission.NFC,
+     android.permission.TRANSMIT_IR,
+     android.permission.UWB_RANGING,
+     USB Device,
      USB Accessory]
 ```
 
@@ -211,7 +318,18 @@ Starting FGS with type connectedDevice targetSDK=34 requires permissions:
 
 백그라운드 서비스를 시작할 때, 서비스 실행 기간 동안 사용자에게 보여질 알림을 제공해야 합니다. Android 13에서는 알림을 게시하는 런타임 권한이 도입되었는데, 이에 따라 앱이 이 권한을 요청하고 사용자가 명시적으로 부여해야만 알림이 표시됩니다. 그렇지 않으면 알림이 보이지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - POST_NOTIFICATIONS 권한을 요청하고 사용자가 수락하면 알림이 정상적으로 표시됩니다.
 
@@ -222,7 +340,18 @@ Starting FGS with type connectedDevice targetSDK=34 requires permissions:
 
 ![이미지](/assets/img/2024-07-01-GuidetoForegroundServicesonAndroid14_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Google Play 콘솔의 사용 사례에 대한 세부 정보 제공
 
@@ -232,7 +361,18 @@ Google은 앱이 foreground 서비스를 적절하게 사용하고 있는지 확
 
 선언한 각 foreground 서비스 유형에 대해 다음을 수행해야 합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 어떤 전경 서비스 유형을 사용하는 앱의 기능을 설명합니다.
 - 시스템에 의해 작업이 지연되거나 중단될 경우 사용자에게 미치는 영향을 설명합니다.
@@ -243,7 +383,18 @@ Google은 앱이 foreground 서비스를 적절하게 사용하고 있는지 확
 
 삼성은 안드로이드 14 이상을 실행하는 갤럭시 기기에서 전경 서비스가 의도대로 작동하도록 한 통합 정책에 관해 Google와 협력했습니다. 이는 삼성이 34%¹의 시장 점유율을 가지고 있고, 이전에는 전경 서비스가 경우에 따라 Pixels와 같은 기기와 비교했을 때 다르게 작동했기 때문에 통합된 안드로이드 플랫폼으로 나아가는 중요한 한 걸음입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 인용문이 있습니다:
 
@@ -257,7 +408,18 @@ Google은 앱이 foreground 서비스를 적절하게 사용하고 있는지 확
 - 액티비티에서 서비스 중지
 - 포그라운드 서비스 알림을 표시하기 위해 알림 권한 요청
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -267,7 +429,18 @@ Google은 앱이 foreground 서비스를 적절하게 사용하고 있는지 확
 
 이 안내서가 유용했기를 바라며, 샘플 앱을 검토하고 아래 링크된 추가 자료를 확인하여 더 많은 정보를 얻기를 권장합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자원:
 

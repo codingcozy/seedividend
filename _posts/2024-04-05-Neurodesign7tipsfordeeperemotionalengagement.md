@@ -3,17 +3,13 @@ title: "신경디자인 감정적 참여를 깊게 하는 7가지 팁"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Neurodesign 7 tips for deeper emotional engagement"
 link: "https://bootcamp.uxdesign.cc/neurodesign-7-tips-for-deeper-emotional-engagement-fd18d569deb9"
 isUpdated: true
 ---
-
-
-
-
 
 # 1) 사용자를 기쁘게 만들어보세요
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 그래서 여러분이 사용자의 감정을 자극할 수 있는 방법을 고려해 보세요 — 단순히 순간을 즐겁게 만들거나 주목할 만한 순간을 만드는 것을 목표로 하여요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주요 장점:
 
@@ -35,7 +42,18 @@ isUpdated: true
 
 이 개념은 저가 Headspace의 빈 상태를 작업하던 중에 나왔어요. 제 목표는 그게 즐거우면서도 교육적이었으면 좋겠다고요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것을 강조하는 것은 디자인의 즐거움이 항상 화려한 컨페티 애니메이션만 있는 것은 아니라는 것을 보여주기 위해서입니다. 짜증나는 빈 상태에서 웃음을 짓게 만드는 순간으로의 작은 변화는 딱 적당한 양의 즐거움을 일으킬 수 있어요.
 
@@ -45,7 +63,18 @@ isUpdated: true
 
 **노동의 환상 — 인식된 노력 = 가치**
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 서비스 뒤에 있는 노력을 보여주어 지갑된 가치를 향상시켜보세요. 제품과 서비스에 투입된 노력을 인식할 때, 우리는 더 호의적으로 받아들이는 경향이 있습니다.
 
@@ -56,7 +85,18 @@ isUpdated: true
 
 ![](https://miro.medium.com/v2/resize:fit:1200/1*D-Wu14Xp1y5BCRSHWVKcwQ.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Ledger에서는 우리 제휴 업체 견적을 사용자들에게 표시하기 전에 로더를 추가했어요. 실제로, 이 견적은 밀리초 안에 계산돼요.
 
@@ -66,7 +106,18 @@ Ledger에서는 우리 제휴 업체 견적을 사용자들에게 표시하기 �
 
 다음에 Kayak이나 Skyscanner와 같은 항공 비교 사이트를 사용할 때, 그들의 인위적인 대기 화면에 주목해 보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 3) 얼굴 활용
 
@@ -78,7 +129,18 @@ Ledger에서는 우리 제휴 업체 견적을 사용자들에게 표시하기 �
 - 진정한 것을 유지하세요: 실제 얼굴의 진정한, 공감할 수 있는 사진을 사용하세요. Midjourney는 거의 그곳에 왔지만, 주의해서 실제로 진짜 같게 만들어보세요. 여기에 몇 가지 아름다운 예시가 있지만 아직 실제로 얼마나 실감이 나는지는 잘 모르겠어요... 판단은 당신에게 달려있습니다.
 - 감정을 고려하세요: 우리는 무의식적으로 다른 사람을 따라합니다. 사용자에게 일깨워주고자 하는 감정을 전달하는 얼굴을 선택하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주요 혜택:
 
@@ -89,7 +151,18 @@ Feals와 협업해서 랜딩 페이지의 전자상거래 전환율을 높이기
 
 지시적 시선 이미지가 명확한 우승자로 나타났으며, 단순한 시각적 단서로 시청자 주의를 이끄는 것의 강력한 영향을 보여주었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 통찰력은 사진 촬영을 위한 창의적인 팀의 전략에도 영향을 미쳤어요. 목적을 갖고 사진을 촬영하여 주목을 끄는 시각 자료 라이브러리를 구축할 수 있었어요.
 
@@ -99,7 +172,18 @@ Feals와 협업해서 랜딩 페이지의 전자상거래 전환율을 높이기
 
 희소성을 활용하여 즉각적인 행동을 촉구하고 긴급성을 조성하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 잘못된 희소성:
 "한정 시간" 제안을 볼 때, 종종 실제로 한정되지 않은 제안과 카운트다운이 함께 표시되는 것이 너무 흔합니다. 이렇게 하지 마세요. 사용자가 나중에 동일한 "긴급" 거래를 알아차릴 때 신뢰를 떨어뜨리고 게으르게 여겨질 수 있습니다.
@@ -110,7 +194,18 @@ Feals와 협업해서 랜딩 페이지의 전자상거래 전환율을 높이기
 - 변환율: 희소성은 사용자가 빠르게 대응할 필요성을 느끼므로 변환이율이 높아집니다.
 - 인식된 가치: 희소성은 제안을 더 독점적이거나 특별하게 느끼게 만들 수 있습니다. 우리는 보통 얻을 수 없는 것을 원하게 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 5) 개인화를 장려하세요
 
@@ -120,7 +215,18 @@ Feals와 협업해서 랜딩 페이지의 전자상거래 전환율을 높이기
 
 개인화는 모든 습관 형성 제품의 핵심입니다. 우리는 자신의 취향에 맞게 맞춰진 물건들을 사랑합니다. 개인화된 제품은 감정적으로 다가가며 기억에 오래 남습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사람들이 자신만의 경험을 개인화할 수 있도록 허용하고 장려합니다. 이는 그들의 소유감과 지각된 가치를 향상시킬 것입니다.
 
@@ -132,7 +238,18 @@ Feals와 협업해서 랜딩 페이지의 전자상거래 전환율을 높이기
 - 참여: 소유권은 더 자주 사용하고 오래 사용하게끔 이끕니다, 총 참여율을 높입니다.
 - 공유: 제품에 대한 소유감과 애정을 느끼는 사용자들은 그 제품에 대해 알고 있는 모든 사람들에게 이야기할 확률이 높아집니다. 이는 인간의 본성입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Headspace에서 커뮤니티 기능을 개발하면서 기억에 남는 순간은 아바타 생성기였어요. 이것을 통해 자신만의 캐릭터를 맞춤 설정할 수 있었죠. 우리의 커뮤니티 기능에 참여율을 높이는 것이 목표였고, 사람들이 자신의 실천뿐만 아니라 캐릭터에도 감정적인 연결을 형성하길 원했어요.
 
@@ -142,7 +259,18 @@ Headspace에서 커뮤니티 기능을 개발하면서 기억에 남는 순간�
 
 첫 번째로 작은 요청에 동의하는 사람들은 나중에 큰 요청에 동의할 가능성이 더 높아집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프린드먼과 프레이저는 이 아이디어를 고안한 사람들로, 이를 통해 상대방이 강제로 느끼지 않고 동의하는 부드러운 방법이라고 말했습니다.
 
@@ -156,7 +284,18 @@ Headspace에서 커뮤니티 기능을 개발하면서 기억에 남는 순간�
 - 일관성 유지하기: 사용자가 계속해서 하도록 격려하기 위해 이미 한 일을 상기시킵니다. 애플 피트니스는 항상 이런 식으로합니다: "거의 다 왔어요! 여전히 링을 닫을 수 있습니다."
 - 성공 스토리 보여주기: 제품을 사용하는 다른 사람들이 작게 시작해서 시간이 지남에 따라 목표를 달성한 방식을 공유하여 영감을 주고 안내합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주요 혜택:
 
@@ -168,7 +307,18 @@ Headspace에서 커뮤니티 기능을 개발하면서 기억에 남는 순간�
 
 Fabulous 앱에서 온보딩 중에는 당신의 이름이 적힌 약속이 보입니다. 화면에 손가락을 올려 약속을 “서명”하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 작은 손가락 한 번 누르는 것조차도 당신이 앱을 시도하고 목표를 이행하게 될 가능성을 높일 수 있어요.
 
@@ -178,7 +328,18 @@ Fabulous 앱에서 온보딩 중에는 당신의 이름이 적힌 약속이 보�
 
 ### 우리는 무의식적으로 손실을 피하려 합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 손해 회피는 손실의 두려움이 이득에 대한 기쁨을 앞선다는 인지적 편향입니다. 이 원칙은 우리 심리에 깊게 뿌리를 둔 것입니다. 우리는 손실을 본능적으로 피하는 경향이 있습니다. 이에 대한 심리를 더 자세히 알아보세요.
 
@@ -188,7 +349,18 @@ Fabulous 앱에서 온보딩 중에는 당신의 이름이 적힌 약속이 보�
 
 잠재적인 손실을 강조: 사용자가 행동을 계속할 경우 무엇을 잃게 될지를 암시적으로 강조하는 것부터 시작하세요. 이겻은 두려움을 조장하는 것이 아니라 오히려 건네진 것의 가치를 강조하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Neurodesign7tipsfordeeperemotionalengagement_3.png](/assets/img/Neurodesign7tipsfordeeperemotionalengagement_3.png)
 
@@ -198,7 +370,18 @@ Fabulous 앱에서 온보딩 중에는 당신의 이름이 적힌 약속이 보�
 
 성공 스토리를 소개하세요: 우리의 본질적으로 원하는 것은 종종 변화입니다. 사회적 입증을 사용하여 다른 사람들이 손실을 경험하지 않고 자신을 성공적으로 변화시킨 사례를 공유하세요. 예를 들어, 언어 학습 앱의 경우, 사용자들이 프로그램을 고수함으로써 누리게 된 혜택과 피해를 강조하는 사용자 스토리를 강조하세요: “포기하려다가 마침내 스페인어로 자신있게 대화할 수 있게 되었어요. 정말이지 관계에 새로운 활력을 주었어요!”
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주요 혜택:
 
@@ -210,7 +393,18 @@ Fabulous 앱에서 온보딩 중에는 당신의 이름이 적힌 약속이 보�
 
 ![이미지](/assets/img/Neurodesign7tipsfordeeperemotionalengagement_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Rise는 사용자가 알림을 선택할 수 있는 방식을 채택하여 다른 접근 방식을 취합니다. 이 맞춤 접근 방식은 신중한 선택을 포함하기 때문에 더 큰 안도감을 제공할 수 있습니다. 사용자에게 귀찮은 푸시 알림을 켜도록 유도하는 완벽한 순간일 수도 있습니다.
 
@@ -220,7 +414,18 @@ Rise는 사용자가 알림을 선택할 수 있는 방식을 채택하여 다�
 
 전환, 이탈, 신뢰, 참여와 같은 혜택을 강조하는 이유는 성공적인 디지털 제품의 근간이기 때문입니다. 이러한 언어를 사용하여 신경설계 원리를 뒷받침하면 중요한 결과에 영향을 줄 수 있습니다. 이것은 당신을 더 날렵한 디자이너로 만들어 주고 회사의 목표와 일치하는 디자인을 지지하는 설득력 있는 대변자로 만들어 줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내기 디자인을 배달하기 위한 청사진인 키 메트릭스를 잊지 마세요.
 

@@ -3,17 +3,13 @@ title: "HTML과 CSS로 만든 로그인 및 회원가입 폼소스 코드 있음
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Login and Registration Form in HTML and CSS With Source Code"
 link: "https://medium.com/@cwrworksite/login-and-registration-form-in-html-and-css-with-source-code-64f16f472510"
 isUpdated: true
 ---
-
-
-
-
 
 프로그래머 여러분 안녕하세요!! 이 튜토리얼에서는 HTML 및 CSS로 로그인 및 등록 양식을 만드는 방법을 소개하겠습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 우리 프로젝트를 빠르게 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/LoginandRegistrationForminHTMLandCSSWithSourceCode_0.png)
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 프로젝트에 대한 아이디어를 얻었을 거라고 생각합니다. 그럼, 회원가입 및 로그인 양식 프로젝트 소스 코드로 넘어가봅시다. 먼저, 우리는 HTML 코드를 사용할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계1: HTML 코드에서 로그인 및 등록 양식
 
@@ -108,7 +126,18 @@ isUpdated: true
 
 등록 및 로그인 양식에 대한 정보가 아래 섹션의 HTML 코드로 추가되었습니다. 아래 나열된 코드는 복사하여 직접 HTML 파일에 추가됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 시작하기 위해 'login-wrap' 클래스를 div 태그에 추가할 거예요. 이 태그는 회원가입 및 로그인 폼을 감싸게 될 거에요.
 - 이제 'radio' 타입의 입력 상자를 만들었으니, 이 라디오 버튼을 사용하여 회원가입 및 로그인 양식 사이를 전환할 수 있어요.
@@ -121,7 +150,18 @@ isUpdated: true
 
 ![이미지 설명](/assets/img/LoginandRegistrationForminHTMLandCSSWithSourceCode_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이제 회원가입 양식의 구조를 만들겠습니다. div 태그를 사용하여 회원가입 양식의 컨테이너를 만들 것입니다.
 - 먼저, 사용자 이름을 위한 레이블과 "text"로 된 사용자 이름을 입력하는 입력란을 만들 것입니다. 그런 다음, 두 개의 "password" 유형의 입력란을 생성할 것입니다.
@@ -132,7 +172,18 @@ isUpdated: true
 
 ![HTML 및 CSS를 사용한 로그인 및 회원가입 양식](/assets/img/LoginandRegistrationForminHTMLandCSSWithSourceCode_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 HTML 태그와 그 내용을 추가했습니다. 이제 CSS 코드를 추가하여 페이지를 더 멋지게 만들어 봅시다. 페이지를 스타일링하기 전에 HTML의 head 섹션에 외부 스타일링 링크를 추가해야 합니다.
 
@@ -150,7 +201,18 @@ body {
   font: 600 16px/18px "Open Sans", sans-serif;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 }
@@ -268,7 +330,18 @@ body {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 }
@@ -313,7 +386,18 @@ body {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Step3: (.sign-in-htm와 .sign-up-htm) 파일을 사용하여 상단, 왼쪽, 오른쪽 및 하단 간격을 "zero"로 설정하고 위치를 "absolute"로 설정합니다. 우리의 로그인 및 회원 가입 양식을 몇 가지 변환 속성을 추가하여 180도 회전시킬 것입니다. 이제 로그인 버튼을 스타일링할 것입니다. 글꼴 크기는 "22 px"로 설정되었고 오른쪽 여백은 "15 px"로 설정되었으며, 커서는 "pointer"로 설정되었고 아래 여백은 "5 px"로 설정되었습니다. 추가적으로, 버튼에 2px의 하단 테두리를 부여했습니다. 비슷한 방식으로 회원 가입 양식을 스타일링할 것입니다. 당신은 우리의 CSS 코드를 한 번 훑어보기만 하면 코드를 쉽게 이해할 수 있을 것입니다.
 
@@ -424,7 +508,18 @@ Step4: 이제 checked 속성을 활용하여 로그인 및 회원 가입 양식 
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 팝업 로그인 폼을 스타일링했으니 이제 최종 결과를 확인해 보겠습니다. 결과물:
 
@@ -432,7 +527,18 @@ Step4: 이제 checked 속성을 활용하여 로그인 및 회원 가입 양식 
 
 ![Login and Registration Form Using HTML & CSS](/assets/img/LoginandRegistrationForminHTMLandCSSWithSourceCode_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트가 완료되었습니다. HTML 및 CSS를 사용하여 로그인 및 등록 양식이 완성되었습니다.
 
@@ -442,7 +548,18 @@ Step4: 이제 checked 속성을 활용하여 로그인 및 회원 가입 양식 
 
 작성자: arun
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코드 작성자: Arun
 
@@ -452,7 +569,18 @@ Step4: 이제 checked 속성을 활용하여 로그인 및 회원 가입 양식 
 
 ## 로그인 및 등록 양식은 반응형으로 제작되었나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 네, 이 로그인 및 등록 양식은 반응형입니다.
 

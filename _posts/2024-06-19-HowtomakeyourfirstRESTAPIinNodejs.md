@@ -3,16 +3,13 @@ title: "Nodejs에서 첫 번째 REST API를 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-19-HowtomakeyourfirstRESTAPIinNodejs_0.png"
 date: 2024-06-19 23:14
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-HowtomakeyourfirstRESTAPIinNodejs_0.png
 tag: Tech
 originalTitle: "How to make your first REST API in Node.js"
 link: "https://medium.com/@holasoymalva/how-to-make-your-first-rest-api-in-node-js-82c05fca9106"
 isUpdated: true
 ---
-
-
-
 
 ## 5분 이내로
 
@@ -22,7 +19,18 @@ Node.js에서 REST API (Representational State Transfer Application Programming 
 
 # 필수 사항
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시작하기 전에 시스템에 Node.js가 설치되어 있는지 확인해주세요. Node.js는 nodejs.org에서 다운로드할 수 있습니다. 또한 JavaScript, Node.js, 그리고 인기 있는 Node.js 프레임워크 Express에 대한 기본적인 이해가 필요합니다.
 
@@ -36,7 +44,18 @@ cd my-rest-api
 npm init -y
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 작업은 당신의 프로젝트 종속성을 관리할 package.json 파일을 디렉토리에 생성합니다.
 
@@ -48,24 +67,46 @@ HTTP 요청을 쉽게 처리하려면 Express를 설치하세요.
 npm install express
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 3: 첫 번째 엔드포인트 생성하기
 
 이제 프로젝트 디렉토리에 index.js 파일을 생성하세요. 이것이 진입점이 될 것입니다.
 
 ```js
-const express = require('express');
+const express = require("express");
 const app = express();
 
 app.listen(3000, () => {
- console.log("포트 3000에서 실행 중인 서버");
+  console.log("포트 3000에서 실행 중인 서버");
 });
 ```
 
 이 코드는 포트 3000에서 수신 대기하는 기본 Express 서버를 설정합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 4: HTTP 메소드 처리
 
@@ -75,11 +116,22 @@ REST API는 다양한 HTTP 메소드와 함께 작동합니다. 가장 일반적
 
 간단한 메시지를 반환하는 GET 엔드포인트를 만들어 봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 app.get("/msg", (req, res, next) => {
-  res.json({"message": "안녕, 세계!"});
+  res.json({ message: "안녕, 세계!" });
 });
 ```
 
@@ -92,11 +144,22 @@ app.use(express.json()); // for parsing application/json
 
 app.post("/msg", (req, res, next) => {
   const message = req.body.message;
-  res.json({"receivedMessage": message});
+  res.json({ receivedMessage: message });
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 5: 클래스와 데이터 유형 사용하기
 
@@ -116,12 +179,23 @@ class Message {
 
 이제 이 클래스를 사용하여 POST 엔드포인트를 리팩토링할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 app.post("/msg", (req, res, next) => {
   const newMessage = new Message(req.body.message);
-  res.json({"receivedMessage": newMessage.getContent()}); 
+  res.json({ receivedMessage: newMessage.getContent() });
 });
 ```
 
@@ -131,7 +205,18 @@ API를 테스트하려면 Postman이나 cURL과 같은 도구를 사용할 수 �
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Node.js에서 REST API를 만드는 것은 연습을 통해 더 직관적인 과정이 되는 간단한 일입니다. Express의 사용은 다양한 HTTP 메소드를 간단하게 처리하게 해주며, 클래스와 적절한 데이터 유형을 사용하여 코드를 조직화하면 유지 관리 및 가독성을 크게 향상시킬 수 있습니다.
 

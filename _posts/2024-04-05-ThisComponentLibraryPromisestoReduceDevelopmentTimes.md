@@ -3,17 +3,13 @@ title: "개발 시간을 단축시켜주는 컴포넌트 라이브러리 소개"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "This Component Library Promises to Reduce Development Times"
 link: "https://medium.com/bitsrc/this-component-library-promises-to-reduce-development-times-68de4148b3d5"
 isUpdated: true
 ---
-
-
-
-
 
 ## Grommet 살펴보기: 개발 시간을 정말로 단축할까요? 함께 알아봅시다!
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 Grommet은 웹 앱을 훨씬 빨리 개발할 수 있다고 주장하는 또 다른 컴포넌트 라이브러리/프레임워크입니다 (스스로를 프레임워크라고 부르지만, 우리는 그것을 확인할 겁니다).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그걸 테스트해볼까요?
 
@@ -33,7 +40,18 @@ Grommet은 웹 앱을 훨씬 빨리 개발할 수 있다고 주장하는 또 다
 
 그게 전부에요, 그게 다에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그들이 "프레임워크"라고 주장하기는 하지만, 솔직히 아직은 그것을 보지 못했어요.
 
@@ -45,7 +63,18 @@ Grommet은 웹 앱을 훨씬 빨리 개발할 수 있다고 주장하는 또 다
 - UI를 조금 더 풍부하게 만들기 위한 아이콘 라이브러리. 아주 좋은 컬렉션이 있으며, 그것들을 검색할 수 있는 꽤 좋은 온라인 검색도 있습니다.
 - 이론적으로 여러분이 자신만의 앱(또는 적어도 프리젠테이션)를 시각적으로 만들 수 있게 해주는 응용 프로그램 디자이너 앱.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 그 목록을 살펴보셨다면, 이론적으로, 나는 이것을 컴포넌트 라이브러리보다 더 큰 것으로 부를 수 있을 것 같아요. 문제는 뭐냐면요? 앱 디자이너가 제대로 작동하지 않아요. 클릭으로 JS 오류가 발생할 때마다 흰 화면이 여러 번 나타났어요. 제가 무언가를 만들어낼 수 없었고, 주변에서 도움을 받을 수 있는 게 거의 없었어요. 심지어 제 작품을 내보내는 방법도 찾을 수 없었어요.
 
@@ -55,7 +84,18 @@ Grommet은 웹 앱을 훨씬 빨리 개발할 수 있다고 주장하는 또 다
 
 내 글이 마음에 드셨나요? 저의 IT 산업에서의 2십년간의 지혜를 모두에게 나누는 내 무료 뉴스레터를 구독해보시겠어요? "늙은 개발자의 수다"에 가입하세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 할 일 앱 만들기
 
@@ -65,7 +105,18 @@ Grommet은 웹 앱을 훨씬 빨리 개발할 수 있다고 주장하는 또 다
 
 ![Todo App](/assets/img/ThisComponentLibraryPromisestoReduceDevelopmentTimes_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러면 기본적인 단계부터 시작해보죠. 기존의 리액트 앱에 Grommet을 설치해 봅시다. 그러려면 다음 한 줄이면 충분해요:
 
@@ -77,7 +128,18 @@ npm install grommet grommet-icons styled-components --save
 
 우리는 앱 전체를 담을 Box를 만들고, 그것이 가운데 정렬되도록 할 거에요. 그를 위해 "large" 폭과 "small" 여백을 설정하고, "center" 정렬 값을 주어 컨테이너가 중앙에 위치하도록 만들 거에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 보시다시피, 우리는 매우 "직관적인" 미리 설정된 크기 관련 값들을 가지고 있어요. 개인적으로 저는 이것을 좋아하지 않아요. 왜냐하면 "작은"이나 "큰"이 이 문맥에서 어떤 의미를 하는지 정확히 알기 위해 문서를 참조해야만 하는데 그렇기 때문이에요. 의도는 좋지만 결과는 아니에요. 저는 현재 옵션들보다는 "50%"나 "너비-300"과 같은 것을 사용하는 편이 더 이해하기 쉽다고 생각해요.
 
@@ -87,7 +149,18 @@ npm install grommet grommet-icons styled-components --save
 
 ![이 컴포넌트 라이브러리는 개발 시간을 단축해주겠다고 약속합니다](/assets/img/ThisComponentLibraryPromisestoReduceDevelopmentTimes_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이를 위해 다음 레이아웃 관련 구성 요소를 사용할 거에요: 그리드
 
@@ -97,7 +170,18 @@ npm install grommet grommet-icons styled-components --save
 
 다음 예시를 확인해 보세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제 경우에는 두 셀만 필요하기 때문에 "input"셀과 "button"셀을 정의할 거에요. 첫 번째 셀이 마지막 셀보다 가로로 더 크게 만들거든요, 두 개를 옆으로 나란히 배치할 거에요.
 
@@ -107,7 +191,18 @@ npm install grommet grommet-icons styled-components --save
 
 할 일 항목 목록에 대해서는 이 문제를 해결하는 과정이 너무 복잡해 보였기 때문에 흥미로운 DataTable 컴포넌트 대신 일반적인 ul/li 콤보를 사용하기로 결정했어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 입력 처리
 
@@ -117,7 +212,18 @@ npm install grommet grommet-icons styled-components --save
 
 ## 아이콘 사용
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마침내 전체적으로 더 멋있게 보이도록 몇 군데 아이콘을 사용했어요. 그것도 매우 쉽고 좋았죠.
 
@@ -127,7 +233,18 @@ npm install grommet grommet-icons styled-components --save
 
 그런 다음 그냥 아이콘의 이름을 가져와서 grommet-icons 패키지에서 불러오면 됩니다. 간단하죠!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 요약
 
@@ -137,7 +254,18 @@ To-Do 앱을 완벽히 만들고 기본 구성 요소를 통해 충분히 멋지
 
 ## 장점
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Grommet를 몇 일간 사용해본 후 몇 가지를 정말 좋아했습니다:
 
@@ -149,7 +277,18 @@ Grommet를 몇 일간 사용해본 후 몇 가지를 정말 좋아했습니다:
 
 물론 모든 것이 완벽하진 않죠, 그러니 Grommet에 대해 좋지 않은 점도 살펴봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 라이브러리에는 “나쁜” 부분이 많지 않은 것 같아요. 하지만 몇 가지 문제점을 발견했어요:
 
@@ -161,7 +300,18 @@ Grommet를 몇 일간 사용해본 후 몇 가지를 정말 좋아했습니다:
 
 앱 디자이너가 제대로 작동하고 문서에 빠진 예제를 추가한다면, 이 라이브러리는 React 개발자에게 매우 권장해야 할 것 같아요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Grommet을 사용해 보신 적이 있나요? 어떤 경험을 하셨나요?
 
@@ -171,7 +321,18 @@ Grommet을 사용해 보신 적이 있나요? 어떤 경험을 하셨나요?
 
 Bit의 오픈소스 도구는 25만 명 이상의 개발자가 컴포넌트로 앱을 만들 수 있도록 도와줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어떤 UI, 기능 또는 페이지라도 재사용 가능한 구성 요소로 변환하여 여러 애플리케이션 간에 공유하세요. 협업하는 것이 더 쉽고 빠르게 빌드할 수 있습니다.
 
@@ -181,7 +342,18 @@ Bit의 오픈소스 도구는 25만 명 이상의 개발자가 컴포넌트로 �
 
 ## → 마이크로 프론트엔드
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## → 디자인 시스템
 

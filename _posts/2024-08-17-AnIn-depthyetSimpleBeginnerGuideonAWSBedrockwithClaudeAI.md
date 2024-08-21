@@ -3,7 +3,7 @@ title: "Claude AI와 함께하는 AWS Bedrock 입문 가이드 정리"
 description: ""
 coverImage: "/assets/img/2024-08-17-AnIn-depthyetSimpleBeginnerGuideonAWSBedrockwithClaudeAI_0.png"
 date: 2024-08-17 01:14
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-17-AnIn-depthyetSimpleBeginnerGuideonAWSBedrockwithClaudeAI_0.png
 tag: Tech
 originalTitle: "An In-depth yet Simple Beginner Guide on AWS Bedrock with Claude AI"
@@ -11,7 +11,6 @@ link: "https://medium.com/ai-advances/an-in-depth-yet-simple-beginner-guide-on-a
 isUpdated: true
 updatedAt: 1723864115162
 ---
-
 
 # 소개
 
@@ -21,9 +20,21 @@ updatedAt: 1723864115162
 
 본 안내서를 따르면 다음을 얻게 됩니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # AWS 베드락 및 주요 기능 개요
+
 - OpenAI와 비교하여 Claude AI 모델의 이유는 무엇인가요?
 - 챗봇을 생성하고 챗봇 프론트엔드를 베드락 백엔드에 연결하는 개발자를 위한 완벽한 가이드
 
@@ -35,7 +46,18 @@ updatedAt: 1723864115162
 - 제 글을 50번 클랩해 주시면 정말로 저를 도와주실 거예요.👏
 - Medium에서 나를 팔로우하고 제 최신 글을 받아보기 위해 구독해주세요🫶AWS 베드락: 초보자를 위한 소개
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## AWS 베드락이란 무엇인가요?
 
@@ -45,13 +67,35 @@ AWS 베드락은 머신 러닝 GenAI 애플리케이션을 구축하고 배포�
 
 다음 두 개의 그래프에서 동부 미국 버지니아 지역에서 사용할 수 있는 모든 모델을 찾을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 세밀함과 우아함에 사로잡힌 AI가 만들어낸 이미지에 항상 관심이 있었어요. 그러나 이번에는 AI가 예술이 아닌 코미디에 손을 대보기로 결정한 것 같아요.
 
 제 작은 소녀는 자신의 자동차 옆에서 고귀하게 서 있는 미니 마우스를 보기 위해 기대했어요. 그러나 우리의 큰 놀라움은, 미니가 확고히 서 있는 대신에 이상하게 춤을 추는 것 같았다는 거예요! 우리는 AI의 예상치 못한 유머에 웃음을 참지 못했지만, 제 아이는 그 모습에 너무 재미있어 했어요. 🤣
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 지식베이스 옵션
 
@@ -61,7 +105,18 @@ AWS 베드락은 머신 러닝 GenAI 애플리케이션을 구축하고 배포�
 
 Amazon Bedrock 에이전트를 사용하면 개발자가 애플리케이션에 자율적인 에이전트를 구축할 수 있습니다. 이러한 에이전트는 데이터 소스, 소프트웨어 및 사용자 대화 사이의 상호작용을 조율하여 최종 사용자가 작업을 완료할 수 있도록 돕습니다. 에이전트는 API를 자동으로 호출하고 지식 베이스를 호출하여 작업을 완료하는 데 필요한 정보를 보완합니다. 이러한 에이전트를 통합함으로써 개발자는 AI 애플리케이션의 전달을 가속화하고 상당한 개발 시간을 절약할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Claude AI: 개요
 
@@ -71,7 +126,18 @@ Claude AI는 챗봇 및 다른 대화형 인터페이스를 만들기 위해 사
 
 ## Claude AI를 사용하는 이유는 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Claude AI는 챗봇 및 다른 대화 인터페이스를 구축하기에 이상적인 도구로 만드는 다양한 혜택을 제공합니다. 일부 주요 혜택은 다음과 같습니다:
 
@@ -90,7 +156,18 @@ Claude AI는 챗봇 및 다른 대화 인터페이스를 구축하기에 이상�
 
 Claude AI와 AWS Bedrock을 결합하면, 개발자들은 차세대 챗봇을 구축할 강력한 플랫폼을 갖게 됩니다. Bedrock는 인프라 및 모델 접근을 제공하며, Claude는 고급 대화 기능을 제공합니다. 함께 사용하면, 실 사용 가능한 챗봇을 생성하는 장벽이 낮아집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # AWS Bedrock 및 Claude AI를 활용한 챗봇 구현
 
@@ -100,7 +177,18 @@ AWS Bedrock와 Claude AI를 사용하여 챗봇을 만드는 것은 몇 가지 �
 
 가장 먼저, AWS Bedrock 런타임 클라이언트를 초기화해야 합니다. AWS Bedrock는 머신러닝 모델의 배포와 관리를 용이하게 해주는 서비스입니다. boto3 클라이언트를 사용하여 쉽게 초기화할 수 있습니다. boto3는 AWS 서비스를 위한 Python SDK입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import gradio as gr
@@ -125,7 +213,18 @@ with gr.Blocks() as demo:
     clear = gr.ClearButton([msg, chatbot])
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 응답 로직 생성:
 
@@ -151,7 +250,18 @@ def respond(message, chat_history):
 
 ## 모델 응답 처리하기:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모델을 호출한 후에는 Bedrock 모델 응답을 구문 분석하여 채팅 기록에 추가합니다. 이렇게 하면 실시간 대화를 모방하는 자연스러운 채팅 기록을 표시할 수 있습니다.
 
@@ -171,10 +281,21 @@ def respond(message, chat_history):
 
 챗봇을 시작하는 마지막 단계는 Gradio 인터페이스를 실행하여 모든 것을 움직이게 하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-demo.launch()
+demo.launch();
 ```
 
 요약하면, Gradio와 Anthropic의 Claude 모델을 AWS Bedrock 런타임을 통해 통합하여 챗봇 UI를 제공합니다.
@@ -183,7 +304,18 @@ demo.launch()
 
 # 결론적인 생각들
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 있습니다! AWS Bedrock와 Claude AI의 힘을 결합하여 직접 챗봇을 만드는 방법에 대한 포괄적인 안내서입니다. Gradio의 도움으로 작업하는 방법을 알아보았습니다.
 
@@ -193,7 +325,18 @@ AWS Bedrock의 핵심을 이해하고 Claude AI의 다이내믹스를 파헤치�
 
 마지막으로, 예상된 MongoDB 추가를 포함한 확장되는 벡터 저장소 옵션 풀은 사용자 경험을 더욱 풍부하고 다양하며 직관적으로 만들어 RAG 기능을 데이터와 활용하는 가능성을 더욱 넓히는 흥미로운 층을 더합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AI의 성과를 많이 찾으며, Minnie를 만나 웃음도 짓고 여행을 즐기길 바라요!
 
@@ -205,6 +348,17 @@ AI의 성과를 많이 찾으며, Minnie를 만나 웃음도 짓고 여행을 �
 - Medium에서 저를 팔로우하고 최신 글을 받아보세요 🫶
 - LinkedIn에서 나를 팔로우하여 데이터 관련 다른 정보를 받아보세요 🔭
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-08-17-AnIn-depthyetSimpleBeginnerGuideonAWSBedrockwithClaudeAI_0.png](/assets/img/2024-08-17-AnIn-depthyetSimpleBeginnerGuideonAWSBedrockwithClaudeAI_0.png)

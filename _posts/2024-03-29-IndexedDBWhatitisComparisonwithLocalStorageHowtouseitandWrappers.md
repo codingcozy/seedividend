@@ -3,17 +3,13 @@ title: "IndexedDB, LocalStorage와의 비교, 사용 방법, 그리고 래퍼들
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "IndexedDB What it is, Comparison with LocalStorage, How to use it, and Wrappers"
 link: "https://medium.com/@lorenzobloedow/indexeddb-what-it-is-comparison-with-localstorage-how-to-use-it-and-wrappers-035269cb94b0"
 isUpdated: true
 ---
-
-
-
-
 
 # 인덱스된 DB에 대해 알아볼까요?
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이는 SQL 기반의 데이터베이스로, 고정된 열의 양이 아닌 자바스크립트 객체를 저장하고 검색할 수 있게 해 줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대부분의 데이터베이스와 마찬가지로이 데이터베이스는 초고속 액세스 속도를 위해 데이터베이스 인덱스를 사용합니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ## 저장 용량 제한
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹에서 저장소에 대해 이야기할 때 고려해야 할 첫 번째 사항은 저장할 수 있는 데이터의 양입니다.
 
@@ -43,7 +61,18 @@ LocalStorage의 기본 최대 저장 용량은 브라우저 및 버전에 따라
 
 이렇게 보면 IndexedDB가 수천 개의 이미지를 로컬 사용자 지정 캐시에 저장하는 등 LocalStorage로는 일반적으로 불가능했던 새로운 가능성의 세계를 열어준다는 것을 이미 알 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 작업 순서
 
@@ -53,7 +82,18 @@ LocalStorage의 기본 최대 저장 용량은 브라우저 및 버전에 따라
 
 ## 브라우저 지원
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LocalStorage가 여기에서 분명한 우승자입니다.
 
@@ -63,7 +103,18 @@ IndexedDB도 브라우저 지원이 훌륭하지만 일부 브라우저는 비�
 
 # 사용 방법
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일부 웹 개발자는 IndexedDB를 별로 좋아하지 않을 수 있습니다. 왜냐하면 브라우저에서 실행되는 전체 SQL 데이터베이스이기 때문이죠! 하지만 그들이 생각하는 것과는 달리, 고급 API에 접근할 필요가 없다면 실제로는 IndexedDB를 사용하는 것이 정말 간단합니다.
 
@@ -75,7 +126,18 @@ const openRequest = window.indexedDB.open("MediumExampleDatabase");
 
 그런 다음, IndexedDB 작업이 비동기적임을 감안하여, 성공/실패 이벤트를 청취해야 합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 openRequest.onerror = () => {
@@ -96,7 +158,18 @@ const objectStore = db.createObjectStore("users");
 
 마지막으로 "users" 데이터베이스에서 데이터를 추가하고 검색해 봅시다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 데이터 추가하기
@@ -175,7 +248,18 @@ openRequest.onupgradeneeded = () => {
 
 # IndexedDB Wrapper
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 IndexedDB 작업이 많은 보일러플레이트로 느껴진다거나 이벤트 기반 아키텍처를 싫어한다면, 나도 이해해요. 실제로 이는 매우 흔한 불평 중 하나라서 NPM에 약속 기반(IndexedDB) 래퍼가 많이 있답니다. 그러니 몇 가지 살펴봐 볼까요!
 
@@ -215,7 +299,18 @@ await db.friends.add({
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## idb
 
@@ -280,7 +375,18 @@ var results = await connection.select({
 alert(results.length + "개의 레코드 찾음");
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 여기까지 입니다!
 

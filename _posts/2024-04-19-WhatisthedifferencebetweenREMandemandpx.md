@@ -3,17 +3,13 @@ title: "rem과 em 그리고 px의 차이 알아보기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "What is the difference between REM and em and px"
 link: "https://medium.com/@kaklotarrahul79/what-is-the-difference-between-rem-and-em-and-px-254536986671"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/WhatisthedifferencebetweenREMandemandpx_0.png" />
 
@@ -31,7 +27,18 @@ h1 {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. Em: 이 단위는 부모 요소의 글꼴 크기와 관련이 있고 확장 가능한 디자인을 만드는 데 유용할 수 있습니다. 예를 들어:
 
@@ -49,7 +56,18 @@ h1 {
 
 3. Px (픽셀): 이 단위는 다른 것과 관련이 없는 절대적인 측정 단위이며 고정 크기 요소나 정확한 측정이 필요한 요소에 일반적으로 사용됩니다. 예를 들어:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .element {

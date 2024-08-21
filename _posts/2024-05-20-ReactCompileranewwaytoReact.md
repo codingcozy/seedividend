@@ -3,16 +3,13 @@ title: "리액트 컴파일러, 리액트의 새로운 방식"
 description: ""
 coverImage: "/assets/img/2024-05-20-ReactCompileranewwaytoReact_0.png"
 date: 2024-05-20 22:13
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-20-ReactCompileranewwaytoReact_0.png
 tag: Tech
 originalTitle: "React Compiler a new way to React…"
 link: "https://medium.com/@2710rajatsharma/react-compiler-a-new-way-to-react-e3be40bacc87"
 isUpdated: true
 ---
-
-
-
 
 최근 Meta사에서 React를 위한 새로운 컴파일러를 발표했어요. 이 소식은 생각보다 더 큰 뜻을 가지고 있어요. 이 블로그에서는 React의 새로운 컴파일러에 대한 기본적인 내용을 이해해보려 합니다.
 
@@ -24,7 +21,18 @@ Svelte, Angular, Solid과 같은 UI 프레임워크들은 이미 내장된 컴�
 컴파일러가 왜 필요한가요?
 여러 이유가 있어요. 대부분의 React 개발자들은 이미 알고 있지만, React 렌더링은 코드베이스의 크기가 커지면 성능이 저하될 수 있는 공격적인 특성을 가지고 있어요. React는 메모이제이션 기술을 제공하지만, 효과적으로 학습하고 구현하기 어려울 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React 컴파일러 작동 방식에 대해 알아보겠습니다.
 컴파일러가 일관된 최적화를 달성하는 데 사용하는 여러 기술이 있습니다. 이 중 몇 가지를 아래에서 언급해보겠습니다:
@@ -35,7 +43,18 @@ React 컴파일러 작동 방식에 대해 알아보겠습니다.
 
 향상된 Hooks: React 컴파일러는 useMemo와 useCallback과 같은 기존 훅을 개선할 수 있습니다. 적절한 곳에 자동으로 이러한 훅을 삽입하여 컴파일러는 개발자가 수동으로 의존성을 지정하지 않고도 메모이제이션의 이점을 얻을 수 있도록 보장합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 과거 트랜스파일된 코드와 새로운 컴파일된 코드 비교
 코드로 들어가서 컴파일러의 유무에 따라 동일한 코드가 어떻게 다른지 살펴보겠습니다:
@@ -50,15 +69,29 @@ export default function Hello() {
 
 현재 컴파일 없이 트랜스파일된 코드는 이렇게 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // transpiled code (without compiler)
 export default function Hello() {
-  return __jsx("div", {
-    className: "foo"
-  }, "Hi There");
+  return __jsx(
+    "div",
+    {
+      className: "foo",
+    },
+    "Hi There"
+  );
 }
 ```
 
@@ -76,9 +109,13 @@ export default function Hello() {
   let t0;
   // cached component
   if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
-    t0 = __jsx("div", {
-      className: "foo"
-    }, "Hi There");
+    t0 = __jsx(
+      "div",
+      {
+        className: "foo",
+      },
+      "Hi There"
+    );
     $[1] = t0;
   } else {
     t0 = $[1];
@@ -93,8 +130,18 @@ The second `if` statement is where the compiler saves our `div` in a cache. If t
 
 Let’s look at a more advanced code snippet to see how the compiler manages states in the code.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { useState } from "react";
@@ -123,8 +170,18 @@ export default function Hello() {
 
 지금 변환된 코드를 가져왔습니다. 상태는 최적화 없이 변환됩니다. 이제 컴파일된 코드를 살펴봅시다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { c as _c } from "react/compiler-runtime";
@@ -139,7 +196,7 @@ export default function Hello() {
   }
   const [name] = useState("Jack");
   let t0;
-// name is cached
+  // name is cached
   if ($[1] !== name) {
     t0 = __jsx("p", null, "Hi: ", name);
     $[1] = name;

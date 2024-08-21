@@ -3,17 +3,13 @@ title: "Nextjs 14에서 not found 페이지 처리하는 방법not-foundjs"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # Nextjs 14에서 not found 페이지 처리하는 방법(not-found.js)
 
@@ -35,7 +31,18 @@ export default function NotFound() {
 
 > 유용한 정보: 예상되는 notFound() 오류를 캐치하는 것 외에도, 루트 app/not-found.js 파일은 전체 애플리케이션의 일치하지 않는 URL을 처리합니다. 이는 앱이 처리하지 않는 URL을 방문한 사용자에게 app/not-found.js 파일에 의해 내보낸 UI가 표시된다는 것을 의미합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 속성
 
@@ -45,7 +52,18 @@ not-found.js 컴포넌트는 어떤 속성도 받아들이지 않습니다.
 
 기본적으로, not-found은 서버 컴포넌트입니다. 데이터를 가져와서 표시하려면 async로 표시할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```typescript
 import Link from "next/link";
@@ -76,4 +94,15 @@ export default async function NotFound() {
 | `v13.3.0` | Root `app/not-found`가 전역 일치하지 않는 URL을 처리합니다. |
 | `v13.0.0` | `not-found`가 도입되었습니다.                               |
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

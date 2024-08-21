@@ -3,17 +3,13 @@ title: "플러터 테마 확장 하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Mastering Theme Extensions Elevating Flutter App Customization to the Next Level"
 link: "https://medium.com/@technicatalyst78/mastering-theme-extensions-elevating-flutter-app-customization-to-the-next-level-820ba31aa19e"
 isUpdated: true
 ---
-
-
-
-
 
 많은 시간에, 매우 구체적이고 상세한 디자인 시스템이 포함될 수 있습니다. 이것들은 색상, 텍스트 스타일, 그림자, 그라데이션 등을 포함할 수 있습니다.
 
@@ -23,7 +19,18 @@ Flutter은 확장(extension)을 사용하여 테마 클래스의 능력을 확�
 
 함께 코드를 살펴보고 themeExtensions가 제공하는 가능성을 탐험해보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 class XDesignSystem extends ThemeExtension<XDesignSystem> {
@@ -88,7 +95,18 @@ final lightTheme = ThemeData(
 
 이제 MaterialApp 위젯에 이를 연결하여 계속 진행할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 ThemeData theme = ThemeData(
@@ -126,7 +144,18 @@ Theme.of(this).extension<DesignSystem>().textColor
 
 하지만 이렇게 하는 것이 그렇게 쉽지는 않죠. 조금 더 깔끔하게 만들기 위해 BuildContext에 확장(extension)을 생성할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 확장팩으로 BuildContext에 디자인 시스템을 추가합니다.
@@ -143,7 +172,16 @@ Text("일부 텍스트",
 
 그리고 완료! 매우 간단하죠?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 구현은 밝은 테마와 어두운 테마 간의 전환을 쉽게 만들 뿐만 아니라 사용자가 테마로 사용할 색상을 결정할 수 있도록 하는 것도 쉽게 만듭니다.
 
@@ -155,9 +193,19 @@ theme.copyWith(
 
 상태 관리 기술은 여러분에게 맡기겠습니다. 그러나 이가 다소 직관적이었기를 희망합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 소셜 미디어 계정을 팔로우하는 걸 잊지 마세요!
 
 - LinkedIn
 - Twitter
+```

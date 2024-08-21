@@ -3,17 +3,13 @@ title: "플러터 앱에 Google 지도 추가하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Integrating Google Maps in a Flutter App A Step-by-Step Guide"
 link: "https://medium.com/@hello_chirag/integrating-google-maps-in-a-flutter-app-a-step-by-step-guide-8f1e2cc4fcc0"
 isUpdated: true
 ---
-
-
-
-
 
 플러터 앱에 구글 지도 추가에 대한 포괄적인 튜토리얼
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 Google Maps는 플러터 앱의 사용자 경험을 향상시킬 수 있는 인기있는 매핑 플랫폼입니다. 이 기사에서는 구글 클라우드 플랫폼 계정 설정부터 앱에서 지도를 표시하는 방법까지 모두 다룰 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 준비 사항
 
@@ -35,7 +42,18 @@ Google Maps는 플러터 앱의 사용자 경험을 향상시킬 수 있는 인�
 
 단계 1: Google Cloud Platform 계정 만들기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Google 맵을 앱에서 사용하려면 Google Cloud Platform 계정을 만들어야 합니다. 이미 계정이 있는 경우 다음 단계로 건너뛰십시오.
 
@@ -46,7 +64,18 @@ Google 맵을 앱에서 사용하려면 Google Cloud Platform 계정을 만들�
 - Google 계정으로 로그인하거나, 아직 계정이 없는 경우 새로 만듭니다.
 - 화면 상단의 "프로젝트 선택" 드롭다운을 클릭한 후 "새 프로젝트"를 선택하여 새 프로젝트를 생성합니다. 프로젝트 이름을 지정하고 "만들기"를 클릭합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1200/1*b-jPloCJ90IcFlepXkNV6w.gif)
 
@@ -57,7 +86,18 @@ Google 맵을 앱에서 사용하려면 Google Cloud Platform 계정을 만들�
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1200/1*PmmwOAtr_j7QaHnLwyYPiw.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 다음으로 "자격 증명" 탭으로 이동하여 "자격 증명 생성"을 클릭하세요. "API 키"를 선택합니다.
 - API 키를 복사하고 안전한 곳에 보관하세요. 나중에 사용할 것입니다.
@@ -70,7 +110,18 @@ Google 맵을 앱에서 사용하려면 Google Cloud Platform 계정을 만들�
 - Google Maps 패키지 추가하기
 - 이제 Google Maps 패키지를 프로젝트에 추가해야 합니다. 이를 위해 pubspec.yaml 파일에 다음 종속성을 추가할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 dependencies:
@@ -87,7 +138,18 @@ flutter pub get
 
 이렇게 하면 Google Maps 패키지가 다운로드되고 설치됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단계 4: 지도 보기 설정하기
 
@@ -122,7 +184,18 @@ class MyApp extends StatelessWidget {
 
 - LatLng(23.0225, 72.5714)를 지도에 표시하려는 위치의 위도와 경도로 대체하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **단계 5: API 키 추가**
 
@@ -132,7 +205,18 @@ API 키를 획득했다면 앱에서 설정해야 합니다. 이를 위해 Andro
 
 Android:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앱에 이전 단계에서 생성한 API 키를 사용하여 Google 지도를 통합하려면 제공된 지침을 따라 필요한 코드를 복사하여 붙여넣어야 합니다.
 
@@ -146,7 +230,18 @@ Android:
 </application>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1200/1*f1MCg_vimeuJa0nRuzdx7g.gif)
 
@@ -173,7 +268,18 @@ import GoogleMaps
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 API 키를 응용프로그램 델리게이트에서 지정한 후, 다음 단계는 Xcode를 열고 info.plist 파일에 위치 권한을 포함하는 것입니다.
 
@@ -198,7 +304,18 @@ API 키를 응용프로그램 델리게이트에서 지정한 후, 다음 단계
 
 ![Google Maps를 플러터 앱에 통합하는 방법: 단계별 안내서](/assets/img/Integrating-Google-Maps-in-a-Flutter-App:-A-Step-by-Step-Guide_6.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 결론
 

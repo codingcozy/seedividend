@@ -3,16 +3,13 @@ title: "이해하기 쉬운 제어 역전IoC 및 NestJS에서의 구현 방법"
 description: ""
 coverImage: "/assets/img/2024-06-20-UnderstandingInversionofControlIoCandItsImplementationinNestJS_0.png"
 date: 2024-06-20 02:29
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-UnderstandingInversionofControlIoCandItsImplementationinNestJS_0.png
 tag: Tech
 originalTitle: "Understanding Inversion of Control (IoC) and Its Implementation in NestJS"
 link: "https://medium.com/@majidev/understanding-inversion-of-control-ioc-and-its-implementation-in-nestjs-765dcc1d6445"
 isUpdated: true
 ---
-
-
-
 
 # 소프트웨어 개발 세계에서, 특히 복잡한 애플리케이션을 구축할 때는 깨끗하고 관리하기 쉬운 코드를 유지하는 것이 매우 중요합니다. 이를 돕는 핵심 원리 중 하나가 Inversion of Control (IoC)입니다. 이 글에서는 IoC가 무엇이며 왜 중요한지, 그리고 NestJS와 같은 프레임워크에서 어떻게 구현되는지 살펴보겠습니다.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 Inversion of Control (IoC)은 객체 생성과 종속성 관리의 제어가 뒤바뀌는 설계 원칙입니다. 컴포넌트나 클래스가 종속성을 생성하는 대신 외부 엔티티(대부분 프레임워크나 컨테이너)가 이 종속성을 생성하고 주입하는 것을 의미합니다. 이 원칙은 더 모듈화되고 테스트 가능하며 유지보수하기 쉬운 코드로 이어집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # IoC의 핵심 장점:
 
@@ -34,7 +42,18 @@ Inversion of Control (IoC)은 객체 생성과 종속성 관리의 제어가 뒤
 
 IoC의 가장 일반적인 구현 중 하나는 의존성 주입(Dependency Injection, DI)입니다. DI는 객체의 종속성이 객체 자체가 생성하는 대신 제공될 수 있는 기술입니다. 생성자 주입, 프로퍼티 주입 및 메서드 주입을 포함한 여러 종류의 DI가 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 생성자 주입:
 
@@ -48,7 +67,18 @@ class MyService {
 
 위 예에서 MyService는 생성자를 통해 EmailService를 의존성으로 받습니다. 이 접근 방식은 MyService가 EmailService가 어떻게 생성되었는지에 독립적이 되도록 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # NestJS에서 IoC 구현하기
 
@@ -58,10 +88,21 @@ NestJS는 점진적인 Node.js 프레임워크로, 의존성을 효율적으로 
 
 NestJS에서는 서비스와 다른 주입 가능한 클래스들이 @Injectable() 데코레이터로 표시됩니다. 이 데코레이터는 해당 클래스를 NestJS IoC 컨테이너에 등록합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-import { Injectable } from '@nestjs/common';
+import { Injectable } from "@nestjs/common";
 
 @Injectable()
 class EmailService {
@@ -88,7 +129,18 @@ class MyService {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # NestJS가 IoC(제어의 역전)를 어떻게 다루는지
 
@@ -98,10 +150,21 @@ NestJS는 내부적으로 reflect-metadata 라이브러리를 사용하여 종�
 
 프로젝트에 reflect-metadata가 설치되어 있고 주요 파일(main.ts와 같은)에서 import되었는지 확인하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-import 'reflect-metadata';
+import "reflect-metadata";
 ```
 
 이 설정을 통해 NestJS는 변환 중에 타입 어노테이션을 제거한 후에도 종속성을 올바르게 식별하고 주입할 수 있습니다.
@@ -110,7 +173,18 @@ import 'reflect-metadata';
 
 제어의 역전(IoC)은 코드의 독립성을 증진시키고 유지 관리 및 테스트 가능성을 향상시키는 기본 원칙입니다. NestJS는 강력한 의존성 주입(DI) 시스템을 통해 IoC를 활용하여 확장 가능하고 유지 관리 가능한 서버 측 응용 프로그램을 개발하는 데 사용되며, 이는 강력한 프레임워크입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 NestJS에서 IoC와 DI를 이해하고 활용하면 더 깔끔하고 모듈식으로 코드를 작성할 수 있어서 테스트하고 유지 관리하기 쉽습니다. 간단한 API든 복잡한 마이크로서비스든 상관없이 IoC 원칙은 개발 워크플로와 코드 품질을 크게 향상시킬 수 있습니다.
 

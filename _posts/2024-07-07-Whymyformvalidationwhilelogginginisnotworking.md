@@ -3,16 +3,13 @@ title: "로그인 시 폼 유효성 검사가 작동하지 않는 이유는"
 description: ""
 coverImage: "/assets/no-image.jpg"
 date: 2024-07-07 19:18
-ogImage: 
+ogImage:
   url: /assets/no-image.jpg
 tag: Tech
 originalTitle: "Why my form validation while logging in is not working?"
 link: "https://medium.com/@fixitblog/solved-why-my-form-validation-while-logging-in-is-not-working-b910e7dd50dc"
 isUpdated: true
 ---
-
-
-
 
 내 ts 컴포넌트 파일:
 
@@ -33,46 +30,46 @@ import { ReactiveFormsModule } from '@angular/forms';
     imports: [HeaderComponent,CommonModule,ReactiveFormsModule]
 })
 export class LoginComponent {
-  
+
     isLoginInProgress: boolean | undefined;
-    errorMessage: string | null = null; 
-    
-    form = this.fb.nonNullable.group({ 
+    errorMessage: string | null = null;
+
+    form = this.fb.nonNullable.group({
       email: ['', Validators.required],
       password: ['', Validators.required],
     });
-    
+
     constructor(
-      private fb: FormBuilder, 
+      private fb: FormBuilder,
       private authService: AuthService,
       ) {
-      
+
       const accessToken = localStorage.getItem('accessToken');
       if (accessToken) {
         window.history.back();
       }
     }
      router = inject(Router);
-  
+
     // fb = inject(FormBuilder);
     // http = inject(HttpClient);
     //  authService = inject(AuthService);
     data: any[] = [];
-    
+
     validateEmail(email: string): boolean {
       if (!email) {
         return true; // 이메일 필드가 비어있으면 유효한 것으로 간주합니다 (필요 시 조정)
       }
-      const emailRegex = /^\S+@\S+\.\S+$/; 
+      const emailRegex = /^\S+@\S+\.\S+$/;
       return emailRegex.test(email);
     }
-    
+
 
     noemail=false;
     noform=false;
     nopwd=false;
     login=false;
-  
+
     onSubmit(): void {
       this.errorMessage = null;
         this.noemail = false;
@@ -101,33 +98,33 @@ export class LoginComponent {
             },
           });
         if (!email) {
-          this.noemail = true 
-  
+          this.noemail = true
+
           this.noform=false
           // 이메일이 입력되지 않았습니다
-        } 
+        }
         if (!this.validateEmail(email)) {
           this.noemail=false
           this.nopwd=false
-          this.noform=true 
+          this.noform=true
           // 유효하지 않은 이메일 형식입니다
         }
         else
         {
-          
+
           this.noform=false
         }
-  
-        
+
+
         const mdp=rawform.password.trim();
-        if(!mdp ) 
+        if(!mdp )
           {
             this.nopwd=true
-          }  
+          }
     }
-  
+
     handleAuthError(err: any): void {
-      console.error('인증 오류:', err); 
+      console.error('인증 오류:', err);
       const rawform = this.form.getRawValue();// 검사를 위해 오류 객체 기록
       const email = rawform.email.trim();
       switch (err.code) {
@@ -141,29 +138,29 @@ export class LoginComponent {
           if (email)
             {
               this.nopwd=false
-              
+
             }
           break;
         case this.validateEmail(email)  :
           this.noform=false
           this.noemail=false
-          break; 
+          break;
       }
-  
+
     }
-  
+
     isLoggedIn(): boolean {
       const hasAccessToken = localStorage.getItem('accessToken') !== null;
-      
+
       timer(1000);
       if (hasAccessToken) {
         return true;
-      } else {     
+      } else {
         return false;
       }
     }
-   
-    
+
+
 }
 ```
 
@@ -177,7 +174,7 @@ export class LoginComponent {
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="/assets/css/styles.css" rel="stylesheet">
   <link href="/assets/bootstrap/bootstrap.css" rel="stylesheet">
-  
+
 </head>
 <body class="form-v9" style="background: linear-gradient(to left ,#032961,#4588ee); ">
     <div class="page-content">
@@ -185,7 +182,7 @@ export class LoginComponent {
             <form [formGroup]="form" (ngSubmit)="onSubmit()" class="form-detail" action="#" method="post">
                 <h2>로그인 양식</h2>
                 <div class="form-row-total">
-                        
+
                         <div *ngIf="login" class="alert alert-success" role="alert">
                             성공적으로 로그인했습니다
                         </div>
@@ -197,23 +194,23 @@ export class LoginComponent {
                       </div>
                           <div *ngIf="noemail " class="alert alert-danger" role="alert">
                               이메일을 입력하세요
-                          </div> 
+                          </div>
                           <div *ngIf="noform" class="alert alert-danger" role="alert">
-                              올바르지 않은 이메일 형식 
+                              올바르지 않은 이메일 형식
                           </div>
                 </div>
                 <div class="form-row-total">
                     <div class="form-row">
                         <input type="password" name="password" id="password" class="input-text" placeholder="비밀번호" required>
                     </div>
-                    
+
                     <div *ngIf="errorMessage" class="alert alert-danger" role="alert" >
                         { errorMessage }
                       </div>
                     <div *ngIf="nopwd" class="alert alert-danger" role="alert"  style="margin-top: 90px;">
                         비밀번호를 입력하세요
                     </div>
-                    
+
                 </div>
                 <div class="form-row-last">
                     <input type="submit" name="register" class="register" value="로그인" >
@@ -224,7 +221,18 @@ export class LoginComponent {
 </body>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 로그인 버튼을 누를 때 (필드가 비어있든 아니든) 표시되는 메시지가 "비밀번호를 입력하십시오" 및 "이메일을 입력하십시오"인 것 같습니다 (즉, 변수 'nopwd' 및 'noemail'의 값은 항상 true인 것처럼 보입니다). 문제가 정확히 어디에 있을까요? 그리고 무엇을 변경해야 할까요?
 
@@ -238,7 +246,18 @@ export class LoginComponent {
 <input type="password" formControlName="password" name="password" id="password" class="input-text" placeholder="비밀번호를 입력하세요" required>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코드를 개선했습니다.
 
@@ -328,60 +347,69 @@ export class AppComponent {
 
 component.html
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```html
 <form [formGroup]="form" (ngSubmit)="onSubmit()" class="form-detail">
   <h2>Login Form</h2>
   <div class="form-row-total">
-
     @if(login) {
-      <div class="alert alert-success" role="alert">
-        Login avec succès
-      </div>
+    <div class="alert alert-success" role="alert">Login avec succès</div>
     }
 
     <div class="form-row">
-      <input type="text" formControlName="email" name="email" id="email" class="input-text" placeholder="이메일" required pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}">
+      <input
+        type="text"
+        formControlName="email"
+        name="email"
+        id="email"
+        class="input-text"
+        placeholder="이메일"
+        required
+        pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}"
+      />
     </div>
     @if (authError()) {
-      <div class="alert alert-danger" role="alert">
-        잘못된 비밀번호 또는 이메일
-      </div>
-    }
-    @if (form.controls.email.errors?.required) {
-      <div class="alert alert-danger" role="alert">
-        이메일을 입력해주세요
-      </div>
-    }
-    @if (form.controls.email.errors?.email) {
-      <div class="alert alert-danger" role="alert">
-        잘못된 이메일 형식입니다
-      </div>
+    <div class="alert alert-danger" role="alert">잘못된 비밀번호 또는 이메일</div>
+    } @if (form.controls.email.errors?.required) {
+    <div class="alert alert-danger" role="alert">이메일을 입력해주세요</div>
+    } @if (form.controls.email.errors?.email) {
+    <div class="alert alert-danger" role="alert">잘못된 이메일 형식입니다</div>
     }
   </div>
 
   <div class="form-row-total">
     <div class="form-row">
-      <input type="password" formControlName="password" name="password" id="password" class="input-text" placeholder="비밀번호" required>
+      <input
+        type="password"
+        formControlName="password"
+        name="password"
+        id="password"
+        class="input-text"
+        placeholder="비밀번호"
+        required
+      />
     </div>
 
     @if (authError()) {
-      <div class="alert alert-danger" role="alert" >
-        잘못된 비밀번호 또는 이메일
-      </div>
+    <div class="alert alert-danger" role="alert">잘못된 비밀번호 또는 이메일</div>
+    } @if (form.controls.password.errors?.required) {
+    <div class="alert alert-danger" role="alert" style="margin-top: 90px;">비밀번호를 입력해주세요</div>
     }
-
-    @if (form.controls.password.errors?.required) {
-      <div class="alert alert-danger" role="alert"  style="margin-top: 90px;">
-        비밀번호를 입력해주세요
-      </div>
-    }
-
   </div>
   <div class="form-row-last">
-    <input type="submit" name="register" class="register" value="로그인" [disabled]="!form.valid" >
+    <input type="submit" name="register" class="register" value="로그인" [disabled]="!form.valid" />
   </div>
 </form>
 ```
@@ -389,7 +417,7 @@ component.html
 custom-validators.ts
 
 ```js
-import { AbstractControl, ValidationErrors } from '@angular/forms';
+import { AbstractControl, ValidationErrors } from "@angular/forms";
 
 export class CustomValidators {
   static email(control: AbstractControl<string>): ValidationErrors | null {
@@ -399,10 +427,20 @@ export class CustomValidators {
     return emailRegex.test(control.value) ? null : { email: true };
   }
 }
-``` 
+```
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 답변 확인자 - Marie Seifert (수정 관리자)
 

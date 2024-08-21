@@ -3,17 +3,13 @@ title: "HTML, CSS, JS로 포트폴리오 웹사이트 만들기소스 코드 있
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Create Portfolio Website Using HTML and CSS Source Code"
 link: "https://medium.com/@cwrworksite/create-portfolio-website-using-html-and-css-source-code-9a21e5ac700b"
 isUpdated: true
 ---
-
-
-
-
 
 자, 오늘은 Html과 CSS 소스 코드를 사용하여 시각적으로 맛있는 포트폴리오 웹사이트를 만들어볼 거에요. 이 글에서는 Html과 CSS를 사용한 포트폴리오 웹사이트의 완성된 코드와 설명을 얻을 수 있어요.
 
@@ -21,7 +17,18 @@ isUpdated: true
 
 # 포트폴리오 웹사이트란?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요즘에는 모두 웹사이트와 웹 애플리케이션을 필요로 합니다. 그래서 웹 개발자로 일할 경우 많은 기회가 있습니다. 그러나 웹 개발자의 직업을 얻고 싶다면, 여러분의 기술과 경험을 자랑할 수 있는 좋은 포트폴리오 웹사이트가 필요할 것입니다. 개발자 포트폴리오 웹사이트는 여러분의 기술, 경험, 그리고 참여한 프로젝트들에 관한 관련 정보를 잠재적인 고용주에게 제공합니다. 이를 온라인 이력서라고 생각할 수 있습니다.
 
@@ -31,7 +38,18 @@ isUpdated: true
 
 그래서 이 포트폴리오 웹사이트를 만들기 위한 재료는 HTML과 CSS입니다. 둘 다 기본적인 지식이 있다고 가정합니다. 이 포트폴리오 웹사이트를 배포하려면 실제로 웹사이트를 클릭하고 원하는 페이지로 이동할 수 있도록 백엔드를 작업해야 할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 오늘은 외관에 대해 이야기할 차례에요, 즉 프론트 엔드에 대해요! JavaScript도 포괄 범위를 벗어났어요. 왜냐하면 HTML과 CSS만으로도 멋진 웹사이트를 만들 수 있다는 것을 알아주길 원하거든 (그리고 이것을 초보자들에게 친숙하게 유지하고 싶으니까요).
 
@@ -41,7 +59,18 @@ isUpdated: true
 
 그래서, 더 이상의 말이 필요 없이, 우리 레시피로 곧바로 뛰어들어 봅시다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우선적으로, 웹사이트의 중추를 만들어야 합니다. HTML 파일을 생성했고 'index.html'로 이름을 지었습니다. 또한 CSS를 사용할 예정이므로, 동일한 폴더에 'styles.css'라는 CSS 파일을 만들었습니다. index.html 파일에는 다음과 같은 코드를 넣어야 합니다.
 
@@ -70,7 +99,18 @@ rel="stylesheet">
 
 만약 VS Code를 사용하고 HTML 확장 프로그램이 설치되어 있다면, '!'를 입력하고 엔터를 누르면 됩니다. 그렇지 않은 경우, 위 코드를 복사하여 붙여넣기해도 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그들에 대해 논의할 필요는 없어. 단지, 웹 브라우저에 웹페이지를 실행하려고 한다는 것을 알려주는 역할이야. 또한, 'styles.css'에 작성할 모든 CSS를 가져오고 있어.
 
@@ -80,7 +120,18 @@ rel="stylesheet">
 
 ![image2](/assets/img/CreatePortfolioWebsiteUsingHTMLandCSSSourceCode_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/CreatePortfolioWebsiteUsingHTMLandCSSSourceCode_3.png)
 
@@ -90,7 +141,18 @@ rel="stylesheet">
 
 여기가 내비게이션 바야. 모든 웹사이트에 필수적인 요소야. 그러니까 먼저 이걸 만들어볼게. 코드를 반드시 `body` 태그 안에 작성해야 해.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <body>
@@ -123,8 +185,18 @@ rel="stylesheet">
 
 <img src="/assets/img/CreatePortfolioWebsiteUsingHTMLandCSSSourceCode_5.png" />
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 걱정 마세요. 광고 된 내용 그대로 받을 거에요. 따라오세요. 모델의 이미지와 표시하고 싶은 텍스트를 넣어볼게요.
 
@@ -148,7 +220,18 @@ rel="stylesheet">
 
 또한 Lorem Ipsum 텍스트를 적절한 내용으로 바꾸세요. 실제로 표시되는 모든 텍스트는 여러분의 희망대로 변경 가능합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/CreatePortfolioWebsiteUsingHTMLandCSSSourceCode_6.png" />
 
@@ -167,7 +250,18 @@ rel="stylesheet">
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 'styles.css'의 시작입니다. 모든 스타일링을 적용하기 위해 'utilities.css'를 import해야합니다. 미리 색상 구성표를 결정하여 색을 생각하는 데 따로 고민하지 않도록 해놨어요.
 
@@ -177,7 +271,18 @@ VS Code의 HTML CSS Support 확장 기능을 사용하여 쉽게 색상을 선�
 
 # 포트폴리오용 CSS 코드:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 * {
@@ -214,9 +319,18 @@ header nav .logo {
 
 검은색이 저의 좋아하는 색상입니다! 배경을 어떻게 할지 모를 때 정말 큰 도움이 됩니다. 이제 'hero' 클래스에 대한 CSS를 살펴보세요.
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 body{
@@ -311,7 +425,18 @@ margin-bottom: 2rem;
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최종 결과물? 여기 있어요!
 
@@ -343,7 +468,18 @@ Lorem ipsum dolor sit amet consectetur, adipisicing elit.
 
 'px', 'em', 그리고 'rem'이 어떻게 동작하는지 이해하는 것이 매우 중요합니다. 이를 직접 실험하고 차이를 이해해보는 것이 더 좋은 학습 방법일 텐데요. 원하는 모양에 따라 이 값들을 변경하고 코드를 망치는 것을 걱정하지 마세요. 여러 번 이 페이지로 돌아올 수 있습니다. 코드를 복사하여 붙여넣기하거나 코드가 어떻게 동작하는지 이해하려면 걱정하지 마세요. 여러 분을 완벽하게 지원하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다시 한 번, 아이콘과 이미지는 무료 사이트에서 다운로드 받았습니다. 마음에 드는 이미지를 선택하시고, 'img src=""' 부분에 전체 경로를 제공해주세요. 레이아웃 작업을 용이하게 하기 위해 'utilities.css' 파일에서 정의된 클래스를 사용했고, 앞으로도 계속 사용할 것입니다. 그래서 이렇게 두 개의 CSS 파일을 만든 이유를 이해하셨죠.
 
@@ -390,7 +526,18 @@ background: var(--primary);
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 CSS 코드는 'styles.css'에 들어갑니다. 여백과 안쪽 여백을 개별적으로 다룹니다. 하지만 우리가 이미 이전에 정의한 클래스가 대부분의 레이아웃을 처리하므로 많은 작업을 할 필요가 없습니다.
 
@@ -425,7 +572,18 @@ background: var(--primary);
 </section>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/CreatePortfolioWebsiteUsingHTMLandCSSSourceCode_10.png" />
 
@@ -435,7 +593,18 @@ background: var(--primary);
 
 우리의 'styles.css' 파일에는 이제 다음과 같은 코드 블록만 필요하다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 section.services{
@@ -506,8 +675,18 @@ color: var(--white);
 
 <img src="/assets/img/CreatePortfolioWebsiteUsingHTMLandCSSSourceCode_11.png" />
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 카드들은 호버 속성도 가지고 있어. 그래서 커서를 가져가면 배경색과 텍스트 색이 모두 바뀌어.
 
@@ -517,7 +696,18 @@ color: var(--white);
 
 그럼 이만 살짝 떠날게요. 하지만 아! 더 많은 블로그를 준비 중이니까 어디가지 말고 기다려 줘요! CodeWithRandom에 방문해 주셔서 감사합니다. 안녕!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Akshat Sharma
 
@@ -527,7 +717,18 @@ color: var(--white);
 
 # 이 포트폴리오 웹사이트는 반응형인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 네! 이 포트폴리오 웹사이트는 반응형 프로젝트입니다.
 

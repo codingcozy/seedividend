@@ -3,17 +3,13 @@ title: "Nextjs 14에서 현재 URL의 query를 가져오는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # Nextjs 14에서 현재 URL의 query를 가져오는 방법
 
@@ -37,7 +33,18 @@ export default function SearchBar() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 매개변수
 
@@ -49,7 +56,18 @@ useSearchParams 함수는 어떤 매개변수도 필요로하지 않습니다.
 
 ## 반환값
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 useSearchParams은 URLSearchParams 인터페이스의 읽기 전용 버전을 반환합니다. 이 인터페이스에는 URL의 쿼리 문자열을 읽는 유틸리티 메소드가 포함되어 있습니다:
 
@@ -72,7 +90,18 @@ useSearchParams은 URLSearchParams 인터페이스의 읽기 전용 버전을 �
 
 ### 정적 렌더링
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 경로가 정적으로 렌더링되면, useSearchParams를 호출하면 클라이언트 구성 요소 트리가 가장 가까운 Suspense 경계까지 클라이언트 측에서 렌더링됩니다.
 
@@ -82,7 +111,18 @@ useSearchParams를 사용하는 Client Component를 `Suspense/` 경계로 감싸
 
 예시:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```typescript
 "use client";
@@ -129,7 +169,18 @@ export default function Page() {
 
 ### 동적 렌더링
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 경로가 동적으로 렌더링되는 경우, 클라이언트 컴포넌트의 초기 서버 렌더링 중에 useSearchParams가 사용 가능합니다.
 
@@ -170,7 +221,18 @@ export default function Page() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 > 유용한 정보: 동적 라우트 세그먼트 설정 옵션을 'force-dynamic'으로 설정하면 동적 렌더링을 강제로 사용할 수 있습니다.
 
@@ -180,7 +242,18 @@ export default function Page() {
 
 서버 구성 요소 (Server Components)에서 검색 매개변수에 액세스하려면 searchParams 속성을 사용하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 #### 레이아웃
 
@@ -190,7 +263,18 @@ export default function Page() {
 
 ## 예제
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## searchParams 업데이트하기
 
@@ -243,9 +327,31 @@ export default function ExampleClientComponent() {
 
 ## 버전 이력
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Version Changes
 v13.0.0 useSearchParams introduced.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

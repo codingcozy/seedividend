@@ -3,17 +3,13 @@ title: "Nextjs 14 클라이언트 컴포넌트에서 페이지 이동시키는 �
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # Nextjs 14 클라이언트 컴포넌트에서 페이지 이동시키는 방법
 
@@ -37,7 +33,18 @@ export default function Page() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## useRouter()
 
@@ -54,7 +61,18 @@ export default function Page() {
 
 ### next/router에서 마이그레이션하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - App Router를 사용할 때 useRouter 훅은 next/navigation에서 가져와야 하며 next/router가 아니어야 합니다.
 - pathname 문자열은 제거되었고 usePathname()으로 대체되었습니다.
@@ -67,7 +85,18 @@ export default function Page() {
 
 ### 라우터 이벤트
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 페이지 변경을 감지하려면 usePathname 및 useSearchParams와 같은 다른 클라이언트 컴포넌트 훅을 조합할 수 있습니다.
 
@@ -106,7 +135,18 @@ export default function Layout({ children }) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 > 좋은 정보: `NavigationEvents`은 `useSearchParams()`으로 인해 정적 렌더링 중 가장 가까운 Suspense boundary까지 클라이언트 사이드 렌더링됩니다. 더 알아보기.
 
@@ -130,7 +170,18 @@ export default function Page() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 버전 히스토리
 
@@ -138,4 +189,15 @@ export default function Page() {
 | --------- | --------------------------------------- |
 | `v13.0.0` | `next/navigation`에서 `useRouter` 도입. |
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

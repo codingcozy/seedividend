@@ -3,16 +3,13 @@ title: "골프 클럽 헤드 속도를 측정하는 장치를 위한 펌웨어�
 description: ""
 coverImage: "/assets/img/2024-06-19-IDevelopedFirmwareforaDeviceThatMeasuresGolfClubHeadSpeed_0.png"
 date: 2024-06-19 22:58
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-IDevelopedFirmwareforaDeviceThatMeasuresGolfClubHeadSpeed_0.png
 tag: Tech
 originalTitle: "I Developed Firmware for a Device That Measures Golf Club Head Speed"
 link: "https://medium.com/javascript-in-plain-english/i-developed-firmware-for-a-device-that-measures-golf-club-head-speed-918b98699fc9"
 isUpdated: true
 ---
-
-
-
 
 ## 프로그래밍
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 이 클라이언트는 아마도 중소 규모의 비상장 회사였습니다. 따라서 예산이 많은 회사와 비교하여 예산이 적었고, 이 프로젝트에는 하드웨어 엔지니어 한 명과 펌웨어 엔지니어인 저 한 명이 참여했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어쭈도 골프 경험이 없었지만, 마스터스 토너먼트와 영국 오픈을 즐겁게 관람할 만큼 관련 정보는 알고 있었어요.
 
@@ -34,9 +42,20 @@ isUpdated: true
 - 타이머는 클럽 헤드가 센서 A를 가려는 순간부터 시작돼요.
 - 헤드가 공을 치고 센서 B가 드러날 때, 타이머는 멈추고 PC에 시간을 알려주어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-그거 다야. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+그거 다야.
 
 나는 기술대학의 첫 번째 프로그래밍 과제로서 충분히 도전적일 것 같아. 그리고 화면을 통해 디버깅할 방법이 없었기 때문에, OS나 개발 환경이 없었어.
 
@@ -44,7 +63,18 @@ isUpdated: true
 
 그때 이 제품 아이디어를 냈던 경영진이 우연히 지나가더니, 그가 직접 클럽으로 골프공을 치기로 결정해버렸어.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 클럽을 기뻐하며 가져가 공을 놓았어요. 우리가 공을 치기 전에 큰 실수를 저질렀다는 것을 깨달았고, 문제가 있다고 공식에게 말하고 테스트를 멈추었어요.
 
@@ -54,7 +84,18 @@ isUpdated: true
 
 해결책은 간단했어요. 센서 B가 어느 정도의 시간(약 0.5초라고 생각해요) 동안 빛에 가려지고 공이 치워지지 않으면 리셋되어 측정을 위해 대기 상태로 들어갔어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서 누가 잘못했었나요?
 
@@ -64,7 +105,18 @@ isUpdated: true
 
 이 시스템은 골프 매장을 위한 시스템의 일부 였는데, 충격 시 클럽이 비틀리는 정도를 측정하고 각 골퍼에게 가장 적합한 클럽 유형을 결정해요. 만약 우리 중 한 명이 골프 애호가였다면, 이것을 깨달았을 수도 있었지만, 이런 상황은 거의 발생하지 않아요. 매 우리와 시스템 고객 사이에 일어나는 건드림이 나지 않을 때요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시스템을 개발할 때 중요 요구사항과 상세 요구사항은 인간에게 동일한 의미를 갖고 있다고 할 수 있으며, 종종 중요 요구사항이 충족되지 않으면 만족시킬 수 없다는 경우가 많습니다.
 
@@ -74,7 +126,18 @@ isUpdated: true
 
 # 간단한 문장으로 설명하기 🚀
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 In Plain English 커뮤니티의 일원이 되어 주셔서 감사합니다! 떠나시기 전에:
 

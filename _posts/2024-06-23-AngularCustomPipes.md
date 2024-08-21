@@ -3,7 +3,7 @@ title: "Angular 커스텀 파이프 사용 방법"
 description: ""
 coverImage: "/assets/img/2024-06-23-AngularCustomPipes_0.png"
 date: 2024-06-23 14:02
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-AngularCustomPipes_0.png
 tag: Tech
 originalTitle: "Angular Custom Pipes"
@@ -11,12 +11,20 @@ link: "https://medium.com/@babatundelamidi/angular-custom-pipes-e0dac5f64b68"
 isUpdated: true
 ---
 
-
-
-
 Markdown 형식으로 테이블 태그를 변경하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 간단한 사용자 정의 파이프 만들기
 
@@ -28,20 +36,31 @@ Markdown 형식으로 테이블 태그를 변경하세요.
 ng generate pipe capitalize
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 파이프 로직 구현
 
 ```typescript
-import { Pipe, PipeTransform } from '@angular/core';
+import { Pipe, PipeTransform } from "@angular/core";
 
 @Pipe({
-  name: 'capitalize'
+  name: "capitalize",
 })
 export class CapitalizePipe implements PipeTransform {
   transform(value: string): string {
     if (!value) return value;
-    return value.replace(/\b\w/g, char => char.toUpperCase());
+    return value.replace(/\b\w/g, (char) => char.toUpperCase());
   }
 }
 ```
@@ -52,11 +71,22 @@ export class CapitalizePipe implements PipeTransform {
 <p>{ 'hello world' | capitalize }</p>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 매개변수를 사용한 Pipe 생성하기
 
-사용자 정의 파이프는 매개변수도 받을 수 있습니다. 이 예제에서는 어떻게 매개변수를 가진 파이프를 생성하는지 자세히 살펴보겠습니다. 이 파이프 예제는 숫자를 지정된 소수 자리로 서식 지정합니다. 
+사용자 정의 파이프는 매개변수도 받을 수 있습니다. 이 예제에서는 어떻게 매개변수를 가진 파이프를 생성하는지 자세히 살펴보겠습니다. 이 파이프 예제는 숫자를 지정된 소수 자리로 서식 지정합니다.
 
 1. 파이프 생성하기
 
@@ -64,20 +94,31 @@ export class CapitalizePipe implements PipeTransform {
 ng generate pipe decimalFormatter
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. Pipe Logic을 구현하세요
 
 ```js
-import { Pipe, PipeTransform } from '@angular/core';
+import { Pipe, PipeTransform } from "@angular/core";
 @Pipe({
- name: 'decimalFormatter'
+  name: "decimalFormatter",
 })
 export class DecimalFormatterPipe implements PipeTransform {
-transform(value: number, decimalPlaces: number): string {
- if (isNaN(value)) return value.toString();
- return value.toFixed(decimalPlaces);
- }
+  transform(value: number, decimalPlaces: number): string {
+    if (isNaN(value)) return value.toString();
+    return value.toFixed(decimalPlaces);
+  }
 }
 ```
 
@@ -87,7 +128,18 @@ transform(value: number, decimalPlaces: number): string {
 <p>{ 1234.56789 | decimalFormatter:2 }</p>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 복잡한 변환에는 Pipes를 사용해요
 
@@ -99,20 +151,31 @@ transform(value: number, decimalPlaces: number): string {
 ng generate pipe filter
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 파이프 논리 구현하기
 
 ```js
-import { Pipe, PipeTransform } from '@angular/core';
+import { Pipe, PipeTransform } from "@angular/core";
 
 @Pipe({
-  name: 'filter'
+  name: "filter",
 })
 export class FilterPipe implements PipeTransform {
   transform(items: any[], property: string, value: any): any[] {
     if (!items || !property || value === undefined) return items;
-    return items.filter(item => item[property] === value);
+    return items.filter((item) => item[property] === value);
   }
 }
 ```
@@ -122,23 +185,35 @@ export class FilterPipe implements PipeTransform {
 ```js
 export class AppComponent {
   users = [
-    { name: 'AJ', role: 'admin' },
-    { name: 'Segun', role: 'user' },
-    { name: 'Homelander', role: 'admin' },
-    { name: 'Alice', role: 'user' }
+    { name: "AJ", role: "admin" },
+    { name: "Segun", role: "user" },
+    { name: "Homelander", role: "admin" },
+    { name: "Alice", role: "user" },
   ];
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <ul>
-@for(user of users; track user | filter:'role':'admin') {
- <li>
- { user.name } ({ user.role })
- </li>
-}
+  @for(user of users; track user | filter:'role':'admin'){" "}
+  {
+    <li>
+      {user.name} ({user.role})
+    </li>
+  }
 </ul>
 ```
 
@@ -148,8 +223,18 @@ Angular는 Observables 또는 Promises를 사용하여 비동기 파이프를 �
 
 1. 파이프 생성하기
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 ng generate pipe fetchData
@@ -172,14 +257,21 @@ export class FetchDataPipe implements PipeTransform {
 
 3. 템플릿에서 Pipe 사용하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-<div>
-@if(apiUrl | fetchData | async as data) {
- <pre>{ data | json }</pre>
-}
-</div>
+<div>@if(apiUrl | fetchData | async as data) {<pre>{data | json}</pre>}</div>
 //apiUrl: string = 'https://api.example.com/data'
 ```
 
@@ -189,8 +281,18 @@ export class FetchDataPipe implements PipeTransform {
 
 순수하지 않은 파이프의 예시
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1. 파이프 생성하기
 
@@ -214,7 +316,18 @@ transform(value: any, …args: any[]): any {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 커스텀 파이프에 대한 최상의 방법
 

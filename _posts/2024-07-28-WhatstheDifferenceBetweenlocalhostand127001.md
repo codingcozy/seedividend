@@ -3,16 +3,13 @@ title: "localhost와 127001의 차이점은"
 description: ""
 coverImage: "/assets/img/2024-07-28-WhatstheDifferenceBetweenlocalhostand127001_0.png"
 date: 2024-07-28 14:04
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-28-WhatstheDifferenceBetweenlocalhostand127001_0.png
 tag: Tech
 originalTitle: "Whats the Difference Between localhost and 127001"
 link: "https://medium.com/stackademic/whats-the-difference-between-localhost-and-127-0-0-1-4102ba05d494"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-07-28-WhatstheDifferenceBetweenlocalhostand127001_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 과거 개발자들과의 협업 경험 중 이 둘의 차이를 명확히 이해하지 못하는 사람들이 많았기 때문에 이 주제에 대해 알릴 필요성을 느꼈습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 로컬호스트란 무엇인가요?
 
@@ -32,8 +40,18 @@ isUpdated: true
 
 존 스미스와 제인 도는 각각의 기기에서 로컬호스트를 사용하여 서로를 방해하지 않고 개별 페이지 콘텐츠에 액세스할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 도메인 이름부터 프로그램까지
 

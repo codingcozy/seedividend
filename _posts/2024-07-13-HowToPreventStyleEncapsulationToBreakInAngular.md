@@ -3,16 +3,13 @@ title: "Angular 스타일 캡슐화 문제 해결 방법"
 description: ""
 coverImage: "/assets/img/2024-07-13-HowToPreventStyleEncapsulationToBreakInAngular_0.png"
 date: 2024-07-13 18:52
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-HowToPreventStyleEncapsulationToBreakInAngular_0.png
 tag: Tech
 originalTitle: "How To Prevent Style Encapsulation To Break In Angular"
 link: "https://medium.com/codex/how-to-prevent-style-encapsulation-to-break-in-angular-7d593ee6e812"
 isUpdated: true
 ---
-
-
-
 
 ![image](/assets/img/2024-07-13-HowToPreventStyleEncapsulationToBreakInAngular_0.png)
 
@@ -22,7 +19,18 @@ Medium 회원이 아니세요? 이 게시물을 일반 Medium 회원으로 보�
 
 물론, 전역 스타일을 사용해야 하는 경우가 있습니다 (예: 테마). Angular 애플리케이션에서 전역 스타일을 적용하는 두 가지 방법이 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - styles.css: 이 생성된 스타일시트에는 전체 애플리케이션에 적용되는 전역 CSS 스타일이 포함될 것입니다.
 - 컴포넌트 수준에서 비활성화하거나 사용자 지정 ::ng-deep 의사 클래스를 사용하여 뷰 캡슐화를 피합니다.
@@ -33,7 +41,18 @@ Medium 회원이 아니세요? 이 게시물을 일반 Medium 회원으로 보�
 
 그러나 직접 제어할 수 없는 서드 파티 컴포넌트를 다룰 때 스타일을 재정의해야 하는 경우가 있습니다. Angular의 에뮬레이션된 캡슐화 모드는 사용자 지정 의사 클래스인 ::ng-deep를 지원합니다. 이 의사 클래스를 CSS 규칙에 적용하면 해당 규칙에 대해 캡슐화가 비활성화되어 전역 스타일로 변환됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-13-HowToPreventStyleEncapsulationToBreakInAngular_2.png" />
 
@@ -43,7 +62,18 @@ Medium 회원이 아니세요? 이 게시물을 일반 Medium 회원으로 보�
 
 스타일린트는 CSS(+SCSS 및 LESS와 같은 전처리기도 포함)에 대한 린터로, 코드베이스에서 오류를 피하고 일관성을 유지할 수 있도록 도와줍니다. 웹스톰 / VS 코드용 IDE 플러그인을 사용하거나 명령줄에서 직접 실행할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 selector-disabled-list 규칙을 활용할 것입니다. 시작과 끝에 슬래시(/)가 있어야만 stylelint가 이것을 정규 표현식으로 이해하도록 도와줍니다. selector가 ::ng-deep:로 시작하는지 확인하고, 만약 그렇다면 stylelint가 그것을 강조 표시할 것입니다.
 
@@ -61,7 +91,18 @@ selector-disabled-list 규칙을 활용할 것입니다. 시작과 끝에 슬래
 
 <img src="/assets/img/2024-07-13-HowToPreventStyleEncapsulationToBreakInAngular_3.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어쩌면 stylelint에서 발생하는 오류를 주석으로 조용히 할 수 있습니다:
 

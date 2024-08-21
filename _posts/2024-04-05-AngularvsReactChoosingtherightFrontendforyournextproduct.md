@@ -3,17 +3,13 @@ title: "앵귤러 vs 리액트, 웹사이트 어떤 프레임워크를 사용해
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Angular vs React  Choosing the right Frontend for your next product"
 link: "https://medium.com/@alisa97/angular-vs-react-choosing-the-right-frontend-for-your-next-product-503fcb5cfeb9"
 isUpdated: true
 ---
-
-
-
-
 
 현대 웹 개발 세계에서는 몇 달마다 새로운 프론트엔드 프레임워크가 등장하여, 팀 또는 제품에 적합한 프론트엔드 기술을 선택하는 것이 성공과 효율성에 상당한 영향을 미칠 수 있습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 Angular는 구글에서 개발 및 유지보수되는 웹 애플리케이션을 구축하기 위한 포괄적인 프레임워크입니다. 이는 Model-View-Controller(MVC) 아키텍처 패턴을 따르며, 즉석에서 강력한 기능 세트를 제공합니다. 다음은 Angular의 주요 특징 중 일부입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 완벽한 프레임워크: Angular는 웹 애플리케이션을 구축하는 데 필요한 모든 기능이 포함된 완전한 프레임워크입니다. 라우팅, 폼 처리, HTTP 클라이언트 등이 모두 포함되어 있습니다.
 - 양방향 데이터 바인딩: Angular는 양방향 데이터 바인딩을 사용하며, 모델 상태에 대한 변경 사항이 자동으로 뷰에 반영되고 그 반대도 마찬가지로 적용됩니다. 이는 개발을 단순화할 수 있지만 복잡한 애플리케이션에서는 성능 부담을 초래할 수 있습니다.
@@ -39,7 +46,18 @@ Facebook에서 개발된 React는 사용자 인터페이스를 구축하기 위�
 - 단방향 데이터 흐름: React는 부모에서 자식 컴포넌트로 데이터가 흐르는 단방향 데이터 흐름을 따릅니다. 이를 통해 애플리케이션 내에서 데이터가 어떻게 전달되고 수정되는지 이해하기 쉬워지며 예측 가능한 동작을 이끌어냅니다.
 - JavaScript 중심: React는 주로 뷰 레이어에 초점을 맞추며 라우팅이나 상태 관리와 같은 다른 측면에서 특정 기술의 사용을 강요하지 않습니다. 이는 개발자가 자신의 요구에 가장 적합한 도구를 선택할 수 있는 더 많은 유연성을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 백만 달러 선택을 만들어 보세요
 

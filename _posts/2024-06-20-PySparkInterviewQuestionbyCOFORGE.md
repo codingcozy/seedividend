@@ -3,16 +3,13 @@ title: "파이스파크 인터뷰 질문 by COFORGE"
 description: ""
 coverImage: "/assets/img/2024-06-20-PySparkInterviewQuestionbyCOFORGE_0.png"
 date: 2024-06-20 01:48
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-PySparkInterviewQuestionbyCOFORGE_0.png
 tag: Tech
 originalTitle: "PySpark Interview Question by COFORGE"
 link: "https://medium.com/@bvsarathc06/pyspark-interview-question-by-coforge-88fbf8bb7339"
 isUpdated: true
 ---
-
-
-
 
 이 글에서는 고객 거래 데이터 세트를 사용하여 PySpark를 사용하여 데이터 변환 및 분석을 수행하는 방법을 살펴보겠습니다.
 
@@ -22,23 +19,49 @@ isUpdated: true
 
 해결책:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 PySpark 스크립트는 네 가지 주요 단계에서 다음 작업을 수행합니다:
 
 1. **데이터 수집 및 변환:**
+
 - 샘플 고객 거래 데이터를 Spark DataFrame으로 읽어옵니다.
 - 고객 이름을 `initcap` 형식으로 변환합니다 (첫 글자를 대문자로 변환하고 나머지는 소문자로 변환).
 
 2. **데이터 필터링:**
+
 - 거래를 10,000 이상인 것만 포함하도록 필터링합니다.
 
 3. **집계:**
+
 - 각 제품 카테고리별 평균 거래 금액을 계산합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. **결과 표시:**
+
 - 제품 카테고리별 평균 거래액과 함께 변환된 고객 데이터를 표시합니다.
 
 ```python

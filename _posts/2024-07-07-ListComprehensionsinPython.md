@@ -3,15 +3,13 @@ title: "파이썬 리스트 내포 쉽게 사용하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-07-ListComprehensionsinPython_0.png"
 date: 2024-07-07 21:31
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-ListComprehensionsinPython_0.png
 tag: Tech
 originalTitle: "List Comprehensions in Python"
 link: "https://medium.com/@mmalhotra183/list-comprehensions-in-python-a7284cdb11b4"
 isUpdated: true
 ---
-
-
 
 ![이미지](/assets/img/2024-07-07-ListComprehensionsinPython_0.png)
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 리스트 컴프리헨션은 기본적으로 반복문이나 다른 순회 가능한 것들을 작성하거나 표현하는 또 다른 방법입니다. 기존에 있는 리스트나 범위와 같은 순회 가능한 항목 각각에 표현식을 적용하여 새 리스트를 만들고 선택적으로 항목들을 필터링할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리스트 내포는 보통 for 루프의 "구문 설탕"이라고 생각할 수 있습니다. 그러나 어떤 경우에는 일반적인 루프보다 훨씬 우수한 성능을 발휘할 수 있습니다. 성능 부분에서 자세히 다루겠습니다.
 
@@ -33,7 +42,18 @@ isUpdated: true
 
 구성 요소:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 표현: 각 항목에 적용되는 작업 또는 필요한 처리
 - 항목: 반복 가능한 요소 중 각 요소를 나타내는 변수. 예: i는 for i in range(xyz)에서 항목을 나타냅니다.
@@ -46,7 +66,18 @@ isUpdated: true
 
 전통적인 For 루프:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 numbers = [1, 2, 3, 4, 5]
@@ -69,7 +100,18 @@ print(squared_numbers)
 
 이 예제에서 두 가지 방법 모두 동일한 결과를 얻지만, 리스트 컴프리헨션은 보다 간결합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2. 아이템 필터링
 
@@ -87,7 +129,18 @@ print(even_numbers)
 
 필터링을 사용한 List Comprehension:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
@@ -102,7 +155,18 @@ print(even_numbers)
 
 ## 1. 중첩된 반복문
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리스트 컴프리헨션이 중첩된 루프를 포함할 수 있습니다. 중첩된 for 루프처럼 동작합니다.
 
@@ -124,7 +188,18 @@ print(flattened)
 
 중첩된 루프를 사용한 리스트 컴프리헨션:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 matrix = [
@@ -143,7 +218,18 @@ print(flattened)
 
 리스트 컴프리헨션의 식 부분에서 함수를 호출할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시:
 
@@ -160,7 +246,18 @@ print(squared_numbers)
 
 # 성능 비교: 리스트 컴프리헨션 대 반복문
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컴프리헨션은 동등한 루프보다 최적화된 구현으로 인해 종종 Python에서 더 빠릅니다.
 
@@ -186,7 +283,18 @@ end_time = time.time()
 print("리스트 컴프리헨션 시간:", end_time - start_time)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 For 루프 시간: 0.2 초
@@ -199,7 +307,18 @@ For 루프 시간: 0.2 초
 
 우리가 알다시피, Python은 기본 C 위에 구축된 해석형 언어입니다. 리스트 내장을 사용할 때 Python은 이를 반복 및 리스트 구성을 효율적으로 처리하는 일련의 바이트 코드 명령으로 변환합니다. append를 반복적으로 호출하는 대신, 리스트 내포는 리스트에 요소를 더하는 작업을 더욱 효율적으로 처리하는 특수화된 바이트 코드를 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 내부 메커니즘
 
@@ -212,7 +331,18 @@ For 루프 시간: 0.2 초
 
 # 예시 해체
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 차이를 보려면 dis 모듈을 사용하여 전통적인 for 루프와 리스트 내포의 바이트코드를 분해할 수 있습니다.
 
@@ -230,7 +360,18 @@ dis.dis(for_loop_example)
 
 For Loop Bytecode Output:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
   2           0 LOAD_CONST               1 (1)
@@ -270,13 +411,35 @@ dis.dis(list_comprehension_example)
 
 리스트 컴프리헨션 바이트코드 출력:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 특수화된 C 함수
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 효율성은 파이썬 인터프리터 내에서 전문화된 C 함수를 사용함으로써 얻어집니다. 이러한 함수들은 목록 구성과 같은 일반적인 작업을 처리하는 데 등가하는 파이썬 코드보다 훨씬 빠르게 설계되었습니다. 리스트 컴프리헨션을 작성할 때, 파이썬의 바이트코드 컴파일러는 이러한 함수들을 사용하여 메모리 내의 리스트를 직접 조작하여, 메서드 호출 및 루프 제어에 따른 오버헤드를 피할 수 있습니다.
 
@@ -287,7 +450,18 @@ dis.dis(list_comprehension_example)
 - for 루프: 각 for 루프 반복은 append 메서드와 루프 제어 작업에 따른 반복 호출로 인한 오버헤드가 발생합니다.
 - 리스트 컴프리헨션: 반복적인 오버헤드를 피하고 연속된 단일 작업으로 리스트를 구성합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 최적화된 바이트 코드:
 
@@ -298,7 +472,18 @@ Python 코드가 실행될 때, 먼저 바이트 코드로 컴파일됩니다. �
 
 3. 인플레이스 생성:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 리스트 컴프리헨션은 리스트를 직접 메모리에 생성하는 반면에 일반 루프는 메소드 호출과 변수 할당과 같은 추가 단계가 필요할 수 있습니다.
 
@@ -308,7 +493,18 @@ Python 코드가 실행될 때, 먼저 바이트 코드로 컴파일됩니다. �
 
 ## 기억해야 할 중요한 사항
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 문법: [조건식 for 요소 in 반복가능객체 if 조건문]
 - 효율성: 리스트 컴프리헨션은 동등한 for 루프보다 종종 더 빠릅니다.

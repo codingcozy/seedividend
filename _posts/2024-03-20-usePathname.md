@@ -3,17 +3,13 @@ title: "Nextjs 14 클라이언트 컴포넌트에서 현재 url 가져오는 방
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # Nextjs 14 클라이언트 컴포넌트에서 현재 url 가져오는 방법(usePathname)
 
@@ -32,7 +28,18 @@ export default function ExampleClientComponent() {
 
 usePathname은 의도적으로 Client Component를 사용해야 합니다. Client Components은 최적화가 아닌 Server Components 아키텍처의 중요한 부분입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, usePathname을 사용하는 클라이언트 컴포넌트는 초기 페이지로드 시 HTML로 렌더링됩니다. 새 경로로 이동할 때 이 컴포넌트는 다시 가져올 필요가 없습니다. 대신에, 컴포넌트는 한 번 다운로드되고(current state에 기반하여) 다시 렌더링 됩니다.
 
@@ -48,7 +55,18 @@ usePathname은 의도적으로 Client Component를 사용해야 합니다. Clien
 const pathname = usePathname();
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 usePathname은 어떤 매개변수도 받지 않습니다.
 
@@ -63,7 +81,18 @@ usePathname은 현재 URL의 경로 이름을 나타내는 문자열을 반환�
 | `/dashboard?v=2`    | `'/dashboard'`        |
 | `/blog/hello-world` | `'/blog/hello-world'` |
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 예시
 
@@ -87,4 +116,15 @@ function ExampleClientComponent() {
 | --------- | ----------------------- |
 | `v13.0.0` | `usePathname`이 추가됨. |
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

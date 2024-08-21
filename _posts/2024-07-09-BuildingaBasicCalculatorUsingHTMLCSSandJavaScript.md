@@ -3,15 +3,13 @@ title: "HTML, CSS, 및 JavaScript로 기본 계산기 만들기 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-BuildingaBasicCalculatorUsingHTMLCSSandJavaScript_0.png"
 date: 2024-07-09 18:11
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-BuildingaBasicCalculatorUsingHTMLCSSandJavaScript_0.png
 tag: Tech
 originalTitle: "Building a Basic Calculator Using HTML, CSS, and JavaScript"
 link: "https://medium.com/@bhageshwaree11/building-a-basic-calculator-using-html-css-and-javascript-346ac49a7f58"
 isUpdated: true
 ---
-
-
 
 <img src="/assets/img/2024-07-09-BuildingaBasicCalculatorUsingHTMLCSSandJavaScript_0.png" />
 
@@ -21,7 +19,18 @@ HTML 설정하기
 
 이 여정은 HTML을 통해 우리 계산기의 구조적 기반을 만드는 것으로 시작됩니다. 웹의 마크업 언어인 HTML은 프로젝트에 구조를 부여합니다. 아래는 우리 계산기를 위한 무대를 설정하는 HTML 코드 일부입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <!DOCTYPE html>
@@ -135,7 +144,18 @@ CSS 스타일링
   }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자바스크립트로 기능 추가하기
 
@@ -173,6 +193,17 @@ function appendValue(buttonValue) {
 
 계산기를 만드는 것은 웹 개발 여정에서 작지만 중요한 단계입니다. HTML, CSS 및 자바스크립트에서 얻은 능력을 가지고 있으면 앞으로 나아가는 도중 마주치게 될 여러 도전에 대비할 수 있습니다. 사용자 중심 웹사이트를 개발하거나 몰입형 웹 애플리케이션을 만들거나 최신 웹 트렌드를 탐구하는 등, 이 계산기를 만들면서 배운 교훈은 여러분의 코딩 역량의 중추가 될 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 GitHub :- https://github.com/bhageshwaree11/basic-calculator

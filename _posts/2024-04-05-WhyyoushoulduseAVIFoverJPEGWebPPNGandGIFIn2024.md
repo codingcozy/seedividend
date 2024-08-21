@@ -3,17 +3,13 @@ title: "2024년에 AVIF 대신 JPEG, WebP, PNG 및 GIF를 사용해야 하는 �
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Why you should use AVIF over JPEG, WebP, PNG and GIF In 2024"
 link: "https://medium.com/@julienetienne/why-you-should-use-avif-over-jpeg-webp-png-and-gif-in-2024-5603ac9d8781"
 isUpdated: true
 ---
-
-
-
-
 
 AVIF은 최근에 등장한 파일 형식으로, 이 기사 작성 시점에서 Microsoft Edge에서 지원을 받아서 상당한 브라우저 지원을 이루었습니다.
 
@@ -23,7 +19,18 @@ AVIF은 최근에 등장한 파일 형식으로, 이 기사 작성 시점에서 
 
 # 이것이 의미하는 바는 무엇일까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 래스터화된 이미지를 위한 기본값으로 AVIF를 "주로" 사용할 수 있습니다. 이는 일반적인 JPEG 사용의 대부분을 대체하는 것으로 간주됩니다.
 
@@ -40,7 +47,18 @@ AVIF은 최근에 등장한 파일 형식으로, 이 기사 작성 시점에서 
 
 ## 단점
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 계산적으로 중요한 압축: 보통 AVIF 압축은 JPEG와 같은 이전 이미지 형식보다 계산적으로 더 많은 리소스를 요구하지만, 일반적으로 우수한 압축 효율을 달성합니다.
 
@@ -50,7 +68,18 @@ AVIF은 최근에 등장한 파일 형식으로, 이 기사 작성 시점에서 
 
 얼라이언스 포 오픈 미디어는 매우 흥분했으며 주장합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저도 약 4년 동안 AVIF를 사용해왔는데, 제 의견으로는 대부분의 이미지를 압축했을 때 JPEG 출력 이미지와 비교했을 때 약 60% 정도의 크기를 차지합니다. 여전히 놀랍도록 인상적이에요.
 
@@ -59,7 +88,18 @@ AVIF는 SVG 및 SVG 이미지를 제외한 대부분의 이미지 시나리오�
 - 벡터 이미지: SVG 및 SVG 이미지가 이를 잘 처리합니다.
 - 벡터 애니메이션: 다시 말해, SVG가 이를 꽤 잘 다루지만, 렌더 품질을 더 많이 조절할 수 있으면 좋겠긴 한데, 별로 중요하지 않아요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 백엔드 인코딩/디코딩
 
@@ -71,7 +111,18 @@ AVIF는 SVG 및 SVG 이미지를 제외한 대부분의 이미지 시나리오�
 - PHP: [https://github.com/flyimg/flyimg](https://github.com/flyimg/flyimg)
 - Go: [https://github.com/webp-sh/webp_server_go](https://github.com/webp-sh/webp_server_go)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # AVIF를 사용하지 말아야 하는 경우
 
@@ -82,7 +133,18 @@ AVIF는 SVG 및 SVG 이미지를 제외한 대부분의 이미지 시나리오�
 
 AVIF 보다 품질/압축 비율을 비교할 때 WebP 또는 심지어 JPEG가 AVIF보다 더 우수한 경우도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일반적으로 말해, AVIF는 사실적인 사진 이미지를 최적화할 때 빛을 발합니다. 다이어그램이나 벡터 아트와 같은 다른 이미지들에 대해서도 꽤 우월하다고 개인적으로 생각합니다.
 
@@ -92,7 +154,18 @@ AVIF 보다 품질/압축 비율을 비교할 때 WebP 또는 심지어 JPEG가 
 
 이 글을 쓴 시점에서 AVIF를 사용하고 싶다면, srcset 및 ` picture``source `를 사용하여 AVIF를 이용하되 WebP 또는 JPEG와 같은 더 오래된 이미지 형식으로의 폴백을 설정하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 이 글을 작성한 후 Edge의 3번 이상의 릴리스가 되었다면, src만 사용해도 괜찮습니다.
 
@@ -102,7 +175,18 @@ AVIF 애니메이션 예시
 
 이 글의 범위를 약간 벗어나지만, AVIF는 APNG와 마찬가지로 애니메이션에 사용될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 형식은 GIF보다 훨씬 우수하며 전체 브라우저 지원을 갖추고 있기 때문에 대체로 고려해야 합니다. GIF는 압축이 부족한 움짤 이미지용으로 낡은 형식이기 때문에 더욱 그렇습니다.
 
@@ -112,7 +196,18 @@ AVIF 애니메이션 예시
 
 나는 경쟁하는 이미지 형식과 선호되는 압축 결과에 대한 관점을 피하려 노력합니다. 사실 모든 손실 압축 코덱은 희생과 보상의 문제가 있습니다; 모두 약점이 존재하기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 특정 이미지 아티팩트 스타일이 마음에 들지 않을 수 있지만, 기차에서나 느린 네트워크 환경에서 누군가가 웹사이트를 빠르게 로드할 수 있다면, 개발자로서 타협을 해야 할 때도 있죠.
 
@@ -122,8 +217,17 @@ AVIF 애니메이션 예시
 
 독서해 주셔서 감사합니다 :)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![WhyyoushoulduseAVIFoverJPEGWebPPNGandGIFIn2024_2](/assets/img/WhyyoushoulduseAVIFoverJPEGWebPPNGandGIFIn2024_2.png)
-

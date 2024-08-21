@@ -3,17 +3,13 @@ title: "자바스크립트 - 온라인 소스로부터 XML 데이터 구문 분�
 description: ""
 coverImage: "/assets/img/2024-06-20-JavaScriptParsingXMLDataFromOnlineSources_0.png"
 date: 2024-06-20 01:25
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-JavaScriptParsingXMLDataFromOnlineSources_0.png
 tag: Tech
 originalTitle: "JavaScript — Parsing XML Data From Online Sources"
 link: "https://medium.com/@mohamad.razzi.my/javascript-parsing-xml-data-from-online-sources-e291af841073"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-06-20-JavaScriptParsingXMLDataFromOnlineSources_0.png)
 
@@ -23,8 +19,18 @@ JavaScript로 XML 데이터를 가져오는 현대적인 방법 중 하나는 fe
 
 fetch()를 사용하여 XML 데이터를 가져오면 JavaScript에서 DOMParser 객체와 같은 도구를 제공하여 XML을 DOM 구조로 구문 분석할 수 있으며, 이를 통해 필요한 정보를 추출할 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # [1] JavaScript 프로젝트 생성하기
 
@@ -34,7 +40,18 @@ Replit 플랫폼에서 만들어보세요
 
 # [2] HTML과 JavaScript 코드 편집하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파일 index.html:
 
@@ -61,43 +78,54 @@ Replit 플랫폼에서 만들어보세요
 
 파일 script.js:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-var myUrl = 'https://catalog.ldc.upenn.edu/desc/addenda/LDC2010T05.xml';
+var myUrl = "https://catalog.ldc.upenn.edu/desc/addenda/LDC2010T05.xml";
 // CORS 문제를 처리하기 위해 cors-anywhere 서비스를 사용함
-var proxy = 'https://cors-anywhere.herokuapp.com/';
+var proxy = "https://cors-anywhere.herokuapp.com/";
 
 // 요청 실행
 fetch(proxy + myUrl)
-  .then(response => response.text())
-  .then(xmlString => parseXML(xmlString))
-  .catch(error => console.error(error));
+  .then((response) => response.text())
+  .then((xmlString) => parseXML(xmlString))
+  .catch((error) => console.error(error));
 
 // XML 데이터 파싱
 function parseXML(xmlString) {
   const parser = new DOMParser();
-  const doc = parser.parseFromString(xmlString, 'application/xml');
+  const doc = parser.parseFromString(xmlString, "application/xml");
 
   // 요소에 액세스
-  const posts = doc.getElementsByTagName('Post');
+  const posts = doc.getElementsByTagName("Post");
   for (let i = 0; i < posts.length; i++) {
     const post = posts[i];
-    const postClass = post.getAttribute('class');
-    const postUser = post.getAttribute('user');
+    const postClass = post.getAttribute("class");
+    const postUser = post.getAttribute("user");
     const postText = post.textContent.trim();
 
-    console.log('게시물 클래스:', postClass);
-    console.log('게시물 사용자:', postUser);
-    console.log('게시물 텍스트:', postText);
+    console.log("게시물 클래스:", postClass);
+    console.log("게시물 사용자:", postUser);
+    console.log("게시물 텍스트:", postText);
 
-    const terminals = post.getElementsByTagName('t');
+    const terminals = post.getElementsByTagName("t");
     for (let j = 0; j < terminals.length; j++) {
       const terminal = terminals[j];
-      const pos = terminal.getAttribute('pos');
-      const word = terminal.getAttribute('word');
+      const pos = terminal.getAttribute("pos");
+      const word = terminal.getAttribute("word");
       console.log(`POS: ${pos}, 단어: ${word}`);
-      const divOutput = document.getElementById('divOutput');
+      const divOutput = document.getElementById("divOutput");
       if (divOutput) {
         divOutput.innerHTML += `POS: ${pos}, 단어: ${word}<br>`;
       }
@@ -113,8 +141,18 @@ function parseXML(xmlString) {
 
 parseXML() 함수는 이전 코드 스니펫에서 가져온 XML 데이터를 파싱하는 역할을 합니다. 먼저 DOMParser 객체의 새 인스턴스를 생성하고, parseFromString() 메서드를 사용하여 XML 문자열을 Document 객체로 파싱합니다. 함수는 이후 파싱된 문서에서 모든 'Post' 요소를 검색하고, 각각의 'class', 'user' 및 텍스트 내용을 추출하여 콘솔에 기록합니다. 다음으로, 함수는 각 'Post' 요소 내부의 모든 't' (터미널) 요소를 가져와, 'pos' (품사) 및 'word' 속성을 추출하고, 이 정보를 콘솔에 기록하고 동시에 'divOutput' ID를 가진 HTML 요소에 추가합니다. 이 과정을 통해 함수는 XML 데이터를 파싱하고 관련 정보를 추출하여 이를 콘솔과 웹 페이지에 표시할 수 있게 됩니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결과:
 
@@ -124,7 +162,18 @@ parseXML() 함수는 이전 코드 스니펫에서 가져온 XML 데이터를 �
 
 코드를 사용하지 않는 방법을 선호하는 경우:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - https://jsonformatter.org/xml-parser
 - https://codebeautify.org/xml-parser-online

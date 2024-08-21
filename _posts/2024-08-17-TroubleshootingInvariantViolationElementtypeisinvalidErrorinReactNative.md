@@ -3,7 +3,7 @@ title: "React Native에서 Invariant Violation Element type is invalid 오류 �
 description: ""
 coverImage: "/assets/no-image.jpg"
 date: 2024-08-17 01:38
-ogImage: 
+ogImage:
   url: /assets/no-image.jpg
 tag: Tech
 originalTitle: "Troubleshooting Invariant Violation Element type is invalid Error in React Native"
@@ -11,7 +11,6 @@ link: "https://medium.com/@kasata/troubleshooting-invariant-violation-element-ty
 isUpdated: true
 updatedAt: 1723864290824
 ---
-
 
 React Native를 사용할 때 Invariant Violation: Element type is invalid 오류를 만나면 상당히 짜증날 수 있습니다. 이 오류는 일반적으로 컴포넌트의 가져오기 또는 내보내기 방법에 문제가 있거나 가져오기 문에서 오타가 발생했을 때 발생합니다. 이 기사에서는 이 오류를 체계적으로 해결하는 방법에 대해 설명하겠습니다.
 
@@ -23,7 +22,18 @@ Invariant Violation: Element type is invalid 오류는 일반적으로 렌더링
 - 오타가 있는 컴포넌트 이름
 - 누락된 또는 잘못된 파일 매핑
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 해결 과정 단계별 안내
 
@@ -32,22 +42,44 @@ Invariant Violation: Element type is invalid 오류는 일반적으로 렌더링
 첫 번째 단계는 import 문장이 올바른지 확인하는 것입니다. 컴포넌트를 import하는 경우, 경로가 올바르고 컴포넌트 이름이 파일에서 내보낸 이름과 일치하는지 확인하십시오. 예를 들어:
 
 ```js
-import MyComponent from './MyComponent';
+import MyComponent from "./MyComponent";
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만일 다음과 같이 컴포넌트의 이름을 잘못 지었을 경우:
 
 ```js
-import MyComponent from './myComponent';
+import MyComponent from "./myComponent";
 ```
 
 이 에러를 만날 수 있습니다.
 
 ## 2. 내보내기 문장 확인
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마찬가지로, 가져오려는 컴포넌트가 해당 파일에서 실제로 내보내졌는지 확인하세요:
 
@@ -71,38 +103,71 @@ export function MyComponent() {
     </View>
   );
 }
-import { MyComponent } from './MyComponent';
+import { MyComponent } from "./MyComponent";
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 3. 구성 요소 타입 확인
 
 기본 및 명명된 가져오기 및 내보내기를 혼합하지 않았는지 확인하세요. 이것은 실수의 일반적인 원인입니다. 예를 들어, 다음은 적절하게 일치하지 않으면 오류가 발생할 수 있습니다:
 
 ```js
-import MyComponent from './MyComponent'; // 기본 내보내기를 위한
-import { MyComponent } from './MyComponent'; // 명명된 내보내기를 위한
+import MyComponent from "./MyComponent"; // 기본 내보내기를 위한
+import { MyComponent } from "./MyComponent"; // 명명된 내보내기를 위한
 ```
 
 ## 4. 파일 경로 확인
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또 다른 흔한 문제는 잘못된 파일 경로입니다. 구성 요소의 경로가 올바르게 입력되어 있는지 확인하고 프로젝트 구조와 일치하는지 확인하십시오. 예를 들어:
 
 ```js
-import MyComponent from '../components/MyComponent';
+import MyComponent from "../components/MyComponent";
 ```
 
 ## 5. 패키지 이름 문제 식별하기
 
 제 3자 라이브러리를 사용할 때, 패키지 이름이 정확히 입력되었는지 확인하고 package.json에 설치된 패키지와 일치하는지 확인하십시오.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-import { SomeLibraryComponent } from 'some-library';
+import { SomeLibraryComponent } from "some-library";
 ```
 
 ## 6. 디버깅 팁
@@ -113,7 +178,18 @@ import { SomeLibraryComponent } from 'some-library';
 console.log(MyComponent);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모듈을 가져오는 것이 정의되지 않았거나 잘못되었는지 알 수 있습니다.
 
@@ -126,7 +202,18 @@ rm -rf node_modules
 npm install
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 결론
 

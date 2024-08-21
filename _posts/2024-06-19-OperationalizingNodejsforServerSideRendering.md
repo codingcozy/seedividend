@@ -3,16 +3,13 @@ title: "Nodejs를 사용한 서버 측 렌더링 운영화"
 description: ""
 coverImage: "/assets/img/2024-06-19-OperationalizingNodejsforServerSideRendering_0.png"
 date: 2024-06-19 23:08
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-OperationalizingNodejsforServerSideRendering_0.png
 tag: Tech
 originalTitle: "Operationalizing Node.js for Server Side Rendering"
 link: "https://medium.com/airbnb-engineering/operationalizing-node-js-for-server-side-rendering-c5ba718acfc9"
 isUpdated: true
 ---
-
-
-
 
 ## Airbnb이 서버 측 렌더링을 중심으로 Frontend를 더 많이 구축함에 따라, 서버 구성을 최적화하는 방법을 살펴보았습니다.
 
@@ -24,7 +21,18 @@ Airbnb에서는 몇 년 동안 Frontend 코드를 일관된 아키텍처로 이�
 
 Promise.all([fn1, fn2])를 고려해보세요. fn1 또는 fn2가 I/O에 의해 해결되는 promise이면 이와 같이 병렬성을 달성할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 fn1과 fn2이 연산되면, 대신 이렇게 실행될 것입니다:
 
@@ -34,8 +42,18 @@ Promise.all([fn1, fn2])를 고려해보세요. fn1 또는 fn2가 I/O에 의해 �
 
 서버 측 렌더링에서는 서버 프로세스가 여러 동시 요청을 처리할 때 이 문제가 발생합니다. 동시 요청이 처리 중인 다른 요청들에 의해 지연될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-OperationalizingNodejsforServerSideRendering_2.png)
 
@@ -47,8 +65,18 @@ Promise.all([fn1, fn2])를 고려해보세요. fn1 또는 fn2가 I/O에 의해 �
 
 게다가 SSR의 일반적인 목표 중 하나는 클라이언트와 서버 모두에서 동일하거나 유사한 코드를 사용할 수 있어야 한다는 것입니다. 이러한 환경 간의 큰 차이점 중 하나는 클라이언트 컨텍스트가 본질적으로 단일 테넌트인 반면 서버 컨텍스트는 다중 테넌트입니다. 클라이언트 측에서 쉽게 작동하는 싱글톤이나 다른 전역 상태와 같은 기법은 서버에서 동시 요청 부하하에 대해 버그, 데이터 누출 및 일반적인 혼돈을 초래할 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 문제들은 병행성이 발생할 때만 문제가 됩니다. 낮은 부하 수준이거나 개발 환경의 독점적인 단일 테넌시에서는 대부분 잘 작동합니다.
 
@@ -60,7 +88,18 @@ Promise.all([fn1, fn2])를 고려해보세요. fn1 또는 fn2가 I/O에 의해 �
 
 Hypernova는 새 서비스와 다르게 작동합니다. 그것은 순수한 렌더러입니다. 우리의 레일즈 단일체 Monorail에서 호출되고, 특정 렌더링된 컴포넌트에 대한 HTML 조각만 반환합니다. 대부분의 경우 "조각"은 페이지의 대부분이며, 레일즈는 단지 바깥 쪽 레이아웃만 제공합니다. 레거시의 경우, 페이지의 구성 요소를 ERB를 사용하여 연결할 수 있습니다. 그러나 어느 경우든 Hypernova는 데이터를 자체로 가져오지 않습니다. 데이터는 레일즈에서 제공됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에서 언급한대로, Hyperloop과 Hypernova는 컴퓨트에 관한 유사한 운영 특성을 공유합니다. 실제 트래픽을 처리하는 서비스로, Hypernova는 그 대체품이 프로덕션 환경에서 어떻게 동작할지 이해하는 데 좋은 테스트 대상을 제공합니다.
 
@@ -70,7 +109,18 @@ Hypernova는 새 서비스와 다르게 작동합니다. 그것은 순수한 렌
 
 ![이미지](/assets/img/2024-06-19-OperationalizingNodejsforServerSideRendering_5.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 렌더링 중 실패(오류 또는 타임아웃으로 인한) 발생 시, 하이퍼노바 렌더링의 대체 방법은 렌더링된 HTML 없이 페이지에 구성 요소와 해당 속성을 삽입하는 것입니다. 이렇게 함으로써 클라이언트 렌더링이 성공적으로 수행될 수 있습니다. 이로 인해 하이퍼노바를 선택적 종속성으로 간주하고, 일부 타임아웃과 실패를 허용할 수 있게 되었습니다. 호출에 대한 타임아웃 시간은 서비스의 관찰된 p95 값과 유사하게 설정되었습니다. 기본적으로 5% 미만의 타임아웃이 발생하는 것이 예상대로였습니다.
 
@@ -80,7 +130,18 @@ Hypernova는 새 서비스와 다르게 작동합니다. 그것은 순수한 렌
 
 이는 배포 중에 나쁜 로드 밸런싱이나 용량 문제로 인한 확실한 결과로 의심되어질 수 있습니다. 동일한 프로세스에서 거의 100%의 계산 요청을 동시에 처리함으로써 늘어난 대기 시간을 볼 수 있었고, 여러 요청이 한 번에 실행되는 경우가 있을 때에는 해당하는 프로세스에서 동시에 처리된 요청 수를 로그하는 미들웨어를 추가했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 실제로 CPU 사용을 기다리는 동시 요청 때문에 발생한 지연을 시작 지연으로 원망했습니다. 우리의 성능 지표에서 다른 실행 중인 요청 때문에 실행을 대기하는 시간은 요청을 실행하는 데 소비된 시간과 구별할 수 없습니다. 이는 동시성으로 인한 지연이 개별 요청의 비용을 실제로 증가시키는 새로운 코드 경로 또는 기능에서 발생하는 지연과 동일하게 나타날 것이라는 것을 의미합니다.
 
@@ -92,7 +153,18 @@ Hypernova의 요청 페이로드도 평균적으로 수백 킬로바이트로 �
 
 우리는 이 문제를 해결하기 위해 우리에게 많은 양의 운영 경험을 제공하는 두 가지 외부 구성 요소를 사용하기로 결정했습니다: 역방향 프록시(nginx) 및 로드 밸런서(haproxy).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Reverse Proxying 및 로드 밸런싱
 
@@ -102,7 +174,18 @@ Hypernova의 요청 페이로드도 평균적으로 수백 킬로바이트로 �
 
 여기서 문제는 각 노드 프로세스가 요청이 완료될 때까지 효과적으로 점유되며, 이는 클라이언트(모노레일)로부터 요청 본문을 읽는 작업을 포함합니다. 하나의 프로세스에서 병렬로 여러 요청을 읽을 수는 있지만, 이는 작업을 렌더링할 때 연산이 교차되는 문제로 이어집니다. 노드 프로세스의 이용률은 클라이언트 및 네트워크의 속도에 결합됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 솔루션은 클라이언트와의 통신을 처리하기 위해 버퍼링 리버스 프록시를 사용하는 것입니다. 이를 위해 nginx를 사용합니다. Nginx는 클라이언트로부터의 요청을 버퍼에 읽고, 완전히 읽힌 후에만 전체 요청을 노드 서버에 전달합니다. 이 전송은 머신 내에서 루프백 또는 유닉스 도메인 소켓을 통해 이루어지며 이는 머신 간 통신보다 빠르고 안정적입니다.
 
@@ -112,7 +195,18 @@ nginx가 요청을 읽는 작업을 처리하면, 노드 프로세스의 사용�
 
 ![image](/assets/img/2024-06-19-OperationalizingNodejsforServerSideRendering_10.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 몇 가지 요청을 처리하기 위해 nginx를 사용하여 Node.js 프로세스로 직행할 필요 없이 처리합니다. 우리의 서비스 검색 및 라우팅 레이어는 호스트 간의 연결 상태를 확인하기 위해 낮은 비용의 /ping 요청을 사용합니다. 이를 nginx에서 완전히 처리함으로써 Node.js 프로세스로의 (비록 저렴하지만) 상당한 처리량 출처를 제거합니다.
 
@@ -120,8 +214,18 @@ nginx가 요청을 읽는 작업을 처리하면, 노드 프로세스의 사용�
 
 다루는 시간이 극명하게 다른 다양한 유형의 요청이 있는 경우 라운드 로빈은 좋지 않습니다. 프로세스의 후속 요청은 이전 요청이 모두 완료될 때까지 기다려야 합니다. 이에 대처할 수 있는 또 다른 처리 용량이 있는 다른 프로세스가 있더라도요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![데이터](/assets/img/2024-06-19-OperationalizingNodejsforServerSideRendering_12.png)
 
@@ -131,8 +235,18 @@ nginx가 요청을 읽는 작업을 처리하면, 노드 프로세스의 사용�
 
 대기 시간을 최소화하고 응답을 빠르게 반환할 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 작업은 요청을 대기열에 유지하고 프로세스가 다른 요청으로 쓰여지지 않게 될 때에만 해당 요청을 프로세스에 할당하여 달성할 수 있습니다. 이를 위해 우리는 haproxy를 사용합니다.
 
@@ -142,7 +256,18 @@ nginx가 요청을 읽는 작업을 처리하면, 노드 프로세스의 사용�
 
 # 자세한 내용과 설정
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 설정을 위해 nginx, haproxy 및 우리 노드 애플리케이션을 구성해야 합니다. 이 설정을 이해하는 데 사용할 수 있는 nginx 및 haproxy 구성이 포함된 샘플 노드 앱을 준비했습니다. 이러한 구성은 우리가 프로덕션 환경에서 실행하는 것을 기반으로 하지만, 단순화되고 비특권 사용자로 전경에서 실행되도록 수정되었습니다. 프로덕션 환경에서는 모든 것을 프로세스 감독자(저희는 runit 또는 점점 더 많이 사용하는 kubernetes를 사용합니다)로 구성해야 합니다.
 
@@ -152,7 +277,18 @@ Node의 클러스터 모듈은 로드 밸런싱과 프로세스 생성을 모두
 
 HAProxy 구성은 포트 9001에서 듣는 프록시를 구성하여 포트 9002에서 9005까지 듣는 네 개의 worker로 트래픽을 라우팅합니다. 각각의 worker에 대해 가장 중요한 설정은 maxconn 1 입니다. 이는 각 worker가 한 번에 하나의 요청을 처리하도록 제한합니다. 이는 HAProxy 통계 페이지(포트 8999에서 실행하도록 구성됨)에서 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![HAProxy Configuration](/assets/img/2024-06-19-OperationalizingNodejsforServerSideRendering_15.png)
 
@@ -166,9 +302,20 @@ HAProxy는 각 워커와의 현재 열린 연결 수를 추적합니다. maxconn
 
 HAProxy 구성이 우리가 원하는 대로 정확히 작동하는 것에 많은 것이 달려 있었습니다. 동시 요청 제한 또는 대기열매 확인되지 않았다면 잘못된 것입니다. 또한 각종 종류의 실패가 어떻게 처리되는지(또는 처리되지 않는지)를 이해하는 것이 중요했습니다. 현재 클러스터 설정에 대한 적합한 대체물인지 확인할 필요가 있었습니다. 이를 확인하기 위해 여러 테스트를 수행했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-테스트의 일반적인 형태는 Apache Benchmark을 사용하여 다양한 동시성 수준에서 10,000개의 요청을 실행하는 것이었습니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+테스트의 일반적인 형태는 Apache Benchmark을 사용하여 다양한 동시성 수준에서 10,000개의 요청을 실행하는 것이었습니다.
 
 ```js
 ab -l -c <CONCURRENCY> -n 10000 http://<HOSTNAME>:9000/render
@@ -178,7 +325,18 @@ ab -l -c <CONCURRENCY> -n 10000 http://<HOSTNAME>:9000/render
 
 첫 번째 테스트 세트는 그저 정상 작동을 확인하는 것이었고, 다음 테스트 세트는 배포 중 발생할 수 있는 모든 프로세스의 우아한 재시작을 확인하였습니다. 마지막 테스트 세트는 제가 일부 프로세스를 무작위로 종료하는 시나리오를 확인하는 것이었습니다. 이는 발생하지 않은 예외가 프로세스를 비정상적으로 종료시키는 상황을 시뮬레이션한 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 애플리케이션 코드에서 무한 루프가 별도로 문제가 되었기 때문에 무한 루프가 포함된 엔드포인트에 대해 단일 요청을 실행했습니다.
 
@@ -188,7 +346,18 @@ ab -l -c <CONCURRENCY> -n 10000 http://<HOSTNAME>:9000/render
 
 연결 오류는 다룰 수 있는 문제입니다. 우리는 옵션 redispatch 및 retries 3을 설정하여 연결 오류를 수신하는 요청을 더 협조적인 다른 백엔드로 전달할 수 있게 했습니다. 연결이 거부되면 즉시 오류가 발생하여 우리는 비즈니스를 계속할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 거부된 연결에만 적용됩니다. 지금은 수신 대기 중이 아니라는 이유로 연결이 거부됩니다. 로컬 네트워크를 다루고 있기 때문에 연결 제한 시간은 별로 유용하지 않습니다. 무한 루프에 갇힌 워커를 방지하기 위해 낮은 연결 제한 시간을 설정할 수 있을 것으로 예상했습니다. 100밀리초의 타임아웃을 설정했을 때, 이벤트 루프로 제어가 되돌아가지 않았음에도 클라이언트/서버에서 설정된 10초 타임아웃 후에 우리 요청이 타임아웃되는 것에 놀랐습니다. 이는 커널이 서버가 수락하기 전에 클라이언트 관점에서 연결을 설정하는 것을 처리하기 때문에 발생합니다.
 
@@ -198,7 +367,18 @@ ab -l -c <CONCURRENCY> -n 10000 http://<HOSTNAME>:9000/render
 
 또한 고부하 사례에서 적용되는 상당히 불편한 매력 요소를 발견했습니다. 만약 서버가 안정적인 대기열을 갖고 있는 상태에서 워커 프로세스가 충돌한다면 (이는 매우 드문 경우여야 합니다), 요청은 해당 백엔드에서 시도될 것이지만 프로세스가 수신 대기 중이기 때문에 연결에 실패합니다. 그럼 HAProxy는 그 후 다음 열린 연결 슬롯을 가진 다음 백엔드로 다시 배분하지만, 실제로 작업 중인 다른 백엔드는 없기 때문에 실패했던 이전 백엔드만 다시 시도됩니다. 이렇게 되면 재시도가 빠르게 소모되어 연결 오류가 HTML 렌더링보다 더 빠르게 발생하여 실패한 요청으로 이어집니다. 이 과정은 대기열이 완전히 소진될 때까지 나머지 요청에 계속 반복됩니다. 이는 좋지 않은 상황이지만, 프로세스 충돌이 드문 데에, 지속적인 대기열이 드문 데에 (계속해서 대기 중이면 공급이 부족한 것입니다) 그리고 특정한 경우에는 서비스 검색의 건강 검사를 빠르게 마킹하므로 전체 인스턴스를 건강하지 않게 표시하고 새 요청을 처리할 수 없게 만듭니다. 이는 좋지 않지만 위험을 최소화합니다. 미래의 작업은 HAProxy 통합을 통해 이를 해결할 수 있으며, 감독자 프로세스가 프로세스의 종료를 감지하고 haproxy stats 소켓을 통해 MAINT로 표시할 수 있는 깊은 HAProxy 통합을 통해 처리할 수 있을 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다른 변경 사항 중 하나는 Node에서 server.close가 기존 요청이 완료될 때까지 기다리지만 HAProxy 대기열에 있는 것은 서버가 아직 받지 않은 요청을 기다릴지 모르기 때문에 실패할 것입니다. 인스턴스가 요청을 받지 않는 시간과 서버 재시작 프로세스를 시작하는 시간 사이에 충분한 드레인 시간을 보장하는 것이 대부분의 경우 이 문제를 해결해야 합니다.
 
@@ -206,7 +386,18 @@ ab -l -c <CONCURRENCY> -n 10000 http://<HOSTNAME>:9000/render
 
 마지막으로, Node의 server.maxConnections 설정은 여기에서 유용할 것으로 보였지만 (적어도 저에게는 그랬습니다), 실제로는 많은 효용성을 제공하지 않았으며 때때로 오류를 일으켰습니다. 이 설정은 서버가 maxConnections 이상의 새 핸들을 받지 않도록 하여 제한을 초과한 것을 확인한 후 새 핸들을 닫습니다. 이 확인은 JavaScript에서 적용되므로 무한 루프 상황에 대비하지 않습니다 (이벤트 루프로 돌아가면 요청을 올바르게 중단합니다...기다려). 또한 요청이 중단되면서 정상 작동 중에도 이로 인한 연결 오류가 발생했으며 다른 요청이 여러 개 실행 중인 증거는 없었습니다. 이는 연결이 언제 시작하고 끝나는지에 대한 약간의 타이밍 문제 또는 haproxy와 Node 간의 의견 차이로 의심됩니다. 상호 배타적 보증을 보유하는 것은 개발자가 싱글톤 또는 다른 전역 상태를 안전하게 사용할 수 있게 해주는 좋은 것입니다. 이는 익스프레스 미들웨어로 프로세스별 대기열을 구현함으로써 처리할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 서버 측 렌더링은 주로 I/O 워크로드와는 다른 작업 부하를 나타냅니다. 이는 노드(Node)가 뛰어난 부분입니다. 이상적인 동작의 원인을 파악함으로써, 우리는 기존 운영 경험이 있는 제품을 사용하여 문제에 대처했습니다.
 
@@ -216,7 +407,18 @@ ab -l -c <CONCURRENCY> -n 10000 http://<HOSTNAME>:9000/render
 
 ## 각주
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 비동기 렌더링의 경우 여전히 자원 경합이 발생합니다. 비동기 렌더링은 프로세스나 브라우저의 응답성에 중점을 두지만 병렬 처리나 지연을 해결하지는 않습니다. 이 블로그 포스트는 순수 컴퓨팅 작업의 간단한 모델에 초점을 맞출 것입니다. IO 및 컴퓨팅의 혼합된 작업에서 요청 동시성이 증가하면 지연 시간이 증가하지만 더 높은 처리량을 얻을 수 있다는 장점이 있습니다.
 - 유니콘 웹 서버에서 영감을 받아 우리의 Rails 애플리케이션을 제공하는 데 사용합니다. 유니콘 철학은 특히 잘 설명하고 있습니다.

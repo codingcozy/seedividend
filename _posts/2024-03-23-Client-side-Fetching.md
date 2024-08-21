@@ -3,17 +3,13 @@ title: "Nextjs 13 클라이언트 사이드에서 데이터 가져오기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "클라이언트 측 데이터 가져오기"
 link: "undefined"
 isUpdated: true
 ---
-
-
-
-
 
 # 클라이언트 측 데이터 가져오기
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 클라이언트 측 데이터 가져오기를 사용하면 응용 프로그램의 성능 및 페이지의 로드 속도에 영향을 줄 수 있습니다. 이는 데이터 가져오기가 컴포넌트 또는 페이지 마운트 시에 수행되고 데이터가 캐시되지 않기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## useEffect을 사용한 클라이언트 측 데이터 가져 오기
 
@@ -59,7 +66,18 @@ function Profile() {
 
 ## SWR을 사용한 클라이언트 측 데이터 가져오기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Next.js 팀에서는 데이터 가져오기용으로 React 훅 라이브러리인 SWR을 만들었습니다. 클라이언트 측에서 데이터를 가져올 때 매우 유용하며, 캐싱, 재유효화, 포커스 추적, 간격별 다시 가져오기 등을 처리합니다.
 
@@ -87,4 +105,15 @@ function Profile() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

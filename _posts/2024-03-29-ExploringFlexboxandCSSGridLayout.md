@@ -3,17 +3,13 @@ title: "Flexbox와 CSS Grid Layout 만드는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Exploring Flexbox and CSS Grid Layout"
 link: "https://medium.com/@ieee-tems-blogs/exploring-flexbox-and-css-grid-layout-e2c3bc222162"
 isUpdated: true
 ---
-
-
-
-
 
 소개:
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 1. Flexbox의 이해:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 플렉스박스는 Flexible Box Layout의 줄임말로, 컨테이너 내 요소들을 쉽게 배치하고 정렬할 수 있는 1차원 레이아웃 모델입니다. 반응형 레이아웃을 만드는 강력한 도구로, 모든 주요 브라우저에서 지원됩니다.
 
@@ -33,7 +40,18 @@ a. 플렉스 컨테이너와 플렉스 아이템:
 
 ![플렉스박스 이미지](/assets/img/ExploringFlexboxandCSSGridLayout_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 플렉스 컨테이너는 display: flex 속성이 적용된 요소입니다.
 
@@ -43,7 +61,18 @@ a. 플렉스 컨테이너와 플렉스 아이템:
 
 플렉스 항목은 플렉스 컨테이너 내에 배치된 요소들입니다. flex-grow, flex-shrink, flex-basis 속성의 값에 따라 크기를 조절하고 정렬할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 b. 유연한 크기 조절과 정렬:
 
@@ -53,7 +82,18 @@ Flexbox는 유연한 크기 조절과 정렬을 제어하는 여러 속성을 �
 
 ![Flexbox Image](/assets/img/ExploringFlexboxandCSSGridLayout_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 flex-shrink: 이 속성은 flex 컨테이너의 크기가 조절될 때 flex 항목이 얼마나 줄어들어야 하는지를 제어합니다.
 
@@ -63,7 +103,18 @@ flex-basis: 이 속성은 flex 항목의 초기 크기를 제어합니다.
 
 ![이미지](/assets/img/ExploringFlexboxandCSSGridLayout_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![/assets/img/ExploringFlexboxandCSSGridLayout_5.png](/assets/img/ExploringFlexboxandCSSGridLayout_5.png)
 
@@ -73,7 +124,18 @@ justify-content: 이 속성은 플렉스 아이템이 플렉스 컨테이너 내
 
 ![/assets/img/ExploringFlexboxandCSSGridLayout_6.png](/assets/img/ExploringFlexboxandCSSGridLayout_6.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Exploring Flexbox and CSS Grid Layout](/assets/img/ExploringFlexboxandCSSGridLayout_7.png)
 
@@ -83,7 +145,18 @@ align-items: 이 속성은 플렉스 아이템이 플렉스 컨테이너 내에�
 
 C. Flexbox를 사용한 반응형 디자인:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Flexbox는 반응형 레이아웃을 만들기 위한 강력한 도구입니다. Flexbox를 미디어 쿼리와 다른 CSS 속성과 결합하여 서로 다른 화면 크기와 장치에 대응하는 디자인을 구축할 수 있습니다.
 
@@ -93,7 +166,18 @@ Flexbox는 "max-width"나 "min-width"와 같은 다른 CSS 속성과 결합하�
 
 아래 예시를 살펴보세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![ExploringFlexboxandCSSGridLayout_9.png](/assets/img/ExploringFlexboxandCSSGridLayout_9.png)
 
@@ -103,7 +187,18 @@ Flexbox는 "max-width"나 "min-width"와 같은 다른 CSS 속성과 결합하�
 
 두 번째 미디어 쿼리는 너비가 551픽셀에서 1150픽셀 사이인 화면을 대상으로 합니다. 이 미디어 쿼리 내에서는 flex 컨테이너의 flex-direction 속성을 column으로 변경하여 flex 아이템이 가로로 쌓이는 대신 세로로 쌓이도록 변경합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 미디어 쿼리와 플렉스박스를 함께 사용하면 사용자의 기기나 뷰포트 크기에 따라 레이아웃과 요소 크기를 동적으로 조절할 수 있어서 디자인을 다양한 화면 크기에 대응할 수 있게 만들어줍니다. 최적화되었습니다.
 
@@ -113,7 +208,18 @@ CSS 그리드 레이아웃은 복잡한 그리드 기반 디자인을 가능하�
 
 ![이미지](/assets/img/ExploringFlexboxandCSSGridLayout_10.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 a. 그리드 컨테이너와 그리드 항목:
 
@@ -123,7 +229,18 @@ CSS 그리드 레이아웃에서는 그리드 컨테이너와 그리드 항목�
 
 그리드 항목은 그리드 컨테이너 내에 포함된 개별 요소입니다. 어떤 HTML 요소라도 그리드 항목이 될 수 있습니다. 각 그리드 항목은 그리드 내의 하나 이상의 셀을 차지합니다. 기본적으로 그리드 항목은 소스 코드에서 나타난 순서대로 그리드 내에 흐르지만, 그리드 라인과 그리드 셀을 사용하여 명시적으로 위치를 지정할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 내용을 더 잘 이해하기 위해 예시를 살펴봅시다:
 
@@ -133,7 +250,18 @@ CSS 그리드 레이아웃에서는 그리드 컨테이너와 그리드 항목�
 
 위 코드를 통해 다음과 같은 그리드를 얻을 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![그리드 레이아웃](/assets/img/ExploringFlexboxandCSSGridLayout_13.png)
 
@@ -143,7 +271,18 @@ CSS 그리드 레이아웃에서는 그리드 컨테이너와 그리드 항목�
 
 그리드 트랙은 그리드 라인 사이의 공간입니다. grid-template-columns 속성은 각 열이 사용 가능한 공간의 동일한 부분(1fr)을 차지하도록 지정하여 세 개의 같은 폭 열을 생성합니다. grid-template-rows 속성은 행의 높이를 각각 100px와 200px로 설정합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 b. 그리드 배치 및 정렬:
 
@@ -156,7 +295,18 @@ CSS 그리드 레이아웃은 그리드 컨테이너 내 그리드 항목의 정
 
 이러한 속성들을 샘플 코드를 통해 이해해보겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![ExploringFlexboxandCSSGridLayout_14](/assets/img/ExploringFlexboxandCSSGridLayout_14.png)
 
@@ -166,7 +316,18 @@ CSS 그리드 레이아웃은 그리드 컨테이너 내 그리드 항목의 정
 
 그리드 템플릿 영역 속성은 그리드 컨테이너 내의 영역에 이름을 할당합니다. 세 개의 열과 하나의 행을 포괄하는 헤더 영역, 그리고 하나의 열과 두 개의 행을 포괄하는 사이드바 및 메인 영역이 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저리를 가운데로 설정하면 세로 방향으로 그리드 항목을 해당 셀 내에서 정렬합니다.
 
@@ -176,7 +337,18 @@ grid-auto-flow 속성은 열로 설정되어 있으며, 명시적 위치가 지�
 
 gap 속성은 그리드 항목 사이에 10px의 간격을 설정합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS Grid Layout에서는 grid-area 속성을 사용하여 grid 항목을 그리드 템플릿 영역에 배치합니다.
 
@@ -186,7 +358,18 @@ CSS Grid Layout에서는 grid-area 속성을 사용하여 grid 항목을 그리�
 
 CSS Grid Layout은 반응형 디자인을 만드는 데 뛰어납니다. 미디어 쿼리와 몇 가지 추가적인 기술을 사용하여 그리드를 다양한 화면 크기에 맞게 조정할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 미디어 쿼리: 미디어 쿼리를 사용하여 특정 브레이크포인트에서 그리드의 구조를 바꿀 수 있습니다. 열의 개수를 수정하거나 너비를 변경하거나 완전히 다른 그리드 레이아웃으로 전환할 수 있습니다.
 - "minmax()" 함수: 이 함수를 사용하면 사용 가능한 공간에 맞게 유연하게 그리드 트랙을 생성할 수 있습니다. 트랙의 최소 및 최대 크기를 정의함으로써 트랙이 반응형으로 확장됨을 보장합니다.
@@ -197,7 +380,18 @@ CSS Grid Layout은 반응형 디자인을 만드는 데 뛰어납니다. 미디�
 
 grid-template-columns 속성은 "repeat()" 표기법을 사용하여 세 개의 열을 생성합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - “fr” 단위: “fr” 단위는 이용 가능한 공간을 트랙들 사이에 비례적으로 분배합니다. 이를 통해 다양한 화면 크기에 맞게 조절되는 유연한 그리드를 만들 수 있습니다. 추가 콘텐츠를 수용하거나 항목 크기를 조정할 수 있습니다.
 
@@ -207,7 +401,18 @@ grid-template-columns 속성은 "repeat()" 표기법을 사용하여 세 개의 
 
 Flexbox와 CSS Grid 레이아웃을 함께 사용하여 두 레이아웃 시스템의 전체 잠재력을 활용하고 강력하고 유연한 디자인을 만들 수 있습니다. 각 레이아웃 시스템은 강점을 가지고 있으며 언제 어느 것을 사용해야 하는지 또는 결합해야 하는지를 알면 최상의 결과를 얻을 수 있습니다. 아래는 고려해야 할 중요한 요점들입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 플렉스박스는 항목을 단일 축을 따라 배열하는 데 좋습니다(수평 또는 수직으로). 동일한 높이의 열, 수직 가운데 정렬 및 항목 순서를 쉽게 제어하여 유연하고 동적인 레이아웃을 만드는 데 능숙합니다. 플렉스박스는 특히 컨테이너 내에서 복잡한 정렬 및 간격 요구 사항을 처리하는 데 유용합니다.
 - 반면에 CSS 그리드 레이아웃은 2차원 레이아웃을 위해 설계되었으며 그리드 기반 디자인을 만드는 데 능숙합니다. 행과 열에 대해 정밀한 제어를 제공하여 복잡하고 다재다능한 레이아웃을 가능하게 합니다. 그리드 레이아웃은 이미지 갤러리, 가격표, 잡지 스타일 레이아웃과 같은 그리드 형태의 구조를 다룰 때 특히 유용합니다.
@@ -220,7 +425,18 @@ Flexbox와 CSS Grid 레이아웃을 함께 사용하여 두 레이아웃 시스�
 
 플렉스박스와 CSS 그리드 레이아웃의 결합은 현대적이고 반응형 웹 레이아웃을 만드는 많은 가능성을 엽니다. 이를 통해 디자이너와 개발자는 각 시스템의 장점을 활용하고 견고하고 시각적으로 매력적인 인터페이스를 구축할 수 있습니다. 플렉스박스와 CSS 그리드 레이아웃의 기능을 이해함으로써 각 디자인 시나리오에 가장 적합한 레이아웃 시스템을 선택하고 최상의 결과를 얻을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결론:
 

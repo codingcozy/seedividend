@@ -3,17 +3,13 @@ title: "Nextjs 13 클라이언트 사이드 렌더링 정리"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "고객 측 렌더링 CSR"
 link: "undefined"
 isUpdated: true
 ---
-
-
-
-
 
 # 클라이언트 측 렌더링 (CSR)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 Next.js에서는 클라이언트 측 렌더링을 구현하는 두 가지 방법이 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 서버 측 렌더링 방법인 getStaticProps 및 getServerSideProps 대신 페이지 내에서 React의 useEffect() 훅을 사용하세요.
 - 데이터를 가져오는 라이브러리인 SWR 또는 TanStack Query를 사용하여 클라이언트에서 데이터를 가져오세요 (권장됨).
@@ -58,7 +65,18 @@ export function Page() {
 
 위 예시에서 컴포넌트는 처음에 Loading...을 렌더링합니다. 그런 다음 데이터를 가져오면 다시 렌더링되어 데이터를 표시합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전 React 애플리케이션에서 볼 수 있는 useEffect 내에서 데이터 가져오기는 일반적인 패턴이지만, 성능, 캐싱, 낙관적 업데이트 등을 위해 데이터 가져오기 라이브러리를 사용하는 것을 권장합니다. 여기 SWR을 사용해서 클라이언트에서 데이터를 가져오는 최소 예제가 있습니다:
 
@@ -78,4 +96,15 @@ export function Page() {
 > 알아두면 좋은 점:
 > CSR이 SEO에 영향을 미칠 수 있다는 것을 염두에 두세요. 일부 검색 엔진 크롤러는 JavaScript를 실행하지 않을 수 있으며, 따라서 애플리케이션의 초기 빈 상태나 로딩 상태만 볼 수 있을 수 있습니다. 이는 또한 느린 인터넷 연결이나 장치를 사용하는 사용자에게 성능 문제를 야기할 수 있으며, 전체 페이지를 볼 수 있기 전에 모든 JavaScript를 로드하고 실행해야 합니다. Next.js는 애플리케이션의 각 페이지의 요구에 따라 서버사이드 렌더링, 정적 사이트 생성 및 클라이언트사이드 렌더링을 조합하여 사용할 수 있는 하이브리드 접근 방식을 촉진합니다. App Router에서는 페이지 렌더링 중 로딩 인디케이터를 표시하기 위해 Suspense를 사용할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

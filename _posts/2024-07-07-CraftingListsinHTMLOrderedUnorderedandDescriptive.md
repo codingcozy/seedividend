@@ -3,15 +3,13 @@ title: "HTML에서 리스트 만드는 방법 순서 목록, 비순서 목록, �
 description: ""
 coverImage: "/assets/img/2024-07-07-CraftingListsinHTMLOrderedUnorderedandDescriptive_0.png"
 date: 2024-07-07 21:27
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-CraftingListsinHTMLOrderedUnorderedandDescriptive_0.png
 tag: Tech
 originalTitle: "Crafting Lists in HTML: Ordered, Unordered, and Descriptive"
 link: "https://medium.com/@aliccagatay/crafting-lists-in-html-ordered-unordered-and-descriptive-a8e8f31b8c81"
 isUpdated: true
 ---
-
-
 
 ![Crafting Lists in HTML: Ordered, Unordered, and Descriptive](/assets/img/2024-07-07-CraftingListsinHTMLOrderedUnorderedandDescriptive_0.png)
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 # HTML 목록 이해하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 HTML 및 웹 개발의 광활하고 끊임없이 발전하는 세계에서 목록은 가장 일반적으로 사용되는 요소 중 하나입니다. 그들은 웹 페이지 정보를 구조화하고 정리하는 데 중요한 역할을 합니다. 목록은 직관적인 내비게이션 메뉴를 만들어 웹 사이트를 안내하거나 콘텐츠를 쉽게 소화할 수 있는 형식으로 제시하는 등 다양한 응용 프로그램에서 중요합니다. 그들의 다양성과 사용자 친화성은 웹 개발자에게 필수적인 도구로 만듭니다.
 
@@ -31,7 +40,18 @@ HTML에서는 목록을 효과적으로 구성하고 제시하는 데 사용되�
 
 ## 순서 없는 목록(`ul`)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 HTML 목록을 나타내는 `ul` 태그는 등장 순서가 중요하지 않은 항목을 그룹화하는 데 사용되는 기본 구성 요소입니다. 이러한 목록은 다양한 웹 구성 요소에서 사용되며, 네비게이션 메뉴나 전자 상거래 사이트의 항목 목록과 같은 형태로 표시됩니다. 기본 구문은 `li` 태그로 표시된 개별 목록 항목을 `ul` 요소 내에 포함하는 것입니다. 예를 들어, 네비게이션 메뉴는 보통 순서가 없는 목록으로 표시되며, 각 메뉴 항목은 목록 요소로 나타납니다. 이를 통해 순서에 관계없이 옵션을 명확하고 정리된 방식으로 표시할 수 있습니다. 비슷하게, 전자 상거래 웹 사이트에서는 제품 특징이나 카테고리를 목록형식으로 나열하여 쇼핑객에게 깔끔하고 접근성이 좋은 형식으로 제공할 수 있습니다. 이 구조는 정보를 이해하기 쉬운 레이아웃으로 제시함으로써 사용자 경험을 향상시키며, 쇼핑의 목적에 맞게 설계된 순서가 없는 목록의 주요 장점을 강조합니다.
 
@@ -49,7 +69,18 @@ HTML 목록을 나타내는 `ul` 태그는 등장 순서가 중요하지 않은 
 </ul>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제품 특징:
 
@@ -66,7 +97,18 @@ HTML 목록을 나타내는 `ul` 태그는 등장 순서가 중요하지 않은 
 
 HTML의 순서 있는 목록은 `ol` 태그로 표시되며, 순차적으로 항목을 나열하여 의미 있는 진행을 전달하는 데 사용됩니다. 이 목록은 요리 레시피와 같이 순서가 지정된 단계를 따라야 하는 경우나 상위 열 명 차트 같은 순위가 매겨진 목록에서 주로 유용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 순서가 지정된 목록의 기본 구조는 `ol` 태그를 사용하여 각각의 목록 항목을 `li` 태그로 묶는 것입니다. 아래는 기본 구문의 예시입니다:
 
@@ -86,7 +128,18 @@ HTML의 순서 있는 목록은 `ol` 태그로 표시되며, 순차적으로 항
 </ol>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 보다 복잡한 데이터 표현을 위해 순서가 지정된 목록과 무순서 목록을 서로 중첩시킬 수 있습니다. 이는 주로 법적이거나 기술적 명세와 같이 상세한 문서에 유용합니다. 여기서 섹션 별로 순서가 필요하고 각 섹션 아래의 하위 항목이 우선순위가 없는 목록으로 제시하는 것이 가장 적절한 경우입니다. 순서가 지정된 요소와 무순서 요소를 혼합한 중첩 목록의 모습은 아래와 같습니다:
 
@@ -103,7 +156,18 @@ HTML의 순서 있는 목록은 `ol` 태그로 표시되며, 순차적으로 항
 
 ## 설명 목록(`dl`)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 HTML 설명 목록은 용어를 정의에 맞게 연결하여 관련 항목 및 설명을 표시하는 데 완벽하며, 주로 용어집, 기사 요약, 제품 기능 및 FAQ와 같이 명확하고 조직적인 데이터 표현이 중요한 경우에 유용합니다.
 
@@ -120,7 +184,18 @@ HTML 설명 목록은 용어를 정의에 맞게 연결하여 관련 항목 및 
 
 설명 목록은 웹 페이지 커뮤니케이션을 향상시키는 다양한 응용 프로그램을 제공합니다. 예를 들어, 각 전문 용어가 해당 정의와 함께 매칭되어 기술적이거나 특수화된 어휘가 사용자에게 접근 가능하게 만들어지는 용어집에 이상적입니다. 기사 요약의 맥락에서 설명 목록은 주요 요점을 세부적인 설명과 함께 체계적으로 조직하여 독자에게 간결하고 빠른 개요를 제공합니다. 게다가 제품 설명에서는 기능을 명시하고 명료하게 설명하여 정보를 쉽게 탐색하고 이해할 수 있도록 합니다. 이 레이아웃은 정보가 쉽게 탐색 및 이해되도록 보장하여 데이터의 조직적 및 접근 가능한 프레젠테이션을 유지함으로써 사용자 경험을 크게 향상시킵니다. 이러한 예는 설명 목록의 다양한 콘텐츠 설정에서의 다양성과 효과성을 강조합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 고급 목록 기술
 
@@ -130,7 +205,18 @@ HTML 목록 작성에 대한 고급 기술은 기본적인 서식 설정을 넘�
 
 웹 콘텐츠를 디자인할 때 접근성을 우선시하는 것이 중요합니다. 이는 스크린 리더와 같은 보조 기술을 사용하는 사용자도 목록을 효과적으로 탐색하고 이해할 수 있도록 보장합니다. 목록 접근성을 위한 주요 사항은 올바른 HTML 태그 사용입니다. `ul`, `ol`, 및 `dl` 태그를 사용하면 목록 구조를 명확히 정의해 보조 기술이 쉽게 해석할 수 있습니다. 이러한 태그는 목록의 유형을 나타내는 것뿐만 아니라 논리적인 읽기 순서를 유지하는 데도 도움이 됩니다. 더 나아가 접근성을 강화하기 위해 개발자는 ARIA (접근성 향상된 리치 인터넷 애플리케이션) 속성을 활용해야 합니다. 예를 들어, aria-labelledby를 사용하면 목록 항목을 페이지 다른 곳에 있는 설명 텍스트와 연결하여 맥락을 제공하고 이해를 개선할 수 있습니다. 마찬가지로 role="list" 및 role="listitem"을 설정하면 사용자 지정 스타일이 적용된 목록도 스크린 리더에서 목록으로 인식됩니다. 상호작용 가능한 목록의 포커스 상태를 관리하는 것도 중요합니다. 키보드 사용자가 목록 항목을 쉽게 탐색할 수 있도록 하는 것이죠. 이러한 실천법을 적용함으로써 개발자는 목록을 보다 접근성 있게 만들어 모든 사용자가 정보를 쉽게 탐색하고 이해할 수 있는 포용적인 웹 환경을 조성할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어:
 
@@ -160,7 +246,18 @@ HTML 목록 작성에 대한 고급 기술은 기본적인 서식 설정을 넘�
 
 현대 웹 개발에서 반응형 디자인은 다양한 화면 크기를 가진 다양한 디바이스에서 콘텐츠, 예를 들어 목록들을 접근 가능하고 가독성 있게 만드는 데 중요합니다. 반응형으로 목록을 디자인하기 위해서는 특정 스타일이나 스크립트에 의존하지 않고 다양한 화면 크기에 맞춰 구조와 레이아웃의 적응성에 초점을 맞춰야 합니다. 예를 들어, 모바일 기기에서 한 열로 표시되는 목록은 데스크톱에서 공간을 효율적으로 사용하고 가독성을 향상시키기 위해 여러 열로 재구성될 수 있습니다. 또한 목록 항목 간의 간격과 터치 스크린에서의 사용자 친화적 상호작용을 위해 클릭 영역의 크기도 중요합니다. 목록을 다양한 환경에서 테스트하여 장치에 관계 없이 적절하게 확장되어 기능을 유지하고 사용자 경험을 원활하게 제공하는 것이 필요합니다. 이 반응형 디자인 접근 방식은 CSS 또는 JavaScript의 복잡성에 빠지는 대신 기본적인 레이아웃 및 구조적 적응성에 중점을 두며 적응성과 사용자 경험을 우선시합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, 다음은 기본 HTML 코드 예제입니다. 이 예제는 기본 HTML 요소와 뷰포트 메타 태그만을 사용하여 반응형 목록을 생성하며, 콘텐츠가 다양한 기기에서 잘 적응되도록 보장합니다:
 
@@ -190,7 +287,18 @@ HTML 목록 작성에 대한 고급 기술은 기본적인 서식 설정을 넘�
 
 HTML에서 목록을 효과적으로 활용하면 웹사이트의 SEO를 크게 향상시킬 수 있습니다. 목록을 적절하게 활용하면 검색 엔진이 쉽게 해석하고 색인화할 수 있는 명확하고 구조화된 콘텐츠가 제공됩니다. `ul`은 정렬되지 않은 목록, `ol`은 정렬된 목록, `dl`은 정의 목록과 같은 적절한 목록 구조를 활용하면 콘텐츠 계층 구조를 명확하게 하고 정보를 논리적으로 구성할 수 있습니다. 예를 들어, 단계별 지침에 순서가 있는 목록 `ol`을 사용하면 단계의 순서를 강조하여 콘텐츠의 명확성과 사용 편의성을 향상시킬 수 있습니다. 따라서 시간당 페이지 방문 횟수가 증가할 수 있는데, 검색 엔진은 이를 품질있는 콘텐츠의 지표로 고려할 수 있습니다. 비슷하게, 비정렬 목록 `ul`을 사용하면 기능 집합이나 중요한 포인트를 강조할 수 있어 사용자와 검색 엔진 알고리즘 모두에게 페이지를 쉽게 스캔할 수 있도록 만들 수 있습니다. 또한, 설명적인 제목으로 시작하는 대형 섹션 내에 목록을 중첩하거나 다른 의미론적 HTML 요소와 통합하여 콘텐츠 구조를 더 명확하게 정의할 수 있습니다. 이러한 구조적 접근 방식은 사용자 경험을 향상시키는데 그치지 않고 검색 엔진이 콘텐츠의 각 부분 간의 관계와 중요도를 이해하는 데 도움이 되어 SEO 전략의 중요한 측면이 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 흔한 함정 및 그것을 피하는 방법들
 
@@ -200,7 +308,18 @@ HTML에서 목록을 효과적으로 활용하면 웹사이트의 SEO를 크게 
 
 다음은 지나치게 사용되거나 부적절하게 사용된 목록 요소가 있는 웹페이지의 예시입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <!DOCTYPE html>
@@ -262,7 +381,18 @@ HTML에서 목록을 효과적으로 활용하면 웹사이트의 SEO를 크게 
 
 이를 개선하기 위해 정보 표현을 더 막스킬적인 기술로 균형을 맞추거나, 이미지, 제목 또는 문단과 같은 다른 디자인 요소를 통합하여 콘텐츠를 분리하는 웹 페이지를 더 동적이고 소화하기 쉽게 만들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 리스트를 잘못 중첩하는 것 (의미 구조)
 
@@ -308,7 +438,18 @@ HTML에서 목록을 효과적으로 활용하면 웹사이트의 SEO를 크게 
 </html>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예시에서는 주문 목록 'ol'이 각각 다른 메뉴 카테고리에 대한 항목을 올바로 포함하고 있습니다. 그러나 디저트 섹션이 구조화된 방법에 문제가 있습니다:
 
@@ -318,7 +459,18 @@ HTML에서 목록을 효과적으로 활용하면 웹사이트의 SEO를 크게 
 
 # 목록을 사용한 예시 페이지 만들기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금은 HTML과 그 목록 요소를 사용하여 웹 페이지를 생성해 봅시다. 이 예시에서는 잘 알려진 이탈리아 음식인 스파게티 카르보나라에 대한 간단한 한 페이지 레시피 페이지를 만들 것입니다. 이 예시를 통해 HTML의 목록 구성 요소를 사용하여 웹 페이지를 적절하게 구조화하고 시각적으로 매력적이면서 의미론적으로 의미있게 만드는 방법을 보여줄 것입니다.
 
@@ -331,7 +483,18 @@ HTML에서 목록을 효과적으로 활용하면 웹사이트의 SEO를 크게 
 <html lang="en">
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 2: 헤드 섹션 생성
 
@@ -347,13 +510,35 @@ HTML에서 목록을 효과적으로 활용하면 웹사이트의 SEO를 크게 
 
 # 단계 3: 컨텐츠를 위한 본문 태그 생성하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 4: 헤더 섹션 생성
 
 열린 body 태그 아래에 주요 제목이 있는 헤더 섹션을 만듭니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <header>
@@ -379,7 +564,18 @@ HTML에서 목록을 효과적으로 활용하면 웹사이트의 SEO를 크게 
 </section>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주의: 재료 목록에 특정한 순서가 없기 때문에 순서 없는 목록 요소를 사용했습니다.
 
@@ -413,7 +609,18 @@ HTML에서 목록을 효과적으로 활용하면 웹사이트의 SEO를 크게 
 </section>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전 예제와 마찬가지로 최적의 SEO 성능과 접근성을 위해 적절한 ID 이름과 aria 역할 레이블을 사용했습니다.
 
@@ -433,7 +640,18 @@ HTML에서 목록을 효과적으로 활용하면 웹사이트의 SEO를 크게 
 </section>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 8: body 태그 닫기
 
@@ -445,7 +663,18 @@ HTML에서 목록을 효과적으로 활용하면 웹사이트의 SEO를 크게 
 
 # 단계 9: HTML 태그 닫기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 작업을 계속하기 전에, 처음에 여는 HTML 태그를 닫아 웹 페이지를 완성합시다.
 
@@ -523,7 +752,18 @@ HTML에서 목록을 효과적으로 활용하면 웹사이트의 SEO를 크게 
 </html>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 마무리하면
 

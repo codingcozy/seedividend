@@ -3,16 +3,13 @@ title: "이미지에서 표를 JSON으로 추출하는 GPT-4 사용 방법"
 description: ""
 coverImage: "/assets/img/2024-06-23-ExtractingTablesfromImagestoJSONUsingGPT-4_0.png"
 date: 2024-06-23 13:17
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-ExtractingTablesfromImagestoJSONUsingGPT-4_0.png
 tag: Tech
 originalTitle: "Extracting Tables from Images to JSON Using GPT-4🖐️"
 link: "https://medium.com/@akashkhurana28/extracting-tables-from-images-to-json-using-gpt-4-%EF%B8%8F-2a2cbbbf1773"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-06-23-ExtractingTablesfromImagestoJSONUsingGPT-4_0.png" />
 
@@ -22,7 +19,18 @@ GPT(생성 사전 학습 트랜스포머)는 OpenAI가 개발한 일련의 언�
 
 최신 버전인 GPT-4는 더 높은 정확도, 일관성, 다재다능성을 가진 이러한 능력을 더욱 향상시킵니다. 이는 콘텐츠 생성부터 고객 서비스, 복잡한 문제 해결까지 다양한 응용 분야에서 뛰어난 성과를 내며, AI 기술의 주요 발전을 대표합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 실제 시나리오
 
@@ -32,7 +40,18 @@ GPT(생성 사전 학습 트랜스포머)는 OpenAI가 개발한 일련의 언�
 
 ![이미지](/assets/img/2024-06-23-ExtractingTablesfromImagestoJSONUsingGPT-4_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이상적인 결과는
 
@@ -82,7 +101,18 @@ GPT(생성 사전 학습 트랜스포머)는 OpenAI가 개발한 일련의 언�
 
 단계 1: 시스템에 Node.js를 설치하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Step 2: 새 디렉토리를 만들고 프로젝트를 설정하십시오.
 
@@ -107,7 +137,7 @@ const openai = new OpenAI({
 // 이미지를 base64 문자열로 읽는 함수
 function encodeImage(imagePath) {
   const imageData = fs.readFileSync(imagePath);
-  return imageData.toString('base64');
+  return imageData.toString("base64");
 }
 
 async function main() {
@@ -115,7 +145,7 @@ async function main() {
   const base64Image = encodeImage(imagePath);
 
   const response = await openai.chat.completions.create({
-    model: "gpt-4o", 
+    model: "gpt-4o",
     messages: [
       {
         role: "system",
@@ -135,7 +165,18 @@ async function main() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4단계: 스크립트 실행하기
 
@@ -147,7 +188,18 @@ node index.js
 
 <img src="/assets/img/2024-06-23-ExtractingTablesfromImagestoJSONUsingGPT-4_2.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최종 솔루션에 도달하기 전 직면한 문제들:
 
@@ -163,7 +215,18 @@ TypeError: openai.createImage is not a function
 
 문제 2: openai 버전 4 변환.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오픈AI의 버전 4 변환 문제와 이전 버전 방법이 작동하지 않는 문제는 버전 간의 기반이 되는 아키텍처 및 API 기능에 중요한 변화가 있기 때문에 발생합니다. 이러한 변화로 인해 호환성 문제가 발생할 수 있으며, 이전 버전과 작동했던 기존 방법 및 통합이 버전 4에서 작동하지 않을 수 있습니다. 결과적으로 개발자들은 기존 방법을 사용하려고 할 때 오류나 예상치 못한 동작을 만날 수 있으며, 이에 대응하기 위해 코드를 업데이트하고 새 버전의 사양 및 모범 사례에 적응해야 할 수도 있습니다.
 
@@ -191,8 +254,18 @@ https://chatgpt.com/share/b175130a-0d77-465e-8187-59b92590df8b
 
 문제점 3- gpt-4-vision-preview 모델이 더 이상 사용되지 않습니다
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지 추출 표](/assets/img/2024-06-23-ExtractingTablesfromImagestoJSONUsingGPT-4_3.png)
 
@@ -211,8 +284,18 @@ main();
 
 문제 5: 이미지에서 JSON으로 변환하기 위해 GPT-3.5-turbo를 사용하는 것은 여러 문제를 발생시킬 수 있습니다. 이미지 데이터 처리에 대한 이 모델의 본래 한계로 인해 변환 과정에서 정확성 문제가 발생할 수 있어 JSON 출력물이 불완전하거나 잘못될 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 5 문제 1 해결책
 
@@ -222,7 +305,18 @@ main();
 
 GPT-4은 로컬 이미지를 효율적으로 Base64 인코딩으로 변환한 다음 데이터를 구문 분석하여 이미지를 JSON으로 변환하는 도구입니다. Base64 인코딩을 사용함으로써 GPT-4은 이미지 데이터가 텍스트 친화적 형식으로 정확하게 표현되어 후속 처리 단계가 간단해지도록 보장합니다. 이 방법을 통해 다른 모델 간 전환을 줄이고 개발 워크플로우를 최적화하여 일관성을 향상시킵니다. 또한 GPT-4의 강건성은 변환 프로세스의 신뢰성과 정확성을 향상시켜 보다 정확한 JSON 출력물을 제공합니다. 이 방식은 코드 유지보수를 간편화할 뿐만 아니라 응용 프로그램 내에서 이미지 데이터를 처리하는 효율성과 효과성을 향상시킵니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 GitHub에서 예제 프로젝트를 찾을 수 있어요.
 

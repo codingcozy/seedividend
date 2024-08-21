@@ -3,17 +3,13 @@ title: "Nextjs 13 저장소 에러 핸들링 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "에러 처리"
 link: "undefined"
 isUpdated: true
 ---
-
-
-
-
 
 # 에러 처리
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 Next.js 애플리케이션의 개발 단계에서 실행 오류가 발생하면 웹페이지를 덮는 모달이 표시됩니다. 이 모달은 overlay라고도 합니다. 이 overlay는 next dev를 사용하여 개발 서버를 실행할 때에만 표시되며 pnpm dev, npm run dev, yarn dev 또는 bun dev를 통해 실행됩니다. 오류를 해결하면 overlay가 자동으로 사라집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 오버레이의 예시가 있어요:
 
@@ -33,7 +40,18 @@ Next.js는 애플리케이션 내에서 발생한 서버 측 오류를 처리하
 
 애플리케이션에 500 페이지를 가지고 있어도 특정 오류를 앱 사용자에게 표시하지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 404 페이지를 사용하여 파일을 찾을 수 없는 특정 런타임 오류를 처리할 수도 있습니다.
 
@@ -43,7 +61,18 @@ React 에러 바운더리는 클라이언트에서 발생하는 JavaScript 오�
 
 Next.js 애플리케이션에 에러 바운더리를 사용하려면 pages/\_app.js 파일에서 Component prop를 감싸는 클래스 컴포넌트 에러 바운더리를 만들어야 합니다. 이 컴포넌트는 다음을 담당합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 에러가 발생한 후 대체 UI를 렌더링합니다.
 - 애플리케이션 상태를 초기화하는 방법을 제공합니다.
@@ -91,7 +120,18 @@ export default ErrorBoundary;
 
 ErrorBoundary 컴포넌트는 hasError 상태를 추적합니다. 이 상태 변수의 값은 불리언입니다. hasError 값이 true인 경우 ErrorBoundary 컴포넌트는 대체 UI를 렌더링하고, 그렇지 않으면 자식 컴포넌트를 렌더링합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 에러 경계(ErrorBoundary) 컴포넌트를 만든 후, Next.js 애플리케이션의 pages/\_app.js 파일에서 Component prop을 감싸기 위해 이를 import하세요.
 
@@ -115,8 +155,30 @@ React 문서에서 에러 경계(Error Boundaries)에 대해 더 자세히 알�
 
 ### 에러 보고하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 클라이언트 오류를 모니터링하려면 Sentry, Bugsnag 또는 Datadog와 같은 서비스를 사용하십시오.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

@@ -3,17 +3,13 @@ title: "당신의 React 애플리케이션에 Superset 대시보드 추가하기
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Embedding Superset dashboards in your React application"
 link: "https://medium.com/@khushbu.adav/embedding-superset-dashboards-in-your-react-application-7f282e3dbd88"
 isUpdated: true
 ---
-
-
-
-
 
 ![Embedding Superset Dashboards in your React application](/assets/img/EmbeddingSupersetdashboardsinyourReactapplication_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 임베딩 SDK를 사용하면 앱의 인증을 사용하여 슈퍼셋 대시보드를 자체 웹 앱에 임베드할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프론트 엔드 개발자입니다. 위의 텍스트를 친근한 톤으로 한국어로 번역해 드리겠습니다.
 
@@ -37,7 +44,18 @@ isUpdated: true
 
 # 준비 사항
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Docker 또는 Docker Compose
 - React 기반의 작동 중인 애플리케이션 및 백엔드
@@ -50,7 +68,18 @@ isUpdated: true
 docker run -d -e SUPERSET_FEATURE_EMBEDDED_SUPERSET="true" -v ~/react-app/superset/superset_config_docker.py:/app/pythonpath/superset_config.py -p 8088:8088 --name superset apache/superset
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 도커 컴포즈를 사용하여 Superset 설치하기
 
@@ -77,7 +106,18 @@ services:
 
 아래 명령어를 사용하여 관리자 사용자를 생성하고 Superset을 초기화하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 도커 exec -it superset superset fab create-admin --username admin --firstname Superset --lastname Admin --email admin@superset.com --password admin
@@ -91,7 +131,18 @@ services:
 
 superset_config.py
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 SESSION_COOKIE_SAMESITE = None;
@@ -118,7 +169,18 @@ CORS_OPTIONS = {
 - Superset 대시보드
 - 대시보드 내에서 Superset 차트
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 임베디드 대시보드 UUID 생성
 
@@ -128,7 +190,18 @@ CORS_OPTIONS = {
 
 Client App의 적절한 호스트:포트를 입력해야합니다. 이제 대시보드는 Client App에 임베드 될 준비가 되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 새 사용자 및 역할 생성
 
@@ -138,7 +211,18 @@ Client App의 적절한 호스트:포트를 입력해야합니다. 이제 대시
 
 ![이미지 2](/assets/img/EmbeddingSupersetdashboardsinyourReactapplication_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 내장 대시보드 슈퍼셋 API와 상호 작용하기
 
@@ -150,7 +234,18 @@ Client App의 적절한 호스트:포트를 입력해야합니다. 이제 대시
 /api/v1/security/login
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/EmbeddingSupersetdashboardsinyourReactapplication_3.png" />
 
@@ -162,7 +257,18 @@ Client App의 적절한 호스트:포트를 입력해야합니다. 이제 대시
 /api/v1/security/guest_token/
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Embedding Superset dashboards in your React application](/assets/img/EmbeddingSupersetdashboardsinyourReactapplication_4.png)
 
@@ -172,7 +278,18 @@ RLS 규칙을 사용하면 선택한 데이터셋에서 사용자가 쿼리하�
 
 RLS 규칙은 서비스 계정이 토큰을 생성할 때 지정되며, 해당 토큰으로 인증된 게스트 사용자가 분석 데이터베이스에 대해 수행하는 모든 쿼리에 적용됩니다. RLS 절이 없이 guest_token을 생성하는 경우 원본 쿼리에 대한 필터링이 이루어지지 않고 모든 데이터가 차트에 표시됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예제에서는 customer_id=4에 대한 RLS 필터를 생성했습니다.
 
@@ -186,7 +303,18 @@ RLS 규칙은 서비스 계정이 토큰을 생성할 때 지정되며, 해당 �
 
 # 클라이언트 앱 (React) 측 코드
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 클라이언트 측에서 슈퍼셋 대시보드를 "임베드"하는 데 필요한 코드 스니펫입니다. 대시보드는 DOM에 사용 가능한 iframe에 임베드될 것입니다.
 
@@ -204,7 +332,18 @@ embedDashboard({
 
 fetchGuestTokenFromBackend 함수의 구현에 대한 플로우 다이어그램은 위의 이미지를 참고해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 중요한 참고사항
 

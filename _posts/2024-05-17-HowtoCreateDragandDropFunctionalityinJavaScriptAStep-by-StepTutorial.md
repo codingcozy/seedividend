@@ -3,16 +3,13 @@ title: "JavaScript로 드래그 앤 드롭 기능 만들기(코드 있음)"
 description: ""
 coverImage: "/assets/img/2024-05-17-HowtoCreateDragandDropFunctionalityinJavaScriptAStep-by-StepTutorial_0.png"
 date: 2024-05-17 21:32
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-17-HowtoCreateDragandDropFunctionalityinJavaScriptAStep-by-StepTutorial_0.png
 tag: Tech
 originalTitle: "How to Create Drag and Drop Functionality in JavaScript: A Step-by-Step Tutorial"
 link: "https://medium.com/@future_fanatic/how-to-create-drag-and-drop-functionality-in-javascript-a-step-by-step-tutorial-8ea236ef9416"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-05-17-HowtoCreateDragandDropFunctionalityinJavaScriptAStep-by-StepTutorial_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 # 단계 1: HTML 구조 설정
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, 드래그할 수 있고 놓을 수 있는 요소에 대한 HTML 구조를 만듭니다.
 
@@ -35,36 +43,47 @@ isUpdated: true
 
 다음으로, 드래그 앤 드롭 이벤트를 처리할 이벤트 핸들러를 정의하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 드래그 가능한 요소와 드롭 영역에 대한 참조 획득
-const draggableElement = document.getElementById('draggableElement');
-const droppableArea = document.getElementById('droppableArea');
+const draggableElement = document.getElementById("draggableElement");
+const droppableArea = document.getElementById("droppableArea");
 
 // 드래그 시작시 이벤트 핸들러
-draggableElement.addEventListener('dragstart', (event) => {
+draggableElement.addEventListener("dragstart", (event) => {
   // 드래그 작업 중 전송할 데이터 설정
-  event.dataTransfer.setData('text/plain', event.target.id);
+  event.dataTransfer.setData("text/plain", event.target.id);
 });
 
 // 드롭 발생시 이벤트 핸들러
-droppableArea.addEventListener('drop', (event) => {
+droppableArea.addEventListener("drop", (event) => {
   // 드롭을 허용하기 위해 기본 동작 방지
   event.preventDefault();
-  
+
   // 드래그 작업 중에 설정된 데이터 검색
-  const data = event.dataTransfer.getData('text/plain');
-  
+  const data = event.dataTransfer.getData("text/plain");
+
   // 데이터를 기반으로 드래그 가능한 요소 찾기
   const draggableElement = document.getElementById(data);
-  
+
   // 드롭 영역에 드래그 가능한 요소 추가
   event.target.appendChild(draggableElement);
 });
 
 // 드래그 가능한 요소가 드롭 영역 위를 이동 중일 때의 이벤트 핸들러
-droppableArea.addEventListener('dragover', (event) => {
+droppableArea.addEventListener("dragover", (event) => {
   // 드롭을 허용하기 위해 기본 동작 방지
   event.preventDefault();
 });
@@ -84,7 +103,18 @@ droppableArea.addEventListener('dragover', (event) => {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 4: 구현한 기능 테스트하기
 

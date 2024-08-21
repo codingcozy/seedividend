@@ -3,16 +3,13 @@ title: "React에서 사용자 경험 향상하기  커스텀 페이지네이션 
 description: ""
 coverImage: "/assets/img/2024-06-23-BoostUserExperienceinReactCreateacustompaginationcomponent_0.png"
 date: 2024-06-23 13:39
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-BoostUserExperienceinReactCreateacustompaginationcomponent_0.png
 tag: Tech
 originalTitle: "Boost User Experience in React : Create a custom pagination component"
 link: "https://medium.com/@ichrak.azzouz/boost-user-experience-in-react-create-a-custom-pagination-component-d63de35b0af3"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-06-23-BoostUserExperienceinReactCreateacustompaginationcomponent_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 React는 미리 제작된 페이지네이션 라이브러리를 제공하지만, 사용자 정의 컴포넌트를 만들면 더 많은 제어력과 유연성을 얻을 수 있습니다. 이 단계별 튜토리얼은 React에서 자체 페이지네이션 컴포넌트를 구축하는 방법을 안내해주어 내부 작업과 구현 능력에 대한 견고한 이해를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 프로젝트 설정
 
@@ -35,7 +43,18 @@ cd custom-pagination
 
 ## 페이지네이션 컴포넌트 구축
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 우리가 만든 사용자 정의 페이지네이션 컴포넌트를 만들 차례입니다. Pagination.js로 이름을 지을 거에요. 첫 번째 컴포넌트 코드는 여기 있어요:
 
@@ -120,7 +139,18 @@ export default Pagination;
 
 이제 Pagination 컴포넌트 내부에 페이지네이션 로직을 구현할 차례입니다. 현재 페이지와 전체 페이지 수에 기반하여 표시할 페이지 번호를 결정하는 이 로직을 구현할 거에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const paginationRange = () => {
@@ -187,7 +217,18 @@ const paginationRange = () => {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 통합 및 사용
 
@@ -201,7 +242,7 @@ App.js 파일을 만들고 상태와 데이터 처리를 설정해보세요.
 import React, { useState } from "react";
 import Pagination from "./Pagination";
 
-const data = [...Array(100).keys()].map(i => `아이템 ${i + 1}`);
+const data = [...Array(100).keys()].map((i) => `아이템 ${i + 1}`);
 
 const App = () => {
   const [currentPage, setCurrentPage] = useState(1);
@@ -218,10 +259,7 @@ const App = () => {
     setCurrentPage(1);
   };
 
-  const paginatedData = data.slice(
-    (currentPage - 1) * rowsPerPage,
-    currentPage * rowsPerPage
-  );
+  const paginatedData = data.slice((currentPage - 1) * rowsPerPage, currentPage * rowsPerPage);
 
   return (
     <div className="App">
@@ -243,7 +281,18 @@ const App = () => {
 export default App;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 테스트 및 최적화
 
@@ -253,7 +302,18 @@ export default App;
 
 축하합니다! ReactJS에서 사용자 정의 페이지네이션 구성 요소를 성공적으로 구축했습니다. 프로젝트 설정부터 페이지네이션 로직 구현 및 구성 요소 스타일링까지 모두 다루었습니다. 필요에 맞게 구성 요소를 더 맞춤화하여 자유롭게 사용해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 여러분 차례입니다! 여러분의 프로젝트에서 이를 시도해보세요. 즐겁게 코딩하세요!
 
@@ -263,6 +323,17 @@ export default App;
 
 ## 궁금한 점이 있으신가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제안이나 개선 사항이 있으시면 언제든지 Medium에 의견을 남겨주세요. 또는 Linkedin에서 제게 연락해 주세요. 항상 당신의 의견을 듣고 싶어합니다. 👩‍💻

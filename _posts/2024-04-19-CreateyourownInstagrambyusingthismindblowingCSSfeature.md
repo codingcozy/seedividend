@@ -3,17 +3,13 @@ title: "놀라운 CSS 기능을 활용해서 당신만의 인스타그램을 만
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Create your own Instagram by using this mindblowing CSS feature"
 link: "https://medium.com/gitconnected/create-your-own-instagram-by-using-this-mindblowing-css-feature-6f48d3bcb13e"
 isUpdated: true
 ---
-
-
-
-
 
 ## JavaScript가 필요 없어요...
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 하지만 제가 무슨 말인지 모르시는 분들을 위해 CSS 마법을 발견해보러 가볼까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제가 얘기하려는 것은 CSS Scroll Snap에 대한 것입니다. Scroll Snap은 웹 페이지의 스크롤 동작을 정밀하게 제어할 수 있게 해주는 CSS 기능으로, 스크롤 중에 콘텐츠가 이미지가 될 때 사전에 설정된 위치에서 자동으로 정렬될 수 있도록 합니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 먼저, 모든 것이 발생하는 스크롤 컨테이너가 필요합니다. 이것은 전체 웹사이트일 수도 있고 그 중 일부분일 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 단계는 스크롤 스냅 포인트라고 알려진 앵커 포인트를 정의하는 것입니다. 이 포인트에서 스크롤이 멈추고 어느 정도 자석처럼 고정됩니다.
 
@@ -45,7 +63,18 @@ isUpdated: true
 
 마지막으로, 스크롤 스냅 정렬입니다. 이 속성은 스냅할 때 스크롤 컨테이너 내에서 컨텐츠가 어떻게 정렬되는지를 지정합니다. start, center, end, none으로 설정할 수 있어 컨텐츠 표시에 유연성을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # CSS 스크롤 스냅 구현
 
@@ -55,7 +84,18 @@ isUpdated: true
 
 스크롤이 발생하는 컨테이너에 이를 적용하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 .scroll-wrapper {
@@ -73,7 +113,18 @@ Next, apply the following property to your containers that will snap:
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 세부 조정
 
@@ -83,7 +134,18 @@ Next, apply the following property to your containers that will snap:
 
 ![Instagram을 만들고 CSS 기능을 사용하여 창의적인 디자인을 만들어 보세요](/assets/img/CreateyourownInstagrambyusingthismindblowingCSSfeature_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저의 멋진 CSS 기능을 읽고 시도해본 것을 즐겼으면 좋겠어요. 만약 즐겼다면 댓글로 알려주세요. 클랩하고 구독하는 것을 잊지 마세요!
 

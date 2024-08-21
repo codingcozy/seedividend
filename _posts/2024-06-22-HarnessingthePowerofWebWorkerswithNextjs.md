@@ -3,16 +3,13 @@ title: "Nextjs에서 Web Worker 활용하는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-22-HarnessingthePowerofWebWorkerswithNextjs_0.png"
 date: 2024-06-22 14:28
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-HarnessingthePowerofWebWorkerswithNextjs_0.png
 tag: Tech
 originalTitle: "Harnessing the Power of Web Workers with Next.js"
 link: "https://medium.com/@ngrato/harnessing-the-power-of-web-workers-with-next-js-350901a99a10"
 isUpdated: true
 ---
-
-
-
 
 ![2024-06-22-HarnessingthePowerofWebWorkerswithNextjs_0.png](/assets/img/2024-06-22-HarnessingthePowerofWebWorkerswithNextjs_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 # 웹 워커란 무엇인가
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단히 말해서, 웹 워커는 백그라운드 스레드에서 스크립트를 실행할 수 있는 방법을 제공합니다. 워커 스레드는 사용자 인터페이스를 방해하지 않고 작업을 수행할 수 있습니다. 게다가, 주요 JavaScript 스레드로 메시지를 보낼 수 있어서 애플리케이션이 반응성을 유지할 수 있습니다.
 
@@ -34,7 +42,18 @@ Next.js는 개발자가 서버 측 렌더링 및 정적 웹 애플리케이션�
 - 웹 워커 파일 경로를 모든 컴포넌트에서 사용 가능하게 하기
 - 현재 tsconfig.json 파일을 오염시키지 않거나 모든 파일을 public 디렉토리에 넣지 않기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 빌드 단계
 
@@ -44,7 +63,18 @@ Next.js는 개발자가 서버 측 렌더링 및 정적 웹 애플리케이션�
 
 tsconfig.worker.json이라는 새 파일을 생성하여 특정 웹 워커 파일을 /public 디렉토리로 컴파일하기 위해 기존 tsconfig.json을 확장합니다. 동일한 JSON을 기본 구성에 넣으면 컴파일러 옵션 -` outDir가 모든 것을 /public 디렉토리에 넣을 것으로 생각됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```json
 {
@@ -64,10 +94,21 @@ tsconfig.worker.json이라는 새 파일을 생성하여 특정 웹 워커 파�
 
 package.json 파일에서 스크립트를 업데이트해야합니다. 이렇게하면 worker 파일이 저장될 때마다 빌드됩니다. 제가 일단 빌드를 실행할 수있는 스크립트 명령어를 추가했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-"build:workers": "tsc -p tsconfig.worker.json", 
+"build:workers": "tsc -p tsconfig.worker.json",
 ```
 
 이후에는 변경 사항이 발생할 때마다 worker 폴더를 감시하고 저장한 후 빌드하는 명령을 추가했습니다. 이 명령을 개발 명령과 병렬로 실행했습니다. 그러나 모든 작업을 한 번에 수행하도록 개발 명령을 업데이트할 수도 있습니다.
@@ -79,8 +120,18 @@ package.json 파일에서 스크립트를 업데이트해야합니다. 이렇게
 
 # 웹 워커
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 워커는 굉장히 복잡하지 않아요. 사실, 마지막에는 메소드 4개와 속성 2개만 가지고 있어요. 이 메소드들은 워커 내부로 메시지를 보내거나 받기 위해 사용하고, 속성들은 이벤트를 듣기 위해 사용돼요.
 
@@ -92,52 +143,98 @@ package.json 파일에서 스크립트를 업데이트해야합니다. 이렇게
 worker.postMessage(data);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - terminate():
-    워커를 즉시 종료합니다. 이렇게하면 워커 범위 내의 모든 작업이 중지되며, 모든 네트워크 연결이 해제되며, 모든 리소스가 해제됩니다. `terminate()`을 호출한 후에는 워커를 다시 시작할 수 없습니다.
+  워커를 즉시 종료합니다. 이렇게하면 워커 범위 내의 모든 작업이 중지되며, 모든 네트워크 연결이 해제되며, 모든 리소스가 해제됩니다. `terminate()`을 호출한 후에는 워커를 다시 시작할 수 없습니다.
 
 ```js
 worker.terminate();
 ```
 
 - addEventListener():
-    `message` 및 `error`와 같은 이벤트를 처리하기 위해 워커에 직접 속성을 설정하는 대신 사용할 수 있는 대체 방법입니다.
+  `message` 및 `error`와 같은 이벤트를 처리하기 위해 워커에 직접 속성을 설정하는 대신 사용할 수 있는 대체 방법입니다.
 
 ```js
-worker.addEventListener('message', handlerFunction);
+worker.addEventListener("message", handlerFunction);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - removeEventListener():
-addEventListener()로 이전에 등록된 이벤트 리스너를 제거합니다.
+  addEventListener()로 이전에 등록된 이벤트 리스너를 제거합니다.
 
 ```js
-worker.removeEventListener('message', handlerFunction);
+worker.removeEventListener("message", handlerFunction);
 ```
 
 ## 속성
 
 - onmessage: worker가 `postMessage()`를 사용하여 메인 스레드로부터 메시지를 수신할 때 호출되는 이벤트 핸들러입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-worker.onmessage = function(event) { 
-  console.log(event.data); 
+worker.onmessage = function (event) {
+  console.log(event.data);
 };
 ```
 
 - **onerror**: 설명: 워커에서 오류가 발생했을 때 호출되는 이벤트 핸들러입니다. 이 이벤트 핸들러는 오류에 관한 정보를 포함하는 `ErrorEvent` 객체를 받을 수 있습니다.
 
 ```js
-worker.onerror = function(event) { console.error(event.message); };
+worker.onerror = function (event) {
+  console.error(event.message);
+};
 ```
 
 `postMessage` 메서드를 사용할 때 직접 'init' 또는 'data'와 같은 메시지 유형을 만들면 구성 및 유연성이 증가할 수 있습니다. 예를 들어 이 프로젝트에서는 페이로드를 웹 워커의 특정 알고리즘으로 연결하기 위한 메시지 유형을 나타내는 TypeScript 유형을 사용했습니다. 'type'이라는 단어를 많이 사용했는데, 예시를 보여드릴까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 types.ts
 
@@ -159,58 +256,67 @@ export type CryptoWorkConfigT = {
 
 crypto.ts
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-import { WorkerMessageT, CryptoWorkConfigT } from '../types'
+import { WorkerMessageT, CryptoWorkConfigT } from "../types";
 
 // 워커의 최상위 범위에서 pricesWs를 정의합니다
-let pricesWs: WebSocket | null = null
+let pricesWs: WebSocket | null = null;
 
 self.onmessage = (e) => {
-  const BASE_URL = 'wss://ws.coincap.io/prices'
+  const BASE_URL = "wss://ws.coincap.io/prices";
   switch (e.data.type) {
-    case 'init':
-      const message: WorkerMessageT<CryptoWorkConfigT> = e.data
+    case "init":
+      const message: WorkerMessageT<CryptoWorkConfigT> = e.data;
 
       // 웹 소켓 연결을 초기화합니다
-      pricesWs = new WebSocket(
-        `${BASE_URL}?assets=${message.payload?.data.assets}`,
-      )
+      pricesWs = new WebSocket(`${BASE_URL}?assets=${message.payload?.data.assets}`);
 
       const initSubscription = () => {
-        pricesWs?.addEventListener('message', function (event) {
-          self.postMessage(JSON.parse(event.data))
-        })
-      }
+        pricesWs?.addEventListener("message", function (event) {
+          self.postMessage(JSON.parse(event.data));
+        });
+      };
 
-      initSubscription()
+      initSubscription();
 
-      break
+      break;
 
-    case 'stop':
+    case "stop":
       // 열려 있는 웹 소켓을 안전하게 닫습니다
       if (pricesWs) {
-        console.log('WebSocket 연결을 종료합니다...', pricesWs)
-        pricesWs.close()
-        pricesWs = null // 닫은 후에 참조를 지웁니다
+        console.log("WebSocket 연결을 종료합니다...", pricesWs);
+        pricesWs.close();
+        pricesWs = null; // 닫은 후에 참조를 지웁니다
       }
-      break
+      break;
 
-    case 'error':
+    case "error":
       // 오류 발생 시, 웹 소켓을 닫습니다
       if (pricesWs) {
-        pricesWs.close()
-        pricesWs = null // 오류 발생 시 정리합니다
+        pricesWs.close();
+        pricesWs = null; // 오류 발생 시 정리합니다
       }
       // 여기에 추가적인 오류 처리 로직을 구현할 수 있습니다
-      break
+      break;
 
     default:
       // 명시적으로 언급되지 않은 모든 케이스 처리
-      console.error('처리되지 않은 메시지 유형:', e.data.type)
+      console.error("처리되지 않은 메시지 유형:", e.data.type);
   }
-}
+};
 ```
 
 먼저 몇 가지 타입을 가져오고, Coincap API와 통신하기 위해 사용할 웹 소켓 변수를 초기화합니다. 그런 다음 첫 번째 웹 워커 메서드 self.onmessage가 나타납니다. 메시지 유형이 즉시 유용하며 적절한 알고리즘으로 이벤트를 분기합니다. 'init' 케이스에서는 수신된 메시지 데이터를 수집하고 Coincap 웹 소켓에 구독합니다. 웹 소켓 이벤트 핸들러에서 postMessage() 메서드를 사용하여 데이터를 전파합니다. 여기까지입니다! 이제 웹 워커와 통신하는 UI로 이동해봅시다.
@@ -345,7 +451,18 @@ const page = () => {
 export default page
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우선, useEffect에서 웹 워커를 생성하고 해당 이벤트를 구독했습니다(JSON 파일 경로는 /public 디렉토리에 컴파일될 파일로 지정해야 합니다). onmessage 이벤트에서 컴포넌트 상태를 업데이트하여 가장 최신의 암호화폐 가격을 반영하도록 했습니다. JSX에서는 웹 워커를 켜는 버튼을 만들었지만, useEffect에서 페이지 로드 시 프로세스를 시작하는 방법도 있습니다.
 

@@ -3,7 +3,7 @@ title: "사람임을 증명하는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-17-Howtoproveyouareahuman_0.png"
 date: 2024-08-17 02:08
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-17-Howtoproveyouareahuman_0.png
 tag: Tech
 originalTitle: "How to prove you are a human"
@@ -11,7 +11,6 @@ link: "https://medium.com/ai-advances/how-to-prove-you-are-a-human-bb3f1eb6e09f"
 isUpdated: true
 updatedAt: 1723864198152
 ---
-
 
 <img src="/assets/img/2024-08-17-Howtoproveyouareahuman_0.png" />
 
@@ -21,7 +20,18 @@ updatedAt: 1723864198152
 
 ❗ 디지털 미디어와 AI에서도 똑같은 일이 벌어지고 있습니다! ❗
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 2024 안티 디자인
 
@@ -31,7 +41,18 @@ updatedAt: 1723864198152
 
 ![2024-08-17-Howtoproveyouareahuman_1.png](/assets/img/2024-08-17-Howtoproveyouareahuman_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 결국 당신이 그것을 어떻게 했는지 우리 모두는 알고 있어요 🤷‍♀️. 키보드의 몇 가지 어리석은 버튼을 누르기만 하면 대규모 기업 프로젝트인 DALL·E나 Midjourney가 모두 당신을 위해 모든 중요한 작업을 해줬어요. 당신의 노력, 기술, 시간이 필요하지 않아요. 이 타입의 완벽하고 흠잡을 데 없는 미디어 콘텐츠가 매력과 인식된 가치를 점차 잃기 시작하는 이유는, 결국에는 누구나 이것을 할 수 있다는 것입니다. 그래서 이러한 막연하고 흠잡을 데 없는 미디어 콘텐츠가 매력을 잃기 시작했어요; 그림이든 글쓰기든 완벽함에 대해 점차 의심을 가지기 시작했거든요.
 
@@ -41,7 +62,18 @@ updatedAt: 1723864198152
 
 아, 인간의 생각, 정말 상쾌해요! 💦🌺
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Hailey Bieber의 Rhode 웹사이트도 마찬가지입니다. 모든 것이 지나치게 확대되어 뒤죽박죽인데, 마치 HTML을 막 배운 컴퓨터 과학 신입생이 개발한 것 같은 느낌이 듭니다. 그럼에도 불구하고 우리는 무의식적으로 그것을 좋아합니다. “Brat”와 Rhode는 다른 비슷한 단순하고 불완전한 디자인과 함께, 신선하고 친밀하며 현대적이고 새로워 보입니다.
 
@@ -51,7 +83,18 @@ Hailey Bieber의 Rhode 웹사이트도 마찬가지입니다. 모든 것이 지�
 
 이 모든 것은 우리가 AI에 대한 내재적인 불신의 결과입니다. 우리는 AI 모델이 거의 확실하게 잘 작동할 것이라는 것을 알고 있지만, 혹시 모르니까 작업을 인간에게 맡겨야 한다고 생각합니다. 우리의 인간이 몇 가지 오타와 굽은 선을 그리더라도, 인간임을 증명하기 위해 그렇게 하는 것이 더 좋습니다. 무의식적으로 우리는 불완전하고 흠잡을 데 있는 것을 선호할 수 있습니다. 왜냐하면 그것이 AI가 만든 것이 아니라는 신호를 불러일으키기 때문입니다. 궁극적으로, 안티-디자인 - 디자인의 부재 - 은 오늘날 미디어의 과잉 생산을 잘 보여줍니다. 대부분의 경우 무의미한 것입니다. 안티-디자인은 사물의 의미와 목적을 다시 강조하려는 시도로, 어떤 심미론적인 디자인 선택에서 위임을 제거합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 인공 지능이 할 수 없는 것들
 
@@ -61,7 +104,18 @@ ChatGPT로 실험해본 결과, 뉴-브루탈리즘 웹 디자인을 만들어�
 
 반대로, 재질 디자인을 훨씬 더 잘 수행했어요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아마도, 만약 무언가가 정말로 다르고 매우 새롭고 세상이 본 적 없는 것과 달리하면, 그것은 AI 모델들의 훈련 데이터에 존재하지 않기 때문에 AI에 의해 생성되지 않았을 가능성이 높습니다. AI 모델은 방대한 훈련 데이터셋에 기반하고 있으며 그 결과로, 이미 그 데이터셋에 존재하는 패턴을 재생산하거나 결합하기 때문에 완전히 새로운 것이나 비상식적인 것을 창조하는 것은 아닙니다. 이러한 모델들은 훈련받은 데이터에 이미 존재하는 아이디어, 스타일 또는 개념을 섞고 매칭할 수 있지만, 그 훈련 데이터의 한계 내에서 운영합니다. AI는 확실히 혁신적인 결과물을 생산할 수 있지만, 보통은 기존 개념의 변형일 뿐입니다. 미술, 음악, 문학과 같은 분야에서는 이러한 결과물들이 상당히 혁신적으로 느껴질 수 있지만, 이는 이미 존재하는 미디어와 유사하거나 그 위에 이끌어져 있기 때문입니다.
 
@@ -71,7 +125,18 @@ ChatGPT로 실험해본 결과, 뉴-브루탈리즘 웹 디자인을 만들어�
 
 그러므로, 뇌-브루탈리즘 디자인을 보면 우리에게 암시되는 두 가지를 살펴봅시다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이것은 매우 적은 웹사이트가 사용하는 디자인 때문에 새롭고 현대적입니다.
 - 이 디자인 스타일의 한정된 예시 수로 인해 AI가 만든 것이 아니라고 추측됩니다. 이로 인해 AI 모델을 훈련하는 것이 어려워집니다.
@@ -82,7 +147,18 @@ ChatGPT로 실험해본 결과, 뉴-브루탈리즘 웹 디자인을 만들어�
 
 그래서, 이러한 유사성과 동질성이 우리 생활의 모든 측면을 점유하는 가운데, 진정성에 대한 욕구가 커지고 있습니다. 생산 라인에서 바로 나온 완벽하고 흠없는 물건 대신, 사람이 만든 불완전한 제품들이 점점 더 인기를 얻고 있습니다. 이들은 무언가 친숙하고 근원적인 것을 상징합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요즘은 알고리즘이 대신 모든 것을 생각해주고 있는 것 같아요. 저희에게 저녁 아이디어를 제안하거나, 패션 영감을 주거나, 광고를 끊임없이 보여주면서 우리의 구매를 이끌어주거나, 공손한 업무 이메일을 작성해주거나, 심지어는 코드를 정리해주기까지 합니다. 그만큼, 가끔씩 실제 독창적인 생각을 목격하는 것이 얼마나 구원적인지 느껴집니다. 에스티에서 판매되는 부서지기 쉬운 머그잔, 못생긴 유튜브 애니메이션, 철자 오류가 있는 텍스트, 이상한 앨범 커버 — 무엇이든 구매할 수 있어요.
 
@@ -92,7 +168,18 @@ ChatGPT로 실험해본 결과, 뉴-브루탈리즘 웹 디자인을 만들어�
 
 💌 저와 함께 Medium, Substack 또는 LinkedIn에서 만나요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 💼 Upwork에서 저를 고용해 주세요!
 

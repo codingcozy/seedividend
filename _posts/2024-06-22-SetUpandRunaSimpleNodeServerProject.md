@@ -3,16 +3,13 @@ title: "간단한 Nodejs 서버 프로젝트 설정 및 실행 방법"
 description: ""
 coverImage: "/assets/img/2024-06-22-SetUpandRunaSimpleNodeServerProject_0.png"
 date: 2024-06-22 14:05
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-SetUpandRunaSimpleNodeServerProject_0.png
 tag: Tech
 originalTitle: "Set Up and Run a Simple Node Server Project"
 link: "https://medium.com/gitconnected/set-up-and-run-a-simple-node-server-project-38b403a3dc09"
 isUpdated: true
 ---
-
-
-
 
 컴퓨터 프로그래밍을 거의 3년째 배우고 있는데, 다른 개발자들을 도울 기술적 지식이 생겨났어요. 그래서 내가 잘 알고 있는 내용을 적어놓아 기억에 도움이 되고 다른 사람들에게도 참고할 수 있게 하려고 했어요. 그래서 뭔가를 시작하기로 했고, 간단하게 시작해보려고 하는데요, Node 애플리케이션을 사용하여 요청에 정적 파일로 응답하는 것부터 시작하려고 해요. 실제로는 경험이 많은 개발자들에게는 간단해 보일 수 있지만, 저는 이 부분을 조금 더 자세히 설명해볼 거에요. 왜냐하면 최소한의 웹 개발 지식이 있는 사람도 이 Node 앱을 시작하고 다음으로 진행할 재미있는 것들에 굳은 기초를 쌓을 수 있도록 하고 싶거든요. 물론 모든 것을 설명할 수는 없어서, 알고 싶다면 때로는 더 배울 수 있는 곳으로 보내줄게요.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 먼저, 전체 과정을 개략적으로 살펴봅시다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - NodeJS 웹사이트로 이동해서 NodeJS를 다운로드하세요.
 - Node와 NPM이 설치되었는지 확인하고 PATH가 정의되어 있는지 확인하세요.
@@ -40,12 +48,23 @@ isUpdated: true
 
 단계 2: Node와 NPM이 설치되었는지 확인하고 PATH가 정의되어 있는지 확인하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 NodeJS를 다운로드하고 설치했다면, 터미널에서 다음 명령어를 실행하여 Node가 제대로 설치되었는지 확인하고 싶을 것입니다:
 
 ```js
-node -v
+node - v;
 ```
 
 이 명령어를 실행하면 다음과 같이 버전 번호가 출력됩니다:
@@ -54,12 +73,23 @@ node -v
 v14.15.0
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Node를 설치하면 Node Package Manager로도 알려진 NPM이 함께 설치됩니다. 명령 줄에서는 Node보다는 NPM과 더 많이 상호 작용할 가능성이 높습니다. 이 기능에 대해 설명하겠지만, 일단은 NPM이 설치되어 있고 PATH가 올바른지 확인하세요. 이를 확인하려면 노드를 확인한 것과 동일한 작업을 수행하세요:
 
 ```js
-npm -v
+npm - v;
 ```
 
 위 명령은 다음과 비슷한 숫자를 반환할 것입니다:
@@ -68,12 +98,23 @@ npm -v
 6.14.8
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사실, 명령 줄에서 대부분의 프로그램을 확인하는 일반적인 기술입니다. 명령 줄 구문에 너무 깊이 들어가지 않고, 대부분의 프로그램은 -v 플래그를 처리할 수 있으므로 명령 줄에서 상호 작용할 때 거의 항상 다음 형식을 따라 작동하는지 확인할 수 있습니다.
 
 ```js
-프로그램명 -v
+프로그램명 - v;
 ```
 
 모든 것이 잘 작동하면 다음 단계에 준비된 것입니다. 만약 다음과 같은 메시지를 받는다면:
@@ -82,7 +123,18 @@ npm -v
 'node'는(은) 내부 또는 외부 명령, 실행할 수 있는 프로그램 또는 배치 파일이 아닙니다.
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우선 해야 할 일은 9/10 번 이 문제가 발생하는 이유입니다. 가능한한 이 게시물을 짧게 유지하기 위해 문제 해결 방법에 대해 자세히 설명하지는 않겠습니다. 그러나 많은 사람들이 온라인에서 물어본 일반적인 문제입니다. Node와 NPM이 작동하는지 확인한 후 다음 단계로 넘어갈 수 있습니다.
 
@@ -92,7 +144,18 @@ npm -v
 
 단계 4: 프로젝트 폴더에서 NPM 실행 시작하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 알겠어요, 그럼 NPM은 무엇인가요? 직접 웹사이트를 방문해서 확인해보세요. 하지만 Node를 배우고 있는 초심자를 위해 간단하게 설명하면, 패키지는 단지 Node 앱과 함께 작동하도록 설계된 프로그램입니다. 웹 앱이 무언가를 수행하거나 몇 가지 로직을 수행하거나 데이터를 조작하거나 다른 서비스와 통신해야 할 때, Node 파일에 직접 모든 코드를 작성하는 대신 패키지를 찾아서 다운로드하고 프로젝트에 추가할 수 있습니다. NPM 패키지를 사용하는 것이 항상 쉽다는 것은 아니라는 것을 의미합니다. 보통 여전히 패키지와 Node 프로젝트 간의 인터페이스를 생성하기 위해 일부 코드를 작성해야 하고 때로 그 코드가 다소 까다로울 수도 있습니다.
 
@@ -104,7 +167,18 @@ npm -v
 
 이 시점에서 다음 정보를 입력하라는 프롬프트가 표시될 것입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 이 유틸리티는 package.json 파일을 생성하는 과정을 안내해줍니다.
@@ -123,8 +197,18 @@ package name: (simple-node-server)
 
 패키지 이름: (simple-node-server)"와 이 설정 과정 중에 나오는 모든 후속 라인은 무엇을 요청하는지를 먼저 말하고 (이 경우 패키지 이름), 오른쪽에는 괄호 안에 값이 있을 수도 있고 비어 있을 수도 있습니다. 괄호 안의 값은 기본값이며, 이러한 각 라인에 대해 기본값을 그대로 사용하거나(비어있는 기본값도 허용됨), 또는 자신의 값을 입력한 후 enter를 누를 수 있습니다. 초보자 대부분은 기본값을 사용합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 설정에 대해 더 알아야 할 사항 하나 더 있어요. 진입점 변수는 대형 프로젝트에서는 보통 여러 서버 파일이 있기 때문에 Node가 앱을 시작할 때 진입점 파일을 사용하지만, 이처럼 간단한 경우에는 하나만 필요해요. Node와 작업을 시작할 때 헷갈렸던 점 중 하나는 주 서버 파일의 다른 이름들이었어요. 가장 흔히 본 것은:
 
@@ -136,8 +220,18 @@ package name: (simple-node-server)
 
 작업을 마치면 터미널이 이와 같이 보일 거에요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-22-SetUpandRunaSimpleNodeServerProject_0.png)
 
@@ -147,8 +241,18 @@ package name: (simple-node-server)
 
 이제 NPM이 프로젝트와 연결되었으므로 명령줄을 사용하여 하나의 NPM 패키지를 설치할 것입니다. 이 특정 패키지는 대부분의 Node 서버 프로젝트에서 사용됩니다. Express.js라고 불리며 Node 자체와 밀접한 관계가 있습니다. 실제로 Express에서 제공하는 객체와 메소드를 사용하여 라우팅, 데이터베이스 통합, 오류 처리, 그리고 프론트엔드 템플릿 사용과 같은 일반적인 웹 개발 프로세스를 쉽게 처리할 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희 루트 프로젝트 폴더에 있는 package.json 파일은 앱에 대한 몇 가지 기본 정보를 담고 있지만, package.json 파일의 가장 일반적인 용도는 다운로드하고 프로젝트에 저장하는 모든 패키지의 레코드를 저장하는 것입니다. 이것은 우리의 프로젝트 코드가 다른 환경에서 실행되기 위해서 (예를 들어 팀과 함께 작업하거나, 오픈 소스 프로젝트를 다른 사람이 자신의 컴퓨터에서 작업할 수 있게 하거나, Amazon Web Services (AWS), Google App Engine (GAE), Heroku 또는 이와 유사한 서비스에 배포하고 싶은 경우) 필요합니다. 다른 환경은 프로젝트에서 사용하는 NPM 패키지를 알아야 하기 때문에 다운로드하고 저장할 수 있어야 합니다. 실제로 package.json이 수행하는 작업은 많지만, 당분간 꼭 알아야 할 것은 프로젝트의 기본 정보와 패키지를 포함한다는 것입니다.
 
@@ -159,7 +263,18 @@ package name: (simple-node-server)
 
 NPM 패키지를 다운로드하고 프로젝트에 설치하려면, 이 경우 express를 사용할 때, 터미널에서 다음 명령을 실행해야 합니다 (이 명령을 실행할 때 프로젝트의 루트 폴더에 있는지 확인하십시오):
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm i -s express
@@ -173,8 +288,18 @@ npm i -s express
 
 Step 6: HTML 파일 생성하기
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트 폴더를 생성한 후에 완료해야 할 두 번째로 간단한 단계가 아닐까 싶어요. 폴더에 확장자 '.html'을 가진 파일을 추가하세요. 일반적으로 기본 html 파일의 이름은 'index.html'로 지정하지만, 이건 절대적인 규칙이 아니기 때문에 자유롭게 이름을 정하셔도 됩니다.
 
@@ -184,7 +309,18 @@ Step 6: HTML 파일 생성하기
 
 프로젝트의 루트 폴더에 'index.js'라는 파일을 만들어주세요. 그렇습니다, 이제 루트 폴더 안에 'index.html' 파일과 'index.js' 파일이 모두 있게 될 거에요. 헷갈린다면, 조금 익숙해지기까지 조금 걸릴 수 있지만, 실제로는 노드가 서버를 시작하거나 페이지를 렌더링하는 과정에서 문제가 발생했을 때 디버깅에 유용할 수 있어요. 이 규칙은:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다양한 프론트엔드 프레임워크들, Handlebars와 같은 템플릿 엔진부터 React와 같은 JavaScript 프레임워크까지, 이를 활용하여 특정 폴더를 살펴 index.js 파일을 해당 디렉토리의 진입점으로 사용합니다.
 
@@ -195,7 +331,18 @@ Step 6: HTML 파일 생성하기
 
 이것이 적절히 요청-응답 주기라고 불리는 것의 가장 간단한 설명이며, 대부분 인터넷이 작동하는 방식입니다. 따라서 우리는 서버를 이렇게 설정해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 노드/익스프레스 앱에서는 다음과 같이 작업을 수행합니다:
 
@@ -209,7 +356,18 @@ Step 6: HTML 파일 생성하기
 
 - Node 파일에 종속성을 가져오려면 다음 형식을 따라야 합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const <variable-name> = require('<name-of-package>');
@@ -227,7 +385,18 @@ const <variable-name> = require('<name-of-package>');
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요렇게 table 태그를 Markdown 형식으로 변경해보세요.
 
@@ -241,7 +410,18 @@ const app = express();
 
 - 이 코드의 역할은 바로 위 줄에서 가져온 의존성을 실행하는 것뿐입니다. 그 의존성은 앱 객체를 내보내며 그 앱 객체가 app이라는 상수 변수에 저장됩니다. 이 앱 객체가 Express 코드를 보유하며, 여기서 가장 많은 상호작용을 할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. 이건 쉬워요. 일단 변수 port에 포트 번호를 저장해 보세요. 3000에서 8000 사이의 숫자라면 어떤 숫자든 괜찮아요. 대부분의 사람들은 3000이나 8000을 주로 사용해요.
 
@@ -258,21 +438,43 @@ const port = 5000;
 - app.use()
 - app.all()
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가장 흔한 함수 중 하나는 app.get()입니다. 이 함수는 GET 요청에 사용되며, 웹사이트에 방문할 때마다 실행됩니다. GET 요청은 인터넷에서 가장 흔한 종류이므로 app.get()를 살펴보겠습니다. Express 문서에서는 다음과 같이 정의하고 있습니다:
 
 그리고 이에 대한 예시를 보여줍니다:
 
 ```js
-app.get('/', function (req, res) {
-  res.send('GET request to homepage')
-})
+app.get("/", function (req, res) {
+  res.send("GET request to homepage");
+});
 ```
 
 이 정의를 보면 app.get() 함수가 path와 콜백 함수 두 가지 인수를 받을 것으로 예상됩니다. 예시에서는 두 개의 인수가 있는 것을 볼 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - `/` = 경로
 - function (req, res) ' res.send(`홈페이지로의 GET 요청`)' = 콜백 함수
@@ -284,24 +486,46 @@ Express에서는 많은 미들웨어가 다른 곳에 정의되어 이름과 함
 - req와 res 두 가지 인수를 가지고 있어요. 이것들은 새로운 요청-응답 주기 동안 다양한 작업을 수행하는 데 도움이 되는 내장 객체들이에요. Express는 이를 미들웨어 함수에서 기대하고 있어요. 현재는 req 객체를 사용하지는 않지만, 앱에 입력이나 URL 인코딩된 데이터 (URL에 서버로 전달되는 데이터)가 있는 경우 req 객체를 통해 해당 정보에 액세스할 수 있어요. res 객체는 서버가 응답을 보낼 때 사용할 객체에요. 중요한 점은 꼭 req와 res로 명명할 필요가 없다는 점이에요. Express는 req와 res 대신 사용하는 이름을 사용할 것이지만, 문서는 모두 req와 res를 참조하고 있고, 대부분의 Node 서버가 이 관례를 따르고 있기 때문에 그대로 따르는 것이 좋을 거예요.
 - 이 함수는 대부분 미들웨어로 간주되는 것들과 약간 다르다는 점에 유의해야 해요. 왜냐하면 대부분의 미들웨어는 Express에게 다음 미들웨어로 계속 진행하라고 말하는 next 인수를 가지고 있는데, 이 함수는 res.sendFile()를 호출하기 때문에 요청-응답 주기의 끝을 의미하고, 서버는 해당 요청을 완료한 상태에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 res.sendFile()에 대해 더 알고 싶다면 문서를 참조해보세요. 하지만 지금 당장 알아두어야 할 점은 다음과 같습니다.
 
 ```js
-res.sendFile('<file-name>', {root: __dirname});
+res.sendFile("<file-name>", { root: __dirname });
 ```
 
 이것이 서버 파일(index.js)이 있는 같은 폴더(루트)에서 파일을 전송하는 방법입니다.
 
 5. 마지막으로, 서버가 들어오는 요청을 수신하기로 약속하려면 코드를 설정해야 합니다. Express의 app 객체에는 이를 수행하는 app.listen()이라는 함수가 있습니다. 모든 매개변수는 옵션으로, 포트 번호를 포함한 것들입니다. 하지만 일반적으로 포트 번호가 적어도 하나 보이며 종종 콜백 함수도 함께 전달됩니다. 제가 앱에서 사용하는 app.listen()의 전체 버전은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 app.listen(port, () => {
-    console.log(`Now listening on port ${port}`);
-}); 
+  console.log(`Now listening on port ${port}`);
+});
 ```
 
 알았어요, 이것을 자세히 살펴보고 마무리하도록 하죠.
@@ -312,7 +536,18 @@ app.listen(port, () => {
 
 총으로, 당신의 index.js 파일은 이렇게 보일 것입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단계 8: Node 서버 시작하기
 
@@ -324,8 +559,18 @@ node index.js
 
 콘솔에 원하는 포트 번호가 표시된 console.log 메시지가 표시되어야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](https://miro.medium.com/v2/resize:fit:1400/1*Oqa--bT2xy4bNeErxLWxpA.gif)
 
@@ -337,9 +582,20 @@ Step 9: 방문하고자하는 (로컬) 사이트 방문하기!
 localhost:<포트번호>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-웹 페이지에서 포함한 내용을 얻을 수 있어요! 첫 번째 노드 사이트를 호스팅했군요! 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+웹 페이지에서 포함한 내용을 얻을 수 있어요! 첫 번째 노드 사이트를 호스팅했군요!
 
 이 튜토리얼은 어떠셨나요? 모든 단계를 따라가고 로컬에서 간단한 HTML 페이지를 실행할 수 있었나요? 혼란스러운 용어가 있었다면 무엇이었나요? 댓글로 알려주세요.
 
@@ -347,7 +603,18 @@ localhost:<포트번호>
 
 우리 커뮤니티에 참여해 주셔서 감사합니다! 떠나시기 전에:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 👏 이야기에 박수를 보내고 저자를 팔로우하세요 👉
 - 📰 Level Up Coding 게시물에서 더 많은 콘텐츠 확인하기

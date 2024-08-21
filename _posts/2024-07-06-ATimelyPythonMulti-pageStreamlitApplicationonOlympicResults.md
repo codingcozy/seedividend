@@ -3,15 +3,13 @@ title: "최신 파이썬 멀티페이지 Streamlit 애플리케이션으로 올�
 description: ""
 coverImage: "/assets/img/2024-07-06-ATimelyPythonMulti-pageStreamlitApplicationonOlympicResults_0.png"
 date: 2024-07-06 10:27
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-06-ATimelyPythonMulti-pageStreamlitApplicationonOlympicResults_0.png
 tag: Tech
 originalTitle: "A Timely Python Multi-page Streamlit Application on Olympic Results"
 link: "https://medium.com/gitconnected/a-timely-python-multi-page-streamlit-application-on-olympic-results-fb6d63c14ddd"
 isUpdated: true
 ---
-
-
 
 /assets/img/2024-07-06-ATimelyPythonMulti-pageStreamlitApplicationonOlympicResults_0.png
 
@@ -21,7 +19,18 @@ Streamlit은 데이터 과학자들이 쉽게 대화형 웹 애플리케이션�
 
 Plotly와 같은 데이터 시각화 라이브러리와 결합하면 몇 줄의 코드로 아름다운 차트와 지도를 만들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 글에서는 Streamlit을 사용하여 올림픽 메달 데이터를 시각화하는 멀티페이지 대화형 애플리케이션을 만드는 방법을 안내하겠습니다.
 
@@ -33,7 +42,18 @@ Plotly와 같은 데이터 시각화 라이브러리와 결합하면 몇 줄의 
 
 시작해봅시다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 데이터 세트
 

@@ -3,16 +3,13 @@ title: "Spring Boot 3 애플리케이션에서 JWT 인증 구현 방법"
 description: ""
 coverImage: "/assets/img/2024-07-07-ImplementJWTauthenticationinaSpringBoot3application_0.png"
 date: 2024-07-07 02:35
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-ImplementJWTauthenticationinaSpringBoot3application_0.png
 tag: Tech
 originalTitle: "Implement JWT authentication in a Spring Boot 3 application"
 link: "https://medium.com/@tericcabrel/implement-jwt-authentication-in-a-spring-boot-3-application-5839e4fd8fac"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-07-07-ImplementJWTauthenticationinaSpringBoot3application_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 이 글에서는 Spring Boot 3 애플리케이션에서 JWT 인증을 구현하는 방법에 대해 알아볼 거에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 만들 것
 
@@ -35,7 +43,18 @@ API는 인증 없이 접근 가능한 경로와 인증이 필요한 경로를 �
 
 "/auth/signup" 및 "/auth/login" 경로에는 인증 없이 액세스할 수 있지만, "users/me" 및 "users"는 인증이 필요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 전제 조건
 
@@ -48,11 +67,20 @@ API는 인증 없이 접근 가능한 경로와 인증이 필요한 경로를 �
 
 MySQL 8을 위해 Docker를 사용하여 컨테이너를 실행해야 합니다. 컴퓨터에 MySQL이 이미 설치되어 있는 경우 Docker를 건너뛸 수 있습니다. MySQL 이미지에서 Docker 컨테이너를 시작하려면 아래 명령을 실행하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 docker run -d -e MYSQL_ROOT_PASSWORD=secret -e MYSQL_DATABASE=taskdb --name mysqldb -p 3307:3306 mysql:8.0
-
 
 # 프로젝트 설정하기
 
@@ -63,8 +91,18 @@ Spring Boot 프로젝트를 설정하는 데 필요한 네 가지 종속성은 �
 - Spring Data JPA: Spring Data 및 Hibernate를 사용하여 Java Persistence API로 SQL 저장소에 데이터를 지속할 수 있습니다.
 - MySQL Driver for Java: MySQL 드라이버를 사용하면 Java 애플리케이션에서 데이터베이스와 상호 작용할 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Spring Boot 온라인 프로젝트 시작기는 이러한 종속성으로 프로젝트를 생성하는 데 도움이 되며, 새 프로젝트를 생성하려면 start.spring.io URL로 이동하세요.
 
@@ -74,7 +112,18 @@ Spring Boot 온라인 프로젝트 시작기는 이러한 종속성으로 프로
 
 "생성" 버튼을 클릭하여 프로젝트를 다운로드하고, IDE에서 열고 Maven 종속성을 설치하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 데이터베이스 연결 구성
 
@@ -94,7 +143,18 @@ spring.jpa.open-in-view=false
 
 명령어 `mvn spring-boot:run`으로 애플리케이션을 실행하세요. 웹 애플리케이션이 8005 포트에서 시작됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-07-ImplementJWTauthenticationinaSpringBoot3application_2.png" />
 
@@ -104,7 +164,18 @@ spring.jpa.open-in-view=false
 
 애플리케이션에서 JWT 토큰을 인코딩, 디코딩 및 유효성 검사하기 위한 라이브러리가 필요합니다. 우리는 JJWT를 사용할 것이므로 "pom.xml"을 열고 다음 코드를 "dependencies" XML 태그 안에 추가해주세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <dependencies>
@@ -133,7 +204,18 @@ spring.jpa.open-in-view=false
 
 사용자 엔티티를 만들어 사용자가 데이터베이스에 저장되어 시스템에 액세스하는 사용자임을 확인하겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시스템에서 사용자를 정의하는 첫 번째 단계는 JPA Entity를 생성하여 관련 테이블을 데이터베이스에 생성하는 것입니다. 데이터베이스 변경 내역을 추적하는 것이 좋으므로 Flyway를 사용하여 데이터베이스 마이그레이션을 처리하는 방법에 대해 포스트를 작성했습니다.
 
@@ -172,14 +254,25 @@ public class User {
     @UpdateTimestamp
     @Column(name = "updated_at")
     private Date updatedAt;
-    
+
     // Getters and setters
 }
 ```
 
 repositories 패키지 내부에 UserRepository.java 파일을 생성하여 User 엔티티에 대한 데이터 액세스 레이어를 나타내는 파일을 추가하세요. 아래 코드를 추가하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 package com.tericcabrel.authapi.repositories;
@@ -202,8 +295,18 @@ public interface UserRepository extends CrudRepository<User, Integer> {
 
 <img src="/assets/img/2024-07-07-ImplementJWTauthenticationinaSpringBoot3application_3.png" />
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 사용자 엔터티를 인증 세부 정보와 확장하세요
 
@@ -270,12 +373,23 @@ public class User implements UserDetails {
     public boolean isEnabled() {
         return true;
     }
-    
+
     // Getter 및 Setter 메서드
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "getAuthorities()" 메소드는 사용자의 역할 목록을 반환합니다. 권한을 관리하는 데 유용합니다. 역할 기반 액세스 제어에 대해서 다루지 않을 것이므로 빈 목록을 반환합니다.
 
@@ -285,7 +399,18 @@ public class User implements UserDetails {
 
 JSON Web 토큰을 생성, 해독 또는 유효성 검사하려면 미리 설치한 라이브러리를 사용하는 관련 메소드를 노출해야 합니다. 그러기 위해 JwtService라는 서비스 클래스를 만들어 그룹화할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 패키지 services를 만든 후 JwtService.java 파일을 추가하고 아래 코드를 붙여넣으십시오:
 
@@ -384,7 +509,18 @@ public class JwtService {
 
 JWT 토큰을 생성하려면 비밀 키와 토큰 만료 시간이 필요합니다. 이 값들은 어노테이션 @Value를 사용하여 애플리케이션 구성 속성 파일에서 읽습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 값들을 정의하려면 application.properties를 업데이트해야 합니다:
 
@@ -398,7 +534,18 @@ security.jwt.expiration-time=3600000
 
 토큰 만료 시간은 밀리초 단위로 표시되므로 토큰이 너무 빨리 만료되지 않도록 주의하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 보안 구성 재정의하기
 
@@ -409,7 +556,18 @@ security.jwt.expiration-time=3600000
 
 구현을 재정의하려면 configs 패키지를 생성하고 ApplicationConfiguration.java 파일을 추가하며 아래 코드를 추가해봅시다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 package com.tericcabrel.authapi.configs;
@@ -468,7 +626,18 @@ public class ApplicationConfiguration {
 
 `authenticationProvider()` 메서드는 인증을 수행하는 새로운 전략을 설정합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 단계에서 애플리케이션을 다시 실행하면 이전과 같이 콘솔에 생성된 암호를 볼 수 없습니다. 인증 방법을 성공적으로 무효화했습니다.
 
@@ -479,7 +648,18 @@ public class ApplicationConfiguration {
 - 토큰이 유효하지 않으면 요청을 거부하거나 그렇지 않으면 계속합니다.
 - 토큰이 유효하면 사용자 이름을 추출하여 데이터베이스에서 관련 사용자를 찾고 인증 컨텍스트에 설정하여 애플리케이션 레이어에서 액세스할 수 있도록 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 패키지 구성에서 JwtAuthenticationFilter.java 파일을 생성하고 아래 코드를 추가해주세요. 이전에 설명한 모든 것을 구현하는 코드입니다:
 
@@ -566,7 +746,18 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
 
 # 애플리케이션 요청 필터 구성하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요청이 전달되기 전에 수신 요청이 일치해야 하는 기준을 정의하는 작업이 남았습니다. 필요한 기준은 다음과 같습니다:
 
@@ -646,7 +837,18 @@ public class SecurityConfiguration {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리의 인증이 완료되어 테스트 준비가 되었습니다.
 
@@ -656,7 +858,18 @@ public class SecurityConfiguration {
 
 ' dtos ' 라는 새로운 패키지를 만들어서 두 작업에 대한 DTO를 포함하도록 하겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래의 코드를 포함하는 RegisterUserDto.java 파일을 생성하세요.
 
@@ -665,11 +878,11 @@ package com.tericcabrel.authapi.dtos;
 
 public class RegisterUserDto {
     private String email;
-    
+
     private String password;
-    
+
     private String fullName;
-    
+
     // 여기에 게터 및 세터 추가...
 }
 ```
@@ -681,14 +894,25 @@ package com.tericcabrel.authapi.dtos;
 
 public class LoginUserDto {
     private String email;
-    
+
     private String password;
-    
+
     // 여기에 게터 및 세터 추가...
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 DTO에 유효성 검사를 적용하지 않았어요. 요약해서 표시하려고 그렇게 했어요. 아래 블로그 글을 통해 전체 포스트를 보고 싶다면 자세한 내용을 확인할 수 있어요:
 
@@ -709,9 +933,9 @@ import org.springframework.stereotype.Service;
 @Service
 public class AuthenticationService {
     private final UserRepository userRepository;
-    
+
     private final PasswordEncoder passwordEncoder;
-    
+
     private final AuthenticationManager authenticationManager;
 
     public AuthenticationService(
@@ -749,7 +973,18 @@ public class AuthenticationService {
 
 # 사용자 등록 및 인증 라우트 생성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 사용자 등록 및 인증을 위해 /auth/signup 및 /auth/login 라우트를 생성할 수 있습니다.
 
@@ -772,7 +1007,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class AuthenticationController {
     private final JwtService jwtService;
-    
+
     private final AuthenticationService authenticationService;
 
     public AuthenticationController(JwtService jwtService, AuthenticationService authenticationService) {
@@ -802,7 +1037,18 @@ public class AuthenticationController {
 
 인증 요청은 LoginResponse 인스턴스를 반환하며, 아래에 해당 파일의 코드가 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 public class LoginResponse {
@@ -824,7 +1070,18 @@ public class LoginResponse {
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1400/1*oJmtbddlVxEsDk_LACCDpQ.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 우리가 등록한 사용자로 인증을 시도해 봅시다. 요청 본문에 정보를 넣어 /auth/login으로 POST 요청을 보내세요.
 
@@ -834,7 +1091,18 @@ public class LoginResponse {
 
 JWT 토큰을 제공하면 /users/me 및 /users 엔드포인트는 각각 인증된 사용자와 모든 사용자의 목록을 반환합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 코드를 사용하여 UserController.java 파일을 작성하고 아래 코드를 추가해주세요:
 
@@ -883,7 +1151,18 @@ public class UserController {
 
 컨트롤러에 주입된 UserService는 데이터베이스에서 사용자 목록을 검색하고 반환하는 allUsers() 함수를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 구현을 테스트하기 전에 services 패키지에 UserService.java 파일을 만들고 아래 코드를 추가해봅시다:
 
@@ -919,7 +1198,18 @@ public class UserService {
 
 애플리케이션을 다시 실행하고 아래 시나리오를 따라해보세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - `/users/me` 및 `/users`에 GET 요청을 보내면 403 오류가 발생합니다.
 - `/auth/login`에 POST 요청으로 인증하고 JWT 토큰을 얻습니다.
@@ -931,7 +1221,18 @@ public class UserService {
 
 API에서 미인증 사용자의 액세스를 방지하거나 인증 자격 증명이 유효하지 않을 때 상태 오류를 반환합니다. 그러나 API를 사용하는 개발자들에게 더 많은 세부 정보를 제공할 추가적인 메시지가 없습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-07-ImplementJWTauthenticationinaSpringBoot3application_4.png" />
 
@@ -945,7 +1246,18 @@ API에서 미인증 사용자의 액세스를 방지하거나 인증 자격 증�
 
 이러한 오류를 처리하기 위해 예외를 catch하고 클라이언트에게 보내기 위한 응답을 사용자 정의할 수 있는 Spring 글로벌 예외 처리기를 사용해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 패키지 예외를 생성한 다음 GlobalExceptionHandler.java라는 파일을 작성하고 아래 코드를 추가하세요:
 
@@ -1012,7 +1324,18 @@ public class GlobalExceptionHandler {
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/1*Rj0A5m958yQsrGFHR9bsOg.gif" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 마무리
 
@@ -1026,7 +1349,18 @@ public class GlobalExceptionHandler {
 
 이 구현을 통해 API를 보호하는 기본 기능을 갖추었으며, 사용자 역할과 권한에 따라 리소스 액세스를 제한하는 내 튜토리얼을 따라 역할 기반 액세스 제어(RBAC)를 구현하여 한 걸음 더 나아갈 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 GitHub 저장소에서 코드 소스를 찾을 수 있어요.
 

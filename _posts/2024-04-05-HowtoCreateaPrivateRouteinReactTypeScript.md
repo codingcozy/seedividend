@@ -3,17 +3,13 @@ title: "React 및 TypeScript에서 private route를 만드는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How to Create a Private Route in React  TypeScript"
 link: "https://medium.com/stackademic/how-to-create-a-private-route-in-react-typescript-d43e2b162d46"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/HowtoCreateaPrivateRouteinReactTypeScript_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 시작해 봅시다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](https://miro.medium.com/v2/resize:fit:620/1*-YT_3SovqaKE7fKo5_8ehw.gif)
 
@@ -38,12 +45,9 @@ interface AuthContextProps {
   logoutUser: () => void;
 }
 
-const AuthContext =
-  (createContext < AuthContextProps) | (undefined > undefined);
+const AuthContext = (createContext < AuthContextProps) | (undefined > undefined);
 
-export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({
-  children,
-}) => {
+export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
 
   const loginUser = () => {
@@ -56,11 +60,7 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({
     setIsAuthenticated(false);
   };
 
-  return (
-    <AuthContext.Provider value={{ isAuthenticated, loginUser, logoutUser }}>
-      {children}
-    </AuthContext.Provider>
-  );
+  return <AuthContext.Provider value={{ isAuthenticated, loginUser, logoutUser }}>{children}</AuthContext.Provider>;
 };
 
 export const useAuth = (): AuthContextProps => {
@@ -74,7 +74,18 @@ export const useAuth = (): AuthContextProps => {
 
 이제 비공개 라우트 컴포넌트를 생성해봅시다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 //privateRoute.tsx
@@ -96,7 +107,18 @@ export default PrivateRoute;
 
 userContext 파일을 올바르게 import하는지 확인하십시오. 사용자가 로그인없이 보호된 경로에 액세스하려는 경우, 로그인 페이지로 다시 리디렉션됩니다. `Outlet` 컴포넌트는 react-router-dom v6에서 소개된 컴포넌트입니다. (v6 이전에 이 방법이 어떻게 수행되었는지 알아보려면 이 문서를 참조하세요.)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 마지막으로 app.tsx 파일에서,
 
@@ -131,7 +153,18 @@ App 컴포넌트에서, 우리는 전체 앱에 인증 컨텍스트를 제공하
 
 플레이스홀더 컴포넌트(HomePage 및 LoginPage)를 실제 컴포넌트로 교체해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 설정을 통해 사용자는 인증되지 않은 상태로 비공개 경로에 액세스하려고 시도하면 로그인 페이지로 리디렉션됩니다. 그렇지 않으면 보호된 콘텐츠에 액세스할 수 있습니다.
 
@@ -141,4 +174,15 @@ App 컴포넌트에서, 우리는 전체 앱에 인증 컨텍스트를 제공하
 
 ![image](https://miro.medium.com/v2/resize:fit:996/1*XgO-vcD9WTFom8ivoObb4w.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

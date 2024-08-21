@@ -3,15 +3,13 @@ title: "JavaScript로 DOM 조작 마스터하기 기본과 베스트 프랙티�
 description: ""
 coverImage: "/assets/img/2024-07-09-MasteringDOMManipulationwithJavaScriptBasicsandBestPractices_0.png"
 date: 2024-07-09 14:20
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-MasteringDOMManipulationwithJavaScriptBasicsandBestPractices_0.png
 tag: Tech
 originalTitle: "Mastering DOM Manipulation with JavaScript: Basics and Best Practices"
 link: "https://medium.com/@amitmishraam941/mastering-dom-manipulation-with-javascript-basics-and-best-practices-e65775984648"
 isUpdated: true
 ---
-
-
 
 ![2024-07-09-MasteringDOMManipulationwithJavaScriptBasicsandBestPractices_0.png](/assets/img/2024-07-09-MasteringDOMManipulationwithJavaScriptBasicsandBestPractices_0.png)
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 DOM은 HTML 문서의 구조를 노드로 표현한 트리 구조를 나타내며, 각 요소는 노드로 표시됩니다. JavaScript는 이러한 노드에 액세스하고 조작할 수 있는 강력한 API를 제공하여 개발자가 웹 페이지의 내용, 구조 및 스타일을 동적으로 업데이트할 수 있도록 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## DOM 요소 선택하기:
 
@@ -41,7 +50,18 @@ const buttons = document.querySelectorAll("button");
 
 ## DOM 요소 수정하기:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 선택한 요소를 사용하여 JavaScript 메서드와 속성을 사용하여 내용, 속성 및 스타일을 조작할 수 있습니다.
 
@@ -63,7 +83,18 @@ container.appendChild(newParagraph);
 
 이벤트 처리는 대화식 웹 애플리케이션을 구축하는 데 중요합니다. JavaScript를 사용하면 사용자의 클릭, 키 입력 및 마우스 움직임과 같은 동작에 대응하기 위해 DOM 요소에 이벤트 리스너를 추가할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 클릭 이벤트 리스너 추가
@@ -83,7 +114,18 @@ DOM 조작 시 유지보수 가능하고 효율적인 코드를 작성하려면 
 
 1. DOM 요소 캐시하기: 자주 액세스하는 요소에 대한 참조를 저장하여 DOM 탐색을 최소화하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 이벤트 위임 사용하기: 부모 요소에 이벤트 리스너를 추가하여 여러 자식 요소의 이벤트를 효율적으로 처리하세요.
 

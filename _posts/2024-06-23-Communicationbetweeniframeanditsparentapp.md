@@ -3,16 +3,13 @@ title: "iframe과 부모 앱 간의 통신 방법"
 description: ""
 coverImage: "/assets/img/2024-06-23-Communicationbetweeniframeanditsparentapp_0.png"
 date: 2024-06-23 14:34
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-Communicationbetweeniframeanditsparentapp_0.png
 tag: Tech
 originalTitle: "Communication between iframe and it’s parent app"
 link: "https://medium.com/@thinuwanwickramaarachchi/communication-between-iframe-and-its-parent-app-ed39ba65cde1"
 isUpdated: true
 ---
-
-
-
 
 여기에서는 iframe과 해당 부모 앱 간의 통신이 가능한 방법을 간단히 설명하고 있어요.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 ## 시나리오 1 - 부모와 iframe이 동일한 출처를 가지고 있으며 부모 및 자식 모두를 제어할 수 있는 경우
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, 부모는 www.abc.com을 가지고 있고 자식은 www.abc.com/child를 가지고 있습니다.
 
@@ -45,16 +53,27 @@ const iframe = document.getElementById("iframe");
 iframe.contentWindow.childCallback();
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Child - Parent
 
 ```js
 // Parent 앱에서
 // window 객체에 메소드를 바인딩합니다.
-window.parentCallback = function() {
-  console.log('자식이 부모 메소드를 호출합니다');
-}
+window.parentCallback = function () {
+  console.log("자식이 부모 메소드를 호출합니다");
+};
 
 // Child 앱에서
 // window 객체를 통해 메소드를 호출하세요
@@ -65,7 +84,18 @@ window.parent.parentCallback();
 
 소스코드(간단한 리액트 앱) - https://github.com/thinugigs/-Iframe-test-same-origin
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 시나리오 2 - 부모와 아이프레임이 서로 다른 출처를 가지고 있고 부모와 자식 요소를 모두 제어할 수 있는 경우
 
@@ -75,18 +105,29 @@ window.parent.parentCallback();
 
 부모 - 자식
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 자식 애플리케이션에서
 // 윈도우 객체에 메시지 이벤트 리스너를 연결합니다
-window.addEventListener("message", function(event) {
-  console.log('부모가 자식 메소드 호출 중');
+window.addEventListener("message", function (event) {
+  console.log("부모가 자식 메소드 호출 중");
 });
 
 // 부모 애플리케이션에서
 // iframe만 로드합니다
-<iframe id='iframe' src="http://www.xyz.com"/>
+<iframe id="iframe" src="http://www.xyz.com" />;
 // iframe 창을 통해 메시지를 전송합니다
 const iframeWindow = document.getElementById("iframe").contentWindow;
 iframeWindow.postMessage("", "*");
@@ -97,8 +138,8 @@ iframeWindow.postMessage("", "*");
 ```js
 // 부모 애플리케이션에서
 // 윈도우 객체에 메시지 이벤트 리스너를 연결합니다
-window.addEventListener("message", function(event) {
-  console.log('자식이 부모 메소드 호출 중');
+window.addEventListener("message", function (event) {
+  console.log("자식이 부모 메소드 호출 중");
 });
 
 // 부모 애플리케이션에서
@@ -108,8 +149,18 @@ parent.postMessage("", "*");
 
 샘플 데모 - https://thinugigs-iframe-test-different-origin-parent.web.app/
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 원본(간단한 html 앱입니다) - https://github.com/thinugigs/-iframe-test-different-origins
 

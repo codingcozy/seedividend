@@ -3,17 +3,13 @@ title: "윈도우 IIS 서버에 NextJs 애플리케이션을 배포하는 방법
 description: ""
 coverImage: "/assets/img/2024-05-20-DeployingNextJsApplicationonWindowsIISServer_0.png"
 date: 2024-05-20 22:10
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-20-DeployingNextJsApplicationonWindowsIISServer_0.png
 tag: Tech
 originalTitle: "Deploying NextJs Application on Window’s IIS Server"
 link: "https://medium.com/@patrick.jakobsen/deploying-nextjs-application-on-windows-iis-server-60793f416eb1"
 isUpdated: true
 ---
-
-
-
-
 
 ![Deploying Next.js Application on Windows IIS Server](/assets/img/2024-05-20-DeployingNextJsApplicationonWindowsIISServer_0.png)
 
@@ -22,9 +18,19 @@ NextJS는 단일 페이지 애플리케이션을 만들기 위한 서버 측 렌
 # 서버 측 렌더링이란?
 
 서버 측 렌더링(SSR)은 프런트엔드 프레임워크가 웹페이지를 준비하기 위해 사용자별 데이터를 서버 측에서 가져와 사용자 화면으로 보내는 능력입니다. 사용자에게 표시하기 위해 클라이언트 측에서 웹페이지를 준비하는 대신에 서버 측에서 웹페이지를 준비합니다.
- 
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 NextJS에서는 서버에서 페이지를 렌더링하거나 일반적인 create-react-app SPA처럼 클라이언트 측에서 렌더링할 수 있는 옵션이 있습니다.
 
@@ -34,7 +40,18 @@ NextJS에서는 서버에서 페이지를 렌더링하거나 일반적인 create
 
 NextJS 프레임워크는 NodeJS 기반으로 만들어졌습니다. 아시다시피, NodeJS는 서버 측에서 페이지를 준비하기 위해 사용되는 NextJS 애플리케이션에 강력함을 제공하는 백엔드 JavaScript 런타임 환경입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # NextJS 애플리케이션 배포하기
 
@@ -44,7 +61,18 @@ Windows IIS에서 Next.js 애플리케이션을 호스팅하는 방법을 여러
 
 저희는 iisnode을 사용하려고 해요. iisnode은 C++로 작성된 오픈 소스 네이티브 IIS 모듈로, Node.js를 Windows IIS 내에서 실행할 수 있게 해줘요. 저희는 IIS 서버 배포 방식으로 Node.js를 사용할 거에요. 그러려면 Server.js와 web.config 두 파일이 필요하답니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금 application의 진입점인 server.js를 만들어보겠습니다:
 
@@ -129,7 +157,7 @@ app.prepare().then(() => {
         </rule>
       </rules>
     </rewrite>
-    
+
     <!-- 'bin' 디렉토리는 node.js에서 특별한 의미가 없으며, 앱을 그 안에 배치할 수 있음 -->
     <security>
       <requestFiltering>
@@ -156,7 +184,18 @@ app.prepare().then(() => {
 </configuration>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 구성 파일을 추가한 후에는 package.json을 약간 변경해야 합니다. npm run start가 서버를 시작하도록 설정되어야 하며 next start를 사용하지 않아야 합니다. 다음은 package.json 스크립트가 보이는 방식입니다:
 
@@ -173,7 +212,18 @@ server.js를 추가하고 web.config를 추가한 후 npm run build를 실행하
 
 ![애플리케이션 루트 폴더](/assets/img/2024-05-20-DeployingNextJsApplicationonWindowsIISServer_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # IIS에서 NextJS 애플리케이션을 배포하는 방법
 
@@ -183,6 +233,17 @@ IIS에서 웹 서버를 시작하면 자동으로 iisnode이라는 새 폴더가
 
 만약 배포 폴더가 C:/ 드라이브의 wwwroot에 있다면 전체 폴더에 대해 IIS_Users에게 읽기/쓰기 권한을 명시적으로 부여해야 할 수 있습니다. 다른 예상치 못한 오류가 발생하는 경우, 댓글을 남기거나 내 Discord @pallepadehat을 추가해주세요. 도와드릴게요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 Github Repo에서 소스 코드를 확인할 수 있어요.

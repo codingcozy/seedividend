@@ -3,16 +3,13 @@ title: "Firebase와 Nodejs를 사용한 푸시 알림 설정 방법"
 description: ""
 coverImage: "/assets/img/2024-06-22-PushNotificationusingfirebaseandnode-js_0.png"
 date: 2024-06-22 13:59
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-PushNotificationusingfirebaseandnode-js_0.png
 tag: Tech
 originalTitle: "P ush Notification using firebase and node-js."
 link: "https://medium.com/@Bisal.r/push-notification-using-firebase-and-node-js-7508f61fa25c"
 isUpdated: true
 ---
-
-
-
 
 ## 이 설명서는 Firebase Admin SDK를 사용하여 Node.js 애플리케이션에 Firebase Cloud Messaging (FCM) 푸시 알림을 구현하는 단계별 가이드를 제공합니다.
 
@@ -22,7 +19,18 @@ Firebase 푸시 알림을 찾느라 지쳤다면, 여기에서 간단하게 구�
 
 시작하기 전에 다음 사항을 준비해야 합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Firebase 콘솔 (https://console.firebase.google.com)에서 생성된 Firebase 프로젝트.
 - 개발 컴퓨터에 Node.js가 설치되어 있어야 합니다 (https://nodejs.org).
@@ -33,7 +41,18 @@ Node.js 애플리케이션에서 푸시 알림을 보내려면 Firebase Admin SD
 
 다음 명령어를 사용하여 설치하세요: "npm install firebase-admin"
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 2: Firebase Admin SDK 설정하기
 
@@ -45,7 +64,18 @@ Node.js 애플리케이션에서 푸시 알림을 보내려면 Firebase Admin SD
 
 ![이미지2](/assets/img/2024-06-22-PushNotificationusingfirebaseandnode-js_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 알림 유형:-
 
@@ -55,7 +85,18 @@ Node.js 애플리케이션에서 푸시 알림을 보내려면 Firebase Admin SD
 
 ![push notification using firebase and node-js](/assets/img/2024-06-22-PushNotificationusingfirebaseandnode-js_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파이어베이스 클라우드 메시징(FCM)에서는 Firebase Cloud Messaging 토큰(일반적으로 "등록 토큰"으로 불리는)이 중요한 역할을 합니다. 이 토큰은 특정 기기 또는 사용자와 관련된 고유 식별자로, 애플리케이션에서 푸시 알림을 올바른 수신자에게 라우팅하는 데 사용됩니다. 아래에서 이 역할과 어디서 토큰을 얻을 수 있는지 살펴보겠습니다:
 
@@ -67,7 +108,18 @@ Firebase Cloud Messaging 토큰의 역할:
 
 Firebase Cloud Messaging 토큰을 얻는 곳:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Firebase Cloud Messaging 토큰은 일반적으로 클라이언트 측(즉, 모바일 앱 내)에서 얻어지고, 이후 서버로 전송되어 저장 및 메시지 라우팅에 사용됩니다. 아래는 토큰을 얻는 방법입니다:
 
@@ -77,7 +129,18 @@ Firebase Cloud Messaging 토큰은 일반적으로 클라이언트 측(즉, 모�
 
 ![이미지](/assets/img/2024-06-22-PushNotificationusingfirebaseandnode-js_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제가 meta-Data Replacer 라는 폴더를 만들었어요. 거기에 사용자 정의 메시지를 설정하고 해당 기능을 호출하고 사용자 정의 동적 메시지를 설정할 수 있어요.
 
@@ -87,7 +150,18 @@ Firebase Cloud Messaging 토큰은 일반적으로 클라이언트 측(즉, 모�
 
 ![image 2](/assets/img/2024-06-22-PushNotificationusingfirebaseandnode-js_6.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

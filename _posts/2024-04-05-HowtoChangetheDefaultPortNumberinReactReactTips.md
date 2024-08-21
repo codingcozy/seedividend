@@ -3,17 +3,13 @@ title: "리액트에서 기본 포트 번호 변경하는 방법리액트 팁"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How to Change the Default Port Number in React React Tips"
 link: "https://medium.com/stackademic/how-to-change-the-default-port-number-in-react-react-tips-1a957b54759e"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/HowtoChangetheDefaultPortNumberinReactReactTips_0.png" />
 
@@ -23,7 +19,18 @@ React 개발에 뛰어들 때, 처음으로 사용자 정의하고 싶은 것 �
 
 이 글에서는 React에서 기본 포트 번호를 변경하는 과정을 안내해드릴 것입니다. 다양한 운영 체제에 대한 단계를 다룰 것이며, 초보자부터 숙련된 개발자까지 쉽게 따라 갈 수 있도록 할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 바로 시작하기 전에 개인 웹 사이트에서 웹 개발에 관한 더 심층적인 기사를 더 알아보세요:
 
@@ -33,7 +40,18 @@ React 개발에 뛰어들 때, 처음으로 사용자 정의하고 싶은 것 �
 
 ## Windows에서 포트 번호 변경하기 🪟
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Windows에서는 환경 변수를 사용하여 포트 번호를 변경할 수 있습니다. 다음은 방법입니다:
 
@@ -50,7 +68,18 @@ Windows에서는 환경 변수를 사용하여 포트 번호를 변경할 수 �
 
 5. package.json 파일을 저장하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 6. npm start을 사용하여 프로젝트를 실행해보세요. 이제 React 애플리케이션이 http://localhost:5000에서 실행 중이어야 합니다.
 
@@ -61,7 +90,18 @@ macOS와 Linux에서의 프로세스는 비슷하지만 환경 변수를 설정�
 - 코드 편집기에서 프로젝트를 엽니다.
 - package.json 파일에서 start 스크립트를 아래와 같이 수정하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 "scripts": {
@@ -75,7 +115,18 @@ macOS와 Linux에서의 프로세스는 비슷하지만 환경 변수를 설정�
 
 다른 방법은 환경별 구성 파일을 사용하는 것입니다. create-react-app은 환경 변수를 설정하기 위해 .env 파일을 지원합니다. 이렇게 사용할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 프로젝트 루트에서 .env라는 파일을 생성하세요.
 - 다음 줄을 추가하여 포트를 설정하세요:
@@ -88,7 +139,18 @@ PORT = 5000;
 
 ## 결론 🎉
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트 애플리케이션에서 포트 번호를 사용자 정의하는 것은 간단합니다. Windows, macOS 또는 Linux를 사용하든 package.json 파일이나 .env 파일을 사용하여이 설정을 쉽게 조정할 수 있습니다. 이 유연성을 통해 다양한 개발 및 배포 환경과 원할한 통합이 가능합니다. 즐거운 코딩하세요!
 

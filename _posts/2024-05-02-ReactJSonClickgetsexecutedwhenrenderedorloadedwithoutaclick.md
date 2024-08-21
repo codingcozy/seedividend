@@ -3,16 +3,13 @@ title: "ReactJS: 클릭하지 않아도 렌더링되거나 로드될 때 onClick
 description: ""
 coverImage: "/assets/img/2024-05-02-ReactJSonClickgetsexecutedwhenrenderedorloadedwithoutaclick_0.png"
 date: 2024-05-02 00:26
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-02-ReactJSonClickgetsexecutedwhenrenderedorloadedwithoutaclick_0.png
 tag: Tech
 originalTitle: "ReactJS: onClick gets executed when rendered or loaded without a click"
 link: "https://medium.com/@xavieryuhanliu/reactjs-onclick-gets-executed-when-rendered-or-loaded-without-a-click-837fc3c71cca"
 isUpdated: true
 ---
-
-
-
 
 아주 간단한 방법으로 해결할 수 있어요.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 답은 매우 간단해요. 코드를 다음과 같이 변경해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <button onClick={() => handleClick()}>Click Me!</button>
@@ -30,7 +38,18 @@ isUpdated: true
 
 이렇게 변경해 주세요. 그 이유는 간단합니다. 버튼이 로드될 때, onClick 함수가 평가됩니다. onClick에서 반환된 함수는 버튼이 클릭될 때마다 실행될 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러니까, 우리가 클릭할 때마다 실행되길 원하는 함수를 또 다른 함수 안에 감싸서 원하는 함수를 반환해야 해.
 

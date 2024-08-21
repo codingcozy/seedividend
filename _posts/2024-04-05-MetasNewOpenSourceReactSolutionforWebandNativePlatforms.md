@@ -3,17 +3,13 @@ title: "메타의 새로운 오픈소스 웹과 네이티브 플랫폼을 위한
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: " Metas New Open Source React Solution for Web and Native Platforms"
 link: "https://medium.com/@Choco23/metas-new-open-source-react-solution-for-web-and-native-platforms-19d633d46a5f"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/MetasNewOpenSourceReactSolutionforWebandNativePlatforms_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 📱 React Native에서는 UI 컴포넌트가 웹 개발에 사용되는 것과 다릅니다. 웹 개발자들에게는 React Native의 기본 UI 컴포넌트로의 전환이 처음에는 익숙하지 않고 활용하기 어려울 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { View, Text } from "react-native";
@@ -43,7 +50,18 @@ const App = () => {
 
 몇 년 전, 트위터의 점진적 웹 앱을 개발하던 동안, Nicolas Gallagher은 React Native for Web (RNW)를 소개했습니다. 이 혁신은 React Native 코드를 react-dom과 호환되는 코드로 번역하여, React Native 컴포넌트를 웹 플랫폼에서 렌더링할 수 있게 했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/MetasNewOpenSourceReactSolutionforWebandNativePlatforms_2.png" />
 
@@ -54,7 +72,18 @@ const App = () => {
 
 # react-strict-dom의 메서드는 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 🔄 리액트-스트릭트-돔은 리액트 네이티브와는 반대 전략을 채택하여 웹용으로 Web API를 활용하여 컴포넌트 렌더링을 합니다. 두 가지 경량 폴리필을 통합하여 API를 리액트 네이티브 및 리액트 돔 코드로 변환합니다. 아래 아키텍처 다이어그램은 그 기능을 자세히 설명해줍니다:
 
@@ -64,7 +93,18 @@ const App = () => {
 
 현재 호환성 진행 상황을 보여주는 테이블은 다음 링크에서 확인할 수 있습니다: [https://github.com/facebook/react-strict-dom/blob/main/packages/react-strict-dom/COMPATIBILITY.md](https://github.com/facebook/react-strict-dom/blob/main/packages/react-strict-dom/COMPATIBILITY.md)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/MetasNewOpenSourceReactSolutionforWebandNativePlatforms_4.png" />
 
@@ -87,8 +127,7 @@ export default function App() {
       <html.div />
 
       <html.span>
-        <html.a href="https://google.com">anchor</html.a>,
-        <html.code>code</html.code>,<html.em>em</html.em>,
+        <html.a href="https://google.com">anchor</html.a>,<html.code>code</html.code>,<html.em>em</html.em>,
         <html.strong>strong</html.strong>,
         <html.span>
           H<html.sub>2</html.sub>0
@@ -111,7 +150,18 @@ const styles = css.create({
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 react-strict-dom을 활용하여 Web 및 Native 플랫폼에 대한 유니버설 어플리케이션을 구축하는 데 웹 API를 활용합니다.
 
@@ -121,7 +171,18 @@ react-strict-dom을 활용하여 Web 및 Native 플랫폼에 대한 유니버설
 
 React Native 원칙라는 블로그 게시물에 그가 쓴 내용을 한 줄 번역하면:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/MetasNewOpenSourceReactSolutionforWebandNativePlatforms_5.png)
 
@@ -131,7 +192,18 @@ React Native 원칙라는 블로그 게시물에 그가 쓴 내용을 한 줄 �
 
 Nicolas의 RFC: RFC: React DOM for Native(https://github.com/react-native-community/discussions-and-proposals/pull/496)는 솔루션의 원칙을 자세히 소개합니다. 관심이 있으시면 깊이 읽어보실 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/MetasNewOpenSourceReactSolutionforWebandNativePlatforms_7.png)
 

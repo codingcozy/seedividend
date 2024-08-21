@@ -3,16 +3,13 @@ title: "2024년 최신 Angular에서 템플릿 기반 폼을 사용하는 방법
 description: ""
 coverImage: "/assets/img/2024-06-22-TemplateDrivenForminAngular_0.png"
 date: 2024-06-22 03:32
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-TemplateDrivenForminAngular_0.png
 tag: Tech
 originalTitle: "Template Driven Form in Angular"
 link: "https://medium.com/@zeeshankhan8838/template-driven-form-in-angular-b80a3ebbcd24"
 isUpdated: true
 ---
-
-
-
 
 이 기사에서는 템플릿 폼과 언제 템플릿 드리븐 폼을 사용해야 하는지에 대해 안내하겠습니다.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 # 템플릿 드리븐 폼
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 사용하기 쉽습니다
 - 간단한 시나리오에 적합합니다.
@@ -42,29 +50,38 @@ isUpdated: true
 
 예제 템플릿 기반 폼
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';        // FormsModule 가져오기
- 
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
- 
+import { BrowserModule } from "@angular/platform-browser";
+import { NgModule } from "@angular/core";
+import { FormsModule } from "@angular/forms"; // FormsModule 가져오기
+
+import { AppRoutingModule } from "./app-routing.module";
+import { AppComponent } from "./app.component";
+
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
+  declarations: [AppComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule                    // Imports 배열에 추가
+    FormsModule, // Imports 배열에 추가
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
 ```
 
 ```js
@@ -77,8 +94,18 @@ export class AppModule { }
 
 ngForm은 다음을 실행합니다:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - `Form` 지시문에 자체 바인딩
 - 최상위 FormGroup 인스턴스 생성
@@ -93,11 +120,20 @@ ngForm은 다음을 실행합니다:
 <input type="text" name="firstname" ngModel>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-파일을 다음과 같이 수정해주세요. 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
+파일을 다음과 같이 수정해주세요.
 
 <form #singUpForm="ngForm" (ngSubmit)="onSubmit(singUpForm)">
  
@@ -139,35 +175,30 @@ ngForm은 다음을 실행합니다:
   
 </form>
 
-
 ```typescript
-import { Component } from '@angular/core';
- 
+import { Component } from "@angular/core";
+
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: "app-root",
+  templateUrl: "./app.component.html",
+  styleUrls: ["./app.component.css"],
 })
 export class AppComponent {
-  title = '템플릿 기반 폼';
- 
-  countryList:country[] = [
-    new country("1", "파키스탄"),
-    new country('2', '아랍에미리트'),
-    new country('3', '미국')
-  ];
+  title = "템플릿 기반 폼";
+
+  countryList: country[] = [new country("1", "파키스탄"), new country("2", "아랍에미리트"), new country("3", "미국")];
 }
- 
+
 export class country {
-  id:string;
-  name:string;
- 
-  constructor(id:string, name:string) {
-    this.id=id;
-    this.name=name;
+  id: string;
+  name: string;
+
+  constructor(id: string, name: string) {
+    this.id = id;
+    this.name = name;
   }
 
- onSubmit(contactForm) {
+  onSubmit(contactForm) {
     console.log(contactForm.value);
   }
 }
@@ -177,8 +208,18 @@ export class country {
 
 내장 검증기는 필수(required), 최소 길이(minlength), 최대 길이(maxlength), 패턴(pattern)과 같은 HTML5 유효성 검사 속성을 사용합니다. Angular는 이러한 유효성 검사 속성을 해석하고, FormControl 인스턴스에 유효성 검사기 함수를 추가합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 필수 유효성 검사
 
@@ -188,7 +229,18 @@ export class country {
 
 이 유효성 검사기는 컨트롤 값이 유효성 검사기에 지정된 값보다 적은 수의 문자를 가져서는 안 된다는 것을 요구합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, minlength validator는 사용자 이름 값이 적어도 20자여야 함을 보장합니다.
 
@@ -200,7 +252,18 @@ export class country {
 
 이 Validator는 문자 수가 속성 값 이상으로 초과되지 않아야 함을 요구합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, maxlength 검증기는 사용자 이름 값이 최대 20자까지인지 확인합니다.
 
@@ -212,8 +275,18 @@ export class country {
 
 이 유효성 검사기는 컨트롤 값이 속성에 제공된 정규식 패턴과 일치해야 함을 요구합니다. 예를 들어, 패턴 ^[a-zA-Z]+$는 문자만 허용됨을 보장합니다 (공백도 허용되지 않음). 이 패턴을 사용자 이름에 적용해 보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 이메일 유효성 검사
 
@@ -223,7 +296,18 @@ export class country {
 <input type="text" id="email" name="email" required email>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 유효성 스타일링
 
@@ -237,7 +321,18 @@ ngForm 지시자는 최상위 FormGroup를 form 속성을 통해 제공하므로
 <pre>터치됨? {f.form.controls.email?.touched}</pre>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 엘비스 연산자
 
@@ -249,7 +344,18 @@ ngForm 지시자는 최상위 FormGroup를 form 속성을 통해 제공하므로
 
 # 폼 초기화
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <form (ngSubmit)="onSubmit()" #myForm="ngForm">
@@ -270,37 +376,48 @@ onSubmit() {
 
 ngModelGroup 지시자를 사용하면 관련 있는 입력을 그룹화하여 폼에 의해 표현되는 객체를 유용하고 예측 가능한 방식으로 구조화할 수 있습니다. ngModelGroup는 주로 fieldset과 결합하여 사용되는데, 이들은 대부분 "입력을 그룹화함"이라는 같은 아이디어를 나타냅니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import {Component, ViewChild} from "@angular/core";
 @Component({
     selector: 'app',
     template: `
-<form 
-    #formRef="ngForm" 
+<form
+    #formRef="ngForm"
     (ngSubmit)="onSubmit(formRef.value)"
     >
     <fieldset ngModelGroup="login">
-        <input 
+        <input
             #usernameRef="ngModel"
             name="username"
             [(ngModel)]="username"
-            type="text"        
+            type="text"
             required
             minlength="3"
-        >    
+        >
         <div *ngIf="usernameRef.errors?.required">This field is required</div>
         <div *ngIf="usernameRef.errors?.minlength">This field must be longer than {usernameRef.errors?.minlength.requiredLength} characters. You only typed {usernameRef.errors?.minlength.actualLength}</div>
-        
+
         <input type="password" ngModel name="password">
     </fieldset>
     <button type="submit">Submit</button>
-</form> 
-{formRef.value | json}   
-{formRef.valid | json}   
+</form>
+{formRef.value | json}
+{formRef.valid | json}
 
-``` 
+```
 
 # 출력
 
@@ -313,48 +430,58 @@ import {Component, ViewChild} from "@angular/core";
 @Component({
     selector: 'app',
     template: `
-<form 
-    #formRef="ngForm" 
+<form
+    #formRef="ngForm"
     (ngSubmit)="onSubmit(formRef.value)"
     >
     <fieldset ngModelGroup="login">
-        <input 
+        <input
             #usernameRef="ngModel"
             name="username"
             [(ngModel)]="username"
-            type="text"        
+            type="text"
             required
             minlength="3"
-        >    
+        >
         <div *ngIf="usernameRef.errors?.required">This field is required</div>
         <div *ngIf="usernameRef.errors?.minlength">This field must be longer than {usernameRef.errors?.minlength.requiredLength} characters. You only typed {usernameRef.errors?.minlength.actualLength}</div>
-        
+
         <input type="password" ngModel name="password">
     </fieldset>
      <fieldset ngModelGroup="signUp">
-        <input 
+        <input
             #usernameRef="ngModel"
             name="username"
             [(ngModel)]="username"
-            type="text"        
+            type="text"
             required
             minlength="3"
-        >    
+        >
         <div *ngIf="usernameRef.errors?.required">This field is required</div>
         <div *ngIf="usernameRef.errors?.minlength">This field must be longer than {usernameRef.errors?.minlength.requiredLength} characters. You only typed {usernameRef.errors?.minlength.actualLength}</div>
-        
+
         <input type="password" ngModel name="password">
     </fieldset>
-    
+
     <button type="submit">Submit</button>
-</form> 
-{formRef.value | json}   
-{formRef.valid | json}   
+</form>
+{formRef.value | json}
+{formRef.valid | json}
 
 ```
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결과
 
@@ -367,7 +494,18 @@ import {Component, ViewChild} from "@angular/core";
 
 Angular은 각 필드에 적용된 ngModel 지시문을 갖는 각각의 필드에 대해 FormControl을 생성합니다. FormControl은 유효(valid), 변경된(dirty), 터치(touched) 등과 같은 폼 요소의 상태를 노출합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 FormControl에 대한 참조를 얻는 두 가지 방법이 있습니다.
 
@@ -375,13 +513,24 @@ FormControl에 대한 참조를 얻는 두 가지 방법이 있습니다.
 - 다른 방법은 각 FormControl을 위해 새로운 로컬 변수를 만드는 것입니다. 예를 들어 다음과 같이 firstname="ngModel"을 생성하면 firstname 변수에 FormControl 인스턴스가 만들어집니다.
 
 ```js
-<input type="text" id="firstname" name="firstname" required minlength="10" 
+<input type="text" id="firstname" name="firstname" required minlength="10"
             #firstname="ngModel">
 ```
 
 이제 firstname FormControl 인스턴스에 대한 참조가 있으므로 해당 상태를 확인할 수 있습니다. firstname에 오류가 있는지 확인하기 위해 valid 속성을 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 

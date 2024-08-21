@@ -3,16 +3,13 @@ title: "JavaScript로 페이지 콘텐츠 변경 및 추가하는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-23-JavaScriptChangingandAddingPageContent_0.png"
 date: 2024-06-23 14:35
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-JavaScriptChangingandAddingPageContent_0.png
 tag: Tech
 originalTitle: "JavaScript — Changing and Adding Page Content"
 link: "https://medium.com/@geraldclarkaudio/javascript-changing-and-adding-page-content-deba762969b8"
 isUpdated: true
 ---
-
-
-
 
 ![image](/assets/img/2024-06-23-JavaScriptChangingandAddingPageContent_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 이 첫 번째 p 태그를 가져와서 그 안의 텍스트를 추출해 봅시다. 그리고 그 내용을 변경해 봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-23-JavaScriptChangingandAddingPageContent_2.png)
 
@@ -32,8 +40,18 @@ isUpdated: true
 
 한 번에 여러 가지를 변경해 봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image 1](/assets/img/2024-06-23-JavaScriptChangingandAddingPageContent_4.png)
 
@@ -43,8 +61,18 @@ Here I'm using querySelectorAll to get all the p tags. Then I'm using the forEac
 
 Now I'm just appending 'new text' to each p tag.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 무언가의 HTML을 변경하고 싶다면 어떻게 해야 할까요?
 
@@ -54,8 +82,18 @@ Now I'm just appending 'new text' to each p tag.
 
 여기서 content 클래스에 대한 참조를 가져와 innerHTML을 로깅하고 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-23-JavaScriptChangingandAddingPageContent_7.png)
 
@@ -65,9 +103,18 @@ Now I'm just appending 'new text' to each p tag.
 
 우리가 사람들의 데이터베이스를 보고 있는 것으로 상상해 봅시다. 그리고 각 사람에 대해 HTML 템플릿을 만들어 브라우저에 출력하고 싶습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](https://miro.medium.com/v2/resize:fit:1400/1*Esh6L4NcymzAF3vIW5MQfw.gif)
 

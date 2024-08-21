@@ -3,16 +3,13 @@ title: "탁월한 프로그래머의 상위 10가지 습관"
 description: ""
 coverImage: "/assets/img/2024-06-23-TheTop10HabitsofExceptionalProgramers_0.png"
 date: 2024-06-23 13:34
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-TheTop10HabitsofExceptionalProgramers_0.png
 tag: Tech
 originalTitle: "The Top 10 Habits of Exceptional Programers"
 link: "https://medium.com/@tonylixu/the-top-10-habits-of-exceptional-programers-5ca505524d8b"
 isUpdated: true
 ---
-
-
-
 
 ![이미지](/assets/img/2024-06-23-TheTop10HabitsofExceptionalProgramers_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 # 1. 학습은 끝없는 여정입니다
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-23-TheTop10HabitsofExceptionalProgramers_1.png" />
 
@@ -32,7 +40,18 @@ GitHub, Stack Overflow, TechCrunch 등의 훌륭한 플랫폼은 귀중한 통�
 
 #2. 새로운 것에 열린 마음
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-23-TheTop10HabitsofExceptionalProgramers_2.png" />
 
@@ -45,7 +64,18 @@ GitHub, Stack Overflow, TechCrunch 등의 훌륭한 플랫폼은 귀중한 통�
 - 실험: 우수한 프로그래머들은 편안한 지역을 벗어나 새로운 것을 시도하는 데 두려워하지 않습니다. 혁신은 종종 실험에서 나온다는 것을 이해하고, 새로운 아이디어나 접근법을 탐구하기 위해 계산된 위험을 감당하려고 합니다.
 - 협업: 새로운 것에 개방되어 있다는 것은 다른 사람들로부터 의견과 협업을 받아들일 수 있다는 것을 의미합니다. 우수한 프로그래머들은 다양한 시각을 중요시하며, 다른 사람과 협력함으로써 새로운 통찰력과 돌파구를 찾을 수 있다는 것을 인지합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 3. 여러 언어를 습득하세요
 
@@ -55,7 +85,18 @@ GitHub, Stack Overflow, TechCrunch 등의 훌륭한 플랫폼은 귀중한 통�
 
 예를 들어, 성능이 중요한 경우 C/C++이 선호될 수 있습니다. 다중 플랫폼 호환성이 중요한 경우 Java가 가장 적합할 수 있습니다. 웹 개발의 경우 PHP, ASP, Ajax 및 JSP와 같은 언어들을 선택할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 텍스트 처리 및 다른 응용 프로그램과 상호 작용할 때, Perl과 Python이 빛이 나는 경우가 많습니다. 따라서 아직 익숙하지 않은 다른 프로그래밍 언어를 탐험하는 데 시간을 투자해보세요. 시야를 넓힘으로써 여러분의 무기함을 강화하고, 보다 포괄적인 문제 해결이 가능해집니다. 이는 여러분과 프로젝트에 큰 혜택을 줄 것입니다.
 
@@ -65,7 +106,18 @@ GitHub, Stack Overflow, TechCrunch 등의 훌륭한 플랫폼은 귀중한 통�
 
 프로그래머들은 종종 우분투, 데비안, 윈도우, FreeBSD, MacOSX, 솔라리스 등 자신만의 선호하는 기술과 운영 체제를 가지고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일부 우수한 프로그래머들만이 서로 다른 운영 체제의 강점, 약점 및 세부 사항을 정말로 이해합니다. 이러한 이해는 그들이 감정적 편향 없이 시스템을 선택할 때 객관적이고 중립적인 결정을 내릴 수 있도록 합니다.
 
@@ -73,10 +125,20 @@ GitHub, Stack Overflow, TechCrunch 등의 훌륭한 플랫폼은 귀중한 통�
 
 우수한 프로그래머들은 이러한 방해 요소를 넘어서며 이성적인 분석과 명쾌한 사고로 언어와 플랫폼 선택에 접근합니다. 바로 이러한 이성적인 태도가 그들이 감정적인 부착이나 편향을 받지 않은 판단을 내릴 수 있게 합니다.
 
-
 # 5. 코드 관리를 위해 버전 관리 도구 활용하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-23-TheTop10HabitsofExceptionalProgramers_5.png)
 
@@ -86,7 +148,18 @@ GitHub을 고려해보세요. 이 플랫폼은 강력한 버전 관리 기능으
 
 오해하지 마세요: 버전 관리 시스템을 구현하지 않는 것은 구식 관행에 고수하는 것과 같습니다. 민첩성과 협업이 요구되는 급변하는 개발 환경에서, 버전 관리를 받아들이는 것은 선택이 아닌 필수입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 6. 훌륭한 팀 플레이어가 되기
 
@@ -96,7 +169,18 @@ GitHub을 고려해보세요. 이 플랫폼은 강력한 버전 관리 기능으
 
 팀원들과 의사 소통을 할 때 공손한가요? 정기적으로 소통하고 모든 사람이 문제를 편안하게 논의할 수 있는 환경을 조성하나요? 축구 팀을 상상해보세요 - 다른 사람들과 잘 어울리나요? 경기장에서의 당신의 행동이 동료를 도와주나요? 당신의 스프린트, 패스 또는 태클을 통해 동료들을 영감을 주나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러니까, 게임을 혼자 이기기 위해 계획이 없다면, 팀워크의 중요성을 받아들이세요. 다른 사람들의 기술과 노력과 결합할 때 당신의 기여는 더욱 커집니다. 자신만이 아닌 전체 팀을 끌어올리는 선수가 되어보세요.
 
@@ -106,7 +190,18 @@ GitHub을 고려해보세요. 이 플랫폼은 강력한 버전 관리 기능으
 
 이 지침은 당연히 코드에 주석을 달아야 한다는 것을 포함하지만, 그것이 시작에 불과합니다. 더 많은 일을 해야 합니다. 명확하고 간결한 주석이 달린 코드는 문서화의 기초를 형성하여 당신과 팀이 당신의 의도와 생각을 이해하기 쉽게 만듭니다. 당신의 작업을 문서화하는 것은 당신의 사고과정을 상기시키는 것뿐만 아니라 팀 내 오프라인 커뮤니케이션 수단 및 지식 전달 수단으로 작용합니다. 당신이 알고 있는 것을 모두 문서화하는 습관은 귀중합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자, 솔직히 말해서, 가장 바쁠 때 다른 사람들이 계속 질문을 던지거나 휴가 중에 회사에서 전화를 받아 일에 관해 물어 들을 때 참기 어려운 건 아닐 겁니다. 당신의 지식을 저장함으로써, 당신은 자신의 영역에 갇히기만 할 뿐 더 많이 하기 위한 시간을 남기지 못할 것입니다. "제자를 가르치면 선생님은 굶어죠"라고 생각할 수도 있지만, 당신의 보수적인 태도는 당신이 더 큰 기회를 놓칠 뿐입니다. 믿어봐요, 저는 이 사항을 과장하려는 게 아니에요.
 
@@ -116,7 +211,18 @@ GitHub을 고려해보세요. 이 플랫폼은 강력한 버전 관리 기능으
 
 백업의 중요성을 이미 알고 있기 때문에 이것이 "뻔한 얘기"라고 생각할 수 있겠지만, 여전히 강조하고 싶습니다. 물건을 잃는 것은 삶의 한 부분이며, 피할 수 없는 손실을 항상 경험하게 될 것입니다. 예를 들어, 노트북이 도난당할 수 있고, 하드 드라이브가 고장날 수 있으며, 컴퓨터에 바이러스가 감염될 수 있고, 시스템이 해킹당할 수도 있으며, 건물 전체가 불이 날 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러므로 적절한 백업을 보장하는 것이 매우 중요합니다. 하드 드라이브는 믿을 수 없으므로 규칙적으로 CD나 테이프를 복사하는 것이 좋은 방법일 수 있습니다. 네트워크도 믿을만하지 않으니 바이러스와 해커에 대해 조심해야 합니다. 소프트웨어 기반 보안 조치만 사용하는 것뿐만 아니라 견고한 관리 시스템도 필요합니다. 또한, 데이터를 다른 위치에 저장하고 일일, 주간, 월간으로 정기적인 백업 전략을 수립하는 노력도 필요합니다.
 
@@ -126,7 +232,18 @@ GitHub을 고려해보세요. 이 플랫폼은 강력한 버전 관리 기능으
 
 프로그래머들은 자신의 작업을 빨리 끝내려는 안 좋은 습관을 가지고 있습니다. 그러나 일은 항상 예정대로 진행되지 않습니다. 서두르면 서두를수록 문제가 발생할 가능성이 높아지거나 문제를 완전히 놓치게 됩니다. 결국 처음부터 충분한 시간을 들인다면 문제를 고치는 데 소비하는 시간과 에너지가 더 적게 들 것입니다. 서두르다가 오류가 나게 되니 서두르지 마세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우수한 프로그래머들의 습관은 추가 시간을 투자하여 다양한 해결책을 실험하고 조사하는 것입니다. 시간이 허용된다면, 프로그래밍 3시간마다 휴식을 취하고 다음 3시간에 다시 시작하는 것이 좋은 습관입니다.
 
@@ -138,7 +255,18 @@ GitHub을 고려해보세요. 이 플랫폼은 강력한 버전 관리 기능으
 
 # 10. 불편함에 익숙해지는 법을 배웁니다
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-06-23-TheTop10HabitsofExceptionalProgramers_10](/assets/img/2024-06-23-TheTop10HabitsofExceptionalProgramers_10.png)
 

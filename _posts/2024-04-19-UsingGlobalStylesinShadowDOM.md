@@ -3,18 +3,13 @@ title: "글로벌 스타일을 Shadow DOM에서 사용하기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Using Global Styles in Shadow DOM"
 link: "https://medium.com/@eisenbergeffect/using-global-styles-in-shadow-dom-5b80e802e89d"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![/assets/img/UsingGlobalStylesinShadowDOM_0.png](/assets/img/UsingGlobalStylesinShadowDOM_0.png)
 
@@ -24,8 +19,18 @@ Web Components에 대한 가장 일반적인 오해 중 하나는 전역 CSS를 
 
 # VanillaJS 웹 컴포넌트에서 전역 스타일 사용하기
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우선 글로벌 스타일과 두 개의 웹 컴포넌트를 포함하는 HTML을 살펴봅시다. 각 웹 컴포넌트에는 본문과 동일한 h1 및 h2 구조가 포함되어 있습니다.
 
@@ -60,7 +65,18 @@ Web Components에 대한 가장 일반적인 오해 중 하나는 전역 CSS를 
 
 <img src="/assets/img/UsingGlobalStylesinShadowDOM_1.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 body에 직접 포함된 h1과 h2는 Bootstrap과 사용자 정의 스타일 둘 다 적용됩니다. 그런데 not-using-global-styles 사용자 정의 요소 내에 있는 h1과 h2는 전역 CSS를 적용받지 않습니다. 이 모든 경우가 예상대로 작동하고 있는 것입니다. 그러나 using-global-styles 내에 있는 h1과 h2는 Bootstrap과 사용자 정의 스타일 둘 다 적용받고 있습니다.
 
@@ -70,7 +86,18 @@ not-using-global-styles와 using-global-styles의 구현을 비교해 보면 중
 
 not-using-global-styles.js
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 export class NotUsingGlobalStyles extends HTMLElement {
@@ -110,7 +137,18 @@ customElements.define("using-global-styles", UsingGlobalStyles);
 
 이 모든 마법은 내가 작성한 단일 도우미 함수에 있습니다: addGlobalStylesToShadowRoot. 셰도우 돔에서 전역 CSS를 상속하려면 그 함수를 가져와서 셰도우 루트와 함께 호출하면 됩니다. 다음은 그 함수의 구현 방법입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 global-styles.js
 
@@ -141,7 +179,18 @@ CSSStyleSheet 및 쉐도우 루트의 adoptedStyleSheets 배열을 활용하여 
 
 사실, 그게 다에요. 표준 API를 사용하여 작성된 몇 줄의 자바스크립트 코드만 있으면 필요한 모든 웹 컴포넌트에서 전역 스타일을 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSSStyleSheet, adoptedStyleSheets, Declarative Shadow DOM 및 이 블로그에서 논의된 그 밖의 Shadow DOM 및 스타일링 주제에 대해 더 알고 싶으신가요? 웹 컴포넌트 엔지니어링 과정을 확인해보세요. 팀용 그룹 요금과 PPP 가격 요청 시 사용 가능합니다.
 
@@ -151,18 +200,25 @@ CSSStyleSheet, adoptedStyleSheets, Declarative Shadow DOM 및 이 블로그에�
 
 네. 각 라이브러리를 보면 그 방법을 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 기존 FAST Element에 전역 스타일 추가하기
 
 먼저, 전역 스타일을 사용하지 않는 FASTElement를 위한 매우 기본적인 코드를 살펴보겠습니다. 다른 팀이 작성했거나 사용 중인 오픈 소스 컴포넌트 라이브러리의 일부인 것으로 상상해보세요.
 
 ```js
-import {
-  FASTElement,
-  FASTElementDefinition,
-  html,
-} from "@microsoft/fast-element";
+import { FASTElement, FASTElementDefinition, html } from "@microsoft/fast-element";
 
 export const template = html`
   <h1>기존 FAST Element Shadow DOM H1</h1>
@@ -179,7 +235,18 @@ export const definition = new FASTElementDefinition(ExistingFASTElement, {
 
 FAST에서 모든 웹 컴포넌트는 구성 인스턴스 생성 시 사용되는 컴포넌트에 대한 메타데이터를 제공하는 FASTElementDefinition을 가지고 있습니다. FAST에서 구축된 타사 컴포넌트 라이브러리들은 주로 컴포넌트 등록과 분리된 이러한 정의들을 제공합니다. 따라서 정의 자체를 수정하는 약간의 코드를 사용하여 웹 컴포넌트 유형의 모든 인스턴스에 전역 스타일을 쉽게 추가할 수 있습니다. 이렇게 하면 됩니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { ElementStyles } from "@microsoft/fast-element";
@@ -187,10 +254,7 @@ import { definition } from "./existing-fast-element.js";
 import { getGlobalStyleSheets } from "./global-styles.js";
 
 // FAST
-definition.styles = ElementStyles.create(
-  getGlobalStyleSheets(),
-  definition.styles
-);
+definition.styles = ElementStyles.create(getGlobalStyleSheets(), definition.styles);
 
 definition.define();
 ```
@@ -201,7 +265,18 @@ FAST는 스타일 시트를 다룰 수 있는 ElementStyles 헬퍼를 제공합�
 
 마찬가지로, 글로벌 스타일을 사용하지 않는 LitElement에 대한 매우 기본적인 코드를 살펴볼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { LitElement, html } from "lit";
@@ -237,7 +312,18 @@ customElements.define("existing-lit-element", ExistingLitElement);
 
 이것은 약간 더 복잡해 보입니다. 주로 3rd-party element의 기존 스타일을 처리하기 위해 더 많은 작업을 해야 하기 때문입니다. undefined, 단일 및 배열 가능성을 확인하는 조건부 논리만 필요합니다. 그러나 개념은 FAST와 동일합니다. 전역 스타일을 가져와 기존 스타일과 병합한 다음 이를 다시 styles static 필드에 할당합니다. 완료했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 선언적 셰도우 DOM(DSD)에 전역 스타일 추가하기
 
@@ -247,7 +333,18 @@ customElements.define("existing-lit-element", ExistingLitElement);
 
 adopt-global-styles.js
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 DSD에서 이를 사용하는 방법입니다:
 
@@ -263,7 +360,18 @@ adopt-global-styles.js
 
 adopt-global-styles 요소는 내부에 있는 shadow root를 얻기 위해 getRootNode()를 사용합니다. 이 경우 DSD에서 생성된 shadow root입니다. 그런 다음 전역 스타일을 해당 루트에 추가하고 작업이 완료되면 자신을 제거합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![글로벌 스타일 사용하기](/assets/img/UsingGlobalStylesinShadowDOM_2.png)
 
@@ -273,7 +381,18 @@ Shadow DOM에서 글로벌 스타일을 사용하는 것이 가능하지만, 많
 
 Brian은 미래의 HTML/CSS 표준을 형성하는 데 도움이 되는 시나리오와 API에 대한 피드백을 열심히 찾고 있습니다. 여러분의 웹 컴포넌트에서 half-light를 시도하고 웹의 미래를 형성하는 데 도움을 주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 마무리
 

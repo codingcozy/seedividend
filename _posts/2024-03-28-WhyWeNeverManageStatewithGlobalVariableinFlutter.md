@@ -3,17 +3,13 @@ title: "Flutter에서 전역 변수를 사용하여 상태를 관리하면 안�
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Why We Never Manage State with Global Variable in Flutter"
 link: "https://medium.com/@chooyan/why-we-never-manage-state-with-global-variable-in-flutter-3e92f41ac8fa"
 isUpdated: true
 ---
-
-
-
-
 
 플러터 앱의 상태를 전역 변수로 관리하는 사람이 아무도 없다고 생각해요. 상태 관리 패키지나 플러터의 기본 위젯인 InheritedWidget이나 StatefulWidget 같은 것들이 우리의 플러터 앱에 필요하다는 것에는 의심의 여지가 없어요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 정수 값의 전역 변수를 사용한 카운터 앱
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래에 있는 간단한 카운터 앱부터 시작하겠습니다.
 
@@ -60,7 +67,18 @@ class MainApp extends StatelessWidget {
 
 물론 Text는 항상 0만 표시됩니다. 왜냐하면 FloatingActionButton을 누를 때마다 count를 증가시키기만 하고 리빌드를 발생시키지 않기 때문이죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 리빌드 메커니즘 이해하기
 
@@ -70,7 +88,18 @@ class MainApp extends StatelessWidget {
 
 \_dirty는 markNeedsBuild 메서드로 수정되므로 이제 우리가 필요한 것은 FloatingActionButton이 눌렸을 때 카운터 앱을 다시 빌드하는 방법을 호출하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # StatefulWidget의 setState
 
@@ -86,7 +115,18 @@ void setState(VoidCallback fn) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서 우리가 필요한 것은 MainApp을 StatefulWidget으로 만들고 FloatingActionButton의 onPressed에서 setState를 호출하는 것입니다.
 
@@ -100,7 +140,18 @@ onPressed: () {
 
 ![GIF](https://miro.medium.com/v2/resize:fit:1400/1*MrlJNCgHD2PD-PJZ19MAjA.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 내용에 대한 한국어 번역은 다음과 같습니다:
 
@@ -112,7 +163,18 @@ GitHub 저장소에서 코드의 변경 사항 및 전체 코드를 확인할 �
 
 다른 문제가 발생하는데요, 여러 위젯 간에 상태를 공유할 때 문제가 발생해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또 다른 화면 위젯을 만들어서 FirstPage라는 이름을 주고, 기존 위젯을 SecondPage로 추출해보세요. 두 페이지 모두 화면 가운데에 카운트를 보여줍니다. 하지만 FirstPage의 FloatingActionButton은 SecondPage로 이동하는 것이고, SecondPage의 경우는 카운터를 증가시킵니다.
 
@@ -122,7 +184,18 @@ GitHub 저장소에서 코드의 변경 사항 및 전체 코드를 확인할 �
 
 지금까지 논의한 내용에 따르면, FirstPage가 항상 0을 보여주는 이유가 분명해졌습니다. FirstPage의 markNeedsBuild가 호출되지 않기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 FirstPage은 확실히 상태 카운터를 참조하며 처음에는 해당 값을 표시하지만 업데이트를 알 수 없습니다. 다시 말해, 상태를 참조할 수 있는 것만으로는 상태 관리에는 충분하지 않고 해당 업데이트도 필수적입니다.
 
@@ -132,7 +205,18 @@ FirstPage은 확실히 상태 카운터를 참조하며 처음에는 해당 값�
 
 ValueNotifier는 값을 보존하는 업데이트를 알리고, ValueListenableBuilder는 ValueNotifier의 알림을 수신하고 setState를 호출하는 위젯입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, ValueNotifier를 확장한 클래스인 Counter로 카운터 변수를 업데이트합니다.
 
@@ -150,7 +234,18 @@ class Counter extends ValueNotifier<int> {
 
 다음으로는 FirstPage의 Text를 ValueListenableBuilder로 감싸줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 child: ValueListenableBuilder(
@@ -167,7 +262,18 @@ child: ValueListenableBuilder(
 
 # 여러 상태 결합하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼 이제 모든 문제를 해결했나요? 여전히 아니에요, 물론이죠.
 
@@ -189,7 +295,18 @@ class MultipliedCounter extends ValueNotifier<int> {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 MultipliedCounter가 해야 할 작업은 Counter에 리스너를 추가하는 것이기 때문에, 생성자를 통해 Counter 객체를 받아와서 addListener를 호출하고, multiply 메소드를 호출하는 함수를 전달해야 합니다. 이 트릭을 사용하면 MultipliedCounter가 Counter의 업데이트를 받아들이고, 기본값 \* 2로 값을 업데이트할 수 있습니다.
 
@@ -199,7 +316,18 @@ MultipliedCounter가 해야 할 작업은 Counter에 리스너를 추가하는 �
 
 전체 코드는 여기에서 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # State 해제
 
@@ -209,7 +337,18 @@ MultipliedCounter가 해야 할 작업은 Counter에 리스너를 추가하는 �
 
 만약 사용하지 않을 때 이들이 해제되기를 바란다면, 우리는 어떤 메서드를 호출하여 수동으로 해제해주어야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 이 경우에 counter에 새로운 객체를 할당하는 것이 완전히 무관하다는 것을 인식해야 합니다.
 
@@ -222,7 +361,18 @@ counter = Counter();
 
 그러면, 언제 initialize 메서드를 제공하고(dispose는 이미 ValueNotifier에서 정의되어 있습니다) \_SecondPageState의 dispose 내에서와 같은 적절한 시점에 이 메서드를 호출하는 것은 어떨까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 class Counter extends ValueNotifier<int> {
@@ -246,7 +396,18 @@ void dispose() {
 
 그래서 먼저 counter를 듣고 있는 사람들을 관리하는 메커니즘을 구축해야 합니다. 그러나 이를 어떻게 해야 할까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 문제는 꽤 어려운 문제이며, 이 기사에서는 답변하지 않습니다.
 
@@ -256,7 +417,18 @@ void dispose() {
 
 위젯 테스트로 SecondPage를 테스트하려고 하면 작동하지 않음을 빨리 발견할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 void main() {
@@ -285,7 +457,18 @@ $ flutter test test/second_page_test.dart
 
 그러나 아래와 같이 다른 testWidgets를 추가하면,
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 void main() {
@@ -331,7 +514,18 @@ void main() {
 
 이는 global 변수가 main()에서 계속 유지되어 각 테스트에서 동일한 객체가 공유된다는 이유입니다. 따라서 각 testWidget 이전에 모든 상태를 초기화해주어야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -341,6 +535,17 @@ void main() {
 
 이러한 패키지들이 이 글에서 논의된 문제에 대한 해결책을 제공하기 때문에, 우리는 그러한 문제와 싸우느라 시간을 낭비할 필요가 없습니다. 해야 할 일은 어떤 종류의 상태 관리 문제가 존재하며, 이러한 문제를 어떻게 패키지를 사용하여 적절히 해결할 수 있는지 이해하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 글을 읽어 주셔서 감사합니다. 각 상태 관리 패키지가 어떤 문제를 다루는지에 대해 더 작성하고 싶습니다. 이를 통해 프로젝트와 사용에 가장 적합한 상태 관리 패키지를 찾을 수 있을 것입니다.

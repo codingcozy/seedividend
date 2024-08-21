@@ -3,15 +3,13 @@ title: "서버리스 인증 자가 서비스 플랫폼 구축 방법"
 description: ""
 coverImage: "/assets/img/2024-07-07-ServerlessAuthSelf-ServePlatform_0.png"
 date: 2024-07-07 21:49
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-ServerlessAuthSelf-ServePlatform_0.png
 tag: Tech
 originalTitle: "Serverless Auth Self-Serve Platform"
 link: "https://medium.com/@leejamesgilmore/serverless-auth-self-serve-platform-0caa2ca61892"
 isUpdated: true
 ---
-
-
 
 <img src="/assets/img/2024-07-07-ServerlessAuthSelf-ServePlatform_0.png" />
 
@@ -25,7 +23,18 @@ isUpdated: true
 
 # 소개 👋🏽
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 조직 내에서는 많은 다른 팀이 보안적으로 외부 시스템 및 제3자 API에 로드되어야 하는 경우가 거의 항상 발생합니다. 일반적으로 각 팀이 자체 인증 서버를 생성해야 하고 OAuth 2.0 클라이언트 자격 증명 흐름이 어떻게 작동하는지 파악해야 하는 작업이 진행됩니다.
 
@@ -35,7 +44,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-07-07-ServerlessAuthSelf-ServePlatform_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기에서 완전한 솔루션 코드 예제를 찾을 수 있습니다:
 
@@ -45,7 +65,18 @@ isUpdated: true
 
 이를 위해 우리는 그들을 신뢰할 수 있는 클라이언트로 설정하고, 다른 서비스가 주문을 배치할 수 있는 부분에만 액세스할 수 있도록 권한을 부여해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-07-07-ServerlessAuthSelf-ServePlatform_3.png)
 
@@ -55,7 +86,18 @@ isUpdated: true
 
 ![Image](/assets/img/2024-07-07-ServerlessAuthSelf-ServePlatform_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 중앙 집중식 인증이 필요한 이유 🛡️
 
@@ -68,7 +110,18 @@ isUpdated: true
 
 <img src="/assets/img/2024-07-07-ServerlessAuthSelf-ServePlatform_5.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "중앙 집중형 권한 부여가 우리에게 어떤 이점을 제공할까요?
 
@@ -78,7 +131,18 @@ isUpdated: true
 
 ✔️ 보안 팀은 한 솔루션의 디자인을 확인하고 팀과 함께 쉽게 모니터링할 수 있어요."
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ✔️ Auth0, Tyk 등의 서비스를 사용할 수도 있겠지만, Amazon Cognito보다 훨씬 비싸기 때문에 typ씨피 방법을 사용할 수 없습니다. 또한 일반적으로 제공하는 모든 기능이 필요하지 않을 수 있습니다. Amazon Cognito를 프록시하면 UI를 우리의 요구에 맞게 조정할 수 있기 때문에 구현을 자체적으로 사용 사례에 맞게 할 수도 있습니다.
 
@@ -88,7 +152,18 @@ isUpdated: true
 
 간단한 용어 해설을 통해 이야기를 나눠보죠:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 클라이언트 — 클라이언트(클라이언트 웹 애플리케이션과 혼동되지 않도록 주의)는 API(리소스 서버)에서 리소스에 액세스하려는 백엔드 서비스, 데몬 또는 기기입니다.
 - 리소스 서버 — 리소스 서버는 하나 이상의 클라이언트가 인증된 요청을 보내려고 하는 API입니다. 리소스 서버는 클라이언트로부터 받은 엑세스 토큰을 발급한 클라이언트에게 토큰을 부여한 인가 서비스와 대조합니다.
@@ -101,7 +176,18 @@ isUpdated: true
 
 위 다이어그램에서 보듯이:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 3rd party 서비스는 주문을 배치하기 위해 저희의 리소스 서버(API)를 호출하기 위해 특히 인증 서버에서 액세스 토큰을 요청합니다.
 - 클라이언트 자격 증명(즉, 클라이언트 ID 및 클라이언트 비밀번호)가 올바른 경우, 인증 서버는 새로운 유효한 액세스 토큰을 반환합니다.
@@ -115,7 +201,18 @@ isUpdated: true
 
 # 저희 클라이언트 앱은 어떻게 생겼나요? 🎨
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 이 기사의 POC 스타일 구현에서 중앙 인증 플랫폼 응용 프로그램의 모습을 살펴봅시다.
 
@@ -125,7 +222,18 @@ isUpdated: true
 
 '새 리소스 서버 만들기' 버튼을 클릭하여 새 리소스 서버를 추가할 필요한 세부 정보를 추가하는 모달이 표시됩니다. 예를 들어, 우리의 리소스 서버에는 '주문하기' 및 '주문 목록'이라는 두 가지 스코프가 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자원 서버를 설정했으니 이제 '새 클라이언트 생성' 버튼을 클릭할 수 있어요. 이 버튼을 클릭하면 아래에 표시된 것처럼 관련 클라이언트 세부 정보를 추가할 수 있는 모달이 나타나요. 이 예제에서는 클라이언트 이름과 스코프를 설정하고, 리소스 서버에서 새로운 주문을 할 수 있는 'lj-health-food/place-order'로 지정했어요. 이 예제에서 주문 목록을 나열할 수는 없도록 했어요.
 
@@ -135,7 +243,18 @@ isUpdated: true
 
 # 무엇을 만들고 있나요? 🛠️
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에서 다룬 내용을 고려하면, 우리는 내부 플랫폼의 얇은 슬라이스를 구축할 것입니다. 이 플랫폼은 우리의 제3자 서비스를 인증하면서 팀이 쉽고 빠르게 새 고객(클라이언트)을 온보딩하고 사용 가능한 스코프를 설정하고 새로운 리소스 서버를 설정할 수 있게 합니다. 본질적으로, 세 가지 마이크로서비스가 있습니다.
 
@@ -149,7 +268,18 @@ isUpdated: true
 
 이제 주요 코드에 대해 이야기해 보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 주요 코드로 이야기 나누기 👨‍💻
 
@@ -161,7 +291,18 @@ isUpdated: true
 
 자, 각각의 중요 코드를 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## ✔️ 공유된 중앙 인증
 
@@ -204,7 +345,18 @@ export class SharedCentralAuthStatefulStack extends cdk.Stack {
 
 다음으로 사용자 풀과 상호 작용할 UI에 사용될 Amazon API Gateway를 생성합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```typescript
 // 우리의 경험 레이어 API를 생성합니다.
@@ -233,7 +385,18 @@ const resourceServer: apigw.Resource = resourceServers.addResource("{id}");
 
 여러 Lambda 함수가 있으며 이 함수들은 클라이언트 목록 표시, 리소스 서버 생성, 클라이언트 삭제 등과 같은 기능을 위해 API Gateway 엔드포인트와 통합됩니다. 한 예시 함수를 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 새로운 리소스 서버를 추가하는 람다 함수를 생성합니다
@@ -268,7 +431,18 @@ createResourceServer.addToRolePolicy(
 
 그런 다음 Lambda 함수 핸들러 유즈케이스(비즈니스 로직)는 Amazon Cognito와 통신하기 위해 보조 어댑터를 활용하며, 아래는 AWS SDK를 사용하여 리소스 서버를 생성하는 예시입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 export async function createCognitoResourceServer(
@@ -309,7 +483,18 @@ export async function createCognitoResourceServer(
 
 이 시점에서 UI로 이동하여 클라이언트가 사용할 주문 API를 위한 리소스 서버를 생성할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마이크로서비스의 실제 Amazon API Gateway, Lambda 함수 및 DynamoDB 테이블에 대해서는 여기서 다루지 않겠습니다. 이 내용은 매우 기본적이며, 위의 대부분의 코드 예제를 다루었습니다. 그러나 우리가 여기서 다룰 것은 API Gateway에서의 Lambda Authorizer와 Lambda 핸들러의 내용입니다.
 
@@ -330,7 +515,18 @@ orders.addMethod(
 );
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 API 엔드포인트가 호출될 때마다 먼저 Lambda Authorizer를 호출하여 액세스 토큰을 유효성 검사합니다.
 
@@ -394,7 +590,18 @@ export const handler = async function (event: any): Promise<APIGatewayAuthorizer
 
 위 코드에서 유효성 확인이 이루어지는 것을 확인할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 액세스 토큰의 만료 기간이 지나지 않았습니다.
 - 알려진 클라이언트 중 하나를 위해 생성되었습니다.
@@ -407,7 +614,18 @@ export const handler = async function (event: any): Promise<APIGatewayAuthorizer
 
 그래서 이제 우리에게는 새로운 주문을 생성하는 리소스 서버 서비스가 있고, 중앙 인증 플랫폼에서 이를 위한 모든 구성 설정이 완료되었습니다. 이제 리소스 서버 API를 사용할 3rd party 서비스인 클라이언트를 생성해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새 주문을 만드는 비즈니스 로직인 사용 사례를 살펴보겠습니다. 아래에 표시된 대로, 우리의 서드파티 서비스에서 새 주문을 만드는 방법을 살펴보겠습니다.
 
@@ -441,7 +659,18 @@ export async function createOrderUseCase(order: CreateOrder): Promise<Order> {
 
 HTTP 핸들러는 액세스 토큰을 생성하고 주문 요청을 리소스 서버 API로 보내는 데 관여합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { CreateOrder, Order } from "@dto/order";
@@ -531,7 +760,18 @@ export async function generateAccessToken(
 
 위의 코드에서 알 수 있듯이, 이 코드는 클라이언트 ID, 시크릿 및 스코프를 사용하여 중앙 인증 서비스(Cognito 사용자 풀)의 토큰 엔드포인트에 POST 요청을 수행하여 유효하면 액세스 토큰을 반환합니다. 액세스 토큰은 이와 유사합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 {
@@ -561,7 +801,18 @@ The token의 주요 속성들은 다음과 같습니다:
 
 이제 코드를 확인하고 배포하고 UI를 탐험하여 여러분의 요구에 맞게 조정하세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 마무리
 
@@ -575,7 +826,18 @@ The token의 주요 속성들은 다음과 같습니다:
 
 # 마무리 인사 👋🏽
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사를 즐겨 보셨다면 공유하고 피드백 주시면 감사하겠습니다!
 
@@ -585,7 +847,18 @@ The token의 주요 속성들은 다음과 같습니다:
 
 아래의 채널을 통해 저와 연결하고 싶습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 https://www.linkedin.com/in/lee-james-gilmore/
 https://twitter.com/LeeJamesGilmore
@@ -596,7 +869,18 @@ https://twitter.com/LeeJamesGilmore
 
 # 나에 대해
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "안녕하세요, 저는 영국에 거주하는 AWS 커뮤니티 빌더, 블로거, AWS 인증 클라우드 아키텍트이자 Global Head of Technology & Architecture인 Lee입니다. 현재 City Electrical Factors (UK) & City Electric Supply (US)에서 근무하고 있으며, 지난 6년 동안 AWS에서 전문적으로 풀 스택 JavaScript를 주로 다루고 있습니다.
 

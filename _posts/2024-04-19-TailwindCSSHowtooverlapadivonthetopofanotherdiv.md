@@ -3,17 +3,13 @@ title: "TailwindCSS 다른 div 위에 div를 겹치는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "TailwindCSS How to overlap a div on the top of another div"
 link: "https://medium.com/@xavieryuhanliu/tailwindcss-how-to-put-a-component-on-the-top-of-another-component-eb236c8196ce"
 isUpdated: true
 ---
-
-
-
-
 
 내 수업 프로젝트에서 VSCode와 유사한 코드 편집기를 디자인하고 있던 중, 편집기의 우측 상단에 실행 및 디버그 버튼을 어떻게 표시할지에 문제가 발생했어요.
 
@@ -22,16 +18,24 @@ isUpdated: true
 ```js
 <div id="parent" class="relative h-screen w-screen">
   <div id="child-bottom" class="h-full w-full bg-red-100 hover:bg-red-500" />
-  <div
-    id="child-top"
-    class="absolute t-0 left-0 w-16 h-full bg-green-100 hover:bg-green-500"
-  />
+  <div id="child-top" class="absolute t-0 left-0 w-16 h-full bg-green-100 hover:bg-green-500" />
 </div>
 ```
 
 하나의 부모 div가 바깥에 있어요. 부모 div 안에는 두 개의 자식이 있어요: 아래쪽 자식과 위쪽 자식이에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 부모 div에는 "relative"를 클래스에 넣어주세요.
 
@@ -41,7 +45,18 @@ isUpdated: true
 
 예제 코드는 Tailwind Play에서 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 유용한 링크:
 
@@ -51,6 +66,17 @@ Tailwind CSS로 div를 겹치는 방법 - 스택 오버플로우
 
 또한 이 이야기는 내 블로그에서도 찾아볼 수 있어요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 TailwindCSS: 다른 div 위에 div를 겹쳐 놓는 방법이 있나요? (xavieryuhanliu.com)

@@ -3,16 +3,13 @@ title: "프론트엔드 주간 뉴스(2024년 4월 15일-21일)"
 description: ""
 coverImage: "/assets/img/2024-05-01-FrontendWeeklyDigest3591521April2024_0.png"
 date: 2024-05-01 22:49
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-01-FrontendWeeklyDigest3591521April2024_0.png
 tag: Tech
 originalTitle: "Frontend Weekly Digest #359 (15–21 April 2024)"
 link: "https://medium.com/@frontender-ua/frontend-weekly-digest-359-15-21-april-2023-9a1d973d9089"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-05-01-FrontendWeeklyDigest3591521April2024_0.png" />
 
@@ -24,15 +21,27 @@ isUpdated: true
 - 일부 스크롤 텍스트 강조 애니메이션
 
 - 성능
-   - Google의 최근 INP 전환 해독하기
-   - Google 핵심 웹 성능 모니터링 및 최적화 방법
+
+  - Google의 최근 INP 전환 해독하기
+  - Google 핵심 웹 성능 모니터링 및 최적화 방법
 
 - 접근성
-   - 스크린 리더 해독하기: 접근 가능한 폼 및 모범 사례
-   - 미국 법무부가 웹 및 모바일 앱을 위해 WCAG 2.1 A/AA 채택한 의미
-   - 긴 Alt
+  - 스크린 리더 해독하기: 접근 가능한 폼 및 모범 사례
+  - 미국 법무부가 웹 및 모바일 앱을 위해 WCAG 2.1 A/AA 채택한 의미
+  - 긴 Alt
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # CSS
 
@@ -52,7 +61,18 @@ isUpdated: true
 • 레이어 케이크 — Svelte를 위한 그래픽 프레임워크
 • 웹 스크래핑을 위한 상위 6개 JavaScript 및 NodeJS 라이브러리
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - React
   - React에서 동적 드롭다운 컴포넌트 만들기 — React Compound Component Pattern 설명

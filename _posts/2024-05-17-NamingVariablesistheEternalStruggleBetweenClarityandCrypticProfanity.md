@@ -3,16 +3,13 @@ title: "프론트엔드 개발자를 위한 변수 이름 짓기 팁"
 description: ""
 coverImage: "/assets/img/2024-05-17-NamingVariablesistheEternalStruggleBetweenClarityandCrypticProfanity_0.png"
 date: 2024-05-17 21:48
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-17-NamingVariablesistheEternalStruggleBetweenClarityandCrypticProfanity_0.png
 tag: Tech
 originalTitle: "Naming Variables is the Eternal Struggle Between Clarity and Cryptic Profanity"
 link: "https://medium.com/@PurpleGreenLemon/naming-variables-is-the-eternal-struggle-between-clarity-and-cryptic-profanity-6213cf930692"
 isUpdated: true
 ---
-
-
-
 
 그 깜빡이는 커서를 응시하며, 머릿속에서 지나치게 구체적이거나 혼란스러운 적절하지 않은 가능성 범위를 지나갑니다.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 ## 순진한 이상주의자 단계
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아, 코딩이 간단했던 초창기 날들이 떠오르네요. 새로 판올린 교과서와 좋은 의지를 가지고, 명확한 변수명이 유지보수 가능한 코드의 핵심이라고 믿었던 제 모습이 생생하게 기억돼요. "customerTransactionHistory"와 같은 이름은 제 손끝에서 흘러나온 것처럼 풀어진 걸작으로, 목적에 대해 약간이라도 불분명함을 남기지 않았어요.
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 완벽한 변수 이름을 만드는 데 다섯 분을 쓰는 건 소중한 문제 해결 시간을 뺏어갈 수 있어요. 코드의 한 부분에서 완벽했다고 생각하는 것이 다른 부분에서는 지나치게 장황해 보일 수 있어요. 모듈이나 함수 내에서의 네이밍 규칙은 단어의 쓸데없는 증가 없이 명확성을 유지할 수 있게 도와줘요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 서술적인 이름이 좋지 않다는 건 아니에요. 다만 교과서적인 이상에 매몰되어 더 큰 그림 — 가독성이 좋고 효율적으로 작성되는 코드를 만드는 것을 간과한 적이 있어요. 몇 년 동안 변수들이 (조금) 짧아졌다고 할까요.
 
@@ -42,7 +61,18 @@ isUpdated: true
 
 나는 이게 개발자 기술의 정점이라고 자신을 납듯했죠. 긴 서술적인 이름은 초보자들을 위한 것일 뿐이라고 납듯했어요. 진짜 개발자들은 밀과 쌈채로 구별되는 코드 줄임말로 의사소통해야 한다고 생각했어요. 그런데, 이 논리의 문제는 종종 제가 쌈채로 남게 된다는 거예요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 크립틱 약어에 대해 언급해보겠습니다. 미래의 여러분은 멍청한 사람이 될 거예요. "prcFl"이라고 쓸 때 느끼는 뛰어난 명확성은 코드에서 멀어지면 금방 사라질 거예요.
 
@@ -52,7 +82,18 @@ isUpdated: true
 
 # "모든 것이 망가졌다, 포기해야 할 때" 단계
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리 모두 한 번쯤은 그런 적이 있었죠. 버그가 수 시간 동안 논리에 저항하고, 정신이 미치도록 아슬아슬한 상태이며, 카페인은 오히려 의도와는 반대 효과를 나타내기 시작했을 때 말이에요. 그때 진정으로 혐오스러운 변수 이름들이 드러나게 되는 거죠.
 
@@ -62,7 +103,18 @@ isUpdated: true
 
 이 상태의 코드를 우연히 발견하는 동료를 상상해보세요. 그것은 개발자의 공포 영화와 같을 거예요. 말로 표현할 수 없는 이름으로 낙인 찍힌 건, 코드가 무엇을 해야 하는지 스스로 잊어버렸다는 신호겠죠. 키보드에서 멀어지세요, 친구야.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가끔, 이 지점에 도달했을 때 할 수 있는 최선의 일은 멀리 물러나는 것입니다. 머리를 식히고 다른 작업에 도전하고 신선한 시각으로 다시 돌아오세요. 잘못된 변수명조차도 디버깅 절망의 깊이를 나타내는 변수명보다는 낫습니다.
 
@@ -72,7 +124,18 @@ isUpdated: true
 
 바다사나이마저 얼굴이 붉어질 만한 이름을 생각해보세요 (그리고 아마 당신의 감정 안정성을 의심할 지도 모릅니다). 이들은 그냥 변수명이 아니라 코드베이스에 방출된 원시적인 비명입니다. 압도적인 좌절 속에서 필사적이고 정화적인 행동입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기가 이 단계에 대한 점인데요 - 혼자 일하는 경우가 아니거나 팀원들이 욕설에 대해 매우 편안한 태도를 가지고 있다면 '커밋'을 누르기 전에 한 번 더 생각해보세요.
 
@@ -82,7 +145,18 @@ isUpdated: true
 
 #깨달음의 순간
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가끔씩, 나는 완벽한 하이쿠를 이루어냅니다 - 기술적이면서도 약간의 절망이 묻어나는 변수명을 만들어 냈다는 사실입니다.
 
@@ -95,7 +169,18 @@ isUpdated: true
 - whyDoesThisExist: 당신의 프로그램 안에 코딩된 존재론적 질문입니다.
 - temporaryFixThatBecamePermanent: 아마도 쌓인 기술 부채에 대한 자기 비하적인 인정입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 변수 이름은 섬세한 균형을 유지해야 합니다. 목적을 제대로 이뤄주는 동시에 이야기를 전달해야 합니다. 알맞은 이름은 버그를 처리한 이야기, 의문스러운 설계 선택, 그리고 우리의 직업에 스며든 고요한 포기를 대변합니다.
 

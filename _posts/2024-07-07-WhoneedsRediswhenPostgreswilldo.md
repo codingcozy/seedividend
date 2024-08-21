@@ -3,15 +3,13 @@ title: "Redis 대신 PostgreSQL을 사용해야 하는 이유"
 description: ""
 coverImage: "/assets/img/2024-07-07-WhoneedsRediswhenPostgreswilldo_0.png"
 date: 2024-07-07 21:46
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-WhoneedsRediswhenPostgreswilldo_0.png
 tag: Tech
 originalTitle: "Who needs Redis, when Postgres will do?"
 link: "https://medium.com/stackademic/who-needs-redis-when-postgres-will-do-9ad54379fb94"
 isUpdated: true
 ---
-
-
 
 ![이미지1](/assets/img/2024-07-07-WhoneedsRediswhenPostgreswilldo_0.png)
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 이제 클라이언트가 앱에 연결하고 모든 앱의 모든 클라이언트에게 방송이 전달되어야 합니다. 레디스는 여기서 나서서 모든 앱이 레디스 채널을 구독하고 작성 앱에서 publish를 호출하는 pub/sub(발행 및 구독) 패턴을 제공합니다. 이는 Heroku나 AWS에서 매우 잘 작동하는데, 누가 서버가 몇 개나 있는지 알 수 없는 환경에서 작동합니다. 그러나 단일 장애 지점을 도입하게 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-07-WhoneedsRediswhenPostgreswilldo_2.png" />
 

@@ -3,16 +3,13 @@ title: "Vue3 + Vite 컴포넌트화 하는 방법"
 description: ""
 coverImage: "/assets/img/2024-05-01-Vue3rspack003TheArtofComponentizationCompositionAPIandCommonProblemSolvingIdeas_0.png"
 date: 2024-05-01 18:06
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-01-Vue3rspack003TheArtofComponentizationCompositionAPIandCommonProblemSolvingIdeas_0.png
 tag: Tech
 originalTitle: "Vue3 + rspack 003 The Art of Componentization (Composition API) and Common Problem Solving Ideas"
 link: "https://medium.com/@beckmoulton/vue3-rspack-003-the-art-of-componentization-composition-api-and-common-problem-solving-ideas-7a7f816d4d6a"
 isUpdated: true
 ---
-
-
-
 
 # Vue3 + rspack 003: 컴포넌트화의 기술 (Composition API) 및 일반적인 문제 해결 아이디어
 
@@ -22,7 +19,18 @@ Vue 3에서 Composition API는 컴포넌트와 로직을 재사용하는 새로�
 
 컴포넌트는 Vue 애플리케이션의 기본 구성 요소입니다. Composition API에서는 reactive 상태와 컴포넌트의 동작을 정의하기 위해 setup 함수를 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 예시: 간단한 카운터 컴포넌트
 
@@ -44,7 +52,18 @@ import { ref } from 'vue';export default {
 
 어려움: Composition API를 사용할 때, 개발자들은 조각난 상태 로직을 경험하여 컴포넌트를 유지하기 어렵게 만들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해결책: 관련 로직을 함수로 캡슐화한 후에 이 함수를 설정(setup)에서 호출하세요. 이렇게 하면 코드의 가독성과 유지보수성이 향상될 수 있습니다.
 
@@ -54,7 +73,18 @@ Vue 3에서 부모 및 자식 컴포넌트 간의 통신은 주로 props와 emit
 
 # 예: 부모-자식 컴포넌트 간 통신
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <!-- ChildComponent.vue -->
@@ -67,11 +97,11 @@ export default {
   setup() {
     const props = defineProps(['messageFromParent']);
     const emit = defineEmit(['messageToParent']);
-    
+
     function emitToParent() {
       emit('messageToParent', '안녕하세요, 부모님!');
     }
-    
+
     return { emitToParent };
   }
 };
@@ -93,11 +123,11 @@ export default {
   },
   setup() {
     const parentMessage = ref('안녕하세요, 자식님!');
-    
+
     function handleMessageFromChild(message) {
       console.log(message);
     }
-    
+
     return { parentMessage, handleMessageFromChild };
   }
 };
@@ -110,7 +140,18 @@ export default {
 
 해결책 : 이러한 번거로운 계층별 전달을 피하기 위해 Vue 3의 provide 및 inject API를 사용하여 컴포넌트 간 수준의 통신을 할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 슬롯 사용
 
@@ -162,7 +203,18 @@ export default {
 </script>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 실용적인 어려움과 해결책
 
@@ -172,7 +224,18 @@ export default {
 
 # 동적 컴포넌트와 비동기 컴포넌트
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Vue 3는 defineAsyncComponent를 통해 비동기 컴포넌트를 지원합니다. 동적 컴포넌트는 내장 `component` 태그와 `:` 속성을 사용하여 구현할 수 있습니다.
 
@@ -180,18 +243,28 @@ Vue 3는 defineAsyncComponent를 통해 비동기 컴포넌트를 지원합니�
 
 ```js
 // defineAsyncComponent를 사용하여 비동기 컴포넌트 로드
-import { defineAsyncComponent } from 'vue';export default {
+import { defineAsyncComponent } from "vue";
+export default {
   components: {
-    AsyncComponent: defineAsyncComponent(() =>
-      import('./components/AsyncComponent.vue')
-    )
-  }
+    AsyncComponent: defineAsyncComponent(() => import("./components/AsyncComponent.vue")),
+  },
 };
 ```
 
 # 예시: 동적 컴포넌트
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <template>
@@ -204,9 +277,9 @@ import ComponentB from './components/ComponentB.vue';
 export default {
   setup() {
     const currentComponent = ref('ComponentA');    // 실제 상황에 맞게 currentComponent의 값을 변경하여 컴포넌트를 전환할 수 있습니다.
-    
+
     // currentComponent.value = 'ComponentB';
-    
+
     return { currentComponent, ComponentA, ComponentB };
   }
 };
@@ -219,7 +292,18 @@ export default {
 
 해결책: 로딩 상태 힌트 및 오류 처리 매커니즘을 제공할 수 있습니다. 예를 들어, Suspense 컴포넌트를 사용하여 비동기 컴포넌트를 감쌀 수 있고 대체 콘텐츠(대체 콘텐츠)를 제공할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <template>

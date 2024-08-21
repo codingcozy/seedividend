@@ -3,16 +3,13 @@ title: "Microsoft Fabric를 위한 확장 가능한 데이터 수집 프레임�
 description: ""
 coverImage: "/assets/img/2024-05-16-BuildingascalabledataingestionframeworkforMicrosoftFabric_0.png"
 date: 2024-05-16 17:14
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-16-BuildingascalabledataingestionframeworkforMicrosoftFabric_0.png
 tag: Tech
 originalTitle: "Building a scalable data ingestion framework for Microsoft Fabric"
 link: "https://medium.com/@piethein/building-a-scalable-data-ingestion-framework-for-microsoft-fabric-9f2985a1e2f3"
 isUpdated: true
 ---
-
-
-
 
 이 기사는 고객 교류 중 자주 논의되는 주제인 데이터 엔지니어링 확장에 대해 다룹니다. 데이터 수집 및 유효성 검사 프로세스를 간소화하기 위한 방법을 어떻게 향상시킬 수 있을까요? 이 질문은 복잡하며, 원하는 대상 아키텍처, 데이터 품질 및 모델링 요구 사항, 메타데이터 관리 등과 같은 다양한 측면과 얽힌 문제입니다.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 주의! 이 글은 깊이 있는 포괄적인 블로그 글입니다. Microsoft Fabric를 직접 다뤄보고 데이터 파이프라인을 시작하고, 메타데이터 중심의 수집 프레임워크를 구현하고, 모든 것을 매력적이고 유익하게 통합해 보겠습니다. 서로 다른 섹션 간에 추가적인 고려 사항을 제공할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 모든 공학 작업을 표준화할 수는 없습니다
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 예를 들어, 일부 공급업체는 고유한 API (Application Programming Interfaces) 또는 고유의 데이터 형식을 사용하여 데이터 추출을 수행합니다. 공급업체가 CSV 내보내기 형식 만 지원하는 경우, 여러분은 이에 맞게 프로세스를 조정해야 합니다. 한 번 이 장벽을 극복하고 데이터가 표준화 (Delta) 형식으로 제공되면, 더 많은 표준화와 자동화를 진행할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리 다이어그램으로 돌아와서, 브론즈(원시 데이터)에서 실버(정제 및 히스토라이즈된 데이터)로의 전환은 상당히 더 직관적으로 보입니다. 이 단계에서의 변환은 일반적으로 예측 가능하고 비교적 간단하여, 컬럼 이름 변경, 필터 적용, 데이터 기본값 설정 등의 작업을 포함합니다. 보다 예측 가능한 성격 때문에, 데이터 엔지니어링의 이 단계는 매개변수화하기가 더 쉽고 효율적이며 관리하기 용이합니다.
 
@@ -42,7 +61,18 @@ isUpdated: true
 
 ## MVP의 사전 요구 사항
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 제안하는 해결책이 Microsoft Fabric을 사용한다고 합니다. Microsoft Fabric에 익숙하지 않다면, 최신 데이터 솔루션을 구축하기 위해 설계된 클라우드 네이티브 플랫폼으로 Lakehouse 아키텍처를 활용하는 강력한 하이브리드 솔루션입니다. 이는 데이터 웨어하우스와 데이터 레이크의 기능을 결합한 것입니다.
 
@@ -52,7 +82,18 @@ Microsoft Fabric을 구성하려면 적어도 하나의 워크스페이스, Bron
 
 ## 구성 — Copy Data 도구를 사용하여 파이프라인 생성하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터 파이프라인 설계의 초기 단계는 데이터를 플랫폼으로 가져오는 것입니다. 이를 위해 우리는 Out-of-the-Box 커넥터를 활용할 것입니다. 저희 프로젝트에서는 다양한 데이터베이스 및 시스템을 지원하는 Data Factory를 사용할 것입니다. 우리의 데이터 소스는 AdventureWorks 샘플 데이터베이스를 호스팅하는 Azure SQL 서비스입니다.
 
@@ -64,7 +105,18 @@ SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABL
 
 또한, '첫 번째 행만'을 선택 해제해 주세요. 이러한 단계를 따르면 나머지 파이프라인을 설계할 준비가 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각 데이터 원본이 다르게 작동한다는 점을 염두에 두는 것이 중요합니다. 따라서 작업 중인 원본에 따라 파이프라인의 초기 부분이 달라질 수 있습니다. 이것을 기억하며 파이프라인 디자인을 진행해 주세요.
 
@@ -74,7 +126,18 @@ SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABL
 
 이 두 가지 작업을 왜 수행하는 걸까요? 첫째, 히스토리컬 아카이브를 생성하면 어떤 손상된 레이어든 복구할 수 있습니다. 가장 최근 복사본만 유지했다면 오류 발생 시 데이터를 복구할 수 없었을 것입니다. 그래서, 시간을 되돌아가 데이터셋을 다시 처리할 수 있습니다. 둘째, 가장 최근 데이터를 Delta 파일로 승격시킴으로써 기계 학습이나 리포팅과 같은 서비스를 사용한 아훕적인 발견이 쉬워집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 가지 목표를 달성하기 위해 모든 필수 단계를 포함하는 ForEach 활동을 만들 것입니다. 이미 최종 결과를 보여줬지만, 이 작업을 복제하려면 ForEach 작업 내 첫 번째 활동은 Copy Data Activity가 될 것입니다.
 
@@ -87,7 +150,18 @@ SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABL
 
 대상으로는 Bronze Lakehouse를 사용할 것입니다. 워크스페이스에 아직 Bronze Lakehouse 항목을 만들지 않았다면 먼저 생성해야 합니다. 위치로는 Root Folder를 Files로 선택하세요. 그런 다음 파일 경로에 다음 식을 사용하세요. 저는 간단한 yyyyMMdd 분할 방식을 사용하고 있지만, 더 많은 데이터를 저장하려면 타임스탬프 또는 다른 방식을 사용해도 괜찮습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 @formatDateTime(utcnow(), 'yyyyMMdd')
@@ -100,8 +174,18 @@ SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABL
 
 ## 최신 Parquet 파일을 Delta 테이블로 승격하기
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 단계는 가장 최근 파일들을 Delta 테이블로 프로모션하는 것입니다. 이렇게 하면 이전에 처리된 데이터셋이 그대로 유지됩니다. 노트북을 사용하여 모든 것을 Bronze으로 프로모션할 것입니다. 따라서 파이프라인으로 돌아가서 ForEach 활동을 열고 노트북 활동을 드래그하여 Copy 활동에 연결하세요. "새로 만들기" 버튼을 클릭하여 하나를 생성해주세요.
 
@@ -114,7 +198,18 @@ SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABL
 @formatDateTime(utcnow(), 'yyyyMMdd')
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 모든 것이 원활하게 진행된다면, 브론즈 레이어 내에 새로 생성된 델타 테이블이 표시될 것입니다. 모든 테이블을 삭제하고 다시 구축하고 있음을 알려드립니다. 델타의 테이블 히스토리 기능을 활용할 필요가 없으니, 모든 데이터의 이전 복사본을 테이블 섹션에서 유지하고 있기 때문입니다.
 
@@ -124,63 +219,85 @@ SELECT * FROM INFORMATION_SCHEMA.TABLES WHERE TABLE_TYPE = 'BASE TABLE' AND TABL
 
 이 글의 두 번째 부분에 도달했습니다. 이제 표준 파일 형식을 사용하여 브론즈 레이어에 데이터를 성공적으로 착륙시킨 상태에서 우리는 실버 레이어로 모든 것을 유효성 검사하고 히스토라이징하여 확장성을 더욱 강화하기 ready합니다. 이 부분은 더 간단하고 예측 가능합니다. 필터링, 열 이름 바꾸기, 데이터 비교와 같은 변환 작업은 비교적 간단하기 때문에 이러한 단계를 더 쉽게 자동화할 수 있습니다. 이를 위해 모든 중요한 구성을 보유하는 메타데이터 저장소를 사용할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 번째 Azure SQL 데이터베이스에는 모든 메타데이터를 보유하는 테이블을 생성하는 스크립트를 사용할 것입니다. 따라서 Azure SQL 데이터베이스로 이동하여 아래 제공된 스크립트를 실행하십시오. 제 목표는 철저한 접근 방식을 제공하는 것이 아니라 일반적인 개념을 설명하는 것이므로 참고해 주세요.
 
 ```js
-CREATE TABLE SchemaMetadata  
-(  
-    Id INT IDENTITY(1,1) PRIMARY KEY,  
-    TableName NVARCHAR(128),  
-    ColumnName NVARCHAR(128),  
-    DataType NVARCHAR(128),  
-    CharacterMaximumLength INT,  
-    NumericPrecision INT,  
-    NumericScale INT,  
-    IsNullable NVARCHAR(3),  
-    DateTimePrecision INT,  
-    IsPrimaryKey BIT DEFAULT 0  
-)  
-GO 
+CREATE TABLE SchemaMetadata
+(
+    Id INT IDENTITY(1,1) PRIMARY KEY,
+    TableName NVARCHAR(128),
+    ColumnName NVARCHAR(128),
+    DataType NVARCHAR(128),
+    CharacterMaximumLength INT,
+    NumericPrecision INT,
+    NumericScale INT,
+    IsNullable NVARCHAR(3),
+    DateTimePrecision INT,
+    IsPrimaryKey BIT DEFAULT 0
+)
+GO
 ```
 
 다음으로는 AdventureWorks 예제 데이터베이스에서 스키마 메타데이터를 검색해야 합니다. 이를 위해 정보 스키마에서 모든 메타데이터를 읽는 간단한 스크립트를 개발했습니다. 이 스크립트는 메타데이터 저장소에 대한 INSERT 문을 생성하는 데 사용될 수 있습니다. 이 예에서는 하나의 테이블로 설명하고 있음을 참고해 주세요.
 
 ```js
-SELECT   
-    TABLE_NAME as 'TableName',  
-    COLUMN_NAME as 'ColumnName',  
-    DATA_TYPE as 'DataType',  
-    CHARACTER_MAXIMUM_LENGTH as 'CharacterMaximumLength',  
-    NUMERIC_PRECISION as 'NumericPrecision',  
-    NUMERIC_SCALE as 'NumericScale',  
-    IS_NULLABLE as 'IsNullable',  
-    DATETIME_PRECISION as 'DateTimePrecision',  
-    COLUMNPROPERTY(OBJECT_ID(TABLE_NAME), COLUMN_NAME, 'IsIdentity') as 'IsPrimaryKey'  
-FROM   
-    INFORMATION_SCHEMA.COLUMNS  
-WHERE   
+SELECT
+    TABLE_NAME as 'TableName',
+    COLUMN_NAME as 'ColumnName',
+    DATA_TYPE as 'DataType',
+    CHARACTER_MAXIMUM_LENGTH as 'CharacterMaximumLength',
+    NUMERIC_PRECISION as 'NumericPrecision',
+    NUMERIC_SCALE as 'NumericScale',
+    IS_NULLABLE as 'IsNullable',
+    DATETIME_PRECISION as 'DateTimePrecision',
+    COLUMNPROPERTY(OBJECT_ID(TABLE_NAME), COLUMN_NAME, 'IsIdentity') as 'IsPrimaryKey'
+FROM
+    INFORMATION_SCHEMA.COLUMNS
+WHERE
     TABLE_NAME = 'Address'
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 수집한 스키마 메타데이터를 활용하여 저희 메타데이터 저장소의 Azure SQL 데이터베이스로 돌아가서 모든 레코드를 삽입해주세요. 아래는 참고용 예시입니다.
 
 ```js
-INSERT INTO SchemaMetadata  
-(TableName, ColumnName, DataType, CharacterMaximumLength, NumericPrecision, NumericScale, IsNullable, DateTimePrecision, IsPrimaryKey)  
-VALUES  
-('Address', 'AddressID', 'int', NULL, 10, 0, 'NO', NULL, 1),  
-('Address', 'AddressLine1', 'nvarchar', 60, NULL, NULL, 'NO', NULL, 0),  
-('Address', 'AddressLine2', 'nvarchar', 60, NULL, NULL, 'YES', NULL, 0),  
-('Address', 'City', 'nvarchar', 30, NULL, NULL, 'NO', NULL, 0),  
-('Address', 'StateProvince', 'int', NULL, 10, 0, 'NO', NULL, 0),  
-('Address', 'PostalCode', 'nvarchar', 15, NULL, NULL, 'NO', NULL, 0),  
-('Address', 'CountryRegion', 'geography', NULL, NULL, NULL, 'YES', NULL, 0),  
-('Address', 'rowguid', 'uniqueidentifier', NULL, NULL, NULL, 'NO', NULL, 0),  
-('Address', 'ModifiedDate', 'datetime', NULL, NULL, NULL, 'NO', 3, 0);  
+INSERT INTO SchemaMetadata
+(TableName, ColumnName, DataType, CharacterMaximumLength, NumericPrecision, NumericScale, IsNullable, DateTimePrecision, IsPrimaryKey)
+VALUES
+('Address', 'AddressID', 'int', NULL, 10, 0, 'NO', NULL, 1),
+('Address', 'AddressLine1', 'nvarchar', 60, NULL, NULL, 'NO', NULL, 0),
+('Address', 'AddressLine2', 'nvarchar', 60, NULL, NULL, 'YES', NULL, 0),
+('Address', 'City', 'nvarchar', 30, NULL, NULL, 'NO', NULL, 0),
+('Address', 'StateProvince', 'int', NULL, 10, 0, 'NO', NULL, 0),
+('Address', 'PostalCode', 'nvarchar', 15, NULL, NULL, 'NO', NULL, 0),
+('Address', 'CountryRegion', 'geography', NULL, NULL, NULL, 'YES', NULL, 0),
+('Address', 'rowguid', 'uniqueidentifier', NULL, NULL, NULL, 'NO', NULL, 0),
+('Address', 'ModifiedDate', 'datetime', NULL, NULL, NULL, 'NO', 3, 0);
 GO
 ```
 
@@ -188,7 +305,18 @@ GO
 
 지금까지 수집한 메타데이터는 테이블 이름, 열, 데이터 형식, 널 가능 속성, 기본 키 등을 포함한 기본적인 내용뿐입니다. 계속해서 특정 도메인 정보, 여러 소스에 대한 메타데이터, 민감도 레이블과 같은 보안 메타데이터, 행 필터링을 위한 메타데이터 등으로 확장할 수 있습니다. 또한 소스 열을 대상 열로 이름 바꾸기, 간단한 조인 또는 연합 실행, 관련 없는 데이터 필터링 등과 같은 더 복잡한 처리 로직에 대한 메타데이터도 통합할 수 있습니다. 최종적으로 메타데이터의 범위는 특정 요구 사항 및 미래 사용 사례에 따라 다를 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희 실습 예제로 돌아가 봅시다. 준비가 되셨다면 ForEach 활동으로 돌아가세요. 여기에 새 Lookup 활동을 추가해 보세요. 이 작업은 워크플로에 끌어다 놓으면 새 연결을 설정하여 메타데이터 저장소에서 읽어옵니다. 호출을 만들기 위해 테이블 이름을 입력으로 사용할 것이기 때문에 다음 표현식을 사용하세요:
 
@@ -200,7 +328,18 @@ GO
 
 ## Great Expectations을 활용한 데이터 품질 검증하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로 데이터 처리 및 처리에 자동화 기능을 도입해 보겠습니다. 브론즈 단계의 데이터를 메타스토어의 메타데이터를 사용하여 유효성을 검사하는 것이 첫 번째 단계입니다. 이를 위해 새 'If Condition' 활동을 끌어다 놓으세요.
 
@@ -212,7 +351,18 @@ GO
 
 이제 앞으로 나아가서 워크스페이스 내에서 Fabric 환경을 설정해야 합니다. 이 환경에는 데이터 유효성을 검사하는 데 필요한 패키지가 포함될 것입니다. 이번 데모에서는 데이터 품질 검증을 위한 인기 있는 오픈 소스 도구인 'Great Expectations'를 사용할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시작하려면 작업 공간으로 이동한 후 상단의 '새로 만들기'를 클릭하십시오. 드롭다운에서 '새 환경'을 선택하십시오. 이 작업으로 대화 상자가 나타납니다. 여기서 공개 라이브러리 아래에 'great-expectations'를 추가해야 합니다. 이 작업을 완료한 후 '게시'를 클릭하십시오. 새 환경을 사용할 준비가 될 때까지 시간이 걸릴 수 있다는 점을 참고해 주세요.
 
@@ -224,7 +374,18 @@ GO
 
 이제 Python 스크립트 아래에서 제공된 내용을 사용하여 새로운 Notebook을 작성할 시간입니다. 이 스크립트에서는 우선 'metadata' 매개변수를 확인하고 JSON 형식으로 변환합니다. 그런 다음, 메타데이터를 반복하면서 데이터 품질 규칙을 작성합니다. 게다가, 데이터가 잘못된 경우 프로세스를 중지할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 노트북 자체에 대해: 새로 생성한 환경을 노트북 환경 내에서 선택해야 합니다.
 
@@ -234,7 +395,18 @@ GO
 
 데이터 파이프라인 생성의 이 부분에서는 Slowly Changing Dimensions(Type 2)를 사용하여 데이터를 히스토라이징할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 형태를, 친절한 톤으로 번역하겠습니다.
 
@@ -249,7 +421,18 @@ SCDs(Slowly Changing Dimensions)는 현재 및 과거 데이터를 시간이 지
 @string(activity('LookupMetadata').output.value)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 스크립트에 대해 이야기해 봐요. 메타데이터 내에 기본 키가 제공된 경우, 해당 키는 비교를 위한 기능 키로 사용됩니다. 그렇지 않은 경우, 행 내의 모든 값들을 입력으로 사용하여 고유 해시 값을 생성합니다. 저는 MERGE SQL 문을 사용하지 않기로 결정했는데요, 이전 데이터셋에서 같은 데이터를 다시 제출하거나 이전 데이터를 삭제해도 레코드를 완전히 제어하고 닫고 다시 열기를 원하기 때문입니다.
 
@@ -259,7 +442,18 @@ SCDs(Slowly Changing Dimensions)는 현재 및 과거 데이터를 시간이 지
 
 위에서 언급한 전략을 구현하면, 실버 레이어까지 데이터는 여전히 소스 중심입니다. 이러한 모범 사례를 따르는 것이 좋습니다. 실버 레이어에서 소스 중심 데이터를 유지하면 데이터 소유권을 결정하는 데 도움이 됩니다. 소스와 일치하는 데이터 제품을 관리하고 구축하는 것이 목표라면 엔지니어들에게 다른 도메인 애플리케이션 간에 데이터를 교차 조인하지 않도록 안내하는 것이 중요합니다. 더 엄격한 설계 접근 방식은 각 소스 시스템을 자체 Lakehouse 엔터티와 일치시키는 것입니다. 이렇게 하면 더 깨끗하고 효율적인 데이터 관리 전략을 보장하며, 데이터 중심 프로젝트를 감독하고 실행하기가 더 쉬워집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 실버 레이어를 계산 또는 비즈니스 로직과 같은 요소로 강화하는 계획을 세울 때 고려해야 할 사항이 몇 가지 있어요. 이러한 변환은 쉽게 매개변수화할 수 없어요. 그 결과, 이전 자동화된 단계를 기반으로하는 추가적인 실버 레이어를 만들어야 할지 고민해보실 필요가 있을지도 모르겠네요. 이 전략은 느슨한 결합과 유연성을 촉진하여 효율적인 데이터 관리를 위한 필수 구성 요소를 제공해요. 이 추가 레이어를 설정하는 데 더 많은 노력이 필요할 수 있지만, 제공하는 유연성은 투자의 가치가 있답니다. 이 접근 방식은 데이터 시스템의 기능을 향상시킬 뿐만 아니라 (원본에 맞게 정렬된) 데이터 제품을 비즈니스 요구 사항에 추가로 적응시킬 수 있는 것을 보장해요.
 
@@ -269,7 +463,18 @@ SCDs(Slowly Changing Dimensions)는 현재 및 과거 데이터를 시간이 지
 
 골드 레이어는 아키텍처의 범위에 크게 의존하기 때문에 가장 복잡한 부분을 제공할 가능성이 높아요. 가장 간단한 설정에서는 골드 레이어가 통합과 사용 사례 레이어로 모두 작동할 수 있어요. 즉, 데이터를 먼저 통합한 다음 조직의 고유한 사용 사례에 따라 특정 하위 집합을 선택하여 맞춤화하여 구조화할 수 있어요. 이 맞춤화된 접근 방식은 데이터 아키텍처가 견고하며 조직의 특정 요구 사항과 목표에 최적으로 정렬되어 있는 것을 보장해줘요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여러 도메인을 포함하는 아키텍처를 사용한다면, 골드 계층은 여러 하위 계층으로 나눌 수 있습니다. 예를 들어, 하나의 계층은 다양한 소스 시스템에서 초기 데이터 통합에 특화될 수 있습니다. 이어지는 계층은 특정 사용 사례를 위해 설계되며, 따라서 특정 요구 사항을 충족하기 위해 하위 집합을 맞춤화할 수 있습니다. 또 다른 계층은 새로운 데이터 제품을 개발하기 위해 할당될 수 있습니다. 이러한 계층들은 집계로 통칭되는 것을 형성하게 됩니다. 이에 대해 더 알고 싶다면, 메달리온 아키텍처의 층화에 관한 다른 블로그 포스트를 참조해 주세요.
 
@@ -279,7 +484,18 @@ SCDs(Slowly Changing Dimensions)는 현재 및 과거 데이터를 시간이 지
 
 메타데이터 기반의 수집 프레임워크 없이 수십 개 또는 수백 개의 소스 시스템을 도입하는 것은 어려운 작업일 수 있습니다. 복잡성은 각 소스 시스템을 모든 스크립트, 파이프라인, 활동 등을 수동으로 관리해야 한다는 점에서 발생합니다. 이는 시간이 많이 소요되며 오류가 발생하기 쉽고 표준화가 부족합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 메타데이터 주도 방식은 이 프로세스를 간소화합니다. 전통적인 코드 기반 전략에 비해 여러 가지 장점을 제공합니다:
 

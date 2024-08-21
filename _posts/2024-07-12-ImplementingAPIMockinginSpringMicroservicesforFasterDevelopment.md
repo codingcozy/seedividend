@@ -3,16 +3,13 @@ title: "Spring 마이크로서비스에서 API 목킹 구현으로 개발 속도
 description: ""
 coverImage: "/assets/img/2024-07-12-ImplementingAPIMockinginSpringMicroservicesforFasterDevelopment_0.png"
 date: 2024-07-12 21:10
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-12-ImplementingAPIMockinginSpringMicroservicesforFasterDevelopment_0.png
 tag: Tech
 originalTitle: "Implementing API Mocking in Spring Microservices for Faster Development"
 link: "https://medium.com/@AlexanderObregon/implementing-api-mocking-in-spring-microservices-for-faster-development-a2c16aeeb9a4"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-07-12-ImplementingAPIMockinginSpringMicroservicesforFasterDevelopment_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 # API 모킹 소개
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 API 모킹은 소프트웨어 엔지니어링 분야에서 원활한 개발을 보장하기 위한 다리 역할을 합니다. 개인 프로젝트를 수행하거나 다양한 서비스를 관리하는 대규모 팀의 구성원인 경우에도 모킹을 통해 개발 및 테스트 과정에서 어떻게 과제에 접근할지가 크게 달라질 수 있습니다.
 
@@ -32,7 +40,18 @@ API 모킹은 API 세계에서의 이중자와 유사합니다. 실제 백엔드
 
 ## API 모킹이 필요한 이유
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 핵심적으로 mocking은 필요성에서 발생합니다. 개발자들은 종종 다음과 같은 시나리오에 직면합니다:
 
@@ -45,7 +64,18 @@ API 모킹은 API 세계에서의 이중자와 유사합니다. 실제 백엔드
 
 ## 마이크로서비스 아키텍처에서 왜 필수적인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마이크로서비스 영역에서는 아키텍처가 각각 고유한 기능을 갖는 여러 격리된 서비스로 세분화됩니다. 이러한 서비스들은 독립적이지만 통신하여 함께 작동해야 합니다.
 
@@ -58,7 +88,18 @@ API 모킹은 API 세계에서의 이중자와 유사합니다. 실제 백엔드
 - 유연성: 개발자들은 여러 시나리오를 시뮬레이트할 수 있으며, 예외 케이스, 오류 및 특이한 응답을 포함하여 포괄적인 테스트 환경을 제공할 수 있습니다.
 - 병렬 개발: 팀은 한 서비스의 완료를 기다리지 않고도 동시에 서로 다른 서비스에 대해 작업할 수 있습니다. Mocking은 종속 서비스에 대한 대기 대체가 있는지 확인합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 스프링 부트를 이용한 마이크로서비스 개요
 
@@ -68,7 +109,18 @@ API 모킹은 API 세계에서의 이중자와 유사합니다. 실제 백엔드
 
 스프링 부트는 대규모 스프링 생태계의 파생물인 오픈소스 Java 기반 프레임워크로, 최소한의 설정만으로 제품 수준의 애플리케이션을 구축하는 과정을 단순화하기 위해 설계되었습니다. 스프링 부트는 일련의 스타터(starter) 및 자동 구성(auto-configuration)을 제공함으로써 대부분의 뼈대 설정과 구성을 자동화할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 미니 서비스에 Spring Boot를 선택해야 하는 이유
 
@@ -82,7 +134,18 @@ API 모킹은 API 세계에서의 이중자와 유사합니다. 실제 백엔드
 
 Spring Boot가 테스팅에 중점을 둔다는 것은 제공하는 도구에서 확인할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 통합 테스팅: Spring Boot은 JUnit 및 TestNG와 같은 테스트 라이브러리와 원활하게 통합됩니다. 이 통합은 개발자가 단위 테스트와 통합 테스트를 효율적으로 작성할 수 있는 도구를 보유하고 있음을 보장합니다.
 - 테스트 슬라이스: Spring Boot이 제공하는 전문화된 어노테이션으로 애플리케이션의 특정 슬라이스를 테스트할 수 있습니다. 예를 들어 @WebMvcTest는 완전한 ApplicationContext를로드하지 않고 웹 레이어를 격리해서 테스트하는 데 사용될 수 있습니다.
@@ -94,7 +157,18 @@ Spring Boot은 항상 변화하는 마이크로서비스의 환경과 발맞추�
 
 # 모킹을 위한 Spring Boot 프로젝트 설정
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마이크로서비스가 소프트웨어 환경을 지배할 때, 효과적인 테스트 및 개발 관행이 매우 중요해집니다. Spring Boot을 사용하면 포괄적인 도구 세트 덕분에 프로젝트를 위한 모킹 및 테스트 설정을 간단하게 할 수 있습니다. 이제 이 과정을 자세히 살펴보겠습니다.
 
@@ -109,7 +183,18 @@ Spring Boot은 항상 변화하는 마이크로서비스의 환경과 발맞추�
 - 'Generate'를 클릭하고 프로젝트 zip을 다운로드합니다.
 - 다운로드한 zip 파일을 추출하고 원하는 통합 개발 환경(IDE)에서 엽니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 목업을 위한 필수 의존성
 
@@ -130,7 +215,18 @@ Spring Boot은 항상 변화하는 마이크로서비스의 환경과 발맞추�
 
 첫 번째 의존성은 웹 기반 애플리케이션을 구축하는 데 사용되며, 두 번째 의존성은 테스트에 중요합니다. 목업을 위한 도구 및 라이브러리를 포함하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Mock 환경 설정하기
 
@@ -141,7 +237,18 @@ Spring Boot의 자동 구성 기능을 활용하면 모의 환경을 설정하�
 
 ## 첫 번째 모의 테스트 작성하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 설정이 완료되면 첫 번째 목 테스트를 작성할 수 있습니다:
 
@@ -172,7 +279,18 @@ public class MyControllerTest {
 
 # Spring Boot를 사용한 Mock API 구현
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Spring Boot의 설계 원칙과 그 생태계는 목업 API를 만드는 강력한 선택지로 만들어냅니다. 여기에는 당신이 이 기능을 활용하여 마이크로서비스에서 목업 엔드포인트를 구현할 수 있는 단계별 안내서가 있습니다.
 
@@ -184,7 +302,18 @@ Spring Boot의 설계 원칙과 그 생태계는 목업 API를 만드는 강력�
 - 프론트엔드와 백엔드 개발을 분리함으로써 병렬 진행을 허용함.
 - 테스트 목적으로, 특히 실제 서비스로는 재현하기 어려운 시나리오에 대해.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 기본 컨트롤러 설정하기
 
@@ -204,7 +333,18 @@ public class MockController {
 
 위 코드 조각에서는 사용자 검색 기능을 모킹하는 간단한 엔드포인트를 설정했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 더욱 고급화된 모의(Mock)에 대한 서비스 레이어 활용
 
@@ -223,7 +363,18 @@ public class MockService {
 
 그런 다음, 이 서비스를 컨트롤러에 활용하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 @RestController
@@ -250,9 +401,20 @@ public String getUserById(@PathVariable String id) {
     // Mock a dynamic response based on the ID
     return "Mocked User for ID: " + id;
 }
-```  
+```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 네트워크 대기 시간 모의를 위한 지연 도입
 
@@ -268,7 +430,18 @@ public String getDelayedData() throws InterruptedException {
 
 그러나 Thread.sleep()를 사용할 때 주의해야 합니다. 과도한 사용은 테스트 속도를 현저히 느리게 만들 수 있습니다. 지연을 모의하고 싶은 특정 시나리오에 사용하는 것이 이상적입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

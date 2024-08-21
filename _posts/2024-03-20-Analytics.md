@@ -3,17 +3,13 @@ title: "Nextjs 14 사이트 통계 측정 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # Nextjs 14 사이트 통계 측정 방법
 
@@ -33,7 +29,18 @@ export function WebVitals() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { WebVitals } from "./_components/web-vitals";
@@ -55,7 +62,18 @@ export default function Layout({ children }) {
 
 ## Web Vitals
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 Vitals은 사용자 경험을 포착하기 위한 유용한 지표의 세트입니다. 다음과 같은 웹 Vitals이 모두 포함되어 있습니다:
 
@@ -88,7 +106,18 @@ export function WebVitals() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 외부 시스템으로 결과 전송하기
 
@@ -111,7 +140,18 @@ useReportWebVitals((metric) => {
 > 참고: Google Analytics를 사용하고 있으면
 > , id 값을 사용하여 수동으로 메트릭 분포를 구성할 수 있어서 백분위 등을 계산할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 > useReportWebVitals((metric) => {
 > // 만약 Google Analytics를 초기화한 경우에는 `window.gtag`를 사용하세요. 예시는 다음과 같습니다:
@@ -132,4 +172,15 @@ window.gtag('event', metric.name, {
 
 Google Analytics로 결과를 전송하는 방법에 대해 더 알아보기.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

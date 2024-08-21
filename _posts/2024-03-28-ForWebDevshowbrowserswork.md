@@ -3,17 +3,13 @@ title: "웹 개발자를 위한 브라우저 작동 원리 정리"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "For Web Devs  how browsers work "
 link: "https://medium.com/@nadgmo/for-web-devs-how-browsers-work-2ac93b7b23df"
 isUpdated: true
 ---
-
-
-
-
 
 ![ForWebDevshowbrowserswork_0](/assets/img/ForWebDevshowbrowserswork_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ![ForWebDevshowbrowserswork_1](/assets/img/ForWebDevshowbrowserswork_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1 — 사용자 인터페이스
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 그래서 대부분의 브라우저가 비슷하게 보이고 느껴집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2 - 브라우저 엔진
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 ## 3 - 렌더링 엔진
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 렌더링 엔진은 요청된 콘텐츠를 표시하는 역할을 합니다.
 
@@ -53,7 +82,18 @@ HTML 코드를 가져와 파싱하여 DOM (문서 객체 모델) 트리를 생�
 
 그런 다음 렌더링 엔진은 CSS를 파싱하여 CSSOM (CSS 객체 모델)을 구축합니다. DOM과 비슷하지만 HTML이 아닌 CSS에 대한 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS가 파싱되는 동안과 CSSOM이 생성되는 동안, 브라우저는 JavaScript 파일과 같은 다른 에셋을 Networking 레이어를 통해 다운로드합니다.
 
@@ -63,7 +103,18 @@ CSS가 파싱되는 동안과 CSSOM이 생성되는 동안, 브라우저는 Java
 
 ![이미지](/assets/img/ForWebDevshowbrowserswork_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한국어로 번역하면 아래와 같습니다:
 
@@ -75,7 +126,18 @@ CSS가 파싱되는 동안과 CSSOM이 생성되는 동안, 브라우저는 Java
 
 네트워킹 레이어는 리소스를 가져오기 위해 네트워크 호출을 수행하는 데 책임이 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에서는 올바른 연결 제한을 부과하고 요청 형식을 지정하며 프록시, 캐싱 등을 처리합니다.
 
@@ -85,7 +147,18 @@ JavaScript 엔진은 DOM 또는 CSSOM에서 JavaScript 코드를 구문 분석�
 
 JavaScript 코드는 웹 서버에서 제공되거나 웹 브라우저(브라우저 확장 프로그램이나 자동 광고 차단과 같은 브라우저 기능)에서 제공될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 과거 브라우저는 JavaScript 인터프리터를 사용했지만, 현대의 JavaScript 엔진은 성능 향상을 위해 Just-In-Time 컴파일을 사용합니다.
 
@@ -97,7 +170,18 @@ JavaScript 엔진의 예시는 다음과 같습니다.
 
 ## 6 — UI 백엔드
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 레이어는 선택 상자 또는 입력 상자와 창과 같은 기본 위젯을 그리는 역할을 합니다. 이 레이어 아래에서는 운영 체제 UI 방법을 사용합니다.
 
@@ -107,7 +191,18 @@ JavaScript 엔진의 예시는 다음과 같습니다.
 
 브라우저는 데이터를 로컬에 저장해야 하므로 데이터 저장 구성 요소가 이 부분을 처리합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현대 브라우저는 localStorage, IndexedDB 및 FileSystem과 같은 저장 메커니즘을 지원합니다.
 
@@ -117,7 +212,18 @@ JavaScript 엔진의 예시는 다음과 같습니다.
 
 ![이미지](/assets/img/ForWebDevshowbrowserswork_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 예시에서 하나의 작업만 실행할 수 있는 단일 스레드와 다중 스레드 프로세스에서 (스레드 수에 따라 다르지만) 한 번에 여러 작업을 실행할 수 있는 차이를 볼 수 있습니다.
 

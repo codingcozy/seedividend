@@ -3,7 +3,7 @@ title: "개발자들을 위한 최고의 VS Code 확장 프로그램으로 생�
 description: ""
 coverImage: "/assets/img/2024-07-09-BoostYourProductivitywiththeBestVSCodeExtensionsforDevelopers_0.png"
 date: 2024-07-09 08:54
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-BoostYourProductivitywiththeBestVSCodeExtensionsforDevelopers_0.png
 tag: Tech
 originalTitle: "Boost Your Productivity with the Best VS Code Extensions for Developers!"
@@ -11,13 +11,22 @@ link: "https://medium.com/@itsmohitprajapat/boost-your-productivity-with-the-bes
 isUpdated: true
 ---
 
-
-
 아래는 필수적인 VS Code 확장 프로그램 목록입니다:
 
 🔹 Live Server: 라이브 리로딩으로 즉시 웹 프로젝트를 미리 보고 업데이트할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 🔹 Prettier: 코드를 일관되고 깔끔하게 자동으로 포맷합니다.
 
@@ -27,7 +36,18 @@ isUpdated: true
 
 🔹 Auto Rename Tag: 이름을 바꿀 때 자동으로 일치하는 HTML/XML 태그를 업데이트합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 🔹 자동 닫기 태그: 타이핑하는 대로 HTML/XML 태그를 자동으로 닫습니다.
 
@@ -37,7 +57,18 @@ isUpdated: true
 
 이 확장 기능을 사용해야 하는 이유 🌟
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 효율적인 작업 흐름: 반복적인 작업을 줄이고 코드 작성에 집중하세요.
 
@@ -47,7 +78,18 @@ isUpdated: true
 
 더 나은 버전 관리: 코드 변경 사항을 관리하고 효과적으로 협업하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 무조건 필요한 확장 프로그램을 찾아서 작업 흐름을 효율적이게 만들고 코딩 능률을 향상하세요. Visual Studio Code marketplace에서 설치하고 개발 능력을 끌어올려보세요! 💪💡
 
@@ -57,7 +99,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-07-09-BoostYourProductivitywiththeBestVSCodeExtensionsforDevelopers_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저와 소통하세요
 
@@ -67,7 +120,18 @@ isUpdated: true
 
 🔗 Linkedin
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 🔗 깃허브
 

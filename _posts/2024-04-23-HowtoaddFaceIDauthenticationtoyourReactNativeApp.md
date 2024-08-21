@@ -3,17 +3,13 @@ title: "React Native 앱에 Face ID 인증 기능 추가하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How to add Face ID authentication to your React Native App"
 link: "https://medium.com/@withframe/how-to-add-face-id-authentication-to-your-react-native-app-6de31497ef2a"
 isUpdated: true
 ---
-
-
-
-
 
 이 게시물에서는 React Native 앱에서 Face ID 통합, RSA 2048 키페어 생성, RSA-SHA256 서명 생성, 그리고 Face ID 서명 및 공개 키를 확인하는 NodeJS 서버를 구축하는 내용을 다룰 것입니다.
 
@@ -23,7 +19,18 @@ Face ID는 iOS 및 Android 애플리케이션에서 널리 사용되는 보안 �
 
 ## Prerequisites
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 글을 따라가려면 다음 명령을 사용하여 손쉽게 만들 수있는 React Native 애플리케이션이 필요합니다:
 
@@ -35,7 +42,18 @@ npx react-native init RealApp
 
 이 예제에서는 WithFrame의 미리 제작 된 로그인 화면 중 하나를 사용하여 Face ID 액션을 실행할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 설치
 
@@ -47,7 +65,18 @@ yarn add react-native-biometrics
 
 만약 NPM을 사용하고 있다면, 아래 명령어를 실행해주세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm install react-native-biometrics --save
@@ -61,7 +90,18 @@ npx pod-install
 
 React Native 0.60 이상에서는 CLI 자동 링크 기능이 앱을 빌드하는 동안 모듈을 자동으로 링크합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 권한
 
@@ -73,7 +113,18 @@ React Native 0.60 이상에서는 CLI 자동 링크 기능이 앱을 빌드하�
 <uses-permission android:name="android.permission.USE_BIOMETRIC" />
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 iOS용으로는, Info.plist 파일에 다음을 추가해야 합니다:
 
@@ -86,7 +137,18 @@ iOS용으로는, Info.plist 파일에 다음을 추가해야 합니다:
 
 저희의 로그인 화면에는 "로그인"과 "Face ID" 두 개의 버튼이 있습니다. 사용자의 자격 증명이 확인된 후, 다음에 어떤 Face ID 기능을 사용할지 물어보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 물론, 먼저 `isSensorAvailable()` 메서드를 사용하여 기기에서 Face ID를 사용할 수 있는지 확인해야 합니다.
 
@@ -135,7 +197,18 @@ import ReactNativeBiometrics, { BiometryTypes } from "react-native-biometrics";
 </TouchableOpacity>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 2: 생체 인식 서명 확인
 
@@ -216,7 +289,18 @@ import ReactNativeBiometrics, { BiometryTypes } from "react-native-biometrics";
 
 ## 단계 3: NodeJS에서 공개 키로 서명 확인하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용자가 자신의 Face ID 인증을 받게 되면, Apple은 키 저장소에서 개인 키를 검색한 후, RSA PKCS#1v1.5 SHA 256 서명을 생성하는 데 사용합니다.
 
@@ -268,7 +352,18 @@ app.post("/", async (req, res) => {
 
 이 게시물을 즐겁게 읽으셨기를 바라며, 이제 React Native 애플리케이션에 Face ID를 통합하는 방법에 대한 이해가 더 깊어졌으면 좋겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Final React Native 애플리케이션 코드는 저희의 GitHub 저장소에서 확인하실 수 있어요.
 

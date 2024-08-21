@@ -3,17 +3,13 @@ title: "알아두면 유용한 CSS selector 정리"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "A Visual Guide to Different Types of CSS Selectors Part 1"
 link: "https://medium.com/@Itsmemuna/a-visual-guide-to-different-types-of-css-selectors-part-1-0c32b9740509"
 isUpdated: true
 ---
-
-
-
-
 
 # CSS 선택자
 
@@ -23,7 +19,18 @@ CSS 규칙 집합의 시작 부분은 중괄호 내부의 속성이 어떤 요�
 
 # CSS 선택자의 종류
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 HTML 문서의 다른 요소를 대상으로 삼을 수 있는 다양한 유형의 CSS 선택자가 있습니다. CSS 규칙에는 id 및 class 선택자가 일반적으로 사용됩니다. 기타 선택자 유형은 다음과 같습니다:
 
@@ -40,7 +47,18 @@ HTML 문서의 다른 요소를 대상으로 삼을 수 있는 다양한 유형�
 
 ID는 HTML 요소에 추가할 수 있는 고유 식별자로 작동하는 HTML 속성입니다. 이 속성은 페이지 내에서 고유합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 문서에 세 개의 문단이 있다고 상상해보세요. 이들을 다르게 디자인하고 싶다면, 디자인하기 전에 문단 요소에 id를 포함하는 것이 중요합니다. 다음과 같이 보일 것입니다:
 
@@ -54,7 +72,18 @@ ID는 HTML 요소에 추가할 수 있는 고유 식별자로 작동하는 HTML 
 
 브라우저는 “#” 기호 없이 ID를 식별하지 못합니다. 따라서 ID 선택기 앞에 이 기호를 사용해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 #첫번째{
@@ -68,7 +97,18 @@ ID는 HTML 요소에 추가할 수 있는 고유 식별자로 작동하는 HTML 
 
 클래스는 HTML 요소에 추가되는 HTML 속성으로 식별자 역할을 하는 것입니다. ID와 클래스의 차이점은 ID가 고유한 식별자인 반면 클래스는 그렇지 않다는 것입니다. 동일한 예시를 사용하여 두 번째와 세 번째 단락을 디자인하는 데 클래스 속성을 사용해 봅시다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <p id="first">첫 번째 단락</p>
@@ -86,7 +126,18 @@ ID는 HTML 요소에 추가할 수 있는 고유 식별자로 작동하는 HTML 
 
 # 어떻게 클래스로 선택하나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 브라우저는 “.” 기호 없이 클래스를 인식하지 못합니다. 이 기호를 클래스 선택자 앞에 다음과 같이 사용합니다:
 
@@ -100,7 +151,18 @@ ID는 HTML 요소에 추가할 수 있는 고유 식별자로 작동하는 HTML 
 
 # 유형 선택자
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 타입 선택기는 h1, p, div 등 특정 유형의 모든 요소를 대상으로 하는 데 사용될 수 있습니다. 아래와 같이 사용할 수 있어요:
 
@@ -114,13 +176,35 @@ div{
 
 속성 선택기는 특정 속성이나 속성값을 가진 요소를 대상으로 하는 데 사용될 수 있습니다. "특정 속성을 가진 요소를 대상으로 한다"는 것이 무슨 말인지 사례로 설명해 드릴게요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에서 보는 것처럼 "target" 속성은 파란색 배경을 주기 위해 선택되었습니다.
 
 # 가상 클래스 선택자
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가상 클래스는 요소의 특별한 상태를 정의하는 데 사용됩니다. 가상 클래스 선택기는 hover, active 또는 visited와 같은 특정 상태에 있는 요소를 대상으로합니다. 가상 클래스 선택기의 예는 앵커 가상 클래스입니다.
 
@@ -146,7 +230,18 @@ a: active {
 
 # 가상요소 선택기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가상 요소 선택자를 사용하여 요소의 특정 부분을 대상으로 할 수 있습니다. 예를 들어, 문단의 첫 글자나 첫 줄 등입니다. 예시:
 
@@ -160,6 +255,17 @@ p::first-line{
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS 선택자는 웹 페이지 디자인 및 개발에 중요한 역할을 합니다. 특정 HTML 요소를 대상으로 하는 유연하고 강력한 스타일을 적용하여 웹 사이트를 시각적으로 매력적이고 매혹적으로 만드는 방법을 제공합니다. 다양한 유형의 CSS 선택자를 알고 있다면 웹 개발자는 독특하고 매력적인 디자인을 만들어 관객의 주목을 끌 수 있습니다. CSS 선택자를 더 탐구하면 웹 디자인 기술을 향상시키고 탁월한 사용자 경험을 만들 수 있는 방법을 발견할 수 있을 겁니다.

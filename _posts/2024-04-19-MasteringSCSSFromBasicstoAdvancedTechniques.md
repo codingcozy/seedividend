@@ -3,17 +3,13 @@ title: "프론트엔드 개발자라면 알아둬야할 SCSS 마스터하기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Mastering SCSS From Basics to Advanced Techniques"
 link: "https://medium.com/@nsharma26081998/mastering-scss-from-basics-to-advanced-techniques-9d02a0e00556"
 isUpdated: true
 ---
-
-
-
-
 
 ![Mastering SCSS](/assets/img/MasteringSCSSFromBasicstoAdvancedTechniques_0.png)
 
@@ -25,7 +21,18 @@ CSS는 웹사이트 스타일링에 강력한 도구일 수 있지만, 프로젝
 - 재사용성: SCSS 변수는 색상, 글꼴 및 반복해서 사용하는 기타 스타일을 저장합니다. 변수를 한 번 변경하면 해당 변수가 사용된 모든 곳에 반영됩니다.
 - 효율성: 믹스인은 일반적인 스타일에 대한 재사용 가능한 코드 블록입니다. 특정 모양의 버튼이 필요한가요? 믹스인을 만들고 필요한 곳에서 포함시키면 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## SCSS로 시작하기
 
@@ -35,7 +42,18 @@ SCSS로 시작하는 것은 쉽습니다. 텍스트 편집기와 SCSS 코드를 
 
 ## 기본 SCSS 구문:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SCSS의 주요 기능 중 하나는 변수를 지원한다는 것입니다. 변수를 사용하면 스타일시트 전체에서 재사용할 수 있는 값을 저장할 수 있습니다.
 
@@ -53,7 +71,18 @@ body {
 
 변수 외에도 SCSS는 중첩(nesting)을 지원합니다. 중첩을 사용하면 CSS 규칙을 서로 중첩시켜 더 나은 구성을 할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시:
 
@@ -75,7 +104,18 @@ body {
 
 변수, 중첩, 믹스인에 추가하여, SCSS는 더 깨끗하고 유지보수가 쉬운 코드를 작성하는 데 도움이 되는 몇 가지 고급 기능을 지원합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, SCSS는 수학 연산을 수행하는 데 사용되는 연산자들을 지원합니다:
 
@@ -93,7 +133,18 @@ SCSS는 함수도 지원하는데, 이를 통해 복잡한 계산을 수행하�
 
 예를 들어:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 $base-font-size: 16px;
@@ -109,7 +160,18 @@ body {
 
 SCSS 프로젝트가 점점 커지고 복잡해지면 코드베이스를 유지하기 쉽도록 견고한 구조를 정립하는 것이 중요합니다. 하나의 일반적인 방법은 부분 파일을 사용하는 것입니다. 부분 파일은 특정 스타일 세트를 포함하는 별도의 SCSS 파일입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, 당신은 타이포그래피, 레이아웃 및 컴포넌트를 위한 별도의 부분 파일을 가질 수 있습니다.
 
@@ -123,7 +185,18 @@ SCSS 프로젝트가 점점 커지고 복잡해지면 코드베이스를 유지�
 
 스타일시트를 더 작고 관리하기 쉬운 조각으로 나누면 코드베이스가 커져도 더 쉽게 탐색하고 유지보수할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## SCSS와 프레임워크 그리고 라이브러리 사용하기:
 
@@ -133,7 +206,18 @@ SCSS는 Bootstrap이나 Foundation과 같은 인기 있는 프론트엔드 프�
 
 ## 고급 기술:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기초 사항 외에 SCSS는 더 효율적이고 유지보수하기 쉬운 코드를 작성하는 데 도움이 되는 몇 가지 고급 기술을 제공합니다.
 
@@ -149,7 +233,18 @@ SCSS는 Bootstrap이나 Foundation과 같은 인기 있는 프론트엔드 프�
 
 또한 SCSS는 @each, @for, @while과 같은 루프 구조를 지원하여 리스트, 범위 또는 조건에 기반하여 동적으로 CSS를 생성할 수 있도록 해줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 @for $i from 1 through 3 {
@@ -165,7 +260,18 @@ SCSS는 Bootstrap이나 Foundation과 같은 인기 있는 프론트엔드 프�
 
 SCSS를 CSS로 컴파일하여 프로덕션을 위한 출력물을 최적화하는 것이 중요합니다. 이는 CSS를 압축하여 파일 크기를 줄이는 것, 브라우저 호환성을 위해 벤더 접두사를 자동으로 추가하는 것, 그리고 효율적인 선택자를 위한 최적화를 포함할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Autoprefixer와 CSSnano와 같은 도구들을 사용하면 이러한 작업들을 자동화할 수 있어 SCSS 코드로부터 최적화된 CSS를 쉽게 생성할 수 있습니다.
 
@@ -175,7 +281,18 @@ SCSS는 이점이 많지만 때로는 특히 대규모 프로젝트에서 디버
 
 예를 들어, 소스 맵은 컴파일된 CSS를 원본 SCSS 소스 파일로 추적하여 스타일이 어디서 오는지 식별하는 데 도움이 될 수 있습니다. 또한, stylelint와 같은 리터러들은 구문 오류를 잡고 코드 스타일 규약을 강제하는 데 도움을 줄 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 실제 프로젝트에서의 SCSS:
 
@@ -193,7 +310,18 @@ project/
 
 이 예제에서는 변수, 믹스인 및 스타일과 같은 별도의 SCSS 파일이 있습니다. 이 파일들은 다음에 소개할 메인 styles.scss 파일로 import되며, node-sass와 같은 도구를 사용하여 CSS로 컴파일됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 미래 트렌드와 자원:
 
@@ -203,7 +331,18 @@ project/
 
 ## 결론:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SCSS는 CSS를 향상시키고 웹 개발 워크플로우를 간소화하는 강력한 도구입니다. 기본 사항을 숙달하고 고급 기술을 탐험함으로써 SCSS 스킬을 한 단계 더 올릴 수 있고 유지보수가 쉽고 효율적인 스타일 시트를 만들 수 있습니다.
 

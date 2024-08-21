@@ -3,17 +3,13 @@ title: "Nextjs의 앱 라우터에서 Next-Auth 사용 방법 정리"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Next-Auth in App Router of Nextjs"
 link: "https://medium.com/@rohitkumarkhatri/next-auth-in-app-router-of-next-js-7df037f7a2ad"
 isUpdated: true
 ---
-
-
-
-
 
 Next.js가 최근 안정 버전의 App Router를 출시했습니다. 이 버전에는 레이아웃, 템플릿, 라우팅, 로딩 및 에러 처리를 내장 지원합니다.
 
@@ -29,7 +25,18 @@ Next.js가 최근 안정 버전의 App Router를 출시했습니다. 이 버전�
 - 서버 컴포넌트에서 세션 사용.
 - 클라이언트 컴포넌트에서 세션 사용.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 앱 라우터와 함께 Next.js 앱 설정하기
 
@@ -39,7 +46,18 @@ Next.js가 최근 안정 버전의 App Router를 출시했습니다. 이 버전�
 
 # Next-Auth 설치
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm install next-auth
@@ -51,7 +69,18 @@ npm install next-auth
 
 참고: NEXTAUTH_SECRET로 추가할 비밀을 생성해야 합니다. auth 옵션에 반드시 추가해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 openssl rand -base64 32
@@ -100,7 +129,18 @@ export const authOptions: NextAuthOptions = {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Next-Auth 핸들러 추가하기
 
@@ -116,7 +156,18 @@ const handler = NextAuth(authOptions);
 export { handler as GET, handler as POST };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Next-auth를 사용한 로그인 및 로그아웃
 
@@ -126,7 +177,18 @@ export { handler as GET, handler as POST };
 
 ![이미지](/assets/img/Next-AuthinAppRouterofNextjs_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로그인에 성공한 후에
 
@@ -136,7 +198,18 @@ export { handler as GET, handler as POST };
 
 로그아웃하려면 `/api/auth/signout` 링크를 사용하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # API 라우트에서 세션.
 
@@ -156,7 +229,18 @@ export async function GET(request: Request) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```json
 {
@@ -176,7 +260,18 @@ export async function GET(request: Request) {
 await getServerSession(authOptions);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 클라이언트 컴포넌트에서 세션
 
@@ -188,11 +283,7 @@ await getServerSession(authOptions);
 import { SessionProvider } from "next-auth/react";
 import { ReactNode } from "react";
 
-export default function NextAuthProvider({
-  children,
-}: {
-  children: ReactNode,
-}) {
+export default function NextAuthProvider({ children }: { children: ReactNode }) {
   return <SessionProvider>{children}</SessionProvider>;
 }
 ```
@@ -226,7 +317,18 @@ export default function RootLayout({ children }: { children: ReactNode }) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 클라이언트 구성 요소에서 세션을 사용해 보세요.
 
@@ -239,8 +341,7 @@ export default function ClientComponent() {
   const { data: session, status } = useSession();
   return (
     <div>
-      클라이언트 구성 요소 {status}{" "}
-      {status === "authenticated" && session.user?.name}
+      클라이언트 구성 요소 {status} {status === "authenticated" && session.user?.name}
     </div>
   );
 }

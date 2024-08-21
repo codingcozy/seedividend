@@ -3,16 +3,13 @@ title: "Angular에서 부모 컴포넌트에서 자식 컴포넌트로 데이터
 description: ""
 coverImage: "/assets/img/2024-06-23-HowtopassdatafromparentcomponenttochildcomponentinAngular_0.png"
 date: 2024-06-23 14:07
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-HowtopassdatafromparentcomponenttochildcomponentinAngular_0.png
 tag: Tech
 originalTitle: "How to pass data from parent component to child component in Angular"
 link: "https://medium.com/fuzzy-code/how-to-pass-data-from-parent-component-to-child-component-in-angular-737ec17ecfd7"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-06-23-HowtopassdatafromparentcomponenttochildcomponentinAngular_0.png" />
 
@@ -23,7 +20,18 @@ Angular에서 부모 컴포넌트에서 자식 컴포넌트로 데이터/변수�
 
 ## 1. @Input 데코레이터 사용
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 가지 방법은 자식 컴포넌트에서 데이터를 수신할 변수를 선언하는 데 @Input() 데코레이터를 사용하는 것입니다.
 
@@ -37,20 +45,29 @@ Angular에서 부모 컴포넌트에서 자식 컴포넌트로 데이터/변수�
 <app-child [inputFromParent]="data"></app-child>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아이 컴포넌트의 클래스에서:
 
 ```js
 // child.component.ts
 
-import { Component, Input } from '@angular/core';
+import { Component, Input } from "@angular/core";
 
 @Component({
-  selector: 'app-child',
-  template: `
-    <p>{ inputFromParent }</p>
-  `
+  selector: "app-child",
+  template: ` <p>{ inputFromParent }</p> `,
 })
 export class ChildComponent {
   @Input() inputFromParent: any;
@@ -61,7 +78,18 @@ export class ChildComponent {
 
 다른 방법은 공유 서비스를 사용하는 것입니다. 공유 서비스는 서로 직접적으로 관련이 없는 컴포넌트 간에 데이터를 공유하는 방법입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 부모 컴포넌트의 클래스에서:
 
@@ -106,6 +134,17 @@ export class ChildComponent {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Angular에서 부모 컴포넌트에서 자식 컴포넌트로 변수를 전달하는 다른 방법이 있을 수 있습니다. 이것들은 기본 접근 방법 중 두 가지에 불과합니다.

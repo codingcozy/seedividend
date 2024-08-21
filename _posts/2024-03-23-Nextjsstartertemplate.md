@@ -3,17 +3,13 @@ title: "Nextjs 프로젝트 보일러플레이트 템플릿"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Nextjs starter template"
 link: "https://medium.com/@skolakmichal1/next-js-starter-template-c4c823ffae51"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/Next.js-starter-template_0.png" />
 
@@ -24,7 +20,18 @@ isUpdated: true
 
 이 프로젝트가 마음에 드셨다면, 별을 한 개라도 주시면 감사하겠어요. 🌟
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 https://github.com/Skolaczk/next-starter
 
@@ -34,7 +41,18 @@ Next.js 스타터 템플릿은 TypeScript, Tailwind CSS, Next-auth, Eslint, 테�
 
 # 기능
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 🚀 Next.js 14 (App router)
 - ⚛️ React 18
@@ -65,7 +83,18 @@ Next.js 스타터 템플릿은 TypeScript, Tailwind CSS, Next-auth, Eslint, 테�
 
 ## 1. 이 템플릿을 다음 세 가지 방법 중 하나로 클론합니다
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이 저장소를 템플릿으로 사용합니다
 
@@ -77,7 +106,18 @@ Next.js 스타터 템플릿은 TypeScript, Tailwind CSS, Next-auth, Eslint, 테�
 npx create-next-app -e https://github.com/Skolaczk/next-starter my-project-name
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - git clone을 사용하여
 
@@ -91,7 +131,18 @@ git clone https://github.com/Skolaczk/next-starter my-project-name
 npm install
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 3. 허스키 준비하기
 
@@ -103,7 +154,18 @@ npm run prepare
 
 ## 4. 개발 서버 실행하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 서버를 시작하려면 이 명령어를 사용해보세요:
 
@@ -115,4 +177,15 @@ npm run dev
 
 만약 이 프로젝트가 마음에 드신다면, 별을 한 개 남겨주시면 감사하겠습니다. 🌟😊
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

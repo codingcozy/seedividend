@@ -3,23 +3,30 @@ title: "HTML CSS JS로 회원가입 로그인 폼 만드는 방법"
 description: "HTML, CSS 및 JavaScript를 사용하여 간단한 회원가입 및 로그인 폼을 만드는 방법에 대한 튜토리얼입니다"
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
 
-
-
-
-
 # HTML CSS JS로 회원가입 로그인 폼 만드는 방법
 
 <img src="/assets/img/Design-a-simple-Login-Signup-form-with-validation-using-HTML-CSS-JavaScript_0.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 블로그를 통해 HTML, CSS 및 JavaScript를 사용하여 간단한 로그인 및 회원가입 폼을 만드는 방법에 대한 아이디어를 얻을 수 있습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 `<input>` 태그 내부에는 id라는 속성이 있습니다. 이는 JavaScript에서 요소에 액세스하고 조작하는 데 사용되며 CSS에서 요소를 스타일링하는 데 사용됩니다. Placeholder 속성은 입력 필드의 예상 값을 표시합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <input type="text" name="name" id="logName" placeholder="사용자 이름">
@@ -59,7 +77,18 @@ CSS를 사용하여 웹 페이지에 더 많은 색을 추가할 수 있습니�
 
 배경 이미지를 웹 페이지의 본문에 추가할 수 있습니다. 배경 이미지 경로를 지정하는 background-image 속성을 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 body{
@@ -77,7 +106,18 @@ background-color:rgba(0, 0, 0, 0.7);
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로그인 아이콘
 
@@ -117,7 +157,18 @@ color: #000000;
 <script src="index.js"></script>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 웹 페이지에서 로그인 폼 및 회원가입 폼을 표시하려면 JavaScript 및 jQuery를 사용하여 애니메이션 부분을 추가해야 합니다. 따라서 `<script>` 태그 내에 jquery CDN을 포함합니다.
 
@@ -146,7 +197,18 @@ $("#login").removeClass("active");
 $("#signup").addClass("active");
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="https://miro.medium.com/v2/resize:fit:1200/1*JbDoSMT00Zw9anve_xLL2g.gif" />
 
@@ -165,14 +227,24 @@ onsubmit="returnvalidateLoginForm()" method="POST">
 var password = document.getElementById("logPassword").value;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 variable_name.length를 사용하여 입력의 길이를 가져올 수 있습니다. 이제 if/else 조건을 사용하여 필요한 조건을 확인하고 true 또는 false를 반환합니다. 사용자 입력이 유효하지 않은 경우 함수가 false를 반환합니다. 함수가 true를 반환하는 경우에만 사용자가 로그인하거나 회원가입할 수 있습니다. 그렇지 않으면 사용자가 오류 메시지를 받습니다.
 
 ```js
 if (password.length < 8) {
-  document.getElementById("errorMsg").innerHTML =
-    "비밀번호는 적어도 8자 이상이어야 합니다";
+  document.getElementById("errorMsg").innerHTML = "비밀번호는 적어도 8자 이상이어야 합니다";
   return false;
 }
 ```
@@ -185,7 +257,18 @@ if (password.length < 8) {
 alert("로그인에 성공했습니다");
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/Design-a-simple-Login-Signup-form-with-validation-using-HTML-CSS-JavaScript_4.png" />
 

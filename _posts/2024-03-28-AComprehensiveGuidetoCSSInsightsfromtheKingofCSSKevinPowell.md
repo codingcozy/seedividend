@@ -3,17 +3,13 @@ title: "프론트엔드 개발자라면 반드시 알아야 하는 CSS 지식들
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "A Comprehensive Guide to CSS Insights from the King of CSS, Kevin Powell"
 link: "https://medium.com/towardsdev/a-comprehensive-guide-to-css-insights-from-the-king-of-css-kevin-powell-51e0bd569756"
 isUpdated: true
 ---
-
-
-
-
 
 이 특별 게스트 이슈에서 기술 산업 전문가 매트 로렌스와 마이크 카란은 존경받는 케빈 파웰의 통찰을 소개하여 기쁨을 느낍니다. 웹 개발 커뮤니티에서 'CSS의 군주'로 널리 알려진 케빈은 가르침에 대한 열정과 복잡한 개념을 쉽게 이해할 수 있는 능력으로 무수히 많은 학습자들을 웹 개발의 마스터로 안내해 왔습니다. 이 포괄적인 가이드는 CSS의 필수 요소, 기본 웹 기술의 중추적인 역할, 그리고 현대적인 프레임워크와 도구를 사용하는 원활한 전환에 대해 깊이 들어가고 있습니다. 당신이 신진 웹 개발자이든 기술을 다듬고 싶은 분이든, 이 기사는 귀중한 통찰과 실용적인 조언으로 가득하며 당신의 웹 개발 여정을 높여줄 것입니다.
 
@@ -32,7 +28,18 @@ isUpdated: true
 
 ![CSS 킹 케빈 파웰로부터의 통찰에 관한 포괄적인 가이드](/assets/img/AComprehensiveGuidetoCSSInsightsfromtheKingofCSSKevinPowell_0.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Kevin Powell에 대해
 
@@ -42,7 +49,18 @@ Kevin의 미션은 웹 개발을 간단하게 만들고 모두에게 이해할 �
 
 YouTube 이외에도 Kevin은 기사, 프리미엄 강의, 그리고 Discord 커뮤니티를 통해 개발자들의 학습 여정을 돕고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그의 목표 "인터넷의 한 구석을 조금 더 멋지게 만들어 가는 것을 계속하기" 는 그의 긍정적이면서도 격려적인 가르침 스타일과 웹 개발에 대한 접근을 완벽하게 반영하고 있어요!
 
@@ -52,7 +70,18 @@ CSS는 Cascading Style Sheets의 줄임말로, HTML 또는 XML로 작성된 문�
 
 CSS 정의는 이해하기 쉽지만, 실제로 코딩하는 것은 마스터하기 어렵습니다! 우리는 케빈과 함께 이 글을 읽어보면 CSS에 대해 깊은 경험과 지식을 갖고 있는 케빈과 함께 모두 배울 수 있을 거예요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 먼저 바닐라 CSS를 배우세요
 
@@ -62,7 +91,18 @@ Kevin은 CSS 가르치는 10년 이상의 경험에서 공통점을 발견했습
 
 바닐라 CSS는 정의에 따라 기본적인 수정되지 않은 CSS 코드를 사용하여 웹 페이지를 디자인하는 것을 의미합니다. 이 플레인 CSS는 웹 브라우저가 의도한 대로 웹 사이트를 표시하는 데 직접 이해하고 사용할 수 있습니다. 그러나 CSS 라이브러리와 프레임워크는 개발자가 디자인 프로세스를 가속화하고 향상시키기 위해 사용하지만 브라우저가 즉시 이해할 수는 없습니다. 이들은 종종 표준 CSS로 처리하거나 컴파일 되어야하며, 그 후 브라우저가 이를 읽고 웹 페이지 스타일에 적용해야합니다. 이것이 바닐라 CSS를 배우는 것이 중요한 이유입니다! 이것은 스타일링이 핵심에서 어떻게 작동하는지 이해하는 기초를 마련해줍니다. 이로써 나중에 CSS 프레임워크의 장점을 효과적으로 사용하고 감상할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 바닐라 CSS를 마스터하면 프레임워크를 제대로 활용하여 그 많은 기능을 활용할 수 있어요. 이렇게 하면 당신이 당황하는 대신에 더 생산적일 거에요!
 
@@ -72,7 +112,18 @@ Kevin은 CSS 가르치는 10년 이상의 경험에서 공통점을 발견했습
 
 그 중 하나가 CSS 중첩입니다. 이 기능은 초기에 Sass, Less, Stylus와 같은 CSS 전처리기에서만 제공되는 기능이었죠. 이 기능은 다른 CSS 규칙 안에 CSS 규칙을 작성할 수 있게 해줘, 계층적 규칙 구조를 만들어 HTML 구조를 반영하고 코드 유지보수를 향상시킬 수 있어요. 현재 CSS 중첩에 대한 브라우저 지원은 여전히 진화 중이며 아직 널리 구현되지 않았습니다. 이 글에서는 나중에 CSS 기능 지원을 확인하는 방법에 대해 논의할 거에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Scope
 
@@ -82,7 +133,18 @@ Kevin도 바닐라 CSS 기술의 중요성을 강조하며, 그들이 현대 프
 
 - CSS 기초 마스터하기: 기본에서 프레임워크로의 전환 시기 알기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # CSS 도구 및 프레임워크
 
@@ -92,7 +154,18 @@ Kevin은 Sass 및 PostCSS와 같은 CSS 도구를 배우는 것이 일반 CSS에
 
 Sass는 CSS를 확장하는 전처리기입니다. 변수, 중첩된 규칙, 믹스인 등을 사용하여 CSS를 더 쉽게 유지보수할 수 있고 작성하기 쉽게 만듭니다. 코드를 표준 CSS로 컴파일하여 브라우저가 원활하게 해석할 수 있도록 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 접해보니 피처 좋은 기능 nested rules 때문에 Sass를 즐겨 사용해요! 네비게이션바 내에 CSS 코드를 중첩하는 것은 이해하기 쉬운 좋은 예시죠.
 
@@ -114,7 +187,18 @@ Sass를 설정한 후에는 Sass 파일에서 바로 작업할 수 있어요. �
 sass --watch input.scss:output.css
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래, Sass를 시도할 준비가 되셨나요? Kevin이 만든 초보자 친화적인 YouTube 시리즈인 'Sass 시작하기'를 확인해보세요.
 
@@ -124,7 +208,18 @@ Sass가 CSS 관리를 어떻게 간단하게 만드는지 알아본 후, PostCSS
 
 PostCSS는 JavaScript로 CSS를 변환하는 강력한 도구로, 오늘 바로 미래 CSS 기능을 사용할 수 있습니다! 이는 플러그인 기반의 생태계로 작동하여, 모든 브라우저에 호환되는 CSS로 컴파일되는 현대 구문으로 스타일을 작성할 수 있게 해줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 PostCSS를 실행하려면 조금 설정해야하지만 걱정하지 마세요! Kevin이 준비한 YouTube 비디오로 모두 해결됩니다: PostCSS로 CSS를 업그레이드하는 방법 배우기
 
@@ -134,7 +229,18 @@ PostCSS를 실행하려면 조금 설정해야하지만 걱정하지 마세요! 
 
 어떤 비즈니스나 정부 부서들은 더 오래된 기술을 사용할 수 있습니다. 그래서 당신의 요구에 따라서, 최신 CSS 프레임워크가 가장 좋은 선택이 아닐 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 개발에 사용되는 인기있는 CSS 프레임워크는 다음과 같습니다:
 
@@ -148,7 +254,18 @@ Kevin은 Tailwind가 React(수요가 높은 JavaScript 프레임워크)와 잘 �
 
 적합한 CSS 프레임워크를 선택한 후 Kevin은 해당 프레임워크를 사용하여 사이드 프로젝트를 만드는 것을 권장합니다. 이 접근 방식은 프레임워크를 배우는 데 필요한 실용적 경험을 제공하고 잠재적인 취업 기회에 이력을 제공해줍니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # CSS 네이밍 규칙
 
@@ -158,7 +275,18 @@ CSS에서의 네이밍 규칙은 클래스, ID 및 기타 선택자의 이름을
 
 알겠어요, 하지만 아직도 중요한가요? 새로운 프레임워크의 등장으로 몇몇 관심사가 전통적인 방법에서 돌아가기도 했지만, CSS 네이밍 규칙은 여전히 중요성을 유지하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그들의 중요성은 조금 감소되었습니다. 케빈은 CSS 네이밍 규칙이 한때 산업 표준이었던 것보다 이제는 특수한 실천사례로 전환되고 있다고 제안합니다.
 만약 BEM이 어떤 것인지, 어떻게 작동하는지 간단히 알고 싶다면, 케빈의 (예전) 유튜브 동영상을 확인해보세요: Why I use the BEM naming convention for my CSS
@@ -167,7 +295,18 @@ CSS에서의 네이밍 규칙은 클래스, ID 및 기타 선택자의 이름을
 
 프로페셔널한 웹 개발자로 성장할 때, 단지 코드를 작동시키는 것이 중요한 것이 아니라 이제는 모든 사람이 사용할 수 있도록 만드는 것이 중요해집니다. 특히 여러 브라우저에서 동작하는 것이 중요해요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 특정 코드가 각 브라우저에서 작동하는지 알고 싶다면, 웹 개발자에게 가장 좋은 도우미는 Can I Use 웹사이트입니다!
 
@@ -177,7 +316,18 @@ Can I Use 웹사이트는 HTML5, CSS3, SVG 및 다른 주요 브라우저에서�
 
 Kevin은 프로덕션 웹사이트인 경우 특히 웹사이트를 망가뜨릴 가능성이 있는 것은 도입하지 말라고 현명하게 조언합니다! 대신, 점진적 향상을 도입하는 새로운 기능을 사용하세요. Kevin은 "스크롤 타임라인"을 안전한 예로 들었는데, 이것은 브라우저가 지원하지 않아도 웹사이트를 망가뜨리지 않는 단순한 향상이기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 튜토리얼 지옥 탈출하기
 
@@ -187,7 +337,18 @@ Kevin은 프로덕션 웹사이트인 경우 특히 웹사이트를 망가뜨릴
 
 케빈은 이해하는 것과 실행하는 것 간에 확실한 차이가 있다고 설명합니다. 이 말은 튜토리얼을 따라 할 때 코드가 어떻게 작동하는지 쉽게 이해할 수 있겠지만, 자신의 힘으로 기능적인 코드를 작성하는 것은 다른 도전이라는 뜻입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 튜토리얼 지옥의 무한한 순환에서 벗어나려면 튜토리얼에 의존하지 않고 당신만의 프로젝트를 직접 구축하며 실전 경험을 많이 쌓아보세요. 코딩 문제에 부딪힌다면 온라인에서 해결 방법을 찾아보세요. 요즘에는 인공지능을 상담사로 활용하여 코딩 문제를 해결하고 개인 튜터 역할을 수행할 수도 있습니다! 실전 경험과 학습을 통해 시간이 흐르면 코드를 이해하고 프로젝트에 자신있게 적용할 수 있게 될 거예요.
 
@@ -197,7 +358,18 @@ Kevin은 프로덕션 웹사이트인 경우 특히 웹사이트를 망가뜨릴
 
 튜토리얼 지옥을 벗어나 당신만의 프로젝트를 구축하며 함수적인 코드를 작성할 수 있는 능력을 갖춘 당신은 다음 문제에 직면할 것입니다: 여러분의 프로젝트가 @!#?@! 같이 보인다는 거죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 케빈은 우리에게 낙담하지 말라고 말해요! 코딩과 디자인은 실제로 두 가지 별개의 작업이라는 것이 드러났어요. UI/UX 디자이너라는 말을 들어봤나요?
 
@@ -207,7 +379,18 @@ iCodeThis는 일일 코딩 도전 과제를 제공하여 당신의 기술을 향
 
 Frontend Mentor는 실제 프로젝트를 모의하여 HTML, CSS 및 JavaScript 도전 과제를 제공하여 코딩 기술을 향상시키는 플랫폼이에요. 각 도전 과제에는 디자인, 자산 및 명세서가 포함되어 있어 프로젝트를 구축하고 개발자 커뮤니티로부터 피드백을 받아 다른 사람의 해결책을 보며 학습하고 비교할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/AComprehensiveGuidetoCSSInsightsfromtheKingofCSSKevinPowell_1.png" />
 
@@ -217,7 +400,18 @@ Frontend Mentor는 실제 프로젝트를 모의하여 HTML, CSS 및 JavaScript 
 
 ## 케빈 파웰과 함께
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Course level: 중급
 
@@ -229,7 +423,18 @@ Course level: 중급
 - 다양한 대화식 도전 과제
 - 수료증이 포함되어 있습니다
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![A Comprehensive Guide to CSS: Insights from the King of CSS Kevin Powell](/assets/img/AComprehensiveGuidetoCSSInsightsfromtheKingofCSSKevinPowell_2.png)
 
@@ -239,7 +444,18 @@ Course level: 중급
 
 CSS만으로 웹사이트를 만들 수는 없어요! 먼저 HTML, CSS, 그리고 JavaScript와 같은 바닐라 형태의 웹 개발 기본을 배우는 것이 강력히 권장됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 바닐라 존에서 벗어나려면 Kevin이 시간이 허락된다면 Astro를 배우는 것을 추천합니다. 취업을 적극적으로 찾지 않고 계속 학습할 시간이 있다면 Astro는 빠르고 확장 가능한 웹사이트를 구축할 수 있는 현대적인 정적 사이트 생성기로, 클라이언트 측 자바스크립트를 덜 사용하게 해줘서 좋은 선택입니다. Kevin은 React와 같은 더 복잡한 프레임워크로 뛰어들기 전에 좋은 초석이라고 언급했습니다.
 
@@ -249,7 +465,18 @@ CSS만으로 웹사이트를 만들 수는 없어요! 먼저 HTML, CSS, 그리�
 
 웹 개발을 배울 때, freeCodeCamp, Codepen 또는 Scrimba와 같은 플랫폼은 브라우저에서 코드를 작성할 수 있는 도구를 제공하여, Visual Studio Code와 같은 전통적인 데스크톱 IDE가 필요 없게 해줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 온라인 학습에서 자체 로컬 환경을 만들기로 전환할 준비가 되었다면, Hashnode의 추천 기사인 "Vite를 사용하여 로컬 React 환경 만들기"에서 단계별 지침을 확인해보세요.
 
@@ -259,7 +486,18 @@ CSS만으로 웹사이트를 만들 수는 없어요! 먼저 HTML, CSS, 그리�
 
 - Kevin Powell | CSS 전도사
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![A Comprehensive Guide to CSS Insights from the King of CSS Kevin Powell](/assets/img/AComprehensiveGuidetoCSSInsightsfromtheKingofCSSKevinPowell_3.png)
 
@@ -269,7 +507,18 @@ CSS: CSS로 웹 스타일링 및 콘텐츠 학습에 대해 Kevin Powell와 함�
 
 **반드시 소셜미디어에서 HTML All The Things도 확인해보세요!**
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 트위터
 - 링크드인
@@ -284,7 +533,18 @@ CSS: CSS로 웹 스타일링 및 콘텐츠 학습에 대해 Kevin Powell와 함�
 
 이 기사에는 제휴 링크가 포함되어 있습니다. 이 링크를 통해 구매한 모든 것에 대해 수수료를 받을 수 있습니다. 이를 통해 우리의 작업을 지원하고 가치 있는 콘텐츠를 계속 제공할 수 있게 돕습니다. 지원해 주셔서 감사합니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 스폰서 콘텐츠: 원본 발행사가 친절하게 이 기사를 후원했습니다. 이를 통해 저는 이 주제에 대한 전문지식을 공유할 수 있었습니다.
 
@@ -299,7 +559,18 @@ CSS: CSS로 웹 스타일링 및 콘텐츠 학습에 대해 Kevin Powell와 함�
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Kevin은 프레임워크에 빠지기 전에 바닐라 CSS를 정복하는 중요성을 강조합니다. 이 접근 방식은 일반 CSS에서 발생하는 문제와 프레임워크에서 소개된 문제를 구분하지 못하는 불필요한 좌절을 피하는 데 도움이 됩니다. 그는 또한 바닐라 CSS가 진화하고 있다고 강조합니다! CSS 중첩과 같은 고급 기능은 일부 전처리기의 필요성을 줄이므로 Svelte, Vue 및 Astro와 같이 컴포넌트 스코핑을 사용하는 현대적인 프레임워크에서 바닐라 CSS 기술을 효과적으로 사용할 수 있습니다.
 
@@ -309,7 +580,18 @@ Kevin은 그들이 특화되고 있는 것으로 믿지만, BEM, OOCSS 및 SMACS
 
 우리 모두가 빠지는 '튜토리얼 지옥'이 있습니다. 이는 필요한 기술을 습득하지 못한 채 튜토리얼을 계속 따라가는 것을 의미합니다. 이러한 비생산적인 사이클을 깨는 방법은 먼저 그것에 갇혔을 때 인지하는 것입니다. 그런 다음 핵심은 개인 프로젝트에 집중하고 문제가 발생할 때 스스로 해결책을 찾으며 점차 당신만의 안도로 코드를 확신 있게 작성하는 능력을 키우는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 튜토리얼에 의존을 극복한 후에는 프로젝트의 미적 측면에서 어려움을 겪을 수 있습니다. 케빈은 코딩과 디자인이 별개의 기술이라고 강조하며, 웹 디자인을 개선하기 위해서는 연습이 필요하다고 말합니다. 그는 iCodeThis와 Frontend Mentor 같은 플랫폼을 추천하는데, 이들은 매일 코딩 도전 과제와 실제 프로젝트 시뮬레이션을 제공하여 실전 경험과 커뮤니티 피드백을 통해 코딩과 디자인 기술을 향상시킵니다.
 
@@ -319,6 +601,17 @@ HTML, CSS, JavaScript의 기본을 충분히 익힌 후에는 케빈이 React �
 
 웹 개발을 배울 때, freeCodeCamp, Codepen 또는 Scrimba와 같은 플랫폼은 브라우저 기반 코딩을 제공하여 데스크톱 IDE가 필요 없게 합니다. 로컬 개발 환경으로 전환하려면 나의 Hashnode 피처드 기사 "Vite로 로컬 React 환경 생성하는 방법"을 참고하여 자세한 지침을 제공합니다. 더 나아가기 위해, 스텝바이스텝 설치 지침서인 나의 안내서 "명령줄을 통해 React 프로젝트 만들고 GitHub에 푸시하며 Netlify로 배포하기"를 확인해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Kevin Powell의 뉴스레터에 가입하여 웹 개발 기술을 더 깊이 있게 배우고 산업 트렌드를 따라갈 수 있는 독점적인 자습서와 팁을 받아보세요! 또한 Kevin의 Discord에 가입하여 학습과 성장에 열정적인 커뮤니티와 소통할 수도 있어요. 더 알고 싶나요? Kevin의 프리미엄 코스로 웹 개발을 기초부터 고급까지 완전히 마스터할 수 있어요. 지금 구독하고 가입하여 CSS의 왕이 되기까지 여정을 계속하세요!

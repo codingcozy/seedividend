@@ -3,17 +3,13 @@ title: "CSS shape-outside 속성이란"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Slowly learning new things CSS"
 link: "https://medium.com/@bzfishmaster94/slowly-learning-new-things-bd5f7f87b9bd"
 isUpdated: true
 ---
-
-
-
-
 
 오늘은 특정 방법으로 콘텐츠를 모퉁이에 배치하는 방법에 대해 더 배웠어요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 https://developer.mozilla.org/ko/docs/Web/CSS/shape-outside에서 언급된 바와 같이,
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 속성은 여러 값들을 가질 수 있지만 그 중 하나는 inset입니다.
 
@@ -33,6 +40,17 @@ https://developer.mozilla.org/ko/docs/Web/CSS/shape-outside에서 언급된 바�
 
 Temani Afif on Apr 19, 2021, https://css-tricks.com/float-an-element-to-the-bottom-corner/.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 https://developer.mozilla.org/ko/docs/Web/CSS/shape-outside

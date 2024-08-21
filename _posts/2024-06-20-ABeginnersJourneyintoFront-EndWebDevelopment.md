@@ -3,16 +3,13 @@ title: "프런트엔드 웹 개발에서 초보자의 여정"
 description: ""
 coverImage: "/assets/img/2024-06-20-ABeginnersJourneyintoFront-EndWebDevelopment_0.png"
 date: 2024-06-20 03:37
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-ABeginnersJourneyintoFront-EndWebDevelopment_0.png
 tag: Tech
 originalTitle: "A Beginner’s Journey into Front-End Web Development"
 link: "https://medium.com/@DevHaseeb/a-beginners-journey-into-front-end-web-development-e9d3ce31bd72"
 isUpdated: true
 ---
-
-
-
 
 ![2024-06-20-ABeginnersJourneyintoFront-EndWebDevelopment_0.png](/assets/img/2024-06-20-ABeginnersJourneyintoFront-EndWebDevelopment_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 # 프론트엔드 개발이란?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 집을 짓는다고 상상해보세요. 건축가가 청사진을 설계하고 시공 스탭이 벽돌을 쌓으며, 그리고 인테리어 디자이너가 색상, 질감 및 가구로 비전을 구현하는 과정을 생각해보세요. 디지털 세계에서 프론트엔드 개발은 바로 그 인테리어 디자이너와 같습니다. 이는 사용자가 직접 상호 작용하는 웹 어플리케이션의 일부를 만드는 것으로, HTML, CSS, JavaScript와 같은 언어를 사용하여 정적 디자인을 동적이고 매력적인 인터페이스로 변환하는 작업을 포함합니다.
 
@@ -34,7 +42,18 @@ HTML은 웹 페이지의 뼈대인 Hypertext Markup Language의 줄임말입니�
 - `p`는 단락을 나타냅니다.
 - `img src="image.jpg"`는 이미지를 삽입합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 예시:
 
@@ -56,7 +75,18 @@ HTML은 웹 페이지의 뼈대인 Hypertext Markup Language의 줄임말입니�
 
 HTML은 콘텐츠를 구조화하는 반면, CSS(Cascading Style Sheets)은 그것을 잘 꾸미는 역할을 합니다. CSS에서는 색상, 글꼴, 레이아웃 및 애니메이션을 적용하여 평범한 HTML 문서를 시각적으로 멋진 웹 페이지로 만들어줍니다. CSS를 영화의 의상 부서로 상상해보세요; 모든 장면이 정확히 보이도록 보장합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 예시:
 
@@ -75,13 +105,24 @@ h1 {
 
 자바스크립트는 웹 페이지에 생명을 불어넣어주는 마법과 같습니다. 상호 작용, 양식 제출, 애니메이션 등을 가능하게 합니다. 자바스크립트 없이는 웹 페이지가 정적이고 반응하지 않는 상태가 됩니다. 그것은 도시에 전기를 공급하는 것과 같습니다; 갑자기 모든 것이 밝아지고 기능적으로 작동합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 예시:
 
 ```js
-document.querySelector('button').addEventListener('click', function() {
-    alert('버튼이 클릭되었습니다!');
+document.querySelector("button").addEventListener("click", function () {
+  alert("버튼이 클릭되었습니다!");
 });
 ```
 
@@ -89,7 +130,18 @@ document.querySelector('button').addEventListener('click', function() {
 
 프론트엔드 개발 분야에서의 경력은 거대한 바다를 항해하는 것과 같습니다. 여기에 몇 가지 항해 보조 도구가 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 기초 학습: HTML, CSS, 그리고 JavaScript부터 시작하세요. W3Schools, Codecademy, Udemy와 같은 다양한 온라인 자원들이 포괄적인 안내서와 자습서를 제공합니다.
 - 꾸준한 연습: 코딩은 반복을 통해 향상되는 기술입니다. 배운 것을 강화하기 위해 작은 프로젝트를 만들어보세요.
@@ -102,7 +154,18 @@ document.querySelector('button').addEventListener('click', function() {
 
 코딩에 뛰어들기 전에 올바른 도구와 자원을 설정하는 것이 중요합니다. 첫 날 우리가 한 것은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 설정할 계정:
 
@@ -117,7 +180,18 @@ document.querySelector('button').addEventListener('click', function() {
 - 동영상: 프론트엔드 개발자 로드맵 2024 또는 대체 동영상
 - 기사: 초심자 프론트엔드 개발자의 교훈
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 🗓️ Day 2: 필수 프론트엔드 스킬
 
@@ -128,7 +202,18 @@ document.querySelector('button').addEventListener('click', function() {
 - 비디오: 올바른 방법으로 프론트엔드 개발 학습하기
 - 비디오: 2배 빨리 프론트엔드 개발 배우기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 🗓️ 3일차: HTML 기초
 
@@ -138,7 +223,18 @@ HTML (하이퍼텍스트 마크업 언어)는 모든 웹사이트의 기초입�
 
 - 비디오 튜토리얼: HTML 기본 태그
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 중요 개념:
 
@@ -153,11 +249,20 @@ HTML (하이퍼텍스트 마크업 언어)는 모든 웹사이트의 기초입�
 
 - 이미지: `img` 태그는 이미지를 삽입합니다. 예시:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Description of Image](path/to/image.jpg)
-
 
 # 🗓️ Day 4: HTML Semantic Tags
 
@@ -165,7 +270,18 @@ HTML (하이퍼텍스트 마크업 언어)는 모든 웹사이트의 기초입�
 
 ## 학습 자료:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 비디오 자습: HTML 시맨틱 요소
 
@@ -178,8 +294,18 @@ HTML (하이퍼텍스트 마크업 언어)는 모든 웹사이트의 기초입�
 
 ## 예시:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 🗓️ Day 5: HTML 미디어 태그
 
@@ -187,8 +313,18 @@ HTML (하이퍼텍스트 마크업 언어)는 모든 웹사이트의 기초입�
 
 ## 학습 자료:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 비디오 튜토리얼: HTML 미디어 요소
 
@@ -203,7 +339,18 @@ HTML (하이퍼텍스트 마크업 언어)는 모든 웹사이트의 기초입�
 </video>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Audio: `audio` 태그는 오디오 파일을 임베드합니다. 예시:
 
@@ -220,7 +367,18 @@ HTML (하이퍼텍스트 마크업 언어)는 모든 웹사이트의 기초입�
 <iframe src="https://www.example.com" width="600" height="400"></iframe>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 📝 결론: 앞으로의 여정
 
@@ -232,7 +390,18 @@ HTML (하이퍼텍스트 마크업 언어)는 모든 웹사이트의 기초입�
 
 HTML, CSS, JavaScript의 기본을 마스터하면 멋진 웹사이트를 만들고 숙련된 프론트엔드 개발자가 될 수 있을 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사가 도움이 되었다면, 더 많은 웹 개발 팁과 통찰을 얻기 위해 LinkedIn과 Twitter에서 저를 팔로우해 주세요. 아래 댓글에 여러분의 경험과 배운 교훈을 공유해 주시기를 환영합니다.
 

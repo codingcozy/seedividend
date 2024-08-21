@@ -3,17 +3,13 @@ title: "CSS 이미지 배경 제거하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "CSS Image Background Removal Quick , Easy Guide"
 link: "https://medium.com/@sarahisdevs/css-image-background-removal-quick-easy-guide-07087ca855fb"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/CSSImageBackgroundRemovalQuick-EasyGuide_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # CSS 속성 해석
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 매혹적인 효과의 핵심은 mix-blend-mode CSS 속성에 있습니다. 이 속성을 활용하여 mix-blend-mode: multiply;로 설정하면 이미지 배경을 간편하게 투명하게 만들 수 있습니다.
 
@@ -53,7 +60,18 @@ isUpdated: true
 </html>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## CSS 마법 구현하기
 
@@ -84,7 +102,18 @@ isUpdated: true
 
 마법이 펼쳐집니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS 한 줄만으로 이미지 배경이 부드럽게 투명하게 변하는 놀라운 변신을 경험해보세요. 이는 웹페이지 배경과 완벽하게 통합되어 화려한 효과를 연출합니다. 정말 멋진 광경이죠!
 

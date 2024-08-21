@@ -3,17 +3,13 @@ title: "2024년에 웹 개발자가 되려면 배워야하는 것들"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How Long Does It Take To Learn Web Development in 2024"
 link: "https://medium.com/javarevisited/how-long-does-it-take-to-learn-web-development-in-2024-f4cf3c4d0d2f"
 isUpdated: true
 ---
-
-
-
-
 
 ## 2024년에 웹 개발을 배우는 데 한 주, 한 달 또는 한 해가 걸릴까요?
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이전에, 나는 최고의 웹 개발 코스와 HTML, CSS, JavaScript 같은 필수 웹 개발 기술 및 React.js와 Node.js와 같은 프레임워크를 배우는 데 가장 좋은 코스를 공유했었고, 이 기사에서는 얼마나 시간이 걸릴지 정확하게 알려드릴 것입니다. 웹 개발을 배우는 데는 몇 주 또는 몇 달이 걸릴까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현재 설립된 어떤 회사도 웹사이트를 갖고 있지 않을 거예요. 왜냐하면 웹사이트 없이는 대상을 도달하고 관계를 구축하거나 서비스를 제공할 수 없으 af
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 이 61시간 강좌는 시작하기에 아주 좋고, 진지하게 따라가면 7일이나 1주일만에 웹 개발을 아주 많이 배울 수 있어요. 프로젝트와 코딩 연습이 가득해서 실습을 통해 직접 경험할 수도 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 1. 웹 개발을 이해하는 데 얼마나 걸릴까요?
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 이러한 기술들을 약 9개월에서 1년 사이에 배울 수 있지만, 여러분의 고용주에게 매력적으로 보이지는 않을 것이며, 아마도 인턴십을 하거나 연봉 66,106 달러짜리 입사할 수 있는 직업을 얻을 수 있을 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 2. 자체 학습을 통해 웹 개발을 배울 수 있을까요?
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 웹 개발의 각 부분에는 배워야 할 언어가 있습니다. 특정 언어를 지정할 수 없으며 동일한 회사라도 사용하는 언어와 프레임워크가 다를 수 있습니다. 그럼에도 불구하고, 가장 많이 사용되는 몇 가지 언어를 추천하고 해당 언어를 이해하면 다른 언어로 스스로 스킬을 향상시킬 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 3.1. HTML
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 ## 3.2. CSS
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 HTML 페이지를 스타일링하는 데 사용되는 cascading style sheet의 약자로, 버튼에 색상을 추가하는 것과 같은 작업을 할 수 있습니다. 이 언어를 몇 달 만에 중급 수준의 CSS 개발자가 되기 위해 좋은 규율로 배울 수 있지만, CSS — The Complete Guide 2024 (포함 Flexbox, Grid 및 Sass) 이 코스에서 이 언어의 기본 개념뿐만 아니라 Flexbox, Grid 및 Saas와 같은 고급 개념을 가르쳐줄 것입니다.
 
@@ -73,7 +124,18 @@ isUpdated: true
 
 이 언어는 다른 어떤 프로그래밍 언어보다 거의 가장 많이 사용되며, 사용자 경험을 향상시키기 위해 웹 사이트를 인터랙티브하게 만들 수 있습니다. JavaScript를 배우는 데는 몇 달이 걸릴 수 있지만, The Complete JavaScript Course 2024: From Zero to Expert! 이 코스를 통해 이 필수 언어를 2개월 안에 숙달할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![How long does it take to learn web development in 2024 - Part 3](/assets/img/HowLongDoesItTakeToLearnWebDevelopmentin2024_3.png)
 
@@ -83,7 +145,18 @@ isUpdated: true
 
 ![How long does it take to learn web development in 2024 - Part 4](/assets/img/HowLongDoesItTakeToLearnWebDevelopmentin2024_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 3.5. 데이터베이스
 
@@ -93,7 +166,18 @@ isUpdated: true
 
 # 4. 웹 개발자를 위한 교육 추천
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 개발 과정은 Coursera, edX, Udemy 등 온라인 교육 플랫폼 전역에서 제공됩니다. 이 분야를 숙달하고 웹 개발 분야에서 적어도 입문 수준이 될 수 있는 몇 가지 강좌를 추천드리겠습니다:
 
@@ -103,7 +187,18 @@ PHP 언어와 MySQL 데이터베이스를 사용하여 웹 애플리케이션을
 
 ### 4.2. 완벽한 2024 웹 개발 부트캠프
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 코스는 HTML, CSS 및 JavaScript와 같은 웹 기술을 사용하여 웹 프론트엔드를 구축하는 방법을 가르치며, 17시간 동안 3개의 프로젝트를 진행하여 웹 개발에 대한 실제 경험을 쌓을 수 있습니다.
 
@@ -113,7 +208,18 @@ PHP 언어와 MySQL 데이터베이스를 사용하여 웹 애플리케이션을
 
 MySQL를 초보자들에게 가르쳐 주는 좋은 아마존 서적이며, 데이터베이스 개발에 처음 시작하고 싶은 학생들에게 적합하며, 웹 개발에도 유용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 결론
 

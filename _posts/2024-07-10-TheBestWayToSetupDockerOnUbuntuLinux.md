@@ -3,16 +3,13 @@ title: "우분투 리눅스에서 Docker 설정하는 최고의 방법"
 description: ""
 coverImage: "/trivasor.github.io/assets/no-image.jpg"
 date: 2024-07-10 02:43
-ogImage: 
+ogImage:
   url: /trivasor.github.io/assets/no-image.jpg
 tag: Tech
 originalTitle: "The Best Way To Setup Docker On Ubuntu Linux"
 link: "https://medium.com/@it-delinquent/the-best-way-to-setup-docker-on-ubuntu-linux-90aaba559971"
 isUpdated: true
 ---
-
-
-
 
 리눅스에서 Docker 인스턴스를 많이 생성해본 경험이 있어서, 이제는 그 방법이 내게 익숙해 졌어요. 하지만 어느 때는 우분투 리눅스에서 Docker를 설정하는 가장 좋은 방법을 전혀 몰랐던 적이 있었죠.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 # 소개
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼 간단한 개요를 들어가볼게요. 저는 Ubuntu 22.04를 사용할 거지만 최신 버전인 24.04를 사용해도 괜찮아요. 이 설정의 일반적인 흐름은 리눅스를 업데이트하고 필요한 디렉토리를 만드는 것일 거예요. 그게 끝나면 권한을 설정하고 도커를 apt-get 저장소에 추가할 거예요.
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 우선, 우분투 머신을 업데이트해야 해요. 특정 버전에 고정되어 있다면 이 단계를 건너뛸 수도 있지만, 전 항상 최선의 방법을 찾아 기회를 살리곤 해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 우분투 업데이트
 
@@ -46,6 +65,17 @@ sudo do-release-upgrade
 sudo apt-get update; sudo apt-get upgrade
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 중 하나의 명령에 대해 프롬프트를 받을 수도 있습니다. 'Y'를 누르고...

@@ -3,15 +3,13 @@ title: "Nextjs 사용이 점점 더 어려워지는 이유"
 description: ""
 coverImage: "/assets/img/2024-07-02-ItsnotjustyouNextjsisgettinghardertouse_0.png"
 date: 2024-07-02 21:52
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-02-ItsnotjustyouNextjsisgettinghardertouse_0.png
 tag: Tech
 originalTitle: "It’s not just you, Next.js is getting harder to use"
 link: "https://medium.com/@PropelAuth/its-not-just-you-next-js-is-getting-harder-to-use-5ab30a24282a"
 isUpdated: true
 ---
-
-
 
 ![image 1](/assets/img/2024-07-02-ItsnotjustyouNextjsisgettinghardertouse_0.png)
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 저의 관점에서, Next.js 의 앱 라우터에는 채택하기 어렵게 만드는 두 가지 주요 문제가 있어요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 보통 기초적인 작업을 하려면 내부 동작에 대해 많은 것을 이해해야 합니다.
 - 옵트인(opt-in)이 아닌 옵트아웃(opt-out)인 방식으로 발을 쏘기 쉬운 많은 방법이 있습니다.
@@ -32,7 +41,18 @@ isUpdated: true
 
 Next.js에 대해 처음 알게 되었을 때, 주요 "경쟁자"는 Create React App (CRA)였습니다. 나는 모든 프로젝트에 CRA를 사용했지만 두 가지 이유로 Next.js로 전환했습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 파일 기반 라우팅이 마음에 들었어요. 왜냐하면 보일러플레이트 코드를 적게 작성할 수 있어서요.
 - 개발 서버를 실행할 때마다 CRA는 빠르게 짜증나는 http://localhost:3000을 열었는데, Next.js는 그렇지 않았어요.
@@ -43,7 +63,18 @@ Next.js에 대해 처음 알게 되었을 때, 주요 "경쟁자"는 Create Reac
 
 그리고 그게 내가 정말 원했던 것이었어요. 후에 Next.js가 갖고 있는 다른 기능을 발견했을 때에는 꽤 놀랐어요. API 라우트는 추가 인프라를 설정할 필요 없이 서버리스 함수를 제공해주어서 "Contact Us" 양식 같은 것을 만드는 것에 아주 유용했어요. getServerSideProps를 사용하면 페이지가 로드되기 전에 서버에서 기본 함수를 실행할 수 있었어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 개념들은 강력하지만 동시에 간단하기도 했어요.
 
@@ -53,7 +84,18 @@ API route는 다른 라우트 핸들러와 매우 비슷하게 보였고 동작�
 
 Next 13 릴리스에서는 앱 라우터를 도입했고 많은 새로운 기능들이 추가됐어요. 서버 컴포넌트를 사용하면 React 컴포넌트를 서버에서 렌더링하고 클라이언트에 전달해야하는 데이터 양을 줄일 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 레이아웃은 여러 경로에서 공유되는 UI의 측면을 정의할 수 있어서 매번 탐색할 때마다 다시 렌더링할 필요가 없었습니다.
 
@@ -63,7 +105,18 @@ Next 13 릴리스에서는 앱 라우터를 도입했고 많은 새로운 기능
 
 # 프레임워크가 생각했던대로 동작하지 않을 때
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 개발자로서 머리를 벽에 쿵쿵 치며 "왜 이게 작동하지 않지?" 하고 외치는 것은 상당히 보편적인 경험입니다.
 
@@ -73,7 +126,18 @@ Next 13 릴리스에서는 앱 라우터를 도입했고 많은 새로운 기능
 
 앱 라우터는 안타깝게도 이러한 섬세한 점들로 가득합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 원래 문제를 다시 살펴보겠어요: 서버 컴포넌트에서 URL을 얻고 싶었어요. 주제에 대한 인기 있는 Github 이슈에 대한 답변을 준비했는데, 그 중 일부를 여기에 올려볼게요:
 
@@ -83,7 +147,18 @@ Next 13 릴리스에서는 앱 라우터를 도입했고 많은 새로운 기능
 
 이 글은 나의 느낌을 요약한 것 같아요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-07-02-ItsnotjustyouNextjsisgettinghardertouse_2.png)
 
@@ -93,7 +168,18 @@ Next 13 릴리스에서는 앱 라우터를 도입했고 많은 새로운 기능
 
 서버에서 거의 모든 것을 할 수 있었던 "옛" 방식과 비교하면, 복잡성이 증가했다고 말할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제가 말씀드리고 싶은 것은 "기본으로 켜진 캐싱"은 다소 거친 경험이라는 점입니다. 많은 사람들이 캐싱에 동의하기를 기대하는 것이 오히려 캐싱 비활성화 방법을 찾기 위해 많은 문서를 살펴야 한다고 생각합니다.
 
@@ -103,7 +189,18 @@ Next 13 릴리스에서는 앱 라우터를 도입했고 많은 새로운 기능
 
 # 모두에게 맞는 제품을 만드는 것은 매우 어려운 일입니다
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 너가 너무 복잡하다고 느끼는 기능들은 실제로 몇몇 사람에겐 중요할 수 있어요. 예를 들어 전자상거래 플랫폼을 개발 중이라면, 이 기능들이 정말 유용할 거예요.
 
@@ -113,7 +210,18 @@ Next 13 릴리스에서는 앱 라우터를 도입했고 많은 새로운 기능
 
 제 개인적인 경험과 App Router에 대한 답답함은 다른 사람의 것과 다를 수 있어요. 제품, 사용 사례, 그리고 리소스가 모두 다르기 때문이에요. B2B SaaS 애플리케이션을 많이 작성하고 다른 사람들이 그것을 작성할 때 도와주는 사람으로서 말씀드리면, App Router DX는 Pages Router보다 한 단계 아래 수준이에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 프레임워크가 성장함에 따라 불가피한가요?
 
@@ -123,7 +231,18 @@ Next 13 릴리스에서는 앱 라우터를 도입했고 많은 새로운 기능
 
 이러한 상황을 피하는 것은 어려울 수 있지만, 일부 사람들이 필요로 하는 복잡성을 모두의 문제로 만들지 않는 방법 중 하나입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 그저 뭔가가 추천된다고 해서, 그게 당신에게 맞는 것은 아니라는 뜻은 아니에요
 
@@ -133,7 +252,18 @@ Next 13 릴리스에서는 앱 라우터를 도입했고 많은 새로운 기능
 
 Next.js는 제품으로 충분히 준비되기 전부터 공식적으로 앱 라우터를 사용할 것을 권장해 왔어요. Next.js는 TypeScript, ESLint, Tailwind가 프로젝트에 적합한지 여부에 대한 권장사항을 갖고 있지 않아요 (TS/ESLint에는 기본 값으로 Yes, Tailwind에는 No를 제공하지만, Tailwind 팬들에게는 죄송합니다). 그러나, Next.js는 분명히 당신이 앱 라우터를 사용해야 한다고 믿고 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 공식 React 문서는 같은 의견을 공유하지 않습니다. 현재 그들은 페이지 라우터를 권장하고 앱 라우터를 "최신형 React 프레임워크"로 설명하고 있습니다.
 

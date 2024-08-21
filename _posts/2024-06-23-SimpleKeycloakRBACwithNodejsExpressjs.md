@@ -3,16 +3,13 @@ title: "Nodejs와 Expressjs로 간단하게 구현하는 Keycloak RBAC 방법"
 description: ""
 coverImage: "/assets/img/2024-06-23-SimpleKeycloakRBACwithNodejsExpressjs_0.png"
 date: 2024-06-23 13:24
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-SimpleKeycloakRBACwithNodejsExpressjs_0.png
 tag: Tech
 originalTitle: "Simple Keycloak RBAC with Node.js , Express.js"
 link: "https://medium.com/@erinlim555/simple-keycloak-rbac-with-node-js-express-js-bc9031c9f1ba"
 isUpdated: true
 ---
-
-
-
 
 안녕하세요!
 
@@ -22,7 +19,18 @@ Keycloak 인증을 통해 Node + Express API를 안전하게 보호하는 해결
 
 조사한 결과, Keycloak에서 큰 설정이 필요하지 않는 해결책을 찾을 수 있었습니다. 함께 알아보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 준비 사항
 
@@ -32,7 +40,18 @@ Keycloak 인증을 통해 Node + Express API를 안전하게 보호하는 해결
 
 먼저, 로컬에서 새로운 Node.js 프로젝트를 시작해 보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm init
@@ -44,7 +63,18 @@ npm init
 
 이 프로젝트에 필요한 패키지를 설치해봐요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm i cors dotenv express jsonwebtoken keycloak-connect nodemon
@@ -56,7 +86,18 @@ jwt를 사용하여 API 요청을 통해 전달된 Bearer 토큰을 읽고, keyc
 
 로컬에서 API 서버를 실행하려면 package.json 파일에 스크립트를 추가해야 해요. "scripts" 아래에 이 줄을 객체에 추가하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 파일: package.json
@@ -85,26 +126,37 @@ jwt를 사용하여 API 요청을 통해 전달된 Bearer 토큰을 읽고, keyc
 
 ## 기본 프로젝트 생성하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 API가 작동하는지 테스트하려면 간단한 기본 프로젝트를 만들어 보겠습니다. 루트 폴더에 index.js 파일을 추가해주세요.
 
 ```js
 // 파일: index.js
 
-require('dotenv').config();
-const cors = require('cors');
-const express = require('express');
+require("dotenv").config();
+const cors = require("cors");
+const express = require("express");
 
 const port = process.env.PORT;
 
 // 라우터
-const testRoutes = require('#routes/test');
+const testRoutes = require("#routes/test");
 
 const errorHandler = (error, req, res, next) => {
   const status = error.status || 422;
   res.status(status).send(error.message);
-}
+};
 
 const app = express();
 
@@ -112,7 +164,7 @@ app.use(express.json());
 app.use(cors());
 
 // 라우트 등록
-app.use('/api', testRoutes);
+app.use("/api", testRoutes);
 app.use(errorHandler);
 
 app.listen(port, () => {
@@ -124,23 +176,35 @@ app.listen(port, () => {
 
 프로젝트용 .env 파일을 만들고, 이미 만들지 않았다면 API에 사용할 포트 번호를 할당해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 테스트를 위해 라우트 파일을 사용하고 있습니다. 다음으로 그것을 생성해 봅시다.
 
 ```js
 // 파일: routes/test.js
 
-const express = require('express');
+const express = require("express");
 const router = express.Router();
 
 // 테스트 라우트
-router.get('/test', (req, res) => {
-  res.json({
-    message: "API 연결이 설정되었습니다.",
-    status: "성공"
-  })
-  .status(200);
+router.get("/test", (req, res) => {
+  res
+    .json({
+      message: "API 연결이 설정되었습니다.",
+      status: "성공",
+    })
+    .status(200);
 });
 
 module.exports = router;
@@ -150,7 +214,18 @@ module.exports = router;
 
 로컬에서 API를 실행하려면 터미널에서 다음을 실행하세요 :
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm start
@@ -162,8 +237,18 @@ npm start
 
 # 사용을 위한 Keycloak 구성하기
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 설정한 Keycloak으로 새로운 프로젝트를 위한 Realm을 생성해보세요. 저는 간단하게 "rbacDemo"라고 지었습니다.
 
@@ -171,7 +256,18 @@ npm start
 
 "Realm 역할"로 이동하여 좌측에 있는 "역할 만들기" 버튼을 클릭해주세요. 우리는 이 Realm을 위한 관리자 역할을 만들 예정입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지1](/assets/img/2024-06-23-SimpleKeycloakRBACwithNodejsExpressjs_1.png)
 
@@ -181,21 +277,39 @@ npm start
 
 ![이미지2](/assets/img/2024-06-23-SimpleKeycloakRBACwithNodejsExpressjs_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 관리자 사용자가 생성되면 사용자의 "사용자 세부정보" 페이지로 이동하여 "자격 증명" 탭에서 사용자의 비밀번호를 설정해주세요.
 
-
 ![이미지](/assets/img/2024-06-23-SimpleKeycloakRBACwithNodejsExpressjs_3.png)
-
 
 한 번 더 "사용자" 페이지로 돌아가서 다른 사용자를 추가해주세요.
 
-
 ![이미지](/assets/img/2024-06-23-SimpleKeycloakRBACwithNodejsExpressjs_4.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 카렌을 위해도 비밀번호를 만들지 않도록하세요.
 "사용자"로 돌아가서 이제 목록에 Admin과 Karen 두 명의 사용자가 있는 것을 확인할 수 있을 거에요.
@@ -206,8 +320,18 @@ npm start
 
 이제 우리 어드민 사용자에게 "admin" 역할이 할당된 것을 확인할 수 있을 거에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-23-SimpleKeycloakRBACwithNodejsExpressjs_6.png" />
 
@@ -217,8 +341,18 @@ npm start
 
 먼저 Keycloak Realm 및 Client ID를 .env 파일에 추가해야 합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 키클로크가 있는 위치에 따라 KEYCLOAK_URL을 변경해주세요.
@@ -226,23 +360,34 @@ npm start
 ## 키클로크 미들웨어 설정
 
 keycloak-connect를 라우트의 미들웨어로 사용하려면, 새로운 미들웨어를 만들어야 합니다.
-```  
+```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // file: middlewares/keycloak.js
 
 const Keycloak = require("keycloak-connect");
-const dotenv = require('dotenv').config();
+const dotenv = require("dotenv").config();
 
 const config = {
-  "realm": process.env.KEYCLOAK_REALM,
+  realm: process.env.KEYCLOAK_REALM,
   "auth-server-url": `${process.env.KEYCLOAK_URL}`,
   "ssl-required": "external",
-  "resource": process.env.KEYCLOAK_CLIENT,
-  "bearer-only": true
-}
+  resource: process.env.KEYCLOAK_CLIENT,
+  "bearer-only": true,
+};
 
 module.exports = new Keycloak({}, config);
 ```
@@ -267,8 +412,18 @@ app.use(express.json());
 
 ## 라우트에 Keycloak 미들웨어 추가하기
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새로운 라우트 파일을 만들어 미들웨어를 사용할 것이에요.
 
@@ -286,41 +441,39 @@ const menuItems = [
   {
     name: "크루아상",
     price: "$1",
-    onMenu: true
+    onMenu: true,
   },
   {
-    name:"라떼",
+    name: "라떼",
     price: "$5",
-    onMenu: true
+    onMenu: true,
   },
   {
     name: "로티 차나이",
     price: "$0.50",
-    onMenu: true
+    onMenu: true,
   },
   {
     name: "핫 초콜릿",
     price: "$5",
-    onMenu: false
+    onMenu: false,
   },
   {
     name: "사테",
     price: "$8",
-    onMenu: false
+    onMenu: false,
   },
   {
     name: "팟 타이",
     price: "$7",
-    onMenu: false
-  }
+    onMenu: false,
+  },
 ];
 
 // 어떤 역할이든 열려 있는 라우트
-router.get("/menu-items",
-[keycloak.protect()],
-async (req, res, next) => {
+router.get("/menu-items", [keycloak.protect()], async (req, res, next) => {
   try {
-    let filtered = menuItems.filter(item => {
+    let filtered = menuItems.filter((item) => {
       if (item.onMenu === true) {
         return item;
       }
@@ -340,7 +493,18 @@ module.exports = router;
 
 ## Keycloak 미들웨어 테스트하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 알림: 여기서 사용자의 엑세스 토큰을 생성해야 합니다.
 
@@ -350,7 +514,18 @@ Postman을 사용하여 이를 테스트할 수 있습니다.
 
 ## Bearer 토큰에서 데이터 디코딩 및 추출하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 "admin" 역할을 가진 사용자에게만 제한된 또 다른 경로를 추가해 봅시다.
 
@@ -381,7 +556,7 @@ module.exports = async (req, res, next) => {
   } catch (error) {
     next(error);
   }
-}
+};
 ```
 
 ```js
@@ -407,10 +582,21 @@ module.exports = async (req, res, next) => {
   } catch (error) {
     next(error);
   }
-}
+};
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 작성된 미들웨어와 새로운 라우트를 메뉴 아이템 라우트 파일에 추가해보세요.
 
@@ -427,7 +613,7 @@ const checkIfAdmin = require("#middlewares/checkIfAdmin");
 ...
 
 // 어드민 역할만 접근 가능한 라우트
-router.get("/menu-items/all", 
+router.get("/menu-items/all",
 [keycloak.protect(), extractToken, checkIfAdmin],
 async ( req, res, next) => {
   try {
@@ -445,7 +631,18 @@ module.exports = router;
 
 Karen의 토큰을 사용하면 액세스 거부 오류가 발생합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 Admin의 토큰을 사용했다면, 메뉴에 있는 모든 항목을 얻을 수 있습니다.
 
@@ -455,7 +652,18 @@ Karen의 토큰을 사용하면 액세스 거부 오류가 발생합니다.
 
 이 안내서는 여러분의 API에 사용할 수 있는 방법을 쉽게 보여주기 위해 간소화되었습니다. 이 안내서에서는 GET 요청만 사용했지만 사실상 다른 요청 방법과 함께 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 가이드의 소스 코드는 여기에서 확인할 수 있어요. 이 기사에 대해 토론할 내용이 있다면 언제든지 연락해 주세요.
 

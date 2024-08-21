@@ -3,17 +3,13 @@ title: "우리가 알고 있는 프론트엔드 개발의 종말 2024년 최신 
 description: ""
 coverImage: "/assets/img/2024-06-22-TheFront-EndDevelopmentwereusedtoisdying_0.png"
 date: 2024-06-22 05:20
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-TheFront-EndDevelopmentwereusedtoisdying_0.png
 tag: Tech
 originalTitle: "The Front-End Development we’re used to is dying"
 link: "https://medium.com/@maks-dolgikh/the-front-end-development-were-used-to-is-dying-5e8e9ec99951"
 isUpdated: true
 ---
-
-
-
-
 
 ![image](/assets/img/2024-06-22-TheFront-EndDevelopmentwereusedtoisdying_0.png)
 
@@ -23,8 +19,18 @@ SPA가 등장하기 전에 웹 애플리케이션은 일반적으로 다중 페�
 
 ![image](/assets/img/2024-06-22-TheFront-EndDevelopmentwereusedtoisdying_1.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 개발자들은 만능 전문가였어요. 그들은 프론트엔드와 백엔드 부분을 동시에 책임지고 있었어요. 웹 기술의 발전과 사용자의 요구에 따라, 문제없이 상호작용 인터페이스로 작업할 수 있는 새로운 솔루션이 필요했죠.
 
@@ -34,7 +40,18 @@ SPA가 등장하기 전에 웹 애플리케이션은 일반적으로 다중 페�
 
 그래서 React, Angular2, Vue 및 기타 웹 애플리케이션 개발 도구 시대로 진입했어요. 단순한 양식과 목록을 만드는 대신, js-routing, 상태 관리, 브라우저 API, 요청에 권한 토큰 바인딩, 데이터 매핑 등의 작업이 가능해졌어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 접근 방식의 결과로 문제점이 발생했습니다:
 
@@ -50,7 +67,18 @@ SPA가 등장하기 전에 웹 애플리케이션은 일반적으로 다중 페�
 
 어떤 리소스로 가든 공고가 얼마나 많이 열려 있는지 확인할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Python + Django
 - PHP + Laravel
@@ -68,7 +96,18 @@ SPA가 등장하기 전에 웹 애플리케이션은 일반적으로 다중 페�
 - SPA를 올바른 상태로 복원하기 위해 JSON으로 많은 데이터를 전달할 필요가 없습니다. 이미 준비된 템플릿을 전달할 수 있습니다.
 - 페이지의 JS 코드가 최소화되므로 babel 및 기타 도구를 사용하여 브라우저 호환성에 대해 걱정할 필요가 없습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 노코드 솔루션의 등장, 인공지능을 활용한 템플릿 생성, 거대한 서버 자원, 그리고 SEO 요구사항으로 인해 현재는 프론트엔드 개발자 수와 도구들이 전체 애플리케이션을 개발하는 데 필요하지 않은 상황입니다.
 
@@ -78,7 +117,18 @@ SPA가 등장하기 전에 웹 애플리케이션은 일반적으로 다중 페�
 
 그렇습니다, 복잡하거나 헤드리스 애플리케이션은 프론트엔드와 백엔드를 분리해서 사용해야 할 것입니다. 그러나 대부분의 애플리케이션은 SPA에서 멀어져가고 이미 존재했던 방식으로 나아가게 될 것입니다. 지금은 그러한 문제들에 대한 해결책이 있습니다. HTMX의 등장으로 어떤 백엔드 개발자도 기본 지식만 있으면 웹 애플리케이션을 만들 수 있습니다. 이제는 조금의 논리를 사용하여 싱글 페이지 앱을 만들 때 심지어 JS를 알 필요가 없습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앞단 개발자는 JS 로직 뿐만 아니라 CSS 및 적절한 선택자, HTML 및 그 의미론에도 책임이 있었는데, 이제 백엔드 개발자가 그것을 알아야 할까요? — 아니요, 이제는 인공지능 또는 "HTML 레이아웃 디자이너"가 Figma 레이아웃을 기반으로 템플릿 생성을 처리할 수 있습니다. HTML 템플릿의 로직과 상호작용은 이제 서버에서 정의됩니다.
 
@@ -88,7 +138,18 @@ SPA가 등장하기 전에 웹 애플리케이션은 일반적으로 다중 페�
 
 현재의 프론트엔드 개발자들이 60% 프론트엔드, 40% 백엔드로 분할된 풀스택 자격으로 이동해야 하는 것이 바람직합니다. HTMX는 시작에 불과하며, NextJs 또는 Nuxt 도구를 향한 벡터가 성장할 것이며, Angular 유형의 프레임워크는 새로운 구현에 적응할 수 없다면 죽을 것입니다. 물론 Angular 생태계에는 이미 AnalogJs에서 프로토타입이 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 자원
 

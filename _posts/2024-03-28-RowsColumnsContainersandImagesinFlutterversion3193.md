@@ -3,17 +3,13 @@ title: "Flutter 버전 3193에서 행, 열, 컨테이너 및 이미지 사용 �
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Rows, Columns, Containers and Images in Flutter version 3193"
 link: "https://medium.com/@sama3l/rows-columns-containers-and-images-in-flutter-version-3-19-3-673cd401b3f0"
 isUpdated: true
 ---
-
-
-
-
 
 # 소개
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 열, 행 및 이상한 차원들
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 두 위젯은 자식 위젯의 높이와 너비를 차지합니다. 이제, 내 코딩 역사 중 어딘가에서 그들이 부모 위젯에 의해 제공된 전체 높이와 너비를 차지했을 때가 있었던 것 같아요. 그러나 현재는 이렇게 되었어요. 그러니까 이 특정 요소를 생성해야 한다면:
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 이미지를 설정된 높이 컨테이너에 배경으로 넣었어요. 이 높이는 디자인에서 제공되었지만, 기억할 것이 있어요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 화면 크기에 따라 다양하게 변하는 위젯을 만들어보세요. 가능한 곳에서는 정적 제약을 피하세요.
 
@@ -70,7 +88,18 @@ Container(
 )
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 이미지 크기에 맞게 부모 컨테이너를 동적으로 만들었다면, 컬럼을 사용하여 높이를 동적으로 관리하는 방법이 있습니다. 이제 컬럼 위젯이 자식 위젯에 맞게 맞추어지기 때문에 정말 유용합니다.
 
@@ -88,7 +117,18 @@ Expanded 위젯은 Column이 부모인 Container의 최대 높이를 가져가�
 
 그럼 여기서 말하는 위젯의 동적 높이란 무엇을 의미할까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 class HeroCard extends StatelessWidget {
@@ -158,7 +198,18 @@ class HeroCard extends StatelessWidget {
 
 Column 위젯 및 따라서 일련의 위젯을 화면에 가운데 정렬하려면 여러 가지 방법이 있지만 가장 간단한 답을 제공해 드리겠습니다. Column의 폭을 double.infinity를 사용하여 너비의 100%로 설정하거나 너비가 100%인 자식 위젯을 가져야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 Scaffold(
@@ -181,14 +232,36 @@ Scaffold(
 
 ![화면에 표시되는 이미지](/assets/img/RowsColumnsContainersandImagesinFlutterversion3193_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 | 폴더  | 이름  | 크기 |
 | ----- | ----- | ---- |
 | 폴더1 | 파일1 | 2KB  |
 | 폴더2 | 파일2 | 3KB  |
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "double.infinity"은 이미지의 최대 너비로 설정하고 이미지를 BoxFit.fitWidth로 설정합니다. 이렇게 하면 이미지가 너비에 맞게 늘어나며 스택 위젯을 포함하는 컨테이너는 이미지의 너비와 높이를 얻습니다(Stack이 없어도 작동하지만, 다른 위젯을 겹쳐 놓으려면 Stack이 필요합니다).
 
@@ -198,6 +271,17 @@ Scaffold(
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 플러터에서 혼란스러운 시간을 함께 해결해 드리고 싶어요. 글을 쓰는 걸 좋아하고 배우는 걸 즐겨 하니까 새로 알게 된 것, 발생한 오류, 플러터 커뮤니티에서 다루지 않은 내용 중 내가 해결하고 이해한 것들을 계속 추적하려고 노력할 거예요. 여러분을 도와드리기 위해요. 여러분의 신이 되어드리기 위해요. 마치 column 위젯이 부모 높이를 사용하는 방법, 컨테이너가 모든 공간을 채우는 방법, 강력한 AI 플러터 애플리케이션을 만드는 방법 같은 질문들의 바다를 넘어 가도록 도와드리겠어요. 아마 마지막 건 아니겠지만요.

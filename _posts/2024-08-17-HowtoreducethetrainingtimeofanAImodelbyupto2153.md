@@ -3,7 +3,7 @@ title: "AI 모델의 학습 시간을 최대 2153까지 줄이는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-17-HowtoreducethetrainingtimeofanAImodelbyupto2153_0.png"
 date: 2024-08-17 01:48
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-17-HowtoreducethetrainingtimeofanAImodelbyupto2153_0.png
 tag: Tech
 originalTitle: "How to reduce the training time of an AI model by up to 2153"
@@ -11,8 +11,6 @@ link: "https://medium.com/@alexander.dickbauer/how-i-reduced-the-training-time-o
 isUpdated: true
 updatedAt: 1723864323502
 ---
-
-
 
 ![Training Time Reduction](/assets/img/2024-08-17-HowtoreducethetrainingtimeofanAImodelbyupto2153_0.png)
 
@@ -22,8 +20,18 @@ updatedAt: 1723864323502
 
 # 배경 이야기
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제 학위 논문에서 압축된 데이터 세트는 472 GB였고, 이 데이터로 32개의 모델을 훈련하기로 계획했습니다. 모든 것을 설정하고 훈련 파이프라인을 테스트한 후, 사용한 2080Ti GPU에서 한 번의 훈련 반복에 10시간 40분 4초가 걸리는 것으로 판단했습니다... 그리고 적어도 유용한 결과를 얻기 위해서는 최소 50번의 반복이 필요할 것으로 예상했습니다. 이를 생각해보면:
 32개 모델 x 10.7시간 x 50번 반복 = 713.33일이 소요됩니다.
@@ -34,7 +42,18 @@ updatedAt: 1723864323502
 
 이야기를 다시 하면, 저는 멀티노드 Slurm 클러스터 구성에서 4개의 RTX 2080 TI를 활용하기로 결정했습니다. 이는 4개의 PC를 각각 하나의 GPU가 장착된 상태로 사용하는 것을 의미합니다. 처음에는 상당한 부담이 될 수 있지만, 궁극적으로 이를 설정하는 것은 가치가 있습니다. 한 가지 이점은 현재 필요하지 않은 노드를 끌 수 있고 전력을 절약할 수 있다는 것입니다. 또 다른 이점은 각 PC를 게임, 포토샵, 랜더링 또는 기타 GPU 집중적인 작업을 위해 개별적으로 사용할 수 있다는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 설정이 모두 완료되고 구성이 완료된 후에 PyTorch를 사용한 데이터 병렬 처리로 첫 번째 속도 향상률이 363% 만큼 있었어요. 더욱 쉽게 하기 위해 코드를 PyTorch-lightning으로 이식하여 트레이너가 데이터 분배를 처리할 수 있도록 했어요.
 
@@ -75,7 +94,18 @@ trainer.fit(
 
 이제 간단한 bash에서 Slurm 제출 스크립트를 보겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 #!/bin/bash -l
@@ -97,9 +127,18 @@ srun python /var/train/train.py # 위의 스크립트 실행
 
 그게 무슨 말인지 알려드릴게요... 그림 1에서 볼 수 있듯이 데이터 처리가 훈련에 미치는 영향이 얼마나 큰지 보여드릴게요. 각 노란색 블록은 처리된 데이터 배치를 나타내고, 각 파란색 블록은 한 번의 훈련 스텝을 나타내요.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-08-17-HowtoreducethetrainingtimeofanAImodelbyupto2153_1.png)
 
@@ -109,8 +148,18 @@ srun python /var/train/train.py # 위의 스크립트 실행
 
 ![이미지](/assets/img/2024-08-17-HowtoreducethetrainingtimeofanAImodelbyupto2153_2.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신의 데이터 처리가 병목이 되었는지 확인하려면 기차 데이터 로더와 테스트 데이터 로더가 하나의 훈련 단계에 얼마나 걸리는지 비교해보세요. 그들이 대략적으로 같은 기간을 소요한다면, 데이터 로더는 여러분의 파이프라인에서 병목이 아닙니다.
 
@@ -120,7 +169,18 @@ srun python /var/train/train.py # 위의 스크립트 실행
 
 나는 훈련한 모델들의 데이터 로더에서, 사전 학습된 MCTNN 얼굴 인식 모델을 사용하여 얼굴을 30% 여백으로 자르고, 그런 다음 각 이미지에서 얼굴 랜드마크를 추출했습니다. 이러한 얼굴 랜드마크는 볼록 다각형 및 관심 영역을 계산하는 데 사용되어 특정 얼굴 특징에 전문화된 데이터 증강을 적용했습니다. 이 증강이 완료되면 결과 이미지는 더 일반적인 Albumentation 변환을 더 적용하기 위해 두 번째 증강 파이프라인에서 처리되었습니다. 이 설명만으로도 알 수 있듯이, 데이터 처리 함수는 꽤 복잡하고 계산적으로 요구됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터 작업자 프로세스 소요 시간을 줄이기 위해 가능한 모든 것을 미리 계산하여 가공을 적용할 준비가 된 상태로 새로운 parquet 데이터 세트에 원시 값들을 저장했습니다. 이 선행 계산은 한 노드에서 완료하는 데 대략 10시간이 걸렸어요. 새로운 디자인은 아래의 그림 3에서 확인하실 수 있어요.
 
@@ -130,7 +190,18 @@ srun python /var/train/train.py # 위의 스크립트 실행
 
 # 전략 III — ZeRO Optimizer (DeepSpeed)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이번에 한 에포크에 필요한 시간을 더 줄이기 위한 다음 단계는 Microsoft에서 개발한 DeepSpeed 라이브러리였어요. 이 라이브러리는 PyTorch-lightning과도 밀접하게 통합되어 있어요. 이 라이브러리에는 여러 사전 정의된 구성이 제공되죠:
 
@@ -175,7 +246,18 @@ trainer.fit(
 )
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 변경 사항 둘 다 속도를 최종 값인 2153%로 증가시켰어요.
 
@@ -185,7 +267,18 @@ trainer.fit(
 
 ![그림](/assets/img/2024-08-17-HowtoreducethetrainingtimeofanAImodelbyupto2153_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에서 설명한 모든 전략을 활용하여, 저는 마스터 논문 프로젝트를 한 달 안에 완료할 수 있었어요. 좀 더 정확히 말하면, 33일이 걸렸습니다. 이전에는 713일이 걸렸던 프로젝트를 완성한 것이죠.
 

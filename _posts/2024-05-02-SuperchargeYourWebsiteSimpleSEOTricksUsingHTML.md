@@ -3,16 +3,13 @@ title: "간단한 HTML로 SEO 점수를 올리는 방법들"
 description: ""
 coverImage: "/assets/img/2024-05-02-SuperchargeYourWebsiteSimpleSEOTricksUsingHTML_0.png"
 date: 2024-05-02 00:30
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-02-SuperchargeYourWebsiteSimpleSEOTricksUsingHTML_0.png
 tag: Tech
 originalTitle: "Supercharge Your Website! Simple SEO Tricks Using HTML"
 link: "https://medium.com/@poojagundami/supercharge-your-website-simple-seo-tricks-using-html-5d6e8b3cec3f"
 isUpdated: true
 ---
-
-
-
 
 ![Supercharge Your Website with Simple SEO Tricks Using HTML](/assets/img/2024-05-02-SuperchargeYourWebsiteSimpleSEOTricksUsingHTML_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 이렇게 하면 HTML 코드를 사용하여 슈퍼 SEO를 활용할 수 있어요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 헤드라인 히어로 (타이틀 태그): 검색 결과에서 사람들이 볼 수 있는 끌리는 제목입니다. 짧고 간결하게 작성하고, 웹사이트 내용을 설명하세요. "피자 파티 파라다이스"라는 것이 있으면 "내 웹사이트"보다 훨씬 좋겠죠.
 - 제목 구조: 제목은 웹사이트 콘텐츠 내에서 각 주제를 나타냅니다. 주요 주제에 H1을 사용하고, 부제목에 H2를 사용하세요. 방문자가 웹사이트를 쉽게 스캔할 수 있게 해주며, 검색 엔진에게 중요한 내용임을 알려줍니다.

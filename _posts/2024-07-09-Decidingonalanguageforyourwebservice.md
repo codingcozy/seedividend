@@ -3,15 +3,13 @@ title: "웹 서비스 개발을 위한 언어 선택 가이드"
 description: ""
 coverImage: "/assets/img/2024-07-09-Decidingonalanguageforyourwebservice_0.png"
 date: 2024-07-09 15:08
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-Decidingonalanguageforyourwebservice_0.png
 tag: Tech
 originalTitle: "Deciding on a language for your web service"
 link: "https://medium.com/singularity-energy/deciding-on-a-language-for-your-web-service-c6f73fb9d448"
 isUpdated: true
 ---
-
-
 
 Singularity에서는 주로 웹 서비스에 Python을 사용합니다. 프론트 엔드에서는 Typescript를 사용합니다. 또한 실시간 푸시 서버에는 Elixir를 사용합니다. 최근에 매우 높은 I/O 처리량이 필요한 프로젝트를 시작했는데, Python이 그 사용 사례에서 최선의 도구가 아닐 수도 있다는 걱정이 들었습니다. 그래서 우리는 다음과 같은 질문을 하였습니다:
 
@@ -24,7 +22,18 @@ Singularity에서는 주로 웹 서비스에 Python을 사용합니다. 프론�
 - Rust
 - C++
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 커뮤니티 지원이 많고 철저한 문서화가 있는 프레임워크와 함께 각 언어를 만들기로 약 2시간을 할애하기로 결정했습니다. 웹 서버들은 PostgreSQL 데이터베이스와 상호 작용하는 도커 컴포즈 네트워크에서 작동할 것입니다. 이 웹 서버들은 ID로 항목을 가져오는 두 가지 Endpoints를 가지게 될 것이며, 페이지/오프셋 매개변수로 항목 목록을 페이징 처리합니다.
 
@@ -38,7 +47,18 @@ Singularity에서는 주로 웹 서비스에 Python을 사용합니다. 프론�
 - Async Python (FastAPI/SQLAlchemy/asyncpg)
 - Elixir (Phoenix/Ecto)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 C++와 Java도 시도하기로 합의했지만, 심플한 케이스에서도 설정에 어려움을 겪었습니다. 관련 조사를 하는 데 너무 많은 시간이 걸리고, 제가 찾을 수 있는 (공개된) 자료와 커뮤니티 지원이 부족했으며, JSON API → PostgreSQL db 서비스를 짧은 시간에 작동시키지 못했습니다. 나중에 다시 시도해보겠지만, 그 접근의 어려움으로 이번 테스트 세트에 대해 그만두기로 결정했습니다.
 
@@ -48,7 +68,18 @@ Singularity에서는 주로 웹 서비스에 Python을 사용합니다. 프론�
 
 각 결과 집합마다, 우리는 동시 사용자 수와 각 프레임워크가 그들을 어떻게 다뤄갔는지 살펴볼 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1,000명 미만의 사용자
 
@@ -58,7 +89,18 @@ Python
 
 ![이미지](/assets/img/2024-07-09-Decidingonalanguageforyourwebservice_0.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 NodeJS
 
@@ -68,7 +110,18 @@ Elixir
 
 ![Elixir](/assets/img/2024-07-09-Decidingonalanguageforyourwebservice_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Rust
 
@@ -78,7 +131,18 @@ Async Python
 
 ![Async Python](/assets/img/2024-07-09-Decidingonalanguageforyourwebservice_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 세트의 테스트에서 예상한 대로 동작하는 것을 볼 수 있었습니다. 거의 모든 설정이 약 200개의 동시 요청을 그대로 처리하고 제공합니다. 유일한 예외는 async/await 구문을 사용하는 Python입니다. 불행히도, 약 50%의 오류율이 있었습니다. 로그에 기록된 오류를 살펴보면 다음과 같습니다:
 
@@ -88,7 +152,18 @@ sorry, too many clients already
 
 이후의 모든 테스트에서는 Async Python 설정을 제외하겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1,000 사용자
 
@@ -98,13 +173,35 @@ sorry, too many clients already
 
 NodeJS
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Elixir](/assets/img/2024-07-09-Decidingonalanguageforyourwebservice_6.png)
 
 ![Rust](/assets/img/2024-07-09-Decidingonalanguageforyourwebservice_7.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-09-Decidingonalanguageforyourwebservice_8.png)
 
@@ -114,7 +211,18 @@ NodeJS
 
 ## 2,000 사용자
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Python
 
@@ -124,7 +232,18 @@ NodeJS
 
 ![NodeJS image](/assets/img/2024-07-09-Decidingonalanguageforyourwebservice_10.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Elixir
 
@@ -134,7 +253,18 @@ NodeJS
 
 ![Rust](/assets/img/2024-07-09-Decidingonalanguageforyourwebservice_12.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서는 초당 약 4,000개의 요청을 처리할 수 있도록 세팅할 것을 요청하고 있습니다. 이 수준에 도달하려는 모든 프레임워크들이 제대로 따라가기 어려운 것으로 보입니다. 그러나 (Python을 제외한) 모든 세팅이 매우 유사한 동작을 보이는 것으로 보아, 테스트를 실행하는 데 사용하는 노트북에 병목 현상이 있을 수도 있고, 실제 세팅 자체에 병목 현상이 있는 것일 수도 있습니다. 이것이 사실인지 아닌지는 확실하지 않습니다.
 
@@ -144,7 +274,18 @@ NodeJS
 
 Python을 사용하길 꺼리지는 않겠습니다. 몇 년간 사용해온 것이며, 설정의 용이성과 문법을 즐기고 있으며, 데이터 분석 및 조작 워크로드에 특히 유용하기 때문에 계속해서 사용할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 이 테스트를 실시한 이유는 곧 이전 제품과는 다른 작업량을 갖는 새 제품을 출시할 예정이기 때문입니다. 새 제품을 보다 잘 지원하기 위해 스택을 변경해야 할 지 알아보고 싶었어요.
 

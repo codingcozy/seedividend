@@ -3,17 +3,13 @@ title: "Python으로 크롬 확장 프로그램 만들기 1부"
 description: ""
 coverImage: "/assets/img/2024-07-13-WriteChromeExtensionsinPythonPart1_0.png"
 date: 2024-07-13 18:55
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-WriteChromeExtensionsinPythonPart1_0.png
 tag: Tech
 originalTitle: "Write Chrome Extensions in Python (Part 1)"
 link: "https://medium.com/pythoniq/write-chrome-extensions-in-python-6c6b0e2e1573"
 isUpdated: true
 ---
-
-
-
-
 
 ![image](/assets/img/2024-07-13-WriteChromeExtensionsinPythonPart1_0.png)
 
@@ -23,8 +19,18 @@ PyScript은 오랫동안 존재해왔고 Python 코드를 HTML 페이지에 직�
 
 ## 확장 프로그램 파일 만들기
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Extension을 위한 새 폴더를 만들고 다음 저장소를 다운로드하거나 복제하세요:
 
@@ -36,8 +42,18 @@ Extension을 위한 새 폴더를 만들고 다음 저장소를 다운로드하�
 
 Chrome 주소 표시줄에 chrome://extensions을 입력하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-13-WriteChromeExtensionsinPythonPart1_1.png)
 
@@ -47,20 +63,39 @@ Chrome 주소 표시줄에 chrome://extensions을 입력하세요.
 
 "압축 해제된 확장 프로그램을 로드"를 클릭하고 확장 프로그램 폴더를 선택하세요.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래와 같이 테이블 태그를 Markdown 형식으로 변경해 주세요.
 
+| Extension Name    | Category     | Downloads |
+| ----------------- | ------------ | --------- |
+| Awesome Extension | Tools        | 100k      |
+| Super Helper      | Productivity | 50k       |
+| Quick Access      | Utilities    | 30k       |
 
-| Extension Name      | Category | Downloads |
-|---------------------|----------|-----------|
-| Awesome Extension   | Tools    | 100k      |
-| Super Helper        | Productivity | 50k   |
-| Quick Access        | Utilities | 30k      |
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-13-WriteChromeExtensionsinPythonPart1_5.png)
 
@@ -70,7 +105,18 @@ Chrome 주소 표시줄에 chrome://extensions을 입력하세요.
 
 ![이미지](/assets/img/2024-07-13-WriteChromeExtensionsinPythonPart1_7.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 글을 쓰는 시점에서는 이 주제에 대한 도움이 되는 검색 결과가 거의 없기 때문에 이 기사와 pyscript-local-runtime 리포지토리가 여러분이 이 기본적인 빌딩 블록을 적절한 위치에 두기 위해 겪은 시행착오의 시간을 절약해 드릴 수 있기를 바랍니다. 단순히 PyScript를 다루는 재미있는 부분으로 출발해서 브라우저 확장 프로그램의 제약 내에서 "가능한 일의 예"를 탐색해 보세요.
 

@@ -3,17 +3,13 @@ title: "React에서 Data URL과 sprite 이미지 성능 비교"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # React에서 Data URL과 sprite 이미지 성능 비교
 
@@ -38,7 +34,18 @@ data:[<mediatype>][;base64],`<data>`
 - `;base64` : 데이터가 Base64로 인코딩되었음을 나타냅니다. 이 부분은 필수는 아니지만, 데이터가 텍스트가 아닌 경우에는 종종 사용됩니다.
 - `<data>` : 실제 데이터입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 스프라이트 이미지
 
@@ -68,9 +75,7 @@ data:[<mediatype>][;base64],`<data>`
 Data URL 사용 예시
 
 ```html
-<div
-  style="background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEwAAABM...)"
-></div>
+<div style="background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEwAAABM...)"></div>
 <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEwAAABM..." />
 ```
 
@@ -84,7 +89,18 @@ base64 로 인코딩함으로써 **기존 데이터의 용량보다 30% 증가�
 
 각각 Data URL, Sprite 를 활용해 마크업 예제를 만들어 Chrome 개발자 도구의 네트워크 툴로 서버에 요청되는 리소스를 비교해 보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Data URL을 활용한 마크업 페이지
 <img src="/assets/img/2024-02-20-React에서-Data-URL과-sprite-이미지-성능-비교-1.png" width="500" alt="Data URL 이미지 성능" />
@@ -98,7 +114,18 @@ Data URL 이미지는 CSS 파일에 포함되어 CSS 파일과 함께 다운로�
 
 Sprite 를 사용하는 가장 큰 이유는 여러 이미지 파일을 하나로 합쳐 리소스 요청을 줄이기 위함인데, Data URL 은 이미지가 CSS 파일에 포함되어 여러 이미지 파일에 대한 리소스 요청이 일어나지 않기 때문에 Sprite 와 비슷한 성능 개선 효과를 가진다고 볼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 주의사항
 

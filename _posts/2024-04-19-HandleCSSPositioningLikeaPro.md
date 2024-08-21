@@ -3,17 +3,13 @@ title: "CSS Position을 개발자들이 사용하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Handle CSS Positioning Like a Pro"
 link: "https://medium.com/@jawad.lilliput/mastering-the-art-of-css-positioning-5b19373b149b"
 isUpdated: true
 ---
-
-
-
-
 
 웹 개발의 세계에서 CSS(계단식 스타일 시트)는 개발자가 웹 페이지의 레이아웃과 표현을 제어할 수 있는 강력한 도구입니다. CSS의 가장 기본적인 측면 중 하나인 위치 지정은 요소가 페이지에 배치되는 방식을 결정합니다. CSS에서 위치 지정의 네 가지 주요 유형은 static, relative, absolute, 그리고 fixed입니다. 각 유형의 동작 방식은 다음과 같습니다:
 
@@ -21,7 +17,18 @@ Static Positioning:
 
 이것은 모든 HTML 요소의 기본 위치 지정입니다. static 위치 지정을 갖는 요소는 문서의 정상적인 흐름에 따라 배치됩니다. 다시 말해, HTML에서 나타나는 순서대로 특별한 위치 지정 없이 배치됩니다. static 위치 지정을 보여주는 간단한 예시:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <!DOCTYPE html>
@@ -70,7 +77,18 @@ Static Positioning:
 </html>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 절대 위치 지정을 통한 정확한 배치:
 
@@ -109,7 +127,18 @@ Static Positioning:
 
 고정 위치 지정을 통한 쉬운 정렬:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 고정 위치 요소는 브라우저 창을 기준으로 위치가 결정되어 페이지를 스크롤해도 항상 같은 위치에 유지됩니다. 항상 보이기를 원하는 헤더, 푸터 또는 네비게이션 바와 같은 요소를 만들기에 유용합니다. 고정 위치를 보여주는 간단한 예시는 다음과 같습니다:
 
@@ -139,7 +168,18 @@ Static Positioning:
 
 상대 및 절대 위치 지정을 결합하면 최소한의 노력으로 정교한 레이아웃을 만들 수 있습니다. 뷰포트를 기준으로 부모 요소를 위치시키고 해당 부모 요소 내에서 절대 위치로 자식 요소를 배치함으로써 화면 크기나 방향 변경에 우아하게 대응하는 복잡한 요소 배치를 만들 수 있습니다. 이 방법을 사용하면 기존의 레이아웃 기법(예: 플로팅 또는 테이블)에 비해 훨씬 더 깔끔하고 유지보수가 쉬운 코드 작성이 가능합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Z-Index로 창의적인 디자인 향상하기:
 
@@ -174,7 +214,18 @@ CSS의 z-index 속성은 페이지의 요소 쌓는 순서를 제어하여 요�
 
 이제 z-index와 CSS의 fixed positioning 사이의 관계를 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 z-인덱스 기본 사항:
 
@@ -184,7 +235,18 @@ z-인덱스는 CSS 속성으로, 오버랩되는 HTML 요소의 순서를 정의
 
 요소가 고정 위치를 가지면 문서의 일반적인 흐름에서 제거되어 해당 요소가 포함된 요소가 아닌 브라우저 창과의 관계에 따라 배치됩니다. 결과적으로 고정 위치 요소는 다른 위치 지정된 요소와는 다르게 자신을 포함하는 요소들의 쌓임 맥락과 상호작용하지 않습니다. z-인덱스 속성은 고정 위치와 함께 작동하지만, 알아두어야 할 몇 가지 세심함이 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 고정된 위치를 가진 요소는 z-index 값과 상관없이 항상 동일한 쌓임 컨텍스트 내의 다른 요소들 위에 표시됩니다. 즉, 하나의 요소가 다른 고정된 위치를 가진 요소보다 낮은 z-index를 가지더라도 여전히 그 위에 표시될 것입니다.
 
@@ -194,7 +256,18 @@ z-인덱스는 CSS 속성으로, 오버랩되는 HTML 요소의 순서를 정의
 
 올바른 레이어링을 보장하고 예상치 못한 동작을 피하려면 다음 단계를 따르세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - HTML 구조를 확인하세요: 쌓이기를 원하는 요소가 올바르게 중첩되어 있는지 확인해보세요.
 - 명시적인 z-index 값 설정: 위치가 지정된 요소들에게 (고정 위치 요소도 포함하여) 명시적으로 z-index 값을 할당하여 그들의 쌓이는 순서를 제어하세요.
@@ -239,6 +312,17 @@ z-인덱스는 CSS 속성으로, 오버랩되는 HTML 요소의 순서를 정의
 
 마무리
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS 위치 지정은 웹 개발 작업을 간편하게 만들어주고 시각적으로 멋진 사용자 친화적인 웹사이트를 만들 수 있는 강력한 도구입니다. CSS에서 제공되는 다양한 위치 지정 기술을 숙달함으로써 정확한 레이아웃, 유연한 디자인, 그리고 매력적인 사용자 경험을 쉽게 달성할 수 있습니다. 개인 블로그, 전자 상거래 사이트 또는 웹 애플리케이션을 개발하고 있다면 CSS 위치 지정을 통해 개발자로서의 삶을 더욱 쉽게 만들고 프로젝트를 성공적으로 수행할 수 있습니다. 그러니 무엇을 기다리고 있나요? 오늘부터 CSS 위치 지정의 세계에 뛰어들어 웹 개발 능력의 모든 잠재력을 펼쳐보세요.

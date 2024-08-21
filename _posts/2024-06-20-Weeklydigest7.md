@@ -3,16 +3,13 @@ title: "주간 다이제스트 7"
 description: ""
 coverImage: "/assets/img/2024-06-20-Weeklydigest7_0.png"
 date: 2024-06-20 05:50
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-Weeklydigest7_0.png
 tag: Tech
 originalTitle: "Weekly digest #7"
 link: "https://medium.com/devdiscoveries/weekly-digest-7-bd83d0c5a45b"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-06-20-Weeklydigest7_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 # DI에 입력 제공하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 🔍 Angular에서 prop drilling으로 고생한 적이 있나요? 🤯 이 블로그 포스트에서는 Signal Inputs와 Dependency Injection을 활용한 새로운 방법을 소개합니다. 이를 통해 여러 수준의 prop drilling이 필요 없이 컴포넌트간 데이터를 전달하는 것이 간단해집니다.
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 여기서 확인해보세요 👇
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 앵귤러의 NgOptimizedImage 지시문을 사용하여 Base64 플레이스홀더 사용 방법
 
@@ -42,7 +61,18 @@ isUpdated: true
 
 저자: Netanel Basal
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 내용을 확인해보세요 👇
 
@@ -52,7 +82,18 @@ isUpdated: true
 
 🚀 이 기능을 사용하면 JavaScript의 가능성을 기반으로 대체 CSS 규칙을 제공할 수 있습니다. 이를 통해 스타일이 적용되지 않은 컨텐츠의 깜빡임을 줄이고 레이아웃 시프트를 개선할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 크레딧: Ryan Mulligan
 
@@ -62,7 +103,18 @@ isUpdated: true
 
 Exa는 대규모 언어 모델 (LLMs)을 풍부하게 하기 위해 특별히 설계된 강력한 검색 API입니다. 이를 사용하면 AI가 자연어 쿼리를 사용하여 웹을 검색하고 가장 관련성 있는 결과를 검색할 수 있습니다. 📚🔍
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Exa를 활용하면 프로젝트에 웹 검색 기능을 원활하게 통합하여 AI가 다양한 소스에서 현재 정보에 액세스할 수 있습니다. 게다가 깔끔한 페이지 콘텐츠와 지능적인 하이라이트를 제공하여 웹 스크래핑과 데이터 처리를 하는 데 시간과 노력을 절약할 수 있습니다. ⚡️✨
 
@@ -72,7 +124,18 @@ Exa를 활용하면 프로젝트에 웹 검색 기능을 원활하게 통합하�
 
 🔍 명확한 기대치를 설정하여 의사소통 능력을 향상시키고 성과 평가를 향상시킵니다. 상태 변화를 양적 측정하여 주장을 다섯 배 더 설득력 있게 만드는 방법을 배우세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 🚀 성과 평가, 의사 결정 참여 및 피드백 수렴 세 가지 핵심 영역에서 이 전략의 적용을 숙달하세요. 부하 시간을 줄이든 수익을 증대시키든, 효과적인 커뮤니케이션이 어떻게 결과를 가져다 줄 수 있는지 알아보세요.
 
@@ -82,7 +145,18 @@ Exa를 활용하면 프로젝트에 웹 검색 기능을 원활하게 통합하�
 
 그럼 여러분이 호기심을 자극하고 기술의 매혹적인 세계에 더 깊이 몰두하도록 영감을 주는 것을 찾으셨기를 바랍니다. 🥳
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기억하세요, 학습은 평생 여정이며, 새로운 지식 한 조각마다 당신을 당신의 기술을 숙달하는 한 걸음 더 가깝게 이끕니다. 🚀
 

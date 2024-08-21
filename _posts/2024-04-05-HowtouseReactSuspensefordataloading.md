@@ -3,17 +3,13 @@ title: "React Suspense를 데이터 로딩에 어떻게 활용하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How to use React Suspense for data loading"
 link: "https://medium.com/@amirilovic/how-to-use-react-suspense-for-data-loading-4b68f9200c19"
 isUpdated: true
 ---
-
-
-
-
 
 Next.js에서 앱을 구축 중입니다. 예전 페이지 라우터에서 새로운 앱 라우터로 이전하고 html 스트리밍 및 서버 구성 요소를 활용하기로 결정했습니다. 이 글에서는 React 및 Next.js에서 Suspense 및 서버 구성 요소가 어떻게 작동하는지에 대해 자세히 다루지 않고, 대신 내 앱에서 경험한 실제 사용 사례에서 Suspense 및 서버 구성 요소를 사용하는 방법을 설명하고자 합니다.
 
@@ -23,7 +19,18 @@ Next.js에서 앱을 구축 중입니다. 예전 페이지 라우터에서 새�
 
 초기 로드 시 페이지는 모든 제품을 렌더링합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![로딩 화면](https://miro.medium.com/v2/resize:fit:1400/1*tZZB70LCPz1tEosJZ5KvOw.gif)
 
@@ -33,7 +40,18 @@ Next.js에서 앱을 구축 중입니다. 예전 페이지 라우터에서 새�
 
 ![로딩 스켈레톤](https://miro.medium.com/v2/resize:fit:1400/1*BwCVlL9Xo5d7LTICOjsdzA.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 매우 간단한 시나리오입니다.
 
@@ -43,7 +61,18 @@ Next.js에서 앱을 구축 중입니다. 예전 페이지 라우터에서 새�
 
 다음과 같은 컴포넌트가 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ProductCard은 제품을 렌더링합니다.
 
@@ -63,7 +92,18 @@ export function ProductList({ products }: { products: Product[] }) {
 
 ProductListSkeleton 구성 요소는 로딩 상태의 ProductCard를 10개 렌더링합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 export function ProductListSkeleton() {
@@ -101,7 +141,18 @@ export function ProductListWithEffect({ products }: { products?: Product[] }) {
 
 페이지 라우터 코드와 데이터 로딩을 구현한 부분은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```javascript
 export default function Page({ products }: { products: Product[] }) {
@@ -132,7 +183,18 @@ export async function getServerSideProps() {
 
 앱 폴더에서는 페이지 로직을 간단히 작성할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 export default async function Page() {
@@ -151,7 +213,18 @@ export default async function Page() {
 
 데이터를 로드하고 ProductList 컴포넌트와 함께 렌더링하는 새로운 컴포넌트 ProductListWithSuspense를 추가할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 export async function ProductListWithSuspense() {
@@ -174,7 +247,18 @@ export default async function Page() {
 
 거의 완료되었습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1400/1*pZFG5fgcpwbbmf1677H3Qw.gif)
 
@@ -185,7 +269,18 @@ export default async function Page() {
 
 위 문제를 해결하기 위해 Suspense를 컴포넌트 트리 아래로 옮기고 조건부로 추가해보겠어요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 async function ProductListLoader() {
@@ -194,11 +289,7 @@ async function ProductListLoader() {
   return <ProductList products={products} />;
 }
 
-export function ProductListWithSuspense({
-  products,
-}: {
-  products?: Product[],
-}) {
+export function ProductListWithSuspense({ products }: { products?: Product[] }) {
   if (products) {
     return <ProductList products={products} />;
   }
@@ -222,7 +313,18 @@ export default async function Page() {
 
 이제 useEffect와 거의 동일한 로직을 가지고 있는 것을 볼 수 있습니다. 페이지에서 데이터를 미리 로드하고 ProductList를 렌더링하고 있지만, 페이지에서 데이터를 미리로드하지 않기로 결정한다면 컴포넌트 자체가 데이터를 로드할 수 있도록 충분히 똑똑합니다. 이 컴포넌트를 어떤 페이지에도 쉽게 삽입할 수 있고, 데이터를 로드하고 로딩 스켈레톤을 렌더링하는 부분을 담당할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 근데, 하나 더 문제가 있어요. 페이지에 있는 코드는 초기 페이지 로드와 클라이언트 내비게이션 둘 다 실행돼요. 이것은 getServerSideProps와 비교했을 때 큰 차이점이에요. 이 문제가 왜 문제인지 아래에서 확인할 수 있어요:
 
@@ -232,7 +334,18 @@ export default async function Page() {
 
 페이지의 초기 로드와 클라이언트 측 내비게이션을 어떻게 처리해야 하는지 공식 문서를 찾을 수 없어서 시간이 걸렸어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 서버 구성 요소에 대해 읽고 네트워크 트래픽을 검사하면서 클라이언트 측 탐색 중에 Next.js가 JSON 페이로드를 예상하고 서버에 요청을 하는 것을 깨달았어요 🥳
 
@@ -253,7 +366,18 @@ export default async function Page() {
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1400/1*cBschoCbpQzdKFTwA64KvA.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서, 이제 페이지 라우터와 useEffect와 같은 동작을 얻었어요 💪
 
@@ -263,7 +387,18 @@ export default async function Page() {
 
 첫 번째 이점은 개발자에게 있어요. 이제 코드가 훨씬 간단하고 읽기 쉬워졌고 이해하기 쉽답니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 번째 이점은 페이지 성능에 대한 것입니다. ProductList 컴포넌트에 클라이언트 측 상호 작용이 없기 때문에 서버 컴포넌트로 사용될 수 있습니다. 클라이언트 측으로 컴포넌트 코드를 전달할 필요가 없으며, 서버 측에서만 렌더링되기 때문에 성능이 좋아집니다! 현실 세계에서는 제품 케로셀에서 이러한 경우가 아닐 수 있지만, 앱마다 클라이언트 측 상호 작용 없이 정적으로 렌더링할 수 있는 컴포넌트가 있습니다. 특히 서버 컴포넌트와 서버 액션을 함께 사용하면 엔드 유저에 전달되는 코드 양을 줄일 수 있습니다.
 
@@ -273,6 +408,17 @@ export default async function Page() {
 
 이 사용 사례를 다른 방식으로 구현할 수 있는 제안이 있으면 아래에 댓글을 남겨주세요 👇.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 👋

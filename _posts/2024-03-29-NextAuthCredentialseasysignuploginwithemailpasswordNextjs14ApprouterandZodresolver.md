@@ -3,17 +3,13 @@ title: "Nextjs 14 앱 라우터에서 NextAuth로 이메일, 패스워드를 사
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "NextAuth Credentials  easy signup , login with email , password Nextjs 14 App router and Zod resolver"
 link: "https://medium.com/@pether.maciejewski/nextauth-credentials-easy-signup-login-with-email-password-next-js-7e8f043b2084"
 isUpdated: true
 ---
-
-
-
-
 
 NEXTAUTH 및 ZOD 소개
 
@@ -23,7 +19,18 @@ NextAuth.js는 Next.js 애플리케이션에 맞게 제작된 견고한 오픈 �
 
 그것의 폼 처리 능력을 향상시키는 주목할만한 기능 중 하나는 TypeScript-first 스키마 선언 및 유효성 검사 라이브러리인 Zod과의 통합입니다. Zod를 react-hook-form과 함께 사용하여, 개발자는 폼 데이터에 강력한 유형 지정 및 유효성 검사를 손쉽게 적용할 수 있습니다. 이 조합은 개발 프로세스를 간소화하고 Zod의 스키마 유효성 검사를 활용하여 오류를 조기에 감지하고 유효한 데이터만 처리되도록 보장함으로써 데이터 무결성을 크게 향상시키고 사용자 경험을 향상시킵니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 NextAuth.js를 현대적인 Full Stack Next.js 앱 구성과 함께 구성하는 방법을 안내해 드릴게요. (앱 라우터 사용, TailwindCSS 및 shadcn으로 구동)
 
@@ -33,7 +40,18 @@ NextAuth.js를 현대적인 Full Stack Next.js 앱 구성과 함께 구성하는
 
 소개
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미 Next.js 프로젝트를 초기화하고 GitHub에 푸시했다고 가정하고, 다음 단계는 Vercel에서 PostgreSQL 데이터베이스를 직접 설정하는 방법을 안내합니다.
 
@@ -43,7 +61,18 @@ NextAuth.js를 현대적인 Full Stack Next.js 앱 구성과 함께 구성하는
 
 2- 그런 다음 Postgres Serverless SQL을 선택할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/NextAuthCredentialseasysignup-loginwithemail-passwordNextjs14ApprouterandZodresolver_2.png)
 
@@ -53,7 +82,18 @@ NextAuth.js를 현대적인 Full Stack Next.js 앱 구성과 함께 구성하는
 
 4 — 그리고 새로 만든 데이터베이스를 프로젝트에 연결합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/NextAuthCredentialseasysignup-loginwithemail-passwordNextjs14ApprouterandZodresolver_4.png" />
 
@@ -65,7 +105,18 @@ npm i -g vercel
 
 5 - 그런 다음 프로젝트를 환경의 포스트그레스 데이터베이스와 연결하세요(3가지 질문이 나올 것입니다):
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 vercel link
@@ -79,7 +130,18 @@ vercel env pull .env.development.local
 
 .env.development.local 파일이 필요한 모든 자격 증명으로 생성되었음을 확인할 수 있을 거에요.🚀
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 화면 샷을 참고해서 "VERCEL="1"" 를 주석 처리하는 걸 제안드립니다. 우리가 로컬 호스트에서 작업할 때 https를 강제로 사용할 수도 있어서요.
 
@@ -89,7 +151,18 @@ vercel env pull .env.development.local
 
 컴포넌트 빌드 속도를 빠르게 하기 위해 Shadcn을 사용하고 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm i bcrypt next-auth
@@ -113,7 +186,18 @@ npx shadcn-ui@latest add form
    page.tsx
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 NextAuth를 위한 API 폴더 구조
 
@@ -129,7 +213,18 @@ NEXT AUTH 문서 자세히 살펴보기
 
 Credentials 제공자를 사용하면 사용자 이름 및 암호, 도메인 또는 이중 인증 또는 하드웨어 장치(예: Yubikey U2F/FIDO)와 같은 임의 자격 증명으로 로그인을 처리할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1 — 문서에 따라 api/auth/[...nextauth] 내의 route.ts를 준비해 보겠습니다. 지금은 권한 부여 로직을 제거했어요.
 
@@ -193,7 +288,18 @@ export async function POST(request: Request) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3 — 먼저 등록용 프론트엔드를 준비해 봅시다:
 
@@ -324,7 +430,18 @@ export default function FormPage() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 FormPage의 상호 작용성 때문에, "use client" 지시문이 위에 있어야 합니다.
 
@@ -359,7 +476,18 @@ const onSubmit = async (data: FormData) => {
 
 따라서 이 단계에서 /register 페이지를 방문하면 아래와 같이 표시되어야 합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/NextAuthCredentialseasysignup-loginwithemail-passwordNextjs14ApprouterandZodresolver_6.png)
 
@@ -369,7 +497,18 @@ const onSubmit = async (data: FormData) => {
 
 데이터베이스 준비
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희는 이 단계에서 데이터베이스에 사용자 테이블이 필요합니다.
 
@@ -391,8 +530,7 @@ export async function POST(request: Request) {
 
     const hashedPassword = await hash(password, 10);
 
-    const response =
-      await sql`INSERT INTO users (email, password) VALUES (${email}, ${hashedPassword})`;
+    const response = await sql`INSERT INTO users (email, password) VALUES (${email}, ${hashedPassword})`;
   } catch (e) {
     console.log({ e });
   }
@@ -401,7 +539,18 @@ export async function POST(request: Request) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제, 등록을 처리한 후에는 Postgres db에 등록된 고객을 볼 수 있어야합니다:
 
@@ -411,7 +560,18 @@ export async function POST(request: Request) {
 
 로그인 기능이 이제 가능합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로그인 페이지에 대한 나의 코드입니다:
 
@@ -568,7 +728,18 @@ export default function LoginForm() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에 제공된 코드를 콘솔에 정확히 표시하려면 다음과 같이 표시해야 합니다:
 
@@ -605,10 +776,7 @@ const handler = NextAuth({
         `;
         const user = response.rows[0];
 
-        const passwordCorrect = await compare(
-          credentials?.password || "",
-          user.password
-        );
+        const passwordCorrect = await compare(credentials?.password || "", user.password);
 
         if (passwordCorrect) {
           return {
@@ -627,7 +795,18 @@ const handler = NextAuth({
 export { handler as GET, handler as POST };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또한 .env 파일에 NEXTAUTH_URL과 NEXTAUTH_SECRET을 포함해야 합니다. 터미널에서 openssl rand -base64 32를 실행하여 안전한 NEXTAUTH_SECRET 값을 생성할 수 있습니다.
 
@@ -640,7 +819,18 @@ NEXTAUTH_SECRET = password;
 
 페이지에 대한 액세스 제어를 강화하려면 Next.js 프로젝트의 루트 디렉토리에 middleware.ts 파일을 생성하십시오.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 export { default } from "next-auth/middleware";

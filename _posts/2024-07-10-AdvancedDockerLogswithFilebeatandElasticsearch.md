@@ -3,16 +3,13 @@ title: "Filebeat과 Elasticsearch를 사용한 고급 Docker 로그 관리 방�
 description: ""
 coverImage: "/assets/img/2024-07-10-AdvancedDockerLogswithFilebeatandElasticsearch_0.png"
 date: 2024-07-10 02:03
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-10-AdvancedDockerLogswithFilebeatandElasticsearch_0.png
 tag: Tech
 originalTitle: "Advanced Docker Logs with Filebeat and Elasticsearch"
 link: "https://medium.com/@vosarat1995/advanced-docker-logs-with-filebeat-and-elasticsearch-30073166a68e"
 isUpdated: true
 ---
-
-
-
 
 시스템 내에서 무슨 일이 일어나고 있는지 추적하고 싶다면 아마 애플리케이션 로그를 관측 스택에 연결하는 것부터 시작할 것입니다. 우리의 애플리케이션 로그는 아마 이미 도커에 저장되어 있고 가장 견고한 기술을 지향한다면 아마 엘라스틱 스택을 선택할 것입니다. 그렇다면 양쪽을 연결하는 것이 과제입니다. 저는 이를 위해 Filebeat를 사용할 것을 제안합니다.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 # 기반 활성화하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "기본 설정부터 시작해보겠습니다. Elasticsearch, Kibana 및 Filebeat을 실행하겠습니다. 각각이 별도의 filebeat.yml 파일에서 구성되어 있습니다. 아래 구성을 확인하고 이해하기 어려운 부분이 있으면 이전 글을 참조해주세요. 여기서 기다리겠습니다.
 
@@ -34,14 +42,14 @@ services:
     image: elasticsearch:7.17.3
     environment:
       - discovery.type=single-node
-  
+
   kibana:
     image: kibana:7.17.3
     environment:
       - ELASTICSEARCH_HOSTS=http://elasticsearch:9200
     ports:
       - 5601:5601
-  
+
   shipper:
     image: docker.elastic.co/beats/filebeat:8.14.0
     user: root
@@ -53,62 +61,79 @@ services:
 
 filebeat.yml"
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파일비트.inputs:
 
 - 타입: 컨테이너
   경로:
-    - '/var/lib/docker/containers/*/*.log'
+  - '/var/lib/docker/containers/_/_.log'
 
 프로세서:
 
 - 도커 메타데이터 추가:
-    호스트: "unix:///var/run/docker.sock"
+  호스트: "unix:///var/run/docker.sock"
 
 출력.elasticsearch:
-  호스트: elasticsearch:9200
-  인덱스:
-    - 인덱스: "docker-logs"
-
+호스트: elasticsearch:9200
+인덱스: - 인덱스: "docker-logs"
 
 이 설정을 사용하면 다음과 같은 로그 데이터가 생성됩니다:
 
-
 {
-  "_index": "docker-logs",
-  "_type": "_doc",
-  "_id": "kafMFZABr1cUle7yj2na",
-  "_version": 1,
-  "_score": 1,
-  "_ignored": [
-    "message.keyword"
-  ],
-  "_source": {
-    "@timestamp": "2024-06-14T08:10:41.019Z",
-    "input": {
-      "type": "container"
-    },
-    "ecs": {
-      "version": "8.0.0"
-    },
-    "host": {
-      "name": "56438defcbd0"
-    },
-    "agent": {
-      "id": "5c4d1557-269c-49ff-a0b8-ac8915a6af8f",
-      "name": "56438defcbd0",
-      "type": "filebeat",
-      "version": "8.14.0",
-      "ephemeral_id": "d849fdeb-6afc-4a12-8242-0788015b2d44"
-    },
-    "container": {
-      "id": "56438defcbd0d0bc1cfc28a3ae145a73e4745473ca0a0bc2af2f0f437c8bbbb2",
-      ... 이하 생략
+"\_index": "docker-logs",
+"\_type": "\_doc",
+"\_id": "kafMFZABr1cUle7yj2na",
+"\_version": 1,
+"\_score": 1,
+"\_ignored": [
+"message.keyword"
+],
+"\_source": {
+"@timestamp": "2024-06-14T08:10:41.019Z",
+"input": {
+"type": "container"
+},
+"ecs": {
+"version": "8.0.0"
+},
+"host": {
+"name": "56438defcbd0"
+},
+"agent": {
+"id": "5c4d1557-269c-49ff-a0b8-ac8915a6af8f",
+"name": "56438defcbd0",
+"type": "filebeat",
+"version": "8.14.0",
+"ephemeral_id": "d849fdeb-6afc-4a12-8242-0788015b2d44"
+},
+"container": {
+"id": "56438defcbd0d0bc1cfc28a3ae145a73e4745473ca0a0bc2af2f0f437c8bbbb2",
+... 이하 생략
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 로그에는 몇 가지 불만스러운 점이 있습니다. 먼저, 모든 컨테이너의 로그가 단일 Elasticsearch "인덱스"로 (관계형 데이터베이스의 테이블과 대략적으로 유사한 개념) 모아지는 점입니다. 이로 인해 우리는 인덱스를 실제로 유용하게 활용할 수 없게 됩니다. 이 문제를 해결해 봅시다! 다음은 인덱스명에서 알고 싶은 내용에 대한 몇 가지 아이디어입니다:
 
@@ -122,7 +147,18 @@ filebeat.yml"
 docker-logs-%{[container.labels.family]}-%{[container.name]}-%{+yyyy.MM.dd}
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 당신이 주목할 수 있는 점은 우리의 로그에는 field container.labels.family가 없다는 것입니다. 따라서 우리가 가진 로그에 대해 템플릿이 "실패"할 것입니다. 그것을 어떻게 해결할까요? 인덱스가 작동하는 방식은 인덱스를 하나씩 적용해보는 것입니다. 그래서 우리는 쉽게 대체 템플릿을 제공할 수 있습니다. 아래는 최종 구성이 될 것입니다.
 
@@ -147,9 +183,20 @@ kibana:
       - 5601:5601
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-그러면, docker-logs-ui-* 인덱스 패턴을 사용하여 모든 UI 패밀리 로그, *-elasticsearch-*를 사용하여 모든 엘라스틱서치 서비스 로그 등을 볼 수 있게 됩니다.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+그러면, docker-logs-ui-_ 인덱스 패턴을 사용하여 모든 UI 패밀리 로그, _-elasticsearch-\*를 사용하여 모든 엘라스틱서치 서비스 로그 등을 볼 수 있게 됩니다.
 
 # 핵심 내용만 가져오기
 
@@ -157,11 +204,22 @@ kibana:
 
 yaml
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서는 레코드에 더 유용한 필드가 많이 추가되었습니다. 그러나 일반적으로 많은 필드가 있기도 합니다. 솔직히 말해서 대부분은 유용하지 않아 보입니다. 다행히도, filebeat은 drop_fields라는 또 다른 유용한 프로세서를 제공합니다. 이를 사용하면 정확한 필드와 /regex/ 구문을 사용하여 필드 패턴을 지정할 수 있습니다. 아마도 로그를 가장 혼란스럽게 만드는 구성 요소는 컨테이너 레이블일 것입니다. 실제로 사용하는 'family' 레이블을 제외하고 모두 삭제해 보겠습니다.
 
-이를 위한 정규 표현식은 container\.labels\..*_.*입니다. 또한 에이전트 정보는 유용하지 않아 보입니다. 그에 대한 정규 표현식은 agent.*입니다. 이 정리가 충분할 것 같습니다. 정규 표현식을 사용하지 않고 하나의 쓸모없는 필드를 제거해 보겠습니다. 'stream' 필드는 충분히 중복될 것 같습니다. 문서에 이미 해당 필드가 없는 경우에도 오류를 원하지 않을 것입니다. 따라서 ignore_missing을 true로 설정합니다. 그리고 이것이 우리가 얻은 구성입니다:
+이를 위한 정규 표현식은 container\.labels\..*\_.*입니다. 또한 에이전트 정보는 유용하지 않아 보입니다. 그에 대한 정규 표현식은 agent.\*입니다. 이 정리가 충분할 것 같습니다. 정규 표현식을 사용하지 않고 하나의 쓸모없는 필드를 제거해 보겠습니다. 'stream' 필드는 충분히 중복될 것 같습니다. 문서에 이미 해당 필드가 없는 경우에도 오류를 원하지 않을 것입니다. 따라서 ignore_missing을 true로 설정합니다. 그리고 이것이 우리가 얻은 구성입니다:
 
 ```js
 - drop_fields:
@@ -172,15 +230,37 @@ yaml
     ignore_missing: true
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```yaml
 # Wrapping It Up!
 
 로그는 여전히 상당히 크지만, 이제는 주로 쓸모없는 도커 메타데이터가 아닌 실제 로그 메시지에서 유용한 데이터를 포함하고 있습니다. 우리가 가한 변화 이후의 compose.yaml 및 filebeat.yml의 내용은 다음과 같습니다:
-```  
+```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 services:
@@ -188,7 +268,7 @@ services:
     image: elasticsearch:7.17.3
     environment:
       - discovery.type=single-node
-  
+
   kibana:
     image: kibana:7.17.3
     labels:
@@ -197,7 +277,7 @@ services:
       - ELASTICSEARCH_HOSTS=http://elasticsearch:9200
     ports:
       - 5601:5601
-  
+
   shipper:
     image: docker.elastic.co/beats/filebeat:8.14.0
     user: root
@@ -236,7 +316,18 @@ output.elasticsearch:
 
 이런 설정을 통해 우리는 구조화된 로그를 Elasticsearch로 내보내어 제공된 로그로부터 상상할 수 있는 어떤 지표든 생성할 수 있게 되었습니다. 이를 통해 다양한 사용 사례를 위해 다양한 인덱스 패턴을 생성할 수 있게 되었습니다. 그리고 여기에 더하여, 쓸모 없는 데이터가 포함된 로그를 정리했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 간편하게 해결할 수도 있어요...
 
@@ -248,7 +339,7 @@ services:
     image: elasticsearch:7.17.3
     environment:
       - discovery.type=single-node
-  
+
   kibana:
     image: kibana:7.17.3
     labels:
@@ -257,7 +348,7 @@ services:
       - ELASTICSEARCH_HOSTS=http://elasticsearch:9200
     ports:
       - 5601:5601
-  
+
   shipper:
     image: vosarat/el-shippy
     user: root

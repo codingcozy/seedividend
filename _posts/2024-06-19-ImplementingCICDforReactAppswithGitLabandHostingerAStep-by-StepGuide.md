@@ -3,17 +3,13 @@ title: "React 앱을 위한 GitLab과 Hostinger로 CICD 구현하기 단계별 �
 description: ""
 coverImage: "/assets/img/2024-06-19-ImplementingCICDforReactAppswithGitLabandHostingerAStep-by-StepGuide_0.png"
 date: 2024-06-19 23:55
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-ImplementingCICDforReactAppswithGitLabandHostingerAStep-by-StepGuide_0.png
 tag: Tech
 originalTitle: "Implementing CI CD for React Apps with GitLab and Hostinger: A Step-by-Step Guide"
 link: "https://medium.com/@deabdullahmanzoor/implementing-ci-cd-for-react-apps-with-gitlab-and-hostinger-a-step-by-step-guide-5fa68cf9214d"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-06-19-ImplementingCICDforReactAppswithGitLabandHostingerAStep-by-StepGuide_0.png)
 
@@ -23,8 +19,18 @@ Gitlab CI/CD 파이프라인 설정하기
 
 CI/CD 파이프라인을 설정하려면 프로젝트의 루트 디렉토리에 .gitlab-ci.yml 파일을 생성해야 해요. 이 파일은 파이프라인의 단계와 작업을 정의할 거예요. 여기에 React 프로젝트에 대한 샘플 내용이 있어요:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 stages:
@@ -58,8 +64,18 @@ deploy 스테이지는 가장 최신의 Alpine 이미지를 사용하고 lftp라
 
 실제 FTP 자격 증명으로 $FTP_USERNAME, $FTP_PASSWORD 및 $FTP_SERVER를 교체해야 합니다. 이에 대해 확실하지 않다면 걱정하지 마세요. GitLab 프로젝트 설정에서 이러한 자격 증명을 비밀 변수로 설정하는 프로세스를 설명하는 단계에 따라 안내해 드릴 테니 걱정 마세요. 이 접근 방식을 통해 자격 증명이 안전하고 비밀 유지됩니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 호스팅에서 FTP 세부정보 가져오기
 
@@ -69,7 +85,18 @@ Hostinger 계정에 로그인합니다: 먼저 Hostinger 계정에 로그인하�
 
 <img src="/assets/img/2024-06-19-ImplementingCICDforReactAppswithGitLabandHostingerAStep-by-StepGuide_1.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 FTP 계정 섹션에 액세스하세요: 화면 왼쪽에 메뉴가 표시됩니다. "파일" 섹션 아래에 있는 "FTP 계정"을 클릭해보세요.
 
@@ -77,7 +104,18 @@ FTP 세부정보를 가져오세요: FTP 계정 섹션에서 호스팅 계정과
 
 이 세부정보를 안전하게 보관하는 것을 기억하세요. 다음 섹션에서는 GitLab 프로젝트 설정에서 이러한 세부정보를 사용하여 비밀 변수를 설정하는 방법을 안내해 드리겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 GitLab에서 비밀 변수 설정하기
 
@@ -93,7 +131,18 @@ GitLab에서 비밀 변수 설정하기
 
 이 변수들은 대소문자를 구분하며 .gitlab-ci.yml 파일에서 사용되는 변수와 정확히 일치해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 거의 다 왔어요, 당신의 CI/CD 파이프라인이 준비되었습니다!
 
@@ -103,6 +152,17 @@ GitLab에서 비밀 변수 설정하기
 
 성공적인 CI/CD 파이프라인의 핵심은 정기적인 테스트와 모니터링입니다. 항상 GitLab에서 파이프라인 실행 로그를 확인하여 모든 것이 원활히 동작하는지 확인하세요. 즐거운 코딩하세요! 🙌
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 의견이나 질문이 있으시면 답글을 남겨주시거나 연락해주세요. 😊

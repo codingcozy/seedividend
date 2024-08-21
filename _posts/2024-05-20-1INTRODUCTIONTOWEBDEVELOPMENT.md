@@ -3,16 +3,13 @@ title: "웹 개발에 필요한 내용들 전반적으로 소개"
 description: ""
 coverImage: "/assets/img/2024-05-20-1INTRODUCTIONTOWEBDEVELOPMENT_0.png"
 date: 2024-05-20 23:02
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-20-1INTRODUCTIONTOWEBDEVELOPMENT_0.png
 tag: Tech
 originalTitle: "1. INTRODUCTION TO WEB DEVELOPMENT"
 link: "https://medium.com/@lokeshdc2002/1-introduction-to-web-development-4b7a6b26cc31"
 isUpdated: true
 ---
-
-
-
 
 웹 개발은 웹 사이트 및 웹 애플리케이션을 만들고 유지 보수하는 동적이고 끊임없이 발전하는 분야입니다. 이 블로그에서는 웹 개발의 개요를 제공하고 프론트엔드, 백엔드, 풀스택 개발 간의 차이를 살펴보며 필수 도구와 기술을 소개할 것입니다. 이 분야에 처음 발을 딛는 초보자이든, 지식을 업데이트하고자 하는 경험 많은 개발자이든, 이 안내서가 안정적인 기반을 제공할 것입니다.
 
@@ -26,7 +23,18 @@ isUpdated: true
 - 서버 측 스크립팅: 서버에서 실행되고 데이터베이스와 상호작용하며 사용자 인증을 처리하고 사용자에게 웹 페이지를 제공하는 코드를 작성하는 것을 말합니다. PHP, ASP.NET, Node.js, Python과 같은 기술이 널리 사용됩니다.
 - 데이터베이스 관리: 웹 애플리케이션을 위해 데이터를 저장하는 데이터베이스를 생성하고 관리하는 작업입니다. MySQL, PostgreSQL, MongoDB와 같은 인기있는 데이터베이스가 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 개발은 일반적으로 프론트엔드, 백엔드 및 풀스택 개발 세 가지 주요 범주로 나뉩니다. 각각은 기능적인 웹 애플리케이션을 구축하는 데 중요한 역할을 합니다.
 
@@ -39,9 +47,20 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-05-20-1INTRODUCTIONTOWEBDEVELOPMENT_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-백엔드 개발 또는 서버 측 개발은 웹 사이트의 서버 측에 초점을 맞춥니다. 이는 데이터를 처리하고 전면에서 의도한 대로 작동하도록 하는 메커니즘을 생성하고 유지하는 작업을 포함합니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+백엔드 개발 또는 서버 측 개발은 웹 사이트의 서버 측에 초점을 맞춥니다. 이는 데이터를 처리하고 전면에서 의도한 대로 작동하도록 하는 메커니즘을 생성하고 유지하는 작업을 포함합니다.
 
 - 서버 사이드 언어: Python, Ruby, Java, PHP, C#과 같은 언어들이 서버 측 로직을 작성하는 데 일반적으로 사용됩니다.
 - 프레임워크: Express(Node.js), Django(Python), Ruby on Rails(Ruby), ASP.NET(C#)과 같은 프레임워크는 견고한 백엔드 애플리케이션을 개발하기 위한 구조와 도구를 제공합니다.
@@ -52,7 +71,18 @@ isUpdated: true
 
 풀 스택 개발은 개발자가 웹 애플리케이션의 전면 및 백엔드 부분 모두에 작업하는 포괄적인 접근 방식을 의미합니다. 풀 스택 개발자는 넓은 스킬 세트를 갖추고 프로젝트를 처음부터 끝까지 처리할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주요 기술:
 
@@ -67,7 +97,18 @@ isUpdated: true
 버전 관리 시스템: Git은 가장 인기 있는 버전 관리 시스템이며, GitHub, GitLab, Bitbucket과 같은 플랫폼은 협력 개발과 코드 공유를 용이하게 합니다.
 패키지 관리자: npm(Node Package Manager)와 yarn과 같은 도구는 프로젝트 의존성 및 라이브러리를 관리하는 데 도움을 줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - HTML/CSS/JavaScript: 웹 페이지를 구축하고 스타일링하는 데 필수적인 핵심 기술들입니다.
 - 프런트엔드 프레임워크/라이브러리: React, Angular, Vue.js는 동적 사용자 인터페이스를 구축하는 데 인기 있는 선택지입니다.

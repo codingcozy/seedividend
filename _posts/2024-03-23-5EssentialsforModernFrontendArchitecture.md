@@ -3,17 +3,13 @@ title: "최신 프런트엔드 아키텍처의 5가지 필수 요소"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "5 Essentials for Modern Frontend Architecture"
 link: "https://blog.bitsrc.io/5-tips-for-modern-frontend-architecture-e3342241cb15"
 isUpdated: true
 ---
-
-
-
-
 
 ## 빠르고 효과적인 프론트엔드 아키텍처 설계를 위한 실용적인 통찰력
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 1. 디자인 시스템
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/5-Essentials-for-Modern-Frontend-Architecture_0.png)
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ![이미지](/assets/img/5-Essentials-for-Modern-Frontend-Architecture_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 디자인 시스템을 개발하면서 각 컴포넌트를 독립적으로 개발, 미리보기 및 테스트할 수 있어야 합니다. 각 컴포넌트는 한 개 또는 여러 애플리케이션에서 높은 재사용성을 가지므로 참조하기 쉽게 잘 문서화되어야 합니다.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 과거에는 애플리케이션 전체에서 재사용되는 공통 UI 컴포넌트를 저장하기 위해 공유 디렉토리를 유지했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 src/
@@ -108,7 +137,18 @@ src/
 
 그러나 일정 규모를 넘어서면 이 모노리틱 구조는 여러 이유로 개발자의 생산성을 제한할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 수정해야 할 구성요소를 찾는 데 높은 인지 부하.
 - 구성요소를 수정한 후, 프로젝트 전체에 미치는 영향을 테스트하고 이해하는 것.
@@ -121,7 +161,18 @@ src/
 
 # 3. 자산 최적화
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프론트엔드 애플리케이션에서 다양한 유형의 에셋을 최적화하는 것은 사용자 경험을 향상시키는 데 중요합니다. 또한 SEO를 향상시키기 위해 공개 웹 애플리케이션의 로드 시간을 최소화하는 것이 중요합니다. 그러나 여기서 주요 도전 과제는 다른 에셋이 특정 최적화 전략을 필요로 한다는 것입니다:
 
@@ -131,7 +182,18 @@ src/
 
 벡터 이미지: SVG 파일은 기본적으로 확장 가능하며 일반적으로 작은 크기입니다. SVG 파일을 최소화하고 아이콘용으로 인라인 SVG를 고려하여 HTTP 요청을 줄이세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2. JavaScript
 
@@ -141,7 +203,18 @@ src/
 
 리소스를 더 효율적으로 로드하려면 HTTP/2를 사용할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 3. CSS
 
@@ -151,7 +224,18 @@ PostCSS나 유사한 도구를 활용하여 자동 접두사를 추가하고 CSS
 
 ## 4. Fonts and Icons
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 폰트: 더 나은 압축을 위해 WOFF2와 같은 폰트 형식을 선택하세요. 폰트 로딩 중에도 텍스트가 보이도록 font-display: swap을 사용해주세요. 폰트 변형의 수를 제한하고 필요한 문자만 로드하세요.
 
@@ -161,7 +245,18 @@ PostCSS나 유사한 도구를 활용하여 자동 접두사를 추가하고 CSS
 
 비디오 파일: 비디오 파일을 압축하고 WebM과 같은 현대적인 형식을 사용하여 더 낮은 비트레이트로 더 좋은 품질을 유지하세요. 비디오에 대해 lazy loading을 구현하고 사용자가 상호 작용할 때까지 플레이스홀더 이미지를 고려하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **오디오 파일:** 오디오 파일을 압축하고 AAC와 같은 형식을 사용하여 파일 크기와 품질 사이의 균형을 유지하세요. 대역폭을 절약하기 위해 필요할 때에만 오디오 파일을 로드하세요.
 
@@ -171,7 +266,18 @@ PDF, 워드 문서, 엑셀 시트: 문서 파일을 압축하고 초기 로딩 �
 
 이러한 최적화 작업은 두 가지 수준에서 수행할 수 있습니다. 첫 번째 옵션은 빌드 시 최적화 작업을 수행하는 것입니다. 일반적으로 코드 번들을 할 때 자바스크립트, CSS 및 이미지와 같은 자산을 최적화할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/5-Essentials-for-Modern-Frontend-Architecture_3.png)
 
@@ -181,7 +287,18 @@ PDF, 워드 문서, 엑셀 시트: 문서 파일을 압축하고 초기 로딩 �
 
 CSS: CSS 파일을 최소화하고 중요한 CSS를 사용하여 지각된 로딩 시간을 개선할 수 있습니다. React와 같은 프레임워크에서는 CSS 모듈이나 styled-components를 활용하여 범위와 최적화를 고려해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각 에셋 유형에 대한 최적화 전략에 집중함으로써 프론트엔드 애플리케이션의 로딩 시간 및 전반적인 성능을 크게 향상시킬 수 있습니다. 이는 더 나은 사용자 경험과 잠재적으로 높은 SEO 순위로 이어질 수 있어요.
 
@@ -191,7 +308,18 @@ CSS: CSS 파일을 최소화하고 중요한 CSS를 사용하여 지각된 로�
 
 ## 브라우저 캐싱
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 정적 자산: CSS, JavaScript, 이미지 및 글꼴과 같은 정적 자산에 대해 HTTP 캐시 헤더 (Cache-Control, Expires)를 구성하세요. 이렇게 하면 브라우저가 이 파일들을 로컬에 저장하고 서버에서 재요청하지 않고 이후 방문에서 재사용하도록 지시합니다.
 
@@ -201,7 +329,18 @@ CSS: CSS 파일을 최소화하고 중요한 CSS를 사용하여 지각된 로�
 
 콘텐츠 전달 네트워크 (CDN): CDN을 활용하면 CDNs이 지리적으로 가까운 위치에 정적 자산을 캐시하여 대기 시간을 크게 줄이고 로드 시간을 개선할 수 있습니다. CDN 구성이 캐시 무효화 전략과 일치하도록 확인하여 가장 최신 콘텐츠를 제공할 수 있도록 하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## DNS 캐싱
 
@@ -211,7 +350,18 @@ DNS 조회: 브라우저 레벨이나 운영 체제에서 DNS 캐싱을 사용�
 
 데이터 캐싱: 애플리케이션 내에서 캐싱 전략을 구현하여 API 응답이나 계산된 결과와 같이 빈번하게 액세스되는 데이터를 저장합니다. React-query나 GraphQL용 Apollo Client와 같은 라이브러리에는 데이터 가져오기 및 상태 관리를 최적화하기 위한 내장 캐싱 메커니즘이 제공됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 5. 낙관적 동시성
 
@@ -221,7 +371,18 @@ DNS 조회: 브라우저 레벨이나 운영 체제에서 DNS 캐싱을 사용�
 
 즉시 피드백: 사용자 작업 후 서버 응답을 기다리지 않고 바로 UI를 업데이트합니다. 예를 들어, 사용자가 댓글을 게시할 때, 댓글이 이미 성공적으로 게시된 것처럼 표시합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 재조정: 서버 작업이 실패하는 경우, 낙관적인 변경을 되돌리고 실패를 사용자에게 알립니다. 이는 낙관적으로 추가된 댓글을 제거하고 오류 메시지를 표시하는 것을 포함할 수 있습니다.
 
@@ -266,7 +427,11 @@ const CommentSection = () => {
     <div>
       {error && <p style={{ color: "red" }}>{error}</p>}
       <form onSubmit={handleSubmit}>
-        <textarea value={newComment} onChange={(e) => setNewComment(e.target.value)} placeholder="댓글을 작성해보세요..." />
+        <textarea
+          value={newComment}
+          onChange={(e) => setNewComment(e.target.value)}
+          placeholder="댓글을 작성해보세요..."
+        />
         <button type="submit">댓글 게시</button>
       </form>
       <ul>
@@ -283,7 +448,18 @@ export default CommentSection;
 
 ## 충돌 처리
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 버전 관리: 데이터 엔티티에 버전 번호 또는 타임스탬프를 사용하여 서버 상태가 클라이언트 측에서 적용된 낙관적인 변경과 일치하지 않을 때 충돌을 식별하는 데 사용합니다.
 
@@ -293,7 +469,18 @@ React를 사용한 버전 관리와 충돌 해결을 설명해보겠습니다. �
 
 다음 예제에서는 데이터를 가져오고 업데이트하는 것을 시뮬레이션하고 이 작업이 프론트엔드에서 어떻게 발생하는지 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import React, { useState, useEffect } from "react";
@@ -362,7 +549,18 @@ export default DocumentEditor;
 
 양식 제출: 양식 제출 시 낙관적 업데이트를 적용하여 백그라운드에서 제출을 처리하는 동안 즉시 UI에 제출된 데이터를 표시할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 낙관적 동시성은 적절한 오류 처리 및 사용자 피드백 메커니즘과 결합될 때 웹 애플리케이션의 상호 작용성과 인식된 성능을 크게 향상시킬 수 있습니다. 그러나 충돌과 오류를 세련되게 처리하고 데이터 무결성과 사용자 신뢰를 유지하는 시스템을 신중하게 설계하는 것이 중요합니다.
 

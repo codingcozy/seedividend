@@ -3,17 +3,13 @@ title: "CSS Position 마스터하기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Mastering CSS Positions  A Definitive Handbook"
 link: "https://medium.com/@paddyuiux/mastering-css-positions-a-comprehensive-guide-41cfda95b7a6"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/Mastering-CSS-Positions-:-A-Definitive-Handbook_0.png" />
 
@@ -23,7 +19,18 @@ CSS (Cascading Style Sheets)는 웹 개발에서 강력한 스타일링 및 요�
 
 CSS positions는 요소가 포함 요소 내에 위치하는 방식을 결정합니다. CSS에는 static, relative, absolute, fixed, sticky. 다섯 가지 주요 position 값이 있습니다. 이제 이러한 positions을 자세히 살펴보겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1- 정적 위치 지정
 
@@ -38,7 +45,18 @@ CSS positions는 요소가 포함 요소 내에 위치하는 방식을 결정합
 
 ## 2- 상대적 위치 지정
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 상대 위치 지정은 요소를 일반 위치를 기준으로 배치할 수 있게 합니다.
 - 요소가 상대적으로 위치지정되면 top, right, bottom 및 left 속성을 사용하여 이동할 수 있습니다.
@@ -56,7 +74,18 @@ CSS positions는 요소가 포함 요소 내에 위치하는 방식을 결정합
 - 절대 위치 지정은 요소를 일반 문서 흐름에서 제거하고 가장 가까운 상대적으로 위치가 지정된 조상을 기준으로 배치합니다.
 - 절대적으로 위치가 지정된 요소는 다른 요소에 영향을 받지 않고 겹칠 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .absolute-example {
@@ -80,7 +109,18 @@ CSS positions는 요소가 포함 요소 내에 위치하는 방식을 결정합
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 5- 스티키 포지셔닝
 
@@ -96,7 +136,18 @@ CSS positions는 요소가 포함 요소 내에 위치하는 방식을 결정합
 
 ## 실용적인 예제
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자 CSS 위치 지정을 사용하여 간단한 레이아웃을 만드는 실용적인 예시를 살펴봅시다:
 
@@ -137,6 +188,17 @@ CSS positions는 요소가 포함 요소 내에 위치하는 방식을 결정합
 
 ## 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS positions을 마스터하는 것은 동적이고 시각적으로 매력적인 웹 레이아웃을 만드는 데 중요합니다. 다양한 position 값과 그 동작을 이해함으로써, 웹 개발자들은 웹페이지의 요소들의 위치를 효과적으로 제어할 수 있습니다. 다양한 position 값과 속성을 실험하면 웹 프로젝트를 위해 다재다능하고 반응형 레이아웃을 만들 수 있게 될 것입니다.

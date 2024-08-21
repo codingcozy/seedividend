@@ -3,16 +3,13 @@ title: "우아하게 Docker로 Python 환경 설정하기  따라하기 쉽게"
 description: ""
 coverImage: "/assets/img/2024-07-10-SettingADockerizedPythonEnvironmentTheElegantWay_0.png"
 date: 2024-07-10 02:45
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-10-SettingADockerizedPythonEnvironmentTheElegantWay_0.png
 tag: Tech
 originalTitle: "Setting A Dockerized Python Environment — The Elegant Way"
 link: "https://medium.com/towards-data-science/setting-a-dockerized-python-environment-the-elegant-way-f716ef85571d"
 isUpdated: true
 ---
-
-
-
 
 이 게시물은 VScode 및 Dev Containers 확장 프로그램을 사용하여 Python 도커화 개발 환경을 설정하는 단계별 가이드를 제공합니다.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 이 자습서를 마치면, 간단한 Python 개발 환경을 VScode와 Dev Containers 확장 프로그램을 사용하여 설정할 수 있게 될 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-10-SettingADockerizedPythonEnvironmentTheElegantWay_0.png)
 
@@ -34,7 +42,18 @@ isUpdated: true
 - Docker Hub 계정으로부터 이미지를 가져오기 위해
 - VScode IDE 및 Dev Containers 확장 기능이 설치되어 있어야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 튜토리얼에서는 공식 Python 이미지인 python:3.10을 사용할 것입니다.
 
@@ -44,7 +63,18 @@ isUpdated: true
 
 시작하기 전에, 먼저 데브 컨테이너 익스텐션이 무엇이며 언제 사용해야 하는지 설명하겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단히 말해, VScode Dev Containers 확장 기능은 도커 컨테이너 내부에서 격리된 VScode 세션을 원활하게 열 수 있게 해줍니다. 격리 수준은 다음 세 가지 레이어를 포함합니다:
 
@@ -56,7 +86,18 @@ devcontainer.json 파일을 통해 세션 설정을 정의하고 위의 세 가�
 
 Dev Containers 확장 기능을 사용하여 프로젝트 폴더를 컨테이너 내에서 설정하고 실행하려면 아래 두 가지 구성 요소가 필요합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Dev Containers 확장 프로그램을 설치하세요.
 - 프로젝트 폴더에서 .devcontainer 라는 폴더를 만들고 devcontainer.json 파일을 설정하세요.
@@ -67,7 +108,18 @@ Dev Containers 확장 기능을 사용하여 프로젝트 폴더를 컨테이너
 
 Dev Containers 확장은 시작 시에 컨테이너 내에서 새로운 VScode 세션을 만듭니다. 기본적으로 로컬 폴더를 컨테이너에 연결하므로 코드를 지속적으로 유지하고 로컬 폴더와 동기화할 수 있습니다. 추가 폴더를 연결할 수도 있지만, 이것은 이 튜토리얼의 범위를 벗어납니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 섹션에서는 devcontainer.json 파일을 사용하여 Python 환경을 설정하는 방법을 살펴보겠습니다.
 
@@ -80,7 +132,18 @@ devcontainer.json 설정을 시작하기 전에, 먼저 개발 환경의 범위�
 - 필요한 라이브러리 설치 - Pandas 및 VScode Jupyter 지원 라이브러리
 - 지원 확장 프로그램 설치 - Python 및 Jupyter
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 섹션에서는 devcontainer.json 파일의 핵심 기능에 대해 자세히 살펴보겠습니다. 우리는 최소한의 Python 환경으로 시작하고 다양한 사용자 정의 레이어를 추가하여 이를 사용자 정의하는 방법을 보여줄 것입니다.
 
@@ -91,7 +154,18 @@ Dev Containers 확장 프로그램을 사용하여 컨테이너화된 세션을 
 - 빌드 인수를 사용하여 컨테이너 시작 시 이미지를 빌드하고 실행합니다. 이 인수를 사용하면 빌드를 위한 Dockerfile을 정의하고 docker 빌드 함수에 인수를 전달할 수 있습니다. 빌드 프로세스가 완료되면 컨테이너 내부에서 세션을 시작합니다.
 - 이미지 인수를 사용하여 기존 이미지로 세션을 시작합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각 방법마다 장단점이 있으므로 사용 사례에 따라 적절한 방법을 고려해야 합니다. 이미지 인수를 사용해야 하는 경우는 환경 요구 사항을 완벽히 충족하는 이미지가 있는 경우입니다. 빌드 인수를 사용하는 좋은 사례는 베이스 이미지는 있지만 소량의 사용자 지정 설정을 추가해야 하는 경우입니다.
 
@@ -101,12 +175,23 @@ Dev Containers 확장 프로그램을 사용하여 컨테이너화된 세션을 
 
 아래의 devcontainer.json 파일은 Python 환경을 설정하는 간단한 예제를 제공합니다. 세션 환경으로 python:3.10 이미지를 정의하기 위해 이미지 인수를 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```json
 {
-    "name": "파이썬 개발 환경",
-    "image": "python:3.10"
+  "name": "파이썬 개발 환경",
+  "image": "python:3.10"
 }
 ```
 
@@ -114,8 +199,18 @@ Dev Containers 확장 프로그램을 사용하여 컨테이너화된 세션을 
 
 환경을 시작하기 전에, 아래 사항을 확인해주세요:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Docker Desktop (또는 동등한 소프트웨어)가 열려 있습니다.
 - Docker Hub에 로그인되어 있습니다 (또는 미리 Python 이미지를 가져왔습니다).
@@ -131,7 +226,18 @@ Dev Containers 확장 프로그램을 사용하여 컨테이너화된 세션을 
 
 세션을 시작하려면, 왼쪽 하단에 있는 Dev Container 아이콘을 클릭하고 화면 캡처에서 보여지는 것과 같이 Reopen in Container 옵션을 선택하시면 됩니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](https://miro.medium.com/v2/resize:fit:1400/1*la5gIkzz8nm3-2-YUILgyA.gif)
 
@@ -141,7 +247,18 @@ Dev Containers 확장 프로그램을 사용하여 컨테이너화된 세션을 
 
 위 스크린샷을 통해 devcontainer.json 매개변수와 세션 설정 간의 매핑을 볼 수 있습니다. 세션 이름이 이제 오른쪽 하단에 표시되어 있으며(보라색으로 표시됨), 이는 name 매개변수의 값과 일치합니다. 마찬가지로 세션은 이제 python:3.10 컨테이너 내에서 실행되며 터미널에서 Python을 실행할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파이썬 컨테이너에는 기본 파이썬 라이브러리가 함께 제공됩니다. 다음 섹션에서는 build argument를 사용하여 파이썬 베이스 이미지 위에 더 많은 레이어를 추가하는 방법을 살펴보겠습니다.
 
@@ -153,7 +270,18 @@ Dev Containers 확장 프로그램을 사용하여 컨테이너화된 세션을 
 - 가상 환경 설정
 - 필요한 라이브러리 설치하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 Dockerfile을 사용하여 Python 환경을 설정할 것입니다:
 
@@ -175,7 +303,18 @@ RUN bash ./requirements/set_python_env.sh $PYTHON_ENV
 
 FROM 인자를 사용하여 Python 이미지를 가져오고, ARG 및 ENV 인자를 사용하여 가상 환경을 인자 및 환경 변수로 설정합니다. 또한 가상 환경을 설정하고 필요한 라이브러리를 설치하기 위해 다음 두 개의 보조 파일을 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - requirements.txt: 필요한 라이브러리 목록을 담은 설정 파일입니다. 이 예제에서는 Pandas 라이브러리 버전 2.0.3과 Jupyter를 지원하는 라이브러리(ipykernel, ipywidgets, jupyter)를 설치할 것입니다. Wheels 라이브러리는 C 의존성을 처리하는 지원 라이브러리입니다.
 - set_python_env.sh: 가상 환경을 설정하고 requirements.txt 파일을 사용하여 필요한 라이브러리를 설치하는 도우미 bash 스크립트입니다.
@@ -190,7 +329,18 @@ ipywidgets
 jupyter
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 #!/usr/bin/env bash
@@ -216,26 +366,48 @@ import pandas as pd
 print("Hello World!")
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 devcontainer.json 파일에서 변경 사항을 적용해보세요. 이미지 인자를 빌드 인자로 바꿔주세요:
 
 ```json
 {
-    "name": "Python Development Environment",
-    "build": {
-        "dockerfile": "Dockerfile",
-        "context": ".",
-        "args": {
-            "PYTHON_ENV": "my_python_dev"
-        }
+  "name": "Python Development Environment",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".",
+    "args": {
+      "PYTHON_ENV": "my_python_dev"
     }
+  }
 }
 ```
 
 이 예제에 대한 파일은 여기에서 확인하실 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지 생성을 사용자 정의하기 위해 build 하위 인수들을 활용할 수 있습니다. Docker build 함수에 인수를 전달하여 이미지 빌드를 조정할 수 있습니다. 이미지를 빌드하기 위해 다음과 같은 인수를 사용합니다:
 
@@ -245,17 +417,26 @@ devcontainer.json 파일에서 변경 사항을 적용해보세요. 이미지 �
 
 당신은 .devcontainer 폴더 아래 Dockerfile, requirements.txt 및 set_python_env.sh 파일을 devcontainer.json 파일과 함께 보유해야 합니다:
 
-
 .
 ├── .devcontainer
-│   ├── Dockerfile
-│   ├── devcontainer.json
-│   ├── requirements.txt
-│   └── set_python_env.sh
+│ ├── Dockerfile
+│ ├── devcontainer.json
+│ ├── requirements.txt
+│ └── set_python_env.sh
 └── test2.py
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 새로운 설정을 사용하여 세션을 시작하고 test1.py 파일로 테스트해 봅시다.
 
@@ -265,7 +446,18 @@ devcontainer.json 파일에서 변경 사항을 적용해보세요. 이미지 �
 
 다음 섹션에서는 Dev Containers 세션의 VScode 설정을 사용자 정의하는 방법을 살펴볼 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## VScode 설정 사용자 정의하기
 
@@ -273,11 +465,20 @@ Dev Containers 확장 프로그램의 훌륭한 기능 중 하나는 세션 설�
 
 다음 예시로 이 튜토리얼을 마무리 지을 것인데, 거기서 우리는 어떻게 customizations 인자를 사용하여 VScode 설정을 사용자 정의하는지 볼 것입니다. 이전 예시에 해당 인자를 추가하고 vscode 하위 인자를 사용하여 환경의 기본 Python 인터프리터와 필요한 확장 프로그램을 설정할 것입니다:
 
-
 devcontainer.json
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 {
@@ -310,7 +511,18 @@ devcontainer.json
 
 Python 확장 프로그램을 추가한 후, 아래 스크린샷에 나타난 것처럼 확장 플러그인을 사용하여 Python 스크립트를 실행할 수 있습니다. 또한 Juptyer 확장 프로그램을 활용하여 Python 코드를 대화식 모드로 실행할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![dockerized python environment](https://miro.medium.com/v2/resize:fit:1400/1*rtd2u27LabzCPM4Uh7hsMg.gif)
 
@@ -323,7 +535,18 @@ Python 확장 프로그램을 추가한 후, 아래 스크린샷에 나타난 �
 - 도커 실행 명령에 인수 설정
 - 실행 후 명령 실행
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 자세한 내용에 흥미를 느낀다면 이 튜토리얼을 확인해 보시는 것을 추천드립니다:
 

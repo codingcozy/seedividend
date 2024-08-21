@@ -3,17 +3,13 @@ title: "나만의 React NPM 패키지를 배포하는 방법단계별 안내"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "A Step-by-Step Guide to Publishing Your Own React NPM Package"
 link: "https://medium.com/nonstopio/a-step-by-step-guide-to-publishing-your-own-react-npm-package-fa2b7f1d149"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/AStep-by-StepGuidetoPublishingYourOwnReactNPMPackage_0.png" />
 
@@ -31,7 +27,18 @@ my-react-package/
 ├── README.md
 └── .gitignore
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 2. 다음 내용으로 `package.json` 파일을 만들어주세요:
 
@@ -59,7 +66,18 @@ my-react-package/
 
 컴포넌트 디렉토리에 새 파일을 만들고 컴포넌트 코드를 작성해주세요. 여기에 간단한 함수 기반 컴포넌트의 예시가 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import React from "react";
@@ -80,7 +98,18 @@ export default MyComponent;
 
 ## 5. babel 종속성 설치 및 `.babelrc` 파일 생성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 필요한 빌드 종속성이 설치되어 있는지 확인하세요. 다음 명령어를 실행하여 필요한 종속성을 설치할 수 있습니다: npm install — save-dev @babel/cli @babel/preset-env @babel/preset-react.
 
@@ -94,7 +123,18 @@ export default MyComponent;
 
 # 6. 패키지 빌드하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 패키지를 빌드하려면 패키지의 루트 디렉토리에서 npm run build를 실행하세요. 이 작업은 Babel을 사용하여 React 컴포넌트를 변환하고 결과물을 `dist` 디렉토리에 배치할 것입니다.
 
@@ -104,7 +144,18 @@ export default MyComponent;
 
 # 이를 React 프로젝트에서 사용하려면 다음 단계를 따르세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 프로젝트 디렉토리에서 다음 명령어를 사용하여 npm에서 발행된 컴포넌트를 설치하세요.
 
@@ -126,7 +177,18 @@ const App = () => {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. 파일을 저장하고 React 애플리케이션을 실행합니다. 이제 게시된 컴포넌트가 앱 내에서 렌더링되어야 합니다.
 

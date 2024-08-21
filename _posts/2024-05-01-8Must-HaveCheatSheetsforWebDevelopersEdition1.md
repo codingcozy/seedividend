@@ -3,16 +3,13 @@ title: "프론트엔드 개발자를 위한 필수 치트 8가지"
 description: ""
 coverImage: "/assets/img/2024-05-01-8Must-HaveCheatSheetsforWebDevelopersEdition1_0.png"
 date: 2024-05-01 23:57
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-01-8Must-HaveCheatSheetsforWebDevelopersEdition1_0.png
 tag: Tech
 originalTitle: "8 Must-Have Cheat Sheets 📝 for Web Developers: Edition 1"
 link: "https://medium.com/@ranisa-gupta/8-must-have-cheat-sheets-for-web-developers-edition-1-2a0993bd5a9c"
 isUpdated: true
 ---
-
-
-
 
 ![이미지](/assets/img/2024-05-01-8Must-HaveCheatSheetsforWebDevelopersEdition1_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 자, 이제 들어가서 코딩 실력을 향상시켜 보세요!🤍
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - HTML Cheat Sheet
 
@@ -32,7 +40,18 @@ HTML Cheat Sheet는 HTML 요소, 속성 및 구문에 대한 포괄적인 개요
 
 2. CSS Cheat Sheet
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![CSS Cheat Sheet](/assets/img/2024-05-01-8Must-HaveCheatSheetsforWebDevelopersEdition1_2.png)
 
@@ -42,7 +61,18 @@ CSS Cheat Sheet은 CSS 선택자, 속성 및 값에 대한 go-to 참조 자료�
 
 ![JavaScript Cheat Sheet](/assets/img/2024-05-01-8Must-HaveCheatSheetsforWebDevelopersEdition1_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 JavaScript Cheat Sheet은 JavaScript 구문, 데이터 유형, 연산자 및 함수에 대한 편리한 참조 자료입니다. 동적 웹 상호작용을 위한 스크립트를 작성하거나 브라우저에서 데이터를 조작하는 경우, 이 치트 시트는 깔끔하고 효율적인 JavaScript 코드를 작성하고 변수, 반복문 및 조건문과 같은 주요 개념을 이해하는 데 도움이 될 것입니다.
 
@@ -52,7 +82,18 @@ JavaScript Cheat Sheet은 JavaScript 구문, 데이터 유형, 연산자 및 함
 
 Git Cheat Sheet은 소프트웨어 개발 프로젝트에서 버전 관리 및 협업에 필수적입니다. `git add` 및 `git commit`과 같은 기본 Git 명령에서 브랜치 및 병합과 같은 더 고급 워크플로까지, 이 치트 시트는 Git을 사용하여 코드베이스를 효과적으로 관리하는 데 빠른 참조 자료를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 5. 부트스트랩 치트 시트
 
@@ -62,8 +103,18 @@ Git Cheat Sheet은 소프트웨어 개발 프로젝트에서 버전 관리 및 �
 
 6. jQuery 치트 시트
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![jQuery Cheat Sheet](/assets/img/2024-05-01-8Must-HaveCheatSheetsforWebDevelopersEdition1_6.png)
 
@@ -73,7 +124,18 @@ jQuery Cheat Sheet은 DOM 조작과 이벤트 처리를 위한 인기 있는 Jav
 
 ![React Cheat Sheet](/assets/img/2024-05-01-8Must-HaveCheatSheetsforWebDevelopersEdition1_7.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트 치트 시트는 사용자 인터페이스를 구축하는 데 리액트 라이브러리를 사용하는 개발자들에게 유용한 참고 자료입니다. 컴포넌트 생성 및 상태 관리, 이벤트 처리 및 동적 콘텐츠 렌더링까지, 이 치트 시트는 리액트 개념과 패턴에 대한 간략한 개요를 제공하여 강력하고 효율적인 리액트 애플리케이션을 개발하는 데 도움이 됩니다.
 
@@ -83,7 +145,18 @@ jQuery Cheat Sheet은 DOM 조작과 이벤트 처리를 위한 인기 있는 Jav
 
 Node.js 치트 시트는 Node.js를 사용한 서버 측 JavaScript 개발을 안내해주는 가이드입니다. 서버 설정 및 HTTP 요청 처리, 모듈 및 파일 시스템 작업부터 확장 가능하고 성능이 우수한 웹 애플리케이션을 구축하는 데 필수적인 Node.js API 및 기능을 다루는 치트 시트입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 필수 참고 자료들을 손끝으로 사용하면 어떤 웹 개발 프로젝트에도 자신감 있고 효율적으로 대응할 수 있을 거예요.
 

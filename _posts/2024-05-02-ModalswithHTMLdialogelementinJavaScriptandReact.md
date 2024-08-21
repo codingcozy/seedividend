@@ -3,16 +3,13 @@ title: "HTML <dialog> 요소를 사용한 JavaScript와 React에서의 모달(di
 description: ""
 coverImage: "/assets/img/2024-05-02-ModalswithHTMLdialogelementinJavaScriptandReact_0.png"
 date: 2024-05-02 00:07
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-02-ModalswithHTMLdialogelementinJavaScriptandReact_0.png
 tag: Tech
 originalTitle: "Modals with HTML <dialog> element in JavaScript and React"
 link: "https://medium.com/@dimterion/modals-with-html-dialog-element-in-javascript-and-react-fb23c885d62e"
 isUpdated: true
 ---
-
-
-
 
 ![image](/assets/img/2024-05-02-ModalswithHTMLdialogelementinJavaScriptandReact_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 모달의 예시는 다음과 같을 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <!-- Modal - HTML -->
@@ -59,7 +67,18 @@ closeModal.addEventListener("click", () => {
 <button id="openDialog">다이얼로그 보이기</button>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 다이얼로그 - JavaScript
@@ -86,7 +105,18 @@ closeDialog.addEventListener("click", () => {
 </dialog>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 표시를 켜거나 끄기 위해 true/false로 설정할 수도 있습니다 (예를 들어 React의 useState와 함께 사용할 수 있습니다). 그러나 이 경우에는 항상 비모달(non-modal)로 설정되므로 showModal()/show() 메서드를 사용하는 것이 좋습니다.
 
@@ -108,14 +138,9 @@ function Modal({ openModal, closeModal, children }) {
   }, [openModal]);
 
   return (
-    <dialog
-      ref={ref}
-      onCancel={closeModal}
-    >
+    <dialog ref={ref} onCancel={closeModal}>
       {children}
-      <button onClick={closeModal}>
-        닫기
-      </button>
+      <button onClick={closeModal}>닫기</button>
     </dialog>
   );
 }
@@ -125,7 +150,18 @@ export default MenuModal;
 
 여기서 useRef는 렌더링 용도로 값을 참조하고, useEffect는 열기/닫기 상태를 확인하는 데 사용됩니다(이는 props를 통해 전달됩니다). 또한 올바르게 ESC 키를 사용하기 위해 onCancel 속성도 있습니다(키보드로 모달을 닫으려는 경우 사용할 수 있습니다).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼 모달 구성 요소를 페이지 구성 요소에 추가하고 useState로 상태를 설정해야 합니다. 모달을 열거나 닫으려면 다음을 추가하십시오:
 
@@ -158,7 +194,18 @@ export default PageComponent;
 
 CSS에 대한 추가 설정으로는 모달에 대한 ::backdrop 가상 요소를 설정하는 것이 있습니다. 예를 들어 배경을 어둡게 하려면 (기본 변형보다 더 어둡게) 다음과 같이 설정할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .modalClassName::backdrop {

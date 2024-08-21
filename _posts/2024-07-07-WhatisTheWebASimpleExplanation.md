@@ -3,15 +3,13 @@ title: "웹이란 무엇인가 간단한 설명"
 description: ""
 coverImage: "/assets/img/2024-07-07-WhatisTheWebASimpleExplanation_0.png"
 date: 2024-07-07 12:45
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-WhatisTheWebASimpleExplanation_0.png
 tag: Tech
 originalTitle: "What is The Web: A Simple Explanation"
 link: "https://medium.com/@alfadlimaulana/what-is-the-web-a-simple-explanation-527053544d03"
 isUpdated: true
 ---
-
-
 
 ![Web and Internet Difference](/assets/img/2024-07-07-WhatisTheWebASimpleExplanation_0.png)
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 위에서 언급한 대로, 웹은 정보를 공유하는 한 가지 방법입니다. 정보 자체는 HTML 파일 내에 포함되어 있습니다. HTML 파일을 열면 혼란스러울 수 있는 코드 줄이 표시됩니다. 그러나 웹 브라우저(예: Chrome, Safari 등)는 이 코드를 변환하여 현재 보고 계신 웹 페이지와 같이 표시할 수 있습니다. 하이퍼링크로 연결된 웹 페이지의 집합을 웹사이트라고 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![HTTP (Hypertext Transfer Protocol)](https://www.example.com/assets/img/2024-07-07-WhatisTheWebASimpleExplanation_1.png)
 
@@ -31,7 +40,18 @@ isUpdated: true
 
 HTTP 프로토콜은 클라이언트(웹 브라우저)와 웹 서버(웹사이트가 저장된 곳) 간 데이터 전송을 용이하게 하는 규칙 세트로 설명할 수 있습니다. HTTP를 통해 양쪽 모두가 해야 할 일, 요청된 데이터, 데이터를 보호하는 방법 등을 이해할 수 있습니다. HTTP 외에도 이메일에 대한 SNMP, 파일에 대한 FTP 등과 같이 각각의 기능을 갖는 다른 프로토콜이 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # URL (통합 자원 지시자)
 
@@ -41,7 +61,18 @@ URL(Uniform Resource Locator, 통일 자원 지시자)은 브라우저에 필요
 
 이미 프로토콜에 대해 약간 설명했었죠. 여러분은 웹 리소스에 액세스하는 데 사용되는 "http://" 및 "https://"와 친숙할 것입니다. HTTPS는 HTTP의 보안 버전으로, 전송되는 데이터를 암호화하여 더 안전합니다. HTTPS의 "S"는 "Secure"의 약자입니다. 또한 이메일에는 "mailto:", 파일 액세스에는 "ftp://"와 같이 다른 프로토콜도 사용될 수 있음을 유의해 주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 도메인
 
@@ -51,7 +82,18 @@ URL(Uniform Resource Locator, 통일 자원 지시자)은 브라우저에 필요
 
 ## 경로
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파일 탐색기인 파일 탐색기 또는 Finder와 같은 파일 관리자를 사용하여 파일을 자주 찾습니다. 경로의 기능은 어느 정도 유사합니다. 파일이 저장된 위치를 알려줍니다. 아래 이미지는 파일 구조와 URL 경로 간의 관계를 보여줍니다.
 
@@ -61,7 +103,18 @@ URL(Uniform Resource Locator, 통일 자원 지시자)은 브라우저에 필요
 
 # 요약
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 페이지에 접근하는 시나리오를 통해 모든 것을 연결해 보겠습니다. 웹 브라우저 주소 표시줄에 https://phosphoricons.com/index.html을 입력한다고 가정해 보세요. "Enter"를 누르면 컴퓨터가 DNS 서버에서 phosphoricons.com과 관련된 IP 주소를 요청합니다. 그 후 컴퓨터가 획득한 IP 주소의 서버에서 "index.html" 파일을 요청합니다. 이러한 모든 과정은 https 프로토콜이 모든 데이터 전송을 암호화하기 때문에 안전하게 이루어집니다.
 

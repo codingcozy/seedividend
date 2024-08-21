@@ -3,16 +3,13 @@ title: "바닐라 JS로 만들어진 웹캠 인피니티 미러"
 description: ""
 coverImage: "/assets/img/2024-05-27-MirrorMirrorAWebcamInfinityMirrorwithVanillaJS_0.png"
 date: 2024-05-27 19:14
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-MirrorMirrorAWebcamInfinityMirrorwithVanillaJS_0.png
 tag: Tech
 originalTitle: "MirrorMirror — A Webcam Infinity Mirror with Vanilla JS"
 link: "https://medium.com/gitconnected/mirrormirror-a-webcam-infinity-mirror-with-vanilla-js-82eb4bbc7a40"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-05-27-MirrorMirrorAWebcamInfinityMirrorwithVanillaJS_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 이 프로젝트에서는 HTML 및 JavaScript만 사용하여 브라우저 기반 웹 애플리케이션을 만들어 실시간 인피니티 미러를 생성하고 이미지 뒤집기/회전/저장 버튼을 추가합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금까지 데스크톱, iOS 및 안드로이드 브라우저에서 작동하는 것으로 확인했습니다.
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 ## 도구 및 기술
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - HTML5: 비디오 표시 및 제어 요소를 구성하는 데 사용됩니다.
 - CSS3: 웹 페이지를 스타일링하여 요소가 시각적으로 매력적이고 기능적으로 배치되도록 합니다.
@@ -60,7 +79,18 @@ HTML 페이지는 비디오 요소와 캔버스를 호스팅하도록 설정되�
 </div>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 자바스크립트에서 제어 버튼 설정하기
 
@@ -136,47 +166,70 @@ HTML 페이지는 비디오 요소와 캔버스를 호스팅하도록 설정되�
 
 **이 상태유지 메시지가 도움이 돼셨나요?**
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 카메라 접근하기
 
 `navigator.mediaDevices.getUserMedia` API를 사용하여 웹캠 피드를 설정했어요. 이 API는 간단해서 미디어 입력을 사용할 수 있는 방법을 제공해요. 카메라를 사용할 권한을 요청하는 대화 상자가 나타날 거예요.
 
 ```js
-navigator.mediaDevices.getUserMedia({ video: true })
-.then(stream => {
-const video = document.createElement('video');
-video.srcObject = stream;
-video.play();
-})
-.catch(error => {
-console.error('카메라에 접근하는 중 오류 발생: ', error);
-});
+navigator.mediaDevices
+  .getUserMedia({ video: true })
+  .then((stream) => {
+    const video = document.createElement("video");
+    video.srcObject = stream;
+    video.play();
+  })
+  .catch((error) => {
+    console.error("카메라에 접근하는 중 오류 발생: ", error);
+  });
 ```
 
 ## 미러 효과를 위한 비디오 피드 조작
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비디오 피드를 다루는 것이 더 재미있어질 때입니다. 저는 비디오를 수평으로 뒤집거나 회전하거나 무한 거울 효과를 적용하는 함수를 작성했습니다. 이 효과는 비디오 피드의 여러 배율 및 반투명 복사본을 생성하여 거울 효과를 만듭니다. scaleFactor 및 alphaFactor 변수로 거울 이미지의 인스턴스 수나 안쪽 여백을 변경할 수 있습니다. 제 데스크탑에서 실행 속도가 얼마나 빠른지 고려할 때, 나중에 업데이트에서 해당 슬라이더를 추가할 수도 있겠죠. 이에 관심이 있다면 GitHub 레포지토리에 이슈를 남겨주세요.
 
 ```js
 function applyInfinityEffect(context, width, height) {
-    const numberOfReflections = 5;
-    let scaleFactor = 0.5;
-    let alphaFactor = 0.9;
+  const numberOfReflections = 5;
+  let scaleFactor = 0.5;
+  let alphaFactor = 0.9;
 
-    for (let i = 0; i < numberOfReflections; i++) {
-        context.globalAlpha = Math.pow(alphaFactor, i + 1);
-        const newWidth = width * Math.pow(scaleFactor, i + 1);
-        const newHeight = height * Math.pow(scaleFactor, i + 1);
-        const dx = (width - newWidth) / 2;
-        const dy = (height - newHeight) / 2;
+  for (let i = 0; i < numberOfReflections; i++) {
+    context.globalAlpha = Math.pow(alphaFactor, i + 1);
+    const newWidth = width * Math.pow(scaleFactor, i + 1);
+    const newHeight = height * Math.pow(scaleFactor, i + 1);
+    const dx = (width - newWidth) / 2;
+    const dy = (height - newHeight) / 2;
 
-        context.drawImage(canvas, 0, 0, width, height, dx, dy, newWidth, newHeight);
-    }
+    context.drawImage(canvas, 0, 0, width, height, dx, dy, newWidth, newHeight);
+  }
 
-    context.globalAlpha = 1.0;
+  context.globalAlpha = 1.0;
 }
 ```
 
@@ -184,63 +237,73 @@ function applyInfinityEffect(context, width, height) {
 
 이미지 처리에 익숙한 사람을 위해 비디오의 각 프레임을 가져와 "에지" 또는 각 객체의 경계를 탐지하는 필터를 실행할 수 있습니다. 이 작업은 각 프레임에 2D 그라디언트를 적용하는 소벨 연산자를 사용하여 수행됩니다. 우리는 이를 보여주기 위해 회색조로 변환합니다. 소벨 연산자에 대한 추가 배경 정보는 여기서 볼 수 있습니다. 코드를 수정하고 다른 이미지 처리 작업을 추가할 수도 있습니다. 추가할 수 있는 많은 고전적인 신호 처리 필터가 있지만 UI 컨트롤의 수가 상당히 늘어날 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 function applyEdgeDetection(context, width, height) {
-    const imageData = context.getImageData(0, 0, width, height);
-    const grayScaled = grayscale(imageData.data, width, height);
-    const edgeData = sobelFilter(grayScaled, width, height);
-    context.putImageData(new ImageData(edgeData, width, height), 0, 0);
+  const imageData = context.getImageData(0, 0, width, height);
+  const grayScaled = grayscale(imageData.data, width, height);
+  const edgeData = sobelFilter(grayScaled, width, height);
+  context.putImageData(new ImageData(edgeData, width, height), 0, 0);
 }
 
 function grayscale(data, width, height) {
-    const result = new Uint8ClampedArray(width * height * 4);
-    for (let i = 0; i < data.length; i += 4) {
-        const avg = 0.34 * data[i] + 0.5 * data[i + 1] + 0.16 * data[i + 2];
-        result[i] = avg; // red
-        result[i + 1] = avg; // green
-        result[i + 2] = avg; // blue
-        result[i + 3] = 255; // alpha
-    }
-    return result;
+  const result = new Uint8ClampedArray(width * height * 4);
+  for (let i = 0; i < data.length; i += 4) {
+    const avg = 0.34 * data[i] + 0.5 * data[i + 1] + 0.16 * data[i + 2];
+    result[i] = avg; // red
+    result[i + 1] = avg; // green
+    result[i + 2] = avg; // blue
+    result[i + 3] = 255; // alpha
+  }
+  return result;
 }
 
-
 function sobelFilter(data, width, height) {
-    const kernelX = [
-        [-1, 0, 1],
-        [-2, 0, 2],
-        [-1, 0, 1]
-    ];
-    const kernelY = [
-        [-1, -2, -1],
-        [0, 0, 0],
-        [1, 2, 1]
-    ];
+  const kernelX = [
+    [-1, 0, 1],
+    [-2, 0, 2],
+    [-1, 0, 1],
+  ];
+  const kernelY = [
+    [-1, -2, -1],
+    [0, 0, 0],
+    [1, 2, 1],
+  ];
 
-    const sobelData = new Uint8ClampedArray(width * height * 4); // Correctly sized array
+  const sobelData = new Uint8ClampedArray(width * height * 4); // Correctly sized array
 
-    for (let y = 1; y < height - 1; y++) {
-        for (let x = 1; x < width - 1; x++) {
-            let px = (y * width + x) * 4;
-            let gx = 0;
-            let gy = 0;
+  for (let y = 1; y < height - 1; y++) {
+    for (let x = 1; x < width - 1; x++) {
+      let px = (y * width + x) * 4;
+      let gx = 0;
+      let gy = 0;
 
-            for (let cy = -1; cy <= 1; cy++) {
-                for (let cx = -1; cx <= 1; cx++) {
-                    const cpx = ((y + cy) * width + (x + cx)) * 4;
-                    gx += data[cpx] * kernelX[cy + 1][cx + 1];
-                    gy += data[cpx] * kernelY[cy + 1][cx + 1];
-                }
-            }
-
-            const magnitude = Math.sqrt(gx * gx + gy * gy);
-            sobelData[px] = sobelData[px + 1] = sobelData[px + 2] = magnitude;
-            sobelData[px + 3] = 255; // alpha
+      for (let cy = -1; cy <= 1; cy++) {
+        for (let cx = -1; cx <= 1; cx++) {
+          const cpx = ((y + cy) * width + (x + cx)) * 4;
+          gx += data[cpx] * kernelX[cy + 1][cx + 1];
+          gy += data[cpx] * kernelY[cy + 1][cx + 1];
         }
+      }
+
+      const magnitude = Math.sqrt(gx * gx + gy * gy);
+      sobelData[px] = sobelData[px + 1] = sobelData[px + 2] = magnitude;
+      sobelData[px + 3] = 255; // alpha
     }
-    return sobelData;
+  }
+  return sobelData;
 }
 ```
 
@@ -250,80 +313,90 @@ Sobel은 그 연산 부하가 비교적 적은 편이기 때문에 인기 있는
 
 코드에서 Canny 필터를 활성화하는 방법은 아래에 나와 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
- function applyCannyEdgeDetection(context, width, height) {
-    const imageData = context.getImageData(0, 0, width, height);
-    const grayScaled = grayscale(imageData.data, width, height);
-    const blurred = gaussianBlur(grayScaled, width, height);
-    const edgeData = cannyFilter(blurred, width, height);
-    context.putImageData(new ImageData(edgeData, width, height), 0, 0);
+function applyCannyEdgeDetection(context, width, height) {
+  const imageData = context.getImageData(0, 0, width, height);
+  const grayScaled = grayscale(imageData.data, width, height);
+  const blurred = gaussianBlur(grayScaled, width, height);
+  const edgeData = cannyFilter(blurred, width, height);
+  context.putImageData(new ImageData(edgeData, width, height), 0, 0);
 }
 
 function grayscale(data, width, height) {
-    const result = new Uint8ClampedArray(width * height * 4);
-    for (let i = 0; i < data.length; i += 4) {
-        const avg = 0.34 * data[i] + 0.5 * data[i + 1] + 0.16 * data[i + 2];
-        result[i] = avg; // red
-        result[i + 1] = avg; // green
-        result[i + 2] = avg; // blue
-        result[i + 3] = 255; // alpha
-    }
-    return result;
+  const result = new Uint8ClampedArray(width * height * 4);
+  for (let i = 0; i < data.length; i += 4) {
+    const avg = 0.34 * data[i] + 0.5 * data[i + 1] + 0.16 * data[i + 2];
+    result[i] = avg; // red
+    result[i + 1] = avg; // green
+    result[i + 2] = avg; // blue
+    result[i + 3] = 255; // alpha
+  }
+  return result;
 }
 
 function gaussianBlur(data, width, height) {
-    const kernel = [
-        [1, 2, 1],
-        [2, 4, 2],
-        [1, 2, 1]
-    ];
-    const kernelWeight = 16;
-    const blurredData = new Uint8ClampedArray(width * height * 4);
+  const kernel = [
+    [1, 2, 1],
+    [2, 4, 2],
+    [1, 2, 1],
+  ];
+  const kernelWeight = 16;
+  const blurredData = new Uint8ClampedArray(width * height * 4);
 
-    for (let y = 1; y < height - 1; y++) {
-        for (let x = 1; x < width - 1; x++) {
-            let sum = 0;
-            let sumAlpha = 0;
+  for (let y = 1; y < height - 1; y++) {
+    for (let x = 1; x < width - 1; x++) {
+      let sum = 0;
+      let sumAlpha = 0;
 
-            for (let cy = -1; cy <= 1; cy++) {
-                for (let cx = -1; cx <= 1; cx++) {
-                    const pixel = ((y + cy) * width + (x + cx)) * 4;
-                    const weight = kernel[cy + 1][cx + 1];
-                    sum += data[pixel] * weight;
-                    sumAlpha += data[pixel + 3];
-                }
-            }
-
-            const pixelIndex = (y * width + x) * 4;
-            blurredData[pixelIndex] = sum / kernelWeight;
-            blurredData[pixelIndex + 1] = sum / kernelWeight;
-            blurredData[pixelIndex + 2] = sum / kernelWeight;
-            blurredData[pixelIndex + 3] = sumAlpha / kernelWeight;
+      for (let cy = -1; cy <= 1; cy++) {
+        for (let cx = -1; cx <= 1; cx++) {
+          const pixel = ((y + cy) * width + (x + cx)) * 4;
+          const weight = kernel[cy + 1][cx + 1];
+          sum += data[pixel] * weight;
+          sumAlpha += data[pixel + 3];
         }
+      }
+
+      const pixelIndex = (y * width + x) * 4;
+      blurredData[pixelIndex] = sum / kernelWeight;
+      blurredData[pixelIndex + 1] = sum / kernelWeight;
+      blurredData[pixelIndex + 2] = sum / kernelWeight;
+      blurredData[pixelIndex + 3] = sumAlpha / kernelWeight;
     }
-    return blurredData;
+  }
+  return blurredData;
 }
 
 function cannyFilter(data, width, height) {
-    // Simplified Canny edge detection
-    const sobelData = sobelFilter(data, width, height);
-    const result = new Uint8ClampedArray(width * height * 4);
+  // Simplified Canny edge detection
+  const sobelData = sobelFilter(data, width, height);
+  const result = new Uint8ClampedArray(width * height * 4);
 
-    for (let i = 0; i < sobelData.length; i += 4) {
-        const magnitude = sobelData[i];
-        if (magnitude > 50) {
-            result[i] = result[i + 1] = result[i + 2] = 255; // white
-            result[i + 3] = 255; // alpha
-        } else {
-            result[i] = result[i + 1] = result[i + 2] = 0; // black
-            result[i + 3] = 255; // alpha
-        }
+  for (let i = 0; i < sobelData.length; i += 4) {
+    const magnitude = sobelData[i];
+    if (magnitude > 50) {
+      result[i] = result[i + 1] = result[i + 2] = 255; // white
+      result[i + 3] = 255; // alpha
+    } else {
+      result[i] = result[i + 1] = result[i + 2] = 0; // black
+      result[i + 3] = 255; // alpha
     }
+  }
 
-    return result;
+  return result;
 }
 ```
 

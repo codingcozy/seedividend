@@ -3,15 +3,13 @@ title: "여러 기간의 시계열 확률 예측을 위한 XGB, LightGBM, CatBoo
 description: ""
 coverImage: "/assets/img/2024-07-09-Tree-basedXGBLightGBMandCatBoostModelsforMulti-periodTimeSeriesProbabilisticForecasting_0.png"
 date: 2024-07-09 19:34
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-Tree-basedXGBLightGBMandCatBoostModelsforMulti-periodTimeSeriesProbabilisticForecasting_0.png
 tag: Tech
 originalTitle: "Tree-based XGB, LightGBM, and CatBoost Models for Multi-period Time Series Probabilistic Forecasting"
 link: "https://medium.com/dataman-in-ai/tree-based-xgb-lightgbm-and-catboost-models-for-multi-period-time-series-probabilistic-6b12d1500779"
 isUpdated: true
 ---
-
-
 
 ![Tree-basedXGBLightGBMandCatBoostModelsforMulti-periodTimeSeriesProbabilisticForecasting](/assets/img/2024-07-09-Tree-basedXGBLightGBMandCatBoostModelsforMulti-periodTimeSeriesProbabilisticForecasting_0.png)
 
@@ -21,7 +19,18 @@ eBook on Teachable.com: $22.50 [https://drdataman.teachable.com/p/home](https://
 
 The print edition on Amazon.com: $65 [https://a.co/d/25FVsMx](https://a.co/d/25FVsMx)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 텍스트를 친근하게 번역하면 아래와 같습니다.
 
@@ -33,7 +42,18 @@ The print edition on Amazon.com: $65 [https://a.co/d/25FVsMx](https://a.co/d/25F
 
 <img src="/assets/img/2024-07-09-Tree-basedXGBLightGBMandCatBoostModelsforMulti-periodTimeSeriesProbabilisticForecasting_2.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새로운 시각으로 생각해보는 건 어때요? n 기간을 예측하는 것이 목표인 경우, 왜 n 개의 모델을 따로 구축하지 않을까요? 각 모델은 각각의 다음 n 기간을 예측할 것입니다. 이는 직접 예측 전략이라고 불립니다. Darts 라이브러리의 기본 전략이며, 라이브러리에 포함된 모든 모델에 대해 적용됩니다.
 
@@ -43,7 +63,18 @@ The print edition on Amazon.com: $65 [https://a.co/d/25FVsMx](https://a.co/d/25F
 
 이번 장에서는 세 가지 tree-based 모델인 XGBoost (2016), LightGBM (2017), CatBoost (2018)에 대해 세 부분으로 소개하고, 각 알고리즘에 대해 간단히 설명할 것입니다. 세 모델 간의 차이점에 대해 궁금하다면, Figure (C)에 각 세 그래디언트 부스팅 기반 알고리즘의 특징을 강조한 표를 만들었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-07-09-Tree-basedXGBLightGBMandCatBoostModelsforMulti-periodTimeSeriesProbabilisticForecasting_4.png)
 
@@ -57,7 +88,18 @@ The print edition on Amazon.com: $65 [https://a.co/d/25FVsMx](https://a.co/d/25F
 - LightGBM
 - CatBoost
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파이썬 노트북은 이 Github 링크를 통해 다운로드할 수 있어요.
 
@@ -68,7 +110,18 @@ The print edition on Amazon.com: $65 [https://a.co/d/25FVsMx](https://a.co/d/25F
 - CatBoostModel: CatBoost 설치 가이드를 사용하여 catboost 패키지(버전 1.0.6 이상)를 설치합니다.
 - LightGBMModel: LightGBM 설치 가이드를 사용하여 lightgbm 패키지(버전 3.2.0 이상)를 설치합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 !pip install pandas numpy matplotlib darts lightgbm catboost
@@ -80,7 +133,18 @@ The print edition on Amazon.com: $65 [https://a.co/d/25FVsMx](https://a.co/d/25F
 
 저는 Kaggle.com에 있는 Walmart 데이터셋을 사용할 것입니다. 이 데이터셋은 2010년 2월 5일부터 2012년 11월 1일까지의 주간 매장 매출 정보를 포함하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Date - 판매 주차
 - Store - 상점 번호
@@ -113,7 +177,18 @@ data.head()
 
 <img src="/assets/img/2024-07-09-Tree-basedXGBLightGBMandCatBoostModelsforMulti-periodTimeSeriesProbabilisticForecasting_5.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제 10 장에서 쉽게 만들어진 Darts의 시계열 데이터 형식에 대해 배웠어요. Darts의 주요 데이터 클래스는 "TimeSeries" 클래스입니다. Darts는 값들을 다음과 같은 배열 모양으로 저장해요 (시간, 차원, 샘플):
 
@@ -130,7 +205,18 @@ print("그룹/매장의 수는:", len(darts_group_df))
 print("시간 기간의 수는: ", len(darts_group_df[0]))
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 그룹/상점 수: 45
 - 기간 수: 143
@@ -143,7 +229,18 @@ darts_group_df[0].components;
 
 Index(['Weekly_Sales', 'Holiday_Flag', 'Temperature', 'Fuel_Price', 'CPI', 'Unemployment'], dtype='object', name='component')
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Store 1 매출 모델을 구축하기 위해 Store 1 데이터만 사용할 겁니다. "darts_group_df[0]"에 해당합니다. 이를 훈련 데이터와 테스트 데이터로 나눌 겁니다.
 
@@ -162,7 +259,18 @@ past_cov = train[['Fuel_Price','CPI']]
 future_cov = store1['Holiday_Flag'][:143]
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우니바리에이트 데이터부터 시작해보겠습니다.
 
@@ -172,7 +280,18 @@ XGBoost (Extreme Gradient Boosting)은 분류 및 회귀와 같은 지도 학습
 
 다음 코드는 Darts의 표준 모델링 구문입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 from darts.models import XGBModel
@@ -197,7 +316,18 @@ multi_models 매개변수가 True로 설정된 것에 주목해주세요. 이는
 
 입력 청크 길이와 출력 청크 길이에 관한 한 가지 추가적인 매개변수가 있습니다. 이는 단변량 시리즈에서 샘플을 생성하는 것과 관련이 있습니다. 그림 (F)는 y0에서 y15까지의 시리즈에서 생성된 샘플을 보여줍니다. 각 샘플에는 입력 청크와 출력 청크가 포함되어 있습니다. 입력 청크 길이가 5이고 출력 청크 길이가 2인 것을 가정해보세요. 첫 번째 샘플은 입력 청크로 y0 - y4를, 출력 청크로 y5, y6를 가지고 있습니다. 창이 시리즈를 따라 이동하여 샘플을 만들며, 이를 시리즈의 끝까지 반복합니다. 출력 청크 길이는 예측할 수 있는 가장 긴 길이를 정의합니다. 이를 12로 지정했습니다. 12 이상을 예측하려고 하면 오류 메시지가 출력됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Dart data array](/assets/img/2024-07-09-Tree-basedXGBLightGBMandCatBoostModelsforMulti-periodTimeSeriesProbabilisticForecasting_6.png)
 
@@ -207,7 +337,18 @@ The outputs are stored in the Dart data array:
 
 We will plot the actual and the predicted values. We make this in a function for repeating use.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 def plotit():
@@ -229,7 +370,18 @@ MAPE 값은 10.55% 입니다.
 
 이제 분위수 예측을 추가해보겠습니다. 모델에게 5개의 분위수를 생성해 달라고 요청하겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 from darts.models import XGBModel
@@ -256,7 +408,18 @@ pred
 
 실제 값과 분위 예측을 시각화할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 def plotQuantile():
@@ -274,7 +437,18 @@ plotQuantile()
 
 모델을 구축하고 예측을 제공하는 것이 매우 쉽다는 것을 발견할 수 있을 것 입니다. 계속해서 LightGBM 모델을 구축해 봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LightGBM
 
@@ -297,7 +471,18 @@ pred = model.predict(n)
 pred.values()
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 코드는 XGB와 유사하여 더 이상 강조하지 않겠습니다. 그래프를 그려 성능 메트릭을 살펴봅시다:
 
@@ -309,7 +494,18 @@ MAPE는 5.09%입니다.
 
 ![이미지](/assets/img/2024-07-09-Tree-basedXGBLightGBMandCatBoostModelsforMulti-periodTimeSeriesProbabilisticForecasting_11.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 분위 예측을 포함해 봅시다.
 
@@ -337,7 +533,18 @@ pred
 plotQuantile();
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 양자수치 예측값은:
 
@@ -347,7 +554,18 @@ plotQuantile();
 
 CatBoost
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CatBoost은 "Category Boosting"의 약자입니다. 범주형 기능을 효율적으로 처리할 수 있도록 특별히 설계되었으므로 다양한 분류 및 회귀 작업에 적합합니다. 이는 원-핫 인코딩과 같은 전처리가 필요 없이 범주형 기능을 직접 처리할 수 있습니다. CatBoost는 카테고리별 통계 속성에 기초하여 최적 분할점을 찾아 효율적으로 범주형 변수를 처리하는 Ordered Boosting이라는 새로운 알고리즘을 사용합니다. 이외에도 결정 트리 앙상블을 구축하기 위해 그래디언트 부스팅의 구현을 상속받습니다. 각 트리는 이전 모델의 오류를 최소화하도록 학습됩니다. 최적 매개변수를 찾기 위해 그래디언트 강하 최적화 알고리즘을 사용합니다.
 
@@ -371,7 +589,18 @@ pred
 
 결과를 그래프로 출력해보겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 plotit();
@@ -383,7 +612,18 @@ MAPE는 5.96% 입니다.
 
 모델에 분위 예측을 포함해 봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 n = 12
@@ -411,7 +651,18 @@ plotQuantile();
 
 이 차트는 다음과 같습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Tree-based Models](/assets/img/2024-07-09-Tree-basedXGBLightGBMandCatBoostModelsforMulti-periodTimeSeriesProbabilisticForecasting_14.png)
 
@@ -421,7 +672,18 @@ plotQuantile();
 
 이 장은 트리 기반 시계열 모델에 대한 현대적 기법 시리즈를 마무리합니다. 다음 장에서는 딥러닝 기반 시계열 모델에 대한 시리즈를 시작할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 시계열 모델링 기법의 진화
 - RNN/LSTM용 DeepAR
@@ -435,7 +697,18 @@ plotQuantile();
 
 샘플 eBook 챕터 (무료): [링크](https://github.com/dataman-git/modern-time-series/blob/main/20240522beauty_TOC.pdf)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - The Innovation Press, LLC의 직원들께서 아름다운 형식으로 책을 재구성해 주어 즐거운 독서 경험을 선사했습니다. 전 세계 독자들에게 복잡한 유지보수비 없이 eBook을 배포하기 위해 Teachable 플랫폼을 선택했습니다. 신용카드 거래는 Teachable.com에 의해 기밀리에 안전하게 관리됩니다.
 
@@ -447,7 +720,18 @@ Amazon.com에서의 인쇄판: $65 https://a.co/d/25FVsMx
 - 인쇄판은 윤광 표지, 컬러 인쇄, 아름다운 Springer 글꼴과 레이아웃을 사용하여 즐거운 독서를 위해 디자인되었습니다. 7.5 x 9.25 인치의 크기는 책장의 대부분 책들과 잘 어울립니다.
 - “이 책은 과거 시계열 분석 및 예측 분석, 이상 징후 탐지 등의 응용에 대한 깊은 이해력을 갖춘 쿠오의 증명서입니다. 이 책은 독자들에게 실세계의 도전 과제에 대처하는 데 필요한 기술을 제공합니다. 데이터 과학으로의 전직을 고려하는 분들에게 특히 가치 있습니다. 쿠오는 전통적이고 최첨단 기술 모두에 대해 상세히 탐구합니다. 쿠오는 신경망 및 다른 고급 알고리즘에 대한 토론을 통합하여 최신 동향과 발전을 반영합니다. 이는 독자들이 확립된 방법뿐만 아니라 데이터 과학 분야의 가장 최신이며 혁신적인 기술과 상호작용할 수 있도록 준비되어 있다는 것을 보장합니다. 쿠오의 생동감 넘치는 글쓰기 스타일로 이 책의 명확함과 접근성이 향상되었습니다. 그는 복잡한 수학적 및 통계적 개념을 실용적으로 만들어내며 엄격함을 희생하지 않고 다가갈 수 있게 만듭니다.”
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 현대 시계열 예측: 예측 분석과 이상 감지
 
@@ -457,7 +741,18 @@ Amazon.com에서의 인쇄판: $65 https://a.co/d/25FVsMx
 
 2장: 비즈니스 예측을 위한 예언자
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### Chapter 3: 튜토리얼 1 - 추세 + 계절성 + 휴일 및 이벤트
 
@@ -467,7 +762,18 @@ Amazon.com에서의 인쇄판: $65 https://a.co/d/25FVsMx
 
 ### Chapter 6: 시계열 확률 예측을 위한 몬테카를로 시뮬레이션
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제목 7: 시계열 확률 예측을 위한 분위 회귀
 
@@ -477,7 +783,18 @@ Amazon.com에서의 인쇄판: $65 https://a.co/d/25FVsMx
 
 제목 10: 자동 ARIMA!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "Chapter 11: 시계열 데이터 형식을 쉽게 만들어보기
 
@@ -487,7 +804,18 @@ Chapter 13: 트리 기반 시계열 모델을 위한 피처 엔지니어링
 
 Chapter 14: 다기간 시계열 예측을 위한 두 가지 주요 전략"
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 15장: Tree 기반 XGB, LightGBM 및 CatBoost 모델을 활용한 다기간 시계열 확률 예측
 
@@ -497,7 +825,18 @@ Chapter 14: 다기간 시계열 예측을 위한 두 가지 주요 전략"
 
 # 18장: 응용 - 주식 가격에 대한 확률적 예측
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 19장: RNN에서 Transformer 기반 시계열 모델로
 

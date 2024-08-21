@@ -3,17 +3,13 @@ title: "프론트엔드 개발자가 React 19에서 알아둬야할 중요한 �
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "What to Expect from React 19"
 link: "https://medium.com/@onix_react/what-to-expect-from-react-19-3c7ed152f0e8"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/What-to-Expect-from-React-19_0.png)
 
@@ -29,7 +25,18 @@ isUpdated: true
 
 ## React 컴파일러
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 원래 연구 프로젝트로 시작된 React 컴파일러는 Instagram.com에서 제작의 중요한 구성 요소로 발전했습니다. 이 혁신적인 도구는 React 애플리케이션에서 과도한 다시 렌더링 문제를 해결하며, 개발자들에게 일반적으로 고통스러운 점을 다룹니다. 기존의 메모이제이션 기술인 useMemo와 useCallback과 같은 수동 기법은 효과적이지만 번거롭고 오류가 발생할 수 있습니다.
 
@@ -39,7 +46,18 @@ React 컴파일러는 다른 접근 방식을 취하여, React의 핵심적인 �
 
 React 컴파일러가 있기 때문에 명시적인 메모이제이션 후크나 고차 컴포넌트가 필요없어졌습니다. 이제 컴파일러가 필요한 대로 컴포넌트와 값을 자동으로 최적화하고 메모이제이션하여 개발 프로세스를 간소화합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - useContext
 
@@ -49,7 +67,18 @@ React 컴파일러가 있기 때문에 명시적인 메모이제이션 후크나
 
 React.lazy에서 떠나, React Suspense Compiler(RSC)는 비동기 컴포넌트 로딩을 위해 promise-as-child 구문을 사용합니다. 이 통합은 promise-as-child 컴포넌트 내에 컴포넌트를 캡슐화함으로써 원활한 로딩 경험을 보장합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - forwardRef
 
@@ -59,7 +88,18 @@ React.lazy에서 떠나, React Suspense Compiler(RSC)는 비동기 컴포넌트 
 
 컨텍스트를 사용하는 구성 요소를 `Context.Provider` 내에 캡슐화하는 일반적인 방법은 더 직관적이고 간결한 구문인 `Context`로 대체되며, 컴포넌트 트리에 직접 통합됩니다. 이 간소화는 컨텍스트의 사용성을 향상시켜 더 직관적이고 간결한 접근 방식을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - promise 발생시키기
 
@@ -69,7 +109,18 @@ React 컴파일러 방식에서는 promise를 사용한 오류 처리가 간소�
 
 React 동작은 클라이언트에서 서버로 데이터를 전송하는 방법에 대한 조사의 일환으로 개발되었습니다. 이 기능을 사용하면 개발자들은 `form/`과 같은 DOM 요소에 함수를 할당하여 데이터베이스 변이와 같은 작업을 원활하게 수행할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <form action={search}>
@@ -84,7 +135,18 @@ React의 action 함수는 클라이언트 또는 서버 측 정의에서 유연�
 
 useOptimistic을 사용하면 임시 업데이트가 최종 상태 커밋 시 자동으로 복원됩니다. 이를 통해 낙관적인 클라이언트 측 상태 설정이 가능하며 필요할 경우 서버 데이터로 되돌아갈 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 라이브러리 작성자는 일관된 React 경험을 위해 사용자 정의 액션 props를 통합할 수 있습니다. React의 철학은 플랫폼 간의 기능 호환성을 보장하며, 앱 이전을 간소화합니다.
 
@@ -94,7 +156,18 @@ React 19의 실험적인 기능인 서버 구성 요소는 React 구성 요소�
 
 ## 자산 로딩
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React 19를 이용하면 사진 및 기타 파일을 빠르게 준비할 수 있어요. 현재 페이지를 보고 있는 동안 백그라운드에서 이미 로딩을 시작해서 새로운 페이지로 이동할 때 기다릴 시간이 줄어들어요.
 
@@ -104,7 +177,18 @@ React 19를 이용하면 사진 및 기타 파일을 빠르게 준비할 수 있
 
 ## 웹 컴포넌트
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React 19은 웹 구성 요소와의 호환성을 크게 향상시켰어요. 이것은 React 프로젝트 내에서 웹 구성 요소를 매끄럽게 통합할 수 있는 길을 열어 주고, 개발 유연성을 향상시키며 별도의 웹 구성 요소 및 React 전용 라이브러리를 줄일 수도 있을 거예요.
 
@@ -114,7 +198,18 @@ Hooks는 이제 이전보다 더 좋아졌어요. 코드가 실행되고 업데�
 
 # React Canary의 새로운 기능
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트 카나리는 공식 릴리스 이전에 안정적인 기능을 개별적으로 소개합니다. 이 새로운 접근 방식은 커뮤니티 입력을 받아 공개적으로 기능을 구축함으로써 사용자들이 완료 후가 아닌 완결 단계에서 그들에 대해 배울 수 있도록 합니다. 리액트 카나리에는 리액트 서버 컴포넌트, 자산 로딩, 문서 메타데이터 및 액션과 같은 주목할 만한 기능이 포함되어 있으며, react.dev에서 문서화된 내용도 함께 제공됩니다.
 
@@ -127,6 +222,17 @@ Hooks는 이제 이전보다 더 좋아졌어요. 코드가 실행되고 업데�
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요약하자면, React 19는 React 생태계에서 중요한 발전을 이루었으며, 여러 가지 주목할 만한 기능과 개선 사항을 소개했습니다. 특히, React 컴파일러는 주목할 만한 추가 요소로, useMemo 및 useCallback과 유사한 자동 생성을 통해 다시 렌더링 효율을 최적화합니다. 게다가 Action 및 useOptimistic은 각각 데이터 제출 및 낙관적 상태 업데이트를 관리하는 데 도움이 됩니다. 이에 더해 Directives, Document Metadata 및 Asset Loading은 개발자들에게 향상된 제어와 유연성을 제공합니다. 총괄해서, React 19는 React를 더 효율적이고 견고하며 개발자 친화적으로 만드는 큰 발전을 상징합니다.

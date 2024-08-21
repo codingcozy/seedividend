@@ -3,17 +3,13 @@ title: "React Testing Library 설치하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How to Install React Testing Library with Yarn and NPM"
 link: "https://medium.com/@leandroaps/how-to-install-react-testing-library-with-yarn-and-npm-d264b37ffdf8"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/HowtoInstallReactTestingLibrarywithYarnandNPM_0.png" />
 
@@ -25,7 +21,18 @@ React Testing Library은 리액트 컴포넌트를 테스트하는 인기있는 
 yarn init
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React Testing Library를 설치하려면 다음 명령어를 실행하세요:
 
@@ -39,7 +46,18 @@ yarn add @testing-library/react @testing-library/dom
 yarn list --depth=0
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에서 나열된 패키지 목록에 @testing-library/react와 @testing-library/dom이 표시되어야 합니다.
 
@@ -49,7 +67,18 @@ yarn list --depth=0
 
 - 새 프로젝트 초기화 (필요시): 이미 프로젝트를 설정하지 않았다면, 다음 명령어를 실행하여 새 프로젝트를 생성할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm init
@@ -63,7 +92,18 @@ npm install --save-dev @testing-library/react @testing-library/dom
 
 설치 확인: 설치가 완료되면 package.json 파일을 확인하거나 다음을 실행하여 React Testing Library가 올바르게 설치되었는지 확인할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm ls --depth=0

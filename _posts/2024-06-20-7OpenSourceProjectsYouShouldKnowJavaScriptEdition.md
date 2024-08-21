@@ -3,16 +3,13 @@ title: "7 개의 오픈 소스 프로젝트, 여러분이 알아두어야 할 �
 description: ""
 coverImage: "/assets/img/2024-06-20-7OpenSourceProjectsYouShouldKnowJavaScriptEdition_0.png"
 date: 2024-06-20 04:09
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-7OpenSourceProjectsYouShouldKnowJavaScriptEdition_0.png
 tag: Tech
 originalTitle: "7 Open Source Projects You Should Know [JavaScript Edition] ✔️"
 link: "https://medium.com/@domenicotenace/7-open-source-projects-you-should-know-javascript-edition-%EF%B8%8F-180833ee9b22"
 isUpdated: true
 ---
-
-
-
 
 ![이미지](/assets/img/2024-06-20-7OpenSourceProjectsYouShouldKnowJavaScriptEdition_0.png)
 
@@ -25,7 +22,18 @@ isUpdated: true
 Appwrite는 웹, 모바일, 네이티브 또는 백엔드 앱을 위한 종단 간 백엔드 서버입니다.
 사용자 인증, 사용자 및 팀 데이터를 저장하고 쿼리하는 데이터베이스, 저장 및 파일 관리, 이미지 조작, 클라우드 함수 등의 서비스와 쉽게 앱을 통합할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## melonJS
 
@@ -38,7 +46,18 @@ Phaser와 같은 다른 JavaScript 게임 엔진에 대한 대안이 됩니다�
 GDevelop는 또 다른 무료, 오픈소스 게임 엔진으로 PC나 휴대폰과 같은 다양한 플랫폼에서 구축할 수 있습니다.
 이 게임 엔진의 독특한 점은 조건과 액션을 기반으로 한 논리 시스템을 사용하기 때문에 코드를 사용하지 않고 비디오 게임을 만들 수 있다는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Egg.js
 
@@ -50,7 +69,18 @@ Egg.js는 사용자의 키 입력을 감지하여 웹 이스터 에그를 쉽게
 API Vault는 JavaScript로 작성된 멋진 프로젝트입니다. 이 프로젝트는 온라인 플랫폼으로, 공개 API들의 세계로 이어지는 게이트웨이 역할을 합니다.
 카테고리별로 API를 필터링하고 자신에게 맞는 API를 찾을 수도 있어요 🖐
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## sweetalert2
 
@@ -61,7 +91,18 @@ sweetalert2는 외부 종속성 없이 JavaScript의 팝업 상자를 대체하�
 Video.js는 HTML 비디오 및 미디어 소스 확장을 지원하는 웹 비디오 플레이어로 유튜브 및 비메오와 같은 다른 재생 기술도 지원합니다. 데스크탑 및 모바일 디바이스에서 비디오 재생을 지원합니다.
 sweetalert2와 마찬가지로 이 라이브러리를 Angular, React, Vue 세 가지 JavaScript 프레임워크와 통합할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 결론
 

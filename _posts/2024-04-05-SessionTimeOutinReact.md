@@ -3,17 +3,13 @@ title: "리액트에서 세션 시간 초과 처리 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Session TimeOut in React"
 link: "https://medium.com/@michell-e/session-timeout-in-react-2bcf87b12b2"
 isUpdated: true
 ---
-
-
-
-
 
 제가 시작하기 전에 졸업했다고 말씀드리고 싶어요!
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이 기능은 민감한 사용자 정보를 다루는 많은 웹페이지에서 구현된 기능이에요. 이 글은 React 프로젝트에서 이를 어떻게 구현하는지에 대해 안내해줄 거에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 전제 조건:
 
@@ -38,7 +45,18 @@ isUpdated: true
 
 원하는 프로젝트 위치에서 터미널을 열고 다음을 입력하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 "npx create-react-app session-timeout"
@@ -59,7 +77,18 @@ isUpdated: true
 - react-idle-timer: 이 패키지는 어플리케이션에서 비활동 상태를 확인하는 기능을 제공합니다.
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 부트스트랩을 설정해서 어플리케이션을 멋지게 만들 수 있어요. 그래도요. src(원본) 폴더에서 아래의 폴더를 생성해주세요 : components, hooks.
 
@@ -70,7 +99,18 @@ Hooks 폴더 안에는 우리가 직접 만든 훅이 들어가요. 타이머 �
 
 ## 훅(Hooks) — — 크래시 코스.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Hooks는 재사용 가능한 함수들입니다. React에 익숙해졌다면 useState, useEffect 같은 것을 봤을 것이라고 확신합니다. 이러한 것들이 Hooks입니다. 우리는 사용자 정의 훅도 만들 수 있습니다. 사용자 정의 훅으로 간주되려면 파일 이름 앞에 "use"라는 단어를 붙여야 합니다.
 
@@ -83,7 +123,18 @@ Hooks는 재사용 가능한 함수들입니다. React에 익숙해졌다면 use
 내용 이해했다고 가정하고, "hihi"라는 파일을 만들어보겠습니다. 폴더 "Hooks"에 useIdleTimer.js 파일을 생성합니다. 여기에 애플리케이션에서 비활성 상태를 확인하는 사용자 정의 훅을 만들 것입니다.
 새로 생성한 파일에 다음을 추가하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자 그것을 살펴보겠습니다:
 
@@ -124,7 +175,18 @@ const handleOnIdle = (event) => {
   - onIdle: 사용자가 유휴 상태가 되었을 때 실행될 콜백 함수입니다. 코드에서 handleOnIdle은 사용자가 유휴 상태가 되었을 때 호출될 함수를 나타냅니다.
   - debounce: 이것은 사용자의 활동이 감지되기 전에 대기하는 '음'과 같은 것입니다. 누군가가 질문을 하면 답변을 하기 전에 "기다려요..."라고 대답하는 것처럼 동작합니다. 이는 사용자가 비활성 상태가 되자마자 바로 유휴 상태가 트리거되는 것이 아니라 지정된 디바운스 시간이 경과한 후에만 발생한다는 것을 의미합니다. 코드에서 500밀리초(0.5초)로 설정되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 35–41번 라인. 이런 모든 속성들을 반환하고, 우리 훅을 내보내 줍니다. 사용할 준비가 되었습니다.
 
@@ -164,7 +226,18 @@ export default App;
 // 이 페이지들이 설정되지 않아 오류가 발생할 수 있습니다. 그것을 해결해보겠습니다.
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 로그인 페이지
 
@@ -226,7 +299,18 @@ export default Login;
 저의 화면에서는 다음과 같이 로그인 페이지가 스타일이 적용되어 있습니다.
 저의 엔드포인트(localhost:3000)은 선언된 경로와 동일합니다 "/".
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![SessionTimeOutinReact_3](/assets/img/SessionTimeOutinReact_3.png)
 
@@ -236,7 +320,18 @@ export default Login;
 
 HomePage.js 파일을 생성하고 다음을 추가하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import React, { useState, useEffect } from "react";
@@ -262,8 +357,7 @@ function HomePage() {
     if (isIdle && showModal) {
       interval = setInterval(() => {
         setRemainingTime(
-          (prevRemainingTime) =>
-            prevRemainingTime > 0 ? prevRemainingTime - 1 : 0 // 1초씩 감소
+          (prevRemainingTime) => (prevRemainingTime > 0 ? prevRemainingTime - 1 : 0) // 1초씩 감소
         );
       }, 1000);
     }
@@ -330,7 +424,18 @@ function HomePage() {
 export default HomePage;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 코드 조각에 대한 설명입니다:
 
@@ -348,7 +453,18 @@ import "./component.css";
 // css 파일을 import 합니다
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const navigate = useNavigate(); // 이것을 사용하여 탐색합니다. 명백하게
@@ -381,7 +497,18 @@ const handleIdle = () => {
 
 이후 이 함수를 이렇게 구현합니다 :
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const { isIdle } = useIdle({ onIdle: handleIdle, idleTime: 0.3 });
@@ -401,7 +528,18 @@ useEffects
 
 1. 타이머 useEffect
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 useEffect(() => {
@@ -410,8 +548,7 @@ useEffect(() => {
   if (isIdle && showModal) {
     interval = setInterval(() => {
       setRemainingTime(
-        (prevRemainingTime) =>
-          prevRemainingTime > 0 ? prevRemainingTime - 1 : 0 // 1초씩 줄이기
+        (prevRemainingTime) => (prevRemainingTime > 0 ? prevRemainingTime - 1 : 0) // 1초씩 줄이기
       );
     }, 1000);
   }
@@ -441,7 +578,18 @@ useEffect(() => {
 // 필요한지 여부는 알 수 없습니다.
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 useEffect는 만약 남은 시간이 완전히 0이 되고 모달이 여전히 열려 있다면, 모달을 닫고 로그인 페이지로 이동합니다. 즉, 로그아웃됩니다.
 
@@ -461,7 +609,18 @@ const handleStayLoggedIn = () => {
 handleLogout — 모달을 닫고 로그인 페이지로 이동합니다.
 handleStayLoggedIn — 이 함수는 모달을 닫고 계속 진행할 수 있습니다. 만약 무작위 활동을 감지하면, 사용자 정의 후크가 다시 작동하여 프로세스를 다시 시작합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 되돌아가기
 
@@ -499,7 +658,18 @@ handleStayLoggedIn — 이 함수는 모달을 닫고 계속 진행할 수 있�
 
 <img src="/assets/img/SessionTimeOutinReact_5.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 볼래! 방금 무슨 일을 했는지 확인해 보세요! 로그인한 후 18초 동안(0.3)[유휴시간] 아무것도 안 하면 0.5초(500)의 '우희'(Debounce)가 있었어요. 그래서 앱은 정말이지 당신이 아무것도 안 하고 있었다는 걸 확실히 알아차렸어요. 그럼 팝업창이 나타나요. 그리고 30초간의 카운트다운을 시작해서, 로그인 유지할지 로그아웃할지 결정할 시간을 줘요. 카운트다운이 끝나면 결정을 내리지 않으면 시스템이 자동으로 대신 선택해서 로그아웃해 버릴 거예요. 남은 시간과 유휴 시간은 자유롭게 조절할 수 있어요. 이 GitHub 프로젝트로 가서 확인해 보세요.
 

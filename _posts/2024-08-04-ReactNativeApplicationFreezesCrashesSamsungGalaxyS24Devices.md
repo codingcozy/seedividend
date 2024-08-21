@@ -3,16 +3,13 @@ title: "삼성 갤럭시 S24 기기에서 React Native 애플리케이션 멈춤
 description: ""
 coverImage: "/assets/img/2024-08-04-ReactNativeApplicationFreezesCrashesSamsungGalaxyS24Devices_0.png"
 date: 2024-08-04 19:33
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-04-ReactNativeApplicationFreezesCrashesSamsungGalaxyS24Devices_0.png
 tag: Tech
 originalTitle: "React Native Application Freezes Crashes Samsung Galaxy S24 Devices"
 link: "https://medium.com/@enginergen/react-native-application-freezes-crashes-samsung-galaxy-s24-devices-7620ad42aa16"
 isUpdated: true
 ---
-
-
-
 
 # 문제는 무엇인가요?
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 이 문제에 대해 조사해봤어요. 심지어 안드로이드 스튜디오 네이티브 앱에서도 시도해봤지만 문제를 발견하지 못했어요. 이 문제는 React Native에서만 발생하며, 저도 React Native에서 이 문제를 겪었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 블로그에서는 이 문제를 주제로 삼을 것입니다.
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-08-04-ReactNativeApplicationFreezesCrashesSamsungGalaxyS24Devices_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 에뮬레이터들 중 많은 것들이 32비트 코드를 지원하지만, 삼성 갤럭시 S24는 64비트 기기로 더 이상 32비트를 지원하지 않습니다.
 
@@ -42,7 +61,18 @@ isUpdated: true
 
 에러의 두 번째 이유는 React Native와 의존하는 다른 라이브러리들 간의 버전 호환성 문제일 수 있습니다. 이러한 문제를 식별하고 사용 중인 라이브러리의 버전을 확인하는 것이 중요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새로운 모델 디바이스가 시장에 출시되면 놀라운 변화가 따라옵니다. 이 상황에서는 개발자들이 모든 상황에 대비할 수 있도록 준비되어야 합니다.
 
@@ -52,7 +82,18 @@ isUpdated: true
 
 다음 버전에 대해 이 솔루션이 작동합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 "react": "16.9.0",
@@ -65,7 +106,18 @@ Support 64-bit architectures | Android Developers
 
 자세한 정보를 얻고 싶은 분들은 위 소스를 읽어보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 첫 번째 해결책
 
@@ -75,7 +127,18 @@ Support 64-bit architectures | Android Developers
 
 우리에게 일어나고 있는 일이 정확히 이것입니다. 우리 응용 프로그램은 64비트 문제로 시작 시 멈추고 진행되지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 예상은 많은 기기에서 스플래시 화면에서 응용 프로그램이 충돌하고 멈추는 주요 이유일 것입니다. 다음 해결책을 적용하면 이 문제에 직면하지 않을 것이라고 믿습니다.
 
@@ -85,7 +148,18 @@ Support 64-bit architectures | Android Developers
 
 설명한 대로, 제공된 해결책을 적용하고 SoLoader 버전을 v0.10.4로 업그레이드할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래에 있는 코드 라인을 찾아보세요.
 
@@ -110,7 +184,18 @@ ext {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 우리가 추가한 매개변수를 사용할 차례입니다. 이를 위해 다음과 같이 앱 레벨의 build.gradle 파일을 열어주세요.
 
@@ -122,7 +207,18 @@ implementation "com.facebook.soloader:soloader:$soLoaderVersion"
 
 추가한 후, 애플리케이션을 다시 빌드할 수 있습니다. 빌드 과정에서 문제가 발생하면 (저는 어떤 문제도 겪지 않았습니다), 그 문제를 해결하려고 노력해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 성공적인 빌드 후에 SoLoader 업그레이드에 문제가 없었다는 것을 의미합니다.
 
@@ -132,7 +228,18 @@ implementation "com.facebook.soloader:soloader:$soLoaderVersion"
 
 첫 번째 해결책이 작동하지 않았다면, 유일하게 해야 할 일은 React Native 버전을 호환 가능한 버전이나 최신 버전으로 업그레이드 하는 것뿐입니다. 그러나 이러한 업그레이드가 새로운 문제를 발생시킬 수 있으니 주의해서 진행해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 업그레이드 과정 중 문제가 발생하지 않았다면, 다시 애플리케이션을 테스트할 수 있습니다. 업그레이드가 현재 애플리케이션 구성에 어떤 영향을 미칠지에 대한 세부 정보는 제공할 수 없지만, 문제를 해결할 수도 있습니다.
 
@@ -142,7 +249,18 @@ implementation "com.facebook.soloader:soloader:$soLoaderVersion"
 
 위에서 설명한 단계를 따르면 이 문제를 대부분 해결할 수 있을 것으로 생각합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새로운 장치들은 서로 다른 구성을 가지고 있기 때문에 우리 애플리케이션에서 문제를 일으키기 마련입니다.
 
@@ -152,7 +270,18 @@ implementation "com.facebook.soloader:soloader:$soLoaderVersion"
 
 유지보수는 소프트웨어에 있어 매우 중요한 단계입니다. 체계적으로 수행되면 오랜 기간에 걸친 많은 문제를 사전에 식별하고 해결할 수 있도록 도와줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 텍스트에 대한 의견이 있으시면 언제든지 공유해주세요. 제가 잘못된 설명을 했다면 지적해주시면 정확한 정보를 제공하는 데 도움이 될 것입니다.
 

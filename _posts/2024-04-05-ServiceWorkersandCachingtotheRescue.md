@@ -3,17 +3,13 @@ title: "서비스 워커와 캐싱이 도와줍니다"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Service Workers and Caching to the Rescue"
 link: "https://medium.com/@denisultanoglu/service-workers-and-caching-to-the-rescue-3ca58a7101b0"
 isUpdated: true
 ---
-
-
-
-
 
 ![서비스 워커와 캐싱이 도와줍니다](/assets/img/ServiceWorkersandCachingtotheRescue_0.png)
 
@@ -25,7 +21,18 @@ isUpdated: true
 - 이는 고객(브라우저)로부터 주문(요청)을 가로챌 수 있습니다.
 - 심지어 내용을 기억하여 다음에 더 빠르게 제공할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 풍부한 식량 저장실: 캐싱
 
@@ -40,7 +47,18 @@ isUpdated: true
 - 빠른 서비스: 고객이 다시 방문! 이번에는 웨이터가 먼저 식량 저장실(캐시)을 확인합니다. 요리(자원)가 거기에 있고 신선하면, 즉시 제공됩니다 - 훨씬 빨라집니다!
 - 신선함 유지: 웨이터는 메뉴(콘텐츠)가 변할 수 있다는 것을 알기 때문에 가끔 주방(서버)에 새로운 것이 있는지 확인합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신의 웹사이트(식당)를 위한 혜택:
 
@@ -52,7 +70,18 @@ isUpdated: true
 
 우선, ServiceWorker.js 파일을 생성해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const cacheName = "my-static-cache"; // 캐시에 이름을 지정해주세요
@@ -105,10 +134,7 @@ if ("serviceWorker" in navigator) {
     navigator.serviceWorker
       .register("./serviceWorker.js")
       .then((registration) => {
-        console.log(
-          "Service Worker registered with scope:",
-          registration.scope
-        );
+        console.log("Service Worker registered with scope:", registration.scope);
       })
       .catch((error) => {
         console.log("Service Worker registration failed:", error);
@@ -119,7 +145,18 @@ if ("serviceWorker" in navigator) {
 
 이제 저녁식사를 더 효율적으로 제공할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 알아두세요:
 

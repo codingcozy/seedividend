@@ -3,17 +3,13 @@ title: "JSX 란 무엇인가요"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "What is JSX "
 link: "https://medium.com/@aw8145502/what-is-jsx-c8c046aa6729"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/WhatisJSX_0.png)
 
@@ -25,7 +21,18 @@ const hello = <h1>Hello World</h1>;
 
 # React.createElement 함수란 무엇인가
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 JSX는 브라우저가 이해하는 React.createElement 함수 호출로 변환됩니다.
 
@@ -39,7 +46,18 @@ React.createElement(type, [props], [...children]);
 - Props는 엘리먼트가 가져야 할 속성입니다.
 - Children에는 다른 HTML 태그가 포함되거나 컴포넌트가 될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 {
@@ -59,7 +77,18 @@ Hello World
 
 따라서 React는 JSX를 아래 코드로 변환할 것입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 React.createElement("h2", { id="say-hello"}, "Hello World");

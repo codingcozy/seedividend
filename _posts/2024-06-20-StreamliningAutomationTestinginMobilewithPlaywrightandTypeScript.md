@@ -3,17 +3,13 @@ title: "모바일에서 Playwright와 TypeScript로 자동화 테스팅을 간�
 description: ""
 coverImage: "/assets/img/2024-06-20-StreamliningAutomationTestinginMobilewithPlaywrightandTypeScript_0.png"
 date: 2024-06-20 02:42
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-StreamliningAutomationTestinginMobilewithPlaywrightandTypeScript_0.png
 tag: Tech
 originalTitle: "Streamlining Automation Testing in Mobile with Playwright and TypeScript"
 link: "https://medium.com/@jignect/streamlining-automation-testing-in-mobile-with-playwright-and-typescript-337230c02507"
 isUpdated: true
 ---
-
-
-
-
 
 ![Playwright](/assets/img/2024-06-20-StreamliningAutomationTestinginMobilewithPlaywrightandTypeScript_0.png)
 
@@ -23,8 +19,18 @@ Playwright에서 모바일 장치 에뮬레이션은 테스트 범위를 크게 
 
 Playwright의 기능을 활용함으로써 개발 및 QA 팀은 다양한 장치 범주에 걸쳐 더 견고하고 사용자 친화적인 경험을 보장할 수 있으며, 궁극적으로 더 높은 품질의 웹 애플리케이션으로 이끌어 줄 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 목차
 
@@ -43,7 +49,18 @@ Playwright의 기능을 활용함으로써 개발 및 QA 팀은 다양한 장치
 
 # 뷰포트 에뮬레이션:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 플레이라이트는 각종 모바일 기기의 뷰포트 크기를 에뮬레이트할 수 있어, 스마트폰과 태블릿을 포함한 다양한 모바일 기기의 화면 크기를 시뮬레이션할 수 있습니다. 이 기능을 통해 웹 애플리케이션이 다양한 화면 크기에 대응하여 레이아웃과 기능에 대한 잠재적인 문제를 해결하며, 모든 플랫폼에서 일관된 사용자 경험을 제공할 수 있습니다.
 
@@ -53,7 +70,18 @@ Playwright의 기능을 활용함으로써 개발 및 QA 팀은 다양한 장치
 
 # 지리적 위치, 시간대, 지역 설정:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 플레이라이트에는 위치정보, 시간대 및 로캘을 시뮬레이션하는 강력한 기능이 포함되어 있어 다양한 테스트 시나리오를 지원합니다. 이 기능을 통해 개발자들은 웹 애플리케이션이 전 세계 사용자를 대상으로 다양한 지리적 지역 및 시간대에서 어떻게 작동하는지 테스트할 수 있으며, 전 세계 사용자에게 올바른 동작을 제공할 수 있습니다. 예를 들어, 다른 로캘을 시뮬레이션하여 날짜 및 시간 형식, 언어 설정 및 기타 지역별 기능이 예상대로 작동하는지 확인할 수 있습니다. 이러한 포괄적인 테스트를 통해 애플리케이션이 전 세계의 다양한 지역의 사용자에게 원활하고 정확한 경험을 제공하는지 확인할 수 있습니다.
 
@@ -63,7 +91,18 @@ Playwright의 기능을 활용함으로써 개발 및 QA 팀은 다양한 장치
 
 TypeScript로 Playwright 스크립트를 작성하여 제공된 웹사이트에서 모바일 기기 에뮬레이션(예: iPhone 11)을 사용하여 로그인 프로세스를 자동화하는 방법을 알아봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 프로젝트 초기화하기:
 
@@ -90,7 +129,18 @@ TypeScript로 Playwright 스크립트를 작성하여 제공된 웹사이트에�
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 코드의 각 줄에 대한 자세한 설명을 드리겠습니다:
 
@@ -100,7 +150,18 @@ compilerOptions:
 
 target:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 JavaScript를 출력하는 버전을 지정합니다.
 
@@ -110,7 +171,18 @@ Module:
 
 outDir:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 컴파일된 파일이 배치될 디렉토리입니다.
 
@@ -120,7 +192,18 @@ rootDir:
 
 Strict:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 모든 엄격한 유형 확인 옵션을 활성화합니다.
 
@@ -130,7 +213,18 @@ Strict:
 
 **Include:**
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 컴파일에 포함할 파일이나 디렉토리를 지정합니다.
 
@@ -140,37 +234,48 @@ Strict:
 
 src 디렉토리를 만들고 그 안에 mobileTest.ts라는 파일을 생성하고 다음과 같은 내용을 추가하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-import { chromium, devices } from 'playwright';
-const iPhone11 = devices['iPhone 11'];
+import { chromium, devices } from "playwright";
+const iPhone11 = devices["iPhone 11"];
 (async () => {
   // Chromium 브라우저 실행
   const browser = await chromium.launch({ headless: false });
   // iPhone 11 디바이스 설정으로 새로운 브라우저 컨텍스트 생성
   const context = await browser.newContext({
     ...iPhone11,
-    locale: 'en-US',
+    locale: "en-US",
     geolocation: { latitude: 37.7749, longitude: -122.4194 },
-    permissions: ['geolocation'],
+    permissions: ["geolocation"],
   });
   // 컨텍스트에서 새로운 페이지 생성
   const page = await context.newPage();
   // 로그인 페이지로 이동
-  await page.goto('https://practicetestautomation.com/practice-test-login/');
+  await page.goto("https://practicetestautomation.com/practice-test-login/");
   // 사용자 이름 입력
-  await page.fill('#username', 'student');
+  await page.fill("#username", "student");
   // 비밀번호 입력
-  await page.fill('#password', 'Password123');
+  await page.fill("#password", "Password123");
   // 로그인 버튼 클릭
-  await page.click('#submit');
+  await page.click("#submit");
   // 특정 요소를 확인하여 로그인 성공 여부 확인
-  const successMessage = await page.textContent('.post-title');
-  if (successMessage?.includes('Logged In Successfully')) {
-    console.log('로그인 성공');
+  const successMessage = await page.textContent(".post-title");
+  if (successMessage?.includes("Logged In Successfully")) {
+    console.log("로그인 성공");
   } else {
-    console.log('로그인 실패');
+    console.log("로그인 실패");
   }
 
   // 브라우저 닫기
@@ -186,8 +291,18 @@ const iPhone11 = devices['iPhone 11'];
 - chromium: Playwright에서 Chromium 브라우저 가져오기.
 - devices: Playwright에서 사전 정의된 디바이스 설명자(예: 모바일 디바이스) 가져오기.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모바일 기기 정의
 
@@ -198,8 +313,18 @@ const iPhone11 = devices['iPhone 11'];
 - (async () => {
 - 이것은 비동기 함수를 시작합니다. async 키워드를 사용하면 함수 내에서 await을 사용할 수 있어서 동기적으로 보이는 방식으로 비동기 작업을 수행할 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 브라우저 실행하기
 
@@ -212,13 +337,24 @@ const iPhone11 = devices['iPhone 11'];
 ```js
 const context = await browser.newContext({
   ...iPhone11,
-  locale: 'en-US',
+  locale: "en-US",
   geolocation: { latitude: 37.7749, longitude: -122.4194 },
-  permissions: ['geolocation'],
+  permissions: ["geolocation"],
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 browser.newContext(): 이것은 특정 설정으로 새로운 브라우저 컨텍스트를 만듭니다.
 
@@ -228,7 +364,18 @@ locale: 'en-US': 로캘(언어)을 영어(미국)으로 설정합니다.
 
 geolocation: ' latitude: 37.7749, longitude: -122.4194 ': 지리적 위치를 캘리포니아 주 샌프란시스코에 해당하는 좌표로 설정합니다. permissions: ['geolocation']: 브라우저 컨텍스트에 지리적 위치 사용 권한을 부여합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새 페이지 생성
 
@@ -240,7 +387,18 @@ geolocation: ' latitude: 37.7749, longitude: -122.4194 ': 지리적 위치를 �
 - await page.goto('https://practicetestautomation.com/practice-test-login/');
 - page.goto(): 이 코드는 지정된 URL로 이동합니다. 여기서는 제공된 웹사이트의 로그인 페이지로 이동합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용자 이름 입력
 
@@ -252,7 +410,18 @@ geolocation: ' latitude: 37.7749, longitude: -122.4194 ': 지리적 위치를 �
 - await page.fill('#password', 'Password123');
 - page.fill(): 이 명령은 CSS 선택자 #password로 식별된 입력란에 'Password123'이라는 텍스트를 입력합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로그인 버튼을 클릭해주세요.
 
@@ -261,17 +430,28 @@ geolocation: ' latitude: 37.7749, longitude: -122.4194 ': 지리적 위치를 �
 - 로그인 성공 확인
 
 ```js
-const successMessage = await page.textContent('.post-title');
-  if (successMessage?.includes('Logged In Successfully')) {
-    console.log('로그인 성공');
-  } else {
-    console.log('로그인 실패');
-  }
+const successMessage = await page.textContent(".post-title");
+if (successMessage?.includes("Logged In Successfully")) {
+  console.log("로그인 성공");
+} else {
+  console.log("로그인 실패");
+}
 ```
 
 page.textContent(): 이것은 CSS 선택자 .post-title로 식별된 요소의 텍스트 콘텐츠를 검색합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 성공 메시지?.includes('로그인 성공'): 이것은 검색된 텍스트 내용이 '로그인 성공'이라는 구문을 포함하는지 확인합니다.
 
@@ -283,7 +463,18 @@ console.log('로그인 성공'): 해당 구문이 찾아진 경우 콘솔에 '�
 - ')();
 - browser.close(): 이것은 브라우저를 닫습니다.')();: 이것은 비동기 함수를 종료하고 즉시 호출합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 테스트 실행 방법
 
@@ -293,8 +484,18 @@ console.log('로그인 성공'): 해당 구문이 찾아진 경우 콘솔에 '�
 
 ![이미지 2](/assets/img/2024-06-20-StreamliningAutomationTestinginMobilewithPlaywrightandTypeScript_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지1](/assets/img/2024-06-20-StreamliningAutomationTestinginMobilewithPlaywrightandTypeScript_3.png)
 
@@ -304,8 +505,18 @@ console.log('로그인 성공'): 해당 구문이 찾아진 경우 콘솔에 '�
 
 # 결론
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 프로젝트에서는 Playwright 및 TypeScript를 사용하여 웹 사이트의 로그인 기능을 자동화하는 견고한 테스팅 프레임워크를 구축했습니다. iPhone 11을 모방하여 모바일 기기에서 사이트가 잘 작동하도록 보장했습니다. TypeScript 구성(`tsconfig.json`)은 코드 컴파일을 최적화하고, 스크립트(`loginTest.ts`)는 자격 증명 입력부터 성공 확인까지 전체 로그인 프로세스를 자동화했습니다.
 
@@ -315,7 +526,18 @@ console.log('로그인 성공'): 해당 구문이 찾아진 경우 콘솔에 '�
 
 저희의 섬세한 접근 방식과 첨단 솔루션이 품질과 성능을 새로운 높이로 끌어올린 것을 목격하세요. 소프트웨어 테스팅 탁월성의 세계로 여정을 시작하세요. 더 자세한 내용은 "Tools & Technologies & QA Services"를 참조하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 당사가 제공하는 멋진 서비스에 대해 더 알고 싶다면 언제든지 연락해 주세요.
 

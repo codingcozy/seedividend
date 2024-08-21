@@ -3,16 +3,13 @@ title: "structuredClone(), JavaScript에서 객체를 깊은 복제하는 가장
 description: ""
 coverImage: "/assets/img/2024-05-27-structuredCloneTheEasiestWaytoDeepCloneObjectsinJavaScript_0.png"
 date: 2024-05-27 18:19
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-structuredCloneTheEasiestWaytoDeepCloneObjectsinJavaScript_0.png
 tag: Tech
 originalTitle: "structuredClone(): The Easiest Way to Deep Clone Objects in JavaScript"
 link: "https://medium.com/javascript-in-plain-english/structuredclone-the-easiest-way-to-deep-clone-objects-in-javascript-c503b536266b"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-05-27-structuredCloneTheEasiestWaytoDeepCloneObjectsinJavaScript_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 이건 놀랍고, 때로는 객체를 깊은 복제해야 하는 경우가 많이 있어서 일에 많은 어려움을 야기하죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 2. 객체를 깊은 복제하는 두 가지 방법
 
@@ -39,17 +47,33 @@ const testData = {
   boolean: true,
   object: { a: 1, b: { c: 2 } },
   array: [1, 2, { d: 3 }],
-  function: function() { return "hello"; },
-  map: new Map([["key1", "value1"], ["key2", "value2"]]),
+  function: function () {
+    return "hello";
+  },
+  map: new Map([
+    ["key1", "value1"],
+    ["key2", "value2"],
+  ]),
   set: new Set([1, 2, 3]),
   date: new Date(),
   error: new Error("An error occurred"),
   regex: /test/i,
-  domNode: document.createElement("div")
-}
+  domNode: document.createElement("div"),
+};
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 testData를 테스트 데이터로 사용할 것입니다.
 
@@ -59,10 +83,10 @@ const testData = {
 
 ```js
 try {
-  const jsonClone = JSON.parse(JSON.stringify(testData))
-  console.log(jsonClone)
+  const jsonClone = JSON.parse(JSON.stringify(testData));
+  console.log(jsonClone);
 } catch (error) {
-  console.log("JSON 메서드가 이 데이터를 처리할 수 없습니다")
+  console.log("JSON 메서드가 이 데이터를 처리할 수 없습니다");
 }
 // 출력
 /*
@@ -77,29 +101,51 @@ try {
 */
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지를 포함한 코드 블록:
 
 ```js
-const obj = { name: 'fatfish' }
+const obj = { name: "fatfish" };
 
-obj.obj = obj
-JSON.parse(JSON.stringify(obj))
+obj.obj = obj;
+JSON.parse(JSON.stringify(obj));
 ```
 
 Markdown 형식으로 변환 된 표:
 
 # 2.2# lodash.clone
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대부분의 사람들이 이 선택을 하겠지만 추가적인 npm 패키지를 가져와야 할 수도 있지만 그 가치는 충분히 합니다.
 
 ```js
-const _ = require('lodash')
-const lodashClone = _.cloneDeep(testData)
-console.log(lodashClone)
+const _ = require("lodash");
+const lodashClone = _.cloneDeep(testData);
+console.log(lodashClone);
 
 /*
 {
@@ -125,7 +171,18 @@ console.log(lodashClone)
 
 # 3.1# 새로운 API: structuredClone?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-05-27-structuredCloneTheEasiestWaytoDeepCloneObjectsinJavaScript_5.png" />
 
@@ -135,47 +192,56 @@ mdn에서 가져왔어요!
 
 아직 이 데이터를 사용 중이지만, 먼저 함수와 DOM 유형을 숨기고, 그 이유를 나중에 설명할게요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 const testData = {
-  number: 123,
-  string: "test",
-  undefined: undefined,
-  null: null,
-  boolean: true,
-  object: { a: 1, b: { c: 2 } },
-  array: [1, 2, { d: 3 }],
-  // function: function() { return "hello"; },
-  map: new Map([["key1", "value1"], ["key2", "value2"]]),
-  set: new Set([1, 2, 3]),
-  date: new Date(),
-  error: new Error("An error occurred"),
-  regex: /test/i,
-  // domNode: document.createElement("div")
+number: 123,
+string: "test",
+undefined: undefined,
+null: null,
+boolean: true,
+object: { a: 1, b: { c: 2 } },
+array: [1, 2, { d: 3 }],
+// function: function() { return "hello"; },
+map: new Map([["key1", "value1"], ["key2", "value2"]]),
+set: new Set([1, 2, 3]),
+date: new Date(),
+error: new Error("An error occurred"),
+regex: /test/i,
+// domNode: document.createElement("div")
 }
 
 const structuredCloneResult = structuredClone(testData)
 console.log(structuredCloneResult)
-/*
+/_
 {
-  number: 123,
-  string: "test",
-  undefined: undefined,
-  null: null,
-  boolean: true,
-  object: { a: 1, b: { c: 2 } },
-  array: [1, 2, { d: 3 }],
-  function: undefined, // Functions are not cloned
-  map: Map { 'key1' => 'value1', 'key2' => 'value2' },
-  set: Set { 1, 2, 3 },
-  date: 2023-05-23T09:00:00.000Z,
-  error: Error: An error occurred,
-  regex: /test/i,
-  domNode: undefined // DOM nodes are not cloned
+number: 123,
+string: "test",
+undefined: undefined,
+null: null,
+boolean: true,
+object: { a: 1, b: { c: 2 } },
+array: [1, 2, { d: 3 }],
+function: undefined, // Functions are not cloned
+map: Map { 'key1' => 'value1', 'key2' => 'value2' },
+set: Set { 1, 2, 3 },
+date: 2023-05-23T09:00:00.000Z,
+error: Error: An error occurred,
+regex: /test/i,
+domNode: undefined // DOM nodes are not cloned
 }
-*/
-
+_/
 
 <img src="/assets/img/2024-05-27-structuredCloneTheEasiestWaytoDeepCloneObjectsinJavaScript_6.png" />
 
@@ -183,23 +249,44 @@ console.log(structuredCloneResult)
 
 # 3.2# structuredClone의 장점
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 친구야, structuredClone 함수를 좋아하시나요? 충분히 간단한가요? 네, 그것이 가장 큰 장점이죠.
 
 하지만 또 다른 큰 장점이 있습니다. 그것은 심지어 원형 참조가 있는 객체도 복사할 수 있다는 것이죠.
 
 ```js
-const obj = { name: 'fatfish' }
+const obj = { name: "fatfish" };
 
-obj.obj = obj
-structuredClone(obj)
+obj.obj = obj;
+structuredClone(obj);
 ```
 
 <img src="/assets/img/2024-05-27-structuredCloneTheEasiestWaytoDeepCloneObjectsinJavaScript_7.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 3.3 구조화된 복제의 일부 제한 사항
 
@@ -208,26 +295,48 @@ structuredClone(obj)
 함수나 Dom을 복사할 수 없습니다. 이를 하려고 시도하면 예외가 발생합니다. 이것이 저가 함수와 Dom을 숨긴 이유입니다.
 
 ```js
-const obj = { fn: () => {} }
+const obj = { fn: () => {} };
 
-structuredClone(obj)
+structuredClone(obj);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-05-27-structuredCloneTheEasiestWaytoDeepCloneObjectsinJavaScript_8.png" />
 
 ```js
-const obj = { domNode: document.createElement('div') }
+const obj = { domNode: document.createElement("div") };
 
-structuredClone(obj)
+structuredClone(obj);
 ```
 
 <img src="/assets/img/2024-05-27-structuredCloneTheEasiestWaytoDeepCloneObjectsinJavaScript_9.png" />
 
 이 함수를 호출할 때 오류가 발생하지 않도록 하고, 메소드를 가진 객체를 깊게 복제하지만 메소드는 복제하지 않기를 원합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 친절한 한국어 번역 🚀
 

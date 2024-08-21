@@ -3,23 +3,30 @@ title: "React에서 자동 렌더링을 취소하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Am I Overreacting Or is React Over-Reacting"
 link: "https://medium.com/gitconnected/am-i-overreacting-or-is-react-over-reacting-d3e7d0cb4d37"
 isUpdated: true
 ---
 
-
-
-
-
 ![사진](/assets/img/AmIOverreactingOrisReactOver-Reacting_0.png)
 
 예상대로, 특정 예시에 많은 관심이 기울어졌습니다. 이 중 일부 비판은 타당하지만, 이 글의 요점은 구체적으로 나온 행동에 있는 것이 아닙니다. 오히려, 이 글은 React를 통해 엄청난 수의 요소를 렌더링하는 비용을 보여주고, React가 제공하는 자동 렌더링을 취소하기 위해 추가적인 레이어를 얼마나 더 더해야 하는지를 보여주는 것입니다. 더 나은 예시를 찾게 된다면 후속 글을 작성할 수 있을 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 문서의 코드는 여기서 찾을 수 있어요.
 
@@ -29,7 +36,18 @@ isUpdated: true
 
 ## 무엇을 구축할 것인가
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간결한 예시를 만드는 것은 쉽지 않습니다. 실제 프로젝트의 복잡성이 모든 것이 어떻게 함께 작동하는지 더 잘 보여주기 때문입니다. 이 글에서는 상태가 자주 변경될 때 React가 어떻게 작동하는지 강조하는 기본적인 "동적" 예시를 소개합니다. 이 예시는 500개의 텍스트 div가 있고 이 중 하나를 마우스 오버했을 때 배경색이 업데이트되는 예시입니다. 각 변경 후에 React가 렌더링하는 데 얼마나 많은 시간을 소비하는지 보여주기 위해 소스 코드와 프로파일러의 스크린샷도 포함할 것입니다.
 
@@ -41,7 +59,18 @@ isUpdated: true
 npx create-react-app react-overreact --template typescript
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단순한 리액트 솔루션
 
@@ -87,7 +116,18 @@ function App() {
 export default App;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 프로파일러
 
@@ -97,7 +137,18 @@ M1 맥북 프로에서 한 번의 렌더링이 3ms에서 9ms 사이에 소요됩
 
 "개발 빌드를 사용하는 것으로 인해 '일부' 오버헤드가 발생할 것으로 생각되지만, 제가 예상하기로는 프로덕션 모드를 켜는 것이 이 예시에 상당한 영향을 줄 것으로는 기대하지 않습니다."
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이번에는 프로덕션 프로파일링을 몇 가지 다른 방법으로 시도해봤는데, 결국 같은 결론을 얻었어요. 이 기사 끝부분의 최종 예제와 가장 공평한 비교는 전체 프로덕션 빌드(yarn build)와 Chrome Performance 탭을 사용한 방법입니다.
 
@@ -105,7 +156,18 @@ M1 맥북 프로에서 한 번의 렌더링이 3ms에서 9ms 사이에 소요됩
 
 아래에서 어떤 추가적인 React 개발적 부담도 없는 숫자들이 React Dev Tools이 보여주는 것과 매우 유사하다는 것을 알 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![게임 개발 내에서 새 판이 직렬로 너무 하던지 아님 반응이 너무 많아?](/assets/img/AmIOverreactingOrisReactOver-Reacting_2.png)
 
@@ -115,7 +177,18 @@ M1 맥북 프로에서 한 번의 렌더링이 3ms에서 9ms 사이에 소요됩
 
 React의 성능 최적화 페이지에 따르면 "많은 애플리케이션에서 React를 사용하면 성능을 특별히 최적화하기 위해 많은 작업을 하지 않아도 빠른 사용자 인터페이스를 얻을 수 있습니다." 내 의견엔, 이건 "대부분의 애플리케이션에서는 React의 기본적인 과도한 렌더링을 걱정할만한 요소가 충분하지 않을 것"으로 다시 표현돼야 한다고 생각해.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 목록에서의 첫 번째 제안 중 하나는 Virtualize Long Lists입니다. 그들의 문서에 따르면 "앱이 많은 데이터 목록(수백 또는 수천 개의 행)을 렌더링하는 경우 "윈도잉"이라고 알려진 기술을 사용하는 것을 권장합니다." 이것은 무한 목록의 세계에서 의미가 있지만, 수백 개의 요소 이하에서는 사실 가만히 두어도 충분할 수 있습니다. 이 기사로 이어진 실제 예시에서는 매우 중첩된 구성 요소들이 있었고, 때로는 하나의 요소가 매우 간단하며 때로는 하나의 요소에는 여러 다른 구성 요소가 있을 수 있습니다. 이러한 경우 윈도잉을 사용하면 아마도 모든 요소의 동적 높이를 계산해야 하기 때문에 모든 요소를 첫 번째에 모두 표시하는 것보다 더 나쁜 성능을 가져올 수도 있습니다.
 
@@ -125,7 +198,18 @@ React의 성능 최적화 페이지에 따르면 "많은 애플리케이션에�
 
 ## React.memo를 사용하여 (또는 사용하지 않고) 조화 피하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import React, { useState } from "react";
@@ -195,8 +279,18 @@ export default App;
 
 <img src="/assets/img/AmIOverreactingOrisReactOver-Reacting_3.png" />
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 코드는 호버된 요소 id가 변경될 때마다 전체 렌더링을 발생시킵니다. 이는 우리가 hoveredElementId를 요소에 전달하기 때문에 각 하위 요소의 속성이 변경되어 호버된 요소가 변경될 때마다 모든 것을 다시 렌더링하게 됩니다.
 
@@ -206,7 +300,18 @@ export default App;
 
 아래 코드에서는 prevProps.hoveredElementId 또는 nextProps.hoveredElementId가 요소의 id와 일치하는지 확인합니다. 일치하는 경우 컴포넌트가 다시 렌더링되어야 함을 나타내기 위해 false를 반환합니다. 또한 다른 속성에 대한 변경이 다시 렌더링을 트리거하도록 필요합니다. 따라서 lodash의 isEqual을 사용하여 나머지 속성에 대한 동일성 확인을 수행하도록 합니다. 기본적으로 React.memo는 얕은 비교를 수행하지만, 알기로는 직접 얕은 비교를 수행할 수있는 편리한 함수를 노출하지는 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import _ from "lodash";
@@ -290,7 +395,18 @@ export default App;
 
 이 첫 번째 시도는 안타깝게도 실패했습니다. 그 이유는 굉장히 명백하지 않습니다. hoveredElementId 상태가 변경되면 App 컴포넌트를 다시 렌더링합니다. handleMouseEnter와 handleMouseLeave 콜백이 각 렌더링마다 재정의됩니다. 이는 MemoedElement에 다시 전달될 때 동일한 참조가 아니기 때문에 MemoedElement가 다시 완전히 자체를 다시 렌더링하게 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트 내부 동작을 학습하기 위해 노력했어요. 그런데 이걸 처음 개발자에게 설명하는 게 라이브러리가 이런 것들을 간단하게 처리해야 한다는 원칙을 벗어난 것 같아요.
 
@@ -300,7 +416,18 @@ Hooks FAQ를 통해 "렌더링 시 함수 생성으로 인해 Hooks가 느린가
 
 여기서 리액트는 기본적으로 함수 컴포넌트 내의 콜백이 기본적으로 고장난다는 사실을 인정하고 있어요. 아래 코드에서 제 콜백을 마법같은 useCallback으로 감쌌어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import _ from "lodash";
@@ -384,7 +511,18 @@ export default App;
 
 프로파일러 스크린샷을 보면 이것이 모든 새로운 호버마다 모든 컴포넌트를 다시 렌더링하지 않는 목표를 성공적으로 달성했음을 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 작업이 제대로 작동하려면, 존재하는 콜백은 모두 useCallback으로 감싸야 합니다. 그 종속성 배열에서 놓친 부분이 있으면 이상한 동작을 발견할 수 있으니 조심하세요.
 
@@ -401,7 +539,18 @@ const handleMouseEnter = useCallback(
 
 React 코드를 작성할 때도 이것이 참으로 유효해야 하지만, React에서 사후 최적화하는 과정은 최선이 아닙니다. 성능이 문제라는 것을 알 때까지 이미 여러 다른 컴포넌트가 모두 각각 메모이제이션되어야 합니다. 이 작업을 마치면 콜백이 문제를 일으키는 모든 경우를 찾아내야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코드를 마무리하면서는 여전히 따르긴 꽤 합리적이지만, 의존성 배열과 arePropsEqual의 미묘한 부분들은 새로운 문제를 쉽게 도입할 수 있습니다. "그냥 하나 더" 추가하면 쉽게 메모이제이션을 망가뜨려, 최악의 성능 문제로 돌아가는 경우가 생길 수 있습니다.
 
@@ -411,7 +560,18 @@ FAQ에서는 여러 컴포넌트 사이에서 콜백을 전달해야 하는 번�
 
 이 기사를 통해 적어도 3가지의 주요 React 개념(React.memo, arePropsEqual 및 useCallback)들을 소개했는데, 이것을 통해 기본적으로 기대해야 할 성능을 얻는 데에 들어가야 하는 노력이 상당합니다(그리고 솔직히 말해 500개 요소에 1밀리초는 여전히 꽤 부끄럽습니다). 나는 오랫동안 React가 실제로 나에게 무엇을 제공하는지 의문을 품어왔고, 성능 영역에서 경험한 이러한 좌절은 매우 실망스럽습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 미래의 글에서는 React를 벗어나는 데 사용한 몇 가지 실험을 탐구하고 공유하고 싶습니다. 하지만, 예고편으로 아래는 일반적인 JavaScript 예제로 비슷한 코드를 제공하겠습니다.
 
@@ -440,7 +600,18 @@ for (let i = 0; i < 500; i++) {
 
 <img src="/assets/img/AmIOverreactingOrisReactOver-Reacting_6.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트 프로파일러는 더 이상 사용할 수 없지만 Chrome 성능 탭을 통해 최악의 프레임이 2ms의 스크립팅이었음을 확인할 수 있습니다. 다른 모든 것들은 0ms로 나타납니다.
 
@@ -450,7 +621,18 @@ for (let i = 0; i < 500; i++) {
 
 리액트의 복잡한 컴포넌트 라이프사이클 주변 작업을 배우는 대신 직접 이를 관리하는 방법을 배울 수 있습니다. 나는 지난 몇 달 동안 나만의 프로젝트에서 이를 계속해 왔으며 뒤로 돌아가려고하지 않을 것 같습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Level Up 코딩
 

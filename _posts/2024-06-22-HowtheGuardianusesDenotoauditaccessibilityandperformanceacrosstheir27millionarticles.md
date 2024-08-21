@@ -3,17 +3,13 @@ title: "가디언이 Deno를 사용해 270만 개 기사에서 접근성과 성�
 description: ""
 coverImage: "/assets/img/2024-06-22-HowtheGuardianusesDenotoauditaccessibilityandperformanceacrosstheir27millionarticles_0.png"
 date: 2024-06-22 04:56
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-HowtheGuardianusesDenotoauditaccessibilityandperformanceacrosstheir27millionarticles_0.png
 tag: Tech
 originalTitle: "How the Guardian uses Deno to audit accessibility and performance across their 2.7 million articles"
 link: "https://medium.com/@denoland/how-the-guardian-uses-deno-to-audit-accessibility-and-performance-across-their-2-7-million-articles-97bff7edc22f"
 isUpdated: true
 ---
-
-
-
-
 
 ![Image](/assets/img/2024-06-22-HowtheGuardianusesDenotoauditaccessibilityandperformanceacrosstheir27millionarticles_0.png)
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 # 과제
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가디언 웹사이트는 매달 3억 5천만 개 이상의 고유 페이지 조회수를 기록합니다. 독자들의 기대를 충족하기 위해서는 웹사이트가 성능에 최적화되어 있고 콘텐츠를 최대한 빨리 제공할 뿐만 아니라 다양한 웹 접근성 요구사항을 지원해야 합니다.
 
@@ -34,7 +40,18 @@ isUpdated: true
 
 # 해결책
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 팀은 접근성 및 성능 불일치를 평가하기 위한 자동화 시스템을 구축해야 한다는 것을 알았습니다. 먼저 Node를 시도했지만 복잡성 문제에 직면했습니다. Max는 "페이지를 다운로드하고 살펴보는 것과 같이 간단한 작업에 Node를 사용하는 것은 매우 복잡했다"고 말합니다. "GET 요청 수행, URL 구문 분석, 리다이렉션 해결은 모두 라이브러리를 평가하고 설치하는 것이 필요했습니다." 그러나 웹 표준 API를 네이티브로 지원하는 Deno를 사용하면 동일한 스크립트가 훨씬 간단해집니다. Max는 "Deno에는 의존성 부풀림 위험이 없으므로 Node 및 npm에서 발생하는 문제가 없습니다."
 

@@ -3,17 +3,13 @@ title: "unsplash API를 사용해서 랜덤 사진 불러오는 방법"
 description: "unsplash의 구버전 source api와 신버전 API 사용법에 대해 알아봅니다"
 coverImage: ""
 date: 2024-08-03 16:52
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # unsplash API 사용해서 랜덤 사진 불러오기
 
@@ -21,9 +17,18 @@ unsplash를 사용하면 아래처럼 멋진 사진들을 사용할 수 있습�
 
 ![](./img/2022-11-24-unsplash-API-사용해서-랜덤-사진-불러오기-1.png)
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### unsplash source API
 
@@ -50,9 +55,18 @@ unsplash의 API를 사용하기 위해 **아래 사이트로 방문해서 회원
 
 [https://unsplash.com/developers](https://unsplash.com/developers)
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![](./img/2022-11-24-unsplash-API-사용해서-랜덤-사진-불러오기-3.png)
 
@@ -71,9 +85,18 @@ unsplash의 API를 사용하기 위해 **아래 사이트로 방문해서 회원
 
 ![](./img/2022-11-24-unsplash-API-사용해서-랜덤-사진-불러오기-6.png)
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현재 저도 심사를 받는 중이라 심사 완료되면 업데이트 하도록 하겠습니다(22/11/24)
 

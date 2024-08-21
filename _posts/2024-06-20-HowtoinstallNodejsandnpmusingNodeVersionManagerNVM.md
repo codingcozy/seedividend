@@ -3,16 +3,13 @@ title: "Node Version Manager NVM를 사용하여 Nodejs와 npm을 설치하는 �
 description: ""
 coverImage: "/assets/img/2024-06-20-HowtoinstallNodejsandnpmusingNodeVersionManagerNVM_0.png"
 date: 2024-06-20 01:46
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-HowtoinstallNodejsandnpmusingNodeVersionManagerNVM_0.png
 tag: Tech
 originalTitle: "How to install Node.js and npm using Node Version Manager (NVM)"
 link: "https://medium.com/@imvinojanv/how-to-install-node-js-and-npm-using-node-version-manager-nvm-143165b16ce1"
 isUpdated: true
 ---
-
-
-
 
 ## Node.js, npm
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 Node.js를 설치하는 대안으로, Node Version Manager(NVM)라는 도구를 사용할 수 있습니다. NVM은 운영 체제 수준이 아닌 홈 디렉토리 내의 독립적인 디렉토리 수준에서 작동합니다. 이는 전체 시스템에 영향을 미치지 않고 여러 개의 독립된 Node.js 버전을 설치할 수 있다는 것을 의미합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 NVM(노드 버전 관리자)은 여러 활성 노드.js 버전을 관리하는 데 사용되는 bash 스크립트입니다. NVM을 사용하면 사용하거나 테스트하려는 원하는 특정 노드.js 버전을 설치하거나 제거할 수 있습니다.
 
@@ -32,7 +40,18 @@ Ubuntu 시스템에서 NVM을 사용하여 노드.js 및 npm을 설치하려면 
 
 nvm 스크립트를 다운로드하고 설치하려면 다음을 실행하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 ✔ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash
@@ -50,9 +69,21 @@ export NVM_DIR="$HOME/.nvm"
 ```
 
 ## ⭕ 참고 :
+
 터미널에서 “curl: command not found” 오류가 발생하는 경우.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Debian에서 Curl 유틸리티 설치
 
@@ -64,7 +95,18 @@ Curl은 Debian 10 운영 체제의 공식 APT 패키지 저장소에서 설치�
 sudo apt update
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 아래 명령을 사용하여 설치된 패키지를 업그레이드하세요:
 
@@ -78,7 +120,18 @@ sudo apt update
 ✔ sudo apt install curl
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Curl 라이브러리 설치가 시작되어 다운로드되고, 곧 설치될 것입니다.
 
@@ -89,7 +142,18 @@ Curl 라이브러리 설치가 시작되어 다운로드되고, 곧 설치될 �
 
 프로필의 변경 사항을 반영하려면 터미널을 닫고 다시 열어주세요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 3. 확인해 보세요
 
@@ -103,7 +167,18 @@ nvm --version
 
 ## 4. 어떤 일을 하는지 확인해 보세요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 nvm ls-remote 명령어를 실행하여 사용 가능한 모든 버전의 목록을 확인해보세요.
 
@@ -202,7 +277,18 @@ nvm ls-remote 명령어를 실행하여 사용 가능한 모든 버전의 목록
 
 이제 nvm을 설치했으니, 현재 LTS 버전의 Node.js를 설치하고 사용해봅시다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 ✔ nvm install --lts
@@ -225,7 +311,18 @@ v16.15.0
 
 ## Node의 기본 버전 설정하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 여러 개의 Node 버전이 설치되어 있다면, 그 목록을 얻으려면 ls를 실행할 수 있어요:
 
@@ -257,7 +354,18 @@ lts/gallium -> v16.15.0
 default -> 16.15.0 (-> v16.15.0)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새 세션을 생성하면 이 버전이 자동으로 선택됩니다. 또한 다음 명령의 예시에서와 같이 별칭을 사용하여 이를 참조할 수 있습니다:
 
@@ -271,7 +379,18 @@ Now using node v16.15.0 (npm v8.5.5)
 
 # Node.js 제거하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Node.js를 삭제하는 방법은 설치된 버전에 따라 apt 또는 nvm을 사용할 수 있어요. 기본 저장소 버전을 제거하려면 시스템 수준에서 apt를 사용할 거예요. 이 명령어는 패키지를 제거하고 구성 파일을 유지합니다. 나중에 다시 패키지를 설치할 계획이 있다면 유용해요:
 
@@ -285,7 +404,18 @@ Node.js를 삭제하는 방법은 설치된 버전에 따라 apt 또는 nvm을 �
 ✔ sudo apt purge nodejs
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막으로 제거한 패키지와 함께 자동으로 설치된 사용하지 않는 패키지를 제거할 수 있습니다:
 
@@ -299,7 +429,18 @@ nvm을 사용하여 활성화한 Node.js 버전을 제거하려면 먼저 제거
 ✔ nvm current
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대상이 되는 버전이 현재 활성 버전이 아닌 경우, 다음을 실행할 수 있습니다:
 
@@ -313,7 +454,18 @@ node_version 노드를 제거했습니다
 
 제거하려는 버전이 현재 활성 버전인 경우, 변경 사항을 적용하려면 먼저 nvm을 비활성화해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 ✔ nvm deactivate
@@ -325,7 +477,18 @@ node_version 노드를 제거했습니다
 
 다른 글을 확인하기 전에, 이미 팔로우하고 있지 않다면 제 페이지를 팔로우해 주십시오. 여러분의 팔로우는 테크 커뮤니티에 더 유용한 콘텐츠를 만드는 데 도움이 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ✍️
 Vinojan Veerapathirathasan

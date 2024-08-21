@@ -3,17 +3,13 @@ title: "Create React App CRA와 Vite 최신 비교 2024년"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Elevating React Development Choosing Between Create React App CRA and Vite"
 link: "https://medium.com/stackademic/elevating-react-development-choosing-between-create-react-app-cra-and-vite-01bedccf4256"
 isUpdated: true
 ---
-
-
-
-
 
 ![Elevating React Development: Choosing Between Create React App (CRA) and Vite](/assets/img/ElevatingReactDevelopmentChoosingBetweenCreateReactAppCRAandVite_0.png)
 
@@ -23,7 +19,18 @@ React 애플리케이션을 구축하기 위한 다양한 도구들을 탐색하
 
 설치 및 구성으로 넘어가면, CRA는 제로 구성 경험을 약속하며 개발자들을 유혹합니다. 초기 설정을 단순화하기는 하지만 이는 사용자 정의와 유연성에 제약을 가하게 됩니다. 반면에 Vite는 빌드 프로세스에 대해 더 큰 통제력을 부여합니다. 초기 설정에 조금 더 많은 수동 구성이 필요할 수 있지만, 이에 대한 보상은 엄청납니다 — 프로젝트 요구 사항과 선호도와 정확히 일치하는 맞춤형 개발 환경을 얻을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 학습 곡선을 고려하더라도 Vite는 긍정적이고 혁신적인 에너지를 발산합니다. CRA는 초심자에 이상적인 직관적인 설정을 제공하는 반면, Vite의 약간 가파른 학습 곡선은 풍부한 기능 세트와 고급 기능에 대한 증거입니다. 포괄적인 문서와 지원하는 커뮤니티로, Vite를 마스터하는 것은 개발자의 React 개발 기술과 숙련도를 향상시킬 것으로 기대되는 풍부한 여정이 될 것입니다.
 
@@ -33,4 +40,15 @@ React 애플리케이션을 구축하기 위한 다양한 도구들을 탐색하
 
 # 좋아요와 구독 감사합니다! 👋🏻
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

@@ -3,16 +3,13 @@ title: "접근성 준수하는 폼을 디자인하는 10가지 방법"
 description: ""
 coverImage: "/assets/img/2024-05-01-Howtodesignaccessibleformsin10steps_0.png"
 date: 2024-05-01 22:33
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-01-Howtodesignaccessibleformsin10steps_0.png
 tag: Tech
 originalTitle: "How to design accessible forms in 10 steps"
 link: "https://medium.com/user-experience-design-1/how-to-design-accessible-forms-in-10-steps-22232d65de18"
 isUpdated: true
 ---
-
-
-
 
 양식을 작성하는 것은 보통 사용자에게 재미있는 작업은 아닐 수 있지만, 종종 프로세스의 필수 단계입니다. 예를 들어, 사용자는 물품을 구매하기 위해 지불 세부 정보가 포함된 짧은 양식을 작성하라고 요청받을 수도 있고, 취업 지원서 일환으로 양식을 작성해야 할 수도 있습니다.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 ## 1. 긴 양식을 짧은 여러 페이지 양식으로 나누기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 페이지에 많은 필드가 있는 긴 폼은 피하는 것이 좋습니다. 대신 필드를 여러 개의 짧은 폼 사이에 나누어 시도해보세요. 긴 폼은 이해하기 어렵고, 특히 디지털 리터러시가 낮은 사람들과 주의력결핍과 과잉행동장애(ADHD)와 같은 인지 장애가 있는 사람들에게 특히 어려울 수 있습니다. 관련된 필드를 논리적으로 그룹화하여 인지 부하를 줄이도록 노력해보세요.
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-05-01-Howtodesignaccessibleformsin10steps_0.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2. 입력 필드에 라벨을 상단 정렬하기
 
@@ -42,7 +61,18 @@ isUpdated: true
 
 <img src="/assets/img/2024-05-01-Howtodesignaccessibleformsin10steps_1.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 3. 힌트 텍스트 사용하기
 
@@ -52,7 +82,18 @@ isUpdated: true
 
 플레이스홀더 텍스트 대신, 입력란 위나 아래에 힌트 텍스트를 사용하여 도움이나 추가 정보를 제공해 보세요. 이 텍스트는 항상 보이기 때문에 보조 기술에서 더 쉽게 인식될 확률이 높습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-05-01-Howtodesignaccessibleformsin10steps_2.png](/assets/img/2024-05-01-Howtodesignaccessibleformsin10steps_2.png)
 
@@ -62,7 +103,18 @@ isUpdated: true
 
 커스텀 폼 컨트롤을 만들어야 하는 경우에는 WAI-ARIA 기술을 사용하여 속성을 수동으로 추가하세요. 커스텀 폼 컨트롤을 스크린 리더 및 키보드만으로 액세스할 수 있도록 보장하기 위해 수동으로 테스트를 진행하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 5. 포커스를 강조하는 요소
 
@@ -72,7 +124,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-05-01-Howtodesignaccessibleformsin10steps_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 6. 스타일 및 오류 올바르게 작성하기
 
@@ -84,7 +147,18 @@ isUpdated: true
 내용
 오류 메시지는 평문으로 작성하고 기술 용어를 피하여 오류가 이해하기 쉽도록 해야 합니다. 메시지는 사용자가 오류를 어떻게 수정할 수 있는지에 대한 적절한 제안을 제공해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 화면 판독기가 필드가 잘못되었음을 이해할 수 있도록 ARIA 속성 aria-invalid="true"을 사용하세요. 이 속성은 화면 판독기가 해당 컨트롤을 "잘못됨"이나 주의가 필요한 상태로 인식하도록 합니다. 어떤 인라인 오류가 양식 필드와 연결되어 있는지 지정하려면 aria-describedby를 사용하세요.
 
@@ -94,7 +168,18 @@ isUpdated: true
 
 가끔 양식은 관련된 필드 요소들로 이루어질 수 있습니다. 예를 들어, 주소 입력을 구성하는 여러 요소나 라디오 버튼에는 여러 옵션이 있을 수 있습니다. 이러한 상황에서 관련 필드 그룹에 적절한 레이블을 붙이면 화면 판독기가 필드의 관계를 식별할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 필드셋과 레전드를 사용할 수 있습니다. 레전드는 일반적으로 질문이나 요청되는 그룹의 레이블로 사용될 수 있으며, 화면 판독기가 필드와 그룹의 레이블을 들을 수 있도록 합니다. 필드셋은 폼 컨트롤을 함께 그룹화하는 데 사용됩니다.
 
@@ -104,7 +189,18 @@ isUpdated: true
 
 지침은 사용자가 폼이나 개별 요소를 완료하는 방법을 이해하는 데 중요하며, 모든 사용자가 접근할 수 있어야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용자가 양식을 시작하기 전에 상황에 맞는 정보를 제공하는 것이 도움이 됩니다. 예를 들어, 양식을 완료하는 데 사용자가 필요한 것이 있는지 여부를 설명하거나 시간 제한이 있는지를 설명할 수 있습니다. 이러한 지침은 화면 판독기에서 읽혀지도록 `form` 요소 앞에 표시되어야 합니다.
 
@@ -114,7 +210,18 @@ isUpdated: true
 
 양식에서 필수 항목은 명확히 식별되어야 합니다. 가장 적게 발생하는 경우에 따라 필수 필드나 선택적 필드를 보여줌으로써 이를 수행할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 필수 속성은 양식 컨트롤에 추가할 수 있으며 프로그램적으로 해당 양식 필드가 필수임을 나타낼 수 있습니다. 웹 브라우저가 HTML5을 지원하는 경우, 필드를 작성하지 않은 상태로는 양식을 제출할 수 없습니다. aria-required 속성을 사용하여 보조 기술에 필수 컨트롤에 대한 정보를 전달하여 사용자에게 알릴 수 있습니다. HTML5를 지원하는 대부분의 브라우저는 HTML5 required 속성이 존재할 때 자동으로 값을 true로 설정하지만, aria-required를 포함하면 오래된 웹 브라우저도 지원됩니다.
 
@@ -124,7 +231,18 @@ isUpdated: true
 
 접근성 요구사항을 가진 많은 사용자들은 양식을 작성하는 데 더 많은 시간이 필요할 수 있습니다. 예를 들어 시각 장애가 있는 사용자는 페이지에서 정보를 찾고 읽는 데 더 많은 시간이 필요할 것이며 타임아웃 경고 메시지를 보지 못할 수도 있습니다. 인지나 학습 장애가 있는 사용자는 양식의 내용을 읽고 이해하는 데 더 많은 시간이 필요할 수 있습니다. 청각 장애가 있는 사용자는 청각 정보를 처리하거나 영어가 주 언어가 아닐 때(예: 영어가 아닌 사용자 또는 수화 언어 사용자) 이해하는 데 더 많은 시간이 필요할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시간 제한이 필요한 경우 (예: 보안상의 이유로), 사용자는 이를 꺼거나 시간 제한을 연장할 수 있어야 합니다. 사용자는 양식을 시작할 때 시간 초과와 시간 제한이 무엇인지에 대해 알려져야 합니다.
 

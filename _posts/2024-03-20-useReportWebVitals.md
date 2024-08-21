@@ -3,17 +3,13 @@ title: "Nextjs 14에서 코어 웹 바이탈 분석 서비스 이용 하는 방�
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # Nextjs 14에서 코어 웹 바이탈 분석 서비스 이용 하는 방법
 
@@ -46,7 +42,18 @@ export default function Layout({ children }) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 > "useReportWebVitals" 훅을 사용하려면 "use client" 지시문이 필요합니다. 성능을 최적화하기 위한 가장 좋은 방법은 루트 레이아웃에서 가져오는 별도의 컴포넌트를 만드는 것입니다. 이렇게 하면 클라이언트 경계가 WebVitals 컴포넌트에만 제한됩니다.
 
@@ -62,7 +69,18 @@ export default function Layout({ children }) {
 - rating: 메트릭 값의 질적 등급으로 성능을 평가하는 값입니다. 가능한 값으로 "good", "needs-improvement", "poor"가 포함됩니다. 이 등급은 일반적으로 메트릭 값을 수용 가능하거나 최적화되지 않은 성능을 나타내는 미리 정의된 임계값과 비교하여 결정됩니다.
 - value: 성능 엔트리의 실제 값 또는 지속 시간. 값은 일반적으로 밀리초 단위이며 메트릭으로 추적되는 성능 측면의 양적 측정을 제공합니다. 값의 소스는 측정되는 특정 메트릭에 따라 다르며 다양한 성능 API에서 가져올 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 웹 비탈스
 
@@ -77,7 +95,18 @@ export default function Layout({ children }) {
 
 이러한 지표들의 결과를 모두 name 속성을 사용하여 처리할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```typescript
 "use client";
@@ -105,7 +134,18 @@ Vercel Speed Insights는 Vercel 배포에 자동으로 구성되며 useReportWeb
 
 ## 외부 시스템으로 결과 전송
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사이트에서 실제 사용자 성능을 측정하고 추적하기 위해 어떤 엔드포인트로든 결과를 전송할 수 있습니다. 예를 들어:
 
@@ -140,4 +180,15 @@ useReportWebVitals((metric) => {
 Google Analytics로 결과 전송에 대해 더 알아보기
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

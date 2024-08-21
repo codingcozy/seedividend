@@ -3,17 +3,13 @@ title: "CSS Pseudo-클래스 사용 방법 정리"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Mastering CSS Pseudo-classes  A Comprehensive Guide - Part 1"
 link: "https://medium.com/@paddyuiux/mastering-css-pseudo-classes-a-comprehensive-guide-part-1-2192d44fafaa"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/MasteringCSSPseudo-classesAComprehensiveGuide-Part1_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # CSS 가상 클래스의 이해:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS 가상 클래스는 요소의 특별한 상태를 지정하는 키워드입니다. 일반 클래스와 달리 HTML 요소에 직접 할당되는 것이 아니라 사용자 상호작용, 요소 계층 구조 또는 요소 상태와 같은 다양한 조건에 따라 적용됩니다.
 
@@ -42,7 +49,18 @@ CSS 가상 클래스는 요소의 특별한 상태를 지정하는 키워드입�
 - :out-of-range
 - :target
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1. :hover
 
@@ -52,7 +70,18 @@ CSS 가상 클래스는 요소의 특별한 상태를 지정하는 키워드입�
 
 이를 통해 개발자들은 사용자 상호 작용에 대응하여 요소의 모양을 변경함으로써 인터랙티브하고 매력적인 사용자 인터페이스를 만들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ---
 
@@ -64,7 +93,18 @@ CSS 가상 클래스는 요소의 특별한 상태를 지정하는 키워드입�
 
 이제 사용자가 버튼 위에 마우스를 올렸을 때 버튼에 스타일을 적용하려면 :hover를 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /* 버튼을 마우스 오버했을 때 버튼의 스타일을 지정합니다 */
@@ -80,7 +120,18 @@ button:hover {
 
 :hover 가상 클래스는 버튼뿐만 아니라 링크 (`a`), 이미지, div와 같은 다양한 HTML 요소에 적용하여 호버 효과를 만들고 사용자 경험을 향상시킬 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /* :hover 사용 예시 */
@@ -107,7 +158,18 @@ div:hover {
 
 ## 2. :active
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS에서 :active 가상 클래스는 사용자에 의해 활성화될 때 요소에 스타일을 적용하는 데 사용됩니다. 이는 일반적으로 사용자가 요소를 클릭할 때(버튼 또는 링크와 같은) 발생합니다.
 
@@ -115,7 +177,18 @@ CSS에서 :active 가상 클래스는 사용자에 의해 활성화될 때 요�
 
 이는 요소가 클릭되거나 활성화될 때 스타일을 적용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단한 HTML 버튼 엘리먼트를 생각해보세요:
 
@@ -133,7 +206,18 @@ button:active {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예제에서 사용자가 버튼 요소를 클릭하면 해당 배경색이 빨간색으로 바뀌고 텍스트 색상이 흰색으로 변경됩니다.
 
@@ -143,7 +227,18 @@ button:active {
 
 CSS의 :link 가상 클래스는 사용자가 아직 방문하지 않은 링크를 스타일링하는데 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 유사 클래스는 링크가 상호작용되기 전에 초기 스타일을 설정하는 데 종종 사용됩니다.
 
@@ -153,7 +248,18 @@ CSS의 :link 가상 클래스는 사용자가 아직 방문하지 않은 링크�
 
 앵커(`a`) 요소가 있는 간단한 HTML 구조를 고려해 보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 [https://example.com](Visit Example)
@@ -171,7 +277,18 @@ a:link {
 
 이 예시에서는 많은 브라우저에서 방문하지 않은 링크의 기본 스타일인 파란색과 밑줄이 없는 상태로 표시됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 :link 가상 클래스는 방문하지 않은 링크에만 적용된다는 점을 기억하는 것이 중요합니다.
 
@@ -181,7 +298,18 @@ a:link {
 
 CSS의 :visited 가상 클래스는 사용자가 방문한 링크의 스타일을 지정하는 데 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 의사 클래스는 사용자가 이미 방문한 링크와 아직 방문하지 않은 링크를 구별할 수 있게 해줍니다.
 
@@ -191,7 +319,18 @@ CSS의 :visited 가상 클래스는 사용자가 방문한 링크의 스타일�
 
 앵커(`a`) 요소를 포함한 이전과 동일한 HTML 구조를 고려해보세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <a href="https://example.com">Visit Example</a>
@@ -208,7 +347,18 @@ a:visited {
 
 이 예에서 사용자가 이미 방문한 후에 링크가 보라색으로 표시됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 중요한 점은 :visited 가상 클래스가 방문한 링크에만 적용된다는 것입니다.
 
@@ -218,7 +368,18 @@ a:visited {
 
 CSS의 :focus 가상 클래스는 요소가 포커스를 받을 때 스타일을 적용하는 데 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용자가 입력 필드, 텍스트 영역 또는 링크와 상호 작용할 때 자주 발생합니다. 사용자가 클릭하거나 키보드를 사용하여 해당 요소로 이동하는 경우 발생합니다.
 
@@ -228,7 +389,18 @@ CSS의 :focus 가상 클래스는 요소가 포커스를 받을 때 스타일을
 
 간단한 HTML 입력 필드를 갖는 양식을 고려해보세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <form>
@@ -249,7 +421,18 @@ input:focus {
 
 이 예시에서, "username"이라는 id를 가진 입력란이 포커스를 받으면 테두리 색이 파란색으로 바뀌고 파란색 그림자가 생기게 될 거에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 :focus 가상 클래스는 폼 요소에만 적용되는 것이 아니라, 링크 (`a` 요소)에 포커스를 받았을 때 스타일을 적용하는 데 사용할 수 있습니다.
 
@@ -259,7 +442,18 @@ input:focus {
 
 CSS의 :read-only 가상 클래스는 읽기 전용 상태에 있는 폼 요소에 스타일을 적용하는 데 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 의사 클래스는 사용자가 편집할 수 있는 입력 요소와 읽기 전용인 요소들을 시각적으로 구별할 수 있도록 도와줍니다.
 
@@ -269,7 +463,18 @@ readonly 속성이 설정된 입력 요소, 텍스트영역 및 기타 폼 컨�
 
 읽기 전용으로 설정된 입력 필드가 포함된 간단한 HTML 폼을 고려해보십시오:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <input type="text" value="읽기 전용 입력" readonly>
@@ -287,7 +492,18 @@ input:read-only {
 
 이 예시에서는 입력 필드가 읽기 전용 상태일 때 연한 회색 배경 색상과 회색 텍스트 색상을 가지게 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 :read-only 가상 클래스는 텍스트 영역, 체크박스 및 라디오 버튼과 같은 다른 폼 요소도 읽기 전용으로 설정될 때 스타일을 적용하는 데 사용할 수 있습니다.
 
@@ -297,7 +513,18 @@ CSS의 :read-write 가상 클래스는 사용자가 편집 가능한 폼 요소�
 
 이 가상 클래스를 사용하면 사용자가 편집할 수 있는 입력 요소와 읽기 전용인 요소 간의 시각적 차이를 만들어낼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 입력 요소, 텍스트 영역 및 읽기 전용 상태가 아닌 다른 양식 컨트롤에 스타일을 적용합니다.
 
@@ -309,7 +536,18 @@ CSS의 :read-write 가상 클래스는 사용자가 편집 가능한 폼 요소�
 <input type="text" value="편집 가능한 입력란">
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 사용자가 편집 가능한 입력 필드를 스타일링하려면 :read-write를 사용할 수 있어요.
 
@@ -325,7 +563,18 @@ input:read-write {
 
 :read-write 가상 클래스는 다른 폼 요소도 스타일링할 때 사용할 수 있어요. 예를 들어 텍스트영역, 체크박스, 라디오 버튼 등이 편집 가능할 때도 스타일을 적용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 8. :in-range
 
@@ -335,7 +584,18 @@ CSS의 :in-range 가상 클래스는 특정 범위 내에 값을 갖는 입력 �
 
 입력 요소(예: 텍스트 필드 또는 레인지 슬라이더)의 값이 해당 min 및 max 속성에 의해 정의된 허용 범위 내에 있을 때 스타일이 적용됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ---
 
@@ -347,7 +607,18 @@ CSS의 :in-range 가상 클래스는 특정 범위 내에 값을 갖는 입력 �
 
 이제, 값이 0에서 100 범위 내에 있는 경우 입력 필드에 스타일을 적용하려면 `:in-range`을 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /* 특정 범위 내의 값일 때 input 필드를 스타일링합니다 */
@@ -363,7 +634,18 @@ input:in-range {
 
 :in-range 가상 클래스는 범위 내의 값인 경우 다른 폼 요소를 스타일링하는 데에도 사용될 수 있습니다. range 슬라이더와 같은 다른 폼 요소도 해당 범위 내의 값을 가질 때 이 가상 클래스로 스타일을 지정할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <input type="range" min="0" max="100" value="50">
@@ -380,7 +662,18 @@ input[type="range"]:in-range {
 
 `:in-range`를 사용하여 사용자에게 입력값이 허용 범위 내에 있는지 시각적으로 나타내어 사용성 및 사용자 경험을 향상시킬 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 9. :out-of-range
 
@@ -390,7 +683,18 @@ CSS에서 사용되는 :out-of-range 가상 클래스는 값이 지정된 범위
 
 이는 입력 필드(텍스트 필드 또는 범위 슬라이더)의 값이 min 및 max 속성에 의해 정의된 허용 범위를 벗어난 경우 해당 요소에 스타일을 적용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ---
 
@@ -402,7 +706,18 @@ CSS에서 사용되는 :out-of-range 가상 클래스는 값이 지정된 범위
 
 이제 값이 0부터 100까지의 범위를 벗어나면 입력 필드에 스타일을 적용하려면 `:out-of-range`를 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /* 특정 범위를 벗어나는 경우 input 필드의 스타일을 지정합니다 */
@@ -417,7 +732,18 @@ input:out-of-range {
 
 :out-of-range 가상 클래스는 값이 지정된 범위를 벗어나는 경우 range 슬라이더와 같은 다른 폼 요소에도 스타일을 적용하는 데 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <input type="range" min="0" max="100" value="150">
@@ -434,7 +760,18 @@ input[type="range"]:out-of-range {
 
 :out-of-range를 사용하여 사용자가 허용 범위를 벗어나는 입력임을 시각적으로 나타내어 사용성과 전반적인 사용자 경험을 향상시킬 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 10. :target
 
@@ -444,7 +781,18 @@ CSS의 :target 가상 클래스는 URL의 단편 식별자의 대상인 요소�
 
 URL에 단편 식별자(예: #section1)가 추가되고 해당 URL의 id 속성과 일치하는 요소가 페이지에 있다면 해당 요소가 대상이 되며, :target 가상 클래스를 사용하여 해당 요소를 스타일링할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ---
 
@@ -477,7 +825,18 @@ URL에 단편 식별자(예: #section1)가 추가되고 해당 URL의 id 속성�
 
 이제 앵커 링크를 클릭했을 때 대상 섹션을 스타일링하려면 :target을 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /* 대상 섹션을 스타일링합니다 */
@@ -492,7 +851,18 @@ section:target {
 
 # 결론:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS 가상 클래스는 개발자가 동적이고 인터랙티브한 웹 경험을 만들 수 있는 강력한 도구입니다. 그들의 구문과 적용을 이해하면 웹 프로젝트의 시각적 매력과 사용성을 향상시킬 수 있습니다.
 

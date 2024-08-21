@@ -3,16 +3,13 @@ title: "Docker, Docker Compose, Docker Scout로 투-티어 애플리케이션 �
 description: ""
 coverImage: "/assets/img/2024-07-07-ContainerizingaTwo-TierApplicationwithDockerDockerComposeandDockerScout_0.png"
 date: 2024-07-07 23:33
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-ContainerizingaTwo-TierApplicationwithDockerDockerComposeandDockerScout_0.png
 tag: Tech
 originalTitle: "Containerizing a Two-Tier Application with Docker, Docker Compose, and Docker Scout"
 link: "https://medium.com/@bhavesh_jadhav/containerizing-a-two-tier-application-with-docker-docker-compose-and-docker-scout-a60c2e41d96b"
 isUpdated: true
 ---
-
-
-
 
 요즘 빠르게 변화하는 기술 분야에서 컨테이너화는 애플리케이션을 배포하고 관리하는 중추적인 요소로 자리잡았어요. Docker, Docker Compose, Docker Scout와 같은 도구들을 활용하면 프로세스를 혁신적으로 간소화하여 확장성, 보안, 효율성을 확보할 수 있어요. 이번 포스팅에서는 최근 진행한 프로젝트를 통해 이야기를 나눠보려고 해요. 이 프로젝트에서는 두 계층 애플리케이션을 컨테이너화하고 Docker Compose를 통해 조정, Docker Scout로 보안을 강화하는 과정을 소개할게요.
 
@@ -25,7 +22,18 @@ isUpdated: true
 - Docker Scout: Docker 이미지의 취약점 검사.
 - 코드 편집기: Visual Studio Code.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 프로젝트 개요
 
@@ -35,7 +43,18 @@ isUpdated: true
 
 ## 기능 요구 사항
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Docker를 사용하여 각 응용프로그램 구성 요소를 컨테이너화합니다.
 - Docker Compose를 사용하여 다중 컨테이너 설정을 구성합니다.
@@ -50,7 +69,18 @@ isUpdated: true
 
 # 배포 단계
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 컨테이너화된 이중 티어 애플리케이션을 배포하는 단계별 가이드입니다:
 
@@ -62,20 +92,40 @@ isUpdated: true
 
 **2. Docker 설치**
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 업데이트된 패키지 목록을 확인하고 Docker를 설치해보세요:
 
-
 sudo apt-get update
 sudo apt-get install docker.io
-
 
 ## 3. 도커 데몬 접근
 
 현재 사용자의 Docker 소켓 소유권을 변경해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 sudo chown $USER /var/run/docker.sock
@@ -89,7 +139,18 @@ sudo chown $USER /var/run/docker.sock
 sudo apt install docker-compose-v2
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 5. 깃허브 저장소 복제하기
 
@@ -102,7 +163,18 @@ cd Docker-Compose-Two-Tier-App
 
 ## 6. 도커 구성하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # Dockerfile for the backend
@@ -117,7 +189,18 @@ FROM mysql:5.7
 docker compose up -d
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 8. 어플리케이션에 접속하기
 
@@ -127,8 +210,18 @@ docker compose up -d
 
 실행 중인 컨테이너에 접속하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도커를 사용하여 MySQL 컨테이너에 접속하는 방법을 알아봅시다.
 
@@ -138,23 +231,43 @@ docker compose up -d
 도커 exec -it <mysql_컨테이너_아이디> mysql -u root -p
 ```
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```sql
-```
 
+```
 
 SHOW DATABASES;
 USE KYC;
 SHOW TABLES;
-SELECT * FROM messages;
+SELECT \* FROM messages;
 INSERT INTO messages (message) VALUES ("your message");
-
 
 ## 11. Install Docker Scout
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도커 스카우트 이미지 스캔을 위해 설치하세요:
 
@@ -168,7 +281,18 @@ curl -sSfL https://raw.githubusercontent.com/docker/scout-cli/main/install.sh | 
 
 도커허브에 로그인하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 도커 로그인
@@ -181,7 +305,16 @@ curl -sSfL https://raw.githubusercontent.com/docker/scout-cli/main/install.sh | 
 도커 스카웃 cves <이미지:태그>
 도커 스카웃 cves -o <이미지:태그> > scan_report.txt
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 14. 정리하기
 
@@ -192,10 +325,20 @@ docker compose up -d
 
 ## 15. EC2 인스턴스 종료하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 EC2 인스턴스를 사용한 후에는 불필요한 요금 발생을 방지하기 위해 반드시 종료하세요.
 
 # 결론
 
 Docker 및 Docker Compose를 사용하여 응용 프로그램을 컨테이너화하면 배포 및 관리 과정이 단순화되며, Docker Scout와 같은 도구는 취약점을 식별하여 보안을 강화합니다. 이 프로젝트는 이러한 도구들을 실습해보는 기회를 제공하며, 현대적인 DevOps 실천법에서 그 중요성을 강조합니다.
+```

@@ -3,17 +3,13 @@ title: "플러터에서 Riverpod를 올바르게 사용하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "The Right Way To Use Riverpod in Flutter"
 link: "https://medium.com/@fnfidanci/the-right-way-to-use-riverpod-in-flutter-77869f9b741c"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/TheRightWayToUseRiverpodinFlutter_0.png"/>
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # Riverpod를 Presenter로 사용하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가끔 상태가 변경될 때 위젯을 반환하고 싶지 않을 때가 있습니다. 가끔은 Riverpod가 단지 프리젠터 역할만 하는 경우가 있습니다. 사용자 정보 카드를 그리지 않아도 되는 경우도 있죠. 또는 리버포드를 사용하여 로그인 네트워크 호출에 액세스하기 위해 상태로 빈 문자열을 유지할 필요가 없는 경우도 있습니다. 걱정 마세요. 제가 무슨 말인지 이해하실 거예요.
 
@@ -34,7 +41,18 @@ isUpdated: true
 - Riverpod를 사용하여 네트워크 계층에 액세스하기 위해 사용하는 것뿐이죠. 이 것은 UI에서 직접 사용하여 수행할 수 있습니다(이것도 올바른 방법은 아닙니다).
 - Riverpod 내에서 네비게이션(예: 글로벌 네비게이터 키 사용)합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼, 무엇을 할 수 있을까요?
 
@@ -45,7 +63,18 @@ isUpdated: true
 
 보셨나요? 저는 Riverpod에 그 일을 맡기고 있어요. Riverpod에게 이동을 맡기지 않아요. 저는 성공 상태를 듣기만 하면 돼요. 이는 Riverpod, Bloc 또는 다른 상태 관리 도구에서 발생할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 앱을 통해 너무 많은 데이터를 전달한다고 느끼세요?
 
@@ -55,7 +84,18 @@ isUpdated: true
 
 제가 GetProductsProvider를 사용할 때마다 현재 값인 ProductFilter를 전달해야 합니다. 그리고 제가 제품 페이지에 있고 필터를 변경하면 filter 매개변수와 함께 getProducts를 호출해야 합니다. 업데이트를 수동으로 트리거하는 다른 방법을 사용할 수 있습니다. 필터 변경에 대해 즉각적인 효과가 나타나지 않을 수 있고 사용자가 언제 적용될지를 결정할 수 있습니다. 그렇지만, 여전히 매번 필터 값을 전달할 필요가 없어요. 이렇게 계속하고 있다고 느낄 때, ProductFilter에 액세스하기 위해 다른 공급자에 의존해야 해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 올바른 방법
 
@@ -65,7 +105,18 @@ filter를 읽고 제품을 가져옵니다. ProductFilterProvider의 상태 변�
 
 보세요? 어렵게 하려고 노력하지 않습니다. 데이터를 전달하는 것보다 훨씬 쉽습니다. 그러나 반복적인 경우가 없다면 인수를 사용할 수 있습니다. 예를 들어 제품 ID로 제품 세부 정보를 가져오기와 같은 경우입니다. 이렇게요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 마무리
 
@@ -75,6 +126,28 @@ filter를 읽고 제품을 가져옵니다. ProductFilterProvider의 상태 변�
 
 읽어주셔서 감사합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

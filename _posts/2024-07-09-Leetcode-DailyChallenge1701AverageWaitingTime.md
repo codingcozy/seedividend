@@ -3,16 +3,13 @@ title: "Leetcode-데일리 챌린지 1701 평균 대기 시간 구하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-Leetcode-DailyChallenge1701AverageWaitingTime_0.png"
 date: 2024-07-09 21:11
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-Leetcode-DailyChallenge1701AverageWaitingTime_0.png
 tag: Tech
 originalTitle: "Leetcode-Daily Challenge: 1701. Average Waiting Time"
 link: "https://medium.com/@trinadhrayala/leetcode-daily-challenge-1701-average-waiting-time-acd53263b9fa"
 isUpdated: true
 ---
-
-
-
 
 트리나드 라야라의 환영 메시지:
 제 글을 읽어 주셔서 감사합니다! 내용이 마음에 드셨다면 Clapping을 누르고 Medium에서 저를 팔로우해 주시면 감사하겠습니다. 여러분의 지원이 저에게 많은 힘이 됩니다. 앞으로도 유익한 콘텐츠를 계속 제작할 수 있도록 도와주세요.
@@ -25,7 +22,18 @@ isUpdated: true
 
 고객이 도착하면 요리사에게 주문을 하고, 요리사는 한 번에 한 명의 고객을 위해 음식을 준비합니다. 요리사는 입력으로 주어진 순서대로 고객들을 위해 음식을 준비합니다. 고객은 요리사가 주문을 준비하는 동안 기다립니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 고객의 평균 대기 시간을 반환합니다. 실제 답변과 10-5 내의 해결책은 허용됩니다.
 예시 1:
@@ -53,7 +61,18 @@ Explanation:
 따라서 평균 대기 시간은 (2 + 6 + 4 + 1) / 4 = 3.25입니다.
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제약 조건:
 
@@ -62,16 +81,27 @@ Explanation:
 - arrival[i] ≤ arrival[i+1]
 
 1. time 및 avgTime을 0으로 초기화합니다.
-time은 요리사가 현재 주문을 마칠 시간을 추적합니다.
-avgTime은 모든 고객들의 총 대기 시간을 누적합니다.
+   time은 요리사가 현재 주문을 마칠 시간을 추적합니다.
+   avgTime은 모든 고객들의 총 대기 시간을 누적합니다.
 
 2. 고객을 순회합니다:
-만약 요리사가 이전 주문을 마치고 현재 고객이 도착하기 전에 있다면 (time < arrival[i]), time을 현재 고객의 도착 시간으로 업데이트합니다 (time = arrival[i]).
-현재 주문의 준비 시간을 time에 추가합니다 (time += time[i]).
-현재 고객의 대기 시간을 계산하고 (time - arrival[i]) avgTime에 추가합니다.
+   만약 요리사가 이전 주문을 마치고 현재 고객이 도착하기 전에 있다면 (time < arrival[i]), time을 현재 고객의 도착 시간으로 업데이트합니다 (time = arrival[i]).
+   현재 주문의 준비 시간을 time에 추가합니다 (time += time[i]).
+   현재 고객의 대기 시간을 계산하고 (time - arrival[i]) avgTime에 추가합니다.
 3. 평균 대기 시간은 avgTime을 고객 수로 나누어 계산합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 class Solution {
@@ -97,9 +127,18 @@ class Solution {
 팁:
 주어진 문제 설명을 더 잘 이해하기 위해 leetcode에서 제공한 힌트를 읽고 이해해 보세요.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image 0](/assets/img/2024-07-09-Leetcode-DailyChallenge1701AverageWaitingTime_0.png)
 
@@ -109,8 +148,18 @@ class Solution {
 
 ![Image 3](/assets/img/2024-07-09-Leetcode-DailyChallenge1701AverageWaitingTime_3.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 감사합니다.
 참고: 수정이 필요한 부분이 있으면 피드백란에 언급해 주시고 친구들과 공유해 주시고 팔로우 버튼을 클릭해 주세요.

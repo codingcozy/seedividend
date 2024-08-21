@@ -3,16 +3,13 @@ title: "Reactjs 심층 분석 1  createElement와 jsx-runtime"
 description: ""
 coverImage: "/assets/img/2024-06-20-ReactjsDeepDive1createElementandjsx-runtime_0.png"
 date: 2024-06-20 07:13
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-ReactjsDeepDive1createElementandjsx-runtime_0.png
 tag: Tech
 originalTitle: "React.js Deep Dive #1 — createElement and jsx-runtime"
 link: "https://medium.com/@juliaazt/react-js-deep-dive-1-createelement-and-jsx-runtime-63c75882f7b0"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-06-20-ReactjsDeepDive1createElementandjsx-runtime_0.png" />
 
@@ -22,17 +19,24 @@ React는 사용자 인터페이스를 구축하기 위한 인기 있는 JavaScri
 
 # React 17 이전
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전에는 JSX가 React.createElement 호출로 컴파일되었습니다. 예를 들어, 다음 JSX:
 
 ```js
 function App() {
-  return (
-    <div>
-      My App
-    </div>
-  );
+  return <div>My App</div>;
 }
 
 export default App;
@@ -43,12 +47,23 @@ export default App;
 ```js
 function App() {
   return React.createElement("div", {
-    children: "My App"
+    children: "My App",
   });
 }
-``` 
+```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # React 17버전 이후
 
@@ -56,11 +71,7 @@ function App() {
 
 ```js
 function App() {
-  return (
-    <div>
-      My App
-    </div>
-  );
+  return <div>My App</div>;
 }
 
 export default App;
@@ -68,13 +79,24 @@ export default App;
 
 다음으로 변환됩니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { jsx as _jsx } from "react/jsx-runtime";
 function App() {
-  return /*#__PURE__*/_jsx("div", {
-    children: "내 앱"
+  return /*#__PURE__*/ _jsx("div", {
+    children: "내 앱",
   });
 }
 export default App;
@@ -84,20 +106,37 @@ export default App;
 
 ```js
 function App() {
-  return /*#__PURE__*/(0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)("div", {
-    children: "내 앱"
-  }, void 0, false, {
-    fileName: _jsxFileName,
-    lineNumber: 3,
-    columnNumber: 5
-  }, this);
+  return /*#__PURE__*/ (0, react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(
+    "div",
+    {
+      children: "내 앱",
+    },
+    void 0,
+    false,
+    {
+      fileName: _jsxFileName,
+      lineNumber: 3,
+      columnNumber: 5,
+    },
+    this
+  );
 }
 ```
 
 # 왜 이 변화가 있었을까요?
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새로운 JSX 트랜스폼에는 여러 가지 이점이 있습니다:
 
@@ -118,15 +157,26 @@ function App() {
   _store: {validated: false}
   _self: undefined
   _source: {
-    fileName: '/my-app/src/App.tsx', 
-    lineNumber: 3, 
+    fileName: '/my-app/src/App.tsx',
+    lineNumber: 3,
     columnNumber: 5
   }
   [[Prototype]]: Object
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자, 이제 반환된 각 속성을 자세히 살펴보겠습니다:
 
@@ -136,7 +186,18 @@ function App() {
 
 프롭스
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 전달 된 props 중에서 ref 및 key를 제외한 항목들. 컴포넌트의 타입이 defaultProps 속성을 가지고 있다면, 누락되거나 정의되지 않은 props는 기본 값으로 설정됩니다.
 
@@ -146,7 +207,18 @@ ref
 
 key
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 마크다운 형식으로 변경해주세요.
 
@@ -154,11 +226,21 @@ key
 
 전달된 키가 문자열로 강제 변환됩니다. 키가 전달되지 않았다면, 이 속성은 null이 될 것입니다.
 
-중요한 점은 $$typeof, _store, _owner 및 _self가 React에서 개발 시 사용되는 내부 메커니즘임을 알아두어야 합니다. 이들은 React 작동에 중요한 역할을 하지만, 애플리케이션 코드에서 사용되도록 의도된 것은 아닙니다.
+중요한 점은 $$typeof, \_store, \_owner 및 \_self가 React에서 개발 시 사용되는 내부 메커니즘임을 알아두어야 합니다. 이들은 React 작동에 중요한 역할을 하지만, 애플리케이션 코드에서 사용되도록 의도된 것은 아닙니다.
 
-$$typeoff
+$$
+typeoff
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React는 React 요소를 고유하게 식별하기 위해 $$typeof 속성을 사용합니다. 심볼을 초기에 사용한 선택은 다른 환경에서 전역 고유성을 보장하고 다른 라이브러리나 전역 범위의 코드와의 이름 충돌을 피하기 위한 욕구에서 비롯되었습니다.
 
@@ -168,7 +250,16 @@ React 요소 객체의 _store 속성은 주로 개발 모드(__DEV__)에서 유�
 
 _owner
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React에서 _owner 속성은 구성 요소 인스턴스의 소유자를 추적하는 데 내부적으로 사용됩니다. 이것은 React의 조정 프로세스에 중요한데요, 여기서 구성 요소가 다시 렌더링해야 하는지 여부를 결정합니다. 부모 구성 요소가 렌더링되면, 해당 자식 구성 요소의 인스턴스가 생성됩니다. 이러한 각 자식 인스턴스는 _owner 속성을 통해 부모에 대한 참조를 가지게 됩니다. 이를 통해 React는 구성 요소의 계층 구조를 추적하고 상태 변경을 효율적으로 관리할 수 있습니다.
 
@@ -178,7 +269,16 @@ React 요소의 _self 속성은 개발 모드 확인 및 최적화를 위해 Rea
 
 이벤트가 트리거될 때 React는 _self를 사용하여 이벤트의 원래 대상을 기억합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 _소스
 
@@ -188,7 +288,16 @@ _소스
 
 요약하면, 리액트는 React 17부터 도입된 새 JSX 변환에서 더 이상 React.createElement을 직접적으로 사용하지 않습니다. 대신, react/jsx-runtime(jsx, jsxs) 및 react/jsx-dev-runtime(jsxDEV)에서 함수를 사용합니다. 이 변경으로 JSX를 사용할 때 React를 가져와야 하는 필요성을 제거하고, 잠재적으로 더 작은 번들 크기를 갖게 하며, 미래의 향상을 대비합니다. 해당 기능을 이해함으로써 리액트의 작동 방식에 대해 보다 깊은 통찰을 얻을 수 있어서 효율적이고 효과적인 리액트 애플리케이션을 작성하는 능력을 향상시킬 수 있습니다. 다음 글에서는 가상 DOM을 탐험하고, 리액트가 렌더링 성능을 최적화하기 위해 어떻게 사용하는지 살펴볼 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 더 많은 통찰과 즐거운 코딩을 기대해 주세요!
 
@@ -197,3 +306,4 @@ _소스
 - React 문서: React 17: 새로운 JSX 변환
 - Babel 문서: Babel: JSX 런타임
 - Webpack 문서: Webpack: 모드 구성
+$$

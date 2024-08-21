@@ -3,17 +3,13 @@ title: "TypeScript 네트워크 서버 구축법 Nodejs 멀티스레드 함수 �
 description: ""
 coverImage: "/assets/img/2024-07-13-HowToWriteATypescriptNodeJSMulti-ThreadedFunction_0.png"
 date: 2024-07-13 20:38
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-HowToWriteATypescriptNodeJSMulti-ThreadedFunction_0.png
 tag: Tech
 originalTitle: "How To Write A Typescript Node JS Multi-Threaded Function"
 link: "https://medium.com/gitconnected/how-to-write-a-typescript-node-js-multi-threaded-function-8b6fa847d272"
 isUpdated: true
 ---
-
-
-
-
 
 ![링크](/assets/img/2024-07-13-HowToWriteATypescriptNodeJSMulti-ThreadedFunction_0.png)
 
@@ -23,18 +19,39 @@ TypeScript과 Node.js는 단일 스레드 및 이벤트 기반 모드에서 작�
 
 단일 스레드 형식 — 기본적으로 Node.js는 TypeScript 코드를 실행하는 데 단일 스레드를 사용합니다. 이 설계는 여러 스레드를 관리하는 복잡성을 피하므로 비동기 작업을 간단하게 처리할 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 워커 스레드 모듈 - 워커 스레드 모듈은 Node.js의 기능으로, 개발자가 메인 스레드와 별도로 추가 스레드를 생성할 수 있게 합니다. 이러한 워커 스레드는 TypeScript 코드를 독립적으로 실행하여 작업을 병렬로 처리할 수 있는 방법을 제공합니다.
 
 멀티 스레딩의 사용 사례 - 멀티 스레딩은 CPU 집중형 계산이나 병렬 비동기 작업과 같이 특정 작업을 분할하고 동시에 실행할 수 있는 시나리오에서 유용합니다. 이를 통해 여러 스레드의 처리 능력을 활용하여 응용 프로그램의 전반적인 성능을 향상시킬 수 있습니다.
 
-예제로 넘어가기 전에.... 
+예제로 넘어가기 전에....
 
 # 멀티 스레딩에 대한 추가 고려 사항
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 많은 이유로 멀티스레딩을 피하고 Node.js의 싱글 스레드 특성을 활용하는 것이 좋습니다. 전진하기 전에 고려해야 할 몇 가지 중요한 부분이 있습니다.
 
@@ -44,7 +61,18 @@ TypeScript과 Node.js는 단일 스레드 및 이벤트 기반 모드에서 작�
 
 확장성: 멀티스레딩은 멀티 코어 프로세서에서 사용 가능한 리소스를 효율적으로 활용할 수 있도록 해 확장성을 향상시킬 수 있습니다. 그러나 멀티스레드 애플리케이션을 확장하기 위해서는 부하 분산 및 리소스 경합과 같은 요소들을 신중히 고려하여 최적의 성능을 달성해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 디버깅 복잡성: 멀티스레드 응용 프로그램을 디버깅하는 것은 단일 스레드 응용 프로그램보다 얽힌 스레드 상호작용과 잠재적 동시성 문제로 인해 더 도전적일 수 있습니다. 개발자는 쓰레딩 관련 문제를 효과적으로 진단하고 해결하기 위해 전문적인 디버깅 도구와 기술을 사용해야 할 수도 있습니다.
 
@@ -54,10 +82,21 @@ TypeScript과 Node.js는 단일 스레드 및 이벤트 기반 모드에서 작�
 
 다음은 Worker Threads를 사용한 TypeScript 예시를 제공하겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```typescript
-import { Worker, isMainThread, parentPort } from 'worker_threads';
+import { Worker, isMainThread, parentPort } from "worker_threads";
 
 function runWorkerThread() {
   if (isMainThread) {
@@ -67,18 +106,18 @@ function runWorkerThread() {
     const worker = new Worker(__filename);
 
     // 워커 스레드로부터 메시지를 수신합니다
-    worker.on('message', (result: any) => {
-      console.log('워커로부터 결과:', result);
+    worker.on("message", (result: any) => {
+      console.log("워커로부터 결과:", result);
     });
 
     // 워커 스레드로 데이터를 보냅니다
-    worker.postMessage({ data: '메인 스레드로부터 안녕하세요!' });
+    worker.postMessage({ data: "메인 스레드로부터 안녕하세요!" });
   } else {
     // 이것은 워커 스레드입니다
 
     // 메인 스레드로부터 메시지를 수신합니다
-    parentPort?.on('message', (message: any) => {
-      console.log('메인 스레드로부터 메시지:', message);
+    parentPort?.on("message", (message: any) => {
+      console.log("메인 스레드로부터 메시지:", message);
 
       // 일부 무거운 계산을 수행합니다
       const result = performHeavyComputation();

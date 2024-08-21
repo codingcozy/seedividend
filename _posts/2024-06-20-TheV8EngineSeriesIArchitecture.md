@@ -3,16 +3,13 @@ title: "V8 엔진 시리즈 I 아키텍처"
 description: ""
 coverImage: "/assets/img/2024-06-20-TheV8EngineSeriesIArchitecture_0.png"
 date: 2024-06-20 04:04
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-TheV8EngineSeriesIArchitecture_0.png
 tag: Tech
 originalTitle: "The V8 Engine Series I: Architecture"
 link: "https://medium.com/@braineanear/the-v8-engine-series-i-architecture-ba08a38c54fa"
 isUpdated: true
 ---
-
-
-
 
 ![V8 Engine Series Architecture](/assets/img/2024-06-20-TheV8EngineSeriesIArchitecture_0.png)
 
@@ -22,7 +19,18 @@ V8은 현대 웹 브라우저에서 JavaScript와 WebAssembly을 실행하기 �
 
 이 시리즈에서는 V8 엔진의 내부 아키텍처를 탐구하며, 개요부터 시작하여 각 구성 요소를 자세히 살펴보고 기술적 세부 사항을 설명할 것입니다. 시리즈가 끝나면 V8 엔진을 사용하여 Node.js와 유사한 것을 간소화된 버전으로 만들 것입니다. V8를 통해 정보를 얻고 실용적인 여정을 계속 따라와 주세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # V8 아키텍처의 주요 구성 요소
 
@@ -32,7 +40,18 @@ V8 아키텍처의 첫 번째 구성 요소는 파서입니다. 이는 JavaScrip
 
 ## 2. 이그니션 인터프리터
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이그니션은 V8 내부의 낮은 수준에서 작동하는 가벼운 인터프리터입니다. 이는 AST를 바이트코드로 컴파일하여 자바스크립트 소스 코드의 고효율 표현으로 작용합니다. 이것은 고수준 자바스크립트와 저수준 머신 코드 사이의 다리 역할을하며 보다 효율적으로 실행됩니다.
 
@@ -42,7 +61,18 @@ TurboFan은 V8의 최적화 컴파일러입니다. 이는 Ignition에서 생성�
 
 # 자세한 V8 아키텍처
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1. 파싱
 
@@ -52,7 +82,18 @@ TurboFan은 V8의 최적화 컴파일러입니다. 이는 Ignition에서 생성�
 
 이는 사람이 읽을 수 있는 코드를 엔진이 올바르고 효과적으로 사용할 수 있도록 만들기 때문입니다. V8는 JavaScript를 해석하지 않습니다. V8와 같은 엔진에서 제대로 실행되려면 이 형태여야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AST는 여러 이유로 필수입니다:
 
@@ -66,21 +107,39 @@ AST는 여러 이유로 필수입니다:
 const chk = "have it";
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 코드는 다음과 같이 시각적으로 AST로 구문 분석됩니다:
 
-
 ![image](/assets/img/2024-06-20-TheV8EngineSeriesIArchitecture_2.png)
-
 
 ## 2. 바이트 코드 생성 (Ignition)
 
-
 ![image](/assets/img/2024-06-20-TheV8EngineSeriesIArchitecture_3.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AST가 형성되면 Ignition은 이를 바이트코드로 컴파일합니다. 바이트코드는 원래의 JavaScript 소스보다 더 빠르게 실행되는 중간 코드 표현입니다. Ignition은 이 바이트코드를 계속 실행하여 V8의 최적화 컴파일러 TurboFan 내에서 효과적인 최적화를 위해 필요한 런타임 정보를 수집할 수 있게 합니다.
 
@@ -92,7 +151,18 @@ AST를 바이트코드로 변환하는 과정은 다음과 같습니다:
 - 명령어 집합: 바이트코드는 V8에서 실행을 위해 최적화된 명령어 집합으로 구성됩니다.
 - 효율성: 바이트코드는 더 작고 더 효율적이므로 고수준 JavaScript 코드를 실행하는 것보다 더 빠르게 실행됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 바이트코드 생성 후에 Ignition이 실행을 시작합니다. 이는 몇 가지 이유로 매우 중요한 실행 단계입니다:
 
@@ -103,7 +173,18 @@ AST를 바이트코드로 변환하는 과정은 다음과 같습니다:
 
 ## 3. 최적화 (TurboFan)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```html
 <img src="/assets/img/2024-06-20-TheV8EngineSeriesIArchitecture_4.png" />
@@ -115,7 +196,18 @@ TurboFan는 JavaScript를 더 효율적으로 최적화된 기계 코드로 생�
 
 ## 1. JavaScript에서 IR(Intermediate Representation)로
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 JavaScript 코드가 실행되면 먼저 AST가 파생됩니다. 그런 다음 TurboFan은 이 AST를 더 유연한 IR 구조로 변환하는데, 이를 "노드의 바다"라고 합니다. 이는 그래프 기반 IR이며, 따라서 TurboFan에서는 연산 간 복잡한 관계를 표현함으로써 많은 최적화를 수행할 수 있습니다.
 
@@ -128,7 +220,18 @@ TurboFan 컴파일러는 IR에 여러 고급 최적화를 적용합니다:
 - 인라인 캐싱: 첫 번째 참조 후 객체 유형 및 속성을 캐싱하여 속성 액세스 속도를 높이며, 반복 액세스 시 유형 검사 및 찾아보기를 우회합니다.
 - 숨겨진 클래스: 숨겨진 클래스를 제공하여 객체의 속성 액세스를 매우 효율적으로 만들며, 속성이 추가될 때 객체를 변환합니다. 메모리 레이아웃을 예측하고 예측을 바탕으로 최적화된 코드를 생성합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 3. IR(Intermediate Representation)에서 머신 코드로
 
@@ -140,7 +243,18 @@ TurboFan의 컴파일은 다음 단계로 진행됩니다:
 - 레지스터 할당: TurboFan은 변수에 대한 CPU 레지스터를 할당하여 메모리 접근을 최소화하고 그 과정에서 실행 시간을 가속화합니다. 사용 패턴 및 가용성에 따라 변수 저장을 위한 최상의 레지스터를 선택합니다.
 - 코드 생성: 이것이 이전 단계에서의 모든 최적화 및 적응을 포함한 결과 머신 코드일 것입니다. 따라서 이것이 CPU가 실행하는 실제 머신 코드입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 런타임 시, V8은 자바스크립트 코드 동작을 모니터링하여 자주 호출되는 함수 및 자주 액세스되는 속성에 대한 데이터를 수집합니다. 이 런타임 프로파일링을 통해 TurboFan은 최적화된 핫 코드 경로를 결정하고 가능한 한 효율적인 기계 코드로 변환합니다.
 
@@ -150,7 +264,18 @@ TurboFan의 컴파일은 다음 단계로 진행됩니다:
 
 ## TurboFan의 중요성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 성능: TurboFan의 정교한 최적화로 JavaScript 코드가 더 빠르게 실행됩니다. 이는 웹 응용 프로그램에서 응답성이 중요한 경우와 효율성이 확장성과 비용에 중요한 영향을 미치는 서버 측 응용 프로그램에서 모두 중요합니다.
 - 최신 JavaScript 기능 지원: TurboFan은 모든 최신 JavaScript 기능 (ES6 이상)을 지원하도록 설계되었습니다. 유연한 설계로 새로운 언어 기능을 추가할 때 많은 아키텍처별 코드를 다시 작성할 필요가 없습니다.
@@ -162,7 +287,18 @@ TurboFan의 컴파일은 다음 단계로 진행됩니다:
 
 이러한 분리로 인해 최적화 및 기능 구현 시 엔지니어가 지역적으로 사고할 수 있어 더 견고하고 유지 보수가 쉬운 코드를 작성할 수 있습니다. 계층화된 접근 방식은 플랫폼별 코드가 필요한 양을 줄입니다. TurboFan이 지원하는 일곱 가지 대상 아키텍처 각각은 CrankShaft의 13,000-16,000 줄에 비해 3,000 줄 미만의 플랫폼별 코드를 필요로 합니다. 이 간소화된 설계는 ARM, Intel, MIPS, IBM 등의 엔지니어가 더 효과적으로 기여할 수 있도록 했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 TurboFan은 CrankShaft보다 더 강력한 최적화를 구현하는 여러 가지 고급 기술을 통해 성능을 향상시킵니다. JavaScript는 최적화되지 않은 형태로 컴파일러 파이프라인에 들어가며 점진적으로 번역되어 낮은 형태로 최적화됩니다. TurboFan의 핵심은 코드의 조합을 더 효과적으로 재정렬하고 최적화할 수 있는 내부 표현(IR)인 '노드 바다'입니다.
 
@@ -175,7 +311,18 @@ TurboFan은 CrankShaft보다 더 강력한 최적화를 구현하는 여러 가�
 
 TurboFan은 ES5에서 사용 가능한 모든 JavaScript 기능을 최적화하기 위해 설계되었으며 ES2015 및 이후 계획된 기능을 수용합니다. 계층별 컴파일러 설계는 고수준 및 저수준 컴파일러 최적화 사이에 깔끔한 분리를 제공하여 새로운 언어 기능을 추가할 때 아키텍처별 코드를 변경하지 않고 간단화합니다. TurboFan은 명시적 명령 선택 컴파일 단계를 도입하여 아키텍처별 코드가 더 필요하지 않도록 하며 컴파일러를 모든 지원되는 아키텍처에서 유지 관리 및 확장 가능하도록 만듭니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 개념을 이해한다면, 개발자는 현대 JavaScript 엔진의 복잡성을 인지하고 V8의 기능을 완전히 활용하는 코드를 작성할 수 있습니다. TurboFan의 혁신과 최적화는 V8 엔진의 필수 구성 요소로, 오늘날과 미래의 JavaScript 애플리케이션의 성능과 효율성을 촉진합니다.
 
@@ -188,7 +335,18 @@ TurboFan은 ES5에서 사용 가능한 모든 JavaScript 기능을 최적화하�
 - 바이트코드로 되돌리기: V8는 그런 다음 Ignition에 의해 생성된 일반 바이트코드로 실행을 되돌립니다. 이는 안전하며 무효화된 가정에 기반하지 않습니다.
 - 재최적화: 되돌린 후에 새로운 패턴이 나타난 경우, V8는 코드를 다시 최적화할 수 있으며, 필요에 따라 최적화와 디옵티마이제이션의 사이클을 계속합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## V8 프로세스 흐름
 
@@ -207,7 +365,18 @@ TurboFan은 ES5에서 사용 가능한 모든 JavaScript 기능을 최적화하�
 
 요약하면, V8 엔진의 아키텍처는 오늘날의 웹 애플리케이션에 중요한 빠른 시작과 고속 실행이 결합된 것을 보여줍니다. V8의 구성 요소와 상호 작용을 이해하면 엔진의 기능에 대한 소중한 통찰력을 제공받아 효율적이고 고성능의 JavaScript 코드를 작성하며 이 정교한 엔진의 가능성을 최대한 활용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사를 읽어 주셔서 감사합니다. 유익하고 흥미로운 내용이었기를 바랍니다. 이 시리즈에서 더 많은 내용이 기대되니 기대해 주세요.
 

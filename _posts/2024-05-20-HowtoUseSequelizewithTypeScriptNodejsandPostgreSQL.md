@@ -3,7 +3,7 @@ title: "TypeScript, Nodejs, 그리고 PostgreSQL과 함께 Sequelize를 사용�
 description: ""
 coverImage: "/assets/img/2024-05-20-HowtoUseSequelizewithTypeScriptNodejsandPostgreSQL_0.png"
 date: 2024-05-20 22:18
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-20-HowtoUseSequelizewithTypeScriptNodejsandPostgreSQL_0.png
 tag: Tech
 originalTitle: "How to Use Sequelize with TypeScript, Node.js, and PostgreSQL"
@@ -11,10 +11,7 @@ link: "https://medium.com/javascript-in-plain-english/how-to-use-sequelize-with-
 isUpdated: true
 ---
 
-
-
-
-시작 가이드: TypeScript로 Sequelize 구성하기 
+시작 가이드: TypeScript로 Sequelize 구성하기
 
 모델, 연결 및 데이터베이스 연결을 정의하여 Sequelize를 TypeScript와 함께 설정하는 방법에 대해 알아보겠습니다.
 
@@ -24,7 +21,18 @@ isUpdated: true
 
 TypeScript, Node.js, Express.js 및 PostgreSQL을 함께 사용하면 견고한 백엔드 개발을 위한 강력한 조합을 제공합니다. Node.js를 위한 인기 있는 ORM인 Sequelize와 TypeScript의 정적 유형 지정 그리고 PostgreSQL의 신뢰성을 활용하여 효율적인 데이터 관리와 확장 가능성을 확보할 수 있습니다. 이 통합은 데이터의 모델링, 쿼리, 그리고 조작을 원활하게 하며 개발 경험을 향상시키면서 코드 무결성과 데이터베이스 무결성을 유지하는 데 도움이 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새로운 실시간 Node.js 앱이나 서비스를 시작할 때 가장 먼저 고려해야 할 것은 어디서 시작해야 하는지, 어떤 프레임워크나 ORM을 사용해야 하는지, 그리고 그것이 성능에 어떻게 영향을 미칠지 입니다. 또한, SQL 또는 NoSQL 데이터베이스를 선택하는 것에 따라 이 질문이 달라질 수 있습니다.
 
@@ -34,7 +42,18 @@ TypeScript, Node.js, Express.js 및 PostgreSQL을 함께 사용하면 견고한 
 
 우리는 sequelize, pg, pg-hstore이 npm 모듈을 사용하여 어플리케이션을 설정할 것이고, Jest를 사용하여 유닛 테스트 케이스도 추가했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 애플리케이션 복제하기
@@ -70,7 +89,18 @@ COPY init.sql /docker-entrypoint-initdb.d/
 RUN echo "CREATE EXTENSION IF NOT EXISTS postgis;" >> /docker-entrypoint-initdb.d/init.sql
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도커 Compose 파일을 만들어주세요. docker/postgresql 폴더에 아래 스크립트를 작성해주세요.
 
@@ -110,7 +140,18 @@ package.json 안에 Docker Compose 파일을 실행시키는 명령어를 추가
 "db:down": "docker-compose -f docker/postgresql/docker-compose.yml down"
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Postgresql을 실행하고 다음 명령어를 사용하여 데이터베이스를 생성하세요: npm run db:up.
 
@@ -120,7 +161,18 @@ Postgresql을 실행하고 다음 명령어를 사용하여 데이터베이스�
 
 Sequelize는 npm (또는 yarn)을 통해 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm install --save sequelize
@@ -133,8 +185,18 @@ npm install --save pg pg-hstore # Postgres
 
 src/database/config 폴더의 index.ts 파일에 데이터베이스 연결을 정의하고, .env npm 모듈을 사용하여 환경 변수를 가져옵니다. 환경에 따른 로직은 필요에 따라 수정할 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import path from 'path';
@@ -185,8 +247,18 @@ export default sequelizeConnection;
 
 src/App.ts 또는 서버 응용 프로그램의 진입 파일에 assertDatabaseConnection 메서드를 만들어 데이터베이스 확인을하는 메서드를 호출하세요.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 개인 async assertDatabaseConnection(): Promise<void> {
@@ -274,7 +346,18 @@ Enquiry.init(
 export { Enquiry, EnquiryAttributes, EnquiryCreationAttributes };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { 데이터 유형, 모델, 선택적, UUIDV4 } from 'sequelize';
@@ -351,90 +434,87 @@ Enquiry.init(
 - 공통 서비스 —이 서비스는 여러 데이터베이스 모델 간의 일반 작업 수행에 책임이 있습니다.
 - 이를 구성 요소 서비스에 주입하고 구성 요소 서비스에서 컨트롤러에서 해당 메서드에 액세스할 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // src/components/enquiry/EnquiryService.ts 파일을 생성하여 sequelize를 사용하여 생성된 모델의 데이터베이스 작업을 처리합니다.
 
-import {
- Enquiry,
- EnquiryAttributes,
- EnquiryCreationAttributes,
-} from '../../database/models/Enquiry';
-import logger from '../../lib/logger';
-import ApiError from '../../abstractions/ApiError';
-import { StatusCodes } from 'http-status-codes';
+import { Enquiry, EnquiryAttributes, EnquiryCreationAttributes } from "../../database/models/Enquiry";
+import logger from "../../lib/logger";
+import ApiError from "../../abstractions/ApiError";
+import { StatusCodes } from "http-status-codes";
 
 export class EnquiryService {
-
- async getAll(): Promise<EnquiryAttributes[]> {
-  try {
-   const enquiries = await Enquiry.findAll();
-   return enquiries;
-  } catch (error) {
-   logger.error(error);
-   throw error;
+  async getAll(): Promise<EnquiryAttributes[]> {
+    try {
+      const enquiries = await Enquiry.findAll();
+      return enquiries;
+    } catch (error) {
+      logger.error(error);
+      throw error;
+    }
   }
- }
 
- async getById(id: string | number): Promise<EnquiryAttributes> {
-  try {
-   const enquiry = await Enquiry.findByPk(id);
-   if (!enquiry) {
-    throw new ApiError('Enquiry not found', StatusCodes.NOT_FOUND);
-   }
-   return enquiry;
-  } catch (error) {
-   logger.error(error);
-   throw error;
+  async getById(id: string | number): Promise<EnquiryAttributes> {
+    try {
+      const enquiry = await Enquiry.findByPk(id);
+      if (!enquiry) {
+        throw new ApiError("Enquiry not found", StatusCodes.NOT_FOUND);
+      }
+      return enquiry;
+    } catch (error) {
+      logger.error(error);
+      throw error;
+    }
   }
- }
 
- async update(
-  id: string | number,
-  payload: Partial<EnquiryCreationAttributes>,
- ): Promise<EnquiryAttributes> {
-  try {
-   const enquiry = await Enquiry.findByPk(id);
-   if (!enquiry) {
-    throw new ApiError(
-     'Enquiry not found',
-     StatusCodes.NOT_FOUND,
-    );
-   }
-   const updatedEnquiry = await enquiry.update(payload);
-   return updatedEnquiry;
-  } catch (error) {
-   logger.error(error);
-   throw error;
+  async update(id: string | number, payload: Partial<EnquiryCreationAttributes>): Promise<EnquiryAttributes> {
+    try {
+      const enquiry = await Enquiry.findByPk(id);
+      if (!enquiry) {
+        throw new ApiError("Enquiry not found", StatusCodes.NOT_FOUND);
+      }
+      const updatedEnquiry = await enquiry.update(payload);
+      return updatedEnquiry;
+    } catch (error) {
+      logger.error(error);
+      throw error;
+    }
   }
- }
 
- async create(
-  payload: EnquiryCreationAttributes,
- ): Promise<EnquiryAttributes> {
-  try {
-   const enquiry = await Enquiry.create(payload);
-   return enquiry;
-  } catch (error) {
-   logger.error(error);
-   throw error;
+  async create(payload: EnquiryCreationAttributes): Promise<EnquiryAttributes> {
+    try {
+      const enquiry = await Enquiry.create(payload);
+      return enquiry;
+    } catch (error) {
+      logger.error(error);
+      throw error;
+    }
   }
- }
 
- async delete(id: string | number): Promise<boolean> {
-  try {
-   const deletedEnquiryCount = await Enquiry.destroy({
-    where: { id },
-   });
+  async delete(id: string | number): Promise<boolean> {
+    try {
+      const deletedEnquiryCount = await Enquiry.destroy({
+        where: { id },
+      });
 
-   return !!deletedEnquiryCount;
-  } catch (error) {
-   logger.error(error);
-   throw error;
+      return !!deletedEnquiryCount;
+    } catch (error) {
+      logger.error(error);
+      throw error;
+    }
   }
- }
 }
 ```
 
@@ -499,7 +579,18 @@ export default class EnquiryController extends BaseApi {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 5: 구성 요소를 위한 REST API 생성
 
@@ -513,13 +604,35 @@ export default class EnquiryController extends BaseApi {
 
 우리는 이전에 정의한 경로를 등록해야 합니다. 이를 위해 src/routes.ts에 항목을 만들어야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 링크에서 전체 코드베이스를 찾을 수 있습니다. 초보자를 염두에 두고 설계된 이 저장소는 백엔드 프로젝트를 시작하는 데 튼튼한 출발점을 제공합니다. 단위 테스트 케이스가 포함된 잘 정리된 코드베이스로 깊게 파고들며 학습하고 문제 해결을 쉽게 할 수 있습니다. 게다가 GitHub Actions 워크플로가 통합되어 있어 테스트와 배포를 자동화할 수 있습니다. 학습을 시작하거나 첫 번째 실제 애플리케이션을 구축하려는 경우에도 유용합니다.
 
 읽어 주셔서 감사합니다. 이 블로그가 학습에 가치가 있다고 생각되면 의견을 공유하고 클랩(clap)을 눌러주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 친절한 언어로 🚀
 

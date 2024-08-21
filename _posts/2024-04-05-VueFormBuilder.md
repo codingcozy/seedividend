@@ -3,17 +3,13 @@ title: "Vue 폼 빌더"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Vue Form Builder"
 link: "https://medium.com/@surveyjs/vue-form-builder-d5f22f38d806"
 isUpdated: true
 ---
-
-
-
-
 
 폼 빌더는 수동 코딩이 필요 없이 사용자가 웹 폼을 만들고 사용자 정의할 수 있는 도구입니다. 코딩 기술이 부족한 팀원들도 아름다운 웹 폼을 디자인할 수 있는 강력한 폼 빌더를 찾고 있다면, SurveyJS 제품군은 딱 맞는 구성 요소를 제공합니다. Vue 3용 SurveyJS Form Builder는 오픈 소스 시각적 폼 편집기로, 사용자 친화적인 인터페이스, 20가지 이상의 접근 가능한 입력 유형, 어떤 백엔드 프레임워크 및 데이터베이스와도 완벽히 통합되며, 테마 편집기를 포함한 다양한 기능을 제공합니다. 이 글에서는 Vue 3 애플리케이션에 SurveyJS Form Builder를 추가하는 방법을 소개합니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 작업 1: Vue 3 앱에 폼 빌더 추가하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 1: 폼 빌더(조사 생성기) 설치하기
 
@@ -36,7 +43,18 @@ CodeSandbox를 열고 Vue 3 템플릿을 복제하여 새 Vue 3 애플리케이�
 
 실제 애플리케이션에 Survey Creator를 추가하려면 survey-creator-vue 패키지를 설치하기 위해 다음 명령어를 사용하세요. 다른 패키지는 피어 종속성으로 자동으로 설치됩니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm install survey-creator-vue@latest — save
@@ -48,7 +66,18 @@ npm install survey-creator-vue@latest — save
 
 설문 조사 생성기 렌더링 코드는 surveyPlugin과 surveyCreatorPlugin에 캡슐화되어 있습니다. 이를 응용 프로그램에서 사용하려면 main.js 파일을 열고 이러한 플러그인을 가져와서 아래와 동일한 순서로 app.use() 메서드를 사용하여 설치하십시오:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 3: 스타일 구성 및 폼 빌더 렌더링
 
@@ -58,7 +87,18 @@ Survey Creator 스타일은 두 개의 스타일 시트로 제공됩니다. Surv
 
 모든 것을 올바르게 수행하면, CodeSandbox 미리보기에 폼 빌더가 표시될 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![VueFormBuilder_1](/assets/img/VueFormBuilder_1.png)
 
@@ -68,7 +108,18 @@ Survey Creator 스타일은 두 개의 스타일 시트로 제공됩니다. Surv
 
 ## 단계 1: 데이터베이스와 함께 작동하는 비동기 함수 구현
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코드를 간소화하고 브라우저의 로컬 저장소를 사용하여 데이터를 로컬에서 수정할 수 있도록 하기 위해 setTimeout 함수를 사용하여 비동기 호출을 흉내냅니다. 모든 데이터 관련 함수를 WebDataService.ts 파일에 넣을 것입니다. 아래 코드에서 이 파일은 간결함을 위해 함수 시그니처만 포함합니다. 전체 코드 목록은 결과 CodeSandbox를 참조하십시오.
 
@@ -78,7 +129,18 @@ FormList.vue 컴포넌트를 만들어서 설문지 목록을 렌더링하고 �
 
 ![VueFormBuilder_2](/assets/img/VueFormBuilder_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 3: 라우팅 설정하기
 
@@ -90,7 +152,18 @@ npm install vue-router@4 --save
 
 main.js 파일을 열고 FormBuilder 및 FormList 구성 요소를 라우트에 추가하십시오:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 작업 3: JSON 정의를 로드하고 저장하기
 
@@ -100,7 +173,18 @@ Survey Creator에는 isAutoSave 속성이 있습니다. 이를 활성화하면 �
 
 # Task 4: 설문 이름 변경
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다양한 UI를 구현하여 사용자가 설문 이름을 변경할 수 있습니다. 예를 들어 사용자는 설문 목록에서 이름을 편집할 수 있습니다. 두 번째 옵션은 Survey Creator 아래에 설문 이름을 편집할 수 있는 텍스트 입력을 표시하는 것입니다. 또 다른 해결책은 사용자가 Survey Creator의 Property Grid에서 수정할 수 있는 설문 속성을 추가하는 것입니다 (예시 참조).
 
@@ -110,7 +194,18 @@ Survey Creator에는 isAutoSave 속성이 있습니다. 이를 활성화하면 �
 
 ## 단계 1: 설문 제목 설정
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음과 같은 코드로 작업할 수 있어요: creator.survey.title = "yourValue";. 이 작업은 설문 조사 JSON 정의를로드 한 후 onMounted 후크 내에서 수행하십시오.
 
@@ -120,7 +215,18 @@ Survey Creator에는 isAutoSave 속성이 있습니다. 이를 활성화하면 �
 
 ## 단계 3: 설문 제목 속성을 필수로 지정하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 설문 제목을 비우지 않도록 사용자가 방지해야 합니다. 데이터베이스에서 설문 이름이 비어 있을 수 없습니다. 이 작업을 수행하는 여러 방법이 있지만, 가장 쉬운 방법은 필요한 속성을 찾아 isRequired 속성을 true로 설정하는 것입니다.
 
@@ -130,7 +236,18 @@ Vue 3 애플리케이션에 SurveyJS Form Builder를 추가하고 양식 JSON �
 
 # SurveyJS 프로젝트 관련
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SurveyJS 프로젝트에는 네 가지 오픈 소스 JavaScript 라이브러리가 포함되어 있습니다:
 

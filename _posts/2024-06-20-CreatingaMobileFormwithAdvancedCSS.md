@@ -3,16 +3,13 @@ title: "모바일 폼 제작하기 고급 CSS를 활용하여"
 description: ""
 coverImage: "/assets/img/2024-06-20-CreatingaMobileFormwithAdvancedCSS_0.png"
 date: 2024-06-20 00:51
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-CreatingaMobileFormwithAdvancedCSS_0.png
 tag: Tech
 originalTitle: "Creating a Mobile Form with Advanced CSS"
 link: "https://medium.com/@erichfreeland/creating-a-mobile-form-with-advanced-css-3d6a00c631e5"
 isUpdated: true
 ---
-
-
-
 
 요즘의 모바일 우선 세상에서는 웹 폼이 반응형이고 사용자 친화적인 것이 중요합니다. 고급 CSS 기술을 사용하면 어떤 기기에서든 멋지게 보이고 잘 작동하는 폼을 만들 수 있습니다. 이 글에서는 CSS를 사용하여 모바일 폼을 만드는 방법을 살펴보겠습니다. 시각적으로 매력적이고 사용하기 쉬운 폼을 만들어 보장할 겁니다.
 
@@ -28,23 +25,42 @@ HTML:
     <label for="name">이름:</label>
     <input type="text" id="name" name="name" required>
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `label for=”email”`Email:`/label`
 `input type=”email” id=”email” name=”email” required`
 
 `label for=”message”`Message:`/label`
-`textarea id=”message” name=”message” required``/textarea`
+` textarea id=”message” name=”message” required``/textarea `
 
 `button type=”submit”`Submit`/button`
 `/form`
 
 다음으로, CSS 그리드를 사용하여 우리의 양식에 대한 반응형 레이아웃을 만들겠습니다. 이렇게 하면 화면이 작은 디스플레이에서도 양식 필드가 잘 조정됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 .contact-form {
@@ -71,7 +87,7 @@ HTML:
 
 .contact-form button {
   padding: 10px;
-  background-color: #007BFF;
+  background-color: #007bff;
   color: white;
   border: none;
   border-radius: 4px;
@@ -79,7 +95,18 @@ HTML:
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해결책
 CSS Grid를 사용하여 양식 필드와 레이블이 적절하게 정렬되고 다양한 화면 크기에서 구조를 유지합니다. 간격 속성을 사용하여 양식 요소 간의 공간을 만들어 가독성과 사용성을 향상시킵니다. 또한 최대 너비를 설정하면 큰 화면에서 양식이 너무 넓어지지 않고 깔끔하고 집중된 레이아웃을 유지할 수 있습니다.
@@ -89,23 +116,31 @@ CSS Grid를 사용하여 양식 필드와 레이블이 적절하게 정렬되고
 CSS:
 
 @media (max-width: 600px) {
-  .contact-form {
-    padding: 10px;
-  }
-
-  .contact-form label {
-    font-size: 12px;
-  }
+.contact-form {
+padding: 10px;
 }
 
+.contact-form label {
+font-size: 12px;
+}
+}
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 .contact-form button {
-    padding: 8px;
+padding: 8px;
 }
-
 
 **결론**  
 고급 CSS를 활용하여 모바일 친화적인 폼을 만드는 것은 CSS 그리드와 미디어 쿼리와 같은 기술을 활용하여 응답성과 사용성을 보장하는 것을 포함합니다. 이러한 단계를 따라가면, 장치에 관계없이 훌륭하게 보이고 사용자 경험이 훌륭한 폼을 디자인할 수 있습니다. 반응형 웹 디자인 및 고급 CSS 기술에 대한 추가 자료가 필요하다면, CSS 그리드 및 미디어 쿼리에 대한 MDN 웹 문서를 참고하세요.

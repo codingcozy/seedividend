@@ -3,17 +3,13 @@ title: "Ruby on Rails 개발자를 위한 SOLID 원칙 이해하기"
 description: ""
 coverImage: "/assets/img/2024-07-29-UnderstandingSOLIDPrinciplesforRubyonRailsDevelopment_0.png"
 date: 2024-07-29 14:01
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-29-UnderstandingSOLIDPrinciplesforRubyonRailsDevelopment_0.png
 tag: Tech
 originalTitle: "Understanding SOLID Principles for Ruby on Rails Development"
 link: "https://medium.com/dev-genius/understanding-solid-principles-for-ruby-on-rails-development-2c2efe80bff0"
 isUpdated: true
 ---
-
-
-
-
 
 ![Understanding SOLID Principles for Ruby on Rails Development](/assets/img/2024-07-29-UnderstandingSOLIDPrinciplesforRubyonRailsDevelopment_0.png)
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 단일 책임 원칙은 클래스가 한 가지 이유만을 변경해야 한다는 것을 명시하는 원칙으로, 하나의 작업 또는 책임만을 가져야 합니다. 루비온레일즈에서는 각 모델, 컨트롤러 및 서비스 객체가 명확하고 구분된 목적을 갖도록하여 이 원칙을 적용할 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시
 

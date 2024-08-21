@@ -3,17 +3,13 @@ title: "HTML 코드로 작성된 웹사이트에서 Java 프로그램을 실행�
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How can we run a Java program on an HTML-coded website"
 link: "https://medium.com/@brajagopal.tripathi/how-can-we-run-a-java-program-on-an-html-coded-website-eaac7c600d2e"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/HowcanwerunaJavaprogramonanHTML-codedwebsite_0.png" />
 
@@ -24,7 +20,18 @@ HTML로 코드된 웹 사이트에서 Java 프로그램을 실행하는 두 가�
 
 Java 애플릿 사용하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 HTML 페이지에 Java applet을 포함하려면 `applet` 태그를 사용합니다. `applet` 태그에는 다음과 같은 속성이 있습니다:
 
@@ -36,7 +43,18 @@ HTML 페이지에 Java applet을 포함하려면 `applet` 태그를 사용합니
 
 Markdown
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <applet code="MyApplet.class" width="200" height="200"></applet>
@@ -48,7 +66,18 @@ JavaServer Pages (JSP)를 사용하는 방법
 
 JSP를 사용하여 HTML 페이지에 자바 코드를 임베드하려면 `%와 %` 델리미터를 사용합니다. 델리미터 사이의 자바 코드는 서버에서 실행되고 결과가 HTML로 브라우저에 반환됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, 다음의 JSP 코드는 웹 페이지에 "안녕, 세상!" 메시지를 표시합니다:
 
@@ -64,7 +93,18 @@ String message = "Hello, world!";
 <p><%= message %></p>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용자가 HTML 페이지를 로드할 때, 서버에서 Java 코드가 실행되고 웹 페이지에 "Hello, world!" 메시지가 표시됩니다.
 

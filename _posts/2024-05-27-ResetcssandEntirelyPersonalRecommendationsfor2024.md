@@ -3,17 +3,13 @@ title: "Reset.css로 프로젝트 스타일을 초기화 하는 방법"
 description: ""
 coverImage: "/assets/img/2024-05-27-ResetcssandEntirelyPersonalRecommendationsfor2024_0.png"
 date: 2024-05-27 19:08
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-ResetcssandEntirelyPersonalRecommendationsfor2024_0.png
 tag: Tech
 originalTitle: "Reset.css and (Entirely Personal!) Recommendations for 2024"
 link: "https://medium.com/@itsuki.enjoy/reset-css-and-entirely-personal-recommendations-for-2024-fd7e32e15642"
 isUpdated: true
 ---
-
-
-
-
 
 ![Reset CSS](/assets/img/2024-05-27-ResetcssandEntirelyPersonalRecommendationsfor2024_0.png)
 
@@ -23,10 +19,21 @@ isUpdated: true
 
 CSS Reset 스타일 시트는 기본 브라우저 스타일을 모두 재정의하는 CSS 스타일 목록입니다. 대부분의 브라우저는 테두리, 패딩 및 마진, 확대 축소, 글꼴 등에 자체 스타일을 가지고 있습니다. reset.css를 사용하면 이러한 기본 동작을 모두 제거하고 다양한 브라우저에서 일관된 UI/UX를 유지할 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 크롬
+
 - 사파리
 - 파이어폭스
 - 엣지
@@ -35,7 +42,18 @@ CSS Reset 스타일 시트는 기본 브라우저 스타일을 모두 재정의�
 
 reset.css와는 다르게 normalize.css는 브라우저 기본값을 지우는 대신 일부를 보존합니다. 이는 sub와 같은 요소를 사용하는 경우 유용할 수 있습니다. 이 경우 reset.css 대신 normalize.css를 사용하면 일반 텍스트와 거의 동일하게 보입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또한 normalize.css를 사용하면, 사전 서식이 지정된 텍스트의 글꼴 크기를 수정하는 등의 일반적인 버그를 수정할 수 있습니다.
 
@@ -45,14 +63,23 @@ reset.css와는 다르게 normalize.css는 브라우저 기본값을 지우는 �
 
 reset.css를 다른 스타일 시트처럼 사용할 수 있습니다. 여기서 염두에 두어야 할 유일한 것은 reset.css가 가장 먼저 와야 한다는 것입니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <head>
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="otherStyles.css" />
 </head>
-
 
 # 2024년을 위한 추천
 
@@ -60,7 +87,18 @@ reset.css를 다른 스타일 시트처럼 사용할 수 있습니다. 여기서
 
 자세히 알아보거나 시각화를 더 잘 하고 싶다면, 우리가 이 글에 포함시킨 모든 다른 reset.css를 비교할 수 있는 간단한 코드펜을 사용해보세요. 이 글에는 normalize.css도 포함되어 있으며 스타일시트를 추가하지 않은 선택 사항도 비교할 수 있도록 포함해 두었어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/1*wjXmIrPgLX_afnYKDhvj4w.gif" />
 
@@ -70,7 +108,18 @@ reset.css를 다른 스타일 시트처럼 사용할 수 있습니다. 여기서
 
 여기서 제공하는 것은 아마도 현대 브라우저에 가장 흔하게 사용되는 CSS 리셋 중 하나일 것입니다. 테일윈드에서 리셋 스타일시트로 사용되었던 것으로 알고 있는데요 (이제는 normalize.css를 사용하러 가는 것 같아요). (그런 의미로, 이것은 제가 독특하다고 보지 않아서 가장 마음에 들지 않는 것이에요!)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 reset.css의 가장 좋은 부분 중 하나는 파일을 작고 유지하기 때문에 로딩 속도가 정말 빠르다는 점입니다. 또한 모든 요소에 대해 box-sizing을 border-box로 정의하고 양식과 목록을 정의하는 데 많은 주의를 기울입니다.
 
@@ -80,7 +129,18 @@ reset.css를 다른 스타일 시트처럼 사용할 수 있습니다. 여기서
 
 ![이미지](/assets/img/2024-05-27-ResetcssandEntirelyPersonalRecommendationsfor2024_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Reboot.css
 
@@ -90,8 +150,18 @@ reset.css를 다른 스타일 시트처럼 사용할 수 있습니다. 여기서
 
 (사실 이거 쓰고 아무것도 안 쓰는 거랑 차이가 크게 느껴지지는 않았던 것 같아요…)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-05-27-ResetcssandEntirelyPersonalRecommendationsfor2024_2.png)
 
@@ -102,21 +172,44 @@ reset.css를 다른 스타일 시트처럼 사용할 수 있습니다. 여기서
 
 ## @acab/reset.css
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 @acab/reset.css는 최신 CSS 기능을 활용한 스타일 리셋이에요. 이 리셋 스타일시트를 다른 것과 구별하는 두 가지 주요 기능이 있어요.
+
 - iOS Safari에서 100vh가 전체 높이를 채우지 않는 문제를 해결했어요.
 - color-scheme을 활용하여 자동 다크 모드를 지원해요.
 
 @acab/reset.css를 사용하는 방법:
+
 - npm을 이용해 설치하기: npm install @acab/reset.css,
 - CDN 이용: https://unpkg.com/@acab/reset.css,
 - 소스 코드 다운로드 후 로컬 파일로 추가하기.
 
 해보세요! 🙂
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 보시다시피, 위의 것과 많이 다른데요, 제 지역의 컬러 스킴에 적응하고 있어요!
 
@@ -126,7 +219,18 @@ reset.css를 다른 스타일 시트처럼 사용할 수 있습니다. 여기서
 
 이 새로운 CSS 초기화는 제가 가장 좋아하는 스타일이에요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기본 스타일을 제외한 모든 것이 제거됩니다. 그러나 display 속성 및 iframe, canvas, img, svg, video와 같은 특수 HTML 요소는 유지됩니다.
 
@@ -136,7 +240,18 @@ reset.css를 다른 스타일 시트처럼 사용할 수 있습니다. 여기서
 
 네, 스타일이 하나도 남지 않습니다. 입력 상자나 라디오 버튼조차 없어요! 모든 것을 제거하고 처음부터 직접 디자인하고 싶다면 완벽해요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 너무 복잡한 것 같나요? 특정 요소의 기본 스타일을 되찾는 데는
 
@@ -151,7 +266,18 @@ input {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 이제 우리가 사용하는 일반적인 형식으로 돌아왔어요!
 
@@ -159,7 +285,18 @@ input {
 
 이 새로운 CSS 리셋은 특정성을 제거하는 :where() 가상 클래스와 여러 인수를 가진 :not() 가상 클래스와 같은 다른 CSS 기능도 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저기요!
 

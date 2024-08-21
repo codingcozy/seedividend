@@ -3,15 +3,13 @@ title: "모델 성능 시각화 Python 코드로 혼동 행렬 그리는 방법 
 description: ""
 coverImage: "/assets/img/2024-07-09-VisualizingModelPerformanceAGuidetoPlottingConfusionMatricesinPythonCode_0.png"
 date: 2024-07-09 14:27
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-VisualizingModelPerformanceAGuidetoPlottingConfusionMatricesinPythonCode_0.png
 tag: Tech
 originalTitle: "Visualizing Model Performance: A Guide to Plotting Confusion Matrices in Python Code"
 link: "https://medium.com/@hussainmiraqib/in-this-article-we-delve-into-the-importance-of-confusion-matrices-in-evaluating-machine-learning-d1f70abf0ffc"
 isUpdated: true
 ---
-
-
 
 <img src="/assets/img/2024-07-09-VisualizingModelPerformanceAGuidetoPlottingConfusionMatricesinPythonCode_0.png" />
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 혼동 행렬은 분류 알고리즘의 성능을 평가하는 데 사용되는 표입니다. 예측된 레이블을 실제 레이블과 비교하여 모델이 얼마나 잘 수행되고 있는지 명확하게 보여줍니다. 이 행렬은 모델이 어떤 종류의 오류를 범하고 있는지 이해하는 데 특히 유용하며, 개선할 부분을 식별하는 데 도움이 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 혼동 행렬의 구조
 
@@ -31,7 +40,18 @@ isUpdated: true
 
 다중 클래스 분류 문제의 경우, 행렬은 더 많은 클래스를 수용하도록 확장됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 정확도: 정확도 점수 이상의 자세한 정확도 정보를 제공합니다.
 - 오류 분석: 오류 유형(거짓 양성 및 거짓 음성)을 식별하는 데 도움이 됩니다.
@@ -126,7 +146,18 @@ def plot_confusion_matrix(cm, class_labels=None, normalize=False, figsize=(10, 1
 
 Plot Confusion Matrix 함수 사용 방법
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 혼동 행렬 생성: 플로팅하기 전에 모델의 예측과 실제 레이블을 이용해 혼동 행렬을 생성해야 합니다. 이를 위해 sklearn.metrics.confusion_matrix를 사용할 수 있습니다.
 
@@ -143,7 +174,18 @@ cm = confusion_matrix(y_test, y_pred)
 plot_confusion_matrix(cm, (class_labels = ["Class 0", "Class 1"]), (normalize = True));
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 혼동 행렬은 분류 모델의 성능을 평가하는 강력한 도구입니다. 이들은 모델이 얼마나 잘 수행되고 있는지에 대한 포괄적인 관점을 제공하며 개선이 필요한 부분을 강조합니다. 혼동 행렬을 시각화함으로써, 모델의 동작에 대한 더 깊은 통찰력을 얻고 미래 개선을 위한 정보를 파악할 수 있습니다.
 

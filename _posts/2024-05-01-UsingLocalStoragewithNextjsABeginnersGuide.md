@@ -3,16 +3,13 @@ title: "Next.js에서 로컬 스토리지 사용하는 방법"
 description: ""
 coverImage: "/assets/img/2024-05-01-UsingLocalStoragewithNextjsABeginnersGuide_0.png"
 date: 2024-05-01 18:10
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-01-UsingLocalStoragewithNextjsABeginnersGuide_0.png
 tag: Tech
 originalTitle: "Using LocalStorage with Next.js: A Beginner’s Guide"
 link: "https://medium.com/wesionary-team/using-localstorage-with-next-js-a-beginners-guide-7fc4f8bfd9dc"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-05-01-UsingLocalStoragewithNextjsABeginnersGuide_0.png" />
 
@@ -22,9 +19,20 @@ isUpdated: true
 
 ## 어디에서 로컬 스토리지를 사용할 수 있을까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-로컬 스토리지를 애플리케이션에서 사용할 수 있는 여러 시나리오가 있어요. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+로컬 스토리지를 애플리케이션에서 사용할 수 있는 여러 시나리오가 있어요.
 
 - 사용자 설정 저장: 전자 상거래 애플리케이션에서는 사용자가 선호하는 통화를 로컬 스토리지에 저장하여 매번 웹 사이트를 방문할 때 해당 통화로 가격을 자동으로 표시할 수 있어요.
 - 임시 데이터 저장: 업무 관리 애플리케이션에서는 사용자가 '할 일' 목록에 추가한 작업을 아직 완료하지 않은 상태로 로컬 스토리지에 저장할 수 있어요. 그래서 브라우저를 닫거나 페이지를 이탈해도 진행 상황이 소멸되지 않아요.
@@ -36,7 +44,18 @@ isUpdated: true
 
 로컬 스토리지를 사용하기 위해서는 브라우저에서 제공하는 localStorage 객체를 사용할 수 있어요. 이 객체에는 로컬 스토리지와 상호작용하기 위한 여러 메소드가 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 메서드
 
@@ -45,27 +64,49 @@ isUpdated: true
 - setItem(key, value): 이 메서드는 키-값 쌍을 로컬 스토리지에 추가하는 데 사용됩니다. 키는 문자열이며 값은 문자열 또는 JavaScript 객체가 될 수 있습니다. 이 값은 저장되기 전에 자동으로 문자열로 변환됩니다.
 
 ```js
-localStorage.setItem('username', 'Anisha');
-localStorage.setItem('userId', '12345');
+localStorage.setItem("username", "Anisha");
+localStorage.setItem("userId", "12345");
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - getItem(key): 해당 메서드는 로컬 스토리지에서 키의 값을 검색하는 데 사용됩니다. 키를 매개변수로 받아 해당하는 값을 문자열로 반환합니다.
 
 ```js
-localStorage.getItem('username');
-localStorage.getItem('userId');
+localStorage.getItem("username");
+localStorage.getItem("userId");
 ```
 
 - removeItem(key): 해당 메서드는 로컬 스토리지에서 키-값 쌍을 제거하는 데 사용됩니다. 키를 매개변수로 받아 해당하는 키-값 쌍을 로컬 스토리지에서 제거합니다.
 
 ```js
-localStorage.removeItem('username');
-localStorage.removeItem('userId');
+localStorage.removeItem("username");
+localStorage.removeItem("userId");
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - clear(): 이 메서드는 로컬 스토리지에서 모든 키-값 쌍을 제거하는 데 사용됩니다.
 
@@ -79,19 +120,41 @@ localStorage.clear();
 const key = localStorage.key(0); // 0번 인덱스의 키를 가져오기
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - length: 숫자 쌍의 개수를 반환하는 읽기 전용 속성입니다.
 
 ```js
-const numOfItemsInLocalStorage = localStorage.length()
+const numOfItemsInLocalStorage = localStorage.length();
 ```
 
 ## 로컬 저장소 구현 예시
 
 다음은 Next.js 애플리케이션에서 모든 localStorage 메서드를 사용하는 방법에 대한 완전한 예시입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, 우리는 localStorage에 저장할 각 항목에 대한 상태를 만들고 키와 로컬 저장소의 항목 수에 대한 상태를 생성합니다.
 
@@ -124,7 +187,18 @@ useEffect(() => {
 }, []);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희는 handleSave, handleRemove, handleClear 세 가지 이벤트 핸들러를 사용해서 데이터를 저장, 삭제, 지우는 함수를 구현했어요.
 
@@ -156,14 +230,25 @@ function handleSave() {
 
 <img src="/assets/img/2024-05-01-UsingLocalStoragewithNextjsABeginnersGuide_1.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 handleRemove 함수에서는 removeItem 메서드를 사용하여 로컬 저장소에서 `username` 키-값 쌍을 제거하고 setUsername을 사용하여 새 값으로 상태를 업데이트합니다.
 
 ```js
 function handleRemove() {
-  if (typeof window !== 'undefined' && window.localStorage) {
-    localStorage.removeItem('username');
+  if (typeof window !== "undefined" && window.localStorage) {
+    localStorage.removeItem("username");
     setUsername(null);
   }
 }
@@ -173,7 +258,7 @@ handleClear 함수에서는 clear 메서드를 사용하여 로컬 저장소에�
 
 ```js
 function handleClear() {
-  if (typeof window !== 'undefined' && window.localStorage) {
+  if (typeof window !== "undefined" && window.localStorage) {
     localStorage.clear();
     setUsername(null);
     setUserId(null);
@@ -182,7 +267,18 @@ function handleClear() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막으로 렌더 메서드에서는 localStorage에 저장된 키-값 쌍의 값을 표시하고 로컬 저장소와 상호 작용할 수 있는 버튼을 제공합니다.
 
@@ -203,7 +299,18 @@ function handleClear() {
 
 ## 로컬 저장소 사용 시 보안 고려 사항
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로컬 스토리지를 사용하는 한 가지 단점은 그 안에 저장된 데이터가 일반 텍스트 형식이라는 것입니다. 이는 악성 스크립트에 의해 쉽게 액세스될 수 있다는 것을 의미합니다. 이는 공격자가 사용자의 장치에 액세스를 얻으면 로컬 스토리지에 저장된 데이터에 잠재적으로 액세스할 수 있다는 것을 의미합니다.
 

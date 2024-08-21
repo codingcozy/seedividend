@@ -3,7 +3,7 @@ title: "라즈베리 파이에서 스왑 공간 설정하는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-17-RaspberryPiSwapSpace_0.png"
 date: 2024-08-17 01:20
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-17-RaspberryPiSwapSpace_0.png
 tag: Tech
 originalTitle: "Raspberry Pi Swap Space"
@@ -11,7 +11,6 @@ link: "https://medium.com/@myam/raspberry-pi-swap-space-ccbbd6d919df"
 isUpdated: true
 updatedAt: 1723864234272
 ---
-
 
 <img src="/assets/img/2024-08-17-RaspberryPiSwapSpace_0.png" />
 
@@ -21,7 +20,18 @@ updatedAt: 1723864234272
 
 swapid 스크립트는 먼저 프로세스 목록을 검색하고, 그런 다음 프로세스 이름과 사용된 스왑 양을 식별한 후에 스왑 크기로 출력을 정렬합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리눅스에서는 프로세스를 파일 시스템처럼 볼 수 있고 쿼리할 수 있습니다. 다음 명령을 실행하면
 
@@ -35,7 +45,18 @@ $ ls /proc
 $ cat status
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여러 프로세스 정보를 확인할 수 있어요.
 
@@ -45,7 +66,18 @@ $ cat status
 
 swapid의 소스 코드입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 #!/bin/bash
@@ -70,8 +102,18 @@ $ chmod +x swapid
 
 스크립트를 실행하면, 마지막 몇 줄의 출력에서 가장 큰 스왑 공간이 프로세스 php-cgi에 할당되는 것을 볼 수 있습니다:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 $ ./swapid

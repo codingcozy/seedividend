@@ -3,17 +3,13 @@ title: "React 프로젝트 useReducer 훅 이해하기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Understanding the useReducer Hook"
 link: "https://medium.com/@venimullai/understanding-the-usereducer-hook-6327bf9f684f"
 isUpdated: true
 ---
-
-
-
-
 
 React 개발 분야에서, 상태를 효과적으로 관리하는 것은 견고하고 유지보수 가능한 애플리케이션을 구축하는 데 중심이 됩니다. useState 훅은 함수형 컴포넌트에서 상태를 처리하는 간단하고 직관적인 방법을 제공하지만, 특정 시나리오에서는 더 고급 솔루션이 필요할 수 있습니다. useReducer 훅이 등장합니다. 이 강력한 도구는 개발자가 복잡한 상태 논리를 쉽게 관리할 수 있도록 해줍니다. 이 블로그 포스트에서 useReducer 훅을 깊게 파해쳐 보며 내부 동작, 구문 및 실용적인 적용법을 탐구해 보겠습니다.
 
@@ -23,7 +19,18 @@ useReducer 훅 개요:
 
 구문 이해:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 useReducer 훅의 문법을 살펴보겠습니다. 이 훅은 두 가지 인수를 받습니다: 리듀서 함수와 초기 상태입니다. 리듀서 함수는 현재 상태와 액션을 받아 해당 액션 유형에 기반하여 새 상태를 반환합니다. useReducer 훅은 현재 상태와 리듀서로 액션을 전달하는 디스패치 함수를 포함한 배열을 반환합니다.
 
@@ -36,7 +43,18 @@ const [state, dispatch] = useReducer(reducer, initialState);
 
 useReducer 훅의 핵심은 리듀서 함수에 있습니다. 이 함수는 다양한 액션에 대한 응답으로 상태가 어떻게 업데이트되어야 하는지 정의하는 역할을 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const reducer = (state, action) => {
@@ -60,7 +78,18 @@ const initialState = { count: 0 };
 const [state, dispatch] = useReducer(reducer, initialState);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Access State:
 
@@ -72,7 +101,18 @@ useReducer에서 반환된 state 변수로 현재 상태 값을 확인할 수 �
 
 Actions 디스패치하기:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 useReducer 패러다임에서는 상태 업데이트가 리듀서 함수에 액션을 디스패치함으로써 트리거됩니다. 액션은 상태 업데이트에 필요한 추가 데이터와 함께 수행할 작업의 유형을 나타내는 type 속성을 포함한 간단한 객체입니다.
 
@@ -85,7 +125,18 @@ useState와 useReducer 비교:
 
 useState에 비해 useReducer의 장점은 컴포넌트에서 복잡한 상태 전환을 관리하는 중앙화된 방법을 제공한다는 점입니다. 특히 깊게 중첩된 상태나 복잡한 상태 전환이 필요할 때 특히 유용합니다. 그러나 더 간단한 상태 관리가 필요한 경우에는 대부분 useState가 충분하고 더 직관적입니다. 각 접근 방식의 장단점을 이해하면, 개발자는 프로젝트에서 상태 관리에 대한 정보된 결정을 내릴 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결론:
 

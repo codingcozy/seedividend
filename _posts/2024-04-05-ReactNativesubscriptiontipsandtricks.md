@@ -3,17 +3,13 @@ title: "React Native subscription에 대한 팁과 노하우"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "React Native subscription tips and tricks"
 link: "https://medium.com/@l.reinaldodemelo/react-native-subscription-tips-and-tricks-163724062c66"
 isUpdated: true
 ---
-
-
-
-
 
 # 시작해보죠!
 
@@ -37,18 +33,12 @@ export const useAppState = (props: Props | undefined) => {
 
   React.useEffect(() => {
     const subscription = AppState.addEventListener("change", (nextAppState) => {
-      if (
-        appState.current.match(/inactive|background/) &&
-        nextAppState === "active"
-      ) {
+      if (appState.current.match(/inactive|background/) && nextAppState === "active") {
         console.log("앱이 화면으로 돌아왔어요!");
         onActive?.();
       }
 
-      if (
-        appState.current === "active" &&
-        nextAppState.match(/inactive|background/)
-      ) {
+      if (appState.current === "active" && nextAppState.match(/inactive|background/)) {
         console.log("앱이 백그라운드로 이동했어요!");
         onBackground?.();
       }
@@ -65,7 +55,18 @@ export const useAppState = (props: Props | undefined) => {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 백엔드 팀과 API 엔드포인트를 제공받기 위해 대화해야 합니다. 이 엔드포인트의 주요 목적은 사용자가 활성 구독을 가지고 있는지를 확인하는 것입니다. 이 엔드포인트를 제공해주면 우리는 모든 준비가 된 것이니 계속 진행할 수 있게 될 거에요. (또는 엔드포인트가 배포될 때까지 응답을 가짜로 만들어 사용할 수도 있어요).
 
@@ -99,7 +100,18 @@ export const useSubscription = () => {
 
 사용자가 활성 구독을 가지고 있는지 확인할 때, 그 정보를 빠르게 액세스하기 위해 저장하고 API 과부하를 피하는 것이 유용할 수 있어요. 저는 예제에서 MMKV를 사용하고 있는데요, AsyncStorage보다 훨씬 빠릅니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 좋아요, 이제 앱 상태, API 호출 또는 캐시된 데이터를 통해 구독 상태를 확인하는 방법을 결정했으니, 고차 컴포넌트(HOC)를 사용하여 지불 벽을 만드는 방법을 살펴보겠습니다. 아래 예시를 확인해보세요:
 
@@ -129,7 +141,18 @@ useEffect 대신 useFocusEffect를 사용하는 이유가 뭔지 궁금하신가
 
 HOC가 무엇이며 어떻게 사용되는지 잘 모르겠다면, 아래 예시를 살펴보세요. 그러면 이해하실 거예요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import React from "react";
@@ -171,7 +194,18 @@ export const withSubscription = (Component: React.FC<any>) => (props: any) => {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 마찬가지로 거의 같은 방식으로 사용할 수 있어요.
 
@@ -235,7 +269,18 @@ export const WithSubscription = (props: WithSubscriptionProps) => {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 행복하신가요? 그렇다면 공유하고 댓글을 남겨 주세요!
 
@@ -259,6 +304,17 @@ export const MyScreen = () => {
 
 <img src="/assets/img/ReactNativesubscriptiontipsandtricks_0.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 👋

@@ -3,16 +3,13 @@ title: "필수 CSS 인터뷰 질문 15선"
 description: ""
 coverImage: "/assets/img/2024-06-22-15EssentialCSSInterviewQuestions_0.png"
 date: 2024-06-22 03:44
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-15EssentialCSSInterviewQuestions_0.png
 tag: Tech
 originalTitle: "15 Essential CSS Interview Questions"
 link: "https://medium.com/dev-genius/15-essential-css-interview-questions-52622b4f6ef8"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-06-22-15EssentialCSSInterviewQuestions_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 이 블로그에서는 모든 웹 개발자가 알아야 할 주요 주제와 개념을 다뤄볼 것입니다. 이러한 질문은 지식을 테스트하고 CSS를 명확하게 설명할 수 있는지 확인하는 데 훌륭합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시작해봅시다! CSS에 대해 얼마나 알고 계신지 확인해보세요! 🚀
 
@@ -33,7 +41,18 @@ isUpdated: true
 
 예시: 웹사이트에 로고가 있다면 id를 사용할 것이지만, 동일한 스타일을 공유할 많은 글이 있다면 class를 사용할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2. CSS에서 "id"와 "class"를 선택하는 방법
 
@@ -44,7 +63,18 @@ isUpdated: true
 
 font-family
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 4. 웹사이트의 배경을 변경하는 방법은 무엇인가요?
 
@@ -54,7 +84,18 @@ font-family
 
 position: fixed;
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예: 웹 사이트에서 스크롤하고 나서 내비게이션바에 "position: fixed;"를 적용하면 스크롤 양에 관계없이 페이지 상단에 고정됩니다.
 
@@ -64,7 +105,18 @@ text-shadow 또는 box-shadow
 
 ## 7. inline, inline-block 및 block 간에는 어떤 차이가 있나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 인라인: 이 요소들은 새로운 줄 바꿈을 시작하지 않고 텍스트 라인 안에서 부드럽게 통합되며 필요한 너비만 차지합니다. 너비와 높이를 포함한 요소의 차원은 시각적으로 나타나지 않습니다.
 - Inline-block: 인라인 요소와 유사하지만, 이 구성 요소들은 새로운 줄에서 시작하지 않고 너비와 높이 값을 명시적으로 설정할 수 있어 외형에 대한 더 많은 제어를 제공합니다.
@@ -76,7 +128,18 @@ text-shadow 또는 box-shadow
 
 백분율 단위로 측정하고 미디어 쿼리를 사용함으로써 가능합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 9. 이미지가 상자를 벗어나는 경우 제한하고 싶다면 어떻게 해야 하나요?
 
@@ -87,7 +150,18 @@ overflow: hidden
 - visibility: hidden: 요소를 숨기지만 웹 문서에서 공간을 차지하고 문서 레이아웃에 영향을 줍니다.
 - display: none: 요소를 숨기지만 어떤 공간도 차지하지 않고 문서 레이아웃에 영향을 주지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-22-15EssentialCSSInterviewQuestions_2.png" />
 
@@ -98,7 +172,18 @@ overflow: hidden
 - Flexbox는 요소를 배치하는 그리드를 제공합니다.
 - CSS 그리드는 좀 더 콜라주와 같은 느낌입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 12. CSS 전처리기와 프레임워크의 차이:
 
@@ -109,7 +194,18 @@ overflow: hidden
 
 z-index 속성을 사용하여 레이어를 관리합니다. 이를 통해 한 레이어를 다른 레이어 앞이나 뒤로 나타낼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 14. Margin과 Padding의 차이:
 
@@ -120,7 +216,18 @@ z-index 속성을 사용하여 레이어를 관리합니다. 이를 통해 한 �
 
 ## 15. RGBA에서 A는 무엇을 의미합니까?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 RGBA 색 모델에서 "A"는 "알파"를 나타냅니다. 이 구성요소는 색상의 투명도 또는 불투명도 수준을 나타냅니다. 값이 0이면 완전히 투명하고, 값이 1이면 완전히 불투명합니다.
 
@@ -130,7 +237,18 @@ RGBA 색 모델에서 "A"는 "알파"를 나타냅니다. 이 구성요소는 �
 
 읽어 주셔서 감사합니다! 다른 유용한 질문이 있으면 댓글에 공유해 주세요. 함께 공부하고 면접을 위해 준비할 수 있도록 도와주세요 🤗
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희의 다가오는 블로그를 기대해 주세요. JavaScript와 React에 관한 인터뷰 질문에 대해 자세히 다룰 예정이에요.
 
@@ -138,4 +256,4 @@ RGBA 색 모델에서 "A"는 "알파"를 나타냅니다. 이 구성요소는 �
 
 DevOps, 웹 개발 및 기술 관련 주제에 대한 시각적 자습서와 심층적인 탐구를 원하신다면 ✨ YouTube 채널 ✨을 구독해 주세요.
 
-즐거운 코딩하세요!  👩🏻‍💻👩🏼‍💻
+즐거운 코딩하세요! 👩🏻‍💻👩🏼‍💻

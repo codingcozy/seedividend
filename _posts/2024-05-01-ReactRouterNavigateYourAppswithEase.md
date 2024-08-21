@@ -3,15 +3,13 @@ title: "리액트 라우터 기초 내용 정리"
 description: ""
 coverImage: "/assets/img/2024-05-01-ReactRouterNavigateYourAppswithEase_0.png"
 date: 2024-05-01 17:47
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-01-ReactRouterNavigateYourAppswithEase_0.png
 tag: Tech
 originalTitle: "React Router: Navigate Your Apps with Ease"
 link: "https://medium.com/@bijweniki/react-router-navigate-your-apps-with-ease-74c17836c91e"
 isUpdated: true
 ---
-
-
 
 React Router는 React 애플리케이션을 위한 강력한 라우팅 라이브러리입니다. URL을 기반으로 다른 컴포넌트를 렌더링하고 탐색을 처리하는 것을 통해 전체 페이지 새로 고침이 필요하지 않도록 해줍니다. 간단히 말해, React Router는 사용자 인터페이스가 URL 변경에 동적으로 업데이트되어 사용자에게 더 부드럽고 원활한 브라우징 경험을 제공하는 단일 페이지 애플리케이션(SPA)을 만드는 데 도움을 줍니다.
 
@@ -25,7 +23,18 @@ React Router를 사용하는 장점:
 
 React Router를 사용하는 방법은 어떻게 할까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 설치: 먼저 npm 또는 yarn을 사용하여 React Router를 설치하세요:
 
@@ -39,7 +48,18 @@ yarn add react-router-dom
 
 라우트를 설정하는 과정에서 `BrowserRouter`의 역할을 이해하는 것이 중요합니다. 이 컴포넌트는 애플리케이션의 최상위 래퍼로 작동하여 클라이언트 측 라우팅을 가능하게 합니다. 우리의 전체 애플리케이션을 `BrowserRouter`로 감싸면 내비게이션과 라우트 변경을 원활하게 처리할 수 있습니다. `BrowserRouter`를 우리 애플리케이션의 내비게이션의 주요 컨트롤러로 생각해보세요. 이를 통해 애플리케이션 내의 모든 컴포넌트가 라우팅 기능에 액세스할 수 있게 되며, 효과적으로 라우트를 정의하고 관리할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
@@ -57,7 +77,18 @@ ReactDOM.render(
 );
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. 네비게이션에 링크 사용하기: React 애플리케이션에서 React Router를 사용하여 네비게이션을 위해 `Link` 컴포넌트를 사용하려면, React Router에서 Link를 import하십시오.
 
@@ -69,7 +100,18 @@ React Router의 `Link` 컴포넌트는 애플리케이션의 서로 다른 경�
 
 일반적으로 `Link`를 사용하는 방법은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <Link to="/about">About</Link>
@@ -81,8 +123,18 @@ React Router의 `Link` 컴포넌트는 애플리케이션의 서로 다른 경�
 
 라우트 매개변수와 동적 라우트
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 라우트 매개변수는 URL 패턴 내 동적 값을 캡처하고 동적 경로를 생성할 수 있는 자리 표시자입니다. 이 매개변수들은 콜론(:)으로 시작하고 매개변수 이름이 따라온 루트 경로에 정의됩니다. 예를 들어, 루트 경로 /users/:id에서 :id는 라우트 매개변수입니다.
 
@@ -94,7 +146,18 @@ React Router의 `Link` 컴포넌트는 애플리케이션의 서로 다른 경�
 
 이 라우트에서 :postId는 블로그 게시물의 고유 식별자를 나타내는 라우트 매개변수입니다. 사용자가 /posts/123과 같은 URL로 이동할 때, React Router는 postId 매개변수로 값 123을 캡처합니다. 이 매개변수는 그런 다음 PostDetail 컴포넌트 내에서 액세스하여 해당 블로그 게시물 콘텐츠를 가져와 표시할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 루트 매개변수를 사용하여 응용 프로그램에서 보다 유연하고 유지 관리 가능한 라우팅 로직을 만들 수 있습니다. 각 가능한 값에 대해 개별 라우트를 하드코딩할 필요 없이 동적 데이터를 처리할 수 있기 때문에 응용 프로그램이 성장함에 따라 더 확장 가능하고 유지 관리하기 쉬워집니다.
 
@@ -104,7 +167,18 @@ React Router의 `Link` 컴포넌트는 애플리케이션의 서로 다른 경�
 
 함수형 구성 요소에서 useParams 후크를 사용하세요 :
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { useParams } from "react-router-dom";
@@ -121,7 +195,18 @@ const ComponentName = () => {
 
 에러 처리
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 404 페이지 구현: 알 수 없는 경로가 발생했을 때 특정 컴포넌트를 디자인해주세요.
 - 기본 경로로 리다이렉트: 알려진 경로로 사용자를 리다이렉션하여 예비 메커니즘을 고려해주세요.
@@ -135,7 +220,18 @@ const ComponentName = () => {
 - 라우트 파일 모듈화: 큰 애플리케이션의 경우 기능 또는 앱의 섹션에 따라 라우트 구성을 별도 파일로 분리해주세요.
 - 지연 로딩으로 코드 분할: 대규모 애플리케이션의 초기 로딩 시간을 개선하기 위해 요청에 따라 라우트를 로드해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 공식 문서
 

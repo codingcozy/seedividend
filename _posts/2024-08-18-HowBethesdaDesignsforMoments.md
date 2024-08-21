@@ -3,7 +3,7 @@ title: "베데스다가 순간을 위해 디자인하는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-18-HowBethesdaDesignsforMoments_0.png"
 date: 2024-08-18 11:25
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-18-HowBethesdaDesignsforMoments_0.png
 tag: Tech
 originalTitle: "How Bethesda Designs for Moments"
@@ -11,7 +11,6 @@ link: "https://medium.com/@GWBycer/how-bethesda-designs-for-moments-a2264177e22d
 isUpdated: true
 updatedAt: 1724032758783
 ---
-
 
 <img src="/assets/img/2024-08-18-HowBethesdaDesignsforMoments_0.png" />
 
@@ -21,7 +20,18 @@ updatedAt: 1724032758783
 
 이를 읽는 분들에게 말씀드리면, 이는 Starfield의 리뷰가 아니라는 점을 알려드립니다. 게임에서 약 90분을 플레이했지만 즐기지 못했으며, 두 차례의 게임 중단 후 삭제했습니다. 최근에 RPG 디자인에 관한 서적을 마무리했는데, JRPG와 CRPG 간의 차이를 이해하는 것이 가장 어려운 일 중 하나였습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 “일본에서 만들어진 게임과 서양에서 만들어진 게임 둘 사이의 차이점은 이렇다”라고 말하기 쉽지만, 이것만으로는 각 장르의 차이점을 충분히 이해할 수 없어요. 두 측면 모두 탁상 RPG와 펜 앤 페이퍼 디자인에서 많은 영감을 받지만, CRPG는 "역할 연기" 요소를 강조하는 반면, JRPG 디자인은 시스템과 추상화에 초점을 맞춥니다. CRPG를 할 때는 분명히 그 세계의 캐릭터 역할을 맡는다는 데 주안점을 둡니다 — 혹은 '스타필드'를 언급하고 있다면 그 우주 속에서 이야기와 캐릭터에 영향을 주면서 자신의 캐릭터의 진행을 안내해야 합니다.
 
@@ -29,7 +39,18 @@ JRPG는 이곳에 있는 시스템들을 탐구하는 데 더 중점을 두며, 
 
 어느 쪽도 더 나쁘거나 좋은 것은 아니에요, 그저 무슨 경험을 찾고 있는지에 따라 다를 뿐입니다. 저는 시스템과 이야기 전달의 중점이 어디로 이어질지에 대해선 JRPG를 선호합니다."
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 순간순간 vs. "그 순간"
 
@@ -39,7 +60,18 @@ JRPG는 이곳에 있는 시스템들을 탐구하는 데 더 중점을 두며, 
 
 다시 말해, 이 스타일의 팬들은 주변이 느리게 느껴지거나 일반 전투가 괜찮다는 사실을 신경쓰지 않습니다. 그들이 그 길이 어디로 이끌지 또는 그 전투의 끝에 어떤 플롯 포인트나 보상이 있는지 보기 위해 거기 있습니다. 그리고 만약 그것을 따라간다면 최종적으로 체력을 업그레이드하거나 무기로 높은 퍼크를 잠금 해제하여 그 부분을 덜 힘들게 만들 수 있습니다. 그 큰 순간들이 중요해지고 작동하려면 게임플레이는 플레이어를 그 방향으로 이끌어야 합니다. 순간순간이나 핵심적인 게임 루프를 간단하게 유지함으로써 큰 순간들이 숨을 쉬고 중요하게 만들어줍니다. 이 퀘스트는 도시의 한쪽 끝에서 다른쪽으로 걸어가는 것일 수도 있지만, 이제 그 플롯이 어디로 향할지와 그것이 어떤 영향을 미칠지 볼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-08-18-HowBethesdaDesignsforMoments_2.png)
 
@@ -49,7 +81,18 @@ Just Cause나 후기의 Saint's Row와 같은 시리즈에서는 퀘스트가 �
 
 # 싱글 플레이어 MMO
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CRPG 디자인에 대해 이렇게 생각하니 MMOG들이 더는 내게 흥미로운게 없는 이유를 다시 생각나게 해요. 2004년에 World of Warcraft을 플레이하던 그 때, MMOG들이 나에게 영원히 떠나간 순간이 생생히 기억나요. 어떤 랜덤 숲에서 광물을 캐고 있었는데, 며칠 후에야 드디어 좋은 물건을 제작할 수 있겠구나 생각하고 있었고, 그리고 레이드에서 전설적인 아이템을 제작할 수 있는 그 또 다른 여러 시간들을 상상하고 있었어요. 그런데 무수한 광물 자원들을 쫓다보니까, 내가 게임을 할 때 왜 이렇게 바쁜 작업을 하는 걸까 하는 생각이 들었어요.
 

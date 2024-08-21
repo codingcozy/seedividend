@@ -3,15 +3,13 @@ title: "TS Types와 Interfaces를 사용하는 방법 및 시기"
 description: ""
 coverImage: "/assets/img/2024-07-02-TSWhentouseTypesandwhentouseInterfaces_0.png"
 date: 2024-07-02 21:53
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-02-TSWhentouseTypesandwhentouseInterfaces_0.png
 tag: Tech
 originalTitle: "TS: When to use Types and when to use Interfaces"
 link: "https://medium.com/@a.kago1988/ts-when-to-use-types-and-when-to-use-interfaces-561e8cab2166"
 isUpdated: true
 ---
-
-
 
 TypeScript를 처음 접했을 때 인터페이스와 타입이 서로 교환 가능해 보일 수 있습니다, 특히 객체 모양을 설명할 때입니다. 실제로 TPerson 및 IPerson을 모두 가져오는 코드를 볼 수 있는데, 이는 둘 다 클래스 또는 객체 구조를 정의할 수 있다는 것을 시사합니다. 이 명백한 유사성은 각각을 사용해야 할 때에 대한 혼란을 야기할 수 있습니다.
 
@@ -21,7 +19,18 @@ TypeScript를 처음 접했을 때 인터페이스와 타입이 서로 교환 �
 
 다음과 같이 보이는 동등한 정의를 고려해보세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 interface IPerson {
@@ -44,7 +53,18 @@ IPerson과 TPerson은 둘 다 이름과 나이 속성을 가진 객체를 설명
 
 TypeScript의 인터페이스는 특정 목적에 맞게 설계되었습니다: 객체와 클래스의 형태를 설명하는 데 사용됩니다. 원시 값의 별칭을 만들거나, 결합 유형 또는 교차 유형을 생성하는 데 사용할 수 없습니다. 이 특화된 기능은 인터페이스를 객체지향 프로그래밍 시나리오에서 특히 강력하게 만듭니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 TypeScript을 공부할 때 인터페이스와 타입의 차이를 이해하는 것이 중요합니다. 기억해야 할 주요 차이는 인터페이스는 객체와 클래스를 설명하는 데만 사용되지만, 타입은 어떤 종류의 데이터 구조든 나타낼 수 있다는 점입니다. 이 기본적인 대조는 TypeScript 프로젝트에서 각각을 언제 어떻게 사용해야 하는지를 결정합니다.
 
@@ -56,7 +76,18 @@ TypeScript을 공부할 때 인터페이스와 타입의 차이를 이해하는 
 
 간단한 예시를 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 interface IAnimal {
@@ -118,7 +149,18 @@ myDog.wagTail();
 
 주의하셔야 할 점은 아래의 문법이 객체를 제한하는 경우에서는 클래스가 아닌 객체를 제한하는 경우에만 맞는 구문이에요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```typescript
 인터페이스 IPerson {
@@ -137,7 +179,18 @@ myDog.wagTail();
 - 복잡한 타입 작성: 유니언(|) 및 교차(&) 연산자로 타입을 정교하게 정의할 수 있습니다.
 - 별칭: 타입 별칭은 복잡한 타입에서 코드 가독성을 높일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 예제 입니다:
 
@@ -172,7 +225,18 @@ const myDog: TDog = {
 
 각각의 한계와 강점을 이해하고, 다음 권장 사항을 고려해보세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Interfaces를 사용하는 경우:
 
@@ -191,6 +255,17 @@ TypeScript에서의 인터페이스와 타입의 차이는 분명합니다: 인�
 
 인터페이스는 클래스 기반 시나리오에서 뛰어나며, 오브젝트 구조의 일관성을 보장해야 하는 경우에 유용합니다. 타입은 그들의 다양성으로 인해 복잡한 정의와 다양한 데이터 구조에 대한 가독성 향상에 필요한 도구입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막으로, 클래스와 타입을 제한하는 데 인터페이스를 사용하고 그 외에는 거의 모든 것에 인터페이스를 사용해야 합니다. 이렇게 하면 더 표현력이 뛰어나고 유지보수하기 쉽고 견고한 TypeScript 코드를 작성할 수 있습니다. 기억하세요, 이 도구들을 사용하여 시간이 지나도 유지할 수 있는 명확하고 자기 설명적인 코드를 작성하는 것이 목표입니다.

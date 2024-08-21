@@ -3,17 +3,13 @@ title: "프론트엔드 개발자가 사용해야 하는 버튼"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "The Button that every Front-End developer should use, the written once-and-forgotten code"
 link: "https://medium.com/@Youssef_Hefnawy/the-button-that-every-front-end-developer-should-use-the-written-once-and-forgotten-code-026d7545bd33"
 isUpdated: true
 ---
-
-
-
-
 
 ![매직 버튼을 사용해야 하는 이유](/assets/img/TheButtonthateveryFront-Enddevelopershouldusethewrittenonce-and-forgottencode_0.png)
 
@@ -21,7 +17,18 @@ isUpdated: true
 
 예상대로 작동하고 원하는 위치에 두고 지정한 크기로 유지되는 버튼입니다. 이미 충분히 레이아웃과 반응성 문제가 있으니 나쁜 버튼 문제를 더할 필요는 없을 것 같아요. 버튼이라고 해서 왜 엔지니어링을 과도하게 해야 할까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 번의 코드 작성으로 끝나지만 믿지 않는다면, 다음에서 코드를 검토할 수 있어요:
 
@@ -32,7 +39,18 @@ isUpdated: true
 
 # HTML `<button></button>`, 정말 간단하지 않아요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 버튼을 누르면 어떤 일이 발생한다면 ` button``/button `를 사용하세요.
 
@@ -48,7 +66,18 @@ isUpdated: true
 
 버튼을 누를 때 다른 페이지로 이동한다면 Anchor 요소를 사용하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이 링크의 역할을 브라우저에 지정하기 위해 role="button"을 추가하세요.
 
@@ -62,7 +91,18 @@ isUpdated: true
 
 만약 버튼으로 사용할 다른 것을 생각하고 있다면, Mozilla의 현명한 사람들이 왜 이것이 바보 같은 아이디어인지에 대해 알려주는 메시지를 읽어보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # CSS로 정말 잘 작동하는 것!
 
@@ -72,7 +112,18 @@ isUpdated: true
 
 항상 완벽한 버튼을 만드는 데 흥미를 느꼈어요. 새로운 라이브러리를 시도할 때는 그들이 어떻게 버튼을 만들었는지 먼저 확인해요. 심지어 버튼에 특별히 관심을 가지고 라이브러리를 만들었어요. 그 라이브러리는 오직 중요한 요소만 높은 품질로 제공하고 있어요. 거기에는 더 많이 오버엔진이 된 버튼도 있을 거예요. 만약 이를 받고 싶거나 고품질 리액트 컴포넌트를 이용해 프론트엔드 세계를 개선하고 싶다면 Moon-RockUI를 방문해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1.0.0 버전을 빠르게 출시할 수 있도록 도와주세요!
 
@@ -83,7 +134,18 @@ isUpdated: true
 
 # 버튼 크기:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![The Button that every Front-End developer should use the written once-and-forgotten code](/assets/img/TheButtonthateveryFront-Enddevelopershouldusethewrittenonce-and-forgottencode_2.png)
 
@@ -103,7 +165,18 @@ isUpdated: true
 
 # width: fit-content;
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - fit-content를 사용하면 사용 가능한 공간을 사용하지만 max-content보다는 절대 넘지 않습니다.
 
@@ -113,7 +186,18 @@ isUpdated: true
 - min()을 사용하여 100%와 parent element의 크기에 연결된 최소값을 선택하고, parent element의 크기의 반일 수도 있는 화면 크기와 연결된 100vw입니다.
   이렇게 함으로써 원하는 경우 요소가 부모 크기나 화면 크기로 확장되어 오버플로우 없이 표시할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 버튼 레이아웃, 디스플레이 및 정렬:
 
@@ -131,7 +215,18 @@ isUpdated: true
 
 Flex의 마법을 사용하여 이 버튼 안에 있는 모든 항목을 중앙에 위치시킬 거에요. 함께 사용해보세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - justify-content
 - align-items
@@ -143,7 +238,18 @@ Flex의 마법을 사용하여 이 버튼 안에 있는 모든 항목을 중앙�
 
 ![이미지](/assets/img/TheButtonthateveryFront-Enddevelopershouldusethewrittenonce-and-forgottencode_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 버튼 속성, 패딩 및 글꼴 크기:
 
@@ -163,7 +269,18 @@ Flex의 마법을 사용하여 이 버튼 안에 있는 모든 항목을 중앙�
 
 이것은 max-width 트릭보다 더 과도해 보일 수 있지만, 이 코드를 한 번만 복사하면 모든 경우에 작동합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - padding: max(0.5em, 0.5rem) max(1.5em, 1.5rem); 여기서의 요령은 max() 함수를 사용하는 것입니다. 주목할 점은 한 번은 rem으로 한 번은 em으로 동일한 값을 사용한다는 것이지만 왜 그렇게 할까요?
 
@@ -173,7 +290,18 @@ max() 함수의 목적은 어떤 값이 더 큰지를 선택하는 것입니다.
 
 우리는 이 요령을 사용하여 버튼 안의 최소 공간을 정의하고 동시에 글꼴 크기에 따라 버튼이 커지도록 허용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/TheButtonthateveryFront-Enddevelopershouldusethewrittenonce-and-forgottencode_4.png)
 
@@ -183,7 +311,18 @@ max() 함수의 목적은 어떤 값이 더 큰지를 선택하는 것입니다.
 
 웹 개발 전반적으로 도움이 될 것이라고 생각되는 이 기사들을 꼭 읽으시기를 권장합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - CSS clamp()를 사용하여 글꼴 크기를 선형으로 조절하기
 - CSS Clamp를 사용하여 유동적인 글꼴 크기 스케일 만들기
@@ -209,7 +348,18 @@ max() 함수의 목적은 어떤 값이 더 큰지를 선택하는 것입니다.
 - appearance: button; CSS 속성을 사용하여 UI 컨트롤의 네이티브 모양을 제어합니다. 이는 운영 체제의 테마에 기반한 것입니다.
 - 'appearance'는 iOS의 Safari에서 15.4버전에서 지원되지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 버튼 호버 및 포커스:
 
@@ -236,7 +386,18 @@ max() 함수의 목적은 어떤 값이 더 큰지를 선택하는 것입니다.
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론 + 무료 선물!
 
@@ -246,7 +407,18 @@ max() 함수의 목적은 어떤 값이 더 큰지를 선택하는 것입니다.
 
 버전 1.0.0 곧 출시됩니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 무료 선물:
 
@@ -256,7 +428,18 @@ max() 함수의 목적은 어떤 값이 더 큰지를 선택하는 것입니다.
 
 무료 웹사이트 속도 최적화 서비스 — 무료로 웹사이트 성능 향상하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 통계는 당신을 깜짝 놀라게 하려는 것이 아니에요. 제 무료 서비스에 가입하라는 게 목적이 아니에요.
 
@@ -267,7 +450,18 @@ max() 함수의 목적은 어떤 값이 더 큰지를 선택하는 것입니다.
 
 # 전체 코드:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .Button {

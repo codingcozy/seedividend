@@ -3,7 +3,7 @@ title: "아답터 디자인 패턴을 Angular에서 사용하는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-22-DesignPatternsAdapterinAngular_0.png"
 date: 2024-06-22 03:29
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-DesignPatternsAdapterinAngular_0.png
 tag: Tech
 originalTitle: "Design Patterns — Adapter in Angular"
@@ -11,12 +11,10 @@ link: "https://medium.com/@bulicka.alexandra/design-patterns-adapter-in-angular-
 isUpdated: true
 ---
 
-
-
-
 구조 패턴은 클래스와 객체를 더 큰 구조로 결합하는 방법을 설명합니다.
 
 구조 디자인 패턴에는 다음이 포함됩니다:
+
 1. 어댑터
 2. 컴포지트
 3. 프록시
@@ -28,10 +26,22 @@ isUpdated: true
 어댑터 패턴은 한 클래스의 인터페이스를 클라이언트가 기대하는 인터페이스로 적응시킵니다. 이를 통해 그렇지 않았을 때 호환되지 않을 클래스 간의 협력이 가능해집니다. 이는 관련 없는 클래스끼리 협력할 수 있게 합니다.
 
 Adapter 패턴을 구현하는 두 가지 방법이 있습니다:
+
 - extends
 - 합성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 양쪽 경우 모두 예제로 설명하는 것이 가장 쉬울 것입니다.
 
@@ -41,7 +51,18 @@ Adapter 패턴을 구현하는 두 가지 방법이 있습니다:
 
 첫 번째 경우에는 부적절한 인터페이스를 가진 클래스에 파생 클래스를 배치하고 원하는 기능을 얻기 위해 해당 클래스에 메서드를 추가하는 방식으로 원하는 기능을 얻습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, AdapterComponent 예제 구성 요소에서 TableComponent 구성 요소를 배치합니다.
 
@@ -54,29 +75,29 @@ Adapter 패턴을 구현하는 두 가지 방법이 있습니다:
     </div>
 
     <div>
-        <app-radio [name]="'filter'" 
-                   [value]="FilterColumn.status" 
+        <app-radio [name]="'filter'"
+                   [value]="FilterColumn.status"
                    [label]="'Status'" [isChecked]="true"
             (selectedValue)="onRadioSelectionChange($event)" />
 
-        <app-select-dropdown 
-            *ngIf="configFilter.filterKey === FilterColumn.status" 
+        <app-select-dropdown
+            *ngIf="configFilter.filterKey === FilterColumn.status"
             [keys]="statusKeys"
-            [values]="statusValues" 
+            [values]="statusValues"
             [selectedValue]="configFilter.statusValue"
             (selectionChange)="ngModelChangeFilterValue( FilterColumn.status, configFilter.statusValue = $event)" />
     </div>
 
     <div>
-        <app-radio [name]="'filter'" 
-                   [value]="FilterColumn.type" 
+        <app-radio [name]="'filter'"
+                   [value]="FilterColumn.type"
                    [label]="'Type'" [isChecked]="false"
             (selectedValue)="onRadioSelectionChange($event)" />
 
-        <app-select-dropdown 
-            *ngIf="configFilter.filterKey === FilterColumn.type" 
+        <app-select-dropdown
+            *ngIf="configFilter.filterKey === FilterColumn.type"
             [keys]="typesKeys"
-            [values]="typesValues" 
+            [values]="typesValues"
             [selectedValue]="configFilter.typeValue"
             (selectionChange)="ngModelChangeFilterValue(FilterColumn.type, configFilter.typeValue = $event )" />
     </div>
@@ -85,38 +106,57 @@ Adapter 패턴을 구현하는 두 가지 방법이 있습니다:
 
 TableComponent 구성 요소의 내용을 보여주는 클래스, 템플릿 및 스타일이 포함됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-import { Component, Input } from '@angular/core';
+import { Component, Input } from "@angular/core";
 
 @Component({
-  selector: 'app-table', 
-  template: `
-  <table>
+  selector: "app-table",
+  template: ` <table>
     <thead>
-        <th *ngFor="let column of columns">{ column }</th>
+      <th *ngFor="let column of columns">{ column }</th>
     </thead>
     <tbody>
-        @for (item of items; track item.id;) {
-        <tr>
-            <td *ngFor="let column of columns">
-                <ng-container [ngSwitch]="column">
-                    <span *ngSwitchCase="'status'">{ item[column] | status }</span>
-                    <span *ngSwitchCase="'type'">{ item[column] | types }</span>
-                    <span *ngSwitchDefault>{ item[column] }</span>
-                </ng-container>
-            </td>
-        </tr>
-        }
+      @for (item of items; track item.id;) {
+      <tr>
+        <td *ngFor="let column of columns">
+          <ng-container [ngSwitch]="column">
+            <span *ngSwitchCase="'status'">{ item[column] | status }</span>
+            <span *ngSwitchCase="'type'">{ item[column] | types }</span>
+            <span *ngSwitchDefault>{ item[column] }</span>
+          </ng-container>
+        </td>
+      </tr>
+      }
     </tbody>
   </table>`,
-    styles:[`
-    table { border-collapse: collapse; }
-    th, td { 
-      border: 1px solid black; 
-      padding: 8px; }
-    th { background-color: #f2f2f2; }`]
+  styles: [
+    `
+      table {
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        border: 1px solid black;
+        padding: 8px;
+      }
+      th {
+        background-color: #f2f2f2;
+      }
+    `,
+  ],
 })
 export class TableComponent {
   @Input() items: any[] = [];
@@ -138,13 +178,13 @@ import { FilterColumn } from '../../model/model';
 
 @Component({
   selector: 'app-radio',
-  template: ` 
+  template: `
   <label>
-    <input 
-        type="radio" 
-        name="{name}" 
-        value="{value}" 
-        (change)="onSelectionChange()" 
+    <input
+        type="radio"
+        name="{name}"
+        value="{value}"
+        (change)="onSelectionChange()"
         [checked]="isChecked">
     { label }
   </label>`,
@@ -165,8 +205,18 @@ export class RadioComponent {
 
 값 선택 드롭다운 목록을 위한 재사용 가능한 컴포넌트는 아래와 같습니다:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { Component, Input, Output, EventEmitter } from '@angular/core';
@@ -231,12 +281,33 @@ export enum FilterColumn {
 
 Tasks 테이블의 현재 데이터는 주입된 DataService 서비스 내에 위치한 getCurrentTasks() 메서드를 사용하여 가져옵니다. 여기서 객체 배열의 값은 Signals로 래핑됩니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 변경된 테이블 태그를 마크다운 형식으로 바꿨습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 표, 라디오 버튼 및 드롭다운 목록은 서로 통신하지 않습니다. 비록 라디오 버튼과 드롭다운 목록이 표의 요소를 포함하고 있지만요. 라디오 버튼 Status 및 Type은 표의 열 이름과 대응됩니다. 드롭다운 목록에는 필터링에 사용할 수 있는 열의 요소가 포함되어 있습니다. 이러한 요소들 간의 통신은 필터 메서드를 구현하여 수행할 수 있습니다:
 
@@ -257,10 +328,21 @@ export class SingleColumnFilter implements SingleColumnFilterable<Tasks> {
 
 먼저, filterBySingleColumn 필터링 기능의 정의를 포함하는 SingleColumnFilterable 인터페이스를 구현합니다. 해당 함수는 매우 일반적이므로 SingleColumnFilterable 인터페이스는 다른 클래스에서 사용할 수 있습니다. filterBySingleColumn 메서드에는 열 이름 및 Tasks[] 개체 배열을 필터링하는 값을 포함하는 매개변수가 있습니다. 필터 값에 기반하여 필터링된 개체 배열을 반환합니다.
 
-이 기능이 우리의 어댑터입니다. 지정된 인터페이스를 가진 개체 배열을 가져와 지정된 매개변수에 기반한 개체 배열을 반환합니다. 
+이 기능이 우리의 어댑터입니다. 지정된 인터페이스를 가진 개체 배열을 가져와 지정된 매개변수에 기반한 개체 배열을 반환합니다.
 어댑터 함수는 데이터를 필터링할 필요는 없지만, 작업을 수행하거나 변환하는 등의 작업을 수행할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `filterBySingleColumn` 함수는 `SingleColumnFilter` 클래스를 확장한 `AdapterComponent` 클래스에서 사용됩니다. `filterBySingleColumn` 함수는 재사용 가능한 `SelectDropdownComponent`의 `ngModelChangeFilterValue` 메서드 내에 있습니다. 이 함수의 결과는 `DataService`로 전달됩니다. 서비스는 Signal을 사용하여 Tasks 객체의 배열을 업데이트하고 현재 Tasks 객체의 배열을 AdapterComponent로 전달합니다. 아래는 AdapterComponent의 구현입니다:
 
@@ -325,7 +407,18 @@ export class AdapterComponent extends SingleColumnFilter {
 
 두 번째 경우에는 조합의 사용은 기존 클래스를 구성 요소로 포함하는 새 클래스의 객체를 생성하는 것을 의미합니다. 예를 들어, 드롭다운 리스트는 Tasks 객체의 배열 요소를 포함하는 새 클래스의 객체를 생성합니다. 두 개의 드롭다운 리스트가 함께 배열을 필터링하도록 하는 예시를 구현해봅시다. Status 또는 Type 드롭다운 리스트에서 값을 선택하면 Tasks 테이블이 필터링됩니다. 그러므로, 필터링할 column 이름과 마지막으로 선택된 값을 매개변수로 하는 ngModelChangeFilter 메서드를 생성해 봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AdapterComponent 컴포넌트의 템플릿은 현재 다음과 같습니다:
 
@@ -337,32 +430,32 @@ AdapterComponent 컴포넌트의 템플릿은 현재 다음과 같습니다:
 
     <div>
 
-        <app-radio [name]="'filter'" 
-                   [value]="FilterColumn.status" 
-                   [label]="'Status'" 
+        <app-radio [name]="'filter'"
+                   [value]="FilterColumn.status"
+                   [label]="'Status'"
                    [isChecked]="true"
             (selectedValue)="onRadioSelectionChange($event)" />
 
-        <app-select-dropdown 
-            *ngIf="configFilter.filterKey === FilterColumn.status" 
+        <app-select-dropdown
+            *ngIf="configFilter.filterKey === FilterColumn.status"
             [keys]="statusKeys"
-            [values]="statusValues" 
+            [values]="statusValues"
             [selectedValue]="configFilter.statusValue"
             (selectionChange)="ngModelChangeFilterValue( FilterColumn.status, configFilter.statusValue = $event)" />
 
     </div>
     <div>
 
-        <app-radio [name]="'filter'" 
-                   [value]="FilterColumn.type" 
-                   [label]="'Type'" 
+        <app-radio [name]="'filter'"
+                   [value]="FilterColumn.type"
+                   [label]="'Type'"
                    [isChecked]="false"
             (selectedValue)="onRadioSelectionChange($event)" />
 
-        <app-select-dropdown 
-            *ngIf="configFilter.filterKey === FilterColumn.type" 
+        <app-select-dropdown
+            *ngIf="configFilter.filterKey === FilterColumn.type"
             [keys]="typesKeys"
-            [values]="typesValues" 
+            [values]="typesValues"
             [selectedValue]="configFilter.typeValue"
             (selectionChange)="ngModelChangeFilterValue(FilterColumn.type, configFilter.typeValue = $event )" />
 
@@ -375,14 +468,14 @@ AdapterComponent 컴포넌트의 템플릿은 현재 다음과 같습니다:
     </div>
 
     <div>
-        <app-select-dropdown [keys]="statusKeys" 
-            [values]="statusValues" 
+        <app-select-dropdown [keys]="statusKeys"
+            [values]="statusValues"
             [selectedValue]="configFilter.statusValue"
             (selectionChange)="ngModelChangeFilter(configFilter.filterKey = FilterColumn.status, configFilter.statusValue = $event)" />
 
 
-        <app-select-dropdown [keys]="typesKeys" 
-            [values]="typesValues" 
+        <app-select-dropdown [keys]="typesKeys"
+            [values]="typesValues"
             [selectedValue]="configFilter.typeValue"
             (selectionChange)="ngModelChangeFilter(configFilter.filterKey = FilterColumn.type, configFilter.typeValue = $event)" />
     </div>
@@ -459,7 +552,18 @@ export class AdapterComponent extends SingleColumnFilter {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ngModelChangeFilter 메소드에는 DoubleColumnFilter 클래스의 객체가 포함되어 있습니다. DoubleColumnFilter 클래스의 매개변수는 tasks 객체의 배열을 전달합니다. 따라서 DoubleColumnFilter 클래스는 생성자에서 Tasks 객체의 배열을 받습니다. DoubleColumnFilter 클래스는 DoubleColumnFilterable 인터페이스를 구현합니다. 아래는 DoubleColumnFilter 클래스와 DoubleColumnFilterable 인터페이스의 구현 내용입니다:
 
@@ -472,9 +576,9 @@ export interface DoubleColumnFilterable<T> {
 
 export class DoubleColumnFilter implements DoubleColumnFilterable<Tasks> {
     constructor(private tasks: Tasks[]) {}
-    
+
     filterByBothColumns(status: StatusKey | 0, type: TypesKey | 0): Tasks[] {
-    
+
         return this.tasks.filter(task => {
             const statusMatches = status !== 0 ? task.status === status : true;
             const typeMatches = type !== 0 ? task.type === type : true;
@@ -488,7 +592,18 @@ export class DoubleColumnFilter implements DoubleColumnFilterable<Tasks> {
 
 생성자에 객체 배열을 주입하는 것은 정확히 합성입니다. 즉, 두 가지 추상화가 사용하는 것입니다. 이 경우에는 서로 다른 값과 서로 다른 열을 필터링하는 두 개의 드롭다운 목록이 추상화입니다. 그러나 둘 다 동일한 Tasks 객체 배열을 기반으로 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 요약
 

@@ -3,17 +3,13 @@ title: "Dart 32와 Flutter 316 릴리즈 정리"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Major steps this year on the journey to multiplatform development"
 link: "https://medium.com/flutter/major-steps-this-year-on-the-journey-to-multiplatform-development-b9218b17f0f7"
 isUpdated: true
 ---
-
-
-
-
 
 오늘은 Dart 3.2와 Flutter 3.16의 두 개의 새로운 SDK 릴리스와 Flutter Casual Games Toolkit의 주요 업데이트를 발표해 기쁩니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 올해 초에 케냐 나이로비에서 열린 Flutter Forward에서 Flutter와 Dart의 새로운 로드맵을 소개했습니다. 두 로드맵 모두 다음 네 가지 고수준 테마에 초점을 맞추었습니다: 돌파적인 그래픽 경험, 웹 및 모바일 플랫폼과의 원활한 통합, 새로운 아키텍처에 대한 초기 접속 및 신흥 아키텍처, 그리고 개발자 경험에 대한 지속적인 집중입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이번 해 멀티플랫폼 개발 여정에서 큰 발전](/assets/img/Majorstepsthisyearonthejourneytomultiplatformdevelopment_1.png)
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 # Flutter와 Dart로 사용자 가치 제공하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새로운 기능, 개선, 또는 버그 수정이 있을 때마다, 전체 목표는 변하지 않습니다: 강력한 언어와 프레임워크를 매칭하여 아름답고 풍부하며 빠른 앱을 구축할 수 있도록 하는 것입니다. 그리고 이를 하나의 공유 코드 베이스에서 수행할 수 있으며, 모바일, 웹, 데스크탑 앱 사용자들에게 제공할 수 있습니다. 제품 로드맵을 단편화하지 않고 제품의 발전하는 데에 올인할 수 있습니다. 또한, 라이선스 비용 없이 오픈 소스에 헌신하며, 개방성과 협력에 의해 뒷받침된 풍부한 생태계를 개발하기 위해 노력합니다.
 
@@ -45,7 +63,18 @@ isUpdated: true
 
 ![올해 멀티플랫폼 개발 여정에서 큰 발전](/assets/img/Majorstepsthisyearonthejourneytomultiplatformdevelopment_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Flutter의 도입은 구글 이외에서도 글로벌로 계속 확대되고 있습니다:
 
@@ -57,7 +86,18 @@ Flutter의 도입은 구글 이외에서도 글로벌로 계속 확대되고 있
 
 # 획기적인 그래픽 성능
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희는 멀티플랫폼 개발이 개발자나 최종 사용자들에게 경험이 저하되지 않아야 한다고 확신합니다. 그래서 이 소망을 이루기 위해 최선을 다하고 있어요. Flutter Forward에서는 Impeller 엔진을 소개했어요. 이 엔진은 속도와 성능을 위해 그래픽 렌더링 아키텍처를 완전히 재설계하고 재구현했어요. Flutter 3.10에서는 Impeller가 iOS에서 기본으로 활성화되었다고 발표했고, 오늘 Flutter 3.16에서 Impeller가 Android에서 안정 버전 채널에서 미리보기 피드백을 위해 준비되었다는 소식을 전해드립니다. 지난 1년 동안 성능이 크게 향상되었는데요. Impeller에서 레스터화 성능을 측정한 Flutter Gallery 벤치마크는 1년 전보다 대략 2배 빨라졌어요. Impeller를 활성화하는 방법에 대한 자세한 내용은 Flutter 3.16 게시물을 참조해주세요.
 
@@ -67,7 +107,18 @@ Flutter의 도입은 구글 이외에서도 글로벌로 계속 확대되고 있
 
 특히 빠르고 강력한 그래픽 렌더링이 필요한 앱 카테고리 중 하나는 게임입니다. 2022년에 저희는 초기 Flutter 캐주얼 게임 툴킷을 출시했어요. 오늘은 카드 게임부터 러너 유형 게임까지 다양한 새로운 템플릿과 리더보드, 모네타이제이션, 텔레메트리와 같은 게임 서비스 개발자 리소스를 제공하는 중요한 업데이트를 발표합니다. 더 자세한 내용은 캐주얼 게임 툴킷 블로그 게시물을 확인해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](https://miro.medium.com/v2/resize:fit:1400/0*3DmGJe1yD4eKdnfs.gif)
 
@@ -77,7 +128,18 @@ Flutter의 도입은 구글 이외에서도 글로벌로 계속 확대되고 있
 
 # 개발자 경험에 대한 지속적인 집중
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현대적인 장치는 다양한 형태로 나타납니다 — 휴대전화, 접이식 폰, 태블릿 등 — 이는 화면 크기의 다양성을 가지며, 키보드와 마우스와 같은 외부 입력 장치를 지원합니다. 사용자들이 훌륭한 사용자 경험을 갖도록 보장하기 위해서는 이를 고려하는 것이 중요합니다. 최근 안드로이드 팀과 협업하여 대형 화면 가이드라인을 지원하도록 추가한 내용을 공개했습니다. 대형 화면 지원을 추가함으로써 얻은 학습이나 여러 가지 화면 크기를 지원하도록 Wonderous 레퍼런스 앱을 업데이트하거나 플러터 프레임워크에서 키보드, 마우스, 트랙패드 입력과 같은 요소를 더 잘 지원하기 위한 여러 개선 사항을 적용했습니다. 새로운 API를 사용하여 디스플레이의 크기와 픽셀 비율을 확인하고 멀티 윈도우 랜더링을 지원할 수 있습니다.
 
@@ -87,7 +149,18 @@ Flutter의 도입은 구글 이외에서도 글로벌로 계속 확대되고 있
 
 개발자 도구 개선 사항 중 두 가지 중요한 요소는 VS Code의 새로운 사이드바와 DevTools에 확장 프로그램 추가 지원이 있습니다. 이 사이드바는 새 프로젝트 생성, 핫 리로드 호출, DevTools 열기 또는 대상 장치 선택과 같은 핵심 Flutter 도구 작업을 쉽게 찾을 수 있도록 도와줍니다. DevTools 확장 프로그램은 DevTools에 삽입되는 새로운 사용자 지정 도구를 생성할 수 있는 프레임워크를 제공하며, 추가적인 프레임워크별 기능을 제공합니다. Provider, Patrol, ServerPod는 DevTools 확장 프로그램을 개발하고 있는 프레임워크 중 몇 가지의 예시입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![여기](/assets/img/Majorstepsthisyearonthejourneytomultiplatformdevelopment_6.png)
 
@@ -97,7 +170,18 @@ Flutter의 도입은 구글 이외에서도 글로벌로 계속 확대되고 있
 
 # 새롭고 떠오르는 아키텍처들
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Dart 상호 운용성
 
@@ -107,7 +191,18 @@ Dart는 다양한 플랫폼에서 실행되는 다중 플랫폼 Dart 코드를 �
 
 Wasm(또는 WebAssembly로도 알려진)은 현대 브라우저에서 실행될 이동 가능하고 플랫폼 중립적인 바이너리 코드 형식을 제공하는 웹 브라우저용 새로운 흥미로운 명령어 형식입니다. Dart와 같은 고수준 관리 언어는 가비지 컬렉션을 사용하며, 이는 WebAssembly 표준에 추가되고 있습니다. Chrome 119부터 WebAssembly의 가비지 컬렉션 지원(Wasm-GC)이 기본적으로 활성화되어 있습니다. Wasm-GC 지원은 Firefox 120에서도 지원될 예정이며, 이는 그들의 다음 안정 버전입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다트 컴파일러가 Wasm 지원이 거의 완전한 기능을 갖추었고, 플러터 웹은 새 렌더링 엔진을 사용하며 모든 렌더링이 WebAssembly 코드로 처리되도록 합니다. 더 많은 작업이 남아 있고 지원이 여전히 실험적인 것으로 간주되지만, 이미 Material 3 데모와 같은 일부 앱을 실행할 수 있습니다. Dart 3.2 블로그 글에는 더 자세한 정보가 있습니다.
 
@@ -117,6 +212,17 @@ Wasm(또는 WebAssembly로도 알려진)은 현대 브라우저에서 실행될 
 
 ![Majorstepsthisyearonthejourneytomultiplatformdevelopment_7.png](/assets/img/Majorstepsthisyearonthejourneytomultiplatformdevelopment_7.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 귀하의 놀라운 지원 덕분에 올해는 훌륭한 한 해였습니다. 다트와 플러터 커뮤니티의 다양성, 열정 및 친절한 정신에 감사드립니다. 여러분의 노력이 제품의 성공에 중요한 역할을 하고 있다는 것을 알고 있습니다. 다음에 여러분이 어떤 것을 만드는지 기대가 됩니다. 다음 업데이트까지, 감사합니다 🙏 즐겁게 코딩하세요!

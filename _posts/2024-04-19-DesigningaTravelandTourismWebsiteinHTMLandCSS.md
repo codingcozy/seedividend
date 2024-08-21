@@ -3,17 +3,13 @@ title: "HTML과 CSS로 여행 및 관광 웹사이트 만들기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Designing a Travel and Tourism Website in HTML and CSS"
 link: "https://medium.com/@mjena/designing-a-travel-and-tourism-website-in-html-and-css-4ac98125a46d"
 isUpdated: true
 ---
-
-
-
-
 
 한 단계씩 안내서
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 1단계: HTML 페이지의 기본 구조를 설정하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 첫 번째 단계는 HTML 페이지의 기본 구조를 만드는 것입니다. 아래는 코드의 예시입니다:
 
@@ -47,7 +54,18 @@ isUpdated: true
 - `head`는 페이지의 제목, 문자 인코딩 및 뷰포트 설정을 포함한 문서에 대한 메타데이터를 담고 있습니다.
 - `body`는 페이지의 내용이 들어가는 곳입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Step 2: 헤더 섹션 생성하기
 
@@ -79,7 +97,18 @@ Step 2: 헤더 섹션 생성하기
 
 이 코드에서는 로고와 내비게이션 메뉴가 포함된 헤더 섹션을 만들었습니다. 코드를 자세히 살펴보겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - `header`는 문서나 섹션의 헤더를 나타내는 컨테이너 요소입니다.
 - `div class="logo"`는 웹사이트의 로고를 담고 있는 컨테이너 요소입니다.
@@ -103,7 +132,18 @@ Step 3: 배너 섹션 생성
 </section>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 코드에서는 세 개의 이미지가 포함된 슬라이더가 있는 배너 섹션을 생성했습니다. 코드를 자세히 살펴보겠습니다:
 
@@ -115,7 +155,18 @@ Step 3: 배너 섹션 생성
 
 서비스 섹션은 고객에 제공하는 서비스를 소개할 수 있는 곳입니다. 아래는 서비스 코드의 예시입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <section class="services">
@@ -138,7 +189,18 @@ Step 3: 배너 섹션 생성
 </section>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도착지 섹션은 귀하가 고객들에게 제공하는 여행지를 소개할 수 있는 곳입니다. 아래는 여러분의 도착지 코드가 어떻게 보이는지 예제입니다:
 
@@ -168,7 +230,18 @@ Step 3: 배너 섹션 생성
 - `img src="img/destination1.jpg" alt="도착지 1"`은 해당 도착지를 나타내는 이미지입니다.
 - `h3`뉴욕`/h3`는 해당 도착지의 이름을 나타내는 제목입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 6단계: 푸터 섹션 만들기
 
@@ -201,7 +274,18 @@ Step 3: 배너 섹션 생성
 
 위 코드에서는 연락처 정보와 소셜 미디어 링크를 포함한 푸터 섹션을 만들었습니다. 코드를 자세히 살펴보겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - `footer`은 footer 섹션을 나타내는 컨테이너 엘리먼트입니다.
 - `div class="contact"`은 연락 정보를 포함하는 컨테이너 엘리먼트입니다.
@@ -401,7 +485,18 @@ color: #ffd700;
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 코드에서는 CSS를 사용하여 HTML 코드의 여러 요소에 스타일을 추가했습니다. 코드를 자세히 살펴보겠습니다:
 
@@ -417,7 +512,18 @@ color: #ffd700;
 
 축하합니다! 이제 HTML과 CSS를 사용하여 여행 및 관광 웹사이트를 디자인하고 스타일을 입혔습니다. 이제 HTML 및 CSS 파일을 웹 호스팅 서비스에 업로드하거나 웹사이트 빌더 도구를 사용하여 웹사이트를 출시할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결론
 

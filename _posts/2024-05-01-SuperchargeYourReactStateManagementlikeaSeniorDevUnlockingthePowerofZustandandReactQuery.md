@@ -3,16 +3,13 @@ title: "대기업에서 React 상태 관리를 하는 방법,(Zustand와 React Q
 description: ""
 coverImage: "/assets/img/2024-05-01-SuperchargeYourReactStateManagementlikeaSeniorDevUnlockingthePowerofZustandandReactQuery_0.png"
 date: 2024-05-01 18:13
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-01-SuperchargeYourReactStateManagementlikeaSeniorDevUnlockingthePowerofZustandandReactQuery_0.png
 tag: Tech
 originalTitle: "Supercharge Your React State Management like a Senior Dev: Unlocking the Power of Zustand and React Query"
 link: "https://medium.com/@iamashot/supercharge-your-react-state-management-like-a-senior-dev-unlocking-the-power-of-zustand-and-react-b2db33ecd12"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-05-01-SuperchargeYourReactStateManagementlikeaSeniorDevUnlockingthePowerofZustandandReactQuery_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 Zustand는 함수형 프로그래밍 개념을 사용하여 상태를 정의하고 관리하는 React용 가벼운 상태 관리 라이브러리입니다. Redux와 달리 Zustand는 전역 저장소나 복잡한 액션 및 리듀서 집합에 의존하지 않습니다. 대신, Zustand를 사용하면 간단한 자바스크립트 객체와 함수를 사용하여 상태를 정의할 수 있습니다. 이를 통해 더 복잡한 상태 관리 솔루션의 부하 없이 상태를 확장 가능하고 유지 보수 가능한 방식으로 정의하고 관리할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Zustand은 상태에 액세스하고 업데이트 기능을 제공하는 사용자 정의 React 훅을 생성하여 작동합니다. 이 훅은 응용 프로그램 어디에서나 상태에 액세스하고 업데이트할 수 있습니다. Zustand는 상태를 정의하고 다양한 방법으로 조작하기 쉽게 하는 도우미 함수 및 유틸리티 세트를 제공합니다.
 
@@ -32,7 +40,18 @@ React Query는 React용 강력하고 유연한 데이터 검색 및 캐싱 라�
 
 React Query의 주요 이점 중 하나는 그 유연성입니다. 자동 재시도, 백그라운드 다시 가져오기 등을 지원하는 데이터 검색 및 캐싱을 구성하는 다양한 옵션을 제공합니다. 이를 통해 사용자 지정 로직이나 보일러플레이트 없이도 응용 프로그램에서 다양한 데이터 검색 및 캐싱 시나리오를 쉽게 처리할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Zustand과 React Query 함께 사용하기
 
@@ -42,7 +61,18 @@ Zustand과 React Query는 각각 강력한 상태 관리 라이브러리입니�
 
 실제로 이를 구현하는 방법을 좀 더 자세히 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Zustand을 사용하여 상태 정의하기
 
@@ -52,7 +82,18 @@ Zustand와 React Query를 함께 사용하는 첫 번째 단계는 Zustand를 �
 
 ![예시](/assets/img/2024-05-01-SuperchargeYourReactStateManagementlikeaSeniorDevUnlockingthePowerofZustandandReactQuery_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예시에서는 Zustand를 사용하여 상태를 관리하는 간단한 카운터를 정의하고 있습니다. useStore 훅은 count 속성과 상태를 업데이트하는 데 사용할 수 있는 increment 및 decrement 함수를 포함하는 객체를 반환합니다.
 
@@ -62,7 +103,18 @@ Zustand와 React Query를 함께 사용하는 첫 번째 단계는 Zustand를 �
 
 - React Query 설치하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저 React Query와 그 종속성들을 설치해야 합니다. 터미널을 열고 프로젝트 디렉토리로 이동하세요.
 
@@ -73,7 +125,18 @@ npm install react-query
 
 React Query를 사용하려면 QueryClientProvider 컴포넌트로 애플리케이션을 감싸야 합니다. 이 컴포넌트는 React Query가 제대로 작동할 수 있도록 필요한 컨텍스트를 제공합니다. 루트 컴포넌트 파일에서 필요한 종속성을 import하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-05-01-SuperchargeYourReactStateManagementlikeaSeniorDevUnlockingthePowerofZustandandReactQuery_2.png)
 
@@ -83,7 +146,18 @@ React Query를 사용하려면 QueryClientProvider 컴포넌트로 애플리케�
 
 React Query는 데이터를 가져오기 위한 간단하고 선언적인 API를 제공합니다. React Query를 사용하여 API 엔드포인트에서 데이터를 가져오는 예제를 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-05-01-SuperchargeYourReactStateManagementlikeaSeniorDevUnlockingthePowerofZustandandReactQuery_3.png)
 
@@ -93,7 +167,18 @@ useQuery 훅은 데이터, 로딩 상태 및 오류 여부 속성이 있는 객�
 
 4. Zustand과 React Query를 결합하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Zustand과 React Query를 결합하기 위해 React Query의 데이터를 Zustand 상태에 통합할 수 있습니다. Zustand를 사용하여 전역 상태를 관리하고 React Query를 사용하여 데이터를 가져오고 업데이트할 수 있습니다.
 
@@ -103,7 +188,18 @@ React Query 데이터를 Zustand에 통합하는 예시를 살펴봅시다:
 
 이 예시에서 useStore 훅을 사용하여 Zustand에서 users 상태를 정의합니다. 또한 상태를 업데이트하는 setUsers 함수를 정의합니다. UsersList 컴포넌트 내에서는 API 엔드포인트에서 데이터를 가져오기 위해 useQuery 훅을 사용합니다. 데이터를 가져올 때 setUsers 함수를 호출하여 가져온 데이터로 Zustand 상태를 업데이트합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Zustand과 React Query를 결합하여 전역 상태를 쉽게 관리할 수 있습니다. Zustand를 사용하면서 React Query의 강력한 데이터 가져오기 및 캐싱 기능을 활용할 수 있습니다.
 
@@ -113,7 +209,18 @@ Zustand과 React Query를 결합하여 전역 상태를 쉽게 관리할 수 있
 
 - 코드 간소화
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Zustand과 React Query를 함께 사용하는 가장 중요한 장점 중 하나는 코드를 간소화한다는 것입니다. Zustand는 응용 프로그램 상태를 관리하기 위한 간단한 API를 제공하며, React Query는 데이터 가져오기와 캐싱을 간단하게 만들어줍니다. 이 둘을 함께 사용하면 그렇지 않았다면 작성해야 했을 많은 뼈대 코드를 제거할 수 있습니다.
 예를 들어, Zustand를 사용하여 응용 프로그램의 전역 상태를 관리하고, 그런 다음 React Query를 사용하여 API에서 데이터를 가져올 수 있습니다. 이를 통해 데이터와 UI를 분리하여 코드를 더 모듈식으로 유지하고 이해하기 쉽게 만들 수 있습니다.
@@ -124,7 +231,18 @@ React Query의 캐싱 메커니즘은 응용 프로그램에 훌륭한 성능 �
 
 Zustand의 작은 크기와 간결함도 성능 향상에 기여합니다. Redux보다 훨씬 작기 때문에 로드하는 데 더 빠르고 응용 프로그램의 메모리 풋프린트를 줄일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. 쉬운 통합
 
@@ -134,7 +252,18 @@ Zustand와 React Query는 기존의 React 애플리케이션에 쉽게 통합할
 
 Zustand의 간결함은 소규모에서 중규모 애플리케이션에 좋은 선택입니다. 그러나 React Query와 결합하면 대규모 복잡한 애플리케이션을 구축하는 강력한 도구가 됩니다. React Query의 캐싱 메커니즘과 다른 라이브러리와의 쉬운 통합은 애플리케이션의 확장에 좋은 선택입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 결론
 

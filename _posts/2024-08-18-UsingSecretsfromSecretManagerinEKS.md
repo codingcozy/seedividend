@@ -3,7 +3,7 @@ title: "EKS에서 Secret Manager의 비밀 정보 활용하기"
 description: ""
 coverImage: "/assets/img/2024-08-18-UsingSecretsfromSecretManagerinEKS_0.png"
 date: 2024-08-18 11:30
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-18-UsingSecretsfromSecretManagerinEKS_0.png
 tag: Tech
 originalTitle: "Using Secrets from Secret Manager in EKS"
@@ -11,7 +11,6 @@ link: "https://medium.com/@asrathore08/using-secrets-from-secret-manager-in-eks-
 isUpdated: true
 updatedAt: 1724032856385
 ---
-
 
 EKS에서 민감한 정보를 안전하게 관리하세요.
 
@@ -21,7 +20,18 @@ Kubernetes Secrets Store CSI Driver용 AWS Secrets and Configuration Provider(AS
 
 ## ASCP 사용 방법
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - AWS Secrets Manager를 사용하여 비밀을 만드세요.
 - AWS Secrets Manager에서 비밀을 검색하는 IAM 정책을 만드세요.
@@ -36,7 +46,18 @@ EKS 파드에서 Secrets Manager를 통합하려면 Kubernetes Secrets Store CSI
 
 ## 솔루션의 구성요소
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Secrets Store CSI Driver은 모든 Kubelet 인스턴스와 통신하는 데몬세트입니다. CSI 드라이버는 외부 Secrets Store에서 마운트 콘텐츠를 가져오기 위해 제공자와 gRPC를 사용하여 통신합니다.
 - ASCP는 pod 식별 정보를 검색하고 IAM 역할로의 ID 교환을 통해 서비스 계정(IRSA)을 위한 IAM 역할을 얻습니다. 이를 통해 우리는 EKS 클러스터의 특정 namespace의 특정 pod에 대한 시크릿이나 매개변수에 대한 액세스를 제한할 수 있습니다. 그런 다음 AWS Secrets Manager 서비스로 시크릿을 로드하기 위해 API 호출을 수행합니다.
@@ -53,7 +74,18 @@ EKS 파드에서 Secrets Manager를 통합하려면 Kubernetes Secrets Store CSI
 
 ## ASCP의 장점
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ASCP를 통해 AWS Secrets Manager에서 환경 변수로 노출되는 것을 피할 수 있습니다. 단점은 해당 볼륨을 직접 Pod로 마운트하는 것을 요구하기 때문에 그 볼륨을 관리해야 합니다.
 
@@ -63,7 +95,18 @@ ASCP를 통해 AWS Secrets Manager에서 환경 변수로 노출되는 것을 �
 
 ## Secret Store CSI Driver & ASCP 설치하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # Secrets Store CSI Driver 및 ASCP 설치하기
@@ -104,14 +147,14 @@ spec:
     failoverRegion: eu-west-2
     objects: |
       - objectName: "arn:aws:secretsmanager:eu-west-1:111122223333:secret:my-app-secret"
-        failoverObject: 
+        failoverObject:
           - objectName: "arn:aws:secretsmanager:eu-west-2:111122223333:secret:my-app-secret"
-        jmesPath: 
+        jmesPath:
             - path: username
               objectAlias: dbusername
             - path: password
               objectAlias: dbpassword
-  secretObjects:                
+  secretObjects:
     - secretName: my-secret-01
       type: Opaque
       data:
@@ -123,7 +166,18 @@ spec:
 
 서비스 프로바이더 클래스의 정의
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 kubectl get SecretProviderClass
@@ -173,7 +227,18 @@ spec:
 
 확인 및 정리
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 kubectl exec -it $(kubectl get pods | awk '/busybox/{print $1}' | head -1) -- cat /mnt/secrets-store/eksSecret;
@@ -193,7 +258,18 @@ AWS Secrets Manager를 Kubernetes Secrets와 통합하는 또 다른 방법은 E
 
 External Secrets는 AWS Secrets Manager에서 정보를 읽어와 Kubernetes Secret에 자동으로 값을 주입하는 Kubernetes용 연산자로, 시크릿의 수명 주기를 저장하고 관리하는 추상화를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-08-18-UsingSecretsfromSecretManagerinEKS_1.png" />
 
@@ -213,7 +289,18 @@ helm install external-secrets \
     --set installCRDs=true
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 주요 구성 요소
 

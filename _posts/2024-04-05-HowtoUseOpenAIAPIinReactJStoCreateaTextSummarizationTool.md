@@ -3,17 +3,13 @@ title: "ReactJS에서 OpenAI API를 사용하여 텍스트 요약 사이트 만�
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How to Use OpenAI API in ReactJS to Create a Text Summarization Tool"
 link: "https://medium.com/@ayyazzafar/how-to-use-openai-api-in-reactjs-to-create-a-text-summarization-tool-ce82e5461f03"
 isUpdated: true
 ---
-
-
-
-
 
 ![How to Use OpenAI API in ReactJS to Create a Text Summarization Tool](/assets/img/HowtoUseOpenAIAPIinReactJStoCreateaTextSummarizationTool_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 준비 사항:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - ReactJS에 대한 기본 지식
 - HTML 및 CSS에 익숙함
@@ -38,7 +45,18 @@ cd my-app
 
 단계 2: Tailwind CSS 설치 및 구성하기 이제 Tailwind CSS를 개발 의존성으로 설치해 보겠습니다. 터미널에서 다음을 실행하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm install -D tailwindcss postcss autoprefixer
@@ -59,7 +77,18 @@ module.exports = {
 
 src/index.css 파일을 열어 내용을 다음과 같이 교체해주세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 @tailwind 기본 설정;
@@ -73,7 +102,18 @@ src/index.css 파일을 열어 내용을 다음과 같이 교체해주세요:
 
 src/App.js 파일의 내용을 다음 코드로 교체하십시오:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import React, { useState } from "react";
@@ -94,8 +134,7 @@ export default function App() {
       messages: [
         {
           role: "system",
-          content:
-            "You are a helpful assistant. and you have to summarize the text provided by the user.",
+          content: "You are a helpful assistant. and you have to summarize the text provided by the user.",
         },
         { role: "user", content },
       ],
@@ -113,10 +152,7 @@ export default function App() {
     <>
       <header className="text-gray-600 body-font">
         <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-          <a
-            href="/"
-            className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"
-          >
+          <a href="/" className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
             <span className="ml-3 text-xl">AyyazTech</span>
           </a>
           <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
@@ -142,23 +178,17 @@ export default function App() {
       <section className="text-gray-600 body-font relative">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-col text-center w-full mb-12">
-            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
-              AI 요약 도구
-            </h1>
+            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">AI 요약 도구</h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-              이것은 어떤 텍스트든 몇 문장으로 요약할 수 있는 간단한 AI 요약
-              도구입니다. 아래 상자에 텍스트를 붙여넣고 요약을 받으려면 버튼을
-              클릭하십시오.
+              이것은 어떤 텍스트든 몇 문장으로 요약할 수 있는 간단한 AI 요약 도구입니다. 아래 상자에 텍스트를 붙여넣고
+              요약을 받으려면 버튼을 클릭하십시오.
             </p>
           </div>
           <div className="lg:w-1/2 md:w-2/3 mx-auto">
             <div className="flex flex-wrap -m-2">
               <div className="p-2 w-full">
                 <div className="relative">
-                  <label
-                    htmlFor="message"
-                    className="leading-7 text-sm text-gray-600"
-                  >
+                  <label htmlFor="message" className="leading-7 text-sm text-gray-600">
                     내용
                   </label>
                   <textarea
@@ -188,12 +218,8 @@ export default function App() {
       <section className="text-gray-600 body-font">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-col text-center w-full mb-20">
-            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
-              요약
-            </h1>
-            <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-              {summary}
-            </p>
+            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">요약</h1>
+            <p className="lg:w-2/3 mx-auto leading-relaxed text-base">{summary}</p>
           </div>
         </div>
       </section>
@@ -239,7 +265,18 @@ fetch(url, {
 
 `YOUR_API_KEY`를 실제 OpenAI API 키로 대체하십시오.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/HowtoUseOpenAIAPIinReactJStoCreateaTextSummarizationTool_2.png)
 
@@ -250,7 +287,18 @@ fetch(url, {
 
 ![이미지](/assets/img/HowtoUseOpenAIAPIinReactJStoCreateaTextSummarizationTool_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결론: 축하드립니다! ReactJS와 OpenAI API를 사용하여 텍스트 요약 도구를 성공적으로 만들었습니다. 이 강좌는 인공 지능과 웹 개발을 결합하여 유용한 애플리케이션을 만드는 능력을 보여줍니다.
 
@@ -260,7 +308,18 @@ fetch(url, {
 
 관련 동영상:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 코더들을 위한 창조자들: ChatGPT 4 Vision의 반드시 볼 가치 있는 9가지 활용법! (https://www.youtube.com/watch?v=qN9CiYmfQIM)
 - React & Tailwind CSS: ChatGPT 4에 안내받은 퀴즈 앱 만들기 (https://www.youtube.com/watch?v=-Y_khYHLTr4)

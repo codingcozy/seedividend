@@ -3,17 +3,13 @@ title: "Vite 프로젝트에서 폰트 커스텀하기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Customizing fonts in Vite Projects"
 link: "https://medium.com/@mosheedri20/customizing-fonts-in-vite-projects-c1c43d1bf411"
 isUpdated: true
 ---
-
-
-
-
 
 ![Customizing Fonts in Vite Projects](/assets/img/CustomizingfontsinViteProjects_0.png)
 
@@ -23,7 +19,18 @@ Vite를 처음 사용할 때 사용자 정의 글꼴 통합과 같은 간단한 
 
 - 폰트 폴더 생성: 아직 "fonts" 폴더가 없다면 만드세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 mkdir src/assets/fonts
@@ -35,7 +42,18 @@ mkdir src/assets/fonts
 
 폰트 파일을 폰트 폴더에 추가하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Customizing fonts](/assets/img/CustomizingfontsinViteProjects_2.png)
 
@@ -45,7 +63,18 @@ Mozilla 문서에서 설명한대로, @font-face CSS at-rule은 텍스트를 표
 
 폰트는 원격 서버에서 또는 사용자의 컴퓨터에 로컬로 설치된 폰트에서 로드할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서 우리는 이제 그것을 할 것입니다.
 
@@ -54,12 +83,22 @@ index.css 파일에 다음 코드를 추가하세요:
 ```css
 @font-face {
   font-family: "RubikScribble";
-  src: local("RubikScribble-Regular"),
-    url("./assets/fonts/Rubik_Scribble/RubikScribble-Regular.ttf");
+  src: local("RubikScribble-Regular"), url("./assets/fonts/Rubik_Scribble/RubikScribble-Regular.ttf");
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 양식: url()과 local() 둘을 함께 사용하여, 사용자의 기기에 폰트가 없을 경우 폰트 복사본을 다운로드하고, 설치된 폰트가 있는 경우 그것을 사용합니다.
 
@@ -76,7 +115,18 @@ import "./assets/fonts/Rubik_Scribble/RubikScribble-Regular.ttf";
 
 위 단계에 따라 진행했다면, 이와 같은 결과가 나타날 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/CustomizingfontsinViteProjects_3.png)
 

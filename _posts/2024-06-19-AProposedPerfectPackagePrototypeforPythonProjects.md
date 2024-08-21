@@ -3,15 +3,13 @@ title: "파이썬 프로젝트를 위한 완벽한 패키지 프로토 타입 �
 description: ""
 coverImage: "/assets/img/2024-06-19-AProposedPerfectPackagePrototypeforPythonProjects_0.png"
 date: 2024-06-19 23:20
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-AProposedPerfectPackagePrototypeforPythonProjects_0.png
 tag: Tech
 originalTitle: "A Proposed Perfect Package Prototype for Python Projects"
 link: "https://medium.com/towards-data-science/a-proposed-perfect-package-prototype-for-python-projects-cf7c2e89c611"
 isUpdated: true
 ---
-
-
 
 <img src="/assets/img/2024-06-19-AProposedPerfectPackagePrototypeforPythonProjects_0.png" />
 
@@ -21,7 +19,18 @@ Python 패키지의 구조를 세울 때 고려해야 할 많은 옵션이 있�
 
 또한 사용자가 자신의 프로젝트에 네임스페이스를 포함하기 시작했다면, 어떠한 변경을 가하더라도 그 사용자가 소스 코드를 변경해야 할 필요가 생깁니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러므로 처음에 꾸미고 배치 결정을 잘 내리는 것이 매우 중요합니다.
 
@@ -31,7 +40,18 @@ Python 패키지의 구조를 세울 때 고려해야 할 많은 옵션이 있�
 
 ## 기회
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일반 패키지 레이아웃을 구성하고 모든 도전 과제를 해결하는 데 필요한 스켈레톤 프로젝트에서 프로토타입을 구축할 수 있다면, 앞으로 패키지를 만드는 것은 빠르고 간단한 복사 및 붙여넣기만으로 완료될 것입니다.
 
@@ -41,7 +61,18 @@ Python 패키지의 구조를 세울 때 고려해야 할 많은 옵션이 있�
 
 # 배경
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여러 해 동안 많은 파이썬 패키지를 작성해 왔고, 프로젝트 구조를 각각 실험하고 수정하여 완벽한 구조를 찾으려 했지만, 항상 어느 한 측면에서는 불완전한 상태였습니다.
 
@@ -58,7 +89,18 @@ Python 패키지의 구조를 세울 때 고려해야 할 많은 옵션이 있�
 - 모든 패키지 폴더와 하위 폴더의 클래스 docstring에서 자동으로 생성된 문서가 포함된 최상위 폴더를 포함해야 합니다.
 - Jupyter 노트북, 단위 테스트 및 패키지에 접근하는 다른 프로젝트에서 패키지 위치를 하드 코딩하는 것을 피해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 솔루션이 작동하는 것을 증명하기
 
@@ -69,7 +111,18 @@ Python 패키지의 구조를 세울 때 고려해야 할 많은 옵션이 있�
 
 # 뒤의 시작하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 요구 사항을 해결하고 두 개의 테스트 클래스에 대한 개요를 제공하는 완료된 프로젝트/패키지 구조 미리보기입니다 (Fisher 클래스가 fisher_file.py에 포함되어 있고 BaseLearner 클래스가 base_file.py에 포함되어 있는 것을 알립니다)
 
@@ -79,7 +132,18 @@ Python 패키지의 구조를 세울 때 고려해야 할 많은 옵션이 있�
 
 이 구조는 모든 요구 사항을 해결했을 것으로 보이지만, 이 구조에는 주의할 필요가 있는 몇 가지 근본적인 문제가 있습니다...
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 네이밍 규칙
 
@@ -91,7 +155,18 @@ from common.base_file import BaseLearner
 
 원하는 가져오기는 다음과 같습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ghpackage.common 모듈에서 BaseLearner를 가져왔습니다.
 
@@ -101,7 +176,18 @@ ghpackage.common 모듈에서 BaseLearner를 가져왔습니다.
 
 fisher_file.py에서는 ghtestpackage.common 모듈의 BaseLearner를 불러오는 코드가 작동하지 않을 것입니다. 왜냐하면 현재 위치에서 상대적인 참조를 사용했기 때문입니다. 즉, ghtestpackage.common 모듈에서 BaseLearner를 해결하려는 시도는 algorithms.ghtestpackage.common에서 BaseLearner를 찾지 못할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 큰 문제가 있어요
 
@@ -113,7 +199,18 @@ fisher_file.py에서는 ghtestpackage.common 모듈의 BaseLearner를 불러오�
 
 문제는, 이 3가지 다른 사용 사례가 서로 다른 방식으로 실행되며 다른 상대적인 위치에서 실행을 시작한다는 것이 거의 불가능하다는 것이에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 패키지가 Python 프로그램으로 가져올 때, 해당 패키지의 시작 지점은 부모 폴더입니다. 다음 시스템 경로를 고려하면 확인할 수 있습니다...
 
@@ -138,7 +235,18 @@ fisher_file.py에서는 ghtestpackage.common 모듈의 BaseLearner를 불러오�
 
 Anaconda에서 CMD.exe 프롬프트를 실행하고 **site-packages** 폴더의 디렉토리를 나열하여 쉽게 확인할 수 있습니다...
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-AProposedPerfectPackagePrototypeforPythonProjects_2.png)
 
@@ -148,7 +256,18 @@ Anaconda에서 CMD.exe 프롬프트를 실행하고 **site-packages** 폴더의 
 
 마지막으로 Visual Studio Code에서의 pytest 단위 테스트는 다시 다르게 동작합니다. VS Code 안에서 pytest 단위 테스트의 홈 / 실행 경로는 프로젝트의 루트 폴더입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요약하면 다음과 같습니다...
 
@@ -160,7 +279,18 @@ Anaconda에서 CMD.exe 프롬프트를 실행하고 **site-packages** 폴더의 
 
 오랫동안 이 난제에 대한 유일한 해결책은 내 패키지에서 가져와야 하는 프로젝트의 import 코드에 직접 경로를 삽입하는 것이었습니다...
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 방법은 작동하지만 일부 심각한 단점이 있습니다.
 
@@ -170,7 +300,18 @@ Anaconda에서 CMD.exe 프롬프트를 실행하고 **site-packages** 폴더의 
 
 예를 들어, dag_tools.py 및 causal_tools.py가 ghlibrary의 루트에 직접 존재하며 위치를 변경하는 옵션이 제한되어 있습니다. 따라서 시간이 지남에 따라 이러한 소스 파일이 커졌고, VS Code는 린팅, 도구 팁 및 기타 기능을 처리하는 데 느려졌습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 Markdown 형식으로 변경해주세요.
 
@@ -182,7 +323,18 @@ Anaconda에서 CMD.exe 프롬프트를 실행하고 **site-packages** 폴더의 
 
 더 나은 대안이 필요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사이트 패키지의 경로는 sys.path를 실행하여 쉽게 식별할 수 있습니다. 이미 제 컴퓨터에서는 C:\Users\GHarr\anaconda3\envs\project-env\lib\site-packages임을 확인했습니다.
 
@@ -192,7 +344,18 @@ Anaconda에서 CMD.exe 프롬프트를 실행하고 **site-packages** 폴더의 
 
 ![링크명](/assets/img/2024-06-19-AProposedPerfectPackagePrototypeforPythonProjects_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 의미는 만약 ghtestpackage가 C:\Users\GHarr\OneDrive\Python Projects\Packages의 하위 폴더로 생성된다면, 모든 Python 프로젝트의 검색 경로에 자동으로 포함되며 그 안에 포함된 모든 파일 및 클래스를 참조하고 가져올 수 있게 됩니다…
 
@@ -204,7 +367,18 @@ Anaconda에서 CMD.exe 프롬프트를 실행하고 **site-packages** 폴더의 
 
 큰 문제가 해결되면 나머지 요구사항을 달성하는 것이 훨씬 쉬워질 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 남은 문제 해결하기
 
@@ -214,7 +388,18 @@ Anaconda에서 CMD.exe 프롬프트를 실행하고 **site-packages** 폴더의 
 
 소스 파일을 서브 폴더와 파일로 구성해야 하지만, 반대로 가져오기(import)할 때 이러한 이름을 사용하고 싶지는 않을 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, 다음과 같이 import하는 것은 너무 길고 직관적이지 않습니다.
 
@@ -224,7 +409,18 @@ from ghlibrary.algorithms.fisher_folder.fisher_file import Fisher
 
 from ghlibrary.algorithms import Fisher
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 코드를 폴더 및 파일로 계층적으로 분할하는 유연성과 패키지의 소비자에게 표시되는 가져오기를 여전히 제어할 수도 있습니다. 이것은 패키지 각 수준에 있는 **init**.py 파일을 통해 이루어집니다.
 
@@ -238,7 +434,18 @@ from .fisher_file import Fisher
 
 이 시점에서 가져오기를 from ghlibrary.algorithms.fisher_folder import Fisher로 단축시킬 수 있으나 더 나은 방법이지만 완벽하지는 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 단계는 알고리즘 폴더에 다음과 같이 **init**.py를 제공하는 것입니다...
 
@@ -248,7 +455,18 @@ from .fisher_folder import Fisher은 전처리기에게 현재 폴더에서 시�
 
 패키지를 사용하는 소비자는 이제 다음을 사용할 수 있습니다 -
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ghlibrary.algorithms에서 Fisher를 가져와주세요.
 
@@ -258,7 +476,18 @@ ghpackage\common 하위 폴더의 **init**.py 파일은 다음과 같습니다..
 
 그리고 common 폴더에 추가 하위 폴더가 없기 때문에 그게 전부입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 소비자 분들은 다음과 같이 참조할 수 있어요...
 
@@ -270,7 +499,18 @@ from ghpackage.common import BaseLearner
 
 하위 폴더와 파일로 계층적으로 구성된 프로젝트 클래스들은 이제 클라이언트가 다음과 같이 참조할 수 있어요...
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아직 풀지 않은 수수께끼가 하나 있습니다. Fisher 클래스의 소스 코드를 살펴보십시오...
 
@@ -280,7 +520,18 @@ BaseLearner는 ghtestpackage/common/base_file.py에 위치해 있고 따라서 g
 
 동작하는 이유는 .pth 파일을 사용하여 Anaconda에 C:\Users\GHarr\anaconda3\envs\project-env\lib\site-packages를 포함하도록 알려주었기 때문입니다. 이 경로는 ghtestpackage의 상위 폴더입니다. 따라서 ghtestpackage.common에서 BaseLearner를 참조하는 것은 패키지의 상위 폴더에서 해결됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 단계에서는 "완벽한 패키지 프로토타입"이 생성되었고, 남은 일은 그것이 예상대로 작동하는지 증명하기 위해 철저히 테스트하는 것입니다.
 
@@ -290,7 +541,18 @@ BaseLearner는 ghtestpackage/common/base_file.py에 위치해 있고 따라서 g
 
 BaseLearner()이 서로 다른 폴더 위치의 여러 알고리즘을 위한 기본 클래스가 될 것이라는 아이디어 때문에, 이 코드는 common 폴더로 분리되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이번 데모에서 기본 클래스에는 서브 클래스에서 호출할 수 있어야 할 단일 메서드가 있습니다. 각 클래스는 호출되었음을 증명하기 위해 icecream을 사용하여 디버그 메시지를 출력합니다.
 
@@ -300,7 +562,18 @@ ghtestpackage\notebooks 폴더에는 ghtest_notebook.ipynb라는 주피터 노�
 
 노트북에 있는 코드는 다음과 같습니다...
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 이것이 출력 결과입니다...
 
@@ -315,7 +588,18 @@ ic | "BaseLearner.test";
 
 또한 주의할 점은 완전히 별도의 프로젝트에 노트북이 생성되고 위의 코드가 셀에 입력된 경우에도 모든 작업이 올바르게 수행된다는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## pytest 클라이언트 테스트 중
 
@@ -325,7 +609,18 @@ ic | "BaseLearner.test";
 
 다시 말하지만, .pth 파일의 지시에 따라 패키지의 부모 폴더를 시스템 경로에 추가했기 때문에 참조가 작동합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최종 증명은 VS Code의 단위 테스트 패널로 이동하여 단위 테스트가 식별되고 발견되었는지 확인하고, 모두 실행하여 오류 없이 완료되는지 확인하는 것입니다...
 
@@ -335,7 +630,18 @@ ic | "BaseLearner.test";
 
 # 문서 작성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막 요구 사항은 문서 생성과 관련이 있습니다. 한 가지 방법은 모듈, 클래스 및 함수에 포괄적인 독스트링이 있는지 확인하는 것입니다(이 스텁은 VS Code에서 자동으로 생성될 수 있습니다).
 
@@ -345,7 +651,18 @@ ic | "BaseLearner.test";
 
 이 접근 방식을 모든 소스 코드에 적용하면 pydoc를 사용하여 HTML 형식의 도움말 파일을 자동으로 생성하는 것이 쉬워집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제안된 프로젝트 프로토타입에는 makedocs.bat 파일이 포함된 docs라는 폴더가 있습니다...
 
@@ -358,7 +675,18 @@ python -m pydoc -w "..\common\base.py"
 
 ![이미지](/assets/img/2024-06-19-AProposedPerfectPackagePrototypeforPythonProjects_5.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 많은 다양한 방법으로 도움 파일을 작성하고 생성할 수 있지만 여기서는 pydoc을 선택했습니다. pydoc은 코드와 클래스의 목적과 사용을 설명하는 문서를 빠르고 쉽게 생성할 수 있는 방법을 제공하기 때문입니다.
 
@@ -368,7 +696,18 @@ python -m pydoc -w "..\common\base.py"
 
 유닛 테스트가 실패하거나 예상치 못한 결과를 내는 경우 디버깅이 필요할 수 있으며 이 구성에서는 VS Code에서 유닛 테스트 내에서 디버깅을 시작하지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 디버깅을 시도하면 "Invalid message: Found duplicate in "env": PATH"와 함께 프로세스가 크래시됩니다.
 
@@ -378,7 +717,18 @@ python -m pydoc -w "..\common\base.py"
 
 여기에 파이널 프루프가 있습니다 — pytest 단위 테스트인 test_fisher_3()가 디버깅되고 있으며, 곧 "test_fisher"를 커맨드 라인에 출력할 예정입니다...
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-AProposedPerfectPackagePrototypeforPythonProjects_6.png" />
 
@@ -388,7 +738,18 @@ python -m pydoc -w "..\common\base.py"
 
 또한, 원래 프로그래머거나 다른 사람에 의해 언젠가는 코드를 변경해야 할 것이고 미래 관리 가능성의 효과성을 위해서는 잘 작성된 코드가 필요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼, 코드를 포함하는 프로젝트가 잘 구조화되고 조직화되어 훌륭한 코드를 제공할 수 있는 기반이 제공되기 때문에 이것이 가능합니다.
 
@@ -398,7 +759,18 @@ python -m pydoc -w "..\common\base.py"
 
 이 기사는 요구 사항의 집합을 설명하여 테스트를 통해 이러한 요구 사항을 충족하는 레이아웃 및 구조를 제시함으로써 "완벽한" 패키지 구조에 대한 한 제안을 제시했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주요 도전 과제는 전문적인 네임스페이스의 최상의 폴더 및 파일 레이아웃을 통합하고 클래스가 .pth 파일을 구성하고 **init**.py 파일의 항목을 통해 일반 프로젝트, Jupyter 노트북 및 pytest 단위 테스트로 가져올 수 있도록 하는 것이었습니다.
 
@@ -408,7 +780,18 @@ python -m pydoc -w "..\common\base.py"
 
 패키지 프로토타입 프로젝트는 다음 링크를 통해 GitHub에서 다운로드할 수 있습니다...
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ... 그리고 다음 단계를 따릅니다...
 
@@ -425,7 +808,18 @@ python -m pydoc -w "..\common\base.py"
 C:\Users\GHarr\anaconda3\envs\project-env\lib\site-packages
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 소통하고 연락하기...
 

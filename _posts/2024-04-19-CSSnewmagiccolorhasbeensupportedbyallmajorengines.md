@@ -3,17 +3,13 @@ title: "magic color CSS 사용 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "CSS new magic color has been supported by all major engines"
 link: "https://medium.com/javascript-in-plain-english/css-new-magic-color-has-been-supported-by-all-major-engines-e0b67c98766c"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/CSSnewmagiccolorhasbeensupportedbyallmajorengines_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 다음 예제에서는 지원되는 색상 공간을 볼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .valid-css-color-function-colors {
@@ -43,7 +50,18 @@ isUpdated: true
 
 color()는 CSS에서 비교적 새로운 컬러 함수로, 모든 RGB 색 공간에서 색상 값을 지정하는 일관적인 방법을 제공합니다. rgb() 및 hsl() 같은 기존 함수에 비해 함수의 장점은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 통합 구문은 다양한 색 공간에 액세스하여 더 간결합니다 ✨.
 - 미래에 새로운 표준 색 감도가 있으면 새로운 값을 함수에 추가하면 되어 새로운 함수를 추가할 필요가 없습니다 🔄.
@@ -58,7 +76,18 @@ color(display-p3 1 0.5 0);
 color(display-p3 1 0.5 0 / .5);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컬러스페이스 값은 다음과 같습니다
 
@@ -78,7 +107,18 @@ color(display-p3 1 0.5 0 / .5);
 - color(srgb 0 0 1) // sRGB 컬러 값 0, 0, 1 🔵
 - color(display-p3 0 0 1) // 와이드 컬러 감마의 디스플레이 P3 파랑 🔷
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # color() 사용 예시
 
@@ -92,7 +132,18 @@ color() 함수는 색상 값을 예상하는 CSS의 어디에서나 사용할 �
 
 배경 색상:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .bg {
@@ -114,7 +165,18 @@ color() 함수는 색상 값을 예상하는 CSS의 어디에서나 사용할 �
 
 SVG 그래픽 채우기:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .icon {
@@ -131,7 +193,18 @@ color() 함수는 주로 다음과 같은 유형의 웹 사이트와 애플리�
 - 창의적이고 예술적인 웹사이트: ✨ 디자이너들은 다른 CSS 기술과 결합하여 아름다운 시각 효과를 만들 수 있습니다. 🎨
 - 미래의 HDR 디스플레이 웹사이트: 🌈 color()는 더 넓은 색상 범위와 HDR이 있는 웹사이트에 대비하는 데 도움이 됩니다. 그러므로, 총적으로 보면 color()는 색상에 민감하고 미래를 내다보는 웹사이트에 많은 이점을 제공하며, CSS에서 강력한 색상 기능입니다 💪.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 친절한 영어로 🚀
 

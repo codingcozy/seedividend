@@ -3,16 +3,13 @@ title: "100일 코딩 챌린지로 당신의 스킬을 향상시키는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-22-TransformYourSkillswiththe100-Days-of-CodingChallenge_0.png"
 date: 2024-06-22 05:54
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-TransformYourSkillswiththe100-Days-of-CodingChallenge_0.png
 tag: Tech
 originalTitle: "Transform Your Skills with the 100-Days-of-Coding Challenge"
 link: "https://medium.com/@asharibali/transform-your-skills-with-the-100-days-of-coding-challenge-58924a9c6c2f"
 isUpdated: true
 ---
-
-
-
 
 ![이미지](/assets/img/2024-06-22-TransformYourSkillswiththe100-Days-of-CodingChallenge_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 # 배경
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 100일 코딩 챌린지는 또 다른 코딩 프로젝트가 아닙니다. GIAIC의 학생 대사 및 교수진으로 활동 중인 제가 주도하는 잘 구성된 프로그램입니다. Sir Daniyal Nagori(CEO)와 Sir Ameen Alam(교수진원장)과 같은 산업 지도자들의 지원을 받아, 100명 이상의 교수진 구성원들과 함께 최신 코딩 기술을 가르치는 것이 목표입니다. 저희는 JavaScript, TypeScript, Web 개발, React 및 Next.js에 초점을 맞추고 있습니다.
 
@@ -35,7 +43,18 @@ isUpdated: true
 - 일관성 유지: 매일 코딩하는 습관을 길러주세요. 어떤 기술도 마스터하기에 중요합니다.
 - 커뮤니티 지원: 당신을 격려하고 모든 단계에서 도와 줄 번창하는 커뮤니티와 소통해 보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 매일 참여
 
@@ -47,7 +66,18 @@ isUpdated: true
 - 동료 지원: 저희의 디스코드 커뮤니티는 항상 활동적이며, 지원을 제공하고 팁을 공유하며 마일스톤을 축하합니다.
 - 전문 가이드: 경험이 풍부한 멘토들로부터의 정기적인 체크인과 피드백을 통해 당신이 목표를 달성할 수 있도록 도와줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 자원
 
@@ -59,7 +89,18 @@ isUpdated: true
 
 # 주요 분야
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 개발 세계에서 최신 기술을 업데이트하는 것이 중요합니다. 그래서 우리의 도전 과제는 다음과 같이 집중됩니다:
 
@@ -74,7 +115,18 @@ isUpdated: true
 
 100일 코딩 챌린지의 실제 힘은 커뮤니티에 있습니다. 여기 우리 참가자들의 몇 가지 성공 이야기가 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Sarah Khan: "이 도전에 참여한 것이 내 커리어를 위해 한 최고의 결정 중 하나였어요. 매일의 과제는 도전적이었지만 보람 있었고, 커뮤니티의 지원이 제게 힘을 주었어요. 이제는 자신 있게 React 애플리케이션을 개발할 수 있어요!"
 - Ali Raza: "이 도전의 구조와 일관성 덕분에 저는 규율적으로 작업을 계속할 수 있었어요. 실습 프로젝트와 멘토들로부터의 실시간 피드백을 즐겼어요. 웹 개발에 진지한 분이라면 필수적인 도전이에요."
@@ -86,7 +138,18 @@ isUpdated: true
 
 공식 웹사이트를 방문하고 GitHub 저장소를 확인하며, 디스코드 커뮤니티에 참여하여 시작해보세요. 함께 코딩하고 배우며 함께 성장해요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-22-TransformYourSkillswiththe100-Days-of-CodingChallenge_1.png)
 

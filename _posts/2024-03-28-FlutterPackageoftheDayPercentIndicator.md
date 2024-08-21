@@ -3,17 +3,13 @@ title: "플러터에서 퍼센트 인디케이터 만드는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Flutter Package of the Day  Percent Indicator"
 link: "https://medium.com/@sajjadmakman/flutter-package-of-the-day-percent-indicator-fba9beadbcb4"
 isUpdated: true
 ---
-
-
-
-
 
 ## 플러터 앱에서 도트 인디케이터 패키지를 구현하는 방법을 배워보세요. 사용자 경험을 향상시킬 수 있습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ## 소개:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 플러터 앱 개발에서는 온보딩 화면과 같은 다양한 화면 또는 섹션 간 전환 시 사용자에게 시각적 피드백을 제공하기 위해 인디케이터가 필요합니다. Dot Indicators 패키지는 플러터 애플리케이션에 도트 인디케이터를 통합하는 놀라운 쉬운 방법을 제공합니다. 이 글에서는 Dot Indicators 패키지를 통합하는 방법, 장점, 구현 단계 및 내비게이션 및 사용자 경험을 향상시키기 위한 사용 예제에 대해 배우게 됩니다.
 
@@ -33,7 +40,18 @@ Dot Indicators 패키지는 플러터 애플리케이션에 도트 인디케이�
 
 ## Dot Indicators 패키지의 장점:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 사용자에 대한 시각적 피드백: 점 지시자는 페이지나 섹션 세트 내 현재 위치를 나타내어 사용자에게 명확한 시각적 피드백을 제공합니다.
 - 쉬운 사용자 정의: 이 패키지를 사용하면 점의 크기, 색상, 간격 및 기타 속성을 쉽게 사용자 정의하여 앱의 디자인 요구를 맞출 수 있습니다.
@@ -47,7 +65,18 @@ Flutter 프로젝트에서 Dot Indicators 패키지를 구현하고 활용하는
 단계 1: 종속성 추가
 pubspec.yaml 파일을 열고 Dot Indicators 패키지를 종속성으로 추가하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 dependencies:
@@ -64,7 +93,18 @@ flutter pub get
 
 단계 3: 패키지 가져오기 Dart 파일에서 Dot Indicators 패키지를 가져올 위치에 가져오세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import "package:dot_indicator/dot_indicator.dart";
@@ -85,7 +125,18 @@ DotIndicator(
 
 예시: 이 예시에서 pageLength는 표시할 총 도트 수를 나타내고 currentIndexPage는 강조할 위치 (활성 도트)를 나타냅니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 간단한 점 표시기:
 
@@ -100,7 +151,18 @@ new DotsIndicator(
 
 2. 사용자 정의 색상:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 new DotsIndicator(
@@ -117,7 +179,18 @@ new DotsIndicator(
 
 기본 점 크기와 모양을 변경할 수 있습니다. 비활성 상태 및 활성 상태의 모양을 선택할 수 있습니다. 기본적으로 점의 모양은 CircleBorder이므로, 활성 상태의 점을 둥근 사각형 모양으로 바꾸려면 activeShape를 변경해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](https://miro.medium.com/v2/resize:fit:486/0*4d2CpQGgn3DE98Qr.gif)
 
@@ -137,7 +210,18 @@ new DotsIndicator(
 
 기본 점 모양을 변경할 수 있습니다. 기본적으로 CircleBorder입니다. 활성화되지 않은 상태와 활성 상태의 점 모양을 변경할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="https://miro.medium.com/v2/resize:fit:458/0*qce82mHkrwb1ujXl.gif" />
 
@@ -156,7 +240,18 @@ new DotsIndicator(
 
 이게 이번 글의 전부에요. 이것을 잘 활용해서 사용자 선호에 맞게 사용해 보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제 도움이 되었기를 바라며, 제 정보와 업데이트를 계속 받고 싶다면 플러터에 관한 더 많은 유용한 정보를 얻기 위해 나를 팔로우해 주세요. 이 기사가 도움이 되었다면 반드시 박수를 보내주세요. 읽어 주셔서 감사합니다!
 

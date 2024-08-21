@@ -3,17 +3,13 @@ title: "SCAAR - CSS를 위한 소프트웨어 디자인 원칙"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "SCAAR  Software Design Principles for CSS"
 link: "https://medium.com/gitconnected/scaar-software-design-principles-for-css-d503ab60672c"
 isUpdated: true
 ---
-
-
-
-
 
 ## CSS 작성은 짜증날 필요가 없어요!
 
@@ -23,7 +19,18 @@ CSS의 세계에 더 깊이 들어가면서, 제 경력과 매우 다른 경력�
 
 CSS 작성을 혐오스럽게 만드는 일반적인 문제를 최소화하는 데 초점을 맞추고 있어요. 이 주제가 언급되면, 개발자들은 종종 이 문제를 제3자 도구의 부재에서 생각하곤 해요. 그래서 거의 산업에서 빠진 것처럼 느껴져서 제 과정을 기록할 필요를 느꼈어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SCAAR는 이러한 원칙을 전달하기 위해 내가 만든 이름이지만, 내가 새롭게 발명하는 것은 아닙니다. 이것은 편리함을 위해 한 곳에 개요로 정리된 여러 아이디어의 결합체입니다. 아마도 짐작했겠지만, SCAAR은 머릿글자를 딴 약어이며 아래와 같은 뜻이 있습니다:
 
@@ -37,7 +44,18 @@ SCAAR는 이러한 원칙을 전달하기 위해 내가 만든 이름이지만, 
 
 강력한 시작입니다. 이것이 해결책의 가장 중요한 부분일 수도 있습니다. CSS에 대한 가장 일반적인 불평 중 하나는 오버라이드와 이름 충돌의 어려움입니다. 그렇다면 정확히 무엇이 범위 지정된 CSS인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼, 명확하게 이야기하려면 시작하기 전에 무엇인지부터 말할게요. 제가 얘기하는 scoped CSS는 .about-section h2와 같이 중첩된 선택자를 의미하는 것이 아니에요. 또는 중첩 구문을 지원하는 전처리기를 선호한다면,
 
@@ -47,7 +65,18 @@ SCAAR는 이러한 원칙을 전달하기 위해 내가 만든 이름이지만, 
 
 일반적으로 cascade를 신경 쓰지 않도록 필요한 요소만 선택하는 것이 좋아요. 예를 들어, BEM을 사용하여 더 구체적인 클래스 이름으로 h2를 선택할 수 있어요: .about-section\_\_title.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이건 scoped CSS인가요? 아직은 아닙니다! 조금씩 나아지고 있지만, 여전히 완벽하지는 않아요. 왜냐하면 이 클래스 이름이 공개적으로 전역적으로 정의되어 있기 때문이에요. JavaScript와 비교하자면, 이것은 window.myModule과 import myModule from `my-module`의 차이랍니다. 그렇다면 CSS에서 동등한 것을 어떻게 달성할 수 있을까요?
 
@@ -55,7 +84,18 @@ CSS 영역에서는 조금 더 어려운데, 이에 관한 노력이 있었어�
 
 여러 CSS-in-JS 라이브러리들(예: StyledComponents 또는 Emotion)로도 비슷한 결과를 얻을 수 있어요. 이 방법을 선호하는 사람들은 덜 이름을 짓고 모든 것을 한 파일에 편리하게 유지하기 때문이에요. 여기에는 장단점이 있음을 언급해둘게요. Vanilla-Extract 패키지는 아마도 이 단점에 대한 해답이 될 수도 있겠네요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마침내, 일부 프레임워크는 기본으로 약간 다른 전략을 사용합니다. 예를 들어 Vue와 Angular가 있습니다. 이 흉내 내는 스코픽은 CSS 모듈 또는 CSS-in-JS보다 약간 약합니다. 왜냐하면 클래스 이름을 변환하지 않고 각 요소에 고유한 속성을 추가하여 .heading을 .heading[_ngcontent-rsm-c42]와 같은 것으로 변환합니다. 이로 인해 잠재적인 충돌 가능성을 남겨두기 때문에, 이는 또한 캐스케이드에서 모든 .heading 스타일을 상속하게 됩니다. 깊은 셀렉터와 제3자 스타일 시트는 이를 특히 위험하게 만들 수 있습니다.
 
@@ -65,7 +105,18 @@ CSS 영역에서는 조금 더 어려운데, 이에 관한 노력이 있었어�
 
 물론, 웹 컴포넌트는 약간 성장 과정을 겪어야하지만, 누락된 부분을 해결할 수 있는 도구들이 있습니다. 쉐도우 DOM은 컴포넌트 외부에서도 사용할 수 있으며, 결국, 선언형 쉐도우 DOM도 실용적인 옵션이 될 것입니다. 추가로, Angular와 같은 일부 프레임워크는 배경에서 쉐도우 DOM을 활용할 수 있도록 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사를 집중하기 위해 그 주변 이야기는 삼가겠습니다. 하지만 여러분이 자신만의 위험과 이점을 조사해보는 것을 권장하며, 아마 나중에 이 주제를 더 상세히 탐구한 또 다른 기사를 쓸 수도 있을 것 같아요! 여기에 한 가지 더 언급해 두려고 해요:
 
@@ -75,7 +126,18 @@ CSS 영역에서는 조금 더 어려운데, 이에 관한 노력이 있었어�
 
 다음에 여러분이 여러 레이아웃을 요구하는 컴포넌트를 만들 때 이 사항을 염두에 두세요. 한 가지 좋은 예는 제품일 수 있어요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![SCAARSoftwareDesignPrinciplesforCSS_3.png](/assets/img/SCAARSoftwareDesignPrinciplesforCSS_3.png)
 
@@ -85,7 +147,18 @@ CSS 영역에서는 조금 더 어려운데, 이에 관한 노력이 있었어�
 
 ...그러나 이들은 일부 스타일을 공통으로 가지고 있기 때문에 중복 문제가 발생합니다. 이를 해결하기 위해 공유 CSS를 세 번째 컴포넌트로 추출하여 두 컴포넌트의 템플릿에서 재사용해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![SCAAR Software Design Principles for CSS](/assets/img/SCAARSoftwareDesignPrinciplesforCSS_5.png)
 
@@ -95,7 +168,18 @@ CSS 영역에서는 조금 더 어려운데, 이에 관한 노력이 있었어�
 
 다른 도움이 되는 방법은 선택자를 HTML 의미와 구조로부터 멀리 유지하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전 예제로 돌아가면, .about-section h2는 제목이 특정 방식으로 중첩되어 있어야 합니다. 다음 스니펫을 살펴보세요. 스코프 설정을 위해 섀도우 DOM을 사용했습니다.
 
@@ -105,7 +189,18 @@ CSS 영역에서는 조금 더 어려운데, 이에 관한 노력이 있었어�
 
 나중에 마크업을 재배열하기로 결정하면, 이 CSS를 다시 확인해야 할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 섹션 `header`의 h2로 변경되었습니다:
 
@@ -115,7 +210,18 @@ CSS 영역에서는 조금 더 어려운데, 이에 관한 노력이 있었어�
 
 이 경우, `h2` 태그가 `h1` 또는 다른 제목 수준으로 변경될 수 있도록 클래스 이름을 사용하는 것이 좋을 수 있습니다. 이렇게 함으로써 접근성 기능과 SEO를 미 esthetics로부터 분리할 수 있습니다. 또한 `a` 및 `button` 또는 유사한 형태의 제어 항목 간 스타일을 공유할 때도 동일한 가치를 가질 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 4. 원자적
 
@@ -125,7 +231,18 @@ CSS 영역에서는 조금 더 어려운데, 이에 관한 노력이 있었어�
 
 ![이미지](/assets/img/SCAARSoftwareDesignPrinciplesforCSS_8.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `x-section` 템플릿:
 
@@ -135,7 +252,18 @@ CSS 영역에서는 조금 더 어려운데, 이에 관한 노력이 있었어�
 
 <img src="/assets/img/SCAARSoftwareDesignPrinciplesforCSS_10.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 페이지 템플릿에 대해:
 
@@ -145,7 +273,18 @@ CSS 영역에서는 조금 더 어려운데, 이에 관한 노력이 있었어�
 
 이제 각 부분이 분리되어 각 부분마다 아주 작은 템플릿이 있기 때문에 특정성 충돌의 위험을 효과적으로 제거했습니다. 뿐만 아니라 각 구성 요소는 이제 충분히 집중되어 있어서:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 각 구성 요소를 이해하기 위한 인지 부하를 줄입니다.
 - 변경 사항의 영향을 줄여줍니다 (이는 리스크 관리팀을 기쁘게 할 것입니다!)
@@ -157,7 +296,18 @@ CSS 영역에서는 조금 더 어려운데, 이에 관한 노력이 있었어�
 
 앞서 언급한 내용은 재사용성을 향상시킬 수 있는데, 향후 유지보수자들의 경험을 개선하기 위해 추가적인 조치를 취할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 많은 개발자가 이런 실수를 너무 흔해서 실수라는 것조차 모를 정도로 흔하다는 것에 주목했어요. 정보 은폐는 재사용성을 위해 매우 중요한데, 그 수준의 캡슐화에는 스코프가 지정된 CSS 이상의 것이 필요해요. 예를 들어, 커스텀 속성을 살펴봐야겠네요. CSS를 직접 노출시킬 필요 없이 컴포넌트가 모습 디테일을 누설시키는데요.
 
@@ -167,7 +317,18 @@ CSS 영역에서는 조금 더 어려운데, 이에 관한 노력이 있었어�
 
 상기 마크업이 73곳에서 사용되었다고 상상해보세요. 제 경험상 비합리적인 수가 아니에요. 이제 요구 사항이 변경되지만 모든 73곳이 시나리오와 일치하지는 않는다고 가정해보죠. 각각을 수동으로 검토한 후, 35곳이 수정이 필요하다는 걸 확인하고 그 변경 사항을 거대한 풀 리퀘스트로 커밋했어요. 그럼 이런 일이 발생하지 않도록 어떻게 할까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해답은 사용 사례를 노출하는 것이지 스타일을 노출하는 것이 아닙니다. 왜 그것이 굵게 표시되었는지 생각하는 것이 항상 도움이 됩니다. 스타일의 동기는 변하지 않을 것이며, 실제 스타일 자체가 바뀌더라도요.
 
@@ -177,7 +338,18 @@ CSS 영역에서는 조금 더 어려운데, 이에 관한 노력이 있었어�
 
 새로운 요구 사항을 되짚어보면, 이제는 보잘것없는 것처럼 느껴지는데, 검토해야 할 파일이 하나뿐이기 때문입니다. 여전히 35군데에서 사용되고 있지만, 이는 진행 중인 작업과 무관합니다. 이전에는 커다란 일이었던 것이 이제는 한 줄의 변경으로 해결됩니다. 이것이 캡슐화의 진정한 힘이죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 물론 스타일을 노출하는 것이 항상 나쁜 것은 아니에요. 단, 그것이 결정되는 프레젠테이션 레이어 안에서 수행되는지 신중하게 지켜봐야 해요. 저의 '마스터링 프레젠테이션 컴포넌트'라는 글을 읽어보세요. 논의에 대한 더 깊은 통찰력을 얻을 수 있을 거예요.
 
@@ -187,6 +359,17 @@ SCAAR의 학습 곡선은 다른 디자인 원칙 세트와 같이 어렵지 않
 
 저는 몇 년 동안 이 원칙을 적용해왔고, !important 해킹과 이름 충돌의 괴로움을 거의 잊을 정도로 효과적으로 CSS 문제를 해결했어요. 이제 더 이상 다른 방식으로 CSS를 작성할 수 없을 정도로요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 항상 당신의 피드백을 듣는 것을 좋아해요! 아무리 비판적인 의견이라도 괜찮아요. 만약 기사 중에 수정이 필요한 부분이 있다면, 기꺼이 수정할게요.

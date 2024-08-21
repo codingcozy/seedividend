@@ -3,17 +3,13 @@ title: "리액트에서의 useMemo와 memo 둘의 차이점 정리"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Decoding useMemo and memo in React Understanding Their True Distinction"
 link: "https://medium.com/@avinashukla0704/decoding-usememo-and-memo-in-react-understanding-their-true-distinction-05bd5716bd94"
 isUpdated: true
 ---
-
-
-
-
 
 ![Decoding useMemo and memo in React](/assets/img/DecodinguseMemoandmemoinReactUnderstandingTheirTrueDistinction_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # useMemo: 리액트의 값 캐싱 훅을 활용하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - useMemo은 함수의 결과를 메모이즈하는 훅입니다. 함수와 의존성 배열을 인자로 받아들이며, 의존성 중 하나가 변경되었을 때에만 메모이즈된 값의 재계산이 발생합니다.
 - 주로 렌더링할 때마다 다시 실행할 필요가 없는 비용이 많이 드는 계산이나 연산을 최적화하는 데 사용됩니다.
@@ -75,7 +82,18 @@ export default FactorialComponent;
 - 우리는 useMemo를 사용하여 숫자 상태를 기반으로한 팩토리얼 계산을 메모이즈합니다. 이를 통해 팩토리얼이 숫자가 변경될 때에만 재계산되도록 합니다.
 - 사용자가 유효한 숫자를 입력하면 해당 숫자의 팩토리얼이 표시됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 숫자 state가 렌더링 간에 변경되지 않는다면, useMemo는 이전에 캐시된 팩토리얼 값을 다시 계산하지 않고 반환할 것입니다. 이 최적화를 통해 팩토리얼 계산이 필요할 때만 수행되며, 각 렌더링 사이클마다 불필요한 계산을 피함으로써 컴포넌트의 성능을 향상시킵니다.
 
@@ -111,7 +129,18 @@ const App = () => {
 export default App;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예제에서:
 
@@ -125,7 +154,18 @@ memo HOC는 이곳에서 MemoizedComponent의 prop(count)이 변경되지 않았
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요약하면, useMemo는 함수의 결과를 메모이제이션하는 데 사용되고, memo는 함수형 컴포넌트의 렌더링을 메모이제이션하는 데 사용됩니다. 둘 다 불필요한 계산이나 렌더링을 줄여 성능을 향상시키지만, React 애플리케이션 내에서 서로 다른 맥락에서 적용됩니다.
 

@@ -3,16 +3,13 @@ title: "React Select 구현 및 커스터마이징 종합 안내서"
 description: ""
 coverImage: "/assets/img/2024-06-22-ImplementingandCustomizingReactSelectAComprehensiveGuide_0.png"
 date: 2024-06-22 03:57
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-ImplementingandCustomizingReactSelectAComprehensiveGuide_0.png
 tag: Tech
 originalTitle: "Implementing and Customizing React Select: A Comprehensive Guide"
 link: "https://medium.com/@walidkabou/implementing-and-customizing-react-select-a-comprehensive-guide-92d696ea5c35"
 isUpdated: true
 ---
-
-
-
 
 # React Select 구현 및 사용자 정의: 포괄적인 안내서
 
@@ -22,7 +19,18 @@ React Select은 React 애플리케이션에서 일반적인 선택 입력의 대
 
 구현에 들어가기 전에 프로젝트에 React Select를 설치해보겠습니다. npm 또는 yarn을 사용하여 설치할 수 있습니다. 터미널을 열고 프로젝트 디렉토리로 이동한 다음 다음 명령 중 하나를 실행하십시오:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm install react-select
@@ -36,7 +44,18 @@ yarn add react-select
 
 React Select를 설치했으므로 이제 프로젝트에서 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # React Select 사용하기
 
@@ -46,34 +65,45 @@ React Select를 사용하려면 먼저 드롭다운 메뉴에 표시될 옵션�
 
 ```js
 const options = [
-    {
-      value: "google",
-      label: (
-        <div>
-          <FcGoogle className="mr-2 text-xl" />
-        </div>
-      ),
-    },
-    {
-      value: "bing",
-      label: (
-        <div>
-          <BiLogoBing className="mr-2 text-xl text-red-500" />
-        </div>
-      ),
-    },
-    {
-      value: "yahoo",
-      label: (
-        <div>
-          <BiLogoYahoo className="mr-2 text-xl text-yellow-500" />
-        </div>
-      ),
-    },
+  {
+    value: "google",
+    label: (
+      <div>
+        <FcGoogle className="mr-2 text-xl" />
+      </div>
+    ),
+  },
+  {
+    value: "bing",
+    label: (
+      <div>
+        <BiLogoBing className="mr-2 text-xl text-red-500" />
+      </div>
+    ),
+  },
+  {
+    value: "yahoo",
+    label: (
+      <div>
+        <BiLogoYahoo className="mr-2 text-xl text-yellow-500" />
+      </div>
+    ),
+  },
 ];
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로, React Select에서 Select 컴포넌트를 사용하고 옵션을 전달할 수 있습니다. 또한 옵션 선택을 처리하는 onChange 프롭에 함수를 전달해야 합니다. 이 함수는 선택한 옵션의 값을 컴포넌트의 상태로 업데이트해야 합니다.
 
@@ -92,7 +122,18 @@ const select = {
 
 # React Select 스타일링
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Select 컴포넌트의 외관을 사용자 정의하려면 styles 속성을 전달하면 됩니다. styles 속성은 각 키가 Select 컴포넌트의 일부에 해당하고 값이 해당 부분에 대한 스타일을 반환하는 함수인 객체입니다.
 
@@ -100,25 +141,36 @@ Select 컴포넌트의 외관을 사용자 정의하려면 styles 속성을 전�
 
 ```js
 const customStyles = {
-    control: (provided) => ({
-      ...provided,
-      background: 'transparent',
-      display: 'flex',
-      flexWrap: 'nowrap',
-      borderColor: 'hsl(0deg 78.56% 55.56%);',
-      width: '7em'
-    }),
-    menu: (provided) => ({
-      ...provided,
-      background: 'transparent',
-      width: '4em'
-    }),
+  control: (provided) => ({
+    ...provided,
+    background: "transparent",
+    display: "flex",
+    flexWrap: "nowrap",
+    borderColor: "hsl(0deg 78.56% 55.56%);",
+    width: "7em",
+  }),
+  menu: (provided) => ({
+    ...provided,
+    background: "transparent",
+    width: "4em",
+  }),
 };
 ```
 
 이 예에서 control 및 menu는 Select 컴포넌트의 일부에 해당하는 키입니다. 제공된 인수는 해당 부분의 기본 스타일이며 사용자 정의 스타일로 재정의할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # React-Select에서 스타일링:
 
@@ -126,30 +178,41 @@ const customStyles = {
 
 ```js
 const customStyles = {
-    control: (provided) => ({ // class 속성: class=" css-i32vvf-control"
-      ...provided,
-      background: 'transparent',
-      display: 'flex',
-      flexWrap: 'nowrap',
-      borderColor: 'hsl(0deg 78.56% 55.56%);',
-      width: '7em'
-    }),
-    menu: (provided) => ({ // 'menu'는 div의 class에서도 가져왔습니다.
-      ...provided,
-      background: 'transparent',
-      width: '4em'
-    }),
-  };
+  control: (provided) => ({
+    // class 속성: class=" css-i32vvf-control"
+    ...provided,
+    background: "transparent",
+    display: "flex",
+    flexWrap: "nowrap",
+    borderColor: "hsl(0deg 78.56% 55.56%);",
+    width: "7em",
+  }),
+  menu: (provided) => ({
+    // 'menu'는 div의 class에서도 가져왔습니다.
+    ...provided,
+    background: "transparent",
+    width: "4em",
+  }),
+};
 ```
 
 함수 이름을 선택 기준으로 사용하려면 Select 속성에 포함하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-<Select
-            styles={customStyles}
-/>
+<Select styles={customStyles} />
 ```
 
 # 결론

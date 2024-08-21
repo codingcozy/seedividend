@@ -3,17 +3,13 @@ title: "웹 콘텐츠를 더 빠르게 전달하는 새로운 패러다임들"
 description: ""
 coverImage: "/assets/img/2024-06-19-TheEmergingParadigmsforDeliveringWebContentFaster_0.png"
 date: 2024-06-19 22:38
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-TheEmergingParadigmsforDeliveringWebContentFaster_0.png
 tag: Tech
 originalTitle: "The Emerging Paradigms for Delivering Web Content Faster"
 link: "https://medium.com/better-programming/the-emerging-paradigms-for-delivering-content-faster-6b9927d317d2"
 isUpdated: true
 ---
-
-
-
-
 
 ![TheEmergingParadigmsforDeliveringWebContentFaster_0](/assets/img/2024-06-19-TheEmergingParadigmsforDeliveringWebContentFaster_0.png)
 
@@ -23,8 +19,18 @@ React, Svelte, Vue 등 구성 요소 기반 프레임워크가 나오기 전에�
 
 이후 React 및 다른 구성 요소 기반 프레임워크들이 나오면서 조금 덜 일반적인 클라이언트 사이드 렌더링 (CSR) 방법이 개발자들의 가장 선호하는 선택이 되었습니다. 개발자들은 싱글 페이지 애플리케이션을 만들고, 렌더링 콘텐츠의 책임을 서버에서 브라우저로 옮기는 경향을 보였습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![TheEmergingParadigmsforDeliveringWebContentFaster_2](/assets/img/2024-06-19-TheEmergingParadigmsforDeliveringWebContentFaster_2.png)
 
@@ -34,7 +40,18 @@ React, Svelte, Vue 등 구성 요소 기반 프레임워크가 나오기 전에�
 
 이 기사에서는 클라우드를 활용하여 정적 및 동적 콘텐츠의 캐싱 및 렌더링을 가속화하는 최근의 패러다임 중 하나인 정적 사이트 생성, 컨텐츠 전송 네트워크 및 Edge Computing에 대해 자세히 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 정적 사이트 생성 (SSG)
 
@@ -44,7 +61,18 @@ SSR 및 CSR과 마찬가지로, 정적 사이트 생성은 웹 사이트를 HTML
 
 SSG는 클라이언트 요청을 받기 전에 HTML을 미리 렌더링하는 방법입니다. SSG는 서버사이드 렌더링과 대조적으로 페이지가 빌드 타임에 정적으로 렌더링되므로 클라이언트가 서버에 요청할 때가 아닙니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-TheEmergingParadigmsforDeliveringWebContentFaster_3.png" />
 
@@ -54,8 +82,18 @@ SSG는 클라이언트 요청을 받기 전에 HTML을 미리 렌더링하는 �
 
 정적 사이트 생성은 SSR과 CSR의 문제를 해결하기 위한 솔루션으로 등장했습니다. SSR은 Time to First Byte (TTFB)가 낮다는 문제가 있습니다. 간단히 말해서, SSR 웹사이트를 요청하는 경우 서버에서 해당 웹페이지를 각 요청에 대해 렌더링해야 하므로 서버에서 느린 응답을 받을 수 있습니다. 반면에 CSR은 브라우저가 웹페이지 콘텐츠를 생성하는 데 걸리는 시간과 해당 생성된 콘텐츠가 상호작용 가능해지는 데 걸리는 시간인 First Contentful Paint (FCP), Largest Contentful Paint (LCP), Time to Interactive (TTI)가 더욱 느릴 수 있습니다. 이러한 지표는 브라우저가 웹페이지 콘텐츠를 생성하는 데 얼마나 오래 걸리는지 및 생성된 콘텐츠가 상호작용 가능해지기까지 얼마나 걸리는지를 측정합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-TheEmergingParadigmsforDeliveringWebContentFaster_4.png" />
 
@@ -65,9 +103,18 @@ SSG란 각 웹 사이트 경로에 대해 미리 HTML 파일을 생성하여 FCP
 
 정적 사이트 생성은 데이터가 필요한 페이지에도 적용 가능합니다. 이 데이터는 빌드 시간에 HTML에 통합됩니다. 뉴스 기사나 블로그 게시물을 다루는 웹 사이트에서 해당될 수 있습니다. 안타깝게도, 이러한 경우는 SSG의 주요 단점 중 하나인 것을 강조합니다: 변경이 발생할 때마다 전체 페이지를 재구축해야 하며 캐시된 HTML 파일이 무효화됩니다. 이는 SSG가 매우 동적인 콘텐츠에 대해 최상의 선택이 아닐 수 있다는 것을 의미합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-TheEmergingParadigmsforDeliveringWebContentFaster_5.png)
 
@@ -77,8 +124,18 @@ SSG란 각 웹 사이트 경로에 대해 미리 HTML 파일을 생성하여 FCP
 
 Next.js와 같은 프레임워크에서 제공하는 증분 정적 사이트 생성 (iSSG)을 사용하여 이러한 문제 중 일부를 해결할 수 있습니다. iSSG를 사용하면 서버가 백그라운드에서 사이트에 페이지를 업데이트하고 추가할 수 있으면서도 클라이언트 요청을 처리할 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-TheEmergingParadigmsforDeliveringWebContentFaster_6.png)
 
@@ -88,7 +145,18 @@ iSSG를 사용하면 만료 시간을 설정해야 합니다. 이후 서버가 �
 
 # 컨텐츠 전송 네트워크 (CDN)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 콘텐츠 전달 네트워크인 CDN은 정적 웹 콘텐츠의 전달을 혁신적으로 개선했습니다.
 
@@ -98,7 +166,18 @@ iSSG를 사용하면 만료 시간을 설정해야 합니다. 이후 서버가 �
 
 CDN은 매우 간단한 개념입니다. 지리적으로 분산된 서버 네트워크로, 빠르게 콘텐츠를 최종 사용자에게 제공할 수 있습니다. 네트워크 작업을 하는 사람이라면 거리가 요청-응답 주기의 속도에 가장 큰 장애물 중 하나라는 것을 알고 있습니다. CDN은 클라이언트와 콘텐츠 사이의 거리를 제한합니다. 이는 서버가 전 세계 여러 데이터 센터에 존재하기 때문입니다. 이러한 센터들은 정적 콘텐츠를 메모리에 캐시하고, 그런 다음 요청 시 전달하며, 보통 소액의 요금으로 이용 가능합니다. Amazon CloudFront, Akamai, CloudFlare와 같은 예시가 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## SSG, iSSG 및 CDNs
 
@@ -106,19 +185,41 @@ SSG 및 iSSG로 만든 정적 웹 콘텐츠는 CDN에 이상적이며 글로벌 
 
 SSG 및 CDN을 사용한 전통적인 배포에서는 오리진 서버가 정적 페이지를 빌드하고 CDN으로 캐시할 것을 보냅니다. 사이트가 재구축될 때마다 CDN 캐시를 업데이트해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 iSSG를 사용하면 CDN이 클라이언트 요청시 오리진 서버와 더 직접적으로 상호작용합니다. iSSG를 사용하면 페이지는 첫 요청시 빌드되며 만료될 때 백그라운드에서 다시 빌드됩니다. 클라이언트가 요청하면 CDN이 해당 페이지가 캐시되어 있는지 확인합니다. 캐시되어 있다면 해당 페이지를 클라이언트에 제공합니다. 그렇지 않으면 오리진 서버에서 페이지를 요청하고, 서버가 페이지를 빌드하면 해당 페이지가 CDN에 캐시되어 사용자에게 제공됩니다.
 
 첫 번째 사용자만 느린 응답을 받을 수 있습니다. 그 이후에는 일부 사용자가 지난 페이지에 대해 만료된 후 상태 정보를 받을 수 있습니다. 만료는 캐시 제어 HTTP 헤더의 max-age 속성을 사용하여 설정됩니다. Express.js를 사용하여 문서의 최대 나이를 설정하는 예시를 보여드리겠습니다:
 
 ```js
-res.set('Cache-Control', 'public, max-age=120');
+res.set("Cache-Control", "public, max-age=120");
 ```
 
 max-age는 초 단위로 설정됩니다. 위 예시에서는 2분 후에 캐시된 사전 렌더링된 HTML을 무효화합니다. 그 후에는 iSSG를 통해 CDN이 새로운 페이지를 요청하지만, 오리진 서버가 백그라운드에서 요청을 처리함에 따라 만료된 페이지를 계속 제공합니다. 사용자는 일부 만료된 정보를 받을 수 있지만, CDN의 응답은 정적 및 동적 콘텐츠 모두에 대해 매우 빠릅니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 엣지 컴퓨팅
 
@@ -128,8 +229,18 @@ max-age는 초 단위로 설정됩니다. 위 예시에서는 2분 후에 캐시
 
 ## 엣지 컴퓨팅이란 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Edge computing](/assets/img/2024-06-19-TheEmergingParadigmsforDeliveringWebContentFaster_9.png)
 
@@ -139,8 +250,18 @@ CDN 서버가 이 패러다임에 완벽하게 들어맞는 모습을 볼 수 �
 
 ![CDN servers](/assets/img/2024-06-19-TheEmergingParadigmsforDeliveringWebContentFaster_10.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 에지 컴퓨팅은, 애플리케이션 서버에 의해 점진적으로 업데이트되어야 하는 정적 콘텐츠를 넘어보며 개발자들이 에지 서버에서 자체 코드를 실행할 수 있게 합니다. 예를 들어, 정적 콘텐츠는 미리 렌더링되어 CDN 캐시에 저장될 수 있고 CDN의 에지 서버에서 실행할 수 있는 스크립트와 함께 저장될 수 있으며 먼 오리진 서버가 아닌 CDN의 에지 서버에서 실행될 수 있어 클라이언트 요청에 따라 진정한 동적 콘텐츠가 생성될 수 있습니다. 이것은 동적 콘텐츠를 캐싱하는 한 가지 방법입니다.
 
@@ -150,7 +271,18 @@ CDN 서버가 이 패러다임에 완벽하게 들어맞는 모습을 볼 수 �
 
 에지 컴퓨팅은 정적 및 동적 콘텐츠를 사용자에게 최적화하는 방법이 많이 있습니다. 이러한 성능상의 이점은 이미 분명합니다 - 에지 위치의 근접성으로 인해 사용자가 응답을 받는 데 걸리는 시간이 줄어듭니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-TheEmergingParadigmsforDeliveringWebContentFaster_11.png" />
 
@@ -160,7 +292,18 @@ CDN 서버가 이 패러다임에 완벽하게 들어맞는 모습을 볼 수 �
 
 <img src="/assets/img/2024-06-19-TheEmergingParadigmsforDeliveringWebContentFaster_12.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 게다가, 엣지 컴퓨팅은 민감한 데이터가 네트워크를 통해 전송되는 양을 줄이는 것으로 일부 보안 이점을 가질 수 있지만, 더 많은 공격 대상을 노출시킬 수도 있습니다. IoT 장치는 특히 공격에 취약한데, 이는 그들의 창조자들이 항상 보안을 최우선으로 하지 않기 때문입니다. 우리는 모두 해커들이 가정용 보안 카메라나 베이비 모니터를 해킹하는 동영상을 본 적이 있습니다. 이러한 공격은 특히 경고적이지만, 많은 민감한 데이터의 보안 침해가 IoT 장치에서 발생하고 완전히 눈에 띄지 않을 수 있습니다. 이러한 공격은 사용자의 개인 정보에도 심각한 피해를 줄 수 있습니다. 침해된 장치는 심지어 봇넷을 생성하고 웹 서버에 DDOS 공격을 발동할 수도 있습니다.
 
@@ -170,6 +313,17 @@ CDN 서버가 이 패러다임에 완벽하게 들어맞는 모습을 볼 수 �
 
 지금 당장, 개발자이면 CDNs와 기본적인 엣지 컴퓨팅을 탐험해보는 것이 좋습니다. 이미 사용 가능한 옵션인 Lambda@Edge나 Vercel Edge Functions과 같은 것은 동적 콘텐츠를 엔드 사용자에게 더 가까운 곳에 캐싱함으로써 성능과 보안을 향상시키고 비용을 절감하는 데 도움이 될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SSG 또는 iSSG에 대해 더 알고 싶다면, patterns.dev를 방문해보세요. 그곳에서 이 주제에 대해 더 깊이 파고들어 설명하고 있어요. Edge 컴퓨팅에 대해 더 알고 싶다면, Vercel Edge Functions나 AWS의 Lambda@Edge를 살펴보세요.

@@ -3,16 +3,13 @@ title: "앵귤러에서의 국제화i18n 가이드"
 description: ""
 coverImage: "/assets/img/2024-06-20-AGuidetoInternationalizationi18ninAngular_0.png"
 date: 2024-06-20 05:30
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-AGuidetoInternationalizationi18ninAngular_0.png
 tag: Tech
 originalTitle: "A Guide to Internationalization (i18n) in Angular"
 link: "https://medium.com/@ayushgrwl365/a-guide-to-internationalization-i18n-in-angular-a6ca7a9bc027"
 isUpdated: true
 ---
-
-
-
 
 ![2024-06-20-AGuidetoInternationalizationi18ninAngular_0.png](/assets/img/2024-06-20-AGuidetoInternationalizationi18ninAngular_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 웹 앱을 세계의 다른 지역 사용자들과 연결할 수 있는 도구로 생각해보세요. 모든 사람에게 환영받고 사용하기 쉬운 경험을 제공하기 위해 우리는 그들의 언어를 구사해야 합니다. 국제화(i18n)는 여러 언어와 지역에 적응할 수 있도록 앱을 만드는 과정입니다. Angular는 이를 성취할 수 있는 강력한 도구와 기능을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 새 Angular 프로젝트 설정하기
 
@@ -34,7 +42,18 @@ ng new i18n-app
 
 이 명령은 Angular CLI를 사용하여 새 Angular 프로젝트를 초기화합니다. 프로젝트 구성에 대한 몇 가지 질문을 하게 될 것인데, 예를 들어 Angular 라우팅을 포함할지, 어떤 스타일시트 형식을 사용할지 (CSS, SCSS 등) 등을 물을 것입니다. 프로젝트의 요구에 맞는 옵션을 선택해 주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Angular의 i18n 도구 설치 및 구성
 
@@ -46,13 +65,35 @@ ng add @angular/localize
 
 이 명령은 필요한 패키지를 설치하고 프로젝트 구성을 업데이트하여 i18n 지원을 활성화합니다. Angular의 @angular/localize 패키지는 번역 추출 및 관리 도구를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-# 안녕하세요! 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+# 안녕하세요!
 
 테이블 태그를 Markdown 형식으로 변경해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 @@appTitle 값은 이 번역 메시지의 고유 식별자로 작동합니다. 다양한 언어로의 번역을 이 특정 텍스트와 연관시키는 데 도움이 됩니다.
 
@@ -62,7 +103,18 @@ ng add @angular/localize
 
 앱을 업데이트할 때마다 번역 메시지를 수동으로 추출하는 것은 번거로울 수 있습니다. 다행히도 xliffmerge 패키지를 사용하여이 프로세스를 자동화할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - xliffmerge를 설치하세요:
 
@@ -82,7 +134,18 @@ npm install xliffmerge --save-dev
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 번역 생성: xliffmerge를 실행하여 messages.xlf 파일을 생성하거나 업데이트하세요:
 
@@ -92,24 +155,46 @@ npx xliffmerge --profile xliffmerge.config.json
 
 이 명령어는 앱 템플릿에서 번역 메시지를 자동으로 추출하고 병합하여 각 언어 파일에 저장합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 기본 언어 및 로캘 설정하기
 
 우리 앱의 전역 여행에서 시작점이 필요합니다 - 기본 언어. 이를 앱의 app.module.ts 파일에서 설정할 수 있습니다.
 
 ```js
-import { LOCALE_ID } from '@angular/core';
+import { LOCALE_ID } from "@angular/core";
 
 @NgModule({
-  providers: [{ provide: LOCALE_ID, useValue: 'en-US' }],
+  providers: [{ provide: LOCALE_ID, useValue: "en-US" }],
 })
 export class AppModule {}
 ```
 
 이 예제에서는 기본 언어를 영어(미국)로 설정했습니다. 이는 사용자가 앱을 처음 방문할 때 영어로 표시되며, 그들이 다른 언어를 선택하지 않는 한 계속 영어로 표시됨을 의미합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 언어 전환하기
 
@@ -122,7 +207,18 @@ export class AppModule {}
 <button (click)="changeLanguage('es')">스페인어</button>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컴포넌트 안에서:
 
@@ -136,7 +232,18 @@ changeLanguage(language: string) {
 
 # 날짜, 숫자 및 통화 형식 설정
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 숫자와 날짜는 각 지역에 따라 다른 형식을 가지고 있어요. Angular는 사용자의 로캘에 따라 그들을 포맷하는 내장된 파이프들을 제공하여 이를 간편하게 만들어줘요. 마치 당신의 앱에 문화적 전환을 주는 것과 같달까요?
 
@@ -148,7 +255,18 @@ Angular의 파이프를 사용하면 사용자의 로캘에 따라 숫자, 날�
 
 이 예제에서 today는 JavaScript Date 객체이며, date 파이프를 통해 사용자의 로캘에 따라 단축된 날짜 형식으로 포맷되어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 국제화된 앱을 테스트해보세요
 
@@ -158,7 +276,18 @@ Angular의 파이프를 사용하면 사용자의 로캘에 따라 숫자, 날�
 
 # 국제화된 Angular 앱을 배포하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앱이 여러 언어로 유창해지면 웹을 정복할 준비가 된 것입니다. 배포하고 전 세계 사용자들을 매료시키는 것을 지켜보세요.
 
@@ -168,7 +297,18 @@ Angular의 파이프를 사용하면 사용자의 로캘에 따라 숫자, 날�
 
 축하합니다, 여러 언어로 번역된 Angular 앱을 만드는 비밀을 발견했습니다! 국제화 (i18n)를 통해 앱을 세계 여행에 떠날 수 있으며 모든 사용자의 언어를 구사할 수 있습니다. 다양성을 수용하고 문화를 이어주며 참으로 세계적인 웹 존재를 만들어보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 추가 자료
 

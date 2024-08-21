@@ -3,16 +3,13 @@ title: "제발 코드를 미래지향적으로 작성하지 마세요"
 description: ""
 coverImage: "/assets/img/2024-05-18-Dontfuture-proofyourcode_0.png"
 date: 2024-05-18 21:18
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-18-Dontfuture-proofyourcode_0.png
 tag: Tech
 originalTitle: "Don’t future-proof your code"
 link: "https://medium.com/developer-purpose/dont-future-proof-your-code-aad04ef75584"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-05-18-Dontfuture-proofyourcode_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 이것은 중요한 교훈이에요. 미래 예측에 따른 코딩은 종종 시간 낭비일 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 함정이에요!
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 실제로 이는 데이터베이스에 몇 가지 추가 필드를 추가하거나, 기존 로직을 성능을 높이기 위해 리팩토링하거나, 미래 요청을 대비하여 재사용 가능한 리소스를 생성하는 것을 의미합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기가 중요한 거야...
 
@@ -42,7 +61,18 @@ isUpdated: true
 
 안타깝게도, 그 추가적인 노력은 아마도 낭비될 거야.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 당신이 생각하는 것을 알고 있지 않아요
 
@@ -52,7 +82,18 @@ isUpdated: true
 
 운이 좋다면, 앞으로 필요한 것을 예측하는 데에 성공하실 수 있을지도 모르지만, 그 가능성은 10회 중 1회일 뿐이에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다른 9번의 경우에는 노력을 낭비하고 복잡성을 늘렸는데, 그러한 설계는 변경되거나 필요하지 않을 수 있다.
 
@@ -62,7 +103,18 @@ isUpdated: true
 
 # 어떻게 전개될지 혹시 살펴봅시다
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신이 아름다운 내구성 있는 기능을 개발했거나, 아니면 미완료된 엔드포인트 세트로 미래 기능에 대한 기반을 마련했을지도 몰라요.
 
@@ -76,7 +128,18 @@ isUpdated: true
 - 다른 팀이 비슷한 기능 세트를 가지고 있어요. 당신이 자체 버전을 구축하고 있는 것을 알게 되면, 그들은 기능 세트를 통합하려고 할 거예요. 기존 사용 사례와 처음에 계획한 것과 다른 다양한 요구 사항을 지원해야 할 거예요.
 - 현재 프로젝트에 문제가 없는 경우도 있을 수 있지만, 더 시급한 다른 문제가 발생했을 수도 있어요. 몇 달 동안 팀이 집중해야 할 긴급 문제가 생기고, 솔루션을 완전히 구축할만큼의 힘을 다시 모으기 어려울 수 있어요. 항상 미완성 상태로 남아 있을 거예요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 미래를 위한 아름다운 코드와 디자인은 막상 현실로 구현되지 못할 수도 있어요.
 
@@ -86,7 +149,18 @@ You aren’t gonna need it — 그것이 당신의 자조가 되어야 합니다
 
 너무 멀리 앞서 계획하려고 하면 위험하고 비생산적일 수 있어요. 그 코드가 정말 유용할지도 의문일 거예요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그것은 기술적 부채가 될 것입니다. 당신의 팀이 한동안 반만 유지될 수밖에 없는 낡은 부분입니다.
 
@@ -96,7 +170,18 @@ You aren’t gonna need it — 그것이 당신의 자조가 되어야 합니다
 
 # 대신 해야 할 일
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 번 더 내 생각을 말해볼게요:
 
@@ -106,7 +191,18 @@ You aren’t gonna need it — 그것이 당신의 자조가 되어야 합니다
 
 가장 중요한 것은 간단한 것을 만드는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 미래의 나는 아직 요구 사항을 이해하지 못한 사람이 작성한 과장된 가짜 해결책을 원하지 않을 것입니다.
 
@@ -116,7 +212,18 @@ You aren’t gonna need it — 그것이 당신의 자조가 되어야 합니다
 
 # 간단하다고 쉬운 게 아니에요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 요구사항을 충족시키는 가장 간단한 코드를 작성하는 것은 속기 하지만 어렵습니다.
 
@@ -126,7 +233,18 @@ You aren’t gonna need it — 그것이 당신의 자조가 되어야 합니다
 
 이는 단순한 함수, 명확히 정의된 클래스 및 포괄적인 테스트를 의미합니다. 미래에 새로운 기능이 필요할 때는 어디에 어떻게 추가해야 할지 명확해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단순함이 해답이에요.
 
@@ -136,6 +254,17 @@ You aren’t gonna need it — 그것이 당신의 자조가 되어야 합니다
 
 여기서 읽으신 내용이 마음에 드셨나요? 매일 아침 2,000명의 소프트웨어 개발자들을 위해 새로운 글을 쓰고 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 매일 업데이트를 받아보세요!

@@ -3,17 +3,13 @@ title: "웹사이트 만들 때 HTML-우선 백엔드 개발을 해야하는 이
 description: ""
 coverImage: "/assets/img/2024-05-20-WhyHTML-FirstBackendDevelopmentisStillaSmartChoiceforWebApps_0.png"
 date: 2024-05-20 23:10
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-20-WhyHTML-FirstBackendDevelopmentisStillaSmartChoiceforWebApps_0.png
 tag: Tech
 originalTitle: "Why HTML-First Backend Development is Still a Smart Choice for Web Apps"
 link: "https://medium.com/@cannon_circuit/why-html-first-backend-development-is-still-a-smart-choice-for-web-apps-6a129a46e4f9"
 isUpdated: true
 ---
-
-
-
-
 
 ![image](/assets/img/2024-05-20-WhyHTML-FirstBackendDevelopmentisStillaSmartChoiceforWebApps_0.png)
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 HTML을 우선으로 한 백엔드 개발은 웹 애플리케이션 분야에서 그 가치를 입증해온 실증된 접근 방식으로 부상했습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # HTML-First로 간단하게 유지하는 것이 왜 중요한가요
 
@@ -34,7 +40,18 @@ HTML을 우선으로 한 백엔드 개발은 웹 애플리케이션 분야에서
 
 하지만, 이러한 프레임워크는 사용자 입력 이벤트를 듣는다거나 일반적으로 JSON 형식의 데이터를 가져와서 이 데이터를 동적으로 HTML로 렌더링하는 등 복잡한 단계들이 많이 포함되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 잠시 멈추어서 스스로에게 물어보세요. 사용자에게 구조화된 HTML을 제시하는 것이 최종 목표인데, 왜 이 복잡한 JSON 중간 매개체를 통해 탐색해야 하는 걸까요?
 
@@ -44,7 +61,18 @@ HTML 중심 접근 방식을 채택함으로써, 우리는 불필요한 복잡�
 
 # 팬시한 프론트엔드 프레임워크 없이 간소화하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 내에서 드롭다운 필터를 구현한다고 상상해보세요.
 
@@ -55,7 +83,18 @@ HTML 중심 접근 방식을 채택함으로써, 우리는 불필요한 복잡�
 - 백엔드가 필요한 모든 데이터를 포함한 초기 뷰로 작동합니다.
 - 사용자가 필터와 상호 작용하면 폼이 데이터를 백엔드로 제출하고, 그러면 백엔드가 필터링된 데이터셋으로 페이지를 다시로드합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 방식은 전체 페이지 다시로드를 필요로 할 수 있지만, 상당한 이점을 제공합니다.
 
@@ -65,7 +104,18 @@ HTML 중심 접근 방식을 채택함으로써, 우리는 불필요한 복잡�
 
 # 최신 JavaScript로 사용자 경험을 더 나은 방향으로 만들기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 사용자 경험 문제를 다루어보겠습니다. 특히 전체 페이지 새로 고침 상황에서 말이죠. 전통적인 HTML 중심 접근 방식은 단숨함과 신뢰성을 제공하지만, 쾌적한 사용자 경험을 제공하는 데는 부족할 수 있습니다.
 
@@ -77,7 +127,18 @@ HTML 중심 접근 방식을 채택함으로써, 우리는 불필요한 복잡�
 
 이 방식은 현대적인 프론트엔드 관행을 통합하면서 HTML 중심 개발의 핵심 원칙을 보존합니다. URL을 동적으로 업데이트함으로써 응용 프로그램이 단순함을 희생하지 않고 사용자 친화적이고 효율적으로 유지되도록 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # HTMX를 사용하여 멋진 상호 작용
 
@@ -87,7 +148,18 @@ HTMX를 사용하면 특별 속성을 HTML에 추가하여 동적 콘텐츠 업�
 
 다음 기능을 고려해보세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 데이터를 가져오기 위해 GET 요청을 트리거하는 hx-get 활용하기.
 - 가져온 콘텐츠가 삽입될 위치를 정의하는 hx-target 사용하여 대상 요소 지정하기.
@@ -99,7 +171,18 @@ HTMX를 HTML을 우선으로 한 개발 워크플로에 통합함으로써, 개�
 
 HTML을 우선으로 한 개발의 실용적인 적용을 설명하기 위해 다단계 폼을 구축하는 시나리오를 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 HTMX의 도움을 받아 개발자들은 전체 페이지 새로 고침 없이 동적인 양식 제출 및 유효성 처리를 구현할 수 있습니다:
 
@@ -110,7 +193,18 @@ HTMX의 도움을 받아 개발자들은 전체 페이지 새로 고침 없이 �
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프론트엔드 프레임워크는 의심의 여지없이 고급 기능과 기능을 제공하지만, 모든 웹 애플리케이션에 항상 최적의 선택은 아닙니다.
 
@@ -120,7 +214,18 @@ HTMX의 도움을 받아 개발자들은 전체 페이지 새로 고침 없이 �
 
 HTML 기반 방식은 간결성, 효율성 및 효과적인 요소의 매력적인 혼합물을 제공하는 단단한 선택이 계속되고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 글은 스타일을 위해 AI 도움을 받아 작성되었고, 내용은 정보를 제공하기 위한 것으로 제시된 아이디어에 대해 비판적으로 참여할 것을 촉구합니다.
 

@@ -3,23 +3,30 @@ title: "React Native에서 lazy loading으로 성능 개선하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
 
-
-
-
-
 # React Native에서 lazy loading으로 성능 개선하는 방법
 
 <img src="/assets/img/Boosting-React-Native-Performance-with-Lazy-Loading-and-Code-Splitting_0.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 소개:
 
@@ -29,7 +36,18 @@ isUpdated: true
 
 React Native에서 이러한 기술을 어떻게 구현하는지 알아보기 전에, lazy loading과 코드 분할이 무엇인지 명확히 이해해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Lazy Loading:
 
@@ -43,7 +61,18 @@ Lazy loading은 필요할 때까지 특정 리소스(예: 컴포넌트, 모듈 �
 
 # React Native에서 Lazy Loading 및 코드 분할 구현
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 1: React Native 프로젝트 설정
 
@@ -62,7 +91,18 @@ React Navigation을 사용하여 네비게이션 및 lazy loading을 구현합�
 npm install react-navigation react-navigation-stack
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 3: 스크린 생성
 
@@ -80,10 +120,7 @@ const HomeScreen = ({ navigation }) => {
   return (
     <View>
       <Text>홈 화면</Text>
-      <Button
-        title="프로필로 이동"
-        onPress={() => navigation.navigate("Profile")}
-      />
+      <Button title="프로필로 이동" onPress={() => navigation.navigate("Profile")} />
     </View>
   );
 };
@@ -91,7 +128,18 @@ const HomeScreen = ({ navigation }) => {
 export default HomeScreen;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## ProfileScreen.js:
 
@@ -110,7 +158,18 @@ const ProfileScreen = () => {
 export default ProfileScreen;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 4: Lazy Loading으로 네비게이션 설정
 

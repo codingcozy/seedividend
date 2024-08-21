@@ -3,17 +3,13 @@ title: "Create-React-App에서 Vite로 migration 해서 성능 향상하기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Boosting Performance Migrating from Create-React-App to Vite at Edstruments"
 link: "https://medium.com/@arjundubeycr/boosting-performance-migrating-from-create-react-app-to-vite-at-edstruments-bfb9f1d22706"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/BoostingPerformanceMigratingfromCreate-React-ApptoViteatEdstruments_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 Create-React-App은 React 응용 프로그램을 시작하는 데 유용한 미리 구성된 설정을 제공하여 안정적인 도구였습니다. 그러나 응용 프로그램이 복잡해지면서 개발 및 배포 중 성능 병목 현상에 직면했습니다. 긴 빌드 시간과 둔한 개발 서버 시작이 생산성에 방해가 되고 있었습니다. Vite는 최신 ES Module 가져오기를 기반으로 한 빌드 도구로, 전례없는 속도를 자랑합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 이주 과정
 
@@ -36,7 +43,18 @@ Create-React-App에서 Vite로 마이그레이션하는 것은 개발자 효율�
 
 ## 성능 향상
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Vite로의 마이그레이션은 저희 개발 작업의 여러 가면에서 현저한 성능 향상을 가져왔어요:
 

@@ -3,17 +3,13 @@ title: "Nextjs 웹사이트에 동적 사이트맵 추가하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Add a Dynamic Sitemap to Nextjs Website Using Pages or App Directory"
 link: "https://medium.com/gitconnected/add-a-dynamic-sitemap-to-next-js-website-using-pages-or-app-directory-eaf49f980097"
 isUpdated: true
 ---
-
-
-
-
 
 ![AddaDynamicSitemaptoNextjsWebsiteUsingPagesorAppDirectory_0](/assets/img/AddaDynamicSitemaptoNextjsWebsiteUsingPagesorAppDirectory_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 사이트맵이란 무엇이며 웹사이트에 필요한가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사이트맵은 웹사이트의 모든 페이지 목록과 서로 간의 관계를 포함하는 파일입니다. 이 파일은 검색 엔진이 웹사이트를 순회하고 웹사이트의 구조를 이해하는 데 도움이 됩니다. 사이트맵은 각 페이지에 대한 중요한 정보를 제공할 수도 있습니다. 예를 들어, 마지막으로 업데이트된 날짜나 얼마나 자주 변경되는지와 같은 정보를 포함할 수 있습니다. 사이트맵은 특히 대규모 웹사이트나 복잡한 구조를 가진 웹사이트에서 중요합니다. 왜냐하면 이는 검색 엔진이 사이트의 모든 페이지를 발견하고 색인화하기 쉽게 만들어줄 수 있기 때문입니다. 그러나 Google에 따르면, 사이트맵은 많은 외부 링크가 없는 새로운 웹사이트나 서로 잘 연결되지 않은 콘텐츠가 있는 웹사이트에도 도움이 됩니다. 어쨌든, 사이트맵은 가치 있는 정보를 제공하여 웹사이트의 SEO를 개선하고 웹사이트 네비게이션을 더 쉽게 만들어 줄 수 있습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 # 페이지 디렉토리에 사이트맵 추가하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, "pages" 디렉토리를 기반으로 한 사이트에 사이트맵을 추가하는 방법에 대해 논의해 보겠습니다. 먼저, 페이지 폴더 안에 sitemap.xml.js 파일을 만들고 기본 SiteMap 컴포넌트를 추가합니다.
 
@@ -69,7 +87,18 @@ export async function getServerSideProps({ res }) {
 export default function SiteMap() {}
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 getServerSideProps의 목적은 /sitemap.xml URL에 액세스할 때 사이트맵과 함께 사용자 정의 응답을 보내는 것이므로 SiteMap 컴포넌트에 빈 props 객체를 반환합니다. getSortedPostsData는 정렬된 블로그 글을 가져오는 우리의 API입니다.
 
@@ -79,7 +108,18 @@ export default function SiteMap() {}
 
 마지막 단계는 generateSiteMap 함수를 구현하는 것인데, 이 함수는 모든 글에서 URL을 추출하고, 모든 정적 페이지에 링크를 추가하고, 모든 것을 XML 형식으로 렌더링하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // pages/sitemap.xml.js
@@ -139,7 +179,18 @@ export default function SiteMap() {}
 
 URL을 자신의 것으로 교체하고 앱을 시작하고 yoursite.com/sitemap.xml로 이동한 후 동적으로 생성된 사이트맵을 볼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 앱 디렉토리에 사이트맵 추가하기
 
@@ -149,7 +200,18 @@ Next.js 버전 13에서는 "페이지" 디렉토리를 장기적으로 대체할
 
 문서를 자세히 살펴보면 Route Handlers를 사용해 UI가 아닌 콘텐츠를 반환하는 데에도 사용할 수 있음을 알 수 있습니다. 먼저 sitemap.xml.js 파일을 앱 디렉토리로 이동하고 Route Handlers가 정의된 파일의 표준 이름인 route.js로 이름을 변경해야 합니다. 추가로 sitemap.xml 폴더 내부에 중첩해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 이전 "pages"와 새 "app" 디렉토리 구조의 비교입니다:
 
@@ -210,7 +272,18 @@ export function GET() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기에는 1일의 s-maxage 및 stale-while-revalidate 지시문을 추가했습니다. 이에 대한 더 많은 정보는 MDN에서 확인할 수 있습니다.
 
@@ -220,7 +293,18 @@ export function GET() {
 
 웹사이트에 사이트맵을 추가하는 것은 특히 대형 웹사이트의 경우 SEO에서 중요한 측면입니다. 이를 통해 검색 엔진이 사이트의 구조를 이해하고 모든 페이지를 발견하며 효율적으로 크롤링할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사에서는 Next.js 웹 사이트에 동적 사이트맵을 추가하는 방법을 보여줬어요. 이 방법을 사용하면 새로운 페이지가 추가되거나 제거될 때 자동으로 업데이트되는 동적 사이트맵을 만들 수 있어요. "pages" 또는 "app" 디렉토리를 사용하여 Next.js 웹 사이트에 동적 사이트맵을 생성하는 방법도 설명되었어요.
 
@@ -239,7 +323,18 @@ export function GET() {
 - Next.js 새 app 디렉토리
 - 사이트맵 프로토콜
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 원래 게시된 위치: https://claritydev.net.
 
@@ -252,6 +347,17 @@ export function GET() {
 - 💰 무료 코딩 면접 과정 ⇒ 강좌 보기
 - 🔔 팔로우하기: Twitter | LinkedIn | 뉴스레터
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 🚀👉 레벨 업 인재 컬렉티브에 가입하여 멋진 일자리를 찾아보세요!

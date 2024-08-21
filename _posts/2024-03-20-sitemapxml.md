@@ -3,17 +3,13 @@ title: "Nextjs 14 프로젝트 sitemapxml 만드는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # Nextjs 14 프로젝트 sitemap.xml 만드는 방법
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 작은 애플리케이션의 경우, 사이트맵.xml 파일을 생성하여 앱 디렉터리의 루트에 배치할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -79,7 +86,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -108,7 +126,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
 대부분의 애플리케이션에는 단일 사이트맵이 작동합니다. 그러나 대규모 웹 애플리케이션의 경우 사이트맵을 여러 파일로 분할해야 할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여러 개의 사이트맵을 만드는 두 가지 방법이 있습니다:
 
@@ -137,7 +166,18 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로덕션 환경에서 생성된 사이트맵은 /.../sitemap/[id].xml 경로에서 확인할 수 있습니다. 예를 들어, /product/sitemap/1.xml입니다.
 
@@ -147,7 +187,18 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
 
 ## 반환 결과
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 디폴트 함수는 sitemap.(xml|ts|js)에서 다음과 같은 속성을 가진 객체 배열을 반환해야 합니다:
 
@@ -174,4 +225,15 @@ type Sitemap = Array<{
 | `v13.4.5` | `changeFrequency` 및 `priority` 속성을 sitemap에 추가. |
 | `v13.3.0` | `sitemap` 도입.                                        |
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

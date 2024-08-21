@@ -3,17 +3,13 @@ title: "파이썬에서 Boolean 연산자, 정말 우리가 생각하는 것과 
 description: ""
 coverImage: "/assets/img/2024-06-22-BooleanOperatorsinPythonArentWhatYouThink_0.png"
 date: 2024-06-22 02:00
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-BooleanOperatorsinPythonArentWhatYouThink_0.png
 tag: Tech
 originalTitle: "Boolean Operators in Python Aren’t What You Think"
 link: "https://medium.com/better-programming/boolean-operators-in-python-arent-what-you-think-df45a2be71f1"
 isUpdated: true
 ---
-
-
-
-
 
 ![Boolean Operators in Python](/assets/img/2024-06-22-BooleanOperatorsinPythonArentWhatYouThink_0.png)
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 제가 보기에는 그 순간까지 True와 False, "abc"와 "", None 또는 0과 같은 표현식들이 모두 False로 평가될 것이라고 생각했어요. 왜냐하면 파이썬은 False, None, 빈 문자열, 모든 종류의 숫자 0, 그리고 다른 값들을 거짓 값으로 해석하기 때문이라고 생각했거든요.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서 이게 왜 일어날 수 있는지 생각해봐도 되지 않을까요? 결국, 우리는 계속해서 if 문을 사용해온 만큼 그것들이 결코 실망시켜 준 적이 없습니다.
 
@@ -39,7 +45,18 @@ if 1 or 0:
 
 하지만 여기서 한 가지 주목할 점이 있습니다: Python은 특정한 비-부울 값들(예: 1 또는 "")을 부울 문맥(즉, 부울 연산자와 함께 사용되었을 때)에서 True 또는 False로 해석하더라도 해당 문맥의 반환 값을 결정하는 데 아무 영향도 미치지 않습니다. 다시 말해, val = True and 1은 어떤 결과를 얻게 될까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 불리언 연산은 마지막으로 평가된 인수의 값을 반환한다는 것을 알게 되었습니다. and의 경우에는 non-true (또는의 경우에는 true) 값이 발견되자마자 표현식이 중단됩니다. 그렇지 않은 경우, 모든 인수의 참값을 확인해야 합니다.
 
@@ -54,7 +71,18 @@ val = "" or "abc" # val = "abc"
 val = None or 0 # val = 0
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 왜 이겢 유용한가요?
 
@@ -66,7 +94,18 @@ val = None or 0 # val = 0
 age = person.age if person else None
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Python에는 특이하지 않아요
 
@@ -75,14 +114,25 @@ age = person.age if person else None
 만약 우리의 Person 클래스를 JavaScript로 옮겼다고 가정하면, 이 연산자를 사용하여 다음과 같이 수행할 수 있습니다:
 
 ```js
-person = new Person(18)
-age = person?.age // age = 18
-person = undefined
-age = person?.age // age = undefined
-name = person?.name ?? "John Doe" // name = "John Doe"
+person = new Person(18);
+age = person?.age; // age = 18
+person = undefined;
+age = person?.age; // age = undefined
+name = person?.name ?? "John Doe"; // name = "John Doe"
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또한, ??를 사용하여 후속 값들을 지정할 수 있습니다.
 
@@ -92,7 +142,18 @@ name = person?.name ?? "John Doe" // name = "John Doe"
 
 이 작은 정보가 유용했으면 좋겠습니다. 생각을 공유해 주시고 궁금한 점이 있으면 언제든지 물어보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 자료
 

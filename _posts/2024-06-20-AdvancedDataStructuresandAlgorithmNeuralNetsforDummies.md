@@ -3,16 +3,13 @@ title: "고급 데이터 구조 및 알고리즘 더미용 신경망"
 description: ""
 coverImage: "/assets/img/2024-06-20-AdvancedDataStructuresandAlgorithmNeuralNetsforDummies_0.png"
 date: 2024-06-20 01:15
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-AdvancedDataStructuresandAlgorithmNeuralNetsforDummies_0.png
 tag: Tech
 originalTitle: "Advanced Data Structures and Algorithm: Neural Nets for Dummies"
 link: "https://medium.com/bitsrc/advanced-data-structures-and-algorithm-neural-nets-for-dummies-66224f278687"
 isUpdated: true
 ---
-
-
-
 
 ## 자바스크립트에서 첫 번째 신경망 구현하기
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 이 기사에서는 신경망의 기본 원리와 기존 도구를 사용하여 직접 구현하는 방법을 보여드리겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사는 매우 실용적 일 것입니다. 마지막에 여러분께 자신만의 신경망을 만들어 터미널에서 기본 ASCII 그림을 그리는 방법을 안내해 드리겠습니다.
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 신경망은 "뉴런(neurons)"으로 알려진 개별 요소로 구성된 특수한 유형의 데이터 구조입니다. 뉴런은 레이어로 그룹화되어 있으며 다른 레이어의 다른 뉴런과 연결됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가장 기본적인 신경망 구조 중 하나는 피드포워드 신경망입니다. 이들은 입력 레이어, 하나 이상의 은닉 레이어 및 출력 레이어로 구성되어 있으며, 정보는 한 방향으로만 흐릅니다 (입력 레이어에서 출력 레이어로).
 
@@ -42,22 +61,42 @@ isUpdated: true
 
 기본적으로 입력 정보는 입력 레이어에 입력되고, 거기서 "가중치"라고 불리는 값과 특정 활성화 함수(값을 취하여 0과 1 사이의 값을 출력하는 함수)를 사용하여 데이터가 변환됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 뉴런 그룹을 결합하고 가중치를 적절하게 조정하면 (즉, 네트워크를 "학습"할 때 하는 것), 결합된 출력은 제공한 입력에 기초해 기대한 출력(또는 거의 동일한 값)이 됩니다.
 
 예를 들어, XOR 방정식을 해결하는 기본적인 예는 다음과 같습니다:
-
 
 [0,0] => 0
 [0,1] => 1
 [1,0] => 1
 [1,1] => 0
 
-
 하지만 2개의 입력과 1개의 출력 뉴런을 가진 피드포워드 네트워크를 만들면, 한 번 학습되면 0 또는 1의 모든 조합을 입력하고 실제로 XOR 동작을 프로그래밍하지 않고도 예상한 XOR 출력을 얻을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그것이 왜 신경망을 사용하고 싶어하는지의 주된 이유입니다. 실제로 모든 규칙을 코딩하지 않고도 일반화된 행동을 달성하기 위해서입니다.
 
@@ -67,7 +106,18 @@ isUpdated: true
 
 따라서 가장 흔한 신경망 유형의 목록을 여기에 제시합니다. (다른 유형도 있다는 것을 염두에 두세요):
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 피드포워드 신경망: 앞에서 이미 다루었습니다. 이들은 가장 흔하고 간단한 신경망이지만 여전히 유효한 사용 사례가 있습니다.
 - 합성곱 신경망(CNNs): 이미지 인식 및 처리 작업용으로 설계된 신경망입니다. 이미지 데이터에서 특징을 학습하는 데 효과적이며 컴퓨터 비전 응용 프로그램에서 일반적으로 사용됩니다.
@@ -82,7 +132,18 @@ isUpdated: true
 
 # 첫 번째 신경망 구현
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것이 우리의 첫 번째 시도이므로 실용적인 방법을 찾고 있기 때문에, 바퀴를 다시 발명할 필요가 없다고 생각해요. 우리가 원하는 것을 달성하는 데 도움이 되는 도구들이 많이 있으니, 우리가 지금 바로 선택하면 돼요.
 
@@ -92,7 +153,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-20-AdvancedDataStructuresandAlgorithmNeuralNetsforDummies_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것이 그려고 하는 행렬 또는 더 정확히 말하자면, NN에게 그리는 방법을 배우도록 요청하는 것입니다. 그래서 우리가 할 일은 이전과 동일한 3개의 레이어를 가진 NN을 생성할 것입니다:
 
@@ -104,17 +176,39 @@ isUpdated: true
 
 이제 훈련에 대해, 가중치 간의 학습률을 0.3으로 설정할 것입니다. 이는 뉴런 간의 가중치가 각 반복에서 0.3씩 값을 조정할 것을 의미합니다. 그런 다음 그 결과를 출력해야 하는 것과 비교하고, 다음 반복에서 이에 따라 조정할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 상수 이미지에는 내가 원하는 출력이 포함되어 있어요. 이를 사용하여 네트워크를 훈련할 거에요. 0과 1로 이루어진 8x6 매트릭스에요.
 
 그런 다음 훈련을 위해 30,000회의 반복을 실행할 거에요. 매 "픽셀"마다 activate 메소드를 호출할 거에요. 이 메소드는 입력을 입력 레이어에 넣고 NN을 실행해요. 그런 다음 propagate 메소드를 사용하여 learningRate와 마지막 활성화값에 대한 예상 값을 사용해 네트워크가 자신을 조정하게 할 거에요.
 
-참고로, "y * 8 + x"라는 작은 공식은 직교 좌표를 사용하여 1차원 배열을 탐색하는 작은 속임수에요. 더 자세히 말하면 "`y 좌표` * `폭` + `x 좌표`"이고, 2차원 배열이 더 이상 필요하지 않아요.
+참고로, "y _ 8 + x"라는 작은 공식은 직교 좌표를 사용하여 1차원 배열을 탐색하는 작은 속임수에요. 더 자세히 말하면 "`y 좌표` _ `폭` + `x 좌표`"이고, 2차원 배열이 더 이상 필요하지 않아요.
 
 훈련이 끝나면 좌표를 다시 통과시키고 activate할 차례에요. 이번에는 결과를 출력할 거에요. 그를 위해 다음과 같은 함수를 만들었어요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 Y 좌표에 대해 활성화 결과를 리스트에 저장하고, 한 행이 완료되면 (해당 Y에 대한 모든 X 좌표를 거쳤을 때) 출력합니다.
 
@@ -124,7 +218,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-20-AdvancedDataStructuresandAlgorithmNeuralNetsforDummies_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 결과가 완벽하지 않음을 알 수 있어요. 그 이미지에는 2개의 오류가 있다는 걸 주목해주세요. 조금 더 훈련을 시키면 더 나은 결과를 얻을 수 있을지도 모르지만, 이것은 저가 얻은 최상의 결과 중 하나에요.
 
@@ -134,7 +239,18 @@ isUpdated: true
 
 신경망은 입력값의 다양한 수를 적응시켜야 하는 행동을 달성하려는 경우나 특정하게 코딩하는 데 많은 노력이 필요할 때 매우 유용할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 대신, 적절한 유형의 입력을 사용하여 훈련을 통해 충분히 가까운 결과를 얻을 수 있어요.
 
@@ -144,7 +260,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-20-AdvancedDataStructuresandAlgorithmNeuralNetsforDummies_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비트의 오픈 소스 도구는 25만 명 이상의 개발자들이 컴포넌트로 앱을 만들 수 있게 도와줍니다.
 
@@ -154,7 +281,18 @@ isUpdated: true
 
 앱을 컴포넌트로 분할하여 앱 개발을 더 간단하게 만들고 원하는 작업 흐름에 대해 최상의 경험을 누리세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## → 마이크로 프론트엔드
 
@@ -164,6 +302,17 @@ isUpdated: true
 
 ## → 모노 레포
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 더 알아보기

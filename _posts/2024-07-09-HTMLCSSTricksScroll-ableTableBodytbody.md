@@ -3,16 +3,13 @@ title: "HTML CSS 실전 팁  스크롤 가능한 테이블 본문 tbody 쉽게 �
 description: ""
 coverImage: "/assets/no-image.jpg"
 date: 2024-07-09 18:45
-ogImage: 
+ogImage:
   url: /assets/no-image.jpg
 tag: Tech
 originalTitle: "HTML CSS Tricks — Scroll-able Table Body <tbody>"
 link: "https://medium.com/@vembarrajan/html-css-tricks-scroll-able-table-body-tbody-d23182ae0fbc"
 isUpdated: true
 ---
-
-
-
 
 테이블 본문을 스크롤할 수 있도록 만든 상단 고정 테이블 헤더의 문제를 해결할 수 있는 간단한 요령입니다. 이를 통해 데이터 테이블을 더 쉽게 사용할 수 있습니다. 사용자가 스크롤할 때 고정된 테이블 헤더는 사용자가 어떤 열에 있는지 컨텍스트를 제공합니다.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 작동하게 하려면,
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 첫 번째 단계는 `tbody`를 `display:block`으로 설정하여 높이와 오버플로 속성을 적용할 수 있도록 하는 것입니다.
 
@@ -42,7 +50,18 @@ isUpdated: true
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 예시,
 

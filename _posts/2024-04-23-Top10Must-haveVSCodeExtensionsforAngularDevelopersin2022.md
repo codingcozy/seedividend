@@ -3,17 +3,13 @@ title: "2024년, 앵귤러 개발자를 위한 필수 VSCode 확장 프로그램
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Top 10 Must-have VSCode Extensions for Angular Developers in 2022"
 link: "https://medium.com/@sasidharansd/top-10-must-have-vscode-extensions-for-angular-developers-in-2022-5a76edfdeeba"
 isUpdated: true
 ---
-
-
-
-
 
 ## Angular 개발자로서 삶을 더 편리하게 만들고 최대 생산성을 실현하세요
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ## 1. Tabnine AI Autocomplete를 이용하세요. JavaScript, Python, Typescript, PHP, Go, Java, Ruby 등에 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Top 10 Must-have VS Code Extensions for Angular Developers in 2022](/assets/img/Top10Must-haveVSCodeExtensionsforAngularDevelopersin2022_1.png)
 
@@ -33,7 +40,18 @@ Tabnine는 GitHub, GitLab 및 Bitbucket 저장소에 액세스할 수 있도록 
 
 간단히 말해, Tabnine는 사용자의 코드/저장소를 분석하고 모델을 생성하여 AI 코드 제안 및 코드 완료를 제공하여 코드 작성을 빠르게 할 수 있습니다. 이는 작업에 반복적인 작업이 많거나 특정 유형의 코딩 표준 또는 스타일을 따라야 하는 팀이 있는 경우 매우 유용할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 VSCode를 통해 직접 설치할 수 있어요.
 
@@ -43,7 +61,18 @@ VSCode를 통해 직접 설치할 수 있어요.
 
 ![이미지](/assets/img/Top10Must-haveVSCodeExtensionsforAngularDevelopersin2022_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Prettier - Visual Studio Code용 코드 형식 지정 도구로, 의견이 강한 코드 형식 지정 도구입니다. 2100만 회 이상 다운로드되었으며 가장 인기 있는 VS Code 확장 프로그램 중 하나입니다.
 
@@ -53,7 +82,18 @@ VSCode에서 바로 설치할 수 있습니다.
 
 자세한 내용을 알고 싶다면 링크를 참조하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 3. Angular2-switcher:
 
@@ -63,7 +103,18 @@ Angular으로 작업할 때 HTML, TypeScript, spec, CSS 파일 사이를 빈번�
 
 Angular2-switcher는 몇 가지 바로 가기 키를 제공하여 HTML, TypeScript, CSS 파일 사이를 빠르고 쉽게 전환할 수 있도록 만들어 줍니다. 비록 VS Code는 다른 탭 사이를 전환하기 위한 내장 바로 가기가 있지만, Angular2-switcher처럼 컴포넌트 파일 간 전환하기 위한 바로 가기는 없습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 나아가 파일을 옆에 열거나 전환 순서를 변경하는 것도 가능합니다. 장기적으로 이 확장 프로그램을 사용하면 파일 간 전환 시 상당한 시간과 노력을 절약할 수 있습니다.
 
@@ -73,7 +124,18 @@ Angular2-switcher는 몇 가지 바로 가기 키를 제공하여 HTML, TypeScri
 
 이것은 직접 VSCode를 통해 설치할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 확장 프로그램에 대해 더 알고 싶다면 여기 링크가 있어요:
 
@@ -83,7 +145,18 @@ Angular2-switcher는 몇 가지 바로 가기 키를 제공하여 HTML, TypeScri
 
 대부분 우리는 팀으로 프로젝트를 작업하고 있습니다. 대규모 및 복잡한 프로젝트를 작업할 때 이것은 정말 혼잡해질 수 있습니다. 이런 상황에서 GitLens가 도움이 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 GitLens는 VS Code 자체에서 코드 작성자를 한눈에 확인할 수 있도록 도와줍니다. 간단히 말하면, 이 확장 프로그램을 사용하면 코드의 각 줄의 작성자, 누가 편집했는지, 누가 생성했는지, 변경 이력 및 커밋 메시지를 볼 수 있습니다. 이를 통해 여러 개발자가 처리한 후 코드가 어떻게 성장하는지, 코드베이스가 어떻게 발전하는지 확인할 수 있습니다.
 
@@ -93,7 +166,18 @@ VSCode를 통해 바로 설치할 수 있습니다.
 
 이 확장 프로그램에 대해 더 알고 싶다면 링크를 참조하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 5. Angular Language Service:
 
@@ -107,7 +191,18 @@ VSCode를 통해 바로 설치할 수 있습니다.
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신의 VSCode에서 직접 설치할 수 있어요.
 
@@ -117,7 +212,18 @@ VSCode를 통해 바로 설치할 수 있습니다.
 
 ![Angular Snippets](/assets/img/Top10Must-haveVSCodeExtensionsforAngularDevelopersin2022_7.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Angular 스니펫은 TypeScript와 HTML 모두에 대한 Angular 스니펫을 포함할 수 있는 기회를 제공합니다. 완전한 코드를 입력하는 대신 스니펫을 사용함으로써 많은 시간을 절약할 수 있습니다.
 
@@ -127,7 +233,18 @@ TypeScript에서는 구성 요소, 모듈, 디렉티브, 서비스, 파이프, O
 
 아래는 Angular 스니펫이 작동하는 예시입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="https://miro.medium.com/v2/resize:fit:960/1*t8OzjKOhd4vQNr4ai0rQbw.gif" />
 
@@ -137,7 +254,18 @@ TypeScript에서는 구성 요소, 모듈, 디렉티브, 서비스, 파이프, O
 
 ## 7. ESLint:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/Top10Must-haveVSCodeExtensionsforAngularDevelopersin2022_9.png)
 
@@ -147,7 +275,18 @@ ESLint는 ECMAScript/JavaScript/TypeScript 코드에서 발견된 패턴을 식�
 
 이는 VSCode를 통해 직접 설치할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 확장 프로그램에 대해 더 알고 싶다면 링크를 클릭해보세요:
 
@@ -157,7 +296,18 @@ ESLint는 ECMAScript/JavaScript/TypeScript 코드에서 발견된 패턴을 식�
 
 JSON to TS는 JSON 파일이 복잡한 중첩 구조를 가지고 있는 경우에 많은 시간을 절약할 수 있는 멋진 확장 프로그램입니다. 이 도구는 JSON을 기반으로 TypeScript 인터페이스를 생성합니다. 멋지죠! 하나씩 타이핑하는 시간을 낭비할 필요가 없습니다. 또한 제공된 JSON에 기반하여 해당 형식도 제공합니다. 이 도구는 제게 많은 도움이 되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 클립보드에서 직접 복사한 후 (Shift + Ctrl + Alt + V) 명령을 사용하여 변환할 수도 있고, JSON을 붙여 넣고 선택한 후 (Shift + Ctrl + Alt + S) 명령을 사용하여 변환할 수도 있습니다.
 
@@ -167,7 +317,18 @@ JSON to TS는 JSON 파일이 복잡한 중첩 구조를 가지고 있는 경우�
 
 VSCode에서 바로 설치할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 확장 프로그램에 대해 더 알고 싶다면 여기를 클릭해보세요:
 
@@ -177,7 +338,18 @@ VSCode에서 바로 설치할 수 있습니다.
 
 HTML 파일을 자주 편집하는 사람이라면 필수적으로 가져야 할 확장 프로그램입니다. 초기 태그가 바뀔 때 짝이 되는 HTML/XML 태그를 자동으로 이름을 변경해 줍니다. 태그의 복잡한 중첩이 포함된 HTML 파일에서 작업할 때 매우 유용할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기에는 작동 방식의 예가 있습니다:
 
@@ -187,7 +359,18 @@ VSCode에서 직접 설치할 수 있습니다.
 
 이 확장 프로그램에 대해 더 알고 싶다면 링크를 참조하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 10. Material Icon Theme
 
@@ -197,7 +380,18 @@ VSCode에서 직접 설치할 수 있습니다.
 
 이 확장 프로그램은 직접 VSCode에서 설치할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 확장 프로그램에 대해 더 알고 싶다면 아래 링크를 확인해보세요:
 

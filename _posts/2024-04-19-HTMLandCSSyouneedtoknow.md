@@ -3,17 +3,13 @@ title: "필수로 알아야 할 HTML과 CSS 기능들"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "HTML and CSS you need to know"
 link: "https://medium.com/@icodewithben/websites-html-css-and-javascript-you-need-to-know-b6ae0d08c556"
 isUpdated: true
 ---
-
-
-
-
 
 Markdown
 
@@ -37,7 +33,18 @@ Markdown은 간단한 마크업 언어로, 웹 페이지를 작성하는 데 사
 - `ul`: 순서가 지정되지 않은 목록
 - `script`: 주로 JavaScript를 위해 사용되는 스크립트
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # CSS
 
@@ -55,7 +62,18 @@ CSS는 Cascading Style Sheets의 약자로, 웹 페이지의 HTML 요소에 스�
 - height: 요소의 높이
 - width: 요소의 너비
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시:
 
@@ -74,7 +92,18 @@ CSS는 Cascading Style Sheets의 약자로, 웹 페이지의 HTML 요소에 스�
 
 메타 태그는 페이지의 내용을 설명합니다. 예를 들어 "description"은 컨텐츠를 설명합니다. 뷰포트는 페이지의 너비를 정의합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 정보를 배치하기 위해 `p` 태그의 단락, `h1` 태그의 헤더 등과 같이 태그를 추가할 수 있어요.
 
@@ -98,7 +127,18 @@ CSS는 Cascading Style Sheets의 약자로, 웹 페이지의 HTML 요소에 스�
 <p style="color:red"></p>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. 페이지 상단에 스타일을 추가하여 페이지 전체에 스타일을 적용할 수도 있어요:
 
@@ -126,7 +166,18 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 </style>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그런 다음 페이지의 섹션에 이 스타일을 적용해 주세요.
 
@@ -142,7 +193,18 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 <img src="dog.jpg"></img>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 img {
@@ -156,7 +218,18 @@ img {
 
 그런 다음 해당 CSS를 사용할 모든 페이지의 링크 태그에 가져와야 합니다. 이렇게 하면 모든 페이지에 동일한 스타일을 적용할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <link href="style.css" rel="stylesheet" type="text/css" />
@@ -176,7 +249,18 @@ img {
 
 9. 이제 고양이에 관한 다른 페이지를 추가하고 싶습니다. CSS를 가져오는 새로운 HTML 페이지를 만드세요. 고양이에 관한 멋진 정보와 이미지를 넣어보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 내비게이션을 사용하여 두 페이지 사이를 이동할 수 있도록 멋진 내비게이션을 만들어야 해요. 여기 CSS 수평 내비게이션 바(w3schools.com)를 사용하면 되며, 물론 원하는 스타일의 내비게이션 바를 선택하셔도 됩니다. 당신이 선택하시면 됩니다...
 
@@ -211,7 +295,18 @@ li a:hover {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "li a" 스타일은 "li" 안에 있는 "a" 태그에만 스타일을 적용하는 것을 의미합니다.
 
@@ -223,7 +318,18 @@ li a:hover {
 
 시험에서 나올 수 있으니 "ul" (정렬되지 않은 목록)과 "ol" (순서가 지정된 목록)이 무엇을 의미하는지 알아두는 것이 좋습니다. 이것들은 번호가 매겨지거나 매겨지지 않은 목록을 생성합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 10. contact.html 페이지를 만들고 내비게이션 코드를 추가하고 style.css를 임포트한 다음 다음과 같이 폼을 만드세요:
 
@@ -243,7 +349,18 @@ li a:hover {
 
 HTTP 요청은 POST, GET, DELETE, UPDATE와 같은 CRUD 작업(생성, 읽기, 업데이트, 삭제)을 수행할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ACTION 속성은 데이터를 POST할 위치를 정의하며, 이는 METHOD 속성에 의해 설정됩니다.
 
@@ -253,7 +370,18 @@ ACTION 속성은 데이터를 POST할 위치를 정의하며, 이는 METHOD 속�
 
 name 속성은 보낸 데이터를 명명하는 데 사용되며, 이는 JSON 응답입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![HTML and CSS you need to know](/assets/img/HTMLandCSSyouneedtoknow_1.png)
 
@@ -268,7 +396,18 @@ JSON은 인터넷을 통해 데이터를 교환하는 한 가지 방법입니다
 
 그럼 이메일 값을 얻고 싶다면 "email" 키를 사용하여 ddd@d.com을 반환받을 수 있습니다. 이것은 양식에서 보낸 데이터를 풀어내어 데이터베이스에 저장하려고 할 때 매우 유용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 11. 마지막으로 자바스크립트는 페이지를 상호작용할 수 있게 하는 방법입니다. 필드의 유효성을 검사하는 등 간단한 작업부터 애니메이션 및 서버에 게시하는 등 복잡한 작업까지 가능합니다.
 
@@ -280,7 +419,18 @@ JSON은 인터넷을 통해 데이터를 교환하는 한 가지 방법입니다
 <button onclick="validate()">인사</button>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그런 다음 본문 뒤에 다음 스크립트 태그와 코드를 추가해주세요:
 
@@ -299,7 +449,18 @@ alert("Hello "+name)
 <script src="script.js"></script>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 중요한 점은 웹페이지에서 데이터를 가져오는 방법입니다. document 객체와 getElementByID 함수를 사용하여 우리가 원하는 속성의 "이름" id를 전달합니다. 그런 다음 .value를 사용하여 이름 텍스트 상자의 값을 가져옵니다.
 

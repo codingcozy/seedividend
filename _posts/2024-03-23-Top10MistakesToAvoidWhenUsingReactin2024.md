@@ -3,17 +3,13 @@ title: "2024년 React를 사용할 때 가장 많이 하는 10가지 실수"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Top 10 Mistakes To Avoid When Using React in 2024"
 link: "https://blog.bitsrc.io/10-mistakes-when-building-react-apps-in-2024-9a3ab6775348"
 isUpdated: true
 ---
-
-
-
-
 
 ## 2024년에 더 나은 React 앱을 만들기 위해 이 10가지 실수를 피하세요!
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 1. 모노리스 React 앱 구축
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트와 함께 작업할 때, 건물 덩어리 앱을 만드는 것이 일반적이었어요. 예를 들어, "create-react-app"을 사용하여 리액트 프로젝트를 시작했을 것입니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 더불어 Ripple CI를 사용하여 변경 사항이 구성 요소 트리 전체에 자동으로 전달되어 모든 사용 사례가 최신 버전을 사용하도록 보장합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 2. 필요 이상으로 가져오기
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 해결책: 모듈에서 필요한 특정 컴포넌트나 함수만 가져오세요. 코드 분할을 사용하여 필요한 시점에 컴포넌트를 로드하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 특정 컴포넌트만 가져오기
@@ -63,7 +92,18 @@ const OtherComponent = lazy(() => import("./OtherComponent"));
 
 문제: 이로 인해 컴포넌트들 사이의 결합이 강해지고 비즈니스 로직을 독립적으로 테스트하기 어려워집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해결 방법: 비즈니스 로직을 처리하는 별도의 함수나 서비스를 만들고 컴포넌트에서 해당 함수를 호출하세요.
 
@@ -87,7 +127,18 @@ function UserDetails() {
 
 프롭 드릴링은 종종 불필요하게 여러 수준의 컴포넌트를 통해 프롭을 전달하여 깊게 중첩된 컴포넌트에 도달하는 것을 의미합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문제: 코드가 덜 가독성이 있어지며 유지 보수가 더 어려워지고 오류가 발생할 수 있습니다.
 
@@ -111,7 +162,18 @@ const UserContext = React.createContext();
 
 # 5. 각 렌더링에서의 중복 작업
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컴포넌트의 렌더 함수 내에서 비싼 계산이나 작업을 수행하면 성능 문제가 발생할 수 있습니다, 특히 빈번한 다시 렌더링 시에는 더욱 그렇습니다.
 
@@ -129,7 +191,18 @@ const MyComponent = React.memo(function MyComponent(props) {
 const memoizedValue = useMemo(() => computeExpensiveValue(props), [props]);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 6. 코드 가독성과 구조 무시하기
 
@@ -139,7 +212,18 @@ const memoizedValue = useMemo(() => computeExpensiveValue(props), [props]);
 
 해결책: 일관된 코딩 스타일을 따르고, 설명적인 변수 이름을 사용하며, 코드를 적절히 들여쓰기하고, 복잡한 기능을 더 작고 재사용 가능한 단위로 분해하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 가독성과 구조화된 코드
@@ -171,7 +255,18 @@ function MyComponent() {
 
 문제: 빈번한 상태 업데이트는 렌더링을 일으키며, 이러한 변경 사항이 렌더링된 UI에 무관한 경우도 발생합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 솔루션: 컴포넌트가 상태를 필요로 하는지 신중히 고려하고 상태 업데이트를 최적화하여 다시 렌더링을 최소화하십시오. 복잡한 상태 관리에는 useReducer를 사용하십시오.
 
@@ -194,7 +289,18 @@ const MyComponent = () => {
 
 useEffect 훅은 React 컴포넌트에서 부수 효과를 처리하는 강력한 도구이지만, 의도하지 않은 결과를 피하려면 올바르게 사용하는 것이 중요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문제: useEffect의 부적절한 사용은 무한 루프, 메모리 누수 또는 예기치 못한 동작을 초래할 수 있습니다.
 
@@ -208,7 +314,18 @@ useEffect(() => {
 
 # 9. 오류 처리 및 로깅 무시하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문제: 처리되지 않은 오류는 응용 프로그램을 다운시키며, 부족한 로깅은 문제를 진단하고 해결하기 어렵게 만듭니다.
 
@@ -226,7 +343,18 @@ try {
 <ErrorBoundary>{/* 보호된 구성 요소 */}</ErrorBoundary>;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 10. 바퀴 다시 발명하기
 
@@ -236,7 +364,18 @@ try {
 
 해결책: 라우팅, 상태 관리, 폼 처리 등과 같은 표준 기능을 위해 이미 존재하는, 잘 유지되는 라이브러리와 구성 요소를 활용하세요. 정말 필요한 경우에만 사용자 정의 구성 요소를 작성하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

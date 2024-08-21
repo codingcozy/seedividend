@@ -3,16 +3,13 @@ title: "풀스택 NET 개발자 면접 대비 질문 목록"
 description: ""
 coverImage: "/assets/img/2024-06-22-QuestionstopreparetocrackaFullStackNETDeveloperInterview_0.png"
 date: 2024-06-22 03:35
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-QuestionstopreparetocrackaFullStackNETDeveloperInterview_0.png
 tag: Tech
 originalTitle: "Questions to prepare to crack a Full Stack .NET Developer Interview"
 link: "https://medium.com/@BhuvanaR/questions-to-prepare-to-crack-a-full-stack-net-developer-interview-a2fc5ee8e620"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-06-22-QuestionstopreparetocrackaFullStackNETDeveloperInterview_0.png" />
 
@@ -31,7 +28,18 @@ C# 및 .NET Framework/Core:
 - .NET 프로젝트에서 단위 테스트를 어떻게 구현하나요?
 - .NET 개발에서 일반적으로 사용되는 일부 디자인 패턴은 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ASP.NET Core MVC/Web API:
 
@@ -59,7 +67,18 @@ ASP.NET Core MVC/Web API:
 - .NET에서 데이터 액세스에 대한 다양한 접근 방식을 논의하고 ADO.NET, EF Core 등에 대해 이야기해볼까요?
 - 데이터베이스 쿼리의 성능을 최적화하는 방법에 대해 어떻게 생각하시나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프론트엔드 기술 (Angular):
 
@@ -87,7 +106,18 @@ ASP.NET Core MVC/Web API:
 - .NET 애플리케이션을 Azure에 배포하기 위한 로깅 및 모니터링을 어떻게 구현하나요?
 - .NET 애플리케이션을 Azure에 배포하는 최상의 방법에 대해 설명해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 보너스 질문:
 

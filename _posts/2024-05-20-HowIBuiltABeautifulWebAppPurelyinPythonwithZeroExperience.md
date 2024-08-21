@@ -3,16 +3,13 @@ title: "파이썬만 활용해 경험 없이 아름다운 웹 앱 만드는 방�
 description: ""
 coverImage: "/assets/img/2024-05-20-HowIBuiltABeautifulWebAppPurelyinPythonwithZeroExperience_0.png"
 date: 2024-05-20 22:02
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-20-HowIBuiltABeautifulWebAppPurelyinPythonwithZeroExperience_0.png
 tag: Tech
 originalTitle: "How I Built A Beautiful Web App Purely in Python — with Zero Experience."
 link: "https://medium.com/gitconnected/how-i-built-a-beautiful-web-app-purely-in-python-with-zero-experience-874731df6bc1"
 isUpdated: true
 ---
-
-
-
 
 ## FastAPI, Jinja2 및 DaisyUI 사용하기.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 이 글에서는 주변 청크를 검색하는 기존 FastAPI 프로젝트를 확장해 나갈 것입니다. 더 많은 내용을 알고 싶으시면 이전 글을 읽어보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기술 탐구 내역:
 
@@ -34,7 +42,18 @@ isUpdated: true
 
 솔직히 말씀드리자면, FastAPI를 사용해 프론트엔드를 구축하는 것은 쉬웠지만, 앱과 tailwindcss (DaisyUI)를 통합하는 것이 저에게 가장 시간이 많이 걸렸습니다. 그 부분을 건너뛸 수도 있었지만, 웹 앱을 구축하는 유일한 이유는 나에게 창의력을 펼칠 수 있는 자유가 있다는 점이라는 사실을 인정해야 합니다. 누가 멋진 사용자 인터페이스를 좋아하지 않겠습니까? 그러니 더 이상 말이 필요 없으니, 함께 확인해 봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # DaisyUI란 무엇인가요?
 
@@ -44,34 +63,56 @@ isUpdated: true
 
 Tailwind는 엄청난 인기를 얻었으며, 이제는 다양한 분야의 애플리케이션에서 상용품으로 자리 잡았습니다. 만약 잘 안다면, **앱이 순정 Tailwind CSS를 사용하고 있는지 종종 알아낼 수 있습니다**. Tailwind 클래스를 세심하게 조정할 수도 있고, 아니면 Tailwind에 맞게 제작된 컴포넌트 라이브러리를 사용하는 손쉬운 방법을 선택할 수도 있습니다. 마치 Tailwind라는 Tailwind를 사용하는 것과 같은 이치인 거죠, ㅋㅋ. 여러 가지 컴포넌트 라이브러리가 있고, **DaisyUI가 그중 하나입니다**.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 DaisyUI를 사용하는 것에는 수많은 기능과 이점이 있습니다. 더 자세히 알아보려면 그들의 웹사이트를 방문하시면 됩니다. 제가 제일 좋아하는 기능 중 하나는 테마 선택 기능입니다. 다양한 테마 중에서 선택할 수 있어서 완벽한 색상 구성을 찾는 데 어려움을 겪지 않을 것입니다.
 
 # 웹 앱의 파일 구조
 
 ```js
-root
-|-app
-  |- chroma_db
-  |- functions.py
-  |- main.py
-  |- models.py
-  |- chroma_db
-  |- static
-    |- css
-      |- app.css
-  |- styles
-    |- app.css
-  |- templates
-    |- index.html
-  |- files
-    |- samples.pdf
+root |
+  -app |
+  -chroma_db |
+  -functions.py |
+  -main.py |
+  -models.py |
+  -chroma_db |
+  -static |
+  -css |
+  -app.css |
+  -styles |
+  -app.css |
+  -templates |
+  -index.html |
+  -files |
+  -samples.pdf;
 ```
 
 chroma_db 폴더, models.py, functions.py는 이전에 만든 프로젝트에서 이어지게 될 것입니다. 이전에 FastAPI에 익숙하지 않으셨다면, 이 기사를 읽을 것을 권해드립니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 사용자 인터페이스
 
@@ -81,7 +122,18 @@ chroma_db 폴더, models.py, functions.py는 이전에 만든 프로젝트에서
 
 ![Interface Image 1](/assets/img/2024-05-20-HowIBuiltABeautifulWebAppPurelyinPythonwithZeroExperience_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비록 Behance에서 자랑할 만한 것은 아니지만, 정말 멋지게 보이지 않나요? 개인적으로 나는 기본 Times New Roman, 흑백 테마보다 훨씬 좋아하는 편이에요. 그 테마는 정말 웹 개발을 싫어하게 만들어요.
 
@@ -91,7 +143,18 @@ chroma_db 폴더, models.py, functions.py는 이전에 만든 프로젝트에서
 
 DaisyUI를 위한 CDN을 사용하거나 Tailwind 플러그인으로 설치할 수 있어요. 프로덕션 환경에서는 권장되지 않지만, 과정을 훨씬 간단하게 만드는 CDN을 사용할 수 있어요. 하지만 권장하는 방법으로, Tailwind 플러그인으로 설치할 거에요. 이 방법은 약간 더 어려울 수 있고 일부 설정 문제가 있을 수 있지만, 누가 좋은 도전을 싫어하겠어요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Tailwind를 설치하려면 JavaScript의 패키지 관리자 인 NPM이 설치되어 있는지 확인하십시오. NPM이 설치되어 있지 않은 경우 문서를 참조하십시오.
 
@@ -105,12 +168,23 @@ npm i -D daisyui@latest
 
 성공적으로 실행되면 프로젝트의 루트 디렉토리에 tailwind.config.js라는 구성 파일이 생성됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 tailwind.config.js 파일에서는 DaisyUI를 플러그인으로 추가해야 합니다. 파일은 다음과 같이 보일 것입니다:
 
 ```js
-const { default: daisyui } = require('daisyui');
+const { default: daisyui } = require("daisyui");
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -118,20 +192,29 @@ module.exports = {
   theme: {
     extend: {},
   },
-  plugins: [
-    require("daisyui")
-  ],
+  plugins: [require("daisyui")],
   daisyui: {
     themes: ["light", "dim", "acid"],
   },
-}
+};
 ```
 
 스타일이 적용되지 않는 이유를 찾느라 시간을 많이 소비했습니다. 30분 이상을 쓴 뒤에야 HTML 파일 경로가 content 섹션에 잘못 지정되어 있어서 그랬다는 것을 발견했습니다. 비슷한 문제를 겪는다면 먼저 이 부분을 확인해 보세요. DaisyUI 테마도 여기서 설정할 수 있습니다.
 
 이제 절차를 모두 마쳤으므로 tailwind CSS 파일을 생성할 시간입니다. 주로 두 가지 파일이 생성될 것입니다: styles/app.css (입력 파일)와 static/css/app.css (클래스별 스타일이 적용된 생성된 CSS 파일).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 styles/app.css 파일에서 다음 tailwind 지시문을 정의하세요:
 
@@ -145,9 +228,20 @@ tailwind CSS 파일을 생성하려면, 다음 명령을 실행하세요:
 
 ```js
 npx tailwindcss -i ./styles/app.css -o ./static/css/app.css --watch
-```  
+```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그만입니다. Tailwind와 DaisyUI를 성공적으로 설치했습니다.
 
@@ -181,7 +275,18 @@ Jinja2는 Python용 템플릿 엔진으로, 애플리케이션에서 모듈식�
 </div>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 템플릿은 결과의 존재를 확인하기 위해 조건식을 사용합니다. 결과가 발견되면 각각에 대한 모달을 생성하기 위해 반복합니다. Python 프로그래밍에 익숙하다면, 이를 이해하는 데 어렵지 않을 것입니다.
 
@@ -193,7 +298,18 @@ Tailwind 스타일을 활성화하려면 다음 코드 줄을 HTML의 `head` 태
 <link rel="stylesheet" href="{url_for('static',path='css/app.css')}">
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 템플릿에 Tailwind 클래스 추가하기
 
@@ -227,7 +343,18 @@ Tailwind 스타일을 활성화하려면 다음 코드 줄을 HTML의 `head` 태
 
 요약하자면, 일부 Tailwind 유틸리티 클래스는 다음을 나타냅니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - text-lg: 큰 글꼴 크기
 - mb-2: 2단계의 하단 여백
@@ -241,7 +368,18 @@ Tailwind 스타일을 활성화하려면 다음 코드 줄을 HTML의 `head` 태
 <html data-theme="cupcake"></html>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 OR
 
@@ -258,37 +396,67 @@ OR
 
 API가 모두 설정되었으므로, 이전 튜토리얼에서 생성한 대로, 이제 HTML에 데이터를 가져와야 합니다. 이를 위해 main.py 파일을 약간 수정해야 하고, 그럼 준비됩니다. 그러나 그에 앞서, 데이터를 가져오는 트리거 역할을 할 HTML 폼을 만들어 봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## HTML 폼
 
 ```js
 <div class="max-w-md p-8 mx-auto mb-8 rounded-md shadow-md bg-neutral">
-        <form id="query-form" method="post" action="/neighbours/" class="flex flex-col mb-6">
-            <div class="mb-4">
-                <input type="text" placeholder="Query" id="query" name="query" required
-                    class="input input-ghost w-full max-w-xs" />
-            </div>
-            <div class="mb-4">
-                <input type="range" min="1" max="5" value="3" class="range" step="1" name="neighbours" id="neighbours" />
-                <div class="w-full flex justify-between text-xs px-2">
-                    <span>|</span>
-                    <span>|</span>
-                    <span>|</span>
-                    <span>|</span>
-                    <span>|</span>
-                </div>
-            </div>
-            <button type="submit" class="btn btn-accent">제출</button>
-        </form>
-  </div>
+  <form id="query-form" method="post" action="/neighbours/" class="flex flex-col mb-6">
+    <div class="mb-4">
+      <input
+        type="text"
+        placeholder="Query"
+        id="query"
+        name="query"
+        required
+        class="input input-ghost w-full max-w-xs"
+      />
+    </div>
+    <div class="mb-4">
+      <input type="range" min="1" max="5" value="3" class="range" step="1" name="neighbours" id="neighbours" />
+      <div class="w-full flex justify-between text-xs px-2">
+        <span>|</span>
+        <span>|</span>
+        <span>|</span>
+        <span>|</span>
+        <span>|</span>
+      </div>
+    </div>
+    <button type="submit" class="btn btn-accent">
+      제출
+    </button>
+  </form>
+</div>
 ```
 
 대부분이 DaisyUI 구성 요소로 구성되어 있습니다. 중요한 점은 form의 action 속성이 우리 API의 /neighbours 엔드포인트를 가리키고 POST 메소드를 사용해야 한다는 것입니다.
 
 ## FastAPI 앱
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Jinja2 템플릿을 렌더링하려면 fastapi.templating 모듈을 사용해야 합니다.
 
@@ -306,7 +474,18 @@ from fastapi.staticfiles import StaticFiles
 app.mount("/static", StaticFiles(directory="static"), name="static")
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 엔드포인트 함수에 필요한 유일한 조정은 응답 클래스를 HTMLResponse로 변경하는 것뿐입니다. JSON 객체 대신 웹페이지를 렌더링할 것이기 때문입니다.
 
@@ -328,8 +507,18 @@ FastAPI 폼은 Pydantic 모델을 지원하지 않습니다. 대신 Form 메서�
 
 다 됐어요! 완료했습니다. 이것은 Streamlit 없이 Python으로 웹 앱을 만드는 가장 쉬운 방법 중 하나였어요. Tailwind나 DaisyUI CSS 없이 기본적인 'Hello World' 애플리케이션을 선택했더라도 더 쉽게할 수 있었겠지만, 그렇게 한 것에 재미가 어디 있나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-05-20-HowIBuiltABeautifulWebAppPurelyinPythonwithZeroExperience_2.png" />
 
@@ -339,8 +528,18 @@ FastAPI 폼은 Pydantic 모델을 지원하지 않습니다. 대신 Form 메서�
 
 다음 주말에는 완전한 RAG 애플리케이션을 Llama3을 사용하여 구축하거나 이것에 파일 업로드 기능을 추가할 예정이다. 나는 처음부터 파일 업로드를 구현하고 처리하는 데 경험이 없기 때문에 그것이 흥미로울 것이다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희 튜토리얼을 즐기셨기를 바랍니다. 경험이 부족한 사람이 작성하여 이해하기 쉬울 거예요. 안녕히 계세요!
 

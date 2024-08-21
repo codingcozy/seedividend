@@ -3,16 +3,13 @@ title: "완벽 가이드 Angular 다국어i18n 애플리케이션 만들기"
 description: ""
 coverImage: "/assets/img/2024-06-22-ACompleteGuideToAngularMultilingualApplicationi18n_0.png"
 date: 2024-06-22 14:52
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-ACompleteGuideToAngularMultilingualApplicationi18n_0.png
 tag: Tech
 originalTitle: "A Complete Guide To Angular Multilingual Application (i18n)"
 link: "https://medium.com/angular-in-depth/a-complete-guide-to-angular-multilingual-application-91f431f0f12c"
 isUpdated: true
 ---
-
-
-
 
 Angular i18n 애플리케이션을 초기화하고 구현해 보세요. Transloco를 사용하여 Angular에서 다국어 애플리케이션을 구현하는 방법을 안내하는 가이드입니다! 번역 파일의 지연 로딩을 포함하여 멀티 언어 애플리케이션을 구현하는 방법을 설명합니다.
 
@@ -28,7 +25,18 @@ Angular i18n 애플리케이션을 초기화하고 구현해 보세요. Transloc
 - 활성 언어 변경
 - 번역 파일의 지연 로딩
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 간단 요약
 
@@ -38,7 +46,18 @@ Angular i18n 애플리케이션을 초기화하고 구현해 보세요. Transloc
 
 지난 수십 년 동안 전 세계의 사용자를 대상으로 한 애플리케이션이 많이 등장했습니다. 그에 따라 사용자의 언어와 문화에 따라 제품 및 서비스를 구현하는 필요성을 느끼게 되었습니다. 이 과정을 국제화 (i18n “I” - 열 여덟 개의 글자 - “N”)이라고 합니다. 반면 로컬라이제이션은 특정 제품을 고유한 지역 시장에 맞게 조정하는 것을 의미합니다. Angular 로컬라이제이션은 다양한 기능을 제공합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 다른 언어로 번역할 텍스트 추출
 - 특정 로캘을 위한 데이터 형식 지정
@@ -52,7 +71,18 @@ Angular의 국제화를 사용할 수 있습니다:
 
 ![이미지](/assets/img/2024-06-22-ACompleteGuideToAngularMultilingualApplicationi18n_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Angular 애플리케이션 초기화 및 패키지 설치하기
 
@@ -64,7 +94,18 @@ ng new <PROJECT_NAME>
 
 이 Medium 스토리에서는 Angular 애플리케이션의 구현 세부 사항에 대해 다루지 않습니다. 프로젝트의 전체 구현을 보려면 GitHub 리포지토리를 참조하실 수 있습니다. ng serve 명령을 사용하여 Angular 애플리케이션을 시작하세요. 이제 Angular 프로젝트가 실행 중이므로 i18n의 구현 세부 사항으로 넘어가 봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Transloco를 사용하려고 합니다. 먼저 필요한 패키지를 설치해야 합니다.
 
@@ -74,7 +115,18 @@ ng add @ngneat/transloco
 
 위 명령을 실행한 후에는 프로젝트에 새 파일이 생길 수 있습니다. Angular Universal을 사용하는지 여부와 지원할 언어 등 몇 가지 질문에 답해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 transloco-root.module.ts 파일에서 transloco의 구성 파일을 찾을 수 있습니다. 여기서 지원하는 언어, 애플리케이션의 기본 언어, 런타임에서 언어를 변경할지 여부를 변경할 수 있습니다. 모든 옵션 목록은 여기에서 찾을 수 있습니다.
 
@@ -121,7 +173,18 @@ export class TranslocoRootModule {}
 
 <img src="/assets/img/2024-06-22-ACompleteGuideToAngularMultilingualApplicationi18n_3.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 템플릿 내의 번역
 
@@ -129,9 +192,20 @@ export class TranslocoRootModule {}
 
 ## 구조 지시문 사용
 
-템플릿에서 *transloco 지시문을 사용할 수 있습니다. 그러나 feature 모듈에는 translocoModule을 가져와야 하고, 주 페이지에는 translocoRootModule을 가져와야 합니다. 우리가 제목을 번역하려고 한다고 가정해 봅시다. 우리는 번역된 텍스트를 i18n 디렉터리의 JSON 파일에 포함해야 합니다.
+템플릿에서 \*transloco 지시문을 사용할 수 있습니다. 그러나 feature 모듈에는 translocoModule을 가져와야 하고, 주 페이지에는 translocoRootModule을 가져와야 합니다. 우리가 제목을 번역하려고 한다고 가정해 봅시다. 우리는 번역된 텍스트를 i18n 디렉터리의 JSON 파일에 포함해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 en.json 파일은 다음과 같이 보여야 합니다:
 
@@ -149,7 +223,18 @@ en.json 파일은 다음과 같이 보여야 합니다:
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금 저희 템플릿에서는 다음과 같이 디렉티브를 사용하여 선택한 언어의 값을 보여줄 수 있습니다:
 
@@ -182,7 +267,18 @@ en.json 파일은 다음과 같이 보여야 합니다:
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 두 가지 옵션이 있습니다. t 함수의 중첩 항목을 사용하거나 값 찾기를 수행하는 where 지시문을 사용할 수 있습니다.
 
@@ -198,19 +294,41 @@ en.json 파일은 다음과 같이 보여야 합니다:
 
 ## 파이프 사용하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다른 방법은 아래와 같이 파이프를 사용하는 것입니다:
 
 ```js
-<h1>{ 'title' | transloco }</h1>
+<h1>{"title" | transloco}</h1>
 ```
 
 # TypeScript 내에서 번역
 
 TranslocoService를 컴포넌트에 주입한 후에는 아래와 같이 안전하게 사용할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 export class AppComponent {
@@ -229,8 +347,18 @@ export class AppComponent {
 
 사용자가 애플리케이션 언어를 변경하는 버튼을 클릭하면 애플리케이션의 선택된 언어를 변경해야 해요. 이를 위해 먼저 적절한 컴포넌트를 만들어 주세요. 완전히 구현된 컴포넌트는 여기에서 찾을 수 있어요.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { Component } from '@angular/core';
@@ -252,7 +380,7 @@ import { TranslocoService } from '@ngneat/transloco';
 })
 export class LanguageSelectorComponent {
   constructor(private translocoService: TranslocoService) {}
-  public languagesList: 
+  public languagesList:
     Array<Record<'imgUrl' | 'code' | 'name' | 'shorthand', string>> = [
     {
       imgUrl: '/assets/images/English.png',
@@ -289,8 +417,18 @@ export class LanguageSelectorComponent {
 
 # 지연로딩 번역
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 애플리케이션 초기화 시 모든 번역 파일을 동시에 로드하는 것은 좋은 아이디어가 아닙니다. 특히 모듈이 많은 경우에는 그렇습니다. 애플리케이션의 로드 시간이 더 늘어날 뿐만 아니라 전체 애플리케이션을 위한 단일 번역 파일을 작업하는 것도 어려운 일입니다. 다행히 우리는 모듈에 번역 파일을 지연 로드할 수 있습니다.
 우리에게는 pageOne과 pageTwo라는 두 개의 모듈이 있다고 가정해 봅시다. 각 모듈에 대해 i18n 디렉토리 내에 디렉토리를 만들겠습니다. 각 언어에 대해 동일한 수의 JSON 파일로 디렉토리를 채워 주세요. 이제 각 모듈에 대한 범위를 지정하기만 하면 됩니다. 이를 수행하는 방법이 몇 가지 있습니다.
@@ -305,20 +443,31 @@ export class LanguageSelectorComponent {
 
 먼저 translocoModule을 가져온 모듈에서 원하는 범위를 지정해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const routes: Routes = [
   {
-    path: '',
-    component: PageOneComponent
-  }
+    path: "",
+    component: PageOneComponent,
+  },
 ];
 
 @NgModule({
   declarations: [PageOneComponent],
-  providers: [{ provide: TRANSLOCO_SCOPE, useValue: 'pageOne' }],
-  imports: [RouterModule.forChild(routes), TranslocoModule]
+  providers: [{ provide: TRANSLOCO_SCOPE, useValue: "pageOne" }],
+  imports: [RouterModule.forChild(routes), TranslocoModule],
 })
 export class PageOneModule {}
 ```
@@ -328,7 +477,7 @@ export class PageOneModule {}
 ```js
 export class AppComponent {
   constructor(
-    private translocoService: TranslocoService, 
+    private translocoService: TranslocoService,
     @Inject(TRANSLOCO_SCOPE) private scope
   ) {}
 
@@ -341,8 +490,18 @@ export class AppComponent {
 
 컴포넌트에 TRANSLOCO_SCOPE를 인젝션하면 모듈의 현재 scope를 사용할 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 최종 결과물
 
@@ -352,7 +511,18 @@ export class AppComponent {
 
 https://angular-multi-lingual.hmousavi.dev
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## GitHub 저장소를 확인해보세요:
 

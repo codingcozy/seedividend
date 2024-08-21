@@ -3,16 +3,13 @@ title: "PostgreSQL 데이터베이스 변경 사항을 벡터 스토어로 스�
 description: ""
 coverImage: "/assets/img/2024-06-22-StreamChangesfromaPostgreSQLDatabasetoaVectorStore_0.png"
 date: 2024-06-22 05:42
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-StreamChangesfromaPostgreSQLDatabasetoaVectorStore_0.png
 tag: Tech
 originalTitle: "Stream Changes from a PostgreSQL Database to a Vector Store"
 link: "https://medium.com/ai-advances/stream-changes-from-a-postgresql-database-to-a-vector-store-83df7adc0bfa"
 isUpdated: true
 ---
-
-
-
 
 ## CDC (Change Data Capture)를 사용하여 벡터 저장소를 최신 상태로 유지하는 방법, Python 및 Redpanda
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 예를 들어, DoorDash 엔지니어링 팀이 2021년에 점진적 색인화에 대해 쓴 글에서는 CDC와 Apache Kafka를 사용하여 색인을 점진적으로 업데이트하는 방법을 설명했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 글에서는 일반적인 검색 인덱스보다 계산량이 많을 수 있는 벡터 데이터베이스로 동일한 작업을 수행하는 방법을 보여드리려고 합니다.
 
@@ -32,7 +40,18 @@ CDC를 기반으로 한 인덱싱 파이프라인의 간소화된 버전을 살�
 
 저는 여러분이 직접 복제할 수 있는 프로토타입 애플리케이션을 작성했습니다. 메시지 브로커로 Redpanda의 로컬 설치를 사용합니다. 파이프라인의 각 단계는 각각의 Docker 컨테이너에서 실행되며, 각 컨테이너는 Quix Streams의 인스턴스를 실행합니다. Quix Streams는 Kafka 프로듀서/컨슈머(예: kafka-python)와 강력한 스트림 처리 라이브러리(예: Faust)인 오픈소스 파이썬 라이브러리입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 다이어그램은 파이프라인의 구성 요소를 보여줍니다.
 
@@ -42,7 +61,18 @@ CDC를 기반으로 한 인덱싱 파이프라인의 간소화된 버전을 살�
 
 이 프로토타입의 전체 코드는 동봉된 GitHub 저장소에서 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 준비물
 
@@ -53,7 +83,18 @@ CDC를 기반으로 한 인덱싱 파이프라인의 간소화된 버전을 살�
 
 # 코드 가져오기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 터미널에서 다음 Git 명령을 실행하여 코드를 가져올 수 있어요.
 
@@ -67,7 +108,18 @@ git clone https://github.com/quixio/template-vector-cdc-local
 docker compose up -d
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 명령은 8080, 8082 및 5050 포트를 필요로 하는 여러 서비스를 시작합니다. 해당 포트에서 실행 중인 애플리케이션이 있으면 먼저 중지해야 합니다.
 
@@ -89,7 +141,18 @@ docker compose up -d
 
 # 데이터베이스 설정
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, 기본 테스트 데이터벤스에 테이블을 생성하고 일부 데이터를 추가하겠습니다.
 
@@ -99,7 +162,18 @@ docker compose up -d
 
 먼저, demo PostgreSQL DB에 pgAdmin을 연결해 보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## pgAdmin에 로그인하기
 
@@ -110,7 +184,18 @@ docker compose up -d
 
 - `Servers`를 클릭하고 `Register` 서버를 선택합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-22-StreamChangesfromaPostgreSQLDatabasetoaVectorStore_2.png)
 
@@ -120,7 +205,18 @@ docker compose up -d
 
 # 데이터 추가
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희 데모 Postgresql 데이터베이스에는 “books” 테이블이 미리 구성되어 있어서 데이터를 추가하기만 하면 됩니다.
 
@@ -130,7 +226,18 @@ docker compose up -d
 
 - 나타나는 쿼리 도구에 다음 쿼리를 붙여넣고 실행하여 첫 번째 일괄 Sci-fi 책을 추가합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 INSERT INTO books (name, description, author, year) VALUES
@@ -150,7 +257,18 @@ INSERT INTO books (name, description, author, year) VALUES
 
 Topics로 이동하여 `postgres-cdc-data`를 확인하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 “OFFSET” 드롭다운에서 “Newest”를 선택하면 메시지가 들어오기 시작해야 해요:
 
@@ -160,7 +278,18 @@ Topics로 이동하여 `postgres-cdc-data`를 확인하세요.
 
 # Streamlit Vector Search UI 사용하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데모 애플리케이션에는 벡터 검색을 테스트할 수 있는 간단한 검색 UI(스트림릿으로 구축됨)가 포함되어 있어요.
 
@@ -170,7 +299,18 @@ Topics로 이동하여 `postgres-cdc-data`를 확인하세요.
 
 ![이미지](/assets/img/2024-06-22-StreamChangesfromaPostgreSQLDatabasetoaVectorStore_6.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 "화성"이 "우주"와 의미적으로 가깝고 "침공"이 "전투"와 의미적으로 가깝기 때문에 상위 결과와 일치했을 가능성이 있다고 추측할 수 있습니다. 그러나 문장 임베딩 모델 같이 더 정교한 모델을 사용하면 결과가 다를 수 있습니다. 그러나 그 모델은 꽤 무거운 라이브러리이기 때문에 이 프로토타입에서는 제외했습니다.
 
@@ -190,7 +330,18 @@ INSERT INTO books (name, description, author, year) VALUES
 ('Old Man''s War', '지구의 노인들이 별간 전쟁에 참전하게 되며 새로운 외계 문화와 위협을 발견한다.', '존 스캘지', 2005);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 이것이 프로덕션 상황이었다면, 새로운 제목은 책 카탈로그에 등록될 수 있지만 벡터 DB에는 등록되지 않을 수 있어요. 이 때문에 재고 팀에게 정기적으로 책 카탈로그의 스냅샷을 내보내서 벡터 스토어로 가져와야 할지도 모를 거예요. 한편으로, "우주 전투"에 관한 책을 찾는 사용자들은 그냥 기다려야 할 수도 있어요. 이건 그냥 안돼요! 그럼 그들이 카탈로그에 등록되면 바로 제목을 찾을 수 있게 해주는게 어때요?
 
@@ -200,9 +351,18 @@ INSERT INTO books (name, description, author, year) VALUES
 
 Streamlit 검색 UI에서 다시 "우주 전투"를 검색해보세요 - 이제 상위 결과는 "Old man's war"가 될 거예요 - 더 적절한 매치겠죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![StreamChangesfromaPostgreSQLDatabasetoaVectorStore_7](/assets/img/2024-06-22-StreamChangesfromaPostgreSQLDatabasetoaVectorStore_7.png)
 
@@ -212,8 +372,18 @@ Streamlit 검색 UI에서 다시 "우주 전투"를 검색해보세요 - 이제 
 
 이제 이 프로토타입이 무엇을 하는지 이해했으니, 어떻게 작동하는지 살펴보겠습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, 아키텍처 다이어그램의 처리 부분에 초점을 맞춰 봅시다.
 
@@ -223,7 +393,18 @@ Streamlit 검색 UI에서 다시 "우주 전투"를 검색해보세요 - 이제 
 
 각 애플리케이션은 데이터를 수신하고 처리한 후 Kafka 토픽으로 보내거나 어떠한 형태의 싱크에 쓰기 위해 Quix Streams 파이썬 라이브러리를 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각 응용 프로그램의 소스 코드를 함께 살펴봅시다.
 
@@ -231,20 +412,42 @@ Streamlit 검색 UI에서 다시 "우주 전투"를 검색해보세요 - 이제 
 
 CDC 프로세스 뒤의 코드로 들어가기 전에, 자체 PostgreSQL 데이터베이스에서 CDC를 수행하려면 몇 가지 추가 전제 조건을 언급하는 것이 좋습니다:
 
-1) Write Ahead Log를 논리적으로 설정해야 합니다.
+1. Write Ahead Log를 논리적으로 설정해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - "SHOW wal_level;" SQL 쿼리를 실행하여 현재 설정을 확인할 수 있어요.
 - 이미 "logical"로 설정이 되어 있지 않다면, postgresql.cong 파일을 업데이트하고 wal_level을 wal_level=logical로 설정해 주세요.
 
-2) PostgreSQL이 실행 중인 서버 또는 컨테이너에 wal2json 플러그인을 설치해야 해요.
+2. PostgreSQL이 실행 중인 서버 또는 컨테이너에 wal2json 플러그인을 설치해야 해요.
 
 이 튜토리얼의 PostgreSQL 데이터베이스에는 이미 이러한 선행 조건이 준비되어 있어요. Debezium Source PostgreSQL Connector 대신 Quix Python CDC 커넥터를 사용합니다. 전체 CDC 코드 파일은 이 GitHub 폴더에서 찾을 수 있어요.
 
 ## PostgreSQL 데이터베이스에 연결
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 포스트그레SQL 연결은 환경 변수를 통해 postgres_helper.py 파일에서 정의됩니다. 따라서, 여러분이 자신의 데이터베이스에 연결하고 싶다면, 관련 변수를 변경하기만 하면 됩니다.
 
@@ -259,19 +462,30 @@ def connect_postgres():
     PG_USER = os.environ["PG_USER"] # 기본값은 ??
     PG_PASSWORD = os.environ["PG_PASSWORD"] # 기본값은 ??
     PG_DATABASE = os.environ["PG_DATABASE"] # 기본값은 ??
-    
+
     conn = psycopg2.connect(
         database=PG_DATABASE, user=PG_USER, password=PG_PASSWORD, host=PG_HOST, port=PG_PORT
     )
     return conn
-… 
+…
 ```
 
 ## 카프카로 변경 로그 항목 생성하기
 
 글을 간결하게 유지하기 위해서, 이 기사에서는 변경 데이터가 어떻게 캡처되는지에 대해 다루지 않겠습니다. 그러나 변경 사항을 캡처하는 데 write-ahead log가 어떻게 사용되는지에 대한 자세한 내용은 postgres_helper.py 파일을 확인해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서는 데이터의 구조와 Kafka로 생성되는 방법에 초점을 맞춰 봅시다.
 
@@ -283,11 +497,22 @@ Quix Streams를 사용하여 main.py에서 어플리케이션 및 초기 출력 
 from quixstreams import Application
 ...
 app = Application(broker_address=os.environ['BROKER_ADDRESS']) # Redpanda의 기본값은 'localhost:19092'입니다.
-... 
+...
 output_topic = app.topic(output_topic_name) # 토픽 이름은 환경 변수에 정의되어 있으며, 기본값은 "posgres-cdc-source"입니다.
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그런 다음 최신 데이터베이스 변경 사항을 가져와 버퍼에 추가하고, 버퍼를 반복하여 결과를 출력 Kafka 주제로 전송하는 함수를 추가합니다.
 
@@ -304,7 +529,7 @@ def main():
             changes = json.loads(record[0])
             for change in changes["change"]:
                 buffer.append(change)
-                
+
         # 100밀리초가 지났는지 확인
         current_time = time.time()
         if (current_time - last_flush_time) >= 0.5 and len(buffer) > 0:
@@ -316,7 +541,7 @@ def main():
                                     value=json.dumps(message))
                 print("Kafka로 메시지 전송 완료")
                 # 생산자를 플러시하여 메시지 전송
-                
+
             # 버퍼 비우기
             buffer = []
             # 마지막 플러시 시간 업데이트
@@ -355,7 +580,18 @@ def main():
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나중에는 이 구조를 간단하게 만들어서 처리하기 쉽게 할 거예요.
 
@@ -365,7 +601,18 @@ def main():
 
 Quix Streams 라이브러리는 변환을 구현하는 간단한 프로세스를 제공합니다. 다른 라이브러리와 달리 생산자와 소비자를 정의하는 대신, 관련 설정을 Application 생성자에 넣어주고 app 인스턴스를 통해 입력 및 출력 토픽을 정의합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시:
 
@@ -388,7 +635,18 @@ output_topic = app.topic(os.environ['output'], value_serializer="json")
 
 첫 번째 함수는 변경 데이터 캡처 페이로드의 구조를 압축합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 def simplify_data(row):
@@ -419,7 +677,18 @@ def simplify_data(row):
 
 두 번째 함수는 단순화된 페이로드의 "description" 필드에 대한 임베딩을 생성하기 위해 Qdrant의 FastEmbed 라이브러리를 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 기존 모델 다운로드 및 초기화가 트리거됩니다.
@@ -460,7 +729,18 @@ sdf["Timestamp"] = sdf.apply(lambda row: time.time_ns())
 
 sdf.apply()과 sdf.update()의 차이점에 유의하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `apply()`은 콜백 함수의 결과를 하류로 전달합니다. 원본 데이터를 가져와 처리하여 새 데이터를 생성합니다. 이 메서드는 원본 데이터 자체를 변경하지 않고 대신 원본을 기반으로 새 버전을 생성합니다.
 
@@ -471,11 +751,22 @@ sdf.apply()과 sdf.update()의 차이점에 유의하세요.
 
 마지막으로, 우리는 sdf.to_topic을 사용하여 변환된 데이터를 하류 토픽으로 생성합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-sdf = sdf.to_topic(output_topic)
-app.run(sdf)
+sdf = sdf.to_topic(output_topic);
+app.run(sdf);
 ```
 
 # 벡터 DB에 Upserting
@@ -484,8 +775,18 @@ app.run(sdf)
 
 여기서는 환경 변수를 사용하여 벡터 DB에 연결을 정의하고, 스트리밍 데이터프레임 행에서 관련 데이터를 추출하며, upload_points() 메서드를 사용하여 벡터 DB(이 경우 로컬 Qdrant DB)에 항목을 추가합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 from quixstreams import Application
@@ -554,7 +855,18 @@ app.run(sdf)
 
 # 배운 점
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기본 데이터를 신선하게 유지하는 것은 검색 품질의 중요한 구성 요소입니다. 제품 카탈로그에 새로운 항목이 도착할 때마다 벡터 저장소를 업데이트하여 사용자에게 의미론적으로 정확한 검색 결과를 제공할 수 있었음을 보았습니다.
 
@@ -562,7 +874,18 @@ app.run(sdf)
 
 데이터가 입력됨과 동시에 임베딩이 생성되고 흡수되는 이벤트 기반 시스템을 설정하면(CDC를 통해), 이러한 질문들을 처리할 필요가 없습니다. 이것이 카프카 기반 아키텍처가 인기 있는 이유입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 많은 대규모 기업이 이미 DoorDash 예제에서 본 것처럼 전통적인 검색 색인 작업을 위해 Apache Kafka와 같은 이벤트 기반 솔루션을 사용하고 있습니다. 텍스트 임베딩을 최신 상태로 유지하는 데 관련된 도전 과제는 비슷하기 때문에 텍스트 임베딩에도 동일한 접근을 적용하는 것이 합리적입니다.
 

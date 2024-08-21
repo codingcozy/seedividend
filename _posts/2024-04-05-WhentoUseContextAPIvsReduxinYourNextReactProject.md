@@ -3,17 +3,13 @@ title: "Nextjs 프로젝트에서 Context API와 Redux를 사용하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "When to Use Context API vs Redux in Your Next React Project"
 link: "https://medium.com/bitsrc/when-to-use-context-api-vs-redux-in-your-next-react-project-59fb0d78840e"
 isUpdated: true
 ---
-
-
-
-
 
 ## 리액트 프로젝트에서 상태 관리를 위한 Context API와 Redux의 차이점을 이해한 후 둘 중 어떤 것을 선택할지 결정해보세요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 React를 위한 글로벌 상태 관리 솔루션을 선택할 때, 개발자들은 고려할 옵션이 많습니다. 오랜 시간 동안 Redux가 개발자들 사이에서 인기 있는 선택이었습니다. 그러나 Context API의 도입으로 인해, 개발자들은 빠르게 그것을 채택하기 시작했습니다. 어떤 경우에는 Redux를 Context로 대체하기도 합니다. 모든 이러한 일이 발생하는데, 중요한 질문이 나타납니다. 어느 것을 사용해야 할까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Context API 또는 Redux를 사용할 때 결정해야 할 때
 
@@ -33,7 +40,18 @@ Context API와 Redux의 차이
 
 Context API와 Redux의 차이점은 상태 변경을 어떻게 처리하는가에 있습니다. Redux는 상태 변경을 중앙 집중식으로 다루며, 상태 변경을 중앙 저장소에서 관리합니다. 반면에 Context API는 각 컴포넌트 내에서 발생하는 대로 상태 변경을 다룹니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 라이브러리 간의 차이를 더 잘 이해하기 위해 각각을 자세히 살펴보겠습니다.
 
@@ -43,7 +61,18 @@ Context API는 React 세계에 흥미로운 추가 요소입니다. 이는 각 �
 
 Context API의 주요 이점 중 하나는 응용 프로그램에서 상태 관리를 간소화할 수 있는 능력입니다. Context를 사용하여 컴포넌트 간 데이터 전달의 복잡성을 줄이고 추가 조치나 props 필요성을 제거할 수 있습니다. 이렇게 하면 코드가 더 간결해지고 유지 관리가 쉬워집니다. 컴포넌트 간 데이터 공유를 간편하게 하는 편리한 도구가 있는 것과 같습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Context API는 두 가지 핵심 개념을 가지고 있어요:
 
@@ -54,7 +83,18 @@ Providers는 특정 상태 값들을 정의하고 추적하는 역할을 합니�
 
 전반적으로, Context API는 React Application 내에서 공유 데이터를 효율적으로 관리할 수 있는 방법을 제공하며, 수동으로 프롭스를 전달하거나 Redux와 같은 다른 상태 관리 라이브러리를 사용하는 것에 대한 가치 있는 대안이 될 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Redux
 
@@ -66,7 +106,18 @@ Redux를 사용하면 애플리케이션의 전체 상태가 한 곳에 저장�
 - Reducers
 - Store
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 액션은 데이터를 Redux 스토어로 보내는 이벤트를 나타냅니다. 사용자 상호작용에 의해 트리거되거나 응용 프로그램에서 직접 호출될 수 있습니다. 각 액션은 고유한 유형과 연결된 페이로드를 가지고 있습니다. 예를 들어, 할 일 추가에 대한 액션은 다음과 같이 보일 수 있습니다:
 
@@ -83,7 +134,18 @@ const addTodo = (text) => {
 
 이 모든 것은 스토어 내에서 발생합니다. 스토어는 응용 프로그램 상태를 보유하는 역할을 합니다. Redux에서는 응용 프로그램 전체에 대해 하나의 스토어만 가지는 것이 권장됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 Redux와 Context에 대한 이해가 생겼으니, 각각이 빛을 발하는 다양한 사용 사례 및 응용 프로그램을 살펴보겠습니다.
 
@@ -93,7 +155,18 @@ Context API는 React와 함께 제공되는 강력한 기능으로, 수동으로
 
 React 애플리케이션의 테마를 관리하기 위해 Context API를 사용하는 예제를 살펴보겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import React, {useContext, useState} from "react";
@@ -129,7 +202,18 @@ const Hello = () => {
 
 Redux는 다음과 같은 상황에서 일반적으로 사용됩니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 애플리케이션은 많은 컴포넌트에서 액세스해야 하는 상태가 많습니다.
 - 애플리케이션 상태가 자주 업데이트됩니다.
@@ -165,7 +249,18 @@ const userReducer = (state = initialState, action) => {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Redux를 초기화하려면 전체 앱 구성요소를 Redux Provider 내에 감싸고 스토어를 초기화해야합니다.
 
@@ -195,7 +290,18 @@ export default App;
 
 마지막으로, 상태에 접근하려면 react-redux에서 제공하는 useSelector 훅을 사용하여 구성 요소를 상태에 연결할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 다른 상태 관리 도구
 
@@ -203,7 +309,18 @@ export default App;
 
 ## React-Query
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 언급할 가치가 있는 도구 중 하나는 React Query입니다. 이 도구는 데이터 가져오기와 관련된 상태 관리를 처리하기 위해 특별히 설계되었습니다. React Query를 사용하면 데이터 가져오기를 쉽게 처리할 수 있는 다양한 유틸리티를 활용할 수 있습니다. React Query에 대해 더 알고 싶다면 다음 문서를 확인해보세요 -` React-Query
 
@@ -213,7 +330,18 @@ export default App;
 
 ## MobX
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 MobX에 대해 이야기 해봐요. Redux와 Context API와는 다르게 MobX는 클래스 기반 접근 방식을 따릅니다. 핵심 개념은 상태 관리를 "observable"하게 만드는 데 중점을 둡니다. MobX를 활용하면 애플리케이션 상태의 변경을 쉽게 관찰하고 반응할 수 있어요. MobX에 대해 더 알아보고 싶다면 - `MobX
 
@@ -223,7 +351,18 @@ export default App;
 
 이 글을 통해 Context API와 Redux의 기본적인 예제와 이상적인 사용 사례를 제공했습니다. 마지막으로, Context API 대 Redux 언제 사용해야 하는지에 대한 질문에 답변했습니다. 이 지식을 바탕으로 Context API나 Redux를 사용할 때의 결정을 확신할 수 있을 거예요. 👍
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 리액트 앱을 레고처럼 재사용 가능한 컴포넌트로 구축하세요
 
@@ -233,7 +372,18 @@ Bit의 오픈 소스 도구는 25만 명 이상의 개발자가 컴포넌트를 
 
 어떤 UI, 기능 또는 페이지든 재사용 가능한 컴포넌트로 변환하고 응용 프로그램 간에 공유하세요. 협업하고 더 빨리 구축하는 것이 쉬워집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 → 더 알아보기
 
@@ -242,7 +392,18 @@ Bit의 오픈 소스 도구는 25만 명 이상의 개발자가 컴포넌트를 
 - 마이크로 프론트엔드
 - 디자인 시스템
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## → 코드 공유 및 재사용
 

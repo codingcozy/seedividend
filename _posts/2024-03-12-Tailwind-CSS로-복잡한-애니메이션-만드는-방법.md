@@ -3,23 +3,30 @@ title: "Tailwind CSS로 복잡한 애니메이션 만드는 방법"
 description: "Tailwind CSS 사용할 때 애니메이션을 작업하는 방법에 대해서 소개합니다"
 coverImage: ""
 date: 2024-08-03 16:52
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
 
-
-
-
-
 # Tailwind CSS로 복잡한 애니메이션 만드는 방법
 
 TailwindCSS를 사용하여 인상적이고 복잡한 애니메이션을 만드는 방법에 대해 살펴보겠습니다. TailwindCSS는 개발자들이 모던하고 반응형이며 시각적으로 매력적인 사용자 인터페이스를 쉽게 구축할 수 있는 매우 인기있는 유틸리티 기반 CSS 프레임워크입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## TailwindCSS 소개
 
@@ -34,7 +41,18 @@ TailwindCSS를 사용하여 인상적이고 복잡한 애니메이션을 만드�
 
 Tailwind CSS로 아래와 같은 애니메이션을 만들어보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="https://miro.medium.com/v2/resize:fit:1200/1*7luPcDVyB3smqaaFIgZ0SA.gif" />
 
@@ -52,7 +70,18 @@ TailwindCSS에는 Spin, Bounce, Ping, Pulse 등 다양한 미리 정의된 애�
 <div class="animate-spin">Look Mom! I am spinning!</div>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 페이지가 로드될 때 화면에서 div 요소를 회전시켜 "회전" 애니메이션을 적용합니다.
 
@@ -112,7 +141,18 @@ module.exports = {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이렇게 하면 이제 animate-fall 클래스를 적용하여 모든 요소에 우리의 fall 애니메이션을 적용할 수 있습니다.
 
@@ -120,7 +160,18 @@ module.exports = {
 
 <img src="https://miro.medium.com/v2/resize:fit:1200/1*h2VZc5HtFSj1UBd1gp6_kg.gif" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 우리의 애니메이션을 해체해 보겠습니다.
 
@@ -148,7 +199,18 @@ module.exports = {
 </div>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. TailwindCSS 플러그인
    플러그인을 사용하면 Tailwind가 CSS 대신 JavaScript를 사용하여 사용자의 스타일시트에 새로운 스타일을 주입할 수 있습니다.
@@ -180,7 +242,18 @@ module.exports = {
 
 이렇게 하면 이제 우리의 완전한 애니메이션을 만들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```jsx
 const TypographyAnimation = () => {
@@ -191,9 +264,7 @@ const TypographyAnimation = () => {
     return word.split("").map((letter, index) => (
       <span
         key={index}
-        className={`animate-fall animation-delay-[${
-          startingDelay + index * 50
-        }ms] translate-y-[-150%]`}
+        className={`animate-fall animation-delay-[${startingDelay + index * 50}ms] translate-y-[-150%]`}
       >
         {letter}
       </span>
@@ -205,9 +276,7 @@ const TypographyAnimation = () => {
       <div className="flex flex-row">{renderWordAnimation(firstWord, 0)}</div>
 
       <span className="absolute top-0 bottom-0">
-        <div className="flex flex-row">
-          {renderWordAnimation(secondWord, 1500)}
-        </div>
+        <div className="flex flex-row">{renderWordAnimation(secondWord, 1500)}</div>
       </span>
     </span>
   );

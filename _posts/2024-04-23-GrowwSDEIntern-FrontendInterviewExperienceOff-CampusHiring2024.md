@@ -3,17 +3,13 @@ title: "Groww 프런트엔드 인턴 면접 경험  오프캠퍼스 채용 2024"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Groww SDE Intern-Frontend Interview Experience  Off-Campus Hiring 2024"
 link: "https://medium.com/@aomkarg2003/groww-sde-intern-frontend-interview-experience-off-campus-hiring-2024-92f6243a5344"
 isUpdated: true
 ---
-
-
-
-
 
 ![image](https://miro.medium.com/v2/resize:fit:1400/0*mMZOc4HhktXHlCaA.gif)
 
@@ -23,7 +19,18 @@ Groww는 투자 플랫폼으로, 사용자들이 투자할 최적의 상호펀�
 
 이력서 심사 후에, 3일의 시간 제한 내에 확인 게이트웨이를 만들어야 했던 과제를 받았어요. 주어진 과제에 대한 합리적인 시간이었지만 배포 문제로 인해 과제를 두 날 늦게 제출했습니다. 상황에 맞는 이유와 직면한 문제를 설명해 늦게 제출했어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 과제를 완수하기 위해 필요한 기술 세트는 다음과 같았습니다:
 
@@ -38,7 +45,18 @@ Groww는 투자 플랫폼으로, 사용자들이 투자할 최적의 상호펀�
 
 기술 면접 준비 기간은 2일이었습니다. 면접은 양쪽에서 일반 소개로 시작되었고 회사에 대해 논의하고 처음에는 편안하게 만들기 위해 몇 가지 기본 질문이 있었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 면접관은 지원적이고 친절했어요. 과제 토론으로 시작했는데 (제출한 과제의 코드를 명확히 이해해야 해요), 개선할 점에 대해 물어봤어요. 제 과제에서 특정 기능을 구현하는 대안적인 방법 몇 가지를 지적해주셨고, 배포된 사이트를 안내해달라고 요청도 했어요. 대화와 질문은 이렇게 진행됐어요 —.
 
@@ -63,7 +81,18 @@ snippet();
 - 출력을 추측하고 0, 1, 2, 3...이 순서대로 출력되도록 두 가지 접근 방법을 제안해야 했어요.
 - 마지막에는 일정 기간 후에 만료되도록 로컬 스토리지에 자격 증명을 저장하는 로그인 기능을 코딩해보라는 요청도 받았어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 시점에서 이미 1.5 시간 이상이 소요되었고 모든 질문에 대해 코드 샌드박스에서 코드를 작성해야 했습니다. 화면을 공유하면서 진행되었습니다.
 
@@ -73,7 +102,18 @@ snippet();
 
 그것은 문화 적합성 라운드였습니다. 면접관은 매우 침착했고 서로 대화를 나누며 다음과 같은 질문에 대해 이야기했습니다: -
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Groww에 가입하고 싶은 이유는 무엇인가요?
 - 이전 라운드에서의 경험은 어땠나요? 어떤 순간이 어려웠나요?
@@ -93,7 +133,18 @@ snippet();
 - 인터뷰에서 질문에 대한 깊이 있는 생각 과정을 설명해야 하며 최종 결과물뿐만 아니라 아이디어를 나누어주세요.
 - 답변할 때 참여도를 유지하고 소리내어 생각을 표현해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 면접 준비를 잘 하길 바래요! 내가 만든 첫 번째 기사를 준비했어, 도움이 되었으면 좋겠어. 좋았다면 좋아요 눌러주시고, 의견을 댓글로 공유해주세요!
 더 많은 팁이 필요하다면 링크드인이나 트위터로 연락해주세요.

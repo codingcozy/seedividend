@@ -3,16 +3,13 @@ title: "Nodejs는 빠르다고 하면 어떻게 생각하시나요"
 description: ""
 coverImage: "/assets/img/2024-06-20-WhatdoyouthinkwhenIsayNodejsisfast_0.png"
 date: 2024-06-20 01:36
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-WhatdoyouthinkwhenIsayNodejsisfast_0.png
 tag: Tech
 originalTitle: "What do you think when I say Node.js is fast?"
 link: "https://medium.com/@hoaitx/what-do-you-think-when-i-say-node-js-is-fast-1acf8a40ffc9"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-06-20-WhenYouHearNodejsIsFast_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 따라서, Node.js는 정말로 얼마나 빠를까요? 이 글에서는 "Node.js가 빠르다"라는 문제에 대한 내 견해를 제시하겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 먼저, 대부분의 사람들이 Node.js가 빠르다고 결론 내릴 때 자주 언급하는 메커니즘을 살펴보겠습니다.
 
@@ -32,7 +40,18 @@ Node.js는 비동기 작업을 처리하기 위해 이벤트 루프를 통해 �
 
 이 개념을 이해하기 위해, PHP와 같이 단일 스레드 모델을 따르지 않는 언어를 생각해보십시오. 각 연결에 대해 PHP는 처리하기 위한 스레드를 생성합니다. 명백하게, 서버는 생성된 각 스레드에 대해 CPU 및 메모리와 같은 자원을 할당해야 합니다. 이제 여러 요청이 전송될 때 무슨 일이 발생하는지 상상해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 모델은 Node.js에 일부 이점을 제공합니다. 리소스 소비를 최소화하기 위해 스레드 수를 줄이면서도 많은 수의 동시 요청을 처리할 수 있습니다.
 
@@ -42,7 +61,18 @@ Node.js는 비동기 작업을 처리하기 위해 이벤트 루프를 통해 �
 
 걱정하지 마세요, 왜냐하면 Node.js의 강점 중 하나는 비동기 I/O를 처리할 수 있는 능력입니다. 특정 수의 요청을 거의 동시에 처리할 수 있습니다. 그러나 Node.js는 각 요청에 차례로 응답하며, 이 프로세스는 보통 매우 빠르게 진행됩니다. PHP에서는 스레드가 독립적이기 때문에 편안하게 결과를 동시에 반환할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # V8 Engine
 
@@ -52,7 +82,18 @@ Node.js를 언급할 때 V8 엔진을 무시할 수 없어요. 이 도구는 JS 
 
 Node.js가 특히 API 시스템, 채팅과 같은 실시간 애플리케이션, 또는 많은 I/O를 필요로 하는 작업과 같은 특정 시나리오에 적합하다고 누군가 추천했다는 소문을 들었을 수 있어요. 하지만 Node.js의 처리 속도를 칭찬하는 글은 매우 드물죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 성능은 많은 동시 요청을 처리할 때 모든 언어 또는 플랫폼에 대한 고민입니다. 각 언어는 특정 문제를 해결하기 위해 만들어졌습니다. 따라서 Node.js가 빠르다고 말하는 것은 정확하지 않습니다. 오히려 Node.js가 적절한 선택인 경우와 그 이유를 평가해야 합니다.
 
@@ -62,7 +103,18 @@ Node는 JS 실행 환경을 제공하며, JS는 프로그래밍 언어 분야에
 
 결론적으로, 강력한 언어 또는 플랫폼을 결정하는 것은 개발자의 태도와 커뮤니티 내에서의 보급 범위입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 다른 언어나 플랫폼과의 Node.js 성능 비교
 
@@ -72,7 +124,18 @@ Node는 JS 실행 환경을 제공하며, JS는 프로그래밍 언어 분야에
 
 ![2024-06-20-WhatdoyouthinkwhenIsayNodejsisfast_1.png](/assets/img/2024-06-20-WhatdoyouthinkwhenIsayNodejsisfast_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터베이스 쿼리 속도 테스트를 위해 fastify-mysql은 9,383 req/s를 처리할 수 있으나, 여전히 C#이 달성한 20,000 이상의 응답 속도에는 훨씬 못 미칩니다.
 
@@ -82,6 +145,17 @@ Node는 JS 실행 환경을 제공하며, JS는 프로그래밍 언어 분야에
 
 본 글에서는 “Node.js가 빠르다”고 말할 때 무슨 의미인지 밝히고자 합니다. 동시에 각 언어나 플랫폼에는 존재 이유가 있으며, 그들의 속도를 비교하는 것이 모든 강점을 반영하지는 않는다는 점을 강조하고자 합니다. 대신, 우리는 각각의 강점과 약점을 이해하고 문제에 적절히 적용해야 한다는 것을 이해해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어떻게 생각하세요? Node.js가 정말 "빠르다"고 생각하시나요? 아래 댓글로 의겢을 나누어 주세요!

@@ -3,16 +3,13 @@ title: "CSS Clip Path로 쉽게 도형 만들기 - 자세한 방법"
 description: ""
 coverImage: "/assets/img/2024-07-12-GeneratingShapeswithCSSClipPathisEasy_0.png"
 date: 2024-07-12 19:20
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-12-GeneratingShapeswithCSSClipPathisEasy_0.png
 tag: Tech
 originalTitle: "Generating Shapes with CSS Clip Path is Easy!"
 link: "https://medium.com/@novoselski/generating-shapes-with-css-clip-path-is-easy-ec4176f796ff"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-07-12-GeneratingShapeswithCSSClipPathisEasy_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 아티스트가 마법 가위를 가지고 있다고 상상해보세요. CSS 클립 경로는 바로 그 마법 도구입니다. 당신이 원하는 모양의 요소 일부를 잘라내도록 허용합니다. 완벽한 원, 신기한 다각형 또는 화면을 가로지르는 파도든, 클립 경로를 통해 모든 것이 가능해집니다. 간단한 예제부터 시작해보죠:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .element {
@@ -36,7 +44,18 @@ isUpdated: true
 
 더 깊이 들어갈수록, clip-path가 제공하는 다양한 모양들을 즐기실 수 있을 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1. Circle: 태양이나 달을 만드는 것처럼 circle(반지름 중앙-x 중앙-y)를 사용하세요.
 2. Ellipse: 타원 모양 거울을 상상해 보세요, ellipse(rx ry at cx cy)를 사용하세요.
@@ -53,7 +72,18 @@ isUpdated: true
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다각형을 사용하면 다이아몬드의 점을 정의하고 각 좌표 쌍이 마법 가위를 이끌게 합니다.
 
@@ -65,7 +95,18 @@ isUpdated: true
 - 성능 향상: 이미지 대신 CSS를 사용하여 사이트의 부담을 줄이고 더 빠르고 효율적으로 만들 수 있습니다.
 - 상호 작용 강화: 디자인에 생명을 불어넣으세요. 모양을 애니메이션화하고 상호 작용 요소를 만들어 관객을 끌어드릴 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # CSS 클립 경로로 파도 생성하기
 
@@ -75,7 +116,18 @@ isUpdated: true
 
 즐거운 코딩하세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이런 심도 있는 가이드를 만들려면 시간과 헌신이 필요하죠. 그리고 네, 커피도 많이 필요해요! 만약 이 기사나 다른 기사들이 개발자 여정에 가치를 더했다면, 감사의 표시로 보여주세요.
 

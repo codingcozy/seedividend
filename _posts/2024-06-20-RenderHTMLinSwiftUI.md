@@ -3,16 +3,13 @@ title: "SwiftUI에서 HTML 렌더링하기"
 description: ""
 coverImage: "/assets/img/2024-06-20-RenderHTMLinSwiftUI_0.png"
 date: 2024-06-20 03:39
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-RenderHTMLinSwiftUI_0.png
 tag: Tech
 originalTitle: "Render HTML in SwiftUI"
 link: "https://medium.com/@thomsmed/rendering-html-in-swiftui-65e883a63571"
 isUpdated: true
 ---
-
-
-
 
 ## NSAttributedString, UITextView 및 UIViewRepresentable를 사용하여 SwiftUI에서 HTML 렌더링하기.
 
@@ -22,7 +19,18 @@ SwiftUI는 멋지지만 여전히 기능이 부족한 것이 많습니다. 몇 �
 
 이 글에서는 SwiftUI를 UIViewRepresentable을 사용하여 UIKit과 연결하고, HTML을 렌더링하는 사용자 정의 SwiftUI View를 만드는 방법을 간단히 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 업데이트: 원본 기사 개선 사항
 
@@ -34,7 +42,18 @@ SwiftUI는 멋지지만 여전히 기능이 부족한 것이 많습니다. 몇 �
 - NSAttributedString (UITextView를 통해)의 강력한 기능을 노출할 수 있으며, 현재 SwiftUI 세계에는 동등한 것이 없습니다 (하지만 AttributedString는 좋은 후보일 수 있음).
 - 스타일이 지정된 HTML 형식의 NSAttributedStrings는 UIViewRepresentable에 의해 관리되는 UITextView에 의해 렌더링될 수 있습니다. HTML 형식의 텍스트에서 일부 CSS 스타일 속성을 인라인으로 정의하거나 HTML 형식의 텍스트의 전용 스타일 태그로 정의할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사에서 사용된 완성된 예제 코드는 GitHub에서 찾을 수 있어요: https://github.com/thomsmed/ios-examples/tree/main/SwiftUIHTML.
 
@@ -44,7 +63,18 @@ SwiftUI가 처음 발표됐을 때는 기존 UIKit 뷰를 SwiftUI 뷰 계층구�
 
 이러한 API 중 하나는 UIViewRepresentable 프로토콜인데요, SwiftUI의 컨텍스트에서 UIKit 뷰를 관리하는 데 사용돼요. Apple은 이 프로토콜과 다른 SwiftUI와 UIKit을 연결하는 프로토콜을 통해 이를 통한 가능성을 보여주는 멋진 WWDC 비디오를 제공했어요. 적어도 'Integrating SwiftUI'를 확인해보시기를 권해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## AttributedText
 
@@ -54,7 +84,18 @@ NSAttributedString을 스타일링된 상태로 초기화하려면 NSAttributedS
 
 UIViewRepresentable 프로토콜을 사용하여 NSAttributedString 및 UITextView의 기능을 SwiftUI에 사용되는 사용자 지정 AttributedText View로 노출시킬 것입니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```swift
 import SwiftUI
@@ -174,7 +215,18 @@ private extension UIColor {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 NSAttributedString은 일부 CSS 기능을 지원합니다 (안타깝게도 어딘가 제대로 문서화되지 않은 기능들이 있습니다), 하지만 인라인 및 별도의 태그 내에서 스타일을 정의하는 것이 가능합니다 (일반적으로 HTML head 태그의 일부로).
 
@@ -209,7 +261,18 @@ struct ContentView: View {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 보너스: 테마별 HTML 렌더링
 
@@ -219,52 +282,60 @@ struct ContentView: View {
 
 사용자 정의 테마 환경 값
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 Markdown 형식으로 테이블 태그를 변경한 코드입니다.
-
 
 import SwiftUI
 
 // Example of a simple Theme struct.
 struct Theme {
-    let textPrimary: UIColor
-    let textSecondary: UIColor
-    let textInteractive: UIColor
+let textPrimary: UIColor
+let textSecondary: UIColor
+let textInteractive: UIColor
 }
 
 extension Theme {
-    static let `default` = Theme(
-        textPrimary: .label,
-        textSecondary: .secondaryLabel,
-        textInteractive: .systemGreen
-    )
+static let `default` = Theme(
+textPrimary: .label,
+textSecondary: .secondaryLabel,
+textInteractive: .systemGreen
+)
 }
 
 private struct ThemeEnvironmentKey: EnvironmentKey {
-    static var defaultValue: Theme = .default
+static var defaultValue: Theme = .default
 }
 
 extension EnvironmentValues {
-    var theme: Theme {
-        get { self[ThemeEnvironmentKey.self] }
-        set { self[ThemeEnvironmentKey.self] = newValue }
-    }
+var theme: Theme {
+get { self[ThemeEnvironmentKey.self] }
+set { self[ThemeEnvironmentKey.self] = newValue }
+}
 }
 
-
 NSAttributedString을 위한 편리한 이니셜라이저
-
 
 import UIKit
 
 extension NSAttributedString {
-    static func themedHtml(withBody body: String, theme: Theme = .default) -> NSAttributedString {
-        // Match the HTML `lang` attribute to current localisation used by the app (aka Bundle.main).
-        let bundle = Bundle.main
-        let lang = bundle.preferredLocalizations.first
-            ?? bundle.developmentLocalization
-            ?? "en"
+static func themedHtml(withBody body: String, theme: Theme = .default) -> NSAttributedString {
+// Match the HTML `lang` attribute to current localisation used by the app (aka Bundle.main).
+let bundle = Bundle.main
+let lang = bundle.preferredLocalizations.first
+?? bundle.developmentLocalization
+?? "en"
 
         return (try? NSAttributedString(
             data: """
@@ -308,16 +379,17 @@ extension NSAttributedString {
             documentAttributes: nil
         )) ?? NSAttributedString(string: body)
     }
+
 }
 
 // MARK: Converting UIColors into CSS friendly color hex string
 
 private extension UIColor {
-    var hex: String {
-        var red: CGFloat = 0
-        var green: CGFloat = 0
-        var blue: CGFloat = 0
-        var alpha: CGFloat = 0
+var hex: String {
+var red: CGFloat = 0
+var green: CGFloat = 0
+var blue: CGFloat = 0
+var alpha: CGFloat = 0
 
         getRed(&red, green: &green, blue: &blue, alpha: &alpha)
 
@@ -329,13 +401,23 @@ private extension UIColor {
             lroundf(Float(alpha * 255))
         )
     }
-}
 
+}
 
 SwiftUI에서 테마가 적용된 HTML 렌더링하기
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```swift
 import SwiftUI

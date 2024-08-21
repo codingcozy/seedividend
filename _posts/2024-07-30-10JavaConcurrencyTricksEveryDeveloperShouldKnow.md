@@ -3,16 +3,13 @@ title: "모든 개발자가 알아야 할 10가지 Java 동시성 트릭"
 description: ""
 coverImage: "/assets/img/2024-07-30-10JavaConcurrencyTricksEveryDeveloperShouldKnow_0.png"
 date: 2024-07-30 17:14
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-30-10JavaConcurrencyTricksEveryDeveloperShouldKnow_0.png
 tag: Tech
 originalTitle: "10 Java Concurrency Tricks Every Developer Should Know"
 link: "https://medium.com/dev-genius/10-java-concurrency-tricks-every-developer-should-know-4961c3077302"
 isUpdated: true
 ---
-
-
-
 
 ![Java concurrency](/assets/img/2024-07-30-10JavaConcurrencyTricksEveryDeveloperShouldKnow_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 스레드를 수동으로 생성하고 관리하는 것은 오류를 발생시키기 쉽고 비효율적일 수 있습니다. Executor Framework는 스레드 풀을 관리하기 위한 더 높은 수준의 API를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 ExecutorService executor = Executors.newFixedThreadPool(10);
@@ -45,7 +53,18 @@ Future<Integer> future = executor.submit(task);
 Integer result = future.get(); // 결과가 사용 가능할 때까지 블록됩니다
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 3. 간단한 동기화를 위해 synchronized를 활용하세요
 
@@ -67,7 +86,18 @@ public class Counter {
 
 ## 4. 동기화 블록으로 최적화하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 세밀한 제어를 위해 동기화 블록을 사용하여 코드의 중요한 부분만 잠그세요.
 
@@ -94,7 +124,18 @@ public class Counter {
 
 데드락을 피하려면 항상 동일한 순서로 잠금을 확보하세요. 예를 들어, 두 스레드가 A와 B를 잠그어야하는 경우, 두 스레드가 A를 B보다 먼저 잠그도록 해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 6. 고급 잠금 요구 사항에 ReentrantLock 사용하기
 
@@ -112,7 +153,18 @@ try {
 
 ## 7. volatile 키워드를 사용하여 스레드 안전성 구현하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `volatile` 키워드를 사용하여 변수의 값이 항상 메인 메모리에서 읽히고 작성되도록 보장하세요. 스레드의 로컬 캐시가 아닌 메인 메모리에서 값을 읽고 쓰도록 합니다.
 
@@ -124,7 +176,18 @@ private volatile boolean flag = true;
 
 가능한 경우 응용 프로그램을 설계할 때 공유 가능한 가변 상태를 피하도록 합니다. 스레드 내에서 불변 객체나 로컬 변수를 사용하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 9. BlockingQueue을 사용하여 생산자-소비자 시나리오를 구현하세요.
 
@@ -155,7 +218,18 @@ consumer.start();
 
 ## 10. 동시성 프로파일링과 모니터링하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 동시성 코드의 성능을 모니터링하기 위해 VisualVM이나 Java Flight Recorder와 같은 프로파일링 도구를 사용해보세요. 스레드 경핟, 데드락, 높은 CPU 사용량과 같은 문제점에 주목하세요.
 

@@ -3,17 +3,13 @@ title: "HTML, CSS 및 JavaScript로 대화식 퀴즈 만들기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Building an Interactive Quiz with HTML, CSS, and JavaScript"
 link: "https://medium.com/@codepicker57/building-an-interactive-quiz-with-html-css-and-javascript-efe9bd8129e2"
 isUpdated: true
 ---
-
-
-
-
 
 이 블로그 포스트에서는 HTML, CSS 및 JavaScript를 사용하여 대화형 퀴즈를 만드는 방법을 살펴보겠습니다. 퀴즈는 사용자들을 참여시키고 다양한 주제에 대한 지식을 테스트하는 훌륭한 방법입니다. 퀴즈의 구조화 과정, 사용자 인터페이스 디자인, 그리고 점수 부여 및 피드백을 위한 JavaScript 로직 구현에 대해 다룰 것입니다. 함께 흥미로운 퀴즈 경험을 만들어 보세요!
 
@@ -25,7 +21,18 @@ isUpdated: true
 단계 2: CSS로 퀴즈 스타일링하기
 (예: 스타일.css) CSS 파일을 생성하여 퀴즈 요소를 원하는대로 스타일링합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/BuildinganInteractiveQuizwithHTMLCSSandJavaScript_1.png)
 
@@ -37,7 +44,18 @@ isUpdated: true
 단계 4: 퀴즈를 사용자 정의하기
 자신의 질문, 옵션 및 정답으로 퀴즈 데이터 배열을 JavaScript 파일에서 업데이트하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 style.css 파일에서 CSS 스타일을 수정하여 원하는 디자인에 맞게 변경할 수도 있어요.
 
@@ -47,7 +65,18 @@ style.css 파일에서 CSS 스타일을 수정하여 원하는 디자인에 맞�
 
 ![BuildinganInteractiveQuizwithHTMLCSSandJavaScript_3](/assets/img/BuildinganInteractiveQuizwithHTMLCSSandJavaScript_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <!DOCTYPE html>
@@ -179,6 +208,17 @@ showQuestion();
 
 HTML, CSS, JavaScript를 이용하여 인터랙티브 퀴즈를 만드는 방법에 대한 가이드를 읽어주셔서 감사합니다! 여러분이 자신만의 매력적인 퀴즈를 만드는 데 도움이 되었으면 좋겠어요. 추가 질문이 있으시면 자유롭게 [댓글]로 물어보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 행복한 코딩하세요!

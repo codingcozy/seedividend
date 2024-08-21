@@ -3,17 +3,13 @@ title: "리액트 코드 작성 방식을 뒤바꾼 React19"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "React 19 How React Compiler Will Take Your Code to the Next Level"
 link: "https://medium.com/@malikchohra/react-19-how-react-compiler-will-take-your-code-to-the-next-level-8a89702d8860"
 isUpdated: true
 ---
-
-
-
-
 
 # 소개
 
@@ -23,7 +19,18 @@ React 19의 매우 기대되는 릴리스는 React 코드 작성 방식을 혁�
 
 # 새로운 React가 예전 방식에 어떤 영향을 줄까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React 19에 추가된 주요 변경 사항은 다음과 같습니다:
 
@@ -33,7 +40,18 @@ React 19에 추가된 주요 변경 사항은 다음과 같습니다:
 
 ### forwardRef:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트 컴파일러 방식에서 ref는 컴포넌트 계층 구조를 통해 전달할 수 있는 일반 prop으로 변환됩니다. 이는 ref의 사용을 간소화시켜주며, 다른 prop과 마찬가지로 처리되어 forwardRef 래퍼가 필요하지 않습니다.
 
@@ -43,7 +61,18 @@ React 19에 추가된 주요 변경 사항은 다음과 같습니다:
 
 ## useContext:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트 컴파일러는 useContext 훅을 대체하기 위한 새로운 use(Context) 훅을 소개합니다. 이 훅을 사용하면 컴포넌트 내에서 컨텍스트 값을 간단하게 사용할 수 있으며, 컴파일러가 보일러플레이트 코드를 줄이는 것을 목표로 하고 있습니다.
 
@@ -53,7 +82,18 @@ React 19에 추가된 주요 변경 사항은 다음과 같습니다:
 
 ## `<Context.Provider>`를 `<Context>`로 변경:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기존에는 `Context.Provider`를 사용하여 컨텍스트를 사용하는 컴포넌트를 감싸는 전통적인 접근 방식은 간단한 구문 `Context`로 직접 컴포넌트 트리 내에서 대체되었습니다. 이렇게 하면 컨텍스트를 사용하는 방법이 더 직관적이고 간결해집니다.
 
@@ -63,7 +103,18 @@ React 19에 추가된 주요 변경 사항은 다음과 같습니다:
 
 지금은 이렇게 작성됩니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/React19HowReactCompilerWillTakeYourCodetotheNextLevel_0.png" />
 
@@ -73,7 +124,18 @@ React 19에 추가된 주요 변경 사항은 다음과 같습니다:
 
 PS: App 컨테이너에는 에러 및 로딩 컴포넌트 처리를 포함해야 합니다. 이것은 어떻게 구현되어야 하는지에 대한 예시입니다
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/React19HowReactCompilerWillTakeYourCodetotheNextLevel_2.png" />
 
@@ -83,6 +145,17 @@ PS: App 컨테이너에는 에러 및 로딩 컴포넌트 처리를 포함해야
 
 저는 소셜 미디어에서 React, React Native 및 TypeScript에 관한 소식을 공유하고 있습니다. 최신 정보를 얻으려면 저를 팔로우해주세요. LinkedIn 또는 Medium에서 저를 팔로우하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 #keepLearning #keepGrowing #react #react19

@@ -3,17 +3,13 @@ title: "라라벨 관리자 대시보드 템플릿"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Velonic  Laravel Admin , Dashboard Template Admin Templates Web Templates"
 link: "https://medium.com/@gracegraphics97/velonic-laravel-admin-dashboard-template-admin-templates-web-templates-92511d5dd14e"
 isUpdated: true
 ---
-
-
-
-
 
 ![Velonic Laravel Admin Dashboard Template](/assets/img/VelonicLaravelAdmin-DashboardTemplateAdminTemplatesWebTemplates_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 Velonic — 라라벨 관리자 및 대시보드 템플릿은 멋진 부트스트랩 5.3.0, 현대적인 웹 기술 HTML5, SCSS 및 jQuery를 기반으로 구축된 완벽한 프리미엄 관리자 템플릿입니다. 다양한 사용 가능한 수작업 구성 요소가 많이 있습니다. 이 템플릿은 완전히 반응형이며 쉽게 사용자 정의할 수 있으며 코드도 이해하기 매우 쉽고 개발자에게 이 템플릿을 실제 웹 애플리케이션으로 전환할 수 있는 기능을 제공합니다. 또한 이 키트를 암호화폐, 라라벨, 이메일 및 곧 출시될 것과 함께 사용할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주요 기능:
 
@@ -55,7 +62,18 @@ Velonic — 라라벨 관리자 및 대시보드 템플릿은 멋진 부트스�
 - 라이트 및 다크 사이드바
 - LTR(왼쪽에서 오른쪽) 및 RTL(오른쪽에서 왼쪽) 지원
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 페이지:
 
@@ -101,7 +119,18 @@ Velonic — 라라벨 관리자 및 대시보드 템플릿은 멋진 부트스�
 
 #html #css #부트스트랩 #php #라라벨 #전자상거래 #포트폴리오 #앱 #모바일 #관리자 #리액트 #대시보드 #뷰 #대행사 #페이지
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 파일 유형
 
@@ -111,7 +140,18 @@ HTML, CSS, SASS, JS
 
 추가 정보
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 비슷한 웹 템플릿
 
@@ -121,14 +161,35 @@ HTML, CSS, SASS, JS
 
 Velonic — PHP Admin & Dashboard Template by Techzaa
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Velonic — React Admin & Dashboard Template by Techzaa](/assets/img/VelonicLaravelAdmin-DashboardTemplateAdminTemplatesWebTemplates_2.png)
 
 ![Adminto — Laravel Admin Dashboard Template by coderthemes](/assets/img/VelonicLaravelAdmin-DashboardTemplateAdminTemplatesWebTemplates_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Velonic Laravel Admin Dashboard Template](/assets/img/VelonicLaravelAdmin-DashboardTemplateAdminTemplatesWebTemplates_4.png)
 
@@ -138,8 +199,18 @@ Symox - Laravel 9 관리자 및 대시보드 템플릿 by themesdesign
 
 더 보기
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![VelonicLaravelAdmin-DashboardTemplateAdminTemplatesWebTemplates_5](/assets/img/VelonicLaravelAdmin-DashboardTemplateAdminTemplatesWebTemplates_5.png)
 
@@ -149,7 +220,18 @@ Bootstrap 5 UI Kit & Admin Dashboard — Techmin by Techzaa
 
 Velonic — React Admin & Dashboard Template by Techzaa
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/VelonicLaravelAdmin-DashboardTemplateAdminTemplatesWebTemplates_7.png)
 

@@ -3,16 +3,13 @@ title: "2024년 Docker 애플리케이션 개발 현황 보고서 주요 인사�
 description: ""
 coverImage: "/assets/img/2024-07-09-The2024DockerStateofApplicationDevelopmentReportKeyInsights_0.png"
 date: 2024-07-09 11:05
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-The2024DockerStateofApplicationDevelopmentReportKeyInsights_0.png
 tag: Tech
 originalTitle: "The 2024 Docker State of Application Development Report: Key Insights"
 link: "https://medium.com/trukhinyuri/the-2024-docker-state-of-application-development-report-key-insights-02e29bcda5e8"
 isUpdated: true
 ---
-
-
-
 
 도커가 기다려온 2024년 애플리케이션 개발 현황 보고서를 발표했습니다. 2023년 말에 실시된 철저한 설문 조사를 기반으로 한 이 보고서는 1,300여 개 기업의 응답을 담아 산업 내 동향, 도전 과제, 그리고 기회를 밝혀냅니다.
 
@@ -22,10 +19,21 @@ isUpdated: true
 
 조사는 다양한 기업 규모의 참가자들을 대상으로 진행되었습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 100명 이하의 소기업에서 42%,
-- 100명에서 1000명의 중소기업에서 28%, 
+- 100명에서 1000명의 중소기업에서 28%,
 - 1000명 이상의 대기업에서 25%의 응답을 받았어요.
 
 직책 관점에서는 응답자들 중:
@@ -35,7 +43,18 @@ isUpdated: true
 
 덤으로, 응답자들 중 54%가 6년 이상의 경력을 보유하고 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 개발 트렌드
 
@@ -49,7 +68,18 @@ isUpdated: true
 
 ## 학습 및 도구 도입
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 학습 방법에 관한 조사 결과를 발표합니다!
 
@@ -66,9 +96,21 @@ isUpdated: true
 - 컨퍼런스에서: 28%
 - 컨퍼런스에서의 대화를 통해: 25%
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로그래밍 학습에 대한 조사 결과:
+
 - 온라인 자료(동영상, 블로그, 포럼)를 활용하는 비율은 54%입니다.
 - 온라인 강좌 및 자격증을 통해 학습하는 비율은 45%이며, 그 중 64%가 Udemy, 49%가 Coursera, 41%가 freeCodeCamp을 이용합니다.
 
@@ -78,7 +120,18 @@ isUpdated: true
 - 57%는 회사에서 오픈 소스에 기여하는 것을 승인받았으나, 20%는 그렇지 않습니다.
 - 시간 제약이 최대 장벽으로 지적된 비율은 40%입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 마이크로서비스와 컨테이너
 
@@ -92,7 +145,18 @@ isUpdated: true
 - 65%는 테스트에 사용됩니다.
 - 61%는 프로덕션에 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 기술 이용률
 
@@ -106,7 +170,18 @@ isUpdated: true
 - 노트북 사용자 평균 64%
 - 원격 환경 사용자 평균 36%
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리모트 개발 도구(예: JetBrains, Codespaces, Coder)를 사용하는 비율은 8%입니다.
 
@@ -118,10 +193,21 @@ isUpdated: true
 
 # 개발 도전 과제
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 개발 프로세스에서 가장 큰 미해결 문제는 다음과 같습니다:
+
 - 31% : 계획
 - 24% : 예측
 - 22% : 디자인
@@ -131,7 +217,18 @@ isUpdated: true
 
 CI/CD에는:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 62% GitHub Actions
 - 56% GitLab
@@ -145,7 +242,18 @@ CI/CD에는:
 
 모니터링 시:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 61% 프로메테우스
 - 59% 그라파나
@@ -160,7 +268,18 @@ CI/CD에는:
 - 53% 디버깅
 - 51% 배포
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 부정적인 점:
 
@@ -171,7 +290,18 @@ CI/CD에는:
 
 긍정적인 점:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 49%의 시행착오와 위험 감수
 - 48%의 협업
@@ -184,7 +314,18 @@ CI/CD에는:
 
 # 개발에서의 AI
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 40%의 사람들이 GenAI를 중요한 트렌드로 인식합니다.
 - 38%는 AI 어시스턴트를 주요 산업 트렌드로 보고 있습니다.
@@ -203,7 +344,18 @@ AI를 활용하는 분야:
 - 28%는 연구에 활용합니다.
 - 20%는 CLI 작업에 활용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인기 있는 AI 도구:
 
@@ -215,7 +367,18 @@ AI를 활용하는 분야:
 
 # 머신 러닝 (ML)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 46%는 일부 시간을 머신러닝 학습이나 사용에 할애합니다.
 - 54%가 하나 이상의 프로젝트에서 머신러닝 모델을 훈련하고 배포합니다.
@@ -232,7 +395,18 @@ AI를 활용하는 분야:
 
 주요 보안 작업:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 취약점 스캔: 49%
 - 보안 확인: 34%
@@ -249,7 +423,18 @@ AI를 활용하는 분야:
 
 보안 작업을 어려운 또는 매우 어렵다고 느끼는 사람은 34%입니다. 개선이 필요한 영역에는:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 테스트
 - 계획

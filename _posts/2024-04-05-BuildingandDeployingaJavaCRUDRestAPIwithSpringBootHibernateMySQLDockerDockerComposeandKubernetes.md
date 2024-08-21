@@ -3,17 +3,13 @@ title: "Spring Boot, Hibernate, MySQL, Docker, Docker Compose 및 Kubernetes를 
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Building and Deploying a Java CRUD Rest API with Spring Boot, Hibernate, MySQL, Docker, Docker Compose, and Kubernetes"
 link: "https://medium.com/@midejoseph24/building-and-deploying-a-java-crud-rest-api-with-spring-boot-hibernate-mysql-docker-docker-5b7d1847345b"
 isUpdated: true
 ---
-
-
-
-
 
 소개
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 Docker 및 Docker Compose의 통합을 통해 프로젝트가 더 나아가서 휴대성, 일관성 및 다양한 환경에서의 배포 용이성을 보장할 것입니다. 게다가 Kubernetes를 사용하여 배포 측면을 탐구하여 더 많은 확장 가능성과 유지 관리성을 강화할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 안내서는 최신 기술을 사용하여 견고한 CRUD API를 성공적으로 구현하는 데 도움이 되는 단계별 지침, 모범 사례 및 통찰을 제공합니다.
 
@@ -37,7 +44,18 @@ Docker 및 Docker Compose의 통합을 통해 프로젝트가 더 나아가서 �
 
 요구사항:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 스프링 이니셜라이저: Spring Initializr
 - 자바: Oracle에서 Java 다운로드 | Oracle
@@ -56,7 +74,18 @@ Docker 및 Docker Compose의 통합을 통해 프로젝트가 더 나아가서 �
 - 서비스 레이어: 비즈니스 로직을 처리합니다.
 - 레포지토리 레이어: 데이터베이스와 통신하고 클라이언트에게 응답을 보냅니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 알림: 소스 코드는 내 Github 저장소로 이동하세요.
 
@@ -75,7 +104,18 @@ Lombok: 세터와 게터를 정의하기 위해
 
 ![이미지](/assets/img/BuildingandDeployingaJavaCRUDRestAPIwithSpringBootHibernateMySQLDockerDockerComposeandKubernetes_0.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - "Generate"을 클릭하여 패키지를 생성하고 원하는 폴더에 저장하세요.
 - zip 폴더가 생성됩니다. IntelliJ에서 해당 폴더를 가져오려면 IDE에서 가져오기 폴더를 클릭하면 됩니다.
@@ -87,7 +127,18 @@ Lombok: 세터와 게터를 정의하기 위해
 
 Model 패키지에 대해: 모델 패키지를 클릭하고 Product라는 Java 클래스를 선택하여 클래스를 생성하세요. 아래 코드를 입력하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 코드는 데이터베이스의 엔터티를 나타내는 Product라는 Java 클래스를 정의합니다. 테이블의 열에 해당하는 필드(id, productName, color, price)가 Jakarta Persistence annotations(@Entity, @Table, @Id, @GeneratedValue, @Column)으로 주석이 달려 있으며, Lombok의 @Data 어노테이션을 사용하여 보일러플레이트 코드를 자동 생성합니다. 이 데이터베이스의 관련 테이블의 이름은 "product_inventory"입니다.
 
@@ -97,7 +148,18 @@ Model 패키지에 대해: 모델 패키지를 클릭하고 Product라는 Java �
 
 (ProductController.java)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 코드는 제품을 관리하기 위한 CRUD 작업 (생성, 읽기, 업데이트, 삭제)를 수행하는 Spring Boot REST 컨트롤러인 ProductController를 정의합니다. 이 컨트롤러는 제품을 삽입, 검색, 업데이트, 삭제하는 등 데이터베이스 작업을 수행하기 위해 ProductService와 상호 작용합니다. 엔드포인트에는 제품을 저장하고, ID로 단일 제품을 가져오고, 모든 제품을 나열하고, 제품을 업데이트하고, 제품을 삭제하며, SQL 문을 사용하여 이름으로 제품을 검색하는 기능이 포함되어 있습니다.
 
@@ -107,7 +169,18 @@ Model 패키지에 대해: 모델 패키지를 클릭하고 Product라는 Java �
 
 다음으로, 리포지토리 패키지를 생성합니다: 리포지토리 패키지에서 인터페이스를 만들고, 해당 패키지에서 인터페이스를 선택한 후 ProductRepository로 이름을 지정하세요. 데이터베이스와 상호 작용하기 위한 기본 코드입니다. 아래 코드를 입력하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 코드는 ProductRepository라는 Spring Data JPA 리포지토리 인터페이스를 정의합니다. ProductRepository는 JpaRepository를 확장합니다. 이 인터페이스는 Product 엔티티에 대한 기본 CRUD 작업을 제공하며 @Query로 주석이 달린 getProductsByName이라는 사용자 정의 메소드를 포함하고 있습니다. 이를 통해 네이티브 SQL 쿼리를 사용하여 이름별 제품 목록을 검색할 수 있습니다.
 
@@ -119,7 +192,18 @@ Model 패키지에 대해: 모델 패키지를 클릭하고 Product라는 Java �
 CREATE database store_database
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 다음으로 'product_inventory' 테이블을 생성하고 아래와 같이 필요한 필드를 정의하세요:
 
@@ -137,7 +221,18 @@ price INT
 
 그 다음으로 자바 코드에서 데이터베이스 이름과 테이블 이름을 지정하세요. 리소스 폴더로 이동하여 'application.properties' 파일을 찾고 아래 코드를 입력하세요. 참고: 데이터베이스 사용자 이름과 암호를 입력하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `application.properties` 파일은 SQL 데이터베이스에 연결되는 Spring Boot 애플리케이션을 위해 데이터 소스와 ORM 프레임워크를 구성하는 데 사용됩니다.
 
@@ -147,7 +242,18 @@ price INT
 
 ![image](/assets/img/BuildingandDeployingaJavaCRUDRestAPIwithSpringBootHibernateMySQLDockerDockerComposeandKubernetes_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Postman에서 경로를 테스트하세요.
 
@@ -157,7 +263,18 @@ price INT
 
 200 응답이 반환됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새 제품 추가: 아래와 같은 본문을 요청 본문으로 하는 POST 요청을 통해 localhost:8080/product에 새 제품을 데이터베이스에 추가해보세요:
 
@@ -167,7 +284,18 @@ price INT
 
 데이터베이스를 확인해보세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/BuildingandDeployingaJavaCRUDRestAPIwithSpringBootHibernateMySQLDockerDockerComposeandKubernetes_6.png)
 
@@ -179,7 +307,18 @@ price INT
 
 ![이미지](/assets/img/BuildingandDeployingaJavaCRUDRestAPIwithSpringBootHibernateMySQLDockerDockerComposeandKubernetes_7.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - pom.xml 파일을 검색하고 아래에 표시된대로 빌드 태그 아래에 원하는 이름으로 `finalName` 태그를 입력하세요:
 
@@ -189,7 +328,18 @@ price INT
 
 ![이미지](/assets/img/BuildingandDeployingaJavaCRUDRestAPIwithSpringBootHibernateMySQLDockerDockerComposeandKubernetes_9.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 다음과 같이 target 디렉토리 아래에서 jar 파일을 찾을 수 있습니다:
 
@@ -197,7 +347,18 @@ price INT
 
 이제 Docker를 사용하여 데이터베이스를 Spring 앱과 연결해 봅시다. 먼저 앱과 데이터베이스를 Docker화하고, Docker Compose를 사용하여 실행합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 애플리케이션 루트 수준에서 Dockerfile(대문자 "D")이라는 파일을 만들고 다음과 같이 채워 넣어 주세요:
 
@@ -218,7 +379,18 @@ ENTRYPOINT ["java", "-jar", "app-v2.jar"]
 
 도커 파일로부터 도커 이미지를 빌드해 주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 도커 빌드 -t dev-app-image .
@@ -233,7 +405,18 @@ ENTRYPOINT ["java", "-jar", "app-v2.jar"]
 
 이제 MySQL 데이터베이스 도커 파일을 생성해 봅시다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 공식 MySQL 도커 이미지 사용
@@ -261,7 +444,18 @@ docker build -t my-sql-image .
 
 이미지를 Dockerhub에 푸시하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 도커 태그 my-sql-image:latest midejoe/java-api:mysql
@@ -276,7 +470,18 @@ MySQL 이미지의 인스턴스를 실행합니다.
 
 MySQL 서버에 로그인하여 비밀번호를 입력하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 도커 exec -it my-sql-server mysql -u dbuser -p
@@ -291,7 +496,18 @@ MySQL 서버에 로그인하여 비밀번호를 입력하세요.
 CREATE DATABASE store_database;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터베이스를 표시해보세요:
 
@@ -305,7 +521,18 @@ SHOW DATABASES;
 use store_database;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리의 java_api를 위한 테이블을 만들어 보겠습니다:
 
@@ -322,7 +549,18 @@ price INT
 
 이제, java API의 "application.properties" (src/main/resources/application.properties) 파일에서 mysql 컨테이너 URL을 수정해 봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 spring.datasource.url=${DATABASE_URL}
@@ -338,7 +576,18 @@ spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
 
 참고: java 앱은 mysql 컨테이너가 시작될 때까지 기다려야 하므로, java 앱 컨테이너는 첫 번째 시도에서 실패할 수 있습니다. mysql 데이터베이스에 연결을 완료하려면 docker compose up 명령을 다시 실행할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 버전: ‘3’
@@ -370,7 +619,18 @@ docker-compose -f docker_compose.yml up
 
 아래와 같은 출력이라면 준비된 것입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/BuildingandDeployingaJavaCRUDRestAPIwithSpringBootHibernateMySQLDockerDockerComposeandKubernetes_11.png)
 
@@ -382,7 +642,18 @@ docker ps -a
 
 아래와 같은 결과가 나와야 해요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/BuildingandDeployingaJavaCRUDRestAPIwithSpringBootHibernateMySQLDockerDockerComposeandKubernetes_12.png" />
 
@@ -392,7 +663,18 @@ docker ps -a
 
 헬스 체크
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # GET 방법:
@@ -408,7 +690,18 @@ curl -X POST -H “Content-Type: application/json” -d ‘{“productName”: �
 
 ![이미지](/assets/img/BuildingandDeployingaJavaCRUDRestAPIwithSpringBootHibernateMySQLDockerDockerComposeandKubernetes_13.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또 하나 만들어보겠습니다:
 
@@ -421,7 +714,18 @@ curl -X POST -H "Content-Type: application/json" -d '{"productName": "product2",
 
 아이디로 제품 읽기:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # GET 방법:
@@ -436,7 +740,18 @@ curl -X GET ‘http://localhost:8080/product?productId=1'
 curl http://localhost:8080/products
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래와 같이 제품 이름으로 제품을 얻으세요:
 
@@ -446,7 +761,18 @@ curl “http://localhost:8080/products-by-name?productName=product1"
 
 ![img](/assets/img/BuildingandDeployingaJavaCRUDRestAPIwithSpringBootHibernateMySQLDockerDockerComposeandKubernetes_17.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제품 업데이트: 첫 번째로 만든 제품을 업데이트해 봅시다.
 
@@ -459,7 +785,18 @@ curl “http://localhost:8080/products-by-name?productName=product1"
 
 제품 삭제: productId를 사용하여 추가한 두 번째 제품을 삭제합시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 curl -X DELETE “http://localhost:8080/product?productId=2"
@@ -471,7 +808,18 @@ curl -X DELETE “http://localhost:8080/product?productId=2"
 
 MySQL 서버에 로그인하고 비밀번호를 입력하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도커를 실행할 때 다음 명령어를 사용하세요.
 
@@ -485,7 +833,18 @@ docker exec -it my-sql-server mysql -u dbuser -p
 
 ![product_inventory 테이블](/assets/img/BuildingandDeployingaJavaCRUDRestAPIwithSpringBootHibernateMySQLDockerDockerComposeandKubernetes_21.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마침내 테이블 안의 항목을 확인해 봅시다
 
@@ -495,7 +854,18 @@ Kubernetes
 
 제공된 Docker Compose 구성을 Kubernetes에 배포하려면 다음 Kubernetes 매니페스트 파일을 생성해 봅시다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 파일을 만들어 mysql-deployment.yaml이라고 이름 짓기
 
@@ -538,7 +908,18 @@ spec:
       targetPort: 3306
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Java CRUD 앱을 위한 배포 YAML 파일을 만들어보세요:
 
@@ -588,7 +969,18 @@ spec:
   type: NodePort
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 쿠버네티스 클러스터(minikube)에 파일을 적용해주세요
 
@@ -603,7 +995,18 @@ kubectl apply -f java-crud-app-service.yaml
 
 ![이미지](/assets/img/BuildingandDeployingaJavaCRUDRestAPIwithSpringBootHibernateMySQLDockerDockerComposeandKubernetes_23.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/BuildingandDeployingaJavaCRUDRestAPIwithSpringBootHibernateMySQLDockerDockerComposeandKubernetes_24.png" />
 
@@ -613,7 +1016,18 @@ curl을 사용하여 응용 프로그램을 테스트해보세요:
 
 여기서 명령은 아래와 같이 보일 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 curl http://<node-ip>:<node-port>/health
@@ -625,7 +1039,18 @@ node-ip은 minikube 클러스터의 IP입니다. IP를 얻으려면 minikube ip 
 
 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리 해냈어요! 우리는 Java로 CRUD rest API를 구축하고 배포했어요. 사용한 기술은 다음과 같아요:
 
@@ -640,6 +1065,17 @@ node-ip은 minikube 클러스터의 IP입니다. IP를 얻으려면 minikube ip 
 
 만약 이 안내서가 도움이 되셨다면 박수 버튼을 눌러 주시거나 댓글을 남겨 주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 흥미로운 이야기를 보시려면 팔로우 해주세요.

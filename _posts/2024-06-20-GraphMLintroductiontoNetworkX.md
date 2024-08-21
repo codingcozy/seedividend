@@ -3,16 +3,13 @@ title: "그래프 ML NetworkX 소개"
 description: ""
 coverImage: "/assets/img/2024-06-20-GraphMLintroductiontoNetworkX_0.png"
 date: 2024-06-20 04:49
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-GraphMLintroductiontoNetworkX_0.png
 tag: Tech
 originalTitle: "Graph ML: introduction to NetworkX"
 link: "https://medium.com/ai-advances/graph-ml-introduction-to-networkx-73e29a9bf40a"
 isUpdated: true
 ---
-
-
-
 
 ## | GRAPH| GRAPH ML| NETWORKX| PYTHON|
 
@@ -22,7 +19,18 @@ NetworkX는 Python에서 그래프를 분석, 시각화 및 표현하는 주요 
 
 이 글에서는 다음을 논의할 것입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - NetworkX를 사용하여 그래프를 다루는 방법
 - 다양한 유형의 그래프 생성 방법
@@ -34,7 +42,18 @@ NetworkX는 Python에서 그래프를 분석, 시각화 및 표현하는 주요 
 
 NetworkX에서 그래프는 일반적으로 객체(클래스)이며 이러한 객체에 적용할 수 있는 다양한 메서드와 함수가 있습니다. 또한 NetworkX는 그래프 데이터 세트를 읽고 객체를 저장하며 다양한 형식으로 저장하는 기능을 제공합니다. 라이브러리는 일부 고전적인 데이터 세트도 제공하여 사용하여 놀 수 있습니다(예: 카라테 클럽 데이터 세트).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또한 NetworkX를 설치하고 사용하는 것이 실제로 쉽다는 것을 알 수 있을 것입니다 (Python의 기본 지식이 필요합니다). NetworkX는 확장성과 이식성으로 유명하며 이러한 이유로 Python에서 그래프를 처리하는 데 가장 많이 사용되는 라이브러리입니다. 이는 NetworkX와 호환되는 다른 데이터 과학자가 작성한 확장 프로그램의 생생한 생태계를 만들어냈습니다 (또는 NetworkX 그래프의 기반으로 사용됩니다).
 
@@ -44,7 +63,18 @@ NetworkX에서 그래프는 일반적으로 객체(클래스)이며 이러한 �
 
 첫 번째 단계는 라이브러리를 가져오는 것입니다 (이미 설치했다고 가정하거나 Colab을 사용 중이면 이미 설치되어 있을 것입니다).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import networkx as nx
@@ -57,39 +87,64 @@ import matplotlib.pyplot as plt
 
 Networkx에서 방향성 있는 그래프나 무방향 그래프를 구축하는 것은 매우 쉽습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 무방향 그래프 G 생성
+
 G = nx.Graph()
 print("그래프 G는 방향이 지정되어 있습니다: {}".format(G.is_directed()))
 
 # 유방향 그래프 H 생성
+
 H = nx.DiGraph()
 print("그래프 H는 방향이 지정되어 있습니다: {}".format(H.is_directed()))
 
 # 엣지와 노드 수 얻기
-G.number_of_nodes(), G.number_of_edges()
 
+G.number_of_nodes(), G.number_of_edges()
 
 ![이미지](/assets/img/2024-06-20-GraphMLintroductiontoNetworkX_2.png)
 
 그래프를 구축한 후 추가 데이터를 수집하여 그래프를 업데이트해야 할 수 있습니다. NetworkX를 사용하면 노드를 추가하거나 다른 그래프를 직접 추가하기 쉽습니다.
 
-
 # 노드 추가
+
 G.add_node(1)
 G.add_nodes_from([2, 3])
+
 # 다른 그래프에서 추가할 수도 있습니다
+
 H = nx.path_graph(3)
 G.add_nodes_from(H)
+
 # 또는 그래프를 직접 추가할 수도 있습니다
+
 G.add_node(H)
 G.number_of_nodes(), G.number_of_edges()
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Graph](/assets/img/2024-06-20-GraphMLintroductiontoNetworkX_3.png)
 
@@ -106,8 +161,18 @@ G.add_edges_from(H.edges())
 
 지금까지 그래프를 요소와 관계의 집합으로 삼았습니다. 노드는 모두 같았고, 관계도 단순한 연결이었습니다. 실제로 이는 축소된 것이며, 노드와 연결은 레이블 또는 기능과 연관될 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, 소셜 네트워크를 만들 때 각 노드에 이름(label, 예: "Bob")을 부여하거나 클래스("스팸" 또는 "스팸 아님")를 지정할 수 있지만 특성(키, 나이, 관심사)도 부여할 수 있습니다. 앞으로 볼 것처럼 노드의 특성은 다양한 알고리즘에서 사용됩니다.
 
@@ -126,14 +191,25 @@ print("노드 0은 다음과 같은 속성을 가지고 있습니다: {}".format
 
 이 경우 몇 개의 노드가 있는 그래프가 있지만, 종종 수천 개 또는 수백만 개의 노드가 있는 경우가 많으므로 더 효율적인 시스템이 필요할 수 있습니다. NetworkX를 사용하면 딕셔너리를 사용할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 여러 노드에 속성을 포함한 노드를 추가할 수 있습니다
 G.add_nodes_from([
   (1, {"feature": 1, "label": 1}),
   (2, {"feature": 2, "label": 2})
-]) 
+])
 
 # 노드를 순회할 수 있습니다
 # 속성을 반환하려면 data=True 인수를 사용합니다
@@ -158,7 +234,18 @@ edge_0_1_attr = G.edges[(0, 1)]
 print("(0, 1) 엣지는 다음과 같은 속성을 가지고 있습니다: {}".format(edge_0_1_attr))
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당연히 노드 단위로 작업할 필요는 없어요:
 
@@ -181,7 +268,18 @@ print("G에는 {}개의 엣지가 있습니다".format(num_edges))
 
 <img src="/assets/img/2024-06-20-GraphMLintroductiontoNetworkX_7.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 좋아요, 이제 멋진 그래프가 있어요! 그래프를 시각화해 보는 건 어떨까요?
 
@@ -194,7 +292,18 @@ nx.draw(G, with_labels=True)
 
 노드가 몇 개의 이웃을 가지고 있는지 알아내는 것은 종종 중요한 정보입니다. 예를 들어, 우리는 그래프를 플로팅하지 않고도 노드가 연결된 다른 노드 수를 알고 싶어합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 node_id = 1
@@ -213,7 +322,18 @@ for neighbor in G.neighbors(node_id):
 
 이전 튜토리얼에서 우리는 그래프 유형이 다양하다는 것을 알 수 있었고 이러한 정보의 많은 부분이 인접 행렬에 요약되어 있다는 것을 알았습니다. 이제 이러한 그래프를 표현하고 시각화할 수 있는 모든 요소를 갖췄습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, 가장 간단한 경우인 무방향 그래프로 시작해 보겠습니다:
 
@@ -224,7 +344,7 @@ G.add_nodes_from([
   (2, {"feature": 2, "label": 2}),
   (3, {"feature": 2, "label": 3}),
   (4, {"feature": 1, "label": 4})
-]) 
+])
 G.add_edges_from([(2, 1), (1, 4), (4, 2), (4,3)])
 # 그래프 그리기
 nx.draw(G, with_labels = True)
@@ -236,7 +356,18 @@ print(A.todense())
 
 <img src="/assets/img/2024-06-20-GraphMLintroductiontoNetworkX_11.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다이렉트 그래프는 다양한 응용 분야에서 사용됩니다. 소셜 네트워크(예: A가 B에게 돈을 빌려줌), 전기 회로, 프로젝트 일정, 운송 등등.
 
@@ -249,7 +380,7 @@ G.add_nodes_from([
   (2, {"feature": 2, "label": 2}),
   (3, {"feature": 2, "label": 3}),
   (4, {"feature": 1, "label": 4})
-]) 
+])
 G.add_edges_from([(2, 1), (1, 4), (4, 2), (4,3)])
 # 그래프 그리기
 A = nx.adjacency_matrix(G)
@@ -259,8 +390,18 @@ nx.draw(G, with_labels = True)
 
 <img src="/assets/img/2024-06-20-GraphMLintroductiontoNetworkX_12.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![그래프](/assets/img/2024-06-20-GraphMLintroductiontoNetworkX_13.png)
 
@@ -273,14 +414,14 @@ G.add_nodes_from([
   (2, {"feature": 2, "label": 2}),
   (3, {"feature": 2, "label": 3}),
   (4, {"feature": 1, "label": 4})
-]) 
+])
 G.add_edges_from([(2, 1, {"weight": 0.5}),
-                  (1, 4, {"weight": 4}), 
-                  (4, 2, {"weight": 0.5}), 
+                  (1, 4, {"weight": 4}),
+                  (4, 2, {"weight": 0.5}),
                   (4,3,  {"weight": 1})])
 # 그래프 그리기
 # 노드
-pos = nx.spring_layout(G, seed=7) 
+pos = nx.spring_layout(G, seed=7)
 A = nx.adjacency_matrix(G)
 print(A.todense())
 nx.draw_networkx_nodes(G, pos, node_size=50)
@@ -292,9 +433,18 @@ nx.draw_networkx_edges(G, pos,  width =width)
 
 ![그래프](/assets/img/2024-06-20-GraphMLintroductiontoNetworkX_14.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-20-GraphMLintroductiontoNetworkX_15.png)
 
@@ -307,7 +457,7 @@ G.add_nodes_from([
   (2, {"feature": 2, "label": 2}),
   (3, {"feature": 2, "label": 3}),
   (4, {"feature": 1, "label": 4})
-]) 
+])
 G.add_edges_from([(2, 1), (1, 4), (4, 2), (4, 3), (4, 4), (2, 2)])
 # 그래프를 그립니다.
 A = nx.adjacency_matrix(G)
@@ -317,8 +467,18 @@ nx.draw(G, with_labels=True)
 
 ![image](/assets/img/2024-06-20-GraphMLintroductiontoNetworkX_16.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-20-GraphMLintroductiontoNetworkX_17.png" />
 
@@ -331,7 +491,7 @@ G.add_nodes_from([
   (2, {"feature": 2, "label": 2}),
   (3, {"feature": 2, "label": 3}),
   (4, {"feature": 1, "label": 4})
-]) 
+])
 G.add_edges_from([(2, 1), (2, 1), (1, 4), (4, 2), (4,3), (4,3), (4,3)])
 A = nx.adjacency_matrix(G)
 print(A.todense())
@@ -355,8 +515,18 @@ plt.axis('off')
 
 <img src="/assets/img/2024-06-20-GraphMLintroductiontoNetworkX_18.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-20-GraphMLintroductiontoNetworkX_19.png)
 
@@ -383,8 +553,18 @@ plt.show()
 
 ![이미지](/assets/img/2024-06-20-GraphMLintroductiontoNetworkX_20.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전 글은 여기에서 찾을 수 있어요. 이 튜토리얼에서 사용된 모든 코드는 여기에서 찾을 수 있어요. 모든 튜토리얼 링크와 코드도 여기에 모아져 있을 거예요.
 
@@ -396,7 +576,18 @@ plt.show()
 
 # 이 내용이 흥미로웠다면:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다른 기사를 찾아보거나 LinkedIn에서 저와 연락할 수도 있어요. 매주 업데이트되는 기계 학습 및 인공 지능 뉴스가 포함된 이 저장소를 확인해보세요. 협업과 프로젝트에 열려 있고 LinkedIn을 통해 저에게 연락할 수 있습니다. 새 이야기를 게시할 때 알림을 받고 싶다면 무료로 구독할 수도 있어요.
 

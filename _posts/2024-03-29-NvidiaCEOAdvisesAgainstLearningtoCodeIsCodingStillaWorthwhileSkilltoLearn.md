@@ -3,17 +3,13 @@ title: "Nvidia CEO가 코드 작성을 굳이 배우지 말라고 했다 코드 
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Nvidia CEO Advises Against Learning to Code Is Coding Still a Worthwhile Skill to Learn"
 link: "https://medium.com/artificial-corner/nvidia-ceo-advises-against-learning-to-code-is-coding-still-a-worthwhile-skill-to-learn-704f091a8078"
 isUpdated: true
 ---
-
-
-
-
 
 50년 전에 등장한 많은 기술들은 현대에 발맞추기 위해 발전해 온 것이거나 흔적도 없이 사라져 버린 것 중 하나를 따릅니다. 대표적인 예로 1938년에 소개된 첫 번째 프로그래밍 가능한 기계 컴퓨터가 있습니다. 메모리 제약으로 인한 작동 능력의 제한과 무거운 무게로 인해, 오늘날 이런 장치를 우리 집이나 직장에 가지고 있다고 상상하기 어려울 정도입니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 젠슨의 의견에 완전히 동의하지는 않습니다 (적어도 처음에는). 프로그래밍을 공부하는 것 자체가 실제 비즈니스 시나리오를 해결하기 위해 초점을 맞춘 코드 라인을 개발할 때까지 기본적인 해결책을 발견하는 한 방법이라고 생각합니다. 즉, ChatGPT에게 명령을 내려 전체 모바일 애플리케이션을 만들어 보려는 것은 도전적입니다. 성공할 수도 있겠지만, 논리적으로 따라야 할 순서를 알지 못한 채 전체 코드를 이해하는 것은 어려울 수 있습니다. 게다가, 이 과정은 편향될 수 있고 중간에 오류가 발생할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기타 과학, 기술 또는 학문과 마찬가지로 프로그래밍도 필연적으로 AI의 영향을 받을 것입니다. 그러나 여전히 NVIDIA가 판매하는 것과 같이 보다 더 우수하고 발전된 모델이나 소프트웨어를 계속해서 구축할 필요가 있을 것입니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 Jensen의 발언은 AI의 프로그래밍 역할이 학습 과정부터 구현까지 (아마도 프롬프트만 필요할 수도 있는) 여러 측면에서 변화하고 있다는 근본적인 개념을 가리킵니다. Sam Altman은 다수의 인터뷰에서 프로그래밍이 미래에도 중요성을 유지할 것이지만 오늘날 우리가 익숙한 것과는 다른 형태로 존재할 것이라고 강조했습니다. 이 변화는 주로 AI가 이 분야에서 진전을 촉진하는 촉매제로서의 역할때문입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 반면에 Stability AI의 CEO이자 공동 창업자 인 Emad Mostaque와 같은 목소리들은, 약 5년 안에 우리가 알고 있는 프로그래머들이 더 이상 존재하지 않을지도 모른다고 말합니다.
 
@@ -43,7 +61,18 @@ Jensen의 발언은 AI의 프로그래밍 역할이 학습 과정부터 구현�
 
 ![NvidiaCEOAdvisesAgainstLearningtoCodeIsCodingStillaWorthwhileSkilltoLearn_0.png](/assets/img/NvidiaCEOAdvisesAgainstLearningtoCodeIsCodingStillaWorthwhileSkilltoLearn_0.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 역사를 되짚어보면, 특히 1950년대에는 프로그래밍 언어가 복잡했고 숙련을 위해 광범위한 전문 지식을 요구했습니다. 그러나 시간이 흐름에 따라 이 진입 장벽는 점차 더 많은 미래 프로그래머들에게 접근하기 쉬워졌으며, 코딩 행위가 더 포용적이고 매력적으로 바뀌었습니다.
 
@@ -53,7 +82,18 @@ Jensen의 발언은 AI의 프로그래밍 역할이 학습 과정부터 구현�
 
 ## 추상화의 다음 단계
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일반적으로 컴퓨터에서는 소프트웨어 레이어와 하드웨어 레이어 두 가지를 주로 만나게 됩니다. 이러한 레이어 간의 통신은 기계어로 알려진 것에 의해 용이하게 이루어지는데, 이는 종종 이진 시스템으로 표현됩니다. 이 형식은 인간들에게 이해하기 어려울 수 있는 복잡성을 가질 수 있습니다. 건축물을 자세히 조사하면, 추상화 요소와 복잡성 요소가 각 추상화 레이어와 다양한 정도로 관련되어 있음을 알 수 있습니다. 시간이 흐르면서 이러한 레이어들은 우리에게 현대 컴퓨터를 제공하게 되었는데, 이는 인간과 기계 간의 의사 소통을 크게 향상시켜 우리가 더 간단한 명령을 사용하여 다양한 작업을 실행할 수 있게 해주었습니다.
 
@@ -63,7 +103,18 @@ AI 어시스턴트의 개념은 추가적인 레이어가 될 것이며, 이는 
 
 이런 의미에서, 현재 우리는 코드 AI 어시스턴트의 파도를 경험하고 있습니다. 예를 들어, GitHub Copilot, CodiumAI, AWS Code Whisperer, Tabnine 등이 사람들이 코드를 작성하는 방식을 변화시키는 트렌드를 제공하는 일에 확실히 도움을 주고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그렇다고 해서 AI가 프로그래머를 그림자처럼 가리고 있을 것으로 보이지만, 현 시점에서 많은 모델들이 여전히 오류를 범하기 쉽다는 현실이 있습니다. 또한 챗봇 응답에 대한 제어 부재도 문제입니다. 최근 구글 젬니(Google Gemini)와 관련된 화제가 된 사건이 좋은 예시입니다. 이는 백인들의 이미지를 생성하지 않고 포용성을 과도하게 강조한 점을 거론하였습니다. 이로 인해 사람들을 규정짓기 시작했으며, 인종 주제와 관련된 논란을 일으켰습니다.
 
@@ -73,7 +124,18 @@ AI를 사용하여 코드를 생성하는 경우, 첫 번째 시도에서 고품
 
 절대 그렇지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AI 예술은 이 분야의 열정적인 사람들을 멈추지 않았어요. 그들은 계속해서 그림을 그리고 창작하고 있습니다. 마찬가지로, AI는 프로그래머들을 사용하지 못하게 만들지 않을 뿐만 아니라 코딩에서 다음 추상화 단계를 나타낼 것입니다. 이러한 상호 작용을 통해 인간과 기계 사이의 교류가 더욱 원활해질 것입니다.
 

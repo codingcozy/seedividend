@@ -3,17 +3,13 @@ title: "2024년에 알아두어야 할 웹 렌더링 방법들"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Some common web rendering methods you need to know in 2024"
 link: "https://neobazinga.medium.com/some-common-web-rendering-methods-you-need-to-know-in-2024-beb99308b64e"
 isUpdated: true
 ---
-
-
-
-
 
 # 클라이언트 측 렌더링
 
@@ -29,7 +25,18 @@ FCP: First Contentful Paint — 사용자가 콘텐츠를 처음으로 볼 때
 
 그러나 클라이언트 측 로직이 더 복잡해지고 초기화에 더 많은 JS가 실행되어야 하는 경우, 첫 화면 성능이 점차 느려지며, 이로 인해 더 많은 렌더링 패턴을 탐색해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 서버 렌더링
 
@@ -40,7 +47,18 @@ FCP: First Contentful Paint — 사용자가 콘텐츠를 처음으로 볼 때
 서버 렌더링의 장점은 페이지 템플릿, 데이터 미리 가져오기 및 채우기 등이 서버 측에서 처리되어 완성된 HTML 페이지가 반환되어 빈 페이지 대신에 제공된다는 것입니다. 이로 인해 데이터 가져오기 및 템플릿 렌더링을 위한 추가 클라이언트 측 시간이 없어지며 FP, FCP 및 TTI 시간을 개선할 수 있습니다. 이것은 텍스트와 링크만 있는 페이지의 경험에서 큰 개선을 가져다줍니다. 그러나 TTFB 시간은 서버 측에서 페이지를 생성하는 데 걸리는 시간으로 인해 증가합니다.
 서버 렌더링의 단점은 동적 특성이 많은 계산 오버헤드 비용이 수반될 수 있다는 것입니다. React에서 renderToString()은 동기화되고 단일 스레드로 동작하므로 속도가 느릴 수 있습니다. 또한 동일한 애플리케이션을 클라이언트 측에서 한 번, 서버 측에서 한 번 처리/재구성하는 과정은 더 많은 작업을 도입합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 정적 사이트 생성
 
@@ -55,7 +73,18 @@ FCP: First Contentful Paint — 사용자가 콘텐츠를 처음으로 볼 때
 3. CDN에 캐시된 컨텐츠가 없거나 캐시가 유효하지 않은 경우, CDN은 비즈니스 서비스에서 컨텐츠를 가져옵니다. 비즈니스 서비스는 요청을 받아 서버 렌더링을 수행하고 새로운 페이지 컨텐츠를 생성하여 CDN에 반환한 후 사용자에게 결과를 반환하고 새로운 컨텐츠를 노드에 캐싱합니다.
 4. 클라이언트가 HTML을 받아 페이지의 전체 정적 컨텐츠를 렌더링합니다. 필요한 경우 비즈니스 서버에서 개인화 또는 실시간 데이터를 가져와 페이지 컨텐츠를 동적으로 완성할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 서버 측 렌더링
 
@@ -65,7 +94,18 @@ FCP: First Contentful Paint — 사용자가 콘텐츠를 처음으로 볼 때
 
 React SSR의 핵심은 이중성인데, 즉, 서버와 클라이언트 양쪽 로직을 구축하기 위해 하나의 코드 세트를 사용하여 최대한의 코드 재사용을 달성하고 두 개의 코드 세트를 유지할 필요가 없도록 하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ● 라우팅 이중성: 양쪽 모두 동일한 라우팅 규칙 세트를 사용합니다. 클라이언트가 라우팅 규칙 표를 정의하고, 서버는 요청 URL을 통해 경로를 매치하여 렌더링해야 하는 구성 요소를 얻습니다.
 ● 데이터 이중성: 양쪽 모두 데이터 가져오기 명세를 정의합니다. (next.js를 예로 들면) 데이터 요청은 라이프사이클 메서드가 아닌 컴포넌트 정적 메서드 getInitialProps에 배치됩니다. 페이지가 초기화되고 로드될 때, 서버 측에서만 getInitialProps를 호출하여 이 컴포넌트에 필요한 데이터를 사전로드한 후 데이터를 컴포넌트로 전달합니다. 경로 전환 시 클라이언트 측에서 getInitialProps를 실행합니다.
@@ -78,7 +118,18 @@ React SSR의 핵심은 이중성인데, 즉, 서버와 클라이언트 양쪽 �
 SSR에는 아래와 같은 단점이 있습니다:
 ● 서버는 매번 실시간으로 HTML을 생성해야 하며, 반환하기 전에 모든 구성 요소의 HTML을 준비해야 합니다. 구성 요소가 필요로 하는 데이터가 오래 걸리면 전체 HTML의 생성을 차단할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - HTML 계산 생성은 서버 측에 위치하며, 서버 측의 부하 압력은 상대적으로 크고, 추가 기계 비용 및 운영 및 유지 보수 비용이 필요합니다.
 
@@ -88,7 +139,18 @@ SSR에는 아래와 같은 단점이 있습니다:
 
 React 18의 새로운 SSR 아키텍처인 React Fizz는 스트리밍 HTML(스트리밍 렌더링) 및 선택적 수화 두 가지 주요 기능을 제공하며, SSR의 앞서 언급한 단점도 해결합니다. React 18은 일시적으로 lazy와 Suspense API의 기능을 확장하여 두 가지를 서버 측에서 직접 결합하여 사용합니다. 서버 측에서는 데이터를 스트림으로 반환하기 위해 renderToString 대신 renderToPipeableStream을 사용하고, 클라이언트 측에서는 스트림으로 반환되면 즉시 React 구성 요소 수화를 시작하기 위해 hydrateRoot를 사용하여 스트리밍 렌더링을 수행합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { Suspense, lazy } from "react";
@@ -125,7 +187,18 @@ lazy와 Suspense를 지원하여 React SSR이 페이지의 이미 준비된 부�
 
 페이지가 완전히 수화되지 않았을 때 수화구 영역에서 발생한 클릭 이벤트는 브라우저가 Suspense 내용을 수화하는 동안 발생하는 미세한 간격에서 이벤트를 처리할 수 있습니다. 이를 통해 클릭은 즉시 처리되며 브라우저는 저렴한 장치에서 긴 수화 중에 느려지지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Web Rendering Methods](/assets/img/Some-common-web-rendering-methods-you-need-to-know-in-2024_5.png)
 
@@ -136,7 +209,18 @@ lazy와 Suspense를 지원하여 React SSR이 페이지의 이미 준비된 부�
 React 18.0에서 SSR `Suspense`가 아직 데이터 요청 시 Suspense를 지원하지 않는다는 점을 언급해야 합니다. 이러한 기능은 18.x에서 react-fetch와 Server Component와 함께 출시될 수 있습니다. 우리는 현재 lazy에서 중단을 강제할 수밖에 없는데, 이는 서버 측과 클라이언트 측 코드의 이질성을 야기합니다. 서버 측은 요청 및 lazy가 감싸여야 하지만, 클라이언트는 동일한 래핑을 할 수 없습니다. 그렇지 않으면 코드 분할 파일도 fetch 이후에 로드될 때까지 기다려야 하며, 이는 성능 이슈가 발생할 수 있습니다.
 따라서 React가 공식적으로 react-fetch를 출시하거나 커뮤니티에서 완전한 프레임워크 솔루션을 제공하기 전에, 두 단에서 데이터 이동성을 보장하기 위해 직접 데이터 검색에 관한 SSR 로직을 연구해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

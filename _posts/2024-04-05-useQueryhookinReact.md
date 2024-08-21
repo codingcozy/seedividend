@@ -3,17 +3,13 @@ title: "리액트에서 useQuery 훅으로 데이터 가져오고 캐싱하는 �
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "useQuery hook in React"
 link: "https://medium.com/@bhairabpatra.iitd/usequery-hook-in-react-b06ef604ea46"
 isUpdated: true
 ---
-
-
-
-
 
 리액트에서 useQuery 훅은 리액트 자체에 내장된 훅이 아닙니다. 대신에 일반적으로 React Query와 같은 상태 관리 라이브러리와 연관되어 사용됩니다.
 
@@ -23,7 +19,18 @@ React Query는 리액트 애플리케이션에서 데이터 가져오기를 관�
 
 ## 사용하기 전에 프로젝트에 React Query를 설치해야 합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm install react-query
@@ -42,9 +49,7 @@ const Prodcuts = () => {
     return response?.data;
   };
 
-  const { data, isLoading, error, refetch } = useQuery("productData", () =>
-    fetchProducts()
-  );
+  const { data, isLoading, error, refetch } = useQuery("productData", () => fetchProducts());
 
   if (isLoading) {
     return <h1>로딩 중...</h1>;
@@ -79,7 +84,18 @@ export default Prodcuts;
 - 컴포넌트는 쿼리의 상태에 따라 로딩, 에러 또는 데이터 컨텐츠를 렌더링합니다.
 - React Query를 프로젝트에 설치한 후 사용하기 바랍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## React Query의 useQuery 훅에서 refetch란 무엇인가요?
 
@@ -125,7 +141,18 @@ export default MyComponent;
 
 ## 이 예시에서:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - refetch 함수는 useQuery 훅에서 얻어지며, 수동 데이터 재검색을 트리거할 수 있습니다.
 - 사용자가 "새로고침" 버튼을 클릭했을 때 refetch를 호출하는 handleRefresh 함수가 생성됩니다.

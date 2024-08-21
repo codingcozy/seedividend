@@ -3,17 +3,13 @@ title: "CSS 축약형을 사용해서 간결하게 작성하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Helpful CSS Acronyms"
 link: "https://medium.com/@forsethingvild/helpful-css-acronyms-d16010e5dd5f"
 isUpdated: true
 ---
-
-
-
-
 
 얼마 전에 CSS 약어들을 소규모로 모았어요. CSS 문서를 찾아보지 않고 정확한 CSS를 작성하기 위해 사용하거나 단순히 CSS를 효과적으로 작성하는 데 도움이 되는 약어들입니다. CSS 자체가 "Cascading Style Sheets"의 약어인데, 제가 만든/수집한 CSS 약어 목록을 살펴보세요! 아마 일상적인 CSS 작업에 도움이 될 거예요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 margin: `위쪽 여백` `오른쪽 여백` `아래쪽 여백` `왼쪽 여백`;
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS 트릭스가 이미 2007년에 이 약어에 대해 게시물을 작성했습니다.
 
@@ -39,7 +46,18 @@ a:hover {...}
 a:active {...}
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 활성 링크가 호버된 링크의 스타일을 덮어씁니다. 다시 말해, 링크가 활성 상태이면 해당 스타일을 덮어씁니다.
 
@@ -49,7 +67,18 @@ a:active {...}
 
 ![HelpfulCSSAcronyms_0](/assets/img/HelpfulCSSAcronyms_0.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 속어의 크레딧은 2018년 제1판인 키스 그랜트의 CSS in Depth 도서에 있습니다. 이 속어를 배운 곳이기도 한데요. 이 책을 정말 추천하고, 여기서 내 블로그 글에서 더 읽을 수 있어.
 
@@ -59,6 +88,17 @@ a:active {...}
 
 정말 똑똑한 웹 개발자가 HSL 360도 색상 원을 마시처럼 탐색하는 튜토리얼을 본 적이 있나요? 그런 다음 당신이 그 멋진 원을 그 개발자만큼 잘 모르는 것을 깨달을 때 불안한 기분이 든 적이 있나요? 젊은 녀석들은 지저분한 라디컬이 구원했습니다! 색상 원을 도는 중이라면 (아래 이미지를 확인할 수 있어요), 순서는 노란색(y는 young), 초록색(g는 guys), 청록색(c는 cyan), 파란색(b는 be), 자홍색(m은 magenta), 빨간색(r은 red)입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![HelpfulCSSAcronyms_1.png](/assets/img/HelpfulCSSAcronyms_1.png)

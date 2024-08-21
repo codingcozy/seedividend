@@ -3,16 +3,13 @@ title: "HTMX: 최신 프론트엔드 개발을 위해 반드시 필요한 것"
 description: ""
 coverImage: "/assets/img/2024-05-01-MasteringHTMXAPracticalApproachtoStreamlinedFrontendDevelopment_0.png"
 date: 2024-05-01 23:00
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-01-MasteringHTMXAPracticalApproachtoStreamlinedFrontendDevelopment_0.png
 tag: Tech
 originalTitle: "Mastering HTMX: A Practical Approach to Streamlined Frontend Development"
 link: "https://medium.com/@Choco23/mastering-htmx-a-practical-approach-to-streamlined-frontend-development-f4ad69faa313"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-05-01-MasteringHTMXAPracticalApproachtoStreamlinedFrontendDevelopment_0.png" />
 
@@ -22,7 +19,18 @@ HTMX에 대해 궁금하신가요? 🕵️‍♂️ 이 글에서는 HTMX의 기
 
 # 소개
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 개발 주문서가 있었으면 좋겠나요? htmx를 입력하세요. 이것은 AJAX, CSS 전이, 웹 소켓 및 서버 전송 이벤트에 대한 게이트웨이로, 모두 HTML 내에서 쉽게 창조됩니다. 현대적인 사용자 인터페이스를 만드는 마법봉처럼 간단함과 힘을 품고 있습니다.
 
@@ -36,7 +44,18 @@ HTMX에 대해 궁금하신가요? 🕵️‍♂️ 이 글에서는 HTMX의 기
 
 htmx의 신비한 세계로 뛰어들어, 웹 주문서를 즐거운 경험으로 변신시키세요! 🪄🌟
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # HTMX: 상호작용 혁신하기
 
@@ -57,7 +76,18 @@ HTMX는 웹 개발에서 상호작용을 혁신할 수 있는 강력한 도구�
 </script>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - hx-get 속성은 트리거 이벤트가 발생했을 때 데이터를 가져올 URL을 지정합니다 (예: div를 클릭할 때).
 - hx-trigger 속성은 요청을 트리거하는 이벤트를 정의합니다 (예: "click").
@@ -80,7 +110,18 @@ HTMX는 웹 개발에서 상호작용을 혁신할 수 있는 강력한 도구�
 
 - hx-swap 속성은 응답이 요소의 콘텐츠를 어떻게 대체해야 하는지를 결정합니다. 이 경우 전체 외부 HTML을 대체합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## HTMX를 사용한 양식 제출 📤
 
@@ -106,7 +147,18 @@ HTMX는 웹 개발에서 상호작용을 혁신할 수 있는 강력한 도구�
 
 ## HTMX를 사용한 동적 로딩 🔄
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <!-- HTML -->
@@ -129,7 +181,18 @@ HTMX는 웹 개발에서 상호작용을 혁신할 수 있는 강력한 도구�
 
 HTMX의 힘을 발휘하고 싶어하는 개발자들에게 HTMX의 동작 방식을 이해하는 것이 중요합니다. 표준 HTML을 따르는 구문일 수 있지만, HTMX를 진정으로 독특하게 만드는 것은 그 뒤에 숨겨진 작동 방식입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 기본 사용법 🚀
 
@@ -143,10 +206,23 @@ HTMX의 힘을 발휘하고 싶어하는 개발자들에게 HTMX의 동작 방�
 
 ## 이벤트 트리거링 🔄
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-<button hx-get="/api/increment" hx-trigger="click">증가</button>
+<button hx-get="/api/increment" hx-trigger="click">
+  증가
+</button>
 ```
 
 - 이 예제에서는 버튼이 클릭되었을 때 GET 요청이 "/api/increment"로 트리거되도록 구성되어 있습니다 (hx-trigger="click").
@@ -156,10 +232,23 @@ HTMX의 힘을 발휘하고 싶어하는 개발자들에게 HTMX의 동작 방�
 ## 오류 처리 🤖
 
 ```js
-<div hx-get="/api/data" hx-on-error="alert('에러 발생!')">데이터 불러오기</div>
+<div hx-get="/api/data" hx-on-error="alert('에러 발생!')">
+  데이터 불러오기
+</div>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - "hx-on-error" 속성은 "/api/data"로의 GET 요청 중 발생하는 오류를 처리하는 데 사용됩니다.
 - 오류가 발생하면 '에러!' 메시지가 포함된 알림이 표시됩니다.
@@ -176,7 +265,18 @@ HTMX의 힘을 발휘하고 싶어하는 개발자들에게 HTMX의 동작 방�
 - 대상 요소(hx-target="#result")가 지정되어 있어 응답이 id가 "result"인 요소의 내용을 업데이트하도록 보장합니다.
 - 이 접근법을 통해 페이지의 어떤 부분을 동적으로 업데이트할지 정확히 제어할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # HTMX 도입의 이점
 
@@ -186,7 +286,18 @@ HTMX의 힘을 발휘하고 싶어하는 개발자들에게 HTMX의 동작 방�
 
 3. 🛠️ 간소화된 코드베이스: HTMX를 도입함으로써 종종 JavaScript 코드를 줄일 수 있으며, 서버 측 렌더링을 용이하게 하고 복잡한 클라이언트 측 논리를 줄여 코드를 단순화할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. 🔄 실시간 업데이트: HTMX를 활용하여 실시간 업데이트를 달성하고 서버에서 즉시 새로운 데이터를 가져와 표시하여 사용자에게 최신 정보를 제공합니다.
 
@@ -196,7 +307,18 @@ HTMX의 힘을 발휘하고 싶어하는 개발자들에게 HTMX의 동작 방�
 
 7. 🧩 쉬운 통합: HTMX는 기존 프로젝트에 쉽게 통합할 수 있어 기능을 점진적으로 향상시키는 실용적인 선택으로 사용될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 HTMX를 도입하면 더 반응이 뛰어나고 효율적이며 즐거운 웹 개발 경험을 할 수 있습니다.
 
@@ -206,7 +328,18 @@ HTMX를 도입하면 더 반응이 뛰어나고 효율적이며 즐거운 웹 �
 
 속도가 사용자 경험을 정의합니다. HTMX는 빠른 로딩과 부드러운 상호 작용을 제공하여 백엔드 개발자의 서버와 클라이언트 동적 사이의 간격을 줄여줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트와 뷰가 프론트엔드를 지배하고 있지만, HTMX는 새로운 시각을 제공합니다. 💨 동적 웹 앱에서 수많은 자바스크립트가 필요한 필요성에 대한 도전을 제시합니다.
 

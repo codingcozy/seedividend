@@ -3,17 +3,13 @@ title: "Tailwind CSS로 가독성 좋은 웹사이트 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-05-20-TipsForWritingMaintainableandReadableCodewithTailwindCSS_0.png"
 date: 2024-05-20 23:01
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-20-TipsForWritingMaintainableandReadableCodewithTailwindCSS_0.png
 tag: Tech
 originalTitle: "Tips For Writing Maintainable and Readable Code with Tailwind CSS"
 link: "https://medium.com/@patrickkarsh/tips-for-writing-maintainable-and-readable-code-with-tailwind-css-f147ab752513"
 isUpdated: true
 ---
-
-
-
-
 
 ![Tips for Writing Maintainable and Readable Code with Tailwind CSS](/assets/img/2024-05-20-TipsForWritingMaintainableandReadableCodewithTailwindCSS_0.png)
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 HTML 요소에서 유틸리티 클래스의 일관된 순서를 유지하면 스타일을 쉽게 스캔하고 수정할 수 있습니다. 예를 들어, 표시 속성(display: flex, grid)으로 시작하여 위치 지정 (m, p), 그 다음에 글꼴 (text-, font-), 마지막으로 색상 및 그림자와 같은 코스메틱 스타일로 끝나는 규칙을 정의하세요.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시:
 
@@ -34,7 +40,18 @@ HTML 요소에서 유틸리티 클래스의 일관된 순서를 유지하면 스
 
 시스템적으로 반응형 접두사를 사용하면 스타일이 기기에 맞게 신속하게 적응합니다. 항상 가장 작은 브레이크포인트부터 시작하여 일관성을 유지하면서 작업해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시:
 
@@ -44,7 +61,18 @@ HTML 요소에서 유틸리티 클래스의 일관된 순서를 유지하면 스
 
 다양한 컴포넌트에서 동일한 유틸리티 클래스 조합을 반복적으로 사용할 때, @apply 지시문을 사용하여 CSS 파일에서 이를 결합하여 중복을 줄일 수 있는 사용자 지정 클래스로 만들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시:
 
@@ -54,7 +82,18 @@ HTML 요소에서 유틸리티 클래스의 일관된 순서를 유지하면 스
 
 더 복잡한 컴포넌트의 경우 특정 컴포넌트 클래스를 만드는 것이 더 실용적일 수 있습니다. 이렇게 하면 세부 스타일을 캡슐화할 수 있으면서도 작은 조정에 유틸리티 클래스를 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시:
 
@@ -64,7 +103,18 @@ HTML 요소에서 유틸리티 클래스의 일관된 순서를 유지하면 스
 
 PurgeCSS를 빌드 프로세스에 통합하면 실제로 사용되는 스타일만 제작 파일에 포함되어 파일 크기가 크게 줄어듭니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 구성은 PurgeCSS를 설정하여 HTML 및 Vue 파일을 스캔하여 최종 CSS에서 사용되지 않는 Tailwind 클래스를 제거합니다.
 

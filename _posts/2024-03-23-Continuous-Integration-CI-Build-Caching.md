@@ -3,17 +3,13 @@ title: "Nextjs 에서 빌드 성능을 향상시키는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "지속적인 통합 CI 빌드 캐싱"
 link: "undefined"
 isUpdated: true
 ---
-
-
-
-
 
 # 지속적 통합 (CI) 빌드 캐싱
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 > .next/cache를 빌드 간에 올바르게 유지하도록 CI가 구성되지 않은 경우 No Cache Detected 오류가 발생할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 일반적인 CI 제공업체에 대한 예시 캐시 구성입니다:
 
@@ -33,7 +40,18 @@ Next.js 캐싱은 자동으로 구성되어 있습니다. 여러분이 할 일�
 
 ## CircleCI
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 답변 수정:
 
@@ -43,7 +61,18 @@ Change the table tag to Markdown format.
 
 한국어로 번역한 내용입니다. 혹시 더 궁금한 점이 있으시면 언제든지 물어봐 주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```yaml
 캐시를 추가하거나 .travis.yml 파일에 다음을 병합하세요:
@@ -59,7 +88,18 @@ cache:
 
 다음을 .gitlab-ci.yml 파일에 추가하거나 병합하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```yaml
 cache:
@@ -77,7 +117,18 @@ cache:
 
 ## AWS CodeBuild
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 빌드 스펙 YAML에 다음 내용을 추가하거나 병합하세요:
 
@@ -92,7 +143,18 @@ cache:
 
 GitHub의 actions/cache를 사용하여, 워크플로 파일에 다음 단계를 추가하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```yaml
 uses: actions/cache@v4
@@ -118,7 +180,18 @@ definitions:
     nextcache: .next/cache
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그런 다음 파이프라인 단계의 캐시 섹션에서 그것을 참조하세요:
 
@@ -134,7 +207,18 @@ definitions:
 
 Heroku의 사용자 정의 캐시를 사용하려면, top-level package.json에 cacheDirectories 배열을 추가하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 "cacheDirectories": [".next/cache"]
@@ -152,7 +236,18 @@ Azure Pipelines의 캐시 작업을 사용하여, 다음 빌드를 실행하는 
     path: '$(System.DefaultWorkingDirectory)/.next/cache'
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Jenkins (파이프라인)
 
@@ -194,4 +289,15 @@ stage("빌드") {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

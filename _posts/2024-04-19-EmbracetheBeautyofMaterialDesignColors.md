@@ -3,17 +3,13 @@ title: "매터리얼 디자인 컬러란 무엇인가"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Embrace the Beauty of Material Design Colors"
 link: "https://medium.com/@hexcolors/embrace-the-beauty-of-material-design-colors-6fff89c30dfc"
 isUpdated: true
 ---
-
-
-
-
 
 ![Embrace the Beauty of Material Design Colors](/assets/img/EmbracetheBeautyofMaterialDesignColors_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 Material Design Colors는 구글의 Material Design 언어의 일부로, 깔끔하고 사용자 친화적이며 시각적으로 매력적인 인터페이스 디자인으로 유명합니다. 이 색상들은 디지털 인터페이스에서의 조화, 사용성 및 미적 매력을 고려하여 특별히 선택되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 매터리얼 디자인 색상이 게임 체인저인 이유
 
@@ -35,7 +42,18 @@ Material Design Colors는 구글의 Material Design 언어의 일부로, 깔끔�
 
 매터리얼 디자인 색상을 사용하는 것은 매우 쉽습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - https://hexcolor.co/material-design-colors에서 방문해보세요.
 - 밝고 세련된, 그리고 약간 다른 색상들을 포함한 색상 배열을 둘러보세요.
@@ -47,7 +65,18 @@ Hexcolor.co는 단순히 색상 라이브러리 이상의 것을 제공합니다
 
 ## 마지막으로 생각해보세요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 경험이 풍부한 디자이너든 막 시작한 디자이너든, hexcolor.co의 Material Design Colors 섹션은 귀중한 자원입니다. 이것은 그냥 도구가 아니라, 더 매력적이고 시각적으로 매력적이며 사용자 친화적인 디자인을 만드는 한 걸음입니다.
 

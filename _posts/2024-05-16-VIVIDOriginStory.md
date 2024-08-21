@@ -3,16 +3,13 @@ title: "선명한 오리진 스토리"
 description: ""
 coverImage: "/assets/img/2024-05-16-VIVIDOriginStory_0.png"
 date: 2024-05-16 17:41
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-16-VIVIDOriginStory_0.png
 tag: Tech
 originalTitle: "VIVID Origin Story"
 link: "https://medium.com/@vivid_gallery/vivid-origin-story-fc941d10f704"
 isUpdated: true
 ---
-
-
-
 
 ![VIVID Gallery](/assets/img/2024-05-16-VIVIDOriginStory_0.png)
 
@@ -22,7 +19,18 @@ VIVID는 플랫폼 이상의 것을 구축하려 애썼습니다; 창작자와 �
 
 그 초기 시절에는 비트코인으로 창작, 기록, 수집하는 것은 중요한 인프라가 없어 지각이 된 큰 과업처럼 보였습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 안전하고 탈중앙화된, 변경 불가능한 생태계는 모든 디지털 작품이 원래의 블록체인처럼 영원히 존속할 수 있는 안식처를 제공했습니다.
 
@@ -32,7 +40,18 @@ VIVID는 플랫폼 이상의 것을 구축하려 애썼습니다; 창작자와 �
 
 급변하는 환경에서 선구자로 남아, 우리는 예술과 기술의 교차로에 서 있으며, 가상 경계를 초월하는 연결을 구축하고 있습니다. 지루한 미래의 아름다움과 블록체인 기술의 무한한 잠재력을 믿음으로, VIVID는 새로운 영역을 개척하며 모든 화소와 대화로 새로운 길을 개척하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 전통 예술계를 모태로 한 VIVID는 예술가들이 번성하고 수집가들이 고품질 디지털 예술을 발견하고 투자할 수 있는 육성 환경을 제공합니다. 하르토의 Floraforms와 같은 혁신적인 프로젝트의 도입은 VIVID의 혁신적 접근과 기술적 능력을 강조하며 Ordinals 공간 내 생성적 예술에 대한 새로운 가능성을 열어줍니다.
 
@@ -42,7 +61,18 @@ VIVID는 플랫폼 이상의 것을 구축하려 애썼습니다; 창작자와 �
 
 ![이미지](/assets/img/2024-05-16-VIVIDOriginStory_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 벨베데레 미술관과 협력하여 Gustav Klimt의 상징인 작품에 경의를 표하며 FloraForms를 통해 전통적인 예술과 디지털 예술 영역 사이의 간극을 좁히는 VIVID의 야망을 보여줍니다. 이는 과거와 현재 예술적 움직임 사이의 대화를 시작함으로써 디지털 예술 컬렉션의 문화적 의미를 풍부하게 하고 예술 커뮤니티 내 참여와 소유의 독특한 기회를 제공합니다.
 
@@ -52,8 +82,18 @@ FloraForms의 성공적인 출시 이후, VIVID는 CyberSea의 Deus Ex Machina, 
 
 ![이미지2](/assets/img/2024-05-16-VIVIDOriginStory_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![VIVIDOriginStory_5](/assets/img/2024-05-16-VIVIDOriginStory_5.png)
 
@@ -63,7 +103,17 @@ Discord에서 아티스트와 컬렉터들의 커뮤니티에 가입하세요.
 
 앞으로도 Shaderism, Manuel Larino 및 Dario Lanza와 같은 비전있는 아티스트들과의 미래 프로젝트를 발표하는 것에 흥분하며, 이들은 모두 VIVID의 탁월함에 대한 약속을 담고 있으며, VIVID 애호가들의 컬렉션을 풍부하게 하는 훌륭한 작품을 제공할 것입니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 창립자들의 공유된 비전과 커뮤니티의 적극적인 참여는 미술의 풍부한 유산을 존중하면서 혁신적인 플랫폼을 형성하는 데 중요한 역할을 합니다. VIVID는 고품질 생성 미술 작품의 창작과 획득의 무한한 잠재력을 발견할 수 있는 예술가와 수집가들이 함께 모여 커뮤니티를 구축하며 발전할 것입니다.

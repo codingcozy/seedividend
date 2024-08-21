@@ -3,17 +3,13 @@ title: "리액트에서 CSS 애니메이션을 활용한 가벼운 모션 시스
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Building a Lightweight Motion System in React Using CSS Animations"
 link: "https://medium.com/@curavcy/building-a-lightweight-motion-system-in-react-using-css-animations-e0ce120e62e2"
 isUpdated: true
 ---
-
-
-
-
 
 ## 소개
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 CSS 애니메이션은 React 애플리케이션에서 사용하기에 이상적인 여러 가지 장점을 제공합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 성능: CSS로 애니메이션을 실행하면 JavaScript 스레드에서 작업을 줄일 수 있어 응용 프로그램이 responsiv하게 유지되는 데 도움이 됩니다.
 - 유지 관리성: CSS 애니메이션을 통해 스타일 관련 변경을 JavaScript 외부로 유지하여 코드베이스가 더 깨끗하고 모듈화되도록 유지할 수 있습니다.
@@ -38,7 +45,18 @@ npx create-react-app motion-system-demo
 cd motion-system-demo
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 전문적인 모션 유형 정의하기
 
@@ -73,7 +91,18 @@ animations.css에서 다양한 UI 요소에 적용할 수 있는 전문적이고
 
 ## MotionSystem 컴포넌트 생성하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 MotionSystem은 이제 사용자가 움직임을 줄이기를 선호하는지 확인하여 적절한 경우에만 애니메이션을 적용할 것입니다:
 
@@ -83,20 +112,14 @@ import "./animations.css";
 
 function MotionSystem({ children, animation }) {
   const [isActive, setIsActive] = useState(false);
-  const prefersReducedMotion = window.matchMedia(
-    "(prefers-reduced-motion: reduce)"
-  ).matches;
+  const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
   const handleAnimation = () => {
     if (!prefersReducedMotion) {
       setIsActive(true);
     }
   };
   return (
-    <div
-      className={isActive ? animation : ""}
-      onAnimationEnd={() => setIsActive(false)}
-      onClick={handleAnimation}
-    >
+    <div className={isActive ? animation : ""} onAnimationEnd={() => setIsActive(false)} onClick={handleAnimation}>
       {children}
     </div>
   );
@@ -108,7 +131,18 @@ export default MotionSystem;
 
 디자인 요구에 따라 애니메이션 유형을 지정하여 MotionSystem 구성 요소 내에 요소를 래핑하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import React from "react";

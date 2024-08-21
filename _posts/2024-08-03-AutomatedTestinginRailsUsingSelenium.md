@@ -3,16 +3,13 @@ title: "Rails에서 Selenium을 사용한 자동화 테스트 방법"
 description: ""
 coverImage: "/assets/img/2024-08-03-AutomatedTestinginRailsUsingSelenium_0.png"
 date: 2024-08-03 18:49
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-03-AutomatedTestinginRailsUsingSelenium_0.png
 tag: Tech
 originalTitle: "Automated Testing in Rails Using Selenium"
 link: "https://medium.com/@nitekkumarsingh/automated-testing-in-rails-using-selenium-3e733b7ddb79"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-08-03-AutomatedTestinginRailsUsingSelenium_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 이제 우리가 RSpec, Capybara, 그리고 셀레늄을 이용해 Rails 애플리케이션에 자동화된 테스트 스위트를 설치하는 방법에 대해 알아봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 참고: 계속 진행하기 전에 이미 Rails 애플리케이션에서 RSpec을 설정했다고 가정합니다.
 
@@ -38,12 +46,23 @@ group :test do
 end
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이후에는 시스템에 chromedriver가 설치되어 있는지 확인하십시오. Linux 시스템에서 다음 명령을 사용하여 확인할 수 있습니다:
 
 ```js
-chromedriver - version
+chromedriver - version;
 ```
 
 만약 chromedriver가 없다면, Linux 장치에 다음 명령을 사용하여 설치할 수 있습니다:
@@ -52,7 +71,18 @@ chromedriver - version
 sudo apt-get install chromedriver
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Capybara 설정하기
 
@@ -73,7 +103,7 @@ end
 
 Capybara.register_driver :selenium do |app|
   options = Selenium::WebDriver::Chrome::Options.new
-  
+
   Capybara::Selenium::Driver.new(app,
     browser: :chrome,
     options: options
@@ -81,7 +111,18 @@ Capybara.register_driver :selenium do |app|
 end
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Capybara는 실제 사용자가 앱과 상호 작용하는 방식을 시뮬레이션하여 웹 애플리케이션을 테스트하는 데 도움을 줍니다. 이는 테스트를 실행하는 드라이버에 대해 중립적이며 Rack::Test 및 Selenium 지원이 내장되어 있습니다.
 
@@ -93,7 +134,18 @@ Capybara.default_driver = :selenium
 
 ## 서포트 파일 로드하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로 spec/rails_helper.rb 파일에 다음 코드를 추가해주세요:
 
@@ -105,7 +157,18 @@ Dir[Rails.root.join('spec/support/**/*.rb')].sort.each { |f| require f }
 
 ## 테스트 케이스 작성하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 단계를 따르셨서 자동화 테스트 설정이 완료되었어요. 이제 Capybara가 제공하는 내장 메서드를 사용하여 테스트 케이스를 작성해봅시다.
 
@@ -124,7 +187,18 @@ end
 
 테스트를 실행하려면 아래 명령어를 사용해주세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 rspec spec/features/example_spec.rb
@@ -136,7 +210,18 @@ Capybara는 웹 사이트 페이지를 탐색하기 위한 내장 메소드 세�
 
 ![Automated Testing in Rails Using Selenium](/assets/img/2024-08-03-AutomatedTestinginRailsUsingSelenium_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금까지 함께 Selenium, Capybara 및 RSpec을 사용하여 Rails 애플리케이션에서 자동화 테스트의 흥미로운 세계로 첫걸음을 내딛었습니다. 이제 여러분의 테스트는 기름이 잘 바른 기계처럼 작동하고 있습니다 (아니면 가끔 가볍게 차주는 것이 필요한 정도로 잘 작동하고 있습니다).
 

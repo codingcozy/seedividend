@@ -3,16 +3,13 @@ title: "AWS Lambda로 구동되는 JAVA WebSockets 사용 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-JAVAWebSocketspoweredbyAWSLambda_0.png"
 date: 2024-07-09 09:32
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-JAVAWebSocketspoweredbyAWSLambda_0.png
 tag: Tech
 originalTitle: "JAVA WebSockets powered by AWS Lambda"
 link: "https://medium.com/solutions-architect-rocks/java-websockets-powered-by-aws-lambda-8cd974024030"
 isUpdated: true
 ---
-
-
-
 
 ![이미지](/assets/img/2024-07-09-JAVAWebSocketspoweredbyAWSLambda_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 AWS API Gateway를 사용하여 Java로 웹소켓을 생성하는 가이드를 찾아보았지만 어렵게 찾아보았습니다. 이는 Snapstart 기술을 통해 서버리스 Java를 작성하는 가장 좋은 방법이기 때문에 아쉬운 일입니다. 이에 시작하는 데 도움이 되도록 이 안내서를 작성했습니다. 즐겁게 시작하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹소켓을 사용하는 이유는 무엇일까요? 고급 웹 API를 사용하면 클라이언트와 서버 간의 실시간 통신이 더 효율적으로 이루어집니다. 저는 WebSockets을 활용한 응급 텔레헬스 가상 라인 시스템을 개발했어요. 이제 더 나은 시스템 구축을 위해 이를 개선할 수 있는 새로운 기회가 생겼죠. 모든 참가자를 통화에 연결하는 더 좋은 방법, AI를 활용한 진료 채팅 제품 등이 있어요.
 
@@ -32,7 +40,18 @@ AWS API 게이트웨이는 서버 부분을 관리하며 클라이언트 연결�
 
 # 작동 방식
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-09-JAVAWebSocketspoweredbyAWSLambda_1.png" />
 
@@ -49,7 +68,18 @@ AWS API 게이트웨이는 서버 부분을 관리하며 클라이언트 연결�
 
 # 액션으로 이동합시다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Quarkus의 간단한 가이드로 AWS Lambda를 생성하는 방법을 시작했어요. 플랫폼은 Quarkus를 Lambda 루프에 맞게 잘 적응시키는 데 훌륭한 일을 합니다. Lambda를 개발하는 데 효과적으로 작동합니다. 하지만 더 많은 것이 필요해요.
 
@@ -217,7 +247,18 @@ Quarkus는 AWS SAM을 사용하여 sam.jvm.yaml을 생성하여 Quarkus와 함�
       Principal: apigateway.amazonaws.com
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 파일을 사용하면 AWS에 WebSocket을 배포할 수 있어요.
 
@@ -227,7 +268,18 @@ Quarkus는 AWS SAM을 사용하여 sam.jvm.yaml을 생성하여 Quarkus와 함�
 
 WebSocketLambda는 간단한 이벤트 프로세서에요. EventHandlerFactory는 이벤트를 처리할 적절한 프로세서를 제공해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 public class WebSocketLambda implements RequestHandler<APIGatewayV2WebSocketEvent, APIGatewayV2WebSocketResponse> {
@@ -290,8 +342,18 @@ public class WebSocketAuthorizer implements RequestHandler<APIGatewayCustomAutho
 
 ## 이벤트 프로세서들
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-09-JAVAWebSocketspoweredbyAWSLambda_3.png" />
 각 핸들러는 CONNECT, MESSAGE, DISCONNECT 라우트를 다룰 것입니다.
@@ -312,7 +374,18 @@ public class ConnectEventHandler extends AbstractEventHandler {
 
 MessageEventHandler는 ActionHandlerFactory와 함께 작동합니다. 필요에 따라 각 메시지 유형에 대한 ActionHandler를 생성하게 될 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 @EventHandlerType(EventType.MESSAGE)
@@ -343,7 +416,18 @@ public class MessageEventHandler extends AbstractEventHandler {
 
 This is the default Action Handler. It works for any message:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 @ActionHandlerType(ActionHandlerFactory.DEFAULT_ACTION_HANDLER)
@@ -376,8 +460,18 @@ public class MarcoPoloActionHandler extends AbstractActionHandler<MarcoPoloMessa
 
 사용자가 '“action”: “Marco”'와 같은 메시지를 보내면 이 핸들러가 트리거됩니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 postToConnection() 메소드를 주목하셨나요? 이 메소드는 클라이언트에 메시지를 보내기 위해 API Gateway Management SDK를 호출합니다.
 
@@ -409,19 +503,39 @@ public class ApiGatewayUtil {
 
 AWS SAM CLI는 sam.jvm.yaml을 사용하여 로컬 Docker 컨테이너에서 람다 런타임을 실행하고 Quarkus 코드를 실행할 수 있습니다... 그러나 이는 단순한 람다나 REST/HTTP 람다와만 작동합니다. WebSocket 람다는 AWS SAM에서 로컬로 작동하지 않으며, GitHub에 관한 불평할 문제가 열려 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아직 QuarkusTest를 사용하여 코드를 실행 및 디버깅할 수 있습니다.
 
 ## 유닛 테스트가 훌륭합니다
 
-
 ![JAVAWebSocketspoweredbyAWSLambda_5](/assets/img/2024-07-09-JAVAWebSocketspoweredbyAWSLambda_5.png)
-
 
 리소스 폴더에는 API Gateway가 핸들러로 보내는 이벤트들이 모두 있습니다. 모든 것이 어떻게 작동하는지 이해하기 위해 이를 알아야 합니다. 이 프로젝트에 추가해야 할 것은 메시지 유형과 테스트뿐입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 @QuarkusTest
@@ -521,7 +635,18 @@ public class WebSocketLambdaTest {
 
 테스트 중요한 클래스가 있습니다. 바로 Mock: ApiGatewayUtil 클래스입니다. 제 코드에서 이 클래스를 사용하여 postToConnection()을 호출하여 웹소켓 메시지를 보냅니다. 이 코드는 테스트에서 실패할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 디버깅
 
@@ -533,7 +658,18 @@ IDE를 사용하여 테스트를 시작하고 원격 디버거를 연결할 수 
 mvn -Dmaven.surefire.debug test
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 문구는 JVM 디버거를 포트 5005에서 실행하고 대기하는 것입니다. 그 후에 IntelliJ를 사용하여 원격 디버거를 연결하세요.
 
@@ -543,7 +679,18 @@ mvn -Dmaven.surefire.debug test
 
 ![이미지](/assets/img/2024-07-09-JAVAWebSocketspoweredbyAWSLambda_7.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 모든 것이 끝났어요
 

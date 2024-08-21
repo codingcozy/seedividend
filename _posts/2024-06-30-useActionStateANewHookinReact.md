@@ -3,16 +3,13 @@ title: "useActionState  React의 새로운 Hook "
 description: ""
 coverImage: "/assets/img/2024-06-30-useActionStateANewHookinReact_0.png"
 date: 2024-06-30 18:33
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-30-useActionStateANewHookinReact_0.png
 tag: Tech
 originalTitle: "useActionState — A New Hook in React 🎉"
 link: "https://medium.com/@mdtaqui.jhar/usestateaction-a-new-hook-in-react-1558986bf4df"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-06-30-useActionStateANewHookinReact_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 useActionState는 폼 작업의 결과에 기반하여 상태를 업데이트하는 데 도움을 주는 새로운 React 훅입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리를 위해 기억하고 양식을 제출할 때 변경할 수 있는 스마트 도우미 같아요.
 
@@ -32,10 +40,21 @@ useActionState는 폼 작업의 결과에 기반하여 상태를 업데이트하
 
 이 훅을 사용하려면 먼저 React에서 가져와야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-import { useActionState } from 'react';
+import { useActionState } from "react";
 ```
 
 이제, 우리는 컴포넌트에서 다음과 같이 사용할 수 있어요:
@@ -46,7 +65,18 @@ const [state, formAction] = useActionState(actionFunction, initialState);
 
 여기서 각 부분이 의미하는 바입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - ‘state’은 현재 양식 상태입니다.
 - ‘formAction’은 양식에서 사용할 새로운 액션입니다.
@@ -59,7 +89,18 @@ const [state, formAction] = useActionState(actionFunction, initialState);
 
 예시:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단한 카운터 양식을 useActionState를 사용하여 만들어봅시다:
 
@@ -85,7 +126,18 @@ function StatefulForm() {
 
 ## 이게 전부에요 😅
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기억하세요! 배우는 가장 좋은 방법은 경험하는 것입니다.
 

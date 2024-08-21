@@ -3,17 +3,13 @@ title: "자바스크립트에서의 함수 체이닝 화살표 함수 vs 함수 
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Function Chaining in JavaScript Arrow Function vs Function Prototype"
 link: "https://medium.com/@anshumanupadhyay/function-chaining-in-javascript-arrow-function-vs-function-prototype-e5fa9e53cb89"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/FunctionChaininginJavaScriptArrowFunctionvsFunctionPrototype_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ## 버전 1: sum1
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 this.ar = [];
@@ -51,7 +58,18 @@ function sum2(num1 = 0) {
 
 # JavaScript Concepts Used
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1. 화살표 함수와 일반 함수 비교
 
@@ -61,7 +79,18 @@ sum1에서는 화살표 함수가 사용됩니다. 화살표 함수는 JavaScrip
 
 ## sum2: 일반 함수
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 sum2에서는 일반 함수가 사용됩니다. 일반 함수에는 고유한 this 컨텍스트가 있어서 특정 시나리오에서 혼란을 줄 수 있습니다. 이를 피하기 위해 sum2는 Function 프로토 타입을 확장하고 sum2.ar을 사용하여 숫자를 저장하므로 배열이 올바른 컨텍스트 내에서 액세스됩니다.
 
@@ -71,7 +100,18 @@ sum2에서는 일반 함수가 사용됩니다. 일반 함수에는 고유한 th
 
 sum1에서는 Function 프로토 타입을 확장하지 않습니다. 대신, 이 함수는 this 컨텍스트를 사용하여 배열 this.ar에 액세스하고 조작합니다. 이 방법은 더 간단할 수 있지만, this 컨텍스트가 변경되면 예기치 않은 동작이 발생할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## sum2: 프로토타입 확장
 
@@ -81,7 +121,18 @@ sum2에서 함수 프로토타입은 배열 sum2.ar를 추가하여 확장됩니
 
 sum1과 sum2 모두 기본 매개변수 (num1 = 0)를 사용하여 함수에 인수가 제공되지 않은 경우를 처리합니다. 이렇게 함으로써 함수가 손상되지 않고 배열에 저장된 숫자들의 올바른 합계를 반환할 수 있도록 보장합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

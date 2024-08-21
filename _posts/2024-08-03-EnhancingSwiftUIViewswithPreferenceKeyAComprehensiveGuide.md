@@ -3,16 +3,13 @@ title: "PreferenceKey 사용하여 SwiftUI 뷰 향상시키는 방법 종합 가
 description: ""
 coverImage: "/assets/img/2024-08-03-EnhancingSwiftUIViewswithPreferenceKeyAComprehensiveGuide_0.png"
 date: 2024-08-03 19:04
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-03-EnhancingSwiftUIViewswithPreferenceKeyAComprehensiveGuide_0.png
 tag: Tech
 originalTitle: "Enhancing SwiftUI Views with PreferenceKey A Comprehensive Guide"
 link: "https://medium.com/@wesleymatlock/enhancing-swiftui-views-with-preferencekey-a-comprehensive-guide-0dfa7be2044f"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-08-03-EnhancingSwiftUIViewswithPreferenceKeyAComprehensiveGuide_0.png" />
 
@@ -22,7 +19,18 @@ SwiftUI는 PreferenceKey를 사용하여 데이터를 사용자 정의하고 상
 
 1. PreferenceKey 소개
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. PreferenceKey 만들기
 
@@ -32,7 +40,18 @@ SwiftUI는 PreferenceKey를 사용하여 데이터를 사용자 정의하고 상
 
 5. PreferenceKey의 고급 사용법
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 6. Unit Testing PreferenceKey
 
@@ -42,7 +61,18 @@ SwiftUI는 PreferenceKey를 사용하여 데이터를 사용자 정의하고 상
 
 PreferenceKey는 SwiftUI의 프로토콜로, 뷰가 데이터를 상위 뷰 계층 구조로 전달할 수 있게 해줍니다. 특히 자식 뷰에서 부모 뷰로 데이터를 전달해야 하는 상황에 특히 유용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2. PreferenceKey 생성
 
@@ -53,7 +83,7 @@ import SwiftUI
 
 struct MyPreferenceKey: PreferenceKey {
     static var defaultValue: String = ""
-    
+
     static func reduce(value: inout String, nextValue: () -> String) {
         value = nextValue()
     }
@@ -62,7 +92,18 @@ struct MyPreferenceKey: PreferenceKey {
 
 이 예제에서 MyPreferenceKey는 빈 문자열의 기본값을 갖고 있으며 값을 업데이트하는 reduce 메서드가 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 3. 뷰에서 PreferenceKey 사용하기
 
@@ -83,7 +124,7 @@ struct ChildView: View {
 
 struct ParentView: View {
     @State private var width: String = ""
-    
+
     var body: some View {
         VStack {
             ChildView()
@@ -98,7 +139,18 @@ struct ParentView: View {
 
 ## 4. 실전 예제: 동적 헤더
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 실용적인 예제를 만들어보죠. 아래 내용에 따라 외부의 콘텐츠에 따라 모양이 변하는 동적 헤더를 생성해보겠습니다.
 
@@ -107,7 +159,7 @@ import SwiftUI
 
 struct HeaderHeightKey: PreferenceKey {
     static var defaultValue: CGFloat = 0
-    
+
     static func reduce(value: inout CGFloat, nextValue: () -> CGFloat) {
         value = max(value, nextValue())
     }
@@ -115,14 +167,14 @@ struct HeaderHeightKey: PreferenceKey {
 
 struct ContentView: View {
     @State private var headerHeight: CGFloat = 0
-    
+
     var body: some View {
         VStack {
             Text("Dynamic Header")
                 .font(.largeTitle)
                 .frame(height: headerHeight)
                 .background(Color.blue)
-            
+
             ScrollView {
                 VStack {
                     ForEach(0..<50) { index in
@@ -146,7 +198,18 @@ struct ContentView: View {
 
 PreferenceKey는 간단한 데이터 전달 이상으로, 여러 자식에서 값을 결합하거나 복잡한 레이아웃을 조정하는 등 더 고급적인 시나리오에 활용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여러 자식 뷰에서 값을 결합하는 방법
 
@@ -155,7 +218,7 @@ PreferenceKey는 간단한 데이터 전달 이상으로, 여러 자식에서 �
 ```js
 struct TotalWidthKey: PreferenceKey {
     static var defaultValue: CGFloat = 0
-    
+
     static func reduce(value: inout CGFloat, nextValue: () -> CGFloat) {
         value += nextValue()
     }
@@ -193,7 +256,7 @@ struct ChildViewThree: View {
 
 struct ParentView: View {
     @State private var totalWidth: CGFloat = 0
-    
+
     var body: some View {
         VStack {
             ChildView()
@@ -210,7 +273,18 @@ struct ParentView: View {
 
 <img src="/assets/img/2024-08-03-EnhancingSwiftUIViewswithPreferenceKeyAComprehensiveGuide_1.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 복잡한 레이아웃을 조정하는 방법
 
@@ -255,7 +329,18 @@ struct CoordinatedParentView: View {
 
 <img src="/assets/img/2024-08-03-EnhancingSwiftUIViewswithPreferenceKeyAComprehensiveGuide_2.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 6. PreferenceKey 단위 테스트
 
@@ -267,71 +352,71 @@ import SwiftUI
 @testable import YourApp
 
 class PreferenceKeyTests: XCTestCase {
-    
+
     func testHeaderHeightPreferenceKey() {
         let rootView = ContentView()
         let hostingController = UIHostingController(rootView: rootView)
-        
+
         // 테스트 환경 설정
         hostingController.view.frame = UIScreen.main.bounds
         let window = UIWindow()
         window.rootViewController = hostingController
         window.makeKeyAndVisible()
-        
+
         // 뷰 계층 구성
         RunLoop.main.run(until: Date())
-        
+
         // 초기 높이 확인
         XCTAssertEqual(rootView.headerHeight, 0)
-        
+
         // 스크롤하여 선호값 변경 트리거
         let scrollView = hostingController.view.subviews.first { $0 is UIScrollView } as? UIScrollView
         scrollView?.contentOffset = CGPoint(x: 0, y: 100)
-        
+
         // 뷰 계층 다시 구성
         RunLoop.main.run(until: Date())
-        
+
         // 업데이트된 높이 확인
         XCTAssertGreaterThan(rootView.headerHeight, 0)
     }
-    
+
     func testTotalWidthPreferenceKey() {
         let rootView = ParentView()
         let hostingController = UIHostingController(rootView: rootView)
-        
+
         // 테스트 환경 설정
         hostingController.view.frame = UIScreen.main.bounds
         let window = UIWindow()
         window.rootViewController = hostingController
         window.makeKeyAndVisible()
-        
+
         // 뷰 계층 구성
         RunLoop.main.run(until: Date())
-        
+
         // 초기 전체 너비 확인
         XCTAssertEqual(rootView.totalWidth, 0)
-        
+
         // 업데이트된 전체 너비 확인
         RunLoop.main.run(until: Date())
         XCTAssertGreaterThan(rootView.totalWidth, 0)
     }
-    
+
     func testSynchronizedSizePreferenceKey() {
         let rootView = CoordinatedParentView()
         let hostingController = UIHostingController(rootView: rootView)
-        
+
         // 테스트 환경 설정
         hostingController.view.frame = UIScreen.main.bounds
         let window = UIWindow()
         window.rootViewController = hostingController
         window.makeKeyAndVisible()
-        
+
         // 뷰 계층 구성
         RunLoop.main.run(until: Date())
-        
+
         // 초기 동기화된 크기 확인
         XCTAssertEqual(rootView.synchronizedSize, .zero)
-        
+
         // 업데이트된 동기화된 크기 확인
         RunLoop.main.run(until: Date())
         XCTAssertNotEqual(rootView.synchronizedSize, .zero)
@@ -341,7 +426,18 @@ class PreferenceKeyTests: XCTestCase {
 
 ## 7. 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SwiftUI에서 PreferenceKey를 사용하면 뷰에서 고급 사용자 정의 및 동적 동작을 구현할 수 있습니다. 이 안내를 따라가면 PreferenceKey를 활용하여 SwiftUI 애플리케이션에서 반응형 및 상호작용 가능한 사용자 인터페이스를 만들 수 있습니다.
 

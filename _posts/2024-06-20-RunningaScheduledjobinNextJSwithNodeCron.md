@@ -3,16 +3,13 @@ title: "NextJS에서 Node Cron을 사용해 예약 작업 실행하기"
 description: ""
 coverImage: "/assets/img/2024-06-20-RunningaScheduledjobinNextJSwithNodeCron_0.png"
 date: 2024-06-20 01:35
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-RunningaScheduledjobinNextJSwithNodeCron_0.png
 tag: Tech
 originalTitle: "Running a Scheduled job in NextJS with Node Cron"
 link: "https://medium.com/@farmaan30327/running-a-scheduled-job-in-nextjs-with-node-cron-77f0433a713b"
 isUpdated: true
 ---
-
-
-
 
 ![2024-06-20-RunningaScheduledjobinNextJSwithNodeCron](/assets/img/2024-06-20-RunningaScheduledjobinNextJSwithNodeCron_0.png)
 
@@ -22,7 +19,18 @@ Next.js에서 Cron 작업을 소개합니다. Vercel Cron과 같은 외부 서�
 
 필요한 패키지를 설치하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm i node-cron
@@ -33,52 +41,61 @@ npm i node-cron
 서버.js 설정
 
 ```js
-const express = require('express');
-const next = require('next');
-const axios = require('axios');
+const express = require("express");
+const next = require("next");
+const axios = require("axios");
 
-const dev = process.env.NODE_ENV !== 'production';
+const dev = process.env.NODE_ENV !== "production";
 const app = next({ dev });
 const handle = app.getRequestHandler();
 
 //
-const http = require('http');
-const socketIO = require('socket.io');
+const http = require("http");
+const socketIO = require("socket.io");
 //
 
 app.prepare().then(async () => {
-    const server = express();
-    const httpServer = http.createServer(server);
+  const server = express();
+  const httpServer = http.createServer(server);
 
-    // 스케줄러
-    const runScheduler = async () => {
-        try {
-            const response = await axios.post(`${당신의_기본_URL}/api/services/scheduler`,
-                {
-                    headers: {
-                        "Content-Type": "application/json"
-                    }
-                }
-            )
-        } catch (error) {
-            console.log(error)
-        }
+  // 스케줄러
+  const runScheduler = async () => {
+    try {
+      const response = await axios.post(`${당신의_기본_URL}/api/services/scheduler`, {
+        headers: {
+          "Content-Type": "application/json",
+        },
+      });
+    } catch (error) {
+      console.log(error);
     }
+  };
 
-    server.all('*', (req, res) => {
-        return handle(req, res);
-    });
+  server.all("*", (req, res) => {
+    return handle(req, res);
+  });
 
-    const PORT = process.env.PORT || 3000;
-    httpServer.listen(PORT, () => {
-        console.log(`서버가 http://localhost:${PORT}에서 실행 중입니다.`);
+  const PORT = process.env.PORT || 3000;
+  httpServer.listen(PORT, () => {
+    console.log(`서버가 http://localhost:${PORT}에서 실행 중입니다.`);
 
-        runScheduler();
-    });
+    runScheduler();
+  });
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스텝 3
 
@@ -87,38 +104,44 @@ app.prepare().then(async () => {
 ```js
 import { NextResponse } from "next/server";
 
-var cron = require('node-cron');
+var cron = require("node-cron");
 
 export async function POST(req, res) {
+  try {
+    cron.schedule("*/20 * * * *", async () => {
+      console.log("");
+      console.log("######################################");
+      console.log("#                                    #");
+      console.log("# 매 20분마다 스케줄러 실행됨              #");
+      console.log("#                                    #");
+      console.log("######################################");
+      console.log("");
 
-    try {
+      // 여기에서 작업을 수행하세요
+    });
 
-        cron.schedule('*/20 * * * *', async () => {
-
-            console.log('')
-            console.log('######################################')
-            console.log('#                                    #')
-            console.log('# 매 20분마다 스케줄러 실행됨              #')
-            console.log('#                                    #')
-            console.log('######################################')
-            console.log('')
-
-            // 여기에서 작업을 수행하세요
-        });
-
-        return NextResponse.json({ data: '성공', status: 200 });
-
-    } catch (error) {
-        console.log(error)
-        return NextResponse.json({ error: error }, { status: 500 })
-    }
-
+    return NextResponse.json({ data: "성공", status: 200 });
+  } catch (error) {
+    console.log(error);
+    return NextResponse.json({ error: error }, { status: 500 });
+  }
 }
 ```
 
 - 크론 타이밍은 Crontab.guru를 통해 설정할 수 있습니다. — 크론 스케줄 표현식 생성기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Next.js에서 cron 작업을 구현하는 것을 살펴봐 주셔서 감사합니다. 이 가이드가 Next.js 애플리케이션에서 예약 작업을 활용하는 데 유용한 통찰을 제공했기를 바랍니다. 궁금한 점이 있거나 도전에 직면하거나 단순히 생각을 공유하고 싶다면 망설이지 말고 연락해 주세요. 귀하의 피드백은 저희에게 매우 소중합니다. 귀하와 같은 개발자들을 위해 콘텐츠를 만들어 가는 데 큰 영감을 받습니다. 즐거운 코딩하세요!
 

@@ -3,16 +3,13 @@ title: "대학에서도 배울 수 없는 프로그래밍 스킬 5가지"
 description: ""
 coverImage: "/assets/img/2024-06-22-ProgrammingSkillsThatAnyUniversityCantTeachYou_0.png"
 date: 2024-06-22 13:56
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-ProgrammingSkillsThatAnyUniversityCantTeachYou_0.png
 tag: Tech
 originalTitle: "Programming Skills That Any University Can’t Teach You"
 link: "https://medium.com/stackademic/programming-skills-that-any-university-cant-teach-you-480d677959e7"
 isUpdated: true
 ---
-
-
-
 
 ## 일
 
@@ -33,7 +30,18 @@ isUpdated: true
 - 작성된 모든 코드, 심지어 테스트 및 완벽히 디자인된 코드도 부채입니다. 소프트웨어의 복잡성은 코드의 크기에 지수적으로 증가합니다. 각 기능을 개발하고 유지하는 데 비용이 들죠, 사용되지 않아도. 불필요한 코드는 작성하지 말고, 더 이상 필요하지 않은 기능을 제거하고 가능한 한 최소한의 코드를 작성하세요. 그 페어는 구현하는 기능이 드는 비용보다 훨씬 많이 가져오는 것을 확실하게 하세요.
 - 디자인, 선택 사항, 문서 등은 대부분 디자이너의 머리 속에 있습니다. 이 정보는 흔히 완벽하게 전달되지 않습니다. 팀이 완전히 새롭게 구성되면, 신입사원들은 기존 소프트웨어의 디자인과 논리를 제대로 이해하지 못할 수 있고 다르게 작업할 수 있습니다. 이것을 너무 빨리, 너무 자주(프로젝트에서 누가 코딩하는지 변경하는 것) 한 경우에는 너무 많은 다른 시각을 축적하여 여러분의
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 스택데믹 🎓
 

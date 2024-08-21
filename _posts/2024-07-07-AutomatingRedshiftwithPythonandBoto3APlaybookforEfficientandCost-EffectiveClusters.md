@@ -3,15 +3,13 @@ title: "Python과 Boto3로 Redshift 자동화 효율적이고 비용 효과적�
 description: ""
 coverImage: "/assets/img/2024-07-07-AutomatingRedshiftwithPythonandBoto3APlaybookforEfficientandCost-EffectiveClusters_0.png"
 date: 2024-07-07 21:41
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-AutomatingRedshiftwithPythonandBoto3APlaybookforEfficientandCost-EffectiveClusters_0.png
 tag: Tech
 originalTitle: "Automating Redshift with Python and Boto3: A Playbook for Efficient and Cost-Effective Clusters"
 link: "https://medium.com/@thedataengineeringblogpost/automating-redshift-with-python-and-boto3-a-playbook-for-efficient-and-cost-effective-clusters-1fc10e1130fb"
 isUpdated: true
 ---
-
-
 
 <img src="/assets/img/2024-07-07-AutomatingRedshiftwithPythonandBoto3APlaybookforEfficientandCost-EffectiveClusters_0.png" />
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 Redshift 자동화의 흥미로운 세계로 뛰어들기 전에 시작할 준비가 되어 있는지 확인해보겠습니다. 이 섹션에서는 AWS Redshift 환경 및 Python 설정에 필요한 필수 준비 사항을 안내해 드릴 것입니다. 🌐🐍
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - ☁️AWS 계정: Redshift를 사용해보기 위해 무료 체험을 신청해보세요.
 - 🐍 파이썬 설치: Redshift와 원할하게 대화하기 위해 공식 웹사이트에서 다운로드하세요.
@@ -39,7 +48,18 @@ Redshift 자동화의 흥미로운 세계로 뛰어들기 전에 시작할 준�
 - 스냅샷: 데이터의 가장 친한 친구 📸
 - 효율적인 클러스터 관리 스크립트 📝
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 📚자료 섹션
 
@@ -50,7 +70,18 @@ Redshift 자동화의 흥미로운 세계로 뛰어들기 전에 시작할 준�
 
 시작해 볼까요? 여러분만의 Redshift 클러스터를 설정해 봅시다. 다음 단계를 따라 주세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - AWS Management Console에 로그인하세요: Redshift 서비스로 이동해주세요 🔍.
 - 클러스터 생성하기: '클러스터 생성'을 클릭하세요. 클러스터 식별자, 노드 유형, 데이터베이스 구성과 같은 세부 정보를 입력해주세요 🛠️.
@@ -65,7 +96,18 @@ Redshift 자동화의 흥미로운 세계로 뛰어들기 전에 시작할 준�
 
 # Python 및 Boto3를 활용한 클러스터 생성 자동화 🚀
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 섹션에서는 Boto3와 Python을 사용하여 Redshift 클러스터를 생성하는 방법을 배우게 될 거에요. 이 안내서를 통해 상세한 코드 예제와 설명을 통해 과정을 안내할 거에요.
 
@@ -75,7 +117,18 @@ Redshift 자동화의 흥미로운 세계로 뛰어들기 전에 시작할 준�
 
 ![Redshift Cluster Creation](/assets/img/2024-07-07-AutomatingRedshiftwithPythonandBoto3APlaybookforEfficientandCost-EffectiveClusters_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 Python 스크립트는 Boto3를 사용하여 Amazon Redshift 클러스터를 생성합니다. 특정 매개변수로 클러스터를 설정하고 클러스터의 상태를 지속적으로 확인하여 사용 가능해질 때까지 기다립니다. 클러스터를 사용할 수 있게 되면 확인 메시지를 출력합니다.
 
@@ -85,7 +138,18 @@ Redshift 자동화의 흥미로운 세계로 뛰어들기 전에 시작할 준�
 
 동일한 코드에 대한 링크 📎.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 가이드를 따라하면 Python과 Boto3를 사용하여 Redshift 클러스터를 효율적으로 생성할 수 있습니다. 다음 섹션에서는 클러스터 일시 중지 및 재개에 대해 배울 것입니다 ⏸️▶️
 
@@ -95,7 +159,18 @@ Redshift 자동화의 흥미로운 세계로 뛰어들기 전에 시작할 준�
 
 # 1. 클러스터 재개하기 ▶️
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 클러스터를 다시 시작해보겠습니다. 아래는 코드 설명입니다:
 
@@ -105,7 +180,18 @@ Redshift 자동화의 흥미로운 세계로 뛰어들기 전에 시작할 준�
 
 ## 비디오 자습서
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 코드가 어떻게 실행되는지 확인하려면 이 비디오 튜토리얼을 확인해보세요:
 
@@ -115,7 +201,18 @@ Redshift 자동화의 흥미로운 세계로 뛰어들기 전에 시작할 준�
 
 다음으로 클러스터를 일시 중지하는 방법에 대해 배워봅시다. 여기 코드 설명이 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Redshift Cluster Pause](/assets/img/2024-07-07-AutomatingRedshiftwithPythonandBoto3APlaybookforEfficientandCost-EffectiveClusters_3.png)
 
@@ -125,7 +222,18 @@ The code snippet creates a Redshift client using Boto3 to pause ⏸️ a Redshif
 
 Check out this video tutorial to see the execution of the code in action:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 가이드를 따르면 Redshift 클러스터를 자동으로 다시 작동하고 일시 중지하는 프로세스를 효율적으로 관리할 수 있습니다. 이는 비용을 절약하고 클러스터가 필요할 때만 작동되도록 보장하는 데 도움이 될 수 있습니다.
 
@@ -133,7 +241,18 @@ Check out this video tutorial to see the execution of the code in action:
 
 # 모든 Redshift 클러스터를 한 번에 일시 중지하기 ⏸️📊
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 섹션에서는 Python과 Boto3를 사용하여 모든 실행 중인 Redshift 클러스터를 자동으로 일시 중지하는 멋진 프로젝트를 살펴보겠습니다. 이 자동화는 비용을 절약하고 클러스터 관리를 간편화할 수 있습니다.
 
@@ -143,7 +262,18 @@ Check out this video tutorial to see the execution of the code in action:
 
 ## 비디오 자습서
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 코드 실행을 보고 싶다면 이 비디오 튜토리얼을 확인해보세요:
 
@@ -153,7 +283,18 @@ Check out this video tutorial to see the execution of the code in action:
 
 모든 클러스터 일시 중지 및 모든 클러스터 재개는 다양한 시나리오에서 매우 유익할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 예정된 다운타임: AWS Lambda와 이벤트 트리거를 사용하여 클러스터가 사용되지 않을 때 오후 6시에 모든 클러스터를 일시 중지하는 스크립트를 자동으로 예약 할 수 있습니다.
 - 비용 관리: 필요한 시간인 아침 9시 전에 스크립트를 예약하여 모든 클러스터를 자동으로 다시 시작하면 효율적인 클러스터 이용과 비용 관리가 보장됩니다.
@@ -164,7 +305,18 @@ Check out this video tutorial to see the execution of the code in action:
 
 # 전문가처럼 클러스터 관리하기 🔍
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 섹션에서는 Python 및 Boto3를 사용하여 Amazon Redshift 클러스터를 관리하는 내용을 살펴보겠습니다. 모든 클러스터를 볼 수 있는 방법과 특정 클러스터를 삭제하는 방법을 다룰 것입니다.
 
@@ -174,7 +326,18 @@ Check out this video tutorial to see the execution of the code in action:
 
 ![image](/assets/img/2024-07-07-AutomatingRedshiftwithPythonandBoto3APlaybookforEfficientandCost-EffectiveClusters_5.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 코드는 Boto3를 사용하여 지정된 지역(us-east-1)의 AWS Redshift 서비스에 연결하고 모든 클러스터 식별자의 목록을 검색합니다. 이 목록은 당신의 필요에 따라 필터링 및 정렬과 같은 추가 작업에 유용할 수 있습니다.
 
@@ -184,7 +347,18 @@ Check out this video tutorial to see the execution of the code in action:
 
 동일한 코드에 대한 링크 📎.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 실제 활용:
 
@@ -194,7 +368,18 @@ Check out this video tutorial to see the execution of the code in action:
 
 이제 Redshift 클러스터를 프로그래밍 방식으로 삭제하는 방법을 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-07-07-AutomatingRedshiftwithPythonandBoto3APlaybookforEfficientandCost-EffectiveClusters_6.png)
 
@@ -204,7 +389,18 @@ Check out this video tutorial to see the execution of the code in action:
 
 실제 코드 실행을 확인하려면 이 비디오 튜토리얼을 확인하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 동일한 코드에 대한 링크 📎
 
@@ -214,7 +410,18 @@ Check out this video tutorial to see the execution of the code in action:
 
 이 섹션에서는 Redshift 스냅샷의 세계에 대해 알아볼 것입니다. 데이터 백업 및 복구를위한 중요한 기능인 스냅샷을 다룰 것입니다. 포함될 내용은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - **스냅샷이란 무엇인가요?**
 - **스냅샷 목록을 위한 코드 Walkthrough**
@@ -227,7 +434,18 @@ Amazon Redshift에서 스냅샷은 클러스터의 데이터와 메타데이터�
 
 **# 스냅샷 목록을 위한 코드 Walkthrough**
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Redshift 스냅샷을 관리하기 위해, 특정 클러스터에 대한 모든 스냅샷을 나열하는 것부터 시작해보세요.
 
@@ -237,7 +455,18 @@ Redshift 스냅샷을 관리하기 위해, 특정 클러스터에 대한 모든 
 
 ## 비디오 튜토리얼
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해당 코드 실행 과정을 확인하려면 이 비디오 튜토리얼을 확인해보세요:
 
@@ -247,7 +476,18 @@ Redshift 스냅샷을 관리하기 위해, 특정 클러스터에 대한 모든 
 
 스냅샷을 만들면 클러스터의 현재 상태를 백업하여 필요 시 나중에 복원할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-07-AutomatingRedshiftwithPythonandBoto3APlaybookforEfficientandCost-EffectiveClusters_8.png)
 
@@ -257,7 +497,18 @@ Redshift 스냅샷을 관리하기 위해, 특정 클러스터에 대한 모든 
 
 실행 중인 코드를 보려면 이 비디오 튜토리얼을 확인해보세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 동일한 코드에 대한 링크를 첨부합니다 📎.
 
@@ -267,7 +518,18 @@ Redshift 스냅샷을 관리하기 위해, 특정 클러스터에 대한 모든 
 
 # 효율적인 클러스터 관리 스크립트 📝
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 프로젝트는 Redshift 클러스터를 관리하는 포괄적인 스크립트를 보여줍니다. 클러스터를 재개하거나 데이터베이스를 생성하고 스냅샷을 찍거나 클러스터를 일시 중지하는 등의 작업이 가능합니다.
 
@@ -277,7 +539,18 @@ Redshift 스냅샷을 관리하기 위해, 특정 클러스터에 대한 모든 
 
 ![워크스루](/assets/img/2024-07-07-AutomatingRedshiftwithPythonandBoto3APlaybookforEfficientandCost-EffectiveClusters_9.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-07-AutomatingRedshiftwithPythonandBoto3APlaybookforEfficientandCost-EffectiveClusters_10.png" />
 
@@ -287,7 +560,18 @@ Redshift 스냅샷을 관리하기 위해, 특정 클러스터에 대한 모든 
 
 실행 중인 코드를 확인하려면 이 비디오 자습서를 확인해보세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 링크를 마크다운 형식으로 변경하세요 📎.
 
@@ -297,7 +581,18 @@ Redshift 스냅샷을 관리하기 위해, 특정 클러스터에 대한 모든 
 
 제공된 단계와 코드 예제를 따르면 Redshift 클러스터 관리를 자동화하여 최적의 성능과 비용 절감을 보장할 수 있습니다. 효율적인 Redshift 클러스터 관리는 비용을 절약할 뿐만 아니라 데이터 처리 능력을 향상시켜 데이터 작업을 더 견고하고 신뢰할 수 있게 만듭니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 많은 고급 기술과 프로젝트가 있는 것을 기대해 주세요. AWS 관리 기술을 더 향상시킬 수 있도록 도와 드리겠습니다. 자동화 작업을 즐기세요! 🚀💼
 
@@ -307,7 +602,18 @@ Redshift 스냅샷을 관리하기 위해, 특정 클러스터에 대한 모든 
 
 이제 Redshift 클러스터를 관리하는 탄탄한 기초가 있으므로, 다음과 같은 고급 주제를 탐험해 볼 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Redshift 클러스터에 대한 보안 모범 사례를 구현합니다.
 - Redshift를 다른 AWS 서비스와 통합하여 포괄적인 데이터 솔루션을 구축합니다.

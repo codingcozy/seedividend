@@ -3,17 +3,13 @@ title: "고급 CSS 애니메이션 만드는 방법 3가지"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Advanced CSS Animations and Examples"
 link: "https://medium.com/@eleftheriabatsou/advanced-css-animations-and-examples-7199e19f6e5d"
 isUpdated: true
 ---
-
-
-
-
 
 ## Keyframes, transforms, and transitions. 어떻게 동적이고 매력적인 애니메이션을 만들기 위해 사용될 수 있는지.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # Keyframes: 동적인 모션을 만들어내는 방법
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Keyframes는 CSS 애니메이션의 기본이며 복잡하고 다단계 애니메이션을 만들 수 있게 합니다. 여러 개의 keyframes를 포함한 예제를 살펴보겠습니다:
 
@@ -43,7 +50,18 @@ Keyframes는 CSS 애니메이션의 기본이며 복잡하고 다단계 애니�
 
 CSS 애니메이션의 Keyframes는 애니메이션 과정을 정밀하게 제어할 수 있어 복잡한 움직임 시퀀스를 만들 수 있습니다. 추가 예제를 살펴보겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 여러 키프레임을 사용한 순차 애니메이션
 
@@ -62,7 +80,18 @@ CSS 애니메이션의 Keyframes는 애니메이션 과정을 정밀하게 제�
 
 ## 복잡한 애니메이션 순서
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 @키프레임 spinAndColor {
@@ -92,7 +121,18 @@ CSS 애니메이션의 Keyframes는 애니메이션 과정을 정밀하게 제�
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기, fadeAndGrow 애니메이션은 요소를 서서히 희미해지면서 동시에 확대하여 부드럽고 매력적인 효과를 만듭니다.
 
@@ -117,7 +157,18 @@ CSS 애니메이션의 Keyframes는 애니메이션 과정을 정밀하게 제�
 
 이 예시는 두 개의 별도 키프레임 애니메이션(move 및 rotate)이 동시에 적용된 요소에 대해 수행되어 수평으로 이동하면서 동시에 회전할 수 있도록 가능케 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 변형: 요소 모양 변경
 
@@ -136,7 +187,18 @@ CSS 변형은 요소를 이동, 회전, 확대 또는 비틀 수 있는 여러 �
 
 이 예에서 상자 요소를 가리킬 때, 요소가 중심을 중심으로 시계 방향으로 180도 회전하면서 동시에 원래 크기의 1.5배로 확대됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 여러 개의 변형 함수를 결합하기
 
@@ -150,7 +212,18 @@ CSS 변형은 요소를 이동, 회전, 확대 또는 비틀 수 있는 여러 �
 
 ## 3D 변형
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .cube {
@@ -177,7 +250,18 @@ preserve-3d를 rotateY와 rotateX와 함께 사용하여 이 예제는 Y축과 X
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 정사각형 요소를 가리킬 때 지정된 transform-origin으로 인해 180도 돌아가는 부드러운 회전 효과가 생성됩니다.
 
@@ -197,7 +281,18 @@ preserve-3d를 rotateY와 rotateX와 함께 사용하여 이 예제는 Y축과 X
 
 growAndRotate 키프레임 애니메이션은 .shape 요소를 점차 확대하고 회전시키며, 성장 후 180도 뒤집히고 전체 360도 회전하는 시퀀스를 만듭니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS 변환은 창의적으로 결합하고 적용할 때, 웹사이트/앱의 시각적 효과를 놀라우게 향상시키며 사용자 상호작용을 향상시킬 수 있습니다. 각 변환 함수의 세세한 부분을 이해하고 그들의 조합을 탐험함으로써, 웹 요소의 미적 감각과 상호작용성을 상당히 높일 수 있습니다.
 
@@ -207,7 +302,18 @@ CSS 변환은 창의적으로 결합하고 적용할 때, 웹사이트/앱의 �
 
 ## 매끈한 요소 변경
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .button {
@@ -236,7 +342,18 @@ CSS 변환은 창의적으로 결합하고 적용할 때, 웹사이트/앱의 �
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용자 정의 cubic-bezier 타이밍 함수를 적용하여 `.element`이 호버될 때 부드럽게 확대되며, 전환에 대한 고유한 애니메이션 곡선을 제공합니다.
 
@@ -255,7 +372,18 @@ CSS 변환은 창의적으로 결합하고 적용할 때, 웹사이트/앱의 �
 
 여기서는 버튼 요소의 `background-color` 및 `color` 속성 모두에 전환 효과가 적용되어, 호버 효과가 발생할 때 두 속성 모두 부드럽게 변경됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 트랜지션 지연
 
@@ -273,7 +401,18 @@ CSS 변환은 창의적으로 결합하고 적용할 때, 웹사이트/앱의 �
 
 ## 높이와 너비의 트랜지션
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .box {
@@ -295,7 +434,18 @@ CSS 변환은 창의적으로 결합하고 적용할 때, 웹사이트/앱의 �
 
 # Quicky: 고급 애니메이션 속성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기본적인 내용을 넘어서서, 몇 가지 잘 알려지지 않은 고급 애니메이션 속성을 살펴보겠습니다:
 
@@ -307,7 +457,18 @@ CSS 변환은 창의적으로 결합하고 적용할 때, 웹사이트/앱의 �
 
 CSS 애니메이션의 힘을 활용하고 고급 기술을 탐구함으로써, 매력적이고 상호작용성 있는 웹 경험을 만들 수 있습니다. 이러한 기술은 창의성과 혁신의 문을 열어줍니다. 사용자의 관심을 사로잡고 전반적인 사용자 경험을 높일 수 있는 기억에 남고 매력적인 디지털 콘텐츠를 만들 수 있게 해줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 키프레임, 변형, 트랜지션 및 고급 애니메이션 속성을 확실히 이해하면 정적 디자인을 매력적이고 동적인 걸작으로 변형하는 고급 웹 애니메이션의 세계로 자신있게 진출할 수 있습니다. 실험과 탐험이 중요합니다. 도전하고 경계를 넓혀 예외적인 웹 애니메이션을 만들어보세요.
 
@@ -317,7 +478,18 @@ CSS 애니메이션의 힘을 활용하고 고급 기술을 탐구함으로써, 
 
 🔗 모든 링크 | X | 링크드인
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사이트: https://blog.eleftheriabatsou.com
 게시 날짜: 2024년 1월 2일.

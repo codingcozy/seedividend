@@ -3,16 +3,13 @@ title: "HTML, CSS, JavaScript로 이미지 슬라이더 쉽게 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-22-ImagesliderusingvanillaHTMLCSSandJavaScript_0.png"
 date: 2024-06-22 03:48
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-ImagesliderusingvanillaHTMLCSSandJavaScript_0.png
 tag: Tech
 originalTitle: "Image slider using vanilla HTML, CSS and JavaScript"
 link: "https://medium.com/codex/image-slider-using-vanilla-html-css-and-javascript-b95c7fe16955"
 isUpdated: true
 ---
-
-
-
 
 요즘에 작은 웹 사이트를 개발 중입니다. 이 웹 사이트는 프레임워크나 외부 라이브러리에 의존하지 않습니다. 유일한 복잡한 기능은 이미지 슬라이더를 표시하는 것이었습니다.
 
@@ -24,7 +21,18 @@ isUpdated: true
 
 이 기사에서는 시도해 본 세 가지 해결책을 공유하겠습니다. 처음 두 가지는 순수한 HTML/CSS를 기반으로 하지만 결과물에 몇 가지 측면이 부족합니다. 세 번째 해결책은 모든 요구 사항을 충족한 최종 해결책인데, 몇 줄의 JavaScript를 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 1. 라디오 버튼과 레이블을 사용한 기본적인 슬라이드 토글러
 
@@ -34,16 +42,23 @@ isUpdated: true
 
 루트 슬라이더 div에는 두 개의 내부 div가 포함되어 있습니다: 하나는 슬라이드용이고 또 다른 하나는 슬라이더 탐색을 위한 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <div class="slider">
-    <div class="slides">
-        ...
-    </div>
-    <div class="slider-nav">
-        ...
-    </div>
+  <div class="slides">...</div>
+  <div class="slider-nav">...</div>
 </div>
 ```
 
@@ -74,15 +89,32 @@ isUpdated: true
 
 라디오 요소 그룹 내에서는 한 가지 값만 선택할 수 있습니다. 따라서 CSS로 한 슬라이드만 표시됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 라디오 입력란은 슬라이더 내비게이션 디브에 배치된 레이블 엘리먼트에 의해 활성화됩니다:
 
 ```js
 <div class="slider-nav">
-  <label for="radio_slider1_slide1"><img src="../common/dot.svg" /></label>
-  <label for="radio_slider1_slide2"><img src="../common/dot.svg" /></label>
-  <label for="radio_slider1_slide3"><img src="../common/dot.svg" /></label>
+  <label for="radio_slider1_slide1">
+    <img src="../common/dot.svg" />
+  </label>
+  <label for="radio_slider1_slide2">
+    <img src="../common/dot.svg" />
+  </label>
+  <label for="radio_slider1_slide3">
+    <img src="../common/dot.svg" />
+  </label>
 </div>
 ```
 
@@ -107,7 +139,18 @@ isUpdated: true
 </div>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 스타일에 대해:
 
@@ -131,7 +174,18 @@ isUpdated: true
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 코드
 
@@ -141,7 +195,18 @@ isUpdated: true
 
 ## 장단점
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ✅ HTML/CSS 만 사용
 
@@ -151,7 +216,18 @@ isUpdated: true
 
 # 2. 앵커와 링크를 사용하여 스크롤 슬라이더
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 솔루션에서는 라디오 버튼이 제거되었고, 선택을 위해 레이블 대신 앵커 링크를 사용하게 되었습니다.
 
@@ -191,7 +267,18 @@ CSS 부분에서는 모든 슬라이드가 .slides 컨테이너 안에 표시되
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 .slide의 너비를 100%로 설정하면 컨테이너의 너비가 자식 슬라이드들 사이에 공유됩니다. 각 슬라이드가 최소한 100%의 너비를 차지하려면 .slide 요소에 "min-width: 100%"을 사용하는 것이 좋습니다.
 
@@ -210,7 +297,18 @@ CSS 부분에서는 모든 슬라이드가 .slides 컨테이너 안에 표시되
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 코드
 
@@ -220,7 +318,18 @@ CSS 부분에서는 모든 슬라이드가 .slides 컨테이너 안에 표시되
 
 ✅ 수평 스크롤을 통해 터치 기기에서 슬라이딩 제스처의 이점을 누릴 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ❗ 이전 및 다음 버튼의 경우, 가로 스크롤 동작 때문에 그냥 각 슬라이드에 바로 연결하는 것은 방지되어 있습니다. 그렇지 않으면 슬라이드와 함께 가로로 이동하여 결과물이 보기 좋지 않다.
 
@@ -230,7 +339,18 @@ CSS 부분에서는 모든 슬라이드가 .slides 컨테이너 안에 표시되
 
 # 3. JavaScript를 사용하여 스크롤 슬라이더 만들기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 솔루션에서는 수평 스크롤이 유지됩니다. .slider-nav에는 이제 라디오 버튼과 이전/다음 화살표가 포함될 것입니다.
 
@@ -275,48 +395,59 @@ CSS 부분에서는 모든 슬라이드가 .slides 컨테이너 안에 표시되
 - 라디오 선택(점)이 변경되면, 스크롤바 위치도 그에 따라 업데이트됩니다: radioChanged().
 - 스크롤바 위치가 업데이트되면(터치 디바이스 스크롤링), 라디오 버튼의 선택 및 이전 및 다음 화살표의 표시가 업데이트됩니다: scrolled().
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 function arrowClicked(event, direction) {
-    var slides = event.target.parentElement.parentElement.parentElement.getElementsByClassName('slides')[0];
-    slides.scrollLeft += direction * slides.scrollWidth / slides.childElementCount;
+  var slides = event.target.parentElement.parentElement.parentElement.getElementsByClassName("slides")[0];
+  slides.scrollLeft += (direction * slides.scrollWidth) / slides.childElementCount;
 }
 
 function radioChanged(event) {
-    var radio = document.getElementById(event.target.id);
-    var radioIndex = [...radio.parentElement.children].indexOf(radio);
-    var slides = radio.parentElement.parentElement.parentElement.getElementsByClassName('slides')[0];
-    slides.scrollLeft = radioIndex / slides.childElementCount * slides.scrollWidth;
+  var radio = document.getElementById(event.target.id);
+  var radioIndex = [...radio.parentElement.children].indexOf(radio);
+  var slides = radio.parentElement.parentElement.parentElement.getElementsByClassName("slides")[0];
+  slides.scrollLeft = (radioIndex / slides.childElementCount) * slides.scrollWidth;
 }
 
 function scrolled(event) {
-    var id = event.target.parentElement.id;
-    var slides = document.getElementById(id).getElementsByClassName('slides')[0];
-    var scrollRatio = slides.scrollLeft / slides.scrollWidth;
+  var id = event.target.parentElement.id;
+  var slides = document.getElementById(id).getElementsByClassName("slides")[0];
+  var scrollRatio = slides.scrollLeft / slides.scrollWidth;
 
-    var radioId = 'radio_' + id + '_slide';
-    var size = slides.childElementCount;
+  var radioId = "radio_" + id + "_slide";
+  var size = slides.childElementCount;
 
-    for (let i = 1; i <= size; i++) {
-        if (scrollRatio + 0.5 / size < i / size) {
-            document.getElementById(radioId + i).checked = true;
+  for (let i = 1; i <= size; i++) {
+    if (scrollRatio + 0.5 / size < i / size) {
+      document.getElementById(radioId + i).checked = true;
 
-            if (i == 1) {
-                document.getElementById(id).getElementsByClassName('previous')[0].style.visibility = "hidden";
-            } else {
-                document.getElementById(id).getElementsByClassName('previous')[0].style.visibility = "visible";
-            }
+      if (i == 1) {
+        document.getElementById(id).getElementsByClassName("previous")[0].style.visibility = "hidden";
+      } else {
+        document.getElementById(id).getElementsByClassName("previous")[0].style.visibility = "visible";
+      }
 
-            if (i == size) {
-                document.getElementById(id).getElementsByClassName('next')[0].style.visibility = "hidden";
-            } else {
-                document.getElementById(id).getElementsByClassName('next')[0].style.visibility = "visible";
-            }
+      if (i == size) {
+        document.getElementById(id).getElementsByClassName("next")[0].style.visibility = "hidden";
+      } else {
+        document.getElementById(id).getElementsByClassName("next")[0].style.visibility = "visible";
+      }
 
-            break;
-        }
+      break;
     }
+  }
 }
 ```
 
@@ -361,7 +492,18 @@ document.addEventListener("DOMContentLoaded", function () {
 
 ## 코드
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 결과
 
@@ -371,7 +513,18 @@ document.addEventListener("DOMContentLoaded", function () {
 
 ❌ 자바스크립트를 사용하면 다른 종속성이 추가되어 유지보수 문제가 늘어날 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ✅ 가로 스크롤로 인해 터치 장치에서 슬라이딩 제스처를 활용할 수 있습니다.
 
@@ -381,7 +534,18 @@ document.addEventListener("DOMContentLoaded", function () {
 
 이 프로젝트에서 다음과 같은 문제를 마주쳤습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - "border-radius" 속성 사용
 - 이미지의 가로세로 비율을 유지하기 위해 "object-fit: contain" 사용
@@ -393,8 +557,18 @@ document.addEventListener("DOMContentLoaded", function () {
 
 나는 이미지를 프록시 div .content 안에 캡슐화함으로써 이 문제를 해결했습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <div class="slide" id="slider1_slide1">
     <div class="content">
@@ -402,36 +576,45 @@ document.addEventListener("DOMContentLoaded", function () {
     </div>
 </div>
 
-
 CSS로:
 
 ```css
 .slider .slide {
-    min-width: 100%;
-    display: flex;
-    justify-content: center;
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .slider .slides .content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 400px;
-    width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 400px;
+  width: 100%;
 }
 
 .slider .slides .content img {
-    max-width: 100%;
-    max-height: 400px;
-    object-fit: contain;
-    border-radius: 10px;
+  max-width: 100%;
+  max-height: 400px;
+  object-fit: contain;
+  border-radius: 10px;
 }
 ```
 
 이미지 출처
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Werner Sevenster: 갈색 목재 울타리 사이 도로
 - Casey Horner: 낮에 초록 산 사이 폭포

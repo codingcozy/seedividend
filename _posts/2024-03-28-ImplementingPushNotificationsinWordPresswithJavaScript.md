@@ -3,17 +3,13 @@ title: "워드프레스에서 자바스크립트를 사용하여 푸시 알림 �
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Implementing Push Notifications in WordPress with JavaScript"
 link: "https://medium.com/@volodymyrzh/implementing-push-notifications-in-wordpress-with-javascript-4ba910832e46"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/ImplementingPushNotificationsinWordPresswithJavaScript_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 푸시 알림은 브라우저나 웹 애플리케이션이 닫혀 있을 때에도 사용자의 데스크톱이나 모바일 기기로 전송될 수 있는 메시지입니다. 이러한 알림은 사용자들과 다시 소통하거나 콘텐츠를 홍보하거나 새 글이나 댓글을 알리는 데 강력한 도구가 될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 서비스 워커 설정하기
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 # 서비스 워커 생성하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 워드프레스 테마 디렉토리에 sw.js라는 이름의 새 JavaScript 파일을 생성하세요. 이 파일은 서비스 워커로 사용될 것입니다.
 
@@ -54,7 +72,18 @@ self.addEventListener("push", function (event) {
 
 # 서비스 워커 등록하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 서비스 워커를 등록하려면 WordPress 테마의 푸터(예: footer.php)에 다음 JavaScript 코드를 추가하십시오. 닫히는 `/body` 태그 앞에 넣어주세요.
 
@@ -78,7 +107,18 @@ self.addEventListener("push", function (event) {
 
 서비스 워커를 설정한 후, 다음 단계는 푸시 알림을 통합하는 것입니다. 이에는 사용자에게 알림 수신 권한을 요청하고 알림 서비스에 구독하는 과정이 포함됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 알림 권한 요청
 
@@ -99,7 +139,18 @@ self.addEventListener("push", function (event) {
 
 그리고, CSS 및 JavaScript로 워드프레스에서 애니메이션 효과가 있는 진행 표시막을 만드는 방법을 알아보세요. https://medium.com/@volodymyrzh/creating-animated-progress-bars-in-wordpress-with-css-and-javascript-c22f7118c4a5
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 알림 보내기
 
@@ -142,4 +193,15 @@ function send_push_notification($subscriber_id, $message) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

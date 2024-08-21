@@ -3,16 +3,13 @@ title: "가방 속의 고양이"
 description: ""
 coverImage: "/assets/img/2024-05-16-CatinaBag_0.png"
 date: 2024-05-16 17:28
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-16-CatinaBag_0.png
 tag: Tech
 originalTitle: "Cat in a Bag!"
 link: "https://medium.com/@juliaeveritt09/cat-in-a-bag-567d8c5b3bda"
 isUpdated: true
 ---
-
-
-
 
 제 최종 프로젝트는 '가방 안 고양이(Cat in a Bag)' 라는 게임입니다. 이 게임의 아이디어는 제 룸메이트가 기르는 퍼시라는 이름의 고양이에서 영감을 받았어요. 퍼시는 가방을 좋아하는 회색 고양이예요. 그녀가 가장 좋아하는 가방은 녹색 퍼블릭스 가방인데, 그 속에 숨어들어 가끔 마주쳤었죠. 아래에서 진짜 퍼시가 가방 안에 있는 모습을 보실 수 있어요!
 
@@ -22,8 +19,18 @@ isUpdated: true
 
 ![Cat in a Bag](/assets/img/2024-05-16-CatinaBag_0.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![CatinaBag_1](/assets/img/2024-05-16-CatinaBag_1.png)
 
@@ -33,7 +40,17 @@ Below is a video of my project in action.
 
 For future development, I think it would be cool to add more Arduino elements, such as buzzers or photoreceptors, to enhance the game with additional features. Instead of just moving a sprite on the screen, players could control sprite speed or collect power-ups. Implementing a points system would make the game more competitive, so players could strive to beat their own high scores in addition to beating the clock. Some aspects of the current game can be refined for more consistent gameplay. For example, if two wrong bags are clicked simultaneously, the Arduino might struggle to process the request to turn off two LEDs at the same time.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 전반적으로 내 프로젝트 결과물에 매우 만족하고 만들기 위해 들인 모든 노력을 배우는 것을 즐겼어요. 'Cat in a Bag' 게임 즐기시길 바랍니다!

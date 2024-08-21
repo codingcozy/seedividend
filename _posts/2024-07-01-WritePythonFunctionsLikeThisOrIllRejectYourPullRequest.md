@@ -3,16 +3,13 @@ title: "이렇게 파이썬 함수 작성 안 하면 PR 거부할 거야"
 description: ""
 coverImage: "/assets/img/2024-07-01-WritePythonFunctionsLikeThisOrIllRejectYourPullRequest_0.png"
 date: 2024-07-01 20:06
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-01-WritePythonFunctionsLikeThisOrIllRejectYourPullRequest_0.png
 tag: Tech
 originalTitle: "Write Python Functions Like This Or I’ll Reject Your Pull Request"
 link: "https://medium.com/gitconnected/write-python-functions-like-this-or-ill-reject-your-pull-request-d8aa501ab1c4"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-07-01-WritePythonFunctionsLikeThisOrIllRejectYourPullRequest_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 여기 간단한 함수가 있어요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 숫자 목록 `num_list`
 - 숫자 `num`

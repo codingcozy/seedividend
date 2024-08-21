@@ -3,16 +3,13 @@ title: "React State와 Props 컴포넌트에서 데이터 관리하기"
 description: ""
 coverImage: "/assets/img/2024-05-18-ReactStateandPropsManagingDatainYourComponents_0.png"
 date: 2024-05-18 22:14
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-18-ReactStateandPropsManagingDatainYourComponents_0.png
 tag: Tech
 originalTitle: "React State and Props: Managing Data in Your Components"
 link: "https://medium.com/@iammayank20/react-state-and-props-managing-data-in-your-components-366010fb1213"
 isUpdated: true
 ---
-
-
-
 
 ## 컴포넌트에서 데이터 관리하기
 
@@ -22,7 +19,18 @@ React에서 데이터를 효과적으로 관리하는 것은 동적이고 상호
 
 # Props와 State 설명
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 속성
 
@@ -44,7 +52,18 @@ function App() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예시에서 Greeting 컴포넌트는 name prop을 받아와 개인화된 인사를 렌더링합니다.
 
@@ -54,7 +73,18 @@ State는 컴포넌트 수명 동안 변경될 수 있는 데이터를 보유하�
 
 State 사용 예시
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import React, { useState } from "react";
@@ -82,8 +112,18 @@ function App() {
 
 Props를 통한 데이터 전달은 간단합니다. 부모 컴포넌트에서 속성을 정의하고 이를 props를 사용하여 자식 컴포넌트에서 액세스하면 됩니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시: 다중 프롭 전달
 
@@ -91,16 +131,16 @@ Props를 통한 데이터 전달은 간단합니다. 부모 컴포넌트에서 �
 function UserInfo(props) {
   return (
     <div>
-       <h2>{props.name}</h2> <p>Age: {props.age}</p> 
-      <p>Location: {props.location}</p> 
+      <h2>{props.name}</h2> <p>Age: {props.age}</p>
+      <p>Location: {props.location}</p>
     </div>
   );
 }
 function App() {
   return (
     <div>
-       <UserInfo name="Alice" age={25} location="뉴욕" />
-       <UserInfo name="Bob" age={30} location="샌프란시스코" /> 
+      <UserInfo name="Alice" age={25} location="뉴욕" />
+      <UserInfo name="Bob" age={30} location="샌프란시스코" />
     </div>
   );
 }
@@ -110,7 +150,18 @@ function App() {
 
 # 로컬 상태 관리
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로컬 상태를 관리하는 방법은 함수 컴포넌트에서 `useState` 훅을 사용하거나 클래스 컴포넌트에서 `this.state` 및 `this.setState` 메서드를 사용하는 것을 포함합니다. 현대적인 React에서는 함수 컴포넌트가 더 일반적으로 사용되므로 그에 중점을 두겠습니다.
 
@@ -129,15 +180,15 @@ function Form() {
   };
   return (
     <form onSubmit={handleSubmit}>
-       <input type="text" value={inputValue} onChange={handleChange} /> 
-      <button type="submit">제출</button> 
+      <input type="text" value={inputValue} onChange={handleChange} />
+      <button type="submit">제출</button>
     </form>
   );
 }
 function App() {
   return (
     <div>
-       <Form /> 
+      <Form />
     </div>
   );
 }
@@ -145,7 +196,18 @@ function App() {
 
 이 예시에서 `Form` 컴포넌트는 `useState` 훅을 사용하여 입력 값 상태를 관리합니다. `handleChange` 함수는 상태를 업데이트하고, `handleSubmit` 함수는 폼 제출을 처리합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 상태 올리기
 
@@ -161,8 +223,8 @@ function TemperatureInput(props) {
   };
   return (
     <div>
-       <label>{props.scale} 온도:</label>
-       <input type="text" value={props.temperature} onChange={handleChange} /> 
+      <label>{props.scale} 온도:</label>
+      <input type="text" value={props.temperature} onChange={handleChange} />
     </div>
   );
 }
@@ -176,32 +238,33 @@ function TemperatureCalculator() {
   };
   return (
     <div>
-       
-      <TemperatureInput
-        scale="섭씨"
-        temperature={temperature}
-        onTemperatureChange={handleCelsiusChange}
-      />
-       
-      <TemperatureInput
-        scale="화씨"
-        temperature={temperature}
-        onTemperatureChange={handleFahrenheitChange}
-      />
-       
+      <TemperatureInput scale="섭씨" temperature={temperature} onTemperatureChange={handleCelsiusChange} />
+
+      <TemperatureInput scale="화씨" temperature={temperature} onTemperatureChange={handleFahrenheitChange} />
     </div>
   );
 }
 function App() {
   return (
     <div>
-       <TemperatureCalculator /> 
+      <TemperatureCalculator />
     </div>
   );
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예시에서 `TemperatureCalculator` 컴포넌트는 온도 값을 관리하기 위해 상태를 끌어올립니다. 그런 다음 해당 상태는 `TemperatureInput` 컴포넌트에 props를 통해 전달됩니다. 이를 통해 두 입력란이 동일한 상태를 반영하도록 보장할 수 있습니다.
 

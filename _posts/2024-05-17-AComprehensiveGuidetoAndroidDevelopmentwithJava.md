@@ -3,16 +3,13 @@ title: "JAVA로 안드로이드 개발을 시작하는 방법"
 description: ""
 coverImage: "/assets/img/2024-05-17-AComprehensiveGuidetoAndroidDevelopmentwithJava_0.png"
 date: 2024-05-17 03:34
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-17-AComprehensiveGuidetoAndroidDevelopmentwithJava_0.png
 tag: Tech
 originalTitle: "A Comprehensive Guide to Android Development with Java"
 link: "https://medium.com/@oishik1907/a-comprehensive-guide-to-android-development-with-java-c3b2683d5952"
 isUpdated: true
 ---
-
-
-
 
 안녕하세요! 안드로이드 개발은 기술 산업에서 중심이 되어, 전 세계의 수백만 대의 장치를 구동합니다. 방대한 사용자 기반과 유연성을 갖고 있어 Android 애플리케이션을 개발하는 것은 보람찬 일일 수 있습니다. 안드로이드 개발을 위한 가장 인기 있는 언어 중 하나는 Java입니다. 이 안내서는 Java를 사용하여 Android 개발의 기본 사항을 소개하며 환경 설정부터 첫 번째 앱을 배포하는 과정까지 안내해 드릴 것입니다.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 Android 개발에 도전하기 전에 Java 프로그래밍에 대한 기본적인 이해가 있는지 확인해 주세요. 객체지향 프로그래밍 개념에 익숙하다면 특히 유용할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 개발 환경 설정하기
 
@@ -32,7 +40,18 @@ Android Studio 설치: Android Studio는 안드로이드 개발을 위한 공식
 
 Android Studio 구성: 설치 후 Android Studio를 시작하고 설정 마법사를 따라 SDK를 구성하고 가상 디바이스(AVD)를 생성하고 필요한 다른 구성 요소를 설정하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신의 첫 번째 Android 앱 만들기
 
@@ -42,7 +61,18 @@ Android Studio 구성: 설치 후 Android Studio를 시작하고 설정 마법�
 
 프로젝트 구성: 프로젝트 이름, 패키지 이름, 저장 위치를 입력하고 Java 언어를 선택합니다. 지원하고자 하는 최소 API 수준을 선택하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 템플릿 선택: 프로젝트 템플릿을 선택하세요. 초보자를 위해서 "빈 활동(Empty Activity)" 템플릿을 추천합니다.
 
@@ -52,7 +82,18 @@ Android Studio는 기본 프로젝트 구조를 생성합니다. 이는 다음�
 
 - app: 애플리케이션 코드를 포함하는 주요 디렉토리입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 src/main/java: 여러분의 Java 소스 파일입니다.
 
@@ -62,7 +103,18 @@ AndroidManifest.xml: 여러분의 앱에 대한 중요한 정보를 포함하는
 
 첫 번째 코드 작성하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 MainActivity.java: 여기는 앱의 진입점입니다. MainActivity.java를 열면 기본 Activity 클래스가 나타납니다.
 
@@ -72,7 +124,18 @@ package com.example.myfirstapp;
 import android.os.Bundle;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```kotlin
 import androidx.appcompat.app.AppCompatActivity;
@@ -88,7 +151,18 @@ public class MainActivity extends AppCompatActivity {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 '
 
@@ -98,7 +172,18 @@ activity_main.xml: 이 레이아웃 파일은 MainActivity의 사용자 인터�
 
 앱 실행하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 귀하의 앱이 실제로 작동하는 것을 보려면 Android Studio에서 "실행" 버튼을 클릭하세요. 연결된 장치 또는 에뮬레이터를 선택하고 앱이 "Hello, Android!"를 표시하면 시작됩니다.
 
@@ -108,7 +193,18 @@ activity_main.xml: 이 레이아웃 파일은 MainActivity의 사용자 인터�
 
 활동은 사용자 인터페이스가 있는 단일 화면을 나타냅니다. 여기에 UI 코드를 넣고 사용자 상호작용을 처리합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 의도
 
@@ -118,7 +214,18 @@ activity_main.xml: 이 레이아웃 파일은 MainActivity의 사용자 인터�
 
 프래그먼트는 앱 UI의 재사용 가능한 부분을 나타냅니다. 더 모듈식이고 유연한 UI 디자인을 가능하게 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 레이아웃
 
@@ -128,7 +235,18 @@ Android는 화면에 UI 요소를 정렬하기 위해 LinearLayout, RelativeLayo
 
 네트워킹
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 네트워크 요청을 만들기 위해 Retrofit 또는 Volley와 같은 라이브러리를 사용하세요. Retrofit은 사용하기 쉽고 강력한 기능으로 인해 특히 인기가 있습니다.
 
@@ -138,7 +256,18 @@ Android는 화면에 UI 요소를 정렬하기 위해 LinearLayout, RelativeLayo
 
 백그라운드 작업
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 백그라운드 작업을 처리할 때는 AsyncTask, WorkManager 또는 서비스를 사용하세요. 대부분의 경우에는 작업 관리자(WorkManager)를 사용하는 것이 좋습니다. 왜냐하면 WorkManager는 예약 가능하고 비동기적인 작업을 위한 일관된 API를 제공하기 때문입니다.
 

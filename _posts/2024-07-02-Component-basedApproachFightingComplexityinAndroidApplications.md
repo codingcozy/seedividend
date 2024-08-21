@@ -3,16 +3,13 @@ title: "컴포넌트 기반 접근법 안드로이드 애플리케이션에서 �
 description: ""
 coverImage: "/assets/img/2024-07-02-Component-basedApproachFightingComplexityinAndroidApplications_0.png"
 date: 2024-07-02 22:15
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-02-Component-basedApproachFightingComplexityinAndroidApplications_0.png
 tag: Tech
 originalTitle: "Component-based Approach. Fighting Complexity in Android Applications"
 link: "https://medium.com/itnext/component-based-approach-fighting-complexity-in-android-applications-2eaf5e8c5fad"
 isUpdated: true
 ---
-
-
-
 
 새로운 Android 애플리케이션 개발을 시작한다고 상상해보세요. 이 단계에서는 주요 문제가 발생할 확률이 적습니다. 기본 기능만 구현했습니다. 몇 가지 간단한 화면이 있습니다. 코드를 탐색하는 것이 간단합니다. 열정적으로 기능을 하나씩 추가하기 시작합니다. 그러나 시간이 지남에 따라 개발이 복잡해집니다. 코드베이스가 확장되고, 주요 화면에 많은 UI 요소와 복잡한 논리가 증가하며, 화면 흐름이 복잡한 전환 체인으로 발전합니다. 새로운 것을 추가하려고 하면 예전 것을 망가뜨리지 않는 것이 머리아프게 됩니다. 결과적으로, 개발 속도가 늦어집니다. 이 상황이 익숙한가요?
 
@@ -22,19 +19,41 @@ isUpdated: true
 
 여러 분을 기다리는 일련의 기사가 있습니다. 이 첫 번째 기사는 이론에 초점을 맞추고 있습니다. Android 애플리케이션 개발 시 마주치는 복잡성을 탐구하고 MVVM과 Clean Architecture가 만병통치약이 아닌 이유에 대해 논의할 것입니다. 저는 컴포넌트 기반 접근 방식을 설명하고 이점을 개괄합니다. 기사의 끝에는 더 깊이있는 학습을 위한 자원 링크가 제공됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Android 애플리케이션의 복잡성
 
 안드로이드 애플리케이션 개발에서는 일반적으로 두 가지 유형의 복잡성을 직면하게 됩니다:
 
 1. 복잡한 화면
-은행, 온라인 쇼핑, 또는 소셜 네트워크와 같은 애플리케이션의 주 화면을 생각해보세요. 이 화면은 중요한 사용자 정보를 표시하며 다수의 UI 요소, 네트워크 요청 및 복잡한 로직을 포함합니다.
+   은행, 온라인 쇼핑, 또는 소셜 네트워크와 같은 애플리케이션의 주 화면을 생각해보세요. 이 화면은 중요한 사용자 정보를 표시하며 다수의 UI 요소, 네트워크 요청 및 복잡한 로직을 포함합니다.
 
 2. 복잡한 탐색
-애플리케이션이 성장하고 새로운 화면이 추가되면, 그 사이를 이동하는 것이 더 복잡해집니다. 이로 인해 권한 부여, 등록, 구매 및 설문 조사와 같은 다단계 시나리오가 발생하게 되는데, 이들은 서로 연결되어 있습니다. 애플리케이션은 종종 하단 네비게이션을 통합하는데, 이는 화면 간 전환하는 버튼이 있는 패널을 의미합니다. 태블릿 사용자들을 위해, 항목 목록과 선택한 항목에 대한 세부 정보를 동시에 표시하는 마스터-세부 탐색이 필요합니다. 추가적으로, 하단 시트와 대화 상자를 사용한 탐색이 포함됩니다.
+   애플리케이션이 성장하고 새로운 화면이 추가되면, 그 사이를 이동하는 것이 더 복잡해집니다. 이로 인해 권한 부여, 등록, 구매 및 설문 조사와 같은 다단계 시나리오가 발생하게 되는데, 이들은 서로 연결되어 있습니다. 애플리케이션은 종종 하단 네비게이션을 통합하는데, 이는 화면 간 전환하는 버튼이 있는 패널을 의미합니다. 태블릿 사용자들을 위해, 항목 목록과 선택한 항목에 대한 세부 정보를 동시에 표시하는 마스터-세부 탐색이 필요합니다. 추가적으로, 하단 시트와 대화 상자를 사용한 탐색이 포함됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아무것도 하지 않으면 개발 속도와 품질이 서서히 저하될 것입니다.
 
@@ -44,7 +63,18 @@ isUpdated: true
 
 MVVM과 Clean Architecture는 다양한 방식으로 해석되고 구현될 수 있다는 점을 명심하는 것이 중요합니다. 본문에서 메소드의 이해 및 사용 중 마주한 어려움을 설명하겠습니다. 여러분이 느끼시는 경험은 다를 수 있으며, 댓글에서 여러분의 인사이트를 공유해주시기를 환영합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 대규모 뷰 모델
 
@@ -54,7 +84,18 @@ MVVM 패턴은 화면의 로직을 별도의 클래스인 ViewModel로 추출하
 
 은행 앱의 메인 화면을 개발하고 해당 화면을 위한 뷰 모델을 만든다고 상상해봅시다. 화면 상단에는 사용자의 이름과 아바타가 표시되며, 프로필 필드와 onAvatarClick 메서드가 필요합니다. 오른쪽 상단에는 알림을 위한 종 모양 아이콘이 있어 알림 뱃지 표시 필드와 onNotificationIconClick 메서드를 추가합니다. 광고 배너의 캐러셀이 표시되어 광고 항목 필드와 배너 클릭을 처리하는 메서드를 포함해야 합니다. 계속 진행하면 매월 지출, 은행 카드, 환율, 예금, 모기지 등 각 기능에 대한 필드 및 메서드가 추가됩니다. 뷰 모델이 얼마나 빠르게 굉장히 복잡해지는지 알 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 물론이죠, 뷰 모델의 코드를 최적화하기 위해 데이터 로딩을 별도의 클래스로 위임하는 방식 등을 시도할 거예요. 하지만 이 접근 방식은 상황을 근본적으로 바꾸지는 않아요. 필드와 메서드는 여전히 유지되고, 화면에 추가될 때마다 뷰 모델은 계속 커질 거에요. 이 문제는 하나의 화면이 단일 뷰 모델에 바인딩되는 고전적인 MVVM에서 피할 수 없는 것이에요.
 
@@ -64,7 +105,18 @@ Clean Architecture는 응용 프로그램을 각각 특정 책임을 가진 별�
 
 우리가 응용 프로그램을 세 가지 레이어로 나눴다고 가정해봐요. 코드를 다루다 보니 여전히 복잡하다면 어떻게 해야 할까요? 더 많은 레이어를 만들면 되겠죠! 그리고 우리가 일반적으로 하는 것이 바로 이겁니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 레이어를 추가하면 비용이 발생합니다. 우리가 도입하는 레이어가 많아질수록 프로젝트는 유지하기 어려워집니다. 추가적인 추상화가 발생하고 레이어 간 상호 작용을 관리해야 합니다. 일관성을 유지하기 위해 개발자들은 심지어 가장 간단한 화면도 많은 레이어로 구현하기 시작합니다. 우리의 의도는 코드를 간단하게 만드는 것이었지만, 역설적으로 코드는 더 복잡해지게 됩니다.
 
@@ -74,7 +126,18 @@ Clean Architecture는 응용 프로그램을 각각 특정 책임을 가진 별�
 
 Clean Architecture의 또 다른 중요한 요소는 인터렉터의 개념입니다. 그러나 이에 대해 설명하기 전에 유스케이스를 이해하는 것이 중요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용 사례는 요구 사항 공학 용어입니다. 사용 사례는 응용 프로그램 내에서 사용자가 수행할 수 있는 작업을 설명합니다. 예를 들어 '전화번호부' 앱에서 사용 사례는 연락처 목록 보기, 연락처 추가, 편집, 삭제, 그리고 연락처에 전화 걸기와 같은 것이 될 수 있습니다.
 
@@ -84,7 +147,18 @@ Clean Architecture의 또 다른 중요한 요소는 인터렉터의 개념입�
 
 다시 한번 전화번호부 애플리케이션을 생각해 봅시다. 여기서 좀 더 복잡한 사용 사례에 초점을 맞추어 보죠: 여러 연락처 동시에 삭제하기. 사용자 입장에서는 이 프로세스가 다음과 같이 보입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 사용자는 연락처 목록을 확인합니다.
 - 사용자는 연락처 중 하나를 길게 누릅니다. 연락처가 선택됩니다. '삭제' 버튼이 나타납니다.
@@ -107,7 +181,18 @@ class RemoveContactsInteractor(
 
 봐봐, 거의 비어 있어요. 여기에는 여러 연락처를 선택하거나 삭제를 확인하는 로직이 없어요. 이러한 책임들은 일반적으로 뷰 모델 안에 속하고 있으며, 상호작용자 안에는 비즈니스 규칙이 없으므로 유용하지 않습니다. 그냥 호출을 리포지토리로 전달하는 겁니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 상황은 흔하지 않습니다. 대부분의 모바일 앱은 많은 사용자 상호작용을 가지고 있지만 많은 비즈니스 규칙이 없습니다.
 
@@ -117,7 +202,18 @@ class RemoveContactsInteractor(
 
 # 구성 요소 기반 접근법 (Component-Based Approach)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 현실 세계에서의 구성 요소 기반 접근 방식
 
@@ -127,7 +223,18 @@ class RemoveContactsInteractor(
 
 인간의 몸을 생각해보세요. 이 몸은 작은 단위, 즉 세포로 구성되어 있습니다. 이 세포들은 무작위로 연결되어 있지 않습니다. 명확한 계층적 구조가 있습니다. 세포가 조직을 형성하고, 조직이 모여서 장기를 만들고, 장기가 장기계를 이루며, 이러한 체계들이 모여 전체 생물체를 이룹니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기본적으로, 더 간단한 요소들이 결합하여 더 복잡한 구조물을 형성하며, 이 과정이 여러 수준에서 반복됩니다. 우리는 이를 구성 요소 기반 접근법이라고 합니다.
 
@@ -143,7 +250,18 @@ class RemoveContactsInteractor(
 
 일반적으로, 모든 복잡한 물체와 시스템은 구성 요소 기반 접근법에 따라 구조화됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컴포넌트 기반 접근 방식은 복잡성을 효과적으로 관리하는 데 효과적입니다. 이러한 계층 구조 덕분에 일부 수준을 건너뛸 수 있어 더 간단하게 만들 수 있습니다. 인간의 신체를 예로 들어보겠습니다. "인간은 기관으로 구성되어 있으며, 그 기관이 모여 유기체를 이룬다"라고 말하는 것이 정확합니다. 여기서 세포와 조직 수준을 건너뛴 것입니다. 원래 설명에서도 세포 자체가 복잡한 구조라는 단순화가 있었습니다.
 
@@ -153,7 +271,18 @@ class RemoveContactsInteractor(
 
 ## 안드로이드 개발에서의 컴포넌트 기반 접근 방식
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 휴대폰 애플리케이션은 컴포넌트라고 불리는 요소들로 구성된 계층 구조로 이해할 수 있어요.
 
@@ -167,7 +296,18 @@ class RemoveContactsInteractor(
 - 플로우: 특정 기능에 대한 일련의 화면을 나타내는 것입니다. 플로우의 예시로는 인증, 등록, 구매, 설문 과정이 있어요.
 - 애플리케이션: 이 또한 컴포넌트로 보여지며 사용자에게 접근 가능한 전체 기능 범위를 책임지고 있으며 여러 플로우로 구성돼요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 구조는 당신의 애플리케이션의 요구에 맞게 조정할 수 있어요. 예를 들어 간단한 화면에서는 기능 블록 수준을 건너뛰고 UI 요소에서 직접 화면을 구성할 수 있어요. 매우 기본적인 애플리케이션의 경우, 여러 흐름이 없을 수 있어 앱이 개별 화면으로만 구성될 수 있어요. 그에 반해, 블록을 하위 블록으로 나누고 추가적인 네비게이션 중첩 레이어를 추가함으로써 구조를 더 자세히 설명할 수도 있어요.
 
@@ -177,7 +317,18 @@ class RemoveContactsInteractor(
 
 수행할 작업에 따라 우리는 집중할 세부 수준을 조정할 수 있어요. 예를 들어, 기능 블록을 사용하여 화면을 구성할 때, 각 블록 내의 특정 UI 요소가 덜 중요해질 수 있어요. 우리는 이러한 블록들을 단순하고 일관된 단위로 보게 되어요. 이 원칙은 흐름에도 적용돼요 — 화면 간의 전환을 생성할 때, 화면의 내부 구조에 대해서는 깊게 파고들지 않아도 되어요. 게다가, 대규모 애플리케이션에서 네비게이션을 구성하는 것이 더 용이해져요. 백 개의 화면을 번갈아가면서 다루는 대신 대략 열둘 흐름을 다룰 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # MVVM 및 Clean Architecture에 대한 새로운 시각
 
@@ -187,8 +338,18 @@ class RemoveContactsInteractor(
 
 MVVM 패턴은 화면과 기능 블록을 구현하는 데 완벽합니다. 복잡한 화면은 하나의 부모와 여러 자식 뷰 모델로 구조화할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-02-Component-basedApproachFightingComplexityinAndroidApplications_6.png" />
 
@@ -198,8 +359,18 @@ MVVM 패턴은 화면과 기능 블록을 구현하는 데 완벽합니다. 복�
 
 ## 인공적인 복잡성 제거
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 복잡한 화면과 탐색은 응용 프로그램 요구 사항에서 기인한 본질적인 복잡성입니다. 이를 단순히 제거할 수는 없지만 MVVM, Clean Architecture 및 구성 요소 기반 접근 방식을 사용하여 이를 관리할 수 있습니다.
 
@@ -209,7 +380,18 @@ Clean Architecture에서 오버엔지니어링은 흔한 문제입니다. 레이
 
 구성 요소 기반 접근 방식을 구현하면 오버엔지니어링의 위험을 자연스럽게 완화할 수 있습니다. 화면, 기능 블록 및 흐름으로의 분할은 응용 프로그램의 본질적인 구조와 일치합니다. 흔히, 개발자가 화면을 너무 많은 기능 블록으로 세분화하는 경우를 거의 본 적이 없습니다. 마찬가지로, 플로우를 만드는 경우도 주로 두 개 이상의 화면이 들어 맞을 때에만 발생하며 명백한 필요성이 있는 경우에 한정됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 우리가 구성 요소 중심 방식을 독점적으로 채택하고 클린 아키텍처를 포기해야 한다는 것을 시사합니까? 전혀 그렇지 않아요! 각 도구마다 특정 목적이 있습니다.
 
@@ -219,7 +401,18 @@ Clean Architecture에서 오버엔지니어링은 흔한 문제입니다. 레이
 
 ![이미지](/assets/img/2024-07-02-Component-basedApproachFightingComplexityinAndroidApplications_7.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 추가로 읽을 거리
 

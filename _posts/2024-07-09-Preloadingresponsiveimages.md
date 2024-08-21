@@ -3,15 +3,13 @@ title: "반응형 이미지를 미리 로드하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-Preloadingresponsiveimages_0.png"
 date: 2024-07-09 18:18
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-Preloadingresponsiveimages_0.png
 tag: Tech
 originalTitle: "Preloading responsive images"
 link: "https://medium.com/@akashjha9041/preloading-responsive-images-3aecf114968e"
 isUpdated: true
 ---
-
-
 
 브라우저는 태그를 발견하기 전에 지정된 반응형 이미지의 적절한 변형을 미리로드할 수 있습니다. 이미지 CDN을 사용하지 않는 경우 각 이미지에 대해 여러 차원을 저장하고 해당 속성에 지정해야 합니다. 미리로딩으로 인해 이미지가 1.2초 더 빨리로드됩니다.
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 300픽셀 너비의 화면에서 웹을 둘러보고 있고 페이지가 1500픽셀 너비의 이미지를 요청했다고 가정해봅시다. 이 페이지는 모든 그 부가적 해상도로 아무것도 할 수 없는 화면 때문에 많은 셀룰러 데이터를 낭비했습니다. 이상적으로, 브라우저는 화면 크기보다 조금 넓은 이미지 버전, 예를 들어 325픽셀 크기의 이미지를 가져와야 합니다. 이는 데이터를 낭비하지 않고 고해상도 이미지를 보장합니다. 게다가 이미지가 더 빨리로드됩니다. 반응형 이미지는 브라우저가 다른 기기에 대해 다른 이미지 리소스를 가져올 수 있도록 합니다. 이미지 CDN을 사용하지 않는 경우 각 이미지에 대해 여러 차원을 저장하고 srcset 속성에 지정해야 합니다. w 값은 각 버전의 너비를 브라우저에 알려줍니다. 디바이스에 따라 브라우저가 적절한 이미지를 선택할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Preload 개요
 
@@ -31,7 +40,18 @@ Preload를 사용하면 HTML에서 발견되기 전에 가능한 한 빨리 로�
 <link rel="preload" as="image" href="important.png">
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 반응형 이미지 + 프리로드 = 빠른 이미지 로딩
 
@@ -41,7 +61,18 @@ Preload를 사용하면 HTML에서 발견되기 전에 가능한 한 빨리 로�
 
 반응형 이미지는 모든 최신 브라우저에서 지원되지만, 이미지를 프리로드하는 것은 크로미움 기반 브라우저에서만 지원됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # imagesrcset와 imagesizes
 
@@ -53,7 +84,18 @@ Preload를 사용하면 HTML에서 발견되기 전에 가능한 한 빨리 로�
 <img src="wolf.jpg" srcset="wolf_400px.jpg 400w, wolf_800px.jpg 800w, wolf_1600px.jpg 1600w" sizes="50vw" alt="멋진 늑대">
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앞선 예시는 HTML의 `head`에 다음을 추가하여 table 태그를 Markdown 형식으로 변경할 수 있습니다:
 
@@ -65,7 +107,18 @@ Preload를 사용하면 HTML에서 발견되기 전에 가능한 한 빨리 로�
 
 # 사용 사례
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 동적으로 삽입된 반응형 이미지 사전로딩
 
@@ -80,7 +133,18 @@ Preload를 사용하면 HTML에서 발견되기 전에 가능한 한 빨리 로�
 - Disable cache 확인란을 해제합니다.
 - 페이지를 새로 고칩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Preloading responsive images](/assets/img/2024-07-09-Preloadingresponsiveimages_1.png)
 
@@ -90,7 +154,18 @@ Using preload helps here because the image starts loading ahead of time and is l
 
 To see the difference that preloading makes, you can inspect the same dynamically-loaded image gallery but with preloaded first image by following the steps from the first example.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문제를 해결하기 위한 대체 방법은 마크업 기반의 캐러셀을 사용하고 브라우저의 프리로더가 필요한 리소스를 가져오도록 하는 것입니다. 그러나 이 방법이 항상 실용적이라고는 할 수 없습니다. (예를 들어, 마크업 기반이 아닌 기존 컴포넌트를 재사용하는 경우)
 
@@ -102,7 +177,18 @@ To see the difference that preloading makes, you can inspect the same dynamicall
 background-image: image-set( "cat.png" 1x, "cat-2x.png" 2x);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 구문은 Chromium 및 WebKit 기반 브라우저에서 이 기능에 대해 벤더 접두사가 필요하다는 사실을 무시합니다. 이 기능을 사용할 계획이라면 Autoprefixer(온라인 도구로 제공됨)를 사용하여 자동으로 해결할 수 있습니다.
 
@@ -112,7 +198,18 @@ CSS 배경 이미지의 문제는 브라우저가 페이지의 `head`에 있는 
 
 ![예시 이미지](/assets/img/2024-07-09-Preloadingresponsiveimages_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 반응형 이미지 미리로딩은 그림을 더 빨리 불러오는 간단하고 해킹되지 않은 방법을 제공합니다.
 
@@ -124,7 +221,18 @@ CSS 배경 이미지의 문제는 브라우저가 페이지의 `head`에 있는 
 
 미리로딩된 반응형 배경 이미지로 이전 예제의 동작 방식을 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-07-09-Preloadingresponsiveimages_4.png)
 
@@ -134,7 +242,18 @@ CSS 배경 이미지의 문제는 브라우저가 페이지의 `head`에 있는 
 
 이에 대한 답변으로 저는 데모 PWA 쇼핑몰의 두 가지 복사본을 만들었습니다: 이미지를 사전로드하지 않은 하나와 일부 이미지를 사전로드한 하나입니다. 사이트가 JavaScript를 사용하여 이미지를 지연로드하기 때문에, 초기 뷰포트에 표시될 이미지를 사전로드하면 이점을 얻을 수 있을 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이로 인해 이미지를 미리로드하지 않은 경우와 이미지를 미리로드한 경우의 결과가 발생했습니다. 숫자를 살펴보면 시작 렌더가 동일한 것을 알 수 있습니다. 스피드 인덱스는 약간 향상되었습니다(이미지가 더 빨리 도착하지만 화면의 큰 부분을 차지하지 않기 때문에 273ms). 하지만 차이를 포착하는 실제 지표는 마지막으로 그려진 히어로 메트릭입니다. 이 메트릭은 1.2초 개선되었습니다. 🎉🎉
 물론, 필름스트립 비교로 시각적 차이를 가장 잘 나타낼 수 있습니다:
@@ -143,7 +262,18 @@ CSS 배경 이미지의 문제는 브라우저가 페이지의 `head`에 있는 
 
 # 미리로드와 `picture`?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 응답형 이미지에 익숙하다면 "picture"에 대해 궁금해하실 수 있습니다.
 
@@ -153,7 +283,18 @@ Web Performance Working Group은 srcset 및 sizes에 대한 사전로드 동등 
 
 해당 사용 사례를 해결하려는 관심이 있음에도 불구하고, 이 문제를 해결하기 위한 여러 기술적 문제가 아직 해결해야 할 것들이 많아서 해결방안이 복잡할 것으로 예상됩니다. 또한, 대부분의 경우 오늘날에도 해당 사용 사례를 해결할 수 있는 것으로 보이지만, 조금은 강제적인 방식(아래 참조)으로 할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Web Performance WG는 srcset을 먼저 배포하기로 결정하고 동등한 picture 지원의 수요가 생기는지 확인하기로 했습니다.
 
@@ -169,7 +310,18 @@ Web Performance WG는 srcset을 먼저 배포하기로 결정하고 동등한 pi
 </picture>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `picture` 요소의 논리(또는 정확히는 이미지 소스 선택 논리)는 `source` 요소의 미디어 속성을 순서대로 확인하여 일치하는 첫 번째 소스를 찾고 첨부된 리소스를 사용하는 것입니다.
 
@@ -183,7 +335,18 @@ Web Performance WG는 srcset을 먼저 배포하기로 결정하고 동등한 pi
 
 # 프리로드와 타입
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `picture` 요소는 첫 번째 유형에 대한 일치도 지원하여 다양한 이미지 형식을 제공하고 브라우저가 지원하는 첫 번째 이미지 형식을 선택할 수 있습니다. 이 사용 사례는 현재 preload에서 지원되지 않습니다.
 
@@ -193,7 +356,18 @@ Web Performance WG는 srcset을 먼저 배포하기로 결정하고 동등한 pi
 
 이미지는 Largest Contentful Paint (LCP)의 후보가 될 수 있기 때문에 사전로드를 통해 웹 사이트의 LCP를 개선할 수 있습니다. 위의 기술들을 사용하면 반응형 이미지가 더 빠르게 로드되도록 할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지를 미리로드하더라도 반응형이든 아니든, 미리로드가 초기 마크업 페이로드에서 발견할 수 없는 이미지 리소스에 특히 잘 작동함을 인식하세요. 서버에서 완전한 마크업을 보내는 웹사이트의 경우, 큰 이점을 눈치채지 못할 수도 있습니다. 하지만 클라이언트에서 마크업을 렌더링하는 경우 — 브라우저의 프리로드 스캐너를 우회하는 경우 — 성능을 향상시키기 위해 잠재적인 LCP 이미지를 미리로드할 수 있는 기회가 있습니다.
 

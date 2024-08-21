@@ -3,17 +3,13 @@ title: "Nextjs 13 - OpenTelemetry 사용 방법 정리"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "br태그를 Markdown 형식으로 변경해주실 수 있나요"
 link: "undefined"
 isUpdated: true
 ---
-
-
-
-
 
 # 오픈텔레미트
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 응용 프로그램이 점점 더 복잡해지면 발생할 수 있는 문제를 식별하고 진단하는 것이 점점 어려워집니다. 로깅 및 메트릭과 같은 옵저버빌리티 도구를 활용하여 개발자는 응용 프로그램의 동작에 대한 통찰을 얻고 최적화할 수 있는 영역을 식별할 수 있습니다. 옵저버빌리티를 통해 개발자는 심각한 문제가 되기 전에 문제에 대처하고 더 나은 사용자 경험을 제공할 수 있습니다. 따라서 Next.js 응용 프로그램에서 옵저버빌리티를 사용하여 성능을 향상시키고 리소스를 최적화하며 사용자 경험을 향상시키는 것이 매우 권장됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 당신이 앱을 계측하는 데 OpenTelemetry를 사용하는 것을 권장합니다. 이것은 당신의 코드를 변경하지 않고도 관찰성 제공업체를 변경할 수 있는 플랫폼에 무방한 방식으로 앱을 계측할 수 있게 해줍니다. OpenTelemetry 및 작동 방식에 대한 자세한 내용을 확인하려면 공식 OpenTelemetry 문서를 읽어보세요.
 
@@ -33,7 +40,18 @@ Next.js는 OpenTelemetry 계측을 기본으로 지원하며, 따라서 이미 N
 
 ## 시작하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 OpenTelemetry은 확장 가능하지만 제대로 설정하려면 상당히 많은 내용을 작성해야 합니다. 그래서 저희는 빠르게 시작할 수 있도록 도와주는 @vercel/otel 패키지를 준비했어요.
 
@@ -45,7 +63,18 @@ OpenTelemetry은 확장 가능하지만 제대로 설정하려면 상당히 많�
 npm install @vercel/otel
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로, project의 root 디렉토리에 (또는 사용 중인 경우 src 폴더 안에) `instrumentation.ts` (또는 .js) 파일을 만들어주세요:
 
@@ -65,7 +94,18 @@ export function register() {
 - pageExtensions 구성 옵션을 사용하여 접미사를 추가한 경우, instrumentation 파일 이름도 일치하도록 업데이트해야 합니다.
 - 우리는 사용할 수 있는 기본적인 with-opentelemetry 예제를 만들어 두었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 수동 OpenTelemetry 구성
 
@@ -77,7 +117,18 @@ export function register() {
 npm install @opentelemetry/sdk-node @opentelemetry/resources @opentelemetry/semantic-conventions @opentelemetry/sdk-trace-node @opentelemetry/exporter-trace-otlp-http
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 instrumentation.ts에서 NodeSDK를 초기화할 수 있습니다. @vercel/otel과 달리 NodeSDK는 엣지 런타임과 호환되지 않으므로 process.env.NEXT_RUNTIME === `nodejs` 일 때에만 임포트하는지 확인해야 합니다. Node를 사용할 때만 조건부로 임포트하는 새 파일인 instrumentation.node.ts를 만드는 것을 권장합니다:
 
@@ -107,7 +158,18 @@ sdk.start();
 
 이렇게 함으로써 @vercel/otel을 사용하는 것과 같은 효과를 얻을 수 있지만, @vercel/otel에서 노출되지 않는 기능을 수정하고 확장할 수 있습니다. 엣지 런타임 지원이 필요한 경우, @vercel/otel을 사용해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## OpenTelemetry 기기의 테스트
 
@@ -117,7 +179,18 @@ sdk.start();
 
 Next.js는 기본적으로 발생하는 스팬보다 더 많은 스팬을 추적합니다. 더 많은 스팬을 보려면 NEXT_OTEL_VERBOSE=1을 설정해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 배포
 
@@ -127,7 +200,18 @@ Next.js는 기본적으로 발생하는 스팬보다 더 많은 스팬을 추적
 
 #### Vercel에 배포하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오픈텔레멘트리가 Vercel에서 기본 설정으로 작동하도록 확인했습니다.
 
@@ -138,7 +222,18 @@ Next.js는 기본적으로 발생하는 스팬보다 더 많은 스팬을 추적
 
 다른 플랫폼으로 배포하는 것도 간단합니다. 여러분은 Next.js 앱에서 유래되고 처리된 텔레메트리 데이터를 받기 위해 직접 오픈텔레멘트리 수집기를 실행해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 작업을 하려면 OpenTelemetry Collector 시작 가이드를 따르세요. 이 가이드는 수집기를 설정하고 Next.js 앱에서 데이터를 수신하도록 구성하는 방법을 안내해 줍니다.
 
@@ -148,7 +243,18 @@ Next.js는 기본적으로 발생하는 스팬보다 더 많은 스팬을 추적
 
 OpenTelemetry Collector는 필수가 아닙니다. @vercel/otel 또는 수동 OpenTelemetry 구성을 사용하여 사용자 지정 OpenTelemetry 내보내기자를 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 사용자 지정 Span
 
@@ -160,7 +266,18 @@ npm install @opentelemetry/api
 
 다음 예시는 GitHub 스타 수를 가져오는 함수를 보여줍니다. 이 함수는 fetch 요청 결과를 추적하기 위해 사용자 정의 fetchGithubStars span을 추가해요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { trace } from "@opentelemetry/api";
@@ -182,7 +299,18 @@ register 함수는 새로운 환경에서 코드가 실행되기 전에 실행�
 
 Next.js는 여러분의 응용프로그램 성능에 유용한 통찰을 제공하기 위해 여러 스팬을 자동으로 측정합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `<span>` 요소의 속성은 OpenTelemetry 시맨틱 규칙을 따릅니다. 또한 다음 네임스페이스의 사용자 정의 속성을 추가합니다:
 
@@ -197,7 +325,18 @@ Next.js는 여러분의 응용프로그램 성능에 유용한 통찰을 제공�
 
 - next.span_type: BaseServer.handleRequest
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 span은 Next.js 애플리케이션으로 들어오는 각 요청의 루트 span을 나타냅니다. 요청의 HTTP 메서드, 라우트, 대상 및 상태 코드를 추적합니다.
 
@@ -219,7 +358,18 @@ Next.js는 여러분의 응용프로그램 성능에 유용한 통찰을 제공�
 
 ### 렌더 라우트(앱) [next.route]
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - next.span_type: AppRender.getBodyResult.
 
@@ -231,7 +381,18 @@ Next.js는 여러분의 응용프로그램 성능에 유용한 통찰을 제공�
 - next.span_type
 - next.route
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### fetch [http.method] [http.url]
 
@@ -241,7 +402,18 @@ Next.js는 여러분의 응용프로그램 성능에 유용한 통찰을 제공�
 
 속성:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Common HTTP attributes  
   http.method
@@ -262,7 +434,18 @@ Next.js는 여러분의 응용프로그램 성능에 유용한 통찰을 제공�
 
 - next.span_type: AppRouteRouteHandlers.runHandler.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 span은 앱 라우터에서 API 라우트 핸들러를 실행하는 것을 나타냅니다.
 
@@ -274,7 +457,18 @@ Next.js는 여러분의 응용프로그램 성능에 유용한 통찰을 제공�
 
 ### getServerSideProps [next.route]
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 다음.span_type: Render.getServerSideProps.
 
@@ -286,7 +480,18 @@ Next.js는 여러분의 응용프로그램 성능에 유용한 통찰을 제공�
 - next.span_type
 - next.route
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### getStaticProps [next.route]
 
@@ -296,7 +501,18 @@ Next.js는 여러분의 응용프로그램 성능에 유용한 통찰을 제공�
 
 속성:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - next.span_name
 - next.span_type
@@ -308,7 +524,18 @@ Next.js는 여러분의 응용프로그램 성능에 유용한 통찰을 제공�
 
 이 span은 특정 경로에 대한 문서 렌더링 프로세스를 나타냅니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 특성:
 
@@ -320,7 +547,18 @@ Next.js는 여러분의 응용프로그램 성능에 유용한 통찰을 제공�
 
 - next.span_type: ResolveMetadata.generateMetadata.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 span은 특정 페이지에 대한 메타데이터를 생성하는 과정을 나타냅니다 (단일 루트에는 여러 개의 이러한 span이 있을 수 있습니다).
 
@@ -332,7 +570,18 @@ Next.js는 여러분의 응용프로그램 성능에 유용한 통찰을 제공�
 
 ### 페이지 구성 해결
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 다음.span_type: NextNodeServer.findPageComponents.
 
@@ -344,7 +593,18 @@ Next.js는 여러분의 응용프로그램 성능에 유용한 통찰을 제공�
 - next.span_type
 - next.route
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 세그먼트 모듈 해결
 
@@ -354,7 +614,18 @@ Next.js는 여러분의 응용프로그램 성능에 유용한 통찰을 제공�
 
 속성:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - next.span_name
 - next.span_type
@@ -366,4 +637,15 @@ Next.js는 여러분의 응용프로그램 성능에 유용한 통찰을 제공�
 
 이 zero-length span은 응답에서 첫 번째 바이트가 전송된 시간을 나타냅니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

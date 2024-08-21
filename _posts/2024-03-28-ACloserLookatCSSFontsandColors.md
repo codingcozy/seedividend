@@ -3,17 +3,13 @@ title: "CSS font와 color에 대해 자세히 살펴보기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "A Closer Look at CSS Fonts and Colors"
 link: "https://medium.com/@rashmipatil24/css-fonts-and-colors-1fbee8e09ae7"
 isUpdated: true
 ---
-
-
-
-
 
 ## 눈에 띄는 잔치
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 폰트:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 폰트는 웹사이트의 분위기와 개성을 결정하는 데 중요한 역할을 합니다. 웹 페이지의 쓰여진 내용의 가독성, 개성, 시각적 매력을 결정하는 데 중요한 항목 중 하나입니다.
 
@@ -37,7 +44,18 @@ body {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 전체 웹페이지의 글꼴을 Helvetica로 설정했습니다. 만약 Helvetica를 사용할 수 없는 경우 일반적인 산세리프 글꼴로 대체됩니다.
 
@@ -47,7 +65,18 @@ CSS에는 여러 글꼴을 정의하는 방법이 있습니다:
 
 CSS는 "serif," "sans-serif," "monospace" 등과 같은 일반적인 글꼴 패밀리를 제공합니다. 이러한 패밀리는 특정 글꼴이 사용자의 기기에 없는 경우 대체 옵션으로 작용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 특정 글꼴:
 
@@ -57,7 +86,18 @@ CSS는 "serif," "sans-serif," "monospace" 등과 같은 일반적인 글꼴 패�
 
 Google Fonts는 무료 글꼴의 방대한 컬렉션을 제공합니다. 웹사이트에 쉽게 통합할 수 있는 글꼴을 선택하여 HTML 파일의 head 섹션에 링크를 추가하고 CSS에서 사용하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -73,7 +113,18 @@ body {
 
 CSS를 사용하면 텍스트의 크기를 제어할 수 있습니다. 픽셀(px), ems(em), 백분율(%)과 같은 다양한 단위를 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 p {
@@ -87,7 +138,18 @@ p {
 
 CSS 속성인 `font-style`을 사용하여 글꼴 스타일을 조절할 수 있습니다. 글꼴 스타일은 텍스트가 이탤릭체인지 일반체인지를 지정합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 글꼴 두께:
 
@@ -99,7 +161,18 @@ p {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 페이지의 모든 단락을 글자 두께를 조금 높게 만들게 됩니다.
 
@@ -113,7 +186,18 @@ p {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이는 단락의 줄 간격을 글꼴 크기의 1.5배로 설정합니다.
 
@@ -127,7 +211,18 @@ h3 {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 텍스트 꾸미기:
 
@@ -141,7 +236,18 @@ a {
 
 # 색상:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 색은 웹사이트에 활기와 시각적 매력을 더해줍니다. 색은 정보 전달, 감정 유발, 그리고 시각적 계층 구조 설정에 중요한 역할을 합니다.
 
@@ -155,7 +261,18 @@ p {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 페이지의 모든 문단을 어두운 회색으로 만들 수 있어요.
 
@@ -169,7 +286,18 @@ body {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 페이지 전체에 연한 회색 배경을 설정해줄거예요.
 
@@ -183,7 +311,18 @@ a:hover {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS는 "red," "blue," "green" 등과 같은 이름이 지정된 색상 세트를 지원합니다. 이들은 사용하기 쉽지만 옵션이 제한적입니다.
 
@@ -193,7 +332,18 @@ h2 {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 16진수 색상:
 
@@ -207,7 +357,18 @@ p {
 
 ## RGB와 RGBA:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 RGB 표기법은 빨강, 초록, 파랑 값의 조합을 사용하여 색상을 정의합니다. RGBA에는 투명도를 지정하기 위한 추가적인 알파 매개변수가 포함되어 있습니다.
 
@@ -221,7 +382,18 @@ p {
 
 HSL(Hue, Saturation, Lightness) 표기법은 색상을 색조, 채도 및 명도에 기초하여 직관적으로 지정하는 방법을 제공합니다. HSLA에는 투명도를 위한 알파 매개변수가 포함되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 p {

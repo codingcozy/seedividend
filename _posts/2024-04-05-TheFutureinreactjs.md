@@ -3,17 +3,13 @@ title: "리액트 JS의 앞으로의 행보"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "The Future in react js"
 link: "https://medium.com/@tushar.tmpatel/the-future-in-react-js-dbabf2e3084a"
 isUpdated: true
 ---
-
-
-
-
 
 ![React.js](/assets/img/TheFutureinreactjs_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 리액트.js, 일반적으로 리액트로 알려진 이것은 페이스북이 개발한 오픈 소스 자바스크립트 라이브러리로, 특히 싱글 페이지 어플리케이션과 복잡한 웹 인터페이스를 구축하는 데 사용됩니다. 이는 페이스북의 소프트웨어 엔지니어인 조던 월케가 2013년 5월 JSConf US 컨퍼런스에서 소개했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![TheFutureinreactjs_2.png](/assets/img/TheFutureinreactjs_2.png)
 

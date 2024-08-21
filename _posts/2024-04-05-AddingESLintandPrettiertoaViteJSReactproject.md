@@ -3,17 +3,13 @@ title: "ViteJS React 프로젝트에 ESLint과 Prettier를 추가하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Adding ESLint and Prettier to a ViteJS React project"
 link: "https://medium.com/stackademic/adding-eslint-and-prettier-to-a-vitejs-react-project-84a0752c0fc5"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/AddingESLintandPrettiertoaViteJSReactproject_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ESLint와 Prettier 외에도 다음 종속성을 설치할 거에요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - @typescript-eslint/eslint-plugin: TypeScript 프로젝트용 린트 규칙 모음입니다.
 - @typescript-eslint/parser: TypeScript용 코드 구문 분석기입니다.
@@ -41,7 +48,18 @@ yarn add -D eslint prettier @typescript-eslint/eslint-plugin @typescript-eslint/
 
 npm을 사용하는 경우 yarn add -D를 npm install --dev로 대체하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 2: ESLint 구성
 
@@ -93,7 +111,18 @@ npm을 사용하는 경우 yarn add -D를 npm install --dev로 대체하세요.
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요! 사용하지 않는 변수가 발생하면 에러가 발생하도록 no-unused-vars를 설정했어요. react/react-in-jsx-scope 규칙을 비활성화했기 때문에 ESLint에서 JSX 파일에서 React를 가져오도록 강제하지 않아요 (import React from `react`). React 17.0부터는 JSX 파일에서 React를 가져오는 것이 필수가 아니에요.
 
@@ -105,7 +134,18 @@ npm을 사용하는 경우 yarn add -D를 npm install --dev로 대체하세요.
 node_modules / dist / env.d.ts;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트 단추에서 시작하여 .ts 및 .tsx 파일 전체에 대해 eslint를 실행하도록 lint 스크립트를 package.json의 스크립트 섹션에 추가하는 것이 좋습니다. 그러면 yarn lint 또는 npm run lint을 실행하여 ESLint를 실행할 수 있습니다:
 
@@ -120,7 +160,18 @@ package.json
 
 lint 스크립트는 프로젝트 단추에서 시작하여 모든 .ts 및 .tsx 파일 위에 eslint를 실행할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 3: Prettier 구성
 
@@ -140,7 +191,18 @@ ESLint를 구성할 때와 마찬가지로, 이제 Prettier 설정을 담은 .pr
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고, .prettierignore:
 
@@ -153,7 +215,18 @@ dist/
 
 # 단계 4: VSCode와 통합하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최종적으로, 우리는 VSCode를 구성하여 ESLint와 Prettier를 사용하여 각각 코드 문제를 찾고 형식을 정리할 것입니다. 아직 이 확장 프로그램을 설치하지 않으셨다면, 설치해주세요: Prettier — Code formatter와 ESLint.
 
@@ -163,7 +236,18 @@ dist/
 
 .vscode/settings.json
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 {

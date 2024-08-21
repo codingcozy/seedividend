@@ -3,16 +3,13 @@ title: "앵귤러에서 let 구문을 사용해 타입 축소하는 방법"
 description: ""
 coverImage: "/assets/img/2024-05-20-EleganttypenarrowingwithletsyntaxinAngular_0.png"
 date: 2024-05-20 22:15
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-20-EleganttypenarrowingwithletsyntaxinAngular_0.png
 tag: Tech
 originalTitle: "Elegant type narrowing with @let syntax in Angular"
 link: "https://medium.com/javascript-everyday/elegant-type-narrowing-with-let-syntax-in-angular-a6cf2cd18964"
 isUpdated: true
 ---
-
-
-
 
 ![이미지](/assets/img/2024-05-20-EleganttypenarrowingwithletsyntaxinAngular_0.png)
 
@@ -22,17 +19,26 @@ Angular 18은 아직 릴리즈되지 않았지만, 18.1 버전에 이미 새로�
 
 가능한 응용 중 하나는 AsyncPipe를 사용하여 구독하는 스트림에서 값 unwrap하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현재 솔루션
-
 
 ```js
 <ng-container *ngIf="data$ | async as data">
   <p>{ data }</p>
 </ng-container>
 ```
-
 
 ```js
 <ng-container *ngIf="{ data: data$ | async } as vm">
@@ -42,7 +48,18 @@ Angular 18은 아직 릴리즈되지 않았지만, 18.1 버전에 이미 새로�
 
 새로운 솔루션
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 @let data = data$ | async ;
@@ -56,7 +73,18 @@ Enea Jahollari의 훌륭한 기사에서 새로운 구문의 다양한 사용법
 
 언급할 가치가 있는 점은 신호의 값을 템플릿 로컬 변수에 저장할 수 있는 능력입니다. 이것은 타입 좁힘이 매우 중요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 해당 컴포넌트를 고려해봅시다:
 
@@ -64,7 +92,7 @@ Enea Jahollari의 훌륭한 기사에서 새로운 구문의 다양한 사용법
 type AnalysisState =
   | { status: 'pending' }
   | { status: 'completed'; result: string };
-  
+
 @Component({
   selector: 'app-analysis-card',
   standalone: true,
@@ -91,9 +119,20 @@ export class AnalysisCardComponent {
 }
 ```
 
-새로운 제어 흐름 구문을 통해 이전의 *ngIf 디렉티브로는 불가능했던 적절한 타입 축소가 가능해졌습니다. 상세 내용은 제 이전 글 중 하나에서 확인하실 수 있어요.
+새로운 제어 흐름 구문을 통해 이전의 \*ngIf 디렉티브로는 불가능했던 적절한 타입 축소가 가능해졌습니다. 상세 내용은 제 이전 글 중 하나에서 확인하실 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나, 컴포넌트 상태를 처리하기 위해 시그널을 사용하는 경우:
 
@@ -129,7 +168,18 @@ export class AnalysisCardComponent {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 가지 해결 방법이 있습니다:
 
@@ -168,7 +218,18 @@ export class AnalysisCardComponent {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 보조 if 블록으로 신호의 값 언래핑하기
 
@@ -205,7 +266,18 @@ export class AnalysisCardComponent {
 
 새로운 방법으로 템플릿 지역 변수를 만드는 방법을 소개했으므로 목표를 달성하는 더 우아한 방법이 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 analysisState = analysisState();

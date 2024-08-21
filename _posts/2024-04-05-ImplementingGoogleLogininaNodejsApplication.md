@@ -3,17 +3,13 @@ title: "Nodejs 사이트에서 Google 로그인 기능 구현하기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Implementing Google Login in a Nodejs Application"
 link: "https://medium.com/@codeculturepro/implementing-google-login-in-a-node-js-application-b6fbd98ce5e"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/ImplementingGoogleLogininaNodejsApplication_0.png" />
 
@@ -31,7 +27,18 @@ Google 로그인을 구현하기 위해서는 Google API 프로젝트를 설정�
 
 단계 2: Node.js 프로젝트 설정
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새로운 Node.js 프로젝트를 설정하세요. npm이나 yarn과 같은 패키지 관리자를 사용해 시작하세요. 터미널에서 다음 명령을 실행하세요:
 
@@ -44,7 +51,18 @@ npm init
 
 단계 3: 필수 패키지 설치
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Node.js에서 Google 로그인을 구현하려면 필요한 패키지를 설치해야 합니다. 터미널에서 다음 명령을 실행하세요:
 
@@ -57,7 +75,18 @@ Express.js와 axios 패키지가 설치됩니다. Express.js는 인기있는 Nod
 
 단계 4: 인증 라우트 구현
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새 파일 authRoutes.js을 만들어 애플리케이션의 인증 라우트를 정의하세요. 이 파일에서 Google 로그인 플로우를 시작하고 콜백 URL을 처리하며 사용자 로그아웃을 담당하는 라우트를 구현하세요.
 
@@ -120,7 +149,18 @@ module.exports = router;
 
 Step 5: Express.js 서버 설정하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 메인 서버 파일(예: app.js)에서 필요한 패키지를 가져와 Express.js 서버를 구성하세요. authRoutes.js에 정의된 인증 라우트를 포함하세요.
 

@@ -3,17 +3,13 @@ title: "Nextjs 14 프로젝트 파비콘, 애플 아이콘 설정 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # Nextjs 14 프로젝트 파비콘, 애플 아이콘 설정 방법
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 앱 아이콘을 설정하는 두 가지 방법이 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이미지 파일 사용하기 (.ico, .jpg, .png)
 - 아이콘 생성을 위한 코드 사용하기 (.js, .ts, .tsx)
@@ -34,7 +41,18 @@ isUpdated: true
 
 Next.js는 파일을 평가하여 앱의 `head` 요소에 적절한 태그를 자동으로 추가할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 | File convention           | Supported file types                    | Valid locations |
 | ------------------------- | --------------------------------------- | --------------- |
@@ -50,7 +68,18 @@ Next.js는 파일을 평가하여 앱의 `head` 요소에 적절한 태그를 �
 <link rel="icon" href="/favicon.ico" sizes="any" />
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 아이콘
 
@@ -62,7 +91,18 @@ Next.js는 파일을 평가하여 앱의 `head` 요소에 적절한 태그를 �
 
 ### 애플 아이콘
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 Markdown 형식으로 table tag를 변경한 내용입니다.
 
@@ -73,7 +113,18 @@ Next.js는 파일을 평가하여 앱의 `head` 요소에 적절한 태그를 �
 | The appropriate `link` tags and attributes such as rel, href, type, and sizes are determined by the icon type and metadata of the evaluated file. For example, a 32 by 32px .png file will have type="image/png" and sizes="32x32" attributes. |
 | sizes="any" is added to favicon.ico output to avoid a browser bug where an .ico icon is favored over .svg.                                                                                                                                     |
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지 파일을 직접 사용하는 것 외에도 코드를 사용하여 프로그래밍적으로 아이콘을 생성할 수 있습니다.
 
@@ -86,7 +137,18 @@ Next.js는 파일을 평가하여 앱의 `head` 요소에 적절한 태그를 �
 
 아이콘을 생성하는 가장 쉬운 방법은 next/og에서 ImageResponse API를 사용하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```typescript
 import { ImageResponse } from "next/og";
@@ -141,7 +203,18 @@ export default function Icon() {
 
 ### 속성들
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기본 내보내기 함수는 다음과 같은 프롭을 받습니다:
 
@@ -155,7 +228,18 @@ export default function Icon({ params }: { params: { slug: string } }) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 테이블
 
@@ -172,7 +256,18 @@ export default function Icon({ params }: { params: { slug: string } }) {
 
 > 참고: ImageResponse는 이 반환 유형을 충족합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### Config exports
 
@@ -185,7 +280,18 @@ export default function Icon({ params }: { params: { slug: string } }) {
 
 #### size
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```typescript
 export const size = { width: 32, height: 32 };
@@ -205,7 +311,18 @@ export const contentType = "image/png";
 export default function Icon() {}
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <link rel="icon" type="image/png" />
@@ -222,7 +339,18 @@ export default function Icon() {}
 | [runtime](/docs/app/api-reference/file-conventions/route-segment-config#runtime)                 | `'nodejs' \| 'edge'`                                                       | `'nodejs'` |
 | [preferredRegion](/docs/app/api-reference/file-conventions/route-segment-config#preferredregion) | `'auto'   \| 'global'        \| 'home'     \| string          \| string[]` | `'auto'`   |
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```typescript
 export const runtime = "edge";
@@ -236,4 +364,15 @@ export default function Icon() {}
 | --------- | ---------------------------------------------- |
 | `v13.3.0` | `favicon`, `icon`, and `apple-icon` introduced |
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

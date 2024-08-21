@@ -3,16 +3,13 @@ title: "더 나은 코드 정렬 방법 개발자들을 위한 팁"
 description: ""
 coverImage: "/assets/img/2024-07-07-ABetterApproachforCodeAlignment_0.png"
 date: 2024-07-07 13:03
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-ABetterApproachforCodeAlignment_0.png
 tag: Tech
 originalTitle: "A Better Approach for Code Alignment"
 link: "https://medium.com/@gayanper/a-better-approach-for-code-alignment-611b520ff37e"
 isUpdated: true
 ---
-
-
-
 
 코드 정렬이라는 용어는 여러분들에게 여러 의미를 갖을 수 있습니다. 본 이야기의 의미는 견고한 소프트웨어 실행을 위해 필요한 권장 사항을 준수하는지 확인하는 것입니다.
 
@@ -23,7 +20,18 @@ isUpdated: true
 - OpenTelemetry와 같은 관측성 프레임워크 설정
 - Testcontainers와 같은 라이브러리를 사용한 통합 테스트 설정
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 시나리오에서는 코드/라이브러리 구성을 구현하는 방법을 모든 개발자가 유사하게 따르기를 원하는 상황을 찾을 수 있을 것입니다. 각각 한 가지 예를 살펴보겠습니다.
 
@@ -36,7 +44,18 @@ isUpdated: true
 
 # 솔루션
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 공유 라이브러리
 
@@ -49,7 +68,18 @@ isUpdated: true
 - OpenTelemetry 같은 관측 가능 프레임워크 설치 — 서비스 이름과 수집기 엔드포인트만 고려하여 OpenTelemetry SDK 구성을 수행할 수 있는 공유 라이브러리 함수를 정의할 수 있습니다. 이는 OpenTelemetry SDK를 랩핑할 것입니다.
 - Testcontainers 같은 라이브러리를 사용하여 통합 테스트 설정 — 주어진 매개변수로 Testcontainer 인스턴스를 구축하는 공유 라이브러리 함수를 정의할 수 있습니다. 이는 Testcontainers 라이브러리를 랩핑할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 코드 템플릿
 
@@ -62,11 +92,22 @@ isUpdated: true
 
 각 시나리오에서의 활용도는 다를 수 있으며 때로는 편집기/IDE 템플릿 지원에 의존해야 할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 린팅/정적 분석
 
-지금까지의 모든 접근 방식들은 개발자가 밑바닥 라이브러리 옵션을 제한하거나 숨기려고 노력하거나 코드를 생성한 후에 잊어버리려고 하는 방식입니다. 첫 번째 방식은 개발자가 실수를 할 수 없도록 보장하고, 두 번째 방식은 올바른 코드를 생성하고 나중에 코드를 편집할 때 개발자가 실수를 하지 않도록 믿습니다. 
+지금까지의 모든 접근 방식들은 개발자가 밑바닥 라이브러리 옵션을 제한하거나 숨기려고 노력하거나 코드를 생성한 후에 잊어버리려고 하는 방식입니다. 첫 번째 방식은 개발자가 실수를 할 수 없도록 보장하고, 두 번째 방식은 올바른 코드를 생성하고 나중에 코드를 편집할 때 개발자가 실수를 하지 않도록 믿습니다.
 
 이 방식은 다르게 다룹니다. 개발자가 창의성을 발휘하여 코드를 작성할 수 있도록 허용하지만, 중요한 부분이 포함되어 있는지도 확인합니다.
 
@@ -75,7 +116,18 @@ isUpdated: true
 - OpenTelemetry와 같은 모니터링 프레임워크 설정 — 컴파일 시간에 코드를 분석하여 구성 코드에 OLTP Exporter만 포함되어 있고 올바르게 구성되어 있는지 확인합니다.
 - Testcontainers와 같은 라이브러리를 사용한 통합 테스트 설정 — 컴파일 시간에 코드를 분석하여 테스트 코드의 각 Testcontainer 정의가 네트워크 별칭 설정을 포함하고 있는지 확인합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신이 중요한 부분을 찾지 못한다면 이는 컴파일 오류나 경고를 유발할 수 있습니다. 강제하고자 하는 규칙들은 공유 라이브러리와 매우 유사하게 정의하고 유지할 수 있습니다. 이 분석 규칙을 포함하여 CI 빌드에서 코드 변경이 중요한 부분을 포함하고 있는지 확인할 수 있습니다. 대부분의 프로그래밍 언어 컴파일러는 이 기능을 지원하거나 적어도 이를 위한 라이브러리가 있습니다. 기술 거물들이 지원하는 라이브러리를 사용하여 해당 언어를 위한 규칙을 쉽게 정의할 수 있습니다. 이야기에서 "Testcontainers와 같은 라이브러리를 사용한 통합 테스트 설정"에 대한 간단한 규칙 구현을 살펴보겠습니다.
 
@@ -87,7 +139,18 @@ isUpdated: true
 - 유지보수 및 비용
 - 개발자 경험 및 문화
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 권한 인가 요청
 
@@ -99,7 +162,18 @@ isUpdated: true
 
 다른 솔루션(코드 템플릿 & 린팅) 또한 좋은 후보지만, "공유 라이브러리" 솔루션이 하는 것처럼 인가와 관련된 잠재적인 버그 감소에 대처하지 못합니다. 린팅 솔루션을 통해 모든 가능한 구현 변형을 포착하고 누락된 부분을 식별하려 하면 너무 엔지니어링화된 솔루션이라고 볼 수 있고, 이것은 구현 및 유지 관리에 더 높은 비용이 필요한 솔루션이 될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## RESTful API 만들기
 
@@ -109,7 +183,18 @@ isUpdated: true
 
 "린팅/정적 분석"은 좋은 해결책이 될 수 있습니다. 분석해야 하는 코드가 간단하고 변이가 적기 때문에 코드 컴파일 시간에 이러한 문제를 포착하기위한 간단한 규칙을 작성하는 것이 쉽습니다. 이렇게 하면 코드를 작성하는 시점이나 컴파일할 때 개발자에게 즉각적인 피드백을 제공합니다. 또한 코드가 컴파일 될 때 항상 이러한 검사가 수행됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 “코드 템플릿”과 “린팅/정적 분석”을 결합하면 개발자들에게 더 나은 경험을 제공할 수 있어요.
 
@@ -121,7 +206,18 @@ isUpdated: true
 
 “OpenTelemetry와 같은 관측 가능한 프레임워크 설정하기” 및 “Testcontainers 같은 라이브러리로 통합 테스트 설정하기” 두 경우 모두 앞서 언급한 사용 사례와 유사하므로, 이러한 사용 사례에 대한 해결책 또한 “린팅/정적 분석” 또는 “코드 템플릿” 및 “린팅/정적 분석”의 결합일 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 원칙의 요지
 
@@ -134,7 +230,18 @@ isUpdated: true
 
 이제 Q1과 Q3의 답변이 모두 "예"라면 비즈니스에 영향을 줄 수 있는 시스템 문제의 위험을 줄이기 위해 공유 라이브러리 사용을 고려해야 합니다. Q3가 "아니오"라면 린팅/정적 분석 도구를 사용하여 처리할 수 있는지 고려할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Q1, Q2, 그리고 Q3 응답이 모두 "아니요"라면 그 공유 라이브러리 솔루션을 고려하지 말아야 합니다. 해당 솔루션은 높은 유지보수 비용이나 너무 복잡한 솔루션으로 이어질 수 있습니다.
 

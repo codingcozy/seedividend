@@ -3,17 +3,13 @@ title: "브라우저에서의 CSS 히스토리 정리"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "CSS History in Browser"
 link: "https://medium.com/stackademic/css-history-in-browser-7a9d9f45861f"
 isUpdated: true
 ---
-
-
-
-
 
 일부 CSS 문제를 수정할 때는 먼저 브라우저에서 변경 사항을 테스트한 후 (개발 도구에서), 만족스러운 결과를 얻으면 CSS 파일에 코드를 작성합니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 만약 우리가 CSS에 대해 한 모든 변경 사항의 히스토리를 볼 수 있는 방법이 있다고 말한다면 어떨까요? 이 히스토리는 Github에서 diff를 볼 때와 비슷하게 보입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 작업을 수행하려면 브라우저의 개발 도구를 열어주세요
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 2. 이제 팝업에 "changes"를 입력하고 Enter 키를 눌러주세요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![CSSHistoryinBrowser_2](/assets/img/CSSHistoryinBrowser_2.png)
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 그러면 여기까지에요. 이제 개발 도구에서 CSS를 변경한 후 이 새로운 "Changes" 탭에 반영될거에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![CSSHistoryinBrowser_4](/assets/img/CSSHistoryinBrowser_4.png)
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 # Stackademic 🎓
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 감사합니다. 마지막까지 읽어 주셔서 감사합니다. 떠나시기 전에:
 

@@ -3,16 +3,13 @@ title: "스크롤할 때 멋진, 축소 가능한 헤더로 내비게이션을 �
 description: ""
 coverImage: "/assets/img/2024-06-20-Transformyournavigationwithasleekshrinkableheaderonscroll_0.png"
 date: 2024-06-20 03:29
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-Transformyournavigationwithasleekshrinkableheaderonscroll_0.png
 tag: Tech
 originalTitle: "Transform your navigation with a sleek, shrinkable header on scroll! 🚀✨"
 link: "https://medium.com/@codingmadeeasy92/transform-your-navigation-with-a-sleek-shrinkable-header-on-scroll-7d326e534632"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-06-20-Transformyournavigationwithasleekshrinkableheaderonscroll_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 이 튜토리얼을 마치면 웹페이지의 사용성과 미학을 향상시키는 기능적인 슈링크 헤더를 가지게 될 것입니다. 이 안내서는 웹사이트에 세련된 터치를 더하고자 하는 초보자와 경험 있는 개발자 모두에게 적합합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 효과를 위한 두 가지 중요한 부분이 있어요.
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 전체 코드
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <!DOCTYPE html>

@@ -3,7 +3,7 @@ title: "프로덕션 환경에서 Docker를 사용하여 HTML 웹사이트를 �
 description: ""
 coverImage: "/assets/img/2024-05-02-ContainerizedanHTMLWebsiteusingDockeronProductionEnvironmentDockerCaseStudy_0.png"
 date: 2024-05-02 00:16
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-02-ContainerizedanHTMLWebsiteusingDockeronProductionEnvironmentDockerCaseStudy_0.png
 tag: Tech
 originalTitle: "Containerized an HTML Website using Docker on Production Environment — Docker Case Study"
@@ -11,17 +11,25 @@ link: "https://medium.com/devops-guides/containerized-an-html-website-using-dock
 isUpdated: true
 ---
 
-
-
-
-안녕하세요! 
+안녕하세요!
 프로덕션 서버에 있는 애플리케이션을 Dockerize해야 하는 주요 소프트웨어 회사의 데브옵스 엔지니어로 일하고 계시군요. 회사는 커스텀 소프트웨어를 사용하기 때문에 미리 빌드된 컨테이너를 사용할 수 없습니다.
 
 다음 링크를 사용해주세요: https://github.com/microsoft/project-html-website.git
 
 다음 내용을 가정해주세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1. 소프트웨어가 설치된 상태로 Apache를 가정합니다.
 
@@ -31,7 +39,18 @@ isUpdated: true
 
 1. 개발자들은 도커를 사용하지 않을 것이기 때문에, 그들로부터 코드를 받게 될 것입니다. 빌드한 사용자 정의 이미지에 코드를 넣을 수 있는 Docker 파일을 작성해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 위의 구성으로 Docker Hub에 이미지를 푸시하세요.
 
@@ -41,7 +60,18 @@ isUpdated: true
 
 # 1. 우분투 머신을 사용하여 새로운 인스턴스 생성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단계 1: 먼저 인스턴스를 시작하겠습니다. "인스턴스 시작"을 클릭하세요.
 
@@ -51,7 +81,18 @@ isUpdated: true
 
 ![Step 2](/assets/img/2024-05-02-ContainerizedanHTMLWebsiteusingDockeronProductionEnvironmentDockerCaseStudy_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Step 3: "AMI"를 "Ubuntu"로 선택하세요.
 
@@ -61,7 +102,18 @@ Step 4: "인스턴스 유형"을 "t2.micro"로 유지하고 "키페어(로그인
 
 ![이미지](/assets/img/2024-05-02-ContainerizedanHTMLWebsiteusingDockeronProductionEnvironmentDockerCaseStudy_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스텝 5: "네트워크 설정"에서 "편집"을 클릭하세요.
 
@@ -71,7 +123,18 @@ Step 4: "인스턴스 유형"을 "t2.micro"로 유지하고 "키페어(로그인
 
 a. 먼저, 여기에서 "보안 그룹 생성"을 선택하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 b. 보안 그룹 이름 - 필수: 사례 연구
 
@@ -81,8 +144,18 @@ c. 설명: 사례 연구용 보안 그룹
 
 ![이미지](/assets/img/2024-05-02-ContainerizedanHTMLWebsiteusingDockeronProductionEnvironmentDockerCaseStudy_6.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-05-02-ContainerizedanHTMLWebsiteusingDockeronProductionEnvironmentDockerCaseStudy_7.png)
 
@@ -92,7 +165,18 @@ c. 설명: 사례 연구용 보안 그룹
 
 단계 8: "하이퍼링크"를 클릭하여 "인스턴스"를 확인하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-05-02-ContainerizedanHTMLWebsiteusingDockeronProductionEnvironmentDockerCaseStudy_9.png)
 
@@ -102,7 +186,18 @@ c. 설명: 사례 연구용 보안 그룹
 
 단계 10: "EC2 Instance Connect"에서 "연결"을 클릭하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-05-02-ContainerizedanHTMLWebsiteusingDockeronProductionEnvironmentDockerCaseStudy_11.png" />
 
@@ -112,7 +207,18 @@ c. 설명: 사례 연구용 보안 그룹
 
 ## 2. Ubuntu Machine 업데이트 및 Docker 설치
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스텝 1: 머신을 업데이트하려면 이 명령을 실행하세요:
 
@@ -124,7 +230,18 @@ sudo apt update
 
 스텝 2: 다음 명령을 사용하여 Docker를 설치하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 sudo apt-get install docker.io –y
@@ -139,7 +256,18 @@ sudo systemctl enable docker
 sudo systemctl start docker
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-05-02-ContainerizedanHTMLWebsiteusingDockeronProductionEnvironmentDockerCaseStudy_15.png)
 
@@ -151,7 +279,18 @@ sudo systemctl status docker
 
 ![이미지](/assets/img/2024-05-02-ContainerizedanHTMLWebsiteusingDockeronProductionEnvironmentDockerCaseStudy_16.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 5단계: "sudo su -" 명령을 사용하여 "루트 사용자"로 로그인하세요. 그리고, 사용 중인 도커의 현재 버전을 확인하기 위해 "docker --version"을 입력하세요.
 
@@ -164,7 +303,18 @@ docker --version
 
 # 3. 새 폴더를 만들고 Github 저장소를 복제하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1단계: "mkdir w1" 명령어를 사용하여 "w1" 디렉토리를 생성하고 디렉토리를 확인하기 위해 "ls" 명령어를 입력합니다.
 
@@ -176,7 +326,18 @@ mkdir w1
 
 2단계: 아래 명령어를 사용하여 "w1" 디렉토리로 들어갑니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 cd w1
@@ -190,7 +351,18 @@ cd w1
 https://github.com/microsoft/project-html-website.git
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-05-02-ContainerizedanHTMLWebsiteusingDockeronProductionEnvironmentDockerCaseStudy_20.png" />
 
@@ -202,19 +374,41 @@ git clone https://github.com/microsoft/project-html-website.git
 
 <img src="/assets/img/2024-05-02-ContainerizedanHTMLWebsiteusingDockeronProductionEnvironmentDockerCaseStudy_21.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스텝 5: "ls" 및 "project-html-website"가 성공적으로 다운로드되었는지 확인하세요.
 
 ```js
-ls
+ls;
 ```
 
 <img src="/assets/img/2024-05-02-ContainerizedanHTMLWebsiteusingDockeronProductionEnvironmentDockerCaseStudy_22.png" />
 
 스텝 6: "cd project-html-website"를 입력하여 해당 리포지토리 내부로 이동하세요. "project-html-website" 폴더 내부로 이동하게 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 cd project-html-website
@@ -226,7 +420,18 @@ cd project-html-website
 
 단계 1: 먼저, 다음 명령을 사용하여 Docker 파일을 생성하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 vim Dockerfile
@@ -246,7 +451,18 @@ ENTRYPOINT apache2ctl -D FOREGROUND
 ADD index.html /var/www/html/
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-05-02-ContainerizedanHTMLWebsiteusingDockeronProductionEnvironmentDockerCaseStudy_25.png" />
 
@@ -258,7 +474,18 @@ ADD index.html /var/www/html/
 sudo docker build –t myimg .
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-05-02-ContainerizedanHTMLWebsiteusingDockeronProductionEnvironmentDockerCaseStudy_26.png" />
 
@@ -270,7 +497,18 @@ docker container run –itd -p 88:80 –name test076 myimg
 
 컨테이너가 활성화되었는지 확인하려면 "docker ps -a"를 실행하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 도커 ps -a
@@ -282,7 +520,18 @@ docker container run –itd -p 88:80 –name test076 myimg
 
 단계 5: IP 주소를 복사하여 새 브라우저 주소 창에 붙여넣으십시오. http://35.154.146.28:88/
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-05-02-ContainerizedanHTMLWebsiteusingDockeronProductionEnvironmentDockerCaseStudy_28.png" />
 
@@ -292,7 +541,18 @@ docker container run –itd -p 88:80 –name test076 myimg
 
 단계 1: Docker Hub로 푸시할 이미지에 태그를 지정하세요. 다음 명령어를 사용하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 sudo docker tag myimg visaltyagi12/myimg
@@ -304,7 +564,18 @@ sudo docker tag myimg visaltyagi12/myimg
 
 단계 2: 첫 번째로 사용자 이름과 암호를 사용하여 다음 명령을 사용하여 도커에 로그인하십시오: sudo docker login. 로그인이 성공적으로 완료됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 sudo docker login
@@ -318,7 +589,18 @@ sudo docker login
 sudo docker push visaltyagi12/myimg
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-05-02-ContainerizedanHTMLWebsiteusingDockeronProductionEnvironmentDockerCaseStudy_31.png" />
 
@@ -328,7 +610,18 @@ sudo docker push visaltyagi12/myimg
 
 ## 더 많은 도커 과제
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우분투에 컨테이너를 생성하고 Apache2를 설치하세요 — 도커 과제 1
 
@@ -338,7 +631,18 @@ sudo docker push visaltyagi12/myimg
 
 컨테이너 실행 후 자동으로 Apache2를 설치하는 Docker 파일을 만드세요 — 도커 과제 4
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아파치 기본 웹 페이지를 샘플 HTML 파일 안에 포함된 컨테이너로 교체하기 — 도커 과제 5
 

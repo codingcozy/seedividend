@@ -3,16 +3,13 @@ title: "Jetpack Compose로 인터랙티브 HTML 콘텐츠 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-22-CreatingInteractiveHTMLContentinJetpackCompose_0.png"
 date: 2024-06-22 03:58
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-CreatingInteractiveHTMLContentinJetpackCompose_0.png
 tag: Tech
 originalTitle: "Creating Interactive HTML Content in Jetpack Compose"
 link: "https://medium.com/@graser1305/creating-interactive-html-content-in-jetpack-compose-7f7e929152f3"
 isUpdated: true
 ---
-
-
-
 
 HTML 내용을 Android Compose에서 표시하는 것은 특히 클릭 가능한 링크와 함께 일부 쉽게 보이지 않을 수 있습니다. 그러나 Kotlin과 Jetpack Compose를 사용하면 관리할 수 있고 즐거울 수도 있습니다. 이 안내서에서는 클릭 가능한 링크가 포함된 HTML 문자열을 구문 분석하고 표시하는 사용자 정의 구성 가능한 함수인 HtmlText를 만드는 방법을 안내하겠습니다.
 
@@ -32,7 +29,18 @@ dependencies {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # HtmlText 컴포저블 함수 구축하기
 
@@ -42,7 +50,18 @@ HtmlText 컴포저블 함수를 만드는 과정을 단계별로 살펴보겠습
 
 함수 내부에서 현재 컨텍스트를 가져와 HTML 콘텐츠에서 주석이 달린 문자열을 만듭니다. HtmlCompat.fromHtml 메서드는 HTML 문자열을 Spanned 객체로 변환합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```kotlin
 val context = LocalContext.current
@@ -83,7 +102,18 @@ urlSpans.forEach { urlSpan ->
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 클릭 처리
 
@@ -109,7 +139,18 @@ ClickableText(
 
 # Complete HtmlText 함수
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 HtmlText 함수의 완전한 코드입니다:
 
@@ -189,7 +230,18 @@ fun HtmlText(
 
 Compose UI에서 HtmlText 컴포저를 사용하려면 HTML 콘텐츠와 함께 호출하면 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```kotlin
 @Composable

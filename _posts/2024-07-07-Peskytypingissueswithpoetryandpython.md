@@ -3,15 +3,13 @@ title: "시와 파이썬의 타이핑 문제 해결 방법"
 description: ""
 coverImage: "/assets/img/2024-07-07-Peskytypingissueswithpoetryandpython_0.png"
 date: 2024-07-07 21:32
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-Peskytypingissueswithpoetryandpython_0.png
 tag: Tech
 originalTitle: "Pesky typing issues with poetry and python"
 link: "https://medium.com/@mnghamaty/pesky-typing-issues-with-poetry-and-python-6666a958d1f4"
 isUpdated: true
 ---
-
-
 
 ![이미지](/assets/img/2024-07-07-Peskytypingissueswithpoetryandpython_0.png)
 
@@ -24,7 +22,18 @@ def my_special_function(test: Test) -> Output:
   return Output()
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당연하지만 실제 유형은 전통적인 Python 인터프리터에서 테스트되지 않았습니다. 그러나 우리가 매개변수로 전달되는 것을 정확히 알고 싶다면 다음을 추가할 수 있습니다:
 
@@ -39,7 +48,18 @@ def my_special_function(test: Test) -> Output:
 
 Python 3.12 이상에서 추가된 다른 항목(P.E.P. 0695)은 'type' 키워드입니다. 사용자 정의 유형을 제공하여 다음과 같이 정의할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import typing

@@ -3,16 +3,13 @@ title: "Socket.io, React.js, Node.js 및 Express.js를 사용한 실시간 애�
 description: ""
 coverImage: "/assets/img/2024-05-01-BuildingReal-TimeApplicationswithSocketioReactjsNodejsandExpressjsAComprehensiveGuide_0.png"
 date: 2024-05-01 17:48
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-01-BuildingReal-TimeApplicationswithSocketioReactjsNodejsandExpressjsAComprehensiveGuide_0.png
 tag: Tech
 originalTitle: "Building Real-Time Applications with Socket.io, React.js, Node.js, and Express.js: A Comprehensive Guide"
 link: "https://medium.com/bitsrc/building-real-time-applications-with-socket-io-adc86da2f9f1"
 isUpdated: true
 ---
-
-
-
 
 **실시간 웹 개발: Socket.io, React.js, Node.js 및 Express.js를 활용한 대화형 애플리케이션 구축에 대한 포괄적인 가이드**
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 Socket.io는 웹 서버와 클라이언트 간의 양방향 및 이벤트 기반 통신을 가능하게 하는 강력한 라이브러리입니다. React.js, 사용자 인터페이스를 구축하기 위한 인기 있는 JavaScript 라이브러리, 그리고 Express.js를 통한 Node.js와 결합하면 다양한 웹 애플리케이션을 만들 수 있는 다재다능한 웹 애플리케이션 프레임워크를 통해 개발자는 원활하고 대화형 실시간 애플리케이션을 만들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 블로그에서는 Socket.io의 기본을 탐구하고 React.js, Node.js, Express.js와 통합하는 방법을 알아볼 것입니다. 우리는 기본 개념, 단계별 구현 방법, 실시간 애플리케이션을 구축하는 데 가장 좋은 방법에 대해 이야기할 것입니다. 이 안내서를 마치면 이러한 기술을 활용하여 사용자가 실시간으로 참여하는 동적이고 반응적인 어플리케이션을 만드는 방법에 대해 확고한 이해를 갖게 될 것입니다. 그러니 Socket.io, React.js, Node.js, Express.js와 함께하는 실시간 웹 개발의 흥미로운 여정을 시작해봅시다!
 
@@ -34,7 +42,18 @@ npm init
 
 그런 다음 필요한 종속성(Express, Cors, Nodemon, Socket.io)을 설치하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm install express cors nodemon socket.io
@@ -48,22 +67,35 @@ npm install express cors nodemon socket.io
 그 후, 서버 폴더에 index.js 파일을 만들고 다음 코드를 추가하세요.
 
 ```js
-const express = require('express');
+const express = require("express");
 const app = express();
-const http = require('http');
+const http = require("http");
 const { Server } = require("socket.io");
-const cors = require('cors');
+const cors = require("cors");
 app.use(cors());
 
 const server = http.createServer(app);
 const io = new Server(server, {
-    cors: {origin:"http://localhost:3000", methods: ["GET", "POST"]},
+  cors: { origin: "http://localhost:3000", methods: ["GET", "POST"] },
 });
 
-server.listen(4000, () => { console.log("listening on *:4000"); });
+server.listen(4000, () => {
+  console.log("listening on *:4000");
+});
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 클라이언트 폴더로 이동하여 리액트 앱을 만들어봅시다.
 
@@ -77,7 +109,18 @@ npx create-react-app .
 npm install socket.io-client
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앱.js에 다음 코드를 추가하세요.
 
@@ -114,14 +157,25 @@ export default App;
 ```js
 io.on("connection", (socket) => {
   console.log(`유저가 연결되었습니다 ${socket.id}`);
-  
+
   socket.on("send_message", (data) => {
     socket.broadcast.emit("receive_message", data);
   });
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 코드 줄들로 기본 메시지 '클라이언트에서 안녕하세요'를 보낼 수 있고, 다른 모든 사용자에게 방송할 수 있습니다.
 
@@ -131,7 +185,18 @@ io.on("connection", (socket) => {
 
 여기 클라이언트 앱의 최종 버전인 app.js 파일이 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import "./App.css";
@@ -161,9 +226,7 @@ function App() {
         }}
       />
       <button onClick={sendMessage}>메시지 보내기</button>
-      <h1>
-        받은 메시지: {messageReceived}
-      </h1>
+      <h1>받은 메시지: {messageReceived}</h1>
     </div>
   );
 }
@@ -200,7 +263,18 @@ server.listen(4000, () => {
 
 최종 결과는 다음과 같습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Real-time applications](https://miro.medium.com/v2/resize:fit:1400/1*f0e54kuZSGu0pvAivmOJug.gif)
 

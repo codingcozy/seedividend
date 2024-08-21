@@ -3,17 +3,13 @@ title: "커넥트 디자인 시스템 구축하기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Konnect Design System"
 link: "https://medium.com/@maysaandrade/konnect-design-system-3c67c9afad37"
 isUpdated: true
 ---
-
-
-
-
 
 Connect&Go를 위한 디자인 시스템 구축 및 구현
 
@@ -23,7 +19,18 @@ Connect&Go는 주로 놀이 공원, 이벤트, 페스티벌 및 엔터테인먼�
 
 ## 제품 소개
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 회사의 주요 제품은 코넥트(Konnect)라고 하며, 놀이공원이 쉽게 자체 전자 상거래 웹 사이트를 만들 수 있는 화이트 레이블 플랫폼입니다.
 
@@ -33,7 +40,18 @@ Connect&Go는 주로 놀이 공원, 이벤트, 페스티벌 및 엔터테인먼�
 
 그렇다고 해서, 많은 흐름에서 일관성이 부족했습니다. 언어는 전혀 사용자 친화적이지 않았고, 컴포넌트들은 90년대에 태어나고 자란 것처럼 보였습니다 (멋지고 그런지는 모르겠지만).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리 모두가 아름답게 꾸며진 요소들은 사용하기 쉬운 것으로 인식된다는 것을 알고 있습니다. 이 인지적 편향은 20세기 심리학자 에드워드 쏜다이크에 의해 소개된 "헬로 효과"라고 불립니다.
 
@@ -43,7 +61,18 @@ Connect&Go는 주로 놀이 공원, 이벤트, 페스티벌 및 엔터테인먼�
 
 만약 인터페이스를 구축할 때 사용자의 존재를 무시하고 만든다면 사용자가 고통받을 것입니다. 이것은 사실입니다. 하지만 이러한 문제는 팀과 그들이 효과적으로 일하고 제품을 전달할 수 있는 방식에도 영향을 미칠 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 조직화되지 않은 구성 요소가 없으면 새로운 화면 흐름을 구축할 때마다 인간 오류가 발생할 수 있습니다.
 
@@ -55,7 +84,18 @@ Connect&Go는 주로 놀이 공원, 이벤트, 페스티벌 및 엔터테인먼�
 
 ## 디자인 시스템 구축의 이유?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 회사를 위한 디자인 시스템을 구축한다는 것은 매우 꼼꼼하고 조직적인 방식으로 모든 구성 요소를 카탈로그화하는 것을 의미합니다. Figma 파일에 OCD가 들어간다고 해도 상관없어요!
 
@@ -65,7 +105,18 @@ Connect&Go는 주로 놀이 공원, 이벤트, 페스티벌 및 엔터테인먼�
 
 ## 디자인 시스템 전문가의 역할
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제품의 모든 화면, 상호 작용 및 마이크로 상호 작용을 매핑하고 사용자의 실제 필요에 중점을 두는 구성 요소 라이브러리를 만들어 보세요.
 
@@ -75,7 +126,18 @@ Connect&Go는 주로 놀이 공원, 이벤트, 페스티벌 및 엔터테인먼�
 
 ## 도구
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Figma. 간단하고 완벽해요.
 
@@ -85,7 +147,18 @@ Figma. 간단하고 완벽해요.
 
 ## 표지
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/KonnectDesignSystem_0.png" />
 
@@ -95,7 +168,18 @@ Figma. 간단하고 완벽해요.
 
 ## 최종 제품
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 죄송하지만 Design Systems에는 그러한 것이 없어요. 우리에게는 버전이 있고, 개발 팀과 명확한 커뮤니케이션을 유지하는 것이 매우 중요합니다. 그렇게 함으로써 항상 최신 업데이트에 대해 인식할 수 있게 해줍니다.
 

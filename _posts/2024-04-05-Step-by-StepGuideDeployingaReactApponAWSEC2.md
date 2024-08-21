@@ -3,17 +3,13 @@ title: "AWS EC2에 React 앱 배포하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Step-by-Step Guide Deploying a React App on AWS EC2"
 link: "https://medium.com/@rizkiprass/step-by-step-guide-deploying-a-react-app-on-aws-ec2-b2965af05aa4"
 isUpdated: true
 ---
-
-
-
-
 
 안녕하세요! 이 게시물에서는 AWS 인프라를 생성하고 React 앱을 Amazon EC2에 배포하는 방법을 살펴볼 것입니다. 아래 아키텍처 다이어그램을 확인해보세요.
 
@@ -25,7 +21,18 @@ isUpdated: true
 - GitHub 계정
 - 로컬 컴퓨터에 Node와 React가 설치되어 있어야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 1. GIT 저장소 만들고 React 앱 설정하기
 
@@ -35,7 +42,18 @@ isUpdated: true
 
 작성을 마치면 "저장소 생성" 버튼을 클릭해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저장소가 만들어지면, HTTPS 탭에서 저장소 URL을 복사해주세요.
 
@@ -47,7 +65,18 @@ isUpdated: true
 git clone <당신의-저장소-URL>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/Step-by-StepGuideDeployingaReactApponAWSEC2_3.png)
 
@@ -59,7 +88,18 @@ npx create-react-app .
 
 다음으로 App.js 파일을 편집하여 "Hello, world."라는 기본 페이지를 표시하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 function App() {
@@ -81,7 +121,18 @@ export default App;
 npm start
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/Step-by-StepGuideDeployingaReactApponAWSEC2_5.png" />
 
@@ -95,7 +146,18 @@ git push
 
 # 2. EC2 생성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AWS 계정에 로그인한 후 EC2를 검색해보세요.
 
@@ -105,7 +167,18 @@ EC2 콘솔 대시보드에서 "인스턴스 시작" 상자에서 "인스턴스 �
 
 ![이미지](/assets/img/Step-by-StepGuideDeployingaReactApponAWSEC2_7.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 EC2 인스턴스의 선호 이름을 입력하고 OS 섹션에서 Ubuntu 20.04를 선택하세요.
 
@@ -115,7 +188,18 @@ t3.micro 인스턴스 유형을 선택하고 "새 키페어 생성"을 클릭하
 
 ![이미지](/assets/img/Step-by-StepGuideDeployingaReactApponAWSEC2_9.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/Step-by-StepGuideDeployingaReactApponAWSEC2_10.png" />
 
@@ -125,7 +209,18 @@ t3.micro 인스턴스 유형을 선택하고 "새 키페어 생성"을 클릭하
 
 <img src="/assets/img/Step-by-StepGuideDeployingaReactApponAWSEC2_12.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나머지 설정은 기본값으로 두고 "인스턴스 시작"을 클릭하세요.
 
@@ -135,7 +230,18 @@ t3.micro 인스턴스 유형을 선택하고 "새 키페어 생성"을 클릭하
 
 ![image](/assets/img/Step-by-StepGuideDeployingaReactApponAWSEC2_14.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 3. 리액트 앱을 위한 종속성 설치
 
@@ -147,7 +253,18 @@ t3.micro 인스턴스 유형을 선택하고 "새 키페어 생성"을 클릭하
 
 - EC2의 공개 IP 주소를 입력하고 사용자 이름으로 "ubuntu"를 사용합니다. "개인 키 사용" 옵션을 선택하고 AWS에서 생성한 키페어를 선택합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/Step-by-StepGuideDeployingaReactApponAWSEC2_16.png" />
 
@@ -159,7 +276,18 @@ sudo apt-get update -y
 
 - npm 설치하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 sudo apt install npm -y
@@ -173,7 +301,18 @@ sudo apt install npm -y
 curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 sudo apt install -y nodejs
@@ -187,7 +326,18 @@ sudo apt install nginx -y
 
 - 리액트를 위한 디렉토리 생성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 sudo mkdir /var/www/html/my-react-app
@@ -201,7 +351,18 @@ sudo vi /etc/nginx/conf.d/react.conf
 
 - 서버 블록 업데이트하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 server {
@@ -226,7 +387,18 @@ mkdir my-app
 cd my-app
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 리액트 앱 복제
 
@@ -238,7 +410,18 @@ git clone <리포지토리-URL>
 
 비밀번호를 요청받았다면, 이 링크를 따라 가셔서 개인 액세스 토큰(PAT)을 생성해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - React 프로젝트 의존성 설치하기
 
@@ -253,7 +436,18 @@ npm install
 npm start
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 브라우저에서 공용 IP를 입력하여 `ip-public`:3000에 붙여넣기
 - React 앱 빌드
@@ -262,7 +456,18 @@ npm start
 
 ![Step-by-Step Guide Deploying a React App on AWS EC2 - Image 21](/assets/img/Step-by-StepGuideDeployingaReactApponAWSEC2_21.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm run build
@@ -276,7 +481,18 @@ sudo cp -R build/ /var/www/html/my-react-app/
 
 - Nginx 기본 설정을 비활성화합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 sudo vi /etc/nginx/nginx.conf
@@ -290,7 +506,18 @@ sudo vi /etc/nginx/nginx.conf
 
 <img src="/assets/img/Step-by-StepGuideDeployingaReactApponAWSEC2_22.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - nginx 구성을 확인하고 nginx를 다시 로드하십시오.
 
@@ -302,7 +529,18 @@ sudo nginx -t && sudo systemctl reload nginx
 
 - EC2 인스턴스의 공용 IP를 복사하여 브라우저에 붙여넣으세요. 우리는 Nginx 웹 서버를 사용하고 있으므로 이제 포트 80에서 React 앱에 액세스할 수 있어야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/Step-by-StepGuideDeployingaReactApponAWSEC2_24.png)
 
@@ -313,7 +551,18 @@ sudo nginx -t && sudo systemctl reload nginx
 - 웹 서버를 공용 서브넷에 배치하면 인터넷에 직접 노출되어 잠재적인 보안 취약점이 발생할 수 있습니다.
 - 웹 서버에 대한 단일 인스턴스에 의존하는 것은 원하는 수준의 고가용성을 제공하지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 다음 단계는 무엇인가요?
 

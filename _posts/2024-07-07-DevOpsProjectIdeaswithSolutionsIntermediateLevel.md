@@ -3,16 +3,13 @@ title: "중급자를 위한 DevOps 프로젝트 아이디어와 해결책 "
 description: ""
 coverImage: "/assets/img/2024-07-07-DevOpsProjectIdeaswithSolutionsIntermediateLevel_0.png"
 date: 2024-07-07 20:11
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-DevOpsProjectIdeaswithSolutionsIntermediateLevel_0.png
 tag: Tech
 originalTitle: "DevOps Project Ideas 💡 with Solutions: Intermediate Level"
 link: "https://medium.com/devops-dev/devops-project-ideas-with-solutions-intermediate-level-705bb7e6989c"
 isUpdated: true
 ---
-
-
-
 
 안녕하세요 여러분 👋, 이번 글에서는 저의 데브옵스 학습 과정 중 실습한 몇 가지 프로젝트 아이디어를 공유하려고 해요. 시도하실 프로젝트 아이디어들은 중급 수준일 거예요. 글에서는 각각의 프로젝트 아이디어와 레포지토리 링크를 함께 공유할 거라, 여러분들도 손쉽게 스스로 시도해볼 수 있을 거예요. 모든 소스 코드는 레포지토리에서 찾으실 수 있어요.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 만약 여러분이 이러한 프로젝트들을 개발하지 못한다면 걱정하지 마세요. 댓글에서 막히는 부분을 알려주시거나 LinkedIn에서도 연락해주세요. 기꺼이 도와드릴게요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 1. GitOps를 기반으로 한 Flask 애플리케이션용 엔드 투 엔드 CI/CD 파이프라인
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 저희는 main 브랜치로의 push에 의해 트리거되는 CI/CD 파이프라인을 구축할 것입니다. 이 파이프라인은 애플리케이션을 빌드하고 테스트를 실행한 뒤 GitOps를 기반으로 쿠버네티스 클러스터에 애플리케이션을 배포할 것입니다. 이 파이프라인은 GitHub Actions와 ArgoCD를 사용하여 구현될 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 프로젝트 아키텍처에 대한 설명은 아래와 같습니다:
 
@@ -44,7 +63,18 @@ isUpdated: true
 
 Manifest 저장소: [여기를 클릭해주세요](링크)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 [블로그 링크](Click here)
 
@@ -54,7 +84,18 @@ Manifest 저장소: [여기를 클릭해주세요](링크)
 
 # 아키텍처 개요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 EC2 인스턴스를 프로비저닝하기 위해 Ansible을 사용할 것입니다. 인스턴스가 실행되면 웹 서버인 Httpd를 설치할 것입니다. 로드 밸런싱을 위해 HAProxy를 활용할 것입니다. 모든 작업은 자동화되어 있으므로 플레이북을 실행하기만 하면 됩니다.
 
@@ -64,7 +105,18 @@ i) 첫 번째 부분은 동적 인벤토리 호스트를 생성하는 것입니�
 
 ii) 두 번째 부분은 HAProxy 구성 파일을 동적으로 업데이트하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저장소 링크: [여기를 클릭하세요](링크주소)
 
@@ -74,7 +126,18 @@ ii) 두 번째 부분은 HAProxy 구성 파일을 동적으로 업데이트하�
 
 ![이미지](/assets/img/2024-07-07-DevOpsProjectIdeaswithSolutionsIntermediateLevel_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 아키텍처 개요:
 
@@ -88,7 +151,18 @@ ii) 두 번째 부분은 HAProxy 구성 파일을 동적으로 업데이트하�
 - 애완동물 이름 및 투표 수와 같은 투표 세부 정보를 저장하는 Postgres 서비스.
 - 투표 결과를 표시하는 결과 서비스. Node.js로 작성되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저장소 링크: [여기를 클릭하세요](링크)
 
@@ -98,7 +172,18 @@ ii) 두 번째 부분은 HAProxy 구성 파일을 동적으로 업데이트하�
 
 ![이미지](/assets/img/2024-07-07-DevOpsProjectIdeaswithSolutionsIntermediateLevel_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 아키텍처 개요:
 
@@ -108,7 +193,18 @@ MongoDB Admin Interface는 웹 기반 응용 프로그램으로, 사용자가 �
 
 - 어플리케이션과 데이터베이스를 위해 두 가지 배포를 생성할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 애플리케이션 배포:
 
@@ -124,7 +220,18 @@ MongoDB Admin Interface는 웹 기반 응용 프로그램으로, 사용자가 �
 - DB와 프론트엔드/백엔드 간의 통신을 위해 ClusterIP 서비스를 사용하고 있습니다.
 - ClusterIP: 클러스터 내에서 배포를 노출하는 서비스 유형입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기타 사용된 Kubernetes 자원:
 
@@ -136,7 +243,18 @@ MongoDB Admin Interface는 웹 기반 응용 프로그램으로, 사용자가 �
 
 블로그 링크: [여기를 클릭하세요](링크)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 5. Node.js 웹 애플리케이션을 위한 AWS CI/CD 서비스를 활용한 End-to-End CI/CD 파이프라인
 
@@ -146,7 +264,18 @@ MongoDB Admin Interface는 웹 기반 응용 프로그램으로, 사용자가 �
 
 CI/CD 파이프라인의 아키텍처는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 사용자는 GitHub 저장소에 새 커밋을 푸시하는 것으로 시작합니다. 이는 Source, Build 및 Deploy로 구성된 파이프라인을 트리거합니다.
 - Source 단계는 GitHub 저장소에서 소스 코드를 가져옵니다.
@@ -159,7 +288,18 @@ CI/CD 파이프라인의 아키텍처는 다음과 같습니다:
 
 블로그 링크: [여기를 클릭하세요](링크)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 👏 만약 이 글이 도움이 되었다면 박수를 보내주고 제 프로필을 팔로우해주세요. 클라우드와 데브옵스에 관한 더 많은 프로젝트와 아이디어를 공유할 예정이에요. 궁금한 점이 있거나 연락이 필요하다면 댓글이나 LinkedIn을 통해 연락해주세요.
 

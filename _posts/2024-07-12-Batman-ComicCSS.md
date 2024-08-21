@@ -3,16 +3,13 @@ title: "배트맨 테마 CSS 디자인 쉽게 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-12-Batman-ComicCSS_0.png"
 date: 2024-07-12 19:18
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-12-Batman-ComicCSS_0.png
 tag: Tech
 originalTitle: "Batman-Comic.CSS"
 link: "https://medium.com/gitconnected/batman-comic-css-cee100461579"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-07-12-Batman-ComicCSS_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 이 라이브러리는 지난 두 주 동안 만들어졌는데, 우리는 이 라이브러리를 두 개의 어린이 행사에서 사용했어요. 이 라이브러리를 사용하면 아이들이 HTML로 놀 수 있고 CSS의 힘을 빠르게 확인할 수 있어요. 때로는 이것이 가장 좋은 사용 방법이 아닐지라도요. 아이들은 어떻게 텍스트를 추가하거나 일부 HTML 클래스를 교체하여 완전히 다른 코믹을 즉시 볼 수 있는지 즐기고 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 원본
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 그 만화 아이디어가 마음에 들었고 프로세스를 간소화하고 싶었어요. 이 캐릭터들과 계획이 없더라도. 프로세스를 단순화하는 것은 코믹CSS에 더 많은 일관성(및 속도)을 제공할 거예요. 이 라이브러리 이외에도 옆으로 뭔가를 작업하고 있었지만 말이 많았네요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이벤트를 위한 문자를 생성하는 CSS 라이브러리를 만드는 것은 간단해 보였어요 (활동을 준비할 시간이 별로 없었거든요), 이미 많은 표정으로 된 것이 많았기 때문이에요.
 
@@ -42,7 +61,18 @@ HTML과 CSS의 즉각적인 만족감은 아이들과 오랜 시간을 함께한
 
 세부 사항, 색상 및 클래스가 모두 온라인 설명서 페이지에 있고, 스페인어로 된 또 다른 페이지도 있어요. 그 페이지는 저가 어린이 행사용으로 만들었어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 캐릭터들의 그림은 단일 HTML 요소와 가상 요소, 그리고 여러 그라데이션을 사용한 CSS로 만들어졌어요. 이 간단함 덕분에 만화에 캐릭터를 추가하기가 쉬워요. 예를 들어, 웃는 배트맨을 추가하려면 다음과 같이 하세요:
 
@@ -50,13 +80,24 @@ HTML과 CSS의 즉각적인 만족감은 아이들과 오랜 시간을 함께한
 <div class="batman"></div>
 ```
 
-또한, 서로 다른 눈과 입을 설정하기 위한 클래스가 있어요. 모든 캐릭터는 최대 864가지 다른 조합을 생성하는 얼굴 표정 클래스를 가지고 있어요 (12가지 눈 조합 * 24가지 입 조합 * 3가지 추가 기능). 예를 들어, 화난 배트맨을 추가하려면:
+또한, 서로 다른 눈과 입을 설정하기 위한 클래스가 있어요. 모든 캐릭터는 최대 864가지 다른 조합을 생성하는 얼굴 표정 클래스를 가지고 있어요 (12가지 눈 조합 _ 24가지 입 조합 _ 3가지 추가 기능). 예를 들어, 화난 배트맨을 추가하려면:
 
 ```js
 <div class="batman eyes-angry mouth-angry"></div>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 각 캐릭터가 가질 수 있는 클래스 목록입니다. 일부는 다른 클래스와 결합될 수 있습니다(“combinable”로 표시됨)
 
@@ -73,7 +114,18 @@ HTML과 CSS의 즉각적인 만족감은 아이들과 오랜 시간을 함께한
 
 입
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - mouth-no: 입 없음.
 - mouth-sad: 눈살 찌푸린 입.
@@ -94,7 +146,18 @@ HTML과 CSS의 즉각적인 만족감은 아이들과 오랜 시간을 함께한
 
 이 클래스 이름들에 완전히 확신이 있는 것은 아닙니다. 이 라이브러리를 "빠르고 거칠게" 개발했기 때문에 이름과 기본값을 더 일관성 있게 변경할 가능성이 높습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또한 각 캐릭터는 색상을 정의하기 위해 다른 CSS 맞춤 속성을 사용합니다(자세한 내용은 문서를 확인하세요) 그리고 만화 스트립 패널은 쉬운 사용자 정의를 위해 레이아웃에 CSS Grid를 사용합니다.
 
@@ -104,7 +167,18 @@ HTML과 CSS의 즉각적인 만족감은 아이들과 오랜 시간을 함께한
 
 <img src="/assets/img/2024-07-12-Batman-ComicCSS_2.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-12-Batman-ComicCSS_3.png" />
 
@@ -114,7 +188,18 @@ HTML과 CSS의 즉각적인 만족감은 아이들과 오랜 시간을 함께한
 
 # 다음에는 무엇을 할까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제가 언급한 대로, CSS 만화를 새로 만들기 위해 이 라이브러리를 직접 사용해볼 예정이지만 솔직히 말해서 아직 어떻게 적용할지 잘 모르겠어요.
 
@@ -127,6 +212,17 @@ HTML과 CSS의 즉각적인 만족감은 아이들과 오랜 시간을 함께한
 
 미래 단계로는 해당 라이브러리를 GitHub에 공유하고 세계에 공개하여 다른 사람들이 사용하고 새로운 콘텐츠(특히 소품)를 기여할 수 있도록 할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 너도 격주/어리버리한 사이드 프로젝트를 좋아한다면, 나도 좋아해! 그리고 그것들을 자주 여기 Medium에 공유해! 예를 들어, 이 놀란 애니메이션 캐릭터 대사를 순수 CSS로 만든 것 같은 것 말이야:

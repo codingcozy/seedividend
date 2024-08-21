@@ -3,15 +3,13 @@ title: "코스 파이썬으로 퀀트 트레이더 되기 - 최고 품질 데이
 description: ""
 coverImage: "/assets/img/2024-07-07-CourseBecomeaQuantTraderwithPythonHowtoGetTopQualityData_0.png"
 date: 2024-07-07 12:49
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-CourseBecomeaQuantTraderwithPythonHowtoGetTopQualityData_0.png
 tag: Tech
 originalTitle: "Course: Become a Quant Trader with Python — How to Get Top Quality Data"
 link: "https://medium.com/modern-ai/course-become-a-quant-trader-with-python-chapter-1-how-to-get-top-quality-data-bbbd5798f86a"
 isUpdated: true
 ---
-
-
 
 ![이미지](/assets/img/2024-07-07-CourseBecomeaQuantTraderwithPythonHowtoGetTopQualityData_0.png)
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 우선, 주식 데이터를 가지고 있는 다양한 API가 있지만, 양적 분석을 위해 알파베티지(https://www.alphavantage.co/)를 추천할 것입니다. 왜냐하면 이미 다양한 지표가 계산되어 있고 1분 단위의 투자자에게 필요한 내부 시장성에 대한 데이터도 제공하기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 데이터 가져오기
 

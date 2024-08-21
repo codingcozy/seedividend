@@ -3,17 +3,13 @@ title: "정말 자바에서 직렬화Serialization를 사용하고 싶으신가�
 description: ""
 coverImage: "/assets/img/2024-07-09-AreYouSureYouWanttoSerializeinJavaJavaSerializationProblems_0.png"
 date: 2024-07-09 21:06
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-AreYouSureYouWanttoSerializeinJavaJavaSerializationProblems_0.png
 tag: Tech
 originalTitle: "Are You Sure You Want to Serialize in Java? Java Serialization Problems"
 link: "https://medium.com/techkoala-insights/are-you-sure-you-want-to-serialize-in-java-java-serialization-problems-1b5db3302a03"
 isUpdated: true
 ---
-
-
-
-
 
 ![Serialization in Java](/assets/img/2024-07-09-AreYouSureYouWanttoSerializeinJavaJavaSerializationProblems_0.png)
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 자바는 Serializable 인터페이스를 통해 직렬화를 쉽게 만들어줍니다. 이 인터페이스를 구현하기만 하면 클래스가 직렬화될 수 있는 능력이 갖춰집니다. 여기에 간단한 예시가 있습니다:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 import java.io.Serializable;
@@ -51,7 +57,18 @@ public class Person implements Serializable {
 
 # 큰 문제: 보안
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자바 직렬화의 가장 큰 문제 중 하나는 보안입니다. 객체를 역직렬화할 때, 읽히는 데이터가 안전하다고 믿습니다. 그러나 역직렬화는 공격자가 시스템에 임의의 코드를 실행할 수 있게 악용할 수 있습니다. 이는 역직렬화 프로세스가 원래 코드에서 의도하지 않은 방식으로 메서드를 호출할 수 있기 때문입니다.
 
@@ -61,7 +78,18 @@ public class Person implements Serializable {
 
 보안 연구원들은 일반 라이브러리와 응용 프로그램에서 안전하지 않은 역직렬화 방법으로 인해 여러 취약점을 발견했습니다. 이러한 취약점은 원격 코드 실행(RCE), 서비스 거부(DoS) 공격 및 기타 악용으로 이어질 수 있습니다. 예를 들어, 역직렬화 취약점을 악용하면 공격자가 여러 클래스에서 메서드를 연결하여 악의적인 작업을 수행할 수 있는 payload를 작성할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위험성을 감안할 때, 직렬화를 사용할 때 특히 주의해야 합니다. 특히 믿을 수 없는 소스에서 데이터를 가져올 때 더욱 조심해야 합니다. 믿을 수 없는 데이터의 역직렬화를 피하는 것은 기본적인 보안 조치입니다. 그러나 이러한 위험을 최소화하기 위한 안전한 대안 및 모범 사례가 있습니다. 이에 대해 다음 섹션에서 알아보겠습니다.
 
@@ -71,7 +99,18 @@ public class Person implements Serializable {
 
 직렬화 폭탄의 고전적인 예는 역직렬화 중에 기하급수적으로 확장되는 중첩된 데이터 구조입니다. 예를 들어, 작은 직렬화된 스트림이 역직렬화될 때 대량의 객체를 생성할 수 있으며, 이는 메모리 부족 오류 또는 과도한 CPU 사용량으로 이어질 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 중첩된 HashSet 객체를 사용한 직렬화 폭탄의 예제입니다:
 
@@ -86,7 +125,7 @@ public class SerializationBomb {
         Set<Object> root = new HashSet<>();
         Set<Object> s1 = root;
         Set<Object> s2 = new HashSet<>();
-        
+
         for (int i = 0; i < 100; i++) {
             Set<Object> t1 = new HashSet<>();
             Set<Object> t2 = new HashSet<>();
@@ -131,7 +170,18 @@ public class SerializationBomb {
 
 이 폭탄을 역직렬화하면 프로그램이 전체 중첩된 구조를 다시 구축하려고 하므로 높은 CPU 및 메모리 소비가 발생합니다. 이로 인해 시스템이 응답하지 못하게 되어 서비스 거부 공격을 쉽게 유발할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 직렬화 폭탄은 탐지와 완화가 어려울 수 있어 특히 위험합니다. 이들은 종종 간과되곤 하는 역직렬화 프로세스의 복잡성과 자원 사용을 이용합니다. 이러한 공격에 대비하기 위해서는 역직렬화 필터를 사용하고 가능한한 신뢰할 수 없는 소스에서 데이터를 역직렬화 하는 것을 피하는 것이 중요합니다.
 
@@ -141,7 +191,18 @@ public class SerializationBomb {
 
 자바 직렬화의 보안 위험과 함정을 고려할 때, 더 안전한 대안을 찾는 것이 현명할 수 있습니다. 몇 가지 방법은 더 안전하고 유연한 방법으로 객체를 직렬화하고 역직렬화할 수 있도록 제공됩니다. 이러한 대안들은 자바의 기본 직렬화와 관련된 위험을 완화뿐만 아니라 더 나은 성능과 여러 플랫폼 간 호환성과 같은 추가 혜택을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인기 있는 대안 중 하나는 직렬화에 JSON을 사용하는 것입니다. JSON은 가벼운 데이터 교환 형식으로, 사람이 쉽게 읽고 쓸 수 있으며 기계가 쉽게 구문 분석하고 생성할 수 있습니다. Jackson 및 Gson과 같은 라이브러리는 Java 객체를 JSON으로 변환하거나 그 반대로 변환하는 데 자주 사용됩니다.
 
@@ -173,7 +234,7 @@ public class JsonExample {
 
     public static void main(String[] args) {
         ObjectMapper objectMapper = new ObjectMapper();
-        
+
         try {
             // 객체를 JSON으로 직렬화
             Person person = new Person("Alice", 30);
@@ -192,7 +253,18 @@ public class JsonExample {
 
 이 예제에서 Person 클래스는 JSON 문자열로 직렬화되고 그런 다음 Jackson을 사용하여 다시 Person 객체로 역직렬화됩니다. JSON 직렬화는 Java의 기본 직렬화 메커니즘에 의존하지 않고 관련된 위험을 피할 수 있기 때문에 덜 위험합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또 다른 강력한 대안은 Protocol Buffers (protobuf)입니다. 이는 구글이 개발한 언어 및 플랫폼과 무관한 구조화된 데이터 직렬화 메커니즘으로, protobuf는 압축된 형식으로 빠르고 안정적인 직렬화를 제공합니다.
 
@@ -209,7 +281,18 @@ message Person {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 protobuf 컴파일러를 사용하여 .proto 파일에서 Java 클래스를 생성하세요.
 
@@ -246,7 +329,18 @@ public class ProtobufExample {
 
 이 protobuf 예제에서는 .proto 파일에서 Person 메시지를 정의하고 Java 클래스를 생성한 다음 Person 객체를 직렬화 및 역직렬화합니다. Protobuf은 Java 직렬화보다 더 효율적이고 오류가 적습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 대안을 사용하면 직렬화 프로세스를 더 잘 제어할 수 있고 보안 위험을 줄이며 다른 시스템과의 상호 운용성을 개선할 수 있습니다. 다음 섹션에서는 크로스 플랫폼 데이터 표현에 대해 자세히 살펴보고 해당 데이터가 응용 프로그램의 안전 및 기능성을 향상시키는 방법을 알아볼 것입니다.
 
@@ -256,7 +350,18 @@ JSON 및 Protocol Buffers와 같은 크로스 플랫폼 데이터 표현은 Java
 
 JSON(JavaScript Object Notation)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 JSON은 인간이 쉽게 읽고 쓸 수 있으며 기계가 쉽게 구문 분석하고 생성할 수 있는 가벼운 데이터 교환 형식입니다. 이는 언어에 독립적이며 웹 개발에서 클라이언트와 서버 간 데이터를 교환하는 데 널리 사용됩니다. JSON의 간결함과 유연성은 직렬화를 위한 인기 있는 선택 사항으로 만듭니다.
 
@@ -286,7 +391,7 @@ public class JsonExample {
 
     public static void main(String[] args) {
         Gson gson = new Gson();
-        
+
         // Serialize object to JSON
         Person person = new Person("Alice", 30);
         String jsonString = gson.toJson(person);
@@ -301,7 +406,18 @@ public class JsonExample {
 
 이 예시에서는 Gson을 사용하여 Person 객체를 JSON 문자열로 변환하고 다시 Person 객체로 변환했습니다. JSON의 텍스트 기반 형식은 가독성이 좋아 직렬화된 데이터를 디버깅하고 로깅하기 쉽습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로토콜 버퍼 (protobuf)
 
@@ -311,7 +427,18 @@ public class JsonExample {
 
 .proto 파일에 데이터 구조 정의하기:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 syntax = "proto3";
@@ -355,7 +482,18 @@ public class ProtobufExample {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예에서는 .proto 파일에서 Person 메시지를 정의하고 Java 클래스를 생성하도록 컴파일한 다음 이러한 클래스를 사용하여 Person 객체를 직렬화하고 역직렬화하는 방법을 보여줍니다. Protobuf의 이진 형식은 간결하고 효율적이며 고성능 애플리케이션에 이상적입니다.
 
@@ -365,7 +503,18 @@ JSON과 Protocol Buffers 모두 자바의 기본 직렬화와 비교하여 데�
 
 직렬화 중 가장 중요한 보안 관행 중 하나는 신뢰할 수 없는 출처에서 데이터의 역직렬화를 피하는 것입니다. 신뢰할 수 없는 데이터의 역직렬화는 원격 코드 실행, 서비스 거부 및 데이터 조작을 포함한 다양한 공격에 애플리케이션을 노출시킬 수 있습니다. 이러한 위험을 완화하기 위해, 모범 사례를 따르고 방어적 프로그래밍 기법을 사용하는 것이 중요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, 신뢰할 수 없는 또는 알 수 없는 소스로부터 직렬화된 데이터를 절대로 받지 마십시오. 이것은 역직렬화 취약점을 방지하는 가장 간단하고 효과적인 방법입니다. 어플리케이션이 외부 소스에서 데이터를 역직렬화해야 하는 경우, 해당 소스가 완전히 점검되고 신뢰할 수 있는지 확인하십시오.
 
@@ -425,7 +574,18 @@ public class DeserializationFilterExample {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예제에서 ObjectInputFilter는 Person 객체의 역직렬화만 허용하도록 설정되어 있습니다. 다른 유형의 객체를 역직렬화하려는 시도는 거부되며 악의적인 코드 실행 가능성이 줄어듭니다.
 
@@ -435,7 +595,18 @@ public class DeserializationFilterExample {
 
 다음은 기본적인 화이트리스팅 접근 방식을 구현하는 방법입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 import java.io.*;
@@ -496,7 +667,18 @@ public class DeserializationWhitelistExample {
 
 # 안전한 시리얼라이즈 가능한 클래스 생성하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자바에서 클래스를 직렬화할 때는 보안과 유지보수를 위해 최선의 방법을 따르는 것이 중요합니다. 안전한 직렬화 가능한 클래스를 만드는 데는 주의 깊게 클래스를 설계하고 직렬화된 형태를 제어하며 필요한 검사와 균형을 구현하는 것이 핵심입니다.
 
@@ -556,7 +738,18 @@ public class SafePerson implements Serializable {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예제에서 SafePerson 클래스에는 기본 직렬화에 포함되지 않는 transient age 필드가 있습니다. 대신 writeObject 및 readObject 메서드가 age 필드의 직렬화 및 역직렬화를 수동으로 처리하여 필요한 데이터만 직렬화되도록 합니다.
 
@@ -620,7 +813,18 @@ public class ValidatedPerson implements Serializable {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예시에서 ValidatedPerson 클래스는 생성 중 및 역직렬화 후에 상태가 유효한지 확인합니다. readObject 메서드는 name과 age 필드의 무결성을 확인하고 유효하지 않을 경우 InvalidObjectException을 throw합니다.
 
@@ -630,7 +834,18 @@ public class ValidatedPerson implements Serializable {
 
 일부 경우에는 싱글톤 또는 다른 인스턴스 제어된 클래스를 구현할 때 역직렬화가 클래스의 새 인스턴스를 생성하지 않도록 해야 합니다. 대신 역직렬화는 원래 직렬화된 같은 인스턴스를 반환해야 합니다. 이는 readResolve 메서드를 사용하여 달성할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 readResolve 메서드를 사용하면 역직렬화 프로세스 중에 역질렬화된 객체를 다른 객체로 교체할 수 있습니다. 이는 클래스의 싱글톤 속성을 유지하는 데 유용합니다. 객체가 역직렬화될 때 readResolve 메서드가 호출되며, 새로 역직렬화된 객체 대신 사용해야 할 인스턴스를 반환합니다.
 
@@ -641,7 +856,7 @@ import java.io.*;
 
 public class Singleton implements Serializable {
     private static final long serialVersionUID = 1L;
-    
+
     private static final Singleton INSTANCE = new Singleton();
 
     private Singleton() {
@@ -690,7 +905,18 @@ public class Singleton implements Serializable {
 
 이 예시에서 Singleton 클래스는 한 인스턴스만 존재하도록 보장합니다. readResolve 메서드는 인스턴스를 역직렬화할 때 동일한 INSTANCE를 반환하여 싱글톤 속성을 유지합니다. 싱글톤을 역직렬화하면 instance1과 instance2가 동일한 인스턴스일 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 readResolve를 사용하는 것은 싱글톤에만 국한되지 않습니다. 이를 사용하여 역직렬화 중 특별한 처리가 필요한 클래스의 인스턴스를 제어할 수도 있습니다. 예를 들어, 재사용해야 하는 인스턴스 캐시가 있는 경우 readResolve를 사용하여 올바른 인스턴스가 반환되도록 할 수 있습니다.
 
@@ -705,7 +931,7 @@ public class DatabaseConnection implements Serializable {
     private static final long serialVersionUID = 1L;
 
     private static final Map<String, DatabaseConnection> instances = new HashMap<>();
-    
+
     private String connectionString;
 
     private DatabaseConnection(String connectionString) {
@@ -753,7 +979,18 @@ public class DatabaseConnection implements Serializable {
 
 이 예제에서 DatabaseConnection 클래스는 인스턴스를 관리하는 캐시를 사용합니다. readResolve 메서드를 사용하면 캐시에서 사용 가능한 경우 기존 인스턴스가 반환되어 일관성을 유지하고 중복 인스턴스를 방지할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 readResolve를 구현함으로써 직렬화 중 클래스의 인스턴스를 제어할 수 있어 원하는 인스턴스가 항상 반환되고 객체의 무결성을 유지할 수 있습니다. 다음 섹션에서는 직렬화 프록시 패턴, 직렬화 가능한 클래스의 안전성과 견고성을 향상시키는 강력한 기술에 대해 살펴보겠습니다.
 
@@ -763,7 +1000,18 @@ readResolve를 구현함으로써 직렬화 중 클래스의 인스턴스를 제
 
 직렬화 프록시 패턴의 아이디어는 메인 클래스 내에 직렬화를 위한 프록시 역할을 하는 개인 정적 중첩 클래스를 생성하는 것입니다. 이 프록시 클래스에는 메인 클래스를 재생성하는 데 필요한 데이터만 포함해야 합니다. 직렬화 중에 메인 클래스는 스트림에 이 프록시 클래스의 인스턴스를 작성하고, 역직렬화 중에 프록시 클래스가 메인 클래스 인스턴스를 재구성합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단한 예제를 통해 직렬화 프록시 패턴을 설명해 드리겠습니다:
 
@@ -838,7 +1086,18 @@ public class Person implements Serializable {
 
 이 패턴은 여러 가지 이점을 제공합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 캡슐화: 프록시 클래스를 사용하여 직렬화 로직을 캡슐화하여 주 클래스를 더 간단하고 집중된 상태로 유지할 수 있습니다.
 - 보안: 프록시 클래스는 역직렬화 중 필요한 유효성 검사와 확인을 수행하여 취약점의 위험을 줄일 수 있습니다.

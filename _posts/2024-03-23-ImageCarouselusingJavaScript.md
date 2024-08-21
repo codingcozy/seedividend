@@ -3,17 +3,13 @@ title: "Html, CSS, JavaScript를 이용한 이미지 캐러셀"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Image Carousel using JavaScript"
 link: "https://medium.com/@imPradhyumn/image-carousel-using-javascript-19b96afa956f"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/Image-Carousel-using-JavaScript_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 하지만 오늘은 HTML, CSS 및 JavaScript를 사용하여 직접 구현해보겠습니다. 그리고 몇몇 기계 코딩 면접에서 여러분에게 물어볼 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코딩 부분에 들어가기 전에 캐러셀의 구조를 이해해 봅시다.
 
@@ -37,7 +44,18 @@ isUpdated: true
 
 <img src="/assets/img/Image-Carousel-using-JavaScript_1.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 6. 이제 한 가지 노트할 사항이 있습니다. 기본적으로 flex 속성에는 자식 요소인 flex-shrink : 1이 설정되어 있기 때문에 이미지가 축소되는 것입니다. 그러나 우리의 사용 사례에서는 div가 메인 컨테이너의 전체 너비를 차지하기를 원합니다. 이를 달성하기 위해 내부 div에 flex-shrink : 0을 넣어주어야 합니다.
 
@@ -47,7 +65,18 @@ isUpdated: true
 
 이제 코딩에 대해 알아봅시다!!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - HTML
 
@@ -95,7 +124,18 @@ isUpdated: true
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .img__container {
@@ -133,7 +173,18 @@ isUpdated: true
 
 이미지를 DOM에서 가져와 배열에 저장합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const nextBtn = document.getElementById("next-btn");
@@ -160,7 +211,18 @@ function addTransitionEffectToImages() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자, 이제 사용자가 다음 버튼을 클릭했을 때 어떤 일이 일어나는지 이해해 봅시다.
 
@@ -177,7 +239,18 @@ transform: translateX(100%); // 길이만큼 요소를 오른쪽으로 이동합
 transform: translateX(-100%); // 길이만큼 요소를 왼쪽으로 이동합니다
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. 이제 다음 버튼을 클릭할 때마다 각 이미지는 현재 위치에 따라 왼쪽으로 이동하고 인덱스가 1씩 업데이트됩니다.
 
@@ -202,7 +275,18 @@ if (currentImageIndex === 0) addTransitionEffectToImages();
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 function resetCarousel() {
@@ -225,7 +309,18 @@ function showPrevImage() {
   if (currentImageIndex === 0) return; // 만약 첫 번째 이미지에 있으면 단순히 반환합니다.
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // showNextImage에서 한 것과 반대로 로직을 변경

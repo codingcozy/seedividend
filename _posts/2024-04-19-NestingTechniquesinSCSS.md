@@ -3,17 +3,13 @@ title: "SCSS에서의 중첩을 사용하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Nesting Techniques in SCSS"
 link: "https://medium.com/ux-planet/nesting-techniques-in-scss-1699833baca1"
 isUpdated: true
 ---
-
-
-
-
 
 ## 기본 개념 이해하기 (파트 3)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 하지만 중첩에 대해 파헤치기 전에, 빠르게 SCSS의 변수 개념을 되짚어보겠습니다. 변수를 사용하면 색상, 글꼴 크기 또는 기타 CSS 속성과 같은 재사용 가능한 값을 저장하고 스타일시트 전반에 걸쳐 참조할 수 있습니다. 이를 통해 유연성을 제공하고 일관성을 유지하고 스타일을 전역적으로 변경하기가 더 쉬워집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 중첩에 대한 간단한 소개를 했으니 SCSS에서 중첩을 탐구해볼 수 있습니다. 이 글에서는 SCSS의 중첩의 강점을 설명하기 위해 실용적인 예제를 제공할 것입니다. 마지막에는 중첩을 활용하여 SCSS 스타일링 능력을 향상시킬 수 있는 방법에 대해 확고한 이해를 가지게 될 것입니다.
 
@@ -39,7 +46,18 @@ isUpdated: true
 
 ![이미지](/assets/img/NestingTechniquesinSCSS_0.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 바로 알아보자! SCSS에서 Nesting의 세계를 탐험해 보세요!!
 
@@ -49,7 +67,18 @@ isUpdated: true
 
 Nesting은 CSS 셀렉터를 서로 중첩시키는 능력을 가리키며, 스타일 시트를 더 구조화되고 계층적으로 제공합니다. 상위-하위 관계에 따라 특정 요소에 스타일을 정의할 수 있도록 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 중첩을 사용하면 코드의 반복을 피하고 가독성을 향상할 수 있습니다. 부모 컨테이너 내의 특정 요소에 스타일을 정의할 수 있어 스타일시트를 더 모듈식으로 구성하고 관리하기 쉽게 만들어줍니다. 우리는 쉽게 복잡한 선택기를 만들 수 있고 스타일의 시각적 계층 구조를 유지할 수 있습니다.
 
@@ -75,7 +104,18 @@ Nesting은 CSS 셀렉터를 서로 중첩시키는 능력을 가리키며, 스�
 </html>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예제에서 컨테이너 div 내의 단락(p) 요소는 HTML 파일에서 특별한 클래스인 special-paragraph가 적용되었습니다. 마찬가지로 링크(a) 요소에도 link 클래스가 적용되었습니다.
 
@@ -117,7 +157,18 @@ SCSS 파일에서는 & 기호를 사용하여 부모 셀렉터를 참조하고 �
 - link 클래스가 적용된 링크 요소는 녹색으로 표시됩니다.
 - 링크에 마우스를 올리면 색상이 보라색으로 변경됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 예제 02
 
@@ -198,7 +249,18 @@ SCSS 파일에서는 & 기호를 사용하여 부모 셀렉터를 참조하고 �
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SCSS 파일에서는 중첩을 사용하여 부모 컨테이너 내에서 특정 요소를 대상으로합니다.
 
@@ -211,7 +273,18 @@ SCSS 파일에서는 중첩을 사용하여 부모 컨테이너 내에서 특정
 
 SCSS에서의 기본 중첩 구문은 부모 선택기 내에 중첩된 선택기를 공백으로 구분하여 배치하는 것을 포함합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 내용을 이해하는 데 도움이 되는 단계는 다음과 같습니다:
 
@@ -233,7 +306,18 @@ SCSS에서의 기본 중첩 구문은 부모 선택기 내에 중첩된 선택�
 
 .child-selector는 .parent-selector 안에 중첩되어 있습니다. .child-selector 블록 내에서 정의된 모든 스타일은 .parent-selector 및 .child-selector 클래스를 모두 가진 요소에만 적용됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # SCSS에서 중첩 선언 및 사용하기
 
@@ -243,7 +327,18 @@ SCSS에서의 중첩은 선택기와 부모 요소 간의 관계를 시각적으
 
 예시:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예제에서는 h1 선택자를 .container 선택자 내에 중첩하고 있습니다.
 
@@ -262,7 +357,18 @@ SCSS에서의 중첩은 선택기와 부모 요소 간의 관계를 시각적으
 
 - h1 블록 내에서 color 속성을 파란색으로, font-size 속성을 24px으로 설정했습니다. 이 스타일은 .container 요소 내의 h1 요소에만 적용됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .container {
@@ -296,7 +402,18 @@ SCSS에서의 중첩은 선택기와 부모 요소 간의 관계를 시각적으
 
 - span 블록 내에 정의된 font-weight 속성은 .container 요소 내 h1 요소 내부에 중첩된 span 요소에만 적용됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비슷하게, 우리는 p 선택자 안에 a 선택자를 중첩시켰습니다.
 
@@ -307,7 +424,18 @@ SCSS에서의 중첩은 선택기와 부모 요소 간의 관계를 시각적으
 
 SCSS에서 선택자 및 속성을 중첩시키면 계층 구조와 중첩된 요소의 명확한 스타일링이 가능해집니다
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 중첩 셀렉터
 
@@ -317,7 +445,18 @@ SCSS에서 셀렉터를 중첩하는 것은 다른 요소 안에 중첩된 요�
 
 예시:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <div class="container">
@@ -356,7 +495,18 @@ SCSS에서 셀렉터를 중첩하는 것은 다른 요소 안에 중첩된 요�
 
 ## 속성 중첩하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로퍼티를 중첩시켜서 관련된 프로퍼티들을 묶으면 명확한 계층 구조를 설정하고 반복을 최소화할 수 있어요.
 
@@ -376,7 +526,18 @@ SCSS에서 셀렉터를 중첩하는 것은 다른 요소 안에 중첩된 요�
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 폰트 속성: 이 속성은 .element 선택기 내에 중첩됩니다. 관련된 폰트 관련 하위 속성을 묶어줍니다.
 
@@ -389,7 +550,18 @@ SCSS에서 셀렉터를 중첩하는 것은 다른 요소 안에 중첩된 요�
 - top 하위 속성: 상단 마진을 10픽셀로 설정합니다.
 - bottom 하위 속성: 하단 마진을 20픽셀로 설정합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## SCSS에서 Selector 및 Property Nesting을 결합합니다
 
@@ -439,7 +611,18 @@ SCSS에서 셀렉터를 중첩하는 것은 다른 요소 안에 중첩된 요�
 - span selector: p 요소 내의 span 요소를 타겟팅하여 글꼴 굵기를 bold로 설정합니다.
 - .button selector: container 내의 클래스 "button"을 가진 요소를 타겟팅합니다. 해당 요소들에 padding, 배경색, 텍스트 색상을 설정합니다. 추가로 &:hover 구문을 사용하여 버튼에 마우스를 올렸을 때 스타일을 정의합니다. 이 경우 배경색을 보라색으로 변경합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 부모 선택자 살펴보기
 
@@ -456,7 +639,18 @@ SCSS에서 부모 선택자 "&"는 중첩된 스타일 내에서 부모 요소�
 - 이 예제에서는 컨테이너 요소에 스타일을 적용하는 .container 선택자가 있습니다.
 - 컨테이너 내에는 .title 및 .content와 같은 중첩된 선택자가 두 개 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .container {
@@ -490,7 +684,18 @@ SCSS에서 부모 선택자 "&"는 중첩된 스타일 내에서 부모 요소�
 
 # 모범 사례 및 팁
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 중첩 레벨을 얕게 유지하기
 
@@ -516,7 +721,18 @@ SCSS에서 부모 선택자 "&"는 중첩된 스타일 내에서 부모 요소�
 
 ## 중첩 사용에 주의하세요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 특정 요소나 구성 요소들이 더 잘 정리되도록 중첩된 스타일을 필요로 하는 경우를 고려해보세요.
 
@@ -542,7 +758,18 @@ SCSS에서 부모 선택자 "&"는 중첩된 스타일 내에서 부모 요소�
 
 내포된 블록 안에서 적절한 들여쓰기와 간격을 사용하여 명확한 계층구조를 유지하세요. 이것은 다른 사람들 (그리고 본인)이 코드를 쉽게 탐색하고 이해하는 데 도움이 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 좋은 예시
@@ -582,7 +809,18 @@ SCSS에서 부모 선택자 "&"는 중첩된 스타일 내에서 부모 요소�
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 제가 따르는 몇 가지 팁입니다. 추가적으로 따르는 실천 방법이 있다면, 코멘트로 자유롭게 추가해주세요. 여러분의 통찰력을 통해 배우고 SCSS에 대한 지식을 확장하는 것에 열렬히 기대하고 있어요.
 
@@ -595,7 +833,18 @@ SCSS에서 부모 선택자 "&"는 중첩된 스타일 내에서 부모 요소�
 
 # 마지막 생각
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SCSS 변수에 대한 안내를 마무리하며, 귀하가 유익한 지식과 통찰력을 얻으셨기를 희망합니다. 이 콘텐츠를 살펴주신 시간에 감사드립니다.
 
@@ -605,7 +854,18 @@ SCSS 변수에 대한 안내를 마무리하며, 귀하가 유익한 지식과 �
 
 # 아래 게시물을 놓치지 마세요.👇🧠
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 다음 도전 과제를 탐험하고 독립적으로 시도해보세요..👇🧠
 

@@ -3,16 +3,13 @@ title: "IBM Java 개발자 인터뷰 경험 0-3년 질문과 답변"
 description: ""
 coverImage: "/assets/img/2024-07-07-IBMJavaDeveloperInterviewExperiencefor03yearsQA_0.png"
 date: 2024-07-07 02:32
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-IBMJavaDeveloperInterviewExperiencefor03yearsQA_0.png
 tag: Tech
 originalTitle: "IBM Java Developer Interview Experience for 0–3 years(Q,A)"
 link: "https://medium.com/@rathod-ajay/ibm-java-developer-interview-experience-for-0-3-years-q-a-28cd8c57fc08"
 isUpdated: true
 ---
-
-
-
 
 안녕하세요 여러분! 이 글에서는 0-3년 경력을 가진 자바 개발자의 최근 인터뷰 경험을 살펴볼 것입니다. 이는 인터뷰를 준비하는 자바 개발자들에 도움이 될 것입니다.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 스프링 프레임워크는 여러 빈 스코프를 지원하며 이는 애플리케이션 컨텍스트 내에서 빈의 라이프사이클과 가시성을 정의합니다. 주요 범위는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 싱글톤: 이것은 기본 스코프입니다. 빈의 단일 인스턴스가 생성되어 전체 애플리케이션 컨텍스트 전반에 걸쳐 공유됩니다. 이것은 상태가 없는 특성을 가지고 있습니다. 사용 사례: 서비스 클래스, DAO, 리포지토리 등.
 - 프로토타입: 빈의 새로운 인스턴스가 컨테이너로부터 요청될 때마다 생성됩니다. 이것은 상태가 있는 특성을 가지고 있습니다. 사용 사례: 상태를 가진 빈이거나 스레드에 안전하지 않은 경우.
@@ -37,7 +45,18 @@ isUpdated: true
 
 자바에서는 두 가지 주요 방법으로 쓰레드를 생성할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Thread 클래스 확장:
 
@@ -52,7 +71,18 @@ isUpdated: true
   - 클래스의 인스턴스를 생성하고 Thread 개체에 전달한 뒤, Thread 개체에서 start() 메서드를 호출하여 새 스레드를 실행합니다.
   - 각 방법의 간단한 예제는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Thread 클래스를 확장하는 방법:
 
@@ -89,7 +119,18 @@ public class Main {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 가지 방법 모두 유효하지만 Runnable 인터페이스를 구현하는 것이 더 유연합니다. 필요에 따라 클래스가 다른 클래스를 확장할 수 있습니다.
 
@@ -103,7 +144,18 @@ thread.start();
 
 ## String 유형의 HashSet을 만들고 중복 문자열을 추가합니다. 아래 프로그램의 출력은 무엇입니까?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 hs.add("Abcd");
@@ -122,7 +174,18 @@ System.out.println(hs);
 
 마이크로서비스 아키텍처는 특히 복잡하고 대규모이며 발전 중인 응용 프로그램에 대해 여러 가지 이점을 제공합니다. 다음은 주요 이점 중 일부입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 모듈화: 복잡한 애플리케이션을 작은 관리 가능한 조각들로 분해하여 개발, 유지보수 및 이해하기 쉽게 만들어줍니다.
 - 확장성: 개별 구성 요소를 독립적으로 확장할 수 있어 자원을 효율적으로 사용하고 애플리케이션 전반의 성능을 향상시킬 수 있습니다.
@@ -140,7 +203,18 @@ HTTP 프로토콜 기반의 마이크로서비스가 일반적으로 사용되�
 
 ## 서비스 간의 실패가 다른 서비스로 전파되는 것을 방지하기 위해 어떤 마이크로서비스 패턴을 사용하나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다른 서비스로의 장애 전이를 방지하기 위해 사용되는 마이크로서비스 패턴은 회로 차단기 패턴(Circuit Breaker pattern)입니다.
 
@@ -150,7 +224,18 @@ HTTP 프로토콜 기반의 마이크로서비스가 일반적으로 사용되�
 
 이 요청들이 성공하면 회로 차단기가 정상 작동으로 복귀하며, 그렇지 않은 경우 요청을 계속 차단합니다. 이 패턴은 분산 시스템에서 시스템 안정성과 탄력성을 유지하는 데 도움이 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 마이크로서비스에서 REST API 호출을 어떻게 할 수 있나요?
 
@@ -162,7 +247,18 @@ HTTP 클라이언트 라이브러리:
 - Python: requests 또는 http.client를 사용합니다.
 - JavaScript (Node.js): axios, fetch 또는 http 및 https 모듈을 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Feign Client (Spring Cloud): 스프링 애플리케이션에서의 마이크로서비스 통신을 위한 선언적 REST 클라이언트입니다. HTTP 클라이언트 작성을 간소화하고 로드 밸런싱을 위해 Ribbon 및 Eureka와 통합됩니다.
 
@@ -172,7 +268,18 @@ gRPC: 모든 환경에서 실행할 수 있는 고성능 오픈 소스 범용 RP
 
 GraphQL: REST의 대안으로, API용 쿼리 언어이자 데이터에 대한 타입 시스템을 정의하여 해당 쿼리를 실행하는 런타임인 GraphQL입니다. 복잡한 시스템 및 마이크로서비스에 효율적이며 클라이언트가 필요로 하는 정확한 데이터를 요청할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 메시지 브로커(RabbitMQ, Apache Kafka)에 대해 언급하였죠? RESTful이 아니지만, 메시지 브로커는 마이크로서비스 간의 비동기 통신에 사용될 수 있으며 이벤트 기반 아키텍처를 지원합니다.
 
@@ -182,7 +289,18 @@ GraphQL: REST의 대안으로, API용 쿼리 언어이자 데이터에 대한 �
 
 Spring Boot의 @RestController 주석은 @Controller 및 @ResponseBody를 결합한 편리한 주석입니다. 클래스 수준에서 사용되며 모든 메서드가 뷰 대신 도메인 객체를 반환하는 컨트롤러임을 나타냅니다. 이 주석은 RESTful 웹 서비스의 생성을 간단화합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - @Controller: 해당 클래스를 웹 컨트롤러로 표시하여 HTTP 요청을 처리할 수 있도록 합니다.
 - @ResponseBody: 메서드의 반환 값을 요청의 응답 본문으로 사용해야 함을 나타냅니다.
@@ -202,7 +320,18 @@ public class ExampleController {
 
 이 예시에서 /hello로의 GET 요청은 "Hello, World!" 내용을 가진 일반 텍스트 응답을 반환합니다. @RestController 주석을 사용하면 이 문자열이 응답 본문에 직접 작성되도록 보장됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 스프링 부트에서 의존성 주입을 위한 빈으로 지정하는 주석은 무엇인가요?
 
@@ -214,7 +343,18 @@ public class ExampleController {
 - `@Repository`: 주석이 달린 클래스가 "리포지토리"(예: 데이터 액세스 객체)임을 나타냅니다.
 - `@Controller`: 주석이 달린 클래스가 "컨트롤러"(예: 웹 컨트롤러)임을 나타냅니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 주석들은 주석이 달린 클래스가 자동 감지 및 의존성 주입 대상이 될 수 있습니다.
 
@@ -231,7 +371,18 @@ Spring Boot 액추에이터는 애플리케이션이 프로덕션 환경으로 �
 - 감사 이벤트(Audit Events): 애플리케이션이 감사 이벤트를 기록하도록 구성된 경우 Actuator는 사용자 로그인/로그아웃, 액세스 거부 등과 같은 보안 관련 이벤트에 대한 정보를 노출할 수 있습니다.
 - 사용자 정의 Endpoints: 내장 Endpoints 이외에도 Actuator를 사용하여 애플리케이션에 관련된 특정 기능이나 데이터를 노출할 사용자 정의 Endpoints를 정의할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Spring Boot Actuator는 애플리케이션 인사이트 및 관리를 위한 강력한 도구로, 제작 환경에서 애플리케이션을 유지 및 문제 해결하는 것을 더욱 쉽게 만들어 줍니다.
 
@@ -243,7 +394,18 @@ Spring Boot 애플리케이션의 주요 메서드를 선언하는 데 사용되
 - 컴포넌트 스캔을 가능하게 합니다. Spring은 애플리케이션 컨텍스트 내에서 빈을 자동으로 찾아 등록할 수 있도록 합니다.
 - 외부 구성을 위한 설정 속성을 가능하게 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 사용 예시입니다:
 
@@ -264,7 +426,18 @@ public class MyApplication {
 
 일련의 알고리즘 패밀리를 정의하고 각각을 캡슐화하여 상호 교환할 수 있는 디자인 패턴은 **전략 패턴**입니다. 이 패턴은 알고리즘을 독립적으로 변화하도록 허용하며, 일련의 알고리즘을 정의하여 각각을 별도의 클래스로 캡슐화하고 이들을 공통 인터페이스를 통해 상호 교환할 수 있도록 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 객체에 동적으로 새 기능을 추가하는 데 사용되는 디자인 패턴은 무엇인가요?
 
@@ -274,7 +447,18 @@ public class MyApplication {
 
 스프링 부트에서의 클라우드 측 로드 밸런싱, 즉 서버 측 로드 밸런싱은 일반적으로 응용프로그램 자체가 아닌 클라우드 인프라나 전용 로드 밸런서 장치에 의해 관리됩니다. 이 접근 방식은 클라우드 제공 업체(예: AWS, Azure, Google Cloud)나 전용 로드 밸런서(예: NGINX, HAProxy)의 기능을 활용하여 응용프로그램 트래픽을 여러 응용프로그램 인스턴스로 분산하여 응용프로그램의 응답 시간과 가용성을 향상시킵니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 자바에서 예외를 처리하는 데 사용되는 키워드는 무엇인가요?
 
@@ -284,7 +468,18 @@ public class MyApplication {
 
 네, 자바에서 정적 블록에서 예외를 던질 수 있습니다. 그러나 정적 블록은 클래스가 로드될 때 실행되기 때문에 클래스 선언에서 throws 키워드로 선언된 검사 예외를 던질 수 있습니다. 이것은 자바에서 허용되지 않습니다. 따라서 정적 블록에서 선언하지 않고도 검사되지 않는 예외(런타임 예외)만 선언할 수 있습니다. 예를 들어, 여기에 예시가 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 public class MyClass {
@@ -301,7 +496,18 @@ public class MyClass {
 
 Java에서는 하나의 try-catch 블록에 두 개의 finally 블록을 사용할 수 없습니다. 각 try 블록 뒤에는 0개 이상의 catch 블록이 올 수 있고 오직 하나의 finally 블록만이 허용됩니다. finally 블록은 선택 사항이지만, 존재하는 경우 try와 모든 catch 블록 뒤에 와야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Read timeout과 connection timeout의 차이점은 무엇인가요?
 
@@ -312,7 +518,18 @@ Java에서는 하나의 try-catch 블록에 두 개의 finally 블록을 사용�
 
 둘 다 강력한 네트워크 프로그래밍을 위해 중요한 시간 초과입니다. 응용 프로그램이 네트워크 지연과 사용 불가능 상태를 효과적으로 처리할 수 있도록 도와줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 정보를 수정하지 않고 정보를 안전하게 및 변함없이 검색하는 데 일반적으로 사용되는 HTTP 메소드는 무엇입니까?
 
@@ -323,7 +540,18 @@ Java에서는 하나의 try-catch 블록에 두 개의 finally 블록을 사용�
 - 👏 이야기에 박수를 보내주세요. 그리고 저를 팔로우해주세요 👉
 - 📰 저의 Medium 페이지에서 더 많은 콘텐츠를 확인해보세요(자바 개발자 인터뷰에 관한 60개의 이야기)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나의 책들은 여기서 찾을 수 있어요:
 

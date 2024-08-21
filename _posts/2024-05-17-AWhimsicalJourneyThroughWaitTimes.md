@@ -3,16 +3,13 @@ title: "대기 시간을 통해의 신비로운 여행"
 description: ""
 coverImage: "/assets/img/2024-05-17-AWhimsicalJourneyThroughWaitTimes_0.png"
 date: 2024-05-17 20:39
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-17-AWhimsicalJourneyThroughWaitTimes_0.png
 tag: Tech
 originalTitle: "A Whimsical Journey Through Wait Times"
 link: "https://medium.com/towards-data-science/a-whimsical-journey-through-wait-times-b02a41d337fc"
 isUpdated: true
 ---
-
-
-
 
 ## 파이썬을 사용하여 전자레인지 카운트다운부터 끝나지 않는 전화 대기 시간까지
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 한가지 생각해 보세요. 포플콘을 전자레인지에 넣어 가열한 지 겨우 1분 지난 때에는 그릇을 준비하고 서빙할 준비를 합니다. 하지만 전화 대기 중에 1분이 지난다면? 다시 사람과 대화를 나눌 수 있을지 의문이 들 정도입니다. 10분 후, 포플콘을 즐기는 중이겠죠. 하지만 전화는? 대기 음악이 끝도 없는 연옥의 배경음악이 되고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 팝콘을 기다리는 사이와 전화 대기를 이어가는 서사 속을 맴도는 … 주간 복권. 승리를 기다립니다. 매주 새로운 티켓은 이전 주의 실망과는 거리가 먼 신선한 약속을 간직하고 있습니다.
 
@@ -34,7 +42,18 @@ isUpdated: true
 
 이 대기 시간의 차이는 실제로 존재하는 것일까요, 아니면 마음의 장난일까요? 이 질문에 대한 대답은 두 부분으로 나누어 알아보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 부분 1 — 데이터 분석
 - 부분 2 — 데이터 모델링
@@ -45,7 +64,18 @@ isUpdated: true
 
 데이터로 시작하고 싶지만 "대기 중" 시간에 대한 데이터가 없습니다. 대신 컴퓨터 파일의 편집 사이의 시간에 대해서 어떠세요? 그런 편집 시간을 보는 곳 한 곳이 바로 위키피디아입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위키피디아 페이지에서 마지막 편집 이후의 시간을 보고 다음 편집까지 얼마나 남았는지 예측할 수 있을까요?
 
@@ -55,7 +85,18 @@ isUpdated: true
 
 더 실용적인 예측은 "중위 다음 편집 시간"의 형태입니다. 이렇게 말할 수 있습니다: "저는 이 페이지가 다음 5일 3시간 20분 이내에 50% 확률로 편집될 것으로 예측합니다." 저, 당신의 적,는 "이전" 또는 "이후"를 선택할 것입니다. 만약 실제 중위 다음 편집 시간이 3일이라고 가정하면, "이전"을 선택할 것입니다. 그럼 우리는 최대 5일 3시간 20분까지 기다립니다. 그 동안 누군가(다시 말해서, 우리 둘을 제외한 누군가) 페이지를 편집하면 상대방이 점수를 획들하고, 그렇지 않으면 당신이 점수를 획득합니다. 이러한 점수 체계를 통해, 만약 제가 당신보다 더 좋은 예측자라면 더 많은 점수를 획득해야 할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파이썬에 대해 알아보고 이러한 예측을 어떻게 할 수 있는지 살펴봅시다:
 
@@ -65,7 +106,18 @@ isUpdated: true
 
 ![image](/assets/img/2024-05-17-AWhimsicalJourneyThroughWaitTimes_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다양한 위키피디아 문서에서 데이터를 수집하기 위해 작은 파이썬 스크립트를 작성했어요. 다음과 같은 작업을 합니다:
 
@@ -89,7 +141,18 @@ Peter_Tennant 21:39, 15 April 2022 01:16, 08 February 2024
 ...
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 import pandas as pd
@@ -110,8 +173,18 @@ wiki_df.head()
 
 ![image](/assets/img/2024-05-17-AWhimsicalJourneyThroughWaitTimes_2.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해당 기사의 마지막 50개의 편집 중 첫 번째 편집은 2008년 1월 27일 오후 3시 13분 (UTC)에 이루어졌습니다. 다음 편집은 16분 후에 이루어졌습니다. 그 다음 편집은 데이터의 해상도 한계로 인해 1분 내로 발생하여 0일 00:00:00으로 표시됩니다.
 
@@ -129,7 +202,18 @@ wiki_df['Time Delta'].describe()
 
 이를 통해 다음과 같이 시작하고 끝나는 데이터프레임이 생성됩니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 통계 요약입니다.
 
@@ -146,7 +230,18 @@ max               4810 days 17:39:00
 
 조사 결과, 샘플링된 대기 시간은 0일 00:00:00(즉, 1분 미만)부터 13년 이상까지 다양합니다. (13년 편집 대기는 버지니아 대학교의 건물에 관한 기사였습니다.) 편집의 1/4은 이전 편집 후 27분 이내에 발생합니다. 편집 간 중위값은 약 15일을 조금 넘습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 조금 더 발전하기 전에, 웨이팅 시간을 향상시키고 싶은데요. 다음과 같이 작은 함수를 사용해서 웨이팅 시간을 표시할 수 있습니다:
 
@@ -167,7 +262,18 @@ seconds_to_text(100)
 
 이제 위키피디아 데이터를 위한 "웨이팅 테이블"을 만들 수 있습니다. 기존에 기사의 다음 편집을 기다린 시간을 주면, 이 테이블은 중간 추가로 기다려야 할 시간을 알려줍니다. ("중간값"은 이 시간보다 덜 기다릴 확률이 50%이고, 시간이 더 걸리는 확률이 50%라는 것을 의미합니다.)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import numpy as np
@@ -193,7 +299,18 @@ wait_wait_table(wiki_df, wiki_wait_ticks).style.hide(axis="index")
 
 앞의 파이썬 코드는 이 표를 생성합니다. 이것을 "대기-대기" 표라고 부르죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-05-17-AWhimsicalJourneyThroughWaitTimes_4.png)
 
@@ -203,7 +320,18 @@ wait_wait_table(wiki_df, wiki_wait_ticks).style.hide(axis="index")
 
 마찬가지로, 고객 서비스에 전화하고 대기시간이 발생할 때 - 처음에는 어떤 종류의 고객 서비스를 기다리고 있는지 모릅니다. 그러나 매 분이 지날 때마다, 우리는 서서히 나쁜, 느린 고객 서비스를 기다리고 있다는 것을 알게 됩니다. 따라서 예상 추가 대기 시간은 늘어납니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금까지는 데이터를 직접 사용했습니다. 데이터를 확률 분포로 모델링해 볼 수도 있습니다. 그러나 모델링으로 넘어가기 전에 다른 두 예제인 마이크로파 팝콘 요리와 복권 당첨을 살펴보겠습니다.
 
@@ -213,7 +341,18 @@ wait_wait_table(wiki_df, wiki_wait_ticks).style.hide(axis="index")
 
 ## "팝콘"형 기다림 - 파이썬
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파이썬에서 특히:
 
@@ -227,31 +366,52 @@ print(popcorn_df.describe())
 
 이 코드는 다음과 같은 통계 요약이 포함된 판다 데이터프레임을 생성합니다:
 
-
                       Time Delta
-count                      30000
-mean   0 days 00:05:00.060355606
-std    0 days 00:00:14.956424467
-min    0 days 00:03:52.588244397
-25%    0 days 00:04:50.011437922
-50%    0 days 00:04:59.971380399
-75%    0 days 00:05:10.239357827
-max    0 days 00:05:59.183245298
 
+count 30000
+mean 0 days 00:05:00.060355606
+std 0 days 00:00:14.956424467
+min 0 days 00:03:52.588244397
+25% 0 days 00:04:50.011437922
+50% 0 days 00:04:59.971380399
+75% 0 days 00:05:10.239357827
+max 0 days 00:05:59.183245298
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예상대로, 이 정규 분포에서 데이터를 생성할 때 평균은 5분이고 표준 편차는 약 15초입니다. 우리가 시뮬레이션한 대기 시간은 3분 52초에서 6분까지 범위에 있습니다.
 
 이제 "대기-대기" 테이블을 생성할 수 있습니다:
 
 ```js
-wait_wait_table(popcorn_df, [0, 10, 30, 60, 2*60, 3*60, 4*60, 5*60]).style.hide(axis="index")
+wait_wait_table(popcorn_df, [0, 10, 30, 60, 2 * 60, 3 * 60, 4 * 60, 5 * 60]).style.hide((axis = "index"));
 ```
 
 ## "팝콘" 형태의 대기 시간 — 토론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리의 "기다려-기다려" 소프트웨어는 팝콘 테이블을 아래와 같이 보여줍니다:
 
@@ -261,7 +421,18 @@ wait_wait_table(popcorn_df, [0, 10, 30, 60, 2*60, 3*60, 4*60, 5*60]).style.hide(
 
 나중에 데이터 모델링 하는 방법을 보게 될 것입니다. 지금은 복권 당첨을 기다리는 것에 대해 다음으로 살펴봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # “로또 당첨” 스타일 대기 시간 — 지금까지 기다린 시간과는 무관하게, 예상 대기 시간은 동일합니다.
 
@@ -271,7 +442,18 @@ wait_wait_table(popcorn_df, [0, 10, 30, 60, 2*60, 3*60, 4*60, 5*60]).style.hide(
 
 우리는 100만 주 동안의 로또 플레이를 시뮬레이션합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 시드 = 0
@@ -304,7 +486,18 @@ max             2429 days 00:00:00
 
 우리는 "대기-대기" 테이블을 생성합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 lotto_days = [0, 7, 7.00001,  2*7, 4*7, 183, 365.25, 2*365.25, 5*365.25]
@@ -318,7 +511,18 @@ wait_wait_table(lotto_df, lotto_waits).style.hide(axis="index")
 
 <img src="/assets/img/2024-05-17-AWhimsicalJourneyThroughWaitTimes_6.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 Markdown 형식으로 작성된 텍스트입니다.
 
@@ -327,12 +531,23 @@ wait_wait_table(lotto_df, lotto_waits).style.hide(axis="index")
 표의 세 항목은 이상할 수 있습니다. 7일과 7일 1초에서 무슨 일이 일어나는지 생각해보세요. 추가 기다림이 126일에서 거의 즉시 133일 정도로 급격히 증가하는 이유는 무엇일까요? 답은 매주 추첨하는 시점에서 승리까지의 최소 기다림이 0일에서 7일로 변경되기 때문입니다. 그리고 5년은 어떻게 되는 걸까요? 5년을 기다린다면 보통 133일이 걸리는 대신 단지 50일만에 승리를 기대할 수 있는 것일까요? 안타깝게도 아닙니다. 오히려 이는 우리 데이터의 한계를 보여줍니다. 데이터에서는 5년을 기다리는 경우를 세 번만 볼 수 있습니다:
 
 ```js
-lotto_df[lotto_df["Time Delta"] > pd.to_timedelta(24*60*60 * 365.25 * 5, unit="s")]
+lotto_df[lotto_df["Time Delta"] > pd.to_timedelta(24 * 60 * 60 * 365.25 * 5, (unit = "s"))];
 ```
 
 <img src="/assets/img/2024-05-17-AWhimsicalJourneyThroughWaitTimes_7.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 삼 가지 값은 중위수의 노이즈 추정치로 이어집니다.
 
@@ -344,7 +559,18 @@ lotto_df[lotto_df["Time Delta"] > pd.to_timedelta(24*60*60 * 365.25 * 5, unit="s
 
 다음 섹션에서는 모델링의 방법과 그 이유에 대해 살펴보겠습니다. 미국 로또 데이터부터 시작하겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 부분에서는 대기 시간 예측을 위한 간단한 표현을 찾아보겠습니다. 예측에는 이러한 간소화가 필요하지 않습니다. 우리가 지금까지 만든 것은 경험적 분포라고 불리며 잘 작동합니다. 그러나 더 간단한 표현은 더 편리할 수 있습니다. 또한 다른 종류의 대기를 이해하기 쉽게 비교할 수 있게 해줄 수도 있습니다.
 
@@ -359,20 +585,29 @@ lotto_df['CDF'] = lotto_df['Time Delta'].rank(pct=True)
 wiki_df
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CDF 컬럼은 누적 분포 함수(Cumulative Distribution Function)를 나타내며, 가장 짧은 대기 시간에는 0.0에 가까운 값이 있고, 가장 긴 대기 시간에는 1.0이 있습니다. 다시 말해, 각 행의 순위가 분수로 나타난 것입니다. 위키피디아 데이터프레임은 이제 다음과 같습니다:
 
-
-| Time Delta  |  CDF  |
-|-------------|-------|
+| Time Delta      | CDF |
+| --------------- | --- |
 | 0 days 00:00:10 | 0.1 |
 | 0 days 00:00:30 | 0.3 |
 | 0 days 00:01:00 | 0.5 |
 | 0 days 00:02:00 | 0.7 |
 | 0 days 00:05:00 | 0.9 |
 | 0 days 00:10:00 | 1.0 |
-
 
 이제 CDF(누적 분포 함수)를 대기 시간 Time Delta(x-축)에 대해 그릴 수 있습니다. 파이썬에서 다음과 같은 플로팅 코드를 사용할 수 있습니다:
 
@@ -407,7 +642,18 @@ def wait_cdf(title, sorted_df, wait_ticks, dist=None, dist_label=None, left=None
 wait_cdf("로또 당첨", lotto_df, wiki_wait_ticks, xscale='log')
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로또 당첨과 대기 시간의 CDF 플롯을 로그 스케일로 표시하였습니다:
 
@@ -417,7 +663,18 @@ wait_cdf("로또 당첨", lotto_df, wiki_wait_ticks, xscale='log')
 
 Python의 scipy.stats 패키지를 사용하면 데이터에 지수 곡선을 맞추고 해당 결과 곡선을 Python 객체로 표현하는 것이 쉽습니다. 여기서는 lotto_expon_dist라는 이름으로 이를 표현했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 from scipy.stats import expon
@@ -433,8 +690,18 @@ print(f"복권 당첨 지수 중앙값은 {seconds_to_text(lotto_expon_dist.medi
 
 적합된 곡선의 중앙값은 약 132일로, 경험적인 중앙값인 133일과 근접합니다. 지수곡선을 관행적으로 스케일이라는 단일 숫자로 매개변수화하는데, 이것은 분포의 평균에 해당하지만 평균에서 중앙값을 쉽게 계산하거나 그 반대로 할 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로또 당첨금에 대한 경험적 누적 분포(EMCDF) 및 적합 누적 분포(FCDF) 플롯입니다:
 
@@ -447,7 +714,18 @@ wait_cdf("당첨금", lotto_df, wiki_wait_ticks, dist=lotto_expon_dist, dist_lab
 
 둘이 꽤 근접합니다. 왼쪽의 약간의 불일치는 복권 추첨시 모멘트의 즉시 7일 점프에 의해 발생합니다. 이 글에서는 이 작은 불일치를 무시하겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리 (모의) 복권 당첨 데이터에 지수 함수가 잘 작동합니다. Popcorn과 Wikipedia 데이터에도 어떻게 작동하는지 살펴봅시다. 다음은 이러한 데이터프레임에 지수 분포를 맞추는 코드입니다.
 
@@ -469,8 +747,18 @@ wait_cdf("Wiki Edits", wiki_df, wiki_wait_ticks, dist=wiki_expon_dist, dist_labe
 
 <img src="/assets/img/2024-05-17-AWhimsicalJourneyThroughWaitTimes_11.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-05-17-AWhimsicalJourneyThroughWaitTimes_12.png)
 
@@ -480,19 +768,27 @@ wait_cdf("Wiki Edits", wiki_df, wiki_wait_ticks, dist=wiki_expon_dist, dist_labe
 
 와이블 분포는 형태(shape)와 척도(scale) 두 매개변수로 매개화됩니다. 복권 데이터로 시작해 보죠:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 from scipy.stats import weibull_min
 
-lotto_shape, _, lotto_w_scale = weibull_min.fit(lotto_df['Time Delta'].dt.total_seconds(), floc=0)
+lotto*shape, *, lotto_w_scale = weibull_min.fit(lotto_df['Time Delta'].dt.total_seconds(), floc=0)
 lotto_weibull_dist = weibull_min(c=lotto_shape,scale=lotto_w_scale)
 
 print(f"복권 당첨 위블 중앙값은 {seconds_to_text(lotto_weibull_dist.median())}")
 lotto_weibull_label = f'WeibullDistribution(shape={lotto_shape:.3},scale={seconds_to_text(lotto_w_scale)})'
 wait_cdf("복권 당첨", lotto_df, wiki_wait_ticks, dist=lotto_weibull_dist, dist_label=lotto_weibull_label, xscale='log')
-
 
 이는 지수함수와 유사한 장착 곡선을 생성합니다. 실제로 형태가 1일때 위블 분포는 지수 분포입니다. 여기서 형태는 1.06입니다.
 
@@ -500,8 +796,18 @@ wait_cdf("복권 당첨", lotto_df, wiki_wait_ticks, dist=lotto_weibull_dist, di
 
 팝콘 데이터에 위블을 적합하려고 하면 무엇이 발생하나요?
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 popcorn_shape, _, popcorn_w_scale = weibull_min.fit(popcorn_df['Time Delta'].dt.total_seconds(), floc=0)
@@ -517,8 +823,18 @@ wait_cdf("Popcorn", popcorn_df, popcorn_ticks, dist=popcorn_weibull_dist, dist_l
 
 마지막으로, 위키피디아 데이터에 Weibull을 시도해보겠습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 wiki_shape, _, wiki_w_scale = weibull_min.fit(wiki_df['Time Delta'].dt.total_seconds(), floc=0)
@@ -534,7 +850,18 @@ wait_cdf("위키 편집", wiki_df, wiki_wait_ticks, dist=wiki_weibull_dist, dist
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결론적으로, 당신과 나는 미친 것이 아닙니다(필요에 따라).
 
@@ -544,7 +871,18 @@ wait_cdf("위키 편집", wiki_df, wiki_wait_ticks, dist=wiki_weibull_dist, dist
 
 마지막으로, 세 번째 종류의 대기 시간인 "메모리리스"도 존재합니다. 이 경우, 지금까지 기다린 시간에 상관없이 기대 대기 시간은 동일합니다. 복권 당첨 간의 시간에서 이를 확인했습니다. 이는 형태 매개변수가 1인 Weibull 분포(지수 분포와 동일)와 관련이 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터를 분석할 때 기다릴 데이터가 있는 경우, Weibull 분포를 시도하는 것을 권장합니다. Python을 사용하면 이러한 곡선을 fitting하는 것이 쉽습니다. 그러나 데이터가 Weibull 분포와 잘 맞지 않는 경우에는 Weibull을 사용하지 않는 것이 좋습니다. 대신, 자료 분포를 직접 사용하여 데이터가 스스로 말하도록하십시오.
 

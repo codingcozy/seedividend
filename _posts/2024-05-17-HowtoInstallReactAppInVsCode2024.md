@@ -3,16 +3,13 @@ title: "VsCode에 React 앱을 설치하는 방법(2024년 최신)"
 description: ""
 coverImage: "/assets/img/2024-05-17-HowtoInstallReactAppInVsCode2024_0.png"
 date: 2024-05-17 20:57
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-17-HowtoInstallReactAppInVsCode2024_0.png
 tag: Tech
 originalTitle: "How to Install React App In VsCode 2024"
 link: "https://medium.com/@reactmasters.in/how-to-install-react-app-in-vscode-2024-6b66f7c5358c"
 isUpdated: true
 ---
-
-
-
 
 React.js은 실시간 응용 프로그램 및 사용자 인터페이스 개발에 널리 사용되는 JavaScript 라이브러리입니다. 이는 종종 프런트엔드 JavaScript 프레임워크로 언급됩니다. Visual Studio Code (VSCode)는 가벼우면서 강력한 코드 편집기로, React.js 개발에 탁월한 지원을 제공합니다. 이 글에서는 React.js를 빠르고 주관적인 빌드 도구인 Vite와 함께 VSCode에 설정하는 과정을 안내해 드리겠습니다. 그러니, 빠르게 React 앱을 VS Code에 설치해 봅시다.
 
@@ -22,7 +19,18 @@ React.js은 실시간 응용 프로그램 및 사용자 인터페이스 개발�
 
 설치 프로세스에 진입하기 전에, 필요한 모든 사전 요구 사항이 갖추어져 있는지 확인해 보겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Node.js 및 npm:
 
@@ -32,7 +40,18 @@ React.js은 실시간 응용 프로그램 및 사용자 인터페이스 개발�
 
 - 컴퓨터에 Visual Studio Code가 설치되어 있는지 확인해주세요. 아직 설치하지 않은 경우, code.visualstudio.com에서 운영 체제와 호환되는 최신 버전을 다운로드하고 설치하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 1: Visual Studio Code를 실행하세요
 
@@ -42,7 +61,18 @@ Visual Studio Code를 열면 여정이 시작됩니다. 아직 설치하지 않�
 
 ## 2.1 통합 터미널 열기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 상위 메뉴로 이동하여 View - Terminal을 선택하거나 바로 가기 Ctrl +를 사용하여 Visual Studio Code 내에 통합 터미널을 열어보세요.
 
@@ -54,7 +84,18 @@ Visual Studio Code를 열면 여정이 시작됩니다. 아직 설치하지 않�
 npx create-react-app my-react-app
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 3: 프로젝트로 이동하기
 
@@ -66,7 +107,18 @@ cd my-react-app
 
 # 단계 4: 개발 서버 실행하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 4.1 개발 서버 시작하기
 
@@ -78,7 +130,18 @@ npm start
 
 이 명령어를 실행하면 React 앱이 개발 모드로 실행되며, 브라우저를 통해 http://localhost:3000/ 에서 접근할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 4.2 원활한 개발을 위한 자동 업데이트
 
@@ -88,7 +151,18 @@ React 코드를 조정하고 수정하는 동안 개발 서버가 자동으로 �
 
 Visual Studio Code를 열고 프로젝트 폴더로 이동합니다. src 폴더는 소스 코드용이고 public 폴더는 정적 자산용 등 필수 폴더를 포함한 표준 React 프로젝트 구조가 여러분을 기다리고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 6: 향상된 개발을 위한 선택 도구
 
@@ -98,7 +172,18 @@ Visual Studio Code에서 "React 개발자 도구" 확장을 통합하여 개발 
 
 - 확장 뷰( Ctrl + Shift + X)를 열고 "React Developer Tools"를 검색한 후 설치를 클릭하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 6.2 ESLint과 Prettier를 통한 코드 품질 관리
 
@@ -110,7 +195,18 @@ Visual Studio Code에서 "React 개발자 도구" 확장을 통합하여 개발 
 npm install -g eslint
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Visual Studio Code에 ESLint 확장 프로그램을 설치해보세요.
 - ESLint 구성 파일을 만들어보세요:
@@ -125,7 +221,18 @@ Prettier를 설치해보세요:
 npm install --save-dev prettier
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 프로젝트에 .prettierrc 파일을 만들어 Prettier를 구성하세요.
 
@@ -135,6 +242,17 @@ npm install --save-dev prettier
 
 ## 결론:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2024년이 시작되면서 React.js는 현대 웹 개발의 선두에 있습니다. React.js를 정복하면 다양한 기회의 문을 열 수 있습니다. 이 포괄적인 안내를 따르면, Visual Studio Code에 React를 설치하고도 풍부한 코딩 여정을 경험할 수 있게 될 것입니다.

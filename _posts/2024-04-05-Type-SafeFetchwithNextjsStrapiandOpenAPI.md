@@ -3,17 +3,13 @@ title: "프론트엔드에서 타입 안정성을 지키며 데이터 가져오�
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Type-Safe Fetch with Nextjs, Strapi, and OpenAPI"
 link: "https://medium.com/strapi/type-safe-fetch-with-next-js-strapi-and-openapi-4375fb924655"
 isUpdated: true
 ---
-
-
-
-
 
 ![Type-SafeFetchwithNextjsStrapiandOpenAPI_0.png](/assets/img/Type-SafeFetchwithNextjsStrapiandOpenAPI_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # TypeScript를 왜 사용해야 하나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 TypeScript는 JavaScript 앱에서 여러 가지 방법으로 도움을 줍니다. 어떤 유형의 인터페이스를 사용하는 것이 쉽도록 만듭니다.
 
@@ -33,7 +40,18 @@ TypeScript는 JavaScript 앱에서 여러 가지 방법으로 도움을 줍니�
 
 GraphQL과 같은 기술을 사용할 때 TypeScript 유형을 추출하는 것은 아주 쉽습니다. GraphQL API는 스키마를 구현하여 생성됩니다. 이 스키마에서 TypeScript 유형 정의를 생성하는 것은 간단하며, GraphQL API만 만들면 더 이상의 작업을 할 필요가 없습니다. 이것이 GraphQL을 매우 좋아하는 이유 중 하나입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다른 방법들은 이미 TypeScript를 이름에 포함한 tRPC (TypeScript Remote Procedure Calls)와 같은 것들이 있습니다. API를 개발할 때는 자연스럽게 타입을 생성하게 됩니다.
 
@@ -43,7 +61,18 @@ REST API를 사용하는 것은 완전히 타입이 지정된 API에 익숙한 �
 
 그러나 REST API는 여전히 사실상의 표준이며 가장 많이 사용되는 유형의 API이므로 주변에는 다양한 도구들이 많이 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # OpenAPI
 
@@ -53,7 +82,18 @@ REST API를 사용하는 것은 완전히 타입이 지정된 API에 익숙한 �
 
 ![이미지](/assets/img/Type-SafeFetchwithNextjsStrapiandOpenAPI_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 그래도 REST는 여전히 유용한가요?
 
@@ -63,7 +103,18 @@ REST API의 보편성은 동시에 가장 큰 장점이기도 합니다. 웹 개
 
 예를 들어 GraphQL이 있습니다. 웹 프로젝트에서는 일반적으로 GraphQL을 Apollo와 같은 매우 복잡한 클라이언트 라이브러리와 함께 사용합니다. 이러한 라이브러리는 데이터 정규화, 상태 유지 및 캐싱과 같은 많은 작업을 수행합니다. 이는 더 많은 자바스크립트 페이로드를 필요로 합니다. 그러나 상황이 변할 때 모든 기능을 계속 사용하고 싶지 않을 수 있으며, 새로운 접근 방식과 통합하여 사용하기가 더 어려워질 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 현시점에서, 클라이언트 중심의 JavaScript 개발자로 다시 서버 방향으로 이동하고 있어요. Next.js 서버 컴포넌트와 프레임워크 자체에 많은 캐싱 메커니즘이 내장되어 있어 클라이언트 측의 일부 복잡성이 다시 사라지고 있어요. 또한 next.js는 네이티브 fetch API를 확장하고 있으므로, 자체 데이터 가져오기를 구현하는 도구에 의존하는 경우 더 복잡해질 수 있어요.
 
@@ -73,7 +124,18 @@ REST API의 보편성은 동시에 가장 큰 장점이기도 합니다. 웹 개
 
 개념적으로는 REST API의 OpenAPI 스키마, 이를 통해 TypeScript 유형 정의를 생성하는 방법, 그리고 실제로 이러한 유형 정의를 사용하는 방법이 필요해요. 다행히도 이러한 전체 과정을 더욱 간편하게 만들어주는 패키지들이 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Strapi에서 OpenAPI 스키마 만들기
 
@@ -85,7 +147,18 @@ npm run strapi install documentation
 
 ![이미지](/assets/img/Type-SafeFetchwithNextjsStrapiandOpenAPI_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 플러그인은 두 가지 중요한 기능을 제공합니다.
 
@@ -96,7 +169,18 @@ Swagger UI에서는 Strapi 내에서 생성된 Page 컬렉션 유형의 엔드�
 
 ![이미지](/assets/img/Type-SafeFetchwithNextjsStrapiandOpenAPI_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 UI는 프로젝트 내에서 찾을 수 있는 OpenAPI 스키마 파일에서 생성됩니다.
 
@@ -106,7 +190,18 @@ src/extensions/documentation/documentation/1.0.0/full_documentation.json
 
 OpenAPI 명세에서는 API의 모든 기존 경로를 찾을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 경로 안에서 응답 스키마에 대한 참조도 찾을 수 있습니다. 나중에 매우 중요해질 것입니다:
 
@@ -116,7 +211,18 @@ PageResponse 스키마를 자세히 살펴보면 Page 컬렉션 유형의 실제
 
 ![이미지](/assets/img/Type-SafeFetchwithNextjsStrapiandOpenAPI_6.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에서 페이지 컬렉션 유형에 대한 매우 관련된 정보가 표시됩니다. 이 유형은 object 유형입니다. 음... 놀랍지 않게도 그렇습니다. 이 유형은 string 유형의 속성 경로와 다른 유형의 항목을 가진 속성 블록을 가지고 있습니다. ContentHeroComponent 또는 ContentImageTextComponent와 같은 항목입니다. 그리고 여러분이 추측할 수 있듯이, 이것들은 Strapi 구성 요소이며, 이는 여러분의 블록 속성이 OpenAPI 사양 안에 설명된 동적 영역이 되도록 만듭니다.
 
@@ -126,7 +232,18 @@ Strapi에서 페이지는 이렇게 보입니다:
 
 따라서 생성된 OpenAPI 사양이 실제 Strapi에서 정의한 것과 일치함을 알 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 TypeScript 유형 정의를 생성할 수 있어야 합니다.
 
@@ -136,7 +253,18 @@ Strapi에서 페이지는 이렇게 보입니다:
 
 이 TypeScript 유형 정의를 사용할 것이므로이를 frontend 애플리케이션에 설치해야합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm install openapi-typescript
@@ -150,7 +278,18 @@ npm install openapi-typescript
 project - root / frontend / backend;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 따라서 package.json에 포함된 스크립트는 다음과 같습니다:
 
@@ -172,7 +311,18 @@ project - root / frontend / backend;
 npm run types:generate
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 명령어는 OpenAPI 사양 파일에서 TypeScript 유형 정의를 포함한 strapi.d.ts 파일을 생성합니다.
 
@@ -182,7 +332,18 @@ npm run types:generate
 
 모든 사용 가능한 경로에 대한 인터페이스는 중요합니다. API 루트가 존재하여 /pages 경로를 만들거나 읽거나 업데이트하거나 삭제할 수 있음을 확인할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 동일한 파일의 인터페이스 구성 요소에서 페이지 컬렉션 유형을 찾을 수 있습니다.
 
@@ -192,7 +353,18 @@ npm run types:generate
 
 구성 요소의 스키마는 Strapi 백엔드에서 사용할 수 있는 구성을 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에서 언급한 ContentImageTextComponent는 이렇게 생겼습니다:
 
@@ -202,7 +374,18 @@ npm run types:generate
 
 # React 컴포넌트에서 유형 사용하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금 생성된 타입을 사용하여 React 컴포넌트를 직접 만들 수 있습니다.
 
@@ -212,7 +395,18 @@ npm run types:generate
 
 먼저 프롭을 받으려면 데이터를 가져와야 합니다. 물론 데이터 가져오기에도 타입을 활용하고 싶을 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Typed Fetch 사용하기
 
@@ -224,7 +418,18 @@ npm i openapi-fetch
 
 해야 할 일은 클라이언트를 생성하고 경로에 대한 생성된 유형을 참조하는 것뿐입니다 :
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // src/api/index.ts
@@ -260,7 +465,18 @@ export default async function Page() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const pageData = pageResponse.data?.data?.attributes;
@@ -274,7 +490,18 @@ const pageData = pageResponse.data?.data?.attributes;
 
 <img src="/assets/img/Type-SafeFetchwithNextjsStrapiandOpenAPI_12.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/Type-SafeFetchwithNextjsStrapiandOpenAPI_13.png" />
 
@@ -284,7 +511,18 @@ const pageData = pageResponse.data?.data?.attributes;
 
 위의 데이터 가져오기는 할당된 블록의 데이터를 반환하지 않음을 알 수 있습니다. 이는 Strapi REST API가 응답에 해당 관계를 포함하도록 지시하기 위해 특정 쿼리 매개변수를 지정해야하기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 라이브러리를 사용하면 쿼리 매개변수를 더 쉽고 유지보수하기 쉽게 사용할 수 있습니다. 예를 들어, 필드를 포함하고 팝업을 사용하는 GET 요청은 다음과 같이 보일 수 있습니다.
 
@@ -311,7 +549,18 @@ const query = qs.stringify(
 );
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 await request(`/api/articles?${query}`);
@@ -331,7 +580,18 @@ const pages = await client.GET("/pages", {
 
 기본적으로 Strapi 예제에서 qs를 사용하여 개체를 추가할 수 없습니다. 예를 들어, 경로 /에 대해 qs 스타일 쿼리를 추가하고 동적 존 필드 블록에서 사용되는 모든 구성 요소를 채우려면 다음 쿼리를 수행할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const pages = await client.GET("/pages", {
@@ -359,7 +619,18 @@ const pages = await client.GET("/pages", {
 
 기본적으로 openapi-fetch에 복잡한 객체를 쿼리로 전달할 수 없기 때문에 이런 오류가 발생합니다. 그래서 클라이언트에 전달되는 쿼리 객체를 변환하는 역할을 오버라이딩할 수 있습니다. 그래서 openapi-fetch의 querySerializer가 qs를 사용하도록 하는 것이 필요하며, 클라이언트가 생성될 때 이것을 수행할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import createClient from "openapi-fetch";
@@ -389,7 +660,18 @@ export { client };
 
 지금까지 본 내용은 React Server Components와 함께 Next.js를 사용하는 서버에서 데이터를 가져올 때 특히 잘 작동합니다. 그러나 클라이언트 측에서 데이터를 가져오는 것은 종종 조금 더 복잡합니다. 최소한 원하는 것은 데이터 로딩 표시와 실제로 클라이언트에서 데이터를 사용할 수 있는 시기를 알기를 원할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 필요를 충족하면서도 번들 크기가 작은 라이브러리는 tanstack의 react-query입니다.
 
@@ -427,7 +709,18 @@ function Comments({}: IComments) {
 export { Comments };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 react-query에서 queryFn에 promise를 반환하는 함수를 전달해야 합니다. 여기서는 openapi-fetch를 아무데서도 사용하지 않았지만, 여전히 데이터는 Strapi 백엔드에서 직접 생성된 타입 정의를 통해 모두 유형화되어 있습니다.
 
@@ -445,7 +738,18 @@ export async function getComments() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에서 확인하실 수 있듯이 typescript-fetch 클라이언트를 다시 사용하여 형식화된 데이터를 반환하고 있습니다. 그리고 그로 인해 모든 것이 클라이언트 측에서도 형식이 지정되어 있습니다.
 
@@ -455,7 +759,18 @@ export async function getComments() {
 
 Strapi 내에서 생성된 OpenAPI 명세에 기반한 자동 생성된 유형 정의를 활용하는 간단한 fetch를 사용하면 노력이 별로 들지 않지만 많은 가치를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터를 가져오는 부분뿐만 아니라 헤드리스 CMS에서 나오는 빌딩 블록을 반영하는 리액트 컴포넌트를 개발하는 데도 유용합니다.
 
@@ -469,7 +784,18 @@ Strapi 내에서 생성된 OpenAPI 명세에 기반한 자동 생성된 유형 �
 - https://trpc.io/
 - https://docs.strapi.io/dev-docs/api/rest/interactive-query-builder
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 매뉴엘과 연결하세요!
 

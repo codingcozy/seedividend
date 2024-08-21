@@ -3,17 +3,13 @@ title: "UIUX Designer가 되는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How to become a selftaught UI UX designer"
 link: "https://medium.com/@niamh-oshea/how-to-become-a-self-taught-ui-ux-designer-4d0ad113537e"
 isUpdated: true
 ---
-
-
-
-
 
 ## 포괄적인 안내서
 
@@ -23,7 +19,18 @@ UI/UX 디자인 분야에서 숙련될 수 있는 길은 다양한 형태를 띠
 
 # 단계 1: UX 디자인 기초 학습
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용자 경험(UX) 마스터하기는 성공적인 디자인의 핵심입니다. UX 디자인의 원리, 프로세스, 그리고 사용자 상호작용 뒤에 숨은 심리를 이해하는 것이 중요합니다. 스티브 크러그의 "Don't Make Me Think" 같은 주요 서적을 읽는 것 외에도, 저렴하고 무료인 UX 튜토리얼, 강의 및 자료를 찾아보는 것이 기초를 다지는 데 도움이 됩니다.
 
@@ -33,7 +40,18 @@ UI/UX 디자인 분야에서 숙련될 수 있는 길은 다양한 형태를 띠
 
 #단계 3: 적절한 디자인 도구에 투자하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 디자인을 현실로 구현하려면 적절한 UI/UX 소프트웨어에 투자하는 것이 중요합니다. Figma, Sketch, 그리고 Adobe XD와 같은 옵션은 각각 독특한 기능을 제공합니다. 직관적이고 사용자 친화적으로 느껴지는 도구를 선택하는 것이 중요합니다. 예를 들어, Figma는 협업 디자인 및 프로토타이핑 도구로, 현재 디자이너들 사이에서 인기를 얻고 있습니다.
 
@@ -43,7 +61,18 @@ UI/UX 디자인 분야에서 숙련될 수 있는 길은 다양한 형태를 띠
 
 # 단계 5: 피드백 요청하기 (및 배우기)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 피드백을 받아들이는 것, 특히 건설적인 피드백은 성장에 중요합니다. 드리블(Dribbble)과 같은 플랫폼에 작업물을 게시하고 커뮤니티로부터 비평을 받는 것은 귀중한 학습 경험이 될 수 있습니다. 부정적인 피드백은 개선을 촉진시킬 수 있고, 디자인 경력에 긍정적인 영향을 미칠 수 있습니다.
 
@@ -53,7 +82,18 @@ UI/UX 디자인 분야에서 숙련될 수 있는 길은 다양한 형태를 띠
 
 # 자주 묻는 질문 - 스스로 가르친 UI/UX 디자인에 관하여
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1. 내가 스스로 공부해서 UI/UX 디자이너가 될 수 있을까요?
 
@@ -63,7 +103,18 @@ UI/UX 디자인 분야에서 숙련될 수 있는 길은 다양한 형태를 띠
 
 시간은 다양하며, 꾸준한 실습과 학습을 통해 몇 달부터 몇 년 안에 능숙해질 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 3. UI/UX 디자인 분야에서 공식 학위가 꼭 필요할까요?
 
@@ -73,7 +124,18 @@ UI/UX 디자인 분야에서 숙련될 수 있는 길은 다양한 형태를 띠
 
 LinkedIn과 같은 플랫폼을 통한 네트워킹, 산업 행사 참석, 경험이 많은 디자이너들에게 연락하는 것이 멘토를 찾는 효과적인 방법입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 5. UI/UX 디자이너를 위한 필수적인 소프트 스킬은 무엇인가요?
 
@@ -83,7 +145,18 @@ UI/UX 디자이너를 위한 효과적인 커뮤니케이션, 협력 및 디자�
 
 현재의 기술 수준과 상관없이, 스스로 가르치는 UI/UX 디자이너가 되는 여정은 헌신과 끈기가 있다면 이루어질 수 있습니다. 계속된 학습, 기술 개선, 그리고 발전에는 시간이 걸릴 것이라는 이해가 성공에 기여할 것입니다. 성장은 점진적으로 이뤄지며, 지속적인 노력을 통해 UI/UX 디자인을 마스터할 능력이 있습니다. 잘하고 있어요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 제작자: [Niamh]
 

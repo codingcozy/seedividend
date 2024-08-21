@@ -3,16 +3,13 @@ title: "HTML  CSS로 UI 배우기 개발자 여러분, 안녕하세요"
 description: ""
 coverImage: "/assets/img/2024-06-20-LearningUIfromHTMLCSSAnddevelopers_0.png"
 date: 2024-06-20 00:43
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-LearningUIfromHTMLCSSAnddevelopers_0.png
 tag: Tech
 originalTitle: "Learning UI from HTML + CSS. And developers."
 link: "https://medium.com/design-bootcamp/learning-ui-from-html-css-and-developers-67f030529d24"
 isUpdated: true
 ---
-
-
-
 
 UI 디자인의 공식 교육은 종종 화이트 스페이스, 계층 구조 및 색 이론과 같은 시각적 원칙에 중점을 둡니다. 그러나 UI 개발의 중요한 측면은 종종 다른 소스인 개발자들로부터 나옵니다.
 
@@ -22,7 +19,18 @@ UI 디자인의 공식 교육은 종종 화이트 스페이스, 계층 구조 �
 
 # 1. 목업부터 제품으로의 여정
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지인 개발자들이 나에게 한 가지 조언 중 하나는 HTML 및 CSS를 배우는 것이었습니다. 구인 게시물이 HTML과 CSS를 선택 기술로 나열할 수 있지만, 기본적인 이해는 모형과 최종 제품 사이의 간극을 줄이는 데 도움이 되었습니다. UI 요소를 구축하는 기술적 측면을 알게 되면 개발자가 필요로 하는 정보, 구성 요소가 어떻게 구축되고 상태를 변경하는 데 필요한 것을 적어도 기본적으로 이해할 수 있습니다.
 
@@ -32,7 +40,18 @@ HTML과 CSS는 노코드 기술을 이해하는 문을 열어주었습니다. �
 
 ![이미지](/assets/img/2024-06-20-LearningUIfromHTMLCSSAnddevelopers_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 3. 웹사이트 구조
 
@@ -42,7 +61,18 @@ HTML을 계속하면 웹사이트 구조에 대해 더 깊은 이해를 얻게 �
 
 파일 내의 순서를 개발자가 감사하게 여길 수 있는 기회가 있습니다. 의미 있는 이름을 가진 명확하고 조직화된 레이어는 여러분의 삶을 더 쉽게 만들 뿐만 아니라 개발자가 코드에서 이러한 이름을 사용할 수 있게 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 5. 소통
 
@@ -52,7 +82,18 @@ HTML을 계속하면 웹사이트 구조에 대해 더 깊은 이해를 얻게 �
 
 개발자들은 항상 기술적인 도전에 직면합니다. 그들과 함께 일하게되어 감사하게 생각합니다. 사용자의 요구 사항과 기술적 제약 사항을 모두 충족시키는 혁신적인 솔루션을 찾는 것이 더 쉬워지기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 주의: '불가능한' 마음가짐을 피하세요
 
@@ -62,10 +103,21 @@ HTML을 계속하면 웹사이트 구조에 대해 더 깊은 이해를 얻게 �
 
 HTML과 CSS는 들리는 것보다 훨씬 쉬워요. 이것을 배우는 데 일주일 정도를 투자할 가치가 있는지 고민 중이라면 — 낙담하지 마세요. 관련 지식은 YouTube와 다른 플랫폼에서 무료로 제공되고 있어요. 저는 개인적으로 도움이 되는 CSS 제안을 해주는 Visual Studio Code 앱부터 시작하고, Wikipedia 페이지 등의 간단한 웹사이트를 복사해보는 연습을 해보는 것을 추천합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 개발자입니다. 위의 텍스트를 친절한 어조로 한국어로 번역해 드리겠습니다.
 
 다음에 개발자들과 협업할 때는 기억해 주세요 — 그들은 당신의 선생님일 수도 있습니다!
 
-*이 아이디어는 에릭 에반스가 개발한 도메인 주도 설계를 지지합니다.
+\*이 아이디어는 에릭 에반스가 개발한 도메인 주도 설계를 지지합니다.

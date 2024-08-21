@@ -3,17 +3,13 @@ title: "세련된 Gradient CSS Border를 만드는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "The fanciest CSS border you will ever make"
 link: "https://medium.com/@adam-barta/the-fanciest-css-border-you-will-ever-make-5ce8f6bb41c7"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/The-fanciest-CSS-border-you-will-ever-make_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 간단하지만 효과적입니다. 그라데이션 테두리는 JavaScript 없이도 사이트에 스타일을 추가할 수 있습니다. 이것을 만드는 여러 방법이 있습니다. 생소한 border-image 속성을 사용하거나 더 쉽게는 단순한 `background`를 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 유일한 주의점은 두 개의 컨테이너를 서로 중첩해야 한다는 것입니다.
 
@@ -44,7 +51,18 @@ isUpdated: true
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 2. 🔥 Border with reactive glow
 
@@ -54,7 +72,18 @@ isUpdated: true
 
 # 3. 🎉 카드를 투명하게 만들기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 우리가 진짜로 게임을 업하고 멋진 배경 위에 테두리 컨테이너를 표시하고 싶다면 어떻게 될까요?
 
@@ -64,7 +93,18 @@ isUpdated: true
 
 ## ✏️ 만약 SVG로 직접 테두리를 만들면 어떨까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 배경 요소와 컨테이너 중첩을 버리고 원하는 요소 주변에 SVG를 만들어보는 건 어때요?
 
@@ -122,7 +162,18 @@ isUpdated: true
 
 ## 🖱️ 마우스 효과 추가하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 상황이 더 복잡해져서 현재로서는 깊게 파고들지 않겠습니다.
 
@@ -158,4 +209,15 @@ isUpdated: true
 </radialGradient>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

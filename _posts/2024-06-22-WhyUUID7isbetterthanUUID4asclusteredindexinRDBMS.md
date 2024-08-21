@@ -3,16 +3,13 @@ title: "UUID7이 RDBMS에서 클러스터드 인덱스로 UUID4보다 더 나은
 description: ""
 coverImage: "/assets/img/2024-06-22-WhyUUID7isbetterthanUUID4asclusteredindexinRDBMS_0.png"
 date: 2024-06-22 05:23
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-WhyUUID7isbetterthanUUID4asclusteredindexinRDBMS_0.png
 tag: Tech
 originalTitle: "Why UUID7 is better than UUID4 as clustered index in RDBMS"
 link: "https://medium.com/itnext/why-uuid7-is-better-than-uuid4-as-clustered-index-edb02bf70056"
 isUpdated: true
 ---
-
-
-
 
 데이터베이스 색인 소개 기사에서는 데이터베이스 인덱스, 그 종류, 표현 방법 및 사용 사례에 대해 논의했습니다.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 UUID는 `Universally Unique Identifier`의 약자로, 대시로 구분된 문자와 숫자의 32자 시퀀스로 표현되는 128비트 식별자입니다. '8-4-4-4-12' 형식으로 포맷되며, "123e4567-e89b-12d3-a456-426655440000"와 같이 UUID 버전 4의 구조는 각 문자가 '1'에서 'f'까지의 16진수 값을 보여줍니다. 완전히 무작위로 생성되었던지 아니면 유사 난수 생성기를 통해 생성되었던지에 관계없이, UUID 버전 4는 그 독특한 고유성을 유지합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 참고 자료 #2에서 자세한 계산 내용을 찾을 수 있어요.
 
@@ -32,18 +40,31 @@ UUID v7은 UUID v4와 유사한 128비트 식별자로, 문자와 숫자의 32�
 
 ![이미지](/assets/img/2024-06-22-WhyUUID7isbetterthanUUID4asclusteredindexinRDBMS_0.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 왜 UUID를 사용해야 할까요?
 
 UUID와 연속적인 ID를 비교한 장단점을 알아보겠습니다.
 
 - 장점:
+
 1. 충돌 확률 낮음: UUID는 구조상 충돌 확률이 매우 낮아서 서버가 레코드 삽입 전에 ID를 생성할 수 있습니다.
 2. 분산 시스템에 적합: UUID는 분산 데이터베이스 및 시스템에 적합하며 서버에서 독립적으로 생성할 수 있습니다.
 3. 향상된 보안: UUID는 레코드를 익명으로 유지하여 사용자(또는 악성 주체)가 레코드 생성 순서에 대한 정보를 유추하는 것을 방지하여 데이터베이스 보안에 기여합니다.
 
 - 단점:
+
 1. 저장 공간 증가: UUID는 전통적인 ID(예: INT에 4바이트 또는 BIGINT에 8바이트)보다 더 많은 공간(16바이트)을 차지합니다.
 2. 수동 데이터 입력의 어려움: UUID의 복잡성으로 인해 수동 데이터 입력이 어려울 수 있습니다.
 3. 쿼리 성능 감소: 큰 UUID 크기는 쿼리 성능을 감소시킵니다. 레코드 크기의 증가로 인해 데이터베이스 페이지 당 저장되는 레코드가 줄어들어 I/O 작업이 늘어나고 전체적인 성능이 감소합니다.
@@ -51,7 +72,18 @@ UUID와 연속적인 ID를 비교한 장단점을 알아보겠습니다.
 
 # 실험을 시작해봅시다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 개요:
 
@@ -62,7 +94,18 @@ MySQL을 실행하고 구성하며 데이터를 볼륨에 저장하는 docker-co
 
 노드.js 스크립트와 Go를 사용하여 100만 개의 레코드를 하나씩 삽입하여 삽입 성능을 테스트할 것입니다 (대량 사용 시 DB 엔진이 레코드를 정렬하고 실험을 망칠 수 있습니다). Go와 고루틴을 사용하여 여러 서버가 하나의 DB에 연결하여 200만 개의 레코드를 삽입하는 시나리오를 시뮬레이션할 것입니다. 코어 당 1개의 스레드를 실행하여 7개의 스레드를 실행합니다. 도커 데몬을 실행할 코어는 1개가 남도록합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 실험에서는 채팅 데이터베이스를 시뮬레이션했습니다. "chat_messages"라는 테이블 하나만 가지고 있으며 id, chat_id, sender_id, message 및 created_at이라는 열이 있습니다. id, chat_id 및 sender_id의 유형은 데이터를 Integer 또는 UUID v4 또는 UUID v7로 입력하는 방식에 따라 INT에서 BINARY(16)으로 다양합니다.
 
@@ -73,7 +116,18 @@ MySQL을 실행하고 구성하며 데이터를 볼륨에 저장하는 docker-co
 
 ## 단계:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 실험의 개요를 아래와 같이 정리해 봤어요:
 
@@ -96,7 +150,18 @@ MySQL을 실행하고 구성하며 데이터를 볼륨에 저장하는 docker-co
 
 ## 결과:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 노드 프로세스가 100만 개의 레코드를 삽입하는 중입니다:
 UUIDV4: 24345338.406382076
@@ -114,7 +179,18 @@ UUID V4 / UUID V7 비율: 1.0284520799916297
 
 여기서도 UUID V4가 UUID V7보다 3% 더 많은 시간을 소요한 것을 볼 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 7개의 스레드로 5백만 개의 레코드를 삽입하는 MultiThreaded Go 프로그램:
 8개의 코어를 사용하기 때문에 각 스레드를 하나의 코어에 고정시키려고 시도했습니다.
@@ -129,7 +205,18 @@ UUID V4 / UUID V7 백분율: 1.2318757479947573
 
 # UUID v7이 UUID v4보다 왜 더 빨랐을까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 인덱스 지역화:
 
@@ -139,8 +226,18 @@ UUID V4 / UUID V7 백분율: 1.2318757479947573
 
 각 데이터 조각이 페이지에 저장된다고 언급했습니다. 그런 다음 인덱스는 페이지 내에 b+ 트리로 저장됩니다. 이것은 인덱스 내의 키가 정렬되어 있다는 것을 의미합니다. 따라서 새 키를 기존 키 사이에 삽입하는 경우에는 저장된 인덱스의 재조직이 필요합니다. 이 재조직 프로세스에는 여러 페이지를 검색하고 해당 페이지를 읽은 다음 새 페이지를 삽입하면서 다음 및 이전 포인터를 조정하는 작업이 포함될 수 있습니다 (페이지를 분할하는 대신).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Link to WhyUUID7isbetterthanUUID4asclusteredindexinRDBMS_1.png](/assets/img/2024-06-22-WhyUUID7isbetterthanUUID4asclusteredindexinRDBMS_1.png)
 
@@ -150,8 +247,18 @@ UUID V4 / UUID V7 백분율: 1.2318757479947573
 
 ![Link to WhyUUID7isbetterthanUUID4asclusteredindexinRDBMS_3.png](/assets/img/2024-06-22-WhyUUID7isbetterthanUUID4asclusteredindexinRDBMS_3.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앞서 말한 대로, 비순서화된 ID가 성능에 어떤 영향을 미칠 수 있는지 짐작할 수 있게 되었습니다.
 
@@ -161,7 +268,18 @@ UUID v7와 달리, 시간 기반 성격으로 내재적으로 정렬되어 있�
 
 ## 버퍼 풀:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 이 개념이 처음이라면 빠르게 소개해 드리겠습니다.
 데이터베이스 엔진은 우리의 기기에서 다른 실행 중인 프로세스와 마찬가지로 무한한 메모리를 갖고 있지 않습니다. 그들은 OS로부터 고정 크기의 메모리를 요청합니다. 데이터베이스 엔진은 쿼리 최적화, 레코드 구문 분석, 레코드 정렬, 레코드 조인 등 다양한 작업을 수행하는 데 사용됩니다. 하지만 중요한 것은 우리에게 있어서, 이 메모리 위치 중에는 저장소에서 읽은 페이지를 유지하거나 새 레코드를 삽입하기 위한 새 페이지를 생성하는 메모리 파티션인 "버퍼 풀"이 있습니다.
@@ -170,7 +288,18 @@ UUID v7와 달리, 시간 기반 성격으로 내재적으로 정렬되어 있�
 
 우리 문제와 어떤 관련이 있을까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 UUID v4의 병목 현상 핵심입니다. 문제는 ID가 매우 무작위이며 버퍼 풀이 빠르게 가득 차서 매번 레코드가 다른 페이지에 저장됩니다. 따라서 데이터베이스 엔진은 해당 레코드를 가져와야 하는데 버퍼 풀이 가득 찬 경우 몇 개의 페이지를 디스크로 다시 기록하여 공간을 확보해야 합니다. 그리고 바로 옆에 있는 다음 레코드가 방금 기록한 페이지와 다를 수도 있기 때문에 이 작업이 계속 반복됩니다.
 
@@ -181,7 +310,18 @@ UUID v4의 병목 현상 핵심입니다. 문제는 ID가 매우 무작위이며
 이제 이 질문은 매우 쉽게 대답할 수 있는 질문입니다. 데이터베이스에 각 레코드가 페이지에 삽입되고 페이지의 기본 크기는 16 KByte (MySQL) 및 8 KByte (PostgreSQL)로 고정됩니다. INT ID의 경우 레코드 크기는 271 바이트(4 + 4 + 4 + 255 + 4)(INT, INT, INT, VARCHAR(255), TIMES...)입니다. 그러나 UUID의 경우 레코드 크기는 307 바이트(16 + 16 +16 + 255 + 4)입니다.
 페이지 당 더 많은 레코드가 포함될 수 있다는 가정하에, INT ID의 페이지에는 더 많은 레코드가 포함되어 있기 때문에 IO가 적고 속도가 더 빠릅니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 가지 작은 참고사항을 드리자면 타임스탬프 GUID를 추가하는 아이디어는 새로운 것이 아닙니다. UUID v1이 이를 수행했지만 단점이 있었고, Instagram의 ShardingID, Shopify는 UUID v4 대신 ULID를 사용하며, MongoDB ObjectID도 비슷한 방식을 사용합니다.
 
@@ -193,7 +333,18 @@ UUID v4의 병목 현상 핵심입니다. 문제는 ID가 매우 무작위이며
 - 각 인덱스 유형별로 인덱스 B+ 트리의 크기를 확인하고 싶습니다.
 - 단일 연결 대신 데이터베이스 연결 풀을 사용하고 싶습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 참고 자료:
 

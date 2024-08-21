@@ -3,16 +3,13 @@ title: "필수 준비물"
 description: ""
 coverImage: "/assets/img/2024-06-19-Prerequisites_0.png"
 date: 2024-06-19 23:49
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-Prerequisites_0.png
 tag: Tech
 originalTitle: "Prerequisites"
 link: "https://medium.com/@zemmel.mootez/implementing-keycloak-authentication-in-a-next-js-application-0033a6569ec2"
 isUpdated: true
 ---
-
-
-
 
 ## Next.js 어플리케이션에서 Keycloak 인증 구현하기
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 # Prerequisites
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 단계로 넘어가기 전에 다음 사전 요구 사항이 있는지 확인해 주세요:
 
@@ -34,25 +42,35 @@ isUpdated: true
 
 시작하기 전에, 프로젝트의 폴더 구조를 개요로 살펴봅시다. 각 파일이 어디에 속하는지 이해하는 데 도움이 될 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 nextjs-app
 ├── auth
-│   ├── config
-│   │   └── keycloak.js
-│   ├── provider
-│   │   └── KeycloakProvider.js
-│   ├── middleware
-│   │   └── withAuth.js
-│   └── components
-│       └── LogoutButton.js
+│ ├── config
+│ │ └── keycloak.js
+│ ├── provider
+│ │ └── KeycloakProvider.js
+│ ├── middleware
+│ │ └── withAuth.js
+│ └── components
+│ └── LogoutButton.js
 ├── pages
-│   ├── _app.js
-│   └── index.js
+│ ├── \_app.js
+│ └── index.js
 └── public
 └── styles
-    └── globals.css
+└── globals.css
 
 # 단계 1: Keycloak 설정하기
 
@@ -60,25 +78,35 @@ nextjs-app
 
 Keycloak 설정 파일 만들기
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 config 디렉토리에 keycloak.js라는 새 파일을 만들어주세요. 이 파일은 Keycloak 설정과 초기화 로직을 담을 것입니다.
 
 auth/config/keycloak.js
 
 ```js
-import Keycloak from 'keycloak-js';
+import Keycloak from "keycloak-js";
 
 const keycloakConfig = {
-  url: 'http://localhost:8080/auth', // 여러분의 Keycloak URL로 교체해주세요
-  realm: 'your-realm', // 여러분의 Keycloak realm으로 교체해주세요
-  clientId: 'your-client-id', // 여러분의 Keycloak client ID로 교체해주세요
+  url: "http://localhost:8080/auth", // 여러분의 Keycloak URL로 교체해주세요
+  realm: "your-realm", // 여러분의 Keycloak realm으로 교체해주세요
+  clientId: "your-client-id", // 여러분의 Keycloak client ID로 교체해주세요
 };
 
 let keycloak;
 
-if (typeof window !== 'undefined') {
+if (typeof window !== "undefined") {
   keycloak = new Keycloak(keycloakConfig);
 }
 
@@ -88,11 +116,11 @@ export const initKeycloak = () => {
   if (!isInitialized && keycloak) {
     isInitialized = true;
     return keycloak
-      .init({ onLoad: 'login-required', checkLoginIframe: false })
-      .then(authenticated => authenticated)
-      .catch(err => {
+      .init({ onLoad: "login-required", checkLoginIframe: false })
+      .then((authenticated) => authenticated)
+      .catch((err) => {
         isInitialized = false;
-        console.error('Failed to initialize Keycloak', err);
+        console.error("Failed to initialize Keycloak", err);
         throw err;
       });
   }
@@ -111,7 +139,7 @@ export const getToken = async () => {
       try {
         await keycloak.updateToken(30);
       } catch (error) {
-        console.error('Failed to refresh the token', error);
+        console.error("Failed to refresh the token", error);
         keycloak.logout();
         return null;
       }
@@ -126,7 +154,18 @@ export { keycloak };
 
 해설
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Keycloak 구성: 우리는 Keycloak 구성 객체를 정의하여 Keycloak 서버의 URL, realm 및 클라이언트 ID를 지정합니다.
 - Keycloak 초기화: Keycloak를 초기화하기 위해 initKeycloak 함수를 생성합니다. 이 함수를 통해 Keycloak가 한 번만 초기화되도록 합니다.
@@ -139,15 +178,26 @@ Keycloak의 상태를 관리하고 애플리케이션 전체에서 제공하기 
 
 Keycloak 프로바이더 생성하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 auth/provider 디렉토리에 KeycloakProvider.js라는 새 파일을 만들어주세요.
 
 auth/provider/KeycloakProvider.js
 
 ```js
-import React, { createContext, useContext, useEffect, useState } from 'react';
-import { initKeycloak, keycloak, logout } from '../config/keycloak';
+import React, { createContext, useContext, useEffect, useState } from "react";
+import { initKeycloak, keycloak, logout } from "../config/keycloak";
 
 const KeycloakContext = createContext({
   initialized: false,
@@ -162,9 +212,9 @@ export const KeycloakProvider = ({ children }) => {
   const [user, setUser] = useState(null);
 
   useEffect(() => {
-    if (typeof window !== 'undefined') {
+    if (typeof window !== "undefined") {
       initKeycloak()
-        .then(auth => {
+        .then((auth) => {
           setAuthenticated(auth);
           if (keycloak && auth) {
             setUser({
@@ -174,14 +224,12 @@ export const KeycloakProvider = ({ children }) => {
           }
           setInitialized(true);
         })
-        .catch(err => console.error('Failed to initialize Keycloak', err));
+        .catch((err) => console.error("Failed to initialize Keycloak", err));
     }
   }, []);
 
   return (
-    <KeycloakContext.Provider value={{ initialized, authenticated, user, logout }}>
-      {children}
-    </KeycloakContext.Provider>
+    <KeycloakContext.Provider value={{ initialized, authenticated, user, logout }}>{children}</KeycloakContext.Provider>
   );
 };
 
@@ -190,7 +238,18 @@ export const useKeycloak = () => useContext(KeycloakContext);
 
 해당 내용입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 컨텍스트 생성: 우리는 인증 상태를 유지하기 위해 KeycloakContext를 생성하고 애플리케이션에 제공합니다.
 - 제공자 컴포넌트: KeycloakProvider 컴포넌트는 Keycloak을 초기화하고 인증 상태를 관리합니다. 또한 로그아웃 기능과 사용자 정보를 제공합니다.
@@ -202,18 +261,29 @@ export const useKeycloak = () => useContext(KeycloakContext);
 
 인증 미들웨어 생성하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 auth/middleware/withAuth.js 파일을 새로 만들어주세요.
 
 auth/middleware/withAuth.js
 
 ```js
-import React from 'react';
-import { useKeycloak } from '../provider/KeycloakProvider';
+import React from "react";
+import { useKeycloak } from "../provider/KeycloakProvider";
 
-const withAuth = WrappedComponent => {
-  return props => {
+const withAuth = (WrappedComponent) => {
+  return (props) => {
     const { initialized, authenticated } = useKeycloak();
 
     if (!initialized) {
@@ -233,7 +303,18 @@ export default withAuth;
 
 설명
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Higher-Order Component: withAuth HOC은 컴포넌트를 감싸고 사용자가 인증되었는지 확인합니다. 사용자가 인증되지 않은 경우 메시지를 표시하고, 그렇지 않은 경우 감싼 컴포넌트를 렌더링합니다.
 
@@ -243,13 +324,24 @@ export default withAuth;
 
 로그아웃 버튼 만들기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 auth/components/LogoutButton.js 파일을 auth/components 디렉토리에 만들어주세요.
 
 ```js
-import React, { useState, useRef, useEffect } from 'react';
-import { useKeycloak } from '../provider/KeycloakProvider';
+import React, { useState, useRef, useEffect } from "react";
+import { useKeycloak } from "../provider/KeycloakProvider";
 
 const LogoutButton = () => {
   const { logout, user } = useKeycloak();
@@ -261,28 +353,28 @@ const LogoutButton = () => {
   };
 
   useEffect(() => {
-    const handleClickOutside = event => {
+    const handleClickOutside = (event) => {
       if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
         setShowDropdown(false);
       }
     };
 
-    document.addEventListener('mousedown', handleClickOutside);
+    document.addEventListener("mousedown", handleClickOutside);
     return () => {
-      document.removeEventListener('mousedown', handleClickOutside);
+      document.removeEventListener("mousedown", handleClickOutside);
     };
   }, []);
 
   return (
     <div className="relative inline-block text-left">
       <button onClick={toggleDropdown} className="button">
-        {user?.name.charAt(0).toUpperCase() || 'U'}
+        {user?.name.charAt(0).toUpperCase() || "U"}
       </button>
       {showDropdown && (
         <div ref={dropdownRef} className="dropdown">
           <div className="dropdown-content">
-            <p>{user?.name || 'Unknown User'}</p>
-            <p>{user?.email || 'Unknown User'}</p>
+            <p>{user?.name || "Unknown User"}</p>
+            <p>{user?.email || "Unknown User"}</p>
             <button onClick={logout}>Logout</button>
           </div>
         </div>
@@ -294,7 +386,18 @@ const LogoutButton = () => {
 export default LogoutButton;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 상태 관리: 우리는 dropdown 메뉴의 가시성을 관리하기 위해 useState를 사용합니다.
 - 드롭다운 토글: toggleDropdown 함수는 dropdown 메뉴의 가시성을 전환합니다.
@@ -306,14 +409,25 @@ export default LogoutButton;
 
 루트 레이아웃에서 Keycloak 통합하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-pages/_app.js
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+pages/\_app.js
 
 ```js
-import React from 'react';
-import { KeycloakProvider } from '../auth/provider/KeycloakProvider';
-import '../styles/globals.css';
+import React from "react";
+import { KeycloakProvider } from "../auth/provider/KeycloakProvider";
+import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -328,7 +442,18 @@ export default MyApp;
 
 설명
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Keycloak Provider: KeycloakProvider으로 컴포넌트를 감싸면 전체 애플리케이션이 인증 상태에 액세스할 수 있도록 보장합니다.
 
@@ -338,12 +463,23 @@ export default MyApp;
 
 pages/index.js
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-import React from 'react';
-import withAuth from '../auth/middleware/withAuth';
-import LogoutButton from '../auth/components/LogoutButton';
+import React from "react";
+import withAuth from "../auth/middleware/withAuth";
+import LogoutButton from "../auth/components/LogoutButton";
 
 const HomePage = () => {
   return (
@@ -364,7 +500,18 @@ export default withAuth(HomePage);
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 포괄적인 튜토리얼에서는 Next.js 애플리케이션에서 Keycloak 인증을 설정하는 과정을 안내했습니다. 다음 사항을 다루었습니다:
 
@@ -376,6 +523,17 @@ export default withAuth(HomePage);
 
 이러한 단계를 통해 Keycloak을 사용하여 Next.js 애플리케이션을 안전하게 보호하고 강력한 인증 및 액세스 관리 기능을 제공할 수 있습니다. 이 설정을 원하는 대로 사용자 정의하고 확장하여 특정 요구 사항에 맞게 조정하세요. 즐거운 코딩하세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 단계를 따라하면 Keycloak을 사용하여 Next.js 애플리케이션을 안전하게 보호할 수 있습니다. 견고한 인증 및 액세스 관리를 제공합니다. 이 설정을 사용자의 요구 사항에 맞게 사용자 정의하고 확장해도 됩니다. 즐거운 코딩하세요!

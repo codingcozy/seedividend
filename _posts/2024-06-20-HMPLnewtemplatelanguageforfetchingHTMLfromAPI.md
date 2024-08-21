@@ -3,17 +3,13 @@ title: "HMPL  API를 통해 HTML을 가져오는 새로운 템플릿 언어"
 description: ""
 coverImage: "/assets/img/2024-06-20-HMPLnewtemplatelanguageforfetchingHTMLfromAPI_0.png"
 date: 2024-06-20 03:41
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-HMPLnewtemplatelanguageforfetchingHTMLfromAPI_0.png
 tag: Tech
 originalTitle: "HMPL — new template language for fetching HTML from API"
 link: "https://medium.com/@antonmak1/hmpl-new-template-language-for-fetching-html-from-api-6c1d2dd26af6"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-06-20-HMPLnewtemplatelanguageforfetchingHTMLfromAPI_0.png)
 
@@ -23,12 +19,23 @@ hmpl.js의 주요 목표는 작은 요청 구조를 HTML에 통합하여 서버 
 
 이 템플릿 언어를 이용하면 지정된 문자열 템플릿을 반복할 수 있습니다. 코드로 표현하면 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { compile } from "hmpl-js";
 const templateFn = compile(
-   `<div>
+  `<div>
      <request src="/api/test"></request>
    </div>`
 );
@@ -66,7 +73,18 @@ const elementObj = templateFn({
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 템플릿 언어의 구문 자체로 .hmpl 확장자 파일을 사용하여 실용적이고 이해하기 쉬운 프로젝트 파일 구조를 만들고 일반 HTML과 "모듈화된" HTML을 분리하는 것이 가능합니다.
 
@@ -76,7 +94,18 @@ const elementObj = templateFn({
 
 ![이미지](/assets/img/2024-06-20-HMPLnewtemplatelanguageforfetchingHTMLfromAPI_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 작업을 더욱 쉽게 수행할 수 있는 여러 연결 옵션이 있는 모듈입니다:
 
@@ -94,7 +123,18 @@ const elementObj = templateFn({
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹팩 구성 파일
 
@@ -105,15 +145,26 @@ module.exports = {
       {
         test: /\.hmpl$/i,
         use: ["hmpl-loader"],
-      }
-    ]
-  }
-}
+      },
+    ],
+  },
+};
 ```
 
 모듈에 대한 간단한 프로젝트 예시:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 https://github.com/hmpljs/examples
 

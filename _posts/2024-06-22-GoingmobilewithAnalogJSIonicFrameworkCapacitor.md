@@ -3,16 +3,13 @@ title: "AnalogJS  Ionic Framework  Capacitor를 사용해 모바일 앱 개발�
 description: ""
 coverImage: "/assets/img/2024-06-22-GoingmobilewithAnalogJSIonicFrameworkCapacitor_0.png"
 date: 2024-06-22 15:01
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-GoingmobilewithAnalogJSIonicFrameworkCapacitor_0.png
 tag: Tech
 originalTitle: "Going mobile with AnalogJS + Ionic Framework + Capacitor"
 link: "https://medium.com/ngconf/going-mobile-with-analogjs-ionic-framework-capacitor-e773735c95c7"
 isUpdated: true
 ---
-
-
-
 
 ![이미지](/assets/img/2024-06-22-GoingmobilewithAnalogJSIonicFrameworkCapacitor_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 이 게시물에서는 AnalogJS 애플리케이션에 Ionic Framework를 통합하고 두 가지 프레임워크의 혜택을 얻는 데 필요한 단계에 대해 설명하겠습니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 설치
 
@@ -34,7 +42,18 @@ isUpdated: true
 
 아래 명령어를 실행하여 세 가지 패키지를 모두 설치할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm install @ionic/angular@latest ionicons
@@ -48,7 +67,18 @@ npm install -D @ionic/angular-toolkit
 프로젝트 vite.config.ts 파일로 이동하여 Ionic 라이브러리를 SSR 프로세스에서 제외하고 noExternal 속성에 추가하세요.
 다음과 같이 보일 것입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 ssr: {
@@ -65,11 +95,11 @@ ssr: {
 app.component.ts 파일을 업데이트하여 Ionic 앱에 필요한 구조를 포함하도록 하세요.
 
 ```js
-import { Component } from '@angular/core';
-import { IonApp, IonRouterOutlet } from '@ionic/angular/standalone';
+import { Component } from "@angular/core";
+import { IonApp, IonRouterOutlet } from "@ionic/angular/standalone";
 
 @Component({
-  selector: 'demo-root',
+  selector: "demo-root",
   standalone: true,
   imports: [IonApp, IonRouterOutlet],
   template: `<ion-app><ion-router-outlet></ion-router-outlet></ion-app>`,
@@ -77,18 +107,29 @@ import { IonApp, IonRouterOutlet } from '@ionic/angular/standalone';
 export class AppComponent {}
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Angular은 아직 웹 구성 요소와 SSR을 지원하지 않습니다. 그동안 클라이언트 수화 기능을 비활성화해야 합니다. 몇 가지 옵션이 있지만 여기서는 ion-app 구성 요소에 ngSkipHydration 속성을 사용할 겁니다.
 
 간단히 ion-app 태그에 ngSkipHydration 속성을 추가하면 됩니다. 코드는 다음과 같이 보일 것입니다:
 
 ```js
-import { Component } from '@angular/core';
-import { IonApp, IonRouterOutlet } from '@ionic/angular/standalone';
+import { Component } from "@angular/core";
+import { IonApp, IonRouterOutlet } from "@ionic/angular/standalone";
 
 @Component({
-  selector: 'demo-root',
+  selector: "demo-root",
   standalone: true,
   imports: [IonApp, IonRouterOutlet],
   template: `<ion-app ngSkipHydration><ion-router-outlet></ion-router-outlet></ion-app>`,
@@ -98,7 +139,18 @@ export class AppComponent {}
 
 마지막으로 앱에 Ionic 스타일을 추가해야 합니다. 이를 위해 styles.css 파일 이름을 styles.scss로 변경하고 vite.config.ts 파일을 업데이트하여 SCSS를 지원하도록 설정하십시오:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 export default defineConfig(({ mode }) => {
@@ -106,7 +158,7 @@ export default defineConfig(({ mode }) => {
     plugins: [
       analog({
         vite: {
-          inlineStylesExtension: 'scss',
+          inlineStylesExtension: "scss",
         },
       }),
     ],
@@ -128,7 +180,18 @@ export default defineConfig(({ mode }) => {
 
 마지막으로 styles.scss 파일에 Ionic 스타일을 추가합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /* Ionic 컴포넌트가 제대로 작동하려면 필요한 기본 CSS */
@@ -165,6 +228,17 @@ AnalogJS를 Ionic과 Capacitor로 빠르게 시작하고 싶다면, AnalogJS + I
 
 <img src="/assets/img/2024-06-22-GoingmobilewithAnalogJSIonicFrameworkCapacitor_1.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 에두아르도는 히어로데브스에서 일하는 시니어 소프트웨어 엔지니어로, 멕시코 몬테레이에 거주하고 있습니다. 세 아름다운 딸의 아버지이자 남편으로, Angular, Ionic 및 웹 관련 모든 것을 사랑합니다. 그는 OSS 커뮤니티에 자주 기고하며, Angular 커뮤니티 미팅의 스페인 챕터 공동 주최자이자 Google Developer Group 몬테레이 공동 주최자, Ionic 몬테레이 미팅의 주최자, Ionic 개발 전문가, ngChampion이며 Angular GDE가 되기 위한 길을 걷고 있습니다.

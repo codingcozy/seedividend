@@ -3,17 +3,13 @@ title: "프론트엔드 해외 면접 경험 공유2024년"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "SDE -2 Frontend Interview Exp  MMT"
 link: "https://medium.com/@prikshit8/sde-2-frontend-interview-exp-mmt-001828ab6dc5"
 isUpdated: true
 ---
-
-
-
-
 
 인스타헤어를 통해 리쿠루터로부터 전화를 받았어요.
 
@@ -29,7 +25,18 @@ isUpdated: true
 
 2nd question - was to make a higher order component which shows loading for some time and then loads the component. It was sort of React.Suspence polyfill. My solution
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3번 질문은 웹 최적화에 관한 것이었습니다. 웹 페이지에 100개의 컴포넌트를 로드하고 모두 서버에서 데이터를 가져온다면 페이지를 최적화하는 방법에 대해 물었습니다. 그래서 저는 컴포넌트를 lazy load할 수 있다고 말했습니다. 그가 "어떻게?"라고 물었고, 그래서 나도 막혔습니다. 그래서 그가 나에게 새로운 내가 알지 못한 개념을 도와주었습니다. 여기서 intersection observer를 사용해야 한다고 했습니다.
 
@@ -39,7 +46,18 @@ isUpdated: true
 
 2번 질문은 Promises에 기반한 것이었습니다. 무한한 .then을 연쇄적으로 사용하는 방법과 왜 에러 처리에 하나의 catch 문만으로 충분한 이유에 대해 설명해야 했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3번 질문은 바닐라 자바스크립트에서 onclick과 React에서 onClick의 차이점에 대해 기반으로 합니다.
 
@@ -49,7 +67,18 @@ isUpdated: true
 
 3라운드 - 기술 매니저 면접
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1번 질문은 월마트에서의 업무와 월마트에서 도전적으로 수행한 작업 및 시간 제약이 있는 상황에서 어떻게 작업을 완료했는지에 대해 물어보는 내용이었습니다.
 
@@ -59,6 +88,17 @@ isUpdated: true
 
 4번 질문은 웹 바이탈(Web Vitals)이 무엇이며 왜 필요한지에 대한 내용이었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 5번 질문 - 리액트에서 HTML에 JS를 어떻게 작성할 수 있을까요? 바벨 로더, 웹팩, JSX에 대해 설명했습니다.

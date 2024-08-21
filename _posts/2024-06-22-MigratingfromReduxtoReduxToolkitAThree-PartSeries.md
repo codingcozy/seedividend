@@ -3,16 +3,13 @@ title: "Redux에서 Redux Toolkit으로 마이그레이션 3부작 시리즈"
 description: ""
 coverImage: "/assets/img/2024-06-22-MigratingfromReduxtoReduxToolkitAThree-PartSeries_0.png"
 date: 2024-06-22 03:16
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-MigratingfromReduxtoReduxToolkitAThree-PartSeries_0.png
 tag: Tech
 originalTitle: "Migrating from Redux to Redux Toolkit: A Three-Part Series"
 link: "https://medium.com/gitconnected/migrating-from-redux-to-redux-toolkit-a-three-part-series-564b858de3fe"
 isUpdated: true
 ---
-
-
-
 
 ## 파트 1: Redux 및 Typescript를 사용하여 애플리케이션 개발하기
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 이것이 Redux에서 Redux Toolkit으로 마이그레이션하는 가이드를 작성하게 된 계기예요. 앱에 세련된 업그레이드를 해주는 것으로 생각해보세요! 이 튜토리얼은 3부작 시리즈로 이루어져 있을 것입니다: 먼저 전통적인 Redux를 사용하여 앱을 구축한 다음, Redux Toolkit으로 메이크오버할 거예요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단한 GitHub 프로필 찾기 애플리케이션을 만들어 보세요
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 전제 조건
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React와 TypeScript에 대한 좋은 이해도가 있어야 하며, Redux와 Tailwind CSS의 기본 지식이 필요합니다.
 
@@ -43,7 +62,18 @@ GitHub에서 우리 React 앱의 기본 설정을 찾을 수 있습니다.
 
 이 애플리케이션에 필요한 라이브러리를 설치해 봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희는 인터넷 연결에 Axios를 사용하고 앱을 탐색하기 위해 React Router를 사용하며 물론 상태를 유지하기 위해 Redux를 사용할 것입니다. 이 라이브러리들을 설치해 봅시다!!
 
@@ -53,8 +83,18 @@ GitHub에서 우리 React 앱의 기본 설정을 찾을 수 있습니다.
 
 이 폴더 구조를 계속 사용할 것입니다. 함께 따라오고 싶다면 이 튜토리얼과 함께 feature/old-redux 브랜치를 확인해 주세요. 함께 여정을 즐길까요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-22-MigratingfromReduxtoReduxToolkitAThree-PartSeries_3.png)
 
@@ -64,8 +104,18 @@ GitHub에서 우리 React 앱의 기본 설정을 찾을 수 있습니다.
 
 이 파일에서는 네 가지 유용한 메소드를 사용하여 조금의 마법을 부릴 겁니다:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 'fetchTopUsersBySize': 상위 사용자 목록을 가져옵니다.
 - 'fetchUserBySearch': 사용자를 검색합니다.
@@ -73,12 +123,10 @@ GitHub에서 우리 React 앱의 기본 설정을 찾을 수 있습니다.
 - 'fetchRepoBySearch': 이름으로 저장소를 검색합니다.
 
 ```js
-import api from '../api';
+import api from "../api";
 
 export const fetchTopUsersBySize = async (size: number = 30) => {
-  const response = await api.get(
-    `/search/users?q=followers:>1000&sort=followers&order=desc&per_page=${size}`
-  );
+  const response = await api.get(`/search/users?q=followers:>1000&sort=followers&order=desc&per_page=${size}`);
   return response.data;
 };
 
@@ -88,16 +136,12 @@ export const fetchUserBySearch = async (text: string) => {
 };
 
 export const fetchReposByUserName = async (userName: string) => {
-  const response = await api.get(
-    `/users/${userName}/repos?sort=created&direction=desc`
-  );
+  const response = await api.get(`/users/${userName}/repos?sort=created&direction=desc`);
   return response.data;
 };
 
 export const fetchRepoBySearch = async (userName: string, text: string) => {
-  const response = await api.get(
-    `/search/repositories?q=user:${userName}+${text}`
-  );
+  const response = await api.get(`/search/repositories?q=user:${userName}+${text}`);
   return response.data;
 };
 ```
@@ -108,7 +152,18 @@ export const fetchRepoBySearch = async (userName: string, text: string) => {
 - Actions: 발생한 일을 설명하는 일반적인 자바스크립트 객체입니다.
 - Reducers: 현재 상태와 동작을 인자로 받아 새로운 상태를 반환하는 순수 함수입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리덕스 폴더 구조
 
@@ -118,7 +173,18 @@ export const fetchRepoBySearch = async (userName: string, text: string) => {
 
 가장 먼저, 우리 액션을 설정해봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리의 액션 유형을 설정해 봅시다! 액션 유형을 다양한 섹션으로 분할하여 깔끔하게 유지합니다.
 
@@ -197,7 +263,18 @@ export type UserActions =
 - FetchUsersBySearchRequestAction, FetchUsersBySearchSuccessAction, FetchUsersBySearchFailureAction: 검색으로 사용자를 가져오기 위한 유사한 인터페이스입니다.
 - ToggleUserLikeAction: 좋아요 옵션을 전환하는 작업을 위한 인터페이스로, 사용자 ID를 나타내는 숫자 유형의 payload가 포함되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 알림: 계속 진행하기 전에 redux-thunk를 설치해 봅시다.
 
@@ -207,13 +284,24 @@ Redux Thunk는 액션 생성자가 액션 객체 대신 함수를 반환할 수 
 
 이제 우리의 액션 생성자와 thunk 함수를 준비해 봅시다. 이들은 데이터를 가져오고 필요한 액션을 디스패치하는 Redux 설정의 핵심 역할을 담당할 것입니다. 아래는 코드와 각 부분이 하는 역할에 대한 설명입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-import { Users } from '../../types/usersTypes';
-import { fetchTopUsersBySize, fetchUserBySearch } from '../../services';
-import { ThunkAction } from 'redux-thunk';
-import { ApplicationState } from '../../store';
+import { Users } from "../../types/usersTypes";
+import { fetchTopUsersBySize, fetchUserBySearch } from "../../services";
+import { ThunkAction } from "redux-thunk";
+import { ApplicationState } from "../../store";
 import {
   FetchTopUsersRequestAction,
   UsersActionTypes,
@@ -225,23 +313,19 @@ import {
   FetchTopUsersActions,
   FetchUsersBySearchActions,
   ToggleUserLikeAction,
-} from './types';
+} from "./types";
 
 // 액션 생성자
 export const fetchTopUsersRequest = (): FetchTopUsersRequestAction => ({
   type: UsersActionTypes.FETCH_TOP_USERS_REQUEST,
 });
 
-export const fetchTopUsersSuccess = (
-  users: Users
-): FetchTopUsersSuccessAction => ({
+export const fetchTopUsersSuccess = (users: Users): FetchTopUsersSuccessAction => ({
   type: UsersActionTypes.FETCH_TOP_USERS_SUCCESS,
   payload: users,
 });
 
-export const fetchTopUsersFailure = (
-  error: string
-): FetchTopUsersFailureAction => ({
+export const fetchTopUsersFailure = (error: string): FetchTopUsersFailureAction => ({
   type: UsersActionTypes.FETCH_TOP_USERS_FAILURE,
   payload: error,
 });
@@ -250,16 +334,12 @@ export const fetchSearchUsersRequest = (): FetchUsersBySearchRequestAction => ({
   type: UsersActionTypes.FETCH_USERS_BY_SEARCH_REQUEST,
 });
 
-export const fetchSearchUsersSuccess = (
-  users: Users
-): FetchUsersBySearchSuccessAction => ({
+export const fetchSearchUsersSuccess = (users: Users): FetchUsersBySearchSuccessAction => ({
   type: UsersActionTypes.FETCH_USERS_BY_SEARCH_SUCCESS,
   payload: users,
 });
 
-export const fetchSearchUsersFailure = (
-  error: string
-): FetchUsersBySearchFailureAction => ({
+export const fetchSearchUsersFailure = (error: string): FetchUsersBySearchFailureAction => ({
   type: UsersActionTypes.FETCH_USERS_BY_SEARCH_FAILURE,
   payload: error,
 });
@@ -271,9 +351,7 @@ export const toogleUserLike = (userId: number): ToggleUserLikeAction => ({
 
 // Thunk 함수
 export const getTopUsersBySize =
-  (
-    size: number = 30
-  ): ThunkAction<void, ApplicationState, unknown, FetchTopUsersActions> =>
+  (size: number = 30): ThunkAction<void, ApplicationState, unknown, FetchTopUsersActions> =>
   async (dispatch) => {
     dispatch(fetchTopUsersRequest());
     try {
@@ -283,15 +361,13 @@ export const getTopUsersBySize =
       if (error instanceof Error) {
         dispatch(fetchTopUsersFailure(error.message));
       } else {
-        dispatch(fetchTopUsersFailure('Oops something went wrong!!!'));
+        dispatch(fetchTopUsersFailure("Oops something went wrong!!!"));
       }
     }
   };
 
 export const getUsersBySearch =
-  (
-    userName: string
-  ): ThunkAction<void, ApplicationState, unknown, FetchUsersBySearchActions> =>
+  (userName: string): ThunkAction<void, ApplicationState, unknown, FetchUsersBySearchActions> =>
   async (dispatch) => {
     dispatch(fetchSearchUsersRequest());
     try {
@@ -301,7 +377,7 @@ export const getUsersBySearch =
       if (error instanceof Error) {
         dispatch(fetchSearchUsersFailure(error.message));
       } else {
-        dispatch(fetchSearchUsersFailure('Oops something went wrong!!!'));
+        dispatch(fetchSearchUsersFailure("Oops something went wrong!!!"));
       }
     }
   };
@@ -315,7 +391,18 @@ export const getUsersBySearch =
 - fetchSearchUsersRequest, fetchSearchUsersSuccess, 그리고 fetchSearchUsersFailure: 검색을 통해 사용자를 가져오기 위한 유사한 함수들입니다.
 - toggleUserLike: 사용자의 좋아요 상태를 전환하는 액션을 생성합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. Thunk 함수: 이는 비동기 작업을 처리하고 결과에 따라 액션을 디스패치하는 함수들입니다.
 
@@ -326,7 +413,18 @@ export const getUsersBySearch =
 
 다음으로 리듀서를 설정해 봅시다. 여기서 상태 관리가 게임을 시작합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 코드 조각은 애플리케이션의 상태가 Redux 스토어에 전달된 다양한 액션에 대한 응답으로 어떻게 업데이트되는지를 정의하기 때문에 중요합니다. 각 부분이 무엇을 하는지 살펴보겠습니다.
 
@@ -413,7 +511,18 @@ export const usersReducer = (
 - UsersState: 사용자의 Redux 상태의 모양을 정의하며, 데이터가 검색 중인지를 나타내는 loading, 사용자 데이터를 보유하거나 아직 검색되지 않은 경우 null 또는 오류 메시지를 저장하는 error를 포함합니다.
 - initialState: 기본값으로 UsersState를 초기화합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. Reducer Function:
 
@@ -428,13 +537,24 @@ export const usersReducer = (
 
 이 리듀서는 우리 상태의 내비게이터 역할을 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 루트 리듀서를 만들어 봅시다. combineReducers를 사용하여 rootReducer를 생성합니다. combineReducers를 사용하면 Redux 상태의 관리를 간단하게 만들 수 있습니다. 이를 통해 상태 관리 로직을 분리하여 전문화된 리듀서로 분할할 수 있습니다. 우리의 리듀서를 하나의 rootReducer로 결합함으로써, Redux 스토어가 애플리케이션의 다른 부분의 상태를 조직적이고 확장 가능한 방식으로 관리할 수 있도록 합니다.
 
 ```js
-import { combineReducers } from 'redux';
-import { usersReducer } from './userReducer';
+import { combineReducers } from "redux";
+import { usersReducer } from "./userReducer";
 
 // Combine Reducers
 const rootReducer = combineReducers({
@@ -449,12 +569,23 @@ export default rootReducer;
 
 다음으로, 스토어 설정에 대해 자세히 알아보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 그 전에 애플리케이션에서 사용할 액션 유형을 내보내보겠습니다.
 
 ```js
-import { UserActions } from '../actions/users/types';
+import { UserActions } from "../actions/users/types";
 
 export type AppActionTypes = UserActions;
 ```
@@ -500,7 +631,18 @@ export type ApplicationDispatch = ThunkDispatch<
 >;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 창 선언: 우리는 Redux DevTools Extension과 호환되는 저장소를 만들기 위한 전역 인터페이스를 선언하여, 둘 사이의 원활한 통신을 보장합니다.
 - 미들웨어 설정: 우리는 미들웨어 팀을 구성하며 thunk와 loggingMiddleware을 포함시켜, 비동기 작업 및 로깅 활동과 같은 작업을 처리할 준비를 합니다.
@@ -509,57 +651,76 @@ export type ApplicationDispatch = ThunkDispatch<
 - 타입 정의: 마지막으로 rootReducer가 관리하는 Redux 상태의 유형으로 ApplicationState를 정의하고, 디스패치 함수의 유형으로 ApplicationDispatch를 정의하여 Redux 여행 중에 타입 안전성을 보장합니다.
 
 ```js
-import { Middleware } from 'redux';
-import { ApplicationState } from '../store';
+import { Middleware } from "redux";
+import { ApplicationState } from "../store";
 
-const loggingMiddleware: Middleware<object, ApplicationState> =
-  (store) => (next) => (action) => {
-    // 액션을 기록합니다.
-    console.log('Action:', action);
+const loggingMiddleware: Middleware<object, ApplicationState> = (store) => (next) => (action) => {
+  // 액션을 기록합니다.
+  console.log("Action:", action);
 
-    // 액션이 전달되기 전의 현재 상태를 가져옵니다.
-    const prevState = store.getState();
+  // 액션이 전달되기 전의 현재 상태를 가져옵니다.
+  const prevState = store.getState();
 
-    // 액션을 실행합니다.
-    const result = next(action);
+  // 액션을 실행합니다.
+  const result = next(action);
 
-    // 액션이 전달된 후의 상태를 가져옵니다.
-    const nextState = store.getState();
+  // 액션이 전달된 후의 상태를 가져옵니다.
+  const nextState = store.getState();
 
-    // 상태 변경 사항을 기록합니다.
-    console.log('이전 상태:', prevState);
-    console.log('다음 상태:', nextState);
+  // 상태 변경 사항을 기록합니다.
+  console.log("이전 상태:", prevState);
+  console.log("다음 상태:", nextState);
 
-    return result;
-  };
+  return result;
+};
 
 export default loggingMiddleware;
 ```
 
 저장소가 설정되어 있으므로, Redux 상태 관리는 응용 프로그램의 복잡성을 처리할 준비가 되어 있습니다. 이제, 페이지를 구축하기 전에, 우리 전체 응용 프로그램을 `Provider store='store'`로 감싸봅시다. 이렇게 하면 Redux 저장소가 구성 요소 트리의 모든 구성 요소에서 사용할 수 있게 됩니다. store는 Redux 저장소의 인스턴스를 나타내는 속성으로 전달되며, 저장소는 여러분의 Redux 저장소 인스턴스를 나타냅니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 메인.tsx 파일에 이 코드를 추가해주세요.
 
 ```js
 <Provider store={store}>
-      <div className="min-h-screen flex  justify-center bg-gray-100">
-        <div class="w-full max-w-screen-lg m-4 p-4 bg-white rounded shadow-md">
-          <h1 className="text-4xl font-bold text-blue-900 mb-4 tracking-wider uppercase">
-            GitHub Finder
-          </h1>
-          <RouterProvider router={router} />
-        </div>
-      </div>
-    </Provider>
+  <div className="min-h-screen flex  justify-center bg-gray-100">
+    <div class="w-full max-w-screen-lg m-4 p-4 bg-white rounded shadow-md">
+      <h1 className="text-4xl font-bold text-blue-900 mb-4 tracking-wider uppercase">GitHub Finder</h1>
+      <RouterProvider router={router} />
+    </div>
+  </div>
+</Provider>
 ```
 
 이 글이 조금 무거워지고 있는 것 같지만, Redux 상태 관리를 설정하는 데에는 약간의 노력이 필요합니다. 그게 바로 Redux Toolkit이라는 것을 만들었기 때문이죠. 다음 시리즈에서 이에 대해 다룰 예정입니다. 이제 내가 당신의 신뢰를 되찾았길 바라며, 어플리케이션에 대해 살펴봐요!
 
 useSelector와 useDispatch 훅
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React Redux에서 useSelector 및 useDispatch 훅을 사용하면 컴포넌트가 Redux 스토어와 상호작용하는 방법이 간소화됩니다.
 
@@ -569,23 +730,43 @@ useDispatch: 액션을 디스패치하는 데 사용되며, useDispatch를 사�
 
 우리 애플리케이션에서 useSelector 훅을 사용하는 것은 다음과 같이 보입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-const state = useSelector((state:ApplicationState) => state.users);
+const state = useSelector((state: ApplicationState) => state.users);
 ```
 
 매번 ApplicationState를 import하는 것은 조금 귀찮을 수 있습니다. 그래서 대신 전체 애플리케이션에서 사용할 수 있는 사용자 정의 훅을 만드는 것을 선호합니다. 제 사용자 정의 훅은 이렇게 생겼어요:
 
 ```js
-export const useAppSelector: TypedUseSelectorHook<ApplicationState> =
-  useSelector;
+export const useAppSelector: TypedUseSelectorHook<ApplicationState> = useSelector;
 ```
 
 코드에서 단축키를 만드는 것과 비슷한데요 — 누가 코딩에서 단축키를 좋아하지 않겠어요? 😉
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비슷하게, 우리 애플리케이션에서 useDispatch 훅을 사용하는 것은 다음과 같습니다:
 
@@ -599,23 +780,30 @@ const dispatch = useDispatch<ApplicationDispatch>();
 export const useAppDispatch: () => ApplicationDispatch = useDispatch;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 사용자 정의 훅을 사용할 수 있게 되었으니, 이제 사용자 목록 페이지 구축에 집중해 보겠습니다. Redux 상태에 접근하기 위한 useAppSelector 및 액션을 디스패치하기 위한 useAppDispatch를 사용하여 원활한 사용자 경험을 만들 준비가 되었습니다. 시작해 봅시다!
 
 ```js
-import React, { useEffect } from 'react';
-import SearchBox from '../components/SearchBox';
-import {
-  getTopUsersBySize,
-  getUsersBySearch,
-  toggleUserLike,
-} from '../redux/actions/users/actions';
-import Loading from '../components/Loading';
-import Error from '../components/Error';
-import { NavLink } from 'react-router-dom';
-import { useAppDispatch, useAppSelector } from '../hooks/hooks';
-import LikeButton from '../components/LikeButton';
+import React, { useEffect } from "react";
+import SearchBox from "../components/SearchBox";
+import { getTopUsersBySize, getUsersBySearch, toggleUserLike } from "../redux/actions/users/actions";
+import Loading from "../components/Loading";
+import Error from "../components/Error";
+import { NavLink } from "react-router-dom";
+import { useAppDispatch, useAppSelector } from "../hooks/hooks";
+import LikeButton from "../components/LikeButton";
 
 const Home: React.FC = () => {
   const { loading, users, error } = useAppSelector((state) => state.users);
@@ -639,33 +827,22 @@ const Home: React.FC = () => {
         </div>
       </div>
       <hr />
-      <h2 className="text-2xl text-blue-700 font-bold my-4">
-        Users - {users?.total_count}
-      </h2>
+      <h2 className="text-2xl text-blue-700 font-bold my-4">Users - {users?.total_count}</h2>
       {loading ? (
         <Loading />
       ) : error ? (
         <Error message={error} />
       ) : (
-        <div
-          className="flex-grow  overflow-y-auto"
-          style={{ maxHeight: 'calc(100vh - 300px)' }}
-        >
+        <div className="flex-grow  overflow-y-auto" style={{ maxHeight: "calc(100vh - 300px)" }}>
           <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
             {users?.items.map((user) => (
               <li
                 key={user.login}
                 className="flex items-center space-x-4 p-4 bg-white rounded shadow hover:shadow-lg transition-shadow"
               >
-                <img
-                  src={user.avatar_url}
-                  alt={`${user.login} avatar`}
-                  className="w-16 h-16 rounded-full"
-                />
+                <img src={user.avatar_url} alt={`${user.login} avatar`} className="w-16 h-16 rounded-full" />
                 <div className="flex flex-col gap-0.5">
-                  <span className="text-lg text-blue-950 font-medium">
-                    {user.login}
-                  </span>
+                  <span className="text-lg text-blue-950 font-medium">{user.login}</span>
                   <div className="flex gap-2">
                     <NavLink
                       className="underline underline-offset-2 text-orange-500 hover:text-orange-600"
@@ -674,10 +851,7 @@ const Home: React.FC = () => {
                       View repos
                     </NavLink>
                     <div>
-                      <LikeButton
-                        liked={!!user.isLiked}
-                        toggleLike={() => dispatch(toggleUserLike(user.id))}
-                      />
+                      <LikeButton liked={!!user.isLiked} toggleLike={() => dispatch(toggleUserLike(user.id))} />
                     </div>
                   </div>
                 </div>
@@ -698,9 +872,18 @@ export default Home;
 
 더 많은 라우팅 코드는 제 저장소에서 확인하실 수 있습니다
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금 애플리케이션을 실행하면, 위대한 사용자 목록 페이지가 나타납니다! 축하해요, 성공했어요! 🎉 이 코드를 자유롭게 조작하고 도전하여 자체 Repository 페이지를 구현해 보세요. 그리고 기억하세요, 올바른 방향으로 가는 데 조금의 도움이 필요하다면, 우리의 저장소가 도와드릴 준비가 되어 있어요. 지금 바로 들어가서 새로 만든 것을 탐험해 보세요!
 

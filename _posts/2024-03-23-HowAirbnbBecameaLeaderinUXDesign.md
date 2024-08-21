@@ -3,17 +3,13 @@ title: "에어비앤비가 UX 디자인을 모든 대기업이 따라하는 이�
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How Airbnb Became a Leader in UX Design"
 link: "https://blog.prototypr.io/how-airbnb-became-a-leader-in-ux-design-7d8ab8ad803e"
 isUpdated: true
 ---
-
-
-
-
 
 작은 숙박 및 조식이 제공되었던 창업자의 전세 집에서 시작해 수십억 달러 규모의 다국적 숙박 회사가 된 에어비앤비 - 그들의 성공에 핵심적인 역할을 한 것 중 하나는 디자인입니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이번에 에어비앤비가 디자인 배경을 가진 리더 덕분에 성공한 것은 처음이 아닙니다. 그들은 브랜드 디자인을 위해 인기 있는 디자인 스튜디오인 런던 디자인스튜디오를 고용하고, 자체 내부 혁신과 디자인 스튜디오인 "사마라"를 론칭한 것으로 알려져 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사마라는 종종 전 애플 디자이너와 리더를 고용해 프로젝트를 이끌었어요. 애플의 DNA가 에어비앤비의 디자인에 스며들기 시작했고, 이 경우에는 정말 대단한 움직임이었죠.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ![이미지](/assets/img/How-Airbnb-Became-a-Leader-in-UX-Design_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 에어비앤비의 초기 경영 연도에서의 방향 전환을 빠르게 보여주는 첫 번째 디자인은 매우 뚜렷합니다. 첫 번째 웹사이트는 제공하는 서비스를 자연스럽게 전달하는 데 어려움을 겪지만, 독특한 그래픽은 웹사이트에 약간의 개성을 더해줍니다. 최신 웹사이트는 분명히 더 상업적이며 일부 산업 표준 디자인을 따르고 있습니다.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 ## — 사용자를 중요한 부분으로 이끄는 것
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/How-Airbnb-Became-a-Leader-in-UX-Design_2.png" />
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 또한 레이아웃의 일관된 그리드 형식을 알아차릴 수 있습니다. 이는 웹 사이트가 반응형으로 유지되는데 도움을 주면서 더 나은 계층구조를 가지게 해줍니다. 그들은 또한 타이포그래피를 수정하여 웹 사이트 전체적으로 1–2 산세리프 폰트에 집중하도록 했습니다. 이제 이 웹 사이트는 대학 프로젝트가 아닌 실제 회사 웹 사이트 같은 느낌이 듭니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 세상이 모바일 우선으로 변하다 — 그들의 모바일 앱이 등장합니다
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 사실, 안드루의 첫 번째 에어비앤비 앱을 자랑하는 TechCrunch 인터뷰 비디오를 찾아보았습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인터뷰만으로도 회사의 방향과 디지털 플랫폼이 어떤 방향으로 나아가는지를 알 수 있어요. Andrew는 명확한 디자인에 집중하고, 고객들이 원하는 것을 아는 능력과 호스트-게스트 관계를 디지털적으로 균형있게 유지하는 것에 초점을 맞추고 계셨어요.
 
@@ -73,7 +124,18 @@ isUpdated: true
 
 ![Airbnb UX 디자인 리더가 된 비결](/assets/img/How-Airbnb-Became-a-Leader-in-UX-Design_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나는 현실적인 버튼 디자인을 정말 좋아해서 가격표가 멋진 포인트라고 생각해.
 
@@ -83,7 +145,18 @@ isUpdated: true
 
 # 그들의 처음으로 나아가는 큰 걸음 — “Belo”
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![에어비앤비](/assets/img/How-Airbnb-Became-a-Leader-in-UX-Design_5.png)
 
@@ -93,7 +166,18 @@ isUpdated: true
 
 많은 경우 “회사 리브랜딩”이 따르는 디자인 변경이 그들의 디지털 존재 전반에 걸쳐 많이 이루어집니다. 그들의 앱과 웹사이트는 화면에 있는 정보 양을 수용하기 위해 거대하게 발전했으며, 더욱 깔끔하고 미니멀한 성격을 띄었는데, 이는 점점 커지는 미니멀 디자인 트렌드를 따르기 위한 것이기도 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/How-Airbnb-Became-a-Leader-in-UX-Design_6.png" />
 
@@ -108,7 +192,18 @@ isUpdated: true
 
 # 프로젝트 사마라 소개
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![How-Airbnb-Became-a-Leader-in-UX-Design_7](/assets/img/How-Airbnb-Became-a-Leader-in-UX-Design_7.png)
 
@@ -118,7 +213,18 @@ Joe Gebbia에 관해 썼던 걸 기억하시나요? 디자인 사고를 이사�
 
 그들은 연구소같은 접근 방식을 취했으며, 자신들의 실험이 결국 공개되지 않는다 해도 지속적으로 실험을 했습니다. 이들의 첫 실험인 "요시나 스다 하우스"가 이를 뛰어난 예시입니다. 이것은 전시되었지만 출시되지는 않았습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Airbnb의 대표적인 디자인 소식](/assets/img/How-Airbnb-Became-a-Leader-in-UX-Design_8.png)
 
@@ -128,7 +234,18 @@ Joe Gebbia에 관해 썼던 걸 기억하시나요? 디자인 사고를 이사�
 
 에어비앤비가 디자인에 더 많이 투자할 수 없을 것 같다고 생각했다면, 2020년에 그들은 전설적인 애플 디자이너 존이브에 의해 설립된 디자인 스튜디오 Lovefrom을 고용했습니다. (Jony Ive에 의한 lovefrom)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Jony Ive는 iPhone, iPod, iPad, iMac 등을 설계하기 위해 Steve Jobs와 밀접하게 협력한 사람입니다.
 
@@ -138,7 +255,18 @@ Jony는 Airbnb에서 디자인 팀을 성장시키는 책임을 맡았고, 여�
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1400/1*0TwpgqUeYD2-H4QT5rctwA.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 브라이언 체스키라는 회사의 공동 창업자가 트위터(X)에 짧은 비디오를 게시했고, 여기에서 앱에 추가될 새로운 기능 몇 가지를 소개했습니다. 그러나 디자이너들이 주목한 점은 3D 일러스트와 모션에 대한 새로운 접근 방식입니다.
 
@@ -148,7 +276,18 @@ Jony는 Airbnb에서 디자인 팀을 성장시키는 책임을 맡았고, 여�
 
 # 에어비앤비가 인공지능을 사용하고 있나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단한 대답은, 네.
 
@@ -158,7 +297,18 @@ AI 기술을 활용한 최초의 공개 기능 중 하나가 최근에 호스트
 
 위 애니메이션은 그들이 3D 디자인에 진입한 것을 강조합니다. 축하 애니메이션은 3D "공"과 종이접개가 돌아다니는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 창의성을 펼치는 법
 
@@ -166,7 +316,18 @@ AI 기술을 활용한 최초의 공개 기능 중 하나가 최근에 호스트
 
 그 중 하나인 Airbnb.design은 이러한 창의적 프로젝트 중 일부를 전시하며, 그 뒤를 이어가는 블로깅 스타일의 게시물을 제공합니다. 또한 UX 연구나 포괄적 디자인이 됐든 자신들의 몇 가지 사례 연구를 공개했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 에어비앤비는 기사와 케이스 스터디뿐만 아니라 비디오, 특별 프로젝트, 심지어 다가올 에어비앤비 이벤트를 발표하는 곳입니다. 그들은 뉴스레터도 있어요!
 

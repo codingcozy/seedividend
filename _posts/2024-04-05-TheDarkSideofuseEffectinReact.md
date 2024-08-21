@@ -3,17 +3,13 @@ title: "리액트에서 useEffect를 맘대로 사용하면 안되는 이유"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "The Dark Side of useEffect in React"
 link: "https://medium.com/gitconnected/the-dark-side-of-useeffect-in-react-5edd9e97cabf"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/TheDarkSideofuseEffectinReact_0.png" />
 
@@ -46,7 +42,18 @@ export default DarkSideOfUseEffect;
 
 거의 모든 React 개발자들이 적어도 한 번 이 오류를 저질렀을 것이고, 이 실수는 원치 않는 무한 루프와 메모리 누수를 일으켜 여러분의 애플리케이션을 붕괴시킬 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 교묘하게 숨어있는 오류는 useEffect 블록에 있습니다. 우리는 의존성 배열을 포함하여 이를 수정합니다. 이 의존성 배열은 React에게 다음과 같이 말합니다:
 
@@ -62,7 +69,18 @@ useEffect(() => {
 
 이 글이 여러분이 useEffect 훅을 다시 잘못 사용하지 않도록 충분한 두려움을 주기를 희망합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼 이제 더 이상 말이 필요 없죠!
 
@@ -72,7 +90,18 @@ useEffect(() => {
 
 API를 다운시킴과 동시에, React 앱이 AWS와 같은 곳에 호스팅되어 있고 제한이 없다면 상당한 비용이 들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 코드는 잘못되었고 API를 무한히 호출하게 됩니다: (❌이렇게 하지 마세요❌)
 
@@ -103,7 +132,18 @@ useEffect(() => {
 }, []);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2. 무한 UI 깜빡임
 
@@ -133,7 +173,18 @@ function FlickeringComponent() {
 export default FlickeringComponent;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 문제를 해결하기 위해 의존성 배열을 빈 배열 []로 교체할 수 있습니다.
 
@@ -159,7 +210,18 @@ export default StableComponent;
 
 이 새로운 코드는 이제 무한 루프를 방지하고 예상대로 작동할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 3. 채팅 애플리케이션에서의 경합 조건
 
@@ -200,7 +262,18 @@ function ChatComponent({ roomId }) {
 export default ChatComponent;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 컴포넌트는 처음 봤을 때는 정확해 보이지만, useEffect 내부에 논리적 오류가 있어서 메시지 배열이 완전히 덮어씌워질 수 있습니다.
 
@@ -241,7 +314,18 @@ function ChatComponent({ roomId }) {
 export default ChatComponent;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 결론
 
@@ -251,7 +335,18 @@ useEffect 훅을 잘못 사용한 세 가지 맥락적 예제에 대해 논의�
 
 # 주요 기사
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 제휴 업체
 
@@ -264,7 +359,18 @@ useEffect 훅을 잘못 사용한 세 가지 맥락적 예제에 대해 논의�
 
 # 참조
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - [https://www.w3schools.com/react/react_useeffect.asp](https://www.w3schools.com/react/react_useeffect.asp)
 - [https://react.dev/reference/react/useEffect](https://react.dev/reference/react/useEffect)

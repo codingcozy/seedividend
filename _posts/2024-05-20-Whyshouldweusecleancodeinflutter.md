@@ -3,16 +3,13 @@ title: "Flutter에서 clean code를 작성하는 방법"
 description: ""
 coverImage: "/assets/img/2024-05-20-Whyshouldweusecleancodeinflutter_0.png"
 date: 2024-05-20 23:18
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-20-Whyshouldweusecleancodeinflutter_0.png
 tag: Tech
 originalTitle: "Why should we use clean code in flutter?"
 link: "https://medium.com/@sanjaysharmajw/why-should-we-use-clean-code-in-flutter-6d6fb204f269"
 isUpdated: true
 ---
-
-
-
 
 ![image](/assets/img/2024-05-20-Whyshouldweusecleancodeinflutter_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 깨끗한 코드는 이해하기 쉽고 수정하기 쉽습니다. 코드베이스가 커질수록 잘 구성되고 이해하기 쉬운 코드를 가지고 있으면 버그를 수정하고 새로운 기능을 추가하기가 더 쉬워집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // .......................코드 작성이 잘못된 부분............................
@@ -98,7 +106,18 @@ class HomePage extends StatelessWidget {
 
 깔끔한 코드는 더 읽기 쉽고 이해하기 쉽습니다. 이는 코드가 작성되기보다는 더 자주 읽히기 때문에 중요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // .......................작성된 코드가 좋지 않습니다............................
@@ -132,9 +151,19 @@ void _updateProfileInDatabase(User user) {
 3. 확장성
 
 프로젝트가 확장될수록, 깨끗한 코드는 코드베이스의 품질을 저하시키지 않고 새로운 기능을 추가하는 것을 더 쉽게 만듭니다.
-  
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // ..........잘못 작성된 코드.........
@@ -190,7 +219,18 @@ void _handleUnknownAction() {
 
 깔끔한 코드는 더 직관적으로 코드를 추적하고 실행 흐름을 이해하기 쉬워져 디버깅을 단순화합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 잘못 작성된 코드:
 
@@ -232,7 +272,18 @@ void _processOrderDetails(Order order) {
 
 추가 예시: 변수
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // ........잘못 작성된 코드......
@@ -267,25 +318,34 @@ String getUserName() {
 
 클래스:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 // ......잘못 작성된 코드....
 
 class MyClass {
-  // ...
+// ...
 }
 
 // ........깔끔한 코드..........
 
 class VideoList {
-  // ...
+// ...
 }
 
 class UserAccount {
-  // ...
+// ...
 }
-
 
 ## 결론
 
@@ -293,7 +353,17 @@ Flutter에서 깔끔한 코드를 사용하면 코드베이스가 유지 가능�
 
 <img src="/assets/img/2024-05-20-Whyshouldweusecleancodeinflutter_1.png" />
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사를 즐겁게 보셨기를 바라요! 제공된 정보를 감사하게 여기신다면, 'Buy Me A Coffee'로 저를 지원할 수 있어요! 여러분의 센스에 감사드릴 거예요!

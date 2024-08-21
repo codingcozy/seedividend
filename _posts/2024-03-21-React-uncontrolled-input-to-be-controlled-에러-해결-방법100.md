@@ -3,17 +3,13 @@ title: "React uncontrolled input to be controlled 에러 해결 방법(무조건
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # React 'uncontrolled input to be controlled.' 에러 해결 방법(100% 됨)
 
@@ -21,14 +17,23 @@ isUpdated: true
 
 React를 개발하다보면 인풋을 사용할 때 onChange시 이런 에러를 만나는 경우가 있습니다.
 
-
 Warning: A component is changing an uncontrolled input to be controlled.
 This is likely caused by the value changing from undefined to a defined value, which should not happen.
 Decide between using a controlled or uncontrolled input element for the lifetime of the component.
 More info: https://reactjs.org/link/controlled-components
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-03-21-React-uncontrolled-input-to-be-controlled-에러-해결-방법(100)-1.png" width="500" />
 
@@ -50,7 +55,18 @@ export default useInput;
 
 저는 위와 같이 useInput 훅을 만들어 사용중이었는데, 위 훅을 사용하면 에러가 발생했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 원인
 
@@ -63,7 +79,18 @@ export default useInput;
 
 위 에러를 해결하려면 아래와 같이 value를 받아서 useState의 초기 값에 넣어주면 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { useState } from "react";

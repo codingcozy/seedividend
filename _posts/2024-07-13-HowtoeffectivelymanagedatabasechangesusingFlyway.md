@@ -3,16 +3,13 @@ title: "Flyway로 데이터베이스 변경 효과적으로 관리하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-13-HowtoeffectivelymanagedatabasechangesusingFlyway_0.png"
 date: 2024-07-13 20:54
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-HowtoeffectivelymanagedatabasechangesusingFlyway_0.png
 tag: Tech
 originalTitle: "How to effectively manage database changes using Flyway"
 link: "https://medium.com/itnext/how-to-effectively-manage-database-changes-using-flyway-6a4c6a727f42"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-07-13-HowtoeffectivelymanagedatabasechangesusingFlyway_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 데이터 스키마는 소프트웨어와 함께 진화하며 새로운 기능 및 버그 수정이 적용됩니다. 소프트웨어 개발자는 소프트웨어 개발 및 배포 과정에서 소프트웨어 및 데이터베이스 스키마의 버전을 유지합니다. 데이터베이스 변경 사항을 유지하는 수동 프로세스는 예전에는 잘 작동했지만 개발이 느리고 폭포수 모델이었을 때였습니다. 그러나 현대 소프트웨어 개발에서는 새로운 기능을 자주 출시하는 빠른 프로세스로 변화하면서 소프트웨어가 혼란스러워지고 제어를 벗어납니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문제는 데이터베이스의 변경 배포가 응용 프로그램 코드와 다르다는 점입니다. 도커와 쿠버네티스의 보급 덕분에, 현대 소프트웨어 배포는 단순히 기존 인스턴스를 제거하고 최신 버전을 롤아웃하는 것으로 이루어지지만, 전체 데이터베이스를 정리하고 새로운 데이터 스키마를 다시 구축하는 것은 재앙이 될 수 있습니다! 따라서 접근 방식이 다릅니다. 기존 데이터를 보존하면서 데이터베이스에 델타 변경을 적용합니다.
 
@@ -30,7 +38,18 @@ isUpdated: true
 
 데이터 변경을 관리하기 위해 수동 프로세스에 의존하는 것은 고통스럽고 오류 발생 가능성이 높습니다. 작은 실수라도 전체 시스템을 망칠 수 있기 때문에 계획하고 리허설하는 데 시간이 걸립니다. 마찬가지로, 전체 데이터베이스를 다시 구축해야 하는 경우, 예를 들어 새로운 테스트 환경을 설정하는 것은 모든 델타 변경을 기준 스키마로 통합하는 것이 쉽지 않기 때문에 번거로운 작업일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 데이터베이스 버전 관리
 
@@ -42,7 +61,18 @@ isUpdated: true
 - 데이터 스키마 변경 이력 추적
 - 대상 버전까지 데이터 스키마 재구성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 다이어그램은 데이터베이스 변경 관리 및 배포 프로세스를 설명합니다. 개발자들은 GitHub와 같은 저장소에 스키마 변경 스크립트를 유지합니다. 배포 시에는 데이터베이스 마이그레이션을 위해 Flyway의 명령줄을 실행합니다. "마이그레이션"은 데이터베이스에 변경을 적용하는 것을 의미합니다.
 
@@ -52,7 +82,18 @@ Flyway는 데이터베이스 스키마 히스토리를 확인하여 실행할 �
 
 이 글에서는 Flyway의 사용법과 예시 그리고 데이터베이스 변경 관리에 대해 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Flyway 한눈에 보기
 
@@ -64,11 +105,33 @@ Flyway는 개발자 친화적이며, 여러 유형의 설정을 제공합니다 
 docker run --rm flyway/flyway
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 마크다운 형식으로 변경해 주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 도커 컴포즈 정의가 있어요. 빠르게 참고하세요:
 
@@ -103,11 +166,22 @@ services:
 
 데모 레포지토리에는 스키마 설정을 위한 스크립트 세트가 함께 있어요:
 
-- V1__add_product_table.sql
-- V2__add_customer_table.sql
-- V3__drop_product_remarks_column.sql
+- V1\_\_add_product_table.sql
+- V2\_\_add_customer_table.sql
+- V3\_\_drop_product_remarks_column.sql
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Flyway는 명령줄 도구입니다. 실행이 완료되면 도커 컨테이너가 종료됩니다. 우리는 Flyway에게 최신 버전까지 사용 가능한 데이터 스키마 스크립트를 적용하도록 migrate 명령을 실행하도록 지시합니다.
 
@@ -125,7 +199,18 @@ flyway/flyway:latest migrate
 
 Flyway가 3개의 데이터 스키마 스크립트를 적용하는 것을 나타내는 출력 메시지가 표시됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-13-HowtoeffectivelymanagedatabasechangesusingFlyway_4.png" />
 
@@ -135,7 +220,18 @@ http://localhost:8080으로 이동하여 docker compose 파일에 지정된 암�
 
 <img src="/assets/img/2024-07-13-HowtoeffectivelymanagedatabasechangesusingFlyway_5.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 새로운 스키마 변경 사항 이전하기
 
@@ -145,19 +241,41 @@ Flyway를 통해 고객 테이블에 account_type이라는 새로운 열을 추�
 ALTER TABLE customer ADD COLUMN account_type char(1);
 ```
 
-SQL 스크립트를 Flyway에 등록하려면 파일 이름 규칙인 V[버전]__[설명].sql에 따라 등록하면 됩니다. [버전]은 V1.1, V1_1, V202401 등과 같이 언더스코어('_') 또는 점('.')이 포함된 번호일 수 있습니다.
+SQL 스크립트를 Flyway에 등록하려면 파일 이름 규칙인 V[버전]\__[설명].sql에 따라 등록하면 됩니다. [버전]은 V1.1, V1_1, V202401 등과 같이 언더스코어('_') 또는 점('.')이 포함된 번호일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 버전과 설명 사이의 구분자는 2개의 밑줄 문자로 이름 지정 규칙에 따라 변경해주세요.
 
-스크립트를 V3.1__add_customer_account_type.sql로 저장하고 sql 폴더에 넣어두세요.
+스크립트를 V3.1\_\_add_customer_account_type.sql로 저장하고 sql 폴더에 넣어두세요.
 
 이제 Flyway migrate 명령어를 실행하세요.
 
 이 명령은 폴더 안의 스크립트 파일을 flyway_schema_history 테이블의 현재 버전과 비교합니다. V3.1이 더 최신 버전이므로 데이터베이스에 스키마 변경이 적용됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-13-HowtoeffectivelymanagedatabasechangesusingFlyway_6.png" />
 
@@ -167,8 +285,18 @@ SQL 스크립트를 Flyway에 등록하려면 파일 이름 규칙인 V[버전]_
 
 flyway_schema_history에 새 항목이 삽입되었으며 더 높은 버전 V3.1이 적용되었음을 나타냅니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Database Changes](/assets/img/2024-07-13-HowtoeffectivelymanagedatabasechangesusingFlyway_8.png)
 
@@ -196,12 +324,22 @@ CREATE TABLE product (
 );
 ```
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-베이스라인 버전의 파일 네이밍 규칙은 B[버전]__[설명].sql입니다.
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
-스크립트를 B3__initial_schema.sql로 저장하세요. 현재 도커 컨테이너를 제거하고 다시 생성하세요:
+베이스라인 버전의 파일 네이밍 규칙은 B[버전]\_\_[설명].sql입니다.
+
+스크립트를 B3\_\_initial_schema.sql로 저장하세요. 현재 도커 컨테이너를 제거하고 다시 생성하세요:
 
 ```js
 > docker compose down
@@ -210,8 +348,18 @@ CREATE TABLE product (
 
 Flyway 마이그레이션 명령을 실행하고 메시지가 2개의 마이그레이션이 완료되었다고 나옵니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Flyway](/assets/img/2024-07-13-HowtoeffectivelymanagedatabasechangesusingFlyway_9.png)
 
@@ -221,8 +369,18 @@ Flyway 마이그레이션 명령을 실행하고 메시지가 2개의 마이그�
 
 # 마이그레이션 오류 처리
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스크립트 이관 오류가 발생한 경우 Flyway는 이를 히스토리 테이블에 기록합니다. 오류가 수정될 때까지 다른 버전의 이관을 허용하지 않습니다.
 
@@ -231,20 +389,31 @@ Flyway 마이그레이션 명령을 실행하고 메시지가 2개의 마이그�
 ```js
 # V4__insert_customers.sql
 
-INSERT INTO customer (id, name, email, phone_no, address, account_type) 
+INSERT INTO customer (id, name, email, phone_no, address, account_type)
 VALUES ('A001', 'Martha J. Turnbow', 'MarthaJTurnbow@dayrep.com', '661-638-7358', '3078 Atha Drive, Bakersfield, CA 93301', 'A');
 ```
 
 Flyway migrate를 실행하여 V4 SQL 스크립트를 적용하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼 다시 동일한 주 키로 다른 고객을 추가하는 V4.1 스크립트를 만들어보세요:
 
 ```js
 # V4.1__insert_customer_again.sql
 
-INSERT INTO customer (id, name, email, phone_no, address, account_type) 
+INSERT INTO customer (id, name, email, phone_no, address, account_type)
 VALUES ('A001', 'Michael L. Riche', 'MichaelLRiche@armyspy.com', '203-667-5345', '32727 Asylum Avenue, Stamford, CT 06995', 'B');
 ```
 
@@ -252,7 +421,18 @@ Flyway를 다시 실행하여 새 버전을 적용하세요. 앗! 중복 주 키
 
 <img src="/assets/img/2024-07-13-HowtoeffectivelymanagedatabasechangesusingFlyway_11.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오류는 히스토리 테이블에도 기록됩니다. V4.1 항목의 success 필드는 "0"으로 오류를 의미합니다.
 
@@ -262,7 +442,18 @@ Flyway를 다시 실행하여 새 버전을 적용하세요. 앗! 중복 주 키
 
 오류를 수정하려면 수리 명령을 실행하십시오.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 docker run --rm \
@@ -279,8 +470,18 @@ flyway/flyway:latest repair
 
 V4.1이 히스토리 테이블에서 제거되었기 때문에 SQL 스크립트를 수정하고 다시 마이그레이션을 실행할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-13-HowtoeffectivelymanagedatabasechangesusingFlyway_14.png)
 
@@ -290,8 +491,18 @@ V4.1이 히스토리 테이블에서 제거되었기 때문에 SQL 스크립트�
 
 최신 버전 V4로, 이전 버전 V3.1을 기반으로 데이터베이스를 다시 만들어 봅시다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, 기존 MySQL 컨테이너를 중지하고 다시 생성하기 위해 도커 명령어를 실행하세요.
 
@@ -310,7 +521,18 @@ flyway/flyway:latest migrate
 
 마이그레이션이 V3.1까지 적용되었습니다. 새 버전의 모든 데이터 스크립트들은 무시됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-13-HowtoeffectivelymanagedatabasechangesusingFlyway_15.png" />
 
@@ -329,7 +551,18 @@ flyway/flyway:latest -target="3.1" migrate
 
 # 마지막으로 생각해보면
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Flyway는 데이터베이스 변경 버전 관리를 쉽게 도와주는 간단한 도구입니다. 데이터베이스에 SQL 스크립트를 직접 실행하는 대신 Flyway를 통해 SQL 스크립트를 적용하면 버전 관리와 감사 기능을 제공받을 수 있습니다. 새로운 데이터베이스를 프로비저닝할 때(예: 테스트 또는 로컬 개발 환경), Flyway 명령 하나로 필요한 모든 데이터베이스 스키마 및 구성 데이터를 손쉽게 설정할 수 있습니다.
 

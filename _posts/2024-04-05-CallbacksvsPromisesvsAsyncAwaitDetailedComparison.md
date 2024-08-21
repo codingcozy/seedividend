@@ -3,17 +3,13 @@ title: "콜백 vs 프로미스 vs Async Await 자세한 비교 정리"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Callbacks vs Promises vs Async Await Detailed Comparison"
 link: "https://medium.com/womenintechnology/callbacks-vs-promises-vs-async-await-detailed-comparison-d1f6ae7c778a"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/CallbacksvsPromisesvsAsyncAwaitDetailedComparison_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 콜백
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 콜백(callback)은 다른 함수에 인수로 전달되어 특정 작업이 완료되면 실행되는 함수들입니다.
 
@@ -43,7 +50,18 @@ fetchData((result) => {
 
 콜백 지옥(callback hell) 문제: 여러 비동기 작업이 있는 경우 문제가 발생합니다. 중첩 구조를 형성하여 코드를 읽기 어렵고 복잡하게 만듭니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 콜백의 장점
 
@@ -55,7 +73,18 @@ fetchData((result) => {
 - 여러 개의 비동기 작업을 다룰 때 복잡해져서 콜백 지옥에 빠질 수 있습니다.
 - 코드가 복잡해지고 이해하기 어려워져 에러 처리가 어려운 작업입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 프라미스
 
@@ -81,7 +110,18 @@ fetchData()
 
 위의 코드에서는 fetchData() 함수를 포함하고 있는데, 해당 함수는 프라미스를 반환합니다. 프라미스가 해결되면 결과가 표시되며, 거부되면 catch 블록이 실행되어 오류가 표시됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Promise 체이닝:
 
@@ -102,7 +142,18 @@ fetchData()
 
 프로미스의 장점
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Promises는 체이닝을 제공하여 콜백 지옥의 주요 문제를 해결합니다. 이는 코드를 더 읽기 쉽고 깔끔하게 만듭니다.
 - Promises를 사용하면 .catch()를 사용하여 에러 처리를 개선할 수 있습니다.
@@ -113,7 +164,18 @@ Promises의 단점
 
 # Async/Await
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비동기/대기는 프로미스 위에 구축된 기능으로, 더 나은 성능을 위해 만들어졌습니다. 더 간결하고 동기식과 유사한 방식으로 비동기 프로그램을 작성할 수 있습니다. await 키워드는 항상 async 함수 범위 내에서 사용됩니다.
 
@@ -142,7 +204,18 @@ getData();
 
 비동기/대기의 장점:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 비교
 
@@ -155,7 +228,18 @@ getData();
 
 - 오래된 버전에서의 지원이 제한적입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 성능: 비교해봤을 때, 프로미스와 async/await은 콜백에 비해 약간의 오버헤드가 발생합니다. 이는 추상화 레이어 때문인데, 그 차이는 거의 무의미합니다.
 - 가독성 및 유지보수성: Async/await이 가장 읽기 쉽고 유지보수하기 쉬운 코드를 제공하며, 그 다음으로 프로미스가 따릅니다. 그러나 콜백은 콜백 지옥에 빠지기 쉽습니다.
@@ -170,7 +254,18 @@ getData();
 
 # 이주 및 적용
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Callbacks에서 Promises로의 이전: 향상된 가독성과 에러 핸들링을 위해 콜백 기반 코드를 Promises로 다시 작성합니다.
 - Promises에서 Async/Await로의 이전: Promises를 Async/Await로 변환하여 더 깔끔하고 동기적인 코드를 완성합니다.

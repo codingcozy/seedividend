@@ -3,16 +3,13 @@ title: "리액트 컨퍼런스 2024 내용 정리"
 description: ""
 coverImage: "/assets/img/2024-05-20-ReactConf2024Highlights_0.png"
 date: 2024-05-20 22:12
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-20-ReactConf2024Highlights_0.png
 tag: Tech
 originalTitle: "React Conf 2024 Highlights"
 link: "https://medium.com/javascript-in-plain-english/react-conf-2024-highlights-b7cc29fb5109"
 isUpdated: true
 ---
-
-
-
 
 이번년도의 React Conf에서는 React 및 React Native 팀 및 커뮤니티로부터의 흥미로운 발표와 업데이트가 가득했습니다. 컨퍼런스가 종료되면서 React 개발의 미래를 위한 중요한 하이라이트를 살펴보겠습니다.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 ![ReactConf2024Highlights_1.png](/assets/img/2024-05-20-ReactConf2024Highlights_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React 19가 공식적으로 릴리스 후보 단계에 진입했습니다. 안정적인 릴리스는 다가오는 몇 주 안에 예정되어 있습니다. 새 버전은 향상된 기능, 성능 향상, 그리고 현대적인 개발 관행과 더 잘 호환되는 기능을 약속하고 있습니다. 더 많은 정보를 알고 싶다면 Alexander Savelyev의 기사를 방문해주세요.
 
@@ -32,7 +40,18 @@ React 19가 공식적으로 릴리스 후보 단계에 진입했습니다. 안�
 
 중요한 움직임으로 React 팀이 React 컴파일러를 오픈 소스로 공개했습니다. 이 도구는 React 애플리케이션을 최적화하기 위해 React 코드를 매우 효율적인 JavaScript로 변환하여 애플리케이션의 로드 시간을 줄이고 런타임 성능을 향상시키는 것을 목표로 하고 있습니다. 더 많은 정보를 알고 싶다면 React 컴파일러 워킹 그룹 리포지토리를 방문해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # React Native의 새로운 아키텍처가 베타 버전으로 출시되었습니다
 
@@ -42,8 +61,18 @@ React Native는 새로운 아키텍처를 소개했으며 이제 베타 버전�
 
 # 새로운 React Native 앱을 위해 추천하는 Expo
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![](/assets/img/2024-05-20-ReactConf2024Highlights_4.png)
 
@@ -53,8 +82,18 @@ The React Native team officially recommends using Expo for all new React Native 
 
 ![](/assets/img/2024-05-20-ReactConf2024Highlights_5.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 구성 요소를 사용하면 서버 및 클라이언트 측에서 UI 구성 요소를 렌더링하여 다양한 플랫폼에서 성능 및 리소스 활용을 최적화할 수 있습니다. 자세한 내용은 Universal React Server Components에 대한 내 기사를 방문해 보세요.
 
@@ -64,7 +103,18 @@ The React Native team officially recommends using Expo for all new React Native 
 
 흥미로운 소식! Remix와 React Router가 통합되었습니다. 이 통합은 React 애플리케이션의 라우팅을 통합하여 React 프로젝트에서 라우트를 효율적이고 간소화된 방법으로 관리하는 것을 목표로 합니다. 더 많은 정보를 원하시면 Shopify의 기사를 방문해 보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # RedwoodJS가 이제 서버 컴포넌트를 지원합니다
 
@@ -74,7 +124,18 @@ RedwoodJS는 React 기반의 의견이 강한 풀 스택 및 서버리스 웹 �
 
 # Pigment CSS
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![ReactConf2024Highlights_8](/assets/img/2024-05-20-ReactConf2024Highlights_8.png)
 
@@ -84,9 +145,20 @@ Pigment CSS는 React 애플리케이션의 스타일링에 대한 새로운 표�
 
 React Native는 TV 애플리케이션 및 공간 컴퓨팅에 대한 향상된 지원으로 거실 및 그 이상으로 그 영역을 확장하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-빌드 엑스포 앱들을 TV용으로 만들어 보세요 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+빌드 엑스포 앱들을 TV용으로 만들어 보세요
 
 리액트 네이티브 visionOS
 
@@ -94,8 +166,18 @@ React Native는 TV 애플리케이션 및 공간 컴퓨팅에 대한 향상된 �
 
 # 보너스 발표
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![ReactConf2024Highlights_9](/assets/img/2024-05-20-ReactConf2024Highlights_9.png)
 
@@ -105,9 +187,18 @@ React Native는 TV 애플리케이션 및 공간 컴퓨팅에 대한 향상된 �
 
 React Native를 위한 새 홈페이지가 론칭되었습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![ReactConf 2024 Highlights](/assets/img/2024-05-20-ReactConf2024Highlights_11.png)
 
@@ -117,8 +208,18 @@ React Native를 위한 새 홈페이지가 론칭되었습니다.
 
 제 LinkedIn에서 언제든지 연락주시기 바랍니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 친절한 한국어 번역 🚀
 

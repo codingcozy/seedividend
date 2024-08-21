@@ -3,16 +3,13 @@ title: "수평으로 이미지 뒤집기 Tailwind CSS를 활용해보세요"
 description: ""
 coverImage: "/assets/img/2024-06-20-HowtoFlipanImageHorizontallywithTailwindCSS_0.png"
 date: 2024-06-20 05:50
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-HowtoFlipanImageHorizontallywithTailwindCSS_0.png
 tag: Tech
 originalTitle: "How to Flip an Image Horizontally with Tailwind CSS"
 link: "https://medium.com/@awaitdeveloper/how-to-flip-an-image-horizontally-with-tailwind-css-7144e55c464b"
 isUpdated: true
 ---
-
-
-
 
 만약 웹 사이트에서 이미지가 다른 방향을 향하도록 만드는 방법이 궁금했던 적이 있나요? 왼쪽을 보고 있는 사람의 사진이 있고, 그 사람이 오른쪽을 응시하고 있는 것처럼 보이도록 하고 싶은 경우가 있을 수 있습니다. 그런데, 좋은 소식이 있어요! Tailwind CSS를 사용하면 쉽게 할 수 있어요!
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 원더랜드에서 앨리스가 발견한 것처럼, 축소와 확대 대신에 뒤집히는 마법의 스케일을 상상해보세요! 바로 scale-x-[-1] 유틸리티 클래스가 하는 역할입니다. 해당 클래스를 이미지 요소에 적용하면, 순식간에 왼쪽에서 오른쪽으로 얼굴이 변경됩니다! 시급한 때에는 완벽한 빠른 해결책이죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <img class="w-20 h-20 scale-x-[-1]" src="path/to/image.jpg" alt="Flipped Character">
@@ -36,8 +44,18 @@ Method 2: 변화하는 터치
 <img class="w-20 h-20 transform scaleX(-1)" src="path/to/image.jpg" alt="Precisely Flipped Character">
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![How to Flip an Image Horizontally with Tailwind CSS](/assets/img/2024-06-20-HowtoFlipanImageHorizontallywithTailwindCSS_1.png)
 
@@ -49,7 +67,18 @@ Method 2: 변화하는 터치
 <img class="w-20 h-20 scale-x hover:scale-x-[-1]" src="이미지/경로.jpg" alt="인터랙티브하게 뒤집힌 캐릭터">
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 감을 잃지 마세요, 용감한 웹사이트 설계자님! 창의적 정신과 기술적 능력에 부합하는 방법을 선택하세요. 그리고 이러한 도구들을 활용하면 잘못된 측면의 한계로 제한받지 않게 될 거에요. 자신감을 가지고 나아가세요!
 

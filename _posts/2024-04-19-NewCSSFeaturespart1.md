@@ -3,17 +3,13 @@ title: "2024년에 추가된 새로운 CSS 기능"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "New CSS Featurespart 1"
 link: "https://medium.com/@vivekjaiskumar/new-css-features-part-1-29556917bf77"
 isUpdated: true
 ---
-
-
-
-
 
 # SASS와 같은 CSS 중첩
 
@@ -23,7 +19,18 @@ CSS 중첩은 하나의 요소의 스타일 규칙을 다른 요소 내부에서
 
 중첩을 사용하면 관련된 스타일을 그룹화하고 중첩 구조로 CSS를 작성할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시:
 
@@ -33,7 +40,18 @@ CSS 중첩은 하나의 요소의 스타일 규칙을 다른 요소 내부에서
 
 ## 구문
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /* 스타일을 적용할 순서를 지정합니다 */
@@ -56,8 +74,18 @@ CSS 중첩은 하나의 요소의 스타일 규칙을 다른 요소 내부에서
 
 <img src="/assets/img/NewCSSFeaturespart1_0.png" />
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 갭
 
@@ -98,7 +126,18 @@ gap: revert-layer;
 gap: unset;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 gap 프로퍼티는 두 가지 값을 취할 수 있어요: 행 값 (다시 말해, 요소들 사이의 행 간격)과 열 값 (요소들 사이의 열 간격): gap: `행 간격` `열 간격`
 
@@ -108,7 +147,18 @@ gap 프로퍼티는 두 가지 값을 취할 수 있어요: 행 값 (다시 말�
 
 여백 없이 갭
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 브라우저 지원율: 96.39%
 

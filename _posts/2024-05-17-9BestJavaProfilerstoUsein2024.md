@@ -3,16 +3,13 @@ title: "2024년에 가장 인기 있는 최고의 자바 프로파일러 9가지
 description: ""
 coverImage: "/assets/img/2024-05-17-9BestJavaProfilerstoUsein2024_0.png"
 date: 2024-05-17 03:16
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-17-9BestJavaProfilerstoUsein2024_0.png
 tag: Tech
 originalTitle: "9 Best Java Profilers to Use in 2024"
 link: "https://medium.com/javarevisited/9-best-java-profilers-to-use-in-2024-cc5d21f46f00"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-05-17-9BestJavaProfilerstoUsein2024_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 도와줄 Java 프로파일러를 찾기 시작했을 때 여러 가지가 있음을 깨달았고, 그 중 YourKit을 시도하기로 결정했어요. YourKit은 인기 있는 강력한 프리미엄 Java 프로파일러로 Java 애플리케이션을 위해 설계되었답니다. 프로파일러 설정은 그동안 들었던 소문과는 달리 꽤 쉬웠어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로파일러를 시작하여 어떤 애플리케이션이 내 앱을 느리게 만드는지 알아보려고 했어요. 도구가 정말 잠재력이 있는 것을 깨달았지만 문제가 어디인지 실제로 정확히 파악하는 데 많은 시간이 걸리고 정말 어렵다는 걸 깨달았어요. 데이터를 받은 후에는 호출 트리를 직접 살펴보고 결론을 내려야 해서 분석하기가 어려웠어요.
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 이 블로그에서는 왜 프로파일러를 시작하기로 결정했는지, 자바 앱을 프로파일링하기에 적합한 프로파일러 목록, 그리고 Digma Continuous Feedback이 프로파일러의 데이터를 분석하고 결론을 도출하는 데 어떻게 도움이 되었는지를 공유할 거예요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 자바 프로파일러란?
 
@@ -42,7 +61,18 @@ isUpdated: true
 
 그러므로 자바 프로파일러는 JVM 수준에서 자바 바이트 코드 구조와 작업을 확인하는 도구입니다. 이 프로그래밍 구조와 작업에는 객체 생성, 프로세스 반복(재귀적 함수 호출 포함), 메소드 실행, 스레드 실행 및 가비지 수집이 포함됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Java Profiler 종류
 
@@ -52,7 +82,18 @@ isUpdated: true
 
 # Java 프로파일러의 사용 사례
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Java 프로파일링 도구는 기본적으로 세 가지 방법으로 사용할 수 있어요:
 
@@ -62,7 +103,18 @@ Java 프로파일링 도구는 기본적으로 세 가지 방법으로 사용할
 
 테스트: Java 프로파일러는 다양한 시나리오에서 프로그램 성능을 평가할 수 있어요. 예를 들어 다양한 입력 크기나 사용자 수를 고려한 테스트에 사용할 수 있어요. 이를 통해 프로그램이 출시되기 전에 잠재적인 성능 문제를 인식할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 자바 프로파일러는 어떻게 작동하나요?
 
@@ -72,7 +124,18 @@ JVM은 자바 개발자가 실행 중인 JVM(Java Virtual Machine)에 에이전�
 
 자바에서 코드 프로파일링은 내장 도구와 제3자 도구를 포함한 다양한 도구를 통해 달성할 수 있습니다. 애석하게도 인기 있는 일부 도구는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - JVM 도구
 - Digma
@@ -90,7 +153,18 @@ OpenTelemetry와 Java Flight Recorder (JFR)는 대부분의 경우를 커버합�
 
 이 Java 프로파일링 도구는 표준 JDK와 함께 제공되어 별도의 설치나 설정이 필요하지 않습니다. 대략 다섯 가지가 있습니다: jstat, jmap, jcmp, jhat 및 hprof.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 a. jstat
 이 내장 명령줄 도구는 표준 JDK와 함께 제공되며 설치나 설정이 필요하지 않습니다. 명령줄을 통해 JVM 메모리, 힙 크기, 그리고 가비지 수집 활동을 모니터링하는 것은 매우 유익합니다.
@@ -101,7 +175,18 @@ a. jstat
 
 미리 정의된 성능 제약 조건을 사용하여 Java 프로그램을 실행합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 java -Xmx125m -Xms25m -Xmn15m -XX:PermSize=30m -XX:MaxPermSize=30m -XX:+UseSerialGC HelloWorld
@@ -115,7 +200,18 @@ ps aux | grep java
 
 JVM Heap Memory 사용량을 모니터링하려면 터미널에서 jstat을 -gc 옵션과 함께 실행하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 jstat -gc 98132 17527
@@ -127,7 +223,18 @@ b. jmap
 
 이 명령줄 도구는 표준 JDK에 포함되어 있습니다. 라이브 VM 또는 코어 파일에 대한 메모리 관련 데이터(heap summary, java object heap histogram, class loader stats, finalization queue info, dump of Java heap in hprof binary format)를 표시합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기본 구성 및 알고리즘을 분석하는 것은 특히 유익합니다.
 
@@ -137,7 +244,18 @@ b. jmap
 
 jhsdb jmap –-heap `JAVA_PID`
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해당 명령을 사용하여 힙 덤프(heap dump)를 생성할 수도 있어요.
 
@@ -146,7 +264,18 @@ jhsdb jmap — -dump:file=`FILE` `JAVA_PID`
 c. jcmp
 이 명령행 도구는 표준 JDK와 함께 제공되며 별도의 설치나 설정 절차가 필요하지 않아요. JVM에 진단 명령을 보내는 데 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 jcmd `JAVA_PID` GC.heap_dump filename=`FILE`
 
@@ -156,7 +285,18 @@ jcmd `JAVA_PID` GC.heap_dump filename=`FILE`
 
 이 도구는 Heap Analysis Tool (HAT)을 대신합니다. jcmd에 의해 생성된 힙 덤프와 같은 이진 형식의 힙 덤프를 처리합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 도구는 Java의 메모리 누수와 유사한 의도하지 않은 객체 연결을 식별하는 데도 도움을 줄 수 있습니다. (루트셋에서 참조되어 있는 객체)
 
@@ -166,7 +306,18 @@ jcmd `JAVA_PID` GC.heap_dump filename=`FILE`
 
 프로파일링 데이터를 파일이나 소켓을 통해 ASCII 또는 이진 형식으로 기록합니다. 힙 할당 통계, 힙 덤프, CPU 사용량, JVM 내의 모든 모니터 및 스레드의 상태, 경합 프로필에 대한 정보를 제공할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 java –agentlib:hprof HelloWorld
@@ -180,8 +331,18 @@ javac –J-agentlib:hprof=heap=sites HelloWorld.java
 
 아래 명령을 사용하여 힙 덤프를 생성할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 javac -J-agentlib:hprof=heap=dump HelloWorld.java
@@ -193,8 +354,18 @@ Digma는 OTEL을 사용하여 자동으로 수집한 관측 데이터에 의존�
 
 몇 가지 예시를 살펴보겠습니다:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 앱에 가장 많은 영향을 미치는 코드/쿼리를 찾아보세요(성능 영향).
 
@@ -204,7 +375,18 @@ a. 가장 성능에 영향을 많이 주는 코드를 찾으려면 자산 탭에
 
 이 뷰는 개발자에게 가치 있는 정보를 제공합니다. 성능 문제로 최적화가 필요할 수 있는 엔드포인트를 빠르게 파악할 수 있습니다. 실행 시간과 성능 영향의 조합을 통해 문제 해결에 우선순위를 두고 개발에 집중할 수 있어 전체 애플리케이션의 성능과 신뢰성을 향상시킬 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 b. 또는 대시보드를 여시고, 클라이언트 스팬 성능 영향 위젯을 사용해보세요:
 
@@ -214,7 +396,18 @@ b. 또는 대시보드를 여시고, 클라이언트 스팬 성능 영향 위젯
 
 2. 최근 커밋에서 성능 저하 식별하기 ― 지속 시간의 변화
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-05-17-9BestJavaProfilerstoUsein2024_5.png)
 
@@ -224,7 +417,18 @@ b. 또는 대시보드를 여시고, 클라이언트 스팬 성능 영향 위젯
 
 중앙값 기간: 중앙값 기간이 최근 변경되었습니다(16.19밀리초 증가). 빨간색은 최근 변경 사항을 나타내며, 이는 성능의 저하 또는 개선을 나타낼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 성능 분포: 히스토그램 자체는 호출 지속 시간의 빈도를 표시하여 개발자가 다양한 성능 시간의 공통성을 빠르게 파악할 수 있습니다. 특정 호출 지속 시간 범위가 얼마나 자주 발생하는지 보여줍니다.
 
@@ -233,10 +437,20 @@ b. 또는 대시보드를 여시고, 클라이언트 스팬 성능 영향 위젯
 이 통찰력을 활용하여 개발자는 코드의 성능을 시간이 지남에 따라 추적할 수 있습니다. 시각화는 증가하는 지연과 같은 트렌드를 식별하는 데 도움이 되며, 이는 메모리 누수, 비효율적인 데이터베이스 쿼리 또는 다른 리소스 충돌 문제와 같은 잠재적인 문제를 나타낼 수 있습니다. 최근 변경 사항을 나타내는 빨간 블록은 최근 코드 변경이나 배포 업데이트와 성능 변화를 상관시켜 주어 더 즉각적인 조사를 유도하는 데 특히 유용합니다.
 
 3. 스케일링 문제 찾기를 위한 프로파일링 - 스케일링 통찰력
-Digma는 코드의 확장성에 대한 통찰력을 제공하여, 응용프로그램의 확장 가능성을 방해할 수 있는 잠재적인 문제를 식별합니다.
+   Digma는 코드의 확장성에 대한 통찰력을 제공하여, 응용프로그램의 확장 가능성을 방해할 수 있는 잠재적인 문제를 식별합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Java Profiler](/assets/img/2024-05-17-9BestJavaProfilerstoUsein2024_6.png)
 
@@ -246,8 +460,18 @@ Digma는 코드의 확장성에 대한 통찰력을 제공하여, 응용프로�
 
 동시성 정보는 시스템이 동시적인 프로세스나 스레드를 처리할 때 문제가 발생하는 것을 개발자에게 알립니다. 이는 응용프로그램이 병렬 처리를 처리하거나 응용프로그램이 이 수준의 동시성에서 최적으로 작동하도록 필요한 리소스가 할당되지 않는 문제를 시사할 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시간 소요: 넓은 범위는 일부 조건에서 응답 시간이 크게 증가할 수 있는 것을 시사합니다. 이는 처리 병목, 비효율적인 알고리즘, 데이터베이스 쿼리 성능 또는 다른 시스템 제약 때문일 수 있습니다.
 
@@ -257,7 +481,18 @@ Digma는 코드의 확장성에 대한 통찰력을 제공하여, 응용프로�
 
 이 도구는 Java Development Kit (JDK)의 일부였지만 JDK 8에서 제거되었으며, 현재는 별도의 도구로 제공됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 Java 프로파일러는 CPU 샘플링, 메모리 샘플링, 가비지 수집 실행, 힙 오류 분석, 스냅샷 촬영 및 그래픽 사용자 인터페이스를 위해 편리합니다.
 
@@ -267,8 +502,18 @@ VisualVM은 프로파일링 세션의 스냅샷을 나중에 분석할 수 있�
 
 VisualVM은 JConsole, jstat, jinfo, jstack 및 jmap과 같은 JDK와 함께 제공되는 독립적인 도구에 의존합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![VisualVM](/assets/img/2024-05-17-9BestJavaProfilerstoUsein2024_7.png)
 
@@ -280,19 +525,39 @@ VisualVM은 JConsole, jstat, jinfo, jstack 및 jmap과 같은 JDK와 함께 제�
 java -Xmx125m -Xms25m -Xmn15m -XX:PermSize=30m -XX:MaxPermSize=30m -XX:+UseSerialGC HelloWorld
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 터미널에서 jvisualvm을 실행하여 JVM 힙 메모리 사용량을 모니터링해보세요.
 
-
 jvisualvm
-
 
 다음으로, Java VisualVM 프로그램이 실행됩니다. Tools > Plugins로 이동하여 Visual GC 플러그인을 다운로드하세요. (다른 플러그인들도 표시될 것입니다. 필요한 것들을 사용할 수 있습니다.)
 
 # 4. Yourkit
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 YourKit Java Profiler은 다양한 플랫폼과 호환되며 Windows, MacOS, Linux, Solaris 및 FreeBSD와 같은 각 지원 운영 체제에 대한 구별된 설치를 제공합니다.
 
@@ -302,7 +567,18 @@ JProfiler와 마찬가지로 YourKit에는 스레드, 가비지 수집, 메모�
 
 ![](/assets/img/2024-05-17-9BestJavaProfilerstoUsein2024_8.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신의 킷은 발생한 예외를 분석하는 데도 유용합니다. 발생한 예외를 식별하고 빈도를 파악하는 것은 간단합니다.
 
@@ -312,7 +588,18 @@ JProfiler와 마찬가지로 YourKit에는 스레드, 가비지 수집, 메모�
 
 # 5. JProfiler
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Markdown 형식은 JProfiler을 사용하여 Java 애플리케이션의 프로파일링을 수행할 수 있는 ej-technologies의 도구입니다. JProfiler에는 메모리 사용량, 시스템 성능, 잠재적인 메모리 누수, 그리고 스레드 프로파일링을 모니터링하기 위한 인터페이스가 제공되며 사용자 친화적인 사용자 인터페이스를 통해 제공됩니다.
 
@@ -322,7 +609,18 @@ JProfiler은 Java 애플리케이션의 프로파일링 도구이며 ej-technolo
 
 이 정보를 통해 시스템의 기초에서 최적화, 제거 또는 수정할 부분을 쉽게 식별할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-05-17-9BestJavaProfilerstoUsein2024_9.png" />
 
@@ -335,7 +633,18 @@ JProfiler은 Java 애플리케이션의 프로파일링 도구이며 ej-technolo
 
 JProfiler는 IntelliJ IDEA, 이클립스, NetBeans와 같은 잘 알려진 IDE와 통합될 수 있습니다. 사용자는 스냅샷에서 실제 소스 코드로 이동할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 6. NetBeans Profiler
 
@@ -345,7 +654,18 @@ JProfiler는 IntelliJ IDEA, 이클립스, NetBeans와 같은 잘 알려진 IDE�
 
 프로파일러와 디버거의 기능을 결합하면 코드 실행 시간 및 런타임 동작을 모니터링하고 멀티스레딩과 같은 디버깅 방법의 효율을 향상시킬 수 있습니다. 넷빈스 프로파일러는 응용 프로그램의 속도를 향상시키고 메모리 효율성을 향상시킵니다. 무료로 해당 웹사이트에서 다운로드할 수 있다는 것이 멋집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Java VisualVM과 Netbeans Profiler은 기능 면에서 유사하며 둘 다 무료입니다. 그러나 Netbeans는 IDE와 함께 모든 기능을 제공하는 번들 프로그램으로 더 뛰어납니다.
 
@@ -355,8 +675,18 @@ IntelliJ Profiler는 CPU 및 메모리 할당 프로파일링을 위한 간편�
 
 일부 고급 기능이 제공되지만, 기본적으로 간편함에 중점을 둡니다. IntelliJ Profiler는 설치 없이 쉽게 시작할 수 있는 간단한 방법을 제공하며 일상적인 개발 작업에 유용한 도구를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Java Profiler](/assets/img/2024-05-17-9BestJavaProfilerstoUsein2024_11.png)
 
@@ -366,8 +696,18 @@ IntelliJ IDEA Ultimate에서 IntelliJ Profiler를 Java 프로세스에 쉽게 �
 
 이 Java 프로파일링 도구는 최소한의 오버헤드가 있으며 Safepoint 편견 문제를 회피할 수 있어요. HotSpot을 위한 스택 추적 및 메모리 할당 모니터링을 위한 특정 API가 포함되어 있어요. 이 프로파일러는 HotSpot JVM을 사용하는 OpenJDK 및 다른 Java 런타임과 호환되어요.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 async-profiler은 다양한 유형의 이벤트를 모니터링할 수 있습니다.
 
@@ -382,7 +722,18 @@ async-profiler은 다양한 유형의 이벤트를 모니터링할 수 있습니
 - 이미 진행 중인 프로세스에 연결
 - 프로파일 평가 검사
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-05-17-9BestJavaProfilerstoUsein2024_12.png)
 
@@ -392,7 +743,18 @@ async-profiler은 다양한 유형의 이벤트를 모니터링할 수 있습니
 
 ![image](/assets/img/2024-05-17-9BestJavaProfilerstoUsein2024_13.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 다른 실력 있는 자바 프로파일러
 
@@ -402,7 +764,18 @@ Digna Continuous Feedback 다운로드: 여기
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서, YourKit과 Digma를 결합하는 것이 최상의 최적화 결과를 가져옵니다. Grafana는 애플리케이션 로그를 시각화하기 위해 사용되며, YourKit은 잠재적인 병목 현상을 찾기 위해 애플리케이션을 프로파일링하고, Digma는 잠재적인 문제가 있는 코드 조각에 대한 원활한 통찰력을 제공합니다.
 
@@ -412,7 +785,18 @@ JProfiler는 자바 프로파일러인가요?
 
 JProfiler는 강력한 프리미엄 자바 프로파일러로, Java 응용 프로그램용으로 설계되었습니다. 10일간의 완전한 평가판을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자바 메모리 프로파일러란 무엇인가요?
 자바 메모리 프로파일러는 자바 애플리케이션이 어떻게 메모리를 활용하는지를 분석하여 성능 문제를 확인하고 메모리 누수를 수정하는 데 도움을 줍니다.

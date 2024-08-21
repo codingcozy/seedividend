@@ -3,16 +3,13 @@ title: "도트와 대시 디자인 2024년 최신 디자인 트렌드와 활용 
 description: ""
 coverImage: "/assets/img/2024-07-01-DotDashDesign_0.png"
 date: 2024-07-01 20:03
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-01-DotDashDesign_0.png
 tag: Tech
 originalTitle: "Dot. Dash. Design"
 link: "https://medium.com/proandroiddev/dot-dash-design-c30928484f79"
 isUpdated: true
 ---
-
-
-
 
 ## PathEffect로 Jetpack Compose에서 선을 특화하세요
 
@@ -22,7 +19,18 @@ Jetpack Compose에서 UI를 생성할 때 선을 그리는 경우가 많습니�
 
 만약 선이 모스 부호처럼 점과 대시로 표시되길 원한다면, 선의 스타일링 비밀을 해독하는 방법을 계속 읽어보세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 기본 사항.
 
@@ -32,7 +40,18 @@ Jetpack Compose에서 UI를 생성할 때 선을 그리는 경우가 많습니�
 
 ![선](/assets/img/2024-07-01-DotDashDesign_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 좌표가 (0,0)에서 시작하여 상단 왼쪽에 있으며 하단 오른쪽이 캔버스의 (너비, 높이) 지점입니다.
 
@@ -42,7 +61,18 @@ Jetpack Compose 및 DrawScope에서 Canvas에 그리는 방법에 대한 기본 
 
 이제 선이 그려졌으니, 좀 더 정교하게 만드는 방법은 무엇일까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 선 끝 처리
 
@@ -52,15 +82,48 @@ Jetpack Compose 및 DrawScope에서 Canvas에 그리는 방법에 대한 기본 
 
 ![이미지](/assets/img/2024-07-01-DotDashDesign_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모르는 것은 물어보세요. 실수를 겁내지 말아요. 편하게 물어보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Markdown 형식으로 표 태그를 변경해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 모스 부호
 
@@ -70,7 +133,18 @@ Markdown 형식으로 표 태그를 변경해주세요.
 
 ![이미지](/assets/img/2024-07-01-DotDashDesign_6.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 스탬핑 시간
 
@@ -78,7 +152,18 @@ Markdown 형식으로 표 태그를 변경해주세요.
 
 원 모양을 찍어내는 경우, 우리는 원형 점들의 라인을 <img src="/assets/img/2024-07-01-DotDashDesign_7.png" /> 처럼 갖게 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 StampedPathEffectStyle.Translate은 선을 따라 움직이며 모양을 이전에 정의한 대로 유지합니다. 다른 유형의 StampedPathEffectStyle에 대해서는 나중에 설명하겠습니다. 직선을 보고 있을 때는 실제로 다른 유형이 적용되지 않습니다.
 
@@ -88,32 +173,60 @@ StampedPathEffectStyle.Translate은 선을 따라 움직이며 모양을 이전�
 
 # 짹짹? 파도?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼 이런 라인을 만드는 방법이 무엇이 있을까요:
 
-
 ![image](/assets/img/2024-07-01-DotDashDesign_9.png)
-
 
 선을 그리기 위해 경로를 만들고 모든 지그재그를 포인트로 계산하고 그릴 수도 있지만, 이 경로 모양을 한 번 생성한 다음 위에서 한 것처럼 이 경로를 찍으면 됩니다.
 
 첫 번째 시도에서는 모양을 만들고 선을 따라 모양을 찍습니다 (전체 모양과 같은 너비의 진행을 사용하여)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 예상치 못한 (그러나 좋지 않은 결과는 아닙니다) 결과를 제공합니다:
 
-
 ![image](/assets/img/2024-07-01-DotDashDesign_10.png)
-
 
 보통, 이를 경로로 그릴 때는 `DrawStyle.Stroke` 스타일을 사용하여 `drawPath`를 사용할 수 있고 선으로 직선으로 그립니다. 그러나 이것을 모양으로 사용하고 있기 때문에 자동으로 채워집니다. 이를 수정하기 위해 경로를 닫아주어야 합니다.
 
 이것을 줄에 넣으면:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-01-DotDashDesign_11.png)
 
@@ -123,8 +236,18 @@ StampedPathEffectStyle.Translate은 선을 따라 움직이며 모양을 이전�
 
 더욱 정확하게 그리고 싶다면 Offset을 사용하여 경로를 변환해 지정한 선 위에 정확하게 그릴 수 있습니다:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 달콤한 톤으로 한국어로 번역하면:
 
@@ -134,7 +257,18 @@ StampedPathEffectStyle.Translate은 선을 따라 움직이며 모양을 이전�
 
 # 물론, 직선뿐만 아니라요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 우리는 직선을 그리는 것에 숙달했어요! 만약 이를 도형으로 넣고 싶다면 어떻게 해야 할까요? 그럼 drawRect나 drawCircle 또는 drawPath를 사용해서 원하는 모양을 얻을 수 있어요:
 
@@ -146,7 +280,18 @@ StampedPathEffectStyle.Translate은 선을 따라 움직이며 모양을 이전�
 
 이전에 StampedPathEffectStyle에 대해 언급했었는데, 이것은 직선만 그리지 않을 때 유용해요. 이는 라인이 방향을 바꿀 때 스탬프 경로에게 무엇을 해야 하는지 알려줘요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, 하트 경로를 사용하여 서로 다른 스타일을 볼 수 있습니다:
 
@@ -156,7 +301,18 @@ StampedPathEffectStyle.Translate은 선을 따라 움직이며 모양을 이전�
 
 <img src="/assets/img/2024-07-01-DotDashDesign_16.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서는 차이가 더 두드러지며, 회전은 하트 경로에 대해서는 잘 작동하지만 스탬프 모양이 연결된 지그재그에서는 구멍이 모서리에 뚜렷하게 나타납니다(그리고 일부 지점에서 겹침). Morph는 모서리를 따라 변형하여 간극을 해결하고(대부분의 경우 — 좌하단 코너 참조) 보다 부드러운 선 효과를 제공합니다. 하트 경로와 마찬가지로 하트들도 모서리에서 조금 작아져 모서리 주변을 이동할 수 있도록 허용됩니다.
 
@@ -166,7 +322,18 @@ StampedPathEffectStyle.Translate은 선을 따라 움직이며 모양을 이전�
 
 점과 대시로 즐거운 모스 부호를 만들고 사용자들에게 비밀 메시지를 보내세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 사용된 모든 샘플 코드를 내 GitHub 실험에서 찾을 수 있습니다:
 

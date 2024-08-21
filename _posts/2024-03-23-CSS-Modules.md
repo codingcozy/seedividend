@@ -3,17 +3,13 @@ title: "Nextjs 13에서 CSS 모듈 사용 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "CSS 모듈"
 link: "undefined"
 isUpdated: true
 ---
-
-
-
-
 
 # CSS 모듈
 
@@ -23,7 +19,18 @@ CSS 모듈은 자동으로 고유한 클래스 이름을 생성하여 CSS를 지
 
 ## 예시
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, components/ 폴더에 재사용 가능한 Button 컴포넌트가 있다고 가정해보세요:
 
@@ -41,7 +48,18 @@ CSS 모듈은 자동으로 고유한 클래스 이름을 생성하여 CSS를 지
 
 그런 다음, 위 CSS 파일을 import하여 사용하는 components/Button.js 파일을 생성하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import styles from "./Button.module.css";
@@ -65,7 +83,18 @@ CSS 모듈은 선택적인 기능이며, `.module.css` 확장자를 가진 파�
 
 ## 글로벌 스타일들
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 애플리케이션에 스타일시트를 추가하려면 pages/\_app.js 내에서 CSS 파일을 가져와야 합니다.
 
@@ -82,7 +111,18 @@ body {
 
 pages/\_app.js 파일을 만들어서 없다면 추가하세요. 그런 다음 styles.css 파일을 가져오세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import "../styles.css";
@@ -99,7 +139,18 @@ export default function MyApp({ Component, pageProps }) {
 
 프로덕션에서 모든 CSS 파일은 자동으로 하나의 압축된 .css 파일로 연결됩니다. CSS를 연결하는 순서는 CSS가 \_app.js 파일에 가져올 때의 순서와 일치합니다. 자체 CSS를 포함하는 가져온 JS 모듈에 특별히 주의를 기울일 필요가 있습니다; JS 모듈의 CSS는 가져온 CSS 파일과 동일한 순서 규칙에 따라 연결됩니다. 예를 들어:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import "../styles.css";
@@ -122,7 +173,18 @@ Next.js에서는 자바스크립트 파일에서 CSS 파일을 가져올 수 있
 
 ### node_modules에서 스타일 가져오기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Next.js 9.5.4 버전부터는 CSS 파일을 node_modules에서 어디서든 import할 수 있습니다.
 
@@ -138,7 +200,18 @@ export default function MyApp({ Component, pageProps }) {
 
 서드파티 컴포넌트에서 필요한 CSS를 import하려면 해당 컴포넌트에서 직접 처리할 수 있습니다. 예를 들어:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { useState } from "react";
@@ -174,4 +247,15 @@ Next.js에는 스타일을 추가하는 작성 경험을 향상시키는 추가 
 - next build로 프로덕션 빌드할 때, CSS 파일은 미니파이된 .css 파일로 번들링되어 네트워크 요청 수를 줄이기 위해 더 적은 수의 파일로 묶입니다.
 - JavaScript를 비활성화하면 스타일은 여전히 프로덕션 빌드(next start)에서 로드됩니다. 그러나 Fast Refresh를 활성화하려면 JavaScript가 next dev에 필요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

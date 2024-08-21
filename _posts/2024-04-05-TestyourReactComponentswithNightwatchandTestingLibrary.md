@@ -3,17 +3,13 @@ title: "Nightwatch와 Testing Library로 React 컴포넌트를 테스트하기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Test your React Components with Nightwatch and Testing Library"
 link: "https://medium.com/pineview-labs/how-to-reliably-test-your-react-components-with-nightwatch-and-testing-library-15059e58b8fa"
 isUpdated: true
 ---
-
-
-
-
 
 ## 인기 있는 Testing Library와 Nightwatch를 살펴보기 - 그리고 더 많이
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이 튜토리얼에서는 다음을 다룰 예정입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 안녕하세요! Vite를 사용하여 새로운 React 프로젝트를 설정해보겠습니다. Nightwatch가 컴포넌트 테스트에 내부적으로 사용하는 것이기도 합니다.
 - Nightwatch와 Testing Library를 설치하고 구성해주세요.
@@ -38,7 +45,18 @@ isUpdated: true
 npm init vite@latest
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React 및 JavaScript를 선택해 주세요. 이렇게 하면 React와 JavaScript로 구성된 새 프로젝트가 생성됩니다.
 
@@ -50,7 +68,18 @@ React용 Testing Library는 @testing-library/react 패키지를 사용하여 설
 npm i @testing-library/react --save-dev
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Nightwatch를 설치하려면 init 명령어를 실행하세요:
 
@@ -62,7 +91,18 @@ npm init nightwatch@latest
 
 ## 1.1. @nightwatch/testing-library 플러그인 설치
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Nightwatch는 v2.6부터 Testing Library 쿼리를 직접 명령어로 사용할 수 있는 플러그인을 제공하고 있어요. 나중에 테스트를 작성할 때 필요하니, 지금 바로 설치해봐요:
 
@@ -74,7 +114,18 @@ npm i @nightwatch/testing-library --save-dev
 
 예제에는 컴포넌트를 테스트하기 위해 필요한 모의 서버가 포함되어 있어요. @nightwatch/apitesting 플러그인과 함께 제공되는 통합된 모의 서버를 사용할 거예요. 아래 명령어로 설치해주세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm i @nightwatch/apitesting --save-dev
@@ -110,9 +161,7 @@ function Login() {
           password: passwordInput.value,
         }),
       })
-      .then((r) =>
-        r.json().then((data) => (r.ok ? data : Promise.reject(data)))
-      )
+      .then((r) => r.json().then((data) => (r.ok ? data : Promise.reject(data))))
       .then(
         (user) => {
           setState({ loading: false, resolved: true, error: null });
@@ -138,9 +187,7 @@ function Login() {
         <button type="submit">제출하기{state.loading ? "..." : null}</button>
       </form>
       {state.error ? <div role="alert">{state.error}</div> : null}
-      {state.resolved ? (
-        <div role="alert">축하합니다! 로그인되었습니다!</div>
-      ) : null}
+      {state.resolved ? <div role="alert">축하합니다! 로그인되었습니다!</div> : null}
     </div>
   );
 }
@@ -148,7 +195,18 @@ function Login() {
 export default Login;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 3. 컴포넌트 테스트 작성하기
 
@@ -158,7 +216,18 @@ Testing Library의 창시 원칙 중 하나는 테스트가 가능한 한 사용
 
 이 형식을 사용하여 테스트를 작성하는 데 큰 장점은 이 코드를 사용하여 컴포넌트에 대한 스토리를 작성할 수 있어, Storybook에서 문서화하고 쇼케이스하는 데 사용할 수 있다는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 3.1 유효한 자격 증명으로 로그인하기 테스트
 
@@ -169,7 +238,18 @@ Nightwatch에서 JSX를 사용하여 구성 요소를 렌더링하려면 렌더�
 - play 함수는 구성 요소와 상호 작용하는 데 사용됩니다. 브라우저 환경에서 실행되므로 Testing Library의 screen 객체를 사용하여 DOM을 쿼리하고 이벤트를 발생시킬 수 있습니다.
 - test 함수는 결과를 확인하는 데 사용됩니다. Node.js 컨텍스트에서 실행되므로 Nightwatch 브라우저 객체를 사용하여 DOM을 쿼리하고 결과를 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // login.spec.jsx
@@ -197,11 +277,33 @@ LoginWithValidCredentials.test = async (browser) => {
 
 이를 위해 테스트 파일에 직접 작성할 수 있는 설정 및 해제 훅을 사용할 것입니다. 이 두 훅은 Node.js 컨텍스트에서 실행됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 마크다운 형식으로 변경해주시면 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 디버깅
 
@@ -211,7 +313,18 @@ Nightwatch를 컴포넌트 테스트에 사용하는 주요 이점 중 하나는
 
 예를 들어, LoginWithValidCredentials.play 함수에 디버거 문을 추가해 봅시다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 LoginWithValidCredentials.play = async ({ canvasElement }) => {
@@ -238,7 +351,18 @@ npx nightwatch test/login.spec.jsx --debug --devtools
 
 이것은 Dev Tools가 열린 새로운 Chrome 창을 엽니다. 이제 Dev Tools에서 중단점을 설정하고 코드를 단계별로 실행할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Test Image](/assets/img/TestyourReactComponentswithNightwatchandTestingLibrary_1.png)
 
@@ -248,7 +372,18 @@ Testing Library 문서의 원본 예제에는 서버에서 예외가 발생하�
 
 Nightwatch에서 같은 테스트를 작성해 봅시다. 이번에는 컴포넌트와 상호작용할 수 있기 때문에 테스트 함수만 사용할 것입니다. 이전에 언급했듯이, 테스트 함수는 Node.js 컨텍스트에서 실행되며 Nightwatch 브라우저 객체를 인수로 받습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 또한 목 서버 응답을 업데이트하여 500 상태 코드와 오류 메시지를 반환해야 합니다. 이 작업은 LoginWithServerException 컴포넌트 스토리에서 preRender 테스트 훅을 작성하여 쉽게 수행할 수 있습니다.
 
@@ -286,7 +421,18 @@ LoginWithServerException.test = async (browser) => {
 
 마지막으로, 테스트를 실행해 봅시다. 이렇게 하면 Chrome에서 LoginWithValidCredentials 및 LoginWithServerException 컴포넌트 스토리가 실행됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npx nightwatch test/login.spec.jsx
@@ -327,7 +473,18 @@ npx nightwatch test/login.spec.jsx
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기까지입니다! 이 예제의 완전한 코드는 GitHub 저장소에서 찾으실 수 있어요. PRs는 환영합니다.
 

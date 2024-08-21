@@ -3,17 +3,13 @@ title: "Nextjs 13 사이트에서 사용자 인증 기능 구현하기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "인증 Authentication"
 link: "undefined"
 isUpdated: true
 ---
-
-
-
-
 
 # 인증
 
@@ -25,7 +21,18 @@ Next.js에 인증을 구현하려면 세 가지 핵심 개념을 익혀 보세�
 
 이 페이지에서는 Next.js 기능을 사용하여 일반적인 인증, 권한 부여 및 세션 관리 패턴을 구현하는 방법을 보여줍니다. 이를 통해 애플리케이션의 요구 사항에 맞게 최상의 솔루션을 선택할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 인증
 
@@ -35,7 +42,18 @@ Next.js에 인증을 구현하려면 세 가지 핵심 개념을 익혀 보세�
 
 현대의 웹 애플리케이션은 일반적으로 여러 인증 전략을 사용합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - OAuth/OpenID Connect (OIDC): 사용자 자격 증명을 공유하지 않고 제3자 액세스를 활성화합니다. 소셜 미디어 로그인 및 단일 로그인(SSO) 솔루션에 이상적입니다. OpenID Connect를 이용하여 신원 계층을 추가합니다.
 - 자격 증명 기반 로그인(이메일 + 비밀번호): 사용자가 이메일과 비밀번호로 로그인하는 웹 애플리케이션에서의 표준 선택사항입니다. 익숙하고 구현하기 쉽지만 피싱과 같은 위협에 대비하기 위해 강력한 보안 조치가 필요합니다.
@@ -48,7 +66,18 @@ Next.js에 인증을 구현하려면 세 가지 핵심 개념을 익혀 보세�
 
 이 섹션에서는 웹 애플리케이션에 기본적인 이메일-비밀번호 인증을 추가하는 과정을 살펴보겠습니다. 이 방법은 기본 수준의 보안을 제공하지만, 흔히 발생하는 보안 위협에 대비하기 위해 OAuth나 비밀번호 없는 로그인과 같은 고급 옵션을 고려하는 것이 좋습니다. 다룰 인증 흐름은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 사용자는 로그인 양식을 통해 자격 증명을 제출합니다.
 - 양식이 API 경로에서 처리되는 요청을 보냅니다.
@@ -96,7 +125,18 @@ export default function LoginPage() {
 
 위 양식은 사용자의 이메일과 비밀번호를 입력할 수 있는 두 개의 입력 필드가 있습니다. 제출시, /api/auth/login 경로로 POST 요청을 보내는 함수가 트리거됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인증 공급자의 API를 호출하여 인증을 처리하려면 API 경로에서 다음 코드를 사용할 수 있습니다:
 
@@ -125,7 +165,18 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 - 성공적인 인증: 이 결과는 로그인이 성공했음을 의미합니다. 이후에는 보호된 경로에 액세스하거나 사용자 정보를 가져오는 등의 추가 작업을 시작할 수 있습니다.
 - 인증 실패: 자격 증명이 잘못되었거나 오류가 발생한 경우, 함수는 해당 인증 실패를 나타내는 해당 오류 메시지를 반환합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Next.js 프로젝트에서 보다 간편한 인증 설정을 위해, 특히 여러 로그인 방식을 제공할 때에는 포괄적 인증 솔루션을 사용하는 것을 고려해보세요.
 
@@ -135,7 +186,18 @@ Next.js 프로젝트에서 보다 간편한 인증 설정을 위해, 특히 여�
 
 ### 미들웨어를 사용한 라우트 보호
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Next.js에서의 미들웨어는 웹사이트의 다른 부분에 누가 접근할 수 있는지를 제어하는 데 도움을 줍니다. 사용자 대시보드와 같은 영역을 보호하면서 마케팅 페이지와 같은 다른 페이지를 공개로 유지하는 데 중요합니다. 미들웨어는 모든 경로에 적용하고 공개 액세스를 위해 제외 사항을 지정하는 것이 좋습니다.
 
@@ -146,7 +208,18 @@ Next.js에서의 미들웨어는 웹사이트의 다른 부분에 누가 접근�
 - 프로젝트의 루트 디렉토리에 middleware.ts 또는 .js 파일을 만듭니다.
 - 사용자 액세스를 승인하기 위한 논리를 포함하고, 예를 들어 인증 토큰을 확인하는 것과 같은 작업을 수행합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 #### 보호 된 라우트 정의:
 
@@ -156,7 +229,18 @@ Next.js에서의 미들웨어는 웹사이트의 다른 부분에 누가 접근�
 
 - 사용자가 인증되었는지 확인하는 로직을 작성하십시오. 라우트 권한을 위해 사용자 역할이나 권한을 확인하십시오.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 권한이 없는 액세스 처리:
 
@@ -184,7 +268,18 @@ export const config = {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예제는 Response.redirect를 사용하여 요청 파이프라인 초기에 리디렉션을 처리하여 효율적이고 접근 통제를 중앙 집중화하는 방법을 보여줍니다.
 
@@ -194,7 +289,18 @@ export const config = {
 
 ### API 경로 보호하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Next.js에서 API 라우트는 서버 측 로직 처리와 데이터 관리에 필수적입니다. 특정 기능에 대한 액세스 권한을 가진 사용자만 접속할 수 있도록 이러한 라우트를 안전하게 유지하는 것이 중요합니다. 일반적으로는 사용자의 인증 상태와 역할 기반 권한을 확인하는 것이 포함됩니다.
 
@@ -229,7 +335,18 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 
 이 예시는 인증과 권한 부여에 대한 두 단계의 보안 검사가 있는 API 라우트를 보여줍니다. 먼저 활성 세션을 확인하고 나중에 로그인한 사용자가 'admin'인지 확인합니다. 이러한 접근 방식은 인가된 사용자에게만 제한된 안전한 액세스를 보장하여 요청 처리의 강력한 보안을 유지합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 최선의 실행 방법
 
@@ -241,7 +358,18 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 
 세션 관리는 사용자가 응용 프로그램과 상호 작용하는 과정을 시간별로 추적 및 관리하며, 사용자의 인증된 상태가 응용 프로그램의 다양한 부분에서 유지되도록 보장하는 것을 포함합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이렇게 하면 반복해서 로그인할 필요가 없으며, 보안과 사용자 편의성이 모두 향상됩니다. 세션 관리에는 쿠키 기반 및 데이터베이스 세션 두 가지 주요 방법이 사용됩니다.
 
@@ -252,7 +380,18 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 
 쿠키 기반 세션은 브라우저 쿠키에 암호화된 세션 정보를 직접 저장하여 사용자 데이터를 관리합니다. 사용자가 로그인하면 이 암호화된 데이터가 쿠키에 저장됩니다. 각 후속 서버 요청에는 이 쿠키가 포함되어 반복되는 서버 쿼리의 필요성을 줄이고 클라이언트 측 효율성을 향상시킵니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 이 방법은 쿠키가 클라이언트 측 보안 위험에 노출될 수 있기 때문에 민감한 데이터를 보호하기 위해 신중한 암호화가 필요합니다. 쿠키에 세션 데이터를 암호화하는 것은 사용자 정보를 무단 접근으로부터 보호하는 데 중요합니다. 쿠키가 도난당하더라도 내부 데이터가 알아볼 수 없게 보호됩니다.
 
@@ -262,7 +401,18 @@ Next.js 프로젝트에서 쿠키를 설정하는 방법은 다음과 같을 수
 
 서버에서 쿠키 설정하기:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```typescript
 import { serialize } from "cookie";
@@ -289,7 +439,18 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
 
 그러나 이 방식에는 트레이드오프가 있습니다. 사용자 상호 작용마다 데이터베이스 조회가 필요하여 성능 부담이 증가할 수 있습니다. 세션 데이터 캐싱과 같은 전략을 통해 이를 완화할 수 있습니다. 또한 데이터베이스에 의존하면 세션 관리는 데이터베이스의 성능 및 가용성에 의존하게 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기에 Next.js 애플리케이션의 데이터베이스 세션을 구현하는 간단한 예제가 있어요:
 
@@ -318,7 +479,18 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 
 ### Next.js에서 세션 관리 선택하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Cookie 기반과 데이터베이스 세션 중 어떤 것을 선택할지는 Next.js 애플리케이션의 요구 사항에 따라 다릅니다. Cookie 기반 세션은 간단하고 서버 부하가 적은 작은 애플리케이션에 적합하지만 보안성이 떨어질 수 있습니다. 데이터베이스 세션은 더 복잡하지만 높은 보안성과 확장성을 제공하여 대규모이면서 데이터에 민감한 애플리케이션에 이상적입니다.
 
@@ -328,7 +500,18 @@ NextAuth.js와 같은 인증 솔루션을 사용하면 세션 관리가 더욱 �
 
 ## 예시
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 Next.js와 호환되는 인증 솔루션입니다. 아래의 빠른 시작 가이드를 참조하여 Next.js 애플리케이션에서 이들을 구성하는 방법을 배우세요:
 
@@ -345,9 +528,31 @@ NextAuth.js와 같은 인증 솔루션을 사용하면 세션 관리가 더욱 �
 
 인증 및 보안에 대해 계속 학습하려면 다음 자원을 확인하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - XSS 공격 이해
 - CSRF 공격 이해
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

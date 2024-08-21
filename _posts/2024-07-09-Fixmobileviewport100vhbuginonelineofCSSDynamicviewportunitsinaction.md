@@ -3,15 +3,13 @@ title: "한 줄의 CSS로 모바일에서 100vh 버그 해결 동적 뷰포트 �
 description: ""
 coverImage: "/assets/img/2024-07-09-Fixmobileviewport100vhbuginonelineofCSSDynamicviewportunitsinaction_0.png"
 date: 2024-07-09 17:56
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-Fixmobileviewport100vhbuginonelineofCSSDynamicviewportunitsinaction_0.png
 tag: Tech
 originalTitle: "Fix mobile viewport 100vh bug in one line of CSS: Dynamic viewport units in action"
 link: "https://medium.com/@alekswebnet/fix-mobile-100vh-bug-in-one-line-of-css-dynamic-viewport-units-in-action-102231e2ed56"
 isUpdated: true
 ---
-
-
 
 ## VH 대신 DVH을 사용하여 더 완전한 단위로 사용하세요
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 # 모바일 뷰포트 버그는 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹페이지에서 전체화면 요소를 만들어 본 적이 있나요? CSS 한 줄을 추가하기만 하면 쉽게 할 수 있어요:
 
@@ -35,7 +44,18 @@ isUpdated: true
 
 아래 그림에서 모바일 화면의 두 가지 상태를 확인할 수 있어요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 숨겨진 주소 표시줄 있을 때
 - 표시된 주소 표시줄 있을 때
@@ -46,7 +66,18 @@ isUpdated: true
 
 # 일반적인 수정
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전에 사용했던 해결책은 CSS Custom Properties와 약간의 Javascript를 사용하는 것이었습니다. 간단히 말해서, resize 이벤트를 수신하고 창 크기가 변경될 때마다 --vh 사용자 지정 속성(창 높이의 1%)을 설정합니다.
 
@@ -56,7 +87,18 @@ isUpdated: true
 
 CSS Values 4 Specification에 따르면 Viewport-relative lengths를 사용할 수 있습니다. 새로운 뷰포트 단위를 사용할 수 있습니다. 이 작업을 수행해주는 dvh 단위가 있습니다. 항상 뷰포트 크기에 맞게 자동으로 조정됩니다. 마지막으로, 브라우저 지원이 완벽합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-07-09-Fixmobileviewport100vhbuginonelineofCSSDynamicviewportunitsinaction_2.png)
 
@@ -70,7 +112,18 @@ With this cool feature, the solution becomes pretty simple. You need only one li
 
 Read more about other amazing dynamic viewport units:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -80,7 +133,18 @@ Read more about other amazing dynamic viewport units:
 
 🙏 즐거우신 독자 여러분이 흥미로운 도움이 되는 이야기를 읽으셨기를 바랍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 👏 만약 마음에 들었다면 박수를 보내주세요! 당신의 반응을 보게 되어 정말 기뻐할 거예요!
 

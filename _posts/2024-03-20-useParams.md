@@ -3,17 +3,13 @@ title: "Nextjs 14 클라이언트 컴포넌트에서 route 동적 params 가져�
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # Nextjs 14 클라이언트 컴포넌트에서 route 동적 params 가져오는 방법
 
@@ -38,7 +34,18 @@ export default function ExampleClientComponent() {
 
 ## 매개변수
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const params = useParams();
@@ -50,7 +57,18 @@ useParams 함수는 어떤 매개변수도 받지 않습니다.
 
 useParams 함수는 현재 라우트의 동적 매개변수가 채워진 객체를 반환합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 각 객체의 프로퍼티는 활성 동적 세그먼트입니다.
 - 프로퍼티의 이름은 세그먼트의 이름이며, 프로퍼티의 값은 세그먼트가 채워지는 내용입니다.
@@ -60,21 +78,41 @@ useParams 함수는 현재 라우트의 동적 매개변수가 채워진 객체�
 
 예시:
 
-
-| Route                     | URL         | useParams()            |
-|---------------------------|-------------|----------------------- |
-| app/shop/page.js          | /shop       | {}                     |
-| app/shop/[slug]/page.js    | /shop/1     | { slug: '1' }          |
+| Route                         | URL       | useParams()             |
+| ----------------------------- | --------- | ----------------------- |
+| app/shop/page.js              | /shop     | {}                      |
+| app/shop/[slug]/page.js       | /shop/1   | { slug: '1' }           |
 | app/shop/[tag]/[item]/page.js | /shop/1/2 | { tag: '1', item: '2' } |
-| app/shop/[...slug]/page.js | /shop/1/2   | { slug: ['1', '2'] }    |
-
+| app/shop/[...slug]/page.js    | /shop/1/2 | { slug: ['1', '2'] }    |
 
 ## 버전 기록
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 | Version   | Changes                |
 | --------- | ---------------------- |
 | `v13.3.0` | `useParams` introduced |
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

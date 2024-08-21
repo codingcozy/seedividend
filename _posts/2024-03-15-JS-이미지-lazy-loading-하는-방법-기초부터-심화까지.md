@@ -3,17 +3,13 @@ title: "자바스크립트에서 이미지 lazy loading 하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # JS 이미지 lazy loading 하는 방법 기초부터 심화까지
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 <img src="/assets/img/Lazy-Loading-Images-Basics-to-Advanced_1.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 그런데 Lazy Loading이 뭔가요?
 
@@ -31,7 +38,18 @@ Lazy loading은 이미지와 같은 특정 자산의 로딩을 실제로 필요�
 
 Lazy loading은 많은 이미지를 포함하는 웹사이트에 특히 유용합니다. 왜냐하면 사용자가 즉시 보이지 않는 이미지의 불필요한 다운로드를 피함으로써 대역폭을 절약할 수 있기 때문입니다. 빠른 인터넷 연결을 가지고 있거나 일반적으로 작고 최적화된 이미지를 가진 사이트를 브라우징하는 경우에는 lazy loading의 이점을 완전히 이해하기 어려울 수 있습니다. 그러나 많은 사용자들에게는 lazy loading이 게임 체인저가 될 수 있습니다. 특히 인터넷 연결이 느린 사용자들에게 말이죠. 이미지는 사용자가 다운로드해야 하는 가장 큰 자산이기 때문에 빠른 연결이 있더라도 lazy loading 이미지는 웹사이트의 전체 로딩 시간을 줄이는 데 상당한 차이를 만들어 낼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 간단한 Lazy Loading
 
@@ -45,7 +63,18 @@ Lazy loading은 많은 이미지를 포함하는 웹사이트에 특히 유용�
 
 앞서 설명한 기본적인 lazy loading 기술은 이미지가 완전히 다운로드될 때까지 사용자가 이미지가 있어야 할 자리에 빈 공간을 보게 되므로 사용자 경험이 좋지 않을 수 있습니다. 사용자 경험을 향상시키기 위해 이어지는 부분에서는 lazy loading을 활용하여 흐릿한 플레이스홀더 이미지를 표시하고 전체 이미지가 다운로드될 때까지 사용자에게 이미지의 시각적 표현을 제공하는 방법에 대해 설명하겠습니다. 이렇게 하면 사용자에게 더 매력적이고 무결점인 경험을 제공할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 고급 Lazy Loading
 
@@ -63,7 +92,18 @@ ffmpeg -i imageName.jpg -vf scale=20:-1 imageName-small.jpg
 
 <img src="/assets/img/Lazy-Loading-Images-Basics-to-Advanced_2.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 작은 플레이스홀더 이미지를 생성한 후, 다음 단계는 `<div>` 요소를 생성하고 그 배경 이미지를 이전에 생성한 매우 작은 이미지로 설정하는 것입니다. 이 `<div>`는 전체 이미지가 다운로드될 때까지 표시되는 플레이스홀더 이미지로 작동합니다. 다음은 예제 코드 스니펫입니다:
 
@@ -89,7 +129,18 @@ CSS에서 .blurred-img 클래스의 스타일링을 정의하여 배경 이미�
 </div>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 CSS에서는 이미지가 로드될 때까지 `<img>`의 투명도를 0으로 설정하여 숨깁니다:
 
@@ -160,7 +211,18 @@ if (img.complete) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 JavaScript 코드에서 .blurred-img div와 그 안의 `<img>` 요소를 선택합니다. 이미지가 이미로드되었는지 확인하기 위해 이미지의 complete 속성을 확인합니다. 로드되었다면 loaded() 함수를 직접 호출합니다. 그렇지 않으면 이미지에 로드 이벤트를 위한 이벤트 리스너를 추가합니다. 로드 이벤트는 이미지가 로드될 때 발생하며 이미지가 로드되면 loaded() 함수가 호출됩니다. 이 함수는 .blurred-img div에 loaded 클래스를 추가합니다.
 
@@ -206,7 +268,18 @@ JavaScript 코드에서 .blurred-img div와 그 안의 `<img>` 요소를 선택�
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS 코드에서 몇 가지 변경 사항을 만듭니다. 이미지가 로드되면 .blurred-img::before 요소에서 애니메이션과 콘텐츠를 제거하여 펄스 애니메이션을 중지합니다. 또한 .blurred-img img 요소에 트랜지션 속성을 추가하여 loaded 클래스가 .blurred-img div에 추가되면 이미지가 부드럽게 페이드 인되도록합니다. 마지막으로 .blurred-img img의 투명도를 1
 

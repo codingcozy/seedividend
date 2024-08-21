@@ -3,17 +3,13 @@ title: "JVM이란 무엇인가요"
 description: ""
 coverImage: "/assets/img/2024-07-09-WhatisJVM_0.png"
 date: 2024-07-09 09:26
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-WhatisJVM_0.png
 tag: Tech
 originalTitle: "What is JVM?"
 link: "https://medium.com/@singourhimanshu3/what-is-jvm-473a67366e0e"
 isUpdated: true
 ---
-
-
-
-
 
 ![JVM Structure](/assets/img/2024-07-09-WhatisJVM_0.png)
 
@@ -22,18 +18,29 @@ isUpdated: true
 ## JVM 구조
 
 - 클래스 로더: 자바 클래스 파일을 로드합니다.
+
 2. 메모리 영역:
-    - 메서드 영역: 클래스 데이터 저장.
-    - 힙: 객체 저장.
-    - 스택: 로컬 변수 및 메서드 호출 보유.
-    - PC 레지스터: 현재 명령을 추적.
-    - 네이티브 메서드 스택: 네이티브 메서드 호출 처리.
+   - 메서드 영역: 클래스 데이터 저장.
+   - 힙: 객체 저장.
+   - 스택: 로컬 변수 및 메서드 호출 보유.
+   - PC 레지스터: 현재 명령을 추적.
+   - 네이티브 메서드 스택: 네이티브 메서드 호출 처리.
 3. 실행 엔진:
-    - 인터프리터: 바이트 코드 명령을 하나씩 실행.
-    - JIT 컴파일러: 빠른 성능을 위해 바이트 코드를 네이티브 기계 코드로 변환.
+   - 인터프리터: 바이트 코드 명령을 하나씩 실행.
+   - JIT 컴파일러: 빠른 성능을 위해 바이트 코드를 네이티브 기계 코드로 변환.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 예시: JVM 작동 방식
 
@@ -60,6 +67,17 @@ public class Himanshu {
 
 요약
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 JVM은 Java의 플랫폼 독립성에 중요한 역할을 합니다. JVM을 통해 컴파일된 바이트코드를 실행하여 Java 프로그램을 JVM이 탑재된 모든 기기에서 실행할 수 있습니다.

@@ -3,16 +3,13 @@ title: "도커 이미지 이해하기 초보자를 위한 가이드 파트 2"
 description: ""
 coverImage: "/assets/img/2024-07-07-UnderstandingDockerImagesABeginnersGuidePart2_0.png"
 date: 2024-07-07 23:38
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-UnderstandingDockerImagesABeginnersGuidePart2_0.png
 tag: Tech
 originalTitle: "Understanding Docker Images: A Beginner’s Guide #Part 2"
 link: "https://medium.com/@bhavyshekhaliya/understanding-docker-images-a-beginners-guide-part-2-520e9fedf4ab"
 isUpdated: true
 ---
-
-
-
 
 도커는 우리가 애플리케이션을 개발하고 배포하며 실행하는 방식을 혁신적으로 변화시켰어요. 도커의 핵심 기능은 도커 이미지 개념에 있어요. 이 글에서는 도커 이미지가 무엇이고, 어떻게 작동하는지, 그리고 왜 현대 애플리케이션 개발에 필수적인지 알아볼게요.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 도커 이미지는 코드, 런타임, 시스템 도구, 라이브러리 및 설정이 필요한 모든 것이 들어 있는 가벼운 독립형 실행 가능한 패키지에요. 도커 이미지는 완전한 애플리케이션 환경의 스냅샷이나 템플릿으로 생각할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 변경 불가능성: Docker 이미지는 한 번 생성되면 변경되지 않습니다.
 - 계층화: 이미지는 여러 개의 계층을 사용하여 구축됩니다.
@@ -31,13 +39,24 @@ isUpdated: true
 
 ## Docker 이미지 작동 원리
 
-1) 이미지 빌드:
+1. 이미지 빌드:
 
 - 이미지는 Dockerfile에서 생성됩니다.
 - Dockerfile의 각 명령은 새로운 계층을 생성합니다.
 - 계층은 캐시되어 다시 빌드가 빠릅니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2 ) 이미지 저장하기:
 
@@ -49,7 +68,18 @@ isUpdated: true
 - 이미지는 컨테이너를 생성하는 데 사용됩니다.
 - 동일한 이미지에서 여러 개의 컨테이너를 실행할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 도커 이미지와 컨테이너 :
 
@@ -64,7 +94,18 @@ isUpdated: true
 - 효율성: 공유 레이어로 공간과 대역폭을 절약.
 - 격리: 응용프로그램이 격리된 환경에서 실행됨.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 도커 이미지 다운로드하기
 
@@ -80,7 +121,18 @@ docker pull image_name
 docker pull image_name:1.19
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 docker pull --all-tags image_name
@@ -97,7 +149,18 @@ docker images
 - docker build: Dockerfile에서 새 이미지를 생성합니다.
 - docker inspect: 이미지에 대한 상세 정보를 확인합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 결론
 

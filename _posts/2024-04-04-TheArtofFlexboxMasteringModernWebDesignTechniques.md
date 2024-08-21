@@ -3,17 +3,13 @@ title: "Flexbox로 현대 웹 디자인 기술 습득하기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "The Art of Flexbox Mastering Modern Web Design Techniques"
 link: "https://medium.com/@batuhan.ozcan/the-art-of-flexbox-mastering-modern-web-design-techniques-8031123f7848"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/TheArtofFlexboxMasteringModernWebDesignTechniques_0.png" />
 
@@ -32,7 +28,18 @@ isUpdated: true
 </div>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .box-container {
@@ -84,7 +91,18 @@ isUpdated: true
 
 여기서 HTML의 블록 수준 요소의 매우 기본적인 측면을 만납니다: 블록 수준 요소는 항상 새 줄에서 시작됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금은 우리 컨테이너를 "display" 속성을 "flex"로 설정하여 플렉스 컨테이너로 변환해 보겠습니다.
 
@@ -101,7 +119,18 @@ isUpdated: true
 
 <img src="/assets/img/TheArtofFlexboxMasteringModernWebDesignTechniques_2.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 플렉스 컨테이너를 만들 때, 해당 컨테이너의 직계 자식들은 모두 플렉스 아이템이 되어 블록 수준 요소로 발생할 수 있는 줄 바꿈을 무시하고 행으로 정렬되게 됩니다.
 
@@ -116,7 +145,18 @@ isUpdated: true
 - Main Start 및 Main End: 이 용어들은 플렉스 컨테이너 내의 메인 축의 시작점과 끝점을 가리킵니다. 메인 시작은 메인 축이 시작되는 곳이고, 메인 끝은 끝나는 곳입니다. 플렉스 아이템을 메인 축을 따라 정렬하는 것은 "justify-content"와 같은 속성으로 제어됩니다.
 - Cross Start 및 Cross End: 비슷하게, 이 용어들은 플렉스 컨테이너 내의 교차 축의 시작점과 끝점을 가리킵니다. 교차 시작은 교차 축이 시작되는 곳이고, 교차 끝은 끝나는 곳입니다. 플렉스 아이템을 교차 축을 따라 정렬하는 것은 "align-items" 및 "align-self"와 같은 속성으로 제어됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자, 이제 우리의 코드 예제로 돌아가서 flex 컨테이너에 적용된 몇 가지 속성을 테스트해 봅시다.
 
@@ -126,14 +166,36 @@ gap: `length`를 사용하지 않고 항목 사이에 공간을 만듭니다.
 
 ![이미지](/assets/img/TheArtofFlexboxMasteringModernWebDesignTechniques_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `justify-content`: 주요 축(기본적으로 수평)을 따라 항목을 정렬하는 데 사용됩니다.
 
 - `flex-start`: 항목을 컨테이너의 주요 축의 시작 부분에 정렬합니다. 이것은 이제까지 보아온 기본 동작입니다.
 - `flex-end`: 항목을 컨테이너의 주요 축 끝 부분에 정렬합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/TheArtofFlexboxMasteringModernWebDesignTechniques_5.png)
 
@@ -143,7 +205,18 @@ center: 컨테이너의 주축을 따라 항목들을 가운데 정렬합니다.
 
 space-between: 첫 번째 항목이 시작점에 정렬되고 마지막 항목이 끝점에 정렬되며, 주축을 따라 항목을 동일한 간격으로 분배합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![TheArtofFlexboxMasteringModernWebDesignTechniques_7](/assets/img/TheArtofFlexboxMasteringModernWebDesignTechniques_7.png)
 
@@ -153,7 +226,18 @@ space-around: 주축을 따라 항목들을 균등하게 분배하면서 첫 번
 
 space-evenly: 주축을 따라 항목을 균등하게 분배하면서 주변과 각 항목 사이에 동일한 공간을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/TheArtofFlexboxMasteringModernWebDesignTechniques_9.png)
 
@@ -163,7 +247,18 @@ stretch | flex-start | flex-end | center | baseline
 
 stretch: 항목을 컨테이너의 교차 축을 채우도록 늘립니다. 이를 통해 항목이 수직으로 확장되어 컨테이너의 전체 높이를 채울 수 있습니다. 지금까지 각 상자에 50px의 미리 정의된 높이가 있으므로 stretch의 효과를 보지 못했었지만, 이제 녹색 상자의 높이 속성을 제거하면 어떻게 되는지 확인해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/TheArtofFlexboxMasteringModernWebDesignTechniques_10.png)
 
@@ -173,7 +268,18 @@ flex-start: 항목들을 컨테이너의 교차 축 시작 부분에 정렬합�
 
 ![이미지](/assets/img/TheArtofFlexboxMasteringModernWebDesignTechniques_11.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 flex-end: 아이템을 컨테이너의 교차 축 끝에 정렬합니다.
 
@@ -183,7 +289,18 @@ center: 아이템을 컨테이너의 교차 축을 기준으로 가운데 정렬
 
 ![그림 2](/assets/img/TheArtofFlexboxMasteringModernWebDesignTechniques_13.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 baseline: 항목들의 기준선을 일치시킵니다. 기준선은 문자가 앉는 가상의 선으로 타이포그래피에서 사용되는 개념입니다. 이를 더 잘 이해하기 위해 우리의 녹색 상자의 높이를 100px로 변경해 봅시다.
 
@@ -193,7 +310,18 @@ flex-direction: 주축을 정의합니다
 
 row | row-reverse | column | column-reverse
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 row: 플렉스 항목들은 왼쪽(왼에서 오른쪽으로 - LTR 언어) 또는 오른쪽(오른에서 왼쪽으로 - RTL 언어)에서 시작하여 반대쪽으로 수평으로 흐르는 행에 배치됩니다. 이것이 기본 동작입니다.
 
@@ -203,7 +331,18 @@ row-reverse: 플렉스 항목들은 왼쪽(왼에서 오른쪽으로 - LTR 언�
 
 column: 플렉스 항목들은 위에서 시작하여 수직으로 아래로 흐르는 샬을 형성합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Flexbox Mastering Modern Web Design Techniques](/assets/img/TheArtofFlexboxMasteringModernWebDesignTechniques_16.png)
 
@@ -213,7 +352,18 @@ column: 플렉스 항목들은 위에서 시작하여 수직으로 아래로 흐
 
 - `flex-wrap`: 항목들이 너무 크면 새 줄로 랩핑되도록 허용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 nowrap | wrap | wrap-reverse
 
@@ -223,7 +373,18 @@ wrap: 필요에 따라 Flex 아이템이 여러 줄로 줄바꿈됩니다. 한 �
 
 ![이미지](/assets/img/TheArtofFlexboxMasteringModernWebDesignTechniques_18.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 이 텍스트와 줄 사이 간격이 존재하는 이유가 "align-content: stretch"의 기본값 때문이라는 것이 궁금할 수 있습니다. 곧 이에 대해 설명하겠습니다.
 
@@ -233,7 +394,18 @@ wrap-reverse: wrap과 동일하게 작동하지만 cross start와 cross end가 �
 
 align-content: 여러 줄이 있는 경우에만 적용되며, flex-wrap: wrap으로 설정된 경우에만 효과가 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 마크다운 형식으로 변경해주세요.
 
@@ -245,7 +417,18 @@ align-content: 여러 줄이 있는 경우에만 적용되며, flex-wrap: wrap�
 
 - flex-end: flex 라인을 컨테이너의 교차 축 끝 부분에 정렬합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 표 태그를 Markdown 형식으로 변경합니다.
 
@@ -256,7 +439,18 @@ align-content: 여러 줄이 있는 경우에만 적용되며, flex-wrap: wrap�
 | space-around  | 플렉스 라인들을 교차 축을 따라 균일하게 분배하되 각 라인 주위에 동일한 공간이 있습니다. 시작과 끝 여백은 각 라인 간의 공간의 절반에 해당합니다. |
 | space-evenly  | 플렉스 라인들을 교차 축을 따라 균일하게 분배하되 각 라인 주위와 사이에 동일한 공간이 있습니다.                                                  |
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/TheArtofFlexboxMasteringModernWebDesignTechniques_20.png" />
 
@@ -266,7 +460,18 @@ align-self: 개별 플렉스 아이템에 대한 align-items를 덮어씁니다.
 
 auto | stretch | flex-start | flex-end | center | baseline
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `flex-grow`: 메인 축을 따라 여분의 공간이 생겼을 때 컨테이너 내 다른 플렉스 아이템에 비해 얼마나 더 많이 성장할지 결정합니다.
 
@@ -283,7 +488,18 @@ auto | stretch | flex-start | flex-end | center | baseline
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결과:
 
@@ -293,7 +509,18 @@ auto | stretch | flex-start | flex-end | center | baseline
 
 다음 코드 조각을 시도해 봅시다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .box-cyan {
@@ -317,7 +544,18 @@ auto | stretch | flex-start | flex-end | center | baseline
 
 모든 플렉스 항목에 flex-grow 값이 1이었다면, 각 항목이 사용 가능한 공간을 동일하게 차지하게 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 마크다운 형식으로 변경하세요.
 
@@ -336,7 +574,18 @@ flex-shrink에 대해서는 조금 복잡한 부분이 있습니다. 몇 가지 
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희 컨테이너 너비를 450px에서 240px로 변경하려고 합니다. 이렇게 하면 각 상자가 50px씩 주어진 주축에 맞지 않게 됩니다 (총 300px). flex-wrap의 기본값은 nowrap임을 염두에 두세요.
 
@@ -346,7 +595,18 @@ flex-shrink에 대해서는 조금 복잡한 부분이 있습니다. 몇 가지 
 
 이제 어려운 부분이 나왔네요. 유감스럽게도, flex-shrink는 flex-grow만큼 부드럽게 작동하지 않습니다. 이는 flex 항목이 얼마나 줄어들지는 해당 항목의 초기 크기뿐만 아니라 flex-shrink 값에도 의존하기 때문입니다. 이 문제에 대해 우리는 어떤 문제도 겪지 않았습니다. 왜냐하면 우리의 모든 상자가 50px의 너비를 갖고 있었기 때문입니다. 이를 바꿔보고 분석해 봅시다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .box-container {
@@ -399,7 +659,18 @@ flex-shrink에 대해서는 조금 복잡한 부분이 있습니다. 몇 가지 
 
 보시다시피, 상자들의 `flex-shrink` 속성을 명시적으로 설정하지 않아서 기본값인 1로 설정되었습니다. 현재 우리의 지식으로는 각 상자가 주축에 맞게 동일한 양(16.66px)으로 축소될 것으로 예상할 수 있습니다. 그러나 사실은 그런 방식으로 작동하지 않습니다. 각 상자의 초기 크기가 개별적으로 축소되는 양을 평가하는 데 별도의 요소로 계산됩니다. 따라서 폭이 50px인 상자는 가상의 축소 요소인 1을, 폭이 150px인 상자는 가상의 축소 요소인 3을 가지고 있다고 말할 수 있습니다. 이러한 요소들을 모두 합하면 8이 됩니다. 초과된 공간(100px)을 총 요소 개수(8)로 나누면, 각 요소당 줄여야 할 크기를 계산하고 최종 결과를 찾을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 속성에 대한 마지막 예시까지 함께 하겠어요:
 
@@ -455,7 +726,18 @@ flex-shrink에 대해서는 조금 복잡한 부분이 있습니다. 몇 가지 
 
 <img src="/assets/img/TheArtofFlexboxMasteringModernWebDesignTechniques_25.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기에 자세한 해결책이 있어요:
 
@@ -465,7 +747,18 @@ flex-shrink에 대해서는 조금 복잡한 부분이 있습니다. 몇 가지 
 
 flex-basis: 남아 있는 공간이 분배되기 전에 flex 아이템의 초기 크기를 지정합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 auto | content |`length`
 
@@ -475,10 +768,20 @@ content: 초기 크기는 컨텐츠의 크기만을 기반으로 하며 지정�
 
 `length`: 항목의 너비를 정의하기 위해 길이(픽셀 또는 퍼센트)로 설정할 수 있으며 width 속성 대신 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 Markdown 형식으로 변경하면 다음과 같습니다.
-
 
 flex: 하나의 선언으로 flex-grow, flex-shrink 및 flex-basis 속성을 결합하는 권장 단축 속성입니다.
 
@@ -486,14 +789,35 @@ flex: 하나의 선언으로 flex-grow, flex-shrink 및 flex-basis 속성을 결
 
 다음 속성으로 넘어가기 전에, 모든 flex 항목에 동일한 너비를 제공하는 인기 있는 속임수를 보여드릴게요. 사용할 속임수는 flex: 1이며, flex-grow, flex-shrink 및 flex-basis에 각각 1, 1, 0% 값을 설정합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 마법이 작동하는 방법입니다. flex-basis와 flex-grow가 함께 작동합니다. flex-basis를 0%로 설정한 후에 남은 공간(모든 기초가 0이기 때문에 모든 공간이 남게 됩니다)은 flex-grow에 기반하여 비율적으로 분배됩니다. 그리고 모든 flex에 대해 flex-grow가 1이기 때문에 모두 같은 너비를 가지게 됩니다.
 
 order: flex 항목이 컨테이너 내에서 나타나는 순서를 제어합니다. 기본적으로 flex 항목은 0의 order 값을 가집니다. 음수 값은 항목을 표시 순서 상에서 더 앞으로 이동시키고, 양수 값은 뒤로 이동시킵니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 0 | `int`
 
@@ -551,7 +875,18 @@ order: flex 항목이 컨테이너 내에서 나타나는 순서를 제어합니
 
 결과:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Flexbox Properties](/assets/img/TheArtofFlexboxMasteringModernWebDesignTechniques_28.png)
 
@@ -561,6 +896,17 @@ order: flex 항목이 컨테이너 내에서 나타나는 순서를 제어합니
 
 Jonas Schmedtmann의 "HTML과 CSS로 실전 반응형 웹사이트 만들기"
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Advanced CSS and Sass: Flexbox, Grid, Animations and More! by Jonas Schmedtmann

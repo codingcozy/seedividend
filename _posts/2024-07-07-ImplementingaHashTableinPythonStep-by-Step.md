@@ -3,15 +3,13 @@ title: "파이썬 해시 테이블 구현 방법 단계별 설명"
 description: ""
 coverImage: "/assets/img/2024-07-07-ImplementingaHashTableinPythonStep-by-Step_0.png"
 date: 2024-07-07 12:53
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-ImplementingaHashTableinPythonStep-by-Step_0.png
 tag: Tech
 originalTitle: "Implementing a Hash Table in Python: Step-by-Step"
 link: "https://medium.com/python-in-plain-english/implementing-a-hash-table-in-python-step-by-step-716f61323a4d"
 isUpdated: true
 ---
-
-
 
 <img src="/assets/img/2024-07-07-ImplementingaHashTableinPythonStep-by-Step_0.png" />
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 해시 테이블의 본질은 해싱 메커니즘에 있습니다. 이 메커니즘은 해시 함수를 사용하여 키를 배열 인덱스로 변환합니다. 선택된 인덱스는 배열에 해당 값이 저장되는 위치를 결정합니다. 이 함수가 키를 배열 전체에 균일하게 분산시키고 이중 해싱(double hashing) 및 제곱 프로빙(quadratic probing)과 같은 고급 충돌 해결 기술을 사용함으로써, 해시 테이블은 충돌을 최소화하고 데이터 검색 시간을 최적화할 수 있습니다. 이러한 방법은 해시 테이블이 빠른 액세스를 유지하도록 도와주며, 높은 부하 요소에서도 성능을 유지하는 데 중요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 2. 기초 이해하기
 
@@ -31,7 +40,18 @@ isUpdated: true
 
 해시 함수: 이것은 해시 테이블의 핵심입니다. 해시 함수는 입력 키를 가져와 버킷이나 슬롯 배열 내에서 해당 값이 저장된 위치의 인덱스를 계산합니다. 해시 함수의 효율성은 테이블 내 데이터의 분배에 영향을 미치므로 중요합니다. 좋은 해시 함수는 충돌을 최소화하고 항목들을 버킷들 사이에 균일하게 분배합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 버켓 또는 슬롯: 이들은 데이터 항목이 저장되는 배열 내의 위치입니다. 각 버켓은 하나 이상의 항목을 저장할 수 있습니다. 가장 간단한 형태에서 버켓은 키-값 쌍을 하나 보유합니다. 그러나 충돌 처리 전략에 따라, 더 복잡한 데이터 구조나 항목 목록을 보유할 수도 있습니다.
 
@@ -42,7 +62,18 @@ isUpdated: true
 
 ## 2.2 소프트웨어 개발에서 해시 테이블의 일반적 사용 사례 개요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해시 테이블은 소프트웨어 개발에서 널리 사용되며 효율성과 다용성으로 인해 귀중히 여겨집니다. 다음은 일반적인 사용 사례입니다:
 
@@ -56,7 +87,18 @@ isUpdated: true
 
 ## 필요한 도구 및 라이브러리
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파이썬에서 해시 테이블을 구현하려면, 파이썬 인터프리터와 텍스트 편집기 또는 통합 개발 환경(IDE)이 필요합니다. 파이썬의 표준 라이브러리만으로 해시 테이블을 구축하는 데 충분하므로 이 기본적인 구현에는 추가적인 라이브러리가 필요하지 않습니다. 그러나 해시 테이블을 고급 기능으로 확장하거나 특정 애플리케이션에 사용하기 위해 NumPy와 같은 라이브러리를 사용하는 것을 고려할 수 있습니다. 성능 최적화를 위해 NumPy를 사용하거나 pytest를 사용하여 구현을 테스트할 수 있습니다.
 
@@ -67,7 +109,18 @@ isUpdated: true
 - 새로운 파이썬 파일 만들기: 먼저 hash_table.py라는 새로운 파이썬 파일을 만들어 시작하세요. 이 파일에는 해시 테이블 구현과 관련된 모든 코드가 포함됩니다.
 - 해시 테이블 클래스의 구조 정의: HashTable이라는 클래스를 정의하여 시작하세요. 이 클래스는 삽입, 삭제, 조회 등 해시 테이블의 모든 기능을 캡슐화할 것입니다. 다음은 시작할 수 있는 기본 구조입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-07-ImplementingaHashTableinPythonStep-by-Step_1.png)
 
@@ -77,7 +130,18 @@ isUpdated: true
 
 - 스크립트 실행: 명령줄에서 파일이 있는 디렉토리로 이동하여 python hash_table.py를 실행하여 스크립트를 실행하고 작성한 테스트를 실행할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 4. 해시 테이블 클래스 구현
 
@@ -87,7 +151,18 @@ isUpdated: true
 
 ![해시테이블 클래스 구조](/assets/img/2024-07-07-ImplementingaHashTableinPythonStep-by-Step_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 4.2 메소드 추가
 
@@ -101,7 +176,18 @@ isUpdated: true
 
 - 체이닝(링크드 리스트): 체이닝은 충돌 해결 기법으로, 배열 내 특정 인덱스의 각 버킷이 연결 리스트를 시작할 수 있습니다. 동일한 인덱스로 해싱된 모든 키-값 쌍은 이 리스트에 저장되어 같은 인덱스에 여러 항목을 보관하도록 허용하지만, 최악의 경우 원소를 검색하는 시간 복잡성이 증가할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-07-07-ImplementingaHashTableinPythonStep-by-Step_4.png)
 
@@ -111,7 +197,18 @@ Here’s an implementation of linear probing:
 
 ![image](/assets/img/2024-07-07-ImplementingaHashTableinPythonStep-by-Step_5.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 이차 조사법의 구현 예시입니다:
 
@@ -121,7 +218,18 @@ Here’s an implementation of linear probing:
 
 ![double_hashing](/assets/img/2024-07-07-ImplementingaHashTableinPythonStep-by-Step_7.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 5. 충돌 처리
 
@@ -131,7 +239,18 @@ Here’s an implementation of linear probing:
 
 Python에서의 구현: 해시 테이블에서 체이닝을 구현하는 상세 예제입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-07-ImplementingaHashTableinPythonStep-by-Step_8.png)
 
@@ -143,7 +262,18 @@ Python에서의 구현: 해시 테이블에서 체이닝을 구현하는 상세 
 - 높은 충돌 시나리오를 우아하게 처리할 수 있습니다. 해시 테이블은 버킷 수보다 더 많은 항목을 저장할 수 있습니다.
 - 전체 테이블의 크기를 조정할 필요가 없습니다. 영향을 받는 체인만 조정하면 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 체이닝의 단점:
 
@@ -154,7 +284,18 @@ Python에서의 구현: 해시 테이블에서 체이닝을 구현하는 상세 
 
 ## 5.2 대체 방법: 오픈 어드레싱 방법 구현
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 열린 주소 할당은 해시 테이블 내에서 다양한 버킷 위치를 조사하여 충돌을 해결합니다.
 
@@ -162,7 +303,18 @@ Python에서의 구현: 해시 테이블에서 체이닝을 구현하는 상세 
 
 Python에서의 구현:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 구현에서 충돌이 발생하는 경우(즉, 해시된 인덱스가 이미 사용 중인 경우), 해시 테이블은 다음 사용 가능한 슬롯을 선형적으로 탐색합니다. 이 방법은 간단하고 효과적이지만 연속적인 슬롯이 채워져 클러스터링이 발생할 수 있어 테이블이 채워질수록 평균 검색 시간이 증가할 수 있습니다.
 
@@ -174,7 +326,18 @@ Python에서의 구현:
 
 선형 조사의 단점:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 클러스터링은 고부하 시나리오에서 성능에 상당한 영향을 미칠 수 있습니다.
 - 부하 요소 임계값에 도달하면 전체 테이블을 조정해야 하므로 계산 비용이 많이 들 수 있습니다.
@@ -185,7 +348,18 @@ Python에서의 구현:
 
 파이썬에서의 구현:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-07-파이썬 단계별 해시테이블 구현_10.png" />
 
@@ -197,7 +371,18 @@ Python에서의 구현:
 - 클러스터링 된 항목을 효율적으로 분산하여 해시 테이블 공간을 더 효과적으로 활용합니다.
 - 다음 인덱스를 계산하는 과정은 여전히 비교적 간단하고 빠릅니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제곱 탐사의 단점:
 
@@ -209,7 +394,18 @@ Python에서의 구현:
 
 더블 해싱: 간단한 형태의 탐사와 관련된 클러스터링 문제를 크게 줄이는 데 기여하는 두 개의 해시 함수를 사용하는 개방 주소의 정교한 방법입니다. 선형 또는 제곱 탐사와 달리, 더블 해싱은 충돌이 발생한 후 단계 크기를 계산하기 위해 두 번째 해시 함수를 사용하여 각 탐사가 키를 기반으로 한 독특한 순서를 따르도록 합니다. 이 방법은 항목을 해시 테이블 전체에 골고루 분배하여 효율적이고 효과적인 것으로 알려져 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파이썬에서의 구현:
 
@@ -219,7 +415,18 @@ Python에서의 구현:
 
 더블 해싱의 장점:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 다른 조사 기법보다 클러스터링을 더 효과적으로 최소화합니다.
 - 높은 부하 계수를 가진 해시 테이블에서 높은 성능을 제공합니다.
@@ -233,7 +440,18 @@ Python에서의 구현:
 
 더블 해싱은 해시 테이블이 높은 트래픽을 경험하거나 키 분포로 인해 충돌이 자주 발생할 수 있는 애플리케이션에서 특히 유용합니다. 입력을 효율적으로 분배하는 능력으로 대규모 데이터 세트에 대한 훌륭한 선택입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 5.3 각 충돌 해결 기술의 장단점
 
@@ -243,7 +461,18 @@ Python에서의 구현:
 
 각 충돌 처리 방법은 상충 관계가 있으며 특정 유형의 응용 프로그램에 가장 적합합니다. 체이닝은 불특정하거나 매우 변동적인 부하를 갖는 해시 테이블에 적합할 수 있으며, 오픈 어드레싱은 안정적인 데이터 세트와 충돌을 최소화하기 위한 좋은 해시 함수가 있는 응용 프로그램에 더 적합할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 6. 테스트 및 디버깅
 
@@ -253,7 +482,18 @@ Python에서의 구현:
 
 요소 삽입, 검색 및 삭제:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 기본 작업(삽입, 가져오기, 삭제)이 예상대로 작동하는지 확인하는 간단한 테스트부터 시작해보세요. 해시 테이블에 요소를 추가하고, 키를 사용하여 그 값을 검색하고, 일부 요소를 제거하여 테이블이 올바르게 업데이트되는지 확인하는 것이 포함됩니다.
 
@@ -263,7 +503,18 @@ Python에서의 구현:
 
 충돌 처리에 대한 스트레스 테스트:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 동일한 값으로 해싱되는 많은 키가 있는 시나리오를 만들어 충돌 처리를 테스트합니다. 이는 충돌 처리 메커니즘의 효율성 (체이닝, 선형 조사, 제곱 조사, 이중 해싱)과 강압하에서의 구조적 무결성을 테스트하는 것을 포함합니다.
 
@@ -273,7 +524,18 @@ Python에서의 구현:
 
 ![이미지](/assets/img/2024-07-07-ImplementingaHashTableinPythonStep-by-Step_12.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. Linear Probing: 해시 테이블이 충돌을 해결하는 방법을 테스트하는 것에 초점을 맞추세요. 다음으로 사용 가능한 슬롯을 찾아 보세요. 항목이 올바르게 덮어쓰기되거나 업데이트되는지, 그리고 테이블이 필요에 따라 어떻게 확장되는지 확인하세요.
 
@@ -283,7 +545,18 @@ Python에서의 구현:
 
 ![이미지](/assets/img/2024-07-07-ImplementingaHashTableinPythonStep-by-Step_14.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. 더블 해싱: 보조 해시 함수를 사용하여 충돌을 줄이는 효과를 테스트해보세요. 더블 해싱 방법이 다른 방법보다 항목을 테이블에 더 균등하게 분배하는지 확인해보세요.
 
@@ -293,7 +566,18 @@ Python에서의 구현:
 
 해시 테이블을 디버깅하는 것은 주로 충돌 처리, 해시 함수 분포, 동적 크기 조절과 관련된 문제를 식별하는 것을 포함합니다. 다음은 몇 가지 전략입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 충돌 처리: 요소가 자주 손실되거나 덮어써지는 경우 충돌 해결 논리를 검토해보세요. 삽입, 삭제 및 조회가 충돌하는 키를 올바르게 처리하도록 확인해주세요.
 - 해시 함수 품질: 해시 함수에 의한 부족한 분포는 성능 병목 현상으로 이어질 수 있습니다. 특정 버킷이 과도하게 사용되는 경우 해시 함수를 수정하는 것을 고려해보세요. 키들이 버킷 간에 어떻게 분산되는지 테스트하여 이 문제를 확인할 수 있습니다.
@@ -306,7 +590,18 @@ Python에서의 구현:
 
 요소 수가 증가함에 따라 해시 테이블에서 효율적인 성능을 유지하기 위해 동적 크기 조정은 중요한 기능입니다. 크기 조정 없이는 로드 팩터(요소 수 대비 버킷 수의 비율)이 증가하여 더 많은 충돌이 발생하고 따라서 더 긴 검색 시간이 발생합니다. 성능을 향상시키기 위해 해시 테이블은 다음과 같이 동적으로 크기를 조절할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 크기 두 배로 확장: 해시 테이블의 로드 계수가 특정 임계값을 초과할 때(일반적으로 0.7 또는 0.75로 설정), 해시 테이블의 크기가 두 배로 증가합니다. 이 과정은 두 배의 버킷 수를 갖는 새로운 해시 테이블을 만들고 모든 기존 요소를 새 테이블로 재해싱하는 것을 포함합니다.
 - 크기 반으로 축소: 마찬가지로 로드 계수가 낮은 임계값(예: 0.1)보다 낮아지면, 해시 테이블의 크기가 반으로 줄어들어 공간을 절약하고 데이터 크기가 작아지는 시나리오에서 효율을 유지합니다.
@@ -317,7 +612,18 @@ Python에서의 구현:
 
 해시 테이블은 소프트웨어 엔지니어링에서 만능으로 사용되며, 빠른 데이터 검색이 중요한 다양한 응용 프로그램에서 사용됩니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 데이터베이스: 해시 테이블은 많은 데이터베이스 인덱스 메커니즘을 구동하여 레코드의 신속한 조회, 삽입 및 삭제를 가능하게 합니다.
 - 캐싱 시스템: 많은 웹 및 응용프로그램 서버는 해시 테이블을 사용하여 캐싱을 하며, 자주 액세스되는 데이터를 빠르게 검색 가능한 형식으로 저장하여 데이터베이스로의 요청 횟수를 줄입니다.
@@ -329,7 +635,18 @@ Python에서의 구현:
 
 Python의 내장 dict는 사실상 Python 언어에 통합된 하이퍼 최적화된 해시 테이블입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 성능: 파이썬의 dict는 C로 구현되어 있어 순수 파이썬으로 작성된 사용자 지정 해시 테이블보다 속도가 빠릅니다. 이는 하위 수준의 최적화와 Python의 동적 타이핑으로 인한 오버헤드가 없기 때문입니다.
 - 기능: 파이썬의 dict는 순서를 유지하는 추가 기능을 제공합니다 (Python 3.7부터), 이는 일반적인 해시 테이블 구현에서 일반적으로 제공되지 않는 기능입니다.
@@ -341,7 +658,18 @@ Python의 내장 dict는 사실상 Python 언어에 통합된 하이퍼 최적�
 
 이 기사를 통해 Python에서 해시 테이블을 구현하는 것에 대해 깊이 있는 내용을 제공했습니다. 체이닝, 선형 조사, 이차 조사, 두 배 해싱을 포함한 충돌 해결 방법을 탐색했습니다. 각 방법이 충돌을 처리하고 해시 테이블의 성능을 최적화하는 방법을 자세히 설명했으며, 효과적인 응용에 대한 포괄적인 가이드를 제공했습니다. 또한 다양한 시나리오에서 해시 테이블의 신뢰성과 효율성을 보장하기 위한 상세한 테스트 접근 방법에 대해 다루었습니다. 이 논의는 데이터 구조에 대한 이해력을 향상시킬 뿐만 아니라 Python 프로젝트에서 복잡한 데이터 관리 도전에 대비하기 위한 실용적 기술을 갖추도록 도와줍니다. 철저한 테스트 실천을 통해 구현의 무결성과 성능을 향상하는 방법을 보여주었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 친절한 영어로 🚀
 

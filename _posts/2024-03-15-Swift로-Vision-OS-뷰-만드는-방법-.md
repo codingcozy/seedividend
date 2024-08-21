@@ -3,17 +3,13 @@ title: "Swift로 Vision OS 뷰 만드는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # Swift로 Vision OS 뷰 만드는 방법
 
@@ -21,7 +17,18 @@ VisionOS 앱에 사용할 SwiftUI 뷰를 만드는 간단한 글입니다.
 
 <img src="/assets/img/Creating-Views-in-SwiftUI-for-VisionOS_0.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 VisionOS는 SwiftUI를 기반으로 구축되었기 때문에, 우리는 Vision Pro 앱을 탐색하기 위해 동일한 기술을 활용합니다.
 
@@ -33,7 +40,18 @@ VisionOS는 SwiftUI를 기반으로 구축되었기 때문에, 우리는 Vision 
 - NavigationStack
 - NavigationSplitView
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각각에 대한 예제가 포함되어 있으므로 여러 사용 사례를 볼 수 있습니다.
 
@@ -45,7 +63,18 @@ Vision Pro의 경우, 이러한 동작은 정확히 동일하지만 사용 사�
 
 예를 들어, 버튼 목록을 표시하기 위한 뷰의 일부로 이 VStack을 사용할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```swift
 struct StoryView: View {
@@ -92,7 +121,18 @@ struct StoryView: View {
 
 <img src="/assets/img/Creating-Views-in-SwiftUI-for-VisionOS_1.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 VStack과 마찬가지로, HStack은 항목을 수평으로 표시하는 데 사용됩니다. 예를 들어, 다음 코드:
 
@@ -135,7 +175,18 @@ struct FreestyleView: View {
 
 대략 다음과 같이 표시됩니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/Creating-Views-in-SwiftUI-for-VisionOS_2.png" />
 
@@ -196,7 +247,18 @@ struct FreestyleView: View {
 
 여기서는 "showFreestyleMode" 변수의 변경을 듣는 ".onChange" 문을 네비게이션 스택에 추가했습니다. 그런 다음 선택한 난이도에 따라 특정 공간을 엽니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Navigation Split View
 
@@ -208,7 +270,18 @@ Navigation Split View
 
 해당 코드는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```swift
 struct ContentView: View {

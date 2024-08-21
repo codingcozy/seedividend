@@ -3,16 +3,13 @@ title: "Python과 Streamlit을 사용한 ETF 분석 방법"
 description: ""
 coverImage: "/assets/img/2024-07-13-ETFAnalysiswithPythonandStreamlit_0.png"
 date: 2024-07-13 21:16
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-ETFAnalysiswithPythonandStreamlit_0.png
 tag: Tech
 originalTitle: "ETF Analysis with Python and Streamlit"
 link: "https://medium.com/python-in-plain-english/etf-analysis-with-python-and-streamlit-99bf9cffcc3b"
 isUpdated: true
 ---
-
-
-
 
 이전에 주식과 비슷한 도전 과제를 함께 해봤죠. 그럼 다른 주식을 포함하는 "주식"은 어떨까요? 함께 살펴봅시다.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 ETF 또는 상장지수펀드는 투자자들 사이에서 인기가 높아지고 있는데, 상장지수펀드는 상호펀드에 비해 다양성, 유동성, 그리고 낮은 비용 비율을 제공하는 능력으로 인해 매우 인기를 모으고 있습니다. 다양한 ETF가 존재하는 가운데, 이를 분석하고 비교할 수 있는 적절한 도구를 갖고 있는 것이 중요합니다. 이 기사에서는 Python(코딩)과 Streamlit(시각화)을 사용하여 견고한 ETF 정보 대시보드를 구축하는 방법을 보여드리겠습니다. 이 인터랙티브 대시보드를 통해 사용자는 ETF를 선택하고 전역 가치, 배당 정보, 기본 및 기술 분석 지표, 그리고 ETF의 상위 10개 구성요소를 포함한 자세한 정보를 볼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # ETF란 무엇인가요?
 
@@ -32,7 +40,18 @@ ETF는 주식 거래소에서 거래되는 투자 펀드로, 개별 주식과 �
 
 이 프로젝트에서는 Python 어플리케이션을 개발하여 Streamlit을 사용하여 직관적이고 상호작용 가능한 ETF 정보 대시보드를 만들고자 합니다. 이 대시보드는 투자자가 다양한 ETF에 대한 통찰력을 얻어 정보에 기반한 투자 결정을 내릴 수 있는 종합적인 도구로 작용할 것입니다. Python과 Streamlit의 강력한 기능을 활용하여, 핵심 데이터를 조직화되고 쉽게 소화할 수 있는 방식으로 제공하는 사용자 친화적인 인터페이스를 구축할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대시보드는 사용자가 원하는 ETF를 선택하고 해당 ETF에 대한 다양한 정보에 액세스할 수 있도록 합니다. 대시보드의 주요 기능은 다음과 같습니다:
 
@@ -46,7 +65,18 @@ ETF는 주식 거래소에서 거래되는 투자 펀드로, 개별 주식과 �
 
 수정된 것은 여기까지, 그럼 이제 시작해 봅시다!...
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 프로젝트 설정하기
 
@@ -59,7 +89,18 @@ venv/scripts/activate
 
 프로젝트 환경을 설정하기 위해 필요한 라이브러리와 함께 Python이 설치되어 있는지 확인하세요. 필요한 라이브러리를 다음 명령어를 사용하여 설치할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 pip install streamlit yfinance pandas requests
@@ -141,7 +182,18 @@ def calculate_macd(series, short_period=12, long_period=26, signal_period=9):
     return macd.iloc[-1]
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 섹션에서는 기술적, 기본적, 배당 정보 및 글로벌 수준 값과 같은 모든 주요 메트릭을 확인했습니다. 데이터를 대시보드에 표시하려면 처리하고 구조화해야 합니다. 이 과정에는 기술적 분석을 위해 RSI 및 MACD와 같은 메트릭을 계산하는 것이 포함되며, 이는 위 섹션에서 이미 수행되었습니다.
 
@@ -168,7 +220,18 @@ def get_etf_components(etf_list, api_key):
 
 모든 설정이 완료되었습니다. 메서드는 거의 준비되어 있습니다. 뭘 빼먹었을까요? 분석하려는 ETF 목록 및 해당 ETF 구성 요소의 주식 데이터가 없습니다. 이것도 여기서 채워봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 def get_stock_data(symbol):
@@ -260,7 +323,18 @@ def main():
             st.dataframe(styled_comp_df)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 길죠? 조금씩 나눠볼까요?
 
@@ -277,7 +351,18 @@ def main():
 - 전역 값: st.subheader("Global Values")는 하위 제목을 설정합니다. global_df = pd.DataFrame(global_values.items(), columns=["Metric", "Value"])는 전역 값 사전에서 DataFrame을 생성하고 st.table(global_df)로 테이블 형식으로 표시합니다.
 - 배당 정보: 마찬가지로 st.subheader("Dividend Information")로 다른 하위 제목을 설정하고 배당 정보가 테이블로 표시됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2열 내용: col2 내부에서:
 
@@ -288,7 +373,18 @@ def main():
 
 구성요소 데이터 처리:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 오류 처리: if isinstance(components, str): st.error(components)은 구성 요소 데이터를 가져오는 데 오류가 있는지 확인하고, 그렇다면 오류 메시지를 표시합니다.
 - 주식 데이터 가져오기: 각 구성 요소에 대해 price, change = get_stock_data(comp[`name`])은 get_stock_data 함수를 사용하여 최신 가격과 가격 변경 비율을 가져오고, 이러한 값들이 구성 요소 데이터에 추가됩니다.
@@ -306,11 +402,33 @@ if __name__ == "__main__":
 
 이제, 이 코드를 IDE 터미널에서 streamlit과 함께 실행할 겁니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <table> 태그를 Markdown 형식으로 변경해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지 태그를 Markdown 형식으로 변경하겠습니다.
 
@@ -322,8 +440,18 @@ SPY를 선택하면, 코드로 분류된 정보 슬라이스를 볼 수 있습�
 
 끝까지 스크롤하면, ETF 구성 요소(전체가 아니지만 상위 10개)가 최근 성과 및 ETF 내의 가중치와 함께 표시됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![ETF Analysis](/assets/img/2024-07-13-ETFAnalysiswithPythonandStreamlit_5.png)
 
@@ -333,8 +461,18 @@ Python과 Streamlit을 사용하여 ETF 정보 대시보드를 만드는 것은 
 
 이 문서에서 안내된 단계를 따라가면 Python과 Streamlit을 활용하여 자체 금융 대시보드를 만들고 투자 분석을 더욱 발전시킬 수 있습니다. 즐거운 코딩 투자하세요!
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 애플리케이션의 완료된 코드입니다:
 
@@ -354,109 +492,120 @@ if __name__ == "__main__":
 그리고 상위 100개 ETF의 완전한 목록입니다:
 
 ```js
-SPY
-IVV
-VOO
-VTI
-QQQ
-VEA
-VUG
-IEFA
-VTV
-BND
-AGG
-IWF
-IJH
-IJR
-VIG
-IEMG
-VWO
-VXUS
-VGT
-XLK
-IWM
-VO
-GLD
-VB
-IWD
-SCHD
-VYM
-ITOT
-BNDX
-RSP
-EFA
-TLT
-VCIT
-IVW
-QUAL
-XLV
-SCHX
-XLE
-VEU
-XLF
-MUB
-SCHF
-IXUS
-VT
-VCSH
-IWB
-VV
-DIA
-JEPI
-SPLG
-IVE
-VNQ
-IWR
-VTEB
-LQD
-BSV
-BIL
-MBB
-VBR
-IEF
-IUSB
-SCHB
-IAU
-DFAC
-SCHG
-DGRO
-VGIT
-GOVT
-SPYG
-SHY
-USMV
-GBTC
-QQQM
-JPST
-COWZ
-TQQQ
-MDY
-IGSB
-SPYV
-SDY
-VGSH
-SPDW
-XLY
-VGK
-ACWI
-SGOV
-VONG
-MGK
-TIP
-SMH
-VXF
-DVY
-EEM
-SHV
-XLI
-XLC
-VHT
-VMBS
-USFR
-BIV
+SPY;
+IVV;
+VOO;
+VTI;
+QQQ;
+VEA;
+VUG;
+IEFA;
+VTV;
+BND;
+AGG;
+IWF;
+IJH;
+IJR;
+VIG;
+IEMG;
+VWO;
+VXUS;
+VGT;
+XLK;
+IWM;
+VO;
+GLD;
+VB;
+IWD;
+SCHD;
+VYM;
+ITOT;
+BNDX;
+RSP;
+EFA;
+TLT;
+VCIT;
+IVW;
+QUAL;
+XLV;
+SCHX;
+XLE;
+VEU;
+XLF;
+MUB;
+SCHF;
+IXUS;
+VT;
+VCSH;
+IWB;
+VV;
+DIA;
+JEPI;
+SPLG;
+IVE;
+VNQ;
+IWR;
+VTEB;
+LQD;
+BSV;
+BIL;
+MBB;
+VBR;
+IEF;
+IUSB;
+SCHB;
+IAU;
+DFAC;
+SCHG;
+DGRO;
+VGIT;
+GOVT;
+SPYG;
+SHY;
+USMV;
+GBTC;
+QQQM;
+JPST;
+COWZ;
+TQQQ;
+MDY;
+IGSB;
+SPYV;
+SDY;
+VGSH;
+SPDW;
+XLY;
+VGK;
+ACWI;
+SGOV;
+VONG;
+MGK;
+TIP;
+SMH;
+VXF;
+DVY;
+EEM;
+SHV;
+XLI;
+XLC;
+VHT;
+VMBS;
+USFR;
+BIV;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 감사합니다!
 

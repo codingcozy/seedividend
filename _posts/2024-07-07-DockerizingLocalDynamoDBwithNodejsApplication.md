@@ -3,16 +3,13 @@ title: "Nodejs 애플리케이션으로 로컬 DynamoDB를 Dockerizing 하는 �
 description: ""
 coverImage: "/assets/img/2024-07-07-DockerizingLocalDynamoDBwithNodejsApplication_0.png"
 date: 2024-07-07 03:17
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-DockerizingLocalDynamoDBwithNodejsApplication_0.png
 tag: Tech
 originalTitle: "Dockerizing Local DynamoDB with Node.js Application"
 link: "https://medium.com/@alimarnoos/dockerizing-local-dynamodb-with-node-js-application-eb555d704c06"
 isUpdated: true
 ---
-
-
-
 
 ![2024-07-07-DockerizingLocalDynamoDBwithNodejsApplication_0.png](/assets/img/2024-07-07-DockerizingLocalDynamoDBwithNodejsApplication_0.png)
 
@@ -22,7 +19,18 @@ AWS는 DynamoDB용 Docker 이미지를 쉽게 가져올 수 있어요. 이 부�
 
 몇 시간 동안 여러 번의 시행착오 끝에, 결국 작동하는 해결책을 찾았어요. 이 특정 사용 사례에 대한 온라인 기사를 찾을 수 없어서, 이곳에서 제 발견을 공유하기로 했어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 내가 한 작업이야:
 
@@ -35,7 +43,7 @@ FROM node:18
 
 WORKDIR /usr/src/app
 
-COPY package*.json ./
+COPY package\*.json ./
 
 RUN npm install
 
@@ -49,8 +57,18 @@ CMD ["npm", "run", "dev"]
 
 위에서 볼 수 있듯이, 컨테이너를 실행하기 위해 npm run dev 명령어를 제공했어. TypeScript 앱이 있으니까 nodemon을 설치하고 package.json 파일 스크립트를 다음과 같이 구성했어.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```json
  "scripts": {
@@ -67,20 +85,20 @@ CMD ["npm", "run", "dev"]
 ```yaml
 #docker-compose.yml
 
-version: '3.8'
+version: "3.8"
 
 services:
   dynamodb-local:
     image: amazon/dynamodb-local
     ports:
-      - '8000:8000'
+      - "8000:8000"
     volumes:
       - ./dynamodb_data:/home/dynamodblocal/data
 
   app:
     build: .
     ports:
-      - '3000:3000'
+      - "3000:3000"
     environment:
       - AWS_REGION=us-east-1
       - AWS_ACCESS_KEY_ID=your_access_key_id
@@ -92,8 +110,18 @@ services:
     command: npm run dev
 ```
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해당 파일에는 두 개의 서비스/컨테이너가 포함되어 있습니다:
 
@@ -107,7 +135,18 @@ app:
     build: .
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3- 프로젝트 루트 디렉토리에 Makefile을 만들어주세요.
 
@@ -145,7 +184,18 @@ clean: stop
 
 각 명령어를 자세히 살펴보겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - build: 도커 이미지를 빌드하려면 docker-compose build를 실행합니다.
 - start: 도커 컨테이너를 시작하려면 docker-compose up을 실행합니다.
@@ -160,11 +210,23 @@ make build
 
 이제 실행할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 make 시작하기
 
 노트:
+
 - 새 패키지를 설치할 때는 make build를 다시 실행하여 컨테이너를 다시 빌드해야 합니다.
 - 빌드 명령어를 여러 번 실행하면 사용되지 않는 오래된 이미지가 많이 생성될 수 있으므로 make clean을 사용하거나 도커 CLI/Docker Desktop을 사용하여 정리하는 것이 좋습니다.
 

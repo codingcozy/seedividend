@@ -3,17 +3,13 @@ title: "부트스트랩, TailwindCSS 및 웹 스타일링에 대한 몇 가지 �
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Some Thoughts about Bootstrap, TailwindCSS, and Web Styling"
 link: "https://medium.com/gitconnected/some-thoughts-about-bootstrap-tailwindcss-and-web-styling-f24544a7f882"
 isUpdated: true
 ---
-
-
-
-
 
 # 어떤 배경
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ![아트 워크샵 사진](/assets/img/SomeThoughtsaboutBootstrapTailwindCSSandWebStyling_0.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또 무례한 버전을 만들어 놨는데, Tailwind를 조롱하는 거야. 개인적인 것은 전혀 아니야. 현재 인기 있는 CSS 프레임워크고, 그 커뮤니티는 농담이나 비판을 잘 받아들이지 못해... 나한테는 재밌지!
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 그래서 나는 생각해 보게 되었어...
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 나의 생각
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 한편, 테일윈드는 개발자에게만 스타일링을 더 쉽게 제공합니다. 사용하려면 CSS/스타일에 대해 알아야 합니다: 마진과 패딩, 단위, 요소 상태 등의 차이...
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 풀리는 거엔다 이용법, 특히 개발자가 아닌 분들은 가지지 않거나 원치 않을 수 있는 학습곡선이 존재합니다. 이런 점에서 Tailwind는 "실용성이 적고" 좀 더 특수한 것으로 여겨질 수 있습니다 (Google에 따르면, 이를 사용하는 사이트는 0.5%밖에 되지 않지만, 출시 일자를 고려하면 공정한 비교라고는 할 수 없습니다).
 

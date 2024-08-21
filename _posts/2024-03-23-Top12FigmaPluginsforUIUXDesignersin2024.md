@@ -3,17 +3,13 @@ title: "2024년 UIUX 디자이너를 위한 최고의 Figma 플러그인 12가�
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Top 12 Figma Plugins for UI UX Designers in 2024"
 link: "https://uxplanet.org/top-12-figma-plugins-for-ui-ux-designers-in-2024-c54e320dadf9"
 isUpdated: true
 ---
-
-
-
-
 
 ## 2024년 프로젝트에 사용할 12가지 피그마 플러그인을 모았어요. 모두 당신의 아카이브에 속해 있어요!
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 당신의 레이아웃에 필요한 콘텐츠가 필요하세요? 이 플러그인은 텍스트 컴포넌트, 아바타 및 아이콘을 쉽게 추가하고 작성할 수 있게 해줍니다. 당신이 프로젝트 디자인에서 하나 이상의 레이어를 선택하고, "콘텐츠 카탈로그" 메뉴에서 콘텐츠 유형을 선택하고 선택한 레이어에 적용하면 됩니다. 간단하고 기능적이며 당신의 작업을 더 쉽게 만들어 줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # html.to.design
 
@@ -36,7 +43,18 @@ isUpdated: true
 - 협업을 위해 웹 페이지를 Figma에 업로드합니다.
 - UX 텍스트를 개선하고 웹사이트에서 어떻게 보일지 이해합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Fast Isometric
 
@@ -46,7 +64,18 @@ Fast Isometric은 이미지를 이소메트릭 투영법으로 빠르고 쉽게 
 
 다음은 Figma에서 이소메트릭 이미지를 만드는 데 유용한 7가지 플러그인입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # FrameHop
 
@@ -56,7 +85,18 @@ Fast Isometric은 이미지를 이소메트릭 투영법으로 빠르고 쉽게 
 
 # 3D로 변환
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 플러그인을 사용하면 간단한 클릭으로 모든 벡터를 3D로 변환할 수 있어요. 변환된 모델은 GPU 광선 추적으로 자동 배치되고 렌더링됩니다. 3D 아이콘, 텍스트 또는 3D 스타일 이미지를 렌더링하는 데 전문가가 아니어도 사용할 수 있어요.
 
@@ -66,7 +106,18 @@ Stark는 독특하고 포괄적인 제품을 만드는 데 도움이 되는 완�
 
 # Unsplash
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 언스플래쉬는 무료 이미지가 많이 올라온 거대한 플랫폼이에요. 이 플러그인은 개인 및 상업 프로젝트에 높은 품질의 자원 이미지를 검색하고 가져오는 기능을 제공해줘요.
 
@@ -76,7 +127,18 @@ Stark는 독특하고 포괄적인 제품을 만드는 데 도움이 되는 완�
 
 ## 오토플로우
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오토플로우는 레이아웃 작업을 훨씬 더 쉽게 만들어주는 플러그인입니다. 이 도움을 통해 필요한 구성 요소들을 쉽게 연결하고 필요한 링크를 설정할 수 있습니다.
 
@@ -86,7 +148,18 @@ Stark는 독특하고 포괄적인 제품을 만드는 데 도움이 되는 완�
 
 플러그인의 특징:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 다이어그램을 만들 때 견고한 커넥터(화살표) 추가
 - 이동할 때 자동으로 업데이트
@@ -101,7 +174,18 @@ Iconly Pro은 제 프로젝트에서 아이콘이 필요할 때 사용하는 플
 
 또는 Feather Icons를 사용할 수도 있습니다. 자세한 내용은 이 링크를 확인하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 타입스케일
 
@@ -111,4 +195,15 @@ Iconly Pro은 제 프로젝트에서 아이콘이 필요할 때 사용하는 플
 
 구독하고 연락을 유지하세요. 앞으로 어떤 내용을 배우고 싶은지 알려주세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

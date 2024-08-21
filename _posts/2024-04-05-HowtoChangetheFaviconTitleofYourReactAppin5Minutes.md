@@ -3,17 +3,13 @@ title: "React 앱의 파비콘과 타이틀을 변경하는 가장 빠른 방법
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How to Change the Favicon , Title of Your React App in 5 Minutes"
 link: "https://medium.com/@leahcardoz/how-to-change-the-favicon-title-of-your-react-app-in-5-minutes-9163e023b8d2"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/HowtoChangetheFavicon-TitleofYourReactAppin5Minutes_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 <img src="/assets/img/HowtoChangetheFavicon-TitleofYourReactAppin5Minutes_1.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 원래 제목을 편집하고 React 앱에 기본으로 제공되는 파비콘을 바꾸는 작업은 어렵게 느꼈어요... 하지만 약간의 구글링과 실험 끝에 5분 이내에 둘 다 변경하는 법을 알아내게 됐어요. 여기에 간단히 설명하겠습니다:
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ![이미지](/assets/img/HowtoChangetheFavicon-TitleofYourReactAppin5Minutes_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 헤드 태그 안에서 타이틀 태그를 찾아보세요… 다음과 같아야 합니다:
 
@@ -47,7 +65,18 @@ isUpdated: true
 <title>할 일 목록</title>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. 변경 사항을 코드 편집기에 저장하고 브라우저 탭을 새로고침하면 새 제목이 표시됩니다!:
 
@@ -57,7 +86,18 @@ isUpdated: true
 
 - 코드 편집기에서 React 앱의 public 폴더에서 파비콘 파일을 찾아보세요... 이름은 'favicon.ico'입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![파비콘 변경하는 법 - React 앱의 제목을 5분 안에 바꾸는 방법](/assets/img/HowtoChangetheFavicon-TitleofYourReactAppin5Minutes_4.png)
 
@@ -67,7 +107,18 @@ isUpdated: true
 
 ![파비콘 변경하는 법 - React 앱의 제목을 5분 안에 바꾸는 방법](/assets/img/HowtoChangetheFavicon-TitleofYourReactAppin5Minutes_5.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. 저장된 이미지를 코드 편집기의 공용 폴더로 끌어다 놓으세요:
 
@@ -77,7 +128,18 @@ isUpdated: true
 
 ![이미지](/assets/img/HowtoChangetheFavicon-TitleofYourReactAppin5Minutes_7.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 6. 코드 편집기에서 변경 사항을 저장한 후 브라우저 탭을 새로고침하면 새 파비콘과 새 제목이 나타납니다!:
 

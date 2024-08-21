@@ -3,17 +3,13 @@ title: "Flutter 313 이후 앱 라이프사이클 이벤트 접근 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How to Listen to the App Lifecycle Event after Flutter 313"
 link: "https://medium.com/stackademic/how-to-listen-to-the-app-lifecycle-event-after-flutter-3-13-120a4ecf1453"
 isUpdated: true
 ---
-
-
-
-
 
 ![How to listen to the App Lifecycle Event after Flutter 3.1.3](/assets/img/HowtoListentotheAppLifecycleEventafterFlutter313_0.png)
 
@@ -27,7 +23,18 @@ isUpdated: true
 - detached: 애플리케이션은 여전히 플러터 엔진에 의해 호스팅되지만 호스트 뷰에서 분리되었습니다.
 - hidden: 애플리케이션의 모든 뷰가 숨겨져 있는 상태로, 애플리케이션이 일시 중지되어야 할 때(애플 iOS 및 안드로이드), 최소화되거나 더 이상 보이지 않는 데스크톱에 놓여 있거나(비웹 데스크톱) 보이지 않는 창이나 탭에서 실행 중인 경우(웹) 있는 상태입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 라이프사이클 상태를 상태 관리 위젯에 구현함으로써 다양한 이벤트에 대응하고 앱의 상태를 관리할 수 있습니다. 예를 들어, 앱이 백그라운드로 전환될 때 특정 작업을 일시 중지하거나 다른 위젯 의존성이 변경될 때 데이터 가져오기를 처리할 수 있습니다.
 
@@ -96,7 +103,18 @@ class _AppLifecyclePageOldState extends State<AppLifecyclePageOld> with WidgetsB
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 3. 플러터 3.13 이후 앱 라이프사이클 이벤트를 듣는 새로운 방법
 
@@ -106,7 +124,18 @@ AppLifecycleListener 클래스는 플러터에서 앱 라이프사이클 이벤�
 
 AppLifecycleListener를 사용하려면 클래스의 인스턴스를 만들고 청취하려는 원하는 이벤트 콜백을 전달하면 됩니다. 이를 통해 WidgetsBindingObserver mixin 전체를 구현할 필요 없이 특정 앱 라이프사이클 이벤트를 쉽게 처리할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AppLifecycleListener을 사용하면 코드를 최적화하고 더 가독성이 높고 유지보수가 쉬워집니다. 관심 있는 특정 이벤트에만 집중하면 됩니다.
 
@@ -172,7 +201,18 @@ class _AppLifecyclePageState extends State<AppLifecyclePage> {
 
 과거 방식과 새로운 방식은 매우 유사합니다. AppLifecycleListener 클래스의 주요 장점을 이해하려면 플러터 앱 라이프사이클의 상태 머신 다이어그램을 살펴보겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![How to listen to the App Lifecycle Event after Flutter 3.1.3](/assets/img/HowtoListentotheAppLifecycleEventafterFlutter313_1.png)
 
@@ -182,7 +222,18 @@ AppLifecycleListener 클래스가 도입됨으로써, 이제 이러한 상태 �
 
 AppLifecycleListener 클래스를 활용하면 상태 간 전환을 효과적으로 포착하고 처리할 수 있어요. 이를 통해 앱의 행동을 더 정확하게 제어하고 사용자 정의할 수 있게 해줘요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 class AppLifecyclePage extends StatefulWidget {
@@ -271,7 +322,18 @@ class _AppLifecyclePageState extends State<AppLifecyclePage> {
 
 AppLifecycleListener 클래스를 사용하여 앱 종료 작업을 취소할 수 있습니다. AppLifecycleListener에 onExitRequested라는 콜백이 있으며, 이 콜백은 종료가 취소 가능한 경우 애플리케이션이 종료를 허용할지 묻는 데 사용됩니다. 예를 들어, 사용자가 저장되지 않은 변경 사항이 있는 경우 MacOS 응용 프로그램에서 앱을 닫으려고 할 때 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앱을 종료하는 요청을 취소하려면 onExitRequested 콜백에서 AppExitResponse.cancel을 반환해야 합니다. 그렇지 않으면 애플리케이션이 종료되도록 하려면 AppExitResponse.exit를 반환하십시오:
 
@@ -351,7 +413,18 @@ class _AppLifecyclePageState extends State<AppLifecyclePage> {
 
 # 6. 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 네, AppLifecycleListener 클래스는 앱 라이프사이클 상태를 청취하는 새로운 방법을 소개합니다. 특히 이 상태 간의 전이를 포착하는 데 특히 중점을 둡니다. AppLifecycleListener 클래스의 주목할 만한 기능 중 하나는 onExitRequested 콜백을 포함하고 있다는 것입니다. 이 콜백은 종료 요청을 처리를 간소화해줍니다, 특히 종료를 취소할 수 있는 시나리오에서 특히 유용합니다.
 
@@ -361,4 +434,15 @@ AppLifecycleListener 클래스를 활용함으로써 개별 앱 라이프사이�
 
 이 기사가 마음에 드셨다면, 더 많은 .Net Core, Angular, Flutter 및 다른 기술 관련 이야기를 보려면 저를 Medium에서 팔로우해주세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

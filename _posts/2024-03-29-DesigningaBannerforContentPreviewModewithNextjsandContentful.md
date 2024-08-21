@@ -3,17 +3,13 @@ title: "Nextjs와 Contentful을 사용하여 콘텐츠 미리보기 모드용 �
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Designing a Banner for Content Preview Mode with Nextjs and Contentful"
 link: "https://medium.com/@micheburrito/designing-a-banner-for-content-preview-mode-with-next-js-and-contentful-6158f8f568f7"
 isUpdated: true
 ---
-
-
-
-
 
 안녕하세요!
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 제가 언급하고 싶은 단계는 사용자에게 미리보기 모드에 있다는 것을 알리는 무언가를 설계하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 첫 번째 단계로 요구 사항에 대해 생각 중이었어요:
 
@@ -35,7 +42,18 @@ isUpdated: true
 
 배너 색으로 노란색을 선택했는데, 형광펜 색상을 연상시켜 내용을 쉽게 발견할 수 있을 것 같았거든요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 이것은 콘텐츠를 가리는데 쓰이는 것이었기 때문에 최고의 디자인된 배너는 아니었어요.
 
@@ -45,7 +63,18 @@ isUpdated: true
 
 ![이미지](/assets/img/DesigningaBannerforContentPreviewModewithNextjsandContentful_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어머! 이번에는 배너의 너비를 작게 만들기로 결정했어요. 지금은 배너보다는 메모지 느낌이 들어서, 늘어진 버전보다 훨씬 마음에 드네요. 여백도 더해주니 "포스트잇" 같은 느낌이 더 돋보이죠. 마지막으로, 버튼을 좀 고쳐야겠어요.
 
@@ -55,7 +84,18 @@ isUpdated: true
 
 다른 생각들을 좀 더 공유해드릴게요: 버튼을 다른 스타일로 편집하거나 좀 더 여백을 줄 수 있겠죠. 그렇지 않아도 그냥 괜찮아 보이긴 해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금까지 최종 제품입니다!
 
@@ -65,8 +105,18 @@ isUpdated: true
 
 지금까지입니다. 이 콘텐츠에 대해 읽는 것을 좋아하신다면 알려주세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 | 제목 1 | 제목 2 | 제목 3 |
 | ------ | ------ | ------ |

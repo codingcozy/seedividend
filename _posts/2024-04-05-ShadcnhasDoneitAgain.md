@@ -3,17 +3,13 @@ title: "Shadcn이란 무엇인지 알아보기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Shadcn has Done it Again"
 link: "https://medium.com/@danielcracbusiness/shadcn-has-done-it-again-cad209b16181"
 isUpdated: true
 ---
-
-
-
-
 
 # 샤드씬-UI 블록이 뭐야?
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 Tailwind나 NextUI와 같은 다른 UI 라이브러리들은 이미 UI "블록"이라는 이 아이디어를 지원하지만, 이러한 라이브러리들을 사용하려면 일반적으로 비용을 지불해야 할 것이야.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/ShadcnhasDoneitAgain_0.png" />
 
@@ -33,7 +40,18 @@ Tailwind나 NextUI와 같은 다른 UI 라이브러리들은 이미 UI "블록"�
 
 # 샤흐스디앟-UI 블록 더 알아보기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전에 말했듯이 Shadcn-UI Blocks는 기존의 Shadcn-UI 기본 요소 (예: Card, Drawer) 위에 구축되었습니다.
 
@@ -43,7 +61,18 @@ Tailwind나 NextUI와 같은 다른 UI 라이브러리들은 이미 UI "블록"�
 
 # 우리가 필요한 곳
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 커뮤니티에게 블록 생성 요청을 할 수 있는 능력이 있습니다.
 
@@ -53,7 +82,18 @@ Tailwind나 NextUI와 같은 다른 UI 라이브러리들은 이미 UI "블록"�
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 샤드시엔이 또 다시 성공했어요.
 
@@ -63,7 +103,18 @@ Tailwind나 NextUI와 같은 다른 UI 라이브러리들은 이미 UI "블록"�
 
 # 추천 기사
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 제휴사
 
@@ -76,7 +127,18 @@ Tailwind나 NextUI와 같은 다른 UI 라이브러리들은 이미 UI "블록"�
 
 # 참고문헌
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - [https://www.youtube.com/watch?v=kgHzwb37LLE](https://www.youtube.com/watch?v=kgHzwb37LLE)
 - [https://ui.shadcn.com/blocks](https://ui.shadcn.com/blocks)

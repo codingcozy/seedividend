@@ -3,16 +3,13 @@ title: "마이크로서비스 아키텍처를 위한 Docker Compose 설정 방�
 description: ""
 coverImage: "/assets/img/2024-07-10-DockerComposeSetupforaMicroServicesArchitecture_0.png"
 date: 2024-07-10 02:18
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-10-DockerComposeSetupforaMicroServicesArchitecture_0.png
 tag: Tech
 originalTitle: "Docker Compose Setup for a MicroServices Architecture"
 link: "https://medium.com/gitconnected/docker-compose-setup-for-a-microservices-architecture-f47902dadcae"
 isUpdated: true
 ---
-
-
-
 
 ## 클릭 한 번에 하나의 호스트에서 여러 서비스를 배포하고 통합하기
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 ## 따라하기 위한 설정하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도커 컴포즈를 사용하여 단일 포트에서 풀 스택 애플리케이션을 호스팅할 때의 사용 예시로 이전 포스트에서 구글 로그인 애플리케이션을 구현할 것입니다. 이 애플리케이션의 코드는 주어진 깃 저장소에서 찾을 수 있지만, 이 애플리케이션의 구성에 대해 더 알고 싶다면 원래의 포스트를 참조해주세요.
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 이 애플리케이션이 완전히 작동하려면 약간의 설정이 더 필요합니다. 구글 OAuth 동의 화면을 구성해야 하는데, 이 과정은 내 구글 OAuth 기사에서 자세히 설명되어 있습니다. 간단히 말하면 이 동의 화면 구성을 동일하게 사용할 수 있습니다. 그러나 이제 애플리케이션을 8080 포트에서 호스팅하고 있으므로, 승인된 JavaScript 출처와 리디렉트 URI를 다음과 같이 업데이트해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-10-DockerComposeSetupforaMicroServicesArchitecture_1.png)
 
@@ -42,7 +61,18 @@ isUpdated: true
 
 ## 네트워킹 및 지원 캐스트
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 Docker-compose 구성의 첫 번째 구성 요소는 아마도 가장 중요한 것입니다. 이것은 구현에서 my-network로 간단히 표시되는 docker 네트워크입니다. 이는 연결된 서비스가 도커 인프라 내에서 통신하도록 허용하는 데 사용됩니다. 여기에 구성되어 있는 것을 볼 수 있으며 이를 docker-compose의 모든 서비스에서 참조할 것입니다.
 
@@ -52,7 +82,18 @@ isUpdated: true
 
 여기서 root 패스워드를 설정하고 SQL의 기본 포트인 3306에 호스팅하는 것도 알아두시기 바랍니다. 이곳의 "volumes"에 특별히 주의를 기울이고 싶습니다. 여기서는 ./docker-conf/mysql_data 디렉토리를 사용하여 데이터를 로컬로 유지하며, 컨테이너가 다시 시작되거나 다시 만들어진 경우에도 데이터가 손실되지 않도록 보장합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 컨테이너를 시작하면 DBeaver와 같은 도구로 SQL 인스턴스에 연결할 수 있습니다. 아래 사진과 같이 다음 구성을 사용하시면 됩니다:
 
@@ -62,7 +103,18 @@ isUpdated: true
 
 ![google_user table columns](/assets/img/2024-07-10-DockerComposeSetupforaMicroServicesArchitecture_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 훌륭한 작품은 지원 캐스트가 필요해요! 이들이 준비됐으면, 이제 쇼의 진짜 주인공들로 넘어갈게요.
 
@@ -72,7 +124,18 @@ isUpdated: true
 
 이 설정에는 몇 가지 중요한 측면이 있어요. 이전 섹션에서 다뤘던 네트워크에 대한 호출을 볼 수 있어요. 애플리케이션들은 네트워크에 배치되어야 하고, container_name을 사용하여 네트워크 상황에서 애플리케이션을 참조할 수 있지만, 나중에 이에 대해 더 자세히 다루게 될 거예요. 그리고 빌드와 볼륨 섹션이 있어요. 우리는 SPRING_DOCKERFILE을 마운트하여 빌드 구성에서 사용할 수 있도록 해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서는 docker-compose 구성에서 사용할 응용 프로그램을 빌드할 것입니다. 이 컨테이너를 다시 빌드할 때마다, 빌드할 이미지의 참고 프레임으로 이 dockerfile이 나타날 것입니다.
 
@@ -82,9 +145,20 @@ isUpdated: true
 
 모두 연결하기 위해 두 애플리케이션을 포트 3000 및 8090을 통해 8080번 포트로 프록시하는 nginx 서비스를 구성할 것입니다. 서비스 구성은 비교적 간단합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-서버를 8080 포트를 사용하도록 구성하고, ./nginx.conf (서버 구성 파일)를 컨테이너에 연결하여 default.conf 파일로 사용할 것입니다. 이제 이 구성 파일을 참조하여 트래픽을 우리 서비스로 프록시할 것입니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+서버를 8080 포트를 사용하도록 구성하고, ./nginx.conf (서버 구성 파일)를 컨테이너에 연결하여 default.conf 파일로 사용할 것입니다. 이제 이 구성 파일을 참조하여 트래픽을 우리 서비스로 프록시할 것입니다.
 
 여기서 컨테이너 이름들을 사용하여 우리가 구성한 대로 동일한 도커 네트워크를 사용하도록 서비스를 참조할 수 있습니다. 네트워크에 더 많은 앱이 있을 경우, 우리는 트래픽을 동일한 방식으로 다양한 포트로 프록시할 것입니다. 여기서 nginx는 로컬 테스트를 위해 8080 포트에서 수신 대기 중이지만, 이는 단일 서버에서 전체 스택 애플리케이션을 80 포트로 배포하는 데 사용될 수 있습니다.
 
@@ -92,7 +166,18 @@ isUpdated: true
 
 이 서버를 가동해 봅시다! 프로젝트로 이동하여 다음 명령을 실행하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 docker-compose up
 
@@ -102,6 +187,17 @@ docker-compose up
 
 ![이미지](/assets/img/2024-07-10-DockerComposeSetupforaMicroServicesArchitecture_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 설정에 따른 적절한 단계를 따라갔다면 백엔드로 성공적인 요청도 볼 수 있을 겁니다. 그렇지 않다면 postman과 같은 도구를 열고 백엔드로 요청을 보냅시다. 403 Unauthorized 응답을 받을 수도 있지만 이는 예상한 것입니다. 백엔드에 도달했다면 설정이 작동 중입니다.

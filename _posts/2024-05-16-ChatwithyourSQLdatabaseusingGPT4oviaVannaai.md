@@ -3,16 +3,13 @@ title: "SQL 데이터베이스와 대화하는 방법 Vannaai를 통해 GPT-4o�
 description: ""
 coverImage: "/assets/img/2024-05-16-ChatwithyourSQLdatabaseusingGPT4oviaVannaai_0.png"
 date: 2024-05-16 16:31
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-16-ChatwithyourSQLdatabaseusingGPT4oviaVannaai_0.png
 tag: Tech
 originalTitle: "Chat with your SQL database using GPT 4o via Vanna.ai"
 link: "https://medium.com/@arslanshahid-1997/chat-with-your-sql-database-using-gpt-4o-via-vanna-ai-b87e3296f8dc"
 isUpdated: true
 ---
-
-
-
 
 ## OpenAI GPT 4o를 활용한 텍스트-SQL 파이프라인 만들기
 
@@ -22,7 +19,18 @@ OpenAI가 최신 주력 모델인 GPT 4o를 공개했습니다. 이 고급 모�
 
 ![image](/assets/img/2024-05-16-ChatwithyourSQLdatabaseusingGPT4oviaVannaai_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-05-16-ChatwithyourSQLdatabaseusingGPT4oviaVannaai_2.png" />
 
@@ -44,7 +52,18 @@ vn = MyVanna(config={'api_key': 'sk-...', 'model': 'gpt-4o'})
 
 # 데이터베이스 연결하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 바나에는 내장된 커넥터로 다음 8가지 데이터베이스에 연결할 수 있어요 (다른 데이터베이스에 연결하려면 몇 줄의 추가 코드가 필요해요):
 
@@ -64,7 +83,18 @@ vn = MyVanna(config={'api_key': 'sk-...', 'model': 'gpt-4o'})
 vn.connect_to_duckdb(url='motherduck:[<database_name>]?motherduck_token=<token>&saas_mode=true')
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 훈련
 
@@ -74,7 +104,18 @@ vn.connect_to_duckdb(url='motherduck:[<database_name>]?motherduck_token=<token>&
 
 ![이미지3](/assets/img/2024-05-16-ChatwithyourSQLdatabaseusingGPT4oviaVannaai_5.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Plan (Information Schema)에 대한 훈련
 
@@ -94,7 +135,18 @@ plan
 vn.train(plan=plan)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # DDL 훈련
 
@@ -117,7 +169,7 @@ LIMIT 10
 """)
 # 다른 예시
 vn.train(
-question="가장 많은 답변을 한 사용자와 가장 적은 질문을 한 사용자 간의 총 답변 차이는 얼마인가요?", 
+question="가장 많은 답변을 한 사용자와 가장 적은 질문을 한 사용자 간의 총 답변 차이는 얼마인가요?",
 ,sql="SELECT MAX(answer_count) - MIN(answer_count) AS difference
 FROM (
     SELECT OwnerUserId, COUNT(*) AS answer_count
@@ -128,7 +180,18 @@ FROM (
 ")
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 문서화를 통한 훈련
 
@@ -147,7 +210,18 @@ vn.train(documentation="해당 연도 가장 많은 답변을 낸 사용자를 �
 # 4. vn.get_plotly_figure
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # Vanna 훈련 후 질문을하는 방법입니다
@@ -159,9 +233,19 @@ vn.ask('뱃지 수가 가장 많은 상위 10 명의 사용자를 찾아주세�
 ![이미지](/assets/img/2024-05-16-ChatwithyourSQLdatabaseusingGPT4oviaVannaai_7.png)
 
 # Flask 앱 사용하기
-  
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Vanna는 내장 UI Flask 앱이 함께 제공됩니다. 주피터 노트북이나 Python 스크립트 내에서 실행할 수 있습니다.
 
@@ -175,7 +259,18 @@ app.run()
 
 이렇게 GPT 4o를 텍스트에서 SQL로 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 성능 비교
 

@@ -3,17 +3,13 @@ title: "리액트 JS에서 이미지를 추가하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "React js how to add an image  a beginners guide"
 link: "https://medium.com/@vitaliysteffensen/react-js-how-to-add-an-image-a-beginners-guide-66334f1d18be"
 isUpdated: true
 ---
-
-
-
-
 
 리액트 JS에서 이미지를 추가하고 스타일을 지정하는 초보자를 위한 완벽 가이드입니다.
 
@@ -25,7 +21,18 @@ isUpdated: true
 
 # 이미지 추가
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트에서 이미지를 삽입하는 여러 가지 방법이 있어요.
 
@@ -35,7 +42,18 @@ isUpdated: true
 
 "src" (소스): 이미지의 URL이나 경로.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 “alt” (alternate): 이미지를 사용할 수 없는 경우 대체 텍스트입니다.
 
@@ -47,7 +65,18 @@ isUpdated: true
 
 CSS를 사용하여 요소의 배경을 설정할 수 있습니다. 이는 이미지 위에 콘텐츠를 표시하고 싶을 때 가장 유용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .app {
@@ -61,7 +90,18 @@ CSS를 사용하여 요소의 배경을 설정할 수 있습니다. 이는 이�
 
 이미지를 프로젝트로 드래그하여 원하는 컴포넌트로 가져옵니다. 그 후에 가져온 이름을 source 속성에 삽입할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 로컬 배경 이미지 삽입하기
 
@@ -71,7 +111,18 @@ CSS를 사용하여 요소의 배경을 설정할 수 있습니다. 이는 이�
 
 프로젝트에서 이미지를 구조화하는 올바른 방법은 이미지를 "이미지" 폴더에 추가하는 것입니다. 이미지 이외의 자산을 사용한다면 모든 자산 폴더를 하나로 추가하고 싶을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <!DOCTYPE html>
 <html>
@@ -88,7 +139,18 @@ CSS를 사용하여 요소의 배경을 설정할 수 있습니다. 이는 이�
 </body>
 </html>
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 너비와/높이: 요소의 너비와 높이 설정
 - 테두리 반지름: 요소의 가장자리를 둥글게 만들기
@@ -101,7 +163,18 @@ CSS를 사용하여 요소의 배경을 설정할 수 있습니다. 이는 이�
 
 배경 이미지 특정:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 배경 이미지: 파일 경로 또는 이미지 URL
 - 배경 반복: 이미지 반복 설정을 축별 또는 양 축에 대해 설정

@@ -3,17 +3,13 @@ title: "React JS에서 Spread Operator 연산자 사용방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "What is the Spread Operator In React JS"
 link: "https://medium.com/@DotNetCornerYT/what-is-the-spread-operator-in-react-js-25f6783710a3"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/WhatistheSpreadOperatorInReactJS_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 주요 작업은 복사, 병합, props 전달, 함수 인수 및 해체입니다. 하나씩 이해해 보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 복사
 
@@ -37,7 +44,18 @@ const newArray = [...oldArray];
 console.log(newArray); // 출력: [1, 2, 3]
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 보기: https://clubofprogrammers.com/spread-operator-in-react-js/
 

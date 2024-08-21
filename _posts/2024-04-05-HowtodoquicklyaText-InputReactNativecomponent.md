@@ -3,17 +3,13 @@ title: "리액트 네이티브 텍스트 Input 컴포넌트 만들기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How to do quickly a Text-Input ReactNative component"
 link: "https://medium.com/@mo_badrawy/how-to-do-quickly-a-text-input-reactnative-component-3314cdac48b4"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/HowtodoquicklyaText-InputReactNativecomponent_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ![이미지](/assets/img/HowtodoquicklyaText-InputReactNativecomponent_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가정적으로, 이미 React 앱을 만드는 방법을 알고 계시다고 가정하겠습니다.
 
@@ -35,7 +42,18 @@ isUpdated: true
 npx create-expo-app StickerSmash
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 이것은 엑스포를 사용한 것이야.
 
@@ -85,17 +103,13 @@ const TextInputWithValidation = ({
           onChange={(e) => handleTextChange(e.target.value)}
           placeholder={placeholder}
           onBlur={() => setIsInputEmpty(text.trim() === "")}
-          className={`textInput ${
-            isInputEmpty || !isValidEmail ? "errorInput" : ""
-          }`} // 유효하지 않은 이메일을 위해 오류 클래스 추가
+          className={`textInput ${isInputEmpty || !isValidEmail ? "errorInput" : ""}`} // 유효하지 않은 이메일을 위해 오류 클래스 추가
           maxLength={maxLength}
         />
         {/* 빈 입력에 대한 오류 메시지 표시 */}
         {isInputEmpty && <p className="errorText">이 입력란은 필수입니다</p>}
         {/* 유효하지 않은 이메일에 대한 오류 메시지 표시 */}
-        {!isValidEmail && (
-          <p className="errorText">유효한 이메일 주소를 입력해주세요</p>
-        )}
+        {!isValidEmail && <p className="errorText">유효한 이메일 주소를 입력해주세요</p>}
         <p>
           {text.length}/{maxLength} 글자
         </p>
@@ -107,7 +121,18 @@ const TextInputWithValidation = ({
 export default TextInputWithValidation;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 CSS 코드입니다.
 
@@ -141,7 +166,18 @@ export default TextInputWithValidation;
 
 그리고 제 개인적으로는 컬러링과 꾸미기 부분을 처리하기 위해 JavaScript 객체인 styles를 사용하는 것을 선호해요. 하지만, 초심자와 숙련자 모두에게 CSS를 사용하는 것도 좋습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 한 조각씩 움직이겠습니다,
 
@@ -162,7 +198,18 @@ const TextInputWithValidation = ({
 }) => {
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 수입 후, 기능 컴포넌트를 만들 것입니다. 시작하기 위해 다음을 작성하십시오.
 
@@ -174,7 +221,18 @@ const TextInputWithValidation = ({
 
 파라미터 또는 프로퍼티는 다음과 같습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 라벨,
@@ -190,7 +248,18 @@ const TextInputWithValidation = ({
 
 표시할 라벨과 이 플레이스홀더야.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/HowtodoquicklyaText-InputReactNativecomponent_3.png" />
 
@@ -204,7 +273,18 @@ const [isValidEmail, setIsValidEmail] = useState(true); // 이메일 유효성�
 const [text, setText] = useState("");
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서는 useState를 사용하고 있어요. React에서 중요한 개념 중 하나에요.
 
@@ -214,7 +294,18 @@ useState는 React에서 함수형 컴포넌트에서 상태를 관리할 수 있
 
 이것은 초심자들을 위한 자세한 설명이었어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에 있는 것은 속성들을 동적으로 설정하는 작업을 다루는 것입니다.
 
@@ -222,7 +313,18 @@ useState는 React에서 함수형 컴포넌트에서 상태를 관리할 수 있
 
 그리고 만약 타입이 "email"인 경우 체크하고 조치를 취합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래의 표 형식을 마크다운 형식으로 변경합니다.
 
@@ -237,7 +339,18 @@ if (onValueChange) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용자가 입력한 값으로 업데이트하도록 하고,
 
@@ -247,7 +360,18 @@ if (onValueChange) {
 
 이런 식으로요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 return (
@@ -271,7 +395,18 @@ return (
 
 이것은 backticks ()로 표시된 템플릿 리터럴입니다. 템플릿 리터럴 내부에서는 `${}`를 사용하여 식을 삽입합니다. 이 경우에는 조건식의 결과가 삽입되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 마크다운 형식으로 변경해주세요.
 
@@ -286,7 +421,18 @@ export default TextInputWithValidation;
 
 CSS 부분은 그냥 복사하여 붙여넣으면 상관없습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음과 같이 올바르게 가져오는 것을 잊지 마세요\
 

@@ -3,17 +3,13 @@ title: "Nextjs 13 프로젝트 preview 모드 사용 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "미리보기 모드"
 link: "undefined"
 isUpdated: true
 ---
-
-
-
-
 
 # 미리보기 모드
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 정적 생성은 페이지가 헤드리스 CMS에서 데이터를 가져올 때 유용합니다. 그러나 헤드리스 CMS에서 초안을 작성하고 해당 초안을 즉시 페이지에서 미리보기하려는 경우 이상적이지 않습니다. Next.js에게 이러한 페이지를 빌드 시간이 아닌 요청 시간에 렌더링하고 게시된 콘텐츠가 아닌 초안 콘텐츠를 가져오도록 할 것입니다. Next.js에게 이 특정 사례에 대해서만 정적 생성을 우회하도록 하려면 이렇게 할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Next.js에는 이 문제를 해결하는 데 도움이 되는 미리 보기 모드라는 기능이 있어요. 사용 방법에 대한 안내가 여기 있어요.
 
@@ -33,7 +40,18 @@ Next.js에는 이 문제를 해결하는 데 도움이 되는 미리 보기 모�
 
 먼저 미리 보기 API 경로를 만든 후 접근해 보세요. 아무 이름으로 생성할 수 있어요 - 예를 들어, pages/api/preview.js(또는 TypeScript를 사용한다면 .ts) 같은 이름으로 만들 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 API 경로에서는 응답 객체에서 setPreviewData를 호출해야 합니다. setPreviewData의 인수는 객체여야하며, getStaticProps에서 사용할 수 있습니다 (이에 대해 나중에 더 설명하겠습니다). 지금은 {}를 사용할 것입니다.
 
@@ -49,7 +67,18 @@ res.setPreviewData는 브라우저에 일부 쿠키를 설정하여 미리보기
 
 아래와 같이 수동으로 API 경로를 생성하고 브라우저에서 수동으로 액세스하여 테스트할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 브라우저에서 수동으로 테스트해 보기 위한 간단한 예제.
@@ -65,7 +94,18 @@ export default function handler(req, res) {
 
 실제로는 헤들리스 CMS에서 이 API 경로에 안전하게 액세스하고 싶을 것입니다. 사용 중인 헤들리스 CMS에 따라 구체적인 단계가 다를 수 있지만, 일반적으로 취할 수 있는 몇 가지 일반적인 단계는 다음과 같습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 단계는 사용 중인 헤드리스 CMS가 사용자 정의 미리 보기 URL 설정을 지원하는 것으로 가정합니다. 그렇지 않은 경우에도이 방법을 사용하여 미리 보기 URL을 안전하게 보호할 수 있지만, 미리 보기 URL을 생성 및 액세스하려면 수동으로 수행해야 합니다.
 
@@ -77,7 +117,18 @@ export default function handler(req, res) {
 https://<your-site>/api/preview?secret=<token>&slug=<path>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - `your-site`은 배포 도메인을 나타냅니다.
 - `token`은 생성한 시크릿 토큰으로 대체되어야 합니다.
@@ -92,7 +143,18 @@ https://<your-site>/api/preview?secret=<token>&slug=<path>
 - res.setPreviewData를 호출합니다.
 - 그런 다음 브라우저를 슬러그로 지정된 경로로 리디렉션합니다. (다음 예제는 307 리디렉트를 사용합니다).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 export default async (req, res) => {
@@ -126,7 +188,18 @@ export default async (req, res) => {
 
 다음 단계는 미리보기 모드를 지원하도록 getStaticProps를 업데이트하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 getStaticProps를 사용하여 미리보기 모드 쿠키가 설정된 페이지를 요청하면(getStaticProps에서 res.setPreviewData를 통해 설정된 경우), getStaticProps가 요청 시간에 호출됩니다(빌드 시간이 아닌).
 
@@ -144,7 +217,18 @@ export async function getStaticProps(context) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프리뷰 API 루트에서 res.setPreviewData({})를 사용하여 context.previewData가 {}로 설정됩니다. 이를 사용하여 필요한 경우에 프리뷰 API 루트에서 세션 정보를 getStaticProps로 전달할 수 있습니다.
 
@@ -154,7 +238,18 @@ getStaticPaths를 사용하는 경우 context.params도 사용할 수 있습니�
 
 getStaticProps를 업데이트하여 context.preview 및/또는 context.previewData에 따라 다른 데이터를 가져올 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, 당신의 헤드리스 CMS는 초안 게시물을 위한 다른 API 엔드포인트를 가질 수 있습니다. 그렇다면 아래와 같이 context.preview를 사용하여 API 엔드포인트 URL을 수정할 수 있습니다:
 
@@ -172,7 +267,18 @@ export async function getStaticProps(context) {
 
 이를 헤드리스 CMS에서 미리보기 URL로 설정하거나 수동으로 액세스하면 미리보기를 볼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 https://<your-site>/api/preview?secret=<token>&slug=<path>
@@ -184,7 +290,18 @@ https://<your-site>/api/preview?secret=<token>&slug=<path>
 
 ### 미리보기 모드 지속 시간 지정하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 setPreviewData는 옵션으로 들어가는 두 번째 매개변수로 옵션 객체여야 합니다. 다음과 같은 키를 허용합니다:
 
@@ -200,7 +317,18 @@ setPreviewData(data, {
 
 ### 미리보기 모드 쿠키 지우기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기본적으로 미리보기 모드 쿠키에는 만료일이 설정되어 있지 않아 브라우저를 닫을 때 미리보기 세션이 종료됩니다.
 
@@ -214,7 +342,18 @@ export default function handler(req, res) {
 
 그런 다음 /api/clear-preview-mode-cookies로 요청을 보내 API 루트를 호출하세요. next/link를 사용하여 이 경로를 호출하는 경우 link prefetching 중 clearPreviewData가 호출되지 않도록 prefetch={false}를 전달해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 setPreviewData 호출 시 경로가 지정된 경우, clearPreviewData에도 동일한 경로를 전달해야 합니다:
 
@@ -230,7 +369,18 @@ export default function handler(req, res) {
 
 setPreviewData에 객체를 전달하고 getStaticProps에서 사용할 수 있습니다. 그러나 데이터는 쿠키에 저장되기 때문에 크기 제한이 있습니다. 현재 미리보기 데이터는 2KB로 제한되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### getServerSideProps와 함께 작동합니다
 
@@ -240,7 +390,18 @@ setPreviewData에 객체를 전달하고 getStaticProps에서 사용할 수 있�
 
 ### API Routes와 함께 작동합니다
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 API 라우트는 요청 객체 내에서 미리보기와 미리보기 데이터에 액세스할 수 있습니다. 예:
 
@@ -256,8 +417,30 @@ export default function myApiRoute(req, res) {
 
 다음 빌드가 완료되면 바이패스 쿠키 값과 미리보기 데이터를 암호화하는 개인 키가 변경됩니다. 이를 통해 바이패스 쿠키를 추측할 수 없게 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 > 알아두면 좋은 정보: 브라우저에서 로컬 HTTP를 통해 미리보기 모드를 테스트하려면 제3자 쿠키 및 로컬 저장소 접근을 허용해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

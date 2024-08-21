@@ -3,17 +3,13 @@ title: "Bootstrap으로 반응형 웹사이트 만드는 방법 Step-by-Step 가
 description: ""
 coverImage: "/assets/img/2024-06-22-ProcesstoCreateaResponsiveWebsitewithBootstrap_0.png"
 date: 2024-06-22 15:31
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-ProcesstoCreateaResponsiveWebsitewithBootstrap_0.png
 tag: Tech
 originalTitle: "Process to Create a Responsive Website with Bootstrap"
 link: "https://medium.com/@leeddev/process-to-create-a-responsive-website-with-bootstrap-d612ff3ede1f"
 isUpdated: true
 ---
-
-
-
-
 
 ![image](/assets/img/2024-06-22-ProcesstoCreateaResponsiveWebsitewithBootstrap_0.png)
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 부트스트랩은 무료이며 오픈 소스의 CSS 프레임워크로, 반응형 및 모바일 최우선의 프론트엔드 웹 개발을 대상으로 합니다. CSS 및 JavaScript 기반으로 이루어져 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 부트스트랩을 사용한 반응형 웹사이트 만들기
 
@@ -34,7 +40,18 @@ isUpdated: true
 
 부트스트랩은 반응형 및 모바일을 우선으로 하는 프론트엔드 웹 개발을 위한 무료 오픈 소스 CSS 프레임워크입니다. 타이포그래피, 폼, 버튼, 내비게이션 및 기타 인터페이스 구성 요소용 CSS 및 JavaScript 기반 디자인 템플릿이 포함되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 부트스트랩 설치하기
 
@@ -44,21 +61,43 @@ isUpdated: true
 
 ## 단계 2: 기본 HTML 구조
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 HTML 문서의 기본 구조를 작성하고 반응형 웹사이트의 기반을 만들어 보세요.
 
 # 레이아웃 구성
 
-## 단계 3: 그리드 시스템 사용하기 
+## 단계 3: 그리드 시스템 사용하기
 
 부트스트랩의 그리드 시스템은 반응형 디자인 기능의 핵심입니다. 컨테이너, 행 및 열 시리즈를 사용하여 콘텐츠를 배치하고 정렬합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컨테이너: 반응형 너비를 가진 고정폭 컨테이너 또는 전체 너비 컨테이너를 만들려면 .container 또는 .container-fluid를 사용하세요.
 행: 열의 수평 그룹을 만들려면 .row를 사용하세요.
-열: .col-* 클래스를 사용하여 행당 표시할 열의 수를 정의하세요. 부트스트랩은 행당 최대 12개 열을 지원합니다.
+열: .col-\* 클래스를 사용하여 행당 표시할 열의 수를 정의하세요. 부트스트랩은 행당 최대 12개 열을 지원합니다.
 
 ## 단계 4: 반응형 이미지 추가
 
@@ -66,17 +105,39 @@ HTML 문서의 기본 구조를 작성하고 반응형 웹사이트의 기반을
 
 # 스타일링과 컴포넌트
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Step 5: 네비게이션 바
 
-부트스트랩은 기본으로 반응형 네비게이션 바를 제공합니다. .navbar, .navbar-expand-*, 그리고 .navbar-light 또는 .navbar-dark 클래스를 사용하여 반응형 및 사용자 정의 가능한 네비게이션 바를 만들 수 있습니다.
+부트스트랩은 기본으로 반응형 네비게이션 바를 제공합니다. .navbar, .navbar-expand-\*, 그리고 .navbar-light 또는 .navbar-dark 클래스를 사용하여 반응형 및 사용자 정의 가능한 네비게이션 바를 만들 수 있습니다.
 
 ## Step 6: 반응형 유틸리티
 
 부트스트랩에는 화면 크기에 따라 콘텐츠를 표시하거나 숨기기 위한 여러 유틸리티 클래스가 포함되어 있습니다. .d-none, .d-sm-block, 그리고 .d-md-none과 같은 클래스를 사용하여 다양한 기기에서 요소의 가시성을 제어할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 자바스크립트로 향상하기
 
@@ -86,7 +147,18 @@ HTML 문서의 기본 구조를 작성하고 반응형 웹사이트의 기반을
 
 # 테스트 및 최적화
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 8: 크로스 브라우저 테스트
 
@@ -96,7 +168,18 @@ HTML 문서의 기본 구조를 작성하고 반응형 웹사이트의 기반을
 
 CSS와 JavaScript 파일을 최소화하고, 반응형 이미지를 사용하며, 브라우저 캐싱을 활용하여 웹사이트의 성능을 최적화하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

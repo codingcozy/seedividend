@@ -3,16 +3,13 @@ title: "Ionic 앱에 지문 및 얼굴 인식을 통합해보세요"
 description: ""
 coverImage: "/assets/img/2024-06-20-IntegrateBiometricAuthenticationinYourIonicAppwithFingerprintandFaceID_0.png"
 date: 2024-06-20 00:33
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-IntegrateBiometricAuthenticationinYourIonicAppwithFingerprintandFaceID_0.png
 tag: Tech
 originalTitle: "Integrate Biometric Authentication in Your Ionic App with Fingerprint and Face ID"
 link: "https://medium.com/@vishaldarekar/integrate-biometric-authentication-in-your-ionic-app-with-fingerprint-and-face-id-416d73a1f96e"
 isUpdated: true
 ---
-
-
-
 
 생체 인증은 지문 및 얼굴 인식을 포함하여 사용자가 안전하고 편리하게 인증할 수 있는 방법을 제공합니다. 이 튜토리얼에서는 cordova-plugin-fingerprint-aio 플러그인을 사용하여 Ionic 앱에 생체 인증을 통합하는 방법을 알아보겠습니다. 이 플러그인은 특정 생체 인식 방법을 추상화하며 지문 및 얼굴 인식을 모두 지원하며 사용자 기기에서 사용 가능한 것에 맞게 적응합니다.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 시작하기 전에 다음 설정이 완료되었는지 확인하십시오:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Node.js 및 npm이 설치되어 있습니다.
 - Ionic CLI가 설치되어 있습니다 (npm install -g @ionic/cli).
@@ -39,7 +47,18 @@ ionic start biometric-auth blank --type=angular
 cd biometric-auth
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 2: 지문 AIO 플러그인 추가하기
 
@@ -52,43 +71,60 @@ npm install @awesome-cordova-plugins/fingerprint-aio
 
 # 단계 3: 앱 구성하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # app.module.ts 업데이트
 
 우리 앱이 FingerprintAIO 프로바이더를 사용하도록 구성해야 합니다. src/app/app.module.ts 파일을 열어 다음과 같이 업데이트해 주세요:
 
 ```js
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
-import { RouteReuseStrategy } from '@angular/router';
+import { NgModule } from "@angular/core";
+import { BrowserModule } from "@angular/platform-browser";
+import { RouteReuseStrategy } from "@angular/router";
 
-import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
-import { SplashScreen } from '@ionic-native/splash-screen/ngx';
-import { StatusBar } from '@ionic-native/status-bar/ngx';
-import { AppComponent } from './app.component';
-import { AppRoutingModule } from './app-routing.module';
+import { IonicModule, IonicRouteStrategy } from "@ionic/angular";
+import { SplashScreen } from "@ionic-native/splash-screen/ngx";
+import { StatusBar } from "@ionic-native/status-bar/ngx";
+import { AppComponent } from "./app.component";
+import { AppRoutingModule } from "./app-routing.module";
 
-import { FingerprintAIO } from '@awesome-cordova-plugins/fingerprint-aio/ngx';
+import { FingerprintAIO } from "@awesome-cordova-plugins/fingerprint-aio/ngx";
 
 @NgModule({
   declarations: [AppComponent],
   entryComponents: [],
   imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule],
-  providers: [
-    StatusBar,
-    SplashScreen,
-    FingerprintAIO,
-    { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }
-  ],
-  bootstrap: [AppComponent]
+  providers: [StatusBar, SplashScreen, FingerprintAIO, { provide: RouteReuseStrategy, useClass: IonicRouteStrategy }],
+  bootstrap: [AppComponent],
 })
 export class AppModule {}
 ```
 
 # 생체 인증 구현
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로 홈페이지 구성요소에 생체 인증을 구현할 것입니다.
 
@@ -134,7 +170,18 @@ export class HomePage {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 홈 페이지 업데이트
 
@@ -158,7 +205,18 @@ src/app/home/home.page.html 파일을 열고 다음과 같이 업데이트하십
 
 # 단계 4: 앱 테스트
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 앱을 테스트할 시간입니다. 바이오메트릭 기능은 시뮬레이터나 에뮬레이터에서 테스트할 수 없으므로 실제 기기에서 앱을 실행해야 합니다.
 

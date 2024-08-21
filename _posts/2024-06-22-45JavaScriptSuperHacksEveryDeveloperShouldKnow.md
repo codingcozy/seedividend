@@ -3,16 +3,13 @@ title: "모든 개발자가 알아야 할 45가지 자바스크립트 슈퍼 해
 description: ""
 coverImage: "/assets/img/2024-06-22-45JavaScriptSuperHacksEveryDeveloperShouldKnow_0.png"
 date: 2024-06-22 05:16
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-45JavaScriptSuperHacksEveryDeveloperShouldKnow_0.png
 tag: Tech
 originalTitle: "45 JavaScript Super Hacks Every Developer Should Know"
 link: "https://medium.com/dev-genius/45-javascript-super-hacks-every-developer-should-know-92aecfb33ee8"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-06-22-45JavaScriptSuperHacksEveryDeveloperShouldKnow_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 문제: `var`은 함수 범위를 가지고 있어서 버그와 예상치 못한 동작을 유발할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해결책: 블록 스코프를 갖는 `let`과 `const`를 사용하세요.
 
@@ -35,22 +43,44 @@ const PI = 3.14;
 
 ## 2. 기본 매개변수
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문제: 인수가 제공되지 않으면 함수가 실패할 수 있습니다.
 
 해결책: 기본 매개변수를 사용하여 대안 값 설정.
 
 ```js
-function greet(name = '방문자') {
-return `안녕하세요, ${name}님!`;
+function greet(name = "방문자") {
+  return `안녕하세요, ${name}님!`;
 }
 console.log(greet()); // "안녕하세요, 방문자님!"
 ```
 
 기본 매개변수를 사용하면 함수가 합리적인 기본값을 갖도록되어 오류를 방지하고 코드를 더 견고하게 만듭니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 3. 템플릿 리터럴
 
@@ -59,12 +89,23 @@ console.log(greet()); // "안녕하세요, 방문자님!"
 해결책: 더 깔끔하고 가독성이 좋은 문자열 보간을 위해 템플릿 리터럴을 사용하세요.
 
 ```js
-const name = 'John';
+const name = "John";
 const greeting = `Hello, ${name}!`;
 console.log(greeting); // "Hello, John!"
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 템플릿 리터럴을 사용하면 포함된 표현식과 여러 줄의 문자열을 쉽게 만들 수 있어요.
 
@@ -74,10 +115,21 @@ console.log(greeting); // "Hello, John!"
 
 해결책: 비구조화 할당을 사용해서 값을 더 간결하게 추출하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-const user = { name: 'Jane', age: 25 };
+const user = { name: "Jane", age: 25 };
 const { name, age } = user;
 console.log(name, age); // "Jane" 25
 ```
@@ -88,7 +140,18 @@ console.log(name, age); // "Jane" 25
 
 문제: 기존 함수 표현식은 장황할 수 있고 `this`를 렉시컬하게 바인딩하지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 솔루션: 더 짧은 구문을 위해 화살표 함수를 사용하고 렉시컬 `this`를 활용하세요.
 
@@ -101,7 +164,18 @@ console.log(add(2, 3)); // 5
 
 ## 6. 전개 연산자
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문제: 배열이나 객체를 결합하는 것은 번거로울 수 있습니다.
 
@@ -116,7 +190,18 @@ console.log(combined); // [1, 2, 3, 4, 5, 6]
 
 전개 연산자를 사용하면 배열이나 객체의 요소를 다른 배열이나 객체로 전개할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 7. 나머지 매개변수
 
@@ -131,7 +216,18 @@ return args.reduce((total, num) => total + num, 0);
 console.log(sum(1, 2, 3, 4)); // 10
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 레스트 매개변수를 사용하면 매개변수의 개수에 상관없이 배열로 처리할 수 있어 함수를 보다 유연하게 만들 수 있어요.
 
@@ -141,11 +237,22 @@ console.log(sum(1, 2, 3, 4)); // 10
 
 해결책: 간결한 조건을 작성하기 위해 단락 평가를 활용해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const isLoggedIn = true;
-const user = isLoggedIn && { name: 'Jane', age: 25 };
+const user = isLoggedIn && { name: "Jane", age: 25 };
 console.log(user); // { name: 'Jane', age: 25 }
 ```
 
@@ -155,12 +262,23 @@ console.log(user); // { name: 'Jane', age: 25 }
 
 문제: 깊게 중첩된 속성에 액세스하는 것은 체인의 일부가 `null` 또는 `undefined`인 경우 오류를 발생시킬 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해결책: 중첩된 속성에 안전하게 접근하기 위해 선택적 체이닝을 사용하세요.
 
 ```js
-const user = { profile: { name: 'Jane' } };
+const user = { profile: { name: "Jane" } };
 const userName = user?.profile?.name;
 console.log(userName); // "Jane"
 ```
@@ -169,15 +287,26 @@ console.log(userName); // "Jane"
 
 ## 10. 널리쉬 콜리싱
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문제: `||`를 사용하여 기본 값을 제공하는 경우, 값이 `0` 또는 `""`이면 예상치 못한 결과가 발생할 수 있습니다.
 
 해결책: `nullish coalescing` (`??`)을 사용하여 `null` 또는 `undefined`일 때만 기본 값을 제공합니다.
 
 ```js
-const user = { name: '', age: 0 };
-const userName = user.name ?? '익명';
+const user = { name: "", age: 0 };
+const userName = user.name ?? "익명";
 const userAge = user.age ?? 18;
 console.log(userName); // ""
 console.log(userAge); // 0
@@ -185,7 +314,18 @@ console.log(userAge); // 0
 
 `Nullish coalescing`은 왼쪽 피연산자가 `null` 또는 `undefined`일 때에만 기본 값을 제공할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 11. 객체 속성 축약
 
@@ -194,13 +334,24 @@ console.log(userAge); // 0
 해결책: 속성 축약을 사용하여 객체 생성을 간단하게 만듭니다.
 
 ```js
-const name = 'Jane';
+const name = "Jane";
 const age = 25;
 const user = { name, age };
 console.log(user); // { name: 'Jane', age: 25 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로퍼티 축약형을 사용하면 변수 이름과 일치할 때 프로퍼티 이름을 생략할 수 있어서 코드가 더 깔끔해집니다.
 
@@ -210,11 +361,22 @@ console.log(user); // { name: 'Jane', age: 25 }
 
 해결책: 계산된 프로퍼티 이름을 사용하여 동적으로 객체 프로퍼티를 생성하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-const propName = '나이';
-const user = { 이름: '제인', [propName]: 25 };
+const propName = "나이";
+const user = { 이름: "제인", [propName]: 25 };
 console.log(user); // { 이름: '제인', 나이: 25 }
 ```
 
@@ -224,15 +386,26 @@ console.log(user); // { 이름: '제인', 나이: 25 }
 
 문제: 배열을 변환, 필터링 또는 값 누적하기 위해 배열을 반복하는 작업은 반복적일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 솔루션: 일반적인 배열 작업에 `map()`, `filter()`, 및 `reduce()`를 사용하세요.
 
 ```js
 const numbers = [1, 2, 3, 4, 5];
-const doubled = numbers.map(num => num * 2);
+const doubled = numbers.map((num) => num * 2);
 console.log(doubled); // [2, 4, 6, 8, 10]
-const evens = numbers.filter(num => num % 2 === 0);
+const evens = numbers.filter((num) => num % 2 === 0);
 console.log(evens); // [2, 4]
 const sum = numbers.reduce((total, num) => total + num, 0);
 console.log(sum); // 15
@@ -242,22 +415,44 @@ console.log(sum); // 15
 
 ## 14. 문자열 `includes()`, `startsWith()`, 및 `endsWith()`
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문제: 문자열에 특정 부분 문자열이 포함되어 있는지, 시작하는지 또는 끝나는지를 확인하는 작업은 장황할 수 있습니다.
 
 해결책: 더 간단한 문자열 확인을 위해 `includes()`, `startsWith()`, `endsWith()`를 사용하세요.
 
 ```js
-const str = 'Hello, world!';
-console.log(str.includes('world')); // true
-console.log(str.startsWith('Hello')); // true
-console.log(str.endsWith('!')); // true
+const str = "Hello, world!";
+console.log(str.includes("world")); // true
+console.log(str.startsWith("Hello")); // true
+console.log(str.endsWith("!")); // true
 ```
 
 이러한 문자열 메소드들은 부분 문자열의 존재, 시작 또는 끝을 확인하는 간단하고 가독성 있는 방법을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 15. 함수 매개변수에서 배열 및 객체 비구조화
 
@@ -266,14 +461,25 @@ console.log(str.endsWith('!')); // true
 해결책: 함수 매개변수에서 비구조화를 사용하여 값을 직접 추출하세요.
 
 ```js
-const user = { name: 'Jane', age: 25 };
+const user = { name: "Jane", age: 25 };
 function greet({ name, age }) {
-    return `안녕, ${name}! 당신은 ${age}살 입니다.`;
+  return `안녕, ${name}! 당신은 ${age}살 입니다.`;
 }
 console.log(greet(user)); // "안녕, Jane! 당신은 25살 입니다."
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 함수 매개변수의 구조 분해를 사용하면 함수에 전달된 객체나 배열에서 값을 직접 추출하여 코드를 더 간결하고 가독성 있게 만들 수 있어요.
 
@@ -283,10 +489,21 @@ console.log(greet(user)); // "안녕, Jane! 당신은 25살 입니다."
 
 해결책: 구조 분해에서 기본값을 사용하여 대체 값을 제공해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-const user = { name: 'Jane' };
+const user = { name: "Jane" };
 const { name, age = 18 } = user;
 console.log(name); // "Jane"
 console.log(age); // 18
@@ -298,7 +515,18 @@ console.log(age); // 18
 
 문제: 객체를 복제하거나 병합하는 것은 번거롭고 실수하기 쉽습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해결 방법: `Object.assign()`을 사용하여 객체를 복제하거나 병합할 수 있습니다.
 
@@ -313,7 +541,18 @@ console.log(merged); // { a: 1, b: 2 }
 
 ## 18. Array `find()` 및 `findIndex()`
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문제: 배열에서 요소나 인덱스를 찾는 것은 루프를 사용하면 번거로울 수 있습니다.
 
@@ -321,16 +560,27 @@ console.log(merged); // { a: 1, b: 2 }
 
 ```js
 const users = [
-{ id: 1, name: 'Jane' },
-{ id: 2, name: 'John' },
+  { id: 1, name: "Jane" },
+  { id: 2, name: "John" },
 ];
-const user = users.find(u => u.id === 1);
+const user = users.find((u) => u.id === 1);
 console.log(user); // { id: 1, name: 'Jane' }
-const index = users.findIndex(u => u.id === 1);
+const index = users.findIndex((u) => u.id === 1);
 console.log(index); // 0
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 배열 메소드는 조건에 따라 요소를 찾거나 인덱스를 찾는 간단한 방법을 제공하여 코드의 가독성을 향상시킵니다.
 
@@ -340,13 +590,24 @@ console.log(index); // 0
 
 해결책: 더 깔끔한 코드를 위해 `some()` 및 `every()`를 사용하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const numbers = [1, 2, 3, 4, 5];
-const hasEven = numbers.some(num => num % 2 === 0);
+const hasEven = numbers.some((num) => num % 2 === 0);
 console.log(hasEven); // true
-const allEven = numbers.every(num => num % 2 === 0);
+const allEven = numbers.every((num) => num % 2 === 0);
 console.log(allEven); // false
 ```
 
@@ -356,7 +617,18 @@ console.log(allEven); // false
 
 문제: 중첩된 배열을 평탄화하거나 배열을 매핑하고 평탄화하는 것은 번거로울 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해결 방법: 더 읽기 쉬운 코드를 위해 `flat()` 및 `flatMap()`을 사용하세요.
 
@@ -364,7 +636,7 @@ console.log(allEven); // false
 const nested = [1, [2, [3, [4]]]];
 const flat = nested.flat(2);
 console.log(flat); // [1, 2, 3, [4]]
-const mapped = [1, 2, 3].flatMap(x => [x, x * 2]);
+const mapped = [1, 2, 3].flatMap((x) => [x, x * 2]);
 console.log(mapped); // [1, 2, 2, 4, 3, 6]
 ```
 
@@ -372,7 +644,18 @@ console.log(mapped); // [1, 2, 2, 4, 3, 6]
 
 ## 21. Array `from()` and `of()`
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문제: 이터러블 객체나 인수에서 배열을 만드는 것은 장황할 수 있습니다.
 
@@ -388,7 +671,18 @@ console.log(arrOfNumbers); // [1, 2, 3]
 
 `Array.from()`은 이터러블 객체에서 배열을 만들 수 있고, `Array.of()`은 인수 목록에서 배열을 만들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 22. 콜백에서 파라미터 구조 분해
 
@@ -406,7 +700,18 @@ console.log(`User ID: ${id}, User Name: ${name}`);
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 콜백 매개변수의 구조 분해를 사용하면 콜백에 전달된 객체의 속성에 직접 액세스하여 코드를 더 간결하게 만들 수 있어요.
 
@@ -416,14 +721,25 @@ console.log(`User ID: ${id}, User Name: ${name}`);
 
 해결책: 선택적 콜백을 호출하기 위해 단락 평가(short-circuit evaluation)를 사용해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 function fetchData(url, callback) {
-    fetch(url)
-    .then(response => response.json())
-    .then(data => {
-        callback && callback(data);
+  fetch(url)
+    .then((response) => response.json())
+    .then((data) => {
+      callback && callback(data);
     });
 }
 ```
@@ -434,7 +750,18 @@ function fetchData(url, callback) {
 
 문제: 콜백을 기반으로 하는 함수를 프로미스로 변환하는 것은 어려울 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 솔루션: 유틸리티 함수를 사용하여 콜백을 Promisify합니다.
 
@@ -459,7 +786,18 @@ readFile('path/to/file.txt', 'utf8')
 
 ## 25. 동기적인 코드를 위한 Async/Await
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문제점: Promise를 사용한 비동기 코드 작성은 길고 읽기 어렵습니다.
 
@@ -467,20 +805,31 @@ readFile('path/to/file.txt', 'utf8')
 
 ```js
 async function fetchData(url) {
-try {
-const response = await fetch(url);
-const data = await response.json();
-console.log(data);
-} catch (error) {
-console.error('데이터를 불러오는 중 오류가 발생했습니다:', error);
+  try {
+    const response = await fetch(url);
+    const data = await response.json();
+    console.log(data);
+  } catch (error) {
+    console.error("데이터를 불러오는 중 오류가 발생했습니다:", error);
+  }
 }
-}
-fetchData('https://api.example.com/data');
+fetchData("https://api.example.com/data");
 ```
 
 Async/await는 비동기 코드를 동기 코드처럼 작성하고 동작하도록 하는 방법을 제공하여 가독성과 유지보수성을 향상시킵니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 26. Promises 연쇄하기
 
@@ -489,22 +838,33 @@ Async/await는 비동기 코드를 동기 코드처럼 작성하고 동작하도
 해결책 : Promises를 연쇄하여 여러 비동기 작업을 처리하세요.
 
 ```js
-fetch('https://api.example.com/data')
-.then(response => response.json())
-.then(data => {
-    console.log('데이터:', data);
-    return fetch('https://api.example.com/more-data');
-})
-.then(response => response.json())
-.then(moreData => {
-    console.log('더 많은 데이터:', moreData);
-})
-.catch(error => {
-    console.error('에러:', error);
-});
+fetch("https://api.example.com/data")
+  .then((response) => response.json())
+  .then((data) => {
+    console.log("데이터:", data);
+    return fetch("https://api.example.com/more-data");
+  })
+  .then((response) => response.json())
+  .then((moreData) => {
+    console.log("더 많은 데이터:", moreData);
+  })
+  .catch((error) => {
+    console.error("에러:", error);
+  });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **Promise를 연결하는 것은 여러 비동기 작업을 순차적으로 처리할 수 있어 가독성과 유지 보수성을 향상시킬 수 있습니다.**
 
@@ -514,19 +874,30 @@ fetch('https://api.example.com/data')
 
 해결책: `Promise.all`을 사용하여 동시에 비동기 작업을 처리하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-const fetchData1 = fetch('https://api.example.com/data1').then(response => response.json());
-const fetchData2 = fetch('https://api.example.com/data2').then(response => response.json());
+const fetchData1 = fetch("https://api.example.com/data1").then((response) => response.json());
+const fetchData2 = fetch("https://api.example.com/data2").then((response) => response.json());
 Promise.all([fetchData1, fetchData2])
-.then(([data1, data2]) => {
-console.log('Data 1:', data1);
-console.log('Data 2:', data2);
-})
-.catch(error => {
-console.error('Error:', error);
-});
+  .then(([data1, data2]) => {
+    console.log("Data 1:", data1);
+    console.log("Data 2:", data2);
+  })
+  .catch((error) => {
+    console.error("Error:", error);
+  });
 ```
 
 `Promise.all`을 사용하면 여러 비동기 작업을 동시에 처리하고 모두 완료될 때 진행할 수 있습니다.
@@ -535,7 +906,18 @@ console.error('Error:', error);
 
 문제: 창 크기 조절과 같은 빈번한 함수 호출은 성능을 저하시킬 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해결책: debounce 함수를 사용하여 함수가 실행되는 속도를 제한합니다.
 
@@ -547,16 +929,30 @@ function debounce(func, wait) {
     timeout = setTimeout(() => func.apply(this, args), wait);
   };
 }
-window.addEventListener('resize', debounce(() => {
-  console.log('창 크기 조정됨');
-}, 200));
+window.addEventListener(
+  "resize",
+  debounce(() => {
+    console.log("창 크기 조정됨");
+  }, 200)
+);
 ```
 
 debounce 함수는 일정 시간 동안 활동이 없을 때에만 함수가 호출되도록 보장하여 성능을 개선합니다.
 
 ## 29. 스로틀 함수
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문제: 스크롤 또는 크기 조정과 같이 빈번하게 발생하는 이벤트의 함수 실행 속도 제한.
 
@@ -582,14 +978,28 @@ function throttle(func, limit) {
   };
 }
 
-window.addEventListener('scroll', throttle(() => {
-  console.log('창 스크롤됨');
-}, 200));
+window.addEventListener(
+  "scroll",
+  throttle(() => {
+    console.log("창 스크롤됨");
+  }, 200)
+);
 ```
 
 스로틀 함수를 사용하면 주어진 기간에 함수가 최대 한 번 호출되도록 보장하여 빈번히 발생하는 이벤트에 대한 성능을 향상시킬 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 30. 객체의 깊은 복제
 
@@ -603,7 +1013,18 @@ const deepClone = JSON.parse(JSON.stringify(obj));
 console.log(deepClone); // { a: 1, b: { c: 2 } }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 깊은 복제는 중첩된 객체가 참조가 아닌 값으로 복사되어 원본 객체가 의도하지 않은 수정을 방지합니다.
 
@@ -613,24 +1034,35 @@ console.log(deepClone); // { a: 1, b: { c: 2 } }
 
 해결책: 메모이제이션을 사용하여 비싼 함수 호출의 결과를 캐시합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 function memoize(func) {
-const cache = new Map();
-return function (...args) {
-const key = JSON.stringify(args);
-if (cache.has(key)) {
-return cache.get(key);
-}
-const result = func.apply(this, args);
-cache.set(key, result);
-return result;
-};
+  const cache = new Map();
+  return function (...args) {
+    const key = JSON.stringify(args);
+    if (cache.has(key)) {
+      return cache.get(key);
+    }
+    const result = func.apply(this, args);
+    cache.set(key, result);
+    return result;
+  };
 }
 const expensiveFunction = memoize((num) => {
-console.log('계산 중…');
-return num * 2;
+  console.log("계산 중…");
+  return num * 2;
 });
 console.log(expensiveFunction(2)); // "계산 중…" 4
 console.log(expensiveFunction(2)); // 4
@@ -642,7 +1074,18 @@ console.log(expensiveFunction(2)); // 4
 
 문제: 여러 개의 매개변수를 가진 함수를 생성하는 것은 번거로울 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 솔루션: 커링을 사용하여 부분적으로 적용된 매개변수를 가진 함수를 만드세요.
 
@@ -667,7 +1110,18 @@ console.log(curriedSum(1, 2)(3)); // 6
 
 ## 33. 부분 적용
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문제: 반복적인 인자로 함수를 호출하는 것은 귀찮을 수 있습니다.
 
@@ -675,9 +1129,9 @@ console.log(curriedSum(1, 2)(3)); // 6
 
 ```js
 function partial(func, ...presetArgs) {
-return function (...laterArgs) {
-return func(...presetArgs, ...laterArgs);
-};
+  return function (...laterArgs) {
+    return func(...presetArgs, ...laterArgs);
+  };
 }
 const multiply = (a, b, c) => a * b * c;
 const double = partial(multiply, 2);
@@ -686,7 +1140,18 @@ console.log(double(3, 4)); // 24
 
 부분 적용을 사용하면 일부 인자를 미리 적용하여 새로운 함수를 만들 수 있어 코드를 더 유연하고 재사용 가능하게 만들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 34. 함수 합성
 
@@ -703,7 +1168,18 @@ const addThenMultiply = compose(multiply, add);
 console.log(addThenMultiply(5)); // 12
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 함수 합성을 사용하면 여러 함수를 결합하여 새로운 함수를 만들어 코드를 더 모듈식으로 만들고 재사용할 수 있습니다.
 
@@ -713,11 +1189,24 @@ console.log(addThenMultiply(5)); // 12
 
 해결책: 함수 파이프라이닝을 사용하여 일련의 함수를 순차적으로 적용하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-const pipe = (...funcs) => (arg) =>
-funcs.reduce((prev, fn) => fn(prev), arg);
+const pipe =
+  (...funcs) =>
+  (arg) =>
+    funcs.reduce((prev, fn) => fn(prev), arg);
 const add = (x) => x + 1;
 const multiply = (x) => x * 2;
 const addThenMultiply = pipe(add, multiply);
@@ -730,20 +1219,43 @@ console.log(addThenMultiply(5)); // 12
 
 문제: 정의할 때 즉시 함수를 실행하는 것은 번거로울 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 솔루션: 즉시 실행 함수 표현식(IIFE)을 사용하세요.
 
 ```js
 (function () {
-console.log('즉시 실행됩니다!');
+  console.log("즉시 실행됩니다!");
 })();
 ```
+
 IIFE를 사용하면 함수를 정의하는 즉시 실행할 수 있어서, 격리된 스코프를 만들고 전역 네임스페이스를 오염시키는 것을 피할 수 있습니다.
 
 ## 37. 전역 변수 사용을 피하세요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문제: 전역 변수는 충돌과 의도치 않은 부작용을 일으킬 수 있습니다.
 
@@ -752,24 +1264,35 @@ IIFE를 사용하면 함수를 정의하는 즉시 실행할 수 있어서, 격�
 ```js
 // 지역 변수 사용
 function doSomething() {
-    let localVariable = '지역 변수입니다';
-    console.log(localVariable);
+  let localVariable = "지역 변수입니다";
+  console.log(localVariable);
 }
 // 모듈 사용
 const myModule = (function () {
-    let privateVariable = '비공개 변수입니다';
-    return {
-        publicMethod() {
-            console.log(privateVariable);
-        },
-    };
+  let privateVariable = "비공개 변수입니다";
+  return {
+    publicMethod() {
+      console.log(privateVariable);
+    },
+  };
 })();
 myModule.publicMethod(); // "비공개 변수입니다"
 ```
 
 전역 변수를 피함으로써 충돌과 의도하지 않은 부작용을 방지하고, 코드를 모듈화하고 유지보수하기 쉽도록 만들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 38. 클로저를 사용한 캡슐화
 
@@ -779,17 +1302,17 @@ myModule.publicMethod(); // "비공개 변수입니다"
 
 ```js
 function createCounter() {
-let count = 0;
-return {
-increment() {
-count++;
-return count;
-},
-decrement() {
-count--;
-return count;
-},
-};
+  let count = 0;
+  return {
+    increment() {
+      count++;
+      return count;
+    },
+    decrement() {
+      count--;
+      return count;
+    },
+  };
 }
 const counter = createCounter();
 console.log(counter.increment()); // 1
@@ -797,7 +1320,18 @@ console.log(counter.increment()); // 2
 console.log(counter.decrement()); // 1
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 클로저를 사용하면 내부 세부 정보를 캡슐화하고 필요한 기능만 노출하여 코드 보안 및 유지 보수성을 향상시킬 수 있어요.
 
@@ -807,19 +1341,30 @@ console.log(counter.decrement()); // 1
 
 해결책: 모듈 패턴을 사용하여 재사용 가능하고 캡슐화된 코드를 생성하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const myModule = (function () {
-let privateVariable = 'This is private';
-function privateMethod() {
-console.log(privateVariable);
-}
-return {
-publicMethod() {
-privateMethod();
-},
-};
+  let privateVariable = "This is private";
+  function privateMethod() {
+    console.log(privateVariable);
+  }
+  return {
+    publicMethod() {
+      privateMethod();
+    },
+  };
 })();
 myModule.publicMethod(); // "This is private"
 ```
@@ -830,26 +1375,37 @@ myModule.publicMethod(); // "This is private"
 
 문제: 클래스의 인스턴스가 하나만 생성되도록 보장하는 것은 도전적일 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해결책: 싱글톤 패턴을 사용하여 단일 인스턴스를 생성하세요.
 
 ```js
 const singleton = (function () {
-let instance;
-function createInstance() {
-return {
-name: '싱글톤 인스턴스',
-};
-}
-return {
-getInstance() {
-if (!instance) {
-instance = createInstance();
-}
-return instance;
-},
-};
+  let instance;
+  function createInstance() {
+    return {
+      name: "싱글톤 인스턴스",
+    };
+  }
+  return {
+    getInstance() {
+      if (!instance) {
+        instance = createInstance();
+      }
+      return instance;
+    },
+  };
 })();
 const instance1 = singleton.getInstance();
 const instance2 = singleton.getInstance();
@@ -860,7 +1416,18 @@ console.log(instance1 === instance2); // true
 
 ## 41. 팩토리 패턴
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문제: 복잡한 초기화가 필요한 객체를 생성하는 것은 귀찮을 수 있습니다.
 
@@ -868,23 +1435,34 @@ console.log(instance1 === instance2); // true
 
 ```js
 function createUser(name, role) {
-return {
-name,
-role,
-sayHello() {
-console.log(`안녕하세요, 제 이름은 ${this.name}이고 ${this.role}입니다.`);
-},
-};
+  return {
+    name,
+    role,
+    sayHello() {
+      console.log(`안녕하세요, 제 이름은 ${this.name}이고 ${this.role}입니다.`);
+    },
+  };
 }
-const admin = createUser('Alice', 'admin');
-const user = createUser('Bob', 'user');
+const admin = createUser("Alice", "admin");
+const user = createUser("Bob", "user");
 admin.sayHello(); // "안녕하세요, 제 이름은 Alice이고 admin입니다."
 user.sayHello(); // "안녕하세요, 제 이름은 Bob이고 user입니다."
 ```
 
 팩토리 패턴을 사용하면 유연하고 재사용 가능한 방식으로 복잡한 초기화가 필요한 객체를 생성할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 42. 관찰자 패턴
 
@@ -894,34 +1472,45 @@ user.sayHello(); // "안녕하세요, 제 이름은 Bob이고 user입니다."
 
 ```js
 function Subject() {
-this.observers = [];
+  this.observers = [];
 }
 Subject.prototype = {
-subscribe(observer) {
-this.observers.push(observer);
-},
-unsubscribe(observer) {
-this.observers = this.observers.filter((obs) => obs !== observer);
-},
-notify(data) {
-this.observers.forEach((observer) => observer.update(data));
-},
+  subscribe(observer) {
+    this.observers.push(observer);
+  },
+  unsubscribe(observer) {
+    this.observers = this.observers.filter((obs) => obs !== observer);
+  },
+  notify(data) {
+    this.observers.forEach((observer) => observer.update(data));
+  },
 };
 function Observer(name) {
-this.name = name;
+  this.name = name;
 }
 Observer.prototype.update = function (data) {
-console.log(`${this.name} received data: ${data}`);
+  console.log(`${this.name} received data: ${data}`);
 };
 const subject = new Subject();
-const observer1 = new Observer('Observer 1');
-const observer2 = new Observer('Observer 2');
+const observer1 = new Observer("Observer 1");
+const observer2 = new Observer("Observer 2");
 subject.subscribe(observer1);
 subject.subscribe(observer2);
-subject.notify('새로운 데이터 이용 가능'); // "Observer 1 received data: 새로운 데이터 이용 가능" "Observer 2 received data: 새로운 데이터 이용 가능"
+subject.notify("새로운 데이터 이용 가능"); // "Observer 1 received data: 새로운 데이터 이용 가능" "Observer 2 received data: 새로운 데이터 이용 가능"
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 옵저버 패턴을 사용하면 상태 변경을 관리하고 여러 옵저버에게 알림을 보내어 코드 구성 및 유지 관리를 개선할 수 있어요.
 
@@ -931,13 +1520,24 @@ subject.notify('새로운 데이터 이용 가능'); // "Observer 1 received dat
 
 해결책: 이벤트 위임을 사용하여 이벤트를 효율적으로 관리하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-document.getElementById('parent').addEventListener('click', (event) => {
-if (event.target && event.target.matches('button.className')) {
-console.log('Button clicked:', event.target.textContent);
-}
+document.getElementById("parent").addEventListener("click", (event) => {
+  if (event.target && event.target.matches("button.className")) {
+    console.log("Button clicked:", event.target.textContent);
+  }
 });
 ```
 
@@ -947,7 +1547,18 @@ console.log('Button clicked:', event.target.textContent);
 
 문제: `eval()` 사용은 보안 취약점과 성능 문제를 야기할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해결 방법: `eval()`을 사용하지 말고 더 안전한 대안을 사용하세요.
 
@@ -964,7 +1575,18 @@ func(); // "Hello, world!"
 
 ## 45. `for…of`를 사용하여 반복하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문제: 'for...in'을 사용하여 배열을 반복하는 것은 오류가 발생할 수 있습니다.
 
@@ -973,7 +1595,7 @@ func(); // "Hello, world!"
 ```js
 const arr = [1, 2, 3, 4, 5];
 for (const value of arr) {
-console.log(value);
+  console.log(value);
 }
 // 1
 // 2

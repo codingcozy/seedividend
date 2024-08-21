@@ -3,17 +3,13 @@ title: "React 19 출시, 어떤 점이 달라졌는지 알아보자"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "React 19 is Coming, Whats New"
 link: "https://blog.stackademic.com/react-19-is-coming-whats-new-79e2d4b948e4"
 isUpdated: true
 ---
-
-
-
-
 
 ![React-19-is-Coming-Whats-New_0.png](/assets/img/React-19-is-Coming-Whats-New_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 리액트 팀은 이번까지 새로운 공식 버전을 발표하지 않은 비판에 대해 응답했습니다. 카나리아 버전에 이전에 출시된 기능들은 서로 연관이 깊어, 이들이 함께 작동할 수 있도록 안정 버전에 순차적으로 출시할 수 있도록 하는 데 시간이 많이 필요했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사실, 공식 버전이 거의 2년 동안 릴리스되지 않았지만 캐너리 버전은 use, useOptimistic hook, use client, use server 디렉티브와 같은 상당한 업데이트를 경험했습니다. 이러한 업데이트는 React 생태계를 객관적으로 풍부하게 만들어주었으며 특히 Next.js 및 Remix와 같은 풀 스택 프레임워크의 신속한 개발을 촉진했습니다.
 
@@ -33,7 +40,18 @@ React 팀은 다음 버전이 주요 릴리스이며, 버전 번호는 19.0.0이
 
 이제, React 팀의 최신 뉴스를 기반으로 v19에서 공식적으로 릴리스될 예상 새로운 기능을 미리 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 자동 메모이제이션
 
@@ -43,7 +61,18 @@ React Conf 2021에서 Huang Xuan이 소개한 React Forget을 기억하시나요
 
 지금 이제 됐어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인스타그램의 프로덕션 환경에서 이미 적용된 컴파일러입니다. React 팀은 이를 Meta 내의 더 많은 플랫폼에 적용할 계획이며, 미래에 오픈 소스로 공개할 예정입니다.
 
@@ -53,7 +82,18 @@ React Conf 2021에서 Huang Xuan이 소개한 React Forget을 기억하시나요
 
 재밌게도, React 팀은 새로운 컴파일러를 소개할 때 "React Forget"에 대해 언급하지 않았는데, 이로 인해 커뮤니티로부터 재미있는 댓글이 등장했습니다: 그들은 React Forget을 잊고 Forget 섹션에서 Forget을 언급을 잊었습니다.🤣
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 동작
 
@@ -68,7 +108,18 @@ React Actions은 React 팀이 클라이언트에서 서버로 데이터를 전�
 
 액션 함수는 동기적 또는 비동기적일 수 있습니다. 액션을 사용할 때 React는 데이터 제출의 라이프사이클을 개발자 대신 관리합니다. useFormStatus 및 useFormState 훅을 통해 현재 상태 및 폼 작업의 응답에 접근할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 클라이언트와 서버 간 상호 작용 시나리오에서 사용할 수 있는 액션들이 있습니다. 이는 데이터베이스 변경(데이터 추가, 삭제, 업데이트) 및 폼 구현(로그인 폼, 등록 폼 등) 등에 사용될 수 있습니다.
 
@@ -78,7 +129,18 @@ useFormStatus 및 useFormState와 결합하는 것 외에도, 액션은 useOptim
 
 use client 및 use server 지시문은 오랜 시간 동안 Canary 버전에서 사용할 수 있었으며, 최종적으로 v19에서 Stable 버전에 추가될 예정입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전에는 Next.js가 이 두 가지 지시문을 프로덕션에서 사용하고 있어 React 생태계를 손상시킨다며 자주 불만이 제기되었습니다. Next.js를 비난하고 React 팀을 비난하여 Next.js가 불안정한 기능을 미리 사용하도록 허용했다고 비판하는 것이었습니다. 그러나 이러한 우려는 대부분 불필요합니다. 이 두 가지 지시문은 Next.js와 Remix와 같은 풀 스택 프레임워크를 위해 설계되었기 때문에 React를 사용하여 애플리케이션을 개발하는 일반 개발자들은 당장 이를 거의 필요로하지 않을 것입니다.
 
@@ -88,7 +150,18 @@ React를 사용하고 있다면 풀 스택 프레임워크가 아닌 경우, 이
 
 useOptimistic는 v19에서 안정적으로 지정될 것으로 예상되는 새로운 훅입니다. useOptimistic를 사용하면 비동기 작업(예: 네트워크 요청) 중에 UI를 낙관적으로 업데이트할 수 있습니다. 현재 상태와 업데이트 함수를 매개변수로 받아들이며, 비동기 작업 중에 상태의 사본을 반환할 수 있습니다. 현재 상태와 작업 입력을 사용하여 비동기 작업 대기 중에 사용될 낙관적 상태를 반환하는 함수를 제공해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 어떻게 정의되어 있는지입니다:
 
@@ -110,7 +183,18 @@ const [optimisticState, addOptimistic] = useOptimistic(
 state: 초기 상태 값 및 진행 중인 작업이 없을 때 반환되는 값입니다.
 updateFn(currentState, optimisticValue): addOptimistic에 전달된 현재 상태와 낙관적인 값을 받아 낙관적인 상태 결과를 리턴하는 함수입니다. updateFn은 currentState 및 optimisticValue 두 매개변수를 받습니다. 리턴 값은 currentState 및 optimisticValue를 병합한 값이 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 반환 값
 
@@ -156,7 +240,18 @@ function AppContainer() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `useOptimistic`은 비동기 작업 중에 예상 결과를 렌더링하며, 작업이 완료되고 상태가 업데이트되면 실제 결과(성공 또는 실패)를 렌더링합니다.
 
@@ -170,7 +265,18 @@ function AppContainer() {
 🟡 `throw promise` → `use(promise)`: 비동기 데이터 로딩 처리를 개선합니다.
 🟡 `Context.Provider` → `Context`: 컨텍스트 프로바이더를 간단하게 사용할 수 있도록 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 공식 React 웹사이트에서는 아직 이러한 잠재적인 업데이트에 대한 상세 정보를 제공하지 않았습니다.
 
@@ -180,7 +286,18 @@ React는 원대한 비전을 갖고 있습니다. 그들은 프론트엔드와 �
 
 React 19는 훅이 소개된 후의 또 다른 마일스톤 버전이 될 것입니다. Andrew Clark는 새 버전이 3월이나 4월에 출시될 것이라고 말했습니다. 기대해 봅시다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제 소개
 
@@ -192,7 +309,18 @@ Twitter: https://twitter.com/weijunext
 Github: https://github.com/weijunext
 블로그: https://weijunext.com/
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 스택더미 🎓
 

@@ -3,17 +3,13 @@ title: "CSS로 무한 가로 스크롤과 호버하면 일시 정지 하도록 �
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How to create Infinite Horizontal Scroll and Hover-Pause with Pure CSS"
 link: "https://medium.com/@mintpw/how-to-create-infinite-horizontal-scroll-and-hover-pause-with-pure-css-b052caa683bd"
 isUpdated: true
 ---
-
-
-
-
 
 당신은 웹사이트에 매력적인 가로 스크롤 효과를 추가해보고 싶은 적이 있나요? CSS 애니메이션과 호버 상태를 결합하면 콘텐츠를 더 생동감 있게 만들 수 있어요. 간단한 HTML과 CSS를 사용하여 일시 중지 및 호버 기능이 있는 무한 가로 스크롤을 어떻게 구현하는지 알아봐요.
 
@@ -25,7 +21,18 @@ isUpdated: true
 
 이 문제들을 해결하기 위해 이 기사를 따라 해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 HTML이 어떻게 보이는지 살펴보도록 해요.
 
@@ -35,7 +42,18 @@ HTML이 어떻게 보이는지 살펴보도록 해요.
 
 # CSS 마법 공개
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS 파일은 요소들에 대한 스타일을 정의하는데, 유연한 레이아웃을 설정하고 애니메이션을 정의하는 데 사용됩니다. 핵심은 @keyframes 규칙에 있으며, left 속성을 100%에서 -100%로 애니메이션화하여 수평 스크롤 효과를 만들어 지속적인 움직임 효과를 얻을 수 있습니다.
 
@@ -45,7 +63,18 @@ CSS 파일은 요소들에 대한 스타일을 정의하는데, 유연한 레이
 
 animation-delay 속성은 .carousel-primary 클래스를 가진 요소들에게 애니메이션이 시작되기 전 지연을 도입하는 데 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이해를 돕기 위해 쪼개 봅시다:
 
@@ -56,7 +85,18 @@ animation-delay 속성은 .carousel-primary 클래스를 가진 요소들에게 
 
 여기서 흥미로운 점은 JavaScript 개입 없이 CSS 선택자를 활용하여 hover 기능을 구현한다는 것입니다. 사용자가 .carousel-primary 위에 마우스를 올리면 .carousel-primary 및 .carousel-secondary가 모두 애니메이션을 일시 중지합니다. 게다가 스크롤 컨테이너 위에 마우스를 올리면 .carousel-primary의 애니메이션이 일시 중지되는데, 사용자가 .carousel-primary 바로 위에 마우스를 올리지 않는 한요소입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1200/1*l0GMNsK98-WD1FjDaSBrhQ.gif)
 
@@ -66,7 +106,18 @@ animation-delay 속성은 .carousel-primary 클래스를 가진 요소들에게 
 
 # 최종 생각
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 HTML과 CSS만을 사용하여 호버 일시정지 기능이 있는 무한 스크롤 이미지 캐로셀을 만들어보는 것은 이러한 기술들이 제공하는 유연성과 창의성을 보여주는 좋은 예시입니다. 이 방법을 통해 JavaScript 라이브러리나 복잡한 스크립트 없이도 사용자 경험을 향상시킬 수 있습니다.
 

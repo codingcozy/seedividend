@@ -3,17 +3,13 @@ title: "리액트 에러 해결 방법 Invalid hook call Hooks can only be calle
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Understanding the Error Invalid hook call Hooks can only be called inside of the body of a function component"
 link: "https://medium.com/@kasata/demystifying-react-error-invalid-hook-call-c92b13575dfe"
 isUpdated: true
 ---
-
-
-
-
 
 리액트는 강력한 기능이 많은데 그중 하나가 Hooks입니다. Hooks로 작업할 때 종종 “Invalid hook call. Hooks can only be called inside of the body of a function component”라는 오류 메시지가 나타날 수 있습니다. 이 오류는 리액트에 익숙하지 않은 개발자에게 혼란스러울 수 있지만, 이 게시물에서는 이 오류를 이해하고 해결하는 방법을 안내해 드릴 거에요.
 
@@ -25,7 +21,18 @@ isUpdated: true
 
 ## 오류 해결 방법
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "“Invalid hook call” 오류를 해결하는 몇 가지 실용적인 단계를 안내해 드릴게요:
 

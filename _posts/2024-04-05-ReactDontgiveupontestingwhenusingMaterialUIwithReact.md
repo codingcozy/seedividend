@@ -3,17 +3,13 @@ title: "Material UI  React에서 테스팅 사용하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "React Dont give up on testing when using Material UI with React"
 link: "https://medium.com/@jskim1991/react-dont-give-up-on-testing-when-using-material-ui-with-react-ff737969eec7"
 isUpdated: true
 ---
-
-
-
-
 
 # 배경
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # Material UI 소개
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 며칠 전에 Material UI에 대해 들었지만 실제 프로젝트에서 사용한 적은 없어서 아쉬웠어요. 시각적 디자인이 좋아서 제품에 적합한 구성 요소를 제공하는 것이 좋았어요. 다음으로 고민한 것은 Material UI와 함께 작업할 때 테스트를 작성할 수 있는지였죠.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 React 프로젝트에 새로운 종속성을 추가하세요. 설치에 대한 자세한 내용은 여기 공식 문서에서 찾을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm install @mui/material @emotion/react @emotion/styled
@@ -45,7 +63,18 @@ npm install @mui/material @emotion/react @emotion/styled
 
 # 1. TextField
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 구현 (기본)
 
@@ -78,7 +107,18 @@ export default TextInput;
 
 이 컴포넌트는 다음과 같이 보입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/ReactDontgiveupontestingwhenusingMaterialUIwithReact_0.png" />
 
@@ -118,7 +158,18 @@ describe("TextInput Tests", () => {
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 구현 (Material UI와 함께)
 
@@ -153,7 +204,18 @@ export default MuiTextInput;
 
 <img src="/assets/img/ReactDontgiveupontestingwhenusingMaterialUIwithReact_1.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![React Material UI Testing](/assets/img/ReactDontgiveupontestingwhenusingMaterialUIwithReact_2.png)
 
@@ -193,7 +255,18 @@ describe("TextInput 테스트", () => {
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 2. TextField을 Textarea로 사용하기
 
@@ -203,7 +276,18 @@ describe("TextInput 테스트", () => {
 
 필요한 유일한 변경 사항은 multiline prop을 추가하는 것입니다. textarea가 기본적으로 더 많은 공간을 차지하도록 하려면 minRows를 추가할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { TextField } from "@mui/material";
@@ -240,7 +324,18 @@ Label과 placeholder 텍스트의 동작 방식은 TextField와 동일합니다.
 
 ![이미지2](/assets/img/ReactDontgiveupontestingwhenusingMaterialUIwithReact_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 테스트
 
@@ -280,7 +375,18 @@ describe("텍스트영역 테스트", () => {
 
 ### 3. 입력 레이블이 있는 선택하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 구현 (기본)
 
@@ -324,7 +430,18 @@ export default MemberDropdown;
 
 이 컴포넌트는 다음과 같이 보입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![ReactDontgiveupontestingwhenusingMaterialUIwithReact_5](/assets/img/ReactDontgiveupontestingwhenusingMaterialUIwithReact_5.png)
 
@@ -334,7 +451,18 @@ ARIA 역할을 사용하여 테스트를 작성할 수 있습니다. MDN에서 `
 
 ![ReactDontgiveupontestingwhenusingMaterialUIwithReact_7](/assets/img/ReactDontgiveupontestingwhenusingMaterialUIwithReact_7.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 테스트 (기본)
 
@@ -379,7 +507,18 @@ describe("MemberDropdown Test", () => {
 
 ## 구현 (Material UI와 함께)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Let’s convert to Material UI by using InputLabel and Select components.
 
@@ -435,7 +574,18 @@ The result of this looks like this when rendered:
 
 ![Rendered Image](/assets/img/ReactDontgiveupontestingwhenusingMaterialUIwithReact_8.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/ReactDontgiveupontestingwhenusingMaterialUIwithReact_9.png" />
 
@@ -445,7 +595,18 @@ The result of this looks like this when rendered:
 
 <img src="/assets/img/ReactDontgiveupontestingwhenusingMaterialUIwithReact_10.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 비슷한 동작을 테스트하기 위해 테스트 코드를 수정해야 합니다. 테이블 태그를 Markdown 형식으로 변경해 봅시다.
 
@@ -468,30 +629,22 @@ describe("MuiMemberDropdown 테스트", () => {
   it("드롭다운이 표시되어야 합니다", async () => {
     render(<MuiMemberDropdown />);
 
-    expect(
-      within(await screen.findByTestId("name-select")).getByRole("button")
-    ).toBeInTheDocument();
+    expect(within(await screen.findByTestId("name-select")).getByRole("button")).toBeInTheDocument();
   });
 
   it("옵션이 표시되어야 합니다", async () => {
     render(<MuiMemberDropdown />);
 
-    const dropdown = within(await screen.findByTestId("name-select")).getByRole(
-      "button"
-    );
+    const dropdown = within(await screen.findByTestId("name-select")).getByRole("button");
     await userEvent.click(dropdown);
-    expect(
-      await screen.findByRole("option", { name: "Jay" })
-    ).toBeInTheDocument();
+    expect(await screen.findByRole("option", { name: "Jay" })).toBeInTheDocument();
     expect(screen.getByRole("option", { name: "Su" })).toBeInTheDocument();
   });
 
   it("선택한 값을 표시해야 합니다", async () => {
     render(<MuiMemberDropdown />);
 
-    const dropdown = within(await screen.findByTestId("name-select")).getByRole(
-      "button"
-    );
+    const dropdown = within(await screen.findByTestId("name-select")).getByRole("button");
     await userEvent.click(dropdown);
     await userEvent.click(await screen.findByRole("option", { name: "Jay" }));
     expect(screen.getByText("Jay")).toBeInTheDocument();
@@ -499,7 +652,18 @@ describe("MuiMemberDropdown 테스트", () => {
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 4. 버튼
 
@@ -515,7 +679,18 @@ const SimpleButton = ({ onClick }) => {
 export default SimpleButton;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![ReactDontgiveupontestingwhenusingMaterialUIwithReact_12](/assets/img/ReactDontgiveupontestingwhenusingMaterialUIwithReact_12.png)
 
@@ -532,9 +707,7 @@ describe("SimpleButton Tests", () => {
   it("버튼과 텍스트가 표시되어야 합니다", async () => {
     render(<SimpleButton />);
 
-    expect(
-      await screen.findByRole("button", { name: "Click Here" })
-    ).toBeInTheDocument();
+    expect(await screen.findByRole("button", { name: "Click Here" })).toBeInTheDocument();
   });
 
   it("버튼을 클릭할 때 클릭 핸들러 함수가 실행되어야 합니다", async () => {
@@ -551,7 +724,18 @@ describe("SimpleButton Tests", () => {
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 구현 (Material UI로)
 
@@ -573,7 +757,18 @@ export default MuiSimpleButton;
 
 위와 같이 보입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/ReactDontgiveupontestingwhenusingMaterialUIwithReact_13.png)
 
@@ -590,9 +785,7 @@ describe("MuiSimpleButton 테스트", () => {
   it("텍스트가 있는 버튼을 표시해야 합니다", async () => {
     render(<MuiSimpleButton />);
 
-    expect(
-      await screen.findByRole("button", { name: "Click Here" })
-    ).toBeInTheDocument();
+    expect(await screen.findByRole("button", { name: "Click Here" })).toBeInTheDocument();
   });
 
   it("버튼을 클릭하면 클릭 핸들러 함수가 실행되어야 합니다", async () => {
@@ -609,7 +802,18 @@ describe("MuiSimpleButton 테스트", () => {
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 5. 스낵바 및 알림
 
@@ -653,7 +857,18 @@ const MuiSnackbar = () => {
 export default MuiSnackbar;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "Show Snackbar" 버튼을 클릭하면 스낵바가 표시되고 잠시 후에 숨겨집니다.
 
@@ -663,7 +878,18 @@ export default MuiSnackbar;
 
 이를 테스트하는 방법을 살펴보겠습니다. 스낵바에는 경고를 나타내는 ARIA 역할이 있습니다. Jest 가짜 타이머를 사용하여 스낵바의 자동 숨김 기능을 테스트하는 방법을 확인하세요."
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { act, render, screen, within } from "@testing-library/react";
@@ -708,7 +934,18 @@ Snackbar 컴포넌트는 Alert 컴포넌트와 함께 사용할 때 추가로 �
 
 ## Implementation
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 대화 상자(Dialogs)입니다. 버튼을 클릭하면 모달(modal)이 열리는 대화 상자를 만들어 봅시다. 대화 상자를 위해 테스트 코드 작성 방법에 대해 설명할 거에요. 다행히도, 대화 상자를 직접 구현한다면 테스트 코드도 매우 유사할 거에요.
 
@@ -716,7 +953,18 @@ Snackbar 컴포넌트는 Alert 컴포넌트와 함께 사용할 때 추가로 �
 
 ![데모](https://miro.medium.com/v2/resize:fit:1200/1*mmI2orV3joBq5-OkVNTEfw.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 테스트
 
@@ -758,7 +1006,18 @@ describe("MuiModal Tests", () => {
 
 # 7. 페이지네이션
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 구현
 
@@ -843,7 +1102,18 @@ const MuiTable = () => {
 export default MuiTable;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기에 데모가 있어요:
 
@@ -853,7 +1123,18 @@ export default MuiTable;
 
 페이지네이션 컴포넌트는 탐색을 위한 ARIA 역할을 가지고 있어요. 그래서 역할은 페이지네이션 컴포넌트를 쿼리하는 데 사용될 수 있어요. 페이지 간 이동하는 테스트 코드는 조금 까다로웠는데, 페이지네이션 컴포넌트의 각 페이지는 Go to page n이라는 ARIA 레이블이 있는 버튼이기 때문이에요. 실제로 동작하는 것을 보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { render, screen, waitFor } from "@testing-library/react";
@@ -910,7 +1191,3 @@ describe("MuiTable Tests", () => {
 Material UI를 사용하여 팀은 단기 프로젝트를 성공적으로 고객에게 제공했습니다. 생산 준비가 완료된 시각적 컴포넌트 덕분에 우리는 구현과 테스팅에 집중할 수 있었습니다. 제품 디자이너의 부재에도 불구하고 고객들은 전체적으로 디자인에 만족을 표현했고, 우리 팀은 많은 테스트를 수행하면서도 인상적인 속도를 유지했습니다. 대략 한 달 반 동안, 우리는 프론트엔드와 백엔드 각각 약 250개의 테스트를 작성했습니다. 일부 컴포넌트의 테스트 프로세스를 파악하는 데 시간이 걸렸습니다. 이 문서가 소프트웨어 프로젝트의 품질을 향상시키는 데 도움이 되기를 바랍니다. 행운을 빕니다!
 
 전체 소스는 https://github.com/jskim1991/react-material-ui-test에서 찾을 수 있습니다.
-
-
-
-

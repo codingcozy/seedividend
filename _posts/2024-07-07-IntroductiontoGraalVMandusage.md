@@ -3,16 +3,13 @@ title: "GraalVM 소개와 사용 방법 모던 자바 가상 머신의 이해 �
 description: ""
 coverImage: "/assets/img/2024-07-07-IntroductiontoGraalVMandusage_0.png"
 date: 2024-07-07 19:28
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-IntroductiontoGraalVMandusage_0.png
 tag: Tech
 originalTitle: "Introduction to GraalVM, and usage"
 link: "https://medium.com/@alxkm/introduction-to-graalvm-and-usage-105f30a30de3"
 isUpdated: true
 ---
-
-
-
 
 GraalVM 탐험: 그 능력을 활용하는 안내서 및 실용적인 가이드
 
@@ -22,7 +19,18 @@ GraalVM 탐험: 그 능력을 활용하는 안내서 및 실용적인 가이드
 
 GraalVM은 자바 및 기타 언어로 작성된 애플리케이션에 대한 상당한 이점을 제공하는 고성능 런타임입니다. Oracle에 의해 개발되었으며, 고급 최적화 및 독특한 아키텍처를 활용하여 애플리케이션을 더 빠르고 효율적으로 실행할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그라얄VM의 역사
 
@@ -31,7 +39,18 @@ GraalVM은 자바 및 기타 언어로 작성된 애플리케이션에 대한 �
 - 그라얄VM 프로젝트는 2011년 오라클 연구소에서 시작되었으며 자바 컴파일러 최적화 연구의 일환으로 개발되었습니다.
 - 목표는 기존 HotSpot C2 컴파일러를 대체할 수 있는 새로운 고성능 JIT 컴파일러인 Graal 컴파일러를 만드는 것이었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 2012-2013년: 초기 개발은 중요한 성능 향상을 보여줄 수 있는 연구용 컴파일러를 만드는 데 초점을 맞추었습니다.
 - 2014년: Graal 컴파일러의 첫 번째 공개 릴리즈로, 주로 JVM 성능 향상에 관심 있는 연구자와 초기 채용자를 대상으로 합니다.
@@ -49,7 +68,18 @@ GraalVM은 다중 프로그래밍 언어로 작성된 응용 프로그램을 실
 - GraalVM은 Ahead-of-Time (AOT)로 생성된 네이티브 이미지(Native Image)를 지원합니다.
 - Graal 컴파일러는 Just-In-Time (JIT) 컴파일러입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## GraalVM은 다음과 같은 주요 기능을 제공합니다
 
@@ -62,7 +92,18 @@ GraalVM은 다중 프로그래밍 언어로 작성된 응용 프로그램을 실
 
 # Javac
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우선 이 질문에 대한 답변을 하기 위해서는 우선 javac JIT 컴파일을 알아보고 그 강력한 면을 이해해야 합니다.
 
@@ -72,7 +113,18 @@ GraalVM은 다중 프로그래밍 언어로 작성된 응용 프로그램을 실
 
 Java 클래스 또는 애플리케이션을 실행하려고 시도하면 이전에 생성된 바이트코드가 아직 기계 코드로 컴파일되지 않았다는 것을 알 수 있습니다. JVM은 이 바이트코드를 TemplateInterpreter를 사용하여 해석합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## TemplateInterpreter는 무엇을 하는가?
 
@@ -82,7 +134,18 @@ Java 클래스 또는 애플리케이션을 실행하려고 시도하면 이전�
 
 JVM은 단순히 바이트 코드를 끊임없이 해석하지 않습니다. 대신, 자주 실행되는 코드 (핫 패스로 알려진)를 식별하고 해당 바이트 코드를 직접 기계 코드로 컴파일합니다. 이 과정에는 성능을 최적화하는 Just-In-Time (JIT) 컴파일러가 관여하여 핫 패스를 기계 코드로 번역함으로써 성능을 최적화합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 궁금해하시는 분들을 위해 Java C1 및 C2 컴파일러와 계층 컴파일의 개념을 탐구하는 것도 좋은 아이디어에요.
 
@@ -92,7 +155,18 @@ JVM은 단순히 바이트 코드를 끊임없이 해석하지 않습니다. 대
 
 ## JIT의 장점
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "한 번 작성하고 어디서든 실행" - 이것은 자바의 근본적인 약속이었습니다. JVM이 설치되어 있다면 Java는 항상 이를 실현해 왔습니다. 초기 해석 시간을 통해, Java는 Just-In-Time (JIT) 컴파일을 통해 좋은 런타임 성능을 제공합니다.
 
@@ -102,7 +176,18 @@ JVM은 단순히 바이트 코드를 끊임없이 해석하지 않습니다. 대
 
 Ahead-Of-Time (AOT) 컴파일러는 애플리케이션이 실행되기 전에 Java 바이트코드를 네이티브 머신 코드로 번역합니다. 이는 런타임이 아닌 빌드 단계에서 애플리케이션을 컴파일하고, 구체적인 운영체제 및 아키텍처에 맞는 실행 바이너리를 생성하는 과정을 포함합니다."
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AOT 컴파일러는 Java 소스 코드를 가져와 바이트코드로 컴파일합니다. 그런 다음에는 이 바이트코드를 네이티브 머신 코드로 번역합니다. 마지막으로 특정 플랫폼에서 직접 실행할 수 있는 실행 가능한 이진 파일을 생성합니다.
 
@@ -112,7 +197,18 @@ AOT 컴파일러는 기본적으로 빌드 시간에 정적 코드 분석을 하
 
 코드가 이미 컴파일되어 있기 때문에 애플리케이션은 거의 즉시 시작됩니다. AOT 컴파일된 애플리케이션은 JIT 컴파일러와 런타임 최적화가 필요하지 않으므로 메모리를 적게 사용합니다. 컴파일러는 대상 플랫폼에 특화된 포괄적인 최적화를 수행할 수 있습니다. JIT 컴파일 오버헤드가 없어져 성능이 더 일관되고 예측 가능해집니다. AOT 컴파일은 런타임 코드 생성이 필요 없어져 공격 표면을 줄일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 전반적으로 AOT 컴파일은 부팅 시간, 메모리 사용량 및 일관된 성능이 중요한 환경에서 상당한 이점을 제공합니다.
 
@@ -122,7 +218,18 @@ GraalVM은 코드 실행에 대해 두 가지 접근 방식을 지원합니다: 
 
 JIT 컴파일은 실행 시 자주 실행되는 바이트코드를 최적화된 머신 코드로 동적으로 컴파일하여 부팅 시간과 최고 성능을 균형있게 유지함으로써 성능을 향상시킵니다. C2 컴파일러를 대체하기 위해 개발된 AOT (Native Image) 컴파일은 실행 전에 바이트코드를 네이티브 머신 코드로 번역하여 부팅 시간을 빠르게 하고 메모리 사용량을 낮춥니다. 이러한 접근 방식을 통해 Java 응용 프로그램을 다양한 사용 사례와 환경에서 최적화하는 데 유연하고 강력한 옵션을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 네이티브 이미지를 사용하는 경우
 
@@ -132,7 +239,18 @@ JIT 컴파일은 실행 시 자주 실행되는 바이트코드를 최적화된 
 
 CWA에 대해 이야기해봅시다. GraalVM의 Closed-World 가정(CWA)은 프로그램 전체와 해당 종속성이 컴파일 시점에 알려져야 한다는 요구사항을 의미합니다. 이 가정은 Ahead-Of-Time (AOT) 컴파일 중에 더 강력한 최적화를 가능하게 합니다. 컴파일러는 실행 시 클래스나 메서드의 동적 로딩을 고려할 필요 없이 정확한 결정을 내릴 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다시 말하자면, CWA는 우리 프로그램에 제한을 가하는 것입니다. 이는 실행하기 전에 모든 코드를 컴파일해야 한다는 것을 의미합니다. 따라서 Java Reflection, 동적 프록시 및 그 밖의 모든 것이 작동을 멈춥니다.
 
@@ -140,13 +258,24 @@ CWA에 대해 이야기해봅시다. GraalVM의 Closed-World 가정(CWA)은 프�
 
 - 전체 프로그램 분석: AOT 컴파일러는 전체 프로그램과 의존성을 분석하여 철저한 최적화를 가능하게 합니다.
 - 동적 클래스 로딩 없음: 컴파일러가 모든 코드를 알고 있다고 가정하기 때문에 동적 클래스 로딩을 처리할 필요가 없어 더 간단하고 효율적인 코드를 얻을 수 있습니다.
-- 최적화된 실행 파일: 컴파일러가 더 동적인 환경에서는 불가능한 고급 최적화를 수행할 수 있기 때문에 실행 가능한 파일은 성능을 위해 매우 최적화되어 있습니다. 
+- 최적화된 실행 파일: 컴파일러가 더 동적인 환경에서는 불가능한 고급 최적화를 수행할 수 있기 때문에 실행 가능한 파일은 성능을 위해 매우 최적화되어 있습니다.
 - 플랫폼별: 실행 파일은 특정 플랫폼과 아키텍처에 맞게 제작되어 최적의 성능을 보장하지만 각 대상 환경마다 별도의 이진 파일이 필요합니다.
 - 오버헤드 감소: 런타임 해석이나 JIT 컴파일이 필요하지 않기 때문에 애플리케이션은 빠른 시작 시간과 줄어든 메모리 사용량을 달성할 수 있습니다.
 
 혜택:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 더 빠른 시작 시간: 사전 컴파일된 코드는 런타임 컴파일이 필요하지 않음을 의미합니다.
 - 더 낮은 메모리 사용량: JIT 컴파일러나 런타임 최적화 데이터 구조가 필요하지 않습니다.
@@ -160,7 +289,18 @@ CWA에 대해 이야기해봅시다. GraalVM의 Closed-World 가정(CWA)은 프�
 
 이해하면, GraalVM의 클로즈드 월드 가정은 AOT 컴파일을 통해 상당한 성능 향상을 가능하게 하여 시작 시간과 메모리 효율성이 중요한 시나리오에 적합합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## GraalVM Spring 한계
 
@@ -171,7 +311,18 @@ Spring 애플리케이션의 주요 한계는 주로 Spring 프레임워크 내�
 - 동적 빈 로딩: Spring의 동적 빈 로딩 메커니즘은 주로 reflection에 의존하며, 네이티브 이미지 컴파일링에 문제가 될 수 있습니다. Spring의 빈 생성 프로세스에서 필요로 하는 반사적 액세스는 네이티브 이미지 환경에서 완전히 지원되지 않거나 최적화되어 있지 않을 수 있습니다.
 - 구성 메타데이터: Spring은 주석과 XML 설명자와 같은 구성 메타데이터를 구문 분석하고 처리하기 위해 reflection을 사용합니다. GraalVM의 네이티브 이미지는 reflection 구성을 지원하지만, 최적의 성능 및 호환성을 달성하려면 추가 구성 및 맞춤이 필요할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 동적 프록시 제한 사항:
 
@@ -182,7 +333,18 @@ SpringBoot를 사용하는 표준 예제를 살펴보겠습니다. 매우 자주
 
 예를 들어 AutoConfiguration은 특정 속성이 설정된 경우에만 빈을 생성하게됩니다. 애플리케이션이 시작될 때(ConditionalOnProperties).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그런 경우에 GraalVM 컴파일러는 어떤 매개변수가 로드될지 모릅니다.
 
@@ -194,7 +356,18 @@ SpringBoot를 사용하는 표준 예제를 살펴보겠습니다. 매우 자주
 - 정적 분석 도구: Spring Native 및 GraalVM의 네이티브 이미지 에이전트와 같은 정적 분석 도구를 활용하여 개발 중에 reflection 및 프록시 관련 문제를 식별하고 해결할 수 있습니다. 이러한 도구는 문제가 되는 코드 패턴에 대한 통찰력을 제공하고 GraalVM 호환성을 위한 최적화를 제안합니다.
 - 대체 구현: 경우에 따라 개발자는 reflection 및 동적 프록시에 대한 의존을 최소화하는 대체 구현이나 디자인 패턴을 탐색해야 할 수도 있습니다. 이 접근 방식은 코드를 컴파일 시점 계기 또는 정적 조직 기법을 사용하도록 리팩토링하는 것을 포함할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Spring의 기능이 풍부한 생태계는 개발자의 생산성과 응용 프로그램 확장성을 향상시키지만, GraalVM의 네이티브 이미지 컴파일과의 원활한 호환성 달성에는 reflection 및 동적 프록시 사용에 대한 신중한 고려가 필요합니다. 이러한 제약 사항을 선제적인 구성 및 최적화를 통해 해결함으로써, 개발자들은 효율적이고 성능이 우수한 응용 프로그램을 구축하기 위해 Spring과 GraalVM의 혜택을 동시에 활용할 수 있습니다.
 

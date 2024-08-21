@@ -3,16 +3,13 @@ title: "Nodejs를 활용한 마이크로서비스 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-05-27-LeveragingMicroserviceswithNodejs_0.png"
 date: 2024-05-27 18:27
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-LeveragingMicroserviceswithNodejs_0.png
 tag: Tech
 originalTitle: "Leveraging Microservices with Node.js"
 link: "https://medium.com/@ashishssoni01/leveraging-microservices-with-node-js-63cf8045db7c"
 isUpdated: true
 ---
-
-
-
 
 ## 궁극적인 확장성과 민첩성의 해제
 
@@ -26,7 +23,18 @@ isUpdated: true
 
 ## 소개
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이른바 빠르게 변화하는 디지털 세상에서는 기업들이 시장 상황에 신속히 대응하고 대규모 트래픽 증가를 처리하며 새로운 기능을 매끄럽게 통합할 수 있는 애플리케이션을 요구합니다. 마이크로서비스는 개발자들이 이러한 유연하고 확장 가능한 시스템을 구축할 수 있도록 함께 부상한 혁명적인 아키텍처 패러다임입니다. Node.js의 효율성과 성능과 결합되면, 마이크로서비스는 새로운 수준의 잠재력을 발휘합니다. 이 블로그 포스트는 마이크로서비스의 기본 원칙, 혁신적인 이점 및 Node.js에서의 구현을 위한 모베스트 프랙티스를 안내해 드릴 것입니다.
 
@@ -36,7 +44,18 @@ isUpdated: true
 
 모든 고객을 위해 특정 중앙 주방에서 서비스되는 거대한 레스토랑을 상상해보십시오. 마이크로서비스 아키텍처에서는 레스토랑이 각각이 특정 요리나 음식에 전념한 여러 전문화된 주방을 가지고 있습니다. 이탈리아 주방은 모든 파스타와 피자 주문을 처리하고, 스시 주방은 신선한 초밥 롤을 준비하는 데만 전념합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-05-27-LeveragingMicroserviceswithNodejs_0.png)
 
@@ -50,7 +69,18 @@ isUpdated: true
 - 빠른 시장 진입: 마이크로서비스를 통해 팀이 각기 다른 서비스에 동시에 작업할 수 있어 개발 주기를 단축하고 빠른 릴리스를 가능하게 합니다. 예를 들어 한 팀은 케이터링 서비스에 대한 새로운 기능을 개발하고, 다른 팀은 제품 카탈로그 서비스를 개선함으로써 병렬 개발이 가능하며, 새로운 기능을 최종 사용자에게 빠르게 제공할 수 있습니다.
 - 쉬운 유지 보수 및 업그레이드: 작고 모듈식 코드베이스를 사용하면 개별 서비스의 유지 보수 및 업그레이드가 훨씬 쉬워집니다. 프레임워크나 언어의 새 버전으로 서비스를 리팩토링하거나 이주할 수 있으며 전체 애플리케이션을 방해하지 않고 진행할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Node.js에서 마이크로서비스 구현하기
 
@@ -64,7 +94,18 @@ isUpdated: true
 
 ## 최상의 실천 방법
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 탈중앙화된 데이터 관리: 각 마이크로서비스는 자체 데이터베이스를 관리해야 하며, 단일 장애 지점을 피하고 서비스가 완전히 독립적이 될 수 있도록 해야 합니다. 이 "서비스 당 데이터베이스" 패턴은 데이터 격리와 확장성을 촉진합니다.
 - 버전 관리: API 버전 관리를 구현하여 기존 클라이언트에 영향을 주지 않고 변화와 업데이트를 처리할 수 있습니다. 이를 통해 역호환성을 유지하고 새로운 기능을 도입하거나 서비스를 리팩토링할 때 원활한 전환을 가능하게 합니다.

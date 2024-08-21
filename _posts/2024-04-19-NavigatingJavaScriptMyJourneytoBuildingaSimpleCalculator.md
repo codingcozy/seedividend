@@ -3,17 +3,13 @@ title: "html css js로 간단한 계산기 만드는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Navigating JavaScript My Journey to Building a Simple Calculator"
 link: "https://medium.com/@cyrilbassey/navigating-javascript-my-journey-to-building-a-simple-calculator-088146f45f85"
 isUpdated: true
 ---
-
-
-
-
 
 내 튜터가 JavaScript에서 계산기 함수를 만들라고 시키자, 나는 조금 헷갈렸어. 수업 중 몇 부분에서 완전히 깨어 있지 못한 채로 있었기 때문에 수업의 중요한 부분을 놓쳤어. 결과적으로 과제를 위해 준비가 되지 않았던 거야.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 하지만 포기하고 싶지 않았어. 수업에서 배운 것을 준수하며 다시 시도하기로 결심했어. 쉽지 않았어. 갇힌 듯하고 확신이 없는 순간이 있었지만, 계속 도전했어.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 천천히지만 확실하게, 나는 문제들을 이해하기 시작했다. 과제의 각 부분을 차근차근 풀어가면서 올바르게 해냈다. 그리고 갑자기, 모든 것이 이해되었다. 나는 수업에서 배운 것만을 이용해 JavaScript 계산기를 만들었다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 그래서 코드 블록을 작성하기 전에 코드의 구성 요소를 설명해보려 한다... 설명은 코드 블록 앞에 올 것이다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1280/1*G2X3MKzj-D8az6P2jep0dA.gif)
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 `html lang=”en”`: 이 코드는 HTML 문서를 시작하고 문서가 영어로 작성되었다는 것을 브라우저에 알려줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **head**: 이 섹션에는 문서에 대한 메타데이터가 포함되어 있습니다.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 **title`Simple Calculator`/title**: 이는 웹페이지의 제목을 설정하여 브라우저의 제목 표시줄이나 탭에 표시됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `link rel=”stylesheet” href=”styles1.css”`: 이 코드는 외부 CSS 파일인 “styles1.css”를 연결하여 계산기를 스타일링합니다.
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 `div class=”calculator”`: 이 코드는 계산기가 들어갈 컨테이너를 생성합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `input type="text" id="display" readonly`: 여기에는 사용자의 입력 및 계산 결과가 표시되는 입력 필드가 생성됩니다. 직접 사용자 입력을 방지하기 위해 읽기 전용입니다.
 
@@ -73,7 +124,18 @@ isUpdated: true
 
 `` button onclick="appendToDisplay('7')"`7`/button ``: 이 버튼을 클릭하면 숫자 7이 디스플레이에 추가됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ... (다른 버튼에 대해서도 유사한 줄)
 
@@ -83,7 +145,18 @@ isUpdated: true
 
 `</html>`: 이것은 HTML 문서의 끝을 나타냅니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 위에 설명한 내용을 HTML 파일에 붙여 넣을 수 있는 HTML 코드 블록입니다.
 
@@ -124,7 +197,18 @@ head>
 </html>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - `.calculator`: 해당 선택자는 클래스가 "calculator"인 요소를 대상으로 합니다.
 
@@ -134,7 +218,18 @@ head>
 
 - `border: 1px solid #ccc;`: 요소 주위에 1픽셀의 회색(#ccc) 실선 테두리를 추가합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - `border-radius: 5px;`: 요소의 모서리를 5픽셀의 border-radius로 둥글게 만듭니다.
 
@@ -144,7 +239,18 @@ head>
 
 2. `#display`: 이 선택자는 ID가 "display"인 요소를 대상으로 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - `width: 100%;`: "display" ID를 가진 요소의 너비를 부모 컨테이너의 너비의 100%로 설정합니다.
 
@@ -154,7 +260,18 @@ head>
 
 3. `.keys`: 이 선택자는 "keys" 클래스를 가진 요소들을 대상으로 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - `display: grid;`: "keys" 클래스를 가진 요소를 그리드 컨테이너로 표시합니다.
 
@@ -164,7 +281,18 @@ head>
 
 4. `button`: 이 선택자는 "button" 요소를 대상으로 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - `padding: 10px;`: 각 버튼 안쪽에 10픽셀의 여백을 추가합니다.
 
@@ -174,7 +302,18 @@ head>
 
 - `cursor: pointer;`: 각 버튼 위로 마우스를 올리면 커서를 포인터로 변경합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - `background-color: #f0f0f0;`: 각 버튼의 배경색을 연한 회색 (#f0f0f0)으로 설정합니다.
 
@@ -184,7 +323,18 @@ head>
 
 # 아래는 위에서 설명한 CSS 코드 블록입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신이 CSS 파일에 직접 붙여넣을 수 있어요
 
@@ -230,7 +380,18 @@ button:hover {
 - `function clearDisplay() { … }`: 'C' (지우기) 버튼을 클릭할 때 호출되는 함수에요. `display` 필드의 내용을 지워 새 계산을 시작할 수 있게 해줘요.
 - `function calculateResult() { … }`: '=' (등호) 버튼을 클릭할 때 호출되는 함수에요. 사용자가 입력한 식의 결과를 계산하여 `display` 필드에 결과를 업데이트해줘요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - `let expression = display.value;`: 이 코드는 `display` 필드의 내용을 가져와서 사용자가 입력한 수학식을 나타내는 변수 `expression`에 할당합니다.
 - `let result;`: 이는 계산된 결과를 저장할 변수 `result`를 선언합니다.
@@ -280,7 +441,18 @@ function calculateResult() {
 
 나는 작업한 각 코드 조각이 개발자로서成長하는 데 도움이되었습니다. 분명히 멈춰있거나 불확실한 순간이 있었지만, 그런 순간이 알아내면서 느낀 성취감에 비해 훨씬 많았습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앞으로, 나는 더 나은 스킬 향상과 새로운 것을 배우는 것을 열망하고 있어. 내가 쓰는 각 줄의 코드는 프로그래밍에서 내 목표에 한 걸음 더 다가가게 해줘.
 

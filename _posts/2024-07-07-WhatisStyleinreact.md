@@ -3,16 +3,13 @@ title: "React에서 스타일링 하는 방법은 무엇인가"
 description: ""
 coverImage: "/assets/no-image.jpg"
 date: 2024-07-07 21:18
-ogImage: 
+ogImage:
   url: /assets/no-image.jpg
 tag: Tech
 originalTitle: "What is Style in react?"
 link: "https://medium.com/@goutam2606/what-is-style-in-react-886d58f6a016"
 isUpdated: true
 ---
-
-
-
 
 Styled component는 리액트를 위한 CSS-in-JS 스타일링 솔루션입니다.
 
@@ -22,7 +19,18 @@ Styled component는 리액트를 위한 CSS-in-JS 스타일링 솔루션입니�
 
 # 리액트를 스타일링하는 주요 방법은 주로 3가지가 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 인라인 스타일링
 - CSS 스타일 시트
@@ -45,7 +53,18 @@ const root = ReadDOM.createRoot(document.getElementById('root'));
 root.render(<Header/>);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 JSX에서는 JavaScript 표현식을 중괄호로 묶어서 쓰며, JavaScript 객체도 중괄호를 사용하므로 위의 스타일링은 두 개의 중괘로 묶어써야 합니다.
 
@@ -58,9 +77,9 @@ const Header = () => {
       <p>스타일 추가하기</p>
     </>
   );
-}
+};
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<Header />);
 ```
 
@@ -68,14 +87,25 @@ JavaScript 객체
 
 스타일링이 적용된 객체를 만들 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```jsx
 const Header = () => {
   const myStyle = {
     color: "white",
     fontFamily: "sans-serif",
-    backgroundColor: "red"
+    backgroundColor: "red",
   };
 
   return (
@@ -84,10 +114,10 @@ const Header = () => {
       <p> Object Styling </p>
     </>
   );
-}
+};
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<Header/>);
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<Header />);
 ```
 
 ## CSS Stylesheet
@@ -96,7 +126,18 @@ Write your CSS styling in a file with a .css extension and then import it into y
 
 Create a file named App.css and add your CSS code inside it.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /* App.css */
@@ -113,8 +154,18 @@ Your application can utilize CSS modules as another way to add styles.
 
 CSS modules are beneficial for components that are placed in separate files.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 /* my-style.module.css */

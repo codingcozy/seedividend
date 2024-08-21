@@ -3,16 +3,13 @@ title: "인공지능 기술을 활용한 코드 문서화 및 분석 방법"
 description: ""
 coverImage: "/assets/img/2024-05-17-AI-PoweredCodeDocumentationandAnalysis_0.png"
 date: 2024-05-17 03:30
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-17-AI-PoweredCodeDocumentationandAnalysis_0.png
 tag: Tech
 originalTitle: "AI-Powered Code Documentation and Analysis"
 link: "https://medium.com/@The_GreatBonnie/ai-powered-code-documentation-and-analysis-690fd514ad57"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-05-17-AI-PoweredCodeDocumentationandAnalysis_0.png" />
 
@@ -26,7 +23,18 @@ isUpdated: true
 - 보안 문제
 - 최적화 문제
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Mimrr 코드 문서 및 분석 기능을 활용하면 코드 변경이 정기적으로 발생할 때도 최신 코드 문서를 만들고 유지할 수 있습니다.
 
@@ -36,7 +44,18 @@ Mimrr 코드 문서 및 분석 기능을 활용하면 코드 변경이 정기적
 
 이 섹션에서는 Mimrr 계정을 만드는 방법을 배울 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1. 민르(Mimrr)로 이동하고 무료 시작 버튼을 클릭하세요.
 
@@ -46,7 +65,18 @@ Mimrr 코드 문서 및 분석 기능을 활용하면 코드 변경이 정기적
 
 ![image](/assets/img/2024-05-17-AI-PoweredCodeDocumentationandAnalysis_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 세 번째 단계: 그 다음으로, 조직 이름과 설명을 추가하여 조직을 생성합니다. 그런 다음 아래 그림처럼 '조직 생성' 버튼을 클릭하세요.
 
@@ -56,7 +86,18 @@ Mimrr 코드 문서 및 분석 기능을 활용하면 코드 변경이 정기적
 
 ![Mimrr Dashboard](/assets/img/2024-05-17-AI-PoweredCodeDocumentationandAnalysis_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 축하합니다! Mimrr 계정을 성공적으로 생성했습니다.
 
@@ -66,8 +107,18 @@ Mimrr 코드 문서 및 분석 기능을 활용하면 코드 변경이 정기적
 
 단계 1: 대시보드로 이동하여 "Mimrr에 코드 연결" 드롭다운 메뉴를 엽니다. 그런 다음 "연결" 버튼을 클릭하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![AI-Powered Code Documentation and Analysis](/assets/img/2024-05-17-AI-PoweredCodeDocumentationandAnalysis_5.png)
 
@@ -77,15 +128,35 @@ Step 2: Then you will be redirected to choose a repository provider. In this cas
 
 Step 3: Next, go to your Mimrr dashboard and open the projects section to add your codebase repository by clicking the Add Project button. Once your project is added, it should look as shown below.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Step 4: 해당 프로젝트를 클릭하여 생성된 문서를 확인하세요.
 
 축하합니다! 이제 코드베이스를 위한 코드 문서를 성공적으로 생성했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 코드 분석 보기
 
@@ -95,7 +166,18 @@ Step 4: 해당 프로젝트를 클릭하여 생성된 문서를 확인하세요.
 
 ![이미지](/assets/img/2024-05-17-AI-PoweredCodeDocumentationandAnalysis_9.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Step 2: 요약된 섹션 중 하나를 클릭하세요. 그럼 아래와 같이 이슈에 대한 더 많은 세부 정보를 보기 위해 Details 드롭다운 메뉴를 클릭하세요.
 
@@ -105,7 +187,18 @@ Step 3: 코드 유지 관리 문제를 분석하려면 아래와 같이 드롭�
 
 ![image](/assets/img/2024-05-17-AI-PoweredCodeDocumentationandAnalysis_11.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Step 4: 코드 성능 문제를 분석하려면 아래에 나와 있는 드롭다운 메뉴에서 Performance를 선택하세요. 그런 다음 각 성능 문제에 대한 더 많은 세부 정보를 확인하세요.
 
@@ -115,7 +208,18 @@ Step 5: 코드 보안 문제를 분석하려면 아래에 나와 있는 드롭�
 
 ![Security](/assets/img/2024-05-17-AI-PoweredCodeDocumentationandAnalysis_13.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단계 6: 코드 리팩터링 문제를 분석하려면 아래와 같이 드롭다운 메뉴에서 Refactor를 선택하십시오. 그런 다음 각 유연성 문제에 대한 자세한 내용을 확인하십시오.
 
@@ -125,6 +229,17 @@ Step 5: 코드 보안 문제를 분석하려면 아래에 나와 있는 드롭�
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요약하자면, Mimrr은 코드 문서를 생성하는 및 코드의 문제를 분석하는 프로세스를 자동화하는 데 훌륭한 도구입니다. Mimrr을 사용함으로써 기술 부채 없이 기능을 신속하게 출시할 수 있습니다.

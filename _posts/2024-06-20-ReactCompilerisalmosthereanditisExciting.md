@@ -3,16 +3,13 @@ title: "리액트 컴파일러가 거의 다 왔어요 정말 기대돼요"
 description: ""
 coverImage: "/assets/img/2024-06-20-ReactCompilerisalmosthereanditisExciting_0.png"
 date: 2024-06-20 01:32
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-ReactCompilerisalmosthereanditisExciting_0.png
 tag: Tech
 originalTitle: "React Compiler is almost here and it is Exciting!"
 link: "https://medium.com/design-bootcamp/react-compiler-is-almost-here-and-it-is-exciting-758ec51d45af"
 isUpdated: true
 ---
-
-
-
 
 Meet Jay, he is a budding Frontend Engineer and has been working with React for a few months. Recently, he raised a Pull Request where he is fetching a list of todos and displaying it on the UI —
 
@@ -22,7 +19,18 @@ But Wait… His PR does not get approved!
 
 ![image](/assets/img/2024-06-20-ReactCompilerisalmosthereanditisExciting_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-20-ReactCompilerisalmosthereanditisExciting_2.png" />
 
@@ -32,7 +40,18 @@ But Wait… His PR does not get approved!
 
 Jay는 Ray의 조언을 따라 했지만, 여기서 몇 가지 더 코멘트가 있어요. 어떤 경우에는 여러 개의 콜백이 자식 컴포넌트로 전달되고 있어요. Ray는 Jay에게 useCallback()을 사용하여 이러한 함수들의 참조(reference)를 보존하여 각 리렌더링마다 자식 컴포넌트를 메모이즈하고 그들의 리렌더링을 멈출 수 있도록 하는 것을 요청했어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 작업의 반은 끝났어요! 이제 비싼 자식 구성 요소들을 memo() 훅으로 감싸서 다시 렌더링을 막아야 해요.
 
@@ -42,7 +61,18 @@ Jay는 Ray의 조언을 따라 했지만, 여기서 몇 가지 더 코멘트가 
 
 UI는 상태의 함수입니다... 확실히 이게 더 세밀하고 복잡한 문제이고, 우리는 방금 목격한 것처럼 말이죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 여기에는 🚀 즉, REACT 컴파일러가 등장합니다
 
@@ -52,7 +82,18 @@ React 컴파일러는 React가 개발자 경험을 향상시키기 위해 가져
 
 컴파일러 뒤에 숨은 아이디어는 대부분의 메모이제이션 논리를 React에게 위임하고 과도하게 복잡한 useMemo 및 useCallback 훅을 줄여서 코드베이스를 가독성 있게 만드는 것입니다. 이러한 훅들의 종속성은 많은 사람들에게 고통의 요점이기도 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트에서 이와 같은 지원을 받기 위한 작업은 상당한 시간동안 진행되어 왔습니다. 2021년 Xuan의 이번 토크를 확인해보세요 —
 
@@ -84,7 +125,18 @@ export default function Counter({initialCount}) {
 
 리액트 컴파일러에 의해 컴파일된 이 코드를 사용하여 상황을 확인할 수도 있습니다 —
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 function Counter(t0) {
@@ -121,12 +173,22 @@ function Counter(t0) {
 
 여기서 $는 props, state 및 다른 반응적인 정보의 데이터를 보관하는 변수이며, 잠재적인 다시 렌더링에서 비교하고 부모 구성 요소 또는 상태 변경이 있을 때, 그 정보가 변경된 것이 없다면... 바로! 컴포넌트 다시 렌더링이 저장됩니다!
 
-_c는 여기에서 실제 리액트 컴파일러 훅이며 useMemoCache()라고도 불리며 우리가 보았던 바와 같이 useMemo() 네이티브 훅과는 다르게 작동합니다.
+\_c는 여기에서 실제 리액트 컴파일러 훅이며 useMemoCache()라고도 불리며 우리가 보았던 바와 같이 useMemo() 네이티브 훅과는 다르게 작동합니다.
 
 그래서 간단히 말해서, Dan Abramov의 말로 하면, 리액트 컴파일러는 본질적으로 이것입니다 —
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 let jsx;
@@ -145,14 +207,25 @@ if(prevCount != count){
 
 # 제 ACT III: 지나치게 복잡한 최적화가 끝나는 시작
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 드디어 React에도 다른 대부분의 라이브러리에서 사용하던 컴파일러가 도입되고 있습니다. 이로 인해 날이 갈수록 React 코드를 작성할 때 "만약 이 부분이 변경된다면?", "이 함수가 성능에 해를 끼칠까?"라는 걱정을 덜어내고 코드를 작성할 수 있게 되었습니다.
 
 React 팀에게 👏 이를 위해 수년간 반복적이고 꾸준한 노력을 기욯 합니다. 재미있는 사실: 컴파일러를 도입하고자 한 목표가 후크(hook)와 서버 컴포넌트(Server components)를 탄생시켰습니다.
 
 컴포넌트를 이주할 준비가 되어 있는지 확인하려면 추천사항은 아니지만 React 팀의 React 컴파일러 소개 페이지(https://react.dev/learn/react-compiler#existing-projects)를 참조할 수 있습니다. 더 깊이 살펴볼 수 있는 유용한 리소스 몇 가지를 소개해 드리겠습니다 -
+
 - https://www.youtube.com/watch?v=PYHBHK37xlE
 - https://jherr2020.medium.com/react-compiler-with-react-18-1e39f60ae71a
 - https://www.youtube.com/watch?v=wnXGSwrOw80

@@ -3,7 +3,7 @@ title: "앵귤러로 웹사이트 만들 때 캐시 함정을 피하는 방법"
 description: ""
 coverImage: "/assets/img/2024-05-01-AvoidcachetrapwhenservingAngularapp_0.png"
 date: 2024-05-01 23:52
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-01-AvoidcachetrapwhenservingAngularapp_0.png
 tag: Tech
 originalTitle: "Avoid cache trap when serving Angular app"
@@ -11,14 +11,22 @@ link: "https://medium.com/@elelad/avoid-cache-trap-when-serving-angular-app-c598
 isUpdated: true
 ---
 
-
-
-
 ![이미지](/assets/img/2024-05-01-AvoidcachetrapwhenservingAngularapp_0.png)
 
 가장 이상한 버그 중 하나는 대규모 디자인 변경 후 발생했어요. 매일 아침마다 문제가 생기는 건데, 왜 그런 걸까요? 이 기사 제목을 보셨으니 이미 캐시와 관련이 있다는 건 알겠죠. 그렇다면 이런 문제가 왜 발생하는 걸까요, 그리고 어떻게 예방할 수 있을까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 모두 캐시를 좋아합니다, 맞지요? 캐시는 앱을 더 빨리 로드하는 데 도움을 주고, 서버로부터 일부 부하를 줄여 주며, 사용자들이 우리 앱에서 좋은 사용자 경험을 느낄 수 있도록 합니다.
 
@@ -28,7 +36,18 @@ isUpdated: true
 
 그래서 Angular 덕분에 문제가 해결됐다고 할 수 있을까요? 음, 완전히 그렇지는 않습니다. 문제는 index.html 파일이 캐시될 때 발생합니다. 새로운 앱 버전을 디플로이했고 정적 파일과 index.html 파일이 캐시되어 있는 상황에서 사용자가 메인 URL에서 앱을 시작하면 캐시된 index.html은 이전 js 파일을 로드하도록 요청할 것이고, 이 파일들은 브라우저 캐시로부터 로드될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 시나리오를 계속 진행하면서 약간 복잡해집니다. 사용자는 우리 앱을 사용하며(기억하세요 - 이전 버전으로), 화면 간 이동을 하고 몇 가지 작업을 합니다. 어느 시점에서 새로고침을 하기로 결정했는데, 이제 새 앱 버전을 받게 되었습니다.
 
@@ -38,7 +57,18 @@ SPA는 클라이언트 측에서 앱 내비게이션을 처리하며, Angular �
 
 이제 우리 시나리오에서 무슨 일이 일어나고 있는지 이해할 수 있습니다. 메인 URL에서 앱에 접속하면 캐시에 이 엔드포인트가 있기 때문에 이전 버전을 받게 됩니다. 그러나 특정 경로를 요청하는 경우, 항상 서버에서 index.html을 받고 캐시에서가 아닌 새 버전을 보게 됩니다 - 따라서 새로 고침 후에 새 버전이 나타날 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 좋죠, 그렇죠? 덕분에 캐시에 있는 하나의 index.html 때문입니다.
 
@@ -54,7 +84,18 @@ index.html 파일이 캐시되어 있는지 확인하는 것은 매우 쉽습니
 - 첫 번째 문서를 클릭합니다.
 - 캐시 제어 헤더를 확인합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어 angular.io/docs 사이트를 살펴봅시다:
 
@@ -67,7 +108,18 @@ index.html 파일이 캐시되어 있는지 확인하는 것은 매우 쉽습니
 - max-age=0 — 이 값 또한 index.html을 캐시하지 않습니다.
 - max-age=31536000 — 이 값은 좋지 않습니다. max-age의 값은 초로 표현되며, index.html이 1년 동안 캐시됩니다. 어떤 값이 적합한지는 본인의 의견에 따라 다를 수 있지만, index.html을 1년 동안 캐시하고 싶지 않을 것이라는 점에 동의할 수 있을 것 같습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그것들은 cache-control 헤더에 대한 인기있는 값들이에요; 응답에서 다른 것을 본다면, 여기서 확인해보실 수 있어요.
 
@@ -77,7 +129,18 @@ index.html 파일이 캐시되어 있는지 확인하는 것은 매우 쉽습니
 
 ![이미지](/assets/img/2024-05-01-AvoidcachetrapwhenservingAngularapp_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 문구는 w3.org 섹션 13.2.2에서 인용한 것입니다:
 
@@ -87,7 +150,18 @@ index.html 파일이 캐시되어 있는지 확인하는 것은 매우 쉽습니
 
 따라서, index.html에 올바른 캐시 제어 헤더가 함께 제공되는지 확인하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 캐시 함정
 
@@ -98,7 +172,18 @@ cached index.html의 실제 문제는 캐시에 이미 파일을 받은 사용�
 
 걱정하지 마세요; 이러한 index.html 문제는 상당히 드뭅니다. 대부분의 호스팅 서비스들은 기본적으로 오랜 캐시 구성이 있는 정적 파일을 제공하지 않습니다. 그러나 Angular 앱을 제공하는 서버가 이미 존재하고 동적 파일을 제공하는 경우에는 이 문제가 발생할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## index.html 폼이 캐싱되는 것을 방지하는 방법
 
@@ -108,7 +193,18 @@ cached index.html의 실제 문제는 캐시에 이미 파일을 받은 사용�
 
 ## 서비스 워커를 사용하고 있어요; 모두 좋아요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 죄송하지만 아니에요.
 
@@ -118,7 +214,18 @@ angular.io의 예제에서 서비스 워커에서 서비스되는 파일을 주�
 
 ## 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 몇 가지 캐시 문제는 디버그하기 어렵고 재현하기 어렵며 쉽게 코드 문제로 오해될 수 있습니다. 보통 우리 앱의 최종 사용자로부터 발생하며 새 버전을 얼마나 자주 릴리스하는지에 따라 달라집니다. 일부 사용자는 문제가 있다고 신고하지 않을 수도 있고, 그냥 "새로고침하면 사라지는 이상한 동작"으로만 설명할 수도 있습니다.
 

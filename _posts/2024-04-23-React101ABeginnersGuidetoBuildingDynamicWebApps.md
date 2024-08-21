@@ -3,17 +3,13 @@ title: "React로 Dynamic Web Apps 만드는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "React 101 A Beginners Guide to Building Dynamic Web Apps"
 link: "https://medium.com/@tonylixu/react-101-a-beginners-guide-to-building-dynamic-web-apps-cbf70be32360"
 isUpdated: true
 ---
-
-
-
-
 
 ![React](/assets/img/React101ABeginnersGuidetoBuildingDynamicWebApps_0.png)
 
@@ -25,7 +21,18 @@ React가 나오기 전에 프론트엔드 세계에서 개발의 새로운 지�
 - 그 다음으로 Knockout은 MVVM(Model-View-ViewModel) 아키텍처 개념을 소개했습니다. 이 개념은 데이터를 UI 뷰에 템플릿을 통해 매핑하여 DOM 조작을 크게 줄였습니다.
 - 그리고 AngularJS가 나왔습니다. AngularJS는 MVVM을 기반으로 하고 있으며 양방향 데이터 바인딩을 소개했습니다. 데이터 변경이 자동으로 UI에 반영되고 UI 작업이 데이터를 역으로 업데이트했습니다. AngularJS는 HTML을 지시문(directives)으로 확장하여 템플릿 엔진의 유연성을 향상시켰으나, 많은 서버 측 프로그래밍 개념을 도입하고 약간의 성능 단점이 있어 학습 곡선이 가파른 것이 주요 단점으로 언급되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트는 사용자 인터페이스를 구축하기 위한 선언적이고 효율적이며 유연한 JavaScript 라이브러리입니다. 리액트 철학의 핵심은 짧고 독립적인 코드 조각을 복잡한 UI 인터페이스로 결합하는 것이며, 이러한 코드 조각을 "컴포넌트"라고합니다. 리액트는 MVC 프레임워크가 아니라 오히려 MVC에서 "V"에 가깝게, 사용자 상호작용 뷰에 중점을 둡니다.
 
@@ -37,7 +44,18 @@ React가 나오기 전에 프론트엔드 세계에서 개발의 새로운 지�
 
 # 간단한 리액트 프로젝트 초기화
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 명령어를 사용하여 React 웹 프로젝트를 빠르게 초기화할 수 있습니다:
 
@@ -51,7 +69,18 @@ npm start를 실행한 후에는 브라우저가 http://localhost:3000의 프로
 
 <img src="/assets/img/React101ABeginnersGuidetoBuildingDynamicWebApps_1.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # React의 가상 DOM
 
@@ -87,7 +116,18 @@ React 프레임워크의 주요 장점 중 하나는 페이지 성능을 향상�
 </script>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 이 접근 방식은 당연히 문제가 발생합니다. 복잡한 페이지 UI의 경우, 디자이너는 종종 실제 DOM 요소의 많은 수를 정의합니다. 이러한 실제 DOM 요소를 빈번하게 조작하면 성능이 상당히 저하되고 사용자 경험이 악화되는 경우가 발생하며, 이는 디자이너가 피하려고 노력하는 것입니다. 따라서 React 프레임워크는 빈번한 DOM 작업으로 인한 성능 하락을 완화하기 위해 가상 DOM 메커니즘을 도입함으로써 이 문제에 특히 주목합니다.
 
@@ -112,7 +152,18 @@ React DOM은 관련된 실제 DOM 요소를 결합한 컬렉션으로 작동하�
 </script>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # React 렌더링 메커니즘
 
@@ -122,7 +173,18 @@ Diff 알고리즘의 핵심은 DOM 트리를 스캔하여 현재 상태와 이�
 
 # React의 장점
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 선언적 디자인: React는 선언적 패러다임을 채택하여 응용 프로그램을 쉽게 설명할 수 있습니다.
 - 효율성: React는 DOM과의 상호 작용을 최소화하고 시뮬레이션함으로써 효율적입니다.
@@ -141,7 +203,18 @@ React 프로그램을 작성하기 전에 JSX를 이해하는 것이 중요합�
 const element = <h1>Hello, world!</h1>;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <div className="container">
@@ -159,7 +232,18 @@ const element = <h1>Hello, world!</h1>;
 
 따라서 React는 렌더링 로직과 HTML 태그를 JSX를 사용하여 통합합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![React101ABeginnersGuidetoBuildingDynamicWebApps_2](/assets/img/React101ABeginnersGuidetoBuildingDynamicWebApps_2.png)
 
@@ -169,7 +253,18 @@ const element = <h1>Hello, world!</h1>;
 
 가장 간단한 React 컴포넌트는 JSX를 반환하는 함수로, HTML 태그처럼 중첩될 수 있습니다. React는 props를 활용하여 데이터를 컴포넌트로 전달하여 재사용성을 향상시킵니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어:
 
@@ -208,7 +303,18 @@ export default App;
 
 ## 기본 JSX 규칙
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React 컴포넌트에는 몇 가지 규칙이 있어요:
 
@@ -242,7 +348,18 @@ export default App;
 
 - 컴포넌트는 설정 가능한 속성을 노출하기 위해 하나의 매개변수인 props만을 수용합니다. 자식 컴포넌트는 React에서 children prop을 통해 주입됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import React from "react";
@@ -267,7 +384,18 @@ const ParentComponent = (props) => {
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 확실한 것은, React는 프런트엔드 개발 분야에서 강력한 존재로 떠오르며, 개발자들에게 수많은 혜택을 제공합니다. 그 인기만큼이나 중요한 것은, 기술 산업에서 일하는 곳에서 원하는 필수 기술이 되어버렸다는 점이죠. React를 둘러싼 거대한 커뮤니티는 지원과 안내를 제공하며, 프로젝트 개발을 신속하게 진행할 수 있는 다양한 도구와 라이브러리를 제공합니다.
 
@@ -277,7 +405,18 @@ React를 사용하면, 개발자들은 동적이고 반응적인 사용자 인�
 
 요컨데, React의 다재다능함, 효율성, 그리고 강력한 커뮤니티 지원은 현대적이고 고성능의 웹 애플리케이션을 개발하려는 개발자들에게 없어서는 안 될 필수 도구입니다. 경력이 풍부한 개발자든 초보든, React를 숙달함으로써, 전례 없는 가능성의 세계가 열리며, 프런트엔드 개발의 변화무쌍한 지형에서 당신의 경력을 도약시킬 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 참고 자료
 

@@ -3,16 +3,13 @@ title: "Spring Boot에서 OneToMany ManyToOne 애너테이션으로 양방향 �
 description: ""
 coverImage: "/assets/img/2024-07-09-BidirectionalRelationshipUsingOneToManyManyToOneAnnotationInSpringBoot_0.png"
 date: 2024-07-09 21:59
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-BidirectionalRelationshipUsingOneToManyManyToOneAnnotationInSpringBoot_0.png
 tag: Tech
 originalTitle: "Bidirectional Relationship Using @OneToMany @ManyToOne Annotation In Spring Boot"
 link: "https://medium.com/@arijit83work/bidirectional-relationship-using-onetomany-manytoone-annotation-in-spring-boot-3b91980ca222"
 isUpdated: true
 ---
-
-
-
 
 Spring Boot은 JPA(Java Persistence API)와 인기 있는 ORM(Object-Relational Mapping) 프레임워크인 Hibernate를 활용하여 두 개체 간에 상호 일대다 관계를 구현할 수 있게 해줍니다.
 
@@ -22,7 +19,18 @@ Spring Boot은 JPA(Java Persistence API)와 인기 있는 ORM(Object-Relational 
 
 이전 튜토리얼에서는 일대다 관계의 단방향 관계를 살펴보았을 때 하나의 소유자(Owner)가 여러 블로그(Blog)의 작성자인 예시를 살폈었습니다. 이제 소유자(Owner)와 블로그(Blog) 간의 관계를 살펴 양방향 관계를 보여드리겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 블로그와 소유자 간의 관계 예시입니다:
 
@@ -49,7 +57,18 @@ public class Owner {
 
 ![이미지](/assets/img/2024-07-09-BidirectionalRelationshipUsingOneToManyManyToOneAnnotationInSpringBoot_0.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 👉 지금 의문 하나가 생겼어요: One-To-Many 관계를 Many-To-One 관계라고 부를 수 있을까요? 당연히 가능해요. 다음 예시를 살펴보세요: 한 소유주가 많은 블로그를 작성했고, 하나의 출판사가 여러 작가의 책을 출판했다고 가정해봅시다. 결과적으로, Many-To-One 관계에서 많은 엔티티들이 하나의 엔티티와 관련되어 있습니다.
 
@@ -59,7 +78,18 @@ public class Owner {
 
 우리는 Spring Initializr을 사용하여 새로운 스프링 부트 프로젝트를 생성할 거에요. 이는 스프링 부트 프로젝트를 위한 기본 구조를 생성할 거에요. 다음 종속성이 추가되었습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Spring Boot DevTools — 필수 개발 도구
 - Spring Web — Spring MVC 및 Spring Boot 애플리케이션을 실행할 내장 Tomcat을 위함
@@ -72,7 +102,18 @@ public class Owner {
 
 # 3. 데이터베이스에 연결하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 MySQL을 데이터베이스로 사용하기 때문에 연결 정보를 애플리케이션에 넣을 거에요. 하이버네이트는 이 정보를 사용해서 데이터베이스에 연결할 거에요. application.properties 파일에는 이름/값 쌍이 포함돼 있어요. 연결 정보는 아래 스니펫에서 설명돼 있어요:
 
@@ -82,7 +123,18 @@ public class Owner {
 
 Spring Boot는 연결 URL로부터 데이터베이스에 대한 필요한 정보를 수집할 수 있기 때문에 datasource.driver-class-name을 명시할 필요가 없어요. 하지만, 우리가 driver-class-name을 명시하는 것이 더 안전할 거에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 애플리케이션이 실행 중이면 jpa.show-sql을 설정하면 Hibernate SQL 쿼리가 콘솔에 표시됩니다. jpa.hibernate.ddl-auto는 update로 설정되어 있어서 애플리케이션을 다시 시작할 때마다 데이터베이스 스키마가 업데이트됩니다. 그리고 hibernate.dialect는 사용 중인 데이터베이스 방억을 나타냅니다.
 
@@ -92,7 +144,18 @@ entity라는 패키지를 만들고 그 안에 Blog 클래스를 생성하세요
 
 이전에 설명한 것처럼, Blog 엔티티의 소유자와 관계를 @ManyToOne 주석을 사용하여 생성했습니다. @JoinColumn을 사용하여 owner_id 열을 정의했습니다; 이는 실제로 Owner를 가리킬 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 entity 패키지에 Owner 클래스를 생성해보세요:
 
@@ -102,8 +165,18 @@ entity라는 패키지를 만들고 그 안에 Blog 클래스를 생성하세요
 
 데이터베이스에서의 관계는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-09-BidirectionalRelationshipUsingOneToManyManyToOneAnnotationInSpringBoot_5.png)
 
@@ -113,8 +186,18 @@ Spring Boot에서의 리포지토리는 Spring Data JPA를 사용하여 실제 �
 
 repository라는 패키지를 만들고 그 안에 BlogRepository 인터페이스를 생성하세요:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리포지토리 패키지에 OwnerRepository 인터페이스를 생성하십시오:
 
@@ -124,7 +207,18 @@ repository라는 패키지를 만들고 그 안에 BlogRepository 인터페이�
 
 결과적으로 http://localhost:PORT/method-name에 대한 HTTP GET 요청은 ExampleController 클래스의 @GetMapping 메소드를 호출합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 패키지를 만들어서 이름을 controller로 지정하고 OwnerController 클래스를 생성하세요. OwnerController에는 네 가지 메소드가 포함되어 있습니다:
 
@@ -158,7 +252,18 @@ public class OwnerController {
 
 # 7. 프로젝트 실행
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Visual Studio Code에서 프로젝트를 실행하려면 다음 단계를 따라주세요:
 
@@ -169,7 +274,18 @@ Visual Studio Code에서 프로젝트를 실행하려면 다음 단계를 따라
 
 Eclipse에서 프로젝트를 실행하려면 다음 단계를 따라주세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - SpringbootonetomanybiApplication.java 파일을 마우스 오른쪽 버튼으로 클릭합니다.
 - 그런 다음 Run As를 선택하고 Spring Boot App을 클릭합니다.
@@ -180,7 +296,18 @@ Eclipse에서 프로젝트를 실행하려면 다음 단계를 따라주세요:
 
 ![이미지](/assets/img/2024-07-09-BidirectionalRelationshipUsingOneToManyManyToOneAnnotationInSpringBoot_8.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 application.properties 파일에서 포트를 지정하지 않았기 때문에 프로젝트는 8080 포트에서 실행될 것입니다. 이 프로젝트에서 REST API에 액세스하기 위한 기본 URL은 http://localhost:8080/입니다. 프로젝트가 로컬 머신에서 실행되기 때문에 localhost를 사용했습니다. 프로젝트가 원격 서버나 EC2에서 실행 중이면 해당 서버의 IP 주소나 엘라스틱 IP 주소를 사용해야 합니다.
 
@@ -190,7 +317,18 @@ application.properties 파일에서 포트를 지정하지 않았기 때문에 �
 
 ## 👉 새 소유자 만들기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새로운 소유자 및 그의/그녀의 블로그를 생성하려면 Postman에서 다음 URL을 호출하십시오:
 
@@ -202,7 +340,18 @@ http://localhost:8080/owner/saveOwner
 
 또한 콘솔에서 감사 로그를 확인하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 문서에서 제공한 내용입니다. 하이버네이트는 먼저 OWNER_DETAILS 테이블에 소유자를 삽입한 후, BLOG_DETAILS 테이블에 블로그를 삽입합니다.
 
@@ -210,7 +359,18 @@ http://localhost:8080/owner/saveOwner
 
 ![OWNER_DETAILS 테이블](/assets/img/2024-07-09-BidirectionalRelationshipUsingOneToManyManyToOneAnnotationInSpringBoot_11.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 BLOG_DEAILS 데이터베이스 테이블:
 
@@ -220,7 +380,18 @@ BLOG_DETAILS 테이블의 owner_id 열에는 OWNER_DETAILS 테이블의 ID 열 �
 
 ## 👉 새 블로그를 만들어보세요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 http://localhost:8080/owner/saveBlog?id=1
@@ -232,8 +403,18 @@ Also, check the audit logs in the console:
 
 ![Image](/assets/img/2024-07-09-BidirectionalRelationshipUsingOneToManyManyToOneAnnotationInSpringBoot_14.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 결과로 Hibernate는 Blogs를 저장하기 전에 제공된 id를 사용하여 소유자 세부정보를 먼저 검색합니다.
 
@@ -243,7 +424,18 @@ Also, check the audit logs in the console:
 
 기존 소유자에게 블로그 세부정보를 성공적으로 저장했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 👉 소유자 세부정보 가져오기
 
@@ -255,7 +447,18 @@ http://localhost:8080/owner/getOwner/1
 
 또한 콘솔에서 감사 로그를 확인하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-09-BidirectionalRelationshipUsingOneToManyManyToOneAnnotationInSpringBoot_17.png" />
 
@@ -267,17 +470,37 @@ http://localhost:8080/owner/getOwner/1
 http://localhost:8080/owner/getBlog/2
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래의 명령어를 콘솔에서 실행하여 감사 로그를 확인해보세요:
 
-
 ![Audit Log](/assets/img/2024-07-09-BidirectionalRelationshipUsingOneToManyManyToOneAnnotationInSpringBoot_19.png)
-
 
 해당 블로그와 그 소유자를 불러왔습니다. 블로그 ID를 사용했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 9. 결론
 

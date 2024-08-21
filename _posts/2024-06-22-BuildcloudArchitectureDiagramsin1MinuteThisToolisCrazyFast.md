@@ -3,7 +3,7 @@ title: "1분 만에 클라우드 아키텍처 다이어그램 만들기 이 도�
 description: ""
 coverImage: "/assets/img/2024-06-22-BuildcloudArchitectureDiagramsin1MinuteThisToolisCrazyFast_0.png"
 date: 2024-06-22 02:46
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-BuildcloudArchitectureDiagramsin1MinuteThisToolisCrazyFast_0.png
 tag: Tech
 originalTitle: "Build cloud Architecture Diagrams in 1 Minute (This Tool is Crazy Fast!)"
@@ -11,12 +11,20 @@ link: "https://medium.com/gitconnected/build-cloud-architecture-diagrams-in-1-mi
 isUpdated: true
 ---
 
-
-
-
 차트태그를 마크다운 형식으로 변경해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스위치를 바꾸는 것은 무거운, 불편한 수트에서 매끄럽고 재빠른 도구 세트로 변하는 것 같았어요. 그래서 제가 경험한 것은:
 
@@ -30,10 +38,21 @@ isUpdated: true
 
 ## 1: Github에서 Diagrams 패키지 복제하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-pip install diagrams 
+pip install diagrams
 ```
 
 ## 2: Graphviz 설치하기 (다이어그램 렌더링) 및 확인
@@ -42,7 +61,18 @@ pip install diagrams
 
 # AI 사용 방법 (1분만에):
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/1*2Zkdp3uGTEiSgChrGVw8cA.gif" />
 
@@ -52,7 +82,18 @@ pip install diagrams
 
 설명만 제공해주세요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 지시 사항
 
@@ -62,7 +103,18 @@ AI가 제공한 코드 중 두 가지 오류를 수정해야 했습니다.
 
 - diagrams.aws.management 대신 diagrams.aws에서 KMS를 가져 오려고 했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 보안.
 
@@ -78,7 +130,18 @@ diagrams.aws.storage 모듈에서 S3를 가져오셨네요.
 
 2. diagrams.aws.network에서 S3VPCEndpoint를 import하려고 했지만 S3VPCEndpoint가 존재하지 않아 Endpoint를 사용했습니다. 그리고 NatGateway에 관한 대소문자 문제가 있었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 from diagrams.aws.network import VPC, PrivateSubnet, S3VPCEndpoint, NatGateway
@@ -95,7 +158,18 @@ s3_endpoint = Endpoint("S3 Gateway Endpoint")
 
 ## 단계 3: 프로그램 실행하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 python `filename`.py
@@ -105,9 +179,20 @@ python `filename`.py
 다이어그램 패키지를 배우고 수동으로 다이어그램을 만드는 것은 매우 쉽습니다. Diagram, Cluster, Edge 및 몇 가지 기호 등 약 6가지 항목에 대해 알고 있기만 하면 됩니다.
 
 “Diagram” — 당신의 다이어그램의 최상위 컨테이너
-```  
+```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 다음 코드에서,
@@ -117,7 +202,18 @@ S3 to RDS는 저장할 이미지 파일의 이름을 나타냅니다
 direction — 왼쪽에서 오른쪽으로(LR), 오른쪽에서 왼쪽으로, 위에서 아래로 컨테이너를 만들기 시작합니다. 필요한 경우 사용할 수 있는 옵션입니다.
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "png", "jpg", "svg", "pdf", "dot" 형식이 현재 지원됩니다.
 
@@ -129,23 +225,43 @@ with Cluster("AWS"):
 
 Edge
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "``" - 오른쪽으로 향하는 화살표 또는 가장자리
 
 ```js
-event_bridge >> Edge(label="triggers") >> lambda1
+(event_bridge >> Edge((label = "triggers"))) >> lambda1;
 ```
 
 "``" - 왼쪽으로 향하는 화살표 또는 가장자리
 
 "-" - 방향이 없는 엣지 또는 양방향
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 s3_raw_layer - Edge(label="push") - lambda1
-
 
 # 샘플 출력:
 
@@ -153,7 +269,18 @@ s3_raw_layer - Edge(label="push") - lambda1
 
 # 다음 단계
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 잊지말고!
 
@@ -163,6 +290,17 @@ s3_raw_layer - Edge(label="push") - lambda1
 
 ![image](/assets/img/2024-06-22-BuildcloudArchitectureDiagramsin1MinuteThisToolisCrazyFast_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 만약 내 작업을 정말 좋아하신다면 커피 한 잔 사주실 수도 있어요 :).

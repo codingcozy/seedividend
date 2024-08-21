@@ -3,17 +3,13 @@ title: "2024년 4월 UI 디자인 최신 트렌드 "
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "UI Design Trends in 2024"
 link: "https://medium.com/@morshedurrana/ui-design-trends-in-2024-37cd3e1e51b0"
 isUpdated: true
 ---
-
-
-
-
 
 2024년 새해를 맞이하면서, UI 디자인의 풍경은 이전보다 더 많은 혁신과 창의력을 제공하며 발전해 나갑니다. 매 해마다 우리는 사용자가 디지털 인터페이스와 상호 작용하는 방식을 재정의하는 새로운 트렌드들의 등장을 목격하고 있습니다. 디자인의 영역을 탐험하며, 내일의 디지털 경험을 형성할 주요 UI 디자인 트렌드를 살펴보는 여정에 떠나 봅시다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ![이미지](/assets/img/UIDesignTrendsin2024_0.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 많은 초현실주의 영감을 찾으려면 여기를 클릭하세요
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ![이미지](/assets/img/UIDesignTrendsin2024_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 생동감 넘치는 색상 영감을 원하신다면 여기를 클릭해주세요
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 ![이미지](/assets/img/UIDesignTrendsin2024_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 유창한 영감을 얻고 싶다면 여기를 클릭해보세요
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 ![이미지](/assets/img/UIDesignTrendsin2024_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 많은 플랫 디자인 영감을 원하시면 여기를 클릭해주세요
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 ![이미지](/assets/img/UIDesignTrendsin2024_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다크 모드 영감을 더 찾고 싶다면 여기를 클릭해주세요
 
@@ -73,7 +124,18 @@ isUpdated: true
 
 ![이미지](/assets/img/UIDesignTrendsin2024_5.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 큰 텍스트 영갓에 영감을 받으려면 여기를 클릭하세요
 
@@ -83,7 +145,18 @@ isUpdated: true
 
 ![이미지](/assets/img/UIDesignTrendsin2024_6.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 많은 차원 및 레이어링 영감을 얻으려면 여기를 클릭하세요
 
@@ -93,7 +166,18 @@ isUpdated: true
 
 ![이미지](/assets/img/UIDesignTrendsin2024_7.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 많은 차원 및 계층 측면에서 영감을 얻고 싶다면 여기를 클릭해보세요.
 
@@ -103,7 +187,18 @@ isUpdated: true
 
 ![이미지](/assets/img/UIDesignTrendsin2024_8.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 복잡한 애니메이션 아이디어를 보려면 여기를 클릭해주세요.
 
@@ -113,7 +208,18 @@ isUpdated: true
 
 ![이미지](/assets/img/UIDesignTrendsin2024_9.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 사이버펑크 영감을 더 많이 얻고 싶다면 여기를 클릭해주세요
 

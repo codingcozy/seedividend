@@ -3,16 +3,13 @@ title: "Jetpack Compose에서 DataStorePreferences를 사용한 지속적 데이
 description: ""
 coverImage: "/assets/img/2024-07-01-PersistentDataStorageUsingDataStorePreferencesinJetpackCompose_0.png"
 date: 2024-07-01 16:51
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-01-PersistentDataStorageUsingDataStorePreferencesinJetpackCompose_0.png
 tag: Tech
 originalTitle: "Persistent Data Storage Using DataStore (Preferences) in Jetpack Compose"
 link: "https://medium.com/@rowaido.game/persistent-data-storage-using-datastore-preferences-in-jetpack-compose-90c481bfed12"
 isUpdated: true
 ---
-
-
-
 
 ![image](/assets/img/2024-07-01-PersistentDataStorageUsingDataStorePreferencesinJetpackCompose_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 "설정" 메뉴를 응용 프로그램에 포함시키는 것이 표준적인 규칙이 되었습니다. 사용자의 선호에 맞춰 인터페이스를 사용자 정의할 수 있는 기능을 제공하여, 예를 들어 밝은 테마와 어두운 테마 간 전환 또는 알림을 켜거나 끄기 등이 가능합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 “Settings” 정보는 사용자 기기에 지속적으로 저장되어 있어야 합니다 (앱이 삭제될 때까지). 그렇지 않으면 사용자가 앱을 닫을 때마다 저장된 사용자 설정이 손실되어 설정을 다시 처음부터 구성해야 합니다.
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 DataStore (Preferences) API를 사용하면 데이터를 키-값 형식으로 저장하고 관리할 수 있습니다. 그 자체로는 과도하게 복잡하지 않지만 구현에는 다음과 같은 기본 지식을 이해해야 합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - ViewModel을 사용한 UI 상태 관리의 기본 사항
 - Kotlin에서 비동기 처리의 기본 사항 (Coroutine)
@@ -44,7 +63,18 @@ DataStore (Preferences) API를 사용하면 데이터를 키-값 형식으로 �
 
 아래는 참고 링크입니다 (공식 Google 및 Kotlin 문서):
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - ViewModel: [라이브러리 안드로이드 뷰모델 참조](https://developer.android.com/reference/kotlin/androidx/lifecycle/ViewModel)
 - Kotlin 코루틴: [코루틴 개요 코틀린 문서](https://kotlinlang.org/docs/coroutines-overview.html)
@@ -57,7 +87,18 @@ DataStore (Preferences) API를 사용하면 데이터를 키-값 형식으로 �
 
 # ☛ 앱의 UI 확인
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이번에는 사용자가 사용자 이름을 입력하고 SAVE 버튼을 탭하면 해당 사용자 이름이 기기에 영구적으로 저장되고 저장된 사용자 이름이 표시되는 앱을 만들고 싶어요.
 
@@ -67,7 +108,18 @@ DataStore (Preferences) API를 사용하면 데이터를 키-값 형식으로 �
 
 완료되면 "SAVE" 버튼을 탭한 후에도 앱을 닫아도 사용자 이름이 계속 저장되어 있어야 합니다. 그러나 "SAVE" 버튼을 탭했을 때 아무런 작업도 수행되지 않도록 해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용자 이름이 표시되는 부분은 "Hi, Name?"으로 일단 고정 값으로 설정해보겠습니다.
 
@@ -111,7 +163,18 @@ fun MainScreen(
 
 현재 SAVE 버튼을 누르면 아무 일도 일어나지 않으며, 앱을 닫으면 입력한 사용자 이름 정보가 손실됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # ☛ 1) Dependencies 설정하기
 
@@ -122,13 +185,24 @@ fun MainScreen(
 ```js
 /* build.gradle.kts */
 // ViewModel 추가
-implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0")
+implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.7.0");
 
 // DataStore preferences 추가
-implementation("androidx.datastore:datastore-preferences:1.0.0")
+implementation("androidx.datastore:datastore-preferences:1.0.0");
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 코드에서는 이 글을 작성하는 시점에서 사용 가능한 최신 안정 버전을 지정했습니다. 그러나 구현할 때 사용 가능한 최신 안정 버전을 확인하고 지정하는 것이 좋습니다.
 
@@ -138,7 +212,18 @@ implementation("androidx.datastore:datastore-preferences:1.0.0")
 
 이제 본격적으로 시작합니다. 이 부분에서는 DataStore(Preferences)를 사용하여 기기에 사용자 설정 정보(이 경우 사용자 이름)를 영구적으로 저장하는 논리를 작성할 겁니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우선, 이 패키지와 파일이 UI가 아닌 데이터를 관리하는 것임을 명확히 하기 위해 "data"라는 이름의 패키지를 생성하세요.
 
@@ -148,7 +233,18 @@ com.example.projectname 패키지에서 마우스 오른쪽 버튼을 클릭하�
 
 data 패키지를 생성한 후에 이 패키지 내부에 UserRepository란 이름의 Kotlin 파일을 만드세요. 만들 때 Class를 선택해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-01-PersistentDataStorageUsingDataStorePreferencesinJetpackCompose_3.png" />
 
@@ -158,34 +254,52 @@ data 패키지를 생성한 후에 이 패키지 내부에 UserRepository란 이
 
 먼저 DataStore를 사용할 때는 애플리케이션의 최상위 컨텍스트를 사용해야 하므로, 생성자로 dataStore라는 DataStore 타입을 지정해줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-/* UserRepository.kt */
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+/_ UserRepository.kt _/
 import androidx.datastore.core.DataStore
 import androidx.datastore.preferences.core.Preferences
 
 class UserRepository(private val dataStore: DataStore<Preferences>) {
-  
-}
 
+}
 
 이렇게 하면 UserRepository 클래스 내에서 컨텍스트를 정의할 필요가 없고, UserRepository 클래스는 오직 DataStore에 대한 로직만을 처리할 수 있습니다.
 
 DataStore(Preferences)에서 데이터는 키 및 값으로 관리되며, 여기서 다루는 값은 문자열인 사용자 이름입니다. 따라서 stringPreferencesKey()를 사용하여 다음과 같이 문자열 값이 포함된 키를 정의합니다:
 
-
-/* UserRepository.kt */
+/_ UserRepository.kt _/
 import androidx.datastore.preferences.core.stringPreferencesKey
 
 class UserRepository(private val dataStore: DataStore<Preferences>) {
-    private companion object {
-        val USER_NAME = stringPreferencesKey("user_name")
-    }
+private companion object {
+val USER_NAME = stringPreferencesKey("user_name")
+}
 }
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프라이빗 컴패니언 객체로 정의하면 각 Preferences 키를 클래스 내에서 한 번만 존재하는 정적 객체(싱글톤)로 관리할 수 있습니다. 사용자 이름만 관리하는 것은 쉽지만, 다른 설정을 토글하거나 관리해야 하는 경우처럼 여러 키를 관리해야 하는 경우에는 컴패니언 객체를 사용하는 것이 더욱 유리합니다.
 
@@ -207,7 +321,18 @@ class UserRepository(private val dataStore: DataStore<Preferences>) {
 
 ⚠️참고: 실제로는 데이터를 읽는 작업이 실패할 경우를 대비하여 에러를 처리하고 해당 코드를 포함해야 합니다. 그러나 코드를 간단하게 유지하기 위해 여기에서는 생략하였습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 이 설정으로 데이터를 읽을 수만 있기 때문에, 데이터를 저장하거나 업데이트하는 메소드를 추가해 봅시다. edit()를 사용하여 전달된 문자열을 저장하는 메소드를 추가해 보세요.
 
@@ -237,7 +362,18 @@ class UserRepository(private val dataStore: DataStore<Preferences>) {
 - 값을 읽을 수 있는 프로퍼티
 - 값을 저장할 수 있는 메소드
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 UserRepository.kt 파일의 코드 작성이 완료되었습니다.
 
@@ -247,7 +383,18 @@ UserRepository.kt 파일의 코드 작성이 완료되었습니다.
 
 이 단계에서는 UserRepository에서 사용할 애플리케이션 컨텍스트를 구성할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, com.example.projectname 패키지 내에 MyApplication.kt라는 파일을 만들어주세요 (클래스로 지정).
 
@@ -264,7 +411,18 @@ class MyApplication {
 
 이를 통해 어플리케이션의 모든 부분이 동일한 Context를 통해 DataStore에 액세스할 수 있게 되어 데이터 일관성을 보장하고 코드 재사용성을 향상시킬 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /* MyApplication.kt */
@@ -284,7 +442,18 @@ userRepository은 이전 단계에서 생성된 UserRepository 클래스를 상�
 
 이 과정은 애플리케이션 전체에서 일관된 데이터 저장 메커니즘을 제공하여 UserRepository 클래스가 이 데이터 스토어를 사용하여 사용자 설정 및 정보를 관리할 수 있도록 합니다. 결과적으로 데이터 저장, 검색 및 업데이트가 애플리케이션 내의 어디에서든 쉽게 액세스할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 단계의 마지막에 AndroidManifest.xml 파일의 애플리케이션 태그에 android:name을 다음과 같이 추가하는 것을 잊지 마세요:
 
@@ -298,7 +467,18 @@ userRepository은 이전 단계에서 생성된 UserRepository 클래스를 상�
 
 MyApplication 클래스와 관련된 코딩 및 설정이 이제 완료되었지만, 코드의 역할과 의미가 간결함 때문에 이해하기 어려울 수 있다는 것을 이해합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 단계에서는 "DataStore(Preferences)와 애플리케이션 컨텍스트(전체 앱을 통틀어 말하는 맥락)를 사용할 수 있게 해준다"는 넓은 이해를 바탕으로 시작하는 것이 좋아요.
 
@@ -308,7 +488,18 @@ MyApplication 클래스와 관련된 코딩 및 설정이 이제 완료되었지
 
 먼저, 샘플.com.프로젝트명 `ui` 패키지 내에 MyAppViewModel이라는 파일을 생성하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자연스럽게 MyAppViewModel 클래스는 응용 프로그램 컨텍스트에 따라 다르게 구성된 UserRepository 클래스의 속성 및 메서드를 활용할 것입니다. 따라서 MyAppViewModel 내에서 UserRepository를 직접 사용할 수 없습니다. 대신에 다음과 같이 생성자로 userRepository를 지정합니다:
 
@@ -320,7 +511,7 @@ import com.example.datastoresample.data.UserRepository
 class MyAppViewModel(
    private val userRepository: UserRepository
 ): ViewModel() {
-  
+
 }
 ```
 
@@ -328,7 +519,18 @@ class MyAppViewModel(
 
 지금은 의존성 해결을 제외하고, 저장된 사용자 이름을 검색하는 속성을 정의하기 위해 시작하겠습니다. 그 전에, UI 상태를 관리하는 UiState라는 데이터 클래스를 MyAppViewModel 클래스 외부에 정의해보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /* MyAppViewModel.kt */
@@ -339,7 +541,7 @@ data class UiState (
 class MyAppViewModel(
    private val userRepository: UserRepository
 ): ViewModel() {
-  
+
 }
 ```
 
@@ -363,7 +565,18 @@ class MyAppViewModel(
 
 ViewModel의 UI 상태(UiState)는 StateFlow 형식으로 관리되어야 하므로, Flow 형식에서 StateFlow 형식으로 변환하고, .stateIn()을 사용하여 구독을 설정하고 초기 값이 설정되도록 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SharingStarted.WhileSubscribed(5000)은 구독이 종료된 후 5초 동안 여전히 값이 방출되며, 구독을 취소한 후에도 잠시 동안 UI 구성 요소가 데이터 업데이트를 받을 수 있습니다. 값 구독을 최적화하기 위한 이 조정은 복잡해 보일 수 있지만, 이를 "값 구독을 최적화하는 설정"으로 생각할 수 있습니다.
 
@@ -380,7 +593,18 @@ fun saveUserName(userName: String) {
 
 UserRepository 클래스에서 정의된 saveUserName() 메서드는 suspend fun으로 정의되어 있기 때문에 coroutine scope 내에서 호출되어야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 우리는 값을 읽고 저장(업데이트)할 수 있게 되었는데, 남은 문제는 MyViewModel이 UserRepository에 의존하고 UserRepository가 애플리케이션 컨텍스트에 의존하는 문제입니다. 이를 해결해 봅시다.
 
@@ -400,7 +624,18 @@ companion object {
 
 이전 코드와 비교했을 때, 처음에는 더욱 불분명해 보일 수 있습니다. 그러나 이 코드의 목적은 MyAppViewModel의 인스턴스를 생성할 때 애플리케이션 컨텍스트로부터 필요한 종속성(이 경우 userRepository)을 주입하는 것입니다. 이를 통해 ViewModel을 테스트하고 재사용하기 쉬워지며 종속성을 명시적으로 관리할 수 있도록 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 본질적으로, 이 사용자 정의는 ViewModel (MyAppViewModel)을 초기화할 때 발생하여 MyAppViewModel이 UserRepository에 의존하는 문제를 해결합니다.
 
@@ -410,7 +645,18 @@ companion object {
 
 지금까지의 단계에서 DataStore (Preferences)를 사용하여 지속적인 데이터 저장 및 검색을 준비했으며 ViewModel을 사용하여 UI를 관리했습니다. 이제 MainScreen.kt를 업데이트하여 ViewModel을 통해 저장된 데이터가 UI에 반영되도록 할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, 다음과 같이 MainScreen()에 MyAppViewModel을 매개변수로 지정하세요.
 
@@ -427,7 +673,18 @@ MyAppViewModel에서 정의된 Factory를 factory 매개변수에 전달함으�
 
 다음으로 UI 상태(이 경우 저장된 사용자 이름)를 정의하려면 MainScreen 함수 내에서 savedUserName을 다음과 같이 정의하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```kotlin
 /* MainScreen.kt */
@@ -454,14 +711,35 @@ Button(
 
 앱을 빌드하고 사용자 이름을 입력한 후 SAVE 버튼을 탭한 다음, 앱을 완전히 종료하고 다시 엽니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 저장된 데이터가 앱을 종료한 후에도 지워지지 않고 유지되는 것을 확인할 수 있습니다.
 
 잘 했어요! 이렇게 하면 DataStore (Preferences)의 기본 구현이 완료됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # ☛ 마무리로
 
@@ -471,10 +749,20 @@ Button(
 
 하지만, 코드를 복사하고 붙여넣을 때도 그 코드가 무엇을 의미하는지와 어떤 역할을 하는지 이해하는 것이 중요해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "I'm happy to help you out! However, I might not fully understand the requested change. It's important to avoid blindly copying and pasting code; instead, try to understand its purpose to improve your coding skills. Here is the code snippet in Markdown format:
-
 
 ```js
 <aside>

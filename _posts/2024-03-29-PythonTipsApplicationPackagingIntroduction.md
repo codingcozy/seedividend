@@ -3,17 +3,13 @@ title: "파이썬에서 애플리케이션 패키징 하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Python Tips  Application Packaging Introduction"
 link: "https://medium.com/@tonylixu/python-tips-application-packaging-introduction-6c2e26256bb3"
 isUpdated: true
 ---
-
-
-
-
 
 ![Python Application Packaging](/assets/img/PythonTipsApplicationPackagingIntroduction_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이를 통해 설치 프로그램은 환경의 호환성을 검증하고 빠진 프로젝트 의존성을 쉽게 설치하며 요구 사항을 충족하지 못하는 것을 업데이트할 수 있습니다. 결과적으로 설치된 패키지는 해당 환경에 명확한 연결을 유지합니다. 이에 반해 작업 디렉토리에서 실행되는 스크립트는 오래된 파이썬 버전이나 필수 종속성이 부족한 환경에서 작동할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Python Tips Application Packaging Introduction](/assets/img/PythonTipsApplicationPackagingIntroduction_1.png)
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 # 간단한 Python 어플리케이션
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 간단한 Python 스크립트가 있어요. 이 스크립트는 사용자에게 삼각형의 밑변과 높이를 입력하도록 요청한 후, 면적을 계산하고 출력해줍니다:
 
@@ -53,11 +71,22 @@ if __name__ == "__main__":
     main()
 ```
 
-이 스크립트에서 calculate_triangle_area 함수는 삼각형의 밑변과 높이를 받아서 0.5 _ 밑변 _ 높이 공식을 사용해 면적을 계산합니다. main 함수는 사용자에게 삼각형의 밑변과 높이를 입력하도록 요청하고, calculate_triangle_area를 호출하여 면적을 계산한 후 결과를 출력합니다. 이 스크립트를 실행하면, 삼각형의 밑변과 높이를 입력하라는 메시지가 나타나며, 그 후 면적이 출력됩니다.
+이 스크립트에서 calculate*triangle_area 함수는 삼각형의 밑변과 높이를 받아서 0.5 * 밑변 \_ 높이 공식을 사용해 면적을 계산합니다. main 함수는 사용자에게 삼각형의 밑변과 높이를 입력하도록 요청하고, calculate_triangle_area를 호출하여 면적을 계산한 후 결과를 출력합니다. 이 스크립트를 실행하면, 삼각형의 밑변과 높이를 입력하라는 메시지가 나타나며, 그 후 면적이 출력됩니다.
 
 이 스크립트를 area_calculation.py 파일에 저장하고 실행해보세요. 아래는 샘플 실행 결과입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 $ python area_calculation.py
@@ -75,7 +104,18 @@ $ python area_calculation.py
 - 버전 관리 문제: 코드를 시간이 지남에 따라 변경하면 사용자들은 그들의 시스템이나 다른 패키지와 함께 작동하는 코드 버전이 어떤 것인지 알아내는 데 어려움을 겪을 수 있습니다. 패키징하지 않으면 코드에 버전을 부여하는 표준적인 방법이 없습니다.
 - 업데이트 문제: 사용자는 프로젝트 버전이 최신 버전인지 확인하고 필요에 따라 최신 버전으로 업그레이드할 수 있어야 합니다. 만들어 낸 사람으로서 사용자가 새로운 기능, 버그 수정 및 향상된 기능을 활용할 수 있도록 하는 메커니즘을 제공하는 것이 중요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 효과적인 패키징은 이러한 도전과 빠르게 프로젝트에 통합할 수 있습니다. 프로젝트에 pyproject.toml이라는 선언적 파일을 추가하여 표준화된 형식으로 프로젝트 메타데이터와 빌드 시스템을 정의할 수 있습니다. 결과적으로, 빌드, 게시, 설치, 업그레이드 및 제거와 같은 명령을 사용하여 패키지를 쉽게 관리할 수 있습니다.
 
@@ -85,7 +125,18 @@ pyproject.toml은 파이썬 프로젝트를 빌드하기 위한 PEP 518에서 �
 
 ## 최소한의 pyproject.toml 파일
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 Python 프로젝트용 기본 구성 파일입니다. 핵심 프로젝트 세부 정보와 빌드 시스템 요구 사항이 명시되어 있습니다.
 
@@ -108,7 +159,18 @@ build-backend = "hatchling.build"
 - requires: 프로젝트를 빌드하는 데 필요한 Python 패키지 목록입니다. 이 경우 "hatchling" 패키지가 필요합니다.
 - build-backend: 이는 빌드 시스템의 백엔드를 지정합니다. 여기서는 "hatchling.build"입니다. 빌드 백엔드는 패키지를 빌드하는 데 사용될 Python 객체를 지정합니다. hatchling.build는 특히 PEP 517을 준수하는 Python 모듈 또는 Python 모듈 내의 호출 가능한 함수일 것으로 예상됩니다. PEP 517는 빌드 시스템이 작동해야 하는 방식을 정의합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # pyproject.toml이 어떻게 작동하는지요?
 
@@ -136,7 +198,18 @@ area-calculation-0.1 성공적으로 설치됨.
 
 이제 Python 모듈에서 스크립트를 직접 호출할 수 있습니다. 스크립트는 Python 모듈에서 주 함수를 호출합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 $ python -m area_calculation
@@ -151,7 +224,18 @@ pyproject.toml 파일에서 진입점 스크립트는 일반적으로 패키지�
 
 예시:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 [프로젝트]
@@ -178,7 +262,18 @@ $ pipx install .
 
 이제 스크립트를 직접 호출할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 $ area-calculation
@@ -195,7 +290,18 @@ $ area-calculation
 $ pipx install --editable .
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 main 함수에 print("편집 모드")를 추가하고 다시 실행해보세요:
 
@@ -211,7 +317,18 @@ $ area-calculation
 
 코드를 다른 시스템에 배포하거나 프로젝트를 공개적으로 사용할 준비가 되었으면, pip가 암시적으로 처리하는 대신 패키지 생성 프로세스를 제어해야 합니다. 여기서 build가 필요해요. Build는 파이썬 프로젝트용 패키지를 제작하는 구체적인 빌드 프런트엔드입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 동일한 pyproject.toml 파일을 사용하여 다음과 같이 빌드할 수 있어요:
 
@@ -244,7 +361,18 @@ dist
 0 directories, 2 files
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 품목들은 휠(wheels)과 소스 디스트(sdist)로 알려져 있습니다. 휠은 .whl 확장자를 가진 ZIP 아카이브이며, 소스 디스트는 gzip 압축이 적용된 tar 아카이브입니다 (.tar.gz). 휠은 빌드된 배포판입니다. 대부분의 경우, 설치 프로그램이 그들을 환경으로 푸는 것만으로 설치됩니다. 반면에 소스 디스트는 소스 배포판입니다. 설치 가능한 휠을 생성하기 위해 추가 빌드 단계가 필요합니다.
 
@@ -254,6 +382,17 @@ Python 패키징은 코드 배포, 버전 관리 및 종속성 관리에서 핵�
 
 pyproject.toml과 hatchling과 같은 빌드 시스템과 같은 도구를 사용하면 파이썬 프로젝트의 패키징 및 배포 작업을 더욱 원활하게 진행할 수 있습니다. 패키징은 라이브러리 및 프레임워크를 배포하는 데 도움이 되는 것뿐만 아니라 명령줄 도구 및 응용프로그램을 배포하는 데도 도움이 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 독립 실행 스크립트를 공유하는 것은 특정 상황에서 간단해 보일 수 있지만, 패키징은 의존성 관리, 버전 관리, 설치 편의성과 같은 다양한 장점을 제공하여 Python 프로젝트의 표준으로 자리 잡고 있습니다.

@@ -3,7 +3,7 @@ title: "안드로이드 개발할 때 꼭 필요한 AI 도구 3가지"
 description: ""
 coverImage: "/assets/img/2024-08-13-Top3AndroidDevelopmentAITools_0.png"
 date: 2024-08-13 11:54
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-13-Top3AndroidDevelopmentAITools_0.png
 tag: Tech
 originalTitle: "Top 3 Android Development AI Tools"
@@ -11,7 +11,6 @@ link: "https://medium.com/@michalankiersztajn/top-3-android-development-ai-tools
 isUpdated: true
 updatedAt: 1723864075117
 ---
-
 
 ![image](/assets/img/2024-08-13-Top3AndroidDevelopmentAITools_0.png)
 
@@ -21,7 +20,18 @@ updatedAt: 1723864075117
 
 ![image](/assets/img/2024-08-13-Top3AndroidDevelopmentAITools_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 중 하나인 이 유명한 도구는 특히 Android 개발에 유용합니다. Android Studio에 이미 포함되어 있어요. 전체 코드베이스를 스캔할 수 있기 때문에, 기존 코드와 더 유사한 결과물을 생성할 수 있어요. 작업 흐름을 최적화할 수 있어요!
 
@@ -31,7 +41,18 @@ updatedAt: 1723864075117
 
 ![이미지](/assets/img/2024-08-13-Top3AndroidDevelopmentAITools_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Google Play 규정 준수에 대처하는 것은 정말 귀찮은 일입니다. 그래서 Google은 준수를 간단하게하는 AI 도구를 만들기로 결정했습니다. 이 도구는 데이터 공유 방법을 감지하거나 데이터 안전성 양식을 업데이트해야 하는지 등을 확인할 수 있습니다.
 
@@ -41,9 +62,20 @@ Google Play 규정 준수에 대처하는 것은 정말 귀찮은 일입니다. 
 
 ![ChatGpt]("assets/img/2024-08-13-Top3AndroidDevelopmentAITools_3.png")
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-그것은 너무 일반적이면서도 잘 작동하기 때문에, 제일 유명한 AI 도구 중 하나에요. 저는 가장 좋은 AI 프롬프트를 사용했지만, 안드로이드용 코틀린 코드를 잘 작성한 적이 거의 없어요. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+그것은 너무 일반적이면서도 잘 작동하기 때문에, 제일 유명한 AI 도구 중 하나에요. 저는 가장 좋은 AI 프롬프트를 사용했지만, 안드로이드용 코틀린 코드를 잘 작성한 적이 거의 없어요.
 
 대부분으로는 버전이 낡은 내용이 제공되거나 코드를 수정해야 했어요. 효율적이지 않았고, 결국은 스스로 처음부터 코드를 작성하는 편이 더 나았어요!
 

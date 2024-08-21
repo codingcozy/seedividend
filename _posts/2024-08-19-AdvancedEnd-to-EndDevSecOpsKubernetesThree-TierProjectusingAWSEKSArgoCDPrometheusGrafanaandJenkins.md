@@ -3,7 +3,7 @@ title: "AWS EKS를 활용한 고급 DevSecOps Kubernetes 3계층 프로젝트 - 
 description: ""
 coverImage: "/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_0.png"
 date: 2024-08-19 03:06
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_0.png
 tag: Tech
 originalTitle: "Advanced End-to-End DevSecOps Kubernetes Three-Tier Project using AWS EKS, ArgoCD, Prometheus, Grafana, and Jenkins"
@@ -11,8 +11,6 @@ link: "https://medium.com/stackademic/advanced-end-to-end-devsecops-kubernetes-t
 isUpdated: true
 updatedAt: 1724032874346
 ---
-
-
 
 ![Project Introduction](https://miro.medium.com/v2/resize:fit:1400/1*yy-REEUGhUP6828ftFD93g.gif)
 
@@ -22,8 +20,18 @@ End-to-End DevSecOps Kubernetes 프로젝트 안내에 오신 것을 환영합�
 
 # 프로젝트 개요:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 프로젝트에서는 다음과 같은 핵심 측면을 다룰 예정입니다:
 
@@ -46,7 +54,18 @@ End-to-End DevSecOps Kubernetes 프로젝트 안내에 오신 것을 환영합�
 
 프로젝트를 시작하기 전에 다음 전제 조건을 충족하는지 확인하십시오:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 리소스를 생성할 권한을 가진 AWS 계정이 필요합니다.
 - 로컬 머신에 Terraform 및 AWS CLI가 설치되어 있어야 합니다.
@@ -58,8 +77,18 @@ End-to-End DevSecOps Kubernetes 프로젝트 안내에 오신 것을 환영합�
 
 AWS IAM 서비스로 이동하고 사용자를 클릭하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_0.png" />
 
@@ -69,8 +98,18 @@ Create a new user by clicking on the button.
 
 Enter the name for the user and click on the Next button.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![GitHubTable](/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_2.png)
 
@@ -80,7 +119,18 @@ Enter the name for the user and click on the Next button.
 
 ![GitHubTable](/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래의 표를 Markdown 형식으로 바꿔주세요.
 
@@ -92,7 +142,18 @@ Now, Select your created user then click on Security credentials and generate ac
 
 <img src="/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_5.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Command Line Interface (CLI)를 선택한 후 확인란을 선택하고 다음 단추를 클릭하세요.
 
@@ -102,7 +163,18 @@ Command Line Interface (CLI)를 선택한 후 확인란을 선택하고 다음 �
 
 ![Image](/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_7.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 자격 증명을 받았고 미래를 위해 CSV 파일을 다운로드할 수 있습니다.
 
@@ -112,7 +184,18 @@ Command Line Interface (CLI)를 선택한 후 확인란을 선택하고 다음 �
 
 로컬 머신에 Terraform 및 AWS CLI를 설치하고 구성하여 AWS 클라우드에 Jenkins 서버를 만듭니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테라폼 설치 스크립트
 
@@ -132,7 +215,18 @@ unzip awscliv2.zip
 sudo ./aws/install
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금 두 가지 도구를 설정해 보세요.
 
@@ -140,12 +234,20 @@ sudo ./aws/install
 
 아래 명령어를 사용하여 파일 /etc/environment을 수정하고 강조된 줄을 추가하고 실제 키를 블러 공간에 추가하세요.
 
-
 sudo vim /etc/environment
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_9.png)
 
@@ -155,8 +257,18 @@ AWS CLI 구성
 
 아래 명령어를 실행하여 키를 추가하세요
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 aws configure
@@ -168,7 +280,18 @@ aws configure
 
 Git 저장소를 복제하십시오- https://github.com/AmanPathak-DevOps/End-to-End-Kubernetes-Three-Tier-DevSecOps-Project
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Jenkins-Server-TF로 이동해주세요.
 
@@ -178,7 +301,18 @@ Jenkins-Server-TF로 이동해주세요.
 
 이제 Pem 파일 이름을 다른 이름으로 바꿔야 합니다. 이미 AWS에서 생성한 Pem 파일 이름을 제공해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 명령을 실행하여 백엔드를 초기화하세요.
 
@@ -186,7 +320,18 @@ Jenkins-Server-TF로 이동해주세요.
 terraform init
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 명령어를 실행하여 구문 오류를 확인해보세요.
 
@@ -198,7 +343,18 @@ terraform validate
 
 어떤 종류의 AWS 서비스가 생성될지 블루프린트를 확인하려면 아래 명령어를 실행하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 terraform plan -var-file=variables.tfvars
@@ -212,7 +368,18 @@ terraform plan -var-file=variables.tfvars
 terraform apply -var-file=variables.tfvars --auto-approve
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_16.png" />
 
@@ -222,8 +389,18 @@ terraform apply -var-file=variables.tfvars --auto-approve
 
 ssh 명령을 복사하여 로컬 머신에 붙여넣기 하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_18.png)
 
@@ -233,8 +410,18 @@ ssh 명령을 복사하여 로컬 머신에 붙여넣기 하세요.
 
 ![image](/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_19.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희는 젠킨스, 도커, 소나큐브, 테라폼, 쿠버네티스, AWS CLI, 그리고 Trivy와 같은 서비스들을 설치했습니다.
 
@@ -253,8 +440,18 @@ eksctl --version
 
 <img src="/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_20.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_21.png)
 
@@ -264,9 +461,18 @@ eksctl --version
 
 "Install suggested plugins"을 클릭하세요.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image1](/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_23.png)
 
@@ -276,8 +482,18 @@ The plugins will be installed
 
 After installing the plugins, continue as admin
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_25.png](/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_25.png)
 
@@ -287,8 +503,18 @@ Save and Finish를 클릭해주세요.
 
 Start using Jenkins를 클릭해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_27.png" />
 
@@ -298,8 +524,18 @@ Start using Jenkins를 클릭해주세요.
 
 # 단계 5: eksctl 명령어를 사용하여 EKS 클러스터를 배포할 것입니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금은 Jenkins 서버 터미널로 돌아가서 AWS를 구성해보세요.
 
@@ -309,7 +545,18 @@ Manage Jenkins로 이동하세요.
 
 플러그인을 클릭하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `<img src="/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_30.png" />`
 
@@ -319,8 +566,18 @@ AWS 자격 증명
 
 Pipeline: AWS 단계
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Screenshot 1](/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_31.png)
 
@@ -330,8 +587,18 @@ Once both plugins are installed, restart your Jenkins service by checking the Re
 
 Log in to your Jenkins Server again.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `<img src="/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_33.png" />`
 
@@ -341,21 +608,39 @@ Manage Plugins로 이동하고 Credentials를 클릭하세요.
 
 `<img src="/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_34.png" />`
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 글로벌을 클릭해주세요.
 
-
 <img src="/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_35.png" />
-
 
 종류로 AWS 자격 증명을 선택하고, 아래 스니펫에 표시된대로 ID를 추가하십시오. AWS 액세스 키 및 보안 액세스 키를 제외하고 동일한 ID를 추가하신 후 '생성'을 클릭하세요.
 
-
 <img src="/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_36.png" />
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 스니펫과 같은 자격 증명이 생성될 것입니다.
 
@@ -365,7 +650,18 @@ Manage Plugins로 이동하고 Credentials를 클릭하세요.
 
 산업 프로젝트에서 저장소가 비공개 상태일 것이기 때문에 이 작업을 수행하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 깁허브 계정의 사용자 이름과 개인 액세스 토큰을 추가해주세요.
 
@@ -375,7 +671,18 @@ Markdown 형식으로 테이블을 변경해주세요.
 
 Markdown 형식으로 테이블을 변경해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 명령어를 사용하여 EKS 클러스터를 생성해보세요.
 
@@ -388,7 +695,18 @@ aws eks update-kubeconfig --region us-east-1 --name Three-Tier-K8s-EKS-Cluster
 
 클러스터가 생성되면 아래 명령어를 사용하여 노드가 준비되었는지 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 kubectl get nodes
@@ -400,7 +718,18 @@ kubectl get nodes
 
 로드 밸런서 전제 조건을 위한 정책을 다운로드하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마크다운 형식을 사용하여 표 태그를 변경하세요.
 
@@ -416,8 +745,18 @@ curl -O https://raw.githubusercontent.com/kubernetes-sigs/aws-load-balancer-cont
 aws iam create-policy --policy-name AWSLoadBalancerControllerIAMPolicy --policy-document file://iam_policy.json
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_43.png)
 
@@ -429,8 +768,18 @@ eksctl utils associate-iam-oidc-provider --region=us-east-1 --cluster=Three-Tier
 
 ![image](/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_44.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 명령어를 사용하여 서비스 계정을 생성하고 귀하의 계정 ID로 교체해주세요.
 
@@ -442,7 +791,18 @@ eksctl create iamserviceaccount --cluster=Three-Tier-K8s-EKS-Cluster --namespace
 
 AWS 로드 밸런서 컨트롤러를 배포하려면 아래 명령어를 실행하십시오.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 sudo snap install helm --classic
@@ -455,12 +815,22 @@ helm install aws-load-balancer-controller eks/aws-load-balancer-controller -n ku
 
 ```js
 kubectl get deployment -n kube-system aws-load-balancer-controller
-``` 
+```
 
 ![이미지](/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_46.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Step 7: Amazon ECR Private Repositories 생성이 필요합니다. (Frontend 및 Backend)
 
@@ -470,8 +840,18 @@ kubectl get deployment -n kube-system aws-load-balancer-controller
 
 Private 옵션을 선택하여 저장소를 제공하고 저장을 클릭하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_48.png)
 
@@ -481,9 +861,18 @@ Private 옵션을 선택하여 저장소를 제공하고 저장을 클릭하세�
 
 이제 ECR 프라이빗 저장소를 설정하였습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![AWS ECR Image](/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_50.png)
 
@@ -493,20 +882,39 @@ Copy the 1st command for login
 
 ![AWS ECR Command](/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_51.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금은 복사한 명령을 Jenkins Server에서 실행하세요.
 
-
 ![image](/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_52.png)
-
 
 # 단계 8: ArgoCD 설치 및 구성
 
 우리는 3계층 네임스페이스에 애플리케이션을 배포할 것입니다. 이를 위해 EKS에서 3계층 네임스페이스를 생성할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 kubectl create namespace three-tier
@@ -518,7 +926,18 @@ kubectl create namespace three-tier
 
 이 오류를 해결하려면 아래 명령을 사용하여 ECR Repo를 위한 시크릿을 생성한 다음, 이 시크릿을 배포 파일에 추가하겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주의: 비밀 정보는 앞에서 ECR에 로그인할 때 생성되는 .docker/config.json 파일에서 나옵니다.
 
@@ -533,7 +952,18 @@ kubectl get secrets -n three-tier
 
 이제, ArgoCD를 설치할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이를 위해 별도의 이름 공간을 만들고 설치를 위해 argocd 구성을 적용하십시오.
 
@@ -546,7 +976,18 @@ kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/v2
 
 모든 파드가 실행 중이어야 하며, 아래 명령을 실행하여 확인하십시오.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 kubectl get pods -n argocd
@@ -560,8 +1001,18 @@ kubectl get pods -n argocd
 kubectl patch svc argocd-server -n argocd -p '{"spec": {"type": "LoadBalancer"}'
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_57.png)
 
@@ -571,8 +1022,18 @@ Load Balancer가 생성되었는지 확인하려면 AWS 콘솔에 가서 확인�
 
 ArgoCD에 액세스하려면 로드 밸런서 DNS를 복사하고 좋아하는 브라우저에서 입력하세요.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 코드에서 table태그를 Markdown 형식으로 바꿔 보세요.
 
@@ -586,11 +1047,20 @@ Click on Advanced.
 
 Click on the below link which is appearing under Hide advanced
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 마크다운 형식으로 표를 변환한 내용입니다.
-
 
 ![image](/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_60.png)
 
@@ -602,8 +1072,18 @@ Click on the below link which is appearing under Hide advanced
 sudo apt install jq -y
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_61.png)
 
@@ -617,14 +1097,35 @@ echo $ARGO_PWD
 
 argoCD에 사용자 이름과 암호를 입력하고 SIGN IN을 클릭하세요.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 ArgoCD 대시보드입니다.
 
 이제, DevSecOps 파이프라인에 Sonarqube를 구성해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해결하려면 Jenkins 서버의 공개 IP를 복사하고 9000 포트로 즐겨찾기 브라우저에 붙여넣으세요.
 
@@ -634,7 +1135,18 @@ argoCD에 사용자 이름과 암호를 입력하고 SIGN IN을 클릭하세요.
 
 ![이미지](/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_65.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비밀번호를 업데이트해주세요
 
@@ -644,17 +1156,37 @@ argoCD에 사용자 이름과 암호를 입력하고 SIGN IN을 클릭하세요.
 
 ![이미지](/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_67.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래와 같이 Markdown 형식의 테이블로 변경해 주세요.
 
-
-| 클릭: Update tokens | 클릭: Generate |
-| --- | --- |
+| 클릭: Update tokens                                                                                                                                | 클릭: Generate                                                                                                                                |
+| -------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
 | ![Update tokens](/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_68.png) | ![Generate](/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_69.png) |
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요! 위의 글을 친절한 톤으로 한국어로 번역해 드리겠습니다.
 
@@ -666,8 +1198,18 @@ argoCD에 사용자 이름과 암호를 입력하고 SIGN IN을 클릭하세요.
 
 관리를 클릭한 후, 구성을 선택하고 웹훅을 선택해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image description](/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_71.png)
 
@@ -677,9 +1219,18 @@ Click on Create
 
 Provide the name of your project and in the URL, provide the Jenkins server public IP with port 8080 add sonarqube-webhook in the suffix, and click on Create.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 http://`jenkins-server-public-ip`:8080/sonarqube-webhook/
 
@@ -689,8 +1240,18 @@ Here, you can see the webhook.
 
 ![Webhook](/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_74.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서는 프런트엔드 코드를 위한 프로젝트를 생성해야 해요.
 
@@ -700,7 +1261,18 @@ Here, you can see the webhook.
 
 프로젝트에 표시할 이름을 제공하고 Setup을 클릭하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Markdown 형식으로 테이블 태그를 변경해주세요.
 
@@ -712,12 +1284,33 @@ Markdown 형식으로 테이블 태그를 변경해주세요.
 
 기존 토큰 사용 옵션을 선택하고 '계속'을 클릭하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "표 태그를 Markdown 형식으로 변경해주세요."
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_79.png)
 
@@ -727,8 +1320,18 @@ Markdown 형식으로 테이블 태그를 변경해주세요.
 
 ![이미지](/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_80.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트 이름을 제공하고 설정을 클릭하세요.
 
@@ -738,7 +1341,18 @@ Markdown 형식으로 테이블 태그를 변경해주세요.
 
 ![Locally](/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_82.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기존 토큰 사용을 선택하고 계속을 클릭하세요.
 
@@ -748,7 +1362,18 @@ Markdown 형식으로 테이블 태그를 변경해주세요.
 
 위 단계를 수행한 후 아래 코드 조각에서 확인할 수 있는 명령을 얻을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 Jenkins Backend Pipeline에서 코드 품질 분석을 수행하는 명령을 사용해보세요.
 
@@ -758,7 +1383,18 @@ Markdown 형식으로 테이블 태그를 변경해주세요.
 
 대시보드로 이동 - `Jenkins 관리 -` 자격 증명
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "종류"를 "비밀 텍스트로 선택하여" 접속 토큰을 비밀로 넣고 다른 것은 그대로 유지하세요.
 
@@ -766,7 +1402,18 @@ Markdown 형식으로 테이블 태그를 변경해주세요.
 
 이제, ECR 이미지를 위해 파이프라인에서 수정될 배포 파일을 푸시하기 위해 GitHub 개인 액세스 토큰을 저장해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 GitHub 자격 증명 추가하기
 
@@ -776,7 +1423,18 @@ GitHub 자격 증명 추가하기
 
 참고: 토큰을 생성하지 않은 경우, 먼저 생성한 다음 젠킨스에 붙여넣으세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `<img src="/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_86.png" />`
 
@@ -786,18 +1444,38 @@ GitHub 자격 증명 추가하기
 
 "Create"를 클릭하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 Markdown 형식으로 table tag를 변경해주세요.
 
+| Header One  | Header Two  |
+| ----------- | ----------- |
+| Row 1 Col 1 | Row 1 Col 2 |
+| Row 2 Col 1 | Row 2 Col 2 |
 
-| Header One | Header Two |      
-|------------|------------|        
-| Row 1 Col 1| Row 1 Col 2|       
-| Row 2 Col 1| Row 2 Col 2|      
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `<img src="/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_88.png" />`
 
@@ -807,8 +1485,18 @@ GitHub 자격 증명 추가하기
 
 만들기를 클릭하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_89.png" />
 
@@ -818,8 +1506,18 @@ GitHub 자격 증명 추가하기
 
 # 단계 10: 필요한 플러그인 설치 및 플러그인 구성하여 서비스 세계 장애 복구 응용 프로그램 배포
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래의 플러그인을 설치하려면 대시보드 - "Manage Jenkins" - 플러그인 - "Available Plugins"로 이동하세요.
 
@@ -839,7 +1537,18 @@ SonarQube Scanner
 
 이제 설치된 플러그인을 구성해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대시보드로 이동하여 Jenkins 관리 - 도구로 이동하세요.
 
@@ -849,7 +1558,18 @@ JDK를 검색하고 아래 스니펫처럼 구성 정보를 제공하세요.
 
 ![이미지](/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_92.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 소나큐브 스캐너를 구성할 것입니다.
 
@@ -859,7 +1579,18 @@ JDK를 검색하고 아래 스니펫처럼 구성 정보를 제공하세요.
 
 이제 노드제이에스를 구성할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **Node를 검색하고 아래 스니펫처럼 구성을 제공하십시오.**
 
@@ -869,8 +1600,18 @@ JDK를 검색하고 아래 스니펫처럼 구성 정보를 제공하세요.
 
 **Dependency-Check를 검색하고 아래 스니펫처럼 구성을 제공하십시오.**
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_95.png)
 
@@ -880,8 +1621,18 @@ JDK를 검색하고 아래 스니펫처럼 구성 정보를 제공하세요.
 
 ![Image](/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_96.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 젠킨스에서 소나큐브 경로를 설정해야 합니다.
 
@@ -891,8 +1642,18 @@ JDK를 검색하고 아래 스니펫처럼 구성 정보를 제공하세요.
 
 이름을 제공하고, 서버 URL에는 최근에 추가한 소나큐브의 퍼블릭 IP(젠킨스와 동일) 및 포트 9000을 복사하고, 최근에 추가한 소나 토큰을 선택한 후, 적용 및 저장을 클릭합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_97.png)
 
@@ -902,9 +1663,18 @@ Go to Jenkins Dashboard.
 
 Click on New Item.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_98.png)
 
@@ -914,8 +1684,18 @@ Click on New Item.
 
 이것은 EKS에서 백엔드 코드를 배포하기 위한 Jenkins 파일입니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 젠킨스에 붙여 넣으세요.
 
@@ -923,11 +1703,20 @@ https://github.com/AmanPathak-DevOps/End-to-End-Kubernetes-Three-Tier-DevSecOps-
 
 적용 및 저장을 클릭하세요.
 
-
 ![image](/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_100.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제, 빌드를 클릭해 주세요.
 
@@ -937,7 +1726,18 @@ https://github.com/AmanPathak-DevOps/End-to-End-Kubernetes-Three-Tier-DevSecOps-
 
 ![이미지](/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_101.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자, 이제 우리는 프런트엔드 코드를 배포하는 젠킨스 파이프라인을 만들 준비가 되었다.
 
@@ -945,13 +1745,35 @@ https://github.com/AmanPathak-DevOps/End-to-End-Kubernetes-Three-Tier-DevSecOps-
 - New Item을 클릭하세요.
 - 파이프라인의 이름을 제공하고 OK를 클릭하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 EKS에 프론트엔드 코드를 배포하기 위한 Jenkins 파일입니다. 이를 Jenkins에 복사하여 붙여넣기 해주세요.
 
 [Jenkinsfile-Frontend 링크](https://github.com/AmanPathak-DevOps/End-to-End-Kubernetes-Three-Tier-DevSecOps-Project/blob/master/Jenkins-Pipeline-Code/Jenkinsfile-Frontend)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "Apply & Save"를 클릭해주세요.
 
@@ -961,7 +1783,18 @@ https://github.com/AmanPathak-DevOps/End-to-End-Kubernetes-Three-Tier-DevSecOps-
 
 우리의 파이프라인은 몇 가지 일반적인 실수 후 성공적으로 완료되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 참고: 프로젝트에 따라 파이프라인에서 변경 사항을 적용하세요.
 
@@ -974,7 +1807,18 @@ Markdown 형식으로 표 태그를 변경해주세요.
 Helm을 사용하여 모니터링을 구현할 거예요.
 아래 명령을 사용하여 프로메테우스 저장소를 추가하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 helm repo add stable https://charts.helm.sh/stable
@@ -992,8 +1836,18 @@ helm repo update
 helm install grafana grafana/grafana
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_106.png)
 
@@ -1005,8 +1859,18 @@ kubectl get svc
 
 ![Image](/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_107.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 클러스터 외부에서 프로메테우스와 그라파나 콘솔에 액세스해야 합니다.
 
@@ -1018,7 +1882,18 @@ stable-kube-prometheus-sta-prometheus 서비스를 편집해주세요.
 kubectl edit svc stable-kube-prometheus-sta-prometheus
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_108.png)
 
@@ -1028,7 +1903,18 @@ kubectl edit svc stable-kube-prometheus-sta-prometheus
 
 stable-grafana 서비스 수정하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 kubectl edit svc stable-grafana
@@ -1040,8 +1926,18 @@ kubectl edit svc stable-grafana
 
 ![Image 2](/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_111.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 서비스를 다시 나열하면 로드밸런서 DNS 이름들을 볼 수 있습니다
 
@@ -1053,8 +1949,18 @@ kubectl get svc
 
 콘솔에서도 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_113.png" />
 
@@ -1064,8 +1970,18 @@ kubectl get svc
 
 <img src="/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_114.png" />
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 상태를 클릭하고 대상을 선택하세요.
 
@@ -1075,7 +1991,18 @@ kubectl get svc
 
 그래프 나 대시보드에 접근하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Grafana의 ALB DNS를 복사하여 즐겨찾는 브라우저에 붙여넣어주세요.
 
@@ -1085,8 +2012,18 @@ Grafana에 로그인할 때 사용자 이름은 admin이고 비밀번호는 prom
 
 이제 "데이터 소스"를 클릭하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image 1](/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_117.png)
 
@@ -1096,9 +2033,18 @@ Select Prometheus
 
 In the Connection, paste your `Prometheus-LB-DNS`:9090.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_119.png)
 
@@ -1108,8 +2054,18 @@ Click on Save & test.
 
 ![image](/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_120.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 쿠버네티스 클러스터 로그를 시각화하는 대시보드를 만들겠습니다.
 
@@ -1119,8 +2075,18 @@ Click on Save & test.
 
 대시보드를 클릭하면 쿠버네티스 구성 요소들의 모니터링을 많이 볼 수 있을 겁니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_122.png)
 
@@ -1130,8 +2096,18 @@ Kubernetes 대시보드 유형을 가져와 보세요.
 
 ![image](/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_123.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 6417 ID를 제공하고 Load를 클릭하세요.
 
@@ -1141,8 +2117,18 @@ Kubernetes 대시보드 유형을 가져와 보세요.
 
 이전에 만든 데이터 소스를 선택하고 Import를 클릭하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_125.png)
 
@@ -1152,8 +2138,18 @@ Kubernetes 대시보드 유형을 가져와 보세요.
 
 다른 Kubernetes 클러스터의 세부 정보를 자유롭게 살펴보세요.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_126.png" />
 
@@ -1163,8 +2159,18 @@ Kubernetes 대시보드 유형을 가져와 보세요.
 
 설정을 클릭한 후 Repositories를 선택하십시오.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Step 1](/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_127.png)
 
@@ -1174,25 +2180,42 @@ Click on CONNECT REPO USING HTTPS
 
 Now, provide the repository name where your Manifests files are present.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용자 이름과 GitHub 개인 액세스 토큰을 제공하고 CONNECT를 클릭해주세요.
 
-
-| 이름 | 내용 |
-|-----|------|
+| 이름        | 내용 |
+| ----------- | ---- |
 | 사용자 이름 | 입력 |
-| 토큰 | 입력 |
-
+| 토큰        | 입력 |
 
 연결 상태가 성공적이면 저장소가 성공적으로 연결된 것입니다.
 
-
 ![연결성공](/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_130.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 첫 번째 애플리케이션으로 데이터베이스를 생성할 것입니다.
 
@@ -1202,7 +2225,18 @@ CREATE APPLICATION을 클릭해주세요.
 
 아래 코드 조각에 제공된 대로 세부 정보를 제공하고 아래로 스크롤하십시오.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_132.png" />
 
@@ -1212,7 +2246,18 @@ CREATE APPLICATION을 클릭해주세요.
 
 만들기를 클릭하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_133.png" />
 
@@ -1222,7 +2267,18 @@ CREATE APPLICATION을 클릭해주세요.
 
 <img src="/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_134.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전 단계에서 구성한 동일한 저장소를 선택하세요.
 
@@ -1232,7 +2288,18 @@ CREATE를 클릭하세요.
 
 ![이미지](/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_135.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 백엔드 애플리케이션이 배포되기 시작하는 동안, 우리는 프론트엔드 애플리케이션을 생성할 것입니다.
 
@@ -1242,7 +2309,18 @@ CREATE를 클릭하세요.
 
 이전 단계에서 구성한 동일한 저장소를 선택하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 경로(Path)에는 Manifest 파일이 표시되는 위치를 제공하고 아래 스크린샷에 표시된 것과 같은 다른 정보를 제공하세요.
 
@@ -1252,17 +2330,39 @@ CREATE를 클릭하세요.
 
 프론트엔드 애플리케이션이 배포되기 시작할 때, 인그레스를 위한 애플리케이션을 생성하겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 스니펫에 제공된 내용대로 세부 정보를 제공하고 아래로 스크롤하세요.
 
-![image](/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_138.png)  
+![image](/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_138.png)
 
-이전 단계에서 구성한 동일한 저장소를 선택하세요.  
+이전 단계에서 구성한 동일한 저장소를 선택하세요.
 
 경로에는 Manifest 파일이 위치한 위치를 제공하고 아래 스크린샷에 표시된 다른 사항을 제공하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CREATE를 클릭해주세요.
 
@@ -1272,8 +2372,18 @@ Ingress 어플리케이션이 배포되면, 응용 프로그램 로드 밸런서
 
 k8s-three로 명명된 로드 밸런서를 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_140.png)
 
@@ -1283,25 +2393,56 @@ DNS로 이동하여 CNAME 유형을 추가하고 hostname을 backend로, 답변�
 
 참고: 저는 서브도메인 backend.amanpathakdevops.study를 생성했습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 마크다운 형식을 사용하여 4개의 애플리케이션 배포를 확인할 수 있습니다.
 
 ![Snippet 141](/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_141.png)
 
-지금부터 2~3분 후에 브라우저에서 서브도메인을 입력하여 마법을 볼 수 있습니다. 
+지금부터 2~3분 후에 브라우저에서 서브도메인을 입력하여 마법을 볼 수 있습니다.
 
 ![Snippet 142](/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_142.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앱을 사용하여 레코드를 추가할 수 있습니다.
 
 앱을 사용하여 레코드를 삭제할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Advanced End-to-End DevSecOps Project using AWS EKS, ArgoCD, Prometheus, Grafana, and Jenkins](/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_145.png)
 
@@ -1311,8 +2452,18 @@ Now, you can view your Grafana Dashboard to monitor EKS data including pods, nam
 
 If you want to monitor the three-tier namespace.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 네임 스페이스에서 쓰리 티어를 다른 네임 스페이스로 교체해주세요.
 
@@ -1322,8 +2473,18 @@ ArgoCD에서 수행된 배포들을 확인할 수 있습니다.
 
 이것은 ArgoCD에서의 인그레스 응용 프로그램 배포입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Frontend Application Deployment](/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_148.png)
 
@@ -1333,9 +2494,18 @@ This is the Frontend Application Deployment in ArgoCD
 
 This is the Backend Application Deployment in ArgoCD
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Database Application Deployment in ArgoCD](/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_150.png)
 
@@ -1345,11 +2515,20 @@ This is the Database Application Deployment in ArgoCD
 
 If you observe, we have configured the Persistent Volume & Persistent Volume Claim. So, if the pods get deleted, then the data won't be lost. The Data will be stored on the host machine.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래와 같이 변경하는 것이 좋을 것 같아요.
-
 
 To validate it, delete both Database pods.
 
@@ -1359,8 +2538,18 @@ Now, the new pods will be started.
 
 ![Image 2](/assets/img/2024-08-19-AdvancedEnd-to-EndDevSecOpsKubernetesThree-TierProjectusingAWSEKSArgoCDPrometheusGrafanaandJenkins_153.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 당신의 애플리케이션은 하나의 데이터조각도 잃지 않을 거예요.
 
@@ -1370,7 +2559,18 @@ Now, the new pods will be started.
 
 이 종합적인 DevSecOps Kubernetes 프로젝트에서 우리는 성공적으로:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - AWS에서 IAM 사용자 및 Terraform 설정을 구축했습니다.
 - AWS에 Jenkins를 배포하고 도구를 구성하고 Sonarqube와 통합했습니다.
@@ -1387,7 +2587,18 @@ LinkedIn에서 연락을 유지하세요: LinkedIn 프로필
 
 GitHub를 통해 최신 소식을 받아보세요: GitHub 프로필
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현재 트렌디한 DevOps 및 클라우드 기술에 대해 이야기해볼까요?
 Discord 서버에 참여해보세요 - https://discord.gg/jdzF8kTtw2
@@ -1398,7 +2609,18 @@ Discord 서버에 참여해보세요 - https://discord.gg/jdzF8kTtw2
 
 # Stackademic
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 끝까지 읽어 주셔서 감사합니다. 떠나시기 전에:
 

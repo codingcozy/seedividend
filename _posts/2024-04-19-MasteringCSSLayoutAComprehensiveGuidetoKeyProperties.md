@@ -3,17 +3,13 @@ title: "html CSS 레이아웃 마스터하기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Mastering CSS Layout A Comprehensive Guide to Key Properties"
 link: "https://medium.com/@urnisha09/mastering-css-layout-a-comprehensive-guide-to-key-properties-8ca7edd0bf72"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/MasteringCSSLayoutAComprehensiveGuidetoKeyProperties_0.png" />
 
@@ -23,7 +19,18 @@ CSS 레이아웃은 웹 페이지의 시각적 구조를 형성하는 데 중요
 
 # CSS 디스플레이 속성의 기초
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![MasteringCSSLayoutAComprehensiveGuidetoKeyProperties_1](/assets/img/MasteringCSSLayoutAComprehensiveGuidetoKeyProperties_1.png)
 
@@ -33,7 +40,18 @@ CSS 레이아웃은 웹 페이지의 시각적 구조를 형성하는 데 중요
 
 모든 HTML 요소는 해당 유형에 기반한 기본 display 값이 있습니다. 가장 일반적인 기본 display 값은 'block'과 'inline'입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 블록 수준 요소
 
@@ -43,7 +61,18 @@ CSS 레이아웃은 웹 페이지의 시각적 구조를 형성하는 데 중요
 
 ## 인라인 요소
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인라인 요소는 새 줄을 시작하지 않고 필요한 만큼의 너비만 차지합니다.
 
@@ -53,7 +82,18 @@ CSS 레이아웃은 웹 페이지의 시각적 구조를 형성하는 데 중요
 
 display 속성은 HTML 요소의 기본 표시 동작을 수정하는 데 사용됩니다. 인라인 요소를 블록 요소로 전환하거나 그 반대로 바꾸는 것은 하나의 일반적인 사용법으로, 레이아웃을 디자인할 때 더 많은 유연성을 제공하면서도 웹 표준을 준수할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시: 수평 메뉴를 위한 `li` 요소 만들기
 
@@ -71,7 +111,18 @@ span {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 참고: 표시 속성을 변경해도 요소의 형식이 바뀌지는 않습니다. 단지 요소가 시각적으로 표시되는 방식에만 영향을 줍니다.
 
@@ -82,7 +133,18 @@ span {
 
 다음 예시는 display: inline, display: inline-block 및 display: block의 다른 동작을 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시
 
@@ -117,7 +179,18 @@ span.c {
 
 display: inline-block을 사용하는 일반적인 방법 중 하나는 목록 항목을 수직이 아닌 수평으로 표시하는 것입니다. 다음 예시는 수평 내비게이션 링크를 만드는 방법을 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시
 
@@ -140,7 +213,18 @@ display: inline-block을 사용하는 일반적인 방법 중 하나는 목록 �
 
 요소 숨기기는 웹 개발에서 흔히 하는 작업이며, display 속성이 여기에 중요한 역할을 합니다. 자주 사용되는 두 가지 방법은 display: none;과 visibility: hidden;입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## display: none
 
@@ -150,7 +234,18 @@ display: inline-block을 사용하는 일반적인 방법 중 하나는 목록 �
 
 이 속성은 요소를 숨기면서 레이아웃에서 해당 공간을 유지합니다. 보이지 않지만 숨겨진 요소는 문서의 전반적인 구조에 영향을 미칩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시
 
@@ -164,7 +259,18 @@ display: inline-block을 사용하는 일반적인 방법 중 하나는 목록 �
 
 visibility: hidden;과 display: none; 사이의 차이를 이해하는 것이 중요합니다. 두 가지 모두 요소를 숨깁니다. 그러나 visibility: hidden;은 레이아웃에서 차지하는 공간을 유지하고 display: none;은 요소를 문서에서 제거하여 공간을 차지하지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 display: none;와 visibility: hidden의 차이점
 
@@ -174,7 +280,18 @@ display: none;와 visibility: hidden의 차이점
 
 # CSS 너비와 최대 너비
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/MasteringCSSLayoutAComprehensiveGuidetoKeyProperties_2.png)
 
@@ -184,7 +301,18 @@ display: none;와 visibility: hidden의 차이점
 
 예시
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 div.ex1 {
@@ -200,7 +328,18 @@ div.ex1 {
 
 예제
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 div.ex2 {
@@ -216,8 +355,18 @@ div.ex2 {
 
 <img src="/assets/img/MasteringCSSLayoutAComprehensiveGuidetoKeyProperties_3.png" />
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 포지션 속성은 요소의 위치 지정 방법을 지정하는 데 사용됩니다. 포지션 속성에는 static, relative, fixed, absolute, sticky 다섯 가지 다른 값이 있습니다.
 
@@ -227,7 +376,18 @@ div.ex2 {
 
 기본적으로 HTML 요소는 정적으로 배치됩니다. 페이지의 정상적인 흐름을 따르며 상위, 하단, 왼쪽, 오른쪽 속성에 영향을 받지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시
 
@@ -242,7 +402,18 @@ div.static {
 
 position: relative; 속성을 가진 요소는 일반적인 위치를 기준으로 배치됩니다. top, right, bottom, left 속성을 사용하여 위치를 조정할 수 있습니다. 요소가 남긴 공간에 다른 콘텐츠가 맞춰지지는 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시
 
@@ -258,7 +429,18 @@ div.relative {
 
 position: fixed; 속성을 갖는 요소는 뷰포트를 기준으로 위치가 지정되어 페이지가 스크롤될 때도 항상 동일한 위치에 유지됩니다. top, right, bottom, left 속성을 사용하여 요소를 위치시킵니다. 고정된 요소는 일반적으로 위치했을 곳에 빈 공간을 남기지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시
 
@@ -276,7 +458,18 @@ div.fixed {
 
 position: absolute;으로 설정된 요소들은 가장 가까운 부모 요소를 기준으로 위치가 결정됩니다(fixed처럼 뷰포트를 기준으로 하지 않습니다). 하지만, 만약 absolute로 설정된 요소의 부모 요소 중에 positioned된 요소가 없다면 document body를 기준으로 하며, 페이지 스크롤과 함께 움직입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **알림:** 절대 위치 지정된 요소는 일반 흐름에서 제거되며 다른 요소와 겹칠 수 있습니다.
 
@@ -295,7 +488,18 @@ div.absolute {
 
 ## position: sticky
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 position: sticky; 속성은 사용자의 스크롤 위치에 기반합니다. sticky 요소는 스크롤 위치에 따라 상대적 및 고정 위치 사이를 전환합니다. 지정된 오프셋 위치가 뷰포트에서 만날 때까지 상대적으로 위치하고, 그 후에는 "고정"됩니다 (position:fixed와 같이).
 
@@ -313,7 +517,18 @@ div.sticky {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 이미지 안 텍스트 위치 설정하기
 
@@ -327,7 +542,18 @@ div.sticky {
 
 ## 겹침 제어: z-index 속성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/MasteringCSSLayoutAComprehensiveGuidetoKeyProperties_4.png" />
 
@@ -344,7 +570,18 @@ img {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지가 z-index가 -1로 설정되어 있으므로 텍스트 뒤에 배치됩니다.
 
@@ -354,7 +591,18 @@ img {
 
 # 콘텐츠 오버플로 관리하기: overflow 속성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Mastering CSS Layout: A Comprehensive Guide to Key Properties](/assets/img/MasteringCSSLayoutAComprehensiveGuidetoKeyProperties_5.png)
 
@@ -364,7 +612,18 @@ overflow 속성은 영역에 맞지 않는 콘텐츠를 관리하는데 사용�
 
 ## overflow: visible
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기본적으로 overflow는 visible로 설정되어 있어요. 이는 클립되지 않고 요소 상자 외부에 렌더링된다는 뜻이에요.
 
@@ -381,7 +640,18 @@ div {
 
 ## overflow: hidden
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 숨겨진 값으로 인해 오버플로우가 잘립니다. 나머지 내용은 숨겨집니다.
 
@@ -395,7 +665,18 @@ div {
 
 ## overflow: scroll
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스크롤로 값을 설정하면 오버플로우가 클리핑되고 상자 내부에서 스크롤이 추가됩니다. 주의할 점은 이렇게 하면 수평 및 수직으로 스크롤바가 추가된다는 것입니다 (필요 없어도).
 
@@ -409,7 +690,18 @@ div {
 
 ## overflow: auto
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자동 값은 스크롤과 비슷하지만 필요할 때에만 스크롤 바를 추가합니다.
 
@@ -423,7 +715,18 @@ div {
 
 ## overflow-x와 overflow-y
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 overflow-x 및 overflow-y 속성은 콘텐츠의 오버플로우를 수평 또는 수직 (또는 둘 다)으로 변경할 지 여부를 지정합니다:
 
@@ -439,7 +742,18 @@ div {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 부유 요소: float 및 clear 속성
 
@@ -450,7 +764,18 @@ div {
 
 ## float 속성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 플로트 속성은 콘텐츠의 위치 지정 및 서식 지정에 사용됩니다. 왼쪽, 오른쪽, 없음 및 상속과 같은 값이 올 수 있습니다. 플로팅 요소는 요소가 옆으로 위치하도록 레이아웃을 만드는 데 유용할 수 있습니다.
 
@@ -464,7 +789,18 @@ img {
 
 예시
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 img { float: left; }
@@ -478,7 +814,18 @@ img { float: none; }
 
 일반적으로 div 요소는 서로 위에 표시됩니다. 그러나 float: left를 사용하면 요소를 서로 옆에 두도록 할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시
 
@@ -503,7 +850,18 @@ div {
 
 float 속성을 사용할 때 다음 요소를 오른쪽이나 왼쪽이 아닌 아래에 배치하려면 clear 속성을 사용해야 합니다. clear 속성은 플로팅 요소 옆에 있는 요소에 대해 어떻게 처리해야 하는지를 지정합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 클리어 속성은 다음 값 중 하나를 가질 수 있습니다:
 
@@ -517,7 +875,18 @@ float 속성을 사용할 때 다음 요소를 오른쪽이나 왼쪽이 아닌 
 
 예시
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예제는 왼쪽으로의 float를 지웁니다. 여기서는 `div2` 요소가 왼쪽으로 플로팅된 `div1` 요소 아래로 이동되는 것을 의미합니다:
 
@@ -534,7 +903,18 @@ div2 {
 
 만약 플로팅된 요소가 포함 요소보다 더 높다면 포함 요소 바깥으로 "넘칠" 수 있습니다. 이 문제를 해결하기 위해 clearfix 해킹을 추가할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시
 
@@ -550,7 +930,18 @@ div2 {
 
 플로팅 속성은 다양한 레이아웃 시나리오에 사용할 수 있는 다재다능한 기능입니다. 여기 몇 가지 예시가 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 상자 그리드 / 동일 너비의 상자
 
@@ -569,7 +960,18 @@ div2 {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 이미지 나란히 배치하기
 
@@ -585,7 +987,18 @@ div2 {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 동일한 높이 상자
 
@@ -599,7 +1012,18 @@ div2 {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 이 방법은 조금 유연하지 않습니다. 상자들이 항상 동일한 양의 콘텐츠를 가질 것을 보장할 수 있다면 괜찮습니다. 그러나 많은 경우 콘텐츠가 동일하지 않을 수 있습니다. 여기서 CSS3 플렉스박스가 유용하게 사용됩니다. - 가장 긴 상자만큼 상자를 자동으로 늘릴 수 있기 때문에.
 
@@ -609,11 +1033,33 @@ div2 {
 
 ## 네비게이션 메뉴
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 마크다운 형식으로 변경해도 괜찮아요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 레이아웃 전체를 float 속성을 사용하여 만드는 것이 일반적입니다:
 
@@ -644,7 +1090,18 @@ div2 {
 
 # 요소 정렬: 가로 및 세로 정렬
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/MasteringCSSLayoutAComprehensiveGuidetoKeyProperties_7.png" />
 
@@ -654,7 +1111,18 @@ div2 {
 
 ## 요소 가운데 정렬
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 블록 요소(예: `div`)를 수평으로 가운데 정렬하려면 margin: auto를 사용하세요. 요소의 너비를 설정하면 해당 요소가 컨테이너의 가장자리로 늘어나는 것을 방지할 수 있습니다. 그러면 요소는 지정된 너비를 차지하고 나머지 공간은 두 마진 사이에 균등하게 분배됩니다.
 
@@ -671,7 +1139,18 @@ div2 {
 
 참고: 너비 속성이 설정되지 않으면 가운데 정렬이 효과가 없습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 텍스트 가운데 정렬
 
@@ -686,7 +1165,18 @@ div2 {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 이미지 가운데 정렬
 
@@ -703,7 +1193,18 @@ img {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 왼쪽 정렬 및 오른쪽 정렬 - 위치 사용
 
@@ -721,7 +1222,18 @@ img {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 노트: 절대 위치 지정된 요소들은 일반 흐름에서 제외되어 요소들과 겹칠 수 있습니다.
 
@@ -731,7 +1243,18 @@ img {
 
 예시
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .right {
@@ -748,7 +1271,18 @@ CSS에서 요소를 수직으로 가운데 정렬하는 여러 가지 방법이 
 
 예시
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .center {
@@ -769,7 +1303,18 @@ CSS에서 요소를 수직으로 가운데 정렬하는 여러 가지 방법이 
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 세로 가운데 정렬 — line-height 사용
 
@@ -793,7 +1338,18 @@ CSS에서 요소를 수직으로 가운데 정렬하는 여러 가지 방법이 
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 수직 가운데 정렬 — position과 transform 사용
 
@@ -816,7 +1372,18 @@ CSS에서 요소를 수직으로 가운데 정렬하는 여러 가지 방법이 
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 수직 가운데 정렬 - 플렉스박스 사용
 
@@ -834,7 +1401,18 @@ CSS에서 요소를 수직으로 가운데 정렬하는 여러 가지 방법이 
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

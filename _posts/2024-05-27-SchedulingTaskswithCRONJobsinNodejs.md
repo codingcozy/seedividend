@@ -3,16 +3,13 @@ title: "Nodejs에서 CRON 작업으로 일정 관리하기"
 description: ""
 coverImage: "/assets/img/2024-05-27-SchedulingTaskswithCRONJobsinNodejs_0.png"
 date: 2024-05-27 18:09
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-SchedulingTaskswithCRONJobsinNodejs_0.png
 tag: Tech
 originalTitle: "Scheduling Tasks with CRON Jobs in Node.js"
 link: "https://medium.com/@surajAherrao/scheduling-tasks-with-cron-jobs-in-node-js-85680383a659"
 isUpdated: true
 ---
-
-
-
 
 CRON 작업은 특정 간격으로 실행되는 작업을 예약하는 강력한 방법입니다. 이는 뉴스레터를 보내거나 정기 백업을 수행하거나 오래된 데이터를 정리하는 등 다양한 애플리케이션에 매우 유용합니다.
 
@@ -22,7 +19,18 @@ CRON 작업은 특정 간격으로 실행되는 작업을 예약하는 강력한
 
 이 블로그에서는 Node.js에서 CRON 작업을 설정하고 관리하는 방법을 알아볼 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CRON 작업을 왜 사용해야 하나요?
 
@@ -35,7 +43,18 @@ CRON 작업은 다음과 같은 용도로 사용됩니다:
 
 CRON 작업을 시작하려면, CRON 작업에 대한 좋은 지식이 필요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Node.js
 - Npm
@@ -46,7 +65,18 @@ Node.js에서 CRON 작업을 생성하는 방법
 
 새로운 Node.js 프로젝트를 초기화하거나 기존 프로젝트를 사용하세요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 패키지 설치
 
@@ -59,25 +89,47 @@ npm install node-cron
 
 3. 서버용 express 패키지 설치
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 익스프레스 패키지를 설치하여 서버를 실행하거나 따르고자 하는 다른 방법을 사용할 수 있어요.
 
 지금은 익스프레스를 사용해보겠습니다.
 
 ```js
-npm install express 
+npm install express
 ```
 
 4. 크론 작업 작성하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일정에 따라 실행되는 함수를 생성해보겠습니다. 이 예제에서는 콘솔에 메시지를 기록할 것입니다:
 
 ```js
 function logMessage() {
-    console.log('작업이 실행됨:', new Date().toLocaleString());
+  console.log("작업이 실행됨:", new Date().toLocaleString());
 }
 ```
 
@@ -85,11 +137,22 @@ function logMessage() {
 
 CRON 작업의 문법은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-cron.schedule("* * * * *", function() {
-    // Task
+cron.schedule("* * * * *", function () {
+  // Task
 });
 ```
 
@@ -97,10 +160,20 @@ cron.schedule("* * * * *", function() {
 
 이제 각 별표가 무언가를 정의합니다.
 
-예를 들어 ( * * * * * * )
+예를 들어 ( \* \* \* \* \* \* )
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 표는 왼쪽부터 두 번째, 분, 시간, 월 별일, 월, 및 주를 나타냅니다.
 
@@ -113,12 +186,23 @@ cron.schedule("* * * * *", function() {
 
 예시 :
 
-- ( * * * * * ) — 매 분 실행
-- ( 0 * * * * ) — 매 시간 실행
-- ( 0 15 15 * * ) — 매달 15일 오후 3시에 실행
-- ( * * 5 * * ) — 매월 5일에 실행
+- ( \* \* \* \* \* ) — 매 분 실행
+- ( 0 \* \* \* \* ) — 매 시간 실행
+- ( 0 15 15 \* \* ) — 매달 15일 오후 3시에 실행
+- ( \* _ 5 _ \* ) — 매월 5일에 실행
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 내용을 한국어로 번역해 드리겠습니다. 친근한 어조로 작성되었습니다.
 
@@ -132,12 +216,12 @@ app = express();
 
 // 당신이 만든 함수
 function message() {
-    console.log('작업이 실행됨:', new Date().toLocaleString());
+  console.log("작업이 실행됨:", new Date().toLocaleString());
 }
 
 // cron 스케줄
-cron.schedule("* * * * *", function() {
-    message();
+cron.schedule("* * * * *", function () {
+  message();
 });
 
 app.listen(3000);
@@ -147,7 +231,18 @@ app.listen(3000);
 
 5. 스크립트를 실행하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 노드.js 애플리케이션을 시작하세요
 
@@ -159,7 +254,18 @@ node script.js
 
 이렇게 하면 코드가 실행되고 함수가 주어진 간격대로 작동할 것입니다
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 약간의 예시
 
@@ -168,20 +274,31 @@ node script.js
 - 자정에 매일 정리
 
 ```js
-cron.schedule('0 0 * * *', () => {
-    console.log('자정에 작업을 실행중입니다');
-    // 여기에 정리 코드를 추가하세요
+cron.schedule("0 0 * * *", () => {
+  console.log("자정에 작업을 실행중입니다");
+  // 여기에 정리 코드를 추가하세요
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 매주 월요일에 보고서 생성
 
 ```js
-cron.schedule('0 9 * * 1', () => {
-    console.log('주간 보고서 생성 중');
-    // 보고서 생성 코드를 여기에 추가
+cron.schedule("0 9 * * 1", () => {
+  console.log("주간 보고서 생성 중");
+  // 보고서 생성 코드를 여기에 추가
 });
 ```
 
@@ -189,15 +306,26 @@ cron.schedule('0 9 * * 1', () => {
 
 - 에러 처리: CRON 작업에 적절한 에러 처리가 있어 예기치 않은 실패를 피할 수 있도록 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-cron.schedule('0 0 * * *', () => {
-    try {
-        // 작업 내용
-    } catch (err) {
-        console.error('CRON 작업 중 오류가 발생했습니다:', err);
-    }
+cron.schedule("0 0 * * *", () => {
+  try {
+    // 작업 내용
+  } catch (err) {
+    console.error("CRON 작업 중 오류가 발생했습니다:", err);
+  }
 });
 ```
 
@@ -208,7 +336,18 @@ cron.schedule('0 0 * * *', () => {
 - 시간대 문제: CRON 작업은 서버의 시간대에 따라 실행됩니다. 애플리케이션이 전 세계 사용자를 대상으로 하는 경우 시간대 차이에 유의해야 합니다.
 - 동시성: 작업이 CRON 간격보다 오래 걸릴 경우, 작업이 예기치 않게 겹쳐지지 않도록 주의해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 절차를 따라서, Node.js 애플리케이션에서 CRON 작업을 효과적으로 활용하여 간단한 로깅부터 복잡한 데이터 처리까지 다양한 작업을 자동화할 수 있습니다.
 

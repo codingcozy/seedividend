@@ -3,17 +3,13 @@ title: "더 나은 웹사이트를 만드는 HTML 10가지 팁"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "HTML Hacks 10 Tips to Build Better Websites"
 link: "https://medium.com/@nile.bits/html-hacks-10-tips-to-build-better-websites-083f96295921"
 isUpdated: true
 ---
-
-
-
-
 
 ![HTMLHacks10TipstoBuildBetterWebsites](/assets/img/HTMLHacks10TipstoBuildBetterWebsites_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 의미 있는 HTML은 현대 웹 개발의 기초로, 웹 페이지의 콘텐츠를 구조화하고 의미 있는 방식으로 정리하는 방법을 제공합니다. 의미 있는 HTML은 모든 사용자(장애를 가진 사용자 포함)의 접근성을 향상시키는데 그치지 않고, 검색 엔진 최적화(SEO)를 개선하여 검색 엔진이 웹페이지의 콘텐츠와 구조에 대한 명확한 정보를 제공합니다. 의미 있는 HTML 요소가 접근성과 SEO를 어떻게 향상시키는지, 코드 예제와 함께 알아보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 시멘틱 HTML을 통한 접근성 향상:
 
@@ -50,7 +57,18 @@ isUpdated: true
 </header>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 네비게이션 (`nav`): 네비게이션 링크 섹션을 정의합니다.
 
@@ -79,7 +97,18 @@ isUpdated: true
 </main>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 기사 (`article`): 블로그 게시물, 기사 또는 뉴스 이야기와 같은 독립적이고 자체 완결된 콘텐츠를 정의합니다.
 
@@ -98,7 +127,18 @@ isUpdated: true
 </footer>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 의미있는 HTML 요소를 적절하게 사용하여 웹 콘텐츠에 명확한 구조와 의미를 부여하여 스크린 리더와 같은 보조 기술을 사용하는 모든 사용자에게 콘텐츠에 액세스할 수 있게 합니다.
 
@@ -108,7 +148,18 @@ isUpdated: true
 
 - 헤딩 레벨: 콘텐츠의 계층 및 구조를 정의하기 위해 헤딩 요소(`h1`에서 `h6`)를 사용하십시오. 검색 엔진은 헤딩을 사용하여 웹 페이지의 주요 주제와 하위 주제를 이해합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <h1>Main Heading</h1>
@@ -131,7 +182,18 @@ isUpdated: true
 
 - 탐색 링크: 의미 있는 탐색 요소인 `nav`를 사용해 탐색 메뉴를 정의하여 웹사이트 구조를 이해하고 중요 페이지로 쉽게 이동할 수 있도록 해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <nav>
@@ -167,7 +229,18 @@ isUpdated: true
 
 시멘틱 HTML 요소를 사용하여 웹 콘텐츠를 구조화하고 검색 엔진에 유용한 맥락을 제공하여, 검색 엔진 결과 페이지(SERPs)에서 웹사이트의 가시성과 순위를 향상시킬 수 있습니다. 이는 궁극적으로 당신의 사이트로 더 많은 유기적 트래픽을 유도할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결론적으로 시멘틱 HTML은 접근성과 SEO를 높이는 데 강력한 도구입니다. 적절하게 시맨틱 요소를 사용하고 웹 콘텐츠에 명확한 구조와 문맥을 제공함으로써, 모든 사용자에게 더 접근 가능하고 검색 엔진 결과에서 더 활발하고 눈에 띄는 웹사이트를 만들 수 있습니다.
 
@@ -177,7 +250,18 @@ isUpdated: true
 
 # CSS 미디어 쿼리 사용하기:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS 미디어 쿼리를 활용하면 사용자 장치의 특성에 따라 스타일을 적용할 수 있습니다. 화면 너비, 높이, 방향 및 해상도와 같은 특징을 기반으로 다양한 스타일을 정의할 수 있어요. 서로 다른 화면 크기에 대한 다른 스타일 세트를 정의함으로써, 사용자 장치에 맞게 동적으로 조정되는 반응형 레이아웃을 만들 수 있어요.
 
@@ -210,7 +294,18 @@ CSS 미디어 쿼리를 활용하면 사용자 장치의 특성에 따라 스타
 
 # 백분율 너비를 활용한 유연한 레이아웃:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요소들에 대해 백분율 기반 폭을 사용하면 컨테이너의 크기에 비례하여 조정됩니다. 이 방식을 사용하면 화면 크기에 따라 고정 픽셀 값을 필요로하지 않고 콘텐츠가 접근 가능하고 가독성이 좋게 유지됩니다.
 
@@ -227,7 +322,18 @@ CSS 미디어 쿼리를 활용하면 사용자 장치의 특성에 따라 스타
 
 # 유연한 레이아웃을 위한 플렉스박스와 그리드:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS Flexbox 및 Grid 레이아웃 기술은 최소한의 코드로 유연하고 반응형 레이아웃을 만들 수 있는 강력한 도구를 제공합니다. 이러한 레이아웃 시스템을 사용하면 요소를 동적으로 정렬하고 분배하여 다양한 화면 크기에 맞게 복잡한 디자인을 만드는 것이 더 쉬워집니다.
 
@@ -248,7 +354,18 @@ CSS Flexbox 및 Grid 레이아웃 기술은 최소한의 코드로 유연하고 
 
 반응형 디자인은 다양한 화면 크기에서 일관된 사용자 경험을 제공하고 다양한 디바이스 간의 호환성을 보장하기 위해 중요합니다. CSS 미디어 쿼리, 유동형 레이아웃, Flexbox, Grid와 같은 유연한 레이아웃 기술을 활용함으로써 개발자들은 사용자의 디바이스에 우아하게 대응하는 반응형 디자인을 만들 수 있습니다. 반응형 디자인 원칙을 준수함으로써 접근성이 좋고 사용자 친화적이며 시각적으로 매력적인 웹사이트를 다양한 디바이스와 화면 크기에 걸쳐 구현할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 3- 접근 가능한 양식: 모두를 위한 사용 편의성 향상
 
@@ -258,7 +375,18 @@ CSS Flexbox 및 Grid 레이아웃 기술은 최소한의 코드로 유연하고 
 
 의미 있는 HTML 요소는 스크린 리더와 같은 보조 기술이 보다 접근 가능한 형식으로 양식에 의미 있는 구조를 제공합니다. 'form', 'label' 및 'input' 요소를 적절하게 사용하여 잘 구조화되고 접근 가능한 양식을 만들어보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <form>
@@ -279,7 +407,18 @@ CSS Flexbox 및 Grid 레이아웃 기술은 최소한의 코드로 유연하고 
 <input type="text" id="name" name="name" required>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 3. 적합한 입력 유형 활용하기:
 
@@ -292,7 +431,18 @@ CSS Flexbox 및 Grid 레이아웃 기술은 최소한의 코드로 유연하고 
 
 # 4. 플레이스홀더 텍스트 포함하기:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 플레이스홀더 텍스트를 사용하면 폼 필드에 대한 추가적인 정보를 제공할 수 있지만 레이블을 대체해서는 안 됩니다. 플레이스홀더는 보조 정보로 사용되어야 하며 사용자가 입력을 시작할 때 사라지지 않도록 해야 합니다.
 
@@ -304,18 +454,22 @@ CSS Flexbox 및 Grid 레이아웃 기술은 최소한의 코드로 유연하고 
 
 ARIA(접근 가능한 리치 인터넷 응용 프로그램) 속성을 사용하여 사용자 정의 또는 대화형 요소를 사용할 때 특히 양식의 접근성을 향상시키세요. 예를 들어, "aria-required="true""를 사용하여 필수 필드를 나타내고 form controls을 설명적 텍스트와 관련시키려면 aria-describedby를 사용하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```html
 <label for="name">이름:</label>
-<input
-  type="text"
-  id="name"
-  name="name"
-  required
-  aria-required="true"
-  aria-describedby="name-description"
-/>
+<input type="text" id="name" name="name" required aria-required="true" aria-describedby="name-description" />
 <div id="name-description">성함을 입력해주세요.</div>
 ```
 
@@ -333,7 +487,18 @@ ARIA(접근 가능한 리치 인터넷 응용 프로그램) 속성을 사용하�
 </form>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 7. 명확한 오류 메시지 제공하기:
 
@@ -346,7 +511,18 @@ ARIA(접근 가능한 리치 인터넷 응용 프로그램) 속성을 사용하�
 
 이러한 모범 사례를 준수하고 접근 가능한 디자인 원칙을 양식에 통합함으로써, 웹사이트에서 정보를 효과적으로 상호작용하고 제출할 수 있는 모든 사용자를 보장할 수 있습니다. 접근 가능한 양식을 만드는 것은 모든 사용자의 사용성을 향상시키는 데 도움이 되는데 그치지 않고 디지털 공간에서 포용력과 다양성을 촉진하는 데도 도움이 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 4- 이미지 최적화: 품질과 성능의 균형 맞추기
 
@@ -356,7 +532,18 @@ ARIA(접근 가능한 리치 인터넷 응용 프로그램) 속성을 사용하�
 
 다른 이미지 형식은 서로 다른 유형의 콘텐츠에 적합합니다. 이미지의 특성에 따라 가장 적합한 형식을 선택하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - JPEG (Joint Photographic Experts Group): 사진이나 복잡한 색상 또는 그라데이션을 가진 이미지에 이상적입니다.
 - PNG (Portable Network Graphics): 투명도가 있는 이미지나 색상이 적은 간단한 그래픽에 적합합니다.
@@ -377,7 +564,18 @@ ARIA(접근 가능한 리치 인터넷 응용 프로그램) 속성을 사용하�
 
 시각적 품질을 유지하면서 파일 크기를 줄이기 위해 이미지 압축 기술을 사용하세요. 이미지 편집 도구나 온라인 압축 서비스를 사용하여 이 작업을 수행할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <!-- 원본 이미지 -->
@@ -394,7 +592,18 @@ ARIA(접근 가능한 리치 인터넷 응용 프로그램) 속성을 사용하�
 <img src="photo.jpg" alt="사진" width="800" height="600" />
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 4. 반응형 이미지 사용하기:
 
@@ -410,24 +619,41 @@ ARIA(접근 가능한 리치 인터넷 응용 프로그램) 속성을 사용하�
 
 # 5. Lazy Loading:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지 로딩을 지연시켜 필요할 때까지 이미지를 불러오지 않고, 초기 페이지 로드 시간을 줄일 수 있는 lazy loading을 구현해보세요:
 
 ```js
-<img
-  src="placeholder.jpg"
-  data-src="image.jpg"
-  alt="Lazy Loaded Image"
-  loading="lazy"
-/>
+<img src="placeholder.jpg" data-src="image.jpg" alt="Lazy Loaded Image" loading="lazy" />
 ```
 
 ## 6. 이미지 CDN 사용:
 
 이미지 콘텐츠 전달 네트워크(CDN)를 활용하여 사용자에게 더 가까운 위치에 있는 서버에서 이미지를 제공함으로써 대기 시간을 줄이고 로드 시간을 개선하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="https://cdn.example.com/image.jpg" alt="CDN Image" />
 
@@ -442,7 +668,18 @@ SVG를 사용할 때 불필요한 코드를 제거하고 SVG 파일을 최소화
 </svg>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지 최적화 기술을 적용하여 시각적 품질과 웹 사이트 성능 사이의 균형을 유지하면, 웹 페이지가 빠르게 로드되고 다양한 기기와 네트워크 환경에서 매끄러운 사용자 경험을 제공할 수 있습니다. 웹 사이트가 발전함에 따라 최적의 성능을 유지하려면 이미지를 정기적으로 검토하고 최적화하는 것을 기억하세요.
 
@@ -452,7 +689,18 @@ SVG를 사용할 때 불필요한 코드를 제거하고 SVG 파일을 최소화
 
 # 1. 사용자 정의 요소 클래스 정의:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 class CustomElement extends HTMLElement {
@@ -492,7 +740,18 @@ class CustomElement extends HTMLElement {
 customElements.define("custom-element", CustomElement);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 3. 캡슐화를 위해 Shadow DOM 활용하기:
 
@@ -519,7 +778,18 @@ customElements.define("custom-element", CustomElement);
 
 # 4. 기능 추가:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신이 만든 사용자 정의 요소에 기능을 추가하려면 클래스 내에서 메서드와 속성을 정의하면 됩니다.
 
@@ -551,7 +821,18 @@ customElements.define("custom-element", CustomElement);
 <custom-element></custom-element>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이는 사용자 정의 요소가 있는 테이블이고 카운터를 증가시키는 버튼이 있습니다.
 
@@ -561,7 +842,18 @@ customElements.define("custom-element", CustomElement);
 
 구조화된 데이터 또는 스키마 마크업이라고도 하는 구조화된 데이터는 웹 콘텐츠에 주석을 달아 검색 엔진이 해당 콘텐츠의 컨텍스트와 의미를 더 잘 이해하도록 돕는 방법입니다. HTML에 구조화된 데이터를 추가하여 풍부한 결과, 지식 그래프 패널 및 기타 향상된 검색 기능을 활성화하여 검색 가시성을 극대화할 수 있습니다. 아래는 코드 예제와 함께 구조화된 데이터를 구현하는 방법입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 1. JSON-LD 구현:
 
@@ -586,7 +878,18 @@ JSON-LD (JavaScript Object Notation for Linked Data)은 Google에서 권장하�
 
 # 2. 제품을 위한 구조화된 데이터 추가:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <script type="application/ld+json">
@@ -610,7 +913,18 @@ JSON-LD (JavaScript Object Notation for Linked Data)은 Google에서 권장하�
 </script>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```json
 {
@@ -651,7 +965,18 @@ JSON-LD (JavaScript Object Notation for Linked Data)은 Google에서 권장하�
 
 웹 페이지에 구조화된 데이터를 추가함으로써 검색 엔진에 내용에 대한 추가적인 컨텍스트를 제공하게 되어 검색 가시성을 향상시키고 웹 사이트 정보를 검색 결과에서 더 나은 방식으로 표시할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 7- CSS Grid 및 Flexbox: 레이아웃 마스터하기
 
@@ -661,7 +986,18 @@ JSON-LD (JavaScript Object Notation for Linked Data)은 Google에서 권장하�
 
 CSS Grid 레이아웃은 행과 열을 가진 그리드 기반 레이아웃을 만들 수 있게 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 기본 그리드 예시:
 
@@ -693,7 +1029,18 @@ CSS Grid 레이아웃은 행과 열을 가진 그리드 기반 레이아웃을 �
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 2. 플렉스박스 레이아웃:
 
@@ -708,7 +1055,18 @@ CSS Grid 레이아웃은 행과 열을 가진 그리드 기반 레이아웃을 �
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 수직 가운데 정렬:
 
@@ -730,7 +1088,18 @@ CSS Grid 레이아웃은 행과 열을 가진 그리드 기반 레이아웃을 �
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 3. 그리드(Grid)와 플렉스박스(Flexbox)를 결합하기:
 
@@ -753,7 +1122,18 @@ CSS Grid 레이아웃은 행과 열을 가진 그리드 기반 레이아웃을 �
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS Grid과 Flexbox는 강력한 레이아웃 기능을 제공하여 노력을 최소화하면서 반응형이고 복잡한 레이아웃을 만들 수 있습니다. 이 레이아웃 기술을 숙달하면 현대적이고 시각적으로 매력적인 웹 디자인을 효율적으로 구축할 수 있습니다.
 
@@ -763,7 +1143,18 @@ CSS Grid과 Flexbox는 강력한 레이아웃 기능을 제공하여 노력을 �
 
 프로그레시브 웹 앱(PWAs)은 웹과 네이티브 모바일 애플리케이션의 장점을 결합하여 사용자에게 빠르고 안정적이며 매력적인 경험을 다양한 장치와 플랫폼에서 제공합니다. 아래는 PWAs를 구축하는 방법에 대한 코드 예시가 포함된 가이드입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 1. 서비스 워커:
 
@@ -787,7 +1178,18 @@ if ("serviceWorker" in navigator) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 서비스 워커 만들기:
 
@@ -820,7 +1222,18 @@ self.addEventListener("fetch", (event) => {
 
 웹 앱 manifest는 PWA에 대한 메타데이터를 제공하는 JSON 파일로, 사용자의 홈 화면에 추가되고 독립적인 애플리케이션으로 시작될 수 있도록 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // manifest.json
@@ -850,7 +1263,18 @@ PWA가 다양한 기기와 화면 크기에서 잘 보이도록 반응형으로 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 4. 홈 화면에 추가하기:
 
@@ -861,7 +1285,18 @@ PWA가 다양한 기기와 화면 크기에서 잘 보이도록 반응형으로 
 <link rel="manifest" href="/manifest.json">
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 PWA는 응용 프로그램과 사용자의 안전 및 무결성을 보장하기 위해 안전한 원본이 필요합니다.
 
@@ -871,7 +1306,18 @@ PWA는 응용 프로그램과 사용자의 안전 및 무결성을 보장하기 
 
 웹 사이트의 글꼴을 최적화하는 것은 시각적 매력, 가독성 및 성능 사이의 적절한 균형을 찾는 것을 의미합니다. 효과적으로 글꼴을 최적화하는 방법에 대한 코드 예제가 포함된 안내서를 확인해보세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 1. 폰트 로딩 전략:
 
@@ -883,7 +1329,18 @@ PWA는 응용 프로그램과 사용자의 안전 및 무결성을 보장하기 
 
 ## font-display를 이용한 비동기 폰트 로딩:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap">
@@ -899,7 +1356,18 @@ body {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 3. 글꼴 두권과 스타일:
 
@@ -911,7 +1379,18 @@ body {
 
 # 4. 글꼴 부분 집합화:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹사이트에 필요한 문자만 포함하도록 폰트를 부분적으로 선택하여 파일 크기를 줄이고 로드 시간을 개선하세요.
 
@@ -923,7 +1402,18 @@ body {
 
 품질을 희생하지 않고 폰트 파일의 크기를 줄이기 위해 폰트 파일을 압축하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 6. 폰트 로딩 최적화:
 
@@ -935,7 +1425,18 @@ body {
 <link rel="preload" href="/path/to/font.woff2" as="font" type="font/woff2" crossorigin>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 비동기 폰트 로딩:
 
@@ -953,7 +1454,18 @@ body {
 
 Google PageSpeed Insights나 WebPageTest 같은 도구를 사용하여 폰트 로딩 성능을 모니터링하고, 그에 맞게 최적화하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신의 웹사이트에서 글꼴을 최적화하는 것은 글꼴로딩 전략, 글꼴 스택, 글꼴 두께와 스타일, 글꼴 서브셋, 글꼴 압축, 그리고 글꼴 로딩 최적화 기술에 대해 신중한 고려를 필요로합니다. 시각적 매력, 가독성 및 성능 사이의 적절한 균형을 맞추면 웹사이트의 글꼴이 전체 사용자 경험을 향상시키면서 성능을 저해하지 않음을 보장할 수 있습니다.
 
@@ -963,7 +1475,18 @@ Google PageSpeed Insights나 WebPageTest 같은 도구를 사용하여 폰트 �
 
 # 1. 제목 태그:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 페이지 태그는 웹 페이지의 제목을 정의하며, 검색 엔진 결과물에서 주요 헤드라인으로 표시됩니다.
 
@@ -977,7 +1500,18 @@ Google PageSpeed Insights나 WebPageTest 같은 도구를 사용하여 폰트 �
 
 메타 설명은 웹 페이지의 내용에 대한 간단한 요약을 제공하며, 검색 결과에서 제목 태그 아래에 표시됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <head>
@@ -991,7 +1525,18 @@ Google PageSpeed Insights나 WebPageTest 같은 도구를 사용하여 폰트 �
 
 ## 오픈 그래프 제목:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <head>
@@ -1009,7 +1554,18 @@ Google PageSpeed Insights나 WebPageTest 같은 도구를 사용하여 폰트 �
 
 ## 오픈 그래프 이미지:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 4. Open Graph 이미지:
@@ -1028,7 +1584,18 @@ Google PageSpeed Insights나 WebPageTest 같은 도구를 사용하여 폰트 �
 
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Twitter 카드는 Open Graph 태그와 유사하지만 Twitter에 특화되어 있어서 웹사이트가 Twitter에서 공유될 때 외관을 사용자 정의할 수 있습니다.
 
@@ -1042,7 +1609,18 @@ Twitter 카드는 Open Graph 태그와 유사하지만 Twitter에 특화되어 �
 
 ## Twitter 카드 설명:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <head>
@@ -1060,8 +1638,18 @@ Twitter 카드는 Open Graph 태그와 유사하지만 Twitter에 특화되어 �
 
 ## 트위터 카드 URL:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 5. 파비콘:
 
@@ -1073,8 +1661,18 @@ Twitter 카드는 Open Graph 태그와 유사하지만 Twitter에 특화되어 �
 </head>
 ```
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신이 웹 사이트의 메타 태그를 최적화하면 사용자의 주의를 끄는 매력적인 미리보기를 만들어 검색 엔진 결과와 소셜 미디어 플랫폼에서 사용자가 사이트로 클릭하도록 유도할 수 있어요. 제목과 설명을 간결하고 매력적으로 유지하고, 오픈 그래프 태그와 트위터 카드를 사용하여 다양한 플랫폼에 대한 미리보기를 사용자 정의할 수 있어요. 추가로, 웹 사이트의 브랜딩과 시각적 식별력을 강화하기 위해 파비콘을 포함하세요.
 

@@ -3,17 +3,13 @@ title: "제네릭을 이용한 SwiftUI에서의 커스텀 피커 만들기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 우리는 Apple의 구현을 모방한 자체 Picker를 만들 것입니다. 이 Picker는 미리 정의된 모델이 필요하지 않아 더 유연하고 재사용 가능합니다.
 
@@ -45,7 +41,18 @@ struct ContentView: View {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 피커에 대한 빠른 도움은 초기화자에 대한 정보를 제공합니다.
 
@@ -55,7 +62,18 @@ struct ContentView: View {
 
 자체 CustomPicker를 위한 구조체 정의를 만들어 봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Custom Picker in SwiftUI with Generics - Image 1](/assets/img/Custom-Picker-in-SwiftUI-with-Generics_1.png)
 
@@ -65,7 +83,18 @@ struct ContentView: View {
 
 ![Custom Picker in SwiftUI with Generics - Image 2](/assets/img/Custom-Picker-in-SwiftUI-with-Generics_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 명심해 주세요, SelectionValue와 Content는 위에서 선언된 속성을 갖는 제네릭 타입이라는 것을 알고 있습니다. 그래서 ForEach와 items를 함께 사용할 수 있다는 것을 알고 있습니다. 왜냐하면 RandomAccessCollection을 준수하기 때문이죠. 그리고 선택한 selection.ID는 String이거나 nil일 것이라는 것도 알고 있습니다.
 
@@ -77,7 +106,18 @@ struct ContentView: View {
 
 이제 항상 연습하다보니 이렇게 만들었습니다. 디자인에 따라, Petyka의 멋진 폰트를 사용하여 극적이고 레트로한 느낌으로 선택했습니다. 사용자 정의 색상 세트를 사용했고 몇 가지 애니메이션도 도입했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Picker는 iOS와 macOS에서 모두 작동합니다.
 
@@ -87,7 +127,18 @@ Picker는 iOS와 macOS에서 모두 작동합니다.
 
 ## SwiftUI 코드
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 선택 버튼-선택된 항목
@@ -170,7 +221,18 @@ CustomPicker(selection: $selectedFruit) {
             }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/Custom-Picker-in-SwiftUI-with-Generics_5.png" />
 

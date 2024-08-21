@@ -3,23 +3,30 @@ title: "Nextjs 페이지 라우터 프로젝트 저장소 구조"
 description: "Nextjs 애플리케이션의 프로젝트 구조에 대한 개요를 제공합니다 상위 수준의 파일 및 폴더, 구성 파일 및 앱 및 페이지 디렉터리 내에서의 라우팅 규칙에 대해 다룹니다"
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
 
-
-
-
-
 # Next.js 페이지 라우터 프로젝트 저장소 구조
 
 Next.js 애플리케이션의 프로젝트 구조에 대한 개요를 얻을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 상위 수준 폴더
 
@@ -55,7 +62,18 @@ Next.js 애플리케이션의 프로젝트 구조에 대한 개요를 얻을 수
 | tsconfig.json      | TypeScript의 설정 파일                |
 | jsconfig.json      | JavaScript의 설정 파일                |
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 앱 라우팅 규칙
 
@@ -90,7 +108,18 @@ Next.js 애플리케이션의 프로젝트 구조에 대한 개요를 얻을 수
 | [...folder]   | 모든 경우를 포함하는 라우트 세그먼트        |
 | [[...folder]] | 선택적 모든 경우를 포함하는 라우트 세그먼트 |
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 경로 그룹 및 비공개 폴더
 
@@ -126,7 +155,18 @@ Next.js 애플리케이션의 프로젝트 구조에 대한 개요를 얻을 수
 | twitter-image   | .jpg .jpeg .png .gif | 트위터 이미지 파일        |
 | twitter-image   | .js .ts .tsx         | 생성된 트위터 이미지      |
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 #### SEO
 
@@ -160,7 +200,18 @@ Next.js 애플리케이션의 프로젝트 구조에 대한 개요를 얻을 수
 | index          | .js .jsx .tsx | 홈 페이지     |
 | file           | .js .jsx .tsx | 중첩된 페이지 |
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 동적 경로
 

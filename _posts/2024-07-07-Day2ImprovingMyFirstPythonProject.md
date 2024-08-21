@@ -3,15 +3,13 @@ title: "Python 프로젝트 개선하기 두 번째 날, 첫 Python 프로젝트
 description: ""
 coverImage: "/assets/img/2024-07-07-Day2ImprovingMyFirstPythonProject_0.png"
 date: 2024-07-07 19:16
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-Day2ImprovingMyFirstPythonProject_0.png
 tag: Tech
 originalTitle: "Day 2 — Improving My First Python Project"
 link: "https://medium.com/datascience-ville/day-2-improving-my-first-python-project-e4e3a2efe140"
 isUpdated: true
 ---
-
-
 
 ## 30-DAY CODING CHALLENGE
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 파이썬을 처음 배울 때, 이게 가장 처음으로 한 실제적인 작업이었어요. GUI까지 디자인한 적은 없지만, input, if, elif, else, try, 그리고 except와 같은 기본 함수들을 사용했죠. 부지런히 코딩해보세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 1.0 버전, 그것을 그렇게 부를게요, 켈빈과 섭씨 간 변환만 가능했어요. 다음처럼 보였답니다:
 

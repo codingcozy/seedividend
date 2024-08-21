@@ -3,16 +3,13 @@ title: "웹을 죽여야 할 때가 왔습니다 2024 최신 트렌드 분석"
 description: ""
 coverImage: "/assets/img/2024-06-27-Itstimetokilltheweb_0.png"
 date: 2024-06-27 14:25
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-27-Itstimetokilltheweb_0.png
 tag: Tech
 originalTitle: "It’s time to kill the web"
 link: "https://medium.com/mike-hearn/its-time-to-kill-the-web-974a9fe80c89"
 isUpdated: true
 ---
-
-
-
 
 무슨 일이 벌어지고 있어요. 사람들이 불만스러워하는 모양이에요. 시민 불안의 유령이 우리 프로그래밍 커뮤니티를 쫓고 있어요.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 웹을 대체하고 흡수하여 최종적으로 그것을 대체할 만한 경쟁 프로그램을 만드는 방법에 대해 생각해보고 싶어요, 적어도 앱 작성 목적으로요. 웹은 문서를 배포하는 방법으로서도 문제점이 있지만, 걱정할 정도로 심각하지는 않아요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 글은 총 세 편으로 나뉩니다. 첫 번째 편에서는 웹 플랫폼에 대한 심각하고 수정할 수 없는 문제점을 검토할 것입니다. 나는 당신에게 이것을 완전히 폐기해야 한다고 설득하고 싶어요. 결국, 문제를 분석하지 않으면 해결할 수 없거든요. 또한 이 문제들에 대해 이제 정치적으로 이야기할 수 있는 이유를 간단히 살펴보겠어요. 비록 이러한 문제들이 사실 새로운 것은 아니지만 말이에요.
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 # 왜 웹은 죽어야 할까요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 앱들. 그겟서요? 뭐든 문제가 많지만, 오늘은 두 가지만 얘기해볼게요.
 
@@ -43,7 +62,18 @@ isUpdated: true
 
 React/Flux가 사용하는 방식이 이러한 이유 중 하나는 웹 렌더링 엔진이 매우 느리기 때문이에요. 사용자가 실제로 보는 최종 결과물은 20년 전의 Windows 사용자가 본 것보다 약간 더 멋있을 뿐이라는 사실이 있답니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-27-Itstimetokilltheweb_1.png" />
 
@@ -53,7 +83,18 @@ React/Flux가 사용하는 방식이 이러한 이유 중 하나는 웹 렌더�
 
 아이콘 스타일도 똑같아요! Windows 98는 예전에는 다채롭고 빽빽한 픽셀 아트 스타일이었던 플랫, 회색조 아이콘의 새로운 트렌드를 소개했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 오피스 2000은 75 Mhz CPU와 32mb RAM으로도 행복했지만, 위에 표시된 구글 독스는 2.5Ghz CPU와 거의 정확히 10배 더 많은 RAM을 사용하고 있어요.
 
@@ -66,7 +107,18 @@ React/Flux가 사용하는 방식이 이러한 이유 중 하나는 웹 렌더�
 
 이러한 기능 중 많은 것들이 지난 몇 년 동안에야 웹 플랫폼에 도입되었으며, 종종 불안정한 방식으로 도입되곤 했어요. 웹 앱은 실제 소켓을 사용할 수 없기 때문에 서버를 "웹 소켓"을 지원하도록 변경해야 합니다. UI 구성 요소와 같은 기본적인 것들조차도 끔찍한 상황입니다. 언급할 가치가 있는 웹 IDE는 없으며, 서로 다른 프로그래밍 언어를 혼합하는 것에 대해서는... 자바스크립트로 변환할 수 있어요. 때때로요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 앱을 개발자가 쓰는 이유 중 하나는 웹에서의 사용자 기대치가 극히 낮기 때문입니다. Windows 95용 앱은 아이콘, 드래그 앤 듭, 되돌리기, 파일 연관, 일관된 키보드 단축키, 백그라운드에서 유용한 작업을 수행하며 오프라인에서도 작동하는 것이 기본 기능으로 예상되었습니다. 하지만 이 모든 것들은 기본적인 앱 수준에 불과했습니다. 정말 인상적인 소프트웨어는 Office 문서 내에 임베드될 수 있거나 Explorer를 확장하거나 원래 개발자에게 알려지지 않은 임의의 플러그인으로 확장되어야 했습니다. 그러나 웹 앱은 보통 이러한 것들을 하지 않습니다.
 
@@ -76,7 +128,18 @@ React/Flux가 사용하는 방식이 이러한 이유 중 하나는 웹 렌더�
 
 # 웹 앱은 보안이 불가능합니다
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1990년대 말에 소프트웨어 산업에는 끔찍한 깨달음이 들었습니다: C/C++ 프로그램의 보안 버그는 적 spor한 실수가 아니었고, 임시 프로세스로 처리할 수 있는 것이 아니었습니다. 그것들은 어디에나 있었습니다. 사람들은 C/C++ 조각이 인터넷에 노출되면 악용이 따를 것이라는 것을 깨달았습니다.
 
@@ -86,7 +149,18 @@ Windows는 자동 업데이트 기능을 가지고 있었지만, 제대로 기�
 
 <img src="/assets/img/2024-06-27-Itstimetokilltheweb_3.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 산업은 변화하기 시작했지만, 많은 비명과 부인과 함께였습니다. 당시에는 Linux와 Mac 사용자들 사이에서 이 문제가 Microsoft에만 특정한 문제로 여겨졌다는 것이 일반적인 지혜였죠... 그들의 시스템이 뛰어난 프로그래머들에 의해 만들어졌다는 것. Microsoft는 자신들이 존재적 위기에 직면하고 있다고 받아들였고 "안전한 개발 수명주기"를 도입했습니다(대규모의 교육 및 프로세스 프로그램). 그러나 경쟁사들은 거의 아무것도 하지 않았습니다. 레드먼드는 Windows XP에 방화벽을 추가하고 코드 서명 인증을 도입했습니다. 모바일 코드가 제한되었고, 보안 버그가 끝없는 것으로 드러나자 "패치 화요일"이 고안되었습니다. 영리한 해커들은 예전에 무해로 여겨졌던 버그 유형이 여전히 악용 가능하며, 강력하다고 여겨졌던 악용 방지가 우회될 수 있음을 지속적으로 발견했습니다. Mac 및 Linux 커뮤니티는 천천히 바이러스와 악용에 완전히 면역이 아니라는 사실을 깨달았습니다.
 
@@ -96,7 +170,18 @@ Windows는 자동 업데이트 기능을 가지고 있었지만, 제대로 기�
 
 유감스럽게도, 웹은 신뢰할만한 앱의 약속의 땅으로 우릴 이끌어가지 못했습니다. 웹 앱은 호스트 OS로부터 어느 정도 격리되어 있기는 하지만, 앱 자체는 2001년 경의 Windows 코드보다 훨씬 튼튼하지 못합니다. 우리의 레거시 문제를 영구적으로 해결하는 대신, 웹은 오히려 하나의 버퍼 오버플로우 종류를 다른 것으로 대체했습니다. 데스크톱 앱이 "이중 해제", "스택 스매시", "이후 무료 사용" 등과 같은 악용 카테고리를 가지고 있는 것과는 달리, 웹 앱은 이를 해결하고 나서도 자체적으로 유사한 실수를 반복하는 경향이 있었습니다: SQL 인젝션, XSS, XSRF, 헤더 인젝션, MIME 혼란 등입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단한 논문으로 이어집니다:
 
@@ -106,7 +191,18 @@ Windows는 자동 업데이트 기능을 가지고 있었지만, 제대로 기�
 
 저는 실제 규모의 웹 앱, 현실적인 조건에서 작성된 것에 대해 이야기하고 있습니다. 이는 가볍게 주장하는 것이 아닙니다. 이것은 제가 Google에서 8년간 지켜본 곳에서 얻은 신념입니다. 거기서 가장 뛰어난 웹 개발자들이 계속해서 취약한 소프트웨어를 배포하는 것을 지켜봤습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 구글 보안팀은 세계에서 가장 우수한 보안팀 중 하나일 수도 있고, 아마도 최고일 수도 있습니다. 그들은 내부 교육 프로그램의 일환으로 사람들이 하는 주요 실수들에 대한 유용한 가이드를 작성했습니다. 데이터를 안전하게 브라우저로 전송하여 표시하는 데 도움이 되는 이들의 조언을 여기에 소개합니다:
 
@@ -116,7 +212,18 @@ Windows는 자동 업데이트 기능을 가지고 있었지만, 제대로 기�
 
 정말 그렇지 않습니다! 더 나빠집니다! REST/JSON 엔드포인트를 보호하는 것은 현대 웹 개발자가 이해해야 할 다양한 보안 문제 중 하나뿐입니다. 수십 가지 더 있습니다(여기 흥미로운 예제가 있고 다른 재미있는 것이 있습니다).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 경험상 이 모든 덫 중 하나라도 들어본 웹 개발자를 고용하려고 시도하면 실패로 끝나기 마련이며, 이런 덫을 신뢰할 수 있는 방법으로 회피하는 개발자를 고용하는 것은 더욱 어렵습니다. 그래서 결론은 다음과 같습니다: 안전한 웹 앱을 작성하는 방법을 이해하지 못한 웹 개발자를 고용할 수 없다면 안전한 웹 앱을 작성할 수 없습니다.
 
@@ -128,7 +235,18 @@ Windows는 자동 업데이트 기능을 가지고 있었지만, 제대로 기�
 - 문서가 아닌 앱을 위한 설계된 프로토콜
 - 동일 출처 정책
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 버퍼 크기를 잃어버리는 것은 C 프로그램에서 취약점의 전형적인 원인이며 웹도 똑같은 문제를 가지고 있습니다: XSS와 SQL 인젝션 악용은 코드 버퍼가 시작되고 데이터 버퍼가 끝나는 곳이 어디인지 혼란을 야기하는 것에 기반합니다. 웹은 텍스트 프로토콜과 형식에 완전히 의존하기 때문에 버퍼는 반드시 구문 분석되어 길이를 알아내야 합니다. 이는 피할 수 있는 탈출, 대체 및 기타 문제들의 세계를 열어놓습니다.
 
@@ -138,7 +256,18 @@ HTTP와 HTML은 문서를 위해 디자인되었습니다. Egor Homakov이 SMS �
 
 REST가 XML을 반환했을 때만으로도 충분히 나빴지만 요즘에는 XML이 유행을 타지 않고 웹에서는 대신 JSON을 사용합니다. 이는 실제로 보안 문제에 대해 전체 섹션을 갖고 있는 wiki 페이지가 있는 식으로 설계되어 있어서 매우 나쁘게 디자인된 형식입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 수정: REST를 좋은 아이디어인 것처럼 가정하는 것을 그만두죠. REST는 HTTP를 비틀어서 브라우저의 제약을 우회하기 위해 만들어진 좋은 아이디어가 아니에요. 브라우저까지 변형되어야 할 도구를 다른 용도로 바꾸는 것은 문제가 생길 수밖에 없어요. 이런 접근은 결국 좋은 결말을 가져다주지 않아요. 이전 내용을 고려할 때, 클라이언트/서버 간 통신은 RPC 사용 사례에 특별히 설계된 이진 프로토콜을 사용해야 해요.
 
@@ -148,7 +277,18 @@ SOP는 넷스케이프가 문서 형식에 코드를 덧붙이면서 생긴 결�
 
 우리의 동정을 떠나 SOP는 HEIST 공격의 근간이 되며, HEIST는 실제 웹 앱 거의 모두를 손상시키는 것으로 보이며, 아마 역호환성을 깨지 않고 고칠 수는 없을 겁니다. 이것이 안전한 웹 앱을 작성하는 것이 불가능하다는 하나의 더이유입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 수정 사항: 애플리케이션에는 명확한 식별이 필요하며 보안 토큰을 기본 설정으로 서로 공유해서는 안 됩니다. 서버에 액세스 권한이 없다면 해당 서버로 메시지를 보낼 수 없어야 합니다. 웹을 제외한 모든 플랫폼이 이를 올바르게 처리합니다.
 
@@ -158,7 +298,18 @@ SOP는 넷스케이프가 문서 형식에 코드를 덧붙이면서 생긴 결�
 
 HTML 5는 우리 산업에 해를 끼치는 요인입니다. 일부 기능은 잘 처리하지만 다른 앱 플랫폼과 쉽게 맞먹을 수 있는 이점도 있지만, 웹의 핵심적인 디자인 결함들은 대부분 수정할 수 없습니다. 따라서 웹은 모바일에서 패배했습니다: 유기적으로 성장하는 대신 실제로 설계된 경쟁 플랫폼이 나왔을 때, 개발자들은 대부분 네이티브 앱으로 전환하는 것을 선택했습니다. 그러나 모바일 외에는 좋은 대안이 없습니다. 데스크탑과 랩톱에 안전하게 분산할 수 있는, 보안된, 자동 업데이트된 앱을 편리하게 배포할 방법이 절실합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 10년 전에는 이 기사를 쓴다고 사형당했을 겁니다. 지금에도 약간의 불만소리가 예상되지만, 최근에는 웹을 비판하는 것이 사회적으로 수용되는 것이 되었습니다. 그때는 웹이 Flash, Shockwave 및 Java와 같은 다른 독점적 플랫폼과 경쟁하고 있었습니다. 웹은 열려 있었지만 경쟁 플랫폼으로의 생존은 분명하지 않았습니다. 그러나 최종적으로 부활하고 승리하는 이야기는 우리 모두의 감정을 자극하는 계산된 이야기입니다: 열린 것이 폐쇄된 것보다 낫고, 집단 소유권이 독점보다 낫고, 다윗이 골리앗을 이길 수 있다는 것 등입니다. 많은 프로그래머들은 그것에 대해 족속적 충성심을 느끼게 되었습니다. "웹"이라는 단어 앞에 붙이면 급증이었습니다. 매크로미디어 플래시가 실제로 좋을지도 모른다고 제안하면 당신의 게크 카드가 취소될 겁니다.
 

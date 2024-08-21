@@ -3,17 +3,13 @@ title: "Nextjs를 사용하여 드래그 앤 드롭 파일 업로더 만들기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Building a Drag-and-Drop File Uploader with Nextjs"
 link: "https://medium.com/@codewithmarish/building-a-drag-and-drop-file-uploader-with-next-js-1cfaf504f8ea"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/Building-a-Drag-and-Drop-File-Uploader-with-Next.js_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 먼저 Next.js 프로젝트를 설정해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npx create-next-app@latest
@@ -35,7 +42,18 @@ src/components 폴더 안에 file_upload.tsx 파일을 생성합시다.
 
 Imports and Setup:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - React에서 useState를 가져와서 시작합니다. 이 후크를 사용하면 컴포넌트의 상태를 관리할 수 있습니다.
 - file: 이 상태 변수는 업로드된 파일의 URL을 저장합니다 (처음에는 비어 있음).
@@ -56,7 +74,18 @@ export const FileUpload = () => {
 
 ## 드래그/드롭 컨테이너 및 입력:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컨테이너에는 파일의 드래그 앤 드롭 이벤트를 처리하기 위한 다음과 같은 이벤트가 있습니다.
 
@@ -68,7 +97,18 @@ export const FileUpload = () => {
 
 2. onDragLeave 및 onDragEnd:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - onDragLeave은 드래그된 항목이 드롭 영역을 떠날 때 트리거되며, onDragEnd는 드래그 작업이 취소될 때 트리거됩니다 (예: Escape 키를 눌러 작업을 취소할 때).
 - 두 이벤트 모두 fileEnter를 false로 설정하여 더 이상 파일이 드롭 영역 위에 끌려가고 있지 않음을 나타냅니다.
@@ -85,7 +125,18 @@ export const FileUpload = () => {
 
 4. JSX:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - fileEnter 값에 따라 드래그/드롭 컨테이너 div의 테두리를 동적으로 조정합니다.
 - label과 input 요소는 사용자가 클릭하여 수동으로 파일을 업로드할 수 있는 대체 방법을 제공합니다. label은 사용자가 클릭하여 파일을 업로드하도록 시각적으로 표시하고 지시하는 역할을 합니다.
@@ -156,7 +207,18 @@ export const FileUpload = () => {
 
 최종 코드
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 "use client";

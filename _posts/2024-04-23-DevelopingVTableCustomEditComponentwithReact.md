@@ -3,17 +3,13 @@ title: "React로 개발하는 VTable 사용자 정의 편집 컴포넌트"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Developing VTable Custom Edit Component with React"
 link: "https://medium.com/@xuanhun9/developing-vtable-custom-edit-component-with-react-70e412a5b417"
 isUpdated: true
 ---
-
-
-
-
 
 이 기사의 내용은 @VisActor/VTable 사용자 인터뷰를 기반으로 합니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이 문제를 해결하고 사용자 주석 효율성을 향상시키고 오프라인 Feishu 양식에 대한 의존성을 줄이기 위해 우리 플랫폼은 VTable 비주얼 편집 솔루션을 채택했습니다. 이 솔루션을 통해 사용자들은 우리 시스템의 테이블 양식에서 데이터를 직접 편집할 수 있어서 직접적인 데이터 저장, 역사적 기록 저장 및 기타 기능이 가능해졌습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 VTable 편집기 인터페이스와 관련 이벤트 리스너를 통해 HTML 또는 React/Vue 구성 요소를 통합하여 편집 기능을 확장하는 것이 쉽습니다. 이 문서는 예제를 통해 범용적인 솔루션을 보여줍니다.
 
@@ -33,7 +40,18 @@ VTable은 ByteDance에 의해 출시된 VisActor 오픈 소스 시각화 솔루�
 
 1. 공식 웹사이트: https://www.visactor.io/vtable
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 2. Github: https://github.com/VisActor/VTable
 
@@ -43,7 +61,18 @@ VTable은 ByteDance에 의해 출시된 VisActor 오픈 소스 시각화 솔루�
 
 VTable은 현재 두 가지 주요 편집 기능을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 셀 편집
 - 데이터 채우기
@@ -54,7 +83,18 @@ VTable은 현재 두 가지 주요 편집 기능을 제공합니다.
 
 셀 편집은 @visactor/vtable-editors 구성 요소를 기반으로 합니다. 이 글은 주로 @visactor/vtable-editors 구성 요소를 기반으로 한 사용자 정의 테이블 편집 기능을 소개합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # @visactor/vtable-editors
 
@@ -64,7 +104,18 @@ VTable은 현재 두 가지 주요 편집 기능을 제공합니다.
 
 VTable을 설치하려면:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // npm을 사용하여 설치
@@ -84,15 +135,22 @@ yarn add @visactor/vtable-editors
 
 코드에서 필요한 유형의 편집기 모듈을 가져와서 사용하세요(구현을 사용자 정의하거나 vtable-editors 패키지의 편집기 클래스를 참조할 수 있습니다):
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // vtable-editors에서 제공하는 에디터 클래스 가져오기
-import {
-  DateInputEditor,
-  InputEditor,
-  ListEditor,
-} from "@visactor/vtable-editors";
+import { DateInputEditor, InputEditor, ListEditor } from "@visactor/vtable-editors";
 ```
 
 다음으로 사용해야 할 에디터 인스턴스를 만들어 보세요:
@@ -105,7 +163,18 @@ const listEditor = new ListEditor({ values: ["女", "男"] });
 
 위 예제에서는 텍스트 입력 상자 에디터(InputEditor), 날짜 선택기 에디터(DateInputEditor), 그리고 드롭다운 목록 에디터(ListEditor)를 생성했습니다. 실제 필요에 따라 적절한 에디터 유형을 선택할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만든 편집기 인스턴스를 사용하려면 VTable에 등록해야 합니다.
 
@@ -134,7 +203,18 @@ columns: [
 ]
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 사용자들은 셀을 더블 클릭하여 편집을 시작하고, 그 후 편집기를 선택하여 입력할 수 있습니다.
 
@@ -144,7 +224,18 @@ columns: [
 
 VTable-editors 라이브러리에서 제공하는 몇 가지 에디터가 필요에 부합하지 않는 경우, 에디터를 사용자 지정할 수 있습니다. 이를 위해 클래스를 만들고, 에디터 인터페이스(IEditor)의 요구 사항을 구현하고 필요한 메서드와 로직을 제공해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 편집기와 VTable 간의 관계를 이해하려면 다음 플로차트를 결합해 보세요:
 
@@ -154,7 +245,18 @@ VTable-editors 라이브러리에서 제공하는 몇 가지 에디터가 필요
 
 IEditor 인터페이스는 다음과 같이 정의됩니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 export interface IEditor<V = any> {
@@ -205,7 +307,18 @@ export interface EditContext<V = any> {
 
 우리의 목표는 React 캐스케이딩 컴포넌트 Cascader를 정의하여, 이 컴포넌트를 통해 편집 상호작용을 수행하고 결과를 VTable에 업데이트하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 편의를 위해 arco-design의 Cascader 구성 요소를 직접 사용합니다. 다른 React 구성 요소의 통합 방법도 비슷합니다.
 
@@ -215,7 +328,18 @@ export interface EditContext<V = any> {
 
 먼저 필요한 구성 요소와 관련 정의를 가져와서, @visactor/vtable-editors에서 IEditor 인터페이스 정의를 가져옵니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { Cascader } from "@arco-design/web-react";
@@ -290,7 +414,18 @@ export class CascaderEditor extends IEditor{
 
 사용자가 상호 작용을 통해 편집 상태를 트리거하면, VTable은 onStart 메서드를 호출합니다. onStart 메서드에서 React 컴포넌트를 초기화하고 editorContext를 사용하여 셀의 위치를 가져와 컴포넌트를 위치시킵니다. onStart 메서드는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /**
@@ -334,7 +469,18 @@ onStart 메서드는 먼저 getCascaderOptions 메서드를 호출하여 구성 
 
 그런 다음 findValuesAndParents 메서드를 호출하여 사용자가 구성 요소에서 선택한 값을 반환합니다. findValuesAndParents 메서드의 구현은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /**
@@ -404,7 +550,18 @@ onStart 메서드는 먼저 getCascaderOptions 메서드를 호출하여 구성 
   }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 시점에서 리액트 컴포넌트가 표시되었으며 setValue 메서드를 통해 VTable의 값을 업데이트합니다. setValue의 구현은 다음과 같습니다:
 
@@ -439,7 +596,18 @@ adjustPosition 메서드를 호출하여 구성 요소의 위치를 조정합니
   }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 VTable이 자동으로 편집 모드를 종료하려면 구성 요소 내부에서 마우스 클릭이 발생했는지를 결정하는 isEditorElement 메서드를 제공해야 합니다. 구현은 다음과 같습니다:
 
@@ -468,7 +636,18 @@ VTable이 자동으로 편집 모드를 종료하려면 구성 요소 내부에�
   }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 에디터 등록 및 사용하기
 
@@ -476,17 +655,23 @@ VTable이 자동으로 편집 모드를 종료하려면 구성 요소 내부에�
 
 ```js
 // 사용자 정의 에디터 클래스
-import {
-  CascaderEditor,
-  InputNumberEditor,
-  SelectEditor,
-  TextAreaEditor,
-} from "@/client/components/TableEditor";
+import { CascaderEditor, InputNumberEditor, SelectEditor, TextAreaEditor } from "@/client/components/TableEditor";
 ```
 
 에디터를 사용하기 전에 VTable에 에디터 인스턴스를 등록해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 예제에서는 dataTable?.datasetQueryDataList?.columns를 인터페이스에 따라 반환하고 현재 사용자가 클릭한 셀 데이터인 clickedCellValue를 설정하여 사용자 정의 CascaderEditor의 매개변수를 설정한 다음, 에디터를 초기화한 후 등록하고 사용했습니다. 위의 VTable?.register?.editor('cascader-editor', cascaderEditor)입니다.
 
@@ -541,7 +726,18 @@ const buildTableColumns = useCallback(
 );
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 수정 이벤트 듣기
 
@@ -556,7 +752,18 @@ tableInstance.on("change_cell_value", () => {
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 수정 후 데이터 획득
 
@@ -569,7 +776,18 @@ tableInstance.records;
 
 ## 전체 코드
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 전체 코드:
 
@@ -579,7 +797,18 @@ https://visactor.io/vtable/demo-react/functional-components/arco-select-editor
 
 셀을 두 번 클릭하여 편집 모드로 진입합니다. 아래와 같이 표시됩니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1400/1*XusAGfv7-IzHOvGamRa88w.gif)
 
@@ -589,7 +818,18 @@ VTable은 React-VTable 컴포넌트도 제공합니다. 팝업 형태의 React �
 
 # 테이블 요구사항과 실제 시나리오 모음
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 실용적 시나리오의 비즈니스 파티가 VisActor로부터 아름다운 선물을 받았어요.
 
@@ -599,7 +839,18 @@ VTable은 React-VTable 컴포넌트도 제공합니다. 팝업 형태의 React �
 
 디스코드: https://discord.gg/3wPyxVyH6m
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 트위터: https://twitter.com/xuanhun1
 
@@ -609,7 +860,18 @@ VisActor 공식 웹사이트: www.visactor.io/
 
 깃허브: https://github.com/VisActor/VTable
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/DevelopingVTableCustomEditComponentwithReact_7.png" />
 

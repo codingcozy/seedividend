@@ -3,17 +3,13 @@ title: "JavaScript Promise 제대로 이해하고 넘어가자"
 description: ""
 coverImage: "/assets/img/2024-05-17-JavaScriptPromisesDemystifiedTheOnlyGuideYoullNeedPart1_0.png"
 date: 2024-05-17 03:20
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-17-JavaScriptPromisesDemystifiedTheOnlyGuideYoullNeedPart1_0.png
 tag: Tech
 originalTitle: "JavaScript Promises Demystified: The Only Guide You’ll Need : Part 1"
 link: "https://medium.com/@shubhritik/javascript-promises-demystified-the-only-guide-youll-need-part-1-a835910d8045"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-05-17-JavaScriptPromisesDemystifiedTheOnlyGuideYoullNeedPart1_0.png)
 
@@ -23,8 +19,18 @@ MDN 웹 문서에는 다음과 같이 설명되어 있습니다:
 
 '프로미스 객체는 비동기 작업의 최종 완료(또는 실패)와 그 결과 값의 대기 시간을 나타냅니다.'
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 상기 문장을 더 잘 이해하기 위해 두 친구의 예를 들어보겠습니다. 첫 번째 친구가 두 번째 친구에게 돈을 빌려주고, 두 번째 친구는 한 달 후에 돈을 돌려줄 것을 약속합니다. 이제 두 가지 경우의 수가 있습니다. 두 번째 친구가 약속대로 돈을 돌려주거나, 두 번째 친구가 돈을 돌려주기를 거절할 수 있습니다.
 
@@ -36,7 +42,18 @@ MDN 웹 문서에는 다음과 같이 설명되어 있습니다:
 - fulfilled: 작업이 성공적으로 완료된 상태.
 - rejected: 작업이 실패한 상태.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 약속을 어떻게 만들 수 있는지 살펴봅시다.
 
@@ -44,13 +61,13 @@ MDN 웹 문서에는 다음과 같이 설명되어 있습니다:
 const myPromise = new Promise((resolve, reject) => {
   let a = true; // 여기서 일반적으로 일부 외부 호출을 수행합니다.
   if (a) {
-      setTimeout(() => {
+    setTimeout(() => {
       resolve("foo");
     }, 1000);
   } else {
     setTimeout(() => {
-        reject("foo");
-      }, 1000);
+      reject("foo");
+    }, 1000);
   }
 });
 ```
@@ -59,7 +76,18 @@ const myPromise = new Promise((resolve, reject) => {
 
 약속에 대해 추가 조치를 취하려면 연결된 세 가지 메서드가 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - then: 이 방법은 성공적인 처리의 응답을 받기 위해 프로미스에서 사용됩니다.
 - catch: 이 방법은 거절된 경우 프로미스에서 오류를 받기 위해 사용됩니다.
@@ -69,20 +97,31 @@ const myPromise = new Promise((resolve, reject) => {
 
 ```js
 myPromise
- .then((response) => {
-   // 성공한 경우에 대한 작업 수행
+  .then((response) => {
+    // 성공한 경우에 대한 작업 수행
   })
   .catch((error) => {
-   // 거절된 경우에 대한 작업 수행
+    // 거절된 경우에 대한 작업 수행
   })
   .finally(() => {
-   // 각각의 작업 후에 수행할 작업 수행
-  })
+    // 각각의 작업 후에 수행할 작업 수행
+  });
 ```
 
 이제 프로미스가 더 이상 시작할 때보다 훨씬 더 의미가 있길 바랍니다. 다가오는 블로그에서 여러 프로미스를 호출하고 그러한 상황을 처리하는 방법, 콜백 지옥이 뭔지 그리고 어떻게 벗어날 수 있는지, 여러 프로미스를 처리하는 데 사용할 수 있는 방법 등을 알아볼 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 블로그 시리즈를 마치면 약속을 사용하는 데 훨씬 더 편안해지고 무엇이 일어나고 있는지 깊이 이해할 수 있을 거예요.
 

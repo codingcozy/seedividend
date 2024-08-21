@@ -3,17 +3,13 @@ title: "프론트엔드 개발자가 알아야 하는 커스텀 React Hooks 4가
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "4 Custom React Hooks Every Developer Should Know"
 link: "https://medium.com/@fatfish/4-custom-react-hooks-every-developer-should-know-c61f644bbc3e"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/4CustomReactHooksEveryDeveloperShouldKnow_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 1. useMount
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 과거에는 이 스타일의 코드를 자주 작성했었고, 컴포넌트가 처음 렌더링될 때 요청을 보내거나 다른 로직을 수행해야 했던 것 같아요.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 소스 코드
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예제
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 ## 2. useUnmount
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컴포넌트가 언마운트되어 로직을 트리거하려고 할 때 타이머를 지우는 것과 같은 코드를 작성해야 합니다:
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 소스 코드
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 정말 이렇게 간단한 거예요? 사용 방법을 살펴보죠.
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 이것은 useEffect 내에서의 클로저 메커니즘 때문에 발생합니다. 컴포넌트가 처음 렌더링될 때 언로드될 때 전달된 함수의 경우, 실시간 상태를 얻기 위해 useRef를 사용해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/1*S-by-qxpu8yNEY8EF7fPCw.gif" />
 
@@ -73,7 +124,18 @@ isUpdated: true
 
 때로는 의존성이 변경된 후에만 논리 코드를 실행하고 싶을 때가 있습니다. 우리가 이렇게 작성하면 목표를 달성할 수 있을까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](https://miro.medium.com/v2/resize:fit:1400/1*eB5VHSFHOS77OqJ9HccwnA.gif)
 
@@ -83,7 +145,18 @@ isUpdated: true
 
 좋아요, 이게 정말 유용한 훅입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 4. useSetState
 
@@ -93,7 +166,18 @@ setPerson 작업을 간단하게 만들기 위해 useSetState 훅을 구현할 �
 
 예시
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/1*ohXLRMzWWrp1WbKcqv0_lg.gif" />
 

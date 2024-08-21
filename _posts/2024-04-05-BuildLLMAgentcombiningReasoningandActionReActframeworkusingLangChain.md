@@ -3,17 +3,13 @@ title: "Reasoning과 Action ReAct 프레임워크를 결합한 LLM Agent를 Lang
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Build LLM Agent combining Reasoning and Action ReAct framework using LangChain"
 link: "https://medium.com/@jainashish.079/build-llm-agent-combining-reasoning-and-action-react-framework-using-langchain-379a89a7e881"
 isUpdated: true
 ---
-
-
-
-
 
 <table>
   <tr>
@@ -30,7 +26,18 @@ isUpdated: true
 
 # Chain-of-Thought Prompting
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Chain of thought prompting은 복잡한 산술, 상식, 및 상징적 추론 작업을 해결할 수 있게 해줍니다. 아래 이미지를 확인해보세요.
 
@@ -40,7 +47,18 @@ Chain of thought prompting은 복잡한 산술, 상식, 및 상징적 추론 작
 
 대부분의 응용 프로그램에서는 LLM이 추론을 수행하는 것뿐만 아니라 추론 단계에서 여러 외부 데이터 소스 및 응용프로그램을 호출해야하는 경우가 있습니다. 이러한 추론 단계를 계획하고 실행할 수 있는 기술 또는 프레임워크 중 하나를 소개합니다. 이를 ReAct(Reasoning and actions)라고 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # ReAct
 
@@ -50,7 +68,18 @@ ReAct은 LLMs가 추론을 수행하고 과제별 조치를 취할 수 있는 �
 
 ![다이어그램](/assets/img/BuildLLMAgentcombiningReasoningandActionReActframeworkusingLangChain_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ReAct 프레임워크에서 LLM은 LLM의 질문 프롬프트 텍스트 앞에 추가된 일련의 지시 사항에 의해 정의된 한정된 수의 작업을 선택할 수 있습니다.
 
@@ -62,7 +91,18 @@ ReAct 프레임워크에서 LLM은 LLM의 질문 프롬프트 텍스트 앞에 �
 
 예를 통해 이해해보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 질문: 아미타브 바찬과 샤룩 칸이 공통으로 가지고 있는 직업은 무엇인가요?
 
@@ -72,7 +112,18 @@ ReAct 프레임워크에서 LLM은 LLM의 질문 프롬프트 텍스트 앞에 �
 
 ![이미지](/assets/img/BuildLLMAgentcombiningReasoningandActionReActframeworkusingLangChain_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # ReAct 실행 흐름
 
@@ -82,7 +133,18 @@ ReAct 프레임워크에서 LLM은 LLM의 질문 프롬프트 텍스트 앞에 �
 
 동작1: [아미타브 바첸]을 검색합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 작업으로 Amitabh Bachchan와 관련된 내용을 가져오기 위해 Wikipedia API를 호출할 것입니다.
 
@@ -92,7 +154,18 @@ ReAct 프레임워크에서 LLM은 LLM의 질문 프롬프트 텍스트 앞에 �
 
 생각2 Amitabh Bachchan의 직업은 배우, 영화 프로듀서, TV 호스트입니다. 그 다음으로 Shahrukh Khan을 찾아 그의 직업을 찾아봐야겠네요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 행동2: [Shahrukh Khan]을 검색합니다.
 
@@ -102,7 +175,18 @@ ReAct 프레임워크에서 LLM은 LLM의 질문 프롬프트 텍스트 앞에 �
 
 행동3: [배우와 영화 프로듀서]로 완료합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막 답변 - 배우이자 영화 프로듀서.
 
@@ -112,7 +196,18 @@ ReAct 프레임워크는 LLM을 활용하여 추론 및 행동 계획을 통해 
 
 이제 일들을 해보겠습니다. 다행히도, 이미 우리를 돕는 각종 응용 프로그램 개발을 위한 오픈 소스 프레임워크가 있습니다. 그중 하나가 Langchain입니다. LangChain 프레임워크는 LLM과 작업하기 위해 필요한 구성 요소를 포함하는 모듈식 조각들을 제공합니다. 이러한 구성 요소에는 다양한 사용 사례를 위한 프롬프트 템플릿뿐만 아니라 외부 데이터 세트 및 다양한 API에 대한 호출을 포함한 다양한 작업을 실행할 수 있도록 하는 미리 제작된 도구도 포함되어 있습니다. 이러한 개별 구성 요소를 선택하여 연결하면 체인이 형성됩니다. LangChain에는 또 다른 개념인 '에이전트'가 있습니다. 사용자 입력을 해석하고 작업을 완료하기 위해 어떤 도구 또는 도구를 사용해야 하는지 결정하는 데 사용할 수 있는 요소입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 좋은 소식은 Langchain에 현재 ReAct 에이전트가 포함되어 있다는 것입니다.
 
@@ -122,7 +217,18 @@ ReAct 프레임워크는 LLM을 활용하여 추론 및 행동 계획을 통해 
 
 1-) OPENAI는 API를 사용할 때 요금을 청구합니다. 더 많은 세부 정보를 여기서 찾을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2-) 당신이 OPENAI API와 Wikipedia API에 접근할 수 있는 인터넷 연결도 필요합니다.
 
@@ -136,7 +242,18 @@ pip install wikipedia
 
 그럼, 어플리케이션을 만들기 시작해봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1-) 먼저 환경 변수에서 키를로드하고 openai에 설정해야 합니다. OPENAI에 등록하면이 키를 얻을 수 있습니다.
 
@@ -150,7 +267,18 @@ openai.api_key = os.getenv('OPENAI_API_KEY')
 
 DocStore Explorer Agent는 문서 저장 시스템(예: Wikipedia)과 상호 작용하여 두 가지 특정 도구 인 검색 도구와 조회 도구를 사용합니다. 검색 도구는 문서를 찾는 데 책임이 있고, 조회 도구는 가장 최근에 발견된 문서에서 용어를 검색합니다. 이 문서 저장소를 Wikipedia로 초기화할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 from langchain.agents.react.base import DocstoreExplorer
@@ -178,7 +306,18 @@ tools = [
 
 4. 애플리케이션에 LLM으로 GPT-4 모델을 사용합시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 from langchain.chat_models import ChatOpenAI
@@ -194,7 +333,18 @@ react = initialize_agent(tools, llm, agent=AgentType.REACT_DOCSTORE, verbose=Tru
 
 6-) 우리의 ReAct 에이전트에 질문을 전달할 수 있습니다. 배경에서, 에이전트는 OPENAI 모델과 상호 작용하는 API를 사용하여 작업을 수행합니다. 또한 모델에 도구 정보(함수 설명)를 추가 인수로 전달합니다(OPENAI의 경우 OPENAI 함수라고 함)와 프롬프트와 함께. 모델이 검색 또는 조회 작업을 수행해야 하는 경우 함수 설명과 함수 인수(있는 경우)를 에이전트에 반환합니다. 그런 다음 에이전트는 해당 도구를 사용하여 해당 함수를 호출하고 그 정보를 다시 모델에 전달합니다. 이러한 과정은 상기와 같이 반복적으로 수행됩니다. 모든 이러한 마법은 에이전트가 우리를 대신해 해 줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 질문 = "아미타브 박첸과 샤룩 칸이 공통으로 가진 직종은 무엇인가요?";
@@ -209,7 +359,18 @@ Langchain이 생성한 로그를 통해 내부 동작을 이해할 수도 있습
 배우 및 영화 프로듀서
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 블로그를 읽어주셔서 감사합니다. ReAct를 이해하는 데 도움이 될 것을 희망합니다. 이 블로그의 소스 코드는 제 Git 저장소에서 다운로드할 수 있습니다.
 
@@ -219,7 +380,18 @@ Langchain이 생성한 로그를 통해 내부 동작을 이해할 수도 있습
 
 2-) [Deep Learning.AI - Functions Tools Agents LangChain](https://learn.deeplearning.ai/functions-tools-agents-langchain)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3-) [링크](https://www.coursera.org/learn/generative-ai-with-llms/)
 

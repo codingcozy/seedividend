@@ -3,16 +3,13 @@ title: "Angular afterRender, afterNextRender 새로운 phases API"
 description: ""
 coverImage: "/assets/img/2024-06-20-AngularafterRenderafterNextRenderNEWphasesAPI_0.png"
 date: 2024-06-20 00:28
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-AngularafterRenderafterNextRenderNEWphasesAPI_0.png
 tag: Tech
 originalTitle: "Angular afterRender , afterNextRender NEW phases API"
 link: "https://medium.com/@amosisaila/angular-afterrender-afternextrender-new-phases-api-ddf2432455e2"
 isUpdated: true
 ---
-
-
-
 
 앵귤러는 컴포넌트 상호 작용을위한 강력한 라이프사이클 후크를 제공하지만 때로는 렌더링 후에 DOM과 직접 작업해야 하는 경우가 있습니다. 이때 afterRender 및 afterNextRender가 유용합니다.
 
@@ -22,7 +19,18 @@ DOM 요소를 시각화하는 데 DOM을 사용하는 타사 차트 라이브러
 
 ## 주요 차이점
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 후크가 후처리 작업을 다루지만 중요한 차이점이 있습니다:
 
@@ -33,7 +41,18 @@ DOM 요소를 시각화하는 데 DOM을 사용하는 타사 차트 라이브러
 
 # 적절한 후크 선택하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - `afterNextRender`은 초기화 되어야 하는 타사 라이브러리를 설정하거나 엘리먼트 관찰자를 설정하는 것과 같은 일회성 DOM 조작에 사용합니다.
 - `afterRender`은 동적으로 콘텐츠에 기반하여 엘리먼트 크기를 동적으로 조정하는 것과 같이 빈번한 DOM 변경에 반응해야 할 때 사용합니다.
@@ -44,7 +63,18 @@ DOM 요소를 시각화하는 데 DOM을 사용하는 타사 차트 라이브러
 
 ![Order of Phases](/assets/img/2024-06-20-AngularafterRenderafterNextRenderNEWphasesAPI_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Angular은 렌더링 중에 제어된 DOM 액세스를 위한 구분된 단계를 정의합니다:
 
@@ -57,7 +87,18 @@ Angular은 렌더링 중에 제어된 DOM 액세스를 위한 구분된 단계�
 
 동일한 단계 내에서 등록된 콜백은 등록된 순서대로 실행됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각 렌더 주기가 끝난 후에는 콜백이 실행됩니다. 그리고 다음과 같은 특정 단계 순서를 따릅니다:
 
@@ -70,7 +111,18 @@ Angular은 렌더링 중에 제어된 DOM 액세스를 위한 구분된 단계�
 
 ![Angular Initialization](/assets/img/2024-06-20-AngularafterRenderafterNextRenderNEWphasesAPI_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 이후의 업데이트 (angular.dev에서)
 
@@ -80,7 +132,18 @@ Angular은 렌더링 중에 제어된 DOM 액세스를 위한 구분된 단계�
 
 첫 번째 단계 콜백(earlyRead)은 매개변수를 전달받지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각 후속 단계 콜백은 이전에 실행된 단계 콜백의 반환 값을 매개변수로 받습니다. 이를 통해 여러 단계에 걸쳐 작업을 조정할 수 있습니다.
 
@@ -90,7 +153,18 @@ Angular은 렌더링 중에 제어된 DOM 액세스를 위한 구분된 단계�
 
 다음은 이러한 후크를 사용하는 몇 가지 실용적인 사례들입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 써드파티 라이브러리 초기화: DOM이 준비되기 전에 Chart.js와 같은 라이브러리를 초기화하기 전에 afterNextRender를 사용해주세요.
 - 엘리먼트 감시 설정: afterNextRender를 활용하여 IntersectionObserver 또는 ResizeObserver를 설정하십시오. 이들 API는 엘리먼트가 DOM에 존재해야만 작동합니다.
@@ -106,7 +180,18 @@ Angular은 렌더링 중에 제어된 DOM 액세스를 위한 구분된 단계�
 
 이러한 개념을 이해함으로써 Angular 애플리케이션과 DOM 간에 원활한 상호 작용을 만들기 위해 afterRender 및 afterNextRender를 효과적으로 활용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 사용자 지정 Inject 함수
 
@@ -116,7 +201,18 @@ OnInit 로그인을 사용자 정의 inject 함수로 캡슐화할 수 있습니
 
 여기서 코드를 실험해볼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 https://stackblitz.com/edit/stackblitz-starters-a39kev?file=package.json
 

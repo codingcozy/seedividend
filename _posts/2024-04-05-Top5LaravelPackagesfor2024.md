@@ -3,17 +3,13 @@ title: "2024년을 위한 상위 5개의 Laravel 패키지"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Top 5 Laravel Packages for 2024"
 link: "https://medium.com/@ritik065/top-5-laravel-packages-for-2024-9d6e7faccaf3"
 isUpdated: true
 ---
-
-
-
-
 
 ## 2024년에 효율적이고 빠른 앱을 위해 반드시 알아야 할 상위 Laravel 패키지들
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ## Laravel Sanctum (인증)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어떤 애플리케이션도 안전한 사용자 인증이 필요합니다. Laravel Sanctum은 API 기반의 인증 시스템으로 쉽고 강력합니다. Sanctum은 Laravel의 사용자 및 권한 시스템과 깔끔하게 통합되어 안전한 API를 빠르고 쉽게 구축할 수 있게 해줍니다.
 
@@ -36,7 +43,18 @@ $token = $user->createToken('my-api-token');
 
 ## Livewire (실시간 상호작용)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 페이지 새로고침과 번거로운 양식을 잊어버리세요! Livewire를 사용하면 Laravel 애플리케이션에 실시간 상호 작용을 추가할 수 있습니다. 사용자가 페이지를 떠나지 않고 상호 작용하는 동안 UI를 업데이트하여 현재와 매끄러운 사용자 경험을 만들어보세요.
 
@@ -62,7 +80,18 @@ class Counter extends Component
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Laravel Maatwebsite Excel (Import & Export):
 
@@ -78,7 +107,18 @@ Excel::create('users', function ($excel) {
 })->download('xlsx');
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Laravel Spatie Queues (백그라운드 작업):
 
@@ -90,7 +130,18 @@ Excel::create('users', function ($excel) {
 Queue::push(new SendEmailJob($user, $message));
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Laravelizer (자동 API 생성)
 
@@ -104,7 +155,18 @@ Route::get("/users/{id}", function ($id) {
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 라라벨 개발자들이 API를 빠르고 효과적으로 그리고 노력을 덜 들여서 구축하고 싶다면, Laravelizer는 게임 체인저입니다. API 액세스가 필요한 모든 라라벨 프로젝트에 귀중한 도구로, 지루한 프로세스를 제거하고 코드 유지 관리를 향상시키며 일관된 문서를 제공합니다. 따라서 API 개발 프로세스를 가속화하고 시간을 절약하고 싶다면 Laravelizer를 살펴볼 가치가 있습니다.
 

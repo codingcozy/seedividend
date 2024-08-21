@@ -3,17 +3,13 @@ title: "스타일 시트 리팩터링의 기본적인 사항"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Common Sense of Style Sheets Refactoring"
 link: "https://medium.com/@bseleng/common-sense-of-style-sheets-refactoring-f901f524d0dd"
 isUpdated: true
 ---
-
-
-
-
 
 당신의 팀에게는 비교적 한적한 주가 있습니다. 다가오는 기능 요청이 없고, 마감 기한이 목도하고 있지 않으며, 제품 소유자가 전략 계획에 참여하고 있습니다. 기술부채와 관련된 문제를 처리할 수 있는 좋은 기회가 있습니다. 예를 들어, 이전 것이 폐지되기 때문에 스타일시트를 @import에서 @use 문으로 이주시키는 경우를 생각해봅시다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 여전히 여기 계시다면, 상황은 아마도 일시적으로 대부분 휴무 상태일 것입니다. 따라서 이번에 우리가 접근할 일을 좀 더 실용적으로 다루는 제 글에 다루어지는 더 많은 팁, 트릭, 현실 세계에서의 책에는 없는 결정 및 그들의 훌륭한 동기부여가 함께하기 전에 일반적인 아이디어를 공유하겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신이 "안전 기준은 피로 쓰여진다"는 말을 들어본 적이 있을 것이라고 가정해 봅니다. 우리에게는 CSS 관점에서 행동이 훨씬 더 폭력적하지 않지만 우리의 경우에는 "스타일 시트 리팩토링 규칙은 git 리셋에 쓰여 있다"라는 말로 바꿀 수 있습니다. 여기에 나의 목록이 있습니다:
 
@@ -37,7 +44,18 @@ isUpdated: true
 
 # 목표를 기억하세요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우선 무엇을 하고 있는지 절대 잊지 마세요. 결국 리팩터링하고 기술 부채를 줄이는 이야기를 하는 것이니, 개선할 여지가 있을 것이라는 것은 불가피할 거예요 (적어도 제 경우엔 많아요). 위험한 부분은 작아 보일 때 입니다. 그것들에 손대지 마세요, 정말로 절대로요.
 
@@ -51,7 +69,18 @@ isUpdated: true
 
 # 집중력을 흔들지 마세요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 집중력을 유지하는 중요성은 위의 내용을 일부 다루고 있지만, 이 조언을 따른다면 무엇을 얻게 될지 소개해 드릴게요.
 
@@ -63,7 +92,18 @@ isUpdated: true
 
 # FIND & REPLACE에 지나치게 의존하지 마세요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 음, 지금 모든 것이 잘 되고 있는 것 같아요. 당신은 코드를 한 번에 하나씩 처리하고 패턴을 완벽하게 이해하고 있어요. 우리는 결국 프로그래머니까요, 우리 아름다운 IDE를 사용해서 정규 표현식을 적용하고 자동으로 처리하면 되지 않을까요?
 
@@ -76,7 +116,18 @@ isUpdated: true
 - 이전에 추천된 것을 무시했다면, 아마 다른 변경 사항을 수행해 왔을 거에요. 그런데 다시 되돌릴 예정이라면 놓치기가 어렵습니다. 왜냐하면 실제로 좋은 변경 사항일 수 있기 때문이죠.
 - 리팩토링을 파일별로 검토한 후에 FIND & REPLACE 체크를 다양한 정규 표현식 패턴으로 실행해 주세요. 다시 한번, 우리는 완벽하지 않기 때문이에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 증가
 
@@ -87,7 +138,18 @@ isUpdated: true
 - 추가 개선 사항 및 패턴에 대해 정보를 수집하지만 그것들에 집중하지 말고, 한 번에 한 작업에 집중하십시오. 기억하시나요?
 - 무시될 가능성이 가장 높은 작은 부분을 목표로 삼으십시오. 그리고 그것들이 쉬운 부분이라고 희망하지 마십시오.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 이터레이트
 
@@ -100,7 +162,18 @@ isUpdated: true
 - 리뷰 과정에서 다른 사람들의 삶을 과도하게 복잡하게 만들지 않아서 (또는 적어도 그렇게 느끼지 않게 해서) 사람들이 다음 프로젝트를 흔들 수 있는 풀 리퀘스트에 대비할 준비가 되어 있어요.
 - 기술 부채를 실제로 줄이고 당면한 작업을 해결했어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 마무리로
 
@@ -110,6 +183,17 @@ isUpdated: true
 
 하지만, 부디 친절하게 도와주세요. 다음에 이따금 미약하고 작고 사소한 작업을 너무 기능 중심적인 개발자에게 부탁할 때, 혹은 최근에 프로젝트에 합류한 개발자에게 부탁할 때, 혹은 그냥 충분히 시니어가 아닌 경우... 이 기사를 그들에게 보내주시고 여러분의 의견을 추가해주시면, 그들이 전문가로서의 청년 시기를 힘든 방법으로 경험하지 않도록 도와주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 기억하세요, 비즈니스가 리팩터링에서 즉각적인 이익을 보지 못하더라도, 여러분은 그곳에서 돈을 조금 절약하여 프로젝트를 더 현대적이고 가독성이 좋은 상태로 만들었습니다.

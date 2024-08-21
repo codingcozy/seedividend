@@ -3,17 +3,13 @@ title: "리액트 useMemo와 useCallback을 올바르게 사용하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "A Better Way to useMemo and useCallback"
 link: "https://medium.com/better-programming/a-better-way-to-usememo-and-usecallback-58288a19f91c"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/ABetterWaytouseMemoanduseCallback_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 자세히 살펴보기 전에 원본 글을 꼭 읽기를 강력히 추천합니다. 정말 유용한 정보를 담은 훌륭한 글입니다. "반대" 주장이라고 부르기보다는 "이 정보는 좋지만..."에 더 가까운 주장입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 너무 흔한 시나리오를 함께 살펴보자. 어느 날 직장에서 일하고 있는데, 미팅이 끝났다. 티켓에 즉시 착수할 수는 없는데 또 다음 미팅이 있어서 얼마 남지 않았다. 사실 한 시간이나 남았지만, 지금 거리적으로 너무 가깝다. 바로 무언가에 집중했다가 곧 멈춰야 할 것 같지 않으려고 한다.
 
@@ -44,7 +51,18 @@ function List({items}) {
 
 지나가면서 activateItem 함수에 주석을 달았다. 함수에 useCallback으로 감싸야 한다는 작성자에게 알려주는 내용이다. 코드를 계속 훑어보며 다른 부분을 발견했다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 function Body() {
@@ -60,7 +78,18 @@ function Body() {
 
 저런.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 시나리오는 여러 차례 발생했고, 거의 매번 답변은 같은 논란을 다룹니다. 동료로부터 useMemo 및 useCallback이 이러한 경우에는 필요하지 않다는 메시지를 받는 경우가 많은데, 이는 너가 일찍 최적화하려고 한다는 것이죠. 이러한 경우의 거의 90%에서는 상기한 Kent C. Dodds의 글이 추가 독서를 위해 링크됩니다.
 
@@ -70,7 +99,18 @@ function Body() {
 
 왜 이것이 중요한가요? 간단히 말하면, useMemo 또는 useCallback에는 실제로 두 가지 기능이 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 최적화
 - 참조 동등성
@@ -81,7 +121,18 @@ function Body() {
 
 다음 예시를 살펴보세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { generate } from './utils';
@@ -104,7 +155,18 @@ function Example() {
 
 그리고 위의 글이 그것에 대한 것입니다. 최적화가 가치 있는지 이해하고 거기서 선택을 하는 것입니다. 이것은 좋은 조언입니다. 그러나 우리가 이러한 리액트 훅을 사용하기로 결정하는 선택을 하는 데 고려해야 할 두 번째 요인이 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 이 기사에서 언급되지 않은 것은 무엇일까요?
 
@@ -118,7 +180,18 @@ const objB = { test: "hi" };
 objA === objB; // false 값을 반환
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![ABetterWaytouseMemoanduseCallback_1.png](/assets/img/ABetterWaytouseMemoanduseCallback_1.png)
 
@@ -132,7 +205,18 @@ objA === objB; // true를 반환
 
 ![ABetterWaytouseMemoanduseCallback_2.png](/assets/img/ABetterWaytouseMemoanduseCallback_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 객체들은 동일하며 한 변수를 변경하면 다른 변수도 변경됩니다. 이러한 변수들은 메모리에서 동일한 곳을 가리키기 때문에 참조적으로 동일합니다. 이 유형의 동등성 확인을 사용하면 React 및 다른 많은 라이브러리에서 객체의 상태 변경을 추적하는 매우 간단하고 저렴한 방법입니다.
 
@@ -145,10 +229,7 @@ function Example() {
   const { dataOne } = useDataOne(); // 컴포넌트 초기화시에만 쿼리
   const { dataTwo } = useDataTwo(); // 컴포넌트 초기화시에만 쿼리
   const result = useMemo(() => generate(dataOne, dataTwo), [dataOne, dataTwo]);
-  const secondValue = useMemo(
-    () => data.filter((item) => item.isValid),
-    [data]
-  );
+  const secondValue = useMemo(() => data.filter((item) => item.isValid), [data]);
   return (
     <div>
       {secondValue.map((x) => (
@@ -161,7 +242,18 @@ function Example() {
 
 그러니까, 의존성 배열에 익숙하지 않다면 해당 주제에 대해 깊이 파고든 다른 블로그 포스트가 있습니다. 그런데 위 예제에서 논리 체인이 다음 단계를 따릅니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/ABetterWaytouseMemoanduseCallback_3.png)
 
@@ -172,11 +264,33 @@ function Example() {
 
 그러나 dataOne과 dataTwo가 참조를 변경하지 않는다면, 우리는 사실상 render 호출로 건너뛰어서 두 번의 계산을 건너뛸 수 있습니다. 그러나 이것이 무료거나 보장된 것은 아닙니다. 우리는 참조적 검사를 수행하여 이것이 우리가 원하는 동작인지 확인하고, 메모이제이션에 필요한 데이터를 유지 및 반환하고 있습니다. 언제든지 React가 이 메모이제이션이 저장된 메모리를 지울 수 있으므로 다시 계산될 수 있습니다. 이것이 언제 이득인지를 결정하는 것은 당신이 개발자로서 할 일입니다. 블로그에서 자세히 다루겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위치 대신에 마크다운 형식으로 표를 변경하십시오.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 💡 혹시 문자열, 부울 또는 숫자에 대해 이야기하지 않은 이유가 궁금할 수도 있습니다. 이러한 것들은 변경을 결정하는 데 참조적 동일성에 의존하지 않는 기본 유형들입니다. 7 === 7와 같이 매우 싼 등가성 확인으로 변경을 확인할 수 있기 때문입니다.
 
@@ -186,7 +300,18 @@ function Example() {
 
 useMemo 또는 useCallback이 자식 구성 요소의 다시 렌더링을 멈추는 유일한 경우는 자식 구성 요소가 React.memo 로 메모이제이션된 경우입니다 (또는 우리 부머들에게는 순수 구성 요소). 죄송합니다, React.memo는 메모이제이션의 다른 형태입니다 (메모 vs 메모이제 블로그 게시물을 읽고 싶다면 하나 더 있습니다) 약간만 논의해야 할 것이 있습니다. 코드에서 확인해 봅시다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { generate } from "./utils";
@@ -216,7 +341,18 @@ const List = React.memo(({ data }) => {
 
 그렇다면 useMemo와 useCallback을 사용하는 방법에 대한 우리의 사용 방식에 대해 어떤 의미가 있을까요? React.memo를 사용하지 않으려고 결정했으므로 최적화가 다시 렌더링을 중지하지는 않을 것입니다. 그렇다면 느린 계산을 최적화하는 용도로만 사용해야 할까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 답은 아니지만 중요한 점이 있어요. 일단 useCallback과 useMemo을 무시하지 말아야 하는 이유에 대해 최악의 시나리오를 살펴보고, 메모할 때 내가 일반적으로 따르는 절차를 마친 후에 우리가 왜 이 두 가지를 무시하지 말아야 하는지 살펴볼게요.
 
@@ -226,12 +362,7 @@ const List = React.memo(({ data }) => {
 
 ```js
 function useData() {
-  return [
-    { name: "John" },
-    { name: "Paul" },
-    { name: "Ringo" },
-    { name: "George" },
-  ];
+  return [{ name: "John" }, { name: "Paul" }, { name: "Ringo" }, { name: "George" }];
 }
 function DataModal(props) {
   const { data } = useData();
@@ -244,7 +375,18 @@ function DataModal(props) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 기본 List 컴포넌트:
 
@@ -281,17 +423,25 @@ function List(props) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 그들은 빠르게 깨닫게 됩니다 — "이것은 비용이 많이 드는 계산이군요. memoization을 적용하겠어요" 하고 const dataSet = useMemo(() =` mapToLargeDataSet(items, data), [items, data])를 추가합니다. 그러나 여기 문제가 있습니다. items 객체는 매 렌더링마다 항상 다른 객체입니다. 개발자분들이 이를 알아차리기를 바라겠지만, 이제 데이터가 각 렌더링마다 변경되는지 알아내기 위해 상위 체인을 타고 올라가야 합니다. 소규모 팀에게는 사소한 문제처럼 보일 수 있지만, 대규모 기업 팀에서는 이 문제가 당신의 팀에게 있을 수도 있고, 더 나쁜 경우에는 이 변경을 지금 제안할 수 없을 수도 있습니다. 왜냐하면 다른 팀들이 지금이 문제에 의존하는지 확신할 수 없기 때문이죠.
 
 이것은 데이터 메모이제이션 외에도 발생할 수 있습니다. 함수에 사이드 이펙트가 있는 경우를 상상해보세요:
 
 ```js
-import {
-  subscribeToExternalLibrary,
-  unsubscribeToExternalLibrary,
-} from "someplace";
+import { subscribeToExternalLibrary, unsubscribeToExternalLibrary } from "someplace";
 function Example({ onChange }) {
   useEffect(() => {
     window.addEventListener("scroll", onChange);
@@ -306,7 +456,18 @@ function Example({ onChange }) {
 
 위 예시에서는 함수를 useCallback으로 감싸지 않았기 때문에 실제로 매 렌더링마다 구독을 해제하고 다시 등록합니다. 효과가 사용되는 목적에 따라, 이것은 무한한 다시 렌더링을 유발하거나, 타사 라이브러리를 다시 초기화하게 할 수 있으며(일반적으로 이로 인해 오작동), 또는 지속적인 연결 재시도로 성능에 영향을 줄 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여러분은 아마도 이것을 보고 "이 useEffect가 추가되면 호출 함수를 useCallback으로 업데이트할 수 있다"고 생각할 수도 있습니다. 하지만 이런 생각은 피하는 편이 좋습니다. 코드베이스와 팀이 성장함에 따라 이런 유지 보수 작업은 더욱 비싸고 까다로워집니다. 더구나 몇몇 개발자가 이를 잘못된 방향으로 "의존"할 수도 있습니다. 과거 우리는 이를 지뢰를 설치한다고 언급했었습니다.
 
@@ -316,7 +477,18 @@ function Example({ onChange }) {
 
 # useCallback 또는 useMemo를 사용하는 시점
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서 문제가 우리 앞에 펼쳐졌습니다. useCallback과 useMemo를 적절히 적용해야 할 때의 흐름을 개요로 살펴보아야 합니다.
 
@@ -324,7 +496,18 @@ function Example({ onChange }) {
 
 가장 간단하게 정의하는 것이 가장 쉽습니다. 언제 useCallback을 사용해야 하는지에 대한 흐름을 분석해봅시다. 처음에는 복잡해 보일 수 있지만, 이것은 간단히 따라가기 좋은 규칙들의 집합입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주요 목표는 언제나 자신에게 이 함수를 별도 파일로 분리하거나 컴포넌트 외부에 위치시킬 수 있는지 묻는 것입니다.
 
@@ -334,7 +517,18 @@ useMemo 흐름에서 볼 때, 우리는 성능에 대해 걱정하지 않습니�
 
 # useMemo 적용에 대한 논리적 흐름
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일반적인 논리적 흐름을 살펴보고 몇 가지 주요 영역에 대해 논의해 봅시다. 유의해야 할 점은 이것이 따라야 하는 정해진 규칙이 아니라는 것입니다. 대신, 메모이제이션하기 전에 따르는 일반적인 단계에 대해 어느 정도 통찰력을 제공해야 합니다. 메모이제이션 밖에서 문제를 해결할 수 있다면 기본적으로 그 방법을 따르는 것이 좋습니다. 그러니 함께 살펴보겠습니다:
 
@@ -344,7 +538,18 @@ useMemo 흐름에서 볼 때, 우리는 성능에 대해 걱정하지 않습니�
 
 훅에서 데이터를 반환할 때 다른 개발자가 이를 어떻게 사용할 지 항상 고려해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 API를 디자인할 때 공감을 느끼며 배우는 것은 개발자가 습득할 수 있는 가장 강력한 기술 중 하나입니다.
 
@@ -354,7 +559,18 @@ API를 디자인할 때 공감을 느끼며 배우는 것은 개발자가 습득
 
 다른 컴포넌트로 props를 전달할 때 지양하는 방법은 객체를 전달하는 것입니다. 더 나은 컴포넌트 디자인으로 이를 해결할 수 있는 몇 가지 방법이 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 의심의 여지없이, 가장 확실한 해결책은 컴포넌트를 더 구성 가능하게 만드는 것입니다. 컴포넌트가 자주 단말 컴포넌트(즉, 자식 요소를 수락하지 않는)인 경우, 컴포넌트 구조를 다시 생각해야 합니다. 구성 가능한 컴포넌트를 만드는 것은 책임을 상위 컴포넌트 체인으로 넘기고 흐름을 더 쉽게 읽을 수 있게 하며, 재사용 가능한 컴포넌트를 생성하는 데 도움이 됩니다.
 - 컴포넌트 목록 내에서 결과 집합을 쿼리할 수 있나요? 이 작업은 react-query나 redux와 같은 다양한 라이브러리에서 수행할 수 있습니다.
@@ -367,7 +583,18 @@ API를 디자인할 때 공감을 느끼며 배우는 것은 개발자가 습득
 
 그는 긴 설명, 특이 케이스 및 매우 중요한 정보를 제외하여 기사를 간단하고 이해하기 쉽게 만들어야 했습니다. 사실, useMemo와 React.memo 간의 차이를 설명하려는 매우 큰 섹션으로 이 블로그를 처음에 썼습니다. 그러나 이러한 것들은 아주 강령이자 정보를 전달하는 데 잘라내어야 하는 부분입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 당연히 그것이 작동했습니다. 이 기사는 게재된 이후 거의 매달 어떤 방식으로든 나에게 연결되며, 그 이유가 좋습니다. 이 주제에 대해 약간의 지식을 제공하는 환상적인 기사입니다. 그러나 더 큰 웹 애플리케이션으로 확장할 때, 해당 결정에는 미묘한 점이 있다는 것을 이해해야 합니다. 이 결정이 어떻게 앞으로 개발자들을 반영하는지 이해해야 하며, 때로는 최적화 선택 대신 DX(Developer Experience) 선택을 해야 합니다.
 

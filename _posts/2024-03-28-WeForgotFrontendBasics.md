@@ -3,17 +3,13 @@ title: "프론트엔드 기초부터 공부하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "We Forgot Frontend Basics"
 link: "https://medium.com/stackademic/we-forgot-frontend-basics-2f9a1c4dabaa"
 isUpdated: true
 ---
-
-
-
-
 
 ## 최신 트렌드와 끝없는 패러다임 속에서, 우리는 프론트엔드 개발의 기본을 잊어버린 것 같아요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ![이미지](/assets/img/WeForgotFrontendBasics_0.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 차례
 
@@ -36,7 +43,18 @@ isUpdated: true
 
 여기에서는 가장 기본적인 Cardcomponent를 보여드립니다. 선택적인 header 속성이 있습니다. 이 속성이 있는 경우에는 특정 클래스로 감싼 div 내에 렌더링됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const Card = ({ children, header }) => {
@@ -75,7 +93,18 @@ const Card = ({ children, header }) => {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다른 분이 코드 리뷰 중에 발견한 점은 이 코드가 초기 렌더링 시에만 작동한다는 것이었습니다. 푸터가 비동기적으로 업데이트되면 useEffect가 호출되지 않을 것입니다. 긴 토론 끝에 개발자들은 MutationObserver에 주목하기로 결정했어요.
 
@@ -89,7 +118,18 @@ const Card = ({ children, header }) => {
 
 개발자들은 자신들의 작업을 과도하게 복잡하게 만드는 데 익숙해져 있어서, 기본적인 CSS의 기능조차 확인하지 않았다는 게 놀랍더라고요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 1993년의 실수들
 
@@ -99,7 +139,18 @@ const Card = ({ children, header }) => {
 
 그것은 내게 이상하게 보였고, 대체 해법을 찾기로 결심했습니다. 그리고 찾았습니다. 내가 해야 했던 일은 코드 몇 줄을 바꾸는 것뿐이었습니다...
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <html>
@@ -119,7 +170,18 @@ const Card = ({ children, header }) => {
 
 요즘 개발자들은 웹팩 플러그인 등의 현대적인 도구에 많이 의존합니다. 그들이 직접 HTML을 작성해야 할 때 바로 건너뛰는데, 그게 왜 그렇게 어려운 건지요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 악의 근원
 
@@ -129,7 +191,18 @@ const Card = ({ children, header }) => {
 
 우리가 이 "핵심적인" 최적화를 함께 살펴봅시다. 이것은 이 기사를 위해 작성한 가상의 코드가 아닙니다. 이것은 실제로 제 프로젝트 중 하나에서 발췌한 코드입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const loaded = useMemo(() => {
@@ -144,7 +217,18 @@ const loaded = useMemo(() => {
 
 # 몇 가지 중요한 팁들
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 상황은 정말 슬픈 일 같아요. 개발자들은 새로운 기술과 방법들 사이에 기본 기술을 잊어버리고 비판적 사고력을 잃어가고 있는 것 같아요.
 
@@ -157,8 +241,30 @@ const loaded = useMemo(() => {
 
 읽어 주셔서 감사해요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희 글을 유용하게 활용하셨기를 바랍니다. 궁금한 사항이나 제안 사항이 있으시면 언제든 댓글을 남겨주세요. 여러분의 피드백은 제가 더 나아질 수 있도록 돕습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

@@ -3,16 +3,13 @@ title: "Nestjs 오류 처리"
 description: ""
 coverImage: "/assets/img/2024-06-19-NestjsErrorHandling_0.png"
 date: 2024-06-19 23:16
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-NestjsErrorHandling_0.png
 tag: Tech
 originalTitle: "Nest.js Error Handling"
 link: "https://medium.com/@zigbalthazar/nest-js-error-handling-592cde1a56cc"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-06-19-NestjsErrorHandling_0.png" />
 
@@ -22,7 +19,18 @@ NestJs는 백엔드 시스템을 개발하는 데 사용되는 프레임워크�
 
 # 2. 오류 처리 전략
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 에러 유형
 
@@ -35,7 +43,18 @@ NestJs는 백엔드 시스템을 개발하는 데 사용되는 프레임워크�
 
 언급된 모든 종류의 에러에 특히 주의해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 특정 오류, 예를 들어 유효성 검사 오류와 같은 경우 적절한 응답이나 상태 코드로 처리할 수 있습니다. 그러나 일반 오류와 같은 다른 종류의 오류의 경우, 유지보수자에게 알리거나 높은 우선순위로 티켓을 생성하는 등의 추가 조치가 필요할 수 있습니다. 또 다른 오류 유형인 데이터베이스 오류는 복구와 복원 논리가 필요할 수 있습니다.
 
@@ -46,13 +65,24 @@ NestJs는 백엔드 시스템을 개발하는 데 사용되는 프레임워크�
 - 요청 계층
 - 인터셉터
 - 가드
-- 컨트롤러 계층(*)
+- 컨트롤러 계층(\*)
 - 서비스 계층
 - 모델
 - 데이터베이스
 - 예외 처리 계층
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컨트롤러 레이어 아래의 모든 레이어에서 오류가 발생하면 상위 레이어로 throw해야 합니다. 예를 들어:
 
@@ -73,7 +103,18 @@ async sampleFucntion(@AuthenticatedUser() jwtPayload: JwtDto) {
 
 언급한 모든 오류는 상위 레이어로 throw되어야 하며, throw된 오류를 받은 해당 레이어도 Controller 레이어가 `try-catch` 블록에서 오류를 받게 될 때까지 throw해야 합니다. 그런 다음 Controller 레이어는 잡힌 오류를 utils 모듈이나 errors 모듈에 포함된 `ErrorHandler` 함수로 전달해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 오류 처리기 함수
 
@@ -97,23 +138,34 @@ handleError(error, jwt: JwtDto, additionalInfo: any, description: string): void 
 
 유형을 감지한 후, 각 오류 유형에 적합한 매개변수로 오류 유형을 생성하고 해당 오류를 throw해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 샘플 Exception 클래스:
 
 ```js
 export class DatabaseException extends Error {
-    queryParams: any
-    description: any
-    stack:any
-    message : string
-    constructor(message: string,error: Error, q: any, description?: string) {
-        super(`데이터베이스 오류가 발생했습니다: ${message}`)
-        this.queryParams = q
-        this.description = description
-        this.stack = error.stack
-        this.message = error.message
-    }
+  queryParams: any;
+  description: any;
+  stack: any;
+  message: string;
+  constructor(message: string, error: Error, q: any, description?: string) {
+    super(`데이터베이스 오류가 발생했습니다: ${message}`);
+    this.queryParams = q;
+    this.description = description;
+    this.stack = error.stack;
+    this.message = error.message;
+  }
 }
 ```
 
@@ -121,30 +173,41 @@ export class DatabaseException extends Error {
 
 ```js
 providers: [
-    {
-        provide: APP_FILTER,
-        useClass: GenericExceptionFilter,
-    },
-    {
-        provide: APP_FILTER,
-        useClass: checkingExceptionFilter,
-    },
-    {
-        provide: APP_FILTER,
-        useClass: DatabaseExceptionFilter,
-    },
-    {
-        provide: APP_FILTER,
-        useClass: StripeExceptionFilter,
-    },
-    AppService,
-    UtilsService,
-    JwtService,
-    LoggerService,
-]
+  {
+    provide: APP_FILTER,
+    useClass: GenericExceptionFilter,
+  },
+  {
+    provide: APP_FILTER,
+    useClass: checkingExceptionFilter,
+  },
+  {
+    provide: APP_FILTER,
+    useClass: DatabaseExceptionFilter,
+  },
+  {
+    provide: APP_FILTER,
+    useClass: StripeExceptionFilter,
+  },
+  AppService,
+  UtilsService,
+  JwtService,
+  LoggerService,
+];
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예외 필터에서는 이제 이러한 오류 중 하나에 완벽하게 대응해야 합니다:
 다음 조건을 고려해 주세요:
@@ -156,12 +219,23 @@ providers: [
 
 ```js
 // database.filter.ts
-import { ArgumentsHost, Catch, ExceptionFilter } from '@nestjs/common'
-import { LoggerService } from '../../../../logger/logger.service'
-import { GenericException } from './generic.exception'
+import { ArgumentsHost, Catch, ExceptionFilter } from "@nestjs/common";
+import { LoggerService } from "../../../../logger/logger.service";
+import { GenericException } from "./generic.exception";
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 @Catch(GenericException)
@@ -193,25 +267,36 @@ this.loggerService.error(exception.message, errorData)
 
 일반적인 오류(외부 라이브러리 또는 유효성 검사 오류)에 대한 것입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-import { ArgumentsHost, Catch, ExceptionFilter } from '@nestjs/common'
-import { CheckingException } from './checking.exception'
+import { ArgumentsHost, Catch, ExceptionFilter } from "@nestjs/common";
+import { CheckingException } from "./checking.exception";
 ```
 
 ```js
 @Catch(CheckingException)
 export class checkingExceptionFilter implements ExceptionFilter {
-    catch(exception: CheckingException, host: ArgumentsHost) {
-        const ctx = host.switchToHttp()
-        const response = ctx.getResponse()
-        response.status(exception.statusCode).json({
-            statusCode: exception.statusCode,
-            message: exception.messageData,
-            error: exception.message,
-        })
-    }
+  catch(exception: CheckingException, host: ArgumentsHost) {
+    const ctx = host.switchToHttp();
+    const response = ctx.getResponse();
+    response.status(exception.statusCode).json({
+      statusCode: exception.statusCode,
+      message: exception.messageData,
+      error: exception.message,
+    });
+  }
 }
 ```
 
@@ -219,8 +304,18 @@ export class checkingExceptionFilter implements ExceptionFilter {
 
 더 나은 오류 처리를 위해 몇 가지 도구를 사용할 수 있습니다:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Sentry
 - Raygun
@@ -233,7 +328,18 @@ export class checkingExceptionFilter implements ExceptionFilter {
 
 Raygun은 개발자가 애플리케이션에서 문제를 식별하고 전체 소프트웨어 품질을 향상시키는 종합 오류, 충돌 및 성능 모니터링 솔루션입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```typescript
 async createUser(createUserDto: CreateUserDto): Promise<User> {
@@ -251,7 +357,18 @@ async createUser(createUserDto: CreateUserDto): Promise<User> {
 
 Raygun 대시보드
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Raygun 대시 보드에 액세스하여 자세한 오류 보고서를 확인하고 응용 프로그램 성능을 추적하며 중요한 문제에 대한 경보 및 알림을 설정할 수 있습니다.
 

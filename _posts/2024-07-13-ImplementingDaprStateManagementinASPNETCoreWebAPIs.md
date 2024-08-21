@@ -3,16 +3,13 @@ title: "ASPNET Core 웹 API에서 Dapr 상태 관리를 구현하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-13-ImplementingDaprStateManagementinASPNETCoreWebAPIs_0.png"
 date: 2024-07-13 01:52
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-ImplementingDaprStateManagementinASPNETCoreWebAPIs_0.png
 tag: Tech
 originalTitle: "Implementing Dapr State Management in ASP.NET Core Web APIs"
 link: "https://medium.com/gitconnected/implementing-dapr-state-management-in-asp-net-core-web-apis-6878c95bdf10"
 isUpdated: true
 ---
-
-
-
 
 여행 중이신 분을 위한 팁을 공유합니다! 😊
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 이 기사에서는 Dapr에서 상태 관리가 무엇인지, .NET ASP.NET Core Web API에서 어떻게 구현할 수 있는지에 대해 설명하겠습니다. 그런 다음 상태 관리 구성 요소를 구성하고 API를 테스트하여 실제 작동 방식을 확인해보겠습니다. ✈️
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 글에서 사용할 전체 샘플을 보려면 제 GitHub에서 확인해주세요!
 
@@ -32,7 +40,18 @@ Dapr에는 응용 프로그램이 상태 저장소에서 키/값 쌍을 저장, 
 
 Dapr의 플러그 가능한 컴포넌트 기능 덕분에 데이터 저장소를 컴포넌트로 모델링하여 코드 변경 없이 다른 데이터 저장소를 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 상태 관리는 응용 프로그램이 필요로 하는 데이터 일관성 수준을 선택할 수 있는 옵션을 제공하며 동시성을 처리하기 위해 낙관적 동시성 제어를 제공합니다. 기본적으로 Dapr은 최종 일관성 및 마지막 쓰기가 승리하는 동시성을 사용하지만 이러한 설정을 데이터 저장소의 요구 사항에 맞게 구성할 수 있습니다.
 
@@ -42,7 +61,18 @@ Dapr의 상태 관리에는 더 많은 기능이 있으므로 전체 내용을 �
 
 # .NET 7에서 Dapr 구성하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 상태 관리가 어떻게 작동하는지 확인해보기 위해 ASP.NET Web API를 구축해보겠습니다. 이 API는 책 목록을 처리하는 기능을 담당할 것입니다. 우리의 책 모델은 간단하게 유지하고, API 코드에서 상태 저장소와 상호 작용하기 위해 필요한 API에 중점을 둘 것입니다.
 
@@ -54,7 +84,18 @@ ASP.NET Core Web API에서 Dapr를 사용하려면 Dapr.AspNetCore 패키지를 
 dotnet add package Dapr.AspNetCore
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Visual Studio에서 NuGet 패키지 관리자를 사용하여 설치할 수도 있어요. 이 패키지를 사용하면 Dapr 클라이언트를 통해 Dapr 애플리케이션과 상호 작용하고, ASP.NET 애플리케이션에서 Dapr를 사용하여 라우트 및 컨트롤러를 빌드할 수 있어요.
 
@@ -62,8 +103,18 @@ Visual Studio에서 NuGet 패키지 관리자를 사용하여 설치할 수도 �
 
 Dapr가 설치되면 상태 저장소와 상호 작용할 인터페이스를 정의하기 시작할 수 있어요. 이번엔 그저 CRUD 애플리케이션일 뿐이니, 다음과 같이 기본 인터페이스를 정의할 수 있어요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에서는 인터페이스를 정의하고 구현하며 다음과 같이 로직을 정의할 수 있습니다:
 
@@ -75,10 +126,20 @@ DeleteBook 메서드는 Id를 매개변수로 받아 해당 Book을 상태 저�
 
 GetBooksByCategory는 카테고리를 받아 해당 카테고리에 속하는 Book 목록을 반환하는 메서드이며, UpdateBook은 Id와 BookDto를 받아 해당 Book을 업데이트합니다.
 
-
 이렇게 구현된 BookService 클래스에는 다양한 기능이 구현되어 있으며, 상세한 내용을 하나씩 분석해 보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 이 애플리케이션이 사용할 스테이트 스토어의 이름인 STORE_NAME이라는 프라이빗 변수를 정의합니다. 따라서 상태를 저장하고 검색할 때 Dapr은 상태 스토어 구성요소인 statestore라는 스테이트 스토어를 찾아서 애플리케이션 상태를 저장하고 가져올 것입니다. 그런 다음, 생성자로 전달할 DaprClient와 ILogger에 대한 프라이빗 변수를 정의합니다.
 
@@ -88,7 +149,18 @@ DeleteBook 및 GetBookById 메서드는 간단합니다. 검색하거나 삭제�
 
 GetBooksByCategory는 약간 다릅니다. 여기서 우리의 책 카테고리 (로맨스, 픽션, 논픽션 등)를 전달하고 해당 카테고리를 가진 모든 책을 검색합니다. 그런 다음 특정 카테고리를 가진 모든 상태 객체를 검색하기 위해 필터 쿼리를 사용합니다. 상태 쿼리 API는 아직 알파 단계이므로 읽을 때 변경될 수 있지만 이 API를 사용하여 상태 스토어 구성요소에 저장된 키/값 데이터를 가져오거나 필터링하고 정렬할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희가 쿼리를 생성한 후에는, 해당 쿼리를 QueryStateAsync`T` 메소드의 매개변수로 전달합니다. (여기서 다시 한 번, T는 저희 Book 클래스를 가리킵니다.) 이후에는 해당 쿼리의 결과를 Book 객체의 목록으로 반환합니다.
 
@@ -101,7 +173,18 @@ builder.Services.AddDaprClient();
 builder.Services.AddSingleton<IBookService, BookService>();
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 우리의 서비스가 정의되고 등록되었으므로, API 컨트롤러에서 구현할 수 있습니다!
 
@@ -166,7 +249,7 @@ namespace Bookstore.Api.Controllers
                 return new StatusCodeResult(StatusCodes.Status500InternalServerError);
             }
         }
-        
+
         ... 중략 ...
 
     }
@@ -177,8 +260,18 @@ namespace Bookstore.Api.Controllers
 
 API를 테스트하기 전에 상태 관리 구성 요소를 설정해야 합니다. 이를 위해 모두가 사랑하는 YAML 마크업 언어를 사용하여 구성 요소를 정의할 수 있습니다! 😁
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희 상태 저장소에는 Azure Cosmos DB를 사용할 예정입니다. Cosmos DB를 사용하도록 상태 저장소 구성 요소를 정의하려면 다음과 같이 작성할 수 있습니다:
 
@@ -191,23 +284,34 @@ spec:
   type: state.azure.cosmosdb
   version: v1
   metadata:
-  - name: url
-    value: <cosmos-url>
-  - name: masterKey
-    value: "<primary-key>"
-  - name: database
-    value: bookstoredb
-  - name: collection
-    value: books
+    - name: url
+      value: <cosmos-url>
+    - name: masterKey
+      value: "<primary-key>"
+    - name: database
+      value: bookstoredb
+    - name: collection
+      value: books
 ```
 
 상태 관리에 사용할 데이터 저장소를 정의하기 위해 type 필드를 사용합니다. 따라서 Cosmos DB의 경우 state.azure.cosmosdb 유형을 사용합니다. 메타데이터 섹션에서는 연결 문자열, 키, 테이블 이름 등을 구성합니다. Cosmos DB의 경우 응용 프로그램이 상태를 저장하는 데 사용할 URL, masterKey, 데이터베이스 및 컬렉션 이름을 제공해야 합니다.
 
 다른 데이터 저장소들은 다양한 메타데이터를 사용하므로 Dapr에서 지원하는 모든 다양한 데이터 저장소를 확인하려면 상태 저장소 구성 방법을 구성하는 가이드와 이 참조를 살펴보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-다른 중요한 점은 메타데이터 값에는 비밀이 포함될 수 있으며, 추천되는 방식인 시크릿 스토어를 사용하지 않는 한 평문으로 표시됩니다. 시크릿 스토어를 사용하는 것을 권장하는 패턴을 따르지 않는 한 애플리케이션에서 비밀을 평문으로 저장하지 마십시오! 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+다른 중요한 점은 메타데이터 값에는 비밀이 포함될 수 있으며, 추천되는 방식인 시크릿 스토어를 사용하지 않는 한 평문으로 표시됩니다. 시크릿 스토어를 사용하는 것을 권장하는 패턴을 따르지 않는 한 애플리케이션에서 비밀을 평문으로 저장하지 마십시오!
 
 ## API 테스트하기
 
@@ -217,7 +321,18 @@ spec:
 dapr run --app-id bookstore-api --app-port 7264 --dapr-http-port 3500 --app-ssl --resources-path ..\..\..\components\ -- dotnet run --launch-profile https
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 dapr run 명령어를 자세히 살펴보겠습니다.
 
@@ -227,7 +342,18 @@ dapr run --app-id bookstore-api --app-port 7264 --dapr-http-port 3500 --app-ssl 
 
 또한 launchSettings.json 파일에서 API가 Dapr을 사용하도록 구성할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```json
 {
@@ -285,7 +411,18 @@ API에서 테스트를 쉽게 할 수 있도록 Swagger를 사용하고 있지�
 
 Cosmos DB에 저장할 도서를 만들어 봅시다. 새 도서를 저장하기 위해 POST 요청으로 /api/books 엔드포인트를 호출할 거에요. 요청이 유효하다면, 201 응답을 받을 거에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-13-ImplementingDaprStateManagementinASPNETCoreWebAPIs_1.png)
 
@@ -295,8 +432,18 @@ Cosmos DB에 저장할 도서를 만들어 봅시다. 새 도서를 저장하기
 
 이번에는 GET 엔드포인트 /api/books/category를 테스트해보겠어요. Fiction 카테고리를 전달하여 컬렉션에서 모든 소설 책을 가져와볼게요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-13-ImplementingDaprStateManagementinASPNETCoreWebAPIs_3.png)
 
@@ -306,8 +453,18 @@ Cosmos DB에 저장할 도서를 만들어 봅시다. 새 도서를 저장하기
 
 책을 업데이트하려면 기존 책의 ID와 업데이트된 책 정보가 담긴 새로운 요청 본문을 사용하여 /api/books/'bookId' 엔드포인트에 PUT 요청을 보낼 수 있습니다. 이 요청에서 기존 책의 가격을 업데이트하고 있는데, 요청은 다음과 같이 할 수 있습니다:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image 5](/assets/img/2024-07-13-ImplementingDaprStateManagementinASPNETCoreWebAPIs_5.png)
 요청이 성공적이었기 때문에 Cosmos DB에 가격이 업데이트된 것을 확인할 수 있어요.
@@ -315,7 +472,18 @@ Cosmos DB에 저장할 도서를 만들어 봅시다. 새 도서를 저장하기
 ![Image 6](/assets/img/2024-07-13-ImplementingDaprStateManagementinASPNETCoreWebAPIs_6.png)
 마지막으로, 상태 저장소에서 책을 삭제하기 위해 /api/books/'bookId' 엔드포인트로 DELETE 요청을 하여 삭제하고 싶은 책의 ID를 전달하면 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-13-ImplementingDaprStateManagementinASPNETCoreWebAPIs_7.png" />
 
@@ -325,7 +493,18 @@ DELETE 요청이 성공적으로 이루어지면, 우리는 Cosmos DB 컬렉션�
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사에서는 Dapr의 State Management를 소개하고 분산 애플리케이션에서 상태를 저장하는 방법을 살펴보았어요. 그리고 ASP.NET Core Web API에서 Dapr State Management를 어떻게 사용할 수 있는지를 시연했고, 상태 저장소 구성 방법 및 API 프로젝트를 Dapr 애플리케이션으로 실행하고 테스트하는 방법도 소개했어요.
 
@@ -335,7 +514,18 @@ DELETE 요청이 성공적으로 이루어지면, 우리는 Cosmos DB 컬렉션�
 
 # Level Up Coding
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리 커뮤니티에 참여해 주셔서 감사합니다! 여행을 떠나시기 전에:
 

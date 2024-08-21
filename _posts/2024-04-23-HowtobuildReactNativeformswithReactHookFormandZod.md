@@ -3,17 +3,13 @@ title: "React Hook Form과 Zod를 사용하여 React Native 폼을 만드는 방
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How to build React Native forms with React Hook Form and Zod"
 link: "https://medium.com/javascript-in-plain-english/how-to-build-react-native-forms-with-react-hook-form-and-zod-3fff7d7ee066"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/HowtobuildReactNativeformswithReactHookFormandZod_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 현재, 많은 개발자가 양식을 처리하는 두 가지 주요 방법을 관찰했습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 각 폼 입력에 개별 상태를 만듭니다.
 - Formik을 사용합니다.
@@ -34,7 +41,18 @@ isUpdated: true
 
 Formik은 폼 유효성 검사를 쉽게 다룰 수 있는 훌륭한 방법이지만, 모든 입력값이 변경될 때마다 전체 폼이 다시 렌더링되기 때문에 많은 불필요한 다시 렌더링이 발생합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 유연하고 성능이 좋은 방법으로 폼을 처리하는 방법 중 하나는 React Hook Form (RHF)입니다.
 
@@ -44,7 +62,18 @@ React Hook Form은 가벼우면서 성능이 우수한 폼 관리 라이브러�
 
 React Hook Form을 사용하면 쉬운 유효성 검사를 통해 유연하고 확장 가능한 폼을 만들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Formik와 비교했을 때 React Hook Form은 리렌더링 횟수를 줄여 앱의 성능을 유지합니다.
 
@@ -54,7 +83,18 @@ React Hook Form을 React 네이티브 앱에 통합하는 방법을 알아봅시
 
 로컬에서 Expo 프로젝트를 설정하는 방법에 대한 자세한 내용은 Expo 문서에서 모두 다루고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그런데 간단한 안내를 드리겠습니다:
 
@@ -72,7 +112,18 @@ yarn create expo-app
 
 프로젝트 이름을 입력하라는 입력란이 표시됩니다. 선택한 이름을 입력하고 Enter 키를 누르세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트 이름을 선택하여 프로젝트용 새 디렉토리를 만듭니다.
 
@@ -84,7 +135,18 @@ yarn create expo-app
 cd <프로젝트 이름>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. 개발 서버 시작하기
 
@@ -96,7 +158,18 @@ npx expo start
 
 이 명령어를 실행하면 개발 서버가 시작됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 빠르게 Expo를 사용하여 기본 React Native 애플리케이션을 설정했습니다. 안드로이드 에뮬레이터, iOS 시뮬레이터 또는 실제 기기에서 프로젝트를 열어 앱이 동작하는 것을 볼 수 있습니다.
 
@@ -107,7 +180,18 @@ Expo로 개발을 시작하기 위해 개발 장치를 설정하는 데 도움�
 
 작업이 완료되면 프로젝트 종속성을 설치할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 의존성 설치
 
@@ -121,7 +205,18 @@ yarn add react-hook-form zod @hookform/resolvers
 - Zod: 스키마 유효성 검사 라이브러리; 이 라이브러리는 우리의 폼을 유효성 검사하기 위해 사용될 것입니다.
 - @hookform/resolvers: React Hook Form 플러그인으로, React Hook Form과 Zod를 연결해줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 간단한 로그인 폼 만들기
 
@@ -146,7 +241,18 @@ export default function App() {
 // … 스타일
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 코드는 이메일, 전체 이름 및 비밀번호 세 개의 필드가 있는 간단한 양식을 생성합니다.
 
@@ -156,7 +262,18 @@ export default function App() {
 
 # React Hook Form으로 양식 관리하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React Hook Form을 사용하여 양식을 관리하려면 React Hook Form에서 제공하는 useForm 훅과 Controller 컴포넌트를 사용합니다.
 
@@ -186,26 +303,14 @@ export default function App() {
         control={control}
         name={"email"}
         render={({ field: { value, onChange, onBlur } }) => (
-          <TextInput
-            placeholder="이메일"
-            style={styles.input}
-            value={value}
-            onChangeText={onChange}
-            onBlur={onBlur}
-          />
+          <TextInput placeholder="이메일" style={styles.input} value={value} onChangeText={onChange} onBlur={onBlur} />
         )}
       />
       <Controller
         control={control}
         name={"full_name"}
         render={({ field: { value, onChange, onBlur } }) => (
-          <TextInput
-            placeholder="성함"
-            style={styles.input}
-            value={value}
-            onChangeText={onChange}
-            onBlur={onBlur}
-          />
+          <TextInput placeholder="성함" style={styles.input} value={value} onChangeText={onChange} onBlur={onBlur} />
         )}
       />
       <Controller
@@ -231,7 +336,18 @@ export default function App() {
 
 위 코드에서는 useForm 훅의 control 객체와 handleSubmit 함수를 가져오기 위해 JavaScript의 비구조화 할당을 사용했으며, defaultValues 키를 사용하여 양식의 기본값을 지정하는 객체를 전달했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컨트롤 객체에는 React Hook Form으로 컴포넌트를 등록하는 메서드가 포함되어 있어요. 그런 다음 각 입력란에 대해 Controller 컴포넌트의 control prop에 컨트롤 객체를 전달합니다.
 
@@ -241,8 +357,18 @@ Controller 컴포넌트는 제어 입력을 React Hook Form에 추가하는 기�
 
 성공적으로 유효성이 검사된 경우에는 폼 데이터를 처리하기 위한 onSubmit 함수를 정의했어요. 호출될 때 폼 값이 포함된 데이터 인수를 허용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 양식을 제출하려면 onPress props이 양식을 제출하도록 유도하며 React Hook Form에서 handleSubmit 함수를 호출하여 onSubmit 함수를 콜백 함수로 전달합니다. 이 함수는 양식 유효성 검사가 성공한 경우 호출됩니다.
 
@@ -252,8 +378,18 @@ Controller 컴포넌트는 제어 입력을 React Hook Form에 추가하는 기�
 
 양식의 유효성을 검사해보겠습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 폼 유효성 검사
 
@@ -263,7 +399,18 @@ React Hook Form에는 기본 유효성 검사기가 있지만 간편하고 고�
 
 유효성을 추가하려면 먼저 폼의 스키마를 정의해야 합니다 (스키마는 폼의 필드가 어떤 값을 포함해야 하는지 설명합니다).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { z } from "zod";
@@ -283,7 +430,18 @@ useForm 훅에 defaultValue로 전달된 객체와 각 controller에 대한 name
 
 formSchema 내에서 세 가지 항목을 정의했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이메일: 이메일 필드의 값이 이메일 형식인지 확인합니다.
 - 풀네임: 풀네임 필드의 값이 최소 3자 이상의 문자열인지 확인합니다.
@@ -324,26 +482,14 @@ export default function App() {
         control={control}
         name={"email"}
         render={({ field: { value, onChange, onBlur } }) => (
-          <TextInput
-            placeholder="이메일"
-            style={styles.input}
-            value={value}
-            onChangeText={onChange}
-            onBlur={onBlur}
-          />
+          <TextInput placeholder="이메일" style={styles.input} value={value} onChangeText={onChange} onBlur={onBlur} />
         )}
       />
       <Controller
         control={control}
         name={"full_name"}
         render={({ field: { value, onChange, onBlur } }) => (
-          <TextInput
-            placeholder="이름"
-            style={styles.input}
-            value={value}
-            onChangeText={onChange}
-            onBlur={onBlur}
-          />
+          <TextInput placeholder="이름" style={styles.input} value={value} onChangeText={onChange} onBlur={onBlur} />
         )}
       />
       <Controller
@@ -369,7 +515,18 @@ export default function App() {
 
 위 코드에서는 zodResolver 함수를 useForm 훅 객체에 formSchema를 인자로 전달했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 zodResolver와 함께 React Hook Form을 사용하면 입력 값이 유효한지 여부를 알 수 있고 유효하지 않을 때 어떤 오류 메시지를 표시해야 하는지 알 수 있습니다.
 
@@ -379,7 +536,18 @@ zodResolver와 함께 React Hook Form을 사용하면 입력 값이 유효한지
 
 그러나 사용자에게 입력 값이 잘못되었을 때 언제 또는 왜 잘못되었는지 알려주는 피드백을 제공해야 합니다. 이를 위해 오류 메시지를 표시해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 에러 메시지 표시
 
@@ -389,7 +557,18 @@ zodResolver와 함께 React Hook Form을 사용하면 입력 값이 유효한지
 
 그런 다음 다음 코드를 추가하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // components/formInput.jsx
@@ -424,7 +603,18 @@ export default FormInput;
 // …Styles below
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 그런 다음 Text 구성요소를 사용하여 오류 메시지를 조건부로 표시합니다. 에러가 발생했을 때에만요.
 
@@ -462,12 +652,7 @@ export default function App() {
       <Text style={styles.heading}>간단한 로그인 양식</Text>
       <FormInput control={control} name={"email"} placeholder="이메일" />
       <FormInput control={control} name={"full_name"} placeholder="성함" />
-      <FormInput
-        control={control}
-        name={"password"}
-        placeholder="비밀번호"
-        secureTextEntry
-      />
+      <FormInput control={control} name={"password"} placeholder="비밀번호" secureTextEntry />
       <Button title="제출" onPress={handleSubmit(onSubmit)} />
     </View>
   );
@@ -478,7 +663,18 @@ export default function App() {
 
 FormInput 구성요소를 사용하면 password 필드로 한 것처럼 값들을 control과 name 속성에만 전달하면 된다. 추가적으로 TextInput이 포함해야 할 다른 값도 포함할 수 있다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/HowtobuildReactNativeformswithReactHookFormandZod_3.png)
 
@@ -488,7 +684,18 @@ FormInput 구성요소를 사용하면 password 필드로 한 것처럼 값들�
 
 지금까지 React Hook Form의 유일한 단점은 React 훅에 의존한다는 것입니다. 결과적으로 클래스 컴포넌트에서 직접 사용할 수 없습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -498,7 +705,18 @@ Zod와 React Hook Form의 조합은 마치 React Native 양식을 위해 두 슈
 
 API 문서 (react-hook-form.com)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Zod | 문서
 
@@ -508,7 +726,18 @@ React Hook Form 대 Formik
 
 In Plain English 커뮤니티에 참여해주셔서 감사합니다! 떠나시기 전에:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 작가님께 박수를 치고 팔로우해주세요️
 - In Plain English에 글을 쓸 수 있는 방법을 배워보세요️

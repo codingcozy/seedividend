@@ -3,16 +3,13 @@ title: "확장 가능한 Nestjs 프로젝트를 위한 마이크로서비스 아
 description: ""
 coverImage: "/assets/img/2024-06-22-BuildingaScalableMicroserviceArchitectureforNestjsProjects_0.png"
 date: 2024-06-22 14:00
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-BuildingaScalableMicroserviceArchitectureforNestjsProjects_0.png
 tag: Tech
 originalTitle: "Building a Scalable Microservice Architecture for Nest.js Projects"
 link: "https://medium.com/widle-studio/mastering-microservices-in-nest-js-eb143a6b9639"
 isUpdated: true
 ---
-
-
-
 
 요즘에는 마이크로서비스 아키텍처가 확장 가능하고 유지보수가 용이하며 유연한 애플리케이션을 개발할 수 있는 능력 때문에 상당한 인기를 얻고 있습니다. Nest.js는 점진적인 Node.js 프레임워크로, 마이크로서비스를 구축하기에 적합합니다. 본 문서에서는 Nest.js 프로젝트를 위한 마이크로서비스 아키텍처를 설계하고 구현하는 방법을 살펴볼 것입니다. 마이크로서비스를 구축하는 데 필요한 주요 개념, 장점 및 최선의 방법, 그리고 구현을 설명하는 실용적인 코드 예제를 포함하고 있습니다.
 
@@ -37,7 +34,18 @@ isUpdated: true
 - 마이크로서비스 개발을 위한 최선의 방법
 - 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 1. 마이크로서비스 소개
 
@@ -47,7 +55,18 @@ isUpdated: true
 
 마이크로서비스 아키텍처는 다음과 같은 여러 가지 장점을 제공합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 확장성: 각 마이크로서비스는 독립적으로 확장 가능하여 고효율로 대량 처리를 처리할 수 있습니다.
 - 유지보수성: 서비스들은 전체 애플리케이션에 영향을 주지 않고 독립적으로 유지보수 및 업데이트할 수 있습니다.
@@ -62,7 +81,18 @@ Nest.js는 효율적이고 확장 가능하며 유지보수가 용이한 서버 
 
 # 4. 마이크로서비스 아키텍처 설계
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코드 구현에 들어가기 전에, Nest.js 프로젝트를 위한 마이크로서비스 아키텍처를 설계해 봅시다.
 
@@ -72,7 +102,18 @@ Nest.js는 효율적이고 확장 가능하며 유지보수가 용이한 서버 
 
 ## 부하 분산 및 게이트웨이
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여러 인스턴스의 서비스 간에 오는 요청을 균등하게 분산시키기 위해 로드 밸런서가 필요합니다. 게이트웨이는 클라이언트의 입구 역할을 하고 요청을 적절한 마이크로서비스로 라우팅합니다.
 
@@ -82,7 +123,18 @@ Nest.js는 효율적이고 확장 가능하며 유지보수가 용이한 서버 
 
 ## 마이크로서비스 간 통신
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마이크로서비스는 RabbitMQ나 Kafka와 같은 RESTful API 또는 메시지 큐를 통해 통신합니다.
 
@@ -92,7 +144,18 @@ Nest.js는 효율적이고 확장 가능하며 유지보수가 용이한 서버 
 
 # 5. Nest.js로 마이크로서비스 구현하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자, 이제 우리의 디자인을 실행하여 Nest.js를 사용하여 마이크로서비스를 구현해 봅시다.
 
@@ -108,38 +171,47 @@ cd microservices-project
 단계 2: 종속성 설치
 다음으로, 마이크로서비스를 위해 필요한 종속성을 설치하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 npm install @nestjs/microservices @nestjs/typeorm typeorm mysql
-
 
 Step 3: Create Microservice Modules
 각각의 마이크로서비스를 위한 별도의 모듈을 만듭니다:
 
 ```js
 // app.module.ts (Gateway)
-import { Module } from '@nestjs/common';
-import { AppController } from './app.controller';
-import { AppService } from './app.service';
-import { ClientsModule, Transport } from '@nestjs/microservices';
+import { Module } from "@nestjs/common";
+import { AppController } from "./app.controller";
+import { AppService } from "./app.service";
+import { ClientsModule, Transport } from "@nestjs/microservices";
 
 @Module({
   imports: [
     ClientsModule.register([
       {
-        name: 'SERVICE_A',
+        name: "SERVICE_A",
         transport: Transport.TCP,
         options: {
-          host: 'localhost',
+          host: "localhost",
           port: 3001,
         },
       },
       {
-        name: 'SERVICE_B',
+        name: "SERVICE_B",
         transport: Transport.TCP,
         options: {
-          host: 'localhost',
+          host: "localhost",
           port: 3002,
         },
       },
@@ -153,9 +225,9 @@ export class AppModule {}
 
 ```js
 // service-a.module.ts
-import { Module } from '@nestjs/common';
-import { ServiceAController } from './service-a.controller';
-import { ServiceAService } from './service-a.service';
+import { Module } from "@nestjs/common";
+import { ServiceAController } from "./service-a.controller";
+import { ServiceAService } from "./service-a.service";
 
 @Module({
   controllers: [ServiceAController],
@@ -164,13 +236,24 @@ import { ServiceAService } from './service-a.service';
 export class ServiceAModule {}
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```typescript
 // service-b.module.ts
-import { Module } from '@nestjs/common';
-import { ServiceBController } from './service-b.controller';
-import { ServiceBService } from './service-b.service';
+import { Module } from "@nestjs/common";
+import { ServiceBController } from "./service-b.controller";
+import { ServiceBService } from "./service-b.service";
 
 @Module({
   controllers: [ServiceBController],
@@ -184,18 +267,22 @@ Step 4: 각 Microservice를 위한 Controllers 및 Services 구현
 
 ```typescript
 // app.controller.ts (Gateway)
-import { Controller, Get, Inject } from '@nestjs/common';
-import { AppService } from './app.service';
-import { ClientProxy } from '@nestjs/microservices';
+import { Controller, Get, Inject } from "@nestjs/common";
+import { AppService } from "./app.service";
+import { ClientProxy } from "@nestjs/microservices";
 
 @Controller()
 export class AppController {
-  constructor(private readonly appService: AppService, @Inject('SERVICE_A') private readonly clientA: ClientProxy, @Inject('SERVICE_B') private readonly clientB: ClientProxy) {}
+  constructor(
+    private readonly appService: AppService,
+    @Inject("SERVICE_A") private readonly clientA: ClientProxy,
+    @Inject("SERVICE_B") private readonly clientB: ClientProxy
+  ) {}
 
   @Get()
   async getHello(): Promise<string> {
-    const resultA = await this.clientA.send('getHello', '').toPromise();
-    const resultB = await this.clientB.send('getHello', '').toPromise();
+    const resultA = await this.clientA.send("getHello", "").toPromise();
+    const resultB = await this.clientB.send("getHello", "").toPromise();
     return this.appService.getHello(resultA, resultB);
   }
 }
@@ -203,8 +290,8 @@ export class AppController {
 
 ```typescript
 // service-a.controller.ts
-import { Controller, Get } from '@nestjs/common';
-import { ServiceAService } from './service-a.service';
+import { Controller, Get } from "@nestjs/common";
+import { ServiceAService } from "./service-a.service";
 
 @Controller()
 export class ServiceAController {
@@ -215,9 +302,20 @@ export class ServiceAController {
     return this.serviceAService.getHello();
   }
 }
-```  
+```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // service-b.controller.ts
@@ -240,7 +338,7 @@ Step 5: 서비스 로직 구현
 
 ```js
 // app.service.ts (게이트웨이)
-import { Injectable } from '@nestjs/common';
+import { Injectable } from "@nestjs/common";
 
 @Injectable()
 export class AppService {
@@ -252,26 +350,37 @@ export class AppService {
 
 ```js
 // service-a.service.ts
-import { Injectable } from '@nestjs/common';
+import { Injectable } from "@nestjs/common";
 
 @Injectable()
 export class ServiceAService {
   getHello(): string {
-    return '서비스 A에서 안녕하세요';
+    return "서비스 A에서 안녕하세요";
   }
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // service-b.service.ts
-import { Injectable } from '@nestjs/common';
+import { Injectable } from "@nestjs/common";
 
 @Injectable()
 export class ServiceBService {
   getHello(): string {
-    return 'Hello from Service B';
+    return "Hello from Service B";
   }
 }
 ```

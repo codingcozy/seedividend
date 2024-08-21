@@ -3,7 +3,7 @@ title: "AWS Microservices 아키텍처 구조 설계방법 모놀리틱 vs 마�
 description: ""
 coverImage: "/assets/img/2024-08-18-AWellArchitectedAWSMicroServicesArchitecture_0.png"
 date: 2024-08-18 11:29
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-18-AWellArchitectedAWSMicroServicesArchitecture_0.png
 tag: Tech
 originalTitle: "A Well Architected AWS Micro Services Architecture"
@@ -11,7 +11,6 @@ link: "https://medium.com/aws-tip/a-well-architected-aws-micro-services-architec
 isUpdated: true
 updatedAt: 1724032672762
 ---
-
 
 <img src="/assets/img/2024-08-18-AWellArchitectedAWSMicroServicesArchitecture_0.png" />
 
@@ -28,7 +27,18 @@ updatedAt: 1724032672762
 
 # 중복성 및 복제:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 마이크로 서비스는 데이터를 여러 지역에 복제하기 위해 DynamoDB 글로벌 테이블을 사용하고 있습니다. Amazon DynamoDB의 글로벌 테이블은 완전히 관리되며, 멀티 리전 및 멀티 마스터 데이터베이스 솔루션으로서 여러 AWS 리전 전반에 걸쳐 완전히 복제되고 고가용성 및 낮은 지연 시간을 제공합니다.
 
@@ -38,7 +48,18 @@ updatedAt: 1724032672762
 
 싱글 포인트 오브 실패를 피하기 위해 여러 가용 영역 또는 리전에 서비스의 다중 인스턴스를 실행하는 것입니다. 아래 다이어그램에서 볼 수 있듯이, 서비스들은 다중 가용 영역에서 여유롭게 구성되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 Markdown 형식으로 표를 변환한 것입니다.
 
@@ -50,7 +71,18 @@ updatedAt: 1724032672762
 
 ## 자동 확장:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 현재 수요에 따라 트래픽 증가를 처리하고 성능을 유지하기 위해 활성 서버 또는 인스턴스 수를 자동으로 조절합니다.
 
@@ -60,7 +92,18 @@ updatedAt: 1724032672762
 
 ## 재해 복구:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 재해 발생 시 서비스 및 데이터를 빠르게 복구하기 위해 백업 및 복구 솔루션을 구현합니다. 이는 정기적인 백업, 자동 복구 절차, 그리고 재해 복구 계획 검토를 포함합니다. 데이터는 중복이 되어 여러 지역으로 스트리밍되어 지역 장애 조치를 수행합니다.
 
@@ -74,7 +117,18 @@ updatedAt: 1724032672762
 
 ## 건전하지 않은 지역은 어떠한 트래픽도 받지 않게 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 모니터링 및 경고: 마이크로 서비스는 지속적으로 로그를 로그 포워더로 전송한 다음 스플렁크로 전송합니다. 스플렁크는 다중 리전 및 다중 가용 영역에 배포되어 있습니다.
 
@@ -84,7 +138,18 @@ updatedAt: 1724032672762
 
 - 마이크로 서비스 아키텍처를 사용하여 애플리케이션을 디자인하는 것, 여기서 서비스들이 느슨하게 결합되어 있고 독립적으로 작동할 수 있습니다. 이를 통해 한 구성 요소의 실패가 다른 구성 요소로 연쇄적으로 전파되지 않도록 보장합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 보안 및 규정 준수:
 

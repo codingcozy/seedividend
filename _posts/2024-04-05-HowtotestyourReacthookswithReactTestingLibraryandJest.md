@@ -3,17 +3,13 @@ title: "React Testing Library와 Jest로 리액트 훅 테스트하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How to test your React hooks with React Testing Library and Jest"
 link: "https://medium.com/@vaskort/how-to-unit-test-your-custom-react-hook-with-react-testing-library-and-jest-8bdefafdc8a2"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/HowtotestyourReacthookswithReactTestingLibraryandJest_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이 앱은 간단합니다. API에 요청을 보내고 받은 항목 목록을 렌더링합니다. 약속이 진행 중이면 로딩 표시를 하고, 에러가 발생하면 에러를 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 function App() {
@@ -86,7 +93,18 @@ const useFetchedData = () => {
 
 ## 코드 간단한 설명
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우선, 상태 변수의 초기값을 포함하는 객체를 반환합니다.
 
@@ -96,7 +114,18 @@ useEffect에서는 API에 요청을 보내고 데이터를 받아서 data 상태
 
 또한 useEffect 훅에 정리 함수를 추가하여 컴포넌트가 언마운트될 때 요청을 중단합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 초기 상태 변수를 테스트합니다
 
@@ -123,7 +152,18 @@ describe("useFetchedData", () => {
 
 ## 요청이 성공적으로 완료되었을 때 테스트
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 describe("데이터를 성공적으로 가져왔을 때", () => {
@@ -164,7 +204,18 @@ describe("데이터를 성공적으로 가져왔을 때", () => {
 
 ## loading 속성 테스트하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 describe("로딩 속성", () => {
@@ -209,7 +260,18 @@ describe("데이터를 성공적으로 가져오지 못했을 때", () => {
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 행복한 경로와는 조금 다르지만, 지금은 Jest의 mockRejectedValue를 사용하여 fetch 함수를 가짜로 만들어 모의 오류가 포함된 거부된 Promise를 반환합니다. 그런 다음 훅을 렌더링하고, 맞죠, 우리는 waitFor 내부에 어설션을 감싸서 약속이 거부되고 그 결과로 우리의 어설션이 통과할 때까지 기다립니다.
 
@@ -219,7 +281,18 @@ describe("데이터를 성공적으로 가져오지 못했을 때", () => {
 
 ![How to test your React hooks with React Testing Library and Jest](/assets/img/HowtotestyourReacthookswithReactTestingLibraryandJest_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기술적으로는 맞지만 커버리지는 우리의 테스트에서 직접적으로 나오는 것은 아닙니다. RTL은 각 테스트 후에 클린업 함수를 실행하고, 이 함수는 useEffect에서 가지고 있는 클린업 함수를 실행합니다. 그렇게 되면 다음 코드가 커버되죠:
 
@@ -243,7 +316,18 @@ const processData = (data) => {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 데이터베이스에 데이터를 저장하는 것 외에도 전달한 데이터를 반환하는 processData 함수를 갖고 있습니다. 이제 이 파일에 대한 다음 테스트를 고려해보세요:
 
@@ -270,7 +354,18 @@ describe("processData", () => {
 
 나는 모든 것을 다루었는지 확인하기 위해 자신에게 하는 좋은 질문은 "만약 이 코드 줄을 제거한다면 어떤 테스트가 실패할 것인가?"입니다. 그렇지 않으면 해당 코드 줄을 다루는 더 많은 테스트를 추가하여 더 구체적으로 다뤄야 함을 알 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어쨌든, 우리가 조금 색다른 방향으로 떠났지만 언급할 가치가 있다고 생각해요. useEffect에서 클린업 함수를 다루는 추가 테스트를 추가해볼까요?
 
@@ -297,7 +392,18 @@ describe("언마운트 시 fetch 요청을 중단해야 합니다", () => {
 
 여기서도 똑같은 패턴을 보시고 계실 거에요. beforeEach에서 무언가를 mocking한 다음 호출되었는지 확인하는 것이죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 주로 가능한 한 it 블록 대신 beforeEach에서 함수를 모킹하는 것을 좋아합니다. 그러면 일반적으로 당신의 어서션들을 훨씬 더 간결하게 할 수 있어요.
 
@@ -307,7 +413,18 @@ describe("언마운트 시 fetch 요청을 중단해야 합니다", () => {
 
 끝까지 왔네요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저장소를 복제해서 직접 시도해볼 수 있어요. 앱.js 파일에 대한 테스트도 찾을 수 있을 거예요.
 

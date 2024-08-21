@@ -3,17 +3,13 @@ title: "2024년 최신 React Native의 핵심 구성 요소 정리"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Exploring React Natives Core Components The Foundation of Your UI"
 link: "https://medium.com/stackademic/exploring-react-natives-core-components-the-foundation-of-your-ui-a36a61566794"
 isUpdated: true
 ---
-
-
-
-
 
 ![Explore React Native's Core Components](/assets/img/ExploringReactNativesCoreComponentsTheFoundationofYourUI_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 요컨대, 여러분은 Basic Components를 가지고 있어요. 이것들은 마치 밀가루나 설탕처럼 어떤 레시피에도 꼭 필요한 요소랍니다. 그리고 User Interface Components가 있어요. 이것들은 그릇과 주걱처럼 모든 것을 잘 정리하는 데 필요한 도구들이죠. 아, 그리고 List Views를 잊지 마세요. 이것들은 레시피 책처럼 여러분의 아이디어를 조직하는 데 도움을 줄 거예요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만, 여기에는 한가지 특별한 점이 있어요! React Native에는 안드로이드와 iOS 기기 전용의 특별한 재료도 있답니다. 마치 서로 다른 맛을 위한 다양한 플레이버가 있는 것처럼요!
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ## React Native 핵심 컴포넌트와 API들
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 기본 구성 요소: 이러한 요소는 버튼이나 텍스트 입력과 같이 간단한 요소들입니다.
 - 사용자 인터페이스: 이러한 구성 요소들은 컨테이너나 헤더와 같은 사용자 인터페이스를 만드는 데 도움이 됩니다.
@@ -48,7 +66,18 @@ isUpdated: true
 
 ![이미지](/assets/img/ExploringReactNativesCoreComponentsTheFoundationofYourUI_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # React Native Core Components — 사용자 인터페이스
 
@@ -58,7 +87,18 @@ isUpdated: true
 
 ![이미지](/assets/img/ExploringReactNativesCoreComponentsTheFoundationofYourUI_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # React Native 안드로이드 전용 컴포넌트 및 API
 
@@ -68,7 +108,18 @@ isUpdated: true
 
 # React Native 다른 컴포넌트 및 API
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마크다운 형식으로 변경하면 다음과 같습니다.
 
@@ -80,7 +131,18 @@ isUpdated: true
 
 간단한 레시피 모바일 애플리케이션을 개발하면서 배운 것을 적용해봅시다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Ready to get started? Let's create a simple recipe app step by step!
 
@@ -96,20 +158,12 @@ const Recipe = ({ recipe, onViewDetails }) => {
 
   return (
     <View style={styles.recipeContainer}>
-      <Image
-        source={recipe.image}
-        style={styles.recipeImage}
-        accessibilityLabel={`Image of ${recipe.name}`}
-      />
+      <Image source={recipe.image} style={styles.recipeImage} accessibilityLabel={`Image of ${recipe.name}`} />
       <Text style={styles.recipeTitle} accessibilityRole="header">
         {recipe.name}
       </Text>
       <Text style={styles.recipeDescription}>{recipe.description}</Text>
-      <TouchableOpacity
-        style={styles.button}
-        onPress={handlePress}
-        accessibilityLabel="View details"
-      >
+      <TouchableOpacity style={styles.button} onPress={handlePress} accessibilityLabel="View details">
         <Text style={styles.buttonText}>View Details</Text>
       </TouchableOpacity>
     </View>
@@ -121,19 +175,22 @@ export default Recipe;
 
 RecipeDetails.jsx
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import React, { useState, useEffect } from "react";
-import {
-  View,
-  Text,
-  Image,
-  Button,
-  Alert,
-  StyleSheet,
-  ScrollView,
-} from "react-native";
+import { View, Text, Image, Button, Alert, StyleSheet, ScrollView } from "react-native";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import ModalComponent from "./ModalComponent";
 import styles from "../styles/RecipeStyles"; // Ensure this is the correct path
@@ -192,8 +249,7 @@ const RecipeDetails = ({ route }) => {
     return (
       <View style={globalStyles.container}>
         <Text style={styles.titleText}>
-          죄송합니다! 레시피 데이터를 찾을 수 없어요. 😊 레시피 세부 정보를 보기
-          위해 뒤로 가서 클릭해주세요.
+          죄송합니다! 레시피 데이터를 찾을 수 없어요. 😊 레시피 세부 정보를 보기 위해 뒤로 가서 클릭해주세요.
         </Text>
       </View>
     );
@@ -201,11 +257,7 @@ const RecipeDetails = ({ route }) => {
 
   return (
     <View style={styles.container}>
-      <Image
-        resizeMode="contain"
-        source={recipe.image}
-        style={styles.recipeImage}
-      />
+      <Image resizeMode="contain" source={recipe.image} style={styles.recipeImage} />
       <Text style={styles.recipeTitle}>{recipe.name}</Text>
       <Text style={styles.recipeDescription}>{recipe.description}</Text>
       {note ? (
@@ -237,7 +289,18 @@ export default RecipeDetails;
 
 RecipeCarousel.jsx
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import React from "react";
@@ -255,15 +318,7 @@ const RecipeCarousel = ({ data }) => {
     return null;
   }
 
-  return (
-    <Carousel
-      data={data}
-      renderItem={renderItem}
-      sliderWidth={screenWidth}
-      itemWidth={300}
-      loop={true}
-    />
-  );
+  return <Carousel data={data} renderItem={renderItem} sliderWidth={screenWidth} itemWidth={300} loop={true} />;
 };
 
 export default RecipeCarousel;
@@ -305,7 +360,18 @@ export default RecipeLineChart;
 
 CarouselItem.jsx
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import React from "react";
@@ -323,11 +389,7 @@ const CarouselItem = ({ item }) => {
 
   return (
     <View style={globalStyles.carouselItem}>
-      <Image
-        source={item.image}
-        style={{ width: 300, height: 200, borderRadius: 10 }}
-        resizeMode="cover"
-      />
+      <Image source={item.image} style={{ width: 300, height: 200, borderRadius: 10 }} resizeMode="cover" />
       <Text style={globalStyles.titleText}>{item.name}</Text>
       <Text onPress={showDetails} style={globalStyles.subtitleText}>
         세부 정보를 확인하려면 탭하세요!
@@ -356,12 +418,7 @@ const ModalComponent = ({ isVisible, onClose, onSubmit, recipeName }) => {
   };
 
   return (
-    <Modal
-      animationType="slide"
-      transparent={true}
-      visible={isVisible}
-      onRequestClose={onClose}
-    >
+    <Modal animationType="slide" transparent={true} visible={isVisible} onRequestClose={onClose}>
       <View style={globalStyles.centeredView}>
         <View style={globalStyles.modalView}>
           <Text style={globalStyles.modalText}>{recipeName}에 노트 추가:</Text>
@@ -373,11 +430,7 @@ const ModalComponent = ({ isVisible, onClose, onSubmit, recipeName }) => {
             multiline
             numberOfLines={4}
           />
-          <Button
-            title="노트 저장"
-            onPress={handleSave}
-            color={colors.button}
-          />
+          <Button title="노트 저장" onPress={handleSave} color={colors.button} />
           <Button title="취소" onPress={onClose} color="red" />
         </View>
       </View>
@@ -390,7 +443,18 @@ export default ModalComponent;
 
 <img src="/assets/img/ExploringReactNativesCoreComponentsTheFoundationofYourUI_13.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 MostPopularRecipe.jsx
 
@@ -401,16 +465,9 @@ import { Text } from "react-native";
 import { globalStyles } from "../styles/globalStyles";
 
 const MostPopularRecipe = ({ data }) => {
-  const mostPopular = data.reduce(
-    (prev, current) => (prev.views > current.views ? prev : current),
-    data[0]
-  );
+  const mostPopular = data.reduce((prev, current) => (prev.views > current.views ? prev : current), data[0]);
 
-  return (
-    <Text style={globalStyles.paragraph}>
-      Most Popular Recipe: {mostPopular.name}
-    </Text>
-  );
+  return <Text style={globalStyles.paragraph}>Most Popular Recipe: {mostPopular.name}</Text>;
 };
 
 export default MostPopularRecipe;
@@ -447,9 +504,7 @@ const Dashboard = () => {
   return (
     <ScrollView
       style={globalStyles.container}
-      refreshControl={
-        <RefreshControl refreshing={refreshing} onRefresh={onRefresh} />
-      }
+      refreshControl={<RefreshControl refreshing={refreshing} onRefresh={onRefresh} />}
     >
       <View style={globalStyles.modalContent}>
         <RecipeCarousel data={recipeData} />
@@ -463,11 +518,33 @@ const Dashboard = () => {
 export default Dashboard;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 표 태그를 Markdown 형식으로 변경하십시오.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /**
@@ -493,16 +570,12 @@ const FilterRecipes = (recipes, searchText, isVegetarian, isGlutenFree) => {
 
   // 채식주의자 기호로 필터링
   if (isVegetarian) {
-    filteredRecipes = filteredRecipes.filter((recipe) =>
-      recipe.dietaryTags.includes("vegetarian")
-    );
+    filteredRecipes = filteredRecipes.filter((recipe) => recipe.dietaryTags.includes("vegetarian"));
   }
 
   // 글루텐 프리 기호로 필터링
   if (isGlutenFree) {
-    filteredRecipes = filteredRecipes.filter((recipe) =>
-      recipe.dietaryTags.includes("gluten-free")
-    );
+    filteredRecipes = filteredRecipes.filter((recipe) => recipe.dietaryTags.includes("gluten-free"));
   }
 
   return filteredRecipes;
@@ -515,14 +588,7 @@ Homescreen.jsx
 
 ```js
 import React, { useState, useEffect, useCallback } from "react";
-import {
-  View,
-  FlatList,
-  Text,
-  TextInput,
-  Switch,
-  StyleSheet,
-} from "react-native";
+import { View, FlatList, Text, TextInput, Switch, StyleSheet } from "react-native";
 import Recipe from "../components/Recipe";
 import recipesData from "../data/recipeData";
 import { globalStyles, colors } from "../styles/globalStyles";
@@ -577,23 +643,13 @@ const HomeScreen = ({ navigation }) => {
 
   const toggleVegetarian = () => {
     setIsVegetarian(!isVegetarian);
-    const filtered = FilterRecipes(
-      recipes,
-      searchText,
-      !isVegetarian,
-      isGlutenFree
-    );
+    const filtered = FilterRecipes(recipes, searchText, !isVegetarian, isGlutenFree);
     setFilteredRecipes(filtered);
   };
 
   const toggleGlutenFree = () => {
     setIsGlutenFree(!isGlutenFree);
-    const filtered = FilterRecipes(
-      recipes,
-      searchText,
-      isVegetarian,
-      !isGlutenFree
-    );
+    const filtered = FilterRecipes(recipes, searchText, isVegetarian, !isGlutenFree);
     setFilteredRecipes(filtered);
   };
 
@@ -628,12 +684,7 @@ const HomeScreen = ({ navigation }) => {
       <FlatList
         data={filteredRecipes}
         renderItem={({ item }) => (
-          <Recipe
-            recipe={item}
-            onViewDetails={() =>
-              navigation.navigate("RecipeDetails", { recipe: item })
-            }
-          />
+          <Recipe recipe={item} onViewDetails={() => navigation.navigate("RecipeDetails", { recipe: item })} />
         )}
         keyExtractor={(item) => item.id.toString()}
       />
@@ -646,7 +697,18 @@ export default HomeScreen;
 
 <img src="/assets/img/ExploringReactNativesCoreComponentsTheFoundationofYourUI_15.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AppNavigator.jsx
 
@@ -677,7 +739,18 @@ export default AppNavigator;
 
 App.js
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import React from 'react';
@@ -710,7 +783,18 @@ export default App;
 
 더 많은 학습을 원하시면 공식 문서를 방문해 주세요: https://reactnative.dev/docs/components-and-apis
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 스택델믹 🎓
 

@@ -3,17 +3,13 @@ title: "Command Pattern으로 코드 유연성을 개선한 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How I Improved Code Flexibility with the Command Pattern"
 link: "https://medium.com/@diyorbekjuraev77/how-i-improved-code-flexibility-with-the-command-pattern-53a9c1c0aab9"
 isUpdated: true
 ---
-
-
-
-
 
 ![HowIImprovedCodeFlexibilitywiththeCommandPattern_0](/assets/img/HowIImprovedCodeFlexibilitywiththeCommandPattern_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이럴 때 Command Pattern이 구조를 정리하는 데 도움이 되었습니다. OrderManager 클래스 내에 placeOrder, trackOrder, cancelOrder와 같은 별도의 메서드가 아닌 명령(command)을 사용하여 리팩토링하기로 결정했습니다. 각 명령은 특정 작업을 처리하는 논리를 포함한 작은 패키지처럼 작동합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기에 저의 작업 내용이 있어요:
 
@@ -76,7 +83,18 @@ manager.execute(CancelOrderCommand("5678"));
 
 Command Pattern에는 여러 가지 이점이 있어요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 격리: 각 명령은 고유한 개체 내에 캡슐화되어 있어서 테스트하고 유지하기 쉽습니다.
 - 제어: 명령은 특정 시간에 대기열에 추가되거나 실행되어 작업 흐름을 더욱 제어할 수 있습니다.
@@ -88,6 +106,17 @@ Command Pattern에는 여러 가지 이점이 있어요:
 
 이 글이 도움이 되었고 영감을 줬으면 좋겠습니다. 궁금한 점이나 생각이 있으시면 언제든 연락해 주세요. 다음에 또 만나요! 즐거운 코딩되세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 텔레그램 || 유튜브 || 깃허브 || 리트 코드 || 링크드인 || 트위터

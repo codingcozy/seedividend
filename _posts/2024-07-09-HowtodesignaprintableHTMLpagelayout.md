@@ -3,15 +3,13 @@ title: "인쇄 가능한 HTML 페이지 레이아웃 디자인하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-HowtodesignaprintableHTMLpagelayout_0.png"
 date: 2024-07-09 18:31
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-HowtodesignaprintableHTMLpagelayout_0.png
 tag: Tech
 originalTitle: "How to design a printable HTML page layout"
 link: "https://medium.com/@karthikricssion/how-to-design-a-printable-html-page-layout-802bc9ea61dd"
 isUpdated: true
 ---
-
-
 
 프린트 가능한 HTML 페이지는 신입 개발자나 경험 많은 프론트엔드 개발자들에게 항상 악몽이었어요. 제가 3년 전에 유사한 스타일을 작업했었는데, 여전히 StackOverflow에서 많은 연구를 해서 해결책을 찾아야 했어요. 하나를 만들고 그 과정에 대해 글을 써보기로 했어요. 도움이 될 것 같아서요.
 
@@ -30,7 +28,18 @@ isUpdated: true
 
 이제 sheet와 outer sheet에 스타일을 추가해봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```json
 {
@@ -53,7 +62,18 @@ isUpdated: true
 
 A4 페이지 크기를 mm 단위로 추가하십시오.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .sheet-outer.A4 .sheet {
@@ -80,7 +100,18 @@ A4 페이지 크기를 mm 단위로 추가하십시오.
 
 마지막으로 CSS에서 페이지 크기를 A4로 설정하고 레이아웃의 A4 크기를 설정하기 위해 인쇄 옵션을 사용하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 @페이지 {

@@ -3,17 +3,13 @@ title: "인기 있는 플러터 앱에서 사용하는 상태 관리 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "The Most Downloaded Flutter Apps I Found on PlayStore and the State Management They Use"
 link: "https://medium.com/gitconnected/the-most-downloaded-flutter-apps-i-found-on-playstore-and-the-state-management-they-use-f77f61b6195e"
 isUpdated: true
 ---
-
-
-
-
 
 ## 인기 있는 플러터 앱 탐험: 플레이스토어에서 상태 관리에 대한 심층 탐구
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이 글에서는 이 앱들을 5가지 카테고리로 나눠볼게요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Tier S: 5억 회 이상 다운로드된 매우 인기 있는 앱들
 - Tier A: 1억 회 이상 다운로드된 매우 인기 있는 앱들
@@ -37,7 +44,18 @@ Flutter Shark를 듣거나 사용해 본 적이 있나요? Play Store에서 다�
 
 ![이미지](/assets/img/TheMostDownloadedFlutterAppsIFoundonPlayStoreandtheStateManagementTheyUse_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앱에서 사용된 패키지 목록이 제공됩니다. 대부분 pub.dev에서 찾을 수 있는 패키지들입니다. 또한 대기업 앱들 중 일부는 내부 패키지로 개발되어 있습니다. 그것은 더 많은 엔지니어들이 자신만의 패키지를 만들기 때문에 이해할 만합니다. 다음은 패키지 목록의 예시 화면입니다.
 
@@ -47,7 +65,18 @@ Flutter Shark를 듣거나 사용해 본 적이 있나요? Play Store에서 다�
 
 데이터는 제가 수동으로 작성했어요 😃. 더 많은 다운로드를 받은 다른 앱들이 있을 수도 있고, 제가 모르는 앱들일 수 있습니다. 목록에 없는 경우 죄송합니다 🙏. 제가 그것을 및 다른 독자들을 위한 참고로 댓글에 남겨주시면 감사하겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또 다른 제한 사항은 지역입니다. 특정 국가에서만 제공되는 앱이기 때문에 다운로드할 수 없는 경우가 있습니다. 예를 들어, Nubank나 중국에서 만든 다른 플러터 앱 등이 있습니다.
 
@@ -62,7 +91,18 @@ Dart 버전: 3.3.0
 상태 관리: Provider
 다운로드 횟수: 5억 번 이상
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/TheMostDownloadedFlutterAppsIFoundonPlayStoreandtheStateManagementTheyUse_3.png)
 
@@ -77,7 +117,18 @@ Dart 버전: 3.3.0
 
 ![이미지](/assets/img/TheMostDownloadedFlutterAppsIFoundonPlayStoreandtheStateManagementTheyUse_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 누뱅크
 
@@ -92,7 +143,18 @@ Dart: 2.19.6
 
 ## 그랩
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 버전: 5.272.0(52720000)
 - Flutter 버전: 2.8
@@ -112,7 +174,18 @@ Dart: 2.19.6
 - 상태 관리: -
 - 다운로드 횟수: 1억 이상
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/TheMostDownloadedFlutterAppsIFoundonPlayStoreandtheStateManagementTheyUse_7.png)
 
@@ -127,7 +200,18 @@ Dart: 2.192
 
 ![image](/assets/img/TheMostDownloadedFlutterAppsIFoundonPlayStoreandtheStateManagementTheyUse_8.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 4 Pics 1 Word
 
@@ -142,7 +226,18 @@ Dart: 3.1.4
 
 ## SATUSEHAT
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 버전: 5.9.1(235)
 Flutter 버전: 3.10
@@ -162,7 +257,18 @@ Dart: 2.15.0
 상태 관리: -
 다운로드 횟수: 10백만 이상
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Flutter Apps](/assets/img/TheMostDownloadedFlutterAppsIFoundonPlayStoreandtheStateManagementTheyUse_11.png)
 
@@ -177,7 +283,18 @@ Dart: 3.1.5
 
 ![Flutter Apps](/assets/img/TheMostDownloadedFlutterAppsIFoundonPlayStoreandtheStateManagementTheyUse_12.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 은행 자고
 
@@ -192,7 +309,18 @@ Dart: 2.19.6
 
 ## 내 BMW
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 버전: 3.11.3(29541)
 Flutter 버전: 3.10
@@ -212,7 +340,18 @@ Dart: 3.14
 상태 관리: -
 다운로드 횟수: 1백만 이상
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/TheMostDownloadedFlutterAppsIFoundonPlayStoreandtheStateManagementTheyUse_15.png)
 
@@ -227,7 +366,18 @@ Dart: 2.17.6
 
 ![이미지](/assets/img/TheMostDownloadedFlutterAppsIFoundonPlayStoreandtheStateManagementTheyUse_16.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 해밀턴
 
@@ -242,7 +392,18 @@ Dart: 2.17.6
 
 1백만 이상의 다운로드:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - CA24 Mobile: 1M+
 - QuintoAndar: 1M+
@@ -256,4 +417,15 @@ Dart: 2.17.6
 
 또 다른 흥미로운 사실은 My BMW가 애플리케이션에서 441개의 패키지를 사용한다는 것입니다. 제 개인적인 플러터 앱과 비교해보면, 제 앱은 여전히 평균 이하라고 말하고 싶네요. ㅎㅎ 😆
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

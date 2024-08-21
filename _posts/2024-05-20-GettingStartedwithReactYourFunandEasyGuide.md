@@ -3,16 +3,13 @@ title: "리액트 시작하는 개발자가 봐야하는 글"
 description: ""
 coverImage: "/assets/img/2024-05-20-GettingStartedwithReactYourFunandEasyGuide_0.png"
 date: 2024-05-20 22:08
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-20-GettingStartedwithReactYourFunandEasyGuide_0.png
 tag: Tech
 originalTitle: "Getting Started with React: Your Fun and Easy Guide”?"
 link: "https://medium.com/@akashkhandelwal1999/getting-started-with-react-your-fun-and-easy-guide-c4d9ed374953"
 isUpdated: true
 ---
-
-
-
 
 - HTML: 웹페이지의 기본 구조를 이해합니다.
 - CSS: 스타일을 적용하여 웹페이지를 멋지게 만듭니다.
@@ -48,21 +45,32 @@ isUpdated: true
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // script.js
-const todoInput = document.getElementById('todo-input');
-const addBtn = document.getElementById('add-btn');
-const todoList = document.getElementById('todo-list');
+const todoInput = document.getElementById("todo-input");
+const addBtn = document.getElementById("add-btn");
+const todoList = document.getElementById("todo-list");
 
-addBtn.addEventListener('click', () => {
+addBtn.addEventListener("click", () => {
   const todoText = todoInput.value.trim();
-  if (todoText !== '') {
-    const todoItem = document.createElement('li');
+  if (todoText !== "") {
+    const todoItem = document.createElement("li");
     todoItem.textContent = todoText;
     todoList.appendChild(todoItem);
-    todoInput.value = '';
+    todoInput.value = "";
   }
 });
 ```
@@ -81,23 +89,18 @@ addBtn.addEventListener('click', () => {
 // script.js
 const TodoApp = () => {
   const [todos, setTodos] = React.useState([]);
-  const [todoText, setTodoText] = React.useState('');
+  const [todoText, setTodoText] = React.useState("");
 
   const handleAddTodo = () => {
-    if (todoText.trim() !== '') {
+    if (todoText.trim() !== "") {
       setTodos([...todos, todoText]);
-      setTodoText('');
+      setTodoText("");
     }
   };
 
   return (
     <div className="todo-container">
-      <input
-        type="text"
-        value={todoText}
-        onChange={(e) => setTodoText(e.target.value)}
-        placeholder="Add a new todo"
-      />
+      <input type="text" value={todoText} onChange={(e) => setTodoText(e.target.value)} placeholder="Add a new todo" />
       <button onClick={handleAddTodo}>Add</button>
       <ul>
         {todos.map((todo, index) => (
@@ -108,9 +111,20 @@ const TodoApp = () => {
   );
 };
 
-ReactDOM.render(<TodoApp />, document.getElementById('root'));
+ReactDOM.render(<TodoApp />, document.getElementById("root"));
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 이제 React에 익숙해졌으니 창의력을 발휘해보세요! 무엇이든 시작해보고 어떤 놀라운 것들을 만들어낼 수 있는지 확인해보세요. 기억하세요, 모든 위대한 프로젝트는 간단한 아이디어로 시작됩니다. 여러분은 할 수 있어요!

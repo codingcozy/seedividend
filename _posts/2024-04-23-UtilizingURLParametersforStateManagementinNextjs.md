@@ -3,17 +3,13 @@ title: "Nextjs에서 상태 관리를 위한 URL 파라미터 활용하기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Utilizing URL Parameters for State Management in Nextjs"
 link: "https://medium.com/@Choco23/utilizing-url-parameters-for-state-management-in-next-js-dade0d5cde88"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/UtilizingURLParametersforStateManagementinNextjs_0.png" />
 
@@ -26,7 +22,18 @@ useState 훅은 함수형 컴포넌트에서 상태를 관리하는 데 React �
 - 사용자 경험 고려: 전자상거래 앱에서 URL 매개변수를 활용하지 않을 경우 사용자 경험이 떨어질 수 있습니다. 사용자들이 쉽게 다른 사람과 선호 사항을 공유할 수 없기 때문입니다. 🛍️🔄
 - Prop drilling: 전역 상태를 관리하기 위해 useState에 의존하는 경우 모든 필요한 컴포넌트에 상태와 해당 setter 함수를 프롭스(prop)로 전달해야 하는 번거로움이 있습니다. 🌳
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 한계를 극복하기 위해 useReducer 훅, useContext 훅 또는 Redux와 MobX와 같은 서드 파티 도구와 같은 대안적인 상태 관리 방법을 채택하는 것을 고려해볼 수 있습니다.
 
@@ -36,7 +43,18 @@ URL 파라미터는 URL 끝에 물음표(?)를 사용하여 추가된 쿼리 문
 
 ![Utilizing URL Parameters for State Management in Next.js](/assets/img/UtilizingURLParametersforStateManagementinNextjs_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 🧐 그렇다면 왜 URL 매개변수를 useState보다 사용해야 하나요?
 
@@ -48,7 +66,18 @@ URL 파라미터는 URL 끝에 물음표(?)를 사용하여 추가된 쿼리 문
 
 useState는 로컬 컴포넌트 상태를 관리하는 데 힘이 있지만, URL 매개변수와 결합하면 상태 관리에 더 강력한 접근 방식이 제공됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # URL 파라미터 쿼리 패턴 이해하기
 
@@ -60,7 +89,18 @@ URL 파라미터는 키-값 쌍으로 구성되어 다양한 데이터 전송을
 https://www.example.com/search?q=mens+t-shirt&size=3xl&color=white&sort=asc.
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 URL은 검색 경로를 나타내며, 검색어는 "q" 키로 지정됩니다. 🕵️‍♂️ 이후의 매개변수들은 "size", "color", "sort"와 같이 추가적인 검색 기준을 나타내며, 각각 사용자의 브라우징 경험을 높여줍니다.
 
@@ -74,7 +114,18 @@ https://www.example.com/search?q=mens+t-shirt&size=3xl&color=white&sort=asc.
 - 📊 마케팅 캠페인 추적: 매개변수는 캠페인 쿼리를 포함하여 클릭율 추적 및 캠페인 효과 측정에 도움을 줍니다. 예를 들어: https://www.example.com/home?utm_campaign=fbid_newyearpromo&referrer_id=25jh8s
 - 📑 페이지 네비게이션: URL 매개변수는 웹페이지 검색 결과를 페이지별로 정리하여 부드러운 탐색이 이루어지도록 합니다. 예를 들어: https://www.example.com/blog/articles?page=3
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 URL 매개변수는 다양한 온라인 플랫폼에서 웹페이지 기능을 강화하고 사용자 경험을 풍부하게하는 강력한 도구로 부각됩니다.
 
@@ -84,7 +135,18 @@ URL 매개변수는 다양한 온라인 플랫폼에서 웹페이지 기능을 �
 
 ## 장점 🌟
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 책갈피 및 공유 가능한 URL: 사용자들은 애플리케이션의 특정 URL 상태를 책갈피에 추가하거나 다른 사람과 공유할 수 있어서 사용성과 협업이 향상됩니다. 📚
 - 딥 링킹: 개발자들은 URL 매개변수를 사용하여 쿼리 문자열과 일치하는 동적 페이지를 생성할 수 있어서 애플리케이션 상태의 딥 링킹이 개선됩니다. 🔗
@@ -98,7 +160,18 @@ URL 매개변수는 다양한 온라인 플랫폼에서 웹페이지 기능을 �
 
 # Next.js에서 URL 매개변수 구현 방법
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 구성 요소 생성하기
 
@@ -110,7 +183,18 @@ import { useRouter, useSearchParams } from "next/navigation";
 
 우리는 먼저 next/navigation에서 쿼리 훅을 불러옵니다. useRouter 훅은 클라이언트 응용프로그램 내의 어떤 경로로든 이동할 수 있게 해줍니다. 반면 useSearchParams 훅은 URL에서 쿼리를 다루는 데 사용됩니다. 즉, get, set, delete 메서드와 같은 동작이 가능합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, 표 태그를 Markdown 형식으로 바꿔 봅시다.
 
@@ -182,7 +266,18 @@ return (
 
 이 섹션에서는 사용자가 검색 쿼리를 입력할 수 있는 입력 필드를 만듭니다. 입력값의 업데이트를 다루기 위해 useState 대신에 입력필드의 defaultValue를 기존 쿼리로 설정합니다. 이렇게 하면 사용자가 페이지를 이동하거나 새로 고침해도 쿼리가 유지됩니다. URL 쿼리 매개변수를 사용하는 장점 중 하나입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const handleSubmit = (event) => {
@@ -220,7 +315,18 @@ export default SearchSortInput;
 
 이 구성 요소의 로직을 완성하기 위해 handleSubmit 함수를 form에 연결하고 내보냅니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 데이터 표시 컴포넌트 생성하기
 
@@ -233,8 +339,7 @@ const filteredData = () => {
   if (q) {
     newData = newData.filter(
       (item) =>
-        item.name.toLowerCase().includes(q.toLowerCase()) ||
-        item.username.toLowerCase().includes(q.toLowerCase())
+        item.name.toLowerCase().includes(q.toLowerCase()) || item.username.toLowerCase().includes(q.toLowerCase())
     );
   }
 
@@ -260,7 +365,18 @@ const filteredData = () => {
 
 그런 다음, JavaScript의 내장 필터 및 정렬 메서드를 활용하여 데이터를 검색하고 정렬하는 filteredData 함수를 생성합니다. 검색 또는 정렬 쿼리가 없는 경우, 전체 데이터를 간단히 반환합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 return (
@@ -274,10 +390,7 @@ return (
     </h1>
     <ul className="grid grid-cols-4 mx-auto max-w-[1260px] gap-10"></ul>
     {filteredData().map((item) => (
-      <ul
-        key={item.id}
-        className="flex border border-gray-300 p-4 rounded w-[600px] mb-4 gap-4"
-      >
+      <ul key={item.id} className="flex border border-gray-300 p-4 rounded w-[600px] mb-4 gap-4">
         <h3 className="text-lg font-semibold mb-2">{item.name}</h3>
         <p className="text-gray-500">사용자명: {item.username}</p>
         <p className="text-gray-500">이메일: {item.email}</p>
@@ -293,7 +406,18 @@ return (
 
 이는 사용자 쿼리에 기반한 검색 결과를 표시하는 페이지입니다. 이전에 만든 DisplayData 컴포넌트를 사용합니다. search 폴더 내의 page.js 파일을 열고 아래의 코드 스니펫을 붙여넣으세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 "use client";
@@ -331,9 +455,7 @@ export default function Search() {
   return (
     <div className="m-12">
       <SearchSortInput />
-      {q && (
-        <h3 className="text-2xl font-bold mb-4">Search results for: {q}</h3>
-      )}
+      {q && <h3 className="text-2xl font-bold mb-4">Search results for: {q}</h3>}
       {sort && <p className="text-[14px] mb-4">Sorted by: {sort}</p>}
       <Suspense fallback={<div>Loading...</div>} key={q}>
         <DisplayData data={data} sort={sort} q={q} />
@@ -375,7 +497,18 @@ export default function Home() {
 
 이 파일에서 주요 작업은 API route에서 데이터를 검색하는 것입니다. 홈페이지이기 때문에 검색 입력란과 DisplayData 컴포넌트를 표시합니다. 여기서는 컴포넌트만 렌더링하고, 검색 및 정렬 로직은 해당 기능에 전념한 /search 페이지에서 구현되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론 🌟
 

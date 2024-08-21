@@ -3,16 +3,13 @@ title: "왜 Lombok이 여전히 모든 Java 개발자 도구에 있는가"
 description: ""
 coverImage: "/assets/img/2024-07-12-WhyIsLombokStillinEveryJavaDeveloperToolkit_0.png"
 date: 2024-07-12 21:18
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-12-WhyIsLombokStillinEveryJavaDeveloperToolkit_0.png
 tag: Tech
 originalTitle: "Why Is Lombok Still in Every Java Developer Toolkit?"
 link: "https://medium.com/codex/why-is-lombok-still-in-every-java-developer-toolkit-ba038bf47f7"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-07-12-WhyIsLombokStillinEveryJavaDeveloperToolkit_0.png" />
 
@@ -22,16 +19,37 @@ isUpdated: true
 
 잘못 사용된다면 어떤 도구라도 치명적일 수 있습니다. Lombok도 그 중 하나입니다. 간단한 어노테이션이 뒷받침되어 이상한 버그를 일으킬 수 있습니다. 이런 일이 일어나는 것은 Lombok을 남용했을 때에만 발생하며, 그 외엔 훌륭한 도구입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 럼복에 대해 들은 몇 가지 잘못된 생각이 있어요.
 
 - 럼복을 사용해서 컴파일러를 속일 수 있다는 것
-    - @SneakyThrows는 확인된 예외를 처리하는 필요 없이 처리할 수 있게 합니다. 이를 처리하기 위해 많은 보일러플레이트를 작성할 필요가 없습니다.
-    
-    여기에 맞는 해결책이 없다면, 이것은 컴파일러를 위한 한 가지 트릭입니다.
+  - @SneakyThrows는 확인된 예외를 처리하는 필요 없이 처리할 수 있게 합니다. 이를 처리하기 위해 많은 보일러플레이트를 작성할 필요가 없습니다.
+  여기에 맞는 해결책이 없다면, 이것은 컴파일러를 위한 한 가지 트릭입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 해킹을 사용하여 많은 희생을 하는 것인가요? 저는 그렇지 않다고 말하겠어요.
 
@@ -41,7 +59,18 @@ isUpdated: true
 
 @SneakyThrows로 어떠한 문제도 경험해보지 못했어요. 하고 계신 일을 잘 아신다면 문제 없을 거에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 @SneakyThrows가 모든 상황에서 컴파일러를 막기 위해 사용되어서는 안 됩니다. SneakyThrows를 사용하면 특정 위치에서 예외에 대해 신경 쓰지 않아도 도움이 됩니다.
 
@@ -51,7 +80,18 @@ Java 17 이상을 작성 중이라면 @Value는 무의미합니다.
 
 Records는 이 주석을 구식으로 만듭니다. 그래도 다른 주석을 위해 Lombok이 필요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하이버네이트 엔티티는 롬복의 @NoArgsConstructor @Builder 및 기타 기능을 통해 큰 혜택을 받습니다. 하지만 @Data는 피하는 것이 좋습니다. 롬복은 JPA에서 매우 유용하며 확실히 좋은 사용 사례입니다.
 
@@ -108,7 +148,18 @@ public record User(String name, String lastName) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 value 객체 (레코드)에는 @Getter와 @Setter를 사용하지 않습니다.
 
@@ -118,7 +169,18 @@ Lombok이 생성하는 대신에 항상 레코드를 사용하는 것이 좋습�
 
 이 모든 것은 Java 17과 함께 작업하는 즐거움을 가진 사람들에게 적합합니다. 하지만 더 오래된 Java 버전을 사용하는 사람들에게는 어떻게 할까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 많은 사람들이 몇 가지 프로젝트에서 Java 업그레이드가 약간의 이벤트가 아니라는 것을 잊어버린다. 이러한 기능은 Java 개발을 쉽게 만든다. 그래서 사람들은 이러한 기능에 의존한다.
 
@@ -128,7 +190,18 @@ Lombok이 생성하는 대신에 항상 레코드를 사용하는 것이 좋습�
 
 도심 전설에 따르면 롬복을 사용하지 않기로 결정했을 때, delombok을 사용하여 확장된 코드를 생성하고 주석 처리된 파일을 대체할 수 있다는 것이었다. 그러나 생성된 파일은 매우 추악하고 어떤 스타일도 따르지 않았습니다. 모든 문제를 기억하지는 못하지만, 하나의 예로는 @NonNull 어노테이션을 사용하여 Guava Preconditions이나 Apache Commons의 Validate와 같은 한 줄 솔루션 대신 if/throw 블록을 사용하는 많은 라인으로 변환되었습니다. 생성된 코드를 보니 더 의존성을 추가하는 대신 바닐라 Java로 코드를 생성하는 것이 합리적으로 보이기 때문에 이것이 예상되었어야 했습니다. 그러나 실제로 이 전환을 수행하기 위해 필요한 작업에는 실제로 누구도 이를 인지하지 못했습니다. 그 결과 우리는 델롬복된 파일 대신 주석 처리된 파일의 구현을 수정하게 되었고, 이것은 많은 작업이 필요했습니다. 이 상황에서 많은 사람들은 롬복을 그대로 유지하는 것을 선호할지 모르겠지만, 나의 주된 관심사는 만약에 중요한 Java 업그레이드를 지원하기 위해 실제로 이전이 필요해진다면 어떻게 될지에 대한 것이었습니다 (현재 롬복은 여전히 Java 9-11에서 문제를 겪고 있음). 따라서 우리는 이러한 우려를 피하고 후에 보일러플레이트 코드 문제를 해결하기로 결정했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주석(annotation)을 적당히 사용하고 필요한 곳에 한해 사용하세요. delombok을 너무 믿지 마세요. 생성된 코드가 더 혼란스러울 수 있습니다.
 
@@ -138,7 +211,18 @@ Lombok의 몇 가지 기능은 잊혀지고 사용되지 않습니다. 예를 �
 
 그리고 그것은 그러한 이유 때문입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `@Builder`은 `@With`보다 메모리 친화적인 옵션입니다.
 
@@ -148,7 +232,18 @@ Lombok의 몇 가지 기능은 잊혀지고 사용되지 않습니다. 예를 �
 
 이것은 주석이 개발 경험을 좌우할 수 있는 단일 예시에 불과합니다. 하지만 Java 언어는 이러한 이례에 대응하기 위해 진화하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서 심층적인 내용을 모두 배울 필요가 없어요. 이전 예시에서는 레코드였는데, 이제는 @Value가 필요하지 않고 그 주석에 더 이상 신경 쓸 필요가 없어요.
 

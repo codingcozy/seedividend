@@ -3,7 +3,7 @@ title: "Nodejs를 이용한 이중 인증 구현 단계별 가이드"
 description: ""
 coverImage: "/assets/img/2024-06-23-HowtoImplementTwo-FactorAuthenticationusingNodejsStep-by-StepGuide_0.png"
 date: 2024-06-23 13:21
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-HowtoImplementTwo-FactorAuthenticationusingNodejsStep-by-StepGuide_0.png
 tag: Tech
 originalTitle: "How to Implement Two-Factor Authentication using Node.js: Step-by-Step Guide"
@@ -11,16 +11,24 @@ link: "https://medium.com/gitconnected/go-beyond-passwords-secure-your-node-js-e
 isUpdated: true
 ---
 
-
-
-
 오늘날의 디지턈 시대에서는 보안이 매우 중요합니다, 특히 웹 애플리케이션의 경우에는 더욱 그렇습니다. 두 단계 인증(2FA)을 구현하는 것은 애플리케이션의 보안을 향상시키는 효율적인 기술입니다.
 
 이 게시물은 node.js 개발자에게 가치 있는 정보일 것이지만, 개발자가 아니더라도 모든 프로그래밍 언어에 적용되는 주제이므로 여러분에게 많은 도움이 될 것입니다. Twilio Authy, Microsoft Authenticator, Google Authenticator 등 인기있는 인증 앱이 많이 있습니다. 이 튜토리얼에서는 Google Authenticator를 사용하여 2FA가 무엇인지, 애플리케이션 보안에 어떻게 도움이 되는지, 그리고 구현하는 방법에 대한 단계별 지침을 제공할 것입니다.
 
 ## 두 단계 인증(2FA)이란 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이중 인증 또는 2FA는 사용자가 자신의 신원을 확인하기 위해 두 가지 다른 요소를 제공해야하는 보안 메커니즘입니다. 이러한 요소는 일반적으로 세 가지 범주로 나뉩니다:
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 ## Google Authenticator를 사용한 Node.js에서의 2FA 구현
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2FA를 Node.js 애플리케이션에 Google Authenticator 앱을 사용하여 통합하는 방법을 알아봐요. 코딩 부분에 들어가기 전에 먼저 이 과정에 포함된 단계를 이해해 봅시다.
 
@@ -45,7 +64,18 @@ isUpdated: true
 
 이제 재미있는 부분이 다가와요 :) 우리는 위 단계들을 모두 코드로 변환할 거에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 양방향 인증을 구현하기 전에 다음 사전 요구 사항을 갖추었는지 확인해주세요:
 
@@ -58,7 +88,18 @@ isUpdated: true
 
 시작하기 위해 프로젝트용 새 디렉토리를 만들고 터미널에서 해당 디렉토리로 이동한 후 새 Node.js 프로젝트를 초기화하고 필요한 패키지를 설치하세요. 아래 명령어를 터미널에서 실행해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 mkdir node_2fa
@@ -75,18 +116,29 @@ npm install express otpauth hi-base32
 
 프로젝트에 index.js 파일을 만들고 기본 express 서버를 설정하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-const express = require('express');
+const express = require("express");
 const app = express();
 const port = 3000;
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-app.get('/', (req, res) => {
-  res.send('이중 인증 예제');
+app.get("/", (req, res) => {
+  res.send("이중 인증 예제");
 });
 
 app.listen(port, () => {
@@ -102,7 +154,7 @@ app.listen(port, () => {
 const users = [];
 
 // 새로운 사용자 등록을 위한 엔드포인트
-app.post('/register', (req, res) => {
+app.post("/register", (req, res) => {
   const { username, password } = req.body;
   const id = users.length + 1;
 
@@ -110,13 +162,23 @@ app.post('/register', (req, res) => {
   users.push({ id, username, password });
   res.status(201).send({
     status: "성공",
-    message: "사용자가 성공적으로 생성되었습니다"
+    message: "사용자가 성공적으로 생성되었습니다",
   });
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Step 4: Enable Two-Way Authentication](/assets/img/2024-06-23-HowtoImplementTwo-FactorAuthenticationusingNodejsStep-by-StepGuide_1.png)
 
@@ -127,17 +189,17 @@ app.post('/register', (req, res) => {
 ```js
 const OTPAuth = require("otpauth");
 const encode = require("hi-base32");
-const QRCode = require('qrcode');
+const QRCode = require("qrcode");
 
 // 두 가지 요소 인증 활성화를 위한 엔드포인트
-app.post('/enable-2fa', (req, res) => {
+app.post("/enable-2fa", (req, res) => {
   const { username } = req.body;
 
   // 사용자를 사용자 이름으로 찾기 (여기서는 데이터베이스를 사용해야 함)
   const user = users.find((u) => u.username === username);
 
   if (!user) {
-    return res.status(404).send('사용자를 찾을 수 없습니다.');
+    return res.status(404).send("사용자를 찾을 수 없습니다.");
   }
 
   // 사용자를 위한 비밀 키 생성
@@ -146,31 +208,31 @@ app.post('/enable-2fa', (req, res) => {
 
   // 사용자가 스캔할 QR 코드 URL 생성
   let totp = new OTPAuth.TOTP({
-      issuer: "YourSite.com",
-      label: "YourSite",
-      algorithm: "SHA1",
-      digits: 6,
-      secret: base32_secret,
+    issuer: "YourSite.com",
+    label: "YourSite",
+    algorithm: "SHA1",
+    digits: 6,
+    secret: base32_secret,
   });
 
   let otpauth_url = totp.toString();
 
   // 생성된 QR 코드를 응답으로 보내기
   QRCode.toDataURL(otpauth_url, (err) => {
-        if(err) {
-            return res.status(500).json({
-                status: 'fail',
-                message: "QR 코드 생성 중 오류 발생"
-            })
-        }
-        res.json({
-            status: "success",
-            data: {
-                qrCodeUrl: qrUrl,
-                secret: base32_secret
-            }
-        })
-    })
+    if (err) {
+      return res.status(500).json({
+        status: "fail",
+        message: "QR 코드 생성 중 오류 발생",
+      });
+    }
+    res.json({
+      status: "success",
+      data: {
+        qrCodeUrl: qrUrl,
+        secret: base32_secret,
+      },
+    });
+  });
 });
 
 const generateBase32Secret = () => {
@@ -180,8 +242,18 @@ const generateBase32Secret = () => {
 };
 ```
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 코드 스니펫에서 개발한 GenerateBase32Secret() 메서드는 base32로 인코딩된 비밀 키를 생성하는 데 사용됩니다. 이 키는 TOTP 생성 메커니즘의 중요한 구성 요소입니다. 또한 필요한 인수로 인스턴스화 한 후에 totpvariable에 OTPAuth.TOTP 클래스를 할당했습니다.
 
@@ -189,7 +261,18 @@ const generateBase32Secret = () => {
 
 마지막 단계에서는 QR 코드 라이브러리를 사용하여 otpauth_url로 QR 코드를 만들고 JSON 응답에 QR 코드 URL과 base32 비밀 문자열을 반환했습니다. 클라이언트에게 이러한 값을 반환함으로써 클라이언트 측 구현을 유연하고 쉽게 할 수 있습니다. 이를 통해 클라이언트는 base32 비밀 문자열을 사용하거나 인증 애플리케이션을 스캔하여 QR 코드를 사용하여 관련 TOTP 토큰을 생성할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인증 확인의 마지막 단계로 진행하기 전에, 먼저 인증 앱을 구성하여 다음 단계에서 토큰으로 제공될 6자리 코드를 생성해야 합니다.
 
@@ -199,7 +282,18 @@ Google Authenticator 앱을 활성화하기 위해 중요한 몇 가지 단계�
 
 ## 단계 5: 양방향 인증 확인하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마침내, 사용자가 제공한 일회용 코드를 확인하는 엔드포인트를 구현하세요. 이 단계에서는 인증 앱에서 생성된 6자리 코드를 전달하여 사용자의 신원을 확인해야 합니다.
 
@@ -235,7 +329,7 @@ app.post('/verify-2fa', (req, res) => {
         res.status(401).json({
             status: "fail",
             message: "인증 실패"
-        }) 
+        })
     }
 });
 ```
@@ -244,7 +338,18 @@ app.post('/verify-2fa', (req, res) => {
 
 이 게시물은 2단계 인증의 기본 설정 및 사용법을 다룹니다. 사용자의 존재 여부를 확인하는 기능을 구현했지만, 실제 구현에서는 2FA를 활성화하거나 비활성화하거나 인증하기 전에 사용자 로그인 상태를 추가로 확인해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 MongoDB 데이터베이스를 활용한 포괄적인 예제를 구축했어요. 모든 필수 API 엔드포인트와 미들웨어를 통합했습니다. 자세한 내용은 GitHub 레포지토리를 방문해주세요. https://github.com/Nik720/2fa-nodejs
 
@@ -254,7 +359,18 @@ MongoDB 데이터베이스를 활용한 포괄적인 예제를 구축했어요. 
 
 이 게시물에서 설명된 기술들인 QR 코드 기반 토큰 생성 및 안전한 OTP 확인을 적용함으로써, 무단 접근에 대한 강력한 방어막을 만들고 Node.js 사용자에게 비교할 수 없는 보호를 제공할 수 있습니다. 오늘부터 2FA 시스템을 구축하여 더 안전한 디지털 공간으로 나아가는 첫걸음을 내딛어보세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 이 글을 즐겼나요?
 
@@ -264,7 +380,18 @@ MongoDB 데이터베이스를 활용한 포괄적인 예제를 구축했어요. 
 
 여러분의 지지를 감사히 받겠습니다. 💚 읽어 주셔서 감사합니다! 🙏
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제 블로깅 사이트 codeshakti.com에서 기술 블로그에 대해 더 많은 정보를 찾아보세요.
 

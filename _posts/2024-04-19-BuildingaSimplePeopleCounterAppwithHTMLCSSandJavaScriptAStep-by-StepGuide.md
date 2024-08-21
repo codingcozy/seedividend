@@ -3,17 +3,13 @@ title: "HTML, CSS 및 JavaScript로 간단한 인원 카운터 앱 만들어보�
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Building a Simple People Counter App with HTML, CSS, and JavaScript A Step-by-Step Guide"
 link: "https://medium.com/web-3-digitals/building-a-simple-people-counter-app-with-html-css-and-javascript-a-step-by-step-guide-cfb31c883d07"
 isUpdated: true
 ---
-
-
-
-
 
 ![Building a Simple People Counter App with HTML, CSS, and JavaScript: A Step-by-Step Guide](/assets/img/BuildingaSimplePeopleCounterAppwithHTMLCSSandJavaScriptAStep-by-StepGuide_0.png)
 
@@ -35,7 +31,18 @@ isUpdated: true
 
 People Counter 앱은 HTML, CSS 및 JavaScript를 사용하여 개발된 웹 애플리케이션으로, 특정 영역(예: 상점이나 이벤트 장소)으로 들어오는 사람 수를 세는 데 사용됩니다. 이 People Counter 애플리케이션 프로젝트 안내를 끝까지 따라가면 프론트엔드 개발 기술이 향상될 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 프로젝트 개요
 
@@ -45,7 +52,18 @@ People Counter 앱은 지정된 영역으로 들어오고 나가는 사람 수�
 
 이 People Counter 애플리케이션을 구축하려면 HTML, CSS 및 JavaScript에 대한 기본적인 이해가 필요합니다. 구조화를 위해 HTML, 스타일링을 위해 CSS, 그리고 애플리케이션의 논리를 구현하기 위해 JavaScript에 익숙해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코드를 작성하려면 텍스트 편집기 또는 IDE(예: Visual Studio Code)가 필요하며 테스트를 위해 웹 브라우저가 필요합니다. 선택 사항으로는 애플리케이션을 호스팅하기 위한 GitHub 계정이 필요합니다.
 
@@ -58,7 +76,18 @@ People Counter 앱은 지정된 영역으로 들어오고 나가는 사람 수�
 - 간단한 인터페이스: 앱은 깨끗하고 직관적인 인터페이스를 갖추어 사용자가 손쉽게 작동할 수 있도록 합니다.
 - 반응형 디자인: 애플리케이션이 반응형이 되고 다양한 기기에서 잘 작동하도록 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 코드 구조
 
@@ -68,7 +97,18 @@ People Counter 앱은 지정된 영역으로 들어오고 나가는 사람 수�
 
 index.html 파일을 열어 'People Counter' 어플리케이션을 위한 다음 HTML 코드를 붙여넣어주세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <!DOCTYPE html>
@@ -108,7 +148,18 @@ index.html 파일을 열어 'People Counter' 어플리케이션을 위한 다음
 </html>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 style.css 파일을 열고 다음 CSS 코드를 붙여넣어 People Counter 애플리케이션을 스타일링하세요:
 
@@ -271,7 +322,18 @@ container h2 {
 
 이 코드는 페이지의 요소의 배경, 글꼴 스타일, 색상, 레이아웃 및 반응성을 설정하여 People Counter 애플리케이션에 시각적으로 매력적이고 기능적인 사용자 인터페이스를 만드는 데 도움을 줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 3. JavaScript 로직:
 
@@ -290,9 +352,7 @@ let resetEl = document.querySelector("#reset-btn");
 
 let saveEl = document.getElementById("save-el");
 
-let count = localStorage.getItem("count")
-  ? parseInt(localStorage.getItem("count"))
-  : 0;
+let count = localStorage.getItem("count") ? parseInt(localStorage.getItem("count")) : 0;
 
 countEl.innerText = count;
 
@@ -323,7 +383,18 @@ saveBtn.addEventListener("click", () => {
 
 위의 JavaScript 코드는 People Counter 애플리케이션의 기능을 정의합니다. HTML 문서에서 다양한 요소를 선택하고, count 변수를 초기화하며, 증가, 감소, 재설정 및 저장 버튼을 위한 이벤트 리스너를 설정합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 코드는 버튼 클릭에 따라 카운트를 증가시키거나 감소시키고, 카운트를 로컬 저장소에 저장하며, 필요할 때 카운트를 재설정하고 디스플레이를 업데이트합니다. 이 애플리케이션을 통해 사용자는 카운터와 상호 작용하고 카운트를 저장하며 카운트를 다시 0으로 재설정할 수 있습니다.
 
@@ -337,7 +408,18 @@ saveBtn.addEventListener("click", () => {
 - 디버깅: 오류나 문제가 발생하면 개발자 도구의 콘솔을 사용하여 JavaScript 코드를 디버깅합니다. 오류 메시지와 라인 번호를 찾아 문제가 발생하는 위치를 확인합니다.
 - 변경 사항 적용: 코드를 변경해야 하는 경우 코드 편집기로 돌아가 필요한 조정을 수행한 후 파일을 저장하고 브라우저를 새로 고침하여 앱에 반영된 변경 사항을 확인하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 배운 점
 
@@ -347,7 +429,18 @@ saveBtn.addEventListener("click", () => {
 
 People Counter 애플리케이션 프로젝트는 GitHub Pages에서 사용할 수 있으며 아래 링크를 클릭하면 온라인으로 액세스할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 애플리케이션을 테스트해보세요: https://wasiu-akindoyin.github.io/People-Counter-Web-Application/
 
@@ -357,7 +450,18 @@ GitHub 저장소에 방문하여 소스 코드를 확인하거나 기여할 수 
 
 앞으로 추가할 기능들을 계획 중이에요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 향상된 사용자 인터페이스: 애플리케이션 디자인을 개선하여 시각적으로 더 매력적이고 사용자 친화적으로 만듭니다.
 - 다중 카운터: 여러 카운터를 지원하여 사용자가 동시에 다른 영역이나 목적에 대한 카운트를 추적할 수 있도록 합니다.

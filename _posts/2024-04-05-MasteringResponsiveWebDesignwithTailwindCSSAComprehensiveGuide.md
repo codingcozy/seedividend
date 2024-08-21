@@ -3,17 +3,13 @@ title: "Tailwind CSS로 반응형 웹 디자인 구현하기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Mastering Responsive Web Design with Tailwind CSS A Comprehensive Guide"
 link: "https://medium.com/@ritikkhndelwal/mastering-responsive-web-design-with-tailwind-css-a-comprehensive-guide-348a843ad948"
 isUpdated: true
 ---
-
-
-
-
 
 이 블로그에서는 Tailwind CSS를 사용하여 반응형 웹 앱을 만드는 방법에 대해 자세히 알아보겠습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 반응형 디자인은 웹 디자인과 개발 방법론 중 하나로, 웹 사이트와 웹 애플리케이션을 모든 기기에서 멋지게 보이고 기능하도록 하는 것을 목표로 합니다! 반응형 웹 디자인은 다양한 화면 크기와 뷰포트에 자동으로 대응합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 반응형 디자인의 주요 목표는 데스크톱 컴퓨터, 랩톱, 태블릿, 스마트폰 또는 기타 장치에서 웹 사이트에 접속하는 경우에도 사용자 경험이 일관되고 효과적인지를 보장하는 것입니다.
 
@@ -49,7 +56,18 @@ isUpdated: true
 
 이것들이 당신의 웹사이트가 반응형이어야 하는 몇 가지 이유입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Tailwind CSS는 최근 많은 사람들에게 사랑받는 유틸리티 우선 CSS 프레임워크로, 현대적이고 반응형 웹 디자인을 손쉽게 구축하고 간소화할 수 있어요.
 
@@ -59,7 +77,18 @@ Tailwind CSS는 맞춤 CSS를 작성하지 않고도 개발자들이 웹 디자�
 
 Tailwind CSS는 매우 사용자 정의가 가능하며 수준이 낮은 CSS 프레임워크에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그들의 웹사이트를 방문해서 자세한 내용, 설치 방법, 문서 등을 확인할 수 있어요. 문서가 잘 작성되어 있어서 대부분의 쿼리를 해결할 수 있어요.
 
@@ -69,7 +98,18 @@ Tailwind CSS는 매우 사용자 정의가 가능하며 수준이 낮은 CSS 프
 
 이전에 이야기한 대로 리액트 앱을 사용할 예정이에요. 따라서 리액트 프로젝트를 만들거나 이미 작업 중인 프로젝트를 사용하세요. tailwind를 설치하기 위해 npm이나 선호하는 패키지 관리자를 사용하여 리액트 앱에 추가하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기본적으로 Tailwind는 모바일 우선 브레이크포인트 시스템을 사용합니다. 즉, 먼저 모바일 디자인을 만든 다음 브레이크포인트를 사용하여 더 큰 디스플레이를 대상으로 설정할 수 있습니다.
 
@@ -79,7 +119,18 @@ Tailwind CSS는 매우 사용자 정의가 가능하며 수준이 낮은 CSS 프
 
 ![Breakpoints](/assets/img/MasteringResponsiveWebDesignwithTailwindCSSAComprehensiveGuide_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 breakpoints는 min-width breakpoints이며 즉, 픽셀 값의 임계값을 넘어갈 때에만 적용됩니다.
 
@@ -89,7 +140,18 @@ Tailwind CSS는 매우 사용자 정의가 가능하며 수준이 낮은 CSS 프
 
 미리 정의된 Breakpoints를 사용하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 브레이크포인트를 사용하려면 원하는 브레이크포인트 이름을 prefix로 추가하고 ':'를 뒤에 붙이면 해당 요소에 브레이크포인트가 추가됩니다.
 
@@ -103,7 +165,18 @@ Tailwind에서는 모든 유틸리티가 개별적으로 브레이크포인트�
 <div className="sm:bg-grey-200 p-1 sm:p-2 md:bg-grey-400">안녕하세요 세계</div>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 중단점 범위:
 
@@ -115,7 +188,18 @@ Tailwind에서는 모든 유틸리티가 개별적으로 브레이크포인트�
 <div className="sm:max-lg:bg-grey-200 ">안녕하세요</div>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 친구야, 이렇게 하면 끝! 😊
 
@@ -127,7 +211,18 @@ Tailwind에서는 모든 유틸리티가 개별적으로 브레이크포인트�
 
 미리 정의된 값 전체를 변경하고 싶다면 theme 내에 스타일 객체를 추가하여 미리 정의된 값을 무시할 수 있어. 🌟
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /** @type {import('tailwindcss').Config} */
@@ -149,7 +244,18 @@ export default {
 
 확장 내에 스크린 객체를 정의하고 추가할 정의를 추가하면 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /** @type {import('tailwindcss').Config} */
@@ -172,7 +278,18 @@ max-width 브레이크포인트 범위 추가:
 
 원하는 경우 테마에 max-width 브레이크포인트를 추가할 수도 있습니다. 그러나 기본적으로 Tailwind는 min-width 값을 위해 프로그래밍되어 있으므로 max-width로 변경하려면 max를 키로, 값을 '1200px' 픽셀로 포함하는 객체 형식으로 값을 추가해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 //tailwind.config.js
@@ -206,7 +323,18 @@ module.exports = {
 
 테마 객체에서 고정 범위 브레이크포인트를 정의하여 프로젝트 전체에서 사용할 수 있습니다. 이를 위해 픽셀 범위와 함께 최소 및 최대값이 포함된 값을 객체로 정의합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 //tailwind.config.js
@@ -244,7 +372,18 @@ module.exports = {
 </div>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이렇게하면 tailwind 구성 파일에서 중단점을 정의할 필요가 없습니다. 이것은 이 중단점을 다른 구성 요소에 사용하고 싶지 않을 때 유용합니다.
 
@@ -255,7 +394,18 @@ module.exports = {
 
 예시:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <div className="bg-black sm:bg-grey-200 md:bg-grey-400">안녕하세요 세계</div>

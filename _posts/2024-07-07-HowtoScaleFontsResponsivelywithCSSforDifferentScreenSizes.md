@@ -3,15 +3,13 @@ title: "다양한 화면 크기에 맞춰 CSS로 폰트를 반응형으로 조�
 description: ""
 coverImage: "/assets/img/2024-07-07-HowtoScaleFontsResponsivelywithCSSforDifferentScreenSizes_0.png"
 date: 2024-07-07 21:20
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-HowtoScaleFontsResponsivelywithCSSforDifferentScreenSizes_0.png
 tag: Tech
 originalTitle: "How to Scale Fonts Responsively with CSS for Different Screen Sizes"
 link: "https://medium.com/@sikirus81/how-to-scale-fonts-responsively-with-css-for-different-screen-sizes-4107f233988b"
 isUpdated: true
 ---
-
-
 
 <img src="/assets/img/2024-07-07-HowtoScaleFontsResponsivelywithCSSforDifferentScreenSizes_0.png" />
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 # 뷰포트 메타 태그 설정
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 반응형 웹 디자인의 첫 번째 단계는 HTML 페이지의 헤드 섹션에 viewport 메타 태그를 포함하는 것입니다. 이는 브라우저에 반응형 렌더링을 사용하도록 지시합니다:
 
@@ -33,7 +42,18 @@ viewport 너비를 장치의 너비로 설정하고 초기 줌 레벨을 1로 �
 
 # CSS 미디어 쿼리 사용
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS 미디어 쿼리를 사용하면 너비, 해상도 및 방향과 같은 장치 특성에 따라 CSS 스타일을 조건부로 적용할 수 있습니다. 반응형 폰트 스케일링에 중요한 요소입니다.
 
@@ -62,7 +82,18 @@ body {
 
 이제 뷰포트가 확장됨에 따라 본문 텍스트는 14px에서 18px까지 확대/축소됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 네, 이런 식으로 해도 돼요:
 
@@ -70,7 +101,18 @@ body {
 
 뷰포트의 크기를 기반으로 한 상대적인 단위인 vw, vh, vmin 및 vmax와 같은 CSS lock 단위를 사용하면 텍스트 크기를 응담형으로 조절할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 body {
@@ -92,11 +134,33 @@ h2 {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 마크다운 형식으로 변경해 주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어:
 
@@ -132,7 +196,18 @@ p {
 
 # JavaScript 사용하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 다이나믹한 컨트롤을 위해 JavaScript를 사용하여 브라우저 너비를 감지하고 CSS 폰트 크기 스타일을 동적으로 설정할 수 있어요:
 
@@ -156,7 +231,18 @@ const setFontSize = () => {
 
 더 많은 제어를 위해 리사이즈 이벤트를 디바운싱하고 미디어 매치를 사용하면 더 세련된 제어가 가능해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 최소 및 최대 글꼴 크기 설정
 
@@ -172,7 +258,18 @@ body {
 
 글꼴 크기는 12px부터 20px까지 조절되어 너무 크거나 작은 텍스트를 방지합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 미디어 쿼리와 함께 사용하여 각 레이아웃 크기에 대한 다른 최소/최대 값으로 조절할 수 있어요.
 
@@ -182,7 +279,18 @@ body {
 
 예를 들면:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 body {
@@ -204,7 +312,18 @@ body {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 반응형 테스트
 
@@ -214,7 +333,18 @@ BrowserStack과 같은 서비스를 활용하면 1000개 이상의 실제 모바
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 반응형 글꼴 크기 조정은 화면 크기에 걸맞게 가독성을 향상시키는 요소로, 모바일 환경에서 매우 중요합니다. 미디어 쿼리, 뷰포트 단위, rem/em 크기 조정, 최소/최대 값 등 다양한 CSS 기술을 활용하여 글꼴 크기를 비례적으로 조절할 수 있습니다. 실제 모바일 기기에서 테스트하는 것이 반응형 글꼴이 어디에서나 아름답게 작동하는지 확인하는 핵심 요소입니다.
 

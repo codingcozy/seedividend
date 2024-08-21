@@ -3,17 +3,13 @@ title: "React 컴포넌트를 React Composition으로 유지보수하기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Keep your React Components maintainable with SOLID , React Composition CodeCraftsmanship 4"
 link: "https://medium.com/interaction-dynamics/keep-your-react-components-maintainable-with-solid-react-composition-codecraftsmanship-4-2969834e9ffa"
 isUpdated: true
 ---
-
-
-
-
 
 # 깨끗한 코드에 대한 짧은 메모
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ![이미지](/assets/img/KeepyourReactComponentsmaintainablewithSOLID-ReactCompositionCodeCraftsmanship4_0.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시간이 흐름에 따라 원활한 개발 속도를 유지하기 위해서는 코드를 3가지 중요한 측면을 통해 깔끔하게 유지하는 것이 중요합니다: 가독성, 확장성, 유지보수성.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 # 옛날옛날 개발자가 되었던 어느 날...
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트 개발자로서, 매우 자주 이미 있는 Input 컴포넌트와 같은 컴포넌트가 있습니다:
 
@@ -67,7 +85,18 @@ export default function Example() {
 
 삶은 아름답습니다 🏝️, 여러분의 컴포넌트는 기본적이고 안정적이며 일을 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 기능 n°1
 
@@ -77,7 +106,18 @@ export default function Example() {
 
 그래서 기능을 추가하려고 시작하면 가장 간단한 방법은 React 컴포넌트에 속성을 추가하는 것입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 export interface InputProps {
@@ -118,7 +158,18 @@ export default function Example() {
 
 그럼 다른 선택적인 기능이 있었던 것으로 Product Owner (항상 같은 분 😉)가 원하는 제안이 있습니다: 입력값이 일부 유효성 검사와 일치할 때 확인 표시기를 추가하는 것입니다. 다시 한 번 그는 매우 친절하게 목업을 제공해주었습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![SOLID React Composition](/assets/img/KeepyourReactComponentsmaintainablewithSOLID-ReactCompositionCodeCraftsmanship4_3.png)
 
@@ -171,7 +222,18 @@ export default function Example() {
 
 ## 지금 이 코드는 정말 복잡하네요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자, 이제 코드를 분석해보는 시간을 가져봅시다:
 
@@ -183,7 +245,18 @@ export default function Example() {
 
 ## 코드가 엉망일 때 어떻게 인식할까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문제를 해결하기 전에 잘못되었는지 감지할 수 있는 능력을 갖추는 것이 중요합니다. 다음은 여러 지표입니다:
 
@@ -196,18 +269,38 @@ export default function Example() {
 
 # 더 나은 방법은 무엇일까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 마크다운 형식으로 테이블을 변경한 코드입니다.
 
+| Methods | Description              |
+| ------- | ------------------------ |
+| Open    | Extension에 열려 있음    |
+| Closed  | Modification에 닫혀 있음 |
 
-| Methods   | Description            |
-|-----------|------------------------|
-| Open      | Extension에 열려 있음  |
-| Closed    | Modification에 닫혀 있음|
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## React에서 개방/폐쇄 원칙을 적용하는 방법은?
 
@@ -221,7 +314,18 @@ React 18에서 Composition은 컴포넌트를 확장하는 가장 일반적인 �
 
 그러나 다른 모든 속성과도 작동합니다: 확장의 목표에 대한 자세한 내용을 제공하고 여러 확장 지점을 허용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <Parent property1={<Children1 />} property2={<Children2 />} />
@@ -277,9 +381,31 @@ export function Example1() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한번 더 코드를 분석해봐요.
 
@@ -291,7 +417,18 @@ export function Example1() {
 
 React로 6년 이상의 경험 후에 말씀 드리지만, 이 React Composition Pattern은 React의 난잡한 코드 중 60%를 정리할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React Composition 패턴은 일반적인 코드를 촉진하고 여러 구성 요소로 분리하도록 강요하여 거의 좋지 않은 코드를 만듭니다.
 
@@ -301,7 +438,18 @@ React Composition 패턴은 일반적인 코드를 촉진하고 여러 구성 �
 
 하지만 아직 완벽하지 않습니다. 여전히 불편한 점이 몇 가지 보입니다. 이러한 기능 중 하나를 사용하여 Input을 인스턴스화하는 코드가 이제 더 길어졌습니다. 이 문제를 해결하기 위해 두 번째 기사를 작성했습니다: https://thibault-friedrich.medium.com/boost-react-composition-with-3-easy-to-use-patterns-codecraftsmanship-5-81e28f6fac53
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 글이 마음에 드셨나요? 👏
 

@@ -3,15 +3,13 @@ title: "TensorFlow Transform 프로덕션에서 매끄러운 데이터 준비를
 description: ""
 coverImage: "/assets/img/2024-07-09-TensorFlowTransformEnsuringSeamlessDataPreparationinProduction_0.png"
 date: 2024-07-09 14:29
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-TensorFlowTransformEnsuringSeamlessDataPreparationinProduction_0.png
 tag: Tech
 originalTitle: "TensorFlow Transform: Ensuring Seamless Data Preparation in Production"
 link: "https://medium.com/towards-data-science/tensorflow-transform-ensuring-seamless-data-preparation-in-production-99ffcf49f535"
 isUpdated: true
 ---
-
-
 
 ## 제품 환경을 위한 데이터 파이프라인 확장을 위한 TensorFlow Transform 활용
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 데이터 변환에 대해 더 알아보기 전에, 제품 파이프라인 프로세스의 첫 번째 단계인 데이터 유효성 검사에 대해 다룬 제 글 "TFX 방식으로 제품 파이프라인에서 데이터 유효성 검사하기"가 있습니다. 더 나은 이해를 위해 이 글을 확인해보세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 데모에서는 환경을 구성하는 것이 훨씬 쉽고 빠르기 때문에 이를 위해 Colab을 사용했습니다. 탐색 단계에 있다면 중요한 부분에 집중할 수 있도록 도와줄 Colab을 추천드립니다.
 
@@ -33,7 +42,18 @@ ML 파이프라인 작업은 데이터 수집 및 검증으로 시작하여 변�
 ! pip install tfx
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-09-TensorFlowTransformEnsuringSeamlessDataPreparationinProduction_1.png" />
 
@@ -59,7 +79,18 @@ import os
 
 저희는 데이터 유효성 검사 기사에서와 같이 Kaggle에서 제공하는 타이타닉 우주선 데이터셋을 사용할 것입니다. 이 데이터셋은 상업적 및 비상업적 용도로 무료로 사용할 수 있습니다. 여기에서 데이터셋에 접근할 수 있습니다. 데이터셋에 대한 설명이 아래 그림에 표시되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-09-TensorFlowTransformEnsuringSeamlessDataPreparationinProduction_2.png" />
 
@@ -77,7 +108,18 @@ _data_root = '/content/tfx/data/'
 
 그 다음으로, InteractiveContext를 만들고 파이프라인 디렉터리 경로를 전달합니다. 이 과정은 또한 파이프라인 프로세스의 메타데이터를 저장하기 위한 sqlite 데이터베이스를 생성합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 InteractiveContext은 각 단계를 탐색하는 데 사용됩니다. 각 단계에서 생성된 아티팩트를 확인할 수 있습니다. 프로덕션 환경에서는 Apache Beam과 같은 파이프라인 생성 프레임워크를 사용하면 이 전체 프로세스가 개입없이 자동으로 실행될 것입니다.
 
@@ -95,7 +137,18 @@ context = InteractiveContext(pipeline_root=_pipeline_root)
 example_gen = CsvExampleGen(input_base=_data_root)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 TFX는 현재 csv, tf.Record, BigQuery 및 일부 사용자 정의 실행기를 지원합니다. 자세한 내용은 아래 링크에서 확인할 수 있어요.
 
@@ -109,7 +162,18 @@ context.run(example_gen)
 
 구성 요소를 실행한 후, 아래와 같은 출력이 생성됩니다. 실행 ID, 구성 요소 세부 정보 및 구성 요소의 출력이 저장된 위치가 표시됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-09-TensorFlowTransformEnsuringSeamlessDataPreparationinProduction_3.png" />
 
@@ -119,7 +183,18 @@ context.run(example_gen)
 
 디렉토리 구조는 아래 이미지와 같습니다. 이 모든 아티팩트들은 TFX에 의해 자동으로 생성되었습니다. 또한 자동으로 버전이 지정되며 세부 정보는 metadata.sqlite에 저장됩니다. 해당 sqlite 파일은 데이터 출처 또는 데이터 계보를 유지하는 데 도움이 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래와 같이 코드를 사용하여 이러한 자료를 프로그램적으로 탐색해 보세요.
 
@@ -134,7 +209,18 @@ print(f'artifact uri: {artifact.uri}')
 
 출력은 파일 이름과 URI가 될 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-07-09-TensorFlowTransformEnsuringSeamlessDataPreparationinProduction_6.png)
 
@@ -154,7 +240,18 @@ dataset = tf.data.TFRecordDataset(tfrecord_filenames, compression_type="GZIP")
 
 아래 코드는 Tensorflow에서 가져온 것이며, TFRecordDataset에서 레코드를 가져와 결과를 반환하여 검사할 수 있는 표준 코드입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 도우미 함수로 개별 예제 가져오기
 
@@ -200,7 +297,18 @@ pp.pprint(sample_records)
 
 <img src="/assets/img/2024-07-09-TensorFlowTransformEnsuringSeamlessDataPreparationinProduction_7.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로, 다음 단계로 진행하여 StatisticsGen을 사용하여 데이터의 통계를 생성하는 과정으로 이동합니다. example_gen 객체에서 출력을 인수로 전달합니다.
 
@@ -218,7 +326,18 @@ context.run(statistics_gen)
 
 결과를 확인하려면 context.show를 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 출력 통계 보기
@@ -232,7 +351,18 @@ TFDV (TensorFlow Data Validation) 기사에서 설명한 통계 생성과 매우
 
 다음 단계는 스키마를 생성하는 것입니다. 이 작업은 statistics_gen 객체를 전달하여 SchemaGen을 사용하여 수행됩니다. 구성 요소를 실행하고 context.show를 사용하여 시각화하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 통계_gen 객체를 사용하여 SchemaGen을 사용하여 스키마 생성
@@ -255,7 +385,18 @@ context.show(schema_gen.outputs['schema'])
 
 여기에 제시된 스키마를 수정해야 하는 경우 tfdv를 사용하여 수정하고 스키마 파일을 생성할 수 있습니다. ImportSchemaGen을 사용하여 새 파일을 tfx에 사용하도록 요청할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 스키마 파일을 수동으로 추가
@@ -278,7 +419,18 @@ context.run(example_validator)
 
 모든 것이 잘되었음을 나타내는 이상적인 출력입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![TensorFlowTransformEnsuringSeamlessDataPreparationinProduction_10](/assets/img/2024-07-09-TensorFlowTransformEnsuringSeamlessDataPreparationinProduction_10.png)
 
@@ -288,7 +440,18 @@ At this point, our directory structure looks like the image above. We can see th
 
 Let us move on to the actual transformation part. We will now create the `constants.py` file to add all the constants required for the process.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 이 프로젝트에 사용할 모든 상수를 포함하는 파일 생성
 
@@ -325,7 +488,18 @@ return key + '\_xf'
 
 실제 데이터를 변환하는 코드를 포함하는 transform.py 파일을 생성합시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 프로젝트를 위한 전처리 코드가 포함된 파일을 생성합니다.
@@ -379,7 +553,18 @@ def preprocessing_fn(inputs):
 
 이 데모에서는 몇 가지 표준 스케일링 및 인코딩 함수를 사용했습니다. transform 라이브러리에는 실제로 다양한 함수가 포함되어 있습니다. 여기에서 살펴보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 변환 과정을 보겠습니다. Transform 객체를 생성하고 example_gen 및 schema_gen 객체와 함께 우리가 만든 transform.py 파일의 경로를 전달합니다.
 
@@ -403,7 +588,18 @@ context.run(transform)
 
 아래 이미지에 나타난 변환된 데이터를 살펴보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![TensorFlow Transform](/assets/img/2024-07-09-TensorFlowTransformEnsuringSeamlessDataPreparationinProduction_12.png)
 
@@ -413,7 +609,18 @@ context.run(transform)
 
 이 프로세스는 데이터 전처리를 원하는 개인을 위한 것이 아닙니다. 모델 훈련을 시작하고 싶은 사람들을 위한 것이 아닙니다. 이것은 대규모 데이터 (분산 처리를 요구하는 데이터)와 끊어질 여지가 없는 자동화된 프로덕션 파이프라인에 적용되어야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 변환을 적용한 후에 폴더 구조가 다음과 같이 보입니다
 
@@ -423,7 +630,18 @@ context.run(transform)
 
 우리는 tft.scale_to_0_1을 사용하여 숫자 특성을 스케일링했습니다. 이러한 함수는 전체 데이터를 분석해야 하는 세부 정보를 계산해야 합니다(예: 특성 내 평균, 최소값 및 최대값). 여러 기계에 분산된 데이터를 분석하여 이러한 세부 정보를 얻는 것은 성능이 많이 필요합니다(특히 여러 번 수행해야 하는 경우). 이러한 세부 사항은 한 번 계산되고 변환 그래프에 유지됩니다. 함수가 이러한 세부 정보를 필요로 할 때마다, 그것은 바로 변환 그래프에서 검색됩니다. 또한 학습 단계에서 생성된 변환을 직접 서빙 데이터에 적용하여 전처리 단계에서 일관성을 보장하는 데 도움이 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Tensorflow Transform 라이브러리를 사용하는 또 다른 주요 장점은 모든 단계가 아티팩트로 기록되어 데이터 계보가 유지된다는 것입니다. 또한 데이터가 변경될 때 자동으로 데이터 버전 관리가 수행됩니다. 이로 인해 제품 환경에서의 실험, 배포 및 롤백이 쉬워집니다.
 
@@ -433,7 +651,18 @@ Tensorflow Transform 라이브러리를 사용하는 또 다른 주요 장점은
 
 # 다음은 무엇일까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파이프라인 구성 요소를 더 잘 이해하기 위해 아래 글을 읽어보세요.
 

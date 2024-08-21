@@ -3,17 +3,13 @@ title: "VS code로 웹사이트 모바일 기기 테스트하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How to Test your web frontend design in mobile device via VS code"
 link: "https://medium.com/imu-framework-design/how-to-test-your-web-frontend-design-in-mobile-device-via-vs-code-2b49d2df5415"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/HowtoTestyourwebfrontenddesigninmobiledeviceviaVScode_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 단계 1: 확장 탭에서 Live Server를 설치하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/HowtoTestyourwebfrontenddesigninmobiledeviceviaVScode_1.png)
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 단계 3: 라이브 서버 설정 탭에서 설정.json에서 편집 링크를 볼 수 있으며, 이 중 하나를 선택하여 다음 줄을 추가하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 "liveServer.settings.useWebExt": true
@@ -45,7 +63,18 @@ isUpdated: true
 
 Step 4: 명령 프롬프트(CMD)로 이동하여 ipconfig를 입력하십시오. IP 주소를 확인할 수 있습니다. 이 주소를 모바일 장치에서 사용해야 합니다(192.168.XXX.XXX:5500).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/HowtoTestyourwebfrontenddesigninmobiledeviceviaVScode_5.png)
 

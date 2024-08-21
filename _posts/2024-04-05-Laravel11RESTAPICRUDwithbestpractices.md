@@ -3,17 +3,13 @@ title: "Laravel 11 REST API CRUD 작성하기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Laravel 11 REST API CRUD with best practices"
 link: "https://medium.com/@1415sandalanka/laravel-11-rest-api-crud-with-best-practices-fcc26505e0d2"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/Laravel11RESTAPICRUDwithbestpractices_0.png)
 
@@ -25,7 +21,18 @@ isUpdated: true
 composer create-project --prefer-dist laravel/laravel rest-api-crud
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 2: Mysql 데이터베이스 구성
 
@@ -35,7 +42,18 @@ Laravel 11의 기본 DB_CONNECTION은 sqlite입니다. 이를 DB_CONNECTION=mysq
 
 ## 단계 03: 마이그레이션과 함께 Product Model 생성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 php artisan make:model Product -a
@@ -57,7 +75,18 @@ database/migrations/YYYY_MM_DD_HHMMSS_create_products_table.php에서 다음과 
     }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 05: 제품 인터페이스 생성
 
@@ -69,7 +98,18 @@ php artisan make:interface /Interfaces/ProductRepositoryInterface
 
 Interfaces 폴더 안에 ProductRepositoryInterface.php라는 새 파일을 생성하고 다음 코드를 추가하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <?php
@@ -94,7 +134,18 @@ Product 모델을 위한 리포지토리 클래스를 만듭니다.
 php artisan make:class /Repositories/ProductRepository
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 수업에서 ProductRepository.php라는 새 파일을 만들고 다음 코드를 추가하십시오.
 
@@ -132,7 +183,18 @@ class ProductReposiotry implements ProductRepositoryInterface
 
 해야 할 일은 ProductRepository를 ProductRepositoryInterface에 바인딩하는 것입니다. 이를 서비스 프로바이더를 통해 수행합니다. 다음 명령어를 사용하여 하나를 생성하십시오.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 php artisan make:provider RepositoryServiceProvider
@@ -170,7 +232,18 @@ class RepositoryServiceProvider extends ServiceProvider
 
 ## 단계 08: 요청 유효성 검사
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 가지 요청 StoreProductRequest 및 UpdateProductRequest를 만든 후 다음 코드를 추가하세요.
 
@@ -262,7 +335,18 @@ class UpdateProductRequest extends FormRequest
 
 ## 단계 09: 공통 ApiResponseClass 생성하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 흔한 응답 클래스는 가장 좋은 실천 방법입니다. 왜냐하면 응답을 보낼 수 있는 'con' 함수를 사용할 수 있기 때문입니다. 다음 명령을 사용하여 하나를 생성하세요.
 
@@ -305,7 +389,18 @@ class ApiResponseClass
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 10: 제품 리소스 생성
 
@@ -317,7 +412,18 @@ php artisan make:resource ProductResource
 
 그리고 다음 코드를 추가하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```javascript
 <?php
@@ -462,7 +568,18 @@ class ProductController extends Controller
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 12: API 라우트
 
@@ -474,7 +591,18 @@ php artisan install:api
 
 컨트롤러에서 정의된 각 메서드를 특정 라우트에 매핑하려면 routes/api.php에 다음 코드를 추가하십시오.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <?php

@@ -3,7 +3,7 @@ title: "30초 만에 이해하는 Python의 연산자"
 description: ""
 coverImage: "/assets/img/2024-08-17-PythonsOperatorIn30Seconds_0.png"
 date: 2024-08-17 01:30
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-17-PythonsOperatorIn30Seconds_0.png
 tag: Tech
 originalTitle: "Pythons  Operator In 30 Seconds"
@@ -11,7 +11,6 @@ link: "https://medium.com/@zlliu/pythons-operator-in-30-seconds-3172c3ad4a77"
 isUpdated: true
 updatedAt: 1723864230359
 ---
-
 
 안녕하세요! 아래는 Markdown 형식으로 표를 변경한 것입니다.
 
@@ -23,7 +22,18 @@ updatedAt: 1723864230359
 
 @ 연산자는 행렬 곱셈을 위한 연산자에요. (데코레이터 구문의 @와는 구분해야 합니다)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 결과 = 행렬1 @ 행렬2
@@ -35,7 +45,18 @@ updatedAt: 1723864230359
 
 우리는 numpy에서 @를 사용하여 행렬 곱셈을 수행합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 import numpy as np
@@ -51,29 +72,39 @@ print(m1 @ m2)
 
 여기서는 @ 연산자를 사용하여 2개의 행렬 m1과 m2를 곱해줍니다.
 
-# __matmul__을 사용하여 사용자 정의하기
+# **matmul**을 사용하여 사용자 정의하기
 
-이를 사용자 정의하려면 __matmul__ 매직 메서드를 정의하기만 하면 됩니다.
+이를 사용자 정의하려면 **matmul** 매직 메서드를 정의하기만 하면 됩니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 class Dog:
     def __matmul__(self, other):
         return f'hello {other}'
-    
+
 dog = Dog()
 
 print(dog @ 500)    # hello 500
 ```
 
-기본적으로 객체는 __matmul__ 매직 메서드를 정의하지 않는 한 @ 연산자를 사용할 수 없음을 유념하십시오.
+기본적으로 객체는 **matmul** 매직 메서드를 정의하지 않는 한 @ 연산자를 사용할 수 없음을 유념하십시오.
 
 ```js
 class Dog:
     pass
-    
+
 dog = Dog()
 
 print(dog @ 500)    # ERROR
@@ -81,9 +112,20 @@ print(dog @ 500)    # ERROR
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-__matmul__을 사용하면 이제 객체들이 @ 연산자를 사용할 수 있습니다. 이해하기 쉽고 명확했기를 바랍니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+**matmul**을 사용하면 이제 객체들이 @ 연산자를 사용할 수 있습니다. 이해하기 쉽고 명확했기를 바랍니다.
 
 # 만약 제가 크리에이터로서 저를 지원하고 싶다면
 
@@ -95,7 +137,18 @@ __matmul__을 사용하면 이제 객체들이 @ 연산자를 사용할 수 있�
 
 감사합니다! 이 작은 행동들이 많은 도움이 되고, 정말 감사합니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 YouTube: [https://www.youtube.com/@zlliu246](https://www.youtube.com/@zlliu246)
 

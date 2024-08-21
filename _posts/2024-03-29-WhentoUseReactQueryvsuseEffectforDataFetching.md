@@ -3,17 +3,13 @@ title: "리액트 쿼리와 useEffect를 사용 방법 정리"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "When to Use React Query vs useEffect for Data Fetching"
 link: "https://medium.com/@tommyhc/when-to-use-react-query-vs-useeffect-for-data-fetching-2412a8a70641"
 isUpdated: true
 ---
-
-
-
-
 
 React 앱을 개발할 때 API에서 데이터를 가져와야 할 때가 있습니다.
 
@@ -21,7 +17,18 @@ React 앱을 개발할 때 API에서 데이터를 가져와야 할 때가 있습
 
 하지만 각각 언제 사용해야 할까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 포스트에서는 데이터 가져오기에 대한 React Query와 useEffect를 비교하고 각각 언제 사용해야 하는지에 대한 권장 사항을 제시하겠습니다.
 
@@ -31,7 +38,18 @@ React 앱을 개발할 때 API에서 데이터를 가져와야 할 때가 있습
 
 다음은 간단한 예시입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { useState, useEffect } from "react";
@@ -61,7 +79,18 @@ function MyComponent() {
 - 내장된 에러 처리 X
 - 로딩 상태와 에러 상태를 수동으로 추적해야 함
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기가 React Query가 등장하는 곳이에요…
 
@@ -71,7 +100,18 @@ React Query는 데이터 가져오기, 캐싱, 동기화 및 서버 상태 업�
 
 그것은 raw useEffect 접근 방식보다 여러 가지면에서 개선되어 있어요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 캐싱 - 쿼리 결과가 변경되지 않는 한 캐시되고 재사용됨
 - 중복 제거 - 중복된 요청이 없음
@@ -97,7 +137,18 @@ function MyComponent() {
 
 훨씬 깔끔해 보이죠!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React Query는 캐싱, 로딩 상태, 에러 처리 등을 기본적으로 처리해줘요.
 
@@ -107,7 +158,18 @@ React Query는 캐싱, 로딩 상태, 에러 처리 등을 기본적으로 처�
 
 여기 제 개인적인 지침이 있어요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 한 번만 데이터가 필요한 경우나 간단한 작업(예: 폼)에는 useEffect를 사용합니다.
 - 여러 컴포넌트 간에 데이터를 재사용하거나 오류 처리가 복잡한 경우에는 React Query를 사용합니다.
@@ -118,7 +180,18 @@ React Query를 사용하지 않는 주된 이유는 간결함과 핵심 기능 �
 
 다음 프로젝트에서 한번 시도해보세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 개요가 React Query와 useEffect가 가장 적합한 시나리오를 설명하는 데 도움이 되기를 바랍니다.
 

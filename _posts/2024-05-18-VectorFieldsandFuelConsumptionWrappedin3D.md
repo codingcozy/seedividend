@@ -3,16 +3,13 @@ title: "3D로 감싼 벡터 필드와 연료 소비"
 description: ""
 coverImage: "/assets/img/2024-05-18-VectorFieldsandFuelConsumptionWrappedin3D_0.png"
 date: 2024-05-18 21:52
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-18-VectorFieldsandFuelConsumptionWrappedin3D_0.png
 tag: Tech
 originalTitle: "Vector Fields and Fuel Consumption Wrapped in 3D"
 link: "https://medium.com/better-programming/vector-fields-and-fuel-consumption-wrapped-in-3d-475a8a9fd57c"
 isUpdated: true
 ---
-
-
-
 
 ![image](/assets/img/2024-05-18-VectorFieldsandFuelConsumptionWrappedin3D_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 본 글에서 제시된 솔루션은 WebGL2와 TypeScript의 조합입니다. WebGL 개념은 제가 직접 구현했지만, 일부 계산 부분은 직접 구현하기 번거로울 수 있습니다. 즉, 방정식의 상징적 조작이나 노이즈 생성과 같은 부분은 제작자의 이해로 하여금 코드를 이해하는 데 아무런 영향을 끼치지 않아야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 소리를 내보세요
 
@@ -32,19 +40,41 @@ isUpdated: true
 
 우리의 사용 사례에 대해, 저는 이 소스에서 Simplex 구현을 사용했습니다. 이 결정의 뒤에 있는 이유는 쉐이더에서 직접 계산을 사용할 수 있는 가능성과 코드가 상당히 읽기 쉽기 때문입니다. 우리의 소음 기능인 N(x, y, z, t)는 `0, 1.0` 사이의 값입니다. 내부적으로 벡터 당 세 개의 랜덤 값이 필요합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - XY 평면 각도
 - XZ 평면 내 각도
 - 벡터 크기
 
-각 쌍은 z 매개변수에 대한 다른 상수 오프셋 샘플링을 통해 얻어집니다. 오프셋은 값이 교차하지 않도록 선택되므로 XY 각도는 N(x, y, z, t), XZ 각도는 N(x, y, z + 오프셋, t)이고 벡터 크기는 N(x, y, z + 2*오프셋, t)입니다. 중요 참고 사항은 서로 다른 노이즈 구현은 서로 다른 함수 범위를 가질 수 있으므로 항상 `0`, `1.0` 사이의 값을 얻을 수 없을 수도 있습니다.
+각 쌍은 z 매개변수에 대한 다른 상수 오프셋 샘플링을 통해 얻어집니다. 오프셋은 값이 교차하지 않도록 선택되므로 XY 각도는 N(x, y, z, t), XZ 각도는 N(x, y, z + 오프셋, t)이고 벡터 크기는 N(x, y, z + 2\*오프셋, t)입니다. 중요 참고 사항은 서로 다른 노이즈 구현은 서로 다른 함수 범위를 가질 수 있으므로 항상 `0`, `1.0` 사이의 값을 얻을 수 없을 수도 있습니다.
 
 아래 벡터 필드의 시각화를 확인할 수 있습니다. 벡터 외에도 텍스처로 렌더링된 노이즈를 볼 수 있습니다 - 회색으로 분리되거나 RGB로 세 개의 채널로 결합됩니다.
 
 공간은 Z 축을 따라 n 개의 평면으로 분할되며, 각 평면은 그럼으로써 렌더링됩니다. 일반적으로 전체 노이즈 필드를 렌더링할 필요는 없지만, 시각화 목적으로 그렇게 합니다. 아래에서 보듯이, 하단 레이어는 노이즈 필드가 실제로 어떻게 보이는지 보여줍니다; 시간에 따라 변하는 회색 이미지입니다. 그런 다음 오프스크린 텍스처를 가져와서 우리의 벡터를 그릴 수 있습니다 (현재 각 평면당 400개의 벡터). 벡터의 각도와 크기는 쉐이더에서 텍셀을 추출하여 텍스처로부터 얻어집니다. 사용자 인터페이스에서 동적으로 더 많은 레이어를 추가할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 플로우, 느껴보세요!
 
@@ -59,7 +89,18 @@ isUpdated: true
 
 그러나 이 단계에서는 우리가 노이즈를 렌더링할 때와 같이 오프스크린 텍스처를 사용하지는 않을 거에요. 우리는 데이터셋(점으로 표현된 입자) 위에서 계산하는 것에만 관심이 있기 때문에 WebGL의 Transform Feedback 기능을 사용할 거예요. 이 접근 방식은 GPGPU에 대한 텍스처 핑퐁보다 약간 더 나아요. 우리는 데이터와 직접 작업할 수 있어 샘플링 모호성을 방지할 수 있어요. 텍스처나 텍셀 페치의 샘플링이 어떻게 깨졌다는 것은 전혀 말하고 싶지 않아, 하지만 얻은 데이터의 정확성과 특정 방식으로 보간되지 않을 것임을 내 인생을 건다고 말할 수는 없겠어요. 하지만 아마도 저는 너무 의심이 많을지도 모르겠어요. :] 빨간색은 더 빠른 입자를 나타냅니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 말씀드린 대로, 저희 Noise 함수는 셰이더에서 구현되어 있어서 Transform feedback과 함께 Noise를 사용하는 것은 간단합니다. 저는 성능을 깊게 테스트하지는 않았지만, 우리는 입자들을 두 번만 접촉하고 새로운 위치를 계산하고 드로우 콜을 하기 때문에 규모 확장 관점에서 꽤 좋을 것입니다. 이 특정 경우에는 플로우 시각화가 그다지 흥미로운 것은 아니지만, 이것을 2D 평면상의 투사 표면 기울기 필드의 시각화로 사용하고 있으며 3D 공간을 탐색하는 것보다 더 유용합니다.
 
@@ -69,7 +110,18 @@ isUpdated: true
 
 저는 Bump 함수부터 시작하기로 결정했습니다. 이 함수는 대칭적이며, 도메인 크기에 비해 오랜 플랫폼을 갖고 있을 수 있으며, 공격적인 이륙 또는 착륙을 나타낼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹지엘에서 경로 시각화는, 잘, 이상적이지 않아요. 우리는 공간에서 경로 표현에 많은 시간을 쏟을 수 있지만, 저는 더 중요한 일이 있어서 악마와 협상을 통해 LINE_STRIP를 통한 표현으로 만족해야 합니다. 어떤 함수든 주어졌을 때, 프로그램은 N개의 점에서 함수를 샘플링하고 벡터 필드를 통해 스트립을 만듭니다. 보면서 알 수 있듯이, 어떤 샘플 점에서든 해당 시간에 벡터 값도 시각화됩니다.
 
@@ -79,8 +131,18 @@ isUpdated: true
 
 나중에 더 복잡한 내용을 다룰 예정이지만, 먼저 입자가 일정 경로를 따라 벡터 필드를 통해 이동할 때 수행되는 작업의 기본적인 정의를 사용할 것입니다. 그래서 우리 경우에 비행기가 단순히 입자로 가정합시다. 직관적으로, 이 적분은 현재 시간에 따른 벡터 필드와 얼마나 잘 맞는지를 말합니다. 즉, 양수가 나오면 풍향이 더 세다는 것을 의미하고, 음수가 나오면 역풍이 더 강했다는 것을 의미합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Vector Fields and Fuel Consumption Wrapped in 3D](/assets/img/2024-05-18-VectorFieldsandFuelConsumptionWrappedin3D_2.png)
 
@@ -90,8 +152,18 @@ r는 우리 경로를 통해 매개변수화된 함수이며, F는 노이즈 함
 
 심플렉스 노이즈의 정의는 기본적으로 우리의 섀이더에 작성되어 있으므로, 이를 적분의 입력으로 사용해도 괜찮다고 생각할 수 있습니다. 결국, 노이즈 계산을 단순화할 때 논리적으로 증명하기 위해서, 이는 적분하기 쉽게 다루기 쉬운 다항식들에 대한 멋진 작업들뿐인 것이기 때문입니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문제는 벡터 계수를 얻으려면 사인 및 코사인 함수를 적용해야 한다는 것입니다. 그리고 이러한 함수를 적분하면, 일반화된 프레넬 적분 영역에 들어가게 됩니다. 이러한 적분을 해결하고 나열할 수는 있지만, 많은 작업이 필요합니다. 그리고 궁금증은 Matlab이나 Scipy와 같은 백엔드를 사용하지 않고도 비슷한 프로젝트에서 복소해석을 다루고 싶은지에 대한 문제입니다.
 
@@ -101,17 +173,39 @@ r는 우리 경로를 통해 매개변수화된 함수이며, F는 노이즈 함
 
 Akima 스플라인은 계산이 매우 빠르고 특히 연속 도함수의 n차 순도 같은 강력한 요구사항이 없는 경우 특히 유용한 유형의 스플라인이기 때문에 흥미로운 유형의 스플라인입니다. 우리의 경우, 우리는 처음 도함수만 필요합니다. 이것은 잘 동작하며 평균 오차가 작으며 종종 그러한 다항 함수들이 선형이거나 일정할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이는 단일 적분이 N-1개의 적분으로 분할되어 함께 요약해야 한다는 것을 의미합니다. 이론적으로 각 근사치에 스텝 함수 또는 헤비사이드 함수의 해석적 근사치를 곱해서, 스플라인이 해당 도메인에서만 "활성화"되도록 할 수 있습니다. 그러나 이는 최종 적분을 더욱 복잡하게 만들 수 있습니다.
 
 # 버프 함수가 손을 놓고 있지 않습니다
 
-지금까지는 벡터 필드가 다항식으로 근사되어 왔고 이제는 매개변수화된 경로 함수 r의 미분을 어떻게 처리할지 신경 써야 합니다. 우리의 내적 부분을 살펴봅시다: 
+지금까지는 벡터 필드가 다항식으로 근사되어 왔고 이제는 매개변수화된 경로 함수 r의 미분을 어떻게 처리할지 신경 써야 합니다. 우리의 내적 부분을 살펴봅시다:
 
 ![image](/assets/img/2024-05-18-VectorFieldsandFuelConsumptionWrappedin3D_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Akima의 보간 (다항식)이 있는 벡터 필드에 따른 경로의 pol, 그리고 g(t)는 t에 관한 매개변수화된 경로의 z 성분입니다. 아래에서 g(t) 함수의 두 예시를 볼 수 있습니다. 하나는 상수 0이고, 다른 하나는 sin(t)입니다. 이제 우리는 벡터 필드를 통해 의미 있는 경로를 구성할 수 있습니다.
 
@@ -121,7 +215,18 @@ Akima의 보간 (다항식)이 있는 벡터 필드에 따른 경로의 pol, 그
 
 라이브 데모나 소스 코드를 함께 살펴보거나 플레이하려고 계획하시는 경우, FlightHelper 클래스에 임의의 경로를 추가할 수 있습니다. 사용하고 싶은 기호적 표현을 사용할 수 있지만, Nerdamer와 호환되어야 합니다. 이전 그림에서 본 함수들에 대한 정의는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 static init() {
@@ -145,18 +250,39 @@ static init() {
 
 벡터 필드가 우리의 경로와 일치하는 경우, 작업 결과는 2가 되며 정확히 도메인 크기가 2이기 때문에 합리적입니다. 벡터 필드가 우리에게 반대로 작용할 때 작업 결과는 -2이고 수직일 때는 작업이 0입니다. 다음 비디오에서는 벡터 필드가 잡음에 의해 무작위로 개선되었을 때의 계산을 볼 수 있습니다. 완료되면 최적의 경로는 검은색으로 표시되며 각 경로의 비용은 왼쪽 상단에 표시됩니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 하지만 비행기는 단순히 한 점이 아닙니다
 
 지금까지 우리는 벡터 필드가 우리의 경로와 얼마나 일치하는지 계산할 수 있었습니다. 우리의 계산은 정확한 모델은 아니지만, 이제 어느 경로가 에너지적인 관점에서 어떻게 더 나은지 또는 나쁜지를 말할 수 있습니다. 우리가 프라하에서 도쿄로 사선비행기로 날아갈 때 언제 출발할지 선택한다면, 날씨 예측을 기반으로 작업 계수를 계산하여 가장 일치하는 예측을 선택했기 때문에 연료를 절약할 수 있습니다. 그러나 다른 교통 수단으로도 그렇게 할 수 있습니다. 예를 들어 보트를 소유하고 있다면, 바람 날씨 예측 데이터 대신에 파도 속도를 바람 예측과 결합하여 사용할 수 있으며, 작업은 동일하지만 차원이 적어집니다.
 
-연료 소비의 정확한 모델보다는 계산을 개선할 수 있는 한 가지 방법이 있습니다. 작업 적분 뿐만 아니라, 우리의 적분에 다른 함수를 추가해 보겠습니다. 이를 '비용'이라고 부르겠습니다: 
+연료 소비의 정확한 모델보다는 계산을 개선할 수 있는 한 가지 방법이 있습니다. 작업 적분 뿐만 아니라, 우리의 적분에 다른 함수를 추가해 보겠습니다. 이를 '비용'이라고 부르겠습니다:
 
 <img src="/assets/img/2024-05-18-벡터필드와연료소비의3D포장.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 함수는 다음과 같은 전체 동적 특성을 나타낼 수 있어요:
 
@@ -170,7 +296,18 @@ static init() {
 
 # 길을 보여주세요, 나의 주여
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금은 목적지로 비행할 때 언제 출발할지 선택할 수 있는 위치에 있습니다. 경로도 선택할 수 있습니다 — 보통 이는 사실이 아니며, 항공 공간은 무질서가 아닙니다. 수학적 관점에서 우리는 작업 적분의 전역 최솟값을 찾고, 해당 최솟값 후보를 얻기 위해 도함수가 영과 같은 도함수를 찾을 수 있습니다:
 
@@ -180,7 +317,18 @@ static init() {
 
 하나의 해결책은 세상을 3D 그리드로 분할하고 그래프상에서 최적의 경로를 찾는 것입니다. 그리드가 정칙적이므로 경로에 스플라인 보간을 적용할 수도 있습니다. 게다가 규칙 세트도 갖고 있을 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 경로 시작점으로부터 현재 위치까지의 유클리드 거리는 항상 증가해야 하며, 동시에 현재 위치로부터 경로 끝까지의 유클리드 거리는 항상 감소해야 합니다.
 - 격자 위의 어떤 점도 반드시 어떤 봉투 안에 있어야 합니다.
@@ -191,7 +339,18 @@ static init() {
 
 # 미래 계획
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 초반에는 포아송 방정식에 관한 글을 작성하려 했지만 결국 시각화 작업이 예상보다 더 오랜 시간이 걸렸고 중간에 더 많은 기능을 추가하기도 했어요. 그래도 어쨌든 결과적으로 이런 식으로 끝나서 기뻐요. 이런 작은 작업조차 흥미로운 부분이 많거든요. GitHub에서 실시간 데모와 소스 코드를 확인할 수 있어요. 해당 프로젝트 관련 모든 것은 webgl2 폴더에 있어요. 아직 몇 가지 부분을 더 최적화하고 싶어해요 (노이즈 계산/경로 비용 속도 향상, 더 나은 궤도 카메라, 드로우 호출 감소 (인스턴스 어레이, 중복된 유니폼 제거) 등). 현재로서는 데스크탑/노트북에서의 사용이 선호돼요.
 

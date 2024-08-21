@@ -3,7 +3,7 @@ title: "Bootstrap으로 반응형 디자인 적용하기 웹 페이지를 모바
 description: ""
 coverImage: "/assets/img/2024-06-22-ResponsiveDesignwithBootstrapMakingYourWebpageMobile-Friendly_0.png"
 date: 2024-06-22 15:28
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-ResponsiveDesignwithBootstrapMakingYourWebpageMobile-Friendly_0.png
 tag: Tech
 originalTitle: "Responsive Design with Bootstrap: Making Your Web page Mobile-Friendly"
@@ -11,17 +11,23 @@ link: "https://medium.com/@etwinworkshop/responsive-design-with-bootstrap-making
 isUpdated: true
 ---
 
-
-
-
 아래는 표를 Markdown 형식으로 변경해주세요.
 
-
 | <img src="/assets/img/2024-06-22-ResponsiveDesignwithBootstrapMakingYourWebpageMobile-Friendly_0.png" /> |
-|---|
+| -------------------------------------------------------------------------------------------------------- |
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 반응형 디자인은 웹페이지가 다양한 화면 크기와 방향에 매끄럽게 적응하여 최적의 조회 및 상호작용 경험을 제공합니다.
 
@@ -31,7 +37,18 @@ isUpdated: true
 
 Bootstrap은 포괄적인 그리드 시스템과 미리 정의된 클래스를 제공하여 반응형 디자인을 간단하게 만듭니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 프레임워크는 방대한 CSS 코딩이 필요하지 않아서 개발자들이 디자인에 더 집중하고 구현 세부 사항에 덜 신경 쓸 수 있게 해줍니다.
 
@@ -41,7 +58,18 @@ Bootstrap은 포괄적인 그리드 시스템과 미리 정의된 클래스를 �
 
 ## 주요 개념:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 컨테이너: 내용물을 감싸는 역할을 하며, 장치 화면 크기에 따라 너비를 조정합니다.
 - 행: 열의 수평 그룹을 포함하여 정렬과 구조적 무결성을 보장합니다.
@@ -81,7 +109,18 @@ Bootstrap은 포괄적인 그리드 시스템과 미리 정의된 클래스를 �
 </html>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 설명:
 
@@ -93,16 +132,27 @@ Bootstrap은 포괄적인 그리드 시스템과 미리 정의된 클래스를 �
 
 부트스트랩은 디바이스 화면 크기에 따라 요소 가시성, 정렬, 스타일링을 제어하는 유틸리티 클래스를 제공하여 레이아웃 제어를 향상시킵니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 예시 사용법:
 
 ```js
 <div class="container">
-   <div class="row">
-      <div class="col-12 col-sm-6 d-none d-sm-block">작은 화면 이상에만 표시됩니다.</div>
-      <div class="col-12 col-sm-6 d-block d-sm-none">작은 화면에만 표시됩니다.</div>
-   </div>
+  <div class="row">
+    <div class="col-12 col-sm-6 d-none d-sm-block">작은 화면 이상에만 표시됩니다.</div>
+    <div class="col-12 col-sm-6 d-block d-sm-none">작은 화면에만 표시됩니다.</div>
+  </div>
 </div>
 ```
 
@@ -113,7 +163,18 @@ Bootstrap은 포괄적인 그리드 시스템과 미리 정의된 클래스를 �
 - d-block: 모든 화면 크기에서 블록으로 요소를 표시합니다.
 - d-sm-none: 작은 화면 이상에서 요소를 숨깁니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 컬럼 오프셋 활용
 
@@ -123,13 +184,24 @@ Bootstrap은 포괄적인 그리드 시스템과 미리 정의된 클래스를 �
 
 ```js
 <div class="container">
-   <div class="row">
-      <div class="col-4 offset-4">가운데 정렬된 컬럼</div>
-   </div>
+  <div class="row">
+    <div class="col-4 offset-4">가운데 정렬된 컬럼</div>
+  </div>
 </div>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 설명:
 
@@ -140,15 +212,26 @@ Bootstrap은 포괄적인 그리드 시스템과 미리 정의된 클래스를 �
 
 부트스트랩의 정렬 클래스는 컬럼 내에서 수직 및 수평 콘텐츠 정렬을 가능하게 하여 레이아웃 제어를 향상시킵니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 예시 정렬:
 
 ```js
 <div class="container">
-   <div class="row align-items-center" style="height: 200px;">
-      <div class="col">수직 가운데 정렬</div>
-   </div>
+  <div class="row align-items-center" style="height: 200px;">
+    <div class="col">수직 가운데 정렬</div>
+  </div>
 </div>
 ```
 
@@ -157,7 +240,18 @@ Bootstrap은 포괄적인 그리드 시스템과 미리 정의된 클래스를 �
 - align-items-center: 행 내부의 콘텐츠를 수직으로 가운데 정렬합니다.
 - 인라인 스타일 style="height: 200px;"은 수직 정렬을 위한 높이를 추가합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 오프셋과 정렬을 결합하기
 
@@ -167,13 +261,24 @@ Bootstrap은 포괄적인 그리드 시스템과 미리 정의된 클래스를 �
 
 ```js
 <div class="container">
-   <div class="row align-items-center" style="height: 200px;">
-      <div class="col-4 offset-4 text-center">수평 및 수직으로 중앙 정렬됨</div>
-   </div>
+  <div class="row align-items-center" style="height: 200px;">
+    <div class="col-4 offset-4 text-center">수평 및 수직으로 중앙 정렬됨</div>
+  </div>
 </div>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 설명:
 
@@ -185,10 +290,20 @@ Bootstrap은 포괄적인 그리드 시스템과 미리 정의된 클래스를 �
 
 부트스트랩은 중첩된 행 및 열, 사용자 정의 오프셋, 정렬 조정을 통해 복잡하고 반응형 레이아웃을 만들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 중첩 열의 예시:
-
 
 <div class="container">
    <div class="row">
@@ -202,12 +317,22 @@ Bootstrap은 포괄적인 그리드 시스템과 미리 정의된 클래스를 �
    </div>
 </div>
 
-
 # 결론
 
 부트스트랩의 그리드 시스템과 유틸리티 클래스를 사용하면 모든 기기에서 잘 작동하는 반응형 웹 페이지를 쉽게 만들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 도구를 활용하여 화면 크기와 관계없이 최적의 사용자 경험을 보장할 수 있습니다.
 

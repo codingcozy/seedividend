@@ -3,16 +3,13 @@ title: "인공지능으로 감정 분석 성능 높이기"
 description: ""
 coverImage: "/assets/img/2024-05-18-ElevatingSentimentAnalysis_0.png"
 date: 2024-05-18 21:33
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-18-ElevatingSentimentAnalysis_0.png
 tag: Tech
 originalTitle: "Elevating Sentiment Analysis"
 link: "https://medium.com/@seandearnaley/elevating-sentiment-analysis-ad02a316df1d"
 isUpdated: true
 ---
-
-
-
 
 ## Unsloth를 사용하여 LLaMA-3 8B를 세밀하게 조정하기
 
@@ -22,7 +19,18 @@ Meta의 LLaMA-3 8B와 같은 오픈 소스 대형 언어 모델(LLM)은 80억 �
 
 ## 학습 결과
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - LLaMA-3 8B 개요: LLaMA-3 8B 모델의 뛰어난 기능과 이점, 그리고 세밀조정 양자화 성능 주변의 논란을 이해하세요.
 - 사용자 지정 데이터셋: 공개 데이터와 합성 결과를 혼합하여 데이터셋을 구축하는 방법을 배우세요. 대규모 생성을 위한 코드에 대해 실습해 보세요.
@@ -39,7 +47,18 @@ Meta의 LLaMA-3 8B와 같은 오픈 소스 대형 언어 모델(LLM)은 80억 �
 
 세밀조정은 미리 훈련된 모델을 특정 작업이나 데이터셋에 맞게 조정하여 성능과 특정 응용 프로그램에 대한 적합성을 향상시키는 프로세스입니다. LLaMA-3 8B와 같은 대규모 언어 모델(LLM)의 맥락에서 세밀조정은 모델을 더 작고 작업별 데이터셋에 다시 훈련시킴으로써 감성 분석과 같은 작업에 특화되도록 하는 과정을 말합니다. 이는 모델의 매개변수를 조정하여 새로운 데이터의 미묘한 점을 더 잘 포착할 수 있도록 하는 것으로 달성됩니다. 세밀조정은 사전 훈련된 모델의 강점을 활용하면서도 특정 요구 사항을 충족시키기 위해 모델을 맞춤화하는데 큰 도움이 될 수 있습니다. 이 문서에서는 Unsloth를 사용하여 LLaMA-3 8B의 세밀조정과정에 대해 탐구하며, 특히 금융 분야에서의 감성 분석 성능 향상을 보여줄 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 금융 분야에서 감성 분석 적용하기
 
@@ -49,7 +68,18 @@ Meta의 LLaMA-3 8B와 같은 오픈 소스 대형 언어 모델(LLM)은 80억 �
 
 Meta LLaMA 3 8B는 Meta AI가 개발한 80억 개의 파라미터를 갖춘 최첨단 언어 모델입니다. LLaMA 3 가족의 일부로, 다양한 자연어 처리 작업을 위한 사전 훈련 및 명령 조정된 버전을 포함하고 있습니다. 이 모델은 최적화된 트랜스포머 아키텍처, 그룹화 쿼리 어텐션(GQA) 및 더 큰 어휘를 갖춘 새로운 토크나이저를 특징으로 하여 효율성과 멀티언어 기능을 향상시켰습니다. 상업 및 연구용으로 설계된 LLaMA 3 8B는 대화 생성, 추론 및 코드 생성에 뛰어나며, 소비자용 하드웨어에 배포할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-05-18-ElevatingSentimentAnalysis_0.png" />
 
@@ -61,7 +91,18 @@ Meta LLaMA 3 8B는 Meta AI가 개발한 80억 개의 파라미터를 갖춘 최�
 - 세밀 조정: Unsloth 라이브러리를 사용하여 준비된 데이터셋으로 선택한 기본 모델을 섬세 조정합니다. Unsloth는 훈련 과정을 최적화하여 높은 정확도를 유지하면서 메모리 사용량과 훈련 시간을 크게 줄입니다.
 - 테스트: 포괄적인 테스트 단계에서 성능을 측정하고 이상 현상을 식별하기 위해 여러 번 반복합니다. 결과를 평가하기 위해 통계 분석을 사용하여 fine-tuned 모델이 성능 기준을 충족하는지 확인합니다. 이 단계는 모델의 강점과 개선 영역을 이해하고 행동과 정확도에 대한 가치 있는 통찰을 제공함으로써 모델을 이해하는 데 도움이 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 데이터셋 만들기
 
@@ -71,7 +112,18 @@ Meta LLaMA 3 8B는 Meta AI가 개발한 80억 개의 파라미터를 갖춘 최�
 
 완성된 데이터셋은 41.4k개의 레코드가 포함되어 있으며 HuggingFace에서 다운로드할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 세 가지 다른 공개 데이터 세트에서 데이터를 수집합니다. 단계 1은 항공사 심정 데이터 세트에서 트윗을 처리하고, 단계 2는 금융 문구 은행에서 감정 분석을 처리하며, 단계 3은 newsdata.io에서 기사를 처리합니다. 각 단계는 데이터를 원하는 형식으로 변환하기 위해 고유한 전략이 필요합니다. 예를 들어 자신감 수준에 대한 가정을 만들고, 더 큰 언어 모델을 사용하여 뉴스 기사의 감정 레코드를 종합합니다. 이 접근법을 통해 더 많은 데이터를 수집하고, 더 큰 모델의 일반화 능력을 활용하여 효과적으로 감정 분석을 수행할 수 있습니다.
 
@@ -81,7 +133,18 @@ Meta LLaMA 3 8B는 Meta AI가 개발한 80억 개의 파라미터를 갖춘 최�
 
 이 스크립트는 항공사 심정 관련 트윗 데이터 세트를 처리하고, 결과를 새로운 CSV 파일에 저장합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 감정 매핑: 감정 레이블 (positive, neutral, negative)을 숫자 값 (1.0, 0.0, -1.0)으로 매핑합니다.
 - 데이터 처리: 입력 CSV를 읽어 각 트윗을 처리하여 감정을 추출하고, 감정, 확신 및 이유를 포함한 JSON 객체를 구성합니다.
@@ -94,7 +157,18 @@ Meta LLaMA 3 8B는 Meta AI가 개발한 80억 개의 파라미터를 갖춘 최�
 
 이 스크립트는 금융 PhraseBank 데이터셋을 처리하고, 금융 뉴스 구절을 포함하며 출력을 CSV 파일에 저장합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 신뢰 점수: 감정 주석의 합의 수준에 따라 다른 신뢰 점수를 할당합니다.
 - 감정 매핑: 트윗 스크립트와 유사하게, 감정 레이블을 숫자 값에 매핑합니다.
@@ -108,7 +182,18 @@ Meta LLaMA 3 8B는 Meta AI가 개발한 80억 개의 파라미터를 갖춘 최�
 
 이 스크립트는 뉴스 기사 데이터셋을 처리하고 다양한 언어 모델을 사용하여 합성 출력을 생성하며 출력을 CSV 파일로 저장합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - API 통합: 여러 AI 모델 (예: LLaMA 3 70b, OpenAI GPT-3.5, GPT-4 등)을 사용하여 감성 분석을 생성합니다. Perplexity.ai와 Groq는 LLaMA 3 70b에 대해 빠른 추론을 제공하지만 가장 강력한 모델은 아닙니다. 여러 실험을 거친 후, 총 비용이 $20 미만으로 들어갑니다. 전체 실행은 아마도 $10 미만으로 완료할 수 있습니다. 정말 높은 정확도를 원한다면 최상의 모델에 대해 비용을 지불해야 합니다.
 - 특수화된 프롬프팅: 시스템 메시지와 5번의 예시를 사용하여 안정적인 결과를 얻고, 결과를 pydantic 검증기를 통해 실행합니다. 이는 중요하며 추후 추론 테스트에도 같은 특수화된 프롬프팅을 사용할 것입니다. 신뢰할만한 결과를 얻기 위해 일부 조정이 필요할 수 있습니다.
@@ -123,7 +208,18 @@ Meta LLaMA 3 8B는 Meta AI가 개발한 80억 개의 파라미터를 갖춘 최�
 
 이 스크립트는 트윗, 금융 구문, 그리고 기사 데이터셋의 결과를 하나의 CSV 파일로 결합합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 데이터 살펴보기: 모든 데이터가 일관된 형식으로 되어 있고 인코딩 문제가 없도록 보장합니다.
 - JSON 유효성 검사: JSON 문자열을 유효한 형식으로 만족시키는지 확인합니다.
@@ -135,7 +231,18 @@ Meta LLaMA 3 8B는 Meta AI가 개발한 80억 개의 파라미터를 갖춘 최�
 
 이 스크립트는 결합된 데이터셋을 HuggingFace에 업로드할 수 있는 형식으로 변환하여 모델 공유와 훈련을 위한 형식으로 만듭니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 데이터 변환: 합쳐진 CSV 파일을 읽어 데이터를 정제하고 JSON 형식으로 변환합니다.
 - 데이터셋 구조: HuggingFace에서 모델 학습에 적합한 대화 형식으로 데이터를 구성합니다.
@@ -148,7 +255,18 @@ Meta LLaMA 3 8B는 Meta AI가 개발한 80억 개의 파라미터를 갖춘 최�
 
 이 유틸리티 스크립트는 주요 스크립트 전반에 걸쳐 사용되는 도우미 함수와 클래스를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - SentimentResponse: JSON 응답을 유효성 검사하기 위한 Pydantic 모델.
 - File Utilities: 메시지 읽기, 레코드 ID 생성, 처리된 레코드 로딩 및 저장을 위한 함수들이 포함되어 있습니다.
@@ -159,7 +277,18 @@ Meta LLaMA 3 8B는 Meta AI가 개발한 80억 개의 파라미터를 갖춘 최�
 
 # 세밀한 조정 워크플로우
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 소개
 
@@ -169,13 +298,35 @@ Meta LLaMA 3 8B는 Meta AI가 개발한 80억 개의 파라미터를 갖춘 최�
 
 [노트북 링크](https://colab.research.google.com/drive/1H40hAFkh8FnOivEEyEsMn6REN8HfKPwB?usp=drive_link)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Unsloth 라이브러리는 대규모 언어 모델의 세밀 조정을 가속화하고 메모리 사용량을 줄이기 위해 설계된 강력한 라이브러리입니다. Daniel과 Michael Han에 의해 만들어진 Unsloth는 역전파 최적화 및 PyTorch 모듈을 Triton 커널로 재작성하여 30배 빠른 훈련 속도와 60-80% 낮은 메모리 소비를 달성합니다. 다양한 NVIDIA GPU를 지원하는 Unsloth는 Hugging Face 생태계와 완벽하게 통합되어 LLAMA 및 Mistral과 같은 다양한 LLM 아키텍처와 호환됩니다. 놀랍게도, 기존 방법과 비교했을 때 0% 정확도 하락을 유지하며 LLM의 세밀 조정에 효율적인 솔루션을 제공합니다. HuggingFace에서 자세히 알아보세요.
 
 ## Unsloth를 사용한 세밀 조정 워크플로우
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 언슬로스 스크립트는 큰 언어 모델 (LLM)인 LLaMA-3 8B와 같은 모델의 미세 조정 과정을 간소화하고 가속화하는 데 도움이 됩니다. 이 노트북/스크립트가 하는 작업에 대해 간단히 설명해드릴게요:
 
@@ -190,7 +341,18 @@ Unsloth 라이브러리는 대규모 언어 모델의 세밀 조정을 가속화
 
 ## GGUF
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 GGUF, 또는 General Graph Universal Format은 LLaMA-3 8B와 같은 LLM(Large Language Model)의 배포 효율성과 유연성을 향상시키기 위해 설계된 파일 형식입니다. Llama.cpp 팀이 소개한 GGUF는 이전 버전인 GGML보다 개선된 단일 파일 배포, 확장성 및 빠른 모델 로딩을 위한 메모리 매핑을 제공합니다. 이 형식은 양자화된 모델에 특히 적합하여 성능을 저해하지 않으면서도 계산 리소스 수요를 줄일 수 있습니다. GGUF는 CPU 및 Apple 장치를 포함한 다양한 플랫폼에서 LLM의 배포 및 추론을 간소화하고자 하는 개발자에게 이상적인 선택입니다. 더 많은 정보는 HuggingFace에서 확인하세요.
 
@@ -200,7 +362,18 @@ GGUF, 또는 General Graph Universal Format은 LLaMA-3 8B와 같은 LLM(Large La
 
 Andreas Traczyk과 함께 공동 저술한 이 저장소는 다양한 모델에 대한 테스트 및 추론을 목적으로 설계되었습니다. GitHub에서 코드에 액세스할 수 있습니다. 이 저장소를 사용하여 다른 모델을 효과적으로 비교하고 성능을 분석하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 https://github.com/seandearnaley/llama_3_8b_sentiment_analysis_tests
 
@@ -210,7 +383,18 @@ https://github.com/seandearnaley/llama_3_8b_sentiment_analysis_tests
 
 ## Specialized Prompting
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 중요한 단계는 데이터셋이 이러한 프롬프팅 기술(합성 데이터)을 사용하여 부분적으로 작성되었으며, 종종 미세 조정 대신에 이를 사용할 수 있습니다. 우리는 정말로 우리의 미세 조정에서 실제로 더 나은 성능을 얻고 있는지, 그리고 그것을 할 가치가 있는지를 평가하고 싶습니다. 신뢰할 수 있는 JSON 결과를 돌려받아 pydantic 검증을 통과하는 것이 목표입니다. 우리는 JSON을 원합니다. 파이썬 함수(예: 함수 호출)로 쉽게 전달할 수 있기 때문입니다.
 
@@ -241,7 +425,18 @@ https://github.com/seandearnaley/llama_3_8b_sentiment_analysis_tests
 
 그리고 우리는 5개의 예제로 스레드를 초기화합니다(5-shot 프롬프팅, 미세 조정은 0-shot을 제공하지만 이 작업에 특화되어 있습니다):
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 금융 뉴스 기사가 다음과 같은 XML 태그로 둘러싸여 제공될 것입니다:
@@ -305,7 +500,18 @@ https://github.com/seandearnaley/llama_3_8b_sentiment_analysis_tests
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `generate_model_sentiments.py` 스크립트는 설정 가능한 횟수의 반복을 수행하며, 분산 등에 대한 평균값에 대한 테스트를 실행할 것입니다. 각 반복마다 JSON 파일은 다음과 같이 보입니다. 각 sentiment는 사전 캐싱된 기사에서 해싱되어 동일한 내용을 각 반복에 대해 평가하고 있습니다:
 
@@ -351,12 +557,23 @@ https://github.com/seandearnaley/llama_3_8b_sentiment_analysis_tests
 
 저희는 Mac Pro M2 with 32gb을 사용 중이며, Ollama 0.1.38 버전을 사용하고 있습니다. Yahoo Finance의 동일한 뉴스 기사 세트에 대해 15회 반복 실행하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-default_temperature: 0.2
-context_window_size: 8192
-num_tokens_to_predict: 1024
+default_temperature: 0.2;
+context_window_size: 8192;
+num_tokens_to_predict: 1024;
 ```
 
 ## Ollama
@@ -365,7 +582,18 @@ Ollama은 클라우드 서비스가 필요 없이 사용자가 자신의 기기�
 
 HuggingFace에서 GGUF 파인 튜닝된 모델을 다운로드할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 GGUFs를 Ollama에 로드하려면 시스템 메시지와 템플릿이 포함된 사용자 정의 모델 파일이 필요합니다. 여기에서 사용 중인 양자화 수준에 해당하는 GGUF 파일로 교체하고 있습니다. llama3-8b-sentiment-may-3-2024-unsloth.Q4_K_M.gguf를 사용하고 Ollama로 가져올 때 원하는 이름을 지을 수 있습니다:
 
@@ -377,7 +605,18 @@ ollama create llama3:8b-instruct-sentiment_analysis-q4_K_M -f Modelfile
 
 이 섹션에서는 다양한 감성 분석 모델의 평가 결과를 제시하며, 주요 성능 메트릭 및 통계적 비교에 초점을 맞춥니다. 우리는 화학적인 성능 메트릭을 중시하여 세밀하게 조정된 감정 모델을 기본 모델과 비교하여 금융 감성 데이터 처리의 효율성과 정확도를 결정했습니다. 이러한 메트릭은 각 모델의 성능을 종합적으로 보여주며, 감성 분석 작업에 특화된 세밀하게 조정된 모델을 사용하는 장점을 강조합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기를 클릭하시면 인터랙티브 3D 시각화를 확인할 수 있어요
 
@@ -387,7 +626,18 @@ ollama create llama3:8b-instruct-sentiment_analysis-q4_K_M -f Modelfile
 
 ## 모델 세부 정보
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 모델 이름: 사용된 특정 모델을 나타냅니다 (예: llama3_8b-instruct-fp16).
 - 양자화 수준: 모델에서 사용된 정밀도 수준을 나타냅니다 (예: q4, q5, fp16). q4 및 q5와 같은 낮은 수준은 더 적은 메모리를 사용하고 더 빨라질 수 있지만 정확성이 떨어질 수 있습니다.
@@ -403,7 +653,18 @@ ollama create llama3:8b-instruct-sentiment_analysis-q4_K_M -f Modelfile
 
 ## 통계적 비교
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 세부 조정된 모델(감성 분석을 목적으로 디자인된)을 일반 용도 모델과 비교하기 위해 통계 검정을 사용합니다.
 
@@ -418,7 +679,18 @@ ollama create llama3:8b-instruct-sentiment_analysis-q4_K_M -f Modelfile
 - 감성과 확신: 높은 평균 감성 점수와 평균 확신 점수가 바람직합니다, 모델이 명확한 감성을 감지하고 예측에 대해 확신을 가지고 있음을 보여줍니다.
 - 통계적 유의성: 분산과 평균 비교를 위한 p-값이 0.05 미만인 경우, 모델 간에 유의미한 차이가 있다는 것을 제시합니다. 이는 특수화된(세부 조정된) 모델이 일반 용도 모델보다 실질적인 혜택을 제공하는지 결정하는 데 도움이 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 예시
 
@@ -433,8 +705,18 @@ llama3_8b-instruct-fp16와 llama3_8b-instruct-sentiment_analysis-fp16을 비교�
 
 이러한 지표와 비교를 이해함으로써, 초보자도 특정한 요구 사항과 맥락에 기반하여 사용할 감성 분석 모델에 대한 정보를 얻을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Financial Sentiment Analysis Model Comparison](/assets/img/2024-05-18-ElevatingSentimentAnalysis_3.png)
 
@@ -444,8 +726,18 @@ llama3_8b-instruct-fp16와 llama3_8b-instruct-sentiment_analysis-fp16을 비교�
 
 이 분석의 목표는 금융 감성 분석을 위한 최적 모델을 식별하기 위해 세부 조정된 감성 분석 모델을 해당 원본 모델과 비교하는 것입니다. 감성 점수에 대한 분산, 평균 감성 점수, 평균 확신 점수 등 메트릭을 살펴보고 F-통계 및 T-통계를 사용하여 통계적 비교를 수행했습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 주요 지표 및 비교
 
@@ -460,7 +752,18 @@ llama3_8b-instruct-fp16와 llama3_8b-instruct-sentiment_analysis-fp16을 비교�
 - F-통계량 및 P-값(분산): 세밀하게 조정된 모델과 베이스 모델 간에 분산에서 유의한 차이가 나타납니다. 예를 들어, llama3_8b-instruct-q5_K_M 대 llama3_8b-instruct-sentiment_analysis-q5_K_M은 F-통계량이 18.75 (p-value ` 0.01)입니다.
 - T-통계량 및 P-값(평균): 평균 감정 점수도 유의하게 다릅니다. 같은 비교에서 T-통계량은 -4.33 (p-value ` 0.01)입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 신뢰도 점수 변동에 대한 설명
 
@@ -470,7 +773,18 @@ llama3_8b-instruct-fp16와 llama3_8b-instruct-sentiment_analysis-fp16을 비교�
 
 인공지능 커뮤니티의 최근 토론은 LLaMA 3 8B 모델을 특히 Q4와 같은 낮은 비트폭으로 양자화하는 것에 중대한 문제점을 강조했습니다. 보고서에 따르면, 임의의 날짜 삽입, 단어 반복, 일관성 감소와 같은 문제를 포함한 출력 품질의 상당한 저하가 나타났다고 합니다. 이러한 성능 하락은 Mistral이나 이전 LLaMA 버전과 같은 다른 모델들과 비교했을 때 더욱 두드러지게 나타났습니다. LLaMA 3 모델의 방대한 사전 훈련과 높은 토큰 수는 양자화에 내재된 정밀도 손실에 민감해져, 이러한 고급 모델에 대한 양자화 기술을 최적화하기 위한 추가 연구가 필요할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 감성 분석 모델에 대한 함의
 
@@ -482,7 +796,18 @@ llama3_8b-instruct-fp16와 llama3_8b-instruct-sentiment_analysis-fp16을 비교�
 - 반올림: 숫자를 낮은 정밀도 형식에서 가장 가까운 표현 가능한 값으로 근사화하는 것을 의미합니다. 반올림 오차가 누적되어 감성 분석 출력의 품질이 저하될 수 있습니다.
 - 분산 관찰: 흥미로운 점은 Q4에서의 감성 점수에서 고정밀도 수준인 Q5, Q8 및 FP16과 비교하여 낮은 분산을 관측한 사용자들이 있었다는 것입니다. 일반적으로 고정밀도는 더 안정된 결과를 제공하나, 이상적인 결과는 고정밀도 손실에 민감해져 LLaMA 3 모델의 안정성에 영향을 미칠 수 있다는 것을 시사합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 실용적인 결과
 
@@ -494,7 +819,18 @@ llama3_8b-instruct-fp16와 llama3_8b-instruct-sentiment_analysis-fp16을 비교�
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 금융 감성 분석을 위해서는 llama3_8b-instruct-sentiment_analysis-q5_K_M과 같은 세밀하게 조정된 모델을 사용하는 것이 좋습니다. 이러한 모델들은 일관되고 강력한 감성 탐지를 제공하는 우수한 성능으로 인해 권장됩니다. 이러한 모델들은 기본 모델에 비해 의미 있는 개선을 제공하여 더 신뢰할 수 있고 정확한 감성 분석을 보장합니다. 하지만 특히 Q4에서 LLaMA 3 8B 양자화에 대한 논란이 있어 조심이 필요하며 양자화 기술에 대한 추가 연구와 최적화가 필요합니다.
 - Unsloth 노트북을 사용한 세밀한 조정은 LLaMA 3 8b 및 Mistral 7b와 같은 오픈 언어 모델에서 자신의 데이터를 세밀하게 조정할 수 있는 비교적 저렴한 경로를 제공합니다.
@@ -517,7 +853,18 @@ llama3_8b-instruct-fp16와 llama3_8b-instruct-sentiment_analysis-fp16을 비교�
 
 ## 마무리
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 글에서 다룬 기술들로 사용자 지정 데이터를 사용하여 세밀하게 조정된 모델을 자신있게 만들 수 있습니다. 우리의 연구 결과는 세밀하게 조정된 변형이 특별한 프롬프트가 필요하지 않고, 빠르고 효율적인 결과물을 얻기 위한 주목할만한 성능 향상을 제공한다는 것을 보여줍니다.
 

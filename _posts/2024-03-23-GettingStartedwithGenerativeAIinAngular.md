@@ -3,17 +3,13 @@ title: "앵귤러 프로젝트에 생성형 AI 추가하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Getting Started with Generative AI in Angular"
 link: "https://medium.com/google-cloud/getting-started-with-generative-ai-in-angular-b72737a59982"
 isUpdated: true
 ---
-
-
-
-
 
 # Vertex AI는 PaLM 2를 포함한 최첨단 생성 AI를 위한 Google Cloud 플랫폼입니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 Angular를 사용하여 PaLM에 텍스트 모델을 요청하는 간단한 애플리케이션을 만들 것입니다. 이를 완료하면 다른 모델 중 하나를 사용할 수 있습니다. 다룰 내용은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Generative AI 소개
 - 책임 있는 AI
@@ -43,7 +50,18 @@ Angular를 사용하여 PaLM에 텍스트 모델을 요청하는 간단한 애�
 
 Vertex AI는 텍스트 생성, 채팅, 이미지 편집, 코드, 음성 등과 같은 작업용 미리 훈련된 모델을 제공합니다. 이들은 API 요청을 통해 액세스할 수 있습니다. 또한, 처음부터 모델을 만들고 세밀 조정하기 위한 관리 서비스가 필요하다면 이를 사용하여 모델을 생성, 호스팅 및 관리할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Getting Started with Generative AI in Angular](/assets/img/Getting-Started-with-Generative-AI-in-Angular_1.png)
 
@@ -53,7 +71,18 @@ Generative AI는 AI 안에서 새롭게 떠오르고 있는 매우 흥미로운 
 
 대형 언어 모델은 방대한 텍스트로 사전 훈련되어 시퀀스에서 다음 단어를 예측하는 것을 목표로 합니다. 훈련을 마치면 주어진 프롬프트에 관련된 새로운 텍스트를 생성할 수 있으며, 소설의 무한 문단, 레시피의 재료 목록 또는 일반 지식 질문에 대한 답변을 제공할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 훈련 데이터는 인터넷, 책, 그리고 GitHub과 유사한 코드 저장소 등에서 제공되는 공개 데이터를 포함하고 있습니다.
 
@@ -63,7 +92,18 @@ Transformer를 기반으로 한 모델들이 많은 전통적인 머신 러닝 �
 
 ![이미지](/assets/img/Getting-Started-with-Generative-AI-in-Angular_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오늘날 사람들이 생성적 AI를 사용하는 몇 가지 예시:
 
@@ -76,7 +116,18 @@ Transformer를 기반으로 한 모델들이 많은 전통적인 머신 러닝 �
 
 생성적 AI는 흥미로운 새로운 응용 프로그램을 가능하게 하지만, 이러한 강력한 모델은 동시에 개발자로서 고려해야 할 중요한 윤리적 문제를 도입합니다. 잠재적인 피해를 고려하고 적절한 제약을 설정하며 남용을 모니터링하여 AI를 신중하게 구축하는 책임이 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 모델을 애플리케이션에 통합할 때는 인간 리뷰 프로세스 및 민감도 분석과 같은 전략을 실행하여 기술의 남용이나 위험한 사용을 방지해야 합니다.
 
@@ -89,7 +140,18 @@ Transformer를 기반으로 한 모델들이 많은 전통적인 머신 러닝 �
 
 자세한 내용은 Google의 책임 있는 AI 접근 방식을 참조하십시오.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주요 개념을 다룬 지금, Vertex AI에 액세스하고 Angular 애플리케이션에서 요청을 하는 방법을 살펴봅시다.
 
@@ -99,7 +161,18 @@ Transformer를 기반으로 한 모델들이 많은 전통적인 머신 러닝 �
 
 ![Getting-Started-with-Generative-AI-in-Angular_3](/assets/img/Getting-Started-with-Generative-AI-in-Angular_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Google Cloud API 액세스 설정
 
@@ -112,7 +185,18 @@ API 액세스를 보호하기 위해 계정을 만들고 응용 프로그램용 
 
 프로젝트 ID와 액세스 토큰이 있으면 Angular 앱으로 계속 진행할 준비가 되었어요. 모든 것이 올바르게 설정되어 있는지 확인하려면 이 curl 명령을 시도해 볼 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Angular 애플리케이션 만들기
 
@@ -124,7 +208,18 @@ ng new vertex-ai-palm2-angular
 
 이 명령어로 최신 Angular 버전을 사용하는 새 프로젝트가 만들어집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 API 요청을 하려면 HttpClient 모듈이 필요합니다:
 
@@ -143,7 +238,18 @@ import {HttpClientModule} from '@angular/common/http';
 
 # 예측 요청하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래와 같이 prompt를 실행할 컴포넌트를 생성해봅시다:
 
@@ -173,7 +279,18 @@ export class PredictComponent implements OnInit {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 통화하기 위해 몇 가지 단계로 나누어 보겠습니다.
 
@@ -184,7 +301,13 @@ export class PredictComponent implements OnInit {
 ```js
 /// src/app/models/vertex-ai.ts
 
-export function createPrompt(prompt: string = "이름이 있는 가장 큰 숫자는 무엇일까요?", temperature: number = 0.7, maxOutputTokens: number = 100, topP: number = 0.95, topK: number = 40): TextRequest {
+export function createPrompt(
+  prompt: string = "이름이 있는 가장 큰 숫자는 무엇일까요?",
+  temperature: number = 0.7,
+  maxOutputTokens: number = 100,
+  topP: number = 0.95,
+  topK: number = 40
+): TextRequest {
   const request: TextRequest = {
     instances: [
       {
@@ -202,7 +325,18 @@ export function createPrompt(prompt: string = "이름이 있는 가장 큰 숫�
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 엔드포인트 URL 만들기
 
@@ -228,7 +362,18 @@ buildEndpointUrl(projectId: string) {
 
 이 특정 엔드포인트는 text-bison에 있는 predict API를 호출합니다. 다른 사용 가능한 API(chat, code, images, speech)를 시도하려면 여기에서 자세한 내용을 찾을 수 있습니다. 단, 각 API는 서로 다른 엔드포인트, 요청 및 응답을 갖고 있음을 유의해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Authentication
 
@@ -243,7 +388,18 @@ getAuthHeaders(accessToken: string) {
 
 보안 자격 증명을 준수하기 위해 인증 헤더를 추가했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 요청 보내기
 
@@ -266,7 +422,18 @@ TestVertexAIWithoutApiKey() {
 
 # 예측 응답 처리
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 터미널에서 다음 명령을 실행하고 localhost:4200으로 이동하세요.
 
@@ -278,7 +445,18 @@ ng serve
 
 예측 호출의 응답을 확인하려면 브라우저의 콘솔 출력을 신속하게 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 console.log(response.predictions[0].content);
@@ -298,7 +476,18 @@ console.log(response.predictions[0].content);
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 튜토리얼을 완료하면 다음을 배웠습니다:
 
@@ -309,7 +498,18 @@ console.log(response.predictions[0].content);
 
 이제 당신은 Vertex AI를 사용하여 고급 텍스트 생성과 같은 AI 기능을 자신의 Angular 앱에 추가하는 기초가 되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 크레딧: AI 어시스턴트
 
@@ -317,7 +517,18 @@ console.log(response.predictions[0].content);
 
 무료로 Claude를 이용해보세요: [여기에서 무료로 시도해보세요](https://claude.ai)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/Getting-Started-with-Generative-AI-in-Angular_4.png)
 
@@ -327,7 +538,18 @@ console.log(response.predictions[0].content);
 
 API 키를 받은 후 다음 단계를 따르세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Prediction 구성 요소 변경
 
@@ -348,7 +570,18 @@ TestVertexAIWithApiKey() {
 
 API_KEY를 사용자 고유의 값으로 바꾸고, 요청 본문에 프롬프트 텍스트를 전달한 후, 예측 엔드포인트로 POST 요청을 수행합니다. 나머지 코드를 빠르게 살펴봅시다. buildEndpointUrl 함수를 구분하여 각 부분이 어떻게 연결되는지 보여드렸습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 buildEndpointUrlApiKey(apikey: string) {
@@ -370,7 +603,18 @@ buildEndpointUrlApiKey(apikey: string) {
 
 코드 전체는 GitHub에서 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 부록 2: 프롬프트 기본사항 이해하기: 온도, 상위K 및 상위P
 
@@ -380,7 +624,18 @@ buildEndpointUrlApiKey(apikey: string) {
 
 PaLM API에 프롬프트를 텍스트 형식으로 제출하지만, API는 이러한 문자열을 토큰이라 불리는 청크(조각)으로 변환합니다. 토큰은 대략 4개의 문자와 동일합니다. 100개의 토큰은 대략 60~80개의 단어에 해당합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```json
 {
@@ -410,7 +665,18 @@ PaLM API에 프롬프트를 텍스트 형식으로 제출하지만, API는 이�
 - temperature. 이 매개변수는 디코딩 전략 중 덜 일반적인 옵션을 도입할 수 있게 해줍니다. 이로 인해 더 창의적이거나 반복적이지 않은 응답이 가능성이 높아집니다. 0으로 설정하면 탐욕스러운 전략을 사용하고 첫 번째 옵션이 선택됩니다. 권장됩니다.
 - maxOutputTokens. 이 매개변수는 이 프롬프트에 의해 생성된 토큰의 총 수를 제한합니다. 출력이 일부 잘려 응답 일부가 누락될 수 있습니다. 테스트 중에 비용에 유의하십시오. 최대 값은 1024입니다. 권장됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대부분의 경우, 기본값만으로도 충분할 것입니다.
 
@@ -420,7 +686,18 @@ PaLM API에 프롬프트를 텍스트 형식으로 제출하지만, API는 이�
 
 아래 다이어그램에 나와 있는 것처럼, 특정 온도를 고정하고 각각 TopP 및 TopK를 증가시킴으로써 더 많은 변동성을 도입할 수 있습니다. 최종 결과는 해당 특정 프롬프트에 대한 확률 분포에 따라 달라질 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앞서 언급한 내용을 다시 한 번 리뷰해보겠습니다:
 
@@ -431,7 +708,18 @@ topK와 topP가 모두 제공되면 topP 적용 전에 topK가 우선합니다. 
 
 프롬프트를 테스트할 때 일반적으로 사용하는 전략:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 훈련 중 발견된 가장 일반적인 토큰으로 응답을 제한합니다. 온도를 0으로 설정하고 topP를 0.2로 설정하세요. 이렇게 하면 모델의 확률을 준수하고 훈련 중 모델이 본 사례의 20% 내에 있는 토큰을 선택합니다. 이렇게 함으로써 프롬프트의 긴 꼬리 분포를 제한할 수도 있습니다.
 
@@ -471,7 +759,18 @@ topK와 topP가 모두 제공되면 topP 적용 전에 topK가 우선합니다. 
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 안전
 
@@ -482,7 +781,18 @@ topK와 topP가 모두 제공되면 topP 적용 전에 topK가 우선합니다. 
 
 책임 있는 AI에서 제시된 권장 사항을 따라 이러한 문제를 완화하는 방법을 배워보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Vertex AI 요금 청구
 
@@ -494,6 +804,17 @@ topK와 topP가 모두 제공되면 topP 적용 전에 topK가 우선합니다. 
 
 가격은 시간에 따라 변동할 수 있습니다. 입력과 출력은 별도로 과금됩니다. 최신 요금을 확인하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Getting Started with Generative AI in Angular_5](/assets/img/Getting-Started-with-Generative-AI-in-Angular_5.png)

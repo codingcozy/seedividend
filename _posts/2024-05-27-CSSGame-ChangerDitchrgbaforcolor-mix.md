@@ -3,16 +3,13 @@ title: "CSS에서 rgba 대신 color-mix를 사용해야하는 이유"
 description: ""
 coverImage: "/assets/img/2024-05-27-CSSGame-ChangerDitchrgbaforcolor-mix_0.png"
 date: 2024-05-27 18:44
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-CSSGame-ChangerDitchrgbaforcolor-mix_0.png
 tag: Tech
 originalTitle: "CSS Game-Changer: Ditch rgba() for color-mix()"
 link: "https://medium.com/@nico.maitre.stair/css-game-changer-ditch-rgba-for-color-mix-555b2f758830"
 isUpdated: true
 ---
-
-
-
 
 아, 당신은 Sass 변수에서 CSS 변수의 반짝이는 세계로 전환한 것인가요? 그런데 rgba() 함수를 사용하는 데 어려움을 겪고 있나요? 걱정 마세요, 혼자가 아니에요!
 
@@ -24,7 +21,18 @@ isUpdated: true
 $primary: #00ccff;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 CSS 변수의 힘을 받았군요:
 
@@ -40,7 +48,18 @@ $primary: #00ccff;
 background-color: rgba($color: $primary, $alpha: 0.6);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /* 안돼요, 이건 작동 안 돼요! */
@@ -51,7 +70,18 @@ background-color: rgba($color: $primary, $alpha: 0.6);
 
 ## 기다려봐... color-mix()는 지원돼요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 짧은 대답은 단언컨대 YES입니다! 모던 브라우저(일부 이전 버전 제외)가 모두 지원하고 있습니다. MDN 웹 문서와 caniuse.com에서 지원 세부 정보를 확인해보세요.
 
@@ -61,7 +91,18 @@ background-color: rgba($color: $primary, $alpha: 0.6);
 
 ## 시간이 바꾸는 시간입니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 color-mix()를 사용하여 rgba()로 익숙한 투명 효과를 복제하는 방법을 살펴보겠습니다.
 
@@ -71,7 +112,18 @@ color-mix()를 사용하여 rgba()로 익숙한 투명 효과를 복제하는 �
 background-color: rgba($color: $primary, $alpha: 0.6);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 background-color: color-mix(in srgb, var(--primary) 60%, transparent);
@@ -86,7 +138,18 @@ background-color: color-mix(in srgb, var(--primary) 60%, transparent);
 
 ## color-mix()가 좋은 이유
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 직관적: 퍼센트 기반 접근 방식으로 투명도 수준을 시각화하는 것이 더 쉬워집니다.
 - 유연: 색상이 아닌 투명도가 있는 색 뿐만 아니라 어떤 두 가지 색도 섞어 사용할 수 있습니다.

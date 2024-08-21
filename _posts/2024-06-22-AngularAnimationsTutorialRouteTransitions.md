@@ -3,16 +3,13 @@ title: "앵귤러 애니메이션 튜토리얼 라우트 전환 쉽게 배우기
 description: ""
 coverImage: "/assets/img/2024-06-22-AngularAnimationsTutorialRouteTransitions_0.png"
 date: 2024-06-22 03:31
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-AngularAnimationsTutorialRouteTransitions_0.png
 tag: Tech
 originalTitle: "Angular Animations Tutorial: Route Transitions"
 link: "https://medium.com/angular-animations/angular-animations-tutorial-route-transitions-3c652e09e561"
 isUpdated: true
 ---
-
-
-
 
 만약 라우팅을 갖춘 Angular 애플리케이션을 다룬 적이 있다면, 루트 간 이동 시에 트랜지션을 추가하고 싶었을 것입니다. 이렇게 하면 애플리케이션이 전체적으로 더 우아해 보입니다. 알고 계셨나요? Animation 모듈을 이용하면 이를 쉽게 구현할 수 있습니다. 이번 예제에서 그 방법을 보여드리겠습니다. 그럼 시작해봅시다.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 ## Angular 애니메이션 자습서:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 기초 학습
 - 입장 및 퇴장 애니메이션
@@ -41,17 +49,39 @@ isUpdated: true
 
 좋아요, 충분하니까, 이제 이 포스트의 예제로 넘어가 보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 데모 애플리케이션
 
-이 예제에서는 이 간단한 데모 애플리케이션을 사용할 것입니다. 이동할 수 있는 몇 가지 다른 페이지가 있습니다. 주 메뉴에서 링크를 클릭하면 해당 페이지로 이동됩니다. 
+이 예제에서는 이 간단한 데모 애플리케이션을 사용할 것입니다. 이동할 수 있는 몇 가지 다른 페이지가 있습니다. 주 메뉴에서 링크를 클릭하면 해당 페이지로 이동됩니다.
 
 ![image](https://miro.medium.com/v2/resize:fit:1400/0*wysR9eAe-EwO7yxd.gif)
 
 하지만 서로 다른 페이지로 이동할 때 전환 효과가 있는 것이 더 좋을 것입니다. 여기서 보는 것처럼 횡단페이드 효과나 다른 효과가 있으면 좋을 것 같습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](https://miro.medium.com/v2/resize:fit:1400/0*-Szw6y8W09ki2NN9.gif)
 
@@ -61,7 +91,18 @@ isUpdated: true
 
 그래, 언급했듯이, 이 앱은 이미 라우팅이 설정되어 있습니다. 따라서, 앱 컴포넌트를 살펴보면 템플릿에 router-outlet이 있다는 것을 알 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## main.ts
 
@@ -82,7 +123,18 @@ export class App {
 
 따라서 예를 들어 "blog" 경로로 이동하면 BlogComponent가 표시됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 {
@@ -104,7 +156,18 @@ export class App {
 
 이해하셨죠? 새 경로의 활성 컴포넌트는 Angular 애니메이션 측면에서 "입력" 항목으로 간주됩니다. 그리고 이전 경로의 컴포넌트는 "떠나는" 항목으로 간주됩니다. 이것은 두 개를 모두 애니메이션화하는 방법을 갖게 될 것을 의미합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 "입장" 및 "퇴장" 애니메이션 개념이 익숙하지 않다면, 여기에 비디오가 있으니 꼭 확인해보세요. 개념을 더 잘 이해할 수 있습니다.
 
@@ -114,18 +177,28 @@ export class App {
 
 이제 내보낼 수 있는 상수를 추가해야 합니다. 앱 구성 요소에이 애니메이션을 가져올 수 있도록 하기 위해 "route-transition.ts"라고 이름 짓습니다. 상수의 이름은 "routeTransition"으로 지정해보겠습니다. 우리는 Angular 애니메이션 모듈에서 trigger() 함수를 사용하여 이를 설정할 것입니다. 이름으로도 routeTransition으로 지정할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## route-transition.ts
 
 ```js
-import { trigger } from '@angular/animations';
+import { trigger } from "@angular/animations";
 
-export const routeTransition = trigger('routeTransition', [
-]);
+export const routeTransition = trigger("routeTransition", []);
 ```
 
-그 다음, transition() 함수가 필요합니다. 이 라우트 전환에서는 라우트 데이터 변경 시마다 실행되길 원할 것입니다. 따라서 별표(*)가 있는 모든 상태에서 다른 상태로 애니메이션을 적용할 것입니다.
+그 다음, transition() 함수가 필요합니다. 이 라우트 전환에서는 라우트 데이터 변경 시마다 실행되길 원할 것입니다. 따라서 별표(\*)가 있는 모든 상태에서 다른 상태로 애니메이션을 적용할 것입니다.
 
 ```js
 import { ..., transition } from '@angular/animations';
@@ -136,7 +209,18 @@ export const routeTransition = trigger('routeTransition', [
 ]);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 이 애니메이션에서 처음 할 일은 항목이 "숨겨진" 상태에서 시작하도록 설정하는 것입니다. 그러니까, entering 컴포넌트를 쿼리하기 위해 query() 함수를 추가해봐요. 그런 다음 시작 스타일을 제공할 수 있도록 style() 함수를 추가할 거에요. 우리는 불투명도가 0이고 크기가 0.9인 상태로 시작할 거에요. 마지막으로 해야 할 일은 entering 항목을 찾지 못했을 때의 선택적 플래그를 추가하는 것이에요.
 
@@ -156,11 +240,33 @@ export const routeTransition = trigger('routeTransition', [
 
 이 항목의 경우 시작 스타일이 필요하지 않습니다. 왜냐하면 자동적으로 완전히 불투명하고 전체 크기로 시작하거든요. 우리가 해야 할 일은 애니메이션을 추가해서 animate() 함수를 추가하는 것이에요. 이 애니메이션을 정말로 볼 수 있도록 하기 위해 우리는 일 초 동안 애니메이션을 수행하도록 설정할 거에요. 그런 다음 애니메이션 효과를 줄 스타일을 추가하기 위해 다른 style() 함수를 사용하도록 해봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 Markdown 형식으로 변경해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 export const routeTransition = trigger('routeTransition', [
@@ -179,7 +285,18 @@ export const routeTransition = trigger('routeTransition', [
 
 애니메이션을 사용하려면 먼저 컴포넌트 메타데이터에 애니메이션 배열을 추가해야 합니다. 이 배열 내에서 새 "routeTransition" 애니메이션을 추가해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## main.ts
 
@@ -201,7 +318,18 @@ export class App {
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/0*MTj1pIyBHdnErdu5.gif" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안타깝게도 여기서 해야할 일이 라우터 출력 주위에 컨테이너를 추가하는 것입니다. 애니메이션을 제대로 연결하려면 들어오고 나가는 항목을 쿼리할 수 있어야 하기 때문입니다.
 
@@ -209,13 +337,24 @@ export class App {
 
 ```js
 <div style="display: contents">
-    <router-outlet></router-outlet>
+  <router-outlet></router-outlet>
 </div>
 ```
 
 그래서 여기가 우리가 애니메이션 트리거를 바인딩할 곳이며, 어떤 것에 바인딩하여 경로를 변경할 때 트리거할 것인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 경로 전환을 트리거하는 방법
 
@@ -236,7 +375,18 @@ export class App {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 애니메이션 트리거를 div에 바인딩해봅시다. route, snapshot, data 객체에 바인딩할 거에요. 이 객체는 route가 변경될 때마다 업데이트되니 우리 애니메이션을 제대로 트리거하게 될 거에요.
 
@@ -252,14 +402,25 @@ export class App {
 import { provideAnimations } from '@angular/platform-browser/animations';
 
 bootstrapApplication(App, {
-    providers: [ 
+    providers: [
         ...,
         provideAnimations()
     ]
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 좋아요, 이제 라우트 간에 전환할 때 필요한 모든 것이 준비되었어요. 이제 저장하고 시도해봅시다.
 
@@ -269,7 +430,18 @@ bootstrapApplication(App, {
 
 이제 작동하는 것을 볼 수 있고, 그것을 이해했으니, 0.2초와 같이 짧은 기간으로 전환해봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## route-transition.ts
 
@@ -291,7 +463,18 @@ bootstrapApplication(App, {
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1400/0*FyBZwrhqsmy4Y9XB.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 잘 했어요!
 
@@ -301,7 +484,18 @@ bootstrapApplication(App, {
 
 아직도 Angular 애니메이션에 대해 다룰 내용이 많이 남아 있지만, 여기까지 하겠습니다. 앞으로 미래의 게시물을 계속 주시기 바랍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 실제로 보고 싶으세요?
 
@@ -311,6 +505,17 @@ Stackblitz 예시에서 이 기술들의 데모 코드와 예시를 확인해보
 
 만약 도움이 되는 내용이 있다면, 사랑을 표현해주고 싶다면 언제든 커피 한 잔 사주세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 원래 2024년 6월 13일에 https://briantree.se에서 게시된 내용입니다.

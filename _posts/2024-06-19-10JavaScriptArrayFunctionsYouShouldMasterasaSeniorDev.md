@@ -3,16 +3,13 @@ title: "시니어 개발자로서 꽁수 잘부리는데 꼭 알아야 할 10가
 description: ""
 coverImage: "/assets/img/2024-06-19-10JavaScriptArrayFunctionsYouShouldMasterasaSeniorDev_0.png"
 date: 2024-06-19 22:56
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-10JavaScriptArrayFunctionsYouShouldMasterasaSeniorDev_0.png
 tag: Tech
 originalTitle: "10 JavaScript Array Functions You Should Master as a Senior Dev"
 link: "https://medium.com/@pinjarirehan/10-javascript-array-functions-you-should-master-as-a-senior-dev-bd8adf19e3d8"
 isUpdated: true
 ---
-
-
-
 
 ![이미지](/assets/img/2024-06-19-10JavaScriptArrayFunctionsYouShouldMasterasaSeniorDev_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 이러한 함수들은 코드를 줄이는데 그치지 않고 성능을 개선하고 개발 기술을 향상시킵니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시니어 개발자라면 복잡한 작업을 빠르고 정확하게 수행할 수 있도록 알아야 하는 상위 열 가지 배열 함수를 살펴보겠습니다.
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 ## 1. forEach()
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신은 배열의 각 항목을 방문하고 설정한 작업을 완료하는 신뢰할만한 도우미가 필요할 수 있습니다. 이것이 forEach()의 개요입니다.
 
@@ -41,12 +60,23 @@ isUpdated: true
 ```js
 const fruits = ["사과", "바나나", "체리"];
 
-fruits.forEach(fruit => console.log(fruit));
+fruits.forEach((fruit) => console.log(fruit));
 ```
 
 ## 2. map()
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현재 배열을 기반으로 한 새로운 배열이 필요하다면 어떨까요? map() 함수는 각 요소에 콜백 함수를 적용한 결과로 새로운 배열을 생성합니다.
 
@@ -55,7 +85,7 @@ fruits.forEach(fruit => console.log(fruit));
 ```js
 const numbers = [1, 2, 3, 4];
 
-const doubledNumbers = numbers.map(number => number * 2);
+const doubledNumbers = numbers.map((number) => number * 2);
 console.log(doubledNumbers);
 
 // 출력 [2, 4, 6, 8]
@@ -63,7 +93,18 @@ console.log(doubledNumbers);
 
 ## 3. filter()
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 특정 요소만 VIP 영역에 접근할 수 있도록 확인하는 상황을 상상해 보세요. filter()는 콜백 함수 기반 테스트를 통과하는 항목만 포함된 새 배열을 생성합니다.
 
@@ -72,15 +113,26 @@ console.log(doubledNumbers);
 ```js
 const numbers = [1, 2, 3, 4, 5];
 
-const evenNumbers = numbers.filter(number => number % 2 === 0);
-console.log(evenNumbers); 
+const evenNumbers = numbers.filter((number) => number % 2 === 0);
+console.log(evenNumbers);
 
 // 결과 [2, 4]
-``` 
+```
 
 ## 4. reduce()
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `reduce()`은 전체 배열을 단일 값으로 통합해주는 무술 마스터입니다. 콜백 함수를 사용하여 작동합니다.
 
@@ -90,14 +142,25 @@ console.log(evenNumbers);
 const numbers = [1, 2, 3, 4];
 
 const sum = numbers.reduce((accumulator, current) => accumulator + current, 0);
-console.log(sum); 
+console.log(sum);
 
 // 결과: 10
 ```
 
 ## 5. find()
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지정된 조건을 충족시키는 첫 번째 부분을 찾아야 하는가요? find()가 도와줄 것입니다.
 
@@ -106,7 +169,7 @@ console.log(sum);
 ```js
 const numbers = [1, 2, 4, 5];
 
-const firstGreaterThanThree = numbers.find(number => number > 3);
+const firstGreaterThanThree = numbers.find((number) => number > 3);
 console.log(firstGreaterThanThree);
 
 // 출력: 4
@@ -114,7 +177,18 @@ console.log(firstGreaterThanThree);
 
 ## 6. findIndex()
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 findIndex()은 find()보다 한 단계 더 나아가서, 콜백 테스트를 통과하는 첫 번째 요소의 인덱스를 반환합니다.
 
@@ -123,7 +197,7 @@ findIndex()은 find()보다 한 단계 더 나아가서, 콜백 테스트를 통
 ```js
 const numbers = [1, 2, 4, 5];
 
-const indexOfFirstGreaterThanThree = numbers.findIndex(number => number > 3);
+const indexOfFirstGreaterThanThree = numbers.findIndex((number) => number > 3);
 console.log(indexOfFirstGreaterThanThree);
 
 // 출력: 2
@@ -131,7 +205,18 @@ console.log(indexOfFirstGreaterThanThree);
 
 ## 7. some()
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 특정 조건을 충족하는 항목이 배열에 있는지 확인해야 할 때가 있었나요? some() 메서드가 도움이 됩니다.
 
@@ -142,13 +227,24 @@ console.log(indexOfFirstGreaterThanThree);
 ```js
 const numbers = [1, 5, 8, 12];
 
-const hasElementGreaterThanTen = numbers.some(number => number > 10);
+const hasElementGreaterThanTen = numbers.some((number) => number > 10);
 console.log(hasElementGreaterThanTen);
 
 // 결과: true
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 8. every()
 
@@ -159,13 +255,24 @@ every()은 some()의 엄격한 형제입니다. 배열 내 모든 항목이 콜�
 ```js
 const data = ["apple", "banana", 10];
 
-const allStrings = data.every(element => typeof element === "string");
+const allStrings = data.every((element) => typeof element === "string");
 console.log(allStrings);
 
 // 결과: false
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 9. includes()
 
@@ -182,7 +289,18 @@ console.log(hasOrange);
 // 출력: false
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 10. flat()
 
@@ -199,7 +317,18 @@ console.log(flattenedArray);
 // 출력: [1, 2, 3, 4]
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 몇 가지 전술
 
@@ -209,15 +338,25 @@ console.log(flattenedArray);
 
 여러 배열 메소드를 연결하여 복잡한 변화를 만들어내어 명확하고 이해하기 쉬운 결과를 얻을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, 배열에서 짝수만 걸러내고 해당 숫자들을 한 줄에 연관 있는 제곱값으로 매핑할 수 있습니다:
 
 ```js
 const numbers = [1, 2, 3, 4, 5];
 
-const evenSquares = numbers.filter(number => number % 2 === 0)
-                           .map(number => number * number);
+const evenSquares = numbers.filter((number) => number % 2 === 0).map((number) => number * number);
 
 console.log(evenSquares);
 
@@ -228,7 +367,18 @@ console.log(evenSquares);
 
 많은 배열 함수가 콜백 함수에 의존함을 기억하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 극단적인 상황을 처리할 수 있는 강력하고 명확하게 정의된 콜백을 만들어주세요. 데이터 타입을 명시하여 타입 안전성을 보장하고 코드 유지보수성을 높일 수 있습니다.
 
@@ -236,8 +386,8 @@ console.log(evenSquares);
 
 ```js
 function isEven(number) {
-  if (typeof number !== 'number') {
-    throw new TypeError('입력값은 숫자여야 합니다');
+  if (typeof number !== "number") {
+    throw new TypeError("입력값은 숫자여야 합니다");
   }
   return number % 2 === 0;
 }
@@ -245,7 +395,18 @@ function isEven(number) {
 
 ## 에러 처리
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예기치 못한 데이터나 누락된 조각은 오류를 발생시킬 수 있습니다.
 
@@ -266,7 +427,18 @@ try {
   console
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 성능에 대한 고려사항
 
@@ -278,7 +450,18 @@ try {
 
 정말 큰 데이터 세트의 경우, 특히 최적화된 배열 함수 구현이 없을 수 있는 오래된 브라우저에서 효율성을 향상시키기 위해 전통적인 루프를 사용해 보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 기능적 프로그래밍
 
@@ -288,7 +471,18 @@ try {
 
 기존 데이터에서 새 배열을 구축하기 위해 배열 메서드를 사용하면 원래 데이터를 유효하게 유지하고 예측 가능성을 향상시키며 디버깅을 쉽게 만들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 최적의 방법들
 
@@ -300,10 +494,20 @@ try {
 
 이 10가지 배열 메서드를 마스터하면 JavaScript 초보자에서 어딘가로 (믿어주세요, 당신의 레벨이 올라갈 거에요).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 마크다운 형식의 코드입니다.
-
 
 You’ll be able to create code that is easier to understand, more efficient, and more flexible, letting you work with data more effortlessly.
 

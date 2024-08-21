@@ -3,17 +3,13 @@ title: "플러터에서 스택 위젯 사용 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Stack Widget in Flutter"
 link: "https://medium.com/@selinguzel05/stack-widget-in-flutter-625c23aaa296"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/StackWidgetinFlutter_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 Stack 위젯이란 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Stack은 서로 다른 위젯을 포함하는 위젯 컬렉션입니다. 이 위젯들은 화면 상단에 나열되며 서로 관련이 있을 수 있습니다. 예를 들어 Stack 위젯은 이미지, 텍스트 및 버튼을 포함할 수 있으며, 이러한 위젯은 화면 상단에 서로 겹쳐져 배치될 수 있습니다.
 
@@ -33,7 +40,18 @@ Stack 위젯은 서로 다른 위젯을 위로 쌓아 올리는 데 사용됩니
 
 예를 들어, 이미지와 텍스트 위젯을 Stack에 추가하고 화면 상단에 서로 겹쳐서 배치할 수 있습니다. 먼저 추가된 위젯은 하단에 나타나고 가장 나중에 추가된 위젯은 상단에 나타납니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 Stack(
@@ -79,7 +97,18 @@ Stack(
 )
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Positioned 위젯을 사용할 때 중요한 점은 위치와 크기 값이 Stack 위젯의 경계 내에 있어야 한다는 것입니다. 그렇지 않으면 위젯이 화면을 벗어나거나 원하지 않는 결과가 발생할 수 있습니다.
 
@@ -89,7 +118,18 @@ Z-인덱스는 위젯이 다른 위젯 위에 올라가도록 허용합니다. Z
 
 예를 들어, 아래 코드 스니펫에서는 Stack 내부에 이미지와 일부 텍스트가 있습니다. 그러나 텍스트가 이미지 위에 나타나길 원합니다. 이를 위해 Positioned 위젯의 z-index 속성을 사용할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 Stack(
@@ -128,7 +168,18 @@ Stack 위젯을 사용할 때 고려해야 할 사항 및 일반적인 오류
 
 이러한 사항을 주의하며 생성하는 Stack 위젯은 더 견고하고 안정적인 사용자 인터페이스를 만드는 데 매우 중요한 도구입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제 기사가 여러분에게 도움이 되었기를 바랍니다.
 

@@ -3,15 +3,13 @@ title: "PyFilesystem2 OpenCV로 캡처한 프레임을 메모리 파일 시스�
 description: ""
 coverImage: "/assets/img/2024-07-09-PyFilesystem2StoringFramesCapturedbyOpenCVinanIn-MemoryFilesystem_0.png"
 date: 2024-07-09 14:59
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-PyFilesystem2StoringFramesCapturedbyOpenCVinanIn-MemoryFilesystem_0.png
 tag: Tech
 originalTitle: "PyFilesystem2: Storing Frames Captured by OpenCV in an In-Memory Filesystem"
 link: "https://medium.com/@htayanloo/pyfilesystem2-storing-frames-captured-by-opencv-in-an-in-memory-filesystem-b2f5fc0f4838"
 isUpdated: true
 ---
-
-
 
 <img src="/assets/img/2024-07-09-PyFilesystem2StoringFramesCapturedbyOpenCVinanIn-MemoryFilesystem_0.png" />
 
@@ -24,7 +22,18 @@ PyFilesystem2은 Python에서 파일 시스템을 다루는 강력하고 유연�
 인메모리 파일 시스템 생성
 먼저 인메모리 파일 시스템을 생성해야 합니다. 이 작업은 PyFilesystem2 라이브러리의 `MemoryFS` 클래스를 사용하여 수행할 수 있습니다. 아래는 인메모리 파일 시스템을 생성하고 그 안에 간단한 파일을 저장하는 예제입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 OpenCV을 사용하여 비디오 프레임 캡처하기
 비디오 프레임을 캡처하기 위해 OpenCV 라이브러리를 사용할 것입니다. OpenCV는 이미지 및 비디오 처리에 사용되는 오픈 소스 라이브러리입니다. 카메라 또는 비디오 파일에서 비디오 프레임을 캡처하는 방법은 다음과 같습니다:

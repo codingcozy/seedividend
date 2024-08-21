@@ -3,17 +3,13 @@ title: "Nextjs 14에서 라우트 세그먼트 구성 하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # Nextjs 14에서 라우트 세그먼트 구성 하는 방법
 
@@ -41,7 +37,18 @@ export const maxDuration = 5;
 export default function MyComponent() {}
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 > 좋은 정보:
 > 현재 구성 옵션의 값은 정적으로 분석될 수 있어야 합니다. 예를 들어 revalidate = 600은 유효하지만 revalidate = 60 \* 10은 유효하지 않습니다.
@@ -52,7 +59,18 @@ export default function MyComponent() {}
 
 레이아웃이나 페이지의 동적 동작을 완전히 정적 또는 완전히 동적으로 변경합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```typescript
 export const dynamic = "auto";
@@ -77,7 +95,18 @@ export const dynamic = "auto";
 > 좋아요:
 > getServerSideProps 및 getStaticProps에서 동적으로 마이그레이션하는 방법에 대한 지침은 업그레이드 가이드에서 찾을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### dynamicParams
 
@@ -90,7 +119,18 @@ export const dynamicParams = true; // true | false,
 - true (기본값): generateStaticParams에 포함되지 않은 동적 세그먼트는 필요에 따라 생성됩니다.
 - false: generateStaticParams에 포함되지 않은 동적 세그먼트는 404를 반환합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 > 알아두면 좋은 사항:
 > 이 옵션은 페이지 디렉토리에서 getStaticPaths의 fallback: true | false | blocking 옵션을 대체합니다.
@@ -106,7 +146,18 @@ export const revalidate = false;
 // false | 0 | number
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - false (기본값): `force-cache`로 캐시 옵션을 설정한 모든 페치 요청을 캐시하는 기본 휴리스틱 또는 동적 기능 사용 전에 발견된 요청을 캐시합니다. 실질적으로 revalidate: Infinity과 동의어이며, 이는 자원이 무기한으로 캐시되어야 함을 의미합니다. 여전히 개별 페치 요청이 캐시: `no-store` 또는 revalidate: 0을 사용하여 캐시를 피하거나 경로를 동적으로 렌더링하도록 할 수 있습니다. 또는 revalidate를 경로 기본값보다 작은 양수로 설정하여 경로의 다시 유효화 빈도를 증가할 수 있습니다.
 - 0: 동적 기능이나 캐시되지 않은 데이터 페치가 발견되지 않더라도 레이아웃이나 페이지가 항상 동적으로 렌더링되도록 합니다. 이 옵션은 캐시 옵션을 설정하지 않은 페치 요청의 기본값을 `no-store`로 변경하지만 `force-cache`를 선택하거나 양수 revalidate를 사용하는 페치 요청은 그대로 유지됩니다.
@@ -119,7 +170,18 @@ export const revalidate = false;
 - 단일 경로의 각 레이아웃과 페이지를 통해 가장 낮은 revalidate가 전체 경로의 재검증 빈도를 결정합니다. 이로써 하위 페이지가 상위 레이아웃과 동일한 빈도로 다시 유효화됩니다.
 - 개별 페치 요청은 경로의 기본 재검증보다 낮은 revalidate를 설정하여 전체 경로의 재검증 빈도를 높일 수 있습니다. 이를 통해 일부 기준을 기반으로 특정 경로에 대해 더 자주 재검증하도록 동적으로 선택할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### fetchCache
 
@@ -133,7 +195,18 @@ export const runtime = "노드JS";
 - `노드JS` (기본값)
 - `에지`
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Edge 및 Node.js 런타임에 대해 더 알아보세요.
 
@@ -146,7 +219,18 @@ export const preferredRegion = "auto";
 
 preferredRegion 및 지원되는 지역은 배포 플랫폼에 따라 달라집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 > 알아 두면 좋은 사실:
 > 만약 preferredRegion이 지정되지 않았다면, 가장 가까운 부모 레이아웃의 옵션을 상속받습니다.
@@ -158,7 +242,18 @@ preferredRegion 및 지원되는 지역은 배포 플랫폼에 따라 달라집�
 
 참고: 이 설정은 Next.js 13.4.10 이상에서 지원됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```typescript
 export const maxDuration = 5;
@@ -171,8 +266,30 @@ export const maxDuration = 5;
 
 generateStaticParams 함수는 동적 라우트 세그먼트와 함께 사용되어 빌드 시간에 동적으로 요청 시간이 아닌 정적으로 생성될 라우트 세그먼트 매개변수 목록을 정의하는 데 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 많은 세부 정보는 API 참조를 참조하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

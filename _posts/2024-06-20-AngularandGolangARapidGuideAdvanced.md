@@ -3,16 +3,13 @@ title: "앵귤러와 고랭 빠른 안내 - 고급"
 description: ""
 coverImage: "/assets/img/2024-06-20-AngularandGolangARapidGuideAdvanced_0.png"
 date: 2024-06-20 02:57
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-AngularandGolangARapidGuideAdvanced_0.png
 tag: Tech
 originalTitle: "Angular and Golang: A Rapid Guide — Advanced"
 link: "https://medium.com/@eduitfree/angular-and-golang-a-rapid-guide-advanced-5ea84875ccbd"
 isUpdated: true
 ---
-
-
-
 
 ![Angular and Golang Course](/assets/img/2024-06-20-AngularandGolangARapidGuideAdvanced_0.png)
 
@@ -22,7 +19,18 @@ Angular와 Golang을 활용하여 Ambassador 앱을 개발하는 과정을 이 �
 
 Go에서는 아래 내용을 배울 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Docker 사용
 - express.js에서 영감을 받은 Fiber 프레임워크 사용

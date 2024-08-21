@@ -3,16 +3,13 @@ title: "SSL 문제와 Databricks Connect"
 description: ""
 coverImage: "/assets/img/2024-05-16-SSLIssueswithDatabricksConnect_0.png"
 date: 2024-05-16 16:55
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-16-SSLIssueswithDatabricksConnect_0.png
 tag: Tech
 originalTitle: "SSL Issues with Databricks Connect"
 link: "https://medium.com/@brain246/ssl-issues-with-databricks-connect-af79cab3c1d9"
 isUpdated: true
 ---
-
-
-
 
 # 문제
 
@@ -22,7 +19,18 @@ Windows 머신의 (회사) 네트워크에서 로컬로 Databricks-Connect를 �
 
 이 문제는 pip/requests나 certifi를 사용할 때 발생하는 SSL 문제와 매우 유사합니다. requests/certifi/pip 주제에 대해 다양한 온라인 포스트를 찾을 수 있습니다. 예를 들어 이것이 있습니다. 해결 방법은 보통 pip-system-certs 또는 (이미 사용되지 않는) python-certifi-win32를 설치하는 것입니다. 그러나 이러한 수정 사항은 Databricks-Connect에서의 gRPC 문제를 해결하지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 솔루션
 
@@ -40,9 +48,20 @@ pem_certs = [ssl.DER_cert_to_PEM_cert(der) for der in der_certs]
 with open('wincacerts.pem', 'w') as outfile:
     for pem in pem_certs:
         outfile.write(pem + '\n')
-```  
+```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현재 Windows 인증서 저장소에 있는 모든 인증서를 포함하는 파일(wincacerts.pem)이 생성됩니다.
 
@@ -59,7 +78,18 @@ print(certifi.where())
 반환된 위치에서 찾은 파일을 열고 이전에 생성한 파일을 텍스트 편집기에서 열어 cacert.pem의 내용을 wincacerts.pem에 단순 복사하여 붙여넣기합니다. 이 파일 내의 인증서 순서는 중요하지 않습니다. 그 후 저장하고 wincacerts.pem을 Windows 사용자 홈 디렉터리의 임의의 위치로 이동해주세요. 예를 들어:
 C:\Users\`사용자명`\certs\wincacerts.pem
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 환경 변수를 이용하여 사용자 정의 인증서 참조하기
 
@@ -69,7 +99,18 @@ C:\Users\`사용자명`\certs\wincacerts.pem
 
 팁: 새 환경 변수를 설정한 후 모든 열려있는 터미널/셸을 재시작하여 변경 사항을 적용해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 그게 전부에요!
 

@@ -3,17 +3,13 @@ title: "리액트로 크롬 확장프로그램 만드는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Building a Chrome Extension with React"
 link: "https://medium.com/@urab535/building-a-chrome-extension-with-react-06897e2f59cf"
 isUpdated: true
 ---
-
-
-
-
 
 요즘 디지털 시대에는 브라우저 확장 프로그램이 사용자 경험 및 생산성을 향상시키는 필수 도구로 자리 잡았어요. 특히 Chrome 확장 프로그램은 브라우징 경험을 맞춤화하는 작은 소프트웨어 프로그램입니다. 이를 통해 Chrome 기능과 동작을 개인의 요구사항이나 선호에 맞게 조정할 수 있어요. 이 글에서는 React를 사용하여 Chrome 확장 프로그램을 만드는 방법에 대해 알아보겠습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 manifest.json 파일은 JSON 형식의 메타데이터 파일로, 확장 프로그램의 이름, 버전 등과 같은 속성을 포함합니다. 각 줄을 자세히 살펴보죠:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 {
@@ -57,7 +64,18 @@ manifest.json 파일은 JSON 형식의 메타데이터 파일로, 확장 프로�
 
 이것이 Chrome 확장 프로그램을 위한 manifest.json 파일의 기본 구조입니다. 확장 프로그램의 요구에 따라 필드를 추가할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 팝업.html
 
@@ -79,7 +97,18 @@ manifest.json 파일은 JSON 형식의 메타데이터 파일로, 확장 프로�
 
 그 다음으로 확장 프로그램 폴더는 다음과 같아야 합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Chrome Extension](/assets/img/BuildingaChromeExtensionwithReact_1.png)
 
@@ -90,7 +119,18 @@ manifest.json 파일은 JSON 형식의 메타데이터 파일로, 확장 프로�
 - Google Chrome을 열고 chrome://extensions/로 이동합니다.
 - 오른쪽 상단에서 “개발자 모드”를 토글합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Building a Chrome Extension with React 2](/assets/img/BuildingaChromeExtensionwithReact_2.png)
 
@@ -100,7 +140,18 @@ manifest.json 파일은 JSON 형식의 메타데이터 파일로, 확장 프로�
 
 ![Building a Chrome Extension with React 3](/assets/img/BuildingaChromeExtensionwithReact_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 단계를 완료하면 확장 프로그램이 활성화되어 크롬에서 테스트 중입니다.
 
@@ -110,7 +161,18 @@ manifest.json 파일은 JSON 형식의 메타데이터 파일로, 확장 프로�
 
 <img src="/assets/img/BuildingaChromeExtensionwithReact_5.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 동적 확장을 위한 React 통합
 
@@ -120,7 +182,18 @@ React의 컴포넌트 기반 아키텍처와 상태 관리 기능은 동적 및 
 
 크롬 확장 프로그램에 React를 통합하기 위한 첫 번째 단계는 설치하는 것입니다. Create React App (CRA)를 사용하여 새 React 애플리케이션을 만들어야 합니다. CRA는 합리적인 기본 설정과 바로 사용 가능한 최상의 관행을 갖춘 새 React 프로젝트를 설정해줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npx create-react-app my-chrome-extension
@@ -132,7 +205,18 @@ npx create-react-app my-chrome-extension
 
 # 팝업에 React 추가하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 기본 React 앱을 설정했으니 Chrome 확장 프로그램에 통합해 봅시다. 현재 App.js 파일은 다음과 같습니다:
 
@@ -152,7 +236,18 @@ export default App;
 
 ## React 앱 빌드하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저 React 앱을 만들어 봅시다:
 
@@ -167,7 +262,18 @@ npm run build
   "build": "react-scripts build && mv build ../extension/build"
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 매니페스트 파일 업데이트
 
@@ -181,7 +287,18 @@ npm run build
 
 저희의 폴더 구조는 다음과 같아야 합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/BuildingaChromeExtensionwithReact_7.png" />
 
@@ -191,7 +308,18 @@ npm run build
 
 # 향상된 기능을 위한 Manifest 사용자 정의
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 manifest.json 파일은 매우 유연하며 확장 프로그램의 요구에 맞게 다양한 사용자 정의를 허용합니다. 권한부터 UI 요소까지 다양한 설정을 지정하여 확장 프로그램을 우리가 원하는 대로 간단하거나 복잡하게 만들 수 있습니다.
 
@@ -201,7 +329,18 @@ manifest.json 파일은 매우 유연하며 확장 프로그램의 요구에 맞
 
 가장 흔한 사용자 정의 중 하나는 팝업의 크기를 조정하는 것입니다. 우리는 manifest.json에서 팝업 창의 너비와 높이를 쉽게 변경할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
   "action": {
@@ -217,7 +356,18 @@ manifest.json 파일은 매우 유연하며 확장 프로그램의 요구에 맞
 
 # Chrome 확장 프로그램을 사용하여 DOM 조작하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Chrome 확장 프로그램의 가장 강력한 기능 중 하나는 웹 페이지의 DOM과 상호작용할 수 있는 능력입니다. 이를 통해 콘텐츠를 수정하거나 스타일을 변경하거나 새로운 기능을 추가할 수 있습니다. 이 예에서는 웹 페이지의 색상을 그레이스케일로 전환하고 다시 원래대로 되돌리는 기능을 구현했습니다.
 
@@ -229,7 +379,18 @@ React 팝업 UI: React 앱에서 '색상 제거' 버튼을 만들어서 그레�
 <button onClick={toggleGrayscale}>Remove Color</button>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 메시징: 팝업에서 컨텐츠 스크립트로 작업을 전송하려면 Chrome의 메시징 API를 사용하세요.
 
@@ -247,7 +408,18 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 DOM 조작: 그레이스케일을 토글하는 기능을 구현하세요.
 
@@ -262,7 +434,18 @@ document.head.appendChild(newStyleElement);
 
 DOM을 조작할 수 있는 능력은 크롬 확장 프로그램이 다양성을 띄는 이유입니다. 기능을 향상시키거나 접근성을 향상시키거나 새로운 기능을 제공하는 등, 이 측면을 이해하는 것은 효과적인 확장 프로그램 개발에 필수적입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React 프로젝트를 다시 빌드하여 변경 사항이 적용되었는지 확인해보세요.
 
@@ -292,7 +475,18 @@ function App() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 contentScript.js
 
@@ -328,7 +522,18 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
 
 <img src="/assets/img/BuildingaChromeExtensionwithReact_10.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

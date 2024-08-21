@@ -3,16 +3,13 @@ title: "2024년에 주목해야 할 ES15의 5가지 놀라운 새로운 JavaScri
 description: ""
 coverImage: "/assets/img/2024-06-22-5amazingnewJavaScriptfeaturesinES152024_0.png"
 date: 2024-06-22 04:34
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-5amazingnewJavaScriptfeaturesinES152024_0.png
 tag: Tech
 originalTitle: "5 amazing new JavaScript features in ES15 (2024)"
 link: "https://medium.com/coding-beauty/es15-javascript-features-fc2d1f7a00ce"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-06-22-5amazingnewJavaScriptfeaturesinES152024_0.png" />
 
@@ -22,6 +19,17 @@ isUpdated: true
 
 # 1. 네이티브 배열 그룹화가 등장했습니다
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Markdown 형식으로 table 태그 변경해주세요:

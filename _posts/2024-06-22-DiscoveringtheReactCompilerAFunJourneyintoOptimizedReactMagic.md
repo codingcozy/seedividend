@@ -3,16 +3,13 @@ title: "React 컴파일러 발견 최적화된 React 마법 탐험하기"
 description: ""
 coverImage: "/assets/img/2024-06-22-DiscoveringtheReactCompilerAFunJourneyintoOptimizedReactMagic_0.png"
 date: 2024-06-22 03:09
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-DiscoveringtheReactCompilerAFunJourneyintoOptimizedReactMagic_0.png
 tag: Tech
 originalTitle: "Discovering the React Compiler: A Fun Journey into Optimized React Magic"
 link: "https://medium.com/@jason13201/discovering-the-react-compiler-a-fun-journey-into-optimized-react-magic-cce65d9a6c06"
 isUpdated: true
 ---
-
-
-
 
 안녕하세요, React 열정가 여러분! 오늘은 새로운 React 컴파일러에 관한 흥미로운 소식을 공유하려고 해요. React 팀에서 나온 이 편리한 도구는 React 앱을 자동으로 최적화해줍니다. 함께 React 컴파일러가 무엇인지, 시작하는 방법, 그리고 한번 시도해볼 가치가 있는 이유에 대해 알아보려고 해요.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 # React 컴파일러란?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React Compiler은 빌드 시간에 React 앱을 최적화하기 위해 설계된 실험적인 도구입니다. 커뮤니티로부터 피드백을 모으기 위해 오픈 소스로 제공되며 일반 JavaScript와 완벽하게 작동합니다. 최고의 점은 기존 코드를 다시 작성할 필요가 없다는 것입니다.
 
@@ -32,7 +40,18 @@ React Compiler은 빌드 시간에 React 앱을 최적화하기 위해 설계된
 
 간단히 말해, React Compiler는 코드를 자동으로 메모이즈합니다. useMemo, useCallback 또는 React.memo를 사용해 본 적이 있다면 메모이제이션의 강력함을 알고 있을 것입니다. 컴파일러는 이를 자동으로 수행하여 효율적인 업데이트를 보장하며 별다른 노력없이 처리합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Vite를 이용한 React 컴파일러 설정:
 
@@ -42,7 +61,18 @@ React 컴파일러를 Vite와 통합하는 것은 프로젝트의 성능을 크�
 
 이전 버전과 호환되지 않으니 React 19 RC 이상을 사용하는지 확인해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 설치 및 설정
 
@@ -54,7 +84,18 @@ React 컴파일러를 Vite와 통합하는 것은 프로젝트의 성능을 크�
 npm create vite@latest react-beta-test
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. React 19 Beta 설치하기:
 
@@ -65,7 +106,18 @@ cd react-beta-test
 npm install react@beta react-dom@beta
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 TypeScript 팬 여러분, 여기 한 가지 팁이 있습니다. 모든 것이 조화롭게 맞물리도록 package.json 파일을 조금 조정해야 합니다.
 
@@ -89,7 +141,18 @@ TypeScript 팬 여러분, 여기 한 가지 팁이 있습니다. 모든 것이 �
 npm install babel-plugin-react-compiler
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. Vite 구성에 React 컴파일러 플러그인을 추가해보세요:
 
@@ -104,9 +167,7 @@ export default defineConfig(() => {
     plugins: [
       react({
         babel: {
-          plugins: [
-            ["babel-plugin-react-compiler", ReactCompilerConfig],
-          ],
+          plugins: [["babel-plugin-react-compiler", ReactCompilerConfig]],
         },
       }),
     ],
@@ -116,7 +177,18 @@ export default defineConfig(() => {
 
 # 파트 1: 컴파일러 및 useMemo 없이
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단한 앱을 두 가지 상태로 가정해 봅시다: 숫자(n)와 카운터. 1부터 n까지 숫자의 합을 계산할 겁니다. useMemo 없이 이 계산은 컴포넌트가 다시 렌더링될 때마다 발생하게 됩니다. 카운터만 변경된 경우에도 그렇죠. 무엇이 발생하는지 확인해 볼까요? 함께 알아봐요!
 
@@ -126,12 +198,12 @@ export default defineConfig(() => {
 
 ```js
 "use no memo";
-import React, { useState } from 'react';
+import React, { useState } from "react";
 const App = () => {
   const [number, setNumber] = useState(1);
   const [counter, setCounter] = useState(0);
   const calculateSum = (n) => {
-    console.log('합을 계산 중...');
+    console.log("합을 계산 중...");
     let sum = 0;
     for (let i = 1; i <= n; i++) {
       sum += i;
@@ -141,7 +213,9 @@ const App = () => {
   const sum = calculateSum(number);
   return (
     <div>
-      <h1>1부터 {number}까지의 합: {sum}</h1>
+      <h1>
+        1부터 {number}까지의 합: {sum}
+      </h1>
       <button onClick={() => setNumber(number + 1)}>숫자 증가</button>
       <button onClick={() => setCounter(counter + 1)}>카운터 증가</button>
       <p>카운터: {counter}</p>
@@ -151,7 +225,18 @@ const App = () => {
 export default App;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 불필요한 재렌더링 관찰
 
@@ -161,7 +246,18 @@ export default App;
 
 여기서 마법이 벌어집니다. 숫자를 종속성으로 전달하여 calculateSum 호출을 useMemo로 감싸겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # useMemo 추가하기
 
@@ -169,12 +265,12 @@ export default App;
 
 ```js
 "use no memo";
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo } from "react";
 const App = () => {
   const [number, setNumber] = useState(1);
   const [counter, setCounter] = useState(0);
   const calculateSum = (n) => {
-    console.log('계산 중...');
+    console.log("계산 중...");
     let sum = 0;
     for (let i = 1; i <= n; i++) {
       sum += i;
@@ -184,7 +280,9 @@ const App = () => {
   const sum = useMemo(() => calculateSum(number), [number]);
   return (
     <div>
-      <h1>1부터 {number}까지의 합: {sum}</h1>
+      <h1>
+        1부터 {number}까지의 합: {sum}
+      </h1>
       <button onClick={() => setNumber(number + 1)}>숫자 증가</button>
       <button onClick={() => setCounter(counter + 1)}>카운터 증가</button>
       <p>카운터: {counter}</p>
@@ -196,7 +294,18 @@ export default App;
 
 # 최적화 즐기기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 useMemo가 적용되어 있어서 calculateSum 함수는 숫자가 변경될 때만 실행됩니다. 한 번 시도해보세요! "Increment Counter" 버튼을 클릭하고 콘솔을 확인해보세요. 불필요한 "Calculating sum..." 메시지가 사라졌죠. 높은 다섯! 🖐
 
@@ -206,17 +315,28 @@ export default App;
 
 # 마법 같은 컴파일러 동작 방식
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트 컴파일러를 사용하면, useMemo 없이 코드를 작성해도 컴포넌트가 자동으로 최적화됩니다. 다시 원본 코드를 확인해보겠습니다:
 
 ```js
-import React, { useState } from 'react';
+import React, { useState } from "react";
 const SumComponent = () => {
   const [number, setNumber] = useState(1);
   const [counter, setCounter] = useState(0);
   const calculateSum = (n) => {
-    console.log('Calculating sum...');
+    console.log("Calculating sum...");
     let sum = 0;
     for (let i = 1; i <= n; i++) {
       sum += i;
@@ -226,7 +346,9 @@ const SumComponent = () => {
   const sum = calculateSum(number);
   return (
     <div>
-      <h1>Sum from 1 to {number}: {sum}</h1>
+      <h1>
+        Sum from 1 to {number}: {sum}
+      </h1>
       <button onClick={() => setNumber(number + 1)}>Increment Number</button>
       <button onClick={() => setCounter(counter + 1)}>Increment Counter</button>
       <p>Counter: {counter}</p>
@@ -240,7 +362,18 @@ export default SumComponent;
 
 ![image](/assets/img/2024-06-22-DiscoveringtheReactCompilerAFunJourneyintoOptimizedReactMagic_0.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컴파일러의 마법 덕분에 이 코드는 자동으로 변경되어 useMemo을 포함하여 효율적인 다시 렌더링을 보장해줍니다. 우리는 손가락 한 번 까딱하지 않아도 됩니다! 컴파일러는 필요한 곳에 useMemo를 추가하여 컴포넌트를 최적화합니다. 콘솔을 다시 확인해보세요 – "Calculating sum..." 메시지가 필요없어졌죠. 마치 성능 요정이 어깨에 앉아 있는 느낌이에요! 🧚‍♂️
 
@@ -250,7 +383,18 @@ React 컴파일러는 아직 실험 단계이며 베타 버전으로, 완전히 
 
 컴파일러를 더 작은 프로젝트나 앱의 일부분에서 실험하는 것이 전체 앱에서 시도하는 것보다 좋은 아이디어입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 마무리하며
 

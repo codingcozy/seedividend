@@ -3,17 +3,13 @@ title: "Angular 앱을 esbuild로 더 빠르게 만드는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Speeding up our Angular app with esbuild"
 link: "https://medium.com/@mathieu.schnoor/speeding-up-our-angular-app-with-esbuild-3f7b0b716bef"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/SpeedingupourAngularappwithesbuild_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 <img src="/assets/img/SpeedingupourAngularappwithesbuild_1.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최근에 React와 Vite를 사용하여 새 제품을 만들었고, Vite가 개발자 경험을 더 빠르게 만들어 준다는 사실에 깜짝 놀랐습니다.
 
@@ -33,7 +40,18 @@ v17부터 Angular 팀이 esbuild 지원을 추가했습니다: https://angular.i
 
 Webpack에서 esbuild로 전환해보고, 성능 면에서 어떤 변화가 있는지 확인해 봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 변경해야 했던 내용
 
@@ -48,7 +66,18 @@ Webpack에서 esbuild로 전환해보고, 성능 면에서 어떤 변화가 있�
 
 이 변경으로 몇 가지가 문제가 발생할 것입니다. 다음은 변경해야 했던 사항입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # ESM 기본 가져오기
 
@@ -67,7 +96,18 @@ Webpack에서 esbuild로 전환해보고, 성능 면에서 어떤 변화가 있�
 
 이 오류는 tsconfig.json 파일에 이 플래그를 추가하여 수정할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
   {
@@ -86,7 +126,18 @@ Webpack에서 esbuild로 전환해보고, 성능 면에서 어떤 변화가 있�
 
 또한 우리는 번들 크기 문제에 대비하여 코드베이스에서 moment를 date-fns로 대체하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 https://angular.io/guide/esbuild#esm-default-imports-vs-namespace-imports을(를) 참조하세요.
 
@@ -109,7 +160,18 @@ function getClientEnvironment() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼 빌드 중에는 변수를 전달해야 합니다: NX_TAG=pr-123 npx nx build. 위의 사용자 정의 웹팩 구성은 브라우저에서 node 애플리케이션과 같은 방식으로 process.env로 환경 변수를 사용할 수 있도록 합니다.
 
@@ -129,7 +191,18 @@ esbuild에서는 더 이상 이러한 환경 변수를 간단하게 가져올 �
    };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 상대적 SCSS 가져오기
 
@@ -145,7 +218,18 @@ esbuild에서는 더 이상 이러한 환경 변수를 간단하게 가져올 �
 
 이것들은 한 Nx 라이브러리에서 다른 라이브러리로의 상대적 가져오기이며, libs 폴더는 저장소의 루트에 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하나의 해결책은 올바른 상대 경로를 사용하는 것이지만, 이는 많은 파일을 업데이트해야 하며 코드를 더럽힐 수 있다고 생각됩니다.
 
@@ -168,7 +252,18 @@ esbuild에서는 더 이상 이러한 환경 변수를 간단하게 가져올 �
           }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 성능 벤치마크
 
@@ -178,7 +273,18 @@ esbuild에서는 더 이상 이러한 환경 변수를 간단하게 가져올 �
 
 깃허브 액션에서 빌드에 꽤 많은 시간이 걸리는데요, 여기서 47초를 절약하는 것도 좋지만 크게 변화를 가져다주지는 않을 것 같아요. 대부분의 시간은 결국 CI에서 E2E 테스트에 소요되어요 😅
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![SpeedingupourAngularappwithesbuild_3](/assets/img/SpeedingupourAngularappwithesbuild_3.png)
 
@@ -188,7 +294,18 @@ esbuild에서는 더 이상 이러한 환경 변수를 간단하게 가져올 �
 
 ![SpeedingupourAngularappwithesbuild_4](/assets/img/SpeedingupourAngularappwithesbuild_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 사용하는 개발 서버는 Vite를 내부적으로 사용하고 있어요. 하지만 설정이나 내부 동작을 외부에 노출하지는 않는군요.
 
@@ -198,7 +315,18 @@ esbuild에서는 더 이상 이러한 환경 변수를 간단하게 가져올 �
 
 개발 중에는 한 번 서버를 시작한 후 소스 코드를 여러 번 편집하게 되는데, 이로 인해 개발 서버가 우리 코드를 다시 빌드하게 될 거에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 Vite으로는 아무 변화가 없어요:
 
@@ -209,7 +337,18 @@ esbuild에서는 더 이상 이러한 환경 변수를 간단하게 가져올 �
 
 새로운 빌더를 사용하는 앱을 업데이트하는 것은 매우 쉬웠고, nx serve의 빌드 시간 및 초기 시작 시간에 빠른 개선을 볼 수 있었어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 Angular 응용 프로그램을 사용 중이고 아직 esbuild로 전환하지 않았다면, 뭔가 소홀한 부분이 있을 수 있어요. Angular에 이런 개선 사항이 도입된 것을 보는 것은 정말 대단해요! 🚀
 
@@ -217,4 +356,15 @@ esbuild에서는 더 이상 이러한 환경 변수를 간단하게 가져올 �
 
 앞으로 Angular+Vite에서 Hot Module Replacement (HMR)과 같은 새로운 추가 기능을 볼 수 있기를 기대해 봅니다. 🤔
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

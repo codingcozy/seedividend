@@ -3,16 +3,13 @@ title: "CSS 프로그래스 바 완벽 이해하기 2024 최신 가이드"
 description: ""
 coverImage: "/assets/no-image.jpg"
 date: 2024-07-06 10:12
-ogImage: 
+ogImage:
   url: /assets/no-image.jpg
 tag: Tech
 originalTitle: "Understanding CSS Progress Bars"
 link: "https://medium.com/@code-passion/understanding-css-progress-bars-57d39173492a"
 isUpdated: true
 ---
-
-
-
 
 웹 개발 세계에서 시각적으로 매력적이고 사용자 친화적인 인터페이스를 갖추는 것이 중요합니다. 프로그래스 바는 이 목표를 달성하는 데 중요한 요소입니다. 프로그래스 바는 사용자에게 준비 상태와 피드백 감을 제공할 뿐만 아니라 전체 사용자 경험을 향상시키기도 합니다. 프로그래스 바를 구현하는 다양한 방법이 있지만, CSS는 유연하고 적응성 있는 접근 방식을 제공합니다. 이 포스트에서는 CSS 프로그래스 바에 대해 알아보고, 기능, 스타일 옵션 및 권장 구현 방법에 대해 살펴보겠습니다.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 ## 원형 프로그래스 바 작동 방식
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 원형 프로그레스 바는 사용자 인터페이스에서 작업이나 프로세스의 상태를 표시하는 데 사용되는 시각적 인디케이터입니다. 원형 프로그레스 바는 좌에서 우로가 아니라 시계방향으로 원 주위를 채우는 방식으로 동작합니다.
 
@@ -32,10 +40,20 @@ isUpdated: true
 
 이 코드는 동적인 빨간색부터 검은색까지의 그라데이션으로 채워지는 시각적으로 매력적인 프로그레스 인디케이터를 생성하며, 진행 퍼센트를 표시하는 텍스트가 함께 제공됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 Markdown 형식으로 테이블 태그를 변경한 코드입니다.
-
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/1*LAVuedx3wsRkqbRDhDAGQw.gif" />
 
@@ -115,8 +133,18 @@ isUpdated: true
 </html>
 ```
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 원형 진행 표시기: 진행 표시기는 .progress 클래스를 사용하여 지정된 너비와 높이로 원형 요소로 디자인되었습니다.
 - 빨간색에서 검정색 그라데이션 애니메이션: 이 진행 표시기의 주요 매력은 conic-gradient를 사용하여 .progress::before 의 유사요소를 통해 달성된 빨간색에서 검정색 그라데이션 애니메이션입니다. 이것은 로딩 막대와 유사한 시각적으로 매력적인 효과를 만듭니다.

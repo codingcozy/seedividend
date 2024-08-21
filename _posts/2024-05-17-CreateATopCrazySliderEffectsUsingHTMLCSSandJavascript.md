@@ -3,16 +3,13 @@ title: "HTML, CSS 및 Javascript를 사용한 최고의 멋진 슬라이더 효�
 description: ""
 coverImage: "/assets/img/2024-05-17-CreateATopCrazySliderEffectsUsingHTMLCSSandJavascript_0.png"
 date: 2024-05-17 21:21
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-17-CreateATopCrazySliderEffectsUsingHTMLCSSandJavascript_0.png
 tag: Tech
 originalTitle: "Create A Top Crazy Slider Effects Using HTML CSS and Javascript"
 link: "https://medium.com/@chauhanomprakash7206/create-a-top-crazy-slider-effects-using-html-css-and-javascript-4f54d6e7d2f7"
 isUpdated: true
 ---
-
-
-
 
 <img src="https://miro.medium.com/v2/resize:fit:1140/1*5lwNm-FVTRS5eGwUvm8Hbw.gif" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 ## 단계 1: HTML 구조 설정
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, 슬라이더의 기초 역할을 하는 간단한 HTML 구조가 필요합니다. 다음은 설정 방법에 대한 예시입니다:
 
@@ -69,98 +77,122 @@ isUpdated: true
 
 다음은 슬라이더를 CSS로 스타일링하여 멋지게 보이고 원활하게 작동하도록하는 샘플 CSS 코드입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-html,body {  
-    height: 100vh;
-    width: 100%;
-    background-color: #191919;
-    overflow: hidden;
+html,
+body {
+  height: 100vh;
+  width: 100%;
+  background-color: #191919;
+  overflow: hidden;
 }
-.gallery-warp{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 10% auto;
-    flex-direction: column;
+.gallery-warp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10% auto;
+  flex-direction: column;
 }
-.gallery{
-    display: flex;
-    width: 27%;
-    height: 587px;
-    overflow-y: scroll;
+.gallery {
+  display: flex;
+  width: 27%;
+  height: 587px;
+  overflow-y: scroll;
 }
-.gallery::-webkit-scrollbar{
-    display: none;
+.gallery::-webkit-scrollbar {
+  display: none;
 }
-.gallery div{
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
+.gallery div {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
 }
-.gallery div img{
-    filter: grayscale(100%);
-    width: 100%;
-    transition: transform 0.5s;
+.gallery div img {
+  filter: grayscale(100%);
+  width: 100%;
+  transition: transform 0.5s;
 }
-.gallery div img:hover{
-    filter: grayscale(0);
-    cursor: pointer;
-    transform: scale(1.1);
+.gallery div img:hover {
+  filter: grayscale(0);
+  cursor: pointer;
+  transform: scale(1.1);
 }
-.Btn-group{
-    margin-top: 1rem;
-    display: flex;
-    gap: 18px;
+.Btn-group {
+  margin-top: 1rem;
+  display: flex;
+  gap: 18px;
 }
-.Btn-group span i{
-    padding: 4px 4px;
-    border: 1px solid;
-    font-size: 24px;
-    color: #fff;
-    border-radius: 20px;
-    cursor: pointer;
-    transition: all ease-in-out 0.8s;
+.Btn-group span i {
+  padding: 4px 4px;
+  border: 1px solid;
+  font-size: 24px;
+  color: #fff;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all ease-in-out 0.8s;
 }
-.Btn-group span i:hover{
-    background-color: #fff;
-    color: #191919;
-    border: none;
+.Btn-group span i:hover {
+  background-color: #fff;
+  color: #191919;
+  border: none;
 }
 ```
+
 ## Step 3: Adding JavaScript for Functionality
 
 Finally, add JavaScript to bring the slider to life. This script will handle the slide transitions and navigation functionality:
 
 ```js
 let scrollContainer = document.querySelector(".gallery");
-let topBtn = document.getElementById("topBtn")
+let topBtn = document.getElementById("topBtn");
 let downBtn = document.getElementById("downBtn");
 
 scrollContainer.addEventListener("wheel", (e) => {
-    e.preventDefault();
-    scrollContainer.style.scrollBehavior = "auto";
-    scrollContainer.scrollTop += e.deltaY;
-})
+  e.preventDefault();
+  scrollContainer.style.scrollBehavior = "auto";
+  scrollContainer.scrollTop += e.deltaY;
+});
 
 topBtn.addEventListener("click", () => {
-    scrollContainer.style.scrollBehavior = "smooth";
-    scrollContainer.scrollTop += 610;
-})
+  scrollContainer.style.scrollBehavior = "smooth";
+  scrollContainer.scrollTop += 610;
+});
 downBtn.addEventListener("click", () => {
-    scrollContainer.style.scrollBehavior = "smooth";
-    scrollContainer.scrollTop -= 600;
-})
+  scrollContainer.style.scrollBehavior = "smooth";
+  scrollContainer.scrollTop -= 600;
+});
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 향상 및 고급 기능
 

@@ -3,17 +3,13 @@ title: "Reactjs를 사용하여 나만의 포트폴리오 웹사이트 만들기
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Crafting My Portfolio Website Using Reactjs A Beginners Journey"
 link: "https://medium.com/@thakshiladb2000/crafting-my-portfolio-website-using-react-js-a-beginners-journey-374e85b1a895"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/CraftingMyPortfolioWebsiteUsingReactjsABeginnersJourney_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 저 또한 React.js 초보자이며, YouTube 튜토리얼을 따라가기로 결정했고 해당 동영상에서 지식을 습득하여 포트폴리오를 만들었습니다. node.js를 설치하고 적합한 IDE를 설치하여 환경을 준비한 후, 제가 터미널에 아래 명령어를 입력하여 React 프로젝트를 생성했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npx create-react-app "프로젝트 이름"
@@ -35,7 +42,18 @@ npx create-react-app "프로젝트 이름"
 
 위 구조에서 "assets" 폴더는 웹사이트에서 사용해야 하는 자산을 저장하는 데 사용됩니다. "components" 폴더 안에 배치된 폴더는 각 컴포넌트에 대한 별도의 .jsx 파일과 .css 파일이 포함되어 있습니다. React 컴포넌트는 독립적이고 재사용 가능한 코드 조각입니다. JavaScript 함수와 동일한 목적을 제공하지만 독립적으로 작동하고 HTML을 반환합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 웹 사이트에 일부 .css 속성을 추가할 때 .css 변수를 사용했어요. 이번에 처음으로 웹 사이트에 .css 변수를 정의하고 사용했어요. 여기서는 내 웹 사이트에 적합한 배경 텍스처를 찾아야 했어요. 처음에는 적합한 텍스처를 찾기가 조금 어려웠어요. 그러나 마침내 이 멋진 웹 사이트를 찾았어요. 그 웹 사이트에서 아름다운 배경 텍스처를 무료로 제공해요. 해당 사이트를 방문하고 싶다면 여기를 클릭해주세요.
 
@@ -47,7 +65,18 @@ Header.jsx 파일을 만들 때 download 버튼과 contact 버튼에 `a` 태그�
 npm start
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 VS 코드를 사용하여 코드를 편집했어요. 만약 VS 코드를 사용하여 리액트 프로젝트를 만드는 초보자라면 "ES7+ React/Redux/React-Native snippets" 익스텐션을 설치하는 것을 잊지 마세요. 리액트 프로젝트를 만들 때 매우 유용합니다.
 
@@ -59,7 +88,18 @@ npm start
 npm install react-icons --save
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 헤더 컴포넌트에 이미지를 추가할 때 적절한 배경으로 편집했어요. 이번에는 linear-gradient()를 사용했어요. 사실, 기억하기로는 linear-gradient()를 배경으로 추가하는 건 이번이 처음이에요. 또한, 헤더 컴포넌트에는 미디어 쿼리를 추가하여 반응형으로 만들었어요.
 
@@ -71,7 +111,18 @@ npm install react-icons --save
 import { useState } from "react";
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 useState 훅에 대해 더 알아보려면 이 사이트를 참조해보세요.
 
@@ -81,7 +132,18 @@ useState 훅에 대해 더 알아보려면 이 사이트를 참조해보세요.
 
 웹 사이트에 적합한 사진을 선택하는 동안 문제가 발생했어요. 그래서 Adobe Photoshop을 사용하여 몇 가지 사진을 만들기로 결정했어요. 어렵지 않은 작업이에요. 해당 도구에 대한 약간의 지식이 있다면 여러분도 할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로, Experience 섹션을 만들기 시작했어요. 만들다가 'Tailwind CSS'라는 새로운 용어를 발견했어요. 이것은 유틸리티 우선 CSS 프레임워크로, flex, pt-4, text-center, rotate-90와 같은 클래스가 포함되어 있어요. 이를 조합하여 마크업에서 직접 어떤 디자인이든 구성할 수 있어요. 그러나 이 웹사이트에는 포함시키지 않았어요.
 
@@ -93,7 +155,18 @@ useState 훅에 대해 더 알아보려면 이 사이트를 참조해보세요.
 npm install email-js --save
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 얼마 전 몇 가지 컴파일 오류를 마주쳐서, 아래 종속성을 추가로 설치했어요.
 
@@ -105,7 +178,18 @@ npm install @emailjs/browser
 
 그 다음으로, 웹사이트를 위해 "푸터(footer)"를 만들었어요. 그것도 이전 단계와 똑같았고, 아무런 새로운 내용이 없었어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 드디어 웹사이트를 만드는 마지막 단계에 도달했어요. 그것은 웹사이트를 배포하는 것이에요. 제가 GitHub 페이지를 이용해서 웹사이트를 배포했답니다. 리액트 앱을 GitHub 페이지를 이용해 배포하는 방법을 검색하다가 이 놀라운 동영상을 찾았어요. 여기를 클릭해서 해당 동영상을 시청할 수도 있어요.
 
@@ -117,7 +201,18 @@ npm install gh-pages --save-dev
 
 여기서 --save-dev는 해당 종속성을 devDependencies에 저장하기 위해 사용되어요. 그 다음으로 "homepage", "predeploy", "deploy" 필드를 package.json 파일에 추가해야 해요. 위 동영상을 따라가면 정확히 언급한 내용을 이해할 수 있어요. 모든 작업을 마치고 나면 터미널에서 아래 명령어를 실행해야 해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm run deploy
@@ -129,7 +224,18 @@ npm run deploy
 
 GitHub Actions를 사용하려면 Github 저장소로 이동하여 액션 탭을 선택해야 합니다. 그 후 새로운 workflow를 생성하고 Node.js를 워크플로로 구성해야 합니다. 왜냐하면 이것은 React 앱이기 때문입니다. 지속적인 통합 카테고리 아래에서 찾을 수 있습니다. 그 후 .yml 파일을 일부 수정해야 합니다. 처음에 App.test.js 파일을 삭제했기 때문에 .yml 파일에서 — run: npm test를 제거해야 했어요. 그렇지 않으면 오류가 발생합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 GitHub actions를 검색하다가 매우 유용한 비디오를 발견했어요. 그 비디오를 따라하면 React 앱의 workflow를 쉽게 구성하고 배포할 수 있어요. 여기를 클릭하면 그 비디오를 찾을 수 있어요. 또한 gh-pages 웹 페이지의 지시 사항을 따라야 해요. 여기를 클릭하면 방문할 수 있어요.
 
@@ -141,7 +247,18 @@ ProcessError: remote: Permission to <your repo link> denied to github-actions[bo
 
 만약 해당 오류가 발생하면 repo 설정 -` Action -` General -` Workflow permissions로 이동하여 읽기 및 쓰기 권한을 선택해야 해요. 이렇게 하면 해당 문제가 해결될 거예요. 이 방법을 스택오버플로우에서 찾았고 여기에서 해당 링크를 확인할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 것이 올바르게 완료된 후에 React 앱을 변경하고 GitHub 레포지토리에 커밋할 수 있습니다. 커밋한 후에 자동으로 배포되는 것을 볼 수 있을 겁니다.
 
@@ -151,6 +268,17 @@ ProcessError: remote: Permission to <your repo link> denied to github-actions[bo
 
 만약 제 포트폴리오 웹사이트와 관련된 GitHub 레포지토리를 보고 싶다면, 여기 그 링크들이 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼, 이 기사의 끝입니다. 다음 기사에서 또 만나요.

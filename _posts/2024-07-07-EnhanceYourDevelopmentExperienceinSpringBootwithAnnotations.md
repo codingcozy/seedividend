@@ -3,16 +3,13 @@ title: "Spring Boot 애플리케이션 개발 경험을 향상시키는 애노�
 description: ""
 coverImage: "/allround-coder.github.io/assets/no-image.jpg"
 date: 2024-07-07 22:08
-ogImage: 
+ogImage:
   url: /allround-coder.github.io/assets/no-image.jpg
 tag: Tech
 originalTitle: "Enhance Your Development Experience in Spring Boot with Annotations"
 link: "https://medium.com/@asgreen200/enhance-your-development-experience-in-spring-boot-with-annotations-db9e5037bce0"
 isUpdated: true
 ---
-
-
-
 
 이 블로그에서는 Spring Boot에서 개발 경험을 향상시킬 수 있는 어노테이션 목록을 소개하겠습니다.
 
@@ -56,9 +53,20 @@ public class ScoreRequestBody {
         this.timestamp = timestamp;
     }
 }
-```  
+```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 문제가 무엇인가요?
 
@@ -69,7 +77,18 @@ public class ScoreRequestBody {
 
 Lombok은 유용한 두 가지 어노테이션, @Getter와 @Setter를 제공하여 게터와 세터 메서드를 작성하는 데 소요되는 시간을 줄일 수 있습니다. 이전 클래스를 이러한 어노테이션을 사용하여 다시 작성해 보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 @Getter
@@ -84,7 +103,7 @@ public class ScoreRequestBody {
 
     @NotNull
     private Long timestamp;
-    
+
 }
 ```
 
@@ -94,8 +113,18 @@ public class ScoreRequestBody {
 
 이전 코드는 정말 놀라운데요. 이게 바로 클래스에 값을 할당하는 방법이에요
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 ScoreRequestBody body = new ScoreRequestBody();
@@ -122,8 +151,18 @@ public class ScoreRequestBody {
 
 @Accessors(chain = true)를 사용하면 세터가 수정된 인스턴스를 반환하여, 다음과 같이 부드러운 코딩 스타일을 구현할 수 있어요:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```kotlin
 ScoreRequestBody body = new ScoreRequestBody();
@@ -150,7 +189,18 @@ public class ScoreRequestBody {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요렇게 데이터를 초기화할 수 있어요
 
@@ -166,7 +216,18 @@ ScoreRequestBody body = ScoreRequestBody.builder()
 
 코딩 여정에서 JpaSpecificationExecutor의 필터 쿼리를 작성할 때와 같이 클래스 내 필드의 이름을 검색해야 할 때가 있을 거예요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, 사용자의 점수 데이터에 액세스해야 할 때 다음과 같이 작성할 수 있습니다.
 
@@ -208,7 +269,18 @@ public class ScoreRequestBody {
 String scoreFieldName = Fields.score;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

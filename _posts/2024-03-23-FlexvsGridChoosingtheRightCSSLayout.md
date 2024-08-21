@@ -3,17 +3,13 @@ title: "flex vs grid 어떤 것을 써야할까 올바른 CSS 레이아웃 선�
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Flex vs Grid Choosing the Right CSS Layout"
 link: "https://medium.com/@thegautam.vaja/flex-vs-grid-choosing-the-right-css-layout-02b9630b8907"
 isUpdated: true
 ---
-
-
-
-
 
 ![Flex-vs.-Grid:-Choosing-the-Right-CSS-Layout](/assets/img/Flex-vs.-Grid:-Choosing-the-Right-CSS-Layout_0.png)
 
@@ -23,7 +19,18 @@ Flexbox와 Grid는 CSS에서 각기 다른 종류의 레이아웃 문제를 해�
 
 Flexbox는 Flexible Box Module의 약자로, 컨테이너 내에서 항목을 정렬하는 1차원 레이아웃 방법입니다. 행이나 열 축 레이아웃을 만들기 위해 사용할 수 있습니다. 이를 통해 우리는 반응형 웹 페이지를 디자인하고 구축할 때 CSS 코드 내에 많은 float 및 position 속성을 사용하지 않고도 트릭을 사용할 수 있어 개발이 더 쉬워집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Flexbox Example
 
@@ -39,7 +46,18 @@ Flexbox는 Flexible Box Module의 약자로, 컨테이너 내에서 항목을 �
 
 # 그리드 이해하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS 그리드 레이아웃인 그리드는 2차원 레이아웃 시스템으로 자주 언급됩니다. CSS 그리드는 행과 열을 함께 다룰 수 있는 2차원 레이아웃 시스템으로, 이는 더 복잡하고 조직화된 디자인 시스템을 구축하기 위한 다양한 가능성을 열어줍니다. 그리드를 사용하면 예전 CSS 도구로는 어려웠거나 불가능했던 복잡한 레이아웃을 만들 수 있습니다.
 
@@ -55,7 +73,18 @@ CSS 그리드 레이아웃인 그리드는 2차원 레이아웃 시스템으로 
 
 이 코드는 세 개의 동일 너비 열로 구성된 레이아웃을 생성하며, 그리드가 행과 열을 간결하게 관리할 수 있는 능력을 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Flexbox를 사용해야 하는 경우
 
@@ -68,7 +97,18 @@ Flexbox는 선형 레이아웃을 다룰 때 이상적입니다. 여기서 주�
 
 Flexbox의 간결함과 제어력은 이러한 1차원 레이아웃에 있어서 가장 뛰어납니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 그리드 사용 시기
 
@@ -81,7 +121,18 @@ Flexbox의 간결함과 제어력은 이러한 1차원 레이아웃에 있어서
 
 그리드가 쉽게 두 가지 차원을 다룰 수 있는 능력 때문에 복잡한 레이아웃 요구에 대한 우수한 선택지가 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

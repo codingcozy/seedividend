@@ -3,17 +3,13 @@ title: "Vue3에서 v-memo 이해하기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Understanding v-memo in Vue3"
 link: "https://medium.com/stackademic/understanding-v-memo-in-vue3-a91ea445a9cf"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/Understandingv-memoinVue3_0.png" />
 
@@ -40,7 +36,18 @@ isUpdated: true
 
 # 개요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 v-memo의 공식 정의는 다음과 같습니다:
 
@@ -50,7 +57,18 @@ v-memo의 공식 정의는 다음과 같습니다:
 
 이 새로운 디렉티브는 제어하는 DOM 세그먼트를 캐싱하며, 특정 값이 변경되면 업데이트와 다시 랜더링만 실행합니다. 이러한 값은 수동으로 설정됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <div v-memo="[valueA, valueB]">...</div>
@@ -62,7 +80,18 @@ v-memo은 종속성 배열을 받습니다. 배열이 변경되면 v-memo에 해
 
 또한, 종속성 배열은 v-memo="valueOne, valueTwo"와 같이 하나 이상의 값 또는 표현식(예: v-memo="myValue === true")을 받을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 예시 1: 빈 배열
 
@@ -78,7 +107,18 @@ v-memo은 종속성 배열을 받습니다. 배열이 변경되면 v-memo에 해
 
 ## 예시 2: 변수
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <template>
@@ -113,7 +153,18 @@ const handleBtnClick = () => {
 </div>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 코드에서 v-memo가 사용되지 않으면 선택한 변수를 변경할 때마다 목록 전체가 완전히 다시 렌더링됩니다. 새 지시문이 제공하는 캐싱 기능은 표현식 item.id === selected이 변경되는 로우만 업데이트되도록 허용하며, 즉, 항목을 선택하거나 선택 취소할 때만 업데이트됩니다.
 
@@ -126,7 +177,18 @@ v-memo의 사용은 다음과 같이 요약할 수 있습니다:
 - 대규모 구성 요소의 다시 렌더링 시간을 제어해야 할 때 매우 유용합니다.
 - 대규모 목록을 렌더링하는 최적화입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Stackademic 🎓
 

@@ -3,17 +3,13 @@ title: "리액트로 구현하는 CRUD Create, Read, Update, Delete 애플리케
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "CRUD Create, Read, Update, Delete application in React"
 link: "https://medium.com/@bhairabpatra.iitd/crud-create-read-update-delete-application-in-react-566bf229aaee"
 isUpdated: true
 ---
-
-
-
-
 
 물론이죠! CRUD 작업은 많은 애플리케이션에서 기본적인 작업으로 알려진 Create, Read, Update, Delete의 약자입니다. React에서는 API와 통합하거나 로컬 상태를 관리함으로써 예외 처리와 함께 CRUD 작업을 구현할 수 있습니다.
 
@@ -23,7 +19,18 @@ React와 예외 처리를 다루는 CRUD 작업을 구현하는 기본 예제는
 
 ![이미지](/assets/img/CRUDCreateReadUpdateDeleteapplicationinReact_0.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import React, { useState } from "react";
@@ -88,14 +95,7 @@ const CreateUser = () => {
           <label htmlFor="name" className="form-label">
             Name
           </label>
-          <input
-            type="text"
-            className="form-control"
-            id="name"
-            name="name"
-            value={user.name}
-            onChange={handleInput}
-          />
+          <input type="text" className="form-control" id="name" name="name" value={user.name} onChange={handleInput} />
         </div>
         <div className="mb-3 mt-3">
           <label htmlFor="email" className="form-label">
@@ -213,14 +213,7 @@ const EditUser = () => {
           <label htmlFor="name" className="form-label">
             Name
           </label>
-          <input
-            type="text"
-            className="form-control"
-            id="name"
-            name="name"
-            value={user.name}
-            onChange={handleInput}
-          />
+          <input type="text" className="form-control" id="name" name="name" value={user.name} onChange={handleInput} />
         </div>
         <div className="mb-3 mt-3">
           <label htmlFor="email" className="form-label">
@@ -259,7 +252,18 @@ const EditUser = () => {
 export default EditUser;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 사용자 테이블 보기 [GET 및 DELETE 호출]
 
@@ -344,11 +348,7 @@ const ShowUser = () => {
                       <i className="fa fa-eye" aria-hidden="true"></i>
                     </Link>
 
-                    <i
-                      className="fa fa-trash-o"
-                      aria-hidden="true"
-                      onClick={() => handelDelete(item.id)}
-                    ></i>
+                    <i className="fa fa-trash-o" aria-hidden="true" onClick={() => handelDelete(item.id)}></i>
                   </td>
                 </tr>
               );
@@ -365,7 +365,18 @@ export default ShowUser;
 
 ## 개별 사용자 보기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import axios from "axios";
@@ -395,8 +406,8 @@ const EditUser = () => {
 
   return (
     <div className="user mt-5">
-      ### 편집 유저 | 이름 | 성 | |----------|--------| | 이름 | {user.name} | |
-      이메일 | {user.email} | | 전화번호 | {user.phone} |
+      ### 편집 유저 | 이름 | 성 | |----------|--------| | 이름 | {user.name} | | 이메일 | {user.email} | | 전화번호 |{" "}
+      {user.phone} |
     </div>
   );
 };
@@ -438,7 +449,18 @@ function App() {
 export default App;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import React from "react";
@@ -452,12 +474,7 @@ export default function Header() {
           <Link to="/" className="navbar-brand" href="#">
             <span className="navbar-text">React CRUD</span>
           </Link>
-          <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#mynavbar"
-          >
+          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="mynavbar">
@@ -506,7 +523,18 @@ reportWebVitals();
 
 이 코드는 useEffect를 사용하여 컴포넌트가 마운트될 때 API에서 항목을 가져오는 기본 React 컴포넌트를 설정합니다. 데이터를 가져올 동안 로딩 메시지를 표시하고 API 요청 중 발생할 수 있는 오류를 처리합니다. 또한, deleteItem 함수를 트리거하는 삭제 버튼이 있는 항목 목록을 표시합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예제는 항목을 가져와 Create, edit 및 delete 작업을 수행하는 간단한 예제입니다.
 

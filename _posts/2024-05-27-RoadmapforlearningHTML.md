@@ -3,17 +3,13 @@ title: "HTML 학습 로드맵(2024년 최신)"
 description: ""
 coverImage: "/assets/img/2024-05-27-RoadmapforlearningHTML_0.png"
 date: 2024-05-27 19:13
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-RoadmapforlearningHTML_0.png
 tag: Tech
 originalTitle: "Roadmap for learning HTML"
 link: "https://medium.com/@rajanraj8979/roadmap-for-learning-html-88b22e36e3fe"
 isUpdated: true
 ---
-
-
-
-
 
 ![Learning HTML](/assets/img/2024-05-27-RoadmapforlearningHTML_0.png)
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 # 초보자 레벨:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 기본 사항 이해하기:
 
@@ -36,7 +42,18 @@ isUpdated: true
 
 - `strong`, `em`, `u`, `del`, `ins`, `sup`, `sub`와 같은 태그를 사용하여 텍스트 서식을 지정하는 방법을 배웁니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. 리스트: (네비게이션 바에 중요한 개념)
 
@@ -47,7 +64,18 @@ isUpdated: true
 - `a` 태그로 하이퍼링크를 만드는 방법 이해하기.
 - 외부 페이지, 내부 페이지 및 페이지 내 특정 섹션으로 연결하는 방법 탐구하기.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 5. 이미지:
 
@@ -57,7 +85,18 @@ isUpdated: true
 
 - `form`, `input`, `textarea`, `select`, 그리고 `button`과 같은 태그를 사용하여 폼을 만드는 기본적인 방법을 이해해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 7. 시멘틱 HTML:
 
@@ -68,7 +107,18 @@ isUpdated: true
 - HTML 태그 안에서 속성을 사용하는 방법을 이해하세요.
 - `class`, `id`, `src`, `alt`, `href` 등과 같은 일반적인 속성을 살펴보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 중급 레벨:
 
@@ -79,7 +129,18 @@ isUpdated: true
 
 - 내장 콘텐츠:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - `iframe`, `audio`, `video`을 사용하여 비디오 및 오디오와 같은 멀티미디어 콘텐츠를 임베딩하는 방법을 탐색해보세요.
 
@@ -90,7 +151,18 @@ isUpdated: true
 
 4. HTML5의 새로운 기능:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 새로운 HTML5 기능인 `article`, `section`, `header`, `footer`, `nav`, `figure`, `figcaption` 등을 살펴보세요.
 
@@ -100,7 +172,18 @@ isUpdated: true
 
 - 접근성:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - HTML 접근성을 높이기 위한 ARIA 역할과 속성 사용 방법에 대해 배워보세요.
 
@@ -110,7 +193,18 @@ isUpdated: true
 
 3. SEO 기본 사항:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 기초 SEO (검색 엔진 최적화) 원리에 대해 배워보세요.
 
@@ -120,7 +214,18 @@ isUpdated: true
 
 # 참고: — 연습하고 프로젝트를 만들어 보세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 작은 프로젝트를 만들어 지식을 적용해보세요.
 - 개인 웹사이트나 포트폴리오를 만들어 자신의 기술을 소개해보세요.
@@ -133,7 +238,18 @@ isUpdated: true
 
 HTML 마스터하기의 핵심은 꾸준한 실습입니다. 발전하면 CSS 같은 스타일링, 그리고 JavaScript 같은 상호 작용성을 제공하는 다른 웹 개발 기술들을 탐험할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 보너스 :-
 
@@ -143,7 +259,18 @@ W3school에서 읽은 내용을 IDE에서 직접 실습해보세요. 이것이 �
 
 이후에는 HTML과 기본 CSS로 프로젝트를 만들어보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 빙고: - HTML 작업이 준비되었습니다 🤩🤩
 

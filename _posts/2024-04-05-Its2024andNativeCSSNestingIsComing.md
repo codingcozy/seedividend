@@ -3,17 +3,13 @@ title: "2024년에 CSS 네스팅을 하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Its 2024 and Native CSS Nesting Is Coming"
 link: "https://medium.com/javascript-in-plain-english/its-2024-and-native-css-nesting-is-coming-33f844ce95cd"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/Its2024andNativeCSSNestingIsComing_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 프론트엔드 개발자로서, 당신은 분명히 이 CSS 코드에 익숙할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <div class="box">
@@ -49,7 +56,18 @@ isUpdated: true
 
 ![그림](/assets/img/Its2024andNativeCSSNestingIsComing_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 네, SCSS 또는 Less를 작성해야 된다면 더 쉽게할 수 있어요.
 
@@ -69,7 +87,18 @@ isUpdated: true
 
 CSS 중첩을 사용하면 모듈화되고 유지보수가 쉬운 CSS 코드를 작성할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 2. CSS에서 선택자를 중첩하는 방법
 
@@ -88,7 +117,18 @@ CSS 중첩을 사용하면 모듈화되고 유지보수가 쉬운 CSS 코드를 
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 네, 중첩을 구현하려면 &만 사용하면 됩니다!
 
@@ -99,7 +139,18 @@ CSS 중첩 기능은 아직 실험 단계에 있는 기능입니다. 위의 코�
 - 크롬 브라우저의 주소 창에 chrome://flags/를 입력합니다.
 - 실험 중인 웹 플랫폼 기능을 찾아서 "Enabled"로 설정합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/Its2024andNativeCSSNestingIsComing_2.png)
 

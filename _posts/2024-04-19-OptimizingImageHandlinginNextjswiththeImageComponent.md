@@ -3,17 +3,13 @@ title: "Nextjs에서 Image로 이미지 처리 최적화하기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Optimizing Image Handling in Nextjs with the Image Component"
 link: "https://medium.com/@gabrielairiart.gi/optimizing-image-handling-in-next-js-with-the-image-component-fcf221b18a0b"
 isUpdated: true
 ---
-
-
-
-
 
 ![OptimizingImageHandlinginNextjswiththeImageComponent_0](/assets/img/OptimizingImageHandlinginNextjswiththeImageComponent_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 전형적인 Next.js 환경에서 이미지와 같은 정적 자산은 최상위 /public 디렉토리에 저장되어 애플리케이션 전반에 걸쳐 쉽게 액세스할 수 있습니다. 표준 HTML에서 이미지는 다음과 같이 포함됩니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <img src="/kitty.png" alt="A cute kitten sitting on a desk" />
@@ -38,7 +45,18 @@ isUpdated: true
 
 이미지 최적화 고려는 웹 개발의 중요한 측면이므로 이러한 프로세스를 자동화하는 것이 효율성과 성능을 크게 향상시킬 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 향상된 `<Image>` 컴포넌트
 
@@ -51,7 +69,18 @@ Next.js의 `Image` 모듈은 `img`를 대체하는 것뿐만 아니라 자동 �
 
 # `<Image>`를 사용한 반응형 이미지 구현
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지 모듈을 효과적으로 배포하는 방법에 대해 알아봅시다. 데스크톱 및 모바일 화면을 위한 구별된 이미지(kitty-desktop.png 및 kitty-mobile.png)가 있다고 가정하고 다음과 같이 구현할 수 있습니다:
 
@@ -86,7 +115,18 @@ Next.js 프로젝트의 Page 구성 요소는 Next.js의 내장 이미지 최적
 
 ## 이미지 렌더링 방식
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 페이지 컴포넌트에는 화면 크기에 따라 표시되도록 설정된 두 개의 `Image` 컴포넌트가 포함되어 있습니다:
 
@@ -97,7 +137,18 @@ Next.js 프로젝트의 Page 구성 요소는 Next.js의 내장 이미지 최적
 
 2. 모바일 이미지 (/kitty-mobile.png):
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이 이미지는 className="block md:hidden"를 사용합니다. 작은 화면에는 보이며(block), 중간 또는 큰 화면에서는 숨겨집니다(md:hidden). 이는 모바일 기기를 위한 기본 선택 사항입니다.
 - 더 작은 화면에 적합하도록 너비={520}와 높이={550}의 고유한 크기 설정이 있습니다.
@@ -108,7 +159,18 @@ Next.js 프로젝트의 Page 구성 요소는 Next.js의 내장 이미지 최적
 
 # CSS 미디어 쿼리를 통한 시스템의 장치 유형 인식
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS 미디어 쿼리: 미디어 쿼리는 콘텐츠를 다양한 화면 크기, 방향 및 해상도에 맞게 맞추는 데 사용되는 기본적인 CSS 기능입니다. 기본적으로 기기나 디스플레이의 특성에 따라 조건부로 CSS 스타일을 적용할 수 있도록 합니다.
 
@@ -119,7 +181,18 @@ CSS 미디어 쿼리: 미디어 쿼리는 콘텐츠를 다양한 화면 크기, 
 
 이미지 렌더링에서 미디어 쿼리의 역할: 브라우저는 이러한 미디어 쿼리를 평가하여 관련된 CSS 규칙을 렌더링할지 여부를 결정합니다. 미디어 쿼리가 설정한 조건과 일치하는 경우(예: md:block에서 768픽셀 이상의 뷰포트), 해당하는 CSS 규칙이 적용됩니다. 이 브라우저를 통한 CSS의 직접 조작은 JavaScript가 필요 없어 매우 효율적이고 빠릅니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Tailwind CSS나 다른 CSS 라이브러리 사용하기
 
@@ -129,7 +202,18 @@ Tailwind CSS가 필수일까요? 아니요, Tailwind CSS는 Next.js의 `Image` �
 
 다른 CSS 라이브러리 또는 순수 CSS 사용하기: 화면 크기에 따라 요소의 가시성을 관리하기 위해 CSS 프레임워크 또는 순수 CSS를 사용할 수 있습니다. 예를 들어 아래와 같이 간단한 CSS로 유사한 기능을 구현할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 /* Tailwind의 md:block 및 md:hidden에 대한 일반 CSS 등가물 */
@@ -160,7 +244,18 @@ HTML with Plain CSS Classes:
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Next.js의 `Image` 컴포넌트는 현대 웹 애플리케이션에서 이미지 처리를 크게 간소화합니다. 핵심 최적화 프로세스를 자동화하여 개발자들이 성능을 조정하는 대신 새로운 기능을 개발하는 데 더 집중할 수 있도록 돕습니다. 이 컴포넌트는 Next.js가 빠르고 효율적인 웹 솔루션을 제작하는 데 헌신한 것을 입증합니다. 이 강력한 도구를 활용함으로써, 개발자들은 작업 흐름을 향상시키는데 그치지 않고 오늘날의 빠르게 변화하는 온라인 환경의 요구 사항을 충족시키며 전반적인 사용자 경험을 향상시킵니다.
 

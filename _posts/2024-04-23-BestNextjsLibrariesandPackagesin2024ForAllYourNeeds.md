@@ -3,17 +3,13 @@ title: "2024년 최고의 Nextjs 라이브러리와 패키지"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Best Nextjs Libraries and Packages in 2024 For All Your Needs"
 link: "https://medium.com/@probir-sarkar/best-next-js-libraries-and-packages-in-2024-for-all-your-needs-ae98e9689e06"
 isUpdated: true
 ---
-
-
-
-
 
 ![/assets/img/BestNextjsLibrariesandPackagesin2024ForAllYourNeeds_0.png](/assets/img/BestNextjsLibrariesandPackagesin2024ForAllYourNeeds_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 전역 상태 관리:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 상태: Next.js 애플리케이션에서 전역 상태를 관리하는 것은 Zustand를 사용하면 간편해집니다. 이 가벼운 상태 관리 라이브러리는 보일러플레이트 코드를 제거하고 비동기 작업 및 영속성을 기본 제공합니다. Zustand를 사용하면 복잡한 설정이나 프롭 전달 없이 컴포넌트 간에 상태를 원활하게 공유할 수 있습니다.
 
@@ -33,7 +40,18 @@ Context API: Next.js는 React의 Context API와 원활하게 통합되어 있어
 
 NextAuth (현재 Auth.js): NextAuth는 현재 Auth.js로 알려져 있으며, Next.js 애플리케이션의 인증에 대한 포괄적인 솔루션으로 등장합니다. 다양한 인증 제공업체와 세션 관리를 지원하며, NextAuth는 인증 흐름의 구현을 간단하게 해줍니다. Next.js 서버 측 컴포넌트와 유연한 데이터베이스 옵션과의 호환성으로, 인증 요구 사항을 처리하기 위한 선호도 있는 선택지가 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Lucia Auth:
 
@@ -45,7 +63,18 @@ NextAuth (현재 Auth.js): NextAuth는 현재 Auth.js로 알려져 있으며, Ne
 
 - **NextUI**: NextUI는 우아하고 시각적으로 매력적인 컴포넌트의 포괄적인 세트를 제공하여 맞춤화를 다음 단계로 끌어올립니다. Framer Motion으로 구동되는 NextUI는 아름다운 컴포넌트뿐만 아니라 사용자 경험을 향상시키는 원활한 애니메이션도 제공합니다. 고급 기능과 미학을 자랑하지만, 현재 개발자 커뮤니티의 선호도로 인해 Shadcn UI보다 사용률이 다소 낮을 수 있습니다. 그러나 최고 수준의 디자인과 상호 작용이 필요한 프로젝트의 경우, NextUI는 뛰어난 선택지로 부각됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 데이터 가져오기:
 
@@ -55,7 +84,18 @@ SWR (Stale-While-Revalidate): SWR은 Vercel (Next.js의 제작자)에서 개발�
 
 React Query / Tanstack Query: Tanstack Query (이전에 React Query)는 React 애플리케이션을 위한 강력한 데이터 가져오기 및 캐싱 라이브러리입니다. 이는 가져오기, 캐싱, 동기화 및 원격 데이터 업데이트를 위한 선언적 API를 제공하여, 복잡한 데이터 관리 기능이 필요한 Next.js 프로젝트에 탁월한 선택지가 됩니다. Tanstack Query는 페이징, 낙관적 업데이트, 자동 캐시 무효화와 같은 고급 기능을 제공하여 개발자가 쉽게 견고하고 확장 가능한 애플리케이션을 구축할 수 있도록 돕습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 추가 라이브러리:
 
@@ -65,7 +105,18 @@ DND Kit: DND Kit은 React 애플리케이션용으로 설계된 가벼우면서 
 
 usehooks: usehooks는 다양한 기능을 다루는 사용자 정의 React 훅 모음입니다. 상태 및 사이드 이펙트 관리부터 폼 유효성 검사 및 미디어 쿼리 처리에 이르기까지, usehooks는 일반 개발 작업에 대한 재사용 가능한 솔루션을 제공합니다. Next.js 애플리케이션에 usehooks를 통합하면 개발을 간소화하고 코드 재사용을 촉진하여 개발자가 효율적으로 애플리케이션을 구축할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Tanstack Table: Tanstack Table은 React 애플리케이션을 위한 다목적 테이블 컴포넌트 라이브러리입니다. 정렬, 필터링, 페이지네이션 및 행 선택과 같은 기능을 지원하는 유연하고 사용자 정의 가능한 테이블 컴포넌트를 제공합니다. Tanstack Table을 사용하면 개발자들은 고급 기능을 갖춘 복잡한 데이터 테이블을 쉽게 생성할 수 있으며, Next.js 프로젝트에서 탭형 데이터를 표시하는 이상적인 선택지가 됩니다.
 
@@ -75,7 +126,18 @@ Zod: Zod는 TypeScript를 우선으로 한 스키마 선언 및 유효성 검사
 
 ## Probir Sarkar 😎
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저와 함께 끝까지 지지해 주셔서 감사합니다! 다음을 부탁드립니다:
 

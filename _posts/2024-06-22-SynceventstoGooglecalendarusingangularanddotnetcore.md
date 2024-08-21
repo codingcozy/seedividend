@@ -3,16 +3,13 @@ title: "Angular와 NET Core로 Google 캘린더에 이벤트 동기화하는 방
 description: ""
 coverImage: "/assets/img/2024-06-22-SynceventstoGooglecalendarusingangularanddotnetcore_0.png"
 date: 2024-06-22 03:36
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-SynceventstoGooglecalendarusingangularanddotnetcore_0.png
 tag: Tech
 originalTitle: "Sync events to Google calendar using angular and dot net core"
 link: "https://medium.com/@machhindra10/sync-events-to-google-calendar-using-angular-and-dot-net-core-ae539c508bf9"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-06-22-SynceventstoGooglecalendarusingangularanddotnetcore_0.png" />
 
@@ -32,7 +29,18 @@ isUpdated: true
 - 다음 설정에서 승인된 Javascript 원본 (구글에 로그인 할 웹 애플리케이션 도메인 링크 예: http://www.example.com 또는 http://localhost:4200) 및 승인된 리디렉션 URI (구글이 로그인 후 우리 애플리케이션으로 리디렉션 할 링크 예: http://www.example.com/google-login 또는 http://localhost:4200/google-login)를 입력합니다.
 - 생성 후, 앵귤러 애플리케이션에서 사용할 클라이언트 ID를 복사하여 구글에 로그인하고 로그인 한 후 구글에서 액세스 토큰을 가져올 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-22-SynceventstoGooglecalendarusingangularanddotnetcore_1.png" />
 
@@ -53,7 +61,18 @@ constructor(private readonly oAuthService: OAuthService) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 클라이언트 ID를 사용하는 코드입니다.
 
@@ -68,22 +87,22 @@ constructor(private readonly oAuthService: OAuthService) {
           scope: 'https://www.googleapis.com/auth/calendar'
         }
 
-        this.oAuthService.configure(oAuthConfig)        
+        this.oAuthService.configure(oAuthConfig)
 
         this.oAuthService.loadDiscoveryDocument().then(() => {
           this.oAuthService.tryLoginImplicitFlow().then(() => {
             if (!this.oAuthService.hasValidAccessToken()) { // 토큰이 유효한지 확인
               this.oAuthService.initLoginFlow() // 로그인이 되어 있지 않다면 Google 로그인 페이지로 이동
-              console.log('Google에 로그인 중...') 
+              console.log('Google에 로그인 중...')
             } else {
-              console.log('Google에 로그인됨') 
+              console.log('Google에 로그인됨')
               this.syncEvents(); // 이미 로그인되어 있다면 syncEvents 메서드 호출
             }
           },
             (err) => {
-                console.log("액세스 거부, 다시 시도해 주세요!") 
+                console.log("액세스 거부, 다시 시도해 주세요!")
             })
-        })      
+        })
   }
 
  syncEvents() {
@@ -92,7 +111,7 @@ constructor(private readonly oAuthService: OAuthService) {
     }
 
     if (!this.oAuthService.hasValidAccessToken()) {
-      this.router.navigate(['/google-login']) 
+      this.router.navigate(['/google-login'])
       return; // 로그인되어 있지 않거나 유효한 액세스 토큰을 찾지 못했을 때
     }
 
@@ -111,7 +130,7 @@ constructor(private readonly oAuthService: OAuthService) {
     const token = {
       accessToken: this.oAuthService.getAccessToken()
     }
-    
+
     // 데이터베이스에서 Google 캘린더로 약속, 이벤트 등을 동기화하도록 .NET Core 백엔드 웹 API 엔드포인트 호출
     this.http.post(env.API_ENDPOINT + 'api/googlecal/sync-events', token, {
     }).subscribe((response: any) => {
@@ -128,7 +147,18 @@ constructor(private readonly oAuthService: OAuthService) {
 
 8. 다음으로 해당 토큰이 .NET Core 백엔드 웹 API로 전송되어 동기화(약속, 이벤트 등을 애플리케이션에서 Google 캘린더로 동기화)가 가능합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 3: Dotnet Core WebAPI 부분
 
@@ -176,7 +206,7 @@ namespace ngCommon.Controllers
                 this.UpdateCalenderEvent(_service, event1, appointment); // 여러분의 애플리케이션 개체 변수
             }
             // 여러분의 애플리케이션과 관련된 삭제된 이벤트 ID
-            var deletedApntIds = listEvents.Where(p => !appointments.Select(o => o.Id.ToString()).ToArray().Contains(p.ExtendedProperties.Private__.Where(k => k.Key == "appointmentId").FirstOrDefault().Value)).Select(p => p.Id).ToList(); 
+            var deletedApntIds = listEvents.Where(p => !appointments.Select(o => o.Id.ToString()).ToArray().Contains(p.ExtendedProperties.Private__.Where(k => k.Key == "appointmentId").FirstOrDefault().Value)).Select(p => p.Id).ToList();
             // 삭제된 ID를 반복하고 Google 캘린더에서 삭제합니다.
             foreach (var eventId in deletedApntIds)
             {
@@ -308,7 +338,18 @@ namespace ngCommon.Controllers
 
 6. 이러한 위의 메서드를 사용하여 Google 캘린더에서 이벤트를 생성, 나열, 업데이트 및 삭제할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 구글 캘린더 이벤트를 생성할 때, "Events.ExtendedProperties"를 사용하여 애플리케이션과 관련된 정보를 저장하고, 이전에 설정한 "ExtendedProperties"를 기반으로 이벤트를 검색하여 애플리케이션을 통해 생성된 이벤트만 반환받을 수 있습니다.
 

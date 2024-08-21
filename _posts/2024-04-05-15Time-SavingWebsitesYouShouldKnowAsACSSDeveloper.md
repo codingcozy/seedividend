@@ -3,17 +3,13 @@ title: "CSS 개발자로서 반드시 알아둬야하는 15가지 웹사이트"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "15 Time-Saving Websites You Should Know As A CSS Developer"
 link: "https://medium.com/stackademic/15-time-saving-websites-you-should-know-as-a-css-developer-2f04e745c36c"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/15Time-SavingWebsitesYouShouldKnowAsACSSDeveloper_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 CSS 버튼을 사용하면 버튼 디자인 프로세스를 간편화할 수 있어요. 이 웹사이트는 맞춤형 버튼 스타일을 제공하며 해당하는 CSS 코드도 함께 제공해서 작업을 빠르게 처리할 수 있게 도와줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/15Time-SavingWebsitesYouShouldKnowAsACSSDeveloper_1.png)
 
@@ -33,7 +40,18 @@ CSS 버튼을 사용하면 버튼 디자인 프로세스를 간편화할 수 있
 
 ![이미지](/assets/img/15Time-SavingWebsitesYouShouldKnowAsACSSDeveloper_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # CSS 스트립 생성기
 
@@ -43,7 +61,18 @@ CSS 스트립 생성기를 사용하면 줄무늬 배경을 만들어 디자인�
 
 # 구글 폰트
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Google Fonts를 사용하면 다양하고 무료인 오픈 소스 글꼴 컬렉션을 활용하여 웹 사이트의 타이포그래피를 향상시킬 수 있습니다. Google Fonts를 사용하여 프로젝트에 글꼴을 쉽게 통합할 수 있습니다.
 
@@ -53,7 +82,18 @@ Google Fonts를 사용하면 다양하고 무료인 오픈 소스 글꼴 컬렉�
 
 Get Waves는 웹 사이트에 동적인 요소를 추가하기 위해 화려한 SVG 파도 패턴을 생성하는 데 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/15Time-SavingWebsitesYouShouldKnowAsACSSDeveloper_5.png)
 
@@ -63,7 +103,18 @@ CSS를 작성할 때 브라우저 호환성을 알아야 합니다. 최신 브�
 
 ![이미지](/assets/img/15Time-SavingWebsitesYouShouldKnowAsACSSDeveloper_6.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # ColorSpace
 
@@ -73,7 +124,18 @@ CSS를 작성할 때 브라우저 호환성을 알아야 합니다. 최신 브�
 
 # CSS 그리드 생성기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS Grid Generator는 복잡한 그리드 레이아웃을 만들고 해당하는 CSS 코드를 생성하는 데 좋은 도구입니다.
 
@@ -83,7 +145,18 @@ CSS Grid Generator는 복잡한 그리드 레이아웃을 만들고 해당하는
 
 BEM Cheat Sheet를 사용하면 BEM 네이밍 규칙에 대한 빠른 참고용으로 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/15Time-SavingWebsitesYouShouldKnowAsACSSDeveloper_9.png)
 
@@ -93,7 +166,18 @@ Blobmaker는 배경, 일러스트 또는 다른 그래픽 요소에 사용할 �
 
 ![이미지](/assets/img/15Time-SavingWebsitesYouShouldKnowAsACSSDeveloper_10.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # CSS 그라디언트 생성기
 
@@ -103,7 +187,18 @@ CSS 그라디언트 생성기를 사용하면 복잡한 CSS 그라디언트를 �
 
 # Animate .css
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트에 쉽게 통합할 수 있는 다양한 애니메이션을 제공하는 Animate.css를 사용할 수 있습니다.
 
@@ -113,7 +208,18 @@ CSS 그라디언트 생성기를 사용하면 복잡한 CSS 그라디언트를 �
 
 Glassmorphism을 사용하여 유리처럼 보이는 요소를 생성하고 인기 있는 퍼스트 유리 효과를 구현하기 위해 투명도, 흐림 효과 및 색상을 사용자 정의할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/15Time-SavingWebsitesYouShouldKnowAsACSSDeveloper_13.png)
 
@@ -123,7 +229,18 @@ Clippy — CSS Clip-Path Maker를 사용하면 쉽게 복잡한 모양을 만들
 
 ![이미지](/assets/img/15Time-SavingWebsitesYouShouldKnowAsACSSDeveloper_14.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # CSS Validator
 
@@ -133,7 +250,18 @@ CSS Validator는 CSS 코드가 웹의 규칙을 따르는지 확인하는 데 �
 
 오늘은 여기까지에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 작업이 도움이 되었기를 바랍니다.
 
@@ -143,4 +271,15 @@ CSS Validator는 CSS 코드가 웹의 규칙을 따르는지 확인하는 데 �
 
 웹 개발 일일 팁을 받으려면 X(Twitter)에서 제 계정을 팔로우해 주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

@@ -3,16 +3,13 @@ title: "새로운 langchain_huggingface 라이브러리 만들면서 배우기"
 description: ""
 coverImage: "/assets/img/2024-05-17-ExploringtheNewlangchain_huggingfacelibraryAHands-OnExperiment_0.png"
 date: 2024-05-17 20:46
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-17-ExploringtheNewlangchain_huggingfacelibraryAHands-OnExperiment_0.png
 tag: Tech
 originalTitle: "Exploring the New langchain_huggingface library: A Hands-On Experiment"
 link: "https://medium.com/@shreyasshinde/exploring-the-new-langchain-huggingface-library-a-hands-on-experiment-45e5163cb8f8"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-05-17-ExploringtheNewlangchain_huggingfacelibraryAHands-OnExperiment_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 이 블로그에서는 HuggingFace의 오픈 소스 모델의 추론을 이 새로운 Langchain 라이브러리로 사용하는 내 경험을 공유하겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # TL;DR
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 ## HuggingFace를 통한 추론 옵션
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 HuggingFace에서 추론을 수행하는 세 가지 방법이 제공됩니다:
 
@@ -44,7 +63,18 @@ HuggingFace에서 추론을 수행하는 세 가지 방법이 제공됩니다:
 
 이 라이브러리는 HuggingFace LLMs와 상호 작용하기 위해 두 가지 클래스를 노출합니다: HuggingFacePipeline 및 HuggingFaceEndpoint.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 원격 추론을 가능하게 하는 HuggingFaceEndpoint를 사용하는 것에 관심이 있습니다. 이 클래스의 내부에서는 InferenceClient를 사용합니다. 특정 모델의 경우, 해당 모델의 HuggingFace 페이지(예: Meta의 LLAMA)에서 해당 모델의 약관에 동의해야 사용할 수 있습니다. HuggingFacePipeline은 모델을 로컬로 다운로드해야 하기 때문에 특정 이유가 없는 이상 이상적이지 않습니다.
 
@@ -54,7 +84,18 @@ HuggingFaceEndpoint 클래스를 인스턴스화한 후, 몇 가지 langchain.sc
 
 ## 전반적인 인상
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 라이브러리는 작업 중인 것 같아서 전반적인 경험은 원활하지 않았어요. 여기 몇 가지 구체적인 문제가 있었어요:
 
@@ -64,7 +105,18 @@ HuggingFaceEndpoint 클래스를 인스턴스화한 후, 몇 가지 langchain.sc
 
 2. 불완전한 문서화: Langchain의 문서가 최신으로 업데이트되지 않아서 아마도 Langchain v0.2에서 업데이트 예정일 것 같아요. 그들의 공지를 따라서 사용하면 분명히 작동하지 않을 거에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. 비기능적 매개변수: 몇 가지 매개변수는 모델 응답에 영향을 미치지 않거나 오류를 발생시킵니다.
 
@@ -88,7 +140,18 @@ llm = HuggingFaceEndpoint(
 
 그들의 발표는 다음과 같이 마무리되었습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 실험이 가치 있는 피드백으로 작용하기를 희망하며, Langchain 저장소에 이슈를 만들 계획입니다. 이 실험을 통해 HuggingFace의 무료 OSS LLM 추론 및 그 Langchain 통합 라이브러리 상태에 대해 더 나은 이해를 얻을 수 있었습니다.
 

@@ -3,18 +3,13 @@ title: "SEO 기초 이해하기 2024년 필수 가이드"
 description: ""
 coverImage: "/assets/img/2024-06-23-UnderstandingtheBasicsofSEO_0.png"
 date: 2024-06-23 14:29
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-UnderstandingtheBasicsofSEO_0.png
 tag: Tech
 originalTitle: "Understanding the Basics of SEO"
 link: "https://medium.com/@enestalayy/understanding-the-basics-of-seo-49344cfad23a"
 isUpdated: true
 ---
-
-
-
-
-
 
 <img src="/assets/img/2024-06-23-UnderstandingtheBasicsofSEO_0.png" />
 
@@ -26,8 +21,18 @@ SEO(Search Engine Optimization)은 Google과 같은 검색 엔진에서 웹 사�
 
 SEO는 확실히 간단한 주제가 아니지만, 적어도 기본 이해를 가지고 코딩하는 동안 유의해야 한다고 믿습니다. 이 글을 통해 몇 가지 기본 주제를 전달할 수 있기를 희망합니다. 먼저, SEO가 정확히 무엇을 의미하고 무엇이 아닌지 살펴보는 것부터 시작해보겠습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 목차
 
@@ -46,7 +51,18 @@ SEO는 확실히 간단한 주제가 아니지만, 적어도 기본 이해를 �
 
 SEO(Search Engine Optimization)는 주로 Google을 포함한 검색 엔진과 효과적으로 소통하도록 웹사이트를 최적화하는 것을 의미합니다. 검색어를 사용하여 웹사이트를 검색 엔진에 효과적으로 전달한다는 점으로 SEO를 단순화하는 오해가 있습니다. 하지만 검색 엔진은 그렇게 간단히 동작하지 않습니다. 사용자 검색을 평가하고 해당 검색어와 일치하는 콘텐츠를 제공하여 사용자 만족을 보장합니다. 따라서 단순히 올바른 키워드를 사용하여 클릭 수를 증가시키려는 것만으로는 효과적인 최적화가 이루어지지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 사용자와 공감하기
 
@@ -56,7 +72,18 @@ SEO(Search Engine Optimization)는 주로 Google을 포함한 검색 엔진과 �
 
 # 사용자가 편안한 느낌을 받을 수 있도록 하세요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프론트엔드 개발자로서, 사용자 친화적인 디자인이나 구성 요소를 선택하는 것은 가장 어려운 작업 중 하나입니다. 종종 특정 동적 기능을 좋아해도 사용자들이 그것을 이해하기 어려울 수 있기 때문에 사용을 삼가곤 합니다. 이 시점에서, 사용자가 원하는 것을 쉽게 접근할 수 있도록 하는 것이 화려한 디자인보다 우선입니다. 또한, 복잡성과 피로는 사용자가 사이트에 머무르는 시간을 크게 줄일 수 있습니다. 사이트의 목적에 따라 이러한 고려 사항은 다양하지만, 마케터처럼 생각하고 고객이 최대한 편안하게 느끼도록 하는 것이 중요합니다.
 
@@ -66,7 +93,18 @@ SEO(Search Engine Optimization)는 주로 Google을 포함한 검색 엔진과 �
 
 사용자를 이해하려면 스스로부터 시작하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 검색 엔진에 사이트를 알리세요
 
@@ -76,7 +114,18 @@ SEO(Search Engine Optimization)는 주로 Google을 포함한 검색 엔진과 �
 
 요약하면, 가능한 한 HTML을 우선적으로 사용하고 이후 CSS, 필요할 때만 JavaScript를 사용하는 것이 좋습니다. 이는 성능을 향상시키는데 도움이 되며 SEO에서 중요한 이점을 제공합니다. 이를 간과해서는 안 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 메타 타이틀과 설명이란 무엇인가요?
 
@@ -86,7 +135,18 @@ SEO(Search Engine Optimization)는 주로 Google을 포함한 검색 엔진과 �
 
 메타 타이틀과 설명은 각 페이지마다 고유해야 하며, 서로 다른 언어 옵션이 있는 경우 해당 언어에 따라 달라져야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 검색 의도
 
@@ -102,7 +162,18 @@ SEO(Search Engine Optimization)는 주로 Google을 포함한 검색 엔진과 �
 - "사용자가 또 질문한 것" 섹션
 - 관련 검색 섹션
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 제품에 집중하세요
 
@@ -110,7 +181,18 @@ SEO(Search Engine Optimization)는 주로 Google을 포함한 검색 엔진과 �
 
 # 올바른 경로 구성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 적절한 라우트 구성은 검색 엔진이 페이지를 효과적으로 크롤할 수 있게 하고 콘텐츠가 올바른 사용자에게 도달할 수 있도록 하는 데 중요합니다.
 
@@ -120,8 +202,18 @@ SEO(Search Engine Optimization)는 주로 Google을 포함한 검색 엔진과 �
 
 - 가능한 한 지나치게 동적인 제품 ID 사용을 피하세요. 페이지나 제품에 명확하고 이해하기 쉬운 URL이 가장 좋습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이해하는 것은 SEO의 기초](/assets/img/2024-06-23-UnderstandingtheBasicsofSEO_2.png)
 
@@ -131,8 +223,18 @@ SEO(Search Engine Optimization)는 주로 Google을 포함한 검색 엔진과 �
 
 ![이해하는 것은 SEO의 기초](/assets/img/2024-06-23-UnderstandingtheBasicsofSEO_3.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 복합 단어를 사용하지 않고 적절한 구분자를 사용해주세요.
 
@@ -142,7 +244,18 @@ SEO(Search Engine Optimization)는 주로 Google을 포함한 검색 엔진과 �
 
 ![이미지](/assets/img/2024-06-23-UnderstandingtheBasicsofSEO_5.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # `a` 태그의 적절한 사용 및 링크 리다이렉션
 
@@ -151,7 +264,18 @@ SEO(Search Engine Optimization)는 주로 Google을 포함한 검색 엔진과 �
 - 검색 엔진 스팸 정책
 - 검색 엔진이 작성된 코드와 미디어 파일에 접근할 수 없음
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 • 로그인 요구 조건과 같은 조건이 존재하는지 확인
 
@@ -161,8 +285,18 @@ SEO(Search Engine Optimization)는 주로 Google을 포함한 검색 엔진과 �
 
 이 모든 지침을 따르고 적절한 `a` 태그를 사용한다면, 페이지가 크롤링될 수 있고 적절한 스니펫이 포함된 검색 결과에 나타날 수 있습니다. 이제 `a` 태그의 적절한 사용법을 살펴봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image 1](/assets/img/2024-06-23-UnderstandingtheBasicsofSEO_6.png)
 
@@ -172,9 +306,18 @@ Using redirects in this way or within functions can reduce crawlability and decr
 
 Using appropriate text within the `a` tag is crucial for SEO and user experience. Here are some guidelines and examples:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Understanding the Basics of SEO 8](/assets/img/2024-06-23-UnderstandingtheBasicsofSEO_8.png)
 
@@ -184,8 +327,18 @@ Unfortunately, the following usages are very common and familiar. However, they 
 
 ![Understanding the Basics of SEO 10](/assets/img/2024-06-23-UnderstandingtheBasicsofSEO_10.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또 다른 중요한 측면은 `a` 태그 내의 콘텐츠가 가능한 한 쉽게 크롤링되도록 하는 것입니다. `a` 태그는 CSS로 쉽게 스타일을 지정할 수 있으므로 div나 span과 같은 구성 요소를 내부에 넣지 않도록 해야 합니다. 이미지나 비디오와 같은 태그를 사용해야 하는 경우에는 검색 엔진이 크롤할 수 있는 형식으로 제공하고 SEO 목적에 맞게 필요한 alt 정보를 제공해야 합니다.
 
@@ -195,7 +348,18 @@ Unfortunately, the following usages are very common and familiar. However, they 
 
 ![UnderstandingtheBasicsofSEO_12](/assets/img/2024-06-23-UnderstandingtheBasicsofSEO_12.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 정보를 고려할 때, 우리가 도출한 결론은 먼저 정확하고 적절하며 명확하며 독창적인 콘텐츠를 초기에 제작하고 사용자를 항상 우선시하는 것이 중요하다는 것입니다. 검색 엔진도 사용자를 우선시하기 때문입니다. 콘텐츠를 검색 엔진을 우선시하거나 최신 트렌드 때문에 관련 없는 SEO 방법을 사용하면 사용자에게 먼저 알려질 것이며, 아마도 검색 엔진으로부터 원하는 성과를 얻지 못할 것입니다. 이 시점에서 해야 할 일은 콘텐츠를 처음부터 신뢰하고 검색 엔진이 쉽게 이해할 수 있도록 최적화하는 것입니다.
 

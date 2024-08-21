@@ -3,17 +3,13 @@ title: "플러터에서 얼굴을 효율적으로 자르는 방법face crop"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Efficiently Display Cropped Faces in Flutter A Memory and Performance Optimized Approach"
 link: "https://medium.com/@khushalsinghrao/efficiently-display-cropped-faces-in-flutter-a-memory-and-performance-optimized-approach-e06fca60957d"
 isUpdated: true
 ---
-
-
-
-
 
 ![Efficiently Display Cropped Faces in Flutter: A Memory and Performance-Optimized Approach](/assets/img/EfficientlyDisplayCroppedFacesinFlutterAMemoryandPerformanceOptimizedApproach_0.png)
 
@@ -25,7 +21,18 @@ Flutter 앱 개발에서 이미지에서 잘라낸 얼굴을 부드러운 UI 성
 
 이러한 도전에 대처하기 위해 추가 계산 오버헤드 없이 이미지에서 효과적으로 자른 얼굴을 표시하기 위해 Flutter의 능력을 활용하는 솔루션을 구현할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 단계 1: 원본 이미지에서 ui.Image 객체 가져오기
 
@@ -94,7 +101,18 @@ class FaceImagePainter extends CustomPainter {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3단계: 얼굴 크로퍼 위젯 만들기
 마지막으로 `FaceCropperWidget`을 만들어보겠습니다. 이 위젯은 잘라낸 얼굴을 효율적으로 표시하는 메모리 및 성능 효율적인 위젯으로, 잘라낸 얼굴을 추가 계산 없이 즉시 렌더링하는 데 필요한 로직을 캡슐화합니다. 이 위젯은 이전에 정의된 도우미 함수와 사용자 정의 페인터를 활용하여 잘라낸 얼굴을 추가 계산을 기다리지 않고 즉시 렌더링합니다.

@@ -3,17 +3,13 @@ title: "마이크로 프론트엔드 구현 하기 "
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Overcoming the Implementation Challenges of Micro-Frontends"
 link: "https://medium.com/@drpicox/overcoming-the-implementation-challenges-of-micro-frontends-a739b1630f43"
 isUpdated: true
 ---
-
-
-
-
 
 ![Micro-Frontends Implementation Challenges](/assets/img/OvercomingtheImplementationChallengesofMicro-Frontends_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 도메인 주도 설계
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도메인 주도 설계(DDD)는 전략과 전술 두 가지 기본 부분으로 나뉘는 소프트웨어 구축 방법론입니다. 전술은 모두가 생각하는 것: 마이크로 아키텍처 구현을 가능하게 하는 코드 패턴이지만 전략이 근본입니다.
 
@@ -33,7 +40,18 @@ DDD의 기본 전략은 회사 구조가 어떻게 작동하는지 이해하고 
 
 # 마이크로서비스
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마이크로서비스는 DDD에서 도메인 내의 서비스를 구성하는 메커니즘이며, 그 전략을 따릅니다. 전술에서 각 마이크로서비스는 여러 집합으로 구성됩니다. 집합은 마이크로서비스를 구성하는 데 사용되는 소프트웨어 패턴으로, 요약하면 가능한 가장 작은 마이크로서비스입니다. 그러나 개발 및 실행 비용 면에서 효율성을 위해 같은 도메인의 모든 집합은 단일 마이크로서비스로 결합됩니다.
 
@@ -46,7 +64,18 @@ DDD의 기본 전략은 회사 구조가 어떻게 작동하는지 이해하고 
 - 명령 실행: 주체로부터 또는 때로는 다른 마이크로서비스로부터 명령을 실행하기 위해서는 REST 작업(또는 SOAP 또는 유사한 방법)을 통해 이루어집니다.
 - 도메인 이벤트 발생 및 수신: 마이크로서비스 간 일관성을 유지하기 위해 도메인 이벤트가 전송됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/OvercomingtheImplementationChallengesofMicro-Frontends_1.png" />
 
@@ -56,7 +85,18 @@ DDD의 기본 전략은 회사 구조가 어떻게 작동하는지 이해하고 
 
 마이크로서비스를 구현하는 방법을 생각할 때, 우리는
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 따라서, 우리는 동일한 측면을 고려해야 합니다. 그러나 한 가지 다시 강조하고 싶은 것은 이것이 전술에 대한 것이며, 앞서 언급한 것처럼 단단한 전략을 갖는 것이 매우 중요하다는 점입니다.
 
@@ -69,7 +109,18 @@ DDD의 기본 전략은 회사 구조가 어떻게 작동하는지 이해하고 
 
 이 경우, 마이크로서비스가 API에 대한 진입점으로 기능하는 엔드포인트가 있다는 것을 논의했지만, 마이크로프론트엔드는 이러한 것이 없습니다. 대신, 그들은 그래픽 컴포넌트를 사용하여 사용자와 직접 상호 작용하며, 반면에 다른 마이크로프론트엔드에서 접근할 수 있도록 API를 게시해야 합니다. 명백하게, 도메인 이벤트를 위한 버스 구현도 중요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 마이크로 프론트엔드 데이터베이스
 
@@ -80,7 +131,18 @@ DDD의 기본 전략은 회사 구조가 어떻게 작동하는지 이해하고 
 - 지속 데이터: 프론트엔드는 표시할 데이터를 가져오기 위해 해당 마이크로서비스에 액세스해야 하며, 변경을 유발하는 조치를 전달해야 합니다.
 - 세션 데이터: 프론트엔드는 세션에서 사용되는 데이터를 임시로 저장하는 작은 공간도 필요합니다. 덧붙여 말하자면, 프론트엔드는 쿠키, localStorage 및 유사한 메커니즘에 데이터를 저장할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 영속 데이터에 관해서는, 마이크로프론트엔드 자체의 데이터베이스로서 마이크로서비스를 고려할 수 있습니다. 데이터를 가져오기 위해 GET을 수행하고, 업데이트를 위해 POST/PUT/DELETE를 수행하며, 마이크로서비스가 영속성을 처리하여 사용자들이 브라우저를 변경하더라도 계속 액세스할 수 있도록 합니다.
 
@@ -90,7 +152,18 @@ DDD의 기본 전략은 회사 구조가 어떻게 작동하는지 이해하고 
 
 각 마이크로프론트엔드에 독립적인 Redux 상태를 만들어야 할지 아니면 서로 공유해야 할지는 상황에 따라 다릅니다. 각 마이크로프론트엔드가 각자의 Redux 스토어(또는 Zustand 등)를 가져야 한다는 것이 맞다고는 할지라도, 나중에 살펴볼 것처럼, 각 마이크로프론트엔드 간에 도메인 이벤트를 통신하는 데 필요한 공유 매개체가 필요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/OvercomingtheImplementationChallengesofMicro-Frontends_2.png" />
 
@@ -100,7 +173,18 @@ DDD의 기본 전략은 회사 구조가 어떻게 작동하는지 이해하고 
 
 마이크로 프런트엔드 환경과 마이크로서비스 환경 사이에는 두 가지 주요한 차이점이 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 모든 마이크로 프론트엔드는 동일한 컴퓨터에서 실행됩니다. 일반적으로 메모리 공간을 공유하며 직접 메소드 호출이 가능한 반면, 마이크로서비스는 별도의 메모리 공간에서 실행됩니다(예: 서로 다른 가상 머신에서). 따라서 서로의 메소드를 직접 호출할 수 없고 REST와 같은 원격 프로토콜을 사용하여 데이터를 가져와야 합니다.
 - 마이크로 프론트엔드는 반응적입니다. 사용자는 변경 발생 후 즉시 데이터가 업데이트되어야 하며 모든 뷰가 업데이트되어야 합니다. 따라서 마이크로서비스가 데이터를 요청하고 해당 시점에 가지고 있는 데이터를 사용하는 전략은 적용할 수 없습니다.
@@ -111,7 +195,18 @@ DDD의 기본 전략은 회사 구조가 어떻게 작동하는지 이해하고 
 
 이러한 마지막 가능성은 마이크로 프론트엔드 간의 결합을 낮출 수 있도록 하여 각 마이크로 프론트엔드가 독립적으로 관리되고 프론트엔드를 위한 마이크로서비스의 구조와 패턴을 재현할 수 있도록 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Micro-Frontend 구현 도전 과제 극복](/assets/img/OvercomingtheImplementationChallengesofMicro-Frontends_3.png)
 
@@ -121,7 +216,18 @@ DDD의 기본 전략은 회사 구조가 어떻게 작동하는지 이해하고 
 
 이는 POST/PUT/DELETE REST 명령이 아니라는 것을 의미하므로, 마이크로 프론트엔드에는 이러한 명령이 없습니다. 대신 사용자가 클릭하거나 글자를 입력하거나 단어를 선택할 때마다 마이크로 프론트엔드에서 작업을 트리거하여 상태를 변경하고 도메인 이벤트를 생성합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마이크로서비스와 달리, 이러한 이벤트들은 특별한 진입점이 필요하지 않습니다; 대신에:
 
@@ -131,7 +237,18 @@ DDD의 기본 전략은 회사 구조가 어떻게 작동하는지 이해하고 
 
 ![OvercomingtheImplementationChallengesofMicro-Frontends_4](/assets/img/OvercomingtheImplementationChallengesofMicro-Frontends_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 마이크로프론트엔드 도메인 이벤트 발행 및 수신
 
@@ -141,7 +258,18 @@ DDD의 기본 전략은 회사 구조가 어떻게 작동하는지 이해하고 
 
 또한, 전통적인 프로그래밍에서 도메인 이벤트는 의존성을 뒤집는 이상적인 방법으로, 옵저버 패턴과 유연하게 유사한 기능을 제공합니다. 따라서, 마이크로프론트엔드가 아닌 표준 프론트엔드로 프로그래밍 중이더라도 도메인 이벤트의 원칙을 검토하고 적용하는 것이 좋은 실천일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로, 우리가 다양한 마이크로 프론트엔드를 연결하여 도메인 이벤트를 전달할 수 있는 통신 버스를 어떻게 만들 수 있는지에 대해 알아보겠습니다. 이러한 마이크로 프론트엔드 특성에 대한 이전 포인트들과 달리, 이 도메인 이벤트 버스는 의존하지 않고 연결되어야 합니다. 즉, 어플리케이션 수준에서 작동해야 하며, 이는 이제 표준화가 필요하다는 것을 의미합니다. 쿼리, 커맨드 또는 데이터베이스에서 각 마이크로 프론트엔드가 서로 다른 메커니즘을 사용할 수 있지만(권장되지는 않지만 가능합니다), 도메인 이벤트 버스에서는 이를 할 수 없습니다. 여기서 도메인 이벤트는 전역적으로 발생하여 다른 알 수 없는 마이크로 프론트엔드가 반응할 수 있도록 합니다. 이것은 의존성 역전의 일환으로, 모든 마이크로 프론트엔드가 합의하거나 함께 작업할 수 있도록 어댑터를 갖추도록 하는 표준이 필요합니다.
 
@@ -153,7 +281,18 @@ DDD의 기본 전략은 회사 구조가 어떻게 작동하는지 이해하고 
 - postMessage API 사용: 메시지를 보내고 받을 수 있으며, iframe 간에도 통신이 가능하며, 이는 마이크로 프론트엔드의 공통 측면입니다.
 - Redux와 같은 라이브러리 사용: 액션은 저장소를 통해 전달되었을 때 도메인 이벤트가 될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다른 대안이 훨씬 더 많이 있습니다. 그저 그것들이 더 빈번하게 사용되는 것뿐입니다. 다른 방법으로는 localStorage와 같은 다른 브라우저 API를 사용할 수도 있습니다. 이는 탭 간 통신을 가능하게 합니다. 라이브러리에 관해서는 필요한 라이브러리를 사용할 수 있고, 필요하다면 사용자 정의 라이브러리를 사용해도 좋습니다. 다만 Redux가 제공하는 브라우저 도구의 장점을 고려해보세요. 이 도구는 액션 체인을 디버깅하기 쉽게 해줍니다.
 
@@ -163,7 +302,18 @@ DDD의 기본 전략은 회사 구조가 어떻게 작동하는지 이해하고 
 
 우리가 말했던 것처럼 시작해보겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 배포는 자율성을 우선시해야 하며, 팀은 다른 팀을 기다리지 않고 배포할 수 있어야 합니다. 이러한 맥락에서 팀이 자체 환경을 관리하고 마이크로서비스를 독립적으로 배포하는 것이 일반적입니다. 마이크로서비스는 실행할 수 있는 머신만 있으면 됩니다. 머신이 있으면 사용할 사람에게 엔드포인트를 제공하고, 그게 전부입니다. 이를 통해 여러 응용 프로그램이 동일한 마이크로서비스를 사용할 수 있게 해줍니다. 마이크로서비스는 누가 사용할지 알 필요가 없습니다.
 
@@ -173,7 +323,18 @@ DDD의 기본 전략은 회사 구조가 어떻게 작동하는지 이해하고 
 
 이러한 배포는 응용 프로그램에서 일어나서는 안 됩니다. 따라서 이 목표를 달성하기 위해, 마이크로 프론트엔드를 배포하려면 웹 서버(또는 CDN)에 게시하고 응용 프로그램이 시작될 때 최신 버전을 로드하도록 허용해야 합니다. 각 마이크로 프론트엔드를 자체 환경에서 로드하는 것입니다. 하지만,
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 과정에서 브라우저 제한 사항으로 인해 마이크로 프론트엔드에 변경 사항이 없을 경우 브라우저에서 캐시를 지원해야 하며 사용자가 콘텐츠를 매번 다시로드하는 것을 강제해서는 안 됩니다. 그러나 새로운 배포를 할 때 사용자가 로드하는 애플리케이션이 업데이트되도록 하고 싶습니다. 따라서 새로운 배포가 이루어졌는지 확인할 수 있는 서버가 필요하며 사용자의 버전을 업데이트할 수 있도록 하는 절묘한 전략이 필요합니다(팀에게는 투명하게).
 
@@ -184,7 +345,18 @@ DDD의 기본 전략은 회사 구조가 어떻게 작동하는지 이해하고 
 
 # 마이크로 프론트엔드 엔드포인트 및 구성요소
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최종적으로 다룰 문제는 아마도 마이크로프론트엔드 환경의 가장 어려우면서도 독특한 면 중 하나일 것입니다. 마이크로서비스 전술을 에뮬레이션하여 배포를 관리했을 수도 있지만, 여기에서는 완전히 새로운 도전에 직면합니다.
 
@@ -194,7 +366,18 @@ DDD의 기본 전략은 회사 구조가 어떻게 작동하는지 이해하고 
 
 이러한 종류의 API와 요구 사항은 마이크로서비스에서는 없었습니다. 따라서 마이크로프론트엔드에서 이러한 자리 표시자는 다른 마이크로프론트엔드가 구성 요소를 동적으로 통합할 수 있도록 나열된 공간입니다. 이것은 의존성 역전과 우리가 추구하는 해제 결합의 적절한 사용을 요구합니다. 그러므로 한 마이크로프론트엔드는 자리 표시자를 제공하고, 다른 마이크로프론트엔드(첫 번째 마이크로프론트엔드가 모르는)는 이러한 자리 표시자를 사용하여 자체 구성 요소를 추가합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 예에서 설명한 대로, 제품 마이크로 프론트엔드는 제품 푸터와 제품 정보 푸터 두 가지 자리 표시자를 제공할 수 있습니다. 장바구니 마이크로 프론트엔드에서는 구매 버튼을 제품 정보 푸터 자리 표시자에 배치하고, 업셀링 마이크로 프론트엔드에서는 제품 푸터에 제공을 배치할 것입니다.
 
@@ -204,7 +387,18 @@ DDD의 기본 전략은 회사 구조가 어떻게 작동하는지 이해하고 
 
 따라서, 마이크로 프론트엔드가 아직 존재하지 않는 자리 표시자에 구성 요소를 추가하려고 시도하면 실패할 수 있습니다. 다행히도 이런 문제는 쉽게 해결할 수 있습니다. 해결 방법에는 레거시 분석과 유사한 메커니즘이 포함되어 있습니다. 코드가 없으면 요소를 대기열에 추가하는 배열을 생성하거나, 로드를 조율하는 시스템을 사용하여 각 마이크로 프론트엔드가 의존성을 지정하고 로드되었을 때 알림을 받는 등의 방법이 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 플레이스홀더가 맥락을 제공하는 것이 중요합니다:
 
@@ -214,7 +408,18 @@ DDD의 기본 전략은 회사 구조가 어떻게 작동하는지 이해하고 
 
 # 요약
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사에서는 마이크로 프론트엔드를 구성하는 모든 요소에 대해 폭넓게 살펴보았습니다. 마이크로서비스에서 이미 알고 있던 기초부터 이 아키텍처에 특화된 요소까지 모두 포함하여 일반적인 아이디어를 제공했습니다.
 
@@ -229,7 +434,18 @@ DDD의 기본 전략은 회사 구조가 어떻게 작동하는지 이해하고 
 - 각 팀이 자체 마이크로 프론트엔드를 독립적으로 배포할 수 있도록 분리된 배포 시스템.
 - 마지막으로 사용자 친화적인 뷰를 구축하기 위한 컴포넌트 및 플레이스홀더 시스템.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리덕스는 몇 가지 이유로 여러 번 언급되는데, 그 이유는 DDD에서 핵심적인 패턴인 애그리게이트의 속성과 일치하기 때문입니다. 이에 대해 더 알고 싶다면 아래의 글을 참고해주세요.
 
@@ -239,6 +455,17 @@ DDD의 기본 전략은 회사 구조가 어떻게 작동하는지 이해하고 
 
 따라서 이 기사에서는 DDD 전술을 마이크로 프론트엔드의 생성에 어떻게 적용하고 모든 관련된 도전에 대해 개요를 제시했습니다. 이 글은 철저한 안내서가 아니라 올바르게 구축하기 위해 필요한 모든 결정을 살펴보는 초선 맛보기 역할을 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 텍스트를 읽어 주셔서 감사합니다. 보통 나는 소프트웨어 엔지니어링을 이해하고 적용하는 방식에 대해 생각하고 개선할 수 있는 부분에 대해 고민하는 이야기를 쓰는 것을 좋아해요. 이 기사가 마음에 드셨다면 박수나 댓글을 잊지 마세요. 더 많은 통찰과 토론을 위해 제 매체에서 가장 성공적인 이야기들을 살펴보세요.

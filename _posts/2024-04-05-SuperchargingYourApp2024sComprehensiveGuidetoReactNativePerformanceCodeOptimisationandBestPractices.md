@@ -3,17 +3,13 @@ title: "2024년 React Native 성능을 향상시키는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Supercharging Your App 2024s Comprehensive Guide to React Native Performance, Code Optimisation, and Best Practices"
 link: "https://medium.com/@ahmad.almezaal/supercharging-your-app-2024s-comprehensive-guide-to-react-native-performance-code-optimisation-677040868df1"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/1*6WIkNgEMWiijLnC4SKSEFg.gif" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 다음 섹션들이 단계별로 안내해 드릴 것이며, React Native 앱을 효율적이고 성능이 우수한 모범으로 변모시키는 데 도움이 될 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 1. 인라인 함수 사용을 피하세요
 
@@ -44,7 +51,18 @@ const CustomButton = () => {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최적화 후: 여기서는 함수를 컴포넌트 본문 바깥에 정의합니다. 이 변경으로 함수가 렌더링마다 재생성되지 않아 컴포넌트가 불필요하게 다시 렌더링되는 것을 방지합니다.
 
@@ -69,7 +87,18 @@ const CustomButton = () => {
 
 # 2. 함수 메모이제이션을 위한 useCallback 활용
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 성능을 향상시키는 중요한 측면 중 하나는 불필요한 다시 렌더링을 방지하기 위해 함수를 메모이징하는 것입니다. 여기에서 React의 useCallback 훅이 등장하면서, 콜백 함수를 메모이징하는 효율적인 방법을 제공합니다.
 
@@ -79,7 +108,18 @@ useCallback 훅은 의존성(dependencies) 중 하나가 변경되었을 때만 
 
 ## useCallback의 중요성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트 네이티브에서 렌더링 성능은 부드러운 사용자 경험을 위한 핵심 요소입니다. useCallback은 필요한 경우가 아닌 한 함수가 매 렌더링마다 재생성되지 않도록하여 다시 렌더링 횟수를 최소화하는 데 도움을 줍니다. 이는 JavaScript 스레드에 가해지는 작업 부담을 줄여 더 빠른 실행 시간과 더 반응적인 애플리케이션을 만듭니다.
 
@@ -106,7 +146,18 @@ const CounterComponent = () => {
 
 useCallback을 사용한 후: 이제 useCallback을 사용하여 incrementCount 함수를 메모이제이션하는 방법을 사용하여 위 코드를 리팩토링해보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import React, { useState, useCallback } from "react";
@@ -133,7 +184,18 @@ useMemo는 useCallback과 유사하지만, useCallback은 함수를 메모이제
 
 ## useMemo의 본질
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `useMemo`은 함수의 출력을 기억하는 React 훅입니다. 의존성 중 하나가 변경될 때만 결과를 다시 계산합니다. 본질적으로 `useMemo`는 컴포넌트가 이전 계산 결과를 기억함으로써 매 렌더링마다 비싼 계산을 피할 수 있게 합니다.
 
@@ -143,7 +205,18 @@ React Native 애플리케이션은 때로 렌더링 중에 수행되는 복잡�
 
 ## `useMemo`의 실제 활용법
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단한 예를 통해 useMemo의 사용을 설명해보겠습니다.
 
@@ -166,7 +239,18 @@ const SumComponent = ({ numbers }) => {
 
 useMemo 사용 후: 여기서는 sum 계산을 기억하는 데 useMemo를 사용하도록 코드를 리팩터링했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import React, { useMemo } from "react";
@@ -191,7 +275,18 @@ const SumComponent = ({ numbers }) => {
 
 React.memo는 useMemo나 useCallback과는 다른 목적을 가진 고차 컴포넌트(HOC)입니다. 함수형 컴포넌트의 다시 렌더링 프로세스를 제어하는 데 사용되며, 특히 복잡한 컴포넌트 트리를 가진 앱에서 성능을 향상시키는 데 중요한 도구로 작용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## React.memo 이해하기
 
@@ -201,7 +296,18 @@ React.memo은 함수형 컴포넌트를 감싸서 props를 얕게 비교하여 �
 
 React.memo를 사용하는 것이 특히 유용한 상황은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 컴포넌트는 복잡한 객체를 props로 받습니다.
 - 컴포넌트는 종종 동일한 props로 다시 렌더링됩니다.
@@ -213,7 +319,18 @@ React.memo를 사용하는 것이 특히 유용한 상황은 다음과 같습니
 
 React.memo를 사용하기 전:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const UserProfile = ({ name, email }) => {
@@ -241,7 +358,18 @@ const UserProfile = React.memo(({ name, email }) => {
 
 UserProfile을 React.memo로 감심으로써, 리액트는 name 또는 email props이 변경되지 않는 한이 컴포넌트를 다시 렌더링하지 않아야 함을 알 수 있습니다. 이 간단한 개선 사항은 깊은 컴포넌트 트리 또는 복잡한 UI가 있는 애플리케이션에서 상당한 성능 향상을 이끌 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## React.memo 사용하는 최상의 방법
 
@@ -253,7 +381,18 @@ UserProfile을 React.memo로 감심으로써, 리액트는 name 또는 email pro
 
 모바일 앱의 미디어 리치 환경에서 이미지 처리를 최적화하는 것은 React Native 앱 성능을 향상시키는 데 중요합니다. 강력한 React Native 라이브러리인 FastImage는 고급 캐싱, 우선순위 로딩 및 순진 이미지 지원을 제공하여 표준 Image 컴포넌트보다 크게 뛰어난 성능을 제공합니다. 개발자들에게 필수적인 도구입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## FastImage를 선택하는 이유
 
@@ -265,7 +404,18 @@ UserProfile을 React.memo로 감심으로써, 리액트는 name 또는 email pro
 
 FastImage를 설치한 후, React Native의 기본 Image 컴포넌트를 쉽게 대체하여 이러한 이점을 활용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import FastImage from 'react-native-fast-image';
@@ -290,7 +440,18 @@ const OptimizedImage = () => (
 
 비동기 작업에서 상태 업데이트를 관리하는 것은 때때로 컴포넌트가 언마운트되기 전에 메모리 누수로 이어질 수 있습니다. 이 문제는 비동기 작업이 완료되고 DOM에 더 이상 없는 컴포넌트의 상태를 업데이트하려고 할 때 발생하여 React에서 경고를 발생시킵니다. 이러한 문제에 대응하기 위해 컴포넌트가 여전히 마운트된 상태인 경우에만 안전하게 상태를 업데이트하는 사용자 정의 후크를 만들어 메모리 누수를 방지할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 안전한 상태 업데이트 후크의 필요성
 
@@ -326,7 +487,18 @@ export const useSafeState = (initialValue) => {
 
 이 후크는 컴포넌트의 마운트 상태를 추적하기 위해 ref인 isMountedRef를 초기화합니다. 컴포넌트가 마운트되면 isMountedRef.current를 true로 설정합니다. useEffect에 제공된 정리 함수는 컴포넌트가 언마운트될 때 이 값을 false로 변경하여 상태를 업데이트할 수 없는 안전하지 않은 상태임을 나타냅니다. 그런 다음 safeSetValue 함수는 상태를 업데이트하기 전에 이 ref를 확인하여 컴포넌트가 마운트된 것을 보장합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 사용 예시:
 
@@ -351,7 +523,18 @@ const MyComponent = () => {
 
 # 최상의 성능을 위해 ScrollView 대신 FlatList 및 SectionList 사용하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트 네이티브 개발에서는 데이터 목록을 효율적으로 렌더링하여 부드러운 스크롤 성능을 유지하고 메모리 사용량을 최소화하는 것이 중요합니다. 복잡하거나 대규모 데이터셋을 처리할 때는 작업에 적합한 컴포넌트를 선택하는 것이 앱 성능에 상당한 영향을 미칠 수 있습니다. 이러한 시나리오에서는 ScrollView 대신 FlatList나 SectionList를 사용해야 합니다. 또한 페이지네이션을 구현하면 데이터를 점진적으로 로드하여 앱의 응답성을 더욱 향상시킬 수 있습니다.
 
@@ -363,7 +546,18 @@ const MyComponent = () => {
 
 ## FlatList에서 페이지네이션 구현하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 페이지네이션은 한 번에 데이터 청크를 로드하도록 허용하여 사용자 경험을 향상시키고 컨텐츠를 빠르게 표시하며 로드 시간을 줄입니다. 이것은 FlatList에서 페이지네이션을 구현하는 간단화된 예제입니다:
 
@@ -398,7 +592,18 @@ const PaginatedList = () => {
 
 # 8. 빠르고 강력한 MMKV로 로컬 스토리지 강화하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모바일 앱 개발에서 흔한 병목 현상 중 하나는 데이터 저장 및 검색의 효율성입니다. 기본 AsyncStorage API는 유용하지만 더 엄격한 애플리케이션의 성능 요구를 충족시키지 못할 수 있습니다. MMKV는 고속 C++ 라이브러리를 활용한 스토리지 솔루션으로 AsyncStorage보다 빠른 데이터 액세스를 제공합니다.
 
@@ -411,7 +616,18 @@ MMKV는 C++로 설계 및 구현되어 있어 성능과 효율성에서 뛰어�
 - 쉬운 이전: 간단하고 직관적인 API 덕분에 개발자는 최소한의 코드 변경으로 AsyncStorage에서 MMKV로 쉽게 전환할 수 있습니다.
 - 멀티 프로세스 액세스: AsyncStorage와 달리 MMKV는 동시에 여러 프로세스에서 액세스할 수 있어 복잡한 애플리케이션에 이상적입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import MMKVStorage from "react-native-mmkv";
@@ -433,7 +649,18 @@ const userToken = storage.getString("user_token");
 
 # 9. 모든 콘솔 로그 제거하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트 네이티브의 문서에는 쉽고 효과적인 최적화 방법이 강조되고 있어요: 프로덕션 코드에서 console.log 문을 제거하는 것이죠. 이러한 로그는 개발 단계에서 유용하지만, 프로덕션 환경에서는 자바스크립트 스레드를 불필요하게 점유하여 앱의 성능을 느리게 할 수 있습니다.
 
@@ -453,7 +680,18 @@ module.exports = {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 간단한 단계를 따르면 JavaScript 스레드를 중요한 작업에 집중시켜 앱 성능을 크게 향상시킬 수 있어요. 사용자 경험을 보다 원할하게 만들어줄 거예요.
 
@@ -463,7 +701,18 @@ module.exports = {
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React Native 앱을 향상시키는 것은, 효율적인 상태 관리와 메모리 누수 방지부터 이미지 최적화와 타사 라이브러리의 신중한 사용까지 다양한 전략을 포함하는 지속적인 여정입니다. 우리는 React.memo를 활용하여 컴포넌트 다시 렌더링을 최적화하고, useSafeState를 사용하여 마운트 해제된 컴포넌트의 업데이트를 피하며, FastImage로 이미지 성능을 향상하는 등 고급 기술을 탐구했습니다. 각 전략은 응용 프로그램이 원할하게 실행되고 모든 기기에서 훌륭한 사용자 경험을 제공하는 데 중요한 역할을 합니다.
 

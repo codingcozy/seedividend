@@ -3,16 +3,13 @@ title: "HTML, CSS와 JS로 서명 패드 만들기 단계별 가이드"
 description: ""
 coverImage: "/assets/no-image.jpg"
 date: 2024-07-09 18:44
-ogImage: 
+ogImage:
   url: /assets/no-image.jpg
 tag: Tech
 originalTitle: "Build a Signature Pad in HTML, CSS, JS , Canvas"
 link: "https://medium.com/@divbydiv/build-a-signature-pad-in-html-css-js-canvas-bd174d999392"
 isUpdated: true
 ---
-
-
-
 
 ![image](https://miro.medium.com/v2/resize:fit:1400/1*kSbgHu01E-PFh2JXVoS-jw.gif)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 게다가, 서명 패드에서 이미지를 생성하여 서버로 전송하는 방법에 대해서도 알려드릴게요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 준비되셨나요? 시작해봐요 😀
 
@@ -54,7 +62,18 @@ isUpdated: true
 
 이제 app.css 파일에 몇 가지 CSS를 추가해 시그니처 패드처럼 보이도록 만들어봐요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 :root {
@@ -97,25 +116,47 @@ body {
 
 이제 app.js에서 코드를 작성할 차롈입니다.
 
-먼저, 폼, 캔버스, 서명 패드를 지울 버튼에 대한 몇 가지 상수를 저장하고 싶습니다.  
+먼저, 폼, 캔버스, 서명 패드를 지울 버튼에 대한 몇 가지 상수를 저장하고 싶습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-const canvas = document.querySelector('canvas');
-const form = document.querySelector('.signature-pad-form');
-const clearButton = document.querySelector('.clear-button');
+const canvas = document.querySelector("canvas");
+const form = document.querySelector(".signature-pad-form");
+const clearButton = document.querySelector(".clear-button");
 ```
 
 이제 canvas context를 다른 상수로 저장합시다. 우리는 곧 필요할 것입니다. 이 경우 서명은 2차원이므로 2차원 context만 필요합니다.
 
 ```js
-const ctx = canvas.getContext('2d');
+const ctx = canvas.getContext("2d");
 ```
 
 마지막으로, 작성 모드를 설정하거나 해제하는 두 변수를 만들어 봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 let writingMode = false;
@@ -127,12 +168,23 @@ let writingMode = false;
 
 포인터 다운은 쓰기 모드를 true로 설정하는 역할을 맡고, 포인터 업은 쓰기 모드를 false로 설정하는 역할을 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-canvas.addEventListener('pointerdown', handlePointerDown, { passive: true });
-canvas.addEventListener('pointerup', handlePointerUp, { passive: true });
-canvas.addEventListener('pointermove', handlePointerMove, { passive: true });
+canvas.addEventListener("pointerdown", handlePointerDown, { passive: true });
+canvas.addEventListener("pointerup", handlePointerUp, { passive: true });
+canvas.addEventListener("pointermove", handlePointerMove, { passive: true });
 ```
 
 이제 핸들러를 구현해 봅시다.
@@ -145,10 +197,21 @@ const handlePointerDown = (event) => {
   ctx.beginPath();
   const [positionX, positionY] = getCursorPosition(event);
   ctx.moveTo(positionX, positionY);
-}
+};
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 handlePointerUp
@@ -166,7 +229,16 @@ const handlePointerMove = (event) => {
   ctx.stroke();
 }
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 getCursorPosition 함수는 다음과 같습니다:
 
@@ -181,7 +253,16 @@ const getCursorPosition = (event) => {
 ctx.lineWidth = 3;
 ctx.lineJoin = ctx.lineCap = 'round';
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 거의 다 왔어요. 추가해야 할 마지막 기능은 캔버스를 지우고, 폼을 제출하는 기능입니다.
 
@@ -208,9 +289,19 @@ clearButton.addEventListener('click', (event) => {
 
 이게 다에요! 최종 결과물은 이렇게 될 거에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```
+
 ![image](https://miro.medium.com/v2/resize:fit:1400/1*kSbgHu01E-PFh2JXVoS-jw.gif)
 
 Thanks for reading and I will see you in the next article :) have a nice day and happy coding!

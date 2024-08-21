@@ -3,17 +3,13 @@ title: "플러터에서 개별 회원 가입 경로를 두면 안되는 이유"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Never have separate sign-in routes"
 link: "https://medium.com/@alexey.inkin/never-have-separate-sign-in-routes-7c9a6dd4dc7c"
 isUpdated: true
 ---
-
-
-
-
 
 웹 앱에서 인증을 위해 화면을 보호하는 두 가지 옵션이 있습니다:
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 2. 사용자가 인증되지 않은 경우, 해당 페이지의 URL에 로그인 폼을 표시하고 리디렉션을 하지 않으며 별도의 경로를 사용하지 않습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/Neverhaveseparatesign-inroutes_1.png" />
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 # /sign-in 경로의 문제점
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1. 의미가 없는 페이지
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 사용자가 인증되고 나면, 사용자가 원하는 페이지로 다시 이동해야 합니다. 이는 즉, 해당 URL이 ?back=/profile 형식으로 로그인 페이지로 전달되어야 한다는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이렇게 하면 관리가 많아지고 잘못된 또는 누락된 백 URL이 많아질 수 있어요.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 만약 사용자가 /profile 링크를 클릭하여 /sign-in 페이지로 리디렉션됐다가 다시 /profile 페이지로 돌아왔다면, 이는 브라우저 히스토리에 세 개의 항목으로 남겨집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "뒤로' 버튼을 클릭하면 프로필 링크를 클릭한 페이지로 되돌아가기를 기대합니다. 그러나 인증된 상태이기 때문에 다시 /sign-in?... 로 돌아가서 다시 /profile 로 리디렉션됩니다.
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 현대의 웹 앱에서는 메모리에 프론트엔드의 페이지 스택이 있습니다. 다음과 같은 스택이 있을 수 있습니다:"
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로필 페이지에서 프로필 수정 페이지로 이동 중입니다.
 
@@ -73,7 +124,18 @@ isUpdated: true
 
 인증이 필요한 모든 페이지를 팝하는 가드를 설정할 수 있지만, 이는 사용자 경험에 해를 줄 수 있습니다. 다시 로그인하면 페이지 스택이 손실될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서 인증 체크를 추출하기 위해 액세스 가드를 설정했다고 해도 페이지에서 완전히 해당 체크를 제거할 수는 없어요.
 
@@ -83,7 +145,18 @@ isUpdated: true
 
 설정 방법은 사용하는 프레임워크에 따라 다릅니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 백엔드 앱에서는 실제 HTTP 리디렉트를 발생시키지 않고 요청을 내부적으로 다른 핸들러로 라우팅하는 경우가 일반적입니다.
 
@@ -95,6 +168,17 @@ isUpdated: true
 
 저의 프로젝트 중 하나의 위젯은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 여기 첫 번째 위젯 위에 더 편리한 위젯이 있는데 목표 페이지에 대한 빌더만 있습니다:

@@ -3,16 +3,13 @@ title: "반성 감사와 성장"
 description: ""
 coverImage: "/assets/img/2024-06-20-ReflectionsGratitudeandGrowth_0.png"
 date: 2024-06-20 05:56
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-ReflectionsGratitudeandGrowth_0.png
 tag: Tech
 originalTitle: "Reflections: Gratitude and Growth"
 link: "https://medium.com/@rajeshkumar9692494732/embarking-on-an-internship-is-like-venturing-into-uncharted-territory-brimming-with-excitement-6e3c756a2f23"
 isUpdated: true
 ---
-
-
-
 
 ![ReflectionsGratitudeandGrowth](/assets/img/2024-06-20-ReflectionsGratitudeandGrowth_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 나에게 맡겨진 첫 번째 작업은 대단한 일이었어요 — 여행 예약 웹사이트를 위한 랜딩 페이지를 만드는 거였어요. HTML과 CSS를 무장하고, 나는 이 디지털 목적지를 현실로 만들기 위해 노력했어요. 반짝이는 해변부터 치솟는 고층 빌딩까지, 각 픽셀은 내 상상력을 위한 캔버스였어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 뒷면 이야기
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 여기 랜딩 페이지를 통해 한 바퀴 걸어보세요. 모험심이 일어나게 할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 작업 2: 이야기를 엮다 — 나만의 포트폴리오
 
@@ -42,7 +61,18 @@ isUpdated: true
 
 다리를 건너다
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 코드 줄은 나를 나타내고 내가 믿는 것을 그림으로 그리는 작업이었습니다. 색상 팔레트부터 글꼴 선택까지 각 결정은 내 성격, 스타일, 그리고 미래 비전을 반영했습니다.
 
@@ -52,7 +82,18 @@ isUpdated: true
 
 ## 작업 3: 디지털 격차를 줄이는 온도 변환기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 목적을 갖고 혁신하기
 
@@ -62,7 +103,18 @@ isUpdated: true
 
 매 클릭과 타자 입력마다, 나는 직관적이고 매끄럽고, 무엇보다 인간적인 경험을 만들려 했습니다. 온도 변환기는 그저 도구가 아니었습니다; 세계 각지에서 온 사용자를 연결하는 다리였습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 코드에서 배려로
 
@@ -72,7 +124,18 @@ isUpdated: true
 
 이 빙동 같은 여정을 돌아보면, 나는 도전에 나를 밀었던 것, 교훈을 주었던 좌절들, 열정을 불태워준 승리들에 대해 감사합니다. 그리고 무엇보다도, 이 여정을 가능하게 해 준 오아시스 인포바이트의 놀라운 팀에 대해 감사합니다. 그들의 지지와 지도가 이 여정을 실현할 수 있게 해 주었기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론: 지평선 너머로
 

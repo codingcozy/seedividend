@@ -3,17 +3,13 @@ title: "Tailwind CSS vs Bootstrap 어떤 것 사용할지 정해드립니다2024
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Tailwind CSS vs Bootstrap  2024 Edition"
 link: "https://blog.stackademic.com/tailwind-css-vs-bootstrap-2024-edition-da8e4cad62a1"
 isUpdated: true
 ---
-
-
-
-
 
 안녕하세요!
 이 이야기에는 Tailwind CSS와 Bootstrap을 소개하고 최적화, 렌더링, 2023-24 인기 등에서 비교할 것입니다.
@@ -24,7 +20,18 @@ isUpdated: true
 
 ## Tailwind CSS
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테일윈드 CSS는 현대 웹사이트 개발을 가속화하기 위해 디자인된 인기 있는 유틸리티 중심의 CSS 프레임워크입니다. 전통적인 프레임워크가 미리 만들어진 컴포넌트를 제공하는 반면, 테일윈드는 패딩, 마진, 색상 또는 타이포그래피와 같은 요소의 스타일을 특정하게 설정하는 대량의 로우 레벨 유틸리티 클래스를 제공합니다. 이 프레임워크는 HTML 파일, JavaScript 컴포넌트 및 다른 템플릿의 모든 클래스 이름을 스캔하여 해당 스타일을 생성하고 정적 CSS 파일로 작성합니다.
 
@@ -38,7 +45,18 @@ isUpdated: true
 - 사용자 정의: 테일윈드는 확장 가능한 사용자 정의 옵션을 제공합니다. 필요한 유틸리티 클래스만 포함하고 디자인 시스템에 맞게 조정할 수 있습니다.
 - 통합: 테일윈드는 다양한 JavaScript 프레임워크와 라이브러리와 원활하게 통합되어 현대 웹 개발에 유연한 도구로 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 부트스트랩
 
@@ -51,7 +69,18 @@ isUpdated: true
 - 다양한 JavaScript 플러그인: 부트스트랩은 정적 UI 구성 요소 이상의 것을 제공합니다. 웹 페이지에 상호작용성과 기능을 추가하는 다양한 JavaScript 플러그인을 제공합니다. 팝업 모달, 캐로셀, 툴팁, 스크롤투각 내비게이션 등을 생성하는 플러그인이 있습니다. 이러한 플러그인은 잘 문서화되어 있으며 통합하기 쉽습니다.
 - 부트스트랩 테마 및 사용자 정의: 부트스트랩은 사전 제작된 구성 요소를 제공할 뿐만 아니라 광범위한 사용자 정의도 허용합니다. 내장된 테마를 사용하거나 고유한 테마를 만들어 웹사이트에 원하는 모양과 느낌을 구현할 수 있습니다. 부트스트랩은 스타일링 및 구성 요소에 맞게 맞춤화하는 데 사용할 수 있는 다양한 CSS 클래스를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 구성 요소 사용 가능성
 
@@ -66,7 +95,18 @@ isUpdated: true
 - 모달 & 팝업: 아코디언, 경고 팝업, 툴팁, 팝오버 메뉴
 - JavaScript 플러그인: 캐로셀, 접히는 요소, 토스트(alert)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Tailwind CSS
 
@@ -78,7 +118,18 @@ Tailwind CSS 자체는 버튼, 카드 또는 내비게이션 메뉴와 같은 �
 - Tailwind UI (공식): Tailwind CSS의 개발자들은 Tailwind UI라는 프리미엄 라이브러리를 제공합니다. https://tailwindui.com/에서 확인할 수 있습니다. 이 라이브러리는 Tailwind 클래스로 스타일링된 다양하고 사전 제작된 반응형 구성 요소를 제공합니다. 이러한 구성 요소는 HTML, React 및 Vue 형식으로 제공됩니다.
 - Daisy UI: Daisy UI는 Tailwind CSS와 특히 호환되도록 설계된 인기 있는 무료 오픈 소스 구성 요소 라이브러리입니다. https://daisyui.com/에서 확인할 수 있습니다. 이는 사전 제작된 구성 요소를 Tailwind의 유틸리티 클래스 위에 추가하여 개발을 더 빠르고 쉽게 만듭니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Tailwind CSS와 Bootstrap 비교
 
@@ -88,7 +139,18 @@ Tailwind CSS 자체는 버튼, 카드 또는 내비게이션 메뉴와 같은 �
 
 렌더링 속도는 웹 앱을 만들 때 고려해야 할 주요 요소 중 하나입니다. 보통 Tailwind CSS는 Bootstrap보다 더 나은 렌더링 속도와 최적화를 갖추고 있다고 여겨집니다. 이에 대한 세부 분석은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Tailwind CSS
 
@@ -100,7 +162,18 @@ Tailwind CSS
 - 미리 구축된 구성 요소: 부트스트랩은 버튼, 폼, 내비게이션 바와 같은 미리 구축된 구성 요소를 제공합니다. 이러한 구성 요소에는 내장된 스타일이 있어 편리할 수 있지만 필요하지 않은 스타일을 포함할 수도 있습니다.
 - 중첩 선택기: 부트스트랩은 CSS에서 중첩 선택기를 사용할 수 있어 복잡한 레이아웃의 경우 브라우저 성능에 영향을 줄 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 번들 크기
 
@@ -112,7 +185,18 @@ Tailwind CSS는 작은 번들 크기로 유명합니다. 직접 HTML에 포함�
 **부트스트랩**  
 부트스트랩은 큰 번들 크기를 제공합니다. 미리 구축된 구성요소와 스타일이 기본 제공되어 편리하지만 최종 CSS 파일을 부풀릴 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 디자인 철학
 
@@ -128,7 +212,18 @@ Tailwind CSS
 - Tailwind CSS는 유틸리티 우선 접근 방식을 촉진합니다. 이 예시에서는 유틸리티 클래스로 카드 형식의 구조를 만들었습니다.
 - 우리는 배경색, 그림자, 여백 및 기타 스타일을 명시적으로 정의합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 부트스트랩
 
@@ -143,7 +238,18 @@ Tailwind CSS
 
 ## 사용자 정의
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테일윈드 CSS
 
@@ -164,7 +270,18 @@ module.exports = {
 
 부트스트랩
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /* 부트스트랩 사용자 정의하기 */
@@ -177,7 +294,18 @@ $primary-color: #3498db;
 
 Tailwind CSS
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Tailwind CSS에는 성장하는 커뮤니티와 생태계가 있지만 Bootstrap만큼 광범위하지는 않을 수 있습니다.
 - 그러나 인기를 얻고 있으며, 프레임워크를 배우고 활용하려는 사람들을 위한 자원을 제공합니다.
@@ -189,7 +317,18 @@ Bootstrap
 
 # CSS 2023 비교 결과
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인식률
 
@@ -199,7 +338,18 @@ Tailwind CSS는 발표된 이후 몇 년 동안 매우 높은 인식률을 얻�
 
 사용률
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Tailwind CSS vs Bootstrap](/assets/img/TailwindCSSvsBootstrap2024Edition_2.png)
 
@@ -209,7 +359,18 @@ Tailwind CSS는 발표된 이후 몇 년 동안 매우 높은 인식률을 얻�
 
 ![Tailwind CSS vs Bootstrap](/assets/img/TailwindCSSvsBootstrap2024Edition_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Tailwind CSS가 Bootstrap보다 훨씬 더 높은 관심을 받았다는 것을 알 수 있습니다. Tailwind CSS는 2023년과 이후 몇 년간 모든 CSS 프레임워크 및 라이브러리 중에서 낮은 관심률로 나타났던 부트스트랩과 대조됩니다. 이는 개발자들이 부트스트랩보다 Tailwind CSS에 더 많은 관심을 가지고 있다는 것을 의미합니다.
 
@@ -219,7 +380,18 @@ Tailwind CSS가 Bootstrap보다 훨씬 더 높은 관심을 받았다는 것을 
 
 부트스트랩의 유지율은 지난 몇 년간 크게 감소했습니다. 이는 개발자들이 다른 프레임워크와 경쟁사로 전환하고 있다는 것을 의미합니다. Tailwind CSS의 유지율은 약 3-4% 정도 감소했지만 여전히 다른 프레임워크보다 더 높은 유지율을 보유하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Tailwind CSS를 Bootstrap보다 사용하는 이유
 
@@ -229,7 +401,18 @@ Tailwind CSS는 성능과 최적화를 염두에 두고 처음부터 설계되�
 
 게다가, Tailwind의 맞춤화 능력은 Bootstrap이 제공하는 능력을 크게 능가합니다. Tailwind를 사용하면 스타일을 무시하는 것과 싸움 없이 프로젝트의 요구에 맞는 사용자 정의 디자인 시스템을 정의할 수 있습니다. 이러한 맞춤화 수준은 일관성과 디자인의 확장성을 육성하여 모든 규모의 프로젝트에 매력적인 옵션으로 만들어냅니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Tailwind CSS 주변의 커뮤니티와 생태계도 급속하게 성장하고 있어서, 개발 경험을 풍부하게 하는 다양한 리소스, 플러그인 및 통합을 제공합니다. Bootstrap은 오랫동안 확실한 커뮤니티를 보유하고 있지만, Tailwind 주변의 역동성과 열정은 지속적으로 확장되고 있는 활기찬 지원 생태계를 시사합니다.
 
@@ -239,4 +422,15 @@ Tailwind CSS 주변의 커뮤니티와 생태계도 급속하게 성장하고 �
 
 웹 개발 분야의 다양한 변화 속에서, Tailwind CSS와 Bootstrap 모두 고유한 웹사이트 구축 및 스타일링 접근 방식을 제공하며 자신만의 영역을 확보했습니다. Tailwind CSS는 유틸리티 중심의 디자인과 성능 강조로 세밀한 컨트롤과 효율성을 추구하는 개발자들을 위해 적합합니다. 반면에 Bootstrap은 사전에 디자인된 컴포넌트의 폭넓은 라이브러리로 빠른 개발을 우선시하는 사람들에겐 여전히 필수적입니다. 두 프레임워크 중 어떤 것을 선택할지는 프로젝트 요구 사항, 개발자 선호도, 그리고 특정 디자인 과제에 따라 다릅니다. 웹이 계속 진화함에 따라 두 프레임워크는 분명히 적응할 것이며, 개발 커뮤니티의 다양한 요구를 계속해서 충족시킬 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

@@ -3,17 +3,13 @@ title: "CSS 방법론 BEM 소개 - 블록 요소 수정자"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Introduction to BEM  block element modifier A beginners guide"
 link: "https://medium.com/design-bootcamp/introduction-to-bem-block-element-modifier-a-beginners-guide-35e267b6c39e"
 isUpdated: true
 ---
-
-
-
-
 
 ![BEM 소개](/assets/img/IntroductiontoBEMblockelementmodifierAbeginnersguide_0.png)
 
@@ -23,7 +19,18 @@ BEM은 Block(블록) Element(요소) Modifier(수정자)의 약자로, CSS 코�
 
 BEM이란 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 BEM은 앞단 개발에서 사용되는 인기 있는 CSS 방법론인 블록 엘리먼트 수식어(Block Element Modifier)의 약자입니다. 주요 목표는 대규모 프로젝트에서 CSS 코드를 조직화하고 유지보수하며 확장할 수 있도록 돕는 것입니다. 이 방법론은 스타일을 세 가지 주요 구성 요소로 분해합니다:
 
@@ -35,7 +42,18 @@ BEM은 앞단 개발에서 사용되는 인기 있는 CSS 방법론인 블록 �
 
 - 블록 (Blocks)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![BEM 소개](/assets/img/IntroductiontoBEMblockelementmodifierAbeginnersguide_1.png)
 
@@ -45,7 +63,18 @@ BEM은 앞단 개발에서 사용되는 인기 있는 CSS 방법론인 블록 �
 
 블록은 블록 이름으로 시작하는 클래스 이름으로 정의됩니다. 블록을 생성하기 위해선, 예를 들어 헤더의 블록을 만들기 위해 클래스 이름 "header\_\_"를 사용합니다. 이렇게 하면 해당 CSS 스타일은 헤더 블록과 관련이 있다는 것을 알 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 BEM 블록 예시:
 
@@ -57,7 +86,18 @@ BEM 블록 예시:
 
 요소
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![BEM](/assets/img/IntroductiontoBEMblockelementmodifierAbeginnersguide_2.png)
 
@@ -67,7 +107,18 @@ BEM 블록 예시:
 
 BEM에서 요소를 사용하면 코드를 조직화하고 가독성을 높일 수 있습니다. 또한 특정 요소에 변경을 가하면 다른 부분에 영향을 주지 않고 코드를 쉽게 수정할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS 코드에서 요소를 선택할 때 BEM 네이밍 규칙을 사용하는 것이 중요합니다. 이렇게 하면 코드를 일관성 있게 유지하고 이해하기 쉽게 만들 수 있어요.
 
@@ -77,7 +128,18 @@ CSS 코드에서 요소를 선택할 때 BEM 네이밍 규칙을 사용하는 �
 
 수정자는 BEM의 강력한 기능으로, 새로운 클래스 이름을 만들 필요 없이 블록과 요소의 변형을 만들 수 있게 해줍니다. 수정자는 상태, 테마, 크기 등 특정 조건에 따라 요소나 블록의 모양을 변경하는 데 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 수정자는 이중 대시 (--) 뒤에 수정자 이름이 오는 방식으로 표시됩니다. 수정자는 블록 또는 요소에 적용할 수 있으며 다른 수정자와 결합하여 더 복잡한 효과를 만들 수도 있습니다.
 
@@ -89,7 +151,18 @@ CSS 코드에서 요소를 선택할 때 BEM 네이밍 규칙을 사용하는 �
 
 "button--disabled" 클래스에는 버튼을 비활성 상태로 스타일링하는 데 필요한 스타일이 포함될 것입니다. 수정자를 별도의 클래스로 유지하면 JavaScript 또는 다른 코드를 사용하여 기본 "button" 스타일에 영향을 주지 않고 쉽게 추가하거나 제거할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 블록 내에서 요소의 변형본을 만들기 위해 수정자(modifiers)를 사용할 수도 있어요. 예를 들어, "card"라는 블록 안에 이미지가 포함되어 있다고 해봅시다. 이미지를 원형으로 만들기 위해 이미지에 대한 수정자를 만들 수 있어요.
 
@@ -107,7 +180,18 @@ CSS 코드에서 요소를 선택할 때 BEM 네이밍 규칙을 사용하는 �
 
 이렇게 함으로써 수정자를 사용하여 복잡하고 유연한 디자인을 만들 수 있습니다. 동시에 가독성이나 유지보수성을 희생하지 않고요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 BEM의 코드 예시
 
@@ -140,7 +224,18 @@ BEM의 코드 예시
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예시에서는 "block" 클래스를 갖는 블록이 있습니다. 블록 안에는 "block**title" 클래스를 갖는 블록 제목, "block**text" 클래스를 갖는 블록 텍스트, 그리고 "block**element" 클래스를 갖는 블록 요소가 있습니다. 블록 내의 각 요소는 블록과 요소를 구분하는 데 이중 밑줄 "**"을 사용하여 BEM 네이밍 규칙을 따릅니다.
 
@@ -182,7 +277,18 @@ BEM의 코드 예시
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 수정된 블록 예제에서는 주 블록에 'block — highlighted' 수정자를 추가했습니다. 블록 텍스트에 'block**text — large' 수정자를, 블록 요소에는 'block**element — hidden' 수정자를 추가했습니다. 이러한 수정자들에 대한 CSS 규칙은 원하는 스타일을 적용하기 위해 별도로 정의됩니다.
 
@@ -192,7 +298,18 @@ BEM은 다른 방법들보다 많은 혜택을 제공하는 프런트엔드 개�
 
 ![image](/assets/img/IntroductiontoBEMblockelementmodifierAbeginnersguide_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 개선된 CSS 구조
 
@@ -202,7 +319,18 @@ BEM의 모듈화 접근 방식을 통해 CSS 코드를 쉽게 정리하고 가�
 
 BEM의 네이밍 규칙을 사용하면 각 클래스가 무엇을 하는지 이해하기 쉽고 페이지의 다른 요소들과 어떻게 관련되는지 파악하기 쉽습니다. 이를 통해 대규모 코드베이스를 다루는 것이 쉽고 다른 팀원과 협업하는 것이 용이해집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대형 프로젝트에서의 협업이 더 쉬워집니다.
 
@@ -212,7 +340,18 @@ BEM의 모듈식 구조와 네이밍 규칙은 다수의 개발자가 참여하�
 
 프로젝트에서 BEM 사용하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 BEM에 대한 기본적인 이해가 생겼으니, 이제 여러분의 프로젝트에서 BEM을 활용해 보는 것이 중요합니다. 효과적으로 BEM을 구현하는 몇 가지 팁을 소개해 드리겠습니다:
 
@@ -222,7 +361,18 @@ BEM 클래스 이름을 생성할 때, 의미 있는 구조로 정리하고 일�
 
 깔끔한 코드 작성하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 BEM의 주요 장점 중 하나는 CSS 코드를 읽고 유지 관리하기 쉽게 만든다는 것입니다. 그러나 이것이 제대로 작동하려면 깔끔하고 잘 정리된 코드를 작성해야 합니다. 코드를 따라가기 쉽도록 들여쓰기와 간격을 사용해 주세요.
 
@@ -232,7 +382,18 @@ BEM을 사용할 때 개발자들이 하는 몇 가지 흔한 실수가 있습�
 
 다른 CSS 방법론과 통합하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 BEM은 여러 가지 CSS 방법론 중 하나에 불과합니다. 그러나 다른 방법론과 함께 사용하여 CSS 구성을 보다 포괄적으로 다룰 수 있습니다. 예를 들어 네이밍 컨벤션에 BEM을 사용하고 CSS 파일을 구조화하는 데는 SMACSS를 사용할 수 있습니다.
 
@@ -242,7 +403,18 @@ BEM 대 다른 CSS 방법론
 
 BEM은 다양한 CSS 방법론 중 하나일 뿐이지만 CSS 구성 및 확장성에 대한 접근 방식으로 눈에 띕니다. SMACSS나 OOCSS와 같은 인기 있는 방법론도 각각의 장점을 가지고 있지만, 많은 개발자들이 BEM이 그들의 요구를 가장 효과적으로 충족시킨다고 판단했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 BEM 장점
 
@@ -252,7 +424,18 @@ BEM을 사용하는 주요 장점 중 하나는 모듈화에 중점을 둔다는
 
 SMACSS 대 BEM
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SMACSS (Scalable and Modular Architecture for CSS)은 또 다른 인기 있는 CSS 방법론으로, 프로젝트 전체에서 재사용할 수 있는 CSS 규칙을 작성하는 데 초점을 맞춥니다. SMACSS와 BEM은 몇 가지 유사점이 있지만, SMACSS는 주로 관심사의 분리에 중점을 두며, 스타일을 Base, Layout, Module, State 및 Theme 범주로 구성합니다.
 
@@ -262,7 +445,18 @@ OOCSS vs BEM
 
 OOCSS (Object Oriented CSS)는 재사용 가능한 CSS 구성 요소를 작성하는 데 초점을 맞춘 또 다른 CSS 방법론입니다. OOCSS는 구조와 스킨을 분리하는 것에 더 중점을 두며, 스타일을 객체 및 추상화로 구성합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 OOCSS와 BEM은 몇 가지 유사점이 있지만, BEM은 CSS 구성 및 네이밍 규칙에 대한 접근 방식으로 코드를 읽거나 이해하기 쉽게 만들어 줍니다. BEM이 모듈화에 중점을 두는 것은 코드를 유지하고 업데이트하는 데 도움이 될 수 있습니다.
 
@@ -272,7 +466,18 @@ BEM과 반응형 디자인
 
 반응형 디자인의 핵심은 CSS 브레이크포인트를 활용하는 것입니다. 이것들은 코드 내에서 다양한 화면 크기에 대해 다른 스타일을 지정할 수 있는 지점을 말합니다. 예를 들어, 내비게이션 메뉴를 작은 화면에서 수직 레이아웃으로 변경하고 싶을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 BEM을 사용하면 수정자(Modifiers)를 사용하여 코드에 쉽게 브레이크포인트를 추가할 수 있어요. 예를 들어, — small이라는 수정자를 만들어 블록 또는 요소에 특정한 스타일을 적용하여 작은 화면에서 동작하도록 할 수 있어요. 이렇게 하면 다양한 화면 크기에 대응하는 깔끔하고 읽기 쉬운 코드를 작성하기 쉽고 편해요.
 
@@ -282,7 +487,18 @@ BEM과 반응형 디자인 예제
 
 feature라는 블록에 특정한 기능 콘텐츠가 들어있다고 가정해봅시다. 작은 화면에서 컨텐츠를 수직으로 쌓아올리도록 — small이라는 수정자를 추가할 수 있어요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .feature.feature--small {
@@ -306,7 +522,18 @@ feature라는 블록에 특정한 기능 콘텐츠가 들어있다고 가정해�
 
 BEM과 CSS 미디어 쿼리를 사용하여 반응형 디자인을 만들어 유지 및 확장이 쉬운 웹사이트를 만들 수 있습니다. 약간의 연습을 통해 모든 기기에서 멋지고 기능적인 사이트를 만들 수 있을 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 BEM과 접근성
 
@@ -319,7 +546,18 @@ BEM과 접근성
 
 이러한 모베스트 프랙티스를 따르면 능력에 관계없이 모든 사용자가 접근할 수 있는 사이트를 보장할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 BEM을 사용할 때 흔히 범하는 실수들
 
@@ -329,7 +567,18 @@ BEM은 CSS 코드를 구성하는 강력한 방법론이지만, 사용할 때 �
 
 - 지나치게 복잡한 클래스 이름 사용
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 클래스 이름을 간단하고 읽기 쉽게 유지해주세요. 긴 수정자 체인을 사용하는 것은 피해주세요.
 
@@ -339,7 +588,18 @@ BEM은 CSS 코드를 구성하는 강력한 방법론이지만, 사용할 때 �
 
 - 모든 것에 BEM을 사용하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 모든 프로젝트에는 BEM이 적합하지 않습니다. 의미 있는 경우에만 사용하고, 필요하지 않은 경우 강요하지 마세요.
 
@@ -349,7 +609,18 @@ BEM은 CSS 코드를 구성하는 강력한 방법론이지만, 사용할 때 �
 
 이제 기본적인 BEM에 대한 확실한 이해를 가졌으므로, 고급 기술을 탐색할 시간입니다. 이러한 기술은 CSS 기술을 더욱 발전시키고 BEM을 사용하여 더 정교한 디자인을 만들 수 있도록 도와줄 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가상 요소 사용하기
 
@@ -359,7 +630,18 @@ BEM에서 가상 요소를 사용할 때, 일반 요소와 동일한 네이밍 �
 
 BEM 네이밍 규칙
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS 선택자
 
@@ -369,7 +651,18 @@ CSS 선택자
 
 의사 요소가 있는 요소
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 .block**element**pseudo-element
 
@@ -379,7 +672,18 @@ BEM으로 복잡한 레이아웃 만들기
 
 BEM은 여러 수준의 중첩 및 위치 지정이 필요한 복잡한 레이아웃을 만드는 데도 훌륭합니다. BEM을 사용하여 그리드 시스템, 반응형 레이아웃, 심지어 사용자 정의 페이지 레이아웃을 만들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 BEM에서 복잡한 레이아웃을 처리할 때는 네이밍 규칙을 일관성 있게 유지하고 이해하기 쉽도록 하는 것이 중요합니다. 블록과 엘리먼트에 명확한 이름을 사용하고 지나치게 복잡한 클래스 이름을 만들지 않도록 합니다.
 
@@ -389,7 +693,18 @@ BEM에서 복잡한 레이아웃을 처리할 때는 네이밍 규칙을 일관�
 
 BEM을 다른 방법론과 통합할 때는 두 방법 모두에 걸쳐 네이밍 규칙과 클래스 구조가 일관되도록 하는 것이 중요합니다. 명확하고 설명적인 클래스 이름을 사용하고 읽고 유지하기 어려운 지나치게 복잡한 구조를 만들지 않도록 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 고급 기술을 활용하면 CSS 기술을 더욱 높은 수준으로 발전시키고 BEM을 사용하여 더 강력하고 정교한 디자인을 만들 수 있습니다.
 
@@ -399,7 +714,18 @@ BEM을 다른 방법론과 통합할 때는 두 방법 모두에 걸쳐 네이�
 
 Q. 다른 CSS 방법론들과 BEM을 구별 짓는 점은 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 A. BEM은 다른 CSS 방법론과 다르게 블록(Block), 요소(Element), 그리고 수정자(Modifier)를 중점으로 두어 이해하고 조작하기 쉽도록 합니다. BEM은 클래스 이름에 대한 명확한 구조를 제공하여 CSS를 구성하고 읽기 쉽게 유지하는 데 도움이 됩니다.
 
@@ -409,7 +735,18 @@ A. BEM을 배우기 어렵지 않습니다, 특히 이미 CSS에 대한 경험�
 
 Q. 모든 종류의 웹 프로젝트에 BEM을 사용할 수 있나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 A. 네, BEM은 작은 프로젝트와 큰 프로젝트를 포함한 모든 종류의 웹 프로젝트에 사용할 수 있습니다. 그러나 CSS가 빠르게 무질서해지고 관리하기 어려운 큰 프로젝트에서 특히 유용할 수 있습니다.
 
@@ -419,7 +756,18 @@ A. 네, BEM은 SMACSS나 OOCSS와 같은 다른 CSS 방법론과 통합될 수 �
 
 Q. BEM을 사용할 때 흔히 하는 실수를 어떻게 피할 수 있을까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 A. BEM 사용 시 흔한 실수를 피하기 위해서는 가능한 한 간결한 클래스를 유지하고, 수정자를 과도하게 사용하지 않으며, 네이밍 규칙을 일관성 있게 유지하는 것과 같은 최고의 실천 방법을 준수하는 것이 중요합니다. 프로젝트에 BEM을 사용하기 전에 BEM이 어떻게 작동하는지를 이해하는 데 시간을 들이는 것도 중요합니다.
 
@@ -429,7 +777,18 @@ A. 네, BEM은 반응형 디자인에 적합합니다. 사실, BEM을 사용하�
 
 Q. BEM은 접근성에 어떻게 도움이 되나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **안녕하세요!**
 

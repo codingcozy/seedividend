@@ -3,16 +3,13 @@ title: "NestJS에서의 Lazy Loading 성능과 효율성 향상"
 description: ""
 coverImage: "/assets/img/2024-06-20-LazyLoadinginNestJSBoostingPerformanceandEfficiency_0.png"
 date: 2024-06-20 01:43
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-LazyLoadinginNestJSBoostingPerformanceandEfficiency_0.png
 tag: Tech
 originalTitle: "Lazy Loading in NestJS: Boosting Performance and Efficiency"
 link: "https://medium.com/@Abdelrahman_Rezk/lazy-loading-in-nestjs-boosting-performance-and-efficiency-2c6350a6ab84"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-06-20-LazyLoadinginNestJSBoostingPerformanceandEfficiency_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 게으른 로딩은 다음을 도와줍니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 초기 로드 시간 단축: 모든 것을 시작할 때 불러오지 않아도 애플리케이션이 더 빨리 시작됩니다.
 - 리소스 사용 최적화: 실제로 필요한 경우에만 구성 요소 또는 모듈을 로드합니다.
@@ -34,15 +42,26 @@ NestJS에서 Lazy Loading을 구현하려면 @nestjs/core의 LazyModuleLoader를
 
 ## 단계 1: Lazy Loading할 모듈 생성하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전과 같이 ReportsModule을 생성하세요.
 
 ```js
 // reports.module.ts
-import { Module } from '@nestjs/common';
-import { ReportsService } from './reports.service';
-import { ReportsController } from './reports.controller';
+import { Module } from "@nestjs/common";
+import { ReportsService } from "./reports.service";
+import { ReportsController } from "./reports.controller";
 
 @Module({
   controllers: [ReportsController],
@@ -55,17 +74,28 @@ export class ReportsModule {}
 
 ReportsModule을 위한 서비스를 정의하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // reports.service.ts
-import { Injectable } from '@nestjs/common';
+import { Injectable } from "@nestjs/common";
 
 @Injectable()
 export class ReportsService {
   getReport(): string {
-    console.log('lazily loaded reports module');
-    return 'This is a report!';
+    console.log("lazily loaded reports module");
+    return "This is a report!";
   }
 }
 ```
@@ -76,9 +106,9 @@ ReportsModule을 나중에 import할 것이기 때문에 AppModule을 정의합�
 
 ```js
 // app.module.ts
-import { Module } from '@nestjs/common';
-import { AppController } from './app.controller';
-import { AppService } from './app.service';
+import { Module } from "@nestjs/common";
+import { AppController } from "./app.controller";
+import { AppService } from "./app.service";
 
 @Module({
   imports: [],
@@ -88,7 +118,18 @@ import { AppService } from './app.service';
 export class AppModule {}
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 4: 레이지 로딩 및 기타 로직을 처리하는 컨트롤러 생성
 
@@ -119,7 +160,18 @@ export class AppController {
 
 # 예시 사용법
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 엔드포인트에 처음 요청이 발생하면 ReportsModule이 게으르게 로드되며, ReportsService가 요청을 처리하고 보고서를 반환할 것입니다.
 
@@ -132,7 +184,18 @@ $ curl http://localhost:3000/lazy-reports
 
 한 번 이상의 요청을 생성하면 앱 로그에 이와 같은 출력이 표시됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 default: 6.226ms

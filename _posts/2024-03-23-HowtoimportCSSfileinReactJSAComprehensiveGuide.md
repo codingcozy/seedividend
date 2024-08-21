@@ -3,17 +3,13 @@ title: "React JS에서 CSS 파일을 가져오는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How to import CSS file in React JS A Comprehensive Guide"
 link: "https://pxcode.medium.com/how-to-import-css-file-in-react-js-a-comprehensive-guide-0c536b74fcdd"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/How-to-import-CSS-file-in-React-JS-:-A-Comprehensive-Guide_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 React 컴포넌트를 CSS로 스타일링하는 전통적인 방식은 일반적인 웹 페이지를 스타일링하는 방법과 크게 다르지 않았습니다. 개발자들은 별도의 .css 파일을 생성하고 import 문을 사용하여 React 컴포넌트에서 이를 연결했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import "./App.css";
@@ -43,7 +50,18 @@ function App() {
 
 전역 스타일링의 단점에 대항하기 위해 React 커뮤니티는 CSS Modules를 소개했습니다. 이는 고유한 클래스와 애니메이션 이름을 생성하는 빌드 단계를 통해 컴포넌트의 스타일을 지역화하는 기능을 제공합니다. 이는 컴포넌트의 CSS 모듈에서 정의된 스타일이 해당 컴포넌트에 로컬 스코프로 제한되어 있어 이름 충돌의 위험을 없애줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import styles from "./App.module.css";
@@ -63,7 +81,18 @@ CSS Modules은 컴포넌트 기반 스타일링을 위한 중요한 단계로, R
 
 CSS-in-JS는 혁신적인 패러다임으로 등장하여, React 애플리케이션에서 스타일을 정의하고 적용하는 방법의 경계를 넓혔습니다. JavaScript 파일 내에서 CSS를 직접 통합함으로써, 개발자는 JavaScript의 전체 기능을 활용하여 상태와 props에 실시간으로 반응하는 동적 스타일을 만들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인기 있는 CSS-in-JS 라이브러리 중 하나인 Styled Components를 소개합니다. 다음은 사용 방법입니다:
 
@@ -86,7 +115,18 @@ CSS-in-JS는 강력함과 유연성을 결합하여 스타일을 컴포넌트 �
 
 # 진화와 논쟁
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 전통적인 CSS에서 CSS 모듈로, 그리고 CSS-in-JS로의 여정은 웹 개발의 보다 모듈화되고 캡슐화된 아키텍처로의 전반적인 진화를 반영합니다. 각 접근 방식에는 지지자들과 반대자들이 있으며, 종종 커뮤니티 내에서 규범과 구성 요소, 성능, 그리고 개발자 경험에 대한 균형에 대한 더 넓은 논쟁을 반영합니다.
 
@@ -96,7 +136,18 @@ CSS-in-JS는 강력함과 유연성을 결합하여 스타일을 컴포넌트 �
 
 pxCode로 웹 개발 프로세스의 풀 잠재력을 발휘하세요. 디자인부터 배포까지의 여정을 가속화하는 혁신적인 도구 pxCode를 통해 디자인 초안을 즉시 사용 가능한 React 컴포넌트와 CSS 모듈로 변환하여 디자인과 개발 사이의 간극을 쉽게 연결하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 개발의 미래를 pxCode와 함께 받아들이고 창의적인 비전을 이전보다 더 빠르게 현실로 구현하세요. 개발자와 디자이너 양쪽에 모두 적합한 pxCode는 최신 웹 기술 효율성을 활용하여 프로젝트가 뛰어나게 유지될 수 있도록 합니다. 지금 당신의 디자인을 기능적인 웹 구성 요소로 변환하기 시작하고 pxCode의 탁월한 속도와 호환성을 경험해보세요.
 

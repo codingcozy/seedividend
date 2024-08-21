@@ -3,16 +3,13 @@ title: "Spring Boot에서 유효성 검사를 구현하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-ValidationsinSpringBoot_0.png"
 date: 2024-07-09 21:42
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-ValidationsinSpringBoot_0.png
 tag: Tech
 originalTitle: "Validations in Spring Boot"
 link: "https://medium.com/@himani.prasad016/validations-in-spring-boot-e9948aa6286b"
 isUpdated: true
 ---
-
-
-
 
 ![그림](/assets/img/2024-07-09-ValidationsinSpringBoot_0.png)
 
@@ -22,7 +19,18 @@ Spring Boot은 주석, 사용자 정의 유효성 검사기, 오류 처리 및 �
 
 ## 유효성 검사 주석
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Spring Boot에서는 특정 유효성 검사 규칙이 있는 필드를 표시하는 주석을 사용하여 유효성 검사를 쉽게 할 수 있습니다. 사용자의 간단한 등록 양식을 유효성 검사하는 예제를 살펴봅시다:
 
@@ -55,7 +63,18 @@ public class UserRegistrationForm {
 
 ## 13. @Valid
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 @Valid 주석을 메소드 매개변수에 적용하면 Spring Boot가 해당 매개변수를 처리하기 전에 자동으로 유효성 검사를 트리거합니다. 이것은 유효성을 검사해야 하는 것을 나타내기 위해 객체 앞에 배치됩니다. 이는 해당 매개변수의 수신 데이터가 지정된 유효성 규칙에 대해 유효성을 검사하게 됨을 의미합니다.
 
@@ -79,7 +98,18 @@ public class ApiController {
 
 ## 14. @Validated
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 검증 그룹을 용이하게 지원하고 빈 내의 특정 그룹 필드에 유효성 검사 규칙을 적용하는 메커니즘을 제공하기 위해 도입되었습니다. 빈 객체 전체를 유효성 검사하는 표준 @Valid 주석과 달리, @Validated를 사용하면 유효성 검사 프로세스 중에 적용할 유효성 검사 그룹을 지정할 수 있습니다.
 
@@ -97,7 +127,18 @@ public class Order {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 public class ShippingAddress {
@@ -130,7 +171,18 @@ public class UserController {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 컨트롤러에서의 유효성 검사:
 
@@ -155,7 +207,18 @@ public class UserController {
 
 # 전역 예외 처리
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 검증 오류는 불가피합니다. Spring Boot은 이를 전역적으로 처리할 수 있는 방법을 제공합니다:
 
@@ -174,7 +237,18 @@ public class GlobalExceptionHandler {
 
 # 사용자 정의 검증:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1. 사용자 지정 유효성 검사 어노테이션:
 
@@ -204,7 +278,18 @@ public @interface CustomValidation {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2. 사용자 정의 유효성 검사기:
 
@@ -231,7 +316,18 @@ public class CustomValidator implements ConstraintValidator<CustomValidation, St
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 3. 커스텀 유효성 검사 주석 사용하기:
 
@@ -246,7 +342,18 @@ public class Data {
 
 # 유효성 검사 그룹:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 검증 그룹을 사용하면 다른 시나리오에 특정 검증 규칙을 적용할 수 있어요. 사용자 등록 양식이 있는 예시를 살펴봅시다. 이 양식에는 기본 정보와 고급 정보가 포함되어 있어요:
 
@@ -259,7 +366,18 @@ public interface BasicInfo {}
 public interface AdvancedInfo {}
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 public class User {
@@ -302,7 +420,18 @@ public class UserController {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 서비스 레이어에서의 유효성 검사
 
@@ -326,7 +455,18 @@ public class UserService {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # BindingResult
 

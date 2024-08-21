@@ -3,17 +3,13 @@ title: "시니어 프론트엔드 개발자도 잘 모르는 5가지 React 면�
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "5 React Interview Questions I Bet the Senior Front-end Developer Cant Answer"
 link: "https://medium.com/stackademic/5-react-interview-questions-i-bet-the-senior-front-end-developer-cant-answer-91e2e56fba92"
 isUpdated: true
 ---
-
-
-
-
 
 시니어 프론트엔드 개발자를 위한 React JS 관련 상위 질문들 — 고급 기능, 성능 최적화, 보안, 훅, 컨텍스트, 패턴, 테스팅, 그리고 에코시스템.
 
@@ -27,7 +23,18 @@ isUpdated: true
 - 큰 규모의 React 애플리케이션에서 상태 관리는 어떻게 처리하나요?
 - React 애플리케이션에서 비동기 작업을 처리하는 방법은 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 1. React JS에서 Virtual DOM은 무엇이며 왜 필요한가요?
 
@@ -37,7 +44,18 @@ React의 Virtual DOM은 실제 DOM의 메모리 내 표현입니다. React는 �
 
 예시:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 function MyComponent() {
@@ -51,7 +69,18 @@ function MyComponent() {
 
 피라미드는 세 개의 계층으로 나누어집니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/5ReactInterviewQuestionsIBettheSeniorFront-endDeveloperCantAnswer_2.png" />
 
@@ -61,7 +90,18 @@ function MyComponent() {
 
 테스트 피라미드는 테스트 전략이 통합 테스트보다는 유닛 테스트가 더 많아야 하고, 통합 테스트보다는 엔드 투 엔드 테스트가 더 많아야 함을 제안합니다. 이는 유닛 테스트가 더 빠르고 저렴하며 신뢰성이 더 높기 때문입니다. 통합 테스트는 유닛 테스트보다 비용이 많이 들고 실행하는 데 더 오래 걸리지만, 구성요소 간의 상호작용을 테스트하는 데 중요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 엔드 투 엔드 테스트는 가장 느리고 비용이 많이 드는 테스트 유형이지만, 전체 애플리케이션이 예상대로 작동하는지 확인하는 데 중요합니다.
 
@@ -71,7 +111,18 @@ function MyComponent() {
 
 ![React Interview Questions](/assets/img/5ReactInterviewQuestionsIBettheSeniorFront-endDeveloperCantAnswer_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## KISS: Keep It Simple, Stupid
 
@@ -81,7 +132,18 @@ KISS 원칙은 개발자들이 간단하고 이해하기 쉬운 코드를 작성
 
 YAGNI 원칙은 현재 필요하지 않은 기능을 구현하는 것을 피하도록 개발자들에게 조언합니다. React 개발 환경에서는 즉시 필요하지 않은 기능이나 구성 요소를 개발하는 유혹을 피해야 합니다. 대신 최소 기능 제품(MVP)을 구축하고 필요할 때 새로운 기능을 추가해야 합니다. 이는 코드베이스에서 불필요한 복잡성과 유지보수 문제를 피하는 데 도움이 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## DRY: Don’t Repeat Yourself
 
@@ -91,7 +153,18 @@ DRY 원칙은 개발자들에게 코드베이스 전체에 걸쳐 코드를 중�
 
 ![그림](/assets/img/5ReactInterviewQuestionsIBettheSeniorFront-endDeveloperCantAnswer_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대규모 React 애플리케이션에서는 여러 컴포넌트 간에 상태를 공유하고 동기화해야 하는 필요로 인해 상태 관리가 복잡해질 수 있습니다. 이 복잡성을 해결하기 위해 개발자들은 종종 상태 관리 라이브러리나 구조를 사용하여 상태를 더 구조적이고 확장 가능하게 관리하는 접근 방식을 채택합니다. 여기에는 일반적인 전략들이 있습니다:
 
@@ -104,7 +177,18 @@ DRY 원칙은 개발자들에게 코드베이스 전체에 걸쳐 코드를 중�
 
 # 5. React 애플리케이션에서 비동기 작업을 어떻게 처리하나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/5ReactInterviewQuestionsIBettheSeniorFront-endDeveloperCantAnswer_5.png" />
 
@@ -129,7 +213,18 @@ function MyComponent() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React에서 비동기 함수를 처리하는 또 다른 방법은 axios나 fetch와 같은 라이브러리를 사용하여 API 호출을하는 것입니다.axios를 사용한 예제입니다:
 
@@ -154,7 +249,18 @@ function MyComponent() {
 
 🛠 발간배경 및 성능 최적화 커버하기:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - React의 고급 기능을 활용하여 고성능 웹 애플리케이션을 구축하는 방법은 무엇인가요?
 - 컴포넌트 렌더링을 최적화하기 위해 구현하는 전략은 무엇인가요?
@@ -167,7 +273,18 @@ function MyComponent() {
 
 🪝 Hooks 및 Context Magic:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 훅이 React에서 상태와 부수 효과를 관리하는 방식을 어떻게 변화시켰나요?
 - useContext가 응용 프로그램 아키텍처를 개선한 시나리오를 자세히 설명해 주실 수 있을까요?
@@ -179,7 +296,18 @@ function MyComponent() {
 
 🧪 테스팅 마스터리:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 리액트 컴포넌트를 테스트하는 방법은 무엇인가요? 선호하는 라이브러리나 도구가 있나요?
 - 테스트를 통해 리액트 애플리케이션이 강건하고 오류가 없는지 어떻게 확인하나요?
@@ -191,7 +319,18 @@ function MyComponent() {
 
 ## ❤️ 제 작업을 좋아하셨다면 팔로우와 구독 부탁드립니다 ❤️
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 팔로우해 주세요
 - 구독하기

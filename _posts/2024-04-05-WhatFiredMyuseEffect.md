@@ -3,17 +3,13 @@ title: "useEffect가 실행 방식 이해하기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "What Fired My useEffect"
 link: "https://medium.com/javascript-in-plain-english/what-fired-my-useeffect-913c827c32d5"
 isUpdated: true
 ---
-
-
-
-
 
 React를 개발하면 함수형 컴포넌트에서 부작용을 다룰 때 일부 도전이 있습니다. React의 useEffect 훅은 부작용을 다루는 강력한 도구지만, 어떤 종속성 변경이 특정 효과를 트리거한지 이해하기 어려울 때가 있습니다. 이를 해결하기 위해 실용적인 솔루션을 소개하겠습니다: useEffectDependencyDebugger.
 
@@ -23,7 +19,18 @@ useEffect를 사용할 때 개발자들은 종속성이 훅을 발동시킨 정�
 
 useEffectDependencyDebugger의 작동 방식
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 useEffectDebugger는 표준 useEffect 훅을 감싸고 의존성이 변경되어 효과를 발생시킨 것을 명확하게 파악할 수 있도록 설계된 사용자 정의 후크입니다. usePrevious라는 도우미 후크를 활용하여 이전에 사용된 의존성 값을 추적하여 현재 값과 비교할 수 있습니다.
 
@@ -33,7 +40,18 @@ usePrevious 후크:
 
 usePrevious는 렌더링을 거칠 때마다 의존성의 이전 값을 캡처하고 유지합니다. useRef를 활용하여 값을 보유하고 useEffect를 통해 각 렌더링에서 업데이트합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const usePrevious = (value, initialValue) => {
@@ -51,19 +69,16 @@ const usePrevious = (value, initialValue) => {
 ```js
 const useEffectDependencyDebugger = (effectFunction, dependencies) => {
   const previousDependencies = usePrevious(dependencies, []);
-  const changedDependencies = dependencies.reduce(
-    (accum, dependency, index) => {
-      if (dependency !== previousDependencies[index]) {
-        const keyIdx = index;
-        accum[keyIdx] = {
-          before: previousDependencies[index],
-          after: dependency,
-        };
-      }
-      return accum;
-    },
-    {}
-  );
+  const changedDependencies = dependencies.reduce((accum, dependency, index) => {
+    if (dependency !== previousDependencies[index]) {
+      const keyIdx = index;
+      accum[keyIdx] = {
+        before: previousDependencies[index],
+        after: dependency,
+      };
+    }
+    return accum;
+  }, {});
   if (Object.keys(changedDependencies).length) {
     console.log("[use-effect - dependency-debugger]", changedDependencies);
   }
@@ -73,7 +88,18 @@ const useEffectDependencyDebugger = (effectFunction, dependencies) => {
 
 이제 이 2가지 훅을 어떻게 사용할 수 있는지:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // Before :
@@ -93,7 +119,18 @@ useEffectDebugger는 useEffect 훅을 트리거하는 의존성을 정확히 파
 
 # 간단하게 설명하자면 🚀
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이해하기 쉽게 설명하는 커뮤니티에 참여해 주셔서 감사합니다! 떠나시기 전에:
 

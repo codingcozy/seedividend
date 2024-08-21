@@ -3,20 +3,15 @@ title: "Nextjs 14 App Router 프로젝트 저장소 세팅 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
 
-
-
-
-
 # Nextjs 14 App Router 프로젝트 초기 세팅 방법
-
 
 Nextjs 14 버전이 안정화 버전으로 자리잡으면서 Page Router 대신 App Router를 보다 적극적으로 쓸 수 있을 것 같아서 App Router를 이용한 클론 코딩을 해보려고 합니다.
 
@@ -28,7 +23,18 @@ MSW는 백엔드 까지 만들 수는 없으니 가짜 목업 데이터를 위�
 
 <img src="/assets/img/2024-02-10-Nextjs-14-App-Router-프로젝트-초기-세팅-(트위터-클론)-1.png" width="500" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 저장소 셋팅
 
@@ -40,7 +46,18 @@ Nextjs 의 앱라우터를 사용하기 위해서는 node 버전이 18.170 이�
 npx create-next-app@latest
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 초기 셋팅을 직접 하고싶으시다면 비어있는 프로젝트에 아래 명령어들로 직접 next를 설치하실 수도 있습니다.
 
@@ -64,7 +81,18 @@ npm install next@latest react@latest react-dom@latest
 
 <img src="/assets/img/2024-02-10-Nextjs-14-App-Router-프로젝트-초기-세팅-(트위터-클론)-3.png" width="500" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 프로젝트 실행
 

@@ -3,17 +3,13 @@ title: "Vite 사이트을 GitHub Pages에 배포하기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Deploying Vite Deploying Vite App to GitHub Pages"
 link: "https://medium.com/@aishwaryaparab1/deploying-vite-deploying-vite-app-to-github-pages-166fff40ffd3"
 isUpdated: true
 ---
-
-
-
-
 
 무료 호스팅 플랫폼을 찾고 계신가요? 귀하의 Vite 앱을 배포하려면 GitHub Pages를 사용해보세요!
 
@@ -23,7 +19,18 @@ GitHub Pages에 Vite 앱을 배포하는 방법을 5가지 간단한 단계로 �
 
 # 단계 1: Git 저장소 초기화
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 친구야, Vite 앱에서 깃 레포지토리를 초기화하고 기존 코드를 GitHub의 원격 레포지토리로 푸시하는 명령을 실행해보세요.
 
@@ -40,7 +47,18 @@ $ git push -u origin main
 
 이 파일에 baseURL을 추가하려면 base를 "/{repo-name}/"로 설정하세요. 예를 들어, 레포지토리의 이름이 book-landing-page인 경우, baseURL을 이렇게 설정하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { defineConfig } from "vite";
@@ -61,7 +79,18 @@ gh-pages 패키지를 개발 의존성으로 설치합니다.
 npm install gh-pages --save-dev
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 4: package.json 업데이트하기
 
@@ -77,7 +106,18 @@ npm install gh-pages --save-dev
 
 package.json에서 homepage을 설정하여 완전한 웹사이트 URL을 추가하십시오.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 "homepage": "https://{username}.github.io/{repo-name}/"
@@ -103,7 +143,18 @@ package.json에서 homepage을 설정하여 완전한 웹사이트 URL을 추가
 
 # 단계 5: 배포 실행
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기까지 오셨네요! 거의 다 왔어요. 마지막 명령어를 실행해주세요:
 
@@ -115,7 +166,18 @@ npm run deploy
 
 하지만 마지막 한 가지만 더 해야 해요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 깃허브의 원격 저장소로 이동하여 `Settings -> Pages` 메뉴로 이동하세요. 소스를 "브랜치에서 배포"로 선택하고 브랜치를 "gh-pages"로 설정하세요.
 
@@ -125,7 +187,18 @@ npm run deploy
 
 조금 기다려 주시고 몇 분 후에 https://{사용자이름}.github.io/{저장소 이름}/ 에서 사이트를 확인할 수 있을 거예요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 축하합니다!! 귀하의 사이트가 인터넷에서 볼 준비가 되었습니다. 모든 개발 노력이 보람 있었군요. 🤩
 

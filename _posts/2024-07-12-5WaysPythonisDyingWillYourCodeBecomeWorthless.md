@@ -3,16 +3,13 @@ title: "파이썬의 종말 코드를 쓸모없게 만들 5가지 이유"
 description: ""
 coverImage: "/assets/img/2024-07-12-5WaysPythonisDyingWillYourCodeBecomeWorthless_0.png"
 date: 2024-07-12 19:55
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-12-5WaysPythonisDyingWillYourCodeBecomeWorthless_0.png
 tag: Tech
 originalTitle: "5 Ways Python is Dying: Will Your Code Become Worthless?"
 link: "https://medium.com/python-in-plain-english/5-ways-python-is-dying-will-your-code-become-worthless-f59b5c84041b"
 isUpdated: true
 ---
-
-
-
 
 ![이미지](/assets/img/2024-07-12-5WaysPythonisDyingWillYourCodeBecomeWorthless_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 ## 왜 패닉은 잘못된 것인가?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앗, 그 비판들은 허공에서 나온 것이 아니에요. 파이썬에는 독특하고 한계가 있는 면이 있죠. 하지만 여기 봐주세요: 모든 언어가 그런 면이 있어요. 모두 도구라서, 어떤 것을 만드느냐에 따라 '최고'라고 할 수 있는 도구가 달라지죠. 파이썬의 강점은 뛰어난 다용성, 배우기 쉬운 경사, 그리고 혁신을 촉진하는 거대한 커뮤니티에 있어요.
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 ## '파이썬 다운' 방식의 힘
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 개발 속도는 실행 속도만큼 중요합니다. Python을 사용하면 생각을 빠르게 시도하고 몇 시간 안에 프로토 타입을 빌드할 수 있습니다. 이는 다른 언어들에서 며칠이 걸리는 작업을 한두시간 안에 끝낼 수 있음을 의미합니다. 이는 더 빨리 올바른 해결책을 찾을 수 있어서 장기적으로 더 많은 시간과 스트레스를 절약할 수 있다는 것을 의미합니다.
 
@@ -42,7 +61,18 @@ isUpdated: true
 
 ## 하지만 여기에 중요한 것이 있습니다…
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대부분의 앱을 생각해보세요: 웹 사이트, 데이터 분석 도구 및 게임 백엔드. 데이터베이스의 응답이나 사용자가 무언가를 클릭할 때 기다리는 시간이 얼마나 걸릴까요? 그것이 일반적인 병목 현상이지 Python 그 자체가 그런 것이 아닙니다. 그래서 기술 거물들이 Python을 사용하는 이유입니다 - 그들은 빠르게 움직이고 모든 조각들을 매끄럽게 연결해야 하는 언어가 필요합니다.
 
@@ -52,13 +82,24 @@ isUpdated: true
 
 코드 예시 (설명적이며 성능 중심이 아님)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 import requests
 
 def get_weather_data(city):
-    api_key = "YOUR_API_KEY"  
+    api_key = "YOUR_API_KEY"
     url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}"
 
     response = requests.get(url)  # This is likely where you'll wait...
@@ -72,7 +113,18 @@ requests.get에서 대부분의 '느림'이 발생할 수 있습니다 - 전 세
 
 # 미신 #2: "Python은 확장되지 않는다"
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 번 "도구 탓하는 서투른 장인"이라는 속담을 들어보셨나요? 확장하는 것에 대해서도 같은 말이 적용됩니다. 때때로 언어가 실패하는 것이 아니라, 어떻게 구축했는지가 중요할 때가 많아요.
 
@@ -84,7 +136,18 @@ requests.get에서 대부분의 '느림'이 발생할 수 있습니다 - 전 세
 - 드롭박스: 대규모 파일 동기화 및 저장을 처리합니다. 파이썬은 그들의 인프라에서 중요한 역할을 합니다.
 - 스포티파이: 우리 많은 사람들이 없어서는 안 될 음악 스트리밍 서비스. 그들의 백엔드 일부는 파이썬으로 구축되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것들은 작은 부차적인 프로젝트가 아니에요 - Python이 영리하게 사용될 때 놀랍도록 큰 규모를 처리할 수 있다는 것을 증명하고 있거든.
 
@@ -94,7 +157,18 @@ Python을 대규모 오케스트라의 훌륭한 지휘자로 생각해보세요
 
 ## 파이썬의 확장 능력
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파이썬의 확장 가능성을 강조하는 핵심 기능은 다른 기술과의 원활한 연동이죠. 가공성을 높이고자 한다면 NumPy나 Cython과 같은 라이브러리를 사용하여 C나 특수 하드웨어의 성능을 활용할 수 있습니다. 이 모든 것은 깔끔한 파이썬 로직으로 제어할 수 있어요. 데이터베이스 확장이 필요할 때도 작은 규모부터 산업용까지 모든 것에 파이썬 프레임워크가 잘 동작해요.
 
@@ -104,7 +178,18 @@ Python을 대규모 오케스트라의 훌륭한 지휘자로 생각해보세요
 
 # 신화 #3: “파이썬의 동적 타이핑은 재앙의 무덤일 뿐”
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 알겠어요. 변수의 유형을 미리 선언하는 언어에서 왔다면, Python의 자유로움은... 위험할 수 있죠. 이 변수가 숫자일까요? 문자열일까요? 말하는 바나나일까요? 누가 아나요? 이 모든 것 때문에 중괄호와 세미콜론이 그리울 수 있죠.
 
@@ -114,7 +199,18 @@ Python을 대규모 오케스트라의 훌륭한 지휘자로 생각해보세요
 
 ## 교정망, 통제 속에서 얽히지 않는거야
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 숨겨진 버그에 대한 두려움이 실제로 있어요! 그래서 Python은 예측 가능성을 높일 수 있는 옵션들을 제공해요:
 
@@ -133,7 +229,18 @@ def calculate_area(shape: str, dimensions: list) -> float:
     # ... 여기에 더 많은 모양을 처리할 수 있어요 ...
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 설명
 
@@ -143,7 +250,18 @@ type hints (: str, list, - float)?을 봤을 때요. 이것들은 Python을 엄�
 
 Python의 동적 타이핑은 좋은 코드를 작성하는 데 신뢰하고 그를 지원하는 도구를 갖는 것입니다. 이것은 사고방식의 변화지만 받아들이면 놀랍게 해방됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 미신 #4: "파이썬은 그냥 장난감 언어일 뿐이야"
 
@@ -155,7 +273,18 @@ Python의 동적 타이핑은 좋은 코드를 작성하는 데 신뢰하고 그
 
 ## 멋진 세계로의 '게이트웨이'
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웃기는 점은 파이썬이 처음에 장난감처럼 느껴진다는 것이죠. 그 이유는 배우기 쉽고 즐겁게 놀 수 있기 때문입니다. 멋진 것을 만들어내는 그 느낌에 금방 빠지게 됩니다. 그런 다음, 파이썬이 프로그래밍에 빠지도록 속이면서, 진지한 문제에 대처하게 됩니다.
 
@@ -165,7 +294,18 @@ Python의 동적 타이핑은 좋은 코드를 작성하는 데 신뢰하고 그
 
 # 미신 #5: "GIL 때문에 파이썬은 처신 없다"
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 알겠어요, 조금 철학적인 이야기를 해볼 시간이네요! GIL, 또는 Global Interpreter Lock은 파이썬의 기술적인 특징으로, 어떤 면에서 진정한 멀티스레딩을 제한하는 요소입니다. 이에 대해 우려하는 사람들은 파이썬이 특정 작업에 대해 성능적으로 우수하지 못할 것이라고 말합니다.
 
@@ -177,7 +317,18 @@ Python의 동적 타이핑은 좋은 코드를 작성하는 데 신뢰하고 그
 - 데이터 과학/AI: NumPy와 같은 라이브러리는 숫자 연산을 수행할 때 GIL을 똑똑하게 해제하여 하드웨어의 전체 성능을 활용할 수 있습니다.
 - "접착" 작업: 시스템 조정, 작업 스케줄링, 자동화 — 파이썬은 이러한 작업에서 뛰어납니다. GIL이 병목 현상이 되는 경우는 드뭅니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 동시성에 관한 것이지, 단순히 스레드만이 아닙니다
 
@@ -188,7 +339,18 @@ Python의 동적 타이핑은 좋은 코드를 작성하는 데 신뢰하고 그
 
 ## 인간적인 면
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 GIL(전역 인터프리터 잠금)은 작은 마을의 한 줄 다리처럼 생각해보세요. 모두가 동시에 사용해야 할 때 교통 체증을 일으킬 수는 있지만, 대부분의 시간에는 교통이 원활하게 흐르며, 장거리 여행을 위해 우회로(프로세스, 최적화된 라이브러리 등)를 이용할 수 있습니다. 이것은 타협안이며, 결정적인 단점은 아닙니다.
 
@@ -198,7 +360,18 @@ GIL(전역 인터프리터 잠금)은 작은 마을의 한 줄 다리처럼 생�
 
 ## 커뮤니티와 접근성의 힘
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파이썬의 강점은 그 코드뿐만이 아니라 가능성을 계속해서 확장하는 거대하고 환영받는 커뮤니티에 있습니다. 읽기 쉽고 배우기 쉬울 때문에 다른 언어를 포기했을 수도 있는 사람들에게 프로그래밍 세계를 열어줍니다.
 
@@ -208,7 +381,18 @@ GIL(전역 인터프리터 잠금)은 작은 마을의 한 줄 다리처럼 생�
 
 - 파이썬의 잠재력을 더 탐구하고 싶나요? 저를 Medium에서 팔로우하거나, 우리와 함께 공부하고 지내기 위해 내 Discord 커뮤니티에 가입하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이 기사가 여러분에게 몇 가지 파이썬 신화를 해체했나요? 박수로 지지를 표현해 주세요! 다른 사람들도 이 기사를 찾을 때 도움이 됩니다.
 
@@ -218,7 +402,18 @@ GIL(전역 인터프리터 잠금)은 작은 마을의 한 줄 다리처럼 생�
 
 In Plain English 커뮤니티의 일원이 되어 주셔서 감사합니다! 떠나시기 전에:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 반드시 소설가를 박수를 치고 팔로우 해주세요 👏️️
 - 우리를 팔로우하세요: X | LinkedIn | YouTube | Discord | Newsletter

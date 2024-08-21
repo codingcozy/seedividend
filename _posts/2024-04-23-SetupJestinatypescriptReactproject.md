@@ -3,17 +3,13 @@ title: "TypeScript로 된 React 프로젝트에 Jest 설정하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Setup Jest in a typescript React project"
 link: "https://medium.com/@abhishekpn98/setup-jest-in-a-typescript-react-project-cfb8188534ec"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/SetupJestinatypescriptReactproject_0.png)
 
@@ -25,7 +21,18 @@ isUpdated: true
 npm install --save-dev @testing-library/react @testing-library/jest-dom @testing-library/dom @testing-library/user-event
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 yarn을 선호한다면
 
@@ -37,7 +44,18 @@ yarn add --dev @testing-library/react @testing-library/jest-dom @testing-library
 
 - jest 의존성을 설치하려면 다음 명령어를 실행하세요 (개발용 종속성으로)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm install --save-dev jest jest-environment-jsdom ts-jest @types/jest
@@ -55,7 +73,18 @@ yarn add --dev jest jest-environment-jsdom ts-jest ts-node @types/jest
 - ts-node: 소스 맵 지원을 통한 Node.js용 TypeScript 실행 및 REPL입니다. ts-node를 사용하면 사전 컴파일이 필요 없이 TypeScript 파일을 직접 Node.js에서 실행할 수 있습니다. 개발 중에 TypeScript 코드를 무리 없이 실행하는 데 일반적으로 사용됩니다.
 - @types/jest: Jest를 위한 TypeScript 타입 정의입니다. 이러한 타입 정의는 TypeScript에 Jest API에 대한 정보를 제공하여 TypeScript로 Jest 테스트를 작성할 때 더 나은 유형 확인과 에디터 지원을 가능하게 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. Jest 구성
 
@@ -86,7 +115,18 @@ module.exports = {
 
 4.React Testing Library와 Jest 통합하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 루트 폴더에 jest.setup.ts라는 파일을 만들고 다음 코드를 입력해주세요
 
@@ -98,7 +138,18 @@ import "@testing-library/jest-dom";
 
 - 이전에 생성한 jest.config.ts 파일에 setupFilesAfterEnv 필드를 추가해주세요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 수입 { };

@@ -3,17 +3,13 @@ title: "OpenAIWhisper, GPT-4, TTS, Flask, ReactJS를 활용해 AI 보이스 챗�
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Build Your First AI Voice Chatbot from Scratch with OpenAI Whisper, GPT-4, TTS, Flask , ReactJS"
 link: "https://medium.com/ai-advances/build-your-first-ai-voice-chatbot-from-scratch-with-openai-whisper-gpt-4-tts-flask-reactjs-b1539a976e48"
 isUpdated: true
 ---
-
-
-
-
 
 ![AI Voice Chatbots](/assets/img/BuildYourFirstAIVoiceChatbotfromScratchwithOpenAIWhisperGPT-4TTSFlask-ReactJS_0.png)
 
@@ -26,7 +22,18 @@ isUpdated: true
 - 사람들이 타이핑 대신 말하기로 전환 중.
 - 모바일 기기에서 타이핑하는 것은 시간이 많이 걸려.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스마트폰의 경우, 음성 비서가 기본 선택 사항이 될 것입니다!
 
@@ -38,7 +45,18 @@ isUpdated: true
 
 그리고 내 앱이 현재 작동 중인데, 지금 당신에게 같은 작업을 어떻게 할 수 있는지 가르치러 여기 있어요. 우리는 다음 기술을 사용할 거에요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 백엔드 부분에는 Flask를 사용합니다.
 - 프론트엔드 부분에는 ReactJS를 사용합니다.
@@ -50,7 +68,18 @@ isUpdated: true
 
 준비됐나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코드로 빠져들어볼까요!
 
@@ -60,7 +89,18 @@ OpenAI API를 사용하려면 두 가지가 필요해요: OpenAI API 키와 open
 
 ## OpenAI API 키 생성 및 .env 파일에 저장하기.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오픈에이아이의 API 키 페이지로 이동하여 새 API 키를 생성하세요.
 
@@ -70,7 +110,18 @@ OpenAI API를 사용하려면 두 가지가 필요해요: OpenAI API 키와 open
 
 그런 다음, 이름을 지정하고 "비밀 키 생성"을 누르세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![BuildYourFirstAIVoiceChatbotfromScratchwithOpenAIWhisperGPT-4TTSFlask-ReactJS_2.png](/assets/img/BuildYourFirstAIVoiceChatbotfromScratchwithOpenAIWhisperGPT-4TTSFlask-ReactJS_2.png)
 
@@ -80,7 +131,18 @@ OpenAI API를 사용하려면 두 가지가 필요해요: OpenAI API 키와 open
 
 프로젝트 디렉토리에 .env 파일을 생성하고 API 키를 넣으세요. 다음과 같이 보이게 됩니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 OPENAI_API_KEY = sk - 11111111111111111111111;
@@ -92,7 +154,18 @@ OPENAI_API_KEY = sk - 11111111111111111111111;
 
 백엔드 애플리케이션을 실행하려면 여러 Python 라이브러리가 필요합니다. 콘솔에서 다음 스크립트를 실행하여 설치할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 pip install Flask flask-cors flask-socketio python-dotenv openai
@@ -104,7 +177,18 @@ pip install Flask flask-cors flask-socketio python-dotenv openai
 
 먼저 플라스크(Flask) 애플리케이션을 설정해 보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앱을 초기화하고 세션용 비밀 키를 설정하고 Cross-Origin Resource Sharing (CORS)를 활성화하여 프론트 엔드가 백 엔드와 통신할 수 있도록합니다.
 
@@ -126,7 +210,18 @@ socketio = SocketIO(app, cors_allowed_origins="*")
 - CORS(app)은 Cross-Origin Resource Sharing (CORS)를 활성화합니다. 이를 통해 프론트 엔드가 백 엔드와 통신할 수 있습니다.
 - socketio = SocketIO(app, cors_allowed_origins="\*")은 지속적이고 양방향 통신을 위한 WebSocket을 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자, 이제 OpenAI 모델을 사용할 시간입니다.
 
@@ -136,13 +231,35 @@ socketio = SocketIO(app, cors_allowed_origins="*")
 
 OpenAI 클라이언트를 초기화해 봅시다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 openai 모델을 사용하기 시작할 준비가 끝났어요.
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전에 말씀드렸던 대로, 3가지 모델을 사용할 것입니다:
 
@@ -154,7 +271,18 @@ openai 모델을 사용하기 시작할 준비가 끝났어요.
 
 ## 단계 3: 오디오 데이터 및 전사 처리.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 수신된 오디오 데이터를 처리하는 엔드포인트가 필요합니다.
 
@@ -178,7 +306,18 @@ def handle_audio(data):
 
 위 코드에 관한 내용:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 오디오 블롭을 받아옵니다 (React 부분에서 생성할 것입니다),
 - OpenAI API가 처리할 수 있는 형식으로 변환합니다,
@@ -201,7 +340,18 @@ def get_response(prompt):
     return response
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오픈에이아이 API를 사용할 때 표준적인 호출 방법입니다.
 
@@ -215,7 +365,18 @@ def get_response(prompt):
 
 다음 단계는 텍스트 응답에서 음성을 합성하고 음성 파일로 서비스하는 것입니다. 이를 위해 audio.speech.create 메서드를 사용하고 출력을 파일로 저장하여 프론트 엔드에서 액세스할 수 있도록 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 @app.route("/audio/<filename>")
@@ -239,7 +400,18 @@ def synthesize_audio(text, audio_filename):
 
 ## 단계 0: React 앱 초기화하기.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 글을 조금 짧게 유지하려면, 첫 번째 React 앱을 실행하는 필수 단계를 안내해 드리겠습니다.
 
@@ -251,7 +423,18 @@ npm install @emotion/react @emotion/styled @mui/icons-material @mui/material rea
 
 ## 단계 1: React 앱 설정하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 MaterialUI에서 필요한 React 컴포넌트를 가져와 시작하겠습니다. MaterialUI는 수백 가지의 미리 만들어진 그래픽 요소를 제공합니다.
 
@@ -269,7 +452,18 @@ import StopIcon from "@mui/icons-material/Stop";
 - 시작/중지 녹음 버튼을 표시합니다.
 - 합성된 응답을 재생합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 2: 오디오 녹음 및 상태 처리
 
@@ -277,8 +471,7 @@ import StopIcon from "@mui/icons-material/Stop";
 
 ```js
 export default function App() {
-  const { startRecording, stopRecording, recordingBlob, isRecording } =
-    useAudioRecorder();
+  const { startRecording, stopRecording, recordingBlob, isRecording } = useAudioRecorder();
   const [audioUrl, setAudioUrl] = useState("");
   // 여기에 추가 기능과 효과를 추가하세요
 }
@@ -286,7 +479,18 @@ export default function App() {
 
 또한, 합성된 GPT-4 응답의 오디오가 있는 URL을 저장하는 변수를 생성합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 3: 오디오 데이터 송수신하기.
 
@@ -296,7 +500,18 @@ export default function App() {
 
 준비할 것들이 많이 필요합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { io } from "socket.io-client";
@@ -360,7 +575,18 @@ export default function App() {
 
 ## 단계 4: UI 표시하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막으로, 애플리케이션의 UI를 만들어보겠습니다:
 
@@ -392,7 +618,18 @@ UI를 가능한 간단하게 구성했어요. 그래서 이 UI에는 다음과 �
 - 녹음을 시작하고 중지하는 버튼
 - 합성된 응답을 재생하는 오디오 플레이어
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그게 다야.
 
@@ -402,7 +639,18 @@ UI를 가능한 간단하게 구성했어요. 그래서 이 UI에는 다음과 �
 
 Flask 백엔드 시작하기:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 python app.py
@@ -416,7 +664,18 @@ React 프런트엔드를 시작합니다 (프런트엔드 디렉토리에 있는
 npm start
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 http://localhost:3000에 접속하면 가장 간단한 앱이 표시됩니다:
 
@@ -426,7 +685,18 @@ http://localhost:3000에 접속하면 가장 간단한 앱이 표시됩니다:
 
 ![답변 이미지](/assets/img/BuildYourFirstAIVoiceChatbotfromScratchwithOpenAIWhisperGPT-4TTSFlask-ReactJS_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 다음은 무엇인가요?
 
@@ -438,7 +708,18 @@ http://localhost:3000에 접속하면 가장 간단한 앱이 표시됩니다:
 - AI 기술을 활용한 웹 앱
 - 다양한 RAG 애플리케이션들!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그것을 스마트폰에서 사용할 때 매우 강력해질 거예요!
 
@@ -448,7 +729,18 @@ http://localhost:3000에 접속하면 가장 간단한 앱이 표시됩니다:
 
 탄탄한 AI 풀스택 애플리케이션을 만드는 방법을 배웠어요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트 부분이 조금 복잡할 수 있어요 (특히 자바스크립트를 배운 적이 없다면).
 
@@ -458,6 +750,17 @@ http://localhost:3000에 접속하면 가장 간단한 앱이 표시됩니다:
 
 유용한 자료:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 어플리케이션을 포함한 GitHub 리포지토리.

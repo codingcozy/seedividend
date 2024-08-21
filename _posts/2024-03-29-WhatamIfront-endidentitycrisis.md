@@ -3,17 +3,13 @@ title: "플러터 앱 만들어 frontend 개발자 될 수 있어요"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "What am I front-end identity crisis"
 link: "https://medium.com/@mail.davidredmond/what-am-i-front-end-identity-crisis-88db52ff029e"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/WhatamIfront-endidentitycrisis_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 앱의 스타일링은 SASS, SCSS, LESS, CSS 및 styled components로 작성되어 있습니다. 이 디자인의 신은 이미 CSS4를 구현하고, grid, flexbox, CSS 함수 및 사용자 정의 속성을 사용하고 있습니다. 폰트를 가져오고, keyframes로 애니메이션을 만들어 어디에든 넣고 있습니다... 그리고 모두 반응형입니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](https://miro.medium.com/v2/resize:fit:960/1*poeR0PrGpjEwa07TzWgEiA.gif)
 
@@ -39,7 +46,18 @@ isUpdated: true
 
 그래서 아마 우리는 매우 정직해지고 곧 선택을 해야 할 것 같아요. 이 두 가지 다른 기술 세트를 두 개의 서로 다른 직함으로 분리해야 한다고 인정해야 해요. 디자이너와 긴밀하게 협력하여 CSS 스타일링과 관련된 모든 도구로 웹사이트의 외관과 느낌을 만드는 프론트엔드 개발자들과 사이트의 구조와 논리를 구축하는 프론트엔드 엔지니어들이 있는 세계로 접어들고 있다고 믿어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 브라우저의 발전 방향을 보면 개발의 미래가 확장될 것 같아요. 컴퓨터 프로그램이 왕이었던 시절을 기억하죠. 지금은 컴퓨터에서 하는 모든 일이 온라인으로 가능해요. 파일을 저장하는 온라인 하드 드라이브(Google Drive, Dropbox, 심지어 OneDrive도 있죠), 브라우저 메모리 지속성(localStorage, 쿠키), 워드 처리, 이메일, 계산기, 심지어 온라인에서 코드를 작성할 수도 있어요... 브라우저가 새로운 운영 체제(OS)가 되었어요!
 

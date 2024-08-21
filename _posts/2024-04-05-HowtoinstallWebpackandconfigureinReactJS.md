@@ -3,17 +3,13 @@ title: "React JS에서 Webpack을 설치 및 세팅 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How to install Webpack and configure in React JS"
 link: "https://medium.com/@ns-tech-learn/how-to-install-webpack-and-configure-in-react-js-88b4b0bd0af9"
 isUpdated: true
 ---
-
-
-
-
 
 웹팩은 React 프로젝트에서 일반적으로 사용되는 인기 있는 Javascript 모듈 번들러입니다. 이는 프로젝트 자산을 관리하고 번들하는 데 도움이 됩니다. 코드, 자산 및 종속성을 구성하고 최적화하는 데 도움을 줍니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 아직 React 프로젝트를 생성하지 않았다면 `create-react-app`을 사용하여 빠르게 새 프로젝트를 설정할 수 있습니다. 터미널을 열고 다음 명령을 실행하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npx create-react-app my-react-app
@@ -38,7 +45,18 @@ npm (Node Package Manager)을 사용하여 웹팩과 관련 도구들을 설치�
 npm install webpack webpack-cli webpack-dev-server --save-dev
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - `webpack`: 웹팩의 핵심 모듈입니다.
 
@@ -48,7 +66,18 @@ npm install webpack webpack-cli webpack-dev-server --save-dev
 
 ### 단계 3: 웹팩 구성 파일 만들기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트 루트에 `webpack.config.js`라는 이름의 Webpack 구성 파일을 생성해주세요. 아래 내용을 추가해주세요:
 
@@ -86,7 +115,18 @@ module.exports = {
 
 ### 단계 4: `package.json` 업데이트
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `package.json` 파일을 열어서 Webpack 개발 서버를 실행하는 `”start”` 스크립트를 추가해보세요. 다음과 같이 `”scripts”` 섹션을 업데이트해주세요:
 
@@ -101,7 +141,18 @@ module.exports = {
 
 - `”build”` 스크립트는 애플리케이션을 프로덕션용으로 번들합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 단계 5: `public` 디렉토리 생성하기
 
@@ -111,7 +162,18 @@ module.exports = {
 
 다음 내용을 가진 `public` 디렉토리 안에 `index.html` 파일을 생성하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <!DOCTYPE html>
@@ -137,7 +199,18 @@ module.exports = {
 npm start
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹팩 개발 서버를 시작하면 React 앱이 `http://localhost:3000` 에서 사용 가능해집니다.
 
@@ -147,6 +220,17 @@ npm start
 
 - 프로젝트 요구 사항에 따라 웹팩 구성이 더욱 복잡해질 수 있습니다. 제공된 구성은 시작점일 뿐이며, 사용자 지정할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 만약 Create React App을 사용하고 있다면, 자체 미리 구성된 Webpack 설정이 함께 제공되므로 일반적으로 Webpack을 수동으로 구성할 필요가 없습니다.

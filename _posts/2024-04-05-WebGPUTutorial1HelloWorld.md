@@ -3,17 +3,13 @@ title: "웹GPU - 튜토리얼 1"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "WebGPU  Tutorial 1 Hello World"
 link: "https://medium.com/@julienetienne/webgpu-a-beginners-hello-world-tutorial-8030747da390"
 isUpdated: true
 ---
-
-
-
-
 
 ![WebGPU](/assets/img/WebGPUTutorial1HelloWorld_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 웹GPU는 Vulkan에 크게 영향을 받았으며, Vulkan은 크로스 플랫폼, 저수준 그래픽 및 컴퓨팅 API입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 블록 (Block)은 Vulkan에서 영감을 받아, WebGL에서 발생하는 성능 및 호환성 문제를 해결하기 위해 설계된 WebGPU는 다양한 GPU 하드웨어 간의 특히 호환성 문제를 해결합니다. 이 API는 장치 지원에 따라 Vulkan, DirectX 또는 Metal 위에 위치합니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 본 기사 작성 시점에서 WebGPU는 아직 제대로 제품용이 아니지만, 그것도 오래가지는 않을 것입니다. 현재 가능한 한 사용자 플래그나 캐너리 릴리스를 활용할 수 있습니다. (본 기사 작성 시점에서는 Linux 지원이 어느 정도 제한되어 있습니다).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/WebGPUTutorial1HelloWorld_1.png" />
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 ## 요구 사항
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 프로그래밍 언어에 익숙하다면 좋겠지만, 고급 JavaScript 기술이 필요한 것은 아닙니다. 하지만 최소한의 개발 환경을 설정할 수 있는 단계를 따를 수 있어야 합니다.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 우리는 JavaScript를 사용하고 있습니다; 이 튜토리얼은 원하는 경우 TypeScript로 쉽게 변환할 수 있습니다. 우리는 최상위 await의 간편함을 원하기 때문에 네이티브 모듈을 사용하고 있습니다. 그러니 먼저 다음을 해주세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 노드가 설치되어 있지 않다면, 먼저 nvm을 설치한 후 nvm을 사용하여 node.js를 설치해주세요.
 - npm i -g http-server 명령어를 사용하여 http-server를 전역으로 설치하세요.
@@ -98,7 +138,18 @@ isUpdated: true
 </html>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## script.js 첫 번째 부분
 
@@ -110,7 +161,18 @@ import code from "./shaders.wgsl.js";
 
 requestAdapter()는 GPU에 액세스 권한을 요청합니다. 알 수 있듯이 프로미스를 기반으로 하기 때문에 await를 사용합니다. gpu가 비어 있고 어댑터도 비어 있는 경우 optional chaining operator인 ?.을 사용하여 requestAdapter와 requestDevice가 타입 오류를 발생시키지 않고 값을 반환하게 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 requestDevice은 GPU에 직접 액세스할 수 있는 GPUDevice 객체를 반환합니다. 그러나 requestDevice에서 OperationError가 발생할 수 있습니다.
 
@@ -134,7 +196,18 @@ const context = document.querySelector("canvas")?.getContext("webgpu");
 const format = navigator.gpu.getPreferredCanvasFormat();
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼 GPU 장치와 픽셀 형식을 사용하여 컨텍스트를 구성하여 스왑 체인에 이 정보를 제공합니다.
 
@@ -149,7 +222,18 @@ context.configure({
 
 우리는 템플릿 리터럴 문자열 `` 바로 앞에서 WGSL 리터럴 구문 강조 표시기를 활성화하여 파일을 설정할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 export default /* wgsl */ `
@@ -164,7 +248,18 @@ export default /* wgsl */ `
 
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - @fragment fn: 픽셀 색상을 나타내는 fragment 함수를 선언합니다.
 - fs() -` @location(0) vec4`f32`: 함수 서명을 지정합니다. 32비트 부동 소수점 값의 4D 벡터를 반환합니다.
@@ -176,7 +271,18 @@ export default /* wgsl */ `
 
 WGSL은 사람들을 위한 고수준 언어입니다. 쉐이더를 렌더 파이프라인을 위한 이진 표현으로 컴파일해야 해요. 이 표현은 셰이더 모듈이라고 해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const module = device.createShaderModule({
@@ -205,7 +311,18 @@ const pipeline = device.createRenderPipeline({
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 vertex와 fragment 셰이더 내에서 함수(vs 및 fs)를 참조하는 방법을 주목해봅시다. 또한 원하는 형식(format)을 대상(target)으로 전달합니다. Auto-layout은 버퍼, 텍스처 및 다른 자원의 조직과 바인딩을 고려하는 렌더 파이프라인 레이아웃을 자동으로 생성합니다.
 
@@ -216,7 +333,18 @@ const pipeline = device.createRenderPipeline({
 
 따라서 렌더 패스에서 clearValue를 사용하여 지우고, 그려진 값을 저장하여 변경 사항을 보존할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const renderPassDesc = {
@@ -237,7 +365,18 @@ const renderPassDesc = {
 
 커맨드 인코더는 CPU가 GPU를 위한 명령을 기록할 수 있도록 해줍니다. 렌더패스는 렌더패스 디스크립터로부터의 지침을 가지고 만들어져요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 render pass에 셰이더 모듈을 제공해야 합니다. 이 셰이더 모듈에는 우리의 버텍스와 프래그먼트 셰이더가 포함되어 있습니다. 파이프라인을 설정하여 전달합니다.
 
@@ -247,9 +386,7 @@ pass.draw(3)은 삼각형의 각 좌표에 대해 세 번 그리게 합니다. �
 
 ```js
 const renderer = () => {
-  renderPassDesc.colorAttachments[0].view = context
-    .getCurrentTexture()
-    .createView();
+  renderPassDesc.colorAttachments[0].view = context.getCurrentTexture().createView();
 
   const encoder = device.createCommandEncoder({ label: "The encoder" });
   const pass = encoder.beginRenderPass(renderPassDesc);
@@ -264,7 +401,18 @@ const renderer = () => {
 renderer();
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 이렇게 보여야 해요:
 
@@ -274,7 +422,18 @@ renderer();
 
 ## shaders.wgsl.js pt 2
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 export default /* wgsl */ `
@@ -303,7 +462,18 @@ export default /* wgsl */ `
 
 vec4 반환 값의 3번째 위치는 0으로, 우리는 2D 공간에서만 그리고 있기 때문입니다. 4번째 위치는 중심부터의 크기를 결정하며, 이 값을 변경하여 삼각형의 크기를 조절할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프래그먼트 셰이더에서는 정점 셰이더에 의해 그려진 영역에만 영향을 줍니다. 불투명한 노란색 색상값 1.0, 0.98, 0.0, 1.0을 제공했습니다.
 
@@ -313,7 +483,18 @@ vec4 반환 값의 3번째 위치는 0으로, 우리는 2D 공간에서만 그�
 
 이것은 "안녕, 세계"에 해당합니다. 웹GPU에서 멋진 것을 만들고 싶다면 다음을 고려해보세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Athena.js
 - use.gpu

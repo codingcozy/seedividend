@@ -3,16 +3,13 @@ title: "SwiftUI에서 몰랐던 맞춤형 뷰 수정자에 대한 모든 것"
 description: ""
 coverImage: "/assets/img/2024-07-27-WhatYouDontKnowAboutCustomViewModifiersinSwiftUI_0.png"
 date: 2024-07-27 14:03
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-27-WhatYouDontKnowAboutCustomViewModifiersinSwiftUI_0.png
 tag: Tech
 originalTitle: "What You Dont Know About Custom View Modifiers in SwiftUI"
 link: "https://medium.com/@daviddoswell/what-you-dont-know-about-custom-view-modifiers-in-swiftui-c54e538ed647"
 isUpdated: true
 ---
-
-
-
 
 ### 새로운 프로그래밍 패러다임
 
@@ -22,7 +19,18 @@ SwiftUI는 Apple 플랫폼 전반에 걸쳐 사용자 인터페이스를 개발�
 
 SwiftUI는 내가 즐기는 새로운 개발 경험이에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 가지 강력한 기능은 사용자 정의 뷰 수정자를 만들 수 있는 기능입니다.
 
@@ -32,7 +40,18 @@ SwiftUI는 내가 즐기는 새로운 개발 경험이에요.
 
 사용자 정의 뷰 수정자란 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SwiftUI에서 뷰 수정자(View Modifier)는 뷰의 외관 또는 동작을 변경하는 메서드입니다.
 

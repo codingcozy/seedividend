@@ -3,16 +3,13 @@ title: "Matplotlib를 사용한 데이터 시각화 방법"
 description: ""
 coverImage: "/assets/img/2024-07-13-DataVisualizationwithMatplotlib_0.png"
 date: 2024-07-13 20:32
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-DataVisualizationwithMatplotlib_0.png
 tag: Tech
 originalTitle: "Data Visualization with Matplotlib"
 link: "https://medium.com/coinmonks/data-visualization-with-matplotlib-9d4847d9f3d5"
 isUpdated: true
 ---
-
-
-
 
 ![이미지](/assets/img/2024-07-13-DataVisualizationwithMatplotlib_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 Matplotlib은 Python 프로그래밍 언어를 위한 플로팅 라이브러리입니다. 일반 GUI 툴킷인 Tkinter, wxPython, Qt 또는 GTK를 사용하여 응용 프로그램에 플롯을 임베딩하기 위한 객체 지향 API를 제공합니다. Matplotlib은 또한 Python에서 정적, 애니메이션 및 대화형 시각화를 만드는 데 인기 있는 라이브러리입니다. 차트나 그래프를 만드는 것이 얼마나 쉬운지 알아보기 위해 몇 가지 코드 예제를 살펴봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import matplotlib.pyplot as plt
@@ -40,7 +48,18 @@ plt.show()
 
 이 간단한 예제는 Matplotlib을 사용하여 기본 선 그래프를 만드는 방법을 보여줍니다. 그러나 Matplotlib의 강점은 그 유연성과 복잡한 그래프를 만들 수 있는 능력에서 나옵니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 그림과 축
 
@@ -50,8 +69,18 @@ Matplotlib에서 그림은 플롯을 구성하는 모든 요소를 포함하는 
 
 Matplotlib에서 그림은 모든 것이 그려지는 전체 창 또는 페이지입니다. 이 그림에는 서브 축, 제목, 범례 및 레이블이 포함됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 fig = plt.figure()  # 아무 축이 없는 빈 그림
@@ -67,10 +96,20 @@ fig, axs = plt.subplots(2, 2)  # 2x2 격자 형태의 축이 있는 그림
 fig = plt.figure()
 ax1 = fig.add_subplot(211)  # 2행 1열로 구성된 그림에 서브플롯 추가 및 첫 번째 플롯 참조
 ax2 = fig.add_subplot(212)  # 2행 1열로 구성된 그림에 서브플롯 추가 및 두 번째 플롯 참조
-``` 
+```
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 동물원 프로젝트를 고려해보겠습니다. 다양한 동물과 그 특성에 관한 데이터가 있습니다. 우리는 Matplotlib을 사용하여 이 데이터를 시각화하고 싶습니다.
 
@@ -105,7 +144,18 @@ plt.show()
 
 <img src="/assets/img/2024-07-13-DataVisualizationwithMatplotlib_2.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예제에서는 각 동물의 수를 나타내는 막대 플롯과 각 동물의 평균 체중을 나타내는 라인 플롯을 만들었습니다. 두 가지 다른 양을 나타내기 위해 두 개의 y-축을 사용했습니다.
 
@@ -117,7 +167,18 @@ plt.show()
 fig, axs = plt.subplots(2, 3)  # 2행 3열의 그리드를 생성합니다
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 axs는 우리가 조작할 수있는 축 (개별 플롯)를 보유하고있는 2D 배열입니다. 예를 들어, axs[0, 1]은 첫 번째 행과 두 번째 열의 서브플롯에 액세스할 수 있습니다.
 
@@ -127,7 +188,18 @@ fig, axs = plt.subplots(2, 3)  # 2행 3열의 그리드를 생성합니다
 
 Matplotlib에서는 twinx() 또는 twiny() 메서드를 사용하여 플롯에 두 번째 축을 추가할 수 있습니다. twinx()는 두 번째 y 축을, twiny()는 두 번째 x 축을 생성합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 fig, ax1 = plt.subplots()
@@ -146,7 +218,18 @@ ax2.set_ylabel('Y2', color='red')
 
 이 예시에서는 y1과 y2가 동일한 그래프에 표시되지만 각자의 y축을 가지고 있어 서로 다른 척도로 측정할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 파이플롯 인터페이스
 
@@ -163,7 +246,18 @@ plt.show()
 
 이 코드 조각은 최소한의 번거로움으로 기본 선 플롯을 생성합니다. 그러나 플로팅 요구 사항이 더 복잡해지면 파이플롯 인터페이스의 제약을 느낄 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 객체 지향 접근 방식
 
@@ -180,7 +274,18 @@ plt.show()
 
 이 코드 조각에서 우리는 명시적으로 figure와 axes 객체를 생성하여 플롯의 모든 측면을 조정할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 왜 Pyplot보다 객체 지향을 선택해야 하는가?
 
@@ -190,7 +295,18 @@ OO 접근 방식은 프로젝트가 더 높은 수준의 정교함을 요구할 
 
 ## Matplotlib의 API: 중추부분
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Matplotlib의 API는 시각화를 만들기 위한 유연한 접근 방식을 제공하는 클래스의 집합입니다. 객체 지향적이기 때문에 플롯을 마치 작업실의 물리적 객체처럼 거의 그대로 조작할 수 있습니다. 우리는 조정하고 세밀하게 다듬을 수 있어서, 정보를 전달하는 데 그치지 않고 매력적인 시각화를 만들 수 있습니다.
 
@@ -200,7 +316,18 @@ API는 방대하지만, 핵심은 Figure와 Axes 클래스입니다.
 
 Matplotlib의 API로 무대를 설정해 봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 우선적으로 필요한 모듈을 가져와서 데이터를 설정합니다. 동물들의 목록과 일주일 동안의 식량 소비량을 나타내는 배열이 있을 것입니다.
 
@@ -220,19 +347,28 @@ consumption = np.array([
 
 데이터가 준비되었으면, subplots 함수를 사용하여 Figure 및 여러 Axes를 만듭니다. 각 Axes는 일주일의 하루를 나타내며, 각 동물의 식량 소비량을 플롯합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 fig, axs = plt.subplots(1, 7, figsize=(20, 5), sharey=True)
 days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
 colors = ['red', 'green', 'blue', 'orange']
 for i, ax in enumerate(axs):
-    for j, animal in enumerate(animals):
-        ax.bar(animal, consumption[j][i], color=colors[j])
-    ax.set_title(days[i])
+for j, animal in enumerate(animals):
+ax.bar(animal, consumption[j][i], color=colors[j])
+ax.set_title(days[i])
 fig.suptitle('Zoo Animal Feeding Schedule')
 plt.show()
-
 
 위 코드 블록에서는 매일의 동물별 소비량을 보여주는 막대 차트를 작성했습니다. 공유 y축을 통해 플롯 간 일관성을 유지하고 색상을 사용하여 동물을 구분합니다.
 
@@ -240,8 +376,18 @@ plt.show()
 
 시각화를 눈에 띄게 만들기 위해 레이블, 범례, 그리고 디자인을 미세조정합니다. Matplotlib의 API를 사용하여 이 작업을 수행할 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # y 축 레이블 추가

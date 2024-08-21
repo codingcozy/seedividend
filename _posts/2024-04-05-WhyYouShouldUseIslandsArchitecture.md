@@ -3,17 +3,13 @@ title: "Islands Architecture란 무엇이며 왜 사용해야하는가"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Why You Should Use Islands Architecture"
 link: "https://medium.com/better-programming/why-you-should-use-islands-architecture-b4f291708a02"
 isUpdated: true
 ---
-
-
-
-
 
 ![Islands Architecture](/assets/img/WhyYouShouldUseIslandsArchitecture_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ![Islands Architecture](/assets/img/WhyYouShouldUseIslandsArchitecture_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Islands Architecture는 2019년 Katie Sylor-Miller가 개최한 회의에서 고안된 아이디어로, Etsy 프론트엔드 아키텍트입니다. Islands Architecture는 서버와 클라이언트를 모두 활용하여 애플리케이션을 렌더링합니다. 서버에서 HTML에 정적 콘텐츠를 로드한 후 클라이언트가 JavaScript로 대화형 영역의 플레이스홀더를 생성합니다. 개발자로서, 저는 이 아이디어가 프론트엔드 프레임워크의 다음 세대를 탄생시킬 것이라 확신합니다.
 
@@ -33,7 +40,18 @@ Islands Architecture는 2019년 Katie Sylor-Miller가 개최한 회의에서 고
 
 웹 아키텍처에 대해 더 깊이 들어가기 전에 중요한 몇 가지 용어를 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 가장 큰 콘텐츠 로드 시간 (LCP) — 이는 페이지의 주요 콘텐츠가 로드되는 데 걸리는 시간을 의미합니다.
 - 첫 번째 바이트까지의 시간 (TTFB) — 이는 응답의 첫 번째 바이트가 서버에서 브라우저로 도착하는 데 걸리는 시간을 의미합니다.
@@ -47,7 +65,18 @@ Islands Architecture는 2019년 Katie Sylor-Miller가 개최한 회의에서 고
 
 웹 페이지의 첫 입력 지연 시간은 사용자 경험을 유지하기 위해 100 ms 미만으로 유지되어야 합니다. 이 지표는 주요 리소스의 상호작용이 로드되고 신뢰할 수 있는 상태로 작동하는 데 걸리는 시간 (TTI)에 직접적으로 영향을 받습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사에서 논의된 아키텍처 결정은 tradeoff를 포함합니다. 페이지는 더 빨리로드 될 수 있지만 상호 작용이 오래 걸릴 수도 있습니다. 또는 그 반대도 가능합니다.
 
@@ -57,7 +86,18 @@ Islands Architecture는 2019년 Katie Sylor-Miller가 개최한 회의에서 고
 
 ![도표](/assets/img/WhyYouShouldUseIslandsArchitecture_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마법알 해결책 시대에서 벗어나고 있습니다. 모두가 단호하고 명확하며 간단해야 한다는 답변을 원합니다. CSR은 서버에 지속적인 핑을 피하고 전체 페이지를 새로고침하지 않고 탈출할 수 있는 방법을 제공했지만, 그와 함께 다양한 문제가 발생했습니다. 현실과 웹 아키텍처는 우리가 선호하는 것보다 훨씬 더 다양성을 요구합니다. SSR과 CSR을 살펴보고, 각 접근 방식에서 숨겨진 문제들을 해결해보겠습니다.
 
@@ -67,7 +107,18 @@ Islands Architecture는 2019년 Katie Sylor-Miller가 개최한 회의에서 고
 
 ![이미지](/assets/img/WhyYouShouldUseIslandsArchitecture_5.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이는 서버로부터 응답을 받은 후 클라이언트의 브라우저에서는 거의 또는 전혀 JavaScript를 처리할 필요가 없음을 의미합니다. 애플리케이션 로직의 주된 처리가 이미 완료되어 있습니다 — 서버가 클라이언트를 위해 처리했습니다.
 
@@ -81,7 +132,18 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<App />);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSR에서는 대량의 JavaScript가 클라이언트에 전송될 수 있습니다. 브라우저로 전체 애플리케이션 로직이 전송되는 것을 볼 수도 있습니다. 또한 CSR에 대한 최적화 기술을 강조하지 않는 프론트엔드 튜토리얼 비디오에서도 이러한 점이 일반적입니다.
 
@@ -91,7 +153,18 @@ CSR에서는 대량의 JavaScript가 클라이언트에 전송될 수 있습니�
 
 ## 검색 엔진 최적화
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 검색 엔진 최적화는 웹 애플리케이션을 구축할 때 중요한 고려 사항입니다. 결국, 웹 사이트를 예쁘게 만들어서 Github 저장소에 먼지를 쌓이게 하는 게 아니라 다른 사람들이 사용할 도구를 만드는 것입니다. 그리고 사람들이 여러분의 도구나 제품을 찾는 주요 방법 중 하나가 바로 검색 엔진을 통한 것이죠.
 
@@ -101,7 +174,18 @@ CSR에서는 대량의 JavaScript가 클라이언트에 전송될 수 있습니�
 
 ## 로딩
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SSR과 CSR 간에는 로딩에 대한 명확한 트레이드오프가 있습니다. 각각은 특정 영역에서 다른 것보다 우수합니다.
 
@@ -111,7 +195,18 @@ SSR은 초기 페이지 렌더링에서 우수합니다. 사용자가 사이트�
 
 ![IslandsArchitecture](/assets/img/WhyYouShouldUseIslandsArchitecture_7.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSR은 이 스크립트를 뒤집습니다: 특히 최적화를 시도하지 않을 때 CSR로 브라우저로 전송되는 JavaScript 양이 많기 때문에, 웹페이지의 초기로드가 계산 시간면에서 지연될 수 있습니다. 그러나 전체 웹사이트가 클라이언트 측으로 전송되므로 사이트의 탐색 가능한 경로가 포함되어 있습니다 (이것이 '싱글 페이지'로 만드는 요소입니다), 사용자는 사이트의 다양한 페이지를 이동할 때 훨씬 부드러운 경험을 제공받을 것입니다. 또한 클라이언트가 초기 페이지를 탐색하는 동안 추가적인 페이지를 구축하는 사전 가져오기 및 기타 최적화를 통합하는 현대 프론트엔드 또는 풀 스택 프레임워크로 인해 특히 그렇습니다.
 
@@ -121,7 +216,18 @@ CSR은 이 스크립트를 뒤집습니다: 특히 최적화를 시도하지 않
 
 SSR에서 서버가 응용 프로그램 로직을 처리하므로 상호작용 비용이 발생할 수 있습니다. 순수 서버 렌더링 된 응용 프로그램과 상호작용할 때 매번 브라우저가 서버와 통신해야 합니다. 인프라가 이미 과부하 상태일 때 상호작용을 처리하기 위해 백엔드로 빈번한 핑 전송 및 전체 페이지 다시로드가 발생하면 사용자 요청 처리에 지연을 초래할 수 있습니다. 결국 페이지는 서버에 의해 생성되고 있습니다. 콘텐츠 변경이 필요하고 해당 웹페이지를 다시 구축해야 하는 경우 전체 페이지를 재구성해야 할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSR은 대화형 기능에 대해 잘 다루지만, 서버에 요청하는 것이 아닌 프론트엔드에서 응용 프로그램 로직이 처리됩니다. 그러나 이 모델에도 단점이 있습니다. 데이터가 페이지에 처음으로로드되지 않을 수 있고, 대신 사용자가 페이지와 상호 작용할 때 요청될 수 있습니다. 이는 서버에 핑을 보내야 하며, 사용자 상호 작용의로드 시간을 늘릴 수 있습니다.
 
@@ -131,7 +237,18 @@ CSR은 대화형 기능에 대해 잘 다루지만, 서버에 요청하는 것�
 
 ![이미지](/assets/img/WhyYouShouldUseIslandsArchitecture_8.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 브라우저에 순수 JavaScript 또는 JSX 형식의 전체 프론트엔드를 배송하는 것은 좋지 않은 습관이에요, 특히 대규모 어플리케이션의 경우에는 말이죠. 모든 코드와 종속성을 패키징하고 그 논리를 브라우저에 실린 뒤, 실제 HTML 웹 페이지를 빌드하도록 요청하는 것은 효율적이지 않을 수밖에 없어요. 이 아키텍처의 결과물을 직접 목격해봤습니다.
 
@@ -141,7 +258,18 @@ CSR은 대화형 기능에 대해 잘 다루지만, 서버에 요청하는 것�
 
 ![이미지](/assets/img/WhyYouShouldUseIslandsArchitecture_9.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 개발자들도 그렇게 했어요. SPA의 등장 이후, 각 접근 방법의 장점을 최대한 활용하려는 여러 새로운 방법이 등장했어요. Static Generation은 사이트를 구축할 때 미리 정의된 HTML 페이지를 작성하고 즉시 요청 시 제공해요. Streaming SSR은 서버가 웹사이트를 구축하지만 응답을 브라우저로 스트리밍하여 더 빠른 FCP 및 TTFB를 제공해요. 선택적 수화(React 18의 경우와 같이)은 서버가 전체 페이지를 작성하고 클라이언트가 상호작용 요소를 선택적으로 수화할 수 있도록 만들어요. 그러나 가장 최신이자 혁신적인 접근 방법은 Islands Architecture에 있어요.
 
@@ -151,7 +279,18 @@ Islands Architecture의 아이디어는 간단해요 - 서버에서 정적 내�
 
 ![이미지](/assets/img/WhyYouShouldUseIslandsArchitecture_10.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 이해가 안 된다면, 이것은 실제로 클라이언트로 전송되는 JavaScript가 매우 적다는 것을 의미합니다. CSR의 일반적인 함정 중 하나를 피할 수 있어요. 즉, 전체 프론트엔드 로직을 브라우저로 보내지 않아도 되요. 서버가 구성할 수 있는 것은 모두 구성하고, 나머지에 대한 HTML 뼈대와 스크립트를 남겨요. 이렇게 하면 서버 측 렌더링으로 인한 낮은 LCP와 낮은 TTI의 모든 이점을 누리고, CSR로 구축된 SPA의 빠른 상호작용과 탐색을 얻을 수 있어요.
 
@@ -161,7 +300,18 @@ Islands Architecture의 아이디어는 간단해요 - 서버에서 정적 내�
 
 eBay에서 개발한 Marko나 다른 동적 지역과 함께 수화물 코드 만을 전송하는 프레임워크가 되요. 또한 React, Vue, Svelte 등을 사용할 수 있는 Astro를 탐색할 수도 있어요. Astro의 지역은 간단한 스니펫으로 어떤 구성 요소가 클라이언트로 로드되는지 지시할 수 있답니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <MyComponent client:load />

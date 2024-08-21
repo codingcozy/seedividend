@@ -3,22 +3,17 @@ title: "css로 border 그라데이션 적용하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 16:52
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
 
-
-
-
-
 # css로 border 그라데이션 적용하는 방법
 
 <img src="./img/1.png" width="500" />
-
 
 디자인도 발전하면서 border에 단색보다는 그라데이션을 넣는 경우들이 많이 있는데요.
 css를 사용해서 border에 그라데이션 넣는 방법에 대해서 정리해보려고 합니다.
@@ -29,14 +24,24 @@ css를 사용해서 border에 그라데이션 넣는 방법에 대해서 정리�
 
 <img src="./img/2.png" width="500" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 .border_gradient {
   border: 2px solid transparent;
   background-clip: padding-box, border-box;
-  background-image: linear-gradient(#fff, #fff), linear-gradient(145.92deg, $color-MT01
-        8.31%, #18e79c 95.25%);
+  background-image: linear-gradient(#fff, #fff), linear-gradient(145.92deg, $color-MT01 8.31%, #18e79c 95.25%);
   background-origin: border-box;
   padding: 32px 38px 32px 18px;
   margin-top: 24px;
@@ -86,7 +91,18 @@ css를 사용해서 border에 그라데이션 넣는 방법에 대해서 정리�
 </html>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### `padding-box` 데모
 
@@ -118,7 +134,18 @@ css를 사용해서 border에 그라데이션 넣는 방법에 대해서 정리�
 
 ### `content-box` 데모
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="./img/5.png" width="500" />
 
@@ -236,7 +263,18 @@ css를 사용해서 border에 그라데이션 넣는 방법에 대해서 정리�
 </html>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 데모 코드는 각 값에 따라 배경이 요소 내에서 어떻게 시작되는지를 시각적으로 보여줍니다.
 

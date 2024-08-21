@@ -3,16 +3,13 @@ title: "앵귤러에서의 기능적인 라우트 가드"
 description: ""
 coverImage: "/assets/img/2024-06-20-FunctionalRouteGuardsinAngular_0.png"
 date: 2024-06-20 05:41
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-FunctionalRouteGuardsinAngular_0.png
 tag: Tech
 originalTitle: "Functional Route Guards in Angular"
 link: "https://medium.com/ngconf/functional-route-guards-in-angular-8829f0e4ca5c"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-06-20-FunctionalRouteGuardsinAngular_0.png" />
 
@@ -22,7 +19,18 @@ Angular v14.2에서 기능적 라우트 가드가 도입되어 Angular 애플리
 
 기능적 라우트 가드는 하나의 함수만 필요로 하며 별도의 파일에 작성하거나 필요한 경우 라우트에 대해 인라인으로 작성할 수 있습니다. 이 글에서는 라우트 가드의 몇 가지 예시를 보여드리겠지만, 더 중요한 것은 기능적 라우트 가드에 대한 테스트를 작성하는 방법을 보여드릴 것입니다. 클래스 기반 가드를 기능적으로 변환하는 작업 중에 가드를 테스트하는 방법에 대한 정보를 찾을 수 없어 고민했는데, 이 글이 다른 이들을 위한 안내서 역할을 해줄 것을 바랍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 기능적 가드 작성하기
 
@@ -34,7 +42,18 @@ export function authenticationGuardArrow = () => inject(AuthService).isAuthentic
 
 이 가드에서는 AuthService를 주입하고 isAuthenticated 메서드를 호출하여 사용자가 지정된 경로로 계속 진행할 수 있는지 확인합니다. 이 경우 가드의 내부 메서드에서 반환되는 함수의 타입이 명시적으로 정의되지 않았다는 점을 주목해 주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기에는 인증 가드의 명확한 버전이 있어요:
 
@@ -42,8 +61,8 @@ export function authenticationGuardArrow = () => inject(AuthService).isAuthentic
 export function authenticationGuard(): CanActivateFn {
   return () => {
     const oauthService: AuthService = inject(AuthService);
-    
-    if (oauthService.hasAccess() ) {
+
+    if (oauthService.hasAccess()) {
       return true;
     }
     oauthService.login();
@@ -56,19 +75,26 @@ export function authenticationGuard(): CanActivateFn {
 
 함수형 라우트 가드를 사용하는 또 다른 쉬운 방법은 라우트 가드로 데이터를 전달해야 할 때입니다. 이 예시에서는 어떤 플래그를 확인해야 하는지와 필요한 경우 리디렉션할 위치를 알아야 하는 피처 플래그 가드를 살펴봅시다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```ts
-export function featureFlagGuard(
-  flagName: string,
-  redirectRoute: string
-): CanActivateFn {
+export function featureFlagGuard(flagName: string, redirectRoute: string): CanActivateFn {
   return () => {
-    const featureFlagsService: FeatureFlagsService =
-      inject(FeatureFlagsService);
+    const featureFlagsService: FeatureFlagsService = inject(FeatureFlagsService);
     const router: Router = inject(Router);
     const isFlagEnabled = featureFlagsService.isFeatureEnabled(flagName);
-    
+
     return isFlagEnabled || router.createUrlTree([redirectRoute]);
   };
 }
@@ -80,27 +106,46 @@ export function featureFlagGuard(
 
 # 라우트에 함수형 라우트 가드 추가하기
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 번 함수형 라우트 가드를 작성했다면, 주어진 라우트에 적용해야 합니다. 좋은 점은 클래스 기반 라우트와 본질적으로 동일하다는 것입니다. 그러나 약간의 차이가 있습니다. 만약 당신의 함수가 위에서 보여준 authenticationGuardArrow 함수처럼 보인다면, 다음과 같이 라우트에 추가할 수 있습니다:
 
 ```js
-const routes: Route[] = [
-  { path: 'home', component: HomeComponent, canActivate: [authenticationGuardArrow]}
-]
+const routes: Route[] = [{ path: "home", component: HomeComponent, canActivate: [authenticationGuardArrow] }];
 ```
 
 이 예제에서 이전에 했던 것과 거의 같아 보입니다. 가드는 그냥 canActivate 배열에 추가됩니다. 가드가 화살표 함수를 반환하기 때문에, 가드는 자동으로 호출됩니다. 그러나 위에서 언급한 다른 두 가드에서는 함수를 명시적으로 호출해야 합니다.
 
 ```js
 const routes: Route[] = [
-  { path: 'home', component: HomeComponent, canActivate: [authenticationGuard()]},
-  { path: 'feature', component: HomeComponent, canActivate: [featureFlagGuard('checkFlag', '/home')]}
-]
+  { path: "home", component: HomeComponent, canActivate: [authenticationGuard()] },
+  { path: "feature", component: HomeComponent, canActivate: [featureFlagGuard("checkFlag", "/home")] },
+];
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예제에서는 이전과 같이 구성 요소에 가드를 추가하지만, 실제로 실행하려면 해당 함수를 호출해야 합니다.
 
@@ -110,7 +155,18 @@ const routes: Route[] = [
 
 가드를 작성한 다음의 다음 단계는 해당 가드에 대한 테스트를 추가하는 것입니다. 여기서 조금 막혔다가 다른 사람들에게 도움이 될 것 같아요. 이러한 테스트는 새로운 RouterTestingHarness를 사용하므로 Angular v15.2 이상이 필요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새로운 RouterTestingHarness를 사용하면 테스트가 실제 라우터가 생성된 것처럼 작동하며, 경비를 선언하고 특정 경로에 도달할 수 있는지 여부를 확인할 수 있습니다. 이를 위해서는 일반적으로 Angular 단위 테스트를 작성할 때 사용하지 않는 TestBed 사용이 필요합니다. 하지만 실제로 매우 부드럽고 사용하기 쉽습니다.
 
@@ -150,9 +206,7 @@ describe("AuthenticationGuard", () => {
     });
     await RouterTestingHarness.create("/dashboard");
     expect(mockOAuthService.initCodeFlow).toHaveBeenCalled();
-    expect(mockAuthRedirectService.saveRoute).toHaveBeenCalledWith(
-      "/dashboard"
-    );
+    expect(mockAuthRedirectService.saveRoute).toHaveBeenCalledWith("/dashboard");
   });
 
   it("should allow access to the dashboard if the token is valid", async () => {
@@ -195,7 +249,18 @@ describe("AuthenticationGuard", () => {
 
 다음으로 여기에는 기능 플래그 가드에 대한 테스트가 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 @Component({ standalone: true, template: "" })
@@ -298,7 +363,18 @@ describe("FeatureFlagGuard", () => {
 
 # 주의사항
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 One red flag to be aware of is ensuring that the `inject` method is placed correctly. It should be used inside the inner `return` method, not the outer one:
 
@@ -316,7 +392,18 @@ If you use `inject` in the outer function, you may encounter an error as shown b
 
 <img src="/assets/img/2024-06-20-FunctionalRouteGuardsinAngular_1.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

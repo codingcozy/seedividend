@@ -3,17 +3,13 @@ title: "CSS shadow 속성 사용 방법 가이드"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "A Guide to CSS Shadows"
 link: "https://medium.com/@rashmipatil24/css-box-text-shadow-d5fb413cda52"
 isUpdated: true
 ---
-
-
-
-
 
 ## Box-shadow와 Text-shadow
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # Box-shadow:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 상자 그림자 속성은 div나 이미지와 같은 요소의 상자 모델에 그림자를 추가할 수 있게 해줍니다.
 
@@ -35,7 +42,18 @@ isUpdated: true
 box-shadow: 수평-오프셋 수직-오프셋 흐림 확장 색상;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 h-offset: 그림자의 수평 오프셋입니다.
 v-offset: 그림자의 수직 오프셋입니다.
@@ -51,7 +69,18 @@ color: 선택 사항입니다. 그림자의 색상입니다.
 box-shadow: 5px 5px 10px #888888;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 많은 흐림 효과를 추가하려면:
 
@@ -65,7 +94,18 @@ box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.5);
 box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.5);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 왜 그림자를 사용해야 할까요?
 
@@ -76,7 +116,18 @@ box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.5);
 
 텍스트 그림자를 추가하면 배경으로부터 돋보이고 돋보이게 할 수 있는 섬세한 터치가 추가됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 텍스트 그림자 사용법
 
@@ -91,7 +142,18 @@ v-오프셋: 그림자의 세로 오프셋입니다.
 흐림: 선택 사항입니다. 흐림 반경입니다. 값이 높을수록 그림자가 더 흐릿해집니다.
 색상: 선택 사항입니다. 그림자의 색상입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시:
 
@@ -103,7 +165,18 @@ text-shadow: 2px 2px 4px #000000;
 
 더 많은 흐림 효과 추가하기:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
@@ -116,6 +189,17 @@ text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
 
 여기서 설명드렸습니다! box-shadow와 text-shadow와 같은 CSS 속성을 사용하면 웹 디자인에 깊이와 시각적 흥미를 더하는 간단하면서도 효과적인 방법입니다. 이러한 속성들이 어떻게 작용하는지 이해하고 다양한 값을 실험해 보면 디자인을 한 단계 끌어올려 관객의 주목을 사로잡는 멋진 효과를 만들어낼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 개발의 멋진 세계로 더 많은 통찰을 기대해주세요. 코딩 즐기세요!

@@ -3,17 +3,13 @@ title: "프론트 엔드 개발자를 위한 JavaScript 팁 17가지"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "17 Advanced JavaScript Tricks for Experienced Developers "
 link: "https://medium.com/@frontend-developer/20-advanced-javascript-tricks-for-experienced-developers-03a1b9b23e3b"
 isUpdated: true
 ---
-
-
-
-
 
 당연히요! 여기에 숙련된 개발자에게 유용할 수 있는 20가지 고급 JavaScript 트릭과 기술이 있습니다:
 
@@ -24,7 +20,18 @@ const { x = 0, y = 0 } = { x: 10 };
 console.log(x, y); // 출력: 10, 0
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. **해체 할당을 사용하여 값 교환하기:**
 
@@ -44,7 +51,18 @@ const mergedObj = { ...obj1, ...obj2 };
 console.log(mergedObj); // 출력: { x: 1, y: 2, z: 3 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. **Array.flatMap()을 사용하여 배열 평탄화 및 매핑하기:**
 
@@ -61,7 +79,18 @@ const user = { name: "John", address: { city: "New York" } };
 console.log(user?.address?.city); // 출력: New York
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 6. **널리시 연산자(??):**
 
@@ -82,7 +111,18 @@ const memoize = (fn) => {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 8. **부분 함수 응용을 위한 커링:**
 
@@ -107,7 +147,18 @@ class Counter {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 10. **프락시를 사용하여 객체 작업 가로채기:**
 
@@ -129,7 +180,18 @@ const fetchData = async () => {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 12. **IIFE (즉시 호출 함수 표현):**
 
@@ -148,7 +210,18 @@ const add5 = add.bind(null, 5);
 console.log(add5(3)); // 출력: 8
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 14. **메모이제이션 라이브러리를 사용한 메모이제이션 (예: lodash.memoize):**
 
@@ -164,7 +237,18 @@ const obj = { prop: "value" };
 Object.freeze(obj);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 16. **키-값 데이터 구조를 위한 Map 사용:**
 

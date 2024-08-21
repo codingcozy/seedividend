@@ -3,15 +3,13 @@ title: "CSS3만 사용해서 동적 글꼴 크기 설정하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-Dynamicfont-sizeusingonlyCSS3_0.png"
 date: 2024-07-09 17:52
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-Dynamicfont-sizeusingonlyCSS3_0.png
 tag: Tech
 originalTitle: "Dynamic font-size using only CSS3"
 link: "https://medium.com/@bogdanfromkyiv/dynamic-font-size-using-only-css3-757ea901d0fe"
 isUpdated: true
 ---
-
-
 
 <img src="/assets/img/2024-07-09-Dynamicfont-sizeusingonlyCSS3_0.png" />
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 동적 폰트 크기는 사용자의 뷰포트 너비에 비례하여 텍스트 크기가 변경되는 것을 의미합니다. 단지 폰트 크기의 최소값, 최대값, 그리고 크기가 조절될 두 지점을 제공하면 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, 보이는 영역 너비가 768픽셀일 때 텍스트의 글꼴 크기를 20px로 하고, 최대 크기인 1920픽셀일 때는 36px로하려고 합니다. 그러나 보이는 영역의 너비가 768픽셀 미만이면 글꼴 크기가 16px보다 작아지지 않도록하고, 1920픽셀을 초과하면 글꼴 크기가 48px에서 멈추도록하려고 합니다.
 
@@ -31,7 +40,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-07-09-Dynamicfont-sizeusingonlyCSS3_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 뷰포트 너비가 768px보다 큰 경우, 글꼴 크기가 비례하여 조정됩니다:
 
@@ -41,7 +61,18 @@ isUpdated: true
 
 ![image 2](/assets/img/2024-07-09-Dynamicfont-sizeusingonlyCSS3_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 768px보다 작은 화면일 때, 글ꔴ 크기는 16px보다 작지 않습니다:
 
@@ -51,7 +82,18 @@ isUpdated: true
 
 [동적 글ꔴ 크기를 CSS3만 사용하여 변경하는 이미지](/assets/img/2024-07-09-Dynamicfont-sizeusingonlyCSS3_5.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 너무 멋있지 않니 😁?
 
@@ -63,7 +105,18 @@ isUpdated: true
 font-size: clamp(16px, calc(20px + (36–20) * (100vw - 768px)/(1920–768)), 48px);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서는 세 개의 매개변수를 받는 네이티브 CSS3 함수 clamp()를 사용합니다:
 최솟값, 원하는 값 및 최댓값입니다. 위 예제에서 최솟값은 16px로, 최댓값은 48px로 설정합니다.
@@ -74,7 +127,18 @@ font-size: clamp(16px, calc(20px + (36–20) * (100vw - 768px)/(1920–768)), 48
 
 폰트 크기에 대한 최솟값은 20px(또는 20)입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 36 — 폰트 크기의 최대 값;
 
@@ -84,7 +148,18 @@ font-size: clamp(16px, calc(20px + (36–20) * (100vw - 768px)/(1920–768)), 48
 
 100vw는 사용자 뷰포트의 전체 너비를 반환 (1vw = 뷰포트 폭의 1%).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 공식이 작동하는지 확인하려면 우리의 브레이크포인트 값(768px 및 1920px)에 대해 테스트해 보겠습니다.
 
@@ -92,7 +167,18 @@ font-size: clamp(16px, calc(20px + (36–20) * (100vw - 768px)/(1920–768)), 48
 
 이를 1920px 뷰포트 폭에서도 똑같이 해 보면, font-size의 값으로 정확히 36px를 얻게 됩니다(공식의 오른쪽 부분은 16px가 됩니다).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-07-09-Dynamicfont-sizeusingonlyCSS3_8.png)
 

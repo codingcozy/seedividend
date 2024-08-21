@@ -3,16 +3,13 @@ title: "정규 표현식에서 여러 조건을 일치시키는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-22-HowToMatchMultipleConditionsinRegex_0.png"
 date: 2024-06-22 12:52
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-HowToMatchMultipleConditionsinRegex_0.png
 tag: Tech
 originalTitle: "How To Match Multiple Conditions in Regex"
 link: "https://medium.com/gitconnected/how-to-match-multiple-conditions-in-regex-a380affa175e"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-06-22-HowToMatchMultipleConditionsinRegex_0.png" />
 
@@ -22,30 +19,84 @@ isUpdated: true
 
 이 포스트에서는 이에 대해 조금 더 깊이 이해해 보겠습니다! 아래는 문자열에서 정규 표현식 조건에 일치하는 부분을 찾을 수 있도록 match와 함께 사용할 수 있는 간단한 정규 표현식입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-const line = '내 이름은 매튜 크로크입니다. 나는 NY 메츠를 좋아합니다.';
+const line = "내 이름은 매튜 크로크입니다. 나는 NY 메츠를 좋아합니다.";
 const regex = /[A-Za-z]/g;
 const found = line.match(regex);
 
-console.log(found)
-
-> (33) ['M', 'y', 'n', 'a', 'm', 'e', 'i', 's', 'M', 'a', 't', 't', 'h', 'e', 'w', 'C', 'r', 'o', 'a', 'k', 'I', 'l', 'o', 'v', 'e', 't', 'h', 'e', 'N', 'Y', 'M', 'e', 't', 's']
+console.log(found) >
+  (33)[
+    ("M",
+    "y",
+    "n",
+    "a",
+    "m",
+    "e",
+    "i",
+    "s",
+    "M",
+    "a",
+    "t",
+    "t",
+    "h",
+    "e",
+    "w",
+    "C",
+    "r",
+    "o",
+    "a",
+    "k",
+    "I",
+    "l",
+    "o",
+    "v",
+    "e",
+    "t",
+    "h",
+    "e",
+    "N",
+    "Y",
+    "M",
+    "e",
+    "t",
+    "s")
+  ];
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 좋아요! 만약 우리가 전체 단어와 일치시키고 싶다면 어떨까요? 예를 들어, 'love'란 단어를 찾고 싶으면 이렇게 할 수 있어요!
 
 ```js
-const line = '내 이름은 매튜 크로크입니다. 나는 뉴욕 메츠를 사랑해요.';
+const line = "내 이름은 매튜 크로크입니다. 나는 뉴욕 메츠를 사랑해요.";
 const regex = /love/g;
 const found = line.match(regex);
 
-console.log(found)
-
-> ['love']
+console.log(found) > ["love"];
 ```
 
 쉽죠? 만약 우리가 대괄호 안에 love를 넣어서 /[love]/g와 같이 하면 아래와 같은 결과가 나올 거에요.
@@ -54,7 +105,18 @@ console.log(found)
 > (9) ['e', 'e', 'o', 'l', 'o', 'v', 'e', 'e', 'e']
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이는 대괄호가 "문자 클래스"로 사용되기 때문입니다. 즉, "a, b 또는 c 중의 어떤 문자"를 의미합니다. 문자 클래스는 범위를 사용할 수도 있습니다. 예를 들어 [a-d] = [abcd]입니다. [여기](https://stackoverflow.com/questions/3512471/what-does-it-mean-to-escape-the-regex-square-brackets)에서 원본 스택 오버플로 설명을 볼 수 있습니다.
 
@@ -64,16 +126,25 @@ console.log(found)
 
 예를 들어 우리가 love와 Mets 단어를 찾고 싶다고 할 때, 파이프 (|)를 사용하여 아래와 같은 정규식을 작성할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-const line = '내 이름은 매튜 크로크입니다. 나는 NY 메츠를 좋아합니다.';
+const line = "내 이름은 매튜 크로크입니다. 나는 NY 메츠를 좋아합니다.";
 const regex = /좋아합니다|메츠/g;
 const found = line.match(regex);
 
-console.log(found)
-
-> ['좋아합니다', '메츠']
+console.log(found) > ["좋아합니다", "메츠"];
 ```
 
 파이프는 논리 OR 표현을 나타냅니다. 하나의 패턴이나 다른 패턴 중 하나를 찾고 싶을 때 사용할 수 있습니다. 만약 love와 Mets 간에 공백을 넣었다면 또는 아예 아무것도 넣지 않았다면, 정규식에서 아무런 결과도 얻을 수 없을 것입니다.
@@ -82,16 +153,25 @@ console.log(found)
 
 이 OR 연산자는 두 개뿐만 아니라 다양한 조건과 함께 사용할 수 있습니다! 한 번 살펴보세요. 매튜, 좋아합니다, 메츠를 찾아 봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-const line = '내 이름은 Matthew Croak이다. 나는 NY Mets를 사랑해.';
+const line = "내 이름은 Matthew Croak이다. 나는 NY Mets를 사랑해.";
 const regex = /love|Mets|Matthew/g;
 const found = line.match(regex);
 
-console.log(found)
-
-> ['Matthew', 'love', 'Mets']
+console.log(found) > ["Matthew", "love", "Mets"];
 ```
 
 패턴을 포함하는 순서가 중요하지 않은 것을 주목하셨나요? 여전히 일치 항목을 찾아 문자열에 나타난 순서대로 기록할 거에요.
@@ -100,7 +180,18 @@ console.log(found)
 
 ## 다중 조건 (특수 문자 사용)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 코드를 Markdown 형식으로 변경하면 아래와 같아요.
 
@@ -113,10 +204,21 @@ const line = "내 이름은 Matthew Croak :). 나는 NY 메츠를 좋아해요 (
 const regex = /<3|:)/g;
 const found = line.match(regex);
 
-console.log(found)
+console.log(found);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 무슨 일이 있었나요? 로그를 찍을 때 이렇게 나왔나요...
 
@@ -126,7 +228,18 @@ Uncaught SyntaxError: Invalid regular expression: /`3|:)/: Unmatched ‘)’
 
 아래 사항을 확인해 보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const regex = /<3|:\)/g;
@@ -140,9 +253,20 @@ const regex = /<3|:\)/g;
 
 여기 있습니다! 여러 개의 정규 표현식을 논리 OR 연산자를 사용하여 하나로 결합하는 방법과 문자열에서 특수하거나 예약된 문자를 찾을 수 있도록 이스케이프하는 방법까지 배웠습니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-다른 방법으로 정규식에서 여러 조건을 사용하는 방법이 있나요? 댓글로 알려주세요! 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+다른 방법으로 정규식에서 여러 조건을 사용하는 방법이 있나요? 댓글로 알려주세요!
 
 나의 정리된 정규식 목록을 확인하려면 더 많은 자료를 보십시오!
 
@@ -150,6 +274,17 @@ const regex = /<3|:\)/g;
 
 또한 이메일로 구독하여 새로운 글이 올라올 때마다 알림을 받을 수도 있습니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 참고문헌

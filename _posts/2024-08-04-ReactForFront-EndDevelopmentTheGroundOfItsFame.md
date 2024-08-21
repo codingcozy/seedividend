@@ -3,16 +3,13 @@ title: "프론트엔드 개발을 위한 React 인기의 비결"
 description: ""
 coverImage: "/assets/img/2024-08-04-ReactForFront-EndDevelopmentTheGroundOfItsFame_0.png"
 date: 2024-08-04 19:30
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-04-ReactForFront-EndDevelopmentTheGroundOfItsFame_0.png
 tag: Tech
 originalTitle: "React For Front-End Development The Ground Of Its Fame"
 link: "https://medium.com/@alexei_celadon/react-for-front-end-development-the-ground-of-its-fame-e49539f8f12e"
 isUpdated: true
 ---
-
-
-
 
 ![React For Front-End Development](/assets/img/2024-08-04-ReactForFront-EndDevelopmentTheGroundOfItsFame_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 React.js는 웹 개발 및 모바일 앱 개발에 적합한 솔루션입니다. 이에 대해 나중에 자세히 설명하겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 블로그에서는 React 프런트엔드 개발이 IT 산업의 미래라는 것을 증명하려고 노력할 것입니다.
 
@@ -38,7 +46,18 @@ React.js 개발은 최근 몇 년간 가장 많이 사용되는 도구들 중 �
 - 유명세의 장점: React에는 전 세계적으로 방대하고 활발한 개발 커뮤니티가 형성되어 있습니다. 이는 지식 공유, 도움, 새로운 도구 증가 및 프레임워크의 지속적인 발전을 보장합니다.
 - 빠르게 습득할 수 있음: React는 간단하고 이해하기 쉬운 구성으로 인해 초보자에게 낮은 진입 장벽을 제공합니다. 대부분의 React 개념은 빠르게 익힐 수 있으며 특히 JS와 HTML에 대한 기본 지식이 있는 경우 더욱 빠르게 습득할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 요소들이 함께하면 React를 사용한 프론트 엔드가 더 빠르고 간편하며 문제없이 작동합니다.
 
@@ -48,7 +67,18 @@ React를 사용하여 프론트 엔드 애플리케이션을 만들려면 다음
 
 ## 단계 1: NODE.JS와 NPM 설치하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Node.js와 npm(노드 패키지 매니저)이 PC에 설치되어 있는지 확인해주세요. 공식 Node 웹사이트에서 다운로드할 수 있습니다. npm은 Node.js와 함께 제공됩니다.
 
@@ -58,7 +88,18 @@ Node.js와 npm(노드 패키지 매니저)이 PC에 설치되어 있는지 확�
 
 '마이-앱'을 프로젝트 이름으로 바꿔주세요. 이 명령어는 '마이-앱' (또는 선택한 이름)이라는 새 디렉토리를 생성하고 해당 사례에 필요한 모든 파일과 종속성을 설정합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 3: 케이스 디렉토리로 이동하기
 
@@ -68,7 +109,18 @@ Node.js와 npm(노드 패키지 매니저)이 PC에 설치되어 있는지 확�
 
 로컬 컴퓨터에서 케이스를 확인하려면 개발 서버를 엽니다: `npm start`
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 명령어는 개발 서버를 설정하고 기본 웹 브라우저에서 케이스를 엽니다. 소스 파일을 편집하면 애플리케이션이 자동으로 다시로드됩니다.
 
@@ -80,7 +132,18 @@ Node.js와 npm(노드 패키지 매니저)이 PC에 설치되어 있는지 확�
 - 'src/': React 컴포넌트를 구성하는 JavaScript 파일이 포함되어 있습니다('index.js', 'App.js' 등).
 - 'package.json': 프로젝트 종속성 및 구성 세부정보가 나열되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 6: 애플리케이션 구축 시작하기
 
@@ -90,9 +153,20 @@ Node.js와 npm(노드 패키지 매니저)이 PC에 설치되어 있는지 확�
 
 - 추가 패키지 설치: ‘axios’(HTTP 요청용)나 ‘react-router-dom’(라우팅용)과 같은 여분의 패키지를 설치하려면 npm이나 yarn을 사용하세요.
 - 애플리케이션 배포: 애플리케이션이 완성되면 Netlify, Vercel, 또는 GitHub Pages와 같은 호스팅 플랫폼에 배포하세요.
-- React로 프론트 엔드 생성 방법 배우기**: 공식 문서와 튜토리얼을 통해 React에 대해 더 깊이 파고들어보세요.
+- React로 프론트 엔드 생성 방법 배우기\*\*: 공식 문서와 튜토리얼을 통해 React에 대해 더 깊이 파고들어보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-08-04-ReactForFront-EndDevelopmentTheGroundOfItsFame_1.png" />
 
@@ -102,7 +176,18 @@ Node.js와 npm(노드 패키지 매니저)이 PC에 설치되어 있는지 확�
 
 남아있을 수 있는 몇 가지 질문에 대한 답변은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 리액트는 프론트 엔드 전용인가요?
 
@@ -112,7 +197,18 @@ Node.js와 npm(노드 패키지 매니저)이 PC에 설치되어 있는지 확�
 
 음, 아니에요. 리액트는 백엔드에는 사용되지 않아요. 리액트는 주로 UI를 구축하기 위해 설계되었어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 프론트 엔드에 React가 최적인 솔루션인가요?
 

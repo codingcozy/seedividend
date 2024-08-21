@@ -3,16 +3,13 @@ title: "꿈의 직장을 잡기 위해 반드시 알아야 할 필수 Python 면
 description: ""
 coverImage: "/assets/no-image.jpg"
 date: 2024-07-09 14:52
-ogImage: 
+ogImage:
   url: /assets/no-image.jpg
 tag: Tech
 originalTitle: "20 Essential Python Interview Questions You Must Know to Land Your Dream Job"
 link: "https://medium.com/top-python-libraries/20-essential-python-interview-questions-you-must-know-to-land-your-dream-job-5e8882253130"
 isUpdated: true
 ---
-
-
-
 
 ## 파이썬 면접 질문
 
@@ -21,7 +18,18 @@ isUpdated: true
 - 다양한 데이터 유형 및 그들 사이의 차이점
 - 프로세스, 스레드 및 코루틴의 정의 및 차이점
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 • 얕은 복사와 깊은 복사의 차이점
 
@@ -31,7 +39,18 @@ isUpdated: true
 
 • 클로저와 데코레이터
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 • Garbage collection mechanisms
 

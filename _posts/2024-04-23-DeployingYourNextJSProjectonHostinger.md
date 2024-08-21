@@ -3,17 +3,13 @@ title: "Hostinger에 NextJS 프로젝트 배포하기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Deploying Your NextJS Project on Hostinger"
 link: "https://medium.com/@oandersonbm/deploying-your-nextjs-project-on-hostinger-dffdb6a05ffc"
 isUpdated: true
 ---
-
-
-
-
 
 가끔은 프런트엔드 애플리케이션이나 마케팅 페이지와 같은 개념 증명(POC)을 소비하지 않고 배포해야 할 때가 있을 수 있습니다. 이런 경우 개인 호스트를 사용하는 것이 실용적인 해결책이 될 수 있습니다. 이 기사에서는 프런트엔드를 Hostinger 하위 도메인이나 하위 페이지로 자동으로 배포하는 방법에 대해 알아보겠습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 요구 사항
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Hostinger 호스팅 서비스
 - Git
@@ -37,7 +44,18 @@ isUpdated: true
 npx create-next-app@latest
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것이 우리의 기본 애플리케이션입니다:
 
@@ -47,7 +65,18 @@ npx create-next-app@latest
 
 정적 파일을 폴더로 출력하려면 "next.config.mjs"를 수정하여 output, basePath 및 assetPrefix를 추가하십시오:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /** @type {import('next').NextConfig} */
@@ -66,7 +95,18 @@ export default nextConfig;
 
 next/image로 관리되는 이미지의 경우, 필요에 따라 이미지 경로를 업데이트하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/DeployingYourNextJSProjectonHostinger_3.png" />
 
@@ -76,7 +116,18 @@ Hostinger 계정에서 서브도메인이나 특정 폴더를 생성합니다.
 
 <img src="/assets/img/DeployingYourNextJSProjectonHostinger_4.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새 FTP 계정을 설정하여 해당 디렉토리에 제한을 두어 최소 권한 원칙 (POLP)을 준수하는 것을 고려해보세요.
 
@@ -86,7 +137,18 @@ Hostinger 계정에서 서브도메인이나 특정 폴더를 생성합니다.
 
 다른 배포 솔루션도 사용 가능하지만, 이 튜토리얼은 Gitlab을 사용하는 데 초점을 맞춥니다. 먼저, 프로젝트가 Gitlab에 있는지 확인하고 CI/CD 설정에 Hostinger FTP 클라이언트 비밀을 추가하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 https://gitlab.com/[GROUP_OR_NAMESPACE]/[PROJECT]/-/settings/ci_cd
 
@@ -100,7 +162,18 @@ https://gitlab.com/[GROUP_OR_NAMESPACE]/[PROJECT]/-/settings/ci_cd
 
 'prd'로 환경을 정의하세요. 필요에 따라 다양한 환경 변수를 생성할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 image: node:21.4.0-alpine
@@ -130,7 +203,18 @@ upload:
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 올바르게 설정하면, 주 브랜치의 갱신마다 새 작업이 실행되어 각 작업 로그에서 진행 상황이 표시됩니다.
 
@@ -140,7 +224,18 @@ upload:
 
 ![이미지 9](/assets/img/DeployingYourNextJSProjectonHostinger_9.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 정보가 유용하다면 좋겠어요. 읽어 주셔서 감사합니다. :D
 
@@ -152,7 +247,18 @@ LinkedIn: [앤더슨 마갈레스 링크드인](https://www.linkedin.com/in/ande
 - 여러 환경 생성하기 (예: 개발, 테스트, 프로덕션)
 - 대체 CI/CD 접근 방법으로 GitHub Actions 사용하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 혜택
 

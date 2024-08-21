@@ -3,16 +3,13 @@ title: "React-Native로 투두 앱 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-05-01-BuildingaTodoListAppwithReact-NativeAStep-by-StepGuide_0.png"
 date: 2024-05-01 18:04
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-01-BuildingaTodoListAppwithReact-NativeAStep-by-StepGuide_0.png
 tag: Tech
 originalTitle: "Building a Todo List App with React-Native: A Step-by-Step Guide"
 link: "https://medium.com/@worachote/building-a-todo-list-app-with-react-native-a-step-by-step-guide-7ed7871d3f98"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-05-01-BuildingaTodoListAppwithReact-NativeAStep-by-StepGuide_0.png" />
 
@@ -22,7 +19,18 @@ React-Native는 페이스북에서 개발한 강력한 프레임워크로, React
 
 # 준비물
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 할 일 목록 앱을 만들기 전에 다음 사전 준비 사항이 갖춰져 있는지 확인해주세요:
 
@@ -36,7 +44,18 @@ React-Native는 페이스북에서 개발한 강력한 프레임워크로, React
 
 첫 번째 작업은 Expo를 사용하여 React-Native 프로젝트를 설정하는 것입니다. 터미널을 열고 다음 명령을 실행해주세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1) React-Native 앱 만들기
 
@@ -50,7 +69,18 @@ expo init todo-app
 cd todo-app
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 3) 개발 서버 시작하기
 
@@ -62,19 +92,28 @@ expo start
 
 # 단계 2: 앱 컴포넌트 생성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 우리의 할 일 목록 애플리케이션의 진입점인 App 컴포넌트를 만들어 봅시다.
 
 ```js
 // App.js
-import React from 'react';
-import TodoList from './components/TodoList';
+import React from "react";
+import TodoList from "./components/TodoList";
 
 export default function App() {
-  return (
-    <TodoList />
-  );
+  return <TodoList />;
 }
 ```
 
@@ -82,7 +121,18 @@ export default function App() {
 
 이 단계에서는 작업 목록을 관리하고 작업 관련 기능을 처리할 TodoList 컴포넌트를 만들 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // components/TodoList.js
@@ -143,25 +193,31 @@ export default function TodoList() {
 - 작업 완료 토글 함수: toggleCompleted 함수는 주어진 ID를 가진 작업의 완료 상태를 토글합니다. map 메서드를 사용하여 대상 작업의 완료 상태가 뒤바뀐 새로운 작업 배열을 생성합니다.
 - TodoList 컴포넌트 렌더링: TodoList 컴포넌트는 map 메서드를 사용하여 작업 목록을 렌더링하며, 각 작업을 TodoItem 컴포넌트에 전달합니다. 또한 새 작업을 입력하는 TextInput과 addTask 함수를 트리거하는 Button을 포함합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 TodoList에서 개별 작업을 나타내는 TodoItem 컴포넌트를 생성할 차례입니다.
 
 ```js
 // components/TodoItem.js
-import React from 'react';
-import { View, Text, CheckBox, Button } from 'react-native';
+import React from "react";
+import { View, Text, CheckBox, Button } from "react-native";
 
 export default function TodoItem({ task, deleteTask, toggleCompleted }) {
   return (
     <View>
-      <CheckBox
-        value={task.completed}
-        onValueChange={() => toggleCompleted(task.id)}
-      />
-      <Text style={{ textDecorationLine: task.completed ? 'line-through' : 'none' }}>
-        {task.text}
-      </Text>
+      <CheckBox value={task.completed} onValueChange={() => toggleCompleted(task.id)} />
+      <Text style={{ textDecorationLine: task.completed ? "line-through" : "none" }}>{task.text}</Text>
       <Button title="X" onPress={() => deleteTask(task.id)} />
     </View>
   );
@@ -174,7 +230,18 @@ export default function TodoItem({ task, deleteTask, toggleCompleted }) {
 - 스타일이 적용된 Text: Text 컴포넌트는 작업 텍스트를 표시합니다. 작업이 완료되었을 경우 라인 스타일을 줄 긋게 만드는 스타일이 적용됩니다.
 - 삭제 버튼: Button 컴포넌트는 "X" 레이블이 있는 삭제 버튼을 제공합니다. 버튼을 누르면 deleteTask 함수가 호출됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 5: 스타일링
 
@@ -212,29 +279,32 @@ export default function TodoItem({ task, deleteTask, toggleCompleted }) {
 
 이제, TodoItem.js 파일에서 styles.css를 import하여 로컬에서 스타일을 적용해보겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // components/TodoItem.js
-import React from 'react';
-import { View, Text, CheckBox, TouchableOpacity } from 'react-native';
-import styles from './styles'; // 스타일 가져오기
+import React from "react";
+import { View, Text, CheckBox, TouchableOpacity } from "react-native";
+import styles from "./styles"; // 스타일 가져오기
 
 export default function TodoItem({ task, deleteTask, toggleCompleted }) {
   return (
-    <View style={styles.todo-item}>
-      <CheckBox
-        value={task.completed}
-        onValueChange={() => toggleCompleted(task.id)}
-      />
-      <Text style={[styles.todo-item-text, task.completed && styles.completed]}>
-        {task.text}
-      </Text>
-      <TouchableOpacity
-        style={styles.delete-button}
-        onPress={() => deleteTask(task.id)}
-      >
-        <Text style={{ color: '#fff' }}>삭제</Text>
+    <View style={styles.todo - item}>
+      <CheckBox value={task.completed} onValueChange={() => toggleCompleted(task.id)} />
+      <Text style={[styles.todo - item - text, task.completed && styles.completed]}>{task.text}</Text>
+      <TouchableOpacity style={styles.delete - button} onPress={() => deleteTask(task.id)}>
+        <Text style={{ color: "#fff" }}>삭제</Text>
       </TouchableOpacity>
     </View>
   );
@@ -250,7 +320,18 @@ export default function TodoItem({ task, deleteTask, toggleCompleted }) {
 
 여기까지 완료되었습니다! React-Native를 사용하여 직접 Todo List 앱을 만들었다니 축하드립니다. 이 안내서를 통해 React-Native 컴포넌트, 상태 관리, 훅, 프롭스, 이벤트 처리를 이해하고 스타일링을 향상시켰습니다. 이제 당신이 이룬 것을 되돌아보고 다음 단계를 생각해봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 마지막으로
 

@@ -3,17 +3,13 @@ title: "CSS 선택자 간단한 예제와 사용 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Demystifying CSS Selectors A Beginners Guide with Straightforward Examples"
 link: "https://medium.com/@iamalexcarter/demystifying-css-selectors-a-beginners-guide-with-straightforward-examples-eaf541077fb9"
 isUpdated: true
 ---
-
-
-
-
 
 웹 애플리케이션에 스타일을 만들 때 CSS 선택자를 이해하는 것은 정교하고 효율적인 스타일링을 위해 매우 중요합니다. 아래에는 전문 개발자를 위한 다양한 CSS 선택자에 관한 심층 안내서가 있습니다. 이것은 그들의 웹 디자인 전략을 향상시키고자 하는 전문 개발자를 위한 것입니다.
 
@@ -23,13 +19,35 @@ isUpdated: true
 
 # 타입 선택자
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 | Header 1 | Header 2 |
 | -------- | -------- |
 | Data 1   | Data 2   |
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 클래스 선택자는 특정 HTML 태그에 묶이지 않고 공통 특성을 공유하는 요소들을 스타일링하는 다재다능한 도구입니다.
 
@@ -45,7 +63,18 @@ isUpdated: true
 
 # ID 선택자
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ID 선택자는 단일 요소를 스타일링하는 데 사용되는 고유 식별자입니다. 클래스와 유형보다 우선 순위가 높아 강력하지만 융통성이 떨어집니다. 메인 네비게이션 바나 페이지 푸터와 같이 고유한 요소에 가장 적합합니다.
 
@@ -61,7 +90,18 @@ ID 선택자는 단일 요소를 스타일링하는 데 사용되는 고유 식�
 
 속성 선택자는 요소의 속성의 존재나 값에 따라 스타일 옵션을 제공하여 높은 수준의 제어와 명확성을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /* 'text' 타입의 모든 input 요소를 대상으로 함 */
@@ -77,7 +117,18 @@ input[type="text"] {
 
 후손 선택자는 특정 부모 요소 안에 중첩된 요소를 대상으로 하여 디자이너가 계층적인 스타일을 만들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 /* 기사 내 단락 스타일링 */
@@ -93,7 +144,18 @@ article p {
 
 자식 선택자는 지정된 요소의 직계 자식에 집중하며, 깊은 중첩된 요소에 영향을주지 않고 직계 자손에 스타일을 적용하는 데 유용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /* 목록 요소의 직접 자식들을 대상으로 함 */
@@ -109,7 +171,18 @@ ul > li {
 
 이 선택자는 다른 특정 요소 바로 뒤에 위치한 요소를 대상으로 하며, 중첩되지 않은 관련된 요소를 디자인하는 데 도움을 줌.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /* H1 다음의 문단에는 특별한 스타일이 적용됩니다 */
@@ -125,7 +198,18 @@ h1 + p {
 
 :hover나 :focus와 같은 가상 클래스는 사용자 상호작용에 대응하여 스타일을 적용함으로써 UI의 동적인 측면을 향상시킵니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /* 링크 컬러가 호버시 변경됩니다 */
@@ -140,7 +224,18 @@ a:hover {
 
 이 CSS 선택자에 대한 상세한 논해는 웹 디자인 기술을 갖추고, 확장 가능하며 유지보수 가능한 스타일시트를 만들고자 하는 개발자를 위해 작성되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각 셀렉터는 정확히 대상을 지정하고 스타일을 적용하는 데 도움이 되는 것뿐만 아니라 웹 인터페이스의 의미론적 구조와 상호 작용 능력을 향상시킵니다.
 

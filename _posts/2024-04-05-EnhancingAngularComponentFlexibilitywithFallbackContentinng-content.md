@@ -3,17 +3,13 @@ title: "Angular 컴포넌트 유연성 향상하기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Enhancing Angular Component Flexibility with Fallback Content in ng-content"
 link: "https://netbasal.medium.com/enhancing-angular-component-flexibility-with-fallback-content-in-ng-content-50637eea7dd5"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/EnhancingAngularComponentFlexibilitywithFallbackContentinng-content_0.png" />
 
@@ -33,7 +29,18 @@ export class MyComponent {}
 
 위 예제에서는 헤더, 본문 콘텐츠 및 푸터를 위한 여러 ng-content 슬롯을 정의하는 MyComponent 컴포넌트를 정의하고 있습니다. 각 ng-content 태그 내에 기본 콘텐츠를 제공함으로써 이러한 슬롯에 콘텐츠가 투영되지 않은 경우 지정된 기본 콘텐츠가 표시됨을 보장합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다른 컴포넌트에서 이 컴포넌트의 사용법을 고려해 보겠습니다:
 
@@ -53,7 +60,18 @@ class AppComponent {}
 
 Angular의 콘텐츠 프로젝션은 생성 시간에 발생한다는 점을 중요하게 인지해야 합니다. 이는 조건부 렌더링을 통해 슬롯의 내용을 동적으로 변경해도 기본 콘텐츠가 표시되지 않는다는 것을 의미합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 @Component({

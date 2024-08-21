@@ -3,15 +3,13 @@ title: "SpaceX 이중 부스터 착륙 비디오 분석과 Python 모델 구축 
 description: ""
 coverImage: "/assets/img/2024-07-09-VideoAnalysisandPythonModeloftheSpaceXDoubleBoosterLanding_0.png"
 date: 2024-07-09 19:02
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-VideoAnalysisandPythonModeloftheSpaceXDoubleBoosterLanding_0.png
 tag: Tech
 originalTitle: "Video Analysis and Python Model of the SpaceX Double Booster Landing"
 link: "https://medium.com/@rjallain/video-analysis-and-pytof-the-spacex-double-booster-landing-d3e195cf0625"
 isUpdated: true
 ---
-
-
 
 비디오에서도 놀랍게 멋진 광경이에요. 두 개의 로켓이 빠르게 다가오지만 각자의 플랫폼에 옆으로 착륙하는 걸 볼 수 있어요. 이게 바로 SpaceX 파이콘 헤비 부스터의 작동 방식이에요. 이 비디오를 보세요.
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 # 비디오 크기 조정 및 프레임 수정
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 첫 번째 단계는 비디오의 크기를 조정하는 것입니다. 이 경우에는 부스터 자체의 길이를 사용할 수 있습니다. 이 SpaceX 페이지에는 Falcon Heavy의 길이가 70m로 나와 있습니다. 이를 통해 부스터의 길이를 측정할 수 있습니다.
 
@@ -33,7 +42,18 @@ isUpdated: true
 
 ![이미지](https://miro.medium.com/v2/resize:fit:960/1*x5UudQB-ajAgQDgS8pfj5g.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 단계를 준비했습니다.
 
@@ -43,7 +63,18 @@ isUpdated: true
 
 ![image](/assets/img/2024-07-09-VideoAnalysisandPythonModeloftheSpaceXDoubleBoosterLanding_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터는 어느 정도 패러볼릭한 모습입니다. 그래서 이 데이터에 맞는 패러본을 적합할 수 있어요(Tracker curve fit을 사용해서). 운동방정식도 1/2 times 가속도가 t² 용어 앞에 오는 패러본 형태이기 때문에, 이를 사용해서 가속도를 결정할 수 있어요. 적합 매개변수를 통해 가속도가 6.38 m/s² 인 것으로 나왔는데, 꽤 합리적으로 보입니다.
 
@@ -53,7 +84,18 @@ isUpdated: true
 
 첫 번째 단계는 각 로켓의 상단과 하단의 위치-시간 데이터를 어떻게든 Web VPython으로 가져오는 것이에요. 안타깝게도 이 작업을 수행하는 훌륭한 방법은 없어요. 대신 Tracker에서 데이터 값을 복사한 다음 그대로 Web VPython에 붙여넣기할 거예요. 마치 90년대 후반의 코딩 야만인인 것처럼요. 얼마나 마법처럼 보이는 일인지, 여기 좀 꿀팁을 하나 주죠. 값을 텍스트 편집기에 붙여넣으면 엔터 키를 제거하고 쉼표로 대체해서 파이썬에 더 적합하게 맞출 수 있어요. 아래가 어떻게 보이는지 확인해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-07-09-VideoAnalysisandPythonModeloftheSpaceXDoubleBoosterLanding_2.png)
 
@@ -63,7 +105,18 @@ isUpdated: true
 
 이제 3D 마술을 해보죠. 웹 VPython에는 여러 다양한 객체들이 포함되어 있어요 — 이 경우, 우리는 실린더를 사용하여 블로스터들을 만들 거예요. 다음 코드로 실린더를 만들 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image of Video Analysis](/assets/img/2024-07-09-VideoAnalysisandPythonModeloftheSpaceXDoubleBoosterLanding_3.png)
 
@@ -73,7 +126,18 @@ isUpdated: true
 
 적은 문제가 있어요. 실린더의 맨 위와 맨 아래에 대한 벡터 위치가 있는게 맞아요. 이러한 벡터 값들을 사용하여 축 벡터를 찾을 수 있겠죠. 그러나 이러한 벡터 위치는 약간 변경될 수 있어 로켓 부스터의 길이가 약간 변할 수 있어요. 그래서 대신에 이러한 맨 위와 맨 아래 위치를 사용하여 축 벡터의 방향을 찾고, 그 후에 상수 길이를 곱해서 사용할 거예요. 아, 코드를 보여드릴게요. 그게 더 쉬울 거에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 이 코드에 대한 주석입니다:
 
@@ -84,7 +148,18 @@ isUpdated: true
 
 # 부스터 동작 애니메이션화하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 부스터용 3D 모델을 만들었습니다. 이제 그들을 움직이도록 해야 합니다. 이 경우에는 데이터 목록의 각 값을 통해 시간 단계마다 실린더를 새 위치로 이동시키는 것만 할 거에요.
 
@@ -94,7 +169,18 @@ isUpdated: true
 
 자세한 내용은 아래와 같아요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 시간 값 목록(t)이 있음을 기억해주세요. 26번째 줄은 이 목록의 길이를 따라가며 변수 i를 사용하여 계산합니다. 다른 목록의 인덱스로 사용할 수 있도록 유용합니다.
 - 아, 파이썬의 루프에는 :가 필요하며, 그 아래에 탭으로 들여쓴 모든 내용이 루프의 일부입니다.
@@ -109,7 +195,18 @@ isUpdated: true
 
 전체 코드가 필요하시다면, 여기에서 확인하실 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 숙제
 

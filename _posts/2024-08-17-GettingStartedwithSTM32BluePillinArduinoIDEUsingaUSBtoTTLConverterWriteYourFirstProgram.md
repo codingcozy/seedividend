@@ -3,7 +3,7 @@ title: "USB to TTL 컨버터와 Arduino IDE를 사용하여 STM32 Blue Pill 만�
 description: ""
 coverImage: "/assets/img/2024-08-17-GettingStartedwithSTM32BluePillinArduinoIDEUsingaUSBtoTTLConverterWriteYourFirstProgram_0.png"
 date: 2024-08-17 01:16
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-17-GettingStartedwithSTM32BluePillinArduinoIDEUsingaUSBtoTTLConverterWriteYourFirstProgram_0.png
 tag: Tech
 originalTitle: "Getting Started with STM32 Blue Pill in Arduino IDE Using a USB to TTL Converter  Write Your First Program"
@@ -11,7 +11,6 @@ link: "https://medium.com/@shilleh/getting-started-with-stm32-blue-pill-in-ardui
 isUpdated: true
 updatedAt: 1723864208146
 ---
-
 
 ![STM32 Blue Pill Tutorial](/assets/img/2024-08-17-GettingStartedwithSTM32BluePillinArduinoIDEUsingaUSBtoTTLConverterWriteYourFirstProgram_0.png)
 
@@ -21,7 +20,18 @@ updatedAt: 1723864208146
 
 STM32 Blue Pill은 유사한 마이크로컨트롤러와 비교해 분수의 비용으로 인상적인 기능 세트를 제공합니다. 72 MHz 클럭 속도, 20 KB의 RAM, 64 KB의 플래시 메모리로, 8비트 마이크로컨트롤러보다 우수한 성능을 보여줍니다. 실시간 데이터 처리, 모터 제어, 고급 센서 통합과 같이 더딘보다 요구되는 응용에 적합합니다. SPI, I2C, USART, ADC를 포함한 다양한 주변장치는 다양한 컴포넌트, 센서 및 모듈과의 원활한 인터페이스를 가능하게 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또한 STM32 Blue Pill은 아두이노 IDE를 포함한 다양한 개발 환경을 통해 오픈 소스 커뮤니티에 의해 잘 지원되고 있습니다. 이는 아두이노에 익숙하지만 좀 더 고급 하드웨어로 넘어가고 싶은 사람들에게도 접근성을 제공합니다.
 
@@ -31,17 +41,39 @@ STM32 Blue Pill은 유사한 마이크로컨트롤러와 비교해 분수의 비
 
 <img src="/assets/img/2024-08-17-GettingStartedwithSTM32BluePillinArduinoIDEUsingaUSBtoTTLConverterWriteYourFirstProgram_1.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 事전 솔더링 보드로 시작하기
 
 소더링의 번거로움 없이 바로 개발에 몰입하고 싶은 분들을 위해, 쉴레텍(Shillehtek)에서 사전 솔더링된 STM32 Blue Pill 보드를 구매할 수 있습니다. 이 보드는 사용 준비가 되어 있어 프로젝트 구축에 집중할 수 있습니다.
 
---- 
+---
 
 이 주제를 자세히 탐구하기 전에, 당사의 지속적인 노력을 지원하고 IoT 프로젝트를 향상하는 데 전념한 다양한 플랫폼을 탐험하실 것을 초대합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - YouTube 채널 구독하기: 새로운 자습서와 프로젝트 통찰을 놓치지 마세요. YouTube의 Shilleh 채널을 구독하세요.
 - 저희를 지원해주세요: 여러분의 지원은 소중합니다. Buy Me A Coffee에서 커피 한 잔 사주시면 품질 높은 콘텐츠 제작을 계속할 수 있습니다.
@@ -53,7 +85,18 @@ https://shillehtek.com/collections/all
 
 ShillehTek 아마존 스토어:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ShillehTek 아마존 스토어 - 미국
 
@@ -63,7 +106,18 @@ ShillehTek 아마존 스토어 - 일본
 
 ## 단계 1: STM32 Blue Pill을 USB to TTL 컨버터에 연결하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저 STM32 블루필을 컴퓨터에 연결해야 합니다. 이 때 DSD TECH SH-U09C5 USB에서 TTL로 변환기를 사용하면 됩니다. 이 변환기를 통해 컴퓨터가 STM32 블루필과 UART 인터페이스를 통신할 수 있게 됩니다.
 
@@ -76,7 +130,18 @@ ShillehTek 아마존 스토어 - 일본
 - GND (SH-U09C5) - GND (블루필)
 - VCC (SH-U09C5) - 3.3V (블루필)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## BOOT0 점퍼 설정하기:
 
@@ -86,7 +151,18 @@ ShillehTek 아마존 스토어 - 일본
 
 TTL 컨버터를 전원에 연결했는지 확인하세요. 컴퓨터에 USB 포트가 있다면 간단히 컴퓨터에 연결하면 됩니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 2: 아두이노 IDE에 STM32 지원 설치하기
 
@@ -97,7 +173,18 @@ TTL 컨버터를 전원에 연결했는지 확인하세요. 컴퓨터에 USB 포
 - 아두이노 IDE를 엽니다.
 - 파일 ` 환경설정`으로 이동합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 2: STM32 보드 관리자 URL 추가
 
@@ -107,8 +194,18 @@ https://github.com/stm32duino/BoardManagerFiles/raw/main/package_stmicroelectron
 
 확인을 클릭하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Step 3: Install STM32 Boards](/assets/img/2024-08-17-GettingStartedwithSTM32BluePillinArduinoIDEUsingaUSBtoTTLConverterWriteYourFirstProgram_4.png)
 
@@ -119,8 +216,18 @@ https://github.com/stm32duino/BoardManagerFiles/raw/main/package_stmicroelectron
 
 ![Step 3: Install STM32 Boards](/assets/img/2024-08-17-GettingStartedwithSTM32BluePillinArduinoIDEUsingaUSBtoTTLConverterWriteYourFirstProgram_5.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 3: 아두이노 IDE에서 STM32 Blue Pill 보드 선택하기
 
@@ -130,7 +237,18 @@ STM32 지원을 설치한 후에는 Arduino IDE를 구성하여 STM32 Blue Pill�
 
 - 도구로 이동하여 `보드`의 STM32 보드를 선택하고 일반적인 STM32F1 시리즈를 선택합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 2: 보드 설정 구성하기
 
@@ -142,8 +260,18 @@ STM32 지원을 설치한 후에는 Arduino IDE를 구성하여 STM32 Blue Pill�
 
 STM32CubeProgrammer은 STM32 Blue Pill에 코드를 시리얼 인터페이스를 통해 업로드하는 데 필요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 1: STM32CubeProgrammer 다운로드 및 설치
 
@@ -155,7 +283,18 @@ STM32CubeProgrammer은 STM32 Blue Pill에 코드를 시리얼 인터페이스를
 
 터미널을 열고 STM32CubeProgrammer 경로를 STM32_PRG_PATH 환경 변수에 추가하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 macOS 사용자라면, ~/.zshrc 또는 ~/.bash_profile 파일에 다음 줄을 추가해 주세요:
 
@@ -169,7 +308,18 @@ export STM32_PRG_PATH=/Applications/STMicroelectronics/STM32Cube/STM32CubeProgra
 source ~/.zshrc
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또는
 
@@ -182,7 +332,18 @@ source ~/.zshrc
 - 시스템 속성 창에서 “환경 변수” 버튼을 클릭합니다.
 - “시스템 변수”(또는 원하는 경우 “사용자 변수”) 아래에서 “새로 만들기”를 클릭합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 변수 이름: STM32_PRG_PATH
 - 변수 값: STM32CubeProgrammer의 bin 디렉토리 경로, 예를 들어:
@@ -194,7 +355,18 @@ source ~/.zshrc
 
 # 단계 5: 첫 번째 프로그램 업로드
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 모든 것이 설정되었으니 STM32 Blue Pill에 첫 번째 프로그램을 업로드할 준비가 되었습니다.
 
@@ -222,7 +394,18 @@ void loop() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 2: 블루필 초기화하기
 
@@ -233,7 +416,18 @@ void loop() {
 - Arduino IDE에서 업로드 버튼을 클릭합니다.
 - 업로드가 완료되면 보드의 내장 LED가 일정한 간격으로 깜박입니다. 다른 스크립트를 업로드하려면 리셋 버튼을 누르고 스크립트를 수정한 다음 다시 업로드할 수 있습니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 문제 해결
 
@@ -247,6 +441,17 @@ void loop() {
 
 축하합니다! Arduino IDE와 DSD TECH SH-U09C5 USB to TTL 컨버터를 사용하여 STM32 Blue Pill을 성공적으로 설정하고 프로그래밍했습니다. 이 강력한 마이크로컨트롤러는 저렴한 가격에 32비트 ARM Cortex-M3 프로세서의 성능을 제공하여 여러분의 프로젝트에 무한한 가능성을 열어줍니다. 초보자이든 경험이 풍부한 개발자이든, STM32 Blue Pill은 여러분의 아이디어를 현실로 구현하는 데 도움이 되는 다재다능한 도구입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 튜토리얼이 도움이 되었다면, 제 YouTube 채널에서 더 많은 콘텐츠를 확인해보세요. 거기에서는 주기적으로 개발 보드와 마이크로컨트롤러를 최대한 활용할 수 있도록 도와주는 꿀팁, 튜토리얼, 프로젝트 아이디어를 공유하고 있어요. 최신 동영상을 받아보려면 MM Shilleh의 YouTube에서 구독하세요. 프로젝트 진행에 행운을 빕니다!

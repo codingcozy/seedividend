@@ -3,17 +3,13 @@ title: "플러터로 날씨앱 만들기상태관리 Bloc"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Flutter Weather app with Clean Architecture and Bloc State Management"
 link: "https://medium.com/@khalidmeftu/flutter-weather-app-with-clean-architecture-and-bloc-state-management-6a6af439b7df"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/FlutterWeatherappwithCleanArchitectureandBlocStateManagement_0.png" />
 
@@ -25,7 +21,18 @@ isUpdated: true
 - 도시 이미지 가져오고 저장하기.
 - 주간 예보 정보 가져오기.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 날씨 API 앱 개발에서는 OpenWeather API를 사용했어요. 충분하지만 제한이 있지만 테스트에는 문제가 없어요. 두 번째 문제는 어려웠지만 정보를 찾아보니 unsplash가 도시 이미지를 제공하고, 이를 통해 도시 이미지를 얻어 로컬 데이터베이스에 URL을 저장할 수 있답니다. 주간 예보를 위해 인구를 위한 가짜 데이터를 만들었어요. 시작하기 전에 Bloc 상태 관리, 의존성 주입, 그리고 깔끔한 아키텍처에 대한 일부 힌트를 고려할 수 있어요. 프로젝트 링크는 아래에 첨부되어 있으며, 프로젝트를 좋아하시면 재밌게 보았다면 박수를 치고 제 팔로우 부탁드려요.
 
@@ -63,7 +70,18 @@ dependencies:
 
 이 디자인에서는 홈 페이지와 저장된 도시 목록 두 개의 화면이 있어요. 홈 페이지에서 저장된 목록에서 왔는지 확인해야 해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 날씨 앱 서비스 클래스에 API 키를 추가하세요.
 
@@ -91,7 +109,18 @@ class WeatherAppHomePage extends StatefulWidget {
 
 이제 사용자는 위치 허가를 활성화하라는 요청을 받을 것입니다. 앱을 나가고 다시 돌아와야 합니다. 허가가 허용되면 어떻게 위치에 액세스되고 사용자 도시를 가져올지 묻게 됩니다. Widgets Binding을 사용할 것이며 여기서 구현이 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 class _WeatherAppHomePageState extends State<WeatherAppHomePage>
@@ -127,7 +156,18 @@ class _WeatherAppHomePageState extends State<WeatherAppHomePage>
 
 그래서 사용자가 홈 페이지에 접속할 때 위치 서비스가 비활성화되어 있으면 위치 서비스를 활성화하도록 유도됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/FlutterWeatherappwithCleanArchitectureandBlocStateManagement_1.png" />
 
@@ -303,7 +343,18 @@ class _WeatherAppHomePageState extends State<WeatherAppHomePage>
   }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다른 도전 과제는 사용자가 위치 권한을 부여하기 위해 이동한 후에 권한 다이얼로그를 제거하는 것입니다. 이것이 중요한 부분이에요. 여기서 나는 "키"의 개념을 사용하여 성공적으로 제거했어요. 다이얼로그를 제거하지 않으면 계속해서 팝업될 겁니다.
 
@@ -346,7 +397,18 @@ class _WeatherAppHomePageState extends State<WeatherAppHomePage>
     forecastBloc.add(GetDailyForCast());
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 내 모의 JSON 데이터입니다.
 
@@ -453,7 +515,18 @@ class _WeatherAppHomePageState extends State<WeatherAppHomePage>
 
 날씨 아이콘은 어떻게 표시했나요? API는 아이콘을 표시하는 데 지원을 제공하지만 우리에게 다른 URL을 사용하여 보여줍니다. 따라서 유틸 클래스에서 간단하게 아이콘을 반환하기 위해 다음과 같이 사용했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아이콘 데이터를 가져오는 함수를 만들어볼게요. 날씨 코드에 따라 다른 아이콘을 반환합니다.
 
@@ -519,7 +592,18 @@ class CitiesList extends StatelessWidget {
                   }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 홈 위젯을 읽으셨나요? 읽으셨다면, 어떻게 구현하는지 이곳에서 확인해보세요. 그러나 이 부분은 조금 고급 기능으로, 실시간 인터넷에서 날씨 아이콘을 불러오는 것을 지원합니다. 이것은 플러터에서 처음으로 구현된 기능이에요.
 
@@ -551,4 +635,15 @@ listener: (context, listenerState) {
 
 ![이미지](/assets/img/FlutterWeatherappwithCleanArchitectureandBlocStateManagement_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

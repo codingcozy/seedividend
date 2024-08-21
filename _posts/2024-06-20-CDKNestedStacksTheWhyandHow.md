@@ -3,17 +3,13 @@ title: "CDK 중첩 스택 - 왜와 어떻게"
 description: ""
 coverImage: "/assets/img/2024-06-20-CDKNestedStacksTheWhyandHow_0.png"
 date: 2024-06-20 02:39
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-CDKNestedStacksTheWhyandHow_0.png
 tag: Tech
 originalTitle: "CDK Nested Stacks — The “Why” and “How”"
 link: "https://medium.com/@leejamesgilmore/cdk-nested-stacks-the-why-and-how-3f836528045d"
 isUpdated: true
 ---
-
-
-
-
 
 ![CDK Nested Stacks](/assets/img/2024-06-20-CDKNestedStacksTheWhyandHow_0.png)
 
@@ -24,8 +20,18 @@ isUpdated: true
 
 # 소개 👋🏽
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 빠른 기사에서는 AWS CDK 중첩 스택에 대해 이야기하고, 언제 우리 서비스에 사용해야 하는지, 그리고 이를 어떻게 구현할 수 있는지에 대해 살펴볼 것입니다. 예제 코드 베이스를 통해 걸어 보기 위해 'Gilmore Cuisine'라는 가상 회사를 다룰 것입니다:
 
@@ -35,7 +41,18 @@ isUpdated: true
 
 더 자세한 기사와 예제는 Serverless Advocate 패턴 및 솔루션 레지스트리를 자유롭게 이용해 주세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-20-CDKNestedStacksTheWhyandHow_2.png" />
 
@@ -45,7 +62,18 @@ isUpdated: true
 
 이것은 우리가 아마도 내부적으로 많은 리소스를 포함하는 우리만의 L3 구성을 사용했기 때문에 발생할 수 있습니다. 예를 들어 알람, 점진적 배포, 대시보드 등을 포함하는 람다 구성이 있는 경우이며, 우리는 이 구성을 스택에서 여러 번 사용하여 제한을 초과하게 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AWS CDK의 NestedStack 구조는 부모 스택 내에서 하나의 자원으로 계산하여 스택 당 AWS CloudFormation 500개 자원 제한을 우회할 수 있게 해줍니다. 이는 중첩 스택이 다른 중첩 스택을 포함하여 최대 500개의 자원을 가질 수 있다는 것을 의미합니다. 중첩 스택은 구조화된 스택의 계층을 가질 수 있습니다:
 
@@ -55,7 +83,18 @@ AWS CDK의 NestedStack 구조는 부모 스택 내에서 하나의 자원으로 
 
 합성 과정에서 중첩 스택은 자체 AWS CloudFormation 템플릿으로 변환되어 AWS CDK 스테이징 버킷에 업로드됩니다. 중첩 스택은 부모 스택에 바인딩되어 독립적인 배포 자산으로 처리되지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 부모 스택과 중첩 스택 간의 리소스 속성의 상호 참조는 AWS CDK를 사용할 때 자동으로 스택 매개변수와 출력으로 변환됩니다.
 
@@ -65,7 +104,18 @@ AWS CDK의 NestedStack 구조는 부모 스택 내에서 하나의 자원으로 
 
 ![CDK Nested Stacks](/assets/img/2024-06-20-CDKNestedStacksTheWhyandHow_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 코드를 통해 이야기하기👨‍💻
 
@@ -75,7 +125,18 @@ AWS CDK의 NestedStack 구조는 부모 스택 내에서 하나의 자원으로 
 
 ![Folder Structure](/assets/img/2024-06-20-CDKNestedStacksTheWhyandHow_5.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 이제는 'stateful' 및 'stateless'의 상위 스택 아래 하나 이상의 중첩된 스택을 가지고 있음을 쉽게 확인할 수 있습니다. 그리고 그 스택이 개념적 수준에서 무엇을 포함하는지 볼 수 있습니다(API 리소스, 데이터베이스 리소스, 이벤트 버스 리소스 및 컴퓨팅 리소스).
 
@@ -85,7 +146,18 @@ AWS CDK의 NestedStack 구조는 부모 스택 내에서 하나의 자원으로 
 
 중첩된 스택에는 파일에 'nested'가 추가된 단어도 있습니다. 이는 생성된 파일과 콘솔에 표시되어 이해하기 쉽게 만듭니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리의 상태 유지 스택 코드를 살펴보면 다음과 같은 내용을 볼 수 있습니다:
 
@@ -127,7 +199,18 @@ export class GilmoreCuisineStatefulStack extends cdk.Stack {
 
 그런 다음 DatabaseResources 중첩 스택을 살펴보면 다음과 같은 내용을 볼 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import * as cdk from 'aws-cdk-lib';
@@ -291,7 +374,18 @@ export class ComputeResources extends cdk.NestedStack {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에서 볼 수 있듯이 DynamoDB 테이블 및 EventBridge 이벤트 버스의 상태를 전달하는 것이 아니라, 다음 메서드를 사용하여 그들에 대한 참조를 얻고 있습니다.
 
@@ -318,38 +412,41 @@ this.bus = events.EventBus.fromEventBusName(
 ```js
 #!/usr/bin/env node
 
-import 'source-map-support/register';
+import "source-map-support/register";
 
-import * as cdk from 'aws-cdk-lib';
+import * as cdk from "aws-cdk-lib";
 
-import { GilmoreCuisineStatefulStack } from '../stateful/stateful';
-import { GilmoreCuisineStatelessStack } from '../stateless/stateless';
+import { GilmoreCuisineStatefulStack } from "../stateful/stateful";
+import { GilmoreCuisineStatelessStack } from "../stateless/stateless";
 
-const stage = 'prod';
+const stage = "prod";
 
 const app = new cdk.App();
 
-const stateful = new GilmoreCuisineStatefulStack(
-  app,
-  'GilmoreCuisineStatefulStack',
-  {
-    stage,
-  }
-);
+const stateful = new GilmoreCuisineStatefulStack(app, "GilmoreCuisineStatefulStack", {
+  stage,
+});
 
-const stateless = new GilmoreCuisineStatelessStack(
-  app,
-  'GilmoreCuisineStatelessStack',
-  {
-    stage,
-  }
-);
+const stateless = new GilmoreCuisineStatelessStack(app, "GilmoreCuisineStatelessStack", {
+  stage,
+});
 
 // stateless가 stateful보다 먼저 배포되도록 함
 stateless.addDependency(stateful);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 섹션에서 해결책을 배포하고 테스트해 봅시다.
 
@@ -357,11 +454,20 @@ stateless.addDependency(stateful);
 
 그럼 이제 'gilmore-cuisine' 폴더에서 다음 명령을 실행하여 스택을 배포해 보겠습니다:
 
-
 npm run deploy
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 동일한 폴더에서 cdk 목록 명령을 실행하면 앞서 설명한대로 두 개의 상위 스택만 볼 수 있습니다:
 
@@ -371,7 +477,18 @@ npm run deploy
 
 두 개의 상위 템플릿, GilmoreCuisineStatefulStack.template.json 및 GilmoreCuisineStatelessStack.template.json,이 있음을 확인할 수 있습니다. 이들은 아래와 유사한 내용을 가지고 있으며 중첩 스택을 가리킵니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 ...
@@ -391,7 +508,18 @@ npm run deploy
 
 이제 각 스택의 내용을 자세히 살펴보겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## ✔️ Stateful Stack
 
@@ -402,7 +530,18 @@ npm run deploy
 DatabaseResources
 우리의 DynamoDB 테이블이 포함된 DatabaseResources에 대한 중첩 스택을 볼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 EventBusResources
 이벤트 버스, CloudWatch 로그 그룹 및 이벤트 규칙 대상을 포함하는 EventBusResources의 중첩 스택을 볼 수 있습니다:
@@ -413,7 +552,18 @@ EventBusResources
 
 무상태 스택에는 ApiResources 및 ComputeResources의 두 개의 중첩 스택이 표시됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ApiResources
 아래에서 ApiResources에 대한 중첩 스택을 볼 수 있는데, API Gateway REST API, 스테이지, 배포 등이 포함되어 있습니다.
@@ -425,7 +575,18 @@ ComputeResources
 
 <img src="/assets/img/2024-06-20-CDKNestedStacksTheWhyandHow_8.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 Postman 파일을 사용하여 /bookings/의 POST 엔드포인트를 요청하면 다음과 같은 결과를 볼 수 있습니다:
 
@@ -435,17 +596,39 @@ ComputeResources
 
 ![이미지](/assets/img/2024-06-20-CDKNestedStacksTheWhyandHow_10.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-아래는 목록 예약 엔드포인트를 실행할 수도 있어요. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-이것을 보여 주겠죠: 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+아래는 목록 예약 엔드포인트를 실행할 수도 있어요.
+
+이것을 보여 주겠죠:
 
 ![List Bookings EndPoint](/assets/img/2024-06-20-CDKNestedStacksTheWhyandHow_12.png)
 
-# 결론  
+# 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 글을 읽어주셔서 감사합니다. 마지막으로 다룬 내용을 요약하면 다음과 같습니다:
 
@@ -456,7 +639,18 @@ ComputeResources
 
 이 짧은 글을 즐겁게 읽어주셨기를 바라며, 마음에 드셨다면 공유해 주시고 피드백을 주세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비슷한 콘텐츠를 더 보고 싶다면 제 YouTube 채널을 방문해주세요!
 
@@ -467,18 +661,40 @@ ComputeResources
 [LinkedIn 프로필](https://www.linkedin.com/in/lee-james-gilmore/)
 [Twitter 프로필](https://twitter.com/LeeJamesGilmore)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-만약 이 게시물을 즐겼다면, 추가 포스트/시리즈를 확인하려면 제 프로필 Lee James Gilmore를 팔로우해 주세요. 또한 'clap' 기능을 이용해 주세요. 게시물 하단에 위치해 있습니다. 한 번 이상으로도 클랩을 할 수 있어요! 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+만약 이 게시물을 즐겼다면, 추가 포스트/시리즈를 확인하려면 제 프로필 Lee James Gilmore를 팔로우해 주세요. 또한 'clap' 기능을 이용해 주세요. 게시물 하단에 위치해 있습니다. 한 번 이상으로도 클랩을 할 수 있어요!
 
 # 나에 대해
 
 "안녕하세요, 저는 영국에 거주하고 있는 AWS 커뮤니티 빌더, 블로거, AWS 인증 클라우드 아키텍트이자 기술 및 아키텍처 글로벌 총괄인 Lee입니다. 현재 City Electrical Factors (UK) 및 City Electric Supply (US)에서 근무 중이며, 지난 6년간 주로 AWS에서 풀스택 JavaScript를 사용해 왔습니다."
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 모든 것을 AWS, 혁신, 소프트웨어 아키텍처, 그리고 기술에 대한 사랑으로 서버리스를 옹호하는 사람이라고 생각해요.
 
-*** 제공된 정보는 제 개인적인 견해이며, 그에 따른 책임을 지지 않습니다. ***
+**_ 제공된 정보는 제 개인적인 견해이며, 그에 따른 책임을 지지 않습니다. _**
 
 아래 내용도 관심이 있을지도 모릅니다:

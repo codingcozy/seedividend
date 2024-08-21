@@ -3,15 +3,13 @@ title: "자바스크립트로 가상 요소Pseudo-elements 스타일링하는 �
 description: ""
 coverImage: "/assets/img/2024-07-09-TwodifferentwaystostylePseudo-elementswithJavascript_0.png"
 date: 2024-07-09 18:03
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-TwodifferentwaystostylePseudo-elementswithJavascript_0.png
 tag: Tech
 originalTitle: "Two different ways to style Pseudo-elements with Javascript"
 link: "https://medium.com/codex/two-different-ways-to-style-pseudo-elements-with-javascript-3d9260d9c61b"
 isUpdated: true
 ---
-
-
 
 <img src="/assets/img/2024-07-09-TwodifferentwaystostylePseudo-elementswithJavascript_0.png" />
 
@@ -45,7 +43,18 @@ for (let i = 0; i < links.length; i++) {
 
 문제는 이제 발생했어요, 아무 일도 일어나지 않아요 ! 콘솔을 확인해보니 "before 가 null 입니다" 라고 메시지가 나와요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 하지만, 왜 그럴까요?
 
@@ -56,7 +65,18 @@ for (let i = 0; i < links.length; i++) {
 
 JavaScript로 가상 요소에 직접 액세스할 수 없더라도, 여전히 백도어를 사용하여 스타일을 적용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1. 사용자 지정 속성 사용하기
 
@@ -73,7 +93,18 @@ JavaScript로 가상 요소에 직접 액세스할 수 없더라도, 여전히 �
 
 그런 다음 이전 스크립트를 가져와 다음과 같이 바꿉니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const links = document.querySelectorAll("a");
@@ -96,7 +127,18 @@ document.documentElement.style.setProperty("--your-prop", "YOUR COLOR");
 
 ## 2. 데이터 속성을 사용하여 콘텐츠 관리하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여러분이 아마 이미 아시다시피, 가상 요소인 ::before와 ::after에는 이미지나 텍스트와 같은 객체를 삽입할 수 있는 content 속성이 있습니다. 그러나 알지 못하는 사람들이 있는데요, 태그의 데이터 속성을 사용하여 해당 콘텐츠를 관리할 수 있다는 것입니다. 데이터 속성을 사용하면 일반 텍스트와 다양한 언어로 목록 번호를 설정할 수 있습니다!
 
@@ -113,7 +155,18 @@ document.documentElement.style.setProperty("--your-prop", "YOUR COLOR");
 
 그럼, `li` 요소를 간단히 스타일링하기 위해 style-type을 제거하고 before를 사용하여 content에 데이터 속성을 넣습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```json
 li {
@@ -144,7 +197,18 @@ document.querySelector("button").addEventListener("click", function () {
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 가장 중요한 점은 DOM이 요소의 데이터셋을 변경했다는 것입니다. 이렇게 하는 데 유용할 수 있는 몇 가지 경우가 있다고 생각합니다.
 

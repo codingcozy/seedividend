@@ -3,16 +3,13 @@ title: "React에서 Lazy Loading의 내부 작동 원리 이해하기"
 description: ""
 coverImage: "/assets/img/2024-06-27-UndertheHoodofLazyLoadinginReact_0.png"
 date: 2024-06-27 17:56
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-27-UndertheHoodofLazyLoadinginReact_0.png
 tag: Tech
 originalTitle: "Under the Hood of Lazy Loading in React"
 link: "https://medium.com/@princybhalu11/under-the-hood-of-lazy-loading-in-react-a758fe89686f"
 isUpdated: true
 ---
-
-
-
 
 우리와 함께 게으른 로딩의 세계로 들어가보세요! 이 블로그에서는 게으른 로딩 뒤에 숨겨진 비밀을 밝혀내며, 이 똑똑한 기술이 앱의 성능을 최적화하는 방법을 안내해 드릴 거에요. 리액트가 어떻게 구성 요소를 동적으로 로드하고 사용자 경험을 향상시키는 지 살펴보며 함께 재미있게 탐험해 봐요. 당신의 앱 속도와 효율을 높이기 준비가 되셨나요? 함께 시작해봅시다!
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 # 왜 게으른 로딩이 필요할까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트에서는 일반적으로 전체 코드가 번들링되어 한꺼번에 배포됩니다. 이는 성능에 큰 영향을 미치지 않기 때문에 작은 Single Page Applications (SPAs)에 대해 잘 작동합니다. 그러나 고객 및 관리자 포턄을 따로 두는 콘텐츠 관리 시스템과 같은 대규모 애플리케이션의 경우, 한꺼번에 모든 것을 로딩하는 것은 효율적이지 않습니다. 이는 불필요한 데이터 전송으로 이어져 웹사이트 로딩이 느려지게 됩니다. 고객은 관리자 기능이 필요 없으므로 이를 로딩하는 것은 메모리와 시간을 낭비하게 됩니다.
 
@@ -32,22 +40,43 @@ isUpdated: true
 
 - 리액트와 필요한 컴포넌트를 가져오기:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-import React, { Suspense, lazy } from 'react';
+import React, { Suspense, lazy } from "react";
 ```
 
-2. 
-적게 로드되는 구성 요소를 정의하십시오:
+2.  적게 로드되는 구성 요소를 정의하십시오:
 
 구성 요소를 직접 가져 오는 대신 React.lazy를 사용하여 게으르게로드하십시오.
 
 ```js
-const LazyComponent = lazy(() => import('./LazyComponent'));
+const LazyComponent = lazy(() => import("./LazyComponent"));
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. `Suspense`로 지연로드된 컴포넌트 감싸기:
 
@@ -69,13 +98,24 @@ export default App;
 
 완성된 예시는 여기에 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-import React, { Suspense, lazy } from 'react';
+import React, { Suspense, lazy } from "react";
 
 // 컴포넌트의 Lazy로딩
-const LazyComponent = lazy(() => import('./LazyComponent'));
+const LazyComponent = lazy(() => import("./LazyComponent"));
 
 function App() {
   return (
@@ -97,7 +137,18 @@ export default App;
 
 우선, 이 주제에서 React 내부에서 어떻게 Lazy Loading이 설정되는지 설명하겠습니다. 이 주제를 잘 이해하기 위해서는 Fiber 노드와 그 속성에 익숙해져야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 많은 정보를 원하시면 Fiber 노드에 관한 이 기사를 참조해보세요: React에서 Virtual DOM 구조 이해하기.
 
@@ -107,7 +158,18 @@ export default App;
 
 Suspense Fiber 노드: 이 노드는 동적 import의 promise를 포함하는 WeakSet을 추적합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시: import('./LazyComponent')로 생성된 promise;
 
@@ -115,9 +177,20 @@ React.offScreen 노드: 이 노드는 나태한 promise를 추적하여 해결�
 
 ![](/assets/img/2024-06-27-UndertheHoodofLazyLoadinginReact_1.png)
 
-_payload 프로퍼티에서 _result는 promise(동적 import)이 포함되어 있으며, _status에는 promise의 상태(예: 0은 대기 중)가 포함됩니다.
+\_payload 프로퍼티에서 \_result는 promise(동적 import)이 포함되어 있으며, \_status에는 promise의 상태(예: 0은 대기 중)가 포함됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Fallback Div Node: 만약 프라미스가 보류 상태인 경우, 대체 div가 표시됩니다. 이 대체 div는 React.offScreen의 형제 포인터에서 나옵니다.
 
@@ -127,7 +200,18 @@ Fallback Div Node: 만약 프라미스가 보류 상태인 경우, 대체 div가
 
 Suspense 노드: WeakSet은 프라미스를 추적하며, 프라미스가 해결되면 세트가 비워집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React.offScreen 노드: 이 노드는 실제 구성 요소를 표시하도록 값을 업데이트합니다. 형제 포인터를 null로 설정하고 실제 구성 요소를 자식 포인터로 설정합니다. 대기 중인 props가 변경되어 memorizedProps 와 동일해집니다.
 
@@ -135,9 +219,20 @@ React.offScreen 노드: 이 노드는 실제 구성 요소를 표시하도록 �
 
 ![이미지](/assets/img/2024-06-27-UndertheHoodofLazyLoadinginReact_3.png)
 
-약속이 이행되면: _result 속성에는 실제 모듈이 저장됩니다. _status 속성은 약속이 오류 없이 이행되었음을 나타내는 1로 설정됩니다.
+약속이 이행되면: \_result 속성에는 실제 모듈이 저장됩니다. \_status 속성은 약속이 오류 없이 이행되었음을 나타내는 1로 설정됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 만약 지연 컴포넌트가 사용되지 않는다면?
 

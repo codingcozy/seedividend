@@ -3,17 +3,13 @@ title: "Nextjs에 Rust 추가하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Integrating Rust into Nextjs How-To Developer Guide"
 link: "https://medium.com/@capJavert/integrating-rust-into-next-js-how-to-developer-guide-10e533470d71"
 isUpdated: true
 ---
-
-
-
-
 
 ![Integrating Rust into Next.js: How-To Developer Guide](/assets/img/Integrating-Rust-into-Next.js:-How-To-Developer-Guide_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 최근에는 주로 백엔드 및 API에 초점을 맞추어 왔기 때문에 러스트로 내 프로젝트에 새로운 API 엔드포인트를 작성하기로 했습니다. 제 글 중 어느 것을 읽으셨다면 대부분의 프로젝트를 호스팅하는 데 Vercel을 사용한다는 것을 이미 아실 것입니다. 제가 작업 중인 앱들의 인프라 관리를 걱정하지 않고 기능을 전달하기만에 초점을 맞출 수 있게 해주는 다양성이 마음에 들기 때문입니다. 당연히 Vercel 플랫폼에서 러스트 코드를 빌드, 배포 및 실행할 수 있는지, 그리고 현재 (대부분) JavaScript 기반 프로젝트에 통합할 수 있는지 궁금했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기쁨 가득한 소식! Vercel에서 Rust 코드를 배포하는 여러 가지 방법이 있습니다. 다양한 옵션을 살펴보고 선택한 방법에 대해 자세히 살펴보겠습니다.
 
@@ -35,7 +42,18 @@ isUpdated: true
 
 이 작업을 수행하려면 새로운 create-next-app 프로젝트를 시작하여 작업에 필요한 수정 사항을 보여드리겠습니다. 이는 귀하의 프로젝트에서 이를 수행하는 데 필요한 단계도 제공할 것입니다. 물론 아래 GitHub에서 제 템플릿에 대한 링크도 제공하겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Next.js 프로젝트가 실행 중이면 러스트를 결합해볼 수 있어요. 혹시 궁금하신 점이 있으시다면, 이 모든 것이 Next.js 버전 12.x, 13.x, 14.x에서 pages 또는 app 디렉토리와 함께 작동할 거예요. 커스텀 런타임을 활용하려면 vercel.json 구성 파일을 프로젝트에 추가해야 해요.
 
@@ -45,7 +63,18 @@ Next.js 프로젝트가 실행 중이면 러스트를 결합해볼 수 있어요
 
 만약 package.json을 알고 계시다면 몇 가지 유사한 점이 있을 거예요. 이름과 버전 같은 일반 메타데이터를 추가하고 API 엔드포인트를 빌드하는 데 필요한 의존성을 추가해요. 러스트에서는 의존성을 "크레이트(crate)"라고 부르며 crates.io에 등록되어 있어요. 우리는 async 런타임으로 tokio를 사용하고 JSON 파싱/변환을 위해 serde_json을 사용하며 요청과 응답을 다루는 Vercel이나 Next.js API의 러스트 버전인 vercel_runtime을 사용할 거에요. 또한 VSCode를 사용 중이시라면 rust-analyzer 확장을 설치할 수 있어요. 이렇게 하면 러스트 언어 기능을 활성화하고 코드 작성 시 더 많은 도움과 컨텍스트를 제공할 거에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로, 우리는 첫 번째 Rust API 엔드포인트를 생성할 것입니다. 우리는 우리의 cargo 구성 파일에 작성한대로 api/crab.rs로 이름을 지정할 것입니다.
 
@@ -55,7 +84,18 @@ Next.js 프로젝트가 실행 중이면 러스트를 결합해볼 수 있어요
 
 ![이미지](/assets/img/Integrating-Rust-into-Next.js:-How-To-Developer-Guide_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다시 새로 고침하면 응답이 거의 즉시 돌아온다는 것을 알 수 있습니다. 이는 vercel dev가 내부적으로 Cargo를 사용하여 Rust 파일을 빌드하고 실행하기 때문입니다. 이는 변경 사항을 자동으로 감지하여 코드를 변경할 때만 다시 컴파일합니다. 그냥 코드를 작성하고 즐기세요. 이제 루트 디렉토리에 target/ 폴더가 있는 것을 알게 되었을 것입니다. 이는 Rust 이진 파일의 표준 출력 폴더이므로 .gitignore 파일에 추가해야 합니다. .vercelignore에도 추가할 수 있습니다(참고용으로 마지막에 있는 템플릿을 확인하세요).
 
@@ -65,7 +105,18 @@ Next.js 프로젝트가 실행 중이면 러스트를 결합해볼 수 있어요
 
 또 하나 주의할 점은 Rust 엔드포인트에 대해 localhost:3001로 이동하길 원하지 않는다는 것입니다. 이는 Next.js의 기본 localhost:3000과 다른 포트입니다. next.config.js 내에 리다이렉트를 추가하여 수정할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 개발 단계에서만 코드를 재작성합니다. Vercel에서는 모든 것이 동일한 배포로 배포되므로 재작성할 필요가 없습니다. 이제 http://localhost:3000/api/crab에 다시 접속하여 똑같이 작동됩니다. 물론 다른 개발 서버에서 실행 중이지만요. fallback에 rewrite를 추가하면, 현재의 페이지나 API 엔드포인트들이 개발 중인 Rust API 엔드포인트에 덮어씌워지지 않도록 보장해줍니다.
 
@@ -75,7 +126,18 @@ Next.js 프로젝트가 실행 중이면 러스트를 결합해볼 수 있어요
 
 운영 준비된 API는 어떤 형태의 캐싱을 사용합니다. Vercel에 배포할 때 우리는 그들의 Edge Network (CDN)를 사용하여 API 응답을 캐싱할 수 있습니다. 표준 cache-control 헤더와 응답의 s-maxage 지시문과 함께 작동합니다. API 엔드포인트를 1시간 동안 캐싱하려면 다음과 같이 할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요청 매개변수 읽기
 
@@ -85,7 +147,18 @@ vercel_runtime을 사용하면 들어오는 요청에서 데이터를 읽을 수
 
 더 큰 프로젝트에서는 다양한 API 엔드포인트에서 사용되는 일련의 유틸을 갖고 있을 것입니다. 러스트에서는 Cargo 구성에서 로컬 크레이트도 등록할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나는 나의 공유된 Rust 코드를 다른 JavaScript 파일들과 분리하기 위해 src/rs 디렉토리 안에 모두 넣기로 결정했어. 이 크레이트 안에서는 Rust API 엔드포인트에서 재사용할 함수들과 매크로들을 정의할 수 있어. 이러한 함수들을 사용하려면 그냥 다른 Rust 크레이트들과 마찬가지로 가져오면 돼. 만약 IDE에 rust-analyzer나 비슬한 언어 통합이 설치되어 있다면 함수 이름을 입력하기 시작하면 자동으로 가져올 수 있을 거야.
 
@@ -95,7 +168,18 @@ vercel_runtime을 사용하면 들어오는 요청에서 데이터를 읽을 수
 
 에러 처리
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 JSON APIs가 예쁘지 않은 처리되지 않은 예외로 크래시하는 걸 원치 않겠지요. Rust는 에러를 처리하는 특정한 방식을 갖고 있지만 API 엔드포인트에서 구조화된 에러를 잡거나 던지기 위해 내 유틸리티에 매크로를 추가했습니다. 프로젝트 전체에서 이를 사용하고 있어요.
 
@@ -105,7 +189,18 @@ JSON APIs가 예쁘지 않은 처리되지 않은 예외로 크래시하는 걸 
 
 POST, PUT, DELETE와 같은 다양한 요청 방식을 지원할 수 있어요. 각 API 함수는 여러 요청 방식을 처리할 수 있으므로 어떻게 API 엔드포인트가 받아들일지를 검증하고 제한해보죠. 먼저, 우리의 각 요청 방식에 대해 별도의 함수를 정의할 거에요. 예를 들어, POST 방식을 위한 것이죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼 핸들러에서 올바른 함수를 요청 메서드에 매핑하고 유효성을 검사합니다.
 
@@ -115,7 +210,18 @@ API 엔드포인트는 다른 프로토콜을 통해 다른 서비스와 통신�
 
 Cold boot 및 시작 설정
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 서버리스 배포는 비용이 발생합니다. 때로는 사용자가 준비된 인스턴스 없이 엔드포인트에 접근하여 냉장 부팅 지연을 경험할 수 있습니다. 냉장 부팅에 영향을 미치는 요인 중 하나는 크기입니다. 제가 검증한 바에 따르면, Vercel에서 러스트 런타임을 사용하는 컴파일된 서버리스 함수는 코드 양이 유사한 Node.js 함수보다 작지만 Edge 함수보다 큽니다.
 
@@ -125,7 +231,18 @@ Cold boot 및 시작 설정
 
 저는 지난 몇 달간 일부 프로젝트에서 이 설정을 성공적으로 사용하고 있습니다. 그중 하나인 https://shareimdb.com/은 API 측면에서 완전히 Rust 런타임으로 구성되어 있으며, HTML 렌더링이 필요한 페이지에만 JavaScript/React를 사용하고 있습니다. Rust를 사용하여 Node.js 대신 기본 크롤링 및 파싱 작업을 한 결과, 프로젝트가 크게 이익을 얻었습니다. 예를 들어, 무료로 사용할 수 있는 50MB 제한이 있는 서버리스 함수에 헤드리스 브라우저 런타임을 적용하기 어려웠지만, Rust를 사용하여 작업을 수행할 때 문제가 없었습니다. 가장 중요한 것은 작업에 적합한 올바른 도구를 선택하는 것입니다. 장기적인 프로젝트에 참여한 사람이라면 "모든 것을 다시 작성"이 가능한 접근법이 아니라는 것을 알 것입니다. 이러한 부분적 통합과 다양한 기술/언어를 단일 프로젝트에서 사용하는 것은 프로젝트를 더 나아지게 만들 수 있는 이상적인 방법입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문제점
 
@@ -135,7 +252,18 @@ Cold boot 및 시작 설정
 
 또 다른 큰 문제는 사용자 지정 런타임(그냥 Rust뿐만 아니라 모든 사용자 지정 럠타임)과 함께 동적 라우트를 배포할 때 Vercel에 문제가 있는 것입니다. Vercel GitHub에 올린 버그 보고서에서 자세한 내용을 확인할 수 있습니다. 해당 티켓 내에서 이 문제를 피하는 방법에 대한 대안도 제시되고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모두를 정리하면, 저는 Rust를 기존 개발 스택과 프로젝트에 추가할 수 있어서 좋았습니다. 이 블로그 포스트에서 만든 내 Next.js + Rust 템플릿에서 코드와 예제를 더 자세히 살펴볼 수 있습니다. 또한 이를 새로운 프로젝트의 템플릿으로 사용할 수도 있습니다.
 
@@ -149,7 +277,18 @@ Cold boot 및 시작 설정
 
 그리고 제 다른 포스트/프로젝트 중 일부는:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - https://jawa.sh— 시각적 스크래퍼 인터페이스, 아무 곳에서나 실행하고 어떤 것이든 스크래핑할 수 있는 퍼피티어 스크립트로 내보냅니다 🤖
 - https://medium.com/@capJavert/doing-100-000-push-ups-this-year-with-the-help-of-siri-605c3c8eb18f — 1년 동안 100,000개의 푸시업을 어떻게 했는지에 대한 이야기 💪

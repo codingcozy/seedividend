@@ -3,16 +3,13 @@ title: "의존성 없는 Kubernetes 클러스터 모니터링 방법"
 description: ""
 coverImage: "/assets/img/2024-07-13-Dependency-FreeKubernetesClusterMonitoring_0.png"
 date: 2024-07-13 01:56
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-Dependency-FreeKubernetesClusterMonitoring_0.png
 tag: Tech
 originalTitle: "Dependency-Free Kubernetes Cluster Monitoring"
 link: "https://medium.com/better-programming/dependency-free-kubernetes-cluster-monitoring-5f7aa2f038d9"
 isUpdated: true
 ---
-
-
-
 
 ![image](/assets/img/2024-07-13-Dependency-FreeKubernetesClusterMonitoring_0.png)
 
@@ -22,8 +19,18 @@ isUpdated: true
 
 관찰 가능성은 로깅(logging), 추적(tracing), 그리고 메트릭(metrics)이라는 세 가지 측면으로 나눌 수 있습니다. 로깅을 통해 애플리케이션의 작업을 이해할 수 있습니다. 추적을 통해 문제가 발생하는 위치를 파악할 수 있습니다. 마지막으로, 메트릭은 클러스터의 리소스 사용량과 전반적인 건강 상태를 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Dependency-Free Kubernetes Cluster Monitoring 1](/assets/img/2024-07-13-Dependency-FreeKubernetesClusterMonitoring_1.png)
 
@@ -33,8 +40,18 @@ CNCF 커뮤니티에서 가장 투자를 많이 받은 분야 중 하나이기�
 
 일반적으로 모니터링 도구는 메트릭을 수집하고 집계하는 데 중점을 둡니다. 그러나 Murre, 오픈 소스이면서 의존성이 없는 Go 도구는 클러스터 내 노드, 파드 및 컨테이너의 CPU 및 MEM 사용량을 얻을 때,이 목록에 있는 도구들보다 더 우수한 성과를 보여줍니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 머러를 탐험하기 전에 Prometheus + Grafana와 kubectl Top 명령어를 살펴보겠습니다. 이것들은 의존성이 없는 모니터링 도구들이 어떻게 작동하는지와 머러의 장점은 무엇인지 알아봅니다.
 
@@ -44,7 +61,18 @@ CNCF 커뮤니티에서 가장 투자를 많이 받은 분야 중 하나이기�
 
 가장 인기 있는 Kubernetes 모니터링 솔루션으로, 해당 노드의 CPU 및 메모리 사용량을 얻는 데 도움을 줍니다. 예를 들어, node_memory_Buffers_bytes와 같은 정보가 아래에 표시됩니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Monitoring Kubernetes Clusters Without Dependencies](/assets/img/2024-07-13-Dependency-FreeKubernetesClusterMonitoring_3.png)
 
@@ -54,7 +82,18 @@ CNCF 커뮤니티에서 가장 투자를 많이 받은 분야 중 하나이기�
 
 설치와 구성이 필요한 것만 아니라, Prometheus와 Grafana는 리소스 사용량을 모니터링하기에 너무 방대하고 복잡합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Kubectl Top
 
@@ -64,7 +103,18 @@ CNCF 커뮤니티에서 가장 투자를 많이 받은 분야 중 하나이기�
 
 먼저, Kubernetes에 기본으로 포함되어 있지 않기 때문에 metrics-server를 설치해야 합니다. 그러나 대부분의 클라우드 제공업체는 Horizontal Pod Autoscaler 및 Vertical Pod Autoscaler가 작동하기 위해 이미 기본적으로 제공하고 있습니다. 그러나 수동으로 Kubernetes 클러스터를 설정한 경우에는 여전히 metrics-server를 설치해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 kubectl top node과 kubectl top pod 명령어를 통해 각각 노드와 파드의 리소스 사용량을 별도로 확인할 수 있게 되었습니다.
 
@@ -74,7 +124,18 @@ CNCF 커뮤니티에서 가장 투자를 많이 받은 분야 중 하나이기�
 
 # 메트릭 수집 방법
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로메테우스와 Kubectl top은 일정 부분 우리 요구사항을 충족시킬 수 있어요. 그러나 조금 더 깊게 파고들면 프로메테우스는 kube-state-metrics에 의존하고, top은 metrics-server에 의존한다는 것을 알게 됩니다. 이 두 가지는 모두 metrics API를 사용해요. 두 도구의 차이점은 metrics-server가 클러스터 수준의 데이터를 읽는 데 초점을 맞추는 반면 kube-state-metrics는 배치 및 복제본과 같은 서로 다른 자원 유형에 대한 데이터를 읽는 데 초젘을 맞춰요.
 
@@ -84,7 +145,18 @@ CNCF 커뮤니티에서 가장 투자를 많이 받은 분야 중 하나이기�
 
 Murre를 발견하기 전에 노드 및 팟 자원 사용량을 디버깅하기 위해 top 명령어를 사용했어요. Murre는 의존성이 없는 오픈 소스 도구로, 분명히 더 효과적이에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Murre](https://miro.medium.com/v2/resize:fit:1400/1*yDakl15pscAOqac-M8RFOg.gif)
 
@@ -96,8 +168,18 @@ Murre을 설치하는 것만으로도 충분합니다. 클러스터에 의존하
 go install github.com/groundcover-com/murre@latest
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-13-Dependency-FreeKubernetesClusterMonitoring_7.png)
 
@@ -107,8 +189,18 @@ go install github.com/groundcover-com/murre@latest
 
 # 결론
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이번 글에서는 비의존성 무료 K8s 모니터링을 살펴보고, 의존성 없는 모니터링과 어떻게 비교되는지 살펴보았습니다. Murre는 클러스터에 어떠한 의존성도 설치하지 않고 Pod와 컨테이너의 리소스 사용량을 관찰하는 데 효과적인 도구입니다. 아직 초기 단계이며 완벽해지기를 기대하는 중이지만 더 많은 기능이 추가되면 배포, 레플리카, APIServer의 메트릭을 표시하는 등 더욱 강력해질 것으로 상상됩니다.
 

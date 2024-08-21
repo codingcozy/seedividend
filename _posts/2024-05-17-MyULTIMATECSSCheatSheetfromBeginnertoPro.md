@@ -3,16 +3,13 @@ title: "프론트엔드 개발자를 위한 CSS 팁"
 description: ""
 coverImage: "/assets/img/2024-05-17-MyULTIMATECSSCheatSheetfromBeginnertoPro_0.png"
 date: 2024-05-17 21:18
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-17-MyULTIMATECSSCheatSheetfromBeginnertoPro_0.png
 tag: Tech
 originalTitle: "My ULTIMATE CSS Cheat Sheet from Beginner to Pro"
 link: "https://medium.com/gitconnected/my-ultimate-css-cheat-sheet-from-beginner-to-pro-8db154476747"
 isUpdated: true
 ---
-
-
-
 
 ## 개발자가 알아야 할 100가지 CSS 속성
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 4년의 경험을 통해 많은 것을 배웠고, 이 기사에서 그 지식을 여러분과 공유하고 싶습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오늘은 모든 사람을 위한 궁극적인 CSS 치트 시트를 제공하기 위해 모든 것을 다 할 거에요 - 절대 초보자부터 궁극의 전문가까지.
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 # 초보자 레벨
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 셀렉터: `element`
 지정된 타입의 모든 요소를 선택합니다.
@@ -47,12 +66,23 @@ isUpdated: true
 텍스트의 색상을 설정합니다.
 예시:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 p {
- color: blue;
- }
+  color: blue;
+}
 ```
 
 속성: font-size
@@ -61,23 +91,32 @@ p {
 
 ```css
 h1 {
- font-size: 24px;
- }
+  font-size: 24px;
+}
 ```
 
 속성: background-color
 배경 색상을 설정합니다.
 예시:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 body {
- background-color: #f0f0f0;
- }
+  background-color: #f0f0f0;
+}
 ```
-
 
 Property: margin
 Sets the margin properties.
@@ -85,14 +124,24 @@ Example:
 
 ```css
 .container {
- margin: 10px;
- }
+  margin: 10px;
+}
 ```
 
 Property: padding
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 패딩 속성을 설정합니다.
 예시:
@@ -113,7 +162,18 @@ Property: padding
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 Markdown 형식으로 변경해주세요.
 
@@ -139,7 +199,18 @@ img {
  }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로퍼티: 높이
 요소의 높이를 설정합니다.
@@ -157,7 +228,18 @@ img {
 글꼴 패밀리를 설정합니다.
 예시:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```json
 body {
@@ -179,8 +261,18 @@ body {
 텍스트 대문자화를 제어합니다.
 예시:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 button {
@@ -202,7 +294,18 @@ button {
 배경 이미지의 시작 위치를 설정합니다.
 예시:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .header {
@@ -224,12 +327,23 @@ button {
 배경 이미지의 크기를 설정합니다.
 예시:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 .cover-image {
- background-size: cover;
- }
+  background-size: cover;
+}
 ```
 
 속성: 투명도
@@ -238,14 +352,24 @@ button {
 
 ```css
 .overlay {
- opacity: 0.5;
- }
+  opacity: 0.5;
+}
 ```
 
 # 고급 레벨
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 속성: flex
 유연한 요소의 유연한 길이를 설정합니다.
@@ -267,7 +391,18 @@ button {
  }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Property: flex-wrap
 플렉스 항목이 줄 바꿈해야 하는지를 지정합니다.
@@ -289,7 +424,18 @@ Property: flex-grow
  }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 속성: flex-shrink
 서로에 비해 얼마나 flex 항목이 줄어드는지를 지정합니다.
@@ -311,7 +457,18 @@ flex 항목의 초기 길이를 지정합니다.
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로퍼티: align-items
 플렉스 컨테이너의 교차 축을 따라 플렉스 아이템을 정렬합니다.
@@ -333,7 +490,18 @@ flex 항목의 초기 길이를 지정합니다.
  }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로퍼티: justify-content
 플렉스 컨테이너의 주축을 따라 플렉스 아이템을 정렬합니다.
@@ -356,7 +524,18 @@ flex 항목의 초기 길이를 지정합니다.
  }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 속성: grid-template-rows
 그리드 레이아웃에서 행의 크기를 지정합니다.
@@ -380,7 +559,18 @@ flex 항목의 초기 길이를 지정합니다.
  }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 속성: grid-auto-columns
 암시적 그리드 열의 크기를 지정합니다.
@@ -404,7 +594,18 @@ flex 항목의 초기 길이를 지정합니다.
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Property: grid-auto-flow
 그리드 레이아웃에서 자동 배치 알고리즘이 작동하는 방식을 지정합니다.
@@ -427,7 +628,18 @@ Property: grid-column
  }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Property: grid-row
 그리드 항목의 크기 및 그리드 행 내 위치를 지정합니다.
@@ -449,7 +661,18 @@ Property: grid-area
  }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 상세한 CSS 치트 시트는 초보부터 고급 수준까지 다양한 속성 및 선택자를 다루며, 사용 예시를 통해 설명합니다. 특정 속성에 대한 질문이 있거나 추가 설명이 필요하다면 댓글로 자유롭게 질문해 주세요!
 

@@ -3,7 +3,7 @@ title: "서버리스에 대한 고찰 현재 상황, 커뮤니티 의견, 그리
 description: ""
 coverImage: "/assets/img/2024-08-19-ReflectingonServerlessCurrentStateCommunityThoughtsandFutureProspects_0.png"
 date: 2024-08-19 03:12
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-19-ReflectingonServerlessCurrentStateCommunityThoughtsandFutureProspects_0.png
 tag: Tech
 originalTitle: "Reflecting on Serverless Current State, Community Thoughts, and Future Prospects"
@@ -11,7 +11,6 @@ link: "https://medium.com/@isenberg-ran/reflecting-on-serverless-current-state-c
 isUpdated: true
 updatedAt: 1724032955771
 ---
-
 
 <img src="/assets/img/2024-08-19-ReflectingonServerlessCurrentStateCommunityThoughtsandFutureProspects_0.png" />
 
@@ -21,7 +20,18 @@ updatedAt: 1724032955771
 
 <img src="/assets/img/2024-08-19-ReflectingonServerlessCurrentStateCommunityThoughtsandFutureProspects_1.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 블로그 글은 내 웹사이트 "Ran The Builder"에 원래 게시되었습니다.
 
@@ -43,7 +53,18 @@ updatedAt: 1724032955771
 
 # 소개
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 서버리스를 사용하기 시작한지 거의 다섯 년이 다 되어간다고 해도, 그래도 여전히 마법 같습니다. 기반이 되는 인프라를 관리하지 않고 코드를 배포하는 것은 자유롭다는 느낌이 들어요.
 
@@ -53,7 +74,18 @@ updatedAt: 1724032955771
 
 어떤 기술도 시간이 흘러 성숙해져요. Kubernetes도 더 이상 "새로운" 게 아니에요. 게다가 ChatGPT조차도 더 이상 "새로운" 것이 아니에요. 직전에 어머니께서 그것을 사용하고 싶어하셨던 일년 전에 포스트를 작성했죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어떤 시점에서 기술과 제품은 성숙 단계에 이를 때가 있습니다. 우리는 현재 그 지점에 있습니다. 저는 Serverless가 진정한 클라우드 "일마감"으로 성숙해왔다고 생각합니다. 이 기술은 많은 문제를 해결해 주는 놀라운 확장 가능하고 신뢰할 수 있는 기술이지만 (다른 것들처럼) 자체적인 한계와 배움이 따르고 있다는 점도 명심해야 합니다.
 
@@ -63,7 +95,18 @@ updatedAt: 1724032955771
 
 지난 몇 달 동안 보았던 Serverless 관련 글들에 관한 제 생각을 공유하고 싶습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 클릭베이트 기사들
 
@@ -73,17 +116,39 @@ updatedAt: 1724032955771
 
 # 클릭베이트 기사들
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이런 기사 트렌드를 종합하면 "팀 X가 서버리스 사용을 중단했고, 지금은 1000% 더 좋아졌다"라는 것이 있어요.
 
 서버리스에 대한 많은 오해와 오견이 있어요. 보통 이런 기사에서는 람다에만 언급되곤 해요.
 
-이미 2024년이고 아직도 사람들이 서버리스를 람다만으로 보는 경우가 많아요 (*이태박수*).
+이미 2024년이고 아직도 사람들이 서버리스를 람다만으로 보는 경우가 많아요 (_이태박수_).
 
 S3, SNS, SQS, DynamoDB, EventBridge와 같은 주요 서비스로 이루어진 아름다운 서버리스 세계가 있어요. 여러분의 K8S 클러스터와 함께 사용할 수 있고 사용해야 해요! MSK나 SQS로 유지보수 비용 없이 또는 그 이상의 경험을 얻을 수 있는데 Kafka를 운영해야 할 이유가 있을까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 번째로, Lambda는 다른 기술과 마찬가지로 모든 문제에 대한 마법 해결책이 아닙니다. Lambda가 적합하지 않거나 적절하지 않은 문제들도 있습니다. 괜찮아요!
 
@@ -93,7 +158,18 @@ S3, SNS, SQS, DynamoDB, EventBridge와 같은 주요 서비스로 이루어진 �
 
 그리고, 혼합해서 사용해도 괜찮아요. 나는 Lambda와 컨테이너의 일부분을 사용한 서비스를 디자인했어요. 당신이 알고 있고 항상 해왔던 방식 때문에 솔루션을 선택할 필요는 없습니다. Werner Vogels은 AWS re:Invent 2023에서 이에 대해 논의했어요. 문제 요구 사항과 제약 조건에 가장 잘 맞는 해결책을 선택하고, 여태껏 익숙한 방법과는 다른 방식을 시도하는 것을 두려워하지 마세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Serverless & AI
 
@@ -103,7 +179,18 @@ S3, SNS, SQS, DynamoDB, EventBridge와 같은 주요 서비스로 이루어진 �
 
 이제 AWS의 고객 중심 측면과 그들의 비즈니스 요구 사항에 관해 이야기해볼게요. 나는 AWS 고객이 아니에요; 우리 회사가 그렇지요, 그것은 상당한 차이점이에요. CyberArk의 엔터프라이즈 고객들은 우리에게 AI 기능들을 구축해달라고 요청하고 많이도 하죠. 실제로 수요가 있으며, 그 중 일부는 고객들의 삶을 개선하고 있어요. 그런 면에서 보면, AWS는 고객이 원하는 대로 행동하고 있죠. 그러나 AWS가 게임에 뒤떨어졌기 때문에 우리는 계속해서 AI 기능의 물결을 보고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기대해봅니다. AWS AI 열풍이 1~2년 안에 수그러들 것이라고 믿어요. 적어도 다음 행진이 시작될 때까지는 말이에요.
 
@@ -113,7 +200,18 @@ Gregor Hohpe가 발표한 또 다른 흥미로운 글이 있어요. "AWS Lambda�
 
 일부 타당한 의견도 있고, 제가 개인적으로 다른 의견을 가지는 부분도 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주요 측면에 대해 이야기해봐요. 이게 정말 무슨 뜻일까요? 대중적으로 알려지고 사용되는 걸까요, 아니면 순수한 시장 점유율 숫자일까요?
 
@@ -123,7 +221,18 @@ Lambda가 ECS나 EC2를 완전히 대체하지는 않을 거예요. 그것이 �
 
 나는 사실이라고 자신있게 말할 수 있어요. 왜냐하면 나는 CyberArk에서 개발자 직책에 지원하는 면접자 이력서를 보면 Lambda, SQS, DynamoDB 및 기타 서버리스 서비스를 안다고 주장하는 엔지니어들의 이력서를 받아요 — 그들은 실제로 그것들을 알고 있기 때문이죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 계속 진행합시다.
 
@@ -133,7 +242,18 @@ Lambda가 ECS나 EC2를 완전히 대체하지는 않을 거예요. 그것이 �
 
 다음 인용구에 대해 이야기해봐요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 DataDog의 클라우드 비용 현황 보고서의 항목 4에 따르면 다음과 같습니다. 인용하자면:
 
@@ -143,7 +263,18 @@ DataDog의 클라우드 비용 현황 보고서의 항목 4에 따르면 다음�
 
 지속적인 유지보수에 대해 토의해봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 EC2를 시간이 흐를수록 안전하게 유지하는 것은 쉽지 않아요. OS 및 라이브러리 업그레이드를 다루는 것은 종종 전혀 간단하지 않을 수도 있어요. 저희는 정말 큰 장애를 겪었었어요 지난 주 — CrowdStrike 님, 땡큐하네요! 예측 가능한 유지 보수 비용에 대해 이야기해 봐요.
 
@@ -153,7 +284,18 @@ K8s도 한번 살펴보세요. 버전 업그레이드, 클러스터 구성 또�
 
 이 주제에 대해 더 자세히 알아보죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 서버리스 도전 과제
 
@@ -163,7 +305,18 @@ K8s도 한번 살펴보세요. 버전 업그레이드, 클러스터 구성 또�
 
 ## 서버리스는 마법의 해결책이 아닙니다
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 서버리스의 큰 장점은 시작부터 생산적이 되는 것이 훨씬 쉽다는 것입니다. Lambda나 Kubernetes를 본 적이 없는 개발자가 두 가지를 모두 사용하여 Hello World 백엔드를 공개 API로 배포하는 데 얼마나 걸릴지 상상해보세요. 보다 현실적인 프로덕션 애플리케이션을 구축하기 시작하면 복잡성이 증가합니다. 관측성, 보안, 비용 최적화, 실패 처리 등을 주의 깊게 챙겨야 합니다. 서버리스를 사용하지 않을 때, 이 책임은 보통 운영팀에게 있습니다. 서버리스를 사용하면 책임은 주로 개발자에게 있으며, 혼란이 많이 있습니다.
 
@@ -171,7 +324,18 @@ K8s도 한번 살펴보세요. 버전 업그레이드, 클러스터 구성 또�
 
 서버리스는 클라우드 애플리케이션을 구축하고 실행하는 복잡성을 제거하는 마법같은 해결책은 아닙니다. 인프라 유지 관리의 복잡성을 크게 줄여주고 애플리케이션 계층에 집중할 수 있게 도와줄 수는 있지만, 새로운 복잡성도 따라옵니다. DLQ 사용, 이벤트 기반 아키텍처 개념 적용 등과 같은 서버리스 애플리케이션 패턴을 이해하고 적용해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 데브옵스 및 플랫폼 엔지니어링을 하는 개발자들
 
@@ -181,7 +345,18 @@ K8s도 한번 살펴보세요. 버전 업그레이드, 클러스터 구성 또�
 
 ## 부족한 개발자 경험 및 너무 많은 옵션
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 서버리스를 사용하는 게 정말 쉽고 명백하다면, 저는 50편 이상의 기사를 쓰거나 제 도둑질 파트너 헤이토르 레사와 함께 AWS re:Invent 2023에서 서버리스 감성을 공유할 필요가 없었을 텐데요.
 
@@ -191,7 +366,18 @@ AWS는 대부분의 주제에 대해 기사를 게시했지만, 많은 의견, 6
 
 AWS는 개발자가 이런 주제들을 걱정할 필요 없이 비즈니스 로직 작성에 집중할 수 있는 더 나은 개발자 경험을 제공해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 해결 가능합니다
 
@@ -201,7 +387,18 @@ AWS는 개발자가 이런 주제들을 걱정할 필요 없이 비즈니스 로
 
 저는 AWS 서버리스 오피스 아워 웨비나와 AWS 기사에서 많은 통찰을 공유했으며, 이번 9월 뮌헨에서 개최되는 AWS 커뮤니티 데이 DACH에서 우리의 여정을 공유할 예정입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 서버리스 커뮤니티
 
@@ -211,7 +408,18 @@ AWS는 개발자가 이런 주제들을 걱정할 필요 없이 비즈니스 로
 
 전문가들이 지식을 공유하는 정도는 전에 없었던 것 같아요. 심지어 AWS의 문서도 더 향상되었어요. 또한 AI 혁명으로 인해 서버리스 코드 작성이 더 쉬워졌어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4년 전에는 이렇지 않았어요.
 
@@ -221,7 +429,18 @@ Discord에서 'Believe in Serverless'라는 새로운 서버리스 커뮤니티�
 
 # 서버리스의 미래
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 섹션을 명확히 해 봅시다. 저는 예언자가 아니에요; 이것은 단지 소망 목록일 뿐이에요.
 
@@ -243,7 +462,18 @@ Discord에서 'Believe in Serverless'라는 새로운 서버리스 커뮤니티�
 - 기능을 투명하게 만드는 데 노력해주세요 - 예를 들어 Lambda Insights, 사용자로서 Lambda 확장을 추가하고 버전을 관리하는 것이 아니라, CDK flag로 Lambda construct를 제공하면 AWS가 내부에서 확장을 추가하고 관리해주는 것이 좋을 거에요.
 - 서버리스와 EDA로 대규모로 계정간 액세스하기는 어려운 부분이에요; 이를 단순화해야 합니다. 이 아키텍처에서 오는 일부 도전 과제이에요. 이에 대해 제가 보안 게시물에서 논의할게요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 요약
 

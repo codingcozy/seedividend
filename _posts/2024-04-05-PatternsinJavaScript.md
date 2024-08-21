@@ -3,17 +3,13 @@ title: "자바스크립트에서의 패턴들"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Patterns in JavaScript "
 link: "https://medium.com/@HelloMoto69/patterns-in-javascript-1992ae52a26c"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/PatternsinJavaScript_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 JavaScript에서 패턴을 연습하는 프로그래머들은 그렇지 않은 다른 프로그래머들보다 프로그램의 흐름을 더 빨리 생각하곤 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 👉 소개
 
@@ -33,7 +40,18 @@ JavaScript에서 패턴을 연습하는 프로그래머들은 그렇지 않은 �
 
 # 👉 왜 패턴을 사용해야 하나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대부분의 경우 JavaScript를 사용하여 애플리케이션을 개발할 때 패턴을 직접 사용하지는 않습니다. 그래도 JavaScript의 고급 주제로 넘어가기 전에 패턴을 연습하는 것이 좋습니다. 이렇게하면 기본 프로그래머가 프로그램의 흐름과 루프 작동 방식에 대해 충분히 알고 있게 되어 JavaScript의 더 높은 개념으로 넘어가기 전에 도움이 됩니다.
 
@@ -43,7 +61,18 @@ JavaScript에서 패턴을 잘 다루는 것은 문제 해결 능력과 논리�
 
 숫자, 별그리기, 문자 패턴의 다양한 (19) 예제를 살펴보고 깊이에 대해 이해해 봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 내부 루프와 외부 루프가 있습니다.
 - 대부분의 경우 외부 루프는 행의 개수를 결정합니다.
@@ -55,7 +84,18 @@ JavaScript에서 패턴을 잘 다루는 것은 문제 해결 능력과 논리�
 
 숫자 패턴을 깊이 이해하기 위해 몇 가지 예제를 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1
 삼각형 패턴 — I
@@ -76,7 +116,18 @@ JavaScript에서 패턴을 잘 다루는 것은 문제 해결 능력과 논리�
 - 각 행에 대해 num = 1부터 num = n까지 숫자를 출력해야 합니다.
 - 예시: 5행의 경우, n = 5입니다. 내부 루프는 num = 1부터 num = 5까지 실행됩니다. 그래서 5행은 다음과 같습니다: 1 2 3 4 5
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코드:
 
@@ -104,7 +155,18 @@ console.log(pattern);
 - 라인 : 1
   행의 수를 정의합니다. 만약 패턴이 10개 행을 가지고 있길 원한다면, rows의 값을 10으로 변경하면 됩니다. 아래와 같은 출력을 얻을 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 1;
@@ -139,7 +201,18 @@ console.log(pattern);
 5 5 5 5 5
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 접근 방법:
 
@@ -168,7 +241,18 @@ for (let n = 1; n <= rows; n++) {
 console.log(pattern);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3
 삼각형 패턴 — III
@@ -188,7 +272,18 @@ console.log(pattern);
 - 무슨 시리즈를 따르고 있나요? 첫 n개의 숫자 시리즈이며, 처음에 변수를 선언하고 계속 증가시킵니다.
 - 예 : 4행의 경우, n = 4입니다. 내부 루프는 num = 1부터 num = 4까지 이동합니다. 시리즈의 다음 4개의 숫자를 출력해야 합니다. 3번째 행에서 마지막으로 출력된 숫자는 6이었습니다. 따라서 5번째 행은: 7 8 9 10입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코드:
 
@@ -223,7 +318,18 @@ console.log(pattern);
 1;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 접근 방법:
 
@@ -250,7 +356,18 @@ for (let n = 1; n <= rows; n++) {
 console.log(pattern);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 5
 번호 피라미드 패턴 — I
@@ -274,7 +391,18 @@ console.log(pattern);
 - 위 예시에서 5개의 행이 있습니다. 5행을 위해, n = 1부터 n = 5(즉, 행 수)까지 실행되는 외부 루프가 필요합니다. 각 행마다 공백과 숫자를 출력해야 합니다.
 - 예시: 3번째 행의 경우, n = 3입니다. 내부 루프는 num = 1부터 num = 3까지 실행됩니다. 우리는 (n−row)(n−row) 즉, (5−3)(5−3) = 22개의 공백, 그리고 11부터 2∗3−1인 55까지의 숫자를 출력해야 합니다. 따라서, 우리의 3번째 행은 다음과 같습니다: \_*12345. {여기서 공백은 *로 표시됩니다}
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 let rows = 5;
@@ -308,7 +436,18 @@ console.log(pattern);
 56789;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 우리는 특정 횟수만큼 루프를 실행해야 한다는 것을 알 수 있습니다. 이 예시에서는 3개의 행에 대해 루프를 실행해야 합니다. 이것이 외부 루프를 형성합니다.
 - 각 행마다 n개의 숫자를 출력하기 위해 루프를 실행해야 합니다. 여기서 n은 행 번호입니다. 이것이 내부 루프를 형성합니다.
@@ -347,7 +486,18 @@ console.log(pattern);
 
 별(\*)의 시리즈가 특정 모양이나 패턴 (피라미드, 삼각형 등)을 만들기 위해 배열되면, 별 패턴이 형성됩니다. 루프와 중첩 루프에 능숙해지기 위해 별 패턴을 연습해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 별 패턴을 깊이있게 이해하기 위해 몇 가지 예를 살펴볼 거에요.
 
@@ -364,7 +514,18 @@ console.log(pattern);
 
 접근 방법:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 우리는 행 번호만큼 반복해야한다는 것을 알 수 있어요. 예시에서는 5개의 행에 대해 루프를 실행해야 합니다. 이것이 외부 룹을 형성합니다.
 - 각 행에 5개의 별을 출력하기 위해 룹을 실행해야 합니다. 이것이 내부 룹을 형성합니다.
@@ -391,7 +552,18 @@ console.log(pattern);
 2
 빈 사각형 별 패턴
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 *****
@@ -408,7 +580,18 @@ console.log(pattern);
 
 코드:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 let rows = 5;
@@ -447,7 +630,18 @@ console.log(pattern);
 
 접근 방식:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 우리는 행 번호만큼 루프를 실행해야 한다는 것을 알 수 있습니다. 이 예제에서는 5행에 대한 루프를 실행해야 합니다. 이것이 외부 루프를 형성합니다.
 - 각 행마다 n 개의 별을 출력하는 루프를 실행해야 합니다. 여기서 n은 행 번호입니다. 이것이 내부 루프를 형성합니다.
@@ -485,7 +679,18 @@ console.log(pattern);
 4
 왼쪽 삼각형 패턴
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 *
@@ -504,7 +709,18 @@ console.log(pattern);
 
 코드:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 let rows = 5;
@@ -536,7 +752,18 @@ console.log(pattern);
 
 방법:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 우리는 행 번호만큼 루프를 실행해야 함을 알 수 있습니다. 예제에서는 5개의 행에 대해 루프를 실행해야 합니다. 이는 외부 룹을 형성합니다.
 - 각 행에서는 n개의 별을 출력하기 위해 루프를 실행해야 합니다. 여기서 n은 행 번호입니다. 이는 내부 루프를 형성합니다.
@@ -545,7 +772,7 @@ console.log(pattern);
   (ii). 순서대로 나열된 숫자들.
   만약 n이 행 번호이고, row가 전체 행 수인 경우, 공백: 각 행의 공백 수 : (row−n)(row−n) 별: 각 행의 별 수 : (2∗n−1)(2∗n−1)
 - 위의 예제에서는 5개의 행이 있습니다. 5개의 행에 대해, n = 1부터 n = 5(즉, 행 수)까지 진행하는 외부 룹이 필요합니다. 각 행마다 공백과 별을 출력해야 합니다.
-- 예: 3번째 행의 경우, n = 3입니다. 내부 루프는 num = 1부터 num = 3까지 실행됩니다. (n−row)(n−row) 즉 (5−3)=2(5−3)=2 개의 공백 다음에 (2∗n−1)=6−1=5(2∗n−1)=6−1=5 개의 별을 출력해야 합니다. 그래서, 우리의 3번째 행은 다음과 같이 됩니다: \_***\***. {여기서 공백은 *로 표시됩니다}
+- 예: 3번째 행의 경우, n = 3입니다. 내부 루프는 num = 1부터 num = 3까지 실행됩니다. (n−row)(n−row) 즉 (5−3)=2(5−3)=2 개의 공백 다음에 (2∗n−1)=6−1=5(2∗n−1)=6−1=5 개의 별을 출력해야 합니다. 그래서, 우리의 3번째 행은 다음과 같이 됩니다: \_**\*\***. {여기서 공백은 \*로 표시됩니다}
 
 코드:
 
@@ -573,7 +800,18 @@ console.log(pattern);
 
 숫자와 별을 함께 사용한 몇 가지 삼각형 패턴을 살펴봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1
 역 삼각형 — I
@@ -593,7 +831,18 @@ console.log(pattern);
 - 위 예에서는 5개의 행이 있습니다. 5개의 행에 대해, n = 1부터 n = 5(즉, 행 수)까지 외부 루프가 필요합니다. 각 행마다 n 번의 숫자를 출력해야 하며, 이때 5(행 수)부터 감소합니다.
 - 예시 : 3번째 행의 경우, n = 3입니다. 내부 루프는 num = 5부터 num = 3까지 실행됩니다. 5에서 시작하여 내려가며 n, 즉 3개의 숫자를 출력해야 합니다. 따라서 3번째 행은 다음과 같습니다: 5 4 3.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 Markdown 형식으로 표로 변경되어 있습니다.
 
@@ -623,7 +872,18 @@ console.log(pattern);
 1;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 접근 방법:
 
@@ -651,7 +911,18 @@ for (let n = 1; n <= rows; n++) {
 console.log(pattern);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3
 빈 삼각형 별 패턴
@@ -671,9 +942,20 @@ console.log(pattern);
 - 각 행에서는 행 번호인 n개의 별표를 인쇄하기 위해 루프를 실행해야 합니다. 이것이 내부 루프를 형성합니다.
 - 위 예에서는 5개의 행이 있습니다. 5개의 행에 대해, 행 번호의 no of rows에 해당하는 n = 1부터 n = 5까지 외부 루프가 필요합니다. 각 행에 대해 경계 별표를 출력해야 합니다.
 - 현재 위치가 내부 루프의 경계 위치인지 확인해야 합니다. 별표를 추가해야 할 경우 그리고 아닌 경우에는 공백을 추가해야 합니다.
-- 예시: 3번째 행의 경우, n = 3입니다. 내부 루프는 num = 1부터 num = 3까지 실행됩니다. 경계 별표를 출력해야 합니다. 그래서 우리의 3번째 행은 다음과 같습니다: _\__. (여기서 공백은 \_로 표시됩니다).
+- 예시: 3번째 행의 경우, n = 3입니다. 내부 루프는 num = 1부터 num = 3까지 실행됩니다. 경계 별표를 출력해야 합니다. 그래서 우리의 3번째 행은 다음과 같습니다: \_\_\_. (여기서 공백은 \_로 표시됩니다).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코드:
 
@@ -709,7 +991,18 @@ console.log(pattern);
 *
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 접근 방식:
 
@@ -736,7 +1029,18 @@ for (let n = 1; n <= rows; n++) {
 console.log(pattern);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문자 패턴은 위에서 논의했던 패턴과 동일하며, 별이나 숫자를 사용하는 대신 다양한 모양의 패턴을 형성하기 위해 문자를 사용합니다.
 
@@ -753,7 +1057,18 @@ AAAA;
 AAAAA;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 접근 방식 :
 
@@ -782,7 +1097,18 @@ for (let n = 1; n <= rows; n++) {
 console.log(pattern);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2
 역삼각형
@@ -802,7 +1128,18 @@ A;
 - 위의 예제에서 5개의 행이 있습니다. 5개의 행에 대해, n=1부터 n=5(즉, 행 수)인 외부 루프가 필요합니다. 각 행에 대해 6−n 문자를 출력해야 합니다.
 - 예: 3번째 행의 경우, n=3입니다. 내부 루프는 num=1부터 num=6-3=3까지 이동합니다. (6−n) 즉 (6−3) 3개의 문자를 출력해야 합니다. 따라서, 3번째 행은 다음과 같습니다: AAA.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코드:
 
@@ -838,7 +1175,18 @@ $$$$
 %
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 접근 방식:
 
@@ -851,7 +1199,18 @@ $$$$
 - 위 예에서 4개의 행이 있습니다. 4개의 행에 대해, n = 1부터 n = 4까지 (즉, 행 수)인 외부 루프가 필요합니다. 각 행에 대해 num = 1에서 num = n까지 문자를 인쇄해야합니다.
 - 예: 4번째 행의 경우, n = 4입니다. 내부 루프는 num = 1에서 num = 4까지 실행됩니다. 4번째 행은 $$$$이 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 번째 반대로 된 삼각형을 위해:
 
@@ -891,7 +1250,18 @@ for (let n = 1; n <= rows; n++) {
 console.log(pattern);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4
 역 삼각형 피라미드 — II
@@ -914,7 +1284,18 @@ BBBBB;
 
 두 가지 다른 경우가 이 패턴을 형성하기 위해 결합됩니다. 따라서 우리는 상단 삼각형을 위한 하나, 역 삼각형을 위한 두 번째 루프를 사용해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 첫 번째 삼각형에 대해:
 
@@ -930,7 +1311,18 @@ BBBBB;
 - 위 예시에서는 5개의 행이 있습니다. 5개의 행에 대해, 외부 루프가 필요한데 이는 n = 1에서 n = 5 (즉, 행의 수)까지 이동해야합니다. 각 행에 대해 num = 1에서 num = n까지 문자를 출력해야합니다.
 - 예시: 4번째 행의 경우, n = 4. 내부 루프는 num = 1에서 num = 4까지 이동합니다. 4번째 행은: AAAA가 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 let rows = 5;
@@ -966,7 +1358,18 @@ console.log(pattern);
 
 일반적인 단계를 따라가면 쉽게 최종 패턴을 얻을 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 첫 번째 단계는 행의 수를 확인하는 것입니다. 이것이 바깥쪽 루프를 형성할 것입니다.
 - 다음 단계는 각 행에 숫자/별/문자가 어떻게 배열되어 있는지에 대한 공통 패턴을 찾는 것입니다. 이것이 안쪽 루프를 형성할 것입니다.

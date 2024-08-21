@@ -3,17 +3,13 @@ title: "리액트, 타입스크립트, 스토리북으로 컴포넌트 라이브
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Building a Component Library with React, Typescript, and Storybook A Comprehensive Guide"
 link: "https://medium.com/simform-engineering/building-a-component-library-with-react-typescript-and-storybook-a-comprehensive-guide-ba189accdaf5"
 isUpdated: true
 ---
-
-
-
-
 
 GitHub 및 npm 저장소를 통해 프로젝트 간에 React 컴포넌트 라이브러리를 만들고 공유하는 방법에 대한 포괄적인 안내서.
 
@@ -23,7 +19,18 @@ React는 확장 가능한 웹 애플리케이션을 만드는 데 가장 유명�
 
 React의 유연성을 통해 고유한 요구 사항에 맞는 사용자 정의 컴포넌트 라이브러리를 빌드할 수도 있습니다. 이 글에서는 React, TypeScript, Storybook 및 몇 가지 유용한 도구를 사용하여 자체 컴포넌트 라이브러리를 만드는 방법에 대해 알아보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # ESLint 및 Prettier 설정 프로젝트
 
@@ -37,7 +44,18 @@ npm install -D react @types/react typescript
 
 여기서, 라이브러리 패키지에서 일반적으로 피어 종속성으로 사용되기 때문에 React를 peerDependencies로 이동해야 합니다. 이렇게 하면 사용자가 충돌없이 React의 하나의 버전을 사용할 수 있습니다. 이를 위해 package.json에 다음 줄을 추가하고 React를 devDependencies에서 제거하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 "peerDependencies": {
@@ -51,7 +69,18 @@ Prettier는 의견이 강한 코드 형식 지정 도구입니다. 코드를 구
 
 Prettier를 설치하려면 다음 명령을 실행하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm install -D prettier
@@ -68,7 +97,18 @@ npm install -D prettier
 
 프로젝트를 포맷하려면 package.json에 다음 스크립트를 추가하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```json
 {
@@ -86,7 +126,18 @@ ESLint는 JavaScript 코드를 분석하여 일반적인 문제를 확인하는 
 
 ESLint 및 해당 플러그인을 설치하려면 다음 명령을 실행하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm install -D eslint @typescript-eslint/parser eslint-config-prettier eslint-plugin-prettier eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-storybook @typescript-eslint/eslint-plugin
@@ -130,7 +181,18 @@ npm install -D eslint @typescript-eslint/parser eslint-config-prettier eslint-pl
 
 루트 디렉토리에 .gitignore 파일을 만들고 리포지토리에 포함되지 않아야 하는 디렉터리를 추가하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 node_modules
@@ -154,7 +216,18 @@ storybook-static
 
 # Typescript 및 Vite 구성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Vite는 최근 몇 년간 인기를 얻어온 현대적인 프론트엔드 도구입니다. Vite는 프로덕션 빌드에 Rollup을 사용하면서 두 도구의 장점을 결합하여 훌륭한 개발 경험과 효율적인 프로덕션 빌드를 제공합니다.
 
@@ -193,7 +266,18 @@ Vite는 최근 몇 년간 인기를 얻어온 현대적인 프론트엔드 도�
 
 하나의 선언 파일을 생성하는 플러그인이 포함된 Vite를 설치하려면 다음 명령을 실행하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm install -D vite vite-plugin-dts
@@ -226,7 +310,18 @@ export default defineConfig({
 
 이 구성을 package.json에 추가해서 빌드 스크립트와 진입점 및 유형 정의를 정의하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 {
@@ -252,7 +347,18 @@ export default defineConfig({
 
 package.json에 "main" 및 "module" 필드를 모두 지정함으로써 CommonJS 및 ES 모듈 시스템 모두에 대한 호환성을 제공할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 컴포넌트 생성
 
@@ -264,7 +370,18 @@ styled-components를 추가하려면 다음 명령을 실행하세요.
 npm install -D styled-components
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 루트 디렉토리에 src 폴더를 만들고, 버튼 컴포넌트를 위한 button 폴더를 생성해주세요. 이 폴더 안에 Button.tsx와 index.ts 파일을 추가하고, 아래 코드를 붙여넣어주세요:
 
@@ -296,30 +413,12 @@ const StyledButton =
   color: ${(props) => (props.primary ? "#fff" : "#000")};
   background-color: ${(props) => (props.primary ? "#FF5655" : "#f4c4c4")};
   padding: ${(props) =>
-    props.size === "small"
-      ? "7px 25px 8px"
-      : props.size === "medium"
-      ? "9px 30px 11px"
-      : "14px 30px 16px"};
+    props.size === "small" ? "7px 25px 8px" : props.size === "medium" ? "9px 30px 11px" : "14px 30px 16px"};
 `;
 
-const Button: React.FC<ButtonProps> = ({
-  size,
-  primary,
-  disabled,
-  text,
-  onClick,
-  ...props
-}) => {
+const Button: React.FC<ButtonProps> = ({ size, primary, disabled, text, onClick, ...props }) => {
   return (
-    <StyledButton
-      type="button"
-      onClick={onClick}
-      primary={primary}
-      disabled={disabled}
-      size={size}
-      {...props}
-    >
+    <StyledButton type="button" onClick={onClick} primary={primary} disabled={disabled} size={size} {...props}>
       {text}
     </StyledButton>
   );
@@ -335,7 +434,18 @@ export { default as Button } from "./Button";
 
 그런 다음 components 폴더에 index.ts 파일을 추가해주세요. 이 파일을 통해 components 폴더의 모든 컴포넌트를 내보낼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // components/index.ts
@@ -351,7 +461,18 @@ export * from "./components"; // 이 명령은 'components' 폴더에서 모든 
 
 컴포넌트를 추가한 후 아래 명령을 실행하십시오. 이것은 'dist' 폴더를 생성합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm run build
@@ -363,7 +484,18 @@ dist 폴더 안에는 라이브러리의 출력 코드가 있습니다.
 
 Vitest는 Vite 기반의 유닛 테스트 프레임워크이며, 많은 현대적인 기능을 갖춘 훌륭한 유닛 테스트 프레임워크입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Vitest를 설치하려면 다음 명령을 실행하세요:
 
@@ -381,7 +513,18 @@ npm install -D vitest @testing-library/react jsdom @testing-library/jest-dom
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 vite.config.ts 파일의 맨 위에 다음 줄을 추가해 주세요:
 
@@ -404,7 +547,18 @@ declare module "vitest" {
 expect.extend(matchers);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 defineConfig 아래의 vite.config.ts 파일에 다음 구성을 추가하세요:
 
@@ -434,7 +588,18 @@ describe("Button component", () => {
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 스토리북과 허스키 추가하기
 
@@ -444,7 +609,18 @@ describe("Button component", () => {
 
 다음 명령을 실행하여 새 스토리북 프로젝트를 초기화하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npx storybook@latest init
@@ -456,7 +632,18 @@ src 폴더 안에 stories 폴더가 생성될 것이지만, 이를 삭제할 예
 
 각 구성 요소는 **docs** 디렉토리를 가지고 있으며, 그 안에 우리의 stories를 추가할 것입니다. 이를 위해 .stroybook/main.ts 파일의 stories 필드를 업데이트해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 stories: ["../src/**/__docs__/*.stories.tsx", "../src/**/__docs__/*.mdx"],
@@ -470,7 +657,18 @@ stories: ["../src/**/__docs__/*.stories.tsx", "../src/**/__docs__/*.mdx"],
 
 Button.mdx 파일에 다음 내용을 추가하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { Canvas, Meta } from "@storybook/blocks";
@@ -552,7 +750,18 @@ export default Example;
 
 Button.stories.tsx 파일에 다음 코드를 삽입하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import type { Meta, StoryObj } from "@storybook/react";
@@ -594,7 +803,18 @@ npm run storybook
 
 Storybook에서 모든 Button UI 변형을 확인할 수 있어야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/BuildingaComponentLibrarywithReactTypescriptandStorybookAComprehensiveGuide_1.png" />
 
@@ -604,7 +824,18 @@ Husky는 Git 리포지토리에서 미리 커밋 후크를 강제로 적용하�
 
 Husky를 프리 커밋 후크와 함께 구성하려면 다음 명령어를 실행하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm install -D husky lint-staged
@@ -622,7 +853,18 @@ npx lint-staged
 
 다음 구성을 package.json 파일에 추가하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 "lint-staged": {
@@ -640,7 +882,18 @@ npx lint-staged
 
 ## GitHub에 게시하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트의 package.json에 GitHub 패키지 레지스트리를 레지스트리로 지정하는 publishConfig 섹션을 추가해주세요. {USER_NAME}과 {repo-name}을 귀하의 실제 GitHub 사용자 이름과 저장소 이름으로 바꿔주세요. 아래는 예시입니다:
 
@@ -655,7 +908,18 @@ GITHUB_TOKEN의 권한을 수정하는 방법: GitHub 저장소로 이동하여 
 
 ![이미지](/assets/img/BuildingaComponentLibrarywithReactTypescriptandStorybookAComprehensiveGuide_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트 루트 디렉터리에 .github/workflows 폴더가 이미 존재하지 않는 경우 생성해주세요.
 
@@ -689,7 +953,18 @@ jobs:
           NODE_AUTH_TOKEN: ${secrets.GITHUB_TOKEN}
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서 한 번 master 브랜치로 푸시하면, 이 워크플로우가 자동으로 실행되고 패키지가 게시됩니다.
 
@@ -699,7 +974,18 @@ GitHub 저장소의 Packages 섹션에서 라이브러리를 찾을 수 있습�
 
 ![image](/assets/img/BuildingaComponentLibrarywithReactTypescriptandStorybookAComprehensiveGuide_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 에러가 발생하면 제 깃허브를 참고해주세요.
 
@@ -709,7 +995,18 @@ GitHub 저장소의 Packages 섹션에서 라이브러리를 찾을 수 있습�
 
 이제 Generate Token을 클릭하고 Classic Token을 선택하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/BuildingaComponentLibrarywithReactTypescriptandStorybookAComprehensiveGuide_5.png" />
 
@@ -719,7 +1016,18 @@ GitHub 저장소의 Packages 섹션에서 라이브러리를 찾을 수 있습�
 
 <img src="/assets/img/BuildingaComponentLibrarywithReactTypescriptandStorybookAComprehensiveGuide_6.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 package.json에 준비 스크립트를 추가하여 패키지를 게시 준비할 때 실행되는 명령을 지정해야 해요.
 
@@ -765,7 +1073,18 @@ jobs:
           NODE_AUTH_TOKEN: ${secrets.NPM_AUTH_TOKEN}
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 메인 브랜치에 푸시하면이 워크플로우가 자동으로 실행되어 패키지가 게시됩니다.
 
@@ -775,7 +1094,18 @@ jobs:
 
 ![이미지2](/assets/img/BuildingaComponentLibrarywithReactTypescriptandStorybookAComprehensiveGuide_8.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어려움을 겪는 경우 도움을 위해 내 저장소를 참고할 수 있어요.
 
@@ -788,7 +1118,18 @@ npm create vite@latest . -- --template react-ts
 npm install
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금 루트 디렉터리로 이동해서 다음 명령어로 npm 패키지를 빌드해주세요:
 
@@ -802,7 +1143,18 @@ npm run build
 npm link "./example/node_modules/react"
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 예시 앱의 디렉토리로 돌아가서 npm 패키지를 예시 앱에 연결하세요. 이때 package.json에 지정한 패키지 이름을 사용하시면 됩니다. {package-name} 부분은 패키지의 이름으로 대체해주세요.
 
@@ -816,7 +1168,18 @@ npm link {package-name}
 npm ls --location=global --depth=0 --link=true
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 라이브러리에서 UI 컴포넌트를 가져와 로컬에서 쉽게 테스트해보세요.
 
@@ -835,7 +1198,18 @@ npm run dev 명령을 실행한 후에 로컬로 배포된 패키지를 테스�
 
 ![이미지](/assets/img/BuildingaComponentLibrarywithReactTypescriptandStorybookAComprehensiveGuide_9.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 다른 프로젝트에서 Published 라이브러리 사용하기
 
@@ -847,7 +1221,18 @@ npm create vite@latest . -- --template react-ts
 
 ## Npm 레지스트리 사용하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 npm 레지스트리에서 패키지를 설치하려면 다음 명령을 사용할 수 있어요:
 
@@ -859,7 +1244,18 @@ npm install sld-ui-lib
 
 ## Github 레지스트리 사용하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 GitHub 패키지 레지스트리에서 패키지에 액세스하기 위해 GitHub에서 개인 액세스 토큰을 얻으려면 다음 단계를 따르세요:
 
@@ -877,7 +1273,18 @@ GitHub 패키지 레지스트리에서 패키지에 액세스하기 위해 GitHu
 
 ![이미지](/assets/img/BuildingaComponentLibrarywithReactTypescriptandStorybookAComprehensiveGuide_10.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 GitHub 패키지 레지스트리에서 패키지를 설치하려면 프로젝트에 .npmrc 파일을 만들고 아래 구성을 추가하세요. 여기서 GITHUB_USER_NAME을(를) 여러분의 GitHub 사용자명으로 바꿔주세요.
 
@@ -892,7 +1299,18 @@ GitHub 패키지 레지스트리에서 패키지를 설치하려면 프로젝트
 export NPM_TOKEN=YOUR_TOKEN
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 내용을 친절한 한국어로 번역해 드리겠습니다.
 
@@ -904,7 +1322,18 @@ GitHub 사용자 이름인 your-username과 라이브러리 이름인 package-na
 npm install @your-username/package-name
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/BuildingaComponentLibrarywithReactTypescriptandStorybookAComprehensiveGuide_11.png)
 
@@ -914,7 +1343,18 @@ npm install @your-username/package-name
 
 먼저 GitHub을 통해 Netlify에 계정을 만들고 저장소를 선택하세요. 이제 아래 이미지와 같이 구성을 추가하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/BuildingaComponentLibrarywithReactTypescriptandStorybookAComprehensiveGuide_12.png" />
 
@@ -924,7 +1364,18 @@ npm install @your-username/package-name
 
 # 마무리
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 포괄적인 가이드에서는 프로젝트 설정, 테스팅, 게시, 배포 및 로컬 테스트에 필요한 중요한 도구와 최상의 실천 방법에 대해 다루었습니다. 이러한 단계를 따르면 여러 프로젝트와 팀에서 사용할 수 있는 재사용 가능하고 견고한 React 컴포넌트를 만들 수 있습니다. 오픈 소스 라이브러리를 만드는 경우든 내부 UI 툴킷을 구축하는 경우든, 이제 공유 가능한 React 컴포넌트를 개발하기 위한 탄탄한 기반을 갖게 되었습니다.
 

@@ -3,16 +3,13 @@ title: "React Query v5로 데이터 가져오기 및 변경하기 변화를 쉽�
 description: ""
 coverImage: "/assets/img/2024-06-22-FecthingandMutationwithReactQueryv5_0.png"
 date: 2024-06-22 14:40
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-FecthingandMutationwithReactQueryv5_0.png
 tag: Tech
 originalTitle: "Fecthing and Mutation with React Query v5"
 link: "https://medium.com/@ab19622001/fecthing-and-mutation-with-react-query-v5-73103737aa14"
 isUpdated: true
 ---
-
-
-
 
 # React-Query이란 무엇인가요?
 
@@ -23,7 +20,18 @@ React-Query는 React 애플리케이션에서 데이터 가져오기와 상태 �
 
 # 왜 좋은 선택인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전 소개에서 React Query가 많은 복잡성을 간소화하는 데 도움이 되는 유용한 훅과 방법을 제공한다는 것을 알 수 있었습니다. 또한 데이터 캐싱을 관리합니다.
 
@@ -37,7 +45,18 @@ React query 설치
 npm i @tanstack/react-query
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트 쿼리를 사용하는 데 중요한 3가지 핵심 개념이 있습니다:
 
@@ -52,11 +71,22 @@ npm i @tanstack/react-query
 - useQuery 훅은 고유한 쿼리 키와 데이터 가져오기 함수를 인수로 사용합니다.
 - 훅은 가져온 데이터, 로딩 상태, 오류 상태 및 데이터 가져오기 라이프사이클을 관리하는 데 사용할 수 있는 다양한 속성이 포함된 객체를 반환합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 클라이언트 생성
-const queryClient = new QueryClient()
+const queryClient = new QueryClient();
 
 function App() {
   return (
@@ -64,26 +94,26 @@ function App() {
     <QueryClientProvider client={queryClient}>
       <Todos />
     </QueryClientProvider>
-  )
+  );
 }
 ```
 
 ```js
 function Todos() {
   // 클라이언트에 접근
-  const queryClient = useQueryClient()
+  const queryClient = useQueryClient();
 
   // 쿼리
-  const query = useQuery({ queryKey: ['todos'], queryFn: getTodos })
+  const query = useQuery({ queryKey: ["todos"], queryFn: getTodos });
 
   // 뮤테이션
   const mutation = useMutation({
     mutationFn: postTodo,
     onSuccess: () => {
       // 갱신 및 새로고침
-      queryClient.invalidateQueries({ queryKey: ['todos'] })
+      queryClient.invalidateQueries({ queryKey: ["todos"] });
     },
-  })
+  });
 }
 ```
 
@@ -91,7 +121,18 @@ function Todos() {
 
 변이와 쿼리 무효화
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - React Query에서 변이(Mutations)는 서버에서 데이터를 업데이트, 생성 또는 삭제하는 과정을 의미합니다.
 - 개발자들은 React Query에서 제공하는 useMutation 훅을 사용하여 이러한 데이터 업데이트 작업을 정의하고 관리합니다.
@@ -137,6 +178,17 @@ function Todos() {
 
 useMutation 훅은 객체를 전달하여 정의되며, 주요 키인 mutationFn으로는 서버 측에서 업데이트 또는 삭제를 처리하는 함수가 포함되어 있으며, 성공 처리기인 onSuccess로는 함수에서 받은 데이터를 수락하고 invalidateQueries를 사용하여 캐시를 업데이트할 수 있습니다. 이때, 이전 캐시에 액세스하고 원하는 데이터를 적용할 수 있는 쿼리 이름을 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마침내, react-query 메인 문서를 이곳에서 더 자세히 살펴볼 수 있습니다. 유용했기를 바랍니다.

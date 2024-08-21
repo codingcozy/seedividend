@@ -3,17 +3,13 @@ title: "React로 대용량 데이터를 빠르게 렌더링하는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-23-Reducerenderingtimewithlargedatainreact_0.png"
 date: 2024-06-23 13:42
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-Reducerenderingtimewithlargedatainreact_0.png
 tag: Tech
 originalTitle: "Reduce rendering time with large data in react"
 link: "https://medium.com/@shivanggarg48/reduce-rendering-time-with-large-data-in-react-274778adbe09"
 isUpdated: true
 ---
-
-
-
-
 
 ![img](/assets/img/2024-06-23-Reducerenderingtimewithlargedatainreact_0.png)
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 # 가상화란 무엇인가?
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 개발에서 가상화는 DOM에서 보이는 부분만 렌더링하고 나머지는 메모리에 유지하는 기술을 말합니다. 이 접근 방식은 DOM 노드의 수를 크게 줄여 렌더링 성능을 향상시키고 전체 사용자 경험을 향상시킵니다.
 
@@ -36,7 +42,18 @@ isUpdated: true
 - 렌더링 시간 단축: 더 적은 DOM 노드는 더 빠른 렌더링 시간을 의미하며, 반응이 더 빠른 UI를 제공합니다.
 - 부드러운 스크롤링: 가상화를 통해 대용량 데이터 세트에서도 부드러운 스크롤링 경험을 유지할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 사용 사례
 
@@ -47,7 +64,18 @@ isUpdated: true
 
 # 프로젝트 설정하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가상화를 보여주기 위해, react-virtualized 라이브러리를 사용하여 간단한 리액트 애플리케이션을 만들어보려고 합니다.
 
@@ -61,15 +89,26 @@ npm install react-virtualized
 
 ## 단계 2: 기본 컴포넌트 설정
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가상 목록을 표시하는 컴포넌트를 만들어보세요.
 
 ```js
 // src/VirtualizedList.js
-import React from 'react';
-import { List } from 'react-virtualized';
-import 'react-virtualized/styles.css'; // 한 번만 가져오면 됩니다.
+import React from "react";
+import { List } from "react-virtualized";
+import "react-virtualized/styles.css"; // 한 번만 가져오면 됩니다.
 ```
 
 ```js
@@ -79,29 +118,32 @@ const VirtualizedList = ({ items }) => {
       {items[index]}
     </div>
   );
-  return (
-    <List
-      width={300}
-      height={600}
-      rowCount={items.length}
-      rowHeight={50}
-      rowRenderer={rowRenderer}
-    />
-  );
+  return <List width={300} height={600} rowCount={items.length} rowHeight={50} rowRenderer={rowRenderer} />;
 };
 export default VirtualizedList;
 ```
 
 # 가상 컴포넌트 통합
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 3: 앱에서 가상화된 컴포넌트 사용하기
 
 ```js
 // src/App.js
-import React from 'react';
-import VirtualizedList from './VirtualizedList';
+import React from "react";
+import VirtualizedList from "./VirtualizedList";
 ```
 
 ```js
@@ -119,7 +161,18 @@ export default App;
 
 # 가상화된 목록 향상하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 4: 스타일 추가하기
 
@@ -136,15 +189,26 @@ export default App;
 
 # 고급 사용법
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 5: 가상 목록 커스터마이징하기
 
 react-virtualized의 고급 기능인 동적 행 높이, 무한 스크롤 등을 탐색해보세요.
 
 ```js
-import React from 'react';
-import { InfiniteLoader, List, AutoSizer } from 'react-virtualized';
+import React from "react";
+import { InfiniteLoader, List, AutoSizer } from "react-virtualized";
 ```
 
 ```js
@@ -155,11 +219,7 @@ const InfiniteVirtualizedList = ({ loadMoreRows, isRowLoaded, rowCount }) => {
     </div>
   );
   return (
-    <InfiniteLoader
-      isRowLoaded={isRowLoaded}
-      loadMoreRows={loadMoreRows}
-      rowCount={rowCount}
-    >
+    <InfiniteLoader isRowLoaded={isRowLoaded} loadMoreRows={loadMoreRows} rowCount={rowCount}>
       {({ onRowsRendered, registerChild }) => (
         <AutoSizer>
           {({ height, width }) => (
@@ -181,7 +241,18 @@ const InfiniteVirtualizedList = ({ loadMoreRows, isRowLoaded, rowCount }) => {
 export default InfiniteVirtualizedList;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

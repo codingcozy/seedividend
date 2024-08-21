@@ -3,16 +3,13 @@ title: "플라스크(Flask)에 웹소켓(Websockets) 적용하기"
 description: ""
 coverImage: "/assets/img/2024-05-01-PoweringFlaskwithWebsockets_0.png"
 date: 2024-05-01 22:54
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-01-PoweringFlaskwithWebsockets_0.png
 tag: Tech
 originalTitle: "Powering Flask with Websockets"
 link: "https://medium.com/@chandan-sharma/powering-flask-with-websockets-ca9f5a097ad9"
 isUpdated: true
 ---
-
-
-
 
 플라스크는 파이썬으로 작은부터 중간 규모의 웹 애플리케이션을 개발하기에 우수한 마이크로 프레임워크입니다.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 지금까지 이론적인 이야기는 충분하니, 웹소켓의 마법을 보여줄 웹 애플리케이션을 만들어 보겠습니다. 우리는 리눅스 터미널에서 공개 DNS 서버 8.8.8.8을 사용하여 인터넷 연결을 확인하는 웹 애플리케이션을 만들 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 [test@flask ~]$ ping -c 5 8.8.8.8
@@ -45,7 +53,18 @@ isUpdated: true
 (myvirtual) [test@flask ~]$ pip install Flask
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Flask-SocketIO 설치하기
 
@@ -57,40 +76,62 @@ isUpdated: true
 
 ## Flask 어플리케이션 만들기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가상 환경 내부에서 응용 프로그램을 보관할 수 있는 디렉토리를 만들어보세요. "flaskapp"이라는 디렉토리를 만들고, 그 안에 응용 프로그램 코드용 "myapp.py" 파일을 만들어보세요. 그리고 "flaskapp" 안에 "templates"라는 디렉토리도 만들어주세요. "templates" 안에 "base.html"이라는 파일을 만들어주세요. Flask 디렉토리 구조 전체는 아래와 같아야 해요:
 
 /home/test/flaskapp  
 |— myapp.py  
 |— templates/  
-|— — — base.html  
+|— — — base.html
 
 이제 "myapp.py" 파일로 아래 코드를 입력해보세요. 이 코드는 Linux 터미널에서 ping 명령을 실행할 때와 같이 웹소켓을 통해 ping 결과를 브라우저에 공개하는 응용 프로그램 코드입니다.
 
 ```js
 from flask import Flask,render_template,request
 from flask_socketio import SocketIO, emit
-import subprocess  
+import subprocess
 
-app = Flask(__name__)  
-socketio = SocketIO(app,debug=True,cors_allowed_origins='*',async_mode='eventlet')  
+app = Flask(__name__)
+socketio = SocketIO(app,debug=True,cors_allowed_origins='*',async_mode='eventlet')
 
-@app.route('/home')  
-def main():  
-        return render_template('base.html')  
+@app.route('/home')
+def main():
+        return render_template('base.html')
 
-@socketio.on("my_event")  
-def checkping():  
-    for x in range(5):  
-        cmd = 'ping -c 1 8.8.8.8|head -2|tail -1'  
-        listing1 = subprocess.run(cmd,stdout=subprocess.PIPE,text=True,shell=True)  
-        sid = request.sid  
-        emit('server', {"data1":x, "data":listing1.stdout}, room=sid)  
-        socketio.sleep(1)  
-``` 
+@socketio.on("my_event")
+def checkping():
+    for x in range(5):
+        cmd = 'ping -c 1 8.8.8.8|head -2|tail -1'
+        listing1 = subprocess.run(cmd,stdout=subprocess.PIPE,text=True,shell=True)
+        sid = request.sid
+        emit('server', {"data1":x, "data":listing1.stdout}, room=sid)
+        socketio.sleep(1)
+```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 코드에서는 우선 위에 설치한 flask 및 socketio 패키지에서 필요한 객체를 가져와서 응용 프로그램에서 사용할 인스턴스를 생성했습니다. "eventlet"으로 정의한 async_mode에 주목해주세요. SocketIO 설명서에 따르면, 설명된 비동기 서비스 중 하나를 사용해야 합니다. 우리는 eventlet을 사용하고 설치했습니다.
 
@@ -100,7 +141,18 @@ def checkping():
 
 ## Gunicorn 및 Nginx를 사용한 Flask 응용 프로그램 제공
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 우리 애플리케이션이 준비되었고 웹 서버를 배포할 시간입니다. 프로덕션 환경에 잘 맞는 Gunicorn + Nginx 조합을 사용할 것입니다.
 
@@ -139,7 +191,18 @@ server {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또한, 아래 내용으로 /etc/nginx/ 디렉토리 아래에 "proxy_params" 파일을 생성해주세요.
 
@@ -154,7 +217,18 @@ proxy_set_header X-Forwarded-Proto $scheme;
 
 아래 내용으로 /etc/systemd/system/ 디렉토리 아래에 "myapp.service" 파일을 생성해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 [Unit]
@@ -177,7 +251,18 @@ WantedBy=multi-user.target
 
 이는 서버가 보낸 핑 결과를 보는 데 사용되는 응용 프로그램에 의해 제공되는 페이지입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "base.html" 파일 안에 아래 내용을 추가해 주세요.
 
@@ -257,7 +342,7 @@ socket.on("server", function(msg) {
                 document.getElementById("checkbutton").style.cursor = "pointer";
                 document.getElementById("checkbutton").disabled = false;
                 document.getElementById("checkbutton").className = "btn btn-primary";
- 
+
         }
 
         else {
@@ -278,12 +363,23 @@ socket.on("server", function(msg) {
 
 위의 Flask 어플리케이션 코드에서 클라이언트로 for 루프 실행(루프가 실행된 횟수)을 "data1"로 보내고 있음을 기억하세요. 루프가 실제로 완료되었는지 확인하기 위해 루프가 몇 번 실행되었는지 확인합니다(따라서 서버에서 클라이언트로 완전한 ping 데이터가 전송되었는지 확인합니다). Python For Loop에서는 0부터 4까지로 계산되므로, 5회차가 완료되면 루프가 정말로 완료되었는지 확인하게 됩니다. 따라서 4번째 반복이 완료되면, 서버로부터 클라이언트로 완전한 데이터가 전송된 것입니다. 우리는 이 확인을 위하여 HTML 코드에서 데이터가 여전히 수신 중인지를 확인합니다. 데이터가 여전히 수신 중이라면, 버튼 클릭을 비활성화합니다. 완전한 데이터를 받으면, 버튼이 다시 활성화됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Flask 애플리케이션 시작하기
 
 ```js
-(myvirtual) [test@flask ~]$ sudo systemctl enable myapp.service 
+(myvirtual) [test@flask ~]$ sudo systemctl enable myapp.service
 (myvirtual) [test@flask ~]$ sudo systemctl start myapp.service
 ```
 
@@ -291,7 +387,18 @@ socket.on("server", function(msg) {
 
 ![웹소켓과 함께 플라스크 활용하기](/assets/img/2024-05-01-PoweringFlaskwithWebsockets_0.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 브라우저로 전송된 실시간 핑 결과를 확인하려면 "제출" 버튼을 클릭하세요!
 

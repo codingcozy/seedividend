@@ -3,16 +3,13 @@ title: "파이썬과 Redpanda를 사용하여 실시간 센서 데이터 집계�
 description: ""
 coverImage: "/assets/img/2024-05-27-AggregatingReal-timeSensorDatawithPythonandRedpanda_0.png"
 date: 2024-05-27 18:35
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-AggregatingReal-timeSensorDatawithPythonandRedpanda_0.png
 tag: Tech
 originalTitle: "Aggregating Real-time Sensor Data with Python and Redpanda"
 link: "https://medium.com/towards-data-science/aggregating-real-time-sensor-data-with-python-and-redpanda-30a139d59702"
 isUpdated: true
 ---
-
-
-
 
 ## 간단한 Python을 사용한 스트림 처리 및 tumbling windows
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 최근까지 스트림 처리는 일반적으로 Java 전문 지식이 필요했던 복잡한 작업이었습니다. 그러나 Python 스트림 처리 생태계가 점차 성숙해지면서 Faust, Bytewax 및 Quix와 같은 Python 개발자에게 더 많은 옵션이 있어졌습니다. 나중에는 이러한 라이브러리가 기존의 Java 중심 옵션과 경쟁하기 위해 등장한 이유에 대해 조금 더 배경을 제공할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 먼저 일을 시작해 보겠습니다. 우리는 스트림 프로세서로 Quix Streams 라이브러리를 사용할 것입니다. Quix Streams는 Faust와 매우 유사하지만 구문이 더 간결하고 StreamingDataframes라는 Pandas와 유사한 API를 사용하도록 최적화되었습니다.
 
@@ -34,7 +42,18 @@ pip install quixstreams
 
 무엇을 구축할 것인가
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단한 애플리케이션을 개발하게 될 거에요. 이 애플리케이션은 다양한 센서에서 수신되는 온도 측정값의 롤링 집계를 계산할 거예요. 온도 측정값은 비교적 높은 빈도로 들어오며, 이 애플리케이션은 이를 집계하여 낮은 시간 해상도(10초마다)로 출력할 거에요. 너무 높은 해상도의 데이터로 작업하고 싶지 않아서 이를 압축한 것으로 생각할 수 있어요.
 
@@ -44,7 +63,18 @@ pip install quixstreams
 
 기본 아키텍처의 개략적인 그림을 아래에서 확인할 수 있어요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-05-27-AggregatingReal-timeSensorDatawithPythonandRedpanda_1.png" />
 
@@ -54,7 +84,18 @@ pip install quixstreams
 
 데이터 생산자
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 코드 조각들은 ECU(Engine Control Units)의 펌웨어, 클라우드 플랫폼의 모니터링 모듈 또는 사용자 활동을 기록하는 웹 서버와 같은 데이터를 생성하는 시스템에 연결되어 있습니다. 이러한 코드는 원시 데이터를 가져와 해당 플랫폼이 이해할 수 있는 형식으로 스트리밍 데이터 플랫폼으로 보냅니다.
 
@@ -64,7 +105,18 @@ pip install quixstreams
 
 스트림 프로세서
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 엔진들은 데이터가 도착하는 대로 계속적으로 작업을 수행하는 엔진들입니다. 이들은 어플리케이션 백엔드에서 데이터를 처리하는 일반적인 마이크로서비스들과 비교될 수 있습니다. 하지만 한 가지 큰 차이가 있습니다. 마이크로서비스의 경우 데이터가 비아주로 도착하며, 각 "물방울"이 개별적으로 처리됩니다. 비가 많이 내려도 서비스가 "물방울"을 넘치지 않고 따라잡는 것은 그리 어렵지 않습니다 (물에서 불순물을 거르는 필터 시스템을 생각해보세요).
 
@@ -74,7 +126,18 @@ pip install quixstreams
 
 # 로컬 스트리밍 데이터 클러스터 설정하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 튜토리얼에서는 로컬 설치된 Redpanda를 활용하여 스트리밍 데이터를 관리하는 방법을 보여드릴 거에요. Redpanda를 선택한 이유는 로컬에서 쉽게 실행할 수 있기 때문이에요.
 
@@ -84,12 +147,23 @@ pip install quixstreams
 
 먼저 스트리밍 데이터를 생성하고 처리할 개별 파일을 만들 거에요. 이렇게 하면 실행 중인 프로세스를 독립적으로 관리하기 쉬워져요. 즉, 프로듀서를 중지하더라도 스트림 프로세서를 중지하지 않아도 되요. 이제 만들 파일의 개요를 살펴보겠어요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 스트림 프로듀서: sensor_stream_producer.py
-가상 온도 데이터를 생성하고 해당 데이터를 Redpanda의 "raw data" 소스 토픽에 씁니다. Faust 예제와 마찬가지로 약 5초마다 약 20개의 측정 값을 생성하거나 초당 약 4개의 측정 값을 생성합니다.
+  가상 온도 데이터를 생성하고 해당 데이터를 Redpanda의 "raw data" 소스 토픽에 씁니다. Faust 예제와 마찬가지로 약 5초마다 약 20개의 측정 값을 생성하거나 초당 약 4개의 측정 값을 생성합니다.
 - 스트림 프로세서: sensor_stream_processor.py
-"source" 토픽에서 원시 온도 데이터를 소비하고 데이터의 해상도를 줄이기 위해 텀블링 윈도우 계산을 수행합니다. 10초 간격의 창에서 받은 데이터의 평균 값을 계산하여 각 10초마다 한 번의 측정 값을 얻습니다. 그런 다음 이 집계된 측정 값을 Redpanda의 agg-temperatures 토픽에 생성합니다.
+  "source" 토픽에서 원시 온도 데이터를 소비하고 데이터의 해상도를 줄이기 위해 텀블링 윈도우 계산을 수행합니다. 10초 간격의 창에서 받은 데이터의 평균 값을 계산하여 각 10초마다 한 번의 측정 값을 얻습니다. 그런 다음 이 집계된 측정 값을 Redpanda의 agg-temperatures 토픽에 생성합니다.
 
 스트림 프로세서가 대부분의 작업을 처리하고이 튜토리얼의 핵심입니다. 스트림 프로듀서는 적절한 데이터 수집 프로세스의 대리인입니다. 예를 들어, 프로덕션 시나리오에서는 MQTT 커넥터와 같은 것을 사용하여 센서에서 데이터를 가져와 토픽에 생성할 수 있습니다.
 
@@ -97,7 +171,18 @@ pip install quixstreams
 
 # 스트림 프로듀서 생성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새로운 파일인 sensor_stream_producer.py를 생성하고 주요 Quix 애플리케이션을 정의하세요. (이 예제는 Python 3.10에서 개발되었지만, Python 3의 다른 버전도 pip install quixstreams을 실행할 수 있다면 작동해야 합니다.)
 
@@ -115,7 +200,18 @@ from quixstreams import Application
 
 그런 다음, Quix 애플리케이션 및 데이터를 보낼 대상 토픽을 정의하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 app = Application(broker_address='localhost:19092')
@@ -142,7 +238,18 @@ class Temperature:
         return json.dumps(data)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로, 가짜 온도 센서 데이터를 Redpanda 소스 토픽으로 보내는 코드를 추가해보세요.
 
@@ -172,7 +279,18 @@ with app.get_producer() as producer:
 
 이제 명령줄에서 다음을 실행하여 프로듀서를 테스트해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 python sensor_stream_producer.py
@@ -186,8 +304,18 @@ python sensor_stream_producer.py
 
 작동하는 것을 확인하면 일단 프로세스를 중지해주세요 (나중에 스트림 처리 프로세스와 함께 실행할 거에요).
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 스트림 프로세서 생성
 
@@ -197,7 +325,18 @@ python sensor_stream_producer.py
 
 먼저, 이전과 같이 종속성을 추가해주세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import os
@@ -223,14 +362,25 @@ WINDOW_EXPIRES = 1 # 데이터가 창에서 제외되기 전에 도착할 수 �
 
 나중에 창 변수가 무엇을 의미하는지 자세히 살펴보겠지만, 지금은 주요 Quix 애플리케이션을 정의하는 데 집중해 보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 app = Application(
-    broker_address='localhost:19092',
-    consumer_group="quix-stream-processor",
-    auto_offset_reset="earliest",
-)
+  (broker_address = "localhost:19092"),
+  (consumer_group = "quix-stream-processor"),
+  (auto_offset_reset = "earliest")
+);
 ```
 
 지금은 몇 가지 더 많은 애플리케이션 변수들이 있는데요, consumer_group와 auto_offset_reset이 그 중 일부에요. 이러한 설정 사이의 상호작용에 대해 더 알아보려면 "카프카의 auto offset reset 구성 이해: 사용 사례 및 함정"이라는 기사를 확인해 보세요.
@@ -245,7 +395,18 @@ sdf = app.dataframe(input_topic)
 sdf = sdf.update(lambda value: logger.info(f"Input value received: {value}"))
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 들어오는 데이터가 손상되지 않았는지 확인하기 위해 로깅 라인을 추가했습니다.
 
@@ -253,9 +414,9 @@ sdf = sdf.update(lambda value: logger.info(f"Input value received: {value}"))
 
 ```js
 def custom_ts_extractor(value):
- 
+
     # 센서의 타임스탬프를 추출하여 datetime 객체로 변환
-    dt_obj = datetime.strptime(value["ts"], "%Y-%m-%dT%H:%M:%S.%f") # 
+    dt_obj = datetime.strptime(value["ts"], "%Y-%m-%dT%H:%M:%S.%f") #
 
     # 효율적인 Quix 처리를 위해 Unix epoch부터의 밀리초로 변환
     milliseconds = int(dt_obj.timestamp() * 1000)
@@ -265,12 +426,23 @@ def custom_ts_extractor(value):
     return value["timestamp"]
 
 # 이전에 정의된 input_topic 변수를 덮어쓰어 사용자 정의 타임스탬프 추출기를 사용하도록 설정
-input_topic = app.topic(TOPIC, timestamp_extractor=custom_ts_extractor, value_deserializer="json") 
+input_topic = app.topic(TOPIC, timestamp_extractor=custom_ts_extractor, value_deserializer="json")
 ```
 
 왜 이렇게 하는 걸까요? 처리에 사용할 시간에 대해 철학적인 논쟁으로 빠져들 수 있겠지만, 그건 다른 기사의 주제입니다. 사용자 정의 타임스탬프로 하고자 한 것은 실시간 처리에서 시간을 해석하는 다양한 방법이 있고, 데이터 도착 시간을 반드시 사용할 필요는 없다는 것을 보여주고 싶었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새 창이 시작될 때 집계를 위한 상태를 초기화하세요. 창에 첫 번째 레코드가 도착할 때 집계를 준비합니다.
 
@@ -290,47 +462,67 @@ def initializer(value: dict) -> dict:
 
 이제 "리듀서" 함수 형태로 집계 로직을 추가해보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 def reducer(aggregated: dict, value: dict) -> dict:
-    aggcount = aggregated['count'] + 1
-    value_dict = json.loads(value)
-    return {
-        'count': aggcount,
-        'min': min(aggregated['min'], value_dict['value']),
-        'max': max(aggregated['max'], value_dict['value']),
-        'mean': (aggregated['mean'] * aggregated['count'] + value_dict['value']) / (aggregated['count'] + 1)
-    }
-
+aggcount = aggregated['count'] + 1
+value_dict = json.loads(value)
+return {
+'count': aggcount,
+'min': min(aggregated['min'], value_dict['value']),
+'max': max(aggregated['max'], value_dict['value']),
+'mean': (aggregated['mean'] \* aggregated['count'] + value_dict['value']) / (aggregated['count'] + 1)
+}
 
 이 기능은 창에서 여러 집계를 수행할 때만 필요합니다. 우리의 경우 각 창에 대해 count, min, max 및 mean 값을 생성하기 때문에 이러한 값을 미리 정의해야 합니다.
 
 다음으로, 중요한 부분입니다 - tumbling window 기능 추가:
 
-
 ### 창 유형 및 길이와 같은 창 매개변수 정의
-sdf = (
-    # 10초의 텀블링 창 정의
-    sdf.tumbling_window(timedelta(seconds=WINDOW), grace_ms=timedelta(seconds=WINDOW_EXPIRES))
+
+sdf = ( # 10초의 텀블링 창 정의
+sdf.tumbling_window(timedelta(seconds=WINDOW), grace_ms=timedelta(seconds=WINDOW_EXPIRES))
 
     # 'reducer' 및 'initializer' 함수로 'reduce' 집계 생성
     .reduce(reducer=reducer, initializer=initializer)
 
     # 닫힌 10초 창에 대해서만 결과 발생
     .final()
+
 )
 
 ### 스트리밍 DataFrame에 창 적용 및 출력에 포함할 데이터 포인트 정의
+
 sdf = sdf.apply(
-    lambda value: {
-        "time": value["end"], # 'agg-temperature' 토픽으로 보낼 메시지의 타임스탬프로 윈도우 종료 시간 사용
-        "temperature": value["value"], # 온도 매개변수에 대한 {count, min, max, mean} 값을 포함하는 사전 전송
-    }
+lambda value: {
+"time": value["end"], # 'agg-temperature' 토픽으로 보낼 메시지의 타임스탬프로 윈도우 종료 시간 사용
+"temperature": value["value"], # 온도 매개변수에 대한 {count, min, max, mean} 값을 포함하는 사전 전송
+}
 )
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스트림 처리가 가능한 DataFrame을 정의하는데, 이는 텀블링 윈도우를 기반으로 한 집계의 집합입니다 — 시간의 10초간의 겹치지 않는 세그먼트에 대해 수행되는 집계의 집합입니다.
 
@@ -347,7 +539,18 @@ if __name__ == "__main__":
     app.run(sdf)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 알림: 생산자 코드가 합성 온도 데이터를 전송하는 데 사용된 생산자 코드와 매우 다르게 보일 수 있습니다 (with app.get_producer() as producer()을 사용하는 부분). 이는 Quix가 변환 작업을 위해 다른 생산자 함수를 사용하기 때문입니다 (즉, 입력 및 출력 주제 사이에 위치한 작업).
 
@@ -357,7 +560,18 @@ if __name__ == "__main__":
 
 # 스트리밍 애플리케이션 실행
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마침내, 스트리밍 애플리케이션을 실행하고 모든 부분들이 원활하게 작동하는지 확인할 수 있게 되었네요.
 
@@ -369,7 +583,18 @@ python sensor_stream_producer.py
 
 그런 다음, 두 번째 터미널 창에서 스트림 프로세서를 시작하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 python sensor_stream_processor.py
@@ -381,8 +606,18 @@ python sensor_stream_processor.py
 
 <img src="/assets/img/2024-05-27-AggregatingReal-timeSensorDatawithPythonandRedpanda_2.png" />
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 마무리
 
@@ -392,7 +627,18 @@ python sensor_stream_processor.py
 
 자료 전문가, 기계 학습 엔지니어 및 소프트웨어 엔지니어들이 함께 작업할 때 Python이 선호되는 언어임을 자주 간과합니다. 이는 SQL보다도 더 효율적입니다. 왜냐하면 Python을 사용하여 데이터와 관련 없는 작업(예: API 호출 및 웹훅 트리거)을 수행할 수 있기 때문입니다. 이것이 Faust, Bytewax, Quix와 같은 라이브러리들이 발전해 나간 이유 중 하나입니다. 즉, 이러한 다양한 분야 사이의 임피던스 갭을 줄이기 위해 만들어졌다는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 희망을 가지고, 파이썬이 스트림 처리에 적합한 언어임을 보여드릴 수 있었으면 좋겠고, 파이썬의 스트림 처리를 위한 생태계가 꾸준히 성숙해지고 있으며, 기존의 Java 기반 생태계에 버금가는 성능을 보여줄 수 있음을 보여드릴 수 있었기를 희망합니다.
 

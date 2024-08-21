@@ -3,17 +3,13 @@ title: "플러터 앱에 지문 인증 추가하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Title Secure Your Flutter App with Biometric Authentication Fingerprint"
 link: "https://medium.com/@zbadisalim/title-secure-your-flutter-app-with-biometric-authentication-fingerprint-28598c358114"
 isUpdated: true
 ---
-
-
-
-
 
 요즘의 디지턈 세계에서는 보안이 매우 중요합니다, 특히 민감한 정보를 다루는 모바일 애플리케이션에서는 더욱 그렇습니다. 지문 인식과 같은 생체 인증은 사용자를 인증하는 편리하고 안전한 방법을 제공합니다. 이 기사에서는 Flutter 앱에 생체 인증(지문)을 통합하는 방법을 알아보겠습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 생체 인증은 사용 편의성과 높은 수준의 보안 때문에 점점 인기가 높아지고 있습니다. Flutter는 Google의 UI 툴킷으로, 단일 코드베이스에서 모바일, 웹, 데스크톱용으로 네이티브로 컴파일된 애플리케이션을 개발하기 위한 훌륭한 지원을 제공합니다. 앱에 생체 인증을 통합하는 데 탁월한 지원을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 전제 조건
 
@@ -35,7 +42,18 @@ isUpdated: true
 
 플러터 프로젝트 설정하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저 새로운 Flutter 프로젝트를 생성하세요:
 
@@ -53,7 +71,18 @@ dependencies:
   local_auth: ^2.0.1
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼, flutter pub get을 실행하여 패키지를 설치하십시오.
 
@@ -66,7 +95,18 @@ import "package:flutter/material.dart";
 import "package:local_auth/local_auth.dart";
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 생체 인증을 처리하는 새로운 클래스를 만들어 보세요:
 
@@ -98,7 +138,18 @@ class BiometricAuth {
 
 앱의 UI에서 authenticate() 메소드를 호출하여 사용자를 인증할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 class MyApp extends StatelessWidget {

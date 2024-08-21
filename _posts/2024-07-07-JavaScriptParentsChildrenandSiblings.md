@@ -3,15 +3,13 @@ title: "자바스크립트  부모, 자식, 형제 요소 다루는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-07-JavaScriptParentsChildrenandSiblings_0.png"
 date: 2024-07-07 02:21
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-JavaScriptParentsChildrenandSiblings_0.png
 tag: Tech
 originalTitle: "JavaScript — Parents, Children and Siblings"
 link: "https://medium.com/@geraldclarkaudio/javascript-parents-children-and-siblings-78357ddce5bd"
 isUpdated: true
 ---
-
-
 
 ![이미지](/assets/img/2024-07-07-JavaScriptParentsChildrenandSiblings_0.png)
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-07-07-JavaScriptParentsChildrenandSiblings_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 간단한 노드 트리를 볼 수 있어요. DOM의 간단한 표현이에요.
 
@@ -31,7 +40,18 @@ isUpdated: true
 
 <img src="/assets/img/2024-07-07-JavaScriptParentsChildrenandSiblings_2.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 간단한 HTML 페이지가 있습니다. Article 태그 안에 여러 p 태그와 div가 있는 기사 태그입니다. 이 기사 안에 있는 모든 요소에 액세스하고 JavaScript를 통해 각 요소에 클래스를 할당해 봅시다.
 
@@ -41,7 +61,18 @@ isUpdated: true
 
 ![JavaScriptParentsChildrenandSiblings_4](/assets/img/2024-07-07-JavaScriptParentsChildrenandSiblings_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `.children` 속성을 사용하면 article 요소 내에 있는 모든 요소를 나열하는 HTML 컬렉션을 얻을 수 있습니다.
 
@@ -51,7 +82,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-07-07-JavaScriptParentsChildrenandSiblings_5.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Array.from()을 사용하면 이를 배열로 변환할 수 있습니다.
 
@@ -61,7 +103,18 @@ Array.from()을 사용하면 이를 배열로 변환할 수 있습니다.
 
 팁: Array.from()을 사용하면 실제로 article.children의 원래 값을 변경하지 않습니다. 이는 비파괴적입니다. 그래서 이 줄 이후에 articleParent.children를 로그로 남긴다면 여전히 HTMLCollection을 반환할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![JavaScriptParentsChildrenandSiblings_7](/assets/img/2024-07-07-JavaScriptParentsChildrenandSiblings_7.png)
 
@@ -71,7 +124,18 @@ Here I’m cycling through the array and assigning an ‘article-element’ clas
 
 So this is a good use of the relationship between the article node and the nodes within it (children).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 다른 방법을 보여드리겠어요:
 
@@ -81,7 +145,18 @@ h2의 부모 요소를 찾고 싶다면, .parentElement 속성을 사용합니�
 
 ![image 2](/assets/img/2024-07-07-JavaScriptParentsChildrenandSiblings_10.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 게시물에서 로그아웃합니다.
 
@@ -91,7 +166,18 @@ h2의 부모 요소를 찾고 싶다면, .parentElement 속성을 사용합니�
 
 만약 본문을 예상했다면, 정답입니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-07-07-JavaScriptParentsChildrenandSiblings_12.png](/assets/img/2024-07-07-JavaScriptParentsChildrenandSiblings_12.png)
 
@@ -101,7 +187,18 @@ Now the sibling relationship:
 
 This line gets the eleement next to the one you’ve queried. In this case, the h2. So I should get a p tag.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image 1](/assets/img/2024-07-07-JavaScriptParentsChildrenandSiblings_14.png)
 
@@ -111,7 +208,18 @@ hayoooooo
 
 This gets the sibling in the opposite direction. Since my h2 doesn’t have a previous sibling, it returns null, BUT if it did, it would return it.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 DOM을 탐색하는 매우 유연한 방법이에요. DOM에 대한 한 번의 쿼리로 article 태그 내의 모든 것에 액세스할 수 있어요.
 

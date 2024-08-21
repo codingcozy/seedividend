@@ -3,16 +3,13 @@ title: "Angular v18 성능 향상 및 개발자 경험 향상"
 description: ""
 coverImage: "/assets/img/2024-05-27-Angularv18APerformanceBoostandDeveloperExperienceEnhancer_0.png"
 date: 2024-05-27 19:00
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-Angularv18APerformanceBoostandDeveloperExperienceEnhancer_0.png
 tag: Tech
 originalTitle: "Angular v18: A Performance Boost and Developer Experience Enhancer"
 link: "https://medium.com/@afserali.b/angular-v18-a-performance-boost-and-developer-experience-enhancer-682d4600eb27"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-05-27-Angularv18APerformanceBoostandDeveloperExperienceEnhancer_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 1. Zoneless Change Detection (실험적): Angular v18은 zoneless change detection을 실험적으로 지원합니다. 이 혁신적인 접근 방식은 Angular이 컴포넌트 내에서 변경 사항을 감지하는 방식을 최적화하여 응용 프로그램 성능을 혁신적으로 개선할 수 있습니다. 아직 실험 단계이지만, Angular의 성능 최적화의 미래를 엿볼 수 있는 기능입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. Angular.dev: Your New Developer Hub: Angular 개발자를 위한 공식 홈인 Angular.dev로 옮겼습니다. 이 간소화된 플랫폼은 깊이 있는 가이드와 자습서부터 최신 뉴스와 업데이트까지 모든 Angular 요구 사항에 대한 중앙 집중지를 제공합니다.
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 5. Stay Ahead of the Curve: Angular v18을 사용하면 항상 진화하고 경계를 넓히는 프레임워크에 접근할 수 있습니다. v18로 업그레이드하면 최신 개발 사항과 최고의 실천법을 갖춤으로써 여러분의 애플리케이션을 웹 개발 분야의 선두에 유지할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 업그레이드하고 탐험하기:
 

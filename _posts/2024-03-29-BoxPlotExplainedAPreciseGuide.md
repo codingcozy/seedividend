@@ -3,17 +3,13 @@ title: "박스 플롯 설명"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Box Plot Explained A Precise Guide"
 link: "https://medium.com/@stoic_sapien1/box-plot-explained-a-precise-guide-75ec0d08c4fd"
 isUpdated: true
 ---
-
-
-
-
 
 ## 상자 그림: 탐색적 데이터 분석
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 더 나아가기 전에, 상자 그림의 다양한 요소에 대해 먼저 알아보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 IQR은 사분위 범위로 알려져 있으며, 수학적으로는 제3사분위와 제1사분위의 차이를 의미합니다.
 
@@ -33,7 +40,18 @@ IQR은 사분위 범위로 알려져 있으며, 수학적으로는 제3사분위
 
 이것은 상자 그림의 다양한 사용 사례들입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 [1] 데이터 세트에서 이상치를 감지하는 데 사용되며, 최고 값과 최저 값을 넘어 있는 데이터를 Outlier라고 합니다.
 
@@ -43,7 +61,18 @@ IQR은 사분위 범위로 알려져 있으며, 수학적으로는 제3사분위
 
 예: 회사에서 제공하는 제록스 복사기 서비스 및 유지보수를 제공하는 두 회사의 응답 시간을 비교하는 경우.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 [3] 상자 그림은 데이터를 시각적으로 요약해줍니다. 데이터의 평균값을 빠르게 파악할 수 있고, 데이터의 분산 정도와 데이터가 편향되어 있는지 여부도 파악할 수 있습니다.
 
@@ -53,7 +82,18 @@ IQR은 사분위 범위로 알려져 있으며, 수학적으로는 제3사분위
 
 이제 상자 그림을 활용하여 이 문제를 해결해 봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="https://miro.medium.com/v2/resize:fit:996/1*W9CBKd_SJnH_zaxEXYh8yA.gif" />
 
@@ -63,7 +103,18 @@ IQR은 사분위 범위로 알려져 있으며, 수학적으로는 제3사분위
 
 이제 seaborn과 plotly를 사용하여 플롯(Plot)을 만들고 문제를 해결해봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 DataFrame를 확인한 후 X1_Corp가 가장 잘 수행되는 것 같지만, 상자 플롯을 그려본 후에 우리는 X1_Corp의 중앙 응답 시간이 247분인 반면 Z1_Corp의 중앙 응답 시간은 190분임을 발견했습니다.
 
@@ -73,7 +124,18 @@ DataFrame를 확인한 후 X1_Corp가 가장 잘 수행되는 것 같지만, 상
 
 [2] Z1_Corp의 중앙 응답 시간은 190분인 반면, X1_Corp의 중앙 응답 시간은 247분입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 [3] X1_Corp의 응답 시간 변동성이 Z1_Corp의 응답 시간 변동성보다 큽니다.
 

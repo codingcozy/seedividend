@@ -3,16 +3,13 @@ title: "Angular에서 가장 흔히 사용되는 디자인 패턴 종류와 적�
 description: ""
 coverImage: "/assets/img/2024-06-22-MostCommonDesignPatternsinAngularWhatTheyAreandHowtoApplyThem_0.png"
 date: 2024-06-22 14:58
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-MostCommonDesignPatternsinAngularWhatTheyAreandHowtoApplyThem_0.png
 tag: Tech
 originalTitle: "Most Common Design Patterns in Angular: What They Are and How to Apply Them"
 link: "https://medium.com/williambastidasblog/most-common-design-patterns-in-angular-what-they-are-and-how-to-apply-them-f0193b85e500"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-06-22-MostCommonDesignPatternsinAngularWhatTheyAreandHowtoApplyThem_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 Angular에서 디자인 패턴은 고품질 애플리케이션을 개발하는 중요한 요소입니다. Angular는 매우 모듈화된 프레임워크로, 디자인 패턴을 구현하고 확장 가능하며 유지보수 가능하며 효율적인 애플리케이션을 만드는 것이 쉽습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단히 말해, 디자인 패턴은 Angular 프로젝트에 구조, 조직 및 견고한 기반을 제공합니다. 그러니 그것들을 받아들이고 여러분의 프로젝트가 새로운 높이로 솟아오를 것을 지켜보세요!
 
@@ -32,7 +40,18 @@ Angular에서 디자인 패턴은 고품질 애플리케이션을 개발하는 �
 
 제어의 역전 패턴은 Angular에서와 일반적으로 응용 프로그램 개발에서 매우 인기 있는 디자인 패턴입니다. 이 패턴은 객체의 생성과 관리의 책임을 클래스에서 다른 클래스로 뒤집는 데 초점을 맞춥니다. 클래스가 의존성을 만들고 관리하는 책임을 갖는 대신, 주 클래스는 종속성을 의존성 주입 컨테이너를 통해 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주요 클래스는 어떻게 의존성이 생성 또는 관리되는지를 걱정하지 않고, 단순히 의존성 주입 컨테이너가 제공해주기를 기대합니다. 이는 코드 내에서 의존성을 쉽게 대체하고 수정할 수 있어 주요 클래스에 영향을 미치지 않고 유연성을 제공합니다.
 
@@ -42,7 +61,18 @@ Angular에서는 의존성 주입 방식을 사용하여 제어의 역전 패턴
 
 이를 위해 먼저 의존성 주입 컨테이너에 서비스를 등록하고, 다음으로 해당 서비스를 주요 구성 요소에 생성자나 속성을 통해 주입해야 합니다. 이것은 주요 구성 요소가 서비스가 어떻게 생성되거나 관리되는지 걱정할 필요가 없고, 대신 의존성 주입 컨테이너가 이를 제공할 것이라고 믿는다는 것을 의미합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또한, 제어 역전 패턴을 사용하여 서비스를 쉽게 대체할 수 있습니다. 주요 구성 요소에 영향을 주지 않고 다른 구현체로 교체할 수 있습니다. 이는 우리 응용 프로그램의 유연성과 확장성을 향상시키며, 구성 요소와 서비스 간의 책임을 명확하고 깔끔하게 분리할 수 있게 합니다.
 
@@ -52,7 +82,18 @@ Angular에서는 의존성 주입 방식을 사용하여 제어의 역전 패턴
 
 이것이 바로 Angular에서 하는 의존성 주입입니다. 컴포넌트나 서비스가 기능을 수행하는 데 필요한 다른 컴포넌트나 서비스를 "빌릴" 수 있도록 합니다. 컴포넌트나 서비스 내에서 모든 것을 처음부터 만드는 대신 필요한 객체를 빌리기만 하면 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 여러 가지 이점이 있습니다:
 
@@ -79,7 +120,18 @@ export class DataService {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예제에서는 DataService가 API에 GET 요청을 보내어 일부 데이터를 가져오는 것을 보여줍니다. DataService 클래스는 Angular에서 제공되는 HttpClient 모듈에 의존성이 있습니다. DataService 내에서 HttpClient의 인스턴스를 직접 생성하는 대신, 생성자를 통해 주입해줍니다.
 
@@ -89,7 +141,18 @@ export class DataService {
 
 # 싱글톤 패턴: Angular에서의 신뢰할 수 있는 동반자!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 친구가 항상 당신을 도와줄 준비가 되어있는 아주 특별한 친구가 있다고 상상해보세요. 이 친구는 당신이 신뢰하며 항상 함께 해줄 것을 알고 있습니다.
 
@@ -101,7 +164,18 @@ export class DataService {
 - 컴포넌트 또는 서비스의 불필요한 다중 인스턴스가 생성되지 않아 응용 프로그램의 효율성과 성능을 향상시킵니다.
 - 모든 컴포넌트가 동일한 정보에 액세스하고 공통 목표를 달성할 수 있으므로 문제 해결과 코드 유지보수가 용이해집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앵귤러에서의 싱글톤 패턴은 싱글톤 서비스를 생성함으로써 구현될 수 있습니다. 싱글톤 서비스는 애플리케이션 수명 동안 한 번만 인스턴스화되는 서비스를 의미합니다. 이는 동일한 서비스를 주입하는 모든 컴포넌트가 동일한 인스턴스에 대한 참조를 받게 하여 서비스가 전체 애플리케이션 동안 하나의 인스턴스만을 가지도록 보장합니다.
 
@@ -110,20 +184,30 @@ export class DataService {
 다음은 앵귤러에서 싱글톤 서비스를 구현한 예시입니다:
 
 ```typescript
-import { Injectable } from '@angular/core';
+import { Injectable } from "@angular/core";
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: "root",
 })
 export class AuthService {
-
   // 인증 및 권한 부여 로직
 
-  constructor() { }
+  constructor() {}
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예시에서는 AuthService라는 싱글톤 서비스를 만들었습니다. providedIn을 'root'로 설정함으로써, 이 서비스가 한 번만 인스턴스화되고 전체 애플리케이션 동안 사용할 수 있도록 보장합니다.
 
@@ -133,48 +217,71 @@ export class AuthService {
 
 제가 상상하는 것은 처음부터 사용자 정의 차량을 만드는 것입니다. 다양한 엔진, 바퀴 및 기타 구성 요소 중에서 선택하여 개인 요구에 맞는 완벽한 차량을 만들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앵귤러에서 Factory 패턴이 정확히 하는 일입니다: 다양한 부분과 기능을 결합하여 사용자 정의 컴포넌트를 생성할 수 있게 합니다. Factory 패턴은 상위 클래스에서 객체를 생성하는 공통 인터페이스를 제공하지만 하위 클래스에서 생성될 객체의 유형을 변경할 수 있는 방법입니다.
 
 이에는 여러 가지 장점이 있습니다:
+
 - 코드의 유연성과 적응성을 높입니다. 다양한 기능과 기능을 갖는 사용자 정의 컴포넌트를 만들 수 있습니다.
 - 코드의 모듈성과 확장성을 향상시킵니다. 필요에 따라 컴포넌트를 만들고 재사용할 수 있습니다.
 - 코드의 테스트 및 디버깅을 용이하게 합니다. 개별 컴포넌트를 격리하여 테스트할 수 있습니다.
 
 ```js
-import { Injectable } from '@angular/core';
+import { Injectable } from "@angular/core";
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: "root",
 })
 export class CarFactory {
   createCar(type: string) {
     switch (type) {
-      case 'sports':
+      case "sports":
         return new SportsCar();
-      case 'luxury':
+      case "luxury":
         return new LuxuryCar();
       default:
-        throw new Error('Invalid car type');
+        throw new Error("Invalid car type");
     }
   }
 }
 
 class SportsCar {
   drive() {
-    console.log('Driving a sports car');
+    console.log("Driving a sports car");
   }
 }
 
 class LuxuryCar {
   drive() {
-    console.log('Driving a luxury car');
+    console.log("Driving a luxury car");
   }
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예시에서는 createCar 메서드를 제공하는 CarFactory 서비스가 있습니다. 이 메서드는 만들 차량의 종류를 나타내는 문자열 인수를 사용하고 SportsCar 또는 LuxuryCar의 인스턴스를 반환합니다. 이를 통해 차량 객체의 생성과 소비자를 분리하여, 추후 구현 변경이나 새로운 차종 추가가 쉬워집니다.
 
@@ -200,7 +307,18 @@ export class AppComponent {
 
 여기서 CarFactory 서비스를 컴포넌트에 constructor를 사용하여 주입하고, 버튼을 클릭할 때 SportsCar를 생성하는 방법을 사용합니다. 컴포넌트는 SportsCar가 어떻게 생성되었는지 알 필요가 없으며, CarFactory에서 얻을 수 있다는 사실만 알고 있으면 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Angular의 Factory 패턴은 사용자의 요구에 맞게 다양한 부품과 기능을 선택하여 완벽한 컴포넌트를 만들 수 있는 것처럼, 마치 처음부터 사용자 정의 자동차를 제작하는 것과 비슷합니다. 사용자 정의 Angular 컴포넌트로 도로에 나갈 준비를 하세요!
 
@@ -210,7 +328,18 @@ Angular의 Factory 패턴은 사용자의 요구에 맞게 다양한 부품과 �
 
 이것이 바로 Angular에서 옵저버 패턴이 하는 일입니다: 한 객체의 상태 변경을 감지하고 다른 객체의 데이터나 상태의 변경사항에 반응하도록 하는 것으로, 객체 간의 일대다 종속성을 정의합니다. 따라서 한 객체의 상태가 변경되면 그 종속 객체들에게 알림을 보내고 자동으로 업데이트됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 방법에는 여러 가지 장점이 있어요:
 
@@ -222,7 +351,18 @@ Angular의 옵저버 패턴은 Angular 이벤트 시스템을 사용하여 구�
 
 다음은 예시 구현입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // Service
@@ -269,18 +409,41 @@ Angular의 Observer 패턴은 일종의 지정된 사람이 당신의 친구 그
 
 # 데코레이터 패턴: Angular 컴포넌트를 동적으로 사용자 정의하기!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 상상해봐! 맞춤 의류 매장에 있는 상황이야. 다양한 색상, 패턴, 스타일 중에서 선택해서 완벽한 옷을 만들 수 있어. Angular의 Decorator 패턴을 이용하면, 기능과 속성을 추가하거나 수정하여 컴포넌트를 자유롭게 사용할 수 있어.
 
 Decorator 패턴은 객체에 동적으로 새로운 기능이나 책임을 추가할 수 있는 구조적인 디자인 패턴이야. 이 패턴을 사용하면 동일한 클래스의 다른 객체에 영향을 주지 않으면서 객체에 새로운 동작이나 책임을 추가할 수 있어. 구체적인 컴포넌트를 감싸는 데 사용되는 일련의 데코레이터 클래스를 사용하는 것이 특징이야.
 
 이 패턴에는 여러 가지 장점이 있어:
+
 - 다른 컴포넌트에 영향을 주지 않고 기능과 속성을 자유롭게 추가하거나 수정할 수 있어서 코드의 유연성과 적응력이 증가해.
 - 데코레이터 클래스를 사용하여 필요한 대로 다른 컴포넌트를 감싸고 새로운 기능을 추가하여 코드의 모듈성과 확장성이 향상돼.
 - 개별 컴포넌트와 그 동작을 분리하여 테스트하고 디버깅할 수 있어 코드의 테스트와 디버깅이 용이해져.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앵귤러의 데코레이터 패턴은 사용자 정의 데코레이터를 활용하여 구현할 수 있습니다. 이는 클래스, 메서드, 속성 또는 매개변수에 부착할 수 있는 특별한 종류의 선언입니다. 예시를 살펴보겠습니다.
 
@@ -325,7 +488,18 @@ export class DataService {
 
 앵귤러의 데코레이터 패턴은 맞춤 의류 매장에서 쇼핑하는 것과 비슷합니다. 다양한 색상, 패턴, 스타일을 선택하여 완벽한 컴포넌트를 만들어나갈 수 있습니다. 데코레이터 패턴을 사용하여 앵귤러 컴포넌트를 실시간으로 사용자 정의해 보세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # The Strategy Pattern: Choosing the Right Algorithm for Your Angular Component!
 
@@ -335,7 +509,18 @@ export class DataService {
 
 이에는 여러 가지 장점이 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 코드의 유연성과 적응성이 증가하여 작업에 따라 적절한 알고리즘이나 전략을 선택할 수 있습니다.
 - 코드의 유지보수성과 확장성이 향상되어 다른 객체의 동작에 영향을 미치지 않고 필요에 따라 알고리즘을 추가하거나 수정할 수 있습니다.
@@ -385,7 +570,18 @@ export class DataService {
 
 이 예제에서 SortStrategy 인터페이스는 모든 구체적인 전략이 구현해야 하는 sort 메서드를 정의합니다. BubbleSortStrategy와 QuickSortStrategy는 SortStrategy 인터페이스의 구체적인 구현체입니다. DataService는 현재 정렬 전략을 저장하는 프라이빗 속성과 전략을 전환할 수 있는 공개 메서드를 갖는 서비스입니다. sortData 메서드는 현재 정렬 전략을 사용하여 데이터를 정렬합니다. 전략 패턴을 사용하여 정렬 알고리즘을 동적으로 런타임 시 변경할 수 있으며 코드의 나머지 부분에 영향을 주지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앵귤러에서의 전략 패턴은 특정 작업을 수행하도록 설계된 다양한 도구들의 모음과 비슷합니다. 전략 패턴을 사용하여 앵귤러 컴포넌트에 적합한 알고리즘을 선택해보세요!
 
@@ -395,7 +591,18 @@ export class DataService {
 
 명령 패턴은 요청이나 작업을 객체로 캡슐화하고, 요청을 대기열에 넣거나 기록하고, 이후에 실행할 수 있는 행위 디자인 패턴입니다. 클라이언트는 객체에게 명령을 내릴 수 있으며, 실행 세부사항을 알 필요가 없습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이는 몇 가지 이점을 가지고 있습니다:
 
@@ -448,7 +655,18 @@ export class DataService {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예에서 Command 인터페이스는 모든 구체적인 명령이 구현해야하는 execute 메서드를 정의합니다. SaveCommand와 LoadCommand는 Command 인터페이스의 구체적인 구현입니다. DataService는 현재 명령을 저장하는 개인 속성과 명령 간에 전환할 수 있는 공용 메서드를 갖는 서비스입니다. executeCommand 메서드는 현재 명령을 사용하여 작업을 실행합니다. Command Pattern을 사용하면 시스템의 동작을 코드의 나머지 부분에 영향을주지 않고 실행 중에 동적으로 변경할 수 있습니다.
 
@@ -458,7 +676,18 @@ Angular의 Command 패턴은 팀을 지휘하고 특정 작업을 수행하도�
 
 복합적인 구조를 구축하는 것을 상상해보세요. 그렇게 하면 집과 같은 복잡한 구조를 만들고 최종 제품을 만들기 위해 다양한 부품과 구성 요소를 조립해야하는 경우입니다. Angular의 빌더 패턴을 사용하면 구성 프로세스를 더 작고 관리하기 쉬운 부분으로 분해하여 복합 컴포넌트를 간편하게 구성할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 빌더 패턴은 복잡한 객체의 구성을 해당 표현에서 분리할 수 있는 생성 디자인 패턴으로, 객체를 차근차근 구성하여 생성하는 것을 허용합니다. 클라이언트는 생성할 객체의 유형을 정의하고, 빌더가 객체를 그에 맞게 구성합니다.
 
@@ -470,7 +699,18 @@ Angular의 Command 패턴은 팀을 지휘하고 특정 작업을 수행하도�
 
 Angular에서 빌더 패턴을 구현하려면 객체를 구성하는 데 책임이 있는 빌더 클래스를 생성하면 됩니다. 여기에 예시가 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 export class User {
@@ -532,7 +772,18 @@ Angular의 빌더 패턴은 복합적인 구조를 만들어내는 것처럼, �
 
 # 결론 및 실제 Angular 프로젝트에서 디자인 패턴 적용에 대한 실용적인 권고사항:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Angular에서 다양한 디자인 패턴을 탐색한 후 이제 이러한 패턴이 실제 프로젝트에서 어떻게 적용될 수 있는지 살펴보는 시간입니다. 여기 몇 가지 실용적인 권장 사항이 있습니다:
 

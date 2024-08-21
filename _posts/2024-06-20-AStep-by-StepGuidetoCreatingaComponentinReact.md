@@ -3,16 +3,13 @@ title: "리액트에서 컴포넌트 만들기 단계별 안내"
 description: ""
 coverImage: "/assets/img/2024-06-20-AStep-by-StepGuidetoCreatingaComponentinReact_0.png"
 date: 2024-06-20 05:51
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-AStep-by-StepGuidetoCreatingaComponentinReact_0.png
 tag: Tech
 originalTitle: "A Step-by-Step Guide to Creating a Component in React"
 link: "https://medium.com/@AryanVora/a-step-by-step-guide-to-creating-a-component-in-react-151c0d875ee2"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-06-20-AStep-by-StepGuidetoCreatingaComponentinReact_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 시작하기 전에 시스템에 Node.js와 npm(노드 패키지 관리자)가 설치되어 있는지 확인하세요. 이를 공식 웹사이트(https://nodejs.org/)에서 다운로드할 수 있습니다. 또한 이 튜토리얼에서 리액트 앱을 만들었다고 가정합니다. 아직 만들지 않았다면 Vite를 사용하여 리액트 앱을 설정하는 2분 튜토리얼을 따를 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 2: App.jsx 파일 비우기
 
@@ -42,9 +50,20 @@ function App() {
 }
 
 export default App;
-```  
+```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 3: index.css에서 추가 스타일링 지우기
 
@@ -54,7 +73,18 @@ export default App;
 
 이제 src 디렉토리 내에 전용 컴포넌트 폴더를 만들어 프로젝트를 구성해봅시다. 이 폴더에는 모든 사용자 정의 React 컴포넌트가 들어갈 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 5: 컴포넌트 파일 생성하기
 
@@ -69,11 +99,22 @@ export default function MyComponent() {
     </div>
   );
 }
-``` 
+```
 
 ## 단계 6: App.jsx에 컴포넌트 추가하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 사용자 정의 컴포넌트(MyComponent)를 생성했으니 React 애플리케이션 내에서 렌더링하도록 App.jsx 파일에 통합해 보겠습니다. 아래 단계를 따라주세요:
 
@@ -98,7 +139,18 @@ export default App;
 
 3. App.jsx 파일을 저장하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 단계를 따라서 사용자 정의 구성 요소 MyComponent를 App.jsx 파일에 성공적으로 통합했습니다. React 애플리케이션을 실행하면 이제 App 구성 요소의 기존 콘텐츠와 함께 컴포넌트가 렌더링되는 것을 확인할 수 있을 것입니다.
 
@@ -108,7 +160,18 @@ export default App;
 
 ## 단계 1: 컴포넌트 수정하여 속성 수락하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 MyComponent.jsx 파일을 열어보세요. 이전에 MyComponent 컴포넌트를 생성한 곳입니다. 이제 이 컴포넌트가 props를 받도록 만들기 위해, 컴포넌트의 함수 매개변수를 수정할 수 있습니다. 또한 prop-types를 설치하기 위해 npm install prop-types 명령을 실행해야 합니다.
 
@@ -135,13 +198,24 @@ MyComponent.propTypes = {
 
 ## 단계 2: Props와 함께 컴포넌트 사용하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금, MyComponent를 사용할 App.jsx 파일로 되돌아가거나 사용하려는 곳으로 이동하세요. 정의한 프롭에 값을 제공하여 컴포넌트를 사용할 수 있습니다.
 
 ```js
 // App.jsx
-import MyComponent from './components/MyComponent';
+import MyComponent from "./components/MyComponent";
 
 function App() {
   return (
@@ -159,7 +233,18 @@ export default App;
 
 ## 단계 3: 기본값 추가
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React 컴포넌트의 props에 기본값을 추가하려면 함수형 컴포넌트의 매개변수에서 기본 할당을 사용하거나 구조분해를 활용하여 기본값을 설정할 수 있습니다. 다음은 이를 하는 방법입니다:
 
@@ -188,7 +273,18 @@ MyComponent.propTypes = {
 
 ## 단계 4: 스타일링 추가
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 MyComponent.css 파일에서 컴포넌트를 스타일링하려는 요소들에 대한 CSS 클래스를 정의하세요. 이 튜토리얼에서는 컨테이너, 제목 및 설명 요소를 스타일링해보겠습니다.
 
@@ -220,7 +316,18 @@ MyComponent.css 파일에서 컴포넌트를 스타일링하려는 요소들에 
 
 이제 CSS 파일을 컴포넌트에 가져와 코드에 클래스를 적용해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // components/MyComponent.jsx
@@ -252,9 +359,20 @@ MyComponent.jsx 파일 내에서, 각각의 JSX 요소에 정의한 CSS 클래�
 - className="my-component-title"는 `h1` 요소에 스타일을 적용합니다.
 - className="my-component-description"는 `p` 요소에 스타일을 적용합니다.
 
-# App.jsx에서 MyComponent를 다중으로 사용하기  
+# App.jsx에서 MyComponent를 다중으로 사용하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 App.jsx 파일 내에서 MyComponent의 여러 인스턴스를 사용해보겠습니다. 각 인스턴스에 대해 title 및 description props를 사용자 정의할 수 있습니다.
 
@@ -286,6 +404,17 @@ export default App;
 
 # 축하합니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 튜토리얼에서 React 컴포넌트를 만들고 사용하고 사용자 정의하는 방법을 배웠어요. 이것들은 상호작용하는 웹 애플리케이션을 개발하는 데 필수적인 구성 요소입니다. 컴포넌트 정의, props 전달 및 사용, 그리고 여러 개의 컴포넌트 인스턴스 생성 등 다양한 개념을 살펴보았어요. 이 지식을 바탕으로 React를 사용하여 더 복잡하고 동적인 사용자 인터페이스를 만들어나갈 수 있어요. 계속 연습하고 탐험하면 곧 능숙한 React 개발자가 될 거예요. 즐거운 코딩하세요!

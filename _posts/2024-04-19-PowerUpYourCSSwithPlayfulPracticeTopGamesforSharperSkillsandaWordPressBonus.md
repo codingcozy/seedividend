@@ -3,17 +3,13 @@ title: "CSS 실력을 향상시키는 게임으로 놀이를 즐겨보세요"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Power Up Your CSS with Playful Practice Top Games for Sharper Skills and a WordPress Bonus"
 link: "https://medium.com/@gsplugins/power-up-your-css-with-playful-practice-top-games-for-sharper-skills-and-a-wordpress-bonus-086ef011d493"
 isUpdated: true
 ---
-
-
-
-
 
 가끔 CSS를 배우는 것은 압도될 수 있습니다. 구문, 속성, 레이아웃 - 모두 흡수해야 할게 많죠! 그런데 지루한 자습서를 한순간 잠시 내려놓고, 재미있는 코드 세계로 뛰어들어볼 수 있다면 어떨까요? CSS 게임은 이해력을 확고히 하고 창의적인 문제 해결 능력을 키울 수 있는 매력적인 방법을 제공합니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ![이미지](/assets/img/PowerUpYourCSSwithPlayfulPracticeTopGamesforSharperSkillsandaWordPressBonus_0.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 그리드 가든: 초록 손가락을 갖고있는 모든 분들을 초대합니다! 그리드 가든은 CSS 그리드의 흥미진진한 세계를 게임으로 만든 것입니다. 여기서 그리드 속성을 사용하여 갈증 나는 당근을 물주어 행, 열 및 그리드 영역과 같은 개념을 게임적인 환경에서 마스터할 수 있습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ![이미지](/assets/img/PowerUpYourCSSwithPlayfulPracticeTopGamesforSharperSkillsandaWordPressBonus_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - CSS 배틀: 정신을 시험해볼 준비가 되셨나요? CSS 배틀은 현실 세계 디자인 과제를 통해 도전장을 내민다. 여러분은 CSS 전문 지식을 활용하여 디자인을 코드로 번역하는데 타이머(그리고 다른 플레이어!)와 경주를 벌입니다. 스킬을 발휘하고 다른 사람들이 동일한 문제에 어떻게 대처하는지 확인할 수 있는 환상적인 방법입니다.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 ![이미지](/assets/img/PowerUpYourCSSwithPlayfulPracticeTopGamesforSharperSkillsandaWordPressBonus_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 게임들은 몇 가지 예시에 불과해요 — 웹은 탐험할 CSS 게임으로 넘친 상태랍니다. 기억해두세요, 중요한 건 여러분이 특정 학습 목표에 맞는 게임을 찾는 것이에요. Flexbox 마스터하기든 CSS Grid 정복하기든, 여러분의 목표에 맞는 게임을 찾아보세요.
 

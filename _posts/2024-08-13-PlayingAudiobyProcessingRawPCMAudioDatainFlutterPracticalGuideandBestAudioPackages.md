@@ -3,7 +3,7 @@ title: "Flutter에서 Raw PCM 오디오 데이터를 처리하여 재생하는 �
 description: ""
 coverImage: "/assets/img/2024-08-13-PlayingAudiobyProcessingRawPCMAudioDatainFlutterPracticalGuideandBestAudioPackages_0.png"
 date: 2024-08-13 12:12
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-13-PlayingAudiobyProcessingRawPCMAudioDatainFlutterPracticalGuideandBestAudioPackages_0.png
 tag: Tech
 originalTitle: "Playing Audio by Processing Raw PCM Audio Data in Flutter Practical Guide and Best Audio Packages"
@@ -11,7 +11,6 @@ link: "https://medium.com/@utkuaydogdu01/playing-audio-by-processing-raw-pcm-aud
 isUpdated: true
 updatedAt: 1723864045966
 ---
-
 
 모바일 애플리케이션 개발의 세계는 혁신적인 기술이 매일 빠르게 발전하고 있습니다. 이 발전의 중요한 부분 중 하나는 오디오 처리 분야에 있습니다. 플러터(Flutter)와 같은 현대적인 SDK를 사용하면 오디오 데이터의 처리와 재생이 더 쉽고 유연해지고 있습니다. 그러나 때로는 애플리케이션의 요구사항이 사전 처리된 또는 외부로부터 받은 오디오 데이터를 직접 재생해야 할 수도 있습니다. PCM(펄스 코드 변조) 형식의 오디오 데이터를 재생하는 것은 이러한 요구사항을 충족시키는 일반적인 방법입니다. 이 기사에서는 Flutter를 사용하여 PCM 오디오 데이터를 재생하고 애플리케이션이 더 많은 볼륨 제어를 제공할 수 있는 방법을 배워보겠습니다.
 
@@ -21,7 +20,18 @@ PCM (펄스 코드 변조)이란?
 
 펄스 코드 변조(Pulse-code modulation, PCM)는 아날로그 신호를 디지털 미디어로 전송하는 방법입니다. PCM은 컴퓨터, 디지털 전화, 컴팩트 디스크 및 많은 다른 디지털 오디오 응용 프로그램에서 표준 형식입니다. PCM 스트림에서 아날로그 신호의 진폭이 일정 간격으로 샘플링되며 각 샘플은 주어진 디지털 범위 내에서 가장 가까운 값으로 양자화됩니다. 이를 통해 오디오 데이터가 디지털로 표현되고 손실 없이 사용될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Figure](/assets/img/2024-08-13-PlayingAudiobyProcessingRawPCMAudioDatainFlutterPracticalGuideandBestAudioPackages_0.png)
 
@@ -31,7 +41,18 @@ PCM (펄스 코드 변조)이란?
 
 간단히 PCM이 무엇인지에 대해 이야기한 후, Flutter에서 이 데이터를 어떻게 처리해야 하는지 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단계 1: PCM 데이터 획득
 
@@ -44,7 +65,18 @@ List<int> PCM_RAW = [  9,  102,  9,  69,  9,  109,  9,  171,  9,  105,  9,  32, 
 
 원시 소스로부터 디코딩된 PCM 데이터를 얻으면 List`int` 형식의 데이터 목록이 얻어집니다. 하지만, 이 데이터는 아직 어떤 오디오 플레이어에서도 처리하고 재생할 수준을 갖추고 있지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단계 2: Raw PCM 데이터를 재생 가능한 수준으로 변환
 
@@ -66,7 +98,18 @@ static List<String> toHexList(List<int> data) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이 방법의 출력으로는, hex 목록의 데이터를 signed16 데이터로 변환하기 전에 hex 목록의 데이터를 결합해야 합니다. 즉, 목록 길이는 n에서 n/2로 줄어들어야 합니다. 아래의 mergeHexList() 메소드는 Hex 형식의 데이터를 가져와 이 데이터를 바이너리 그룹으로 병합합니다. 특정 형식의 PCM 데이터(예: 오디오 파일 생성)를 필요로 하는 작업에서는 데이터를 병합하는 것이 중요합니다. 이 메소드는 데이터를 적절한 형식으로 가져오게 됩니다:
 
@@ -92,7 +135,18 @@ static List<int> hexListToBytes(List<String> hexList) {
   }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 생의 PCM 데이터를 이러한 계층을 통해 전달한 후, 이전 방법에서 얻은 정수 목록을 Uint8List 형식으로 변환하는 것만 남았습니다.
 
@@ -152,7 +206,18 @@ static Future<Uint8List> pcmToUint8List(
 
 메서드 매개변수에서:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 변수 data (List`int`)는 PCM 데이터의 목록입니다. 보통 각 샘플은 정수 값으로 표시됩니다.
 - sampleRate (int) 변수는 샘플 속도, 즉 초당 샘플 수를 나타냅니다. 이는 오디오 파일이 재생되는 방식을 결정합니다.
@@ -166,7 +231,18 @@ static Future<Uint8List> pcmToUint8List(
 - 데이터 병합: 헤더 정보와 PCM 데이터가 결합되어 단일 Uint8List 타입의 값으로 형성됩니다. 이 작업은 전체 오디오 파일을 나타내는 바이트 배열을 얻기 위해 수행됩니다.
 - 반환 값: 생성된 바이트 배열은 적절하게 구성된 오디오 파일을 나타냅니다. 이 값은 다양한 플랫폼에서 오디오 파일을 사용할 수 있도록 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 따라서 이 단계는 원시 PCM 데이터를 적절한 방식으로 처리하여 오디오 파일 형식으로 구성된 데이터 구조를 생성합니다. 이를 통해 오디오 데이터를 다양한 응용 프로그램에서 활용할 수 있게 됩니다.
 
@@ -176,7 +252,18 @@ static Future<Uint8List> pcmToUint8List(
 
 우선, 위에서 수행한 작업에 대한 별도의 클래스를 가지고 있는 것이 매우 좋을 것입니다. 이를 위해 아래에 BufferUtil 클래스를 생성해 봅시다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 class BufferUtil {
@@ -272,8 +359,18 @@ List<int> PCM_RAW = [9,102,9, 69, 9,109,9,171,9,105,9,32,9,130,9,171,9,77,9,80,9
 
 이러한 작업을 수행한 후 뷰 섹션으로 이동할 수 있습니다. 위에서 언급한대로, 이 오디오 데이터를 재생하기 위해 4가지 다른 패키지를 사용했습니다. 이제 각 패키지의 UI 코드를 차례대로 검토해봅시다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 오디오플레이어 패키지:
 
@@ -339,7 +436,18 @@ class _AudioplayersViewState extends State<AudioplayersView> {
 
 ## 플러터사운드 패키지:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 플러터 사운드 패키지를 받으려면 플러터 사운드 pub.dev 페이지를 방문하세요.
 
@@ -496,7 +604,18 @@ class _FlutterSoundPlayerViewState extends State<FlutterSoundPlayerView> {
 
 해당 패키지를 얻으려면 just_audio pub.dev 페이지를 방문하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 class JustaudioView extends StatefulWidget {
@@ -647,8 +766,18 @@ class _SoundpoolPlayerViewState extends State<SoundpoolPlayerView> {
   }
 }
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 글에서는 Flutter에서 원시 PCM 오디오 데이터를 재생 가능한 데이터 유형으로 변환하는 과정을 자세히 다루었습니다. Flutter 생태계에서 일반적으로 사용되는 네 가지 다른 오디오 패키지도 살펴보았는데, 각각의 장점과 사용 사례를 보여드려서 여러분이 자신의 프로젝트에 가장 적합한 오디오 패키지를 선택하는 데 도움이 되도록 했습니다.
 
 이 글을 읽어주셔서 감사합니다. 오디오 처리에 관한 이 정보가 유용하길 바라며, 여러분의 애플리케이션에 오디오 기능을 추가하는 과정이 즐겁기를 바라며 행운을 빕니다!
+```

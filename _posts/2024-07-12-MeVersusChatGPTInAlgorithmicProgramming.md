@@ -3,16 +3,13 @@ title: "알고리즘 프로그래밍 나 대 ChatGPT 비교 분석"
 description: ""
 coverImage: "/assets/img/2024-07-12-MeVersusChatGPTInAlgorithmicProgramming_0.png"
 date: 2024-07-12 21:52
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-12-MeVersusChatGPTInAlgorithmicProgramming_0.png
 tag: Tech
 originalTitle: "Me Versus ChatGPT In Algorithmic Programming"
 link: "https://medium.com/tech-ai-chat/me-versus-chatgpt-in-algorithmic-programming-dcf57bf4a41b"
 isUpdated: true
 ---
-
-
-
 
 ## 소프트웨어 세계
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 다음 중 하나일 수 있어요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제가 직접 코드를 작성해보고 ChatGPT를 이용해서 결과를 확인해봤어요.
 
@@ -33,7 +41,18 @@ isUpdated: true
 
 비교를 더 쉽게하기 위해, 동일한 인터페이스를 사용했어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
     fun generateRandomSequence(
@@ -51,7 +70,18 @@ isUpdated: true
 
 ## 테스트
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 기준과 일치하도록 프로그램하는지 확인하기 위해, 최소 개수와 최대 개수의 모든 가능한 조합을 반복하는 테스트를 만듭니다. 30번의 반복에서 여러 개수를 테스트하고 디버깅할 수 있습니다. ChatGPT 알고리즘과 저의 코드를 모두 테스트하며 확인할 수 있어요.
 
@@ -92,7 +122,18 @@ fun generateRandomSequence() {
 
 이 문제를 해결하기 위한 직관적인 방법은 각 숫자를 순차적으로 생성하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가정 시 sumTarget이 10인 경우, 아래는 작동 방식입니다.
 
@@ -125,7 +166,18 @@ fun generateRandomSequence(
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 최대 카운트 처리
 
@@ -136,7 +188,18 @@ fun generateRandomSequence(
 - 최대 카운트는 2입니다.
 - 합계 목표는 10입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전 알고리즘을 사용할 수 없습니다. 왜냐하면 2를 누르기 전에 충분한 합계를 생성하지 못할 수도 있기 때문입니다.
 
@@ -147,7 +210,18 @@ fun generateRandomSequence(
 - 최대 카운트 이전에 두 번째 마지막 숫자를 생성하고 아직 합계 대상에 도달하지 않은 경우 프로세스를 종료해야 합니다.
 - 그런 다음, 현재까지의 총 합계가 아닌 합계 대상에서 현재까지의 총 합계를 뺀 값을 사용하여, 마지막 값이 전체 합 중 대상 합계에 도달하도록 할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-12-MeVersusChatGPTInAlgorithmicProgramming_2.png" />
 
@@ -183,7 +257,18 @@ fun generateRandomSequence(
 
 ## 최소 개수 처리
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최소 개수가 1보다 큰 경우를 고려하여 팩터를 만들 때, 1부터 목표 합계까지의 임의 범위로 시작할 수 없습니다.
 
@@ -195,7 +280,18 @@ fun generateRandomSequence(
 - 최소 개수가 2이고 목표 합계가 10이라고 가정해 봅시다.
 - 그렇다면 첫 번째 임의 범위는 1부터 9까지여야 합니다. 수학적으로, 이는 1부터
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 정확히 말하자면, 숫자를 더 많이 생성할수록 최대 난수 범위가 줄어드는 경우, 룰은 다음과 같습니다.
 
@@ -207,7 +303,18 @@ fun generateRandomSequence(
 
 아래는 생성된 숫자의 가능한 시나리오입니다. 즉, [4, 1, 3, 2]
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-12-MeVersusChatGPTInAlgorithmicProgramming_3.png" />
 
@@ -246,7 +353,18 @@ fun generateRandomSequence(
 
 ## 추가적인 고려 사항
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 작업이 완료되면 제가 원하는 대로 작동합니다. 그러나 한 가지 제한이 있습니다.
 
@@ -256,7 +374,18 @@ fun generateRandomSequence(
 
 따라서 생성된 숫자는 큰 숫자가 먼저 나오고, 결국 작은 숫자가 나오는 경향이 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이상적이지 않아요. 완전히 무작위를 원하기 때문에 나중에 높은 수를 생성할 가능성이 같다면 해당 수를 먼저 생성할 확률도 동일합니다. 다행히 이 문제를 해결하기 위해 최종 결과를 피할 수 있어요.
 
@@ -277,7 +406,7 @@ fun generateRandomSequence(
     val random = Random
     val sequence = mutableListOf<Int>()
     var currentSum = 0
-    
+
     var minRemaining = minCount
 
     while (currentSum < sumTarget) {
@@ -302,7 +431,18 @@ fun generateRandomSequence(
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 위에 어떻게 코드하는지 보셨어요. 이제 ChatGPT가 어떻게 작동하는지 보겠습니다.
 
@@ -312,7 +452,18 @@ ChatGPT (https://chat.openai.com/)은 이제 더 이상 모르는 사람이 없�
 
 ChatGPT에서 여러번 시도해봤어요. 처음 몇 번은 꽤 밋밋하고 실망스러웠지만, 마지막 시도는 제게 꽤 인상깊게 다가왔어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## **첫 번째 시도**
 
@@ -328,12 +479,24 @@ fun generateRandomSequence(
 ```
 
 이 함수는 다음을 수행합니다.
+
 - sumTarget 값을 받습니다.
 - 숫자의 합이 sumTarget이 될 무작위 정수 시퀀스를 생성합니다.
 - 무작위 정수의 수는 minCount에서 maxCount로 제한됩니다.
 - 함수는 정수 숫자를 포함한 목록을 반환합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```kotlin
 fun generateRandomSequence(
@@ -366,41 +529,61 @@ java.lang.IllegalArgumentException: bound must be greater than origin
 at java.base/jdk.internal.util.random.RandomSupport.checkRange(Unknown Source)
 at java.base/java.util.random.RandomGenerator.nextInt(Unknown Source)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이는 1에서 10 사이의 임의의 값을 생성할 수 있기 때문입니다. 초기 값으로 9가 생성되는 경우 이후 값은 10-9로 표시되어 충돌이 발생합니다.
 
 ```js
-Random.nextInt(1, sumTarget - sequence.sum())
+Random.nextInt(1, sumTarget - sequence.sum());
 
 // Will be
-Random.nextInt(1, 10 - 9)
+Random.nextInt(1, 10 - 9);
 
 // Will be which will crash
-Random.nextInt(1, 1)
+Random.nextInt(1, 1);
 ```
 
 크래시를 발생시킬 수 있는 프로그램을 생성하는 것은 꽤 실망스럽습니다.
 
 ## 두 번째 시도
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 내용을 통해 ChatGPT에게 말합니다.
 
 ```js
 때로 코드를 실행하면 다음과 같은 오류가 발생할 수 있습니다.
 ```
+
 java.lang.IllegalArgumentException: bound must be greater than origin
 
 다음 줄에서<br>
 
 val randomNumber = Random.nextInt(1, sumTarget - sequence.sum())
 
-
 이것을 고칠 수 있을까요?
-
 
 그럼 빠르게 다음 코드를 생성합니다.
 
@@ -427,20 +610,42 @@ fun generateRandomSequence(
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당연한데, 그것은 문제를 해결하지 못해. 남아있는 잔액은 여전히 1일 수 있고, 결과적으로 아래의 일이 계속 발생할 거야. 그리고 알고리즘 전체는 여전히 변하지 않았어.
 
 ```js
 // Will be which will crash
-Random.nextInt(1, 1)
+Random.nextInt(1, 1);
 ```
 
 ## 세 번째 시도
 
 그래서 계속해서 ChatGPT에게 아래와 같이 물어보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 남아있는 합계 (remainingSum)은 여전히 1이 될 수 있고, 그렇게 되면 코드가 충돌할 수 있어요. 이 문제를 해결해줄 수 있을까요?
@@ -473,7 +678,18 @@ fun generateRandomSequence(
 
 동일한 알고리즘을 사용하면서 코드 충돌 문제가 해결되었습니다. 멋져요! ChatGPT는 코드 문제 해결에 대해 알고 있네요. 여전히 위와 동일한 알고리즘을 기반으로 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나, … 결과로 나타낼 수 있습니다.
 
@@ -483,7 +699,18 @@ fun generateRandomSequence(
 
 ## 네 번째 시도
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기에 도와줍니다.
 
@@ -517,7 +744,18 @@ fun generateRandomSequence(
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 알고리즘은 다시 위와 유사합니다. 더 이상 0 또는 음수가 없습니다.
 
@@ -527,7 +765,18 @@ fun generateRandomSequence(
 
 ## 다섯 번째 시도 (최종 시도)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러면 이제 ChatGPT에게 문제에 대해 말하고, 요구 사항을 다시 상기시켜볼게요.
 
@@ -535,8 +784,18 @@ fun generateRandomSequence(
 
 제 생각에는 ChatGPT가 항상 사용하던 알고리즘을 개선하고 수정할 것이라고 생각했어요. 놀랍게도, 아래처럼 완전히 다른 알고리즘을 생성했어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-12-MeVersusChatGPTInAlgorithmicProgramming_6.png)
 
@@ -546,8 +805,18 @@ fun generateRandomSequence(
 
 # 결과 비교
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비록 두 알고리즘이 모두 내 요구 사항을 충족시켰지만, 서로에 비해 각기 다른 장점을 가지고 있어요.
 
@@ -555,7 +824,18 @@ fun generateRandomSequence(
 
 내 알고리즘을 보면, 코드를 천천히 추적하고 흐름을 이해하지 않으면 무엇을 하는지 알기가 어려워요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 ChatGPT가 생성한 코드는 더 짧고 이해하기 쉽습니다.
 
@@ -581,7 +861,18 @@ fun generateRandomSequence(
 
 ## 2. 생성된 요소 수의 무작위성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 100만 번의 생성을 통해, 번호의 시퀀스(요소 수)가 얼마나 무작위로 생성되는지 확인해보도록 해줄게.
 
@@ -593,7 +884,18 @@ fun generateRandomSequence(
 
 ![이미지](/assets/img/2024-07-12-MeVersusChatGPTInAlgorithmicProgramming_7.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서 실제로 예상한 일반적인 무작위성과 일치해요.
 
@@ -603,7 +905,18 @@ ChatGPT 알고리즘은 첫 번째 무작위 숫자에 의해 생성해야 하�
 
 각각의 확률은 1/10이에요. 따라서 아래와 같이 결과가 균등하게 나올 것이에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-07-12-MeVersusChatGPTInAlgorithmicProgramming_8.png)
 
@@ -613,7 +926,18 @@ ChatGPT 알고리즘은 첫 번째 무작위 숫자에 의해 생성해야 하�
 
 판단: 내 알고리즘이 더 낫다
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 3. 생성된 숫자의 무작위성
 
@@ -623,7 +947,18 @@ ChatGPT 알고리즘은 첫 번째 무작위 숫자에 의해 생성해야 하�
 
 요소가 증가함에 따라 무작위성이 줄어드는 것을 알 수 있습니다. 따라서 처음에는 더 큰 숫자를 얻는 것이 더 가능하며, 나중에는 숫자가 줄어듭니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문제를 해결하기 위해서는 shuffled()를 사용하여 결과를 나중에 섞어야 합니다.
 
@@ -633,7 +968,18 @@ ChatGPT에서는 항상 일정한 랜덤 숫자 대신에 후에 결과를 섞�
 
 ![이미지](/assets/img/2024-07-12-MeVersusChatGPTInAlgorithmicProgramming_10.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결론: ChatGPT가 더 나아요
 
@@ -641,9 +987,18 @@ ChatGPT에서는 항상 일정한 랜덤 숫자 대신에 후에 결과를 섞�
 
 체크와 로깅을 주석 처리하여, 10,000번, 100,000번 및 1,000,000번을 실행한 결과를 비교했을 때, 두 알고리즘의 시간을 비교할 수 있었습니다. ChatGPT가 약간 선두에 있지만, 둘 다 비슷한 성능을 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-07-12-MeVersusChatGPTInAlgorithmicProgramming_11.png](/assets/img/2024-07-12-MeVersusChatGPTInAlgorithmicProgramming_11.png)
 
@@ -653,8 +1008,18 @@ ChatGPT에서는 항상 일정한 랜덤 숫자 대신에 후에 결과를 섞�
 
 # 전체적인 결론
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 알고리즘이 ChatGPT보다 나은 것 같다고 말하는 것을 좋아하지만, 이 경험을 통해 ChatGPT가 나에게 놀라움을 준 점을 알 수 있었어요.
 
@@ -667,7 +1032,18 @@ ChatGPT에서는 항상 일정한 랜덤 숫자 대신에 후에 결과를 섞�
 
 말한 바에 따라, 놀라운 사실로, ChatGPT(참고: 저는 ChatGPT 3.5를 사용 중입니다)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 때로는 요구 사항을 명백히 위배하는 버그 있는 코드를 만들기도 하고, 디버깅이 필요해서 확인하고, 더 잘하도록 지시해야 합니다.
 - 알고리즘은 점진적 변경 대신 대폭 변경됩니다. 이러한 예측할 수 없는 행동은 ChatGPT가 점진적 변경을 하는 동안 다른 변수가 그대로 유지되는 것을 보장하기 어렵게 만듭니다.

@@ -3,16 +3,13 @@ title: "독일, 모든 비용을 통해 FFmpeg 보호하기"
 description: ""
 coverImage: "/assets/img/2024-05-17-GermanyToProtectFfmpegAtAllCost_0.png"
 date: 2024-05-17 20:21
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-17-GermanyToProtectFfmpegAtAllCost_0.png
 tag: Tech
 originalTitle: "Germany To Protect Ffmpeg At All Cost"
 link: "https://medium.com/@tomaszs2/germany-to-protect-ffmpeg-at-all-cost-ab796f20360b"
 isUpdated: true
 ---
-
-
-
 
 ![Image](/assets/img/2024-05-17-GermanyToProtectFfmpegAtAllCost_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 Ffmpeg는 비디오 파일을 변환, 최적화 및 편집하는 명령줄 유틸리티입니다. 초기에는 서버에서 비디오를 처리하는 것이 매우 어려웠기 때문에 온라인 비디오가 인기가 없었던 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 더 빠른 인터넷 연결과 ffmpeg 온라인 플랫폼 덕분에 비디오를 웹 및 브라우저가 이해하는 형식으로 최적화할 수 있었습니다.
 
@@ -32,7 +40,18 @@ Ffmpeg는 비디오 파일을 변환, 최적화 및 편집하는 명령줄 유�
 
 이것은 초기에 프랑스의 천재 컴퓨터 프로그래머인 Fabrice Bellard에 의해 만들어졌습니다. 이후에는 오늘날까지 작업하는 다른 개발자들이 참여했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전 글 중 하나에 썼던 것처럼, 오픈 소스 프로젝트의 유지보수자들은 지원받아야 합니다. 그렇게 하면 프로젝트를 보호하고 유지할 수 있습니다.
 
@@ -42,7 +61,18 @@ Ffmpeg는 비디오 파일을 변환, 최적화 및 편집하는 명령줄 유�
 
 2024년과 2025년을 위해 15만 7천 유로 이상의 기부를 받았습니다. 그 너그러운 기부금은 이 프로젝트를 유지하는 데 도움이 될 것입니다. 이는 그 도구가 얼마나 중요한지 때문에 중요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 깃허브에서 11,000개 이상의 포크가 있습니다. 그리고 깃허브 저장소는 프로젝트의 미러일 뿐입니다!
 

@@ -3,7 +3,7 @@ title: "파스트 API와 RabbitMQ를 이용한 엔드-투-엔드 마이크로서
 description: ""
 coverImage: "/assets/img/2024-06-20-BuildingEnd-to-EndMicroserviceswithFastAPIandRabbitMQAComprehensiveGuide_0.png"
 date: 2024-06-20 01:54
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-BuildingEnd-to-EndMicroserviceswithFastAPIandRabbitMQAComprehensiveGuide_0.png
 tag: Tech
 originalTitle: "Building End-to-End Microservices with FastAPI and RabbitMQ: A Comprehensive Guide"
@@ -11,20 +11,26 @@ link: "https://medium.com/@snimkar1905/building-microservices-with-fastapi-and-r
 isUpdated: true
 ---
 
-
-
-
-
 ![image](/assets/img/2024-06-20-BuildingEnd-to-EndMicroserviceswithFastAPIandRabbitMQAComprehensiveGuide_0.png)
 
 # 소개:
 
 최근 몇 년간, 마이크로서비스 아키텍처는 확장 가능하고 유지보수 가능하며 유연한 애플리케이션을 만드는 능력 때문에 인기를 얻었습니다. 이 블로그 포스트에서는 마이크로서비스 아키텍처의 개념을 탐구하고, 파이썬 생태계의 강력한 도구인 FastAPI와 RabbitMQ를 사용하여 간단한 마이크로서비스를 구축하는 방법을 보여드리겠습니다.
 
-# 몰리딕 아키텍처란? 
+# 몰리딕 아키텍처란?
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단일체 아키텍처는 모든 비즈니스 관심을 결합하는 단일 대규모 컴퓨팅 네트워크로, 하나의 코드 베이스로 생각해 볼 수 있습니다. 애플리케이션의 모든 구성 요소를 하나의 지붕 아래에 모아둔 거대하고 빙하처럼 보이는 구조라고 상상해보세요. 단일체에서 변경을 하려면 전체 스택을 업데이트해야 하며, 이는 시간이 많이 소요되고 엄격할 수 있습니다. 아래 다이어그램에서 단일체 아키텍처의 예시를 볼 수 있습니다.
 
@@ -34,7 +40,18 @@ isUpdated: true
 
 반면에, 마이크로서비스 아키텍처는 응용 프로그램이 작은, 독립적으로 배포 가능한 서비스로 분할되는 접근 방식입니다. 각 서비스는 해당하는 비즈니스 로직과 데이터베이스를 갖고 있으며, 가벼운 프로토콜을 통해 다른 서비스와 통신합니다. 이 접근 방식은 빠른 개발 주기, 쉬운 유지보수, 그리고 더 나은 확장성을 가능하게 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-20-BuildingEnd-to-EndMicroserviceswithFastAPIandRabbitMQAComprehensiveGuide_2.png" />
 
@@ -44,7 +61,18 @@ isUpdated: true
 
 # RabbitMQ는 무엇이며, 왜 마이크로서비스를 구축하는 데 사용되는가?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 RabbitMQ는 진보된 메시지 큐잉 프로토콜(AMQP)을 구현하는 메시지 브로커입니다. RabbitMQ는 분산 시스템의 다양한 구성 요소 사이에서 중개자 역할을 하여 효율적으로 통신하고 작업을 조정할 수 있도록 합니다. RabbitMQ가 마이크로서비스 아키텍처에서 흔히 사용되는 이유는 다음과 같습니다:
 
@@ -60,7 +88,18 @@ RabbitMQ는 진보된 메시지 큐잉 프로토콜(AMQP)을 구현하는 메시
 
 # 1. 프로젝트 소개
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희 어플리케이션은 네 가지 주요 서비스로 구성되어 있습니다:
 
@@ -73,7 +112,18 @@ RabbitMQ는 진보된 메시지 큐잉 프로토콜(AMQP)을 구현하는 메시
 
 시작하기 전에 다음 사항을 확인해주세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 시스템에 Docker가 설치되어 있습니다.
 - 시스템에 Python이 설치되어 있습니다.
@@ -85,14 +135,34 @@ RabbitMQ는 진보된 메시지 큐잉 프로토콜(AMQP)을 구현하는 메시
 
 PostgreSQL을 Docker를 사용하여 설치하려면 다음 명령을 실행하십시오:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 도커를 사용하여 RabbitMQ를 설치하기 위해서는 다음 명령어를 실행하세요:
 
 도커를 실행하여 RabbitMQ를 설치하려면 다음 명령어를 실행하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 4. 프로젝트 설정하기
 
@@ -102,7 +172,7 @@ microservices-demo/
 │
 ├── gateway/
 │ ├── rpc_client.py
-│ ├── .env 
+│ ├── .env
 │ ├── requirements.txt
 │ └── main.py
 │
@@ -131,7 +201,16 @@ microservices-demo/
 
 ## B. 게이트웨이 구현하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 게이트웨이 서비스를 구현해 봅시다. gateway/ 디렉토리에 main.py 파일을 만들어 아래 코드를 추가해주세요:
 
@@ -278,7 +357,16 @@ AUTH_BASE_URL=http://0.0.0.0:5000
 JWT_SECRET=e56623570e0a0152989fd38e13da9cd6eb7031e4e039e939ba845167ee59b496
 RABBITMQ_URL=localhost
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다른 마이크로서비스와 통신하기 위해 RabbitMQ를 사용할 것입니다. 이는 서비스 간 비동기 메시징을 가능하게 하는 메시지 브로커입니다. RabbitMQ 서버와의 통신을 처리하기 위해 gateway/ 디렉토리에 rpc_client.py 파일을 생성할 것입니다.
 
@@ -332,7 +420,16 @@ class OcrRpcClient(object):
 
 - 초기화(__init__):
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 RabbitMQ에 연결을 설정합니다. 채널을 생성하고 고유한 콜백 큐를 선언합니다. 콜백 큐에서 응답을 수신하기 위해 소비자를 설정합니다.
 
@@ -342,14 +439,23 @@ OCR 마이크로서비스(ML 마이크로서비스)에 메시지를 보냅니다
 
 이 클래스는 RabbitMQ를 사용하여 게이트웨이 서비스가 OCR 마이크로서비스와 효율적으로 통신할 수 있게 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## C. Auth 마이크로서비스 구현
 
 이 코드는 FastAPI를 사용하여 사용자 등록, 로그인, JWT 토큰 생성, OTP를 사용한 이메일 확인 및 사용자 프로필 검색을 제공하는 인증 서비스를 구현합니다. 데이터베이스 작업에는 SQLAlchemy를 사용하고 OTP 이메일을 보내기 위해 RabbitMQ를 사용합니다. 이 서비스에는 사용자 생성, JWT 토큰 생성, 사용자 프로필 검색 및 이메일 확인을 위한 OTP 확인에 대한 엔드포인트가 포함되어 있습니다.
 
 from typing import List
-from fastapi import HTTPException 
+from fastapi import HTTPException
 import fastapi as _fastapi
 import schemas as _schemas
 import sqlalchemy.orm as _orm
@@ -377,7 +483,7 @@ _models.Base.metadata.create_all(_models.engine)
 
 @app.post("/api/users", tags=['사용자 인증'])
 async def create_user(
-    user: _schemas.UserCreate, 
+    user: _schemas.UserCreate,
     db: _orm.Session = _fastapi.Depends(_services.get_db)):
     db_user = await _services.get_user_by_email(email=user.email, db=db)
 
@@ -471,7 +577,16 @@ if __name__ == "__main__":
 
 이 코드는 PostgreSQL 데이터베이스에 연결하기 위해 SQLAlchemy 엔진과 세션 메이커를 설정합니다. dotenv를 사용하여 환경 변수에서 데이터베이스 연결 세부 정보를 로드합니다. DATABASE_URL은 호스트, 데이터베이스 이름, 사용자 이름 및 암호를 포함하여 검색된 환경 변수를 사용하여 구성됩니다. 데이터베이스 연결 세부를 사용하여 create_engine를 사용하여 엔진을 생성하고 해당 엔진에 바인딩된 세션 메이커인 SessionLocal을 정의합니다. ORM 모델을 정의하는 Declarative Base로 사용하기 위해 Base 변수가 초기화됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 import sqlalchemy as _sql
 import sqlalchemy.ext.declarative as _declarative
@@ -535,7 +650,16 @@ class Address(_database.Base):
 
 이 코드는 사용자 관련 데이터 구조에 대한 Pydantic 모델을 정의하며, 사용자 생성, 인증 및 OTP 확인용입니다. 위치 정보를 위한 주소 모델도 포함되어 있습니다. 이 모델들은 사전 속성으로부터 인스턴스를 자동으로 생성하도록 구성되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 코드는 사용자 인증 및 OTP(일회용 비밀번호) 생성 및 확인을 위한 다양한 함수 및 종속성을 정의합니다. HTTP 요청을 처리하기 위해 FastAPI를 사용하며, 데이터베이스 작업을 위해 SQLAlchemy를 사용하고 데이터 유효성 검사 및 직렬화를 위해 Pydantic을 사용하며, 인증을 위해 JWT를 사용하고, 이메일 알림을 보내기 위해 RabbitMQ를 사용합니다. 이 함수들은 데이터베이스 생성, 데이터베이스 세션 가져오기, 새 사용자 생성, 사용자 인증, JWT 토큰 생성, JWT 토큰에서 현재 사용자 가져오기, 무작위 OTP 생성, RabbitMQ에 연결 및 OTP 이메일 알림 전송 등이 포함됩니다.
 
@@ -592,10 +716,10 @@ async def authenticate_user(email: str, password: str, db: _orm.Session):
 
     if not user:
         return False
-    
+
     if not user.is_verified:
         return 'is_verified_false'
-    
+
     if not user.verify_password(password):
         return False
 
@@ -680,7 +804,16 @@ def send_otp(email, otp, channel):
 
 ## D. 머신 러닝 마이크로서비스 구현
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 Python 스크립트는 RabbitMQ 서버에 연결하여 'ocr_service'라는 큐에서 메시지를 소비합니다. 메시지를받으면 OCRService 객체를 사용하여 처리하고 send_email_notification 함수를 사용하여 이메일 알림을 보내며, 그런 다음 응답을 응답 큐에 발행합니다. 각 메시지를 처리한 후 RabbitMQ에 메시지 전달을 인식합니다. 스크립트는 RabbitMQ가 전달할 수 있는 미인증 메시지의 수를 제한하는 prefetch count 1을 사용합니다.
 
@@ -728,7 +861,7 @@ import keras_ocr
 import pika
 
 class OCRService:
-   
+
     def __init__(self):
         self.keras_pipeline = keras_ocr.pipeline.Pipeline()
 
@@ -791,7 +924,16 @@ def send_email_notification(email, ocr_text, channel):
 
 ## D. 알림 마이크로서비스 구현
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 스크립트는 "email_notification" 큐에서 메시지를 수신하는 RabbitMQ 소비자를 설정합니다. 메시지를 받으면 email_service 모듈의 notification 함수를 호출하여 알림 프로세스를 처리합니다. 성공하면 메시지를 확인하고, 그렇지 않으면 메시지를 거부하고 오류 메시지를 출력합니다.
 
@@ -882,7 +1024,16 @@ def notification(message):
 
 # 애플리케이션 데모
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -892,6 +1043,16 @@ def notification(message):
 
 프로젝트를 실행하려면 GitHub 저장소의 README 파일에 있는 지침을 따르세요. 읽어 주셔서 감사합니다. 이 프로젝트가 여러분께 영감을 주어 직접 마이크로서비스 아키텍처를 탐구하고 구현하는 데 도움이 되기를 바랍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 깃허브: [https://github.com/shantanu1905/fastapi-microservice-demo](https://github.com/shantanu1905/fastapi-microservice-demo)
+```

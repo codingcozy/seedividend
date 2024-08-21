@@ -3,19 +3,15 @@ title: "프론트엔드 개발자라면 알아둬야할 FSD 패턴 정리"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Frontend Masters Feature-Sliced Design FSD Pattern"
 link: "https://blog.stackademic.com/frontend-masters-feature-sliced-design-fsd-pattern-81416088b006"
 isUpdated: true
 ---
 
-
-
-
-
-![Frontend Masters: Feature Sliced Design (FSD) Pattern](/assets/img/Frontend-Masters:-Feature-Sliced-Design-(FSD)-Pattern_0.png)
+![Frontend Masters: Feature Sliced Design (FSD) Pattern](</assets/img/Frontend-Masters:-Feature-Sliced-Design-(FSD)-Pattern_0.png>)
 
 ## 복잡한 프로젝트를 맛있는 피자로 상상해보세요. 기능 슬라이싱이 어떻게 작동하는지 이해하려면 한 조각씩 나눠보면 됩니다. 쉽게 관리할 수 있고 맛있게 유지할 수 있어요! 🍕
 
@@ -23,17 +19,39 @@ Medium 이야기에서 했던 말을 반복할 거예요. 이 글은 이해하�
 
 웹 및 모바일 애플리케이션을 더 작은 부분인 기능 세트로 나누어 간단하게 만들기를 좋아해요. 각 기능 세트에는 자체 사용자 인터페이스, 비즈니스 로직 및 데이터 레이어가 있어서 처리가 쉽습니다. 이 방법은 'Feature-Sliced Design (FSD)'로, 컴포넌트 기반 접근 방식과 같은 이점을 제공해요. FSD에서 가장 강조되는 것은 웹 및 모바일 애플리케이션을 더 관리하기 쉬운 조각으로 분해하는 능력이며, 특히 사용자 중심 기능에 초점을 맞추고 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 구조
 
-![Frontend Masters: Feature Sliced Design (FSD) Pattern](/assets/img/Frontend-Masters:-Feature-Sliced-Design-(FSD)-Pattern_1.png)
+![Frontend Masters: Feature Sliced Design (FSD) Pattern](</assets/img/Frontend-Masters:-Feature-Sliced-Design-(FSD)-Pattern_1.png>)
 
 ## 레이어 및 슬라이스
 
 당신의 앱을 맛있는 피자로 상상해보세요. 🍕 (도미노 피자에서 일하는 개발자로서, 피자 비유를 사용하는 것이 내 천성적인 권리라고 생각합니다. 😎)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1. 공유 레이어 (다과실):
 
@@ -51,7 +69,18 @@ Medium 이야기에서 했던 말을 반복할 거예요. 이 글은 이해하�
   - 피자가 준비되었을 때 알림 보내기
   - 배송 운전기사와 데이터 동기화하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. 특징 레이어 (피자 조각):
 
@@ -65,7 +94,18 @@ Medium 이야기에서 했던 말을 반복할 거예요. 이 글은 이해하�
 
 - 주방장: 전체 피자 제조 작업을 감독하며, 어떤 조각을 구워야 할지 및 이를 고객에게 어떻게 제공할지 결정합니다. (메뉴를 디자인하고, 새로운 레시피를 만들고, 각 피자가 완벽하게 조리되도록 하는 마스터 셰프로 생각해보세요.)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 5. 페이지 레이어 (피자 디스플레이):
 
@@ -82,7 +122,18 @@ Medium 이야기에서 했던 말을 반복할 거예요. 이 글은 이해하�
   - 사용자 알림 패널 (피자가 준비되었을 때 알려줍니다)
   - 모달 대화상자 (특별 요청이나 확인에 사용됩니다)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 5. Entities Layer (The Raw Ingredients):
 
@@ -98,7 +149,18 @@ Medium 이야기에서 했던 말을 반복할 거예요. 이 글은 이해하�
 - 조각들은 서로 피자 조각이 공통 크러스트를 공유하는 것처럼 정의된 계약을 사용하여 통신할 수 있습니다.
 - 목표는 모듈식, 독립적이며 쉽게 테스트할 수 있는 조각을 생성하여 “피자” 코드베이스를 더 관리 가능하고 맛있게 만드는 것입니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여분의 피자 비유 노트:
 
@@ -106,11 +168,22 @@ Medium 이야기에서 했던 말을 반복할 거예요. 이 글은 이해하�
 - 피자 셰프(앱)는 창의적인 사고를 통해 서로 다른 피자(기능)들을 만들어내며, 어떻게 제공할지를 결정합니다.
 - 원재료(엔티티)는 어떤 피자에도 필수적이지만, 고객에게는 항상 보이지 않습니다. 그들은 모든 다른 것이 가능하도록 하는 기반입니다.
 
-![Frontend-Masters:-Feature-Sliced-Design-(FSD)-Pattern_2.png](/assets/img/Frontend-Masters:-Feature-Sliced-Design-(FSD)-Pattern_2.png)
+![Frontend-Masters:-Feature-Sliced-Design-(FSD)-Pattern_2.png](</assets/img/Frontend-Masters:-Feature-Sliced-Design-(FSD)-Pattern_2.png>)
 
 ## 세그먼트(토핑):
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 한 조각 안에 들어 있는 재료: 한 조각은 완전체이지만 종종 세그먼트라고 불리는 작은 부분들로 구성됩니다. 이들은 피자 조각을 이루는 개별 토핑과 같이 작용합니다.
 - 특정 작업에 집중: 각 세그먼트는 자신이 담당한 작업에 집중하며, 특정한 UI 요소, 데이터 조작 또는 로직 조각과 같은 역할을 담당합니다.
@@ -130,7 +203,18 @@ Medium 이야기에서 했던 말을 반복할 거예요. 이 글은 이해하�
 - config/: 로컬 구성 (상수, 열거형, 메타 정보)
 - api/: API 요청 로직 (API 인스턴스, 요청 등)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 중요 사항을 기억해야 할 부분:
 
@@ -140,9 +224,20 @@ Medium 이야기에서 했던 말을 반복할 거예요. 이 글은 이해하�
 
 ## 1. 폴더 구조 (피자 주방 조직):
 
-![이미지](/assets/img/Frontend-Masters:-Feature-Sliced-Design-(FSD)-Pattern_3.png)
+![이미지](</assets/img/Frontend-Masters:-Feature-Sliced-Design-(FSD)-Pattern_3.png>)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2. 피자 조각 주문하기 (더 엑스트라바건자):
 
@@ -196,7 +291,18 @@ const PizzaMenu: React.FC<PizzaMenuProps> = (
 export default PizzaMenu;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 4. 홈페이지 (피자 디스플레이 카운터):
 
@@ -221,7 +327,18 @@ export default HomePage;
 
 코드에서 주요 포인트:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 명확한 폴더 구조: 각 조각은 자체 폴더를 가지고 있어 구성 요소와 로직이 정리되어 있습니다.
 - 독립적인 조각: 각 조각은 스스로 포함된 피자처럼 독립적으로 개발하고 테스트할 수 있습니다.
@@ -238,7 +355,18 @@ export default HomePage;
 - 명확한 소유권: 각 조각은 “pizzaiolo(피자 요리사)”가 따로 있어, 개발자가 품질과 성능에 대한 책임을 질 것입니다. 각 셰프가 자신의 작품에 자부심을 가지는 것과 유사하죠.
 - 간단한 테스트: 테스트는 각 조각을 완성도에 따라 점검하는 것처럼 되어, 보다 집중적이고 효율적으로 이루어집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 그다지 좋지 않은 부분 (크러스트):👎🏻
 
@@ -252,4 +380,15 @@ export default HomePage;
 
 FSD는 대규모 및 복잡한 앱에 대한 훌륭한 전략처럼 보이지만, 한 사이즈로 모든 프로젝트에 적합한 레시피는 아닙니다. 뛰어들기 전에 프로젝트의 규모, 팀 및 개발 환경을 고려해보세요. 기술과 재료가 적합하지 않으면 가장 맛있는 피자조차 만드는 것이 까다로울 수 있다는 것을 기억해주세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

@@ -3,16 +3,13 @@ title: "Robolectric 소개 안드로이드 테스트를 간편하게 하는 방�
 description: ""
 coverImage: "/assets/img/2024-07-09-IntroductiontoRobolectricSimplifiedAndroidTesting_0.png"
 date: 2024-07-09 09:30
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-IntroductiontoRobolectricSimplifiedAndroidTesting_0.png
 tag: Tech
 originalTitle: "Introduction to Robolectric: Simplified Android Testing"
 link: "https://medium.com/@farimarwat/introduction-to-robolectric-simplified-android-testing-24b762994c63"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-07-09-IntroductiontoRobolectricSimplifiedAndroidTesting_0.png" />
 
@@ -22,7 +19,18 @@ Robolectric은 안드로이드 개발자가 엔터테인먼트기로나 실제 �
 
 # 섹션 개요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 가이드에서 다음 섹션을 다루었습니다:
 
@@ -35,7 +43,18 @@ Robolectric은 안드로이드 개발자가 엔터테인먼트기로나 실제 �
 
 이 첫 번째 섹션에서는 안드로이드 액티비티 설정의 기본 사용 방법, 레이아웃 생성, 버튼 클릭 이벤트 처리, Robolectric을 사용하여 간단한 테스트 케이스 작성을 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 종속성
 
@@ -60,7 +79,18 @@ dependencies {
 
 testOptions 구성을 통해 안드로이드 리소스가 유닛 테스트에 포함되어 누락된 매니페스트와 같은 문제를 방지합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 테스트 목적
 
@@ -70,7 +100,18 @@ testOptions 구성을 통해 안드로이드 리소스가 유닛 테스트에 �
 
 ## MainActivity.kt
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, 콘텐츠 뷰를 레이아웃으로 설정하고 버튼 클릭 이벤트를 처리하는 간단한 MainActivity를 만들어 봅시다.
 
@@ -94,7 +135,18 @@ class MainActivity : AppCompatActivity() {
 
 다음으로, MainActivity용 사용자 인터페이스를 정의하는 레이아웃 XML 파일을 만들어 보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -117,7 +169,18 @@ LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
 </LinearLayout>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 테스트 클래스는 Robolectric을 사용하여 활동 수명주기를 시뮬레이트하고 버튼 클릭 기능을 테스트합니다.
 
@@ -164,7 +227,18 @@ class MainActivityTest {
 - btnClickMe.performClick(): 이는 버튼 클릭을 시뮬레이션합니다.
 - assertEquals("Click Me!", txtMsg.text): 이 어서션은 버튼을 클릭한 후 txtMsg의 텍스트가 "Click Me!"로 업데이트되었는지 확인합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 섹션 2: 앱 클래스에서 변수 초기화 테스트
 
@@ -174,7 +248,18 @@ class MainActivityTest {
 
 이 테스트의 목적은 App 클래스에서 선언된 변수가 올바르게 초기화되었는지를 확인하고, MainActivity에서 접근했을 때 null이 아닌지를 검증하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # MainActivity
 
@@ -200,7 +285,18 @@ class MainActivity : AppCompatActivity() {
 
 # App Class
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로, Application을 확장하는 App 클래스를 생성하고 그 내에 변수를 선언해 봅시다.
 
@@ -224,7 +320,18 @@ AndroidManifest.xml 파일에 App 클래스를 설정하세요:
 />
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 테스트 케이스 작성하기
 
@@ -262,7 +369,18 @@ class MainActivityTest {
 
 # 설명
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 목적: 이 테스트는 App 클래스의 변수가 올바르게 초기화되었는지 확인하고 null이 아닌지 확인합니다.
 - test_is_mpackage_initialized: 이 테스트는 App 클래스의 mPackageName 변수가 null이 아닌지 확인합니다.
@@ -274,7 +392,18 @@ class MainActivityTest {
 
 # 테스트의 목적
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 테스트의 목적은 MainActivity에서 버튼을 클릭하여 SecondActivity가 시작되는지 확인하는 것입니다.
 
@@ -289,7 +418,18 @@ btnClickMe.setOnClickListener {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 테스트 케이스 작성하기
 
@@ -310,7 +450,18 @@ btnClickMe.setOnClickListener {
 - Shadows.shadowOf(activity).nextStartedActivity: 다음 시작된 활동을 가져옵니다.
 - assertTrue(nextActivity.component?.className == SecondActivity::class.java.name): 다음 시작된 활동이 SecondActivity인지 확인하는 단언문입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 섹션 4: API 레벨 기반 기능 테스트
 
@@ -320,7 +471,18 @@ btnClickMe.setOnClickListener {
 
 이 테스트의 목적은 MainActivity의 변수가 API 레벨에 따라 초기화되는지 확인하는 것입니다. 이를 통해 Android 버전에 따라 기능이 올바르게 작동하는지 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # MainActivity
 
@@ -349,7 +511,18 @@ class MainActivity : AppCompatActivity() {
 
 # 테스트 케이스 작성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 테스트 클래스는 Robolectric을 사용하여 변수 mSomeString이 API 레벨에 따라 올바르게 초기화되었는지 확인합니다.
 
@@ -382,7 +555,18 @@ class MainActivityTest {
 - 테스트는 API 레벨 30(Android R)에서 통과됩니다. 왜냐하면 mSomeString은 "This is API 30"으로 초기화되었기 때문입니다.
 - 테스트는 API 레벨 31에서 실패할 것입니다. 왜냐하면 mSomeString이 null일 것이기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 여러 API 레벨 다루기
 
@@ -394,7 +578,18 @@ sdk 배열에 필요한 만큼 많은 API 레벨을 추가할 수 있습니다. 
 Caused by: java.lang.OutOfMemoryError: Java heap space
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테스트 중에 여러 API 레벨에서 힙 공간 예외가 발생하는 경우, JVM 힙 공간을 늘릴 수 있습니다. 다음 구성을 build.gradle 파일에 추가하세요:
 
@@ -414,6 +609,17 @@ android {
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로보렉트릭을 활용하면 JVM에서 실행되는 빠르고 신뢰할 수 있는 단위 테스트를 만들어 개발 프로세스를 더 효율적으로 만들 수 있습니다. 다양한 안드로이드 환경을 시뮬레이션하고 다양한 API 레벨을 테스트하며, 에뮬레이터나 실제 기기 없이도 앱이 다양한 시나리오에서 올바르게 동작하는지 확인할 수 있습니다. 이 안내서는 안드로이드 테스트 전략에서 Robolectric을 더 깊이 탐구하고 활용하는 기초 역할을 합니다.

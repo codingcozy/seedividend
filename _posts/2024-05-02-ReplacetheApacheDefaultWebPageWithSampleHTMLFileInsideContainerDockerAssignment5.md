@@ -3,7 +3,7 @@ title: "도커 컨테이너 내부에 샘플 HTML 파일로 Apache 기본 웹 �
 description: ""
 coverImage: "/assets/img/2024-05-02-ReplacetheApacheDefaultWebPageWithSampleHTMLFileInsideContainerDockerAssignment5_0.png"
 date: 2024-05-02 00:54
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-02-ReplacetheApacheDefaultWebPageWithSampleHTMLFileInsideContainerDockerAssignment5_0.png
 tag: Tech
 originalTitle: "Replace the Apache Default Web Page With Sample HTML File Inside Container — Docker Assignment 5"
@@ -11,16 +11,24 @@ link: "https://medium.com/devops-guides/replace-the-apache-default-web-page-with
 isUpdated: true
 ---
 
-
-
-
 당신은 다음을 해야 합니다:
 
 - 샘플 HTML 파일을 만듭니다.
 - 이전 작업에서 사용한 Dockerfile을 사용합니다.
 - 도커 컨테이너 내의 기본 페이지를 이 샘플 HTML 파일로 교체합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Ubuntu 컨테이너를 생성하고 Apache2를 설치하세요 - 도커 과제 1
 
@@ -30,7 +38,18 @@ Docker 허브에서 이미지를 가져와 다른 머신에 Apache2를 설치하
 
 컨테이너를 실행한 후 자동으로 Apache2를 설치하는 Docker 파일을 생성하세요 - 도커 과제 4
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-05-02-ReplacetheApacheDefaultWebPageWithSampleHTMLFileInsideContainerDockerAssignment5_0.png)
 
@@ -40,7 +59,18 @@ Docker 허브에서 이미지를 가져와 다른 머신에 Apache2를 설치하
 
 먼저, 이 과제를 수행하기 위한 EC2 인스턴스를 생성할 것입니다. EC2 인스턴스를 생성한 후 "index.html" 파일을 만들 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단계 1: "서비스" 섹션으로 이동한 후 "EC2" 위에 커서를 올려주세요. "인스턴스"를 클릭하세요.
 
@@ -50,7 +80,18 @@ Docker 허브에서 이미지를 가져와 다른 머신에 Apache2를 설치하
 
 ![이미지](/assets/img/2024-05-02-ReplacetheApacheDefaultWebPageWithSampleHTMLFileInsideContainerDockerAssignment5_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 단계 3: "이름 및 태그" 섹션에서 "이름"을 "Assignment 5"로 선택합니다.
 
@@ -60,7 +101,18 @@ Docker 허브에서 이미지를 가져와 다른 머신에 Apache2를 설치하
 
 ![Assignment 5 step 4](/assets/img/2024-05-02-ReplacetheApacheDefaultWebPageWithSampleHTMLFileInsideContainerDockerAssignment5_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Step 5: "인스턴스 유형"을 "t2.micro"로 선택하고 키 페어(로그인)를 "Docker"로 설정하세요.
 
@@ -70,7 +122,18 @@ Step 6: "공통 보안 그룹"을 "launch-wizard-9"로 선택하세요.
 
 ![이미지](/assets/img/2024-05-02-ReplacetheApacheDefaultWebPageWithSampleHTMLFileInsideContainerDockerAssignment5_6.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **7단계**: "인스턴스 시작"을 클릭합니다.
 
@@ -80,7 +143,18 @@ Step 6: "공통 보안 그룹"을 "launch-wizard-9"로 선택하세요.
 
 ![Step 8](/assets/img/2024-05-02-ReplacetheApacheDefaultWebPageWithSampleHTMLFileInsideContainerDockerAssignment5_8.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **단계 9:** 인스턴스가 "실행 중" 상태가 될 것입니다. 인스턴스를 선택하고 "연결"을 클릭하세요.
 
@@ -90,7 +164,18 @@ Step 6: "공통 보안 그룹"을 "launch-wizard-9"로 선택하세요.
 
 ![이미지](/assets/img/2024-05-02-ReplacetheApacheDefaultWebPageWithSampleHTMLFileInsideContainerDockerAssignment5_10.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 11단계: 이 명령을 사용하여 머신을 업데이트하세요:
 
@@ -102,7 +187,18 @@ sudo apt-get update
 
 12단계: 이 명령을 사용하여 도커를 설치하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 sudo apt-get install docker.io -y
@@ -116,7 +212,18 @@ sudo apt-get install docker.io -y
 sudo su -
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Step 14: 다음 명령어를 사용하여 "Docker" 상태를 확인해보세요:
 
@@ -124,7 +231,18 @@ Step 14: 다음 명령어를 사용하여 "Docker" 상태를 확인해보세요:
 systemctl status docker
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도커는 "Active" 상태입니다.
 
@@ -136,7 +254,18 @@ sudo nano index.html
 
 ![이미지](/assets/img/2024-05-02-ReplacetheApacheDefaultWebPageWithSampleHTMLFileInsideContainerDockerAssignment5_15.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단계 2: index.html 파일에 더미 콘텐츠를 붙여넣기하세요.
 
@@ -157,7 +286,18 @@ sudo nano index.html
 
 파일을 저장하려면 CTRL+X를 누르고 Y를 누르세요. "Enter"를 누르면 파일이 저장됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # B. 이전 작업에서 Dockerfile을 사용합니다
 
@@ -165,11 +305,22 @@ sudo nano index.html
 
 ```js
 vim Dockerfile
-``` 
+```
 
 ![이미지](/assets/img/2024-05-02-ReplacetheApacheDefaultWebPageWithSampleHTMLFileInsideContainerDockerAssignment5_17.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 FROM ubuntu
@@ -188,13 +339,35 @@ ENTRYPOINT apache2ctl -D FOREGROUND
 ADD index.html /var/www/html/
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 도커 파일의 table 태그를 Markdown 형식으로 변경하십시오.
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 명령어를 사용해보세요:
 
@@ -206,7 +379,18 @@ docker build –t assignment5 .
 
 3단계: Docker 이미지가 "assignment5"로 성공적으로 생성됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-05-02-ReplacetheApacheDefaultWebPageWithSampleHTMLFileInsideContainerDockerAssignment5_20.png" />
 
@@ -218,7 +402,18 @@ docker container run –itd --name testcont1 –p 89:80 assignment5
 
 <img src="/assets/img/2024-05-02-ReplacetheApacheDefaultWebPageWithSampleHTMLFileInsideContainerDockerAssignment5_21.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 5단계: 컨테이너가 생성되었는지 확인하려면 다음 명령을 실행하세요:
 
@@ -230,7 +425,18 @@ docker container ls -a
 
 6단계: 다음 명령을 사용하여 컨테이너 내부로 이동하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 도커 컨테이너 실행 -it testcont1 bash
@@ -242,7 +448,18 @@ docker container ls -a
 
 cd /var/www/html/ — html 폴더 안으로 이동합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "HTML 디렉토리"에 있는 파일을 확인하려면 "ls"를 입력하세요.
 
@@ -255,7 +472,18 @@ ls
 
 "index.html" 파일이 "html" 디렉토리에 있는 것을 확인할 수 있을 거예요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 8단계: 다음 명령을 실행하십시오. "cat index.html" 파일을 실행합니다. index 파일의 내용을 쉽게 확인할 수 있습니다.
 
@@ -267,7 +495,18 @@ cat index.html
 
 9단계: 이제 "인스턴스"로 이동하고 "Public IPV4 주소" 섹션에서 "열린 주소"를 클릭하십시오.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-05-02-ReplacetheApacheDefaultWebPageWithSampleHTMLFileInsideContainerDockerAssignment5_26.png)
 
@@ -277,6 +516,17 @@ cat index.html
 
 또한 이 도커 가이드를 읽어보세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로덕션 환경에서 Docker를 사용하여 HTML 웹사이트를 컨테이너화했습니다 — Docker 사례 연구

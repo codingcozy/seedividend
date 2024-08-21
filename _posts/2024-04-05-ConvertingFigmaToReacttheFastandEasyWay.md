@@ -3,17 +3,13 @@ title: "figma 디자인을 리액트로 변환하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Converting Figma To React the Fast and Easy Way"
 link: "https://medium.com/@jherr2020/converting-figma-to-react-the-fast-and-easy-way-d6525a866f24"
 isUpdated: true
 ---
-
-
-
-
 
 만약 AI가 웹 개발자를 대체할 것이라고 생각한다면, Figma 프로토타입을 작동하는 React 애플리케이션으로 변환해 보는 것만으로 충분합니다. Figma는 디자이너들이 꿈꾸는 UI를 만들기 위한 훌륭한 도구입니다. 그러나 그 꿈을 현실로 바꾸려면 많은 작업이 필요합니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 홈페이지와 제품 상세 페이지를 위한 예시 모형을 살펴봅시다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![ConvertingFigmaToReacttheFastandEasyWay_0](/assets/img/ConvertingFigmaToReacttheFastandEasyWay_0.png)
 
@@ -33,7 +40,18 @@ To start converting, we first switch to the developer mode.
 
 ![ConvertingFigmaToReacttheFastandEasyWay_1](/assets/img/ConvertingFigmaToReacttheFastandEasyWay_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 맨 위의 큰 토글 스위치는 디자이너 모드와 개발자 모드 사이를 이동합니다. 한 번 개발자 모드로 들어가면 플러그인 탭을 선택하고 Builder.io 플러그인을 검색합니다.
 
@@ -43,7 +61,18 @@ To start converting, we first switch to the developer mode.
 
 원하는 만큼 선택할 수 있습니다. 작은 페이지의 경우 전체를 선택할 수 있고, 큰 페이지의 경우 각 섹션을 선택하여 구성 요소 세트를 만들기 위해 개별적으로 내보낼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 신발 히어로 섹션을 선택하고 코드 생성 버튼을 누를게요.
 
@@ -53,7 +82,18 @@ To start converting, we first switch to the developer mode.
 
 만약 앱에서 Builder CMS를 사용하고 있지 않다면 그냥 여기서 코드를 복사하여 자신의 앱에 붙여넣으면 돼요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 생성된 코드에 들어가기 전에 몇 가지 주목할 점이 있어요.
 
@@ -63,7 +103,18 @@ To start converting, we first switch to the developer mode.
 
 또한 Fast와 Quality를 전환할 수 있는 토글이 있어요. Fast 옵션은 무료이며 아주 빠릅니다. 한편, Quality 버전은 추가 GPT 패스를 실행하여 코드를 더 의미론적으로 구조화하여 결과물을 더욱 다듬으려고 하는 유료 옵션입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 품질 버전은 AI 세부 조정도 가능합니다.
 
@@ -73,7 +124,18 @@ To start converting, we first switch to the developer mode.
 
 마지막으로, 코드를 애플리케이션에 가져 오기 위해 사용할 복사 버튼이 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 글과 관련된 비디오에서는 이 페이지 세트를 NextJS 애플리케이션으로 변환하는 전체 프로세스를 안내해 드릴 거에요. 즉, Builder CDN에서 모든 이미지를 로컬 파일로 추출하고 `img` 태그를 Image 구성 요소로 변환하는 과정도 포함돼 있어요. 이 작업에 사용할 수 있는 작은 스크립트를 만들어 두었으니 자유롭게 사용해 주세요.
 
@@ -83,7 +145,18 @@ To start converting, we first switch to the developer mode.
 
 첫 번째 문제는 이 Figma 모킹 UI들이 항상 이처럼 쉬운 것은 아니라는 점이에요. 제가 사용한 예는 합리적인 디자인이었죠. 그러나 웹 개발자들이 Figma와 사랑과 미움이 교차하는 관계를 가지는 이유는 디자이너가 아무런 제한 없이 어떤 디자인이든 만들 수 있기 때문이에요. 때문에 구현하기 어려운 디자인이 만들어질 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AI 도구는 합리적인 디자인으로 많은 것을 이끌어낼 수 있지만, 더 이상 그 이상의 이상한 것들에 대해서는 어느 정도 도와줄 뿐, 구현뿐만 아니라 디자이너들과 합의하여 실현 가능한 것과 불가능한 것에 대해 협상하는 것은 모두 여러분에게 달려 있습니다.
 
@@ -93,7 +166,18 @@ AI 도구는 합리적인 디자인으로 많은 것을 이끌어낼 수 있지�
 
 ![image](/assets/img/ConvertingFigmaToReacttheFastandEasyWay_5.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 목업에서는 데스크톱 버전의 네비게이션 메뉴만 있었기 때문에 AI는 그것을 활용하여 매우 잘 조절되는 메뉴를 모바일 버전으로 만들었습니다. 그러나 고객이 그렇게 원하지 않을 수도 있습니다. 아마도 모바일용 햄버거 메뉴를 원할지도 모릅니다. 이 모든 것을 처리하는 것은 디자이너, 제품 매니저, 그리고 개발자에게 달려 있습니다.
 
@@ -103,7 +187,18 @@ Figma 목업에서 가장 큰 문제는 재사용할 컴포넌트 지정을 드�
 
 ![이미지](/assets/img/ConvertingFigmaToReacttheFastandEasyWay_6.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 버전은 "주요 제품"이라고 말하고, 세부 페이지의 다른 섹션은 "관심을 끌 수도 있습니다"라고 말하는데, 두 경우 모두 아래에 있는 캐로셀 스타일의 UI는 분명히 동일해보입니다. 그래서 이러한 섹션들을 재사용할 수 있을까요? 재사용해야 할까요? 이는 제품 매니저와 디자이너와 대화를 통해서만 결정할 수 있는 선택사항입니다.
 
@@ -113,7 +208,18 @@ Figma 목업에서 가장 큰 문제는 재사용할 컴포넌트 지정을 드�
 
 그림으로 나타난 것을 구현하는 것만으로도 부족합니다. 가끔은 우리가 보지 못하는 숨겨진 기능이 있습니다. 적은 데이터 상태나, "주요 제품"에 대한 캐로셀과 같이 모의도를 통해 렌더링되지 않지만 추정되는 기능과 같은 것들이 있습니다. 항상 네 개의 제품이 있어야 하나요? 데스크톱에서 스크롤해야 하나요? 휴대폰에서 터치 스와이프를 해야 하나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![ConvertingFigmaToReacttheFastandEasyWay_7](/assets/img/ConvertingFigmaToReacttheFastandEasyWay_7.png)
 
@@ -123,7 +229,18 @@ Figma 목업에서 가장 큰 문제는 재사용할 컴포넌트 지정을 드�
 
 저는 개인적으로 UI의 모든 부분, 디자인에서 구현까지 끝없이 매혹적으로 여깁니다. 그래서, 몇 년 동안 Figma 모형과 디자이너들과 함께 일해왔습니다. 저는 항상 프로젝트가 삶을 불어넣는 것을 사랑하기 때문에, 모형에서 앱으로 가는 과정을 가속화해주는 도구를 찾고 있습니다. 당신의 작업 흐름을 가속화시키기 위해 Figma 플러그인을 시도해보는 것을 강력히 추천합니다. 그리고 Figma에서 React/Tailwind(그리고 다양한 다른 변형)으로 이동하는 플러그인을 찾고 계신다면, Visual Copilot은 그 작업을 수행하기 위해 본적이 있는 가장 좋은 플러그인입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 잭 헤링턴은 주요 풀 스택 엔지니어이자 유튜버입니다.
 그는 현재 '프로페셔널 NextJS' 코스를 작성 중입니다.

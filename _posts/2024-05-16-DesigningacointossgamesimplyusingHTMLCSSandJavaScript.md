@@ -3,16 +3,13 @@ title: "HTML, CSS 및 JavaScript를 사용하여 간단히 동전 던지기 게�
 description: ""
 coverImage: "/assets/img/2024-05-16-DesigningacointossgamesimplyusingHTMLCSSandJavaScript_0.png"
 date: 2024-05-16 16:40
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-16-DesigningacointossgamesimplyusingHTMLCSSandJavaScript_0.png
 tag: Tech
 originalTitle: "Designing a coin toss game simply using HTML, CSS and JavaScript."
 link: "https://medium.com/@keremerkengel/designing-a-coin-toss-game-simply-using-html-css-and-javascript-27723870bdce"
 isUpdated: true
 ---
-
-
-
 
 안녕하세요! 오늘은 HTML, CSS 및 JavaScript만을 사용하여 간단하게 동전 던지기 게임을 만드는 방법을 보여 드리겠습니다.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 링크: [https://icons8.com/](https://icons8.com/)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 동전의 앞면과 뒷면이 선택되면 프로젝트를 시작할 수 있습니다.
 
@@ -32,7 +40,18 @@ Microsoft Visual Studio에 들어가서 3개의 기본 페이지를 생성하고
 
 ![동전 게임 디자인 예시](/assets/img/2024-05-16-DesigningacointossgamesimplyusingHTMLCSSandJavaScript_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비록 페이지의 모습은 당신에게 달려 있지만, 저는 더 간단한 디자인을 사용했어요.
 
@@ -61,7 +80,7 @@ Microsoft Visual Studio에 들어가서 3개의 기본 페이지를 생성하고
                 <img src="/images/1TL_obverse-removebg-preview.png" alt="observe">
             </div>
 
-       
+
         </div>
         <div class="buttons">
             <button id="flip-button">동전 던지기</button>
@@ -69,14 +88,25 @@ Microsoft Visual Studio에 들어가서 3개의 기본 페이지를 생성하고
         </div>
     </div>
     <script src="scrpit.js"></script>
-    
+
 </body>
 </html>
 ```
 
 여기서, “index.html”에서 우리의 스크립트 파일과 CSS 파일을 함께 링크하는 것을 잊지 마세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # CSS 코드
 
@@ -85,7 +115,7 @@ Microsoft Visual Studio에 들어가서 3개의 기본 페이지를 생성하고
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
 }
 body{
     height: 100%;
@@ -127,7 +157,7 @@ body{
 .buttons{
     display: flex;
     justify-content: space-between;
-   
+
 }
 
 
@@ -150,8 +180,8 @@ button{
 }
 #flip-button{
     background-color: white;
-    color: black;  
-     
+    color: black;
+
 }
 
 #flip-button:disabled{
@@ -194,7 +224,7 @@ let fliptBtn = document.querySelector("#flip-button");
 let resetBtn =document.querySelector("#reset-button");
 
 fliptBtn.addEventListener("click",()=>{
-    
+
     let i= Math.floor(Math.random() *2);
 
     coin.style.animation = "none";
@@ -235,7 +265,18 @@ resetBtn.addEventListener("click", ()=>{
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트에 이 코드를 포함하면 이제 동전 던지기 게임을 할 수 있어요. 지금까지 읽어주셔서 감사합니다. 다음 프로젝트에서 만나요.
 

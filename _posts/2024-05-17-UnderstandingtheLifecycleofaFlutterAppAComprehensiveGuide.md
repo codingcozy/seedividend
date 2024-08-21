@@ -3,15 +3,13 @@ title: "플러터 앱의 라이프사이클 이해하기"
 description: ""
 coverImage: "/assets/img/2024-05-17-UnderstandingtheLifecycleofaFlutterAppAComprehensiveGuide_0.png"
 date: 2024-05-17 21:42
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-17-UnderstandingtheLifecycleofaFlutterAppAComprehensiveGuide_0.png
 tag: Tech
 originalTitle: "Understanding the Lifecycle of a Flutter App: A Comprehensive Guide"
 link: "https://medium.com/@wafamohameddd/understanding-the-lifecycle-of-a-flutter-app-a-comprehensive-guide-b58a5a94d776"
 isUpdated: true
 ---
-
-
 
 ![image](/assets/img/2024-05-17-UnderstandingtheLifecycleofaFlutterAppAComprehensiveGuide_0.png)
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 # 목차
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 플러터 앱 라이프사이클 상태.
 - 플러터에서 라이프사이클 메서드 구현하기 (UI-코드).
@@ -34,7 +43,18 @@ isUpdated: true
 
 ## 플러터 앱은 주로 다섯 가지 상태에서 존재할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 분리된 상태
 
@@ -47,7 +67,18 @@ isUpdated: true
 - 이 상태에서는 앱이 백그라운드에 머무르며 사용자 입력을 받지 않습니다.
 - 화면에 팝업 메시지나 시스템 오버레이로 중단될 때 마다 전경과 배경 사이를 전환 할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 일시 정지된 상태
 
@@ -60,7 +91,18 @@ isUpdated: true
 - 해당 상태는 앱의 활성 상태를 나타내며, 앱이 전면에 보이고 사용자 상호 작용에 준비되어 있는 상태입니다.
 - 일시 중지된 작업을 다시 시작할 수 있고, UI 요소를 필요에 따라 새로 고칠 수 있으며, 앱이 기본 실행 모드에 있음을 나타냅니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 숨은 상태
 
@@ -71,7 +113,18 @@ isUpdated: true
 
 이러한 상태를 이해하는 것은 견고한 플러터 앱을 만드는 데 매우 중요합니다. 실제 예제와 함께 Flutter 앱에서 Lifecycle 메소드를 구현하는 방법을 자세히 알아봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # UI:
 
@@ -81,13 +134,35 @@ isUpdated: true
 
 # 코드:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 코드 설명:
 
 ## Stateful 위젯:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - AppLifeCycle 클래스는 여러분의 앱의 주요 위젯을 나타내는 StatefulWidget입니다.
 - createState 메서드(widget 라이프사이클)을 오버라이드하여 상태 객체 `_AppLifeCycleState`를 반환합니다.
@@ -101,7 +176,18 @@ class _AppLifeCycleState extends State<AppLifeCycle> with WidgetsBindingObserver
 
 ## 상태 초기화(initState):
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 필요한 변수(타이머, 카운트, 액티브, 앱상태, 숨김 여부)를 초기화합니다.
 - initState( )에서 라이프사이클 변경을 모니터링하는 옵저버 인스턴스를 추가하고 타이머를 시작합니다.
@@ -126,7 +212,18 @@ class _AppLifeCycleState extends State<AppLifeCycle> with WidgetsBindingObserver
 
 - timerP( ) 함수는 active가 true일 때마다 매 초마다 카운트를 증가시킵니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
   void timerP() {
@@ -180,7 +277,18 @@ class _AppLifeCycleState extends State<AppLifeCycle> with WidgetsBindingObserver
   }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## UI 빌딩 (빌드):
 
@@ -216,7 +324,18 @@ class _AppLifeCycleState extends State<AppLifeCycle> with WidgetsBindingObserver
 
 ## 정리 (dispose) 메서드:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 위젯을 관측하는 관찰자로서 역할을 제거하여 위젯이 트리에서 제거될 때 리소스를 해제합니다.
 
@@ -230,7 +349,18 @@ WidgetsBinding.instance.removeObserver(this);
 timer?.cancel();
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 실행:
 
@@ -240,7 +370,18 @@ timer?.cancel();
 
 # 결론:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 플러터 라이프사이클은 플러터 앱 개발의 근간적인 측면입니다. 다양한 라이프사이클 이벤트를 이해하고 적절한 라이프사이클 관리 기술을 구현함으로써, 개발자들은 응답성이 뛰어나고 효율적이며 유지보수가 용이한 고품질 앱을 만들 수 있습니다. 효과적인 라이프사이클 관리를 통해 앱이 다양한 기기 및 운영 체제에서 예측 가능하게 동작하도록 보장하며, 사용자들에게 원활하고 즐거운 경험을 제공합니다.
 
@@ -250,7 +391,18 @@ timer?.cancel();
 
 LinkedIn
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 GitHub
 

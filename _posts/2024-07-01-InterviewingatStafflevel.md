@@ -3,16 +3,13 @@ title: "Staff 레벨에서 인터뷰 준비하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-01-InterviewingatStafflevel_0.png"
 date: 2024-07-01 20:11
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-01-InterviewingatStafflevel_0.png
 tag: Tech
 originalTitle: "Interviewing at Staff+ level"
 link: "https://medium.com/@manuelvicnt/interviewing-at-staff-level-7a31836285e6"
 isUpdated: true
 ---
-
-
-
 
 Staff+ Individual Contributor (IC) 레벨 직책에 대한 면접을 진행하는 것은 도전적이면서도 흥미로운 경험일 수 있어요. 이러한 직책에 채용되기를 염원하는 당신은 새로운 기업 문화, 기술 스택 및 비즈니스 영역에 적응할 수 있는 능력에 대한 불확실성에 맞서야 할 수 있어요. 그렇다면... 이런 면접을 어떻게 준비해야 할까요?
 
@@ -22,7 +19,18 @@ Staff+ Individual Contributor (IC) 레벨 직책에 대한 면접을 진행하�
 
 그런데 궁금한 점이 있으시다면... 네, 맞아요! 저는 여러 회사의 면접 프로세스를 통과하여 Bumble Inc. 🐝의 Staff Android 엔지니어로 합류했어요. 다가오는 섹션에서, 이 4가지 종류의 면접에 대한 준비 방법과 그것들을 성공적으로 통과하는데 도움이 되는 팁에 대해 설명하고 있을 거예요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 스탭 이상 엔지니어가 될 준비가 되셨나요?
 
@@ -32,7 +40,18 @@ Staff+ Individual Contributor (IC) 레벨 직책에 대한 면접을 진행하�
 
 ![이미지](/assets/img/2024-07-01-InterviewingatStafflevel_0.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요약하자면, 스태프 이상 IC 엔지니어는 일반적으로 회사 내에서 고급 수준에서 활동합니다. 특정 영역에 대한 폭넓은 기술 지식을 보유하고 자주 리더십 역할을 맡을 수 있습니다. 기술적 우수성을 촉진하며 멘토십을 제공하고 고수준 의사 결정에 기여하는 것이 그들의 책임입니다.
 
@@ -44,7 +63,18 @@ Staff+ Individual Contributor (IC) 레벨 직책에 대한 면접을 진행하�
 - 간단한 질문을 더 발전시킬 수 있으며, 후보자가 어떻게 이유를 근거 짓고 인터뷰어로부터 피드백을 받아들이는지를 확인할 수 있습니다.
 - 문제를 체계적으로 생각하도록 강요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 DS/A 면접에서 성공하기 위한 핵심 3가지 포인트에 대해 이야기해보겠어요. 하나씩 살펴봐요.
 
@@ -54,7 +84,18 @@ DS/A 면접에서 성공하기 위한 핵심 3가지 포인트에 대해 이야�
 
 효율성을 높이려면, 당신이 선택한 프로그래밍 언어에서 가장 일반적인 유틸리티를 학습하는 것을 권장해요. Kotlin에서는 몇 가지 연습문제에서 유용할 수 있는 일반적이지 않은 Collections API에 익숙해져야 해요. 유용한 Kotlin Collections 참고 자료가 있다면 활용할 수 있어요; 예를 들어, Jussi Hallila가 만든 이것을 사용했어요. 또한 Random API, Mutex API, 그리고 스레드 안전한 Collections과 같은 몇 가지 유용한 API에 대한 지식을 되새김하는 것도 좋아요. 이러한 지식은 코딩을 보다 효율적으로 만들어주는데 그치지 않고, 면접 중에 좀 더 통찰력 있는 토의의 가능성을 열어줘요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 연습하기
 
@@ -64,7 +105,18 @@ DS/A 면접에서 성공하기 위한 핵심 3가지 포인트에 대해 이야�
 
 ## 당신과 면접관
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 서로 다른 인터뷰어마다 인터뷰 스타일이 다양하지만 내가 보는 가장 일반적인 유형은 당신의 한계를 이해하고 긍정적인 경험을 보장하고자 하는 인터뷰어입니다. 당신의 인터뷰에서는 대부분 무차별 공격적인 해결책을 사용하는 질문으로 시작할 것입니다.
 
@@ -74,7 +126,18 @@ DS/A 면접에서 성공하기 위한 핵심 3가지 포인트에 대해 이야�
 
 특정 문제에 대처하기 위해 나는 Cracking the Coding Interview 책에 나와 있는 문제 해결 구조를 따릅니다: 듣기, 예외 상황 고려, 무차별 공격, 최적화, 방식 검토, 구현, 테스트.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 직원 포지션에 대비하면서 Adam Bennet의 오 면접 블로그 게시물이 귀중한 자원이라고 생각했어. 특히 그의 Github 프로젝트를 즐겨보았어, DS/A 면접 문제에 대한 공통 전략과 같은 보석들이 담겨 있어.
 
@@ -84,7 +147,18 @@ DS/A 면접에서 성공하기 위한 핵심 3가지 포인트에 대해 이야�
 
 만약 집에서 과제를 완성해야 한다면, Paul Blundell의 안드로이드 면접 블로그 게시물을 강력히 추천해. 그의 과제 앱 중 하나의 구현을 보고 직접 페이지네이션을 구현하는 방법을 배우기도 해.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 면접 중에 처음부터 앱을 만들어야 한다면, MVx 아키텍처를 사용하여 두 개의 스크린 - 목록 및 상세 화면 -으로 간단한 앱을 만들어 연습해보세요. 기존 애플리케이션을 개선해야 한다면, 주로 위에 언급한 내용을 의지했습니다. 안드로이드 개발자로서의 경험을 통해 나머지 대비를 하였습니다.
 
@@ -94,7 +168,18 @@ DS/A 면접에서 성공하기 위한 핵심 3가지 포인트에 대해 이야�
 
 # 시스템 디자인 인터뷰 준비하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시스템 디자인 면접은 제가 가장 좋아하는 면접 중 하나에요. 아무런 준비 없이 해도 되겠지 생각할 수도 있지만, 만약 완벽하게 해내고 싶다면 충분한 준비가 필요해요. 저는 체계적인 성격이라서 이런 면접은 체계적인 전략을 통해 더 큰 이점을 얻을 수 있다고 믿어요.
 
@@ -104,7 +189,18 @@ DS/A 면접에서 성공하기 위한 핵심 3가지 포인트에 대해 이야�
 
 저는 우선순위에 따라 질문이 정리된 치트 시트와 성능, 네트워킹, 데이터 관리 등 주제별 치트 시트를 사용했어요. 시스템 디자인 문제에는 단일 옳은 답이 항상 있는 것은 아니라는 것을 기억하세요. 대화를 이끌며 타협을 논의하고 면접관과 함께 공동 이해를 도모하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-01-InterviewingatStafflevel_3.png" />
 
@@ -114,7 +210,18 @@ DS/A 면접에서 성공하기 위한 핵심 3가지 포인트에 대해 이야�
 
 모바일 앱의 아키텍처를 다룰 때, 권장되는 계층화된 안드로이드 아키텍처와 단방향 데이터 흐름(UDF)에 대해 생각해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해당이외에 ByteByteGo 뉴스레터에서 콘텐츠를 읽고 Alex Xu의 시스템 디자인 면접 책(1, 2)을 통해 다양한 디자인 패턴을 새로이 하고, Martin Kleppmann의 디자인 데이터 집약 애플리케이션 책을 읽었어요.
 
@@ -124,7 +231,18 @@ DS/A 면접에서 성공하기 위한 핵심 3가지 포인트에 대해 이야�
 
 # 행동 면접 준비하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 행동 인터뷰를 준비하려면, Cracking the Coding Interview 책에 소개된 방식을 따를 수 있어요. 가장 중요한 프로젝트에 대한 표를 작성하고 핵심 측면에 대해 체계적으로 반성해 보세요. 예를 들어, 가장 어려웠던 점, 배운 점, 가장 흥미로운 점, 가장 어려웠던 버그, 가장 즐거웠던 점, 갈등, 다르게 할 점, 리더십 및 실패 등을 고려해 보세요.
 
@@ -132,20 +250,43 @@ DS/A 면접에서 성공하기 위한 핵심 3가지 포인트에 대해 이야�
 
 인터뷰는 스태프 이상의 역할을 하는 것에요. 전문 지식, 리더십 및 영향력에 집중하세요. 여러분이 한 일이 비즈니스에 어떻게 영향을 미쳤는지, 다른 개발자들을 위한 곱셈기 역할을 한 것에 대한 예시를 제공할 수 있어야 하며, 기술적 전문성 외에 비즈니스 결과에 대해 고려하고 있다는 것을 입증해야 해요. 이 구조화된 접근 방식은 행동 인터뷰 중에 경험, 성취 및 과제를 효과적으로 전달할 수 있도록 준비가 잘 되어 있음을 보장해 줄 거예요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 최고의 조언이 있어요: 거짓말 하지 마세요! 솔직함은 면접 프로세스 전반에 중요해요. 부정확한 정보를 제공하여 성공해도, 팀에 합류했을 때 오해를 일으킬 수 있어요. 하지만 소심해하지 마세요! 이 면접은 여러분의 순간이니까 ⭐. 여러분 자신을 판매해야 해요. 개인적인 성취와 프로젝트에 기여한 내용에 집중하세요.
 
 ## 리더십 스타일 개선하기
 
 리더십은 경험에 따라 오는 것이지만, 리더십 스타일을 개선하는 것은 관련 서적의 통찰을 적용함으로써 가속화될 수 있어요. 소개에서 언급한 Staff engineer 책 외에도 아래 책들을 살펴보세요. 저는 이 책들을 정말 즐겁게 읽었어요:
+
 - Daniel Coyle의 The Culture Code: 우수한 팀을 구축하는 다양한 기술을 배우세요. 안전한 문화, 취약점 공유, 명확한 목적 성립에 집중하세요.
 - Kerry Patterson의 Crucial Conversations: 입을 열기 전에 해야 할 중요한 기술을 배우고, 대화를 시작하는 방법과 건설적인 결론을 이끌어내는 방법을 알아보세요.
 - Erin Meyer의 The Culture Map: 이를테면 업무와 개인적인 삶에도 적합한 통찰력과 실용적인 안내로 문화적 차이를 이해하고 탐색하세요.
 - Chris Voss의 Never Split the Difference: 상대방과의 대화에서 듣기, 감정 공감, 최대한 많이 얻어내는 협상 기술을 발견하세요.
 - Kim Scott의 Radical Candor: 개인적으로 관심을 가지면서 직접적으로 팀에 도전하여 최상의 성과를 얻는 방법을 배우세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 책들을 읽으면서 당신의 판단을 사용하여 자신과 공감되는 아이디어를 선택하고 실천해보세요. 진실성이 중요합니다. 당신만의 독특한 리더십 스타일과 부합하는 방식으로 교훈을 적응하고 적용해보세요.
 
@@ -155,7 +296,18 @@ DS/A 면접에서 성공하기 위한 핵심 3가지 포인트에 대해 이야�
 
 Staff+ IC 레벨 면접 준비에는 기술, 행동 및 리더십 측면을 모두 고려한 다각적인 접근이 필요합니다. 이 여정에는 DS/A에서 시스템 설계 및 행동 평가로 이어지는 다양한 면접 형식을 탐색하는 것이 포함됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 구조화된 준비 전략을 채택하는 것이 중요합니다. 다양한 주제에 대해 학습하고, 자신만의 전략을 선택하며, 모의 면접을 연습하고, 적극적으로 듣고, 면접관과 함께 최상의 해결책을 찾아가세요.
 
@@ -165,7 +317,18 @@ Staff+ IC 레벨 면접 준비에는 기술, 행동 및 리더십 측면을 모�
 
 마지막으로, 면접을 대비할 때는... 재미를 느껴보세요! 그 어려움을 극복하길 진심으로 바라는 기회로 바라보세요. 여러분은 지식과 기술을 보유한 능력과 자신감 있는 전문가입니다. 여러분은 할 수 있습니다! 면접 여정에서 행운을 빕니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # [보너스] 취직 축하해요!
 

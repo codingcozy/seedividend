@@ -3,17 +3,13 @@ title: "Nextjs 14에서 Next-Auth v5를 사용하는 인증 가이드 정리"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Complete Authentication Guide Using Next-Auth v5 in Nextjs 14"
 link: "https://medium.com/javascript-in-plain-english/complete-authentication-guide-using-next-auth-v5-in-next-js-14-70e7630ab1c2"
 isUpdated: true
 ---
-
-
-
-
 
 제가 작성 중인 Next.js 14에서 Next-Auth v5를 사용한 완전한 인증 구현에 관한 두 번째 블로그 파트입니다. 첫 번째 블로그를 아직 읽지 않으셨다면, 먼저 확인하는 것을 강력히 추천드립니다: https://medium.com/@nikhilc2209/client-side-form-validation-with-zod-useformstate-in-next-js-14-dc011a9c44fb
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # Next-Auth 설정하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 NextAuth.js는 Next.js 애플리케이션용 오픈 소스 인증 라이브러리로, 다양한 인증 공급업체를 위한 유틸리티, 미들웨어 및 전략을 제공하여 Next.js 프로젝트에서 인증 구현 프로세스를 간소화하려고 노력합니다. 개발자들에게 인증을 간편하게 만드는 데 도움이 되도록 Authentication에 대한 여러 가지 전략을 제공합니다.
 
@@ -33,7 +40,18 @@ Next.js 프로젝트에 Next-Auth v5를 포함하려면 단순히 다음 명령�
 
 npm install next-auth@beta
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 버전은 아직 베타 버전이며 본 릴리스에 포함되지 않았습니다.
 
@@ -43,7 +61,18 @@ Next-Auth 라이브러리는 어느 정도 오랜 시간동안 사용되어 왔�
 
 공식 문서에서 이러한 변경 사항의 요약은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가장 주목할 만한 변화는 대부분의 세션 관련 호출이 이제 Universal auth() 호출로 대체되어 코드를 더 읽기 쉽게 만든다는 점입니다.
 
@@ -85,7 +114,18 @@ export const {
 })
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 우리는 인증을 위한 모든 로직이 포함된 app 디렉토리 내부에 api/auth라는 폴더를 만들 것입니다. 이 폴더 안에는 route.js라는 파일이 있는 [...nextauth]라는 하위 디렉토리를 생성합니다. 흥미로운 점은 이 네이밍 규칙이 정말 중요하다는 것인데요, 이렇게 하면 /api/auth/\*로 시작하는 모든 API 요청이 [...nextauth]/route.js 파일에 작성된 코드로 처리됩니다.
 
@@ -99,7 +139,18 @@ app / api / auth / [...nextauth] / route.js;
 export { GET, POST } from "@/auth";
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 자격 증명 제공자 설정하기
 
@@ -115,7 +166,18 @@ const response = await signIn("credentials", {
 
 이제 방금 만든 자격 증명 제공자의 authorize 함수에서 이 요청을 처리할 수 있습니다. 이 블로그에서는 데이터베이스에 연결하지 않고, 단순히 사용자 이름 및 비밀번호를 저장하기 위해 더미.json 파일을 사용하겠습니다. authorize 함수에서 json 파일을 반복하고 사용자 이름과 비밀번호와 일치하는 자격 증명을 찾아보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 찾으면 user.id 및 user.username과 함께 사용자 객체를 반환하고, next-auth는 auth.js에서 정의된 전략을 사용하여 세션을 만듭니다. 그렇지 않으면 자격 증명이 올바르지 않다는 것을 나타내는 null을 반환합니다.
 
@@ -125,7 +187,18 @@ signIn 함수와 유사하게 Next-Auth는 현재 세션을 삭제하는 signOut
 
 ## 공개, 보호 및 인증 라우트 정의
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 로그인 페이지가 작동 중이므로 공개(public), 비공개(private), 그리고 보호(protected) 라우트를 정의할 수 있습니다. 아이디어는 매우 간단합니다:
 
@@ -137,18 +210,24 @@ signIn 함수와 유사하게 Next-Auth는 현재 세션을 삭제하는 signOut
 
 Next-Auth를 사용하여 미들웨어를 추가하는 것이 좋으며 작업을 훨씬 쉽게 만들어줍니다. 구성된 미들웨어는 모든 요청이 통과하는 필터 역할을 합니다. 여기서는 어떤 요청이 어떤 유형의 라우트에 속하는지 확인하고 해당 처리를 할 수 있습니다. 아래에서 미들웨어가 작동하는 방식에 대한 개요를 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/CompleteAuthenticationGuideUsingNext-Authv5inNextjs14_1.png" />
 
 ```js
 import { auth } from "@/auth";
-import {
-  privateRoutes,
-  authRoutes,
-  DEFAULT_REDIRECT_LOGIN_URL,
-  DEFAULT_REDIRECT_HOME_URL,
-} from "./routes";
+import { privateRoutes, authRoutes, DEFAULT_REDIRECT_LOGIN_URL, DEFAULT_REDIRECT_HOME_URL } from "./routes";
 
 export const config = {
   matcher: ["/((?!.+\\.[\\w]+$|_next).*)", "/", "/(api|trpc)(.*)"],
@@ -159,7 +238,18 @@ export const config = {
 
 참고: 이 이상한 모습의 정규 표현식은 사실상 서버로 전송된 모든 요청과 일치하므로 모든 요청이 미들웨어 확인을 통과해야 합니다. 하지만 여기에는 비공개 경로만 정의할 수도 있지만, 이전 방법이 더 많은 제어권을 제공하며 강력히 권장됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 세션을 사용하여 데이터 렌더링하기
 
@@ -169,7 +259,18 @@ export const config = {
 
 우리는 성공적인 로그인 시 전달한 사용자 이름과 현재 토큰의 만료 시간을 가져올 수 있습니다. 또한 auth.js의 authorize 함수에서 원하는 추가 정보를 추가할 수도 있습니다. 이 정보를 사용하여 대시보드 페이지나 다른 공개/보호된 경로에서 현재 로그인한 사용자를 표시할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 보호 및 인증 라우트를 위한 리디렉션 추가
 
@@ -185,7 +286,18 @@ export const DEFAULT_REDIRECT_HOME_URL = "/dashboard";
 
 그리고 지금, 우리는 Next-Auth v5를 사용하여 자격 증명 인증을 성공적으로 구성했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # OAuth 제공자 추가하기
 
@@ -195,7 +307,18 @@ Next-Auth 공식 문서에 따르면 GoogleProvider를 설정하기 위해 GOOGL
 
 개발 중에는 URI로 localhost를 사용하고 리디렉트 URI로 http://localhost:3000/api/auth/callback/google을 사용하면, 모든 OAuth 요청이 auth.js 파일에서 처리됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/CompleteAuthenticationGuideUsingNext-Authv5inNextjs14_3.png" />
 
@@ -207,7 +330,18 @@ signIn("google", { callbackUrl: "http://localhost:3000/dashboard" });
 
 그러면 자격 증명을 통한 로그인을 성공적으로 구성하고 OAuth를 몇 분만에 설정했습니다! 축하해요! 🎉
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](https://miro.medium.com/v2/resize:fit:720/1*9wS1rs4-YMz09FAi2tdLCw.gif)
 
@@ -217,7 +351,18 @@ signIn("google", { callbackUrl: "http://localhost:3000/dashboard" });
 
 # 소스 코드:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Complete Authentication Guide Using Next-Auth v5 in Next.js 14.5](/assets/img/CompleteAuthenticationGuideUsingNext-Authv5inNextjs14_5.png)
 
@@ -229,7 +374,18 @@ signIn("google", { callbackUrl: "http://localhost:3000/dashboard" });
 
 # 쉬운 용어로 설명 🚀
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저 In Plain English 커뮤니티에 참여해 주셔서 감사합니다! 떠나기 전에:
 

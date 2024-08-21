@@ -3,17 +3,13 @@ title: "CSS만 사용하여 Windows 98 스타일 만드는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Using Only CSS to Recreate Windows 98"
 link: "https://medium.com/gitconnected/using-only-css-to-recreate-windows-98-958cce4da0ca"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/UsingOnlyCSStoRecreateWindows98_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 데모 링크는 여기에서 찾을 수 있습니다. 전체 화면 모드에서 더 잘 보입니다. 이 데모에서 멋지다고 생각한 것들 중 하나는:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - CSS로만 구현된 맹글스위퍼 게임 — 하지만 점수 기록은 없어요.
 - CSS 부모 선택자를 이용하여 로그인 및 로그아웃, 누가 로그인했는지 기억.
@@ -39,7 +46,18 @@ isUpdated: true
 
 # CSS로 윈도우 98을 만드는 방법
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서, 이 Windows 98 버전에 대해 가장 중요하게 생각한 것은 모양과 느낌이었어요. 저는 꽤 멋진 Windows 98 아이콘들을 사용하고(다시 돌아와야 한다고 생각해요), 표준 Windows 98 컬러 스키마도 사용하고 있어요. 들여쓰기와 들여쓰지 않기 느낌을 얻기 위해 꽤 복잡한 박스 그림자를 사용했는데요, 여기서 보이는 것처럼 말이죠:
 
@@ -56,7 +74,18 @@ isUpdated: true
 
 # CSS에서 정보 저장소로서 체크박스와 라디오 버튼 사용하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 체크박스와 라디오 버튼은 CSS에서 정보를 저장하는 유일한 방법입니다. 이후 스타일 변경을 구현하는 데 사용할 수 있습니다. 체크박스는 선택될 때 하나의 기능을 활성화하거나 비활성화하는 데 사용될 수 있습니다 (예: 창 표시, 창 최대화 또는 지뢰 찾기 게임에서 사각형 클릭). 한 번에 하나의 옵션이 활성화될 수 있는 경우 (예: 어떤 창이 상단에 표시되어야 하는가) - 우리는 라디오 버튼을 사용할 수 있습니다. 두 가지 모두 CSS에서 동일한 구문을 따르며 :checked 선택기를 사용합니다:
 
@@ -77,7 +106,18 @@ isUpdated: true
 </form>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 표시된 라벨은 체크박스 #login-screen-input과 연결되어 있습니다. 즉, 라벨을 클릭하면 체크박스가 선택됩니다. 이것은 사용자의 클릭을 추적하고, 체크박스의 :checked 상태를 사용하여 특정 창을 특정 형식에서 표시하는 것을 자유롭게 할 수 있는 기회를 제공합니다. 어려운 점은 하나의 입력란에 하나의 라벨만 연결할 수 있다는 것입니다.
 
@@ -87,7 +127,18 @@ isUpdated: true
 
 사용자가 로그인 해제할 때 디브 내에 로그인 화면이 있는 경우, 우리는 쉽게 누가 로그인했는지 추적하기 위해 형제 선택기를 사용할 수 없습니다. 여전히 :checked 상태를 사용하여 이를 추적할 수 있지만, 입력란들이 DOM에 깊숙히 있어서 그들의 부모의 형제 CSS에 영향을 미치지 못합니다. 다행히도, 이 작업에 딱 맞는 새 CSS 부모 선택자를 사용할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 #login-screen요소 안에 #login-window의 .select-box 안에 #zark-muckerberg가 체크되었을 때
@@ -104,7 +155,18 @@ isUpdated: true
 
 매우 안타깝게도, 체크된 상자를 연결하여 CSS AND 선택자를 만들 방법이 없었습니다. 예를 들어, 체크된 상태를 기반으로 일부 CSS를 적용하는 상황을 고려해 보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 #minesweeper-box-1-1:checked ~ .content > .minesweeper-box-1-1 {
@@ -120,9 +182,18 @@ isUpdated: true
 
 하지만, 불행히도 그것은 작동하지 않았습니다. 따라서 CSS에서 상태를 추적할 수 있는 방법이 있지만, 그를 기반으로 논리 명령문과 스타일을 생성하기 위해 다중 조건의 체크박스 상태를 추적하는 것은 다소 어렵습니다. 이는 실망스럽지만, Windows 98 구현에 크게 제한을 두지는 않습니다.
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 윈도우 98 텍스트 달성하기
 
@@ -135,7 +206,18 @@ body {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서 이 프로젝트에서의 주요 작업 중 하나는 지뢰찾기를 다시 만드는 것이었습니다. 그리드를 비교적 작게 유지했는데(내 정신 건강을 유지하기 위해), 레이블로 만든 나만의 지뢰찾기 맵을 만들어야 했습니다. 각 레이블은 입력란에 매핑되어 있었는데, 이는 셀이 클릭되었는지 여부를 추적했습니다. 지뢰를 클릭하면 게임이 끝나고 보드와 상호작용할 수 없게 됩니다. 지뢰찾기 셀이 약 56개이기 때문에 약 56개의 지뢰찾기 입력이 필요했습니다. 모든 것을 CSS로 추적하는데에는 많은 CSS가 필요했지만, 전반적인 결과는 꽤 멋져 보입니다.
 
@@ -145,7 +227,18 @@ body {
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 안내서를 즐겁게 보셨기를 바랍니다. 이 작업을 하며 웹 개발이 얼마나 어려웠는지, DOM 요소를 수동으로 많이 생성해야 했던 과거를 생각해보게 되었습니다. CSS로 무엇을 실현할 수 있는지 보는 것은 재미있는 일이에요 (단순 선택자 포함). 웹 애플리케이션을 만드는 현실적인 방법인가요? 속도 측면에서는 아직 그렇지 않고, 기능 측면에서도 아직 그렇진 않지만, CSS가 할 수 있는 것이 생각보다 더 많았고, 결과에 상당히 만족합니다.
 
@@ -155,7 +248,18 @@ body {
 
 저희 커뮤니티의 일부가 되어 주셔서 감사합니다! 떠나시기 전에:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 👏 이야기에 박수를 보내고 작가를 팔로우하세요 👉
 - 📰 레벨업 코딩 게시물에서 더 많은 콘텐츠를 확인하세요

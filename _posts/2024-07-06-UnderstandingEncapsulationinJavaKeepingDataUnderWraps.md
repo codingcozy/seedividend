@@ -3,16 +3,13 @@ title: "Java에서 캡슐화를 이해하기 데이터를 안전하게 보호하
 description: ""
 coverImage: "/assets/img/2024-07-06-UnderstandingEncapsulationinJavaKeepingDataUnderWraps_0.png"
 date: 2024-07-06 02:36
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-06-UnderstandingEncapsulationinJavaKeepingDataUnderWraps_0.png
 tag: Tech
 originalTitle: "Understanding Encapsulation in Java: Keeping Data Under Wraps"
 link: "https://medium.com/pythons-gurus/understanding-encapsulation-in-java-keeping-data-under-wraps-96a2b8f640ed"
 isUpdated: true
 ---
-
-
-
 
 /assets/img/2024-07-06-UnderstandingEncapsulationinJavaKeepingDataUnderWraps_0.png
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 무언가를 캡슐화한다는 것은 그것을 포함하는 것을 의미합니다. Java에서 캡슐화는 데이터(변수)와 코드(메서드)를 단일 단위, 일반적으로 클래스로 묶는 것을 의미합니다. 이 캡슐화는 일부 구성 요소에 대한 직접 액세스를 제한하여 데이터의 무결성을 보호하는 데 중요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 가져 오기 및 설정 메소드 : Gatekeepers
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 ![이미지 2](/assets/img/2024-07-06-UnderstandingEncapsulationinJavaKeepingDataUnderWraps_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 캡슐화의 장점
 
@@ -46,7 +65,18 @@ isUpdated: true
 - 추가 구현: 각 메서드는 추가 구현이 필요하며, 이는 코드의 복잡성을 증가시킵니다.
 - 성능 부담: 추가 메서드는 성능 오버헤드를 야기할 수 있으며, 이는 메서드 호출 때문에 약간의 성능 저하를 초래할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -56,7 +86,18 @@ isUpdated: true
 
 Python’s Gurus 커뮤니티의 일원이 되어 주셔서 감사합니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가기 전에:
 

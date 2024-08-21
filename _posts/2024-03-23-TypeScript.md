@@ -3,17 +3,13 @@ title: "Nextjs 13에서 타입스크립트 사용하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: "undefined"
 isUpdated: true
 ---
-
-
-
-
 
 # TypeScript
 
@@ -23,11 +19,33 @@ Next.js는 React 애플리케이션을 구축하기 위한 TypeScript를 우선�
 
 ## 새 프로젝트
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트에 TypeScript를 추가하려면 파일을 .ts / .tsx로 이름을 변경하세요. 그런 다음 next dev 및 next build를 실행하여 필요한 종속성을 자동으로 설치하고 권장 구성 옵션으로 tsconfig.json 파일을 추가할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 이미 jsconfig.json 파일이 있는 경우에는, 이전 jsconfig.json 파일에서 paths 컴파일러 옵션을 새 tsconfig.json 파일로 복사하고 이전 jsconfig.json 파일을 삭제해주세요.
 
@@ -37,7 +55,18 @@ Next.js는 React 애플리케이션을 구축하기 위한 TypeScript를 우선�
 
 ## 정적 생성과 서버 사이드 렌더링
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 getStaticProps, getStaticPaths, getServerSideProps에 대한 정보를 공유드릴게요. 각각 GetStaticProps, GetStaticPaths 및 GetServerSideProps 유형을 사용할 수 있습니다:
 
@@ -61,7 +90,18 @@ export const getServerSideProps = (async (context) => {
 
 ## API Routes
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 API 라우트에 내장된 유형을 사용하는 예시입니다:
 
@@ -87,7 +127,18 @@ export default function handler(req: NextApiRequest, res: NextApiResponse<Data>)
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 사용자 정의 앱
 
@@ -103,7 +154,18 @@ export default function MyApp({ Component, pageProps }: AppProps) {
 
 ## 경로 별칭 및 baseUrl
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Next.js는 tsconfig.json의 "paths" 및 "baseUrl" 옵션을 자동으로 지원합니다.
 
@@ -113,7 +175,18 @@ Next.js는 tsconfig.json의 "paths" 및 "baseUrl" 옵션을 자동으로 지원�
 
 next.config.js 파일은 Babel이나 TypeScript에서 구문 분석되지 않으므로 JavaScript 파일이어야 합니다. 그러나 아래와 같이 JSDoc을 사용하여 IDE에서 일부 유형 검사를 추가할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // @ts-check
@@ -135,7 +208,18 @@ v10.2.1부터 Next.js는 tsconfig.json에서 활성화된 경우
 
 ## TypeScript 오류 무시하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Next.js는 프로젝트에 TypeScript 오류가 있을 때 `next build`를 통해 프로덕션 빌드에 실패합니다.
 
@@ -145,7 +229,18 @@ Next.js는 프로젝트에 TypeScript 오류가 있을 때 `next build`를 통�
 
 `next.config.js` 파일을 열고 typescript 구성에서 `ignoreBuildErrors` 옵션을 활성화하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 module.exports = {
@@ -179,7 +274,18 @@ module.exports = {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 버전 변경사항
 
@@ -189,4 +295,15 @@ module.exports = {
 | `v12.0.0` | 더 빠른 빌드를 위해 TypeScript 및 TSX를 컴파일하기 위해 기본적으로 <a href="/docs/architecture/nextjs-compiler">SWC</a>이(가) 사용됩니다.                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | `v10.2.1` | <code>tsconfig.json</code>에서 활성 상태인 경우 <a href="https://www.typescriptlang.org/tsconfig#incremental" rel="noopener noreferrer nofollow" target="_blank">잘못된 타입 확인<span class="inline-flex"><svg class="with-icon_icon__MHUeb" data-testid="geist-icon" fill="none" height="24" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" viewBox="0 0 24 24" width="24" style="color:currentColor;width:14px;height:14px"><path d="M7 17L17 7"></path><path d="M7 7h10v10"></path></svg></span></a> 대응이 추가되었습니다. |
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

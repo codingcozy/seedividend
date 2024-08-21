@@ -3,17 +3,13 @@ title: "웨이백 머신을 통해 본 웹 디자인 25년의 경력"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "My 25-Year Career in Web Design Through the Eyes of the Wayback Machine"
 link: "https://medium.com/on-building-software/my-25-year-career-in-web-design-through-the-eyes-of-the-wayback-machine-4e37f3ec94d8"
 isUpdated: true
 ---
-
-
-
-
 
 ## 새로운 매체의 흥분을 기억하고, 그 유동성을 받아들이며, 몇 가지 부끄러운 작은 보물들을 재발견합니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 1990년대 후반, 저는 미래를 찾아 대학에 입학했어요. 마음만은 예술가가 되고 싶었지만, 머릿속은 성숙해지고 과학자가 되라고 말했어요. 그리고 이 매체가 외계 우주선처럼 세상에 착륙하자, 그것은 평화롭게 다가오고 안으로 들어오도록 부르는 듯했어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나의 내부 소리를 달래주기도 하고, 난 그것에 관심이 있었어.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 조금은 예술. 조금은 과학. 완벽한 영약 같았어.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나는 결국 Photoshop을 찾게 되었어요. 안내서를 발견했고, 롤오버 상태를 보여주기 위해 레이어를 추가했어요. 디자인을 "잘게 썰어" HTML로 이동시켰어요. 조금의 Javascript로 onmouseover와 onmouseout을 만들어 동적인 요소를 만들었어요.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 나에게는 웹 디자인에 대한 특별한 곳이 항상 있을 거예요 — 올드 스쿨 형식인 곳이죠. 반응형 이전에요. 아직 브라우저 모서리 주변을 찾아가고 있는 중이던 시기에요. Netscape의 막바지에서 시작되었으며, IE 6의 막바지에서 안도의 한숨을 내쉬었던 시대에요. 1024 픽셀이 화면을 가로지르는 긴 거리로 여겨졌던 시절이에요. 새로운 FLA나 PSD를 열면 무한한 가능성의 시작이 마련되는 순간이었던 시기에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 디자인을 25년 이상 했습니다. 기억 속의 웹은 변화했어요 — 그럴 만큼 변해야겠지요. 그래서 나는 그리움을 떨치지 못해요.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 여기서 웹의 한 가지 단점을 언급하고 싶어요: 그 무게 없음. 정말 순식간에 사라져요. 웹상의 작품들은 생성되고 사라져요. 그들은 뒷문을 통해 완전히 사라질 수 있으며, 아무도 문이 닫히는 소리를 듣지 않을 수도 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 이 아티팩트를 보존한 유일한 곳인 인터넷 아카이브의 웨이백 머신에서 파헤쳐봤어.
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 아마도, 찾고 싶지 않은 것들도 다시 발견하게 될지도 모르겠지.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기가 내 바운티였어.
 
@@ -73,7 +124,18 @@ isUpdated: true
 
 내 첫 번째 웹 구석지는 지금 "사이트에 연결할 수 없음"이야: http://www.isp.nwu.edu/~kawai.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 캠퍼스 북단 컴퓨터에 있는 디렉토리에 index.html (아니면 index.htm인가요?) 파일을 저장한 기억이 나요. 메인 로드를 롤러블레이딩하면서 캠퍼스 남단까지 내려갔고, 기억한 URL을 입력하여 내 노트북 화면에 그 페이지가 나타나는 것을 보았어요.
 
@@ -83,7 +145,18 @@ C++은 크게 사용하지 않았는데, 이 우연한 순간이 저를 HTML, �
 
 1998년, 대학 URL을 사용하여 "다음 세대 웹 디자인을위한 포럼"이라는 Kiwi 사이트를 만들기로 결심했어요. 형식이 기능의 방해요소가 되던 시절에 디자인과 내용을 균형있게 맞춘 사이트들을 강조하고 싶었어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예전에 우리 많이 한 것처럼, 나는 복사물에 "우리"를 사용했어요. 이렇게 하면 대학생이고 여전히 롤러블레이드를 신고 기숙사 방에서 앉아 있는 대신에 전문 디자이너 팀이 운영하는 것처럼 사이트를 보일 수 있었거든.
 
@@ -93,7 +166,18 @@ C++은 크게 사용하지 않았는데, 이 우연한 순간이 저를 HTML, �
 
 나는 학업보다도 더 많은 시간을 웹마스터로 보내며, 브라우저의 매직한 "소스보기..." 옵션을 통해 포토샵과 HTML을 거꾸로 공부했던 기억이 나네요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어릴 적에는 Apple IIc와 함께 자란 프로그램의 BASIC 코드를 구경하거나 오래된 장난감을 분해하는 것을 떠올렸어요.
 
@@ -103,7 +187,18 @@ C++은 크게 사용하지 않았는데, 이 우연한 순간이 저를 HTML, �
 
 내 첫 유료 클라이언트는 Geotrack이라는 공학 회사였습니다. 나는 그들을 기숙사 로비의 게시판에 고정된 광고로 발견한 것으로 기억합니다. 그들에게 이메일을 보내고, 아마도 내가 생각한 것의 샘플을 보내고, 그들은 "네"라고 했어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그들은 내가 하고 있는 일에 시간당 $20을 지불했어요 — 그 전 웹마스터로 일하며 벌었던 것의 두 배 이상이고 캠퍼스에서 하는 이상한 일의 표준 가격의 거의 네 배에 해당해요.
 
@@ -113,7 +208,18 @@ C++은 크게 사용하지 않았는데, 이 우연한 순간이 저를 HTML, �
 
 잊고 싶은 일들이 있어요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - '90년대 후반 웹 디자인의 상징인 Geotrack 로고 주변의 둥근 테두리.
 - 곡선에서 오른쪽 측면으로 이어지는 수직 테두리까지의 약간 맞지 않는 전환.
@@ -125,7 +231,18 @@ C++은 크게 사용하지 않았는데, 이 우연한 순간이 저를 HTML, �
 
 Wayback Machine에 남아 있는 것은 원본 사이트의 뼈대입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![My 25-Year Career in Web Design Through the Eyes of the Wayback Machine](/assets/img/My25-YearCareerinWebDesignThroughtheEyesoftheWaybackMachine_1.png)
 
@@ -135,7 +252,18 @@ Wayback Machine에 남아 있는 것은 원본 사이트의 뼈대입니다.
 
 하지만 예전의 표 레이아웃 기술을 사용하여 디자인한 오래된 사이트를 보면 깨진 이미지가 흩어져 있고, 로딩되지 않는 배경이 있으며, 한때 해결했던 CSS 해킹이 더 이상 동작하지 않는 것을 볼 때 시적인 면이 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그것은 한 때 사랑과 관심을 가지고 관리했던 버려진 집처럼 느껴집니다. 이제는 노인의 효과와 방치로 인해 약화되었습니다. 뼈는 여전히 남아 있습니다.
 
@@ -145,7 +273,18 @@ Wayback Machine에 남아 있는 것은 원본 사이트의 뼈대입니다.
 
 나는 내 옛 포트폴리오 사이트의 몇 가지 버전이 크게 손실되지 않은 것을 발견해서 기쁘게 놀랐습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가장 처음 버전이 가장 보존되어 있는 것 같아요. 여기 링크가 있습니다. 혹시 이 글을 읽을 때 여전히 작동 중이기를 바랍니다.
 
@@ -153,7 +292,18 @@ Wayback Machine에 남아 있는 것은 원본 사이트의 뼈대입니다.
 
 제가 2001년 7월 시카고 시내에 있었을 때, 제 동생의 디지털 카메라로 도시 건물을 사진 찍고 있던 기억이 나네요. 거기에 있었던 이유는 기억나지 않지만, 마침내 저희 팔래시를 이용해 다음 버전의 플래시 기반 포트폴리오에서 이 사진들을 사용하게 됐죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 V2로 이동할 수 있는 링크가 있어요. (안타깝게도, 동적 컨텐츠가 로드되지 않아 쉘 네비게이션이 남아 있어요).
 
@@ -163,7 +313,18 @@ Wayback Machine에 남아 있는 것은 원본 사이트의 뼈대입니다.
 
 다음 해, 내 첫 번째 (그리고 유일한 진정한) 기업 프로그래밍 직장에서 해고당했을 때, 나는 다시 한 번 포트폴리오를 리디자인했고, 다시 한 번 플래시를 사용했어요. 그때쯤에는 심지어 우리 플래시 광팬들도 2Advanced Studios 스타일의 지나치게 장식된 플래시 사이트에 조금 지쳐 있었어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 버전 3은 더 모듈화되고 더 세련된 플래시 요소를 미세하게 사용한 것이었어요. 이렇게 말하는 것은 더 기능적이고 "진지한" 소프트웨어를 만들 준비가 되었다는 것입니다.
 
@@ -173,7 +334,18 @@ Wayback Machine에 남아 있는 것은 원본 사이트의 뼈대입니다.
 
 ![이미지](/assets/img/My25-YearCareerinWebDesignThroughtheEyesoftheWaybackMachine_6.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이때쯤, 저는 다양한 웹 주제에 대해 글쓰기를 시작했어요. 제 이름을 알리고 싶어서 몇몇 단체에 이메일을 보내어 그들의 웹 사이트를 위해 기사를 쓸 수 있는지 물어봤죠. 오늘날에는 이를 게스트 게시물 작성과 교차 링크를 통해 개인 브랜드를 구축한다고 부르겠지요.
 
@@ -185,7 +357,18 @@ Wayback Machine에 남아 있는 것은 원본 사이트의 뼈대입니다.
 
 # 원페이지 웹 사이트
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2006년, 저는 We Are Mammoth라는 웹 개발 비즈니스를 공동 창업했어요. 이 기간 동안 저는 원페이지 웹사이트를 좋아하게 되었죠.
 
@@ -195,7 +378,18 @@ WAM의 첫번째 원페이지 버전은 플래시로, 세 파트너의 일러스
 
 ![이미지](/assets/img/My25-YearCareerinWebDesignThroughtheEyesoftheWaybackMachine_7.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제 다음 단계는 HTML로 돌아가는 것이었습니다. 사이트의 수직 깃발은 우리가 시카고 풀턴 마켓에 있는 리모델링된 창고를 집으로 바꾼 뒤 거는 실제 깃발을 반영했습니다.
 
@@ -205,7 +399,18 @@ WAM 웹사이트의 디자이너 모자를 쓰던 나의 시절은 끝이 났습
 
 # 2012년과 2020년의 책들을 한 페이지 웹사이트 형태로 나타냈음 (2012 and 2020)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2012년에 Pragmatic Bookshelf에서 내 첫 번째 책인 The Developer's Code를 출간했어요. 하지만 이전에는 전체 초안을 담은 한 페이지 웹 사이트로 시작했었죠. 페이지의 측면 여백을 클릭하면 '즐겨찾기'를 할 수 있는 기능이 함께 들어있답니다.
 
@@ -215,7 +420,18 @@ WAM 웹사이트의 디자이너 모자를 쓰던 나의 시절은 끝이 났습
 
 ![이미지](/assets/img/My25-YearCareerinWebDesignThroughtheEyesoftheWaybackMachine_8.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 수 년 후, 나는 프로그래밍에서 명명하는 것에 관한 책을 썼는데, 그것은 또 다른 한 장 페이지였어요. 이것은 챕터 내비게이션을 갖춘 것으로, 모바일에서도 잘 작동하며 div의 가시성을 교체합니다.
 
@@ -225,7 +441,18 @@ DoneDone은 2008년에 저가 시작하고 2009년 4월에 론칭한 제품이�
 
 저 또한 그 첫번째 공개 웹사이트를 디자인하고 배포했고, 여전히 완전히 유지되고 있어요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사이트에서 가장 좋아하는 부분은 복사본입니다. 각 단어를 신중하게 살피며 기울어진 그리고 잘린 스크린샷 주변에 딱 맞게 배치되도록 많은 시간을 보냈습니다. 아직도 잘 읽힙니다.
 
@@ -235,7 +462,18 @@ DoneDone은 처음 9년간 WAM의 부가 사업으로 남아 있었습니다. �
 
 아직도 DoneDone은 내가 사랑하는 일이자 2009년 이후 웹에 기여한 대부분입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2017년에 "풀타임"으로 일하기 시작한 이후에도 DoneDone는 작게 유지했어요. 사실, 더 작게 말이죠. 2020년까지 저희 풀타임 직원은 다시 둘로 줄었어요. 그리고 2021년에는 10년 넘게만에 다시 공개 사이트를 스스로 디자인할 기회를 가졌어요.
 
@@ -245,7 +483,18 @@ DoneDone은 처음 9년간 WAM의 부가 사업으로 남아 있었습니다. �
 
 지금은 웹사이트를 디자인하지 않아요. 그렇게 많이요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래도 가끔 화면에 글자를 배열하고 싶을 때가 있어요. 줄 높이, 글자 간격, 안쪽 여백, 바깥 여백에 대해 생각해보고, 폰트를 고르며 웹에 올릴 작은 것에 대한 소소한 즐거움을 느끼곤 해요.
 

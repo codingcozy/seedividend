@@ -3,16 +3,13 @@ title: "리액트와 장고 다중 페이지 애플리케이션 통합"
 description: ""
 coverImage: "/assets/img/2024-06-20-IntegratingReactwithDjangoMultipageApplication_0.png"
 date: 2024-06-20 02:17
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-IntegratingReactwithDjangoMultipageApplication_0.png
 tag: Tech
 originalTitle: "Integrating React with Django Multipage Application"
 link: "https://medium.com/wetheitguys/integrating-react-with-django-multipage-application-355462baaf5d"
 isUpdated: true
 ---
-
-
-
 
 ![image](/assets/img/2024-06-20-IntegratingReactwithDjangoMultipageApplication_0.png)
 
@@ -22,7 +19,18 @@ React와 Django는 각각의 강점을 가진 웹 애플리케이션을 구축�
 
 ## 요구 사항:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Django와 React의 기본 지식이 필요합니다.
 - 시스템에 Python과 Node.js가 설치되어 있어야 합니다.
@@ -38,7 +46,18 @@ django-admin startproject myproject
 cd myproject
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로, 프로젝트 내에서 Django 앱을 생성합니다:
 
@@ -53,7 +72,18 @@ python manage.py makemigrations
 python manage.py migrate
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 2: React 앱 생성하기:
 
@@ -68,7 +98,18 @@ cd frontend
 npx create-react-app myreactapp
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 3: React를 Django와 통합하기:
 
@@ -87,7 +128,18 @@ urlpatterns = [
 
 2. Django 템플릿에 React 번들 포함하기: Django 템플릿 (index.html)에 번들 된 JavaScript 파일을 동적으로 포함하여 개발 중에 변경 사항이 즉시 반영되도록하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음과 같이 myapp 폴더와 동일한 레벨에 template 폴더를 만들어주세요. settings.py 파일을 업데이트해서 templates를 포함하도록 하겠습니다.
 
@@ -110,21 +162,32 @@ TEMPLATES = [
 { load static }
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Django React App</title>
-</head>
-<body>
+  </head>
+  <body>
     <div id="root"></div>
     <script src="http://localhost:3000/static/js/bundle.js"></script>
-</body>
+  </body>
 </html>
 ```
 
 ## Step 4: 어플리케이션 실행하기:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 개발
 
@@ -136,7 +199,18 @@ python manage.py runserver
 
 - React 개발 서버를 시작합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 cd frontend/myreactapp
@@ -149,7 +223,18 @@ npm start
 
 - React 앱 빌드하기:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 cd frontend/myreactapp
@@ -161,22 +246,33 @@ npm run build
 ```html
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Django React App</title>
-</head>
-<body>
+  </head>
+  <body>
     <div id="root"></div>
 
     <script src="{ static 'js/main.38dff78c.js' }"></script>
-</body>
+  </body>
 </html>
 ```
 
 - Django 서버 시작:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 python manage.py runserver
@@ -188,8 +284,18 @@ Django와 React를 통합하면 웹 애플리케이션의 사용자 경험을 �
 
 이 안내서에 나온 단계를 따라가면 React와 Django의 장점을 모두 활용하여 Django의 백엔드 기능을 React의 동적인 프론트엔드 컴포넌트와 함께 효율적으로 사용할 수 있습니다. 프로젝트 설정부터 개발 및 프로덕션 환경 처리까지, 이제 Django 애플리케이션에 React를 통합할 튼튼한 기반을 가지게 되었습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 행복한 코딩 😃
 

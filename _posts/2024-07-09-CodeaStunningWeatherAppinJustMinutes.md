@@ -3,15 +3,13 @@ title: "몇 분 만에 멋진 날씨 앱 만들기"
 description: ""
 coverImage: "/assets/img/2024-07-09-CodeaStunningWeatherAppinJustMinutes_0.png"
 date: 2024-07-09 14:05
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-CodeaStunningWeatherAppinJustMinutes_0.png
 tag: Tech
 originalTitle: "Code a Stunning Weather App in Just Minutes!"
 link: "https://medium.com/@learntocodetoday/code-a-stunning-weather-app-in-just-minutes-99a355570fa3"
 isUpdated: true
 ---
-
-
 
 <img src="/assets/img/2024-07-09-CodeaStunningWeatherAppinJustMinutes_0.png" />
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 # 전제 조건
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시작하기 전에 다음 사항을 준비해주세요:
 
@@ -33,7 +42,18 @@ isUpdated: true
 
 프로젝트를 위한 새 디렉토리를 만들고 index.html, style.css 및 app.js 세 개의 파일을 추가해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 index.html:
 

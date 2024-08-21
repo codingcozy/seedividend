@@ -3,17 +3,13 @@ title: "CSS가 어떤 스타일을 지정하는지 알아보는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How CSS Knows What to Style"
 link: "https://medium.com/@rashmipatil24/css-selectors-59db4d9a97aa"
 isUpdated: true
 ---
-
-
-
-
 
 ## 셀렉터 사가
 
@@ -23,7 +19,18 @@ CSS가 어떤 요소를 어떻게 스타일링해야 하는지 알고 있을까�
 
 CSS 셀렉터는 HTML 문서 내에서 하나 이상의 요소를 선택하고 스타일을 적용하는 데 사용되는 패턴입니다. 셀렉터는 태그 이름, 속성, 클래스, ID, 문서 트리 내 위치 또는 다른 요소와의 관계를 기반으로 요소를 대상으로 할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 셀렉터 조합자:
 
@@ -33,7 +40,18 @@ CSS 셀렉터는 HTML 문서 내에서 하나 이상의 요소를 선택하고 �
 
 셀렉터를 사용하려면, 단순히 셀렉터를 지정한 다음 중괄호{}로 둘러싼 원하는 스타일을 기술하는 CSS 규칙을 작성하면 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![HowCSSKnowsWhattoStyle_0](/assets/img/HowCSSKnowsWhattoStyle_0.png)
 
@@ -43,7 +61,18 @@ CSS 셀렉터는 HTML 문서 내에서 하나 이상의 요소를 선택하고 �
 
 CSS에서 전체 선택자는 별표(\*)로 나타내며 어떤 요소 타입이든 일치합니다. 이는 웹 페이지에서 태그 이름, 속성, ID 또는 클래스에 관계없이 모든 요소를 선택합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 * {
@@ -63,7 +92,18 @@ p {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 클래스 선택자:
 
@@ -77,7 +117,18 @@ p {
 
 ## ID 선택자:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 특정 ID 속성을 가진 요소를 대상으로합니다.
 
@@ -91,7 +142,18 @@ font-size: 18px;
 
 속성에 따라 요소를 대상으로합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 input[type="text"] {
@@ -109,7 +171,18 @@ a:hover {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 가상 요소:
 
@@ -123,7 +196,18 @@ font-weight: bold;
 
 ## 하위 선택자:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다른 지정된 요소의 하위 요소를 대상으로합니다.
 
@@ -137,7 +221,18 @@ margin-bottom: 10px;
 
 다른 지정된 요소의 직계 자식 요소를 대상으로합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 ul > li {
@@ -155,7 +250,18 @@ font-style: italic;
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 일반 형제 선택자:
 
@@ -169,7 +275,18 @@ color: green;
 
 # 피해야 할 흔한 실수:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 페이지 내에서 ID는 고유해야 합니다. 이로 인해 클래스보다 재사용성이 낮아집니다. ID를 오용하면 특정성 문제가 발생할 수 있고 CSS를 유지 관리하기 어려워질 수 있습니다.
 - 인라인 스타일은 편리할 수 있지만 HTML을 혼란스럽게 만들고 웹사이트 전반적인 일관된 스타일 유지 보수를 어렵게 할 수 있습니다. 더 나은 조직화와 유지 보수성을 위해 외부 CSS 파일을 사용하는 것을 고려해보세요.
@@ -183,6 +300,17 @@ color: green;
 
 기본 원리를 파악했으니 이제 색상 변경, 요소 크기 조정 또는 애니메이션 추가를 원한다면 CSS 선택기를 활용하세요. CSS 선택기는 처음에는 복잡해 보일 수 있지만 조금의 연습으로 숙련된 사용자가 될 수 있습니다. 그러니 실험해보고 창의성을 발휘해보세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 개발의 멋진 세계에 대한 더 많은 통찰력을 기대해 주세요. 즐거운 코딩 하세요!

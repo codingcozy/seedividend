@@ -3,17 +3,13 @@ title: "앵귤러에 사용자 정의 폰트 추가하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Adding Custom Fonts to Angular"
 link: "https://medium.com/@infowithkiiru/adding-custom-fonts-to-angular-cc24072d9ed3"
 isUpdated: true
 ---
-
-
-
-
 
 간혹 개인 프로젝트, 학술 프로젝트 또는 고객을 위한 프로젝트를 진행할 때, 최종 목표에 따라 선택한 글꼴은 사이트 전반적인 느낌과 조화를 이루어야 합니다. 오펜하이머 영화에 바비 영화 글꼴을 사용하지 않겠죠?
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 단계 1: 글꼴 다운로드
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Google Fonts에 방문해보세요. 거기서 여러 폰트들을 스크롤하며 선택할 수 있어요. 필터 기능은 원하는 것이 무엇인지 아는 경우 유용하게 사용할 수 있어요.
 
@@ -33,7 +40,18 @@ Google Fonts에 방문해보세요. 거기서 여러 폰트들을 스크롤하�
 
 ![이미지](/assets/img/AddingCustomFontstoAngular_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단계 2: 파일 추출 및 프로젝트로 가져오기
 
@@ -43,7 +61,18 @@ Google Fonts에 방문해보세요. 거기서 여러 폰트들을 스크롤하�
 
 추출 후에는 해당 파일을 assets 폴더에 복사해야 합니다. 여기서 모든 폰트를 fonts 폴더에 넣거나 단순히 assets 하위에 배치할 수 있는 선택권이 있습니다. 프로젝트를 정리하기 위해 제 경우 fonts 폴더에 넣었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단계 3: CSS 파일에 추가하기
 
@@ -60,7 +89,18 @@ Google Fonts에 방문해보세요. 거기서 여러 폰트들을 스크롤하�
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/AddingCustomFontstoAngular_4.png)
 
@@ -70,7 +110,18 @@ Google Fonts에 방문해보세요. 거기서 여러 폰트들을 스크롤하�
 
 ![이미지](/assets/img/AddingCustomFontstoAngular_5.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마크다운 포맷으로 표를 변경해주세요.
 

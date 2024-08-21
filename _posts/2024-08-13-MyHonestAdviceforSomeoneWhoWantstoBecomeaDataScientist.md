@@ -3,7 +3,7 @@ title: "데이터 과학자가 되고 싶다면 봐야하는 글"
 description: ""
 coverImage: "/assets/img/2024-08-13-MyHonestAdviceforSomeoneWhoWantstoBecomeaDataScientist_0.png"
 date: 2024-08-13 11:57
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-13-MyHonestAdviceforSomeoneWhoWantstoBecomeaDataScientist_0.png
 tag: Tech
 originalTitle: "My Honest Advice for Someone Who Wants to Become a Data Scientist"
@@ -11,7 +11,6 @@ link: "https://medium.com/towards-data-science/my-honest-advice-for-someone-who-
 isUpdated: true
 updatedAt: 1723864038647
 ---
-
 
 <img src="/assets/img/2024-08-13-MyHonestAdviceforSomeoneWhoWantstoBecomeaDataScientist_0.png" />
 
@@ -21,7 +20,18 @@ updatedAt: 1723864038647
 
 # 지금 당장 시작해요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자주 묻는 질문 중 하나가 플랫폼 A를 사용해야 할지, 아니면 플랫폼 B를 사용해야 할지입니다. 과정 X와 과정 Y 중 어느 과정이 더 나은지요?
 
@@ -31,7 +41,18 @@ updatedAt: 1723864038647
 
 비슷하게, 누군가는 자신에게 어떤 프로젝트를 해야 할지 물어봅니다. 저의 대답은 언제나 같아요: 마음에 드는 것을 선택하고 도전하세요. 올바른 프로젝트를 선택하는 데 시간을 낭비하는 것은 효과가 없기 때문에 사실 무의미한 일이에요. 그냥 무언가를 선택하고 작업하는 게 훨씬 낫고, 나중에는 항상 바꾸거나 더 선호하는 다른 프로젝트를 선택할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 유명한 명언에는 다음과 같이 나와 있습니다
 
@@ -41,7 +62,18 @@ updatedAt: 1723864038647
 
 # 일하느라 바쁠 거에요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 몇 년 전까지는 온라인 자격증을 취득한 다음 몇 달 내에 취직할 수 있었지만, 이제는 그런 현실이 아닙니다.
 
@@ -51,7 +83,18 @@ updatedAt: 1723864038647
 
 "열심히 일하라"라는 말은 도움이 되지 않을 수 있지만, '그라인드셋' 마인드를 지향하고 있는 것은 아닙니다. 하지만 데이터 과학자 공급이 기하급수적으로 늘어나면서 이제는 예전보다 더 많은 시간을 쏟아야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 풀타임으로 일하고 계신다면, 아마도 일 다음 저녁이나 주말에 공부해야 할 것입니다. 학생이시라면, 대학 공부와 병행하여 수업을 들어야 할 것입니다.
 
@@ -61,7 +104,18 @@ updatedAt: 1723864038647
 
 만약 데이터 과학 지원서를 돋보이게 만드는 방법에 대한 자세한 내용을 알고 싶다면, 제 이전 기사를 확인해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 지금부터 데이터 사용 시작하기
 
@@ -71,7 +125,18 @@ Excel과 같은 간단한 도구부터 시작해서 일상 업무에 더 많이 
 
 가능하다면 SQL과 Python도 조금씩 해보세요. 이미 데이터 역할을 수행하고 있기 때문에 나중에 해당 분야에서 직업을 찾는 것이 훨씬 쉬워질 것입니다. 더불어 이러한 도구에 대한 능숙도도 기하급수적으로 증가할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 기업은 데이터를 어떤 식으로든 활용할 수 있습니다. 데이터 양은 시간이 지날수록 급격히 증가하고 있기 때문에, 이 데이터를 조직에서 활용할 수 있는 기회가 많이 있습니다. 조금 창의적으로 생각하기만 하면 됩니다!
 
@@ -81,7 +146,18 @@ Excel과 같은 간단한 도구부터 시작해서 일상 업무에 더 많이 
 
 미디어와 전문가가 AI를 과대평가하는 데에 힘썼기 때문에 약간의 공포심을 불러일으키기도 했습니다. 하지만 잘못된 인식일 뿐, 이 기술은 여전히 놀라울 만큼 높은 수준이며 특정 영역에서 확실히 도움이 됩니다. 저는 심지어 매일 이 기술을 사용하여 생산성을 높이고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여러 사람들이 AI 때문에 데이터 과학 분야에 들어가야 할지에 대해 저에게 메시지를 보냈어요. 제 의견으로는 현재 상황에서 데이터 과학자를 대체할 수는 없기 때문에 걱정하지 않아도 된다고 생각해요.
 
@@ -91,7 +167,18 @@ NeetCode에서는 현재 AI가 프로그래머를 대체할 수 없다는 것을
 
 “소프트웨어 엔지니어 킬러”로 불리는 Devin조차도 초기에 홍보된 것만큼 좋지 않아요. 많은 기업이 AI를 과장해서 투자를 증가시키려고 하고, 그 결과는 종종 과대포장된 것이 많아요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹사이트를 만들 때 GPT조차도 간단한 HTML 및 CSS에 어려움을 겪었던 적이 있어요. 그것이 GPT의 전문 분야라고 할 수 있죠.
 
@@ -101,7 +188,18 @@ NeetCode에서는 현재 AI가 프로그래머를 대체할 수 없다는 것을
 
 대체로, AI에 대해 걱정하지 마세요; 이것은 데이터 과학자가 되고 싶어하는 것에 대한 변명이 아니에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 취직은 시작에 불과해요!
 
@@ -115,7 +213,18 @@ NeetCode에서는 현재 AI가 프로그래머를 대체할 수 없다는 것을
 - 분야의 지속적인 변화 - `매년 새로운 발전과 기술이 등장해 그들을 따라가야 합니다.
 - 모호한 직무 정의 - `데이터 사이언스는 여전히 새로운 직업이기에 정확히 역할과 책임이 무엇인지 명확하지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 눈앞의 일부분에 불과하죠.
 
@@ -125,7 +234,18 @@ NeetCode에서는 현재 AI가 프로그래머를 대체할 수 없다는 것을
 
 데이터 과학자가 되는 현실에 대한 자세한 내용은 제 이전 포스트를 확인해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 요약 및 추가 생각
 
@@ -135,7 +255,18 @@ NeetCode에서는 현재 AI가 프로그래머를 대체할 수 없다는 것을
 
 제 무료 뉴스레터 'Dishing the Data'를 가지고 있어요. 거기에서 저는 실제 데이터 과학자로서 매주 팁과 조언을 나누고 있어요. 또한 구독 시, 제 무료 데이터 과학 이력서와 이 AI 로드맵의 간략한 PDF 버전을 받을 수 있어요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 저와 연락하기!
 

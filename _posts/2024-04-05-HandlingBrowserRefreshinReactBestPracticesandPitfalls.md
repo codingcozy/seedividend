@@ -3,17 +3,13 @@ title: "React에서 브라우저 새로고침 처리하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Handling Browser Refresh in React Best Practices and Pitfalls"
 link: "https://medium.com/@stheodorejohn/handling-browser-refresh-in-react-best-practices-and-pitfalls-5d4451d579ff"
 isUpdated: true
 ---
-
-
-
-
 
 ## React 애플리케이션에서 브라우저 새로고침 이벤트를 다루어 데이터 무결성을 유지하고 사용자 경험을 향상시키해 보세요. 사용자 상호작용을 효과적으로 다루는 기술을 개선하기 위해 다양한 시나리오를 계속해서 학습하고 실험해보세요.
 
@@ -23,7 +19,18 @@ React 애플리케이션에서는 브라우저 새로고침 이벤트를 적절�
 
 ## 브라우저 새로고침 식별하기:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React에서 브라우저 새로고침 이벤트를 식별하려면 beforeunload 이벤트를 사용할 수 있어요. 이 이벤트는 사용자가 페이지를 떠나거나 새로고침하려고 시도할 때 트리거됩니다. 이 이벤트를 처리함으로써 우리는 개입하여 사용자에게 확인 메시지를 표시하고, 새로고침을 진행할지 또는 취소할지 선택하게 할 수 있어요.
 
@@ -49,7 +56,18 @@ const MyComponent = () => {
 
 ## 코드 흐름 설명:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 우리는 MyComponent라는 기능성 컴포넌트를 정의합니다.
 - 컴포넌트 내부에서 useEffect 훅을 사용하여 beforeunload 이벤트 리스너를 설정합니다.
@@ -69,7 +87,18 @@ const MyComponent = () => {
 
 ## 피해야 할 일반적인 함정:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - beforeunload 이벤트 남용 방지: beforeunload 이벤트 핸들러 내에서 사용자 정의 로직을 구현할 때 주의하세요. 이 이벤트에서 모든 작업을 신뢰할 수 없고 일부 브라우저 제한 사항이 적용될 수 있음을 염두에 두세요.
 - 확인 메시지 과용: 확인 메시지는 중요한 데이터 손실 방지에 유용할 수 있지만, 확인 대화 상자를 과도하게 사용하면 사용자 경험에 부정적인 영향을 줄 수 있습니다. 적절한 시기에 대체 접근 방법을 고려하여 신중하게 사용하세요.

@@ -3,16 +3,13 @@ title: "퀀트 투자  알파 리서치를 위한 요소 구성 방법 피처 �
 description: ""
 coverImage: "/assets/img/2024-06-22-QuantInvestmenthowIconstructFACTORSforalpharesearchfeatureengineering_0.png"
 date: 2024-06-22 14:12
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-QuantInvestmenthowIconstructFACTORSforalpharesearchfeatureengineering_0.png
 tag: Tech
 originalTitle: "Quant Investment — how I construct FACTORS for alpha research (feature engineering)"
 link: "https://medium.com/@ericchen556/quant-investment-how-i-construct-factors-for-alpha-research-feature-engineering-bd64309c9218"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-06-22-QuantInvestmenthowIconstructFACTORSforalpharesearchfeatureengineering_0.png" />
 
@@ -24,7 +21,18 @@ isUpdated: true
 - Fama 요인
 - 산업 별과 같은 재량적 요인들
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것들만으로 알파를 생성하기에는 충분하지 않지만, 같은 마음가짐과 방법론을 갖고 있으면 직접 기능을 개발할 수 있을 거에요.
 
@@ -49,7 +57,18 @@ df = yf.download(tickerlist, start = PeriodStart, end = PeriodEnd)['Adj Close']
 df.head()
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-22-QuantInvestmenthowIconstructFACTORSforalpharesearchfeatureengineering_1.png" />
 
@@ -59,13 +78,24 @@ df.head()
 
 일반적으로 월간 리밸런스 전략을 사용합니다 (또한 파마 팩터는 월간 기준으로 업데이트됩니다). 그래서 제가 일별 티커를 월별로 리샘플링할 겁니다. 그리고 당신도 원하는 주기로 이 빈도를 변경할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-df_monthly = df.resample('M').last()
+df_monthly = df.resample("M").last();
 
-print(len(df), len(df_monthly))
-df_monthly.tail()
+print(len(df), len(df_monthly));
+df_monthly.tail();
 ```
 
 ![Image 2](/assets/img/2024-06-22-QuantInvestmenthowIconstructFACTORSforalpharesearchfeatureengineering_2.png)
@@ -74,8 +104,18 @@ df_monthly.tail()
 
 We then transform the data following these steps:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 각 티커에 대해 1개월, 2개월, 3개월 등 기간별 수익률을 계산합니다.
 - 이상값을 제거하기 위해 수익률을 winsorize합니다. 여기서는 상위 5%와 하위 5%를 정의합니다.
@@ -92,7 +132,7 @@ for lag in lags:
                            .stack()
                            .pipe(lambda x: x.clip(lower=x.quantile(outlier_cutoff),
                                                   upper=x.quantile(1-outlier_cutoff)))
-                           .add(1)  
+                           .add(1)
                            .pow(1/lag)
                            .sub(1)
                            )
@@ -107,7 +147,18 @@ df_momentum
 
 말씀드린대로, 이 모든 숫자는 서로 다른 기간의 월간 비복리 수익률입니다. 월간 수익률 시리즈 상관 관계를 보여주는 간단한 플롯을 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import seaborn as sns
@@ -124,7 +175,18 @@ for lag in [2, 3, 6, 9, 12, 24]:
     df_momentum[f'return_{lag}m_1m'] = df_momentum[f'return_{lag}m'] - df_momentum['return_1m']
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-22-QuantInvestmenthowIconstructFACTORSforalpharesearchfeatureengineering_6.png)
 
@@ -149,8 +211,18 @@ fama_factors = fama_factors.resample('M').last()
 fama_factors = fama_factors.join(df_momentum['return_1m'])
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-22-QuantInvestmenthowIconstructFACTORSforalpharesearchfeatureengineering_7.png)
 
@@ -173,23 +245,44 @@ sns.clustermap(betas.dropna().corr(), annot=True, center=0, cmap='vlag')
 
 ![image](/assets/img/2024-06-22-QuantInvestmenthowIconstructFACTORSforalpharesearchfeatureengineering_8.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-22-QuantInvestmenthowIconstructFACTORSforalpharesearchfeatureengineering_9.png)
 
 ```js
-df_momentum = df_momentum.join(betas.groupby(level='Ticker').shift()).dropna()
+df_momentum = df_momentum.join(betas.groupby((level = "Ticker")).shift()).dropna();
 
-df_momentum.info()
-df_momentum[['Mkt-RF', 'SMB', 'HML', 'RMW', 'CMA']].describe()
+df_momentum.info();
+df_momentum[["Mkt-RF", "SMB", "HML", "RMW", "CMA"]].describe();
 ```
 
 ![image](/assets/img/2024-06-22-QuantInvestmenthowIconstructFACTORSforalpharesearchfeatureengineering_10.png)
 
 **단계 2.3:** 판단 데이터에 대한 더미 요인 생성하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 야후쿼리 패키지를 이 yahoo에도 적용하였습니다. 이 패키지를 이용하면 기업 수준의 모든 참조 데이터를 제공합니다. 여기서는 단순히 기업 섹터를 보조 데이터로 추가 기능으로 데이터 프레임에 추가하는 방법을 보여드리겠습니다.
 
@@ -209,7 +302,7 @@ df_sector
 df_momentum = df_momentum.join(df_sector)
 
 # 더미 데이터 생성
-df_dummy = pd.get_dummies(df_momentum, 
+df_dummy = pd.get_dummies(df_momentum,
                           columns = ['sector'])
 
 # 이 방법으로 여러 열 이름을 체계적으로 변경하는 방법을 배웠습니다. 매우 효율적이에요!
@@ -217,8 +310,18 @@ df_dummy = df_dummy.rename(columns = lambda x: x.replace('sector_', ''))
 df_dummy.info()
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Feature Engineering](/assets/img/2024-06-22-QuantInvestmenthowIconstructFACTORSforalpharesearchfeatureengineering_12.png)
 

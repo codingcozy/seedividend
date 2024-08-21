@@ -3,16 +3,13 @@ title: "Docker 처음부터 끝까지 완벽 가이드"
 description: ""
 coverImage: "/trivasor.github.io/assets/no-image.jpg"
 date: 2024-07-10 02:05
-ogImage: 
+ogImage:
   url: /trivasor.github.io/assets/no-image.jpg
 tag: Tech
 originalTitle: "Docker:Guide from Start to End"
 link: "https://medium.com/@nitinkumaraswar94/docker-guide-from-start-to-end-467e50776f8d"
 isUpdated: true
 ---
-
-
-
 
 소개
 
@@ -33,7 +30,18 @@ isUpdated: true
 - 도커 사용을 위한 최상의 방법
 - 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 1. 도커(Docker)란 무엇인가요?
 
@@ -46,7 +54,18 @@ isUpdated: true
 - 휴대성: 도커 컨테이너는 도커를 지원하는 모든 시스템에서 실행할 수 있어 다른 환경 간에 애플리케이션을 이동하기 쉽게 만듭니다.
 - 격리성: 각 컨테이너는 자체 격리된 환경에서 실행되어 애플리케이션이 서로 간섭하지 않도록 보장합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 3. 도커 설치하기
 
@@ -58,7 +77,18 @@ isUpdated: true
 
 # Linux에서
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 패키지 데이터베이스를 업데이트해 주세요.
 
@@ -72,7 +102,18 @@ sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. 도커 서비스를 시작하세요:
 
@@ -86,7 +127,18 @@ sudo systemctl start docker
 docker --version
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 4. 도커 아키텍처 이해하기
 
@@ -100,21 +152,41 @@ docker --version
 
 도커 이미지는 컨테이너의 구성 요소입니다. 도커 파일을 사용하여 생성되며, 이는 이미지를 구축하는 방법에 대한 지침을 포함하는 스크립트입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 도커 파일 작성하기
 
 - 프로젝트 디렉토리에 Dockerfile이라는 파일을 만듭니다.
 - 다음 내용을 Dockerfile에 추가합니다:
 
-
 FROM ubuntu:latest
 RUN apt-get update && apt-get install -y python3 CMD ["python3", "--version"]
 
-
 3. 도커 이미지 빌드하기:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 Docker 이미지를 끌어오는 방법입니다:
 
@@ -122,7 +194,18 @@ RUN apt-get update && apt-get install -y python3 CMD ["python3", "--version"]
 docker pull nginx:latest
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 6. 도커 컨테이너 사용하기
 
@@ -132,7 +215,18 @@ docker pull nginx:latest
 
 이미지로부터 컨테이너를 실행하려면:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 도커 실행 -d -p 80:80 nginx
@@ -146,7 +240,18 @@ docker pull nginx:latest
 도커 ps
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 컨테이너 중지하기
 
@@ -158,7 +263,18 @@ docker stop <container_id>
 
 # 7. 도커 네트워킹
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Docker는 컨테이너를 연결하기 위한 다양한 네트워킹 옵션을 제공합니다.
 
@@ -168,7 +284,18 @@ Docker에서 사용되는 기본 네트워크 드라이버입니다. 동일한 �
 
 ### 호스트 네트워크
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 호스트의 네트워크 스택을 공유하는 컨테이너입니다. 성능에 민감한 애플리케이션에 유용합니다.
 
@@ -180,7 +307,18 @@ Docker에서 사용되는 기본 네트워크 드라이버입니다. 동일한 �
 docker network create my-network
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 도커 run -d --network my-network --name my-container nginx
@@ -192,7 +330,18 @@ docker network create my-network
 
 # 볼륨 생성하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 도커 볼륨을 생성하세요.
@@ -203,7 +352,16 @@ docker network create my-network
 
 도커 실행 -d -v my-volume:/data nginx
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 9. Docker Compose
 
@@ -214,7 +372,16 @@ Docker Compose는 YAML 파일을 사용하여 다중 컨테이너 Docker 애플�
 - 프로젝트 디렉토리에 docker-compose.yml 파일을 생성하세요.
 - 다음 내용을 추가하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 버전: '3'
 서비스:
@@ -233,7 +400,16 @@ Docker Compose는 YAML 파일을 사용하여 다중 컨테이너 Docker 애플�
 
 docker-compose up -d
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 10. 고급 Docker 기능
 
@@ -243,7 +419,16 @@ Docker Swarm은 Docker의 원래 클러스터링 및 오케스트레이션 도�
 
 ## Docker Secrets
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도커 시크릿은 보안이 필요한 민감한 데이터(예: 암호)를 관리하는 기능입니다.
 
@@ -257,8 +442,18 @@ Docker Swarm은 Docker의 원래 클러스터링 및 오케스트레이션 도�
 
 # 12. 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Docker은 응용 프로그램을 구축, 배포 및 실행하는 과정을 간소화해 줍니다. 응용 프로그램을 컨테이너화함으로써 일관성, 이식성 및 효율성을 보장할 수 있습니다. 시작하는 사람이나 Docker 지식을 더 깊게 알고 싶은 분들을 위해 이 안내서는 Docker를 시작하는 데 도움이 되는 포괄적인 개요를 제공합니다.
 
 Docker의 유연성과 능력은 현대 소프트웨어 개발 및 배포에 필수적인 도구로 만들어 줍니다. 기본 사항을 익힌 후에는 Docker의 최대 잠재력을 발휘할 수 있는 길로 향해 가고 있습니다. 즐거운 컨테이너화를 기대해 주세요!
+```

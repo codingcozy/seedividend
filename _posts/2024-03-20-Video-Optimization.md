@@ -3,17 +3,13 @@ title: "Nextjs 14 비디오 최적화Video Optimization 정리"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # Nextjs 14 비디오 최적화(Video Optimization) 정리
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 비디오를 페이지에 임베드하려면 직접 비디오 파일에는 HTML `<video>` 태그를, 외부 플랫폼 호스팅 비디오에는 `<iframe>`을 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### `<video>`
 
@@ -41,7 +48,18 @@ export function Video() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 일반적인 `<video>` 태그 속성
 
@@ -60,7 +78,18 @@ export function Video() {
 > 참고: autoPlay 속성을 사용할 때 대부분의 브라우저에서 비디오가 자동으로 재생되도록하려면 음소거 속성을 포함하고 iOS 장치와 호환되도록하려면 playsInline 속성도 포함하는 것이 중요합니다.
 > MDN 문서를 참조하면 비디오 속성의 포괄적인 목록을 확인할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 비디오 최적의 방법
 
@@ -93,7 +122,18 @@ export default function Page() {
 
 iframe 속성의 상세한 목록은 MDN 문서를 참조하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 비디오 임베딩 방법 선택하기
 
@@ -117,7 +157,18 @@ export default async function VideoComponent() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. React Suspense를 사용하여 비디오 구성 요소를 스트리밍
    비디오를 임베딩하는 서버 구성 요소를 만든 후, 다음 단계는 React Suspense를 사용하여 해당 구성 요소를 스트리밍하는 것입니다.
@@ -161,7 +212,18 @@ export default function Page() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 독립적으로 호스트된 비디오
 
@@ -211,7 +273,18 @@ async function VideoComponent({ fileName }) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 방식에서는 페이지가 비디오의 @vercel/blob URL을 사용하여 VideoComponent를 통해 비디오를 표시합니다. 비디오 URL을 가져와 비디오가 표시 준비가 될 때까지 대기 메시지를 보여주기 위해 React Suspense를 사용했습니다.
 
@@ -254,7 +327,18 @@ async function VideoComponent({ fileName }) {
 - 콘텐츠 배송 네트워크(CDN): CDN을 활용하여 비디오 전송 속도를 향상시키고 높은 트래픽을 관리하세요. Vercel Blob와 같은 일부 저장 솔루션을 사용할 때는 CDN 기능이 자동적으로 처리됩니다. CDN과 그 이점에 대해 자세히 알아보세요.
   다음 비디오 스트리밍 플랫폼들을 살펴보며 Next.js 프로젝트에 비디오를 통합해보세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 오픈 소스 다음 비디오 컴포넌트
 

@@ -3,7 +3,7 @@ title: "Hazelcast와 Spring Boot로 캐싱 구현하는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-13-CachingwithHazelcastandSpringBoot_0.png"
 date: 2024-08-13 11:35
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-13-CachingwithHazelcastandSpringBoot_0.png
 tag: Tech
 originalTitle: "Caching with Hazelcast and Spring Boot"
@@ -11,7 +11,6 @@ link: "https://medium.com/@swaapy/caching-with-hazelcast-and-spring-boot-885d359
 isUpdated: true
 updatedAt: 1723863985498
 ---
-
 
 # Hazelcast이란 무엇인가요?
 
@@ -21,7 +20,18 @@ Hazelcast는 분산 데이터 저장 기능을 제공하는 인메모리 데이�
 
 이 블로그 포스트에서는 Hazelcast를 Spring Boot 응용 프로그램의 캐시 관리자로 활성화하는 방법을 단계별로 설명하겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 1- 시작하기
 
@@ -38,7 +48,18 @@ Hazelcast를 캐시 관리 도구로 사용하려면 클래스패스에 추가�
 
 # 2- Hazelcast 구성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 작업을 수행하는 세 가지 방법이 있습니다.
 1- hazelcast.yaml 구성 추가 또는
@@ -47,7 +68,18 @@ Hazelcast를 캐시 관리 도구로 사용하려면 클래스패스에 추가�
 
 이 문서에서는 애플리케이션에 더 많은 제어권을 제공하는 세 번째 방법을 탐구하겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 package com.swapy.hazelcast_app.config;
@@ -111,8 +143,18 @@ Map Configuration: "students"라는 이름의 map이 특정 설정과 함께 구
 
 # 3. 사용자 지정 직렬화 추가:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 package com.swapy.hazelcast_app.Entity;
@@ -177,8 +219,18 @@ public class Student implements IdentifiedDataSerializable {
 
 CRUD 작업을 수행하는 간단한 컨트롤러가 작성되었습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 package com.swapy.hazelcast_app.controller;
@@ -252,9 +304,18 @@ public class StudentController {
 
 시작시 로그에서 내장 Hazelcast가 시작되고 멤버가 생성되어 클러스터에 추가된 것을 확인할 수 있어야 합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-08-13-CachingwithHazelcastandSpringBoot_1.png" />
 
@@ -264,7 +325,17 @@ public class StudentController {
 
 # 추가로 읽을거리:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 많은 정보를 원하시면 Hazelcast의 공식 문서 페이지로 이동해주세요: [https://docs.hazelcast.com/home/](https://docs.hazelcast.com/home/)

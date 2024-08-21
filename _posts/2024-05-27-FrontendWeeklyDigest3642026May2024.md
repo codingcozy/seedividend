@@ -3,17 +3,13 @@ title: "프론트엔드 주간 뉴스 - 2024년 5월 20일"
 description: ""
 coverImage: "/assets/img/2024-05-27-FrontendWeeklyDigest3642026May2024_0.png"
 date: 2024-05-27 19:03
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-FrontendWeeklyDigest3642026May2024_0.png
 tag: Tech
 originalTitle: "Frontend Weekly Digest #364 (20–26 May 2024)"
 link: "https://medium.com/@frontender-ua/frontend-weekly-digest-364-20-26-may-2024-15290a11d70e"
 isUpdated: true
 ---
-
-
-
-
 
 ![Web-development](/assets/img/2024-05-27-FrontendWeeklyDigest3642026May2024_0.png)
 
@@ -31,8 +27,18 @@ isUpdated: true
   - How Do Chrome Extensions Impact Website Performance In 2024?
   - Comprehensive guide to JavaScript performance analysis using Chrome DevTools
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # CSS
 
@@ -51,7 +57,18 @@ isUpdated: true
 - 최신 JavaScript 기술 5가지
 - 웹소켓 대안: Firestore를 사용하여 실시간 이벤트를 듣는 방법
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - React
   - React Conf 2024 Recap

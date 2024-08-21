@@ -3,17 +3,13 @@ title: "Angular infinite change detection loops 피하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Protect your Angular app from infinite change detection loops "
 link: "https://medium.com/itnext/protect-your-angular-app-from-infinite-change-detection-loops-%EF%B8%8F-da121430a2e1"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/ProtectyourAngularappfrominfinitechangedetectionloops_0.png" />
 
@@ -37,7 +33,18 @@ export class AppComponent {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Angular이 도입한 또 다른 기능은 afterRender 라이프사이클 후크입니다. 이 후크는 Angular이 뷰를 렌더링한 후에 호출됩니다. 이는 뷰가 업데이트된 후에 수행해야 할 작업을 수행하기에 좋은 위치입니다.
 
@@ -72,7 +79,18 @@ export class AppComponent {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/ProtectyourAngularappfrominfinitechangedetectionloops_1.png" />
 

@@ -3,15 +3,13 @@ title: "자바스크립트 마스터하기 나만의 커스텀 프레임워크 �
 description: ""
 coverImage: "/assets/img/2024-07-09-MastertheArtofJavaScriptHowtoBuildYourOwnCustomFramework_0.png"
 date: 2024-07-09 09:00
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-MastertheArtofJavaScriptHowtoBuildYourOwnCustomFramework_0.png
 tag: Tech
 originalTitle: "Master the Art of JavaScript: How to Build Your Own Custom Framework!"
 link: "https://medium.com/@learntocodetoday/master-the-art-of-javascript-how-to-build-your-own-custom-framework-a3821b93d8ea"
 isUpdated: true
 ---
-
-
 
 ![image](/assets/img/2024-07-09-MastertheArtofJavaScriptHowtoBuildYourOwnCustomFramework_0.png)
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 먼저 프로젝트용 새 디렉토리를 만들고 npm으로 초기화하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 mkdir mini-js
@@ -35,7 +44,18 @@ npm init -y
 
 우리의 프레임워크의 기본 구조와 핵심 기능부터 시작하겠습니다. 이 함수는 우리 프레임워크의 사용자들의 진입점이 될 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 // mini.js
 

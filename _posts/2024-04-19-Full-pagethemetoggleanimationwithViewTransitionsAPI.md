@@ -3,17 +3,13 @@ title: "View Transitions API로 전체 페이지 테마 토글 애니메이션 �
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Full-page theme toggle animation with View Transitions API"
 link: "https://medium.com/@AkashHamirwasia/full-page-theme-toggle-animation-with-view-transitions-api-43db0beed341"
 isUpdated: true
 ---
-
-
-
-
 
 ![Full-pagethemetoggleanimationwithViewTransitionsAPI_0.png](/assets/img/Full-pagethemetoggleanimationwithViewTransitionsAPI_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 본 게시물에서는 View Transitions API를 사용하여 다크 테마 토글 스위치에 다음과 같은 애니메이션을 구현하는 방법을 살펴볼 것입니다. 이를 React 프로젝트에서 수행할 것이지만, View Transitions API는 브라우저에서 기본적으로 작동하기 때문에 순수 JavaScript나 사용자의 선택에 따라 다른 프레임워크/라이브러리를 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 뷰 전환 API는 어떻게 작동합니까?
 
@@ -38,7 +45,18 @@ isUpdated: true
 
 위 단계를 설명하는 인터랙티브 데모를 확인해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 리액트에서 애니메이션 구현하기
 
@@ -77,7 +95,18 @@ export default function App() {
 
 뷰 트랜지션 API를 사용하려면 document.startViewTransition() 함수를 호출하고 페이지가 다음 상태로 업데이트되는 방식을 정의하는 콜백을 전달해야 합니다(View Transitions API 동작 단계 2).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리의 초기 직관은 간단히 setIsDarkMode 호출을 이 콜백 함수 안으로 옮기는 것입니다. 결국, 이것이 페이지를 어두운 테마로 업데이트하는 것을 트리거하는 것입니다. 이것은 올바른 방향이지만, 우리의 이해에 작은 결함이 있습니다. React는 상태 업데이트 후 즉시 DOM을 업데이트하지 않습니다. DOM 업데이트는 비동기적으로 발생할 수 있으며 setState 호출 이후에도 발생할 수 있습니다. 따라서 setIsDarkMode(isDarkMode) 호출 후에는 callback 함수인 doucment.startViewTransition()가 끝날 때 DOM이 새 상태 (예: 이 예제에서는 어두운 테마 상태)에 있는 것이 보장되지 않습니다.
 

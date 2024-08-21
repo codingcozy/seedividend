@@ -3,16 +3,13 @@ title: "Typescript 런타임 설정 완벽 마스터하는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-24-MasteringTypescriptRuntimeConfigurations_0.png"
 date: 2024-06-24 02:24
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-24-MasteringTypescriptRuntimeConfigurations_0.png
 tag: Tech
 originalTitle: "Mastering Typescript Runtime Configurations"
 link: "https://medium.com/@assorium/mastering-typescript-runtime-configurations-5dbfec90be87"
 isUpdated: true
 ---
-
-
-
 
 모든 사람이 경력 초반에 배우는 구성은 중요합니다. 대부분의 사람들은 처음에 배운 방법을 고수합니다. 저는 웹 개발을 10년 이상 해왔고, 무수히 많은 구성 방법을 보았습니다. 오늘은 여러분의 앱 구성을 좀 더 쉽게 만들어드리고, 물론 제 새로운 패키지 https://github.com/mrspartak/config 를 홍보하기 위해 여기에 왔습니다.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 ## 빌드 시간 구성.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 백엔드에서는 빌드 시간 구성이 그리 흔하지는 않지만, 프론트엔드에서는 상당히 인기 있는 방식입니다. 여기에서는 구성 값을 패키지나 이미지에 포함하여 응용 프로그램을 실행하는 데 충분하게 활용합니다. 제게는 빌드 시간에 환경과 관련된 모든 것을 처리하는 것이 합리적으로 보입니다. 이는 코드에서의 IO 작업 동작에 영향을 주는 구체적인 테스트, 스테이징 및 프로덕션 환경 구성을 포함합니다.
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 ## 런타임 구성.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 곳이 백엔드의 진정한 빛이 나오는 곳입니다. 그러나 SSR (서버 측 렌더링) 및 SPA (단일 페이지 어플리케이션) 프론트 엔드에서 런타임 구성을 자주 사용합니다. 앱이 로드되는 가장 처음에 실행 구성 정보가 로드됩니다. 런타임 구성은 모든 외부 구성을 포함해야 하며, 환경에 따라 크게 다를 수 있습니다. 여기서 일회성 환경의 장점이 발휘되며, 더 큰 유연성과 적응성을 제공합니다.
 
@@ -42,7 +61,18 @@ isUpdated: true
 
 ![이미지](https://miro.medium.com/v2/resize:fit:960/1*7S4sjloFaBx5isjqi_OAXw.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 어떤 형식이 가장 좋은지를 두고 전쟁을 일으킬 수 있지만, 사실 별로 중요하지 않아요. 읽기 쉽고 확장 가능하며 텍스트로 저장할 수 있는 형식이라면 충분하죠. 당신이 사용하기 편한 형식으로 선택하세요. 하지만 저장 및 사용 전략은 상당히 중요합니다.
 
@@ -52,7 +82,18 @@ isUpdated: true
 
 구성은 선언부터 시작돼요. 정말 간단하죠. 백엔드에서 데이터베이스를 호출해야 한다면, 해당 데이터베이스에 인증하는 데 필요한 것을 파악하고 구성 선언에 넣으세요. 그 결과로 얻는 것은 - 어플리케이션이 다운될 때입니다. 하지만 이것이 우리가 원하는 것이에요. 이를 통해 누락되거나 잘못된 구성을 조기에 식별할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="https://miro.medium.com/v2/resize:fit:960/1*hDRj2PnNe94Krj76Az67lQ.gif" />
 
@@ -62,7 +103,18 @@ isUpdated: true
 
 기본 PORT를 설정하는 것을 잊었을 때 항상 기본값이 있는데요, 어떻게 하면 좋을까요? 당연히 그 기본값을 정의하겠죠. 그렇다면 이후에 그들을 어떻게 병합할까요? 단순히 lodash를 사용하시거나, 더 좋은 방법으로는 (무언가를 여러 차례 언급하면 짜증나는 것에서 당신이 생각하는 방식으로 변화한다고 들었습니다) 제 라이브러리를 사용하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 개발자에게 무엇을 할 수 있을까요? 더 좋은 것을 받을 수 있을까요?
 
@@ -72,7 +124,18 @@ trpc의 개발자에게 큰 칭찬을 보내요 - 그는 천재에요. 유효성
 
 ![이미지](https://miro.medium.com/v2/resize:fit:960/1*7sjOuoIpBuH3KTlkUFt1QQ.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 개발 환경을 언급하셨군요. 커밋할까요?
 
@@ -82,7 +145,18 @@ trpc의 개발자에게 큰 칭찬을 보내요 - 그는 천재에요. 유효성
 
 ![이미지](https://miro.medium.com/v2/resize:fit:960/1*CR7GClSquXaYgsn6gmGv6Q.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 알겠어요, 이제 다른 부풀린 npm 패키지에 대해 이야기해 주세요
 
@@ -98,7 +172,7 @@ trpc의 개발자에게 큰 칭찬을 보내요 - 그는 천재에요. 유효성
 ```js
 // 파일: state/config.ts
 import { fromJSONFile } from "@mrspartak/config";
-import * as z from "zod"
+import * as z from "zod";
 
 const config = await fromJSONFile({
   path: ["../config/default.json", "../config/runtime.json"],
@@ -107,28 +181,37 @@ const config = await fromJSONFile({
       host: z.string(),
       port: z.number(),
       username: z.string(),
-      password: z.string()
+      password: z.string(),
     }),
     app: z.object({
-      port: z.number().optional().default(3000)
-    })
+      port: z.number().optional().default(3000),
+    }),
   }),
 });
 
-export default config
-
-
+export default config;
 
 // 파일: index.ts
 // 해결된 구성을 가져오세요
-import config from './state/config.js';
+import config from "./state/config.js";
 
 // 응용 프로그램에서 구성을 사용하세요
-import db from 'some-db-provider';
+import db from "some-db-provider";
 const dbClient = db(config.db); // 여기서 IntelliSense를 즐기세요!
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 그런데 JSON 지원만 보여요. system crap 환경 변수를 아름답게 하려면 어떻게 하죠?
 
@@ -137,7 +220,7 @@ const dbClient = db(config.db); // 여기서 IntelliSense를 즐기세요!
 ```js
 // 파일: state/config.ts
 import { fromObject } from "@mrspartak/config";
-import * as z from "zod"
+import * as z from "zod";
 
 const schema = z
   .object({
@@ -161,43 +244,53 @@ const schema = z
 
 const config = await fromObject({
   data: process.env,
-  schema
-})
+  schema,
+});
 
-export default config
+export default config;
 
 // 파일 index.ts
-import 'dotenv/config'
+import "dotenv/config";
 // ! dotenv 이후에 설정이 로드되어야 하므로 process.env가 채워질 겁니다
-import config from './state/config.js';
+import config from "./state/config.js";
 
 // 애플리케이션에서 구성을 사용하세요
-import db from 'some-db-provider';
+import db from "some-db-provider";
 const dbClient = db(config.db); // 여기서 IntelliSense를 즐기세요!
 ```
 
 ## frontend를 언급했는데 node 파일 API를 확실히 사용했기 때문에 빌드가 중단될 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 네, 당신이 요청한 작업을 수행해드릴 수 있어요. (만약 더 나은 해결책을 아시는 분이 계시다면, 연락주세요)
 
 ```js
 // 파일: state/config.ts
 import { fromObject } from "@mrspartak/config/web"; // 라이브러리의 별도 빌드
-import * as z from "zod"
+import * as z from "zod";
 
-const schema = z
-  .object({
-    API_URL: z.string(),
-  })
+const schema = z.object({
+  API_URL: z.string(),
+});
 
 const config = await fromObject({
-  data: import.meta.env, // vite를 사용한 예시 
-  schema
-})
+  data: import.meta.env, // vite를 사용한 예시
+  schema,
+});
 
-export default config
+export default config;
 ```
 
 ![](https://miro.medium.com/v2/resize:fit:960/1*ipkgq4adHLjucIErFR2buA.gif)

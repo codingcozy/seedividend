@@ -3,16 +3,13 @@ title: "아름다운 데이터 시각화를 디자인하는 방법 Shirley Wu와
 description: ""
 coverImage: "/assets/img/2024-06-27-DesigningBeautifulDataVisualisationsAnInterviewwithShirleyWu_0.png"
 date: 2024-06-27 18:14
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-27-DesigningBeautifulDataVisualisationsAnInterviewwithShirleyWu_0.png
 tag: Tech
 originalTitle: "Designing Beautiful Data Visualisations: An Interview with Shirley Wu"
 link: "https://medium.com/ux-and-front-end-interviews/designing-beautiful-data-visualisations-an-interview-with-shirley-wu-4c2f6d01c0d1"
 isUpdated: true
 ---
-
-
-
 
 ## 셜리 우는 인기 있는 Data Sketches 프로젝트의 절반으로, 매우 상호 작용적인 데이터 시각화와 데이터 주도적 예술을 만들어냅니다. 여기서 그녀는 뒷면을 엿보게 해주며 배운 교훈을 공유합니다
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 대학을 졸업한 지 4년만에 셜리는 독립을 택하고 데이터 시각화를 전문으로 하는 프리랜서가 되었습니다. 그녀는 문화, 정치, 예술 등 다양한 주제를 다루는 다양한 주제를 시각화합니다. 셜리는 자신의 경력에 큰 영향을 미친 세 가지 프로젝트를 2017년에 발표했습니다. 첫 번째는 Daata Sketches [최근 책으로 출간됨]로, 암스테르담의 데이터 시각화 디자이너 나디에 브레먀와의 협업으로, 이는 두 사람을 데이터 시각화 커뮤니티에 소개했습니다. 매월 주제를 선택하여 시각화를 만들고, 전체 프로세스 - 데이터 준비, 아이디어 스케치 및 실행까지 - 을 문서화하는 것이 아이디어였습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "라이트업들은 그냥 생각의 흔적이었어요," Shirley는 기억합니다. "하지만 그것이 사람들이 가장 좋아하는 것이 되었어요. 사람들이 와서 우리에게 말해주면서 '뒷이야기를 들여다보고 연출된 최종 결과물 이상의 변화를 볼 수 있어 얼마나 멋진지'라고 말해줍니다. 아주 빠르게 떠올린 아이디어였지만 프로젝트의 이름을 지정하는 데 오랜 시간이 걸렸어요. 우리는 수많은 이름으로 가득 찬 문서를 가지고 있어요. 그 중 하나인 '셜리와 나디의 시각화 마라톤 대모험'이 제일 좋아하는 이름 중 하나에요. 당연히, 그 이름은 선택하지 않았죠!"
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 # 효과적인 데이터 시각화 작성 과정"
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그때 구글이 찾아왔어요. 데이터 저널리스트 알베르토 카이로의 예술적인 지도 아래, 구글 뉴스 랩은 전 세계 최고의 데이터 시각화 디자이너들과 협력했어요. 카이로는 데이터 스케치를 발견하고 셜리를 초대하여 거의 40개국의 10년 간의 여행 검색을 조사하고 상위 검색 문화 장소를 탐험하도록 했어요( explore-adventure.com). 한편 브레머는 구글 번역을 통해 영어로 가장 많이 번역된 단어를 분석했죠(www.beautifulinenglish.com).
 
@@ -42,7 +61,18 @@ isUpdated: true
 
 그 다음 셜리는 데이터, 디자인 및 코드 세 단계를 거칩니다. 먼저 데이터를 탐색하는 것이 중요하죠. 데이터 수집, 정리, 준비 및 분석에는 Node.js 패키지를 많이 사용합니다. 또한 더 복잡한 프로젝트를 위해 데이터 과학 배경을 가진 내이와 자주 협업합니다. 예를 들어, 수상 경력이 있는 '버스트 아웃(Bussed Out)'이란 미국의 무주택자에 대한 강력한 조사 기사로, 위 대가디언(The Guardian)의 조사론시한 작품에는 약 34,000명의 무주택자의 여정을 조사했죠. 시각화의 많은 부분은 '스크롤 스토리 telling 스타일'로 제작되어 있으며 페이지를 스크롤하면 애니메이션이 트리거됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 펜과 종이에서 JavaScript로
 
@@ -52,7 +82,18 @@ Vue로 이동하기 전에는 React를 사용했던 셜리씨입니다. 그는 �
 
 프리랜서가 된 이후, 셜리는 기술 측면 뿐만 아니라 디자인도 발전시켰습니다. 이제는 최종 사용자를 더 많이 고려하며 데이터 시각화를 UI의 최고의 실천법과 결합시켜 작은 세부사항과 개인적인 요소를 첨가합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 “좋은 시각화를 만드는 요소, 사람들이 쉽게 읽을 수 있는 요소, 그리고 우리가 패턴을 인식하는 심리를 활용하는 방법을 배우고 싶었어요. 그래서 데이터 시각화 디자인에 관한 워크숍을 가르치기로 결정했죠. 그러다 몇 권의 책을 읽게 되었어요. 제가 가장 좋아하는 책 중 하나는 Alberto Cairo의 'The Functional Art'입니다. 매우 실용적이고 제 작업 방식을 많이 변화시켰어요.”
 
@@ -62,7 +103,18 @@ Vue로 이동하기 전에는 React를 사용했던 셜리씨입니다. 그는 �
 
 “그것이 상호작용하는 3D 예술작품이었기 때문에 너무 놀랍더라고요,” 샤리가 말했습니다. “작은 휴대폰이나 데스크탑 화면을 넘어서는 무언가. 제가 물리적 데이터 시각화 아이디어에 진짜 열광하기 시작했어요.”
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 셜리는 모든 프로젝트가 2D로 구성되어 있음을 깨닫고, 물리적인 예술 작품을 만들고 싶다면 3차원으로 생각해야 한다는 것을 깨달았습니다. 그래서 Matt DesLauriers의 크리에이티브 코딩 워크샵을 수강하고 배운 기술을 활용하여 세 번째 프로젝트를 만들기 시작했어요. three.js와 WebGL로 구현된 "Legends"는 51명의 여성 노벨상 수상자와 그들의 업적을 3D 시각화한 작품입니다. 새로운 기술을 적용하면서 공간, 카메라 및 조명에 대해 많은 것을 배웠어요. 매 수상자는 그들의 위키피디아 페이지에서 추출된 데이터로 표현된 크리스탈로 나타납니다. 수상 카테고리로 색상이 지정되고, '영향'에 따라 크기가 조절되며, 상받은 연대에 따라 위치가 조정됩니다. 한편, 여러 별은 상을 수상한 853명의 남성을 나타냅니다.
 
@@ -72,7 +124,18 @@ Vue로 이동하기 전에는 React를 사용했던 셜리씨입니다. 그는 �
 
 ![이미지](/assets/img/2024-06-27-DesigningBeautifulDataVisualisationsAnInterviewwithShirleyWu_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 세번째 디지털 3D 프로젝트는 three.js와 WebGL을 사용해 진행 중입니다. 한 예술 박물관에서 의뢰받아 Legends와 유사한 컨셉으로 홍콩의 여성 작가들을 산으로 표현할 예정입니다(아직 많은 데이터가 부족하다는 점에 주목합니다). 또한 뉴욕 대학교 대화형 통신 프로그램에서의 레지던시도 임박해 있습니다. Shirley의 목표는 자신에게 중요한 주제(예: 성별 균형)를 다루는 의미 있는 시각화를 지속적으로 만드는 것이며, 데이터를 정확하게 표현할 뿐만 아니라 오해할 수 없는 방식으로 표현하는 것입니다.
 

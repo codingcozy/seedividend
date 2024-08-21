@@ -3,17 +3,13 @@ title: "데이터 가져오는 로직을 SWR로 확장하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How to scale data fetching with SWR"
 link: "https://medium.com/@boomimagestudio-techblog/how-to-scale-data-fetching-with-swr-699911506284"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/HowtoscaledatafetchingwithSWR_0.png)
 
@@ -23,7 +19,16 @@ isUpdated: true
 
 - 코드의 복잡성 증가와 라이브러리 학습을 수반하는 redux에 전역 상태를 생성하기
 - 데이터를 모든 다른 컴포넌트의 부모 컴포넌트인 "App" 컴포넌트의 전역 상태에 삽입하고, 그 데이터를 필요로 하는 모든 하위 컴포넌트로 전달하기 위해 props를 전달하기
-<div class="content-ad"></div>
+  <!-- seedividend - 사각형 -->
+  <ins class="adsbygoogle"
+       style="display:block"
+       data-ad-client="ca-pub-4877378276818686"
+       data-ad-slot="1898504329"
+       data-ad-format="auto"
+       data-full-width-responsive="true"></ins>
+  <script>
+       (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
 
 SWR는 데이터를 로드할 때 코드를 깔끔하게 유지하고 높은 속도를 유지하는 유일한 방법이었습니다.
 
@@ -33,7 +38,18 @@ SWR는 데이터를 로드할 때 코드를 깔끔하게 유지하고 높은 속
 
 그래서 SWR은 제게 일을 가속화하고 코드를 깨끗하게 유지하며, 자체 솔루션 없이도 일을 처리할 수 있는 해결책이었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 BOOM에서는, 데이터 가져오기에 대한 최적 기술을 찾기 위해 실험을 거쳤고, 결과적으로 SWR이 우리의 요구에 가장 적합하다고 결정했습니다.
 
@@ -43,7 +59,18 @@ SWR은 데이터 캐싱 전략을 의미하며, 서버에서 받은 데이터가
 
 브라우저는 리소스를 업데이트해야 하는 시기를 알아야 하며, 이를 위해 서버에서의 HTTP 응답의 ‘Cache-Control’ 헤더에 포함된 데이터를 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 헤더 안에는 여러 가지 속성이 있습니다. 그 중 두 가지를 살펴보겠습니다.
 
@@ -55,7 +82,18 @@ Cache-Control: max-age=10, stale-while-revalidate=119
 
 브라우저가 데이터를 업데이트해야 할 지 여부를 묻기 전에 몇 시간이 지나면, 세 가지 다른 상황이 발생할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 만일 경과된 시간이 "max-age"보다 작은 경우(10초 전) 로컬 캐시에 저장된 데이터는 여전히 유효하며, 업데이트된 데이터를 받기 위해 새로운 호출을 할 필요가 없습니다.
 - 만일 경과된 시간이 "max-age"보다 크고 "stale-while-revalidate"보다 작은 경우(10초부터 119초 사이) 로컬 캐시에 저장된 데이터는 여전히 유효하며 일시적으로 사용할 수 있습니다. 브라우저는 업데이트된 데이터를 받아 캐시를 업데이트하고 새 데이터를 가능한 빨리 표시하기 위해 서버에 요청해야 합니다.
@@ -68,7 +106,18 @@ Cache-Control: max-age=10, stale-while-revalidate=119
 
 가장 큰 장점은 캐시와의 상호작용 없이 데이터를 받아와 업데이트하는 자동화된 프로세스가 존재한다는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SWR이 제공하는 다른 기능은 다음과 같습니다:
 
@@ -112,7 +161,18 @@ const App = () => {
 
 애플리케이션은 "shop" 리소스의 데이터를 3개의 다른 구성 요소에서 사용해야 하며, 각 구성 요소는 내부적으로 해당 리소스에 대한 호출을 SWR을 통해 처리합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 네트워크 수준에서는 서버에 대한 단일 호출이 실행됩니다. 후크는 같은 데이터를 세 가지 구성 요소에 모두 반환하여 여러 번 호출하는 것을 방지합니다.
 
@@ -122,7 +182,18 @@ const App = () => {
 
 이 놀라운 기술이 어떻게 작동하는지 설명하기 위해 다른 예를 살펴봅시다. API 메서드는 /api/user 엔드포인트의 GET을 통해 사용자 데이터를 반환하고, 우리는 다음을 해야 합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단하고 자주 사용되는 해결책은 상태를 생성하고 이벤트(예: React 효과 또는 사용자 클릭)를 통해 리소스를 요청하여 상태에 저장하는 것입니다.
 
@@ -164,7 +235,18 @@ const Profile = () => {
 
 보시다시피, 데이터를 가져오기 위해 첫 번째 호출을 만드는 초기 효과가 필요하며, 데이터와 가능한 오류를 저장하는 두 개의 상태도 필요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 SWR을 사용한 솔루션을 시도해 보겠습니다:
 
@@ -189,7 +271,18 @@ const Profile = () => {
 
 뿐만 아니라 이 마지막 솔루션을 통해 사용자 경험을 개선하기 위해 위에서 언급한 기능들을 활용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요약하자면, SWR을 사용하면 자원을 많이 요청하는 상황을 쉽게 관리할 수 있으며, 캐시가 응용 프로그램을 빠르게 만드는 데 중요한 역할을 합니다.
 
@@ -199,4 +292,15 @@ SWR을 사용하도록 솔루션을 마이그레이션하는 것은 매우 간�
 
 SWR 외에도 react-query와 같은 SWR을 지원하는 GraphQL 요청이 있는 흥미로운 대안이 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

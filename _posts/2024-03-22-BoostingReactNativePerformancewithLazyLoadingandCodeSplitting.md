@@ -3,17 +3,13 @@ title: "React Native 성능 향상을 위한 Lazy Loading 및 코드 분할"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Boosting React Native Performance with Lazy Loading and Code Splitting"
 link: "https://sugandsingh5566.medium.com/boosting-react-native-performance-with-lazy-loading-and-code-splitting-f7d0f7268e7e"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/Boosting-React-Native-Performance-with-Lazy-Loading-and-Code-Splitting_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 레이지 로딩과 코드 스플리팅이란 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기술들을 React Native에서 어떻게 구현하는지 알아보기 전에, lazy loading과 코드 분할이 무엇을 의미하는지 명확히 해봅시다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 Lazy loading은 특정 리소스(예: 컴포넌트, 모듈 또는 이미지)의 로딩을 실제로 필요할 때까지 지연시키는 전략입니다. 이 접근 방식은 초기 앱 로드 시간을 줄이는 데 도움이 됩니다. 왜냐하면 초기 앱 구동 시에는 필수 컴포넌트만 로드되기 때문입니다. 추가 컴포넌트는 사용자가 앱과 상호작용할 때 로드됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Boosting React Native Performance with Lazy Loading and Code Splitting](/assets/img/Boosting-React-Native-Performance-with-Lazy-Loading-and-Code-Splitting_2.png)
 
@@ -43,7 +61,18 @@ Lazy loading은 특정 리소스(예: 컴포넌트, 모듈 또는 이미지)의 
 
 이제 이 개념을 이해했으니, React Native 애플리케이션에서 lazy loading과 코드 분할을 구현하는 방법을 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # React Native에서 Lazy Loading과 코드 분할 구현하기
 
@@ -56,7 +85,18 @@ npx react-native init CodeSplittingExample
 cd CodeSplittingExample
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 2: React Navigation 설치
 
@@ -68,7 +108,18 @@ npm install react-navigation react-navigation-stack
 
 ## 단계 3: 화면 생성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예제에서는 홈 화면과 프로필 화면 두 개를 만들겠습니다. 프로필 화면은 사용자가 이동할 때만 느린로딩을 사용하여 로드할 것입니다.
 
@@ -92,7 +143,18 @@ const HomeScreen = ({ navigation }) => {
 export default HomeScreen;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## ProfileScreen.js:
 
@@ -115,7 +177,18 @@ export default ProfileScreen;
 
 App.js(또는 네비게이션을 구성하는 곳)에서 React.lazy()를 사용하여 지연 로딩으로 네비게이션을 설정하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import React from "react";
@@ -155,7 +228,18 @@ export default App;
 
 React Native 앱을 실행하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 react-native run-android 또는 yarn android
@@ -169,7 +253,18 @@ npx react-native run-ios 또는 yarn ios
 
 React Native 앱에 Lazy Loading 및 코드 분할을 구현하는 것은 여러 이점을 제공합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 빠른 초기 로드 시간: 필수 구성 요소만로드하고 코드를 분할하여 응용 프로그램이 더 빨리 시작되어 사용자 경험이 향상됩니다.
 - 향상된 성능: 초기 번들 크기를 줄이면 특히 느린 네트워크나 오래된 장치에서 성능이 개선됩니다.
@@ -185,7 +280,18 @@ React Native 앱에 게으름을 부르고 코드를 분할하는 것은 다음�
 - 효율적인 리소스 활용: 필요할 때만 리소스를로드하도록 게으르게로드로 메모리 사용량을 최적화합니다.
 - 단순화된 유지 관리: 코드 분할로 더 작고 관리하기 쉬운 코드 청크가 생성되어 코드베이스를 유지 관리하기 쉽습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

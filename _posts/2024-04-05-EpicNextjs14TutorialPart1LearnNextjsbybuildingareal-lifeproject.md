@@ -3,17 +3,13 @@ title: "Nextjs 14 튜토리얼 - 프로젝트 만들며 배우는 Nextjs"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Epic Nextjs 14 Tutorial Part 1 Learn Nextjs by building a real-life project"
 link: "https://medium.com/@paul.bratslavsky/epic-next-js-14-tutorial-part-1-learn-next-js-by-building-a-real-life-project-469e547c1780"
 isUpdated: true
 ---
-
-
-
-
 
 ![EpicNextjs14TutorialPart1LearnNextjsbybuildingareal-lifeproject_0](/assets/img/EpicNextjs14TutorialPart1LearnNextjsbybuildingareal-lifeproject_0.png)
 
@@ -23,7 +19,18 @@ Next.js 14와 Strapi의 인기로 인해 여러분도 멋진 것들을 구축할
 
 만약 비디오 형식을 선호하신다면, [여기](https://www.youtube.com/watch?v=rvo-L0cP5NA) 비디오를 시청해 보실 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 게시물에서는 무엇을 만들고 어떤 주제를 다룰지 빠르게 살펴보고, 프로젝트의 기본 구조를 설정하고, 첫 번째 커밋을 만들 것입니다.
 
@@ -33,7 +40,18 @@ Next.js 14와 Strapi의 인기로 인해 여러분도 멋진 것들을 구축할
 
 그래서, 나는 문제가 있었어요. 유튜브에서 많은 시간을 보내고 동영상을 보다가, 중간에 나 자신이 완전히 흥미를 느끼지 못하는 동영상을 피할 수 있었을 것 같다는 것을 깨달았어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비디오를 볼 가치가 있는지 먼저 요약을 받을 수 있다면 멋지지 않을까요?
 
@@ -43,7 +61,18 @@ Next.js 14와 Strapi의 인기로 인해 여러분도 멋진 것들을 구축할
 
 비디오에 시간을 허비할 필요 없어요. 우리는 그저 요약을 읽으면 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## AI 프로젝트 개요
 
@@ -53,7 +82,18 @@ Next.js 14와 Strapi의 인기로 인해 여러분도 멋진 것들을 구축할
 
 ### Next.js
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Next.js는 React JavaScript 라이브러리를 기반으로 구축된 프론트엔드 프레임워크로, 매력적인 사용자 인터페이스를 만드는 데 유용합니다.
 
@@ -63,7 +103,18 @@ Next.js는 React JavaScript 라이브러리를 기반으로 구축된 프론트�
 
 Next.js의 주요 기능 중 하나는 서버 측 렌더링입니다. 이는 웹 애플리케이션이 빠르게 로드되고 검색 엔진 순위에서 잘 나오도록 개선합니다. 성능 및 SEO에 큰 도움이 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Next.js에는 정적 생성 기능도 있어요. 이는 필요하기 전에 파일을 먼저 생성하여 데이터를 가져오기를 기다리지 않고 빠르게 로드할 수 있음을 의미합니다.
 
@@ -73,7 +124,18 @@ Next.js에는 정적 생성 기능도 있어요. 이는 필요하기 전에 파�
 
 ### Strapi
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리 애플리케이션 개발을 더 쉽게 만드려면 Strapi [헤드리스 CMS]의 강력함을 활용할 것입니다.
 
@@ -83,7 +145,18 @@ Strapi는 오픈 소스 헤드리스 콘텐츠 관리 시스템(CMS)입니다. �
 
 Strapi를 사용하는 주요 이점은 개발자가 관리자 패널, API 및 데이터베이스 쿼리를 자신의 특정 요구에 맞게 사용자 정의할 수 있는 유연성입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다양한 데이터베이스를 지원하며 React, Vue, Angular과 같은 인기 있는 프론트엔드 프레임워크와 쉽게 통합할 수 있습니다.
 
@@ -93,7 +166,18 @@ Strapi는 개발자와 콘텐츠 제작자가 효율적으로 작업할 수 있�
 
 더 많은 일을 적은 시간에 처리하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 튜토리얼에서는 다음 Next.js와 Strapi 기능을 다루는 것이 목표입니다.
 
@@ -110,7 +194,18 @@ Strapi는 개발자와 콘텐츠 제작자가 효율적으로 작업할 수 있�
 - 서버와 클라이언트 컴포넌트
 - 보안 라우트 미들웨어
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - **Shadcn UI**로 구축된 UI 구성 요소
 - **Tailwind CSS**를 사용하여 스타일 지정
@@ -127,7 +222,18 @@ Strapi는 개발자와 콘텐츠 제작자가 효율적으로 작업할 수 있�
 
 ## 프로젝트 개요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 홈 페이지
 
@@ -137,7 +243,18 @@ Strapi는 개발자와 콘텐츠 제작자가 효율적으로 작업할 수 있�
 
 ![home-page.gif](https://api-prod.strapi.io/uploads/home_page_9929dbf0fc.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 로그인 및 등록 페이지
 
@@ -147,7 +264,18 @@ Strapi를 사용하여 인증을 처리하고, Next 미들웨어 파일을 사�
 
 ### 대시보드
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단한 대시보드가 있을 거에요. 이 중앙 뷰에는 사용 가능한 크레딧, 노트 및 요약이 표시될 거예요. 그리고 상단 내비게이션에 요약 생성 폼이 나타날 거에요.
 
@@ -157,7 +285,18 @@ Strapi를 사용하여 인증을 처리하고, Next 미들웨어 파일을 사�
 
 이 튜토리얼에서는 앞으로 앱을 확장할 때 사용할 수 있는 추가 기능을 제공하는 LangChain 라이브러리를 사용해 Open AI에 요청을 보낼 거에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![summary-demo.gif](https://api-prod.strapi.io/uploads/summary_demo_e3c4b06472.gif)
 
@@ -167,7 +306,18 @@ Strapi를 사용하여 인증을 처리하고, Next 미들웨어 파일을 사�
 
 우리의 메모에 대해서도 유사한 섹션이 있을 예정입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![summary-page.gif](https://api-prod.strapi.io/uploads/summary_page_dd708e612b.gif)
 
@@ -177,7 +327,18 @@ Strapi를 사용하여 인증을 처리하고, Next 미들웨어 파일을 사�
 
 저희 앱에서 대부분의 양식 제출은 꽤 멋진 Next Server Actions를 사용할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 표 태그를 마크다운 형식으로 변경해주세요.
 
@@ -189,7 +350,18 @@ Strapi를 사용하여 인증을 처리하고, Next 미들웨어 파일을 사�
 
 저의 목표는 이 튜토리얼을 공개로 만들어 매주 새로운 게시물/비디오를 배포하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 진행 사항은 공개 저장소에 저장되며, 지켜볼 수 있습니다.
 
@@ -199,7 +371,18 @@ Next.js의 모든 중요한 부분과 미들웨어, 정책, 라우트, 컨트롤
 
 저만큼 설레이시다는 것을 바라요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼 시작해봅시다.
 
@@ -209,7 +392,18 @@ Next.js의 모든 중요한 부분과 미들웨어, 정책, 라우트, 컨트롤
 
 ### 프론트엔드 설정하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 `epic-next-course`라는 새 폴더를 만들어봅시다. 터미널에서 다음 명령을 실행하여 폴더를 생성할 거에요:
 
@@ -219,11 +413,20 @@ mkdir epic-next-course
 
 폴더를 생성한 후에는 `cd epic-next-course`를 입력하여 해당 폴더로 이동한 다음 아래 명령을 실행해봅시다:
 
-
 npx create-next-app@latest
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 옵션을 선택하세요:
 
@@ -243,7 +446,18 @@ npx create-next-app@latest
 
 프로젝트는 [http://localhost:3000](http://localhost:3000)에서 시작됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![next-js-web.png](https://api-prod.strapi.io/uploads/next_js_web_ac9d2144a3.png)
 
@@ -253,7 +467,18 @@ npx create-next-app@latest
 
 더 많은 정보는 [여기](https://ui.shadcn.com)에서 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![shadcn-ui.png](https://api-prod.strapi.io/uploads/shadcn_ui_0f155fbb09.png)
 
@@ -266,7 +491,18 @@ shadcn-ui init 명령어를 실행해주세요:
 npx shadcn-ui@latest init
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **다음 옵션을 선택하세요**
 
@@ -282,7 +518,18 @@ npx shadcn-ui@latest init
 성공! 프로젝트 초기화가 완료되었습니다. 이제 컴포넌트를 추가할 수 있습니다.
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그게 다에요. 이제 Shadcn UI가 설치되었고 준비가 되었어요.
 
@@ -292,7 +539,18 @@ npx shadcn-ui@latest init
 
 첫 번째 컴포넌트를 추가해 보죠. `frontend` 폴더에서 아래 명령어를 실행하면 버튼 컴포넌트가 설치됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 npx shadcn-ui@latest add button
@@ -304,7 +562,18 @@ npx shadcn-ui@latest add button
 
 다음 코드로 `page.tsx` 파일 내에서 사용해봅시다. 모든 코드를 아래와 같이 대체해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```tsx
 import { Button } from “@/components/ui/button”;
@@ -322,7 +591,18 @@ return (
 
 ![our-new-button.png](https://api-prod.strapi.io/uploads/our_new_button_d6e34ed415.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희 Shadcn UI 컴포넌트가 예상대로 작동한다는 것을 알았으니, 첫 번째 튜토리얼을 완료해 보겠습니다. 이제 Strapi 인스턴스를 설정해 봅시다.
 
@@ -332,7 +612,18 @@ return (
 
 매우 사용자 정의가 가능하며 시작하기 쉽습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 [문서](https://docs.strapi.io/dev-docs/quick-start)에서 더 많은 정보를 찾을 수 있어요. 하지만 프로젝트 폴더 안에서 다음 명령을 실행하여 시작할 거에요.
 
@@ -352,7 +643,18 @@ npx create-strapi-app@latest backend
 ⠼ 의존성 설치 중:
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 번 모든 것이 설치되고 나면 Strapi의 등록 페이지가 나타납니다.
 
@@ -362,7 +664,18 @@ npx create-strapi-app@latest backend
 
 ![strapi-dashboard.png](https://api-prod.strapi.io/uploads/strapi_dashboard_63644bbe24.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 축하합니다. 이제 Strapi 앱이 설정되었습니다.
 
@@ -372,7 +685,18 @@ npx create-strapi-app@latest backend
 
 우리 앱은 탑 네비게이션, 주요 섹션, 특징 및 푸터 섹션을 포함한 홈페이지를 갖게 될 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![home-page-layout.png](https://api-prod.strapi.io/uploads/home_page_layout_ce7c66f130.png)
 
@@ -382,7 +706,18 @@ npx create-strapi-app@latest backend
 
 Strapi 애플리케이션에 손쉽게 콘텐츠를 추가하고 API에서 데이터를 가져올 수 있는 방법을 보여드리고 싶어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `SINGLE TYPES` 아래의 `Content-Type Builder`로 이동하여 `create-new-single-type`를 클릭해 봐요.
 
@@ -392,7 +727,18 @@ Strapi 애플리케이션에 손쉽게 콘텐츠를 추가하고 API에서 데�
 
 텍스트 필드를 추가할 거에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 표 태그를 마크다운 형식으로 변경하세요.
 
@@ -402,7 +748,18 @@ Strapi 애플리케이션에 손쉽게 콘텐츠를 추가하고 API에서 데�
 
 ![adding-data.gif](https://api-prod.strapi.io/uploads/adding_data_f8b5a28318.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에 제목 텍스트와 설명을 추가한 후, 반드시 '발행'을 클릭하세요.
 
@@ -412,7 +769,18 @@ Strapi 애플리케이션에 손쉽게 콘텐츠를 추가하고 API에서 데�
 
 ## Strapi API를 통해 데이터 가져오기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 첫 번째 데이터 유형을 준비했으니 **Insomnia**를 사용하여 쿼리하는 방법을 살펴봅시다.
 
@@ -422,7 +790,18 @@ Strapi 애플리케이션에 손쉽게 콘텐츠를 추가하고 API에서 데�
 
 ![giving-public-access.gif](https://api-prod.strapi.io/uploads/giving_public_access_2aec11c74f.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 설정으로 이동하여 - 사용자 및 권한 플러그인 - 역할 - 공개를 선택합니다.
 
@@ -432,7 +811,18 @@ Strapi 애플리케이션에 손쉽게 콘텐츠를 추가하고 API에서 데�
 
 한 번 시도해 봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![home-page-data.gif](https://api-prod.strapi.io/uploads/home_page_data_a219268fb8.gif)
 
@@ -456,7 +846,18 @@ Strapi 애플리케이션에 손쉽게 콘텐츠를 추가하고 API에서 데�
 
 가기 전에, 프론트엔드에서 호출해서 초기 데이터를 렌더링할 수 있는지 확인해볼까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 첫 번째 Fetch 요청 만들기
 
@@ -466,7 +867,18 @@ Next.js 14를 사용하고 있으므로 RSC [React Server Components]를 사용�
 
 **프론트엔드 프로젝트**에서 `src/app/page.tsx` 파일로 이동해 봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희가 중요한 버튼 구성 요소를 추가한 곳입니다. CSS를 테스트하기 위해요.
 
@@ -476,7 +888,18 @@ Next.js 14를 사용하고 있으므로 RSC [React Server Components]를 사용�
 
 `tsx`
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```javascript
 async function getStrapiData(url: string) {
@@ -504,9 +927,18 @@ export default async function Home() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 변경 사항을 적용한 후, 프로젝트가 실행 중인지 확인하고 `http://localhost:3000`으로 이동하면 다음을 확인할 수 있습니다.
 
@@ -514,9 +946,18 @@ export default async function Home() {
 
 잘 했습니다. 이제 **백엔드**에서 **프론트엔드**로 데이터를 가져올 수 있다는 것을 알게 되었습니다.
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 포스트에서는 홈페이지, 내비게이션 및 푸터를 계속 만들 것입니다.
 
@@ -526,7 +967,18 @@ export default async function Home() {
 
 프론트엔드와 백엔드를 모두 설정했어요. 이제 프로젝트의 나머지 부분을 계속해서 만들 준비가 되었어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트의 현재 진행 상황을 담은 repo가 있어요.
 
@@ -536,6 +988,17 @@ export default async function Home() {
 
 프로젝트 repo는 [여기](https://strp.cc/49HdLeD)에서 찾을 수 있어요. 비디오는 [여기](https://strp.cc/3uXEkgy)에서 확인할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 첫 번째 비디오를 보시려면 여기서 확인하실 수 있어요.

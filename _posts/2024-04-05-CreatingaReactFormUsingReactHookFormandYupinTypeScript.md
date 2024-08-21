@@ -3,17 +3,13 @@ title: "타입스크립트로 리액트 폼 만드는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Creating a React Form Using React Hook Form and Yup in TypeScript"
 link: "https://medium.com/@msgold/creating-a-react-form-using-react-hook-form-and-yup-in-typescript-640168c5ed57"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/CreatingaReactFormUsingReactHookFormandYupinTypeScript_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이 라이브러리들의 기능을 최대한 활용하기 위해 사용자 친화적인 폼을 생성하여 사용자의 이름, 주소, 도시, 주, 전화번호 및 우편번호와 같은 중요한 세부 정보를 캡처할 것입니다. 이 폼을 만들 때 우리는 Yup의 스키마 빌더를 사용하여 사용자 입력값을 유효성 검사하여 데이터 무결성을 확보하고 사용자에게 만족스러운 경험을 제공할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 타입 안전성과 깨끗하고 관리하기 쉬운 코드에 관심이 있는 분들을 위해 준비했습니다. 우리의 구현은 TypeScript로 작성될 것이며, 이는 JavaScript의 정적 타입이 추가된 유형의 슈퍼셋으로 선택적인 유형 등 다른 기능을 추가합니다. TypeScript를 사용하여 잠재적인 실행 시간 오류를 최소화하고 코드베이스의 유지 관리성을 높일 것입니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 # 준비 사항
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Node.js가 설치되어 있어야 합니다
 - React.js와 TypeScript에 대한 기본적인 이해
@@ -47,7 +65,18 @@ npx create-react-app form-app --template typescript
 
 # 종속 항목 설치
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저 필요한 종속 항목 (react-hook-form, yup, 그리고 hookform resolver)을 설치해 보세요:
 
@@ -59,7 +88,18 @@ npm install react-hook-form yup @hookform/resolvers
 
 간편함을 위해, 주로 npx 템플릿에 의해 생성된 다음 파일 구조를 사용합시다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /src
@@ -76,7 +116,18 @@ react-hook-form으로 폼을 만들어 봅시다.
 
 Form.tsx 파일에 다음과 같이 작성하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import React from "react";
@@ -149,7 +200,18 @@ export const Form: React.FC = () => {
 
 # 폼 스타일링
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 components 폴더에 Form.css라는 새 파일을 만들고 다음 CSS를 붙여넣으세요. 이 CSS는 우리의 양식을 위한 입력 필드를 레이아웃합니다.
 
@@ -216,7 +278,18 @@ p {
 
 App.tsx를 다음 코드로 변경하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import React from "react";
@@ -242,7 +315,18 @@ npm run start
 
 이 명령을 실행하면 브라우저에서 다음 페이지가 열립니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![CreatingaReactFormUsingReactHookFormandYupinTypeScript_1.png](/assets/img/CreatingaReactFormUsingReactHookFormandYupinTypeScript_1.png)
 
@@ -252,7 +336,18 @@ npm run start
 
 보통이라면 데이터를 콘솔에 표시하지 않을 것이고, 아마도 REST 서비스나 GraphQL과 같은 서비스에 AJAX 호출을 할 것입니다. 그러한 경우에는 onSubmit을 변경하여 axios와 같은 라이브러리를 사용하여 원격으로 양식 데이터를 전송할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 초기 폼 값 설정
 
@@ -262,7 +357,18 @@ npm run start
 
 이 접근 방식을 통해 방문자가 폼에 진입할 때 이미 '텍사스'가 "state" 필드에 채워져 있게 됩니다. setValue는 모든 필드에 대한 기존 정보를 채우기 위해 초기 정보를 데이터베이스에서 읽고 싶은 경우에도 유용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const {
@@ -283,7 +389,18 @@ useEffect(() => {
 
 Yup은 양식 유효성 검사를 간단하게 처리할 수 있도록 개발된 매우 유용한 라이브러리입니다. Yup의 핵심은 아래 예제에서 보여지는 유효성 스키마입니다. 이 스키마는 양식 필드의 유효성을 검사하고, 필드가 유효성 기준을 충족하지 않을 때 사용자에게 에러 메시지를 통해 적절하게 통신하는데 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희 스키마에는 존재 테스트와 형식 테스트 두 가지 카테고리의 테스트를 통합했어요. 존재 테스트는 특정 필드가 채워졌는지 여부를 간단히 확인하며 필수 필드의 개념을 구현해요. 반면 형식 테스트는 입력의 구조를 유효성 검사할 때 사용돼요. 전화번호나 우편번호와 같이 특정 형식이 있는 필드들에 특히 중요하죠.
 
@@ -291,7 +408,18 @@ Yup은 양식 유효성 검사를 간단하게 처리할 수 있도록 개발된
 
 사용자가 양식을 제출하면 Yup은 스키마에 따라 양식 필드를 평가해요. 만약 어떤 필드도 유효성 검사에 실패하면, Yup은 useForm 후크에서 제공되는 오류 객체 내에 해당 오류 메시지를 채워요. 제출을 따라서, 양식은 다시 렌더링되며 오류 객체가 평가돼요. 기존의 오류 메시지가 있으면 사용자에게 자신의 실수를 바로 잡도록 빨간색으로 잘 강조해서 표시돼요. 이렇게 하면 직관적이고 반응성 있는 사용자 경험을 제공할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 전화번호를 제외한 모든 필드를 채우고 제출을 누르면, 전화번호 필드 아래에 빨간 글씨로 "필수 입력 사항입니다" 라는 메시지가 표시됩니다.
 
@@ -301,7 +429,18 @@ Yup은 양식 유효성 검사를 간단하게 처리할 수 있도록 개발된
 
 그리고 잘못된 전화번호를 입력하고 제출을 누르면, 형식 유효성 검사 실패 메시지가 나타납니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/CreatingaReactFormUsingReactHookFormandYupinTypeScript_5.png)
 
@@ -311,7 +450,18 @@ Yup은 양식 유효성 검사를 간단하게 처리할 수 있도록 개발된
 
 ![이미지](/assets/img/CreatingaReactFormUsingReactHookFormandYupinTypeScript_6.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -321,7 +471,18 @@ React Hook Form은 폼 생성 프로세스를 크게 단순화시키고 작성�
 
 Yup을 사용하여 폼 입력의 구조와 요구 사항을 규정하는 유효성 검사 스키마를 정의했습니다. 이 스키마를 사용하여 정규 표현식을 활용한 형식 유효성 검사와 같은 복잡한 유효성 검사 작업을 손쉽게 수행할 수 있었습니다. 이는 Yup이 폼 유효성 검사 라이브러리로서의 강력함을 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비록이 글은 주로 폼 유효성 검사 및 스타일링에 중점을 두었지만, React Hook Form은 몇 가지 유용한 기능을 제공합니다. 예를 들어, 특정 필드를 모니터링하는 watch를 사용하여 폼 데이터 조작을 할 수 있고, 필드를 지우거나 기본값으로 설정하는 reset을 통해 작업을 수행할 수도 있습니다. 또한 useFieldArray로 폼 배열을 처리하거나, useFormContext로 폼 위저드 시나리오를 관리할 수도 있습니다.
 

@@ -3,17 +3,13 @@ title: "Reactjs Cheat sheet 사용 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Reactjs Cheatsheet"
 link: "https://codedthemes.medium.com/react-js-cheatsheet-dcf7964e732c"
 isUpdated: true
 ---
-
-
-
-
 
 ![React.js Cheat Sheet](/assets/img/ReactjsCheatsheet_0.png)
 
@@ -23,7 +19,18 @@ React.js 는 동적이고 효율적인 사용자 인터페이스를 디자인하
 
 React는 선언적이고 효율적인 방식으로 사용자 인터페이스를 구축하는 데 사용되는 오픈 소스 JavaScript 라이브러리입니다. Model View Controller (MVC) 아키텍처의 뷰 계층 내에서만 작동하며 컴포넌트 기반 접근 방식을 채택합니다. 모듈식 사용자 인터페이스 생성을 용이하게 하며, React는 동적 데이터를 제시하는 데 용이한 재사용 가능한 UI 컴포넌트 개발을 촉진합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React Cheat Sheet은 자주 사용되는 React 메소드들을 간결하게 정리한 것으로, React Elements, Components, 및 Methods에 대한 주요 내용을 모두 한 페이지에 담아 쉽게 참고할 수 있습니다. React Cheat Sheet를 통해 React에 대해 더 쉽게 이해해 보세요!
 
@@ -37,7 +44,18 @@ React elements은 일반적인 HTML 요소와 유사한 구문을 가지고 있�
 <button>내 버튼</button>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 React 요소는 JSX를 사용하여 구성되었어요. JSX는 React의 독특한 기능으로 HTML 구문과 JavaScript 함수를 혼합합니다.
 
@@ -51,7 +69,18 @@ React elements은 일반적인 HTML 요소와 유사한 구문을 가지고 있�
 
 ## React 요소 속성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 JSX는 JavaScript의 camelCase 규칙에 따라 속성에 대한 수정된 구문을 도입합니다. 예를 들어, HTML의 class 속성은 JSX에서 className으로 변환됩니다.
 
@@ -63,7 +92,18 @@ JSX는 JavaScript의 camelCase 규칙에 따라 속성에 대한 수정된 구�
 
 JSX에서 인라인 스타일을 적용하는 방법은 이중 중괄호를 사용하는 것입니다. 스타일은 일반 문자열로 표현되는 것이 아니라 객체 내의 속성으로 표현됩니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <h1 style={ fontSize: 24, margin: '0 auto', textAlign: 'center' }>제 헤더</h1>
@@ -85,7 +125,18 @@ function MyComponent() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프래그먼트는 일반 또는 속기 구문으로 작성될 수 있습니다: `<>` 또는 `</>`.
 
@@ -95,7 +146,18 @@ function MyComponent() {
 
 기본적인 함수 컴포넌트는 일반 JavaScript 함수와 매우 유사하게 만들어지지만 주의할 점이 몇 가지 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, 컴포넌트 이름은 대문자로 시작해야 합니다. 즉, myComponent 대신 MyComponent와 같이 작성해야 합니다. 또한, 일반적인 JavaScript 함수와 달리 컴포넌트는 JSX를 graceful하게 반환해야 합니다.
 
@@ -109,7 +171,18 @@ function App() {
 
 ## React Props
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React 세계에서 컴포넌트는 우리가 props라고 부르는 데이터를 전달 받을 수 있는 능력을 갖고 있어요.
 
@@ -126,7 +199,18 @@ function User(props) {
 
 props는 사실 객체이기 때문에 User 컴포넌트 내에서 'name' prop의 값을 react 훅을 통해 추출할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 깔끔한 코드 접근 방식을 위해, "name" 같은 단일 prop을 다룰 때 객체 비구조화를 사용할 수 있습니다:
 
@@ -143,7 +227,18 @@ function User({ name }) {
 
 ## React Children Props
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프롭스는 컴포넌트의 여는 태그와 닫는 태그 사이에 데이터를 넣어 전달할 수도 있습니다. 이런 방식으로 전달된 이러한 프롭스는 children 속성 안에 위치합니다.
 
@@ -164,7 +259,18 @@ function User({ children }) {
 
 ## 리액트 조건문
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트 컴포넌트와 엘리먼트는 조건부로 표시할 수 있습니다. 한 가지 방법은 if 문을 사용한 별도의 return 문을 사용하는 것입니다.
 
@@ -184,7 +290,18 @@ function App() {
 
 삼항 연산자를 사용하려면 전체 조건을 중괄호로 감싸야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 function App() {
@@ -204,7 +321,18 @@ React 컴포넌트의 목록은 .map() 함수를 사용하여 생성할 수 있�
 
 SoccerPlayer 컴포넌트를 사용하여 축구 선수 목록을 출력하는 예시를 살펴보겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 function SoccerPlayers() {
@@ -225,7 +353,18 @@ function SoccerPlayers() {
 
 리액트 컨텍스트는 컴포넌트 트리 전체에 데이터를 손쉽게 전달하는 메커니즘으로, 프롭트에만 의존하는 것을 없애줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Props에 대한 도전 과제는 때때로 데이터가 필요하지 않은 중간 컴포넌트를 통해 그들을 전달해야 하는 필요성이 있습니다. 이를 프롭 드릴링이라고 일반적으로 언급합니다.
 
@@ -245,7 +384,18 @@ function Greeting({ name }) {
 
 Context를 받아들이기 전에, 우리의 컴포넌트가 불필요한 세그먼트를 통해 props를 전달하는 실천 방식을 우회할 수 있는 더 나은 구조로 향상될 수 있는지를 탐구하는 것이 가치 있다고 생각합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Context를 구현할 때는 React에서 제공하는 createContext 함수를 사용합니다. 이 함수는 초기값과 함께 호출되어 해당 값을 컨텍스트의 시작점으로 설정합니다.
 
@@ -265,17 +415,24 @@ function Body() {
   return <Greeting />;
 }
 function Greeting() {
-  return (
-    <NameContext.Consumer>
-      {(name) => <h1>Welcome, {name}</h1>}
-    </NameContext.Consumer>
-  );
+  return <NameContext.Consumer>{(name) => <h1>Welcome, {name}</h1>}</NameContext.Consumer>;
 }
 ```
 
 이 접근법을 채택함으로써 컴포넌트의 구성을 개선하고 컴포넌트 트리에서 부가적인 엘리먼트를 통해 프롭을 전달할 필요를 회피할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 리액트 훅
 
@@ -290,7 +447,18 @@ function Greeting() {
 - useCallback
 - useMemo
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 useState 훅은 특히 함수 컴포넌트 내에서 상태 값들을 활용할 수 있게 해줌으로써 그 이름에 걸맞게 작동합니다. 이 훅은 간단한 변수보다는 선호되며, 상태를 수정할 때 컴포넌트가 자동으로 다시 렌더링되어 업데이트된 값을 반영합니다.
 
@@ -318,7 +486,18 @@ function Counter() {
 
 이를 통해 useState가 React 함수 컴포넌트의 기능을 풍부하고 간단한 방식으로 관리하는 데 어떻게 도움을 주는지 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## React useState 훅
 
@@ -328,7 +507,18 @@ React useState 훅은 간단한 목적을 제공합니다 — 함수 컴포넌�
 
 다른 훅의 패턴을 따라, 컴포넌트 시작 부분에 useState를 호출하여 상태 변수를 초기값으로 제공할 수 있도록 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `useState`에서 반환된 값에 대한 배열 구조 분해의 사용을 통해, 우리는 저장된 상태와 해당 상태를 업데이트하는 함수에 모두 손쉽게 접근할 수 있도록 할 수 있습니다.
 
@@ -350,7 +540,18 @@ function Counter() {
 
 이것은 `useState` 훅이 함수 컴포넌트에서 상태를 관리하는 것을 간소화하는 방법을 보여줍니다. 상태 변경을 처리하는 무난한 방법을 제공함으로써, React 컴포넌트의 기능성을 향상시키며, 이를 단순한 카운터 시나리오로 설명했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ---
 
@@ -360,7 +561,18 @@ React의 useEffect 훅은 API 호출과 같은 외부 환경과 상호작용해�
 
 useEffect의 기본 구문은 첫 번째 인수로 함수를 제공하고 두 번째 인수로 배열을 제공하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { useEffect } from "react";
@@ -388,7 +600,18 @@ function PostList() {
 
 이펙트 함수 외부에서 값을 필요로 하는 경우, 이를 종속성 배열에 포함해야 합니다. 해당 값이 변경되면 이펙트 함수가 다시 실행됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, 이 코드 스니펫을 살펴보세요. 이 코드는 모바일 메뉴가 열린 상태인지 닫힌 상태인지에 따라 본문 요소에 "overflow-hidden" 클래스를 토글합니다.
 
@@ -410,7 +633,18 @@ function Mobile({ open }) {
 
 ## React useRef
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React의 useRef 훅은 JSX 요소로의 직접적인 게이트웨이를 제공하여 prop 전달이 필요하지 않은 상태에서 접근할 수 있는 메커니즘을 제공합니다.
 
@@ -426,7 +660,18 @@ function MyComponent() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 특정 요소에 링크된 ref는 ref.current에 저장된 값이 해당 요소와 직접 상호 작용하는 데 사용될 수 있습니다. 예를 들어 사용자가 Control + K 키 조합을 사용할 때 검색 입력란에 초점을 맞추고 싶다고 가정해 보겠습니다:
 
@@ -449,7 +694,18 @@ function Header() {
 
 ## React useContext
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React의 useContext 훅은 기존의 Context.Consumer 컴포넌트를 사용하는 것에 비해 context를 사용하는 것을 간편하게 해줍니다.
 
@@ -484,7 +740,18 @@ function Greeting() {
 
 이는 useContext가 전통적인 Context.Consumer 컴포넌트와 비교하여 더 간결하고 읽기 쉬운 접근 방식을 제공하여 context 값에 액세스하는 프로세스를 단순화하는 방법을 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## React useCallback
 
@@ -494,7 +761,18 @@ React의 useCallback 훅은 우리 애플리케이션의 성능을 최적화하�
 
 이를 해결하기 위해 우리는 useCallback을 활용할 수 있습니다. 우리의 콜백 함수를 캡슐화하고 그 종속성 배열에 유일한 인수인 player를 포함시켜야 합니다. 아래는 코드의 인간이 읽기 쉬운 버전입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 function App() {
@@ -539,7 +817,18 @@ function PlayerList({ players, handleRemovePlayer }) {
 
 useEffect 및 useCallback과 달리, useMemo는 값의 반환을 설계된 것입니다. 콜백 함수와 의존성 배열이 필요하며, 콜백은 명시적으로 값을 반환해야 합니다. mdx-bundler 문서에서 .mdx 파일을 React 구성 요소로 변환하는 실제 예제를 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import * as React from "react";

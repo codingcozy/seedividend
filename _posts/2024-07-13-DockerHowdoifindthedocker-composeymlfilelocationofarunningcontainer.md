@@ -3,16 +3,13 @@ title: "Docker 실행 중인 컨테이너의 docker-composeyml 파일 위치 찾
 description: ""
 coverImage: "/assets/img/2024-07-13-DockerHowdoifindthedocker-composeymlfilelocationofarunningcontainer_0.png"
 date: 2024-07-13 01:34
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-DockerHowdoifindthedocker-composeymlfilelocationofarunningcontainer_0.png
 tag: Tech
 originalTitle: "Docker: How do i find the docker-compose.yml file location of a running container?"
 link: "https://medium.com/@kpatronas/docker-how-do-i-find-the-docker-compose-yml-file-location-of-a-running-container-4a7d660fc054"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-07-13-DockerHowdoifindthedocker-composeymlfilelocationofarunningcontainer_0.png" />
 
@@ -22,8 +19,18 @@ isUpdated: true
 
 첫 번째 단계는 컨테이너 ID를 식별하는 것입니다. docker ps 명령을 사용하여 이 작업을 수행하면 다음과 비슷한 출력이 생성됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 컨테이너 ID     이미지                                    명령어                생성일         상태                포트                                                      이름
@@ -37,8 +44,18 @@ bd0f34c2cbfc   influxdb:1.8                             "/entrypoint.sh infl…"
 
 이 명령어를 실행하면 해당 컨테이너에 대한 모든 세부 정보가 표시됩니다. 아마도 출력물이 많고 읽기 어렵게 나올 것입니다!
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 docker inspect 6fac5a8225e4
@@ -52,7 +69,18 @@ docker inspect 6fac5a8225e4
 docker inspect --format='{json .Config.Labels}' 203df74e3ba6
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 명령은 다음 출력을 생성할 것인데, 너무 많지는 않지만 조금 읽기 어려울 수 있어요!
 
@@ -64,8 +92,18 @@ docker inspect --format='{json .Config.Labels}' 203df74e3ba6
 
 여기서 두 가지 방법을 사용할 수 있어요. 하나는 jq를 사용하여 출력을 더 읽기 쉬운 형태로 포맷팅하는 것이고요, 다른 하나는 (docker-compose.yml 라인을 찾았나요? ;) )
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 docker inspect --format='{json .Config.Labels}' 203df74e3ba6 | jq .
@@ -101,7 +139,17 @@ docker inspect --format='{json .Config.Labels}' 203df74e3ba6 | tr -s "," "\n"
 
 ## 결론
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요즘 보셨겠지만, 실행 중인 컨테이너에서 docker-compose.yml 위치를 추출하는 것은 어렵지 않지만 많은 출력이 표시되어 이미 스트레스 받는 상황에서 시간이 부족하고 빠르게 위치를 파악해야 하는 경우에는 어려울 수 있습니다! 그래서 이 기사에서는 docker inspect 명령어 이외에도 "잡음"을 걸러내고 docker-compose.yml 위치가 포함된 구성 레이블 부분만 얻는 빠른 팁을 보여드릴 예정이에요!

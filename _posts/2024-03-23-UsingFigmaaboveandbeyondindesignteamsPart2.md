@@ -3,17 +3,13 @@ title: "Figma를 디자인 팀에서 효율적으로 활용하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Using Figma above and beyond in design teams  Part 2"
 link: "https://medium.com/swiggydesign/using-figma-above-and-beyond-in-design-teams-part-2-e7564285db49"
 isUpdated: true
 ---
-
-
-
-
 
 ![Using Figma above and beyond in design teams — Part 2](/assets/img/Using-Figma-above-and-beyond-in-design-teams-—-Part-2_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 Part 1에서 나는 Figma 플러그인을 만들어 나의 아이디어를 현실적이고 유용한 것으로 바꾸고 싶다는 열망에서 시작했다고 말했어. Swiggy에서 내부 플러그인을 만들어 번거로운 작업을 자동화했고, 사용자를 위한 복잡한 문제를 해결하는 데 집중할 수 있도록 도와주었던 이야기야.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 그러는 동안, 시스템에서 일하는 법, 개발자와의 더 나은 협업 등과 같이 제 전문 분야 외의 많은 것들을 배울 수 있었습니다. 다른 디자이너들의 삶을 더 쉽게 만드는 것이 정말로 저를 이어나가게 했어요.
 
@@ -33,7 +40,18 @@ Part 1에서 나는 Figma 플러그인을 만들어 나의 아이디어를 현�
 
 놀라실 준비가 되셨나요? 함께 알아보도록 합시다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 파일 구성 📝
 
@@ -43,7 +61,18 @@ Part 1에서 나는 Figma 플러그인을 만들어 나의 아이디어를 현�
 
 만약 누군가 이 파일에 뛰어들면 어떨까요? 개발자들이 최종 사용자 흐름, 특수 사례, 또는 그 마이크로 상호 작용을 언제 보여줘야 하는지에 대해 계속해서 물어오는 것은 원치 않으실 거예요. 팀 내 새로 온 디자이너나 새 프로젝트를 시작하는 디자이너들을 위해 이전 지식이나 문맥을 전달할 방법이 없었죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 초반에는 템플릿 프로젝트 파일을 만들었습니다. 이 방법은 어느 정도 작동했지만, 프로젝트를 시작할 때 여전히 파일을 복제하거나 기존 프로젝트를 이 형식으로 정리해야 했습니다. 여전히 많은 노력이 필요했죠.
 
@@ -53,7 +82,18 @@ Part 1에서 나는 Figma 플러그인을 만들어 나의 아이디어를 현�
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1400/1*JTEeHtjQI_qc0in9u6VwPQ.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 이미지 작업하기 🖼️
 
@@ -63,7 +103,18 @@ Part 1에서 나는 Figma 플러그인을 만들어 나의 아이디어를 현�
 
 그래서 우리는 선택한 이미지를 그냥 웹 주소를 사용하여 교체할 수 있는 플러그인을 만들었어요. 이제 컴포넌트나 인스턴스를 떼어내지 않아도 되요. 우리는 이 플러그인을 'Perfect Match!'라고 부르고 있어요! ✨
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가장 좋은 부분은 이것이 Swiggy 웹사이트에 제한되지 않는다는 것이다. 당신은 인터넷 상의 어떤 이미지에도 주소를 넣고 바로 적용할 수 있어요!
 
@@ -73,7 +124,18 @@ Part 1에서 나는 Figma 플러그인을 만들어 나의 아이디어를 현�
 
 이건 제가 가장 좋아하는 부분이에요. 조금 전언이를 들려줄게요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 디자인 시스템의 사용을 설정하고 관리하고 있었습니다. 핵심 DS 팀으로서, 우리는 디자이너들과의 감사 세션을 진행하여 누락된 스타일, 토큰의 잘못된 사용, 다른 라이브러리에서 사용된 컴포넌트 등과 같은 문제를 찾아 수정하는 것이었습니다.
 
@@ -83,7 +145,18 @@ Part 1에서 나는 Figma 플러그인을 만들어 나의 아이디어를 현�
 
 그런 다음 Roast가 등장했습니다 - 우리가 만든 작은 플러그인으로 디자인 시스템 문제를 식별하고 파일을 신속하게 준비하여 이관 과정을 수월하게 만들었습니다. 이 개념을 처음 접했던 것은 Uber Design이 Config 2021에서 그들의 플러그인을 소개했을 때였습니다. 이것이 공개적으로 제공되지 않았기 때문에 우리는 우리만의 것을 만들기로 결정했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1400/1*wc7T4t1W3YGI5X_IToDzDg.gif)
 
@@ -93,7 +166,18 @@ Swiggy Design 내부에서 발행한 이러한 글 때문에 많은 노력이 �
 
 어떤 디자인 팀에게도 가치를 줄 수 있는 것을 보고, 저는 Figma 커뮤니티에 Roast를 발행해야겠다고 생각했어요. 이것은 라이브러리 저장, 토큰 사용자 정의 등을 포함한 새로운 기능을 추가해야 했답니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신은 roastdesign.com에서 플러그인을 받을 수 있어요.
 
@@ -103,7 +187,18 @@ Swiggy 앱은 다른 사람들과는 다르게 장애를 가진 사람들을 포
 
 하지만 이것이 어떻게 이뤄졌었는지는 상당히 어려운 과정이었어요. 개발자는 일반적으로 스크린샷이 포함된 요청 문서를 작성했습니다. 그런 다음, A11y 팀은 초점 순서, Voiceover/작업에 대한 텍스트 등과 같은 세부 정보를 추가했고, 마지막으로 개발자는 사양에 따라 A11y 코드를 추가하기 시작했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Figma를 과도하게 활용하는 디자인 팀—파트 2](/assets/img/Using-Figma-above-and-beyond-in-design-teams-—-Part-2_9.png)
 
@@ -113,7 +208,18 @@ Swiggy 앱은 다른 사람들과는 다르게 장애를 가진 사람들을 포
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1400/1*-AgVoH7QpiG_ua_P7XCyMw.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일단 여기서 함께해요. Roast 플러그인의 접근성 문제를 찾고 있어요. 작은 글꼴 크기를 가진 텍스트 레이어나 배경에 대비가 낮은 레이어를 발견한다고 상상해보세요. 다음과 같은 것이죠:
 
@@ -123,4 +229,15 @@ Swiggy 앱은 다른 사람들과는 다르게 장애를 가진 사람들을 포
 
 여기까지 읽어주셔서 감사합니다. Figma 커뮤니티에서 공개된 플러그인을 확인해보세요: [figma.com/@milanmaheshwari](https://www.figma.com/@milanmaheshwari)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

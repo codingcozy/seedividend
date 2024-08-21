@@ -3,7 +3,7 @@ title: "백엔드 개발자를 위한 루비 메서드 인수 정리"
 description: ""
 coverImage: "/assets/img/2024-08-17-MasteringRubyMethodArgumentsAComprehensiveGuideforBackendDevelopers_0.png"
 date: 2024-08-17 01:24
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-17-MasteringRubyMethodArgumentsAComprehensiveGuideforBackendDevelopers_0.png
 tag: Tech
 originalTitle: "Mastering Ruby Method Arguments A Comprehensive Guide for Backend Developers"
@@ -11,7 +11,6 @@ link: "https://medium.com/@patrykrogedu/mastering-ruby-method-arguments-a-compre
 isUpdated: true
 updatedAt: 1723864217891
 ---
-
 
 <img src="/assets/img/2024-08-17-MasteringRubyMethodArgumentsAComprehensiveGuideforBackendDevelopers_0.png" />
 
@@ -21,7 +20,18 @@ updatedAt: 1723864217891
 
 메서드 인수는 루비 유연성의 기본 구성 요소입니다. 다양한 입력 및 시나리오를 다룰 수 있는 다재다능한 메서드를 만들 수 있게 해줍니다. 그러나, 큰 권한에는 큰 책임이 따릅니다. 메서드에 대한 올바른 유형의 인수를 선택하는 것은 해당 메서드의 사용성과 성능에 상당한 영향을 줄 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 루비의 메소드 인자 유형
 
@@ -35,7 +45,18 @@ updatedAt: 1723864217891
 
 각각을 자세히 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 위치 인수
 
@@ -51,7 +72,18 @@ greet("Alice", "Hello")  # 출력: Hello, Alice!
 
 ## 고려 사항:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 인수가 적은 메소드의 경우 간단하고 명료합니다.
 - 순서가 중요하며, 인수가 잘못 전달될 경우 오류를 발생시킬 수 있습니다.
@@ -70,7 +102,18 @@ greet("Bob")  # 출력: Hello, Bob!
 greet("Charlie", "Hi")  # 출력: Hi, Charlie!
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 고려 사항:
 
@@ -82,7 +125,18 @@ greet("Charlie", "Hi")  # 출력: Hi, Charlie!
 
 키워드 인수를 사용하면 순서와 상관없이 이름으로 인수를 지정할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 def create_user(name:, email:, age: nil)
@@ -101,8 +155,18 @@ create_user(email: "alice@example.com", name: "Alice")
 
 # Rest Arguments
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Rest arguments는 메서드가 임의 개수의 인수를 수락할 수 있게 합니다.
 
@@ -124,7 +188,18 @@ print_args("one", "two", "three")
 - 조심히 사용하지 않으면 메서드 동작이 예측하기 어려워질 수 있음
 - 인수의 개수를 알면 대신 배열 인수를 사용하는 것을 고려해보세요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 블록 인수
 
@@ -141,7 +216,18 @@ execute_block { puts "This is a block!" }
 
 ## 고려 사항:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 유연하고 재사용 가능한 코드를 만드는 데 강력합니다
 - 메소드 호출 당 하나의 블록만 전달할 수 있습니다
@@ -150,6 +236,7 @@ execute_block { puts "This is a block!" }
 # 올바른 인수 유형 선택하기
 
 어떤 인수 유형을 사용할지 결정할 때 다음 사항을 고려하십시오:
+
 - 메서드 목적: 메소드의 주요 기능은 무엇인가요?
 - 유연성: 메소드의 사용법이 시간이 지남에 따라 어떻게 변할 수 있을까요?
 - 가독성: 어떤 인수 유형이 메소드 호출을 가장 명확하게 만드나요?

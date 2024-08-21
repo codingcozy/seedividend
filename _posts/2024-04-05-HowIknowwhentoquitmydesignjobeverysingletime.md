@@ -3,17 +3,13 @@ title: "디자인 직장을 그만둬야 할 때, 매번 알아내는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How I know when to quit my design job, every single time"
 link: "https://blog.prototypr.io/how-i-know-when-to-quit-my-design-job-every-single-time-abf37764f2bb"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/HowIknowwhentoquitmydesignjobeverysingletime_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 나는 필기구를 자주 사용하지만, 대부분 도스리 쪽이나 원숭이 같이 내용을 필기하는 데 사용해. 그리고 내 할 일 목록 중에서 가장 흔하지 않은 것 중 하나인데, 내 노트북에 나타난 작업은 내가 원하는 것보다 더 자주 나타난다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 퇴사 서신 작성하기
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ## 내가 가장 기억에 남는 퇴사 이야기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 언젠가는 일의 마지막 결정권을 갖고 싶어하는 고용주가 있죠. 그냥 그만두고 나서 어떤 일이 일어날까요? 그들이 당신을 해고할까요?
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 그냥 그런 날 중 하나예요. 탈진하고 악용당한 기분이 들어요. 가족이나 친구를 만난 지 몇 주, 머리를 자른 지 몇 달이 되어가고 있었어요. 컴퓨터 앞에 앉아서 회사를 위해 낮이나 밤이나 부지런히 일했는데, 그 회사는 나에게 한 약속에 대해 전혀 고려하지 않았어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나는 컨설턴트로서의 삶을 즐기지 못했어요. 사실 너무나도 불만족스러운 경험이었습니다. 돈도 별로 없었고, 일은 지루하고 지치는 일뿐이었죠; 컨설턴트란 거의 대기업의 무능한 중간 관리자들을 손잡아주는 일을 하는 셈이에요. 안타깝게도, 그들은 이제 당신의 고객이 되어 버린 거죠.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 그는 그 약속을 이용했고 그 말을 행동으로 옮기는데 있어서 저를 이용했어요. 그의 진실에 대한 농담에 대해 용서할 마음을 찾아내지 못했어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새로운 고객 계약이 체결되자 동시에 내 퇴사서도 작성했다. 그들에게 충분히 잘해 준 게 없다고 말할 순 없어. 나는 정신 건강이 이제 도넛 한 개만큼 남았을 때에도 열심히 일했거든.
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 다시 한 번 나를 시험해 보라, 감히 자.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서 그게 정말 내 경력 중 가장 가장 저점이었어. 개인정보 보호 때문에 많은 세부 사항을 생략했지만, 그 때 지금까지 가장 이용당한 느낌이 들었어.
 
@@ -73,7 +124,18 @@ isUpdated: true
 
 젊고 순진한 것은 정상이야, 나를 잘못 이해하지 마. 결국 순결은 청춘의 일부니까. 하지만 첫 번째 큰 실수는 프랑스로 이주 약속을 믿은 것이었어.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 말에 귀 기울여 줘. 내부 이동은 보통 일어나지 않아, 그리고 만약 그럴 경우 시민을 외국인보다 우선시할 거야.
 
@@ -83,7 +145,18 @@ isUpdated: true
 
 프랑스로 갈 수 없을 거라고 생각했고, 현재의 직장이 내가 원하는 위치(지리적인 측면뿐만 아니라 전문적인 면에서도)에 도달하도록 의지할 수 있는지를 믿었던 나의 순수함은 깨지고 말았다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그날 나는 성장했어.
 
@@ -93,7 +166,18 @@ isUpdated: true
 
 싱가포르는 매우 남성적이고 극도로 경쟁적이야. 나의 겸손은 동료 직원들과 소통할 때에는 좋게 받아들여지지만, 전문적으로는 나에게 크게 도움이 되지 않았어.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 거만하고 더 남성적인 동료들이 급여 인상과 혜택을 받는 것을 지켜봤는데, 저는 아무것도 받지 못했어요. 그런데 그건 참 힘들었죠.
 
@@ -103,7 +187,18 @@ isUpdated: true
 
 이게 저의 절대적으로 하지 않을 가장 큰 실수였어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전 직장의 사수는 MBTI와 심리학과 같은 것에 아주 열정적이고 직장에서 그런 것을 엄청나게 중요시했어요. 우리는 성격 유형을 알아보기 위한 테스트를 진행했고, 심리학자와 커리어 코치까지 있어서 우리의 장점을 활용하고 약점을 보완하면서 ‘인도’를 받았어요.
 
@@ -113,7 +208,18 @@ isUpdated: true
 
 전담된 커리어 경로에 내가 원하지도 않았고, 내 재정적 배경 때문에 불가능한 일을 하도록 강요당했죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그들은 날 떠날 수 없게 하기 위해 머리를 아득히 흐리게 한 거야. 내 경력을 어디로 나아갈지 확신하지 못하거나 전환 과정이 더 오랜 기간이 필요하고 더 무서운 길이라고 해도 그것을 '지원'해 준다면, 나는 더 오래 머물고 더 이용당할 것 같아.
 
@@ -123,7 +229,18 @@ isUpdated: true
 
 내가 모든 회사에서 짧은 재직 기간 동안 재계를 돌았기 때문에 많은 사람들은 나를 돈에 동기부여된 사람으로 생각한다. 많은 연구들이 전직하는 사람들이 전직하지 않는 사람들보다 연봉이 50% 더 높다고 강조하지만, 그 연구는 하찮다고 생각해.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 돈에 엄청난 동기부여를 받는다면, 실제로 시장이 보상을 재평가하고 더 높은 기본급을 제시할 때마다 2~3년마다 일교환을 할 것입니다. 이로 인해 고용 서류 심사를 위해 앉아서 참고 있어야 할 고용 신의 제시값이 찾아가는 공연이라고 생각한다면, 이를 다시 한 번 생각해 보세요.
 
@@ -131,7 +248,18 @@ isUpdated: true
 
 내가 인생에서 얻은 인상은 3번 뿐이지만, 12개의 직장을 옮겼습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 돈은 제 주요 동기가 아니며, 경험으로부터 보상을 받는 일은 매우 드물어요.
 
@@ -141,7 +269,18 @@ isUpdated: true
 
 하지만 새로운 것을 배우고 작업하는 걸 정말 즐기고 있어요. 디자이너로서, 더 많은 지식을 얻기 위해서 배움에 갈증을 가지는 것이 중요하다고 생각해요. 또한 제 의견으로는 디자인을 적용할 수 있는 새로운 방법을 찾는 것이 반복적인 일을 하는 것보다 더 중요하다고 생각해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 창의성은 새로운 것이거나 루네상스인 경우에만 발견됩니다.
 
@@ -151,7 +290,18 @@ isUpdated: true
 
 전문적인 관계와 개인적인 관계가 섞이는 것을 싫어합니다. 편리함이라는 주제에 너무 가까워져 있기 때문입니다. 관계가 편리하거나 편리하기 때문에 존재할 경우, 그것들은 약하며 주로 예의 바른 인사 외에는 거의 가치가 없습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 잡 홉핑과 감정적인 안락 지대를 떠나는 것은 네트워크를 깨끗하게 유지하는 데 도움이 됩니다. 왜냐하면 진정으로 관심 있는 사람만이 자주 연락을 취하게 될 테니까요.
 
@@ -161,7 +311,18 @@ isUpdated: true
 
 누군가는 제가 적절한 관계를 발전시키기에 충분한 시간을 주지 않는다고 말할 수도 있겠지만, 제가 그렇게 하는 데 시간이 없어요. 제가 좋아하는 만큼의 지원을 받아 친구가 되거나, 그렇지 않으면 친구가 아니거든요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 함께 일해본 전문가들을 더 많이 알고 있다는 것은 항상 장점입니다. 긍정적인 직업 윤리를 입증한 것만큼 책임감을 드러내는 것이 없습니다.
 
@@ -171,7 +332,18 @@ isUpdated: true
 
 그래서 어딘가를 그만둬야 했던 내 이야기를 하나만 공유했지만, 일반적으로 매번 찾는 주황색 깃발은 거의 똑같아요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 목록은 내가 용납할 수 없는 것들이에요. 당신에게는 다를 수 있어요.
 
@@ -181,7 +353,18 @@ isUpdated: true
 
 나는 이전에 디자인 성숙도가 전혀 없던 회사에서 일한 적이 많았는데, 그들은 디자이너의 제안을 스펀지처럼 흡수했어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일반적으로 이러한 회사들과의 협력은 쉽게 이뤄지는 편이에요. 왜냐하면 그들은 변화를 원하고, 자신이 전문가가 아니라는 사실을 겸손히 받아들이기 때문이죠.
 
@@ -191,7 +374,18 @@ isUpdated: true
 
 인정은 한 가지겠지만, 제가 주로 만족하는 것은 내 매니저나 상사가 제 일하는 관계를 망치지 않거나 제 기여를 과소평가하지 않는 것이에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일부 사람들에게 요청하는 것이 너무 많은 낮게 설정되었지만, 이러한 노골적인 암시에 대해 다루는 것은 정말 짜증납니다.
 
@@ -201,7 +395,18 @@ isUpdated: true
 
 ## 만약 일에 대해 계속 불평한다면
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당연한 이야기지만, 우리의 심리와 행동을 장기적으로 분석하면 일부 결정은 상당히 명백하게 보입니다. 제게는 친구들과 가족들과의 대화가 인생에 관한 흥미로운 주제에 대해 진행되었으면 좋겠어요.
 
@@ -211,7 +416,18 @@ isUpdated: true
 
 업무 문제를 해결하는 방법은 이미 당신이 알고 있어요. 그것이 작동하지 않았기 때문에 당신이 불평을 하는 거잖아요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러니까 계속 불평을 하고 삶을 지배한다면, 새 직장을 찾아보는 게 좋을 시기입니다.
 
@@ -221,7 +437,18 @@ isUpdated: true
 
 ## 회사들, 직무 변경과 조용한 퇴사 억제를 위해 역전하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 디자인이나 기술 직군 취업이 점점 어려워지고 있어요. 직원 채용 시 더 많은 절차가 필요하고, 퇴사를 꺼리거나 고용에 대한 부족한 감사를 격려하기 위해 회사들은 고용 계약을 제안하기 전에 면접의 최소 난이도를 계속 유지하려고 노력하고 있어요.
 
@@ -231,7 +458,18 @@ isUpdated: true
 
 사용자 경험(UX)은 항상 흥미로웠어요. 왜냐하면 사용자 경험을 향상시키는 것 외에도 인간 행동을 연구하고 특정 행동을 조절하기 위해 새로운 정책과 구조를 만드는 것이기 때문이에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 세상은 결코 정해져 있지 않으며, 위에 있는 힘들은 아래의 행동에 적응할 것입니다. 따라서 이 신성한 벌을 구걸하고 싶진 않지만, 오늘의 디자인 채용에 직면한 문제들에 대해 우리 중 많은 사람들이 책임이 있다는 것을 인정해야 합니다.
 
@@ -241,7 +479,18 @@ isUpdated: true
 
 우리는 더 좋았던 날을 회상하고 있습니다. TikTok과 소셜 미디어가 일상을 보여주는 비디오로 넘쳐났던 날들을, 기술 업무자와 엄청난 특권을 가진 사람들이 집에서 일하는 모습을 보여주면서 당신도 할 수 있다고 이야기했던 그 시절을요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스포일러 경고: 그것을 할 수 없어요.
 
@@ -251,7 +500,18 @@ isUpdated: true
 
 부트캠프 문화가 그것을 심각하게 망쳤다고 생각하고, 이것은 거대한 불의이자 전 세계적으로 모든 사회에 불이익을 주는 것이라고 생각해요. 음모론가적인 나는 이것이 범죄라고 말하지만, 소송을 피하기 위한 나는 장난이라고 말해요 (just kidding).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테크 산업이 다시 소수 만이 참가할 수 있는 경기장이 될 가능성이 높습니다. 포용성은 이제 뒷전이 되고, 전문가가 되는 현실은 특정 특권을 가진 사람들과 적절한 교육을 받은 사람들만이 깨달을 수 있을 것입니다.
 
@@ -261,7 +521,18 @@ isUpdated: true
 
 저는 밀레니얼 세대를 다음 "조용한 세대" 또는 다음 잊혀진 세대라고 부르는 것을 좋아합니다. 왜냐하면 정말 열심히 일하는데 대부분의 경우 정책 결정자들과 정부에 의해 대부분 무시되며, 우리는 우리가 받을만한 절대적인 가치의 일부만을 얻고, 매우 적은 지원을 받기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다수의 해고, 월급 동결, 매년 새 직장을 찾아야 하는 상황에서 우리가 대량 구매를 위한 은행 대출을 확보할 가능성은 상당히 낮습니다.
 
@@ -271,7 +542,18 @@ isUpdated: true
 
 우리는 존재하는 동안 새로운 사용자 행동양식을 형성하고 있습니다. 얼마나 흥미롭죠!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 전문적인 목적을 추구하다
 
@@ -281,7 +563,18 @@ isUpdated: true
 
 ## 직업으로서의 디자인
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 디자인으로 세상을 변화시킬 수 있을 것이라 생각하기 전에, 나는 정말로 디자인 기술을 일자리를 얻기 위해 사용할 생각만 했어요.
 
@@ -291,7 +584,18 @@ isUpdated: true
 
 그래픽 디자인은 여전히 오늘날 모든 디자이너들에게 핵심적인 필수 요소 중 하나라고 생각해요. 인쇄 디자인이 결국 웹 디자인으로 이어지고, 웹 디자인이 마케팅으로 전환되며, 결국 이 두 가지의 융합이 브랜딩과 사용자 경험(UX)의 탄생을 가져왔다고 생각해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어딘가에서 시작해야 한다면, 기본 사항부터 시작해야 해요. 높은 수준에서 시작하는 것은 말이 되지 않죠. 디자이너들이 경력에 조금 막힌 느낌을 가지고 있다면, 기본으로 돌아가는 것을 강력히 추천해요.
 
@@ -301,7 +605,18 @@ isUpdated: true
 
 돈을 위해서 무언가를 추구하기로 선택한다면, 당신의 결정 차트는 매우 단순한 것이 될 거예요. 돈이 있는 곳에서 자신을 이끌어가게 될 거니까요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 호기심을 추구하는 직업을 선택한다면, 여러분의 결정 차트는 연도가 흘러감에 따라 여러분의 관심사들을 반영한 다채로운 길이 될 것입니다.
 
@@ -311,7 +626,18 @@ isUpdated: true
 
 ## 목적으로 하는 디자인
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 디자인이 당신에게 목적을 할당하길 원하십니까, 아니면 디자인을 위해 목적이 있길 원하십니까?
 
@@ -321,7 +647,18 @@ isUpdated: true
 
 제 생각으로는 두 그룹 중 어느 쪽에 속하는지 선택할 수 있는 것은 아니지만, 이 부분에서 주장하고자 하는 것은 결국 디자인에 대한 당신의 목적이 처음부터 끝까지 결정되었다는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 목표가 있다면, 그를 추구할 것이다. 만약 열정이 있다면, 그가 사라지지 않도록 보장할 것이다. 그게 전부입니다.
 
@@ -331,7 +668,18 @@ isUpdated: true
 
 저의 이전 글에서 디자이너의 직업은 꽤 어두워 보이고 산업은 붕괴에 가까워 보입니다. 하지만 '그만두기'를 그만하기나 무엇을 완전히 떠나는 것으로 생각하지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나에겐 그냥 그 경험을 되돌아보고 다음으로 어떤 행동을 취할지 결정하는 것이죠. 여러 차례 언급했지만, 직업이나 경력을 중심으로 돌아가지 않아도 되는 삶의 다른 길이 있다는 걸 알아야 해요. 하지만 당신의 직업이 어떤 문을 여는지 결정하는 건 부정할 수 없죠.
 
@@ -341,7 +689,18 @@ isUpdated: true
 
 자신의 작은 세계에만 갇혀 있으면 무엇이 있는지 보지 못하게 되죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 방금 그 거품을 터트려 보세요. 새로운 것을 받아들이세요.
 

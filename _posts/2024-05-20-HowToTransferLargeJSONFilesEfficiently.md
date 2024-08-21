@@ -3,16 +3,13 @@ title: "대용량 JSON 파일을 효율적으로 전송하는 방법"
 description: ""
 coverImage: "/assets/img/2024-05-20-HowToTransferLargeJSONFilesEfficiently_0.png"
 date: 2024-05-20 21:43
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-20-HowToTransferLargeJSONFilesEfficiently_0.png
 tag: Tech
 originalTitle: "How To Transfer Large JSON Files Efficiently"
 link: "https://medium.com/gitconnected/how-to-transfer-large-json-files-efficiently-08c4b83ee058"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-05-20-HowToTransferLargeJSONFilesEfficiently_0.png" />
 
@@ -22,7 +19,18 @@ TextDecoder API는 이진 데이터 (일반적으로 ArrayBuffer 또는 TypedArr
 
 # TextDecoder API 사용 이유
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 애플리케이션에서 이진 데이터를 다룰 때, 이 데이터를 읽을 수 있는 문자열 형식으로 변환해야 하는 경우가 종종 있습니다. TextDecoder를 사용하면 이를 효율적이고 편리하게 할 수 있습니다.
 
@@ -34,7 +42,18 @@ TextDecoder API에는 다음과 같은 기능이 있습니다:
 
 # TextDecoder API 사용 방법
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로, TextDecoder API를 사용하는 네 가지 시나리오를 소개하겠습니다:
 
@@ -46,10 +65,10 @@ TextDecoder API에는 다음과 같은 기능이 있습니다:
 
 ```js
 // 다른 인코딩으로 TextDecoder 인스턴스 생성
-const utf16Decoder = new TextDecoder('utf-16');
-const iso88591Decoder = new TextDecoder('iso-8859-1');
+const utf16Decoder = new TextDecoder("utf-16");
+const iso88591Decoder = new TextDecoder("iso-8859-1");
 
-const utf16Array = new Uint16Array([0x0048, 0x0065, 0x006C, 0x006C, 0x006F]);
+const utf16Array = new Uint16Array([0x0048, 0x0065, 0x006c, 0x006c, 0x006f]);
 const iso88591Array = new Uint8Array([72, 101, 108, 108, 111]);
 
 // 문자열로 디코딩
@@ -60,7 +79,18 @@ console.log(utf16String); // 출력："Hello"
 console.log(iso88591String); // 출력："Hello"
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2. 스트리밍 JSON 데이터 디코딩
 
@@ -70,7 +100,18 @@ console.log(iso88591String); // 출력："Hello"
 
 위의 예제에서는 Node.js의 http 모듈을 사용하여 로컬 SSE (서버 전송 이벤트) 서버를 빠르게 구축합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 server.js
 
@@ -86,8 +127,7 @@ const server = http.createServer((req, res) => {
       "Cache-Control": "no-cache",
       Connection: "keep-alive",
       "Access-Control-Allow-Origin": "*",
-      "Access-Control-Allow-Headers":
-        "Origin, X-Requested-With, Content-Type, Accept",
+      "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept",
     });
 
     let id = 1;
@@ -127,7 +167,18 @@ sse 핸들러에서는 Content-Type 응답 헤더의 유형을 "text/event-strea
 
 index.html
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <!DOCTYPE html>
@@ -192,8 +243,18 @@ document.addEventListener("DOMContentLoaded", () => {
 
 SSE 이벤트 스트림은 간단한 텍스트 데이터 스트림이며 해당 텍스트는 UTF-8 형식을 사용하여 인코딩됩니다. 따라서 textDecoder 객체를 생성할 때 인코딩을 utf-8로 설정해야 합니다. 텍스트Decoder 객체가 준비되면 해당 객체가 제공하는 decode 메소드를 호출하여 디코딩할 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 3. 대용량 JSON 파일에서 데이터 청크 디코딩하기
 
@@ -203,8 +264,18 @@ SSE 이벤트 스트림은 간단한 텍스트 데이터 스트림이며 해당 
 
 위 그림에서 JSON 데이터 출력은 다음 large.json 파일에서 나온 것입니다. 우리는 파일을 0.5KB씩 잘라서 500ms마다 다음 청크를 보내는 방식으로 처리합니다. @streamparser/json 라이브러리를 사용하여 JSON 청크를 파싱할 수 있는 기능을 구현했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 large.json
 
@@ -252,8 +323,7 @@ const server = http.createServer((req, res) => {
       "Cache-Control": "no-cache",
       Connection: "keep-alive",
       "Access-Control-Allow-Origin": "*",
-      "Access-Control-Allow-Headers":
-        "Origin, X-Requested-With, Content-Type, Accept",
+      "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept",
     });
 
     const CHUNK_SIZE = 512;
@@ -282,10 +352,20 @@ const server = http.createServer((req, res) => {
 server.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
 });
-``` 
+```
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 stream.html
 

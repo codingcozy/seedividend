@@ -3,17 +3,13 @@ title: "알아두면 빨리 퇴근하는 JavaScript 트릭 10가지"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "10 JavaScript Tricks You Didnt Know"
 link: "https://medium.com/@khushi1399gupta/10-javascript-tricks-you-didnt-know-cb23d4bd23e6"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/10JavaScriptTricksYouDidntKnow_0.png" />
 
@@ -25,7 +21,18 @@ isUpdated: true
 const { prop1: newName1, prop2: newName2 } = object;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서는 prop1과 prop2를 newName1과 newName2로 이름을 변경하고 있습니다.
 
@@ -45,7 +52,18 @@ const memoizedFunction = (function () {
 })();
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결과를 캐싱함으로써 중복된 계산을 피할 수 있어요.
 
@@ -55,12 +73,21 @@ const memoizedFunction = (function () {
 
 ```js
 const curry = (fn, ...args) =>
-  args.length >= fn.length
-    ? fn(...args)
-    : (...moreArgs) => curry(fn, ...args, ...moreArgs);
+  args.length >= fn.length ? fn(...args) : (...moreArgs) => curry(fn, ...args, ...moreArgs);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이를 사용하면 부분적으로 적용된 함수를 쉽게 만들 수 있어요.
 
@@ -104,7 +131,18 @@ const throttle = (func, interval) => {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 기술들은 성능을 향상시키며 과도한 함수 호출을 방지합니다.
 
@@ -117,7 +155,18 @@ const dynamicKey = "key";
 const obj = { [dynamicKey]: "value" };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 런타임에 키가 결정될 때 유용합니다.
 
@@ -138,7 +187,18 @@ if (object && object.property && object.property.nested) {
 let nestedValue = object?.property?.nested ?? "default";
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이렇게 하면 "cannot read property 'nested' of undefined" 오류를 방지하고 코드를 더 간결하게 만들 수 있어요.
 
@@ -156,7 +216,18 @@ function add(a, b) {
 const add = (a, b) => a + b;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 화살표 함수는 짧고 익명의 함수에 특히 유용합니다.
 
@@ -174,7 +245,18 @@ const second = array[1];
 const [first, second] = [1, 2, 3];
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이를 통해 배열 요소와 작업하기가 더 쉬워집니다.
 
@@ -192,7 +274,18 @@ const age = user.age;
 const { name, age } = { name: "John", age: 30 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 객체를 해체하여 간결하게 값을 추출하세요.
 
@@ -214,6 +307,17 @@ const validator = new Proxy(
 );
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프록시는 속성 할당을 가로챌 수 있고 검증할 수 있어 강력한 입력 제어를 제공합니다.

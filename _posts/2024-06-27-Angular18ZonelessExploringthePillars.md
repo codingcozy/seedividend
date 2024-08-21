@@ -3,17 +3,13 @@ title: "Angular 18 Zoneless 2024년 핵심 기능 탐구"
 description: ""
 coverImage: "/assets/img/2024-06-27-Angular18ZonelessExploringthePillars_0.png"
 date: 2024-06-27 18:23
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-27-Angular18ZonelessExploringthePillars_0.png
 tag: Tech
 originalTitle: "Angular 18 Zoneless: Exploring the Pillars"
 link: "https://medium.com/gitconnected/angular-18-zoneless-0c8b1e9aa4bc"
 isUpdated: true
 ---
-
-
-
-
 
 ![Image](/assets/img/2024-06-27-Angular18ZonelessExploringthePillars_0.png)
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 네, 맞습니다. Angular의 존리스 설정에서 Angular 스케줄러는 컴포넌트 내에서 무언가 변경되었을 때 변경 감지를 자동으로 트리거하지 않습니다. 대신 Angular의 ChangeDetectorRef 서비스를 사용하여 변경 감지를 수동으로 트리거해야 합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 간단한 설명이 있어요:
 
@@ -34,7 +40,18 @@ Zone.js를 사용하는 기존 Angular 애플리케이션에서는 Angular이 �
 
 우선, Angular 18의 zoneless API를 확인하는 설정을 해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 설치.
 
@@ -49,18 +66,33 @@ ng new zoneless-app
 cd zoneless-app
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. app.config.ts 파일이나 애플리케이션 부트스트랩 파일로 이동하세요.
 
 ```js
-import { ApplicationConfig, provideExperimentalZonelessChangeDetection, provideZoneChangeDetection } from '@angular/core';
-import { provideRouter } from '@angular/router';
+import {
+  ApplicationConfig,
+  provideExperimentalZonelessChangeDetection,
+  provideZoneChangeDetection,
+} from "@angular/core";
+import { provideRouter } from "@angular/router";
 
-import { routes } from './app.routes';
+import { routes } from "./app.routes";
 
 export const appConfig: ApplicationConfig = {
-  providers: [provideExperimentalZonelessChangeDetection(), provideRouter(routes)]
+  providers: [provideExperimentalZonelessChangeDetection(), provideRouter(routes)],
 };
 ```
 
@@ -68,7 +100,18 @@ export const appConfig: ApplicationConfig = {
 
 <img src="/assets/img/2024-06-27-Angular18ZonelessExploringthePillars_1.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 모든 설정이 완료되었으니 애플리케이션을 실행하면 됩니다.
 
@@ -78,7 +121,18 @@ export const appConfig: ApplicationConfig = {
 
 불필요한 변경 감지를 피하기 위해서 간단하게 제안드립니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 컴포넌트의 비동기 작업이 발생할 때 Angular는 루트부터 모든 하위 컴포넌트를 확인하는데, 이는 비효율적일 수 있습니다.
 
@@ -91,21 +145,32 @@ export const appConfig: ApplicationConfig = {
 - 비동기 파이프.
 - 시그널.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 이벤트 핸들러 :
 
 앵귤러의 이벤트 핸들러는 템플릿의 이벤트에 바인딩된 컴포넌트 클래스 내의 메서드입니다.
 
 ```js
-import { Component } from '@angular/core';
+import { Component } from "@angular/core";
 
 @Component({
-  selector: 'app-root',
-  template: '<button (click)="onClick()">{state}</button>'
+  selector: "app-root",
+  template: '<button (click)="onClick()">{state}</button>',
 })
 export class AppComponent {
- state = "Click Me";
+  state = "Click Me";
   onClick() {
     this.state = "Clicked";
   }
@@ -114,7 +179,18 @@ export class AppComponent {
 
 ## MarkForChanges 관리하기:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앵귤러에서, markForCheck은 앵귤러의 기본 변경 감지가 변경 사항을 감지하지 못하는 시나리오에서 사용됩니다. 이는 OnPush 변경 감지 전략 및 지금은 zoneless에서 일반적입니다.
 
@@ -144,32 +220,40 @@ export class AppComponent {
 
 앵귤러의 AsyncPipe는 Observable 또는 Promise에 자동으로 구독하고 최신 값을 반환합니다. 또한 컴포넌트가 파괴될 때 자동으로 구독을 해제합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-import { CommonModule } from '@angular/common';
-import { ChangeDetectionStrategy, ChangeDetectorRef, Component, inject } from '@angular/core';
-import { bootstrapApplication } from '@angular/platform-browser';
-import { Observable, of } from 'rxjs';
-import 'zone.js';
+import { CommonModule } from "@angular/common";
+import { ChangeDetectionStrategy, ChangeDetectorRef, Component, inject } from "@angular/core";
+import { bootstrapApplication } from "@angular/platform-browser";
+import { Observable, of } from "rxjs";
+import "zone.js";
 @Component({
-  selector: 'app-root',
+  selector: "app-root",
   standalone: true,
-  template: `
-     Hello world
-     {data$ | async }
-  `,
+  template: ` Hello world {data$ | async } `,
   changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [CommonModule],
 })
 export class App {
-  name = 'Angular';
+  name = "Angular";
   data$: Observable<string> | undefined;
   cRef = inject(ChangeDetectorRef);
 
   constructor() {
     setTimeout(() => {
-      this.data$ = of('Hello, AsyncPipe!');
+      this.data$ = of("Hello, AsyncPipe!");
       this.cRef.markForCheck();
     }, 4000);
   }
@@ -183,11 +267,11 @@ bootstrapApplication(App);
 Angular에 Signals가 포함되어 정말 기쁩니다. 이전에는 불필요한 다시 렌더링 오버헤드를 극복하기 위해 신호를 사용해야 했습니다. 또한 이제 더 선언적 프로그래밍 스타일로 코드를 작성할 수 있고, 대부분의 주요 API는 Signals과 호환됩니다. 이것은 반응성을 위해 더 이상 RxJS에 의존하지 않아도 된다는 것을 의미합니다.
 
 ```js
-import { Component } from '@angular/core';
-import { Signal, createSignal } from '@angular/core/signals';
+import { Component } from "@angular/core";
+import { Signal, createSignal } from "@angular/core/signals";
 
 @Component({
-  selector: 'app-counter',
+  selector: "app-counter",
   standalone: true,
   template: `
     <div class="counter">
@@ -196,17 +280,19 @@ import { Signal, createSignal } from '@angular/core/signals';
       <button (click)="increment()">+</button>
     </div>
   `,
-  styles: [`
-    .counter {
-      text-align: center;
-      margin-top: 50px;
-    }
-    button {
-      margin: 0 5px;
-      padding: 10px;
-      font-size: 16px;
-    }
-  `]
+  styles: [
+    `
+      .counter {
+        text-align: center;
+        margin-top: 50px;
+      }
+      button {
+        margin: 0 5px;
+        padding: 10px;
+        font-size: 16px;
+      }
+    `,
+  ],
 })
 export class CounterComponent {
   // Count 상태를 관리하기 위한 Signal 생성
@@ -224,7 +310,18 @@ export class CounterComponent {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "markForCheck" 또는 수동 변경 감지가 필요하지 않습니다.
 
@@ -234,7 +331,18 @@ export class CounterComponent {
 
 SSR은 Angular의 마지막 기둥입니다. 다음 포스트에서 계속합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 결론:
 

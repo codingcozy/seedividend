@@ -3,17 +3,13 @@ title: "프로젝트에 Nextjs 14를 더이상 사용하면 안되는 이유"
 description: ""
 coverImage: "/assets/img/2024-05-27-StopUsingNextjs14_0.png"
 date: 2024-05-27 18:42
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-StopUsingNextjs14_0.png
 tag: Tech
 originalTitle: "Stop Using Next.js 14"
 link: "https://medium.com/gitconnected/stop-using-next-js-14-538f35404ea4"
 isUpdated: true
 ---
-
-
-
-
 
 ![Next.js](/assets/img/2024-05-27-StopUsingNextjs14_0.png)
 
@@ -23,8 +19,18 @@ Next.js는 여전히 가장 훌륭한 풀스택 프레임워크 중 하나로 �
 
 왜냐하면 Next.js 15 릴리스 후보 (RC) 버전이 출시되었기 때문입니다!
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Next.js 15 RC에는 많은 흥미로운 새로운 기능이 약속되어 있어요. 오늘은 그 중 4가지를 살펴볼 거에요!
 
@@ -34,7 +40,18 @@ Next.js 15 RC에는 많은 흥미로운 새로운 기능이 약속되어 있어�
 
 부분 사전 렌더링 (PPR)은 Next.js 14에서 소개된 특별한 기능으로, 정적 및 동적 페이지 콘텐츠가 완벽하게 공존할 수 있도록 해줘요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 PPR 작동 방식에 대해 더 알고 싶다면, 이 문서를 자유롭게 확인해 보세요.
 
@@ -48,7 +65,7 @@ import { StaticComponent, DynamicComponent } from "@/app/ui"
 
 // 이 페이지만 PPR로 선택
 export const experimental_ppr = true
- 
+
 export default function Page() {
   return {
      <>
@@ -61,14 +78,25 @@ export default function Page() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로 next.config.js 파일에서 experimental.ppr 구성을 'incremental'로 설정하세요:
 
 ```js
 const nextConfig = {
   experimental: {
-    ppr: 'incremental',
+    ppr: "incremental",
   },
 };
 
@@ -79,7 +107,18 @@ module.exports = nextConfig;
 
 next/after은 응답 스트리밍이 종료된 후 작업을 예약할 수 있는 새로운 API입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다시 말해, 서버리스 함수가 계산을 마치면, 이제 새로운 after() 함수 내에서 추가 코드를 실행할 수 있습니다.
 
@@ -89,30 +128,52 @@ next/after은 응답 스트리밍이 종료된 후 작업을 예약할 수 있�
 
 지금 next/after를 사용하려면, next.config.js 파일에 다음과 같이 experimental.after 설정을 추가할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 Next.js 서버 액션 내에서 `after()` 함수를 사용하는 예시입니다:
 
 ```js
-"use server"
+"use server";
 
 function next_after() {
   // 여러분의 함수 로직...
-  const something = true
+  const something = true;
 
   // 보조 작업 - 데이터가 반환된 후에 데이터를 로깅합니다.
   after(() => {
-    console.log(something)
-  })
+    console.log(something);
+  });
 
   // 주요 작업 - 데이터를 반환합니다.
-  return something
+  return something;
 }
 ```
 
 # 3. 캐싱
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 The Next.js 팀이 우리의 의견을 들어주었어요!
 
@@ -124,7 +185,18 @@ The Next.js 팀이 우리의 의견을 들어주었어요!
 
 이 변화는 기다리고 있던 변화였고, Next.js 15가 이를 마침내 구현했어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 4. 리액트 19 지원
 
@@ -134,7 +206,18 @@ The Next.js 팀이 우리의 의견을 들어주었어요!
 
 더 알아보기 위해 여기에서 리액트 컨퍼런스 키노트를 시청할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -144,7 +227,18 @@ Next.js 15는 무수히 많은 흥미로운 변화를 가져왔으며, 오늘 �
 
 # 제휴사
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 올인원 SaaS 프로젝트 템플릿
 - Figma 홈: 제가 모든 프로젝트에서 사용하는 UI 디자인 도구입니다.

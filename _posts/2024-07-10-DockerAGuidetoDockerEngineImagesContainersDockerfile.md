@@ -3,16 +3,13 @@ title: "Docker Docker Engine, 이미지, 컨테이너, Dockerfile 가이드"
 description: ""
 coverImage: "/assets/img/2024-07-10-DockerAGuidetoDockerEngineImagesContainersDockerfile_0.png"
 date: 2024-07-10 02:07
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-10-DockerAGuidetoDockerEngineImagesContainersDockerfile_0.png
 tag: Tech
 originalTitle: "Docker: A Guide to Docker Engine, Images, Containers , Dockerfile"
 link: "https://medium.com/@s-zainrashid98/docker-a-guide-to-docker-engine-images-containers-dockerfile-366a5c074e18"
 isUpdated: true
 ---
-
-
-
 
 # 소개
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 도커는 응용 프로그램의 배포, 확장 및 관리를 자동화하기 위해 설계된 오픈 소스 플랫폼입니다. 컨테이너화를 통해 도커는 응용 프로그램이 다른 컴퓨팅 환경에서도 일관되게 실행될 수 있도록 합니다. 이는 응용 프로그램이 개발자의 랩톱, 테스트 환경 또는 제품 환경에서 실행 중이든 간에 동일하게 작동한다는 것을 의미합니다. 도커가 컨테이너를 간단하게 만들었다고 말해도 과언이 아닙니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 도커 엔진
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 # 도커 이미지
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도커 이미지는 도커 컨테이너의 청사진이에요. 컨테이너 이미지는 소프트웨어를 실행하는 데 필요한 모든 것을 포함하는 가벼운, 독립적인 실행 가능한 소프트웨어 패키지에요: 코드, 런타임, 라이브러리, 환경 변수 및 구성 파일을 포함하고 있어요. 이미지가 도커 엔진에서 실행할 때 컨테이너로 변환돼요. 이미지는 여러 개의 층으로 구성되어 하나의 개체로 표현돼요.
 
@@ -42,7 +61,18 @@ isUpdated: true
 
 이미지 내부에는 애플리케이션을 실행하는 데 필요한 운영 체제(OS)와 모든 파일 및 종속성이 포함돼 있어요. 이렇게하면 각 층은 컨테이너화된 애플리케이션을 실행하는 데 필요한 다른 요소를 포함하고 있어요. 컨테이너는 이미지 위에 구축되며 그래서 이미지를 때로는 중단된 컨테이너라고도 부르기도 해요. 이미지는 종종 실제 중단된 컨테이너에서 생성돼요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-07-10-DockerAGuidetoDockerEngineImagesContainersDockerfile_2.png)
 
@@ -52,7 +82,18 @@ isUpdated: true
 
 Docker 컨테이너는 Docker 이미지의 실행 가능한 인스턴스입니다. 이는 코드 및 그에 필요한 모든 종속성을 포장하여 응용 프로그램이 한 컴퓨팅 환경에서 다른 환경으로 빠르고 신뢰성 있게 실행되도록 하는 표준화된 소프트웨어 단위입니다. VM과 컨테이너의 큰 차이점은 컨테이너가 빠르고 가볍다는 것입니다. 컨테이너는 서로와 호스트 시스템으로부터 격리되어 일관된 런타임 환경을 보장합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-10-DockerAGuidetoDockerEngineImagesContainersDockerfile_3.png)
 
@@ -63,7 +104,18 @@ Docker 컨테이너는 Docker 이미지의 실행 가능한 인스턴스입니�
 - 응용 프로그램 설명
 - Docker에게 응용 프로그램을 컨테이너화하는 방법을 알려줍니다 (응용 프로그램이 내장된 이미지를 생성합니다)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 Node.js 애플리케이션을 사용하는 기본 예제입니다:
 
@@ -86,6 +138,17 @@ CMD ["node", "app.js"]
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도커는 소프트웨어를 포터블 컨테이너로 패키징하여 응용 프로그램 개발과 배포를 간편하게 만듭니다. 이것은 프로세스를 간소화하고 환경 간 일관성을 보장하며 효율성을 높이는 데 도움이 됩니다. 도커가 발전함에 따라 소프트웨어 관리를 현대화하고 개발 주기를 가속화하는 데 기여할 수 있어서 개발자와 기업 모두에게 귀중한 도구로 자리 잡고 있습니다.

@@ -3,17 +3,13 @@ title: "접근성이 디디오시크릿 리디자인으로 이끈 과정"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How Accessibility Led the DDoSecrets Redesign"
 link: "https://medium.com/@glenn.sorrentino/how-accessibility-led-the-ddosecrets-redesign-28077174987f"
 isUpdated: true
 ---
-
-
-
-
 
 분산 거부 비밀은 언론인, 활동가 및 기술자로 구성된 비영리 501(c)(3) 단체입니다. 이들은 공익에 맞는 데이터를 발표합니다.
 
@@ -23,7 +19,18 @@ DDoSecrets는 미디어위키를 사용하여 사이트를 운영합니다. 이 
 
 미디어위키에는 작성, 버전 기록, 검색 등 많은 기능이 내장되어 있습니다. 또한 필요에 따라 사용할 수 있는 다양한 템플릿이 함께 제공됩니다. DDoSecrets는 위키피디아가 사용하는 것과 동일한 템플릿을 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![How Accessibility Led the DDoSecrets Redesign 1](/assets/img/HowAccessibilityLedtheDDoSecretsRedesign_1.png)
 
@@ -33,7 +40,18 @@ DDoSecrets는 미디어위키를 사용하여 사이트를 운영합니다. 이 
 
 ![How Accessibility Led the DDoSecrets Redesign 2](/assets/img/HowAccessibilityLedtheDDoSecretsRedesign_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 접근성 + 타이포그래피
 
@@ -43,7 +61,18 @@ DDoSecrets는 미디어위키를 사용하여 사이트를 운영합니다. 이 
 
 ![이미지](/assets/img/HowAccessibilityLedtheDDoSecretsRedesign_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 제목
 
@@ -53,7 +82,18 @@ DDoSecrets는 미디어위키를 사용하여 사이트를 운영합니다. 이 
 
 ## 글꼴 설정
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 커스텀 폰트는 제품의 시각적 디자인에 많은 것을 더할 수 있어요. Merriweather 글꼴을 선택한 이유는 균일한 무게, 안정된 삐침, 그리고 많은 라틴어와 키릴 문자에 대한 번역 때문이에요. 게다가 이 글꼴은 약간 압축되어 있어서 “편집 디자인, 뉴스, 그리고 기타 종류의 공간 민감한 타이포그래피”에 좋은 선택이에요.
 
@@ -63,7 +103,18 @@ WebAIM이 가장 잘 말했어요: “링크는 링크처럼 보여야 하고, �
 
 ![이미지](/assets/img/HowAccessibilityLedtheDDoSecretsRedesign_5.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 색 대비
 
@@ -73,7 +124,18 @@ WebAIM이 가장 잘 말했어요: “링크는 링크처럼 보여야 하고, �
 
 # 시각적 디자인
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 니클슨 노만 그룹의 인터페이스 휴리스틱에서 나온 원칙들이 미니멀한 인터페이스를 선택하는 데 영향을 미쳤어요. 페이지의 주요 콘텐츠와 경쟁하는 모든 것에 질문을 던졌죠. 사진, 배너, 패널 등 실제 세계 개체를 나타내는 요소를 그림자 같은 심미적인 특징을 사용해 구현하고 있어요.
 
@@ -83,7 +145,18 @@ WebAIM이 가장 잘 말했어요: “링크는 링크처럼 보여야 하고, �
 
 ![이미지](/assets/img/HowAccessibilityLedtheDDoSecretsRedesign_7.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 벡터 2022
 
@@ -93,7 +166,18 @@ WebAIM이 가장 잘 말했어요: “링크는 링크처럼 보여야 하고, �
 
 # 특별한 경우
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 마주한 유일한 특수 사례는 `meta` 태그가 누락된 경우였습니다. 특히 다음과 같았습니다:
 
@@ -105,7 +189,18 @@ WebAIM이 가장 잘 말했어요: “링크는 링크처럼 보여야 하고, �
 
 ![How Accessibility Led the DDoSecrets Redesign](/assets/img/HowAccessibilityLedtheDDoSecretsRedesign_9.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -115,6 +210,17 @@ WebAIM이 가장 잘 말했어요: “링크는 링크처럼 보여야 하고, �
 
 우리는 언제나 DDoSecrets 경험이 개선될 수 있는 방법에 대해 커뮤니티로부터 피드백을 기다리고 있어요. 사용자 조사에 참여하고 싶다면 이 양식을 작성해 주세요. 곧 연락 드릴게요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 읽어 주셔서 감사합니다! 궁금한 점이 있으시면 트위터에서 연락해요!

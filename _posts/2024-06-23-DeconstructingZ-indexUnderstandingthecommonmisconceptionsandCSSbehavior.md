@@ -3,16 +3,13 @@ title: "Z-index 완벽 이해하기 - 흔한 오해와 CSS 작동 원리 분석"
 description: ""
 coverImage: "/assets/img/2024-06-23-DeconstructingZ-indexUnderstandingthecommonmisconceptionsandCSSbehavior_0.png"
 date: 2024-06-23 14:16
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-DeconstructingZ-indexUnderstandingthecommonmisconceptionsandCSSbehavior_0.png
 tag: Tech
 originalTitle: "Deconstructing Z-index — Understanding the common misconceptions and CSS behavior."
 link: "https://medium.com/themoondevs/deconstructing-z-index-understanding-the-common-misconceptions-and-css-behavior-90cad9f98d24"
 isUpdated: true
 ---
-
-
-
 
 UI 버그는 최고의 개발자들조차 괴롭히는 법이죠. 왜냐하면 백엔드 문제와는 달리, UI 문제를 디버깅하는 것은 코드 수정을 넘어 사용자가 보고 상호 작용하는 것이 완벽한지 확인하는 것이 중요하기 때문입니다. 화면 크기, 브라우저 버전 또는 심지어 사용자의 기기 등과 같은 요소에 영향을 받는 UI 버그는 사용자를 좌절시키고 브랜드 인식을 훼손시키며 전환을 방해할 수 있습니다. 심지어 보이는 것 같이 간단한 스타일링 문제조차 심각한 문제로 커질 수 있습니다.
 
@@ -22,7 +19,18 @@ UI 버그는 최고의 개발자들조차 괴롭히는 법이죠. 왜냐하면 �
 
 ## Z-Index 속성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 내용을 여러 번 읽으시는 것을 권장합니다. 정의 자체가 모든 것을 설명해 주지만, 코드를 작성할 때 종종 세부 사항을 놓치곤 합니다.
 
@@ -32,7 +40,18 @@ UI 버그는 최고의 개발자들조차 괴롭히는 법이죠. 왜냐하면 �
 
 ## 위치 지정된 요소:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 z-index가 작동하려면 요소의 position 속성을 기본 값(static)이 아닌 다른 값으로 설정해야 합니다. 요소는 relative, absolute, fixed 또는 sticky 위치여야 합니다.
 
@@ -42,7 +61,18 @@ z-index가 작동하려면 요소의 position 속성을 기본 값(static)이 �
 
 이것은 화면에 수직인 z축을 따라 요소의 순서를 의미합니다. 이는 서로 위에 쌓인 종이 층으로 생각할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-23-DeconstructingZ-indexUnderstandingthecommonmisconceptionsandCSSbehavior_1.png" />
 
@@ -52,7 +82,18 @@ z-index는 위치가 지정된 요소 내의 모든 자식 요소에도 영향�
 
 <img src="/assets/img/2024-06-23-DeconstructingZ-indexUnderstandingthecommonmisconceptionsandCSSbehavior_2.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 정적 위치 지정에서 — 'Z-Index는 무시됩니다'
 
@@ -62,7 +103,18 @@ z-index는 위치가 지정된 요소 내의 모든 자식 요소에도 영향�
 
 ![이미지](/assets/img/2024-06-23-DeconstructingZ-indexUnderstandingthecommonmisconceptionsandCSSbehavior_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 정적(static) 이외의 위치 지정 - 'Z-index가 예상대로 작동합니다.'
 
@@ -72,7 +124,18 @@ z-index는 위치가 지정된 요소 내의 모든 자식 요소에도 영향�
 
 ## 플렉스(flex) 또는 그리드(grid) 레이아웃 컨테이너
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 플랙스 또는 그리드 컨테이너에서 요소의 쌓임 순서는 z-index, 항목 순서 및 정렬을 결합한 요소로 결정됩니다. 요소들이 정적으로 배치되어 있더라도 z-index 속성은 컨테이너 내에서의 쌓임 순서에 영향을 줍니다.
 
@@ -82,7 +145,18 @@ z-index는 위치가 지정된 요소 내의 모든 자식 요소에도 영향�
 
 # 스택 컨텍스트란 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS의 쌓이는 컨텍스트는 웹페이지의 요소들을 위한 레이어 시스템입니다. 이는 요소들이 서로 어떻게 겹치는지를 결정합니다.
 
@@ -92,7 +166,18 @@ CSS의 쌓이는 컨텍스트는 웹페이지의 요소들을 위한 레이어 �
 
 ![image](/assets/img/2024-06-23-DeconstructingZ-indexUnderstandingthecommonmisconceptionsandCSSbehavior_6.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 새로운 쌓임 맥락은 무엇을 만들까요?
 
@@ -104,7 +189,18 @@ CSS의 쌓이는 컨텍스트는 웹페이지의 요소들을 위한 레이어 �
 
 # 예상치 못한 숨겨진 UI 요소: 쌓임 맥락에 대한 오해에서 발생하는 흔한 문제
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 예제를 고려해 보세요:
 
@@ -119,7 +215,18 @@ CSS의 쌓이는 컨텍스트는 웹페이지의 요소들을 위한 레이어 �
 
 <img src="/assets/img/2024-06-23-DeconstructingZ-indexUnderstandingthecommonmisconceptionsandCSSbehavior_7.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기가 이유입니다: position: relative와 함께 z-index: -1을 추가하면 원에 대한 새로운 쌓임 맥락이 생성됩니다. 이 새로운 쌓임 맥락은 기본 루트 쌓임 맥락(전체 페이지)의 일부입니다.
 
@@ -129,7 +236,18 @@ CSS의 쌓이는 컨텍스트는 웹페이지의 요소들을 위한 레이어 �
 
 ![이미지](/assets/img/2024-06-23-DeconstructingZ-indexUnderstandingthecommonmisconceptionsandCSSbehavior_8.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금 원의 부모 쌓임 문맥은 z-index가 1인 직사각형 배경이며, 따라서 원의 z-index는 직사각형 배경 쌓임 문맥을 기준으로 계산됩니다. 즉, 1+(-1) = 0이 됩니다.
 
@@ -139,7 +257,18 @@ CSS의 쌓이는 컨텍스트는 웹페이지의 요소들을 위한 레이어 �
 
 <img src="/assets/img/2024-06-23-DeconstructingZ-indexUnderstandingthecommonmisconceptionsandCSSbehavior_9.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 동그라미의 불투명도를 1보다 작게 설정하거나 변형 속성을 사용하여 설정할 수 있습니다. 이전에 논의했던 대로 이는 새로운 콘텍스트를 생성하게 됩니다. 이것으로 원이 삼각형 위에 올라가게 됩니다.
 
@@ -149,7 +278,18 @@ CSS의 쌓이는 컨텍스트는 웹페이지의 요소들을 위한 레이어 �
 
 모양이라는 div가 자체 스택 컨텍스트를 가지고 있다고 가정해 봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 삼각형이 지금은 사각형과 원 위에 있어요.
 
@@ -160,7 +300,18 @@ CSS의 쌓이는 컨텍스트는 웹페이지의 요소들을 위한 레이어 �
 
 이미지의 두 번째 예시에서는 원의 z-index가 사각형보다 높은 값을 가지고 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 삼각형이 원 앞에 나타나길 원한다면, 삼각형에 높은 z-index를 설정하는 것만으로는 동작하지 않습니다. 어떤 값이든 상관없이 삼각형의 z-index는 그 쌓임 맥락(다각형) 내에서만 적용되기 때문입니다.
 
@@ -170,7 +321,18 @@ z-index에 대해 까다로운 점은 요소의 쌓임 맥락 내에서만 작�
 
 이제 삼각형과 원은 동일한 쌓임 맥락을 공유하게 되어, 높은 z-index로 삼각형이 원 앞에 나타나도록 할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 주요 학습 내용:
 
@@ -184,7 +346,18 @@ z-index에 대해 까다로운 점은 요소의 쌓임 맥락 내에서만 작�
 
 CSS는 복잡할 수 있으며 z-index와 같은 속성의 세부 사항을 이해하지 못하면 중대한 디버깅 노력을 초래할 수 있습니다. 요소들의 층을 올바르게 제어하는 방법을 알고 있다면 일반적인 함정을 피하고 시간을 절약하며 웹사이트에서 사용자 경험을 향상시킬 수 있습니다. 이러한 원칙을 구현하여 요소가 정확히 표시되고 의도한 대로 쌓이며 매끄럽고 매력적인 시각적 프레젠테이션에 기여하도록 할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 참고 자료:
 
@@ -196,6 +369,17 @@ CSS는 복잡할 수 있으며 z-index와 같은 속성의 세부 사항을 이�
 
 Kshitij은 React, Next.js 및 TypeScript에 튼튼한 기반을 갖춘 프론트엔드 개발자입니다. 그는 React와 WebGL의 힘을 활용하여 사용자 경험과 비즈니스 목표를 일치시키는 몰입형 웹 경험을 개발하는 전문가입니다. 대화형 3D 랜딩 페이지부터 복잡한 암호 웹 앱까지 다양한 20개 이상의 프로젝트에 참여했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더문데브 블로그 편집팀은 이 기사에서 제시된 코드 샘플 및 기술적 콘텐츠를 검토해 주신 수바카르 티키레디에게 감사의 마음을 전합니다.

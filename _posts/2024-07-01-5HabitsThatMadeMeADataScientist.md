@@ -3,7 +3,7 @@ title: "데이터 과학자가 되기 위해 필요했던 5가지 습관"
 description: ""
 coverImage: "/assets/img/2024-07-01-5HabitsThatMadeMeADataScientist_0.png"
 date: 2024-07-01 16:56
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-01-5HabitsThatMadeMeADataScientist_0.png
 tag: Tech
 originalTitle: "5 Habits That Made Me A Data Scientist"
@@ -11,17 +11,24 @@ link: "https://medium.com/towards-data-science/5-habits-that-made-me-a-data-scie
 isUpdated: true
 ---
 
-
-
-
 <img src="/assets/img/2024-07-01-5HabitsThatMadeMeADataScientist_0.png" />
 
 데이터 과학자가 되는 것은 쉬운 일이 아니지만, 몇 가지 중요한 습관들이 제게 도움이 되었습니다. 오늘 여러분과 공유할 것이며, 아마도 여러분도 여러분의 여정에서 습득할 수 있는 습관들일 것입니다. 나는 장기적으로 좋은 데이터 과학자가 될 것이라고 생각합니다.
 
 # 행동 지향적
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-07-01-5HabitsThatMadeMeADataScientist_1.png)
 
@@ -31,8 +38,18 @@ isUpdated: true
 
 예를 들어, 언제나 "가장 좋은 강의"라는 것은 없다고 언급합니다. 물론 어떤 자습서가 다른 것보다 나을 수 있지만, 입문 강좌는 일반적으로 동일한 내용을 다룹니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어떤 강의를 수강해야 할지 수시간을 고민하는 대신, 실제 학습과 공부에 시간을 투자하면 얼마만큼의 진전을 이룰 수 있는지 상상해 보세요.
 
@@ -42,8 +59,18 @@ isUpdated: true
 
 # 일관된 학습
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-07-01-5HabitsThatMadeMeADataScientist_2.png)
 
@@ -54,8 +81,18 @@ isUpdated: true
 
 ![image](/assets/img/2024-07-01-5HabitsThatMadeMeADataScientist_3.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 흔한 속담이지만 매우 정확합니다. 최대한 이를 잘 활용해야 합니다.
 
@@ -65,7 +102,18 @@ isUpdated: true
 
 이 습관을 위해 추천하는 조언 몇 가지는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 하루를 시간 블록으로 나누어 학습과 공부 시간을 확보하세요. 저는 통근 시간을 학습 시간으로 활용하는 흔한 습관을 가지고 있어요.
 - Medium과 뉴스레터 등 다양한 플랫폼에 가입하고 데이터 과학 및 머신 러닝 YouTube 채널을 구독하세요.
@@ -77,7 +125,18 @@ isUpdated: true
 
 앞서 말한 습관들은 매우 중요하지만, 명확한 로드맵이나 목표 없이는 방향성이 부족할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 목표를 가지고 성취하려는 것이 도움이 될 거예요. 예를 들어, 때로는 "신경망을 배우고 PyTorch로 구현해보기"와 같은 목표가 있습니다. 현실적으로 말하면 매우 모호하지만, 공부하고 배우는 동안 목표를 향해 나아갈 수 있는 방향을 제공합니다.
 
@@ -87,7 +146,18 @@ isUpdated: true
 
 수많은 로드맵이 있으며, 제가 직접 만든 로드맵도 아래에서 확인할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 습관에 대한 내 주요 조언은:
 
@@ -98,7 +168,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-07-01-5HabitsThatMadeMeADataScientist_5.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요즘 사회에서 흔한 문제 중 하나는 비교입니다. 온라인 세계 덕분에 많은 사람들과 비교하게 되는데, 종종 사람들은 자신의 실패를 거의 올리지 않기 때문에 그들의 하이라이트만 보게 됩니다(나도 이 점에 대해서 반성해야 합니다).
 
@@ -108,7 +189,18 @@ isUpdated: true
 
 매튜 맥커너히의 생각을 한 번 받아들이세요. 그는 2014년 아카데미 시상식에서 최우수 남우주연상을 받았을 때 이렇게 말했습니다...
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자기 자신을 믿고 스스로를 개선하려는 마음가짐이 우리 모두가 추구해야 하는 태도입니다. 항상 자기 자신과의 싸움이죠.
 
@@ -118,7 +210,18 @@ isUpdated: true
 
 여러분을 막으려는 것이 아니라 자신을 비교하는 것이 헛된 일이라는 것을 보여주려는 것이에요. 따라서 방금 말했던 것처럼 항상 내적으로 바라보고 발전하려 노력해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 주요 조언은:
 
@@ -129,7 +232,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-07-01-5HabitsThatMadeMeADataScientist_6.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 큰 성과를 이루는 데에는 시간이 걸립니다. 데이터 과학의 경우, 인내심을 가지고 학습 과정을 경주가 아닌 여정으로 받아들이는 것이 중요합니다.
 
@@ -139,7 +253,18 @@ isUpdated: true
 
 그래서, 여정을 몇 달 진행했을 때 정보를 습득하기 힘들고 이해하기 어려운 경우가 있다면, 시간을 주세요. 지금은 데이터 과학이나 기계 학습과 같은 분야를 배울 때 고려해야 할 시간적 척도를 보여주는 전문 대학에서 3년간의 본전문 학사 과정이 이미 존재합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, 저는 현재 데이터 과학과 머신 러닝의 엔지니어링 및 배포 측면에 대해 더 배우고 싶어합니다. 이것을 숙달하는 데 몇 년이 걸릴 것이라는 사실을 잘 알고 있습니다. 이 점에 편안함을 느낍니다.
 
@@ -150,7 +275,18 @@ isUpdated: true
 
 # 요약 및 추가 생각
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 빠르게 습관을 요약해보겠습니다
 
@@ -164,7 +300,18 @@ isUpdated: true
 
 # 또 하나의 중요한 점!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 무료 뉴스레터 'Dishing the Data'를 운영 중이에요! 매주 더 나은 데이터 과학자가 되는 데 도움이 되는 조언, 제 경험, 그리고 최근 주에 생각한 것들을 공유하고 있어요.
 

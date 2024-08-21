@@ -3,17 +3,13 @@ title: "자바스크립트에서 123toStringlength  123은 무엇을 출력할�
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "What does 123toStringlength  123 Print Out in JavaScript"
 link: "https://medium.com/javascript-in-plain-english/what-does-123-tostring-length-123-print-out-in-javascript-f2e7dbac360e"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/Whatdoes123toStringlength123PrintOutinJavaScript_0.png" />
 
@@ -26,7 +22,18 @@ isUpdated: true
 
 처음에 저는 답이 126(3 + 123)일 것이라고 생각했지만, 틀렸어요. 실제 답은 무엇일까요? 비밀을 한 걸음씩 밝혀보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 함수의 형식 매개변수 개수
 
@@ -43,7 +50,18 @@ console.log(func3.length); // 2
 
 함수는 길이만큼 매개변수를 갖고 있는데, 정말 그런 걸까요? 저를 따라와서 아래로 내려가 보세요...
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 기본 매개변수
 
@@ -64,7 +82,18 @@ console.log(func5.length); // 0
 
 function.length은 기본값을 가진 첫 번째 매개변수 이전의 매개변수 수를 나타냅니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 함수의 나머지 매개변수
 
@@ -77,7 +106,18 @@ console.log(func1.length); // 1
 
 네, 맞아요. 당신이 맞아요. 정답은 1입니다. 그러니까 또 다른 결론을 얻을 수 있어요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 남은 매개변수들은 "function.length" 계산에 포함되지 않습니다.
 
@@ -91,7 +131,18 @@ console.log(func1.length); // 1
 // 1 + 123 = 124
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 MDN의 요약을 확인해보세요
 
@@ -101,7 +152,18 @@ Length는 함수 객체의 속성이며, 함수가 기대하는 인수의 수를
 
 반면에, arguments.length는 함수 내에서 지역적으로 동작하며, 함수에 실제로 전달된 인수의 수를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 마지막으로
 
@@ -111,7 +173,18 @@ Length는 함수 객체의 속성이며, 함수가 기대하는 인수의 수를
 
 In Plain English 커뮤니티의 일원이 되어 주셔서 감사합니다! 떠나시기 전에:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 작가에게 박수를 보내고 팔로우해 주세요 ️👏️️
 - 팔로우하기: X | LinkedIn | YouTube | Discord | 뉴스레터

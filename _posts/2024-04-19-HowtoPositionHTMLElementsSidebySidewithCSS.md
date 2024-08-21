@@ -3,17 +3,13 @@ title: "CSS를 사용하여 HTML 요소를 나란히 배치하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How to Position HTML Elements Side by Side with CSS"
 link: "https://medium.com/codeburst/how-to-position-html-elements-side-by-side-with-css-e1fae72ddcc"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/HowtoPositionHTMLElementsSidebySidewithCSS_0.png" />
 
@@ -23,7 +19,18 @@ HTML 요소 정렬은 CSS에서 개발자들이 다루는 가장 일반적인 �
 
 # 1. Display: Inline-Block
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 첫 번째 방법은 display: inline-block 방식을 사용하는 것입니다. 이 방법은 요소를 나란히 배치하기 위한 간단하고 전통적인 CSS 기법입니다.
 
@@ -33,7 +40,18 @@ HTML 요소 정렬은 CSS에서 개발자들이 다루는 가장 일반적인 �
 
 먼저, 인라인 HTML 요소를 사용할 수 있고 이 요소들은 자동으로 나란히 배치됩니다. 그러나 인라인 요소의 제한은 너비 & 높이 속성이 적용되지 않는다는 것입니다. 반면에, 블록 수준 요소에는 너비와 높이 속성을 적용할 수 있지만 블록 요소는 나란히 배치할 수 없는 문제가 있습니다. 이것이 display 속성을 inline-block으로 변경하여 요소의 표시 동작을 변경하는 세 번째 방법을 적용할 수 있는 이유입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 div,
@@ -48,7 +66,18 @@ span {
 
 요소를 옆으로 정렬하는 또 다른 방법은 `float`를 사용하는 것입니다. 이것은 오래된 기술이며 `float`를 사용하는 것이 여전히 유용한지에 대한 많은 토론이 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 플롯을 사용해야 할까요?
 
@@ -58,7 +87,18 @@ span {
 
 플롯을 사용하면 페이지의 왼쪽이나 오른쪽에 요소를 배치할 수 있습니다. 그러나 중앙 정렬은 플롯만으로 직접 할 수 없습니다. 왜냐하면 플롯에 대한 "가운데" 값이 없기 때문이지만, 이는 다른 CSS 속성으로 수행할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 div {
@@ -76,7 +116,18 @@ div {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 게시물의 고급 기술을 보다 상세히 살펴보려면 아래의 튜토리얼 비디오를 시청해 보세요:
 
@@ -86,7 +137,18 @@ div {
 
 CSS는 정렬 문제를 해결하기 위한 두 가지 더 최근 방법을 제공합니다. 그것이 바로 ‘flexbox’와 ‘grid’입니다. Flexbox 또는 Grid를 사용하는 장점은 더 넓고, 더 유연하며, 정렬 문제에 대해 쉽게 해결책을 제공한다는 점입니다. 그러나 이러한 기술들은 정렬을 위한 다양한 기능이 많기 때문에 프로젝트에서 Flexbox 또는 Grid를 사용하기 전에 이들에 대한 이해가 좀 필요합니다. 혹은 사용하려는 기술에 적합한 경우 프로젝트를 진행해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 3. Flexbox
 
@@ -102,7 +164,18 @@ CSS는 정렬 문제를 해결하기 위한 두 가지 더 최근 방법을 제�
 
 그런 다음, 부모 요소(컨테이너)에 display: flex 속성을 할당하면 자식 요소들을 자동으로 옆으로 나란히 배치할 것입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .container {
@@ -120,7 +193,18 @@ p {
 
 Flexbox를 사용하면 CSS로 요소를 쉽게 배치할 수 있습니다. 이를 사용하는 방법을 이해하면 매우 편리합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 4. 그리드
 
@@ -136,7 +220,18 @@ CSS 그리드는 요소들을 옆으로 정렬하는 또 다른 대안적인 방
 </div>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 후에, 부모 요소인 컨테이너의 display 속성을 grid로 변경합니다:
 
@@ -155,7 +250,18 @@ CSS 그리드는 요소들을 옆으로 정렬하는 또 다른 대안적인 방
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금까지 글이 마음에 드셨나요? Medium은 수많은 훌륭한 기사를 광고 없이 제공하는 훌륭한 플랫폼입니다. 광고가 없는 Medium은 이 플랫폼을 사랑하는 독자들이 회원이 되어 지원할 수 있도록 해줍니다.
 

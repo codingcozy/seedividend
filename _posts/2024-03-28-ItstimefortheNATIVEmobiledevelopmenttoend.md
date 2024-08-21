@@ -3,17 +3,13 @@ title: "Flutter를 사용해서 네이티브 모바일 개발하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Its time for the NATIVE mobile development to end"
 link: "https://medium.com/mobilepeople/its-time-for-the-native-mobile-development-to-end-f677e37be5a8"
 isUpdated: true
 ---
-
-
-
-
 
 모바일 앱 개발은 지속적으로 진화하고 있으며 변화하는 기술, 사용자 기대, 비즈니스 전략 및 요구를 반영합니다. iOS 또는 Android와 같은 특정 플랫폼을 위해 특별히 개발된 네이티브 모바일 앱은 오랫동안 성능과 사용자 경험에 대한 우수성으로 인해 칭찬을 받아왔습니다. 그러나 효율성, 보다 폭넓은 사용자층을 대상으로 한 필요, 그리고 주로 비용 효율성을 강조하는 크로스 플랫폼 개발으로의 전환 추세가 증가하고 있습니다. 이 추세는 앱 개발에서 효율성, 보다 넓은 영향력, 그리고 주로 비용 효율성을 필요로 하는 요구에 의해 주도되고 있습니다. 이 기사는 이 전환에 대한 포괄적인 개요를 제공하며 네이티브 앱 개발의 어려움을 강조합니다. 크로스 플랫폼 솔루션이 성장하고 있는 것은 지금처럼 보이며 제품/앱 수명주기의 첫 단계 비용을 크게 낮출 수 있습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ## 비용 및 시간
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여러 플랫폼용 네이티브 앱을 개발하는 것은 자원이 많이 필요하며, 특수 기술과 별도의 코드베이스 그리고 일반적으로 다른 팀이 필요합니다. 이로 인해 개발 시간과 비용이 더 많이 들어가게 되어, 빠른 시장 진입과 비용 효율성을 추구하는 기업에는 덜 매력적일 수 있습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ## 한정된 대상층
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일반적으로 네이티브 앱을 개발하는 데 소요되는 시간은 현재의 크로스 플랫폼 방법으로 앱을 개발하는 데 소요되는 시간보다 두 배 정도 더 오래 걸립니다. 그러나 Kotlin Multiplatform (KMP)은 네이티브 개발을 위한 강력한 동료로 등장하여 통합이 쉬운 플랫폼별 이진 파일로 컴파일되는 Kotlin 공유 코드의 조합을 제공합니다. 지난 토론에서 강조한 대로, 선언적 UI 및 Kotlin Multiplatform은 플랫폼별 API에 접근할 수 있는 능력과 함께 네이티브 및 크로스 플랫폼 개발 간의 격차를 줄이고 한 쪽을 선택해야 하는 필요성을 없애줍니다.
 
@@ -41,7 +59,18 @@ isUpdated: true
 
 초기에는 크로스 플랫폼 및 혼합 개발이 성과 권고에 직면해왔으며, Ionic, PhoneGap 및 Sencha와 같은 초기 프레임워크는 성능 및 사용자 경험과 관련된 일반적인 문제로 인해 힘든 시기를 겪었습니다. 그러나 현대의 크로스 플랫폼 개발 프레임워크인 Flutter와 React Native (RN)과 같은 것들은 새로운 개발자들에게 희망이 되었으며 네이티브 앱 개발에 대항하는 강력한 경쟁자로 떠올랐습니다. 이로써 지난과 달리 성능 문제 및 사용자 경험과 관련된 여러 문제에 대처하는 많은 이점을 가졌습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 코드 재사용성
 
@@ -55,7 +84,18 @@ isUpdated: true
 - 플랫폼별 외관이 필요한가,
 - 지원해야 할 OS 버전은 무엇인가,
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 기타 다른 요소들도 있습니다. 실제로 이 "100%"는 전체 코드 라인의 80%에 더 가깝습니다. 또한 사용 중인 라이브러리 중 일부는 각 플랫폼에 대한 네이티브 구현이 있으며, 이는 우리가 플랫폼 또는 정책 변경에 따라 유지해야 하는 사항입니다.
 
@@ -65,7 +105,18 @@ isUpdated: true
 
 ## 통합 개발 팀
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다중 플랫폼 개발은 보다 효율적인 접근 방식을 가능하게 하여 다양한 플랫폼에서 앱 개발을 관리할 수 있는 다용도 팀을 구성할 수 있습니다. 이는 특정 플랫폼에 대한 전문 지식을 줄입니다. 그러나 특정 전문 시나리오에 따라 특정 플랫폼과 직접 상호작용이 필요한 모듈을 개발할 때는 해당 플랫폼에 대한 심층적인 지식이 여전히 필요할 수 있습니다.
 
@@ -75,7 +126,18 @@ iOS나 Android와 같은 특정 플랫폼에 대한 지식을 가진 적어도 �
 
 다중 플랫폼 개발의 효율성은 비즈니스가 앱을 더 빠르게 출시할 수 있도록합니다. 경쟁이 치열한 시장에서 이는 중요한 요소입니다. 이는 마지막 제품의 비전이 명확하지 않고 시장 진입 시간이 중요한 복잡한 프로젝트에서도 컨셉 증명(PoC)에 효과적입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시장 진입 시간이 비즈니스에 중요하다면 플러터(Flutter) 또는 RN 옵션을 고려해야 할 것입니다. 두 플랫폼 모두에서 매우 유사한 UI/UX가 우리에게 문제가 되지 않는 경우가 대부분입니다. 동일한 UI/UX에 대해 설계 시간을 크게 단축할 수도 있습니다. 어쨌든, 많은 네이티브 프로젝트에서는 Android에서 온 것들이 어떻게든 적응할 것이라고 봐야할 때가 많은데요. ;)
 
@@ -85,7 +147,18 @@ iOS나 Android와 같은 특정 플랫폼에 대한 지식을 가진 적어도 �
 
 ## 더 넓게 다가갈 수 있는 기회
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앱들은 추가적인 개발 노력 없이 여러 플랫폼에서 쉽게 이용할 수 있게 됩니다. 더불어 이러한 프레임워크를 사용하여 개발된 앱들의 품질과 성능이 상당히 향상되었으며, 네이티브 앱과 거의 격차를 줄이고 있습니다.
 
@@ -95,7 +168,18 @@ iOS나 Android와 같은 특정 플랫폼에 대한 지식을 가진 적어도 �
 
 현재의 상황에서 iOS 17.4 베타 버전은 EU 사용자를 위한 PWA 지원을 제거한다는 것은 플랫폼 변경으로 인해 네이티브 방식이나 매우 제한적인 방식으로만 사용할 수 있다는 것을 나타냅니다. 다음 iOS 버전을 위한 이상한 해결책은 심지어 애플로부터 공식적으로 확인되었습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 플러터와 리액트 네이티브 접근 방식
 
@@ -105,7 +189,18 @@ iOS나 Android와 같은 특정 플랫폼에 대한 지식을 가진 적어도 �
 
 구글에 의해 개발된 플러터와 메타(이전 페이스북)가 개발한 리액트 네이티브 모두 거대하고 활발한 커뮤니티를 보유하고 있습니다. 2018년 12월 출시된 플러터는 리액트 네이티브가 2015년 3월에 먼저 데뷰했음에도 불구하고 인기에서 빠르게 따라잡고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/ItstimefortheNATIVEmobiledevelopmenttoend_0.png" />
 
@@ -115,7 +210,18 @@ Flutter는 구글에서 개발한 Dart 언어를 사용하며, 개발자들에�
 
 React Native는 가장 널리 사용되고 알려진 JavaScript (JS)를 활용하여 넓은 개발자 커뮤니티에게 접근할 수 있도록 합니다. 새로운 ReactNative 프로젝트는 TypeScript를 기본으로 지원하지만 JavaScript 및 Flow도 지원합니다. TypeScript는 JavaScript에 타입 정의를 추가하여 개발을 더 안전하게 만드는 언어입니다. 저는 개인적으로 JS를 큰 팬은 아니지만, Web 팀원들 중 JS에 대한 깊은 도메인 지식을 가지고 있는 개발자가 있는 경우에는 React Native가 좋은 선택이 될 수 있습니다. 웹 팀의 도메인 지식을 가진 개발자들과 모바일 전용 개발 지식을 가진 개발자를 섞어 개발하는 것은 여러 경우에 비즈니스 요구사항에 대한 오해를 줄일 수 있으므로 매우 중요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 개발 환경 및 UI 구성요소
 
@@ -125,7 +231,18 @@ React Native는 가장 널리 사용되고 알려진 JavaScript (JS)를 활용�
 
 리액트 네이티브와 플러터 모두, 운영 체제 업데이트와 새로운 UI 구성요소의 지원이 지연될 수 있다는 위험이 있습니다. 때로는 애플리케이션이 최신 운영 체제 버전 기능을 지원하고 타겟팅하는 데 이러한 변경 사항으로 인해 연기해야 할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 성능
 
@@ -135,7 +252,18 @@ React Native는 가장 널리 사용되고 알려진 JavaScript (JS)를 활용�
 
 리액트 네이티브는 네이티브 구성 요소에 의존하지만 네이티브 부분과 비즈니스 로직 사이에 다리가 존재하여 일부 지연을 유발할 수 있습니다. 확실히 플러터와 비교하면, 무거우고 복잡한 애니메이션이 필요한 앱에 대한 최적의 솔루션이 아닙니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 커뮤니티 및 지원
 
@@ -145,7 +273,18 @@ React Native는 가장 널리 사용되고 알려진 JavaScript (JS)를 활용�
 
 ## 앱 소유자 및 개발자를 위한 주요 고려 사항
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시장 진입 시기
 플러터의 다양한 미리 만들어진 위젯 및 핫 리로드 기능은 개발 속도를 가속화시켜 프로젝트 기한이 촉박한 경우에 매력적인 선택지가 될 수 있습니다. 반면, React Native는 방대한 생태계를 갖추고 있어 JavaScript 또는 TypeScript에 이미 능숙한 팀에게는 빠른 개발을 지원합니다.
@@ -162,7 +301,18 @@ React Native는 가장 널리 사용되고 알려진 JavaScript (JS)를 활용�
 
 <img src="/assets/img/ItstimefortheNATIVEmobiledevelopmenttoend_1.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # “네이티브 모바일 개발의 종말이 찾아온 것일까?” 진짜인가요?
 
@@ -172,6 +322,17 @@ React Native는 가장 널리 사용되고 알려진 JavaScript (JS)를 활용�
 
 모바일 앱 개발의 미래는 다양성을 지향할 것으로 보이며, 네이티브와 크로스 플랫폼은 각기 특정 비즈니스 요구사항과 사용자 컨텍스트를 제공하며 공존할 것으로 보입니다. 따라서 개발자와 기업은 프로젝트마다 최적의 솔루션이 다를 수 있음을 감안하여 적합한 개발 방법을 선택할 때 특정 목표, 대상 시장, 자원 제약을 고려하는 것이 좋습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결론적으로, 네이티브 앱과 하이브리드 앱 사이의 결정은 무엇이 우수한지에 대한 이분법적 선택이 아니라 프로젝트의 목표, 목적, 예산 및 예상 사용자 경험과 가장 일치하는 방식을 전략적으로 평가하는 데 달려 있습니다.

@@ -3,17 +3,13 @@ title: "고급 CSS 기술과 주의해야할 점"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Day 4 Advanced CSS Techniques and Best Practices"
 link: "https://medium.com/@CEO-Buddy578/day-4-advanced-css-techniques-and-best-practices-cff03039f866"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/Day4AdvancedCSSTechniquesandBestPractices_0.png" />
 
@@ -25,7 +21,18 @@ isUpdated: true
 
 # CSS 프리프로세서:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Sass와 Less와 같은 CSS 전처리기는 변수, 중첩, 믹스인, 그리고 함수와 같은 기능들을 도입하여 CSS의 기능을 확장합니다.
 - CSS 전처리기를 설정하고 사용하는 방법을 배워서 스타일링 작업을 간소화하고 코드를 더 관리하기 쉽게 만드세요.
@@ -38,7 +45,18 @@ isUpdated: true
 
 ## CSS 전환과 애니메이션:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - CSS 트랜지션과 애니메이션을 사용하면 JavaScript 없이도 웹 페이지에 동적인 시각적 효과를 추가할 수 있습니다.
 - transition 속성을 사용하여 CSS 속성인 색상, 배경색, 너비, 높이 등의 변경 사항을 부드럽게 애니메이트할 수 있습니다.
@@ -52,7 +70,18 @@ isUpdated: true
 
 # 성능 최적화:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - CSS 코드를 최적화하여 파일 크기를 최소화하고 렌더링 시간을 줄이세요.
 - 여러 CSS 파일을 조합하고 압축하기 위해 CSS 최소화 및 병합 도구를 사용하세요.

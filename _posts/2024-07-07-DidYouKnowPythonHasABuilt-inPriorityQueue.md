@@ -3,15 +3,13 @@ title: "알고 계셨나요  Python 내장 우선순위 큐 소개"
 description: ""
 coverImage: "/assets/img/2024-07-07-DidYouKnowPythonHasABuilt-inPriorityQueue_0.png"
 date: 2024-07-07 21:48
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-DidYouKnowPythonHasABuilt-inPriorityQueue_0.png
 tag: Tech
 originalTitle: "Did You Know — Python Has A Built-in Priority Queue"
 link: "https://medium.com/gitconnected/did-you-know-python-has-a-built-in-priority-queue-cd65acc4a5d6"
 isUpdated: true
 ---
-
-
 
 <img src="/assets/img/2024-07-07-DidYouKnowPythonHasABuilt-inPriorityQueue_0.png" />
 
@@ -24,7 +22,18 @@ isUpdated: true
 
 예를 들어, 이 숫자들이 포함된 우선 순위 큐가 있다고 가정해봅시다. 낮은 숫자가 높은 우선 순위를 의미합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 pq = [3, 7, 1, 6, 4, 5];
@@ -48,7 +57,18 @@ pq = [3, 7, 1, 6, 4, 5];
 - 3은 1 다음으로 가장 높은 우선순위를 가지고 있기 때문에 다음에 나갑니다.
 - 4는 3 다음으로 가장 높은 우선순위를 가지고 있기 때문에 그 다음에 나갑니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 이런. 정렬만 하면 되잖아요?
 

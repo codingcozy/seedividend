@@ -3,17 +3,13 @@ title: "Reactjs에서 Excel XLSX에서 데이터를 가져오는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-20-HowtoimportdatafromExcelXLSXinReactjs_0.png"
 date: 2024-06-20 02:15
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-HowtoimportdatafromExcelXLSXinReactjs_0.png
 tag: Tech
 originalTitle: "How to import data from Excel “XLSX” in React.js"
 link: "https://medium.com/@gb.usmanumar/how-to-import-data-from-excel-xlsx-in-react-js-f486a600dc9f"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-06-20-HowtoimportdatafromExcelXLSXinReactjs_0.png)
 
@@ -23,8 +19,18 @@ React.js 애플리케이션에서 .xlsx 파일에서 데이터를 가져오려�
 
 아직 React.js 애플리케이션을 생성하지 않았다면 Create React App 을 사용하여 새로 만들 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npx create-react-app react-xlsx-import
@@ -39,7 +45,18 @@ cd react-xlsx-import
 npm install xlsx
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 3: 파일 입력 컴포넌트 생성
 
@@ -48,8 +65,8 @@ src 디렉토리에 FileInput.js 파일을 만들고 아래 코드를 추가하�
 ```js
 // src/FileInput.js
 
-import React from 'react';
-import * as XLSX from 'xlsx';
+import React from "react";
+import * as XLSX from "xlsx";
 
 function FileInput() {
   const [data, setData] = React.useState(null);
@@ -59,7 +76,7 @@ function FileInput() {
     const reader = new FileReader();
 
     reader.onload = (event) => {
-      const workbook = XLSX.read(event.target.result, { type: 'binary' });
+      const workbook = XLSX.read(event.target.result, { type: "binary" });
       const sheetName = workbook.SheetNames[0];
       const sheet = workbook.Sheets[sheetName];
       const sheetData = XLSX.utils.sheet_to_json(sheet);
@@ -88,16 +105,27 @@ export default FileInput;
 
 ## 단계 4: App 컴포넌트 업데이트
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 src 디렉토리의 App.js 파일을 업데이트하여 FileInput 컴포넌트를 포함시킵니다:
 
 ```js
 // src/App.js
 
-import React from 'react';
-import './App.css';
-import FileInput from './FileInput';
+import React from "react";
+import "./App.css";
+import FileInput from "./FileInput";
 
 function App() {
   return (
@@ -115,7 +143,18 @@ export default App;
 
 다음 명령어를 사용하여 React.js 애플리케이션을 실행하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm start
@@ -127,6 +166,17 @@ npm start
 
 React.js 애플리케이션에서 xlsx 라이브러리를 사용하여 .xlsx 파일에서 데이터를 성공적으로 가져왔습니다. 이제 이 예제를 확장하여 가져온 데이터를 처리하고, 테이블에 표시하거나 추가적인 데이터 조작 및 분석을 수행하여 보다 구조화되고 사용자 친화적인 방식으로 표시할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파일 유형을 처리하기 전에 파일 유형을 확인하고, 대용량 파일을 효율적으로 처리하며, 파일 업로드 및 데이터 처리 단계에서 사용자에게 피드백을 제공하는 등 오류와 예외 상황을 적절하게 처리해야 합니다.

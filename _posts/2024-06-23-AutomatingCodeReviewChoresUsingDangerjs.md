@@ -3,16 +3,13 @@ title: "Dangerjs를 사용한 코드 리뷰 작업 자동화 방법"
 description: ""
 coverImage: "/assets/img/2024-06-23-AutomatingCodeReviewChoresUsingDangerjs_0.png"
 date: 2024-06-23 13:09
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-AutomatingCodeReviewChoresUsingDangerjs_0.png
 tag: Tech
 originalTitle: "Automating Code Review Chores Using Danger.js"
 link: "https://medium.com/better-programming/code-review-chores-that-we-should-automate-using-danger-js-6cf72ff3bf98"
 isUpdated: true
 ---
-
-
-
 
 ![이미지](/assets/img/2024-06-23-AutomatingCodeReviewChoresUsingDangerjs_0.png)
 
@@ -25,7 +22,18 @@ isUpdated: true
 
 그러나 일부 코드 리뷰 부분은 자동화되지 않는 한 지루할 수 있습니다. 이러한 부분을 "코드 리뷰 일"로 분류할 수 있습니다. 몇 가지 예는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 만든 자가 풀 리퀘스트의 일부로 파일을 업데이트했는지 확인해주세요. 예: CHANGELOG.md와 package.json 파일들.
 - 새로 만든 함수에 테스트를 추가했는지 확인해주세요.
@@ -38,7 +46,18 @@ isUpdated: true
 
 일상적인 작업들을 자동화하면 코드의 품질과 팀의 효율성이 향상될 거예요. 일상적인 일을 걱정할 필요가 적어지면, 비즈니스 로직과 잠재적 버그와 같은 중요한 부분을 리뷰하는 데 더 많은 시간을 쓸 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 위험 JS
 
@@ -48,7 +67,18 @@ isUpdated: true
 
 다음 섹션에서 Danger JS를 사용하여 자동화할 수 있는 몇 가지 일상적인 작업의 예시를 공유할 거에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-23-AutomatingCodeReviewChoresUsingDangerjs_1.png" />
 
@@ -58,7 +88,18 @@ isUpdated: true
 
 다음은 당신이 Danger 함수에서 수행할 수 있는 작업입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 당신의 PR에 변경 사항이 있는지 변경 로그 파일과 package.json 파일을 확인하세요.
 - 변경 사항이 없는 경우, 파일을 업데이트해야 함을 나타내는 코멘트를 PR에 남기세요.
@@ -67,17 +108,28 @@ isUpdated: true
 
 ```js
 // 앱 변경 사항에 대한 CHANGELOG 항목 추가
-const hasChangelog = danger.git.modified_files.includes("changelog.md")
-const isTrivial = (danger.github.pr.body + danger.github.pr.title).includes("#trivial")
+const hasChangelog = danger.git.modified_files.includes("changelog.md");
+const isTrivial = (danger.github.pr.body + danger.github.pr.title).includes("#trivial");
 ```
 
 ```js
 if (!hasChangelog && !isTrivial) {
-  warn("변경 사항에 대한 변경 로그 항목을 추가해주세요.")
+  warn("변경 사항에 대한 변경 로그 항목을 추가해주세요.");
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 차단 JS 확장 프로그램에는 변경 로그 파일을 추적하는 Danger JS 확장 프로그램 (danger-plugin-keepachangelog)도 있습니다. 이 확장 프로그램을 직접 사용할 수 있으므로 처음부터 기능을 작성할 필요가 없습니다.
 
@@ -87,7 +139,18 @@ if (!hasChangelog && !isTrivial) {
 
 메인 브랜치에서 불필요한 인쇄 문장을 제외하는 것이 좋은 실천 방법입니다. 중복되는 인쇄 문장은 앱이나 서비스를 실행할 때 소음을 더해 코드베이스가 디버깅하기 어렵게 만듭니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대부분의 경우, 작성자나 검토자가 문제를 발견합니다. 그러나 불가피하게 몇 가지 문제는 여전히 누락될 수 있습니다. Danger JS를 사용하여 이 확인을 자동화해야 합니다.
 
@@ -95,20 +158,31 @@ if (!hasChangelog && !isTrivial) {
 
 ```js
 // DangerJS를 사용하여 수정된 파일을 가져옵니다
-modifiedFiles = getModifiedFiles()
+modifiedFiles = getModifiedFiles();
 for (modifiedFile in modifiedFiles) {
-    // 각 파일에 대해 추가된 diff를 가져옵니다
-    diffAddedForFile = getDiffAdded(modifiedFile)
-    // 각 diff 문자열에 print 문이 포함되어 있는지 확인합니다 (예: Go의 fmt.print 또는 JS의 console.log)
-    if (diffAddedForFile.includes('fmt.print')) {
-        warn('fmt.print가 감지되었습니다')
-    }    
+  // 각 파일에 대해 추가된 diff를 가져옵니다
+  diffAddedForFile = getDiffAdded(modifiedFile);
+  // 각 diff 문자열에 print 문이 포함되어 있는지 확인합니다 (예: Go의 fmt.print 또는 JS의 console.log)
+  if (diffAddedForFile.includes("fmt.print")) {
+    warn("fmt.print가 감지되었습니다");
+  }
 }
 ```
 
 JavaScript를 사용하는 경우, 다른 대안적인 솔루션을 사용할 수 있어서 Danger 규칙을 처음부터 작성할 필요가 없습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Danger JS 확장 기능: danger-plugin-noconsole.
 - ESLint의 no-console.
@@ -119,7 +193,18 @@ JavaScript를 사용하는 경우, 다른 대안적인 솔루션을 사용할 �
 
 우리는 Danger JS 규칙을 작성하여 PR에서 변경된 라인 수를 세어볼 수 있습니다. 숫자가 지정된 "크게 PR 임계값"을 초과하면 PR을 작은 PR로 나누도록 의견을 남길 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 변경 라인 수 = 삭제된 라인 수 + 추가된 라인 수
 
@@ -130,12 +215,27 @@ JavaScript를 사용하는 경우, 다른 대안적인 솔루션을 사용할 �
 ```js
 var bigPRThreshold = 600;
 if (danger.github.pr.additions + danger.github.pr.deletions > bigPRThreshold) {
-  warn(':exclamation: 큰 PR (' + ++errorCount + ')');
-  markdown('> (' + errorCount + ') : 풀 리퀘스트 크기가 비교적 크게 보입니다. 여러 변경 사항이 포함된 경우 각각을 별도의 PR로 분리하면 더 빠르고 쉬운 검토를 할 수 있습니다.');
+  warn(":exclamation: 큰 PR (" + ++errorCount + ")");
+  markdown(
+    "> (" +
+      errorCount +
+      ") : 풀 리퀘스트 크기가 비교적 크게 보입니다. 여러 변경 사항이 포함된 경우 각각을 별도의 PR로 분리하면 더 빠르고 쉬운 검토를 할 수 있습니다."
+  );
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신이 원하는 대로, 빅 PR 임계값에 대한 계산에 카운트되기를 원치 않는 파일을 제외할 수도 있어요. 예를들어, mock 파일을 제외하고 싶다면:
 
@@ -154,7 +254,18 @@ if (totalLinesCount > bigPRThreshold) {
 
 ## 마크다운 오타 확인
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문서의 오타는 코드베이스에서 "깨진 창문"으로 이어질 수 있어요. 그것들을 무시해서는 안 돼요. 다행히도 오타를 확인하는 데 유용한 Danger JS 확장 프로그램이 이미 있어요: danger-plugin-spellcheck.
 
@@ -162,17 +273,28 @@ GitHub 리포지토리에서의 샘플 사용법은 다음과 같아요:
 
 ```js
 // dangerfile.js
-import spellcheck from 'danger-plugin-spellcheck'
+import spellcheck from "danger-plugin-spellcheck";
 ```
 
 ```js
 spellcheck({
-  ignore: ['Nachoz', 'Tacoz'],
-  ignoreFiles: ['README.md']
-})
+  ignore: ["Nachoz", "Tacoz"],
+  ignoreFiles: ["README.md"],
+});
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 긍정적인 규칙, 예를 들어 PR 작성자 칭찬
 
@@ -182,7 +304,18 @@ Danger JS는 "이것을 잊었어" 타입의 규칙만 있는 것은 아닙니�
 
 간단한 if 블록을 사용하여 Danger JS에서 이를 수행할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 if (danger.github.pr.deletions > danger.github.pr.additions) {
@@ -196,7 +329,18 @@ if (danger.github.pr.deletions > danger.github.pr.additions) {
 
 얼마나 자주 이런 PR 피드백을 작성하고 받을까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아마도 많이 할 것 같아요. 다시 한 번 하지 않아도 돼요.
 
@@ -206,7 +350,18 @@ if (danger.github.pr.deletions > danger.github.pr.additions) {
 - 테스트가 이미 존재하는지 확인해요 — 패턴 매칭.
 - 테스트가 우리가 테스트해야 하는 경로들을 커버하고 있는지 확인해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위험 JS를 사용하여 단계 2를 자동화할 수 있어요. 단계 1과 3을 자동화할 필요조차 없어요. 단계 2를 자동화하는 것이 더 직관적이고 많은 시간을 절약할 수 있어요.
 
@@ -217,7 +372,18 @@ if (danger.github.pr.deletions > danger.github.pr.additions) {
 - 새로운 함수 GetUsers()가 있는 경우 Test_GetUsers()라는 연관된 테스트가 있는지 확인해봐요.
 - Test_GetUsers()가 누락된 경우, "누락된 테스트를 추가하세요"라는 피드백을 남겨주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 패턴 매칭 로직을 Danger JS를 사용하여 프로그래밍적으로 실행할 수 있어요. 그러려면 특정 명명 규칙을 따라야 해요.
 
@@ -230,23 +396,34 @@ if (danger.github.pr.deletions > danger.github.pr.additions) {
 
 의사 코드는 다음과 같을 거에요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // PR에 추가된 함수에서 누락된 테스트를 확인합니다:
-addedFunctionNames = []
-diffs = []
-modifiedFiles = getModifiedFiles()
-modifiedTestFiles = getModifiedTestFiles()
-diffs = modifiedFiles.map(m => getDiffAdded(m))
-testDiffs = modifiedTestFiles.map(m => getDiffAdded(m))
+addedFunctionNames = [];
+diffs = [];
+modifiedFiles = getModifiedFiles();
+modifiedTestFiles = getModifiedTestFiles();
+diffs = modifiedFiles.map((m) => getDiffAdded(m));
+testDiffs = modifiedTestFiles.map((m) => getDiffAdded(m));
 for (diff in diffs) {
-    parsedFunctionName = parseFunctionNames(diff) 
-    // 패턴이 일치하는지 확인합니다
-    testsFound = testDiffs.filter(diff => diff.includes(`test_${parsedFunctionName}`))
-    if (testsFound.length === 0) {
-        warn(`테스트 누락: ${parsedFunctionName}`)
-   }
+  parsedFunctionName = parseFunctionNames(diff);
+  // 패턴이 일치하는지 확인합니다
+  testsFound = testDiffs.filter((diff) => diff.includes(`test_${parsedFunctionName}`));
+  if (testsFound.length === 0) {
+    warn(`테스트 누락: ${parsedFunctionName}`);
+  }
 }
 ```
 

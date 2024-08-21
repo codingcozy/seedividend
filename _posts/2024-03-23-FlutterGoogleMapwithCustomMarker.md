@@ -3,17 +3,13 @@ title: "플러터에서 커스텀 마커 사용한 구글 지도 만드는 방�
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Flutter  Google Map with Custom Marker"
 link: "https://medium.com/flutter-community/flutter-google-map-with-custom-marker-ea1555a37342"
 isUpdated: true
 ---
-
-
-
-
 
 플러터 앱에 구글 지도를 추가하고 지루한 마커를 멋진 것으로 바꿔 봅시다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 플러터 애플리케이션에서 구글 지도를 사용하려면 Google Maps 플랫폼과 API 프로젝트를 구성해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 구글 맵스 플랫폼에 접속해 ` 새 프로젝트를 생성하거나 기존 프로젝트를 사용하세요.
 - 라이브러리 페이지에서 ` "Maps SDK"를 검색하세요.
@@ -38,7 +45,18 @@ API 키를 가져오는 데 문제가 있다면, 여기 비디오를 확인해�
 
 Flutter에서 패키지를 사용하면 추가 기능을 추가할 수 있습니다. 다음 명령을 실행하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 flutter pub add google_maps_flutter
@@ -53,7 +71,18 @@ dependencies:
 
 ## 안드로이드 앱에 API 키 추가하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안드로이드 앱에 API 키를 추가하려면 android/app/src/main 내에서 AndroidManifest.xml 파일을 편집하세요. 이전 단계에서 생성된 API 키를 포함하는 단일 meta-data 항목을 application 노드 내에 추가하십시오.
 
@@ -74,7 +103,18 @@ android {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## iOS 앱에 API 키 추가하기
 
@@ -103,7 +143,18 @@ import GoogleMaps  // 이 import 추가
 
 ## Google 지도 화면 생성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금은 화면에 지도를 표시하는 시간입니다. 지도를 표시하기 위해 initialCameraPosition이 필요합니다. 사용자의 현재 위치가 될 수도 있지만, 단순화를 위해 강력한 값을 사용했습니다.
 
@@ -142,7 +193,18 @@ class _MapScreenState extends State<MapScreen> {
 
 ## 지도에 마커 추가
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마커는 특정 위치를 식별하는 데 유용합니다. 지도에 여러 마커를 추가할 수 있어요. 'To DO: add markers'를 아래와 같이 바꿔주세요 👇
 
@@ -169,7 +231,18 @@ markers: {
 
 <img src="/assets/img/Flutter-—-Google-Map-with-Custom-Marker📍_2.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 맵에 사용자 정의 이미지 마커 설정하기
 
@@ -197,7 +270,18 @@ void addCustomIcon() {
 
 마커 아이디가 marker1인 첫 번째 마커로 돌아갑니다. 아이콘을 markerIcon으로 설정해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 Marker(

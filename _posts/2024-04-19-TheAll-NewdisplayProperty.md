@@ -3,17 +3,13 @@ title: "새롭게 변경된 display 속성 정리"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "The All-New display Property"
 link: "https://medium.com/javascript-in-plain-english/the-all-new-display-property-e8a41f7ac396"
 isUpdated: true
 ---
-
-
-
-
 
 ![TheAll-NewdisplayProperty_0](/assets/img/TheAll-NewdisplayProperty_0.png)
 
@@ -23,7 +19,18 @@ Chrome 115부터 CSS display 속성에 여러 값이 존재합니다. display: f
 
 간단하게 말해, 이것은 상자 모델과 같은 것들을 설명하는 방법을 바꿉니다. 명세는 여전히 CR 스냅샷이며, 이는 W3C가 구현자들로부터 경험을 수집하여 표준을 최종화하는 것을 의미합니다. 따라서 이 중 일부는 아직 변경될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리워크 결과로 표시 유형이 두 부분으로 나뉩니다: 외부 표시 유형과 내부 표시 유형입니다.
 
@@ -33,7 +40,18 @@ Chrome 115부터 CSS display 속성에 여러 값이 존재합니다. display: f
 
 따라서 display: flex가 display: block flex로 변경되어 외부 표시 유형이 block(외부에서 블록 요소로 작동)이 되지만 하위 요소들은 플렉스 레이아웃에 따라 렌더링됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 변경으로 인해 전과 같은 동작이지만, 이 변경으로 인해 자식 요소와 주변 요소에 대한 표시 속성의 영향에 대해 이야기할 수 있게 되었습니다. 내 의견으로는, 이러한 멘탈 모델은 더 예측 가능한 레이아웃을 만드는 데 도움이 되며, 다양한 레이아웃 모드와 그 효과를 설명하는 데 더 간단해집니다.
 
@@ -43,7 +61,18 @@ Chrome 115부터 CSS display 속성에 여러 값이 존재합니다. display: f
 
 이미 언급한 바와 같이, 일부 예전 속성은 이제 레거시입니다. 여기 유효한 모든 속성이 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다중 값 구문 표시를 위한: outer-type inner-type valid 외부 유형은 block, inline 및 run-in입니다. 유효한 내부 표시 유형은 flow, flow-root, table, flex, grid 및 ruby입니다.
 
@@ -53,7 +82,18 @@ Chrome 115부터 CSS display 속성에 여러 값이 존재합니다. display: f
 
 다음의 조합들은 이제 고대로 간주됩니다: inline-block, inline-table, inline-flex 및 inline-grid. 이들은 그들의 다중 값 상당품, 예를 들어: display: inline flex로 대체될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최신 버전의 모던 브라우저에서는 다중 값이 지원됩니다: [여기를 참고하세요](https://caniuse.com/mdn-css_properties_display_multi-keyword_values)
 
@@ -64,7 +104,18 @@ Chrome 115부터 CSS display 속성에 여러 값이 존재합니다. display: f
 
 # 간단히 정리
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희 커뮤니티에 참여해 주셔서 감사합니다! 떠나시기 전에:
 

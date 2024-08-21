@@ -3,17 +3,13 @@ title: "HTML, CSS Tailwind 랜딩페이지 템플릿"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "TechDomain  HTML , CSS Domain Tailwind Template Landing Page Templates Web Templates"
 link: "https://medium.com/@codecatalina/techdomain-html-css-domain-tailwind-template-landing-page-templates-web-templates-4ca2af7e4bd3"
 isUpdated: true
 ---
-
-
-
-
 
 ![TechDomain HTML CSS Domain Tailwind Template](/assets/img/TechDomainHTML-CSSDomainTailwindTemplateLandingPageTemplatesWebTemplates_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 TechDomain — 도메인 페이지 Tailwind CSS 3 HTML 템플릿은 도메인을 판매하고 구입하는 데 사용하는 새로운 현대적인 HTML 템플릿입니다. 이것은 한 페이지 도메인 템플릿입니다. 웹사이트, 모바일 앱 또는 기타 도메인 판매 서비스를 제공하는 개인 및 기업을 위해 만들어졌습니다. 도메인 목록, 도메인 판매, 도메인 주차, 판매용 도메인 등을 포함하는 비즈니스에 적합합니다. TechDomain — 도메인 페이지 Tailwind CSS 3 HTML 템플릿은 tailwind CSS 프레임워크로 제작되었습니다. 또한 암호화폐, 라라벨, 이메일 및 커밍순 & 라라벨 템플릿 또는 워드프레스 테마와 함께 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주요 특징:
 
@@ -54,7 +61,18 @@ TechDomain — 도메인 페이지 Tailwind CSS 3 HTML 템플릿은 도메인을
 - 쉽게 다음 프레임워크와 함께 사용 가능: Next, Laravel, Nuxt, Svelte Kit, Qwik, Ruby on Rails, Meteor, Astro, Shopify, .NET, Vue.js, Django, Spring, Flask, CodeIgniter, Symfony, Native, React Native, Ionic, Framework 7
 - 다음 번들러를 사용할 수도 있습니다: Vite, Parcel, Yarn, npm, Gulp
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 항목 태그
 
@@ -64,7 +82,18 @@ TechDomain — 도메인 페이지 Tailwind CSS 3 HTML 템플릿은 도메인을
 
 HTML, CSS, JS, SASS
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 추가 내용
 
@@ -76,7 +105,18 @@ HTML, CSS, JS, SASS
 
 추가 정보
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 비슷한 웹 템플릿
 
@@ -86,7 +126,18 @@ HTML, CSS, JS, SASS
 
 TechPopup — Techzaa가 제작한 이커머스 팝업 HTML 템플릿
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![TechService — HTML & CSS Service Template by Techzaa](/assets/img/TechDomainHTML-CSSDomainTailwindTemplateLandingPageTemplatesWebTemplates_2.png)
 
@@ -94,7 +145,18 @@ TechPeople — Team Card Tailwind & HTML Template by Techzaa
 
 ![TechPeople — Team Card Tailwind & HTML Template by Techzaa](/assets/img/TechDomainHTML-CSSDomainTailwindTemplateLandingPageTemplatesWebTemplates_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/TechDomainHTML-CSSDomainTailwindTemplateLandingPageTemplatesWebTemplates_4.png)
 
@@ -102,7 +164,18 @@ TechFolio — HTML & Tailwind CSS 포트폴리오 템플릿 by Techzaa
 
 ## Techzaa의 다른 제품
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![TechDomainHTML-CSSDomainTailwindTemplateLandingPageTemplatesWebTemplates_5.png](/assets/img/TechDomainHTML-CSSDomainTailwindTemplateLandingPageTemplatesWebTemplates_5.png)
 
@@ -112,7 +185,18 @@ Velonic — React 관리자 및 대시보드 템플릿 by Techzaa
 
 부트 스트랩 관리자 및 대시보드 템플릿 by Techzaa
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/TechDomainHTML-CSSDomainTailwindTemplateLandingPageTemplatesWebTemplates_7.png)
 

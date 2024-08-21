@@ -3,17 +3,13 @@ title: "TailwindCSS를 사용해 유니크한 모양 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-22-HowtomakeUniqueshapesusingTailwindCSS_0.png"
 date: 2024-06-22 15:20
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-HowtomakeUniqueshapesusingTailwindCSS_0.png
 tag: Tech
 originalTitle: "How to make Unique shapes using TailwindCSS"
 link: "https://medium.com/canopas/how-to-make-unique-shapes-using-tailwindcss-18a85523bc15"
 isUpdated: true
 ---
-
-
-
-
 
 ![Unique shapes using Tailwind CSS](/assets/img/2024-06-22-HowtomakeUniqueshapesusingTailwindCSS_0.png)
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 이 모든 것이 항상 쉽지는 않고 일부 작업은 꽤 까다로울 수 있습니다. 그러나 올바른 기술을 보유하고 있다면 이러한 문제를 상대적으로 빨리 해결할 수 있습니다. 그래서 말이야 연습이 완벽을 만든다고 합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS는 단순히 요소를 스타일링하는 데에 그치지 않습니다. CSS 모양을 사용하면 웹 디자이너가 삼각형, 원, 다각형과 같은 사용자 정의 경로를 만들 수 있습니다. ⚪️, 🔷, 🔺, ⭐️, ◾️.
 
@@ -34,8 +40,18 @@ CSS는 단순히 요소를 스타일링하는 데에 그치지 않습니다. CSS
 
 # 목차
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 소개
 - 코드로 모양 예시
@@ -49,24 +65,45 @@ CSS는 단순히 요소를 스타일링하는 데에 그치지 않습니다. CSS
   8. 상단 삼각형
 - 결론
 
-
 # 후원
 
 일상적인 습관이 미래를 결정짓습니다. 올바르게 시작해서 미래를 바꿔보세요!
 
 # 소개
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테일윈드 CSS를 사용하면 미리 정의된 클래스를 활용하여 다양한 모양을 만들 수 있어요.
 
-라운드된 모양을 위해 .rounded-* 클래스와 너비 및 높이를 위해 .w-* 및 .h-* 클래스를 활용하여 원, 사각형, 삼각형 등 다양한 모양을 만들 수 있어요.
+라운드된 모양을 위해 .rounded-_ 클래스와 너비 및 높이를 위해 .w-_ 및 .h-\* 클래스를 활용하여 원, 사각형, 삼각형 등 다양한 모양을 만들 수 있어요.
 
 또한, :before 및 :after 가상 요소를 활용하여 content 속성을 빈 문자열로 설정하고 border 속성을 통해 원하는 모양을 만들 수 있어요.
 
 자신의 기술을 향상시키고 꾸준히 연습한다면 이처럼 간단한 작업도 얼마든지 할 수 있을 거예요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시작해볼까요? 도형 스타일링부터 시작해봅시다! 👉
 
@@ -77,7 +114,18 @@ CSS는 단순히 요소를 스타일링하는 데에 그치지 않습니다. CSS
 
 ## 단계:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - w-*와 h-*를 사용하여 상대적 div를 생성하세요.
 - box content를 사용하여 요소의 상자 크기를 content-box로 설정하면 브라우저가 요소의 지정된 너비나 높이에 테두리와 패딩을 추가하도록 지시됩니다.
@@ -88,7 +136,8 @@ CSS는 단순히 요소를 스타일링하는 데에 그치지 않습니다. CSS
 
 ```js
 <div class="bg-yellow-400 p-20">
-<div class="relative w-[212px] h-[100px] box-content 
+  <div
+    class="relative w-[212px] h-[100px] box-content 
 
 before:content-[''] before:absolute before:top-0 before:left-0
 before:h-[60px] before:w-[60px] before:border-[20px] 
@@ -100,14 +149,25 @@ after:content-[''] after:absolute after-top-0 after:right-0
 after:left-auto after:h-[60px] after:w-[60px] after:border-[20px] 
 after:border-black after:border-solid after:rounded-t-[50px] 
 after:rounded-r-[50px] after:rounded-b-0 after:rounded-l-0 
-after:rotate-45 after:box-content">
-</div>
+after:rotate-45 after:box-content"
+  ></div>
 </div>
 ```
 
 # 음양
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-22-HowtomakeUniqueshapesusingTailwindCSS_2.png" />
 
@@ -117,7 +177,18 @@ after:rotate-45 after:box-content">
 
 ## 1. 도형 생성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리의 인연 체형의 두 부분을 구별하기 위해 원 형태를 만들고 검은색과 흰색을 사용해야 합니다.
 
@@ -127,21 +198,45 @@ after:rotate-45 after:box-content">
 
 3. 이제 우리는 정사각형을 가지고 있으므로 테두리 반경을 50%로 설정하여 이를 원으로 바꿀 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 배경 속성 때문에 왼쪽은 흰색이고, 테두리 색상이 검정으로 설정되어 오른쪽은 검은색입니다.
 
 ```js
-<div class="w-[96px] box-content h-[48px] bg-[#eee] border-solid 
+<div
+  class="w-[96px] box-content h-[48px] bg-[#eee] border-solid 
 border-[#000] border-x-2 border-t-2 border-b-[50px] 
-rounded-full relative"></div>
+rounded-full relative"
+></div>
 ```
 
 ## 2. 내부 원
 
 두 원 모두 같은 아이디어로 이루어져 있습니다. 이를 CSS 가상 요소인 :before와 :after를 사용하여 수행할 것입니다. 가상 요소를 사용하면 DOM이 아닌 요소를 생성하고 요소 내용의 특정 부분을 스타일링할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 주요 속성은 content-none, box-content, absolute, border, rounded, left, top, height 및 width입니다.
 
@@ -151,11 +246,22 @@ rounded-full relative"></div>
 
 그리고... 완료되었습니다. 여기 우리의 YinYang 💁
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <div before:content-[''] before:absolute before:top-[50%] before:left-0
-before:bg-[#000] before:border-[18px] before:border-[#eee] 
+before:bg-[#000] before:border-[18px] before:border-[#eee]
 before:border-solid before:rounded-full before:h-[12px] before:w-[12px]
  before:box-content></div>
 ```
@@ -164,7 +270,8 @@ before:border-solid before:rounded-full before:h-[12px] before:w-[12px]
 
 ```js
 <div class="bg-yellow-400  p-20">
-<div class="w-[96px] box-content h-[48px] bg-[#eee] border-solid 
+  <div
+    class="w-[96px] box-content h-[48px] bg-[#eee] border-solid 
 border-[#000] border-x-2 border-t-2 border-b-[50px] rounded-full relative 
 
 before:content-[''] before:absolute before:top-[50%] before:left-0
@@ -174,17 +281,27 @@ before:box-content
 
 after:content-[''] after:absolute after:top-[50%] after:left-[50%] 
 after:bg-[#eee] after:border-[18px] after:border-[#000] after:border-solid 
-after:rounded-full after:h-[12px] after:w-[12px] after:box-content">
-</div>
+after:rounded-full after:h-[12px] after:w-[12px] after:box-content"
+  ></div>
 </div>
 ```
 
 # Egg
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <table> 태그를 Markdown 형식으로 변경해주세요.
-
 
 You’ll need to manipulate the height , width and sprinkle ⭐️ some colors in it then add rounded[50%/60%_60%_40%_40%] .
 
@@ -194,13 +311,25 @@ Using the value to transform the egg using some shadow, to make it look cool. Ea
 
 ```js
 <div class="bg-yellow-400  p-20">
-  <div class="block w-[192px] h-[280px] bg-black 
- rounded-[50%/60%_60%_40%_40%]drop-shadow-[0px_15px_3px_rgba(0,0,0,0.25)]">
- </div>
+  <div
+    class="block w-[192px] h-[280px] bg-black 
+ rounded-[50%/60%_60%_40%_40%]drop-shadow-[0px_15px_3px_rgba(0,0,0,0.25)]"
+  ></div>
 </div>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 하트
 
@@ -211,7 +340,18 @@ after에서는 left-0, after에서 origin-[100%_100%] 입니다.
 
 그게 전부에요. 아주 쉽죠~ 😃
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마침내, 변환의 출발점을 지정하는 transform-origin을 사용할 수 있습니다.
 
@@ -219,8 +359,8 @@ after에서는 left-0, after에서 origin-[100%_100%] 입니다.
 
 ```js
 <div class="bg-yellow-400  p-20">
-
-<div class="relative w-[100px] h-[90px]
+  <div
+    class="relative w-[100px] h-[90px]
 before:content-[''] before:absolute before:top-0 before:left-[50px]
 before:h-[80px] before:w-[50px] before:rounded-t-[50px] 
 before:rounded-r-[50px]before:rounded-b-0 before:rounded-l-0 
@@ -230,14 +370,25 @@ after:content-[''] after:absolute after:top-0 after:left-0 after:h-[80px]
 after:w-[50px] after:rounded-t-[50px] after:rounded-r-[50px] 
 after:rounded-b-0 after:rounded-l-0 after:bg-black after:rotate-45
 after:origin-[100%_100%]
-">
-</div>
+"
+  ></div>
 </div>
 ```
 
 # 다이아몬드
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위치를 이용하여 위로 향한 두 삼각형과 아래로 향한 두 삼각형을 조합하여 마름모 모양을 형성해보겠습니다. 네, 이 삼각형들은 테두리 속성을 사용하여 만들 것입니다.
 
@@ -249,18 +400,31 @@ after:origin-[100%_100%]
 
 ```js
 <div class="bg-yellow-400 p-20">
-  <div class="relative top-[-3em] w-0 h-0 border-t-[50px] 
+  <div
+    class="relative top-[-3em] w-0 h-0 border-t-[50px] 
     border-t-transparent border-solid border-x-transparent border-x-[3em]  
     border-b-[1.25em] border-black
     after:content-none after:absolute after:left-[-3em] after:top-[1.25em]
     after:h-0 after:w-0 after:border-b-[3em] after:border-solid 
     after:border-x-transparent after:border-b-transparent after:border-x-[3em] 
     after:border-t-[4.4em] after:border-t-black
-  "></div>
+  "
+  ></div>
 </div>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 타원
 
@@ -270,24 +434,46 @@ after:origin-[100%_100%]
 
 ```js
 <div class="p-12 h-[50%] mx-auto my-auto bg-yellow-400">
-<div class="h-[50px] w-[100px] bg-[#000] rounded-[50%]"></div>
+  <div class="h-[50px] w-[100px] bg-[#000] rounded-[50%]"></div>
 </div>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 삼각형-우측
 
 해야 할 일은 `div`를 만들고 border-left, border-right, border-bottom, 높이 및 너비를 주는 것뿐입니다.
 
 ```js
-<div class="h-0 w-0 border-t-[25px] border-l-[55px] border-b-[25px] 
+<div class="h-0 w-0 border-t-[25px] border-l-[55px] border-b-[25px]
 border-solid border-t-transparent border-b-transparent border-l-[#555]">
 ```
 
 <img src="/assets/img/2024-06-22-HowtomakeUniqueshapesusingTailwindCSS_7.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 삼각형 모양 만들기
 
@@ -297,13 +483,26 @@ border-solid border-t-transparent border-b-transparent border-l-[#555]">
 
 ```html
 <div class="bg-yellow-400 mx-auto h-full p-20">
-<div class="mx-auto h-0 w-0 border-r-[25px] border-b-[55px] 
+  <div
+    class="mx-auto h-0 w-0 border-r-[25px] border-b-[55px] 
 border-l-[25px] border-solid border-r-transparent
-border-l-transparent border-b-[#000]">
+border-l-transparent border-b-[#000]"
+  ></div>
 </div>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 문서에서 다룬 내용입니다.
 
@@ -313,7 +512,18 @@ border-l-transparent border-b-[#000]">
 
 이제 몇 줄의 코드로 생성할 수 있는 다양한 순수 CSS 이미지에 익숙해져 있을 것입니다. 코드 조작이 어려운 작업이 아닌 만들어 질 수 있게 되었다면, 초고속 웹사이트를 구축할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가장 좋은 부분은 필요에 따라 다양한 모양과 색상을 조작하여 브랜드의 음성에 공감할 수 있다는 것입니다.
 
@@ -323,7 +533,18 @@ border-l-transparent border-b-[#000]">
 
 만약 읽은 내용이 마음에 드신다면, 👏👏👏을 아래에 남겨주시기를 빌며 - 작가로서 그것은 세상을 의미합니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 피드백과 제안은 언제나 환영합니다. 아래 댓글란에 남겨주세요.
 

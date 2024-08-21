@@ -3,16 +3,13 @@ title: "앵귤러에서 마이크로 프론트엔드 애플리케이션 만드�
 description: ""
 coverImage: "/assets/img/2024-05-27-AGuidetoModuleFederationandMicro-FrontendApplicationsinAngularPart1_0.png"
 date: 2024-05-27 19:02
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-AGuidetoModuleFederationandMicro-FrontendApplicationsinAngularPart1_0.png
 tag: Tech
 originalTitle: "A Guide to Module Federation and Micro-Frontend Applications in Angular — Part 1"
 link: "https://medium.com/@hurkanugur/a-guide-to-module-federation-and-micro-frontend-applications-in-angular-part-1-1ec0a62191b5"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-05-27-AGuidetoModuleFederationandMicro-FrontendApplicationsinAngularPart1_0.png" />
 
@@ -23,7 +20,18 @@ isUpdated: true
 - Angular에서 Micro-Frontend 애플리케이션 소개
 - Angular에서 간단한 호스트 및 Micro-Frontend 애플리케이션 생성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 소개
 
@@ -33,7 +41,18 @@ isUpdated: true
 
 # 마이크로 프론트엔드란 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마이크로 프론트엔드 아키텍처를 생각해보면 번화한 쇼핑몰의 푸드코트와 비슷합니다. 각 음식점(마이크로 프론트엔드)은 독립적으로 운영되어 독특한 요리를 제공합니다. 피자 전문점, 스시 전문점, 햄버거 전문점 등이 있습니다. 각 음식점은 독립적으로 관리되고 운영되며 재고가 구비되지만, 함께하면 쇼핑몰 방문객들에게 즐거운 다이닝 경험을 선사합니다.
 
@@ -43,7 +62,18 @@ isUpdated: true
 
 캠핑용품을 준비하는 것과 같습니다. 텐트, 음식, 옷, 캠핑 장비가 필요합니다. 이 모든 것을 하나의 큰 가방에 랜덤하게 넣는 대신, 특정 카테고리에 지정된 여러 작은 가방을 사용합니다. 이렇게 하면 물건을 싸고, 찾고, 사용하는 것이 훨씬 쉽고 효율적입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹팩 5은 자바스크립트 애플리케이션을 위한 궁극적인 패킹 시스템 같아요. 자바스크립트 파일, 스타일, 이미지, 그리고 다른 에셋들을 효율적으로 정리하고 패킹하는 모듈 번들러에요. 아래는 웹팩 5의 주요 기능들이에요:
 
@@ -57,7 +87,18 @@ isUpdated: true
 
 레고 블럭을 사용해 건물을 지을 때, 각각의 레고 블럭은 독립적인 부분으로, 독립적으로 사용하거나 다른 블럭들과 결합하여 더 큰 것을 만들 수 있어요. 각 블럭이 어느 세트에서 왔는지 고민할 필요는 없어요; 어디에 놓든 그대로 작동해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Angular에서 독립형 컴포넌트는 다양하고 다재다능한 레고 블록과 같습니다. 이들은 특정 NgModule에 바인딩되지 않은 Angular 컴포넌트로, NgModule 선언 내에서 명시적으로 가져오기 및 내보내기가 필요 없이 응용 프로그램의 여러 부분에서 사용할 수 있습니다.
 
@@ -73,7 +114,18 @@ Angular에서 독립형 컴포넌트는 다양하고 다재다능한 레고 블�
 
 # 관련 링크:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-- **Angular에서 모듈 연합 및 마이크로 프론트엔드 애플리케이션 가이드 - 파트 1**  
-- **Angular에서 모듈 연합 및 마이크로 프론트엔드 애플리케이션 가이드 - 파트 2**  
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+- **Angular에서 모듈 연합 및 마이크로 프론트엔드 애플리케이션 가이드 - 파트 1**
+- **Angular에서 모듈 연합 및 마이크로 프론트엔드 애플리케이션 가이드 - 파트 2**

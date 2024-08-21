@@ -3,17 +3,13 @@ title: "React Next JS를 AWS EC2에 효율적으로 배포하는 방법 BitBucke
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Efficient Deployment of React Next JS on AWS EC2 with BitBucket CI CD"
 link: "https://medium.com/devops-dev/efficient-deployment-of-react-next-js-on-aws-ec2-with-bitbucket-ci-cd-65f410c2f2e7"
 isUpdated: true
 ---
-
-
-
-
 
 ![Efficient Deployment of React/Next.js on AWS EC2 with BitBucket CI/CD](/assets/img/EfficientDeploymentofReactNextJSonAWSEC2withBitBucketCICD_0.png)
 
@@ -30,7 +26,18 @@ AWS EC2를 이용하여 React/Next.js 웹 애플리케이션을 BitBucket의 CI/
 - 배포 프로세스 최종화 및 테스트
 - 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 소개
 
@@ -40,7 +47,18 @@ React/Next JS 애플리케이션을 효율적으로 배포하는 것은 오늘�
 
 # 선행 조건
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 가이드를 따르려면 다음이 필요합니다:
 
@@ -52,7 +70,18 @@ React/Next JS 애플리케이션을 효율적으로 배포하는 것은 오늘�
 
 # AWS EC2 배포 설정
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React/Next JS 어플리케이션을 AWS EC2에 배포하려면 튼튼한 기반이 필요합니다. 이 섹션에서는 EC2 인스턴스를 설정하여 어플리케이션을 효과적으로 호스팅하고 관리하기 위한 필수 도구와 서비스를 안내합니다.
 
@@ -63,7 +92,18 @@ React/Next JS 어플리케이션을 AWS EC2에 배포하려면 튼튼한 기반�
 
 2. PM2 설정하기:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - PM2은 Node JS 애플리케이션용 강력한 프로세스 관리자로, 앱을 백그라운드에서 유지하고 프로세스를 효율적으로 관리하는 데 도움이 됩니다. 앱이 충돌하거나 서버가 다시 부팅될 경우 자동으로 애플리케이션을 다시 시작하도록 npm을 통해 PM2를 설치하세요. (링크)
 - PM2를 설치한 후 코드로 이동하여 빌드 명령을 실행하여 프로젝트 빌드를 생성하고, 그 후에 pm2를 사용하여 애플리케이션을 시작할 수 있습니다.
@@ -80,7 +120,18 @@ npm run build && pm2 start "애플리케이션 이름"
 - sites-available 디렉토리에 있는 Nginx 구성 파일을 수정합니다. 또는 sites-available 내에 새 파일을 생성할 수 있습니다. 여기서 PM2에서 실행 중인 React/Next JS 애플리케이션으로의 요청을 프로기하려면 서버 구성 내의 location 블록을 구성하여 http://localhost:3000 또는 pm2가 서버를 시작하는 포트로 요청을 프록시하도록 설정합니다. 앱이 들어오는 트래픽을 수신하는 포트입니다.
 - Nginx sites-available 디렉토리 파일 샘플.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 server {
@@ -105,7 +156,18 @@ server {
 - Nginx와 PM2가 구성된 후에 설정을 테스트하여 Nginx가 요청을 애플리케이션으로 올바르게 전달하고 PM2가 애플리케이션을 원활하게 실행하는지 확인하는 것이 중요합니다.
 - 브라우저를 열고 공용 IP로 프로젝트가 브라우저에서 제대로 보이는지 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 http://18.xxx.xxx.xx:3000
@@ -117,7 +179,18 @@ http://18.xxx.xxx.xx:3000
 
 # Bitbucket와 AWS EC2 사이의 SSH 연결 설정하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Bitbucket 파이프라인을 활용하여 배포 프로세스를 자동화하면 AWS EC2 서버로 업데이트를 쉽게 전송할 수 있습니다. 이 섹션에서는 원활한 배포를 위해 안전한 SSH 통신을 설정하는 방법을 설명합니다.
 
@@ -130,7 +203,18 @@ Bitbucket과 AWS EC2 인스턴스 간의 신뢰할 수 있는 연결을 구축�
 ssh-keygen -y -f key.pem > key.pub
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1. Bitbucket에 SSH 키 저장하기:
 
@@ -143,7 +227,18 @@ ssh-keygen -y -f key.pem > key.pub
 - AWS EC2 인스턴스에서 `~/.ssh/authorized_keys` 파일에 액세스합니다.
 - 생성한 공개 키를 이 파일에 추가합니다. 이 단계를 통해 Bitbucket이 Bitbucket의 설정에 저장된 개인 키를 사용하여 EC2 서버에 연결을 설정할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 성공:
 위 단계를 통해 Bitbucket과 AWS EC2 인스턴스에서 SSH 키를 성공적으로 구성하여 배포 프로세스에 안전한 채널을 만들었습니다. 이 설정을 통해 Bitbucket에서 AWS EC2로의 배포가 자동화되고 안전하게 이루어지며, 응용 프로그램에 효율적이고 신뢰할 수 있는 업데이트가 가능해집니다.
@@ -154,7 +249,18 @@ React/Next JS 애플리케이션을 AWS EC2로 배포하기 전에 운영 환경
 
 프로덕션 빌드 생성:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 명령어: 서버의 프로젝트 루트 디렉토리에서 `npm run build`를 실행하세요. 이 명령은 애플리케이션을 프로덕션에 최적화된 정적 파일로 컴파일합니다. Next JS 앱은 `.next` 폴더를 보이고, React 앱은 `build` 폴더를 가집니다.
 - 확인: 프로덕션 빌드 파일이 있는지 확인하기 위해 출력 디렉토리를 확인하세요. 배포 준비가 끝나면 웹사이트를 업데이트한 내용을 확인하려면 PM2를 다시 시작해야 합니다.
@@ -168,7 +274,18 @@ pm2 restart "애플리케이션 이름"
 - 최적화: 성능 향상이 되어 사용자 경험과 SEO에 필수적입니다.
 - 신뢰성: 특정 환경 오류를 최소화하여 프로덕션 환경에서 애플리케이션이 원할하게 작동함을 보장합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 생산 빌드가 완료되어, 응용 프로그램은 AWS EC2 서버로의 다음 배포 단계를 위해 준비가 되었습니다.
 
@@ -178,7 +295,18 @@ React/Next JS 응용 프로그램을 AWS EC2로 효율적으로 배포하는 과
 
 배포 자동화:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 배포 자동화는 비트버킷 리포지토리에서 bitbucket-pipelines.yml 파일을 구성하는 작업을 포함합니다. 이 YAML 파일은 테스트, 빌드, 및 애플리케이션 배포와 같은 배포 파이프라인 단계를 정의합니다.
 - 예시 bitbucket-pipelines.yml 구성:
@@ -211,7 +339,18 @@ pipelines:
 
 배포 파이프라인을 성공적으로 설정하는 것은 중요한 이정표입니다. 마지막 단계는 배포 프로세스가 의도대로 작동하고 AWS EC2 서버로 업데이트를 자동으로 푸시하며 지속성과 관리를 위해 PM2로 애플리케이션을 관리하는지 확인하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 업데이트 배포하기:
 
@@ -224,7 +363,18 @@ pipelines:
 - 라이브 애플리케이션 확인: 파이프라인이 완료되면 새 변경 사항이 정상적으로 작동하는지 확인하기 위해 공용 URL에서 애플리케이션에 접속합니다.
 - PM2 상태 확인: AWS EC2 인스턴스에 로그인하여 pm2 list를 사용하여 애플리케이션이 실행 중인지 확인하고 프로세스 상태를 확인합니다. 이렇게 함으로써 PM2가 성공적으로 배포 후 애플리케이션을 다시 시작했는지 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -234,6 +384,17 @@ React/Next JS 애플리케이션을 Bitbucket CI/CD를 사용하여 AWS EC2에 �
 
 계속해서 AWS, Bitbucket 및 PM2의 기능을 탐색하십시오. 배포 파이프라인을 더 최적화하여 애플리케이션이 사용자에게 최상의 경험을 제공하도록 확실하게 하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 다음에 또 만나요! 코딩 즐기세요!!

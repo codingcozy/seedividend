@@ -3,17 +3,13 @@ title: "Reactjs에서 자식 컴포넌트에서 부모 컴포넌트의 함수 �
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Calling Parent Components Function from Child Component in Reactjs"
 link: "https://medium.com/@s.salman0193/calling-parent-components-function-from-child-component-in-react-js-e2d550ccd66b"
 isUpdated: true
 ---
-
-
-
-
 
 React.js에서는 데이터와 함수를 부모 컴포넌트에서 자식 컴포넌트로 props를 통해 전달하는 것이 일반적입니다. 그러나 자식 컴포넌트에서 부모 컴포넌트의 함수를 호출해야 하는 경우는 어떨까요? 자식 컴포넌트 내에서 발생하는 이벤트를 기반으로 부모의 상태를 업데이트하거나 다른 작업을 수행해야 할 때 이러한 상황이 발생할 수 있습니다. 다행히 React는 이를 달성하기 위한 간편하고 효과적인 방법을 제공합니다.
 
@@ -23,7 +19,18 @@ React.js에서는 데이터와 함수를 부모 컴포넌트에서 자식 컴포
 
 - 부모 컴포넌트에서 자식 컴포넌트로 전달할 함수를 정의합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import React, { useState } from "react";
@@ -57,7 +64,18 @@ export default ChildComponent;
 
 방법 2: Ref 사용하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 부모 컴포넌트의 함수를 자식 컴포넌트에서 호출하는 또 다른 방법은 refs를 사용하는 것입니다. 이 방법은 부모 함수를 직접 호출해야 할 때 유용합니다. 예를 들어, 폼 제출이나 API 호출과 같은 경우입니다.
 
@@ -83,7 +101,18 @@ export default ParentComponent;
 
 - 자식 컴포넌트에서 useImperativeHandle을 사용하여 부모 함수를 노출하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import React, { forwardRef, useImperativeHandle } from "react";
@@ -105,7 +134,3 @@ export default ChildComponent;
 결론
 
 React.js에서 자식 컴포넌트에서 부모 컴포넌트의 함수를 호출하는 것은 콜백 함수 또는 ref를 사용하여 수행할 수 있습니다. 이러한 간단한 방법을 따르면 부모 및 자식 컴포넌트 간의 원활한 통신을 구축하여 더 다이내믹하고 인터랙티브한 애플리케이션을 개발할 수 있습니다. 콜백 함수 또는 ref 중 어떤 것을 선택할지는 특정 사용 사례에 따라 다를 수 있지만, 두 가지 방법 모두 컴포넌트 간 상호 작용을 유연하게 관리하는 데 강력하고 유연성을 제공합니다.
-
-
-
-

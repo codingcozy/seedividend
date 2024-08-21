@@ -3,16 +3,13 @@ title: "개인 블로그를 HTMX + Go로 만들기1 - Golang 템플릿 설정"
 description: ""
 coverImage: "/assets/img/2024-05-01-PersonalBlogwithHTMXGoPart1GolangTemplatingSetup_0.png"
 date: 2024-05-01 23:15
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-01-PersonalBlogwithHTMXGoPart1GolangTemplatingSetup_0.png
 tag: Tech
 originalTitle: "Personal Blog with HTMX + Go Part 1 — Golang Templating Setup"
 link: "https://medium.com/gravel-engineering/this-blogpost-also-posted-in-my-personal-blog-which-you-can-access-here-dd856c61001"
 isUpdated: true
 ---
-
-
-
 
 이 블로그 포스트는 내 개인 블로그에도 게시되어 있으며 여기에서 액세스할 수 있습니다.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 이것은 HTMX + Go 여정의 첫 번째이며, 제 개인 블로그를 위해 HTMX를 처음으로 설정하는 과정을 기록할 것입니다 (만약 이 기사를 Medium에서 읽는다면 여기를 방문할 수 있습니다).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 세부적인 튜토리얼처럼 프로세스를 상세히 다루지는 않겠습니다. 대신, 제가 무엇을 하고 있는지, 무엇이 저를 방해하는지, 그리고 어떻게 극복했는지(또는 우회했는지)를 문서화하는 저의 일지처럼 다룰 예정입니다. 그리고 그 과정 중에 발견한 다양한 잡다한 것들도 함께 공유할 거에요.
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 # 템플릿 랜더러
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우선 Labstack Echo를 사용하여 HTML 파일을 제공할 수 있는지 확인해야 합니다. 나는 개인적으로 HTTP 라우터로 선택한 것이기 때문에. Echo의 가이드에서 템플릿 섹션을 따르면 Echo의 Renderer 인터페이스를 구현하는 "템플릿 렌더러"를 제공해야 합니다.
 
@@ -65,7 +84,18 @@ func newTemplate(templates *template.Template) echo.Renderer {
 
 이 템플릿 렌더러의 아이디어는 HTML 템플릿 파일을 넣은 경로를 나타내는 문자열의 가변 매개변수를 제공할 수 있다는 것입니다. 이것은 template.ParseGlob이 재귀적으로 템플릿 파일을 찾을 수 없기 때문에 필요합니다. 또한, html/template을 가져오지 말고 text/template을 가져와야 한다는 것을 잊지 마세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 안녕, 세상아
 
@@ -89,14 +119,25 @@ func newTemplate(templates *template.Template) echo.Renderer {
 
 이것은 그저 간단한 HTML 파일입니다. 그러나 HTML 파일을 감싸는 이중 중괄호({})에 주목해주세요. 이는 Go 템플릿 태그입니다. 위 예시에서는 단순히 나중에 Go 코드에서 직접 액세스할 수 있는 index라는 이름의 새로운 템플릿을 정의했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 간단한 echo 서버를 만들어 봅시다:
 
 ```js
 func main() {
     e := echo.New()
-    
+
     // 약간의 미들웨어를 추가하여 housekeeping
     e.Pre(middleware.RemoveTrailingSlash())
     e.Use(middleware.Recover())
@@ -118,7 +159,18 @@ func main() {
 
 <img src="/assets/img/2024-05-01-PersonalBlogwithHTMXGoPart1GolangTemplatingSetup_0.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 템플릿에 값 전달하기
 
@@ -131,7 +183,18 @@ func main() {
 
 다시 한 번 중괄호를 두 개 사용했네요. 이 예제에서는 html 파일로 Name이라는 값을 전달하려고 합니다. 그러면 서버도 조금 수정해야겠죠?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 e.GET("/hello", func(e echo.Context) error {
@@ -148,7 +211,18 @@ e.GET("/hello", func(e echo.Context) error {
 
 # 중첩 템플릿 및 템플릿 간 값 전달하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 HTMX를 다루기 전에 마지막으로 확인할 사항은 index 템플릿 내에 다른 템플릿을 중첩할 수 있는지입니다. 이를 위해 name_card.html이라는 간단한 템플릿 파일을 만들었습니다:
 
@@ -173,7 +247,18 @@ e.GET("/hello", func(e echo.Context) error {
 {template "name_card" .}
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러면 우리는 다시 한번 서버를 수정해야 합니다:
 
@@ -192,7 +277,18 @@ e.GET("/hello", func(e echo.Context) error {
 
 그리고 우리는 중괄호를 사용하여 name_card에서 해당 값을 액세스합니다. 그러나 name_card 템플릿이 값을 받도록 하려면 index.html 내에서 template "name_card" .의 내부에서 추가 . 를 통해 res 값을 전달해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 당연히:
 
@@ -202,14 +298,29 @@ e.GET("/hello", func(e echo.Context) error {
 
 # HTMX를 사용하여 연락처 정보 공개하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단한 뷰를 만들려고 해요. 이름과 그 옆에 연락처 정보를 공개하기 위한 버튼이 있는 목록을 만들 거예요. 이를 위해서 먼저 이 프로젝트에 HTMX를 추가해야 해요. 일단 CDN을 통해 추가할 거에요:
 
 ```js
 <head>
-    ...
-    <script src="https://unpkg.com/htmx.org@1.9.5" integrity="sha384-xcuj3WpfgjlKF+FXhSQFQ0ZNr39ln+hwjN3npfM9VBnUskLolQAcN80McRIVOPuO" crossorigin="anonymous"></script>
+  ...
+  <script
+    src="https://unpkg.com/htmx.org@1.9.5"
+    integrity="sha384-xcuj3WpfgjlKF+FXhSQFQ0ZNr39ln+hwjN3npfM9VBnUskLolQAcN80McRIVOPuO"
+    crossorigin="anonymous"
+  ></script>
 </head>
 ```
 
@@ -224,7 +335,18 @@ e.GET("/hello", func(e echo.Context) error {
 </div>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이렇게 하면 UI가 이름 부분만 표시되도록 설정되며, /get-info 엔드포인트를 호출할 버튼을 설정하고 #user-info 요소를 대상으로 하여 대상 요소의 내부 부분을 바꿀 것입니다 (기본적으로 `div`를 그대로 두고 `div` 내부의 모든 것을 변경합니다).
 
@@ -243,7 +365,18 @@ e.GET("/get-info", func(c echo.Context) error {
 
 이는 거의 /hello와 동일하지만 두 가지 주요 차이점이 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 경로를 명확하게 /get-info로 변경해주세요.
 - 대상 템플릿을 name_card로 변경해주세요.
@@ -254,7 +387,18 @@ e.GET("/get-info", func(c echo.Context) error {
 
 와우! 제작품이 동작합니다! 이제 HTMX가 Go 템플릿과 잘 동작한다는 것을 알게 되었으니, 드디어 블로깅 사이트를 작업할 수 있겠네요. 그러나 불행히도 이 기사에서는 다루지 않을 거예요. 하지만 곧 돌아올 테니까, 그렇게 길지 않겠죠!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -264,7 +408,18 @@ e.GET("/get-info", func(c echo.Context) error {
 
 그러니 기대해 주세요! 읽어 주셔서 감사합니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 수정되었습니다! 두 번째 부분이 나왔어요! 다음 링크에서 읽을 수 있어요:
 

@@ -3,17 +3,13 @@ title: "flyio and Tigris로 Nextjs 사이트 배포하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How to use flyio and Tigris to deploy a Nextjs app"
 link: "https://medium.com/javascript-in-plain-english/how-to-use-fly-io-and-tigris-to-deploy-a-next-js-app-bb7d09922669"
 isUpdated: true
 ---
-
-
-
-
 
 ![How to use fly.io and Tigris to deploy a Next.js app](/assets/img/HowtouseflyioandTigristodeployaNextjsapp_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 Amazon S3 버킷은 AWS(Amazon Web Services)의 Simple Storage Service (S3) 플랫폼을 통해 접근할 수 있는 퍼블릭 클라우드 저장소 자원입니다. 전 세계에 분산되어 있는 S3 호환 객체 저장 서비스 Tigris가 사용하는 저지연 저장소는 그 중요한 기능입니다. 이는 Tigris에서 Amazon의 S3 버킷에 접근하여 저장소 요구 사항을 충족할 수 있다는 것을 의미합니다. Tigris는 Fly.io와 완전히 통합되어 있으며, Fly.io의 하드웨어에서 작동하는 flyctl과 완전히 통합되어 있습니다. Fly.io의 명령줄 인터페이스인 flyctl을 통해 계정 생성부터 애플리케이션 배포까지 플랫폼을 다룰 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 플랫폼의 기초를 배우기 위해 사용자 데이터베이스 애플리케이션을 만들 것입니다. 이해하기 쉽습니다. 사실, 우리는 읽기, 추가, 수정 및 삭제와 같은 전체 CRUD 요청을 수행할 수 있어야 합니다. Next.js가 주요 프레임워크가 될 것이며, 별도의 서버를 생성하지 않고도 풀 스택 앱을 구축할 수 있도록 해줍니다.
 
@@ -33,7 +40,18 @@ fly.io와 tigris에 대해 더 알아보고, 두 플랫폼에 계정을 생성�
 
 이 프로젝트에서 온라인으로 코드베이스를 찾을 수 있습니다: [https://github.com/andrewbaisden/fly-tigris-user-database](https://github.com/andrewbaisden/fly-tigris-user-database).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # fly.io와 Tigris에서 계정 만들기
 
@@ -44,7 +62,18 @@ fly.io와 tigris에 대해 더 알아보고, 두 플랫폼에 계정을 생성�
 
 자, 다음 단계로 넘어가서 프로젝트를 설정하고 Tigris 버킷 스토리지를 만들어봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 사용자 데이터베이스 프로젝트 설정하기
 
@@ -56,7 +85,18 @@ fly.io와 tigris에 대해 더 알아보고, 두 플랫폼에 계정을 생성�
 npx create-next-app .
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 설치해야 할 패키지는 @aws-sdk/client-s3 하나 뿐이에요. 이 패키지는 우리의 버킷에 연결하기 위해 필요합니다. 다음 명령어로 설치하세요:
 
@@ -68,7 +108,18 @@ npm install @aws-sdk/client-s3
 
 다음 명령어를 실행해 버킷을 생성하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 플라이 스토리지 생성
@@ -86,7 +137,18 @@ BUCKET_NAME: 당신의 버킷 이름
 
 당신의 Next.js 프로젝트 루트에 .env.local 파일을 생성하고, 이 비밀 환경 변수를 모두 복사해서 붙여넣으세요. 아직 끝나지 않았어요. 이 환경 변수들이 우리의 Next.js 애플리케이션 안에서 제대로 작동하려면, 그들의 이름을 공개적으로 만들어야 해요. 아래 예시를 참고하고 .env.local 파일을 수정해주세요. 또한 맨 위에 로컬호스트를 위한 별도의 환경 변수를 생성해주세요. 코드베이스를 fly.io에 업로드할 때 NEXT_PUBLIC_SECRET_HOST 환경 변수를 온라인 경로로 변경할 거에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 NEXT_PUBLIC_SECRET_HOST: http://localhost:3000
@@ -104,7 +166,18 @@ NEXT_PUBLIC_SECRET_BUCKET_NAME: 당신의 버킷 이름
 
 좋아요, 첫 번째 단계를 마쳤어요. 온라인으로 앱 데이터를 저장할 버킷이 있으니 다음 섹션에서 애플리케이션을 만드는 것을 시작할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 사용자 데이터베이스 애플리케이션 구축하기
 
@@ -114,7 +187,18 @@ NEXT_PUBLIC_SECRET_BUCKET_NAME: 당신의 버킷 이름
 
 먼저 백엔드 아키텍처를 만들어봅시다. CRUD 요청마다 1개씩 4개의 엔드포인트를 만들 것이에요. 또한 사용자를 객체 저장소에서 가져오는 몇 가지 함수가 있는 도우미 파일이 필요합니다. 프로젝트의 루트 디렉토리로 이동하지 않았다면 아래 명령을 실행하여 모든 파일과 폴더를 빠르게 설정해주세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 cd src/app
@@ -133,11 +217,7 @@ touch helpers/getUsers.js
 먼저 helpers 파일을 수정해봅시다. helpers/getUsers.js 파일에 이 코드를 넣어주세요. 앞서 말했듯이 이 파일에는 사용자를 가져오고, 이메일 또는 ID에 따라 사용자를 가져오는 함수가 들어 있습니다:
 
 ```js
-import {
-  S3Client,
-  ListObjectsV2Command,
-  GetObjectCommand,
-} from "@aws-sdk/client-s3";
+import { S3Client, ListObjectsV2Command, GetObjectCommand } from "@aws-sdk/client-s3";
 
 const streamToString = (stream) =>
   new Promise((resolve, reject) => {
@@ -196,23 +276,28 @@ export async function getUserByIdEmail(users, email) {
   if (!users) {
     console.log("no users");
   } else {
-    return users.find(
-      (user) => user.email.toLowerCase() === email.toLowerCase()
-    );
+    return users.find((user) => user.email.toLowerCase() === email.toLowerCase());
   }
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 알겠어요, 이제는 경로만 남았네요. 사용자들을 Tigris 버킷에서 모두 가져올 GET 경로를 만들어 볼 거에요. 그러니 getusers/route.js 파일에 이 코드를 넣어보세요:
 
 ```js
-import {
-  S3Client,
-  ListObjectsV2Command,
-  GetObjectCommand,
-} from "@aws-sdk/client-s3";
+import { S3Client, ListObjectsV2Command, GetObjectCommand } from "@aws-sdk/client-s3";
 
 export async function GET() {
   const streamToString = (stream) =>
@@ -267,10 +352,7 @@ export async function GET() {
     return new Response(JSON.stringify(users), { status: 200 });
   } catch (e) {
     console.error("Error:", e);
-    return new Response(
-      JSON.stringify({ error: e.message || "Unknown error" }),
-      { status: 500 }
-    );
+    return new Response(JSON.stringify({ error: e.message || "Unknown error" }), { status: 500 });
   }
 }
 ```
@@ -326,18 +408,25 @@ export async function POST(req) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이어서 UPDATE 루트를 따라가면 이 코드를 통해 버킷 내의 데이터를 업데이트할 수 있습니다. 이 코드는 updateuser/route.js에 들어갑니다:
 
 ```js
 import { getUserById, fetchAllUsersFromS3 } from "../../helpers/getUsers";
 
-import {
-  S3Client,
-  DeleteObjectCommand,
-  PutObjectCommand,
-} from "@aws-sdk/client-s3";
+import { S3Client, DeleteObjectCommand, PutObjectCommand } from "@aws-sdk/client-s3";
 export async function PUT(req) {
   try {
     const { firstname, lastname, email, originalEmail, id } = await req.json();
@@ -432,11 +521,33 @@ export async function DELETE(req) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 마크다운 형식으로 변경해 주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![How to use fly.io and Tigris to deploy a Next.js app](/assets/img/HowtouseflyioandTigristodeployaNextjsapp_3.png)
 
@@ -446,7 +557,18 @@ Doing POST Requests
 
 ![How to use fly.io and Tigris to deploy a Next.js app](/assets/img/HowtouseflyioandTigristodeployaNextjsapp_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 POST 요청은 여기서 할 수 있습니다 http://localhost:3000/api/postuser.
 
@@ -456,7 +578,18 @@ PUT 요청 수행하기
 
 PUT 요청은 이 경로로 이동하세요 http://localhost:3000/api/updateuser. 중요한 점은 ID에 해당하는 원래 이메일 주소를 꼭 입력해야 합니다. 그렇지 않으면 작동하지 않습니다. 그리고 프론트 엔드에서도 이것을 기억해 주세요, 왜냐하면 기본 오류 처리만 구현되어 있기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 DELETE 요청 보내기
 
@@ -466,7 +599,18 @@ DELETE 요청은 http://localhost:3000/api/deleteuser에서 할 수 있습니다
 
 좋아요, 이제 백엔드는 완벽하게 작동해야 합니다. 이제 프론트엔드만 남았네요. 그러면 온라인에서 앱을 fly.io에 배포할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 사용자 데이터베이스 UI 만들기
 
@@ -483,7 +627,18 @@ touch hooks/usePost.js
 touch hooks/useUpdate.js
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금 폴더는 끝났으니, 코드베이스를 완성하기 전에 Tailwind CSS 및 스타일링을 위한 설정을 빨리 해봅시다.
 
@@ -503,7 +658,18 @@ body {
 
 이제 layout.js에서도 동일한 작업을 수행하겠습니다. 단지 Arsenal 폰트를 사용할 예정입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { Arsenal } from "next/font/google";
@@ -562,7 +728,18 @@ export function useFetch(url) {
 
 이제 usePost에 이 코드를 추가하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { useState } from "react";
@@ -638,7 +815,18 @@ export function useUpdate() {
 
 마지막으로 useDelete.js가 있습니다. 여기에 있는 코드입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { useState } from "react";
@@ -917,7 +1105,18 @@ return (
 </div>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앱이 정상적으로 작동하도록 완료했으므로 이제 마지막 단게에서 온라인으로 배포해야 합니다.
 
@@ -927,7 +1126,18 @@ return (
 
 앱을 fly.io에서 Secrets 페이지에 환경 변수를 추가하는 것을 잊지 마세요 .env.local 파일에. 앱을 온라인으로 배포할 때 메인 page.js 파일 내의 frontend routes를 위한 API HOST URL을 업데이트하세요. 사용 예시 코드는 여기서 확인할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // API 호스트 URL 가져오기
@@ -942,7 +1152,18 @@ const API = "http://localhost:3000/";
 
 오늘은 Next.js를 사용하여 풀스택 애플리케이션을 구축하고 fly.io 앱 호스팅 플랫폼에 온라인으로 배포하는 방법을 배웠습니다. 또한 사용자 데이터를 AWS 버킷에 저장하기 위해 Tigris를 활용했습니다. 두 플랫폼의 조합은 앱을 온라인으로 만드는 데 매우 유용하고 강력한 플랫폼으로 만듭니다. 두 플랫폼은 각각 많은 다양한 기능을 제공하므로 이를 활용하여 프로젝트에 어떻게 유용할지 살펴보는 것이 좋습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 친절하게 말하자면 🚀
 

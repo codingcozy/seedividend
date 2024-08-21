@@ -3,16 +3,13 @@ title: "CodeAlpha에서의 인턴십 경험 나의 성장기"
 description: ""
 coverImage: "/assets/no-image.jpg"
 date: 2024-07-09 14:15
-ogImage: 
+ogImage:
   url: /assets/no-image.jpg
 tag: Tech
 originalTitle: "My Enriching Internship Experience at CodeAlpha"
 link: "https://medium.com/@chediouerghi88/my-enriching-internship-experience-at-codealpha-910391a061db"
 isUpdated: true
 ---
-
-
-
 
 최근에 CodeAlpha에서 인턴십 기회를 가졌는데, 이 경험을 통해 기술적 역량을 크게 향상시키고 다양한 프로젝트에서 실무 경험을 쌓을 수 있었습니다. 제 경험과 배운 주요 교훈을 자세히 살펴보겠습니다.
 
@@ -24,7 +21,18 @@ isUpdated: true
 
 # 프로젝트 2: 소셜 미디어 대시보드
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 목표: HTML, CSS 및 JavaScript를 사용하여 여러 소셜 미디어 플랫폼에서 콘텐츠를 집계하는 대시보드를 만들기. 사용자는 로그인하여 계정을 연결하고 한 곳에서 피드를 볼 수 있습니다.
 - 도전: 여러 소셜 미디어 API를 통합하고 다양한 플랫폼에 대한 인증을 처리하는 것은 복잡한 과제였습니다. 또한 집계된 데이터를 일관된 방식으로 시각적으로 효과적으로 표현하는 것이 어려웠습니다.
@@ -38,7 +46,18 @@ isUpdated: true
 
 # 배운 점
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 기술 스킬: 웹 개발에서 HTML, CSS, JavaScript 작업을 포함한 가치 있는 스킬을 습득했습니다. 또한 API 통합, WebSocket을 이용한 실시간 통신 구현, 사용자 인증 및 로컬 저장소를 통한 보안 강화에 대한 경험이 있습니다. 더불어 대화형 AI 통합을 위해 Voiceflow로 경험을 쌓았습니다.
 

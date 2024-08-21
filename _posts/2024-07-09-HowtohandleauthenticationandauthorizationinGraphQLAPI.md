@@ -3,7 +3,7 @@ title: "GraphQL API에서 인증 및 권한 관리하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-HowtohandleauthenticationandauthorizationinGraphQLAPI_0.png"
 date: 2024-07-09 20:30
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-HowtohandleauthenticationandauthorizationinGraphQLAPI_0.png
 tag: Tech
 originalTitle: "How to handle authentication and authorization in GraphQL API"
@@ -11,19 +11,28 @@ link: "https://medium.com/gitconnected/how-to-implement-authentication-and-autho
 isUpdated: true
 ---
 
-
-
 아래는 작성한 표의 내용이에요.
 
-| 제목                             | 링크                                                                                           |
-| -------------------------------- | ---------------------------------------------------------------------------------------------- |
+| 제목                             | 링크                                                                                       |
+| -------------------------------- | ------------------------------------------------------------------------------------------ |
 | Authentication and authorization | [여기](/assets/img/2024-07-09-HowtohandleauthenticationandauthorizationinGraphQLAPI_0.png) |
 
 인증(Authentication)과 권한 부여(authorization)는 종종 혼동되지만, 이러한 개념들은 서로 다른 프로세스를 담당하고 있어요. '인증'은 사용자 식별을 결정하며(사용자가 시스템에 로그인되어 있는지 여부), '권한 부여'는 인증된 사용자가 특정 리소스에 액세스할 수 있는지 여부를 나타냅니다. 그래서 보통 인증 단계가 권한 부여 단계를 선행해요. GraphQL에서 인증과 권한 부여는 도전적일 수 있는데 이는 하나의 노출된 HTTP 엔드포인트 (예: /graphql)만 있기 때문이에요. 이 엔드포인트 진입점에서 사용자를 인증할 수는 있지만, 그 구현에서 일부 리소스에 대한 공개 접근 옵션을 포기해야 할 수 있어요. 이 유일한 엔드포인트 진입에서 권한을 부여하는 것은 불가능해요. 왜냐하면 어떤 리소스가 쿼리될 지 모르기 때문이에요.
 
 이 게시물의 영감은 해당 주제에 대한 답변을 찾는 스택오버플로우 질문에서 얻은 거예요. # 애플리케이션 설정
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저의 텍스트는 Python에서 GraphQL와 REST의 예제 구현을 비교한 내용에 대한 후속 게시물입니다. 따라서 애플리케이션을 설정하는 데 필요한 요구 사항을 찾을 수 있습니다.
 
@@ -45,7 +54,18 @@ class User(Base):
     table_bookings = relationship("TableBooking")
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용자 등록은 이메일과 비밀번호 매개변수를 받아들이고 데이터베이스에 사용자 레코드를 생성하는 SignUp 뮤테이션을 통해 제공됩니다.
 
@@ -97,7 +117,18 @@ def generate_password_hash(password: str) -> str:
 
 ![이미지](/assets/img/2024-07-09-HowtohandleauthenticationandauthorizationinGraphQLAPI_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용자 인스턴스가 생성되면 올바른 자격 증명이 전달되면 사용자 인증 JWT 토큰을 생성하는 SignIn 뮤테이션이 필요합니다.
 
@@ -162,7 +193,18 @@ SignIn 뮤테이션을 위해 이메일과 비밀번호를 전달하고 인증�
 
 ![이미지](/assets/img/2024-07-09-HowtohandleauthenticationandauthorizationinGraphQLAPI_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 인증
 
@@ -245,7 +287,18 @@ def get_user_by_token(session: Session, token: str) -> Optional[User]:
 
 up 필드는 공개 액세스이므로 쿼리를 위해 자격 증명을 전달할 필요가 없습니다. 한편, me 필드는 sign_in_required로 데코레이트되었으므로 적절한 토큰을 전달해야 해결할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-09-HowtohandleauthenticationandauthorizationinGraphQLAPI_3.png)
 
@@ -255,7 +308,18 @@ up 필드는 공개 액세스이므로 쿼리를 위해 자격 증명을 전달�
 
 ![이미지](/assets/img/2024-07-09-HowtohandleauthenticationandauthorizationinGraphQLAPI_5.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 인가
 
@@ -268,7 +332,18 @@ up 필드는 공개 액세스이므로 쿼리를 위해 자격 증명을 전달�
 
 이를 위해 BookRestaurantTable은 sign_in_required로 데코레이트된 mutate 메서드를 사용하고, CancelTableBooking은 authorize_required로 데코레이트된 새로운 메서드를 사용합니다. 이 데코레이터는 사용자가 인증되었는지 확인하고, table_booking_gid(인스턴스의 전역 ID를 나타내는 값)가 인증된 사용자에 의해 생성된 TableBooking 인스턴스와 일치하는지 확인합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 class BookRestaurantTable(graphene.Mutation):
@@ -378,7 +453,18 @@ BookRestaurantTable을 실행하기 위해 restaurant_gid 및 persons라는 두 
 
 CancelTableBooking은 BookRestaurantTable 페이로드(TableBooking.id)에서 가져올 수 있는 table_booking_gid만 필요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-09-HowtohandleauthenticationandauthorizationinGraphQLAPI_7.png" />
 
@@ -388,6 +474,17 @@ CancelTableBooking은 BookRestaurantTable 페이로드(TableBooking.id)에서 �
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인증 및 권한 부여 단계를 쿼리와 뮤테이션 모두 위한 방법을 소개했어요. 이 구현은 매우 범용적이며 어떤 Python GraphQL 프로젝트에도 쉽게 통합할 수 있어요. 전체 소스 코드는 여기에서 확인할 수 있어요: https://github.com/jorzel/service-layer/tree/auth.

@@ -3,16 +3,13 @@ title: "실무에서 바로 써먹는 10가지 자바스크립트 꿀팁"
 description: ""
 coverImage: "/assets/img/2024-06-23-10PracticalJavaScriptTips_0.png"
 date: 2024-06-23 13:10
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-10PracticalJavaScriptTips_0.png
 tag: Tech
 originalTitle: "10 Practical JavaScript Tips"
 link: "https://medium.com/@aifou/10-practical-javascript-tips-ea208f5f7d57"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-06-23-10PracticalJavaScriptTips_0.png" />
 
@@ -24,7 +21,18 @@ isUpdated: true
 var argArray = Array.prototype.slice.call(arguments);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 배열 안의 모든 값을 합산해보세요.
 
@@ -38,13 +46,24 @@ console.log(sum); // 결과는 17이 나옵니다
 
 3. 조건부 단축 평가.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 명시적인 if 문 대신에 짧게 작성할 수 있어요:
 
 ```js
 if (hungry) {
-   goToFridge();
+  goToFridge();
 }
 ```
 
@@ -54,21 +73,43 @@ if (hungry) {
 hungry && goToFridge();
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. 조건문과 논리 OR를 함께 사용하세요.
 
 undefined를 얻지 않도록 불필요한 변수를 선언하지 마세요:
 
 ```js
-function doSomething(arg1){ 
-    arg1 = arg1 || 32; // arg1이 이미 설정되지 않았다면 32로 설정
+function doSomething(arg1) {
+  arg1 = arg1 || 32; // arg1이 이미 설정되지 않았다면 32로 설정
 }
 ```
 
 5. 쉼표 연산자.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 쉼표 연산자는 각 피연산자를 왼쪽에서 오른쪽으로 평가하고 마지막 피연산자의 값 반환합니다:
 
@@ -84,16 +125,27 @@ console.log(x); // 예상 결과: 3
 
 크기 조정 또는 배열 비우기:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-var array = [11, 12, 13, 14, 15];  
-console.log(array.length); // 5   
-array.length = 3;   
-console.log(array.length); // 3   
+var array = [11, 12, 13, 14, 15];
+console.log(array.length); // 5
+array.length = 3;
+console.log(array.length); // 3
 console.log(array); // [11, 12, 13]
-array.length = 0;   
-console.log(array.length); // 0   
+array.length = 0;
+console.log(array.length); // 0
 console.log(array); // []
 
 7. Swap values using array destructuring.
@@ -105,7 +157,16 @@ let a = 1, b = 2;
 console.log(a); // -> 2
 console.log(b); // -> 1
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 배열의 요소들을 섞어보세요.
 
@@ -119,7 +180,16 @@ console.log(list.sort(function() {
 
 9. 동적 속성 이름.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 객체를 선언하기 전에 동적 속성을 할당해 보세요:
 
@@ -135,10 +205,20 @@ console.log(item);
 
 ES6를 즐기는 분들을 위해, Spread 연산자를 사용하여 Set 객체를 활용해 새로운 배열을 만들어 보세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 const my_array = [1, 2, 2, 3, 3, 4, 5, 5];
 const unique_array = [...new Set(my_array)];
 console.log(unique_array); // [1, 2, 3, 4, 5]
 
 - 인수 객체는 함수 내에서 액세스할 수 있는 유사 배열 객체이며, 해당 함수에 전달된 매개변수의 값을 포함합니다. 그러나 배열 메서드가 없습니다. 다행히도 일반 배열로 변환할 수 있습니다:
+```

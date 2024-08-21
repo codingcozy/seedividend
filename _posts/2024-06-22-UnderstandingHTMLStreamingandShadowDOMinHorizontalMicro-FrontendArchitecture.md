@@ -3,7 +3,7 @@ title: "수평 마이크로 프론트엔드 아키텍처에서 HTML 스트리밍
 description: ""
 coverImage: "/assets/img/2024-06-22-UnderstandingHTMLStreamingandShadowDOMinHorizontalMicro-FrontendArchitecture_0.png"
 date: 2024-06-22 03:53
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-UnderstandingHTMLStreamingandShadowDOMinHorizontalMicro-FrontendArchitecture_0.png
 tag: Tech
 originalTitle: "Understanding HTML Streaming and Shadow DOM in Horizontal Micro-Frontend Architecture"
@@ -11,16 +11,24 @@ link: "https://medium.com/stackademic/understanding-html-streaming-and-shadow-do
 isUpdated: true
 ---
 
-
-
-
 웹 개발 분야에서, 마이크로 프론트엔드 개념은 거대한 응용프로그램을 작은 관리 가능한 부분으로 분해하는 능력으로 인해 상당한 인기를 얻고 있습니다. 마이크로 프론트엔드 아키텍처에서 자주 사용되는 두 가지 중요한 기술은 HTML 스트리밍과 쉐도우 DOM입니다. 이 글에서는 이러한 기술들이 무엇을 의미하는지, 서로 어떻게 보완하는지, 코드 예제를 제공하고 수평적인 마이크로 프론트엔드 아키텍처에서의 장단점에 대해 논의할 것입니다.
 
 # HTML 스트리밍:
 
 HTML 스트리밍 또는 서버 측 렌더링 (SSR)은 서버에서 생성되는 대로 HTML을 점진적으로 클라이언트로 전송하는 것을 포함합니다. 이 접근 방식은 브라우저가 내용을 점진적으로 렌더링하도록 허용함으로써 인식된 성능을 향상시킵니다. 이 과정에서 서버는 페이지의 나머지 부분을 처리하고 있는 동안 브라우저가 내용을 점진적으로 렌더링할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 장점
 
@@ -34,7 +42,18 @@ HTML 스트리밍 또는 서버 측 렌더링 (SSR)은 서버에서 생성되는
 - 클라이언트 측 상호 작용 한계: HTML 스트리밍만으로는 복잡한 클라이언트 측 상호 작용을 구현하기 어려울 수 있습니다.
 - 전체 로드 시간이 느려질 수 있는 가능성: 초기 콘텐츠가 빨리 나타나지만 전체 페이지가 클라이언트 측 렌더링과 비교했을 때 더 오래 걸릴 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 셰도우 DOM:
 
@@ -46,7 +65,18 @@ HTML 스트리밍 또는 서버 측 렌더링 (SSR)은 서버에서 생성되는
 - 재사용성: 캡슐화된 컴포넌트는 기능에 영향을 주지 않고 응용 프로그램의 서로 다른 부분에 재사용할 수 있습니다.
 - 유지보수성: 셰도우 DOM은 캡슐화를 강화하고 컴포넌트 간 의존성을 줄이는 방식으로 더 깨끗한 코드 아키텍처를 촉진합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단점
 
@@ -58,7 +88,18 @@ HTML 스트리밍 또는 서버 측 렌더링 (SSR)은 서버에서 생성되는
 
 수평적인 마이크로 프론트엔드 아키텍처에서 여러 독립적인 팀이 애플리케이션의 다른 부분에 기여하는 경우, HTML 스트리밍과 Shadow DOM을 결합하면 중요한 이점을 제공할 수 있습니다. 이러한 기술이 어떻게 함께 작동할 수 있는지 예를 살펴보겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <!DOCTYPE html>
@@ -81,11 +122,11 @@ HTML 스트리밍 또는 서버 측 렌더링 (SSR)은 서버에서 생성되는
       .then(response => response.text())
       .then(html => {
         document.getElementById('streamedContent').innerHTML = html;
-        
+
         // Create Shadow DOM
         const shadowContainer = document.getElementById('shadowContainer');
         const shadowRoot = shadowContainer.attachShadow({mode: 'open'});
-        
+
         // Fetch and inject Shadow DOM content
         fetch('shadowContent.html')
           .then(response => response.text())
@@ -106,7 +147,18 @@ HTML 스트리밍 또는 서버 측 렌더링 (SSR)은 서버에서 생성되는
 - Shadow DOM: Shadow DOM 소개
 - 마이크로 프론트엔드: 마이크로 프론트엔드 아키텍처
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론:
 
@@ -116,7 +168,18 @@ HTML 스트리밍과 Shadow DOM은 특히 수평적인 마이크로 프론트엔
 
 끝까지 읽어 주셔서 감사합니다. 가기 전에:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 작가에게 박수를 보내주시고 팔로우도 부탁드려요! 👏
 - 팔로우하기: X | LinkedIn | YouTube | Discord

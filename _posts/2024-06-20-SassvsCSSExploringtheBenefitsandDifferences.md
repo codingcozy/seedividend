@@ -3,17 +3,13 @@ title: "Sass 대 CSS 혜택과 차이점 탐구하기"
 description: ""
 coverImage: "/assets/img/2024-06-20-SassvsCSSExploringtheBenefitsandDifferences_0.png"
 date: 2024-06-20 05:48
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-SassvsCSSExploringtheBenefitsandDifferences_0.png
 tag: Tech
 originalTitle: "Sass vs CSS: Exploring the Benefits and Differences"
 link: "https://medium.com/@kasun-r-weerasinghe/sass-vs-css-exploring-the-benefits-and-differences-ca98ea60f946"
 isUpdated: true
 ---
-
-
-
-
 
 ![Sass vs CSS](/assets/img/2024-06-20-SassvsCSSExploringtheBenefitsandDifferences_0.png)
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 CSS는 HTML로 작성된 문서의 스타일을 설명하는 데 사용되는 표준 스타일링 언어입니다. 개발자들은 이를 통해 웹 페이지의 레이아웃, 타이포그래피, 색상 및 기타 시각적 측면을 제어할 수 있습니다. CSS 파일은 선택자, 속성 및 값으로 구성되어 있으며 요소가 어떻게 스타일링되어야 하는지 정의합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Sass 소개:
 
@@ -34,7 +40,18 @@ Sass는 CSS의 기능을 확장하는 전처리기 스크립트 언어입니다.
 
 - 변수: Sass를 사용하면 개발자가 색상, 글꼴 크기 또는 여백 값과 같은 재사용 가능한 값을 저장하기 위한 변수를 정의할 수 있습니다. 이를 통해 일관성을 유지하고 단일 변수를 수정함으로써 전체 프로젝트에 걸쳐 스타일을 업데이트하기가 더 쉬워집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시
 
@@ -68,7 +85,18 @@ $font-size-large: 20px;
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 믹스인: Sass를 사용하면 CSS 선언의 재사용 가능한 블록인 믹스인을 생성할 수 있습니다. 믹스인은 인수를 받아 그에 따라 동적 스타일을 생성할 수 있습니다. 이를 통해 코드 재사용을 촉진하며 반복되는 스타일을 피하는 데 도움이 됩니다.
 
@@ -98,7 +126,18 @@ CSS Equivalent
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS 대 Sass: 코드 비교:
 
@@ -128,7 +167,18 @@ $border-radius: 4px;
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Sass는 개발 프로세스를 향상시키고 스타일 시트를 더 쉽게 유지보수할 수 있는 강력한 기능을 제공합니다. 변수, 중첩, 그리고 믹스인과 같은 기능을 통해 Sass는 개발자들이 더 깨끗하고 효율적인 코드를 작성할 수 있도록 도와줍니다. CSS가 웹 페이지 스타일링을 위한 기본 언어임에도 불구하고, Sass는 개발을 간소화하고 코드 재사용성을 향상시키는 확장 기능을 제공합니다. Sass와 CSS 간의 이점과 차이를 이해함으로써, 개발자들은 자신의 프로젝트에 가장 적합한 방법을 선택할 수 있으며, 더욱 효율적이고 조직적인 작업 흐름을 확보할 수 있습니다.
 

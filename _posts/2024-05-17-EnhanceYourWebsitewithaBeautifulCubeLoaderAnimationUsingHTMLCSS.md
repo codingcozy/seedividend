@@ -3,17 +3,13 @@ title: "HTML, CSS로 멋진 큐브 로더 애니메이션 만들기"
 description: ""
 coverImage: "/assets/img/2024-05-17-EnhanceYourWebsitewithaBeautifulCubeLoaderAnimationUsingHTMLCSS_0.png"
 date: 2024-05-17 21:33
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-17-EnhanceYourWebsitewithaBeautifulCubeLoaderAnimationUsingHTMLCSS_0.png
 tag: Tech
 originalTitle: "Enhance Your Website with a Beautiful Cube Loader Animation Using HTML , CSS"
 link: "https://medium.com/@withaarzoo/enhance-your-website-with-a-beautiful-cube-loader-animation-using-html-css-cbe6c76bfb4a"
 isUpdated: true
 ---
-
-
-
-
 
 ![Loading Animation](https://miro.medium.com/v2/resize:fit:1200/1*CSMMFDfA44hUID0Shg5rJg.gif)
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 준비가 되셨나요? 시작해봅시다!
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 1: 스타터 코드 다운로드 (선택 사항)
 
@@ -34,7 +40,18 @@ isUpdated: true
 
 # 단계 2: HTML 구조 설정
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 HTML 코드는 애니메이션의 기본 구성 요소를 제공합니다. 우리는 큐브의 컨테이너를 만들기 위해 div 요소들의 시리즈를 사용할 것입니다. 그리고 각 큐브 자체를 정의하기 위해 개별 div 요소들을 사용할 것입니다. 각 큐브 요소 안에는 큐브의 여섯 면을 나타내는 자식 div 요소들이 있을 것입니다.
 
@@ -89,7 +106,18 @@ HTML 코드는 애니메이션의 기본 구성 요소를 제공합니다. 우�
 
 # Step 3: Adding Styles with CSS
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS에서 마법이 일어납니다! 여기에 몇 가지 주요 측면을 살펴보겠습니다:
 
@@ -117,7 +145,18 @@ div {
 
 - 조립과 애니메이션: 주요 컨테이너에 스타일을 적용하고, inner 및 outer 큐브 그룹에 대한 애니메이션을 만들기 위해 keyframes를 사용할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /* 주 어셈블리 컨테이너 중앙 정렬 및 초기 회전 */
@@ -209,11 +248,19 @@ div {
 ```
 
 - 큐브 면: 큐브의 개별 면을 차원, 그림자, 배경색으로 스타일링합니다.
- 
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /* 큐브 면에 대한 스타일 */
@@ -315,8 +362,18 @@ div {
 
 # 단계 4: 실행하고 마법을 확인하세요!
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 HTML과 CSS 파일을 설정한 후 웹 브라우저에서 HTML 파일을 열어보세요. 움직이는 큐브 로더가 작동하는 것을 볼 수 있을 거에요! CSS 파일에서 스타일을 실험하여 웹사이트의 색상, 크기 및 애니메이션을 맞춤 설정해보세요.
 
@@ -326,7 +383,18 @@ HTML과 CSS 파일을 설정한 후 웹 브라우저에서 HTML 파일을 열어
 
 이것은 출발점에 불과해요! 큐브로더를 더 발전시킬 수도 있어요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 입체 그림자 효과를 더해보세요.
 - 다양한 색상과 그라데이션을 활용하여 더 생생한 느낌을 연출해보세요.
@@ -338,7 +406,18 @@ HTML과 CSS 파일을 설정한 후 웹 브라우저에서 HTML 파일을 열어
 
 저와 연락하기: 지금 연락하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 행복한 코딩!
 

@@ -3,17 +3,13 @@ title: "앵귤러 라이브러리에 CSS Assets 추가하기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Adding css assets to Angular Library"
 link: "https://medium.com/@coco-boudard/adding-css-assets-to-angular-library-c22fd3a47c5d"
 isUpdated: true
 ---
-
-
-
-
 
 ![AddingcssassetstoAngularLibrary_0](/assets/img/AddingcssassetstoAngularLibrary_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이제 시작점은 ng-add 스키매틱이 있는 라이브러리입니다. 앞의 기사에서 설명한 대로 라이브러리가 있는 워크스페이스가 필요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 목표
 
@@ -37,7 +44,18 @@ isUpdated: true
 
 # 라이브러리
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신의 도서관에서는, /src 폴더 옆이나 안에 /styles 폴더를 만들어 보겠습니다. 여기에는 scss 파일과 같은 소스가 포함될 것입니다. 그런 다음, 컴파일된 css 파일 및 이미지와 같은 다른 파일이 포함될 /assets 폴더를 만들 것입니다. 이 파일들은 템플릿에서 사용되거나 css 내에서 url() 구문을 통해 사용될 것입니다.
 
@@ -47,7 +65,18 @@ scss 파일은 매우 단순합니다. 기존 css를 사용하고 일부 변수�
 
 theme.css 파일 또한 매우 간단합니다. 이미지를 참조하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/AddingcssassetstoAngularLibrary_2.png" />
 
@@ -57,7 +86,18 @@ theme.css 파일 또한 매우 간단합니다. 이미지를 참조하고 있습
 
 ## Angular 라이브러리에서 scss 빌드하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희 라이브러리 패키지에 간단한 스크립트를 만들어 보겠습니다. package.json 파일의 아래와 같이 설정해주세요:
 
@@ -73,7 +113,18 @@ theme.css 파일 또한 매우 간단합니다. 이미지를 참조하고 있습
 
 이제 ng-package.json 파일에서 라이브러리 빌더가 assets를 내보내어야 한다고 알려주어야 합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 {
@@ -92,7 +143,18 @@ CSS를 빌드한 후에 라이브러리를 빌드하면 dist 폴더에 다음과
 
 theme.css 파일은 소스에 남길 수 있습니다. 왜냐하면 해당 내용을 직접 사용할 수 있기 때문이며, .map 파일은 scss 소스를 함께 배포하는 경우에만 관련이 있으며 이 경우 ng-package.json의 assets 구성에 /styles 폴더를 추가할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 애플리케이션의 자산 사용하기
 
@@ -107,7 +169,18 @@ npm run start
 
 그런 다음, 우리의 라이브러리 css를 메인 styles.scss 파일에 간단히 호출하면 됩니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/AddingcssassetstoAngularLibrary_5.png" />
 
@@ -117,7 +190,18 @@ npm run start
 
 스타일은 가져오지만 이미지는 표시되지 않을 것입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/AddingcssassetstoAngularLibrary_7.png" />
 
@@ -127,7 +211,18 @@ npm run start
 
 <img src="/assets/img/AddingcssassetstoAngularLibrary_8.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금 이미지가 표시되어야 합니다. 이미지 태그나 CSS url() 설정을 사용하여 확인해보세요.
 
@@ -137,6 +232,17 @@ npm run start
 
 # 참고
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 문서를 확인해보세요. 여기에는 angular.json 자산 구성이 소개되어 있습니다:

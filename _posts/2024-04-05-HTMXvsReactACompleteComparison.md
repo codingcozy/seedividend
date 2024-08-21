@@ -3,17 +3,13 @@ title: "HTMX vs React 비교 정리"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "HTMX vs React A Complete Comparison"
 link: "https://medium.com/@semaphoreci/htmx-vs-react-a-complete-comparison-84c47fbb0198"
 isUpdated: true
 ---
-
-
-
-
 
 HTMX의 궁극적인 목표는 JavaScript가 필요하지 않고 HTML 내에서 직접 현대적인 브라우저 상호 작용을 제공하는 것입니다. 비교적 새로운 라이브러리이지만, 2020년 말에 처음 출시된 이후 IT 웹 커뮤니티의 주목을 끌고 있습니다.
 
@@ -23,7 +19,18 @@ HTMX vs React 가이드에서는 HTMX를 선택한 이유, 무엇인지, 어떤 
 
 # HTMX vs React 요약
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 요약 표를 확인하여 HTMX와 React 비교에 대해 바로 알아보세요:
 
@@ -33,7 +40,18 @@ HTMXReact개발자Big Sky SoftwareMeta오픈 소스✅✅GitHub 별점29k+218k+�
 
 웹 개발 초기에는 개발자가 AJAX 요청, DOM 조작 및 이벤트 처리를 위해 jQuery에 의존했습니다. 시간이 지나면서 온라인 애플리케이션이 더 현대적, 구조화되고 확장 가능해졌습니다. Angular, React 및 Vue와 같은 프레임워크 및 라이브러리가 차이를 만들었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React는 컴포넌트 기반 아키텍처를 소개하여 웹 개발을 영원히 변화시켰어요. UI에 대한 선언적 접근과 일방향 데이터 흐름은 웹 개발을 간단하고 재사용 가능하며 유지보수성 있게 만들어주었죠. 이러한 측면들로 인해 React는 동적이고 반응적이며 대화형 웹 애플리케이션을 구축하는 데 가장 적합한 솔루션으로 자리매김했어요.
 
@@ -43,7 +61,18 @@ React, Vue, Angular와 같은 웹 프레임워크들은 구조화된 웹 애플�
 
 HTMX는 React에서처럼 현대적 상호작용성을 위한 가벼운 솔루션이지만, jQuery와 같은 과잉 부담은 없는 간단한 통합을 제공해줘요. HTMX는 사용자 정의 속성으로 HTML을 확장하여 JavaScript 코드 없이도 AJAX 요청을 가능하게 합니다. HTMX의 아이디어는 개발자가 익숙한 HTML을 버리지 않고도 웹의 마법 속으로 들어갈 수 있도록 간단하게 유지하는 것이죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 HTMX는 더 복잡한 프론트엔드 프레임워크가 주를 이루는 세상에서 간결하고 유연한 대안으로 자리 잡고 있어요. 아래 섹션에서 더 자세히 알아보세요.
 
@@ -53,7 +82,18 @@ HTMX는 가벼우며 종속성이 없는 확장 가능한 JavaScript 프론트�
 
 이 라이브러리를 사용하면 특별한 HTML 속성을 설정하는 것만으로 대부분의 기능에 액세스할 수 있어요. JavaScript 한 줄도 쓸 필요 없이요. 이렇게 HTMX는 HTML을 다음 수준으로 끌어올려서 완전한 하이퍼텍스트로 만들어줘요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 라이브러리가 제공하는 내용을 일부 HTMX 예제를 통해 살펴보겠습니다.
 
@@ -67,7 +107,18 @@ HTMX의 주요 개념은 HTML에서 직접 AJAX 요청을 보낼 수 있는 능�
 - hx-patch: 주어진 URL로 PATCH 요청을 보냅니다.
 - hx-delete: 주어진 URL로 DELETE 요청을 보냅니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 HTMX 속성 중 하나를 갖는 HTML 요소가 트리거되면 지정된 유형의 AJAX 요청이 해당 URL로 전송됩니다. 기본적으로 요소는 "자연스러운" 이벤트(예: `input`, `textarea`, 및 `select`의 경우에는 변경, `form`의 경우에는 제출, 그 외에는 클릭)에 의해 트리거됩니다. hx-trigger 속성을 사용하여 이 동작을 사용자 정의할 수도 있습니다.
 
@@ -79,7 +130,18 @@ HTMX 속성 중 하나를 갖는 HTML 요소가 트리거되면 지정된 유형
 
 이렇게 브라우저에 알립니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 쿼리 매개변수 및 본문 데이터
 
@@ -88,7 +150,18 @@ HTMX가 쿼리 매개변수 및 본문 데이터를 설정하는 방법은 HTTP 
 - GET 요청: 기본적으로 hx-get은 AJAX 요청에 자동으로 어떠한 쿼리 매개변수도 포함시키지 않습니다. 쿼리 매개변수를 설정하려면 hx-get에 전달된 URL에 명시하십시오. 그렇지 않으면 hx-params 속성을 사용하여 HTMX의 기본 동작을 재정의하십시오.
 - GET이 아닌 요청: 요소가 `form`인 경우 AJAX 요청의 본문에는 해당 입력 값의 이름 속성을 매개변수 이름으로 사용하여 모든 입력 값이 포함됩니다. `form`이 아닌 경우 가장 가까운 포함 `form`의 모든 입력 값이 본문에 포함됩니다. 그렇지 않은 경우, 요소가 값을 속성으로 가지고 있다면 해당 값을 본문에 사용합니다. 다른 요소의 값을 본문에 추가하려면 값을 원하는 모든 요소의 CSS 선택기와 함께 hx-include 속성을 사용하십시오. 그런 다음 hx-params 속성을 사용하여 일부 본문 매개변수를 걸러내십시오. 또한 사용자 정의 htmx:configRequest 이벤트 핸들러를 작성하여 본문 정의 논리를 프로그래밍적으로 수정할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # AJAX 결과 처리
 
@@ -99,7 +172,18 @@ HTMX가 쿼리 매개변수 및 본문 데이터를 설정하는 방법은 HTTP 
 
 이제 아래 HTMX 스니펫을 살펴보세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <button hx-post="/tasks" hx-swap=".todo-list" hx-target="afterend">
@@ -113,7 +197,18 @@ HTMX가 쿼리 매개변수 및 본문 데이터를 설정하는 방법은 HTTP 
 
 # HTMX 대 React: 두 가지 웹 기술 비교
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 HTMX에 대해 알고 작동 방식을 알았으니, 프론트엔드 웹 개발 라이브러리의 석궁 왕인 React와 비교해보겠습니다. 이 섹션에서는 HTMX와 React 중 어느 쪽이 더 나은지 결정할 때 고려해야할 중요한 측면을 탐색할 것입니다.
 
@@ -123,7 +218,18 @@ HTMX에 대해 알고 작동 방식을 알았으니, 프론트엔드 웹 개발 
 
 - HTMX: HTML을 확장하여 마크업에서 서버와 직접 상호작용할 수 있는 기능을 제공합니다. 간결성, 간결함, 가독성을 중요시합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <div hx-get="/hello-world">클릭해주세요!</div>
@@ -145,16 +251,23 @@ const HelloWorldComponent = () => {
         setResponseData(data);
       });
   };
-  return (
-    <div onClick={handleClick}>
-      {responseData ? <>{responseData}</> : "클릭해주세요!"}
-    </div>
-  );
+  return <div onClick={handleClick}>{responseData ? <>{responseData}</> : "클릭해주세요!"}</div>;
 };
 export default HelloWorldComponent;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 학습 곡선
 
@@ -166,7 +279,18 @@ export default HelloWorldComponent;
 - HTMX: 라이브러리 뒤의 핵심 개념은 JavaScript 코드가 필요하지 않은 HTML에서 AJAX 호출을 가능하게 하는 것으로 요약될 수 있습니다. 다른 멋진 기능들이 언급될 수 있지만, 그것이 HTMX가 제공하는 것을 대부분 요약합니다.
 - React: React를 인기있게 만든 몇 가지 기능은 코드 재사용을 기반으로 한 구성 요소 기반 아키텍처, UI 개발을 쉽게 하는 JSX 구문, 견고한 상태 관리, 훅, 클라이언트 및 서버 측 렌더링을 지원하는 효율적인 Virtual DOM, CSS-in-JS 지원 등이 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 성능
 
@@ -178,7 +302,18 @@ export default HelloWorldComponent;
 - HTMX: 어떤 HTML 웹 페이지에도 삽입할 수 있습니다. HTMX는 원시 HTML 콘텐츠를 반환할 수 있는 백엔드 기술과 자연스럽게 통합되어 있으며 Node.js, Django, Laravel, Spring Boot, Flask 등과 같은 기술과 함께 사용될 수 있습니다.
 - React: 프론트엔드 라이브러리인 React는 기존 사이트에 기술적으로 통합할 수 있습니다. 동시에 React를 통합하는 데는 추가 구성이 필요할 수 있으며 특히 JavaScript 중심이 아닌 프론트엔드 프로젝트의 경우 더 많은 구성이 필요할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 HTMX와 React는 동일한 프로젝트에서 함께 사용할 수 있습니다. 이는 React와 HTMX를 웹 페이지의 서로 다른 부분에서 사용하거나 HTMX 속성을 활용하는 React 컴포넌트를 가질 수 있다는 것을 의미합니다.
 
@@ -189,7 +324,18 @@ HTMX와 React는 동일한 프로젝트에서 함께 사용할 수 있습니다.
 
 React에서 HTMX로 이전하는 것은 가능하며 코드베이스를 67% 줄일 수 있습니다. 그러나 React를 인기 있는 이유인 고급 상태 관리와 같은 모든 기능이 필요하지 않을 때에만 권장됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 커뮤니티
 
@@ -201,7 +347,18 @@ React에서 HTMX로 이전하는 것은 가능하며 코드베이스를 67% 줄�
 - HTMX: 물론 라이브러리 자체는 확장 가능하지만, 프로젝트는 비교적 새로운 상태이며 HTMX 라이브러리와 유틸리티가 많이 없습니다. 본 글 작성 시점에서 npm의 htmx 태그에는 35개의 패키지만 있습니다.
 - React: npm에서만 React 태그가 6,000개가 넘는 라이브러리를 포함합니다. 이것은 React 관련 태그 중 하나이며, 이와 호환되는 수십 수천 개의 라이브러리를 찾을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # HTMX와 React 중 어떤 프론트엔드 라이브러리를 선택해야 할까요?
 
@@ -211,7 +368,18 @@ React에서 HTMX로 이전하는 것은 가능하며 코드베이스를 67% 줄�
 
 HTMX와 React 사이에서 정보를 기반으로 결정을 내릴 수 있도록 두 라이브러리의 장단점을 살펴보겠습니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # HTMX: 장단점
 
@@ -225,7 +393,18 @@ HTMX와 React 사이에서 정보를 기반으로 결정을 내릴 수 있도록
 
 👎 단점:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 백엔드 UI 엔드포인트가 필요하여 원시 HTML을 반환하며, 따라서 프론트엔드와 더 밀접하게 관련됨.
 - 아직 상대적으로 새로운 기술.
@@ -240,7 +419,18 @@ HTMX와 React 사이에서 정보를 기반으로 결정을 내릴 수 있도록
 - Meta에 의해 개발되고 유지보수됨.
 - 백엔드에 대한 견해가 없음.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 👎 단점:
 
@@ -251,7 +441,18 @@ HTMX와 React 사이에서 정보를 기반으로 결정을 내릴 수 있도록
 
 본 문서 HTMX vs React에서는 HTMX가 무엇이고 어떻게 작동하는지, 그리고 React와 어떻게 경쟁하는지를 배웠습니다. HTMX는 일반적인 웹 프레임워크에서 소개되는 복잡성 없이 현대적인 HTML 상호작용을 가능하게 합니다. HTMX의 미래가 밝다고 하더라도, HTMX가 React를 대체하기 위한 것은 아닙니다. HTMX가 빛을 발하는 부분을 더 잘 이해하기 위해 공식 사이트에서 제공하는 HTMX 예제 목록을 확인해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 라이브러리는 정반대로, 함께 공존할 수 있고 서로 다른 사용 사례를 대상으로 할 수 있습니다. 여기서 배운대로, React는 사용자 경험이 풍부하고 복잡한 기능을 가진 웹 애플리케이션에 이상적이며, HTMX는 간단한 상호 작용이 필요한 웹 페이지에 더 적합합니다.
 

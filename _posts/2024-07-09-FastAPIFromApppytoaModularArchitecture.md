@@ -3,15 +3,13 @@ title: "FastAPI Apppy에서 모듈러 아키텍처로 전환하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-FastAPIFromApppytoaModularArchitecture_0.png"
 date: 2024-07-09 20:24
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-FastAPIFromApppytoaModularArchitecture_0.png
 tag: Tech
 originalTitle: "FastAPI: From App.py to a Modular Architecture"
 link: "https://medium.com/towardsdev/fastapi-from-app-py-to-a-modular-architecture-54ca9e0044eb"
 isUpdated: true
 ---
-
-
 
 <img src="/assets/img/2024-07-09-FastAPIFromApppytoaModularArchitecture_0.png" />
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 ## 소개: 우리의 할 일 API
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리팩터링 프로세스에 뛰어들기 전에 함께 작업할 API를 살펴보겠습니다. 다음과 같은 엔드포인트를 가진 간단한 할 일 애플리케이션을 구축 중입니다.
 
@@ -31,7 +40,18 @@ isUpdated: true
 
 이제 작업 중인 API를 이해했으므로 몇 가지 전제 조건 및 이를 구현하는 방법을 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 준비 사항
 
@@ -47,7 +67,18 @@ fastapi;
 uvicorn;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 pip3 install -r requirements.txt
@@ -123,7 +154,18 @@ if __name__ == "__main__":
     uvicorn.run("app:app", port=3000, host="0.0.0.0", reload=True)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 API를 시작하려면 python3 app.py 명령어를 사용해요
 
@@ -136,7 +178,18 @@ API를 시작하려면 python3 app.py 명령어를 사용해요
 - 개별 구성 요소를 테스트하는 것이 어려워져요.
 - 코드의 재사용성이 제한되어요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![FastAPIFromApppytoaModularArchitecture](/assets/img/2024-07-09-FastAPIFromApppytoaModularArchitecture_2.png)
 
@@ -146,7 +199,18 @@ Refactoring journey starts now...
 
 To structure our application effectively, the first step is to introduce routers.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새로운 폴더를 만들어 routers라는 이름을 붙이고 todo_router.py라는 파일을 추가해주세요.
 
@@ -191,7 +255,18 @@ if __name__ == "__main__":
     uvicorn.run("app:app", port=3000, host="0.0.0.0", reload=True)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 라우터를 도입함으로써 작업 관련 라우트를 메인 app.py 파일에서 분리하여 코드를 더 깔끔하고 집중적으로 유지하였습니다.
 
@@ -201,7 +276,18 @@ if __name__ == "__main__":
 
 controllers라는 새 디렉토리를 생성하고 todo_controller.py라는 파일을 추가하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 from fastapi import HTTPException
@@ -279,7 +365,18 @@ def delete_todo(todo_id: int):
 
 ## 서비스 레이어 구현
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 비즈니스 로직을 처리하는 서비스 레이어를 소개해 봅시다.
 
@@ -330,7 +427,18 @@ class TodoService:
 
 todo_controller.py를 업데이트하여 서비스를 사용하도록합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 from fastapi import HTTPException
@@ -370,7 +478,18 @@ class TodoController:
 
 repositories라는 새 디렉토리를 만들고 todo_repository.py라는 파일을 추가하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 from pydantic import BaseModel
@@ -442,7 +561,18 @@ class TodoService:
 
 우리의 리팩터링 여정은 여기서 끝납니다…
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파이썬 앱.py에서 구조화된 모듈 아키텍처로 이어지는 이 여정에서, 우리는 Todo API를 더 확장 가능하고 유지 관리 가능한 애플리케이션으로 변형시켰습니다. 라우터, 컨트롤러, 서비스 및 리포지토리를 도입함으로써, 우리는 관심사의 명확한 분리와 프로젝트 확장에 따른 복잡성 관리 능력을 향상시켰습니다.
 
@@ -454,7 +584,18 @@ class TodoService:
 
 우리의 리포지토리는 이제 다음과 같이 보입니다...
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `<img src="/assets/img/2024-07-09-FastAPIFromApppytoaModularArchitecture_3.png" />`
 

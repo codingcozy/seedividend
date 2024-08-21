@@ -3,17 +3,13 @@ title: "React에서 SASS로 CSS Grid 레이아웃 잡는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Responsive Design with Advanced CSS Grid Layouts in Modern Web Development Using SASS"
 link: "https://medium.com/@ironhack/responsive-design-with-advanced-css-grid-layouts-in-modern-web-development-using-sass-c4ca3dfc10a6"
 isUpdated: true
 ---
-
-
-
-
 
 반응형 디자인은 사용자들과 신뢰 관계를 형성하는 데 도움이 되므로, 웹 개발자는 CSS, 그리드 레이아웃 및 SASS 사용 방법을 알아야 합니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 현대 웹 개발에는 하나의 프로그래밍 언어 이상, 프레임워크, 작업 방법론 등 다양한 기술 습득이 필요합니다. 이러한 웹 페이지를 생성하고 디자인하는 과정은 다른 직업과 마찬가지로 배워야할 것들이 많습니다. 기술이 급속히 발전하는 상황에서 웹 디자이너는 모든 이러한 발전과 변화를 따라가고 여러 플랫폼과 기기에서 페이지를 구축하는 방법을 숙지해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 반응형 웹 디자인은 쉬운 작업이 아니지만, 웹 개발자가 SASS를 사용하는 등의 방법으로 프로세스를 용이하게 할 수 있습니다. SASS는 CSS 그리드 레이아웃을 지원하는 CSS 전처리기로, SASS를 이해하는 데는 반응형 웹 디자인의 기본을 이해하는 것이 필수적입니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 사용자가 더 나은 경험을 할 수 있도록, 디자인은 페이지를 너무 많이 변경하지 않는 쉬운 전환을 가져야 합니다. 이를 위해 웹 개발자는 유연한 그리드와 레이아웃을 결합하여 이미지와 CSS 미디어 쿼리를 활용할 것입니다. 사용자가 태블릿에서 스마트폰으로 전환할 때, 웹 사이트는 이미지 크기, 스크립팅 기능, 해상도에 맞게 조정되어야 합니다. 클라이언트의 요구에 따라 다른 값 집합으로 변경되어야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹사이트에 반응형 웹 디자인을 적용하려면 다음이 필요합니다:
 
@@ -50,7 +68,18 @@ isUpdated: true
 
 # CSS 그리드 레이아웃
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 격자는 일반적으로 정보를 구성하는 훌륭한 방법이며, CSS 그리드 관점에서는 웹 개발자가 2차원 레이아웃 시스템을 생성하고 정보를 행과 열로 구성하는 데 도움을 줍니다. 그들은 행이나 열 중 하나를 처리하는 CSS 플렉스박스 대신 동시에 처리하지는 않지만 사용됩니다. 그리드의 세부 사항을 살펴보며 그 복잡성을 더 잘 이해해 봅시다.
 
@@ -65,7 +94,18 @@ isUpdated: true
 - 그리드 트랙: 연속적인 그리드 셀로, 수평 또는 수직일 수 있으며 이는 두 그리드 라인 사이의 공간으로, 본질적으로 그리드 영역입니다.
 - 그리드 영역: 영역을 생각할 때 모양을 떠올리며, 이것은 네 개의 그리드 라인과 여러 그리드 셀로 구성된 직사각형입니다. 이것은 여러 행과 열을 차지할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 그리드 속성
 
@@ -80,7 +120,18 @@ isUpdated: true
 
 그리드에 대한 이 모든 정보를 알고 있다면, 웹 개발자는 SASS라는 CSS 전처리기를 사용하여 페이지를 더욱 개선하고 작업을 용이하게 할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # SASS를 활용한 현대적인 웹 개발
 
@@ -95,6 +146,17 @@ CSS는 HTML에서 한걸음 더 나아간 것이지만, 웹 개발자들은 CSS 
 
 반응형 웹 디자인은 복잡하지만, SASS와 같은 도구 덕분에 웹 개발자는 여러 플랫폼과 기기에서 일관성 있는 웹 페이지를 유지할 수 있다는 것에 안심할 수 있습니다. 사용자가 기기를 변경해도 동일한 페이지와 브랜딩을 만나야 하므로 이는 사이트와의 신뢰를 쌓고 유지하는 데 중요합니다. 웹 개발자는 매력적이고 기능적이며 직관적인 디자인을 만들기 위해 많은 것을 배워야 하며 기술이 변화함에 따라 가장 혁신적인 도구에 대해 최신으로 유지해야 합니다. SASS와 같은 새로운 방법론과 도구를 즐기며 웹 페이지를 디자인하는 것이 좋다면, 더 이상의 이야기는 없습니다. 아이언핵의 웹 개발 과정을 확인해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 그것을 즐겼다면, 당신이 볼 웹 개발 부트캠프의 힘을 보기 전까지 기다려보세요! 그것은 현재 구직 시장에서 가장 인기 있는 기술을 가르치는 우수한 풀 스택 개발자 과정과 당신이 취업 준비를 올바르게 도와주는 맞춤형 커리어 서비스를 결합한 것입니다. 첫 번째 기술 직업을 얻고, 당신이 사랑하는 경력을 쌓으세요.

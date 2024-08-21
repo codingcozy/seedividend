@@ -3,17 +3,13 @@ title: "Mantine CSS로 React 컴포넌트 개발 쉽게 하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Mantine CSS Revolutionizing React Component Development"
 link: "https://medium.com/@erdenizzz/mantine-css-revolutionizing-react-component-development-da97cfa9edbc"
 isUpdated: true
 ---
-
-
-
-
 
 ![Mantine CSS](/assets/img/MantineCSSRevolutionizingReactComponentDevelopment_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 Mantine CSS는 워크플로우를 최적화하고 코드 유지 관리를 향상시키려는 개발자에게 매력적인 선택지가 될 수 있는 여러 장점을 소개합니다. 주요 이점을 살펴보겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 디자인의 단순함: Mantine CSS는 React 컴포넌트를 직접 CSS로 작성할 수 있게 함으로써 웹 개발 커뮤니티에서 널리 사용되는 CSS에 대한 친숙도를 활용합니다. 이 접근 방식은 전통적인 CSS에 익숙한 개발자들에게 전환을 간단하게 만들어줌으로써 컴포넌트 생성을 더 직관적으로 만듭니다.
 - 타입 안전성: Mantine CSS의 뛰어난 기능 중 하나는 CSS에서 TypeScript 유형을 생성할 수 있는 능력입니다. 이 통합은 코드 안전성과 유지 보수성을 크게 향상시켜 더 견고한 개발 프로세스를 보장합니다.
@@ -38,7 +45,18 @@ Mantine CSS는 매력적인 새로운 접근 방식을 제시하지만 고려해
 - 학습 곡선: CSS로 컴포넌트를 작성하는 것이 CSS에 익숙한 사람들에게 개발 프로세스를 단순화할 수 있지만, Mantine CSS의 코드 생성 도구와 TypeScript와의 통합을 이해하고 효과적으로 활용하는 데 학습 곡선이 필요할 수 있습니다.
 - 초기 개발 단계: v0.3 단계에 있는 Mantine CSS는 아직 제품 사용에 적합하지 않습니다. Mantine CSS를 도입하려는 개발자들은 API 변경 가능성과 프레임워크 주변 생태계의 성숙도를 고려해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 결론
 

@@ -3,16 +3,13 @@ title: "데이터 프로파일링을 간편하게 Python DataProfile 소개"
 description: ""
 coverImage: "/assets/img/2024-06-22-IntroducingDataProfileSimplifyYourDataProfilingTasksinPython_0.png"
 date: 2024-06-22 14:22
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-IntroducingDataProfileSimplifyYourDataProfilingTasksinPython_0.png
 tag: Tech
 originalTitle: "Introducing DataProfile: Simplify Your Data Profiling Tasks in Python"
 link: "https://medium.com/@rigueiroemiliano/introducing-dataprofile-simplify-your-data-profiling-tasks-in-python-91a52ce033dd"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-06-22-IntroducingDataProfileSimplifyYourDataProfilingTasksinPython_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 # DataProfile이란?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 DataProfile은 여러분의 데이터셋에 대해 포괄적인 데이터 프로필을 생성하는 Python 라이브러리입니다. Pandas DataFrame을 입력으로 받아 각 열에 대해 고유 레코드 수, 중복, 널 값 등 여러 측면을 분석합니다. 이 분석은 DataFrame의 각 열에 대해 수행되며 데이터에 대한 자세한 통찰력을 제공합니다.
 
@@ -43,7 +51,18 @@ DataProfile은 여러분의 데이터셋에 대해 포괄적인 데이터 프로
 
 # 설치 요구 사항
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 DataProfile을 사용하려면 다음 라이브러리들이 설치되어 있어야 해요:
 
@@ -55,7 +74,18 @@ DataProfile을 사용하려면 다음 라이브러리들이 설치되어 있어�
 
 pip를 사용해서 DataProfile을 손쉽게 설치할 수 있어요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 pip install dataprofile
@@ -69,7 +99,18 @@ import dataprofile as dp
 
 DataFrame을 만들거나 가져오세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 # 이 예시에서는 Pandas를 사용하여 CSV 파일 형식의 DataFrame을 생성했습니다:
@@ -92,28 +133,36 @@ DataFrame에서 dataprofile 함수를 사용해보세요:
 print(dp.dataprofile(파일))
 ```
 
-결과 (예시): 
+결과 (예시):
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 +-----------------+-------+--------+----------+---------------+------------------+-----------+---------+--------+-------+-------+---------+------+--------+------+--------+
-|     columns     | count | unique | unique_% | id_probabilty | email_probabilty | duplicate | numeric | letter |  bool | empty | empty_% | cero | cero_% | null | null_% |
+| columns | count | unique | unique*% | id_probabilty | email_probabilty | duplicate | numeric | letter | bool | empty | empty*% | cero | cero*% | null | null*% |
 +-----------------+-------+--------+----------+---------------+------------------+-----------+---------+--------+-------+-------+---------+------+--------+------+--------+
-|  respondent_id  |  1798 |  1798  |   100%   |      100%     |        0%        |     0     |   True  | False  | False |   0   |    0%   |  0   |   0%   |  0   |   0%   |
-|      q0011      |  1798 |   24   |    1%    |       0%      |        0%        |    1774   |  False  |  True  | False |   0   |    0%   |  0   |   0%   |  0   |   0%   |
-|      q0021      |  1798 |   3    |    0%    |       0%      |        0%        |    1795   |  False  |  True  | False |   0   |    0%   |  0   |   0%   |  0   |   0%   |
-|      q0022      |  1798 |   7    |    0%    |       0%      |        0%        |    1791   |  False  | False  | False |   0   |    0%   |  0   |   0%   |  0   |   0%   |
-|    q0023_0001   |  1798 |   2    |    0%    |       0%      |        0%        |    1796   |  False  | False  |  True |  1285 |   71%   |  0   |   0%   |  0   |   0%   |
-|    q0023_0002   |  1798 |   2    |    0%    |       0%      |        0%        |    1796   |  False  | False  |  True |  1680 |   93%   |  0   |   0%   |  0   |   0%   |
-|    q0023_0003   |  1798 |   2    |    0%    |       0%      |        0%        |    1796   |  False  | False  |  True |  858  |   47%   |  0   |   0%   |  0   |   0%   |
-|    q0023_0004   |  1798 |   2    |    0%    |       0%      |        0%        |    1796   |  False  | False  |  True |  1579 |   87%   |  0   |   0%   |  0   |   0%   |
-|    q0023_0005   |  1798 |   2    |    0%    |       0%      |        0%        |    1796   |  False  | False  |  True |  1615 |   89%   |  0   |   0%   |  0   |   0%   |
-|    q0023_0006   |  1798 |   2    |    0%    |       0%      |        0%        |    1796   |  False  | False  |  True |  1709 |   95%   |  0   |   0%   |  0   |   0%   |
-|    q0023_0007   |  1798 |   2    |    0%    |       0%      |        0%        |    1796   |  False  | False  |  True |  1686 |   93%   |  0   |   0%   |  0   |   0%   |
-|    q0023_0008   |  1798 |   2    |    0%    |       0%      |        0%        |    1796   |  False  | False  |  True |  1702 |   94%   |  0   |   0%   |  0   |   0%   |
-
+| respondent_id | 1798 | 1798 | 100% | 100% | 0% | 0 | True | False | False | 0 | 0% | 0 | 0% | 0 | 0% |
+| q0011 | 1798 | 24 | 1% | 0% | 0% | 1774 | False | True | False | 0 | 0% | 0 | 0% | 0 | 0% |
+| q0021 | 1798 | 3 | 0% | 0% | 0% | 1795 | False | True | False | 0 | 0% | 0 | 0% | 0 | 0% |
+| q0022 | 1798 | 7 | 0% | 0% | 0% | 1791 | False | False | False | 0 | 0% | 0 | 0% | 0 | 0% |
+| q0023_0001 | 1798 | 2 | 0% | 0% | 0% | 1796 | False | False | True | 1285 | 71% | 0 | 0% | 0 | 0% |
+| q0023_0002 | 1798 | 2 | 0% | 0% | 0% | 1796 | False | False | True | 1680 | 93% | 0 | 0% | 0 | 0% |
+| q0023_0003 | 1798 | 2 | 0% | 0% | 0% | 1796 | False | False | True | 858 | 47% | 0 | 0% | 0 | 0% |
+| q0023_0004 | 1798 | 2 | 0% | 0% | 0% | 1796 | False | False | True | 1579 | 87% | 0 | 0% | 0 | 0% |
+| q0023_0005 | 1798 | 2 | 0% | 0% | 0% | 1796 | False | False | True | 1615 | 89% | 0 | 0% | 0 | 0% |
+| q0023_0006 | 1798 | 2 | 0% | 0% | 0% | 1796 | False | False | True | 1709 | 95% | 0 | 0% | 0 | 0% |
+| q0023_0007 | 1798 | 2 | 0% | 0% | 0% | 1796 | False | False | True | 1686 | 93% | 0 | 0% | 0 | 0% |
+| q0023_0008 | 1798 | 2 | 0% | 0% | 0% | 1796 | False | False | True | 1702 | 94% | 0 | 0% | 0 | 0% |
 
 # 결론
 
@@ -121,7 +170,17 @@ DataProfile은 데이터 프로파일링 프로세스를 자동화하여 시간�
 
 자세한 정보, 상세 설명 및 추가 예제는 GitHub 리포지토리를 방문해주세요.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앞으로의 업데이트 내용을 확인하려면 PyPI 프로젝트를 방문해주세요.

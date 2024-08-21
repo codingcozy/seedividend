@@ -3,7 +3,7 @@ title: "모바일 개발자를 위한 필수 애니메이션 방법(코드 포�
 description: ""
 coverImage: "/assets/img/2024-08-18-EssentialAnimationsEveryMobileDeveloperShouldKnowWithFlutterExamples_0.png"
 date: 2024-08-18 11:47
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-18-EssentialAnimationsEveryMobileDeveloperShouldKnowWithFlutterExamples_0.png
 tag: Tech
 originalTitle: "Essential Animations Every Mobile Developer Should Know With Flutter Examples"
@@ -11,7 +11,6 @@ link: "https://medium.com/@cloderaldo/essential-animations-every-mobile-develope
 isUpdated: true
 updatedAt: 1724032714775
 ---
-
 
 안녕하세요, 모바일 개발자 여러분! 🖐️ 앱에 조금의 마법을 더하려면 준비가 되셨나요? 애니메이션은 좋은 앱을 훌륭한 앱으로 만들어줄 수 있어요. 상호작용을 더 부드럽게 만들어주고, 사용자를 안내해주며, 모든 것이 더 멋지게 느껴지게 해줘요. 이제 몇 가지 꼭 알아야 할 필수 애니메이션을 알아보고, 쉬운 플러터 예제와 함께 살펴보아요!
 
@@ -21,21 +20,43 @@ updatedAt: 1724032714775
 
 빈 화면을 바라보는 건 아무도 좋아하지 않아요. 어떤 재미있는 애니메이션으로 컨텐츠가 로딩될 동안 사용자와 연결을 유지해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 스피너: 클래식 로딩 애니메이션입니다.
 
 ```js
-CircularProgressIndicator()
+CircularProgressIndicator();
 ```
 
 - 진행 막대: 사용자들이 얼마나 기다려야 하는지 알 수 있도록 합니다.
 
 ```js
-LinearProgressIndicator()
+LinearProgressIndicator();
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스켈레톤 화면: 콘텐츠가 로드될 때 임시 레이아웃을 표시합니다.
 
@@ -64,7 +85,18 @@ SizedBox(
 
 ## 2. 페이지 전환 📱
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 화면 전환시 자연스럽고 매끄럽게 느껴지도록 만들어 보세요.
 
@@ -93,7 +125,18 @@ Navigator.push(
 
 페이드 전환: 새로운 화면을 부드럽게 페이드인 시킵니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 Navigator.push(
@@ -129,7 +172,18 @@ Navigator.push(
 
 ## 3. 버튼 애니메이션 🎮
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 버튼을 보다 상호작용적이고 누르기가 재미있는 느낌으로 만들어보세요.
 
@@ -144,7 +198,18 @@ ElevatedButton(
 
 색상 변경: 버튼을 누르면 버튼의 색상이 변경됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
  GestureDetector(
@@ -179,7 +244,18 @@ GestureDetector(
 
 ## 4. Navigation Drawer Animations 📂
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앱의 메뉴를 열고 닫을 때 부드럽고 세련되게 만들어보세요.
 
@@ -208,7 +284,18 @@ Scaffold(
 
 Fade In/Out: 서랍 메뉴가 서서히 사라지거나 나타납니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 주의: 여기서 flutter zoom drawer를 추가해야 합니다.
@@ -243,7 +330,16 @@ ZoomDrawer(
       closeCurve: Curves.bounceIn,
     )
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 5. Pull-to-Refresh 🔄
 
@@ -263,7 +359,16 @@ RefreshIndicator(
   ),
 )
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이탄성 효과: 아래로 당길 때 바운스 효과를 추가하여 재미있는 상호 작용을 제공합니다.
 
@@ -297,6 +402,16 @@ PullToRefreshNotification(
 
 아직 다루지 않은 더 많은 애니메이션이 있지만, 아마 다음에! 애니메이션은 모바일 앱의 매력 요소입니다. 사용자를 즐겁게 유지하며 상호 작용을 직관적으로 만들어주고 작업에 전문성을 더합니다. Flutter를 사용하면 내장된 다양한 도구와 패키지 덕분에 이러한 애니메이션을 쉽게 만들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어떤 멋진 애니메이션 팁이나 꿀팁이 있나요? 댓글로 공유해주세요! 함께 앱을 멋지게 만들어봐요. ✨
+```

@@ -3,17 +3,13 @@ title: "엔트리 앱 서버 업그레이드 백만명 이상의 사용자 성�
 description: ""
 coverImage: "/assets/img/2024-07-10-ServerUpgradeatEntriAppEnhancingPerformanceforoveraMillionUsers_0.png"
 date: 2024-07-10 01:58
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-10-ServerUpgradeatEntriAppEnhancingPerformanceforoveraMillionUsers_0.png
 tag: Tech
 originalTitle: "Server Upgrade at Entri App: Enhancing Performance for over a Million Users"
 link: "https://medium.com/entri-engineering-product-design/server-upgrade-at-entri-app-enhancing-performance-for-over-a-million-users-ec4971c3fc60"
 isUpdated: true
 ---
-
-
-
-
 
 ![Server Upgrade at Entri: Enhancing Performance for over a Million Users](/assets/img/2024-07-10-ServerUpgradeatEntriAppEnhancingPerformanceforoveraMillionUsers_0.png)
 
@@ -23,8 +19,18 @@ PostgreSQL 데이터베이스 업그레이드
 
 서버 업그레이드의 첫 번째 중요한 단계는 PostgreSQL 데이터베이스를 최신 버전으로 업데이트하는 것이었습니다. Django의 가장 오래된 버전조차도 최신 PostgreSQL 버전을 지원하지만, 그 역은 사실이 아닙니다. 따라서 데이터베이스를 업그레이드하는 것이 초기 조치여야 했습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희는 개발 환경에서 PostgreSQL을 업그레이드하는 것으로 시작했습니다. 이를 통해 전체 개발 및 QA 팀이 업그레이드된 서버를 사용하기 시작했고, 잠재적인 문제를 조기에 식별하고 해결하는 데 중요한 역할을 했습니다. 모든 것이 올바르게 작동하는지 확인하기 위해 수동 및 자동화된 테스트를 수행했습니다. 이 철저한 사전 제품 테스트 단계는 제품 환경으로의 원활한 전환을 보장하는 데 중요했습니다.
 
@@ -39,7 +45,18 @@ PostgreSQL 데이터베이스 업그레이드
 
 4단계와 5단계는 다운타임을 최소화하기 위해 병렬로 수행되었습니다. 그 결과 백엔드 서버는 약 30분 동안 오프라인이었으며 사용자에게 최소한의 영향을 미치도록 최소한의 시간대에 예약되었습니다. 많은 앱 화면이 오프라인 사용을 지원하기 때문에 대부분의 사용자는 문제를 겪지 않았습니다. 콜라와 피자에 힘입어 우리 팀은 업그레이드를 효율적으로 완료했고 잠재적인 문제에 대응할 준비가 되어 있었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파이썬 업그레이드
 
@@ -49,7 +66,18 @@ PostgreSQL 데이터베이스 업그레이드
 
 업그레이드 계획에 처음에는 없었지만, 업그레이드 프로세스를 컨테이네라이즈하는 것이 유용하다는 것을 발견했습니다. 확장 가능한 인프라를 제공하여 코드가 다양한 환경에서 일관되게 실행되도록 보장하며, "내 컴퓨터에서는 작동한다"는 문제를 해결했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Django 및 Python 라이브러리 업그레이드
 
@@ -59,7 +87,18 @@ Django 업그레이드를 위해 현재 LTS 버전인 4.2를 선택했습니다.
 
 또한 개발 의존성 및 테스트에 사용된 라이브러리를 업그레이드했습니다. 테스트 주도 개발에 의존하는 우리는 신속히 코드베이스 내에서 발견한 문제점을 해결했습니다. 개발자 테스트를 진행한 후, 업그레이드된 서버를 사용하여 운영 환경을 재현하고 QA 팀에 엄격한 테스트를 거쳐 전달했습니다. 그들은 잠재적인 문제점을 식별하는 데 한 달을 투자했고, 우리는 그 모두를 신속히 해결했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 Django 업그레이드의 주요 변경 사항은 다음과 같습니다:
 
@@ -71,7 +110,18 @@ Redis 업그레이드
 
 또 다른 중요한 단계는 Redis 서버를 업그레이드한 것인데, 이 작업은 메인 서비스가 QA 팀의 테스트 중에 있을 때 수행했습니다. 저희 Redis 서버는 만료 및 비만료 키를 모두 관리합니다. 만료 키는 데이터 캐싱에 사용되며, 재생성하는 보조 로직을 통해 이를 쉽게 클리어할 수 있었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비만료 키는 주로 실험 기능에 사용되는데, 업그레이드 후에 이러한 키를 저장하고 되살릴 수 있는 메커니즘이 필요했습니다. 저희는 Python 피클링을 활용하여 모든 데이터를 포함한 피클 파일을 만들었고, Redis 서버를 업그레이드한 다음 파일에서 데이터를 복원했습니다. 이런 해킹적인 해결책이 효과적이었습니다.
 
@@ -79,7 +129,18 @@ Redis 업그레이드
 
 Celery 업그레이드는 메인 서비스와 동일한 코드베이스를 공유하는 Celery를 업그레이드하는 것이 더 하나의 간단한 단계였습니다. 새 테이블 생성 및 필드 업데이트와 같은 필요한 데이터베이스 마이그레이션은 원칙적인 소스 코드 훑기를 통해 확인되었습니다. 왜냐하면 좋은 개발자는 문서를 읽는 것보다 소스 코드를 더 유익하게 여기거든요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용자들에게 업그레이드를 새롭게 선보입니다.
 
@@ -89,7 +150,18 @@ Django 라이브러리의 세션 키 로직을 업데이트하는 스크립트�
 
 성능 향상
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최근에 이루어진 Python과 Django의 업그레이드는 API 응답 속도를 줄이고 전체 사용자 경험을 향상시키는 중요한 성능 향상을 이끌어냈습니다. 이러한 업데이트로 우리의 CI/CD 통합이 간소화되었고, 더욱 신속한 배포와 디버깅을 위한 프로덕션 환경의 복제 설정이 간소화되었습니다. 더불어, 이러한 변경으로 인프라 요구 사항을 줄이는 것을 통해 서버 비용을 낮추는데 이바지했습니다.
 

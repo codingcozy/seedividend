@@ -3,14 +3,13 @@ title: "React의 Context API란 무엇인가 (2024년 최신)"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Reacts context API"
 link: "https://tomarshrayanshi2003.medium.com/reacts-context-api-764249259f8c"
 isUpdated: true
 ---
-
 
 # 컨텍스트 API란 무엇인가요?
 
@@ -21,7 +20,18 @@ Context API 이전에는 데이터를 컴포넌트 트리 아래로 전달하는
 
 # 작동 방식은?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Context API의 핵심은 세 가지 주요 구성 요소로 이루어져 있어요:
 
@@ -33,7 +43,18 @@ Context API의 핵심은 세 가지 주요 구성 요소로 이루어져 있어�
 
 여기 ‘테마’ 기능을 추가하는 데모가 있는데요, 실제로 Context API가 어떻게 작동하는지 설명해줍니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 컨텍스트를 생성하고 있어요
@@ -61,7 +82,18 @@ export default function ThemeProvider({ children }) {
 
 여기서는 Provider를 사용하여 페이지 컴포넌트를 ThemeProvider로 랩핑하여 해당 하위 항목에 사용 가능하도록 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 제공자 사용하기
@@ -92,7 +124,18 @@ export default function Page() {
 
 # Context API를 언제 사용해야 하나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Context API는 컴포넌트 간에 데이터를 공유하는 편리한 방법을 제공하지만, 신중하게 사용하는 것이 중요합니다. 여기 Context API를 사용하는 것이 적절한 몇 가지 시나리오가 있습니다:
 
@@ -105,7 +148,18 @@ Context API는 컴포넌트 간에 데이터를 공유하는 편리한 방법을
 
 ## 1. 전역 상태 식별하기:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Context API를 구현하기 전에 애플리케이션의 상태 요구 사항을 신중하게 평가하고 어떤 데이터가 전역적으로 관리되어야 하는지 식별해주세요.
 
@@ -115,11 +169,33 @@ Context API는 데이터 공유를 위한 강력한 메커니즘을 제공하지
 
 ### 3. Context 값은 간단하게 유지하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 표 태그를 Markdown 형식으로 변경해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 별도의 파일을 사용하여 컨텍스트 객체를 정의하는 것은 조직화되고 유지보수가 쉬워지기 때문에 좋은 실천 방법입니다.
 

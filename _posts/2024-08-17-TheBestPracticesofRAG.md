@@ -3,7 +3,7 @@ title: "최신 RAG Retrieval-Augmented Generation 최고의 실천 방법 5가�
 description: ""
 coverImage: "/assets/img/2024-08-17-TheBestPracticesofRAG_0.png"
 date: 2024-08-17 01:58
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-17-TheBestPracticesofRAG_0.png
 tag: Tech
 originalTitle: "The Best Practices of RAG"
@@ -12,16 +12,26 @@ isUpdated: true
 updatedAt: 1723864283733
 ---
 
-
 RAG 프로세스는 복잡한데, 다양한 구성요소들이 필요합니다. 최상의 RAG 방법을 식별하기 위해 기존 RAG 방법과 그들의 최적의 조합을 어떻게 결정할 수 있을까요?
 
 본 글은 "검색-증강 생성에서 최상의 실천법 찾기"라는 새로운 연구에 대해 소개합니다. 이 연구는 이 문제를 다루기 위해 시작되었습니다.
 
 본 글은 네 가지 주요 부분으로 나뉩니다. 먼저 전형적인 RAG 프로세스를 소개합니다. 다음으로, 각 RAG 모듈에 대한 최상의 실천법을 제시합니다. 그리고 포괄적인 평가를 제공합니다. 마지막으로, 나의 생각과 통찰을 공유하며, 요약으로 마무리합니다.
 
-*전형적인 RAG 워크플로우*
+_전형적인 RAG 워크플로우_
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-08-17-TheBestPracticesofRAG_0.png" />
 
@@ -35,7 +45,18 @@ RAG 프로세스는 복잡한데, 다양한 구성요소들이 필요합니다. 
 
 RAG를 구현하는 것은 또한 문서를 청크로 분할하는 방법, 의미 표현을 위해 사용할 임베딩 선택, 효율적인 특징 저장을 위한 적합한 벡터 데이터베이스 선택, 그림 1에 나와 있는 것과 같이 LLMs를 미세 조정하는 효과적인 방법을 찾는 것을 포함합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 각 과정의 모베스트 프랙티스
 
@@ -45,7 +66,18 @@ RAG를 구현하는 것은 또한 문서를 청크로 분할하는 방법, 의�
 
 우리는 충분한 정보를 제공하는 작업 및 특정 작업 및 예시를 표시하는지 여부에 기반하여 작업을 15가지 유형으로 분류할 수 있습니다. 사용자가 제공한 정보를 전적으로 기반으로 하는 작업은 "충분"으로 표시되고 검색이 필요하지 않습니다; 그렇지 않으면 "불충분"으로 표시되며 검색이 필요할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `<img src="/assets/img/2024-08-17-TheBestPracticesofRAG_1.png" />`
 
@@ -55,7 +87,18 @@ RAG를 구현하는 것은 또한 문서를 청크로 분할하는 방법, 의�
 
 ## 청킹
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문서를 작은 조각으로 나누는 것은 검색 정확도를 향상시키고 LLM에서 길이 문제를 피하는 데 중요합니다. 일반적으로 세 가지 수준이 있습니다:
 
@@ -67,7 +110,18 @@ RAG를 구현하는 것은 또한 문서를 청크로 분할하는 방법, 의�
 
 청킹 크기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 조각 크기는 성능에 상당한 영향을 미칩니다. 더 큰 조각은 이해를 향상시키는 맥락을 제공하지만 처리 시간을 증가시킵니다. 더 작은 조각은 회상률을 향상시키고 시간을 단축하지만 충분한 맥락이 없을 수 있습니다.
 
@@ -77,7 +131,18 @@ RAG를 구현하는 것은 또한 문서를 청크로 분할하는 방법, 의�
 
 조각 조직
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결과는 도표 5에 표시되어 있습니다. 더 작은 청크 크기는 175 토큰이고, 더 큰 청크 크기는 512 토큰이며, 블록 중첩은 20 토큰입니다.
 
@@ -87,7 +152,18 @@ RAG를 구현하는 것은 또한 문서를 청크로 분할하는 방법, 의�
 
 도표 6에서 볼 수 있듯이, LLM-Embedder는 BAAI/bge-large-en과 비교 가능한 결과를 달성하였지만 그 크기는 후자의 1/3만큼 작습니다. 따라서 성능과 크기를 균형있게 고려하여 LLM-Embedder가 선택되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-08-17-TheBestPracticesofRAG_5.png" />
 
@@ -97,7 +173,18 @@ RAG를 구현하는 것은 또한 문서를 청크로 분할하는 방법, 의�
 
 이 논문은 구체적인 실험은 포함되어 있지 않지만 이를 향후 작업으로 남겨 두었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 벡터 데이터베이스
 
@@ -107,7 +194,18 @@ Milvus는 평가받은 데이터베이스 중에서 가장 뛰어나며 모든 �
 
 ![이미지](/assets/img/2024-08-17-TheBestPracticesofRAG_6.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 검색
 
@@ -119,7 +217,18 @@ Milvus는 평가받은 데이터베이스 중에서 가장 뛰어나며 모든 �
 - 쿼리 분해: 이 방법은 원래 쿼리에서 추출된 하위 질문을 기반으로 문서를 검색합니다. 이러한 하위 질문들은 일반적으로 더 복잡하고 이해하기 어렵습니다.
 - 가상 문서 생성: 이 방법은 사용자 쿼리를 기반으로 가상의 문서를 생성하고 해당 가상 답변의 임베딩을 사용하여 유사한 문서를 검색합니다. 주목할만한 구현체는 HyDE입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Figure 8](/assets/img/2024-08-17-TheBestPracticesofRAG_7.png)
 
@@ -129,7 +238,18 @@ Milvus는 평가받은 데이터베이스 중에서 가장 뛰어나며 모든 �
 
 ## 재순위화
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 초기 검색 후 재순위 지정 단계가 문서의 중요성을 향상시켜 상위 목록에 가장 관련성 높은 정보가 나타날 수 있도록 합니다. 두 가지 주요 방법이 고려됩니다:
 
@@ -140,7 +260,18 @@ Milvus는 평가받은 데이터베이스 중에서 가장 뛰어나며 모든 �
 
 그림 9에서 보듯이 성능과 효율성을 균형있게 고려하는 종합적인 방법으로 monoT5를 사용하는 것이 좋습니다. RankLLaMA는 최적의 성능을 찾는 사람들에게 이상적이며, TILDEv2는 고정된 세트에서 빠르게 실험할 때 적합합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 다시 포장하기
 
@@ -152,7 +283,18 @@ Milvus는 평가받은 데이터베이스 중에서 가장 뛰어나며 모든 �
 - "reverse" 방법은 문서를 오름차순으로 정렬합니다.
 - "sides" 옵션은 'Lost in the Middle'에서 영감을 받은 것으로, 입력의 시작 또는 끝에 관련 정보가 있는 경우 가장 잘 작동합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 재포장 방법은 주로 후속 모듈에 영향을 미치므로, 이들의 평가는 다음 종합 검토 섹션에서 소개됩니다.
 
@@ -162,7 +304,18 @@ Milvus는 평가받은 데이터베이스 중에서 가장 뛰어나며 모든 �
 
 추출식 압축기는 텍스트를 문장으로 세분화하여 중요성에 따라 점수를 매기고 순위를 매깁니다. 생성식 압축기는 여러 문서에서 정보를 종합하여 다시 정리하고 일관된 요약을 생성합니다. 이 작업은 쿼리 기반 또는 비쿼리 기반일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 세 가지 방법이 주로 평가됩니다:
 
@@ -174,7 +327,18 @@ Milvus는 평가받은 데이터베이스 중에서 가장 뛰어나며 모든 �
 
 그림 10에 표시된 것처럼, Recomp을 사용하는 것이 좋습니다. Recomp은 우수한 성능을 발휘합니다. LongLLMLingua는 성능이 좋지 않지만 실험 데이터에서 훈련을 받지 않아도 더 좋은 일반화 능력을 보여줍니다. 따라서 이를 대안적인 방법으로 고려할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 생성기 세부 조정
 
@@ -184,7 +348,18 @@ Figure 11은 혼합 관련 및 무작위 문서로 훈련된 모델(Mgr)이 골�
 
 <img src="/assets/img/2024-08-17-TheBestPracticesofRAG_10.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 포괄적 평가
 
@@ -194,7 +369,18 @@ Figure 11은 혼합 관련 및 무작위 문서로 훈련된 모델(Mgr)이 골�
 
 그림 12에서 보듯이, 다음과 같은 주요 통찰이 도출되었습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 쿼리 분류 모듈: 이 모듐은 효율성과 효과를 향상시키고 전체 점수를 0.428에서 평균 0.443로 높이며 쿼리 대기 시간을 16.41초에서 11.58초로 줄입니다.
 - 검색 모듈: "Hybrid with HyDE" 방법은 0.58의 가장 높은 RAG 점수를 달성하였지만 계산 비용이 높아서 쿼리 당 11.71초가 소요됩니다. 따라서 대기 시간을 줄이면서도 비슷한 성능을 유지하는 "Hybrid" 또는 "Original" 방법을 사용하는 것이 좋습니다.
@@ -210,7 +396,18 @@ Figure 11은 혼합 관련 및 무작위 문서로 훈련된 모델(Mgr)이 골�
 - 모듈식 디자인의 중요성: 모듈별로 최적화하고 테스트하는 것은 복잡한 시스템에서 모듈식 디자인의 이점을 보여줍니다. 독립적으로 업데이트 및 최적화가 가능하여 유지보수성을 향상시키며 다양한 응용 프로그램 간에 재사용 및 조정을 용이하게 합니다.
 - 체계적인 실험 방법론: 잘 알려진 데이터셋을 대상으로 광범위한 실험을 수행함으로써, 논문은 결과의 신뢰성과 일반성을 보장합니다. 이러한 체계적인 실험 설계 방식은 다른 연구자들에게 훌륭한 예를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 RAG의 실제 응용에서 몇 가지 도전 과제가 있습니다.
 
@@ -223,7 +420,18 @@ RAG의 실제 응용에서 몇 가지 도전 과제가 있습니다.
 
 전반적으로, 두 가지 다른 RAG 시스템 구현 전략을 권장합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Best Performance Practice: 가장 높은 성능을 위해 쿼리 분류 모듈을 포함하고, 검색을 위해 "Hybrid with HyDE" 방법을 사용하며, 재순위 지정을 위해 monoT5를 채택하고, 재포장을 위해 "Reverse"를 선택하고, 요약을 위해 Recomp을 활용하세요.
 - Balanced Efficiency Practice: 성능과 효율성을 균형있게 유지하려면 쿼리 분류 모듈을 포함하고, 검색을 위해 Hybrid 방법을 구현하고, 재순위 지정에 TILDEv2를 사용하고, 재포장을 위해 "Reverse"를 선택하고, 요약을 위해 Recomp을 사용하세요.
@@ -234,6 +442,17 @@ RAG 기술에 관심이 있다면 다른 제 논문을 자유롭게 확인해보
 
 그리고 최신 논문이나 비디오는 제 뉴스레터나 YouTube에서 찾을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사에 오류나 누락 사항이 있거나 궁금한 점이 있으면 댓글 섹션에 알려주세요.

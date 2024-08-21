@@ -3,15 +3,13 @@ title: "환상적인 네트워크 그래프를 위한 최고의 15가지 Python 
 description: ""
 coverImage: "/assets/img/2024-07-09-Top15PythonToolsforStunningNetworkGraphs_0.png"
 date: 2024-07-09 14:53
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-Top15PythonToolsforStunningNetworkGraphs_0.png
 tag: Tech
 originalTitle: "Top 15 Python Tools for Stunning Network Graphs"
 link: "https://medium.com/top-python-libraries/top-15-python-tools-for-stunning-network-graphs-960cfdb82a8f"
 isUpdated: true
 ---
-
-
 
 ## 파이썬 시각화
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 NetworkX는 네트워크 처리에 도움이 되는 파이썬 도구입니다. 여러분이:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1. 네트워크 생성
 
@@ -31,7 +40,18 @@ NetworkX는 네트워크 처리에 도움이 되는 파이썬 도구입니다. �
 
 파이썬에서 그래프 데이터를 다룰 때 많은 사람들이 NetworkX를 사용합니다. 또한 많은 그래프 인공지능 도구의 기반으로 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![그래프 도구](/assets/img/2024-07-09-Top15PythonToolsforStunningNetworkGraphs_0.png)
 
@@ -42,7 +62,18 @@ NetworkX는 네트워크 처리에 도움이 되는 파이썬 도구입니다. �
 
 Graph-tool은 네트워크 작업을 위한 Python 패키지입니다. 다음과 같은 작업을 수행할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1. 네트워크 데이터 다루기
 

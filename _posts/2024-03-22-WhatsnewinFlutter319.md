@@ -3,17 +3,13 @@ title: "Flutter 319 업데이트 정리"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Whats new in Flutter 319"
 link: "https://medium.com/flutter/whats-new-in-flutter-3-19-58b1aae242d2"
 isUpdated: true
 ---
-
-
-
-
 
 오늘은 새로운 Flutter 릴리스, Flutter 3.19를 소개합니다. 이번 릴리스에서는 Gemini용 새로운 Dart SDK, 위젯 애니메이션에 세밀한 제어를 추가할 수 있는 위젯, Impeller 업데이트로 렌더링 성능 향상, 딥 링크 구현을 돕는 도구, Windows Arm64 지원 등이 제공됩니다!
 
@@ -23,7 +19,18 @@ Flutter 커뮤니티는 계속해서 놀라운 작업을 하고 있습니다. 16
 
 # AI 통합
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Gemini Google AI Dart SDK beta release
 
@@ -33,7 +40,18 @@ Google AI Dart SDK가 베타 버전으로 출시되었습니다. 이를 통해 G
 
 # 프레임워크
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 스크롤 개선 사항
 
@@ -43,7 +61,18 @@ Google AI Dart SDK가 베타 버전으로 출시되었습니다. 이를 통해 G
 
 2차원 스크롤링에서는 이제 양방향으로 스크롤이 진행 중일 때 드래그하거나 탭하면 스크롤 활동이 예상대로 중지됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 two_dimensional_scrollables 패키지의 TableView 위젯도 지난 릴리스 이후 업데이트되어 더 많이 개선되었습니다. 병합된 셀을 지원하고 3.16 안정 버전 이후 2D foundation의 새로운 기능들을 더 많이 도입했습니다.
 
@@ -53,7 +82,18 @@ Flutter 커뮤니티 멤버인 @TahaTesser의 기여 덕분에 Flutter는 Materi
 
 ## SegmentedButton.styleFrom
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 플러터 커뮤니티 멤버인 @AcarFurkan이 다른 버튼 유형에서 제공되는 것과 같이 styleFrom 정적 유틸리티 메서드를 추가했습니다. 이 메서드를 사용하면 빠르게 SegmentedButton의 ButtonStyle을 생성하여 다른 분할 버튼에서 공유하거나 앱의 SegmentedButtonTheme을 구성하는 데 사용할 수 있습니다.
 
@@ -63,7 +103,18 @@ Flutter 커뮤니티 멤버인 @TahaTesser의 기여 덕분에 Flutter는 Materi
 
 Adaptive switch 풀 리퀘스트 및 Switch.adaptive 생성자 API 페이지에서 라이브 예제를 확인하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 의미속성 접근성 식별자
 
@@ -73,7 +124,18 @@ SemanticsProperties의 새로운 접근성 식별자는 네이티브 접근성 �
 
 TextField 및 TextFormField에 MaterialStatesController 지원이 추가되어 MaterialState 변경 사항을 감지할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 되돌리기 기록 스택
 
@@ -83,7 +145,18 @@ TextField 및 TextFormField에 MaterialStatesController 지원이 추가되어 M
 
 ## 임펠러 진행률
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안드로이드 OpenGL 미리보기
 
@@ -93,7 +166,18 @@ Flutter 개발자들에게 최신 안정 버전으로 업그레이드하고, Imp
 
 게다가, 메모로, Impeller의 Vulkan 백엔드는 Skia와 함께 사용하는 디버깅 능력을 넘어서는 추가 디버깅 기능을 디버그 빌드에서 활성화합니다. 이러한 기능은 추가 실행 시간 오버헤드가 발생합니다. 그러므로 Impeller의 성능에 대한 피드백을 프로필이나 릴리스 빌드에서 제공하는 것이 중요합니다. 버그 보고서는 DevTools에서의 타임라인과 같은 기기에서 Skia 백엔드와의 비교를 포함해야 합니다. 마지막으로, 항상 그렇지만, 우리는 문제를 명확히 보여주는 간단한 재현 가능한 테스트 케이스를 사용한 피드백에 대해 매우 감사합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로드맵
 
@@ -103,7 +187,18 @@ Flutter 개발자들에게 최신 안정 버전으로 업그레이드하고, Imp
 
 글리프 정보
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 업데이트에는 dart:ui의 Paragraph 객체에 두 가지 새로운 메소드가 포함되어 있습니다: getClosestGlyphInfoForOffset 및 getGlyphInfoAt이 있습니다. 각 메소드는 새로운 유형 GlyphInfo의 객체를 반환합니다. 새로운 GlyphInfo 유형에 대한 문서를 확인해보세요.
 
@@ -113,7 +208,18 @@ Metal (iOS, macOS, Simulator)의 Impeller 및 Vulkan을 활성화한 Android 기
 
 ![이미지](/assets/img/What’s-new-in-Flutter-3.19_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 혹시 Vulkan을 지원하지 않는 안드로이드 기기들은 GPU 타이밍 조회를 잘못 보고할 수 있으므로, Impeller의 GPU 추적은 이러한 기기들에서만 AndroidManifest.xml 파일에 플래그를 설정하여 활성화할 수 있습니다.
 
@@ -125,7 +231,18 @@ Metal (iOS, macOS, Simulator)의 Impeller 및 Vulkan을 활성화한 Android 기
 
 특수화 상수
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 팀은 임펠러에서 전문화 상수 지원을 추가했어요. 임펠러의 셰이더에서 이 기능을 활용하면 플러터 엔진의 압축 해제되지 않은 이진 크기가 거의 350KB 정도 줄어들었답니다.
 
@@ -135,7 +252,18 @@ Metal (iOS, macOS, Simulator)의 Impeller 및 Vulkan을 활성화한 Android 기
 
 게다가, 임펠러는 이제 모든 배경 필터에 대해 무조건 스텐실 버퍼를 저장하지 않아요. 대신, 모든 클립 영향을 받는 작업이 기록되고, 배경 필터용 저장 레이어를 복원할 때 새 스텐실 버퍼로 다시 재생됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/What’s-new-in-Flutter-3.19_2.png" />
 
@@ -145,7 +273,18 @@ Metal (iOS, macOS, Simulator)의 Impeller 및 Vulkan을 활성화한 Android 기
 
 ## 웹 검증 도구 (Deeplinking)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 개발자들로부터 깊은 링킹(웹 URL에서 모바일 앱의 특정 페이지로 이동하는 것)이 항상 구현하기 어렵고 오류를 발생시키기 쉽다는 피드백을 받았습니다. 따라서 먼저 잘못 구성된 링크를 개발자들이 이해하고 구현 지침을 제공하는 검증 도구를 만들었습니다. 저희는 기쁘게도 Flutter 딥링크 검증기의 초기 버전이 이제 사용 가능하다는 소식을 전해드립니다!
 
@@ -153,7 +292,18 @@ Metal (iOS, macOS, Simulator)의 Impeller 및 Vulkan을 활성화한 Android 기
 
 이 도구가 깊은 링킹 구현 여정을 간소화할 수 있는 첫 번째 단계가 되기를 바랍니다. 앞으로 iOS에서 웹 검사 및 iOS 및 Android 양쪽에서 앱 검사를 지원하는 미래 지원을 계속 제공할 예정입니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Share.invoke 지원
 
@@ -163,7 +313,18 @@ Metal (iOS, macOS, Simulator)의 Impeller 및 Vulkan을 활성화한 Android 기
 
 Flutter와 다른 언어의 기능과의 상호 운용성에 관심이 있다면, 우리는 지속적인 Native assets 지원을 위한 작업의 일환으로 Android에서 Native assets를 통해 FFI 호출을 수행할 수 있도록 했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 텍스처 레이어 하이브리드 구성 (TLHC) 모드
 
@@ -173,7 +334,18 @@ Flutter 3.19에는 Google 지도 및 텍스트 입력 확대기가 TLHC 모드�
 
 ## 사용자 정의 시스템 전체 텍스트 선택 툴바 버튼
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요! 안드로이드 앱에서는 모든 텍스트 선택 메뉴(텍스트를 길게 누르면 나타나는 메뉴)에 나타나는 사용자 지정 텍스트 선택 메뉴 항목을 추가할 수 있어요. Flutter의 TextField 선택 메뉴는 이제 해당 항목을 포함하고 있어요.
 
@@ -183,7 +355,18 @@ Flutter 3.19에는 Google 지도 및 텍스트 입력 확대기가 TLHC 모드�
 
 Flutter 텍스트는 이제 iOS에서 더 조밀하고 더 네이티브한 모습을 가지고 있어요. Apple 디자인 가이드라인에 따르면 iOS에서 작은 글꼴은 모바일에서 더 쉽게 읽을 수 있도록 좀 더 간격을 둬야 하고, 큰 글꼴은 공간이 적게 차지하도록 더 조밀해야 해요. 이전에는 우리가 모든 경우에 작은 더 간격이 더 많이 된 글꼴을 잘못 사용하고 있었어요. 이제 기본적으로 Flutter는 큰 텍스트에 대해 조밀한 글꼴을 사용할 거예요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/What’s-new-in-Flutter-3.19_4.png)
 
@@ -193,7 +376,18 @@ Flutter 텍스트는 이제 iOS에서 더 조밀하고 더 네이티브한 모�
 
 이번 릴리스에서 DevTools의 주요 업데이트 몇 가지는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 안드로이드에서 딥링크 설정을 확인하는 새로운 기능과 화면이 DevTools에 추가되었습니다.
 - 플러그인을 사용하는 앱에서 유용한 플랫폼 채널 활동 추적을 위한 'Enhance Tracing' 메뉴에 옵션이 추가되었습니다.
@@ -205,7 +399,18 @@ Flutter 텍스트는 이제 iOS에서 더 조밀하고 더 네이티브한 모�
 
 더 많은 정보는 DevTools 릴리스 노트, 2.29.0, 2.30.0 및 2.31.0을 확인해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 데스크톱
 
@@ -215,7 +420,18 @@ Flutter 텍스트는 이제 iOS에서 더 조밀하고 더 네이티브한 모�
 
 # 생태계
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 필요한 이유의 개인정보 보호 선언
 
@@ -225,7 +441,18 @@ Flutter 텍스트는 이제 iOS에서 더 조밀하고 더 네이티브한 모�
 
 놓치지 마세요. 1월 블로그 게시물에서 플러터(Flutter)와 다트(Dart) 패키지 생태계의 진행 상황을 확인해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 폐기 예정 및 변경 사항
 
@@ -235,7 +462,18 @@ Flutter가 진화하는 과정에서 Dart 3.3 및 Flutter 3.19 릴리스를 통�
 
 ## 임펠러 디더링 플래그
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3.16 안정 버전 릴리스 노트에 언급된 대로, Paint.enableDithering 전역 플래그가 제거되었습니다. 자세한 내용은 웹사이트의 주요 변경 사항 안내를 참조해주세요.
 
@@ -245,7 +483,18 @@ Flutter가 진화하는 과정에서 Dart 3.3 및 Flutter 3.19 릴리스를 통�
 
 ## 자동 렌더 모드 폐기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 릴리스의 주요 변경 사항은 v3.16 이후에 만료된 API가 포함되어 있다는 것입니다. 영향을 받는 모든 API 및 추가적인 맥락 및 이주 안내를 보려면 이 릴리스에 대한 폐기 안내서를 참조하세요. 이러한 폐기 중 많은 것들이 Flutter fix에 의해 지원되며, IDE에서 빠른 수정도 가능합니다. 대량 수정은 dart fix 명령줄 도구로 평가하고 적용할 수 있습니다.
 
@@ -255,7 +504,18 @@ Flutter가 진화하는 과정에서 Dart 3.3 및 Flutter 3.19 릴리스를 통�
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 발표의 시작 부분에서 우리가 뛰어난 기여자들의 수를 강조했던 것은 목적이 분명했습니다. Flutter가 강력하고 효율적인 툴킷으로 진화한 것은 우리 놀라운 커뮤니티의 헌신과 노고의 직접적인 증거입니다. 모두 여러분께 진심으로 감사드립니다.
 

@@ -3,17 +3,13 @@ title: "모든 웹 개발자가 알아야 할 모던 CSS 기능들"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Modern CSS Features That Every Web Developer Should Know"
 link: "https://medium.com/gitconnected/modern-css-features-that-every-web-developer-should-know-d601c2076406"
 isUpdated: true
 ---
-
-
-
-
 
 ![](/assets/img/ModernCSSFeaturesThatEveryWebDeveloperShouldKnow_0.png)
 
@@ -23,7 +19,18 @@ HTML 표준은 웹 페이지의 기본 구조를 만들기 위한 의미론적 �
 
 본 이야기에서는 모든 웹 개발자가 알아야 할 현대 CSS 기능 몇 가지와 몇 가지 데모 코드 스니펫을 사용하여 설명하겠습니다. 이러한 기능을 숙달하여 깨끗한 CSS 문서로 미래 지향적인 웹 앱을 효율적으로 개발하기 위해 이 기능을 마스터하는 것을 고려해보세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 네이티브 CSS 애니메이션과 전환
 
@@ -35,7 +42,18 @@ HTML 표준은 웹 페이지의 기본 구조를 만들기 위한 의미론적 �
 <div class="spinner"></div>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 @keyframes spinner {
@@ -63,7 +81,18 @@ HTML 표준은 웹 페이지의 기본 구조를 만들기 위한 의미론적 �
 
 만약 사용자 상호작용을 통해 CSS 속성을 애니메이션화해야 한다면 어떻게 할까요? CSS 트랜지션 기능을 사용하면 CSS 속성을 부드럽게 렌더링하여 다음과 같이 트랜지션 애니메이션을 만들 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 button {
@@ -93,7 +122,18 @@ button:active {
 
 # 중첩된 CSS 스타일
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **DRY (Don’t Repeat Yourself)** 프로그래밍 원칙은 프로그래머가 반복 코드를 피해 고품질 코드를 작성하도록 동기를 부여합니다. CSS 전처리기는 반복되는 CSS 선택자를 피하기 위해 CSS 중첩 기능을 제공합니다. 이제 CSS가 이 기능을 네이티브로 지원합니다. 이 기능에 대한 브라우저 지원은 아직 완전히 성숙하지는 않지만, 곧 개발자 생산성에 영향을 줄 것으로 예상됩니다.
 
@@ -117,7 +157,18 @@ button:active {
 
 이제 중첩 기능을 사용하여 더 간결한 CSS 정의를 다음과 같이 작성할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .alert {
@@ -152,7 +203,18 @@ button:active {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 코드 스니펫을 통해 반복되는 값을 제거하기 위해 CSS 변수를 만들 수 있습니다:
 
@@ -177,7 +239,18 @@ button:active {
 
 ![image](https://miro.medium.com/v2/resize:fit:1110/1*TGX-zokc_jCH9sf85z53nQ.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # CSS 카운터
 
@@ -187,7 +260,18 @@ CSS 카운터를 사용하면 CSS 내에서 카운터 변수를 생성하고 사
 
 다음 예제 코드 스니펫을 살펴보세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <h3>C/C++</h3>
@@ -210,7 +294,18 @@ h3::before {
 
 <img src="/assets/img/ModernCSSFeaturesThatEveryWebDeveloperShouldKnow_4.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Scoped Style Tags
 
@@ -239,7 +334,18 @@ h3::before {
 </div>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS 스코핑 기능은 사용되지 않는 scoped 속성의 후속 기능으로, HTML에서 LoB 원칙을 구현하고 수동으로 고유한 클래스 이름이나 식별자를 사용하지 않고 가까운 스타일 태그로 HTML 세그먼트를 스타일링하는 데 도움이 됩니다:
 
@@ -273,7 +379,18 @@ CSS 스코핑 기능은 사용되지 않는 scoped 속성의 후속 기능으로
 
 이 기능에 대한 브라우저 지원은 아직 완전히 성숙하지 않지만, 앞으로 게임 체인저 역할을 할 것입니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 현대 텍스트 처리 기능
 
@@ -292,7 +409,18 @@ h1 {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 CSS 정의는 h1 요소를 resizable하게 만들고 잘린 텍스트에 대한 후행 ellipsis 문자를 표시합니다:
 
@@ -307,7 +435,18 @@ h1 {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 CSS 코드 스니펫은 텍스트 선택 요소를 다음과 같이 변경합니다.
 
@@ -335,7 +474,18 @@ h1 {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 코드 스니펫은 h1 요소 텍스트에 대해 반짝이는 애니메이션을 렌더링합니다:
 
@@ -345,7 +495,18 @@ MDN 공식 문서에서 모든 지원되는 텍스트 관련 속성을 찾아보
 
 # 네이티브 폼 요소 스타일링
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 앱은 종종 텍스트 상자, 슬라이더, 라디오 버튼, 체크박스 등과 같은 폼 요소를 통해 사용자 입력을 수집합니다. HTML 표준은 내장된 기본 폼 요소를 제공하지만 해당 컨트롤의 기본 외관은 일관성이 없으며 웹 브라우저 구현에 따라 다릅니다. 이전에는 프라이머리 웹 앱 색상 구성과 일치시키기 위해 CSS 기반 사용자 정의 폼 컨트롤을 작성했습니다. 그러나 현대 CSS 표준에서는 native 폼 컨트롤 색상을 생산적으로 사용자 정의하기 위한 accent-color 속성을 제공합니다.
 
@@ -355,7 +516,18 @@ MDN 공식 문서에서 모든 지원되는 텍스트 관련 속성을 찾아보
 
 이 accent color 속성은 라디오 버튼, 체크박스, 프로그레스 바 및 레인지 슬라이더와 함께 작동하므로 텍스트 상자와 같은 폼 컨트롤을 사용자 정의하기 위해 전통적인 CSS 속성을 사용해야 합니다. 또한, 이 accent color 기능은 어두운/밝은 테마와 잘 작동합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 가상 클래스와 요소
 
@@ -367,7 +539,18 @@ CSS 가상 클래스는 DOM 요소의 다양한 상태를 기반으로 스타일
 <input type="text" required pattern="[\w]+" />
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 input[type=text] {
@@ -392,7 +575,18 @@ input[type=text]:valid:focus {
 
 가상 요소는 주요 요소의 하위 요소를 스타일링하는 데 도움을 줍니다. 예를 들어 ::placeholder 요소는 텍스트 입력란의 플레이스홀더를 선택합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 input[type=text]::placeholder {

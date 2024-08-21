@@ -3,16 +3,13 @@ title: "Tailwind에서 동적 색상 테마사용하는 방법"
 description: ""
 coverImage: "/assets/img/2024-05-18-TailwindDynamicColorThemeSolutions_0.png"
 date: 2024-05-18 22:10
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-18-TailwindDynamicColorThemeSolutions_0.png
 tag: Tech
 originalTitle: "Tailwind Dynamic Color Theme Solutions"
 link: "https://medium.com/@oodri/tailwind-dynamic-color-theme-solution-4351d0495c7f"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-05-18-TailwindDynamicColorThemeSolutions_0.png" />
 
@@ -24,7 +21,18 @@ isUpdated: true
 - 어두운 테마 스타일은 html 파일에 개별적으로 정의되어야 하므로 모든 색상 선택지가 css에서 두 번 반복되는 느낌을 주고 유지보수가 어렵게 만들 수 있어요.
 - CSS 변수의 사용은 가능하지만, 중요한 단점이 있습니다: 불투명 클래스(예: bg-primary/50)는 '원시' hsl이나 rgb로 정의되지 않는 한 더 이상 작동하지 않을 것입니다(예: — color-primary: 0 0 100;). 또한 css 변수를 사용하면 tailwind의 내장 색상을 재사용하거나 자체 JSON 객체를 사용하여 정의할 수 없어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 내가 생각한 해결책이 두 가지 있어.
 
@@ -34,26 +42,37 @@ isUpdated: true
 
 테일윈드 구성 파일:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 //tailwind.config.js
 /** @type {import('tailwindcss').Config} */
 
-import { colors, getNeutral, getThemeColors } from './src/styles/theme'
+import { colors, getNeutral, getThemeColors } from "./src/styles/theme";
 
 module.exports = {
   content: [
-    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
-  darkMode: 'class',
+  darkMode: "class",
   theme: {
     extend: {
       colors: {
-        dark: getNeutral('dark'),
-        light: getNeutral('light'),
+        dark: getNeutral("dark"),
+        light: getNeutral("light"),
         neutral: getThemeColors(colors.neutral),
         brand: getThemeColors(colors.brand),
         success: getThemeColors(colors.success),
@@ -64,20 +83,20 @@ module.exports = {
     },
   },
   plugins: [],
-}
+};
 ```
 
 Theme file:
 
 ```js
 //theme.js
-const tailwindColors = require('tailwindcss/colors')
+const tailwindColors = require("tailwindcss/colors");
 
-const darkShade = 600
-const lightShade = 300
-const defaultShade = 500
-const neutralLightShade = 50
-const neutralDarkShade = 950
+const darkShade = 600;
+const lightShade = 300;
+const defaultShade = 500;
+const neutralLightShade = 50;
+const neutralDarkShade = 950;
 
 export const colors = {
   neutral: tailwindColors.slate,
@@ -86,25 +105,36 @@ export const colors = {
   warn: tailwindColors.orange,
   danger: tailwindColors.red,
   info: tailwindColors.cyan,
-}
+};
 
-export const getThemeColors = color => {
+export const getThemeColors = (color) => {
   return {
     DEFAULT: color[defaultShade],
     l: color[lightShade],
     d: color[darkShade],
     ...color,
-  }
-}
+  };
+};
 
-export const getNeutral = shade => {
-  return shade === 'light' ? neutralLightShade : shade === 'dark' ? neutralDarkShade : colors.neutral[shade]
-}
+export const getNeutral = (shade) => {
+  return shade === "light" ? neutralLightShade : shade === "dark" ? neutralDarkShade : colors.neutral[shade];
+};
 ```
 
 Using this solution may have some drawbacks. The process of setting up dark mode, while somewhat improved, still involves some complexity. Additionally, managing text visibility over colored backgrounds is manageable but finding a semantically sensible solution can be challenging.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 해결책 2: CSS 변수 사용
 
@@ -115,16 +145,11 @@ Tailwind 구성 파일:
 ```js
 // tailwind.config.js
 
-const { fontFamily } = require("tailwindcss/defaultTheme")
+const { fontFamily } = require("tailwindcss/defaultTheme");
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./app/**/*.{ts,tsx}",
-    "./components/**/*.{ts,tsx}",
-    "./ui/**/*.{ts,tsx}",
-    "./content/**/*.{md,mdx}",
-  ],
+  content: ["./app/**/*.{ts,tsx}", "./components/**/*.{ts,tsx}", "./ui/**/*.{ts,tsx}", "./content/**/*.{md,mdx}"],
   darkMode: ["class"],
   theme: {
     container: {
@@ -196,10 +221,21 @@ module.exports = {
     },
   },
   plugins: [require("tailwindcss-animate"), require("@tailwindcss/typography")],
-}
+};
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Tailwind Dynamic Color Theme Solutions](/assets/img/2024-05-18-TailwindDynamicColorThemeSolutions_1.png)
 
@@ -292,8 +328,18 @@ Global CSS File:
 
 The advantages of using a solution like this one are that not only the styling will be quicker to write as we don’t need to manage our dark theme with Tailwind, but we also can create as many themes as we want based on any class or selector we want.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 큰 단점은 Tailwind의 투명도 기능을 유지하기 위해서는 원시 rbg 또는 hsl 코드를 사용해야 하므로 읽기가 훨씬 어려워진다는 것입니다. 이 방식으로는 색상 관리가 쉽거나 직관적이지 않지만, 한 가지 해결책은 루트에서 의미 있는 색상 변수를 정의한 다음에 테마에서 사용하는 것입니다:
 

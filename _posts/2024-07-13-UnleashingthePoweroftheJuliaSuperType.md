@@ -3,16 +3,13 @@ title: "Julia의 슈퍼타입 파워 활용법"
 description: ""
 coverImage: "/assets/img/2024-07-13-UnleashingthePoweroftheJuliaSuperType_0.png"
 date: 2024-07-13 21:28
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-UnleashingthePoweroftheJuliaSuperType_0.png
 tag: Tech
 originalTitle: "Unleashing the Power of the Julia SuperType"
 link: "https://medium.com/towards-data-science/unleashing-the-power-of-the-julia-supertype-bb369209efca"
 isUpdated: true
 ---
-
-
-
 
 ![Julia Super Type](/assets/img/2024-07-13-UnleashingthePoweroftheJuliaSuperType_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 Julia 프로그래밍 언어는 최근 몇 년 동안 프로그래밍 세계에 등장한 가장 흥미로운 발전 중 하나입니다. 프로그래밍의 세계는 수십 년 동안 다양한 문제를 해결하는 데 매우 효과적인 이념적 접근 방식을 만들기 위해 연마된 선택적 패러다임 몇 가지에 익숙해져 있습니다. Julia는 작업을 완료하는 데 일반적인 프로그래밍 개념을 많이 활용하지만, 언어의 패러다임 자체가 극도로 독특하며 종종 다른 방식으로 작업을 수행하게 됩니다. 이것을 다중 디스패치 프로그래밍 패러다임이라고 부릅니다. 이 패러다임은 데이터 과학자들이 하는 것과 정확히 일치하는 프로그래밍 패러다임입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 프로그래밍 패러다임 관계로, Julia는 일반적인 프로그래밍 개념을 구현하기 위해 조금 기어들었습니다. 이는 Julia 전반에 걸쳐 다양한 용량에서 나타납니다. 이러한 모든 개념들은 다중 디스패치 패러다임의 강력한 능력으로 돌아갑니다. 숙련된 프로그래머들에게는 이것이 놀랍도록 강력한 패러다임일 수 있다고 생각합니다! 그러나, 어떤 패러다임이든 활용할 수 있는 도구를 알아내는 것이 중요합니다. Julian 패러다임에 훌륭하게 적합한 기법 중 하나는 추상화의 Julian 구현입니다.
 
@@ -32,7 +40,18 @@ Julia 프로그래밍 언어는 최근 몇 년 동안 프로그래밍 세계에 
 
 ## 수퍼 타입 기본.subplots of abstraction in Julia!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리만의 슈퍼 타입을 생성하기 위해 시작할 때, 추상 타입 구문에 친숙해지려고 합니다. 추상 타입은 필드가 전혀 없이 이름만으로 존재하는 모호하게 정의된 타입입니다. 이러한 이름들을 서로 다른 조직으로 사용하여 타입 계층 구조의 제한된 수준에 메소드를 적용할 수 있습니다. 좋은 예로는 숫자가 있습니다.
 
@@ -42,7 +61,18 @@ Julia에서 숫자는 몇 가지 다른 실용적인 범주에 따라 구성됩�
 
 Julia 내에서 추상화와 상호 작용하기 위한 주요 도구는 서브 타입 연산자, `:`입니다. 이것은 비트별 부울 연산자로, 두 피연산자에 따라 true 또는 false를 반환하는 것을 의미합니다. 이 조건은 첫 번째 피연산자가 두 번째 피연산자의 하위 타입인 경우에 true가 됩니다. 이 경우 첫 번째 피연산자는 타입 또는 추상 타입이 될 것입니다. 두 번째 피연산자는 항상 추상 타입이 됩니다. 왜냐하면 무언가는 추상 타입의 하위 타입일 수밖에 없기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 모든 것 <: 아무거나!
@@ -71,8 +101,18 @@ end
 
 ## 슈퍼 타입 디스패치
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 유형의 등위 구조를 만드는 것은 좋지만, 이를 여러 디스패치와 함께 활용하는 것이 훨씬 더 좋습니다. 여러 디스패치를 사용하면 우리가 원하는 정확한 레벨로 디스패치할 수 있어서 특정 카테고리만 포괄하는 함수를 생성할 수 있습니다. 다음의 경우, 임의의 정수 또는 부동 소수점 숫자는 이 함수 내에서 다르게 처리됩니다:
 
@@ -86,7 +126,18 @@ remainder(x::AbstractFloat) = x - floor(x)
 
 이 문맥에서 디스패치를 사용할 때의 한 가지 주의점은 하위 유형을 매개변수로 사용하는 것입니다. 예를 들어, 경우에 따라 다음과 같이 보이는 인수가 있을 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 funcexamp(x::Vector{Number}) = begin
@@ -123,7 +174,18 @@ julia> funcexamp(myvec)
 
 여기서의 해결책은 조금 이상한 방법으로 파라미터를 이 디스패치하는 것입니다. 해당 서브타입 연산자를 사용하여 이루어집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 funcexamp(x::Vector{<:Number}) = begin
@@ -137,7 +199,18 @@ end
 
 줄리아에서 추상화에 관한 이야기에서 중요한 것 중 하나인 필드에 대해 이야기해 보겠습니다. 간단히 말해, 줄리아는 추상 타입이 필드로 사용되지 않을 것을 선호합니다. 이유는 타입의 필드가 여러 다른 타입일 수 있을 때 줄리아가 성능에 심각한 타격을 입기 때문입니다. 이는 다중 디스패치에도 좋지 않은 실천 방식일 수 있습니다. 아마도 일반적인 함수 생성자를 사용하는 것이 일반적인 구조를 사용하는 것보다 나을 것입니다. 예를 들어, 다음 구조는 아마 좋지 않은 아이디어일 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 mutable struct Calculator
@@ -157,7 +230,18 @@ end
 
 이 매개변수를 하위 유형으로 지정하여 이 필드에 예상하는 것을 명시적으로 만들 수도 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 mutable struct Calculator{T <: Real}
@@ -177,7 +261,18 @@ end
 
 누군가가 이 Calculator를 생성하는 데 필요한 이 파라미터를 제공해야 합니다. 우리는 내부 생성자를 사용하여 새로운 디스패치를 만들어 이를 변경할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 mutable struct Calculator{T <: Real}
@@ -198,7 +293,18 @@ Int64 <: Integer
 true
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아쉽게도 Julia는 이를 넘어서는 많은 옵션을 제공하지 않습니다. 특정 유형에 대한 좋은 출력물을 얻을 수 있도록하는 것이 가치 있는 작업일 수도 있습니다. Julia 커뮤니티에서 유행한 예쁜 함수가 있습니다.
 
@@ -234,7 +340,18 @@ Number
 
 ## 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 추상화는 현대 고수준 프로그래밍 언어에서 매우 중요한 도구입니다. 동일한 기능을 여러 곳에서 생성하는 것은 지루하며, 프로그래머들은 이를 파악했습니다. 많은 언어가 극명하게 다른 패러다임을 가지고 있고, 결과적으로 이러한 프로그래밍 개념을 달성하는 데 사용되는 기술은 매우 흥미로울 수 있습니다. 이러한 경우 중 하나는 Julia 언어와 해당 유형 계층 구조입니다.
 

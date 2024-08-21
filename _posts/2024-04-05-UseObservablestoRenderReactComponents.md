@@ -3,17 +3,13 @@ title: "리액트 컴포넌트 렌더링에 Observables 사용하기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Use Observables to Render React Components"
 link: "https://medium.com/bitsrc/observables-to-render-react-components-b5d1fd339734"
 isUpdated: true
 ---
-
-
-
-
 
 리액트 컴포넌트의 상태를 가장 우아하게 관리하는 방법은 무엇일까요? 유지보수가 쉽고 구현하기 쉽며 성능이 우수해야 합니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 Observables을 사용하는 이유는 뭘까요? Observables은 현재 JavaScript 언어의 일부가 될 것으로 제안된 간단한 기능입니다. [링크](https://github.com/tc39/proposal-observable)를 확인해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React 상태는 도메인별로 격리되어야 하며 컴포넌트는 대상지항적으로 다시 렌더링되어야 합니다; 데이터를 사용하는 컴포넌트만 업데이트되고 다른 컴포넌트는 업데이트되지 않아야 합니다. 우리는 성능에 영향을 미치는 데이터 비교나 변경 확인을 피하고 싶습니다.
 
@@ -38,7 +45,18 @@ React 상태는 도메인별로 격리되어야 하며 컴포넌트는 대상지
 | retrieveData() | 데이터를 검색하여 Observable 반환  |
 | mutateData()   | 데이터를 변경시키는 동기 작업 반환 |
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 class UserService {
@@ -53,7 +71,18 @@ class UserService {
 
 useEffect 후크를 사용하여 보기 구성 요소에서 서비스 계층으로 직접 호출할 수 있지만, 이러한 경우 사용자 정의 후크를 사용하는 것이 더 좋습니다. 관심사 분리를 얻을 수 있고, 보기 계층, 후크를 컨트롤러로 사용하고, 구체적인 서비스를 서비스 계층으로 사용할 수 있습니다. 서비스와 뷰를 쉽게 결합할 수 있으며, 강력하게 연결을 해제한 구성 요소를 유지하면서 응집력을 유지할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 아키텍처는 다음 아키텍처 원칙을 준수합니다:
 
@@ -68,7 +97,18 @@ useEffect 후크를 사용하여 보기 구성 요소에서 서비스 계층으�
 
 # 코드를 보여주세요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자 코드를 보고 싶으세요? 아래 예시 사용자 서비스를 확인해보세요.
 
@@ -132,7 +172,18 @@ class UserService {
 
 ## 예시 훅
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 코드는 사용자 서비스를 사용하는 예시 훅을 보여줍니다. 이 훅을 일반적이고 재사용 가능하게 만드는 것은 간단합니다. 이를 어떻게 구성할지는 개별 개발자가 결정하는 것이 가장 좋습니다.
 
@@ -167,7 +218,18 @@ const useUserService = (userService) => {
 
 마지막으로, 우리의 뷰 컴포넌트가 있습니다. 이것은 충분히 쉽게 처리될 수 있어야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const UserView = (props) => {
@@ -188,7 +250,18 @@ const UserView = (props) => {
 
 나는 이것이 어플리케이션 상태를 관리하는 꽤 깔끔한 방법이라고 생각해요. 다른 몇 가지 방법보다 더 많은 코드를 필요로 할 수도 있지만, 그런 대가로 데이터 흐름이 명확하고 매우 유연하며 확장 가능한 프레임워크를 얻을 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/UseObservablestoRenderReactComponents_3.png)
 
@@ -198,7 +271,18 @@ Bit의 오픈 소스 도구는 25만 명 이상의 개발자들이 컴포넌트�
 
 → 더 알아보기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앱을 구성 요소로 분할하여 앱 개발을 더 쉽게 만들고, 원하는 작업 흐름에 대한 최상의 경험을 즐기세요:
 
@@ -208,7 +292,18 @@ Bit의 오픈 소스 도구는 25만 명 이상의 개발자들이 컴포넌트�
 
 ## → 코드 공유 및 재사용
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## → Monorepo
 

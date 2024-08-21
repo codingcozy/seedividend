@@ -3,17 +3,13 @@ title: "초급 및 중급 레벨 리액트 프로젝트 아이디어 50개 추�
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "50 Beginner and Intermediate level React Project Ideas "
 link: "https://medium.com/@rohan.fulzele/50-beginner-and-intermediate-level-react-project-ideas-%EF%B8%8F-809b396faa39"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/50BeginnerandIntermediatelevelReactProjectIdeas_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 1. 할 일 목록 앱: 할 일을 추가하고 완료로 표시하고 삭제할 수 있는 간단한 할 일 목록 앱을 만들어보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 카운터 앱: 버튼을 클릭할 때 값이 증가하거나 감소하는 카운터 애플리케이션을 만드세요.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 5. 날씨 앱: 사용자 입력 위치를 기반으로 날씨 데이터를 가져오는 앱을 만드세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 6. 이미지 갤러리: 사용자가 이미지를 볼 수 있고 검색할 수 있는 갤러리를 디자인해 보세요.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 9. 간단한 블로그: 사용자가 게시물을 읽고 쓸 수 있는 기본 블로그 플랫폼을 만들어 보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 10. 레시피 앱: 재료와 조리 방법을 포함한 레시피를 표시하는 앱을 개발해보세요.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 12. 채팅 애플리케이션: Firebase나 WebSocket과 같은 라이브러리를 사용하여 실시간 채팅 앱을 만들어보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 13. 영화/TV 프로그램 데이터베이스: 영화 또는 TV 프로그램 정보를 가져와서 표시하는 앱을 개발해보세요.
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 16. 포트폴리오 웹사이트: 프로젝트와 기술을 전시하는 개인 포트폴리오 웹사이트를 만들어보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 17. 지출 추적기: 시간이 경과함에 따라 개인 지출을 추적하고 시각화하는 앱을 개발하세요.
 
@@ -73,7 +124,18 @@ isUpdated: true
 
 20. 구인 게시판: 고용주가 직업을 게시하고 사용자가 지원할 수 있는 플랫폼을 디자인하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 21. 노트 작성 앱: 다양한 서식 옵션을 제공하는 노트를 생성하고 관리하는 앱을 개발합니다.
 
@@ -83,7 +145,18 @@ isUpdated: true
 
 24. Trello 클론: 드래그 앤 드롭 기능을 갖춘 Trello와 유사한 작업 관리 앱을 개발합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 25. 온라인 Markdown 편집기 : 실시간 미리보기가 가능한 온라인 Markdown 편집기 디자인하기.
 
@@ -93,7 +166,18 @@ isUpdated: true
 
 28. 피트니스 추적 앱 : 사용자들이 운동 및 피트니스 진행 상황을 추적할 수 있는 앱 개발하기.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 29. 레시피 공유 플랫폼: 사용자들이 자신의 좋아하는 레시피를 공유할 수 있는 플랫폼을 설계합니다.
 
@@ -103,7 +187,18 @@ isUpdated: true
 
 32. 비용 공유 앱: 그룹 내에서 공유된 비용을 분할하고 추적할 수 있는 앱을 생성합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 33. 여행 일정표 플래너: 사용자가 여행 일정을 계획하고 정리할 수 있는 플랫폼 구축하기.
 
@@ -113,7 +208,18 @@ isUpdated: true
 
 36. 언어 번역 앱: 다른 언어 사이에서 텍스트를 번역하는 앱 구축하기.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 37. 온라인 마켓플레이스: 사용자가 온라인에서 물품을 구매하고 판매할 수 있는 플랫폼을 만들어보세요.
 
@@ -123,7 +229,18 @@ isUpdated: true
 
 40. 투표 앱: 투표와 설문 조사를 만들고 참여할 수 있는 앱을 디자인해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 41. 협업 코드 편집기 : 여러 사용자가 실시간으로 협업할 수 있는 온라인 코드 편집기를 개발하세요.
 
@@ -133,7 +250,18 @@ isUpdated: true
 
 44. 레시피 추천 앱 : 사용자 기호에 따라 레시피를 추천하는 앱을 만드세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 45. 건강 모니터링 앱: 사용자가 걸음 수 및 칼로리와 같은 건강 지표를 추적할 수 있는 앱을 개발합니다.
 
@@ -143,7 +271,18 @@ isUpdated: true
 
 48. 도서 리뷰 플랫폼: 사용자가 읽은 책을 리뷰하고 평가할 수 있는 플랫폼을 디자인합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 49. 협업 그림 앱: 여러 사용자가 실시간으로 함께 그림을 그릴 수 있는 앱을 개발해보세요.
 
@@ -153,7 +292,18 @@ isUpdated: true
 
 52. 캠핑 여행 계획앱: 사용자가 캠핑 여행을 계획하고 조직하는 데 도움을 주는 앱을 디자인해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 53. 홈 자동화 제어: 스마트 홈 장치를 제어하고 모니터링할 수 있는 앱을 개발해보세요.
 
@@ -163,7 +313,18 @@ isUpdated: true
 
 이 중급 수준의 프로젝트 아이디어는 ReactJS의 다양한 측면을 탐색하고 API를 통합하며 데이터베이스를 활용하며 동적이고 매력적인 사용자 경험을 만들 수 있는 다양한 기회를 제공할 수 있습니다. 이러한 프로젝트를 구축하면서 스스로에게 도전하고 즐겁게 시도해 보세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 행복한 코딩! 😎
 

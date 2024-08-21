@@ -3,17 +3,13 @@ title: "KotlinJS external 로 객체 만들기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "March 27, 2024  kotlinJS work"
 link: "https://medium.com/@codespitz/march-27-2024-kotlinjs-work-6ab006be4fea"
 isUpdated: true
 ---
-
-
-
-
 
 제가 Kotlin에서 브라우저의 기본 JS 객체를 사용할 수 있도록 'external'을 사용하여 다양한 래핑을 만들었어요.
 
@@ -65,7 +61,18 @@ inline fun <V:Any> Iterable<V>.toJsArray():JsArray<V>
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 실제 변환 작업은 브라우저에서 자연스럽게 통합되도록 js(..) 함수를 통해 실제 JS 객체를 생성하여 수행됩니다.
 
@@ -84,7 +91,18 @@ inline fun JsObject.delete(key:String):Boolean
 
 마지막으로 살펴볼 사례는 Kotlin에서 인라인의 reified 기능을 사용하여 T 유형의 ::class를 키로 사용하는 Map을 생성하는 것이 일반적이라는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```kotlin
 val map: HashMap<KClass<*>, Int> = hashMapOf()
@@ -106,7 +124,18 @@ inline fun <reified T : Any> add(data: Int) {
 
 그러나 문제는 kotlinJS가 simpleName만 지원하고 qualifiedName은 지원하지 않는다는 것입니다. 한편, kotlinJS가 단일 스레드 환경에서 작동하기 때문에 동기화 문제가 없다는 장점을 살릴 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```kotlin
 private var kClassId:Int = 0
@@ -128,6 +157,17 @@ inline fun <reified T:Any> add(data:Int){
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오늘의 기록은 여기까지에요.

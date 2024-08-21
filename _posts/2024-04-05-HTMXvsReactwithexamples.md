@@ -3,17 +3,13 @@ title: "HTMX, React를 대체할 수 있을까"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "HTMX vs React with examples"
 link: "https://medium.com/javascript-in-plain-english/htmx-vs-react-with-examples-14bd2d70bb4e"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/HTMXvsReactwithexamples_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 HTMX는 HTML의 본연적인 기능을 활용하여 웹 상호작용을 간소화하는 접근 방식으로 주목받고 있습니다. 이는 JavaScript를 많이 필요로 하지 않고 동적 콘텐츠 로딩 및 페이지 업데이트를 가능케 하여 웹 개발을 보다 접근성 있고 빠르게 만듭니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Meta가 개발한 React는 구성 요소 기반의 아키텍처로 유명합니다. 개발자들이 쉽게 높은 반응성과 복잡한 웹 애플리케이션을 구축할 수 있도록 합니다. React의 광범위한 생태계와 커뮤니티 지원으로 인해, 그것은 가장 인기 있는 프론트엔드 라이브러리 중 하나가 되었습니다.
 
@@ -33,7 +40,18 @@ HTMX와 React의 실용적인 응용 사례를 이해하기 위해 블로그 글
 
 HTMX 예제: 댓글 로드하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 HTMX를 사용하면 복잡한 JavaScript를 작성하지 않고도 간단한 코드로이 기능을 구현할 수 있습니다. 아래는 간단한 예제입니다:
 
@@ -50,7 +68,18 @@ HTML:
 - hx-target="#comments-section": GET 요청의 응답(HTML 형식으로 예상)은 comments-section이라는 ID를 가진 요소에 삽입됩니다.
 - hx-trigger="click": 이벤트를 정의하여 GET 요청을 트리거합니다. 이 경우에는 버튼 클릭이 해당 이벤트입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예제는 HTMX를 사용하여 HTML 속성을 통해 인터랙티브 콘텐츠를 직접로드하도록 허용하기 때문에 HTML에 익숙한 개발자들에게 매우 간단합니다.
 
@@ -81,7 +110,18 @@ function CommentsLoader() {
 export default CommentsLoader;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - useState 훅은 댓글 상태를 초기화합니다.
 - loadComments 함수는 버튼을 클릭할 때 댓글을 가져와서 가져온 데이터로 댓글 상태를 업데이트합니다.
@@ -95,7 +135,18 @@ HTMX를 선택하는 경우:
 - 무거운 JavaScript 사용을 피하고 프로젝트를 가볍게 유지하고 싶을 때.
 - 빠른 개발과 사용 편의성이 중요한 경우, 특히 HTML에 뛰어난 백그라운드를 가진 개발자들에게 적합합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트를 선택하는 경우:
 
@@ -107,7 +158,18 @@ HTMX와 리액트는 모두 웹 개발에 대한 독특한 장점을 제공합�
 
 제공된 예제를 통해 HTMX와 리액트 중 어떤 기술을 선택해야 하는지는 프로젝트의 복잡성, 팀의 전문지식 및 특정 개발 요구 사항에 따라 달라집니다. HTMX의 간결함과 직접성 또는 강력하고 확장 가능한 리액트 중 어느 쪽을 선택하든 효율적이고 상호작용성 있는 웹 애플리케이션을 구축하는 데 도움이 될 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 행복한 코딩! 🚀
 

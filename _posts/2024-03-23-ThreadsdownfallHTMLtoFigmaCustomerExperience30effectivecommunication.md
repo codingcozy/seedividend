@@ -3,17 +3,13 @@ title: "HTML에서 Figma로 현업에서 효과적인 커뮤니케이션 하는 
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Threads downfall, HTML to Figma, Customer Experience 30, effective communication"
 link: "https://uxdesign.cc/threads-downfall-html-to-figma-customer-experience-3-0-effective-communication-2c9c49e1485f"
 isUpdated: true
 ---
-
-
-
-
 
 ## 디자이너를 위한 주간 선별 자료 — 사고하는 사람들과 만드는 사람들.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 그것이 대부분의 성장 철학서의 시작점입니다: 더 적은 마찰은 더 높은 전환율을 의미합니다. 나는 비즈니스 마인드를 가진 디자이너로, 그것에 죄책감을 느낍니다."
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 그에는 비용이 들죠.”
 
@@ -44,7 +51,18 @@ Daniel de Mello가 쓴 글
   UX가 비즈니스에 관심을 가져야 하는 이유... 하지만 너무 많이 관심을 갖지 말아야 합니다.
   Lindsey M. West Wallace가 쓴 글
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 UX Collective은 듣지 못한 디자인 음성을 부각시키고 디자이너들이 자신의 작업에 대해 더 비판적으로 생각할 수 있도록 도와주는 독립적인 디자인 출판물입니다.
 
@@ -54,7 +72,18 @@ UX Collective은 듣지 못한 디자인 음성을 부각시키고 디자이너�
 
 # 나를 생각하게 해줘
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 모든 예술은 어떤 것의 복사본입니다 →
   "가끔 예술가는 아름다운 풍경을 보고 그 아름다움을 캔버스에 그려서나 사진을 찍어서 표현하려고 합니다. 그것은 어떤 면에서는 복사본이지만, 예술가의 마음, 마음, 그리고 손을 거치면서 무언가 다른 것으로 변해갑니다."
@@ -72,7 +101,18 @@ UX Collective은 듣지 못한 디자인 음성을 부각시키고 디자이너�
 예방을 위한 디자인, 보호를 위한 디자인이 아닙니다 →
 Ida Persson 님의 글
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/Threads’-downfall-HTML-to-Figma-Customer-Experience-3.0-effective-communication_3.png)
 
@@ -84,7 +124,18 @@ Johan Liedgren, The Liminal Circle 창립자의 글
 고객 경험 3.0이 나타났습니다 →
 Alex Klein의 글
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 도구 및 자료
 
@@ -102,7 +153,18 @@ Alex Klein의 글
 
 만약 당신이 우리의 콘텐츠가 도움이 된다면, 아래 방법으로 우리를 지원할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이번 주의 후원사를 확인하여 그들의 작업을 지원해보세요
 - 친구에게 전달하여 구독을 초대하세요

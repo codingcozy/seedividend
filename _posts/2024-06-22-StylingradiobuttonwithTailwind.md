@@ -3,16 +3,13 @@ title: "Tailwind로 라디오 버튼 꾸미는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-22-StylingradiobuttonwithTailwind_0.png"
 date: 2024-06-22 14:31
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-StylingradiobuttonwithTailwind_0.png
 tag: Tech
 originalTitle: "Styling radio button with Tailwind"
 link: "https://medium.com/@marek-rozmus/styling-radio-button-with-tailwind-6e16d6c0d68d"
 isUpdated: true
 ---
-
-
-
 
 ## 스크래치에서 React 라디오 버튼 구성 요소 (스타일 지정)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-22-StylingradiobuttonwithTailwind_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 스타일링 단계별로
 
@@ -30,16 +38,26 @@ isUpdated: true
 
 ```js
 const Radio = () => (
-  <div>
-    <input type="radio" />
-    <label>This is the radio label</label>
-  </div>
+  <div>
+        <input type="radio" />    <label>This is the radio label</label> {" "}
+  </div>
 );
 ```
 
 이제 레이블을 클릭할 수 있게 id를 추가해보세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const Radio = ({ id }: RadioProps) => (
@@ -58,7 +76,18 @@ const Radio = ({ id }: RadioProps) => (
 <input type="radio" id={id} className="appearance-none" />
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 라디오 버튼이 사라질 거에요 — 처음부터 디자인해야 해요.
 
@@ -67,7 +96,9 @@ const Radio = ({ id }: RadioProps) => (
 폭과 높이를 추가하고, 테두리의 일부 색상을 넣고, 라운드하게 만들어주세요. 라운드하지 않으면 체크박스처럼 네모난 모습이 될 거에요.
 
 ```js
-<input type="radio" id={id}
+<input
+  type="radio"
+  id={id}
   className="
     appearance-none
     w-4 h-4 border-2 border-blue-500 rounded-full
@@ -75,7 +106,18 @@ const Radio = ({ id }: RadioProps) => (
 />
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-22-StylingradiobuttonwithTailwind_2.png" />
 
@@ -85,7 +127,9 @@ const Radio = ({ id }: RadioProps) => (
 
 ```js
 <div className="flex gap-2 items-center">
-  <input type="radio" id={id}
+  <input
+    type="radio"
+    id={id}
     className="
       appearance-none
       w-4 h-4 border-2 border-blue-500 rounded-full
@@ -95,7 +139,18 @@ const Radio = ({ id }: RadioProps) => (
 </div>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-22-StylingradiobuttonwithTailwind_3.png" />
 
@@ -105,8 +160,18 @@ const Radio = ({ id }: RadioProps) => (
 
 우선 버튼이 줄어들었는데, 버튼 스타일에 shrink-0를 추가하여 쉽게 수정할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-22-StylingradiobuttonwithTailwind_5.png)
 
@@ -114,7 +179,9 @@ const Radio = ({ id }: RadioProps) => (
 
 ```js
 <div className="flex gap-2">
-  <input type="radio" id={id}
+  <input
+    type="radio"
+    id={id}
     className="
       appearance-none shrink-0 mt-1
       w-4 h-4 border-2 border-blue-500 rounded-full
@@ -126,8 +193,18 @@ const Radio = ({ id }: RadioProps) => (
 
 ![이미지](/assets/img/2024-06-22-StylingradiobuttonwithTailwind_6.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 확인 상태 추가
 
@@ -152,18 +229,41 @@ const Radio = ({ id }: RadioProps) => (
 
 같은 색으로 간단한 원을 추가했지만, 좀 더 맞춤 정렬이 필요해 보입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래와 같이 마진을 추가하면 끝!
+
 ```js
-<div className="
+<div
+  className="
   absolute
   w-2 h-2 rounded-full bg-blue-500 ml-1 mt-2"
 />
 ```
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 무언가 레이아웃하는 데 마진을 사용하는 것을 선호하지 않아요. 버튼의 너비를 변경하면 그 마진을 업데이트해야 할 필요도 있잖아요:
 
@@ -173,13 +273,26 @@ const Radio = ({ id }: RadioProps) => (
 
 ## 그리드 배치
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다른 방법은 버튼과 체크 요소를 한 그리드 셀에 넣고 중앙 정렬을 사용하는 것입니다. 이제 모든 여백과 절대 위치 설정은 더 이상 필요하지 않습니다.
 
 ```js
 <div className="grid place-items-center">
-  <input type="radio" id={id}
+  <input
+    type="radio"
+    id={id}
     className="
       col-start-1 row-start-1
       appearance-none shrink-0
@@ -199,7 +312,18 @@ const Radio = ({ id }: RadioProps) => (
 
 <img src="/assets/img/2024-06-22-StylingradiobuttonwithTailwind_10.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 정렬 문제가 되돌아왔어요
 
@@ -209,12 +333,25 @@ const Radio = ({ id }: RadioProps) => (
 
 조금 조정이 필요했어요 — 모든 것을 상단에 정렬하고 (유감스럽게도) 원을 조금 낮추기 위해 m-1을 사용했어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <div className="flex gap-2 items-start">
   <div className="grid place-items-center mt-1">
-    <input type="radio" id={id}
+    <input
+      type="radio"
+      id={id}
       className="
         col-start-1 row-start-1
         appearance-none shrink-0
@@ -227,8 +364,9 @@ const Radio = ({ id }: RadioProps) => (
         w-2 h-2 rounded-full bg-blue-500"
     />
   </div>
-  <label htmlFor={id} 
-    className="text-start">라디오 라벨입니다</label>
+  <label htmlFor={id} className="text-start">
+    라디오 라벨입니다
+  </label>
 </div>
 ```
 
@@ -238,7 +376,18 @@ const Radio = ({ id }: RadioProps) => (
 
 더 나아가기 위해 컴포넌트에 일부 변경이 필요합니다 - label과 defaultChecked를 추가하세요. 여기에서 변경된 부분만 보여드리겠습니다. 전체 코드는 리포지토리에서 확인해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const Radio = ({ defaultChecked, id, label }: RadioProps) => (
@@ -257,8 +406,18 @@ const Radio = ({ defaultChecked, id, label }: RadioProps) => (
 
 ![이미지](/assets/img/2024-06-22-StylingradiobuttonwithTailwind_13.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 표는 Markdown 형식으로 변환해야 합니다. 문제는 선택되지 않은 상태에 대한 스타일링이 누락되었다는 것입니다.
 
@@ -283,7 +442,18 @@ const Radio = ({ defaultChecked, id, label }: RadioProps) => (
 
 <img src="/assets/img/2024-06-22-StylingradiobuttonwithTailwind_14.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 확인란을 클릭할 수 없습니다
 
@@ -302,7 +472,18 @@ const Radio = ({ defaultChecked, id, label }: RadioProps) => (
 
 ## 비활성 상태
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한국어로 번역하면:
 
@@ -323,7 +504,18 @@ const Radio = ({ defaultChecked, disabled, id, label }: RadioProps) => (
 ...
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Radio 4(비활성화된)는 선택할 수 없습니다 — 그래서 정상적으로 작동하는 것 같아요. 그러나 외관을 업데이트해야 합니다. 사용자가 항목이 비활성화되었음을 알 수 있도록 해야 합니다. 내부 원 안에 peer-checked 및 peer-disabled를 사용해야 합니다.
 
@@ -351,7 +543,18 @@ Radio 4(비활성화된)는 선택할 수 없습니다 — 그래서 정상적�
 
 네, clsx 또는 classnames 패키지를 사용하여 이런식으로 사용할 수도 있어요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <div
@@ -372,18 +575,28 @@ Radio 4(비활성화된)는 선택할 수 없습니다 — 그래서 정상적�
 또 "disabled" 레이블을 스타일링하려면 prop만 사용할 수 있습니다. 이것은 레이블이 입력란의 형제가 아니기 때문에 노드 구조에서 tailwind 피어를 사용할 수 없기 때문입니다.
 
 ```js
-<label htmlFor={id}
-  className={cx(
-    "text-start",
-    {
-      "text-gray-400": disabled,
-    })}
+<label
+  htmlFor={id}
+  className={cx("text-start", {
+    "text-gray-400": disabled,
+  })}
 >
   {label}
 </label>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-22-StylingradiobuttonwithTailwind_15.png" />
 
@@ -393,12 +606,27 @@ Radio 4(비활성화된)는 선택할 수 없습니다 — 그래서 정상적�
 
 <img src="/assets/img/2024-06-22-StylingradiobuttonwithTailwind_16.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 테이블 태그를 마크다운 형식으로 변경하는 방법입니다:
 
 ```js
-<input type="radio" id={id} defaultChecked={defaultChecked} disabled={disabled}
+<input
+  type="radio"
+  id={id}
+  defaultChecked={defaultChecked}
+  disabled={disabled}
   className="
     peer
     col-start-1 row-start-1
@@ -414,7 +642,18 @@ Radio 4(비활성화된)는 선택할 수 없습니다 — 그래서 정상적�
 
 <img src="/assets/img/2024-06-22-StylingradiobuttonwithTailwind_17.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아직 여기 있나요? 여기서 소개된 모든 내용을 포함한 완전한 라디오 그룹 컴포넌트 예제도 함께 제공하는 리포지토리를 확인해보세요.
 

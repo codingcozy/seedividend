@@ -3,16 +3,13 @@ title: "안드로이드 면접 질문 34개  안드로이드 Content Provider란
 description: ""
 coverImage: "/assets/img/2024-07-12-AndroidInterviewQuestions34WhatisaContentProviderinAndroid_0.png"
 date: 2024-07-12 21:45
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-12-AndroidInterviewQuestions34WhatisaContentProviderinAndroid_0.png
 tag: Tech
 originalTitle: "Android Interview Questions: 34 | What is a Content Provider in Android?"
 link: "https://medium.com/@dawinderapps/android-interview-questions-34-what-is-a-content-provider-in-android-5b8ce750e1d3"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-07-12-AndroidInterviewQuestions34WhatisaContentProviderinAndroid_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 안드로이드에서 콘텐츠 제공자(Content Provider)는 앱이 데이터를 공유하고 관리할 수 있는 강력한 도구입니다. 다른 앱 간에 브릿지 역할을 하여 앱들이 안전하고 제어된 방식으로 데이터에 접근하고 수정할 수 있도록 합니다. 콘텐츠 제공자를 사용함으로써 개발자는 다른 앱들과 데이터를 공유할 수 있는 앱을 만들어 사용자들이 서로 다른 앱 간에 데이터에 쉽게 접근하고 관리할 수 있게 할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 안드로이드에서의 콘텐츠 제공자(Content Providers)란?
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 ## 1. 내장 콘텐츠 제공자(Built-in Content Providers):
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - **ContactsContract**: 연락처 정보(전화번호 및 이메일 주소 등)에 액세스 권한을 부여합니다.
 - **MediaStore**: 비디오, 사진, 오디오 녹음과 같은 미디어 파일을 관리합니다.
@@ -49,7 +68,18 @@ isUpdated: true
 
 이러한 콘텐츠 제공자는 앱이 로컬 및 클라우드에서 다양한 데이터 유형에 액세스하고 관리할 수 있게 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 콘텐츠 제공자를 통해 데이터에 액세스하기
 
@@ -61,7 +91,18 @@ isUpdated: true
 
 ## 1. 콘텐츠 URI 결정
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컨텐츠 URI (Uniform Resource Identifier)는 안드로이드의 콘텐츠 제공자 내 데이터를 참조하고 액세스하는 데 사용되는 고유 식별자입니다. 콘텐츠 제공자에 의해 관리되는 데이터와 상호 작용하기 위한 표준화된 방법입니다.
 
@@ -77,7 +118,18 @@ I. content://
 II. authority
 안드로이드에서 데이터를 관리하는 콘텐츠 제공자를 식별합니다. 일반적으로 콘텐츠 제공자를 제공하는 앱의 패키지 이름입니다. 그러나 앱 개발자가 자유롭게 지정할 수 있는 고유 식별자일 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 예시
@@ -94,7 +146,18 @@ content://com.example.myapp/songs
 
 예시에서 보듯이, 음악은 노래 테이블을 가리킵니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 경로 없이 예시
@@ -111,7 +174,18 @@ ID 세그먼트는 고유한 ID로 식별할 수 있는 단일 항목에 액세�
 content://com.example.myapp/songs
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 패키지 이름이 com.example.myapp인 앱의 콘텐츠 제공자가 관리하는 노래 테이블에 대한 URI는 다음과 같습니다.
 
@@ -124,7 +198,18 @@ content://com.example.myapp/songs/14
 
 ## 2. ContentResolver 인스턴스 획득하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요! 안드로이드에서 Content Provider에 액세스하기 위해 ContentResolver 객체를 만들어야 합니다. 이를 위해 context 객체를 사용할 수 있습니다.
 
@@ -136,7 +221,18 @@ val cr = context.contentResolver
 
 Content Provider를 조회하는 방법은 ContentResolver의 query() 메서드를 사용하는 것입니다. 이를 위해 다음 매개변수가 필요합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Content URI
 - projection (반환할 열)
@@ -151,7 +247,18 @@ Content Provider를 조회하는 방법은 ContentResolver의 query() 메서드�
 
 ## I. onCreate()
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안드로이드에서 컨텐츠 프로바이더의 onCreate 메서드는 컨텐츠 프로바이더를 생성하는 동안 호출됩니다. 이 메서드는 데이터베이스와 같은 중요한 리소스를 초기화하고 초기화 과정의 성공 여부를 나타내는 부울 값으로 반환합니다.
 
@@ -168,7 +275,18 @@ override fun onCreate(): Boolean {
 
 ## II. query()
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 query() 메서드는 안드로이드 콘텐츠 제공자(content provider)에서 데이터 검색 작업을 처리하는 또 다른 기본 메서드입니다. 이 메서드는 콘텐츠 제공자의 데이터 원본을 쿼리하고 요청된 데이터를 Cursor 객체로 반환합니다. 다른 앱들은 Android의 콘텐츠 제공자로부터 데이터를 가져오는 데에 이 메서드를 사용할 수 있습니다.
 
@@ -182,7 +300,18 @@ query() 메서드는 안드로이드 콘텐츠 제공자(content provider)에서
 
 query() 메서드의 구현은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```kotlin
 @Nullable
@@ -211,8 +340,18 @@ override fun query(uri: Uri, projection: Array<String>, selection: String?, sele
 
 cursor.setNotificationUri() 메소드는 Cursor 객체에 대한 알림 URI를 설정하여 쿼리된 데이터에 변경이 있을 때 자동 업데이트를 활성화합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## III. insert()
 
@@ -234,7 +373,18 @@ override fun insert(uri: Uri, values: ContentValues): Uri? {
 
 위 문장 중 "val db = dbHelper.writableDatabase"는 데이터를 삽입해야 할 데이터베이스에 대한 참조를 얻습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `val id = db.insert(TABLE_NAME, “”, values)`은 세 가지 다른 매개변수로 구성됩니다. 두 번째 매개변수인 "”는 실제로 데이터를 삽입하려는 테이블의 열을 참조하는 것입니다. 세 번째 매개변수는 삽입하고자 하는 값이 포함된 ContentValues 객체입니다.
 
@@ -244,7 +394,18 @@ notifyChange() 메서드는 알림을 보내고 UI 구성 요소가 새로운 �
 
 ## IV. update()
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `update()` 메서드는 데이터베이스에서 기존 데이터를 업데이트하는 역할을 합니다. 다른 앱들은 이 메서드를 사용하여 콘텐츠 제공자(content provider)에서 기존 데이터를 수정할 수 있습니다.
 
@@ -263,7 +424,18 @@ override fun update(uri: Uri, values: ContentValues, selection: String, selectio
 
 `delete()` 메서드는 안드로이드의 콘텐츠 제공자의 데이터 원본에서 데이터를 삭제합니다. `delete()` 메서드는 다른 응용 프로그램에서도 사용하여 안드로이드의 콘텐츠 제공자에서 데이터를 제거할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```kotlin
 override fun delete(uri: Uri, selection: String, selectionArgs: Array<String>): Int {
@@ -291,7 +463,18 @@ override fun getType(uri: Uri): String? {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서는 uriMatcher를 사용하여 URI의 유형을 결정했습니다. MIME 유형을 결정하는 세 가지 조건이 있습니다.
 
@@ -303,7 +486,18 @@ override fun getType(uri: Uri): String? {
 
 # 콘텐츠 제공자의 작동 방식
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막 결과로 안드로이드의 콘텐츠 프로바이더 작동에 관련된 모든 구성 요소를 설명할 수 있게 되었습니다.
 
@@ -311,11 +505,12 @@ override fun getType(uri: Uri): String? {
 - 콘텐츠 프로바이더는 또한 `application` 요소 내부에 `provider` 요소를 추가하여 애플리케이션의 매니페스트 파일에 등록되어야 합니다.
 
 ```js
-    <provider
-        android:name=".MyContentProvider"
-        android:authorities="com.example.myapp"
-        android:exported="true"
-        android:enabled="true"/>
+<provider
+  android:name=".MyContentProvider"
+  android:authorities="com.example.myapp"
+  android:exported="true"
+  android:enabled="true"
+/>
 ```
 
 - 이제 콘텐츠 프로바이더의 데이터 원본을 결정해야 합니다. SQLite 데이터베이스, Room 데이터베이스, 파일 저장소 또는 네트워크 API가 될 수 있습니다.
@@ -324,31 +519,53 @@ override fun getType(uri: Uri): String? {
 - 특정 콘텐츠 URI에 대한 적절한 MIME 유형을 반환하는 getType() 메서드를 구현해야 합니다.
 - 다른 앱이 콘텐츠 프로바이더와 상호 작용할 수 있도록 ContentResolver의 개체를 사용해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-12-AndroidInterviewQuestions34WhatisaContentProviderinAndroid_1.png" />
 
 이 주제에 대해 면접에서 물어볼 수 있는 몇 가지 질문이 있습니다:
 
 - 안드로이드에서 Content Provider란 무엇인가요?
-Content Provider는 데이터의 중앙 저장소를 관리하는 구성 요소로, 데이터에 대한 표준화된 인터페이스를 제공하여 데이터에 액세스하고 수정하는 데 사용됩니다.
+  Content Provider는 데이터의 중앙 저장소를 관리하는 구성 요소로, 데이터에 대한 표준화된 인터페이스를 제공하여 데이터에 액세스하고 수정하는 데 사용됩니다.
 - Content Provider의 목적은 무엇인가요?
-애플리케이션 간에 데이터를 공유하는 방법을 제공하면서 데이터 무결성과 보안을 유지하는 것입니다.
+  애플리케이션 간에 데이터를 공유하는 방법을 제공하면서 데이터 무결성과 보안을 유지하는 것입니다.
 - Content Provider와 데이터베이스의 차이점은 무엇인가요?
-Content Provider는 데이터베이스를 감싸고 있는 래퍼로, 데이터에 액세스하고 수정하기 위한 더 높은 수준의 인터페이스를 제공합니다.
+  Content Provider는 데이터베이스를 감싸고 있는 래퍼로, 데이터에 액세스하고 수정하기 위한 더 높은 수준의 인터페이스를 제공합니다.
 - 안드로이드에서 Content Provider를 어떻게 정의하나요?
-ContentProvider 클래스를 확장하고 query(), insert(), update(), delete() 등의 메서드를 재정의하여 정의할 수 있습니다.
+  ContentProvider 클래스를 확장하고 query(), insert(), update(), delete() 등의 메서드를 재정의하여 정의할 수 있습니다.
 - Content Provider에서 UriMatcher의 역할은 무엇인가요?
-들어오는 URI를 특정 데이터 쿼리에 매칭하여 Content Provider가 요청을 처리하는 방법을 결정할 수 있도록 합니다.
+  들어오는 URI를 특정 데이터 쿼리에 매칭하여 Content Provider가 요청을 처리하는 방법을 결정할 수 있도록 합니다.
 - Content Provider에서 데이터 업데이트를 어떻게 처리하나요?
-notifyChange() 메서드를 사용하여 데이터가 변경되었음을 등록된 관찰자에게 알림으로써 처리할 수 있습니다.
+  notifyChange() 메서드를 사용하여 데이터가 변경되었음을 등록된 관찰자에게 알림으로써 처리할 수 있습니다.
 - Content Resolver와 Content Provider의 차이점은 무엇인가요?
-Content Resolver는 Content Provider에서 데이터를 요청하는 클라이언트이고, Content Provider는 데이터를 관리하는 구성 요소입니다.
+  Content Resolver는 Content Provider에서 데이터를 요청하는 클라이언트이고, Content Provider는 데이터를 관리하는 구성 요소입니다.
 - Content Provider에서 데이터를 안전하게 보호하는 방법은 무엇인가요?
-데이터에 대한 읽기 및 쓰기 권한과 같은 권한을 사용하여 데이터 액세스를 제어합니다.
+  데이터에 대한 읽기 및 쓰기 권한과 같은 권한을 사용하여 데이터 액세스를 제어합니다.
 
 질문이 있거나 추가 설명이 필요한 경우 언제든지 ☎️ 저에게 연락해 주세요. 또한 다양한 박수를 부탁드리고 👏 공유 🤝 해 주세요. 유용한 정보를 얻을 수 있는 다른 사람들과 공유하시고, 지원해 주셔서 감사드립니다. 계속해서 배운 내용을 공유할 수 있도록 격려해 주시는 모든 분들께 진심으로 감사드립니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막으로, 이와 같은 게시물을 더 보려면 👥 Dawinder Singh Gill을 팔로우하세요. 우리는 코딩의 세계로 한 줄씩 파고들어갑니다. 즐거운 코딩 되세요!

@@ -3,17 +3,13 @@ title: "2024년 디자이너로 취직하기 어려운 시기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "90 of designers are unhirable"
 link: "https://uxdesign.cc/90-of-designers-are-unhirable-3a8238e3cca2"
 isUpdated: true
 ---
-
-
-
-
 
 ## 당신의 일반적인 포트폴리오가 문제인 이유와 해결법
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 "일반적인 선형적인 디자인 과정"이라는 것은 언제나 동일한 내용의 일반적인 사례 연구들을 의미합니다. 디자이너가 어떤 문제를 발견하고, 사용자 인터뷰를 진행하고, 사용자 페르소나를 생성하고, 스케치로 진행하고, 모크업 및 와이어프레임을 생성하고, 시각적 디자인을 통해 아름답게 만들었으며, 프로토타입을 생성하고, 다섯 명의 사용자로 테스트했다는 내용일 것입니다. 모든 것이 완벽했기 때문에 디자인 시스템을 만들었는데, 그것은 실제로 디자인 시스템이 아니라 그냥 스타일 가이드일 뿐입니다. 그런데 이들은 그것을 "디자인 시스템"이라고 부르며, 이는 유행이고 채용담당자들에게 중요한 키워드이기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제품을 온라인으로 구매하려고 하면 모든 리뷰가 5점만 받았다니, 신뢰하기 어려울 때가 있죠. 완벽한 것만 보여지면 신뢰성이 떨어질 때 — 리뷰가 가짜일까요? 마찬가지로 여러분의 통상적인 포트폴리오를 리뷰할 때도, 모든 것이 완벽하다면 모두 가짜인 것은 아닌지 의심되곤 해요.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 한 디자인 매니저가 그들의 관점을 공유했어요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 포트폴리오를 검토할 때 디자이너가 미숙하거나 디자인에 열정이 없거나 그냥 자신의 작업 가치를 전달하지 못하는 것 같다는 생각을 참지 못합니다. 때로는 위의 모든 것이 사실이지만, 그중 하나만 해당되더라도 디자인에 숙련된 기업에 의해 거부당할만큼 충분합니다. 그렇게 되면 두 번째로 이어지게 됩니다.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 우리는 디자이너들에게 디자인 프로세스와 케이스 스터디 구조에 대해 가르칩니다. 그러나 이게 디자인이 실제로 작동하는 방식인 혼돈스럽고 비선형적인 프로세스로 어떻게 작용하는지를 반영하지는 않습니다. 이 결론에 따라 디자이너의 프로세스와 작업물을 제시하는 방식에 관한 두 가지 주요 문제가 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 디자이너들의 프로세스는 정말로 선형입니다.
 - 디자이너들의 프로세스는 선형이 아니지만 사례 연구는 선형이고 완벽해야한다고 생각합니다.
@@ -54,7 +83,18 @@ isUpdated: true
 
 인터뷰와 디자이너들과의 대화를 토대로 내가 가정하는 것은 이들 중 상당수가 실제로 선형적이라는 것입니다. 그 외의 사람들은 디자이너들이 채용 담당자들이 보고 싶어하는 것이라고 생각하기 때문에 완벽하게 꾸며졌습니다. 또는 단순히 사례 연구가 행복한 결말이 있는 완벽하고 선형적인 이야기여야 한다고 생각하기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이는 주로 연차에 따라 정렬될 가능성이 높습니다. 나는 디자이너들의 20-30%가 실제로 선형 디자인 프로세스를 사용한다고 추정한다. (2023년 '왜 디자이너들이 그만두는가' 연구에서 주니어 또는 중급으로 식별된 수치). 나는 그런 디자이너들을 목격했어. 당신이 UI에서 상호작용이 다시 디자인되어야 한다고 말하면서 작은 작업이지만 그들은 사용자 인터뷰를 실시하고 페르소나를 만들기 시작할 거야.
 
@@ -64,7 +104,18 @@ isUpdated: true
 
 그래서 디자인 프로세스로서 자주 인용되는 이중 다이아몬드 디자인 프로세스조차 현실을 반영하지 않는다. 디자이너들이 노력하는 완벽한 이상이긴 하지만 거의 달성할 수 없는 것. 디자이너들은 단순히 영향 요소들에 대해 그렇게 많은 통제를 갖고 있지 않기 때문에, 이중 다이아몬드 프로세스를 사용하더라도 완벽한, 반복적인 사례 연구를 읽는 디자인 매니저는 즉시 그것이 가짜임을 알 수 있어.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 이 디자이너들을 위한 권장 사항
 
@@ -77,7 +128,18 @@ isUpdated: true
 
 # 디자이너들은 케이스 스터디가 일련적이고 완벽해야 한다고 생각합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내가 LinkedIn에 그 바이럴 포스트를 올렸을 때, 디자이너들로부터 받은 댓글 중에서 가장 놀랐던 것 중 하나는 "디자인 과정이 어수선하고 혼돈스러울 수는 있지만, 케이스 스터디는 선형적이어야 하지 않을까?"라는 의견이었다. 다음은 한 예시이다:
 
@@ -87,7 +149,18 @@ isUpdated: true
 
 ## Monica의 이야기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 UX Buddy 멘토십 프로그램의 일환으로 Monica에게 지난 몇 주간 멘토링을 해왔어요. 그녀가 몇 가지 사례 연구를 써서 제가 리뷰하라고 요청했어요. 금방 문제점을 발견했어요. 그 사례 연구에서 그녀는 문제를 제시받고 결국 두 가지 가능한 해결책을 내놓았어요.
 
@@ -97,7 +170,18 @@ isUpdated: true
 
 그녀는 자신의 사례 연구에서 모든 것을 설명하지 못했어요. 그녀는 하나의 잠재적 솔루션에서 다른 것으로 이동하면서 어떤 것이 작동할 때까지의 선형 이야기로 읽히도록 단순화했어요. 그녀는 자신의 약점 중 하나에 직면하고 더 강력한 디자이너가 되기 위해 어떻게 했는지 흥미로운 이야기를 전하지 못했어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 디자이너들은 왜 선형적이고 완벽한 것이 디자인 매니저들이 원하는 것으로 생각할까요?
 
@@ -109,7 +193,18 @@ isUpdated: true
 
 그러므로 대다수의 디자이너들은 자신들의 복잡한 작업을 선형적이고 간소화된 표현으로 역공학화해야 한다고 믿게 됩니다. 하지 않아도 됩니다! 이야기는 선형적일 수 있지만, 이야기의 주인공은 다양한 도전에 직면하고 괴물을 물리치기 위해 적응해야 합니다. Slava Shestopalov가 설명하는 10가지 팁에는, 디자인은 선형적이지 않으므로 사례 연구도 그렇지 않아야 합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 여기에 해결 방법이 있어요: 혼잡한 세부 사항을 포함하고 이야기를 전해주세요
 
@@ -119,7 +214,18 @@ isUpdated: true
 
 기사를 디자이너로, 마을 사람들을 사용자로, 자갈을 포스트잇 노트로, 용을 디자인 문제로, 방패를 디자인 과정으로, 검을 Figma로 대체하면 전형적인 일반적인 UX 사례 연구가 됩니다. 그러나 어떤 용도 약간의 검 찔러 넣기로 처치되지 않듯이, 아름다운 프로토타입만으로 해결되는 디자인 문제는 없다는 것을 기억해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 왜 케이스 스터디가 이야기처럼 읽히어야 하는 거죠? 위에 있는 틀에 박힌 기사와 용의 이야기는 지루해 보여요. 행복한 결말 때문이 아니라 기사가 진짜로 어려움에 직면하지 않고 용을 쓰러뜨리기 위해 무엇인가를 새롭게 배우거나 적응할 필요가 없기 때문입니다. 그의 능력은 만능하며, 무엇을 해도 완벽하게 해내죠. 그것은 사실상 이야기가 아니에요.
 
@@ -129,7 +235,18 @@ isUpdated: true
 
 이야기 전달은 디자이너들에게 필수적인 소프트 스킬 중 하나이기도 합니다(출처). 이러한 논리는 다음과 같습니다. 케이트 허스트는 이야기 전달과 이야기 창작의 중요성에서 이야기 전달이 다른 사람들에 대해 배우고, 그들과 그들의 상황에 대한 이해와 공감을 찾는 데 도움이 된다고 설명합니다. 즉, 디자인 작업에 관한 좋은 이야기를 전달할 수 있다면, 고용되면 디자인 가치를 커뮤니케이트 하는 데도 동일한 스토리텔링 기술을 활용할 수 있을 겁니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이야기가 선형적이라는 주장은 일부 사실입니다. 거의 항상 동일한 구조를 따르며, 이를 이야기 구조로 불리기도 합니다. 이 구조에는 노출, 일어나는 사건, 행동, 절정 및 결론이라는 다섯 가지 주요 구성 요소가 있습니다. 이는 이야기 속 주인공이 만능하며 어떤 도전도 마주치지 않는다는 것을 의미하는 게 아닙니다.
 
@@ -139,7 +256,18 @@ isUpdated: true
 
 STAR 프레임워크를 사용하는 방법과 작업을 현실적으로 더 잘 제시하는 방법에 대한 몇 가지 팁을 확인해보세요. 모든 것을 완벽하게 장식하는 지점에 이르기까지 모든 것을 과장하지 않고 작업을 더 현실적으로 제시하는 방법에 대한 몇 가지 팁을 확인해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우선, STAR 프레임워크 사용 방법에 대해 알려줄게.
 
@@ -150,7 +278,18 @@ STAR 프레임워크를 사용하는 방법과 작업을 현실적으로 더 잘
 
 ## 내가 인쇄 가능한 케이스 스터디 프레임워크를 얻는 방법
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 프레임워크의 인쇄 가능한 버전을 다운로드할 수 있습니다. UX 사례 연구에서 좋은 이야기를 어떻게 전달할지 설명하는 예제가 포함되어 있습니다 (Fig 3).
 
@@ -160,7 +299,18 @@ STAR 프레임워크를 사용하는 방법과 작업을 현실적으로 더 잘
 
 # 결론: 디자인의 상품화가 탓인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 UX 채용은 문제입니까? 채용 담당자들은 포트폴리오를 살펴보고 "필수" 부분을 확인합니까? 부분적으로 맞습니다. 디자이너 채용에 전문화된 사람은 소수뿐입니다. 그래서 당연히 그렇지 않은 사람들은 후보자들을 체크할 체크리스트를 갖게 될 것입니다. 하지만 반대로, 디자이너들은 케이스 스터디를 작성할 수 있습니다. 그렇게 하면 채용 담당자와 디자인 매니저 모두를 만족시킬 수 있습니다. 세부 정보를 추가하고 어떤 것을 배운 것 때문에 프로세스를 몇 단계 되감아야 했던 경험을 설명하는 것은 tipycal case study 구조를 완전히 포기해야 한다는 의미는 아닙니다.
 
@@ -168,6 +318,17 @@ UX 채용은 문제입니까? 채용 담당자들은 포트폴리오를 살펴�
 
 하지만 무엇보다도 주니어 디자이너들은 디자인 업무의 유연성과 혼돈에 대해 배워야 하고, 경험 많은 디자이너들은 무능력해 보이기 때문에 업무의 혼란스러운 부분을 숨기는 것을 그만두어야 합니다. 반대로, 케이스 스터디에 관해서는 진실한 이야기를 공유해야 합니다. 템플릿 같은 일반적인 판타지가 아니라 진실한 이야기를 전달하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 🤫 신박한 UX 디자인 포트폴리오를 만들고 UX/디자인 전문 기업에서 멋진 UX 디자인 직업을 찾아 지원할 수 있도록 도와주는 내 새로운 온라인 코스 UX Buddy가 있어! 이제 오픈되었고 등록이 몇 일 남았어. 확인해보세요!

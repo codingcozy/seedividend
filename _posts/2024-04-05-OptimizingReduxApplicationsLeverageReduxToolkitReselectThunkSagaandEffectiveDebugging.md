@@ -3,17 +3,13 @@ title: " Redux Toolkit, Reselect, Thunk, Saga로 Redux 사이트 최적확 하�
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Optimizing Redux Applications Leverage Redux Toolkit, Reselect, Thunk, Saga and Effective Debugging"
 link: "https://medium.com/stackademic/optimizing-redux-applications-leverage-redux-toolkit-reselect-thunk-saga-and-effective-7fc4d4a27546"
 isUpdated: true
 ---
-
-
-
-
 
 ## 비동기 작업 및 고급 Redux\*\*
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ## 소개
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여러분 안녕하세요! 다시 오신 것을 환영합니다! 오늘의 레시피를 시작하기 전에, 지난 수업에서 배웠던 주요 재료들을 상기해 봅시다. 우리는 Redux가 잘 정리된 부엌과 같다고 말했죠. 액션(야채를 다듬는 것처럼), 리듀서(섞어 놓는 것처럼), 그리고 스토어(모든 것이 신선하게 보관되는 냉장고)가 있어요.
 
@@ -33,7 +40,18 @@ Redux는 우리가 이러한 비동기 작업을 원활하게 처리하는 데 �
 
 이를 돕기 위해, "Redux Toolkit을 활용한 React 상태 관리"라는 제목의 멋진 레시피(자원)를 Stackademic에서 찾았어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 레시피에서는 비동기 작업을 효과적으로 처리하기 위해 특수 도구 세트인 Redux Toolkit을 사용하는 방법을 보여줍니다. 그러면 당신의 요리모자를 쓰고 현대적이고 견고한 웹 애플리케이션을 만드는 방법을 배워볼 준비가 되셨나요? 시작해봅시다!
 
@@ -43,7 +61,18 @@ Redux는 우리가 이러한 비동기 작업을 원활하게 처리하는 데 �
 
 ## 동기 상태 업데이트:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 동기 상태 업데이트는 응용 프로그램 상태의 변경을 바로 발생시켜 결정론적 순서를 따라 순차적으로 일어나는 것을 의미합니다. 좀 더 간단히 말하면, 작업이 발생하면 리듀서가 상태를 즉시 동기적으로 업데이트합니다. 이 과정은 직관적이고 예측 가능하여 응용 프로그램 내 데이터 흐름을 이해하기 더 쉽게 만듭니다.
 
@@ -55,7 +84,18 @@ Redux는 우리가 이러한 비동기 작업을 원활하게 처리하는 데 �
 
 동기 상태 업데이트의 예시: Redux 응용 프로그램에서 사용자가 카운터를 증가시키는 버튼을 클릭하면 동기 작업이 디스패치되고, 해당 리듀서에 의해 상태에서 카운터 값이 즉시 업데이트됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 비동기 상태 업데이트:
 
@@ -67,7 +107,18 @@ Redux는 우리가 이러한 비동기 작업을 원활하게 처리하는 데 �
 - 순차적이 아닌 순서: 비동기 업데이트는 비동기 작업의 완료 시간에 따라 순서에 상관 없이 발생할 수 있습니다.
 - 복잡성: 비동기 업데이트를 처리하기 위해서는 부작용을 관리하고 상태 일관성을 보장해야 하며 이는 도전적일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비동기 상태 업데이트 예시: Redux 애플리케이션에서 사용자가 양식을 제출하면 API 호출을 트리거하여 데이터를 가져오는 경우, 가져온 데이터로 인한 상태 업데이트는 비동기적으로 이루어집니다. 데이터 검색 작업은 어느 정도 시간이 소요될 수 있으며, 작업이 완료되고 응답이 수신된 후에 상태가 업데이트됩니다.
 
@@ -77,7 +128,18 @@ Redux는 우리가 이러한 비동기 작업을 원활하게 처리하는 데 �
 
 당신의 Redux 주방은 야채를 손질(액션)하고 섞어(리듀서) 맛있는 요리(애플리케이션 상태)를 만드는 데 좋을지 모릅니다. 그러나 배달을 기다리는 것과 같이 시간이 걸리는 고급 요리(비동기 작업)는 어떻게 처리해야 할까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Redux Thunk은 시간이 많이 소요되는 작업을 처리하는 데 도움이 되는 특별한 요리사 도구 같아요. 이를 통해 API 호출을 통한 테이크아웃 주문, 전달을 기반으로 하는 여러 요리 준비, 대기 중에 소스를 끓이는 등의 레시피(액션 크리에이터)를 작성할 수 있어요.
 
@@ -88,7 +150,18 @@ Redux Thunk 동작 방식: 부엌에서의 협업
 - 재료 확인(함수 vs. 객체): 주방장은 레시피가 일반적인 지시사항(액션 객체)인지, 추가적인 단계가 있는 특별한 요리인지 확인해요.
 - 전문가 소환(Thunk 실행): 특별한 레시피라면, 주방장은 전문가들을 소환하고(함수를 호출) 두 가지 도구를 제공해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 식자재 목록(현재 상태 확인을 위한 getState)
 - 추가로 필요한 물건을 주문하기 위해 배달 앱(dispatch) 사용(dispatch additional actions)
@@ -100,7 +173,18 @@ Redux Thunk 동작 방식: 부엌에서의 협업
 
 모두 함께 넣기: 예제 레시피(데이터 가져오기)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이상한 재료(API의 데이터)로 요리를 해보려고 하는군요. Redux Thunk를 사용한 특별 레시피가 준비되어 있어요:
 
@@ -128,7 +212,18 @@ const fetchData = () => {
 
 ## 연습: Redux Thunk 구현
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리덕스 애플리케이션에 Redux Thunk를 통합하는 간단한 예제입니다.
 
@@ -138,7 +233,18 @@ thunk 함수를 생성하고 기존 Redux 애플리케이션에 통합합니다.
 
 ## ** Redux Thunk 구현하기**
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단한 예제로 Redux Thunk를 Redux 애플리케이션에 통합하는 방법을 살펴보겠습니다. API에서 데이터를 가져오는 것과 같은 비동기 액션을 위해 thunk 함수를 구현하는 방법을 안내해 드릴 거에요. 이후에는 자체 thunk 함수를 만들고 기존 Redux 애플리케이션에 통합하는 실습 기회가 주어질 거예요.
 
@@ -148,7 +254,18 @@ thunk 함수를 생성하고 기존 Redux 애플리케이션에 통합합니다.
 
 Redux Thunk 설정 (store.js):
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```javascript
 import { createStore, applyMiddleware } from "redux";
@@ -210,7 +327,18 @@ const kitchenReducer = (state = initialState, action) => {
 export default kitchenReducer;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 reducer 함수인 kitchenReducer를 만들어주세요. 리듀서는 현재 상태와 액션을 전달받아 해당 액션에 기반한 업데이트된 상태를 반환하는 순수 함수입니다.
 
@@ -256,7 +384,18 @@ export const fetchKitchenItems = () => {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이 파일은 아래와 같은 작업 생성기를 정의합니다:
 - fetchKitchenItemsRequest: 데이터를 가져오기 전에 요청이 시작되었음을 나타내는 디스패치.
@@ -290,9 +429,7 @@ const Kitchen = () => {
 
   const renderItem = (item) => (
     <li key={item.id}>
-      <div
-        className={`image-container ${imageLoading[item.id] ? "loading" : ""}`}
-      >
+      <div className={`image-container ${imageLoading[item.id] ? "loading" : ""}`}>
         <img
           src={item.imageUrl}
           alt={item.name}
@@ -309,13 +446,9 @@ const Kitchen = () => {
       {kitchenItems.loading && <p>주방 아이템 가져오는 중...</p>}
       {kitchenItems.error && <p>오류: {kitchenItems.error}</p>}
       {kitchenItems.items && kitchenItems.items.length > 0 && (
-        <ul className="kitchen-items-list">
-          {kitchenItems.items.map(renderItem)}
-        </ul>
+        <ul className="kitchen-items-list">{kitchenItems.items.map(renderItem)}</ul>
       )}
-      {!kitchenItems.items && !kitchenItems.loading && !kitchenItems.error && (
-        <p>주방 아이템을 찾을 수 없습니다.</p>
-      )}
+      {!kitchenItems.items && !kitchenItems.loading && !kitchenItems.error && <p>주방 아이템을 찾을 수 없습니다.</p>}
     </div>
   );
 };
@@ -325,7 +458,18 @@ export default Kitchen;
 
 . 주방 컴포넌트 (Kitchen.js):
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 코드는 Kitchen이라는 React 구성 요소를 정의하고 주방 항목을 표시합니다. 이 코드가 하는 일은 다음과 같습니다:
 
@@ -345,7 +489,18 @@ export default Kitchen;
 - 기존 Redux 애플리케이션에 Redux Thunk를 통합해보세요.
 - 구성 요소에서 thunk를 디스패치하고 UI에서 로딩/오류 상태를 처리하는 방법을 기억하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요약하자면:
 
@@ -355,7 +510,18 @@ Redux Thunk를 사용하면 Redux 주방에서 시간이 오래 걸리는 작업
 
 이 세션에서는 보통의 고급 Redux 패턴인 정규화, 메모이제이션 및 쓰기/기다리기(비동기/대기)와 함께 청크를 사용한 살펴볼 거에요. 이러한 패턴의 이점, 타협점에 대해 논의하고 각 패턴에 대한 코드 예제를 제공하여 그 구현을 설명할 거에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 정규화
 
@@ -365,7 +531,18 @@ Redux Thunk를 사용하면 Redux 주방에서 시간이 오래 걸리는 작업
 
 ## 장점:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 중복을 줄이고 데이터 일관성을 향상시킵니다.
 - 데이터 검색 및 업데이트를 간소화합니다.
@@ -377,7 +554,18 @@ Redux Thunk를 사용하면 Redux 주방에서 시간이 오래 걸리는 작업
 
 ## 예제
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 정규화 전 (중첩된 재료)
@@ -414,7 +602,18 @@ const initialState = {
 
 ## 메모이제이션
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 메모이제이션은 순수 함수에 대한 결과를 캐싱하여 불필요한 다시 계산을 방지하여 리듀서를 최적화합니다.
 
@@ -425,7 +624,18 @@ const initialState = {
 - 중복 계산을 피해 성능을 향상시킵니다.
 - 복잡한 캐싱 메커니즘의 필요성을 줄입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 트레이드오프:
 
@@ -436,14 +646,11 @@ const initialState = {
 
 ```js
 // 메모이제이션 이전 (매번 저장소에서 가져오기)
-const fetchShoppingListBeforeMemoization = createAsyncThunk(
-  "shoppingList/fetch",
-  async () => {
-    const response = await fetch("your-shopping-list-api.com");
-    const list = await response.json();
-    return list;
-  }
-);
+const fetchShoppingListBeforeMemoization = createAsyncThunk("shoppingList/fetch", async () => {
+  const response = await fetch("your-shopping-list-api.com");
+  const list = await response.json();
+  return list;
+});
 
 // 메모이제이션 후 (우선 캐시 확인)
 const fetchShoppingList = createAsyncThunk("shoppingList/fetch", async () => {
@@ -466,7 +673,18 @@ const fetchShoppingList = createAsyncThunk("shoppingList/fetch", async () => {
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 실제 예시:
 
@@ -477,7 +695,18 @@ const fetchShoppingList = createAsyncThunk("shoppingList/fetch", async () => {
 
 - Thunk 내에서 async/await 구문을 사용하면 Redux 애플리케이션에서 더 깔끔한 비동기 처리가 가능합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Async/await은 주방(Redux 애플리케이션)에서 뜸들이는 일들(비동기 작업)을 처리해 주는 대리 요리사(펑크)가 있는 것과 같습니다. 그들은 시장(API)에서 재료(데이터)를 효율적으로 가져와서 준비가 되면 알려주거나 문제가 생기면(에러 처리) 알려줍니다.
 
@@ -488,7 +717,18 @@ Async/await은 주방(Redux 애플리케이션)에서 뜸들이는 일들(비동
 
 ## 교환 조건:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 썽크 내에서 비동기 작업을 처리할 수 있는 것이 제한됩니다.
 - 더 복잡한 비동기 플로우에 적합하지 않을 수 있습니다.
@@ -528,7 +768,18 @@ dispatch(fetchData());
 
 실제 예시:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 문제: 할 일 목록 애플리케이션이 서버에서 작업을 가져와 Redux 상태를 업데이트해야 합니다. Promise와 함께 전통적인 Redux를 사용하면 중첩된 콜백이 발생하여 코드가 복잡해질 수 있습니다.
 - 해결책: 쓰기 thunk와 함께 async/await를 구현합니다. thunk 액션 크리에이터는 async/await를 사용하여 서버에서 작업을 가져와 응답(성공 또는 오류)에 따라 액션을 디스패치합니다. 이 접근 방식은 코드 가독성을 향상시키고 try/catch 블록을 사용하여 오류 처리를 간소화합니다.
@@ -543,7 +794,18 @@ dispatch(fetchData());
 
 혜택:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 부수 효과를 관리하는 중앙 직선 및 선언적 방식 제공
 - 부수 효과를 쉽게 분리하여 테스트를 단순화함
@@ -556,7 +818,18 @@ dispatch(fetchData());
 
 ## 예제
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 sagas.js:
 
@@ -606,7 +879,18 @@ export default function* rootSaga() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 Markdown 형식으로 변경하면 다음과 같습니다:
 
@@ -666,7 +950,18 @@ const dataReducer = (state = initialState, action) => {
 export default dataReducer;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 store.js:
 
@@ -688,7 +983,18 @@ export default store;
 
 - Redux Observable은 반응형 프로그래밍 패러다임을 채택하며 비동기 작업을 처리하기 위해 Observables를 사용합니다. 이는 RxJS를 활용하여 비동기 데이터 스트림을 조합하고 관리하는 라이브러리입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 적절한 사용 사례:
 
@@ -699,7 +1005,18 @@ Redux Observable은 다음과 같은 애플리케이션에 적합합니다:
 
 장점:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 비동기 작업을 강력하고 유연하게 관리할 수 있는 방법을 제공합니다.
 - 함수형 및 선언적 접근을 사용하여 복잡한 비동기 흐름을 구성할 수 있습니다.
@@ -712,7 +1029,18 @@ Redux Observable은 다음과 같은 애플리케이션에 적합합니다:
 
 ## 예제
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 dataEpic.js:
 
@@ -759,7 +1087,18 @@ export const rootEpic = combineEpics(
 );
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 store.js
 
@@ -783,7 +1122,18 @@ export default store;
 
 - Redux Toolkit은 Redux 팀에서 제공하는 공식 패키지로, Redux 개발을 간소화하기 위한 유틸리티 및 추상화를 제공합니다. createSlice, createAsyncThunk, configureStore와 같은 유틸리티를 포함하며, 일반적인 Redux 패턴과 보일러플레이트를 간소화하기 위해 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 적절한 사용 사례:
 
@@ -795,7 +1145,18 @@ Redux Toolkit은 Redux 애플리케이션에 적합하며 특히 다음을 목�
 
 혜택:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 보일러플레이트 코드를 줄이고 코드 가독성을 향상시킵니다.
 - 불변성, 구조화된 상태 관리, 정규화된 상태 모양과 같은 최상의 관행을 장려합니다.
@@ -808,7 +1169,18 @@ Redux Toolkit은 Redux 애플리케이션에 적합하며 특히 다음을 목�
 
 ## 예제
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 slice.js
 
@@ -867,7 +1239,18 @@ const store = configureStore({
 export default store;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Redux 셀렉터 (Reselect):
 
@@ -879,18 +1262,25 @@ export default store;
 - 애플리케이션의 다른 부분에서 셀렉터를 사용할 수 있도록 코드 재사용성을 촉진합니다.
 - 스토어 상태를 기반으로 파생 데이터를 메모이제이션하는 것을 간단하게 만듭니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 예시
 
 slice.js:
 
 ```js
-import {
-  createSlice,
-  createAsyncThunk,
-  createSelector,
-} from "@reduxjs/toolkit";
+import { createSlice, createAsyncThunk, createSelector } from "@reduxjs/toolkit";
 import { toast } from "react-toastify"; // 에러 알림을 위한 토스트 라이브러리를 사용한다고 가정
 
 const initialState = {
@@ -945,7 +1335,18 @@ export default dataSlice.reducer;
 
 Component.js:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import React from "react";
@@ -993,7 +1394,18 @@ export default KitchenComponent;
 
 ## Redux Persist:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리덕스 Persist는 Redux 상태를 페이지 새로 고침이나 애플리케이션 재시작 간에 유지하도록 허용하는 라이브러리입니다. 이는 사용자 데이터나 환경 설정을 보존하고 사용자 경험을 향상시키는 데 유용할 수 있습니다.
 
@@ -1004,7 +1416,18 @@ export default KitchenComponent;
 
 단점:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 추가 구성 및 설정이 필요합니다.
 - 민감한 데이터가 지속되면 보안 문제가 발생할 수 있습니다.
@@ -1038,7 +1461,18 @@ export const persistor = persistStore(store); // 수동 지속 제어를 위한 
 export default store;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 재수분화 (옵션):
 
@@ -1059,7 +1493,18 @@ persistor
   });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - `persistor.restore()`를 사용하여 rehydration을 수동으로 트리거할 수 있고, 발생할 수 있는 오류를 처리할 수 있습니다.
 
@@ -1069,7 +1514,18 @@ persistor
 
 ## 대형 응용 프로그램을 위한 최상의 실천 방법:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 모듈화 및 기능 기반 접근: Redux 코드를 모듈화하여 각 기능이 자체 상태 슬라이스와 해당 리듀서를 가지도록 구성합니다.
 - 단일 책임 원칙: 리듀서가 하나의 상태 슬라이스만 처리하고 액션이 하나의 상태 변이에 대응하는지 확인합니다.
@@ -1082,7 +1538,18 @@ persistor
 
 디버깅은 Redux 애플리케이션이 의도대로 작동하고 사용자 경험을 원할하게 제공하는 데 중요한 역할을 합니다. 효과적인 디버깅이 Redux 애플리케이션에서 왜 중요한지 몇 가지 이유를 살펴보겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 상태의 정확성과 일관성을 보장합니다.
 - 올바른 및 시기 적절한 작업 전파를 추적합니다.
@@ -1097,7 +1564,18 @@ persistor
 
 버그가 포함된 샘플 응용 프로그램:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 샘플 Redux 애플리케이션: 버그가 있는 카운터
 
@@ -1107,7 +1585,18 @@ persistor
 
 이 예제는 의도적인 버그가 포함된 카운터 애플리케이션을 보여줍니다. 증가, 감소 및 초기화 기능에서 버그가 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // actions.js
@@ -1145,7 +1634,18 @@ export default counterReducer;
 
 일반 디버깅 단계:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Redux DevTools를 사용하여 상태 변경 및 액션 전송을 검사하세요.
 - 특정 액션에 문제가 있는지 확인하기 위해 액션 생성자와 리듀서를 검사하세요.
@@ -1159,7 +1659,18 @@ export default counterReducer;
 
 ## ** 요약 **
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Redux Core:
 
@@ -1173,7 +1684,18 @@ Redux Toolkit 향상:
 - createAsyncThunk로 비동기 작업 처리
 - 코드 구성 및 유지 관리 개선
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 🌟 성능을 위한 재선택:
 
@@ -1186,7 +1708,18 @@ Redux Toolkit 향상:
 - 데이터 보존으로 사용자 경험을 향상시킵니다.
 - 민감한 데이터에 대한 보안 고려 사항.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 디버깅:
 
@@ -1202,7 +1735,18 @@ Redux Toolkit 향상:
 - 상태 지속성을 위해 Redux Persist 고려
 - 튼튼한 애플리케이션을 위한 효율적인 디버깅 활용
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 스택데미ック 🎓
 

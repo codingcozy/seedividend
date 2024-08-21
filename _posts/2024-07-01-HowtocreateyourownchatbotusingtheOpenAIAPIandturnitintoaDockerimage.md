@@ -3,16 +3,13 @@ title: "OpenAI API를 사용한 나만의 챗봇 만들기 및 Docker 이미지�
 description: ""
 coverImage: "/assets/img/2024-07-01-HowtocreateyourownchatbotusingtheOpenAIAPIandturnitintoaDockerimage_0.png"
 date: 2024-07-01 21:05
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-01-HowtocreateyourownchatbotusingtheOpenAIAPIandturnitintoaDockerimage_0.png
 tag: Tech
 originalTitle: "How to create your own chatbot using the OpenAI API and turn it into a Docker image"
 link: "https://medium.com/@yharystefa/how-to-create-your-own-chatbot-using-the-openai-api-and-turn-it-into-a-docker-image-b35b7ae6b51e"
 isUpdated: true
 ---
-
-
-
 
 ![이미지](/assets/img/2024-07-01-HowtocreateyourownchatbotusingtheOpenAIAPIandturnitintoaDockerimage_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 # 필수 조건
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여행 전에 반드시 해야 할 것들을 준비해 봅시다!
 
@@ -35,7 +43,18 @@ isUpdated: true
 
 아직 오픈에이아이(OpenAI) 계정이 없다면 어떻게 가입하는지 알려드리겠습니다. 가능하다면 회원가입 과정을 스크린샷으로 포함해서 설명해 드릴게요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # **단계 2: OpenAI에서 API 키 가져오기**
 
@@ -50,7 +69,18 @@ isUpdated: true
 
 # **단계 3: Visual Studio Code에서 프로젝트 설정하기**
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비주얼 스튜디오 코드에서 프로젝트 설정 방법 안내:
 
@@ -66,7 +96,18 @@ $ source .env/bin/activate
 
 ![이미지](/assets/img/2024-07-01-HowtocreateyourownchatbotusingtheOpenAIAPIandturnintoaDockerimage_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파이썬 스크립트를 개발하고 OpenAI API를 사용하여 챗봇을 만들어보세요!
 
@@ -78,7 +119,18 @@ $ pip install openai python-dotenv
 
 다음으로, OpenAI API와 상호작용하기 위한 파이썬 코드를 작성하세요. 챗봇 응답을 위한 함수를 정의하세요. 이러한 과정을 통해 멋진 챗봇을 만들어보세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 import os
@@ -98,10 +150,10 @@ def load_api_key() -> str:
     """
     load_dotenv()
     api_key = os.getenv("OPENAI_API_KEY")
-    
+
     if not api_key:
         raise ValueError("OpenAI API key is not set. Make sure the .env file contains OPENAI_API_KEY.")
-    
+
     return api_key
 
 def create_openai_client(api_key: str) -> OpenAI:
@@ -135,7 +187,7 @@ def get_assistant_response(client: OpenAI, messages: List[Dict[str, str]]) -> st
             max_tokens=100
         )
         return response.choices[0].message.content
-    
+
     except APIError as e:
         print(f"OpenAI API Error: {e}")
         return "I'm sorry, but I encountered an error while processing your request."
@@ -147,29 +199,29 @@ def main() -> None:
     try:
         api_key = load_api_key()
         client = create_openai_client(api_key)
-        
+
         messages = [
             {"role": "system", "content": "Absolutely, let's dive into Docker! Docker is a powerful tool used for containerization, allowing you to package your applications and all their dependencies into a standardized unit for software development."},
             {"role": "user", "content": "I'm a software engineer and I need to learn about Docker. Act as a Docker expert and teach me Docker from scratch, including exercises and evaluations."}
         ]
-    
+
         while True:
             # Generate a response from the assistant
             assistant_response = get_assistant_response(client, messages)
             print("Assistant:", assistant_response)
-            
+
             # Request new input from the user
             user_input = input("You: ")
-            
+
             # Add the user's input to the conversation history
             messages.append({"role": "user", "content": user_input})
-            
+
             # Add the assistant's response to the conversation history
             messages.append({"role": "assistant", "content": assistant_response})
-    
+
     except ValueError as ve:
         print(f"ValueError: {ve}")
-    
+
     except Exception as ex:
         print(f"Unexpected Error: {ex}")
 
@@ -184,9 +236,18 @@ Visual Studio Code에서 환경 변수를 설정하여 OpenAI API 키를 안전�
 - .env 파일에 OPENAI_API_KEY=your_api_key_here를 추가합니다.
 - dotenv 라이브러리를 사용하여 API 키를 안전하게 Python 스크립트로로드합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Step 6: Docker 이미지 생성하기
 
@@ -194,28 +255,42 @@ Step 6: Docker 이미지 생성하기
 
 프로젝트 디렉토리에 Dockerfile을 생성해주세요.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Python 3.11의 공식 기본 이미지를 사용하세요.
+
 FROM python:3.11-slim
 
 # 컨테이너 내의 작업 디렉토리를 설정하세요.
+
 WORKDIR /app
 
 # 소스 코드와 .env 파일을 컨테이너로 복사하세요.
+
 COPY . .
 
 # 필요한 종속성을 설치하세요.
+
 RUN pip install --no-cache-dir -r requirements.txt
 
 # OpenAI API 키를 위한 환경 변수를 설정하세요.
-ENV OPENAI_API_KEY="당신의_API_키"
+
+ENV OPENAI*API_KEY="당신의\_API*키"
 
 # Python 스크립트를 실행하는 명령어를 설정하세요.
-CMD ["python", "your_api_key_here"]
 
+CMD ["python", "your_api_key_here"]
 
 2. docker build -t chatbot-image . 명령을 사용하여 Docker 이미지를 빌드하세요.
 
@@ -223,8 +298,18 @@ CMD ["python", "your_api_key_here"]
 
 로컬에서 Docker화된 챗봇을 테스트하는 방법에 대해 알아보세요:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 컨테이너를 시작하려면 docker run -it chatbot-imagen:latest을 사용하세요.
 - OpenAI API와 상호 작용이 올바르게 이루어지는지 확인하기 위해 챗봇 기능을 테스트하세요.
@@ -236,7 +321,18 @@ CMD ["python", "your_api_key_here"]
 - 도커의 취약점 스캔 도구를 사용하거나 docker-scout quickview chatbot-image:latest와 같은 타사 도구를 사용하여 도커 이미지를 스캔하세요.
 - 발견된 취약점을 해결하기 위한 모범 사례에 대해 논의해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 고려 사항 및 모범 사례
 
@@ -249,6 +345,17 @@ CMD ["python", "your_api_key_here"]
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 OpenAI API를 사용하여 챗봇을 만들고 Dockerizing하는 과정을 간략하게 요약해보았어요. 이 프로세스를 자세히 살펴보고 여러분의 프로젝트에 적용해보세요! 여기 [레포지토리 링크]에서 완전한 코드를 찾을 수 있어요. 가상 환경을 만들고 저가 남긴 명령어를 실행하기만 하면 프로젝트를 실행할 수 있어요. 자세한 내용은 레포지토리를 확인해보세요!

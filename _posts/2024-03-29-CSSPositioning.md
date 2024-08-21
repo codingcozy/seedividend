@@ -3,17 +3,13 @@ title: "CSS Position으로 요소 배치하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "CSS Positioning"
 link: "https://medium.com/@CelestialDevStory/css-positioning-0a3e8375ed67"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/CSSPositioning_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 여기서 CSS 위치 지정에 대해 간단히 설명하겠습니다. CSS 위치 지정이란, 위치 지정하는 방법 및 위치 지정의 유형에 대해 설명하겠습니다...
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS Positioning...
 CSS에서의 위치 지정은 필요에 따라 요소를 배치하는 데 사용되는 매우 중요한 부분입니다. CSS 위치 지정을 사용하여 요소의 위치를 제어할 수 있습니다. 이 글을 끝까지 읽으면 이에 대해 명확한 이해가 생길 것입니다.
@@ -37,7 +44,18 @@ CSS 위치 지정의 종류...
 
 ![CSSPositioning_2.png](/assets/img/CSSPositioning_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2.  상대적 위치
     요소들은 원래 위치를 기준으로 배치됩니다.
@@ -49,7 +67,18 @@ CSS 위치 지정의 종류...
 
 ![CSSPositioning_4](/assets/img/CSSPositioning_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4.  고정된
     이러한 요소들은 뷰포트에 상대적인 위치에 배치되어 있습니다. 페이지를 스크롤해도 요소들이 움직이지 않습니다.

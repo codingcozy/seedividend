@@ -3,17 +3,13 @@ title: "단일 저장소  주제에 대해 조금씩"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Monorepo  A little on the subject"
 link: "https://medium.com/@davifsroberto/monorepo-a-little-on-the-subject-ccd252a3a171"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/MonorepoAlittleonthesubject_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 지금부터 모노레포를 사용하는 목표는 프론트엔드 개발 플랫폼을 만들어 확장 가능하게 하고, 컴포넌트를 더 잘 관리하고, 기존 리소스를 재사용하며, 빠르게 제공하는 것입니다. 더 성능이 우수하고 더 잘 관리되도록하기 위해, 우수한 도구인 Nx(https://nx.dev)를 사용할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 장점
 
@@ -41,7 +48,18 @@ isUpdated: true
 - 어플리케이션이 다른 곳에서 무언가를 가져올까요? 플랫폼에서 가져오기만 할 것인가요? — 아니요. Nx의 제약 조건 기능을 사용하여 이를 제어할 수 있었습니다.
 - 매우 멀리 떨어진 폴더 수준에 있는 컴포넌트를 가져오는 것이 너무 어려울까요? 예: ../../../../../componentABC — 아니요. TSconfig에서 매우 간단히 해결할 수 있습니다. ' @shared/componentABC' 같이 가져오기 가능합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Monorepo를 사용하는 사람들은 누구일까요?
 
@@ -51,7 +69,17 @@ isUpdated: true
 
 구현하기 위해 필요한 지식 부족. Monorepo를 적용하기 전에는 충분한 기술적 지식을 갖추어야 하며, 충분한 연구와 테스트가 필요합니다! Monorepo를 프로젝트에 적용할 준비를 하기 위해 1일 짜리 개념 증명만으로는 충분하지 않습니다. 충분히 공부하고 예측하고 논의하며 질문하고, 코드에 손대는 연습이 많이 필요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 팀 개발자들에게 어떻게 진행될 것인지 알려주지 마세요. 새로운 마음가짐이에요! 플랫폼을 사용하여 개발하는 느낌을 팀에게 교육하는 것이 중요해요. 회의에서 이야기하는 것뿐만 아니라 주제를 강화하고 의문을 해소하여 전체가 그것의 정신을 이해할 때까지 이야기해야 해요.
-

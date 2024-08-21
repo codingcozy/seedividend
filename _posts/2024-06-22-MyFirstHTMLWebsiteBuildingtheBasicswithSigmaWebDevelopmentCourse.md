@@ -3,16 +3,13 @@ title: "나의 첫 HTML 웹사이트 Sigma 웹 개발 강좌로 기초부터 배
 description: ""
 coverImage: "/assets/img/2024-06-22-MyFirstHTMLWebsiteBuildingtheBasicswithSigmaWebDevelopmentCourse_0.png"
 date: 2024-06-22 15:18
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-MyFirstHTMLWebsiteBuildingtheBasicswithSigmaWebDevelopmentCourse_0.png
 tag: Tech
 originalTitle: "My First HTML Website: Building the Basics with Sigma Web Development Course"
 link: "https://medium.com/@work.abdulhamid/my-first-html-website-building-the-basics-with-sigma-web-development-course-6306fd371003"
 isUpdated: true
 ---
-
-
-
 
 안녕하세요 여러분! Sigma 웹 개발 코스에서의 웹 개발 여정에 대한 또 다른 흥미로운 업데이트로 돌아왔어요. 두 번째 튜토리얼에서는 첫 번째 HTML 웹사이트를 만드는 방법을 배웠어요. 정말 멋진 경험이었고, 여러분과 자세한 내용을 공유할 수 있어 기쁩니다. 함께 알아봐요!
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 # HTML 시작하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 프로젝트 설정하기
 
@@ -33,7 +41,18 @@ isUpdated: true
 
 # HTML 작성하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로, index.html을 열고 첫 번째 웹사이트의 구조를 만들기 위해 HTML 코드를 작성하기 시작했습니다. 아래는 포함한 내용입니다:
 
@@ -87,7 +106,18 @@ isUpdated: true
 
 웹사이트에 스타일을 입히기 위해 styles.css를 열고 기본 CSS를 추가했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 body {
@@ -145,7 +175,18 @@ footer {
 
 # 구조 이해하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # HTML 태그와 요소
 
@@ -155,7 +196,18 @@ HTML은 콘텐츠를 구조화하는 데 태그를 사용한다는 것을 배웠
 
 웹페이지를 `section` 태그를 사용해 다양한 섹션으로 나눴어요. 각 섹션은 "About Me", "Projects", "Contact"와 같은 특정 목적을 가지고 있었어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 내비게이션 바
 
@@ -165,7 +217,18 @@ HTML은 콘텐츠를 구조화하는 데 태그를 사용한다는 것을 배웠
 
 기본 구조를 구축한 후에는 웹 사이트를 더 맞춤 설정하기 위해 다양한 HTML 요소와 CSS 스타일을 실험하기 시작했습니다. 이미지를 추가하고 폰트를 조정하며 색상을 변경하여 사이트를 시각적으로 더 매력적으로 만들었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

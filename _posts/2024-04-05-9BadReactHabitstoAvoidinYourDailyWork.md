@@ -3,17 +3,13 @@ title: "실력이 늘고싶다면 바꿔야하는 나쁜 React 습관 9가지"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "9 Bad React Habits to Avoid in Your Daily Work"
 link: "https://medium.com/javascript-in-plain-english/9-bad-react-habits-to-avoid-in-your-daily-work-2151f804a3d8"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="https://miro.medium.com/v2/resize:fit:1200/0*tJn1_UxyRe9tN0Q5.gif" />
 
@@ -23,7 +19,18 @@ React는 프론트엔드 개발 세계에서 가장 인기 있는 JavaScript 라
 
 1. 속성 전달 문제 (Prop Drilling)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 부모 구성 요소에 불필요하게 네스트된 하위 구성 요소로 속성을 전달하는 것은 일반적인 나쁜 버릇입니다. 이는 성능 문제와 코드 가독성 저하로 이어질 수 있습니다. 이상적으로, 2단계 이상으로 속성을 전달하는 것은 피해야 합니다. 아래는 예시입니다:
 
@@ -48,7 +55,18 @@ function GrandchildComponent({ data }) {
 
 2. 필요한 컨텐츠를 지나치게 가져오는 경우
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React 어플리케이션에서 너무 많은 종속성을 가져오면 패키지가 무거워져서 로드 시간이 길어질 수 있습니다. 일상적인 작업에서 필요한 종속성만 가져오도록 하세요. 예를 들어 전체 라이브러리를 가져오지 말고 필요한 기능만 가져오는 것이 좋습니다.
 
@@ -64,7 +82,18 @@ import { someFunction } from "lodash";
 
 3. 비즈니스 로직과 컴포넌트 로직 분리하지 않기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트에서는 코드의 가독성과 유지 관리성을 향상시키기 위해 비즈니스 로직과 UI 컴포넌트 로직을 분리하려고 노력해보세요. 컴포넌트를 간단하게 유지하기 위해 비즈니스 로직을 별도의 서비스 파일이나 모듈로 추출하세요. 다음은 예시입니다:
 
@@ -95,7 +124,18 @@ function UserProfile() {
 
 리액트 컴포넌트는 다양한 시기에 다시 렌더링될 수 있으며, 신중하지 않다면 일부 작업이 각 렌더링마다 반복되어 성능이 저하될 수 있습니다. 이를 피하기 위해 useMemo와 useCallback을 사용하여 작업을 메모이제이션하여 각 렌더링마다 재계산되지 않도록 할 수 있습니다. 다음은 예시입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 function List({ items }) {
@@ -103,10 +143,7 @@ function List({ items }) {
   const filteredItems = items.filter((item) => item.active);
 
   // useMemo를 사용할 때는 items가 변경될 때만 다시 필터링됩니다
-  const filteredItems = useMemo(
-    () => items.filter((item) => item.active),
-    [items]
-  );
+  const filteredItems = useMemo(() => items.filter((item) => item.active), [items]);
 }
 ```
 
@@ -132,7 +169,18 @@ useEffect(() => {
 }, []); // 빈 의존성 배열
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 빈 종속성 배열을 사용하여 컴포넌트가 마운트될 때 이벤트 리스너가 한 번만 만들어진다는 것을 보장합니다.
 
@@ -143,24 +191,29 @@ React 컴포넌트에서는 종종 조건에 따라 다른 콘텐츠를 렌더�
 ```js
 // 나쁜 예 - && 연산자 사용
 function ShoppingCart({ items }) {
-  return (
-    <div>{items.length && <p>장바구니에 있는 항목 수: {items.length}</p>}</div>
-  );
+  return <div>{items.length && <p>장바구니에 있는 항목 수: {items.length}</p>}</div>;
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 예제에서는 요소가 렌더링 되지 않습니다. 이 상황은 원하는 결과가 아닐 수 있습니다. 이를 피하기 위해서는 조건을 불리언 값으로 변환하는 것이 더 좋습니다.
 
 ```js
 // 좋은 예 - 조건을 불리언 값으로 변환하기
 function ShoppingCart({ items }) {
-  return (
-    <div>
-      {Boolean(items.length) && <p>장바구니에 담긴 상품 수: {items.length}</p>}
-    </div>
-  );
+  return <div>{Boolean(items.length) && <p>장바구니에 담긴 상품 수: {items.length}</p>}</div>;
 }
 ```
 
@@ -168,16 +221,25 @@ function ShoppingCart({ items }) {
 
 7. 조건부 렌더링을 위해 삼항 표현식을 어디서든 사용하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 삼항 표현식은 강력한 조건부 렌더링 도구이지만 오용할 경우 코드가 읽기 어려워질 수 있습니다. 특히 여러 삼항 표현식이 중첩되어 있는 경우 코드가 복잡해집니다. 다음 예시를 살펴보세요:
 
 ```js
 // 나쁜 예시 - 다수의 중첩된 삼항 표현식
 function UserProfile({ user, isAdmin, isOwner }) {
-  return (
-    <div>{isAdmin ? <p>Admin</p> : isOwner ? <p>Owner</p> : <p>User</p>}</div>
-  );
+  return <div>{isAdmin ? <p>Admin</p> : isOwner ? <p>Owner</p> : <p>User</p>}</div>;
 }
 ```
 
@@ -204,7 +266,18 @@ function UserProfile({ user, isAdmin, isOwner }) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 함수를 사용하여 코드를 더 읽기 쉽고 유지 관리하기 쉽게 만들 수 있어요.
 
@@ -239,7 +312,18 @@ Person.propTypes = {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 부동산 유형을 정의하고 속성을 해체함으로써 코드의 가독성을 높이고 잘못된 유형의 속성을 사용할 때 경고를 받을 수 있습니다.
 
@@ -263,7 +347,18 @@ function App() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 표를 Markdown 형식으로 변경하면 더 보기 편한데요.
 
@@ -275,7 +370,18 @@ React 개발에서 이 아홉 가지 나쁜 습관을 피함으로써 코드 품
 
 # 쉽게 이해하기 🚀
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각각의 In Plain English 커뮤니티의 일원이 되어 주셔서 감사합니다! 떠나시기 전에:
 

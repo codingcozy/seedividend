@@ -3,16 +3,13 @@ title: "Flutter로 안드로이드를 위한 CI CD 구축 방법"
 description: ""
 coverImage: "/assets/img/2024-05-17-HowBigPayIncreasedFlutterDeveloperVelocityPart1CICDforFlutterAndroid_0.png"
 date: 2024-05-17 21:35
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-17-HowBigPayIncreasedFlutterDeveloperVelocityPart1CICDforFlutterAndroid_0.png
 tag: Tech
 originalTitle: "How BigPay Increased Flutter Developer Velocity: Part 1 — CI CD for Flutter Android"
 link: "https://medium.com/bigpay-tech-blog/how-bigpay-increased-flutter-developer-velocity-part-1-ci-cd-for-flutter-android-using-github-34624b59762e"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-05-17-HowBigPayIncreasedFlutterDeveloperVelocityPart1CICDforFlutterAndroid_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 이 블로그 시리즈는 모바일 개발자, 기술 애호가 및 개발 워크플로우를 향상시키고자 하는 업계 전문가를 대상으로 합니다. 저희 목적은 BigPay 모바일 앱의 개발 워크플로우를 어떻게 향상시켰는지 공유하여 복잡한 문제 해결에 대한 저희의 구조화된 접근 방식을 보여주는 것입니다. Part 1에서는 GitHub Actions를 사용하여 Flutter 안드로이드 앱의 연속적 통합 및 배포 (CI/CD) 워크플로우를 어떻게 구현했는지 안내함으로써 스테이징 및 프로덕션을 위한 다양한 빌드 플레이버를 지원합니다. 또한 Firebase와 Diawi를 사용하여 빌드를 테스터에게 자동 배포하는 과정을 자동화하는 방법도 배우게 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또한, 파트 2를 기대해 주세요. 거기에서는 iOS 앱을 위한 유사한 CI/CD 워크플로우 설정을 다뤄볼 것입니다. iOS 배포 프로세스를 최적화하는 통찰을 공유할 예정이에요. 이 두 부분을 함께 보면 Android와 iOS 플랫폼 모두에 걸쳐 개발 워크플로우를 최적화하는 포괄적인 안내서를 제공할 거에요.
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 많은 개발 팀과 마찬가지로, 우리는 시간이 많이 걸리는 수동 빌드, 일관성 없는 빌드 환경, 그리고 배포 지연과 같은 문제로 고생했었어요. 이러한 도전에 부딪히며 새로운 기능과 업데이트를 빠르게 전달하는 것이 어려워졌습니다. 우리는 워크플로우를 최적화하고 생산성을 높이는 더 나은 방법이 있어야 한다고 느꼈죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 해결 방법
 
@@ -42,13 +61,25 @@ isUpdated: true
 
 GitHub Actions를 활용하여 개발 및 배포 프로세스를 GitHub 생태계 내에서 중앙 집중화하여 다양한 도구와 플랫폼을 관리할 필요가 없어졌습니다. 이 통합 접근 방식은 시간과 노력을 절약하는 데 도움이 되며 개발 관행에서 일관성과 신뢰성을 증진시킵니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 GitHub Actions는 GitHub과의 통합 기능 외에도 다양한 내장 기능과 사용자 정의 가능한 워크플로우를 제공하여 우리가 특정 요구 사항에 맞게 CI/CD 파이프라인을 맞춤화할 수 있습니다. 코드 테스트 자동화, 배포 관리 또는 제3자 서비스와 통합하는 등의 작업을 GitHub Actions를 통해 할 수 있어 개발 워크플로우를 최적화하기 위해 필요한 유연성과 확장성을 제공합니다.
 
 ## 전제 조건
 
 시작하기 전에 다음 사항을 준비해야 합니다:
+
 1. GitHub에 호스팅된 Flutter 앱.
 2. GitHub Actions의 기본적인 이해.
 3. GitHub 계정.
@@ -57,12 +88,23 @@ GitHub Actions는 GitHub과의 통합 기능 외에도 다양한 내장 기능�
 
 ## 단계 1: Flutter 프로젝트 설정하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, Flutter 프로젝트가 제대로 설정되어 있고 GitHub 저장소에 커밋되어 있는지 확인하세요. Flutter 프로젝트를 아직 생성하지 않은 경우 다음을 실행하여 생성할 수 있습니다:
 
 ```js
-flutter create bigpay_app 
+flutter create bigpay_app
 ```
 
 프로젝트 디렉토리로 이동하고 아직 Git 저장소를 초기화하지 않은 경우 다음을 실행하세요:
@@ -76,7 +118,18 @@ git commit -m “Initial commit”
 git push -u origin master
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 2: Flutter 플레이버 구성
 
@@ -86,7 +139,18 @@ git push -u origin master
 
 ## Android
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 GitHub Actions workflows는 YAML 파일에서 정의됩니다. 프로젝트의 루트에 .github/workflows라는 디렉토리를 생성하십시오. 이미 존재하지 않는 경우에만 만들어주세요. 이 디렉토리 안에 build-android.yml이라는 파일을 생성하십시오 (이름은 원하는 대로 지으실 수 있습니다).
 
@@ -96,7 +160,18 @@ GitHub Actions workflows는 YAML 파일에서 정의됩니다. 프로젝트의 �
 
 새로 생성된 build-android.yml 파일을 열고 언제 이 작업이 시작될지 정의하십시오.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 작업(workflow)를 마스터 브랜치로 푸시할 때마다 트리거하는 기본적인 구성입니다.
 
@@ -127,7 +202,18 @@ jobs:
         flutter-version: '3.19.1'
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요! 안드로이드에서는 우분투를 OS로 사용하고 있습니다.
 설치할 미리 정의된 작업은 checkout@v4, setup-java@v4, flutter-action@v2 등이 있습니다. 이를 사용하여 Java 및 Flutter 버전 3.19.1을 설정해야 합니다.
@@ -170,7 +256,18 @@ jobs:
 
 이 구성은 마스터 브랜치로의 모든 푸시 요청에서 워크플로우를 트리거합니다. 리포지토리를 체크아웃하고, Flutter를 설정하고, 종속성을 설치하고, 테스트를 실행하고, 디버그 모드에서 스테이징 APK를 빌드합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 릴리스 모드 빌드
 플레이 스토어에 게시하려면 앱을 디지턈 인증서로 서명해야 합니다.
@@ -185,7 +282,18 @@ keytool -genkey -v -keystore ~/keystore.jks -keyalg RSA \
 -keysize 2048 -validity 10000 -alias upload
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Windows에서 PowerShell에서 다음 몤을 사용하세요:
 
@@ -200,7 +308,18 @@ keytool -genkey -v -keystore %userprofile%\keystore.jks ^
 Gradle 설정
 릴리스 모드 빌드를 추가하기 전에, GitHub 비밀 변수를 사용하여 은닉 변수를 활용하기 위해 우리 앱 수준의 build.gradle 파일에서 서명 구성을 먼저 설정해야 합니다. 이후에 이러한 비밀 변수를 설정할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전에 생성한 키스토어를 아래와 같이 android/app 폴더로 이동합니다.
 
@@ -210,7 +329,18 @@ Gradle 설정
 
 ![이미지2](/assets/img/2024-05-17-HowBigPayIncreasedFlutterDeveloperVelocityPart1CICDforFlutterAndroid_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희 앱 수준의 build.gradle에 다음 코드를 추가해주세요.
 
@@ -239,17 +369,28 @@ signingConfigs {
 
 릴리스용으로 buildTypes를 업데이트해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-  buildTypes { 
-          release { 
-            signingConfig signingConfigs.release 
-  } 
-          debug { 
-            signingConfig signingConfigs.debug 
-            debuggable true 
-          } 
+  buildTypes {
+          release {
+            signingConfig signingConfigs.release
+  }
+          debug {
+            signingConfig signingConfigs.debug
+            debuggable true
+          }
   }
 ```
 
@@ -260,7 +401,18 @@ signingConfig signingConfigs.release: 앞서 미리 설정한 signingConfigs.rel
 키스토어의 인코딩
 다음 단계는 방금 생성한 키스토어 파일의 인코딩을 다룹니다. 인코딩에 대해 우리는 널리 사용되는 Base64 인코딩 체계를 활용할 것입니다. 키스토어 파일의 인코딩은 이 파일을 텍스트로 GitHub Secrets에 저장하고 나중에 GitHub 워크플로 프로세스에서 다시 원래 키스토어 파일로 디코딩할 수 있게 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요! 안드로이드/app 폴더로 이동해서 .jks 파일을 찾아보세요. 해당 폴더 내에서 macOS에서 터미널에서 다음 명령을 실행하세요: base64 keystore.jks > keystore_base64.txt. 모든 과정이 제대로 진행되면 새로 생성된 keystore_base64.txt 파일을 확인할 수 있을 거예요. 이 파일에는 키 저장소 파일을 표현하는 인코딩된 텍스트가 포함되어 있습니다.
 
@@ -274,7 +426,18 @@ signingConfig signingConfigs.release: 앞서 미리 설정한 signingConfigs.rel
 3.2 릴리스 모드 빌드하기
 이제 시크릿을 설정했으니, 릴리스 모드를 빌드하는 실제 워크플로우를 진행할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 on:
@@ -299,7 +462,7 @@ jobs:
       uses: subosito/flutter-action@v2
       with:
         flutter-version: '3.19.1'
-    
+
     - name: Retrieve signing.properties
       env:
         ANDROID_SIGNING_PROPERTIES: ${{ secrets.ANDROID_SIGNING_PROPERTIES }}
@@ -332,7 +495,18 @@ jobs:
   run: echo "$ANDROID_SIGNING_PROPERTIES" >> ./android/signing.properties
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **Explanation:**
 
@@ -349,7 +523,18 @@ KeyStore 가져오기
   run: echo "$KEYSTORE_BASE64" | base64 --decode > ./android/app/keystore.jks
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 환경 변수 KEYSTORE_BASE64에 GitHub Actions 시크릿 KEYSTORE_BASE64의 값을 설정합니다.
 
@@ -360,14 +545,36 @@ KeyStore 가져오기
 
 `./android/app/keystore.jks`은 디코딩된 바이너리 내용을 ./android/app 디렉토리에 있는 keystore.jks라는 파일에 작성합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스테이징 APK를 빌드하는 코드 스니펫입니다.
 우리의 Workflow의 다음 단계에서는 Firebase-Distribution-Github-Action을 사용하여 출력 APK를 업로드할 것입니다.
 
 ## 단계 4 Firebase 앱 배포
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파이어베이스 액션을 추가하기 전에 시크릿에 FIREBASE_APP_ID 및 CREDENTIAL_FILE_CONTENT를 설정해야 합니다.
 
@@ -377,7 +584,18 @@ FIREBASE_APP_ID는 애플리케이션을 설정한 후 파이어베이스의 일
 
 CREDENTIAL_FILE_CONTENT에 대한 자세한 설명은 공식 문서에서 제공하는 지침을 따라 3단계(비공개 JSON 키 만들기 및 다운로드)까지 따르십시오.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새로운 시크릿 2개를 생성해주세요. FIREBASE_APP_ID에는 firebase 앱 ID를 값으로 넣고, CREDENTIAL_FILE_CONTENT에는 이전 단계에서 생성된 파일의 내용을 값으로 넣어주세요 (아래 샘플에서는 이 시크릿의 이름이 FIREBASE_ANDROID_STAGING_APP_ID 및 CREDENTIAL_FILE_CONTENT입니다).
 
@@ -395,7 +613,18 @@ CREDENTIAL_FILE_CONTENT에 대한 자세한 설명은 공식 문서에서 제공
 
 이 워크플로우 단계에서는 Firebase-Distribution-Github-Action을 사용하여 apk 출력을 업로드하고 android-qa 라는 qa 테스터 그룹에 업로드합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 5 Diawi 업로드
 
@@ -418,7 +647,18 @@ Diawi 액션 추가
   run: echo "Diawi 링크 ${ steps.diawi-upload-staging.outputs.url }"
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리의 Workflow의 마지막 단계에서는 apk 출력을 Diawi에 업로드하고 Diawi 링크를 출력합니다.
 
@@ -448,7 +688,7 @@ jobs:
       uses: subosito/flutter-action@v2
       with:
         flutter-version: '3.19.1'
-    
+
     - name: Retrieve signing.properties
       env:
         ANDROID_SIGNING_PROPERTIES: ${ secrets.ANDROID_SIGNING_PROPERTIES }
@@ -482,14 +722,25 @@ jobs:
       with:
         token: ${ secrets.DIAWI_TOKEN }
         file: ./flutter/build/app/outputs/flutter-apk/app-staging-release.apk
-    
+
     - name: Get Diawi link of uploaded staging APK
       run: echo "Diawi link ${ steps.diawi-upload-staging.outputs.url }"
 ```
 
 ## 작업 진행 중인 Workflow
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 Workflow를 완료했으니, 액세스하는 것은 간단합니다. GitHub 저장소의 "Actions" 탭으로 이동하면 거기에서 찾을 수 있습니다!
 
@@ -499,7 +750,18 @@ jobs:
 
 # 결과
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CI/CD 파이프라인을 도입한 후 개발 워크플로우에서 상당한 개선을 보았습니다. 빌드 시간이 줄고 배포가 더 신뢰할 수 있어졌으며, 팀원들은 빌드 및 배포 관리보다는 새로운 기능 개발에 더 많은 시간을 할애할 수 있게 되었습니다. 이러한 변화로 우리의 개발 속도와 전반적인 생산성이 크게 향상되었습니다.
 
@@ -509,7 +771,18 @@ GitHub Actions를 CI/CD 파이프라인으로 채택함으로써 개발 프로�
 
 iOS 앱을 위한 비슷한 CI/CD 워크플로우 설정에 대해 보다 자세히 살펴볼 Part 2를 기대해 주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 참고 자료
 

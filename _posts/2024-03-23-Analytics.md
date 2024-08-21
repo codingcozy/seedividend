@@ -3,17 +3,13 @@ title: "Nextjs 13 사이트 성능 분석하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "분석"
 link: "undefined"
 isUpdated: true
 ---
-
-
-
-
 
 # 분석
 
@@ -33,7 +29,18 @@ function MyApp({ Component, pageProps }) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 API 레퍼런스에서 더 많은 정보를 확인해보세요.
 
@@ -48,7 +55,18 @@ API 레퍼런스에서 더 많은 정보를 확인해보세요.
 - 누적 레이아웃 이동 (CLS)
 - 다음 그리기까지의 상호작용 (INP)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 메트릭의 모든 결과를 name 속성을 사용하여 처리할 수 있습니다.
 
@@ -76,7 +94,18 @@ function MyApp({ Component, pageProps }) {
 
 위에 나열된 핵심 메트릭 외에도, 페이지의 수분화 및 렌더링 속도를 측정하는 몇 가지 추가적인 사용자 정의 메트릭이 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Next.js-수분화: 페이지가 수분화를 시작하고 완료하는 데 걸리는 시간(밀리초 단위)
 - Next.js-경로-변경-렌더: 경로 변경 후 페이지 렌더링을 시작하는 데 걸리는 시간(밀리초 단위)
@@ -104,7 +133,18 @@ export function reportWebVitals(metric) {
 
 이러한 지표들은 User Timing API를 지원하는 모든 브라우저에서 작동합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 외부 시스템으로 결과 전송하기
 
@@ -126,4 +166,15 @@ useReportWebVitals((metric) => {
 
 > 참고: Google 애널리틱스를 사용하는 경우에는 id 값을 사용하여 수동으로 메트릭 분포를 구성할 수 있습니다(백분위수 등을 계산하기 위해).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

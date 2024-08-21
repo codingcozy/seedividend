@@ -3,17 +3,13 @@ title: "당신이 단일 책임 원칙을 얼마나 열심히 따르고 있는�
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Lessons from open-source How obsessed are you with following Single Responsibility Principle"
 link: "https://medium.com/@ramu.narasinga_61050/lessons-from-open-source-how-obsessed-are-you-with-following-single-responsibility-principle-ff43433a85de"
 isUpdated: true
 ---
-
-
-
-
 
 이 수업은 Next.js 소스 코드에서 가져왔어요. 이 글에서 당신은 얼마나 깊게 간단한 hasBasepath 유틸리티 함수를 위해 nested 되어 있는지 배울 거예요.
 
@@ -23,11 +19,33 @@ isUpdated: true
 
 위 코드 스니펫은 next/src/client/index.ts 에서 가져온 것이에요. hasBasePath는 base-path.ts에서 import 되었어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신은 프론트엔드 개발자이에요. 위의 텍스트를 친근한 어조로 한국어로 번역해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 중첩된 import의 레벨 2입니다. 다시 말씀드리지만, "proximity" 파일에 `parsePath`를 그대로 넣었을 것입니다.
 
@@ -37,7 +55,18 @@ isUpdated: true
 
 이것은 레벨 3입니다. 휴우! 저는 이 정도까지 진행하지는 않았는데, 이 레벨에서는 클라이언트와 서버에서 사용되는 공유 폴더에서 import되는 것을 깨달았습니다. 함수 및 파일에 단일 책임 원칙(SRP; single responsibility principle)을 엄격히 따르면 부작용이 없는 함수를 사용하여 코드베이스 전체에 이러한 함수를 재사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론:
 

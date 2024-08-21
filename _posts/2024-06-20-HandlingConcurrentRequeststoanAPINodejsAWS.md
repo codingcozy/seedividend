@@ -3,16 +3,13 @@ title: "API에 대한 동시 요청 처리하기 Nodejs, AWS"
 description: ""
 coverImage: "/assets/img/2024-06-20-HandlingConcurrentRequeststoanAPINodejsAWS_0.png"
 date: 2024-06-20 04:20
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-HandlingConcurrentRequeststoanAPINodejsAWS_0.png
 tag: Tech
 originalTitle: "Handling Concurrent Requests to an API: Node.js , AWS."
 link: "https://medium.com/@myjob.rajesh/handling-concurrent-requests-node-js-aws-815e489127cd"
 isUpdated: true
 ---
-
-
-
 
 동시에 여러 입찰을 처리하고 실시간 입찰 시스템에서 우승자를 결정하는 것은 데이터 일관성과 공정성을 보장할 때 특히 어려울 수 있습니다. diff database를 사용할 수도 있어요.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 Express 및 Mongoose가 포함된 기본 Node.js 서버를 설정하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm init -y
@@ -49,12 +57,23 @@ config.js
 ```js
 // config.js
 module.exports = {
-  mongoURI: 'mongodb://localhost:27017/saasbidding',
-  port: 3000
+  mongoURI: "mongodb://localhost:27017/saasbidding",
+  port: 3000,
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더하기 기호 뒤에 해당 값을 입력하세요:
 
@@ -64,43 +83,54 @@ Mongoose 모델 생성
 
 ```js
 // models/auction.js
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 
 const AuctionSchema = new mongoose.Schema({
   product: { type: String, required: true },
   startingPrice: { type: Number, required: true },
   currentHighestBid: { type: Number, default: 0 },
-  highestBidder: { type: mongoose.Schema.Types.ObjectId, ref: 'Bidder' },
-  endTime: { type: Date, required: true }
+  highestBidder: { type: mongoose.Schema.Types.ObjectId, ref: "Bidder" },
+  endTime: { type: Date, required: true },
 });
 
-module.exports = mongoose.model('Auction', AuctionSchema);
+module.exports = mongoose.model("Auction", AuctionSchema);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // models/bid.js
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 
 const BidSchema = new mongoose.Schema({
-  auctionId: { type: mongoose.Schema.Types.ObjectId, ref: 'Auction', required: true },
-  bidderId: { type: mongoose.Schema.Types.ObjectId, ref: 'Bidder', required: true },
+  auctionId: { type: mongoose.Schema.Types.ObjectId, ref: "Auction", required: true },
+  bidderId: { type: mongoose.Schema.Types.ObjectId, ref: "Bidder", required: true },
   bidAmount: { type: Number, required: true },
-  timestamp: { type: Date, default: Date.now }
+  timestamp: { type: Date, default: Date.now },
 });
 
-module.exports = mongoose.model('Bid', BidSchema);
+module.exports = mongoose.model("Bid", BidSchema);
 ```
 
 ## Express and Mongoose (app.js)
 
 ```js
 // app.js
-const express = require('express');
-const mongoose = require('mongoose');
-const bodyParser = require('body-parser');
-const config = require('./config');
+const express = require("express");
+const mongoose = require("mongoose");
+const bodyParser = require("body-parser");
+const config = require("./config");
 
 const app = express();
 
@@ -109,8 +139,8 @@ mongoose.connect(config.mongoURI, { useNewUrlParser: true, useUnifiedTopology: t
 app.use(bodyParser.json());
 
 // Routes
-app.use('/bids', require('./routes/bids'));
-app.use('/auctions', require('./routes/auctions'));
+app.use("/bids", require("./routes/bids"));
+app.use("/auctions", require("./routes/auctions"));
 
 app.listen(config.port, () => {
   console.log(`Server is running on port ${config.port}`);
@@ -119,18 +149,29 @@ app.listen(config.port, () => {
 
 Bids 및 Auctions에 대한 라우팅
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 경매 라우트(Auction Routes)는 다음과 같습니다(routes/auctions.js)
 
 ```js
 // routes/auctions.js
-const express = require('express');
-const Auction = require('../models/auction');
+const express = require("express");
+const Auction = require("../models/auction");
 const router = express.Router();
 
 // 새 경매 생성
-router.post('/', async (req, res) => {
+router.post("/", async (req, res) => {
   const { product, startingPrice, endTime } = req.body;
   const auction = new Auction({ product, startingPrice, endTime });
   await auction.save();
@@ -138,9 +179,9 @@ router.post('/', async (req, res) => {
 });
 
 // 경매 세부 정보 가져오기
-router.get('/:id', async (req, res) => {
+router.get("/:id", async (req, res) => {
   const { id } = req.params;
-  const auction = await Auction.findById(id).populate('highestBidder');
+  const auction = await Auction.findById(id).populate("highestBidder");
   res.send(auction);
 });
 
@@ -151,14 +192,14 @@ module.exports = router;
 
 ```js
 // routes/bids.js
-const express = require('express');
-const mongoose = require('mongoose');
-const Bid = require('../models/bid');
-const Auction = require('../models/auction');
+const express = require("express");
+const mongoose = require("mongoose");
+const Bid = require("../models/bid");
+const Auction = require("../models/auction");
 const router = express.Router();
 
 // 입찰하기
-router.post('/', async (req, res) => {
+router.post("/", async (req, res) => {
   const session = await mongoose.startSession();
   session.startTransaction();
   try {
@@ -167,12 +208,12 @@ router.post('/', async (req, res) => {
     // 경매 찾기
     const auction = await Auction.findById(auctionId).session(session);
     if (!auction) {
-      throw new Error('경매를 찾을 수 없습니다');
+      throw new Error("경매를 찾을 수 없습니다");
     }
 
     // 입찰이 현재 최고 입찰보다 높은지 확인
     if (bidAmount <= auction.currentHighestBid) {
-      throw new Error('입찰 금액은 현재 최고 입찰보다 높아야 합니다');
+      throw new Error("입찰 금액은 현재 최고 입찰보다 높아야 합니다");
     }
 
     // 새로운 입찰 생성
@@ -195,7 +236,7 @@ router.post('/', async (req, res) => {
 });
 
 // 특정 경매에 대한 모든 입찰 가져오기
-router.get('/:auctionId', async (req, res) => {
+router.get("/:auctionId", async (req, res) => {
   const { auctionId } = req.params;
   const bids = await Bid.find({ auctionId }).sort({ timestamp: -1 });
   res.send(bids);
@@ -204,7 +245,18 @@ router.get('/:auctionId', async (req, res) => {
 module.exports = router;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 동시에 발생하는 입찰 처리
 
@@ -219,7 +271,18 @@ module.exports = router;
 
 # AWS 및 자동 스케일링을 활용하여 더 최적화해봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 주요 구성 요소
 
@@ -241,8 +304,18 @@ module.exports = router;
 - Worker 노드: 큐에서 입찰 요청을 처리합니다.
 - Amazon CloudWatch: 인프라를 모니터링하고 확장합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-20-HandlingConcurrentRequeststoanAPINodejsAWS_0.png)
 
@@ -255,26 +328,37 @@ npm init -y
 npm install express body-parser aws-sdk
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 config.js
 
 ```js
 module.exports = {
-  awsRegion: 'us-east-1',
-  sqsQueueUrl: 'YOUR_SQS_QUEUE_URL',
-  mongoURI: 'mongodb://localhost:27017/saasbidding',
-  port: 3000
+  awsRegion: "us-east-1",
+  sqsQueueUrl: "YOUR_SQS_QUEUE_URL",
+  mongoURI: "mongodb://localhost:27017/saasbidding",
+  port: 3000,
 };
 ```
 
 app.js
 
 ```js
-const express = require('express');
-const bodyParser = require('body-parser');
-const AWS = require('aws-sdk');
-const config = require('./config');
+const express = require("express");
+const bodyParser = require("body-parser");
+const AWS = require("aws-sdk");
+const config = require("./config");
 
 const app = express();
 app.use(bodyParser.json());
@@ -283,19 +367,19 @@ AWS.config.update({ region: config.awsRegion });
 
 const sqs = new AWS.SQS();
 
-app.post('/bid', async (req, res) => {
+app.post("/bid", async (req, res) => {
   const { auctionId, bidderId, bidAmount } = req.body;
 
   const params = {
     MessageBody: JSON.stringify({ auctionId, bidderId, bidAmount }),
-    QueueUrl: config.sqsQueueUrl
+    QueueUrl: config.sqsQueueUrl,
   };
 
   try {
     await sqs.sendMessage(params).promise();
-    res.status(200).send({ message: 'Bid received' });
+    res.status(200).send({ message: "Bid received" });
   } catch (error) {
-    res.status(500).send({ error: 'Failed to process bid' });
+    res.status(500).send({ error: "Failed to process bid" });
   }
 });
 
@@ -304,16 +388,27 @@ app.listen(config.port, () => {
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Worker.js 파일 — 이 파일은 SQS에서 메시지를 처리하고 데이터베이스를 업데이트합니다.
 
 ```js
-const AWS = require('aws-sdk');
-const mongoose = require('mongoose');
-const Auction = require('./models/auction');
-const Bid = require('./models/bid');
-const config = require('./config');
+const AWS = require("aws-sdk");
+const mongoose = require("mongoose");
+const Auction = require("./models/auction");
+const Bid = require("./models/bid");
+const config = require("./config");
 
 AWS.config.update({ region: config.awsRegion });
 
@@ -330,7 +425,7 @@ const processBid = async (message) => {
   try {
     const auction = await Auction.findById(auctionId).session(session);
     if (bidAmount <= auction.currentHighestBid) {
-      throw new Error('Bid amount must be higher than the current highest bid');
+      throw new Error("Bid amount must be higher than the current highest bid");
     }
 
     const bid = new Bid({ auctionId, bidderId, bidAmount });
@@ -353,7 +448,7 @@ const pollQueue = async () => {
   const params = {
     QueueUrl: queueUrl,
     MaxNumberOfMessages: 10,
-    WaitTimeSeconds: 20
+    WaitTimeSeconds: 20,
   };
 
   try {
@@ -364,12 +459,12 @@ const pollQueue = async () => {
           await processBid(message);
           await sqs.deleteMessage({ QueueUrl: queueUrl, ReceiptHandle: message.ReceiptHandle }).promise();
         } catch (error) {
-          console.error('Failed to process bid', error);
+          console.error("Failed to process bid", error);
         }
       }
     }
   } catch (error) {
-    console.error('Failed to receive messages', error);
+    console.error("Failed to receive messages", error);
   }
 
   setImmediate(pollQueue);
@@ -387,7 +482,17 @@ pollQueue();
 - Amazon ElastiCache (Redis): 자주 액세스되는 데이터를 캐싱하여 데이터베이스 부하를 줄이기 위해 Redis를 사용합니다.
 - Amazon CloudWatch: 인프라를 모니터링하고 스케일링 이벤트를 트리거할 알림을 설정합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주의 : 이 코드는 샘플입니다. 조심해서 사용해주세요.

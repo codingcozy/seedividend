@@ -3,17 +3,13 @@ title: "Nextjs 13 getStaticPaths 사용 방법 정리"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "getStaticPaths"
 link: "undefined"
 isUpdated: true
 ---
-
-
-
-
 
 # getStaticPaths
 
@@ -55,7 +51,18 @@ export default function Page({ repo }: InferGetStaticPropsType<typeof getStaticP
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 getStaticPaths API 참조에서는 getStaticPaths와 함께 사용할 수 있는 모든 매개변수와 프롭에 대해 다룹니다.
 
@@ -70,7 +77,18 @@ getStaticPaths는 다음과 같은 경우에 사용해야 합니다:
 - 데이터가 공개 캐시될 수 있는 경우 (사용자별이 아닌)
 - 페이지가 사전 렌더링되어야 하며 (SEO를 위해) 매우 빨라야 하는 경우 — getStaticProps는 HTML 및 JSON 파일을 생성하며, 이 두 파일은 성능을 위해 CDN에 의해 캐시될 수 있습니다
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## getStaticPaths가 언제 실행되나요?
 
@@ -82,7 +100,18 @@ getStaticPaths는 프로덕션 빌드 중에만 실행되며, 런타임 중에�
 - fallback: true를 사용할 때 getStaticProps는 백그라운드에서 실행됩니다.
 - fallback: blocking을 사용할 때 getStaticProps는 초기 렌더링 전에 호출됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## getStaticPaths를 어디에 사용해야 하나요?
 
@@ -96,7 +125,18 @@ getStaticPaths는 프로덕션 빌드 중에만 실행되며, 런타임 중에�
 
 개발 환경에서 (next dev), getStaticPaths는 모든 요청 시마다 호출됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 필요한 때 경로 생성하기
 
@@ -131,4 +171,15 @@ export async function getStaticPaths() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

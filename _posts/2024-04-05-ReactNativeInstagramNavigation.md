@@ -3,17 +3,13 @@ title: "리액트 네이티브로 인스타그램 내비게이션 만들기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "React Native Instagram Navigation"
 link: "https://medium.com/@trai-nguyen/react-native-instagram-navigation-a8a376ebbf29"
 isUpdated: true
 ---
-
-
-
-
 
 리액트 네이티브는 여러 플랫폼에서 동작하는 모바일 애플리케이션을 만드는 데 개발자들 사이에서 점점 더 인기를 얻고 있어요. 모바일 앱을 구축할 때 가장 중요한 요소 중 하나는 사용자에게 부드럽고 직관적인 내비게이션 경험을 제공하는 것이에요. 인스타그램은 세련되고 사용하기 편한 내비게이션으로 유명한데, 이를 참고하여 리액트 네이티브 앱을 개발할 때 영감을 받을 수 있어요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 탭 내비게이션 외에도, 인스타그램은 새로운 사진이나 비디오를 게시하는 기능과 같은 모달 화면을 활용해요. 이는 현재 화면 위에 겹쳐지는 모달 컴포넌트를 사용하여 리액트 네이티브에서 구현할 수 있어요. 이렇게하면 새로운 포스트를 만드는 등 특정 작업을 위해 집중된 화면을 제공할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 목차
 
@@ -36,7 +43,18 @@ isUpdated: true
 
 여기에 제 설치에 대한 간단한 요약이 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 안드로이드 스튜디오 (이구아나)
 - Xcode (v15.2)
@@ -54,7 +72,18 @@ isUpdated: true
 
 먼저, 리액트 네이티브 프로젝트를 초기화해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/ReactNativeInstagramNavigation_0.png)
 
@@ -69,7 +98,18 @@ cd ReactNavigationInstagram
 yarn ios
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우선 실행하십시오,
 
@@ -87,7 +127,18 @@ react-navigation 가이드를 따라해보세요.
 "react-native-screens": "^3.30.1"
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 yarn add @react-navigation/native
@@ -113,10 +164,7 @@ cd ios && pod install && cd ..
 
 import { NavigationContainer, useNavigation } from "@react-navigation/native";
 import React from "react";
-import {
-  NativeStackNavigationProp,
-  createNativeStackNavigator,
-} from "@react-navigation/native-stack";
+import { NativeStackNavigationProp, createNativeStackNavigator } from "@react-navigation/native-stack";
 
 import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 
@@ -128,20 +176,14 @@ function DetailsScreen() {
   );
 }
 
-type HomeScreenNavigationProp = NativeStackNavigationProp<
-  RootStackParamList,
-  "Home"
->;
+type HomeScreenNavigationProp = NativeStackNavigationProp<RootStackParamList, "Home">;
 
 function HomeScreen() {
   const navigation = useNavigation<HomeScreenNavigationProp>();
   return (
     <View style={styles.sectionContainer}>
       <Text>홈 화면</Text>
-      <TouchableOpacity
-        style={styles.button}
-        onPress={() => navigation.navigate("Detail")}
-      >
+      <TouchableOpacity style={styles.button} onPress={() => navigation.navigate("Detail")}>
         <Text style={styles.titleButton}>상세 화면 열기</Text>
       </TouchableOpacity>
     </View>
@@ -188,7 +230,18 @@ export default App;
 
 이것은 react-navigation 통합 결과입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](https://miro.medium.com/v2/resize:fit:592/1*WNFdz06x-fj6JBu7eocIHA.gif)
 
@@ -199,7 +252,18 @@ export default App;
 
 홈 화면에서는 포스트 컴포넌트를 만들어 포스트 목록을 렌더링할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import {NativeStackNavigationProp} from '@react-navigation/native-stack';
@@ -396,7 +460,18 @@ export default HomeScreen;
 
 그리고 여기가 홈 화면의 UI 결과입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/ReactNativeInstagramNavigation_3.png" />
 
@@ -488,7 +563,18 @@ export default PostScreen;
 
 <img src="/assets/img/ReactNativeInstagramNavigation_4.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { useRoute } from "@react-navigation/native";
@@ -589,7 +675,18 @@ export default App;
 
 ![Animated GIF](https://miro.medium.com/v2/resize:fit:592/1*o59tGOoBQT6SBCkA8HX9DA.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # react-native-reanimated을 사용하여 애니메이션 설정하기
 
@@ -599,7 +696,18 @@ export default App;
 
 # 설치
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트에 Reanimated를 추가하는 데 세 가지 단계가 필요합니다:
 
@@ -611,7 +719,18 @@ yarn을 통해 react-native-reanimated 패키지를 설치합니다:
 yarn add react-native-reanimated
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 2: Reanimated의 babel 플러그인 추가
 
@@ -631,7 +750,18 @@ module.exports = {
 
 # 단계 3: Metro 번들러 캐시 지우기 (권장 사항)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 yarn start --reset-cache
@@ -643,7 +773,18 @@ yarn start --reset-cache
 
 추가 단계는 필요하지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## iOS
 
@@ -655,7 +796,18 @@ cd ios && pod install && cd ..
 
 ## 2. react-native-gesture-handler
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 yarn add react-native-gesture-handler
@@ -739,7 +891,18 @@ export default App;
 
 다음으로, Post 구성 요소에 일부 속성을 추가해야하며, 목록에서 고유한 키를 가져야 합니다. 여기서 중요한 속성은 sharedTransitionTag이며, 다음 네비게이션을 식별하는 데 사용됩니다. Reanimated가 sharedTransitionTag가있는 구성 요소가 마운트되거나 언마운트되고 있는 것을 감지하면, 동일한 sharedTransitionTag를 가진 마지막 등록된 뷰를 찾으려고 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 포스트 컴포넌트에서
@@ -929,9 +1092,20 @@ const DetailScreen: React.FC<IProps> = () => {
 };
 ```
 
-<img src="https://miro.medium.com/v2/resize:fit:1200/1*zdwPocG-Nij61NtxOW_e9w.gif" /> 
+<img src="https://miro.medium.com/v2/resize:fit:1200/1*zdwPocG-Nij61NtxOW_e9w.gif" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 단계는 포스트 화면에서 상세 화면으로의 전환 효과를 만드는 것입니다.
 
@@ -1016,7 +1190,18 @@ function PostScreen() {
 
 이 글은 Instagram과 유사한 React Native 앱에서 아름다운 내비게이션을 만드는 방법에 대해 설명합니다. 탭 내비게이션, 모달 화면, 스와이프 제스처의 중요성을 이야기하며 사용자 친화적인 경험을 제공합니다. react-navigation 설정, 서로 다른 화면을 위한 UI 구성 요소 작성, 애니메이션을 위해 react-native-reanimated 사용하는 과정을 다룹니다. Instagram의 부드러운 내비게이션을 복제하고 사용자를 효과적으로 동원하는 것이 목표입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 관련 포스트:
 

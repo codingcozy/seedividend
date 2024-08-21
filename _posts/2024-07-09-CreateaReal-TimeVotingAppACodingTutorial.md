@@ -3,15 +3,13 @@ title: "실시간 투표 앱 만들기 튜토리얼 코드 예제 포함"
 description: ""
 coverImage: "/assets/img/2024-07-09-CreateaReal-TimeVotingAppACodingTutorial_0.png"
 date: 2024-07-09 13:59
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-CreateaReal-TimeVotingAppACodingTutorial_0.png
 tag: Tech
 originalTitle: "Create a Real-Time Voting App: A Coding Tutorial"
 link: "https://medium.com/@learntocodetoday/create-a-real-time-voting-app-a-coding-tutorial-55ef0f2629da"
 isUpdated: true
 ---
-
-
 
 ![Tutorial Image](/assets/img/2024-07-09-CreateaReal-TimeVotingAppACodingTutorial_0.png)
 
@@ -21,7 +19,18 @@ Building a real-time voting app is a great way to learn about web development, r
 
 Before you start, ensure you have:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - HTML, CSS, 그리고 JavaScript에 대한 기본 지식이 있어야 합니다.
 - 컴퓨터에 Node.js와 npm(Node Package Manager)가 설치되어 있어야 합니다.
@@ -37,7 +46,18 @@ cd real-time-voting-app
 npm init -y
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 필요한 종속성을 설치해주세요:
 
@@ -49,7 +69,18 @@ npm install express socket.io
 
 프로젝트를 위해 다음 디렉토리와 파일을 생성해주세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트 구조:
 

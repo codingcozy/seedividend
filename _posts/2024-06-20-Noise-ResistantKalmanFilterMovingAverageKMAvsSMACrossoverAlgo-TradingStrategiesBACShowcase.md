@@ -3,7 +3,7 @@ title: "잡음 저항 칼만 필터 이동 평균KMA 대 단순 이동 평균SMA
 description: ""
 coverImage: "/assets/img/2024-06-20-Noise-ResistantKalmanFilterMovingAverageKMAvsSMACrossoverAlgo-TradingStrategiesBACShowcase_0.png"
 date: 2024-06-20 04:43
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-Noise-ResistantKalmanFilterMovingAverageKMAvsSMACrossoverAlgo-TradingStrategiesBACShowcase_0.png
 tag: Tech
 originalTitle: "Noise-Resistant Kalman Filter Moving Average (KMA) vs SMA Crossover Algo-Trading Strategies: BAC Showcase"
@@ -11,15 +11,12 @@ link: "https://medium.com/@alexzap922/noise-resistant-kalman-filter-moving-avera
 isUpdated: true
 ---
 
-
-
-
 - 대부분의 기술적거래지표(TTI)는 과거 주식 데이터에서 유래되며 미래 가격 흐름 반전을 예측하고 거래 결정을 내리는 데 거래자들에 의해 사용됩니다.
 - 금융 시장 예측은 시간에 따라 변하는 시장 소음 수준이 뒤틀리는 기본 트렌드와 계절적 주기의 이미지를 왜곡하기 때문에 매우 어려운 작업임이 널리 인정되고 있습니다.
 - 알고트레이딩에서 기술적 분석은 항상 패턴 및 신호를 식별하는 데 의존하지만 때로는 신뢰성 없는 것이 있을 수 있습니다. (신호/소음)`1.
 - 실제로, 가짜 가격 변동 및 오작동이 잘못된 TTI 신호를 초래하여 리스크-수익 최적화를 감소시키고 좋지 않은 거래 전략을 야기할 수 있습니다.
 - 본 게시물에서는 불확실하고 정확하지 않은 시계열 데이터에 기초한 숨겨진 변수의 소음이 적절한 확률 추정을 제공하는 칼만 필터(KF)를 사용하여 TTI의 상기한 단점을 다룰 것입니다.
-- KF는 선형 가우시안 상태 공간 모델에서 이론적으로 최적인 것으로 알려져 있으며, 추정된 오차 공분산을 최소화함으로써 베이지안 예측 및 수정의 최적의 재귀적 구현이라고 할 수 있습니다. 
+- KF는 선형 가우시안 상태 공간 모델에서 이론적으로 최적인 것으로 알려져 있으며, 추정된 오차 공분산을 최소화함으로써 베이지안 예측 및 수정의 최적의 재귀적 구현이라고 할 수 있습니다.
 - 여기서, 우리의 목적은 짧은 윈도우 칼만 필터 이동 평균(KMA)를 도입하여 SMA 크로스오버 거래 전략의 극심한 소음 민감성을 줄이는 것입니다.
 - 사례 예시로, BAC 주식의 예상 수익율을 비교하여 KMA, SMA 크로스오버 및 매수 & 보유 알고트레이딩 전략의 백테스트 분석을 수행할 것입니다.
 - 비즈니스적인 측면에서, 제안된 연구는 계속되는 알고트레이딩 SaaS R&D 노력을 촉진하여 BAC에 대한 거래 봇 및 백테스팅 결과를 업데이트합니다. 이러한 노력은 은행이 대량의 핀테크 데이터를 분석하고 신속하게 거래를 실행하여 이윤을 극대화하고 인적 오류를 최소화합니다.
@@ -28,7 +25,18 @@ isUpdated: true
 
 ## 기본 Imports 및 설정
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 현재 작업 디렉토리를 YOURPATH로 설정하기
 
@@ -43,11 +51,11 @@ os.getcwd()
 ```python
 !pip install yfinance, pykalman
 
-import pandas as pd 
-import matplotlib.pyplot as plt 
+import pandas as pd
+import matplotlib.pyplot as plt
 import requests
 import math
-from termcolor import colored as cl 
+from termcolor import colored as cl
 import numpy as np
 import yfinance as yf
 import matplotlib.pyplot as plt
@@ -57,7 +65,18 @@ plt.style.use('fivethirtyeight')
 plt.rcParams['figure.figsize'] = (12, 6)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 주식 데이터 입력 읽기
 
@@ -70,7 +89,7 @@ df=data.drop(columns=['Open', 'High','Low','Adj Close','Volume'])
 df.tail()
 
            Close
-Date 
+Date
 2024-05-24 39.700001
 2024-05-28 39.320000
 2024-05-29 38.720001
@@ -80,7 +99,18 @@ Date
 
 ## KMA vs SMA40
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 파이칼만(pykalman)을 사용한 KF 구현 및 SMA40 계산하기
 
@@ -102,7 +132,7 @@ df['sma'] = df['Close'].rolling(window=40).mean()
 df.tail()
 
            Close     kma       sma
-Date   
+Date
 2024-05-24 39.700001 38.568957 37.64750
 2024-05-28 39.320000 38.640400 37.69250
 2024-05-29 38.720001 38.647972 37.72800
@@ -125,7 +155,18 @@ plt.legend(loc='upper left')
 plt.show()
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-20-Noise-ResistantKalmanFilterMovingAverageKMAvsSMACrossoverAlgo-TradingStrategiesBACShowcase_1.png" />
 
@@ -146,8 +187,18 @@ plt.xlabel('Date')
 plt.ylabel('Close Price USD')
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-20-Noise-ResistantKalmanFilterMovingAverageKMAvsSMACrossoverAlgo-TradingStrategiesBACShowcase_2.png)
 
@@ -163,7 +214,7 @@ def implement_sma_strategy(data, short_window, long_window):
     sell_price = []
     sma_signal = []
     signal = 0
-    
+
     for i in range(len(data)):
         if sma1.iloc[i] > sma2.iloc[i]:
             if signal != 1:
@@ -189,7 +240,7 @@ def implement_sma_strategy(data, short_window, long_window):
             buy_price.append(np.nan)
             sell_price.append(np.nan)
             sma_signal.append(0)
-            
+
     return buy_price, sell_price, sma_signal
 
 sma_20 = df['kma']
@@ -198,8 +249,18 @@ sma_50 = df['sma']
 buy_price, sell_price, signal = implement_sma_strategy(df['Close'], sma_20, sma_50)
 ```
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 우리 Position 생성하기
 
@@ -210,7 +271,7 @@ for i in range(len(signal)):
         position.append(0)
     else:
         position.append(1)
-        
+
 for i in range(len(df['Close'])):
     if signal[i] == 1:
         position[i] = 1
@@ -220,7 +281,7 @@ for i in range(len(df['Close'])):
         position[i] = position[i-1]
 
 sma_20 = pd.DataFrame(sma_20).rename(columns = {0:'sma_20'})
-sma_50 = pd.DataFrame(sma_50).rename(columns = {0:'sma_50'}) 
+sma_50 = pd.DataFrame(sma_50).rename(columns = {0:'sma_50'})
 signal = pd.DataFrame(signal).rename(columns = {0:'sma_signal'}).set_index(df.index)
 position = pd.DataFrame(position).rename(columns = {0:'sma_position'}).set_index(df.index)
 
@@ -237,27 +298,37 @@ for i in range(len(df_ret)):
         sma_strategy_ret.append(returns)
     except:
         pass
-    
+
 sma_strategy_ret_df = pd.DataFrame(sma_strategy_ret).rename(columns = {0:'sma_returns'})
 ```
 
 - BAC KMA/SMA 트레이딩 신호 플로팅
 
 ```js
-plt.plot(df['Close'], alpha = 0.3, label = 'BAC')
-plt.plot(sma_20, alpha = 0.6, label = 'KMA')
-plt.plot(sma_50, alpha = 0.6, label = 'SMA40')
-plt.scatter(df.index, buy_price, marker = '^', s = 200, color = 'darkblue', label = '매수 신호')
-plt.scatter(df.index, sell_price, marker = 'v', s = 200, color = 'crimson', label = '매도 신호')
-plt.legend(loc = 'lower right')
-plt.xlabel('날짜')
-plt.ylabel('종가 USD')
-plt.title('BAC KMA/SMA 트레이딩 신호')
-plt.show()
+plt.plot(df["Close"], (alpha = 0.3), (label = "BAC"));
+plt.plot(sma_20, (alpha = 0.6), (label = "KMA"));
+plt.plot(sma_50, (alpha = 0.6), (label = "SMA40"));
+plt.scatter(df.index, buy_price, (marker = "^"), (s = 200), (color = "darkblue"), (label = "매수 신호"));
+plt.scatter(df.index, sell_price, (marker = "v"), (s = 200), (color = "crimson"), (label = "매도 신호"));
+plt.legend((loc = "lower right"));
+plt.xlabel("날짜");
+plt.ylabel("종가 USD");
+plt.title("BAC KMA/SMA 트레이딩 신호");
+plt.show();
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-20-Noise-ResistantKalmanFilterMovingAverageKMAvsSMACrossoverAlgo-TradingStrategiesBACShowcase_3.png)
 
@@ -283,8 +354,18 @@ BAC에 10만 달러를 투자하여 전략으로 얻은 이익: $29026.39
 
 ## SMA 20–50 트레이딩 전략
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 표준 SMA 20-50 거래 전략 구현
 
@@ -298,7 +379,7 @@ for i in n:
     df[f'sma_{i}'] = sma(df['Close'], i)
 
 Close       sma_20    sma_50         sma_40
-Date    
+Date
 2024-05-24 39.700001 38.3415 37.4868 37.64750
 2024-05-28 39.320000 38.4300 37.5650 37.69250
 2024-05-29 38.720001 38.5155 37.6192 37.72800
@@ -320,7 +401,18 @@ plt.ylabel('Close Price USD')
 plt.show()
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-20-Noise-ResistantKalmanFilterMovingAverageKMAvsSMACrossoverAlgo-TradingStrategiesBACShowcase_4.png" />
 
@@ -334,7 +426,7 @@ def implement_sma_strategy(data, short_window, long_window):
     sell_price = []
     sma_signal = []
     signal = 0
-    
+
     for i in range(len(data)):
         if sma1.iloc[i] > sma2.iloc[i]:
             if signal != 1:
@@ -360,7 +452,7 @@ def implement_sma_strategy(data, short_window, long_window):
             buy_price.append(np.nan)
             sell_price.append(np.nan)
             sma_signal.append(0)
-            
+
     return buy_price, sell_price, sma_signal
 
 sma_20 = df['sma_20']
@@ -371,19 +463,30 @@ buy_price, sell_price, signal = implement_sma_strategy(df['Close'], sma_20, sma_
 
 - BAC SMA (20,50) 거래 신호를 플로팅합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-plt.plot(df['Close'], alpha = 0.3, label = 'BAC')
-plt.plot(sma_20, alpha = 0.6, label = 'SMA 20')
-plt.plot(sma_50, alpha = 0.6, label = 'SMA 50')
-plt.scatter(df.index, buy_price, marker = '^', s = 200, color = 'darkblue', label = 'BUY SIGNAL')
-plt.scatter(df.index, sell_price, marker = 'v', s = 200, color = 'crimson', label = 'SELL SIGNAL')
-plt.legend(loc = 'upper left')
-plt.title('BAC SMA CROSSOVER TRADING SIGNALS')
-plt.xlabel('Date')
-plt.ylabel('Close Price USD')
-plt.show()
+plt.plot(df["Close"], (alpha = 0.3), (label = "BAC"));
+plt.plot(sma_20, (alpha = 0.6), (label = "SMA 20"));
+plt.plot(sma_50, (alpha = 0.6), (label = "SMA 50"));
+plt.scatter(df.index, buy_price, (marker = "^"), (s = 200), (color = "darkblue"), (label = "BUY SIGNAL"));
+plt.scatter(df.index, sell_price, (marker = "v"), (s = 200), (color = "crimson"), (label = "SELL SIGNAL"));
+plt.legend((loc = "upper left"));
+plt.title("BAC SMA CROSSOVER TRADING SIGNALS");
+plt.xlabel("Date");
+plt.ylabel("Close Price USD");
+plt.show();
 ```
 
 <img src="/assets/img/2024-06-20-Noise-ResistantKalmanFilterMovingAverageKMAvsSMACrossoverAlgo-TradingStrategiesBACShowcase_5.png" />
@@ -397,7 +500,7 @@ for i in range(len(signal)):
         position.append(0)
     else:
         position.append(1)
-        
+
 for i in range(len(df['Close'])):
     if signal[i] == 1:
         position[i] = 1
@@ -407,7 +510,7 @@ for i in range(len(df['Close'])):
         position[i] = position[i-1]
 
 sma_20 = pd.DataFrame(sma_20).rename(columns = {0:'sma_20'})
-sma_50 = pd.DataFrame(sma_50).rename(columns = {0:'sma_50'}) 
+sma_50 = pd.DataFrame(sma_50).rename(columns = {0:'sma_50'})
 signal = pd.DataFrame(signal).rename(columns = {0:'sma_signal'}).set_index(df.index)
 position = pd.DataFrame(position).rename(columns = {0:'sma_position'}).set_index(df.index)
 
@@ -416,7 +519,18 @@ strategy = pd.concat(frames, join = 'inner', axis = 1)
 strategy = strategy.reset_index().drop('Date', axis = 1)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 우리 전략의 백테스팅을 수행중입니다
 
@@ -452,7 +566,18 @@ print(cl('장기 배당 수익 전략에 $100K 투자로 얻은 이익: ${}'.for
 
 - 일일 수익에 기반한 누적 수익률 계산 중
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 df['daily_return'] = df['Close'].pct_change()
@@ -467,20 +592,30 @@ print(round(수익률,2))
 수익=round(수익률,2)
 print(cl('BAC에 10만 달러를 투자하여 Buy & Hold 전략에서 얻은 수익: ${} '.format(수익), attrs = ['bold']))
 
-BAC에 10만 달러를 투자하여 Buy & Hold 전략에서 얻은 수익: $19337.52 
+BAC에 10만 달러를 투자하여 Buy & Hold 전략에서 얻은 수익: $19337.52
 ```
 
 - 결과 그래프 그리기
 
 ```js
-df['cum_return'].plot()
-plt.title('BAC Buy-Hold 누적 수익률')
+df["cum_return"].plot();
+plt.title("BAC Buy-Hold 누적 수익률");
 ```
 
 <img src="/assets/img/2024-06-20-Noise-ResistantKalmanFilterMovingAverageKMAvsSMACrossoverAlgo-TradingStrategiesBACShowcase_6.png" />
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 결론
 
@@ -496,7 +631,18 @@ BAC에 10만 달러를 투자하여 SMA 크로스오버 전략으로 얻은 이�
 
 ![이미지](/assets/img/2024-06-20-Noise-ResistantKalmanFilterMovingAverageKMAvsSMACrossoverAlgo-TradingStrategiesBACShowcase_7.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 우리는 KF가 TTI의 제한을 극복하고 algo-trading 전략의 성능을 향상시킬 수 있다는 것을 보여줬어요.
 - 비선형 시스템, 이상치 및 잡음을 효율적이고 견고하게 처리하면서 동시에 최적 부드량화와 자동 매개변수 추정이 가능한 KF 프레임워크는 모든 KF 수정사항과 이점을 함께 포함할 수 있게 해 줄 거에요.
@@ -504,8 +650,8 @@ BAC에 10만 달러를 투자하여 SMA 크로스오버 전략으로 얻은 이�
 ## 전체 Python 코드 및 입출력
 
 ```js
-import numpy as np 
-import pandas as pd 
+import numpy as np
+import pandas as pd
 import matplotlib.pyplot as plt
 import yfinance as yf
 from pandas_datareader import data as web
@@ -521,17 +667,17 @@ df=data.drop(columns=['Open', 'High','Low','Adj Close','Volume'])
 df.tail()
 
 Close
-Date 
+Date
 2024-05-24 39.700001
 2024-05-28 39.320000
 2024-05-29 38.720001
 2024-05-30 38.630001
 2024-05-31 39.990002
 
-import matplotlib.pyplot as plt 
+import matplotlib.pyplot as plt
 import requests
 import math
-from termcolor import colored as cl 
+from termcolor import colored as cl
 
 from pykalman import KalmanFilter
 
@@ -560,7 +706,7 @@ for i in range(len(signal)):
         position.append(0)
     else:
         position.append(1)
-        
+
 for i in range(len(df['Close'])):
     if signal[i] == 1:
         position[i] = 1
@@ -570,7 +716,7 @@ for i in range(len(df['Close'])):
         position[i] = position[i-1]
 
 sma_20 = pd.DataFrame(sma_20).rename(columns = {0:'sma_20'})
-sma_50 = pd.DataFrame(sma_50).rename(columns = {0:'sma_50'}) 
+sma_50 = pd.DataFrame(sma_50).rename(columns = {0:'sma_50'})
 signal = pd.DataFrame(signal).rename(columns = {0:'sma_signal'}).set_index(df.index)
 position = pd.DataFrame(position).rename(columns = {0:'sma_position'}).set_index(df.index)
 
@@ -583,7 +729,18 @@ print(cl('100K달러를 BAC에 투자하여 전략으로 얻은 이익 : ${}'.fo
 
 ## 더 알아보기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 신호/잡음 비율이 낮은 칼만 필터 기반 객체 추적
 - 칼만 필터를 사용한 대상 궤적 추적 성능 QC 분석
@@ -603,7 +760,18 @@ print(cl('100K달러를 BAC에 투자하여 전략으로 얻은 이익 : ${}'.fo
 
 ## 연락처
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 웹사이트
 - GitHub

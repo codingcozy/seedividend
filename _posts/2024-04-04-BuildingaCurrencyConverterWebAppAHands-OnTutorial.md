@@ -3,17 +3,13 @@ title: "HTML CSS JS로 환전 웹 앱 만들기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Building a Currency Converter Web App A Hands-On Tutorial"
 link: "https://medium.com/@jadhav.tejas2009/building-a-currency-converter-web-app-a-hands-on-tutorial-074ecb7e6de4"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/BuildingaCurrencyConverterWebAppAHands-OnTutorial_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 주요 기능:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 직관적인 사용자 인터페이스: 우리의 통화 변환기는 통화를 선택하기 쉽도록 드롭다운 메뉴를 제공합니다.
 - 실시간 환율: 환율은 외부 API에서 동적으로 가져와 정확성과 신뢰성을 보장합니다.
@@ -39,7 +46,18 @@ isUpdated: true
 
 결론: 통화 변환기 웹 어플리케이션을 만드는 것은 재미있는 프로젝트일 뿐만 아니라 가치 있는 학습 경험입니다. HTML, CSS 및 JavaScript를 결합하여 실제 필요에 부응하는 실용적인 도구를 만들 수 있습니다. 초보자든 경험 있는 개발자든 이 튜토리얼을 통해 자신만의 웹 어플리케이션을 만들고 배포하는 능력을 갖출 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시작할 준비가 되셨나요? 튜토리얼을 따라가면서 새롭게 얻은 웹 개발 능력으로 친구들을 감탄시키세요!
 

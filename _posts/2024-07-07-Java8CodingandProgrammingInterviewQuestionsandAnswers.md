@@ -3,16 +3,13 @@ title: "Java 8 코딩 및 프로그래밍 인터뷰 질문과 답변 모음"
 description: ""
 coverImage: "/assets/img/2024-07-07-Java8CodingandProgrammingInterviewQuestionsandAnswers_0.png"
 date: 2024-07-07 19:26
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-Java8CodingandProgrammingInterviewQuestionsandAnswers_0.png
 tag: Tech
 originalTitle: "Java 8 Coding and Programming Interview Questions and Answers"
 link: "https://medium.com/dev-genius/java-8-coding-and-programming-interview-questions-and-answers-62512c44f062"
 isUpdated: true
 ---
-
-
-
 
 ![이미지](/assets/img/2024-07-07-Java8CodingandProgrammingInterviewQuestionsandAnswers_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 - 정수 목록이 주어졌을 때 Stream 함수를 사용하여 목록에 있는 모든 짝수를 찾아내세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 import java.util.*;
@@ -36,7 +44,7 @@ public class EvenNumber{
           .forEach(System.out::println);
     }
 }
-Output: 
+Output:
 10, 8, 98, 32
 ```
 
@@ -61,7 +69,18 @@ Output:
 
 3. Java에서 Stream 함수를 사용하여 주어진 정수 목록에서 중복 요소를 찾는 방법은?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 import java.util.*;
@@ -102,7 +121,18 @@ Output:
 
 5. 정수 목록이 주어졌을 때, 스트림 함수를 사용하여 목록에 포함된 요소의 총 개수를 찾으세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 import java.util.*;
@@ -113,7 +143,7 @@ public class FindTheTotalNumberOfElements {
           List<Integer> myList = Arrays.asList(10,15,8,49,25,98,98,32,15);
           long count =  myList.stream()
                               .count();
-          System.out.println(count);                    
+          System.out.println(count);
   }
 }
 
@@ -133,7 +163,7 @@ public class FindMaxElement{
           int max =  myList.stream()
                            .max(Integer::compare)
                            .get();
-          System.out.println(max);                    
+          System.out.println(max);
   }
 }
 
@@ -143,7 +173,18 @@ Output:
 
 7. 주어진 문자열에서 Stream 함수를 사용하여 첫 번째로 반복되지 않는 문자를 찾으시오.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 import java.util.*;
@@ -154,16 +195,16 @@ public class FirstNonRepeated {
     public static void main(String args[]) {
         String input = "Java articles are Awesome";
 
-        Character result = input.chars() // 문자열의 스트림        
-            .mapToObj(s -> Character.toLowerCase(Character.valueOf((char) s))) // 먼저 Character 객체로 변환한 후 소문자로         
-            .collect(Collectors.groupingBy(Function.identity(), LinkedHashMap::new, Collectors.counting())) // 문자를 카운트하여 맵에 저장 
+        Character result = input.chars() // 문자열의 스트림
+            .mapToObj(s -> Character.toLowerCase(Character.valueOf((char) s))) // 먼저 Character 객체로 변환한 후 소문자로
+            .collect(Collectors.groupingBy(Function.identity(), LinkedHashMap::new, Collectors.counting())) // 문자를 카운트하여 맵에 저장
             .entrySet()
             .stream()
             .filter(entry -> entry.getValue() == 1L)
             .map(entry -> entry.getKey())
             .findFirst()
             .get();
-        System.out.println(result);                    
+        System.out.println(result);
     }
 }
 
@@ -182,16 +223,16 @@ public class FirstRepeated {
     public static void main(String args[]) {
         String input = "Java Articles are Awesome";
 
-        Character result = input.chars() // 문자열의 스트림        
-            .mapToObj(s -> Character.toLowerCase(Character.valueOf((char) s))) // 먼저 Character 객체로 변환한 후 소문자로         
-            .collect(Collectors.groupingBy(Function.identity(), LinkedHashMap::new, Collectors.counting())) // 문자를 카운트하여 맵에 저장 
+        Character result = input.chars() // 문자열의 스트림
+            .mapToObj(s -> Character.toLowerCase(Character.valueOf((char) s))) // 먼저 Character 객체로 변환한 후 소문자로
+            .collect(Collectors.groupingBy(Function.identity(), LinkedHashMap::new, Collectors.counting())) // 문자를 카운트하여 맵에 저장
             .entrySet()
             .stream()
             .filter(entry -> entry.getValue() > 1L)
             .map(entry -> entry.getKey())
             .findFirst()
             .get();
-        System.out.println(result);                    
+        System.out.println(result);
     }
 }
 
@@ -201,7 +242,18 @@ a
 
 9. 정수 목록이 주어졌을 때, Stream 함수를 사용하여 모든 값들을 정렬하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 import java.util.*;
@@ -258,7 +310,16 @@ Output:
 
 11. 정수 배열 nums가 주어지면, 배열에서 어떤 값이 두 번 이상 나타나는 경우 true를 반환하고 모든 요소가 서로 다른 경우 false를 반환하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 public boolean containsDuplicate(int[] nums) {
     List<Integer> list = Arrays.stream(nums)
@@ -267,7 +328,7 @@ public boolean containsDuplicate(int[] nums) {
     Set<Integer> set = new HashSet<>(list);
     if (set.size() == list.size()) {
         return false;
-    } 
+    }
     return true;
 }
 
@@ -292,7 +353,16 @@ class Java8 {
 
 13. 두 개의 스트림을 연결(concatenate)하는 Java 8 프로그램을 작성해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 import java.util.Arrays;
 import java.util.List;
@@ -305,11 +375,11 @@ public class Java8 {
         List<String> list2 = Arrays.asList("explained", "through", "programs");
 
         Stream<String> concatStream = Stream.concat(list1.stream(), list2.stream());
-         
+
         // List1과 List2를 Stream으로 변환한 후 연결했습니다.
- 
+
         concatStream.forEach(str -&gt; System.out.print(str + " "));
-         
+
         // 연결된 Stream을 출력했습니다.
     }
 }
@@ -326,7 +396,7 @@ public class Main {
                   .filter(i -> i > 50)
                   .forEach(System.out::println);
     }
-}  
+}
 
 Output:
 64
@@ -336,7 +406,16 @@ Output:
 
 15. 배열을 정렬한 다음 정렬된 배열을 Stream으로 변환하는 Java 8 프로그램을 작성하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 import java.util.Arrays;
 
@@ -346,7 +425,7 @@ public class Java8 {
         int arr[] = { 99, 55, 203, 99, 4, 91 };
         Arrays.parallelSort(arr);
         // Sorted the Array using parallelSort()
-        
+
         Arrays.stream(arr).forEach(n -> System.out.print(n + " "));
         /* Converted it into Stream and then
            printed using forEach */
@@ -373,7 +452,16 @@ AA, BB, CC, DD
 
 17. 중복된 키를 고려하여 List의 객체를 Map으로 변환하고 정렬된 순서로 저장하는 방법은 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 public class TestNotes {
 
@@ -393,7 +481,7 @@ public class TestNotes {
                         .reversed())
                 .collect(Collectors.toMap(Notes::getTagName, Notes::getTagId,
                         (oldValue, newValue) -> oldValue, LinkedHashMap::new));
-        
+
         System.out.println("Notes : " + notesRecords);
     }
 }
@@ -420,7 +508,16 @@ Output:
 
 19. Java8에서 String ArrayList에서 중복 요소 및 해당 수를 찾는 방법?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 public class TestNotes {
 
@@ -447,7 +544,16 @@ Optional.ofNullable(noteLst)
 
 21. 배열에서 최대 요소를 찾는 프로그램을 작성해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 public static int findMaxElement(int[] arr) {
   return Arrays.stream(arr).max().getAsInt();
@@ -461,7 +567,7 @@ output: 88
 public static void findCountOfChars(String s) {
     Map<String, Long> map = Arrays.stream(s.split(""))
                                   .map(String::toLowerCase)
-                                  .collect(Collectors.groupingBy(str -> str, 
+                                  .collect(Collectors.groupingBy(str -> str,
                                   LinkedHashMap::new, Collectors.counting()));
 }
 
@@ -470,6 +576,16 @@ Output: {s=1, t=5, r=3, i=1, n=2, g=1,  =5, d=1, a=5, o=2, c=4, u=1, e=2, h=2}
 
 여기서 Java 8 코딩 면접 질문과 답변의 끝이 있습니다. 이러한 질문은 모든 Java 8 인터뷰에서 매우 흔하기 때문에 해당 프로그램을 저장하고 연습하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기사를 읽어 주셔서 감사합니다. 박수를 보내주시고 공유하고 댓글을 달아주세요. 그렇게 하면 더 많은 기사를 작성하게 될 겁니다. 소중한 제안을 공유해 주시고 솔직한 피드백을 감사히 받겠습니다!!!
+```

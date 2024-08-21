@@ -3,16 +3,13 @@ title: "CodeLlama vs CodeGemma, AI 코딩 어시스턴스에 오픈 모델 활�
 description: ""
 coverImage: "/assets/img/2024-05-17-CodeLlamavsCodeGemmaUsingOpenModelsforAICodingAssistance_0.png"
 date: 2024-05-17 20:44
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-17-CodeLlamavsCodeGemmaUsingOpenModelsforAICodingAssistance_0.png
 tag: Tech
 originalTitle: "CodeLlama vs. CodeGemma: Using Open Models for AI Coding Assistance"
 link: "https://medium.com/towards-data-science/codellama-vs-codegemma-using-open-models-for-ai-coding-assistance-da446c9157b8"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-05-17-CodeLlamavsCodeGemmaUsingOpenModelsforAICodingAssistance_0.png" />
 
@@ -22,7 +19,18 @@ AI 코딩 도구 시장은 수십억 달러의 산업입니다. 2030년까지 17
 
 ## 1. 모델들
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 본문 작성 시점에서 코딩 목적으로 두 가지 주요 오픈 모델이 무료로 다운로드할 수 있으며 사용할 수 있습니다:
 
@@ -33,7 +41,18 @@ AI 코딩 도구 시장은 수십억 달러의 산업입니다. 2030년까지 17
 
 두 모델을 테스트하기 위해 Google Colab 인스턴스를 무료로 사용할 것입니다. 먼저, 모델과 토크나이저를 로드해보겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 from transformers import AutoTokenizer, AutoModelForCausalLM, BitsAndBytesConfig
@@ -72,7 +91,18 @@ class Writer:
 """
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모델의 코딩 능력을 테스트하기 위해, 두 모델에게 "pytest"를 만들도록 요청해보겠습니다:
 
@@ -108,7 +138,18 @@ class TestWriter:
         os.remove(filename)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CodeGemma이 이 코드를 생성했고, 프로세스에는 16초가 걸렸어요:
 
@@ -133,8 +174,18 @@ def test_write_file():
 
 첫눈에는 두 코드 조각이 모두 올바르게 보여요. pytest -v file.py 명령을 실행하여 코드를 실행해 보겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-05-17-CodeLlamavsCodeGemmaUsingOpenModelsforAICodingAssistance_1.png" />
 
@@ -147,7 +198,18 @@ model_id = "google/codegemma-2b"
 model = AutoModelForCausalLM.from_pretrained(model_id, ...)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 코드 완성을 위해 훈련된 모델입니다. 영어 설명이 없어도 되며, 소스 코드만 제공하면 됩니다:
 
@@ -168,7 +230,18 @@ prompt = f"""
 <|fim_prefix|>{python_code}
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 볼 수 있듯이 해당 코드는 "그대로 사용"되지 않을 것입니다. 하지만 논리는 올바른 것으로 보입니다. 필요한 수정은 assert 라인을 올바르게 포맷하는 것입니다:
 
@@ -180,7 +253,18 @@ assert lines == ["Hello\n", "World\n"]
 
 ## 2. 람마 서버 실행
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 파이썬에서 모델을 테스트했고, 이제 로컬 OpenAI 호환 서버를 실행해볼 차례입니다. 이를 위해 Llama-cpp-python을 사용할 거예요. 이 프로젝트는 멋지고 가벼워요. 한 줄의 명령어로 우리가 원하는 어떤 모델이든 실행할 수 있어요:
 
@@ -199,7 +283,18 @@ python3 -m llama_cpp.server --model codellama-13b-instruct.Q4_K_M.gguf --n_ctx 8
 
 ## 3. 앱들
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금은 로컬 OpenAI 호환 서버가 있으며 몇 가지 앱을 테스트할 준비가 되어 있습니다!
 
@@ -213,7 +308,18 @@ nvm install v20.13.0
 npm install -g @builder.io/ai-shell
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앱을 실행하기 전에 API 엔드포인트를 구성해야 합니다:
 
@@ -226,7 +332,18 @@ ai config set OPENAI_API_ENDPOINT=http://127.0.0.1:8000/v1
 
 ![대화 모델](https://miro.medium.com/v2/resize:fit:1400/1*9zJpuyFx_-HW4AZ4b9ZH8A.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로그램을 사용하는 또 다른 방법은 실행하려는 명령어를 입력하는 것입니다. 예를 들어, "현재 폴더에 있는 파일 표시"와 같은 내용을 입력할 수 있어요:
 
@@ -236,7 +353,18 @@ ai config set OPENAI_API_ENDPOINT=http://127.0.0.1:8000/v1
 
 이 문제는 아마도 프롬프트를 조정하여 해결할 수 있겠죠. 그러나 이 텍스트를 작성할 때에는 프롬프트가 TypeScript 소스에 하드코딩되어 있어 쉽게 구성할 수 없었어요. 아직까지 GitHub에서 제 기능 제안에 응답한 사람이 없지만, 향후 개선될 것을 희망해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3.2 ShellGPT
 
@@ -248,7 +376,18 @@ pip3 install shell-gpt
 
 로컬 모델과 함께 ShellGPT를 사용하려면 ~/.config/shell_gpt/.sgptrc 파일에서 API 엔드포인트를 변경해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 API_BASE_URL=http://127.0.0.1:8000/v1
@@ -263,7 +402,18 @@ sgpt "로컬 파일을 표시하는 명령어를 작성해주세요"
 
 안타깝게도, CodeGemma 모델은 ShellGPT에서 작동하지 않았고, LlamaCpp 서버는 Server 500 오류를 반환했어요: '시스템 역할이 지원되지 않음'. 처음에는 LlamaCpp 문제인 줄 알았지만 로그를 확인한 후에는 모델 메타데이터에 이런 라인이 있는 것을 보았어요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 { if messages[0]['role'] == 'system' }
@@ -276,15 +426,37 @@ sgpt "로컬 파일을 표시하는 명령어를 작성해주세요"
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1400/1*N6gwsFM7ZNt7OW2sZcaNZg.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 터미널 셸에서 '—shell' 접두어를 지정하여 명령을 직접 실행하는 기능이 편리합니다.
 
 ![image](https://miro.medium.com/v2/resize:fit:1400/1*xTTNTI0Ykh8NGuqkIpwLVg.gif)
 
-더 개선할 공간이 있습니다. 예를 들어, "문서 폴더의 크기 표시하기" 프롬프트에 대한 du -sh ~/Documents 응답이 반환됩니다. 이것은 올바른 bash 명령어입니다. 그러나 ShellGPT는  문자열에서 해당 명령을 가져오지 못했고 "명령을 찾을 수 없음" 오류만 받았습니다.
+더 개선할 공간이 있습니다. 예를 들어, "문서 폴더의 크기 표시하기" 프롬프트에 대한 du -sh ~/Documents 응답이 반환됩니다. 이것은 올바른 bash 명령어입니다. 그러나 ShellGPT는 문자열에서 해당 명령을 가져오지 못했고 "명령을 찾을 수 없음" 오류만 받았습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 bash 명령어를 사용하는 것도 유용하지만, 실제 코딩 지원은 어떨까요? 오픈소스 CodeGPT 플러그인을 통해 이를 할 수 있어요. 먼저, PyCharm IDE에 플러그인을 설치하고 LlamaCpp와 함께 사용할 수 있도록 설정했어요:
 
@@ -304,7 +476,18 @@ class ServerConnection:
         self.reconnect_threshold_sec = 64
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 모델에게 변수를 따로 Python 데이터 클래스로 리팩터링하도록 요청할 것입니다.
 
@@ -314,7 +497,18 @@ class ServerConnection:
 
 다음 단계로, 더 복잡한 내용을 요청하고 텍스트 필드와 버튼 프롬프트가 있는 UI Python 애플리케이션을 만들어보았습니다. Llama 13B 모델이 이 코드를 생성했습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 import tkinter as tk
@@ -334,15 +528,26 @@ button.pack()
 
 # 메인 루프 시작
 root.mainloop()
-``` 
+```
 
-코드는 올바르지만, 애플리케이션 창이 보이지 않았습니다. 크기가 지정되지 않았습니다. 나는 모델에게 제목을 "Hello World"로 변경하고 창 크기를 320x200으로 설정하도록 요청했습니다: 
+코드는 올바르지만, 애플리케이션 창이 보이지 않았습니다. 크기가 지정되지 않았습니다. 나는 모델에게 제목을 "Hello World"로 변경하고 창 크기를 320x200으로 설정하도록 요청했습니다:
 
 <img src="/assets/img/2024-05-17-CodeLlamavsCodeGemmaUsingOpenModelsforAICodingAssistance_4.png" />
 
 결과가 적절하게 나와 요청한 애플리케이션이 예상대로 작동했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![CodeLlamavsCodeGemmaUsingOpenModelsforAICodingAssistance_5](/assets/img/2024-05-17-CodeLlamavsCodeGemmaUsingOpenModelsforAICodingAssistance_5.png)
 
@@ -373,7 +578,18 @@ if __name__ == "__main__":
 
 하지만 일반적으로 말하자면, 모델이 정확한 클래스를 생성했으며 조금의 복사 붙여넣기로 작업을 완료하는 것이 쉬웠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 4. 단점
 
@@ -381,11 +597,22 @@ if __name__ == "__main__":
 
 - 로컬 LLM 인스턴스를 사용하려면 좋은 그래픽 카드가 필요합니다. 저는 2.5년 전에 구매한 8GB GPU RAM을 갖춘 GeForce RTX 3060 카드를 사용하고 있습니다. Colab 테스트에서는 8 GB가 7B 모델을 실행하는 데 충분하다는 것을 확인했지만, 실제 데스크탑에서는 그 용량이 부족했습니다. OS 자체도 일부 GPU를 필요로 하기 때문입니다. 실제로 13B 모델을 실행하려면 적어도 16 GB의 GPU RAM이 필요하며, 미래 개선을 위한 여유 공간으로 24 GB가 필요합니다. 현실적으로 고려할만 한가요? 현재 GPU 가격을 고려할 때, 1000-1500달러에는 AI 구독을 여러 년간 할 수 있습니다.
 - 오픈 소스 앱은 완벽하지 않습니다. 제 테스트에서 LlamaCpp 서버는 때로 "segmentation fault"와 함께 충돌하고, CodeGPT 앱은 때로는 모델에 요청을 전송하지 않았고, PyCharm을 재시작해야 했고 등등 발생했습니다. 이것은 오픈 소스이며 어떤 종류의 보장도 없으므로 불평할 것이 아니지만, 이러한 AI 도구들에 대해서는 아직 "초기 채택" 단계에 있다는 것을 인정해야 합니다.
-- 또한 대형 로컬 언어 모델 실행은 에너지를 많이 소비하는 작업입니다. 마지막 테스트로 내 데스크톱 PC에 전력계를 연결했습니다. 평상시에는 약 80 와트를 소비하는 것으로 나타났습니다. 하지만 LLM 요청이 실행될 때는 에너지 소비량이 거의 3배 증가합니다: 
+- 또한 대형 로컬 언어 모델 실행은 에너지를 많이 소비하는 작업입니다. 마지막 테스트로 내 데스크톱 PC에 전력계를 연결했습니다. 평상시에는 약 80 와트를 소비하는 것으로 나타났습니다. 하지만 LLM 요청이 실행될 때는 에너지 소비량이 거의 3배 증가합니다:
 
 ![이미지](/assets/img/2024-05-17-CodeLlamavsCodeGemmaUsingOpenModelsforAICodingAssistance_6.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 결론
 
@@ -397,7 +624,18 @@ if __name__ == "__main__":
 
 일반적으로 일상적인 코딩 작업에 로컬 LLM을 사용하는 것은 가능하지만, 소프트웨어와 하드웨어 모두에서 여전히 많은 도전 과제가 있음을 알 수 있습니다. 더 나은 AI 칩 및 효율적인 모델을 위해 노력하고 있는 다른 기업들이 있음도 알고 있습니다. Microsoft의 Phi-3와 같은 새로운 모델은 이제 모바일 하드웨어에서도 작동할 수 있습니다. 그것이 AI 산업을 어떻게 바꿀지 어떻게 알 수 있을까요? 다음 세대의 통합 그래픽 카드는 저렴하고 조용하며 CUDA 호환될 것인가요? 아직 모릅니다. 분명히 새로운 AI 관련 하드웨어가 발표될 것이며 (M4가 이미 첫 번째였습니다), 적어도 오픈 사용을 위한 드라이버 없이 독점적인 새 하드웨어가 되지 않기를 희망합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 읽어 주셔서 감사합니다. 이야기가 마음에 드셨다면 Medium에 구독해보세요. 그러면 새 기사가 발행될 때 알림을 받을 수 있을 뿐만 아니라 수천 편의 다른 작가들의 이야기에도 완전한 접속 권한을 얻을 수 있습니다. 또한 LinkedIn을 통해 연락하실 수도 있습니다. 거기에서는 전체 기사로 충분치 않은 작은 포스트를 주기적으로 발행하고 있습니다. 이번 포스트와 다른 포스트의 전체 소스 코드를 원하신다면 Patreon 페이지를 방문해보세요.
 

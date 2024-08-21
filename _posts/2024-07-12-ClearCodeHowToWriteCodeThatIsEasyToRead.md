@@ -3,16 +3,13 @@ title: "읽기 쉬운 코드를 작성하는 방법 10가지"
 description: ""
 coverImage: "/assets/img/2024-07-12-ClearCodeHowToWriteCodeThatIsEasyToRead_0.png"
 date: 2024-07-12 21:30
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-12-ClearCodeHowToWriteCodeThatIsEasyToRead_0.png
 tag: Tech
 originalTitle: "Clear Code: How To Write Code That Is Easy To Read"
 link: "https://medium.com/didact-publication/clear-code-how-to-write-code-that-is-easy-to-read-fc8f12820592"
 isUpdated: true
 ---
-
-
-
 
 이 기사는 나의 구현(코드)을 기억하지 못하는 것에 대처하는 방법에 대해 트윗한 후속 기사입니다. 당신에게는 재미있을 수도 있지만, 사실 글을 쓰고 나면 금방 내가 무엇을 썼는지 잊어버리곤 합니다.
 
@@ -26,7 +23,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-07-12-ClearCodeHowToWriteCodeThatIsEasyToRead_0.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 효율성은 더 적은 키 입력으로 오는 걸까요?
 
@@ -36,7 +44,18 @@ isUpdated: true
 
 만약 다음 사항들이 사실이라면, 이 논리는 옳을 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 저나 다른 사람이 과거에 작성한 내용을 다시 읽거나 수정할 필요가 없게 되었어요.
 - 함수를 읽을 때 변수 또는 여러 변수가 무엇인지 자주 까먹지 않았어요.
@@ -49,7 +68,18 @@ isUpdated: true
 
 이제 코드를 더 쉽게 읽을 수 있게 하기 위해 제가 하는 방법을 공유할게요. 제가 사용하는 코드 예제는 코틀린으로 되어 있지만, 제가 전하는 내용은 대부분의 플랫폼과 언어에 적용될 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 클래스, 변수 및 함수의 명명 방법
 
@@ -62,7 +92,18 @@ isUpdated: true
 
 마침내, 프로그래머가 이름을 지정하는 모든 것들을 포함합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 이름은 얼마나 구체적이어야 하는가
 
@@ -72,7 +113,18 @@ isUpdated: true
 
 소프트웨어 개체의 문맥(주변 모든 것), 특히 함수 및 변수 등의 수준에서의 문맥은 중요합니다. 어떤 것은 문맥에 따라 더 많거나 더 적은 세부 정보가 필요할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 세 가지 예시를 살펴보겠습니다:
 
@@ -84,7 +136,18 @@ isUpdated: true
 
 이 맥락에서, 저는 절대적으로 예시 3과 같은 방법을 사용합니다. 이는 예시 1이 프로젝트 요구사항에 매우 모호하기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다른 옵션으로는 예시 2에서의 매개변수 이름을 iso8601Date와 같은 것으로 바꾸는 것이 있을 수 있습니다. 코드베이스 내에서 일관된 방식을 유지하는 것이 좋지만, 당신에게 맞는 방법을 실험해 보는 것도 자유롭게 해보세요.
 
@@ -94,7 +157,18 @@ isUpdated: true
 
 ## 하는 일이 많으면 이름지어주기가 더 어렵다
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어떤 것의 이름을 짓는 데 어려움을 겪고 있다면, 대부분의 경우에는 개념적으로 관련이 없는 너무 많은 작업을 수행하기 때문입니다.
 
@@ -104,7 +178,18 @@ isUpdated: true
 
 이 과정은 다양한 관점에서 수행될 수 있으며, 저는 예를 통해 설명해보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우선, 네 개의 소프트웨어 개체를 고려해 봅시다:
 
@@ -117,7 +202,18 @@ isUpdated: true
 
 그러나 GUI 프로그램을 설계할 때 반드시 염두에 둬야 할 또 다른 관점이 있습니다. 모든 GUI 프로그램은 세 가지 주요 계층으로 세분화할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 사용자 인터페이스 (일반적으로 “뷰”라고 함)
 - 논리 (주로 컨트롤러 및 프레젠터와 같은 요소들을 의미함)
@@ -129,7 +225,18 @@ isUpdated: true
 
 # 헬퍼 함수 사용 방법
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도움 함수들은 좋은 함수 명명 관행과 결합될 때 코드의 가독성을 크게 향상시킬 수 있습니다. 도움 함수는 또한 소프트웨어 아키텍처의 핵심 원칙인 관심사 분리를 적용하는 기회이기도 합니다.
 
@@ -139,7 +246,18 @@ isUpdated: true
 
 과거에는 그래프 데이터 구조와 알고리즘을 사용하는 수도쿠 빌더라는 프로그램의 크고 통일된 부분에서 일했습니다. 수도쿠나 그래프 DSA에 익숙하지 않더라도, 제가 전달하려는 주요 요점을 이해하실 수 있다고 믿습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기에서 전체 소스 코드를 찾을 수 있어요.
 
@@ -153,7 +271,18 @@ isUpdated: true
 
 나는 퍼즐을 생성하는 데 사용하는 함수에서 이러한 단계들을 나타내기 위해 빌더 패턴과 유사한 것을 사용했어요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```kotlin
 내부 fun buildNewSudoku(
@@ -215,7 +344,18 @@ isUpdated: true
 //...
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 프로세스를 요약하자면, 도우미 함수는 두 가지 이점을 제공합니다:
 
@@ -226,7 +366,18 @@ isUpdated: true
 
 # 코드 주석 사용 방법
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코드 주석에 대한 내 개인적인 취향은 기본적으로 두 가지 용도가 있다고 생각해요. 첫 번째는 복잡한 함수를 작성하기 전에 하는 일이에요.
 
@@ -236,7 +387,18 @@ isUpdated: true
 
 어떤 함수를 작성하기 어렵다고 예상되는 경우, 함수가 하는 일을 간단한 언어나 의사 코드를 사용해 설명할 거에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것을 하는 방법은 몇 년 동안 변해왔으며, 당신에게 맞는 방법을 찾도록 장려합니다.
 
@@ -282,7 +444,18 @@ internal fun buildNodes(n: Int, difficulty: Difficulty): SudokuPuzzle {
 
 이러한 주석에 추가하는 세부 정보는 맥락에 따라 다릅니다. 팀에서 작업하는 경우, 위에 표시된 것보다 훨씬 짧게 유지하려고 할 것입니다. 단 필요한 부분만 포함할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 예는 타인과 공유하고 싶었던 개인 학습 프로젝트였기 때문에 수도쿠 퍼즐을 표현하는 데 사용된 유형에 대한 의사 결정 방식까지 포함했습니다.
 
@@ -306,12 +479,23 @@ internal fun buildNodes(n: Int, difficulty: Difficulty): SudokuPuzzle {
     fun `On bind User anonymous`() = runBlocking {
 
         //...
-    } 
+    }
 ```
 
 이렇게 하면 구현하기 전에 고차원의 추상화 수준에서 유닛을 설계할 수 있습니다. 더 높은 수준에서 설계하는 데 투자하는 시간은 장기적으로 시간을 절약할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 인라인 코드 주석을 효과적으로 사용하는 방법
 
@@ -322,7 +506,18 @@ internal fun buildNodes(n: Int, difficulty: Difficulty): SudokuPuzzle {
 
 지금까지 제 프로그램에서 가장 복잡한 수도쿠 알고리즘은 해결 알고리즘이었습니다. 실제로 그 알고리즘이 너무 길기 때문에 여기에는 조각만을 게시하겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```kotlin
 내가 이 방대한 알고리즘을 읽는 중간에 이 변수들 중 어떤 것이든 자주 까먹기 때문에 필요했어요.
@@ -332,17 +527,39 @@ internal fun buildNodes(n: Int, difficulty: Difficulty): SudokuPuzzle {
 예를 들어, 유명한 Java Calendar API는 월에 대해 0을 기준으로 색인을 사용합니다. 이것은 1월을 나타내는 표준이 있다는 것을 제가 아는 한 사용되는 예가 없기 때문에 아마도 굉장히 어리석은 것이라고 볼 수 있어요.
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 공개할 수 없는 코드가 명의권이 있는 것으로, 죄송합니다. 현재 팀의 코드베이스에는 여기저기 무작위 - 1 문장을 설명하는 주석이 있습니다.
- 
+
 # 열거형 및 사전 사용법
 
 이러한 종류의 코드 구조물에 대해 다른 이름들이 있을 수 있지만 저는 이 두 가지 방법에 익숙합니다. 어떤 것을 나타내기 위해 제한적인 값을 사용해야 하는 경우를 생각해보세요.
 
 예를 들어, 새로운 수도쿠 퍼즐에 포함되는 타일의 수를 제한해야 한다고 가정해보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 퍼즐의 크기 (열/행/서브그리드당 4, 9 또는 16 타일)
 - 퍼즐의 난이도 (쉬움, 보통, 어려움)
@@ -367,7 +584,18 @@ data class SudokuPuzzle(
 
 이 값들은 난이도에 기반을 두고 로직이 변경되어야 하는 여러 곳에서 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가끔은 값과 관련된 사람이 읽을 수 있는 이름이 필요하지 않을 수도 있어요. 선택한 난이도에 따라 퍼즐을 플레이할 수 있도록 다양한 해결 전략을 나타내기 위해 다른 열거형을 사용했어요:
 
@@ -402,7 +630,18 @@ internal fun determineDifficulty(
 
 값과 유형에 제한을 두고, 좋은 이름을 주는 것은 코드를 읽기 쉽게 만드는 것뿐만 아니라 잘못된 것으로부터도 보호할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 패키지, 폴더 및 디렉토리 조직화와 명명법 알아보기
 
@@ -412,7 +651,18 @@ internal fun determineDifficulty(
 
 패키지 조직에 대한 두 가지 일반적인 접근 방식이 있어요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 아키텍처 층별로 패키징
 - 기능별로 패키징
@@ -423,7 +673,18 @@ internal fun determineDifficulty(
 
 MVC를 예로 들면, 최상위 레벨의 패키지 구조는 다음과 같이 보일 것입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 모델
 - 뷰
@@ -435,7 +696,18 @@ MVC를 예로 들면, 최상위 레벨의 패키지 구조는 다음과 같이 �
 
 일반적으로 이 접근 방식은 더 구체적인 "레이어"를 추가하여 개선할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - ui
 - model
@@ -450,7 +722,18 @@ MVC를 예로 들면, 최상위 레벨의 패키지 구조는 다음과 같이 �
 
 기능별 패키징은 자체적인 결함이 있지만 일반적으로 읽기와 탐색이 쉽습니다. 다시 말하지만 패키지에 좋은 이름을 부여한다는 가정 아래에서입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "기능"이라는 용어를 설명하는 것은 어려운 일이지만, 일반적으로 사용자 또는 고객을 위한 주요 기능을 정의하는 화면/페이지 또는 화면/페이지 세트로 정의할 수 있습니다.
 
@@ -464,7 +747,18 @@ MVC를 예로 들면, 최상위 레벨의 패키지 구조는 다음과 같이 �
 
 feature by package의 핵심 문제는 package by layer의 반대로, 거의 항상 여러 기능에서 사용되는 소프트웨어 엔티티가 있을 것이라는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 문제에는 두 가지 해결책이 있습니다. 첫 번째는 각 기능마다 중복 코드를 넣는 것입니다.
 
@@ -474,7 +768,18 @@ feature by package의 핵심 문제는 package by layer의 반대로, 거의 항
 
 ## 하이브리드 패키지 구조 방법
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 개발자들에게 일반적으로 추천하는 해결책은 하이브리드 접근법이라고 부르는 방법입니다. 이 방법은 매우 간단하고 유연하며 대부분의 요구 사항을 충족할 것입니다:
 
@@ -494,7 +799,18 @@ feature by package의 핵심 문제는 package by layer의 반대로, 거의 항
 
 다시 말씀드립니다, 레이어를 정의하는 것이 처음부터 모호했기 때문에 규칙에 맹목적으로 따르지 마십시오. 프로젝트에 익숙하지 않은 사람에게 특히 명확한 것을 생각해보고 비판적으로 생각해 보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 마무리
 

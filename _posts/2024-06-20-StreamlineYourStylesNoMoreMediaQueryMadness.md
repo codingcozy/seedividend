@@ -3,16 +3,13 @@ title: "스타일을 간편하게 만들기 미디어 쿼리 미친듯이 사용
 description: ""
 coverImage: "/assets/img/2024-06-20-StreamlineYourStylesNoMoreMediaQueryMadness_0.png"
 date: 2024-06-20 00:53
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-StreamlineYourStylesNoMoreMediaQueryMadness_0.png
 tag: Tech
 originalTitle: "“Streamline Your Styles: No More Media Query Madness!”"
 link: "https://medium.com/@akashmm92/streamline-your-styles-no-more-media-query-madness-8d9c75fac171"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-06-20-StreamlineYourStylesNoMoreMediaQueryMadness_0.png" />
 
@@ -22,7 +19,18 @@ CSS 미디어 쿼리의 복잡한 구문에 질렸나요? 새로운 구문이 �
 
 많은 개발자들은 전통적인 미디어 쿼리가 너무 장황하다고 생각하여 자주 오해와 오류가 발생합니다. 새로운 구문은 더 간단하고 효율적인 해결책을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Min-Width 및 Max-Width와 작별 인사
 
@@ -32,7 +40,18 @@ CSS 미디어 쿼리의 복잡한 구문에 질렸나요? 새로운 구문이 �
 
 - 명확성: 새 구문은 간단하고 직관적입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 효율성: 단순함을 줄이면 빠른 개발을 이끌어냅니다.
 
@@ -42,7 +61,18 @@ CSS 미디어 쿼리의 복잡한 구문에 질렸나요? 새로운 구문이 �
 
 전통적으로는 다음과 같이 작성할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 @media(min-width: 500px){
@@ -60,7 +90,18 @@ CSS 미디어 쿼리의 복잡한 구문에 질렸나요? 새로운 구문이 �
 
 - 새로운 구문은 더 직관적인 비교 형식을 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - **min-width** 및 **max-width**를 사용하지 않아도 됩니다.
 
@@ -70,7 +111,18 @@ CSS 미디어 쿼리의 복잡한 구문에 질렸나요? 새로운 구문이 �
 
 구 방식:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 @media(max-width: 800px){
@@ -88,7 +140,18 @@ CSS 미디어 쿼리의 복잡한 구문에 질렸나요? 새로운 구문이 �
 
 두 가로 길이 사이를 테스트할 수도 있어요...
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전 방식:
 
@@ -106,7 +169,18 @@ CSS 미디어 쿼리의 복잡한 구문에 질렸나요? 새로운 구문이 �
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

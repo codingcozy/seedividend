@@ -3,17 +3,13 @@ title: "React useEffect를 올바르게 사용하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "React You are Using useEffect Wrong, Do This Instead"
 link: "https://medium.com/stackademic/why-you-should-avoid-using-useeffect-hook-in-react-and-what-to-do-instead-740660e33420"
 isUpdated: true
 ---
-
-
-
-
 
 ![React hooks](/assets/img/ReactYouareUsinguseEffectWrongDoThisInstead_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 useEffect() 훅은 두 가지 출력을 받을 수 있습니다. 첫 번째는 콜백 함수이고, 두 번째는 선택적으로 이 훅이 언제 호출되어야 하는지 정의합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
   useEffect((prevProps) => { //prevProps는 선택적이며 특정 목적에 사용됩니다. 라이프사이클 함수와 비교될 때 어떻게 작동하는지 확인하십시오.
@@ -43,7 +50,18 @@ useEffect의 작동 방식을 다시 살펴보았으니, 메모이제이션이�
 
 useEffect 훅의 주요 아이디어는 외부 API나 데이터베이스 접근, HTTP 요청 완료를 기다릴 때와 같이 데이터 전송을 동기화하는 것입니다. 그러나 이 훅을 코드 내의 가능한 모든 상황에서 사용하는 경향이 있어서 코드가 특히 Case A와 C\*에 나열된 상황에서 더럽고 코드가 길어지면서 한 가지의 상태를 변경하면 프로세스 중에 종속성 배열의 하나를 변경하면 루프를 트리거할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이렇게 코드를 너무 비효율적으로 만들 수도 있어요. useEffect는 마치 코드를 실행하다가 다른 일을 한 다음에 다시 메인 스레드로 돌아오는 것처럼 동작하기 때문에 더 효율적일 수 있어요.
 
@@ -53,7 +71,18 @@ useEffect 훅의 주요 아이디어는 외부 API나 데이터베이스 접근,
 
 약속한 해결책에 대해 이제 이야기해 볼게요. 이 두 컴포넌트(부모 및 자식)를 고려해 봅시다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // ParentComponent.js
@@ -98,7 +127,18 @@ export default ChildComponent;
 
 우리는 코드를 수정해서 Child Component로 콜백 함수를 전달하도록 하였습니다. 이 변경사항을 주목해주세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요약하자면, 여기서 제공된 통찰력은 가치 있는 지침을 제공하지만, 소프트웨어 개발은 동적인 분야임을 인식하는 것이 중요하며 해결책은 일상에 맞지 않는 경우가 있습니다. useEffect는 React의 매우 중요한 부분이지만 때로는 최선의 해결책이 아닐 수도 있습니다.
 
@@ -108,7 +148,18 @@ export default ChildComponent;
 
 오늘까지 읽어 주셔서 감사합니다. 떠나시기 전에:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 작가에게 박수를 보내고 팔로우해주세요! 👏
 - 트위터(X)가 아닌 링크드인과 유튜브에서도 팔로우해주세요.

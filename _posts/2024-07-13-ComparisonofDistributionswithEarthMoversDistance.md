@@ -3,16 +3,13 @@ title: "지구 이동 거리로 분포 비교하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-13-ComparisonofDistributionswithEarthMoversDistance_0.png"
 date: 2024-07-13 19:19
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-ComparisonofDistributionswithEarthMoversDistance_0.png
 tag: Tech
 originalTitle: "Comparison of Distributions with Earth Mover’s Distance"
 link: "https://medium.com/towards-data-science/comparison-of-distributions-with-earth-movers-distance-71f714440923"
 isUpdated: true
 ---
-
-
-
 
 이 글을 읽은 후에는 지구 이동 거리(또는 EMD 또는 Wasserstein 거리라고도 함)의 계산 방법에 대해 심층적으로 이해하게 될 것입니다. 이 지식을 통해 다양한 응용 분야에서의 장단점에 대한 좋은 아이디어를 갖게 될 것입니다.
 
@@ -24,7 +21,18 @@ isUpdated: true
 - scipy 패키지를 사용하여 EMD 계산하기
 - 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지구 이동 거리의 정의와 직감
 
@@ -34,7 +42,18 @@ isUpdated: true
 
 ![image](https://miro.medium.com/v2/resize:fit:1400/1*Bh6F9kmrunqCnnkueSEidg.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 분포를 다른 분포로 변환하기 위해 우리가 하는 움직임 집합을 '운송 계획'이라고 합니다 — 한 위치에서 물질이나 물품을 다른 위치로 운반하는 것을 상상해보세요.
 
@@ -44,7 +63,18 @@ isUpdated: true
 
 이 운송 계획은 우리에게 분포 A를 분포 B로 가장 효율적으로 변환하는 방법을 보여줍니다. 이 운송 계획의 총 작업량이 두 분포 간의 EMD입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지구 이동자 거리의 응용
 
@@ -54,7 +84,18 @@ isUpdated: true
 
 지구 이동자 거리는 또한 이미지 비교/검색에 사용됩니다. 두 이미지 사이의 픽셀 분포를 비교하여 이들의 유사성을 계산할 수 있습니다. 이 유사성을 사용하여 이미지들이 얼마나 비슷한 지 비교나 검색에 활용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 EMD는 문서를 비교하는 데 사용될 수 있습니다. 다양한 ETL 측정치 간의 분포를 비교하여 문서가 유사한지 확인할 수 있습니다. 이 애플리케이션을 사용하여 원본이어야 하는 문서가 다른 문서들과 유의한 유사성을 가지고 있는지 확인하여 표절을 식별할 수 있습니다.
 
@@ -64,7 +105,18 @@ EMD는 문서를 비교하는 데 사용될 수 있습니다. 다양한 ETL 측�
 
 EMD의 해석은 간단하고 직관적이지만, 계산은 다소 복잡합니다. 빈손에서 계산하는 것이 효과적인 학습 전략이라고 생각돼서 여기서 그렇게 할 것입니다! 이 섹션을 마치면 정확히 어떻게 Earth Mover's Distance가 계산되는지 이해하게 될 거예요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 최적화
 
@@ -74,7 +126,18 @@ EMD(지구 이동자 거리)의 정의 중 하나인 중요한 부분 중 하나
 
 <img src="/assets/img/2024-07-13-ComparisonofDistributionswithEarthMoversDistance_2.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 팩토리얼로 커지는 해결 공간 때문에 매우 작은 문제조차 가장 효율적인 운송 계획을 찾기 위한 모든 잠재적인 해결책을 살펴볼 수는 없어요. 다행히 EMD 운송 문제는 선형 프로그래밍 최적화 문제로 인코딩할 수 있어요. 선형 프로그래밍이 사용하는 '트릭' 덕분에 모든 잠재적인 해결책을 탐색하지 않고도 전역 최적해를 찾을 수 있어요.
 
@@ -84,7 +147,18 @@ EMD(지구 이동자 거리)의 정의 중 하나인 중요한 부분 중 하나
 
 <img src="/assets/img/2024-07-13-ComparisonofDistributionswithEarthMoversDistance_3.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제약 사항:
 
@@ -94,7 +168,18 @@ EMD(지구 이동자 거리)의 정의 중 하나인 중요한 부분 중 하나
 
 ![Constraint 3](/assets/img/2024-07-13-ComparisonofDistributionswithEarthMoversDistance_6.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 최적화 구성 요소를 자세히 살펴봐요. 최적화 구성 요소를 살펴보면서, 예시로 두 개의 간단한 분포를 사용할 거에요. 이 분포들은 각각 3개의 관측값을 가지고 있어요: 분포 A = [1, 2, 3] 그리고 분포 B = [5, 6, 7].
 
@@ -104,8 +189,18 @@ EMD(지구 이동자 거리)의 정의 중 하나인 중요한 부분 중 하나
 
 이전 섹션에서 긴 형식의 전송 계획을 보여줬어요. 선형 프로그래밍 최적화를 위해, 해당 전송 계획을 분포 A 값을 열로, 분포 B 값을 행으로 가지는 행렬로 이동할 거예요. 최적화 과정은 최적의 전송 계획을 생성해내요. 전송 계획은 두 분포 간의 관측값 조합마다 값을 가지고 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-13-ComparisonofDistributionswithEarthMoversDistance_7.png)
 
@@ -115,8 +210,18 @@ Cost matrix인 dᵢⱼ는 이동 계획의 각 셀에 관련된 작업량을 매
 
 최적화 함수는 이동 계획과 비용 행렬의 내적을 취하여 특정 이동 계획에 대한 총 작업량을 계산합니다. 최적화 프로세스는 작업을 최소화하는 이동 계획을 찾습니다. 이 최소 작업량이 지구 이동자 거리입니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 운송 계획이 포함된 상태에서 해당 비용 행렬을 통해 총 작업량이 어떻게 계산되는지 살펴봅시다.
 
@@ -124,11 +229,22 @@ Cost matrix인 dᵢⱼ는 이동 계획의 각 셀에 관련된 작업량을 매
 
 위의 행렬에 대한 점곱은 다음과 같이 계산됩니다:
 
-총 작업량 = (0*4) + (1*5) + (0*6) + (1*3) + (0*4) + (0*5) + (0*2) + (0*3) + (1*4)
+총 작업량 = (0*4) + (1*5) + (0*6) + (1*3) + (0*4) + (0*5) + (0*2) + (0*3) + (1\*4)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-총 작업량 = (1*5) + (1*3) + (1*4) = 12
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+총 작업량 = (1*5) + (1*3) + (1\*4) = 12
 
 우리의 목적 함수는 운송 계획과 비용 행렬의 내적을 최소화하려는 것입니다.
 
@@ -136,7 +252,18 @@ Cost matrix인 dᵢⱼ는 이동 계획의 각 셀에 관련된 작업량을 매
 
 규칙은 조금 복잡해 보일 수 있지만 실제로는 매우 직관적입니다. 첫 번째 규칙은 각 관찰이 운송 계획에 포함되도록 하는 것입니다. 즉, 이 규칙은 첫 번째 분포의 각 관찰이 두 번째 분포로 딱 한 번 이동되도록 합니다. 두 번째 규칙은 최종 '변환된' 분포가 두 번째 분포와 일치하도록 하는 것을 보장합니다. 마지막 규칙은 최적화가 음의 수량을 이동하려고 시도하지 않도록 하여 이치에 맞지 않게 하는 것을 방지합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 세 가지의 무효한 운송 계획과 하나의 유효한 계획이 있습니다. 이 중 몇 가지를 살펴보고 제약 조건이 어떻게 비현실적인 운송 계획을 막는지 이해해 보겠습니다.
 
@@ -146,7 +273,18 @@ Cost matrix인 dᵢⱼ는 이동 계획의 각 셀에 관련된 작업량을 매
 
 위치 2에 있는 단위 하나가 위치 6으로 이동하는 것에는 문제가 없습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위치 3의 한 단위가 위치 7로 이동합니다. 이것은 또한 위반입니다. 왜냐하면 위치 7로 두 단위가 이동한다면 (위치 1에서의 한 단위와 위치 3에서의 한 단위), 우리가 A를 변환하는 배포는 B 배포와 같지 않습니다 (B는 위치 7에 단위 하나만 있는데 반해). 이 문제는 두 번째 제약으로 방지됩니다.
 
@@ -156,7 +294,18 @@ Cost matrix인 dᵢⱼ는 이동 계획의 각 셀에 관련된 작업량을 매
 
 관찰 수가 다른 배포
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금까지는 두 분포가 관찰치의 수가 동일한 단순한 예제만 살펴보았습니다. 이렇게 하면 사소합니다. 왜냐하면 일대일 매핑이 작동하기 때문입니다(A 분포에서 한 관찰치가 B 분포의 한 위치로 이동합니다). 그러나 이것은 특수한 경우입니다. EMD의 많은 응용에서 분포의 크기가 다를 수 있습니다. 이런 경우에는 우리가 설정한대로 최적화가 작동하지 않을 것입니다!
 
@@ -166,7 +315,18 @@ Cost matrix인 dᵢⱼ는 이동 계획의 각 셀에 관련된 작업량을 매
 
 예를 들어, [1, 1, 2, 2, 2, 3, 3, 3] 분포가 있다고 가정해 봅시다. 이를 확률 분포로 변환하기 위해, 먼저 각 고유값의 개수를 얻습니다—이 경우 [2, 3, 3] (1이 두 개, 2가 세 개, 3이 세 개 있다). 확률 밀도는 항상 하나로 합쳐집니다(이 특성 덕분에 다른 크기의 분포를 비교할 수 있습니다)—우리의 빈도 수가 하나로 합치려면, 모든 빈도수의 합으로 각 빈도를 나누기만 하면 됩니다—[2/8, 3/8, 3/8] = [0.25, 0.375, 0.375]. 이제 우리의 분포가 변환되었으니 EMD 계산에 직접 입력할 준비가 되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 확률 분포에서 원시 분포로의 변환 후에는 관측치의 위치를 잃게 됩니다. 예를 들어, 0.25가 위치 1에 해당한다는 것을 알 수 없습니다. 이것이 거리 행렬이 필요한 이유입니다. 거리 행렬은 변환되지 않으며 최적화 프로세스에서 사용할 상대적인 위치 간 거리를 보존합니다. EMD의 정의도 약간 바뀝니다. 확률 분포로의 변환으로 인해 최소 작업에서 단위당 평균 최소 작업으로 변경됩니다.
 
@@ -176,7 +336,18 @@ Cost matrix인 dᵢⱼ는 이동 계획의 각 셀에 관련된 작업량을 매
 
 EMD를 수동으로 계산하는 코드는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import numpy as np
@@ -189,11 +360,11 @@ def emd_manual(a, b):
 
     '''
         임의 크기의 두 분포가 주어졌을 때 EMD를 계산합니다
-        
+
         입력:
         a (list) : 첫 번째 분포에 대한 관측치 목록
         b (list) : 두 번째 분포에 대한 관측치 목록
-      
+
         출력:
         emd_calc (float)      : EMD 계산값
         transport_plan (dict) : transport plan의 행/열이 키이며
@@ -209,7 +380,7 @@ def emd_manual(a, b):
     prob_dist_b = b_counts / np.sum(b)
     norm_a = prob_dist_a / np.sum(prob_dist_a)
     norm_b = prob_dist_b / np.sum(prob_dist_b)
-  
+
     # 확률 분포의 크기 가져오기
     n = len(norm_a)
     m = len(norm_b)
@@ -223,21 +394,21 @@ def emd_manual(a, b):
 
     # 목적 함수 추가 (총 비용 최소화)
     emd_problem += pulp.lpSum(x[i, j] * np.abs(a[i] - b[j])
-                              for i in range(n) for j in range(m))       
+                              for i in range(n) for j in range(m))
 
     # 제약 조건 1
     for i in range(n):
         emd_problem += pulp.lpSum(x[i, j] for j in range(m)) == norm_a[i]
-    
+
     # 제약 조건 2
     for j in range(m):
         emd_problem += pulp.lpSum(x[i, j] for i in range(n)) == norm_b[j]
-    
+
     # 제약 조건 3
     for i in range(n):
       for j in range(m):
         emd_problem += x[i, j] >= 0
-  
+
     # 문제 풀이
     emd_problem.solve()
 
@@ -245,7 +416,7 @@ def emd_manual(a, b):
         print('해결책 찾음!')
     else:
         print('가능한 해결책 없음')
-    
+
     # 해결에서 emd 계산
     emd_calc = pulp.value(emd_problem.objective)
 
@@ -259,7 +430,7 @@ def emd_manual(a, b):
 
     return emd_calc, transport_plan
 
- 
+
 # 테스트 분포로 emd_manual 함수 실행
 if __name__ == "__main__":
 
@@ -287,7 +458,18 @@ if __name__ == '__main__':
     print(emd)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 함수를 사용하여 손 계산 결과가 내장 계산 결과와 동일한지 확인할 수 있습니다.
 
@@ -297,6 +479,17 @@ if __name__ == '__main__':
 
 자체적 계산은 첫 번째 분포를 두 번째로 변환하는 데 필요한 최소한의 총 이동량입니다. 최소한의 양을 찾고 있기 때문에 선형 프로그래밍을 활용하여 최적화를 수행합니다. 이를 파이썬으로 수동으로 계산할 수는 있지만 pulp 패키지를 사용하는 것은 그다지 실용적이지 않습니다. EMD는 scipy 패키지의 stats 모듈 내 wasserstein_distance 함수를 사용하여 쉽게 계산할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 깃허브 링크: [https://github.com/jaromhulet/emd_manual_calculations](https://github.com/jaromhulet/emd_manual_calculations)

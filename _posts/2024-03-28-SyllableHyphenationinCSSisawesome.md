@@ -3,17 +3,13 @@ title: "CSS에서 음절로 나누는 방법 hyphens"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Syllable Hyphenation in CSS is awesome"
 link: "https://medium.com/gitconnected/syllable-hyphenation-in-css-is-awesome-cf81e9844fd3"
 isUpdated: true
 ---
-
-
-
-
 
 ## 100% 더 좋아 보이는 텍스트를 만드는 법
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 CSS의 하이픈은 단어가 컨테이너 너비를 초과할 때 어떻게 분리되고 줄바꿈되어야 하는지 지정하는 데 사용됩니다. hyphens: auto와 같은 속성을 활용하여 자동 하이픈을 가능하게 함으로써 긴 단어가 적절한 지점에서 분리되어 불규칙한 간격을 막고 가독성을 개선할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 자동 음절 분할 활성화
 
@@ -37,7 +44,18 @@ p {
 
 # 음절 분할 사용자 정의하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자동 음절 분리 결과에 만족스럽지 않다면 사용자 정의할 수 있어요.
 
@@ -51,7 +69,18 @@ p {
 
 현재는 아무 일도 일어나지 않을 거예요, 왜냐하면 브라우저는 지금 단어를 다음 줄로 나누어야 하는지 모르기 때문이죠. 이제 사용자 정의할 수 있는 두 가지 방법이 있어요. 첫 번째 방법은 “&shy;” HTML 태그를 사용하는 것이에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <p>의사&shy;의사성갑상선기능부족증</p>
@@ -68,7 +97,18 @@ p {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 속성은 단어의 몇 글자가 다음 줄에 나타날지를 지정합니다. 이 특별한 경우에는 단어의 적어도 세 글자가 다음 줄로 나누어집니다. "auto"를 숫자로 대체하여 적어도 몇 글자가 나누어지기 전에 나타나야 하는지를 지정할 수 있습니다. 이를 통해 단어 끝에 있는 한 두 글자만 나누는 것을 피할 수 있습니다.
 
@@ -83,4 +123,15 @@ p {
 
 이는 단어 내에서 줄 바꿈 기회를 나타내는 문자를 지정합니다. 이 예제에서는 비분리 하이픈 문자(U+2011)를 사용하여 텍스트 내에서 하이픈화 기회를 나타내어야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

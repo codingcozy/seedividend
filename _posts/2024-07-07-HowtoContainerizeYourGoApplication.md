@@ -3,16 +3,13 @@ title: "Go 애플리케이션을 컨테이너화하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-07-HowtoContainerizeYourGoApplication_0.png"
 date: 2024-07-07 03:18
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-HowtoContainerizeYourGoApplication_0.png
 tag: Tech
 originalTitle: "How to Containerize Your Go Application??"
 link: "https://medium.com/@achanandhi.m/how-to-containerize-your-go-application-cecdf17faabe"
 isUpdated: true
 ---
-
-
-
 
 ![이미지](/assets/img/2024-07-07-HowtoContainerizeYourGoApplication_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 다음은 단일 스테이지 빌드가 포함된 Dockerfile입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **Dockerfile 작성 및 실행 방법**
 
@@ -42,8 +50,18 @@ docker run -d -p 8081:8080 docker-go
 
 이제 해당 이미지를 실행하여 어플리케이션을 확인할 수 있습니다. Docker를 사용해보세요! 🚀
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-07-HowtoContainerizeYourGoApplication_1.png)
 
@@ -95,7 +113,18 @@ EXPOSE 8080
 ENTRYPOINT ["/godemo"]
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 docker build -t go-web-app-multi -f Dockerfile.multi-stage .
@@ -107,12 +136,22 @@ docker run -d -p 8082:8080 go-web-app-multi
 
 와! 봐봐요, 이미지 사이즈가 398MB에서 7.5MB로 엄청나게 줄었네요. 이게 Multistage 빌드의 힘입니다. 프로덕션 환경에서 작업할 때는 도커 이미지의 사이즈가 매우 중요합니다. 도커 이미지는 중요한 역할을 하므로 Alpine과 같이 가벼운 도커 이미지를 사용하려고 노력해보세요. 👍
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-07-HowtoContainerizeYourGoApplication_2.png)
 
-내 GitHub 저장소에 코드를 업로드했어요. 간단한 "Hello World" 애플리케이션을 확인할 수 있어요. 
+내 GitHub 저장소에 코드를 업로드했어요. 간단한 "Hello World" 애플리케이션을 확인할 수 있어요.
 
 새로운 것을 배웠다고 생각해요. 내일은 개인적인 이야기로 돌아오겠어요. 즐거운 학습되세요!
 

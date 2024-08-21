@@ -3,16 +3,13 @@ title: "파이썬 오피스 마법 PDF 파일 처리에 대한 완벽한 가이�
 description: ""
 coverImage: "/assets/img/2024-06-20-PythonOfficeMagicACompleteGuidetoPDFFileProcessing_0.png"
 date: 2024-06-20 02:01
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-PythonOfficeMagicACompleteGuidetoPDFFileProcessing_0.png
 tag: Tech
 originalTitle: "Python Office Magic: A Complete Guide to PDF File Processing"
 link: "https://medium.com/gitconnected/python-office-magic-a-complete-guide-to-pdf-file-processing-70552bc49151"
 isUpdated: true
 ---
-
-
-
 
 ![Python Office Magic](/assets/img/2024-06-20-PythonOfficeMagicACompleteGuidetoPDFFileProcessing_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 # PDF 구문 분석 및 텍스트 추출
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 첫 번째로 밝혀야 할 비밀은 PDF 구문 분석 및 텍스트 추출입니다. PDF에서 유용한 정보를 추출하는 방법이 궁금했던 적이 있나요? 걱정하지 마세요, Python이 도와줄 거예요. PyPDF2, FPDF, 그리고 reportlab과 같은 놀라운 라이브러리를 사용하여 PDF 파일을 구문 분석하고 거기서 텍스트 정보를 추출할 수 있어요.
 
@@ -34,7 +42,18 @@ isUpdated: true
 
 먼저 모듈들을 설치하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 pip install PyPDF2 FPDF reportlab
@@ -46,8 +65,18 @@ pip install PyPDF2 FPDF reportlab
 
 저는 PyPDF2 (버전 3.0.1)를 설치했고, 다음 코드만이 정상적으로 실행되는 것을 확인했어요. 모두가 버전 호환성 문제에 주의해야 해요.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 import PyPDF2
@@ -56,10 +85,10 @@ import PyPDF2
 with open('example.pdf', 'rb') as file:
   # PDF 리더 객체 생성
   reader = PyPDF2.PdfReader(file)
-  
+
   # PDF 파일의 페이지 수 가져오기
   num_pages = len(reader.pages)
-  
+
   # 페이지별로 텍스트 내용 추출하고 출력
   for page_num in range(num_pages):
     page = reader.pages[page_num]
@@ -73,7 +102,18 @@ with open('example.pdf', 'rb') as file:
 
 이제 두 번째로 PDF 병합 및 분할입니다. 손에 든 여러 PDF 파일을 쉽게 병합하거나 큰 파일을 여러 작은 파일로 분할할 수 있어요. 다음 유쾌한 코드를 시도해보세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 from PyPDF2 import PdfMerger, PdfReader, PdfWriter
@@ -93,16 +133,16 @@ merger.close()
 with open('merged.pdf', 'rb') as file:
     reader = PdfReader(file)
     num_pages = len(reader.pages)
-  
+
     # 10 페이지씩 분할
     for start in range(0, num_pages, 10):
         end = min(start + 9, num_pages - 1)
         writer = PdfWriter()
-    
+
         # 지정 범위의 페이지를 새 파일에 추가
         for page_num in range(start, end + 1):
             writer.add_page(reader.pages[page_num])
-    
+
         # 분할된 파일 저장
         with open(f'part_{start+1}-{end+1}.pdf', 'wb') as output_file:
             writer.write(output_file)
@@ -122,7 +162,7 @@ from reportlab.pdfgen import canvas
 def fill_form(input_file, output_file, data):
     c = canvas.Canvas(output_file)
     c.setFont("Helvetica", 12)
-    
+
     # 입력 파일 읽고 페이지별로 처리
     reader = PdfReader(input_file)
     for page_num, page in enumerate(reader.pages, start=1):
@@ -130,10 +170,10 @@ def fill_form(input_file, output_file, data):
         page_width = float(page.mediabox.width)
         page_height = float(page.mediabox.width)
         c.setPageSize((page_width, page_height))
-        
+
         # 페이지 내용 그리기
         c.showPage()
-        
+
         # 페이지에 양식 필드가 있는지 확인
         if '/Annots' in page:
             # 모든 양식 필드 탐색
@@ -145,7 +185,7 @@ def fill_form(input_file, output_file, data):
                     if field_name in data:
                         field_value = data[field_name]
                         c.drawString(annot['/Rect'][0], annot['/Rect'][1], field_value)
-    
+
     # 채워진 데이터가 포함된 PDF 저장
     c.save()
 
@@ -153,7 +193,7 @@ def fill_form(input_file, output_file, data):
 def read_form_data(input_file):
     data = {}
     reader = PdfReader(input_file)
-    
+
     # 모든 페이지 탐색
     for page in reader.pages:
         # 양식 필드가 있는지 확인
@@ -165,20 +205,20 @@ def read_form_data(input_file):
                     field_name = annot['/T'][1:-1]  # 필드 이름 가져오기
                     field_value = annot['/V'][1:-1] if isinstance(annot['/V'], str) else ''
                     data[field_name] = field_value
-    
+
     return data
 
 # 새 PDF 양식 생성
 def create_form(output_file, data):
     c = canvas.Canvas(output_file)
     c.setFont("Helvetica", 12)
-    
+
     # 데이터를 양식에 행별로 추가
     y = 800
     for field, value in data.items():
         c.drawString(50, y, f"{field}: {value}")
         y -= 20
-    
+
     # 양식 저장
     c.save()
 
@@ -195,7 +235,18 @@ create_form('my_form.pdf', {'name': 'joe', 'age': '18'})
 print("마법 완료! 이제 PDF 양식을 쉽게 처리할 수 있어요!")
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요! 이제 여러분은 폼 처리의 위대한 마법사가 되셨습니다! 파이썬에게 이 잡다한 폼 작업을 처리하도록 맡기세요!
 
@@ -205,7 +256,18 @@ print("마법 완료! 이제 PDF 양식을 쉽게 처리할 수 있어요!")
 
 PDF 문서를 다른 형식으로 변환할 때, 이를 위해 다양한 라이브러리와 도구를 사용할 수 있습니다. 각 변환 유형에 대한 이론적 설명과 해당 샘플 코드가 다음에 나와 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## PDF를 이미지로 변환하기
 
@@ -224,7 +286,18 @@ pdf_to_image('input.pdf', 'output_image')
 
 pdf_to_image 함수를 호출하여 입력 PDF 파일을 이미지로 변환하고 JPEG 형식의 이미지 파일로 저장할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 참고: pdf2image.exceptions.PDFInfoNotInstalledError 오류 메시지가 발생한다면, 이 오류는 일반적으로 poppler-utils 종속성이 누락되었을 때 발생합니다. 이 문제를 해결하려면 다음과 같은 단계를 따르세요:
 
@@ -236,7 +309,18 @@ Windows：
 
 macOS：
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Homebrew를 통해 Poppler를 설치해보세요. 아래 명령어를 실행해보세요:
 
@@ -248,7 +332,18 @@ Ubuntu/Debian:
 
 Poppler를 설치해보세요. 아래 명령어를 실행해보세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 sudo apt-get install poppler-utils
@@ -260,7 +355,18 @@ sudo apt-get install poppler-utils
 
 PDF 파일을 HTML 형식으로 변환하려면 PyPDF2와 같은 PDF 파싱을 지원하는 라이브러리를 사용할 수 있습니다. 다음은 PDF를 HTML로 변환하는 예제 코드입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 from PyPDF2 import PdfReader
@@ -269,11 +375,11 @@ def pdf_to_html(input_file, output_file):
     with open(input_file, 'rb') as file:
         reader = PdfReader(file)
         text = ""
-        
+
         # Extract text content page by page
         for page in reader.pages:
             text += page.extract_text()
-        
+
         # Save as HTML file
         with open(output_file, 'w') as html_file:
             html_file.write(f"<html><body>{text}</body></html>")
@@ -287,7 +393,18 @@ pdf_to_html 함수를 호출하여 입력 PDF 파일을 HTML 형식으로 변환
 
 PDF를 일반 텍스트 형식으로 변환하려면 pdfminer 라이브러리를 사용할 수 있습니다. PDF 문서에서 텍스트를 추출하는 강력한 도구입니다. PDF를 일반 텍스트로 변환하는 예시 코드는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 pdfminer.six 라이브러리: 이것은 Python 3 전용으로 작성된 pdfminer 라이브러리의 새 버전입니다. PDF 구문 분석의 현대적인 구현이며 지속적인 유지 보수와 업데이트를 받습니다. pdfminer.six 라이브러리는 Python 2 및 Python 3 모두와 호환되므로 Python의 최신 버전에서 사용할 수도 있고 일부 이전 버전도 지원합니다.
 
@@ -299,7 +416,18 @@ pip install pdfminer.six
 
 샘플 코드:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 from pdfminer.high_level import extract_text_to_fp
@@ -318,8 +446,18 @@ pdf_to_text 함수를 호출하여 입력 PDF 파일을 일반 텍스트 형식�
 
 PDF를 워드 문서로 변환하려면 python-docx와 같은 서드파티 라이브러리를 사용할 수 있습니다. 이 라이브러리를 사용하여 워드 문서를 생성하고 편집할 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파이썬-docx 라이브러리에 대한 소개입니다:
 
@@ -331,7 +469,18 @@ PDF를 워드 문서로 변환하려면 python-docx와 같은 서드파티 라�
 pip install python-docx PyPDF2
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 PDF를 워드 문서로 변환하는 예제 코드입니다:
 
@@ -343,15 +492,15 @@ def pdf_to_word(input_file, output_file):
     with open(input_file, 'rb') as file:
         reader = PdfReader(file)
         text = ""
-        
+
         # 페이지별 텍스트 내용 추출
         for page in reader.pages:
             text += page.extract_text()
-        
+
         # 워드 문서 생성
         doc = Document()
         doc.add_paragraph(text)
-        
+
         # 워드 문서로 저장
         doc.save(output_file)
 
@@ -362,7 +511,18 @@ pdf_to_word 함수를 호출하여 입력 PDF 파일을 워드 문서로 변환�
 
 위의 예제 코드를 실행하기 전에 필요한 라이브러리와 종속성이 설치되어 있는지 확인해주세요. 누락된 라이브러리는 pip 명령을 사용하여 설치할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 샘플 코드를 통해 PDF 파일을 다른 형식으로 변환하는 데 도움이 될 수 있기를 바랍니다. 궁금한 점이 있으면 언제든지 질문해 주세요!
 
@@ -431,7 +591,18 @@ add_signature('document_with_watermark.pdf', 'document_with_watermark_and_signat
 print("워터마크 및 서명 마법이 완료되었습니다! 이제 PDF 파일을 더 안전하고 전문적으로 만들 수 있습니다!")
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕 안녕 안녕, 이제 PDF 워터마크와 서명의 초강력 마법사가 되었다구요! 문서들이 마법과 보호로 가득 차도록 해봅시다!
 
@@ -441,7 +612,18 @@ print("워터마크 및 서명 마법이 완료되었습니다! 이제 PDF 파�
 
 의존성 설치:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 pip install pytesseract
@@ -510,8 +692,18 @@ print("테이블 생성이 완료되었습니다! 이제 생성된 보고서 파
 
 마지막으로 OCR (Optical Character Recognition)가 있습니다. 몇 장의 스캔된 PDF 문서가 있고 이를 검색 가능하고 편집 가능한 텍스트로 변환해야 한다고 상상해보세요. Python이 이를 가능하게 해줄 수 있다는 좋은 소식이 있습니다! 이 마법 같은 주문을 함께 체험해봅시다!
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import pdf2image
@@ -536,14 +728,14 @@ def save_text_to_file(text, output_file):
 def extract_text_from_pdf(input_file, output_file):
     # PDF를 이미지로 변환
     images = pdf_to_image(input_file)
-    
+
     extracted_text = ""
-    
+
     # 각 이미지에서 텍스트 추출
     for image in images:
         text = image_to_text(image)
         extracted_text += text + "\n"
-    
+
     # 추출된 텍스트를 파일에 저장
     save_text_to_file(extracted_text, output_file)
 
@@ -559,6 +751,17 @@ print("OCR (광학 문자 인식) 매직이 완료되었습니다! 이제 스캔
 
 대단해요! 우리는 방금 Python PDF 자동화 처리의 일곱 가지 마법 중 하나를 마스터했어요! PDF 구문 분석 및 텍스트 추출, PDF 병합 및 분할, PDF 양식 처리, PDF 문서 변환, PDF 워터마킹 및 서명, PDF 보고서 생성 및 OCR(광학 문자 인식)을 포함해요. 정말 진정한 오피스 마법사가 되셨네요! 파일 처리, 보고서 생성 또는 텍스트 추출, Python이 도와드릴 준비가 되어있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 흥미로운 지식 포인트들과 재미있는 설명으로 파이썬 PDF 자동화의 세계에 매료되셨군요. 파이썬 지식에 대해 더 알고 싶다면 제 팔로우를 해주세요! 함께 파이썬의 끝없는 가능성을 탐험해봐요!

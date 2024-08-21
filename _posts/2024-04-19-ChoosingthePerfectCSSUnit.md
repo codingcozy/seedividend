@@ -3,17 +3,13 @@ title: "상황에 맞는 CSS 단위 선택하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Choosing the Perfect CSS Unit"
 link: "https://medium.com/@rehannajam2/choosing-the-perfect-css-unit-547ff651654c"
 isUpdated: true
 ---
-
-
-
-
 
 어떤 CSS 단위를 사용해야 할지 궁금했던 적이 있나요? 우리는 종종 상황에 따라 혼란스러워지며, 픽셀, em, rem 등을 선택할지 결정하기 어려울 때가 있습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 절대 단위
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 절대 단위는 부모 요소나 창 크기와 관계없이 동일한 크기를 가집니다. 이는 요소의 크기를 조절하는 절대 단위를 사용하는 모든 속성이 다른 장치에서 볼 때 동일하게 유지됨을 의미합니다. 이러한 단위들은 반응성이 중요하지 않을 때 유용합니다. 예를 들어, 화소 (px)는 화면용으로 가장 인기 있는 절대 단위이며, 센티미터, 밀리미터, 인치는 인쇄용으로 더 일반적입니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 여기에 특정 단위가 일반적으로 사용되는 몇 가지 사용 사례가 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1. 픽셀 (px):
 
@@ -49,7 +67,18 @@ p {
 
 2. 퍼센트 (%):
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 해당 속성에 대한 부모 요소 값과 관련이 있습니다
 
@@ -65,7 +94,18 @@ margin: 10%;
 
 3. rem:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이것은 루트 (예: `html` 요소)의 글꼴 크기와 관련이 있습니다.
 
@@ -81,7 +121,18 @@ font-size: 2rem;
 
 4. em:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 현재 요소의 글ꔷ 자 크기와 관계가 있어요
 
@@ -97,7 +148,18 @@ font-size: 2rem;
 
 # 원 클랩 🎉 나에게 동기 부여 한 번 더 해 주세요 </3
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 이 글을 즐겨 읽으셨다면, 박수 버튼을 눌러주세요. 제게 더 열심히 일하게 하는 원동력이 됩니다! 😊
 

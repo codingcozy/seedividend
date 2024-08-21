@@ -3,17 +3,13 @@ title: "React에서 링크를 통해 데이터 전달하기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Passing Data via Links in React A Guide to Effective Data Transfer"
 link: "https://medium.com/@hammadrao891/passing-data-via-links-in-react-a-guide-to-effective-data-transfer-1e0b030e2a12"
 isUpdated: true
 ---
-
-
-
-
 
 리액트에서 컴포넌트 간에 데이터를 전달하는 것은 일반적인 작업이며 다양한 방법으로 수행할 수 있습니다. 가장 간단한 방법 중 하나는 링크를 사용하는 것입니다. 리액트 라우터를 이용해 생성된 링크를 통해 서로 다른 컴포넌트 간을 원활하게 이동하면서 데이터를 전달할 수 있습니다. 이 글에서는 리액트 애플리케이션에서 링크를 통해 데이터를 효과적으로 전달하는 방법을 살펴보겠습니다.
 
@@ -25,7 +21,18 @@ isUpdated: true
 npm install react-router-dom
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 라우트 설정하기:
 
@@ -52,7 +59,18 @@ export default App;
 
 3. 링크를 통한 데이터 전달:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React Router에서는 `Link` 컴포넌트의 `to` prop을 사용하여 링크와 함께 데이터를 전달할 수 있어요. `to` prop은 pathname과 전달하고 싶은 데이터가 포함된 상태 객체가 될 수 있어요.
 
@@ -75,7 +93,18 @@ export default Home;
 
 링크에서 전달된 데이터에 액세스하려면 목적지 컴포넌트에서 `location` prop을 사용할 수 있어요. 데이터는 `location` prop의 `state` 객체에 사용할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import React from "react";

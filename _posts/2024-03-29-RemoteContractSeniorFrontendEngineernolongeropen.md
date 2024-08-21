@@ -3,17 +3,13 @@ title: "원격 근무 계약 전임 프론트엔드 엔지니어 마감"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Remote Contract Senior Frontend Engineer no longer open"
 link: "https://medium.com/@sensiblecode/remote-contract-senior-frontend-engineer-739fcafa153f"
 isUpdated: true
 ---
-
-
-
-
 
 6개월간의 풀타임 계약, 12개월로 연장 가능한 옵션 포함. 원격근무, 아일랜드 및 영국
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 10년 전에 우리는 ScraperWiki를 만들었습니다. 이는 웹 스크레이핑 및 데이터 정제에 중점을 둔 최초의 협력적 브라우저 코딩 환경 중 하나였습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 PDFTables.com을 운영하고 있어요. 수천 명의 사용자들을 위해 1억 페이지 이상의 PDF 파일을 깨끗한 표 데이터로 변환해 왔죠.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 # 이 역할에 대해
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희는 Cantabular 제품을 개발하는 계약 전문 프론트엔드 소프트웨어 엔지니어를 찾고 있어요.
 
@@ -46,7 +64,18 @@ isUpdated: true
 
 # 요구 사항:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - JavaScript 언어, HTML5 및 CSS3의 핵심적인 이해도가 탄탄합니다.
 - 최신 JavaScript 프레임워크, 빌드 도구 및 테스팅 방법을 5년 이상 경험했습니다.
@@ -62,7 +91,18 @@ isUpdated: true
 - 사용자 인터페이스 디자인에 대한 관심 또는 경험이 있습니다.
 - 데이터 과학, 통계 또는 머신러닝에 대한 관심 또는 경험이 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 급여 및 혜택:
 
@@ -74,7 +114,18 @@ isUpdated: true
 
 해당 구직 기회는 마감되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 jobs@sensiblecode.io 로 이메일을 보내주시고, 제목에 "scjob28"을 인용해주세요. 아래 정보를 포함해주세요.
 

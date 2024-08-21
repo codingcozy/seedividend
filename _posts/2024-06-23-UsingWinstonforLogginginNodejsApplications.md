@@ -3,16 +3,13 @@ title: "Nodejs 애플리케이션에서 Winston으로 로깅하는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-23-UsingWinstonforLogginginNodejsApplications_0.png"
 date: 2024-06-23 13:23
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-UsingWinstonforLogginginNodejsApplications_0.png
 tag: Tech
 originalTitle: "Using Winston for Logging in Node.js Applications"
 link: "https://medium.com/@bjprajapati381/using-winston-for-logging-in-node-js-applications-d15302947c28"
 isUpdated: true
 ---
-
-
-
 
 로그 기록은 모든 애플리케이션에서 중요한 부분입니다. 디버깅, 모니터링 및 코드 유지 관리에 도움이 됩니다. 유연성과 기능이 풍부한 기능으로 Node.js에서 가장 인기 있는 로깅 라이브러리 중 하나인 Winston에 대해 알아보겠습니다. 이 기사에서는 Node.js 애플리케이션에 Winston을 통합하는 방법과 그 기능을 최대한 활용하는 방법을 살펴보겠습니다.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 이 튜토리얼에서 다룰 내용은:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Node.js 프로젝트에서 Winston 설정하기.
 - 다른 로깅 레벨 구성하기.
@@ -39,7 +47,18 @@ isUpdated: true
 
 # 설정:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Node.js 프로젝트를 초기화해봅시다:
 
@@ -55,7 +74,18 @@ Winston을 설치해보세요:
 npm install express winston winston-daily-rotate-file
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 기본 설정:
 
@@ -64,19 +94,16 @@ Winston을 설정하기 위한 logger.js 파일을 만듭니다:
 ```js
 // logger.js
 
-const { createLogger, format, transports } = require('winston');
+const { createLogger, format, transports } = require("winston");
 
 const logger = createLogger({
-  level: 'info',
+  level: "info",
   format: format.combine(
     format.colorize(),
     format.timestamp(),
     format.printf(({ timestamp, level, message }) => `${timestamp} ${level}: ${message}`)
   ),
-  transports: [
-    new transports.Console(),
-    new transports.File({ filename: 'app.log' })
-  ]
+  transports: [new transports.Console(), new transports.File({ filename: "app.log" })],
 });
 
 module.exports = logger;
@@ -84,7 +111,18 @@ module.exports = logger;
 
 설명:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - createLogger: 새 로거 인스턴스를 초기화합니다.
 - format.combine: 여러 형식을 결합하는데, 여기에서는 colorize, timestamp, printf를 사용합니다.
@@ -97,7 +135,7 @@ Winston은 error, warn, info, http, verbose, debug, silly와 같은 여러 가�
 ```js
 // logger.js
 
-const { createLogger, format, transports } = require('winston');
+const { createLogger, format, transports } = require("winston");
 
 const logger = createLogger({
   levels: {
@@ -107,24 +145,32 @@ const logger = createLogger({
     http: 3,
     verbose: 4,
     debug: 5,
-    silly: 6
+    silly: 6,
   },
-  level: 'info', // 기본 로그 레벨 설정
+  level: "info", // 기본 로그 레벨 설정
   format: format.combine(
     format.colorize(),
     format.timestamp(),
     format.printf(({ timestamp, level, message }) => `${timestamp} ${level}: ${message}`)
   ),
-  transports: [
-    new transports.Console(),
-    new transports.File({ filename: 'app.log' })
-  ]
+  transports: [new transports.Console(), new transports.File({ filename: "app.log" })],
 });
 
 module.exports = logger;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 설명:
 
@@ -135,7 +181,18 @@ module.exports = logger;
 
 로그 레벨은 기록되는 메시지의 심각성을 결정합니다. Winston은 npm 스타일 로깅 레벨을 사용하며, 가장 심각한 것부터 가장 적게 심각한 것까지 우선 순위가 정해져 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - error: (0) 즉각적인 주의가 필요한 오류를 기록하는 데 사용합니다.
 - warn: (1) 잠재적인 문제를 나타내는 경고 메시지를 기록하는 데 사용합니다.
@@ -151,28 +208,36 @@ module.exports = logger;
 
 필요에 맞게 사용자 정의 로그 포맷을 만들 수 있습니다. 예를 들어, 메타데이터를 추가하거나 로그 메시지 구조를 변경할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // logger.js
 
-const { createLogger, format, transports } = require('winston');
+const { createLogger, format, transports } = require("winston");
 
 const customFormat = format.combine(
   format.colorize(),
   format.timestamp(),
   format.printf(({ timestamp, level, message, ...meta }) => {
-    return `${timestamp} ${level}: ${message} ${Object.keys(meta).length ? JSON.stringify(meta, null, 2) : ''}`;
+    return `${timestamp} ${level}: ${message} ${Object.keys(meta).length ? JSON.stringify(meta, null, 2) : ""}`;
   })
 );
 
 const logger = createLogger({
-  level: 'info',
+  level: "info",
   format: customFormat,
-  transports: [
-    new transports.Console(),
-    new transports.File({ filename: 'app.log' })
-  ]
+  transports: [new transports.Console(), new transports.File({ filename: "app.log" })],
 });
 
 module.exports = logger;
@@ -184,26 +249,37 @@ module.exports = logger;
 
 # 다중 전송으로 로깅하기:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 윈스턴은 서로 다른 파일, 외부 로깅 서비스 또는 콘솔과 같은 여러 대상에 로그를 기록할 수 있어요.
 
 ```js
 // logger.js
 
-const { createLogger, format, transports } = require('winston');
+const { createLogger, format, transports } = require("winston");
 
 const logger = createLogger({
-  level: 'info',
+  level: "info",
   format: format.combine(
     format.timestamp(),
     format.printf(({ timestamp, level, message }) => `${timestamp} ${level}: ${message}`)
   ),
   transports: [
     new transports.Console(),
-    new transports.File({ filename: 'app.log' }),
-    new transports.File({ filename: 'error.log', level: 'error' })
-  ]
+    new transports.File({ filename: "app.log" }),
+    new transports.File({ filename: "error.log", level: "error" }),
+  ],
 });
 
 module.exports = logger;
@@ -213,7 +289,18 @@ module.exports = logger;
 
 - transports.File('filename: ‘error.log’, level: ‘error’'): 에러 메시지를 별도의 파일에 기록합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 커스텀 로그 레벨 만들기:
 
@@ -222,7 +309,7 @@ module.exports = logger;
 ```js
 // logger.js
 
-const { createLogger, format, transports, config } = require('winston');
+const { createLogger, format, transports, config } = require("winston");
 
 const customLevels = {
   levels: {
@@ -230,29 +317,26 @@ const customLevels = {
     error: 1,
     warn: 2,
     info: 3,
-    debug: 4
+    debug: 4,
   },
   colors: {
-    critical: 'red',
-    error: 'red',
-    warn: 'yellow',
-    info: 'green',
-    debug: 'blue'
-  }
+    critical: "red",
+    error: "red",
+    warn: "yellow",
+    info: "green",
+    debug: "blue",
+  },
 };
 
 const logger = createLogger({
   levels: customLevels.levels,
-  level: 'info', // 기본 로그 레벨 설정
+  level: "info", // 기본 로그 레벨 설정
   format: format.combine(
     format.colorize({ all: true }),
     format.timestamp(),
     format.printf(({ timestamp, level, message }) => `${timestamp} ${level}: ${message}`)
   ),
-  transports: [
-    new transports.Console(),
-    new transports.File({ filename: 'app.log' })
-  ]
+  transports: [new transports.Console(), new transports.File({ filename: "app.log" })],
 });
 
 winston.addColors(customLevels.colors);
@@ -262,7 +346,18 @@ module.exports = logger;
 
 설명:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - customLevels: 사용자 정의 로깅 수준 및 해당하는 색상을 정의합니다.
 - winston.addColors: 로깅 수준에 사용자 정의 색상을 적용합니다.
@@ -273,7 +368,18 @@ winston-daily-rotate-file 전송을 사용하여 매일 새로운 로그 파일�
 
 winston-daily-rotate-file를 설치하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```jsx
 npm install winston-daily-rotate-file
@@ -308,7 +414,18 @@ module.exports = logger;
 설명:
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - DailyRotateFile: 지정된 날짜 패턴으로 매일 새 로그 파일을 생성합니다.
 - zippedArchive: 이전 로그 파일을 압축합니다.
@@ -321,7 +438,18 @@ Winston을 Express 애플리케이션에 통합하여 HTTP 요청과 오류에 �
 
 Express 설치하기:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm install express
@@ -332,8 +460,8 @@ Winston을 이용한 Express 서버 설정:
 ```js
 // server.js
 
-const express = require('express');
-const logger = require('./logger');
+const express = require("express");
+const logger = require("./logger");
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -344,14 +472,14 @@ app.use((req, res, next) => {
   next();
 });
 
-app.get('/', (req, res) => {
-  res.send('Hello, World!');
+app.get("/", (req, res) => {
+  res.send("Hello, World!");
 });
 
 // 에러 처리 미들웨어
 app.use((err, req, res, next) => {
   logger.error(err.message);
-  res.status(500).send('Internal Server Error');
+  res.status(500).send("Internal Server Error");
 });
 
 app.listen(PORT, () => {
@@ -361,8 +489,18 @@ app.listen(PORT, () => {
 
 설명:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - HTTP 요청 로깅: 미들웨어는 logger.http를 사용하여 수신된 모든 HTTP 요청을 로깅합니다.
 - 오류 처리 미들웨어: logger.error를 사용하여 오류를 로깅합니다.

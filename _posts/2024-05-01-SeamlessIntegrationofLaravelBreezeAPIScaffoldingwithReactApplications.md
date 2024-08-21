@@ -3,16 +3,13 @@ title: "Laravel Breeze API 스캐폴딩을 리액트 애플리케이션과 통�
 description: ""
 coverImage: "/assets/img/2024-05-01-SeamlessIntegrationofLaravelBreezeAPIScaffoldingwithReactApplications_0.png"
 date: 2024-05-01 17:28
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-01-SeamlessIntegrationofLaravelBreezeAPIScaffoldingwithReactApplications_0.png
 tag: Tech
 originalTitle: "Seamless Integration of Laravel Breeze API Scaffolding with React Applications"
 link: "https://medium.com/javascript-in-plain-english/seamless-integration-of-laravel-breeze-api-scaffolding-with-react-applications-60ed4b672bf1"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-05-01-SeamlessIntegrationofLaravelBreezeAPIScaffoldingwithReactApplications_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 본 문서에서는 Laravel Breeze API 프레임워크를 React 애플리케이션과 통합하는 복잡성에 대해 살펴보고, 두 강력한 프레임워크의 장점을 결합하는 방법을 살펴볼 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 라라벨 백엔드 설정
 
@@ -40,7 +48,18 @@ php artisan breeze:install api
 
 이 명령어를 통해 백엔드를 위한 기반을 설정하고 필수적인 인증 스캐폴딩을 통합합니다. 설치 후에는 환경 파일의 FRONTEND_URL을 localhost:3000으로 업데이트하는 것이 필요합니다. 라라벨 세일이나 php artisan serve 명령어를 사용하여 애플리케이션을 실행할 수 있습니다. 브라우저에서 localhost:8000을 방문하여 간단한 테스트를 수행하면 응답의 일부로 앱 버전이 표시될 것이며, 이는 라라벨 백엔드가 리액트 앱의 요청을 처리할 준비가 되었음을 나타냅니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## React 앱 설정
 
@@ -54,29 +73,51 @@ yarn start
 
 이를 통해 React 애플리케이션을 위한 기초를 설정하고, 더 많은 개발을 위한 견고한 기반을 마련합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Axios 구성하기
 
 React 애플리케이션에서 API 요청을 처리하기 위해 Axios를 활용합니다. 전역 Axios 클라이언트를 아래와 같이 추가해보세요:
 
 ```js
-import Axios from 'axios'
+import Axios from "axios";
 
 const axios = Axios.create({
   baseURL: process.env.REACT_APP_BACKEND_URL,
   headers: {
-    'X-Requested-With': 'XMLHttpRequest'
+    "X-Requested-With": "XMLHttpRequest",
   },
-  withCredentials: true
-})
+  withCredentials: true,
+});
 
-export default axios
+export default axios;
 ```
 
 `withCredentials`를 `true`로 설정하여 교차 사이트 쿠키 액세스를 활성화할 수 있습니다. `.env` 파일에 `REACT_APP_BACKEND_URL=localhost:8000`을 추가하고, 이는 이전에 생성한 Laravel 백엔드 애플리케이션에 해당합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 REACT_APP_BACKEND_URL=http://localhost:8000
@@ -88,7 +129,18 @@ REACT_APP_BACKEND_URL=http://localhost:8000
 
 라라벨 Breeze가 인증에 Sanctum을 활용하기 때문에 React 앱은 먼저 /sanctum/csrf-cookie 엔드포인트로 초기 요청을 보내야 합니다. 이는 인증에 중요하며, 로그인, 등록 및 비밀번호 잊어버리기와 같은 모든 비인증된 경로에서 수행되어야 합니다. 이 프로세스를 간소화하기 위해 hooks/auth.js 파일에 사용자 정의 후크를 만들어 CSRF 요청을 처리합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // auth.js
@@ -135,7 +187,18 @@ return {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기능은 로그인 API 호출을 시작하기 전 CSRF 토큰을 요청하는 프로세스를 캡슐화하여 안전하고 인증된 로그인 경험을 보장합니다.
 
@@ -145,7 +208,18 @@ Laravel Breeze를 위해 맞춤화된 사전 구성된 React 애플리케이션 
 
 ## 기능들
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1. 미리 구축된 UI 구성 요소: 라라벨 Breeze React는 Tailwind CSS를 사용하여 스타일이 적용된 로그인, 등록, 비밀번호 재설정, 대시보드 등의 미리 구축된 UI 구성 요소를 갖추고 있습니다. 이를 통해 공통 인증 관련 페이지에 대한 기반을 제공하여 개발을 가속화합니다.
 
@@ -155,7 +229,18 @@ Laravel Breeze를 위해 맞춤화된 사전 구성된 React 애플리케이션 
 
 4. 데이터 재확인을 위한 SWR: 사용자 데이터의 재확인을 용이하게 하기 위해 SWR (Stale-While-Revalidate)이 통합되어 있어, 애플리케이션이 서버 상태와 동기화되도록 보장합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 5. ESLint: 코드 품질을 유지하고 최고의 실천 방법을 준수하기 위해, Laravel Breeze React는 정적 코드 분석을 위해 ESLint를 통합하고 있습니다.
 
@@ -167,7 +252,18 @@ Laravel Breeze를 위해 맞춤화된 사전 구성된 React 애플리케이션 
 git clone https://github.com/nilanth/laravel-breeze-react
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 의존성 설치: 복제된 디렉토리로 이동하여 Yarn을 사용하여 프로젝트 의존성을 설치하세요.
 
@@ -182,7 +278,18 @@ yarn install
 VITE_APP_BACKEND_URL=http://localhost:8000
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. 애플리케이션 실행: 개발 서버를 시작하려면 `yarn start` 명령을 실행하세요.
 
@@ -194,7 +301,18 @@ yarn start
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막으로, Laravel Breeze API 뼈대와 React 애플리케이션의 원활한 통합은 개발자들이 견고하고 안전하며 확장 가능한 웹 애플리케이션을 만들 수 있도록 돕습니다. 제시된 단계를 따라가면, 개발자들은 Laravel Breeze와 React의 강점을 결합한 안전한 인증 레이어를 구축할 수 있습니다. 수동 통합을 선택하든지, Laravel Breeze React와 같은 템플릿을 활용하든지, 결과물은 백엔드 인증 메커니즘과 프론트엔드 사용자 경험이 조화롭게 어우러진 것입니다. 이 통합은 개발을 효율적으로 만들 뿐만 아니라 현대적인 웹 애플리케이션을 구축하기 위한 견고한 기반을 보장합니다.
 

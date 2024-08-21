@@ -3,16 +3,13 @@ title: "AEM에서 문자열 상수를 사용하지 말아야 하는 이유"
 description: ""
 coverImage: "/assets/img/2024-08-03-DontuseStringConstantsinAEM_0.png"
 date: 2024-08-03 18:45
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-03-DontuseStringConstantsinAEM_0.png
 tag: Tech
 originalTitle: "Dont use String Constants in AEM"
 link: "https://medium.com/@achimkoch/dont-use-string-constants-in-aem-23edc89e2cac"
 isUpdated: true
 ---
-
-
-
 
 아니요 — 제목이 클릭베이트는 아닙니다. 아마 조금 그렇긴 하지만요. 그리고 네 — 약간 논란이 될 수도 있어요. 일반적으로 널리 행해지는 관행이 그 반대라는 건 알고 있어요. 헬, 심지어 제 정적 코드 분석기도 항상 문자열 상수를 사용하라고 권유하죠...
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 그럼, 이것이 무엇에 관한 이야기일까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자바에서는 상수로 사용되는 문자열을 사용하기 전에 먼저 선언하고 정의하는 것이 좋은 관행으로 여겨집니다. AEM에서도 이 관행을 따릅니다. 간단한 예시 모델을 살펴보겠습니다. (이것은 설명을 위해 과감히 단순화되었습니다):
 
@@ -34,11 +42,11 @@ public class Teaser {
   private String FAULTY_METHOD = "The method faultyMethod() is not supposed to be called";
 
   private ValueMap valueMap;
-  
+
   public Teaser(Resource resource){
     valueMap = resource.getValueMap();
   }
-  
+
   public String getHeadline(){
     return valueMap.get(HEADLINE);
   }
@@ -57,7 +65,18 @@ public class Teaser {
 
 왜 "선언/정의 먼저" 접근 방식이 일반적으로 권장되는지 다시 살펴보겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 유지 관리성: 코드에서 문자열이 여러 번 사용될 경우, 상수로 선언하면 각 발생을 찾아 업데이트하는 대신 한 곳에서 값을 변경할 수 있습니다.
 - 가독성: 서술적인 상수 이름 사용은 코드를 더 읽기 쉽고 자명하게 만들 수 있습니다. 예를 들어, public static final String ERROR_MESSAGE = "An error has occurred"; 는 문자열 "An error has occurred"를 반복해서 사용하는 것보다 더 읽기 쉽습니다.
@@ -71,7 +90,18 @@ public class Teaser {
 
 제 주장은 이와 같은 문자열 리터럴을 사용할 때 더 간결하고 읽기 쉽게 작성할 수 있다는 것입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 public class Teaser {
@@ -105,8 +135,18 @@ public class Teaser {
 - 최적화: 동일한 값을 두 번 이상 사용하는 경우에만 해당됩니다. 또한, AEM 프로젝트에서 실행되는 사용자 지정 코드 양은 프레임워크 코드와 비교할 때 미미합니다. 최적화는 심지어 측정할 수 없을 정도입니다. 또한: AEM에서 가독성을 선호합니다. 가독성은 올바른 결과를 지원하며 결과가 정확해야 하며 마이크로초 일찍 전달된다는 것보다 더 중요합니다.
 - 마법의 문자열 피하기: "마법의 문자열"은 주로 프레임워크에서 메서드를 호출할 때 예상되는 문제점입니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // DO:
@@ -128,7 +168,18 @@ public String getLink(){
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "link"은 애매하지 않고 추측하기 어려운 매직 문자열이 아닙니다. 두 개의 코드 도메인 간 인터페이스에서 사용되지 않습니다. CRXDE이나 대화 상자 정의에서도 확인할 수 있는 속성의 이름입니다.
 
@@ -141,7 +192,18 @@ public String getLink(){
 - 간결성: 더 컴팩트하게 코딩하는 것만으로 코드를 더 읽기 쉽게 만들지는 않습니다. 하지만 완전히 중복되는 코드를 제거하면 가독성은 확실하게 향상됩니다. 더불어 이제는 클래스 정의가 스크롤하지 않고 화면 한 장으로 맞을 수도 있습니다.
 - 비교 가능성: CRXDE에서 속성 이름을 직접 비교할 수 있습니다. 감안해야 하는 코드 조각과 함께 비교할 필요도 없이 직접 비교할 수 있습니다. 이제 검색과 기억 필요 없이도 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 사용성 및 디버그 용이성 향상
 
@@ -151,7 +213,18 @@ public String getLink(){
 
 # 예외의 예외
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신은 아마 내가 주로 클래스나 모델에 있는 프로퍼티 이름들에 초점을 맞춘 것을 눈치채셨을 것입니다. 이러한 프로퍼티 이름들은 나에게는 해당 클래스나 모델의 비공개 속성으로 간주됩니다.
 
@@ -161,7 +234,18 @@ public String getLink(){
 
 구성 / 문서화: 예를 들어, 여러 정적 매개변수로 클래스를 구성할 수 있는 경우가 있다고 가정해봅시다. 프로젝트 초반에는 이러한 매개변수가 무엇인지 정확히 확신하지 못하며 최적화 단계에서 이러한 매개변수를 변경하고 싶을 수 있습니다. 또한 클래스의 중요한 특성으로써 매개변수를 문서화하고 싶을 것입니다. 이 경우 클래스 상단에 상수를 선언해서 한 곳에서 쉽게 검색하고 변경할 수 있게 만드는 것이 도움이 될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Non-Strings: 주의, 논의는 문자열에 대한 것이었습니다. 숫자나 객체에는 해당되지 않습니다. 문자열이 인간이 읽기 쉽고 자명한 경우가 많은 것이 다른 사항입니다. 이는 비문자열에는 해당되지 않습니다.
 
@@ -170,12 +254,21 @@ Non-Strings: 주의, 논의는 문자열에 대한 것이었습니다. 숫자나
 ```js
 // X가 1280보다 작아야 하는 이유는 무엇인가요? 두 번째 예시는 암시적으로 이유를 나타냅니다… 왜냐하면 이것이 지원되는 화면의 최대 크기이기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사람이 쉽게 이해할 수 없는 문자열에 대해 동일한 주장을 제기할 수 있습니다:
 
 // 바람직하지 않은 방법
-Connection connection = db.open("jdbc:mysql://localhost:3306/mydb"); 
+Connection connection = db.open("jdbc:mysql://localhost:3306/mydb");
 
 // 권장하는 방법
 private static String DATABASE_URL = "jdbc:mysql://localhost:3306/mydb";
@@ -186,8 +279,18 @@ Connection connection = db.open(DATABASE_URL);
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 “최선의 방법” 안내서를 무작정 따르지 마세요. 항상 “왜?”와 “어떤 문제를 해결하나요?”라고 물어보세요. 대안을 고려하고 교환 관계를 신중하게 균형을 맞추세요. 코딩 스타일에서 일관성을 유지하세요. 항상 같은 일을 하지 말고, 항상 같은 상황에서 같은 일을 하세요.
 
 코딩 스타일에 대한 질문은 이미 특정 스타일이 확립된 브라운필드 프로젝트에 있을 때 특히 흥미롭습니다. 여기서도 일관성과 전체 코드베이스를 고려해야 합니다.
+```

@@ -3,17 +3,13 @@ title: "성능 좋은 React 네이티브 앱을 만들기 위한 팁 5가지"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "React Native Masters-3 Tips for Building React Native Apps that Run Smoothly"
 link: "https://blog.stackademic.com/react-native-masters-tips-for-building-react-native-apps-that-run-smoothly-ec41c749e54b"
 isUpdated: true
 ---
-
-
-
-
 
 슈퍼 빠른 React Native 앱을 만드는 것은 퍼즐 맞추기와 비슷해요 — 올바른 조각들을 올바른 자리에 놓아야 해요. 이 블로그 포스트에서는 React Native 앱을 매우 잘 작동하도록 만드는 몇 가지 유용한 팁과 트릭을 공유할 거예요. 코딩 전문가이든 막 시작한 사람이든, 이 아이디어들은 앱 개발 여정을 훨씬 더 부드럽게 만들어 줄 거예요. 함께 시작해 보면서 멋진 React Native 앱을 만드는 방법을 알아볼까요?
 
@@ -24,7 +20,18 @@ isUpdated: true
 - 클래스 컴포넌트의 경우 PureComponent를 사용하여 shouldComponentUpdate 메서드를 자동으로 구현하여 props와 state를 얕은 비교하는 효과를 얻을 수 있어요.
 - 함수형 컴포넌트의 경우 React.memo 고차 컴포넌트를 사용하여 비슷한 효과를 얻을 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 클래스 컴포넌트
@@ -44,7 +51,18 @@ const MyFunctionalComponent = React.memo((props) => {
 
 - React Native은 가상 목록(FlatList와 유사한)을 제공하여 뷰포트에 있는 항목만 렌더링하여 대규모 데이터 세트의 성능을 향상시킵니다. 긴 목록의 경우 ScrollView 대신에 현재 화면에 보이는 항목만 효율적으로 렌더링하기 위해 FlatList 또는 SectionList를 사용하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 3. 이미지 최적화:
 
@@ -81,7 +99,18 @@ export default YourComponent;
 
 ## 4. 모든 것에 Redux 사용을 피하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리덕스는 리액트에서 큰 작업을 처리하는 강력한 도구 상자와 비슷해요. 하지만 모든 상황에 항상 최적의 선택은 아닙니다. 서버 상태를 관리하면서도 모든 것에 리덕스를 사용하는 것은 필요 이상으로 복잡해질 수 있어요. 불필요하게 추가 코드와 규칙을 더하면 개발이 더디어질 수 있어요. 대신, 간단한 작업에는 리액트의 useState와 Context API와 같은 기본 도구를 사용하는 것이 더 나아요. 또는 Tanstack Query와 같은 서버 상태를 관리하기 위한 간단한 대안을 사용하는 것도 좋은 방법이에요. 프로젝트의 규모와 사용하는 도구 사이의 적절한 균형을 찾으면 작업을 간단하고 효율적으로 처리할 수 있어요.
 
@@ -98,4 +127,15 @@ Hermes는 안드로이드에서 리액트 네이티브 앱을 실행하는 데 �
 - 커뮤니티 지원: Hermes는 React Native 커뮤니티에서 인기를 얻고 있으며 Facebook에 의해 적극적으로 유지보수됩니다. 이는 지속적인 업데이트, 버그 수정 및 React Native의 최신 기능에 대한 지원을 보장합니다.
 - React Native 디버깅 도구와 호환: 디버깅이 JavaScriptCore를 사용하는 것과 약간 다를 수 있지만 Hermes는 표준 디버깅 도구를 지원해요. Chrome DevTools나 React Native Debugger와 같은 도구를 사용하여 React Native 앱을 디버깅할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

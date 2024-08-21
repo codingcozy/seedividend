@@ -3,15 +3,13 @@ title: "HTML과 CSS 코드로 여행 관광 웹사이트 프로젝트 만들기"
 description: ""
 coverImage: "/assets/img/2024-07-07-TravelTourismWebsiteProjectUsingHTMLandCSSCode_0.png"
 date: 2024-07-07 21:22
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-TravelTourismWebsiteProjectUsingHTMLandCSSCode_0.png
 tag: Tech
 originalTitle: "Travel Tourism Website Project Using HTML and CSS Code"
 link: "https://medium.com/@codewithrandomartical/travel-tourism-website-project-using-html-and-css-code-c711cf0b1545"
 isUpdated: true
 ---
-
-
 
 # HTML 및 CSS 코드를 사용하여 여행/관광 웹사이트 프로젝트 만들기
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 여행 웹사이트란 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여행 웹사이트는 고객에게 여행 관련 서비스를 제공하는 비즈니스 종류입니다. 이 산업의 미래에 대해 여러 측면이 소비자가 휴가를 계획하는 방식에 영향을 미칠 것입니다. 휴대 전화 사용 증가, 더 많은 경쟁, 고객 기대 변화가 이러한 요인 중 하나입니다. 여행 웹사이트 생성자는 관광객에게 이상적인 도구입니다.
 
@@ -31,7 +40,18 @@ isUpdated: true
 
 이제 프로젝트가 무엇을 포함하는지 대략적으로 알게 되었을 것입니다. 이 프로젝트를 단계별로 살펴볼 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계1: 구조 설정하기 (HTML)
 
@@ -105,7 +125,18 @@ isUpdated: true
 
 모든 웹사이트는 헤더(header), 본문(main body), 푸터(footer) 섹션으로 구성됩니다. 이 프로젝트에서도 동일한 방식을 사용할 것입니다. 먼저 헤더 섹션에서 제목을 추가하고, 그 다음 본문 섹션에 주요 내용을 추가할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 포트폴리오 웹사이트 만들기 (소스 코드)
 
@@ -115,7 +146,18 @@ isUpdated: true
 
 헤더 섹션 내부에는 "배너"라는 다른 섹션을 추가할 것인데, 그 안에는 `h1` 태그를 사용하여 제목을 추가하고; form 태그를 사용하여 텍스트 입력 상자를 추가하겠습니다; 메뉴 목록에서 국가를 선택할 수 있는 메뉴 목록을 추가할 것이며; 달력에서 날짜를 선택할 수 있는 `date` 유형의 입력을 추가할 것이며; `a` 태그를 사용하여 예약 버튼을 추가할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 여행 웹사이트의 본문 부분
 
@@ -125,7 +167,18 @@ isUpdated: true
 
 HTML과 CSS를 사용한 레스토랑 웹사이트
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 'about' 섹션 내에서 'section' 태그를 사용하여 'About us'를 위한 또 다른 섹션을 생성할 것이며, 그 안에는 우리의 조직에 대한 디스플레이 이미지를 추가하기 위해 `img` 태그를 사용할 것입니다. 그리고 일반적인 HTML 요소를 사용하여 우리의 웹사이트에 대한 간단한 설명을 제공할 것입니다.
 
@@ -135,7 +188,18 @@ HTML과 CSS를 사용한 레스토랑 웹사이트
 
 이제 웹페이지에 구조를 추가했으니, 한번 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Travel Website](/assets/img/2024-07-07-TravelTourismWebsiteProjectUsingHTMLandCSSCode_1.png)
 
@@ -169,7 +233,18 @@ html {
 
 이런 식으로 CSS 코드를 작성하면 됩니다! 더 궁금한 점이 있다면 물어봐 주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기본 스타일링:
 
@@ -179,7 +254,18 @@ HTML, CSS 및 JavaScript를 사용한 날씨 앱 (소스 코드)
 
 내비게이션 바 스타일링:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 클래스 선택자 (.nav-bar)를 사용하여 "flex"로 디스플레이를 설정할 것입니다. 너비는 100%로 설정하고 높이는 90픽셀로 설정할 것입니다. 배경색을 백색으로 바꾸기 위해 배경색 속성을 사용하고 ul 태그 선택자를 사용하여 네비게이션 바 아이템을 스타일링할 것입니다.
 
@@ -189,7 +275,18 @@ CSS로 할 수 있는 것의 일부이지만, CSS에 대한 심도 깊은 안내
 
 배너 스타일링:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 (.banner) 선택자와 background-image 속성을 사용하여 배경 이미지를 추가할 것입니다. 너비와 높이를 각각 100% 및 100vh로 설정하고, text-align 속성을 사용하여 가운데 정렬할 것입니다. 또한 폼 요소를 스타일링할 것입니다.
 
@@ -199,7 +296,18 @@ CSS로 할 수 있는 것의 일부이지만, CSS에 대한 심도 깊은 안내
 
 기본 CSS 개념을 활용할 것입니다; 먼저 클래스 선택자를 사용하여 html 요소를 선택한 다음, 배경 이미지를 추가하고 기본 CSS 스타일링을 사용하여 요소의 너비와 높이를 설정할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-07-TravelTourismWebsiteProjectUsingHTMLandCSSCode_4.png)
 
@@ -209,7 +317,18 @@ CSS로 할 수 있는 것의 일부이지만, CSS에 대한 심도 깊은 안내
 
 HTML, CSS, & JavaScript를 사용한 전자상거래 웹사이트 (소스 코드)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Travel website](/assets/img/2024-07-07-TravelTourismWebsiteProjectUsingHTMLandCSSCode_5.png)
 
@@ -219,7 +338,18 @@ HTML, CSS, & JavaScript를 사용한 전자상거래 웹사이트 (소스 코드
 
 # HTML과 CSS를 사용한 여행/관광 웹사이트의 라이브 미리보기:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 10+ HTML CSS 프로젝트 소스 코드
 
@@ -229,11 +359,33 @@ HTML, CSS, & JavaScript를 사용한 전자상거래 웹사이트 (소스 코드
 
 작성자: @Arun
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 Markdown 형식으로 변경해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여행 웹사이트 프로젝트를 시작했습니다. 웹사이트 레이아웃을 담을 새로운 하위 디렉토리에 새 index.html 파일을 생성하십시오. 아래 제시된 HTML 코드를 HTML 파일에 복사하여 붙여넣기하세요.
 

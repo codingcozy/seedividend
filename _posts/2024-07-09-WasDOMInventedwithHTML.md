@@ -3,15 +3,13 @@ title: "DOM이 HTML과 함께 발명되었나요"
 description: ""
 coverImage: "/assets/img/2024-07-09-WasDOMInventedwithHTML_0.png"
 date: 2024-07-09 08:48
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-WasDOMInventedwithHTML_0.png
 tag: Tech
 originalTitle: "Was DOM Invented with HTML?"
 link: "https://medium.com/@nile.bits/was-dom-invented-with-html-67e42091b063"
 isUpdated: true
 ---
-
-
 
 <img src="/assets/img/2024-07-09-WasDOMInventedwithHTML_0.png" />
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 문서 객체 모델(DOM)은 HTML 및 XML 콘텐츠를 구성 정돈된 방식으로 표현하여 웹 개발의 필수 구성 요소입니다. 그렇다면 HTML은 DOM보다 먼저 개발되었을까요? 이 기사에서는 DOM과 HTML의 역사를 탐구하며, 그 발전과 최종적인 융합을 살펴보겠습니다. 우리는 이 둘의 기술적인 세부 사항을 함께 살펴보며, 중요한 아이디어를 강조하기 위해 코드 샘플을 제공할 것입니다. 이러한 기술의 진행 과정을 이해하는 것은 현대 웹을 영향을 주는 방식과 웹 개발 방법론에 영향을 주는 방식을 명확히 해줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # HTML이 탄생
 
@@ -42,7 +51,18 @@ HTML 또는 하이퍼텍스트 마크업 언어는 1991년 팀 버너스-리에 
 
 # HTML의 초기 시절
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 HTML의 초기 버전은 오늘날 볼 수 있는 정교한 기능이 없었습니다. 주로 텍스트, 링크 및 간단한 미디어 요소로 정적 페이지를 생성하는 데 사용되었습니다. 웹이 성장함에 따라 더 동적이고 인터랙티브한 콘텐츠에 대한 필요성도 커졌습니다.
 
@@ -52,7 +72,18 @@ HTML의 초기 버전은 오늘날 볼 수 있는 정교한 기능이 없었습�
 
 팀 버너스-리의 웹 비전은 국제 정보 허브를 구축하는 것이었습니다. 논문을 연결하는 하이퍼링크를 사용해 사용자가 한 정보에서 다른 정보로 쉽게 이동할 수 있도록 한 방법을 제안했습니다. 이 개념으로 인해 오늘날 우리가 알고 있는 World Wide Web 및 HTML이 가능해졌습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 버너스리의 HTML에 대한 최초 제안은 웹 문서의 구조를 설명하기 위해 설계된 18개의 요소로 이루어져 있었습니다. 이러한 요소들은 제목, 단락, 목록, 링크를 만들 수 있게 해주었으며 초기 웹 페이지의 기초를 형성했습니다.
 
@@ -88,7 +119,18 @@ HTML의 초기 버전은 오늘날 볼 수 있는 정교한 기능이 없었습�
 </html>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 더 많은 상호 작용성이 필요한 이유
 
@@ -98,7 +140,18 @@ HTML의 초기 버전은 오늘날 볼 수 있는 정교한 기능이 없었습�
 
 # 현대 웹 개발에서의 HTML의 역할
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오늘날 HTML은 웹 개발의 기초를 이루고 있습니다. 특히 HTML5는 멀티미디어, 그래픽 및 복잡한 웹 애플리케이션을 지원하는 고급 기능을 포함하고 있습니다. 반응형 및 인터랙티브 웹사이트를 만드는 견고한 기반을 제공합니다.
 
@@ -129,7 +182,18 @@ HTML의 발전은 그것이 겸손한 시작에서 현재의 형태로 변화한
 
 # DOM이란 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 문서에는 Document Object Model(DOM)이라는 프로그래밍 인터페이스가 포함되어 있어요. 이를 사용하여 프로그램은 페이지의 대표로 사용하여 문서의 구조, 디자인 및 내용을 변경할 수 있어요. DOM에 의해 문서는 객체 트리로 표시되며, 각 객체는 콘텐츠의 다른 섹션을 나타내요.
 
@@ -157,7 +221,18 @@ DOM은 HTML 또는 XML 문서를 트리 구조로 나타내며, 각 노드는 �
 </html>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 예에서 DOM은 HTML 문서를 객체 트리로 나타냅니다. 각 요소(예: `h1` 및 `p` 태그)는 DOM 트리에서 노드입니다. JavaScript를 사용하여 이러한 노드와 상호 작용하여 문서의 내용과 구조를 동적으로 변경할 수 있습니다.
 
@@ -167,7 +242,18 @@ DOM은 언어 중립적 인터페이스로, 다양한 프로그래밍 언어와 
 
 다음은 DOM을 사용하여 수행할 수 있는 주요 작업 몇 가지입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 요소에 액세스하기: ID, 클래스, 태그 이름 또는 다른 속성으로 요소에 액세스할 수 있습니다.
 
@@ -182,7 +268,18 @@ element.innerHTML = "새로운 내용";
 element.style.color = "빨강";
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 요소 생성하기: 새로운 요소를 만들어 문서에 추가할 수 있습니다.
 
@@ -199,7 +296,18 @@ var elementToRemove = document.getElementById("myElement");
 elementToRemove.parentNode.removeChild(elementToRemove);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # DOM의 진화
 
@@ -211,7 +319,18 @@ DOM은 여러 수준을 통해 발전해 왔으며, 각 수준에서는 새로�
 
 # 모던 DOM 특징들
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현대 웹 개발은 동적이고 대화형 웹 애플리케이션을 만들 때 DOM에 많이 의존합니다. 다음은 현대 DOM 기능의 예시입니다:
 
@@ -225,7 +344,18 @@ document.getElementById("myButton").addEventListener("click", function () {
 
 - 속성 조작: 엘리먼트의 속성을 변경합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 var img = document.getElementById("myImage");
@@ -241,7 +371,18 @@ element.classList.add("newClass");
 
 - DOM 탐색: DOM 트리를 탐색합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 var parent = document.getElementById("childElement").parentNode;
@@ -254,7 +395,18 @@ var children = document.getElementById("parentElement").childNodes;
 
 DOM을 이해하고 효과적으로 사용하는 것은 웹 개발자에게 중요합니다. 이를 통해 사용자 입력에 응답하고 동적 콘텐츠를 제공하여 전체 사용자 경험을 향상시키는 리치하고 인터랙티브한 웹 애플리케이션을 만들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # DOM 표준화
 
@@ -264,7 +416,18 @@ DOM을 이해하고 효과적으로 사용하는 것은 웹 개발자에게 중�
 
 1990년대 중반에 HTML 문서와 상호 작용하기 위해 사용된 두 가지 주요 스크립팅 언어는 Microsoft의 JScript와 Netscape의 JavaScript였습니다. 각 브라우저가 다른 버전의 DOM을 구현했기 때문에 호환성 문제가 발생했습니다. 각기 다른 브라우저가 인터넷 익스플로러와 넷스케이프 네비게이터처럼 문서 구성 요소에 액세스하고 수정하는 다른 방법을 가지고 있기 때문에 크로스 브라우저 프로그래밍은 어려웠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 넷스케이프 네비게이터
@@ -282,7 +445,18 @@ document.all["myLayer"].innerHTML = "안녕, 익스플로러!";
 
 일관성의 필요성을 인정한 세계 웹 consorium (W3C)가 공통 문서 객체 모델을 만드는 데 주도적인 역할을 맡았습니다. 웹의 지속적인 확장을 보장하기 위해 W3C라는 글로벌 커뮤니티가 개방 표준을 만들고 있습니다. DOM Level 1은 W3C에 의해 1998년에 발표된 최초의 표준화된 DOM 버전입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # DOM 레벨 1 (1998)
 
@@ -296,7 +470,18 @@ element.innerHTML = "안녕, DOM!";
 
 DOM 레벨 1은 핵심 기능을 제공하는 데 초점을 맞추었습니다. 여기에는 아래와 같은 기능이 포함되어 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 문서 탐색: 문서 트리를 탐색하는 방법.
 - 요소 조작: 요소에 액세스하고 수정하는 방법.
@@ -310,7 +495,18 @@ DOM 레벨 2는 DOM 레벨 1의 기능을 확장하여 다음과 같은 새로�
 - 향상된 이벤트 처리: 이벤트 캡처링과 버블링을 지원하는 개선된 이벤트 모델.
 - CSS 조작: CSS 스타일에 액세스하고 조작하는 방법.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // DOM 레벨 2에서 이벤트 리스너 추가하기
@@ -327,7 +523,18 @@ DOM 레벨 3은 새로운 기능을 도입하고 기존 기능을 개선하여 D
 - 문서 탐색 및 범위: 더 고급화된 문서 탐색 및 조작을 위한 인터페이스.
 - 오류 처리 개선: 오류 및 예외를 처리하기 위한 향상된 메커니즘.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // DOM Level 3에서 XPath 사용하기
@@ -344,7 +551,18 @@ W3C에 의한 DOM의 표준화는 웹 개발에 깊은 영향을 미쳤습니다
 - 상호운용성: 표준화된 방법과 인터페이스는 사용자의 브라우저에 관계없이 웹 페이지가 일관되게 동작하도록 보장했습니다.
 - 혁신: 표준화는 고급 웹 애플리케이션의 개발을 위한 안정적인 기반을 제공하며 웹 기술의 추가 혁신을 가능케 했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 최신 DOM 표준
 
@@ -360,7 +578,18 @@ context.fillRect(0, 0, 150, 75);
 
 DOM의 표준화는 웹의 발전에서 중요한 단계였으며, 개발자가 웹 문서와 상호 작용할 수 있는 일관된 신뢰성 있는 방법을 제공했습니다. W3C의 작업을 통해 이러한 표준을 개발하고 유지함으로써, 웹은 동적이고 대화식 컨텐츠를 만드는 강력하고 다재다능한 플랫폼으로 남아 있도록 보장되었습니다. DOM이 계속 발전함에 따라 웹 개발에서 중심적인 역할을 계속할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # HTML과 DOM: 뒤얽힌 진화
 
@@ -370,7 +599,18 @@ HTML과 문서 객체 모델(DOM)은 처음에는 별도로 개발되었지만, 
 
 인터넷 초기에 HTML은 주로 정적인 웹 페이지에 사용되었습니다. 이러한 사이트에서는 매우 적거나 아예 상호작용을 할 수 없었습니다. 그저 텍스트, 그래픽 및 링크만이 존재했습니다. 제목, 단락, 목록 및 링크와 같은 구성 요소들이 포함된 문서는 HTML을 사용하여 구성될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <!DOCTYPE html>
@@ -392,7 +632,18 @@ HTML과 문서 객체 모델(DOM)은 처음에는 별도로 개발되었지만, 
 
 넷스케이프가 1995년도에 소개한 JavaScript는 스크립트가 HTML 문서와 상호 작용할 수 있게 함으로써 웹 개발을 혁신하였습니다. 이 상호 작용은 문서의 구조화된 표현을 제공하는 DOM을 통해 가능해졌습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <!DOCTYPE html>
@@ -419,7 +670,18 @@ HTML과 문서 객체 모델(DOM)은 처음에는 별도로 개발되었지만, 
 
 웹 개발자들이 동적 콘텐츠의 가능성을 탐색할 때 HTML은 계속 발전해왔습니다. HTML의 새로운 버전은 상호작용 웹 페이지를 만드는 능력을 향상시키는 요소와 속성을 소개했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - HTML 4.0 (1997): 인라인 프레임(iframe), 향상된 폼 컨트롤 및 스크립팅 언어 지원과 같은 기능을 소개했습니다.
 - HTML 5 (2014): 새로운 의미론적 요소, 멀티미디어 지원 및 오프라인 저장, 그래픽 및 실시간 통신을 위한 API를 포함한 중요한 향상을 가져왔습니다.
@@ -456,7 +718,18 @@ HTML과 문서 객체 모델(DOM)은 처음에는 별도로 개발되었지만, 
 
 오늘날 웹 개발의 핵심 기술은 HTML, CSS 및 JavaScript입니다. JavaScript는 상호 작용을 가능하게 하며, HTML은 구조를 제공하고 CSS는 디스플레이를 관리합니다. 이러한 기술들은 DOM에 의해 함께 유지되며 원활한 작동을 가능하게 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## HTML5 및 새로운 API
 
@@ -476,7 +749,18 @@ if (navigator.geolocation) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## CSS3와 고급 스타일링
 
@@ -498,7 +782,18 @@ CSS3는 애니메이션, 전환 및 변형을 포함한 웹 페이지 스타일�
 
 # 프레임워크와 라이브러리의 역할
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현대 웹 개발은 종종 DOM과 직접 작업하는 복잡성을 추상화하는 프레임워크와 라이브러리를 사용하는 것을 포함합니다. React, Angular, Vue.js와 같은 프레임워크는 복잡한 웹 애플리케이션을 구축하는 강력한 도구를 제공하면서 기본 DOM에 의존합니다.
 
@@ -529,7 +824,18 @@ ReactDOM.render(<MyComponent />, document.getElementById("root"));
 
 더욱 동적이고 상호작용적인 웹 콘텐츠에 대한 요구는 HTML과 DOM의 발전을 촉발시켰습니다. HTML과 DOM은 초기 웹의 정적 페이지에서 오늘날의 풍부하고 동적인 앱으로 사용자와 개발자의 요구를 충족하기 위해 발전해 왔습니다. 현대 웹의 진화는 웹 기술이 발전함에 따라 HTML과 DOM 간 상호작용에 중점을 둘 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 참고 자료
 

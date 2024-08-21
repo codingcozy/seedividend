@@ -3,16 +3,13 @@ title: "DOCKER 이미지 크기 줄이는 방법 및 컨테이너 보안 강화�
 description: ""
 coverImage: "/assets/img/2024-07-13-DOCKERImageSizeContainerSecurity_0.png"
 date: 2024-07-13 01:36
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-DOCKERImageSizeContainerSecurity_0.png
 tag: Tech
 originalTitle: "DOCKER | Image Size , Container Security"
 link: "https://medium.com/dev-genius/docker-image-size-container-security-371e12c9e461"
 isUpdated: true
 ---
-
-
-
 
 ![이미지](/assets/img/2024-07-13-DOCKERImageSizeContainerSecurity_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 # 도커 이미지 크기 및 보안
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## ➡️ 저희 유튜브 영상을 확인해보세요! 실제 예시와 함께 완벽한 안내를 제공하고 있어요! 🤩
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 공식 이미지를 사용하려면 Dockerfile에 이미지의 이름을 포함시키면 도커가 공식 레지스트리에서 자동으로 이미지를 가져옵니다. 이런 최고의 실천방법은 장기적으로 시간을 절약하고 보다 안전하고 신뢰할 수 있는 이미지를 만들 수 있도록 도와줄 거에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도커 파일에서 베이스 이미지의 정확한 버전을 지정하려면 아래 예시처럼 Dockerfile에 포함하십시오:
 
@@ -48,7 +67,18 @@ FROM python:3.9-slim
 FROM python:3.9.10-slim
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이는 동일한 이미지의 다른 버전을 사용할 때 발생할 수있는 변경 및 일관성 문제를 방지할 수 있습니다.
 
@@ -58,25 +88,45 @@ FROM python:3.9.10-slim
 
 - 이미지 캐싱 레이어를 최적화하려면 이미지를 작은 부분으로 나누어 개별적으로 캐시할 수 있습니다. 이렇게 하면 코드를 수정할 때 변경된 부분만 다시 빌드해야 합니다. 이렇게 하면 시간을 절약할 뿐만 아니라 최종 이미지 크기도 줄일 수 있습니다. 이를 어떻게 성취할 수 있는지 살펴보겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ☝️ 도커를 사용할 때는 각 RUN 명령이 이미지에 새 레이어를 만든다는 점을 염두에 두는 것이 중요합니다. 이는 최종 이미지 크기를 크게 늘릴 수 있습니다.
 
 레이어의 수를 최소화하고 최종 크기를 줄이기 위해 여러 명령을 하나의 RUN 문으로 결합하는 것이 좋습니다. 아래 예시처럼 “&&”을 사용하세요:
 
-
 FROM alpine:latest
 
 # 패키지 목록 업데이트, 의존성 설치, 정리
+
 RUN apk update && \
  apk add --no-cache \
  package1 \
  package2 \
- && rm -rf /var/cache/apk/*
+ && rm -rf /var/cache/apk/\*
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 도커 이미지를 빌드할 때 .dockerignore 파일을 사용하는 것이 유용합니다. 이 파일을 사용하면 로그 파일, 구성 파일 및 임시 파일과 같이 이미지에서 불필요한 파일을 제외할 수 있습니다. 이 파일들은 애플리케이션이 작동하는 데 필요하지 않으므로 제외하면 이미지가 더 작아지고 빌드 프로세스가 빨라집니다. 아래는 .dockerignore 파일의 예시입니다:
 
@@ -97,7 +147,18 @@ __pycache__
 
 ## ➡️ 실생활 예제로 완벽한 가이드를 확인하세요! 🤩
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 컨테이너 보안
 
@@ -107,7 +168,18 @@ __pycache__
 
 대신, 어플리케이션 전용으로 별도의 사용자 계정을 만들고, 프로그램을 실행하는 데 사용하세요. 이 간단한 조치는 시스템에 무단 접근할 가능성을 크게 줄일 뿐만 아니라 잠재적인 악의적 공격을 방지할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 게다가, 응용 프로그램이 손상되는 경우 피해를 최소화하는 데 도움이 됩니다. 언제나 안전하고 보안된 애플리케이션을 보장하기 위해 루트 사용자 계정이 아닌 사용자 계정을 사용하도록 항상주의하십시오.
 
@@ -141,7 +213,18 @@ Dockerfile에서 우리는 'useradd' 명령을 사용하여 'hitcuser'라는 루
 
 간단히 말하면, 루트 권한으로 컨테이너를 실행하는 것을 피하고, 대신 애플리케이션을 작동시키는 데 필요한 권한만 갖는 루트가 아닌 사용자를 사용하는 것이 권장됩니다. 이렇게 하면 컨테이너에 액세스한 공격자가 애플리케이션이 작동하는 데 필요한 최소한의 리소스에만 액세스할 수 있으므로 발생할 수 있는 피해를 최소화할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 🔍 이미지 스캔
 
@@ -151,7 +234,18 @@ Dockerfile에서 우리는 'useradd' 명령을 사용하여 'hitcuser'라는 루
 
 Trivy를 설치한 후에는 Docker 이미지를 취약점을 스캔하는 데 사용할 수 있습니다. 다음은 단계별 데모입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도커 이미지 다운로드하기: 이번 데모에서는 Python 도커 이미지를 사용해 보겠습니다. 공식 Python 이미지를 Docker Hub에서 가져올 수 있어요.
 
@@ -165,7 +259,18 @@ Trivy로 Docker 이미지 스캔하기: 가져온 Docker 이미지를 취약점�
 trivy image python:3.9-slim
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Trivy는 이미지 레이어를 분석하고 발견된 취약점과 그 심각성 수준을 보고할 거에요.
 
@@ -185,7 +290,18 @@ Trivy는 이미지 레이어를 분석하고 발견된 취약점과 그 심각�
 
 조치하기: Trivy나 유사한 도구를 사용하여 정기적인 이미지 스캔을 수행하면 도커 이미지의 보안 취약점을 사전에 식별하고 해결할 수 있어요. 스캔 결과를 기반으로 패키지 업데이트, 패치 적용 또는 보안 취약점이 적은 대체 이미지 사용 등 적절한 조치를 취해야 해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **자동화 스캔:** Docker 이미지의 취약성을 자동으로 감지하기 위해 Trivy 스캔을 CI/CD 파이프라인에 통합할 수 있습니다. 이를 통해 기존 자동화 워크플로에 스캔을 통합하고 컨테이너화된 애플리케이션을 효과적으로 보호할 수 있습니다.
 
@@ -195,7 +311,18 @@ Trivy는 이미지 레이어를 분석하고 발견된 취약점과 그 심각�
 
 ![이미지](/assets/img/2024-07-13-DOCKERImageSizeContainerSecurity_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 도커 이미지 크기 최상의 방법과 컨테이너 보안에 관한 광범위한 토론을 마무리 지었습니다. 다음 영상에서는 커뮤니티에서 매우 요청되는 주제인 Docker 네트워킹에 대해 다룰 예정입니다!
 

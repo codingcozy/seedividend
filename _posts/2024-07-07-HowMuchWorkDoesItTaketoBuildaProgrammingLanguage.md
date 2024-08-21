@@ -3,15 +3,13 @@ title: "프로그래밍 언어를 만드는 데 얼마나 많은 작업이 필�
 description: ""
 coverImage: "/assets/img/2024-07-07-HowMuchWorkDoesItTaketoBuildaProgrammingLanguage_0.png"
 date: 2024-07-07 21:54
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-HowMuchWorkDoesItTaketoBuildaProgrammingLanguage_0.png
 tag: Tech
 originalTitle: "How Much Work Does It Take to Build a Programming Language?"
 link: "https://medium.com/zenstack/how-much-work-does-it-take-to-build-a-programming-language-784a6868f4e9"
 isUpdated: true
 ---
-
-
 
 ## 언어 생성을 시도해보세요! 왜냐하면 왜 안되겠어요
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-07-07-HowMuchWorkDoesItTaketoBuildaProgrammingLanguage_0.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 1986년에 쓰인 책을 읽었어요. 당시 컴파일러 만들기는 굉장히 어려웠고, 컴퓨터 과학과 프로그래밍 기술을 많이 담았습니다. 거의 4십 년 후인 지금, 다시 일에 착수하려고 해요. 요즘에는 어떨까요? 언어를 만드는 데 필요한 것들과 현대 도구들이 얼마나 단순해졌는지 살펴보도록 하죠.
 
@@ -46,7 +55,18 @@ model Post {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단한 메모:
 
@@ -58,7 +78,18 @@ model Post {
 
 # 여섯 단계로 언어 만들기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 1: 텍스트에서 구문 트리로
 
@@ -68,7 +99,18 @@ model Post {
 
 우리의 ZModel 언어 구문은 다음과 같이 형식화될 수 있어요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /*
@@ -122,7 +164,18 @@ ZModel 문법
 언어 규칙이 준비되었으므로 Langium API를 사용하여 코드 스니펫을 다음 파스 트리로 변환할 수 있습니다.
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-07-HowMuchWorkDoesItTaketoBuildaProgrammingLanguage_1.png" />
 
@@ -132,7 +185,18 @@ ZModel 문법
 
 우리의 ZModel 언어는 "교참조"를 허용합니다. 예를 들어, User 모델의 posts 필드는 Post 모델을 참조합니다. 그리고 Post 모델은 다시 author 필드를 통해 참조를 합니다. 파스 트리를 탐색할 때, ModelReference 노드에 도달하면 "Post"라는 이름을 참조하는 것을 볼 수 있지만 그 의미를 직접 알 수 없습니다. 일치하는 이름의 모델을 찾기 위해 즉석 조회를 할 수 있지만, 보다 체계적인 접근법은 "링킹" 패스를 수행하여 모든 이러한 참조를 해결하고 해당 노드에 링크하는 것입니다. 이러한 링킹이 완료되면, 우리의 파스 트리는 다음과 같이 보입니다 (간략함을 위해 일부 트리만 표시됨):
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-07-07-HowMuchWorkDoesItTaketoBuildaProgrammingLanguage_2.png)
 
@@ -142,7 +206,18 @@ Langium의 장점 중 하나는 대부분의 경우 도구가 링킹 패스를 �
 
 ## 단계 3. 연결된 트리에서 의미론적 정확성으로
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컴파일러는 입력 소스 파일에 렉서 또는 파서 오류가 포함되어 있으면 오류를 보고하고 중단합니다.
 
@@ -159,7 +234,18 @@ model {
 
 그러나 이러한 오류가 없어도 코드가 의미론적으로 올바르다는 뜻은 아닙니다. 예를 들어, 아래 내용은 구문적으로 유효하지만 의미론적으로 잘못되었습니다. title을 true와 비교하는 것은 말이 되지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 모델 Post {
@@ -197,7 +283,18 @@ export class ZModelValidator {
 
 이제 의미론적 문제에 대한 좋은 오류를 얻을 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오직 불리언 필드만 조건문에서 허용됩니다 [Ln 7, Col 19]
 
@@ -207,7 +304,18 @@ export class ZModelValidator {
 
 ## 4단계. 개발자 경험 향상
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요즘에는 개발 도구를 만드는 데 기준이 높습니다. 혁신은 탁월하게 작동할 뿐만 아니라 탁월한 느낌을 주어야 번창할 수 있어요. 언어와 컴파일러 관점에서, DX는 주로 세 가지로 이루어져 있어요:
 
@@ -221,7 +329,18 @@ export class ZModelValidator {
 - 디버깅
   귀하의 언어가 "작동"하는 경우(더 자세한 내용은 다음 섹션을 참조하세요), 디버깅 경험이 필수적입니다. 디버깅이란 어떤 것을 의미하는지는 언어의 성격에 따라 다릅니다. 그것이 명령문과 제어 흐름을 포함하는 명령형 언어면 단계별 진행 및 상태 검사가 필요할 것입니다. 또는 선언적 언어인 경우, 디버깅은 복잡성(규칙, 표현식 등)을 해결하는 데 도움이 되는 시각화를 의미할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 5. 유용하게 만들기
 
@@ -238,7 +357,18 @@ export class ZModelValidator {
 
 ## 단계 6. 사용하기 좋게 만들기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 축하합니다! 이제 자신을 칭찬해도 좋습니다. 왜냐하면 새로운 언어를 만드는 일의 20%를 완료했기 때문이죠. 혁신은 대부분 사람들에게 판매하는 것이 가장 어려운 부분이라는 것을 잊지 마세요. 심지어 무료일 때도요. 언어를 개발한 건 개인적으로나 팀 내부에서만 사용할 예정이라면 그만두는 것도 좋지만, 대중을 대상으로 한다면 열심히 마케팅해야 합니다. 그것이 나머지 80%의 작업을 차지하죠 😄.
 
@@ -248,7 +378,18 @@ export class ZModelValidator {
 
 왜냐면 언어를 만들어보는 것이 어떨까요? 😊
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![ZenStack](/assets/img/2024-07-07-HowMuchWorkDoesItTaketoBuildaProgrammingLanguage_5.png)
 

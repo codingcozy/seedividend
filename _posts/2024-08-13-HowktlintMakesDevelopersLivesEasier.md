@@ -3,7 +3,7 @@ title: "ktlint 개발자가 알아둬야하는 팁"
 description: ""
 coverImage: "/assets/img/2024-08-13-HowktlintMakesDevelopersLivesEasier_0.png"
 date: 2024-08-13 11:55
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-13-HowktlintMakesDevelopersLivesEasier_0.png
 tag: Tech
 originalTitle: "How ktlint Makes Developers Lives Easier"
@@ -11,7 +11,6 @@ link: "https://medium.com/@michalankiersztajn/how-ktlint-makes-developers-lives-
 isUpdated: true
 updatedAt: 1723864000358
 ---
-
 
 ## 더 깨끗한 코드베이스와 빠른 코드 리뷰
 
@@ -21,7 +20,18 @@ Ktlint은 Pinterest에서 만들고 유지보수하는 내장 자동 포매터�
 
 ## 그렇다면 이점은 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - IDE에서 잡아내지 못하는 많은 추가 규칙 확인 사항이 있습니다.
 - CI 확인을 통해 규칙을 강제할 수 있습니다.
@@ -37,7 +47,18 @@ ktlint가 얼마나 멋진지 알았으니, 이제 프로젝트에 설정해 보
 
 자신을 위해 예제 리포지토리를 가져 오려는 분들을 위해 이 프로젝트를 복제하세요: https://github.com/AndroBrain/KtlintExample.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1. 플러그인 선언
 
@@ -46,14 +67,25 @@ ktlint가 얼마나 멋진지 알았으니, 이제 프로젝트에 설정해 보
 ```js
 [versions]
 # 이 글을 작성하는 시점에서의 가장 최신 버전입니다
-ktlint = "12.1.1" 
+ktlint = "12.1.1"
 [plugins]
 ktlint = { id = "org.jlleitschuh.gradle.ktlint", version.ref = "ktlint" }
 ```
 
 ktlint의 가장 최신 버전을 여기에서 찾을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2. 플러그인 적용
 
@@ -68,14 +100,25 @@ plugins {
 
 모듈의 build.gradle 내부:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 plugins {
     alias(libs.plugins.ktlint)
     ...
 }
-    
+
 ktlint { // 키 구성 포인트를 강조하는 기능이 있지만 실제로 추가할 필요가 없음
     android = true
     ignoreFailures = false // 빌드가 실패하도록 하기 위한 것, 단순히 출력하는 것이 아님
@@ -91,11 +134,20 @@ ktlint { // 키 구성 포인트를 강조하는 기능이 있지만 실제로 �
 
 ## 3. ktlint 실행
 
-ktlint를 실행하는 가장 쉬운 방법은 Gradle을 열고 `Gradle 작업 실행`을 선택하는 것입니다. 
+ktlint를 실행하는 가장 쉬운 방법은 Gradle을 열고 `Gradle 작업 실행`을 선택하는 것입니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![ktlintCheck](/assets/img/2024-08-13-HowktlintMakesDevelopersLivesEasier_1.png)
 
@@ -105,9 +157,18 @@ A window should pop up, and inside of it, write ktlintCheck:
 
 If you want to use the auto-formatted, change it to ktlintFormat:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![How ktlint Makes Developers Lives Easier - Image 3](/assets/img/2024-08-13-HowktlintMakesDevelopersLivesEasier_3.png)
 
@@ -117,8 +178,18 @@ It will still print an error if something cannot be safely auto-formatted.
 
 If you need the version of the command that can be used for your CI:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 ./gradlew ktlintCheck

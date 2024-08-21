@@ -3,17 +3,13 @@ title: "SwiftUI로 VisionOS 뷰Views 생성하기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Creating Views in SwiftUI for VisionOS"
 link: "https://medium.com/@michaelzheng67/creating-views-in-swiftui-for-visionos-f4d6e6a43423"
 isUpdated: true
 ---
-
-
-
-
 
 당신의 VisionOS 앱에 사용할 SwiftUI 뷰를 만드는 간단한 안내서
 
@@ -23,7 +19,18 @@ VisionOS는 SwiftUI 기반으로 작성되었기 때문에, Vision Pro 앱을 �
 
 이 글에서는 Vision Pro 앱을 개발하면서 추가할 수 있는 다양한 뷰 및 구성 요소를 살펴보겠습니다. 이를 통해 탐색 및 데이터 표시가 보다 쉬워집니다. 또한 시뮬레이터에서의 모습과 해당 작업에 필요한 적절한 도구 선택 방법에 대해 알아보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 탐색할 요소 중 일부는 다음과 같습니다:
 
@@ -35,7 +42,18 @@ VisionOS는 SwiftUI 기반으로 작성되었기 때문에, Vision Pro 앱을 �
 
 VStack, HStack 및 ZStack
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SwiftUI에서는 사용자에게 제시하기 위해 항목을 다양한 미리 정의된 방식으로 정렬하기 위해 (V, H, Z)-Stacks를 사용할 수 있습니다. 스택 안의 다른 문자는 항목이 나열되는 방향을 나타냅니다. 예를 들어, V는 수직을 의미하며, 항목은 위에서 아래로 나열됩니다. 마찬가지로, H 및 Z 스택은 항목을 좌에서 우로, 배경에서 전경으로 순서대로 나열합니다.
 
@@ -83,7 +101,18 @@ struct StoryView: View {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결과물은 다음과 같이 보일 것입니다:
 
@@ -128,7 +157,18 @@ struct FreestyleView: View {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 내용은 다음과 같이 표시됩니다:
 
@@ -138,7 +178,18 @@ struct FreestyleView: View {
 
 ZStack은 항목들을 "레이어링"할 수 있는 특별한 구조입니다. 개인적으로 이 구성 요소에 대한 사용 사례를 아직 찾지 못했지만, 애플 문서에서는 주로 레이어 형식의 아트를 만드는 능력이라고 설명하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/Creating-Views-in-SwiftUI-for-VisionOS_3.png" />
 
@@ -148,7 +199,18 @@ Navigation Stack
 
 그러나 SwiftUI가 이를 구현하는 방식은 조금 다릅니다. SwiftUI는 더 유연한 접근 방식을 취합니다. 특정 뷰 내에서 네비게이션 스택을 선언하고 불리언 조건에 따라 런타임에서 다른 창 뷰로 열도록 결정할 수 있습니다. 네비게이션 스택은 또한 네비게이션을 위한 "뒤로" 버튼을 암시적으로 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전 코드를 기반으로 한 예제가 있습니다:
 
@@ -195,7 +257,18 @@ struct FreestyleView: View {
 
 네비게이션 분할 보기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 컴포넌트는 좀 더 "특별한" 사용 케이스를 위한 것입니다. 현재 뷰 창을 쪼개어 측면 메뉴와 주 창을 가지도록 합니다. 사용자가 측면에서 선택을 할 수 있게 하고, 주 창 내에서 트리거된 어떤 상호 반응이 있도록 하고 싶을 때 이 뷰가 훌륭합니다.
 
@@ -205,7 +278,18 @@ struct FreestyleView: View {
 
 해당 코드는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```swift
 NavigationView {

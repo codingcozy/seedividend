@@ -3,16 +3,13 @@ title: "효율적인 ETL Docker 환경에서 Airflow를 사용해 PostgreSQL로 
 description: ""
 coverImage: "/assets/img/2024-07-10-EfficientETLCleaningTransformingandLoadingCSVDatainPostgreSQLwithAirflowinaDockerizedenvironment_0.png"
 date: 2024-07-10 02:38
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-10-EfficientETLCleaningTransformingandLoadingCSVDatainPostgreSQLwithAirflowinaDockerizedenvironment_0.png
 tag: Tech
 originalTitle: "Efficient ETL: Cleaning, Transforming, and Loading CSV Data in PostgreSQL with Airflow in a Dockerized environment"
 link: "https://medium.com/@rajatbelgundi/efficient-etl-cleaning-transforming-and-loading-csv-data-in-postgresql-with-airflow-in-a-0bf062a0ed41"
 isUpdated: true
 ---
-
-
-
 
 데이터 엔지니어링이 현재 데이터 산업에서 화두입니다. 기업들이 데이터 엔지니어링 측면에 초점을 맞추기 시작했습니다. 최근에는 체계적인 데이터 파이프라인 구축이 주요 관심사입니다. 효율적인 데이터 파이프라인을 통해 품질 높은 데이터를 조직 내 다양한 팀에게 제공할 수 있습니다. 데이터 엔지니어들은 데이터 과학 프로젝트를 효율적으로 진행할 수 있는 이러한 파이프라인을 설계하는 데 도움을 줍니다. 이러한 파이프라인은 데이터 분석가와 비즈니스 분석팀이 데이터 시각화와 대시보드를 생성하여 비즈니스 결정을 지원하는 데 활용할 수도 있습니다.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 구조화된 원시 데이터가 CSV 파일에 저장되어 있습니다. 이 데이터를 사전 처리하고 정제한 후 데이터베이스에 저장하고 싶습니다. 이 경우 데이터베이스는 PostgreSQL입니다. 많은 상황에서 데이터가 지속적으로 변경되거나 새 데이터가 시스템에 추가됩니다. 이러한 경우에는 CSV 파일도 새 데이터가 들어오는 빈도와 동일한 빈도로 변경됩니다. 그러면 데이터 전처리 스크립트를 실행하고 데이터를 대상 데이터 저장소(PostgreSQL)에 로드해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에서 언급된 모든 작업은 잘 조정되고 예약되어 실행되어야 합니다. 이를 위해 저희는 Apache Airflow와 같은 오케스트레이션 도구를 사용합니다. 이러한 모든 도구를 사용하고 작업을 수행하기 위해서는 호스팅 환경이 필요합니다. 이 프로젝트에서는 호스팅 환경으로 Docker를 사용할 것입니다. 모든 도구는 Docker 컨테이너로 실행될 것입니다. 모든 코드는 Python으로 작성될 것입니다.
 
@@ -39,7 +47,18 @@ isUpdated: true
 - 클린업된 CSV 파일을 PostgreSQL 데이터베이스 테이블로 로드하는 코드를 포함합니다.
 - 저희 설정이 완료되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **단계 1:**
 
@@ -77,7 +96,18 @@ df.to_csv('/opt/airflow/dags/wine_cleaned.csv', index=False)
 
 **단계 3: Docker Compose 파일**
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 a. 공식 Airflow 문서에서 airflow 도커 서비스를 이용할 수 있어요.
 
@@ -124,7 +154,7 @@ x-airflow-common:
     - ${AIRFLOW_PROJ_DIR:-.}/logs:/opt/airflow/logs
     - ${AIRFLOW_PROJ_DIR:-.}/config:/opt/airflow/config
     - ${AIRFLOW_PROJ_DIR:-.}/plugins:/opt/airflow/plugins
-    # - ${AIRFLOW_PROJ_DIR:-.}/phase1:/opt/airflow/phase1   
+    # - ${AIRFLOW_PROJ_DIR:-.}/phase1:/opt/airflow/phase1
   user: "${AIRFLOW_UID:-50000}:0"
   depends_on:
     &airflow-common-depends-on
@@ -152,8 +182,18 @@ services:
   ...
 ```
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **STEP 6: Airflow에서 DAG 작성**
 
@@ -226,7 +266,18 @@ print('완료')
 
 위 코드의 마지막 부분에 나타난 것처럼 총 다섯 가지 작업이 수행됩니다. 여기서는 data_ingestion_dag라는 단일 DAG를 사용하여 작업을 실행합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Airflow DAG (data_ingestion_dag):
 
@@ -236,12 +287,23 @@ Airflow 작업 상태 및 실행
 
 가장 최근 Airflow DAG 실행:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![link](/assets/img/2024-07-10-EfficientETLCleaningTransformingandLoadingCSVDatainPostgreSQLwithAirflowinaDockerizedenvironment_2.png)
-  
+
 클린업되지 않은 CSV 파일을 이용해 테이블이 채워졌습니다.
 
 ![link2](/assets/img/2024-07-10-EfficientETLCleaningTransformingandLoadingCSVDatainPostgreSQLwithAirflowinaDockerizedenvironment_3.png)
-  
+
 프로젝트에 대해 더 자세히 알아보려면 [GitHub 링크](GitHub 링크)를 참조하세요.

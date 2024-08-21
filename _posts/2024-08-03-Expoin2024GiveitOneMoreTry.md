@@ -3,17 +3,13 @@ title: "2024년에 Expo를 다시 시도해야 하는 5가지 이유"
 description: ""
 coverImage: "/assets/img/2024-08-03-Expoin2024GiveitOneMoreTry_0.png"
 date: 2024-08-03 19:14
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-03-Expoin2024GiveitOneMoreTry_0.png
 tag: Tech
 originalTitle: "Expo in 2024 Give it One More Try"
 link: "https://medium.com/@rolique/expo-in-2024-give-it-one-more-try-1c70dee4391b"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-08-03-Expoin2024GiveitOneMoreTry_0.png)
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 React Native Expo는 모바일 앱 개발 분야에서 많은 관심을 받고 있습니다. 빠른 성장, 원활한 크로스 플랫폼 호환성, 활기찬 커뮤니티를 약속하며 React Native Expo는 전 세계 개발자들의 선택으로 자리잡았습니다. 그러나 어떤 기술이든 도전과 비판을 겪었습니다. 하지만 2024년의 새해가 밝아오면, React Native Expo에 다시 기회를 주는 것이 좋을 시기입니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 옛날 문제들
 
@@ -36,7 +42,18 @@ React Native Expo는 모바일 앱 개발 분야에서 많은 관심을 받고 �
 
 당연히, 예전 Expo 버전의 제약으로 인해 몇 년 전에 개발자들이 Expo 사용을 중단한 것은 타당합니다. 많은 개발자들에게 편리성과 사용 편의성을 제공하는 한편, Expo는 개발 및 빌드 프로세스에 대한 미세 조정을 필요로 하는 프로젝트에는 항상 적합하지는 않았을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 때부터 Expo가 계속 발전하고 개선되고 있다는 사실을 주목할 가치가 있어요. Expo 팀은 개발자들이 제기한 많은 우려점에 대응하며 새로운 기능, 최적화 및 유연성을 소개하여 이후 버전에서 업그레이드되었어요. Expo는 이제 교차 플랫폼 애플리케이션을 빌드하고 배포하며 관리하기 위한 포괄적인 플랫폼으로 발전했어요.
 
@@ -46,7 +63,18 @@ React Native Expo는 모바일 앱 개발 분야에서 많은 관심을 받고 �
 
 ![Expo](/assets/img/2024-08-03-Expoin2024GiveitOneMoreTry_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Managed Workflow 및 Bare Workflow
 
@@ -56,7 +84,18 @@ Bare Workflow. Expo는 더 많은 사용자 정의 및 네이티브 코드 액�
 
 네이티브 코드에 직접 액세스할 수 있는 경우 베어 프로젝트입니다. 다시 말해, android와(또는) ios 폴더가 있는 경우에는 베어 워크플로우를 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Managed Workflow은 플랫폼의 핵심 기능으로, 개발자들에게 간소화된 개발 경험을 제공합니다. Expo 팀은 가능한 많은 프로젝트에 적합하도록 만들기 위해 많은 노력을 기울였습니다.
 
@@ -66,7 +105,18 @@ Expo 프로젝트를 설정하는 것은 Expo CLI 도구 덕분에 비교적 간
 
 노드(Node)와 왓치맨(Watchman) 도구를 설치하고 npx create-expo-app 명령을 실행해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그게 다예요. 이제 응용 프로그램을 사용할 준비가 되었어요. 디렉토리로 이동해서 다음 명령 중 하나를 실행하세요:
 
@@ -79,7 +129,18 @@ Android 또는 iOS 기기에서 프로젝트를 열려면 상점에서 Expo Go�
 
 # Expo 애플리케이션 서비스 (EAS)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Expo EAS는 모바일 앱 개발을 위한 다양한 유용한 기능과 향상 사항을 제공하여 업데이트 중에서 제가 가장 선호하는 업데이트입니다. 코드를 클라우드에서 빌드하고 사인하고 배포할 수 있습니다. 그 강력함과 편의성으로 개발 프로세스가 훨씬 더 효율적이고 즐겁고 빨라지게 됩니다.
 
@@ -93,7 +154,18 @@ Expo EAS는 모바일 앱 개발을 위한 다양한 유용한 기능과 향상 
 
 Expo 프로젝트에 네이티브 코드를 포함하는 라이브러리를 추가하고 싶을 때, EAS Build를 활용하여 Expo의 간소화된 개발 환경을 유지할 수 있습니다. 게다가 Pods 및 기타 네이티브 라이브러리 구성을 조정할 필요가 없습니다. 모든 것이 EAS Build에서 처리됩니다. 그러므로 더 이상 앱을 분리할 필요가 없습니다. 그런데 Expo 팀은 이 프로세스의 이름을 변경했습니다. expo eject 명령은 더 이상 존재하지 않으며 expo prebuild로 대체되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Expo를 사용하려면 항상 오픈 소스이며 무료인 Expo EAS가 필요하지 않습니다. 다른 CI/CD 서비스를 선택할 수 있습니다. 게다가, 제가 언급한대로, Expo의 오픈 소스 도구를 사용하든 말든 React Native 프로젝트 모두에 EAS를 사용할 수 있습니다.
 
@@ -103,7 +175,18 @@ Expo를 사용하려면 항상 오픈 소스이며 무료인 Expo EAS가 필요�
 
 # 개발용 빌드
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신의 애플리케이션을 위해 커스텀 개발 클라이언트를 만들면 표준 Expo Go 런타임에서 제공하는 기능을 확장하고 사용자 정의할 수 있습니다. 다른 말로 하면, 그것은 당신 버전의 "Expo Go"입니다.
 
@@ -113,7 +196,18 @@ Expo를 사용하려면 항상 오픈 소스이며 무료인 Expo EAS가 필요�
 
 사용을 시작하는 단계는 단 두 가지뿐입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 특수 라이브러리 설치
@@ -131,8 +225,18 @@ eas build --profile development
 
 Expo 팀은 라우팅 시스템을 빠르고 쉽게 만들어서 중첩된 네이티브 네비게이션 앱을 만들고 유지 및 확장하기 쉽게 하려고 노력했습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Exp􀑼 􀑽􀑢 Ro􀑣er􀀉 나􀑼􀀉 털머 앱용 웹 􀑵로ㅕ 􀑽스템입니다. 􀑣적􀀉 모􀑼 및 웹 어플리케이션을 위해 설􀀉된 파일 지향적 라우팅 솔루션입니다.
 
@@ -142,7 +246,18 @@ Expo Ro􀑣er를 도입함으로써 개발􀑼는 웹 개발􀀈의 파일 시�
 
 Expo Ro􀑣er 네비게이션은 본연적􀀉 네이티브하며 각 플랫폼에 최적화되어 있습니다. 앱 내의 모든 화면은 자동적으로 딥 링킹을 지원하므로 어떤 루트도 링크를 통해 쉽게 공유할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 애플리케이션에서 SEO에 친화적입니다.
 
@@ -152,7 +267,18 @@ Expo CLI는 Expo Router 애플리케이션의 각 라우트에 대한 정적 유
 
 Expo Router는 전체 네비게이션 구조를 빠르게 에뮬레이션할 수 있는 Jest 유틸리티 세트를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 엑스포는 API 라우트를 발표했어요 —
 
@@ -162,7 +288,18 @@ Expo Router는 전체 네비게이션 구조를 빠르게 에뮬레이션할 수
 
 푸시 알림은 엑스포의 푸시 알림 서비스를 사용하여 모바일 앱에 쉽게 통합할 수 있어요. 엑스포는 앱에서 푸시 알림을 설정하고 사용하는 방법에 대한 포괄적인 문서 및 안내서를 제공해요. 새 앱을 개발하거나 기존 앱에 푸시 알림을 추가하는 경우, 엑스포의 푸시 알림 서비스를 사용하면 사용자와 소통하고 중요한 업데이트와 이벤트에 대해 정보를 제공하는 것이 쉬워져요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 엑스포는 iOS 및 Android 플랫폼에 대한 푸시 알림 설정 시에 발생하는 복잡성의 많은 부분을 추상화 처리합니다. Apple (APNs - Apple Push Notification service) 및 Google (FCM - Firebase Cloud Messaging)로부터 푸시 알림 자격 증명을 획들한 후, 종속성을 설치하고, 기기의 푸시 알림 토큰을 수신하고, 알림 핸들러를 설정하기만 하면 됩니다. 엑스포는 앱의 푸시 알림 설정 방법에 대한 상세 문서를 제공합니다. 앱은 설정 구성에서 어떠한 복잡성도 없이 백그라운드 및 포그라운드 알림을 수신할 수 있습니다. 네이티브 코드 구성, 네이티브 라이브러리의 설치 및 해당 피어 종속성에 대해 걱정할 필요가 없습니다.
 
@@ -172,7 +309,18 @@ Expo Router는 전체 네비게이션 구조를 빠르게 에뮬레이션할 수
 
 Expo 업데이트는 Expo 플랫폼의 라이브러리로, Expo로 제작된 모바일 앱에 대해 OTA(Over-the-Air) 업데이트를 관리하고 제공하는 데 설계되었습니다. 이를 통해 개발자는 전통적인 앱 스토어 업데이트 프로세스를 거치지 않고 사용자의 기기로 앱 업데이트를 직접 배포할 수 있습니다. 이는 버그 수정, 성능 향상 및 새로운 기능을 신속하고 효율적으로 출시하는 데 매우 유용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 엑스포 업데이트는 엑스포의 관리되는 workflow와 완벽하게 호환되어 개발자들이 bare workflow로 이동하지 않아도 기능을 활용할 수 있습니다. 이로 인해 입문자부터 경험 있는 전문가까지 다양한 개발자와 프로젝트에서 접근할 수 있습니다.
 
@@ -182,7 +330,18 @@ Expo 업데이트는 Expo 플랫폼의 라이브러리로, Expo로 제작된 모
 
 # 디버깅
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앱의 JavaScript 코드를 디버깅하려면 Chrome 개발자 도구를 사용할 수 있어요. 개발 빌드와 기본 엔진인 Hermes 엔진을 사용하여 웹 디버깅의 모든 기능을 활용할 수 있어요: 콘솔, 중단점, 소스 탭 및 네트워크 요청 검사 등을 할 수 있어요.
 
@@ -192,7 +351,18 @@ Expo Tools VS Code 확장 프로그램을 사용하면 디버깅과 앱 구성 �
 
 Expo 팀은 Expo Dev Tools 플러그인을 출시했어요. 이 API를 사용하면 라이브러리 제작자와 앱 개발자가 라이브러리 또는 애플리케이션의 다양한 측면을 디버깅하고 상호 작용할 수 있는 브라우저 기반 플러그인을 구성할 수 있어요. 이미 Expo 팀이 Apollo Client, TanStack Query, TinyBase, React Native Async Storage, React Navigation 등과 같은 잘 알려진 도구를 위한 몇 가지 플러그인을 만들었어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Expo SDK 업그레이드
 
@@ -211,7 +381,18 @@ npx expo install --fix
 
 그게 다입니다. Expo는 항상 중요한 변경 사항을 발표합니다(예: https://expo.dev/changelog/2024/01-18-sdk-50#notable-breaking-changes). 업그레이드 중 문제가 발생하면 Expo 문서, 릴리스 노트 또는 커뮤니티 포럼을 참조하여 이를 해결하는 데 도움을 받을 수 있습니다. 코드, 구성 또는 종속성을 조정하여 호환성 문제를 해결해야 할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Expo CLI은 종속성을 스캔하고 미해결된 문제를 강조하는 npx expo-doctor@latest라는 하나의 명령어를 제공합니다.
 
@@ -221,7 +402,18 @@ Expo 팀은 폐지 예정인 기능/기능을 약 6개월 전에 정기적으로
 
 React Native Expo에서 가장 주목할 만한 개선 사항 중 하나는 성능 향상입니다. Expo 팀은 프레임워크를 최적화하는 데 매진하여 시작 시간을 줄이고 렌더링 성능을 향상시키며 메모리 사용량을 최소화했습니다. 이러한 노력 덕분에 Expo 앱은 요구가 많은 시나리오에서도 더욱 부드럽고 빠르게 실행됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 헤르메스는 이제 기본 JavaScript 엔진이 됐어요. 안드로이드 기기에서 React Native 앱을 실행하기 위해 최적화된 오픈 소스 JavaScript 엔진이에요. Facebook에서 개발된 헤르메스는 다양한 최적화 기술을 활용하여 React Native 앱의 성능과 시작 시간을 향상시키기 위해 노력하고 있어요. 헤르메스는 메모리 효율성에 최적화되어 있어 다른 JavaScript 엔진과 비교했을 때 메모리 오버헤드를 줄일 수 있어요.
 
@@ -231,7 +423,18 @@ expo-crypto, expo-haptics, expo-localization 등 일부 모듈은 JSI로 이동�
 
 또한, Expo CLI가 훨씬 더 빨라지고 가벼워졌다는 것을 언급할 가치가 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 강력한 SDK
 
@@ -241,7 +444,18 @@ Expo는 FlashList, Lottie, MapView, Reanimated, Skia, Stripe 등과 같은 다�
 
 # 커뮤니티
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React Native Expo는 전 세계적으로 강력한 온라인 공개를 자랑합니다. 전문 포럼, 토론, 그리고 Discord를 통한 실시간 소통이 있습니다. Reddit 및 Stack Overflow와 같은 플랫폼은 열정적인 개발자들이 아이디어를 교환하고 문제를 해결하며 동료 애호가들에게 지원을 제공하는 활발한 커뮤니티를 운영합니다.
 
@@ -251,7 +465,18 @@ Expo 팀이 작성한 블로그 게시물은 React Native Expo를 최대한 활�
 
 Expo 팀은 정기적으로 베타 버전을 출시하고 여기서 개발자로부터 피드백을 수집합니다. 따라서 모든 개발자가 Expo의 개발에 직접적으로 영향을 미칠 수 있습니다. 그들은 또한 Expo Router와 같은 새로운 모듈에 대한 토론에 개발자들을 환영합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 기타 유용한 기능
 
@@ -263,7 +488,18 @@ Expo 팀은 정기적으로 베타 버전을 출시하고 여기서 개발자로
 
 ![Expoin2024GiveitOneMoreTry_2](/assets/img/2024-08-03-Expoin2024GiveitOneMoreTry_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 미래를 바라볼 때, React Native Expo의 방향은 매우 밝아 보입니다. 성능, 네이티브 통합 및 커뮤니티 지원을 기반으로 한 튼튼한 기반을 갖춘 Expo는 앞으로도 성장하고 발전할 수 있는 위치에 있습니다. 경험이 풍부한 개발자이든 막 시작한 개발자이든 React Native Expo는 아름답고 성능이 우수하며 기능이 풍부한 크로스 플랫폼 애플리케이션을 구축하는 데 매력적인 플랫폼을 제공합니다.
 

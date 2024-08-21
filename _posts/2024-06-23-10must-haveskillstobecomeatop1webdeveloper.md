@@ -3,17 +3,13 @@ title: "상위 1 웹 개발자가 되기 위해 꼭 가져야 할 10가지 기�
 description: ""
 coverImage: "/assets/img/2024-06-23-10must-haveskillstobecomeatop1webdeveloper_0.png"
 date: 2024-06-23 13:02
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-10must-haveskillstobecomeatop1webdeveloper_0.png
 tag: Tech
 originalTitle: "10 must-have skills to become a top 1% web developer"
 link: "https://medium.com/coding-beauty/web-dev-essentials-5982fcf22470"
 isUpdated: true
 ---
-
-
-
-
 
 ![Image](/assets/img/2024-06-23-10must-haveskillstobecomeatop1webdeveloper_0.png)
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 이론적 지식보다는 실제 행동에 초점을 맞춘 것을 알 수 있죠 — 왜냐하면 그것이 중요하기 때문입니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 1. HTML essentials: Create a basic functional web page
 
@@ -44,19 +50,39 @@ isUpdated: true
 - 주석 만들기 및 코드 주석 처리
 - 시맨틱 HTML로 페이지를 더 유의미하게 만들기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일부 사람들은 CSS 때문에 시맨틱 HTML이 무의미하다고 생각하지만, 그들은 틀렸어요.
 
 접근성과 페이지 내용을 검색 엔진에 설명하여 결과 페이지에서 높은 순위를 얻는 데 여전히 중요합니다.
 
-
 ![image](/assets/img/2024-06-23-10must-haveskillstobecomeatop1webdeveloper_1.png)
-
 
 시맨틱 요소가 없다면, 모든 것에 'div'를 사용하는 개발자들처럼 될 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 2. CSS 핵심: 웹 페이지 스타일링
 
@@ -64,7 +90,18 @@ isUpdated: true
 
 ![Before and after](/assets/img/2024-06-23-10must-haveskillstobecomeatop1webdeveloper_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1400/0*OjV0rbJN2AKW1VAh.gif)
 
@@ -82,7 +119,18 @@ isUpdated: true
 - 모든 화면 크기에 대해 멋지게 보이도록 페이지 스타일링하기: 미디어 쿼리, 반응형 이미지
 - 프레임워크로 더 빨리 스타일링하기: Tailwind, Sass
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 3. JavaScript essentials
 
@@ -92,7 +140,18 @@ isUpdated: true
 
 코딩을 처음 시작하신 분들에게:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어떻게:
 
@@ -116,7 +175,18 @@ isUpdated: true
 
 당신은 코딩 기초를 알고 계시겠지만, 브라우저에 특히적인 JS 코드를 작성할 수 있나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래와 같은 방법으로:
 
@@ -131,7 +201,18 @@ isUpdated: true
 
 아래와 같은 방법으로:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 콘솔 로그를 만들고 검사하고 필터링하세요: 정보, 오류, 경고
 - 임시 스크립트 및 작업을 추가하세요
@@ -159,7 +240,18 @@ isUpdated: true
 - CSS를 최적화하세요
 - 웹 글꼴을 최적화하세요: 압축, 스와핑 등.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 6. 자바스크립트 프레임워크: 빠르게 개발하기
 
@@ -178,7 +270,18 @@ React, Angular 또는 Vue인 경우에 관계없이 모두 동일한 기본 개�
 - 컴포넌트를 스타일링합니다
 - 프론트엔드 라우팅을 사용한 SPA 네비게이션을 처리합니다
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 7. 버전 컨트롤: 변경 사항 추적
 
@@ -193,7 +296,18 @@ React, Angular 또는 Vue인 경우에 관계없이 모두 동일한 기본 개�
 - 새 브랜치 생성: 최신 또는 이전 커밋에서
 - 브랜치 병합: 병합 충돌 해결 등.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Git & GitHub
 
@@ -207,7 +321,18 @@ React, Angular 또는 Vue인 경우에 관계없이 모두 동일한 기본 개�
 
 # 8. 데이터베이스에서 데이터 관리하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프론트엔드에 전념하고 있더라도 데이터 처리 및 조작에 대한 이해력을 향상시킬 수 있습니다.
 
@@ -222,11 +347,33 @@ React, Angular 또는 Vue인 경우에 관계없이 모두 동일한 기본 개�
 
 # 9. 서버 측 개발
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 Markdown 형식으로 변경하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 필요 시 빠르게 학습하기
 - 코드에서 독립적으로 문제 해결하기

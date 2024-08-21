@@ -3,16 +3,13 @@ title: "Roku  Jenkins를 사용한 자동화 테스트 방법"
 description: ""
 coverImage: "/trivasor.github.io/assets/no-image.jpg"
 date: 2024-07-09 11:07
-ogImage: 
+ogImage:
   url: /trivasor.github.io/assets/no-image.jpg
 tag: Tech
 originalTitle: "Roku — Automated testing with Jenkins"
 link: "https://medium.com/@davxne/roku-automated-testing-with-jenkins-14c639ee1836"
 isUpdated: true
 ---
-
-
-
 
 ## 소개
 
@@ -24,7 +21,18 @@ isUpdated: true
 - NGINX Reverse Proxy의 기본적인 이해
 - Docker 및 Docker Compose의 기본적인 이해
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 동기부여
 
@@ -37,7 +45,18 @@ Roku는 인터넷을 통해 실시간으로 집으로 비디오 콘텐츠를 스
 - 셋째, 그리고 이 글을 쓰는 이유는 Roku 장치에는 외부 네트워크에서 장치에 연결할 수 없는 보안 메커니즘이 있습니다. 이는 외부 악의적 작용자가 Roku 장치를 통해 네트워크에 액세스하는 것을 방지하기 위한 것입니다. 그래서 해법을 찾기 위해 다양한 반복을 거쳐 작업했습니다.
 - 배포를 위한 애플리케이션을 아카이빙하고 서명하는 기존 프로세스가 있었기 때문에 파이프라인이 애플리케이션을 빌드하고 서명할 필요가 없었습니다. 모든 파이프라인이 하는 일은 기존에 서명된 아카이브에서 테스트를 실행하는 것뿐이었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희가 해결책을 찾아 나가면서 다른 제약 사항과 사실들도 명확해졌는데, 이 중에서도 이 기사와 관련이 있다고 생각되는 것들을 중심으로 정리해 보았습니다. 그래서 이번에는 로컬 네트워크에서 실행되고 있는 Roku 장치와 원격 파이프라인을 어떻게 통합할지에 대한 해결책을 찾아보기로 했습니다.
 
@@ -48,7 +67,18 @@ Jenkins를 사용하여 Roku 장치에서 Appium 테스트를 실행하는 CI/CD
 - 이 작업을 수행하려면 테스트를 실행하기 위해 실제 Roku 장치를 사용해야 합니다. Roku는 현재 개발을 지원하기 위한 시뮬레이터/에뮬레이터를 제공하지 않습니다. 그래서 Appium Roku 드라이버 모듈은 테스트를 실행하기 위해 장치에 연결해야 합니다.
 - 한 걸음 더 나아가 Roku 장치는 개발에 있어서 매우 폐쇄적인 생태계를 가지고 있습니다. 이 장치들은 아티팩트를 업로드하고 자동화된 테스트를 수행하기 위해 IP 주소를 사용하여 연결할 수 있는 방법을 제공합니다. 문제는 이 IP 주소가 해당 장치가 속한 네트워크에서만 접근할 수 있다는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 내용을 요약하면, Appium을 사용하여 Roku 드라이버로 자동화된 테스트를 실행하려면 원격 환경(Jenkins Server)에서 실행 중인 컴퓨터/서버와 동일한 네트워크에 연결된 물리 장치가 필요합니다.
 
@@ -58,7 +88,18 @@ Jenkins를 사용하여 Roku 장치에서 Appium 테스트를 실행하는 CI/CD
 
 # 1. 포트 포워딩
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 처음에 Roku 장치가 인터넷으로부터 차단되어 있다고 생각했습니다. 그래서 장치를 인터넷에 노출시키면 Jenkins 파이프라인이 장치에 연결되어 테스트를 실행할 수 있을 것이라고 생각했습니다. 그래서 우리의 첫 번째 시도는 포트 포워딩을 사용하여 인터넷에서 라우터와 방화벽을 통해 Roku 장치의 IP로 트래픽을 라우팅하는 것이었습니다. 이를 위해 Roku 장치의 IP와 다음 포트를 인터넷에 노출시켜야 했습니다:
 
@@ -69,17 +110,39 @@ Jenkins를 사용하여 Roku 장치에서 Appium 테스트를 실행하는 CI/CD
 
 우리는 기본적으로 라우터의 포트 포워딩 규칙을 수정하여 공용 트래픽이 라우터로 허용되도록 했습니다. 각 라우터마다 다르기 때문에 여기에 예시를 추가하지는 않았지만, 여러분이 구글에서 특정 라우터에 대한 포트 포워딩을 검색하면 몇 가지 예제를 볼 수 있을 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 젠킨스 서버만이 노출된 IP와 포트를 통해 요청을 보낼 수 있도록 하기 위해 보안을 유지하기 위해 소스 IP를 젠킨스가 실행되는 서버의 IP 주소로 설정했습니다. 아래는 이를 고수위에서 보여주는 다이어그램입니다.
 
 안타깝게도 이것만으로는 충분하지 않았습니다. Roku 장치는 여전히 외부 요청을 차단했는데, 장치가 요청이 네트워크 내부에서 오지 않았음을 감지할 수 있었습니다. 이것이 우리를 프록시 접근 방식으로 이끈 이유였습니다.
 
-# 2. 온프레미스 프록시 
+# 2. 온프레미스 프록시
 
 따라서 우리에게 가해진 네트워크 제한을 우회하기 위해, 라우터와 Roku 장치 사이의 중간자 역할을 하는 로컬 네트워크 내에서 실행되는 애플리케이션이 필요했습니다. 이 애플리케이션은 네트워크 외부에서 오는 요청을 라우코 장치로 보내어 마치 네트워크 내부에서 오는 것처럼 보이게 했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 NGINX를 사용하기로 결정했습니다. 우리는 네트워크 안에서 요청을 Roku 장치로 전달하기 위해 NGINX를 역방향 프록시로 사용할 것입니다. NGINX 프록시는 호스트 헤더를 제거하여 장치가 요청이 네트워크 내에서 시작된 것으로 생각하게 할 것입니다. 아래에는 이를 고수준에서 나타낸 다이어그램이 있습니다.
 
@@ -87,9 +150,20 @@ Jenkins를 사용하여 Roku 장치에서 Appium 테스트를 실행하는 CI/CD
 
 NGINX 프록시를 만들기 위해 Docker를 사용했으므로 환경 간 불일치가 발생하지 않습니다. 이것은 Nginx 프록시를 설정하고 실행하기 위해 필요한 다양한 구성 파일입니다.
 
-*roku-proxy.conf*
+_roku-proxy.conf_
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서는 NGINX가 80포트와 8060포트에서 수신하고 해당 요청을 같은 포트로 루쿠(Roku) 장치의 IP 주소로 전달하도록 설정하고 있습니다.
 
@@ -98,7 +172,7 @@ server {
     listen 80 default_server;
     listen [::]:80 default_server;
     server_name _;
-    
+
     server_tokens off;
     location / {
         proxy_pass http://<roku-target-ip>:80; # 루쿠 장치 (HTTP)
@@ -118,7 +192,7 @@ server {
     listen 8060;
     listen [::]:8060;
     server_name _;
-    
+
     server_tokens off;
     location / {
         proxy_pass http://<roku-target-ip>:8060; # 루쿠 장치 (ECP 프로토콜)
@@ -131,9 +205,20 @@ server {
 
 NGINX는 특정 헤더를 제거하기도 합니다. 80포트에서 수신 대기 중인 서버 블록에서는 NGINX에 원본(Jenkins 서버)에서 루쿠 장치로 Authorization, Content-Length 및 Content-Type 헤더를 명시적으로 전달하도록 지시하고 있습니다.
 
-*nginx.conf*
+_nginx.conf_
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기본 nginx.conf 파일입니다. 여기에 추가한 것은 해당 폴더에서 설정 파일을 포함하기 위해 맨 아래에 추가한 마지막 줄뿐입니다.
 
@@ -162,11 +247,22 @@ http {
 }
 ```
 
-*Dockerfile*
+_Dockerfile_
 
 아래 내용은 Dockerfile에서 가져온 것입니다. 여기서 우리는 NGINX 서버를 관련 설정 파일로 구성하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 FROM nginx:1.25.1-alpine
@@ -186,7 +282,18 @@ CMD ["nginx", "-g", "daemon off;"]
 docker build -t roku-nginx-proxy .
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 이미지 실행하기
 
@@ -198,7 +305,18 @@ docker run --rm --name roku-nginx-proxy -p 8000:80 -p 8600:8060 roku-nginx-proxy
 
 위 명령어를 실행한 후 컨테이너가 실행될 것입니다. 컨테이너는 포트 8000과 8600이 노출될 것입니다. 호스트 포트로는 이곳에서 사용 가능한 어떤 포트든 선택할 수 있습니다. 호스트 포트는 콜론 앞의 포트입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 3. 모두 함께 적용하기
 
@@ -208,20 +326,42 @@ docker run --rm --name roku-nginx-proxy -p 8000:80 -p 8600:8060 roku-nginx-proxy
 
 # 보안
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 보안을 유지하기 위해서 우리는 제한된 IP 주소에서의 요청만 수락하도록 해야 합니다.
 
 - 방화벽/라우터와 NGINX 프록시가 Jenkins 서버의 IP 주소에서 80 포트 및 8060 포트로의 요청만 수락하도록 확인하세요. 이를 위해 Jenkins 서버가 IP가 변경될 때마다 IP를 계속 업데이트하는 것을 방지하기 위해 정적 IP를 설정해야 합니다.
 - Roku 장치의 비밀번호를 Jenkins 시크릿 매니저에 저장하세요.
 
-# 주의 사항 
+# 주의 사항
 
 - 온프레미스 네트워크의 공용 IP 주소는 변경될 수 있습니다 (정적 IP 필요)
 - 온프레미스 네트워크의 공용 IP 주소는 ISP에 의해 가려질 수도 있습니다. Google에서 "내 IP는 무엇인가요?"라고 입력했을 때 나오는 IP가 ISP가 노출하는 IP일 수도 있어요.
 - Roku 장치가 응답하지 않을 수 있고 수동으로 재부팅해야 할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 안정성 향상
 

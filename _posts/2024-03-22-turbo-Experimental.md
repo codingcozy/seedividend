@@ -3,17 +3,13 @@ title: "Nextjs 13 Turbo팩 사용하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # 터보 (실험 중)
 
@@ -25,7 +21,18 @@ isUpdated: true
 
 ## 웹팩 로더
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 내장되어 있는 것 이상의 로더 지원이 필요하다면, 많은 웹팩 로더들이 이미 Turbopack과 호환된다. 현재 몇 가지 제한사항이 있습니다:
 
@@ -57,7 +64,18 @@ module.exports = {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 구성을 사용하면 앱에서 변환된 코드를 사용할 수 있습니다:
 
@@ -73,7 +91,18 @@ export default function Home() {
 
 ### 지원되는 로더
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 렌더러들은 Turbopack의 웹팩 로더 구현과 함께 작동하는 것으로 확인되었습니다:
 
@@ -89,7 +118,18 @@ export default function Home() {
 
 외부 패키지를 가져와서 로더 옵션으로 전달해야 하는 경우, 웹팩 로더를 자체적으로 래핑하여 해당 옵션을 지정할 수 있습니다. 이는 임시적인 해결책이며 향후에는 필요하지 않을 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 로더는 @mdx-js/loader를 감싸고 rehypePrism rehype 플러그인을 구성합니다:
 
@@ -124,7 +164,18 @@ module.exports = {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 별칭 해결
 
@@ -145,7 +196,18 @@ module.exports = {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 명령어는 Underscore 패키지를 Lodash 패키지로 가져오는 별칭(alias)를 설정합니다. 다시 말하면, `underscore`에서 Underscore를 가져오는 대신 Lodash 모듈을 불러올 겁니다.
 
@@ -155,7 +217,18 @@ Turbopack은 또한 Node.js의 조건부 익스포트와 유사한 방식으로 
 
 next.config.js를 통해 Turbopack을 확장자 해석을 커스터마이징하여 모듈을 해석할 수 있습니다. 이는 webpack의 resolve.extensions 구성과 유사합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음과 같이 next.config.js 파일의 resolveExtensions 필드를 사용하여 resolve 확장자(extension)를 구성할 수 있습니다:
 
@@ -173,4 +246,15 @@ module.exports = {
 
 Webpack에서 앱을 Turbopack으로 이관하는 방법에 대한 자세한 정보 및 지침은 webpack 호환성에 대한 Turbopack 문서를 참조하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

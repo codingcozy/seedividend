@@ -3,17 +3,13 @@ title: "React에서 S3 버킷에 파일을 업로드하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How to upload files on an s3 bucket in React js"
 link: "https://medium.com/how-to-react/how-to-upload-files-on-an-s3-bucket-in-react-js-97a3ccd519d1"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/Howtouploadfilesonans3bucketinReactjs_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 - aws-sdk
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단계 1: S3 버킷 설정하기
 
@@ -33,7 +40,18 @@ Amazon S3를 사용하려면 먼저 AWS 계정에 S3 버킷을 생성해야 합�
 
 단계 2: 버킷 공개하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 파일을 공개적으로 접근 가능하게 하기 위해 버킷 정책을 편집해야 합니다. 버킷을 열고 권한 탭으로 이동하여 버킷 정책의 편집 버튼을 클릭하고 아래 JSON을 붙여넣어주세요.
 
@@ -43,7 +61,18 @@ Amazon S3를 사용하려면 먼저 AWS 계정에 S3 버킷을 생성해야 합�
 
 단계 3: CORS 정책 편집
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 허가 탭 바닥에 Cross-origin resource sharing (CORS)를 찾을 수 있어요. 프론트엔드에서 파일 업로드를 가능하게 하려면 아래 JSON을 붙여넣기해야 해요. 그렇지 않으면 파일을 업로드할 때 CORS 오류가 발생할 거예요.
 
@@ -55,7 +84,18 @@ AWS SDK for JavaScript를 설치하면 React JS 애플리케이션이 S3와 통�
 npm install aws-sdk
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 5단계: React JS에서 파일 업로더 만들기
 
@@ -65,7 +105,18 @@ npm install aws-sdk
 
 6단계: aws-sdk 가져오기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 코드에 AWS SDK를 가져오세요.
 
@@ -77,7 +128,18 @@ import AWS from "aws-sdk";
 
 이제 AWS 자격 증명을 포함하고 S3에 파일을 업로드하는 함수를 만들겠습니다. 함수의 이름은 uploadFile이며, 위의 코드에서 생성된 업로드 버튼을 클릭하면 트리거됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 문자열들을 다음과 같이 대체해야 해요
 
@@ -90,7 +152,18 @@ import AWS from "aws-sdk";
 
 참고: 코드에 시크릿 키와 액세스 키를 추가했지만, 코드에 포함하는 것은 좋지 않아요. .env 파일에 저장하고 그것들에 접근하는 것이 좋아요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어떠한 쿼리가 있으면 LinkedIn을 통해 연락 주세요.
 

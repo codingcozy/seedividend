@@ -3,16 +3,13 @@ title: "인텔 맥에서 Mojo 실행하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-13-RunningMojoonIntel-Mac_0.png"
 date: 2024-07-13 01:44
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-RunningMojoonIntel-Mac_0.png
 tag: Tech
 originalTitle: "Running Mojo on Intel-Mac"
 link: "https://medium.com/@nik.vee.p/running-mojo-on-intel-mac-82324f2e557b"
 isUpdated: true
 ---
-
-
-
 
 ![Mojo](/assets/img/2024-07-13-RunningMojoonIntel-Mac_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 AI 엔지니어로써 잠재적인 속도 향상이 매력적하지만, 2020년형 Intel 칩이 장착된 맥북으로 작업하는 제한으로 어려움을 겪고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저의 맥(인텔 기반)에 Mojo를 설치하려고 하니 다음과 같은 오류가 발생했습니다.
 
@@ -32,7 +40,18 @@ Mojo 개발에는 강력하지만 "구식" 시스템을 사용하고 있는 피�
 
 그래서 어떤 해결책을 도출해야 할 것 같아요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 인텔 맥에서 Mojo를 작동시키는 방법
 
@@ -42,7 +61,18 @@ Mojo는 리눅스 환경에서 실행할 수 있기 때문에, 해결 방법은 
 
 그럼 Mojo에서 개발을 시작해봅시다. 🚀
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 시작하기
 
@@ -52,7 +82,18 @@ Mojo는 리눅스 환경에서 실행할 수 있기 때문에, 해결 방법은 
 
 우선, Mojo 개발을 진행할 디렉토리를 열고 사용하세요. 제 경우에는 Mojo를 위한 폴더를 만들고, 그 안에 first-project라는 새 폴더를 만들었습니다. 또한 Visual Studio Code에서 Mojo 확장 프로그램을 설치하여 개발하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 디렉토리 안에 Docker 파일(확장자 없음)을 만들겠습니다. Modular과 Mojo는 개발을 위해 Python 3.8–3.11을 필요로 합니다. 저는 Python 3.10을 사용할 것입니다.
 
@@ -80,7 +121,18 @@ CMD ["/bin/bash"]
 
 위 단계를 완료하면, Dockerfile이 있는 디렉토리에서 Docker 이미지를 빌드하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 도커 빌드 명령어를 사용해서 "mojo-dev" 이미지를 생성하세요.
@@ -93,7 +145,16 @@ CMD ["/bin/bash"]
 
 도커 실행 -it -v $(pwd):/app mojo-dev
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 터미널 창에서 Docker 컨테이너의 루트를 확인할 수 있어요:
 
@@ -104,7 +165,16 @@ CMD ["/bin/bash"]
 python --version
 mojo --version
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Mojo에서 개발을 시작해도 좋을 것 같네요.
 
@@ -117,7 +187,16 @@ def main():
     result = add_two_numbers(1, 2);
     print("결과는: ", result)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파일을 실행하려면,
 
@@ -127,7 +206,16 @@ mojo run first.mojo
 
 ![](/assets/img/2024-07-13-RunningMojoonIntel-Mac_5.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 마무리 글
 
@@ -137,10 +225,20 @@ Mojo를 내 프로그램에 통합해서 속도 향상을 체험하고 싶어요
 
 AI 및 프로그래밍 작업을 가속화하는 팁에 대한 더 많은 소식을 기대해 주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 연락처
 
 질문이 있으시면 저의 웹사이트를 통해 연락 주세요: [https://mont-ops.com](https://mont-ops.com) .
 
 감사합니다! 행복한 코딩 되세요!
+```

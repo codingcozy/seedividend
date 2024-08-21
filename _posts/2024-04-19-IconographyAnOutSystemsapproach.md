@@ -3,17 +3,13 @@ title: "아이콘 그래피 아웃시스템즈 방식"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Iconography An OutSystems approach"
 link: "https://medium.com/@rtbernardo/iconography-an-outsystems-approach-b145eab78449"
 isUpdated: true
 ---
-
-
-
-
 
 아이콘. 우리 모두 한 번쯤은 경험한 적이 있죠. 아웃시스템의 폰트 어썸(Font Awesome)를 사용하거나 자체 아이콘 폰트를 만들면서 말이죠.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 나는 개인적으로 내게 도움이 되는 팁과 요령들을 정리했어요. 아이콘 폰트를 만들기 시작하는 순간부터 최신 상태를 유지해야 하는 순간까지.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 아이콘 폰트
 
@@ -33,7 +40,18 @@ OutSystems와 함께 다른 것을 사용하시나요? Iconly나 Fontello 같은
 
 만약 정말 많은 기사들이 존재하지 않았다면, 이것을 하는 장점에 대해 글을 쓸 수 있었을텐데 아쉽군요. 하지만 이미 많은 기사들이 존재하기 때문에, 독자의 시간을 그렇게 많이 잡아먹지 않고 몇 가지 장점을 강조하고 싶습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 확장성 - 일반 글꼴로 작동하여 품질을 잃지 않고 쉽게 크기를 조절할 수 있습니다. 글꼴 크기를 늘리기만 하면 됩니다.
 - 사용자 정의 - CSS를 사용하여 다른 글꼴처럼 스타일을 지정할 수 있습니다. 이 유연성은 아이콘을 표시하는 방식을 일관되게 만듭니다.
@@ -45,7 +63,18 @@ OutSystems와 함께 다른 것을 사용하시나요? Iconly나 Fontello 같은
 
 ## Icomoon의 Do’s and Don’t’s
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 채우기! 선이 아닌 채우기 - 아이콘이 올바른 형식에 있는지 확인해주세요 (자세한 내용은 여기를 참조하세요). 이 문제를 해결하는 가장 빠른 방법은 전체 세트를 업로드한 다음 Icomoon에 의해 제거된 아이콘을 수동으로 수정하는 것입니다. 저는 개인적으로 인크스케이프를 사용하는 것을 선호합니다.
 
@@ -55,7 +84,18 @@ OutSystems와 함께 다른 것을 사용하시나요? Iconly나 Fontello 같은
 
 ![색상 제거](/assets/img/IconographyAnOutSystemsapproach_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 네이밍 규칙 — 아이콘 폰트에는 분명한 이름과 접두사를 사용하고, 아이콘 이름을 건드리지 말아주세요. 가능한 간단하게 유지해주세요.
 - CSS 선택자 — 기본적으로 Icomoon은 속성 선택자를 사용하여 CSS 선택자를 생성합니다. 이것을 `i` 요소 선택기로 변경할 수 있습니다. 개인적으로 두 가지 모두 사용하는 것을 좋아합니다. OutSystems의 Mobile 및 Reactive Web 앱에서는 HTML Element 위젯을 사용하여 고유한 아이콘 요소를 만들 수 있습니다. 어떻게 하는지 잘 모르겠나요? 이 튜토리얼을 확인해보세요!
@@ -66,7 +106,18 @@ OutSystems와 함께 다른 것을 사용하시나요? Iconly나 Fontello 같은
 
 ![아이콘 표현 방식](/assets/img/IconographyAnOutSystemsapproach_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 아이콘 폰트 관리
 
@@ -76,7 +127,18 @@ OutSystems와 함께 다른 것을 사용하시나요? Iconly나 Fontello 같은
 
 다음 접근 방식은 아이콘을 빠르게 찾는 방법을 제공하면서도 유지 보수 비용이 낮은 특히 유용한 것으로 입증되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아이쿠문은 필요한 모든 자원을 제공하는데 더해 프로젝트 파일에 접근하여 더 많은 정보를 제공할 수 있습니다. 아이쿰에서 폰트를 다운로드할 때에는 반드시 프로젝트도 함께 다운로드해야 합니다. 이 프로젝트는 모든 아이콘 폰트 정의가 담긴 JSON 파일입니다. 어떤 종류의 정보를 반환하는지 확인하려면 다운로드 버튼을 클릭하세요.
 
@@ -86,7 +148,18 @@ OutSystems와 함께 다른 것을 사용하시나요? Iconly나 Fontello 같은
 
 ![아웃시스템 접근을 통한 아이콘 사용](/assets/img/IconographyAnOutSystemsapproach_5.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트 파일을 텍스트 편집기로 열어서, 메인 오브젝트를 복사하고 해당 오브젝트를 기반으로 OutSystems 구조를 생성해보세요.
 
@@ -96,7 +169,18 @@ OutSystems와 함께 다른 것을 사용하시나요? Iconly나 Fontello 같은
 
 ![이미지](/assets/img/IconographyAnOutSystemsapproach_7.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이렇게 하면 방금 추가한 CSS와 긴밀하게 연결된 Icomoon 프로젝트에 추가한 모든 아이콘을 정확히 반환하는 서버 액션을 생성했습니다.
 
@@ -106,7 +190,18 @@ Live 스타일 가이드를 열고 아이콘에 대한 페이지를 생성해보
 
 ![아이콘](/assets/img/IconographyAnOutSystemsapproach_8.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 HTML Element 위젯을 사용하여 'icon' 요소를 만들어보세요. 클래스는 접두사 (예: "med-")와 아이콘 이름 (예: "home2")의 조합이어야 합니다. 발행 후 결과를 확인해보세요.
 
@@ -116,7 +211,18 @@ HTML Element 위젯을 사용하여 'icon' 요소를 만들어보세요. 클래�
 
 ![아이콘 디자인](/assets/img/IconographyAnOutSystemsapproach_10.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신은 엑셀 파일을 사용하거나 정적이나 일반 엔터티를 사용하여 이를 수행할 수도 있습니다. 그러나 새로운 아이콘이 추가될 때마다 그러한 데이터 세트를 업데이트해야하며 제대로 수행해야 합니다. 이는 피할 수 있는 추가적인 단계이며 때로는 추가적인 응용 프로그램 오브젝트도 피할 수 있습니다.
 
@@ -126,7 +232,18 @@ HTML Element 위젯을 사용하여 'icon' 요소를 만들어보세요. 클래�
 
 세트에 더 많은 아이콘을 추가하려면 해당 세트 내 동일한 위치의 오른쪽 상단 햄버거 아이콘을 클릭하십시오. 현재 세트에 더 많은 아이콘을 추가하려면 가져오기를 사용하십시오. 또한 Icomoon에 대한 팁을 염두에 두십시오.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![아이콘 폰트 다운로드](/assets/img/IconographyAnOutSystemsapproach_11.png)
 
@@ -136,7 +253,18 @@ HTML Element 위젯을 사용하여 'icon' 요소를 만들어보세요. 클래�
 
 수행할 수 있는 빠른 두 가지 사용자 정의는 글꼴 크기와 색상을 적용하는 것입니다. i HTML 요소에 직접 유틸리티 클래스를 적용할 수 있지만, 같은 클래스를 반복해서 사용해야 합니다. 때로는 자식 요소가 부모로부터 속성을 상속받길 원할 수 있기 때문에 대안으로 부모 요소에 두 개의 새로운 CSS 사용자 지정 속성(일명 CSS 변수)을 만들고, 아이콘에 해당 값을 상속하도록 하는 것이 좋을 수 있습니다. 시작해 봅시다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, 폰트 크기 및 색상의 목록 두 개와 드롭다운 두 개를 만드세요. 각 값은 아이콘이 상속해야 할 CSS 변수를 가리킵니다.
 
@@ -146,12 +274,21 @@ HTML Element 위젯을 사용하여 'icon' 요소를 만들어보세요. 클래�
 
 WidgetId, PropertyName 및 PropertyValue 세 개의 매개변수를 허용하는 GalleryChangeProperty라는 클라이언트 액션을 만드세요. 이 액션을 사용하여 갤러리에서 식별하고 새로운 속성을 추가할 것입니다. 요약하면, 우리는 CSS 변수를 중첩시키고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-const gallery = OutSystems.OSUI.Patterns.GalleryAPI.GetGalleryById(
-  $parameters.WidgetId
-);
+const gallery = OutSystems.OSUI.Patterns.GalleryAPI.GetGalleryById($parameters.WidgetId);
 
 if (gallery) {
   const property = (() => {
@@ -164,10 +301,7 @@ if (gallery) {
   })();
 
   if ($parameters.PropertyValue && property) {
-    gallery._selfElem.style.setProperty(
-      property,
-      `var(${$parameters.PropertyValue})`
-    );
+    gallery._selfElem.style.setProperty(property, `var(${$parameters.PropertyValue})`);
   } else {
     gallery._selfElem.style.removeProperty(property);
   }
@@ -180,7 +314,18 @@ if (gallery) {
 
 ![이미지2](/assets/img/IconographyAnOutSystemsapproach_15.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 속성 값들은 상속되기 때문에 아이콘 폰트 크기 및/또는 색상 속성 값에 대해 그것들을 가리킬 수 있습니다. 그 값들이 존재하지 않으면 항상 기본 값으로 되돌아갈 수 있습니다.
 

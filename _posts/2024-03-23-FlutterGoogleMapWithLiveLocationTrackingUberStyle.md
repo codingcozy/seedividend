@@ -3,17 +3,13 @@ title: "Google 지도를 사용하여 실시간 위치 추적하는 플러터 �
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Flutter Google Map With Live Location Tracking  Uber Style"
 link: "https://medium.com/flutter-community/flutter-google-map-with-live-location-tracking-uber-style-12da38771829"
 isUpdated: true
 ---
-
-
-
-
 
 이 레슨을 통해 플러터에서 Google 지도를 사용하는 방법과 사용자 정의 이미지 마커 설정 및 경로 방향 폴리선을 그리는 방법을 배우게 될 거에요. 지도에 실시간 위치 업데이트를 추가하세요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 안드로이드 및 iOS 모두에서 위치 추적을 가능하게 하려면, 패키지의 README에서 안드로이드 매니페스트 파일과 iOS Info.plist에 대한 단계를 따라 환경을 적절히 준비하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 설정이 완료되면 의존성은 아래와 같이 보입니다 👇
 
@@ -41,7 +48,18 @@ dependencies:
 
 OrderTrackingPage라는 StatefulWidget을 만들어 해당 State 클래스를 생성하세요. 필요한 패키지를 가져오고 이 튜토리얼을 위해 하드코딩된 출발지 및 목적지 위치 정보도 추가해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import 'dart:async';
@@ -90,7 +108,18 @@ class OrderTrackingPageState extends State<OrderTrackingPage> {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/Flutter-Google-Map-With-Live-Location-Tracking-—-Uber-Style_1.png" />
 
@@ -118,7 +147,18 @@ void getPolyPoints() async {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 @override
@@ -146,7 +186,18 @@ GoogleMap(
 
 <img src="/assets/img/Flutter-Google-Map-With-Live-Location-Tracking-—-Uber-Style_2.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 지도에서 실시간 위치 업데이트 🔴
 
@@ -184,7 +235,18 @@ void getCurrentLocation() async {
 
 반드시 initState에서 getCurrentLocation을 호출해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 void initState() {
@@ -236,8 +298,18 @@ body: currentLocation == null
 
 <img src="https://miro.medium.com/v2/resize:fit:1280/1*lq4JEPj6y4N7RTP1wNMjdg.gif" />
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기능으로 이동한 다음 위치를 가리킬 때 "고속도로 주행"을 선택하세요. 나는 이 고속도로 주행에 따라 출발지 및 도착지 위치를 사용하고 있어.
 
@@ -250,7 +322,18 @@ static const LatLng sourceLocation = 여러분이 선택한 위치
 static const LatLng destination = 여러분이 선택한 위치
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 커스텀 마커/핀 추가하기 📍
 
@@ -287,7 +370,18 @@ void setCustomMarkerIcon() {
 
 initState에서 setCustomMarkerIcon을 호출하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 void initState() {
@@ -326,5 +420,15 @@ position: destination,
 
 <img src="https://miro.medium.com/v2/resize:fit:1280/1*033cnsS3JIBh_Z847oqFSw.gif" />
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

@@ -3,17 +3,13 @@ title: "Python으로 WhatsApp에서 AI를 사용하여 자신 복제하는 방�
 description: ""
 coverImage: "/assets/img/2024-07-12-CloningYourselfonWhatsAppwithAIinPython_0.png"
 date: 2024-07-12 20:13
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-12-CloningYourselfonWhatsAppwithAIinPython_0.png
 tag: Tech
 originalTitle: "Cloning Yourself on WhatsApp with AI in Python"
 link: "https://medium.com/@crisvelasquez/cloning-yourself-on-whatsapp-with-ai-in-python-7eea05f60fe6"
 isUpdated: true
 ---
-
-
-
-
 
 ![Cloning Yourself on WhatsApp with AI in Python](/assets/img/2024-07-12-CloningYourselfonWhatsAppwithAIinPython_0.png)
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 이 글의 구성은 다음과 같습니다:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 1. 환경 설정
 
@@ -36,7 +42,18 @@ isUpdated: true
 
 ## 단계 2. Twilio WhatsApp 샌드박스 설정
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Twilio 콘솔에 로그인합니다.
 - ‘All Products & Services’ -> ‘Programmable Messaging’ -> ‘Try it Out’ -> ‘Try WhatsApp’로 이동합니다.
@@ -49,17 +66,39 @@ Ngrok은 로컬 개발 환경으로 안전한 터널을 생성하여 로컬 서�
 
 이는 Twilio와 같은 서비스와의 웹훅 통합을 테스트하는 데 특히 유용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1. ngrok을 ngrok.com/download에서 다운로드하세요.
 
 2. 다운로드한 파일 압축 해제: 다운로드 후 ngrok 파일을 압축 해제하세요.
 
-3. Ngrok 인증: ngrok을 사용하기 전에 ngrok 인증 토큰을 사용하여 인증해야 합니다. ngrok 대시보드에서 인증 토큰을 찾을 수 있습니다. 터미널이나 명령 프롬프트를 열고 다음 명령을 실행하여 ngrok 인증 토큰을 실제 ngrok 인증 토큰으로 바꿔치기하세요: 
+3. Ngrok 인증: ngrok을 사용하기 전에 ngrok 인증 토큰을 사용하여 인증해야 합니다. ngrok 대시보드에서 인증 토큰을 찾을 수 있습니다. 터미널이나 명령 프롬프트를 열고 다음 명령을 실행하여 ngrok 인증 토큰을 실제 ngrok 인증 토큰으로 바꿔치기하세요:
 
 [2024-07-12-CloningYourselfonWhatsAppwithAIinPython_1.png](/assets/img/2024-07-12-CloningYourselfonWhatsAppwithAIinPython_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. 포트 5000을 터널링하기 위해 Ngrok 실행: Flask 애플리케이션은 일반적으로 기본적으로 포트 5000에서 실행됩니다. 따라서 이 포트를 터널링할 필요가 있습니다. 터미널이나 명령 프롬프트에서 ngrok이 위치한 디렉토리로 이동한 후 다음 명령을 실행하세요:
 
@@ -73,8 +112,18 @@ ngrok http 5000
 ./ngrok http 5000
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-12-CloningYourselfonWhatsAppwithAIinPython_2.png)
 
@@ -85,8 +134,18 @@ ngrok http 5000
 - 애플리케이션을 테스트하는 동안 ngrok를 계속 실행하십시오. ngrok를 중지하면 전달 URL이 작동하지 않게 되며 새로운 전달 URL로 Twilio의 웹훅 URL을 업데이트해야 합니다.
 - 무료 버전의 ngrok는 임시 URL을 제공하며, ngrok를 다시 시작할 때마다 변경됩니다. 장기간 테스트 또는 개발에 안정적인 URL이 필요한 경우 유료 ngrok 플랜으로 업그레이드를 고려해보세요.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 4. Twilio 샌드박스 설정하기
 
@@ -98,7 +157,18 @@ ngrok http 5000
 
 ## 단계 5. Twilio 자격 증명 얻기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Twilio 대시보드에서 "설정"으로 이동하여 "계정 SID" 및 "인증 토큰"을 메모해주세요. 이 정보는 Python에서 API 요청을 인증하는 데 사용됩니다.
 
@@ -108,7 +178,18 @@ Twilio 대시보드에서 "설정"으로 이동하여 "계정 SID" 및 "인증 �
 
 OpenAI의 모델과 상호 작용하려면 API 자격 증명을 획득해야 합니다. 이를 통해 요청이 인증됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-12-CloningYourselfonWhatsAppwithAIinPython_5.png" />
 
@@ -118,8 +199,18 @@ OpenAI의 모델과 상호 작용하려면 API 자격 증명을 획득해야 합
 
 코딩을 시작하기 전에 몇 가지 라이브러리를 설치해야 합니다. 터미널이나 명령 프롬프트를 열고 다음 명령을 입력하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 pip install flask twilio openai
@@ -131,8 +222,18 @@ pip install flask twilio openai
 
 플레이스홀더를 실제 Twilio 및 OpenAI 자격 증명으로 교체해주세요.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 from flask import Flask, request
@@ -154,12 +255,22 @@ openai_api_key = ''
 
 ## 2.3. 플라스크 어플리케이션 설정
 
-우리는 Flask를 사용하여 웹 서버를 생성하여 새로운 WhatsApp 메시지가 도착할 때 Twilio가 호출할 수 있는 URL 엔드포인트(라우트)를 정의하는데 사용합니다. 
+우리는 Flask를 사용하여 웹 서버를 생성하여 새로운 WhatsApp 메시지가 도착할 때 Twilio가 호출할 수 있는 URL 엔드포인트(라우트)를 정의하는데 사용합니다.
 
 파이썬 파일의 자격 증명들 아래에서 Flask 어플리케이션을 초기화하고 업로드를위한 디렉토리를 설정합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 app = Flask(__name__)
@@ -168,13 +279,24 @@ uploads_dir = 'uploads'
 os.makedirs(uploads_dir, exist_ok=True)
 ```
 
-이 코드 라인은 Flask 클래스의 인스턴스를 생성합니다. __name__은 Python의 특별한 변수로, 모듈로 import되었을 때는 모듈의 이름을 가리키지만, 스크립트가 직접 실행될 때는 `__main__`으로 설정됩니다.
+이 코드 라인은 Flask 클래스의 인스턴스를 생성합니다. **name**은 Python의 특별한 변수로, 모듈로 import되었을 때는 모듈의 이름을 가리키지만, 스크립트가 직접 실행될 때는 `__main__`으로 설정됩니다.
 
 Flask 및 첫 Flask 애플리케이션을 설정하는 방법에 대해 더 많이 알아 보려면 공식 Flask 문서를 참조하십시오.
 
 ## 2.4. 트위리오(Twilio)와 WhatsApp 통합하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Twilio는 WhatsApp과 프로그래밍적으로 상호 작용하는 간편한 방법을 제공합니다. Twilio의 WhatsApp 샌드박스를 사용하면 WhatsApp 비즈니스 API를 직접 설정해야 하는 복잡성 없이 메시지를 보내고 받을 수 있습니다.
 
@@ -184,7 +306,18 @@ WhatsApp을 Twilio와 통합하려면 SMS, 음성, 비디오, 이메일 및 What
 
 여기 작동 방식의 간소화된 개요입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 플라스크 애플리케이션은 서버에서 실행되며 특정 경로에서 수신되는 HTTP POST 요청을 수신합니다.
 - Twilio는 WhatsApp 번호가 메시지를 수신할 때마다 해당 경로로 HTTP POST 요청을 보냅니다.
@@ -196,7 +329,18 @@ Twilio와 WhatsApp을 통합하려면 WhatsApp용 Twilio API 문서를 참조하
 
 이러한 URL은 서버에서 가져와 처리할 수 있는 미디어 콘텐츠를 가리킵니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Twilio를 사용하여 미디어 메시지를 수신하는 방법에 대한 자세한 내용은 Twilio를 사용하여 미디어 메시지를받는 섹션을 참조하십시오.
 
@@ -211,7 +355,18 @@ def reply_whatsapp():
 
 reply_whatsapp 함수 내에서 수신된 메시지를 처리하고 그것들을 저장할 위치를 설정하기 시작하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 플라스크에서 수신 메시지를 처리하려면 다음을 수행해야 합니다:
 
@@ -223,7 +378,18 @@ reply_whatsapp 함수 내에서 수신된 메시지를 처리하고 그것들을
 
 이러한 수신 메시지를 처리하는 방법에 대한 자세한 내용은 Twilio의 메시지 수신 및 답장 가이드를 확인해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 conversation_histories = {}
@@ -244,7 +410,18 @@ def reply_whatsapp():
 - 텍스트용 GPT-4: 이러한 모델은 입력에 기반하여 인간과 같은 텍스트를 이해하고 생성할 수 있습니다. WhatsApp 봇의 맥락에서는 텍스트 메시지에 대한 답변을 생성하는 데 사용할 수 있습니다.
 - 이미지용 GPT-4 비전: 이미지와 같은 미디어를 처리할 때 모델의 비전 기능을 사용하여 이미지의 내용을 이해하고 설명을 제공할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대화를 관리하기 위해 각 채팅의 컨텍스트를 저장하기 위해 conversation_histories 사전을 사용합니다.
 
@@ -254,7 +431,18 @@ def reply_whatsapp():
 
 대화 기록을 유지하는 것은 우리의 AI가 상호 작용 과정에서 더 일관되고 관련성 있는 응답을 생성할 수 있도록 컨텍스트를 유지하는 데 도움이 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어떻게 만들까요:
 
@@ -266,7 +454,18 @@ def reply_whatsapp():
 
 이제 모든 것을 완성된 코드로 조합해 봅시다. 다음은 전체 스크립트가 어떻게 보일지에 대한 자세한 설명이 포함된 것입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 from flask import Flask, request
@@ -345,7 +544,7 @@ def reply_whatsapp():
             # Send the request to the OpenAI API
             openai_response = requests.post("https://api.openai.com/v1/chat/completions", headers=headers, json=payload)
             description = openai_response.json().get('choices')[0].get('message').get('content') if openai_response.ok else "Failed to get a description from OpenAI."
-            
+
             # Update the user's conversation history with the image description
             user_history.append({"role": "assistant", "content": description})
             conversation_histories[from_number] = user_history
@@ -394,7 +593,7 @@ def encode_image(image_path):
 
 if __name__ == '__main__':
     app.run(debug=True, use_reloader=False)
-``` 
+```
 
 # 3. OpenAI 어시스턴트로 자동화하기
 
@@ -402,7 +601,18 @@ if __name__ == '__main__':
 
 OpenAI 어시스턴트 사용의 장점은 더 정확하게 파일을 첨부하고 동작을 수정하여 개인 커뮤니케이션 스타일을 가장 유사하게 모방할 수 있다는 데 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 3.1 대화 기록 정리하기
 
@@ -412,13 +622,35 @@ OpenAI 어시스턴트 사용의 장점은 더 정확하게 파일을 첨부하�
 
 고려해야 할 주요 사항:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 3.2 특정 사람의 대화 스타일을 복제할 수 있는 Open AI 어시스턴트 생성
 
 특정 사람의 대화 스타일을 과거 채팅 데이터를 기반으로 재현할 수 있는 AI 어시스턴트를 만드는 방법:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - WhatsApp 대화 기록을 구문 분석하고 OpenAI가 훈련에 사용할 수 있는 형식으로 변환합니다.
 - openai.File.create() 메서드를 사용하여 이 대화 기록을 OpenAI에 업로드하고 이를 사용하여 사용자 정의 어시스턴트를 훈련시킵니다.
@@ -470,7 +702,18 @@ assistant = client.beta.assistants.create(
 )
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 OpenAI 어시스턴트를 사용하여 WhatsApp 대화를 자동화하는 방법을 자세히 살펴보고 싶은 분들을 위해 www.entreprenerdly.com에서 상세한 안내가 제공되고 있어요:
 
@@ -480,7 +723,18 @@ OpenAI 어시스턴트를 사용하여 WhatsApp 대화를 자동화하는 방법
 
 훈련된 OpenAI 어시스턴트를 Twilio API와 통합하여 WhatsApp 메시지에 응답하도록 설정하는 것에 대해 알아봐요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 통합하는 방법:
 
@@ -495,7 +749,18 @@ OpenAI 어시스턴트를 사용하여 WhatsApp 대화를 자동화하는 방법
 - requests 라이브러리를 사용하여 Twilio 번호로 보낸 이미지를 검색하고 OpenAI API와 상호 작용합니다.
 - 어시스턴트로부터 응답을 사용자에게 보내기 위해 대화 기록을 유지합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 from flask import Flask, request
@@ -551,7 +816,18 @@ if __name__ == '__main__':
 
 ### 4.1 고객 지원 자동화
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자주 묻는 질문과 흔한 문제에 대한 대답을 자동화하여 고객 지원의 응답 시간과 효율성을 높일 수 있습니다.
 
@@ -564,7 +840,18 @@ if __name__ == '__main__':
 자원:
 이미 개발된 솔루션을 사용하려면 Salesforce의 AI 기반 고객 관계 관리 솔루션인 Einstein AI를 확인해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 4.2 전자 상거래 챗봇
 
@@ -576,7 +863,18 @@ if __name__ == '__main__':
 - 대화형 인공 지능을 사용하여 고객이 구매 프로세스를 안내하거나 상품을 업셀링/크로스셀링 할 수 있습니다.
 - 채팅 인터페이스를 통해 사용자가 주문을 직접 할 수 있도록 거래 기능을 구현합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리소스:
 이미 개발된 솔루션을 위해 Magento와 Shopify은 AI를 전자 상거래 플랫폼에 통합하기 위한 API 및 개발자 리소스를 제공합니다.
@@ -587,7 +885,18 @@ if __name__ == '__main__':
 
 구현:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - AI를 프로그램하여 정신 건강에 대한 언어를 인식하고 지원 자원을 제공하도록 합니다.
 - 기밀을 보장하고 전문적인 도움 링크를 제공합니다.
@@ -600,7 +909,18 @@ if __name__ == '__main__':
 
 컨셉을 설명하고 질문에 답변하며 언어 학습을 돕는 대화형 AI로 교육 자료를 보강하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 구현:
 
@@ -612,7 +932,18 @@ if __name__ == '__main__':
 
 ## 4.5 이벤트 계획과 알림
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 친절한 톤으로 번역해보겠습니다.
 
@@ -626,7 +957,18 @@ if __name__ == '__main__':
 자원:
 이미 개발된 솔루션의 경우 Google Calendar API는 이벤트를 프로그래밍 방식으로 관리하는 기능을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 5. 도전과 한계
 
@@ -636,7 +978,18 @@ if __name__ == '__main__':
 
 도전: 민감한 개인 데이터를 처리하는 것은 개인정보 보호 법 및 보안 조치를 엄격히 준수하여 데이터 침해를 방지해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 고려 사항:
 
@@ -648,7 +1001,18 @@ if __name__ == '__main__':
 
 도전 과제: AI 모델이 긴 또는 복잡한 대화에서 맥락과 일관성을 유지하는 것은 도전적일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 고려 사항:
 
@@ -660,7 +1024,18 @@ if __name__ == '__main__':
 
 도전: 자연어는 종종 모호하며, AI 모델은 사용자 의도나 감정을 오해할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 고려해야 할 사항:
 
@@ -672,7 +1047,18 @@ if __name__ == '__main__':
 
 도전 과제: 사용자 수가 증가함에 따라 성능과 확장성을 유지하는 것이 어려워질 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 고려해야 할 사항:
 
@@ -684,7 +1070,18 @@ if __name__ == '__main__':
 
 과제: AI의 개인 커뮤니케이션에서 윤리적 문제가 발생할 수 있습니다. 예를 들어 사람을 흉내내거나 인간 상호작용의 침해가 될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 고려사항:
 
@@ -696,7 +1093,18 @@ if __name__ == '__main__':
 
 과제: 현재 AI 모델은 복잡한 언어 뉘앙스, 관용구 및 문화적 언급을 이해하는 데 제약이 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 고려 사항:
 
@@ -708,7 +1116,18 @@ if __name__ == '__main__':
 
 자신을 복제하는 개념은 의사 소통을 관리하는 것을 넘어, 자동으로 작동할 수 있는 대체 디지털 존재를 만드는 것입니다. 언젠가 그 대체 존재가 우리 대신에 일과 개인 생활의 측면을 처리할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기술, 철학적 및 규제적 도전 과제로 가득한 여정은 신중하게 탐색되어야 합니다. 인상적인 기술이기는 하지만 결함이 없는 것은 아니며, 배치되는 과정은 주의 깊게 그리고 전망을 내다보는 마음가짐으로 다뤄져야 합니다.
 
@@ -718,6 +1137,17 @@ Entrepren erdly.com에서는 행동 가능한 지식으로 권한을 부여하�
 
 <img src="/assets/img/2024-07-12-CloningYourselfonWhatsAppwithAIinPython_7.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 관련 기사:

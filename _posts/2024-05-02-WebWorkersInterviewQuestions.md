@@ -3,16 +3,13 @@ title: "웹 워커 관련 프론트엔드 면접 질문"
 description: ""
 coverImage: "/assets/img/2024-05-02-WebWorkersInterviewQuestions_0.png"
 date: 2024-05-02 00:08
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-02-WebWorkersInterviewQuestions_0.png
 tag: Tech
 originalTitle: "Web Workers | Interview Questions"
 link: "https://medium.com/gitconnected/web-workers-interview-questions-7cbc1baf0bd9"
 isUpdated: true
 ---
-
-
-
 
 주제 안내:
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 서버에서 대량의 데이터를 가져와야 하거나 UI에 복잡한 렌더링이 필요한 경우를 상상해보세요. 이를 직접 웹페이지에서 처리한다면 페이지가 더 부드럽지 않을 수 있고 UI에 영향을 줄 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 웹 워커를 사용하여 이 문제를 완화할 수 있어요. 웹 워커는 웹 워커라 불리는 쓰레드를 만들고, 그 웹 워커가 복잡한 작업을 처리하도록 할 수 있어요.
 
@@ -36,7 +44,18 @@ isUpdated: true
 - 웹 워커는 클라이언트 측에서 코드를 실행해요 (서버 측이 아니에요).
 - 웹 워커 쓰레드는 postMessage() 콜백 메서드를 사용하여 서로 소통해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 워커의 일반적인 예시는 다음과 같습니다:
 
@@ -51,7 +70,18 @@ isUpdated: true
 worker = new Worker("webWorker.js");
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 웹 워커 종료하는 구문
 
@@ -76,7 +106,7 @@ worker.terminate();
   <script>
     function startWorker() {
       const worker = new Worker('worker.js');
-      
+
       worker.onmessage = function(event) {
         document.getElementById('result').textContent = event.data;
       };
@@ -97,13 +127,24 @@ function doHeavyTask() {
 }
 
 // 메인 스레드로부터 메시지를 수신합니다.
-onmessage = function(event) {
+onmessage = function (event) {
   const heavyResult = doHeavyTask();
   postMessage(heavyResult); // 결과를 메인 스레드로 다시 보냅니다.
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## React 예제, WebWorker Websocket 예제
 
@@ -126,12 +167,10 @@ const Homepage = () => {
       connectionStatus: "stop",
     });
   };
- 
- //UseEffect1
+
+  //UseEffect1
   useEffect(() => {
-    const myWorker = new Worker(
-      new URL("../workers/main.worker.js", import.meta.url)
-    ); //NEW SYNTAX
+    const myWorker = new Worker(new URL("../workers/main.worker.js", import.meta.url)); //NEW SYNTAX
     setWorker(myWorker);
 
     return () => {
@@ -139,12 +178,12 @@ const Homepage = () => {
     };
   }, []);
 
- //UseEffect2
+  //UseEffect2
   useEffect(() => {
     if (worker) {
       worker.onmessage = function (e) {
         if (typeof e.data === "string") {
-          if(e.data.includes("[")){
+          if (e.data.includes("[")) {
             setLog((preLogs) => [...preLogs, e.data]);
           } else {
             setRes((prevRes) => [...prevRes, { stockPrice: e.data }]);
@@ -163,25 +202,17 @@ const Homepage = () => {
       <div className="stats">
         <div className="control-panel">
           <h3>WebWorker Websocket 예제</h3>
-          <button
-            id="start-connection"
-            onClick={hanldeStartConnection}
-            disabled={!worker || buttonState}
-          >
+          <button id="start-connection" onClick={hanldeStartConnection} disabled={!worker || buttonState}>
             연결 시작
           </button>
           &nbsp;
-          <button
-            id="stop-connection"
-            onClick={handleStopConnection}
-            disabled={!buttonState}
-          >
+          <button id="stop-connection" onClick={handleStopConnection} disabled={!buttonState}>
             연결 중지
           </button>
         </div>
         <LineChartComponent data={res} />
       </div>
-      <Logger logs={log}/>
+      <Logger logs={log} />
     </>
   );
 };
@@ -191,7 +222,18 @@ const Homepage = () => {
 
 웹 워커는 웹 페이지의 메인 스레드와 별도로 백그라운드에서 스크립트를 실행하는 방법을 제공합니다. 사용자 인터페이스를 방해하지 않고 작업을 수행할 수 있도록 합니다. 여기에는 두 가지 주요 웹 워커의 종류가 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1. 전용 워커:
 
@@ -207,7 +249,18 @@ const Homepage = () => {
 - 서로 다른 탭이나 프레임 간의 통신과 협업을 제공합니다.
 - 공유 워커는 더 다양하며 여러 스크립트가 동시에 활용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 인터뷰 질문:
 
@@ -217,7 +270,18 @@ const Homepage = () => {
 
 ## 웹 워커(Web Worker)가 해결하는 문제는 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 웹 워커는 웹 애플리케이션의 응답성을 향상시키기 위해 주 스레드에서 작업을 오프로드하는 데 도움이 됩니다. 그들은 UI를 차단하지 않고 동시에 실행을 가능하게 합니다.
 
@@ -227,7 +291,18 @@ const Homepage = () => {
 
 ## 웹 워커와 주 스레드 간의 통신 메커니즘은 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 웹 워커는 postMessage() 메서드를 사용하여 주 스레드와 통신하고 onmessage 이벤트 핸들러를 통해 메시지를 수신합니다.
 
@@ -237,7 +312,18 @@ const Homepage = () => {
 
 ### 웹 워커의 제한사항은 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 웹 워커는 DOM, window, document와 같은 특정 API에 직접 액세스할 수 없으며 동기 XHR 요청을 수행할 수 없습니다. 또한, 동일 출처 정책으로 인해 다른 출처의 리소스에 액세스하는 데 제한이 있습니다.
 
@@ -247,7 +333,18 @@ const Homepage = () => {
 
 **웹 워커에는 어떤 종류가 있나요?**
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 웹 워커에는 Dedicated Workers와 Shared Workers 두 가지 유형이 있어요. Dedicated Workers는 하나의 스크립트에 특화되어 있지만, Shared Workers는 여러 스크립트에서 공유할 수 있어요.
 
@@ -257,7 +354,18 @@ const Homepage = () => {
 
 ## 웹 워커에서 오류를 처리하는 방법은 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 웹 워커 내에서 발생하는 오류는 onerror 이벤트 핸들러를 사용하여 캡처할 수 있습니다. 또한 postMessage()를 사용하여 메시지를 메인 스레드로 보내고 메인 스레드에서 처리할 수 있습니다.
 

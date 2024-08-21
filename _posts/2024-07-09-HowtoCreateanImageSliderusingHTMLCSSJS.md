@@ -3,15 +3,13 @@ title: "HTML  CSS  JS로 이미지 슬라이더 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-HowtoCreateanImageSliderusingHTMLCSSJS_0.png"
 date: 2024-07-09 18:04
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-HowtoCreateanImageSliderusingHTMLCSSJS_0.png
 tag: Tech
 originalTitle: "How to Create an Image Slider using HTML + CSS + JS"
 link: "https://medium.com/@nicholasepps03/how-to-create-an-image-slider-using-html-css-js-fde4a6b4a62a"
 isUpdated: true
 ---
-
-
 
 ## 이미지 컬렉션을 위한 훌륭한 UI 컴포넌트
 
@@ -21,7 +19,18 @@ Image Carousel로도 알려진 이 UI 컴포넌트는 다른 경우에 공간을
 
 # 개요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어떤 코드를 작성하기 전에, 이미지 슬라이더가 어떻게 보이고 어떻게 동작하는지 개념을 잡아보겠습니다. 다음 애니메이션을 통해 우리의 이미지 슬라이더가 어떻게 동작할지 확인할 수 있어요.
 
@@ -31,7 +40,18 @@ Image Carousel로도 알려진 이 UI 컴포넌트는 다른 경우에 공간을
 
 파란색 컨테이너 안에는 디스플레이 이미지를 변경할 수 있는 내비게이션 버튼이 있어요. 좌우에 있는 화살표를 클릭하면 왼쪽이나 오른쪽 이미지로 디스플레이 이미지가 변경돼요. 디스플레이 이미지가 양쪽 끝에 있을 경우, 이미지 컨테이너는 반대쪽 끝으로 순환할 거예요. 맨 아래의 점들은 사용자가 특정 이미지로 이동할 수 있도록 해 줘요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 번에 보면, 우리는 CSS에서 position 속성을 사용하여 HTML 요소를 서로 겹쳐놓을 필요가 있음이 분명합니다. 아래 시각화된 내용은 이미지 슬라이더가 3D 공간에서 어떻게 인식될 수 있는지 보여줍니다.
 
@@ -41,7 +61,18 @@ Image Carousel로도 알려진 이 UI 컴포넌트는 다른 경우에 공간을
 
 # HTML
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시작하기 전에, 완성된 코드를 보고 싶다면 Replit 페이지를 참조해보세요.
 
@@ -87,7 +118,18 @@ Image Carousel로도 알려진 이 UI 컴포넌트는 다른 경우에 공간을
 
 이미지 자체에 대해서는 `div` 태그를 사용하고, 속성 data-img-url="\*.png"을 사용하겠습니다. 그리고 반응형 디자인을 위해 `img`태그 대신 CSS background-image 속성을 추가하는 JavaScript를 사용할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `div class="index-container"` 안에는 하단 중앙에 위치한 3개의 버튼이 있습니다. 만약 슬라이더에 이미지를 추가하거나 제거한다면, 버튼도 추가하거나 제거하여 이미지의 수와 버튼의 수가 일치하도록 해주세요.
 
@@ -97,7 +139,18 @@ Image Carousel로도 알려진 이 UI 컴포넌트는 다른 경우에 공간을
 
 ![이미지](/assets/img/2024-07-09-HowtoCreateanImageSliderusingHTMLCSSJS_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS를 작성하기 전에 이미지를 렌더링하는 데 필요한 JavaScript 코드를 삽입해 봅시다. 이 코드를 `script` 태그 안에 넣어주세요.
 
@@ -113,7 +166,18 @@ imgs.forEach((div) => {
 
 현재 `div`에 높이가 0이기 때문에 이미지를 볼 수 없지만, CSS를 작성하면 이미지가 표시될 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # CSS
 
@@ -140,7 +204,18 @@ main {
 
 body 및 main 스타일 선언은 이미지 슬라이더를 가운데 정렬합니다. .slider-dimensions 클래스는 슬라이더 컨테이너, 내비게이션 컨테이너 및 각 슬라이더 이미지에 적용되는 유틸리티 클래스입니다. 모바일 기기에 맞춰 반응형 폭을 제공합니다. 초기 값은 720px인 min 함수의 두 번째 인수를 변경하여 이미지 슬라이더의 최대 폭을 늘리거나 줄일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `.slider-container`의 CSS 선택기는 다음과 같습니다:
 
@@ -156,7 +231,18 @@ body 및 main 스타일 선언은 이미지 슬라이더를 가운데 정렬합�
 
 이제 `.slider` 클래스와 이미지 자체를 위한 CSS를 추가해봅시다. `.slider`를 위한 CSS와 이미지는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .slider {
@@ -179,7 +265,18 @@ body 및 main 스타일 선언은 이미지 슬라이더를 가운데 정렬합�
 
 <img src="/assets/img/2024-07-09-HowtoCreateanImageSliderusingHTMLCSSJS_3.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금쯤이면 웹 사이트의 중앙에 첫 번째 이미지가 표시되어 있어야 합니다. 그렇지 않은 경우 CSS와 HTML을 다시 확인하고, 앞에서 제공한 JS 스크립트를 추가했는지 확인해주세요.
 
@@ -205,7 +302,18 @@ body 및 main 스타일 선언은 이미지 슬라이더를 가운데 정렬합�
 
 .nav-container는 .nav-container:hover 선택자로 인해 마우스를 올리면만 표시됩니다. 다른 스타일 속성들은 버튼을 배치하기 위한 것입니다. 마지막으로 내비게이션 버튼을 스타일링하고 @media 쿼리를 사용하여 조건부 모바일 스타일링을 추가할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .index-container {
@@ -253,7 +361,18 @@ CSS 작업이 모두 완료되었으니 이미지 슬라이더는 다음과 같�
 
 이제 이 이미지 슬라이더를 상호작용 가능하게 만들어 봅시다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 자바스크립트
 
@@ -271,7 +390,18 @@ CSS 작업이 모두 완료되었으니 이미지 슬라이더는 다음과 같�
 
 imgs.forEach 함수 호출 뒤에 나머지 자바스크립트 코드를 추가할 겁니다. 먼저 다양한 슬라이더 태그를 참조하는 변수들을 정의해봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const slider = document.querySelector(".slider");
@@ -295,7 +425,18 @@ function slide(nextIndex) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 if 문은 첫 번째 이미지를 표시하는 상태에서 왼쪽 화살표를 클릭했거나, 마지막 이미지를 표시하는 상태에서 오른쪽 화살표를 클릭한 2가지 경우를 처리합니다. 어느 경우든 nextIndex는 각각 마지막 이미지 또는 첫 번째 이미지의 인덱스가 됩니다. 다음 두 줄은 이미지 변경을 반영하기 위해 인덱스 버튼의 배경색을 변경합니다. 다음 줄은 transform: translateX(); 함수를 사용하여 (nextIndex / img.length) \* 100의 계산을 사용하여 .slider 요소를 이동시킵니다. 예를 들어, 이미지가 3장이 있고 nextIndex가 1인 경우, 스타일 선언은 transform: translateX(-33.3333%);로 계산됩니다. 백분율 값을 사용하고 이미지의 수를 고려하여 이미지 슬라이더에 다양한 이미지 수를 대응할 수 있습니다.
 
@@ -307,7 +448,18 @@ CSS을 기억하시나요? 이전에 작성한 일부 전이 속성이 slide 함
 indexButtons[0].style.backgroundColor = "white";
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 서로 다른 네비게이션 버튼을 슬라이드 기능에 이벤트 리스너를 사용하여 연결해 보겠습니다.
 
@@ -330,7 +482,18 @@ indexButtons.forEach 함수 호출은 각 버튼에 이벤트 리스너를 추�
 
 이게 전부입니다! 다른 네비게이션 버튼을 클릭해보고 이미지 슬라이더를 사용해보세요. 네비게이션 버튼이 나타나려면 슬라이더 위로 마우스를 올려야 한다는 것을 기억하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](https://miro.medium.com/v2/resize:fit:1400/1*nAKob14dM6V0eqkUPI50XA.gif)
 
@@ -340,7 +503,18 @@ indexButtons.forEach 함수 호출은 각 버튼에 이벤트 리스너를 추�
 
 슬라이더가 다음 이미지로 자동으로 넘어가도록 하려면, 사용자가 이미지 슬라이더 위에 마우스를 올려놓은 경우가 아닐 때에만 넘어가게 하고 싶어요. 먼저 자동 슬라이딩 기능을 시작하고 멈추게 하는 코드를 추가해봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const navContainer = document.querySelector(".nav-container");
@@ -375,7 +549,18 @@ document.addEventListener("touchstart", (e) => {
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 코드를 설명해야 합니다. 데스크톱에서는 마우스 오버 및 마우스 아웃 이벤트가 예상대로 작동하지만, 모바일에서는 이미지 슬라이더를 클릭해야 마우스 오버 이벤트가 트리거됩니다.
 
@@ -385,7 +570,18 @@ document.addEventListener("touchstart", (e) => {
 
 최종 제품은 다음과 같이 작동해야 합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1400/1*tjo3KiEYIo1M4HlxDIkNoA.gif)
 

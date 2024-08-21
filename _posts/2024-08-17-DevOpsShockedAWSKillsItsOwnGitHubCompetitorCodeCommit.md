@@ -3,7 +3,7 @@ title: "AWS가 CodeCommit을 중단한 이유"
 description: ""
 coverImage: "/assets/img/2024-08-17-DevOpsShockedAWSKillsItsOwnGitHubCompetitorCodeCommit_0.png"
 date: 2024-08-17 01:11
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-17-DevOpsShockedAWSKillsItsOwnGitHubCompetitorCodeCommit_0.png
 tag: Tech
 originalTitle: " DevOps Shocked AWS Kills Its Own GitHub Competitor  CodeCommit"
@@ -11,7 +11,6 @@ link: "https://medium.com/@tomaszs2/devops-shocked-aws-kills-its-own-github-comp
 isUpdated: true
 updatedAt: 1723864154592
 ---
-
 
 ![Image](/assets/img/2024-08-17-DevOpsShockedAWSKillsItsOwnGitHubCompetitorCodeCommit_0.png)
 
@@ -21,7 +20,18 @@ updatedAt: 1723864154592
 
 AWS의 수석 전도사인 Jeff Barr은 자신의 트윗에서 CodeCommit과 다른 몇 가지 서비스가 가방을 싸는 것을 언급했습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 많은 생각 끝에, AWS CodeCommit을 포함한 소수의 서비스에 대한 새로운 액세스를 중단하기로 결정했습니다.
@@ -40,7 +50,18 @@ AWS의 수석 전도사인 Jeff Barr은 자신의 트윗에서 CodeCommit과 다
 
 기존 고객은 계속 사용할 수 있습니다. 그러나 얼마나 오래 사용할 수 있는지는 확실하지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 결국 어떤 서비스가 영향을 받는지 배웠어요:
 
@@ -52,15 +73,37 @@ AWS의 수석 전도사인 Jeff Barr은 자신의 트윗에서 CodeCommit과 다
 
 후자는 GitHub의 AWS 복제본이랍니다. 미니멀리스트에게 좋은 선택이죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AWS가 왜 조용히 이를 수행하는지 이해하지 못하겠어요. 즉, 이 소식이 나오는 소셜 미디어 플랫폼에서 테일러 스위프트와 제프 바르를 팔로우하는 사람만이 아니라 많은 사람들이 있지 않기 때문입니다. 이미 이 서비스를 사용하고 있거나 널리 사용할 계획을 가지고 있던 사람들에게는 이 정보가 상당히 중요합니다.
 
-CodeCommit과 그 저장소는 많은 프로덕션 시스템의 일부입니다. 
+CodeCommit과 그 저장소는 많은 프로덕션 시스템의 일부입니다.
 
 안타깝게도, AWS가 더 나은 것을 위한 자리를 만드는 것은 아닙니다. 사실, 그들이 더는 저장소를 제공하지 않을 것처럼 보입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 공식 이전 가이드에 따르면 GitHub와 GitLab을 포함하고 있다는 것이 내 이해입니다.
 
@@ -70,7 +113,18 @@ CodeCommit과 그 저장소는 많은 프로덕션 시스템의 일부입니다.
 
 하지만 좋은 소식은 GitHub나 다른 저장소가 CodeCommit보다 나은 것입니다. 그래서 모든 작업을 마친 후에는 케이크가 있을 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AWS에 관한 이야기를 할 때, 사실 이건 조금 이상한 움직임이에요. 이렇게 오랫동안 아마존은 우리에게 AWS 안으로 모든 것을 옮기라고 해왔죠. 그래서 어느 정도까지는 AWS 스마트폰도 출시해도 괜찮을 것 같은데요.
 
@@ -80,6 +134,17 @@ DevOps에서는 저장소가 시스템의 중심 부분이에요. 이걸 외부�
 
 개발의 핵심을 AWS 외부로 옮기면 새로운 기회들이 열립니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코딩에 관한 더 많은 소식을 얻으려면 팔로우, 구독 및 박수를 눌러주세요!

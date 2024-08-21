@@ -3,17 +3,13 @@ title: "내가 프로젝트를 React가 아닌 Angular로 만든 이유"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Why Ive Switched from React to Angular for My Projects"
 link: "https://medium.com/@alexseifert/why-ive-switched-from-react-to-angular-for-my-projects-9838144f3732"
 isUpdated: true
 ---
-
-
-
-
 
 여러 해 동안 저의 기본 프론트엔드 프레임워크는 React였어요. 제가 2015년경부터 전문적으로 사용하기 시작했고, 이미 이 마음가짐으로 작업 중이었기 때문에 개인 프로젝트에서도 당연하게 React를 사용했죠.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 참고: 몇몇 개발자들이 React를 라이브러리라고 부르는 것을 알고 있어요. 아마 그게 더 정확한 표현일지도 모르지만, 이 글에서는 "React"라고 말할 때 React 자체뿐만 아니라 전체 생태계를 지칭하기 때문에 계속해서 프레임워크라고 부르겠어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 새로운 직장
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 Angular는 의견이 확고하며 객체지향적인 프레임워크이고 클래스, 서비스, 컴포넌트, 모듈에 대해 생각해야 해요. React와 Vue는 컴포넌트를 어떻게 구성하고 코드를 어떻게 구조화할지에 대해 훨씬 유연해요. 두 프레임워크 모두 장단점이 있지만, 풀스택 개발자로서 객체지향 코드를 작성해야 한다는 게 꽤 맘에 들어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 왜 Angular를 선택해야 할까요?
 
@@ -43,7 +61,18 @@ Angular는 의견이 확고하며 객체지향적인 프레임워크이고 클�
 
 Angular의 서비스를 아주 좋아합니다. 데이터 처리의 주요 방법이며 간단하고 직관적이며 단위 테스트하기 쉽고 대량의 데이터 처리에 이상적입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Angular에서 그들은 어떻게 작동할까요? 이 글에서는 상세히 다루지는 않겠습니다. 하지만 매우 간단히 개요를 설명해 드리겠습니다. 기본적으로 Angular에서는 응용 프로그램에서 데이터를 가져오고 저장하는 데 사용되는 주입 가능한 클래스입니다.
 
@@ -53,7 +82,18 @@ Angular 서비스와 React의 가장 유사한 것을 비교할 때, 원시 Cont
 
 Redux와 다른 스토어는 응용 프로그램 전체에서 전역적으로 사용 가능하며 데이터는 사용자 세션 전체 기간 동안 지속됩니다. 다시 렌더링은 여기서 큰 문제가 되지는 않지만, 그에는 비용이 따릅니다: 방대한 양의 보일러플레이트 코드가 필요합니다. Redux에서 리듀서와 썽크 액션을 작성하는 것은 강력하지만 지루하고 고통스럽습니다. 특히 TypeScript를 사용하는 경우라면 타입을 올바르게 지정하는 것은 정말 짜증을 내게 할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 문제를 해결하는 Angular 서비스는 TypeScript에서 다른 클래스를 작성하는 것만큼 쉽게 사용할 수 있습니다. 그게 전부에요. 말 그대로 그게 전부에요. 보일러플레이트도 없고, 다시 렌더링하는 문제도 없습니다. 그저 작동합니다.
 
@@ -63,7 +103,18 @@ React와는 달리 Angular는 대부분의 애플리케이션에 필요한 모�
 
 먼저 함께 배포되기 때문에 서로 계속 원활히 작동할 것이라는 확신을 얻을 수 있습니다. React 세계에서는 각 종속성이 독립적이기 때문에 항상 서로 테스트되지 않으므로 이와 같은 일이 항상 일어나지는 않습니다. 작은 업데이트조차 호환성을 깨는 것이 얼마나 많이 일어났는지 모릅니다. 이는 짜증나는 일이며 해결하는 데 많은 시간이 소요됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 것이 Angular를 위해 설계되어 있기 때문에 Angular 패러다임 내에서 사용하기 위해 "보조" 패키지를 사용할 필요가 없어요. React의 경우 종종 의존성을 설치한 다음 "react-{라이브러리 이름}" 패키지가 있는지 확인해야 할 수도 있어요. 이 패키지는 React 훅이나 고차 컴포넌트(HOCs)와 함께 작동하도록 맞추어줄 거예요. 이로 인해 패키지 업데이트가 훨씬 까다로워지는데, 이러한 "보조" 패키지 중 많은 것들이 불규칙하게 업데이트되며, 주 패키지를 개별적으로 업데이트하면 망가질 수 있어요.
 
@@ -73,7 +124,18 @@ React와는 달리 Angular는 대부분의 애플리케이션에 필요한 모�
 
 프로젝트 구성은 제게 큰 고민거리였어요, 특히 여러 명의 개발자가 있는 대규모 프로젝트에 React를 사용할 때말이에요. React는 의견이 분분한 프레임워크이기 때문에 프로젝트를 설정하고 코드를 원하는 대로 구성할 수 있어요. 제공되는 구조가 매우 적기 때문에 대규모 프로젝트 내에서 일관성을 유지하려면 풀 리퀘스트에 엄격하고 린팅과 같은 다른 도구를 사용하여 특정 스타일을 강제할 필요가 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트의 접근 방식은 최대한의 유연성을 제공하며 작은 프로젝트에는 좋을 수 있지만, 제 경험 상 대형 프로젝트에서는 혼돈된 조직을 야기할 수 있다.
 
@@ -83,7 +145,18 @@ React와는 달리 Angular는 대부분의 애플리케이션에 필요한 모�
 
 물론 여전히 린팅이 필요하지만, 코드를 청소하게 유지하는 데 의존해야 하는 정리된 코드보다는 깔끔한 코드인지 확인하기 위해 신뢰해야 합니다. 앵귤러는 여전히 디렉토리 트리를 원하는 대로 설정할 수 있지만, 모듈과 같은 필수 구조가 있는데 이는 코드를 여전히 일관되고 조직적으로 유지하도록 보장합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 깨끗하고 조직화된 코드의 장점은 수많이 있지만 그 중 하나는 프로젝트 간 전환이 용이하다는 점입니다. 새로운 React 프로젝트로 이동할 때에는 프로젝트가 어떻게 설정되어 있는지, 클래스 기반 컴포넌트를 사용하는지 함수형 컴포넌트를 사용하는지(또는 혼합된 형태인지) 등을 파악하는 데 많은 시간을 소비해야 합니다. 그에 비해 Angular는 항상 의지할 수 있는 특정 구조를 가지고 있어 새로운 프로젝트를 이해하는 데 훨씬 수월합니다.
 
@@ -93,7 +166,18 @@ React와는 달리 Angular는 대부분의 애플리케이션에 필요한 모�
 
 Angular는 이를 다르게 해결합니다. (React에서의 상태 변수에 해당하는) 컴포넌트 변수는 값을 변경에 반응하기 위해 감시할 필요가 없는 공개 클래스 변수입니다. 데이터가 양방향으로 흐르기 때문에(양방향 바인딩), 클래스 변수가 자동으로 업데이트됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 값이 변할 때 어떻게 반응해야 할지 궁금하시다구요? 간단합니다! 클래스 변수에 대해 표준 "get"과 "set" 속성을 사용하시면 됩니다. 예를 들어:
 
@@ -114,7 +198,18 @@ set firstName(name: string) {
 
 # 서버 사이드 렌더링
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 네, React가 서버 사이드 렌더링을 지원하고 있고, Next.js와 같은 프레임워크를 사용하면 React를 활용한 서버 사이드 렌더링 싱글 페이지 애플리케이션을 손쉽게 구축할 수 있다는 것을 알고 있죠. 그렇지만, Angular는 그것을 기본적으로 제공해요. 그리고 그냥 작동돼요.
 
@@ -124,7 +219,18 @@ set firstName(name: string) {
 
 Angular는 심지어 전적으로 정적인 웹사이트를 원하는 경우 콘텐츠를 사전 렌더링할 수도 있어요. 여기서 유일한 단점은, Next.js와 유사한 기능을 갖고 있지만, 한 번 생성된 사전 렌더링된 콘텐츠를 업데이트하는 방법이 없다는 것이에요. 애플리케이션 전체를 다시 빌드하지 않으면 사전 렌더링된 내용을 업데이트할 방법이 없습니다. 그것이 제게는 유일한 큰 단점인 것 같아요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # React를 계속 사용하는 이유
 
@@ -134,7 +240,18 @@ Angular는 심지어 전적으로 정적인 웹사이트를 원하는 경우 콘
 
 React를 계속 사용하게 만드는 첫 번째 이유는 제 경험 수준입니다. 몇 년 동안 사용해 와서, 이 프레임워크의 독특한 점과 일반적인 작동 방식에 대해 꽤 많은 지식을 쌓았거든요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제 경험상 Angular에 대한 경험이 많이 부족해서 React로 이해하고자 하는 것은 문서를 많이 읽어야 합니다. 예를 들어, 구성 요소의 다시 렌더링이 언제 발생하는지는 React에서 쉽게 알 수 있는 것인데 Angular에서는 그렇지 않습니다. 시간이 흐르면 Angular에 대해 이해도가 높아질 것이지만 그 과정은 어느 정도 시간이 걸릴 것입니다. 그동안은 좀 더 느리게 작업해야 할 것 같습니다.
 
@@ -144,7 +261,18 @@ React를 계속 사용하게 만드는 첫 번째 이유는 제 경험 수준입
 
 이러한 컴포넌트를 프로젝트 간에 복사할 수 있다는 것은 많은 시간을 절약할 수 있다는 뜻입니다. Angular를 처음부터 다시 시작하면 이러한 컴포넌트가 없어져서 처음부터 다시 만들어야 합니다. 그래도 크게 문제는 되지 않지만 이것은 많은 시간과 노력이 들 것이며 제 개인 프로젝트에 계속해서 React를 사용하는 이유가 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -154,7 +282,18 @@ React를 계속 사용하게 만드는 첫 번째 이유는 제 경험 수준입
 
 프런트엔드 개발자들이 주로 창의적인 유형이고, 자신의 작업을 완료하기 위해 특정한 규약들을 사용해야 하는 것을 싫어해. Angular는 클래스를 사용하도록 강제하고, 코드를 모듈화하도록 강요하며, TypeScript로 모든 것을 구현하도록 강제하는데, 이는 그 자체로 학습 곡선이 따른다고 해.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에 나열된 것들은 저에게 매우 즐거운 측면들이에요. 하지만 그 이유는 제가 프론트엔드와 백엔드 둘 다 다루는 풀스택 개발자이기 때문일 수도 있어요. 그래도 어찌되었든, Angular를 배우는 걸 즐기고 있고 앞으로도 계속 이에 관해 포스팅할 거예요.
 

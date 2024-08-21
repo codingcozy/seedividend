@@ -3,15 +3,13 @@ title: "접근성을 고려한 브레드크럼 내비게이션 구현 및 설명
 description: ""
 coverImage: "/assets/img/2024-07-09-ImplementationandExplanationofBreadcrumbNavigationConsideringAccessibility_0.png"
 date: 2024-07-09 14:13
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-ImplementationandExplanationofBreadcrumbNavigationConsideringAccessibility_0.png
 tag: Tech
 originalTitle: "Implementation and Explanation of Breadcrumb Navigation Considering Accessibility"
 link: "https://medium.com/@mogy.code/implementation-and-explanation-of-breadcrumb-navigation-considering-accessibility-e3d011cfdaed"
 isUpdated: true
 ---
-
-
 
 # 결론 (전체 코드)
 
@@ -41,7 +39,18 @@ isUpdated: true
 
 ## CSS
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 /_ reset _/
 \*,
@@ -130,7 +139,18 @@ font-weight: bold;
 color: #333333;
 }
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## HTML — nav 및 div 태그를 사용한 구현 비교
 
@@ -142,7 +162,18 @@ nav 태그를 사용하면 이것이 내비게이션임을 명확히 하고 스�
 
 nav 태그를 사용한 구현
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 nav 태그를 사용하면 스크린 리더가 이동 경로를 탐색 요소로 인식하여 사용자가 페이지 구조를 이해하는 능력을 향상시킬 수 있습니다.
 
@@ -152,7 +183,18 @@ div 태그를 사용한 구현
 
 nav 태그를 사용하지 않으면 스크린 리더가 이동 경로를 탐색 요소로 인식하지 못합니다. 이는 스크린 리더를 의존하여 페이지 레이아웃을 이해하는 사용자들을 혼란스럽게 할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-09-ImplementationandExplanationofBreadcrumbNavigationConsideringAccessibility_1.png" />
 
@@ -164,7 +206,18 @@ nav 태그를 사용하지 않으면 스크린 리더가 이동 경로를 탐색
 
 aria-label 속성을 사용하면 내비게이션의 이름이 명확해져 화면 낭독기를 통해 읽기와 검색하기가 좋아집니다. 또한 헤더, 브레드크럼, 푸터 등 여러 내비게이션이 있는 경우 구분할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 코드에서 작업은 표에 마크다운 형식을 변경하는 것입니다.
 
@@ -172,7 +225,18 @@ aria-label 속성을 사용하면 내비게이션의 이름이 명확해져 화�
 | --------------------- | --------- |
 | 표 마크다운 형식 변경 | ✅        |
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## HTML — Breadcrumb Navigation의 각 항목은 ol 태그로 구현됩니다
 
@@ -191,7 +255,18 @@ aria-label 속성을 사용하면 내비게이션의 이름이 명확해져 화�
 
 ## HTML — aria-current를 사용하여 현재 페이지 표시
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <li class="breadcrumb__list">
@@ -207,7 +282,18 @@ aria-current를 구현한 스크린 리더 출력 예제
 
 현재 페이지를 나타내는 링크에 aria-current 속성이 추가되면, 스크린 리더는 해당 링크를 활성 링크로 식별할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 링크 아티클
@@ -219,7 +305,18 @@ aria-current가 구현되지 않은 화면 판독기 출력 예시
 
 aria-current 속성을 사용하지 않은 경우, 화면 판독기는 현재 페이지와 다른 링크를 구별할 수 없습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 현재 페이지 링크 내용
@@ -244,7 +341,18 @@ aria-current 속성을 사용하지 않은 경우, 화면 판독기는 현재 �
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 화면 판독기가 단어 사이를 이동할 때 '`'를 사용하여 구분하는 것은 화면 판독기가 이를 읽어야 하므로 사용자의 화면 판독 경험을 방해할 수 있습니다. 목록을 원활하게 읽을 수 있도록 구분자는 CSS 변환을 사용하여 구현해야 합니다. 이는 시각적으로 표시되지만 화면 판독기에서 무시됩니다.
 
@@ -256,7 +364,18 @@ link home link articles
 
 출력: “link home link articles” — 화면 판독기가 구분자를 언급하지 않고 링크 사이를 부드럽게 이동합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 link home 보다 link articles
@@ -266,7 +385,18 @@ Output: “link home 보다 link articles” — 스크린 리더는 “보다�
 
 ## CSS — 색대비 비율 조정
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 텍스트 색상과 배경 색상 사이, 그리고 텍스트 색상과 호버 텍스트 색상 사이의 대비 비율을 최소 4.5:1로 조정하여 가독성을 확보해주세요.
 
@@ -276,7 +406,18 @@ Output: “link home 보다 link articles” — 스크린 리더는 “보다�
 
 대비 비율 확인은 WCAG Color Contrast Checker, Google Chrome 확장 프로그램을 사용하여 진행됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 https://chromewebstore.google.com/detail/wcag-color-contrast-check/plnahcmalebffmaghcpcmpaciebdhgdf
 
@@ -286,7 +427,18 @@ WCAG Color Contrast Checker를 사용한 예시
 
 # 생각들
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최근에 접근성에 대해 공부하기 시작했고, 이 글을 종이에 메모하는 식으로 작성했어요. 더 많이 배우면서 계속해서 글을 올릴 계획이에요. 의견이나 제안이 있다면 정말 감사할 거예요.
 
@@ -297,7 +449,18 @@ WCAG Color Contrast Checker를 사용한 예시
 W3C의 실용적인 실천 팁 모음
 ARIA Authoring Practices Guide | APG | WAI | W3C
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## W3C(웹 표준을 만드는 기구)의 실용적인 실천 방법 모음 (Breadcrumb)
 

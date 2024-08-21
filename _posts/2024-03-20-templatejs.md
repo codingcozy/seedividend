@@ -3,17 +3,13 @@ title: "Nextjs 14 templatejs와 layoutjs의 차이점"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # Nextjs 14 template.js와 layout.js의 차이점
 
@@ -27,7 +23,18 @@ export default function Template({ children }: { children: React.ReactNode }) {
 
 ![template.js_0.png](/assets/img/template.js_0.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 덜 일반적이지만, 템플릿을 레이아웃보다 선택할 수 있는 경우가 있습니다. 예를 들어 다음과 같은 기능이 있는 경우에 선택할 수 있습니다:
 
@@ -38,7 +45,18 @@ export default function Template({ children }: { children: React.ReactNode }) {
 
 ### children (필수)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 템플릿 컴포넌트는 children 속성을 받아들이고 사용해야 합니다. 템플릿은 레이아웃과 그 자식 요소 사이에 렌더링됩니다. 예를 들어:
 
@@ -55,10 +73,32 @@ export default function Template({ children }: { children: React.ReactNode }) {
 
 ## 버전 히스토리
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 | Version   | Changes                |
 | --------- | ---------------------- |
 | `v13.0.0` | `template` introduced. |
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

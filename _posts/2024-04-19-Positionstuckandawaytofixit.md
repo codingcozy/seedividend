@@ -3,17 +3,13 @@ title: "position sticky를 생각없이 사용하면 안되는 이유"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Position stuck  and a way to fix it"
 link: "https://medium.com/user-experience-design-1/position-stuck-96c9f55d9526"
 isUpdated: true
 ---
-
-
-
-
 
 ## overflow를 사용할 때 position: sticky;의 단점
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ![GIF Image](https://miro.medium.com/v2/resize:fit:1400/1*3nZKIeuc5a0yso6-SA2gAw.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사에서는 position: sticky;의 단점을 살펴보고, 오버플로우와 함께 작업할 때 발생하는 FRUSTRATION을 극복하기 위한 창의적 기술을 생각해볼 수 있을지에 대해 탐구하고 싶습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 시작해 보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 예전 방식
 
@@ -45,11 +63,33 @@ b) 스크롤 이벤트로 인한 연속적인 다시 그리기 및 콜백으로 
 
 # 고정 방식
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `<table>` 태그를 Markdown 형식으로 변경하면 아래와 같이 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 position: sticky;은 때로 다루기 까다로운 친구가 될 수 있어요 — 특히 우리가 오버플로우를 소개할 때.
 
@@ -59,7 +99,18 @@ b) 스크롤 이벤트로 인한 연속적인 다시 그리기 및 콜백으로 
 
 그러나 오버플로우를 다룰 때 스티키 엘리먼트가 예상한대로 고정되지 않아 약간의 답답함을 느낄 수 있습니다. 오버플로우를 추가하면 브라우저가 position: sticky;를 제대로 적용하지 않는 것처럼 보일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오버플로우 문제에 대해요...
 
@@ -69,7 +120,18 @@ b) 스크롤 이벤트로 인한 연속적인 다시 그리기 및 콜백으로 
 
 그래서 우리는 어떻게 대처할까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 고정 높이 추가하기
 
@@ -79,7 +141,18 @@ b) 스크롤 이벤트로 인한 연속적인 다시 그리기 및 콜백으로 
 
 이렇게 하면 제목이 붙지만, 컨테이너 내에서 스크롤할 때만 작동하며 문서 창에서 작동하지는 않아요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안타깝지만, 그렇게 하면 안 됩니다.
 
@@ -110,7 +183,18 @@ b) 스크롤 이벤트로 인한 연속적인 다시 그리기 및 콜백으로 
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1400/1*BWfyn1iSEY7vOqBH02Xihg.gif)
 
@@ -120,7 +204,18 @@ b) 스크롤 이벤트로 인한 연속적인 다시 그리기 및 콜백으로 
 
 또한, 제목 컨테이너에 수평 스크롤 막대가 생기는 것을 방지하기 위해 다음을 추가해주어야 합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .scroller {
@@ -134,7 +229,18 @@ b) 스크롤 이벤트로 인한 연속적인 다시 그리기 및 콜백으로 
 
 그리고 여기에 실제 예시가 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/1*N_YlSmYVqO0bx81XT6vwAA.gif" />
 
@@ -144,7 +250,18 @@ b) 스크롤 이벤트로 인한 연속적인 다시 그리기 및 콜백으로 
 
 테이블에서 thead와 관련된 작은 문제를 제외하고는, position: sticky;에 대한 브라우저 지원이 상당히 양호해요. 그러나 오래된 친구 인터넷 익스플로러는 이것을 인식하지 않습니다. 그래서 오래된 브라우저에서 "sticky" 요소를 사용하고 싶다면, stickyfill과 같은 폴리필을 사용하는 것을 고려해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또 기억해야 할 것은 Safari에서 접두사를 필요로 한다는 것이에요 (position: -webkit-sticky).
 

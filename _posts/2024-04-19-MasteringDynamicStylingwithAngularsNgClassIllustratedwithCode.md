@@ -3,17 +3,13 @@ title: "Angular의 NgClass를 활용한 동적 스타일링 마스터하기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Mastering Dynamic Styling with Angulars NgClass Illustrated with Code"
 link: "https://medium.com/dev-genius/mastering-dynamic-styling-with-angular-ngclass-with-code-example-61b39078a79c"
 isUpdated: true
 ---
-
-
-
-
 
 ![MasteringDynamicStylingwithAngularsNgClassIllustratedwithCode_0.png](/assets/img/MasteringDynamicStylingwithAngularsNgClassIllustratedwithCode_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 Angular의 NgClass는 요소에 CSS 클래스를 조건부로 적용하는 지시문으로, 동적 스타일링을 위한 강력한 도구를 제공합니다. 특정 조건이나 사용자 작업에 응답하여 요소의 외관을 수정해야 할 필요성이있을 때 그 효과가 명백해집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문서: https://angular.io/api/common/NgClass
 
@@ -33,7 +40,18 @@ Angular의 NgClass는 요소에 CSS 클래스를 조건부로 적용하는 지�
 
 <img src="/assets/img/MasteringDynamicStylingwithAngularsNgClassIllustratedwithCode_1.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코드: https://stackblitz.com/edit/angular-intensiv-create-a-new-project-cytwoy?file=src%2Fapp%2Fapp.component.html
 
@@ -43,8 +61,18 @@ Angular의 NgClass는 요소에 CSS 클래스를 조건부로 적용하는 지�
 
 우리의 예제는 Angular 컴포넌트 내의 색상 변경 기능을 중심으로 합니다. NgClass가 동적 스타일링을 어떻게 구현하는지 이해하기 위해 코드를 살펴봅시다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <div class="container">
   <div class="inner-container">
@@ -59,14 +87,24 @@ Angular의 NgClass는 요소에 CSS 클래스를 조건부로 적용하는 지�
   </div>
 </div>
 
-
 색상 변경 버튼을 클릭하면 onclick 이벤트가 발생하고, 선택한 버튼의 색상에 맞게 currentColorClass가 동적으로 업데이트됩니다. element 클래스를 가진 div는 NgClass를 활용하여 currentColorClass에 따라 동적으로 색상이 조정됩니다.
 
 ## Angular 컴포넌트 로직
 
 Angular 컴포넌트가 동적 스타일링 로직을 조율합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { Component } from "@angular/core";
@@ -91,7 +129,18 @@ AppComponent 클래스는 색상 변경 로직을 캡슐화하며, currentColorC
 
 템플릿에서 pink, blue, green 클래스가 NgClass를 통해 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .container {
@@ -163,6 +212,17 @@ button {
 
 즐거운 코딩 되세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 완료되었습니다. 도움이 되었기를 바랍니다. 저를 Medium 및 트위터에서 팔로우해도 괜찮아요: https://twitter.com/SkjelinOttosen

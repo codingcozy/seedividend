@@ -3,17 +3,13 @@ title: "Nextjs 13 저장소 환경변수 설정 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "환경 변수"
 link: "undefined"
 isUpdated: true
 ---
-
-
-
-
 
 # 환경 변수
 
@@ -24,7 +20,18 @@ Next.js에는 환경 변수를 내장 지원하여 다음을 수행할 수 있�
 
 ## 환경 변수 로드
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Next.js에서는 .env.local에서 환경 변수를 process.env로 로드할 수 있는 내장 지원이 제공됩니다.
 
@@ -38,7 +45,18 @@ DB_PASS = mypassword;
 
 예를 들어, getStaticProps를 사용하는 방법은:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 async function getStaticProps() {
@@ -60,7 +78,18 @@ TWITTER_USER=nextjs
 TWITTER_URL=https://twitter.com/$TWITTER_USER
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 예시에서 process.env.TWITTER_URL은 https://twitter.com/nextjs로 설정됩니다.
 
@@ -70,7 +99,18 @@ TWITTER_URL=https://twitter.com/$TWITTER_USER
 
 NEXT*PUBLIC*로 시작하지 않는 환경 변수는 Node.js 환경에서만 사용할 수 있으며, 이는 브라우저에서 접근할 수 없다는 것을 의미합니다(클라이언트는 다른 환경에서 실행됨).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 환경 변수 값을 브라우저에서 접근할 수 있도록 하려면, Next.js에서 해당 값을 "inline"하여 js 번들에 빌드 시간에 삽입하여 클라이언트에 전달하면 됩니다. 이때 process.env.[변수]의 모든 참조를 하드 코딩된 값으로 대체합니다. 이를 통해 수행하려면, 변수명 앞에 NEXT*PUBLIC*를 접두어로 사용하면 됩니다. 예를 들어:
 
@@ -82,7 +122,18 @@ NEXT_PUBLIC_ANALYTICS_ID = abcdefghijk;
 
 > 참고: 빌드 후 앱은 이러한 환경 변수의 변경에 더 이상 반응하지 않습니다. 예를 들어, 헤로쿠 파이프라인을 사용하여 한 환경에서 빌드된 슬러그를 다른 환경으로 변경하거나, 단일 도커 이미지를 여러 환경에 배포하는 경우, 모든 NEXT*PUBLIC* 변수는 빌드 시간에 평가된 값으로 동결되므로, 프로젝트 빌드 시 적절히 설정해야 합니다. 런타임 환경 값에 액세스해야 하는 경우, 클라이언트에 제공하기 위해 독자적인 API 설정해야 하며(필요시 또는 초기화 동안), 실행 환경 값을 제공해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import setupAnalyticsService from "../lib/my-analytics-service";
@@ -112,7 +163,18 @@ setupAnalyticsService(env.NEXT_PUBLIC_ANALYTICS_ID);
 
 ### 런타임 환경 변수
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Next.js는 빌드 시간과 런타임 환경 변수를 모두 지원할 수 있어요.
 
@@ -133,7 +195,18 @@ export default function Component() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 좋은 정보입니다:
 
@@ -144,7 +217,18 @@ export default function Component() {
 
 보통 .env.local 파일 하나만 필요합니다. 그러나 개발 (next dev) 또는 프로덕션 (next start) 환경에 대한 일부 기본값을 추가하고 싶을 때가 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Next.js는 .env (모든 환경), .env.development (개발 환경) 및 .env.production (프로덕션 환경)에서 기본값을 설정할 수 있게 해줍니다.
 
@@ -154,7 +238,18 @@ Next.js는 .env (모든 환경), .env.development (개발 환경) 및 .env.produ
 
 ## Vercel에서 환경 변수
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Next.js 애플리케이션을 Vercel에 배포할 때는 프로젝트 설정에서 환경 변수를 구성할 수 있어요.
 
@@ -166,7 +261,18 @@ Next.js 애플리케이션을 Vercel에 배포할 때는 프로젝트 설정에�
 vercel env pull .env.local
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 > 좋은 정보: Next.js 애플리케이션을 Vercel에 배포할 때, .env\* 파일에 있는 환경 변수는 Edge Runtime에서 사용할 수 없습니다.
 > 이름이 NEXT*PUBLIC*로 시작하는 변수를 제외하고는 모든 환경 변수가 사용 가능합니다. 모든 환경 변수를 프로젝트 설정에서 관리하는 것을 강력히 권장합니다.
@@ -177,7 +283,18 @@ vercel env pull .env.local
 
 이는 jest 또는 cypress와 같은 도구로 테스트를 실행할 때에만 특정 환경 변수를 설정해야 할 때 유용합니다. NODE_ENV가 test로 설정되어 있으면 테스트 기본값이 로드됩니다. 테스트 도구에서 자동으로 처리하기 때문에 수동으로 설정할 필요는 없지만 필요한 경우 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테스트 환경과 개발 그리고 프로덕션 간에 주의할 점이 하나 있어요: .env.local 파일은 로드되지 않아요. 모든 테스트 결과가 모두 동일하도록 예상하기 때문에 .env.local은 무시돼요. 그렇게 함으로써 각 실행에서 동일한 환경 기본값이 사용되며 기본 설정을 재정의하려는 .env.local이 무시되도록 되어 있어요.
 
@@ -195,7 +312,18 @@ export default async () => {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 환경 변수 로드 순서
 
@@ -209,7 +337,18 @@ export default async () => {
 
 예를 들어, NODE_ENV가 development이고 .env.development.local 및 .env에 변수를 정의한 경우 .env.development.local의 값을 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 > 좋은 정보: NODE_ENV에 허용된 값은 production, development 및 test입니다.
 
@@ -220,10 +359,32 @@ export default async () => {
 
 ## 버전 기록
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 | Version | Changes                                       |
 | ------- | --------------------------------------------- |
 | v9.4.0  | Support `.env` and `NEXT_PUBLIC_` introduced. |
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

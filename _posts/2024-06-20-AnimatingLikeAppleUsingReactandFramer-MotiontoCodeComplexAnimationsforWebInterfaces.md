@@ -3,17 +3,13 @@ title: "Apple처럼 애니메이션 설정하기 웹 인터페이스용 복잡�
 description: ""
 coverImage: "/assets/img/2024-06-20-AnimatingLikeAppleUsingReactandFramer-MotiontoCodeComplexAnimationsforWebInterfaces_0.png"
 date: 2024-06-20 02:27
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-AnimatingLikeAppleUsingReactandFramer-MotiontoCodeComplexAnimationsforWebInterfaces_0.png
 tag: Tech
 originalTitle: "Animating Like Apple: Using React and Framer-Motion to Code Complex Animations for Web Interfaces"
 link: "https://medium.com/design-bootcamp/animating-like-apple-using-react-and-framer-motion-to-code-complex-animations-for-web-interfaces-c391d6e113e7"
 isUpdated: true
 ---
-
-
-
-
 
 ![Link](https://miro.medium.com/v2/resize:fit:1200/1*VEU7TCQhdrDbzHhlzGHBPg.gif)
 
@@ -23,8 +19,18 @@ This article is a continuation of Animating Like Apple: Using Figma and Jitter t
 
 # Prerequisites
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시작하기 전에 다음 사항을 확인해주세요:
 
@@ -36,8 +42,18 @@ This article is a continuation of Animating Like Apple: Using Figma and Jitter t
 
 SVG.svg
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <svg width="244" height="84" viewBox="0 0 244 84" fill="none" xmlns="http://www.w3.org/2000/svg">
     <circle cx="121.5" cy="40.5" r="40.5" fill="#0171E2"/>
@@ -54,49 +70,80 @@ SVG.svg
     </defs>
 </svg>
 
-
 <img src="/assets/img/2024-06-20-AnimatingLikeAppleUsingReactandFramer-MotiontoCodeComplexAnimationsforWebInterfaces_1.png" />
 
 이 디자인은 Figma에서 만들었고 SVG로 내보냈습니다.
 
 <img src="/assets/img/2024-06-20-AnimatingLikeAppleUsingReactandFramer-MotiontoCodeComplexAnimationsforWebInterfaces_2.png" />
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 요소들로 구성된 SVG입니다:
 
 ```js
-<circle cx="121.5" cy="40.5" r="40.5" fill="#0171E2"/>
+<circle cx="121.5" cy="40.5" r="40.5" fill="#0171E2" />
 ```
 
 ![image](/assets/img/2024-06-20-AnimatingLikeAppleUsingReactandFramer-MotiontoCodeComplexAnimationsforWebInterfaces_3.png)
 
 ```js
-<circle cx="121.5" cy="40.5" r="22.5" fill="#EFEFF2"/>
+<circle cx="121.5" cy="40.5" r="22.5" fill="#EFEFF2" />
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-06-20-AnimatingLikeAppleUsingReactandFramer-MotiontoCodeComplexAnimationsforWebInterfaces_4.png)
 
 ```js
-<rect y="18" width="244" height="45" rx="22.5" fill="#EFEFF2"/>
+<rect y="18" width="244" height="45" rx="22.5" fill="#EFEFF2" />
 ```
 
 ![Image](/assets/img/2024-06-20-AnimatingLikeAppleUsingReactandFramer-MotiontoCodeComplexAnimationsforWebInterfaces_5.png)
 
 ```js
 <g clip-path="url(#clip0_49_269)">
-    <circle cx="121.528" cy="40.4722" r="16.5278" fill="#0171E2"/>
-    <path d="M129.083 39.5278H123.511V33.9556C123.511 33.1056 122.85 32.4444 122 32.4444C121.15 32.4444 120.583 33.1056 120.583 33.8611V39.4333H115.011C114.161 39.4333 113.5 40.0944 113.5 40.9444C113.5 41.7944 114.161 42.3611 114.917 42.3611H120.489V47.9333C120.489 48.7833 121.15 49.35 121.906 49.35C122.756 49.35 123.322 48.6889 123.322 47.9333V42.3611H128.894C129.744 42.3611 130.311 41.7 130.311 40.9444C130.5 40.1889 129.839 39.5278 129.083 39.5278Z" fill="white"/>
+  <circle cx="121.528" cy="40.4722" r="16.5278" fill="#0171E2" />
+  <path
+    d="M129.083 39.5278H123.511V33.9556C123.511 33.1056 122.85 32.4444 122 32.4444C121.15 32.4444 120.583 33.1056 120.583 33.8611V39.4333H115.011C114.161 39.4333 113.5 40.0944 113.5 40.9444C113.5 41.7944 114.161 42.3611 114.917 42.3611H120.489V47.9333C120.489 48.7833 121.15 49.35 121.906 49.35C122.756 49.35 123.322 48.6889 123.322 47.9333V42.3611H128.894C129.744 42.3611 130.311 41.7 130.311 40.9444C130.5 40.1889 129.839 39.5278 129.083 39.5278Z"
+    fill="white"
+  />
 </g>
-``` 
+```
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-20-AnimatingLikeAppleUsingReactandFramer-MotiontoCodeComplexAnimationsforWebInterfaces_6.png" />
 
@@ -106,64 +153,75 @@ SVG.svg
 
 # Framer Motion의 useAnimate 함수 이해하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 UseAnimateExample.jsx
 
 ```js
 import { useAnimate } from "framer-motion";
-import React, {useState} from "react";
+import React, { useState } from "react";
 
 const UseAnimateExample = () => {
-    const [scope, animate] = useAnimate();
+  const [scope, animate] = useAnimate();
 
-    const startAnimation = async () => {
-        // Decrease the radius of the pink circle to 0
-        await animate("#pink-circle", { r: 0 }, { duration: 0.5 });
+  const startAnimation = async () => {
+    // Decrease the radius of the pink circle to 0
+    await animate("#pink-circle", { r: 0 }, { duration: 0.5 });
 
-        // Increase the radius of the pink circle to 22.5
-        await animate("#pink-circle", { r: 22.5 }, { duration: 0.5 });
+    // Increase the radius of the pink circle to 22.5
+    await animate("#pink-circle", { r: 22.5 }, { duration: 0.5 });
 
-        // Move the pink circle horizontally to x-coordinate 400
-        await animate("#pink-circle", { cx: 400 }, { duration: 0.5 });
+    // Move the pink circle horizontally to x-coordinate 400
+    await animate("#pink-circle", { cx: 400 }, { duration: 0.5 });
 
-        // Move the pink circle vertically to y-coordinate 400
-        await animate("#pink-circle", { cy: 400 }, { duration: 0.5 });
+    // Move the pink circle vertically to y-coordinate 400
+    await animate("#pink-circle", { cy: 400 }, { duration: 0.5 });
 
-        // Move the pink circle horizontally to x-coordinate 50
-        await animate("#pink-circle", { cx: 50 }, { duration: 0.5 });
+    // Move the pink circle horizontally to x-coordinate 50
+    await animate("#pink-circle", { cx: 50 }, { duration: 0.5 });
 
-        // Move the pink circle vertically to y-coordinate 250
-        await animate("#pink-circle", { cy: 250 }, { duration: 0.5 });
+    // Move the pink circle vertically to y-coordinate 250
+    await animate("#pink-circle", { cy: 250 }, { duration: 0.5 });
 
-        // Move the pink circle horizontally to x-coordinate 250
-        await animate("#pink-circle", { cx: 250 }, { duration: 0.5 });
+    // Move the pink circle horizontally to x-coordinate 250
+    await animate("#pink-circle", { cx: 250 }, { duration: 0.5 });
 
-        // Increase the radius of the pink circle to 50
-        await animate("#pink-circle", { r: 50 }, { duration: 0.5 });
+    // Increase the radius of the pink circle to 50
+    await animate("#pink-circle", { r: 50 }, { duration: 0.5 });
 
-        // Combine one or more animations
-        // Simultaneously move the pink circle vertically and change its radius
-        const animation1 = animate("#pink-circle", { cy: 200 }, { duration: 0.5 });
-        const animation2 = animate("#pink-circle", { r: 40 }, { duration: 0.5 });
-        await Promise.all([animation1, animation2]); // Execute both animations at the same time
+    // Combine one or more animations
+    // Simultaneously move the pink circle vertically and change its radius
+    const animation1 = animate("#pink-circle", { cy: 200 }, { duration: 0.5 });
+    const animation2 = animate("#pink-circle", { r: 40 }, { duration: 0.5 });
+    await Promise.all([animation1, animation2]); // Execute both animations at the same time
 
-        // Another set of animations after the first set completes
-        // Move the pink circle back down and increase its radius
-        const animation3 = animate("#pink-circle", { cy: 250 }, { duration: 0.5 });
-        const animation4 = animate("#pink-circle", { r: 50 }, { duration: 0.5 });
+    // Another set of animations after the first set completes
+    // Move the pink circle back down and increase its radius
+    const animation3 = animate("#pink-circle", { cy: 250 }, { duration: 0.5 });
+    const animation4 = animate("#pink-circle", { r: 50 }, { duration: 0.5 });
+  };
 
-    };
-
-
-    return (
-        <div ref={scope} className="h-screen bg-black flex flex-col justify-center items-center">
-            <svg width="500" height="500" viewBox="0  0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle id="pink-circle" cx="250" cy="250" r="50" fill="#F3B7B7"/>
-            </svg>
-            <button onClick={startAnimation} className="bg-white text-black mt-12 px-4 py-2 rounded-md">애니메이션 시작</button>
-        </div>
-    );
+  return (
+    <div ref={scope} className="h-screen bg-black flex flex-col justify-center items-center">
+      <svg width="500" height="500" viewBox="0  0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle id="pink-circle" cx="250" cy="250" r="50" fill="#F3B7B7" />
+      </svg>
+      <button onClick={startAnimation} className="bg-white text-black mt-12 px-4 py-2 rounded-md">
+        애니메이션 시작
+      </button>
+    </div>
+  );
 };
 
 export default UseAnimateExample;
@@ -173,7 +231,18 @@ export default UseAnimateExample;
 
 이 간단한 예시는 Framer Motion의 useAnimate 함수가 어떻게 작동하는지 보여줍니다. 다음에는 이 개념을 SVG 내의 여러 요소에 적용하여 포괄적인 애니메이션을 만들어보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 1: SVG를 포함한 컴포넌트 생성
 
@@ -181,39 +250,38 @@ AppleButton.jsx
 
 ```js
 import { useAnimate } from "framer-motion";
-import React, {useState} from "react";
+import React, { useState } from "react";
 
 const AppleButton = () => {
-    const [scope, animate] = useAnimate();
+  const [scope, animate] = useAnimate();
 
-    const EntryAnimation = async () => {
+  const EntryAnimation = async () => {};
 
+  const ExitAnimation = async () => {};
 
-    };
+  return (
+    <div ref={scope} className="h-screen bg-black flex flex-col justify-center items-center">
+      <svg width="244" height="84" viewBox="0 0 244 84" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="121.5" cy="40.5" r="40.5" fill="#0171E2" />
+        <circle cx="121.5" cy="40.5" r="22.5" fill="#EFEFF2" />
+        <rect y="18" width="244" height="45" rx="22.5" fill="#EFEFF2" />
+        <g clip-path="url(#clip0_49_269)">
+          <circle cx="121.528" cy="40.4722" r="16.5278" fill="#0171E2" />
+          <path
+            d="M129.083 39.5278H123.511V33.9556C123.511 33.1056 122.85 32.4444 122 32.4444C121.15 32.4444 120.583 33.1056 120.583 33.8611V39.4333H115.011C114.161 39.4333 113.5 40.0944 113.5 40.9444C113.5 41.7944 114.161 42.3611 114.917 42.3611H120.489V47.9333C120.489 48.7833 121.15 49.35 121.906 49.35C122.756 49.35 123.322 48.6889 123.322 47.9333V42.3611H128.894C129.744 42.3611 130.311 41.7 130.311 40.9444C130.5 40.1889 129.839 39.5278 129.083 39.5278Z"
+            fill="white"
+          />
+        </g>
+      </svg>
 
-    const ExitAnimation = async () => {
-
-
-    };
-
-
-    return (
-        <div ref={scope} className="h-screen bg-black flex flex-col justify-center items-center">
-            <svg width="244" height="84" viewBox="0 0 244 84" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="121.5" cy="40.5" r="40.5" fill="#0171E2"/>
-                <circle cx="121.5" cy="40.5" r="22.5" fill="#EFEFF2"/>
-                <rect y="18" width="244" height="45" rx="22.5" fill="#EFEFF2"/>
-                <g clip-path="url(#clip0_49_269)">
-                    <circle cx="121.528" cy="40.4722" r="16.5278" fill="#0171E2"/>
-                    <path d="M129.083 39.5278H123.511V33.9556C123.511 33.1056 122.85 32.4444 122 32.4444C121.15 32.4444 120.583 33.1056 120.583 33.8611V39.4333H115.011C114.161 39.4333 113.5 40.0944 113.5 40.9444C113.5 41.7944 114.161 42.3611 114.917 42.3611H120.489V47.9333C120.489 48.7833 121.15 49.35 121.906 49.35C122.756 49.35 123.322 48.6889 123.322 47.9333V42.3611H128.894C129.744 42.3611 130.311 41.7 130.311 40.9444C130.5 40.1889 129.839 39.5278 129.083 39.5278Z" fill="white"/>
-                </g>
-            </svg>
-
-            <button onClick={EntryAnimation} className="bg-white text-black mt-12 px-4 py-2 rounded-md">입장</button>
-            <button onClick={ExitAnimation} className="bg-white text-black mt-4 px-4 py-2 rounded-md">나가기</button>
-
-        </div>
-    );
+      <button onClick={EntryAnimation} className="bg-white text-black mt-12 px-4 py-2 rounded-md">
+        입장
+      </button>
+      <button onClick={ExitAnimation} className="bg-white text-black mt-4 px-4 py-2 rounded-md">
+        나가기
+      </button>
+    </div>
+  );
 };
 
 export default AppleButton;
@@ -221,19 +289,34 @@ export default AppleButton;
 
 <img src="/assets/img/2024-06-20-AnimatingLikeAppleUsingReactandFramer-MotiontoCodeComplexAnimationsforWebInterfaces_7.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 2: 각 SVG 요소에 ID 할당하기.
 
 ```js
 <svg width="244" height="84" viewBox="0 0 244 84" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <circle id="blue-circle" cx="121.5" cy="40.5" r="40.5" fill="#0171E2"/>
-    <circle id="gray-circle" cx="121.5" cy="40.5" r="22.5" fill="#EFEFF2"/>
-    <rect id="expanded-gray-circle" y="18" width="244" height="45" rx="22.5" fill="#EFEFF2"/>
-    <g clip-path="url(#clip0_49_269)">
-        <circle id="blue-inner-circle" cx="121.528" cy="40.4722" r="16.5278" fill="#0171E2"/>
-        <path id="plus-sign" d="M129.083 39.5278H123.511V33.9556C123.511 33.1056 122.85 32.4444 122 32.4444C121.15 32.4444 120.583 33.1056 120.583 33.8611V39.4333H115.011C114.161 39.4333 113.5 40.0944 113.5 40.9444C113.5 41.7944 114.161 42.3611 114.917 42.3611H120.489V47.9333C120.489 48.7833 121.15 49.35 121.906 49.35C122.756 49.35 123.322 48.6889 123.322 47.9333V42.3611H128.894C129.744 42.3611 130.311 41.7 130.311 40.9444C130.5 40.1889 129.839 39.5278 129.083 39.5278Z" fill="white"/>
-    </g>
+  <circle id="blue-circle" cx="121.5" cy="40.5" r="40.5" fill="#0171E2" />
+  <circle id="gray-circle" cx="121.5" cy="40.5" r="22.5" fill="#EFEFF2" />
+  <rect id="expanded-gray-circle" y="18" width="244" height="45" rx="22.5" fill="#EFEFF2" />
+  <g clip-path="url(#clip0_49_269)">
+    <circle id="blue-inner-circle" cx="121.528" cy="40.4722" r="16.5278" fill="#0171E2" />
+    <path
+      id="plus-sign"
+      d="M129.083 39.5278H123.511V33.9556C123.511 33.1056 122.85 32.4444 122 32.4444C121.15 32.4444 120.583 33.1056 120.583 33.8611V39.4333H115.011C114.161 39.4333 113.5 40.0944 113.5 40.9444C113.5 41.7944 114.161 42.3611 114.917 42.3611H120.489V47.9333C120.489 48.7833 121.15 49.35 121.906 49.35C122.756 49.35 123.322 48.6889 123.322 47.9333V42.3611H128.894C129.744 42.3611 130.311 41.7 130.311 40.9444C130.5 40.1889 129.839 39.5278 129.083 39.5278Z"
+      fill="white"
+    />
+  </g>
 </svg>
 ```
 
@@ -241,7 +324,18 @@ export default AppleButton;
 
 초기 상태에서 SVG가 보이지 않도록 하려면 불투명도 및 크기가 0으로 설정되어야 하므로 해당 속성을 조정하여 초깃값에서 애니메이션이 작동되도록 해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또한, 우리는 각 애니메이션 세그먼트의 정확한 지속 시간을 결정하기 위해 Jitter 파일을 참조할 수 있습니다.
 
@@ -318,8 +412,18 @@ const AppleButton = () => {
 export default AppleButton;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Animated Button](https://miro.medium.com/v2/resize:fit:1400/1*eNwg7lM93XU13vBp9aGt1w.gif)
 

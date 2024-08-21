@@ -3,15 +3,13 @@ title: "백엔드 없이도 문제없다 Web3Forms로 폼 제출 쉽게 관리�
 description: ""
 coverImage: "/assets/img/2024-07-09-NoBackendNoProblemEffortlesslyManageFormSubmissionswithWeb3Forms_0.png"
 date: 2024-07-09 14:22
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-NoBackendNoProblemEffortlesslyManageFormSubmissionswithWeb3Forms_0.png
 tag: Tech
 originalTitle: "No Backend? No Problem! Effortlessly Manage Form Submissions with Web3Forms"
 link: "https://medium.com/@madhawaawishka/no-backend-no-problem-effortlessly-manage-form-submissions-with-web3forms-41c3d1917b5e"
 isUpdated: true
 ---
-
-
 
 <img src="/assets/img/2024-07-09-NoBackendNoProblemEffortlesslyManageFormSubmissionswithWeb3Forms_0.png" />
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 # web3Forms란?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저의 연구 중에 "Web3Forms"라는 서비스를 발견했어요. 이 웹 API 서비스를 사용하면 서버나 백엔드 코드 없이 이메일로 HTML 폼 제출을 바로 받을 수 있고, 완전히 무료에요..!
 
@@ -31,7 +40,18 @@ isUpdated: true
 
 # Web3Forms 설정하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Web3Forms 설정은 간단합니다. 아래 단계를 따라하세요:
 
@@ -44,7 +64,18 @@ Web3Forms 설정은 간단합니다. 아래 단계를 따라하세요:
 
 ![이미지](/assets/img/2024-07-09-NoBackendNoProblemEffortlesslyManageFormSubmissionswithWeb3Forms_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-09-NoBackendNoProblemEffortlesslyManageFormSubmissionswithWeb3Forms_2.png)
 
@@ -54,6 +85,17 @@ Web3Forms 설정은 간단합니다. 아래 단계를 따라하세요:
 
 링크:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 web3Forms

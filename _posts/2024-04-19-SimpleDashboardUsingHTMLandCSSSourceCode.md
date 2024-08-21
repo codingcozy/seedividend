@@ -3,17 +3,13 @@ title: "html js로 간단한 대시보드 만들기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Simple Dashboard Using HTML and CSS Source Code"
 link: "https://medium.com/@cwrworksite/simple-dashboard-using-html-and-css-source-code-82221d197863"
 isUpdated: true
 ---
-
-
-
-
 
 안녕하세요 학습자 여러분……. Codewithrandom 블로그에 오신 것을 환영합니다… 오늘 이 블로그에서는 HTML과 CSS 코드만을 사용하여 대시보드 디자인을 어떻게 만드는지 배우게 될 거에요. 이 대시보드 디자인 프로젝트에서 많은 것을 배울 거예요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 대시보드는 시간 내에 시각적 데이터를 의미 있게 표시하고 쉽게 참조하고 빠르게 추론할 수 있도록 도와주는 차트를 제공하는 짧은 보고서입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대시보드는 모든 데이터를 시각적으로 표시하는 것입니다. 여러 가지 방식으로 사용될 수 있지만, 주요 목적은 주요 성과 지표(KPI)와 같은 정보를 한 눈에 제공하는 것입니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 여기서 sidebar div 클래스가 white label인 섹션 id를 추가하려고 합니다. 그런 다음 대시보드를 하나씩 나열하려 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 우리가 사용 중인 기본적인 스타일링이 있어요. CSS를 사용하고 있고 아이콘은 Font Awesome를 사용하고 있어요. 그리고 그들의 cdn(콘텐츠 전송 네트워크)을 HTML 파일의 제목 태그에 삽입하고 있어요.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 의미 있는 요소 = 의미를 갖는 요소들이에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 시멘틱 요소란 무엇인가요?
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 시멘틱 요소의 예: `form`, `table`, `article` - 내용을 명확히 정의합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 HTML에서 의미론적 요소많은 웹사이트에는 네비게이션, 헤더 및 푸터를 나타내는 HTML 코드가 포함되어 있습니다.
 HTML에서는 웹 페이지의 다른 부분을 정의하는 데 사용할 수 있는 의미론적 요소가 있습니다:
@@ -72,7 +112,18 @@ HTML에서는 웹 페이지의 다른 부분을 정의하는 데 사용할 수 �
 
 섹션 태그가 무엇인지 확실히 이해했으면 당신의 내용을 진행해보세요. 먼저 div 태그, span 태그, image 태그, 의미론적 태그, 클래스 및 아이디와 같은 HTML의 기본 개념을 익혀보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 코드에서는 Amazon AWS에 업로드된 일부 사진도 사용하고 있어. 걱정 마. 기본 정보를 위해 Amazon AWS 서비스에 대해 알 필요는 없어. AWS 서비스는 아마존에서 제공하는 클라우드 서비스야.
 
@@ -147,7 +198,18 @@ HTML에서는 웹 페이지의 다른 부분을 정의하는 데 사용할 수 �
 
 대시보드 디자인을 위한 더 많은 HTML 코드
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <section id="content">
@@ -252,7 +314,18 @@ HTML 코드 출력 :-
 
 # 대시보드 CSS 코드:-
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 페이지 대시보드의 기본 레이아웃은 완료되었지만 여전히 지루하고 노골적입니다. 그래서 이제 어떻게 해야할까요?
 
@@ -264,7 +337,18 @@ HTML 코드 출력 :-
 여기에 CSS 코드가 입력됩니다.
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Step1: body 태그 선택기(body)를 사용하여 대시보드의 글꼴을 "Open Sans"로, 높이 속성을 본문 높이를 "100%"로, 배경 속성을 배경 색상을 "연한 파랑"으로 설정하여 대시보드에 기본 스타일을 추가할 수 있습니다.
 
@@ -291,7 +375,18 @@ a {
 
 Step2: 이제 (#header)를 사용하여 요소와 대시보드 헤더를 스타일링할 것입니다. 헤더의 왼쪽과 오른쪽을 왼쪽으로 정렬하고 너비를 100%로 설정할 것입니다. 자식 구성 요소와 메뉴 목록 항목에도 스타일이 적용됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 #header {
@@ -490,7 +585,18 @@ Step3: 사이드바에 스타일이 적용됩니다. overflow 속성을 사용�
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단계4: 이제 남은 일은 콘텐츠를 스타일링하고 왼쪽으로 플로트 속성을 설정하는 것입니다. 저희 콘텐츠는 높이를 100%로 설정했습니다. 웹 사이트의 다양한 요소에 클래스 셀렉터를 사용하여 스타일링을 적용할 것입니다. 선택한 위젯 헤더의 배경색은 "파란색"입니다. 스타일링에 익숙해지면 코드를 읽는 것이 좋습니다.
 
@@ -557,8 +663,18 @@ Step3: 사이드바에 스타일이 적용됩니다. overflow 속성을 사용�
 
 <img src="/assets/img/SimpleDashboardUsingHTMLandCSSSourceCode_1.png" />
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단한 대시보드 디자인 코드를 HTML 및 CSS로 제공했어요.
 
@@ -568,7 +684,18 @@ Step3: 사이드바에 스타일이 적용됩니다. overflow 속성을 사용�
 
 또한, 감사의 댓글을 아래에 남겨주셔도 좋아요. 이렇게 하면 더 많은 유용한 콘텐츠를 제작할 동기부여가 될 거예요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 감사합니다.....
 
@@ -578,7 +705,18 @@ Step3: 사이드바에 스타일이 적용됩니다. overflow 속성을 사용�
 
 ## 이 프로젝트는 반응형인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 네, 이 대시보드 디자인 프로젝트는 반응형으로 제작되었어요.
 

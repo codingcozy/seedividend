@@ -3,7 +3,7 @@ title: "AWS 기반 클라우드 기반 생성형 AI 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-05-17-AWSBedrockCloud-basedGenerativeAI_0.png"
 date: 2024-05-17 04:21
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-17-AWSBedrockCloud-basedGenerativeAI_0.png
 tag: Tech
 originalTitle: "AWS Bedrock: Cloud-based Generative AI"
@@ -11,14 +11,11 @@ link: "https://medium.com/@pranavsanotra/aws-bedrock-cloud-based-generative-ai-2
 isUpdated: true
 ---
 
-
-
-
-
 ![AWS Bedrock](/assets/img/2024-05-17-AWSBedrockCloud-basedGenerativeAI_0.png)
 
 Amazon Bedrock은 클라우드에서 대형 언어 모델을 활용하는 견고한 솔루션입니다! 경험 많은 개발자, 데이터 과학자 또는 Generative AI의 시작부터 Amazon Bedrock은 끝까지 Generative AI 애플리케이션을 테스트하고 구현하는 이상적인 장소가 될 수 있습니다.
 이 튜토리얼을 통해 AWS Bedrock 설정 및 시작하는 프로세스를 간단하게 만드는 데 목표를 두었습니다. 이 튜토리얼에서는 Meta의 Llama-3-70B-Instruct 모델을 가져와 사용할 것입니다. 튜토리얼을 따라가기 전에 다음 사전 요구 사항을 충족해야 합니다:
+
 1. AWS 계정
 2. Visual Studio Code 또는 IDE
 3. Amazon Web Services의 기본 지식
@@ -27,8 +24,18 @@ Amazon Bedrock은 클라우드에서 대형 언어 모델을 활용하는 견고
 
 2. AWS 콘솔에서 AWS Bedrock을 검색하고 지역을 신중하게 선택합니다. 현재 일부 대형 언어 모델은 특정 지역에서만 사용할 수 있습니다. 이 튜토리얼에서는 "us-west-2"를 선택하고 Meta의 "Llama-3-70B-Instruct" 모델에 액세스할 것입니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 선택한 IDE(제 경우 VS Code)로 이동하여 CLI에서 IAM 자격 증명을 구성하세요. 이미 구성해 두었지만, 자격 증명을 요청받을 때 신중히 입력해주세요.
 
@@ -66,9 +73,20 @@ print(response_text)
 ```
 
 3. 코드를 실행하고 결과를 테스트하세요!
-예시 프롬프트: "리오넬 메시가 시대 최고의 선수인 이유를 5가지 말해주세요. 답변을 100~150 단어로 요약해주세요."
+   예시 프롬프트: "리오넬 메시가 시대 최고의 선수인 이유를 5가지 말해주세요. 답변을 100~150 단어로 요약해주세요."
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![AWSBedrockCloud-basedGenerativeAI](/assets/img/2024-05-17-AWSBedrockCloud-basedGenerativeAI_1.png)
 

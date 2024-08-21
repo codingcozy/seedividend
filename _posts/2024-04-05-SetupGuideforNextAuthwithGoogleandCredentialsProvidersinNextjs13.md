@@ -3,17 +3,13 @@ title: "Nextjs 13에서 NextAuth와 구글 및 자격 증명 제공자 설정하
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Setup Guide for NextAuth with Google and Credentials Providers in Nextjs 13"
 link: "https://medium.com/@karthickragavendran/setup-guide-for-nextauth-with-google-and-credentials-providers-in-next-js-13-8f5f13414c1e"
 isUpdated: true
 ---
-
-
-
-
 
 이 가이드는 Next.js 13 (앱 디렉토리) 애플리케이션에 NextAuth를 통합하기 위한 간결한 단계를 제공합니다. 구글 및 자격 증명 제공자를 사용하여 인증을 수행합니다. 목표는 Next.js 프로젝트에서 구글 로그인과 전통적인 이메일/비밀번호 인증을 모두 활성화하는 것입니다. 설정 프로세스에 대해 알아보고, 구현 및 코드 예제에 초점을 맞춥니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 시작하기 전에 다음 사항이 있는지 확인하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - App 디렉터리가 활성화된 Next.js 13 프로젝트 설정.
 - OAuth 자격 증명을 얻기 위한 Google Cloud 계정.
@@ -40,7 +47,18 @@ Google OAuth 자격 증명을 얻으려면:
 
 # NextAuth 설치
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, Next.js 프로젝트에 NextAuth를 설치해주세요:
 
@@ -56,7 +74,18 @@ import GoogleProvider from "next-auth/providers/google";
 import CredentialsProvider from "next-auth/providers/credentials";
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 export const authOptions = {
@@ -76,7 +105,18 @@ export const getAuth = () => getServerSession(authOptions);
 
 Google 인증을 통합하려면 authOptions의 providers 배열을 업데이트하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import GoogleProvider from "next-auth/providers/google";
@@ -101,7 +141,18 @@ export const authOptions = {
 - clientId와 clientSecret는 Google Cloud Console에서 얻은 OAuth 자격 증명입니다.
 - 보안을 위해 이러한 자격 증명을 환경 변수(GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET)에 저장하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 5. 자격 증명 제공자 설정하기
 
@@ -141,7 +192,18 @@ export const authOptions = {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주요 사항:
 
@@ -155,7 +217,18 @@ export const authOptions = {
 
 # NextAuth의 authOptions 상세 분석
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이authOptions 구조와 그 구성 요소를 자세히 살펴보겠습니다:
 
@@ -188,7 +261,18 @@ export const authOptions: NextAuthOptions = {
 - callbacks는 signIn 및 세션 이벤트의 사용자 정의 처리를 허용합니다.
 - pages는 로그인을 위한 사용자 정의 페이지를 지정할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 인증 루트
 
@@ -205,7 +289,18 @@ const handler = NextAuth(authOptions);
 export { handler as GET, handler as POST };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 코드에서:
 
@@ -217,7 +312,18 @@ export { handler as GET, handler as POST };
 
 인증된 사용자에게 생성된 토큰을 반환하는 경로를 가질 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // src/app/api/auth/token/route.ts
@@ -227,8 +333,7 @@ import { cookies } from "next/headers";
 
 export async function GET(req: NextRequest, res: NextResponse) {
   const getCookies = cookies();
-  const nextAuthSession =
-    getCookies.get("next-auth.session-token")?.value || "";
+  const nextAuthSession = getCookies.get("next-auth.session-token")?.value || "";
 
   return NextResponse.json(nextAuthSession);
 }
@@ -260,7 +365,18 @@ export async function GET(req: NextRequest, res: NextResponse) {
     `-- 사용자가 완전히 인증되어 애플리케이션에 액세스
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # UI 구성 요소
 
@@ -273,20 +389,12 @@ export const SignIn = () => {
 
   return (
     <AuthLayout title="로그인">
-      <form
-        onSubmit={handleSubmit(({ email, password }) =>
-          signIn("credentials", { email, password })
-        )}
-      >
+      <form onSubmit={handleSubmit(({ email, password }) => signIn("credentials", { email, password }))}>
         <Label title="이메일">
           <Input {...register("email")} placeholder="이메일" />
         </Label>
         <Label title="비밀번호">
-          <Input
-            {...register("password")}
-            type="password"
-            placeholder="비밀번호"
-          />
+          <Input {...register("password")} type="password" placeholder="비밀번호" />
         </Label>
         <Button type="submit">제출</Button>
       </form>
@@ -337,7 +445,18 @@ export const Register = () => {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 회원 가입 페이지에서는 다음을 수행합니다.
 
@@ -350,7 +469,18 @@ export const Register = () => {
 
 NextAuth를 사용하여 Next.js에서 인증을 설정하는 세부 정보에 대해 살펴보기 전에, 이 가이드는 특히 인증 메커니즘의 프론트엔드 구성에 중점을 둔 것을 기억해주시기 바랍니다. 이 안내서에서 다루지 않는 주요 구성 요소는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 데이터베이스 스키마: 사용자 자격 증명을 저장하는 백엔드 설정, 특히 자격 증명 제공자에 관한 부분이 다루지 않았습니다. 완벽한 구현에는 암호화된 암호와 사용자 세부 정보를 저장하는 데이터베이스가 필요합니다.
 - 백엔드 등록 라우트: 사용자 등록 및 관리에 필요한 백엔드 라우트가 가이드에 포함되어 있지 않으며, 이는 완전히 기능적인 인증 시스템에 필수적입니다.
@@ -362,6 +492,17 @@ NextAuth를 사용하여 Next.js에서 인증을 설정하는 세부 정보에 �
 
 읽어주셔서 감사합니다. 제 작품에 관심을 가져주셔서 감사합니다. 더 많은 완성도 있는 오픈소스 제품을 원하시면 Github나 LinkedIn에서 팔로우해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 행복한 코딩하세요. 🎉

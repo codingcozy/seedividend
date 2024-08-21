@@ -3,17 +3,13 @@ title: "웹킷 브라우저 바 색상 변경하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Coloring the WebKit Browser Bars"
 link: "https://medium.com/@evkirkiles/coloring-the-webkit-browser-bars-28d75cd8cf7f"
 isUpdated: true
 ---
-
-
-
-
 
 ## 몇 가지 팁을 드려요! 웹킷을 사용하는 모바일(그리고 일부 데스크톱) 사용자를 위해 웹 사이트 모양을 크게 개선할 수 있는 몇 가지 방법입니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 그러나 모바일 iPhone 기기에서 웹 사이트를 확인하기 위해 XCode의 모바일 기기 시뮬레이터를 사용하는 즉시, 내 비전과 맞지 않는 것을 즉시 알아챘어요. 랜딩 페이지의 "갤러리" 섹션으로 스크롤 다운하여 이동하면, 나는 검은 배경에 흰색 텍스트를 선택했듯이 보기 상단과 하단에 시각적으로 눈에 띄는 두 개의 흰색 막대를 남겼습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/ColoringtheWebKitBrowserBars_1.png" />
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 # 네이티브한 느낌과 외관
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모바일 브라우저에서 실제 사이트는 화면의 약 85-90%만 차지합니다. 언제든지 화면의 나머지 10-15%는 네이티브 네비게이션 바(웹 사이트의 URL이 표시되는 곳)와 상태 바(노치와 배터리가 있는 곳)로 채워집니다. Safari / WebKit에서 이러한 바의 색상은 Chromium과는 달리 직접 설정할 수 있습니다. 그러나 스타일을 상속받는 방법은 약간 모호하며 처음에는 혼란스러울 수 있습니다.
 
@@ -45,7 +63,18 @@ isUpdated: true
 - PWAs를 명시적으로 대상으로 하는 manifest.json 파일에 지정된 theme-color. 이 파일은 브라우저에 한 번만 로드되기 때문에 동적이 아니므로 가장 유연성이 낮은 옵션입니다. 이에 대해 종종 포기하고 manifest.json에서 설정을 제거합니다.
 - 마지막으로 CSS에서 문서 body의 배경색. 배경색을 사용하면 CSS 전환을 활성화할 수 있습니다. 그러나 배경색 사용 시 네비게이션 바의 스타일 계층 구조를 살펴볼 때 주의할 점이 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, theme-color 메타 태그의 값을 #000000으로 설정하면 다음과 같은 결과를 얻을 수 있어요:
 
@@ -69,7 +98,18 @@ window.addEventListener(
 );
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 …이를 허용하여 맨 위에서는 흰색으로 시작하고 "갤러리" 고정 바에 도달하면 검정색으로 변경됩니다. 그러나 아래로 스크롤하면 최소화된 내비게이션 바는 전혀 색상이 변경되지 않습니다. 그 이유에 대해 이해하려면, 그 바의 스타일 상속 계층 구조를 살펴보겠습니다.
 
@@ -79,7 +119,18 @@ window.addEventListener(
 
 ![이미지](/assets/img/ColoringtheWebKitBrowserBars_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자, 이제 스크롤 기반 JavaScript 코드를 가져와서 이제는 삭제된 메타 테마 색상 태그 대신 문서의 배경색을 업데이트하도록 변경해 보겠습니다—
 
@@ -102,7 +153,18 @@ window.addEventListener(
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1200/1*uV3tin-g5Op9aQueWd01aw.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ...하지만 더 나은 방법이 있을 거에요.
 
@@ -112,7 +174,18 @@ window.addEventListener(
 
 ![ColoringtheWebKitBrowserBars_5.png](/assets/img/ColoringtheWebKitBrowserBars_5.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 화면 하단의 검은색 배경에 흰색 네비게이션 바가 보입니다. 두 바가 서로 다른 계층에서 스타일을 상속받기 때문에, 우리는 가설적으로 그들의 색상을 분리할 수 있습니다. 이는 하단 네비게이션 바가 항상 화면 하단 요소의 지정된 색상과 일치하도록 하고, 상단 상태 표시줄이 항상 화면 상단 요소의 색상과 일치하도록 하는 것입니다.
 
@@ -123,7 +196,18 @@ window.addEventListener(
 - 어떠한 이유로 인해, 최소화된 네비게이션 바의 색상은 실제로 사용자가 스크롤하여 최대화된 네비게이션 바에서 최소화된 네비게이션 바로 전환되는 경우 또는 상태 표시줄의 색상이 변경될 때에만 배경색 CSS 속성에서 업데이트되고 읽습니다. 이는 테마 색상 태그를 사용하여 상태 표시줄의 색상을 네비게이션 바의 색상과 분리한다면, 배경색 CSS 속성의 색상을 변경해도 네비게이션 바를 다시 그려야하는 것으로 충분하지 않습니다—상태 표시줄도 다시 그리도록 만들어야 합니다. 그리고 색상이 비교되어 상태 표시줄이 다시 그려져야 하는 시기를 결정하므로, 이는 테마 색상을 다른 색상으로 변경해야 합니다.
 - 더불어, 이제 HTML 테마 색상 메타 태그로 상태 표시줄의 색상을 제어하고 있기 때문에, 그 색상에 대해 부드러운 CSS 전환에 접근할 수 없습니다—JavaScript를 사용하여 두 색상 사이를 수동으로 전환해야 합니다. 그리고 네비게이션 바의 색상은 상태 표시줄이 다시 그려질 때에만 업데이트되기 때문에, 이는 네비게이션 바의 CSS 색상 전환을 사용할 수 없게되며, 상태 표시줄과 동기화되지 않는 한. body의 배경색에 전환을 설정하면, 상태 표시줄의 색상을 변경할 때 배경색이 보간된 값을 현 시점에서 일부만 샘플링하는 것을 알 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 것을 고려해 봤을 때, 여전히 두 개의 네이티브 브라우저 바를 분리할 수 있습니다. 각 바가 업데이트가 필요한 시점을 감지하기 위해 두 개의 IntersectionObserver를 사용하기로 결정했습니다—화면 상단 및 화면 하단 각각에 대해 하나씩:
 
@@ -204,7 +288,18 @@ export default function useMetaTheme(ref: RefObject<Element>, color: string) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 구현을 사용하는 방법을 설명하는 작은 데모 구성 요소가 여기 있습니다:
 
@@ -224,7 +319,18 @@ function ColoredSection({ color }: { color: string }) {
 
 내비게이션 바의 업데이트 코드에 주의깊게 살펴보세요. 상태 표시줄을 다시 그리도록 설정하는 대신 해당 Hex 코드 끝에 "fe"를 추가하여 상태 표시줄을 다시 그리고, 다음 애니메이션 프레임에서 "fe"를 제거합니다 (시각적 모습을 완전히 보존하기 위해 이렇게 하면 알파 값이 조금 더 투명해져 "새로운 색상"이 됩니다). 이렇게 함으로써 상태 표시줄과 내비게이션 바를 독립적으로 제어할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해당 이미지를 사용하여 웹사이트에 적용했습니다:
 
@@ -234,7 +340,18 @@ function ColoredSection({ color }: { color: string }) {
 
 그게 전부에요! 완벽히 통일된, 컬러 최적화된 디자인이 완성되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -244,7 +361,18 @@ function ColoredSection({ color }: { color: string }) {
 
 또한 데스크톱 Safari 브라우저에서도 테마 색상의 네이티브 효과를 볼 수 있지만, 밝은 모드 및 콤팩트 탭 뷰에서만 가능합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/ColoringtheWebKitBrowserBars_9.png)
 

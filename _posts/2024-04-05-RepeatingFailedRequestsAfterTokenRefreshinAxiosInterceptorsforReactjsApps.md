@@ -3,17 +3,13 @@ title: "Reactjs 앱에서 Axios 인터셉터를 사용하여 토큰 새로 고�
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Repeating Failed Requests After Token Refresh in Axios Interceptors for Reactjs Apps"
 link: "https://medium.com/@sina.alizadeh120/repeating-failed-requests-after-token-refresh-in-axios-interceptors-for-react-js-apps-50feb54ddcbc"
 isUpdated: true
 ---
-
-
-
-
 
 ![RepeatingFailedRequestsAfterTokenRefreshinAxiosInterceptorsforReactjsApps_0.png](/assets/img/RepeatingFailedRequestsAfterTokenRefreshinAxiosInterceptorsforReactjsApps_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 Axios 인터셉터는 HTTP 요청과 응답을 전역적으로 가로채고 변환할 수 있는 미들웨어입니다. 이는 요청에 인증 헤더를 추가하거나 오류 처리, 토큰 관리와 같은 작업을 처리할 때 특히 유용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // React.js 프로젝트에서 Axios 설정하기
@@ -76,7 +83,18 @@ const generateRefreshToken = (user) => {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Axios 인터셉터를 사용하여 토큰 만료 처리하기
 
@@ -109,7 +127,18 @@ axiosInstance.interceptors.response.use(
 
 ## 토큰 갱신 후 실패한 요청 다시 시도하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 토큰 갱신 중에는 토큰 만료로 인해 일부 요청이 실패할 수 있습니다. 이 문제를 해결하기 위해 우리는 실패한 요청을 저장하고 새로운 액세스 토큰을 획득한 후 다시 시도할 수 있는 요청 대기열을 구현할 수 있습니다.
 
@@ -190,7 +219,18 @@ axiosInstance.interceptors.response.use(
 - 원래 요청 대기열에 추가: 요청이 토큰 갱신 중 401 오류를 만난 경우 토큰 갱신이 진행 중이므로 원래 요청 구성을 대기열에 추가합니다. 이러한 요청은 새 액세스 토큰을 사용할 수 있을 때 다시 시도됩니다.
 - 401이 아닌 경우 거부: 상태 코드가 401이 아닌 경우 에러를 전파하기 위해 프로미스를 거부합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 코드는 모든 실패한 요청이 새 액세스 토큰으로 성공적인 토큰 새로 고침 후 자동으로 다시 시도되도록하며, 동시성을 효과적으로 관리하여 중복된 토큰 새로 고침 요청을 피합니다.
 
@@ -223,7 +263,18 @@ function App() {
 export default App;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 결론:
 

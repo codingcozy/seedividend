@@ -3,16 +3,13 @@ title: "올라마와 오픈 웹 UI를 쿠버네티스에 배포하기"
 description: ""
 coverImage: "/assets/img/2024-05-16-DeployingOllamaandOpenWebUIonKubernetes_0.png"
 date: 2024-05-16 16:56
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-16-DeployingOllamaandOpenWebUIonKubernetes_0.png
 tag: Tech
 originalTitle: "Deploying Ollama and Open Web UI on Kubernetes"
 link: "https://medium.com/@0xthresh/deploying-ollama-and-open-web-ui-on-kubernetes-7a05c986153e"
 isUpdated: true
 ---
-
-
-
 
 여러 이유들로 인해 별도의 긴 텍스트 블로그 게시물에서 설명할 것을 계획한 대로, 저는 팀이 AI 모델을 자체 호스팅하고 개발 팀을 더 효율적으로 만들 수 있는지 조사하는 실험을 진행하기로 결정했습니다. 본문에서는 우리 팀을 위해 쿠버네티스에서 Ollama와 Open Web UI를 호스팅하기 위해 구축한 아키텍처에 대해 설명하고, 왜 그것을 선택했는지 설명하겠습니다.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 Cody AI는 멋지며, 제 개인 장비에서 사용 중입니다. 팀을 위해, 우리는 라이선스 문제나 구매 부분과의 충돌을 피하기 위해 모든 부분에서 오픈 소스 소프트웨어를 준수하고자 했습니다. Llama Coder는 오픈 소스이며 좋으나, 우리가 시도했을 때는 채팅 기능만 있었습니다. Twinny는 저희가 로컬 테스트 중에도 채팅 및 자동 완성 기능을 둘 다 잘 수행하는 유일한 오픈 소스 IDE 플러그인이었습니다. 플러그인 유지자는 항상 열정적으로 작업하고 문제에 신속히 대응하는 것으로 보여서 우리가 좋아하는 점입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 아키텍처
 
@@ -34,7 +42,18 @@ Cody AI는 멋지며, 제 개인 장비에서 사용 중입니다. 팀을 위해
 kubectl apply -f https://raw.githubusercontent.com/NVIDIA/k8s-device-plugin/v0.14.5/nvidia-device-plugin.yml
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 ALB 인그레스 컨트롤러를 사용하여 Open Web UI Ingress 주석에서 ALB를 생성했고, Persistent Volumes를 처리하기 위해 EBS CSI 플러그인을 사용했습니다.
 
@@ -44,7 +63,18 @@ kubectl apply -f https://raw.githubusercontent.com/NVIDIA/k8s-device-plugin/v0.1
 
 마지막으로, Ollama와 Open WebUI 서비스를 구축하기 위해 각각의 Helm 차트를 사용했습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - https://artifacthub.io/packages/helm/ollama-helm/ollama
 - https://artifacthub.io/packages/helm/open-webui/open-webui
@@ -55,7 +85,18 @@ kubectl apply -f https://raw.githubusercontent.com/NVIDIA/k8s-device-plugin/v0.1
 
 ![아키텍처 다이어그램](/assets/img/2024-05-16-DeployingOllamaandOpenWebUIonKubernetes_0.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 섬세한 조정
 
@@ -65,7 +106,18 @@ Ollama가 한 번에 한 요청에만 응답할 수 있다는 것을 발견했�
 
 Ollama Helm 차트에 추가할 수 있는 다른 값은 ollama.models 값입니다. 이를 통해 Ollama 서비스가 호스팅할 모든 모델을 미리 로드할 수 있어서 첫 사용자들에게 시간을 절약할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 마무리
 

@@ -3,16 +3,13 @@ title: "React와 TypeScript를 사용하여 높이가 변하는 Textarea 만들�
 description: ""
 coverImage: "/assets/img/2024-05-02-CreatingaTextareawithdynamicheightusingReactandTypescript_0.png"
 date: 2024-05-02 00:27
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-02-CreatingaTextareawithdynamicheightusingReactandTypescript_0.png
 tag: Tech
 originalTitle: "Creating a Textarea with dynamic height using React and Typescript"
 link: "https://medium.com/@oherterich/creating-a-textarea-with-dynamic-height-using-react-and-typescript-5ed2d78d9848"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-05-02-CreatingaTextareawithdynamicheightusingReactandTypescript_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 <img src="https://miro.medium.com/v2/resize:fit:744/1*y6pw2_PMeE8fLGdxRgOEyA.gif" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 배경
 
@@ -34,7 +42,18 @@ isUpdated: true
 
 내 의견으로는 상기 해결책 모두 상당한 무역 오프와 불필요한 버그 및 구현에서 발생할 수 있는 이상한 점이 있을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 리액트의 장점을 살리기
 
@@ -44,7 +63,18 @@ hack해결책에 의존하는 대신, 리액트를 활용해 보는 게 좋겠�
 
 여기서 비밀은 `textarea`의 scrollHeight를 사용해 정확한 높이를 구하는 것입니다. 그것을 위해서는 `textarea`의 높이를 잠깐 0으로 설정하여 scrollHeight가 엘리먼트의 고유한 높이와 같도록 강제해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 값을 얻으면, 간단히 스타일 속성을 사용하여 요소의 높이를 설정할 수 있습니다. 이렇게 하면 `textarea`가 내용의 높이를 차지하도록 할 수 있습니다.
 
@@ -54,7 +84,18 @@ hack해결책에 의존하는 대신, 리액트를 활용해 보는 게 좋겠�
 
 # 재사용 가능한 훅 만들기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 재사용 가능한 후크인 useAutosizeTextArea로 이 로직을 추출했어요. 이건 반드시 필요한 건 아니지만, 앞으로 다른 컴포넌트에 이 기능을 쉽고 간결한 방법으로 가져올 수 있을 거라고 생각했어요.
 

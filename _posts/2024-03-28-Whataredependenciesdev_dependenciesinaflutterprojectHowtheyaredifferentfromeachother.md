@@ -3,17 +3,13 @@ title: "플러터 프로젝트 dependencies와 dev_dependencies 차이점 비교
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "What are dependencies , dev_dependencies in a flutter project How they are different from each other"
 link: "https://medium.com/@chetan.akarte/what-are-dependencies-dev-dependencies-in-a-flutter-project-480d4877d719"
 isUpdated: true
 ---
-
-
-
-
 
 # 플러터 프로젝트에서, 의존성은 pubspec.yaml 파일에 정의되며 주로 두 가지 유형으로 분류됩니다: dependencies와 dev_dependencies. 두 가지 모두 외부 패키지를 프로젝트에 포함시키는 데 사용되지만, 각각 다른 목적으로 사용되며 개발 수명 주기에서 구별된 역할을 갖습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 Dependencies
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 목적: 의존성 섹션에서는 프로젝트가 실행되기 위해 필요한 패키지를 나열합니다. 이러한 라이브러리 및 프레임워크는 애플리케이션이 기능을 추가하기 위해 코드에 가져오고 사용하는 항목들로, HTTP 요청, 상태 관리 솔루션, 이미지 로딩 라이브러리 등이 포함됩니다.
 
@@ -37,7 +44,18 @@ dependencies:
   provider: ^5.0.0
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 목적: dev_dependencies 섹션은 개발 중에 사용되지만 최종 컴파일된 앱에 필요하지 않은 패키지를 위한 공간입니다. 일반적으로 이에는 테스팅, 코드 린팅, 빌드 프로세스 또는 예제 또는 문서에서만 사용되는 패키지 등이 포함됩니다.
 
@@ -54,7 +72,18 @@ dev_dependencies:
 
 의존성과 개발 의존성의 차이
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 프로덕션 코드 포함: 정규 의존성은 최종 앱 빌드에 포함되며 앱이 올바르게 작동하는 데 필수적입니다. 반면에 dev_dependencies는 앱의 프로덕션 빌드에 포함되지 않으며 개발 중에만 사용됩니다.
 

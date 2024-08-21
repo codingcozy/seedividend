@@ -3,17 +3,13 @@ title: "Flask, React, Socketio를 활용하여 간단한 실시간 애플리케�
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How to build a simple real-time application using Flask, React and Socketio"
 link: "https://medium.com/@adrianhuber17/how-to-build-a-simple-real-time-application-using-flask-react-and-socket-io-7ec2ce2da977"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/Howtobuildasimplereal-timeapplicationusingFlaskReactandSocketio_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ## 배경 🧩
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 실시간으로 사용자의 친구 피드를 업데이트하는 웹 애플리케이션을 만들고 싶었어요. 페이지를 다시 렌더링할 필요 없이 실시간 데이터 전송을 가능하게 하기 위해 웹소켓 통신 프로토콜을 통한 연결 설정이 필요하다는 것을 깨달았죠.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 많은 시행착오 끝에, 이 프레임워크를 사용해 웹소켓 연결을 작동시킬 수 있었답니다. 이제 나는 다른 사람들이 Flask+React 앱을 웹소켓으로 구축하려는 분들을 도와주기 위해 내 단계들을 공유하려고 해요. 구체적으로, socket.io 라이브러리를 사용하여 서버와 클라이언트 간 서로 듣고 말할 수 있는 방법을 보여드릴 거예요. 이를 통해 다른 사용자들이 실시간으로 채팅할 수 있는 간단한 메시징 앱을 만들어 볼 거예요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 코드를 다운로드하려면 GitHub 저장소를 방문해주세요.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 아래 그림 1을 보면, Google Chrome 브라우저(왼쪽)와 Firefox 브라우저(오른쪽)가 앱을 실행 중입니다. HTTP 통신으로 표시된 상자에는 서버로의 HTTP 요청으로부터 가져온 빨간 텍스트가 페이지 로드시 렌더링됩니다. WebSocket 통신으로 표시된 상자에는 웹소켓을 이용해 두 사용자 간에 이루어지는 실시간 채팅 통신이 표시됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용자가 메시지를 보내면 앱을 실행 중인 모든 사용자가 서버에서 수동으로 요청하지 않아도 즉시 메시지를 볼 수 있습니다. 아래 GIF에서 확인할 수 있습니다.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 플라스크 서버.py 파일을 설정하고, 이 파일의 각 섹션을 자세히 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주요 라이브러리인 flask, flask_socketio 및 flask_cors를 설치하고 가져와야 합니다. 이는 아래 그림 2에서 확인할 수 있습니다(GitHub 저장소의 requirements.txt에서 모든 라이브러리 버전을 확인하세요). 또한 eventlet을 설치했지만 앱을 실행할 때 flask-socketio가 자동으로 감지하기 때문에 가져올 필요가 없습니다.
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 내가 설정한 루트 @app.route("/http-call") 하나만 설정하여, 앱이 클라이언트에서 시작된 정규 HTTP 호출 및 서버로부터의 응답을 처리할 수 있음을 보여줍니다. 또한 WebSocket을 통한 지속적인 통신도 처리할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 socket.io를 사용하면 메시지가 이벤트로 클라이언트와 서버 양쪽에서 받아지므로 서버는 이러한 이벤트에 대한 핸들러를 등록해야 합니다. 즉, @socketio.on()을 사용해야 합니다. 이벤트 핸들러 내에서는 클라이언트가 해당 특정 이름 아래의 메시지를 수신할 수 있도록 대기할 이벤트의 이름이 포함되어 있습니다.
 
@@ -73,7 +124,18 @@ socket.io를 사용하면 메시지가 이벤트로 클라이언트와 서버 �
 
 마지막으로 "disconnect"라는 이벤트 이름은 사용자가 서버와 연결을 해제할 때 대기하게 되며 사용자가 연결을 해제했다는 메시지를 모든 사용자에 다시 보냅니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 참고: 이벤트명은 사용자 정의 이름일 수 있으며 JSON과 같은 다양한 데이터 유형을 처리할 수도 있습니다.
 
@@ -83,7 +145,18 @@ socket.io를 사용하면 메시지가 이벤트로 클라이언트와 서버 �
 
 클라이언트 측에서는 package.json 파일에서 "proxy": "http://localhost:5001/"로 프록시를 설정했습니다. 아래 그림 6와 같이 설정하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 그림 7에 표시된 App.js 파일에서는 socket.io-client 라이브러리에서 {io}를 가져와서 사용합니다. 그런 다음 useEffect 내부에서 io를 사용하여 채팅 기능을 켜는 버튼을 클릭할 때 서버와의 웹소켓 연결을 초기화합니다.
 
@@ -93,7 +166,18 @@ useEffect 내부에서 io 연결의 인스턴스를 만들고 변수 socket에 �
 
 useEffect 내부에는 "disconnected"인 사용자들을 듣기 위한 다른 이벤트 이밋터도 추가합니다. 이는 사용자가 연결을 해제할 때 서버와 다른 모든 클라이언트에 알리게 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 useEffect의 끝에, 채팅이 닫히고 컴포넌트가 언마운트될 때 WebSocket 연결을 완전히 닫기 위해 cleanup() 함수를 포함하는 return을 추가합니다.
 
@@ -103,7 +187,18 @@ useEffect의 끝에, 채팅이 닫히고 컴포넌트가 언마운트될 때 Web
 
 내부에서 ahandleText() 함수는 사용자가 텍스트 상자에 타이핑할 때 메시지 상태를 업데이이트 합니다. 사용자가 제출 버튼을 클릭하면 handleSubmit() 함수가 호출되어 소켓.emit을 사용하여 메시지를 event "data"로 서버에 보내고 두 번째 매개변수로 메시지 상태를 전달합니다. 서버는 그 메시지를 연결된 모든 사용자에게 다시 보냅니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용자가 새로운 메시지를 보낼 때마다 메시지 구성 요소를 렌더링하고 업데이트하는 데 useEffect를 사용합니다. useEffect는 소켓과 메시지를 종속성 배열에 사용하므로 해당 종속성 중 하나가 업데이트될 때 메시징 구성 요소가 다시 렌더링됩니다. 그러면 사용자가 메시지를 받을 수 있는 "data" 이벤트 리스너가 활성화됩니다.
 
@@ -113,7 +208,18 @@ useEffect의 끝에, 채팅이 닫히고 컴포넌트가 언마운트될 때 Web
 
 웹소켓 통신을 통해 실시간 피드, 실시간 데이터 시각화, 주식 가격 지표, 메시징 앱, 위치 기반 앱 등과 같은 흥미로운 앱 기능을 구축할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 튜토리얼이 유용했기를 바랍니다. 궁금한 점이 있거나 LinkedIn을 통해 저에게 연락하려면 댓글을 남겨주세요. 소프트웨어 엔지니어링의 신세인데요, 피드백이나 건설적인 코멘트가 있으시면 알려주시면 감사하겠습니다 😊. 읽어주셔서 감사합니다.
 
@@ -123,6 +229,17 @@ useEffect의 끝에, 채팅이 닫히고 컴포넌트가 언마운트될 때 Web
 
 ## Connect with me 🌎
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 도움이 되는 자료

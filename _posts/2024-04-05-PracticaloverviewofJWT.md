@@ -3,17 +3,13 @@ title: "React 사이트에서 JWT 사용하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Practical overview of JWT"
 link: "https://medium.com/@manishbdoley23/practical-overview-of-jwt-90263f2d8afc"
 isUpdated: true
 ---
-
-
-
-
 
 ## React와 Node로 구축한 인증 웹 앱 소개
 
@@ -21,7 +17,18 @@ isUpdated: true
 
 간단한 요약: 프로젝트 소개
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 회원가입 프로세스:
 
@@ -37,7 +44,18 @@ isUpdated: true
 - 서버는 그런 다음, jwt:access-token과 jwt:refresh-token을 "Set-cookie" 헤더나 express를 위해 res.cookies(token, { httpOnly: true }) 내부에 설정하고 응답을 클라이언트로 다시 보냅니다 (응답에는 사용자 정보와 jwt:access-token이 포함됨).
 - 클라이언트는 서버로부터 응답을 받은 후, 사용자가 '환영' 페이지로 리디렉션됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 보호된 라우트에 액세스하는 방법:
 
@@ -52,7 +70,18 @@ isUpdated: true
 - "Set-cookie" 응답 헤더는 보안 문제로 인해 클라이언트에서 액세스할 수 없으며 금지된 헤더의 일부입니다(쿠키는 서버에 의해서만 조작될 수 있습니다).
   추가 정보: https://fetch.spec.whatwg.org/#forbidden-response-header-name
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 인증 앱
 
@@ -68,10 +97,7 @@ export const signUpUser = async (req: Request, res: Response) => {
   const { email, password } = req.body;
 
   const emailExists = await checkIfEmailExists(email);
-  if (emailExists)
-    return res
-      .status(400)
-      .json({ message: "이미 존재하는 이메일입니다. 로그인하러 이동" });
+  if (emailExists) return res.status(400).json({ message: "이미 존재하는 이메일입니다. 로그인하러 이동" });
 
   const hashedPassword = await hash(password);
   if (hashedPassword !== undefined) {
@@ -82,7 +108,18 @@ export const signUpUser = async (req: Request, res: Response) => {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로그인 컨트롤러와 액세스 토큰 생성기
 
@@ -171,7 +208,18 @@ const response = await fetch(`${import.meta.env.VITE_BACKEND}/auth/login`, {
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프론트엔드에서 쿠키를 받으려면 cors를 허용해야 해요
 
@@ -208,7 +256,18 @@ if (response.ok) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용자가 성공적으로 로그인되었으며 쿠키가 브라우저에 설정되었습니다.
 
@@ -222,14 +281,8 @@ router.get("/check", authenticateToken, (req, res) => {
 });
 
 // ./auth.middleware.ts
-export const authenticateToken = (
-  req: Request,
-  res: Response,
-  next: NextFunction
-) => {
-  const token =
-    req.cookies?.accesstoken ||
-    req.header("Authorization")?.replace("Bearer ", "");
+export const authenticateToken = (req: Request, res: Response, next: NextFunction) => {
+  const token = req.cookies?.accesstoken || req.header("Authorization")?.replace("Bearer ", "");
 
   try {
     const user = verifyToken(token);
@@ -244,7 +297,18 @@ export const authenticateToken = (
 
 이제 사용자가 보호된 경로에 액세스하려고 할 때마다 클라이언트는 요청과 함께 jwt:accesstoken 쿠키를 보내야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -254,6 +318,17 @@ export const authenticateToken = (
 
 읽어 주셔서 감사합니다! 만약 이 이야기를 즐겼다면, 👏 버튼을 클릭하고 공유하여 다른 사람이 찾을 수 있도록 도와주세요! 아래에 댓글을 남겨도 괜찮습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 별도로 말씀드리지만, 저는 현재 주 브랜치에서 프로젝트를 진행 중이에요. 생산성에 집착하시거나 시간을 철저히 관리하시는 분들과 연결하고 싶으시다면 LinkedIn이나 Twitter로 연락해 주세요.

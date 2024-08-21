@@ -3,15 +3,13 @@ title: "덜 알려진 10가지 CSS 속성"
 description: ""
 coverImage: "/assets/img/2024-07-09-10lesserknownCSSproperties_0.png"
 date: 2024-07-09 17:57
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-10lesserknownCSSproperties_0.png
 tag: Tech
 originalTitle: "10 lesser known CSS properties"
 link: "https://medium.com/@creativebyte/10-lesser-known-css-properties-09e3be0c77ab"
 isUpdated: true
 ---
-
-
 
 ![CSS properties](/assets/img/2024-07-09-10lesserknownCSSproperties_0.png)
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 background-attachment 속성은 배경 이미지가 페이지의 나머지 부분과 함께 스크롤되는지 또는 고정되는지를 설정합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 div {
@@ -39,7 +48,18 @@ div {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 03. unicode-bidi
 
@@ -54,7 +74,18 @@ div{
 
 ## 04. all
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 속성은 모든 속성을 해당 초기값으로 재설정하는 데 자주 사용됩니다.
 
@@ -69,7 +100,18 @@ div{
 
 currentcolor 키워드는 요소의 color 속성값을 의미합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 #myDiv{
 color: green; /_ 그린 텍스트 색상 _/
@@ -86,7 +128,18 @@ border: 10px solid currentcolor; /_ 그린 테두리 색상_/
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 07. scroll-snap-type & scroll-snap-align
 
@@ -104,7 +157,18 @@ scroll-snap-type 속성은 스크롤 끝에서 요소가 어떻게 포커스로 
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 08. backdrop-filter
 
@@ -118,7 +182,18 @@ scroll-snap-type 속성은 스크롤 끝에서 요소가 어떻게 포커스로 
 
 ## 09. overscroll-behavior
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스크롤 가능한 영역의 경계에 도달했을 때 브라우저의 동작을 정의하며 스크롤이 계속되는지 여부를 제어합니다.
 
@@ -135,7 +210,18 @@ scroll-snap-type 속성은 스크롤 끝에서 요소가 어떻게 포커스로 
 
 텍스트를 감싸는 모양을 지정하여 이미지나 다른 요소 주변에 더 창의적인 텍스트 흐름을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 .shaped {
 shape-outside: circle(50%);

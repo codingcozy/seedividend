@@ -3,17 +3,13 @@ title: "프론트엔드 마스터가 되기 위한 9개의 프로젝트 아이�
 description: ""
 coverImage: "/assets/img/2024-06-22-9ProjectsyoucandotobecomeaFrontendMaster_0.png"
 date: 2024-06-22 14:35
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-9ProjectsyoucandotobecomeaFrontendMaster_0.png
 tag: Tech
 originalTitle: "9 Projects you can do to become a Frontend Master"
 link: "https://medium.com/@safdaralii/9-projects-you-can-do-to-become-a-frontend-master-c33da5c721b4"
 isUpdated: true
 ---
-
-
-
-
 
 ![Frontend Master](/assets/img/2024-06-22-9ProjectsyoucandotobecomeaFrontendMaster_0.png)
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 프로그래밍에 처음 입문하신 분이든 이미 경험 많은 개발자이든 상관없이 이 산업에서는 빠른 변화에 대응하기 위해 새로운 개념과 언어/프레임워크를 배우는 것이 필수적입니다. React를 예로 들어보면 — Facebook이 9년 전에 오픈 소스로 공개했지만 이미 전 세계의 자바스크립트 개발자들에게 가장 인기 있는 선택지가 되었습니다. 또한 Vue와 Angular 또한 당연히 그들만의 팬층을 보유하고 있습니다. 그리고 Svelte, 그리고 Next.js나 Nuxt.js와 Gatsby, Gridsome, Quasar 등이 존재합니다. 전문적인 자바스크립트 개발자로 빛나고 싶다면 다양한 프레임워크와 라이브러리에 대해 경험이 있어야 합니다 — 그리고 좋은 오래된 자바스크립트 과제를 수행하는 것을 잊지 말아야 합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프론트엔드 마스터가 되는 데 도움이 되도록 9가지 다른 프로젝트를 수집했어요. 각각의 주제와 JavaScript 프레임워크 또는 라이브러리를 기술 스택으로 사용하여 포트폴리오에 추가할 수 있는 프로젝트에 대해 준비했어요. 무언가를 직접 만들면서 배우는 경험이 최고라는 걸 기억해요. 지금 바로 시작해서 뇌를 단련하고 이루어내세요!
 
@@ -34,7 +40,18 @@ isUpdated: true
 
 ![Movie Search App](/assets/img/2024-06-22-9ProjectsyoucandotobecomeaFrontendMaster_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 배울 내용
 
@@ -47,7 +64,18 @@ isUpdated: true
 - JSX
 - CSS
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "이 프로젝트는 클래스없이 완벽한 진입점을 제공하며 함수형 React를 배우는 데 도움이 될 것입니다. 2020년에 큰 도움이 될 것이죠. 예제 프로젝트는 여기에서 확인할 수 있어요: [링크](https://www.freecodecamp.org/news/how-to-build-a-movie-search-app-using-react-hooks-24eb72ddfaf7/)
 튜토리얼에 따를 수도 있고, 직접 창의적인 아이디어로 프로젝트를 만들어볼 수도 있어요!
@@ -58,7 +86,18 @@ isUpdated: true
 
 ![Chat App](/assets/img/2024-06-22-9ProjectsyoucandotobecomeaFrontendMaster_2.png)"
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 배울 내용
 
@@ -73,7 +112,18 @@ isUpdated: true
 - Pusher
 - CSS
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 Vue를 시작하거나 2020년에 개발에 도전하기 위한 기존 기술을 향상시키는 데 좋은 프로젝트입니다. 다음에서 튜토리얼을 찾을 수 있습니다: https://www.sitepoint.com/pusher-vue-real-time-chat-app/
 
@@ -83,7 +133,18 @@ isUpdated: true
 
 ![image](/assets/img/2024-06-22-9ProjectsyoucandotobecomeaFrontendMaster_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 배울 내용
 
@@ -99,7 +160,18 @@ isUpdated: true
 - 다크 모드
 - 아름다운 UI
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 포괄적인 프로젝트에서 정말 좋아하는 점은 공부하는 것이 격리되어 있는 것이 아니라 설계부터 최종 배포까지 전체 개발 프로세스를 배울 수 있다는 것입니다. 정말 해보시는 걸 추천해요!
 
@@ -111,7 +183,18 @@ Svelte는 React, Vue, Angular에 비해 상대적으로 새로운 기술이지�
 
 ![프로젝트 이미지](/assets/img/2024-06-22-9ProjectsyoucandotobecomeaFrontendMaster_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 배울 내용
 
@@ -124,7 +207,18 @@ Svelte는 React, Vue, Angular에 비해 상대적으로 새로운 기술이지�
 - CSS를 통한 스타일링
 - ES6 구문
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Svelte 스타터 프로젝트가 많지 않기 때문에 이 프로젝트는 시작하기에 좋다고 생각해요. 혹시 다음 해에 이 게시물의 버전에서 제시될 더 포괄적인 Svelte 튜토리얼을 만드실 분이 될지도 모르죠?
 
@@ -134,7 +228,18 @@ Next.js는 서버 측 렌더링을 기본적으로 지원하는 React 애플리�
 
 ![E-commerce shopping cart](/assets/img/2024-06-22-9ProjectsyoucandotobecomeaFrontendMaster_5.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 배울 내용
 
@@ -149,7 +254,18 @@ Next.js는 서버 측 렌더링을 기본적으로 지원하는 React 애플리�
 - 배포
 - SSR 및 SPA
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 실제 e-commerce 쇼케이스와 같은 실제 예제가 있으면 새로운 것을 배우는 데 좋을 것입니다. 해당 튜토리얼은 여기에서 찾을 수 있습니다:
 [https://snipcart.com/blog/next-js-ecommerce-tutorial](https://snipcart.com/blog/next-js-ecommerce-tutorial)
@@ -160,7 +276,18 @@ Nuxt.js는 Vue에게 Next.js가 React에게 하는 역할입니다. 서버 측 �
 
 ![이미지](/assets/img/2024-06-22-9ProjectsyoucandotobecomeaFrontendMaster_6.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 배울 내용
 
@@ -176,7 +303,18 @@ Nuxt.js는 Vue에게 Next.js가 React에게 하는 역할입니다. 서버 측 �
 - 스타일링을 위한 SCSS
 - Nuxt 미들웨어
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 프로젝트는 Nuxt.js의 많은 훌륭한 기능을 다루며 정말 멋진 프로젝트에요. 저는 개인적으로 Nuxt와 함께 일하는 것을 좋아해요. 그래서 이 프로젝트를 꼭 시도해보세요! 또한 Vue 개발자로 성장하는 데 도움이 될 거예요!
 https://www.storyblok.com/tp/nuxt-js-multilanguage-website-tutorial
@@ -187,7 +325,18 @@ Gatsby는 React와 GraphQL을 사용하는 훌륭한 정적 사이트 생성기�
 
 ![프로젝트 결과물](/assets/img/2024-06-22-9ProjectsyoucandotobecomeaFrontendMaster_7.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 배울 내용
 
@@ -203,7 +352,18 @@ Gatsby는 React와 GraphQL을 사용하는 훌륭한 정적 사이트 생성기�
 - Bootstrap CSS
 - 템플릿
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 블로그를 시작해보고 싶다면 React와 GraphQL을 활용하여 블로그를 만드는 훌륭한 예시입니다. WordPress가 항상 나쁜 선택이라고 말하고 싶은 것은 아닙니다. Gatsby를 사용하면 React를 활용하여 성능이 뛰어난 사이트를 만들 수 있어요. 그 조합은 정말 멋지죠!
 https://blog.bitsrc.io/how-to-build-a-blog-with-gatsby-and-boostrap-d1270212b3dc
@@ -214,7 +374,18 @@ Gridsome는 Vue에 해당하는데요... 좋아요, 이미 Next/Nuxt에서 그�
 
 ![이미지](/assets/img/2024-06-22-9ProjectsyoucandotobecomeaFrontendMaster_8.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 배우게 될 내용
 
@@ -228,9 +399,20 @@ Gridsome는 Vue에 해당하는데요... 좋아요, 이미 Next/Nuxt에서 그�
 - Markdown
 - Netlify
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-이 튜토리얼은 가장 포괄적이지는 않지만 Gridsome과 Markdown의 기본 개념을 다루고 있어 좋은 시작점이 될 수 있습니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+이 튜토리얼은 가장 포괄적이지는 않지만 Gridsome과 Markdown의 기본 개념을 다루고 있어 좋은 시작점이 될 수 있습니다.
 
 https://www.telerik.com/blogs/building-a-blog-with-vue-and-markdown-using-gridsome
 
@@ -240,7 +422,18 @@ Quasar는 또 다른 Vue 프레임워크로, 모바일 애플리케이션을 만
 
 ![이미지](/assets/img/2024-06-22-9ProjectsyoucandotobecomeaFrontendMaster_9.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 배울 내용
 
@@ -254,7 +447,18 @@ Quasar는 또 다른 Vue 프레임워크로, 모바일 애플리케이션을 만
 - Wavesurfer
 - UI Components
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 작은 프로젝트입니다. Quasar의 강점을 보여주는 모바일 앱 빌딩에 대해 다루고 있어요.
 https://www.learningsomethingnew.com/how-to-build-a-sound-cloud-like-audio-player-app-with-vue-js-quasar-and-wave-surfer
@@ -265,7 +469,18 @@ https://www.learningsomethingnew.com/how-to-build-a-sound-cloud-like-audio-playe
 
 오늘은 여기까지입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 내용을 Markdown 형식으로 고쳐 드릴게요.
 
@@ -273,7 +488,18 @@ https://www.learningsomethingnew.com/how-to-build-a-sound-cloud-like-audio-playe
 나와 소통하기: LinkedIn에 나와 연결하고 내 포트폴리오를 확인해보세요.
 나의 유튜브 채널을 탐험해보세요! 유용하다고 느끼시면, 부디 GitHub 프로젝트에 별을 주세요 ⭐️
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 행복한 코딩하세요! 🚀
 23592에 대해 감사드립니다! 🤗

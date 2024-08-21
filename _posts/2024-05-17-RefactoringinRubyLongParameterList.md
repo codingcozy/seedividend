@@ -3,16 +3,13 @@ title: "루비에서  긴 매개변수 목록 리팩터링 하는 방법"
 description: ""
 coverImage: "/assets/img/2024-05-17-RefactoringinRubyLongParameterList_0.png"
 date: 2024-05-17 03:28
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-17-RefactoringinRubyLongParameterList_0.png
 tag: Tech
 originalTitle: "Refactoring in Ruby | Long Parameter List"
 link: "https://medium.com/@kroolar/refactoring-in-ruby-long-parameter-list-001a78264a02"
 isUpdated: true
 ---
-
-
-
 
 긴 매개변수 목록(Long Parameter List)은 작업을 수행하기 위해 많은 수의 매개변수가 필요한 경우 발생합니다. 일반적으로 두 개 이상의 매개변수를 사용하지 않는 것이 좋습니다.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 # 문제들
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 가독성 감소 — 긴 매개변수 목록은 메소드 호출 정의를 읽고 이해하기 어렵게 만들 수 있습니다. 특히 매개변수가 잘 명명되지 않았거나 문서화가 충분하지 않은 경우 더욱 그렇습니다.
 - 복잡성 증가 — 많은 매개변수는 종종 메소드나 함수가 너무 많은 작업을 시도하고 단일 책임의 원칙을 위반할 가능성을 나타냅니다.
@@ -40,7 +48,18 @@ isUpdated: true
 
 # 실제 예제
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 루비에서 코드 예제를 살펴보겠습니다. 매개변수 목록이 긴 update_user 메서드가 있고, 이를 옵션 해시 기술을 사용하여 리팩터링할 것입니다.
 
@@ -86,7 +105,18 @@ user_params = {
 update_user(user_params)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 장단점
 
@@ -100,7 +130,18 @@ update_user(user_params)
 
 ## 단점
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 추가 복잡성— 옵션 해시 기법은 메소드 서명을 간소화하지만 메소드 구현 내에서 추가적인 복잡성을 도입합니다. 개발자는 옵션 해시에서 매개변수 추출을 처리해야 하며, 이는 보일러플레이트 코드를 추가할 수 있습니다.
 - 스펠링 오류가 발생할 수 있는 가능성— 옵션 해시는 심볼 키에 의존하기 때문에 매개변수 이름을 철자를 틀리게 쓸 위험이 있습니다. 이는 런타임 오류로 이어질 수 있으며, 디버깅하기 어려운 문제가 발생할 수 있습니다.

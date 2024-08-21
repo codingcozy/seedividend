@@ -3,15 +3,13 @@ title: "HTML 문맹 스타일링과 실패 윈드 스튜피드"
 description: ""
 coverImage: "/assets/img/2024-05-02-HTMLIlliteracyPart2of2StylingAndFailwindStupid_0.png"
 date: 2024-05-02 00:31
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-02-HTMLIlliteracyPart2of2StylingAndFailwindStupid_0.png
 tag: Tech
 originalTitle: "HTML Illiteracy (Part 2 of 2) Styling And Failwind Stupid"
 link: "https://medium.com/codex/html-illiteracy-part-2-of-2-styling-and-failwind-stupid-f4867d13595a"
 isUpdated: true
 ---
-
-
 
 <img src="/assets/img/2024-05-02-HTMLIlliteracyPart2of2StylingAndFailwindStupid_0.png" />
 
@@ -23,7 +21,18 @@ https://cutcodedown.com/for_others/medium_articles/failwindUI/shotlight/shotligh
 내 모든 예제와 마찬가지로 디렉토리는 쉽게 탐색할 수 있도록 잠금이 해제되어 있어요:
 https://cutcodedown.com/for_others/medium_articles/failwindUI/shotlight/
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 거기에는 전부가 포함된 .rar 파일이 있어서 여러분이 자유롭게 사용해 볼 수 있어요.
 
@@ -33,7 +42,18 @@ https://cutcodedown.com/for_others/medium_articles/failwindUI/shotlight/
 
 크기가 코드 품질을 항상 보장한다는 의미는 아니지만 – 너무 크거나 너무 작을 수도 있지만 – 인자들이 엉터리 쓰레기임을 확실하게 알 수 있는 징후들이 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서 TailwindUI의 원본 "스포트라이트"와 내가 다시 쓴 "샷라이트"를 비교해보겠습니다.
 
@@ -51,7 +71,18 @@ HTML   1   32,506   HTML   1    3,768      8.627 : 1
 
 공정하게 말하자면, 전체 사이트를 마칠 때까지 내가 가지게 될 거대한 스타일 시트가 약 32k 정도 됩니다. 35k의 CSS는 그 파일이 모든 페이지에 공유되는 경우 무리하지 않습니다. 그렇지만 모든 페이지의 마크업이 전체 페이지에 32k 이상이거나 SPA 로드 버전에 14-15k가 될 때 그들에게 무엇을 절약해 주는지 의문이 듭니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 --- EDIT --- 와우, 난 정말 숫자들을 Mr. Scotted 했어. Part 4에서 모든 페이지를 만들었고 CSS 양은 얼마나 됐을까? 10.6k이었어. 그래서 수정해야 할 점은, Failwind를 사용하면 필요한 CSS 양이 세 배나 된다는 거야. 그래서 하나의 페이지의 HTML과 다섯 개의 템플릿 페이지의 CSS를 합친 용량은 그들의 마크업 또는 CSS의 1/3이라는 거야. 하지만 그렇지, Failwind는 최적화되어 있고 쓸모없는 것은 컴파일해 버려.
 
@@ -61,7 +92,18 @@ Failwind와 그들이 사용한 것들이 "더 쉬운" 접근 방식이라고 �
 
 # 그리고 Failwind가 최악인 게 아니야!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 본 사이트를 살펴보면서, 워낙에 JavaScript를 300k가량 사용해서 뭐하는 건지 궁금했어요. 전 10k도 안 쓸 것을 하고 있는데 말이죠... 그리고 그것이 정상적인 웹 사이트를 위한 템플릿이었는데, 왜 그런 SPA를 만들었는지 알게 되었어요.
 
@@ -71,7 +113,18 @@ Failwind와 그들이 사용한 것들이 "더 쉬운" 접근 방식이라고 �
 
 대신에 파일이 그렇게 크지않았다면, 브라우저 캐시에서 계속 삭제되지 않을 겁니다, 어찌됐든 어떤 캐시 제어가 있더라도; 프레젠테이션을 마크업에 쓰지 말고 "유틸리티"나 "원자" 같은 속임수로 자신을 속이지 말고; HTML과 CSS가 완전히 잘하고 있는 작업을 스크립트의 도움 없이 JS를 쓰지 않았다면; 그리고 대체적으로 10k의 작업을 위해 100k의 HTML을 사용하지 않았다면?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아마도, 진짜로 아마도 "페이지로드는 악이다"라는 생각을 하지 않고 더 높은 성능을 가진 사이트를 만들 수 있을 거에요. 더 깔끔하고 명확하며 작업하기 쉬운 마크업을 사용해볼 수 있어요. 아마도 모든 문제에 대한 해답은 모든 것에 더 많은 코드를 던져야 한다는 괴물들과 사기꾼들의 말에 속아들지 않게 될지도 모르겠네요. 기억해요:
 
@@ -81,7 +134,18 @@ NO! TailwindUI의 원래 "spotlight" 템플릿이 이를 증명해주잖아요. 
 
 나는 SPA에 합당한 사용 예가 없다고 말하고 싶진 않아요. 또는 특정 유형의 콘텐츠를 로딩하는 데 일반적으로 AJAX를 사용하는 경우가 있죠. 그것은 이유가 있어요. 하지만 그 이유가 "와 와, 페이지로드를 원치 않아"가 아니에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 템플릿이 말한 바가 무엇인지 궁금하신가요?
 
@@ -93,7 +157,18 @@ NO! TailwindUI의 원래 "spotlight" 템플릿이 이를 증명해주잖아요. 
 
 ![이미지](/assets/img/2024-05-02-HTMLIlliteracyPart2of2StylingAndFailwindStupid_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 진짜, 이거 보면 멍청하다고 생각해:
 
@@ -103,7 +178,18 @@ NO! TailwindUI의 원래 "spotlight" 템플릿이 이를 증명해주잖아요. 
 
 오 안돼!!! 8k 페이지 로드!!!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사실 CSS의 :target 속성을 사용하여 거의 동일하게 작동하는 SPW — Single Page Website — 를 만들 수도 있을 것 같아요. 심지어 JavaScript를 필요로하지 않는 40k HTML 파일조차 필요하지 않을 수도 있어요!
 
@@ -114,7 +200,18 @@ https://x86.cutcodedown.com
 
 이전에 언급한 적이 있는 대로:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 어떤 사람들은 Tailwind에 대한 책임을 물을 수 없을 것이라고 생각할 수 있겠지만, 처음부터 이따위 쓰레기 스크립팅으로 뛰어드는 것을 유발할 수 있는 것이 무엇일지 물어봐야 합니다. Failwind의 사용, SPA의 사용(이 경우), 끝없는 "아무것도 하는 JavaScript", 손상된 캐싱 모델의 사용. 이 모든 것들은 제가 계속 이야기하는 문제의 증상일 뿐입니다.
 
@@ -124,7 +221,18 @@ Failwind와 같은 어리석은 것을 사용할 만한 사람들은 무수한 �
 
 그것이 바로 그들이 React, Vue 또는 Angular에 열광하고 PHP에 물을 끼얹는 이유인 거 같아요. PHP는 보통 웹사이트를 위한 깔끔하고 간단한 마크업을 쉽게 작성하게 해줍니다. 너무 깔끔하고 간단한 해결책이라서 그들의 node.js 기반 솔루션들이 그저 어리석게 보이게 만드는 것이죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 과거 10년 동안 상담한 클라이언트 중 3분의 1에서 해고당한 "디자이너"와 "프론트엔드 코더"들과 거의 일치합니다.
 
@@ -134,7 +242,18 @@ Failwind와 같은 어리석은 것을 사용할 만한 사람들은 무수한 �
 
 어떤 분들이 여러분에게 이 프레임워크 쓰레기가 도움이 된다고 생각하십니까? 속은 것입니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Nue.js의 기사에서 일부 이미지를 사용하여 보여주려고 했던 것이에요. 제 코드를 사용하여 동일한 비교를 할 거예요.
 
@@ -173,7 +292,18 @@ TailwindUI의 원래 "spotlight" 템플릿은 다음과 같아요:
   ></div>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <a href="#mainMenu" hidden>
@@ -210,7 +340,18 @@ a[href="#mainMenu"] span{
 
 선형 그라데이션을 사용하여 "확인" 햄버거 아이콘 만들기. 귀여운 트릭이죠?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다시 한번 상기해 주세요. 처음 로드에 HTTP 병렬 처리가 지연될수록 마크업이 커질수록 클 수록입니다. 마크업에 선언될 수 있는 서브 파일에서 선언될 수 있는 것이 더 많다면, 더 많은 캐싱 기회를 놓치게 됩니다. 그래서 그런 식으로 HTML에 모든 것을 넣어두면 비슷한 페이지 사이에 캐싱이 되지 않아요... 모바일 메뉴 링크 같은 것이 매 페이지에 있을 때? 그래, 그건 어리석은 짓이에요.
 
@@ -220,7 +361,18 @@ a[href="#mainMenu"] span{
 
 하지만 맞아요, 과거에 갖혀있는 것은 저겁니다...
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 생각해 봐. 사용자가 해당 페이지로 이동하지 않더라도 모든 하위 페이지 내용을 동시에 로드하여 SPA 방식이 전 면적을 차지하는 경우, 그들이 작업하기 위해 사용하는 대규모 스크립팅과 함께 저장하지 않는 SPA 접근 방식을 고려해보세요 (아마도 2백킬로 바이트 작업을 수행하고 있지 않을까요). 그들은 관심 분리 작업을 하지 않아도 되는 평균 15킬로 바이트의 마크업을 "페이지" 당 로드하고 있습니다. 대부분의 경우 이러한 페이지는 완성된 마크업으로 10킬로 바이트 이하여야 하는데요. 제대로 마크업을 작성하고 일반 페이지 로드가 발생하도록 하는 것보다 어떠한 이점을 얻을 수 있을까요?
 
@@ -230,7 +382,18 @@ a[href="#mainMenu"] span{
 
 약속한 대로, 스타일시트 결정사항에 대해 분석해볼게요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 외부 모노리식 스타일시트에 모든 것이 담겨 있습니다. 하나의 파일, 한 번의 핸드셰이크만으로도, 화면에 특별히 대상화되었기 때문에 화면 외의 사용자들은 제 화면 모양에 전혀 신경 쓰지 않습니다. HTML에서 화면 모양을 다루는 것은 정말 바보 같은 행동이죠. 당신은 맹목, 점자, TTY, 검색과 같은 사용자들에게 시각적인 레이아웃, 색상 또는 기타 형식 요소에 관심 없이 정보를 보내고 있는 것입니다.
 
@@ -240,7 +403,18 @@ a[href="#mainMenu"] span{
 
 기억하세요: HTML은 기본적으로 반응형입니다. 디자인이 문제를 일으킨 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래로 튕기는 공을 따라가보세요:
 https://cutcodedown.com/for_others/medium_articles/failwindUI/shotlight/template/shotlight.screen.css
@@ -261,7 +435,18 @@ https://cutcodedown.com/for_others/medium_articles/failwindUI/shotlight/template
 
 2024년이니, 웹폰트로 .ttf, .eot, .svg같은 것들을 건드릴 필요 없습니다. 전체 스타일시트를 바꾸지 않고도 웹 "플로우 텍스트"에 사용되는 글꼴을 바꿀 수 있도록 플로우텍스트(flowtext)라고 부릅니다. "poppins-western"은 Poppins의 라틴-1 외의 모든 것을 제거한 버전이며, woff2로부터 파일 크기를 150k에서 단 30k로 축소했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 예전에 일주일 사용하지 않았던 일부 오래된 UA(Universal Analytics)들을 위해 외부 스타일을 먼저 넣곤 했어요. 지금은 현대적인 문제는 아니지만, 그냥 제가 익숙해서 계속 사용하고 있어요.
 
@@ -293,7 +478,18 @@ body {
 
 저는 간단하게 유지하기 위해 3자리 16진수를 선택했어요. 요즘 제가 제작할 때는 HSL을 변수와 함께 사용하여 색상 체계를 빠르게 변경할 수 있지만, 데모를 위해서는 이것으로 충분해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "거리는 사람들이 '이것을 :root에 선언해야 한다고 말하는 사람들이 많아요' 또는 'body에는 그렇게 넣을 수 없어'라는 피드백을 받았어요. 그 이유가 뭔가요? CSS 사용자 지정 속성은 어디서든 설정할 수 있구요. BODY 및 해당 콘텐츠에만 유용한 속성을 :root에 규칙으로 적용하는 이유가 무엇일까요?
 
@@ -322,7 +518,16 @@ body.dark {
   --sectionFocusBg:#333;
 }
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단해요. 이렇게 모두 쉽고 기억하기 쉬운 의미 있는 변수 이름들이라니? 그렇죠, 그런 느낌이에요.
 
@@ -364,7 +569,16 @@ body, button, input, table, textarea, select {
 
 그리고 일반적인 값을 몇 가지 설정해 주죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 body {
   font-family: flowtext, sans-serif;
@@ -391,7 +605,16 @@ h1, h2, h3, h4, h5, h6 {
 
 이것은 BODY의 행동을 가장하여 스크롤링을 다루지만, 다른 절대 및 고정 위치 요소가 스크롤바를 회피 가능케하여 일반적인 모달 대화 상자의 이중 스크롤 막대 버그를 처리합니다. 또한 MAIN에 flex-grow를 넣어 "100% 최소 높이" 레이아웃을 손쉽게 만들게되어 있습니다. 이것은 max-width 동작을 설정한 후에 수행되는 작업입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 #fauxBody > * {
   width:100%;
@@ -417,7 +640,16 @@ main {
   background-size:contain;
 }
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해당 내용은 Markdown 형식입니다. 아래는 원문의 번역입니다.
 
@@ -445,7 +677,16 @@ h1 {
 
 나는 화면에서 숨기는 대신에 화면 판독기가 잘못된 화면 미디어를 따르는 경우에도 해당 텍스트를 읽을 수 있도록 화면 밖에 위치시키는 것을 사용했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 #top > a:first-child:after {
   content:"";
@@ -470,7 +711,16 @@ h1 {
 
 메인 메뉴는 사용 가능한 공간을 채우도록 허용되며, 데스크톱에서 다크/라이트 토글 및 사이트 로고 사이에 중앙에 배치됩니다. 푸터와 헤더 메뉴가 일부 스타일을 공유하기 때문에 함께 그룹화했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단하게 푸터를 끝내는 걸로 할 수 있겠군요.
 
@@ -527,7 +777,16 @@ h1 {
   border-radius:0 2.5rem 2.5rem 0;
 }
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내가 보여준 추가된 푸터 스타일 몇 가지를 보실 수 있지만, 정말로 이 모든 것이 무엇을 하는 것인지 설명해야 한다면 CSS를 배우세요.
 
@@ -549,7 +808,16 @@ h1 {
 
 SVG에 이미 색상을 직접 넣을 수도 있지만 CSS에서 SVG를 사용할 때는 filter가 더 나은 선택입니다. 단색 SVG의 경우 filter를 사용하여 검정에서 흰색으로 전환하는 것뿐만 아니라, filter가 할 수 있는 모든 작업을 조사하면 심지어 색상을 입힐 수도 있습니다! "CSS에 있는 SVG의 색상을 제어할 수 없다"는 얘기는 그만큼일 뿐입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로 UI 일관성을 위해 공통 요소를 스타일링합니다.
 
@@ -576,7 +844,16 @@ p {
 
 .articleSummaries는 매우 단순하게 시작됩니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 .articleSummaries {
   margin-top: 2rem;
@@ -624,7 +901,16 @@ p {
 
 H3와 TIME은 HEADER 컨테이너 내에서 순서가 바껴 있고 padding과 line-height를 사용하여 수직 정렬되어 있어요. 맨 끝에서는 HEADER의 형제 태그마다 TIME 요소의 너비만큼 들여쓰기가 되어, 제목과 맞춰져 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그런데 호버 상태는 앵커 가상 상태 내에서 동일한 인접 형제 선택자를 사용합니다.
 
@@ -639,7 +925,16 @@ H3와 TIME은 HEADER 컨테이너 내에서 순서가 바껴 있고 padding과 l
 
 일부 마진 축소 문제로 인해 또는 'TIME'을 왼쪽으로 넘기지 않을 때를 생각해, 절대적인 위치 대신에 패딩에서 마진으로 바꿉니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 .articleSummaries p {
   margin: 0;
@@ -660,7 +955,16 @@ H3와 TIME은 HEADER 컨테이너 내에서 순서가 바껴 있고 padding과 l
   }
 } /* max-width:30rem */
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그것은 단순히 왼쪽/오른쪽 동작을 제거하여 메뉴를 멍청하게 중앙에 위치시키는 것 뿐이에요. 졸려요.
 
@@ -714,7 +1018,16 @@ H3와 TIME은 HEADER 컨테이너 내에서 순서가 바껴 있고 padding과 l
 
 :target을 사용하면 자바스크립트 없이 모달 메뉴를 만들 수 있으며, 링크로 직접 연결할 수도 있답니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 외부 앵커는 #mainMenu 내부에 전체 화면 크기로 설정되며, DIV 아래로 슬라이딩하기 위해 음수 마진이 설정됩니다. 이를 통해 그 DIV 외부를 클릭하여 모달을 닫을 수 있습니다.
 
@@ -724,7 +1037,16 @@ DIV 자체는 메뉴 프레임이며, 여기에서는 margin:auto를 사용하�
 
 그런 다음 데스크톱 스타일링을 많이 제거하고 모바일에 더 유용한 스타일을 적용합니다. 어떤 사람들은 이것이 복잡해 보인다고 할 수 있지만... 그렇지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막 쿼리:
 
@@ -754,7 +1076,16 @@ DIV 자체는 메뉴 프레임이며, 여기에서는 margin:auto를 사용하�
 
 여기까지 전체 CSS입니다...
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 이 것이 요지입니다
 
@@ -764,7 +1095,16 @@ DIV 자체는 메뉴 프레임이며, 여기에서는 margin:auto를 사용하�
 
 이것이 바로 나의 생각을 나타내는 이유입니다. 매우 독특한 페이지 - 희귀한 경우 - 스타일 시트는 최대 1k 증가해야하기 때문에 대부분의 웹 사이트는 총 48k를 넘는 이유가 전혀 없습니다. 전체 템플릿을 복제한다면 전체 페이지에 대해 총 24k를 초과하여 크게 깨질 것으로 예상할 수 있습니다. 따라서 실제로 모든 페이지가 구현된 후에도 단일 페이지 + 거대한 스타일 시트의 HTML보다 마크업만으로 아마도 더 작을 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자바스크립트 없이 대부분의 기능이 구현되어 있지만 라이트/다크 토글 기억 및 키보드 보조로 모달 동작을 개선하기 위해...
 
@@ -775,7 +1115,16 @@ https://cutcodedown.com/for_others/medium_articles/failwindUI/shotlight/scripts/
 
 이것에 대해 모듈을 사용하지 않겠습니다. 왜냐하면 클라이언트 측에서 그렇게 분할하면 그만큼 핸드쉐이크의 수가 늘어나서 콘텐츠에 더 좋게 사용될 수 있는 횟수가 늘어나기 때문입니다. 나는 그러므로 유지하려고 노력하거나 적어도 배포하기 전에는 단일 스크립트를 사용할 것입니다. 100k 내외로 커질 때 병렬성을 활용하고 싶을 때까지입니다. 이는 "내 방법이나 고속도로"라고 말해서는 안 되는 균형 잡힌 행동입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 나는 같은 크기의 프로젝트를 위해 다른 개발자들이 사용하는 메가바이트 당 50k의 JS를 사용하는 경향이 있기 때문에...
 
@@ -792,7 +1141,16 @@ https://cutcodedown.com/for_others/medium_articles/failwindUI/shotlight/scripts/
     match && (match[2] == "on") ? "add" : "remove"
   ]("dark");
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 백엔드에서는 쿠키에 따라 클래스를 설정하고, 가능하다면 match() 코드를 제거할 것입니다. (즉, 정적 .html을 사용하지 않는다면) BODY 태그에 클래스를 서버 측에서 설정하는 것은 거의 항상 정당화할 수 있는 희귀한 경우 중 하나입니다.
 
@@ -806,7 +1164,16 @@ const make = (tagName, attr = {}, ...append) => {
   return e;
 };
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 고르게 축소한 것이며 전체 버전의 루틴에서 가져온 내용입니다. 그래도 이것으로 충분해요:
 
@@ -832,7 +1199,16 @@ DOM에서 라이트/다크 토글을 만들고 버튼의 클릭 이벤트를 연
 
 궁금하신 분들을 위해 직접 DOM 생성을 위한 전체 라이브러리를 작성 중이고, 이를 위한 구문은 다음과 같을 것입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 document.getElementById("top").__make(
   "button_button.toggleLightDark",
@@ -848,7 +1224,16 @@ document.getElementById("top").__make(
 
 라이트/다크 모드 이후에는 ESC 키를 눌러 열려있는 모달을 닫는 기능이 있어요. 저는 보통 모달에 .modal 클래스를 사용하는데, 그에 대한 후크를 설정하고 #mainMenu을 테스트합니다. 많은 경우에 이들이 쌓이는 경우 배열 대 조건문으로 전환할 것이에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 {
   // Modal Helpers
@@ -867,7 +1252,16 @@ document.getElementById("top").__make(
 
 이런 것을 구현하려고 사람들이 미친듯이 얽힌 과정에 항상 놀라곤 합니다. 이런 걸 시각적 개념을 스크린을 사용하지 않는 사용자에게 전달하려는 아리아-롤 또는 `dialog` 같은 헛소리란 말입니다. 적절한 의미 있는 마크업과 해시 기반의 페이지 내 탐색이 있다면, 모달이라는 것이 window.alert나 window.confirm과 같은 것이 아닐 때 사용자에게 "대화"인 것을 전달해야 한다는 아이디어는 100% 허튼 소리입니다. 더 이상 끌어내지 않겠습니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -877,7 +1271,16 @@ document.getElementById("top").__make(
 
 다른 사람들이 당신에게 이런 말을 하는 사람들은, 마치 마시멜로에 깐단으로 바꿔놓기처럼, 당신의 피를 짜내는 데서 팥과 건포도에서 마시멜로로 전향해버렸다고 생각해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서 그들은 마크업의 2배에서 10배까지, 그만한 만큼 더 또는 그 이상의 CSS, 수십 킬로 바이트의 작업을 수행하는 JS를 가지고 끝나게 되며, 모든 것을 더 어렵게 만들게 되는데, 왜일까요? "와아와아, 아이 비스 투 스튜피드 투 유스 더 익스턴얼 스타일쉿?"
 
@@ -887,7 +1290,16 @@ document.getElementById("top").__make(
 
 그것이 언제 이루어질지 또는 그럴지의 보장은 없습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이런 "SPA for nothing"이 얼마나 월권능을 하고 있느냐면 반 정도의 대역폭과 처리 과부하만으로도 제대로 된 HTML을 적절히 작성하는 것으로 충분히 제압할 수 있다는 건 웃기기만 합니다. 다시 말하자면, SPA를 사용해야 하는 경우가 없는 건 아니지만, 모든 문제에 대한 해결책은 아니다!
 
@@ -897,3 +1309,4 @@ document.getElementById("top").__make(
 부분 2: CSS (여기 있음)
 부분 3: 인쇄 CSS
 부분 4: SPA 클라운 슈어
+```

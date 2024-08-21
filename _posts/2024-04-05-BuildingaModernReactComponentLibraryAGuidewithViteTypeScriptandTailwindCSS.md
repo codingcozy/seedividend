@@ -3,17 +3,13 @@ title: "Vite, TypeScript 및 Tailwind CSS로 React 컴포넌트 라이브러리 
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Building a Modern React Component Library A Guide with Vite, TypeScript, and Tailwind CSS"
 link: "https://medium.com/@mevlutcantuna/building-a-modern-react-component-library-a-guide-with-vite-typescript-and-tailwind-css-862558516b8d"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/BuildingaModernReactComponentLibraryAGuidewithViteTypeScriptandTailwindCSS_0.png" />
 
@@ -25,7 +21,18 @@ isUpdated: true
 pnpm create vite react-component-library --template react-ts
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 pnpm install
@@ -41,7 +48,18 @@ pnpm install
 
 제 'src' 디렉터리를 'lib'로 이름을 바꾸고 'lib' 디렉터리에 'index.ts' 파일이 있는지 확인해보고 특정 컴포넌트를 내보내는 용도로 사용할 거에요. 'lib' 디렉터리에 생성해볼까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파일을 만들고 정리했으면, 스타일링을 위해 Tailwind CSS를 설치해봅시다. 아래 지시사항을 따라주세요;
 
@@ -55,7 +73,18 @@ npx tailwindcss init -p
 
 그런 다음, tailwind.config.js 파일을 아래 코드와 같이 변경해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /** @type {import('tailwindcss').Config} */
@@ -80,7 +109,18 @@ const Button = () => {
 export default Button;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼 'index.ts' 파일에서 Button.tsx 파일을 가져와 내보내기하세요.
 
@@ -141,7 +181,18 @@ export { MyButtonComponent };
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼 다음 코드를 사용하여 'package.json' 파일을 구성해 보겠습니다:
 
@@ -179,7 +230,18 @@ export { MyButtonComponent };
 
 터미널에서 다음 코드를 실행하면 됩니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 pnpm install -D @types/node vite-plugin-dts
@@ -226,7 +288,18 @@ export default defineConfig({
 
 컴포넌트 라이브러리를 테스트하려면 먼저 npm run build를 실행하고, 라이브러리의 터미널에서 npm link를 실행하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼, 다른 리액트 프로젝트를 생성하여 컴포넌트를 테스트하고 터미널에서 `npm link your-package-name`을 실행하세요. 이제 아래와 같이 컴포넌트와 스타일을 불러와 사용할 수 있습니다:
 
@@ -239,7 +312,18 @@ npm에 발행하려면 다음 명령어를 사용하세요:
 
 로그인되어 있지 않다면, 먼저 npm에 로그인해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm login
@@ -255,7 +339,18 @@ npm publish
 
 이것으로 끝났어요! npm에서 React 구성 요소 패키지를 설치하세요. 자세한 내용은 아래 링크된 저장소를 참조해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 GitHub 저장소: https://github.com/mevlutcantuna/react-beautiful-timeline
 

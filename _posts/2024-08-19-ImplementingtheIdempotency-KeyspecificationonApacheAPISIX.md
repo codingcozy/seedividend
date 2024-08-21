@@ -3,7 +3,7 @@ title: "아파치 APISIX에서 이데모턴시-키 사양 구현하기"
 description: ""
 coverImage: "/assets/no-image.jpg"
 date: 2024-08-19 03:23
-ogImage: 
+ogImage:
   url: /assets/no-image.jpg
 tag: Tech
 originalTitle: "Implementing the Idempotency-Key specification on Apache APISIX"
@@ -11,7 +11,6 @@ link: "https://medium.com/apache-apisix/implementing-the-idempotency-key-specifi
 isUpdated: true
 updatedAt: 1724032935500
 ---
-
 
 지난 주에 IETF Idempotency-Key 사양의 분석을 작성했어요. 이 사양은 중복된 요청을 피하기 위해 목표를 두고 있어요. 간단히 말해, 아이디어는 클라이언트가 요청과 함께 고유한 키를 보내는 것입니다:
 
@@ -22,7 +21,18 @@ updatedAt: 1724032935500
 
 # 개요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코딩을 시작하기 전에 몇 가지를 정의해야 합니다. Apache APISIX는 플러그인 기반 아키텍처를 제공합니다. 따라서 우리는 위의 로직을 플러그인으로 작성할 것입니다.
 
@@ -32,7 +42,18 @@ Apache APISIX는 OpenResty를 기반으로 구축되었으며, OpenResty는 ngin
 
 사양에는 데이터를 저장해야 한다고 명시되어 있습니다. APISIX는 많은 추상화 기능을 제공하지만 저장소는 포함되어 있지 않습니다. 그래서 이데모텐시 키를 통해 접근할 수 있어야 하므로 키-값 저장소처럼 보입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Redis를 제가 임의로 선택했어요. 전반적으로 널리 사용되고 있고, APISIX 배포에 이미 클라이언트가 포함되어 있습니다. 단순 Redis는 JSON 저장을 제공하지 않기 때문에 redis-stack 도커 이미지를 사용하고 있어요.
 
@@ -58,7 +79,18 @@ services:
 - 향후 플러그인 경로
 - Redis Insights 포트(GUI). 필수는 아니지만 개발 중에 디버깅에 매우 유용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 APISIX 구성은 다음과 같습니다:
 
@@ -84,16 +116,27 @@ plugin_attr:                                                 #4
 
 마지막으로, 우리의 단일 경로를 선언합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```yaml
 routes:
   - uri: /*
     plugins:
-      idempotency: ~                                         #1
+      idempotency: ~ #1
     upstream:
       nodes:
-        "httpbin.org:80": 1                                  #2
+        "httpbin.org:80": 1 #2
 #END                                                         #3
 ```
 
@@ -105,8 +148,18 @@ routes:
 
 # 플러그인 배치하기
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Apache APISIX 플러그인의 기초는 꽤 기본적입니다:
 
@@ -128,7 +181,7 @@ return _M
 local core = require("apisix.core")
 local plugin = require("apisix.plugin")
 
-local attr_schema = {                                       
+local attr_schema = {
     type = "object",
     properties = {
         host = {
@@ -145,7 +198,7 @@ local attr_schema = {
 }
 function _M.init()
     local attr = plugin.plugin_attr(plugin_name) or {}
-    local ok, err = core.schema.check(attr_schema, attr)    
+    local ok, err = core.schema.check(attr_schema, attr)
     if not ok then
         core.log.error("plugin_attr[", plugin_name, "]를 확인하는 데 실패했습니다: ", err)
         return false, err
@@ -153,7 +206,18 @@ function _M.init()
 end
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 구성의 모양을 정의합니다
 - 구성이 유효한지 확인합니다
@@ -177,7 +241,18 @@ function _M.init()
 end
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - OpenResty Redis 모듈의 새로운 기능을 참조하십시오.
 - 해당 기능을 호출하여 인스턴스를 가져옵니다.
@@ -188,7 +263,18 @@ end
 
 나의 이전 소프트웨어 엔지니어 경험에서, 보통 나는 먼저 정상 경로를 구현했습니다. 그 후에 개별적으로 오류 상황을 처리하여 코드를 보다 견고하게 만들었습니다. 이렇게 하면 언제든지 릴리스를 해야 하는 경우에도 경고와 함께 비즈니스 가치를 전달할 수 있습니다. 이 작은 프로젝트에도 같은 방식으로 접근하겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 명목 경로에 대한 의사 알고리즘은 아래와 같이 보입니다:
 
@@ -208,7 +294,18 @@ DO 응답을 Redis에 저장
 
 코드를 보다 읽기 쉽게 만들기 위해 로그를 제거했음을 주의해 주세요. 오류 및 정보 로그는 제품 문제의 디버깅을 용이하게하기 위해 필요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 function _M.access(conf, ctx)
@@ -246,7 +343,6 @@ end
 - 응답 재구성
 - 재구성된 응답을 클라이언트에 반환합니다. 반환 문 참고: APISIX는 후속 생명주기 단계를 건너뜁니다
 
-
 ```js
 function _M.body_filter(conf, ctx)
     local idempotency_key = core.request.header(ctx, "Idempotency-Key") --1
@@ -270,8 +366,18 @@ end
 - 응답의 다른 요소를 Lua 테이블에 정리
 - JSON으로 인코딩된 응답을 Redis 세트에 저장
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테스트 결과, 예상한 대로 작동하는 것으로 나타났어요.
 다음을 시도해보세요:
@@ -286,7 +392,18 @@ curl -i -H 'Idempotency-Key: C' -H 'foo: bar'  localhost:9080/status/250
 
 # 오류 경로 구현하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지정서에는 여러 가지 오류 경로가 정의되어 있습니다:
 
@@ -305,7 +422,18 @@ function _M.access(conf, ctx)
     -- ...
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기존 key가 누락된 경우 적절한 400을 반환하면 됩니다. 그 부분은 쉬웠네요.
 
@@ -326,7 +454,18 @@ local function hash_request(request, ctx)
 end
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 필요한 부분만 포함된 표를 생성합니다
 - cjson 라이브러리는 여러 호출 사이에 멤버가 서로 다르게 정렬될 수 있는 JSON을 생성합니다. 따라서 다른 해시가 발생합니다. core.json.stably_encode는 이 문제를 해결합니다.
@@ -348,7 +487,18 @@ end -- ...
 
 다른 분기에서 idempotency 키 아래에 저장된 해시값을 읽습니다. 일치하지 않으면 관련 오류 코드로 종료합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 local data = normalize_hgetall_result(resp)
@@ -368,7 +518,18 @@ end
 
 상위 계층은 요청 처리를 완료하지 않았으므로 첫 번째 요청은 아직 body_filter 단계에 도달하지 못했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 코드 조각에 다음 코드를 추가합니다:
 
@@ -382,7 +543,18 @@ end
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 게시물에서는 Apache APISIX에서 플러그인을 통해 Idempotency-Key 헤더 사양의 간단한 구현을 보여드렸습니다. 현재 단계에서는 자동화된 테스트, 경로별로 Redis 구성 가능 여부, 요청의 일부로 구성할 도메인/경로 설정, 단일 인스턴스 대신 Redis 클러스터 설정, 다른 K/V 스토어 사용 등의 개선 사항이 있습니다.
 
@@ -392,7 +564,18 @@ end
 
 더 나아가려면:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Idempotency-Key HTTP Header Field
 - 중복 API 요청 수정

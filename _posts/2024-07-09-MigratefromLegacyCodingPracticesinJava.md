@@ -3,16 +3,13 @@ title: "구식 코딩 관행에서 최신 자바로 전환하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-MigratefromLegacyCodingPracticesinJava_0.png"
 date: 2024-07-09 21:36
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-MigratefromLegacyCodingPracticesinJava_0.png
 tag: Tech
 originalTitle: "Migrate from Legacy Coding Practices in Java"
 link: "https://medium.com/@saranganjana/migrate-from-legacy-coding-practices-in-java-9d948d08f5c3"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-07-09-MigratefromLegacyCodingPracticesinJava_0.png" />
 
@@ -22,7 +19,18 @@ Java에서는 레거시 코딩 관행을 피할 수 있도록 도와주는 많�
 
 본 기사는 개발자들이 하는 일반적인 실수들을 강조하고 있으나, 이러한 점은 논의의 여지가 있습니다. 마찬가지로, 본 기사의 권장 사항 목록도 논쟁의 여지가 있으며 모든 프로젝트에 완벽하게 들어맞지 않을 수 있습니다. 그러나 Java 코딩을 위한 튼튼한 기초와 다양한 모범 사례를 제시합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 제안을 고려함으로써 코딩 관행을 개선하고 현재 표준에 부합하며 깨끗하고 효율적인 코드를 생성할 수 있습니다. 이 방법은 Java의 변화하는 환경과 더 자세히 함께하고 싶은 사람들에게 특히 유익합니다. 📚✨
 
@@ -32,7 +40,18 @@ Java에서는 레거시 코딩 관행을 피할 수 있도록 도와주는 많�
 
 잘못된 관행: 여러 줄 문자열에 대해 전통적인 문자열 연결을 사용하는 것.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 문자열 html = "<html>\n" +
@@ -56,7 +75,18 @@ Java에서는 레거시 코딩 관행을 피할 수 있도록 도와주는 많�
 
 ## 2. `instanceof`에 대한 패턴 매칭 활용하지 않기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나쁜 예: `instanceof` 확인 후 전통적인 형 변환 방식.
 
@@ -75,7 +105,18 @@ if (obj instanceof String str) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 3. 불변 데이터에서 `Records`를 무시하세요
 
@@ -103,7 +144,18 @@ public class Person {
 
 좋은 예: 불변 데이터 클래스에 레코드를 사용합니다 (Java 14+).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 public record Person(String name, int age) {}
@@ -119,7 +171,18 @@ public class Service {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 좋은 실천법: Spring Boot와 같은 의존성 주입 프레임워크를 사용하여 종속성을 관리합니다.
 
@@ -136,7 +199,18 @@ public class Service {
 
 나쁜 실천법: 일반 예외 사용
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 try {
@@ -158,7 +232,18 @@ try {
 
 ## 6. 로깅을 위해 System.out.println 사용하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안좋은 방법: System.out.println을 사용하여 로깅하기
 
@@ -173,7 +258,18 @@ logger.debug("Debug 메시지");
 
 안좋은 방법: 코드에 설정 값을 하드코딩하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 문자열 dbUrl = “jdbc:mysql://localhost:3306/mydb”;
@@ -187,7 +283,18 @@ logger.debug("Debug 메시지");
 
 ## 8. 리소스를 닫지 않는 것
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나쁜 예: 파일 스트림과 같은 리소스를 제대로 닫지 않는 것.
 
@@ -203,7 +310,18 @@ try (FileInputStream fis = new FileInputStream("file.txt")) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 9. 고정된 상수 세트에 Enums을 사용하지 않는 오류
 
@@ -216,8 +334,18 @@ public static final int STATUS_INACTIVE = 2;
 
 좋은 예: 고정된 상수 세트에 Enums를 사용하는 것.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 10. 유틸리티 클래스에 정적 메서드 사용하기
 
@@ -231,7 +359,18 @@ public class Utility {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 좋은 실천 방법: 비공개 생성자를 가진 유틸리티 클래스 만들기.
 

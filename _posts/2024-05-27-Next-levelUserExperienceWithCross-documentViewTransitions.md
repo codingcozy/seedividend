@@ -3,16 +3,13 @@ title: "사용자 경험(UX) 크로스 문서 뷰 전환 하는 방법"
 description: ""
 coverImage: "/assets/img/2024-05-27-Next-levelUserExperienceWithCross-documentViewTransitions_0.png"
 date: 2024-05-27 19:05
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-Next-levelUserExperienceWithCross-documentViewTransitions_0.png
 tag: Tech
 originalTitle: "Next-level User Experience With Cross-document View Transitions"
 link: "https://medium.com/gitconnected/next-level-user-experience-with-cross-document-view-transitions-74ee0ab8b6a1"
 isUpdated: true
 ---
-
-
-
 
 ## 파워포인트 슬라이드쇼처럼 웹사이트를 만드는 방법
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 표준적인 불편한 페이지 로딩에 짜증이 나시나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다행히도 매우 간단한 해결책이 있습니다. CSS와 JavaScript에 대한 약간의 경험만 있으면 사용자 정의 전환을 시작할 수 있습니다.
 
@@ -34,7 +42,18 @@ isUpdated: true
 - 이는 웹사이트의 일관성을 높이고, 내용에 대한 이해를 증진시켜줍니다.
 - 특수 효과를 위해 일반적으로 외부 라이브러리 및 프레임워크를 사용하지만, 이는 성능 손실로 이어질 수 있습니다. 반면 내부 방법은 더 빠르고 효과적인 방법을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 문서 간 보기 전환 구현
 
@@ -44,7 +63,18 @@ isUpdated: true
 
 ## 기본 설정
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다중 페이지 애플리케이션을 위한 기본적인 HTML 구조부터 시작해보겠습니다. 두 개의 간단한 HTML 페이지를 생성해보겠습니다.
 
@@ -53,23 +83,34 @@ isUpdated: true
 ```html
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>페이지 1</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <div class="container">
-        <h1>페이지 1</h1>
-        <a href="page2.html" class="transition-link">페이지 2로 이동</a>
+      <h1>페이지 1</h1>
+      <a href="page2.html" class="transition-link">페이지 2로 이동</a>
     </div>
     <script src="transition.js"></script>
-</body>
+  </body>
 </html>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <!DOCTYPE html>
@@ -115,7 +156,18 @@ body {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 페이지 전환 처리를 위한 JavaScript
 
@@ -123,31 +175,42 @@ body {
 
 ```js
 // transition.js
-document.addEventListener('DOMContentLoaded', () => {
-    const links = document.querySelectorAll('.transition-link');
+document.addEventListener("DOMContentLoaded", () => {
+  const links = document.querySelectorAll(".transition-link");
 
-    links.forEach(link => {
-        link.addEventListener('click', event => {
-            event.preventDefault();
-            const targetUrl = event.target.href;
+  links.forEach((link) => {
+    link.addEventListener("click", (event) => {
+      event.preventDefault();
+      const targetUrl = event.target.href;
 
-            document.body.classList.add('hidden');
+      document.body.classList.add("hidden");
 
-            setTimeout(() => {
-                window.location.href = targetUrl;
-            }, 500);
-        });
+      setTimeout(() => {
+        window.location.href = targetUrl;
+      }, 500);
     });
+  });
 });
 
-window.addEventListener('pageshow', () => {
-    document.body.classList.remove('hidden');
+window.addEventListener("pageshow", () => {
+  document.body.classList.remove("hidden");
 });
 ```
 
 # 모두 함께 적용하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 index.html과 page2.html 모두 CSS와 JavaScript 파일이 올바르게 연결되어 있는지 확인해주세요. 사용자가 다른 페이지로 이동하려는 링크를 클릭하면 현재 페이지가 페이드아웃되고 새 페이지가 페이드인되어 부드러운 전환 효과가 만들어집니다.
 
@@ -157,24 +220,35 @@ index.html과 page2.html 모두 CSS와 JavaScript 파일이 올바르게 연결�
 
 기본 페이드 전환은 좋은 시작점이지만, 슬라이드, 스케일 또는 사용자 정의 애니메이션과 같은 더 복잡한 전환으로 창의적으로 구성할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 슬라이드 전환의 예시입니다:
 
 ```css
 /* styles.css */
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    transition: transform 0.5s ease, opacity 0.5s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  transition: transform 0.5s ease, opacity 0.5s ease;
 }
 
 .hidden {
-    opacity: 0;
-    transform: translateX(-100%);
+  opacity: 0;
+  transform: translateX(-100%);
 }
 ```
 
@@ -182,7 +256,18 @@ index.html과 page2.html 모두 CSS와 JavaScript 파일이 올바르게 연결�
 
 더 많은 정보를 위해 이 웹사이트도 확인해보세요: [https://developer.chrome.com/docs/web-platform/view-transitions/cross-document](https://developer.chrome.com/docs/web-platform/view-transitions/cross-document)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 최종 인사
 
@@ -192,6 +277,17 @@ index.html과 page2.html 모두 CSS와 JavaScript 파일이 올바르게 연결�
 
 서로 다른 종류의 전환을 실험하여 애플리케이션 디자인과 사용자 경험 목표에 가장 적합한 것을 찾아보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 행운을 빕니다!

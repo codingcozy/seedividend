@@ -3,7 +3,7 @@ title: "제스트 테스트 스위트가 왜 느릴까요"
 description: ""
 coverImage: "/assets/img/2024-06-20-WhyIsMyJestTestSuiteSoSlow_0.png"
 date: 2024-06-20 00:16
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-WhyIsMyJestTestSuiteSoSlow_0.png
 tag: Tech
 originalTitle: "Why Is My Jest Test Suite So Slow?"
@@ -11,16 +11,24 @@ link: "https://medium.com/bitsrc/why-is-my-jest-suite-so-slow-2a4859bb9ac0"
 isUpdated: true
 ---
 
-
-
-
 우리 팀은 새 애플리케이션을 개발하고 있습니다. 현재 유닛 테스트 240개를 수행하는데 46초가 소요됩니다. 아직까지는 이 시간이 과도하지는 않지만 테스트의 개수에 비례해 증가하고 있습니다. 몇 달 뒤면 테스트 실행에 몇 분이 걸릴 것으로 예상됩니다.
 
 저희는 Jest가 빠른 성능으로 유명하다는 이유로 놀랐습니다. 그러나 Jest는 각 테스트가 40ms로 보고되었지만, 실제 각 테스트의 전체 실행 시간은 6초에 가깝다고 보고했습니다.
 
 우리의 레거시 응용 프로그램 중 하나에 대한 통합 테스트는 더 나쁘게 나타난다. 단일 테스트에 약 35초가 소요됩니다. 이 시간은 집중력을 잃기 시작하는 구간을 넘어서고, 테스트를 개발하는 데 집중하기 어렵습니다. 각 실제 테스트는 약 1초가 소요되는데, 추가 시간이 어디로 가는지 궁금합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지난 몇 주 동안 우리의 테스트 스위트가 왜 느린지 알아내기 위해 꽤 많은 시간을 삽질했었습니다. 불행히도 많은 아이디어들이 있었지만 거의 영향을 미치지 못했습니다. 게다가 우리의 테스트가 얼마나 빨라야 하는지에 대한 공감대조차 없는 것 같았습니다.
 
@@ -30,22 +38,33 @@ isUpdated: true
 
 다음 예시는 간단해 보여서 빠르게 실행될 것 같지만, 우리의 테스트를 지연시키는 의외로 매우 흔한 구성이 숨어 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // TestComponent.tsx
-import {Button} from "@mui/material";
+import { Button } from "@mui/material";
 
 export const TestComponent = () => {
   return <Button>Hello World!</Button>;
-}
+};
 
 // ComponentB.test.tsx
-import React from 'react';
-import { render, screen } from '@testing-library/react';
+import React from "react";
+import { render, screen } from "@testing-library/react";
 import { TestComponent } from "./TestComponent";
 
-test('TestComponent', () => {
+test("TestComponent", () => {
   render(<TestComponent />);
   expect(screen.getByText("Hello World!")).toBeInTheDocument();
 });
@@ -63,7 +82,18 @@ PASS src/components/testComponent/TestComponent.test.tsx
 
 성능을 향상시키기 전에 Jest가 시간을 어디에 쓰고 있는지 이해해야 합니다. 테스트를 실행하는 데 34ms가 소요되는 것은 합리적이지만, 나머지 3.463초가 어디로 가는지 명확하지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Jest가 하는 일을 이해하지 않으면 잘못된 것을 최적화하려는 데 시간을 낭비할 수 있습니다. 예를 들어, TypeScript 컴파일 시간을 개선하기 위해 ts-jest나 babel-jest를 빠른 컴파일러로 교체하는 것이 일반적인 제안입니다.
 
@@ -73,7 +103,18 @@ Jest가 하는 일을 이해하지 않으면 잘못된 것을 최적화하려는
 
 테스트 실행을 시작할 때 Jest는 자체를 로드하고 테스트 환경(jest-environment-jsdom과 같은)을 로드해야 합니다. Jest는 파일 간 종속성 맵을 빌드하고 테스트 순서에 대한 일부 결정을 내리며 플러그인을 로드하고 추가 스레드를 실행합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 모든 작업은 대략 1초 정도 소요되지만, Jest에 완전히 달려있고 우리 애플리케이션과 크게 독립적이기 때문에 우리가 할 수 있는 것은 별로 없습니다. 또한, 이 설정은 쓰레드 당 한 번 발생하기 때문에 테스트와 테스트 파일 수가 증가함에 따라 확장되지 않습니다.
 
@@ -83,7 +124,18 @@ Jest가 시작될 때 무슨 작업을 하는지 궁금한 사람을 위해 해�
 
 애플리케이션에서 테스트를 처음 실행할 때, Jest는 캐시된 데이터를 활용할 수 없기 때문에 처음 실행할 때는 조금 더 오랜 시간이 걸릴 수 있습니다. Jest는 처음 실행할 때 대부분 시간을 TypeScript를 변환하는 데 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 처음 실행 후 TypeScript 파일을 다시 변환해야 하는 파일이 소수 있을 수 있지만, 그 외에는 Jest는 주로 캐시된 값만 사용합니다. 캐시되지 않은 시나리오는 드물며 성능 최적화에 중요한 영향을 미치지 않습니다.
 
@@ -93,7 +145,18 @@ Jest가 테스트 파일을 실행하기 전에 테스트 파일과 setupTests.t
 
 ## 4. 실제 테스트 성능
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테스트가 단 34밀리초만에 완료되었고, 여기서 더 최적화할 부분은 거의 없습니다.
 
@@ -103,17 +166,40 @@ Jest가 테스트 파일을 실행하기 전에 테스트 파일과 setupTests.t
 
 그런 다음, 터미널에서 다음 명령을 실행하세요: node --inspect-brk ./node_modules/jest/bin/jest.js src/components/testComponent/TestComponent.test.tsx --runInBand. Chrome에서 DevTools의 기본 중단점에 도달하면, 프로파일링 탭으로 이동하고 녹화를 시작하세요. 테스트가 완료되면, 프로파일러를 중지하고 녹화를 보고 "차트" 보기를 선택하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-06-20-WhyIsMyJestTestSuiteSoSlow_1](/assets/img/2024-06-20-WhyIsMyJestTestSuiteSoSlow_1.png)
 
 이 차트를 해석할 때 몇 가지 주의할 점이 있습니다:
+
 - 프로파일러의 존재로 인해 테스트의 성능이 약 30% 감소할 수 있습니다. 그러나 여전히 시간이 어디에 소비되는지를 비례적으로 잘 알 수 있습니다.
 - 의존성에 처음 접속하는 첫 번째 파일은 항상 가장 나쁜 성능을 보일 것입니다. 왜냐하면 Jest가 해당 의존성을 캐시하기 때문에 같은 스레드에서 같은 실행 동안 다른 테스트에 대해서도 사용합니다. (다른 실행 간에는 캐시되지 않음). 만약 TestComponent를 포함한 두 번째 테스트 파일을 포함한다면 해당 의존성을 로드하는 시간이 절반 정도 소요됩니다. 그러나 여전히 줄일 수 있는 시간이며, 물론 개발 중에 한 번에 하나의 파일만 실행하는 흔한 시나리오에서 첫 실행 성능이 매우 중요합니다.
 
 ![2024-06-20-WhyIsMyJestTestSuiteSoSlow_2](/assets/img/2024-06-20-WhyIsMyJestTestSuiteSoSlow_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Barrel 파일
 
@@ -123,7 +209,18 @@ Jest가 테스트 파일을 실행하기 전에 테스트 파일과 setupTests.t
 
 왜 이게 문제인지 이해하려면 Barrel 파일에 대해 좀 더 알아야 합니다. Barrel 파일은 여러 내보내기를 한 파일에 모아둔 접근 방식으로, 보통 index.ts라고 불립니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컴포넌트의 외부 인터페이스를 제어하고 모듈의 내부 구조와 구현에 대해 걱정할 필요 없도록 barrel 파일을 사용합니다. 대부분의 라이브러리는 일반적으로 내보내는 모든 것을 포함한 루트 디렉토리에 있는 barrel 파일을 가지고 있습니다.
 
@@ -139,22 +236,44 @@ export * from './AppBar';
 
 우리는 단순히 하나의 버튼을 찾으려고 하는데 수백 개의 추가적인 파일을 로드하게 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다행히도, Jest가 Button 컴포넌트를 정확히 어디에서 찾아야 하는지 알 수 있도록 임포트 구조를 업데이트하여이 문제를 쉽게 해결할 수 있습니다.
 
 ```js
 // 이전
-import { Button } from '@mui/material';
+import { Button } from "@mui/material";
 // 이후
-import Button from '@mui/material/Button';
+import Button from "@mui/material/Button";
 ```
 
 ![Jest 테스트 스위트가 왜 느린가요?](/assets/img/2024-06-20-WhyIsMyJestTestSuiteSoSlow_4.png)
 
 eslint를 사용하여 미래에 더 이상 이러한 임포트가 추가되는 것을 막기 위해 구성 파일에 다음 규칙을 추가할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 rules: {
@@ -174,8 +293,18 @@ rules: {
 
 ## setupTests.ts 확인하기
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 jest.config.js 파일에서 setupFilesAfterEnv에 대해 설정된 파일로 가는 유혹이 있습니다. 이 파일은 모든 테스트 파일에 원하지 않는 일회성 및 특이 케이스가 모두 이어지는 경향이 있습니다.
 
@@ -185,7 +314,18 @@ setupTests.ts 파일의 영향을 확인하면 이전 단계에서의 flame 차�
 
 <img src="/assets/img/2024-06-20-WhyIsMyJestTestSuiteSoSlow_5.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 테스트 실행에서 타입 체크 제거하기
 
@@ -195,18 +335,30 @@ setupTests.ts 파일의 영향을 확인하면 이전 단계에서의 flame 차�
 
 이 동작을 비활성화하려면 jest.config.js 파일에서 다음 속성을 설정할 수 있습니다. isolatedModules 속성에 대한 자세한 설명은 ts-jest 문서에 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 module.exports = {
-    transform: {
-      "^.+\\.(ts|tsx|js|jsx)$": [
-          'ts-jest', {
-              tsconfig: 'tsconfig.json',
-              isolatedModules: false
-          },
-      ]
-    },
+  transform: {
+    "^.+\\.(ts|tsx|js|jsx)$": [
+      "ts-jest",
+      {
+        tsconfig: "tsconfig.json",
+        isolatedModules: false,
+      },
+    ],
+  },
 };
 ```
 
@@ -216,8 +368,18 @@ module.exports = {
 
 ## misconfigurations을 점검하기
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 성능 향상은 코드베이스를 개선하는 것만으로 이루어질 필요가 없어요. 책임 일부는 개발자들이 도구를 어떻게 활용하느냐에 달려 있답니다. package.json의 스크립트는 타이핑을 절약하고 복잡성을 숨기며, 프로젝트의 모든 사람들에게 최상의 CLI 구성을 공유하는 데 도움이 될 수 있어요.
 
@@ -227,7 +389,18 @@ module.exports = {
 
 Jest의 경우 로컬 환경에서 실행하는 테스트에 피해야 할 몇 가지 플래그가 있어요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - --maxWorkers=2라는 옵션은 Jest가 두 개의 스레드에서만 실행되도록 제한합니다. CI 빌드 에이전트에서 유용하지만 개발용 강력한 머신에서는 Jest를 5개 이상 또는 6개 이상의 스레드로 실행할 수 있습니다.
 - --runInBand 옵션은 마찬가지로 Jest가 스레드를 전혀 사용하지 못하도록 합니다. Jest는 스레드가 필요없는 상황(예: 단일 테스트 파일 실행)을 스스로 인식할 수 있는 똑똑한 기능을 갖추고 있습니다.
@@ -240,7 +413,18 @@ Jest에는 많은 설정이 있지만 대부분의 경우 기본 설정이 잘 �
 
 로컬에서 애플리케이션을 실행할 때는 대부분 watch 모드를 사용하는 것으로 익숙하지만 테스트를 실행할 때는 그렇지 않을 수 있습니다. 빌드와 마찬가지로 테스트를 watch 모드에서 실행하면 다시 계산할 필요가 없는 많은 데이터를 우리의 도구에 저장할 수 있어 좋습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Jest의 대부분의 지연은 테스트 실행보다는 시작 시간에 있습니다. watch 모드를 사용하면 이를 건너뛸 수 있습니다.
 
@@ -250,7 +434,18 @@ Jest의 대부분의 지연은 테스트 실행보다는 시작 시간에 있습
 
 테스트 파일을 작업할 때, 각 테스트 케이스 옆의 작은 녹색 "테스트 실행" 화살표를 클릭하여 테스트 실행을 시작하는 데 익숙합니다. 이들은 모든 테스트 실행하거나 일부 테스트를 실행하는 구문을 기억하려고 하는 것보다 편리하고 빠릅니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 나아가서, 그들은 테스트 결과를 우리 IDE의 테스트 결과 패널 안에 표시해줍니다. 이는 콘솔에 덤핑된 로그보다 더 유용합니다.
 
@@ -260,7 +455,18 @@ WebStorm을 사용하면 "테스트 실행" 바로 가기에 사용되는 실행
 
 ## 우리는 모든 테스트를 실행할 필요가 없습니다
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 개발자들이 특정 테스트 파일에서 작업 중이 아닐 경우 대부분 모든 테스트를 실행하는 경향이 있다는 점을 알아챘어요. 이 행동은 보통 Jest가 변경된 파일을 기반으로 실행해야 할 테스트 하위 집합을 구별할 수 있기 때문에 중복될 수 있어요.
 
@@ -270,7 +476,18 @@ jest를 직접 호출하는 대신 jest --onlyChanged 또는 jest --changedSince
 
 ![이미지](/assets/img/2024-06-20-WhyIsMyJestTestSuiteSoSlow_9.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테스트 스위트는 거의 정적이지 않습니다; 애플리케이션과 함께 점점 커집니다. 느린 테스트 스위트는 더 느려질 것입니다. 다행히도, 소량의 작업으로 각 테스트의 소요 시간을 절반 이상 줄일 수 있습니다. 이 작업은 지금 시간을 절약할 뿐만 아니라 테스트 스위트의 소요 시간과 품질 전반의 궤적을 바꿉니다.
 
@@ -280,7 +497,18 @@ jest를 직접 호출하는 대신 jest --onlyChanged 또는 jest --changedSince
 
 Bit의 오픈 소스 도구는 25만 명 이상의 개발자들이 구성 요소로 앱을 빌드할 수 있도록 도와줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어떤 UI, 기능 또는 페이지를 재사용 가능한 구성 요소로 만들어 여러 응용 프로그램 간에 공유하세요. 협업이 더 쉬워지고 빠르게 구축할 수 있어요.
 
@@ -290,7 +518,18 @@ Bit의 오픈 소스 도구는 25만 명 이상의 개발자들이 구성 요소
 
 ## → 마이크로 프론트엔드
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## → 디자인 시스템
 

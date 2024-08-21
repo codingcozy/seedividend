@@ -3,17 +3,13 @@ title: "Nextjs 13 프로젝트 번들 분석 도구"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "번들 분석 도구"
 link: "undefined"
 isUpdated: true
 ---
-
-
-
-
 
 # 번들 분석기
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 다음 명령을 실행하여 플러그인을 설치하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm i @next/bundle-analyzer
@@ -48,7 +55,18 @@ module.exports = withBundleAnalyzer(nextConfig);
 
 ## 번들 분석하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 명령어를 실행하여 번들을 분석하세요:
 
@@ -62,4 +80,15 @@ ANALYZE=true pnpm build
 
 이 보고서는 브라우저에서 세 개의 새 탭을 열어 확인할 수 있습니다. 개발하면서 정기적으로 이를 수행하고 사이트를 배포하기 전에 확인하는 것은 큰 번들을 빨리 식별하고 응용 프로그램을 더 효율적으로 설계하는 데 도움이 될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

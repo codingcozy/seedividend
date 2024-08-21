@@ -3,7 +3,7 @@ title: "RAG 성능을 높이는 5가지 검증된 쿼리 변환 기술"
 description: ""
 coverImage: "/assets/img/2024-08-17-5ProvenQueryTranslationTechniquestoBoostYourRAGPerformance_0.png"
 date: 2024-08-17 02:04
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-17-5ProvenQueryTranslationTechniquestoBoostYourRAGPerformance_0.png
 tag: Tech
 originalTitle: "5 Proven Query Translation Techniques to Boost Your RAG Performance"
@@ -11,7 +11,6 @@ link: "https://medium.com/towards-data-science/5-proven-query-translation-techni
 isUpdated: true
 updatedAt: 1723864107457
 ---
-
 
 ![이미지](/assets/img/2024-08-17-5ProvenQueryTranslationTechniquestoBoostYourRAGPerformance_0.png)
 
@@ -21,7 +20,18 @@ updatedAt: 1723864107457
 
 우리는 시연을 했고, 모두가 사용하기를 열망했어요. 초기 롤아웃은 소수의 선별된 직원 대상으로 이루어졌어요. 그러나 우리가 발견한 것은 우리에게는 그리 흥미로운 것이 아니었어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 작업 방식을 바꾸는 중요한 역할을 할 것으로 예상되었어요. 그러나 대부분의 사용자들은 앱을 몇 번 시도한 뒤에는 사용하지 않았어요. 그들은 학교 어린이들을 위한 장난감 프로젝트인 것처럼 앱을 떠났어요.
 
@@ -31,7 +41,18 @@ updatedAt: 1723864107457
 
 한 사용자가 저희의 고객 중 하나인 "XYZ"가 획득할 패션 관련 비즈니스에 관심이 있어요. 그의 입력은 "XYZ 파트너가 한 패션 관련 획득은 무엇인가요?" 였어요. 앱은 저희가 제공하는 PPT를 검색하여 한 차례에 다섯 회사의 목록을 제시했어요. 하지만, 이 목록은 사용자가 기대하는 것과는 너무 다르더라구요. XYZ 파트너사들은 (예를 들어) 7개의 패션 상점을 인수했지만, 우리가 얻은 목록엔 4개만 있었어요. 사용자는 테스터이기도 하기 때문에 몇 번의 인수가 있었는지 잘 알고 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사람들이 도구를 사용하는 것을 그만둔 이유가 당연하네요. 그러나 단계별 롤아웃 기술 덕분에 상실된 신뢰를 회복할 수 있게 되었어요.
 
@@ -41,7 +62,18 @@ updatedAt: 1723864107457
 
 한 가지씩 기술을 살펴보겠죠. 그런데 그 전에 기본적인 RAG 예시가 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 기본 RAG 예시
 
@@ -51,7 +83,18 @@ updatedAt: 1723864107457
 
 ![RAG 앱 다이어그램](/assets/img/2024-08-17-5ProvenQueryTranslationTechniquestoBoostYourRAGPerformance_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단한 RAG 애플리케이션에서는 LLM 모델과의 단일 통신만 존재합니다. 이는 OpenAI GPT 모델, Cohere 또는 로컬에서 호스팅하는 모델일 수 있습니다.
 
@@ -133,7 +176,18 @@ print(response)
 
 위 코드에서는 Django 문서 페이지를 로드하고 Chroma 벡터 저장소에 저장하기 위해 웹 기반 로더를 사용했습니다. 문서 페이지 대신 다양한 웹 페이지, 로컬 텍스트 파일, PDF 등과도 실험해볼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 정교한 검색 기술을 사용하지 않기 때문에 검색기를 바로 최종 RAG 체인으로 전달했습니다. 후속 기술에서는 검색기 그 자체 대신 다른 검색기 체인을 전달할 것입니다. 기사의 나머지는 검색 체인을 구성하는 방법에 대해 설명합니다.
 
@@ -143,7 +197,18 @@ Step-back 프롬프팅은 기본 RAG와 매우 유사합니다. 초기 질문을
 
 보다 넓은 질문은 구체적인 질문보다 맥락 정보를 더 포착합니다. 결과적으로 최종 LLM은 사용자에게 더 도움이 되는 정보를 제공할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 초기 질의가 너무 구체적이고 자세하지만 전반적인 전망이 부족한 경우에는 종종 유용합니다.
 
@@ -200,7 +265,18 @@ rag_chain = (
 )
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단계 후퇴 프롬프팅은 전반적인 맥락이 중요한 응용 프로그램에 유용합니다. LLM은 관련 질문에 일관된 답변을 제공할 것입니다.
 
@@ -210,7 +286,18 @@ HyDE는 최근에 인기있는 문서 검색 기술입니다. 아이디어는 LL
 
 HyDE의 좋은 사용 사례는 사용자가 문제를 설명할 때 종종 초보자 용어를 사용하지만, 벡터 저장소에 있는 정보가 매우 기술적인 경우입니다. 게다가 LLM의 설명은 관련 정보를 검색하기 위한 더 많은 키워드를 가지고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, "Django 성능을 개선하는 10가지 방법"과 같은 쿼리는 비용 요소, 캐싱, 압축 등을 포함한 종합적인 답변을 제공할 것입니다.
 
@@ -221,7 +308,7 @@ HyDE의 좋은 사용 사례는 사용자가 문제를 설명할 때 종종 초�
 ```js
 # 4.1 HyDE 프롬프팅
 hyde_prompt = """
-You're an AI language assistant. 
+You're an AI language assistant.
 Your task is to generate a more broader version of the question below.
 By doing so, you're helping the user with more information.
 Don't explain the question. Only provide a more broader version of it.
@@ -234,7 +321,18 @@ hyde_prompt_template = ChatPromptTemplate.from_template(hyde_prompt)
 retrieval_chain = hyde_prompt_template | llm | StrOutputParser() | retriever
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 다중 쿼리
 
@@ -244,8 +342,18 @@ retrieval_chain = hyde_prompt_template | llm | StrOutputParser() | retriever
 
 중간 단계로, 이러한 문서들을 최종 RAG-LLM에 전달하기 전에 고유한 문서 목록을 만들어야 합니다. 이는 한 쿼리가 동일한 문서를 여러 번 검색할 가능성이 높기 때문입니다. 중복된 상태에서 모두 전달하면 LLM의 토큰 한도에 도달하여 오히려 문제가 될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-08-17-5ProvenQueryTranslationTechniquestoBoostYourRAGPerformance_4.png)
 
@@ -266,7 +374,7 @@ def get_unique_documents(documents: list[list]) -> list:
 multi_query_prompt = """
 당신은 AI 언어 모델 어시스턴트입니다.
 사용자의 질문에서 문서를 가져 오기 위해 사용자의 질문의 다섯 가지 버전을 만드는 것이 당신의 작업입니다.
-사용자의 질문에 대해 여러 관점을 제공함으로써 사용자가 거리 기반 유사성 검색의 일부 제한을 극복하는 데 도움을주는 것이 목표입니다. 
+사용자의 질문에 대해 여러 관점을 제공함으로써 사용자가 거리 기반 유사성 검색의 일부 제한을 극복하는 데 도움을주는 것이 목표입니다.
 새 줄마다 대체 질문을 제공하십시오.
 질문: {question}
 결과:
@@ -286,8 +394,18 @@ retrieval_chain = (
 
 # RAG-Fusion
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 RAG 퓨전은 문서 검색에서 멀티 쿼리와 유사합니다. 다시 한 번 LLM에게 초기 쿼리의 여러 버전을 생성하도록 요청합니다. 그런 다음 이러한 버전에 대해 문서를 개별적으로 검색하여 결합합니다.
 
@@ -297,14 +415,25 @@ RAG 퓨전은 문서 검색에서 멀티 쿼리와 유사합니다. 다시 한 �
 
 단순히 중복을 제거하는 것이 아니라 문서를 순위 시스템을 사용하여 정렬합니다. 상호 퓨전 순위(RRF)는 문서를 순위 매기는 간단하고 지능적인 방법입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 많은 쿼리 버전이 동일한 문서를 가장 관련성 높은 것으로 검색했다면, RRF는 그 문서를 높게 순위 지정할 것입니다. 만일 특정 문서가 한 쿼리 버전에서만 나타나고 그와 매우 다르다면, RRF는 이 문서를 낮게 순위 지정할 것입니다. 이렇게 함으로써 더 관련성 높은 정보를 얻고 우선순위를 정할 수 있습니다.
 
 ```python
 def reciprocal_rank_fusion(results: list[list], k=60):
     """ 여러 개의 등수가 매겨진 문서 목록들을 가져와 RRF 공식에서 사용되는 선택적 매개변수 k를 사용하는 Reciprocal_rank_fusion 함수 """
-    
+
     fused_scores = {}
 
     for docs in results:
@@ -348,7 +477,18 @@ retrieval_chain = (
 
 일반적으로 곧바로 대답하는 것보다는 좀 더 복잡한 작업을 해결하는 데 훌륭한 방법은 문제를 조각내어 각각에 대해 답변하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이건 LLM 기술만이 아니죠, 맞죠?
 
@@ -358,16 +498,27 @@ retrieval_chain = (
 
 다이어그램에서 보듯이, 우리는 각 하위 질문에 대한 관련 문서를 검색하고 별도로 답변합니다. 그런 다음 이 질문-답변 쌍을 최종 RAG-LLM에 전달해요. 이제 LLM에는 복잡한 문제를 해결할 더 상세한 정보가 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 4.1 Decomposition prompting
-decomposition_template = """AI 언어 도우미입니다. 
+decomposition_template = """AI 언어 도우미입니다.
 다음 질문을 5개 하위 질문으로 나눠주세요.
 이렇게 함으로써 사용자가 최종 답변을 점진적으로 구성하는 데 도움이 됩니다.
-이들 대체 질문들을 새 줄로 구분하여 제공해주세요. 
+이들 대체 질문들을 새 줄로 구분하여 제공해주세요.
 원래 질문: {question}
-결과: 
+결과:
 """
 
 decomposition_prompt_template = ChatPromptTemplate.from_template(decomposition_template)
@@ -403,7 +554,17 @@ retrieval_chain = (
 
 저희가 해결하는 문제는 복잡도가 다릅니다. 사용자의 불완전한 질문을 고려해야 합니다. 검색 과정의 단점을 고려해야 합니다. 이 모든 것들을 고려해야 합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가장 적합한 쿼리 번역 기술을 선택하는 정확한 방법은 하나가 없어요. 실제 앱에서는 원하는 결과물을 얻기 위해 여러 기술을 결합해야 할 수도 있어요.

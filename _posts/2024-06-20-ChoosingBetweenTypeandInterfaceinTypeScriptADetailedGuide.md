@@ -3,16 +3,13 @@ title: "TypeScript에서 Type과 Interface 중 어떤 것을 선택해야 할까
 description: ""
 coverImage: "/assets/img/2024-06-20-ChoosingBetweenTypeandInterfaceinTypeScriptADetailedGuide_0.png"
 date: 2024-06-20 01:33
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-ChoosingBetweenTypeandInterfaceinTypeScriptADetailedGuide_0.png
 tag: Tech
 originalTitle: "Choosing Between Type and Interface in TypeScript: A Detailed Guide"
 link: "https://medium.com/@jatin.jain_69313/choosing-between-type-and-interface-in-typescript-a-detailed-guide-4b25330a5e1d"
 isUpdated: true
 ---
-
-
-
 
 Node.js에서 TypeScript로 작업할 때, 종종 객체의 모양을 정의해야 합니다. 여기서 TypeScript의 타입과 인터페이스가 등장합니다. 두 가지 모두 객체의 구조를 설명하는 데 사용되지만, 어떤 것을 선택할지는 여러 요소에 따라 결정됩니다. 정보를 참고하여 신중한 결정을 내리는 데 도움이 되는 자세한 가이드가 여기 있습니다.
 
@@ -23,50 +20,72 @@ Node.js에서 TypeScript로 작업할 때, 종종 객체의 모양을 정의해�
 
 ## 2. 확장성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 인터페이스: extends 키워드를 사용하여 확장 가능합니다. 이 기능은 계층적이고 유연한 디자인을 지원하여 기존 인터페이스를 기반으로 새로운 인터페이스를 쉽게 만들 수 있습니다.
 - 타입: & 연산자를 사용하여 교차 타입을 확장할 수 있습니다. 이는 여러 타입을 결합하여 하나의 타입으로 만듭니다.
 
 ```js
 interface User {
-    id: number;
-    username: string;
-    email: string;
+  id: number;
+  username: string;
+  email: string;
 }
 
 interface Admin extends User {
-    adminLevel: number;
+  adminLevel: number;
 }
 ```
 
 ```js
 type User = {
-    id: number;
-    username: string;
-    email: string;
+  id: number,
+  username: string,
+  email: string,
 };
 
 type Admin = User & {
-    adminLevel: number;
+  adminLevel: number,
 };
 ```
 
 ## 3. 선언 병합
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 인터페이스: 선언 병합을 지원합니다. 따라서 동일한 인터페이스를 여러 번 정의할 수 있으며 TypeScript에서 이를 단일 정의로 병합합니다.
 - 타입: 선언 병합을 지원하지 않습니다. 타입 별칭을 다시 정의하려고 하면 오류가 발생합니다.
 
 ```js
 interface User {
-    id: number;
-    username: string;
+  id: number;
+  username: string;
 }
 
 interface User {
-    email: string;
+  email: string;
 }
 
 // 병합된 User 인터페이스: { id: number; username: string; email: string; }
@@ -74,26 +93,37 @@ interface User {
 
 ```js
 type User = {
-    id: number;
-    username: string;
+  id: number,
+  username: string,
 };
 
 type User = {
-    email: string;
+  email: string,
 }; // 오류: 중복 식별자 'User'
 ```
 
 ## 4. 복잡한 유형
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 유형: 연합 유형, 교차 유형 또는 튜플과 같은 복잡한 유형을 정의하는 데 더 강력합니다.
 
 ```js
 type User = {
-    id: number;
-    username: string;
-    email: string;
+  id: number,
+  username: string,
+  email: string,
 };
 
 type ApiResponse = User | { error: string };
@@ -103,17 +133,28 @@ type ApiResponse = User | { error: string };
 
 - 인터페이스 예제:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 interface User {
-    id: number;
-    username: string;
-    email: string;
+  id: number;
+  username: string;
+  email: string;
 }
 
 function getUserById(id: number): User {
-    return { id, username: "john_doe", email: "john@example.com" };
+  return { id, username: "john_doe", email: "john@example.com" };
 }
 ```
 
@@ -121,19 +162,30 @@ function getUserById(id: number): User {
 
 ```js
 type User = {
-    id: number;
-    username: string;
-    email: string;
+  id: number,
+  username: string,
+  email: string,
 };
 
 function getUserById(id: number): User {
-    return { id, username: "john_doe", email: "john@example.com" };
+  return { id, username: "john_doe", email: "john@example.com" };
 }
 ```
 
 # 각각을 사용하는 경우
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인터페이스를 사용하는 경우:
 
@@ -147,7 +199,18 @@ function getUserById(id: number): User {
 - 기본값, 연합 및 교차 유형을 위한 타입 별칭을 생성할 때
 - 타입 추론을 광범위하게 활용할 때
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

@@ -3,16 +3,13 @@ title: "Docker를 활용한 Django 애플리케이션 배포 방법"
 description: ""
 coverImage: "/assets/img/2024-07-07-DeployingDjangoApplicationsusingDocker_0.png"
 date: 2024-07-07 20:13
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-DeployingDjangoApplicationsusingDocker_0.png
 tag: Tech
 originalTitle: "Deploying Django Application’s using Docker"
 link: "https://medium.com/@adityabakshiextra/deploying-danjo-application-using-docker-8af035c88008"
 isUpdated: true
 ---
-
-
-
 
 디자고 컨테이너와 도커 탐험: 개발과 배포 혁신하기
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 디자고 컨테이너는 도커의 강력함과 유연함을 활용한 컨테이너화의 최신 접근 방식을 대표합니다. 도커는 주요한 컨테이너화 플랫폼으로, 개발자에게 애플리케이션과 그 의존성을 표준화된 단위로 패키징할 수 있는 도구를 제공합니다. 이러한 컨테이너들은 개발용 노트북부터 프로덕션 서버까지 다양한 컴퓨팅 환경에서 애플리케이션이 원활히 실행되도록 보장합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Why Docker?
 
@@ -35,7 +43,18 @@ Why Docker?
 
 장고와 컨테이너로 시작하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 도커와 장고 컨테이너에 입문하신 분이라면, 시작하기가 생각보다 쉽습니다. 먼저 로컬 머신에 도커를 설치하고 컨테이너를 생성, 실행, 관리하는 방법을 실험해보세요. 도커의 포괄적인 문서와 활기찬 커뮤니티는 여러분을 도와줄 많은 자료를 제공해줍니다.
 
@@ -45,7 +64,18 @@ Why Docker?
 
 도커를 사용한 애플리케이션 배포 단계별 가이드
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Step-1: AWS(또는 선호하는 클라우드 플랫폼)에서 EC2 인스턴스를 시작합니다.
 
@@ -55,7 +85,18 @@ Step-2: 인스턴스의 보안 그룹을 편집하고 다음 3가지 주요 규�
 
 A) SSH 포트-22
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 B) Http 포트-80
 
@@ -65,7 +106,18 @@ C) 사용자 지정 TCP 포트-8000 (App에 접근할 때 이 포트를 사용�
 
 Step-3: SSH를 사용하여 EC2 인스턴스에 연결하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Step 4: Docker 설치하기
 
@@ -73,11 +125,20 @@ Step-3: SSH를 사용하여 EC2 인스턴스에 연결하세요.
 
 이 명령어를 복사하여 Docker를 다운로드하세요.
 
-
 sudo apt update
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 sudo apt install apt-transport-https ca-certificates curl software-properties-common
@@ -89,7 +150,18 @@ sudo add-apt-repository “deb [arch=amd64] https://download.docker.com/linux/ub
 apt-cache policy docker-ce
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 sudo apt install docker-ce
@@ -101,24 +173,43 @@ Step-5: 우분투에 도커를 다운로드했다면 이제 VM에 Git을 설치�
 apt install git -y
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Step-6: 깃 레포지토리를 클론하는 방법은 다음과 같아요
 
-
 git clone https://github.com/ZABROL/Danjo_Application_Using_Containers.git
-
 
 (만약 위 링크가 작동하지 않을 경우, 레포지토리 이름은 Danjo_Application_Using_Containers 입니다 - 작성자: Aditya Bakshi)
 
 Step-7: 레포지토리를 성공적으로 클론한 후에는 DockerFile이 포함된 폴더로 이동하세요 (CD 명령어 사용).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-07-DeployingDjangoApplicationsusingDocker_4.png)
 
 **Step-8: 아래 명령어를 실행해주세요**
-
 
 docker build .
 
@@ -126,20 +217,39 @@ docker build .
 
 docker build -f Dockerfile_path
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **9단계: 빌드된 이미지를 사용하여 컨테이너 실행하기 - 다음 명령어를 사용하세요**
 
-
-docker run --name=아무이름 -p 8000:8000 -it 이미지_아이디
-
+docker run --name=아무이름 -p 8000:8000 -it 이미지\_아이디
 
 ![이미지](/assets/img/2024-07-07-DeployingDjangoApplicationsusingDocker_5.png)
 
 **10단계: 애플리케이션에 액세스하기**
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 브라우저에서 다음을 검색해보세요.
 
@@ -149,7 +259,18 @@ docker run --name=아무이름 -p 8000:8000 -it 이미지_아이디
 
 이렇게하면 Docker 컨테이너를 사용하여 Django 애플리케이션을 성공적으로 배포했습니다. 완료!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 추가 정보:
 
@@ -160,9 +281,20 @@ docker run --name=아무이름 -p 8000:8000 -it 이미지_아이디
 
 (다른 파일의 기능은 공식 Django 문서에서 확인할 수 있습니다)
 
-- ***참고***
+- **_참고_**
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 당신이 Killercoda나 Dockerplayground를 사용하고 있다면.
 
@@ -172,6 +304,17 @@ docker run --name=아무이름 -p 8000:8000 -it 이미지_아이디
 
 기술이 계속 발전함에 따라, 컨테이너화는 소프트웨어 개발과 배포의 미래에서 더욱 중요한 역할을 하게 될 것으로 예상됩니다. 마이크로서비스 아키텍처부터 서버리스 컴퓨팅까지, Docker와 Django 컨테이너는 현대 애플리케이션의 요구에 적응하는 확장 가능한 솔루션을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결론적으로, Docker로 구동되는 Django 컨테이너는 소프트웨어 개발과 배포에 접근하는 방식에서 패러다임의 변화를 의미합니다. 컨테이너화를 통해 개발자들은 안정적이고 확장 가능한 애플리케이션을 구축할 수 있으며, 어떤 환경에서도 일관된 성능을 보장받을 수 있습니다. 경험 많은 개발자든 초보든, Django 컨테이너와 Docker를 탐험하는 것은 오늘날의 동적인 기술 환경에서 선두에 서기 위한 가치 있는 여정입니다.

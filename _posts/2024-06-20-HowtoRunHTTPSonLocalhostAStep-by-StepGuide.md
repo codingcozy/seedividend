@@ -3,16 +3,13 @@ title: "로컬호스트에서 HTTPS를 실행하는 방법 단계별 안내"
 description: ""
 coverImage: "/assets/img/2024-06-20-HowtoRunHTTPSonLocalhostAStep-by-StepGuide_0.png"
 date: 2024-06-20 07:36
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-HowtoRunHTTPSonLocalhostAStep-by-StepGuide_0.png
 tag: Tech
 originalTitle: "How to Run HTTPS on Localhost: A Step-by-Step Guide"
 link: "https://medium.com/@akshitb/how-to-run-https-on-localhost-a-step-by-step-guide-c61fde893771"
 isUpdated: true
 ---
-
-
-
 
 로컬호스트에서 HTTPS를 실행하는 것은 안전한 웹 애플리케이션을 개발하고 테스트하는 데 필수적입니다.
 보안 소켓 계층(SSL) 또는 전송 계층 보안(TLS)은 인터넷을 통해 안전한 통신을 제공하는 방법을 제공합니다. 로컬호스트에서 HTTPS 서버를 실행하면 제품 서버에 배포될 때 웹 애플리케이션이 작동할 안전한 환경을 시뮬레이션할 수 있습니다.
@@ -21,9 +18,20 @@ isUpdated: true
 
 이 안내서에서는 자체 서명된 인증서 및 Node.js 서버를 사용하여 로컬 머신에서 HTTPS를 설정하는 과정을 안내하겠습니다.
 
-#  준비 사항
+# 준비 사항
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시작하기 전에 다음 사전 요구 사항을 준비해 주세요:
 
@@ -34,7 +42,18 @@ isUpdated: true
 
 첫 번째 단계는 자체 서명 루트 인증서를 생성하는 것입니다. 해당 인증서를 컴퓨터에 설치하고 서버에서 사용할 다른 인증서를 서명할 것입니다. 루트 인증서를 설치하면 해당 루트 인증서로 서명된 다른 인증서를 신뢰하는 것을 의미합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 터미널이나 명령 프롬프트를 열고 인증서를 저장할 디렉토리로 이동하세요.
 - 다음 명령을 실행하여 루트 인증서용 개인 키를 생성하세요:
@@ -49,7 +68,18 @@ openssl genrsa -out root.key 2048
 openssl req -x509 -new -nodes -key root.key -sha256 -days 365 -out root.crt
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. macOS를 사용 중이라면, root.crt 파일을 두 번 클릭하여 시스템의 신뢰할 수 있는 인증서에 루트 인증서를 추가할 수 있습니다. Keychain Access 애플리케이션이 열릴 것입니다. "System" 키체인을 선택한 후, "추가"를 클릭하여 root.crt 파일을 찾아 선택하고 다시 "추가"를 클릭합니다. 인증서가 신뢰할 수 있는 것으로 표시되었는지 확인해주세요.
 
@@ -59,7 +89,18 @@ openssl req -x509 -new -nodes -key root.key -sha256 -days 365 -out root.crt
 
 다음으로, 로컬호스트를 위한 서버 인증서를 만들 것입니다. 이 인증서를 사용하면 로컬 서버가 안전한 연결을 설정할 수 있습니다. 서버의 인증서를 루트 인증서로 서명하여 컴퓨터가 서버의 신뢰성을 보장할 수 있도록 할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 서버용 개인 키 생성:
 
@@ -73,7 +114,18 @@ openssl genrsa -out server.key 2048
 openssl req -new -key server.key -out server.csr
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. 이 명령은 공통 이름 (CN) 및 조직 세부 정보와 같은 CSR에 대한 일부 정보를 제공하도록 요구합니다. 공통 이름을 서버와 연결된 호스트명 또는 도메인 이름 (예: localhost)으로 설정해야 합니다.
 
@@ -85,7 +137,18 @@ openssl x509 -req -in server.csr -CA root.crt -CAkey root.key -CAcreateserial -o
 
 5. 이 명령은 루트 인증서와 개인 키를 사용하여 CSR에 서명하고, 365일 동안 유효한 새로운 서버 인증서인 server.crt를 생성합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 단계를 거치면 서버에서 사용할 인증서를 만들고 PC가 신뢰하는 인증서로 설정합니다.
 
@@ -95,25 +158,39 @@ openssl x509 -req -in server.csr -CA root.crt -CAkey root.key -CAcreateserial -o
 
 - server.js 라는 파일을 생성하고 다음 코드를 추가하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // server.js
-const app = require('express')();
-const https = require('https');
-const fs = require('fs');
+const app = require("express")();
+const https = require("https");
+const fs = require("fs");
 
 const options = {
-    key: fs.readFileSync('~/certs/practice/server.key'), // 귀하의 키 경로로 대체하세요
-    cert: fs.readFileSync('~/certs/practice/server.crt'), // 귀하의 인증서 경로로 대체하세요
-}
+  key: fs.readFileSync("~/certs/practice/server.key"), // 귀하의 키 경로로 대체하세요
+  cert: fs.readFileSync("~/certs/practice/server.crt"), // 귀하의 인증서 경로로 대체하세요
+};
 
-https.createServer(options, (req, res) => {
-  res.writeHead(200);
-  res.end('Hello, HTTPS World!');
-}).listen(443, () => {
-  console.log('서버가 443 포트에서 실행 중입니다');
-});node
+https
+  .createServer(options, (req, res) => {
+    res.writeHead(200);
+    res.end("Hello, HTTPS World!");
+  })
+  .listen(443, () => {
+    console.log("서버가 443 포트에서 실행 중입니다");
+  });
+node;
 ```
 
 2. 파일을 저장한 후 터미널에서 아래 명령어를 실행하여 서버를 시작하세요:
@@ -124,8 +201,18 @@ node server.js
 
 3. HTTPS 서버가 443 포트에서 실행 중이며, https://localhost 에서 액세스할 수 있습니다
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 4: 루트 인증서 신뢰 (macOS 전용)
 
@@ -138,7 +225,18 @@ node server.js
 
 # 단계 5: 최종 스크립트 (옵션)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인증서 생성 및 서버 설정을 자동화하려면 다음 스크립트를 사용할 수 있어요:
 

@@ -3,16 +3,13 @@ title: "Python으로 웹사이트에서 데이터를 쉽게 추출하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-12-HowToEasilyExtractDataFromAWebsiteWithPython_0.png"
 date: 2024-07-12 20:27
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-12-HowToEasilyExtractDataFromAWebsiteWithPython_0.png
 tag: Tech
 originalTitle: "How To Easily Extract Data From A Website With Python"
 link: "https://medium.com/python-in-plain-english/how-to-easily-extract-data-from-a-website-with-python-223f59e647f2"
 isUpdated: true
 ---
-
-
-
 
 <table>
 <tr>
@@ -33,7 +30,18 @@ isUpdated: true
 </tr>
 </table>
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - **Pandas**: 추출된 데이터를 위한 데이터베이스를 생성하는 데 사용됩니다.
 - **Requests**: 웹사이트에 접근 권한을 요청하는 데 사용됩니다.
@@ -45,7 +53,18 @@ isUpdated: true
 
 "수동으로는 절대 할 수 없어" 라고 생각했습니다. 그렇게 하면 시간이 많이 걸리고 지루할 것이라고 생. 따라서 나는 파이썬 기술을 사용하기로 결정했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 사이트에는 다음과 같은 데이터가 있습니다:
 
@@ -55,7 +74,18 @@ isUpdated: true
 
 이 프로젝트의 목표는 이 데이터를 사용하여 CSV 파일을 생성하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 1. 모듈 가져오기
 
@@ -71,7 +101,18 @@ import requests
 from bs4 import BeautifulSoup
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 2. 데이터 찾기
 
@@ -81,7 +122,18 @@ from bs4 import BeautifulSoup
 
 답은 HTML(HyperText Markup Language)에 달려 있습니다. HTML은 웹 브라우저에서 표시할 문서의 표준 마크업 언어입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹사이트 어디에서든 마우스 오른쪽 버튼을 클릭하고 Inspect를 선택하면 웹의 코드가 오른쪽에 표시됩니다:
 
@@ -91,7 +143,18 @@ from bs4 import BeautifulSoup
 
 더 자세한 내용은 향후 기사에서 확인해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2.2. HTML 가져오기 함수
 
@@ -115,7 +178,18 @@ def get_html(url):
         return ""emails = set() # 중복을 피하기 위한 코드입니다
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 3. 데이터 추출
 
@@ -128,7 +202,18 @@ def get_html(url):
 - 데이터를 수집할 빈 리스트.
 - 데이터를 검색하는 for 루프.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import pandas as pd
@@ -150,7 +235,7 @@ def extract_data(html):
     soup = BeautifulSoup(html, 'html.parser') # BeautifulSoup 클래스를 초기화
     table = soup.find('table') # 테이블을 찾습니다.
     data = [] # 데이터를 수집할 빈 리스트
-    
+
     if table:
 
         rows = table.find_all('tr') # 모든 테이블을 찾습니다.
@@ -162,7 +247,7 @@ def extract_data(html):
                 catedra_name = cols[0].text.strip() # 과목 이름
                 email = cols[1].text.strip() # 이메일
                 data.append({'catedra': catedra_name, 'email': email}) # 데이터 리스트에 추가
-    
+
     return data
 ```
 
@@ -190,7 +275,7 @@ def extract_data(html):
     soup = BeautifulSoup(html, 'html.parser') # BeautifulSoup 클래스를 초기화
     table = soup.find('table') # 테이블 찾기
     data = [] # 데이터 수집을 위한 빈 리스트
-    
+
     if table:
 
         rows = table.find_all('tr') # 모든 테이블 찾기
@@ -202,7 +287,7 @@ def extract_data(html):
                 catedra_name = cols[0].text.strip() # 과목 이름
                 email = cols[1].text.strip() # 이메일
                 data.append({'catedra': catedra_name, 'email': email})
-    
+
     return data
 
 url = "https://edipsicouba.net.ar/uncategorized/listado-mails-materias-electivas/"  # 여러분의 링크 설정
@@ -216,7 +301,18 @@ df.to_csv('mail_info.csv', index=False) # 데이터프레임을 CSV 파일로 �
 print("데이터가 성공적으로 추출되어 mail_info.csv로 저장되었습니다")
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그게 다에요!
 
@@ -226,7 +322,18 @@ print("데이터가 성공적으로 추출되어 mail_info.csv로 저장되었�
 
 다음 글에서는 데이터 분석 프로젝트를 위해 슈퍼마켓에서 데이터를 수집하는 방법을 보여드릴게요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 도와드릴 수 있는 방법:
 
@@ -237,7 +344,18 @@ print("데이터가 성공적으로 추출되어 mail_info.csv로 저장되었�
 
 ## 내 최고의 학습 기사들:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요!
 
@@ -255,7 +373,18 @@ Axel
 
 # 간단하고 쉬운 용어로 🚀
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 In Plain English 커뮤니티에 참여해 주셔서 감사합니다! 떠나시기 전에:
 

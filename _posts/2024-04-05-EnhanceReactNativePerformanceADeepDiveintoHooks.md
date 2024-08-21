@@ -3,17 +3,13 @@ title: "React Native 훅을 사용해서 성능 향상하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Enhance React Native Performance A Deep Dive into Hooks"
 link: "https://medium.com/@tonimaxx/enhance-react-native-performance-a-deep-dive-into-hooks-675515c58e69"
 isUpdated: true
 ---
-
-
-
-
 
 # 최적의 사용자 경험을 발휘하기
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # TLDR; 너무 길어서 읽지 않았다: 실제 시나리오와 함께 한 요점
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - React.memo 강조: CarouselB와 같은 컴포넌트를 React.memo로 감싸어 불필요한 다시 렌더링을 피함으로써 응용 프로그램의 성능을 향상시킬 수 있습니다. 예를 들어, 홈 화면의 다중 이미지 캐러셀에 React.memo를 구현하면 탐색 중 반복적인 이미지 로드를 피해로드 시간을 크게 줄이고 사용자 경험을 향상시킬 수 있습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 React Hooks는 함수형 컴포넌트에서 상태 및 사이드 이펙트를 관리하기 위한 간소화된 접근 방식을 제공합니다. 성능 향상 능력으로 두드러지는 주요 훅은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - useState: 함수형 패러다임에서 상태 업데이트를 관리하여 불필요한 다시 렌더링을 줄이고 성능을 향상시킵니다.
 - useEffect: 데이터 가져오기와 타이머와 같은 부작용을 조정합니다. useEffect 내에서 데이터 가져오기를 전략적으로 배치함으로써 다시 렌더링을 최적화하여 실제 데이터 변경 시에만 발생하도록 보장합니다.
@@ -46,7 +64,18 @@ React Hooks는 함수형 컴포넌트에서 상태 및 사이드 이펙트를 �
 
 React.memo는 React 16.6에 도입된 하이어오더 컴포넌트로, 함수형 컴포넌트를 기억하는 도구 역할을 합니다. 속성이 변경되지 않을 때 불필요한 다시 렌더링을 방지함으로써, React.memo는 컴포넌트의 재생성 및 다시 렌더링 작업을 크게 줄여주어 React Native 성능에 큰 도움이 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React.memo가 작동하는 방식:
 
@@ -59,7 +88,18 @@ React.memo가 작동하는 방식:
 
 # 케이스 스터디: 훅을 통한 캐로셀 컴포넌트 최적화
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CarouselB 컴포넌트를 고려해 보세요 — 이미지를 순환하는 디스플레이 기능입니다. 성능을 향상시키려면 일반적인 함정을 식별하고 수정해야 합니다:
 
@@ -70,7 +110,18 @@ CarouselB 컴포넌트를 고려해 보세요 — 이미지를 순환하는 디�
 
 진단:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문제는 suboptimal useEffect 구현 또는 불충분한 상태 관리로 인한 과도한 다시 렌더링에서 비롯될 수 있습니다. 또는 함수형 컴포넌트에 대한 React.memo 무시도 그 중 하나일 수 있습니다.
 
@@ -82,7 +133,18 @@ CarouselB 컴포넌트를 고려해 보세요 — 이미지를 순환하는 디�
 
 여기까지가 이해할 만큼입니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/EnhanceReactNativePerformanceADeepDiveintoHooks_0.png" />
 
@@ -109,7 +171,18 @@ function CarouselB({
 export default withCarouselContext(CarouselB);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 단순히 MemoizedCarouselB로 CarouselB를 감싸 React.memo를 구현합니다.
@@ -144,7 +217,18 @@ export default withCarouselContext(MemoizedCarouselB);
 
 우리는 UX를 완벽하게하기 위해, 일반적인 캐러셀에 맞춘 CarouselB를 소개했습니다. 동적 쇼케이스로 상상되는 우리의 홈 화면은 단 하나가 아니라 다섯 개의 CarouselB 인스턴스를 자랑하며, 각각 15개의 생생한 이미지로 넘쳐납니다. 이 설계 선택은 임의적이지 않습니다. 홈 화면을 포괄적인 탐색 허브로 변신시키는 비전에서 비롯됩니다. 다양한 옵션을 미리 제시함으로써, 사용자 이동 단계를 최소화하고 원하는 콘텐츠로 신속하고 직접적인 여정을 가능케 하려고 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도전: 네비게이션 유연성 vs. 성능
 
@@ -154,7 +238,18 @@ export default withCarouselContext(MemoizedCarouselB);
 
 탐구: 캐싱에서 메모리제이션으로
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 문제를 해결하기 위해 다양한 해결책을 탐구했습니다. 처음에는 이미지 캐싱이 유망한 방법으로 보였습니다. 이전에 로드된 이미지를 저장함으로써 로드 시간을 상당히 줄일 수 있었을 것입니다. 그러나 실험 결과, 캐싱이 장점을 가지고 있지만, 우리의 구체적인 사용 사례 요구 사항과 완전히 일치하지 않았고 핵심 문제인 구성 요소 재초기화에 대응하지 못했습니다.
 
@@ -164,6 +259,17 @@ export default withCarouselContext(MemoizedCarouselB);
 
 결과는 변화가 혁명적이었습니다. React.memo를 구현하는 것이 최적화 노력의 중심 요소가 되었습니다. 이 변경만으로도 홈 화면의 성능과 사용자 경험을 현격하게 향상시켰습니다. 이제 사용자가 다른 화면으로부터 돌아오면, 모든 캐로셀이 그대로 남아 있고, 이미지가 선명하게 표시되어 빠르게 반응하는 인터페이스가 사용자를 기다리게 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 중요한 개선 사항은 탐색 순조로움과 콘텐츠 안정성을 향상시키면서 최소한의 코드 수정으로 이루어졌습니다. 이는 React의 메모이제이션의 힘을 입증하는 사례입니다. 더불어, 이 방법론은 사용자 경험을 최적화하고 불필요한 작업을 줄이며 앱의 응답성을 향상시킴으로써 우리의 기본적인 디자인 철학과 완벽하게 부합했습니다.

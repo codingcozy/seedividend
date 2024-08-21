@@ -3,17 +3,13 @@ title: "30줄 코드로 쉽게 해결하는 프라미스 동시성 문제 해결
 description: ""
 coverImage: "/assets/img/2024-06-22-HowtoSolvethePromiseConcurrencyIssuewith30LinesofCode_0.png"
 date: 2024-06-22 02:01
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-HowtoSolvethePromiseConcurrencyIssuewith30LinesofCode_0.png
 tag: Tech
 originalTitle: "How to Solve the Promise Concurrency Issue with 30 Lines of Code"
 link: "https://medium.com/javascript-in-plain-english/how-to-solve-the-promise-concurrency-issue-with-30-lines-of-code-3da4a5cb5136"
 isUpdated: true
 ---
-
-
-
-
 
 ![image](/assets/img/2024-06-22-HowtoSolvethePromiseConcurrencyIssuewith30LinesofCode_0.png)
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 Controlling concurrency is essential for effectively managing system resources, preventing overload, improving performance and response time, ensuring system stability, and maintaining a good user experience. By limiting the number of concurrent requests, the system can continue to operate normally even under high load conditions.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 2. 무엇
 
@@ -34,7 +40,18 @@ Controlling concurrency is essential for effectively managing system resources, 
 
 ## 2.2 일반적인 동시 작업
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 개발에서 일반적인 동시 작업이 많이 있습니다. 프론트엔드, 백엔드, 데이터베이스 작업 및 시스템 수준의 작업 처리 등을 다룹니다. 웹 개발에서 일반적인 동시 작업의 몇 가지 예는 다음과 같습니다:
 
@@ -46,7 +63,18 @@ Controlling concurrency is essential for effectively managing system resources, 
 
 ## 3.1 Promise.all
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프론트엔드에서 동시 요청을 보낼 때 Promise.all을 많이 사용합니다. 예를 들어:
 
@@ -68,11 +96,11 @@ function simulatePromiseAll() {
 
   Promise.all([promise1, promise2, promise3])
     .then((results) => {
-      console.log('모든 작업이 완료되었습니다:');
-      results.forEach(result => console.log(result));
+      console.log("모든 작업이 완료되었습니다:");
+      results.forEach((result) => console.log(result));
     })
     .catch((error) => {
-      console.error('오류 발생:', error);
+      console.error("오류 발생:", error);
     });
 }
 
@@ -84,7 +112,18 @@ simulatePromiseAll();
 
 ## 3.2 구현 방법
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기본 아이디어는 100개의 동시 작업이 있고 최대 동시성을 10으로 설정한다면 다음 단계를 따릅니다:
 
@@ -96,8 +135,8 @@ simulatePromiseAll();
 ```js
 // 우리가 구현해야 하는 함수
 const simulateLimit = () => {
-  // 코드 작성 
-}
+  // 코드 작성
+};
 
 // 비동기 작업을 시뮬레이션하는 함수
 function asyncOperation(duration) {
@@ -125,11 +164,11 @@ function simulateControlledPromiseAll() {
 
   Promise.all(tasks)
     .then((results) => {
-      console.log('모든 작업이 완료되었습니다:');
-      results.forEach(result => console.log(result));
+      console.log("모든 작업이 완료되었습니다:");
+      results.forEach((result) => console.log(result));
     })
     .catch((error) => {
-      console.error('에러가 발생했습니다:', error);
+      console.error("에러가 발생했습니다:", error);
     });
 }
 
@@ -138,11 +177,33 @@ simulateControlledPromiseAll();
 
 3.3 30줄의 코드로 simulateLimit를 구현하는 방법
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 마크다운 형식으로 바꿔주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 반환된 함수 내부에서는 실제 작업 함수 fn을 래핑하는 작업 함수를 만듭니다. task가 호출되면 activeCount를 증가시키고 작업 함수 fn을 실행합니다. 작업이 완료되면 성공 또는 실패 여부에 상관없이 다음 함수가 호출됩니다.
 
@@ -175,7 +236,18 @@ const next = () => {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 반환된 함수 내부에서 현재 활성 작업 수 activeCount가 동시성 제한(concurrency)보다 작은지 확인합니다. 작업 수가 모자라면 해당 작업을 즉시 실행하고, 그렇지 않다면 해당 작업을 대기열에 추가합니다.
 
@@ -228,7 +300,18 @@ function simulateLimit(concurrency) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 실제로 이것은 유명한 라이브러리인 p-limit의 소스 코드입니다. 더 완벽한 사용법과 정제된 코드를 보려면 npm에서 p-limit을 참조해주세요. 배워갔나요?
 

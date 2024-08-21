@@ -3,17 +3,13 @@ title: "Nextjs 13 사이트 자동 정적 최적화 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "자동 정적 최적화"
 link: "undefined"
 isUpdated: true
 ---
-
-
-
-
 
 # 자동 정적 최적화
 
@@ -23,7 +19,18 @@ Next.js는 페이지에 블로킹 데이터 요구사항이 없는 경우 (사�
 
 > 정적 생성된 페이지는 여전히 반응적입니다: Next.js는 애플리케이션을 클라이언트 측에서 수화(rehydrate)하여 완전한 상호 작용성을 부여합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기능의 주요 이점 중 하나는 최적화된 페이지가 서버 측 연산이 필요하지 않으며, 여러 CDN 위치에서 즉시 최종 사용자에게 스트리밍 될 수 있다는 것입니다. 결과적으로 사용자에게 초고속 로딩 경험이 제공됩니다.
 
@@ -33,7 +40,18 @@ Next.js는 페이지에 블로킹 데이터 요구사항이 없는 경우 (사�
 
 위와 같은 경우가 아니라면, Next.js는 페이지를 자동으로 정적으로 최적화하여 페이지를 사전 렌더링하여 정적 HTML로 변환합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프리랜더링 중에는 쿼리 객체가 비어 있을 것입니다. 이 단계에서는 제공할 쿼리 정보가 없기 때문입니다. 하이드레이션 이후에는 Next.js가 애플리케이션을 업데이트하여 쿼리 객체에 라우트 매개변수를 제공합니다.
 
@@ -45,7 +63,18 @@ Next.js는 페이지에 블로킹 데이터 요구사항이 없는 경우 (사�
 
 쿼리가 완전히 업데이트되어 사용할 준비가 되었는지를 구분할 수 있는 방법은 next/router의 isReady 필드를 활용하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 > 좋은 정보: getStaticProps를 사용하는 페이지에 동적 라우트로 추가된 매개변수는 항상 쿼리 객체 내에서 사용할 수 있습니다.
 
@@ -57,7 +86,18 @@ Next.js는 페이지에 블로킹 데이터 요구사항이 없는 경우 (사�
 
 그리고 해당 페이지에 getServerSideProps를 추가하면 JavaScript 파일이 생성됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .next/server/pages/about.js
@@ -69,4 +109,15 @@ Next.js는 페이지에 블로킹 데이터 요구사항이 없는 경우 (사�
 - getInitialProps를 사용하는 사용자 정의 Document가 있다면, 페이지가 서버 측 렌더링되었는지 확신하기 전에 ctx.req가 정의되어 있는지 확인하세요. 사전 렌더링된 페이지에는 ctx.req가 정의되지 않을 수 있습니다.
 - 라우터의 asPath 값을 사용할 때는 라우터의 isReady 필드가 true가 될 때까지 렌더링 트리에서 이 값을 사용하지 마세요. 정적으로 최적화된 페이지는 asPath를 클라이언트에서만 알고 있으며 서버에서는 모릅니다. 따라서 prop으로 사용하는 것은 일치 오류를 발생시킬 수 있습니다. active-class-name 예제는 asPath를 prop으로 사용하는 한 가지 방법을 나타냅니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

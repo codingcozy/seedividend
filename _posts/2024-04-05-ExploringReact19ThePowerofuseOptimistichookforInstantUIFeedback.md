@@ -3,17 +3,13 @@ title: "React 19 - 즉각적인 UI 피드백을 위한 useOptimistic 훅 정리"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Exploring React 19 The Power of useOptimistic hook for Instant UI Feedback"
 link: "https://medium.com/javascript-in-plain-english/exploring-react-19-the-power-of-useoptimistic-hook-for-instant-ui-feedback-993fa3ca28e0"
 isUpdated: true
 ---
-
-
-
-
 
 React 19에서는 많은 훌륭한 기능과 기능이 소개되었는데 그 중 useOptimistic 후크가 눈에 띕니다.
 
@@ -24,7 +20,18 @@ useOptimistic 후크는 비동기 작업 중 UI 상태를 관리하는 원활한
 - 현재 상태와 동작 입력을 가져와서 "낙관적" 상태 버전을 반환하며 해당 동작의 실제 결과가 확정될 때까지 계속 유지됩니다.
 - 이 "낙관적" 상태는 동작의 결과를 사용자에게 즉시 제공하여 실제 프로세스가 더 오래 걸리더라도 즉각적인 피드백의 환상을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 구현에서:
 
@@ -39,10 +46,7 @@ import { useState, useRef, useOptimistic } from "react";
 
 function Thread({ messages, sendMessage }) {
   const formRef = useRef();
-  const [optimisticMessages, addOptimisticMessage] = useOptimistic(
-    [],
-    (state, newMessage) => [...state, newMessage]
-  );
+  const [optimisticMessages, addOptimisticMessage] = useOptimistic([], (state, newMessage) => [...state, newMessage]);
 
   const handleSubmit = async (event) => {
     // 일부 폼 제출 로직
@@ -77,7 +81,18 @@ function Thread({ messages, sendMessage }) {
 
 어때요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트 프로젝트에서 useOptimistic를 사용해보셨나요? 아래 댓글란에 사용해본 경험과 생각을 공유해주세요!
 
@@ -88,7 +103,18 @@ function Thread({ messages, sendMessage }) {
 
 간단한 예시이지만, React 폼을 개선하기 위해 다양한 시나리오에 useOptimistic를 사용할 수 있습니다. 🚀
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 In Plain English 커뮤니티에 참여해 주셔서 감사합니다! 떠나시기 전에:
 

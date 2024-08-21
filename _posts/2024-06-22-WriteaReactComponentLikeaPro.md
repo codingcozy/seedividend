@@ -3,16 +3,13 @@ title: "프로처럼 React 컴포넌트 작성하는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-22-WriteaReactComponentLikeaPro_0.png"
 date: 2024-06-22 04:55
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-WriteaReactComponentLikeaPro_0.png
 tag: Tech
 originalTitle: "Write a React Component Like a Pro"
 link: "https://medium.com/javascript-in-plain-english/write-a-react-component-like-a-pro-4852109ffee5"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-06-22-WriteaReactComponentLikeaPro_0.png" />
 
@@ -22,11 +19,22 @@ isUpdated: true
 
 우리가 기본 리스트 컴포넌트부터 시작해봅시다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // src/components/List.js
-import React from 'react';
+import React from "react";
 
 const List = ({ data }) => {
   return (
@@ -47,14 +55,24 @@ export default List;
 
 고차 컴포넌트(Higher-Order Components, HOC)는 컴포넌트 로직을 재사용하는 강력한 패턴입니다. 기본적으로 컴포넌트를 감싸서 구조를 변경하지 않고 기능을 확장합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, withLoading HOC를 사용하면 로딩 상태를 표시할 수 있습니다:
 
 ```js
 // src/hocs/withLoading.js
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 function withLoading(Component) {
   return function WithLoading({ isLoading, ...props }) {
@@ -72,11 +90,22 @@ export default withLoading;
 
 비슷하게, withErrorHandling은 에러 상태를 관리하는 다른 HOC입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // src/hocs/withErrorHandling.js
-import React from 'react';
+import React from "react";
 
 function withErrorHandling(Component) {
   return function WithErrorHandling({ error, ...props }) {
@@ -96,13 +125,24 @@ withLoading과 withErrorHandling을 결합하여, 로딩 및 에러 상태를 �
 
 ## 훅을 사용하여 데이터 가져오기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트 훅을 사용하면 클래스를 작성하지 않고도 상태 및 기타 리액트 기능을 사용할 수 있습니다. useFetch는 API에서 데이터를 가져오는 커스텀 훅입니다:
 
 ```js
 // src/hooks/useFetch.js
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from "react";
 
 const useFetch = (url) => {
   const [data, setData] = useState([]);
@@ -115,7 +155,7 @@ const useFetch = (url) => {
       try {
         const response = await fetch(url);
         if (!response.ok) {
-          throw new Error('Network response was not ok');
+          throw new Error("Network response was not ok");
         }
         const json = await response.json();
         setData(json);
@@ -144,23 +184,34 @@ export default useFetch;
 
 ## 앱 조립하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막으로, App 컴포넌트에서 모든 것을 하나로 통합합니다:
 
 ```js
 // src/App.js
-import React from 'react';
-import withLoading from './hocs/withLoading';
-import withErrorHandling from './hocs/withErrorHandling'; // 새로운 HOC 추가
-import useFetch from './hooks/useFetch';
-import List from './components/List';
+import React from "react";
+import withLoading from "./hocs/withLoading";
+import withErrorHandling from "./hocs/withErrorHandling"; // 새로운 HOC 추가
+import useFetch from "./hooks/useFetch";
+import List from "./components/List";
 
 const ListWithLoading = withLoading(List);
 const ListWithErrorHandling = withErrorHandling(ListWithLoading); // ListWithLoading 컴포넌트에 에러 처리 추가
 
 const App = () => {
-  const { data, isLoading, error } = useFetch('https://api.example.com/data');
+  const { data, isLoading, error } = useFetch("https://api.example.com/data");
 
   return (
     <div>
@@ -177,7 +228,18 @@ useFetch 훅을 사용하여 데이터를 로드하고 HOC를 통해 로딩 및 
 
 ## 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로처럼 컴포넌트를 작성하려면 더 큰 그림을 고려하는 것이 중요합니다. 읽기 쉽고 유지보수 및 재사용이 용이한 컴포넌트를 만드는 것이죠. HOCs와 훅과 같은 패턴을 사용하여 시간이 지나도 유지보수가 용이하고 효율적인 코드베이스를 만들 수 있습니다.
 
@@ -187,7 +249,18 @@ useFetch 훅을 사용하여 데이터를 로드하고 HOC를 통해 로딩 및 
 
 In Plain English 커뮤니티의 일원이 되어 주셔서 감사합니다! 나가시기 전에:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 작가를 박수로 응원하고 팔로우 해 주세요! 👏️️
 - 팔로우하기: X | LinkedIn | YouTube | Discord | 뉴스레터

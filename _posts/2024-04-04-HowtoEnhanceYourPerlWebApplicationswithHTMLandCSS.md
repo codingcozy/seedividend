@@ -3,17 +3,13 @@ title: "Perl 웹 애플리케이션을 HTML과 CSS로 더욱 향상시키는 방
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How to Enhance Your Perl Web Applications with HTML and CSS"
 link: "https://rabmcmenemy.medium.com/how-to-enhance-your-perl-web-applications-with-html-and-css-3c5a58091346"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/HowtoEnhanceYourPerlWebApplicationswithHTMLandCSS_0.png" />
 
@@ -23,7 +19,18 @@ Perl은 오랫동안 웹 개발을 위한 선호되는 스크립팅 언어로, �
 
 # Perl로 무대를 준비하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 퍼플의 CGI (공통 게이트웨이 인터페이스) 모듈은 웹 콘텐츠를 동적으로 생성하는 인기 있는 방법입니다. CGI 스크립트는 웹 양식에서 사용자 입력을 처리하고 데이터베이스와 상호 작용하여 서버 측 데이터에 기반한 HTML 콘텐츠를 동적으로 생성할 수 있습니다. 이것은 시작할 수 있는 간단한 Perl CGI 스크립트입니다:
 
@@ -41,7 +48,18 @@ print $query->end_html;
 
 # HTML 통합
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 펄은 HTML 콘텐츠를 생성할 수 있지만, 펄 스크립트 내에서 대량의 HTML 코드를 유지하는 것은 번거로울 수 있습니다. 더 나은 방법은 HTML 템플릿을 사용하는 것입니다. 템플릿 툴킷은 비즈니스 로직과 프레젠테이션을 분리하여 응용 프로그램을 관리하고 확장하기 쉽게 만드는 강력한 펄 템플릿 시스템입니다.
 
@@ -53,7 +71,18 @@ cpan Template
 
 그런 다음, HTML 템플릿을 생성하세요 (여기서는 page.html이라고 해봅시다):
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <!DOCTYPE html>
@@ -85,7 +114,18 @@ $template->process('page.html', $vars) || die $template->error();
 
 # CSS로 스타일 추가하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS는 HTML 콘텐츠의 시각적 표현을 향상시킵니다. CSS는 HTML 템플릿에 직접 포함하거나 외부 CSS 파일에 링크할 수 있습니다. 페이지.html 템플릿에 내부 CSS를 추가하는 방법은 다음과 같습니다:
 
@@ -118,7 +158,18 @@ CSS는 HTML 콘텐츠의 시각적 표현을 향상시킵니다. CSS는 HTML 템
 </head>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 style.css 파일에는 다음과 같은 내용이 있습니다:
 

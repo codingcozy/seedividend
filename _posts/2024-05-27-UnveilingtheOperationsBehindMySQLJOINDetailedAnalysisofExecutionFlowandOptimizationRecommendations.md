@@ -3,16 +3,13 @@ title: "MySQL JOIN 뒤의 작업 공개 실행 흐름의 상세 분석과 최적
 description: ""
 coverImage: "/assets/img/2024-05-27-UnveilingtheOperationsBehindMySQLJOINDetailedAnalysisofExecutionFlowandOptimizationRecommendations_0.png"
 date: 2024-05-27 19:27
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-UnveilingtheOperationsBehindMySQLJOINDetailedAnalysisofExecutionFlowandOptimizationRecommendations_0.png
 tag: Tech
 originalTitle: "Unveiling the Operations Behind MySQL JOIN: Detailed Analysis of Execution Flow and Optimization Recommendations"
 link: "https://medium.com/itnext/unveiling-the-operations-behind-mysql-join-detailed-analysis-of-execution-flow-and-optimization-61ea0cc24225"
 isUpdated: true
 ---
-
-
-
 
 MySQL JOIN 실행 프로세스의 복잡성을 탐색하고 데이터베이스 성능을 향상시키기 위해 깊이있는 분석과 실용적인 최적화 기술을 제공해 드립니다. 쿼리 작업을 원활하게 하는 비밀에 대해 해체하고 있습니다.
 
@@ -23,7 +20,18 @@ MySQL의 JOIN 작업에 대해 실행 프로세스를 고찰해 보거나 자신
 - MySQL이 주도 테이블을 선택하는 방법은 고찰할 가치가 있는 문제입니다. 그것은 라인업에서 첫 번째 테이블부터 시작하여 왼쪽에서 오른쪽 순차적인 순서로 선택됩니까?
 - 다중 테이블 조인을 수행할 때, 어떤 기준이 테이블을 조인하는 순서를 선택하는 데 도움이 되나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시작하기 전에 주행 테이블의 개념을 이해하는 것이 중요합니다.
 
@@ -33,7 +41,18 @@ MySQL의 JOIN 작업에 대해 실행 프로세스를 고찰해 보거나 자신
 
 이 원칙은 이해하기 어려울 수 있습니다. 가장 작은 결과 집합을 추정하는 것은 가능하지만, 이것이 최종 결과 집합에 영향을 주지 않는 것을 판단하는 것은 더 복잡합니다. 그러나 이 과정은 파악할 수 있는 패턴이 존재합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LEFT JOIN은 일반적으로 왼쪽 테이블을 주도 테이블로 삼습니다 (RIGHT JOIN은 일반적으로 오른쪽 테이블을 포함합니다).
 
@@ -43,7 +62,18 @@ INNER JOIN에서는 결과 세트가 더 작은 테이블이 일반적으로 주
 
 그러나 EXPLAIN이 항상 정확하지는 않을 수 있음을 유의해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 실행 계획은 실제 실행 중에 변경될 수 있습니다.
 
@@ -53,7 +83,18 @@ InnoDB 엔진을 사용하여 MySQL 버전 5.7을 실행 중입니다.
 
 데이터에 대한 초기 SQL은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 DROP TABLE IF EXISTS tb_user;
@@ -101,7 +142,7 @@ INSERT INTO tb_login_log(user_name, ip, created_at) VALUES
 
 SELECT * FROM tb_user;
 SELECT * FROM tb_login_log;
-``` 
+```
 
 단일 테이블 쿼리 실행 과정이 비교적 간단하며 다음과 같이 요약할 수 있습니다:
 
@@ -109,7 +150,18 @@ SELECT * FROM tb_login_log;
 
 조인 알고리즘.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 MySQL의 조인 알고리즘은 중첩 루프 알고리즘에서 파생되었으며, 다양한 조건에 따라 선택된 일련의 알고리즘을 포함하고 있습니다.
 
@@ -119,7 +171,18 @@ MySQL의 조인 알고리즘은 중첩 루프 알고리즘에서 파생되었으
 
 # 1. 단순 중첩 루프.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단한 중첩 루프 조인, 줄여서 SNL이라고도하는 것은 한 번에 한 레코드씩 일치시키는 것을 포함하며, 순차적으로 한 번에 하나씩 진행됩니다.
 
@@ -137,7 +200,18 @@ for each row in t1 matching range {
 
 이 알고리즘은 직관적이지만 성능이 떨어지며, 시간 복잡성 측면에서 테이블의 레코드 수를 N, 조인된 테이블의 수를 M이라고 할 때 N의 M 제곱에 비례합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이를 최적화하기 위해 MySQL은 조인 쿼리에 대해 이러한 알고리즘을 사용하지 않습니다. WHERE 조건이 없고 ON 조인 키에 인덱스가 없는 경우에도 이 알고리즘을 사용하지 않습니다.
 
@@ -147,7 +221,18 @@ for each row in t1 matching range {
 
 주행 테이블의 여러 행을 한꺼번에 조인 버퍼에 캐싱하는 것을 포함합니다. 그런 다음, 조인 버퍼의 데이터가 일치하도록 매치할 수 있게 배치되며, 이는 내부 루프에서 검색한 데이터와 유사한 방식으로 작동합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 for each row in t1 matching range {
@@ -175,11 +260,22 @@ if buffer is not empty {
 
 내부 루프에서 검색된 각 행을 버퍼의 모든 레코드와 비교함으로써 내부 루프에서의 테이블 읽기 횟수를 줄일 수 있습니다.
 
-예를 들어, Join 버퍼가 없을 경우 주도 테이블이 30개 레코드를 가지고 있고 대입 테이블에 50개 레코드가 있을 때 내부 루프는 30 * 50 = 1500 개의 테이블 읽기를 요구합니다.
+예를 들어, Join 버퍼가 없을 경우 주도 테이블이 30개 레코드를 가지고 있고 대입 테이블에 50개 레코드가 있을 때 내부 루프는 30 \* 50 = 1500 개의 테이블 읽기를 요구합니다.
 
-그러나 Join 버퍼가 있고 10개 레코드를 저장할 수 있는 경우 (Join 버퍼에는 주도 테이블로부터 쿼리에서 사용된 열이 저장되며, SELEC 열, ON 열, WHERE 열이 포함됩니다), 내부 루프는 30 / 10 * 50 = 150 개의 테이블 읽기만 필요합니다.
+그러나 Join 버퍼가 있고 10개 레코드를 저장할 수 있는 경우 (Join 버퍼에는 주도 테이블로부터 쿼리에서 사용된 열이 저장되며, SELEC 열, ON 열, WHERE 열이 포함됩니다), 내부 루프는 30 / 10 \* 50 = 150 개의 테이블 읽기만 필요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주어진 테이블이 수행해야 하는 읽기 작업의 수를 한 차원 줄입니다.
 
@@ -189,7 +285,18 @@ if buffer is not empty {
 
 ![이미지 2](/assets/img/2024-05-27-UnveilingtheOperationsBehindMySQLJOINDetailedAnalysisofExecutionFlowandOptimizationRecommendations_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 3. 인덱스 중첩 루프.
 
@@ -199,7 +306,18 @@ if buffer is not empty {
 
 이렇게 하면 주도 테이블의 모든 레코드와 비교할 필요가 없어져 주도 테이블과의 매칭 작업 수를 줄일 수 있습니다. 일반적인 프로세스는 아래 다이어그램에 설명되어 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image 5](/assets/img/2024-05-27-UnveilingtheOperationsBehindMySQLJOINDetailedAnalysisofExecutionFlowandOptimizationRecommendations_5.png)
 
@@ -209,7 +327,18 @@ if buffer is not empty {
 
 tb_login_log 테이블에 대한 인덱스가 현재 작용하는 것을 관찰할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 WHERE 조건을 포함한 쿼리를 테스트하기로 하겠습니다.
 
@@ -219,7 +348,18 @@ tb_login_log 테이블에 대한 인덱스가 현재 작용하는 것을 관찰�
 
 tb_login_log의 인덱스를 거쳐 결과 집합을 얻은 후, BNL 알고리즘이 이 결과 집합과 tb_user 테이블을 일치시키는 데 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 MySQL의 이 최적화는 tb_login_log에서의 인덱스 필터링을 통해 얻은 결과 집합이 tb_user의 레코드 수보다 작기 때문에 발생합니다. 결과적으로 MySQL은 주도 테이블로 tb_login_log를 선택했습니다.
 
@@ -229,17 +369,39 @@ MySQL의 이 최적화는 tb_login_log에서의 인덱스 필터링을 통해 �
 
 배치 키 액세스(BKA)가 인덱스 중첩 루프(INL) 알고리즘에 제공하는 최적화는 배치 키 액세스가 단순 중첩 루프(SNL) 알고리즘에 제공하는 향상과 유사합니다. 그러나 둘 사이에는 구별점이 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, 다음 쿼리를 사용하여 tb_user 테이블에 인덱스를 추가하세요: ALTER TABLE tb_user ADD INDEX i_aaa(user_name);.
 
-그 다음, 다음 쿼리를 사용하여 실행 계획을 확인하세요: EXPLAIN SELECT * FROM tb_login_log tl LEFT JOIN tb_user tu ON tl.user_name = tu.user_name.
+그 다음, 다음 쿼리를 사용하여 실행 계획을 확인하세요: EXPLAIN SELECT \* FROM tb_login_log tl LEFT JOIN tb_user tu ON tl.user_name = tu.user_name.
 
 결과는 다음 다이어그램과 비슷해야 합니다:
 
 <img src="/assets/img/2024-05-27-UnveilingtheOperationsBehindMySQLJOINDetailedAnalysisofExecutionFlowandOptimizationRecommendations_8.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금 시점에서 조인 알고리즘은 INL입니다. 그 이유는 tb_login_log 테이블의 user_name 열에 색인이 없기 때문입니다.
 
@@ -249,7 +411,18 @@ tb_user와 연관시킬 때 일치 과정은 아래 다이어그램과 유사한
 
 ![다이어그램](/assets/img/2024-05-27-UnveilingtheOperationsBehindMySQLJOINDetailedAnalysisofExecutionFlowandOptimizationRecommendations_9.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 BKA 기능은 기본적으로 비활성화되어 있습니다 (batched_key_access=off). 이를 활성화하려면 다음 명령을 실행하세요:
 
@@ -261,7 +434,18 @@ SET optimizer_switch='mrr=on,mrr_cost_based=off,batched_key_access=on';
 
 tb_login_log에서 검색된 user_name의 값은 먼저 조인 버퍼에 배치됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 조인 버퍼가 가득 차거나 데이터 검색이 완료되면 조인 버퍼의 값이 정렬됩니다.
 
@@ -271,7 +455,18 @@ tb_login_log에서 검색된 user_name의 값은 먼저 조인 버퍼에 배치�
 
 요약.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Index Nested-Loop join (INL)는 주테이블의 각 행을 드라이븐 테이블의 인덱스와 비교하여 레코드를 매칭하는 알고리즘입니다.
 - Batched Key Access join (BKA)는 INL의 최적화로, 주테이블의 값들이 먼저 조인 버퍼에 배치되고 정렬된 후 드라이븐 테이블의 인덱스와 순차적으로 매칭에 사용됩니다.

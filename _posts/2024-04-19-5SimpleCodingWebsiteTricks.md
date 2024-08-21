@@ -3,17 +3,13 @@ title: "웹사이트 만들 때 유용한 html 팁 5가지 "
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "5 Simple Coding Website Tricks"
 link: "https://medium.com/@elysiarolivia/5-simple-coding-website-tricks-0a67fbad780f"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/5SimpleCodingWebsiteTricks_0.png" />
 
@@ -42,7 +38,18 @@ isUpdated: true
   }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 2. 간단한 라이트/다크 모드 버튼
 
@@ -77,7 +84,18 @@ function copy(text) {
 copy("여기에 텍스트");
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 4. HTML 목록
 
@@ -124,6 +142,17 @@ function scrollToTop() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 P.S.: 저는 예전 노트에서 이 코드를 찾았어요. 정확히 설명드리진 못하지만 궁금한 점이 있으시면 댓글란에 남겨주세요.

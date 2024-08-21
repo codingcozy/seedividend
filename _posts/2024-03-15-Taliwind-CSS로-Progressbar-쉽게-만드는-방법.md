@@ -3,23 +3,30 @@ title: "Taliwind CSS로 Progressbar 10가지 만들기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
 
-
-
-
-
 # Tailwind CSS로 Progress bar 10가지 만들기
 
 <img src="/assets/img/Designing-Stunning-Progress-Bars-Made-Easy-with-Tailwind-CSS_0.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 배경
 
@@ -49,7 +56,18 @@ isUpdated: true
 * 결론
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Progress bar의 중요성
 
@@ -75,7 +93,18 @@ Tailwind CSS는 개발자가 아름답고 반응형 사용자 인터페이스를
 </div>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/Designing-Stunning-Progress-Bars-Made-Easy-with-Tailwind-CSS_1.png" />
 
@@ -105,14 +134,23 @@ Tailwind CSS는 개발자가 아름답고 반응형 사용자 인터페이스를
 
 Progress bar에 라벨을 추가하면 추가적인 컨텍스트를 제공할 수 있습니다. Progress bar 내에 텍스트 요소를 포함하여 이를 구현할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <div class="relative mb-5 h-2 rounded-full bg-gray-200">
   <div class="h-2 rounded-full bg-red-500" style="width: 25%"></div>
-  <span class="absolute inset-0 flex items-center justify-center text-sm font-medium text-gray-900">
-    25%
-  </span>
+  <span class="absolute inset-0 flex items-center justify-center text-sm font-medium text-gray-900">25%</span>
 </div>
 ```
 
@@ -134,7 +172,18 @@ Progress bar에 줄무늬 애니메이션 효과를 추가하려면 몇 가지 �
 </div>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/1*gJDpxVJqBFgyLeeAg2wojQ.gif" />
 
@@ -184,17 +233,25 @@ Progress bar에 줄무늬 애니메이션 효과를 추가하려면 몇 가지 �
   </div>
   <div class="mb-5 ml-5 flex flex-col items-center">
     <div class="h-24 w-10 overflow-hidden rounded-full bg-gray-200">
-      <div
-        class="h-full bg-gradient-to-t from-gray-200 via-blue-400 to-blue-600"
-        style="height: 60%"
-      ></div>
+      <div class="h-full bg-gradient-to-t from-gray-200 via-blue-400 to-blue-600" style="height: 60%"></div>
     </div>
     <span class="mt-2 text-xs text-gray-600">60%</span>
   </div>
 </div>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/Designing-Stunning-Progress-Bars-Made-Easy-with-Tailwind-CSS_6.png" />
 
@@ -225,7 +282,18 @@ Progress bar의 높이는 h-24 클래스를 사용하여 설정되며 h-full 클
 
 우리는 또한 50%나 다른 위치에 원을 추가할 수 있습니다. 이것은 몇 가지 종단점이나 목표점을 나타내어 작업의 진행을 쉽게 파악할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <div class="relative my-20 mx-5">
@@ -243,7 +311,18 @@ Progress bar의 높이는 h-24 클래스를 사용하여 설정되며 h-full 클
 </div>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/Designing-Stunning-Progress-Bars-Made-Easy-with-Tailwind-CSS_8.png" />
 
@@ -258,18 +337,9 @@ Progress bar의 높이는 h-24 클래스를 사용하여 설정되며 h-full 클
 ```js
 <div class="relative my-20 mx-5 pt-1">
   <div class="mb-4 flex h-2 overflow-hidden rounded bg-gray-100 text-xs">
-    <div
-      style="width: 10%"
-      class="bg-green-500 transition-all duration-500 ease-out"
-    ></div>
-    <div
-      style="width: 25%"
-      class="bg-yellow-500 transition-all duration-500 ease-out"
-    ></div>
-    <div
-      style="width: 20%"
-      class="bg-red-500 transition-all duration-500 ease-out"
-    ></div>
+    <div style="width: 10%" class="bg-green-500 transition-all duration-500 ease-out"></div>
+    <div style="width: 25%" class="bg-yellow-500 transition-all duration-500 ease-out"></div>
+    <div style="width: 20%" class="bg-red-500 transition-all duration-500 ease-out"></div>
   </div>
   <div class="mb-2 flex items-center justify-between text-xs">
     <div class="text-gray-600">진행</div>
@@ -278,7 +348,18 @@ Progress bar의 높이는 h-24 클래스를 사용하여 설정되며 h-full 클
 </div>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/Designing-Stunning-Progress-Bars-Made-Easy-with-Tailwind-CSS_9.png" />
 
@@ -294,10 +375,7 @@ Progress bar의 높이는 h-24 클래스를 사용하여 설정되며 h-full 클
 
 ```js
 <div class="mb-5 h-4 overflow-hidden rounded-full bg-gray-200">
-  <div
-    class="h-4 animate-pulse rounded-full bg-gradient-to-r from-green-500 to-blue-500"
-    style="width: 75%"
-  ></div>
+  <div class="h-4 animate-pulse rounded-full bg-gradient-to-r from-green-500 to-blue-500" style="width: 75%"></div>
 </div>
 ```
 
@@ -310,14 +388,23 @@ bg-gradient-to-r 클래스는 왼쪽에서 오른쪽으로 그라디언트를 �
 ```js
 <div class="relative mb-5 h-5 rounded-full bg-gray-200">
   <div class="h-full animate-pulse rounded-full bg-blue-500" style="width: 75%">
-    <span class="absolute inset-0 flex items-center justify-center text-xs font-semibold text-white">
-      75%
-    </span>
+    <span class="absolute inset-0 flex items-center justify-center text-xs font-semibold text-white">75%</span>
   </div>
 </div>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 <img src="https://miro.medium.com/v2/resize:fit:1400/1*CUta09DGbaFR-yXKTRonZA.gif" />
 
 플레이그라운드에서 실시간 데모를 확인하세요.
@@ -329,10 +416,7 @@ bg-gradient-to-r 클래스는 왼쪽에서 오른쪽으로 그라디언트를 �
 ```js
 <div class="relative">
   <div class="mb-4 flex h-5 overflow-hidden rounded bg-gray-100 text-xs">
-    <div
-      class="flex flex-col justify-center bg-red-500 text-white"
-      style="width: 25%;"
-    >
+    <div class="flex flex-col justify-center bg-red-500 text-white" style="width: 25%;">
       <span class="text-center">25%</span>
     </div>
     <div
@@ -343,10 +427,7 @@ bg-gradient-to-r 클래스는 왼쪽에서 오른쪽으로 그라디언트를 �
     >
       <span class="text-center">10%</span>
     </div>
-    <div
-      class="flex flex-col justify-center bg-red-300 text-white"
-      style="width: 15%;"
-    >
+    <div class="flex flex-col justify-center bg-red-300 text-white" style="width: 15%;">
       <span class="text-center">15%</span>
     </div>
   </div>
@@ -359,13 +440,35 @@ bg-gradient-to-r 클래스는 왼쪽에서 오른쪽으로 그라디언트를 �
 
 <img src="/assets/img/Designing-Stunning-Progress-Bars-Made-Easy-with-Tailwind-CSS_10.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 코드 스니펫에서는 세 가지 다른 색상으로 세 가지 다른 백분율을 나타내는 세 개의 다른 섹션을 설계했습니다.
 
 각 섹션은 별도의 div로 정의되어 있으며, 백분율 값으로 너비가 설정됩니다. 서로 다른 섹션은 서로 다른 색상을 가질 수 있으며, 필요에 따라 섹션의 수와 너비를 조정할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 결론
 

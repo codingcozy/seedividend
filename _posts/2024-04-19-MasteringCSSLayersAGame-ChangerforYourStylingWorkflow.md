@@ -3,17 +3,13 @@ title: "CSS 레이어 마스터하기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Mastering CSS Layers A Game-Changer for Your Styling Workflow"
 link: "https://medium.com/gitconnected/mastering-css-layers-a-game-changer-for-your-styling-workflow-6e1611feaa28"
 isUpdated: true
 ---
-
-
-
-
 
 ![Mastering CSS Layers: A Game-Changer for Your Styling Workflow](/assets/img/MasteringCSSLayersAGame-ChangerforYourStylingWorkflow_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 CSS 레이어는 CSS Cascading Layers 사양의 일부이며 @layer 규칙을 도입합니다. 이 기능을 사용하면 특정한 특정성 레이어를 정의하여 가시성 수준을 높여줍니다. 간단히 말해 스타일을 다른 스타일보다 우선시하는지 여부를 명확하고 체계적으로 결정할 수 있는 방법입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 왜 중요한가요?
 
@@ -33,7 +40,18 @@ CSS 레이어는 CSS Cascading Layers 사양의 일부이며 @layer 규칙을 �
 
 ## 1. 레이어 생성하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 레이어를 생성하는 것은 아주 간단해요. @layer at-rule을 사용하고 원하는 레이어 이름을 지정하면 됩니다. 이 레이어 안에서는 보통처럼 스타일을 정의할 수 있어요.
 
@@ -54,7 +72,18 @@ CSS 레이어는 CSS Cascading Layers 사양의 일부이며 @layer 규칙을 �
 
 ## 2. 레이어 순서의 힘
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS 레이어에서는 순서가 매우 중요합니다. CSS에서 늦게 정의된 레이어가 먼저 정의된 레이어보다 우선됩니다. 그러나 레이어의 순서를 명시적으로 설정하여 모든 것을 정리할 수도 있어요.
 
@@ -66,7 +95,18 @@ CSS 레이어에서는 순서가 매우 중요합니다. CSS에서 늦게 정의
 
 이 코드 라인은 당신의 스타일에게 "먼저 모든 것을 초기화하고, 기본 스타일을 적용한 다음, 컴포넌트를 따르고, 마지막으로 유틸리티를 뿌린다" 라고 말하는 것과 같아요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주문의 순서가 우선순위에 어떤 영향을 미치는지에 대한 예시는 다음 이미지에서 설명되어 있습니다:
 
@@ -76,7 +116,18 @@ CSS 레이어에서는 순서가 매우 중요합니다. CSS에서 늦게 정의
 
 더 깔끔하게 유지하고 싶은 사람들을 위해 CSS 레이어는 중첩될 수 있습니다. 이는 레이어 내에 다른 레이어가 있을 수 있다는 것을 의미하며 더 구조화된 스타일링을 할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
  @layer reset {
@@ -104,7 +155,18 @@ CSS 레이어에서는 순서가 매우 중요합니다. CSS에서 늦게 정의
 
 여러 CSS 파일을 작업할 때, 한 파일에서 레이어를 정의하고 다른 파일에 가져올 수 있습니다. 이것은 CSS를 관리 가능한 청크로 분할하는 데 아주 유용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 @import url("reset.css") layer(reset);
@@ -118,7 +180,18 @@ CSS 레이어에서는 순서가 매우 중요합니다. CSS에서 늦게 정의
 
 Chrome 개발자 도구에는 레이어 계층 구조 및 우선 순위를 쉽게 검사할 수 있는 Toggle CSS Layers View 옵션이 있습니다. 이를 통해 여러 레이어와 특이성을 처리할 때 더 빠르게 디버깅할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![MasteringCSSLayersAGame-ChangerforYourStylingWorkflow_3.png](/assets/img/MasteringCSSLayersAGame-ChangerforYourStylingWorkflow_3.png)
 
@@ -128,7 +201,18 @@ Chrome 개발자 도구에는 레이어 계층 구조 및 우선 순위를 쉽�
 
 ![MasteringCSSLayersAGame-ChangerforYourStylingWorkflow_4.png](/assets/img/MasteringCSSLayersAGame-ChangerforYourStylingWorkflow_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 데이터는 caniuse 데이터베이스에서 얻었습니다.
 

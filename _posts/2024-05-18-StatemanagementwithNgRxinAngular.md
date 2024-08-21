@@ -3,17 +3,13 @@ title: "앵귤러에서 NgRx를 활용한 상태 관리하는 방법"
 description: ""
 coverImage: "/assets/img/2024-05-18-StatemanagementwithNgRxinAngular_0.png"
 date: 2024-05-18 21:49
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-18-StatemanagementwithNgRxinAngular_0.png
 tag: Tech
 originalTitle: "State management with NgRx in Angular"
 link: "https://medium.com/@igorm573/state-management-with-ngrx-in-angular-66ddc61cdf14"
 isUpdated: true
 ---
-
-
-
-
 
 ![스크린샷](/assets/img/2024-05-18-StatemanagementwithNgRxinAngular_0.png)
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 소개에서 언급한 대로, NgRx는 Redux에 영감을 받은 상태 관리를 위한 라이브러리입니다. Angular용 Redux 원칙을 구현하여 애플리케이션 상태를 예측 가능하고 구조적인 방식으로 관리합니다. NgRx는 액션, 리듀서, 이펙트, 셀렉터와 같은 개념을 사용하여 상태를 조작하는데 있어 가시적인 방식을 제공합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-05-18-StatemanagementwithNgRxinAngular_1.png" />
 
@@ -34,7 +40,18 @@ isUpdated: true
 
 ## 리듀서
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리듀서의 책임은 스토어의 상태를 변경할 필요가 있는 모든 작업을 처리하는 것입니다. 현재 상태와 액션을 입력으로 받아 변경 후의 새로운 상태를 반환합니다.
 
@@ -44,7 +61,18 @@ isUpdated: true
 
 ## 셀렉터
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "selectors"는 저장된 상태의 특정 정보에 액세스하고 가져 오는 데 사용되는 기능입니다. 따라서 구성 요소가 상점의 완전한 상태를 직접 가져 오는 대신 필요한 데이터만 요청 할 수 있습니다. 이렇게하면 코드가 더 모듈식이고 재사용 가능하며 유지 보수가 쉬워집니다. 또한, 요청 한 구성 요소에 제공되기 전에 상태에서 calc 및 변환을 수행 할 수도 있습니다.
 
@@ -54,7 +82,18 @@ isUpdated: true
 
 # 실제로 사용하는 NgRx
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 저장소에 있는 애플리케이션은 GitHub의 igormarti/angular-ngrx-shopping(https://github.com/) 링크에서 확인할 수 있어요. 클론하려면 확인해보세요. 하지만 이 개념을 처음부터 적용할 수도 있어요. 내 애플리케이션에서는 제품을 즐겨찾기에 추가하는 상태 관리자를 사용할 거에요. 우리 애플리케이션에는 스토어에서 즐겨찾기한 제품들을 요청할 몇 가지 구성 요소가 있을 거예요. 이후 단계에서 자세한 내용을 볼 수 있을 거에요. 코드 구현에 대해 한 가지 팁: 이 프로젝트의 코드 구현은 Angular 버전 16과 NgRx 버전 7.8.0을 사용해 만들어졌어요.
 
@@ -66,7 +105,18 @@ isUpdated: true
 npm install @ngrx/store --save
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 프로젝트에서 NgRx 구조화하기
 
@@ -83,7 +133,18 @@ app ->
                     selector
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 "favorite-product" 폴더 안에 "app.state.ts" 파일을 생성할 것입니다. 이 파일은 초기 상태의 모델이 될 것입니다:
 
@@ -91,7 +152,7 @@ app ->
 import { FavoriteProduct } from "src/app/models/favorite-product.model";
 
 export interface AppState {
-    products: FavoriteProduct[];
+  products: FavoriteProduct[];
 }
 ```
 
@@ -99,15 +160,26 @@ export interface AppState {
 
 ```js
 export interface FavoriteProduct {
-    id: number;
-    name: string;
-    price: number;
-    image: string;
-    isFavorite?: boolean;
+  id: number;
+  name: string;
+  price: number;
+  image: string;
+  isFavorite?: boolean;
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 작업 생성하기
 
@@ -119,55 +191,71 @@ import { FavoriteProduct } from "src/app/models/favorite-product.model";
 
 export const add = createAction('[FavoriteProduct] Add',  props<{ product: FavoriteProduct }>());
 export const remove = createAction('[FavoriteProduct] Remove', props<{ product: FavoriteProduct }>());
-export const updateAllState = createAction('[FavoriteProduct] Update all state of favorites products', 
+export const updateAllState = createAction('[FavoriteProduct] Update all state of favorites products',
  props<{ products: FavoriteProduct[] }>());
 export const clear = createAction('[FavoriteProduct] Clear');
 ```
 
 위 코드에서는 "@ngrx/store" 모듈의 "createAction" 함수가 작업 설명을 첫 번째 매개변수로서, 처리할 데이터를 두 번째 매개변수로 가지는 것을 알 수 있습니다. 우리의 "favorite-product" 상태에는 다음과 같은 작업들이 있을 것입니다: add, remove, updateAllState, clear.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 리듀서 생성하기
 
 우리는 "src\app\states\favorite-product\reducer" 폴더에 "app.reducer.ts" 파일을 만들어야 합니다. 이 파일에서는 즐겨찾는 제품 목록의 초기 상태를 초기화하고 각 작업에 대한 비즈니스 로직을 구현한 다음 상태를 업데이트하기 전에 상태를 변경합니다. 자세한 내용은 다음 코드를 참조해주세요:
 
 ```js
-import { createReducer, on } from '@ngrx/store';
-import { add, remove, clear, updateAllState } from '../action/app.action';
-import { AppState } from '../app.state';
+import { createReducer, on } from "@ngrx/store";
+import { add, remove, clear, updateAllState } from "../action/app.action";
+import { AppState } from "../app.state";
 
 export const initialState: AppState = {
-  products:[],
+  products: [],
 };
 
 export const favoriteReducer = createReducer(
   initialState,
-  on(add, (state, {product}) => (
-    {
-      ...state,
-      products: [...state.products, product]
-    }
-  )
-  ),
-  on(remove, (state, {product}) => ({
+  on(add, (state, { product }) => ({
     ...state,
-    products: state.products.filter((p)=> product.id != p.id)
+    products: [...state.products, product],
   })),
-  on(updateAllState, (state, {products}) => (
-    {
-      ...state,
-      products
-    }
-  )
-  ),
-  on(clear, state => initialState)
+  on(remove, (state, { product }) => ({
+    ...state,
+    products: state.products.filter((p) => product.id != p.id),
+  })),
+  on(updateAllState, (state, { products }) => ({
+    ...state,
+    products,
+  })),
+  on(clear, (state) => initialState)
 );
 ```
 
 먼저 초기 상태가 빈 즐겨찾는 제품 배열로 초기화되는 것을 알아봅니다. 그다음, "@ngrx/store" 모듈에서 "createReducer" 함수가 초기 상태와 여러 "on" 함수를 받아 작업을 상태 변경과 연결하고 있음을 확인해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - "add" 액션은 현재 상태에 새 제품을 추가합니다.
 - 마찬가지로, "remove" 액션은 현재 상태에서 특정 제품을 제거합니다.
@@ -179,28 +267,36 @@ export const favoriteReducer = createReducer(
 이제 저장소에서 데이터를 검색하려면 셀렉터를 생성해야 합니다. 이를 위해 'src\app\states\favorite-product\selector' 폴더에 'app.selector.ts' 파일을 만들어야 합니다. 자세한 내용은 다음 코드를 참조해주십시오:
 
 ```js
-import { createFeatureSelector, createSelector } from '@ngrx/store';
-import { AppState } from '../app.state';
+import { createFeatureSelector, createSelector } from "@ngrx/store";
+import { AppState } from "../app.state";
 import { FavoriteProduct } from "src/app/models/favorite-product.model";
 
 // 애플리케이션 내에서 즐겨찾는 제품의 전체 상태를 가져옵니다.
-export const selectAppState = createFeatureSelector<AppState>('favorite');
+export const selectAppState = createFeatureSelector < AppState > "favorite";
 
 // 모든 즐겨찾는 제품 가져오기
-export const selectProducts = createSelector(
-  selectAppState,
-  (state: AppState) => state.products
-);
+export const selectProducts = createSelector(selectAppState, (state: AppState) => state.products);
 
 // ID로 하나의 즐겨찾는 제품 가져오기
 export const selectProductById = createSelector(
   selectProducts,
   (products: FavoriteProduct[], props: { productId: number }) =>
-    products.find(product => product.id === props.productId)
+    products.find((product) => product.id === props.productId)
 );
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 첫 번째 함수에서는 'favorite' 스토리지에서 전체 상태를 얻고 있습니다. 두 번째 함수에서는 이 완전한 상태를 사용하여 즐겨찾는 상품만 검색합니다. 마지막 함수는 즐겨찾는 상품의 상태를 활용하여 해당 ID의 특정 상품을 가져옵니다. 우리는 이러한 모든 함수를 애플리케이션에서 필요한 데이터를 검색하는 데 사용할 수 있습니다.
 
@@ -210,7 +306,18 @@ export const selectProductById = createSelector(
 
 상태 관리를 사용하기 전에 StoreModule을 모듈에 가져와 reducer를 포함해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { NgModule } from '@angular/core';
@@ -250,7 +357,18 @@ constructor(private readonly storageService:StorageService<FavoriteProduct[]>){}
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 'store'을 import한 후에는 이제 액션을 사용할 수 있습니다. 우리 애플리케이션에서는 특정 제품의 하트 아이콘을 클릭할 때마다 해당 제품을 즐겨찾기에 추가합니다. 아래 이미지에서 'Notebook' 제품이 즐겨찾기 목록에 추가되었음을 보실 수 있습니다. 또한, 오른쪽 상단에 있는 하트 아이콘에 주목해주세요. 이 아이콘은 즐겨찾기에 추가된 항목 수를 나타내는데, 이 경우에는 '1'이 표시됩니다.
 
@@ -259,11 +377,22 @@ constructor(private readonly storageService:StorageService<FavoriteProduct[]>){}
 따라서 즐겨찾기 아이콘을 클릭할 때마다 'dispatch' 함수가 트리거되며, 원하는 액션을 매개변수로 전달합니다. 이 경우에는 액션이 'add'가 됩니다. 아래 코드를 확인해주세요:
 
 ```js
-<mat-icon [style.color]="product.isFavorite?'red':'black'" class="mat-icon-lg icon" 
+<mat-icon [style.color]="product.isFavorite?'red':'black'" class="mat-icon-lg icon"
 (click)="addProductToFavorites(product)" >favorite</mat-icon>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { Store } from '@ngrx/store';
@@ -294,7 +423,18 @@ export class HomeProductComponent {
 
 셀렉터를 사용하기 위해서는 '@ngrx/store' 모듈에서 'Store'를 가져와야 합니다. 그러나 셀렉터를 사용하여 데이터를 검색하는 데 사용되는 함수는 'pipe'입니다. 다음 코드에서 자세한 내용을 확인하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { Component } from '@angular/core';
@@ -321,14 +461,25 @@ export class HeaderComponent {
 'pipe' 안에 있는 코드를 볼 때 'select' 함수를 사용하고 있습니다. 이 함수는 '@ngrx/store' 모듈에서 가져온 것으로, 셀렉터를 파라미터로 받습니다. 현재 셀렉터는 'selectProducts'이며 'FavoriteProduct' 배열의 'Observable'을 반환합니다. 이 목록은 속성에 저장되어 템플릿에서 사용되어 즐겨찾기 제품의 수량을 표시합니다. 아래 템플릿 코드에서 더 자세한 내용을 확인할 수 있습니다:
 
 ```js
-<mat-icon [style.color]="'red'" 
-matBadge="{(favoritesProducts | async)?.length}" 
+<mat-icon [style.color]="'red'"
+matBadge="{(favoritesProducts | async)?.length}"
 matBadgePosition="above after">favorite</mat-icon>
 ```
 
 템플릿에서 'async' 파이프를 사용해 TypeScript에서 옵저버블로 받은 데이터를 처리합니다. 그리고 'length' 속성을 이용하여 목록에 있는 항목 수를 얻습니다. 더 자세한 코드는 제 GitHub 리포지토리에서 확인할 수 있습니다. 아래 링크에 접속해주세요: igormarti/angular-ngrx-shopping (github.com)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

@@ -3,16 +3,13 @@ title: "Mac OS X에서 Ruby 버전 변경하는 방법"
 description: ""
 coverImage: "/allround-coder.github.io/assets/no-image.jpg"
 date: 2024-07-12 21:40
-ogImage: 
+ogImage:
   url: /allround-coder.github.io/assets/no-image.jpg
 tag: Tech
 originalTitle: "Change ruby version on Mac OS X"
 link: "https://medium.com/@olivierpicault/change-ruby-version-on-mac-os-98c800a85d6d"
 isUpdated: true
 ---
-
-
-
 
 모든 설명서를 읽고 StackOverflow 게시물 및 다른 잘못된 블로그 포스트를 읽은 후, 제 경험에 따라 작동하는 것을 찾았어요. 그래서 미래를 위해 나 포함 누군가가 필요할 때 참고할 수 있도록 메모해두려고 해요.
 
@@ -22,12 +19,21 @@ isUpdated: true
 - 원하는 버전 설치: rbenv install 3.0.1
 - 버전을 기본값으로 설정:
 
-
 rbenv local 3.0.1
 rbenv global 3.0.1
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 타겟 버전을 가진 ~/.ruby-version 파일을 만들어주세요.
 
@@ -42,7 +48,18 @@ echo "3.0.1" >> ~/.ruby-version
 eval "$(rbenv init - zsh)"
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저기요!
 

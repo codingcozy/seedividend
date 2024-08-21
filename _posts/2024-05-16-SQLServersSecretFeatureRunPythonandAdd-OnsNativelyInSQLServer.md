@@ -3,16 +3,13 @@ title: "SQL Server의 비밀 기능 - SQL Server에서 Python 및 애드온을 �
 description: ""
 coverImage: "/assets/img/2024-05-16-SQLServersSecretFeatureRunPythonandAdd-OnsNativelyInSQLServer_0.png"
 date: 2024-05-16 17:19
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-16-SQLServersSecretFeatureRunPythonandAdd-OnsNativelyInSQLServer_0.png
 tag: Tech
 originalTitle: "SQL Server’s Secret Feature — Run Python and Add-Ons Natively In SQL Server"
 link: "https://medium.com/towards-data-science/sql-servers-secret-feature-run-python-and-add-ons-natively-in-sql-server-7f3c4efe5c00"
 isUpdated: true
 ---
-
-
-
 
 ## 파이썬 라이브러리를 가져와서 SQL 테이블을 조작하고 출력하며, SQL 서버를 떠나지 않고 작업하세요.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 ## 목표
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 문서의 목표는 Microsoft SQL Server 내에서 Python을 네이티브로 실행하는 방법을 가르치는 것입니다. 또한 SQL을 사용하여 결과 테이블에 대해 추가 처리를 수행하고, 애드온 및 외부 라이브러리를 사용할 수 있습니다.
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 다음은 알고리즘을 구축할 때 따를 전략입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 블로킹 — 공통 속성을 기반으로 데이터 집합을 더 작은 블록이나 그룹으로 나누어 레코드 비교의 계산 복잡성을 줄이는 것입니다. 이는 검색 공간을 좁히고 유사도 검색 작업의 효율성을 향상시킵니다.
 - 전처리 — 생 데이터를 정리하고 표준화하여 대문자를 소문자로 변환하거나 구두점을 제거, 불용어를 제거하는 등의 작업을 통해 분석에 준비시킵니다. 이 단계는 데이터 품질을 향상시키고 잡음을 줄입니다.
@@ -44,7 +63,18 @@ isUpdated: true
 
 테이블을 블로킹하려면 2개의 데이터 집합 간에 어떤 공통된 특성이 있는지 확인해야 합니다. 내 경우, 회사들은 모두 내부 프로젝트와 관련이 있습니다. 그러므로 다음과 같이 작업할 것입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 작은 테이블에서 고유한 회사 이름과 프로젝트 코드를 추출합니다.
 - 프로젝트 코드를 순회하면서 큰 테이블에서 해당 코드를 찾습니다.
@@ -57,7 +87,18 @@ isUpdated: true
 
 이 방식으로 접근하면, 작은 테이블에는 프로젝트 'ABC'에 대해 매핑할 406개의 행만 있고, 큰 테이블에는 매핑 대상인 15,973개의 행이 있습니다. 이는 최초 테이블에서 상당한 감소입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 프로그램 구조
 
@@ -67,7 +108,18 @@ isUpdated: true
 
 프로그램 실행:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 프로젝트 코드를 루프로 출력하는 것은이 기능의 가장 간단한 버전입니다.
 
@@ -77,7 +129,18 @@ SQL 커서는 너무 많은 리소스를 사용한다는 것이 빨리 드러납
 
 이제 이 함수는 대형 매핑 테이블에서 해당 프로젝트로 필터링된 프로젝트 코드와 데이터를 선택하는 데 약 3초가 소요됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데모 목적으로는 2개의 프로젝트에만 집중할 것이나, 프로덕션 환경에서 작업할 때는 모든 프로젝트에서 함수를 실행할 것입니다.
 
@@ -87,7 +150,18 @@ SQL 커서는 너무 많은 리소스를 사용한다는 것이 빨리 드러납
 
 다음 단계는 Python 전처리 및 매핑 함수용 데이터를 준비하는 것입니다. 이를 위해 2개의 데이터셋이 필요합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 대형 매핑 테이블에서 프로젝트 코드로 필터링된 데이터
 - 소기업 테이블에서 프로젝트 코드로 필터링된 데이터
@@ -98,7 +172,18 @@ SQL 커서는 너무 많은 리소스를 사용한다는 것이 빨리 드러납
 
 이제 파이썬에 대비되었습니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # SQL에서의 Python 실행
 
@@ -108,7 +193,18 @@ SQL과 Python 간의 데이터 교환을 통해 Python의 기능을 SQL 워크�
 
 결과는 단일 출력으로 반환됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대박이네요!
 
@@ -120,7 +216,18 @@ SQL에서 Python을 실행하는 중요한 몇 가지 사항이 있습니다:
 
 ![image](/assets/img/2024-05-16-SQLServersSecretFeatureRunPythonandAdd-OnsNativelyInSQLServer_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## SQL에서 파이썬 라이브러리
 
@@ -130,7 +237,18 @@ SQL Server에서는 여러 라이브러리가 미리 설치되어 있고 쉽게 
 
 ![이미지](/assets/img/2024-05-16-SQLServersSecretFeatureRunPythonandAdd-OnsNativelyInSQLServer_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 파이썬으로 텍스트 매칭하기
 
@@ -140,7 +258,18 @@ SQL Server에서는 여러 라이브러리가 미리 설치되어 있고 쉽게 
 
 이를 위해 먼저 SQL 절차에 파이썬 함수를 추가해 보겠습니다. 첫 번째 단계는 데이터 집합을 단순히 Python에 넣는 것입니다. 이를 샘플 데이터셋으로 하고, 그런 다음 실제 데이터로 하겠습니다. 여기에 코드가 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 시스템을 통해 두 테이블을 모두 파이썬 함수의 입력으로 전달할 수 있습니다. 그러면 두 테이블을 출력으로 출력합니다.
 
@@ -152,7 +281,18 @@ SQL Server에서는 여러 라이브러리가 미리 설치되어 있고 쉽게 
 - 공백 제거
 - 구두점 제거
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SQL 작업 중 정렬을 사용하여 첫 번째 단계를 진행하고, 나머지 두 단계는 Python 함수의 전처리 단계에서 처리될 것입니다.
 
@@ -162,7 +302,18 @@ SQL 작업 중 정렬을 사용하여 첫 번째 단계를 진행하고, 나머�
 
 ## Python에서 문자열 매칭하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서는 사용할 수 있는 라이브러리의 수가 제한되어 있기 때문에 창의적이어야 합니다. 따라서 먼저 결과물이 어떻게 보여야 하는지 결정해봅시다.
 
@@ -172,7 +323,18 @@ SQL 작업 중 정렬을 사용하여 첫 번째 단계를 진행하고, 나머�
 
 작업을 단순화하기 위해 라이브러리를 가져오지 않고 내장된 python 라이브러리를 먼저 사용할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로직:
 
@@ -186,8 +348,18 @@ SQL 작업 중 정렬을 사용하여 첫 번째 단계를 진행하고, 나머�
 
 그리고 여기가 최종 결과입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![table](/assets/img/2024-05-16-SQLServersSecretFeatureRunPythonandAdd-OnsNativelyInSQLServer_6.png)
 
@@ -197,8 +369,18 @@ SQL Server 내에서 Machine Learning Services를 통해 Python 스크립트를 
 
 그러나 주의해야 할 제한 사항이 있습니다. 이 환경은 하나의 입력을 지원하므로 SQL 컨텍스트 내에서 직접 수행될 수 있는 작업의 복잡성을 제한할 수 있습니다. 또한 기본 라이브러리에서 지원되지 않는 일부 유형의 데이터 분석이나 기계 학습 작업에 대한 대안 솔루션이 필요할 수 있습니다. 게다가 사용자들은 복잡한 Python 코드가 포함된 T-SQL 쿼리에서의 복잡한 간격과 같은 SQL Server 환경의 복잡성을 해결해야 하며, 이러한 것들은 오류와 혼란의 원인이 될 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 도전에도 불구하고, SQL Server에서 Python을 실행하는 것이 유리한 여러 응용 프로그램이 있습니다:
 
@@ -208,7 +390,18 @@ SQL Server 내에서 Machine Learning Services를 통해 Python 스크립트를 
 
 3. 고급 분석 — Python의 능력을 활용하여 데이터베이스에서 직접 고급 통계 분석과 데이터 마이닝을 수행할 수 있습니다. 이를 통해 데이터 전송 지연 없이 의사 결정 프로세스를 도와줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. 자동 보고 및 시각화 — Python 스크립트는 SQL Server 데이터에서 직접 데이터 시각화와 보고서를 생성할 수 있어 자동 업데이트와 대시보드를 가능하게 합니다.
 

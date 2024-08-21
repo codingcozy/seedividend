@@ -3,16 +3,13 @@ title: "주니어 개발자에게 부족하지만 시니어 개발자가 가진 
 description: ""
 coverImage: "/assets/img/2024-07-13-10PrinciplesThatSeniorDevelopersHaveButJuniorDevelopersOftenLack_0.png"
 date: 2024-07-13 20:44
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-10PrinciplesThatSeniorDevelopersHaveButJuniorDevelopersOftenLack_0.png
 tag: Tech
 originalTitle: "10 Principles That Senior Developers Have (But Junior Developers Often Lack)"
 link: "https://medium.com/@mikael_55667/10-principles-that-senior-developers-have-but-junior-developers-often-lack-da22f972e8cc"
 isUpdated: true
 ---
-
-
-
 
 주니어 개발자와 시니어 개발자 사이의 차이는 분명히 명확하지 않습니다.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 개발자가 시니어인지 주니어인지 어떻게 알 수 있을까요? 이 평가는 보통 해당 개발자가 산업에서 몇 년을 근무했는지에 의해 판단됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 몇 년 동안 그들은 기술적 능력을 크게 키워왔을 것입니다.
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 이것은 10가지 원칙 목록입니다...
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 특별한 순서가 없어요.
 
@@ -42,7 +61,18 @@ isUpdated: true
 
 요즘에는 ChatGPT와 Copilot으로 게으른 개발자가 될 위험이 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문제에 대한 솔루션을 고민하는 대신 ChatGPT에 물어보거나 Copilot에게 코드 생성을 요청하는 게 좋아요. 빠르게 적용할 수 있는 방법이긴 한데, 코드를 이해하지 못하면 나중에 꼬일 수도 있어요.
 
@@ -52,7 +82,18 @@ isUpdated: true
 
 이것은 소프트웨어 엔지니어 Kent Beck의 명언이에요. 최근에 읽은 TLDR 뉴스레터에서 주목을 받은 것 같아요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 핵심은 먼저 코드가 작동하도록 하는 데 집중해야 한다는 것입니다. 코드가 예쁘지 않아도 괜찮지만 의도한 대로 작동해야 합니다.
 
@@ -62,7 +103,18 @@ isUpdated: true
 
 첫 번째 반복에서 코드를 완벽하게 만들기보다는 복잡성을 줄입니다. 코드가 의도한 대로 작동하도록 한 후에 쉽게 코드를 반복할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 세 번째이자 마지막 단계는 필요한 경우 성능 최적화를 수행하는 것입니다.
 
@@ -72,7 +124,18 @@ isUpdated: true
 
 키보드로 뛰지 말고 코딩을 시작하세요. 항상 계획부터 시작하고, 머릿속에 그림이나 화이트보드에 스케치부터 해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 특히 복잡한 문제일수록 그것이 사실입니다. 계획 없이 코딩을 시작하면 나중에 문제에 부딪힐 가능성이 높습니다.
 
@@ -82,7 +145,18 @@ isUpdated: true
 
 4. 자신의 한계를 알고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제약을 인식하세요.
 
@@ -92,7 +166,18 @@ isUpdated: true
 
 새로운 것을 배우는 데 주저하지 말지만, 특정 분야에서 지식이 부족할 수도 있다는 사실을 숨기지 마세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 5. 그들은 팀플레이어입니다
 
@@ -102,7 +187,18 @@ isUpdated: true
 
 일반적으로 여러 사람과 함께 팀에서 일할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 언제나 좋은 팀원이 되려 노력하세요. 좋은 관계를 유지하고 통찰이나 지식을 얻기 위해 사람들과 대화하는 데 겁내지 마세요.
 
@@ -112,7 +208,18 @@ isUpdated: true
 
 6. 깔끔한 코드를 쓴다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신이 작성한 코드는 누군가에 의해 유지보수될 것입니다 (또는 당신 자신이 - 만약 계약자가 아니라면, 자신의 엉망을 유지보수하기 전에 항상 떠납니다 ;).
 
@@ -122,7 +229,18 @@ isUpdated: true
 
 사람들은 당신이 작성한 코드를 유지, 향상시키고 업데이트해야 합니다. 따라서 코드를 깨끗하고 잘 구조화하는 것이 중요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 잘 구조화되고 깨끗한 코드는 버그와 머리 아픔을 방지하는 데 도움이 된다는 것은 말할 필요도 없겠죠.
 
@@ -132,7 +250,18 @@ isUpdated: true
 
 이 표준과 가이드라인을 준수하세요. 하지만 굳이 극단적으로 고수할 필요는 없어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이게 약간 논란적으로 들릴 수 있지만, 업무가 기능을 요구하고 시한이 극도로 촉박하다면 기능을 구현하세요. 당신은 가치를 전달하러 여기 계신다는 것을 기억해야 합니다.
 
@@ -142,7 +271,18 @@ isUpdated: true
 
 8. 그들은 정직하고 솔직합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 팀원들이나 매니저와 소통하거나 매일 스탠드업 미팅에서 상황을 보고할 때 항상 솔직해야 합니다.
 
@@ -152,7 +292,18 @@ isUpdated: true
 
 의사소통에서 직설적이고 정확하되 무례하지 않도록 노력하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 9. 계산된 위험을 감수합니다
 
@@ -162,11 +313,33 @@ isUpdated: true
 
 가끔 소극적임은 해결책이 되지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 표를 마크다운 형식으로 변경하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가치 중심 개발자의 DNA 속에 담겨 있습니다.
 
@@ -176,7 +349,18 @@ IT 산업은 빠르게 발전하고 있으며 항상 새로운 기술과 프레�
 
 이 10가지 포인트에 동의하시나요? 아니면 목록에 추가할 것이 있나요? 댓글로 알려주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 클랩하고 구독하고 댓글로 의견 공유해주세요.
 

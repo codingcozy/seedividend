@@ -3,16 +3,13 @@ title: "루비 심층 분석 Rails 아키텍처 모범 사례와 확장 가능�
 description: ""
 coverImage: "/assets/no-image.jpg"
 date: 2024-08-04 19:05
-ogImage: 
+ogImage:
   url: /assets/no-image.jpg
 tag: Tech
 originalTitle: "Rails Architecture Best Practices and Building Scalable Applications  Ruby Deep Dive11"
 link: "https://medium.com/@diversepixel/rails-architecture-best-practices-and-building-scalable-applications-ruby-deep-dive-11-7cc514766728"
 isUpdated: true
 ---
-
-
-
 
 아키텍처의 최선의 실천 방법 및 Rails에서 확장 가능한 애플리케이션을 구축하는 방법을 자세히 살펴봅시다.
 
@@ -24,7 +21,18 @@ isUpdated: true
 - 코드 중복: 애플리케이션 전반에 걸쳐 반복되는 코드.
 - 복잡한 비즈니스 로직: 모델이나 컨트롤러에 자연스럽게 들어맞지 않는 비즈니스 로직.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리팩터링 전략
 
@@ -39,7 +47,18 @@ isUpdated: true
 
 서비스 객체는 모델 및 컨트롤러 외부에 복잡한 비즈니스 로직을 캡슐화합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시
 
@@ -74,7 +93,18 @@ end
 
 쿼리 객체는 데이터베이스 쿼리를 캡슐화하여 재사용 가능하고 테스트하기 쉽도록 만듭니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시
 
@@ -96,7 +126,18 @@ recent_users = RecentUsersQuery.new.call
 
 폼 객체는 유효성 검사와 처리 로직이 포함된 복잡한 양식을 관리하는 데 도움을 줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시
 
@@ -136,8 +177,18 @@ end
 
 프리젠터 또는 데코레이터는 모델에 표현 로직을 추가하여 뷰를 깔끔하게 유지합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Draper Gem을 사용한 예시
 
@@ -159,7 +210,18 @@ end
 
 값 객체는 속성을 넘어 식별자가 없는 도메인 개념을 표현합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시
 
@@ -189,7 +251,18 @@ puts price.to_s  # "100 USD"
 
 Concerns는 공유 기능을 모듈화하는 데 사용되지만, 과용은 스파게티 코드로 이어질 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시
 
@@ -219,7 +292,18 @@ end
 
 이벤트 기반 아키텍처는 구성 요소들을 분리하여 시스템을 확장 가능하게 만듭니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 rails_event_store 젬을 사용한 예시
 
@@ -254,7 +338,18 @@ Rails.configuration.event_store.subscribe(
 
 Rails 엔진을 사용한 모듈화 디자인
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 레일즈 엔진은 기능을 격리된 모듈로 캡슐화하여 모듈화를 강화합니다.
 
@@ -276,7 +371,18 @@ Blorgh::Engine.routes.draw do
 end
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## API 버전 관리 전략
 
@@ -312,7 +418,18 @@ namespace :api do
 end
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 효율적으로 백그라운드 작업 처리하기 (Sidekiq 최적 방법)
 
@@ -332,7 +449,18 @@ end
 
 작업자 정의
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # app/workers/my_worker.rb
@@ -363,7 +491,18 @@ end
 
 ## 모놀리스를 마이크로서비스로 분리하는 전략
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 경계 식별하기
 
@@ -374,7 +513,18 @@ end
 - 별도의 코드베이스: 각 마이크로서비스는 고유한 저장소를 가져야 합니다.
 - API 통신: 서비스 간 통신에는 HTTP/REST 또는 gRPC를 사용해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시
 
@@ -401,7 +551,18 @@ end
 
 기능 토글
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기능 토글은 새로운 코드를 배포하지 않아도 기능을 활성화하거나 비활성화할 수 있게 해줍니다.
 
@@ -427,7 +588,18 @@ end
 
 카나리아 릴리스
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Canary 릴리스를 사용하면 전체 롤아웃 이전에 일부 사용자에게 기능을 배포할 수 있습니다.
 

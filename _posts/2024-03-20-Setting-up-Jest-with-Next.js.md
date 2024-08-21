@@ -3,17 +3,13 @@ title: "Nextjs 14 jest로 코드 테스트 하기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # Nextjs 14 jest로 코드 테스트 하기
 
@@ -23,7 +19,18 @@ Jest와 React Testing Library는 유닛 테스팅과 스냅샷 테스팅을 함�
 
 ## 빠른 시작
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 빠르게 시작하려면 Next.js with-jest 예제와 함께 create-next-app을 사용할 수 있어요:
 
@@ -35,7 +42,18 @@ npx create-next-app@latest --example with-jest with-jest-app
 
 Next.js 12 버전부터는 Jest에 대한 내장 구성이 있기 때문에 따로 설정할 필요가 없어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Jest를 설정하려면 jest 및 다음 패키지를 개발 의존성으로 설치하세요:
 
@@ -57,7 +75,18 @@ yarn create jest@latest
 pnpm create jest@latest
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 프로젝트를 위해 Jest를 설정하는 일련의 프롬프트를 진행하게 될 거예요. 이 과정에서 jest.config.ts|js 파일을 자동으로 생성할 거에요.
 구성 파일을 업데이트하여 next/jest를 사용하세요. 이 변환기에는 Next.js와 함께 Jest가 작동할 수 있도록 필요한 모든 구성 옵션이 포함되어 있어요:
@@ -85,7 +114,18 @@ export default createJestConfig(config);
 
 내부적으로 next/jest는 Jest를 자동으로 구성하는데, 이 과정에는 다음과 같은 작업이 포함되어 있어요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Next.js 컴파일러를 사용하여 변환 설정하기
 - .css, .module.css 및 그들의 scss 변형, 이미지 가져오기 및 next/font의 스타일시트를 자동으로 모의하기
@@ -99,7 +139,18 @@ export default createJestConfig(config);
 
 프로젝트에서 모듈 경로 별칭을 사용하는 경우 Jest를 구성하여 jsconfig.json 파일의 paths 옵션과 jest.config.js 파일의 moduleNameMapper 옵션을 일치시킵니다. 예를 들면:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 {
@@ -125,7 +176,18 @@ moduleNameMapper: {
 
 @testing-library/jest-dom에는 .toBeInTheDocument()와 같은 편리한 사용자 정의 일치자 집합이 포함되어 있어 테스트 작성이 더 쉬워집니다. Jest 구성 파일에 다음 옵션을 추가하여 모든 테스트에 사용자 정의 일치자를 가져올 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```typescript
 setupFilesAfterEnv: ["<rootDir>/jest.setup.ts"];
@@ -139,7 +201,18 @@ import "@testing-library/jest-dom";
 
 > 알아두세요: v6.0에서 extend-expect가 제거되었습니다. 따라서 버전 6 이전에 @testing-library/jest-dom을 사용 중이라면, @testing-library/jest-dom/extend-expect를 가져와야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테스트 전에 더 많은 설정 옵션을 추가해야하는 경우 jest.setup.js 파일에 추가할 수 있어요.
 그리고 마지막으로 package.json 파일에 Jest 테스트 스크립트를 추가해주세요:
@@ -154,7 +227,18 @@ import "@testing-library/jest-dom";
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 jest --watch를 사용하면 파일이 변경될 때마다 테스트를 다시 실행할 수 있어요. 더 많은 Jest CLI 옵션을 확인하려면 Jest 문서를 참조해주세요.
 
@@ -162,7 +246,18 @@ jest --watch를 사용하면 파일이 변경될 때마다 테스트를 다시 �
 
 이제 프로젝트가 준비되었어요. 프로젝트의 루트 디렉토리에 **tests**라는 폴더를 만들어주세요. 예를 들면, `<Page />` 컴포넌트가 제대로 제목을 렌더링하는지 확인하는 테스트를 추가할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import Link from "next/link";
@@ -205,7 +300,18 @@ it('홈페이지가 변경되지 않고 렌더링됩니다', () => {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 테스트 실행하기
 
@@ -221,7 +327,18 @@ pnpm test
 
 ## 추가 자료
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 많은 정보를 원하시면, 다음 자료들이 도움이 될 수 있습니다:
 
@@ -231,4 +348,15 @@ pnpm test
 - Testing Playground
 - 요소를 일치시키기 위해 좋은 테스트 관행 사용하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

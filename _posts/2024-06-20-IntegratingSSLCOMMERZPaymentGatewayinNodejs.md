@@ -3,16 +3,13 @@ title: "Nodejs에서 SSLCOMMERZ 결제 게이트웨이 통합하기"
 description: ""
 coverImage: "/assets/img/2024-06-20-IntegratingSSLCOMMERZPaymentGatewayinNodejs_0.png"
 date: 2024-06-20 04:32
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-IntegratingSSLCOMMERZPaymentGatewayinNodejs_0.png
 tag: Tech
 originalTitle: "Integrating SSLCOMMERZ Payment Gateway in Node.js"
 link: "https://medium.com/@shejanmahamud/integrating-sslcommerz-payment-gateway-in-node-js-1e0e7d1e2c70"
 isUpdated: true
 ---
-
-
-
 
 이 블로그 포스트에서는 MongoDB를 사용하여 Node.js 애플리케이션에 SSLCommerz 결제 게이트웨이를 통합하는 과정을 안내하겠습니다. 이 안내서는 웹 애플리케이션을 위한 안전하고 효율적인 결제 처리 시스템을 설정하는 데 도움이 될 것입니다.
 
@@ -28,7 +25,18 @@ SSLCOMMERZ는 SSL Wireless가 개발한 안전하고 인증된 온라인 결제 
 - 실시간 대시보드 보고
 - PCI DSS 규정을 준수한 고수준 보안
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 준비 사항
 
@@ -40,7 +48,18 @@ SSLCOMMERZ는 SSL Wireless가 개발한 안전하고 인증된 온라인 결제 
 
 # 단계 1: 프로젝트 설정하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, 새로운 Node.js 프로젝트를 생성하고 필요한 종속성을 설치하세요. 터미널을 열고 다음 명령을 실행해보세요:
 
@@ -55,7 +74,18 @@ npm install express body-parser dotenv sslcommerz-lts mongodb cors
 
 프로젝트의 루트에 .env 파일을 생성하고 SSLCommerz 자격 증명을 추가하세요. 이러한 자격 증명은 SSLCommerz API와의 요청을 인증하는 데 사용될 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 STORE_ID=your_store_id
@@ -70,16 +100,26 @@ MONGO_URI = "mongodb+srv://username:password@cluster0.7ctc5qe.mongodb.net/?retry
 
 이제 익스프레스 서버를 설정하고 결제 작업을 처리하기 위한 필요한 라우트를 정의하세요. app.js 파일을 만들고 다음 코드를 추가하세요:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-const express = require('express');
-const bodyParser = require('body-parser');
-const SSLCommerzPayment = require('sslcommerz-lts');
+const express = require("express");
+const bodyParser = require("body-parser");
+const SSLCommerzPayment = require("sslcommerz-lts");
 const { MongoClient, ObjectId, ServerApiVersion } = require("mongodb");
 const cors = require("cors");
-require('dotenv').config();
+require("dotenv").config();
 const mongoURI = process.env.MONGO_URI;
 
 const app = express();
@@ -159,7 +199,7 @@ const run = async () => {
         ship_city: "Dhaka",
         ship_state: "Dhaka",
         ship_postcode: 1000,
-        ship_country: "Bangladesh"
+        ship_country: "Bangladesh",
       };
 
       // SSLCommerz 결제 초기화
@@ -170,54 +210,38 @@ const run = async () => {
         res.send({ url: GatewayPageURL });
 
         // 주문 세부 정보를 데이터베이스에 삽입
-        const order = { ...planDetails, tran_id, status: 'pending'};
+        const order = { ...planDetails, tran_id, status: "pending" };
         const result = ordersCollection.insertOne(order);
       });
 
       // 성공한 결제 처리를 위한 POST 요청
       app.post("/payment/success", async (req, res) => {
-
         // 데이터베이스에서 주문 상태를 성공으로 업데이트
-        const result = await ordersCollection.updateOne(
-          { tran_id },
-          { $set: { status: 'success'} }
-        );
-         // 클라이언트에 결제 성공 페이지로 리디렉션
+        const result = await ordersCollection.updateOne({ tran_id }, { $set: { status: "success" } });
+        // 클라이언트에 결제 성공 페이지로 리디렉션
         res.redirect("http://localhost:5173/payment/success");
       });
 
       // 실패한 결제 처리를 위한 POST 요청
       app.post("/payment/fail", async (req, res) => {
-
         // 데이터베이스에서 주문 상태를 실패로 업데이트
-        const result = await ordersCollection.updateOne(
-          { tran_id },
-          { $set: { status: 'failed'} }
-        );
-       // 클라이언트에 결제 실패 페이지로 리디렉션
+        const result = await ordersCollection.updateOne({ tran_id }, { $set: { status: "failed" } });
+        // 클라이언트에 결제 실패 페이지로 리디렉션
         res.redirect("http://localhost:5173/payment/fail");
       });
 
       // 취소된 결제 처리를 위한 POST 요청
       app.post("/payment/cancel", async (req, res) => {
-
         // 데이터베이스에서 주문 상태를 취소됨으로 업데이트
-        const result = await ordersCollection.updateOne(
-          { tran_id },
-          { $set: { status: 'canceled'} }
-        );
+        const result = await ordersCollection.updateOne({ tran_id }, { $set: { status: "canceled" } });
         // 클라이언트에 결제 취소 페이지로 리디렉션
         res.redirect("http://localhost:5173/payment/cancel");
       });
 
       // IPN(즉시 결제 알림) 처리를 위한 POST 요청
       app.post("/payment/ipn", async (req, res) => {
-
         // IPN 알림에 따라 데이터베이스에서 주문 상태 업데이트
-        const result = await ordersCollection.updateOne(
-          { tran_id },
-          { $set: { status: status === "VALID" } }
-        );
+        const result = await ordersCollection.updateOne({ tran_id }, { $set: { status: status === "VALID" } });
         res.send({ message: "IPN received" });
       });
     });
@@ -230,7 +254,7 @@ const run = async () => {
 run().catch(console.dir);
 
 // 서버 실행 상태 확인을 위한 간단한 루트
-app.get('/', async (req, res) => {
+app.get("/", async (req, res) => {
   res.send({ server_status: "Running" });
 });
 
@@ -240,20 +264,31 @@ app.listen(port, () => {
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프론트엔드에서 지불 프로세스를 트리거하기 위해 아래의 코드 스니펫을 사용할 수 있어요. 이 코드는 POST 요청을 /plans 엔드포인트로 보내고, 사용자를 SSLCommerz 지불 페이지로 리디렉션해요.
 
 ```js
 const handlePlans = async () => {
-  const { data } = await axios.post('/plans', {
+  const { data } = await axios.post("/plans", {
     user_email: user.email,
     plan: plan,
     price: price,
     purchase_date: purchaseDate,
     expiration_date: expirationDate,
-    currency: 'BDT',
-    payment_method: 'SSLCOMMERZ'
+    currency: "BDT",
+    payment_method: "SSLCOMMERZ",
   });
   // 서버로부터 받은 URL로 리디렉션하기
   window.location.replace(data.url);
@@ -265,7 +300,18 @@ const handlePlans = async () => {
 - handlePlans 함수: 해당 함수는 필요한 플랜 세부 정보와 함께 /plans 엔드포인트로 POST 요청을 보냅니다.
 - 리디렉션: 응답을 받은 후, 사용자는 window.location.replace를 사용하여 SSLCommerz 지불 페이지로 리디렉션됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -277,6 +323,17 @@ const handlePlans = async () => {
 - 환경 변수: 환경 변수에 자격 증명을 안전하게 저장합니다.
 - MongoDB 작업: 주문 추적 및 사용자 플랜 업데이트를 위해 데이터베이스 작업에 MongoDB를 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 단계를 따라하면 Node.js 애플리케이션에 견고하고 안전한 결제 처리 시스템을 설정할 수 있어요. 코딩을 즐기세요!

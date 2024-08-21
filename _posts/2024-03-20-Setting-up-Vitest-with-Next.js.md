@@ -3,17 +3,13 @@ title: "Nextjs에서 Vitest 설정하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # Next.js에서 Vitest 설정하기
 
@@ -23,7 +19,18 @@ Vite와 React Testing Library는 Unit Testing을 위해 자주 함께 사용됩�
 
 ## 빠른 시작
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 빠르게 시작하려면 Next.js with-vitest 예제를 사용하여 create-next-app을 실행할 수 있어요:
 
@@ -35,7 +42,18 @@ npx create-next-app@latest --example with-vitest with-vitest-app
 
 Vitest를 수동으로 설정하려면 vitest 및 다음 패키지들을 개발 종속성으로 설치하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm install -D vitest @vitejs/plugin-react jsdom @testing-library/react
@@ -63,7 +81,18 @@ export default defineConfig({
 
 Vitest 구성에 대한 자세한 정보는 Vitest 구성 문서를 참조해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼, package.json에 테스트 스크립트를 추가해보세요:
 
@@ -82,7 +111,18 @@ npm run test을 실행하면 Vitest가 기본적으로 프로젝트의 변경 �
 
 ## 첫 번째 Vitest 단위 테스트 생성하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 것이 제대로 작동하는지 확인하기 위해 `<Page />` 컴포넌트가 제목을 성공적으로 렌더링하는지 확인하는 테스트를 만들어 보세요:
 
@@ -112,7 +152,18 @@ test("Page", () => {
 
 > 참고: 위 예시는 일반적인 `__tests__` 관례를 사용하고 있지만, 테스트 파일은 앱 라우터 내에도 위치할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 테스트 실행하기
 
@@ -130,7 +181,18 @@ bun test
 
 ## 추가 리소스
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 리소스들이 도움이 될 수 있어요:
 
@@ -138,4 +200,15 @@ bun test
 - Vitest 문서
 - React Testing Library 문서
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

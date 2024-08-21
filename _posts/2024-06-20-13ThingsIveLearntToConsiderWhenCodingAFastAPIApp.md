@@ -3,16 +3,13 @@ title: "파이파이 앱을 코딩할 때 고려해야 할 13가지를 배운 �
 description: ""
 coverImage: "/assets/img/2024-06-20-13ThingsIveLearntToConsiderWhenCodingAFastAPIApp_0.png"
 date: 2024-06-20 04:46
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-13ThingsIveLearntToConsiderWhenCodingAFastAPIApp_0.png
 tag: Tech
 originalTitle: "13 Things I’ve Learnt To Consider When Coding A FastAPI App"
 link: "https://medium.com/@zlliu/13-things-ive-learnt-to-consider-when-coding-a-fastapi-app-8a53f3ce1c88"
 isUpdated: true
 ---
-
-
-
 
 대학 시절에는 학교 프로젝트를 위해 쓸만한 한 페이지 FastAPI 백엔드 애플리케이션을 만들 수 있었어요. 솔직히 말해 많은 교수님들이 우리의 프로젝트 코드를 읽지도 않으셨다니까요.
 
@@ -33,7 +30,18 @@ uvicorn.run(app)
 
 ^ 우리는 이렇게 코드를 작성해서 가능한 빨리 일을 끝낼 수 있었고, 우리의 백엔드 엔드포인트가 올바른 결과를 반환하기만 하면, 대부분의 경우 우리 코드가 얼마나 잘 작성되었는지는 아무도 신경쓰지 않았어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 현재 대규모 프로덕션급 FastAPI 앱을 개발 중이에요. 만약 제가 이 중 하나라도 하게 된다면, 개발 책임자님에게 혼날 거라고 확신해요. 지난 몇 달 동안 대규모 FastAPI 앱을 만들며 배운 13가지 고려 사항을 소개해드릴게요.
 
@@ -46,7 +54,18 @@ def do_stuff(a, b, c):
     ...
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금 제가 코드를 작성하는 방식은 다음과 같습니다:
 
@@ -64,7 +83,18 @@ def do_stuff(a: int, b: str, c: List[int]) -> List[str]:
 - c는 정수들로 이루어진 리스트여야 합니다.
 - 함수의 반환 값은 문자열들로 이루어진 리스트여야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 노트 — 타입 어노테이션(또는 타입 힌트)은 데이터 타입을 강제하지 않습니다. 그저 제안하는 것뿐입니다. 기술적으로 잘못된 데이터 타입을 전달할 수 있지만, Python은 여전히 허용합니다.
 
@@ -74,7 +104,18 @@ def do_stuff(a: int, b: str, c: List[int]) -> List[str]:
 
 타입 어노테이션은 데이터 타입을 강제하지 않지만, mypy와 같은 정적 타입 체커는 강제합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 def add(a: int, b: int) -> int:
@@ -90,7 +131,18 @@ print(add('hello ', 'world'))
 
 따라서 데이터 유형 위반에 대한 추가적인 보호층으로 정적 유형 검사기를 CICD(지속적 통합 지속적 배포) 파이프라인의 일부로 포함하는 것이 중요하다는 것을 깨달았습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 3) PEP8 및 코드 스타일링
 
@@ -100,13 +152,24 @@ print(add('hello ', 'world'))
 
 PEP8 문서는 우리에게 Python 코딩 규칙을 제공하여 코드베이스를 일관되고 깔끔하게 유지하는 것이 이상적이라는 것을 알려줍니다. Python에서는 이를 무시할 수 있지만, 당신의 기술 리드는 그렇게 하지 말라고 할지도 몰라요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 머릿속에 기억나는 몇 가지 규칙이 있어요:
 
 - 함수 간에는 1줄의 개행을 추가해 주세요, 클래스 간에는 2줄의 개행을 넣어 주세요.
 - 들여쓰기는 탭 대신 공백을 사용해야 합니다.
-- from X import * 는 좋지 않은 습관입니다.
+- from X import \* 는 좋지 않은 습관입니다.
 - import 구문은 어떤 순서로든 정리되어야 합니다.
 - 코드 라인은 79자 이상으로 길어지면 안 됩니다.
 
@@ -114,7 +177,18 @@ PEP8 문서는 우리에게 Python 코딩 규칙을 제공하여 코드베이스
 
 참고 — 때로는 제가 코드를 작성할 때 PEP8 규칙을 무시하기도 하지만, 프로덕션 코드를 작성할 때는 최대한 모든 규칙을 준수하려 노력하고 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 4) 폴더 구조 및 도메인
 
@@ -122,48 +196,68 @@ PEP8 문서는 우리에게 Python 코딩 규칙을 제공하여 코드베이스
 
 제품용 코드에서는 모든 사람이 따라야 할 폴더/파일 구조가 있습니다. 각 팀마다 약간씩 다를 수 있지만, 동일한 팀 구성원 모두가 합의해야 할 사항입니다.
 
-
 src/
- └── sqlmodels/
-    └── dog.py
-    └── cat.py
-    └── bird.py
- └── dbchanges/
- └── code/
-    └── bin/
-    └── utils/
-    └── web_api/
-        └── domain1
-          └── router.py
-          └── service.py
-          └── models.py
-        └── domain2
-          └── router.py
-          └── service.py
-          └── models.py
-        └── domain3
-          └── router.py
-          └── service.py
-          └── models.py
- └── requirements/
+└── sqlmodels/
+└── dog.py
+└── cat.py
+└── bird.py
+└── dbchanges/
+└── code/
+└── bin/
+└── utils/
+└── web_api/
+└── domain1
+└── router.py
+└── service.py
+└── models.py
+└── domain2
+└── router.py
+└── service.py
+└── models.py
+└── domain3
+└── router.py
+└── service.py
+└── models.py
+└── requirements/
 .gitignore
 README.md
 dockerfile
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기는 내 제품용 FastAPI 코드의 매우 간소화된 버전입니다 (실제 폴더 구조는 훨씬 더 큽니다)
 
 참고 - 우리 응용 프로그램의 각 하위 섹션은 독립된 도메인 폴더가 제공됩니다.
 
-.MD 파일을 마크다운 형식으로 변경해주세요. 
+.MD 파일을 마크다운 형식으로 변경해주세요.
 
 .py 파일을 마음대로 어디에 둘 수 있고 아무도 신경 쓰지 않는 시절은 지나갔지만, 내가 주장하는 바에 의하면 이것은 좋은 일이라고 생각합니다 - 합의된 폴더 구조는 전체 프로젝트를 더 깔끔하고 유지 관리하기 쉽게 만듭니다.
 
 ORM(객체-관계 매핑)을 사용하는 것이란 SQLAlchemy와 같은 것들.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제가 학교 프로젝트에서 FastAPI 앱을 다룬 것을 기억해요:
 
@@ -174,7 +268,18 @@ ORM(객체-관계 매핑)을 사용하는 것이란 SQLAlchemy와 같은 것들.
 
 크고 복잡한 애플리케이션에서는 SQLAlchemy와 같은 ORM (객체-관계 매핑) 시스템 사용이 좋은 아이디어라고 말할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 데이터베이스를 직접 호출하기
@@ -198,7 +303,18 @@ ORM은 우리 데이터베이스를 감싼 래퍼인데, 시작하는 데는 학
 
 만약 FastAPI 앱에서 수천 개의 문자열 SQL 쿼리를 처리해야 한다면 상황은 좀 체증스러울 거에요 (코드베이스와 정신 건강 모두 말이에요)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 6) 엔드포인트에 대한 입력 및 출력 정의
 
@@ -218,7 +334,18 @@ def one_dog(id):
 
 ^ 정확한 입력 및 출력 구조가 정의되지 않았어요. 문제점:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 다른 개발자들이 입력과 출력이 무엇인지 추측하는 데 시간을 낭비할 필요가 없어집니다
 - 미래에는 아마도 당신이 입력과 출력이 무엇인지 추측하는 데 시간을 낭비할 수도 있습니다
@@ -229,7 +356,7 @@ def one_dog(id):
 # 덜 나쁜 코드
 
 @app.get(
-    '/dogs', 
+    '/dogs',
     response_model=List[Dog],
     name='모든 개 가져오기'
 )
@@ -247,7 +374,18 @@ def one_dog(id: int) -> Dog:
 
 ^ 여기서 type 어노테이션을 사용하고 app.get() 내부의 response_model 키워드 인수를 사용하여 각 엔드포인트의 입력과 출력이 무엇이어야 하는지 훨씬 명확하게 만들었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 7) 모델 간의 관계
 
@@ -264,7 +402,18 @@ def one_dog(id: int) -> Dog:
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기술적으로 우리는 이렇게 작성할 수 있어요:
 
@@ -286,7 +435,18 @@ def one_dog(id: int) -> Dog:
 
 대신, SQLModels 관계를 사용하여 우리의 삶을 더 쉽게 만들 수 있어요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 매우 간단한 예시
@@ -319,8 +479,18 @@ class Dog(DogBase, table=True):
 
 그리고 데이터베이스 내의 다른 중요한 관계들도 함께 가져옵니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 8) 접근 제어 및 어떤 API에 누가 접근할 수 있는지
 
@@ -330,7 +500,18 @@ class Dog(DogBase, table=True):
 
 프로덕션 급 코드에서는 다음과 같은 시스템이 필요합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - API 호출을 하는 사용자 식별
 - 해당 사용자가 호출할 수 있는 API 엔드포인트 결정
@@ -342,7 +523,18 @@ class Dog(DogBase, table=True):
 
 이를 구현하는 하나의 올바른 방법이 없으므로 시간을 들여 신중하게 생각해보시기 바랍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 9) 로깅
 
@@ -354,7 +546,18 @@ class Dog(DogBase, table=True):
 - 여러 로깅 기능이 이미 구현되어 있어 그냥 사용하기만 하면 됨
 - 다양한 로깅 레벨은 애플리케이션을 실행할 때 얼마나 많은 출력을 원하는지 결정하는 데 매우 유용함
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파이썬 백엔드/풀스택 개발자가 되고 싶다면, 로깅 라이브러리에 대해 배우거나 적어도 어느 정도는 알아야 합니다. 기억하세요 — 프로덕션급 코드에서는 print()를 많이 사용하지 않아요.
 
@@ -369,9 +572,18 @@ except Exception as e:
     print(e)
 ```
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로덕션 수준의 FastAPI 코드베이스에서는 일반적으로 다음을 갖춥니다:
 
@@ -388,7 +600,7 @@ try:
 
 except CustomException1 as e:
     # 특별 처리 코드
-    
+
     logger.info(str(e))
 
 except CustomException2 as e:
@@ -405,7 +617,18 @@ except Exception as e:
     logger.info(str(e))
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로덕션 수준의 FastAPI 앱에서는 단순히 Exception as e로 모든 예외를 처리할 수 없습니다.
 
@@ -415,7 +638,18 @@ except Exception as e:
 
 그러나 프로덕션 수준의 코드베이스에서는 단위 테스트뿐만 아니라 통합 테스트 등이 필수적입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 수십 개의 엔드포인트를 테스트해야 한다면 일종의 자동화된 테스트를 도입할 필요가 있어요.
 - 모든 사람이 테스트를 수작업으로 모든 것을 테스트하면 만족스럽지 않을 거예요.
@@ -426,7 +660,18 @@ except Exception as e:
 
 # 12) 데이터의 업데이트 이력 추적
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용자가 데이터를 생성/업데이트/삭제할 때마다 이를 이상적으로는 어떤 종류의 히스토리 테이블에 기록해야 합니다.
 
@@ -437,7 +682,18 @@ except Exception as e:
 - 우리의 주요 개 데이터가 포함된 dogs 테이블이 있다고 가정해봅시다.
 - dogs 테이블에 있는 각 개에 대해 수행된 모든 변경 사항이 포함된 dog_history 테이블이 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 예시 워크플로우입니다:
 
@@ -449,18 +705,29 @@ except Exception as e:
 
 ```js
 {
-    user=A, 
-    dog_id=100, 
-    field_changed='color', 
-    old_value='green', 
-    new_value='yellow',
-    timestamp=178787878787
+  (user = A),
+    (dog_id = 100),
+    (field_changed = "color"),
+    (old_value = "green"),
+    (new_value = "yellow"),
+    (timestamp = 178787878787);
 }
 ```
 
 ^ 이와 같이 사용자의 업데이트 작업을 추적할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 13) 데이터베이스 변경 추적
 
@@ -471,7 +738,18 @@ except Exception as e:
 
 프로덕션급 앱에서는 데이터베이스를 직접 변경하지 않습니다. 여러 이유로 이는 최악의 실천 방법입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 변경 사항은 되돌릴 수 없습니다 — 누군가 변경을 실수하면 되돌릴 수 없어요
 - 변경 사항은 추적할 수 없습니다 — 누군가 변경을 실수하면 누가 그것을 했는지 알 수 없어요
@@ -485,7 +763,18 @@ except Exception as e:
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이해하기 쉽고 명확했기를 바랍니다.
 
@@ -499,8 +788,19 @@ except Exception as e:
 
 감사합니다! 이 작은 행동들은 큰 도움이 되며 정말 감사드립니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-YouTube: [https://www.youtube.com/@zlliu246](https://www.youtube.com/@zlliu246)  
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-LinkedIn: [https://www.linkedin.com/in/zlliu/](https://www.linkedin.com/in/zlliu/)  
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+YouTube: [https://www.youtube.com/@zlliu246](https://www.youtube.com/@zlliu246)
+
+LinkedIn: [https://www.linkedin.com/in/zlliu/](https://www.linkedin.com/in/zlliu/)

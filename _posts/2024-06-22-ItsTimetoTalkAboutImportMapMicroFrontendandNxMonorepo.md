@@ -3,16 +3,13 @@ title: " Import Map, Micro Frontend, Nx Monorepo에 대해 이야기할 시간"
 description: ""
 coverImage: "/assets/img/2024-06-22-ItsTimetoTalkAboutImportMapMicroFrontendandNxMonorepo_0.png"
 date: 2024-06-22 05:47
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-ItsTimetoTalkAboutImportMapMicroFrontendandNxMonorepo_0.png
 tag: Tech
 originalTitle: "⏰ It’s Time to Talk About Import Map, Micro Frontend, and Nx Monorepo"
 link: "https://medium.com/javascript-in-plain-english/its-time-to-talk-about-import-map-micro-frontend-and-nx-monorepo-0b8e2c07568a"
 isUpdated: true
 ---
-
-
-
 
 ## Native Import Map Overrides를 활용하여 마이크로 프론트엔드 아키텍처에 상당한 이점을 얻는 방법
 
@@ -22,11 +19,23 @@ isUpdated: true
 
 오랜 시간 동안 이 기사를 쓰고 싶었는데, 이제 그 때입니다! 언제나 표준을 준수하는 것을 중요시해왔고, 최신 도구로 이 아키텍처를 올바르게 다룰 준비가 되었다고 믿습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 esbuild의 등장, 브라우저에서 ES 모듈의 네이티브 지원, import map의 널리 퍼져가는 채택, Native Federation과 같은 도구의 등장, 그리고 Nx 생태계가 모두 결합되어 유연하고 잘 유지되는 Micro Frontend Architecture를 형성하고 있습니다.
 
 제가 다룰 내용은:
+
 - 실제 이야기!
 - 브라우저에 대한 간단한 상기
 - 간략한 Micro Frontend Architecture 소개
@@ -40,7 +49,18 @@ esbuild의 등장, 브라우저에서 ES 모듈의 네이티브 지원, import m
 
 컨텍스트를 조금 더 제공해 드리기 위해, 여러 개의 AngularJS 애플리케이션을 더 최신의 Angular 프레임워크로 마이그레이션하도록 주도했습니다. 클라이언트는 AngularJS가 폐기되었다는 공지를 받은 후에 마침내 그 결정을 내렸습니다 (최신 정보 확인을 부탁드려요 🙏).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일반적인 마이그레이션 프로세스를 사용하는 것이 불가능했어요. 여러 시나리오를 조사한 후에 마이크로 프론트엔드 아키텍처를 선택했어요. 저희가 본 것처럼, 이는 점진적인 마이그레이션을 용이하게 하고, 격리를 제공하며, 여러 팀의 앱을 하나의 통합 플랫폼으로 통합할 수 있도록 도와줄 수 있어요.
 
@@ -50,7 +70,18 @@ Single-spa는 기능 플래그를 기반으로 AngularJS 또는 Angular 구현�
 
 ![이미지](/assets/img/2024-06-22-ItsTimetoTalkAboutImportMapMicroFrontendandNxMonorepo_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 single-spa를 사용하면서 마이크로 프론트엔드 아키텍처를 구현하는 것에 대한 이해가 크게 향상되었고, 특히 import map 및 마이크로 프론트엔드 오버라이드의 중요한 이점을 강조했습니다. 이러한 도구들은 로컬 개발, 테스트, 배포 경험을 크게 향상시켰습니다.
 
@@ -60,7 +91,18 @@ single-spa를 사용하면서 마이크로 프론트엔드 아키텍처를 구�
 
 ![웹 브라우저 플로우](/assets/img/2024-06-22-ItsTimetoTalkAboutImportMapMicroFrontendandNxMonorepo_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 첫 번째 단계는 언제나 애플리케이션을 시작하는 데 필요한 모든 것을 갖춘 index.html 파일을 가져오는 것입니다.
 - 그런 다음, 브라우저는 index.html에서 지시한 모든 파일을 로드합니다. 이로는 주로 JavaScript 및 스타일 시트와 같은 애플리케이션의 주 파일들이 포함됩니다.
@@ -72,7 +114,18 @@ single-spa를 사용하면서 마이크로 프론트엔드 아키텍처를 구�
 
 애플리케이션이 마이크로 프론트엔드 아키텍처를 따르는지 정확히 판단하는 것은 마이크로서비스의 이상적 크기를 정의하는 것과 마찬가지로 어려울 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 핵심은 여러 기능을 통합해 하나의 애플리케이션을 만들 수 있는 플랫폼을 갖는 것입니다. 이러한 기능들이 Lazy-loaded 구성 요소이든 마이크로 프론트엔드이든, 원칙은 본질적으로 동일합니다.
 
@@ -82,7 +135,18 @@ single-spa를 사용하면서 마이크로 프론트엔드 아키텍처를 구�
 
 ![마이크로 프론트엔드 사용 예시](/assets/img/2024-06-22-ItsTimetoTalkAboutImportMapMicroFrontendandNxMonorepo_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 다양한 프레임워크: 가장 일반적인 사용 사례는 다양한 기술을 하나의 제품으로 통합하는 것인데, 특히 분리된 시스템을 통합하는 데 유용합니다.
 - 팀 분산화: 팀이 독립적으로 작동할 때, 모놀리폴더(monorepo) 내에서 작동하거나 다른 저장소에서 작동하는 경우, 마이크로 프론트엔드는 그들의 작업을 하나의 일관된 제품으로 통합하기를 쉽게 만들어줍니다.
@@ -93,7 +157,18 @@ single-spa를 사용하면서 마이크로 프론트엔드 아키텍처를 구�
 
 마이크로 프론트엔드 아키텍처에서는 각기 다른 개념을 따르는 다양한 종류의 엔터티를 구분합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 마이크로 프론트엔드(또는 마이크로 앱)은 호스트가 탐색 또는 라우팅 시에 로드됩니다. 각 마이크로 프론트엔드는 응용 프로그램 내에서 구분된 기능 또는 도메인에 대해 책임을 집니다. 다른 앱과 마찬가지로 자식 라우트와 여러 컴포넌트를 포함할 수 있습니다.
 - 파셀(컴포넌트 또는 노출로도 불림)은 필요 시 독립적으로 로드됩니다. 공유 컴포넌트나 공유 서비스가 될 수 있으며 어디에서나 플러그인할 수 있습니다.
@@ -104,7 +179,18 @@ single-spa를 사용하면서 마이크로 프론트엔드 아키텍처를 구�
 
 ![이미지](/assets/img/2024-06-22-ItsTimetoTalkAboutImportMapMicroFrontendandNxMonorepo_5.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Single-spa: 이 프레임워크는 간단하게 유지되며 여러 기술과 함께 작동합니다. 하지만 그 간단함은 한 가지 기술만 사용하는 경우 더 많은 작업을 해야 할 수도 있음을 의미할 수 있습니다.
 - Webpack Module Federation: 거의 모두가 Webpack을 사용하며, 모듈 페더레이션 기능으로 이 사용자들에게 마이크로 프론트엔드를 쉽게 만들어줍니다. 하지만 다른 도구를 사용하는 경우 다른 해결책을 찾아야 할 수도 있습니다.
@@ -116,7 +202,18 @@ single-spa를 사용하면서 마이크로 프론트엔드 아키텍처를 구�
 
 ![이미지](/assets/img/2024-06-22-ItsTimetoTalkAboutImportMapMicroFrontendandNxMonorepo_6.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 어떻게 작동합니까?
 
@@ -124,12 +221,23 @@ single-spa를 사용하면서 마이크로 프론트엔드 아키텍처를 구�
 
 ```js
 import moment from "moment";
-import { partition } from "lodash";  
+import { partition } from "lodash";
 ```
 
 그러나 브라우저에서 ES 모듈을 네이티브로 사용할 때는 JS 파일의 전체 경로를 지정해야 합니다. 다음과 같이:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import moment from "https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js";
@@ -151,7 +259,18 @@ import { partition } from "https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17
 
 이것은 TypeScript의 경로 매핑과 유사하게 동작하지만 브라우저에서 직접 작동합니다. 이제 동일한 구문을 사용하여 모듈을 로컬로 불러오거나 브라우저에서 불러올 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 임포트 맵은 다음과 같이 인라인으로 지정하거나 외부 파일로 지정할 수 있습니다.
 
@@ -164,7 +283,18 @@ import { partition } from "https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17
 
 제가 언급한대로, 마이크로 프론트엔드 아키텍처는 브라우저에서 번들을 동적으로로드하고 실제 앱에 통합하는 방법일 뿐입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 관리는 호스트의 역할입니다. 그러나 호스트가 ES 모듈을 로드해야 할 때는, 간단히 JS import 시스템을 활용하여, import 맵의 도움을 받아 해당 모듈을 위치에 매핑할 수 있습니다.
 
@@ -174,10 +304,20 @@ import { partition } from "https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17
 
 동일한 HTML에서 여러 import 맵을 선언할 수 있습니다. 이는 두 개의 import 맵이 동일한 키를 선언할 경우, 마지막 것이 이전 것을 덮어쓸 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 'img' 태그를 Markdown 형식으로 바꿔보세요.
-
 
 ![이미지](/assets/img/2024-06-22-ItsTimetoTalkAboutImportMapMicroFrontendandNxMonorepo_7.png)
 
@@ -187,8 +327,18 @@ HTML에 새로운 import map을 주입함으로써, 어떤 번들이든 후킹/�
 
 웹 응용 프로그램에서 import map을 덮어 쓰는 것은 보안을 감소시키지 않습니다. 왜냐하면 모든 프론트엔드 자산은 공개되어 있고 클라이언트 측에서 수정할 수 있기 때문입니다. 그러나 여러 서버로부터 자산을로드하는 응용 프로그램의 경우, Content-Security-Policy (CSP)를 구성하는 것이 중요합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSP는 신뢰할 수 있는 도메인 목록을 화이트리스트로 지정하여 크로스사이트 스크립팅(XSS) 및 기타 보안 위협의 위험을 크게 줄입니다. 이 보안 조치는 클라이언트 측 수정이 가능하더라도 응용 프로그램의 무결성과 사용자 안전을 유지합니다.
 
@@ -198,7 +348,18 @@ CSP는 신뢰할 수 있는 도메인 목록을 화이트리스트로 지정하�
 
 ![image](/assets/img/2024-06-22-ItsTimetoTalkAboutImportMapMicroFrontendandNxMonorepo_8.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 로컬 개발
 
@@ -211,7 +372,18 @@ CSP는 신뢰할 수 있는 도메인 목록을 화이트리스트로 지정하�
 
 특히 UI를 소량 수정해야 할 때 이러한 복잡성은 상당히 괴로울 수 있습니다. 이 정확한 도전에 대처하기 위해 마이크로 프론트엔드 아키텍처와 import 맵 오버라이드를 결합한 방식으로 대응하려고 노력했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 복잡한 전체 시스템을 실행하는 대신, 로컬 환경을 외부 환경에 연결하여 이미 구축된 복잡성을 사용할 수 있습니다.
 
@@ -221,7 +393,18 @@ CSP는 신뢰할 수 있는 도메인 목록을 화이트리스트로 지정하�
 
 중요한 점은 최신 메인 브랜치를 포함하는 실제 환경에 코드를 직접 통합하고 있다는 것입니다. 이는 우리가 "내 컴퓨터에서는 작동하는데!"라는 유명한 시나리오를 넘어설 수 있음을 의미합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 풀 리퀘스트
 
@@ -232,7 +415,18 @@ CSP는 신뢰할 수 있는 도메인 목록을 화이트리스트로 지정하�
 
 이 단계에서 CI는 앱을 빌드하고 수정된 마이크로 프론트엔드를 위한 새 번들을 생성합니다. 또한 업데이트된 번들로 영향을 받는 importmap.json을 생성할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 UI e2e 테스트를 간소화하세요
 UI 테스트 (모의)에 영향을 받은 import 맵을 사용할 수도 있습니다. 이 시나리오에서 생성된 영향을 받은 importmap.json은 Playwright 또는 Cypress와 같은 도구에 주입되어 영향을 받은 마이크로 프론트엔드를 직접 테스트할 수 있습니다.
@@ -243,7 +437,18 @@ UI 테스트 (모의)에 영향을 받은 import 맵을 사용할 수도 있습�
 
 일반적으로 이는 하루에 여러 번 실행되며, 가장 최신의 코드베이스가 프로덕션을 모방하는 환경에서 실행됩니다. 이 시나리오에서는 모든 번들의 최신 버전을 포함하는 importmap.json을 생성할 것입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 생성된 최근 importmap.json이 성공적이라면, 이는 프로덕션을 위한 릴리스 후보가 될 수 있습니다.
 
@@ -253,7 +458,18 @@ UI 테스트 (모의)에 영향을 받은 import 맵을 사용할 수도 있습�
 
 ![이미지](/assets/img/2024-06-22-ItsTimetoTalkAboutImportMapMicroFrontendandNxMonorepo_9.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시큐리티에 배포
 프로덕션 환경으로 번들을 언제든지 배포하거나 업로드할 수 있습니다. importmap.json이 그들을 참조할 때까지 로드되지 않습니다. 그러므로 배포는 최신 import map을 수정하고 업로드하는 것만으로 이루어집니다. 이 배포 과정은 단순히 1초만 소요되며 동결이 필요하지 않으며 사용자에게는 완전히 투명합니다.
@@ -266,7 +482,18 @@ UI 테스트 (모의)에 영향을 받은 import 맵을 사용할 수도 있습�
 카나리아 배포 및 A/B 테스팅
 importmap.json의 마지막이자 무시할 수 없는 혜택은 동적으로 생성될 수 있다는 것입니다. 이는 마이크로 프론트엔드가 이전 버전 또는 새 버전을 로드해야 할지 결정할 수 있음을 의미합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결과적으로, 특징 플래그나 인증 사용자 기준에 따라 A/B 테스트나 카나리 배포를 쉽게 진행할 수 있습니다!
 
@@ -276,7 +503,18 @@ importmap.json의 마지막이자 무시할 수 없는 혜택은 동적으로 �
 
 JavaScript/TypeScript 저장소에만 한정되지 않고 어떤 코드베이스에도 제공되는 가치에 대한 나의 확신은 확고합니다. 공유, 가시성, 성능 향상, 그리고 관행 준수를 강화하는 Nx의 장점은 보편적으로 적용 가능합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 표 형식을 Markdown 형식으로 변경해 보세요.
 
@@ -288,7 +526,18 @@ JavaScript/TypeScript 저장소에만 한정되지 않고 어떤 코드베이스
 
 ## 영향을 받는 마이크로 프론트엔드
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 녋스에서 중요한 개념은 영향을 받은 코드에서 작업을 수행하는 능력입니다. 이 기능은 로컬 개발을 간소화하여 원격 환경에서 한 번에 하나의 마이크로 프론트엔드에 작업할 수 있도록 도와줍니다.
 
@@ -298,7 +547,18 @@ JavaScript/TypeScript 저장소에만 한정되지 않고 어떤 코드베이스
 
 독립성과 격리는 마이크로 프론트엔드 아키텍처의 핵심 원칙이지만, 일부 서비스와 컴포넌트를 모든 인스턴스 간에 공유하는 것은 불가피합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단일 버전 정책과 결합된 모노 레포 접근 방식은 마이크로 프론트엔드가 서로 호환되어 융성적인 생태계를 유지하도록 보장합니다.
 
@@ -308,7 +568,18 @@ JavaScript/TypeScript 저장소에만 한정되지 않고 어떤 코드베이스
 
 ![이미지](/assets/img/2024-06-22-ItsTimetoTalkAboutImportMapMicroFrontendandNxMonorepo_10.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 죄송하지만 Native Federation과 함께 import map overrides를 구현하지 못했습니다. 그러나 이 문제는 현재 GitHub에서 논의 중입니다:
 
@@ -318,7 +589,18 @@ JavaScript/TypeScript 저장소에만 한정되지 않고 어떤 코드베이스
 
 - 먼저, 내 GitHub 저장소를 복제하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 git clone git@github.com:jogelin/nx-nf.git && cd nx-nf
@@ -332,7 +614,18 @@ pnpm install
 
 3. 다음으로, mf-admin과 같이 마이크로 프론트엔드 하나를 시작할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npx nx run mf-admin:serve
@@ -344,10 +637,21 @@ npx nx run mf-admin:serve
 
 5. 이제, 즐겨 사용하는 브라우저 디버깅 도구를 열고 로컬 서버를 원격 애플리케이션에 연결하려면 로컬 스토리지에 이 항목을 추가하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-localStorage.setItem('native-federation-override:mfAdmin', 'http://localhost:4203/remoteEntry.json') // mfAdmin을 로컬 서버로 오버라이드합니다
+localStorage.setItem("native-federation-override:mfAdmin", "http://localhost:4203/remoteEntry.json"); // mfAdmin을 로컬 서버로 오버라이드합니다
 ```
 
 6. 이후에, mf-admin 마이크로 프론트엔드에 수정을 가해주세요. 예를 들어, "어드민 페이지에 오신 것을 환영합니다" 메시지를 "로컬 어드민 페이지에 오신 것을 환영합니다"로 변경하세요.
@@ -356,19 +660,41 @@ localStorage.setItem('native-federation-override:mfAdmin', 'http://localhost:420
 
 7. 변경 사항을 적용한 후 페이지를 새로고침하면, 원격 서버에 즉시 변경 사항이 반영된 것을 확인할 수 있습니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-22-ItsTimetoTalkAboutImportMapMicroFrontendandNxMonorepo_13.png" />
 
 8. 변경 사항을 되돌리려면 로컬 스토리지에서 항목을 제거하고 페이지를 새로 고쳐서 원래 상태를 다시 확인하실 수 있습니다.
 
 ```js
-localStorage.removeItem('native-federation-override:mfAdmin');
+localStorage.removeItem("native-federation-override:mfAdmin");
 ```
 
 이 방법을 사용하여 모든 마이크로 프론트 엔드를 재정의할 수 있습니다. 그러나 앞서 말씀드린 대로, 네이티브 페데레이션을 사용하는 방법은 import 맵의 기본 동작을 사용하지 않기 때문에 완전히 네이티브한 것은 아닙니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저의 GitHub 저장소에서 Native Federation, Angular 및 Nx를 활용한 모든 코드를 찾아볼 수 있어요.
 
@@ -378,7 +704,18 @@ localStorage.removeItem('native-federation-override:mfAdmin');
 
 import 맵 원칙의 단순함과 효과적인 접근 방식은 우아한 해결책으로 복잡한 문제를 해결하는 방법을 보여줍니다. 향후 개발이 더 원활하고 직관적으로 되는 곳을 힌트로 알려주며, 네이티브 브라우저 기능을 선호함으로써 맞춤형 프레임워크 구현에 대한 의존성이 줄어드는 미래를 예측합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 게다가, 이 생태계의 일부로서 Nx의 사용은 개발자들이 증진된 민첩성과 정밀성으로 복잡한 프로젝트에 접근할 수 있도록 강력한 도구 모음을 제공합니다.
 
@@ -388,7 +725,18 @@ import 맵 원칙의 단순함과 효과적인 접근 방식은 우아한 해결
 
 # 크레딧
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 조엘 데닝
 
@@ -398,7 +746,18 @@ import 맵 원칙의 단순함과 효과적인 접근 방식은 우아한 해결
 
 ## 만프레드 슈타이어
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Manfred는 엔지니어, 건축가, 강연가, 트레이너, 컨설턴트 및 작가로, 이야기를 잘 알고 있습니다. Angular뿐만 아니라 모든 사람들을 위해, 마이크로 프런트엔드 및 웹 아키텍처에 관심이 있는 분들에게 Manfred의 책 'Enterprise Angular: Micro Frontends and Moduliths with Angular'과 Angular Architect 팀의 블로그를 살펴보기를 적극 권유합니다.
 
@@ -406,7 +765,18 @@ Manfred는 엔지니어, 건축가, 강연가, 트레이너, 컨설턴트 및 �
 
 # 쉽게 이해하기 🚀
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 In Plain English 커뮤니티에 참여해 주셔서 감사합니다! 떠나시기 전에:
 

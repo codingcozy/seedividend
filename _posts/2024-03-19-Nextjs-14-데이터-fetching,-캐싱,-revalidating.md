@@ -3,17 +3,13 @@ title: "Nextjs 14 데이터 fetching, 캐싱, revalidating"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # Nextjs 14 데이터 fetching, 캐싱, revalidating
 
@@ -28,7 +24,18 @@ isUpdated: true
 - 클라이언트에서 Route Handler를 통해
 - 클라이언트에서 제3자 라이브러리를 사용하여
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## fetch를 사용하여 서버에서 데이터 가져오기
 
@@ -59,7 +66,18 @@ export default async function Page() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 > 알아두세요:
 > Next.js는 Server Components에서 데이터를 가져올 때 유용한 함수를 제공합니다. 이 함수들은 쿠키와 헤더와 같은 요청 시간 정보에 의존하기 때문에 경로가 동적으로 렌더링됩니다.
@@ -78,7 +96,18 @@ export default async function Page() {
 fetch("https://...", { cache: "force-cache" });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 예외가 있습니다. fetch 요청은 다음과 같은 경우에 캐시되지 않습니다.
 
@@ -98,7 +127,18 @@ fetch("https://...", { cache: "force-cache" });
 - 시간 기반 재검증: 리소스의 캐시 수명을 설정하여 일정 시간이 지난 후 데이터를 자동으로 재검증합니다. 이는 데이터가 드물게 변경되고 신선도가 중요하지 않을 때 유용합니다.
 - 요청 기반 재검증: 이벤트(예: 양식 제출)에 따라 데이터를 수동으로 재검증합니다. 요청 기반 재검증은 한 번에 여러 데이터 그룹을 재검증하도록 태그 기반이나 경로 기반 접근 방식을 사용할 수 있습니다. 내용이 업데이트되었을 때 가능한 빨리 최신 데이터가 표시되도록 할 때 유용합니다(예: 헤드리스 CMS에서 콘텐츠가 업데이트될 때).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 #### 시간 기반 재검증
 
@@ -120,7 +160,18 @@ export const revalidate = 3600; // 최대 한 시간마다 재검증
 
 시간 기반 재검증에 대해 더 알아보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 #### 요청 기반 재검증
 
@@ -159,7 +210,18 @@ export default async function action() {
 
 데이터를 재검증하려고 시도하는 동안 오류가 발생하면 마지막으로 성공적으로 생성된 데이터가 캐시에서 계속 제공됩니다. 다음 요청에서 Next.js는 데이터를 다시 재검증하기 위해 재시도합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 데이터 캐싱 비활성화
 
@@ -189,7 +251,18 @@ fetch API 참조에서 사용 가능한 모든 캐시 옵션을 확인하세요.
 
 그러나 각 fetch 요청의 캐싱 동작을 개별적으로 구성하는 것이 좋습니다. 이렇게 하면 캐싱 동작을 더 세밀하게 제어할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 서버에서 제3자 라이브러리를 사용하여 데이터 가져오기
 
@@ -199,7 +272,18 @@ fetch API 참조에서 사용 가능한 모든 캐시 옵션을 확인하세요.
 
 또한 실험적인 unstable_cache API를 사용할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 예시
 
@@ -224,34 +308,48 @@ import { getItem } from "@/utils/get-item";
 
 export const revalidate = 3600; // 최대 한 시간마다 데이터 재검증
 
-export default async function Layout({
-  params: { id },
-}: {
-  params: { id: string };
-}) {
+export default async function Layout({ params: { id } }: { params: { id: string } }) {
   const item = await getItem(id);
   // ...
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```typescript
 import { getItem } from "@/utils/get-item";
 
 export const revalidate = 3600; // 최대 한 시간마다 데이터 재검증
 
-export default async function Page({
-  params: { id },
-}: {
-  params: { id: string };
-}) {
+export default async function Page({ params: { id } }: { params: { id: string } }) {
   const item = await getItem(id);
   // ...
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 라우트 핸들러를 사용하여 클라이언트에서 데이터 가져오기
 

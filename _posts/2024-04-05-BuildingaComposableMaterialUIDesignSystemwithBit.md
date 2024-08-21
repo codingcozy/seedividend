@@ -3,17 +3,13 @@ title: "Building a Composable Material UI Design System with Bit"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Building a Composable Material UI Design System with Bit"
 link: "https://medium.com/bitsrc/building-a-composable-material-ui-design-system-with-bit-875a0bdeaac8"
 isUpdated: true
 ---
-
-
-
-
 
 ## 사용하기 쉽고 유지 보수하기 쉽고 확장하기 쉬운 구성 가능한 MUI 기반 디자인 시스템 만드는 방법
 
@@ -23,7 +19,18 @@ Material-UI는 Material Design의 미적 요소를 React의 기능성과 결합�
 
 # 구성 가능한 디자인 시스템이란 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컴포저블 디자인 시스템은 마치 건물 블록 모음처럼 구성되어 있습니다. 각 블록 또는 이 경우에는 구성 요소는 독립적으로 선택하고 사용할 수 있습니다. 이는 프로젝트의 요구 사항에 완벽하게 맞는 부분을 사용하여 디지털 제품을 구축할 수 있는 유연성과 자유를 나타냅니다. 필요한 것을 정확히 직접 선택할 수 있는 거대한 요소 라이브러리가 있는 상황을 상상해보세요.
 
@@ -33,7 +40,18 @@ Material-UI는 Material Design의 미적 요소를 React의 기능성과 결합�
 
 ![이미지](/assets/img/BuildingaComposableMaterialUIDesignSystemwithBit_0.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 이러한 특성을 살려내고 정말로 구성 가능한 디자인 시스템을 만들기 위해 Bit를 사용할 것입니다.
 
@@ -43,7 +61,18 @@ Bit는 당신의 디자인 시스템의 모든 부분, 모든 구성 요소가 �
 
 ## 토큰
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 디자인 시스템에서 토큰은 기본 요소로 생각할 수 있습니다. 색상, 타이포그래피, 간격, 그림자와 같은 원자 단위로, 디자인 시스템의 기본 시각적 및 기능적 측면을 지배합니다. 이러한 속성들은 다양한 구성 요소 전반에 걸쳐 활용되어 응용 프로그램 전체에서 일관된 외관과 느낌을 제공합니다. 토큰을 사용하면 디자인 결정을 대량으로 관리하고 적용하여 디자인 시스템을 보다 쉽게 유지 및 발전시킬 수 있습니다.
 
@@ -68,7 +97,18 @@ Bit는 당신의 디자인 시스템의 모든 부분, 모든 구성 요소가 �
 
 ## 테마
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테마는 디자인 시스템 전반의 미학을 정의하는 디자인 토큰의 일관된 모음입니다. 색상 구성표, 타이포그래피 스타일, 간격, 그림자 등을 포괄합니다. 테마는 디자인 시스템 전반에 걸쳐 일관성을 유지하며, 이는 일관된 사용자 경험을 촉진합니다.
 
@@ -78,7 +118,18 @@ Bit는 당신의 디자인 시스템의 모든 부분, 모든 구성 요소가 �
 
 ![Building a Composable Material-UI Design System with Bit](/assets/img/BuildingaComposableMaterialUIDesignSystemwithBit_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 자세한 내용은 함께해서 테마 구성에 대한 이 튜토리얼을 시청해보세요:
 
@@ -88,7 +139,18 @@ UI 컴포넌트는 응용 프로그램의 사용자 인터페이스를 구성하
 
 구성 가능한 디자인 시스템에서 이러한 UI 컴포넌트들은 독립적으로 사용, 사용자 정의 및 확장할 수 있습니다. 이는 다양한 맥락에 적응할 수 있는 특정 기능을 갖춘 다양한 유용한 도구들로 가득한 도구 상자를 갖고 있는 것과 같습니다. 이는 코드 재사용성을 촉진하고 개발 속도를 높이며 시스템 전반의 유지 관리성을 향상시킵니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Bit를 사용하면 디자인 시스템 요소를 효율적으로 관리할 수 있어요. Bit는 컴포넌트를 선택하고 업데이트를 피하며 UI 컴포넌트, 디자인 토큰 및 테마를 확장하고 사용자 프로젝트에 맞게 맞춤화할 수 있는 유연성을 제공해요. 이것이 참으로 조합 가능한 디자인 시스템의 본질이에요.
 
@@ -98,7 +160,18 @@ Bit를 사용하면 디자인 시스템 요소를 효율적으로 관리할 수 
 
 여기서 당신의 디자인 시스템에 구성 요소를 사용하는 방법을 확인할 수 있어요. 이 단계별 가이드를 통해 Bit를 설치하고 새 워크스페이스를 만들고 컴포넌트를 포크하고 그것들을 당신의 스코프로 내보내는 과정을 안내해 드릴게요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단계 1: Bit 설치하기
 
@@ -110,7 +183,18 @@ npx @teambit/bvm install
 
 이 명령어는 Bit Version Manager (BVM)를 통해 Bit을 다운로드하고 설치합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2단계: 새 작업 공간 생성하기
 
@@ -122,7 +206,18 @@ bit init
 
 이 명령은 현재 디렉토리에 새로운 Bit 작업 공간을 초기화합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3단계: 컴포넌트 포크
 
@@ -134,7 +229,18 @@ bit fork showoff.design/theme/theme-provider
 
 '포크' 명령은 '테마-프로바이더' 컴포넌트의 사본을 작업 환경에 생성하여 필요에 맞게 수정할 수 있도록 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테마 외에도 UI 구성 요소를 사용하고 싶을 때가 있죠. 예를 들어 'button' 컴포넌트를 포크해 봅시다:
 
@@ -146,7 +252,18 @@ bit fork showoff.design/inputs/button
 
 첫째로, 이 컴포넌트를 광범위하게 사용자 정의할 수 있어요. 색상과 같은 기본 속성들을 설정하고 API를 필요에 맞게 조정할 수 있습니다. 둘째로, 미래에 기초 라이브러리(이 경우 Material-UI)를 바꾸기로 결정한다면, 우리의 버튼에 의존하는 다른 컴포넌트를 방해하지 않고 한 번에 바꿀 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **단계 4: 범위로 내보내기**
 
@@ -158,7 +275,18 @@ bit export
 
 이 명령은 수정한 구성 요소를 당신의 범위로 내보내어 프로젝트 전반에서 사용할 준비를 하게 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 완료했습니다! Bit를 성공적으로 설치했고, 새 워크스페이스를 만들고, 컴포넌트를 복제하고, 여러분의 범위로 내보냈습니다. 이제 여러분은 본인의 구성 가능한 디자인 시스템을 최대한 활용할 준비가 된 것입니다!
 
@@ -168,7 +296,18 @@ bit export
 
 예를 들어 '테마'와 'UI 구성 요소'를 설치하고 싶다면 다음 명령어를 사용할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm install @showoff/design.theme
@@ -181,7 +320,18 @@ npm install @showoff/design.ui-component
 
 각 Bit 컴포넌트는 자체 미니 리포지토리로, 코드, 의존성 및 버전 기록 등을 가지고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 독특한 구조는 각 구성 요소를 독립적으로 개발, 버전 관리 및 관리할 수 있으면서 전통적인 패키지 관리자에서 발견되는 쉬운 설치 기능을 유지합니다.
 
@@ -191,7 +341,18 @@ npm install @showoff/design.ui-component
 
 실제 프로젝트에서 이게 어떻게 작동하는지 예시를 살펴보겠습니다. 포트폴리오 웹사이트를 살펴보도록 하겠습니다. 이 웹사이트는 위에서 언급한대로 설치된 디자인 시스템에서 여러 구성 요소를 활용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 포트폴리오 웹사이트는 다양한 UI 컴포넌트와 테마를 보여주며, 통일되고 일관된 디자인 언어를 반영합니다.
 
@@ -201,7 +362,18 @@ npm install @showoff/design.ui-component
 
 기억하세요, 컴포넌트를 직접 설치하면 유지 관리 부담을 줄일 수 있습니다. 업데이트는 디자인 시스템에서 직접 처리되므로 프로젝트 구축에 좀 더 집중할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 디자인 시스템 확장
 
@@ -211,7 +383,18 @@ npm install @showoff/design.ui-component
 
 이 블로그 포스트에서는 이러한 측면과 더 많은 내용에 대해 자세히 살펴볼 것입니다. 언급된 개념을 설명하기 위해 예시 범위로 showoff.design을 선택했습니다. Showoff 조직은 개발자들이 자신의 능력을 소개하는 데 도움이 주는 것에 전념하고 있습니다. 개발자를 위해 특별히 제작된 구성 가능한 포트폴리오 앱을 제공합니다. 이 앱의 기반은 MUI 구성 요소로 완전히 구축된 디자인 범위이며, 모두 Bit에 의해 관리됩니다. 그러니 바로 시작해봅시다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 디자인 시스템 개요
 
@@ -221,7 +404,18 @@ npm install @showoff/design.ui-component
 
 우리가 살펴보는 조직은 다양한 MUI 컴포넌트들이 scopes로 그룹화되어 있으며, 각각이 고유한 기능을 제공합니다. 예를 들어, 어떤 scopes에는 시각적 표현이 없는 기본 컴포넌트가 포함되어 있고, 다른 scopes에는 이러한 기본 컴포넌트에 시각적 레이어를 추가합니다. 이러한 방식으로 컴포넌트를 조합함으로써 잠재적인 문제를 분리시킬 수 있어, 처리하기 쉬워집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 showoff.dev의 범위에는 env와 같은 구성 요소가 포함되어 있습니다. 개발 환경('env') 구성 요소는 개발, 빌드 및 제공에 사용하는 도구 및 구성 요소의 모음입니다. 간단히 말하면, 당신의 개발 환경은 표준화되어 있으며 항상 설정한 구성 요소에 "붙어" 있음을 의미합니다. 예를 들어, Card 구성 요소는 React With Mui env를 사용하고 있으며 미리보기를 테마 제공자로 감싸면서(@mui/material을 피어 종속성으로 설정) 다른 다양한 작업을 수행합니다.
 
@@ -231,7 +425,18 @@ showoff.dev의 범위에는 env와 같은 구성 요소가 포함되어 있습�
 
 ![이미지](/assets/img/BuildingaComposableMaterialUIDesignSystemwithBit_6.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컴포넌트들은 분명히 MUI 라이브러리의 fragment를 사용하고 우리 조직에 맞는 변화를 줍니다. 예를 들어, Chip 컴포넌트는 이렇게 간단합니다:
 
@@ -283,7 +488,18 @@ export function Header({ logo, navLinks = [], themeToggle }: HeaderProps) {
 ...나머지 코드
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에서 볼 수 있듯이, 내비게이션/링크 및 타이포그래피 컴포넌트를 사용합니다. 다음 섹션에서는 Bit 컴포넌트를 함께 구성하는 이점에 대해 논의할 것입니다.
 
@@ -293,7 +509,18 @@ export function Header({ logo, navLinks = [], themeToggle }: HeaderProps) {
 
 그러나 git 커밋과는 달리 전체 저장소의 상태를 저장하는 것이 아니라, Bit의 태깅 시스템은 각 컴포넌트의 상태를 독립적으로 잠그며 내보낼 수 있게 표시할 수 있도록 합니다. 이를 통해 컴포넌트를 내보낼 수 있도록 표시하고 그들의 모든 변경 사항을 추적할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Building a Composable Material UI Design System with Bit](/assets/img/BuildingaComposableMaterialUIDesignSystemwithBit_7.png)
 
@@ -303,7 +530,18 @@ export function Header({ logo, navLinks = [], themeToggle }: HeaderProps) {
 
 ![Building a Composable Material UI Design System with Bit](/assets/img/BuildingaComposableMaterialUIDesignSystemwithBit_8.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/BuildingaComposableMaterialUIDesignSystemwithBit_9.png" />
 
@@ -313,7 +551,18 @@ export function Header({ logo, navLinks = [], themeToggle }: HeaderProps) {
 
 여기서 테마 제공자 컴포넌트가 필요한데, 고객이 필요에 맞게 속성을 조정할 수 있도록 합니다. 이곳에서 표준화와 개인화를 균형 있게 유지하는 것이 중요합니다. 테마 제공자는 테마 속성을 허용하여 개별적인 테마로 적용할 수 있도록 합니다. 그러나 테마 제공자의 소비자가 귀하의 조직 표준을 준수하는지 어떻게 보장할까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해결책은 기본 테마 구성 요소를 확장하여 새 테마를 만드는 것입니다. 이 접근 방식을 통해 테마는 조직의 기본 표준과 일관성을 유지하면서도 팀의 요구에 따라 맞춤화할 수 있는 유연성을 제공합니다. 다음은 실제 예시입니다:
 
@@ -342,7 +591,18 @@ export function darkTheme(additionalConfigurations?: ThemeOptions): Theme {
 
 ![이미지](/assets/img/BuildingaComposableMaterialUIDesignSystemwithBit_10.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 컴포넌트 배포하기 (내보내기/발행하기)
 
@@ -352,7 +612,18 @@ Bit의 접근 방식의 독특한 기능은 개별 컴포넌트를 별도로 배
 
 컴포넌트가 태그되면 Bit는 린팅, 테스팅, 빌드 및 패키징과 같은 일련의 작업을 트리거합니다. 이러한 단계는 각 소프트웨어 조각이 예상대로 작동하도록 보장합니다. 그리고 이 프로세스가 어떻게 보이는지는 환경 컴포넌트로 결정되기 때문에 이를 완전히 제어할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Building a Composable Material-UI Design System with Bit_11](/assets/img/BuildingaComposableMaterialUIDesignSystemwithBit_11.png)
 
@@ -362,7 +633,18 @@ Bit의 접근 방식의 독특한 기능은 개별 컴포넌트를 별도로 배
 
 ## 구성 요소 채택과 사용법
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Bit는 구성 요소를 채택하고 사용하는 프로세스를 간단하게 만들고자 합니다. 범위로 구분하여 구성되고 독립적인 버전 관리 기능을 제공하여 Bit는 명확하고 구조화된 환경을 제공합니다. 이를 통해 개발자들은 프로젝트에 구성 요소를 찾고, 이해하고 통합하는 것을 용이하게 할 뿐만 아니라 다양한 조직 프로젝트에 널리 사용되도록 장려합니다.
 
@@ -374,7 +656,18 @@ bit install @showoff/design.icons.bit
 
 설치 후, 해당 구성 요소는 즉시 프로젝트에서 사용할 수 있습니다. 직접 만든 프로젝트 중 하나에서 이 구성 요소를 사용하면 Bit가 자동으로 의존성 그래프에 포함시킵니다. (아래 이미지 참조)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/BuildingaComposableMaterialUIDesignSystemwithBit_13.png" />
 
@@ -384,7 +677,18 @@ Bit는 컴포넌트 업데이트를 효율적으로 관리하는 방법을 제�
 
 앞 섹션에서 강조한 대로, Ripple CI를 사용하여 컴포넌트를 자동으로 업데이트할 수 있습니다. 그러나 수동 업데이트를 선호하는 경우, 명령어 `bit update`를 실행할 수 있습니다. 이 명령어는 컴포넌트의 최신 버전을 확인하고 업데이트할지 여부를 물어줍니다. 또한 컴포넌트 내 설치된 패키지의 업데이트를 확인하여 프로젝트를 최신 상태로 유지하고 효율적으로 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![BuildingaComposableMaterialUIDesignSystemwithBit_14.png](/assets/img/BuildingaComposableMaterialUIDesignSystemwithBit_14.png)
 
@@ -394,7 +698,18 @@ Bit는 변경 제안을 쉽게 할 수 있도록하여 협업을 크게 향상�
 
 다음 시나리오를 고려해보세요: 디자인 스코프에서 'inputs/button' 컴포넌트를 사용하고 있지만 현재 포함되어 있지 않은 확장된 API 기능을 버튼이 필요합니다. 이 상황을 어떻게 처리하는지 살펴보겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - showoff.design/inputs/button을 워크스페이스에 가져오세요.
 - bit lane create extend-button-api로 새로운 레인을 만드세요.
@@ -407,7 +722,18 @@ Bit는 변경 제안을 쉽게 할 수 있도록하여 협업을 크게 향상�
 
 ## 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요약하면, Bit는 디자인 시스템 구성요소의 라이프사이클을 관리하기 위한 포괄적인 솔루션을 제공하여 더 효과적이고 효율적이며 협업이 잘 되는 작업 환경을 조성합니다. 개별적으로 구성요소를 배포하는 것처럼 특정 기능을 잠그는 열쇠를 제공하는 것부터 직관적인 그룹화 및 독립적인 버전 관리를 통해 그 채용과 사용을 용이하게 합니다.
 

@@ -3,17 +3,13 @@ title: "웹 UI 개발을 개발자들이 어려워하는 이유"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Why Web UI Development Is So Hard"
 link: "https://medium.com/itnext/why-web-ui-development-is-so-hard-a88c47f4b3c5"
 isUpdated: true
 ---
-
-
-
-
 
 웹 UI 개발은 처음 눈에는 간단해 보일 수 있지만, 더 깊게 파고들면 경험이 풍부한 개발자조차도 도전하는 다양한 복잡성을 발견할 수 있습니다. 이 글은 웹 UI 개발의 본질적인 도전 요소들을 해부해 보려 합니다. 웹 언어와 최신 UI 요구 사항 사이의 불일치부터 복잡한 데이터 관리 문제 및 비동기 API 호출에 이르기까지 다루고 있습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 간단한 문서 형태의 웹 페이지를 만드는 경우에는(예: 검색 상자나 모달과 같은 고급 UI 요소가 없는 기본 기사) 웹 브라우저가 제공하는 내장 언어가 일반적으로 충분하지 않습니다. 대부분의 웹 애플리케이션은 단순한 문서보다 훨씬 복잡합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![/assets/img/WhyWebUIDevelopmentIsSoHard_0.png](/assets/img/WhyWebUIDevelopmentIsSoHard_0.png)
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ![/assets/img/WhyWebUIDevelopmentIsSoHard_1.png](/assets/img/WhyWebUIDevelopmentIsSoHard_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 개발에서는 이러한 경우가 없습니다. 예를 들어, 사용자 지정 검색 입력란을 만들려면 추가 요소로 래핑하고 색상을 섬세하게 조정하며 여백과 글꼴을 조정하고 사용자 안내용 아이콘을 추가해야 합니다. 검색 상자 바로 아래에 나타나는 너비가 정확히 일치하는 자동 제안 목록을 만드는 것은 일반적으로 처음에 생각한 것보다 훨씬 더 노동 집약적일 수 있습니다.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 개발자들은 HTML, CSS 및 JavaScript로 이를 모방하기 위해 열심히 노력했습니다. 사이트의 CSS를 임시로 비활성화하면 다음과 같은 결과물을 얻게됩니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![WhyWebUIDevelopmentIsSoHard_3](/assets/img/WhyWebUIDevelopmentIsSoHard_3.png)
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 안타깝게도, 언어 불일치는 문제의 작은 부분일 뿐이며 솔직히 말해서, React와 Vue와 같은 선언적 UI 라이브러리가 있어 상황은 약간 변했습니다. 그러나 프론트엔드 영역에는 다른 도전 과제가 있습니다. 데이터(상태) 관리는 분명히 목록에 포함됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 상태 관리 이해하기
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 ![이미지](/assets/img/WhyWebUIDevelopmentIsSoHard_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Redux 또는 MobX와 같은 서드 파티 상태 관리 라이브러리를 사용하는 것은 애플리케이션이 상태 추적이 어려운 수준에 도달했을 때 유익할 수 있습니다. 그러나 이 접근 방식에는 주의할 점이 있는데, 신중히 고려해야 합니다.
 
@@ -73,7 +124,18 @@ Redux 또는 MobX와 같은 서드 파티 상태 관리 라이브러리를 사�
 
 UI 개발에 있어서 주로 주목하는 부분은 종종 "행복한 경로"입니다. 즉, 모든 것이 계획대로 진행되는 최적의 사용자 여정에 초점이 맞춰져 있습니다. 그러나 "불행한 경로"를 무시하면 UI가 처음에 생각한 것보다 훨씬 복잡해질 수 있습니다. 불행한 경로로 이어질 수 있는 상황들과 결과적으로 UI 개발 노력을 복잡하게 만들 수 있는 일부 시나리오를 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 다른 컴포넌트에서의 오류
 
@@ -82,13 +144,7 @@ UI 개발에 있어서 주로 주목하는 부분은 종종 "행복한 경로"�
 예를 들어, 아래 코드에서는 전달받은 props에 존재하지 않는 항목에 접근하려고 시도하고 있습니다. 이는 자주 발생하는 TypeError인데, 'undefined'의 속성을 읽을 수 없다는 에러가 발생합니다.
 
 ```js
-const MenuItem = ({
-  item,
-  onItemClick,
-}: {
-  item: MenuItemType,
-  onItemClick: (item: MenuItemType) => void,
-}) => {
+const MenuItem = ({ item, onItemClick }: { item: MenuItemType, onItemClick: (item: MenuItemType) => void }) => {
   // @ts-ignore
   const information = item.name + item.something.doesnt.exist;
 
@@ -102,7 +158,18 @@ const MenuItem = ({
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 에러를 ErrorBoundary로 분리하지 않으면 전체 애플리케이션이 충돌할 수 있습니다.
 
@@ -112,7 +179,18 @@ const MenuItem = ({
 
 UI가 데이터를 가져 오기 위해 여러 마이크로서비스 또는 API에 의존 할 수 있습니다. 이러한 다운스트림 시스템 중 하나가 다운되면 UI가 적절히 대응해야 합니다. 사용자에게 무엇을 해야 하는지 안내하는 대체 방법, 로딩 지시자 또는 친근한 오류 메시지를 디자인해야 합니다. 이러한 시나리오를 효과적으로 처리하는 것은 대개 프론트엔드 및 백엔드 로직 양측이 필요하기 때문에 UI 개발 작업에 또 다른 복잡성이 추가됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 예기치 못한 사용자 행동
 
@@ -122,7 +200,18 @@ UI가 데이터를 가져 오기 위해 여러 마이크로서비스 또는 API�
 
 이전에 이 기사에서 불행한 경로에 대해 논의한 적이 있습니다. 아직 읽지 않으셨다면 한 번 읽어보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 원격 상태에 네트워크로 액세스하기
 
@@ -144,7 +233,18 @@ useEffect(() => {
 }, []);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 실제 코드베이스에서는 fetch 함수를 사용하는 것 이외에도 추가적인 상태를 관리하는 일이 많이 발생하며, 이 과정에서 오류가 발생할 수도 있어요.
 
@@ -186,7 +286,18 @@ react-query 문서 페이지에는 다양한 고려해야 할 사항들이 장�
 
 ![WhyWebUIDevelopmentIsSoHard_6](/assets/img/WhyWebUIDevelopmentIsSoHard_6.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 기타 고려 사항
 
@@ -199,7 +310,18 @@ react-query 문서 페이지에는 다양한 고려해야 할 사항들이 장�
 
 위에서 언급한 각 항목은 개별 기사나 기사 시리즈로 다룰만큼의 내용을 포함하고 있지만, 글이 너무 길거나 압도적이지 않도록 이만 마치겠습니다. 깊이 파고들고 싶은 분들을 위해 추가 참고 자료가 포함된 참고문헌 목록을 제공했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 요약
 
@@ -209,7 +331,18 @@ react-query 문서 페이지에는 다양한 고려해야 할 사항들이 장�
 
 # 참고문헌
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - React 네트워크 프로그래밍에 대한 실용적인 가이드
 - 유지보수 가능한 React 코스 마스터하기

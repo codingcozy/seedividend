@@ -3,17 +3,13 @@ title: "CSS 코드 한줄로 배경 흐림 효과 만드는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How to make a background blur in CSS with one line of code"
 link: "https://medium.com/prototypr/how-to-make-a-background-blur-in-css-with-one-line-of-code-e446c7236e60"
 isUpdated: true
 ---
-
-
-
-
 
 ![Background Blur](/assets/img/HowtomakeabackgroundblurinCSSwithonelineofcode_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 그래서 이제 backdrop-filter CSS 속성을 사용하여 백그라운드 블러를 만드는 방법을 소개하겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 backdrop-filter: blur(5px);
@@ -35,7 +42,18 @@ backdrop-filter: blur(5px);
 
 # 배경 필터란 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 MDN에 따르면, "배경 필터 CSS 속성을 사용하면 요소 뒤의 영역에 흐림 또는 색 이동과 같은 그래픽 효과를 적용할 수 있습니다. 요소 뒤에 적용되므로 효과를 보려면 요소 또는 해당 배경을 반투명으로 만들어야 합니다."
 
@@ -45,7 +63,18 @@ MDN에 따르면, "배경 필터 CSS 속성을 사용하면 요소 뒤의 영역
 
 # 간단한 예시를 만들어봅시다
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우선 .background 클래스를 가진 div를 만들어보세요.
 
@@ -55,7 +84,18 @@ MDN에 따르면, "배경 필터 CSS 속성을 사용하면 요소 뒤의 영역
 
 이것은 45번째 라운드 Google 면접 스타일의 일이에요. 이제 마음과 마음을 바꾸는 작업을 완료해봐요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 .blur 클래스가 창의 전체 높이를 커버하되 너비의 절반만 커버하도록 만들겠습니다. 이렇게 하면 필터가 적용된 후 차이를 볼 수 있습니다.
 
@@ -65,7 +105,18 @@ MDN에 따르면, "배경 필터 CSS 속성을 사용하면 요소 뒤의 영역
 
 이제 여러분은 인류 창의력과 발명의 정상을 직접 응시하고 있어야 합니다. 반쪽은 흐리게 처리된 네 개의 파인애플. 모든 진지성을 벗어놓고 말하자면, 정말 멋집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 다중 필터 추가하기
 
@@ -75,7 +126,18 @@ MDN에 따르면, "배경 필터 CSS 속성을 사용하면 요소 뒤의 영역
 
 이를 통해 상당히 창의적으로 활용할 수 있습니다. 이 기능은 꽤 오랫동안 실험적이었으니, 브라우저 호환성 및 중요한 사항들을 반드시 확인하세요. 현재로서 이 글을 작성하는 시점에서 MDN에 따르면 인터넷 익스플로러, 안드로이드용 파이어폭스, 삼성 인터넷을 제외한 대부분의 주요 브라우저에서 지원하고 있다고 합니다. 따라서 그에 대한 대비책도 마련해 두세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 이루어 낸 영웅들에게 진심으로 감사드립니다. 당신들 덕분에 우리의 Dribbble 샷들은 더 많은 가능성을 가질 수 있게 되었어요.
 

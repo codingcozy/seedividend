@@ -3,17 +3,13 @@ title: "반드시 알아야하는 CSS 팁들"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "CSS best practices you should know"
 link: "https://medium.com/@paulohfev/css-best-practices-you-should-know-374c388a00dd"
 isUpdated: true
 ---
-
-
-
-
 
 ## CSS 마스터가 되는 데 도움이 되는 최선의 실천 팁
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ![이미지](/assets/img/CSSbestpracticesyoushouldknow_0.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시작하기 전에, 개발자들이 자신이 집중하고 있는 기술의 최상의 실천 방법에 대해 최신 정보를 유지하는 것이 중요하다는 점을 명심해 주세요. 오늘의 최상의 실첵 방법이 내일에 변경될 수 있다는 것을 아무도 막을 수 없습니다.
 
@@ -33,7 +40,18 @@ Sass나 Less와 같은 CSS 전처리기를 사용하면 더 체계적이고 모�
 
 ## 2. 코드 조직
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코드의 구성은 주관적인 면이 상당히 많지만, 모든 개발자가 염두에 두어야 할 일반적인 고려 사항이 있어요.
 
@@ -44,7 +62,18 @@ Sass나 Less와 같은 CSS 전처리기를 사용하면 더 체계적이고 모�
 
 CSS 선택자는 스타일을 지정하려는 HTML 요소를 찾는 데 사용돼요. 여기서 참조할 수 있는 선택자를 사용하는 여러 방법이 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일반적으로, HTML 구조에 너무 밀접하게 결합된 지나치게 특정한 선택자를 사용하는 것은 피하는 것이 좋습니다. 이렇게 하면 CSS를 유지 보수하기 어려워질 수 있습니다. 예를 들어:
 
@@ -62,7 +91,18 @@ div#container > ul.navigation li.active a.btn-primary span.icon {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예시에서는 모든 탐색 링크를 대상으로 하는 클래스 기반 선택기를 사용하고 있습니다. 이는 HTML 구조가 변경되더라도 유지보수가 더 쉽고 브레이크가 적습니다.
 
@@ -72,7 +112,18 @@ div#container > ul.navigation li.active a.btn-primary span.icon {
 
 CSS 특이성이 어떻게 작동하는지 이해하면 선택기와 정의를 가장 간결하고 명확하게 최적화할 수 있습니다. 다음 예시를 살펴보세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .container p {
@@ -90,7 +141,18 @@ CSS 특이성이 어떻게 작동하는지 이해하면 선택기와 정의를 �
 
 특이성이 더 높은 규칙인 .container p가 우선합니다. 따라서 `p` 요소 내부의 텍스트는 파란색이 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 5. !important 속성 사용을 피하세요
 
@@ -108,7 +170,18 @@ p {
 
 이 경우, p 태그는 빨간색으로 표시됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일반적으로!important를 너무 많이 사용하는 것을 피하고 대신 사용자 정의 클래스 네이밍 및 적절한 선택자 정의를 통해 스타일링 정의를 의존하는 것이 좋습니다.
 
@@ -118,7 +191,18 @@ p {
 
 CSS 선택자를 하나의 부모에 너무 깊게 중첩하거나 부모와 자식 간 관계로 너무 깊게 중첩하지 말아야 합니다. 다음 예시를 살펴보세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .wrapper {
@@ -147,7 +231,18 @@ CSS 선택자를 하나의 부모에 너무 깊게 중첩하거나 부모와 자
 
 ## 7. CSS 모듈화하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모듈화는 CSS를 작은 재사용 가능한 모듈 또는 구성 요소로 나누는 것을 의미합니다. 이 방법을 사용하면 코드베이스를 더 유지보수하기 쉽게 만들고 특히 대규모 프로젝트에서 코드 재사용을 장려합니다. 각 모듈은 특정 UI 구성 요소나 기능의 스타일을 캡슐화해야 합니다.
 
@@ -172,7 +267,18 @@ CSS 선택자를 하나의 부모에 너무 깊게 중첩하거나 부모와 자
 
 CSS를 모듈로 구성하면 버튼, 내비게이션 바, 카드에 대한 스타일을 웹사이트 전체에서 중복코드를 생성하지 않고 쉽게 재사용할 수 있습니다. 게다가 특정 컴포넌트의 스타일을 업데이트해야 할 경우 한 곳에서 변경하여 일관성을 유지할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 큰 규모의 견고한 아키텍처에서는 CSS를 별도의 파일과 디렉터리로 나누는 것이 훨씬 효율적일 것입니다. 고려할 만한 인기 있는 패턴 중 하나는 Sass를 활용하는 7-1 패턴입니다.
 
@@ -182,7 +288,18 @@ CSS를 모듈로 구성하면 버튼, 내비게이션 바, 카드에 대한 스�
 
 ## 9. 다양한 브라우저에서 테스트하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다양한 브라우저에서 일관된 방식으로 스타일이 작동하는지 확인하고 호환성 문제를 해결함으로써 안심할 수 있습니다. 참고로, CanIUse 플랫폼을 사용하여 CSS 정의가 모든 브라우저에서 호환되는지 여부를 확인할 수 있습니다.
 
@@ -192,7 +309,18 @@ CSS 코드 문서화는 주석을 추가하거나 CSS 규칙과 스타일의 목
 
 문서화 작업은 팀 프로젝트에 참여할 때나 시간이 지난 후 자신의 코드로 돌아갈 때 특히 가치가 있습니다. 복잡한 해결책의 내부 기능을 설명하는 데 특히 유용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 광범위한 문서가 필요하다면 전반적인 CSS 아키텍처, 네이밍 규칙과 유지 보수 및 스타일 확장에 대한 고려 사항과 특정 가이드라인을 설명하는 별도의 문서나 README 파일을 작성해 보세요.
 

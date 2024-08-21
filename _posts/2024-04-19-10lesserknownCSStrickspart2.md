@@ -3,17 +3,13 @@ title: "10가지 잘 알려지지 않은 CSS 트릭 2부"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "10 lesser known CSS tricks part 2"
 link: "https://medium.com/@creativebyte/10-lesser-known-css-tricks-part-2-37614754108e"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/10lesserknownCSStrickspart2_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ## 01. flexbox를 사용한 수직 중앙 정렬
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컨테이너 안에 컨텐츠를 가로 및 세로로 쉽게 가운데 정렬하려면 플렉스박스를 사용하세요.
 
@@ -39,7 +46,18 @@ isUpdated: true
 
 웹페이지에서 텍스트를 선택할 때 하이라이트 색상을 사용자 정의하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 ::selection {
@@ -59,7 +77,18 @@ isUpdated: true
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 04. 그라데이션 테두리
 
@@ -75,7 +104,18 @@ isUpdated: true
 
 ## 05. vw 단위를 사용한 변수 글꼴 크기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 화면 너비에 따라 글꼴 크기를 조정하여 민첩한 반응형 글꼴을 만들어보세요.
 
@@ -89,7 +129,18 @@ body {
 
 원뿔 그라데이션을 사용하여 다채롭고 동적인 배경을 만들어보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .element {
@@ -107,7 +158,18 @@ clamp() 함수를 사용하여 폰트 크기의 범위를 설정하여 다양한
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 08. 폰트 디스플레이 스왑을 통한 효율적인 폰트 로딩
 
@@ -123,7 +185,18 @@ clamp() 함수를 사용하여 폰트 크기의 범위를 설정하여 다양한
 
 ## 09. 커스텀 스크롤 스냅 포인트
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음과 같이 Markdown 형식의 표로 변경하십시오.
 
@@ -143,7 +216,18 @@ clamp() 함수를 사용하여 폰트 크기의 범위를 설정하여 다양한
 
 가변 폰트와 font-variation-settings 속성을 활용하여 글꼴 두께, 스타일 및 기타 변형에 대한 세밀한 제어를 얻을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .text {

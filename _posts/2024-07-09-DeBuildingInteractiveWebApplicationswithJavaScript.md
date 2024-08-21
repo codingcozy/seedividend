@@ -3,15 +3,13 @@ title: "자바스크립트로 인터랙티브 웹 애플리케이션 구축하�
 description: ""
 coverImage: "/assets/img/2024-07-09-DeBuildingInteractiveWebApplicationswithJavaScript_0.png"
 date: 2024-07-09 14:16
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-DeBuildingInteractiveWebApplicationswithJavaScript_0.png
 tag: Tech
 originalTitle: "DeBuilding Interactive Web Applications with JavaScript"
 link: "https://medium.com/@rajataha062/building-interactive-web-applications-with-javascript-c805159d720c"
 isUpdated: true
 ---
-
-
 
 프론트엔드 개발자로서, 최근 나는 JavaScript 스킬을 더 깊게 키우기 위해 두 가지 대화형 웹 애플리케이션을 만들었습니다: GitHub 프로필 웹사이트와 할 일 앱입니다. 이 글에서는 이러한 프로젝트를 구축하는 과정을 안내하면서 JavaScript의 웹 개발에서의 강력함을 보여주는 주요 기능과 기능을 강조하겠습니다.
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 GitHub 프로필 웹사이트 프로젝트는 GitHub API를 활용하여 사용자 프로필을 동적으로 가져와 표시하는 것을 목표로했습니다. 이를 통해 실시간 데이터를 제공할 뿐만 아니라 비동기 JavaScript, DOM 조작 및 API 통합을 연습할 수 있었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-07-09-DeBuildingInteractiveWebApplicationswithJavaScript_0.png)
 
@@ -37,7 +46,18 @@ async function fetchGitHubProfile(username) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. DOM 조작: JavaScript를 사용하여 웹 페이지에 동적으로 가져온 데이터를 렌더링하는 것입니다.
 
@@ -51,7 +71,18 @@ function renderUserProfile(user) {
 
 # 사용자 경험 및 배운 점
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 깃허브 프로필 웹사이트는 내 기술적 능력을 향상시키는 데 도움이 되었을 뿐만 아니라 프론트엔드 개발에서 사용자 경험(UX) 디자인과 데이터 시각화의 중요성을 강조했습니다. API 응답 처리, 오류 처리, 성능 최적화를 통해 더 부드러운 사용자 상호작용을 위한 통찰력을 제공했습니다.
 
@@ -61,7 +92,18 @@ Bytewise-MERN-Fellowship/Week-04/Task-03/GitHub Profile App at main · raja-taha
 
 # 자바스크립트로 한 To-Do 앱
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 개요 및 목표
 
@@ -71,7 +113,18 @@ To-Do 앱 프로젝트는 베니라 자바스크립트를 사용하여 간단하
 
 # 구현 핵심내용
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 상태 관리: 배열과 객체를 사용하여 애플리케이션 내의 작업 및 상태를 관리합니다.
 
@@ -88,7 +141,18 @@ let tasks = [
 addTaskButton.addEventListener("click", addTask);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. 로컬 스토리지: 브라우저의 localStorage API를 사용하여 작업 데이터를 로컬에 지속 저장하여 세션 간 데이터 보존을 실현합니다.
 
@@ -100,7 +164,18 @@ localStorage.setItem("tasks", JSON.stringify(tasks));
 
 할 일 앱을 개발하면서 JavaScript 함수, 이벤트 주도 프로그래밍, 웹 애플리케이션에서의 접근성과 사용성의 중요성을 보다 명확히 이해하게 되었습니다. 또한 프론트엔드 개발에서 데이터 지속성과 CRUD 작업 등 기본 개념에 대해 알아가는 계기가 되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트 링크:
 
@@ -110,6 +185,17 @@ Bytewise-MERN-Fellowship/Week-04/Task-05 at main · raja-taha/Bytewise-MERN-Fell
 
 자바스크립트로 이러한 대화형 웹 애플리케이션을 구축하는 것은 보람 있는 경험이었어요. 여기서 이론적인 지식을 실제 프로젝트에 적용할 수 있어서 좋았습니다. API 통합과 DOM 조작, 반응형 디자인 및 로컬 스토리지까지, 각 프로젝트는 독특한 과제와 학습 기회를 제공했어요. 앞으로는 더 많은 기술을 배우고 새로운 기술을 탐험하여 더 많은 영향력 있는 웹 경험을 만들기를 기대하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 이 프로젝트들의 어떤 측면에 대해 더 자세히 알고 싶거나 질문이 있으면 언제든지 연락해주세요! 즐거운 코딩하세요!

@@ -3,20 +3,15 @@ title: "Nextjs AppRouter 라우팅 기초 정리"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
 
-
-
-
-
 # Nextjs AppRouter 라우팅 기초 정리
-
 
 # 라우팅 기본 사항
 
@@ -52,7 +47,18 @@ App Router는 새로운 app 디렉터리에서 작동합니다. app 디렉터리
 
 기본적으로 app 내부의 컴포넌트는 React Server Components입니다. 이것은 성능 최적화이며 쉽게 채택할 수 있으며 Client Components도 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 > 권장 사항: Server Components에 대해 처음이라면 Server 페이지를 확인하세요.
 
@@ -104,7 +110,18 @@ Next.js는 중첩된 라우트의 특정 동작을 위해 특별한 파일 세�
 
 ![중첩된 라우트](/assets/img/Fundamentals_5.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 공존
 

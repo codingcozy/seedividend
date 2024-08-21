@@ -3,16 +3,13 @@ title: "JavaScript 프록시와 리플렉션을 활용한 메타 프로그래밍
 description: ""
 coverImage: "/assets/img/2024-06-20-JavaScriptMeta-programmingwithProxiesandReflection_0.png"
 date: 2024-06-20 07:21
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-JavaScriptMeta-programmingwithProxiesandReflection_0.png
 tag: Tech
 originalTitle: "JavaScript Meta-programming with Proxies and Reflection"
 link: "https://medium.com/ekino-france/javascript-meta-programming-with-proxies-and-reflection-26263fc8b52f"
 isUpdated: true
 ---
-
-
-
 
 개요, 응용 프로그램, 모범 사례 및 제한 사항
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 제목을 읽은 후에, 메타프로그래밍이 무엇인지 궁금할 수 있습니다. 일반 프로그래밍과 어떻게 다른가요? 주요 개념 및 기술은 무엇일까요? 실제 예시는 어떻게 될까요? 다양한 언어에서는 어떻게 구현되는가요? 장단점은 무엇일까요? 그리고 JavaScript에서는 어떻게 활용될 수 있을까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 질문이 참 많죠! 그런데 걱정하지 마세요. 제가 이 기사에서 여러분의 궁금증을 해소하고 각 질문에 대답할 거에요. 여기 제가 제안하는 개요입니다:
 
@@ -50,7 +58,18 @@ isUpdated: true
 
 ### 메타 프로그래밍이란 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 메타 프로그래밍의 간단한 정의를 찾아보려면, 다양한 프로그래밍 언어 예제를 살펴보는 것부터 시작해보겠습니다:
 
@@ -63,7 +82,18 @@ isUpdated: true
 
 #define 지시어는 매크로를 생성하며, 이는 소스 코드 전체에서 재사용할 수 있는 코드의 자리 표시자입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 int main() {
@@ -99,7 +129,18 @@ int main() {
 
 프리프로세서(preprocessor)는 #if, #ifdef, #ifndef, #else, #endif와 같은 지시문을 사용하여 특정 조건에 따라 코드의 일부를 포함하거나 제외할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 #define DEBUG
@@ -115,7 +156,18 @@ printf("Debug mode\n");
 
 매크로가 메타 프로그래밍의 한 형태라는 것을 알고 계셨나요? 여기 메타 프로그래밍의 초기 정의가 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 🚩 컴파일러와 메타프로그래밍은 서로 다른 개념임을 명심하는 것이 중요합니다. 두 가지 모두 코드 조작을 포함하지만 목표와 방법이 다릅니다:
 
@@ -136,7 +188,18 @@ fn main() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 알다시피, 매크로는 컴파일 중에 다른 코드를 생성하거나 변환하는 코드를 작성할 수 있게 해줍니다.
 
@@ -165,7 +228,18 @@ import java.lang.annotation.Target;
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2️⃣ 템플릿 메타프로그래밍 (C++): 템플릿 메타프로그래밍은 컴파일러를 활용하여 효율적이고 타입 안전한 코드를 생성하는 강력한 기법으로, 성능 및 유지보수 측면에서 상당한 이점을 제공합니다.
 
@@ -222,20 +296,42 @@ public class ReflectExample {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4️⃣ 동적 평가 (JavaScript):
 
 ```js
 const code = 'console.log("안녕, 세상!");';
-eval(code);  // 출력: 안녕, 세상!
+eval(code); // 출력: 안녕, 세상!
 ```
 
 ⚠️ 조심해주세요, JavaScript에서 eval을 사용하는 것은 권장되지 않습니다.
 
 요약하면, 메타프로그래밍은 프로그램이 다른 프로그램을 데이터로 취급할 수 있는 프로그래밍 패러다임입니다. 이는 일반적으로 다음을 포함합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 코드 조작: 코드를 동적으로 생성, 변환 또는 검사할 수 있는 능력입니다.
 - 자동화: 코드 조작을 통해 반복적이거나 복잡한 작업을 자동화합니다.
@@ -248,7 +344,18 @@ eval(code);  // 출력: 안녕, 세상!
 
 자바스크립트에는 프락시(Proxies), 리플렉트 API, 그리고 데코레이터(Decorators)와 같이 메타프로그래밍에 활용할 수 있는 강력한 도구들이 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오, 걱정 마세요! 제가 말한 건 자바스크립트이고, 자바가 아니에요. 😊
 
@@ -260,7 +367,18 @@ eval(code);  // 출력: 안녕, 세상!
 
 아마 궁금하실 거예요: 자바스크립트 프락시는 메타프로그래밍 개념과 어떻게 관련이 되는 걸까요? 자바스크립트 프락시는 동적 코드 조작, 작업 자동화, 추상화 생성, 그리고 실행 중에 동작을 조정하여 메타프로그래밍 원칙과 일치해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 객체에 대한 기본 작업을 가로채고 사용자 정의하여, 프록시는 메타프로그래밍의 핵심 목표를 달성하며 코드의 유연성을 향상시키고 중복을 줄이며 복잡성을 관리하는 강력한 방법을 제공합니다.
 
@@ -270,19 +388,39 @@ eval(code);  // 출력: 안녕, 세상!
 
 ## Proxy 및 Reflect를 사용하여 속성 접근(GET) 가로채기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 이전에 보았듯이, JavaScript에서의 프록시는 객체에 대한 기본 작업들을 가로채고 재정의할 수 있도록 해줍니다. 속성에 접근하거나 할당, 열거, 함수 호출 등이 해당됩니다.
 
 프로퍼티 접근을 가로채기 위한 기본적인 방법은 다음과 같습니다:
 
-
-You can play with the code [here](<link>)
-
+You can play with the code [here](link)
 
 ✳️ target은 단일 속성 message를 가진 간단한 객체로, "Hello, World!"라는 문자열이 포함되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ✳️ 핸들러(handler)는 get 트랩을 정의하는 객체입니다. get 트랩은 대상 객체의 속성 접근을 가로채는 메서드입니다.
 
@@ -292,7 +430,18 @@ You can play with the code [here](<link>)
 
 ## 프록시(Proxy)와 Reflect를 사용하여 속성 할당(set)을 가로채는 방법
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로퍼티 설정을 가로채기 위해 프록시를 생성하는 기본적인 방법을 소개해 드립니다:
 
@@ -302,7 +451,18 @@ You can play with the code [here](<link>)
 
 ✳️ 프록시의 프로퍼티에 값이 할당되면, set 트랩이 작동됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ✳️ 설정된 함정 안에서:
 
@@ -314,7 +474,18 @@ You can play with the code [here](<link>)
 
 JavaScript 프록시의 맥락에서 get과 set 키는 속성 접근 및 설정 작업을 가로채기 위해 Proxy API에서 제공하는 특정 함정입니다. 이러한 키는 사전에 정의되어 있어 임의의 키로 대체할 수 없습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만, 우리는 다른 종류의 작업을 가로챌 수 있는 미리 정의된 다른 함정들을 사용할 수도 있습니다. Proxy API에서 사용 가능한 모든 함정 목록은 다음과 같습니다:
 
@@ -324,7 +495,18 @@ has 함정은 in 연산자를 가로챕니다:
 
 deleteProperty 함정은 delete 연산자를 가로챕니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `apply` 트랩은 함수 호출을 가로챕니다:
 
@@ -334,7 +516,18 @@ deleteProperty 함정은 delete 연산자를 가로챕니다:
 
 여기서 코드를 실험해 볼 수 있어요. 멋지네요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프록시 API와 리플렉트 API는 서로 보완적입니다. 프록시 API는 다양한 작업을 가로채는 트랩을 제공하여 사용자 정의 동작을 정의할 수 있게 해주고, 리플렉트 API는 이러한 트랩을 반영하는 일련의 메서드를 제공하여 트랩 내에서 기본 동작을 수행하기 쉽게 만듭니다:
 
@@ -373,27 +566,38 @@ const handler = {
 
 프록시 트랩 내에서 리플렉트 API를 사용하지 않으면, 가로챈 작업의 기본 동작을 수동으로 처리해야 합니다. 이는 오류를 유발할 수 있으며 항상 리플렉트를 사용하는 것만큼 일관성과 신뢰성을 보장하지는 않을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 get 케이스에서 발생할 수 있는 것들입니다.
 
 ```js
 const handler = {
-    get: function(target, prop, receiver) {
-        console.log(`속성 ${prop}을(를) 가져오는 중`);
-        return target[prop];  // 속성에 직접 접근
-    }
+  get: function (target, prop, receiver) {
+    console.log(`속성 ${prop}을(를) 가져오는 중`);
+    return target[prop]; // 속성에 직접 접근
+  },
 };
 
 const proxy = new Proxy(target, handler);
-console.log(proxy.name);  // 로깅: 속성 name을(를) 가져오는 중. 결과: Alice
+console.log(proxy.name); // 로깅: 속성 name을(를) 가져오는 중. 결과: Alice
 ```
 
 잠재적인 문제: target[prop]에 직접 접근하는 것은 상속된 속성이나 게터(getter)와 같은 모든 경우를 올바르게 처리하지 못할 수 있습니다.
 
 ```js
 const parent = {
-  inheritedProp: "상속되었어요"
+  inheritedProp: "상속되었어요",
 };
 
 const target = {
@@ -401,24 +605,34 @@ const target = {
   ownProp: "내 소유 속성이에요",
 };
 
-
 const handler = {
-  get: function(target, prop, receiver) {
+  get: function (target, prop, receiver) {
     console.log(`속성 ${prop}을(를) 가져오는 중`);
     return target[prop]; // 속성에 직접 접근
-  }
+  },
 };
 
 const proxy = new Proxy(target, handler);
 
 // 로깅: 속성 ownProp을(를) 가져오는 중. 결과: 내 소유 속성이에요
-console.log(proxy.ownProp); 
+console.log(proxy.ownProp);
 
 // 로깅: 속성 inheritedProp을(를) 가져오는 중. 결과: 아무것도 출력되지 않습니다
-console.log(proxy.inheritedProp); 
-```  
+console.log(proxy.inheritedProp);
+```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로토타입 체인에서 상속된 속성은 target[prop]에 의해 고려되지 않습니다.
 
@@ -426,7 +640,7 @@ console.log(proxy.inheritedProp);
 
 ```js
 const parent = {
-  inheritedProp: "상속받은 속성입니다."
+  inheritedProp: "상속받은 속성입니다.",
 };
 
 const target = {
@@ -435,24 +649,35 @@ const target = {
 };
 
 const handler = {
-  get: function(target, prop, receiver) {
+  get: function (target, prop, receiver) {
     console.log(`속성 ${prop}을(를) 가져옵니다.`);
     return Reflect.get(target, prop, receiver);
-  }
+  },
 };
 
 const proxy = new Proxy(target, handler);
 
 // 콘솔에 출력: 속성 ownProp를 가져옵니다. 결과: 자체 속성입니다.
-console.log(proxy.ownProp); 
+console.log(proxy.ownProp);
 
 // 콘솔에 출력: 속성 inheritedProp를 가져옵니다. 결과: 상속받은 속성입니다.
-console.log(proxy.inheritedProp); 
+console.log(proxy.inheritedProp);
 ```
 
 💡Reflect를 사용하면 JavaScript에서 일반적으로 작동하는지 확인하여 내장 동작을 유지하고 이러한 작업을 수동으로 구현할 때 놓치기 쉬운 특수 상황을 처리할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 Proxy와 Reflect의 작동 방식을 이해했으니, Proxy를 사용하는 것이 권장되는 실제 예시를 살펴보겠습니다.
 
@@ -462,30 +687,41 @@ console.log(proxy.inheritedProp);
 
 디버깅 및 객체 상호작용 모니터링을 위해 Proxy와 Reflect를 사용하여 속성 접근 및 수정을 로깅하는 것이 도움이 될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const target = {
-    name: 'Alice',
-    age: 30
+  name: "Alice",
+  age: 30,
 };
 
 const handler = {
-    get: function(target, prop, receiver) {
-        console.log(`Getting property ${prop}`);
-        return Reflect.get(target, prop, receiver);
-    },
-    set: function(target, prop, value, receiver) {
-        console.log(`Setting property ${prop} to ${value}`);
-        return Reflect.set(target, prop, value, receiver);
-    }
+  get: function (target, prop, receiver) {
+    console.log(`Getting property ${prop}`);
+    return Reflect.get(target, prop, receiver);
+  },
+  set: function (target, prop, value, receiver) {
+    console.log(`Setting property ${prop} to ${value}`);
+    return Reflect.set(target, prop, value, receiver);
+  },
 };
 
 const proxy = new Proxy(target, handler);
 
-console.log(proxy.name);  // 콘솔: Getting property name. 결과: Alice
-proxy.age = 31;           // 콘솔: Setting property age to 31
-console.log(proxy.age);   // 콘솔: Getting property age. 결과: 31
+console.log(proxy.name); // 콘솔: Getting property name. 결과: Alice
+proxy.age = 31; // 콘솔: Setting property age to 31
+console.log(proxy.age); // 콘솔: Getting property age. 결과: 31
 ```
 
 ✴️ 예시 2: 유효성 검사
@@ -494,27 +730,38 @@ console.log(proxy.age);   // 콘솔: Getting property age. 결과: 31
 
 ```js
 const target = {
-    age: 25
+  age: 25,
 };
 
 const handler = {
-    set: function(target, prop, value, receiver) {
-        if (prop === 'age' && (typeof value !== 'number' || value <= 0)) {
-            throw new TypeError('나이는 양의 숫자여야 합니다');
-        }
-        console.log(`Setting property ${prop} to ${value}`);
-        return Reflect.set(target, prop, value, receiver);
+  set: function (target, prop, value, receiver) {
+    if (prop === "age" && (typeof value !== "number" || value <= 0)) {
+      throw new TypeError("나이는 양의 숫자여야 합니다");
     }
+    console.log(`Setting property ${prop} to ${value}`);
+    return Reflect.set(target, prop, value, receiver);
+  },
 };
 
 const proxy = new Proxy(target, handler);
 
-proxy.age = 30;  // 콘솔: Setting property age to 30
-console.log(proxy.age);  // 결과: 30
+proxy.age = 30; // 콘솔: Setting property age to 30
+console.log(proxy.age); // 결과: 30
 // proxy.age = -5;  // 에러: TypeError: 나이는 양의 숫자여야 합니다
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ✴️ 예제 3: 동적 속성 생성
 
@@ -524,67 +771,89 @@ Proxy를 사용하여 속성을 동적으로 생성하고 존재하지 않는 �
 const target = {};
 
 const handler = {
-    get: function(target, prop, receiver) {
-        if (!(prop in target)) {
-            target[prop] = `속성 ${prop}이(가) 존재하지 않아 동적으로 생성되었습니다`;
-        }
-        console.log(`${prop} 속성을 가져오는 중`);
-        return Reflect.get(target, prop, receiver);
+  get: function (target, prop, receiver) {
+    if (!(prop in target)) {
+      target[prop] = `속성 ${prop}이(가) 존재하지 않아 동적으로 생성되었습니다`;
     }
+    console.log(`${prop} 속성을 가져오는 중`);
+    return Reflect.get(target, prop, receiver);
+  },
 };
 
 const proxy = new Proxy(target, handler);
 
 // 로그: name 속성을 가져오는 중. 결과: name 속성이 존재하지 않아 동적으로 생성됨
-console.log(proxy.name);  
+console.log(proxy.name);
 
 // 로그: age 속성을 가져오는 중. 결과: age 속성이 존재하지 않아 동적으로 생성됨
-console.log(proxy.age);   
+console.log(proxy.age);
 ```
 
 ✴️ 예제 4: 함수 추적
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프록시를 사용하여 함수 호출을 추적하고 인수를 기록합니다:
 
 ```js
-const targetFunction = function(a, b) {
-    return a + b;
+const targetFunction = function (a, b) {
+  return a + b;
 };
 
 const handler = {
-    apply: function(target, thisArg, argumentsList) {
-        console.log(`Called with arguments: ${argumentsList}`);
-        return Reflect.apply(target, thisArg, argumentsList);
-    }
+  apply: function (target, thisArg, argumentsList) {
+    console.log(`Called with arguments: ${argumentsList}`);
+    return Reflect.apply(target, thisArg, argumentsList);
+  },
 };
 
 const proxy = new Proxy(targetFunction, handler);
 
-console.log(proxy(1, 2));  // Logs: Called with arguments: 1,2. Output: 3
+console.log(proxy(1, 2)); // Logs: Called with arguments: 1,2. Output: 3
 console.log(proxy(5, 10)); // Logs: Called with arguments: 5,10. Output: 15
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const target = {
-    name: 'Alice',
-    age: 30
+  name: "Alice",
+  age: 30,
 };
 
 const handler = {
-    deleteProperty: function(target, prop) {
-        console.log(`Deleting property ${prop}`);
-        return Reflect.deleteProperty(target, prop);
-    }
+  deleteProperty: function (target, prop) {
+    console.log(`Deleting property ${prop}`);
+    return Reflect.deleteProperty(target, prop);
+  },
 };
 
 const proxy = new Proxy(target, handler);
 
-delete proxy.age;  // Logs: Deleting property age
-console.log(target.age);  // Output: undefined
+delete proxy.age; // Logs: Deleting property age
+console.log(target.age); // Output: undefined
 ```
 
 💡 Production 모드에서는 console 문을 백엔드 호출로 대체하여 로그를 추적하고 저장합니다.
@@ -593,8 +862,18 @@ console.log(target.age);  // Output: undefined
 
 # 사례 연구 및 실제 예제
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 리액티브 스토어 생성
 
@@ -605,7 +884,7 @@ console.log(target.age);  // Output: undefined
 const store = createStore({ count: 0 });
 
 // 상태 변경 구독
-store.subscribe(state => {
+store.subscribe((state) => {
   console.log("상태 변경됨:", state);
 });
 
@@ -621,7 +900,18 @@ console.log(store.getState().count); // 출력: 10
 
 여기에서 코드를 테스트할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 스토어는 React 기능 컴포넌트에서도 사용할 수 있습니다:
 
@@ -672,7 +962,18 @@ export default Counter;
 
 ## 검증 및 살균을 위한 라이브러리 만들기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 입력이 속성에 할당되기 전에 유효성을 검사하기 위해 set 트랩을 사용하여 시스템에 유효하지 않은 데이터가 들어가는 것을 방지합니다:
 
@@ -682,7 +983,18 @@ export default Counter;
 
 JavaScript의 Proxy와 Reflect API를 사용하여 안전하고 유연하며 유지보수가 용이한 API 게이트웨이를 만들 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기에서 코드를 사용해 놀 수 있어요. 이 예제는 익스프레스와 라우팅을 떠올리게 합니다.
 
@@ -692,7 +1004,18 @@ JavaScript의 Proxy와 Reflect API를 사용하여 안전하고 유연하며 유
 
 ✳️ Vue 3: Vue 3에서 반응성 시스템은 프록시 주변에 구축되어 있어 상태 변경을 가로채고 관리하는 방식으로 처리되어 반응성을 다루는 능률적이고 성능 좋은 방법을 제공해줘요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - [Vue.js 공식 문서 - 반응성](https://v3.ru.vuejs.org/guide/reactivity.html#how-vue-tracks-these-changes)
 - [Vue.js 공식 문서 - 반응성 기본 개념](https://github.com/vuejs/docs/blob/main/src/guide/essentials/reactivity-fundamentals.md?plain=1#L46)
@@ -708,7 +1031,18 @@ JavaScript의 Proxy와 Reflect API를 사용하여 안전하고 유연하며 유
 
 ✳️ Svelte에서는 반응성 시스템이 의존성을 추적하고 상태 변경 시 효율적으로 DOM을 업데이트합니다. 상태 변이를 가로채고 반응하기 위해 프록시 객체를 사용하여 이를 구현합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - https://github.com/sveltejs/svelte/blob/main/packages/svelte/src/internal/client/proxy.js
 - https://github.com/sveltejs/svelte/blob/main/packages/svelte/src/internal/client/reactivity/props.js#L83
@@ -719,7 +1053,18 @@ JavaScript의 Proxy와 Reflect API를 사용하여 안전하고 유연하며 유
 
 # 최선의 방법, 흔한 오류, 그리고 권장사항
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 최상의 방법
 
@@ -727,35 +1072,46 @@ JavaScript의 Proxy와 Reflect API를 사용하여 안전하고 유연하며 유
 
 ```js
 const handler = {
-    get(target, prop, receiver) {
-        console.log(`속성 ${prop}을 가져옵니다`);
-        return Reflect.get(target, prop, receiver);
-    },
-    set(target, prop, value, receiver) {
-        console.log(`속성 ${prop}을 ${value}로 설정합니다`);
-        return Reflect.set(target, prop, value, receiver);
-    }
+  get(target, prop, receiver) {
+    console.log(`속성 ${prop}을 가져옵니다`);
+    return Reflect.get(target, prop, receiver);
+  },
+  set(target, prop, value, receiver) {
+    console.log(`속성 ${prop}을 ${value}로 설정합니다`);
+    return Reflect.set(target, prop, value, receiver);
+  },
 };
 const proxy = new Proxy({}, handler);
 ```
 
 🔵 프록시를 상태 관리, 로깅, 유효성 검사 또는 반응형 프로그래밍과 같은 시나리오에 적용하세요. 프록시는 오버헤드를 도입할 수 있으므로 혜택이 명확한 곳에서만 사용해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 🔵 데이터가 할당되기 전에 데이터를 유효성 검사하기 위해 set 트랩을 사용하세요:
 
 ```js
 const handler = {
-    set(target, prop, value, receiver) {
-        if (prop === 'age' && (typeof value !== 'number' || value < 0)) {
-            throw new TypeError('나이는 양수여야 합니다.');
-        }
-        return Reflect.set(target, prop, value, receiver);
+  set(target, prop, value, receiver) {
+    if (prop === "age" && (typeof value !== "number" || value < 0)) {
+      throw new TypeError("나이는 양수여야 합니다.");
     }
+    return Reflect.set(target, prop, value, receiver);
+  },
 };
 const proxy = new Proxy({}, handler);
-proxy.age = 30;  // 잘 작동합니다
+proxy.age = 30; // 잘 작동합니다
 // proxy.age = -1;  // 오류 발생
 ```
 
@@ -763,14 +1119,25 @@ proxy.age = 30;  // 잘 작동합니다
 
 🔵 무한 재귀를 발생시킬 수 있는 자기 참조 루프를 피하기 위해 프록시 핸들러를 설계하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const handler = {
-    get(target, prop, receiver) {
-        if (prop === 'self') return receiver;
-        return Reflect.get(target, prop, receiver);
-    }
+  get(target, prop, receiver) {
+    if (prop === "self") return receiver;
+    return Reflect.get(target, prop, receiver);
+  },
 };
 const proxy = new Proxy({}, handler);
 ```
@@ -781,7 +1148,18 @@ const proxy = new Proxy({}, handler);
 
 🔴 오류: 프록시는 성능이 중요한 부분에서 성능 오버헤드를 일으킬 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ✅ 권장: 성능 영향을 측정하고 프록시를 신중하게 사용하세요. 성능이 중요할 때는 대안을 고려해보세요.
 
@@ -791,7 +1169,18 @@ const proxy = new Proxy({}, handler);
 
 🔴 오류: 프록시는 민감한 데이터를 노출하거나 미인가 수정을 허용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ✅ 권장 사항: 프록시 트랩 내에서 철저한 유효성 검사와 액세스 제어 구현하기
 
@@ -801,7 +1190,18 @@ const proxy = new Proxy({}, handler);
 
 JavaScript에서 프록시와 Reflect API를 사용함으로써 코드는 상당히 유연하고 강력해지며, 동적 동작과 고급 메타프로그래밍 기능을 제공할 수 있습니다. 최대 혜택을 누리기 위해 여러분은 최상의 관행을 준수하고 일반적인 오류들을 인지하는 것이 중요합니다. 🎯
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -811,7 +1211,18 @@ JavaScript에서 프록시와 Reflect API를 사용함으로써 코드는 상당
 
 최선의 실천 방법은 기본 동작을 유지하기 위해 Reflect를 사용하고 견고한 보안 검사를 구현하는 것이며, 흔한 함정은 성능 부담과 디버깅 복잡성을 포함합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Vue.js와 MobX와 같은 프레임워크는 상태 관리와 반응성을 위해 프록시를 활용합니다. 반응형 프로그래밍으로의 전환은 반응성 및 효율적인 애플리케이션 구축의 중요성을 강조합니다.
 
@@ -821,8 +1232,18 @@ Vue.js와 MobX와 같은 프레임워크는 상태 관리와 반응성을 위해
 
 제 글을 읽어주셔서 감사합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-Want to Connect? 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+Want to Connect?
 You can find me at GitHub: https://github.com/helabenkhalfallah

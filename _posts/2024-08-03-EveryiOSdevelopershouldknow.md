@@ -3,16 +3,13 @@ title: "모든 iOS 개발자가 알아야 할 필수 사항"
 description: ""
 coverImage: "/assets/no-image.jpg"
 date: 2024-08-03 19:06
-ogImage: 
+ogImage:
   url: /assets/no-image.jpg
 tag: Tech
 originalTitle: "Every iOS developer should know"
 link: "https://medium.com/@nirosha.iosdeveloper/every-ios-developer-should-know-part-1-74165cbf0823"
 isUpdated: true
 ---
-
-
-
 
 # iOS 개발자가 알아야 할 프레임워크와 개념 목록
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 주요 구성 요소:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - UIView: 모든 UI 요소의 기본 클래스입니다.
 - UIViewController: UIKit 앱을 위한 view 계층 구조를 관리합니다.
@@ -33,7 +41,7 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         let label = UILabel()
         label.text = "Hello, UIKit!"
         label.frame = CGRect(x: 20, y: 50, width: 200, height: 50)
@@ -46,7 +54,18 @@ class ViewController: UIViewController {
 
 설명: 사용자 인터페이스를 선언적으로 구축하기 위한 현대적인 프레임워크입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주요 구성 요소:
 
@@ -58,7 +77,7 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var message = "Hello, SwiftUI!"
-    
+
     var body: some View {
         Text(message)
             .padding()
@@ -68,7 +87,18 @@ struct ContentView: View {
 
 # 3. Foundation
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 설명: 필수 데이터 유형, 컬렉션 및 유틸리티를 제공합니다.
 
@@ -86,7 +116,18 @@ let array: [String] = ["Hello", "Foundation"]
 let dictionary: [String: String] = ["greeting": "Hello, Foundation!"]
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 4. Core Data
 
@@ -97,8 +138,18 @@ let dictionary: [String: String] = ["greeting": "Hello, Foundation!"]
 - NSManagedObject: Core Data 객체의 기본 클래스.
 - NSManagedObjectContext: 관리 대상 개체 모음을 관리합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```swift
 import CoreData
@@ -119,10 +170,20 @@ do {
 
 설명: 비동기 이벤트 처리 및 함수형 반응 프로그래밍을 다루는 프레임워크.
 
-주요 구성 요소: 
+주요 구성 요소:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 발행자(Publisher): 시간에 따라 값의 시퀀스를 방출합니다.
 - 구독자(Subscriber): 발행자로부터 값을 수신합니다.
@@ -140,7 +201,18 @@ let subscriber = publisher.sink { value in
 
 설명: 네트워크 요청을 만들기 위한 프레임워크입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주요 구성 요소:
 
@@ -161,7 +233,18 @@ task.resume()
 
 # 7. Core Animation
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 설명: 뷰 및 레이어에 대한 고급 애니메이션 기능을 제공합니다.
 
@@ -181,7 +264,18 @@ let view = UIView()
 view.layer.add(animation, forKey: "position")
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 8. Core Graphics
 
@@ -191,7 +285,18 @@ view.layer.add(animation, forKey: "position")
 
 - CGContext: 2D 그래픽을 렌더링하는 그리기 대상입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```swift
 import UIKit
@@ -199,7 +304,7 @@ import UIKit
 class MyView: UIView {
     override func draw(_ rect: CGRect) {
         guard let context = UIGraphicsGetCurrentContext() else { return }
-        
+
         context.setFillColor(UIColor.red.cgColor)
         context.fill(rect)
     }
@@ -212,7 +317,18 @@ Description: 기기의 지리적 위치를 결정하는 서비스를 제공합�
 
 주요 구성 요소:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - CLLocationManager: 위치를 추적하는 서비스를 제공합니다.
 
@@ -228,7 +344,7 @@ class LocationManager: NSObject, CLLocationManagerDelegate {
         manager.requestWhenInUseAuthorization()
         manager.startUpdatingLocation()
     }
-    
+
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         guard let location = locations.first else { return }
         print(location.coordinate)
@@ -240,7 +356,18 @@ class LocationManager: NSObject, CLLocationManagerDelegate {
 
 설명: 지도를 임베드하고 주석을 추가하는 인터페이스를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주요 구성 요소:
 
@@ -273,7 +400,18 @@ struct ContentView: View {
 
 # 11. AVFoundation
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **설명**: 오디오 비주얼 미디어 작업을 위한 프레임워크입니다.
 
@@ -291,7 +429,18 @@ playerLayer.frame = CGRect(x: 0, y: 0, width: 300, height: 300)
 player.play()
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 12. CloudKit
 
@@ -302,7 +451,18 @@ player.play()
 - CKRecord: 데이터베이스에 있는 단일 레코드를 나타냅니다.
 - CKDatabase: 레코드를 포함하는 데이터베이스를 나타냅니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```swift
 import CloudKit

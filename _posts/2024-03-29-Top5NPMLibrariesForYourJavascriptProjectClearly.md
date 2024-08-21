@@ -3,17 +3,13 @@ title: "자바스크립트 프로젝트에 유용한 상위 5개 NPM 라이브�
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Top 5 NPM Libraries For Your Javascript Project Clearly"
 link: "https://medium.com/@ori.holis/top-5-npm-libraries-for-your-javascript-project-clearly-23021c71c330"
 isUpdated: true
 ---
-
-
-
-
 
 ![Top 5 NPM 라이브러리](/assets/img/Top5NPMLibrariesForYourJavascriptProjectClearly_0.png)
 
@@ -23,7 +19,18 @@ NPM (노드 패키지 매니저)에는 무수히 많은 노드 모듈이 있습�
 
 Express는 Node.js에서 가장 인기 있는 웹 서버입니다. 사용하기 쉽고 유연하며 빠른 아키텍처를 갖추고 있습니다. 수많은 라이브러리가 있어 애플리케이션을 개발하거나 간단히 만드는 데 도움을 줍니다. 예를 들어, cookie-parser는 쿠키를 준비하고 multer는 파일 업로드, http-proxy-middleware는 요청을 프록시하는 데 사용됩니다. 이 거대한 커뮤니티는 라이브러리를 만들고 관리하는 일 뿐만 아니라 여러분의 질문에 답변하기도 합니다. 거의 모든 문제에 대한 답변을 Stackoverflow에서 찾을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Top 5 NPM Libraries For Your Javascript Project Clearly 1](/assets/img/Top5NPMLibrariesForYourJavascriptProjectClearly_1.png)
 
@@ -33,7 +40,18 @@ Socket.io는 웹 소켓을 쉽게 사용하고 관리할 수 있는 인기 있�
 
 ![Top 5 NPM Libraries For Your Javascript Project Clearly 2](/assets/img/Top5NPMLibrariesForYourJavascriptProjectClearly_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 퍼피티어
 
@@ -43,7 +61,18 @@ Socket.io는 웹 소켓을 쉽게 사용하고 관리할 수 있는 인기 있�
 
 Ajv는 JSON 정의를 작성함으로써 코드를 작성하지 않고도 빠르고 쉽게 읽을 수 있는 데이터 유효성을 만들 수 있는 기회를 제공합니다. Express와 함께 사용되어 들어오는 데이터 유효성을 검증하거나 브라우저에서 널리 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const schema = {
@@ -71,8 +100,18 @@ Chart.js는 차트 렌더링 라이브러리입니다. 매우 맞춤화 및 확�
 
 <img src="/assets/img/Top5NPMLibrariesForYourJavascriptProjectClearly_3.png" />
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 인기 있는 다른 라이브러리
 
@@ -85,7 +124,18 @@ Chart.js는 차트 렌더링 라이브러리입니다. 매우 맞춤화 및 확�
 
 ## 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어떤 문제를 해결하고 있던 중에는 정확히 그 문제를 해결해 주는 라이브러리가 있을 확률이 높습니다. 단지 그것을 찾아보기만 하면 됩니다. 적절한 것을 선택하면 여러분의 시간, 버그, 신경을 아껴 줄 수 있을 겁니다. 위에서 언급한 라이브러리들은 저가 자주 사용해 왔던 것들이며 xlsx, dateformat, fast-xml-parser, 또는 xml-js와 같이 덜 사용한 것들은 언급하지 않았습니다.
 

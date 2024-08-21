@@ -3,17 +3,13 @@ title: "Nextjs에서 동적 라우팅 구현하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Mastering Dynamic Routing in Nextjs A Comprehensive Guide"
 link: "https://medium.com/@sahilangrio/mastering-dynamic-routing-in-next-js-a-comprehensive-guide-4765d86fdab2"
 isUpdated: true
 ---
-
-
-
-
 
 ![MasteringDynamicRoutinginNextjsAComprehensiveGuide_0.png](/assets/img/MasteringDynamicRoutinginNextjsAComprehensiveGuide_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 Next.js는 동적 라우팅을 쉽게 만들 수 있도록 도구와 규약을 제공하여 프로세스를 간소화합니다. 다음은 Next.js에서 동적 라우팅의 일반적인 사용 사례 몇 가지입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 1. 블로그 글
 
@@ -33,7 +40,18 @@ Next.js는 동적 라우팅을 쉽게 만들 수 있도록 도구와 규약을 �
 
 전자 상거래 웹사이트는 종종 제품 세부 정보, 카테고리 및 검색 결과를 표시하기 위해 동적 경로가 필요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 3. 사용자 프로필
 
@@ -43,7 +61,18 @@ Next.js는 동적 라우팅을 쉽게 만들 수 있도록 도구와 규약을 �
 
 Next.js 동적 라우팅을 통해 분석 또는 사용자별 데이터와 같은 동적 콘텐츠가 포함된 대시보드를 구축하는 것은 매우 쉽습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Next.js에서 동적 라우팅이 작동하는 방식
 
@@ -53,7 +82,18 @@ Next.js는 동적 라우팅을 정의할 때 파일 시스템을 사용합니다
 
 # 1. 동적 페이지 생성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 페이지 디렉토리 내에서 새 파일을 만드세요. 예를 들어 블로그 포스트의 경우 pages/posts/[slug].js와 같이 만들 수 있어요.
 
@@ -63,7 +103,18 @@ Next.js는 동적 라우팅을 정의할 때 파일 시스템을 사용합니다
 
 ## 3. 데이터 가져오기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 동적 데이터를 얻은 후에는, fetch나 axios와 같은 라이브러리를 사용하여 API, 데이터베이스 또는 로컬 파일 시스템에서 관련 콘텐츠를 가져올 수 있습니다.
 
@@ -73,7 +124,18 @@ Next.js는 동적 라우팅을 정의할 때 파일 시스템을 사용합니다
 
 다음은 Next.js에서 동적 페이지의 간단한 예시입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 페이지/posts/[slug].js
@@ -115,7 +177,18 @@ export default Post;
 
 Next.js는 대괄호 안에 ... 연산자를 사용하여 catch-all 라우트를 지원합니다. 이를 통해 동적으로 여러 세그먼트를 캡처하는 라우트를 생성할 수 있습니다. 예를 들어, pages/products/[...slug].js는 /products/category/subcategory/product-name과 같은 라우트와 일치할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

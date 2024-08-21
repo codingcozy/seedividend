@@ -3,17 +3,13 @@ title: "JSX parser 만드는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Demystifying JSX building your own JSX parser from scratch"
 link: "https://medium.com/bitsrc/demystifying-jsx-building-your-own-jsx-parser-from-scratch-caecf58d7cbd"
 isUpdated: true
 ---
-
-
-
-
 
 ## 왜 안 되겠어요?!
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 하지만, 이게 정확히 어떻게 작동하는 걸까요? 맞아요, React 컴포넌트에서 JSX를 반환할 수는 있지만, 우리는 그것이 표준 JavaScript가 아니라는 걸 다 알고 있어요. 그렇다면 이것이 정확히 어떻게 작동하는 걸까요? 이 일에 어떤 마법이 숨어 있을까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나는 기술이 "그저 작동하는" 것을 정말 좋아해요. 하지만 그게 내 일에 영향을 미치면, 최대한 이해하려 노력해요. 그 방법 중 하나는 그것이 어떻게 작동하는지 역공학을 시도하고 그의 버전을 직접 작성하는 것이에요.
 이 과정을 통해 많은 것을 배울 수 있어요!
@@ -32,7 +39,18 @@ isUpdated: true
 
 시작해 봅시다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # JSX를 파싱할 것입니다
 
@@ -42,7 +60,18 @@ isUpdated: true
 
 솔직히 말해서, 변하는 부분은 초기 가져오기(import)일 뿐이며, JSX를 작성하려면 왜 React를 가져와야 하는지 실제로 볼 수 있게 될 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파싱 자체는 조금 일이 드는데, 그 뒤에 숨겨진 로직은 실제로 아주 간단해요. Rect의 문서를 살펴보면 JSX를 파싱한 결과를 보여줄 거예요.
 
@@ -52,7 +81,18 @@ JSX 요소를 React.createElement 호출로 변환하고 있다는 점을 주목
 
 이제 그 미스터리를 해결했으니, 계속 진행해봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 메소드의 첫 번째 속성은 생성할 요소의 태그 이름입니다. 두 번째 속성은 생성되는 요소와 관련된 모든 속성을 포함한 객체이며, 마지막으로 나머지 속성들(하나 이상 존재할 수 있음)은 이 요소의 직계 자식 요소가 될 것입니다(일반 텍스트 또는 다른 요소일 수 있음).
 
@@ -65,7 +105,18 @@ JSX 요소를 React.createElement 호출로 변환하고 있다는 점을 주목
 
 코딩해봅시다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 컴포넌트에서 JSX 추출 및 구문 분석
 
@@ -75,7 +126,18 @@ JSX 요소를 React.createElement 호출로 변환하고 있다는 점을 주목
 
 우선 해야 할 일은 JSX 파일을 읽은 다음 정규 표현식을 사용하여 JSX 코드를 캡처하는 것입니다. (네, 이 글 전체에서 몇 가지 정규 표현식을 사용할 것입니다.)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 이를 통해 HTML 파서를 사용하여 이해할 수 있습니다.
 
@@ -85,7 +147,18 @@ JSX 요소를 React.createElement 호출로 변환하고 있다는 점을 주목
 
 이 함수는 (...) 함수 부분 내의 첫 번째 컴포넌트의 여는 태그를 찾기 위해 RegExp를 사용합니다. 10번째 줄에서는 우리의 JSX의 루트 엘리먼트가 될 첫 번째 자식인 루트 엘리먼트를 반환하는 parse 함수를 호출합니다 (우리의 경우, wrapping div입니다).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 트리 모양 구조가 있다면, 코드로 번역해 봅시다. 그러기 위해 translate 함수를 호출할 겁니다.
 
@@ -95,7 +168,18 @@ JSX 요소를 React.createElement 호출로 변환하고 있다는 점을 주목
 
 여기 함수가 어떻게 생겼는지 알아봅시다. 나중에 분석해 봅시다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저 모든 자식 요소를 검토하고 해당 요소에 대해 번역 함수를 호출합니다. 자식 요소가 비어있으면 해당 호출은 null을 반환하고 7번 줄에서 해당 결과를 걸러냅니다.
 
@@ -105,7 +189,18 @@ JSX 요소를 React.createElement 호출로 변환하고 있다는 점을 주목
 
 그 후, 즉 텍스트 노드를 다루는 것이 아니라면, 태그 이름(14번 줄)을 얻고 속성을 구문 분석합니다(16번 줄). 속성을 구문 분석한다는 것은 해당 원시 문자열을 적절한 JSON으로 변환하는 작업을 의미합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마침내, 생성하고자 하는 코드 라인을 반환할 것입니다 (즉, 적절한 매개변수를 사용하여 createElement를 호출하는 부분). 이것이 18번 라인에서 발생하는 일입니다.
 
@@ -115,7 +210,18 @@ JSX 요소를 React.createElement 호출로 변환하고 있다는 점을 주목
 
 이제 텍스트 노드와 각 요소의 속성 객체 내에서 JSX 표현식을 대체하기 위해 문자열을 다루기 시작해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 글을 좋아하셨나요? 제 무료 뉴스레터를 구독해보세요. IT 산업에서 20년 간의 지혜를 모두와 공유할게요. "The Rambling of an old developer"에 가입해주세요!
 
@@ -125,7 +231,18 @@ JSX 요소를 React.createElement 호출로 변환하고 있다는 점을 주목
 
 이 작업을 수행하는 함수들은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 보간(즉, 중괄호 안에 변수가 있는 경우)을 가지고 있다면 replaceInterpolation 함수를 호출합니다. 이 함수는 모든 일치하는 보간을 확인하고 적절히 형식화된 문자열로 대체합니다 (JS 파일에 작성될 때 변수 이름을 남긴 상태로 변환됩니다).
 
@@ -135,7 +252,18 @@ JSX 요소를 React.createElement 호출로 변환하고 있다는 점을 주목
 
 이제 JSX 파일을 파싱한 결과 코드를 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 자바스크립트 코드
 
@@ -145,7 +273,18 @@ JSX 요소를 React.createElement 호출로 변환하고 있다는 점을 주목
 
 이 코드를 실행하면 출력은 다음과 같을 것입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 마지막 질문은 아직 답이 없습니다: createElement 메서드는 어떻게 구현되었을까요? 음, 제가 간단한 버전을 가지고 있습니다:
 
@@ -155,7 +294,18 @@ JSX 요소를 React.createElement 호출로 변환하고 있다는 점을 주목
 
 JSX는 제가 좋아하는 기술 중 하나이며, JS 파일 내부에서 HTML을 작업하고 생성하는 것을 확실히 간단하게 만들어줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 물론 createElement 메서드를 직접 사용하여 코드를 작성할 수 있지만, 복잡한 애플리케이션에 대해서는 쉽지 않을 뿐만 아니라 깔끔하게 보이지도 않을 것입니다.
 
@@ -165,7 +315,18 @@ JSX는 제가 좋아하는 기술 중 하나이며, JS 파일 내부에서 HTML�
 
 <img src="/assets/img/DemystifyingJSXbuildingyourownJSXparserfromscratch_2.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Bit의 오픈 소스 도구는 25만 명 이상의 개발자들이 컴포넌트로 앱을 만드는 데 도움을 줍니다.
 
@@ -175,7 +336,18 @@ Bit의 오픈 소스 도구는 25만 명 이상의 개발자들이 컴포넌트�
 
 앱을 컴포넌트로 분할하여 앱 개발이 더 쉬워지고, 원하는 워크플로우에 대해 최상의 경험을 즐기세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## → 마이크로 프론트엔드
 
@@ -185,6 +357,17 @@ Bit의 오픈 소스 도구는 25만 명 이상의 개발자들이 컴포넌트�
 
 ## → Monorepo
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 더 알아보기

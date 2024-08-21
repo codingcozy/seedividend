@@ -3,7 +3,7 @@ title: "우분투에서 아파치용 SAN이 포함된 Self-Signed SSL 인증서 
 description: ""
 coverImage: "/assets/img/2024-05-18-HowtoCreateaSelf-SignedSSLCertificatewithSANforApacheonUbuntu_0.png"
 date: 2024-05-18 21:44
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-18-HowtoCreateaSelf-SignedSSLCertificatewithSANforApacheonUbuntu_0.png
 tag: Tech
 originalTitle: "How to Create a Self-Signed SSL Certificate with SAN for Apache on Ubuntu"
@@ -11,16 +11,24 @@ link: "https://medium.com/@shaonmajumder/how-to-create-a-self-signed-ssl-certifi
 isUpdated: true
 ---
 
-
-
-
 웹 응용 프로그램을 SSL 인증서로 안전하게 보호하는 것은 클라이언트와 서버 간에 전송되는 데이터의 기밀성과 무결성을 보장하기 위해 중요합니다. 이 튜토리얼에서는 Ubuntu 운영 체제의 Apache 웹 서버에 대한 서브젝트 대체 이름 (SAN)이 포함된 자체 서명 SSL 인증서를 생성하는 과정을 안내합니다.
 
 # 필수 사항
 
 시작하기 전에 다음 사항을 확인하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Apache가 설치된 Ubuntu 서버
 - openssl 도구가 설치되어 있습니다.
@@ -31,7 +39,18 @@ isUpdated: true
 
 인증서를 위한 디렉토리를 생성하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 mkdir certificates
@@ -48,7 +67,18 @@ openssl genpkey -algorithm RSA -out private.key
 - -algorithm RSA: 키 생성에 사용할 알고리즘을 지정합니다. 이 경우 RSA (Rivest–Shamir–Adleman) 알고리즘을 사용합니다. RSA는 널리 사용되는 비대칭 암호 알고리즘입니다.
 - -out private.key: 생성된 개인 키를 저장할 출력 파일을 지정합니다. 이 예에서는 개인 키가 private.key라는 파일에 저장됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 [비권장] 만약 당신의 private.key가 암호로 보호되기를 원한다면 -
 
@@ -60,10 +90,20 @@ openssl genpkey -algorithm RSA -aes256 -out private.key
 
 - 이 매개변수는 개인 키에 사용할 암호화 알고리즘을 나타냅니다. 이 경우 AES (고급 암호화 표준)와 키 길이가 256비트인 AES-256를 사용합니다. 이 매개변수는 추가 보안을 위해 개인 키를 AES-256로 암호화하는 것을 보장합니다. 사용자는 키 생성 과정 중에 암호를 입력하도록 요청받으며, 이 암호는 개인 키를 암호화하는 데 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요! 아래의 정보를 Markdown 형식으로 변환해 드릴게요.
-
 
 You’ll be prompted to enter a passphrase; remember this passphrase as you’ll need it later.
 
@@ -88,10 +128,20 @@ emailAddress = smazoomder@gmail.com
 
 [req_ext]
 subjectAltName = IP:192.168.0.88
-``` 
+```
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 (당신의 IP를 Ip 자리에 넣으세요)
 
@@ -115,7 +165,18 @@ subjectAltName = IP:192.168.0.88
 - Subject: SSL/TLS 인증서의 맥락에서 "주체"는 일반적으로 인증서가 발행된 엔티티(웹사이트 또는 서버 등)를 가리킵니다. 일반적으로 공통 이름(CN), 조직 및 위치와 같은 정보를 포함합니다.
 - Alternative Name: "대체 이름"은 SSL/TLS 인증서에 포함될 수 있는 추가 식별자를 가리킵니다. 이러한 식별자는 공통 이름(CN)을 넘어서 유효한 인증서에 대한 다른 이름을 세분화하여 지정할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## SAN 사용 이유:
 
@@ -129,7 +190,18 @@ subjectAltName = IP:192.168.0.88
 
 # 단계 4: 인증서 서명 요청(CSR) 생성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 openssl req -new -key private.key -out certificate.csr -config san.conf
@@ -141,7 +213,18 @@ openssl req:
 
 -new:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 새로운 CSR (인증서 서명 요청)이 생성되고 있음을 나타냅니다.
 
@@ -151,7 +234,18 @@ openssl req:
 
 - -out certificate.csr:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 생성된 CSR이 저장될 출력 파일을 지정합니다. 이 예시에서는 CSR이 certificate.csr이라는 파일에 저장됩니다.
 
@@ -161,7 +255,18 @@ openssl req:
 
 # 단계 5: 자체 서명 인증서 생성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 openssl x509 -req -in certificate.csr -signkey private.key -out server.cert -days 365
@@ -173,7 +278,18 @@ openssl x509:
 
 -req:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 입력 파일(certificate.csr)이 인증 요청서(CSR)임을 나타냅니다.
 
@@ -183,7 +299,18 @@ openssl x509:
 
 - signkey private.key:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - CSR을 서명하고 인증서를 생성할 때 사용할 개인 키(private.key)를 지정합니다.
 
@@ -193,7 +320,18 @@ openssl x509:
 
 - 365일 동안 유효합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 인증서의 유효 기간을 일(day) 단위로 지정합니다.이 경우 인증서는 365일(1년) 동안 유효합니다.
 
@@ -201,7 +339,18 @@ openssl x509:
 
 X.509 인증서는 공개 키 인증서의 형식과 구조를 정의하는 X.509 표준을 따르는 디지털 인증서입니다. 이러한 인증서는 TLS/SSL을 포함한 인터넷 보안 프로토콜에서 널리 사용됩니다. 아래는 X.509 인증서의 구성 요소입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 버전: X.509 표준의 버전을 나타냅니다. (예: 버전 1, 2 또는 3)
 - 일련 번호: 인증서 발급자 (인증 기관)가 할당한 고유 식별자로, 인증서를 구분합니다.
@@ -223,7 +372,18 @@ X.509 인증서는 공개 키 인증서의 형식과 구조를 정의하는 X.50
 
 # SSL/TLS에서의 사용:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - SSL/TLS 프로토콜에서 X.509 인증서는 클라이언트와 서버 간 안전한 연결을 설정하는 데 필수적입니다. 클라이언트가 안전한 웹 사이트에 연결할 때, 서버는 자체 X.509 인증서를 제출하고 클라이언트는 이를 확인하여 안전하고 신뢰할 수 있는 연결을 보장합니다.
 - X.509 인증서는 내부 사용을 위해 자체 서명될 수도 있고, 공개적인 웹 사이트를 위해 신뢰할 수 있는 인증 기관에 의해 서명될 수도 있습니다.
@@ -234,18 +394,37 @@ X.509 인증서는 공개 키 인증서의 형식과 구조를 정의하는 X.50
 
 Apache 가상 호스트 구성을 업데이트하세요 (/etc/apache2/sites-available/your-site.conf):
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 가상 호스트 설정:
 
 - **`VirtualHost *:443`**: 443 포트에서 HTTPS 통신을 위한 가상 호스트 블록을 정의합니다.
 
 - **`ServerName localhost`**: 이 가상 호스트와 연결된 기본 도메인 이름을 지정합니다. 이 경우 "localhost"로 설정되어 있습니다.
- 
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ServerAdmin webmaster@localhost: 서버 관리자의 이메일 주소.
 
@@ -255,8 +434,18 @@ SSLEngine on: SSL 연결을 처리해야 함을 나타내는이 VirtualHost를�
 
 SSLUseStapling off: SSL 스테이플링을 비활성화합니다. SSL 스테이플링은 SSL/TLS 인증서 확인을 강화하는 메커니즘입니다. 그러나이 예제에서는 비활성화되어 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SSLCertificateFile /var/www/html/your-project/certificates/server.cert: SSL 인증서 파일의 경로를 지정합니다. 이는 이전 단계에서 생성된 공개 키 인증서 파일입니다.
 
@@ -266,7 +455,18 @@ ServerAlias 192.168.0.88: 이 VirtualHost가 응답해야 하는 추가 도메�
 
 `Directory "/var/www/html/your-project/backend/public"`: 지정된 디렉토리에 대한 구성 블록을 시작합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Options All: 이 디렉토리에 대해 사용 가능한 모든 옵션을 허용합니다.
 
@@ -276,7 +476,18 @@ Require all granted: 모든 사용자에게 액세스를 부여합니다.
 
 `/Directory`: 지정된 디렉토리에 대한 구성 블록을 종료합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `/VirtualHost` : VirtualHost 블록을 종료합니다.
 
@@ -287,7 +498,18 @@ Require all granted: 모든 사용자에게 액세스를 부여합니다.
 
 그런 다음 활성화하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 sudo a2ensite your-site.conf
@@ -301,7 +523,18 @@ sudo systemctl restart apache2
 
 SSL/TLS 키의 암호를 입력하라는 프롬프트가 표시됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 8: Apache 오류 로그 확인
 
@@ -313,7 +546,18 @@ SSL과 관련된 오류 메시지를 확인해 보세요.
 
 # 단계 9: 라라벨 저장소 권한 설정
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 cd /var/www/html/your-project/backend
@@ -327,9 +571,18 @@ sudo chown -R www-data:www-data storage
 
 프론트엔드 환경에서:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 REACT_APP_NAME = 'your-project'
 REACT_APP_VERSION = v1.1.0
@@ -343,18 +596,25 @@ REACT_APP_BACK_DOMAIN = 'https://192.168.0.88'
 
 REACT_APP_SITE_KEY = 'your-key'
 
-
 in backend env :
-
 
 APP_URL=https://192.168.0.88
 APP_SITE_URL="https://192.168.0.88:3000"
 
-
 축하합니다! Ubuntu에서 Apache 웹 서버에 대한 Subject Alternative Name이 포함된 자체 서명 SSL 인증서를 성공적으로 생성했습니다.
-  
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문제가 있으면 다음을 실행해 보세요
 
@@ -370,7 +630,18 @@ sudo chown -R www-data:www-data storage
 
 # (선택 사항) /etc/hosts 파일 업데이트
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 친구야, 아래와 같이 /etc/hosts 파일에 localhost와 192.168.0.88(IP 주소)의 항목이 있는지 확인해 주세요.
 
@@ -382,7 +653,18 @@ sudo chown -R www-data:www-data storage
 openssl x509 -in server.cert -out server.crt
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - PKCS#12 형식으로 인증서 및 키 변환하기:
 
@@ -394,7 +676,18 @@ openssl pkcs12 -export -out certificate.pfx -inkey private.key -in server.cert
 
 3. Chrome에 인증서 가져오기:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 크롬을 열고 설정으로 이동합니다.
 - 아래로 스크롤하여 고급을 클릭합니다.
@@ -412,7 +705,18 @@ sudo update-ca-certificates
 
 다음 명령을 사용하여 인증서가 신뢰 목록에 추가되었는지 확인하십시오:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 awk -v cmd='openssl x509 -noout -subject' ' /BEGIN/{close(cmd)};{print | cmd}' < /etc/ssl/certs/ca-certificates.crt | grep -i localhost
@@ -426,7 +730,18 @@ openssl x509 -in server.cert -text -noout
 
 만료 날짜 확인: SSL 인증서가 만료되지 않았는지 확인하십시오. 다음 OpenSSL 명령어를 사용하여 만료 날짜를 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 openssl x509 -enddate -noout -in server.cert
@@ -441,7 +756,18 @@ openssl x509 -in server.cert -text -noout
 openssl rsa -in private.key -text -noout
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 필요하다면, 개인 키 파일은 암호로 보호되지 않습니다. 암호로 보호되어 있다면 개인 키에서 암호구를 제거해야 할 수도 있습니다.
 

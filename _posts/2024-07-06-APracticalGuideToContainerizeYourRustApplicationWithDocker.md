@@ -3,16 +3,13 @@ title: "Docker로 Rust 애플리케이션을 컨테이너화하는 실전 가이
 description: ""
 coverImage: "/assets/img/2024-07-06-APracticalGuideToContainerizeYourRustApplicationWithDocker_0.png"
 date: 2024-07-06 03:29
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-06-APracticalGuideToContainerizeYourRustApplicationWithDocker_0.png
 tag: Tech
 originalTitle: "A Practical Guide To Containerize Your Rust Application With Docker"
 link: "https://medium.com/itnext/a-practical-guide-to-containerize-your-rust-application-with-docker-77e8a391b4a8"
 isUpdated: true
 ---
-
-
-
 
 ```js
 /assets/img/2024-07-06-APracticalGuideToContainerizeYourRustApplicationWithDocker_0.png
@@ -22,9 +19,20 @@ isUpdated: true
 본 블로그 포스트는 C++ 응용 프로그램을 컨테이너화하는 원래 기사의 사본입니다. 이 사본은 Rust 응용 프로그램과 동일한 방식으로 작성하는 방법에 중점을 두고 있습니다. Rust 응용 프로그램을 사용하고 응용 프로그램을 컨테이너를 통해 배포하려는 경우, 이 기사를 참고하세요.
 
 # 오늘의 예시: 아이오와
-```  
+```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 연습에서는 저의 예전 러스트 어플리케이션 예제를 다시 사용했습니다. 저의 러스트로 작성된 간단한 키-값 저장소입니다. 이 어플리케이션에 대해 더 읽고 싶다면, 여기에 기사를 찾을 수 있으며, 해당 코드는 저장소에서 볼 수 있습니다. 이 어플리케이션은 HTTP 포트를 노출하여 값을 설정하고 가져오는 기능을 제공하기 때문에 Docker 컨테이너로 쉽게 구현할 수 있는 프로젝트입니다.
 
@@ -34,7 +42,18 @@ isUpdated: true
 
 도커 세계에서 두 가지 중요한 요소가 있습니다: 이미지와 컨테이너. 도커 이미지는 이른바 Dockerfile에서 생성됩니다. 이 파일은 이미지를 빌드할 명령을 설명합니다. 이 이미지로부터 Docker 컨테이너를 생성할 수 있습니다: 이는 이미지의 실제 실행 인스턴스입니다. 도커 엔진은 컨테이너를 인스턴스화하고 실행하는 역할을 맡고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 블로그 글에서는 우리 예제에 중요하지 않은 추가적인 컨셉들이 있습니다. 그러나 더 자세히 알아보고 싶을 때를 대비하여 언급하고 싶습니다.
 
@@ -46,7 +65,18 @@ isUpdated: true
 
 시작하기 전에 Docker를 설치해야 합니다. Docker 웹사이트에서는 Docker 데스크톱의 사용을 권장하지만 저희 예제를 실행하는 데 필수적이지는 않습니다. 저는 Docker 컨테이너를 빌드하고 실행하는 데 관한 모든 작업에서 GUI 애플리케이션보다는 명령줄을 선호합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 MacOS에서는 엔진만 설치하는 대신 Docker Desktop을 설치하는 것이 더 쉬운 것 같았어요. 그래도 데스크톱 애플리케이션 없이 엔진만 설치하고 싶다면 MacOS 또는 Windows with WSL을 위한 훌륭한 안내서를 따라해주세요.
 
@@ -58,7 +88,18 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 
 더 많은 정보를 찾고 싶다면 공식 문서에서 Docker 엔진을 설치하는 방법과 올바른 저장소 추가 및 문제 해결 방법 등을 확인해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 도커파일 작성하기
 
@@ -71,7 +112,18 @@ Cargo.toml
 
 컨테이너화를 시작하려면 프로젝트 디렉토리에 새로운 Dockerfile을 만드세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 touch Dockerfile
@@ -86,7 +138,18 @@ touch Dockerfile
 
 다시 한 번 강조하지만, 이미지(build time)와 컨테이너(runtime)의 차이를 기억하는 것이 중요합니다. FROM, RUN 및 COPY 명령어는 빌드 시간에 실행되며, CMD 또는 ENTRYPOINT 명령어는 실행 시간에 실행됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희는 이미지를 위해 멀티 스테이지 빌드를 사용하고 있어요. 애플리케이션을 컨테이너 내에서 빌드할 때 멀티 스테이지 빌드가 가장 좋은 방법이죠. 빌드 도구와 종속성을 설치하고 필요한 소스 파일을 이미지로 복사한 뒤 Rust의 cargo를 사용해 애플리케이션 실행 파일을 빌드할 빌드 스테이지를 가져올 거예요. 최종 이미지를 빌드하는 두 번째 스테이지에서는 런타임 종속성을 설치하고 런타임 사용자를 만들 거예요. 그 다음으로, 빌드된 실행 파일을 최종 이미지로 복사하고 애플리케이션을 시작하는 엔트리포인트를 정의할 거예요.
 
@@ -98,7 +161,18 @@ FROM 명령은 빌드할 이미지를 지정해요. 여기서는 공식 Rust sli
 FROM rust:1.77.0-slim as build
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러면 빌드 의존성을 추가해야 해요. 최종 이미지를 빌드할 때 실제 이미지를 처음부터 만들어서 공간을 절약하기 위해, musl을 추가해야 해요. 이렇게 하면 기본 glibc가 없는 scratch에서 이진 파일을 정적으로 링크할 수 있어요. 처음부터 빌드하는 과정을 자세히 설명한 블로그 글이 있어서 참고하도록 해요.
 
@@ -117,7 +191,18 @@ COPY ./Cargo.lock .
 COPY ./Cargo.toml .
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이후에는 이미 빌드 단계에서 사용할 사용자를 만들어야합니다. 스크래치 단계에는 adduser 프로그램이 없기 때문입니다.
 
@@ -138,11 +223,22 @@ RUN adduser \
 RUN cargo build --target x86_64-unknown-linux-musl --release
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 마지막 이미지
 
-최종 이미지는 다시 다른 FROM문으로 이 단계를 선언하고 있습니다. 이번 단계에서는 build 단계에 사용된 Docker 이미지의 빌드 도구가 필요하지 않기 때문에 rust:alpine Docker 이미지를 사용하고 있습니다. 
+최종 이미지는 다시 다른 FROM문으로 이 단계를 선언하고 있습니다. 이번 단계에서는 build 단계에 사용된 Docker 이미지의 빌드 도구가 필요하지 않기 때문에 rust:alpine Docker 이미지를 사용하고 있습니다.
 
 ```js
 FROM rust:1.77-alpine3.18
@@ -150,7 +246,18 @@ FROM rust:1.77-alpine3.18
 
 다음 단계로는 이미 build 단계에서 생성한 응용 프로그램을 실행하는 데 필요한 파일을 사용자에게 복사합니다 (여기서는 adduser를 사용할 수 없다는 것을 기억하세요). 또한, USER 명령을 사용하여 Docker에게 실제로 생성된 사용자를 사용하도록 지시합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 COPY --from=build /etc/passwd /etc/passwd
@@ -167,19 +274,41 @@ USER iowa:iowa
 COPY --from=build --chown=iowa:iowa ./target/x86_64-unknown-linux-musl/release/iowa /app/iowa
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막 명령은 이미지에서 컨테이너가 생성될 때 실행되는 시작 지점을 나타냅니다. 이를 통해 명령행 인수를 전달할 수도 있습니다.
 
 ```js
-ENTRYPOINT ["./app/iowa"]
+ENTRYPOINT["./app/iowa"];
 ```
 
 전체 Dockerfile은 제 GitHub 저장소에서 확인할 수 있어요.
 
 # 도커 이미지 빌드하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트 디렉토리에서 다음 명령을 실행하여 Docker 이미지를 빌드할 수 있습니다. -t 옵션은 이미지의 저장소, 이름 및 선택적으로 태그를 지정하는 데 사용됩니다. 저장소`/`이름`:`태그` 스키마에 따라 판독합니다. 콜론 뒤에 태그를 선언하지 않으면 Docker는 latest 태그를 사용합니다. 다음 명령은 나중에 컨테이너를 인스턴스화하는 데 사용할 이미지 mostsignificant/iowa:latest를 빌드합니다.
 
@@ -193,13 +322,22 @@ docker build . -t mostsignificant/iowa
 docker image ls
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-REPOSITORY | TAG    | IMAGE ID      | CREATED      | SIZE
-----------|--------|---------------|--------------|-------
-mostsignificant/iowa | latest | 83a2870a14b1 | 2시간 전 | 10.6MB
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
+| REPOSITORY           | TAG    | IMAGE ID     | CREATED  | SIZE   |
+| -------------------- | ------ | ------------ | -------- | ------ |
+| mostsignificant/iowa | latest | 83a2870a14b1 | 2시간 전 | 10.6MB |
 
 이 이미지의 크기가 10.6 MB로 좋습니다. 만약 이 이미지를 빌드할 때 debian:bookworm-slim을 베이스 이미지로 사용했다면 결과 이미지의 크기가 86.6 MB나 되었을 겁니다. 이미지의 크기를 줄이는 것은 어려운 과제일 수 있지만, 여러 가지 도구들이 이 작업을 지원합니다. 예를 들어 이미지의 다른 레이어를 검사하는 데 도움이 되는 dive가 있습니다. 빌드 과정 중 이전 레이어에 추가된 파일이 후반 레이어에서 삭제될 수 있음에 유의해야 합니다. 하지만 최종 이미지에는 여전히 원본 데이터가 남아 있습니다. 따라서 다음을 고려할 수 있습니다:
 
@@ -209,8 +347,18 @@ mostsignificant/iowa | latest | 83a2870a14b1 | 2시간 전 | 10.6MB
 
 # 도커 이미지를 컨테이너로 실행하기
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 명령어는 이미지를 실행하고 컨테이너를 인스턴스화합니다:
 
@@ -226,7 +374,18 @@ docker run \
 - -p는 컨테이너 내부의 포트를 호스트로 매핑합니다: 아이오와 애플리케이션의 기본 포트 1984를 호스트 시스템의 동일한 포트로 매핑하지만 다른 사용 가능한 포트를 사용할 수 있습니다
 - -d는 컨테이너를 백그라운드 모드로 시작합니다
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Docker 컨테이너를 실행중인 상태에서 확인할 수도 있어요:
 
@@ -241,7 +400,18 @@ CONTAINER ID   IMAGE                                     COMMAND                
 
 컨테이너 이름은 따로 지정하지 않으면 랜덤으로 생성돼요 — 저희 사례에서는 sad_visvesvaraya에요 (위키피디아에서 더 알아보세요). 컨테이너 ID(해시)나 이름을 사용해 참조할 수 있어요, 예를 들면:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 컨테이너를 종료하려면 `docker stop 49021e2099d7`을 입력하세요.
 - 중지된 컨테이너를 제거하려면 `docker rm 49021e2099d7`을 입력하세요 (이미지는 삭제되지 않습니다!).
@@ -253,7 +423,18 @@ CONTAINER ID   IMAGE                                     COMMAND                
 
 계정을 생성한 후 다음 명령을 사용하여 Docker Hub에 로그인하고 자격 증명을 제공해야 합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 도커 로그인
@@ -267,7 +448,18 @@ CONTAINER ID   IMAGE                                     COMMAND                
 
 그게 다에요. 이제 누구나 여러분의 도커 이미지를 다운로드하고 실행할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 다음 단계
 
@@ -281,7 +473,18 @@ CONTAINER ID   IMAGE                                     COMMAND                
 
 # 마무리
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 작은 튜토리얼이 도커에 익숙하지 않은 러스트 개발자들이 어플리케이션을 컨테이너화하는 데 도움이 되었으면 좋겠습니다. 전체 예제는 내 GitHub 저장소에서 확인할 수 있고, 빌드된 이미지는 내 Docker Hub 저장소에서 확인할 수 있습니다. 도커 세계에는 더 많은 것을 배울 수 있으며, 공식 문서와 참고 자료가 좋은 시작점이 될 것입니다.
 

@@ -3,17 +3,13 @@ title: "리액트에서의 SOLID 좋은 점, 나쁜 점"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "SOLID in React the good, the bad, and the awesome"
 link: "https://medium.com/itnext/solid-in-react-the-good-the-bad-and-the-awesome-79d6cc518d1f"
 isUpdated: true
 ---
-
-
-
-
 
 자바스크립트 개발자인 당신을 위해 간단히 SOLID 원칙을 소개해드릴게요. 만약 SOLID 원칙이 무엇인지 잘 모르신다면, 아래 내용을 먼저 읽어보세요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 첫 번째 원칙은 대체로 이해하기 쉬운 편입니다: 당신의 컴포넌트는 단일 책임을 가져야 합니다. 다시 말해, 이 컴포넌트가 존재하는 이유는 단 하나여야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 '소비 모드'에서 머리를 전환하여 생각해 본다면 즉시 한 가지 문제를 알 수 있을 겁니다. 애플리케이션의 비단말 컴포넌트가 서브트리의 루트이기 때문에 몇몇 컴포넌트가 여러 책임을 갖게 될 확률이 거의 100%입니다. 예를 들어서 해당 컴포넌트는 다섯 개의 자식을 갖고 있고 이 중 세 개의 상태를 제어합니다. 여러분의 루트 App 컴포넌트가 원칙을 심각하게 위반하고 있다고 확신합니다!
 
@@ -34,7 +41,18 @@ isUpdated: true
 - 관리자는 작업자의 일을 하지 말아야 합니다. 다시 말해, 그들의 유일한 책임은 작업자(또는 다른 관리자)를 관리하고 조합하는 것이어야 합니다.
 - 작업자는 비즈니스 로직을 인식해서는 안 되며, 일을 관리자가 아닌 다른 작업자에게 위임해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 번 두 가지 규칙에 대해 생각해 봅시다. "매니저는 워커의 일을 하지 말아야 한다"는 무슨 의미인가요? 이것은 매니저가 자체 JSX 콘텐츠를 가지지 말아야 한다는 것을 의미합니다. 매니저가 반환하는 것은 워커 및/또는 다른 매니저들로만 구성되어야 하며, 간단하게 말해서 자체 HTML 요소를 가지지 말아야 한다는 것입니다. 그 결과 매니저들은 스타일링할 것이 없기 때문에 CSS도 없을 것입니다. 매니저는 애플리케이션의 (자바)스크립트 부분을 대표한다고 안심할 수 있습니다. 비즈니스 로직을 모두 가지고 있으며 대부분의 사용자 상호 작용을 제어합니다.
 
@@ -44,7 +62,18 @@ isUpdated: true
 
 여기서 스타일링에 대한 매우 중요한 주의사항이 있음을 언급해야 합니다. (여기에 포함하려고 하기에는 너무 큰) 이런 문제 때문에 나중에 "스타일링이 React 앱을 파괴하는 방법"과 같은 제목의 다른 기사가 있을 수도 있고 없을 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또한, Worker가 작업을 관리자에게 위임할 수 없다는 사실은 Worker의 하위 요소로 Manager가 될 수 없다는 것을 의미하지는 않습니다. 이러한 내용은 마지막 장에서 다룰 예정이에요 😉
 
@@ -54,7 +83,18 @@ isUpdated: true
 
 이것이 익숙하게 느껴질 겁니다! 이 원칙은 역호환성의 근간이며, 실제로 어디서나 적용됩니다. 웹 API 및 디자인 트렌드는 항상 발전할 것이며, 컴포넌트의 발전이 필요할 때는 언제나\*\* 기존 소비자를 고려해야 합니다. 간단한 예를 통해 실전에서 개방/폐쇄 원칙을 살펴보겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신은 아이콘을 제공한다면 버튼 컴포넌트를 생성하도록 지시받았고, 그렇게 만들었어요:
 
@@ -64,7 +104,18 @@ isUpdated: true
 
 이것이 '개방/폐쇄 원칙'이 무엇이며 React 애플리케이션에서 어떻게 구현하는지 조금은 명확해졌으면 좋겠어요. 이 원칙이 마법같은 해결책이 아니라는 점을 유의해주세요 (힌트: 모든 것이 그렇지요) 그리고 확장은 불가피하게 큰 파일을 야기하며 어느 시점에서는 역효과를 낳을 수 있습니다. 때때로 구성 요소를 확장하고 그것들의 서브 유형을 만들어 나가는 방향을 선택할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 컴포넌트에서 잠재적인 문제점을 발견할 수 있나요? 발견하지 못했다고 하셔도 걱정하지 마세요. 다음 장에서 그에 대해 이야기할 거에요.
 
@@ -74,7 +125,18 @@ isUpdated: true
 
 그러면 IconButton 컴포넌트에서 어떤 실수를 했을까요? IconButton은 theButton 컴포넌트를 확장하므로 다시 말해서 theButton의 서브컴포넌트입니다. 이제 두 개의 질문이 있습니다. 첫 번째 질문은 이미 추측했을 것이고, 두 번째 질문은 좀 까다로울 거예요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - theButton 구성 요소의 모든 발생을 서브 타입 구성 요소인 IconButton으로 대체할 수 있을까요?
 - 이러한 대체를 하는 것이 합리적일까요?
@@ -85,7 +147,18 @@ isUpdated: true
 
 이것은 프로그래밍에서 구성(Inheritance) 대비 상속(Composition)의 훌륭한 예입니다: Liskov 치환 원칙은 상속을 기반으로 하고 React는 구성을 기반으로 합니다(나중에 알게 될 것입니다). React가 구성을 토대로 한다는 사실은 상속에 자리가 없다는 것을 의미하는 것은 아닙니다. 사실, 위의 Button 구성 요소를 살펴보면 의도적으로 두 가지 중요한 기능을 활성화시켜 HTMLButtonElement의 서브 타입으로 만들었습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - `React.PropsWithChildren`을 확장합니다: 콘텐츠를 허용합니다.
 - `React.HTMLAttributes<HTMLButtonElement>`를 확장합니다: 속성을 허용합니다.
@@ -96,7 +169,18 @@ Button 컴포넌트가 Liskov 대체 원칙을 존중하기 때문에 여러분�
 
 React 앱 개발을 진행 중인 초보자라면, 저는 이 원칙을 무시하라고 조언하고 싶어요. React에 익숙하다면 항상 시작 전에 이 질문을 던져보세요: "이 컴포넌트가 기본 컴포넌트 또는 확장하는 요소를 대체하도록 의도된 건가요?" 만약 그렇다면, props, children, 속성, ref를 적절하게 전달하여 Liskov 대체 원칙을 준수하세요. 그렇지 않다면 — 하지 마세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 제1장: 인터페이스 분리 원칙
 
@@ -106,7 +190,18 @@ React 앱 개발을 진행 중인 초보자라면, 저는 이 원칙을 무시�
 
 이 원칙의 함정은 재귀적인 성격에 있습니다. 다음 컴포넌트를 생각해 보십시오:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, 여기에는 사용되지 않는 속성이 없는 것처럼 보입니다. 우리는 사용자를 사용하고 있고 이것이 우리가 가지고 있는 유일한 속성입니다. 그러나 재귀적으로 User type은 이 컴포넌트에 꼭 필요하지 않은 email, id 등 여러 사용되지 않는 속성들을 끌어와요. 여기서 인터페이스 분리 원칙이 위반됩니다. 이는 앞서 Worker 컴포넌트에 대한 토론과 밀접한 관련이 있습니다. 그들은 비즈니스 로직을 인식해서는 안 된다는 것입니다. 사실, 그들은 외부의 어떤 것도 인식해서는 안 된다고 주장할 수 있습니다 (항상 가능한 것은 아닙니다).
 
@@ -116,7 +211,18 @@ React 앱 개발을 진행 중인 초보자라면, 저는 이 원칙을 무시�
 
 # 장(D): 의존성 역전 원칙
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 우리의 마지막 장을 준비해주세요. 한 번뿐인, 리액트 구성의 대부, 모든 원칙의 근원 - 의존성 역전 원칙을 환영해주세요! 공식적인 정의는 처음에는 이해하기 어려울 수 있습니다. 또한 두 부분으로 이루어진 유일한 SOLID 원칙입니다:
 
@@ -126,7 +232,18 @@ React 앱 개발을 진행 중인 초보자라면, 저는 이 원칙을 무시�
 
 나쁜 소식: 당신은 의도치 않게 기본적으로 의존성 역전 원칙을 사용하고 있습니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러니까, 이 원리를 해체하고 React의 모든 기초인 이 가장 강력한 SOLID 원칙을 주의 깊게 살펴보자. 이름을 분석하기부터 시작해보겠습니다: 어떤 종속성인가요? 제 컴포넌트에서 사용하는 외부 코드(모듈, 패키지, 함수, 훅, 컴포넌트 등)입니다.
 
@@ -139,7 +256,18 @@ Import는 내가 거의 또는 전혀 제어할 수 없는 직접적인 종속�
 
 Injection은 역종속성입니다: 전달받은 것에 의존하지만, 어떤 것을 전달할 지 제어할 수 있습니다 - 프롭 인터페이스라는 추상화를 통해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 의존 역전 원칙이 단일 책임 원칙과 인터페이스 분리 원칙과 얼마나 긴밀하게 관련되어 있는지 유념해 주세요. 앞서 나온 badUserAvatar 예제에서 컴포넌트가 비즈니스 로직을 인식해서는 안 된다고 언급한 기억이 나시나요? (즉, Worker 역할을 해서는 안 된다는 것); 또한 컴포넌트가 필요하지 않은 속성/정보를 전달해서는 안 된다고 했었죠. 그리고 이제 의존 역전 원칙은 이 컴포넌트가 나쁜 이유를 세 번째로 더하고 있습니다 — 직접 의존성을 만들고 있다거나, 다른 말로, 저희의 추상화 (AvatarProps)가 세부사항 (User)에 의존하는 것입니다.
 
@@ -149,7 +277,18 @@ Injection은 역종속성입니다: 전달받은 것에 의존하지만, 어떤 
 
 이것이 첫 장에서의 작업자가 관리자보다 컴포넌트 트리에서 더 높게 배치될 수 있도록 만드는 것입니다. 그들의 의존성은 역전되고, 결국 그들은 실제로 무엇을 포함하고 있는지 인식하지 않고 컨테이너로 효과적으로 변화하며, 그것 때문에 단일 책임 원칙을 위반하지 않게 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 "모든 것이 React에서는 구성(composition)"이라는 약속으로 돌아 가 봅시다. React에서 children을 전달하는 방법은 다른 것이 아닙니다. 프로퍼티로 예약 된 children을 사용하여 좀 더 자연스럽게 데이터를 전달할 수 있게끔 다시보세요:
 
@@ -159,7 +298,18 @@ Injection은 역종속성입니다: 전달받은 것에 의존하지만, 어떤 
 
 React에서 구성은 children 프로퍼티에 대하여에만 예약되어있지 않습니다. 응용 프로그램을 어떤 프로퍼티 이름으로도 구성할 수 있으며, ReactNode 타입에만 예약되어있지 않습니다. 응용 프로그램을 어떤 프로퍼티 타입으로도 구성할 수 있습니다. 모든 것이 React에서는 구성입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트의 관점에서만 본 의존성 역전 원칙은 다른 것이 아닌 책임을 부모로 올리는 것입니다. 이는 우리가 첫 장에서 논의한 관리자/작업자 패턴을 고려할 때 전체적으로 이치에 맞다는 것을 의미합니다. 하지만, 단일 책임 원칙과 마찬가지로, 소비에서 생각으로 마지막 한 번 전환하면 다시 큰 문제를 알 수 있을 것입니다. 무한히 책임을 올릴 수는 없다는 것이죠. 다시 말해, 애플리케이션은 최소한 하나 이상의 관리자 구성요소가 필요하며, 이게 한 개뿐이라면 실제 세계와 마찬가지로, 이 가난한 사람이 갖게 될 수 있는 책임의 수준과 양을 상상해볼 수 있습니다. 이는 가독성과 추론 관점에서 절대적으로 재앙을 초래할 것입니다.
 
@@ -169,7 +319,18 @@ React에서 구성은 children 프로퍼티에 대하여에만 예약되어있�
 
 조금이나마 설명이 도움이 되었으면 좋겠습니다. 만약 도움이 된다면, 세상과 공유해주시면 감사하겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 각주
 

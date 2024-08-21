@@ -3,7 +3,7 @@ title: "프록시체인을 이용해 토르 연결 하는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-19-HowtoConnecttoTorUsingProxychainsforEnhancedAnonymity_0.png"
 date: 2024-08-19 03:23
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-19-HowtoConnecttoTorUsingProxychainsforEnhancedAnonymity_0.png
 tag: Tech
 originalTitle: "How to Connect to Tor Using Proxychains for Enhanced Anonymity"
@@ -11,7 +11,6 @@ link: "https://medium.com/@forgecode/how-to-connect-to-tor-using-proxychains-for
 isUpdated: true
 updatedAt: 1724032921460
 ---
-
 
 아래는 Proxychains를 사용하여 Tor로 연결하는 빠른 안내서입니다. Proxychains와 함께 Tor를 사용하면 Tor에 도달하기 전에 귀하의 트래픽이 여러 프록시 서버를 거치게 됩니다.
 
@@ -25,7 +24,18 @@ sudo nano /etc/proxychains.conf
 
 ![이미지](/assets/img/2024-08-19-HowtoConnecttoTorUsingProxychainsforEnhancedAnonymity_0.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희는 지금 "strict_chain"에 해시태그를 추가하고, 대신 "dynamic_chain"에서 해시태그를 제거할 거예요.
 
@@ -35,7 +45,18 @@ sudo nano /etc/proxychains.conf
 
 그리고 마지막으로 다음 명령어를 입력해서 Tor 서비스를 시작해주세요: sudo service tor start
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 sudo service tor status
@@ -47,7 +68,18 @@ It must be active (running) and Bootstrapped 100% (done) without any errors. Sin
 try it with a command:
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프록시체인즈를 사용하여 파이어폭스 브라우저를 실행하세요.
 

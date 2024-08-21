@@ -3,17 +3,13 @@ title: "리액트 네이티브와 WatermelonDB 사용 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "React Native with WatermelonDB"
 link: "https://medium.com/@obinote/react-native-with-watermelondb-2931df69d526"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/ReactNativewithWatermelonDB_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 WatermelonDB는 SQLite 기술을 사용하는 React Native와 React 웹 앱을 위한 데이터베이스 프레임워크입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 왜 WatermelonDB?
 
@@ -33,7 +40,18 @@ React Native에서 복잡한 애플리케이션을 구축하는 데 최적화되
 
 # 설치
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 yarn add @nozbe/watermelondb
@@ -53,7 +71,18 @@ yarn add --dev @babel/plugin-proposal-decorators
 npm install -D @babel/plugin-proposal-decorators
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - babel.config.js 파일에 ES6 데코레이터 지원 추가하기:
 
@@ -68,7 +97,18 @@ npm install -D @babel/plugin-proposal-decorators
 
 루트 폴더에 model/schema.ts, model/migrations.ts 및 model/index.ts를 만드세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 당신의 schema.ts 파일은 다음과 같아야 합니다.
 
@@ -78,7 +118,18 @@ npm install -D @babel/plugin-proposal-decorators
 
 # 모델
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모델 클래스는 앱에서 특정 유형의 항목을 나타냅니다. 예를 들어, 제품(Product), 카테고리(Categories) 등이 있습니다.
 
@@ -88,7 +139,18 @@ model/product.ts와 model/categories.ts 파일을 생성해주세요.
 
 - 여기 제가 예시로 드리는 product.ts 모델 클래스는 category.ts 모델 클래스와 일대다 관계를 가지고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 카테고리.ts 모델 클래스
 
@@ -98,7 +160,18 @@ model/product.ts와 model/categories.ts 파일을 생성해주세요.
 
 시작하기 전에 쿼리 캐싱을 처리하기 위해 다음 패키지를 추가해 봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 $ yarn add @tanstack/react-query
@@ -112,7 +185,18 @@ $ npm i @tanstack/react-query
 
 # 컴포넌트에서 사용됨
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제품 CRUD 작업에 사용해 보세요.
 

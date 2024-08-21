@@ -3,16 +3,13 @@ title: "오픈CTI 61의 텔레메트리"
 description: ""
 coverImage: "/assets/img/2024-05-17-TelemetryinOpenCTI61_0.png"
 date: 2024-05-17 04:28
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-17-TelemetryinOpenCTI61_0.png
 tag: Tech
 originalTitle: "Telemetry in OpenCTI 6.1"
 link: "https://medium.com/filigran/telemetry-in-opencti-6-1-801af33efc8a"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-05-17-TelemetryinOpenCTI61_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 # 기밀성과 익명화
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 수집된 모든 데이터는 익명화되어 있으며 IP 주소, 이메일 주소 또는 사용자 이름과 같은 개별 사용자를 식별할 수 있는 데이터는 수집하지 않습니다. 따라서 사용자의 개인 정보는 개인정보 규정을 준수하여 보호받고 있습니다.
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 수집된 데이터는 다음을 위해 사용됩니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 플랫폼 사용을 더 잘 이해하여 응용 프로그램의 기능과 성능을 향상시킵니다.
 - 사용자 행동을 분석하여 사용자 경험을 향상시킵니다.
@@ -44,7 +63,18 @@ isUpdated: true
 
 텔레메트리 데이터를 수집, 관리 및 내보내기하기 위해 OpenTelemetry 라이브러리를 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 메트릭은 텔레메트리 관리자에 의해 매 시간 수집됩니다. 플랫폼 수명 중 변하지 않는 버전과 같은 일부 메트릭은 텔레메트리 관리자 시작 시에 한 번만 수집됩니다.
 
@@ -55,7 +85,18 @@ isUpdated: true
 - 파일 내보내기 — 메트릭은 파일 내보내기자를 통해 특정 로그 파일에 기록됩니다. 이 파일은 로컬 OpenCTI 폴더(경로: opencti/opencti-platform/opencti-graphql/telemetry/)에서 찾을 수 있으므로 내보낸 데이터에 액세스할 수 있습니다. 이 파일들은 지원 패키지에 포함되어 있습니다. 이 파일들은 항상 생성되며 비활성화할 수 없습니다.
 - OTPL 내보내기 — 연결된 플랫폼의 경우 메트릭은 OTLP 프로토콜을 통해 HTTPS를 통해 telemetry.filigran.io 호스트에 전송됩니다. 이 내보내기는 OpenCTI가 텔레메트리 관리자 시작 시에 호스트명에 연결할 수없는 경우 비활성화됩니다(연결 끊긴 플랫폼).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내보낸 데이터는 OpenTelemetry JSON 형식으로 작성됩니다.
 
@@ -65,7 +106,18 @@ isUpdated: true
 
 다음은 OpenCTI 6.1에서 수집된 플랫폼 사용에 관련된 메트릭 목록입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 현재 플랫폼 버전,
 - 플랫폼 고유 식별자,
@@ -84,7 +136,18 @@ isUpdated: true
 - 시간 경과에 따른 평균 세션 기간, 시간이 지남에 따른 사용자 플랫폼 사용 변화 평가.
 - 기능 채택률을 평가하기 위한 몇 가지 메트릭, 시간이 지남에 따른 특정 기능 사용량 파악하는 데 도움이 됩니다. 예를 들어 세션당 특정 기능의 API 호출 수를 통해 계산될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

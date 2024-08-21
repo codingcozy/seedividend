@@ -3,7 +3,7 @@ title: "루비에서 public, private, protected 메소드 정리"
 description: ""
 coverImage: "/assets/img/2024-08-18-MethodVisibilityinRuby_0.png"
 date: 2024-08-18 11:39
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-18-MethodVisibilityinRuby_0.png
 tag: Tech
 originalTitle: "Method Visibility in Ruby"
@@ -11,7 +11,6 @@ link: "https://medium.com/@patrykrogedu/method-visibility-in-ruby-cc4038804210"
 isUpdated: true
 updatedAt: 1724032784930
 ---
-
 
 ![MethodVisibilityinRuby_0](/assets/img/2024-08-18-MethodVisibilityinRuby_0.png)
 
@@ -21,7 +20,18 @@ updatedAt: 1724032784930
 
 루비에서는 세 가지 수준의 메소드 가시성이 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 공개(Public)
 - 보호(Protected)
@@ -33,7 +43,18 @@ updatedAt: 1724032784930
 
 # 공개 메소드: 지원되는 인터페이스
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 퍼블릭 메서드는 사용자에게 해당 객체의 지원 인터페이스의 일부라는 신호를 보냅니다. 이것은 다음을 의미합니다:
 
@@ -44,7 +65,18 @@ updatedAt: 1724032784930
 
 프로텍티드 및 프라이빗 메서드는 구현 세부 정보임을 나타내며 언제든지 변경될 수 있습니다. 이 차이는 장기 유지에 중요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 유지보수에 미치는 영향
 
@@ -55,7 +87,18 @@ updatedAt: 1724032784930
 
 두 번째 시나리오가 유지보수하기 훨씬 쉬운 이유는:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 한 공개 메서드의 동작 일관성을 유지해야 합니다
 - 99개의 비공개 메서드를 필요에 맞게 변경하거나 제거할 수 있습니다. 이때 공개 인터페이스를 깨뜨리지 않아야 합니다.
@@ -69,7 +112,18 @@ updatedAt: 1724032784930
 
 ## 가시성 실수 수정하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 실수로 메서드를 공개(public)로 지정했지만 사실은 비공개(private)로 설정해야 한다면, 점진적으로 가시성(visibility)을 변경하는 다음 방법을 사용할 수 있습니다:
 
@@ -99,7 +153,18 @@ class ConstantVis
 end
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 위임 처리
 
@@ -114,7 +179,18 @@ def foo(...)
 end
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 다른 객체로 위임하기
 
@@ -130,7 +206,18 @@ end
 
 여러 개의 위임을 하려면 forwardable 라이브러리를 사용하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 require 'forwardable'
@@ -147,8 +234,18 @@ end
 
 # 용어 해설
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 메소드 가시성: 루비에서 메소드에 적용되는 액세스 제어 수준 (public, protected, 또는 private).
 - 위임: 한 메소드에서 다른 메소드로 메소드 인수를 전달하는 실천 방법으로, 종종 메소드 호출을 래핑하거나 동작을 추가하는 데 사용됩니다.

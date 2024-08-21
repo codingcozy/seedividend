@@ -3,16 +3,13 @@ title: "Pandas DataFrame에 데이터 로드하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-12-PandasLoadingdataintoaDataFrame_0.png"
 date: 2024-07-12 20:58
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-12-PandasLoadingdataintoaDataFrame_0.png
 tag: Tech
 originalTitle: "Pandas: Loading data into a DataFrame"
 link: "https://medium.com/coinmonks/pandas-loading-data-into-a-dataframe-4ca57442744e"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-07-12-PandasLoadingdataintoaDataFrame_0.png" />
 
@@ -22,8 +19,18 @@ isUpdated: true
 
 다음은 캐글(Kaggle)에서 다운로드할 수 있는 데이터셋 링크입니다. [링크 바로가기](https://www.kaggle.com/competitions/titanic/data?select=train.csv)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Pandas Loading Data into a DataFrame](/assets/img/2024-07-12-PandasLoadingdataintoaDataFrame_1.png)
 
@@ -39,8 +46,18 @@ print(titanic_df.head())
 
 이 코드 조각은 타이타닉 CSV 파일을 DataFrame으로 읽어와 우리가 분석할 데이터를 엿볼 수 있도록 해줍니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 깊게 파기
 
@@ -50,7 +67,18 @@ print(titanic_df.head())
 
 타이타닉에 관한 가장 감동적인 질문 중 하나는 생존과 관련이 있습니다. 우리는 판다스를 사용하여 다양한 기능에 기반한 생존율을 분석할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 클래스별 생존률 계산
@@ -64,8 +92,18 @@ print(생존률)
 
 기존 데이터에서 새로운 기능을 만들어 추가 정보를 얻을 수 있습니다. 예를 들어 'FamilySize' 열을 만들어보겠습니다:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # Create a new column for family size
@@ -81,7 +119,18 @@ print(family_survival)
 
 데이터를 로드하는 방식을 더 세밀하게 조정해야 할 때가 있습니다. Pandas는 이 과정을 세밀하게 조정할 수 있는 많은 매개변수를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 행을 건너뛰고 누락된 값 설정 및 열 제한을 위한 매개변수 조정
@@ -94,7 +143,18 @@ DataFrame 미리보기
 
 로드된 후에는 모든 것이 올바르게 보이는지 확인하기 위해 DataFrame을 미리보는 것이 좋습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 # DataFrame의 첫 몇 행 미리보기
@@ -109,14 +169,26 @@ print(df.tail())
 
 판다스는 요약 통계량을 통해 데이터의 포괄적인 개요를 제공하는 데 뛰어납니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Get summary statistics for numerical columns
-print(df.describe())
-# Get summary statistics for all columns including categorical
-print(df.describe(include='all'))
 
+print(df.describe())
+
+# Get summary statistics for all columns including categorical
+
+print(df.describe(include='all'))
 
 이 명령어들은 데이터셋의 중심 경향성, 분산 및 형태를 요약하는 기술통계를 생성합니다.
 
@@ -124,8 +196,18 @@ print(df.describe(include='all'))
 
 배운 내용을 더 실용적으로 적용해 보겠습니다 — 동물원 프로젝트입니다. 데이터를 로드하고 정리한 다음, 각 동물 종에 대한 평균 식량 필요량을 계산해 봅시다:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 동물원 데이터 분석
@@ -155,9 +237,20 @@ zoo_df = pd.DataFrame(data)
 zoo_df.assign(월령=lambda x: x['나이'] * 12).sort_values(by='나이')
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-위의 예에서 우리는 먼저 나이를 월로 변환한 다음 나이를 기준으로 DataFrame을 정렬합니다. 이 모든 작업을 한 표현식으로 처리합니다. 이렇게 하면 코드가 더 깔끔해지고 더 효율적으로 됩니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+위의 예에서 우리는 먼저 나이를 월로 변환한 다음 나이를 기준으로 DataFrame을 정렬합니다. 이 모든 작업을 한 표현식으로 처리합니다. 이렇게 하면 코드가 더 깔끔해지고 더 효율적으로 됩니다.
 
 ```js
 결과
@@ -172,7 +265,18 @@ zoo_df.assign(월령=lambda x: x['나이'] * 12).sort_values(by='나이')
 
 데이터를 정렬하는 것은 가장 중요한 항목이나 덜 중요한 항목을 분석할 때 중요합니다. 판다스는 이러한 작업을 위해 sort_values() 및 sort_index()를 제공합니다. 반면에 순위 매기기는 데이터에 순위를 할당하여 리더보드와 유사하게 만듭니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 체중순으로 정렬
@@ -203,7 +307,18 @@ avg_weight_by_animal = zoo_df.groupby('Animal')['Weight'].mean()
 )
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 결과
@@ -220,6 +335,17 @@ avg_weight_by_animal = zoo_df.groupby('Animal')['Weight'].mean()
 
 이전 포스트: `- Pandas: 파이썬에서 데이터 분석의 중추`
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 - Pandas: 데이터 정리 및 변형

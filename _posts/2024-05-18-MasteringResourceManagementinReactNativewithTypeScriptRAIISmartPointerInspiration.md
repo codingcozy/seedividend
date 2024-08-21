@@ -3,18 +3,13 @@ title: "리액트 네이티브에서 TypeScript를 활용한 자원 관리 마�
 description: ""
 coverImage: "/assets/img/2024-05-18-MasteringResourceManagementinReactNativewithTypeScriptRAIISmartPointerInspiration_0.png"
 date: 2024-05-18 21:46
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-18-MasteringResourceManagementinReactNativewithTypeScriptRAIISmartPointerInspiration_0.png
 tag: Tech
 originalTitle: "Mastering Resource Management in React Native with TypeScript: RAII , Smart Pointer Inspiration"
 link: "https://medium.com/@mohamed.ma872/mastering-resource-management-in-react-native-with-typescript-raii-smart-pointer-inspiration-b99727a208e9"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![RAII Reimagined: Embracing Lifecycle Hooks](/assets/img/2024-05-18-MasteringResourceManagementinReactNativewithTypeScriptRAIISmartPointerInspiration_0.png)
 
@@ -23,26 +18,36 @@ isUpdated: true
 RAII은 객체 초기화 중에 리소스를 획득하고 파괴 시에 해제하는 것을 강조합니다. React Native에서는 컴포넌트 라이프사이클 훅이 RAII를 가능하게 합니다:
 
 ```js
-import React, { useEffect } from 'react';
-import Geolocation from '@react-native-community/geolocation'; // 예시 리소스
+import React, { useEffect } from "react";
+import Geolocation from "@react-native-community/geolocation"; // 예시 리소스
 
 function LocationTracker() {
   useEffect(() => {
-    const watchId = Geolocation.watchPosition(location => {
+    const watchId = Geolocation.watchPosition((location) => {
       // ... 위치 데이터 처리
     });
 
     return () => {
       Geolocation.clearWatch(watchId); // 언마운팅시 워치 해제
     };
-  }, []); 
+  }, []);
 
   // ... 컴포넌트 로직
 }
 ```
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 코드 조각에서:
 
@@ -53,11 +58,22 @@ function LocationTracker() {
 
 TypeScript에는 진정한 스마트 포인터가 없지만 클래스를 사용하여 그 본질을 모방할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 class AudioPlayer {
-  private sound: Sound | null; 
+  private sound: Sound | null;
 
   constructor(filePath: string) {
     this.sound = new Sound(filePath, error => {
@@ -69,9 +85,9 @@ class AudioPlayer {
     if (this.sound) this.sound.play();
   }
 
-  release() { 
+  release() {
     if (this.sound) {
-      this.sound.release(); 
+      this.sound.release();
       this.sound = null;
     }
   }
@@ -82,7 +98,7 @@ class AudioPlayer {
 
 ```js
 useEffect(() => {
-  const player = new AudioPlayer('path/to/sound.mp3');
+  const player = new AudioPlayer("path/to/sound.mp3");
   // ...
 
   return () => {
@@ -93,7 +109,18 @@ useEffect(() => {
 
 AudioPlayer 클래스는 Sound 객체를 캡슐화하고 제어된 접근을 제공합니다. release 메서드는 스마트 포인터의 소멸자를 흉내내어 적절한 정리를 보장합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 신중한 참조: 원시 포인터 함정 피하기
 
@@ -105,7 +132,18 @@ AudioPlayer 클래스는 Sound 객체를 캡슐화하고 제어된 접근을 제
 
 기본 이상으로
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 라이브러리: RxJS (Observables)나 React Native AppState API와 같은 라이브러리를 고려하여 자원 관리를 효율적으로 처리합니다.
 - 커스텀 훅: 복잡한 자원 상호작용을 캡슐화하기 위해 커스텀 훅을 작성합니다.

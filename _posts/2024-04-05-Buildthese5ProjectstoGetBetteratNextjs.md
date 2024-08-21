@@ -3,17 +3,13 @@ title: "Nextjs 공부할 때 만들면 좋은 토이 프로젝트 5가지"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Build these 5 Projects to Get Better at Nextjs"
 link: "https://medium.com/@mohit-vaswani/build-these-5-projects-to-get-better-at-nextjs-498a2b76fde2"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/Buildthese5ProjectstoGetBetteratNextjs_0.png"/>
 
@@ -23,7 +19,18 @@ Next.js는 React 앱을 만들기 위한 놀라운 프레임워크입니다. 다
 
 ## 1. 개발자를 위한 간단한 포트폴리오 템플릿
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/Buildthese5ProjectstoGetBetteratNextjs_1.png)
 
@@ -33,7 +40,18 @@ Github
 
 ## 2. Next.js 14, Typescript 및 Shadcn UI를 사용하여 구축된 실시간 날씨 앱
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/Buildthese5ProjectstoGetBetteratNextjs_2.png" />
 
@@ -43,7 +61,18 @@ Github
 
 ## 3. 브라우저에서 실행되는 비디오 편집기, fabric.js 및 Next.js로 구축
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/Buildthese5ProjectstoGetBetteratNextjs_3.png" />
 
@@ -53,7 +82,18 @@ Github
 
 ## 4. 웹을 위한 시각적인 딥러닝 프레임워크, WebGPU와 Next.js로 구축된
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/Buildthese5ProjectstoGetBetteratNextjs_4.png" />
 
@@ -63,7 +103,18 @@ Github
 
 ## 5. GPT-4와 Next.js를 이용한 개인 AGI 애플리케이션
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Big-AGI](/assets/img/Buildthese5ProjectstoGetBetteratNextjs_5.png)
 
@@ -73,7 +124,18 @@ Github
 
 ## 보너스: 50개 이상의 프로젝트(한정 기간 무료)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/Buildthese5ProjectstoGetBetteratNextjs_6.png" />
 

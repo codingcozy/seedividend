@@ -3,17 +3,13 @@ title: "프론트엔드 개발을 위한 7가지 온라인 도구들 "
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "7 Online tools for Front-End Development "
 link: "https://medium.com/@ramiahviknesh/7-online-tools-for-front-end-development-94317a635ea1"
 isUpdated: true
 ---
-
-
-
-
 
 ![7 Online tools for Front-End Development](/assets/img/7OnlinetoolsforFront-EndDevelopment_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이 도구는 매우 유용합니다. 요구하는 브라우저와 호환되는 기능이 구현되고 있는지 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![img1](/assets/img/7OnlinetoolsforFront-EndDevelopment_1.png)
 
@@ -33,7 +40,18 @@ Hoppscotch는 모든 API 및 모든 API의 응답을 모든 방법으로 모든 
 
 ![img2](/assets/img/7OnlinetoolsforFront-EndDevelopment_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. Stackblitz
 
@@ -43,7 +61,18 @@ Hoppscotch는 모든 API 및 모든 API의 응답을 모든 방법으로 모든 
 
 4. Codesandbox
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 빠른 웹 개발을 위한 즉시 IDE 및 프로토타이핑 도구입니다. 프로토타입부터 배포까지 웹 애플리케이션을 만들 수 있는 온라인 편집기입니다. 이것은 목록 중 최고의 제품입니다. transpiling, 번들링 및 종속성 관리와 같은 작업을 자동화하여 새 프로젝트를 한 번의 클릭으로 손쉽게 만들 수 있습니다. 흥미로운 것을 만든 후 URL을 공유하면 다른 사람들에게 보여줄 수 있습니다. CodeSandbox에는 코드를 입력하는 동안 결과를 보여주는 실시간 미리 보기 기능이 있습니다. 해당 편집기는 모든 JavaScript 프로젝트와 함께 작동합니다. 사용한 가장 좋은 제품입니다.
 
@@ -54,7 +83,18 @@ Hoppscotch는 모든 API 및 모든 API의 응답을 모든 방법으로 모든 
 소프트웨어 개발의 기본 원칙 중 하나는 코드 재사용성입니다. 이를 통해 구성 요소를 처음부터 만들 필요 없이 개발을 줄일 수 있습니다. 이것이 바로 Bit.dev가 하는 일입니다. 재사용 가능한 코드 구성 요소와 스니펫을 공유할 수 있어서 비용을 절감하고 개발 프로세스를 가속화할 수 있습니다.
 또한 팀원 간에 구성 요소를 공유할 수 있어서 다른 사람과 협업할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/7OnlinetoolsforFront-EndDevelopment_5.png)
 
@@ -64,7 +104,18 @@ Cssmatic은 박스 그림자, 그라디언트, 테두리 반경 및 노이즈 �
 
 ![이미지](/assets/img/7OnlinetoolsforFront-EndDevelopment_6.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 7. 예쁜 플레이그라운드
 
@@ -74,6 +125,17 @@ Prettier는 자바스크립트를 지원하는 코드 포매터로, ES2017, JSX,
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나는 내 개발 경력 중 만난 최고의 온라인 도구들을 모아봤어. 만약에 추가해야 할 가치 있는 도구가 있다면 아래 댓글로 알려줘. 즐거운 코딩 되길 바래!

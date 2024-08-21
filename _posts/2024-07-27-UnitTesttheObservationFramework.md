@@ -3,17 +3,13 @@ title: "관찰 프레임워크 단위 테스트하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-27-UnitTesttheObservationFramework_0.png"
 date: 2024-07-27 14:02
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-27-UnitTesttheObservationFramework_0.png
 tag: Tech
 originalTitle: "Unit Test the Observation Framework"
 link: "https://medium.com/better-programming/unit-test-the-observation-framework-d0f0fe240944"
 isUpdated: true
 ---
-
-
-
-
 
 ![Screenshot](/assets/img/2024-07-27-UnitTesttheObservationFramework_0.png)
 
@@ -23,8 +19,18 @@ Combine is no longer an implementation detail of SwiftUI. Our hard-earned knowle
 
 Today, we’re going to discover how to unit test @Observable view models.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제 작품 'Swift에서의 비동기 단위 테스트'의 후속작입니다. 내 믿음직한, 술취한 사이드 프로젝트인 Bev을 iOS 17로 업데이트할 예정이며, 모든 테스트 커버리지를 유지할 것입니다.
 
@@ -34,7 +40,18 @@ Combine을 대체할 것이다.
 
 SwiftUI의 성능의 만병통치약.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 부기내용 부담하세요.
 

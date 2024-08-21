@@ -3,17 +3,13 @@ title: "React 버전 19 신기능 및 주요내용 정리2024년"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Exciting Innovations in React Version 19 A Sneak Peek into the Future "
 link: "https://medium.com/@beckmoulton/exciting-innovations-in-react-version-19-a-sneak-peek-into-the-future-6460d7637de3"
 isUpdated: true
 ---
-
-
-
-
 
 React 공식은 공식적으로 2024년 5월 15-16일에 버전 19을 릴리스할 예정입니다! 마지막 React 업데이트(v18.2 버전) 이후로 600일이 넘게 지났습니다. 이 기간 동안 React 팀은 React 커뮤니티의 호기심을 자극하는 다양한 프로젝트에 착수해왔습니다. 오늘은 이 기간 동안 React 팀이 생산한 일부 연구 결과를 공개하고, 그들이 어떻게 더 많은 혁신과 돌파구를 가져오기 위해 조용히 일해왔는지 살펴봅시다.
 
@@ -23,7 +19,18 @@ React는 주류 프론트엔드 프레임워크로 알려져 있으며, 유연�
 
 # useFormStatus
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 공식 링크 useFormStatus는 마지막 폼의 상태에 대한 정보를 제공해주는 상태 훅입니다.
 
@@ -51,7 +58,18 @@ function StatefulForm({}) {
 - initialState: 폼의 초기 상태.
 - 선택적 매개변수 permalink: 폼 제출 후 리디렉션할 URL을 나타냅니다. 기본값은 현재 페이지입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 개의 값으로 구성된 배열을 반환합니다:
 
@@ -62,7 +80,18 @@ function StatefulForm({}) {
 
 마지막 폼 제출의 상태 정보를 제공하는 공식 링크인 useFormStatus 훅입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { useFormStatus } from "react-dom";
@@ -91,7 +120,18 @@ export default function App() {
 
 # useOptimistic()
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 공식 링크 useOptimistic은 낙관적 업데이트 구현을 간단화하려는 목표를 가지고 있습니다. useOptimistic Hook을 사용하여 개발자들은 현재 상태와 업데이트 함수를 제공하여 낙관적 상태의 사본을 얻을 수 있습니다. 비동기 작업 중에 React는 이 낙관적 상태를 자동으로 렌더링하여 즉각적인 사용자 피드백을 제공합니다. 비동기 작업이 완료되면 React는 실제 결과에 기반하여 UI를 업데이트하여 최종 상태의 일관성을 보장합니다. 이 새로운 Hook은 낙관적 업데이트를 더 쉽게 처리하도록 도와주어 개발 효율성과 사용자 경험을 향상시킬 수 있습니다. 사용 예시:
 
@@ -100,9 +140,8 @@ import { useOptimistic } from "react";
 
 function LikeButton({ postId, initialLikes }) {
   const [likes, setLikes] = useState(initialLikes);
-  const [optimisticLikes, updateOptimisticLikes] = useOptimistic(
-    likes,
-    (currentLikes, isLiked) => (isLiked ? currentLikes + 1 : currentLikes - 1)
+  const [optimisticLikes, updateOptimisticLikes] = useOptimistic(likes, (currentLikes, isLiked) =>
+    isLiked ? currentLikes + 1 : currentLikes - 1
   );
 
   const handleLike = async () => {
@@ -123,7 +162,18 @@ function LikeButton({ postId, initialLikes }) {
 
 과거에는 반복적인 렌더링 문제를 수동으로 최적화하기 위해 useMemo, useCallback, memo와 같은 API를 사용하여 React의 성능을 향상시켰어야 했습니다. 사용 예시:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import React, { useMemo } from "react";
@@ -144,7 +194,18 @@ React 19 버전에서 새로운 자동 메모이제이션 컴파일러가 도입
 
 # 3. 개선된 동시 모드
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React의 동시 모드를 사용하면 대규모 렌더링 작업을 작은 단위로 분해하여 중요도에 따라 업데이트를 우선 처리함으로써 응답성을 높일 수 있습니다. React 19 버전에서는 동시 모드가 렌더링 우선순위와 스케줄링에 대한 더 나은 제어를 제공하기 위해 개선되었습니다.
 
@@ -154,6 +215,17 @@ React의 동시 모드를 사용하면 대규모 렌더링 작업을 작은 단�
 
 동시 모드의 이러한 개선 사항들은 개발자가 복잡한 렌더링 작업을 효율적으로 처리하고 원활한 사용자 경험을 제공할 수 있는 반응성이 뛰어난 강력한 React 응용 프로그램을 더 쉽게 구축할 수 있도록 해줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React 버전 19는 개발자 생산성, 애플리케이션 성능, 그리고 사용자 경험을 향상시키기 위한 흥미로운 새로운 기능과 개선 사항을 제공합니다. React 팀은 이러한 혁신을 전달하기 위해 노력해오고 있으며, 다가오는 릴리스는 React 커뮤니티에 크게 기대되고 있습니다. 공식 릴리스 일인 2024년 5월 15일–16일에 이르는 과정에서 더 많은 업데이트와 공지 사항을 기대해 주세요! 🎉🚀

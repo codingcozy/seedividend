@@ -3,17 +3,13 @@ title: "Nextjs 13 Draft 모드 정리"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "화면 보호 모드"
 link: "undefined"
 isUpdated: true
 ---
-
-
-
-
 
 # 임시 보관함
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 Next.js에는 이 문제를 해결하는 Draft Mode라는 기능이 있습니다. 이를 사용하는 방법은 다음과 같습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 1: API 라우트 생성 및 접근
 
@@ -33,7 +40,18 @@ Next.js에는 이 문제를 해결하는 Draft Mode라는 기능이 있습니다
 
 이 API 라우트에서는 응답 객체에서 setDraftMode를 호출해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 export default function handler(req, res) {
@@ -55,7 +73,18 @@ export default function handler(req, res) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 브라우저의 개발자 도구를 열고 /api/draft에 방문하면 Set-Cookie 응답 헤더가 포함된 것을 알 수 있습니다. 그 쿠키의 이름은 \_\_prerender_bypass입니다.
 
@@ -65,7 +94,18 @@ export default function handler(req, res) {
 
 이러한 단계는 사용 중인 헤드리스 CMS가 사용자 정의 밉프트 URL을 설정하는 것을 지원하는 것으로 가정합니다. 그렇지 않은 경우에도 이 방법을 사용하여 임시 URL을 안전하게 만들 수는 있지만, 임시 URL을 만들고 액세스해야 할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, 선택한 토큰 생성기를 사용하여 비밀 토큰 문자열을 생성해야 합니다. 이 비밀은 Next.js 앱과 헤드리스 CMS만 알 수 있습니다. 이 비밀은 CMS에 액세스할 수 없는 사람들이 임시 URL에 액세스하는 것을 방지합니다.
 
@@ -79,7 +119,18 @@ https://<your-site>/api/draft?secret=<token>&slug=<path>
 - `token`에는 생성한 비밀 토큰을 넣어야 합니다.
 - `path`에는 보고 싶은 페이지의 경로를 넣어야 합니다. /posts/foo를 보려면 &slug=/posts/foo를 사용해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 헤드리스 CMS를 사용하고 있다면 드래프트 URL에 변수를 포함하여 `path`를 CMS 데이터에 기반하여 동적으로 설정할 수 있을 수도 있어요. 다음과 같이 해보세요: &slug=/posts/{entry.fields.slug}
 
@@ -116,7 +167,18 @@ export default async (req, res) => {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 성공하면 브라우저가 초안 모드 쿠키로 원하는 경로로 리디렉션됩니다.
 
@@ -126,7 +188,18 @@ export default async (req, res) => {
 
 쿠키가 설정된 getStaticProps 페이지를 요청하면 (res.setDraftMode를 통해), getStaticProps가 빌드 시간이 아닌 요청 시간에 호출됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또한, context.draftMode가 true인 상황에서 context 객체와 함께 호출될 것입니다.
 
@@ -142,7 +215,18 @@ draft API route에서 res.setDraftMode를 사용했기 때문에 context.draftMo
 
 getStaticPaths를 사용 중이라면 context.params도 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 초안 데이터 가져오기
 
@@ -158,7 +242,18 @@ export async function getStaticProps(context) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그게 다에요! 헤들리스 CMS나 수동으로 드래프트 API 경로(시크릿 및 슬러그와 함께)에 액세스하면 이제 드래프트 콘텐츠를 볼 수 있어요. 그리고 초안을 업데이트하고 발행하지 않은 경우, 드래프트를 볼 수 있어야 해요.
 
@@ -170,7 +265,18 @@ https://<your-site>/api/draft?secret=<token>&slug=<path>
 
 ## 자세한 내용
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 초안 모드 쿠키 지우기
 
@@ -184,7 +290,18 @@ export default function handler(req, res) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼, /api/disable-draft로 요청을 보내어 API Route를 호출하세요. next/link를 사용하여 이 경로를 호출할 때는 prefetch={false}를 전달해야 예비 검색(prefetch)에서 실수로 쿠키를 삭제하는 것을 방지할 수 있어요.
 
@@ -194,7 +311,18 @@ Draft Mode은 getServerSideProps와 함께 작동하며, context 객체의 draft
 
 > 알아두면 좋아요: Draft Mode를 사용할 때 Cache-Control 헤더를 설정하면 우회할 수 없기 때문에 ISR 사용을 권장해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### API 라우트와 함께 사용하기
 
@@ -210,7 +338,18 @@ export default function myApiRoute(req, res) {
 
 ### 다음 빌드마다 고유합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 빌드를 실행할 때마다 새로운 우회 쿠키 값이 생성됩니다.
 
@@ -218,4 +357,15 @@ export default function myApiRoute(req, res) {
 
 > 알아두면 좋은 사항: 로컬에서 HTTP를 통해 Draft Mode를 테스트하려면 브라우저가 타사 쿠키 및 로컬 스토리지 액세스를 허용해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

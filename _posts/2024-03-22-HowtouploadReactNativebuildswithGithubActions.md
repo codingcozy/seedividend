@@ -3,17 +3,13 @@ title: "GitHub Actions를 이용하여 React Native 빌드하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How to upload React Native builds with Github Actions"
 link: "https://medium.com/scaleuptech/how-to-upload-react-native-builds-with-github-actions-5f5ec08cc6b4"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/How-to-upload-React-Native-builds-with-Github-Actions_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 본 글에서는 이 빌드를 Firebase App Distribution에 테스트 용으로 업로드하는 방법과 Play 스토어 및 App 스토어에 제품으로 업로드하는 방법에 대해 설명하겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Firebase App Distribution에 업로드하기
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ## 앱 ID
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Firebase 프로젝트로 이동하여 일반 설정 페이지로 이동하세요. iOS appId와 Android appId를 찾을 수 있어요.
 
@@ -45,7 +63,18 @@ Android appId를 'Secret'로 표시된 텍스트 상자에 붙여넣으세요.
 FIREBASE_IOS_APP_ID
 iOS appId를 'Secret'로 표시된 텍스트 상자에 붙여넣으세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## serviceCredentialsFileContent
 
@@ -64,7 +93,18 @@ iOS appId를 'Secret'로 표시된 텍스트 상자에 붙여넣으세요.
 
 이제 모든 준비가 완료되어 실제 워크플로로 이동할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## iOS 앱을 App Distribution에 업로드하기
 
@@ -96,7 +136,18 @@ iOS appId를 'Secret'로 표시된 텍스트 상자에 붙여넣으세요.
 
 그리고 전체 yaml 파일은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 name: "iOS 스테이징 앱 빌드"
@@ -235,7 +286,18 @@ needs: [build_with_signing];
 
 이는 업로드를 하기 위해 먼저 ipa 파일을 얻어야 하기 때문에 필요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Android 앱을 App Distribution에 업로드하는 방법
 
@@ -255,7 +317,18 @@ needs: [build_with_signing];
 
 여기에 전체 yaml 파일이 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```yaml
 이름: "Android 스테이징 앱 빌드"
@@ -322,7 +395,18 @@ needs: [build_with_signing];
 
 ## App store Testflight로 iOS 앱 업로드
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 실제 워크플로우로 이동하기 전에 몇 가지 작업을 수행하고 몇 가지 Github 비밀을 추가해야 합니다.
 
@@ -332,7 +416,18 @@ needs: [build_with_signing];
 
 다음은 ipa 파일을 Testflight로 업로드하는 yaml 파일 부분입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
    - name: TestFlight에 발행하기
@@ -462,7 +557,18 @@ jobs:
 
 ## 안드로이드 앱 Play 스토어 내부 테스트로 업로드하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새로운 비밀 키를 생성하고 SERVICE_ACCOUNT_JSON이라는 이름을 지정해야 합니다. 다음 단계를 따라 서비스 계정 JSON을 얻을 수 있습니다:
 
@@ -481,7 +587,18 @@ jobs:
 - 새 사용자 초대를 클릭하고 이전 단계에서 생성한 서비스 계정의 이메일을 추가합니다
 - 서비스 계정이 앱에 배포할 권한을 부여합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기는 내부 테스트를 위해 aab 파일을 업로드하는 부분입니다:
 
@@ -499,7 +616,18 @@ jobs:
 
 그리고 여기가 전체 yaml 파일입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```yaml
 name: "안드로이드 프로덕션 앱 빌드"
@@ -564,4 +692,15 @@ jobs:
 
 GitHub Actions를 앱 개발 파이프라인에 신속하게 통합할 수 있는 능력은 시간을 절약할 뿐만 아니라 수동 오류를 최소화하여 팀이 혁신에 더 많은 시간을 투자하고 반복적인 작업을 줄일 수 있도록 도와줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

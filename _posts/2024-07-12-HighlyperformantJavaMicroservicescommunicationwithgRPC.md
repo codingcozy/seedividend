@@ -3,16 +3,13 @@ title: "gRPC로 높은 성능의 Java 마이크로서비스 통신 구현하는 
 description: ""
 coverImage: "/assets/img/2024-07-12-HighlyperformantJavaMicroservicescommunicationwithgRPC_0.png"
 date: 2024-07-12 21:23
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-12-HighlyperformantJavaMicroservicescommunicationwithgRPC_0.png
 tag: Tech
 originalTitle: "Highly performant Java Microservices communication with gRPC"
 link: "https://medium.com/geekculture/highly-performant-java-microservices-communication-with-grpc-c20e3a77a8db"
 isUpdated: true
 ---
-
-
-
 
 ![이미지](/assets/img/2024-07-12-HighlyperformantJavaMicroservicescommunicationwithgRPC_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 # 구현
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마이크로서비스는 서로 동기적 및 비동기적으로 통신할 수 있습니다. 동기 통신에는 RESTful API가 널리 사용되지만 gRPC도 인기를 얻고 있습니다. RESTful API와 마찬가지로 gRPC는 서비스 간 통신을 위한 플랫폼 간 언어를 고려하지 않는 방법을 제공합니다. 2016년 Google이 RESTful API의 한계를 극복하기 위해 RPC(원격 프로시저 호출)를 사용하여 마이크로서비스 간 통신을 위해 gRPC를 만들었습니다. gRPC는 HTTP/2를 기반으로 하며 성능을 향상시키기 위해 이진 형식인 Protobuf를 사용합니다. 성능이 중요한 응용 프로그램에서는 gRPC가 효율적이기 때문에 RESTful API보다 우위를 차지할 수 있습니다. HTTP/2와 이진 메시지 형식 Protobuf를 사용함으로써, gRPC가 RESTful API보다 다음의 세 가지 경우에 필요한 경계를 넘어섭니다:
 
@@ -34,7 +42,18 @@ isUpdated: true
 
 시스템 요구 사항:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Java 설치하기
 
@@ -46,7 +65,18 @@ java –version
 
 아래와 같은 결과가 표시됩니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 openjdk 17.0.4.1 2022-08-12 LTS
@@ -60,7 +90,18 @@ OpenJDK 64-Bit 서버 VM (빌드 17.0.4.1+1-LTS, 혼합 모드, 공유 중)
 
 Ubuntu 시스템에 프로토콜 버퍼를 설치하는 명령어는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 sudo apt install -y protobuf-compiler
@@ -69,12 +110,23 @@ sudo apt install -y protobuf-compiler
 만약 설치가 성공적으로 완료되었다면, 다음 명령어를 사용하여 프로토콜 버퍼 컴파일러 버전을 확인할 수 있습니다:
 
 ```js
-protoc-version
+protoc - version;
 ```
 
 출력 결과는 다음과 같을 것입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 libprotoc 3.12.4
@@ -86,8 +138,18 @@ libprotoc 3.12.4
 
 gRPC 및 프로토콜 버퍼를 지원하기 위해 다음 종속성을 추가해야 합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 implementation 'io.grpc:grpc-netty:1.49.0'
@@ -135,8 +197,18 @@ service PaymentService {
 }
 ```
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파일을 한 줄씩 분석해 봅시다.
 
@@ -154,7 +226,18 @@ import "google/protobuf/timestamp.proto";
 - 두 번째 줄은 .proto 파일로부터 여러 Java 파일이 생성될 것임을 나타냅니다.
 - 세 번째 줄은 생성된 Java 파일의 패키지 이름을 정의합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 .proto 파일에서는 "import"를 사용하여 다른 .proto 파일 및 해당 정의를 가져올 수도 있습니다. 네 번째 줄에서는 구글의 "timestamp.proto" 파일을 가져와서 표준 타임스탬프 속성을 사용합니다.
 
@@ -188,7 +271,18 @@ message PaymentResponse {
 
 처음 몇 줄에서 "Person" 메시지를 정의했습니다. 각 매개변수에 번호를 지정해야 합니다. REST와 달리 Protobuf는 매번 속성 이름(예: "id")이 전달되는 것이 아니라 숫자 "1"을 전달합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 또한 송신자, 수신자, 목적 및 금액을 포함하는 PaymentRequest를 정의했습니다.
 
@@ -202,7 +296,18 @@ service PaymentService {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 서비스에는 PaymentRequest를 받아 PaymentResponse를 반환하는 간단한 sendPayment 메서드가 포함되어 있습니다.
 
@@ -212,7 +317,18 @@ service PaymentService {
 
 또 다른 방법은 Gradle 플러그인을 사용하여 .proto 파일로부터 Java 코드를 생성하는 것입니다. 우리는 그것을 위해 Gradle 플러그인을 사용할 것입니다. gRPC Gradle 플러그인에 대해 더 알아보려면 공식 웹사이트를 방문해 주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저 "service.proto" 파일을 "src/main/proto" 디렉토리에 저장하세요.
 
@@ -227,7 +343,18 @@ plugins {
 
 또한 다음과 같이 Protobuf 컴파일을 구성해야 합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 protoc {
@@ -256,7 +383,18 @@ Gradle 빌드를 성공적으로 완료하면 다음과 같은 메시지 파일�
 - PaymentStatus.java
 - Person.java
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 PaymentServiceGrpc.java 서비스 파일도 생성됩니다. 여기에는 sendPayment() 메서드를 포함하는 static abstract 클래스 PaymentServiceImplBase가 포함되어 있습니다.
 
@@ -266,8 +404,18 @@ PaymentServiceImplBase 클래스를 확장하여 sendPayment() 메서드를 구�
 
 아래와 같이 PaymentServiceImpl 클래스를 정의하고 sendPayment() 메서드를 완성하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 페이먼트 응답은 SUCCESS 상태, 결제 ID 및 결제 시간으로 생성됩니다.
 
@@ -284,7 +432,18 @@ public static void main(String[] args) throws IOException, InterruptedException 
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 gRPC 서버는 이미 정의된 Payment 서비스 구현체와 함께 포트 8080에서 리스닝을 시작합니다.
 
@@ -314,7 +473,18 @@ public static void main(String[] args) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 gRPC에서는 연결, 연결 풀링 및 로드 밸런싱과 같은 낮은 수준의 세부 정보를 추상화하기 위해 고수준 ManagedChannel을 제공합니다.
 
@@ -324,7 +494,18 @@ PaymentServiceBlockingStub 스텁은 실제 원격 메서드 호출인 sendPayme
 
 또한 서버와 비동기 통신을 위한 PaymentServiceStub(비동기 스텁) 및 PaymentServiceFutureStub(퓨처 스텁)이 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단한 PaymentRequest가 생성되어 gRPC 통신을 테스트하기 위해 클라이언트와 서버 간 통신이 이루어졌습니다. stub을 사용하여 동기적으로 sendPayment() 메서드를 호출하면 PaymentResponse가 반환됩니다.
 
@@ -353,7 +534,18 @@ paymentTime {
 
 로그 메시지에는 gRPC 클라이언트와 서버가 미리 정의된 service.proto 파일을 사용하여 동기적으로 통신한 내용이 표시됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # gRPC와 RESTful API의 성능 비교
 
@@ -363,7 +555,18 @@ protobuf-java-util 라이브러리를 사용하여 직렬화된 Protobuf 메시�
 
 아래는 비교에 사용된 코드 스니펫입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 final int serializedSize = paymentRequest.getSerializedSize();
@@ -379,7 +582,18 @@ REST vs. gRPC의 성능을 평가하는 기사에서 저자는 HTTP를 통해 �
 
 다른 기사인 gRPC 대 REST 성능 비교에서 저자는 단방향 및 양방향 통신 방식으로 HTTP를 통해 플레인 텍스트 요청을 보내어 유사한 성능 테스트를 실시했습니다. 단방향 통신 결과는 gRPC가 CPU 활용, 처리량 및 응답 시간 측면에서 REST보다 우수하게 수행됨을 명백히 보여줍니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 소스: gRPC 대 REST 성능 비교
 
@@ -389,7 +603,18 @@ REST vs. gRPC의 성능을 평가하는 기사에서 저자는 HTTP를 통해 �
 
 gRPC는 모든 경우에 REST 대신 사용할 수 있지만, 성능, 처리량, 지연 시간 및 CPU 사용량이 주요 성능 지표인 상황에서 사용하는 것을 추천합니다. 따라서 다음 경우에는 gRPC를 권장드립니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 양방향 스트리밍
 - 고성능 마이크로서비스 통신
@@ -402,7 +627,18 @@ gRPC는 모든 경우에 REST 대신 사용할 수 있지만, 성능, 처리량,
 
 프로젝트 내의 모든 마이크로서비스가 JVM 언어(Java, Scala, Kotlin 등)로 개발된 경우, TCP 또는 UDP를 통한 클라이언트-서버 통신이나 RMI 기반 RPC 통신을 위해 순수한 JVM 라이브러리를 사용할 수 있습니다. KryoNet과 같은 라이브러리는 널리 사용되는 효율적인 이진 객체 그래프 직렬화 프레임워크 Kryo를 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Kryo는 좋은 직렬화 프레임워크이며 RPC용 Protobuf의 대안을 제공합니다. 하지만 항상 Protobuf보다 더 효율적인 것은 아니며 사용 사례에 따라 평가해야 합니다.
 
@@ -412,7 +648,18 @@ Kryo는 좋은 직렬화 프레임워크이며 RPC용 Protobuf의 대안을 제�
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사에서는 gRPC를 사용하여 고성능 마이크로서비스 통신을 숙달했습니다. 전통적인 웹 클라이언트와 백엔드 마이크로서비스 간 통신에는 더 나은 기술이 있을 수 있습니다. 그럼에도 불구하고 효율적인 기능과 우수한 성능으로 인해 gRPC는 마이크로서비스 간 통신에 대해 REST보다 선호될 수 있습니다. 게다가, gRPC는 마이크로서비스 간에 양방향 스트리밍이 필요할 때 go-to 프로토콜입니다.
 
@@ -422,6 +669,17 @@ Kryo는 좋은 직렬화 프레임워크이며 RPC용 Protobuf의 대안을 제�
 
 원문은 https://bell-sw.com에서 원래 게시되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 유사한 기사

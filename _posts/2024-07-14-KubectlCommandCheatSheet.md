@@ -3,16 +3,13 @@ title: "2024년 필수 Kubectl 명령어 치트 시트"
 description: ""
 coverImage: "/assets/img/2024-07-14-KubectlCommandCheatSheet_0.png"
 date: 2024-07-14 00:29
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-14-KubectlCommandCheatSheet_0.png
 tag: Tech
 originalTitle: "Kubectl Command Cheat Sheet"
 link: "https://medium.com/@kv2023/kubernetes-kubectl-command-cheat-sheet-3f09ddf47cea"
 isUpdated: true
 ---
-
-
-
 
 ![Kubectl Command Cheat Sheet 0](/assets/img/2024-07-14-KubectlCommandCheatSheet_0.png)
 
@@ -22,18 +19,29 @@ kubectl은 쿠버네티스 클러스터를 유지하기 위한 강력한 명령�
 
 ![Kubectl Command Cheat Sheet 2](/assets/img/2024-07-14-KubectlCommandCheatSheet_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # CRUD COMMANDS
 
 ```js
-# 배포 생성:  
-kubectl create deployment <배포명> 
+# 배포 생성:
+kubectl create deployment <배포명>
 
-# 배포 편집:    
-kubectl edit deployment <배포명> 
+# 배포 편집:
+kubectl edit deployment <배포명>
 
-# 배포 삭제:  
+# 배포 삭제:
 kubectl delete deployment <배포명>
 ```
 
@@ -43,18 +51,29 @@ kubectl delete deployment <배포명>
 kubectl get (nodes | pod | services | replicaset | deployment )
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 포드 디버깅
 
 ```js
-# 콘솔에 로깅: 
+# 콘솔에 로깅:
 kubectl logs <pod_name>
 
-# 상호 작용하는 터미널 가져오기: 
+# 상호 작용하는 터미널 가져오기:
 kubectl exec -it <pod_name> -- /bin/bash
 
-# 포드 정보 가져오기: 
+# 포드 정보 가져오기:
 kubectl describe pod <pod_name>
 
 # -f 옵션으로 로그 팔로우하기
@@ -64,14 +83,25 @@ kubectl describe pod <pod_name>
 ## CRUD를 위한 구성 파일 사용
 
 ```js
-# 구성 파일 적용: 
+# 구성 파일 적용:
 kubectl apply -f <file_name>
 
-# 구성 파일을 사용하여 삭제: 
+# 구성 파일을 사용하여 삭제:
 kubectl delete -f <file_name>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 버전 확인
 

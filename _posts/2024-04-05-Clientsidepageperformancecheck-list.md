@@ -3,17 +3,13 @@ title: "고객 사이드 페이지 성능 확인 목록"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Client side page performance check-list"
 link: "https://medium.com/@chhavikhandelwal/client-side-page-performance-check-list-c62f21884bd8"
 isUpdated: true
 ---
-
-
-
-
 
 퍼포먼스는 소프트웨어 개발에서 중요한 지표 중 하나입니다. 클라이언트 측 퍼포먼스는 사용자 경험과 직접적으로 관련이 있기 때문에 주목할 가치가 있습니다. 페이지 퍼포먼스를 위한 포괄적인 체크리스트를 구현함으로써 웹 개발자와 디자이너들은 웹사이트가 빠르게 로드되고, 다양한 기기에서 반응이 빠르며, 콘텐츠를 효율적으로 전달할 수 있도록 보장할 수 있습니다.
 
@@ -25,7 +21,18 @@ isUpdated: true
 - :before 또는 :after를 이용해 CSS 가상 요소로 DOM 교체
 - CSS 배경을 사용하여 SVG를 img로 렌더링하는 인라인 SVG 교체
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 background-image: url("data:image/svg+xml, ${encodeURIcomponent(mysvg)}");
@@ -44,7 +51,18 @@ background-image: url("data:image/svg+xml, ${encodeURIcomponent(mysvg)}");
 
 3. 스크립트를 head에서 body 하단으로 이동하여 블로킹되지 않도록 하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. 이미지 크기를 줄이세요
 
@@ -55,7 +73,18 @@ background-image: url("data:image/svg+xml, ${encodeURIcomponent(mysvg)}");
 
 6. lodash에 주의하세요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 적절한 임포트 사용
 
@@ -65,7 +94,18 @@ background-image: url("data:image/svg+xml, ${encodeURIcomponent(mysvg)}");
 
 8. 자산을 언제 어떻게 가져오는지 감사하세요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 9. Redis를 사용하여 자산 사전 로드
 
@@ -75,7 +115,18 @@ background-image: url("data:image/svg+xml, ${encodeURIcomponent(mysvg)}");
 
 11. UI 구성 요소의 지연 로딩
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 12. 각 빌드마다 성능 모니터링 추가하기
 

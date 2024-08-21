@@ -3,17 +3,13 @@ title: "Nextjs 142 버전의 새로운 기능 정리"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "What Are the New Features and Updates in Nextjs 142"
 link: "https://medium.com/javascript-in-plain-english/what-are-the-new-features-and-updates-in-next-js-14-2-293d8535f40d"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/WhatAretheNewFeaturesandUpdatesinNextjs142_0.png" />
 
@@ -23,7 +19,18 @@ Next.js가 계속 발전하며, 웹 개발 경험을 보완하고 성능 및 신
 
 Webpack을 번들링 도구로 대체하는 Turbopack은 Next.js 생태계에서 큰 발전을 나타냅니다. 코드 변경이 발생할 때 거의 즉시 업데이트를 제공하여 개발자 생산성을 크게 향상시키는 것이 목표입니다. 더 스마트한 캐싱과 더 선택적인 재빌드를 통해 이 효율성을 실현하며, 애플리케이션의 한 부분에서 변경 사항이 발생해도 다른 부분의 전체 재빌드가 불필요하게 발생하지 않도록 합니다. 기존 npm 패키지와의 호환성을 유지하면서 Turbopack로 전환하면서 큰 문제를 겪지 않을 것입니다. 또한 다양한 Next.js 예제에서 엄격히 테스트한 결과는 다양한 사용 사례에 대한 견고함과 신뢰성을 입증합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Turbopack을 통해 Next.js는 업데이트가 적용될 때 기다리는 시간을 극적으로 줄여 개발자들이 실제 개발에 더 많은 시간을 투자하고 처리 부담에 덜 주의를 기울일 수 있도록 돕고 있어요. 이 개선은 개발 주기를 가속화할 뿐만 아니라 보다 원활하고 즐겁게 만들어 줍니다.
 
@@ -33,7 +40,18 @@ Next.js 14.2는 애플리케이션이 빌드되고 제공되는 방식에 중요
 
 ## 향상된 캐싱 메커니즘
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Caching 전략은 클라이언트 측 라우터 캐시를 위한 staleTimes 구성을 통해 상당히 업그레이드되었습니다. 이 기능을 사용하면 캐시된 페이지의 유효 기간이 만료되기 전에 "stale(무효)"로 간주되는 방법을 개발자가 지정할 수 있어서 콘텐츠 신선도와 성능을 더 잘 제어할 수 있습니다.
 
@@ -43,7 +61,18 @@ Next.js 14.2는 오류 메시지 및 디버깅 도구 개선에 초점을 맞추
 
 ![Next.js 14.2의 새로운 기능과 업데이트](/assets/img/WhatAretheNewFeaturesandUpdatesinNextjs142_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 앞으로 기대할 점
 
@@ -53,7 +82,18 @@ Next.js 14.2는 오류 메시지 및 디버깅 도구 개선에 초점을 맞추
 
 Next.js 14.2의 개선 사항은 프레임워크를 더욱 효율적이고 개발자 친화적으로 만드는 데 초점이 맞춰져 있습니다. 더 빠른 빌드 시간부터 개선된 캐싱 메커니즘까지, 이러한 업데이트는 웹 응용 프로그램을 최적화하려는 개발자들에게 유익합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 업데이트에 대해 자세히 알아보시고 프로젝트를 위해 Next.js 14.2로 업그레이드를 고려해보시기를 권장합니다. 더 많은 세부 정보를 보려면 공식 Next.js 블로그를 방문해주세요.
 

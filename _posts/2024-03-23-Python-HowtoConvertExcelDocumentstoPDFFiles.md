@@ -3,17 +3,13 @@ title: "파이썬으로 엑셀 문서를 PDF 파일로 변환하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Python - How to Convert Excel Documents to PDF Files"
 link: "https://medium.com/@alexaae9/python-how-to-convert-excel-documents-to-pdf-files-1af340822837"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/Python---How-to-Convert-Excel-Documents-to-PDF-Files_0.png" />
 
@@ -24,7 +20,18 @@ Excel을 PDF로 변환하는 것은 데이터가 풍부한 파일을 공유하�
 - Python에서 특정 워크시트를 PDF로 변환하기
 - Python에서 전체 Excel 문서를 PDF로 변환하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 종속성 설치
 
@@ -36,7 +43,18 @@ pip install Spire.XLS
 
 ## 특정 워크시트를 Python에서 PDF로 변환하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 특정 워크시트를 PDF 문서로 변환하려면 Worksheet.SaveToPdf() 메소드를 사용합니다. 전체적으로 보기 좋은 모양을 갖기 위해서는 콘텐츠 주위의 여백을 조정하고 생성된 PDF 페이지가 표준 페이지 크기(예: A4)인지 또는 콘텐츠에 맞는 적합한 페이지 크기인지를 결정해야 할 수도 있습니다.
 
@@ -74,7 +92,18 @@ workbook.Dispose()
 
 ## 파이썬에서 전체 Excel 문서를 PDF로 변환하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 엑셀 문서 전체를 PDF 파일로 변환하려면 Workbook.SaveToFile() 메서드를 사용하면 됩니다. 변환 전에 페이지 설정을 지정할 수도 있습니다. 다음 코드 조각에서는 어떻게 하는지 보여줍니다.
 

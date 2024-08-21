@@ -3,16 +3,13 @@ title: "Phidata를 사용하여 AI 어시스턴트 구축하는 방법"
 description: ""
 coverImage: "/assets/no-image.jpg"
 date: 2024-07-12 19:48
-ogImage: 
+ogImage:
   url: /assets/no-image.jpg
 tag: Tech
 originalTitle: "Use Phidata to build AI Assistants"
 link: "https://medium.com/ai-advances/use-phidata-to-build-ai-assistants-5e0a07074b64"
 isUpdated: true
 ---
-
-
-
 
 지금까지 기능 호출을 사용하는 심플한 AI 시스템을 만드는 것은 다소 까다로웠습니다. 일반적으로 사용되는 대형 언어 모델 (LLM)의 특정 API 명세에 대한 심층적인 지식이 필요했으며 코딩 기술 수준도 일정 수준 이상이어야 했습니다.
 
@@ -22,7 +19,18 @@ Phidata는 이러한 복잡성을 해결하고 기능 호출을 사용하여 손
 
 ## Phidata는 누구인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Phidata는 2023년에 Ashpreet Bedi에 의해 설립되었어요. 그는 Airbnb와 Facebook에서 10년간 데이터 엔지니어링 및 ML 인프라를 구축한 뒤 Phidata를 만들었죠. Phidata의 초기 비전은 AI 엔지니어링과 데브옵스 사이의 간극을 줄이는 것이었습니다.
 
@@ -32,7 +40,18 @@ Phidata는 무료로 이용할 수 있어요. 아래의 문서 웹사이트 링�
 
 또한, 그들의 GitHub 리포도 확인해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 할 일
 
@@ -42,7 +61,18 @@ Phidata는 무료로 이용할 수 있어요. 아래의 문서 웹사이트 링�
 
 코드를 따라하려면 Mistral 및 openhermes 모델을 Ollama를 통해 다운로드했는지 확인하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저 시스템에 영향을 주지 않고 코딩 및 실험을 할 수 있는 별도의 개발 환경을 설정해야 합니다. 저는 conda를 사용하여 개발 환경을 설정하지만 여러분이 편한 방법을 사용하셔도 괜찮습니다.
 
@@ -58,7 +88,18 @@ conda create -n phidata python=3.11 -y
 conda activate phidata
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 필수 라이브러리 설치
@@ -80,8 +121,18 @@ conda install jupyter -y
 
 당신의 URL은 제 것과 다를 수 있지만 다음과 유사한 형식이어야 합니다:-
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 http://127.0.0.1:8888/tree?token=3b9f7bd07b6966b41b68e2350721b2d0b6f388d248cc69da
@@ -93,7 +144,18 @@ Phidata는 Assistant를 사용하여 AI 애플리케이션을 개발합니다. A
 
 ## 예시 1 — 간단한 요청/응답 Assistant
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 # 이제 이게 가장 쉬운 방법입니다
@@ -152,7 +214,7 @@ from phi.tools.duckduckgo import DuckDuckGo
 from phi.llm.ollama import Ollama
 
 assistant = Assistant(
-  tools=[DuckDuckGo()], 
+  tools=[DuckDuckGo()],
   llm=Ollama(model="openhermes"),
   description="당신은 경험이 많은 연구자입니다",
   show_tool_calls=True)
@@ -187,7 +249,18 @@ assistant.print_response("AI에서 가장 최신 트렌드인 이야기 찾기? 
 ╰──────────┴──────────────────────────────────────────────────────────────────────────────────────────────────────╯
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 예제 3 — 외부 함수 호출
 
@@ -210,18 +283,18 @@ class GetTemp(Toolkit):
     def get_temp(self,location:str)->str:
         # 여기에 API 키를 입력해주세요
         API_KEY = "여기에_당신의_웨더맵_키를_입력하세요"
-    
+
         # url을 저장하는 base_url 변수
         base_url = "http://api.openweathermap.org/data/2.5/weather?"
-    
+
         # 요청 전체 URL
         complete_url = base_url + "appid=" + API_KEY + "&q=" + location
-    
+
         # requests 모듈의 get 메서드
         # 응답 객체를 반환합니다
         response = requests.get(complete_url)
         x = response.json()
-     
+
         # "cod" 키의 값이 "404"와 같으면
         # 위치가 발견된 것이고 그렇지 않으면
         # 도시가 발견되지 않았어요
@@ -234,8 +307,8 @@ class GetTemp(Toolkit):
             return None
 
 assistant = Assistant(
-    description="도구를 이용해 세계 온도 데이터를 얻는 유용한 Assistant에요", 
-    tools=[GetTemp().get_temp], 
+    description="도구를 이용해 세계 온도 데이터를 얻는 유용한 Assistant에요",
+    tools=[GetTemp().get_temp],
     llm=Ollama(model="openhermes"),
 )
 
@@ -260,7 +333,18 @@ assistant.print_response("뉴욕의 온도는?")
 
 ## 예제 4 — 파이썬 코드 작성과 실행
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이번 테스트에서는 Phidata에게 CSV 파일에서 간단한 탐색적 데이터 분석을 수행하는 Python 프로그램을 작성해 달라고 요청할 것입니다. 사용할 데이터는 IMDB 영화 통계 레코드 세트입니다. 이 데이터는 Phidata가 AWS S3 버킷에 저장하고 제공합니다. 데이터 세트에는 1000개의 레코드가 있으며 처음 몇 개는 다음과 같습니다.
 
@@ -286,7 +370,7 @@ python_assistant = PythonAssistant(
     ],
     llm=OpenAIChat(model="gpt-4"),
     pip_install=True,
-    
+
 )
 
 python_assistant.print_response("영화들의 평균 상영 시간을 계산하세요. 최종 응답은 '영화의 평균 상영 시간은 <avg_runtime> 분입니다' 형식이어야 합니다. <avg_runtime>은 여러분이 계산한 값입니다.", markdown=True)
@@ -294,7 +378,18 @@ python_assistant.print_response("영화들의 평균 상영 시간을 계산하�
 
 이것이 출력입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 ╭──────────┬──────────────────────────────────────────────────────────────────────────────────────────────────────╮
@@ -341,11 +436,11 @@ python_assistant.print_response("영화들의 평균 상영 시간을 계산하�
 │          │                                                                                                    │
 │          │ 이제 스크립트 실행 시 avg_runtime이 반환될 것이며, save_to_file_and_run 함수에서 해당 변수를 요청할 수 있습니다. 수정하겠습니다. 영화의 평균 런타임은 ...분입니다 │
 ╰──────────┴──────────────────────────────────────────────────────────────────────────────────────────────────────╯
-INFO     Saved: /home/tom/average_runtime.py                                                                       
-INFO     Running /home/tom/average_runtime.py                                                                      
+INFO     Saved: /home/tom/average_runtime.py
+INFO     Running /home/tom/average_runtime.py
 영화의 평균 런타임은 113.172 분입니다
-INFO     Saved: /home/tom/average_runtime.py                                                                       
-INFO     Running /home/tom/average_runtime.py                                                                      
+INFO     Saved: /home/tom/average_runtime.py
+INFO     Running /home/tom/average_runtime.py
 영화의 평균 런타임은 113.172 분입니다
 ```
 
@@ -355,6 +450,17 @@ INFO     Running /home/tom/average_runtime.py
 
 Phidata에 꽤 impressed했습니다. 여러 가지 작업을 효율적으로 수행할 수 있는 것 같습니다. 현재 local LLMs를 사용하는 부분이 조금 hit-and-miss 한 것이 유일한 문제입니다. 하지만 이것 또한 앞으로 몇 주 및 몇 달 사이에 개선될 것으로 기대합니다. 만약 누군가가 이미 시도해보고 새로운 용도를 발견했다면 댓글로 알려주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 컨텐츠가 마음에 드셨다면, 다음 게시물들도 흥미롭게 보실 수 있을 거예요.

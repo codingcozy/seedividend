@@ -3,17 +3,13 @@ title: "플러터 애니메이션 배우기 - 간단한 방법으로 복잡한 �
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Learn Flutter Animation by Doing  Build Complex Animations the Simple Way"
 link: "https://itnext.io/learn-flutter-animation-by-doing-build-complex-animations-the-simple-way-d580bdf35221"
 isUpdated: true
 ---
-
-
-
-
 
 아마도 기본 애니메이션을 Flutter에서 만드는 방법에 대해 이미 알고 계실 것입니다. 하지만 이러한 간단한 위젯들을 멋진 애니메이션으로 변환하는 것은 어떠세요? 함께 알아보고, 아래에서 볼 수 있는 멋진 애니메이션부터 시작해보죠 👇
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 새로운 Flutter 프로젝트를 생성하거나 기존 프로젝트를 사용할 수 있습니다. 애니메이션의 검은 구멍은 사실 이미지이므로 해당 이미지를 프로젝트에 추가해봅시다. 그 다음, 애니메이션 페이지를 생성해봅시다. 제가 그것을 CardHiddenAnimationPage라고 부를 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 class CardHiddenAnimationPage extends StatefulWidget {
@@ -67,7 +74,18 @@ class CardHiddenAnimationPageState extends State<CardHiddenAnimationPage>
 
 계획은 간단합니다. 마이너스 버튼을 클릭하면 블랙홀이 나타나고 잠시 후 사라집니다. 이러한 시나리오에서 Tween 위젯은 매우 유용합니다. 이를 보여드리겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 늦은 최종 holeSizeTween = Tween<double>(
@@ -99,7 +117,18 @@ void dispose() {
 
 애니메이션 설정이 완료되었습니다. 이제 페이지에 넣어 보겠습니다. 아래 코드에서 TODO: add body를 변경하세요.👇
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 body: Center(
@@ -140,7 +169,18 @@ FloatingActionButton(
 
 여기서 해야 할 것은 애니메이션이 먼저 끝나도록 하고, 200밀리초를 기다린 후에 애니메이션을 역방향으로 실행하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Card animation](https://miro.medium.com/v2/resize:fit:1000/1*mJXfx3gxflS9-j9aNHtR7Q.gif)
 
@@ -185,7 +225,18 @@ class HelloWorldCard extends StatelessWidget {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금까지 다 했습니다. 블랙홀과 헬로 월드 카드를 추가했습니다. 사용자가 마이너스 버튼을 클릭하면, 카드가 아래로 이동하여 약간 회전하고 고도가 증가할 계획입니다. 이를 위해 홀 크기를 애니메이션하는 데 사용한 Tween 기술을 사용할 것입니다.
 
@@ -216,7 +267,18 @@ double get cardElevation =>
     cardElevationTween.evaluate(cardOffsetAnimationController);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 initState에서 변경 사항을 관찰하는 리스너를 추가하세요.
 
@@ -230,7 +292,18 @@ cardOffsetAnimationController.addListener(() => setState(() {}));
 cardOffsetAnimationController.dispose();
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리의 HelloWorldCard로 돌아가서 offset, angle, elevation 값을 업데이트해 봅시다. 이러한 변경을 완료하면 다음과 같이 보일 것입니다👇
 
@@ -263,7 +336,18 @@ Future.delayed(const Duration(milliseconds: 200),
     () => holeAnimationController.reverse());
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 카드 오프셋 애니메이션 컨트롤러의 기간이 1000밀리초로 설정되어 있습니다. 홀 애니메이션이 끝나면 카드 애니메이션이 완료될 때까지 기다려서 그 후에 역방향으로 실행하고 싶다면 카드 오프셋 애니메이션 컨트롤러 앞에 await를 넣어주시면 됩니다.
 
@@ -276,7 +360,18 @@ holeAnimationController.reverse();
 
 ![애니메이션](https://miro.medium.com/v2/resize:fit:960/1*biIYYvKWmvCFKiGD0dgysg.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 벽 - CustomClipper
 
@@ -312,7 +407,18 @@ class BlackHoleClipper extends CustomClipper<Path> {
 
 `// TODO:` 구간에 Stack을 ClipPath로 감싸고, Stack 위젯을 ClipPath로 감싸고 BlackHoleClipper를 클리퍼로 지정해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 ClipPath(
@@ -327,4 +433,15 @@ ClipPath(
 
 뭔가 잘못된 부분이 있는가요? 댓글로 알려주세요. 개선할 수 있어서 기쁠 거예요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

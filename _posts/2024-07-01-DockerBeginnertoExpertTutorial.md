@@ -3,16 +3,13 @@ title: "도커 초보자부터 전문가까지 튜토리얼"
 description: ""
 coverImage: "/assets/img/2024-07-01-DockerBeginnertoExpertTutorial_0.png"
 date: 2024-07-01 20:56
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-01-DockerBeginnertoExpertTutorial_0.png
 tag: Tech
 originalTitle: "Docker Beginner to Expert Tutorial"
 link: "https://medium.com/gitconnected/docker-beginner-to-expert-tutorial-68555aa3e544"
 isUpdated: true
 ---
-
-
-
 
 ## 친절한 설명과 예제로 도커를 기초부터 전문가까지 배워보세요!
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 그럼 바로 시작해봅시다. 하지만 도커에 대해 배우기 전에 우선 컨테이너/컨테이너화에 대해 배워야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 컨테이너 및 컨테이너화
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 ## 컨테이너화란?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컨테이너화란 소프트웨어 코드와 의존성을 함께 패키징하여 어떤 인프라에서든 일관되고 균일하게 실행될 수 있도록 하는 과정을 말합니다. 이 방법은 애플리케이션이 한 컴퓨팅 환경에서 다른 곳으로 이동할 때 손쉽게 배포되고 신뢰성 있게 실행되도록합니다.
 
@@ -45,7 +64,18 @@ isUpdated: true
 
 ![Docker Tutorial](/assets/img/2024-07-01-DockerBeginnertoExpertTutorial_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 도커란 무엇인가요?
 
@@ -55,7 +85,18 @@ isUpdated: true
 
 도커의 주요 이점:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이동성: 응용 프로그램은 배포 위치에 관계없이 동일하게 실행됩니다.
 - 확장성: 수요에 따라 손쉽게 응용 프로그램을 확장하거나 축소할 수 있습니다.
@@ -67,7 +108,18 @@ isUpdated: true
 
 현재 도커는 다양한 산업군에서 널리 사용되고 있으며, 많은 개발자 및 기여자들로 이루어진 큰 활발한 커뮤니티에 의해 지원되고 있습니다. 컨테이너화의 핵심 기술로 자리를 잡았으며, 컨테이너 오케스트레이션을 위한 Kubernetes와 같은 관련 기술의 성장을 이끌어내고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 도커 시작하기
 
@@ -77,7 +129,18 @@ isUpdated: true
 
 공식 웹사이트에서 운영 체제에 맞는 지침을 따르세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 설치를 완료한 후 Docker가 실행 중인지 확인해보세요:
 
@@ -89,7 +152,18 @@ docker --version
 
 도커의 아키텍처를 이해해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 도커 구성 요소
 
@@ -104,7 +178,18 @@ docker --version
 - 도커 볼륨과 바인드 마운트: 데이터 지속성 및 컨테이너 간 또는 호스트 시스템 간의 공유를 가능하게 합니다.
 - Docker Compose: YAML 파일을 이용하여 다중 컨테이너 애플리케이션을 정의하고 실행하는 도구입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 도커가 애플리케이션을 실행하는 방법
 
@@ -116,7 +201,18 @@ docker --version
 
 도커 이미지는 코드, 런타임, 라이브러리, 환경 변수, 설정 파일을 포함하여 소프트웨어를 실행하는 데 필요한 모든 것을 담고 있는 가벼운 독립형 실행 가능한 패키지입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 도커 이미지 다운로드
 
@@ -128,7 +224,18 @@ docker pull hello-world
 
 이미지를 다운로드한 후에는 `docker run` 명령어를 사용하여 손쉽게 실행할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도커 이미지와 컨테이너의 차이는 이렇게 설명할 수 있어요. 컨테이너는 깃헙에서 가져온 소스 코드로 컨테이너에서 노드 앱을 실행했을 때 생기는 것이에요. 반면 이미지는 깃헙에 있는 코드베이스에 비유할 수 있어요.
 
@@ -138,7 +245,18 @@ docker pull hello-world
 
 1.) 도커 버전 확인하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 도커 버전
@@ -152,19 +270,39 @@ docker pull hello-world
 
 3.) 모든 도커 이미지 나열하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. 실행 중인 컨테이너 목록
 
-
 docker ps
 
-docker ps -a      // 모든 컨테이너(실행 중인 것과 중지된 것) 목록
-
+docker ps -a // 모든 컨테이너(실행 중인 것과 중지된 것) 목록
 
 5. 레지스트리로부터 이미지 가져오기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 클릭하셔서 node의 특정 버전을 내려받습니다.
 
@@ -176,7 +314,18 @@ docker ps -a      // 모든 컨테이너(실행 중인 것과 중지된 것) 목
 docker run -d -p 8080:80 nginx
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 7.) 컨테이너 실행 중지하고 제거하기
 
@@ -192,21 +341,39 @@ docker rm <container_id>                // 중지된 컨테이너 제거
 docker rmi <image_id>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 9.) 도커 이미지 만들기
 
-
 docker build -t <당신의 이미지 이름> .
-
 
 10.) 레지스트리에 이미지 푸시하기
 
-
 docker push <이미지 이름> <저장소 이름>
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 도커 포트 매핑 설명
 
@@ -216,7 +383,18 @@ docker push <이미지 이름> <저장소 이름>
 
 도커 컨테이너 내에서 3000번 포트에서 실행 중인 웹 서버가 있다고 가정해 보세요. 기본적으로 이 포트는 도커 네트워크 내에서만 액세스할 수 있고 호스트 머신이나 외부 네트워크에서는 접근할 수 없습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 서버를 컨테이너 외부에서 접근 가능하게 하려면, 호스트와 컨테이너 사이의 포트를 포워딩해야 합니다.
 
@@ -228,7 +406,18 @@ docker push <이미지 이름> <저장소 이름>
 docker run -p [호스트포트]:[컨테이너포트] [이미지이름]
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 -p는 포트 매핑을 지정하는 데 사용되는 플래그입니다.
 
@@ -238,7 +427,18 @@ Dockerfile은 Docker 이미지를 빌드하는 방법에 대한 일련의 명령
 
 ## Dockerfile의 주요 명령어
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - FROM: 이 후속 작업에서 기본 이미지를 설정합니다.
 - WORKDIR: 컨테이너 내의 작업 디렉토리를 설정합니다.
@@ -253,7 +453,18 @@ Dockerfile은 Docker 이미지를 빌드하는 방법에 대한 일련의 명령
 
 **도커 이미지를 빌드하는 방법은?**
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 기본 mongo-express typescript 앱을 도커 이미지로 만드는 예제를 보여드리겠습니다.
 
@@ -271,55 +482,78 @@ tsc --init
 
 2. tsconfig.json 파일 생성하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```json
 {
-    "compilerOptions": {
-        "target": "ES6",
-        "module": "commonjs",
-        "outDir": "./dist",
-        "rootDir": "./src",
-        "strict": true
-    }
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "commonjs",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true
+  }
 }
 ```
 
 3.) src/index.ts 파일을 생성합니다.
 
 ```javascript
-import express from 'express';
-import mongoose from 'mongoose';
-import dotenv from 'dotenv';
+import express from "express";
+import mongoose from "mongoose";
+import dotenv from "dotenv";
 
 dotenv.config();
 
 const app = express();
 const PORT = 3000;
-const DB_URL = process.env.DATABASE_URL || '';
+const DB_URL = process.env.DATABASE_URL || "";
 
-mongoose.connect(DB_URL, { useNewUrlParser: true, useUnifiedTopology: true })
-    .then(() => console.log('Connected to MongoDB'))
-    .catch(err => console.error('Could not connect to MongoDB', err));
+mongoose
+  .connect(DB_URL, { useNewUrlParser: true, useUnifiedTopology: true })
+  .then(() => console.log("Connected to MongoDB"))
+  .catch((err) => console.error("Could not connect to MongoDB", err));
 
-app.get('/', (req, res) => {
-    res.send('Ram Ram bhai Sareya Ne');
+app.get("/", (req, res) => {
+  res.send("Ram Ram bhai Sareya Ne");
 });
 
 app.listen(PORT, () => {
-    console.log(`Server is running on port ${PORT}`);
+  console.log(`Server is running on port ${PORT}`);
 });
 ```
 
 4.) package.json 파일과 .env 파일을 생성해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 "scripts": {
     "start": "node dist/index.js",
     "build": "tsc"
-}    
+}
 ```
 
 ```js
@@ -330,44 +564,67 @@ DATABASE_URL=mongodb://localhost:27017/ts-express-app
 
 5. 루트 폴더에 Dockerfile을 생성하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Node.js 20 이미지를 기본 이미지로 사용합니다.
 
 WORKDIR /usr/src/app
 
 # package.json 및 package-lock.json을 복사합니다.
-COPY package*.json ./
+
+COPY package\*.json ./
 
 # 의존성 설치
+
 RUN npm install
 
 # 나머지 애플리케이션 코드를 복사합니다.
+
 COPY . .
 
 # TypeScript 코드를 빌드합니다.
+
 RUN npm run build
 
 # 앱이 실행되는 포트를 노출합니다.
+
 EXPOSE 3000
 
 # 앱을 실행하는 명령어
+
 CMD ["npm", "start"]
 
-
 6.) 프로젝트 루트에 .dockerignore 파일을 만듭니다.
-
 
 node_modules
 dist
 npm-debug.log
 
-
 7.) 도커 이미지 빌드하기
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 도커 빌드 -t ts-express-app .
@@ -379,7 +636,18 @@ npm-debug.log
 
 8.) 도커 컨테이너 실행하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지가 생성된 후에 다음 명령을 사용하여 컨테이너를 실행할 수 있습니다.
 
@@ -391,7 +659,18 @@ docker run -p 3000:3000 ts-express-app
 
 ![Docker Tutorial](/assets/img/2024-07-01-DockerBeginnertoExpertTutorial_6.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 이미지에서 도커 이미지 목록에 내 이미지가 표시되어 있고 포트 3000에서 실행 중인 컨테이너를 볼 수 있습니다. 이 포트는 기계 포트 3000과 매핑되어 있습니다. 여기서 시간을 내어 주변을 둘러보고 이곳에서 무슨 일이 일어나고 있는지 분석해보세요. 또한 위 명령어에서 이전에 설명하지 않은 추가 사항을 사용했습니다. 이를 발견하고 그것에 대해 학습하세요. 발견했다면 코멘트 섹션에 적절한 설명과 함께 써 주세요 :)
 
@@ -405,7 +684,18 @@ docker tag ts-express-app your-dockerhub-username/ts-express-app:latest
 docker push your-dockerhub-username/ts-express-app:latest
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에 있는 "your-dockerhub-username" 자리에 도커허브 사용자명을 입력해주세요. 제가 나중에 설명할 표현태그를 사용했어요. 일단 참고해주세요!
 
@@ -415,7 +705,18 @@ docker push your-dockerhub-username/ts-express-app:latest
 
 간단하게 "-e" 플래그를 사용해 앱에 환경 변수를 전송할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 도커 실행 -p 3000:3000 -e DATABASE_URL=mongodb://localhost:27017/ts-express-app ts-express-app
@@ -425,10 +726,20 @@ docker push your-dockerhub-username/ts-express-app:latest
 
 도커 태그는 특정 이미지 버전/변형에 대한 유용한 정보를 전달합니다. 태그를 사용하면 도커 레지스트리에서 이미지의 다른 버전을 식별하고 가져올 수 있습니다. 태그는 이미지의 ID에 대한 별칭이며 종종 이렇게 보입니다: f1477ec11d12. 단순히 이미지를 가리키는 방법일 뿐입니다. Git 태그가 특정 커밋을 가리키는 것과 비슷한 예시입니다.
 
-도커 이미지에 태그를 붙이는 일반적인 구문은 다음과 같습니다: 
+도커 이미지에 태그를 붙이는 일반적인 구문은 다음과 같습니다:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 도커 태그 SOURCE_IMAGE[:TAG] TARGET_IMAGE[:TAG]
@@ -440,7 +751,18 @@ docker push your-dockerhub-username/ts-express-app:latest
 
 - 이미지를 빌드하는 경우, 다음 명령을 사용합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 도커 빌드 -t 사용자명/이미지이름:태그명 .
@@ -454,7 +776,18 @@ docker push your-dockerhub-username/ts-express-app:latest
 
 3. 버전 관리: 태그는 이미지의 다양한 버전을 표시하는 데 자주 사용됩니다. 예를 들어 1.0, 1.1, 2.0 등과 같은 태그를 가질 수 있으며, 이는 주요 또는 부 버전 업데이트를 나타낼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. 환경 또는 스테이지 식별: 태그는 개발, 스테이징 및 프로덕션 환경을 구분하는 데 도움이 될 수 있습니다. 예를 들어, dev, staging, prod와 같은 태그가 있을 수 있습니다.
 
@@ -464,7 +797,18 @@ docker push your-dockerhub-username/ts-express-app:latest
 
 - 태그를 사용하여 Docker 이미지 빌드하기:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 docker build -t express-mongo-app:1.0 .
@@ -478,9 +822,18 @@ docker pull node:14.18.0
 
 3. 기존 이미지에 새로운 태그를 추가하기:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지 태그를 변경하는 방법은 아래와 같아요:
 
@@ -492,8 +845,18 @@ docker tag express-mongo-app:1.0.0 express-mongo-app:1.0
 docker tag express-mongo-app:1.0.0 express-mongo-app:latest
 ```
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 도커 exec 명령어
 
@@ -505,7 +868,18 @@ docker tag express-mongo-app:1.0.0 express-mongo-app:latest
 도커 exec [옵션] CONTAINER_ID|CONTAINER_NAME COMMAND [ARG…]
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 옵션: -it와 같은 인터랙티브 모드와 같은 다양한 옵션.
 - 컨테이너: 컨테이너의 이름 또는 ID.
@@ -518,7 +892,18 @@ docker tag express-mongo-app:1.0.0 express-mongo-app:latest
 
 docker exec의 -it 옵션은 "-interactive -tty"를 의미하며, 이를 통해 컨테이너 셸과 상호작용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 궁금해하시겠죠. 제가 위에서 언급한 볼륨이란 무엇인지 알아보도록 합시다 —
 
@@ -528,7 +913,18 @@ Docker 볼륨은 도커 컨테이너에 장착된 파일 시스템으로, 컨테
 
 ## 도커 파일 시스템이란?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도커 컨테이너는 도커 이미지로 지정된 소프트웨어 스택을 실행합니다. 이미지는 읽기 전용 레이어로 구성되어 있으며 Union 파일 시스템에서 작동합니다. 새로운 컨테이너를 시작할 때 도커는 이미지 레이어 위에 읽기-쓰기 레이어를 추가하여 컨테이너가 일반적인 Linux 파일 시스템처럼 작동하도록 합니다. 따라서 컨테이너 내에서 각 파일 수정은 읽기-쓰기 레이어에 작동하는 복사본을 생성합니다. 그러나 컨테이너가 중지되거나 제거되면 읽기-쓰기 레이어가 사라집니다.
 
@@ -540,7 +936,18 @@ Docker 볼륨은 도커 컨테이너에 장착된 파일 시스템으로, 컨테
 - 바인드 마운트: 호스트 머신의 디렉토리나 파일을 컨테이너로 마운트합니다. 호스트 시스템에서는 바인드 마운트를 어디에나 유지할 수 있습니다. 이는 중요한 시스템 폴더나 파일일 수 있습니다. 또한 도커 호스트나 컨테이너에서 실행되는 도커 프로세스에 의해 항상 수정 가능합니다. 비교적으로 바인드 마운트는 볼륨보다 적게 유용합니다.
 - tmpfs 마운트: 컨테이너로 일시적인 파일 시스템을 마운트하고 호스트 메모리에 저장합니다. 이러한 마운트는 호스트 시스템의 파일 시스템에 쓰이지 않고, 대신 호스트 시스템 메모리에만 저장됩니다. 디스크에 저장되지 않습니다. 컨테이너의 지속 시간 동안 tmpfs 마운트에 민감한 또는 비영구 상태 데이터를 저장할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 🗺️ Named Volumes:
 
@@ -552,7 +959,18 @@ docker volume create my-ts-app-data
 
 이제 볼륨을 컨테이너 내부의 디렉토리에 마운트해 보겠습니다. 우리는 my-ts-app-data 볼륨을 컨테이너 내의 /app/data 디렉토리에 마운트하겠습니다. 컨테이너 내부의 /app/data에 기록된 모든 데이터는 호스트에 있는 명명된 볼륨에 저장됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 docker run -d -p 3000:3000 -e DATABASE_URL=mongodb://mongo:27017/ts-express-app -v my-ts-app-data:/data/db ts-express-app
@@ -564,7 +982,18 @@ docker run -d -p 3000:3000 -e DATABASE_URL=mongodb://mongo:27017/ts-express-app 
 
 더 이상 필요하지 않은 볼륨을 제거할 때는 "rm" 명령어를 사용하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 docker volume rm my-ts-app-data
@@ -576,21 +1005,43 @@ docker volume rm my-ts-app-data
 
 아래 명령을 실행하여 로컬에서 mongo 컨테이너를 시작하세요 —
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도커를 실행하여 몽고DB를 시작합니다.
+
 ```bash
 docker run -p 27017:27017 -d mongo
 ```
+
 몽고DB 컴퍼스를 열고 27017 포트에 연결하세요. 데이터베이스와 컬렉션을 만들고 몇 가지 데이터를 삽입하여 저장하세요.
 
 ![2024-07-01-DockerBeginnertoExpertTutorial_10.png](/assets/img/2024-07-01-DockerBeginnertoExpertTutorial_10.png)
 
 이제 컨테이너를 중지한 다음 다시 시작하세요. 몽고DB 컴퍼스를 열어서 이전에 생성한 DB와 데이터를 확인하세요. 무엇을 보실 건가요? 다 사라졌죠. 😅
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](https://miro.medium.com/v2/resize:fit:440/0*GTzdCMFX8ovYrk8Y.gif)
 
@@ -603,7 +1054,18 @@ docker run -d -v my-ts-app-data:/data/db -p 27017:27017 mongo
 
 이제 위의 단계를 반복해서 데이터베이스를 생성하고 데이터를 추가하세요. 컨테이너를 중지시키고 다시 시작한 후 이전에 입력한 데이터를 다시 확인해보세요. 데이터가 유지되었다는 것을 확인할 수 있을 거에요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 우리는 네임드 볼륨에 대해 배웠으니, 이제 코어 도커 주제에 대해 자세히 알아봅시다. 앞서 언급했듯이 도커 볼륨을 설명할 때 "레이어"라는 용어를 사용했습니다. 그런데 레이어가 무엇일까요? 함께 살펴보겠습니다...
 
@@ -613,7 +1075,18 @@ docker run -d -v my-ts-app-data:/data/db -p 27017:27017 mongo
 
 ## 도커 레이어란 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 베이스 레이어: 이는 당신의 도커 이미지의 시작점입니다. 도커 파일이 지정한 우분투, 알파인 등과 같은 운영 체제를 포함합니다. 이 레이어는 변경할 수 없는 불변한 상태이며, 이후 레이어들의 기초 역할을 합니다.
 - 중간 레이어: 이 레이어들은 Dockerfile에 포함된 RUN, COPY, ADD와 같은 명령을 나타냅니다. 각각의 명령은 이전 레이어 위에 새로운 레이어를 생성합니다. 중간 레이어는 읽기 전용이며 캐싱됩니다.
@@ -634,7 +1107,18 @@ RUN make /app          // 이 명령은 컨테이너 내부에서 make /app 명�
 CMD python /app/app.py  // 이 명령은 컨테이너 시작시 실행할 기본 명령을 지정하는 새로운 레이어를 생성합니다. 여기서는 python /app/app.py 명령을 실행하도록 지정했습니다.
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에서 볼 수 있듯이 각 지시사항은 이전 것들의 맨 위에 새로운 레이어를 만들어 최종 Docker 이미지를 구성하는 레이어 스택을 형성합니다. 더 시각적으로 이해하기 위해 아래 이미지를 참고해 보세요.
 
@@ -644,7 +1128,18 @@ CMD python /app/app.py  // 이 명령은 컨테이너 시작시 실행할 기본
 
 Dockerfile을 사용하여 Docker 이미지를 빌드할 때 Docker는 각 지시사항을 순차적으로 처리하고 각각에 대해 새로운 레이어를 만듭니다. 이미지의 레이어가 변경되지 않은 경우 도커 빌더는 빌드 캐시에서 이를 가져옵니다. 마지막 빌드 이후에 레이어가 변경된 경우 해당 레이어와 그 뒤에 오는 모든 레이어를 다시 빌드해야 합니다. 예를 들어 설명하겠습니다 —
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에 첨부된 스크린샷을 보면, 첫 번째 이미지에서 제가 express 앱을 이미지로 빌드했고 각 레이어가 처음부터 구축되었음을 볼 수 있습니다. 이제 app.js 파일에 간단한 변경사항(`hi`를 추가하는 console.log)을 적용했고 이미지를 다시 빌드하고 있습니다. 두 번째 이미지에서 변경된 레이어 5를 제외하고 레이어 2, 3, 4가 캐시되었음을 볼 수 있습니다. 변경 사항이 있는 파일이 있기 때문에 Docker는 해당 변경을 감지하였고, 레이어 5가 캐시되지 않고 처음부터 다시 빌드되었습니다. 그리고 레이어 5가 변경되었으므로 그 위에 있는(이후에 있는) 모든 레이어가 처음부터 다시 빌드될 것입니다.
 
@@ -652,7 +1147,18 @@ Dockerfile을 사용하여 Docker 이미지를 빌드할 때 Docker는 각 지�
 
 기본적으로 Docker 컨테이너는 서로 통신할 수 없습니다. 따라서 Docker 네트워크는 컨테이너들이 서로 통신하고 외부와 통신할 수 있게 합니다. Docker 컨테이너 간의 통신에 대한 격리, 보안 및 제어를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-01-DockerBeginnertoExpertTutorial_13.png)
 
@@ -662,7 +1168,18 @@ Dockerfile을 사용하여 Docker 이미지를 빌드할 때 Docker는 각 지�
 
 ## 1. 브릿지 네트워크:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스탠드얼론 컨테이너의 기본 네트워크 유형입니다. 브리지 네트워크는 호스트와 컨테이너 사이에 소프트웨어 기반 브리지를 만듭니다. 네트워크에 연결된 컨테이너는 서로 통신할 수 있지만, 네트워크 외부에서는 격리됩니다. 네트워크의 각 컨테이너에는 고유한 IP 주소가 할당됩니다. 네트워크가 호스트에 브리징되어 있기 때문에 컨테이너는 LAN 및 인터넷에서 통신할 수도 있습니다. 그러나 LAN의 물리적 장치로 표시되지는 않습니다.
 
@@ -672,7 +1189,18 @@ Dockerfile을 사용하여 Docker 이미지를 빌드할 때 Docker는 각 지�
 
 ## 3. 오버레이 네트워크:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오버레이 네트워크는 여러 도커 호스트에 걸쳐있는 분산 네트워크입니다. 이 네트워크를 통해 호스트 중 하나에서 실행 중인 모든 컨테이너가 OS 수준의 라우팅 지원 없이 서로 통신할 수 있습니다. 오버레이 네트워크는 도커 스웜 클러스터의 네트워킹을 구현하는데 사용되지만, 컨테이너가 직접적으로 서로 통신해야 하는 두 개의 별도의 도커 엔진 인스턴스를 실행할 때에도 사용할 수 있습니다. 이를 통해 자체적인 스웜과 유사한 환경을 구축할 수 있습니다.
 
@@ -682,7 +1210,18 @@ Dockerfile을 사용하여 Docker 이미지를 빌드할 때 Docker는 각 지�
 
 ### 5. ipvlan:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 IPvLAN은 컨테이너에 할당된 IPv4 및 IPv6 주소뿐만 아니라 레이어 2 및 3 VLAN 태깅 및 라우팅에 정밀한 제어를 제공하는 드라이버입니다. 이 드라이버는 컨테이너화된 서비스를 기존 물리 네트워크와 통합할 때 유용합니다. IPvLAN 네트워크는 성능상의 이점을 제공하는 고유한 인터페이스를 할당받습니다.
 
@@ -692,7 +1231,18 @@ IPvLAN은 컨테이너에 할당된 IPv4 및 IPv6 주소뿐만 아니라 레이�
 
 이제 컨테이너들이 서로 통신하도록 해보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 — 아래 명령을 사용하여 네트워크를 생성하세요 (기본적으로 브리지 네트워크입니다):
 
@@ -705,8 +1255,18 @@ docker network ls
 
 — 브리지 네트워크에서 컨테이너를 실행하세요 —
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도커(Docker)를 사용하여 c1 컨테이너와 c2 컨테이너를 연결해 보겠습니다. 먼저 c1 컨테이너 내부로 들어가서 c2 컨테이너를 핑(icmp)합니다.
 
@@ -717,9 +1277,18 @@ ping c2
 
 작동하는 것을 확인할 수 있습니다. 이제 새로운 시도를 해보겠습니다. 하나의 컨테이너에는 몽고DB를 실행하고, 다른 컨테이너에는 익스프레스 앱을 실행한 후 몽고DB 컨테이너에 익스프레스 앱을 통해 접근해 보겠습니다. 이전에 만든 익스프레스 앱 코드를 그대로 사용하되, .env 파일에 아래 내용을 추가해주세요 —
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 DATABASE_URL=[container_name]://mongodb:27017/ts-express-app-db
@@ -743,9 +1312,18 @@ db.users.find().pretty()
 
 MongoDB의 데이터 여부를 확인하려면 MongoDB의 컨테이너 로그도 확인해 볼 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 네트워크 제거하기 —
 
@@ -762,7 +1340,18 @@ docker network prune
 docker network disconnect my-first-network mongodb
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 도커 컴포즈
 
@@ -797,7 +1386,18 @@ volumes:
   my-ts-app-data:
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 파일이 무슨 뜻인지 줄마다 설명하며 배워보도록 하죠—
 
@@ -807,7 +1407,18 @@ volumes:
 
 # 2.) 서비스:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 서비스는 어떤 컨테이너 이미지를 사용할지 정의하는 배포 단위입니다. 위의 파일에서 2개의 서비스를 정의했습니다 —
 
@@ -822,7 +1433,18 @@ volumes:
 - environment: - MONGO_URL=mongodb://mongodb:27017/ts-express-app-db: 앱이 MongoDB에 연결하기 위해 사용하는 환경 변수 MONGO_URL을 설정합니다. 이 URL은 아래 구성 파일에서 정의된 mongodb 서비스를 가리킵니다.
 - depends_on: - mongodb: ts-express-app 서비스가 mongodb 서비스 이후에 시작되도록 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## b.) 몽고디비:
 
@@ -833,7 +1455,18 @@ volumes:
 - 볼륨: - my-ts-app-data:/data/db: 도커 볼륨 my-ts-app-data를 컨테이너 내의 /data/db에 마운트하여 MongoDB가 데이터를 저장하는 위치로 설정합니다.
 - 포트: - "27017:27017": 포트 매핑은 평소와 같이 진행됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - my-ts-app-data: 여기에 우리가 사용하는 볼륨을 정의합니다.
 
@@ -843,7 +1476,18 @@ volumes:
 
 쉽죠, 나! :)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 게다가 다음과 같이 사용자 정의 네트워크를 정의할 수도 있습니다. 그 밖에도 몇 가지 설명이 필요한 사용자 정의 사항들이 있어요. 앞서 언급한 대로 이와 같은 방법으로 네트워크를 정의하지 않으면, 도커는 서비스를 위해 기본 네트워크를 자동으로 생성합니다. 보통 이 기본 네트워크는 docker-compose.yml 파일이 있는 프로젝트 디렉토리의 이름으로 지정됩니다.
 
@@ -853,12 +1497,23 @@ volumes:
 
 # 마지막으로
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-이 글에서는 도커의 기본부터 중급까지 대부분의 기본 개념을 예제와 함께 다루었습니다. 초심자가 이해해야 하는 모든 것을 설명하려 노력했고 자신 있게 말씀드릴 수 있어요. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+이 글에서는 도커의 기본부터 중급까지 대부분의 기본 개념을 예제와 함께 다루었습니다. 초심자가 이해해야 하는 모든 것을 설명하려 노력했고 자신 있게 말씀드릴 수 있어요.
 
 내용을 이해하셨기를 바라며 최대한 많은 도움을 얻으시길 바래요. 글이 다소 길 수 있지만, 초심자가 도커를 시작하는 데 필요한 모든 것을 요약하려 노력했습니다. 어려움이나 새로운 도커 기능을 시도하고 싶을 때는 언제나 공식 문서를 참조해주세요.
 
-이런 주제/기술에 대한 글을 더 원하시면 박수를 치거나 댓글을 남겨주세요. 친구들이나 도커를 배우고 싶어하는 분들과 이 글을 공유해주세요! 
+이런 주제/기술에 대한 글을 더 원하시면 박수를 치거나 댓글을 남겨주세요. 친구들이나 도커를 배우고 싶어하는 분들과 이 글을 공유해주세요!
 
 ![image](https://miro.medium.com/v2/resize:fit:1000/0*IpGyQFK7VuuElDiC.gif)

@@ -3,17 +3,13 @@ title: "Nextjs 13에서 에러 페이지 사용 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "사용자 정의 오류"
 link: "undefined"
 isUpdated: true
 ---
-
-
-
-
 
 # 사용자 지정 오류
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 위의 문제를 피하기 위해 Next.js는 추가 파일을 추가하지 않고도 기본적으로 정적 404 페이지를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 404 페이지 사용자 정의하기
 
@@ -37,7 +44,18 @@ export default function Custom404() {
 
 > 알아두면 좋은 사실: 필요하다면 이 페이지 내에서 getStaticProps를 사용하여 빌드 시 데이터를 가져올 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 500 페이지
 
@@ -47,7 +65,18 @@ export default function Custom404() {
 
 500 페이지를 사용자 정의하려면 pages/500.js 파일을 생성할 수 있습니다. 이 파일은 빌드 시 정적으로 생성됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 export default function Custom500() {
@@ -61,7 +90,18 @@ export default function Custom500() {
 
 500 오류는 클라이언트 측과 서버 측 모두 Error 컴포넌트로 처리됩니다. 오버라이드하려면 파일 pages/\_error.js를 정의하고 다음 코드를 추가하십시오:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 function Error({ statusCode }) {
@@ -82,7 +122,18 @@ export default Error;
 
 내장된 오류 페이지를 렌더링하고 싶다면 Error 컴포넌트를 가져와서 사용할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```javascript
 import Error from "next/error";
@@ -112,9 +163,31 @@ export default function Page({ errorCode, stars }) {
 
 ### 주의사항
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 현재 Error는 getStaticProps 또는 getServerSideProps와 같은 Next.js 데이터 가져오기 방법을 지원하지 않습니다.
 - \_error는 \_app과 마찬가지로 예약 된 경로입니다. \_error는 오류 페이지의 사용자 정의 레이아웃과 동작을 정의하는 데 사용됩니다. /\_error는 라우팅을 통해 직접 액세스하거나 사용자 정의 서버에서 렌더링 할 때 404를 렌더링합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

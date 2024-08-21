@@ -3,17 +3,13 @@ title: "오픈에이아이OpenAI 호환 API를 구축하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How to build an OpenAI-compatible API"
 link: "https://medium.com/towards-data-science/how-to-build-an-openai-compatible-api-87c8edea2f06"
 isUpdated: true
 ---
-
-
-
-
 
 ## OpenAI의 채팅 완성 API를 복제하는 서버를 만들어보세요. 이를 통해 어떤 LLM이든 OpenAI API를 사용하는 도구와 통합할 수 있습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 OpenAI의 GPT로 Gen AI 창작물을 제작하는 이유는 많지만, 대안을 선택할 이유도 충분히 있습니다. 때로는 비용 효율적이지 않을 수도 있고, 데이터 개인 정보 보호 정책 때문에OpenAI를 사용할 수 없을 수도 있으며, 자체 호스팅 또는 오픈 소스 LLM을 운영 중일 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 OpenAI의 시장 지배력은 사용하려는 여러 도구가 OpenAI API만 지원한다는 것을 의미합니다. OpenAI, Anthropic, Google과 같은 Gen AI 및 LLM 공급 업체들이 각자 다른 API 스키마를 만들고 있는 것으로 보이며 (아마도 의도적으로), 이는 모든 것을 지원하고 싶은 개발자들에게 많은 추가 작업을 필요로 합니다.
 
@@ -33,7 +40,18 @@ OpenAI의 시장 지배력은 사용하려는 여러 도구가 OpenAI API만 지
 
 ## 전략 게임
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 OpenAI의 채팅 완성 API(/v1/chat/completions)가 작동하는 방식을 모방한 모의 API를 개발할 것입니다. 이 구현은 Python을 사용하며 FastAPI를 사용합니다. 다른 현대적인 코딩 언어인 TypeScript 또는 Go로 쉽게 이식할 수 있도록 간단하게 유지했습니다. 우리는 이를 테스트하기 위해 Python 공식 OpenAI 클라이언트 라이브러리를 사용할 것입니다 — 만약 해당 라이브러리로 우리 서버를 OpenAI로 인식시킬 수 있다면, 이를 사용하는 모든 프로그램이 동일하게 인식하도록 할 수 있습니다.
 
@@ -58,7 +76,18 @@ class ChatCompletionRequest(BaseModel):
     stream: Optional[bool] = False
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 PyDantic 모델은 클라이언트의 요청을 나타내며 API 참조를 복제하기 위해 만들어졌어요. 간결함을 위해 이 모델은 전체 명세를 구현하는 것이 아니라 동작에 필요한 기본 사항만 포함하고 있어요. API 명세에 포함된 매개변수(top_p 같은 것)가 빠져 있다면 모델에 간단히 추가할 수 있어요.
 
@@ -92,7 +121,18 @@ async def chat_completions(request: ChatCompletionRequest):
     }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그대로 해보세요.
 
@@ -104,7 +144,18 @@ async def chat_completions(request: ChatCompletionRequest):
 uvicorn main:app
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또 다른 터미널을 사용하거나 서버를 백그라운드로 실행하여 Python 콘솔을 열고 OpenAI의 Python 클라이언트 레퍼런스에서 직접 가져온 다음 코드를 복사하여 붙여넣겠습니다:
 
@@ -136,7 +187,18 @@ print(chat_completion.choices[0].message.content)
 
 <img src="/assets/img/HowtobuildanOpenAI-compatibleAPI_1.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 레벨업 - 스트리밍 지원
 
@@ -165,7 +227,18 @@ async def _resp_async_generator(text_resp: str):
     yield "data: [DONE]\n\n"
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 우리는 stream==True인 경우 StreamingResponse를 반환하도록 원래의 엔드포인트를 수정할 것입니다.
 
@@ -200,7 +273,18 @@ async def chat_completions(request: ChatCompletionRequest):
 
 uvicorn 서버를 다시 시작한 후에 Python 콘솔을 열어 다음 코드를 입력해 봅시다 (다시 말하지만, OpenAI의 라이브러리 문서에서 가져온 코드입니다)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 from openai import OpenAI
@@ -226,7 +310,18 @@ for chunk in stream:
 
 ## 모든 것을 통합하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최종적으로 아래의 Gist에서 서버의 전체 코드를 확인할 수 있습니다.
 

@@ -3,7 +3,7 @@ title: "생성형 AI를 사용하지 말아야 하는 5가지 경우"
 description: ""
 coverImage: "/assets/img/2024-08-17-DoNotUseLLMorGenerativeAIForTheseUseCases_0.png"
 date: 2024-08-17 01:51
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-17-DoNotUseLLMorGenerativeAIForTheseUseCases_0.png
 tag: Tech
 originalTitle: "Do Not Use LLM or Generative AI For These Use Cases"
@@ -11,7 +11,6 @@ link: "https://medium.com/towards-artificial-intelligence/do-not-use-llm-or-gene
 isUpdated: true
 updatedAt: 1723864162679
 ---
-
 
 최근에는 Gen AI(생성적 AI)에 대한 흥미가 높아졌는데, 특히 LLM(대규모 언어 모델)에 대한 관심이 높아졌습니다. 점점 더 많은 기관들이 이미 이 논란의 영역으로 뛰어들었거나 뛰어들 계획을 세우고 있습니다. 물론 누구나 이 혁명적인 기회를 놓치고 싶지 않다는 것은 이해할 수 있습니다. 그러나 데이터 과학 배경을 가진 전문가들 중 한 명으로서 지난 10년 이상 동안 AI/ML의 성장을 경험한 사람으로써, 단순히 AI 솔루션을 구현하기 시작하는 데에 대해 결정하는 사람들에게 경고하고 싶어서 이 기사를 쓰게 되었습니다.
 
@@ -21,7 +20,18 @@ updatedAt: 1723864162679
 
 ![이미지](/assets/img/2024-08-17-DoNotUseLLMorGenerativeAIForTheseUseCases_0.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, 실무에서 인공지능 기술이 해결할 것으로 기대되는 전형적인 사용 사례 집단들을 탐색해 보겠습니다.
 
@@ -31,7 +41,18 @@ updatedAt: 1723864162679
 
 ## 2. 자율 시스템
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 AI를 사용하여 우리를 대신해 똑똑하게 무언가를 수행하는 자율 시스템을 구축할 수도 있어요.
 
@@ -41,7 +62,18 @@ updatedAt: 1723864162679
 
 가끔은 많은 상호 의존성과 제약 조건을 가진 복잡한 시스템에서 작업해야 할 수도 있어요. 계획 사용 사례는 최대의 혜택을 얻거나 영향을 최소화하기 위해 최적의 계획을 찾는 것이에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, 도시 지역의 교통 데이터를 분석하는 데 인공 지능을 사용할 수 있습니다. 그럼으로써 도로 프로젝트에 참여할 때, 알고리즘은 매일 교통에 미치는 영향을 최소화하기 위해 언제 어디서 작업해야 하는지 알려줄 수 있습니다.
 
@@ -51,7 +83,18 @@ updatedAt: 1723864162679
 
 이 경우와 자율 시스템의 차이점은 이 사용 사례 패밀리는 사람들이 결정을 내리도록 도와주는 것이며, 자동으로 처리하는 것이 아닙니다. 이는 주로 특정 선호도나 기업가 정신을 고려해야 하는 결정 때문입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 5. 추천 시스템
 
@@ -61,7 +104,18 @@ updatedAt: 1723864162679
 
 가끔, 우리가 다루는 객체의 특성을 알지 못할 때가 있습니다. 그래서 우리는 엔티티를 다른 카테고리나 수준으로 분류해서 어떤 통찰을 얻을 수 있는지 확인하고 싶어합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, 우리는 AI를 사용하여 대출 신청자를 저위험, 중위험 및 고위험 수준으로 분류할 수 있습니다.
 
@@ -71,7 +125,18 @@ updatedAt: 1723864162679
 
 예를 들어, 제조 공장의 모든 센서 데이터로 모델을 훈련하고 여행이 며칠 전에 일어날 것으로 예상될 때 경고를 생성할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 8. 지각
 
@@ -81,7 +146,18 @@ updatedAt: 1723864162679
 
 ## 9. 이상 감지
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가끔 우리의 프로세스가 잘못 되기도 하지만, 우리는 심지어 그것을 알지 못합니다. 예를 들어, 전기 그리드는 수백 대의 발전기에서 에너지를 공급할 수 있습니다. 하나의 발전기가 고장 나면 쉽게 알 수 있습니다. 그러나 만약 10대의 발전기가 우연히 변동하면, 인식하기 어려울 수 있습니다. 인공 지능은 이러한 미묘한 사건을 탐지하고 제어실에 경고를 줄 수 있습니다.
 
@@ -91,7 +167,18 @@ updatedAt: 1723864162679
 
 이 사용 사례 자체는 콜 센터나 고객 지원 센터용 챗봇에 의해 잘 정의될 수 있습니다. AI는 많은 제품 문서를 사용하여 훈련되며, 고객이 문제를 마주했을 때 고객의 질문에 답변할 것입니다. 이는 보통 간단한 지원 티켓에 대해 인간 개입이 필요하지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 11. 컨텐츠 생성
 
@@ -101,7 +188,18 @@ updatedAt: 1723864162679
 
 가끔 혼돈 속에 많은 데이터가 있습니다. 우리는 모르는 것을 모릅니다만, 이 혼돈 속에는 일부 패턴이 숨어 있을 수도 있습니다. 이 경우, 우리는 AI를 사용하여 대규모 데이터셋으로부터 관계나 상관 관계와 같은 통찰을 발견하기 위해 노력할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, 환자 데이터와 임상 기록을 분석하여, 건강 산업이 새로운 치료 전략이나 효과적인 의약품을 개발하는 데 도움이 되는 패턴을 찾을 수 있습니다.
 
@@ -111,7 +209,18 @@ updatedAt: 1723864162679
 
 이제 여섯 가지 일반적인 AI 기술을 간단히 소개하겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1. 비생성적 머신러닝
 
@@ -121,7 +230,18 @@ updatedAt: 1723864162679
 
 ## 2. 시뮬레이션
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 AI 기술은 실제 세계의 프로세스나 시스템에 대한 모델을 만들 수 있게 합니다. 그런 다음 여러 매개변수 조합을 입력할 수 있습니다. 그러면 많은 "만약" 질문에 대답할 수 있게 될 거예요.
 
@@ -131,7 +251,18 @@ updatedAt: 1723864162679
 
 ## 4. 규칙 / 휴리스틱
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 AI 기술은 반드시 머신 러닝과 동일하지는 않습니다. 과학적 증거 또는 해당 분야 전문가의 규칙을 기반으로 사전 정의된 규칙 세트를 만들 수 있습니다. 이러한 "규칙 기반 시스템"은 더 나은 결정을 내릴 수 있도록 도와줄 것입니다.
 
@@ -141,7 +272,18 @@ updatedAt: 1723864162679
 
 예를 들어, 그래프의 노드는 데이터 포인트를 나타내며, 에지는 이 노드와 다른 노드 사이의 연결을 나타냅니다. 이러한 데이터 구조는 표 형식의 데이터 구조보다 다른 프로세스가 더 정확하게 작동할 수 있도록 도와줄 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 6. 생성 모델
 
@@ -151,7 +293,18 @@ updatedAt: 1723864162679
 
 # 매트릭스: 사용 사례 패밀리 × AI 기술
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사의 주요 요점은 다음과 같습니다. 소개에서 언급했듯이 모든 사용 사례 패밀리를 생성 모델로 해결할 수는 없습니다.
 
@@ -159,7 +312,18 @@ updatedAt: 1723864162679
 
 아래 표에 따르면 해당 사용 사례 패밀리에는 항상 "High"로 적합한 AI 기술을 사용해야 합니다. "Medium"인 경우, 정말로 이 기술을 사용해야 하는지 재고해보세요. "Low"일 때는 해당 기술을 사용하지 마세요. 때로는 적합하지 않을 뿐만 아니라 실행하기도 어려울 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 생성 모델
 
@@ -169,7 +333,18 @@ updatedAt: 1723864162679
 
 예를 들어, 특정 제품의 판매 데이터가 있는 경우, ChatGPT에게 그것을 주고 내일 판매량이 얼마나 될 것인지 물어봐서는 안 됩니다. 그러나 코드를 쓰도록 요청할 수 있으며, 그 코드는 일부 생성적이 아닌 ML 기술을 사용하여 데이터를 예측할 것입니다. 따라서 우리는 여전히 ChatGPT를 "콘텐츠 생성"용도로 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 요약
 

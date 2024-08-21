@@ -3,17 +3,13 @@ title: "리액트 컴포넌트를 PDF 파일로 다운로드하기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Downloading React Components as PDF Files"
 link: "https://medium.com/stackademic/downloading-a-react-component-as-pdf-12021aaf0ccc"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/DownloadingReactComponentsasPDFFiles_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 간단하게 말하자면, 아마도 html2canvas와 jsPDF의 조합을 권장하는 기사들을 만난 적이 있을 것입니다. 이들은 매우 좋은 라이브러리지만 이런 한정된 사용 사례에는 필요하지 않을 수 있습니다. 이 글에서는 React 컴포넌트를 PDF 파일로 다운로드할 수 있는 간결한 라이브러리인 react-to-pdf (버전 1.0.1)에 대해 이야기하겠습니다. PDF는 컴포넌트 스크린샷에서 생성되며 서버 측 렌더링(SSR)은 지원되지 않음을 알아두세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 라이브러리 검색
 
@@ -33,13 +40,35 @@ isUpdated: true
 
 이전에 언급한 대로 경제적인 결정을 내렸어야 했다. jsPDF는 8개의 종속성을 가지고 있지만(하나는 html2canvas), 압축 해제된 크기는 2.5.1 버전 기준으로 14.7MB이다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이렇게 해서 html2canvas가 의존하는 항목 중 하나이므로 별도로 설치할 필요가 없다고 생각한 우리 팀의 판단으로 인해 jsPDF에 대한 초록빛 빛이 볼 수 있었습니다.
 
 # 길을 따라 발생한 문제들
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 jsPDF에는 상세한 문서가 있어서 별다른 문제가 없었어요. 특정 컴포넌트를 PDF 파일로 다운로드하는 것이 제 업무였기 때문에 html 메서드를 사용했어요 (또는 그렇게 생각했던 거죠).
 
@@ -59,7 +88,18 @@ doc.html(document.body, {
 
 처음에는 PDF 파일에서 컴포넌트의 스케일링과 위치 조정을 약간 조정하면 잘 작동했어요. 하지만 저희 프로젝트에 사용자 정의 글꼴이 있어서 이를 PDF로 이관하는 것이 추가 노력이 필요했던 문제가 있었어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 방법은 생성된 HTML 콘텐츠의 스타일(글꼴 제외)을 PDF 구조에 사용할 수 있게 했습니다. 하지만 PDF 파일 안에 컴포넌트의 스크린샷을 만들어 넣을 것으로 기대했던 제 예상과는 조금 달랐어요.
 
@@ -69,7 +109,18 @@ doc.html(document.body, {
 
 조사를 한 결과, react-to-pdf를 발견했어요. 라이브러리의 압축 해제 크기와 의존성 양 등을 확인하면서, 이것을 시도해봐야겠다는 생각이 들었어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/DownloadingReactComponentsasPDFFiles_3.png)
 
@@ -79,7 +130,18 @@ doc.html(document.body, {
 
 html2canvas와 jsPDF를 사용하는 다양한 방법을 시도한 후, 이 두 가지가 제가 찾던 단순한 종속성이라는 것을 깨달았습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # react-to-pdf 사용하기
 
@@ -95,7 +157,18 @@ npm install --save react-to-pdf
 
 PDF는 컴포넌트 스크린샷에서 생성됩니다. 또한, 서버 측 렌더링(SSR)은 지원되지 않는 점을 유의해 주세요. Next.js와 같은 프레임워크로 개발 중이라면 클라이언트 컴포넌트에서 react-to-pdf를 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용 방법에는 PDF를 생성하는 두 가지 방법이 있습니다: usePDF 훅과 react-to-pdf에서 제공하는 기본 함수를 사용하는 방법이 있습니다.
 
@@ -117,7 +190,18 @@ const Component = () => {
 
 기본 함수를 사용하는 방법은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { useRef } from "react";
@@ -127,9 +211,7 @@ const Component = () => {
   const targetRef = useRef();
   return (
     <div>
-      <button onClick={() => generatePDF(targetRef, { filename: "page.pdf" })}>
-        PDF 다운로드
-      </button>
+      <button onClick={() => generatePDF(targetRef, { filename: "page.pdf" })}>PDF 다운로드</button>
       <div ref={targetRef}>PDF에 포함될 내용</div>
     </div>
   );
@@ -180,9 +262,7 @@ const getTargetElement = () => document.getElementById("content-id");
 const Component = () => {
   return (
     <div>
-      <button onClick={() => generatePDF(getTargetElement, options)}>
-        PDF 생성
-      </button>
+      <button onClick={() => generatePDF(getTargetElement, options)}>PDF 생성</button>
       <div id="content-id">PDF로 생성될 내용</div>
     </div>
   );
@@ -191,7 +271,18 @@ const Component = () => {
 
 이것은 Code Sandbox를 통해 react-to-pdf 문서에서 제공하는 데모입니다. 위의 코드 블록들도 문서에서 가져왔음을 언급하고 싶군요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -201,7 +292,18 @@ const Component = () => {
 
 # 리소스
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - jsPDF 문서
 - html2canvas 문서

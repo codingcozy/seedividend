@@ -3,16 +3,13 @@ title: "React Fiber에 대한 설명 더 부드러운 UI를 위한 점진적 렌
 description: ""
 coverImage: "/assets/img/2024-06-19-ReactFiberExplainedIncrementalRenderingforSmootherUIs_0.png"
 date: 2024-06-19 23:46
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-ReactFiberExplainedIncrementalRenderingforSmootherUIs_0.png
 tag: Tech
 originalTitle: "React Fiber Explained: Incremental Rendering for Smoother UIs"
 link: "https://medium.com/@sharmfernando33/react-fiber-explained-incremental-rendering-for-smoother-uis-c8f5973aa1fb"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-06-19-ReactFiberExplainedIncrementalRenderingforSmootherUIs_0.png" />
 
@@ -22,7 +19,18 @@ React Fiber는 React 라이브러리의 완전히 새로운 핵심 조정 알고
 
 ## 이게 왜 중요한가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 산업에서 많은 개발자들이 React Fiber 아키텍처에 대해 완전히 알지 못하는 경우가 많습니다. React Fiber는 렌더링 프로세스를 작은 단위로 나눔으로써 훨씬 효율적인 애플리케이션을 만들 수 있는 기회를 제공하며, 웹 개발 분야에서 엄청난 발전을 이뤘습니다.
 
@@ -32,7 +40,18 @@ React Fiber는 React 라이브러리의 완전히 새로운 핵심 조정 알고
 
 ## Fiber 조정자
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React Fiber는 렌더링 작업을 "파이버(fibers)"로 분할하여 점진적으로 처리할 수 있게 함으로써 우리가 논의하는 조정 유형에 새로운 시각을 제공합니다. 이를 통해 React는 렌더링 작업이 서로 다른 프레임에 고르게 분배되어 일시적으로 작동을 중지하고 나중에 다시 작동할 수 있게 됩니다. 이 접근 방식의 주요 이점은 전반적인 성능과 반응 속도 향상입니다.
 
@@ -42,7 +61,18 @@ React Fiber는 렌더링 작업을 "파이버(fibers)"로 분할하여 점진적
 
 우선순위 기반 업데이트: React Fiber는 모든 업데이트를 서로 다른 우선순위로 나눕니다. 사용자 상호작용과 같은 중요한 주의를 필요로 하는 업데이트는 즉시 처리되고, 데이터 가져오기와 같은 비교적 중요하지 않은 업데이트는 백그라운드에서 처리되어 시스템 반응성을 향상시킵니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2. 동시성
 
@@ -52,7 +82,18 @@ React Fiber은 멀티스레드이며 병렬 처리 또는 동시성을 지원합
 
 React Fiber는 각 항목이 상태, 데이터 및 계층 위치와 함께 UI의 일부인 Fiber 트리를 사용합니다. 이 구조를 통해 React는 DOM의 부분을 업데이트하려는 필요한 변경 사항을 더 잘 이해하고 추적하여 전체 성능 및 렌더링 속도를 향상시킵니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 화해 과정
 
@@ -62,7 +103,18 @@ React Fiber는 각 항목이 상태, 데이터 및 계층 위치와 함께 UI의
 
 ![화해과정](/assets/img/2024-06-19-ReactFiberExplainedIncrementalRenderingforSmootherUIs_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 번째 단계인 커밋 단계는 전체 WIP 트리가 완료된 후 시작됩니다. 이 단계는 동기적으로 진행되며 중단될 수 없습니다. React는 이 단계에서 현재 트리와 진행 중인 작업 트리의 포인터를 교환하여 DOM에 변경 사항을 적용한 다음, 이러한 파이버를 DOM에 렌더링합니다. 교환 후, 새로운 진행 중인 작업 트리는 향후 상태 변경에 준비가 된 상태입니다.
 
@@ -72,7 +124,18 @@ React Fiber는 각 항목이 상태, 데이터 및 계층 위치와 함께 UI의
 
 Facebook: 뉴스 피드 업데이트, 실시간 알림 및 실시간 채팅과 같은 기능.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인스타그램: 무한 스크롤링, 라이브 스토리, 실시간 댓글 등의 기능을 제공합니다.
 
@@ -82,7 +145,18 @@ WhatsApp Web: 실시간 업데이트, 여러 채팅 창, 미디어 처리 등의
 
 이 참고 자료들이 React Fiber와 해당 아키텍처에 대한 이해를 돕는 데 도움이 되었습니다. 유용하게 활용하시기를 바랍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Andrew Clark: 리액트의 다음 단계 - ReactNext 2016
 

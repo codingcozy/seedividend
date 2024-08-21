@@ -3,17 +3,13 @@ title: "React에서 에러를 처리하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How to handle errors in React full guide"
 link: "https://medium.com/@adevnadia/how-to-handle-errors-in-react-full-guide-bd02634ff523"
 isUpdated: true
 ---
-
-
-
-
 
 ![How to handle errors in React - full guide](/assets/img/HowtohandleerrorsinReactfullguide_0.png)
 
@@ -23,7 +19,18 @@ https://www.developerway.com에서 원래 발행되었습니다. 이 웹사이�
 
 그래서 오늘은 React에서 에러 처리에 대해 살펴보겠습니다: 에러가 발생했을 때 어떻게 대처할 수 있는지, 에러 포착에 대한 다양한 접근 방법의 주의점은 무엇인지, 그리고 그것을 어떻게 완화할 수 있는지요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 왜 리액트에서 에러를 잡아야 하는 이유
 
@@ -33,7 +40,18 @@ https://www.developerway.com에서 원래 발행되었습니다. 이 웹사이�
 
 이렇게 파괴적인 힘을 가진 프론트엔드 개발자들은 이전에 없었습니다 😅
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 자바스크립트에서 오류를 처리하는 방법을 기억해 봅시다
 
@@ -51,7 +69,18 @@ try {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 동일한 구문으로 async 함수와 함께도 작동합니다:
 
@@ -74,7 +103,18 @@ fetch('/bla-bla').then((result) => {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 같은 개념이지만 구현이 조금 다르기 때문에, 이후의 글에서는 모든 오류에 try/catch 구문을 사용할 예정입니다.
 
@@ -84,7 +124,18 @@ fetch('/bla-bla').then((result) => {
 
 가장 명백하고 직관적인 대답은, 우리가 수정을 기다리는 동안 무언가를 렌더링하는 것일 것입니다. 다행히도, catch 구문에서 상태를 설정하는 것을 포함해 우리는 catch 문에서 원하는 대로 할 수 있습니다. 그래서 우리는 다음과 같은 작업을 수행할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const SomeComponent = () => {
@@ -113,7 +164,18 @@ const SomeComponent = () => {
 
 하지만 컴포넌트에서 발생할 수 있는 모든 에러를 잡고자 한다면 몇 가지 도전과 심각한 제한 사항에 직면할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제한 사항 1: useEffect 훅을 사용할 때 문제가 발생합니다.
 
@@ -131,7 +193,18 @@ try {
 
 이는 useEffect가 렌더링 후 비동기적으로 호출되기 때문에 try/catch 관점에서 모든 것이 성공적으로 진행된 것으로 본다는 이유에서 발생합니다. 이는 어떤 Promise든 같은 이야기입니다: 결과를 기다리지 않으면 JavaScript가 계속 진행하고 Promise가 완료될 때 결과를 반환한 후에 비로소 useEffect나 Promise의 then 안에 있는 내용을 실행합니다. try/catch 블록은 그때쯤에는 이미 실행되고 없어진 상태일 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 useEffect 내부의 오류를 잡으려면 try/catch도 함께 넣어주어야 합니다:
 
@@ -149,7 +222,18 @@ useEffect(() => {
 
 이것은 useEffect를 사용하는 모든 훅이나 실제로 비동기 작업을 하는 것에 적용됩니다. 따라서 모든 것을 감싸는 단일 try/catch 대신, 각 hook마다 하나씩 나눠서 블록을 만들어야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제약 사항 2: 자식 컴포넌트입니다. try/catch는 자식 컴포넌트 내에서 발생하는 모든 것을 잡아낼 수 없습니다. 단순히 이렇게 할 수 없습니다:
 
@@ -179,7 +263,18 @@ const Component = () => {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예제를 활용해서 놀아보세요.
 
@@ -189,7 +284,18 @@ const Component = () => {
 
 제한 3: 렌더 중에 상태를 설정하는 것은 금지돼요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 useEffect와 다양한 콜백 바깥에서 오류를 잡으려고 한다면, 컴포넌트 렌더링 중에 처리해야 할 것들이 더 이상 쉽지 않다는 것을 알 수 있어요. 렌더링 중에 상태를 업데이트하는 것은 허용되지 않아요.
 
@@ -211,7 +317,18 @@ const Component = () => {
 
 코드샌드박스에서 확인해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 물론 여기서 상태를 설정하는 대신 에러 화면을 반환할 수 있습니다:
 
@@ -257,7 +374,18 @@ const SomeComponent = () => {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 섹션을 요약하면, React에서 try/catch에만 의존한다면 대부분의 오류를 놓칠 수도 있고, 모든 컴포넌트를 이해하기 어려운 코드 무리로 만들거나 스스로 오류를 발생시킬 수도 있습니다.
 
@@ -267,7 +395,18 @@ const SomeComponent = () => {
 
 위의 제한 사항을 완화하기 위해 React는 우리에게 "Error Boundaries"라고 알려진 특별한 API를 제공합니다: 일종의 React 선언적 코드에 대한 try/catch 문을 일반 컴포넌트로 바꿔줍니다. 모든 예제에서(React 문서 포함) 볼 수 있는 전형적인 사용법은 다음과 같을 것입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const Component = () => {
@@ -308,7 +447,18 @@ class ErrorBoundary extends React.Component {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 흔한 클래스 컴포넌트를 만들어봅시다 (올드스쿨로 가요, 에러 바운더리를 위한 훅은 사용하지 않습니다), 그리고 getDerivedStateFromError 메서드를 구현해요 - 이렇게 하면 컴포넌트가 적절한 에러 바운더리로 변합니다.
 
@@ -327,7 +477,18 @@ class ErrorBoundary extends React.Component {
 
 에러 바운더리를 설정한 후에는 다른 컴포넌트와 마찬가지로 원하는 대로 사용할 수 있어요. 예를 들어, 재사용 가능성을 높이고 폴백을 프로퍼티로 전달할 수도 있어요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 render() {
@@ -355,7 +516,18 @@ const Component = () => {
 
 또는 상태를 재설정하는 버튼 클릭, 오류 유형 구분, 또는 해당 오류를 어딘가의 컨텍스트에 푸시하는 등 필요한 모든 작업을 수행할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 예시 전체를 이 코드샌드박스에서 확인해보세요.
 
@@ -365,7 +537,18 @@ const Component = () => {
 
 에러 바운더리는 React 라이프사이클 동안 발생하는 에러만 잡아냅니다. 라이프사이클 외부에서 발생하는 것들, 예를 들어 해결된 프로미스, setTimeout을 사용한 비동기 코드, 다양한 콜백 및 이벤트 핸들러 등은 명시적으로 처리되지 않는다면 그냥 사라질 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const Component = () => {
@@ -429,7 +612,18 @@ const ComponentWithBoundary = () => {
 
 하지만. 우리는 여전히 처음부터 다시 시작해야 합니다: 모든 컴포넌트는 "에러" 상태를 관리해야 하며 더 중요한 것은 무엇을 해야 하는지에 대한 결정을 내려야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 물론, 컴포넌트 수준에서 발생하는 오류를 처리하는 대신 이를 ErrorBoundary를 통해 상위로 전파하여 부모로 전달하는 것도 가능합니다. 이렇게 하면 적어도 "폴백" 컴포넌트를 한 곳에서만 사용할 수 있습니다:
 
@@ -465,7 +659,18 @@ const ComponentWithBoundary = () => {
 
 그러면 비동기 코드와 이벤트 핸들러에서 발생하는 오류를 대신 ErrorBoundary에서 캐치할 수는 없을까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 에러 바운더리를 이용해 비동기 에러 처리하기
 
@@ -493,7 +698,18 @@ const Component = () => {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 코드 샌드박스에 전체 예제가 있습니다.
 
@@ -511,7 +727,18 @@ const useThrowAsyncError = () => {
 
 다음과 같이 사용할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const Component = () => {
@@ -546,7 +773,18 @@ const useCallbackWithErrorHandling = (callback) => {
 
 그리고 이렇게 사용할 수 있어요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const Component = () => {
@@ -566,7 +804,18 @@ Codesandbox에서 전체 예제를 확인해보세요.
 
 # 그냥 react-error-boundary를 사용해도 되나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지루한 작업을 반복하거나 이미 해결된 문제에 대해 라이브러리를 선호하는 분들을 위해 좋은 것이 있어요. 유연한 ErrorBoundary 컴포넌트를 구현하고 몇 가지 유용한 유틸리티를 제공하는 좋은 라이브러리가 있답니다. 위에서 설명한 것과 비슷한 것이 있어요: GitHub — bvaughn/react-error-boundary
 
@@ -576,7 +825,18 @@ Codesandbox에서 전체 예제를 확인해보세요.
 
 그리고 기억하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - try/catch 블록은 useEffect와 같은 훅 내부, 그리고 자식 컴포넌트 내에서 발생하는 오류를 잡지 못합니다.
 - ErrorBoundary는 이를 잡을 수 있지만, 비동기 코드와 이벤트 핸들러 내부의 오류는 잡지 못합니다.

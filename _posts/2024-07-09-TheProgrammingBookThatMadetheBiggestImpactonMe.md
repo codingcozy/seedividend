@@ -3,17 +3,13 @@ title: "저에게 가장 큰 영향을 준 프로그래밍 책 10선"
 description: ""
 coverImage: "/assets/img/2024-07-09-TheProgrammingBookThatMadetheBiggestImpactonMe_0.png"
 date: 2024-07-09 09:26
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-TheProgrammingBookThatMadetheBiggestImpactonMe_0.png
 tag: Tech
 originalTitle: "The Programming Book That Made the Biggest Impact on Me"
 link: "https://medium.com/code-like-a-girl/the-programming-book-that-made-the-biggest-impact-on-me-fe9edec31b93"
 isUpdated: true
 ---
-
-
-
-
 
 ![Programming Book](/assets/img/2024-07-09-TheProgrammingBookThatMadetheBiggestImpactonMe_0.png)
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 하지만 그것들에 대해 아무것도 기억이 나지 않았군요.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나의 이해를 형성시켰던 책들은 대개 기술에 중립적이었고, 특정 도구나 언어보다는 기본 개념에 초점을 맞추었습니다.
 
@@ -34,7 +40,18 @@ isUpdated: true
 
 TDD는 논란이 많은 주제입니다. 많은 사람들이 지지하는 반면 다른 사람들은 시간 낭비라고 말합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어떤 그룹에 속해있는지는 중요하지 않아요. 그 책을 읽고 TDD를 시작했고, 결국 멈추기 전까지 약 6년 동안 계속 사용해왔어요.
 

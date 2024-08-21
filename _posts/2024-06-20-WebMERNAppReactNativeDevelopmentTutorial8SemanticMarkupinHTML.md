@@ -3,16 +3,13 @@ title: "MERN 스택으로 웹 개발, React Native로 앱 개발 튜토리얼 8 
 description: ""
 coverImage: "/assets/img/2024-06-20-WebMERNAppReactNativeDevelopmentTutorial8SemanticMarkupinHTML_0.png"
 date: 2024-06-20 00:48
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-WebMERNAppReactNativeDevelopmentTutorial8SemanticMarkupinHTML_0.png
 tag: Tech
 originalTitle: "Web (MERN) , App (React Native) Development Tutorial#8 | Semantic Markup in HTML"
 link: "https://medium.com/@mehtaba728/web-mern-app-react-native-development-tutorial-8-semantic-markup-in-html-5aa749e6638f"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-06-20-WebMERNAppReactNativeDevelopmentTutorial8SemanticMarkupinHTML_0.png" />
 
@@ -22,7 +19,18 @@ MERN 스택으로의 웹 개발 여정과 React Native를 사용한 앱 개발�
 
 # 시멘틱 HTML이란 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시맨틱 HTML은 HTML 태그를 사용하여 내용의 의미와 구조를 전달하는 것을 말합니다. `div`나 `span`과 같은 비의미론적 태그와는 달리, 시맨틱 태그는 그 안의 내용의 역할과 중요성에 대한 정보를 제공합니다. 예시로는 `header`, `article`, `footer`, `section`, `nav` 등이 있습니다.
 
@@ -34,7 +42,18 @@ MERN 스택으로의 웹 개발 여정과 React Native를 사용한 앱 개발�
 
 # 주요 시맨틱 HTML 요소
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가장 일반적으로 사용되는 의미 있는 HTML 요소 중 일부를 살펴보겠습니다:
 
@@ -47,15 +66,32 @@ MERN 스택으로의 웹 개발 여정과 React Native를 사용한 앱 개발�
   <h1>내 웹사이트</h1>
   <nav>
     <ul>
-      <li><a href="#home">홈</a></li>
-      <li><a href="#about">소개</a></li>
-      <li><a href="#contact">연락처</a></li>
+      <li>
+        <a href="#home">홈</a>
+      </li>
+      <li>
+        <a href="#about">소개</a>
+      </li>
+      <li>
+        <a href="#contact">연락처</a>
+      </li>
     </ul>
   </nav>
 </header>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # `nav`
 
@@ -64,16 +100,33 @@ MERN 스택으로의 웹 개발 여정과 React Native를 사용한 앱 개발�
 ```js
 <nav>
   <ul>
-    <li><a href="#home">Home</a></li>
-    <li><a href="#services">Services</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li>
+      <a href="#home">Home</a>
+    </li>
+    <li>
+      <a href="#services">Services</a>
+    </li>
+    <li>
+      <a href="#contact">Contact</a>
+    </li>
   </ul>
 </nav>
 ```
 
 # `main`
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `main` 요소는 문서의 주요 콘텐츠를 나타냅니다. 문서당 하나의 `main` 요소만 있어야하며, `article`, `aside`, `footer`, `header`, 또는 `nav` 요소의 하위 요소로 있어서는 안됩니다.
 
@@ -90,8 +143,18 @@ MERN 스택으로의 웹 개발 여정과 React Native를 사용한 앱 개발�
 
 `section` 요소는 문서 내의 섹션을 정의합니다. 일반적으로 제목과 함께 콘텐츠를 주제별로 그룹화하는 데 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # `section`
 
@@ -113,10 +176,20 @@ MERN 스택으로의 웹 개발 여정과 React Native를 사용한 앱 개발�
   <h2>Understanding Semantic HTML</h2>
   <p>Semantic HTML is a powerful tool for web developers...</p>
 </article>
-``` 
+```
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # `aside`
 
@@ -126,15 +199,30 @@ MERN 스택으로의 웹 개발 여정과 React Native를 사용한 앱 개발�
 <aside>
   <h2>관련 링크</h2>
   <ul>
-    <li><a href="#link1">링크 1</a></li>
-    <li><a href="#link2">링크 2</a></li>
+    <li>
+      <a href="#link1">링크 1</a>
+    </li>
+    <li>
+      <a href="#link2">링크 2</a>
+    </li>
   </ul>
 </aside>
 ```
 
 # `footer`
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `푸터` 요소는 문서나 섹션의 하단을 나타냅니다. 일반적으로 메타데이터, 관련 문서へ의 링크, 그리고 문서에 대한 기타 정보를 포함합니다.
 
@@ -149,14 +237,31 @@ MERN 스택으로의 웹 개발 여정과 React Native를 사용한 앱 개발�
 ```js
 <nav role="navigation">
   <ul>
-    <li><a href="#home">홈</a></li>
-    <li><a href="#services">서비스</a></li>
-    <li><a href="#contact">연락처</a></li>
+    <li>
+      <a href="#home">홈</a>
+    </li>
+    <li>
+      <a href="#services">서비스</a>
+    </li>
+    <li>
+      <a href="#contact">연락처</a>
+    </li>
   </ul>
 </nav>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

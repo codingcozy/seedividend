@@ -3,17 +3,13 @@ title: "Python Async Await  사용해본 후 배운 7가지 교훈"
 description: ""
 coverImage: "/assets/img/2024-06-22-PythonAsyncAwait7ThingsILearntAfterDealingWithThemForAWhile_0.png"
 date: 2024-06-22 02:38
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-PythonAsyncAwait7ThingsILearntAfterDealingWithThemForAWhile_0.png
 tag: Tech
 originalTitle: "Python Async Await — 7 Things I Learnt After Dealing With Them For A While"
 link: "https://medium.com/gitconnected/python-async-await-7-things-i-learnt-after-dealing-with-them-for-a-while-86c1559e3c15"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-06-22-PythonAsyncAwait7ThingsILearntAfterDealingWithThemForAWhile_0.png)
 
@@ -28,8 +24,18 @@ print(hello)  # <function hello at 0x100ce8e00>
 
 ^ 여기에 일반 함수가 있습니다
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 async def hello():
@@ -49,7 +55,18 @@ def hello():
 print(hello())  # hello
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ^ 일반 함수 호출 예입니다 - 'hello' 문자열을 반환하는단 뜻이에요
 
@@ -57,7 +74,7 @@ print(hello())  # hello
 async def hello():
     return 'hello'
 
-print(hello())  
+print(hello())
 
 # <coroutine object hello at 0x10276f320>
 
@@ -68,7 +85,18 @@ print(hello())
 
 ^ 또한 RuntimeWarning: coroutine 'hello' was never awaited 메시지가 표시됩니다 - 코루틴은 일반적으로 await를 사용하여 대기해야 합니다(잠시 후에 설명하겠습니다)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 3) 코루틴의 의미
 
@@ -78,7 +106,18 @@ print(hello())
 
 # 4) “asyncio.run()”을 사용하여 코루틴을 직접 실행할 수 있습니다
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 async def hello():
@@ -105,7 +144,18 @@ asyncio.run(hello()) # running hello coroutine
 
 ^ 이것이 코루틴을 실행하는 방법입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주의 — asyncio는 파이썬 표준 라이브러리의 일부이므로 Python과 함께 설치되어 있으며이 작동하도록 추가로 제3자 라이브러리를 설치할 필요가 없습니다. asyncio를 가져와서 사용할 수 있습니다.
 
@@ -124,13 +174,24 @@ async def main():
     x = await hello()
     print(x)
 
-asyncio.run(main())    
+asyncio.run(main())
 
 # hello 코루틴 실행 중
 # hello
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ^ 다른 코루틴 메인 안에서 hello를 호출하려면 await 키워드를 사용해야 합니다.
 
@@ -152,7 +213,18 @@ async def test():
 asyncio.run(test())
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서는 일반 함수 테스트 안에 await를 사용하려고 시도했기 때문에 SyntaxError가 발생합니다.
 
@@ -181,7 +253,18 @@ asyncio.run(main())
 # 끝
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이 스크립트를 실행할 때, 먼저 3개의 start가 출력됩니다.
 - 약 1초 지연 후, 3개의 end가 출력됩니다.
@@ -194,7 +277,18 @@ asyncio.run(main())
 
 # 만약 제작자로서 저를 지원하고 싶다면
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이 이야기에 대해 50번 박수를 쳐주세요
 - 여러분의 생각을 말씀해 주세요
@@ -206,6 +300,17 @@ YouTube: https://www.youtube.com/@zlliu246
 
 LinkedIn: https://www.linkedin.com/in/zlliu/
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제 Ebooks: [https://zlliu.co/ebooks](https://zlliu.co/ebooks)

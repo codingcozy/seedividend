@@ -3,15 +3,13 @@ title: "PyCon US 2024 인사이트, 배움, 그리고 커뮤니티"
 description: ""
 coverImage: "/assets/img/2024-07-09-PyConUS2024InsightsLearningsandCommunity_0.png"
 date: 2024-07-09 09:11
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-PyConUS2024InsightsLearningsandCommunity_0.png
 tag: Tech
 originalTitle: "PyCon US 2024: Insights, Learnings, and Community."
 link: "https://medium.com/@afimaamedufie/pycon-us-2024-insights-learnings-and-community-75442260a2df"
 isUpdated: true
 ---
-
-
 
 ![이미지](/assets/img/2024-07-09-PyConUS2024InsightsLearningsandCommunity_0.png)
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 이 글에서는 아래와 같은 내용을 강조할 것입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 소개
 - 이벤트 전 준비
@@ -37,7 +46,18 @@ PyCon US는 교육, 문서 및 기타 다양한 행사들(교육, 문서 등)인
 
 ## 이벤트 전 준비
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이벤트 시작 전에 조금 일찍 도착해서 마스크를 쓰고 현장에서 친구들을 만났어요. 자가 체크인을 위해 등록 부스를 지나가서 라너드와 태그를 받았죠. 세팅이 진행 중이던 엑스포홀을 구경했어요.
 
@@ -47,7 +67,18 @@ PSF 부스 셀피 월 세팅을 도와서 멋지게 마무리했어요. 그리�
 
 ## 이벤트 중간에
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이벤트 기간 동안 PyCon US 앱을 통해 선보인 훌륭한 강연(주제별 강연, 워크샵, 튜토리얼), 정상회의 및 활동 등이 모두 있었어요.
 
@@ -57,7 +88,18 @@ PSF 부스 셀피 월 세팅을 도와서 멋지게 마무리했어요. 그리�
 
 또한, Black Python Devs는 제트브레인즈 부스에서 첫 번째 생일을 축하했어요! 🎉🚀
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또한, Jay Miller의 키노트를 듣고 Black Python Devs 웹사이트를 확인해보세요: [링크](https://www.youtube.com/watch?v=jYZBpoYjxLo)
 
@@ -68,7 +110,18 @@ PyLadies 경매
 
 ![이미지 2](/assets/img/2024-07-09-PyConUS2024InsightsLearningsandCommunity_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 행사 후기
 
@@ -78,7 +131,18 @@ PyLadies 경매
 
 저와 상호작용하거나 재연락을 취한 모든 분들, 봉사하거나 질문에 답변하거나 문제해결을 제공하거나 퀴즈/실습 과제에 개선 제안을 해주신 분들, 전시장에서 제품에 대해 이야기를 해주신 분들 그리고 기타 다른 분들께 진심으로 감사드립니다. 다시 만날 수 있기를 소망합니다. 항상 좋은 일만 가득하길 기원합니다 🫶🏾
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 스프린트
 
@@ -88,7 +152,18 @@ Velda와 저는 CPython 내부를 이해하기 위한 여정을 시작했고, An
 
 ## 흥미로운 발표들
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아비게일 M. 독베가 우수한 PyLady로 선정되었고, 벨다 키아리는 파이썬 스티어링 콘솔에 제안을 받았어요 🎉
 
@@ -98,7 +173,18 @@ BPD 회원들이 높은 수준에 도달하고 자신들의 업적을 인정받�
 
 되돌아보면, 전체적으로 멋진 경험이었어요. 더 많이 배우게 되었고, 새로운 멋진 사람들을 만나고, 오랜만에 다시 만나는 다른 파이썬 개발자들과 연결되어 톡톡 튀는 대화를 나누었으며, 파이썬 및 기술 도구의 업데이트를 접하며 더 깊은 커뮤니티 의식을 키울 수 있었어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-09-PyConUS2024InsightsLearningsandCommunity_3.png" />
 
@@ -112,7 +198,18 @@ BPD 회원들이 높은 수준에 도달하고 자신들의 업적을 인정받�
 - 메일링 리스트를 유심히 지켜보세요.
 - 당당하게 나가세요. 도움을 받을 수 있는 친절한 사람들을 만나거나 다시 만날 수 있습니다. 그것이 최고의 경험이었죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 자료
 
@@ -123,7 +220,18 @@ PyCon US에 대한 더 많은 정보를 얻을 수 있는 멋진 자료들이 �
 
 시간이 좀 걸렸지만, 제 경험의 하이라이트를 즐겨주셨으면 좋겠어요 :)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가장 좋은 일만 있길 바래요.
 

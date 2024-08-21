@@ -3,7 +3,7 @@ title: "루비에서 로컬 변수의 사용하는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-17-RubysMagicUnveilingthePowerofLocalVariables_0.png"
 date: 2024-08-17 01:23
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-17-RubysMagicUnveilingthePowerofLocalVariables_0.png
 tag: Tech
 originalTitle: " Rubys Magic Unveiling the Power of Local Variables "
@@ -11,7 +11,6 @@ link: "https://medium.com/@patrykrogedu/rubys-magic-unveiling-the-power-of-local
 isUpdated: true
 updatedAt: 1723864252100
 ---
-
 
 ![RubysMagicUnveilingthePowerofLocalVariables](/assets/img/2024-08-17-RubysMagicUnveilingthePowerofLocalVariables_0.png)
 
@@ -21,7 +20,18 @@ updatedAt: 1723864252100
 
 우리 이야기는 코드를 최적화하는 데 고민하던 젊은 루비 프로그래머인 사라로 시작됩니다. 사라의 멘토인 숙련된 루비 개발자인 잭은 그녀에게 지역 변수의 비밀을 가르쳐 주기로 결심합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 로컬 캐싱의 힘
 
@@ -32,12 +42,12 @@ Sarah가 작성한 코드를 불러왔어요:
 ```js
 class TimeFilter
   attr_reader :start, :finish
-  
+
   def initialize(start, finish)
     @start = start
     @finish = finish
   end
-  
+
   def to_proc
     proc do |value|
       next false if start && value < start
@@ -46,9 +56,20 @@ class TimeFilter
     end
   end
 end
-```  
+```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "이거 괜찮아," Jack이 말했다, "하지만 로컬 변수를 사용할 때 어떻게 변하는지 봐봐."
 
@@ -68,7 +89,18 @@ end
 
 Sarah의 눈이 휘둥그레졌다. "뭐했어?"
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제이크는 미소 지었다. "나는 시작 및 완료 값을 로컬 변수에 캐시했어요. 이제 매번 attr_reader 메서드를 호출하는 대신, 더 빠른 로컬 변수 조회를 사용하고 있어요."
 
@@ -78,13 +110,24 @@ Sarah의 눈이 휘둥그레졌다. "뭐했어?"
 
 그는 코드를 더욱 세련되게 개선했습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 def to_proc
   start = self.start
   finish = self.finish
-  
+
   if start && finish
     proc{|value| value >= start && value <= finish}
   elsif start
@@ -103,7 +146,18 @@ end
 
 # 안전하지 않은 최적화의 위험성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그들의 수업이 계속됨에 따라, 잭은 사라에게 과도한 최적화의 위험에 대해 경고했습니다. "조심해," 그가 경고했습니다. "모든 표현식이 로컬 변수에 캐시될 수 있는 것은 아닙니다."
 
@@ -118,7 +172,18 @@ end
 
 "이 것을 최적화하려는 유혹은 있을 수 있지만," 잭은 설명했습니다. "hash[:a]를 로컬 변수에 캐시하는 것은 큰 배열에 :a가 요소로 있는 경우나 해시에 :a를 수정하는 기본 프록이 있는 경우 버그로 이어질 수 있습니다."
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Sarah은 생각에 잠겨 공간 변수 사용의 미묘한 차이를 이해하기 시작했습니다.
 
@@ -128,7 +193,18 @@ Sarah은 생각에 잠겨 공간 변수 사용의 미묘한 차이를 이해하�
 
 그는 몇 가지 예시를 보여주었습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 변수 이름이 짧으면 한 글자도 괜찮아요
@@ -151,8 +227,18 @@ tps_report = TransactionProcessingSystemReport.new
 
 # 깨달음
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 날, 알렉스는 새로운 프로젝트를 진행 중이었을 때 멘토인 루비가 과정을 확인하러 들르기로 했다.
 
@@ -162,13 +248,24 @@ tps_report = TransactionProcessingSystemReport.new
 
 루비는 알렉스의 질문에 멋지게 웃으며 대답했다. "아, 네가 루비의 독특한 특징 중 하나를 발견했군. 무엇인지 보여줄게."
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 루비는 앉아서 코드를 몇 줄 입력했어요:
 
 ```js
-A = 1
-A = 2
+A = 1;
+A = 2;
 ```
 
 그러자 알렉스는 놀랐어요. 이것으로 두 개의 경고만 생성되었어요:
@@ -178,7 +275,18 @@ warning: already initialized constant A
 warning: previous definition of A was here
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "하지만... 하지만... 이건 상수라구!" 알렉스가 퉁명스럽게 말했다.
 
@@ -188,7 +296,18 @@ warning: previous definition of A was here
 
 흥미를 느낀 알렉스는 루비가 제시한 상수 스코프 땅 여행을 더 알고 싶어했다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 “클래스와 상수의 작은 세계를 만들어 보죠,” 루비가 타이핑하며 말했습니다:
 
@@ -215,7 +334,18 @@ end
 
 그들은 B 클래스를 별도의 스코프에서 열었습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 class B
@@ -233,7 +363,18 @@ end
 
 여정이 계속되는 동안 루비는 상수의 가시성 개념을 알렉스에게 소개했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "자바와 달리 루비의 상수는 기본적으로 외부에서 접근할 수 있습니다," 루비가 설명했습니다. "하지만 그것을 변경할 수도 있죠."
 

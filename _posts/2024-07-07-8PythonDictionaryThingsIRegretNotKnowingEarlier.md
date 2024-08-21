@@ -3,15 +3,13 @@ title: "몰랐으면 후회할 8가지 Python Dictionary 사용 꿀팁"
 description: ""
 coverImage: "/assets/img/2024-07-07-8PythonDictionaryThingsIRegretNotKnowingEarlier_0.png"
 date: 2024-07-07 02:29
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-8PythonDictionaryThingsIRegretNotKnowingEarlier_0.png
 tag: Tech
 originalTitle: "8 Python Dictionary Things I Regret Not Knowing Earlier"
 link: "https://medium.com/@zlliu/8-python-dictionary-things-i-regret-not-knowing-earlier-bd98e94a5600"
 isUpdated: true
 ---
-
-
 
 ![이미지](/assets/img/2024-07-07-8PythonDictionaryThingsIRegretNotKnowingEarlier_0.png)
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 참고 - 우리 개발팀이 95%의 경우에 사전을 만드는 방법입니다. ''는 그다지 사용하지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 딕셔너리를 만드는 일반적인 방법
 
@@ -38,7 +47,18 @@ d = dict(apple=4, orange=5, pear=6, pineapple=7)
 - 따옴표 문자를 입력해야 하는 것은 키가 많아질수록 기하급수적으로 귀찮아짐
 - dict()를 사용하면 따옴표 문자를 무시할 수 있음
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 물론, dict() 방법은 문자열이 아닌 키와 함께 사용할 수 없어서 두 가지 방법에는 각각의 용도가 있습니다.
 

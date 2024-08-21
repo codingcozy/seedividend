@@ -3,16 +3,13 @@ title: "Java의 toString, equals, hashCode 완벽 해설"
 description: ""
 coverImage: "/assets/img/2024-07-09-JavastoStringequalsandhashCodeExplained_0.png"
 date: 2024-07-09 09:28
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-JavastoStringequalsandhashCodeExplained_0.png
 tag: Tech
 originalTitle: "Java’s toString(), equals(), and hashCode() Explained"
 link: "https://medium.com/@AlexanderObregon/javas-tostring-equals-and-hashcode-explained-27cfc9bb1497"
 isUpdated: true
 ---
-
-
-
 
 ![image](/assets/img/2024-07-09-JavastoStringequalsandhashCodeExplained_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 # toString(), equals(), hashCode()의 기본 사항
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자바에서는 toString(), equals(), hashCode() 메서드가 객체의 핵심 기능에 중요합니다. 이러한 메서드들은 모든 클래스의 상위 클래스인 Object 클래스에서 상속됩니다. 이러한 메서드를 이해하고 언제 그리고 어떻게 재정의해야 하는지를 알아야 합니다. 왜냐하면 이러한 메서드들은 객체 비교, 해싱, 디버깅에 중요한 역할을 합니다.
 
@@ -32,7 +40,18 @@ toString() 메서드는 객체의 문자열 표현을 제공합니다. 기본적
 
 다음은 기본 toString() 동작의 예시입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 public class Example {
@@ -51,7 +70,18 @@ Example@6d06d69c
 
 위와 같이 볼 수 있듯이, 이 출력은 매우 유익하지 않습니다. 더 유의미한 정보를 제공하기 위해 클래스에서 toString() 메서드를 재정의할 수 있습니다. 특히 객체의 세부 정보를 출력하거나 로깅할 때 유용합니다. 현재 객체 상태를 이해하는 데 도움이 될 수 있는 관련 데이터를 포함할 수 있기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # equals()
 
@@ -61,7 +91,18 @@ equals() 메서드는 두 개의 객체가 동일한지 여부를 결정합니�
 
 다음은 기본 equals() 동작의 예시입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 public class Example {
@@ -80,7 +121,18 @@ public class Example {
 
 다음은 기본 `hashCode()` 동작의 예시입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 public class Example {
@@ -97,7 +149,18 @@ toString(), equals(), 및 hashCode()의 기본 구현을 이해하는 것은 중
 
 ## toString()
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 toString() 메서드는 종종 객체의 더 가독성이 좋은 표현을 제공하기 위해 재정의됩니다. 이는 디버깅 및 로깅 목적에 특히 유용하며, 객체의 상태를 빠르게 이해할 수 있게 해줍니다.
 
@@ -127,7 +190,18 @@ public class Person {
 
 출력:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 Person{name='Kaitlyn', age=30}
@@ -139,7 +213,18 @@ Person{name='Kaitlyn', age=30}
 
 equals() 메서드는 객체를 메모리 주소가 아닌 데이터를 기반으로 비교하도록 재정의되었습니다. 특히 객체의 동등성을 의존하는 컬렉션을 다룰 때 객체 비교를 올바르게 구현하기 위해 중요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `equals()` 메소드를 오버라이드할 때는 다음 규칙을 준수하는지 확인해야 합니다:
 
@@ -179,7 +264,18 @@ public class Person {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 예에서 equals() 메서드는 먼저 비교 대상인 객체(obj)가 현재 객체(this)와 동일한 인스턴스인지 확인합니다. 동일한 인스턴스이면 true를 반환합니다. obj가 null이거나 현재 객체와 동일한 클래스가 아닌 경우 false를 반환합니다. 그렇지 않은 경우, obj를 Person 객체로 캐스트하고 이름 및 나이 필드를 비교하여 동일성을 확인합니다. 이렇게 함으로써 두 Person 객체가 동일한지 확인하는 조건은 이름과 나이 필드가 동일한 경우에만 동일하다고 간주됩니다.
 
@@ -189,7 +285,18 @@ hashCode() 메서드는 HashMap 및 HashSet과 같은 해쉬 기반 컬렉션에
 
 hashCode()의 일반적인 규약은:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 두 객체가 equals(Object) 메소드에 따라 동일하다면 두 객체 각각에 대해 hashCode() 메소드를 호출하면 동일한 정수 결과가 나와야 합니다.
 - 두 객체가 equals(Object) 메소드에 따라 다르다면 두 객체 각각에 대해 hashCode() 메소드를 호출하더라도 서로 다른 정수 결과가 나와야 하는 것은 필수적이지 않습니다. 그러나 다른 객체에 대해 서로 다른 정수 결과를 만드는 것이 해시 기반 컬렉션의 성능을 향상시킬 수 있다는 점을 개발자는 인식해야 합니다.
@@ -232,7 +339,18 @@ public class Person {
 
 equals()와 hashCode()를 모두 오버라이드 함으로써, HashMap 및 HashSet와 같은 해싱에 의존하는 컬렉션에서 객체가 올바르게 관리되도록 보장할 수 있습니다. 이는 이러한 컬렉션의 무결성과 성능을 유지하는 데 매우 중요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 적절한 사용 시나리오
 
@@ -243,7 +361,18 @@ toString(), equals(), hashCode() 메서드를 언제 어떻게 효과적으로 �
 - 로깅 및 디버깅: toString() 메서드를 오버라이드하면 객체의 상태를 더 읽기 쉬운 형태로 제공하여 로깅 및 디버깅에 매우 유용합니다. 일반적인 클래스 이름과 해시 코드 대신 문제를 빨리 식별하는 데 도움이 되는 의미 있는 정보가 표시됩니다.
 - UI 표현: 사용자 인터페이스에서 객체 정보를 표시할 때, 잘 구현된 toString() 메서드는 표시된 데이터가 명확하고 정보를 제공함을 보장합니다. 이는 객체에 대한 이해할 수 있는 세부 정보를 제공하여 사용자 경험을 향상시킬 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시:
 
@@ -268,7 +397,18 @@ public class Product {
 
 ## equals() 및 hashCode()
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 컬렉션: HashSet, HashMap 및 Hashtable과 같은 컬렉션을 사용할 때 equals() 및 hashCode()를 올바르게 재정의하는 것이 매우 중요합니다. 이러한 컬렉션은 객체 동등성을 결정하고 해시 기반 저장 및 검색을 효율적으로 관리하기 위해 이러한 메서드에 의존합니다.
 - 비즈니스 로직: equals()를 구현하면 객체를 메모리 주소가 아닌 데이터를 기반으로 비교할 수 있어서 객체 동일성이 내용을 기반으로 하는 비즈니스 로직에 종종 필요합니다. 이렇게 함으로써 비교가 의미 있고 정확해집니다.
@@ -300,7 +440,18 @@ public class Main {
 
 위 예시에서는 HashSet를 사용하여 Person 객체를 저장합니다. equals()와 hashCode() 메서드를 사용하여 person2가 person1과 같은 것으로 간주되어 세트에 추가되지 않도록 합니다. 이는 이러한 메서드가 중복 항목을 방지하여 컬렉션의 무결성을 유지하는 데 어떻게 도움이 되는지 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

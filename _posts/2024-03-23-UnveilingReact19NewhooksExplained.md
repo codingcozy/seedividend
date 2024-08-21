@@ -3,17 +3,13 @@ title: "React 19에서 사용되는 새로운 훅 정리useOptimistic, useFormSt
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Unveiling React 19 New hooks Explained"
 link: "https://medium.com/@khush_/unveiling-react-19-new-hooks-explained-6d41ffb2cd1a"
 isUpdated: true
 ---
-
-
-
-
 
 ![Unveiling-React-19:-New-hooks-Explained!_0.png](/assets/img/Unveiling-React-19:-New-hooks-Explained!_0.png)
 
@@ -23,7 +19,18 @@ React 19이 나왔어요! 이번에는 흥미로운 새로운 것들이 많이 �
 
 - useOptimistic: 상상해보세요. 버튼을 클릭하면 즉시 UI가 업데이트되는 걸요! 서버가 따라잡기를 기다릴 필요가 없는 즉각적인 UI 업데이트를 의미하는 낙관적 UI가 있어요. useOptimistic 훅을 사용하면 이를 쉽게 구현할 수 있어요. 서버로부터 확인을 받기 전에 UI를 낙관적으로 업데이트할 수 있게 해주어 사용자 경험을 보다 부드럽게 만들어줘요. useOptimistic를 사용하면 사용자가 피드백을 기다리는 동안 손을 비집고 기다릴 필요가 없어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. useFormStatus: useFormStatus 훅은 폼 필드의 상태를 관리하고 유효성 검사 로직 및 제출 상태를 처리하여 폼 관리를 쉽게 만듭니다. 마지막 폼 제출의 상태 정보를 제공합니다.
 
@@ -34,7 +41,18 @@ React 19이 나왔어요! 이번에는 흥미로운 새로운 것들이 많이 �
 - fn: 이 매개변수는 폼이 제출되거나 버튼이 눌렸을 때 실행할 함수를 나타냅니다. 실행 시, 이 함수는 초기 인수로 폼의 이전 상태(처음에는 전달한 initialState이며, 이후에는 이전 반환 값)를 받고, 그 후에는 일반적인 폼 작업이 받는 인수들이 따라옵니다.
 - initialState: 이 인수는 폼에 대한 초기 상태 값을 나타냅니다. 직렬화 가능한 값이어야 합니다. 작업이 처음 호출되면 이 매개변수는 더 이상 관련이 없어집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. `use`는 다양한 용도로 설계된 React Hook으로, 컴포넌트나 사용자 지정 훅 내에서 Promise나 컨텍스트와 같은 리소스의 값을 가져와 활용하는 데 사용됩니다. `use`를 다른 React Hook과 구분 짓는 특징은 반복문이나 조건문(if 블록과 같은) 내에서 호출될 수 있는 고유한 능력입니다. 하지만, 여전히 `use`를 활용하는 함수는 컴포넌트나 다른 훅이어야 한다는 표준 요구 사항을 준수합니다.
 

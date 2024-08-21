@@ -3,17 +3,13 @@ title: "작지만 강력한 CSS before 및 after 요소 활용법"
 description: ""
 coverImage: "/assets/img/2024-07-13-CSSbeforeandafterSmallElementsBigImpact_0.png"
 date: 2024-07-13 18:54
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-CSSbeforeandafterSmallElementsBigImpact_0.png
 tag: Tech
 originalTitle: "CSS ::before and ::after — Small Elements, Big Impact"
 link: "https://medium.com/@wesleyvanpeer/css-before-and-after-small-elements-big-impact-fd5a54e7793a"
 isUpdated: true
 ---
-
-
-
-
 
 ![UI Element](/assets/img/2024-07-13-CSSbeforeandafterSmallElementsBigImpact_0.png)
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 ## 가짜 요소(Pseudo-elements)란 무엇인가요?
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 의사 요소는 우리의 CSS 도구 상자에 살고있는 보이지 않는 요정처럼 작동합니다. 이를 통해 HTML(Hyper Text Markup Language) 요소에 추가 콘텐츠를 쉽게 삽입할 수 있습니다. HTML 코드를 변경할 필요 없이 말이죠. 제 생각에는 웹 콘텐츠를 향상시키는 데 굉장히 유용합니다.
 
@@ -36,7 +42,18 @@ isUpdated: true
 - 버튼에 멋진 호버 효과를 추가해야 할 때.
 - 제목에 화려한 밑줄을 만들고 싶을 때(누가 화려한 것을 좋아하지 않겠어요?).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 어떻게 작동하나요?
 
@@ -48,7 +65,18 @@ isUpdated: true
 
 이에 파란색 밑줄을 추가해 보겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 h1 {
@@ -74,8 +102,18 @@ h1::after {
 
 <img src="/assets/img/2024-07-13-CSSbeforeandafterSmallElementsBigImpact_1.png" />
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## CSS에서 '부모(Parent)'란 무엇인가요?
 
@@ -85,14 +123,22 @@ h1::after {
 
 저는 개인적으로 호버 효과를 정말 좋아합니다. 멋진 호버 효과가 있는 버튼을 만들어봅시다. 수정된 코드:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 내 멋진 사이트에 오신 것을 환영합니다!
 
 <button class="fancy-btn">Click Me!</button>
-
-
 
 ```css
 h1 {
@@ -101,7 +147,7 @@ h1 {
 }
 
 h1::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   height: 4px;
@@ -123,7 +169,7 @@ h1::after {
 }
 
 .fancy-btn::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: -100%;
@@ -148,8 +194,18 @@ h1::after {
 
 ## 사용자 지정 불릿 포인트
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문단을 명확하게 유지하기 위해 글머리 기호가 유용하지만, 표준 검정 점들은 당연히 그냥 표준 검정 점입니다. 감사하게도 우리는 그것들을 밝게 만들 수도 있습니다.
 
@@ -169,7 +225,18 @@ h1::after {
 
 그런 다음 CSS를 조정하여 지루한 점들을 바꿔봅시다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 h1 {
@@ -178,7 +245,7 @@ h1 {
 }
 
 h1::after {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   height: 4px;
@@ -200,7 +267,7 @@ h1::after {
 }
 
 .fancy-btn::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: -100%;
@@ -233,11 +300,11 @@ h1::after {
 }
 
 .cool-list li::before {
-  content: '🚀';
+  content: "🚀";
   position: absolute;
   left: -20px;
 }
-``` 
+```
 
 이제 각 목록 항목/글머리 기호가 지루한 점이 아니라 작은 로켓 모양으로 바뀌었어요.
 
@@ -245,7 +312,18 @@ CSS로 이모지나 사용자 정의 모양을 만들 수 있어요.
 
 조금 더 현대적으로 했어요...
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위는 :before 및 :after 가상 요소의 데모 목적을 위한 것이었습니다. 이제 재미있게 전체를 현대화해 보려고 합니다. 이 게시물에 더 많은 코드를 추가하지 않으려면 실제 Codepen에서 최신 소스 코드를 찾을 수 있어요. 😉
 
@@ -255,6 +333,17 @@ CSS로 이모지나 사용자 정의 모양을 만들 수 있어요.
 
 제가 하려는 다가오는 프로젝트 중 하나는 그 전체 웹사이트를 처음부터 다시 만들어 모두 직접 코딩하는 것이에요. 최근 다른 게시물에서 말했듯이 의지적으로 제가 많이 맡았다고 할 수 있는데, 그 프로젝트는 현재 보류 중이에요. 그러나 그 과정을 문서로 남겨둘 생각도 해봤어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 말이 공감되거나 유익했다면, 애정을 표현해주세요 — 커피 사줘도 돼요. 그것은 요가치료보다도 더 저렴하답니다!

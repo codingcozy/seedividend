@@ -3,16 +3,13 @@ title: "JavaScript에서 속성 가져오고 설정하는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-23-JavaScriptGettingSettingsAttributes_0.png"
 date: 2024-06-23 14:43
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-JavaScriptGettingSettingsAttributes_0.png
 tag: Tech
 originalTitle: "JavaScript — Getting , Settings Attributes"
 link: "https://medium.com/@geraldclarkaudio/javascript-getting-settings-attributes-4e8c6e8164bb"
 isUpdated: true
 ---
-
-
-
 
 지난 기사에서는 요소나 요소들의 내부 텍스트와 내부 HTML을 변경하는 방법을 다뤘어요. 이 기사에서는 해당 요소들의 속성을 가져오고 설정하는 방법에 대해 다룰 거에요.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 ![image](/assets/img/2024-06-23-JavaScriptGettingSettingsAttributes_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 a 태그에 대한 참조를 link라는 상수에 저장했어요. 그런 다음 link.getAttribute()를 기록하고 있어요. 이 방법에 href라는 문자열을 제공했어요. 브라우저 콘솔을 확인하면 그 값이 출력됩니다.
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 Google로 이동하는 대신 Yahoo로 이동하도록 말했어요. 브라우저에서 이 요소를 검사하면 값이 변경된 것을 볼 수 있을 거예요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-23-JavaScriptGettingSettingsAttributes_3.png" />
 
@@ -42,8 +61,18 @@ Google로 이동하는 대신 Yahoo로 이동하도록 말했어요. 브라우�
 
 여기서 p 태그를 잡아서 속성을 success로 변경하고 있어요. 이를 엘리먼트에서 검사해보면 속성이 변경된 것을 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-06-23-JavaScriptGettingSettingsAttributes_5.png)
 
@@ -53,8 +82,18 @@ Google로 이동하는 대신 Yahoo로 이동하도록 말했어요. 브라우�
 
 ![Image](/assets/img/2024-06-23-JavaScriptGettingSettingsAttributes_6.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기에는 style 속성을 추가하여 텍스트 색상을 녹색으로 설정합니다.
 
@@ -64,7 +103,18 @@ Google로 이동하는 대신 Yahoo로 이동하도록 말했어요. 브라우�
 
 <img src="/assets/img/2024-06-23-JavaScriptGettingSettingsAttributes_8.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요즘 확인만 할 불(bool)이 있어요. 이 불 값을 true로 설정하면 텍스트가 초록색으로 바뀌고 "You Win!"이라고 나와요. 그리고 false로 바꾸면 텍스트가 빨간색으로 바뀌고 "You Lose!"라고 나와요!
 

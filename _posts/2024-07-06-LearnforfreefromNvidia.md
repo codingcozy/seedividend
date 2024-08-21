@@ -3,15 +3,13 @@ title: "무료로 배우는 Nvidia 최신 기술 2024"
 description: ""
 coverImage: "/assets/img/2024-07-06-LearnforfreefromNvidia_0.png"
 date: 2024-07-06 02:31
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-06-LearnforfreefromNvidia_0.png
 tag: Tech
 originalTitle: "Learn for free from Nvidia"
 link: "https://medium.com/ai-advances/learn-for-free-from-nvidia-86081dd4a1a1"
 isUpdated: true
 ---
-
-
 
 /assets/img/2024-07-06-LearnforfreefromNvidia_0.png
 
@@ -21,6 +19,17 @@ isUpdated: true
 
 NVidia는 교육 플랫폼에 관한 소위 '어제의 웃음꽃'입니다. 누구나 NVidia는 무엇인지 알지만, 거의 아무도 그 Deep Learning Institute와 놀라운 AI 무료 강좌 카탈로그를 알지 못하는 것 같아요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 함께 탐험해 봐요!

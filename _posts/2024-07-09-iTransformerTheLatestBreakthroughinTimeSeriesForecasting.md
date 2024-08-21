@@ -3,15 +3,13 @@ title: "iTransformer 최신 시계열 예측 기법 대공개"
 description: ""
 coverImage: "/assets/img/2024-07-09-iTransformerTheLatestBreakthroughinTimeSeriesForecasting_0.png"
 date: 2024-07-09 19:21
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-iTransformerTheLatestBreakthroughinTimeSeriesForecasting_0.png
 tag: Tech
 originalTitle: "iTransformer: The Latest Breakthrough in Time Series Forecasting"
 link: "https://medium.com/towards-data-science/itransformer-the-latest-breakthrough-in-time-series-forecasting-d538ddc6c5d1"
 isUpdated: true
 ---
-
-
 
 ![2024-07-09-iTransformerTheLatestBreakthroughinTimeSeriesForecasting](/assets/img/2024-07-09-iTransformerTheLatestBreakthroughinTimeSeriesForecasting_0.png)
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 이에 따라 Transformer 아키텍처가 다양한 형태로 시계열 예측에 적용되어왔으며, PatchTST는 장기 예측에서 최고 수준의 성능을 달성하였습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도전적인 PatchTST에 이어 2024년 3월에 제안된 iTransformer 모델이 등장했습니다. 논문 "iTransformer: Inverted Transformers Are Effective for Time Series Forecasting"에서 소개되었습니다.
 
@@ -31,7 +40,18 @@ isUpdated: true
 
 시작해봅시다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # iTransformer 탐색
 
@@ -41,7 +61,18 @@ iTransformer의 아이디어는 바닐라 Transformer 모델이 시간 토큰을
 
 그 문제에 대한 해결책은 PatchTST 모델과 함께 제안된 패칭이에요. 패칭을 사용하면 토큰화하고 임베딩하기 전에 시간 지점을 단순히 그룹화할 수 있어요. 아래에서 보여준 것처럼요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![iTransformer image 1](/assets/img/2024-07-09-iTransformerTheLatestBreakthroughinTimeSeriesForecasting_1.png)
 
@@ -51,7 +82,18 @@ In iTransformer, we push patching to the extreme by simply applying the model on
 
 In the figure above, we can see how the iTransformer differs from the vanilla Transformer. Instead of looking at all features at one time step, it looks at one feature across many time steps. This is done simply by inverting the shape of the input.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이렇게하면 어텐션 레이어가 다변량 상관 관계를 학습하고 피드포워드 네트워크가 전체 입력 시퀀스의 표현을 인코딩합니다.
 
@@ -61,7 +103,18 @@ iTransformer의 일반 아이디어를 이해했으니, 이제 더 자세히 살
 
 iTransformer는 2017년에 Attention Is All You Need에서 처음으로 제안된 임베딩, 프로젝션 및 트랜스포머 블록을 사용한 바닐라 인코더-디코더 아키텍처를 채택합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 그림에서 건물 블록들은 동일하지만 기능은 완전히 다르다는 것을 볼 수 있습니다. 좀 더 자세히 살펴보겠습니다.
 
@@ -69,7 +122,18 @@ iTransformer는 2017년에 Attention Is All You Need에서 처음으로 제안�
 
 먼저, 입력 시리즈는 독립적으로 토큰으로 임베딩됩니다. 다시 말해서, 이는 입력의 서브시퀀스를 토큰화하는 대신, 모델이 전체 입력 시퀀스를 토큰화하는 극단적인 경우와 같습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다변량 주의력
 
@@ -79,7 +143,18 @@ iTransformer는 2017년에 Attention Is All You Need에서 처음으로 제안�
 
 층 정규화
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어텐션 레이어의 출력은 정규화 레이어로 전송됩니다.
 
@@ -89,7 +164,18 @@ iTransformer는 2017년에 Attention Is All You Need에서 처음으로 제안�
 
 피드포워드 네트워크
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막으로, 피드 포워드 네트워크(FFN)는 들어오는 토큰의 깊은 표현을 학습합니다.
 
@@ -99,7 +185,18 @@ iTransformer는 2017년에 Attention Is All You Need에서 처음으로 제안�
 
 여기서 간단히 많은 블록을 쌓는 것으로 이루어진 단계입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 주의 층
 - 계층 정규화
@@ -112,7 +209,18 @@ iTransformer는 2017년에 Attention Is All You Need에서 처음으로 제안�
 
 이제 iTransformer 모델에 대한 깊은 이해를 갖고 작은 예측 실험에서 적용해 보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # iTransformer를 사용한 예측
 
@@ -122,7 +230,18 @@ iTransformer는 2017년에 Attention Is All You Need에서 처음으로 제안�
 
 iTransformer는 근본적으로 다변량 모델이지만, 우리는 96개의 시간 단계에 걸친 일변량 예측 능력을 테스트합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 실험에 대한 코드는 GitHub에서 확인할 수 있어요.
 
@@ -132,7 +251,18 @@ iTransformer는 근본적으로 다변량 모델이지만, 우리는 96개의 �
 
 이 실험에서는 neuralforecast라는 라이브러리를 사용하는데, 이 라이브러리가 딥러닝 방법의 가장 빠르고 직관적인 사용 가능한 구현을 제공한다고 믿습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import pandas as pd
@@ -153,7 +283,18 @@ pip install git+https://github.com/Nixtla/neuralforecast.git
 
 이제 ETT 데이터셋을로드하고, 검증 크기, 테스트 크기, 그리고 주기를 포함하는 함수를 작성해봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 def load_data(name):
@@ -193,7 +334,18 @@ Please note that the validation and test sizes align with standards in the scien
 
 We are all set to start training the models.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 훈련 및 예측
 
@@ -205,7 +357,18 @@ iTransformer 모델을 훈련시키기 위해서는 단순히 다음을 지정�
 
 iTransformer가 본질적으로 다변량 모델이기 때문에 모델을 적합할 때 시리즈 수를 지정해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단변량 시나리오이므로 n_series=1입니다.
 
@@ -223,7 +386,18 @@ iTransformer(
 
 나머지 모델들에 대해 같은 작업을 수행한 후, 리스트에 넣어줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 horizon = 96;
@@ -257,7 +431,18 @@ nf_preds = nf.cross_validation((df = Y_df), (val_size = val_size), (test_size = 
 
 마지막으로, 우리는 각 모델의 성능을 utilsforecast 라이브러리를 사용하여 평가합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 from utilsforecast.losses import mae, mse
@@ -298,7 +483,18 @@ for dataset in datasets:
 
 이 작업을 완료하면 모든 데이터셋에 대해 모든 모델의 예측이 있게 됩니다. 그런 다음 평가로 넘어갈 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 성능 평가
 
@@ -322,7 +518,18 @@ full_df = full_df.drop(['unique_id'], axis=1)
 
 이후, 지표를 그래프로 그리려면:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 import matplotlib.pyplot as plt
@@ -370,7 +577,18 @@ From the figure above, we can see that the iTransformer performs fairly well on 
 
 Of course, keep in mind that we did not leverage the multivariate capabilities of iTransformer, and we only tested on a single forecast horizon. Therefore, it is not a complete assessment of the iTransformer’s performance.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼에도 불구하고, 모델이 PatchTST와 매우 유사하게 수행되는 것을 볼 때, Transformer를 사용한 시계열 예측에서 새로운 성능에 도달하는 데 그룹화 시간 단계를 토큰화하기 전에 묶는 아이디어를 더 지원하는 점이 흥미로운 부분입니다.
 
@@ -380,7 +598,18 @@ iTransformer는 베이닐라 Transformer 아키텍처를 적용한 뒤 입력 �
 
 이렇게 하면 전체 시리즈가 토큰화되고 PatchTST에서 제안한 것과 같이 극단적인 케이스를 모방합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모델이 주의 매커니즘을 사용하여 다변량 상관 관계를 학습하고, 피드포워드 네트워크가 시계열의 시간적 특성을 학습합니다.
 
@@ -390,7 +619,18 @@ iTransformer는 많은 벤치마크 데이터셋에서 장기 예측에 대한 �
 
 읽어 주셔서 감사합니다! 즐겁게 읽으셨기를 바라며 새로운 지식을 얻으셨기를 기대합니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만나서 반가워요 🌟
 
@@ -400,7 +640,18 @@ iTransformer는 많은 벤치마크 데이터셋에서 장기 예측에 대한 �
 
 ![Image](/assets/img/2024-07-09-iTransformerTheLatestBreakthroughinTimeSeriesForecasting_5.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 참고 자료
 

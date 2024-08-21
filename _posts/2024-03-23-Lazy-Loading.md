@@ -3,17 +3,13 @@ title: "Nextjs 13 이미지 Lazy Loading 사용 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "게으름을 떼다"
 link: "undefined"
 isUpdated: true
 ---
-
-
-
-
 
 # Lazy Loading
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 Next.js에서 레이지 로딩을 구현하는 두 가지 방법이 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 다이나믹 임포트를 next/dynamic로 사용하기
 - React.lazy() 및 Suspense를 사용하기
@@ -34,7 +41,18 @@ Next.js에서 레이지 로딩을 구현하는 두 가지 방법이 있습니다
 
 next/dynamic은 React.lazy()와 Suspense의 결합체입니다. 앱 및 페이지 디렉토리에서 동일한 방식으로 작동하여 점진적인 이주를 가능하게 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 예시
 
@@ -54,7 +72,18 @@ export default function Home() {
 
 > 알아두면 좋은 점: import(`경로/컴포넌트`)에서 경로는 명시적으로 작성되어야 합니다. 템플릿 문자열이나 변수로 사용할 수 없습니다. 또한 import()는 webpack 번들/모듈 ID를 specific dynamic() 호출에 일치시키고 렌더링 전에 프리로드하기 위해 dynamic() 호출 내부에서 이뤄져야 합니다. dynamic()는 React 렌더링 내부에 사용할 수 없으며, 프리로딩이 작동하려면 모듈의 최상위 수준에서 표시되어야 합니다. React.lazy와 유사합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 이름이 지정된 내보내기
 
@@ -73,7 +102,18 @@ const DynamicComponent = dynamic(() => import("../components/hello").then((mod) 
 
 ## SSR 없이
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 클라이언트 측에서 컴포넌트를 동적으로 로드하려면 ssr 옵션을 사용하여 서버 렌더링을 비활성화할 수 있습니다. 이 기능은 외부 종속성이나 컴포넌트가 window와 같은 브라우저 API에 의존하는 경우 유용합니다.
 
@@ -89,7 +129,18 @@ const DynamicHeader = dynamic(() => import("../components/header"), {
 
 이 예제는 퍼지 검색을 위해 외부 라이브러리인 fuse.js를 사용합니다. 사용자가 검색 입력란에 입력을 할 때에만 모듈이 브라우저에서 로드됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```jsx
 import { useState } from "react";
@@ -119,4 +170,15 @@ export default function Page() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

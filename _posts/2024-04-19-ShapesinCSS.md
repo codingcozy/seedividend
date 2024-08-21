@@ -3,17 +3,13 @@ title: "CSS로 16가지 도형 만드는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Shapes in CSS"
 link: "https://medium.com/gitconnected/shapes-in-css-a0ae1ce426f4"
 isUpdated: true
 ---
-
-
-
-
 
 ![Figures Coded with CSS](/assets/img/ShapesinCSS_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 처음에는 HTML에서 모든 것이 직사각형입니다. 그래서 직사각형을 그리는 것은 간단해요; 너비와 높이를 지정하면 됩니다. 그렇게 해도 작동하지 않으면 인라인 디스플레이를 가진 요소를 사용하거나 블록 또는 인라인 블록 요소로 전환하면 됩니다. 그렇게 하면 잘 될 거예요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 .rectangle {
@@ -39,7 +46,18 @@ isUpdated: true
 
 정사각형은 너비와 높이가 동일한 직사각형입니다. 우리는 직사각형 코드를 가져와서 높이를 너비와 동일한 값으로 변경할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .square {
@@ -61,8 +79,18 @@ isUpdated: true
 
 <img src="/assets/img/ShapesinCSS_2.png" />
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 원
 
@@ -79,7 +107,18 @@ isUpdated: true
 
 ![CSS에서 모양](/assets/img/ShapesinCSS_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 타원
 
@@ -96,7 +135,18 @@ isUpdated: true
 
 ![모양](/assets/img/ShapesinCSS_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 타원/타원형
 
@@ -113,7 +163,18 @@ isUpdated: true
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사각형의 크기에 따라 값이 달라집니다. 너무 큰 값은 위 부분이 평평해질 수 있고, 너무 작은 값은 아랫부분이 평평해질 수 있습니다. 원하는 모양을 얻기 위해 숫자를 조정해보세요.
 
@@ -123,7 +184,18 @@ isUpdated: true
 
 종 모양은 과장된 타원형으로, 한 쪽은 길고 둥근 모양이고, 다른 한 쪽은 평평합니다(그래도 부드러운 곡선이 있습니다). 이 모양을 얻으려면 원을 가져다가 큰 값은 더 크게, 작은 값은 더 작게 만들어야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 CSS 아트를 만드신다면, 이 모양은 몸통이나 얼굴을 그리는 데 편리할 수 있어요 (반지름 값을 약간 조절하여).
 
@@ -140,7 +212,18 @@ isUpdated: true
 
 # 아치
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 타원을 그리는 등장의 변형 버전으로, 아치는 아래쪽이 평평하고 위쪽이 곡선을 이룹니다. 이것에 대해 값들을 조절할 필요가 없습니다; 우리는 border-radius 속성을 고정값으로 설정할 수 있습니다:
 
@@ -157,7 +240,18 @@ isUpdated: true
 
 <img src="/assets/img/ShapesinCSS_7.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 눈
 
@@ -175,7 +269,18 @@ isUpdated: true
 
 rotate: 45deg 속성 또는 transform: rotate(45deg)도 사용할 수 있어요. 그 어느 쪽도 잘 작동할 거예요. 테두리 반경은 값이 클수록 눈의 곡률이 부드러워집니다(한 쪽이 다른 쪽보다 더 높아지도록 중복 값을 지정할 수도 있어요: 80% 0 100% 0).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/ShapesinCSS_8.png)
 
@@ -193,7 +298,18 @@ rotate: 45deg 속성 또는 transform: rotate(45deg)도 사용할 수 있어요.
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/ShapesinCSS_9.png" />
 
@@ -229,7 +345,18 @@ rotate: 45deg 속성 또는 transform: rotate(45deg)도 사용할 수 있어요.
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Triangle](/assets/img/ShapesinCSS_10.png)
 
@@ -239,7 +366,18 @@ rotate: 45deg 속성 또는 transform: rotate(45deg)도 사용할 수 있어요.
 
 대신, 삼각형을 그리기 위해 clip-path를 사용하는 것을 권장합니다. 그리고 다음의 다각형 모양 중 일부를 사용합니다. clip-path를 사용하면 우리가 모양을 정의하는 경로(다각형, 이미지, 실제 경로 등)를 지정합니다. 그 모양 바깥의 모든 것이 클립됩니다. 삼각형의 경우, 우리는 단지 3개의 점이 필요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .triangle {
@@ -256,7 +394,18 @@ rotate: 45deg 속성 또는 transform: rotate(45deg)도 사용할 수 있어요.
 
 다른 다각형입니다. clip-path의 polygon() 함수를 사용하여 만들기 쉽습니다. 이 경우에는 직사각형이나 정사각형에서 시작하여 네 개의 점이 필요합니다. 아래쪽 점은 모서리에 있고 위쪽 점은 약간 안으로 들어갑니다. 그리고 완료되었습니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .trapezoid {
@@ -273,7 +422,18 @@ rotate: 45deg 속성 또는 transform: rotate(45deg)도 사용할 수 있어요.
 
 오늘은 팔각형을 만들었어요! 쉽게 만들 수 있어서 좋아요 (아무것도 계산하거나 삼각함수를 사용할 필요가 없어요). clip-path/polygon() 메소드는 다각형 모양을 만드는 데 사용될 수 있다는 좋은 소식이에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 동영상에서 모든 내용이 화면을 채우지 않도록 몇 가지 소수점 숫자를 사용했습니다. 사실, 정사각형을 얻으려면 다음과 같은 몇 가지 소수점 숫자를 사용해야 합니다:
 
@@ -291,7 +451,18 @@ rotate: 45deg 속성 또는 transform: rotate(45deg)도 사용할 수 있어요.
 
 # Spark
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스파크는 여덟각형의 변형입니다. 윯이 다른 점은 네 점이 위치하는 곳입니다. 여덟각형에서는 외부로 향하는 데 반해, 스파크에서는 내부로 향할 것입니다(회전된 정사각형을 상상해보세요).
 
@@ -309,7 +480,18 @@ rotate: 45deg 속성 또는 transform: rotate(45deg)도 사용할 수 있어요.
 
 <img src="/assets/img/ShapesinCSS_14.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 달
 
@@ -326,7 +508,18 @@ rotate: 45deg 속성 또는 transform: rotate(45deg)도 사용할 수 있어요.
 
 대안적인 구현으로, 그림자 대신 마스크를 사용하는 것을 추천해요. 이는 마스크 구현을 통해 달의 그림이 페이지 흐름 내에서 명확하게 정의되어 표시되며, 이를 그리는 데 사용된 요소의 크기와 일치하기 때문이에요 (이 문제를 피하기 위해 내부 그림자를 사용할 수 있어요). 게다가, 마스크는 그림자보다 더 많은 유연성을 제공해줘요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 .moon {
@@ -343,7 +536,18 @@ rotate: 45deg 속성 또는 transform: rotate(45deg)도 사용할 수 있어요.
 
 이 모양은 이 목록에 있는 다른 모양들보다 더 복잡합니다. 이 모양을 생성하는 방법에 대해 더 자세히 설명한 기사를 썼습니다(그 안에는 단계별 비디오도 포함되어 있습니다). 반복되는 원뿔 그라데이션을 사용하고 부드럽게 보이도록 필터를 적용하는 것이 아이디어입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 많은 다양한 모양으로 변화시키면서 배경의 수나 크기를 변경하여 이 효과를 얻을 수 있어요. 이것과 놀면서 가장 마음에 드는 것을 찾아보세요.
 

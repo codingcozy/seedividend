@@ -3,16 +3,13 @@ title: "Kubernetes에서 Vault와 Spring Boot로 Postgres 동적 비밀 설정�
 description: ""
 coverImage: "/assets/img/2024-07-02-HowtosetupdynamicsecretsforPostgresusingVaultandSpringBootonKubernetes_0.png"
 date: 2024-07-02 23:18
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-02-HowtosetupdynamicsecretsforPostgresusingVaultandSpringBootonKubernetes_0.png
 tag: Tech
 originalTitle: "How to set up dynamic secrets for Postgres using Vault and Spring Boot on Kubernetes"
 link: "https://medium.com/@martin.hodges/how-to-set-up-dynamic-secrets-for-postgres-using-vault-and-spring-boot-on-kubernetes-757f759d22b4"
 isUpdated: true
 ---
-
-
-
 
 이 기사에서는 Hashicorp Vault 시크릿 매니저를 사용하여 Spring Boot 애플리케이션에 동적 Postgres 자격 증명을 추가하는 방법에 대해 살펴보겠습니다.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 # 자격 증명 관리의 중요성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신의 데이터베이스는 아마도 인프라에서 가장 중요한 시스템 중 하나일 것입니다. 사용자와 고객의 데이터를 보유하고 있습니다. 불법적인 사람들이 접근하려고 하는 시스템입니다.
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 이 글은 Kubernetes, Vault, Postgres 및 Spring Boot 애플리케이션을 사용하여 자격 증명을 자동으로 회전하는 방법을 살펴봅니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 작동 방식
 
@@ -42,7 +61,18 @@ Vault에는 데이터베이스 시크릿 엔진이 있어서 데이터베이스�
 
 다음에 어플리케이션이 자격 증명을 요청하면 Vault는 캐시에서 찾게 됩니다. 최대 수명 시간(TTL)을 초과하지 않은 한, 이전 자격 증명이 반환됩니다. 기한이 만료되면 데이터베이스에 새 자격 증명이 생성되고 이전 자격 증명은 삭제됩니다. 그리고 캐시된 자격 증명은 새 자격 증명으로 대체됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요런 경우가 최적인 것 같아요. 애플리케이션이 모르는 채 자격 증명이 자동으로 교체됩니다.
 
@@ -52,7 +82,18 @@ Vault에는 데이터베이스 시크릿 엔진이 있어서 데이터베이스�
 
 ## 대체 솔루션
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 Spring Cloud Vault를 사용하고 싶지 않다면, 대안적인 해결책이 있습니다.
 
@@ -62,7 +103,18 @@ Vault Agent는 주 애플리케이션의 사이드카입니다. 이는 Pod 내�
 
 자격 증명을 획득한 후, Vault Agent는 메인 애플리케이션 내로 파일로 삽입하여 볼륨을 사용합니다. 이 볼륨은 두 컨테이너에 모두 장착되며 Spring Boot 애플리케이션의 컨테이너에도 장착됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해당 애플리케이션은 이제 자격 증명을 동적으로 읽고 데이터베이스에 액세스하는 데 사용할 수 있습니다.
 
@@ -72,7 +124,18 @@ Vault Agent는 주 애플리케이션의 사이드카입니다. 이는 Pod 내�
 
 다음 다이어그램에 나와 있는 것처럼 설정해야 할 부분이 네 가지 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Vault and Spring Boot on Kubernetes](/assets/img/2024-07-02-HowtosetupdynamicsecretsforPostgresusingVaultandSpringBootonKubernetes_1.png)
 
@@ -85,7 +148,18 @@ Vault Agent는 주 애플리케이션의 사이드카입니다. 이는 Pod 내�
 
 ![Vault and Spring Boot on Kubernetes](/assets/img/2024-07-02-HowtosetupdynamicsecretsforPostgresusingVaultandSpringBootonKubernetes_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Vault 에이전트는 이전에 획득한 Vault 액세스 토큰과 연결된 myapp-db-policy와 관련하여 Vault에서 데이터베이스 자격 증명을 요청합니다.
 - Vault는 필요한 자격 증명을 보유하고 있지 않음을 깨닫거나 (또는 만료되었음을 인지하면), Postgres에게 myapp-db-role에서 가져온 문장을 사용하여 새 자격 증명을 생성하도록 요청합니다. 그리고 myapp-db-cnx 연결을 통해 데이터베이스에 연결합니다.
@@ -99,7 +173,18 @@ Vault Agent는 주 애플리케이션의 사이드카입니다. 이는 Pod 내�
 
 다음을 설정해야 합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Postgres 자격 증명 관리를 위한 보이트
 - 쿠버네티스 인증을 위한 보이트
@@ -114,9 +199,18 @@ Vault 설정을 관리하는 몇 가지 옵션에 대해 간략히 설명하겠�
 - 명령줄 인터페이스(CLI)를 통해
 - API를 통해
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어떤 설정 과정도 반복 가능하고 빠르게 이루어져야 합니다. 이렇기 때문에 콘솔의 사용은 배제됩니다. 설정이 예상대로 작동하는지 확인하는 데는 유용하지만, 실수 없이 해야 하는 일인 만큼 사람이 클릭을 해야 합니다.
 
@@ -126,7 +220,18 @@ CLI를 사용하면 매우 긴 명령어 라인이 되어 관리하기 어려워
 
 그래서 이 글에서는 curl 명령어와 구성 파일을 사용하여 API를 활용했습니다. 이를 위해 Vault 액세스 토큰이 필요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Vault를 설치할 때 받은 액세스 토큰을 기반으로 환경 변수를 설정하세요:
 
@@ -138,19 +243,41 @@ export VAULT_TOKEN=<ROOT_TOKEN>
 
 # 1. Vault를 사용하여 Postgres 자격 증명 관리하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 벌트는 다음과 같이 설정되어 있어야 합니다:
 
 - 데이터베이스 자격 증명을 관리하기 위한 데이터베이스 엔진 (myapp-db)
-- 저희 데이터베이스에 대한 연결 (myapp-db-cnx) 
+- 저희 데이터베이스에 대한 연결 (myapp-db-cnx)
 - 자격 증명을 생성하고 회전할 수 있는 데이터베이스 역할 (myapp-db-role)
 
 ## 데이터베이스 엔진 활성화
 
 Vault가 데이터베이스 자격 증명을 관리하는 데 도움을 주려면 데이터베이스 엔진을 활성화해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Vault에서 시크릿 엔진을 활성화하려면 마운트 포인트에서 수행해야 합니다. 이 글에서는 'myapp-db'를 마운트 포인트로 선택했습니다. 이를 위해 먼저 엔진의 구성을 설정해야 합니다.
 
@@ -175,9 +302,21 @@ k8s/vault/enable-db-engine.json
 
 이렇게 하면 기본 Time To Live (TTL)이 1시간으로 설정되며, 이 시간 이전에 자격 증명을 새로 고칠 필요가 있습니다. 24시간이 기본 최대 TTL로 설정됩니다. 이 시간이 지나면 자격 증명을 더 이상 새로 고칠 수 없고 다시 만들어야 합니다. 이러한 기본값은 나중에 오버라이드할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자, 이제 엔진을 활성화합니다:
+
 ```js
 curl -X POST -H "X-Vault-Token: ${VAULT_TOKEN}" http://localhost:31400/v1/sys/mounts/myapp-db -d @k8s/vault/enable-db-engine.json
 ```
@@ -186,7 +325,18 @@ curl -X POST -H "X-Vault-Token: ${VAULT_TOKEN}" http://localhost:31400/v1/sys/mo
 
 ## 데이터베이스에 연결하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Vault는 사용자 자격 증명을 생성하고 삭제하기 위해 데이터베이스에 연결해야 합니다. 이를 위해 데이터베이스 엔진 내에서 구성된 연결을 사용합니다.
 
@@ -206,7 +356,18 @@ k8s/vault/myapp-db-cnx.json
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 연결은 사용자 생성에만 사용됩니다. 그래서 연결 수명이 매우 짧고 연결 수가 낮습니다. 또한 이 연결은 myapp-db-role을 기반으로 사용자를 생성할 수 있도록 허용합니다.
 
@@ -216,7 +377,18 @@ k8s/vault/myapp-db-cnx.json
 
 아직 정의하지 않은 두 필드인 `CREATE_USER_USERNAME`와 `CREATE_USER_PASSWORD`가 있음을 알 수 있습니다. 개발 단계에서는 postgres 슈퍼 사용자를 사용할 수 있지만, 저는 제가 생산 환경을 구성하고 있다는 습관을 들이는 것을 선호합니다. 그렇게 하면 나중에 본격적인 운영 환경에 도달했을 때 무엇을 해야 하는지 알게 될 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로는 Vault에서 사용할 자격 증명을 생성할 겁니다. create_users라는 사용자를 만들 거에요.
 
@@ -228,7 +400,18 @@ kubectl get pods -n pg
 
 그런 다음 데이터베이스를 위한 명령줄을 얻고 PostgreSQL CLI에 들어가세요 (db-cluster-1을 데이터베이스 Pod의 이름으로 변경하세요):
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 kubectl exec -it db-cluster-1 -n pg -- psql
@@ -243,7 +426,18 @@ grant connect on database myapp to create_users;
 
 이제 이 자격 증명을 연결 파일에서 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전에 활성화한 Vault 데이터베이스 엔진에 대한 연결 구성을 다음과 같이 적용하세요:
 
@@ -255,7 +449,18 @@ curl -X POST -H "X-Vault-Token: ${VAULT_TOKEN}" http://localhost:31400/v1/myapp-
 
 이 단계는 거의 완료되었습니다. UI 내에서 연결을 볼 수 있어야 합니다. 마지막으로 우리의 연결 사용자를 안전하게 보호하는 작업이 남았습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금은 create_users의 암호가 설정 파일을 통해 접근 가능할 것으로 생각됩니다. Vault를 사용하는 장점 중 하나는 Vault만이 이 사용자의 암호를 회전시킬 수 있게 함으로써 더 이상 여러분 외에는 액세스할 수 없게 해줍니다!
 
@@ -265,7 +470,18 @@ UI에서 연결을 찾은 다음 루트 자격 증명 회전 버튼을 클릭하
 
 Vault 데이터베이스 엔진이 Postgres 데이터베이스에 사용자를 생성하는 방법을 알고 있더라도, 여전히 사용자를 설정하는 방법을 알려줘야 합니다. 이는 특히 권한에 관련하여 사용자를 어떻게 설정하길 원하는지를 Vault에 알려줘야 하기 때문입니다. 우리는 SQL 명령 템플릿을 제공하여 Vault에게 어떻게 할 것인지 알려줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Vault 데이터베이스 엔진은 데이터베이스 역할 시스템을 사용하여 사용자를 올바른 권한으로 생성하는 방법을 지정합니다. 이 데이터베이스 역할은 SQL 명령어 템플릿을 보유하고 있습니다.
 
@@ -274,19 +490,28 @@ Vault 데이터베이스 엔진은 데이터베이스 역할 시스템을 사용
 먼저 Vault 역할을 정의할 구성 파일을 생성해주세요:
 
 ```js
-k8s/vault/myapp-db-role.json
+k8s / vault / myapp - db - role.json;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 {
-  "db_name": "myapp-db-cnx",
-  "creation_statements": "CREATE ROLE \"{name}\" WITH LOGIN INHERIT PASSWORD '{password}' IN ROLE \"app-user\" VALID UNTIL '{expiration}';,ALTER USER \"{name}\" SET ROLE = \"app-user\";",
-  "default_ttl": "10m",
-  "max_ttl": "1h"
+"db_name": "myapp-db-cnx",
+"creation_statements": "CREATE ROLE \"{name}\" WITH LOGIN INHERIT PASSWORD '{password}' IN ROLE \"app-user\" VALID UNTIL '{expiration}';,ALTER USER \"{name}\" SET ROLE = \"app-user\";",
+"default_ttl": "10m",
+"max_ttl": "1h"
 }
-
 
 여기서 아래 사항들을 확인할 수 있어요:
 
@@ -296,8 +521,18 @@ k8s/vault/myapp-db-role.json
 
 생성 문을 당신의 필요에 맞게 수정해야 해요. 제가 제안드리는 바는, 프로덕션 환경에서는 사용자가 어떤 데이터를 삭제하지 못하도록 하는 것이 좋을 수도 있지만, 이는 다른 날의 더 깊은 토론으로 넘어가죠.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 이 파일을 사용하여 Vault 데이터베이스 엔진을 구성하십시오:
 
@@ -309,7 +544,18 @@ curl -X POST -H "X-Vault-Token: ${VAULT_TOKEN}" http://localhost:31400/v1/myapp-
 
 임대된 자격 증명을 사용하여 데이터베이스 클라이언트로 로그인하여 임시 자격 증명으로 작업을 수행할 수 있어야 합니다. 어쨌든 10분 동안!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 Volt와 데이터베이스 통합이 완료되었습니다.
 
@@ -320,7 +566,18 @@ curl -X POST -H "X-Vault-Token: ${VAULT_TOKEN}" http://localhost:31400/v1/myapp-
 - Vault 에이전트가 Volt로부터 시크릿을 요청합니다.
 - Volt가 Kubernetes에게 Volt 에이전트의 신원을 확인하도록 요청합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 첫 번째 경우에는 애플리케이션을 대행하여 행동하는 Vault 에이전트가 Vault에 대해 인증을 받을 수 있어야 합니다.
 
@@ -330,7 +587,18 @@ curl -X POST -H "X-Vault-Token: ${VAULT_TOKEN}" http://localhost:31400/v1/myapp-
 
 ## Vault kubernetes authentication engine
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저 Vault와 Kubernetes 간의 인증을 설정해보겠습니다. 실제로 중요한 점은 Vault 내부의 Kubernetes 인증 엔진이 Vault Agent를 통해 Kubernetes로의 인증 요청을 프록시해야 한다는 것입니다.
 
@@ -340,22 +608,33 @@ k8s/vault/enable-k8s-engine.json
 
 ```json
 {
-  "type":"kubernetes",
-  "description":"ServiceAccount를 통해 Pod를 인증하는 인증 엔진",
-  "config":{
-    "options":null,
-    "default_lease_ttl":"0s",
-    "max_lease_ttl":"0s",
-    "force_no_cache":false
+  "type": "kubernetes",
+  "description": "ServiceAccount를 통해 Pod를 인증하는 인증 엔진",
+  "config": {
+    "options": null,
+    "default_lease_ttl": "0s",
+    "max_lease_ttl": "0s",
+    "force_no_cache": false
   },
-  "local":false,
-  "seal_wrap":false,
-  "external_entropy_access":false,
-  "options":null
+  "local": false,
+  "seal_wrap": false,
+  "external_entropy_access": false,
+  "options": null
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기본 위치(auth/kubernetes)에 마운트할 것입니다.
 
@@ -367,7 +646,18 @@ curl -X POST -H "X-Vault-Token: ${VAULT_TOKEN}" http://localhost:31400/v1/sys/au
 
 k8s/vault/vault-k8s-config.json
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```json
 {
@@ -378,12 +668,23 @@ k8s/vault/vault-k8s-config.json
 이제 구성을 쿠버네티스 엔진에 추가하세요:
 
 ```json
-curl -X POST -H "X-Vault-Token: ${VAULT_TOKEN}" http://localhost:31400/v1/auth/kubernetes/config -d @k8s/vault/vault-k8s-config.json 
+curl -X POST -H "X-Vault-Token: ${VAULT_TOKEN}" http://localhost:31400/v1/auth/kubernetes/config -d @k8s/vault/vault-k8s-config.json
 ```
 
 쿠버네티스 인증 엔진을 설정했지만, 더 많은 구성이 필요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Vault 에이전트
 
@@ -393,7 +694,18 @@ curl -X POST -H "X-Vault-Token: ${VAULT_TOKEN}" http://localhost:31400/v1/auth/k
 
 먼저 정책을 생성해 봅시다. 생성하려는 정책은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```json
 {
@@ -408,8 +720,18 @@ curl -X POST -H "X-Vault-Token: ${VAULT_TOKEN}" http://localhost:31400/v1/auth/k
 
 k8s/vault/myapp-db-policy.json
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 정책을 만들어 보겠습니다:
 
@@ -419,7 +741,18 @@ curl -X POST -H "X-Vault-Token: ${VAULT_TOKEN}" http://localhost:31400/v1/sys/po
 
 이렇게 하면 데이터베이스 자격 증명을 읽을 수 있는 정책이 만들어집니다. 이제 쿠버네티스 인증 엔진과 연결해야 합니다. 인증이 완료되면 반환된 토큰에 이 정책이 포함됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한번 더 설정 파일을 생성해 봅시다:
 
@@ -436,7 +769,18 @@ k8s/vault/myapp-k8s-role.json
 
 이는 Pod(예: Vault 에이전트)가 Vault Kubernetes 엔진을 통해 Kubernetes에 대해 인증할 수 있도록 하는 구성입니다. 우리의 경우, 엔진은 default 네임스페이스 내의 myapp-sa 서비스 계정을 사용하여 Vault 에이전트를 인증합니다. 인증된 후, 응용 프로그램(Vault 에이전트)이 받는 토큰은 myapp-db-policy 접근 정책에 바인딩되어 있으며 1시간 동안 유효합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 그런 다음 Vault 쿠버네티스 엔진에 이 역할을 추가해요:
 
@@ -448,7 +792,18 @@ curl -X POST -H "X-Vault-Token: ${VAULT_TOKEN}" http://localhost:31400/v1/auth/k
 
 우리는 쿠버네티스를 통해 이를 실행해요. 이를 위해 매니페스트 파일이 필요해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 k8s/myapp-service-account.yml 파일에는 아래와 같은 내용이 있어요:
 
@@ -480,7 +835,18 @@ subjects:
 kubectl apply -f k8s/myapp-service-account.yml
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **3. 스프링 부트 어플리케이션**
 
@@ -490,7 +856,18 @@ Vault Kubernetes 통합 단계를 완료했습니다. 다음으로는 스프링 
 
 간단히 복습하면, Vault 에이전트는 스프링 부트 어플리케이션의 프록시 역할을 하며 데이터베이스 자격 증명을 Vault에서 요청합니다. 에이전트는 갱신과 만료를 자동으로 처리합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Img](/assets/img/2024-07-02-HowtosetupdynamicsecretsforPostgresusingVaultandSpringBootonKubernetes_4.png)
 
@@ -500,13 +877,35 @@ Vault Agent은 그 후에 받은 자격 증명을 애플리케이션의 Pod에 �
 
 먼저, 주기적으로 파일을 업데이트하는 스케줄된 작업을 애플리케이션에 추가합니다. 변경 사항을 감지하면 새로운 자격 증명을 데이터 소스에 적용한 후, 우리의 예제에서는 기본 Hikari 데이터 소스입니다. 이를 구성하는 방법은 다음 스니펫에서 확인할 수 있습니다. (전체 파일을 보려면 링크를 방문하세요):
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 코드 스니펫에서는 application.dynamic-db-config.enabled 속성이 true로 설정된 경우에만 작성된 Service로 설정했다는 것을 볼 수 있습니다. 이는 우리가 local-cluster 프로필에 이를 연결할 수 있도록 하여 다른 프로필에서 자격 증명 덮어쓰기를 피할 수 있게 합니다.
 
 또한 이 작업이 기본 속도로 5분마다 트리거되도록 Scheduled되어 있음을 볼 수 있습니다. 이 속성은 application.dynamic-db-config.refresh를 사용하여 조정할 수 있습니다. 이 값은 Vault 데이터베이스 엔진에 의해 생성된 시크릿의 TTL보다 최소 두 배 이상 빨라야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Vault 에이전트가 주입 할 파일의 이름을 정의하는 속성(application.dynamic-db-config.filename)도 있습니다. 이러한 속성들은 application-local-cluster.yml 에 설정해주어야 합니다 (기본값은 application.yml 에 설정되어 있으며 기본적으로이 새로 고침 메커니즘을 비활성화합니다).
 
@@ -528,7 +927,18 @@ config.DatabaseDynamicCredentialsJob
 ...
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로컬 클러스터 프로필의 스프링 부트 구성에 자격 증명 삽입 코드 속성을 설정해야 합니다. 아래 스니펫을 k8s/application-local-cluster.yml 파일에 추가해주세요:
 
@@ -544,7 +954,18 @@ application:
 
 이렇게 하면 3단계가 완료되었고, Vault에 의해 데이터베이스 자격 증명이 자동으로 회전될 때 스프링 부트 애플리케이션이 자동으로 연결을 업데이트하게 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 4. 애플리케이션 배포
 
@@ -558,7 +979,18 @@ application:
 
 마지막 단계 하나만 남았습니다. 즉, Vault Agent가 포함된 Spring Boot 애플리케이션을 배포하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전에 Vault에서 데이터베이스 비밀을 접근할 수 있도록 하는 ServiceAccount를 생성했던 것을 기억하실 겁니다. 이를 myapp-sa라고 부르며, 배포 manifest에서 이 애플리케이션이 이와 연관되도록 해야 합니다.
 
@@ -568,7 +1000,18 @@ application:
 
 그리고 배포할 내용을 정의하는 template stanza에 다음의 annotations stanza를 추가하면 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 k8s/local-cluster-deployment.yml
 
@@ -600,7 +1043,18 @@ k8s/local-cluster-deployment.yml
 - agent-pre-populate: 이를 true로 설정함으로써, 애플리케이션 실행 전에 데이터베이스 자격 증명을 사용할 수 있도록 함 (Vault는 초기화 컨테이너를 사용함)
 - agent-pre-populate-only: 이를 false로 설정함으로써, 자격 증명이 시작할 때만 업데이트되는 것이 아니라 계속해서 업데이트되도록 함 (Vault는 사이드카 컨테이너를 사용함)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 주석 내용에 대한 자세한 내용은 여기에서 확인할 수 있어요.
 
@@ -610,7 +1064,18 @@ k8s/local-cluster-deployment.yml
 
 이전에 따라오신 분들은 Docker/Dockerfile.k8s.debug 파일이 있을 겁니다. 이 파일을 사용하여 Docker 이미지를 만들죠. 이 파일은 애플리케이션을 디버깅할 수 있는 이미지를 생성합니다. 이제 우리는 프로덕션용 빌드로 전환하고 있기 때문에, 원격 디버깅 기능이 비활성화된 새 파일을 만들어야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도커/Dockerfile.local.cluster
 
@@ -628,9 +1093,20 @@ EXPOSE 8080 8081
 
 ```js
 docker build -t sb-k8s-template:01 -f Docker/Dockerfile.local.cluster .
-```  
+```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 Kind 클러스터에 업로드해 보세요:
 
@@ -644,7 +1120,18 @@ kind load docker-image sb-k8s-template:01
 kubectl apply -f k8s/local-cluster-deployment.yml
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 시도해보기
 
@@ -654,7 +1141,18 @@ kubectl apply -f k8s/local-cluster-deployment.yml
 
 프로세스에서 회전을 보고 싶다면 데이터베이스 연결의 TTL을 몇 분으로 줄여서 애플리케이션이 변경을 찾는 빈도를 늘리는 것을 기억해야합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 만약 문제가 발생한다면
 
@@ -664,7 +1162,18 @@ kubectl apply -f k8s/local-cluster-deployment.yml
 
 이 긴 글을 읽어주셔서 감사합니다. 아쉽게도, 우리의 Spring Boot — Kubernetes — Vault — Postgres 솔루션에서 동적 자격 증명을 활성화하기 위해 수행해야 하는 활동이 많아요. 이 모든 작업은 완료되어야 솔루션이 작동할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사를 다시 한번 요약해보자면:
 

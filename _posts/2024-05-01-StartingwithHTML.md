@@ -3,16 +3,13 @@ title: "HTML을 배우기 시작했다면 알아야하는 내용들"
 description: ""
 coverImage: "/assets/img/2024-05-01-StartingwithHTML_0.png"
 date: 2024-05-01 23:40
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-01-StartingwithHTML_0.png
 tag: Tech
 originalTitle: "Starting with HTML"
 link: "https://medium.com/@elham.snigdha.ch/starting-with-html-65c2130db9af"
 isUpdated: true
 ---
-
-
-
 
 HTML은 무엇인가요? HTML은 HyperText Markup Language의 줄임말로, 프로그래밍 언어가 아닙니다. 100%의 웹사이트가 사용하는 스크립팅 언어입니다. HTML은 모든 웹사이트의 구조 또는 기반이 되는 요소입니다. 그러므로 HTML이 없으면 웹사이트가 없습니다.
 
@@ -22,7 +19,18 @@ HTML은 무엇인가요? HTML은 HyperText Markup Language의 줄임말로, 프�
 
 간단히 말해서 HTML은 오래된 버전이고 HTML5는 최신 버전입니다. HTML은 1993년에 WHATWG(Web Hypertext Application Technology Working Group)와 W3C(World Wide Web Consortium)에 의해 31년 전에 발명되었습니다. HTML5는 HTML의 5번째 버전이며, HTML6는 없을 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 설정하기
 
@@ -32,7 +40,18 @@ HTML은 무엇인가요? HTML은 HyperText Markup Language의 줄임말로, 프�
 
 # HTML 구문
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희 언어에서 .,;을 사용하는 것처럼 HTML에도 그런 기호가 있어요. 아래 예시를 확인해보세요,
 
@@ -42,7 +61,18 @@ HTML은 무엇인가요? HTML은 HyperText Markup Language의 줄임말로, 프�
 
 # 기본 구조
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![HTML images](/assets/img/2024-05-01-StartingwithHTML_4.png)
 
@@ -52,9 +82,31 @@ To render a document as an HTML file, you start with `<!DOCTYPE html>`. The `htm
 
 - Title element
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-05-01-StartingwithHTML_8.png](/assets/img/2024-05-01-StartingwithHTML_8.png)
 
@@ -64,7 +116,18 @@ To render a document as an HTML file, you start with `<!DOCTYPE html>`. The `htm
 
 Divider, 데모 요소. 특별한 의미는 없습니다. 블록 요소입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-05-01-StartingwithHTML_10.png)
 
@@ -74,7 +137,18 @@ Divider, 데모 요소. 특별한 의미는 없습니다. 블록 요소입니다
 
 ![Image](/assets/img/2024-05-01-StartingwithHTML_12.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-05-01-StartingwithHTML_13.png)
 
@@ -84,7 +158,18 @@ Divider, 데모 요소. 특별한 의미는 없습니다. 블록 요소입니다
 
 ![이미지](/assets/img/2024-05-01-StartingwithHTML_15.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 7. 밑줄 요소
 
@@ -94,8 +179,18 @@ Divider, 데모 요소. 특별한 의미는 없습니다. 블록 요소입니다
 
 ## 중첩된 HTML 요소
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-05-01-StartingwithHTML_18.png](/assets/img/2024-05-01-StartingwithHTML_18.png)
 
@@ -105,7 +200,18 @@ Divider, 데모 요소. 특별한 의미는 없습니다. 블록 요소입니다
 
 블록 요소는 전체 너비를 차지합니다. 예를 들어, 단락 태그나 헤더 태그 같은 것들이 있고, 인라인 요소는 굵게, 기울임꼴, 밑줄 등과 같이 같은 줄에서 남아 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-05-01-StartingwithHTML_20.png)
 
@@ -113,8 +219,18 @@ Divider, 데모 요소. 특별한 의미는 없습니다. 블록 요소입니다
 
 8. Anchor Element
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image 1](/assets/img/2024-05-01-StartingwithHTML_23.png)
 
@@ -124,23 +240,56 @@ Divider, 데모 요소. 특별한 의미는 없습니다. 블록 요소입니다
 
 ![Image 4](/assets/img/2024-05-01-StartingwithHTML_26.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![StartingwithHTML_27](/assets/img/2024-05-01-StartingwithHTML_27.png)
 ![StartingwithHTML_28](/assets/img/2024-05-01-StartingwithHTML_28.png)
 ![StartingwithHTML_29](/assets/img/2024-05-01-StartingwithHTML_29.png)
 ![StartingwithHTML_30](/assets/img/2024-05-01-StartingwithHTML_30.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파일/페이지가 존재하지 않는 오류가 발생했어요.
 
 수정해 주세요
 
-- [이미지 1](/assets/img/2024-05-01-StartingwithHTML_31.png) 
+- [이미지 1](/assets/img/2024-05-01-StartingwithHTML_31.png)
 - [이미지 2](/assets/img/2024-05-01-StartingwithHTML_32.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 페이지가 서로 링크되어 있습니다
 
@@ -150,7 +299,18 @@ Divider, 데모 요소. 특별한 의미는 없습니다. 블록 요소입니다
 
 새 창에서 링크 열기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Start HTML](/assets/img/2024-05-01-StartingwithHTML_35.png)
 
@@ -160,7 +320,18 @@ Divider, 데모 요소. 특별한 의미는 없습니다. 블록 요소입니다
 
 9. 이미지 요소
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 https://unsplash.com/ 에서 무료 이미지를 확인해보세요. 원하는 이미지를 다운로드하여 최고 품질로 사용해보세요.
 
@@ -170,7 +341,18 @@ https://unsplash.com/ 에서 무료 이미지를 확인해보세요. 원하는 �
 
 ![이름](/assets/img/2024-05-01-StartingwithHTML_39.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Starting with HTML_40](/assets/img/2024-05-01-StartingwithHTML_40.png)
 
@@ -180,7 +362,18 @@ Use either width or height, not both.
 
 ![Starting with HTML_42](/assets/img/2024-05-01-StartingwithHTML_42.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-05-01-StartingwithHTML_43.png)
 
@@ -190,7 +383,18 @@ Linking an image on the another page.
 
 ![Image](/assets/img/2024-05-01-StartingwithHTML_45.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 10. 가로 줄 요소
 
@@ -200,7 +404,18 @@ Linking an image on the another page.
 
 11. 줄 바꿈 요소
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-05-01-StartingwithHTML_48.png" />
 
@@ -210,7 +425,18 @@ Linking an image on the another page.
 
 <img src="/assets/img/2024-05-01-StartingwithHTML_50.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-05-01-StartingwithHTML_51.png)
 
@@ -220,8 +446,18 @@ Linking an image on the another page.
 
 ![이미지](/assets/img/2024-05-01-StartingwithHTML_53.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![StartingwithHTML_54](/assets/img/2024-05-01-StartingwithHTML_54.png)
 
@@ -229,7 +465,18 @@ Linking an image on the another page.
 
 화면에 표시되지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-05-01-StartingwithHTML_56.png)
 
@@ -239,7 +486,18 @@ CSS (Cascading Style Sheets) 태그는 `<head>`와 `</head>` 사이에 위치합
 
 ![이미지](/assets/img/2024-05-01-StartingwithHTML_58.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-05-01-StartingwithHTML_59.png)
 
@@ -249,7 +507,18 @@ JavaScript 태그 - `body` 내부 `body`
 
 ![이미지](/assets/img/2024-05-01-StartingwithHTML_61.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Codepen practice](/assets/img/2024-05-01-StartingwithHTML_62.png)
 

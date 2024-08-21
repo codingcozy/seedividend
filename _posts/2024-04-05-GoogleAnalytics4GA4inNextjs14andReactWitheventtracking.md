@@ -3,17 +3,13 @@ title: "Nextjs 14와 React에서 구글 애널리틱스GA4 사용하기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Google Analytics 4 GA4 in Nextjs 14 and React With event tracking"
 link: "https://medium.com/@ospaarmann/google-analytics-4-ga4-in-next-js-14-and-react-with-event-tracking-2ceabb00c59a"
 isUpdated: true
 ---
-
-
-
-
 
 ![Google Analytics 4](/assets/img/GoogleAnalytics4GA4inNextjs14andReactWitheventtracking_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이 가이드를 게시한 후, redditor wplaga가 Google Analytics, Google Tag Manager 또는 Google Maps와 같은 서비스를 Next.js 프로젝트에 통합하기 위해 react-ga4를 사용하는 대안을 강조했습니다. Next.js는 서드파티 통합을 처리하는 데 특별히 설계된 공식 컴포넌트를 제공하며, 더 직접적이고 신뢰할 수 있는 방법을 제공합니다. 이 접근 방식은 많은 면에서 react-ga4 방법을 따르지만 Next.js 생태계 내에서 네이티브 솔루션이라는 장점이 있습니다. react-ga4 접근 방식에 관심이 있거나 이해를 넓히려는 경우, 다음 섹션에서 다루겠습니다. 그러나 Next.js의 자체 도구를 사용하는 더 간단한 방법을 선호하는 경우 아래 내용을 참조하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시작하려면 @next/third-parties 라이브러리를 설치해주세요:
 
@@ -37,7 +44,18 @@ yarn add @next/third-parties@latest next@latest
 yarn add @next/third-parties@14.0.5-canary.38
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시작해봅시다. 여러분의 응용 프로그램 전체 루트에 Google Analytics를 적용하려면 Next.js Third-Party Google Analytics 컴포넌트를 루트 레이아웃에 통합하면 됩니다. 단순히 측정 ID를 제공하면 됩니다. 그럼 이제 시작할 준비가 된 거죠. 이 방법은 Google Analytics를 Next.js 프로젝트에 효율적으로 통합하는 직접적이고 잘 지원되는 방법을 제공합니다.
 
@@ -60,7 +78,18 @@ export default function RootLayout({ children }) {
 
 사용자 상호작용을 클라이언트 컴포넌트에서 이벤트로 추적하려면 `sendGAEvent` 함수를 사용하면 됩니다. dataLayer 객체를 사용하여 이벤트를 전송합니다. 이 함수가 작동하려면 `GoogleAnalytics` 컴포넌트가 부모 레이아웃, 페이지, 컴포넌트 중 하나에 포함되어 있거나 직접 같은 파일에 포함되어 있어야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 당신이 개발하고 있는 컴포넌트 중 하나, 예를 들어:
@@ -73,11 +102,7 @@ import { sendGAEvent } from "@next/third-parties/google";
 export function EventButton() {
   return (
     <div>
-      <button
-        onClick={() => sendGAEvent({ event: "buttonClicked", value: "xyz" })}
-      >
-        Send Event
-      </button>
+      <button onClick={() => sendGAEvent({ event: "buttonClicked", value: "xyz" })}>Send Event</button>
     </div>
   );
 }
@@ -89,7 +114,18 @@ export function EventButton() {
 
 당신이 Google Analytics 계정, 생성된 속성, 그리고 측정 ID를 가지고 있다고 상정합니다. 또한 추적할 준비가 된 작동 중인 Next.js 또는 React 사이트를 가지고 있어야 합니다. 우리는 바로 Google Analytics 4 설정으로 넘어갈 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 목표: SSR 호환, Google Analytics 4를 활용한 유연한 이벤트 추적
 
@@ -101,7 +137,18 @@ export function EventButton() {
 yarn add react-ga4
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로, Google Analytics를 초기화하는 함수와 이벤트를 추적하는 함수 두 가지를 보관할 유틸리티 파일을 만들 것입니다. 저는 /src/utilities/google-analytics.js 파일에 어떻게 설정했는지 알려드리겠습니다:
 
@@ -152,7 +199,18 @@ export default function GoogleAnalytics() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 메인 페이지 파일(예: page.jsx, \_app.jsx 등)에 다음 내용을 포함하세요:
 
@@ -179,7 +237,18 @@ export default async function Home() {
 
 브라우저 개발자 도구의 네트워크 탭에서 "google"로 필터링하여 페이지 뷰가 추적되는지 확인하거나 Google Analytics 디버거 확장 프로그램을 사용하여 확인하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/GoogleAnalytics4GA4inNextjs14andReactWitheventtracking_1.png" />
 
@@ -212,7 +281,18 @@ export default function MyForm({ className }) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Google Analytics 4 in Next.js 14 and React with event tracking](/assets/img/GoogleAnalytics4GA4inNextjs14andReactWitheventtracking_2.png)
 
@@ -222,6 +302,17 @@ export default function MyForm({ className }) {
 
 마치 언제든 여러분이 삶, 생각, 문제에 대해 반성할 수 있도록 도와주는 코치가 있는 것처럼, 자세한 주간 보고서와 심지어 맞춤형 팟캐스트도 제공합니다. 한 번 시도해 보고 일기 작성 경험을 향상시켜 보세요 🙂
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Google Analytics 4 in Next.js 14 and React with event tracking](/assets/img/GoogleAnalytics4GA4inNextjs14andReactWitheventtracking_3.png)

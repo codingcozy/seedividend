@@ -3,17 +3,13 @@ title: "자바스크립트를 깔끔하게 작성하는 18가지 팁"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "18 JavaScript Tips You Should Know for Clean and Efficient Code"
 link: "https://medium.com/stackademic/18-javascript-tips-you-should-know-for-clean-and-efficient-code-1e185353a542"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/18JavaScriptTipsYouShouldKnowforCleanandEfficientCode_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 화살표 함수
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 화살표 함수를 사용하여 함수 선언을 간단하게 할 수 있어요.
 
@@ -39,7 +46,18 @@ const add = (a, b) => a + b;
 
 # Array.from()
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Array.from() 메서드는 모든 반복 가능한 객체를 배열로 변환하는 데 사용할 수 있어요.
 
@@ -53,7 +71,18 @@ console.log(arr); //Output: ['H', 'e', 'l', 'l', 'o', '!']
 
 콘솔에서 데이터를 조직화하거나 테이블 형식으로 표시하려면 console.table()을 사용할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const person = {
@@ -70,7 +99,18 @@ console.table(person);
 
 # const 및 let을 효율적으로 사용하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 변수를 더 잘 정리하려면 재할당되지 않을 변수에는 const를 사용하고, 재할당될 변수에는 let을 사용하세요.
 
@@ -83,7 +123,18 @@ let timer = 0;
 
 객체에서 속성을 추출할 때 구조 분해를 사용하면 코드의 가독성을 높일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const person = {
@@ -115,7 +166,18 @@ greet(); //출력: 안녕하세요, 사람님!
 greet("John"); //출력: 안녕하세요, John님!
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 배열 손쉽게 비우기
 
@@ -129,7 +191,18 @@ numbers.length = 0;
 console.log(numbers); //결과: []
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # JSON.parse()
 
@@ -144,7 +217,18 @@ console.log(person);
 
 # Map() 함수
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새로운 배열에서 원본 배열을 수정하지 않고 요소를 변환하는 map() 함수를 사용해보세요.
 
@@ -160,7 +244,18 @@ console.log(doubled); //결과: [2, 4, 6, 8]
 
 # Object.seal()
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 개체에 속성을 추가하거나 제거하는 것을 방지하기 위해 Object.seal() 메서드를 사용할 수 있어요.
 
@@ -178,7 +273,18 @@ console.log(person); //Output: {name: 'John', age: 25}
 
 개체에 대한 변경을 방지하려면 추가, 수정 또는 삭제를 포함한 모든 변경을 방지하기 위해 Object.freeze() 메서드를 사용할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const person = {
@@ -201,7 +307,18 @@ console.log(arrWithoutDuplicates);
 //Output: [1, 12, 2, 13, 4]
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 디스트럭처링을 사용하여 값 교환하기
 
@@ -216,7 +333,18 @@ let x = 7,
 console.log(x); //13
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Spread Operator
 
@@ -235,7 +363,18 @@ console.log(arr3); //[9, 8, 7]
 console.log(mergedArr); //[1, 2, 3, 9, 8, 7]
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 템플릿 삽입
 
@@ -248,7 +387,18 @@ const name = "John";
 const message = `Hello, ${name}!`;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 삼항 연산자
 
@@ -270,7 +420,18 @@ age >= 18 ? console.log("운전할 수 있어요") : console.log("운전할 수 
 
 # ==가 아닌 ===를 사용하세요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 느슨한 동등성(==) 대신 엄격한 동등성(===)을 사용하여 형 변환 문제를 방지하세요.
 
@@ -297,7 +458,18 @@ if (num1 === num2) {
 
 의미 있는 변수 및 함수 이름을 사용하여 코드의 가독성과 유지보수성을 향상시키세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```javascript
 // 이렇게 변수를 선언하지 마세요
@@ -313,4 +485,15 @@ const numberOfTips = 18;
 
 읽어주셔서 감사합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

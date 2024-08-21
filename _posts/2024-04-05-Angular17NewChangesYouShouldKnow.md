@@ -3,17 +3,13 @@ title: "Angular 17 새로 나온 내용 정리"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Angular 17 New Changes You Should Know"
 link: "https://medium.com/habilelabs/angular-17-new-changes-you-should-know-39491de6afad"
 isUpdated: true
 ---
-
-
-
-
 
 ## 나이테시 아그라왈(Nitesh Agrawal)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 본 기사에서는 Angular의 새 버전에서 알아야 할 가장 중요한 변경 사항을 탐색해보겠습니다. 그럼 시작해보겠습니다...
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Angular New Changes](/assets/img/Angular17NewChangesYouShouldKnow_1.png)
 
@@ -34,7 +41,18 @@ Angular은 이전 문서 웹사이트를 새롭고 생동감 넘치는 웹사이
 - 이전 웹사이트는 여기에서 확인할 수 있습니다.
 - 새 웹사이트는 여기에서 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Angular 놀이터
 
@@ -44,7 +62,18 @@ Angular는 새 웹사이트에서 코드를 직접 실험할 수 있는 놀이�
 
 Angular 17부터 독립 구성 요소가 기본 값이에요. 기본적으로, ngModule이나 다른 모듈을 가져와야 할 필요가 없어졌어요. FormsModule와 같은 것들을 컴포넌트에 직접 가져올 수 있어요. standalone을 false로 설정하여 구성 요소를 비-독립으로 변환할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 @Component({
@@ -61,14 +90,36 @@ Angular 17부터 독립 구성 요소가 기본 값이에요. 기본적으로, n
 
 다음 코드를 사용하여 컴포넌트의 지연 로딩을 수행할 수 있어요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 | Syntax    | Description |
 | --------- | ----------- |
 | Header    | Title       |
 | Paragraph | Text        |
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새로운 선언적인 제어 흐름은 *NgIf, *NgFor 및 \*NgSwitch의 기능을 프레임워크 자체로 통합하고 Angular @defer는 템플릿이 하나 이상의 구성 가능한 트리거 조건에 응답하여 콘텐츠를 지연로드할 수 있습니다.
 
@@ -82,7 +133,18 @@ Angular 17부터 독립 구성 요소가 기본 값이에요. 기본적으로, n
 
 위와 같은 구문을 사용하여 데이터를 조건부로 렌더링해야했지만 문제는 데이터를 숨기거나 보여주기만 할 뿐이며 여전히 로드된다는 것입니다. 그래서 Angular v17에서 놀라운 일을 했습니다; 그들은 콘텐츠를 게으르게로드하기 위해 " @defer"를 추가했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 예시를 확인해보세요:
 
@@ -109,7 +171,18 @@ Angular 17부터 독립 구성 요소가 기본 값이에요. 기본적으로, n
 
 세 번째는 로딩 메시지를 표시하는 @loading 블록입니다. 위 예시에서 "user.isRobot" 조건이 참이 되기 전까지 "robot-profile"이 심지어 로드되지 않을 것입니다. 그래서 페이지를 더 빨리 렌더링하는 데 도움이 될 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 두 가지에 대해 이야기할 거에요. 먼저 @defer가 무엇인지부터 시작해볼게요.
 
@@ -123,7 +196,18 @@ Angular 17부터 독립 구성 요소가 기본 값이에요. 기본적으로, n
 - 타이머 시
 - 뷰포트 내에서
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 각 조건에 대한 예제를 살펴보겠습니다.
 
@@ -140,7 +224,18 @@ Angular은 사용자가 @placeholder 블록과 상호 작용할 때 "상호 작�
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # @defer 오버 호버
 
@@ -157,7 +252,18 @@ Angular은 사용자가 플레이스홀더 블록이나 콘텐츠 위에 마우�
 
 # @defer 무반응 시
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Angular은 페이지가 로드된 후 브라우저가 아이들 상태에 도달하면 "on idle" 블록 콘텐츠를 보여줍니다:
 
@@ -174,7 +280,18 @@ Angular은 페이지가 로드된 후 브라우저가 아이들 상태에 도달
 
 Angular은 지정된 시간이 완료되면 "on timer" 블록을 표시합니다. 이는 JS에서 사용한 "setTimeout"과 유사합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 @defer (5초 후에) { // 이 블록을 lazy load하기 위해 시간을 설정할 수 있음
@@ -198,7 +315,18 @@ Angular은 "뷰포트에 대한" 블록 내용을 렌더링합니다. 플레이�
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 미리 가져오기
 
@@ -215,7 +343,18 @@ Angular은 "뷰포트에 대한" 블록 내용을 렌더링합니다. 플레이�
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 이제 새로운 \*ngIf 구문에 대해 이야기해 봐요
 
@@ -233,7 +372,18 @@ this is true
 </ng-template>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Angular은 이제 우리가 익숙한 버전으로 구문을 업데이트했습니다.
 
@@ -250,7 +400,18 @@ Angular은 이제 우리가 익숙한 버전으로 구문을 업데이트했습�
 
 Angular는 if-else로 끝나지 않고 *ngSwitch 구문도 업데이트했습니다. 새로운 구문을 사용하면 내용을 더 쉽게 사용하거나 표시할 수 있습니다. 이제 새 *ngSwitch 구문을 사용하는 방법을 알아보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자, 이제 예제를 이전 및 새로운 구문 두 가지에 대해 살펴보겠습니다.
 
@@ -276,7 +437,18 @@ Angular는 if-else로 끝나지 않고 *ngSwitch 구문도 업데이트했습니
 
 # 새로운 \*ngFor 구문
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당연히 이제 앵귤러는 다른 Angular Structural Directives를 업데이트하는 동안 \*ngFor를 잊을 수 없게 되었습니다.
 
@@ -302,7 +474,18 @@ export class AppComponent {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 동물 배열을 \*ngFor를 사용하여 반복하려면 다음과 같이 할 수 있습니다:
 
@@ -330,7 +513,18 @@ export class AppComponent {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Angular의 새 @for 루프는 옵션으로 제공되는 @empty 블록을 통해 0개의 항목을 가진 컬렉션을 쉽게 처리할 수 있게 해줍니다. 그래서, 만약 우리의 배열에 데이터가 없다면 메시지를 표시할 수 있습니다.
 
@@ -342,7 +536,18 @@ Angular의 새 @for 루프는 옵션으로 제공되는 @empty 블록을 통해 
 ng generate @angular/core:control-flow
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

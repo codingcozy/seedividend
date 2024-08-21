@@ -3,17 +3,13 @@ title: "Nextjs 13 API 경로 설계하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "API 라우트"
 link: "undefined"
 isUpdated: true
 ---
-
-
-
-
 
 # API 경로
 
@@ -23,7 +19,18 @@ API 경로는 Next.js로 공개 API를 구축하는 솔루션을 제공합니다
 
 폴더 pages/api 안의 모든 파일은 /api/\*에 매핑되어 페이지가 아닌 API 엔드포인트로 처리됩니다. 이들은 서버 측 번들이며 클라이언트 측 번들 크기를 늘리지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, 다음 API 경로는 상태 코드 200을 가진 JSON 응답을 반환합니다:
 
@@ -45,7 +52,18 @@ export default function handler(req: NextApiRequest, res: NextApiResponse<Respon
 - API Routes는 정적 익스포트와 함께 사용할 수 없습니다. 그러나 App Router의 Route Handlers는 사용할 수 있습니다.
 - API Routes는 next.config.js의 pageExtensions 구성에 의해 영향을 받을 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 매개변수
 
@@ -60,7 +78,18 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
 
 ## HTTP 메소드
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 API 라우트에서 다양한 HTTP 메소드를 처리하려면 요청 핸들러에서 req.method를 사용할 수 있어요:
 
@@ -80,7 +109,18 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
 
 API 라우트는 수신된 요청(req)을 구문 분석하는 내장된 요청 도우미를 제공합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - req.cookies - 요청으로 받은 쿠키를 포함하는 객체입니다. 기본값은 {}
 - req.query - 쿼리 문자열을 포함하는 객체입니다. 기본값은 {}
@@ -102,7 +142,18 @@ export const config = {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 bodyParser가 자동으로 활성화되어 있습니다. 본문을 스트림으로 또는 raw-body로 사용하려면 false로 설정할 수 있습니다.
 
@@ -118,7 +169,18 @@ export const config = {
 
 bodyParser.sizeLimit은 파싱된 본문의 최대 허용 크기입니다. 바이트와 같은 형식으로 지원되는 어떤 형식도 포함됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 export const config = {
@@ -142,7 +204,18 @@ export const config = {
 
 responseLimit는 API Routes의 응답 본문이 4MB를 초과하는 경우 경고가 자동으로 활성화됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 서버리스 환경에서 Next.js를 사용하지 않고 CDN 또는 전용 미디어 호스트를 사용하지 않는 것의 성능 영향을 이해한다면, 이 제한을 false로 설정할 수 있습니다.
 
@@ -164,7 +237,18 @@ export const config = {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 응답 도우미
 
@@ -178,7 +262,18 @@ export const config = {
 - res.redirect([status,] path) - 지정된 경로나 URL로 리디렉션합니다. status는 유효한 HTTP 상태 코드여야 합니다. 지정되지 않을 경우, status는 "307" "임시 리디렉트"로 기본값이 설정됩니다.
 - res.revalidate(urlPath) - getStaticProps를 사용하여 필요에 따라 페이지를 다시 유효화합니다. urlPath는 문자열이어야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 응답의 상태 코드 설정하기
 
@@ -198,7 +293,18 @@ export default function handler(req: NextApiRequest, res: NextApiResponse<Respon
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### JSON 응답 전송
 
@@ -219,7 +325,18 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### HTTP 응답 보내기
 
@@ -240,7 +357,18 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 지정된 경로 또는 URL로 리디렉션
 
@@ -263,7 +391,18 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### TypeScript 타입 추가하기
 
@@ -283,7 +422,18 @@ export default function handler(req: NextApiRequest, res: NextApiResponse<Respon
 
 > 참고: NextApiRequest의 body는 어떤 형태의 데이터라도 포함될 수 있기 때문에 any로 지정됩니다. 데이터를 사용하기 전에 런타임에서 body의 타입/구조를 검증해야 해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 동적 API 라우트
 
@@ -300,7 +450,18 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
 
 이제 /api/post/abc로 요청하면 텍스트 "Post: abc"로 응답합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 모든 API 경로 포착하기
 
@@ -310,7 +471,18 @@ API 경로는 괄호 안에 세 개의 점(...)을 추가하여 모든 경로를
 
 > 참고: slug 대신 [...param]과 같이 다른 이름을 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 매칭된 매개변수는 쿼리 매개변수로 페이지로 전송됩니다. (예시에서는 슬러그) 이는 항상 배열 형태로 전달될 것이며, 따라서 경로 /api/post/a는 다음과 같은 쿼리 객체를 가지게 될 것입니다:
 
@@ -324,7 +496,18 @@ API 경로는 괄호 안에 세 개의 점(...)을 추가하여 모든 경로를
 { "slug": ["a", "b"] }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어:
 
@@ -341,7 +524,18 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
 
 ### 선택적 캐치 올 API 경로
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 경로를 선택적으로 만들려면 매개변수를 이중 대괄호로 포함시키면 됩니다 ([[...slug]]).
 
@@ -351,7 +545,18 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
 
 쿼리 객체는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 { } // GET `/api/post` (빈 객체)
@@ -371,7 +576,18 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
 
 ## Edge API 경로
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 API Routes를 Edge 런타임과 함께 사용하려면 App Router를 점진적으로 도입하고 Route Handlers를 사용하는 것을 권장합니다.
 

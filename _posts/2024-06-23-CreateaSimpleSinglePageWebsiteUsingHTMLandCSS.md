@@ -3,16 +3,13 @@ title: "HTML과 CSS로 간단한 싱글 페이지 웹사이트 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-23-CreateaSimpleSinglePageWebsiteUsingHTMLandCSS_0.png"
 date: 2024-06-23 14:26
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-CreateaSimpleSinglePageWebsiteUsingHTMLandCSS_0.png
 tag: Tech
 originalTitle: "Create a Simple Single Page Website Using HTML and CSS"
 link: "https://medium.com/@genotechies/create-a-simple-single-page-website-using-html-and-css-456e3f0f16c8"
 isUpdated: true
 ---
-
-
-
 
 ## HTML과 CSS를 사용한 간단한 웹사이트 디자인
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 # 필수 준비사항
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - VS 코드
 
@@ -32,7 +40,18 @@ Visual Studio Code은 내가 선호하는 통합 개발 환경입니다. 파일�
 
 브라우저에서 변경 사항을 확인하고 실행하기 위해, Live Server를 VS 코드에 설치했습니다. 이제 웹 페이지를 개발할 때 변경 사항을 한 번의 클릭으로 확인할 수 있습니다. 또는 선호하는 다른 방법으로 파일을 실행할 수도 있습니다. Live Server를 설치하려면 VSCode를 열고 ctrl + P를 입력하여 ext install ritwickdey.liveserver를 입력하고 엔터를 누르면 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼 구현 방법을 살펴보겠습니다. 아래 단계를 따라야 합니다.
 
@@ -42,7 +61,18 @@ Visual Studio Code은 내가 선호하는 통합 개발 환경입니다. 파일�
 
 ![이미지](/assets/img/2024-06-23-CreateaSimpleSinglePageWebsiteUsingHTMLandCSS_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Live server를 사용하여 index.html 파일을 실행할 수 있어요. index.html 파일에 마우스 오른쪽 버튼을 클릭하고 Live Server로 열기 옵션을 선택해주세요. 그러면 즐겨 사용하는 브라우저에서 페이지가 열릴 거에요.
 
@@ -52,8 +82,18 @@ Visual Studio Code은 내가 선호하는 통합 개발 환경입니다. 파일�
 
 이것은 HTML 페이지의 기본 템플릿이에요. 먼저 해당 내용을 index.html 파일로 복사했어요. 그래서 우리는 이 템플릿에 모든 다른 구성 요소들을 추가할 거에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -66,15 +106,24 @@ Visual Studio Code은 내가 선호하는 통합 개발 환경입니다. 파일�
 </body>
 </html>
 
-
 # Step 03: Add meta tags and edit the title in the head tag
 
 The `meta` tag defines metadata about an HTML document. Metadata describes the data contained inside the web page.
 
 `meta` tags always go inside the `head` element and are typically used to specify the character set, keywords, page description, author of the document, and viewport settings.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <head>
@@ -92,8 +141,18 @@ body 태그를 편집하기 전에 동일한 디렉토리에 이미지 폴더와
 
 # 단계 05: 본문 상단에 컨테이너 추가하기
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, 상단 컨테이너를 추가합니다. 로고, 검색 바, 이미지, 제목 및 소셜 아이콘을 포함했습니다.
 
@@ -260,7 +319,18 @@ mediaIcons a:hover .fa-youtube {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 표 태그를 마크다운 형식으로 변경했어요.
 
@@ -270,10 +340,21 @@ mediaIcons a:hover .fa-youtube {
 
 `section` 태그는 문서 내의 섹션을 정의합니다. 여기서 몇 가지 섹션을 추가했어요. 먼저, 제품 섹션입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 제품 섹션
+
 이곳은 새로운 제품 컬렉션을 소개하는 곳입니다.
 
 - 베이비 걸 드레스
@@ -291,8 +372,18 @@ mediaIcons a:hover .fa-youtube {
 
 자세한 내용은 이미지를 참조해주세요.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 05: 어바웃 섹션 추가
 
@@ -353,8 +444,18 @@ mediaIcons a:hover .fa-youtube {
   }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Screenshot](/assets/img/2024-06-23-CreateaSimpleSinglePageWebsiteUsingHTMLandCSS_5.png)
 
@@ -372,7 +473,18 @@ mediaIcons a:hover .fa-youtube {
     </section>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .newsletter {
@@ -434,7 +546,18 @@ mediaIcons a:hover .fa-youtube {
 
 `footer` 태그는 문서나 섹션의 하단에 푸터를 정의합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
     <!-- Footer Section-->
@@ -574,6 +697,17 @@ footer {
 
 GitHub에서 이 작은 웹사이트 디자인을 찾아보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 본 게시물이 유용하셨다면 아래의 👏 버튼을 눌러주세요! :)

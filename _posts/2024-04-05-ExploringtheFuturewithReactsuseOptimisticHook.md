@@ -3,17 +3,13 @@ title: "리액트19 useOptimistic Hook 추가 및 내용 정리"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: " Exploring the Future with Reacts useOptimistic Hook "
 link: "https://medium.com/gitconnected/exploring-the-future-with-reacts-useoptimistic-hook-%EF%B8%8F-1615c4f68a02"
 isUpdated: true
 ---
-
-
-
-
 
 ![React의 useOptimistic 훅을 활용해 미래를 탐험하기](/assets/img/ExploringtheFuturewithReactsuseOptimisticHook_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 오늘은 React의 Canary에서만 사용 가능한 새로운 실험적인 훅인 useOptimistic에 대해 이야기해보려고 합니다. 이 훅을 사용하면 React의 다음 버전을 기다리지 않아도 되고, React 소스 코드 저장소의 주요 브랜치를 추적하는 Canary를 통해 다가오는 기능을 테스트할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 낙관적 업데이트:
 
@@ -33,7 +40,18 @@ useOptimistic의 작동 방식을 자세히 살펴보기 전에 낙관적 업데
 
 # 훅 자체:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `useOptimistic` 함수를 사용하면 비동기 작업 중에 다른 상태를 보여줄 수 있어요. 이 함수는 어떤 상태를 인수로 받아들여 해당 상태의 사본을 반환하는데, 이 상태는 네트워크 요청과 같은 비동기 작업 기간 동안 다를 수 있어요. 여기에는 현재 상태와 작업에 대한 입력을 가져와 낙관적 상태를 반환하는 함수를 제공해야 해요.
 
@@ -56,7 +74,18 @@ function AppContainer() {
 
 ## 파라미터
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - state: 초기에 반환될 값 및 어떠한 작업도 대기 중이 아닐 때 반환될 값입니다.
 - updateFn(currentState, optimisticValue): 현재 상태와 addOptimistic에 전달된 낙관적인 값이 주어졌을 때, 결과적으로 낙관적인 상태를 반환하는 함수입니다. 이 함수는 순수 함수여야 합니다. updateFn은 두 개의 매개변수를 입력으로 받습니다. 현재 상태(currentState)와 낙관적인 값(optimisticValue)입니다. 반환 값은 currentState와 optimisticValue의 병합된 값이 됩니다.
@@ -68,7 +97,18 @@ function AppContainer() {
 
 # 사용 예시:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 긍정적으로 폼 업데이트하기
 
@@ -78,7 +118,18 @@ useOptimistic Hook은 네트워크 요청과 같은 백그라운드 작업이 �
 
 useOptimistic hook은 아직 실험적입니다만, React 앱이 더 잘 작동하고 더 빨리 작동하도록 만들 수 있기 때문에 정말 멋집니다. 특히 NextJS와 서버 측 렌더링 기능을 사용하는 앱에게 흥미로울 것입니다. 아직 완전히 준비되지는 않았지만요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 이것이 언제 React의 공식 부분이 될지 기다리고 있어요. 궁금한데, 여러분 중에 useOptimistic을 프로젝트에서 사용해 보신 분 있나요? 어떻게 생각하시나요? 혹시 게임 체인저가 될 수 있을까요? 여러분의 생각과 경험을 알려주세요!
 

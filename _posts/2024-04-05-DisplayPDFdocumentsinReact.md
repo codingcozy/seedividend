@@ -3,17 +3,13 @@ title: "리액트 웹사이트에서 PDF 뷰어 만들기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Display PDF documents in React"
 link: "https://medium.com/@stheodorejohn/a-guide-to-display-pdf-documents-in-react-bcd9fb0f56b0"
 isUpdated: true
 ---
-
-
-
-
 
 ## React 앱에서 인터랙티브 PDF 뷰어를 만들어 보세요! PDF 문서를 표시하고 사용자 정의하는 다양한 방법과 라이브러리를 배웁니다. #React #PDFViewer
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ## `<iframe>` 요소 사용하기:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React에서 PDF 문서를 표시하는 가장 간단한 방법은 `iframe` 요소를 사용하는 것입니다. PDF 파일을 `iframe` 태그 내에 임베드하고 소스를 PDF 파일의 URL로 설정할 수 있습니다.
 
@@ -44,7 +51,18 @@ export default PDFViewer;
 
 이 방법은 기본적인 상황에 잘 작동하지만 제한 사항이 있습니다. `iframe` 요소는 PDF 렌더링을 처리하기 위해 사용자의 브라우저에 의존하며 기능 및 사용자 경험 측면에서 다양할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 장점:
 
@@ -60,7 +78,18 @@ export default PDFViewer;
 - 일관성 없는 사용자 경험:
   PDF 뷰어의 외관과 동작이 사용자의 브라우저 및 설정에 따라 달라질 수 있어 사용자들에게 일관된 경험을 제공하는 데 어려움을 줄 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## PDF 뷰어 라이브러리 사용하기:
 
@@ -86,7 +115,18 @@ const PDFViewer = () => {
 export default PDFViewer;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `react-pdf`을 사용하면 특정 페이지를 렌더링하고 레이아웃을 사용자 정의하며 사용자 상호작용을 쉽게 처리할 수 있습니다.
 
@@ -99,7 +139,18 @@ export default PDFViewer;
 
 ## 단점:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 학습 곡선:
   PDF 뷰어 라이브러리를 통합하고 사용하는 것은 해당 라이브러리의 API를 배우고 이해하는 추가적인 노력이 필요할 수 있습니다.
@@ -112,7 +163,18 @@ PDF 뷰어 경험을 더 향상시키기 위해 추가적인 기능과 사용자
 
 이를 위해 React를 `pdfjs-dist`나 `pdf-lib`와 같은 다른 라이브러리와 결합할 수 있습니다. 이러한 라이브러리는 PDF 문서를 조작하고 텍스트를 추출하며 주석을 추가하는 등의 저수준 API를 제공합니다. 이러한 라이브러리를 사용하여 사용자 지정 컴포넌트를 생성하고 특정 요구 사항에 맞는 풍부한 PDF 뷰어를 만들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 장점:
 
@@ -128,7 +190,18 @@ PDF 뷰어 경험을 더 향상시키기 위해 추가적인 기능과 사용자
 - 유지 및 업데이트:
   PDF 표준이 발전하고 라이브러리가 업데이트되는 경우, 사용자 정의 PDF 뷰어를 최신 상태로 유지하고 새로운 버전의 PDF 조작 라이브러리와의 호환성을 보장하기 위해 시간을 투자해야 할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 고려해야 할 몇 가지 모범 사례:
 
@@ -148,7 +221,18 @@ PDF 뷰어 경험을 더 향상시키기 위해 추가적인 기능과 사용자
 - PDF 뷰어 컴포넌트에 대체 텍스트 제공, 키보드로 탐색을 가능하게 하는 등 PDF 컨텐츠가 스크린 리더에 접근 가능하도록 접근성 기능을 구현하세요.
 - 장애가 있는 사용자를 위해 PDF 문서를 접근할 수 있도록 하기 위해 WCAG(Web Content Accessibility Guidelines)를 준수하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 오류 처리:
 
@@ -158,7 +242,18 @@ PDF 뷰어 경험을 더 향상시키기 위해 추가적인 기능과 사용자
 
 - 민감하거나 기밀적인 PDF 문서를 다룰 때 주의하세요. 문서를 무단 액세스나 다운로드로부터 보호하기 위한 적절한 보안 조치를 시행하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 테스트:
 
@@ -169,7 +264,18 @@ PDF 뷰어 경험을 더 향상시키기 위해 추가적인 기능과 사용자
 
 - PDF 뷰어 구성 요소의 사용법 및 구성 옵션을 문서화하십시오. 다른 개발자들이 프로젝트에 PDF 뷰어를 통합하고 사용자화하기 쉽도록 명확한 지침과 예제를 제공하십시오.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 최신 소식 받아보기:
 
@@ -179,6 +285,17 @@ PDF 뷰어 경험을 더 향상시키기 위해 추가적인 기능과 사용자
 
 React 애플리케이션에서 PDF 문서를 표시하는 것은 원하는 수준의 사용자 정의 및 기능에 따라 여러 방법으로 달성할 수 있습니다. 단순한 `iframe` 요소 사용부터 `react-pdf`와 같은 PDF 뷰어 라이브러리를 활용하는 방법까지, React는 PDF 파일을 처리하는 유연성을 제공합니다. 다양한 접근 방식을 탐색하고 추가 라이브러리를 활용하여 React 애플리케이션 내에서 사용자에게 원활한 PDF 뷰잉 경험을 제공할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 글이 더 잘 이해되었기를 바랍니다. 이 글에서 다룬 내용에 관한 질문이나 개선할 부분이 있으면 망설이지 말고 아래에 댓글을 남겨주세요.

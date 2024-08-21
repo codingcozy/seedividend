@@ -3,16 +3,13 @@ title: "Nestjs에서 Retry 패턴 구현하는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-22-ImplementRetryPatterninNestjs_0.png"
 date: 2024-06-22 02:20
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-ImplementRetryPatterninNestjs_0.png
 tag: Tech
 originalTitle: "Implement Retry Pattern in Nest.js"
 link: "https://medium.com/@zigbalthazar/implement-retry-pattern-in-nest-js-2ad505324960"
 isUpdated: true
 ---
-
-
-
 
 ![2024-06-22-ImplementRetryPatterninNestjs_0.png](/assets/img/2024-06-22-ImplementRetryPatterninNestjs_0.png)
 
@@ -23,7 +20,18 @@ isUpdated: true
 이 상황에서 우리는 어떻게 해야 할까요?
 개발자로서 우리의 책임 중 하나는 시스템 실패의 허용한도를 높이는 것입니다. 개발된 서비스는 다양한 시나리오와 상황에서 호환되며 방탄이어야 하며 원활한 사용자 경험을 제공해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여러 번 시도하면 성공 응답을 받을 수 있는 경우가 있음을 알고 있습니다. 사용자에게는 제3자 서비스에서 오류가 발생하는 첫 번째 시도에 대해 응답하지 않아야 하며, 한 두 번 더 시도하면 성공 응답을 받을 수도 있습니다. 그러나 UnAuth, 액세스 거부 등과 같이 다시 시도할 수 없는 오류도 있음을 알고 있어야 합니다.
 
@@ -33,7 +41,18 @@ isUpdated: true
 
 고정된 밀리초 + 임의의 밀리초
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 무작위 시간에 서비스를 호출하여 서비스가 스스로 회복될 수 있도록 도와줍니다.
 
@@ -90,7 +109,18 @@ export class Retry {
 
 이 설명이 프로젝트 개발에 높은 실패 허용성을 가로지어드릴 수 있기를 바랍니다. 궁금한 점이 있으시면 언제든지 질문해주세요.👌
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 관련 자료
 

@@ -3,17 +3,13 @@ title: "Next js Tailwind CSS로 웹사이트 만드는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # Next.js + Tailwind CSS로 웹사이트 만드는 방법
 
@@ -24,7 +20,18 @@ Tailwind CSS는 HTML을 떠나지 않고도 현대적인 웹사이트를 빠르�
 최근에 Next.js를 사용해서 프로젝트를 진행할 때 Tailwind를 적극 활용하여 인라인 클래스 CSS로 더욱 빠르고 마법같은 웹사이트를 만드는 방법을 배웠습니다.
 이 글에서는 Next.js + Tailwind CSS 를 어떻게 사용하는지 자세히 알아보고, 스타일링 작업을 극적으로 단순화할 수 있는 방법을 알아보려고 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 설치 및 설정: 간편하게
 
@@ -64,8 +71,7 @@ const config: Config = {
     extend: {
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "gradient-conic": "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
     },
   },
@@ -74,7 +80,18 @@ const config: Config = {
 export default config;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 tailwind.config.js 파일은 Tailwind CSS의 핵심 구성 허브입니다. 이것은 자체 변경 사항을 지정할 수 있는 JavaScript 객체를 제공하여 테마 사용자 정의, 유틸리티 클래스 확장, 프로덕션 빌드 중 불필요한 CSS 삭제 등의 여러 기능을 변경할 수 있습니다.
 
@@ -112,7 +129,18 @@ Tailwind CSS는 사전 정의된 유틸리티 클래스를 사용하여 스타�
 
 항을 커버하는 방대한 배열의 유틸리티 클래스를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Next.js의 기본 구조:
 
@@ -136,7 +164,18 @@ Tailwind는 기본적으로 여러 줄의 CSS 클래스 대신 코드를 한 줄
 
 또한, Tailwind는 디자인을 위한 "시스템"을 제공하여 임의의 값과 함께 진행해야 하는 길게 찾아야 하는 것들을 찾지 않고도 색상, 글꼴, 그림자 등에 대해 내장된 잘 고려된 값을 사용할 수 있습니다. 이를 통해 보다 빠르고 "조화롭게 맞는" 것을 빠르게 만들어낼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Tailwind가 빠르게 작업하는 몇 가지 더 예제:
 
@@ -152,11 +191,7 @@ const StyledText = () => {
 
 // components/Button.js
 const Button = () => {
-  return (
-    <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
-      클릭하세요
-    </button>
-  );
+  return <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">클릭하세요</button>;
 };
 ```
 
@@ -164,7 +199,18 @@ const Button = () => {
 
 이 구성 요소는 Tailwind CSS를 사용한 반응형 디자인을 보여줍니다. lg:flex 클래스는 화면 크기가 큰 경우에만 (lg:) 플렉스 박스 레이아웃을 적용하여 두 자식 div를 수평으로 정렬합니다. lg:justify-between 클래스는 div 사이에 콘텐츠를 정렬하여 여백을 만듭니다. 추가로, lg:w-1/2 클래스는 화면 크기가 큰 경우 각 div의 너비를 부모 컨테이너의 절반으로 설정하여 반응형 레이아웃을 보장합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // components/ResponsiveLayout.js
@@ -200,7 +246,18 @@ const Card = () => {
 
 렬 및 정렬을 스타일링합니다. 내부에는 제목과 특정 색상 및 호버 효과가 있는 네비게이션 링크 목록이 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // components/NavBar.js
@@ -255,7 +312,18 @@ const NavBar = () => {
 </button>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 보시다시피, Tailwind CSS는 버튼 요소에 직접 유틸리티 클래스를 적용하여 사용자 정의 CSS 규칙을 작성할 필요성을 제거하며 더 깨끗하고 간결한 코드를 제공합니다.
 

@@ -3,17 +3,13 @@ title: "Google Apps Script의 스크립트 편집기에서 HTML 및 Javascript �
 description: ""
 coverImage: "/assets/img/2024-05-27-EnhancingHTMLandJavascriptDevelopmentinScriptEditorofGoogleAppsScriptOvercomingFormattingChallenges_0.png"
 date: 2024-05-27 19:09
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-EnhancingHTMLandJavascriptDevelopmentinScriptEditorofGoogleAppsScriptOvercomingFormattingChallenges_0.png
 tag: Tech
 originalTitle: "Enhancing HTML and Javascript Development in Script Editor of Google Apps Script: Overcoming Formatting Challenges"
 link: "https://medium.com/google-cloud/enhancing-html-and-javascript-development-in-script-editor-of-google-apps-script-overcoming-c8702a5500c2"
 isUpdated: true
 ---
-
-
-
-
 
 ![EnhancingHTMLandJavascriptDevelopmentinScriptEditorofGoogleAppsScript](/assets/img/2024-05-27-EnhancingHTMLandJavascriptDevelopmentinScriptEditorofGoogleAppsScriptOvercomingFormattingChallenges_0.png)
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 # 소개
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Google Apps Script 통합 개발 환경(IDE) 스크립트 편집기가 2022년 4월 13일에 중요한 업데이트를 받아 더 현대적이고 간소화된 개발 환경으로 변모했습니다. 이 향상된 IDE를 통해 개발자들은 그들의 조직을 위해 구글 워크스페이스 애플리케이션의 기능을 확장하는 사용자 정의 솔루션을 만들 수 있습니다.
 
@@ -34,7 +40,18 @@ Google Apps Script 통합 개발 환경(IDE) 스크립트 편집기가 2022년 4
 
 # 사용법
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 1. Google Apps Script 프로젝트 만들기
 
@@ -44,7 +61,18 @@ Google Apps Script 통합 개발 환경(IDE) 스크립트 편집기가 2022년 4
 
 이 섹션에서 현재 문제를 설명합니다. 아래 스크립트와 HTML을 복사하여 스크립트 편집기에 붙여넣어주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # code.gs
 
@@ -88,7 +116,18 @@ div.appendChild(table);
 </html>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 테스트
 
@@ -98,7 +137,18 @@ openDialog 함수를 실행하면 대화 상자가 열리고 대화 상자에서
 
 다음 단계로 넘어가면 index.html을 볼 때 JavaScript 형식이 지정되지 않았고 가독성이 낮다는 것을 알 수 있습니다. 이 코드를 스크립트 편집기에서 형식을 맞추면 다음과 같이 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/0*AQlYdIS3NlLn6zcy.gif" />
 
@@ -108,40 +158,53 @@ openDialog 함수를 실행하면 대화 상자가 열리고 대화 상자에서
 
 본 섹션에서는 상기 상황을 피하기 위한 해결책으로 샘플 스크립트 2를 소개하고자 합니다. 따라서 아래 스크립트를 복사하기 전에 상기 섹션에서 사용된 code.gs 및 index.html을 지우고, 다음 스크립트와 HTML을 스크립트 편집기에 복사하여 붙여넣어 주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # code.gs
 
 ```js
 function javascript_() {
-  const array = [["A1", "B1", "C1"],["A2", "B2", "C2"],["A3", "B3", "C3"]];
+  const array = [
+    ["A1", "B1", "C1"],
+    ["A2", "B2", "C2"],
+    ["A3", "B3", "C3"],
+  ];
   const div = document.getElementById("sample");
-  const table = document.createElement('table');
+  const table = document.createElement("table");
   table.border = "1";
   table.style.width = "100%";
   table.style["border-collapse"] = "collapse";
-  
+
   for (let i = 0; i < array.length; i++) {
-    const tr = document.createElement('tr');
-    
+    const tr = document.createElement("tr");
+
     for (let j = 0; j < array[i].length; j++) {
-      const td = document.createElement('td');
+      const td = document.createElement("td");
       const text = document.createTextNode(array[i][j]);
       td.appendChild(text);
       tr.appendChild(td);
     }
-    
+
     table.appendChild(tr);
   }
-  
+
   div.appendChild(table);
 }
 
 function openDialog() {
   const html = HtmlService.createTemplateFromFile("index");
-  html.javascript = javascript_
-    .toString()
-    .match(/^function javascript_\(\) {([\s\S\w]*)}$/)[1];
+  html.javascript = javascript_.toString().match(/^function javascript_\(\) {([\s\S\w]*)}$/)[1];
   SpreadsheetApp.getUi().showModalDialog(html.evaluate(), "sample");
 }
 ```
@@ -163,7 +226,18 @@ function openDialog() {
 </html>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 테스팅
 
@@ -173,7 +247,18 @@ openDialog 함수를 실행하면 대화 상자가 열리고 대화 상자에서
 
 ![image](https://miro.medium.com/v2/resize:fit:1400/0*Sszz38pwq-gqhqju.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 index.html과 code.gs를 형식화하면 두 파일 모두 적절한 서식으로 표시되어 가독성이 향상됩니다. 또한 JavaScript 코드는 대화 상자 내에서 올바르게 작동합니다.
 
@@ -183,7 +268,18 @@ index.html과 code.gs를 형식화하면 두 파일 모두 적절한 서식으�
 
 JavaScript 코드에 스크립트 편집기와 호환되지 않는 구문이 포함된 경우 이 해결책을 적용할 수 없음에 유의해 주세요. 이러한 시나리오에서 주의해 주시기 바랍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 참고
 

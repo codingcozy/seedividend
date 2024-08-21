@@ -3,17 +3,13 @@ title: "파이썬 코드 속도를 높이는 8가지 팁"
 description: ""
 coverImage: "/assets/img/2024-06-23-8TipstoSpeedUpYourPythonCode_0.png"
 date: 2024-06-23 13:29
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-8TipstoSpeedUpYourPythonCode_0.png
 tag: Tech
 originalTitle: "8 Tips to Speed Up Your Python Code"
 link: "https://medium.com/python-in-plain-english/8-tips-to-speed-up-your-python-code-e8df2d027f35"
 isUpdated: true
 ---
-
-
-
-
 
 ![image](/assets/img/2024-06-23-8TipstoSpeedUpYourPythonCode_0.png)
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 ![image](/assets/img/2024-06-23-8TipstoSpeedUpYourPythonCode_1.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사는 Python 코드 실행 속도를 높이는 여러 기술을 소개할 것입니다. 코드 최적화의 세부 사항에 들어가기 전에 코드 최적화의 기본 원칙 몇 가지를 이해해야 합니다.
 
@@ -34,7 +40,18 @@ isUpdated: true
 
 세 번째 원칙은 중요하지 않은 부분을 최적화하지 말아야 한다는 것입니다. 코드의 모든 부분을 최적화하려고 한다면 이러한 변경으로 코드가 읽고 이해하기 어려워질 수 있습니다. 코드가 느리게 실행된다면, 코드가 느린 부분을 찾아보고 보통 내부 루프에 해당하는 부분에 중점을 두어 최적화를 집중하세요. 그 외의 부분은 약간의 시간 손실이 큰 차이를 만들지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 1 전역 변수 피하기
 
@@ -61,7 +78,18 @@ def main():
 main()
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 2. 점 피하기
 
@@ -87,10 +115,20 @@ def main():
 main()
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-각각 . (속성 액세스 연산자)을 사용할 때 특정 메서드인 __getattribute__() 및 __getattr__()이 트리거됩니다. 이러한 메서드는 사전 작업을 수행하므로 추가 시간 소요가 발생할 수 있습니다. 속성 액세스는 from import 문을 통해 제거할 수 있습니다.
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+각각 . (속성 액세스 연산자)을 사용할 때 특정 메서드인 **getattribute**() 및 **getattr**()이 트리거됩니다. 이러한 메서드는 사전 작업을 수행하므로 추가 시간 소요가 발생할 수 있습니다. 속성 액세스는 from import 문을 통해 제거할 수 있습니다.
 
 ```js
 from math import sqrt
@@ -127,10 +165,20 @@ def main():
         result = computeSqrt(size)
 
 main()
-``` 
+```
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 수학.sqrt 외에도 computeSqrt 함수에는 리스트의 append 메소드를 호출하는 .이 있습니다. 이 메소드를 지역 변수에 할당하여 computeSqrt 함수의 for 루프 내부에서의 . 사용을 완전히 제거할 수 있습니다.
 
@@ -164,7 +212,7 @@ from typing import List
 class DemoClass:
     def __init__(self, value: int):
         self._value = value
-    
+
     def computeSqrt(self, size: int) -> List[float]:
         result = []
         append = result.append
@@ -182,7 +230,18 @@ def main():
 main()
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `.table` 태그를 Markdown 형식으로 변경하세요.
 
@@ -238,7 +297,18 @@ main()
 | main() | |
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 추가 계층으로 코드를 래핑할 때 (데코레이터, 프로퍼티 액세스, 디스크립터와 같은), 코드 실행 속도가 느려질 수 있습니다. 대부분의 경우, 프로퍼티 액세스 사용 정의를 다시 검토하는 것이 필요합니다. 프로퍼티 액세서를 사용할 때 getter/setter 함수를 사용하는 것은 일반적으로 C/C++ 프로그래머가 남긴 코딩 스타일입니다. 꼭 필요하지 않은 경우, 간단한 속성을 사용해보세요.
 
@@ -262,7 +332,18 @@ main()
 
 ![image](/assets/img/2024-06-23-8TipstoSpeedUpYourPythonCode_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 4.1 무의미한 데이터 복사 피하기
 
@@ -291,7 +372,18 @@ def main():
 main()
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또 다른 상황은 Python의 데이터 공유 메커니즘에 대해 지나치게 걱정하고 있거나 Python의 메모리 모델을 충분히 이해하거나 신뢰하지 않아 copy.deepcopy()와 같은 함수를 남용하는 경우입니다. 일반적으로 이러한 코드에서는 복사 작업을 제거할 수 있습니다.
 
@@ -313,7 +405,18 @@ main()
 
 위 코드는 값을 교환할 때 임시 변수 temp를 생성합니다. 중간 변수의 도움 없이 코드는 더 간결하고 빨리 실행됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 권장됨. 시간 소요: 0.06 초
@@ -352,7 +455,18 @@ main()
 
 if 조건문의 단락회로 특성은 if a and b와 같은 문장에서 a가 False인 경우 직접 반환되어 b가 계산되지 않고, if a or b와 같은 문장에서 a가 True인 경우 직접 반환되어 b가 더 이상 계산되지 않는 것을 의미합니다. 따라서 실행 시간을 절약하기 위해 or 문에서는 더 높은 확률로 True인 변수가 or 앞에 나와야 하며, and는 뒤로 미루어져야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 권장사항. 시간 소요: 0.03 초
@@ -381,7 +495,18 @@ main()
 
 ## 6.1 `while` 루프 대신 `for` 루프 사용하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 비추천합니다. 소요 시간: 6.7 초
@@ -421,8 +546,18 @@ main()
 
 ## 6.2 명시적 `for` 루프 대신 암시적 `for` 루프 사용하기
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 예제에서는 명시적인 for 루프 대신 함축적인 for 루프를 사용할 수 있습니다.
 
@@ -453,7 +588,18 @@ def main():
 main()
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 코드에서 `sqrt(x)`은 for 루프 내에 있으며 각 훈련 과정마다 다시 계산되어 시간을 많이 소비합니다.
 
@@ -476,7 +622,18 @@ main()
 
 위에서 소개한 예시를 따라 numba.jit을 사용합니다. numba는 Python 함수를 JIT 컴파일하여 기계 코드로 변환하여 코드 실행 속도를 크게 향상시킵니다. numba에 대한 자세한 정보는 아래 홈페이지를 참조하세요: [http://numba.pydata.org/numba.pydata.org](http://numba.pydata.org/numba.pydata.org).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 추천. 소요 시간: 0.62 초
@@ -503,7 +660,18 @@ main()
 
 파이썬의 내장 데이터 구조인 str, tuple, list, set, dict은 모두 C 언어로 최하위 수준에서 구현되어 매우 빠릅니다. 성능 측면에서 내장 속도를 달성하기 위해 스스로 새로운 데이터 구조를 구현하는 것은 거의 불가능합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 List는 C++의 std::vector과 유사하며, 동적 배열이다. 일정량의 메모리 공간을 미리 할당한다. 미리 할당된 메모리 공간이 사용되고 요소가 추가될 때, 더 큰 메모리 공간이 적용된다. 그럼 기존 요소를 모두 복사하고 이전 메모리 공간을 파괴하며 새 요소를 삽입한다.
 
@@ -513,7 +681,18 @@ List는 C++의 std::vector과 유사하며, 동적 배열이다. 일정량의 �
 
 리스트 검색 작업도 매우 시간이 소요된다. 리스트에서 특정 요소를 자주 검색하거나 순서대로 이러한 요소에 자주 액세스해야 하는 경우, bisect를 사용하여 리스트 객체의 순서를 유지하고 검색 효율성을 향상시킬 수 있는 이진 검색을 수행할 수 있다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자주 필요한 요구사항은 최솟값 또는 최댓값을 찾는 것입니다. 이 경우 heapq 모듈을 사용하여 리스트를 힙으로 변환하여 최솟값을 얻는 시간 복잡도를 O(1)로 만들 수 있습니다.
 
@@ -523,7 +702,18 @@ List는 C++의 std::vector과 유사하며, 동적 배열이다. 일정량의 �
 
 - David Beazley & Brian K. Jones. Python Cookbook, Third edition. O’Reilly Media, ISBN: 9781449340377, 2013.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 간단한 영어로 🚀
 

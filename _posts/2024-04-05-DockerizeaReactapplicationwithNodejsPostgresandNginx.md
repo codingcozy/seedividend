@@ -3,17 +3,13 @@ title: "Nodejs, Postgres 및 Nginx로 React 애플리케이션을 Docker로 설�
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Dockerize a React application with Nodejs, Postgres and Nginx"
 link: "https://medium.com/@antonio.maccarini/dockerize-a-react-application-with-node-js-postgres-and-nginx-124c204029d4"
 isUpdated: true
 ---
-
-
-
-
 
 안녕하세요! 이 튜토리얼은 Node.js, Postgres 및 Nginx를 사용하여 React 애플리케이션을 Docker화하는 방법에 대해 설명합니다. 백엔드, 프론트엔드 및 Nginx 서버 설정에 대한 단계별 지침과 도커 파일 및 컨테이너화를 위한 docker-compose.yml 파일이 제공됩니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 준비 사항
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컴퓨터에 Docker와 Node.js가 설치되어 있는지 확인해주세요. 저는 Node 버전 18.13.0 및 Docker 버전 20.10.24를 사용했습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 # 백엔드 빌드
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단한 데이터베이스와 통신하며 프론트 엔드에 라우트를 노출하는 간단한 애플리케이션을 만들겠습니다.
 
@@ -45,7 +63,18 @@ isUpdated: true
 npm init -y
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 명령은 패키지 종속성을 추가할 수 있는 package.json 파일을 생성합니다.
 
@@ -57,7 +86,18 @@ npm init -y
 - Node-Postgres: PostgreSQL 데이터베이스와 연결을 설정하는 데 사용되는 Node.js의 클라이언트입니다. 자세한 내용은 Node Postgres 문서를 참조하세요.
 - Nodemon: 파일 변경이 감지되면 Node.js 애플리케이션을 자동으로 다시 시작하는 도구입니다. 자세한 내용은 Nodemon 문서를 참조하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 종속성을 설치하려면 노드 폴더로 이동한 다음 다음 명령을 실행하십시오:
 
@@ -69,7 +109,18 @@ npm install express pg nodemon
 
 ![DockerizeaReactapplicationwithNodejsPostgresandNginx_3](/assets/img/DockerizeaReactapplicationwithNodejsPostgresandNginx_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 백엔드 코드 작성하기
 
@@ -83,7 +134,18 @@ import express from "express";
 import bodyParser from "body-parser";
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현재 데이터베이스는 아직 가동 중이 아니지만, 이미 node-postgres를 사용하여 PostgreSQL 데이터베이스와 연결을 수립하는 과정에 참여하고 있습니다:
 
@@ -112,7 +174,18 @@ const createTable = async () => {
 createTable();
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Express와 미들웨어를 사용하여 POST 메서드를 파싱하세요:
 
@@ -128,7 +201,18 @@ Hello World 루트를 추가하세요:
 app.get("/api", (req, res) => res.send("Hello World!"));
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 사용자 테이블에서 모든 사용자를 검색하는 GET 메서드를 만드는 방법입니다:
 
@@ -156,9 +240,7 @@ app.post("/api/form", async (req, res) => {
     const email = req.body.email;
     const age = req.body.age;
 
-    const response = await client.query(
-      `INSERT INTO users(name, email, age) VALUES ('${name}', '${email}', ${age});`
-    );
+    const response = await client.query(`INSERT INTO users(name, email, age) VALUES ('${name}', '${email}', ${age});`);
 
     if (response) {
       res.status(200).send(req.body);
@@ -170,7 +252,18 @@ app.post("/api/form", async (req, res) => {
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막으로, 서버가 실행될 때 API를 노출할 포트를 추가해주세요. 여기서는 포트 3000에 노출하겠습니다.
 
@@ -182,7 +275,18 @@ app.listen(3000, () => console.log(`App running on port 3000.`));
 
 # 라우트 테스트하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 package.json 파일 안의 script 섹션에 다음을 추가해 주세요:
 
@@ -196,7 +300,18 @@ package.json 파일 안의 script 섹션에 다음을 추가해 주세요:
 "type": "module"
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 패키지.json 파일은 다음과 같이 보여야 합니다:
 
@@ -243,7 +358,18 @@ Node.js v18.13.0
 [nodemon] app crashed - waiting for file changes before starting...아래 코드는 새로운 리액트 프로젝트를 생성합니다:
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서 이 오류를 피하기 위해 다음 라인들을 주석 처리하세요:
 
@@ -257,11 +383,33 @@ Node.js v18.13.0
 
 ![이미지](/assets/img/DockerizeaReactapplicationwithNodejsPostgresandNginx_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 Markdown 형식으로 변경해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm create vite react -- --template react
@@ -273,7 +421,18 @@ npm create vite react -- --template react
 
 다음과 같은 구조로 끝날 것입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/DockerizeaReactapplicationwithNodejsPostgresandNginx_5.png" />
 
@@ -284,7 +443,18 @@ npm create vite react -- --template react
 
 모든 종속성을 설치하려면 react 폴더 안으로 이동하여 다음 코드를 실행하십시오:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm install axios react-router-dom
@@ -298,7 +468,18 @@ npm run dev
 
 http://localhost:5173에서 브라우저에 액세스하면 아래 페이지를 볼 수 있어요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/DockerizeaReactapplicationwithNodejsPostgresandNginx_6.png)
 
@@ -331,7 +512,18 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<App />);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앱 파일은 라우팅을 관리하고 특정 엔드포인트에서 특정 컴포넌트를 렌더링합니다. 예를 들어 경로가 "/get"인 경우, 데이터베이스에서 모든 사용자를 검색하는 책임을 지고 있는 GetAllUser 컴포넌트를 반환합니다.
 
@@ -344,7 +536,18 @@ root.render(<App />);
 
 GetAllUser.jsx
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import axios from "axios";
@@ -394,7 +597,18 @@ export default Home;
 
 Layout.jsx
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { Outlet, Link } from "react-router-dom";
@@ -449,10 +663,7 @@ const PostUser = () => {
           email: "",
         });
         console.log(response);
-        return alert(
-          "사용자가 생성되었습니다: " +
-            `${JSON.stringify(response.data, null, 4)}`
-        );
+        return alert("사용자가 생성되었습니다: " + `${JSON.stringify(response.data, null, 4)}`);
       })
       .catch((err) => {
         return alert(err);
@@ -527,7 +738,18 @@ export default PostUser;
 
 index.css 파일에서 29번째 줄을 제거하세요. 더 나은 레이아웃을 위해:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 place-items: center;
@@ -539,7 +761,18 @@ place-items: center;
 
 마지막으로 Vite에서 모든 주소에서 수신하도록 서버 옵션을 변경해야 합니다. vite.config.js로 이동하여 다음과 같이 파일을 변경하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { defineConfig } from "vite";
@@ -561,7 +794,18 @@ Nginx는 클라이언트로부터의 요청을 처리하고 해당 요청을 적
 
 Nginx를 역방향 프록시로 구성하려면 프로젝트의 루트 디렉토리로 이동하여 nginx 폴더를 만들어야 합니다. 이 폴더 안에 default.conf라는 파일을 만들고 다음 구성을 추가하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 upstream front-end {
@@ -595,7 +839,18 @@ upstream 지시문은 프록시 패스 지시문에서 참조할 수 있는 서�
 
 위치 / 블록은 프론트엔드 서버로의 요청을 프록시로 전달하는데 사용되며 proxy_pass http://front-end;가 이용됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 /sockjs-node 블록은 웹소켓 연결을 처리하고 프론트엔드 서버로 전달합니다.
 
@@ -605,7 +860,18 @@ upstream 지시문은 프록시 패스 지시문에서 참조할 수 있는 서�
 
 # 프론트엔드 도커 파일
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트 폴더 안에 Dockerfile이라는 새 파일을 만들어주세요. 파일에 다음 코드를 추가해주세요:
 
@@ -625,7 +891,18 @@ FROM 키워드는 Dockerfile에서 새 Docker 이미지를 빌드하는 데 사�
 
 WORKDIR 명령은 이후의 RUN, CMD, ENTRYPOINT, COPY, ADD 명령에 대한 작업 디렉토리를 설정합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 파일을 로컬 컴퓨터에서 Docker 이미지의 /usr/src/app 디렉토리로 복사하는 COPY . . 명령을 사용합니다.
 
@@ -635,7 +912,18 @@ React 애플리케이션에 필요한 의존성을 설치하는 RUN npm install 
 
 # 백엔드 Dockerfile
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트의 node 폴더 안에 Dockerfile이라는 파일을 생성하고 아래의 코드를 추가해주세요:
 
@@ -655,7 +943,18 @@ EXPOSE 3000
 
 # Nginx dockerfile
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 nginx 폴더 안에 Dockerfile을 만들고 다음 코드를 추가하여 Nginx 이미지를 pull하고 default.conf 파일을 복사합니다:
 
@@ -668,7 +967,18 @@ COPY ./default.conf /etc/nginx/conf.d/default.conf
 
 이제 클라이언트를 구성하고, Nginx 서버에 연결된 서버 API를 구성하고, 모든 것이 정상적으로 작동하는 것을 확인했으므로 docker-compose.yml 파일을 사용하여 모든 것을 통합하는 시간입니다. 이 파일은 모든 구성 요소를 함께 모아주는 것뿐만 아니라 데이터베이스 설정까지 처리할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시작하려면 루트 디렉토리로 이동하여 Project 폴더를 찾고 docker-compose.yml이라는 파일을 만드십시오.
 
@@ -746,7 +1056,18 @@ networks:
 
 완전히 컨테이너화된 애플리케이션을 실행하려면 다음 단계를 따르세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 터미널이나 명령 프롬프트에서 루트 디렉토리를 열어주세요.
 
@@ -758,7 +1079,18 @@ docker-compose up --build
 
 컨테이너가 실행되면 웹 브라우저에서 http://localhost:8000/을 방문하여 애플리케이션에 액세스할 수 있습니다. Nginx가 리액트 애플리케이션으로 리디렉션됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Dockerize a React application with Node.js, Postgres, and Nginx](/assets/img/DockerizeaReactapplicationwithNodejsPostgresandNginx_8.png)
 
@@ -768,7 +1100,18 @@ docker-compose up --build
 
 예제를 만들어 보겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Dockerize a React application with Node.js, Postgres, and Nginx](/assets/img/DockerizeaReactapplicationwithNodejsPostgresandNginx_9.png)
 
@@ -778,7 +1121,18 @@ docker-compose up --build
 
 ![Dockerize a React application with Node.js, Postgres, and Nginx](/assets/img/DockerizeaReactapplicationwithNodejsPostgresandNginx_10.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도커-컴포즈 업 --빌드를 실행한 후에는 루트 디렉토리에 data라는 새 폴더가 생성된 것을 알 수 있습니다. 이 폴더는 포스트그레스 데이터가 저장되는 곳이며, 컨테이너가 제거되어도 생성한 데이터가 유실되지 않도록 해줍니다.
 

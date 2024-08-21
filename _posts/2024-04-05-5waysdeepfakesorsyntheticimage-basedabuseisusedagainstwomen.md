@@ -3,17 +3,13 @@ title: "여성을 상대로 사용되는 딥페이크 또는 이미지 합성 5�
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "5 ways deepfakes or synthetic image-based abuse is used against women"
 link: "https://medium.com/hack-for-chayn/5-ways-deepfakes-or-synthetic-image-based-abuse-is-used-against-women-ffd100c577e9"
 isUpdated: true
 ---
-
-
-
-
 
 ## 공인인물이든 아니든 여성 혐오적 전술은 같습니다
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 하지만, 피해는 실제로 뚜렷하고 현실적입니다. 여성의 몸을 물품화하는 것은 우리 삶의 모든 모서리에서 독설이고 수백년간 계속되어 왔습니다. 그러나 여성이 자신의 섹슈얼리티(진짠가 가짜인가)를 소유할 때 여성들은 심각하게 처벌받습니다. 이 혼란은 선거나 당선직이 없애진다든가, 폭력을 행사하는 파트너와 화해를 강요당하거나, 섹스트로션을 경험하거나, 정신건강을 해치거나 누군가나 그들과 가까운 사람들을 고립시키며(더 나아가 자해와 자살에 이르게 할 수 있습니다) 하는 일로 나타날 수 있습니다. 어떤 공동체에서는 성적 내용의 영상이 있다고 부인하는 것만으로도 여성의 생명에 위협이 될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주목이 공적 인사에 쏠리고 있지만 계속해서 관찰하고 얘기해야 합니다 (특히 올해는 역대급인 46건의 선거가 예정되어 있어서). 나는 정치적인 광장에서 보는 전술들이 일상적인 여성과 소녀들의 상황에서 볼 수 있는 것들과 놀랍게도 유사하다는 것에 대해 고민해왔어요. 이로부터 우리가 많은 것을 배울 수 있습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 이러한 상황에서 가해자들이 권력과 특권에 대해 어떻게 생각하는지 고려해 보는 것도 재미있어요. 모든 사람은 다른 사람으로부터 그들의 몸에 대한 존중을 받을 자격이 있다고 보는 대신, 공적으로 활동하는 여성들에 대한 학대의 권리와 영향은 종종 권력과 영향력의 언어를 무기로 활용해 강요받습니다. 그들의 부와 인기가 이들에 대한 가짜 음란 비디오를 만드는 행위를 적은 침해로 만드는 듯합니다. 인도의 유명한 무슬림 저널리스트 라나 아유브에 대한 디스인포메이션 캠페인이 그녀의 심층 조사 저널리즘에 대한 타격이 뚜렷하게 있어서 그녀의 정신 건강에 큰 영향을 끼쳤습니다. 그 때 인도 경찰이 아무 조치를 취하지 않았을 때, 십육 명의 유엔 특별 기구 보고자가 인도 정부에 개입을 요구하는 편지를 썼어요. 그 여왕 때문에 2021년 한 딥페이크 캠페인은 한국 여배우들을 겨냥하여 37만 5천명이 기술에 반대하는 청원을 서명했어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신은 프론트엔드 개발자입니다. 위의 텍스트를 친근한 톤으로 한국어로 번역해 주세요.
 
@@ -45,7 +63,18 @@ isUpdated: true
 
 남성폭력범들이 사용하는 다섯 가지 "S" 전술을 살펴봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/5waysdeepfakesorsyntheticimage-basedabuseisusedagainstwomen_0.png" />
 
@@ -55,7 +84,18 @@ isUpdated: true
 
 공개 인물에 대해서는, 정치적 행동을 삼가거나 바꾸지 않으면 딥페이크를 유출할 것이라는 위협으로 보일 수 있습니다. 이미 정치에 참여하는 여성이 소수인 상황에서 이러한 위협은 미래 참여를 desu조귀는 데 불안감을 일으킬 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그들에게는 우리가 의견이나 경험을 표현하고 자신을 보호하는 것을 멈추도록 하여, 학대, 성폭행 또는 가해자가 우리와 의견이 다른 다른 문제에 대해 맞서는 것을 막을 수 있습니다.
 
@@ -65,7 +105,18 @@ isUpdated: true
 
 정치인들에게는 정당 내부에서의 표적 공격처럼 보일 수도 있고, 상승하는 인기와 정치적 영향력 확대 가능성을 낮추기 위한 반대파의 것일 수도 있습니다. 연예인들에 대해서는 그들의 몸을 음란한 목적으로 묘사하는 것일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그런 표현은 생존자들의 경험과 행위의 심각성을 경시하며 "즐거운 재미"로 형용되곤 합니다.
 
@@ -73,7 +124,18 @@ isUpdated: true
 
 내가 사람들이 네게 대해 생각하도록 만드는 것을 지켜봐.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기술 남용 방식 중에서 가장 해로운 것일 수도 있습니다. 왜냐하면 이것은 생존자를 내부에서 부식시킬 뿐만 아니라 그들의 가족들에게 유사한 반응을 유발하고, 명예 개념을 무기화하여 치명적인 영향을 끼칠 수 있기 때문입니다.
 
@@ -83,7 +145,18 @@ isUpdated: true
 
 ## 거부
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아무도 당신과 관련되고 싶어하지 않을 거야
 
@@ -93,7 +166,18 @@ isUpdated: true
 
 ## 강압력
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내가 말한 대로 할 거야
 
@@ -103,7 +187,18 @@ isUpdated: true
 
 다른 형태의 이미지 기반 학대와 마찬가지로, 제작자와 소비자 대부분이 남성입니다. 한 연구에서 15세에서 25세 사이의 벨기에인 7%가 음란물 딥페이크를 만들었다는 결과를 찾았습니다. Home Security Heroes는 조사된 미국 남성 중 48%가 적어도 한 번은 딥페이크 음란물을 본 적이 있으며 딥페이크 음란물 사용자의 74%가 그 콘텐츠를 보는 데 죄책감을 느끼지 않는다는 사실을 발견했습니다. 온라인 및 오프라인 세상 모두에서 동의, 신체 자결권 및 프라이버시에 대한 공민 교육과 동정 간격 문제를 다루어야 합니다. 왜냐하면 이러한 문제들이 모든 다른 형태의 성 폭력의 기저를 이루고 있기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 이러한 무료 또는 싼 앱들의 배후에는 누구가 있는 걸까요? 이건 다른 시간에 다룰 블로그 주제인데, 제가 추천하는 것은 스페인 작은 마을에서 소녀들에게 사용된 "ClothOff" 이라는 언드레싱 AI 애플리케이션에 대한 가디언의 한 조사입니다. 이 애플리케이션은 벨라루스와 러시아, 런던의 다양한 회사와 인물들로부터 발견되었습니다.
 

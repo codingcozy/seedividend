@@ -3,17 +3,13 @@ title: "디자인 포트폴리오에서 피해야 할 4가지 실수"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Displaying UX Research in your Design Portfolio  4 mistakes you dont want to make"
 link: "https://medium.com/@uxsurvivalguide/displaying-ux-research-in-your-design-portfolio-4-mistakes-you-dont-want-to-make-9d5cb97c9063"
 isUpdated: true
 ---
-
-
-
-
 
 ## 자신의 포트폴리오에 연구 내용을 표시할 때 주의할 점은 무엇일까요? 과도한 양은 어떨 때인가요? 고용 관리자 및 채용 담당자들의 흥미를 유지하는 방법에 대해 알아보세요!
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 왜? 목표는 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 수백 가지의 UX 연구 방법이 있지만, 왜 이 프로젝트에 이 방법을 선택했나요? 이 방법이 도와준 목표는 무엇이었나요? 포트폴리오를 검토하는 사람들이 일반적으로 이 방법이 어디에 사용되는지 알 것이라고 가정하지 마세요. 당신의 일은 그들이 아는 것이 아니라, 당신이 이해하는 것을 보여주는 것입니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 그리고 미란다는 경쟁 분석을 통해 다른 앱의 음식 공유 과정을 팀에 익히게 했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/DisplayingUXResearchinyourDesignPortfolio4mistakesyoudontwanttomake_2.png)
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 # 정보 과다 😵‍💫
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터로 시청자를 압도하지 마세요. 디자인 포트폴리오의 목적은 과정의 각 단계와 세부 정보를 모두 보여주는 것이 아닙니다. 아무도 읽지 않을 겁니다. 포트폴리오를 하이레벨 티저로 생각해보세요. 고용 매니저가 더 알고 싶어하는 정도로 여러분의 사고, 과정, 결과물을 보여줄 수 있는 적절한 균형을 찾고 싶습니다. 특히 연구에 대해서는 방법론에 대해 과도하게 설명하거나 결과물에 대해 지나치게 자세하게 설명하는 것이 쉽기 때문에 간결함이 매우 중요합니다.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 Melvin이 케이스 스터디 섹션의 제목으로 주요 결과를 잘 요약하여 사용한 것을 정말 좋아합니다. 한 문장으로 그가 연구에서 무엇을 발견했는지 명확히 알 수 있고 더 알고 싶어졌습니다. (그것이 훌륭한 이야기력의 힘입니다)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![DisplayingUXResearchinyourDesignPortfolio4mistakesyoudontwanttomake_4.png](/assets/img/DisplayingUXResearchinyourDesignPortfolio4mistakesyoudontwanttomake_4.png)
 
@@ -63,7 +103,18 @@ Melvin이 케이스 스터디 섹션의 제목으로 주요 결과를 잘 요약
 
 예를 들어, 이곳에 있는 Melvin을 봅시다. 그가 경쟁 분석의 전체 내용을 보여주려고 한 것이라고 생각하시나요? 아니죠. 그는 포트폴리오용으로 특별히 일부 샘플을 가져와서, 이 부분에서 그의 의견을 명확히 전달할 수 있도록 한 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지 1](/assets/img/DisplayingUXResearchinyourDesignPortfolio4mistakesyoudontwanttomake_5.png)
 
@@ -73,7 +124,18 @@ Melvin이 사용자 입력으로 선별된 뷰를 만들었던 또 다른 좋은
 
 마지막 예시인데, 이는 실제 "작업 파일"을 보여주는 좋은 균형을 이루고 있습니다. 또한 Melvin이 워크샵에서 나온 상위 3개 질문을 요약하여 제시하기 때문에, 전체적으로 결과를 파악하려고 메모지를 일일히 읽어 가지 않아도 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 멜빈, 너무 멋있어요 😎
 
@@ -83,7 +145,18 @@ Melvin이 사용자 입력으로 선별된 뷰를 만들었던 또 다른 좋은
 
 ![이미지](/assets/img/DisplayingUXResearchinyourDesignPortfolio4mistakesyoudontwanttomake_8.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 디자인과의 연계 끊기
 
@@ -93,7 +166,18 @@ Melvin이 사용자 입력으로 선별된 뷰를 만들었던 또 다른 좋은
 
 ![이미지](/assets/img/DisplayingUXResearchinyourDesignPortfolio4mistakesyoudontwanttomake_9.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 유용성 테스트 결과를 토대로 하는 것이 아마 가장 쉬울 겁니다. 그러나 연구 결과를 간결하게 유지하고 디자인에서 무엇을 변경했는지 명확하게 표현하세요. 멜빈은 이를 아주 아름답게 해내죠:
 
@@ -106,7 +190,18 @@ Melvin이 사용자 입력으로 선별된 뷰를 만들었던 또 다른 좋은
 - 자산을 의도적으로 디자인하세요
 - 연구 결과를 디자인 선택과 연결해주세요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 포트폴리오 작성에 몰입하셨나요? 채용 담당자나 리크루터가 찾는 모든 것을 포트폴리오에 포함시키고 싶다면 이 체크리스트를 사용해보세요 👇
 

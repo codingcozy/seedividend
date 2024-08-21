@@ -3,16 +3,13 @@ title: "JavaScript를 사용하여 HTML과 JSON을 연결하는 방법"
 description: ""
 coverImage: "/assets/img/2024-05-01-HowtoConnectHTMLwithJSONUsingJavaScriptABeginnersGuide_0.png"
 date: 2024-05-01 23:21
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-01-HowtoConnectHTMLwithJSONUsingJavaScriptABeginnersGuide_0.png
 tag: Tech
 originalTitle: "How to Connect HTML with JSON Using JavaScript: A Beginner’s Guide"
 link: "https://medium.com/@dizzpy/how-to-connect-html-with-json-using-javascript-a-beginners-guide-25e94306fa0f"
 isUpdated: true
 ---
-
-
-
 
 ![이미지](/assets/img/2024-05-01-HowtoConnectHTMLwithJSONUsingJavaScriptABeginnersGuide_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 시작하기 전에 다음이 필요합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - HTML 및 JavaScript의 기본 지식.
 - 코드 편집기(예: Visual Studio Code).
@@ -49,7 +57,18 @@ JSON 데이터를 표시하기 위한 HTML 구조를 설정하는 것부터 시�
 </html>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 HTML 구조에서는 JSON 데이터를 표시할 `div` 요소를 id가 "dataDisplay"인 요소로 설정했습니다.
 
@@ -65,7 +84,18 @@ JSON 데이터를 표시하기 위한 HTML 구조를 설정하는 것부터 시�
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 JSON 데이터는 사람의 이름, 나이, 도시를 나타냅니다.
 
@@ -75,31 +105,42 @@ JSON 데이터를 표시하기 위한 HTML 구조를 설정하는 것부터 시�
 
 ```js
 document.addEventListener("DOMContentLoaded", function () {
-    fetch('data.json')
-        .then(response => response.json())
-        .then(data => {
-            const dataDisplay = document.getElementById("dataDisplay");
+  fetch("data.json")
+    .then((response) => response.json())
+    .then((data) => {
+      const dataDisplay = document.getElementById("dataDisplay");
 
-            // JSON 데이터를 표시하는 HTML 요소 생성
-            const nameElement = document.createElement("p");
-            nameElement.textContent = "이름: " + data.name;
+      // JSON 데이터를 표시하는 HTML 요소 생성
+      const nameElement = document.createElement("p");
+      nameElement.textContent = "이름: " + data.name;
 
-            const ageElement = document.createElement("p");
-            ageElement.textContent = "나이: " + data.age;
+      const ageElement = document.createElement("p");
+      ageElement.textContent = "나이: " + data.age;
 
-            const cityElement = document.createElement("p");
-            cityElement.textContent = "도시: " + data.city;
+      const cityElement = document.createElement("p");
+      cityElement.textContent = "도시: " + data.city;
 
-            // 요소들을 "dataDisplay" div에 추가
-            dataDisplay.appendChild(nameElement);
-            dataDisplay.appendChild(ageElement);
-            dataDisplay.appendChild(cityElement);
-        })
-        .catch(error => console.error("JSON 데이터를 가져오는 중 오류 발생:", error));
+      // 요소들을 "dataDisplay" div에 추가
+      dataDisplay.appendChild(nameElement);
+      dataDisplay.appendChild(ageElement);
+      dataDisplay.appendChild(cityElement);
+    })
+    .catch((error) => console.error("JSON 데이터를 가져오는 중 오류 발생:", error));
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 JavaScript 코드는 fetch API를 사용하여 data.json에서 JSON 데이터를로드합니다. 그런 다음 JSON 데이터 (이름, 나이 및 도시)를 표시하기 위해 HTML 요소를 생성하고 "dataDisplay" div에 추가합니다.
 
@@ -109,6 +150,17 @@ document.addEventListener("DOMContentLoaded", function () {
 
 이것은 당신의 웹 개발 여정의 시작에 불과합니다. 이 기본 지식을 바탕으로 더 많은 고급 기능을 탐색하고, 상호 작용형 웹 애플리케이션을 만들고 사용자를 참여시킬 동적 웹 사이트를 구축할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 디지피 | 즐거운 코딩! 🖥️🥰

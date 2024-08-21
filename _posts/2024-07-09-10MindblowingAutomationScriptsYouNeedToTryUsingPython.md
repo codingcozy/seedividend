@@ -3,15 +3,13 @@ title: "파이썬으로 꼭 시도해볼 10가지 놀라운 자동화 스크립�
 description: ""
 coverImage: "/assets/img/2024-07-09-10MindblowingAutomationScriptsYouNeedToTryUsingPython_0.png"
 date: 2024-07-09 14:49
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-10MindblowingAutomationScriptsYouNeedToTryUsingPython_0.png
 tag: Tech
 originalTitle: "10 Mindblowing Automation Scripts You Need To Try Using Python"
 link: "https://medium.com/pythoneers/10-mindblowing-automation-scripts-you-need-to-try-using-python-8bd935f88125"
 isUpdated: true
 ---
-
-
 
 ## 시도해볼 자동화 스크립트 — 파트 8
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 # 1. 클립보드 관리자 📋
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 번쯤 복사한 텍스트들을 여러 개 동시에 다루다가 무엇을 복사했는지 헷갈리는 일이 있으셨나요? 하루 종일 복사한 모든 것을 추적할 수 있는 툴을 가지고 싶다고 생각해보신 적이 있으신가요?
 

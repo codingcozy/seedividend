@@ -3,17 +3,13 @@ title: "Tailwind CSS를 HTML 프로젝트에 추가하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How to add Tailwind CSS to your HTML project"
 link: "https://medium.com/@khazifire/how-to-add-tailwind-css-to-your-html-project-ef06fcd8dcc9"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/HowtoaddTailwindCSStoyourHTMLproject_0.png" />
 
@@ -23,7 +19,18 @@ Tailwind는 일반 CSS로는 어려움을 겪는 사람들에게 많은 도움�
 
 # 프로젝트에 Tailwind를 추가하는 방법은?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 1. 노드 설치
 
@@ -35,7 +42,18 @@ Tailwind는 일반 CSS로는 어려움을 겪는 사람들에게 많은 도움�
 node - v;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컴퓨터에 노드가 없는 경우, 공식 노드 웹사이트로 이동하여 다운로드해주세요.
 
@@ -45,21 +63,39 @@ node - v;
 
 프로젝트는 데스크탑에 만들 것이므로, 디렉토리 간 이동에 사용하는 cd 명령어를 사용하겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 cd Desktop
 
-
 mkdir 명령어는 새로운 디렉토리를 생성하는 데 사용됩니다. 이 경우에는 tailwindProject라는 새 폴더를 만들고 있습니다.
-
 
 mkdir tailwindProject
 
-
 방금 만든 폴더 안에는 몇 가지 더 폴더(src 및 styles 폴더)를 추가해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 cd tailwindProject
@@ -73,7 +109,18 @@ mkdir src styles
 
 # 3. NPM을 사용하여 Tailwind CSS 설치하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 터미널에 이 명령어를 입력하세요:
 
@@ -87,7 +134,18 @@ Tailwind에는 테일윈드 테마를 사용자 정의하는 구성 파일이 �
 npx tailwindcss init
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 가장 좋아하는 코드 편집기로 프로젝트를 열어보세요. Visual Studio Code (VSCode)를 사용 중이라면 터미널에 다음 명령어를 입력하면 프로젝트가 자동으로 열립니다.
 
@@ -99,7 +157,18 @@ code .
 
 구성 파일은 tailwind가 tailwind 클래스를 사용하는 템플릿 파일을 어디에서 찾을지 알려주는 데 사용됩니다. 이것은 중요한데, tailwind는 그 경로를 사용하여 HTML 파일을 클래스로 스캔하고 그 클래스를 스타일 시트에 추가합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 tailwind.config.js 파일 안에, 3단계에서 생성된 파일에 html 파일의 경로를 content에 추가하세요.
 
@@ -117,7 +186,18 @@ module.exports = {
 
 # 5. CSS에 Tailwind 지시문 추가하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 styles 폴더 안에 tailwind.css 또는 원하는 이름으로 CSS 파일을 만들어 주세요. 그리고 다음 내용을 추가해 주세요:
 
@@ -131,7 +211,18 @@ tailwind 지시문 이외에도 해당 파일을 사용하여 사용자 정의 C
 
 # 6. Tailwind CLI 빌드 프로세스 시작
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 거의 다 왔어요. 다음 단계는 유틸리티 클래스를 포함하는 CSS 파일을 만드는 것입니다.
 
@@ -145,7 +236,18 @@ tailwind 지시문 이외에도 해당 파일을 사용하여 사용자 정의 C
 },
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 스크립트는 테일윈드 디렉티브가 포함된 파일을 입력으로 사용하여 프로젝트에서 사용되는 모든 유틸리티 클래스를 포함하는 CSS를 생성합니다.
 
@@ -157,7 +259,18 @@ tailwind 지시문 이외에도 해당 파일을 사용하여 사용자 정의 C
 npm run dev
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 거기에 추가로 매번 프로젝트를 시작할 때마다 사용될 것입니다.
 
@@ -185,7 +298,18 @@ html
 </html>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 8. 라이브 서버로 테스트해보세요
 

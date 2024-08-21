@@ -3,16 +3,13 @@ title: "Angular에서 폼 유효성을 갖춘 인풋 요소 만들기"
 description: ""
 coverImage: "/assets/img/2024-05-02-BuildingaCustomInputComponentwithFormValidationinAngular_0.png"
 date: 2024-05-02 00:18
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-02-BuildingaCustomInputComponentwithFormValidationinAngular_0.png
 tag: Tech
 originalTitle: "Building a Custom Input Component with Form Validation in Angular"
 link: "https://medium.com/@hish.abdelshafouk/building-a-custom-input-component-with-form-validation-in-angular-fa3f93d5363e"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-05-02-BuildingaCustomInputComponentwithFormValidationinAngular_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 새로운 Angular 프로젝트 생성하기:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 ng new custom-input-project
@@ -36,7 +44,18 @@ ng generate component custom-input
 
 ## 디렉토리 구조:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 사용자 정의 입력 프로젝트/
@@ -63,7 +82,18 @@ CustomInputComponent는 입력 필드를 캡슐화하고 다양한 입력 유형
 
 ## 컴포넌트 구조(custom-input.component.ts):
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 The CustomInputComponent TypeScript file (custom-input.component.ts):
 
@@ -98,7 +128,18 @@ Component Template (custom-input.component.html):
 
 The CustomInputComponent HTML template (custom-input.component.html):
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <div class="form-group">
@@ -125,7 +166,18 @@ The CustomInputComponent HTML template (custom-input.component.html):
 
 # 3. 폼에서 사용자 정의 입력 구현하기:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용자 지정 입력 구성 요소를 반응형 양식 내에서 통합하는 것은 Angular 양식 환경 내에서의 기능을 보여줍니다.
 
@@ -155,7 +207,18 @@ export class AppComponent implements OnInit {
 
 상위 컴포넌트의 템플릿 (app.component.html):
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <form [formGroup]="form">
@@ -176,18 +239,29 @@ export class AppComponent implements OnInit {
 
 # 4. Custom Input Component 테스트하기:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용자 지정 입력 구성 요소의 유효성 및 기능을 서로 다른 입력 유형 및 유효성 검사 시나리오에 걸쳐 검증하고 테스트하는 것이 중요합니다.
 
 구성 요소 테스트 (custom-input.component.spec.ts):
 
 ```js
-import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { ReactiveFormsModule, FormGroup, FormBuilder } from '@angular/forms';
-import { CustomInputComponent } from './custom-input.component';
+import { ComponentFixture, TestBed } from "@angular/core/testing";
+import { ReactiveFormsModule, FormGroup, FormBuilder } from "@angular/forms";
+import { CustomInputComponent } from "./custom-input.component";
 
-describe('CustomInputComponent', () => {
+describe("CustomInputComponent", () => {
   let component: CustomInputComponent;
   let fixture: ComponentFixture<CustomInputComponent>;
   let formBuilder: FormBuilder;
@@ -206,17 +280,17 @@ describe('CustomInputComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create the component', () => {
+  it("should create the component", () => {
     expect(component).toBeTruthy();
   });
 
-  it('should display the input field', () => {
+  it("should display the input field", () => {
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('input')).toBeTruthy();
+    expect(compiled.querySelector("input")).toBeTruthy();
   });
 
-  it('should validate required field', () => {
-    const control = formBuilder.control('', { required: true });
+  it("should validate required field", () => {
+    const control = formBuilder.control("", { required: true });
     const form = formBuilder.group({ testInput: control });
 
     component.control = control;
@@ -224,20 +298,20 @@ describe('CustomInputComponent', () => {
 
     expect(form.valid).toBeFalsy();
 
-    const input = fixture.nativeElement.querySelector('input');
-    input.value = 'Test Value';
-    input.dispatchEvent(new Event('input'));
+    const input = fixture.nativeElement.querySelector("input");
+    input.value = "Test Value";
+    input.dispatchEvent(new Event("input"));
 
     fixture.detectChanges();
     expect(form.valid).toBeTruthy();
   });
 
-  it('should render the label', () => {
-    component.label = 'Test Label';
+  it("should render the label", () => {
+    component.label = "Test Label";
     fixture.detectChanges();
 
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('label').textContent).toContain('Test Label');
+    expect(compiled.querySelector("label").textContent).toContain("Test Label");
   });
 
   // 다양한 입력 유형, 유효성 검사 및 동작에 대한 더 구체적인 테스트 추가
@@ -246,7 +320,18 @@ describe('CustomInputComponent', () => {
 
 ## 설명:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - CustomInputComponent의 테스트 스위트에는 입력 컴포넌트의 다양한 측면을 검증하는 여러 테스트가 포함되어 있습니다.
 - 첫 번째 테스트는 CustomInputComponent의 성공적인 생성을 확인합니다.

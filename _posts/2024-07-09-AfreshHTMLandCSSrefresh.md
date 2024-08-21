@@ -3,15 +3,13 @@ title: "2024년 최신 HTML과 CSS 업데이트 새로운 기능과 변화"
 description: ""
 coverImage: "/assets/img/2024-07-09-AfreshHTMLandCSSrefresh_0.png"
 date: 2024-07-09 13:59
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-AfreshHTMLandCSSrefresh_0.png
 tag: Tech
 originalTitle: "A fresh HTML and CSS refresh"
 link: "https://medium.com/gitconnected/a-fresh-html-and-css-refresh-d9008d012cb5"
 isUpdated: true
 ---
-
-
 
 네, 다음과 같이 Markdown 형식으로 table 태그를 변경할 수 있습니다:
 
@@ -20,7 +18,18 @@ isUpdated: true
 | Row 1, Col 1 | Row 1, Col 2 |
 | Row 2, Col 1 | Row 2, Col 2 |
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - CSS 팁
 
@@ -51,7 +60,18 @@ isUpdated: true
 
 ## 컨테이너 쿼리
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1️⃣ 이 내용은 무엇인가요?
 

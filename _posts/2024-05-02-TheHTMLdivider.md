@@ -3,16 +3,13 @@ title: "HTML | 구분자 정리"
 description: ""
 coverImage: "/assets/img/2024-05-02-TheHTMLdivider_0.png"
 date: 2024-05-02 00:37
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-02-TheHTMLdivider_0.png
 tag: Tech
 originalTitle: "The HTML | divider"
 link: "https://medium.com/@mikael-ainalem/the-html-divider-e724ad7f82d8"
 isUpdated: true
 ---
-
-
-
 
 ## 섹션 구분기를 활용한 창의적인 방법에 관한 이야기
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 대부분의 경우, 이러한 섹션에는 명확한 구분선이 포함되어 있습니다. 두 섹션을 분리하는 수직 선이 일반적으로 있습니다. 이 구분은 서로 다른 배경색을 사용하여 만드는 것이 전형적인 방법입니다. 독자에게 뚜렷한 차이점을 알려줌으로써 웹 페이지를 통해 읽는 동안 한 섹션에서 다른 섹션으로 이동하고 있다는 것을 분명하게 알려줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 수직선이 꼭 필요한가요? 이 구분선을 조금 다양하게 바꿔볼까요? 이 기사에서는 창의적으로 구분선의 모양을 변경하는 방법을 살펴봅니다. 함께 해봐요!
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 ## 대각선 상에
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저 가장 명백한 것은 줄을 기울이는 것입니다. 회전 및 기울인 웹 콘텐츠를 만드는 몇 가지 방법이 있습니다. 어떻게 하면 이와 같은 분할자를 만들 수 있는지 살펴보겠습니다. SVG를 사용하여 위와 같은 분할자가 어떻게 보이는지 확인해 봅시다. 내 의견으로는 SVG가 간단한 2D 그래픽 및 자체 콘텐츠 그리기 작업에 가장 쉬운 방법이라고 생각합니다.
 
@@ -51,7 +70,18 @@ isUpdated: true
 
 위 코드는 100x100 단위의 크기 조정 가능한 벡터를 구성합니다. SVG 컨테이너 내부에는 배경에 해당하는 사각형(rect)과 삼각형을 형성하는 path가 있습니다. 삼각형만 만들고 컨테이너의 CSS 배경색 규칙을 설정할 수도 있었지만, 위의 방법이 더 가독성이 좋습니다. 삼각형은 사실상 네 개의 선으로 세 점(0, 0), (100, 0), (100, 100)을 연결하는 채워진 경로(path)입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 또 하나 중요한 점은 preserveAspectRatio 속성이 있는데, 이 값은 none으로 설정되어 있습니다. 이 속성은 분할 요소를 늘리고, 따라서 웹 페이지를 크기 조정할 때 분할선이 반응형으로 만들어집니다.
 
@@ -61,7 +91,18 @@ isUpdated: true
 
 참 멋지죠? 대각선 라인 하나만으로도 웹 페이지가 돋보이고 조금 덜 평범해 보입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 곡선 구분선
 
@@ -71,7 +112,18 @@ Inkscape(오픈 소스 벡터 편집 도구)에서 삼각형을 곡선 구분선
 
 ![image](https://miro.medium.com/v2/resize:fit:920/1*uvW3JsTN9zd-WUlOgrb7CA.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Inkscape의 XML 편집기(편집 - XML 편집기)를 살펴보면 다음과 같은 마크업이 나타납니다.
 
@@ -90,7 +142,18 @@ Inkscape의 XML 편집기(편집 - XML 편집기)를 살펴보면 다음과 같�
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1000/1*XKSRA8gwMwCtptNrmNMfxw.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 창의적으로 생각하기
 
@@ -100,6 +163,17 @@ Inkscape의 XML 편집기(편집 - XML 편집기)를 살펴보면 다음과 같�
 
 그럼 이만 마치도록 하겠습니다! 지금까지 읽어주셔서 감사합니다. HTML 디바이더가 어떻게 보일지, 행운을 빕니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이런 기사를 즐기셨다면 꼭 클랩(clap), 공유하고 제 작품을 지원해주세요. 건배!

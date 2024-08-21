@@ -3,17 +3,13 @@ title: "TypeScript의 객체 리터럴 타입 이해하기 특이점과 인사�
 description: ""
 coverImage: "/assets/img/2024-06-22-UnderstandingTypeScriptsHandlingofObjectLiteralTypesTheQuirksandInsights_0.png"
 date: 2024-06-22 03:21
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-UnderstandingTypeScriptsHandlingofObjectLiteralTypesTheQuirksandInsights_0.png
 tag: Tech
 originalTitle: "Understanding TypeScript’s Handling of Object Literal Types: The Quirks and Insights"
 link: "https://medium.com/stackademic/understanding-typescripts-handling-of-object-literal-types-the-quirks-and-insights-c1c8b4e49645"
 isUpdated: true
 ---
-
-
-
-
 
 ![Understanding TypeScript's Handling of Object Literal Types](/assets/img/2024-06-22-UnderstandingTypeScriptsHandlingofObjectLiteralTypesTheQuirksandInsights_0.png)
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 기본적으로, TypeScript는 이러한 상황에서 도와줍니다 (조금 미묘한 암시가 있음):-
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![UnderstandingTypeScriptsHandlingofObjectLiteralTypesTheQuirksandInsights_1](/assets/img/2024-06-22-UnderstandingTypeScriptsHandlingofObjectLiteralTypesTheQuirksandInsights_1.png)
 
@@ -34,7 +40,18 @@ isUpdated: true
 
 # 이슈 설명
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용자를 생성하는 데 사용되는 기본 함수입니다. 기능이 작성되지 않은 빈 함수이지만, 여기서 다루는 문제는 기능의 유무가 아닙니다. 문제는 거의 동일한 약간의 차이가 있는 두 가지 다른 방법으로 호출할 때 발생합니다.
 
@@ -42,7 +59,18 @@ isUpdated: true
 
 함수에 기대하는 매개변수(이름 및 isPaid)에 email이라는 추가적인 인수를 전달하여 함수를 호출하면 오류가 발생합니다. 이는 함수를 선언할 때 정의되지 않았기 때문에 예상하지 못했던 것입니다. 꽤 기본적인 문제죠?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 우리가 객체를 함수의 인수로 전달하는 방식을 약간 수정하면 이 오류가 말이 안 되기 시작합니다. 우리가 바로 전달한 객체를 변수에 할당한 뒤에 변수를 함수에 전달하는 방식으로 바꾸는 것인데, 이전과 동일한 오류가 발생해야 했지만 오류가 발생하지 않습니다.
 
@@ -52,7 +80,18 @@ isUpdated: true
 
 # 이런 일이 발생한 이유
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 TypeScript의 설계 결정 사항 중 Excess Property Checking과 Structural Typing 때문에 오류가 발생합니다.
 
@@ -62,8 +101,18 @@ TypeScript의 설계 결정 사항 중 Excess Property Checking과 Structural Ty
 
 ## 관용구에는 말이 있듯이
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-22-UnderstandingTypeScriptsHandlingofObjectLiteralTypesTheQuirksandInsights_6.png" />
 
@@ -73,8 +122,18 @@ TypeScript의 설계 결정 사항 중 Excess Property Checking과 Structural Ty
 
 유연성: 객체를 다양한 맥락에서 더 다재다능하게 사용할 수 있습니다. 개발자는 코드의 관련없는 부분에서 오류를 일으키지 않고 추가적인 속성을 가진 객체를 생성할 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 편의성: 이 기능은 복잡한 데이터 구조를 다룰 때나 다른 목적을 위해 객체에 추가 정보를 확장할 때 특히 객체 생성 및 조작을 용이하게 만듭니다.
 
@@ -84,7 +143,18 @@ TypeScript의 설계 결정 사항 중 Excess Property Checking과 Structural Ty
 
 방법 1: 변경할 변수의 유형을 명시적으로 주석으로 표시합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-22-UnderstandingTypeScriptsHandlingofObjectLiteralTypesTheQuirksandInsights_7.png" />
 
@@ -94,7 +164,18 @@ TypeScript의 설계 결정 사항 중 Excess Property Checking과 Structural Ty
 
 <img src="/assets/img/2024-06-22-UnderstandingTypeScriptsHandlingofObjectLiteralTypesTheQuirksandInsights_8.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서는 함수를 만들 때 매개변수가 엄격하게 형식화되므로 TypeScript가 알 수 없는 속성과 관련된 오류를 발생시킵니다.
 
@@ -105,7 +186,18 @@ TypeScript의 설계 결정 사항 중 Excess Property Checking과 Structural Ty
 여기서는 유형 안전성을 위해 인터페이스를 사용하고, 추가 속성이 필요한 사용 사례에 대해 기본 인터페이스를 확장하고 있습니다.
 그러나 기본 인터페이스를 추가 속성과 함께 사용할 때 TypeScript가 알 수 없는 속성에 대한 오류를 내보내는 것을 볼 수 있습니다. 이는 맥락에 따라 쉽게 완화될 수 있으며 두 가지 목적을 제공합니다:-
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 만약 추가적인 이메일 속성이 필요한 상황이라면, 오류를 완화하기 위해 확장된 인터페이스를 사용할 수 있습니다.
 - 만약 추가적인 이메일 속성이 필요하지 않은 상황이라면, 인터페이스는 올바른 유형 확인기로 작용하여 이메일 매개변수를 잘못 설정한 오류를 알려줍니다.
@@ -116,7 +208,18 @@ TypeScript의 설계 결정 사항 중 Excess Property Checking과 Structural Ty
 
 # Stackademic 🎓
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 끝까지 읽어주셔서 감사합니다! 이제 가시기 전에:
 

@@ -3,17 +3,13 @@ title: "Nextjs 13 Link 및 네비게이션 사용 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # 링크 및 탐색
 
@@ -35,7 +31,18 @@ function Home() {
 export default Home
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 예제에는 여러 링크가 사용되었습니다. 각각은 경로 (href)를 알려진 페이지로 매핑합니다:
 
@@ -47,7 +54,18 @@ Statis Generation을 사용하는 페이지에서는 뷰포트에 있는(처음�
 
 ## 동적 경로에 링크하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인터폴레이션을 사용하여 동적 루트 세그먼트를 만들 수도 있습니다. 예를 들어, 컴포넌트에 전달된 포스트 목록을 보여주려면 다음과 같이 할 수 있습니다:
 
@@ -66,7 +84,18 @@ function Posts({ posts }) {
 
 또는 URL 객체를 사용하여:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import Link from "next/link";
@@ -100,7 +129,18 @@ export default Posts;
 
 ## 라우터 주입하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트 컴포넌트에서 라우터 객체에 액세스하려면 useRouter 또는 withRouter를 사용할 수 있습니다.
 
@@ -110,7 +150,18 @@ export default Posts;
 
 next/link는 대부분의 라우팅 요구 사항을 충족할 수 있어야하지만, next/router의 문서를 살펴보면 해당되지 않는 클라이언트 측 탐색도 할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 useRouter를 사용하여 기본 페이지 탐색을 하는 방법을 보여주는 예시입니다:
 
@@ -128,7 +179,18 @@ export default function ReadMore() {
 
 얕은 라우팅을 통해 URL을 변경하면 getServerSideProps, getStaticProps 및 getInitialProps를 다시 실행하지 않고도 데이터를 변경할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 업데이트된 경로명과 쿼리를 상태(state)를 잃지 않고 router 객체를 통해 받게 됩니다 (useRouter 또는 withRouter에서 추가됨).
 
@@ -157,7 +219,18 @@ export default Page;
 
 URL은 /?counter=10으로 업데이트되며 페이지가 교체되지 않고 경로의 상태만 변경됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래와 같이 componentDidUpdate를 통해 URL 변경 사항을 감시할 수도 있어요:
 
@@ -175,7 +248,18 @@ componentDidUpdate(prevProps) {
 
 Shallow 라우팅은 현재 페이지에서만 URL 변경 사항에 작동합니다. 예를 들어 다른 페이지인 pages/about.js가 있다고 가정했을 때 다음과 같이 작동해요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 router.push("/?counter=10", "/about?counter=10", { shallow: true });
@@ -185,4 +269,15 @@ router.push("/?counter=10", "/about?counter=10", { shallow: true });
 
 미들웨어와 함께 얕은 라우팅을 사용할 때는 이전과 같이 미들웨어 없이 사용될 때와 달리 새 페이지가 현재 페이지와 일치하는지 확인하지 않습니다. 미들웨어가 동적으로 다시 쓰기를 수행할 수 있기 때문에, 클라이언트 측에서 데이터 가져오기를 생략하고 얕은 라우팅으로 변경되므로 얕은 경로 변경은 항상 얕은 것으로 처리되어야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

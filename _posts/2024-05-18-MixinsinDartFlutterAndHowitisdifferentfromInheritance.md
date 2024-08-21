@@ -3,15 +3,13 @@ title: "Dart Flutter에서의 믹스인 사용하기"
 description: ""
 coverImage: "/assets/img/2024-05-18-MixinsinDartFlutterAndHowitisdifferentfromInheritance_0.png"
 date: 2024-05-18 22:20
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-18-MixinsinDartFlutterAndHowitisdifferentfromInheritance_0.png
 tag: Tech
 originalTitle: "Mixins in Dart (Flutter) — And How it is different from Inheritance ?"
 link: "https://medium.com/flutter-community/exploring-mixins-in-dart-flutter-43514cd9952b"
 isUpdated: true
 ---
-
-
 
 <img src="/assets/img/2024-05-18-MixinsinDartFlutterAndHowitisdifferentfromInheritance_0.png" />
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 믹스인이란 무엇인가요? 상속과 어떻게 다른가요? 상속과 어떤 점이 다른지 알고 계시면 섹션 2로 스크롤하셔서 믹스인을 구현하는 방법을 확인해보세요 :) 모르신다면 여기에서 자세히 설명해 드리겠습니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 섹션 1: 정의부터 시작합시다
 
@@ -31,7 +40,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-05-18-MixinsinDartFlutterAndHowitisdifferentfromInheritance_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 무엇을 관찰하셨나요?
 
@@ -42,7 +62,18 @@ isUpdated: true
 
 자세한 통찰력을 얻기 위해 다음 정의를 확인해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 is-a 관계: 두 클래스 간의 직접적인 관계로 정의될 수 있으며, 한 클래스(예: Class B)가 다른 클래스(예: Class A)의 하위 클래스인 경우입니다. 이를 상속이라고 합니다.
 
@@ -52,7 +83,18 @@ has-a 관계: 한 클래스(예: Class A)가 다른 클래스(예: Class B)의 �
 
 마지막으로 이것이 프로그래밍적으로 어떻게 보이는지 살펴봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 _주의: 코멘트에 집중해주세요._
 
@@ -75,7 +117,18 @@ class Samsung extends Mobile {
 
 이제 이미 mixin의 정의를 읽으셨다면, 다시 한번 읽어보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 믹신을 사용하는 클래스들은 모든 속성과 기능을 상속받지만 서브클래스로 지칭할 수는 없어요.
 
@@ -85,7 +138,18 @@ class Samsung extends Mobile {
 
 하지만, 차이점은 클래스 자체가 믹신의 인스턴스를 보유하지 않고 그냥 상속한다는 것입니다. 엄격한 계층 구조는 엄격한 부모-자식 관계의 계층 구조와 결합되어 있지 않으므로 그렇죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 유연성을 통해 클래스들은 믹스인이 제공하는 기능을 직접적인 "is-a relationship" 없이 활용할 수 있습니다.
 
@@ -95,7 +159,18 @@ class Samsung extends Mobile {
 
 ## Section 2 : 믹스인 구현
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 Dart와 Flutter에서 이들을 어떻게 구현할 수 있는지 살펴봐요.
 
@@ -113,7 +188,18 @@ mixin MixinLogger {
 
 2. 믹신 사용: 클래스에서 믹신을 사용하려면 믹신의 이름이 따르는 with 키워드를 사용해요. 이를 통해 클래스는 믹신에서 정의된 기능을 상속받을 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 class APIService with MixinLogger {
@@ -147,7 +233,18 @@ void main(){
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 무엇이 출력될까요?
 
@@ -157,7 +254,18 @@ void main(){
 
 왜 그럴까요???? 같은 답변이지만 이번에는 이해하리라고 기대합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 믹신은 클래스와 믹신이 제공하는 기능 사이에 "has-a" 관계와 유사하지만 정확히 동일하지는 않는 관계를 수립합니다. 이를 통해 믹신에서 정의된 메서드와 속성에 액세스할 수 있습니다.
 
@@ -167,7 +275,18 @@ void main(){
 
 이제 더 많은 기능을 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](https://miro.medium.com/v2/resize:fit:996/1*j5nDu39KHxe3669LfJKieg.gif)
 
@@ -177,7 +296,18 @@ mixin에서의 on 키워드:
 
 원하는 클래스의 하위 클래스에서만 사용되도록 mixin을 제한하려면 mixin 클래스를 on 키워드와 함께 선언해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Markdown 형식에 맞게 표 태그를 변경해주세요.
 
@@ -202,7 +332,18 @@ class Product{
 
 여기서 Discount mixin은 제한되어서 Product 클래스 Type의 하위 클래스와 함께만 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 컴파일 시간에 오류가 발생하여 텔레비전이 Product를 구현해야 함을 지정
@@ -227,7 +368,18 @@ class Television extends Product with MixinDiscount {
 
 하나의 함수를 포함하는 MixinA 및 MixinB를 선언해봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 mixin MixinA{
@@ -264,7 +416,18 @@ void main(){
 
 Dart가 대비할 준비가 되어 있습니다 :)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 mixin MixinA {
@@ -295,7 +458,18 @@ void main() {
 
 이 상황에서 클래스 C는 믹신 A와 B에서 foo() 메서드를 모두 얻게 됩니다. 하지만 충돌이 있기 때문에 Dart는 어떤 것을 사용할지 결정해야 합니다. Dart는 마지막으로 사용된 믹신인 B의 foo() 메서드를 선택합니다. 따라서 클래스 C의 인스턴스를 만들고 foo()를 호출하면 mixin B의 함수가 호출됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여러 상속을 지원하는 프로그래밍 언어는 다이아몬드 문제로 알려진 이러한 시나리오에 대한 복잡성을 가지고 있습니다. 그런데 Dart에는 쉽죠? :)
 
@@ -305,7 +479,18 @@ void main() {
 
 ![image](https://miro.medium.com/v2/resize:fit:1280/1*R6bQiuW46ycpDFAI2tSUcw.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 첫 블로그 포스팅이에요! 도움이 되었으면 좋겣아요 :)
 

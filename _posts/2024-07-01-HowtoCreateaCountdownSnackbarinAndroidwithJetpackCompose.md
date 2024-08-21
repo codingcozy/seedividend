@@ -3,16 +3,13 @@ title: "Jetpack Compose로 안드로이드 카운트다운 스낵바 만드는 �
 description: ""
 coverImage: "/assets/img/2024-07-01-HowtoCreateaCountdownSnackbarinAndroidwithJetpackCompose_0.png"
 date: 2024-07-01 20:04
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-01-HowtoCreateaCountdownSnackbarinAndroidwithJetpackCompose_0.png
 tag: Tech
 originalTitle: "How to Create a Countdown Snackbar in Android with Jetpack Compose"
 link: "https://medium.com/@kappdev/how-to-create-a-countdown-snackbar-in-android-with-jetpack-compose-d58bcd8011cf"
 isUpdated: true
 ---
-
-
-
 
 환영합니다 👋
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 <img src="/assets/img/2024-07-01-HowtoCreateaCountdownSnackbarinAndroidwithJetpackCompose_0.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 스낵바 카운트다운 생성하기
 
@@ -73,7 +81,18 @@ private fun SnackbarCountdown(
 
 # 카운트다운Snackbar 함수 설정하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 SnackbarCountdown을 구성했으니 CountdownSnackbar을 정의할 수 있습니다. 이 composable은 외관과 동작을 사용자 정의하기 위해 여러 매개변수를 가져야 합니다.
 
@@ -99,7 +118,18 @@ fun CountdownSnackbar(
 
 ⏳ modifier ➜ Snackbar에 적용할 Modifier.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ⏳ durationInSeconds ➜ 카운트다운 타이머의 기간.
 
@@ -109,7 +139,18 @@ fun CountdownSnackbar(
 
 ⏳ containerColor, contentColor, actionColor, actionContentColor, dismissActionContentColor ➜ 다양한 색상 스타일링 매개변수.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # CountdownSnackbar 구현
 
@@ -130,7 +171,18 @@ LaunchedEffect(snackbarData) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 40밀리초 간격을 사용하면 인간의 눈에 매끄러운 25 FPS 진행 업데이트가 발생합니다. 특정 요구 사항에 맞게 조정해 주셔도 좋습니다.
 
@@ -168,7 +220,18 @@ val dismissActionComposable: (@Composable () -> Unit)? = if (snackbarData.visual
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Snackbar 표시
 
@@ -205,7 +268,18 @@ Snackbar(
 
 축하합니다🥳! 성공적으로 만들었습니다👏. 전체 코드 구현은 GitHub Gist에서 확인할 수 있습니다🧑‍💻. 이제 이를 어떻게 활용할 수 있는지 알아보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 광고
 
@@ -215,7 +289,18 @@ Snackbar(
 
 # 실용적인 예시 💁
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 방법을 실제로 사용하여 사용자가 계정을 삭제하고 이 결정을 5초 동안 취소할 수 있는 예제를 만들어 봅시다.
 
@@ -266,8 +351,18 @@ Box(Modifier.fillMaxSize()) {
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/1*7-Q98heTXND5N7XbAEKBYQ.gif" />
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 내용도 좋아할지도요 👇
 

@@ -3,17 +3,13 @@ title: "주석이 포함된 예시를 통해 정규 표현식이 하는 일을 �
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Lessons from open-source Describe what your regex does with a commented example"
 link: "https://medium.com/dev-genius/lessons-from-open-source-describe-what-your-regex-does-with-a-commented-example-fb5bfe8df777"
 isUpdated: true
 ---
-
-
-
-
 
 이 강의는 Nextjs 소스 코드에서 가져왔어요. 이 글에서는 정규 표현식이 무엇을 하는지 설명하는 예제와 함께 주석을 추가하는 것이 왜 유용한지 배우게 될 거에요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ## 정규 표현식을 설명하세요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/Lessonsfromopen-sourceDescribewhatyourregexdoeswithacommentedexample_0.png" />
 
@@ -44,7 +51,18 @@ isUpdated: true
 
 정규 표현식을 작성하는 것이 멋지지만 예시와 함께 하는 주석은 미래의 본인과 다른 개발자에게 그 정규 표현식이 무엇을 하는지 이해하는 데 도움이 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 chatGPT에게 정규 표현식 `/^[^\n]*\n/`을 설명해달라고 요청했어요.
 
@@ -57,7 +75,18 @@ isUpdated: true
 
 이를 모두 종합하면:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - `/^[^\n]*\n/`은 패턴을 매치합니다. 이 패턴은 줄의 처음부터 시작하여 새 줄이 아닌 문자들이 0개 이상 나오며, 줄 바꿈 문자로 끝납니다. 이 패턴은 기본적으로 텍스트 한 줄 전체에 일치합니다.
 

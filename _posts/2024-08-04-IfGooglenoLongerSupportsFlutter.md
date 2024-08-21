@@ -3,16 +3,13 @@ title: "구글이 더 이상 Flutter를 지원하지 않는다면"
 description: ""
 coverImage: "/assets/img/2024-08-04-IfGooglenoLongerSupportsFlutter_0.png"
 date: 2024-08-04 19:32
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-04-IfGooglenoLongerSupportsFlutter_0.png
 tag: Tech
 originalTitle: "If Google no Longer Supports Flutter"
 link: "https://medium.com/gitconnected/if-google-no-longer-supports-flutter-9c5b22ba6a17"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-08-04-IfGooglenoLongerSupportsFlutter_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 Flutter는 모바일 앱을 위한 우아한 UI를 만드는 데 뛰어난 오픈 소스 UI 프레임워크입니다. 몇 줄의 코드로 5개 이상의 플랫폼을 대상으로 하는 멋진 앱을 배포할 수 있습니다. 여러 플랫폼을 위한 단일 코드베이스를 유지하는 것은 중요한 장점입니다. 그러나 오픈 소스 프레임워크인 Flutter에는 도전 과제가 있습니다. 현재 12,000개 이상의 보고된 이슈가 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 플러터 커뮤니티가 성장하고 있지만, Google 플러터 개발자들이 코드를 검토하고 병합하는 데 상당한 시간이 걸릴 수 있다는 사실을 알고 계세요. 그 결과, 문제는 프레임워크의 여러 버전에 걸쳐 지속될 수 있으며, 개발자들은 해결책을 찾아야 할 수도 있습니다.
 
@@ -32,7 +40,18 @@ Flutter는 모바일 앱을 위한 우아한 UI를 만드는 데 뛰어난 오�
 
 또 다른 중요한 문제는 플러터 패키지 및 플러그인의 상태입니다. 프로젝트에 기능을 추가하는 데 필수적인 많은 패키지들이 시간이 지날수록 사용되지 않게 될 수 있습니다. 특히 일부는 폐기된 Objective-C와 같은 언어로 작성되어 있으며, 이 언어들이 새로운 표준으로 업데이트되지 않은 경우도 있습니다. 이로 인해 호환성 문제와 런타임 경고가 발생할 수 있으며, 개발 프로세스가 번거로워질 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, 몇 년 동안 유지 보수되지 않은 패키지에 의존해 왔을 수 있습니다. 루틴 업데이트나 새 프로젝트 빌드 중에 여러 가지 사용이 중단된 경고 메시지(deprecation warnings)를 만날 수도 있습니다. 이러한 경고는 작은 귀찮음부터 앱이 제대로 작동하지 못하게 하는 중요한 장애물까지 다양하게 나타날 수 있습니다.
 
@@ -42,7 +61,18 @@ Flutter는 모바일 앱을 위한 우아한 UI를 만드는 데 뛰어난 오�
 
 버전 관리도 중요한 문제입니다. 한 해 전에 오래된 버전의 Flutter를 사용해 Flutter 프로젝트를 만들었다고 가정해 봅시다. 그 당시 여러 패키지와 플러그인을 함께 사용했습니다. 이제 Flutter 버전을 업데이트하기로 결정했다면, 패키지와 플러그인도 업데이트해야 할 가능성이 높습니다. 업데이트하지 않으면 호환성 문제, 사용이 중단된 경고 또는 코드 일부를 다시 작성해야 할 필요가 발생할 수도 있습니다. 모든 것이 최신 버전과 원활하게 작동하는지 확인하기 위해 방대한 테스트와 디버깅을 포함하는 이 프로세스는 때때로 머리아플 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 라이프사이클 - 앱의 주기
 
@@ -52,7 +82,18 @@ Flutter는 모바일 앱을 위한 우아한 UI를 만드는 데 뛰어난 오�
 
 내 프로젝트 중 하나에서는 permission_handler 패키지를 사용하여 권한을 관리했습니다. 사용자가 특정 필수 권한을 부여받기 전까지 다른 페이지로 이동할 수 없도록 보장해야 했습니다. 그러나 Flutter에서 여러 권한을 처리하는 것이 네이티브 코드보다 부드럽지 않았습니다. 네이티브 플랫폼은 권한을 관리하기 위한 더 견고한 시스템을 갖추어 더 정확한 제어와 사용자 경험을 제공합니다. Flutter에서는 필요한 모든 권한이 부여된 것을 확인한 후에만 계속할 수 있도록 하는 것이 번거로웠고 종종 신뢰할 수 없는 상태였는데, 이는 조각난 사용자 경험을 초래했습니다 (최신 Flutter 버전에서 해결되었을 수 있음).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 나의 시각
 
@@ -62,7 +103,18 @@ Flutter는 모바일 앱을 위한 우아한 UI를 만드는 데 뛰어난 오�
 
 Flutter를 사용하거나 Flutter를 시작하는 개발자들에게 제 조언은, 네이티브 코드로 코딩하는 것도 시작해보는 거예요. 오로지 크로스 플랫폼 기술에만 의존하지 마세요. 네이티브 코드(Swift, Kotlin)를 작성하는 것은, 어떤 크로스 플랫폼 기술로도 해결할 수 없을 수도 있는 가장 중요한 문제들을 다룰 때 가치 있을 거예요. 크로스 플랫폼 앱 기술의 역사를 되돌아보면 — React Native, Apache Cordova, Ionic 등 — 이들은 그 다음 크로스 플랫폼 기술이 나타날 때까지 몇 년 동안 유명했지만, 네이티브 기술은 항상 남아있고 발전해왔어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신이 배우고 싶은 주제에 대해 적어볼게요.
 
@@ -72,7 +124,18 @@ Flutter를 사용하거나 Flutter를 시작하는 개발자들에게 제 조언
 
 # 떠나실 때 전에
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요! 테이블 태그를 Markdown 형식으로 변경해보세요.
 

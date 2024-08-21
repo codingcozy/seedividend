@@ -3,17 +3,13 @@ title: "리액트 18에서 비즈니스 로직과 UI 컴포넌트를 분리하�
 description: ""
 coverImage: "/assets/img/2024-05-01-SeparatingBusinessLogicfromUIComponentsinReact18_0.png"
 date: 2024-05-01 18:15
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-01-SeparatingBusinessLogicfromUIComponentsinReact18_0.png
 tag: Tech
 originalTitle: "Separating⛓️ Business Logic 🧠from UI Components 🔡 in React 18"
 link: "https://medium.com/design-bootcamp/separating-%EF%B8%8F-business-logic-from-ui-components-in-react-18-aa1775b3caba"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-05-01-SeparatingBusinessLogicfromUIComponentsinReact18_0.png)
 
@@ -23,7 +19,18 @@ React는 사용자 인터페이스를 만들기 위한 인기있는 JavaScript �
 
 # 목차
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 비즈니스 로직과 UI 구성 요소를 왜 분리해야 할까요?
 - 비즈니스 로직 분리를 위한 React 18의 새로운 기능들
@@ -41,7 +48,18 @@ React는 사용자 인터페이스를 만들기 위한 인기있는 JavaScript �
 
 # React 18의 비즈니스 로직 분리를 위한 새로운 기능들
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 리액트 훅
 
@@ -51,7 +69,18 @@ React는 사용자 인터페이스를 만들기 위한 인기있는 JavaScript �
 
 리액트 18에서는 동시 모드와 서스펜스에서 개선 사항을 가져왔습니다. 동시 모드를 통해 리액트가 동시에 여러 작업을 처리하여 더 나은 성능을 제공합니다. 서스펜스는 선언적 데이터 가져오기와 코드 분할을 가능하게 하여 비동기 작업을 쉽게 다룰 수 있도록 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 비즈니스 로직 분리하기: 단계별 안내
 
@@ -61,7 +90,18 @@ React는 사용자 인터페이스를 만들기 위한 인기있는 JavaScript �
 
 ## 단계 2: 커스텀 훅 생성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지정된 비즈니스 로직을 캡슐화하기 위해 사용자 정의 훅을 생성하세요. 사용자 정의 훅은 use로 시작하는 함수입니다. 내부적으로 다른 훅을 사용할 수 있습니다.
 
@@ -69,17 +109,17 @@ React는 사용자 인터페이스를 만들기 위한 인기있는 JavaScript �
 
 ```js
 // useUserData.js
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from "react";
 
 export function useUserData() {
   const [userData, setUserData] = useState([]);
 
   useEffect(() => {
     // API에서 사용자 데이터를 가져와 상태를 업데이트합니다.
-    fetch('https://api.example.com/users')
+    fetch("https://api.example.com/users")
       .then((response) => response.json())
       .then((data) => setUserData(data))
-      .catch((error) => console.error('데이터를 가져오는 중 오류 발생:', error));
+      .catch((error) => console.error("데이터를 가져오는 중 오류 발생:", error));
   }, []);
 
   return userData;
@@ -88,7 +128,18 @@ export function useUserData() {
 
 ## 단계 3: 컴포넌트에서 사용자 정의 훅 사용하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 UI 컴포넌트 내에서 비즈니스 로직과 데이터에 접근하기 위해 사용자 정의 후크를 활용하세요. 이렇게 하면 컴포넌트가 렌더링에 집중하고, 후크가 내부 로직을 처리합니다.
 
@@ -96,8 +147,8 @@ UI 컴포넌트 내에서 비즈니스 로직과 데이터에 접근하기 위�
 
 ```js
 // UserList.js
-import React from 'react';
-import { useUserData } from './useUserData';
+import React from "react";
+import { useUserData } from "./useUserData";
 
 function UserList() {
   const userData = useUserData();
@@ -117,7 +168,18 @@ function UserList() {
 
 ## 단계 4: Suspense를 사용한 코드 분할
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Suspense를 사용하면 비동기 데이터 가져오기나 계산이 많이 필요한 컴포넌트를 코드로 나누고 지연로드할 수 있어요. 이렇게 하면 관심사를 분리하고 애플리케이션의 성능을 향상시킬 수 있어요.
 
@@ -125,8 +187,8 @@ Suspense를 사용하면 비동기 데이터 가져오기나 계산이 많이 �
 
 ```js
 // App.js
-import React, { Suspense } from 'react';
-const UserList = React.lazy(() => import('./UserList'));
+import React, { Suspense } from "react";
+const UserList = React.lazy(() => import("./UserList"));
 
 function App() {
   return (
@@ -142,7 +204,18 @@ function App() {
 
 # 리액트 18에서 비즈니스 로직 분리를 위한 고급 기술
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1. 커스텀 훅 조합
 
@@ -152,38 +225,47 @@ function App() {
 
 ```js
 // useUserData.js
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from "react";
 
 export function useUserData() {
   const [userData, setUserData] = useState([]);
 
   useEffect(() => {
     // API에서 사용자 데이터를 가져와 상태를 업데이트합니다
-    fetch('https://api.example.com/users')
+    fetch("https://api.example.com/users")
       .then((response) => response.json())
       .then((data) => setUserData(data))
-      .catch((error) => console.error('데이터를 불러오는 중 오류 발생:', error));
+      .catch((error) => console.error("데이터를 불러오는 중 오류 발생:", error));
   }, []);
 
   return userData;
 }
 
 // useFilteredUserData.js
-import { useUserData } from './useUserData';
+import { useUserData } from "./useUserData";
 
 export function useFilteredUserData(searchTerm) {
   const userData = useUserData();
 
   // 검색어를 기반으로 사용자 데이터 필터링
-  const filteredData = userData.filter((user) =>
-    user.name.toLowerCase().includes(searchTerm.toLowerCase())
-  );
+  const filteredData = userData.filter((user) => user.name.toLowerCase().includes(searchTerm.toLowerCase()));
 
   return filteredData;
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `useFilteredUserData` 훅을 사용하면 검색어에 기반을 둔 필터링된 사용자 데이터를 가져올 수 있으며, `useUserData`에서 가져오는 로직을 재사용할 수 있습니다. 이 합성 접근 방식은 로직을 모듈식으로 유지하고 컴포넌트 간에 재사용할 수 있도록 합니다.
 
@@ -193,11 +275,22 @@ export function useFilteredUserData(searchTerm) {
 
 코드 예시 (타이머용 커스텀 훅):
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // useTimer.js
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from "react";
 
 export function useTimer(initialTime = 0) {
   const [time, setTime] = useState(initialTime);
@@ -220,25 +313,32 @@ export function useTimer(initialTime = 0) {
 
 여러 컴포넌트 간에 공유해야 하는 상태 관리를 위해 React 18의 Context API를 활용할 수 있습니다. 비즈니스 로직에 대한 컨텍스트를 생성함으로써 어떤 컴포넌트에서든 해당 상태와 액션에 접근할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코드 예제 (상태 관리를 위해 컨텍스트 사용):
 
 ```js
 // UserDataContext.js
-import React, { createContext, useContext } from 'react';
-import { useUserData } from './useUserData';
+import React, { createContext, useContext } from "react";
+import { useUserData } from "./useUserData";
 
 const UserDataContext = createContext();
 
 export function UserDataProvider({ children }) {
   const userData = useUserData();
 
-  return (
-    <UserDataContext.Provider value={userData}>
-      {children}
-    </UserDataContext.Provider>
-  );
+  return <UserDataContext.Provider value={userData}>{children}</UserDataContext.Provider>;
 }
 
 export function useUserDataContext() {
@@ -250,7 +350,18 @@ UserDataContext와 useUserDataContext 훅을 사용하여 UserDataProvider 내�
 
 ## 4. Cross-Cutting Concerns을 위한 Higher-Order Components (HOCs)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여러 컴포넌트에 특정 로직을 적용해야 하는 경우, 고차 컴포넌트(Higher-Order Components, HOCs)를 사용할 수 있어요. HOCs는 컴포넌트를 가져와서 추가 프롭이나 로직이 포함된 새로운 컴포넌트를 반환하는 함수들이에요.
 
@@ -258,12 +369,12 @@ UserDataContext와 useUserDataContext 훅을 사용하여 UserDataProvider 내�
 
 ```js
 // withStyles.js
-import React from 'react';
+import React from "react";
 
 function withStyles(WrappedComponent) {
   return function WithStyles(props) {
     return (
-      <div style={{ color: 'blue' }}>
+      <div style={{ color: "blue" }}>
         <WrappedComponent {...props} />
       </div>
     );
@@ -277,7 +388,18 @@ const StyledComponent = withStyles(MyComponent);
 
 이제 StyledComponent는 MyComponent에 정의된 스타일들을 자동으로 적용해요. 여러 곳에서 스타일 선언을 반복할 필요가 없어졌어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -287,7 +409,18 @@ React 18의 새로운 기능을 활용하여 사용자 정의 훅, Suspense 및 
 
 # 참고 문헌
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - React 문서
 - React에서 Hooks 소개

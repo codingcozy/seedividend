@@ -3,17 +3,13 @@ title: "React 프로젝트를 위한 완벽한 SCSS 초기 설정 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "The Ultimate Guide to the Perfect SCSS Initial Setup for Every React Project"
 link: "https://medium.com/@claude.ando/the-ultimate-guide-to-the-perfect-scss-initial-setup-for-every-react-project-da2da91034d0"
 isUpdated: true
 ---
-
-
-
-
 
 ## 템플릿 SCSS 폴더 구조를 찾기 어려우신가요? 언제든 환영합니다...
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ## 1. 필요한 종속 항목 설치 및 구성:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React에서 SCSS를 사용하려면 sass 패키지가 필요합니다. 아래 명령어를 사용하여 설치해보세요:
 
@@ -40,7 +47,18 @@ rules 배열을 수정하여 Webpack 구성을 업데이트해주세요:
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로 기존의 .css 파일을 .scss 파일로 이름을 바꾸고 해당 JavaScript 파일에서 import 문을 업데이트하세요.
 
@@ -54,7 +72,18 @@ import "./styles/index.scss";
 
 SCSS 파일을 위한 전용 폴더를 생성하세요. 이 폴더는 일반적으로 src 폴더 내에 scss 또는 styles로 이름이 지어집니다. 이 폴더에는 전역 스타일, 변수 및 믹스인이 포함됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 권장되는 폴더 구조입니다:
 
@@ -94,7 +123,18 @@ src/
 
 ## 3. 각 SCSS 폴더에 대한 초기 설정:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 3.1 reset.scss:
 
@@ -148,7 +188,18 @@ table {
 
 reset.css 대안으로 normalize.css가 있습니다. 내장된 브라우저 스타일을 일관되게 유지하면서 유용한 기본 스타일을 유지하려고 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 3.2 global.scss:
 
@@ -164,7 +215,18 @@ global.scss 파일은 전체 React 애플리케이션에 적용되는 전역 스
 
 ## 3.3 colors.scss:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 애플리케이션 전체에서 일관된 사용을 위해 색상 변수 및 관련 색상 클래스를 정의하세요. 프로젝트 요구 사항에 따라 설정을 변경할 수 있습니다.
 
@@ -198,7 +260,18 @@ $info-color: #17a2b8;
 
 글꼴 패밀리, 글꼴 크기, 글꼴 두께 및 기타 텍스트 관련 스타일과 같은 타이포그래피 스타일을 정의하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 3.5 index.scss:
 
@@ -231,7 +304,18 @@ $info-color: #17a2b8;
 
 ## 4. 프로덕션을 위한 SCSS 설정 최적화:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로덕션을 위해 SCSS를 최적화하려면, PurgeCSS와 같은 도구를 사용하여 최종 번들에서 사용되지 않는 CSS를 제거하는 것을 고려해보세요. 이를 통해 CSS 파일의 크기를 상당히 줄이고 로드 시간을 개선할 수 있습니다. PurgeCSS를 웹팩 플러그인으로 구성하거나 PostCSS 플러그인으로 사용할 수 있습니다.
 
@@ -243,7 +327,18 @@ $info-color: #17a2b8;
 npm install --save-dev @fullhuman/postcss-purgecss cssnano postcss postcss-cli postcss-loader
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 다음 내용을 포함하여 프로젝트 루트 폴더에 postcss.config.js 파일을 만드세요:
 
@@ -259,10 +354,7 @@ const cssnano = require("cssnano")({
 });
 
 module.exports = {
-  plugins: [
-    require("autoprefixer"),
-    ...(process.env.NODE_ENV === "production" ? [purgecss, cssnano] : []),
-  ],
+  plugins: [require("autoprefixer"), ...(process.env.NODE_ENV === "production" ? [purgecss, cssnano] : [])],
 };
 ```
 
@@ -270,7 +362,18 @@ module.exports = {
 
 3. webpack.config.js 파일을 업데이트하여 postcss-loader를 포함하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Create React App (CRA)을 사용 중이라면, 먼저 npm run eject 명령을 실행하여 응용 프로그램을 eject해야 합니다. 그런 다음 webpack.config.js 파일을 찾아 CSS 규칙 섹션을 찾으세요. .css 및 .scss 규칙 모두에 postcss-loader를 use 배열에 추가해주세요:
 
@@ -306,7 +409,18 @@ Create React App (CRA)을 사용 중이라면, 먼저 npm run eject 명령을 �
 NODE_ENV=production npm run build
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 구성을 사용하면 PurgeCSS가 최종 번들에서 사용되지 않는 CSS를 제거하고, cssnano가 CSS를 최소화하여 제작용 번들을 더 작고 최적화된 상태로 만들어 줍니다.
 

@@ -3,16 +3,13 @@ title: "ElysiaJS 소개 및 정리"
 description: ""
 coverImage: "/assets/img/2024-05-27-FirstLookAtElysiaJS_0.png"
 date: 2024-05-27 18:50
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-FirstLookAtElysiaJS_0.png
 tag: Tech
 originalTitle: "First Look At ElysiaJS"
 link: "https://medium.com/codex/first-look-at-elysiajs-84ecf1bc8b38"
 isUpdated: true
 ---
-
-
-
 
 ## 새로운 번 런타임 환경에서 현대적인 API 구축
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 인터넷 전체(Reddit.com만)를 연구하고 사람들의 의견을 듣고 나니, 개발자들은 여전히 Express를 좋아하는 것으로 결론을 내렸습니다. Express는 인터넷에 많은 것을 제공해 왔으며 여전히 가장 안정적인 라이브러리 중 하나입니다. 하지만 저는 개인적으로 다른 기술을 시도하고 다른 기술에 도전하고 싶었습니다. 그때 발견한 것이 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 번
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 맞아, 라이브러리나 프레임워크가 아니야; 런타임 환경이거든. 2018년에 Ryan Dahl이 Node 문제를 해결하기 위해 Deno를 발명했지만, 그렇게 유명해진 것 같지는 않아.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2023년 9월 8일, Bun이 첫 안정 버전을 출시했어요. 많은 JavaScript 개발자들이 이 새로운 런타임 환경을 시도 중이고 매우 유망해 보여요. Next, Nuxt, SvelteKit과 같은 유명한 프론트엔드 프레임워크들이 Bun을 사용할 수 있는 옵션을 제공하고 있어요. 저는 Bun 라이브러리들을 살펴보았고 API를 구축하기 위해 이것을 배우기로 결정했어요:
 
@@ -42,7 +61,18 @@ isUpdated: true
 
 ElysiaJS는 자신을 "에르고노믹 프레임워크"로 소개하며 엔드투엔드 유형 안전성을 제공한다고 주장해요. 이 언어를 시험해보고 나서, 나는 이것을 매우 직관적으로 느꼈어요. 풍부한 API, 훌륭한 플러그인 관리 및 원하는 것이 정확히 얻을 수 있도록 보증해주는 견고한 유효성 검사 API가 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Elysia 설치하기
 
@@ -55,7 +85,18 @@ cd hello-server
 
 기존 애플리케이션이 있다면, Elysia를 다음과 같이 설치할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 bun add elysia
@@ -67,15 +108,26 @@ bun add elysia
 
 몇 줄의 코드로 매우 간단한 서버를 시작할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /* src/index.ts */
-import { Elysia } from 'elysia';
+import { Elysia } from "elysia";
 
 const app = new Elysia()
   .onStart(() => console.log("서버가 시작되었습니다!"))
-  .get('/', () => "안녕하세요 서버")
+  .get("/", () => "안녕하세요 서버")
   .listen(8080);
 ```
 
@@ -91,8 +143,18 @@ $ curl http://localhost:8080/
 
 더 많은 라우트를 그룹화하고 생성하기 위해 인스턴스를 만들고 메인 애플리케이션에서 사용할 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```json
 {
@@ -108,25 +170,36 @@ $ curl http://localhost:8080/
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대부분의 프레임워크는 Elysia가 하는 일을 합니다. 그런데 왜 Elysia가 다른 것일까요? 그것은 타입 안전성과 유효성 검사 때문입니다. 위의 나이 예제를 고려해보세요. 나이는 어떤 타입이든 될 수 있습니다. 이것은 타입 안전하지 않습니다.
 
 ```js
 /* src/index.ts */
-import { Elysia, t } from 'elysia';
+import { Elysia, t } from "elysia";
 
 const age = new Elysia()
-  .get('/age', () => "당신의 나이를 모릅니다.")
-  .post('/age', ({ body: { age } }) => `안녕하세요, 당신은 ${age}살 입니다.`, {
+  .get("/age", () => "당신의 나이를 모릅니다.")
+  .post("/age", ({ body: { age } }) => `안녕하세요, 당신은 ${age}살 입니다.`, {
     body: t.Object({
-      age: t.Number()
-    })
+      age: t.Number(),
+    }),
   });
 
 const app = new Elysia()
   .onStart(() => console.log("서버가 시작되었습니다!"))
-  .get('/', () => "안녕하세요 서버")
+  .get("/", () => "안녕하세요 서버")
   .use(age)
   .listen(8080);
 ```
@@ -162,7 +235,18 @@ $ curl -v -H "Content-Type: application/json" \
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ElysiaJS에서는 나이 대신 숫자가 아닌 문자열을 보내면 오류가 발생합니다. 서버 측 개발자로서, 본문 데이터를 수동으로 유효성 검사할 필요가 없었습니다. 응답의 헤더를 보면 HTTP/1.1 400 Bad Request가 반환되는 것을 확인할 수 있습니다. 정수를 전달하면 curl이 성공합니다.
 
@@ -178,7 +262,18 @@ Hi, you are 20 years old
 
 이것은 Type-Safety 제목의 확장입니다. API 엔드포인트를 테스트할 때 curl을 사용했습니다. 개발자로서, Postman이나 wget을 사용할 수도 있지만 이러한 도구들은 타입 안전하지 않습니다. 요청을 할 때 실수를 하면 정의되지 않은 동작이 발생할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프론트엔드 애플리케이션은 API 요청을 할 때 타입 오류가 발생하기 쉽습니다. tRPC는 이 기능을 제공하는 좋은 시도였지만, 프로젝트를 구현하기 위한 적응성이 큰 단점이었습니다. Eden은 이 문제를 훌륭하게 해결하여 이 시리즈의 향후 기사에서 자세히 다루겠습니다.
 
@@ -186,37 +281,48 @@ Eden으로 돌아와서, 라우트가 원하는 대로 작동하는지 확인하
 
 ```js
 /* src/index.ts */
-import { Elysia, t } from 'elysia';
+import { Elysia, t } from "elysia";
 
 const age = new Elysia()
-  .get('/age', () => "당신의 나이를 모르겠어요")
-  .post('/age', ({ body: { age } }) => `안녕하세요, 당신은 ${age}살 입니다`, {
+  .get("/age", () => "당신의 나이를 모르겠어요")
+  .post("/age", ({ body: { age } }) => `안녕하세요, 당신은 ${age}살 입니다`, {
     body: t.Object({
-      age: t.Number()
-    })
+      age: t.Number(),
+    }),
   });
 
 const app = new Elysia()
   .onStart(() => console.log("서버가 시작되었습니다!"))
-  .get('/', () => "안녕하세요 서버")
+  .get("/", () => "안녕하세요 서버")
   .use(age)
   .listen(8080);
 
-export type App = typeof app // <- 타입을 내보내기
+export type App = typeof app; // <- 타입을 내보내기
 ```
 
 두 번째로, 유닛 테스트를 작성할 수 있습니다. 의존성으로 @elysiajs/eden을 설치해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /* test/route.test.ts */
-import { describe, expect, it } from 'bun:test';
-import { edenTreaty } from '@elysiajs/eden';
-import { type App } from '../src';
+import { describe, expect, it } from "bun:test";
+import { edenTreaty } from "@elysiajs/eden";
+import { type App } from "../src";
 
 const BASE_URL = "http://localhost:8080";
-const app = edenTreaty<App>(BASE_URL);
+const app = edenTreaty < App > BASE_URL;
 
 describe("Age API", () => {
   it("GET / works as expected", async () => {
@@ -257,7 +363,7 @@ describe("Age API", () => {
       expect(status).toBe(400);
       expect(error).toBeTruthy();
     });
-  })
+  });
 });
 ```
 
@@ -275,8 +381,18 @@ POST /auth/login   -> app.auth.login.post(body)
 
 http://localhost:8080에서 서버를 실행 중이라면, 애플리케이션을 테스트해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 $ bun test
 bun test v1.0.30 (1424a196)
@@ -288,11 +404,10 @@ test/route.test.ts:
 ✓ Age API > /age routes > POST /age with wrong key returns error [0.94ms]
 ✓ Age API > GET / works as expected [0.59ms]
 
- 5 pass
- 0 fail
- 10 expect() calls
+5 pass
+0 fail
+10 expect() calls
 Ran 5 tests across 1 files. [43.00ms]
-
 
 Eden은 E2E Type Safety를 얻을 수 있는 훌륭한 도구입니다. 이를 프런트엔드 애플리케이션에서 사용하거나 서버를 테스트할 때 활용할 수 있습니다.
 
@@ -300,8 +415,18 @@ Eden은 E2E Type Safety를 얻을 수 있는 훌륭한 도구입니다. 이를 �
 
 안타깝게도 이 글은 너무 길어져서 종료하겠습니다. 유용한 기능을 가진 Elysia에 대한 설명을 계속 진행할 수 없어서 유감스럽습니다. 더 많은 정보를 알고 싶다면 여기에서 문서를 확인할 수 있습니다. Elysia 팀은 훌륭한 일을 하고 있고 이 라이브러리가 밝은 미래를 가질 것으로 기대합니다. 첫 안정적인 릴리스를 기대할 수밖에 없네요.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제 기사를 즐겁게 읽어 주셨기를 바랍니다. 무슨 교훈이 있다면 더 좋겠네요. 감사합니다!
 

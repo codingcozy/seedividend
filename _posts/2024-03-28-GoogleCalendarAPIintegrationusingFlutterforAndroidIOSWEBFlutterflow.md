@@ -3,17 +3,13 @@ title: "플러터에서 Google 캘린더 API 통합 방법 안드로이드, iOS,
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Google Calendar API integration using Flutter for Android, IOS, WEB , Flutterflow"
 link: "https://medium.com/@yasanmalik13/google-calendar-api-integration-using-flutter-for-android-ios-web-flutterflow-6b6e7c9d51b3"
 isUpdated: true
 ---
-
-
-
-
 
 ![사진](/assets/img/GoogleCalendarAPIintegrationusingFlutterforAndroidIOSWEB-Flutterflow_0.png)
 
@@ -23,7 +19,18 @@ Google Calendar API를 사용하기 위한 Google Cloud 계정 설정에는 OAut
 
 1. Google Cloud 프로젝트 생성:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 • Google Cloud Console로 이동하세요.
 
@@ -33,7 +40,18 @@ Google Calendar API를 사용하기 위한 Google Cloud 계정 설정에는 OAut
 
 2. OAuth 동의 화면 설정:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Web용 (OAuth 2.0 클라이언트 ID):
 
@@ -43,7 +61,18 @@ Google Cloud 콘솔의 "OAuth 동의 화면" 섹션으로 이동하고 "외부"�
 
 ![이미지](/assets/img/GoogleCalendarAPIintegrationusingFlutterforAndroidIOSWEB-Flutterflow_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 • 앱 이름, 사용자 지원 이메일, 개발자 연락처 정보 등과 같은 필수 세부 정보를 구성해 주세요.
 
@@ -53,7 +82,18 @@ Google Cloud 콘솔의 "OAuth 동의 화면" 섹션으로 이동하고 "외부"�
 
 참고: 테스트 중인 사용자는 테스트 중에 추가한 테스트 사용자 목록에 나열된 이메일만 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 OAuth 2.0 클라이언트 ID를 생성하세요:
 
@@ -63,7 +103,18 @@ OAuth 2.0 클라이언트 ID를 생성하세요:
 
 "웹 응용 프로그램(Web application)"을 선택하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/GoogleCalendarAPIintegrationusingFlutterforAndroidIOSWEB-Flutterflow_4.png" />
 
@@ -73,7 +124,18 @@ OAuth 2.0 클라이언트 ID를 생성하세요:
 
 참고: 웹 브라우저에서 플러터 기반 웹 앱 통합을 테스트하려면 URL을 다음과 같이 설정하세요: "http://localhost"
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 웹 애플리케이션 통합을 위해 생성된 클라이언트 ID 및 클라이언트 시크릿을 가져옵니다.
 
@@ -83,7 +145,18 @@ Android/iOS용 (OAuth 2.0 클라이언트 ID):
 
 OAuth 동의 화면:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 • "Web Setup"에서 "OAuth 동의 화면" 섹션으로 이동해주세요.
 
@@ -93,7 +166,18 @@ OAuth 2.0 클라이언트 ID 생성:
 
 • "자격 증명" 섹션에서 "자격 증명 만들기"를 클릭하고 "OAuth 클라이언트 ID"를 선택하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 • "Android" 또는 "iOS"를 선택하세요.
 
@@ -103,7 +187,18 @@ OAuth 2.0 클라이언트 ID 생성:
 
 참고: 다음 명령을 사용하여 키스토어 구성에 따라 SHA-1 인증서를 얻으세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 keytool -list -v \
 
@@ -113,7 +208,18 @@ keytool -list -v \
 
 3. 서비스 계정 (백엔드 서버):
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 참고: 백엔드 서버 설정이 없는 경우 이 구성을 무시하십시오.
 
@@ -123,7 +229,18 @@ keytool -list -v \
 
 - 구글 클라우드 콘솔의 "IAM 및 관리자" > "서비스 계정" 섹션으로 이동하십시오.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 • "서비스 계정 만들기"를 클릭하고 안내에 따라 진행해주세요.
 
@@ -133,7 +250,18 @@ keytool -list -v \
 
 4. 캘린더 API 활성화:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 • 클라우드 콘솔의 "라이브러리" 섹션으로 이동해주세요.
 
@@ -143,7 +271,18 @@ keytool -list -v \
 
 중요 사항:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 플러터 코드의 GoogleCalendarServiceFactory 내부의 클라이언트 ID를 업데이트했는지 확인하세요:
 
@@ -189,7 +328,18 @@ OAuth 2.0 클라이언트 ID와 서비스 계정 키를 안전하게 보관하�
 
 Flutterflow 사용자를 위한:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - FlutterFlow 프로젝트에서 웹 플랫폼을 활성화하는 것을 잊지 마세요.
 

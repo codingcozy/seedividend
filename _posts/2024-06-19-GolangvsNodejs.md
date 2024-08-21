@@ -3,16 +3,13 @@ title: "Golang 대 Nodejs"
 description: ""
 coverImage: "/assets/img/2024-06-19-GolangvsNodejs_0.png"
 date: 2024-06-19 23:12
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-GolangvsNodejs_0.png
 tag: Tech
 originalTitle: "Golang vs Node.js"
 link: "https://medium.com/gitconnected/golang-vs-node-js-0e5b833cb56f"
 isUpdated: true
 ---
-
-
-
 
 소프트웨어 개발자로서, 언제나 앱을 개발하는 데 최적화된 가장 빠르고 효율적인 도구를 찾고 있어요. 속도와 복잡한 작업 처리에 관한 것이라면, Golang과 Node.js가 두 강자로 뽑히죠. 둘 다 성능 면에서 뛰어난 평판을 자랑하지요. 그런데 고민거리는 여전히 존재합니다 — Golang과 Node.js 중 어느 쪽이 더 빠를까요? 이 논쟁을 해결하기 위해, 내가 이 두 기술을 철저히 비교하는 벤치마크 테스트의 여정에 나섰어요. 자세한 결과를 분석하여, 빠른 속도면에서 어떤 플랫폼이 우위를 차지하는지 확인하는 게 제 목표에요. 데이터를 통해 어느 플랫폼이 고성능 앱을 개발하는 데 분명한 장점을 가지고 있는지 밝혀낼 거예요.
 
@@ -23,7 +20,18 @@ isUpdated: true
 최근 몇 년 동안 Golang과 Node.js는 주목을 받아왔어요. 각각의 강점과 장점을 가지고 있죠.
 Golang, Go로도 알려진, 구글에서 개발한 정적 타입의 컴파일된 프로그래밍 언어입니다. Golang은 간결성, 고루틴을 통한 동시성 지원, 그리고 빠른 성능으로 칭찬을 받아왔어요. 반면에 Node.js는 Chrome의 V8 JavaScript 엔진 위에 구축된 이벤트 기반, 논 블로킹 I/O 플랫폼입니다. 비동기 프로그래밍 모델, npm을 통한 확장 패키지 생태계, 빠른 개발 능력으로 인정을 받았죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 성능 평가 방법론
 
@@ -33,15 +41,26 @@ Golang, Go로도 알려진, 구글에서 개발한 정적 타입의 컴파일된
 
 웹 서버 성능을 평가하는 데 중요한 지표 중 하나인 응답 시간은 요청을 보내고 응답을 받는 지속 시간을 측정합니다. 저희의 벤치마킹 테스트에서는 Golang과 Node.js로 작성된 동일한 웹 서버 애플리케이션을 배포하여 각각 간단한 HTTP 요청을 제공하고 처리 오버헤드를 최소화할 것입니다. 서로 다른 수준의 동시 클라이언트 연결을 시뮬레이션하고 해당 응답 시간을 분석함으로써 Golang과 Node.js의 성능을 현실적인 작업 부하 시나리오에서 평가할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // Node.js HTTP 서버
-const http = require('http');
+const http = require("http");
 
 const server = http.createServer((req, res) => {
   res.writeHead(200);
-  res.end('안녕, 세상아!');
+  res.end("안녕, 세상아!");
 });
 
 server.listen(3000);
@@ -69,7 +88,18 @@ func main() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 처리량 분석
 
@@ -79,7 +109,18 @@ func main() {
 
 응답 시간과 처리량 외에도, 부하 하에서 Golang 및 Node.js 애플리케이션의 자원 활용 평가는 매우 중요합니다. 이는 CPU 사용률, 메모리 소비 및 네트워크 활동을 모니터링하여 잠재적인 병목 현상이나 비효율성을 찾아내는 것을 포함합니다. 자원 활용 지표를 면밀히 살펴봄으로써 각 플랫폼의 전체 효율성과 확장성에 대한 통찰력을 얻을 수 있으며, 프로젝트에 적합한 최적 기술 스택을 선택할 때 개발자들이 정보에 기반한 결정을 내릴 수 있게 도와줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # CPU 사용량:
 
@@ -91,7 +132,18 @@ func main() {
 - 정적 타입 및 컴파일된 성격으로 인해 Golang은 Node.js보다 낮은 메모리 사용량을 보입니다. 덜 필요한 런타임 메타데이터를 요구합니다.
 - Node.js는 동적 타입 및 V8 JavaScript 엔진에 의존하여 유형 정보와 힙을 저장하는 데 더 많은 메모리가 필요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 스레딩 모델:
 
@@ -103,7 +155,18 @@ func main() {
 - 경량 고루틴 스레드를 통해 Golang은 수평적으로 뛰어난 확장성을 갖추어 대규모 동시 요구를 처리할 수 있습니다.
 - Node.js는 단일 기계에서 수직적으로 확장성이 뛰어나지만, 단일 스레드 특성으로 인해 확장성을 넓히는 동안 병목 현상을 겪을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 동시성 성능
 

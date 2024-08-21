@@ -3,16 +3,13 @@ title: "JavaScript 스크립트에 데이터를 전달하고 스크립트 내에
 description: ""
 coverImage: "/assets/img/2024-06-22-HowtopassdatatoaJavaScriptscriptandvalidateitwithinthescript_0.png"
 date: 2024-06-22 03:56
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-HowtopassdatatoaJavaScriptscriptandvalidateitwithinthescript_0.png
 tag: Tech
 originalTitle: "How to pass data to a JavaScript script and validate it within the script."
 link: "https://medium.com/@oakhtar147/pass-and-validate-attributes-passed-to-a-script-running-in-the-browser-d13d53aa024c"
 isUpdated: true
 ---
-
-
-
 
 웹 브라우저에서 실행되는 JavaScript 코드를 삽입하기 위해 `script` 태그를 사용합니다. 경우에 따라, 스크립트가 초기화되고 실행될 때 외부 데이터를 전달해야 할 때가 있습니다. 이렇게 데이터를 전달하고 스크립트 내에서 유효성을 검증하는 방법을 알아보겠습니다.
 
@@ -24,7 +21,18 @@ isUpdated: true
 <script src="./ab-testing.js" data-variant="a"></script>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제는 스크립트를 사용하는 모든 클라이언트가 데이터-variant를 정확히 'a' 또는 'b'로 전달해야 합니다.
 
@@ -32,28 +40,37 @@ isUpdated: true
 
 ```js
 function getFeatureVariantOrThrow() {
-  const script = document.currentScript
-  const variant = script?.getAttribute("data-variant")
+  const script = document.currentScript;
+  const variant = script?.getAttribute("data-variant");
 
   if (!variant) {
-    throw new Error("스크립트 태그에 데이터-variant 속성을 전달해주세요")
+    throw new Error("스크립트 태그에 데이터-variant 속성을 전달해주세요");
   }
 
   if (["a", "b"].includes(variant)) {
-    return variant
+    return variant;
   }
 
-  throw new Error(
-    'data-variant에 대한 잘못된 값입니다. "a" 또는 "b" 중 하나를 전달해주세요'
-  )
+  throw new Error('data-variant에 대한 잘못된 값입니다. "a" 또는 "b" 중 하나를 전달해주세요');
 }
 
-const variant = getFeatureVariantOrThrow()
+const variant = getFeatureVariantOrThrow();
 ```
 
 이렇게 하면 당신의 스크립트를 사용하는 애플리케이션은 정확한 데이터-variant를 제공해야 합니다. 그렇지 않으면 브라우저 콘솔에 오류가 표시됩니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-22-HowtopassdatatoaJavaScriptscriptandvalidateitwithinthescript_0.png" />
 
@@ -63,7 +80,18 @@ const variant = getFeatureVariantOrThrow()
 
 더 많은 내용을 보려면 팔로우하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - LinkedIn
 - GitHub

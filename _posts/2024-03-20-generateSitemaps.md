@@ -3,17 +3,13 @@ title: "Nextjs 14에서 generateSitemaps로 사이트맵 생성하기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # Nextjs 14에서 generateSitemaps로 사이트맵 생성하기
 
@@ -23,7 +19,18 @@ generateSitemaps 함수를 사용하여 애플리케이션에 대한 여러 사�
 
 generateSitemaps 함수는 id 속성을 가진 객체 배열을 반환합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## URL
 
@@ -33,7 +40,18 @@ generateSitemaps 함수는 id 속성을 가진 객체 배열을 반환합니다.
 
 ## 예시
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, generateSitemaps를 사용하여 사이트맵을 분할하려면 sitemap id를 포함한 객체 배열을 반환하세요. 그런 다음 해당 id를 사용하여 고유한 사이트맵을 생성하세요.
 
@@ -57,4 +75,15 @@ export default async function sitemap({ id }: { id: number }): Promise<MetadataR
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

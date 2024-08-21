@@ -3,16 +3,13 @@ title: "챗봇 치트 코드 Qwen110B로 스트림릿에서 돈을 쓰지 않고
 description: ""
 coverImage: "/assets/img/2024-05-17-ChatbotcheatcodeQwen110BonStreamlitwithoutspendingapennyPart2_0.png"
 date: 2024-05-17 03:23
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-17-ChatbotcheatcodeQwen110BonStreamlitwithoutspendingapennyPart2_0.png
 tag: Tech
 originalTitle: "Chatbot cheat code: Qwen110B on Streamlit without spending a penny — Part 2"
 link: "https://medium.com/generative-ai/chatbot-cheat-code-qwen110b-on-streamlit-without-spending-a-penny-part-2-3731a827f27f"
 isUpdated: true
 ---
-
-
-
 
 제1부에서는 수십억 개의 매개변수를 가진 큰 언어 모델에 무료로 액세스하고 활용할 수 있다는 것을 발견했어요. 제처럼 여러분도 하드웨어 한정으로 고민 중이라면, 이 해킹 방법은 하이엔드 GPU나 유료 구독 없이도 Qwen-110B-chat과 같은 대규모 모델과 상호 작용할 수 있는 기쁨을 선사할 거예요.
 
@@ -25,7 +22,18 @@ isUpdated: true
 - 챗봇 코딩: Hugging Face Spaces에서 Gradio의 "API를 통해 사용" 기능을 활용하여 이러한 강력한 모델에 Python 코드로 연결하는 방법을 배웠어요. 특히 여러 언어로 상업적 이용을 위한 라이선스가 허용되는 Qwen 시리즈 모델에 초점을 맞췄어요.
 - 스트리밍 효과: 코드 구조를 살펴보면, 모델과 상호 작용할 수 있는 함수를 만드는 방법을 설명했어요. predict() 및 submit() 메서드 중에서 선택하여 스트리밍 효과와 함께 또는 없이 응답을 생성하는 방법을 강조했어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 조금 헤매고 있다면 part 1부터 시작하는 것을 제안해요:
 
@@ -35,7 +43,18 @@ isUpdated: true
 
 이건 필수 조건이에요! 그래서 Streamlit 인터페이스를 만드는 것이 아주 쉬울 거에요: 이미 이전 파트에서 라이브러리와 상호작용이 어떻게 작동하는지 확인했기 때문이죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 것은 이 핵심을 중심으로 움직입니다:
 
@@ -65,10 +84,21 @@ print(result)
                 print(chunk[1][0][1].replace(final,''), end="", flush=True)
                 final = chunk[1][0][1]
             except:
-                pass    
+                pass
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 string.replace()을 사용하여 이미 생성된 것에서 새로운 단어를 빼내는 작업을 했었는데, 더이상 필요하지 않아요.🥳
 
@@ -78,7 +108,18 @@ string.replace()을 사용하여 이미 생성된 것에서 새로운 단어를 
 
 새 파일을 만들어보세요: 제 파일은 st-Qwen1.5–110B-Chat.py라고 해요. 주요 라이브러리를 가져와 세션 상태 전역 변수를 생성하는 것부터 시작해볼까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 import streamlit as st
@@ -103,7 +144,7 @@ if "messages" not in st.session_state:
 
 ```python
 @st.cache_resource
-def create_client():   
+def create_client():
     yourHFtoken = "hf_xxxxxxxxxxxxxxxxxxxxxxx" #여기에 여러분의 HF 토큰을 넣으세요
     print(f'{st.session_state.hf_model}에 대한 API Gradio 클라이언트를 로딩 중입니다.')
     client = Client("Qwen/Qwen1.5-110B-Chat-demo", hf_token=yourHFtoken)
@@ -117,7 +158,18 @@ def writehistory(text):
     f.close()
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희는 @st.cache_resource 데코레이터를 사용하고 있습니다. 이는 Qwen1.5-110에 대한 API gradio 클라이언트를 Streamlit이 매 실행마다 로딩하지 않기를 원하기 때문입니다 (이는 분당 1회 이상 발생할 수 있습니다): Gradio 클라이언트 연결이 실행 중에 변경되지 않을 것이기 때문에, 이 리소스를 특별한 메모리에 캐싱하고 있습니다 (@st.cache_resource). 자세한 내용은 여기에서 확인하실 수 있습니다.
 
@@ -139,7 +191,18 @@ st.markdown('---')
 client = create_client()
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 채팅 인터페이스에 로컬 이미지를 사용할 수도 있어요 (코드의 주석을 참고하세요!)
 - 마지막으로, create_client()로 클라이언트 연결을 인스턴스화해요.
@@ -150,7 +213,18 @@ Streamlit은 자신의 위젯에 변경이 발생할 때마다 또는 입력(버
 
 그래서 저희는 대화 기록을 맨 위에 먼저 렌더링하기 시작했어요. 여기서는 뭐라도 새롭게 발명한 건 없어요: Streamlit 블로그의 공식 자습서에서 모두 배웠거든요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 표준 렌더링입니다. OpenAI API와 호환되는 chat_completion 형식에 모두 적용 가능합니다.
 
@@ -179,7 +253,18 @@ if myprompt := st.chat_input("인공지능 모델이란 무엇인가요?"):
 
 여기에 이상한 writehistory(usertext) 지시문을 추가하고 있는 것을 볼 수 있습니다. 기억하시나요? 처음에 이 함수를 선언했던 거죠? 저는 모든 대화 내용을 로컬 텍스트 파일에 저장하는 버릇이 있어요. 이는 프롬프트를 분석하거나 미래 활용을 위해 자료를 조직화할 때 매우 편리합니다.🙂
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프롬프트에서 제출된 내용을 확인한 후, gradio 클라이언트 인스턴스(client.submit)를 호출하고 스트리밍을 시작합니다 (message_placeholder.markdown(r[1][0][1]+ "▌"))
 
@@ -193,14 +278,14 @@ if myprompt := st.chat_input("인공지능 모델이란 무엇인가요?"):
                 history=[],
                 system="You are a helpful assistant.",
                 api_name="/model_chat"
-                )        
+                )
         for r in res:
             full_response=r[1][0][1]
             message_placeholder.markdown(r[1][0][1]+ "▌")
 
         message_placeholder.markdown(full_response)
         asstext = f"assistant: {full_response}"
-        writehistory(asstext)       
+        writehistory(asstext)
         st.session_state.messages.append({"role": "assistant", "content": full_response})
 ```
 
@@ -208,7 +293,18 @@ if myprompt := st.chat_input("인공지능 모델이란 무엇인가요?"):
 
 해결했으면 댓글에 알려주세요 👍
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파이썬 파일을 저장한 후 터미널에서 가상 환경을 활성화한 상태에서 다음과 같이 실행하세요.
 
@@ -220,7 +316,18 @@ streamlit run .\st-Qwen1.5-110B-Chat.py
 
 ![이미지](/assets/img/2024-05-17-ChatbotcheatcodeQwen110BonStreamlitwithoutspendingapennyPart2_0.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Streamlit은 로컬 네트워크로의 편리한 라우팅을 제공합니다. 예를 들어, 핸드폰이 동일한 액세스 포인트에 연결되어 있으면 Network URL로 표시된 주소인 http://192.168.2.6:8501을 통해 핸드폰에서도 이 애플리케이션을 사용할 수 있습니다.
 
@@ -230,7 +337,18 @@ Streamlit은 로컬 네트워크로의 편리한 라우팅을 제공합니다. �
 
 GitHub 리포지토리에서도 Streamlit Python 파일을 실행하는 방법을 찾을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - OpenELM 3B
 - Phi-3-mini-Instruct 128k
@@ -242,7 +360,18 @@ GitHub 리포지토리에서도 Streamlit Python 파일을 실행하는 방법�
 
 ![이미지](/assets/img/2024-05-17-ChatbotcheatcodeQwen110BonStreamlitwithoutspendingapennyPart2_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -252,7 +381,18 @@ GitHub 리포지토리에서도 Streamlit Python 파일을 실행하는 방법�
 
 글이 마음에 드셨으면 좋겣습니다. 이 이야기가 가치를 제공했고 조금이라도 지원하고 싶다면 다음을 해볼 수 있습니다 :
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이 이야기에 대해 많이 박수를 쳐 주세요
 - 기억할 가치가 있는 부분을 강조하십시오 (나중에 찾기 쉽고, 더 나은 기사를 쓰는 데 도움이 될 것입니다)
@@ -267,7 +407,18 @@ GitHub 리포지토리에서도 Streamlit Python 파일을 실행하는 방법�
 
 ![이미지](/assets/img/2024-05-17-ChatbotcheatcodeQwen110BonStreamlitwithoutspendingapennyPart2_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 이야기는 Generative AI Publication에서 발행되었습니다.
 

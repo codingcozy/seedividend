@@ -3,17 +3,13 @@ title: "Django, React 및 LangChain으로 LLM 웹 사이트 만드는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Streaming LLM Output with Django, React, and LangChain"
 link: "https://medium.com/@m.moshek/streaming-llm-output-with-django-react-and-langchain-tutorial-2963275b4f9c"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1400/1*oPL9_9aI2Fj9z6_jMT3BeA.gif)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 먼저 프로젝트 환경을 설정하고 Django 및 React, 각각 간결성과 견고함으로 유명한 고수준 Python 웹 프레임워크 및 반응성 및 사용자 경험을 향상시키는 뛰어난 성능으로 사용자 인터페이스를 구축하는 JavaScript 라이브러리 등 핵심 기술을 살펴보겠습니다. 또한, 언어 모델을 애플리케이션에 통합하는 것을 간소화하는 도구인 Langchain 및 인공지능 기반 텍스트 생성의 선두에 서 있는 OpenAI의 GPT 모델도 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 튜토리얼을 통해 우리의 애플리케이션 아키텍처에 대해 자세히 살펴볼 것이며, 실시간 메시징을 위한 WebSocket 연결을 수립하고 LLM의 출력을 실시간으로 스트리밍하여 사용자들에게 반응성을 느끼게 하는 방법을 보여줄 것입니다. 이 안내서를 마치면 완전히 작동하는 채팅 애플리케이션이 준비될 것입니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 터미널이나 명령 프롬프트를 열고 다음을 실행하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 pip install django
@@ -47,7 +65,18 @@ pip install django
 django-admin startproject Django_React_Langchain_Stream
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트 디렉토리로 이동하세요:
 
@@ -59,7 +88,18 @@ cd Django_React_Langchain_Stream
 
 virtualenv를 설치하세요 (이미 설치하지 않았다면):
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 pip install virtualenv
@@ -73,7 +113,18 @@ pip install virtualenv
 virtualenv venv
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 활성화하려면:
 
@@ -85,7 +136,18 @@ source venv/bin/activate
 
 Windows에서:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 venv\Scripts\activate
@@ -99,7 +161,18 @@ venv\Scripts\activate
 pip install Django==5.0.3
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Django 앱을 langchain_stream으로 만들어주세요.
 
@@ -111,7 +184,18 @@ python manage.py startapp langchain_stream
 
 Django 개발 서버를 시작하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 python manage.py runserver
@@ -123,7 +207,18 @@ python manage.py runserver
 
 서버를 중지하려면 CONTROL-C를 누르세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 🔧 리액트를 이용한 프론트엔드 설정
 
@@ -136,7 +231,18 @@ node - v;
 npm - v;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 설치된 경우에는 버전 번호를 볼 수 있습니다. 예를 들면:
 
@@ -149,7 +255,18 @@ v20.8.0
 
 ## 리액트 애플리케이션 만들기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React 프로젝트를 생성해보세요:
 
@@ -163,7 +280,18 @@ npm create vite@latest
 cd frontend
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 필요한 React 패키지를 설치해주세요:
 
@@ -175,7 +303,18 @@ npm install
 
 React 개발 서버를 시작하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm run dev
@@ -187,7 +326,18 @@ npm run dev
 
 서버를 중지하려면 CONTROL-C를 사용하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 설치 및 설정을 완료한 후에는 프로젝트 디렉토리가 다음과 같이 보여야 합니다:
 
@@ -205,7 +355,18 @@ Django_React_Langchain_Stream/
 
 이제 IDE에서 프로젝트 Django_React_Langchain_Stream을 열 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## API 키 설정
 
@@ -217,7 +378,18 @@ Django_React_Langchain_Stream/
 OPENAI_API_KEY = this - is - a - fake - api - key - replace - it;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 🔧 웹소켓을 위한 Django settings.py 구성
 
@@ -229,7 +401,18 @@ settings.py 파일에서 langchain_stream 및 daphne를 INSTALLED_APPS에 추가
 'langchain_stream',
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 경고: `daphne`는 INSTALLED_APPS에서 django.contrib.staticfiles보다 먼저 나열되어야 합니다.
 
@@ -239,7 +422,18 @@ WSGI 애플리케이션 라인을 ASGI 구성으로 교체하여 비동기 통�
 
 해당 라인을 제거하거나 주석 처리하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # WSGI_APPLICATION = ' Django_React_Langchain_Stream.wsgi.application'
@@ -253,9 +447,18 @@ ASGI_APPLICATION = "Django_React_Langchain_Stream.asgi.application";
 
 # views.py 파일을 생성해주세요
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LangChain 및 관련 패키지를 LLM 통합과 웹소켓 지원을 위해 설치해보세요:
 
@@ -267,7 +470,18 @@ pip install langchain==0.1.11 langchain-community==0.0.26 langchain-openai==0.0.
 
 langchain_stream/views.py 파일에서 다음 코드로 대체해주세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```json
 from langchain_openai import ChatOpenAI
@@ -319,9 +533,18 @@ class ChatConsumer(AsyncWebsocketConsumer):
 
 WebSocket 연결을 처리하는 방법을 정의하려면 langchain_stream 앱에서 routing.py와 urls.py를 생성하십시오.
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 텍스트를 친근한 어조로 한국어로 번역해 드리겠습니다.
 
@@ -347,7 +570,18 @@ urlpatterns = [
 ]
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 코드로 Django_React_Langchain_Stream/asgi.py 파일의 코드를 교체해주세요.
 
@@ -374,7 +608,18 @@ application = ProtocolTypeRouter({
 
 다음 코드로 frontend/src/App.js 파일의 코드를 교체해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import React, { useState, useEffect, useRef } from "react";
@@ -411,21 +656,12 @@ const StreamLangchain = () => {
       if (data.event === "on_parser_start") {
         // 새로운 스트림이 시작되었을 때
         ongoingStream = { id: data.run_id, content: "" };
-        setResponses((prevResponses) => [
-          ...prevResponses,
-          { sender, message: "", id: data.run_id },
-        ]);
-      } else if (
-        data.event === "on_parser_stream" &&
-        ongoingStream &&
-        data.run_id === ongoingStream.id
-      ) {
+        setResponses((prevResponses) => [...prevResponses, { sender, message: "", id: data.run_id }]);
+      } else if (data.event === "on_parser_stream" && ongoingStream && data.run_id === ongoingStream.id) {
         // 스트림 중에 새로운 데이터 청크를 추가하는 경우
         setResponses((prevResponses) =>
           prevResponses.map((msg) =>
-            msg.id === data.run_id
-              ? { ...msg, message: msg.message + data.data.chunk }
-              : msg
+            msg.id === data.run_id ? { ...msg, message: msg.message + data.data.chunk } : msg
           )
         );
       }
@@ -436,9 +672,7 @@ const StreamLangchain = () => {
     };
 
     ws.current.onclose = (event) => {
-      console.log(
-        `WebSocket이 닫혔습니다. 코드: ${event.code}, 이유: ${event.reason}`
-      );
+      console.log(`WebSocket이 닫혔습니다. 코드: ${event.code}, 이유: ${event.reason}`);
       handleReconnect();
     };
   };
@@ -451,9 +685,7 @@ const StreamLangchain = () => {
         setupWebSocket(); // 재연결 시도
       }, timeout);
     } else {
-      console.log(
-        "최대 재연결 시도 횟수에 도달하여 더 이상 재연결 시도하지 않음."
-      );
+      console.log("최대 재연결 시도 횟수에 도달하여 더 이상 재연결 시도하지 않음.");
     }
   };
 
@@ -501,12 +733,7 @@ const StreamLangchain = () => {
         <div ref={messagesEndRef} /> {/* 화면에 보이지 않는 요소로 최신 메시지로 스크롤하기 도와줌 */}
       </div>
       <form onSubmit={handleSubmit} className="input-form">
-        <input
-          type="text"
-          value={input}
-          onChange={handleInputChange}
-          placeholder="여기에 메시지를 입력하세요..."
-        />
+        <input type="text" value={input} onChange={handleInputChange} placeholder="여기에 메시지를 입력하세요..." />
         <button type="submit">보내기</button>
       </form>
     </div>
@@ -602,7 +829,18 @@ button {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 모두 완료되었습니다! 애플리케이션을 실행하려면 Django 서버와 React 개발 서버를 시작하세요:
 
@@ -614,7 +852,18 @@ python manage.py runserver
 
 그리고
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 cd frontend

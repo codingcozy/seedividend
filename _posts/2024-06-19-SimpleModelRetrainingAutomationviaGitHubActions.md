@@ -3,17 +3,13 @@ title: "GitHub Actions를 통한 간단한 모델 재학습 자동화"
 description: ""
 coverImage: "/assets/img/2024-06-19-SimpleModelRetrainingAutomationviaGitHubActions_0.png"
 date: 2024-06-19 23:41
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-SimpleModelRetrainingAutomationviaGitHubActions_0.png
 tag: Tech
 originalTitle: "Simple Model Retraining Automation via GitHub Actions"
 link: "https://medium.com/towards-data-science/simple-model-retraining-automation-via-github-actions-b0f61d5c869c"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-06-19-SimpleModelRetrainingAutomationviaGitHubActions_0.png)
 
@@ -23,8 +19,18 @@ CI/CD 원칙과 기계 학습 개발을 결합한 것을 MLOps라고 합니다. 
 
 기계 학습 모델이 지속적인 이점을 제공하는 한 가지 방법은 필요할 때 재학습하는 것입니다. 예를 들어, 데이터 드리프트가 감지될 경우 모델을 재학습하는 것입니다. 모델 재학습 자동화를 위해 재학습 트리거의 환경을 설정하여 수행할 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 GitHub Actions는 GitHub에서 제공하는 기능으로, CI/CD 플랫폼에 사용되며 GitHub 저장소에서 소프트웨어 개발 프로세스를 자동화하는 데 사용됩니다.
 
@@ -34,7 +40,18 @@ GitHub Actions는 GitHub에서 제공하는 기능으로, CI/CD 플랫폼에 사
 
 이 프로젝트에서는 모델 개발 및 자동화 데모를 수행할 것입니다. 전체 프로젝트 구조는 아래 차트와 같을 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-SimpleModelRetrainingAutomationviaGitHubActions_1.png)
 
@@ -44,8 +61,18 @@ GitHub Actions는 GitHub에서 제공하는 기능으로, CI/CD 플랫폼에 사
 
 그런 다음, Repo 및 Workflow 범위를 지닌 GitHub 개인 액세스 토큰(PAT)을 생성해봅시다. 토큰을 어딘가에 보관하고, 방금 만든 빈 리포지토리로 돌아가봅시다. 설정으로 이동하여 "비밀 값 및 변수"를 선택합니다. 그런 다음, PAT, Docker 사용자 이름 및 Docker 비밀번호를 포함하는 리포지토리 비밀값을 생성하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-19-SimpleModelRetrainingAutomationviaGitHubActions_2.png)
 
@@ -59,12 +86,22 @@ diabetes-project/
 ├── models/
 ├── .github/
 │   └── workflows/
-``` 
+```
 
 폴더가 갖춰지면 가상 환경을 설정합니다. 고립된 환경을 원하기 때문에 이는 좋은 관행입니다. 루트 폴더로 이동하여 다음 CLI 코드를 사용하세요.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 python -m venv your_environment_name
@@ -78,16 +115,27 @@ your_environment_name\Scripts\activate
 
 가상 환경을 활성화한 후, 튜토리얼을 위해 필요한 모든 패키지를 설치할 것입니다. 루트 폴더에 requirements.txt 파일을 생성하고 아래 패키지를 채워넣어주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-fastapi
-uvicorn
-pandas
-scikit-learn
-matplotlib
-seaborn
-evidently
+fastapi;
+uvicorn;
+pandas;
+scikit - learn;
+matplotlib;
+seaborn;
+evidently;
 ```
 
 요구 사항이 준비되면 가상 환경에 패키지를 설치할 것입니다.
@@ -98,7 +146,18 @@ pip install -r requirements.txt
 
 모든 준비가 완료되었으므로, 이제 모델을 개발하고 모델 재학습 자동화를 시작할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 모델 개발
 
@@ -116,7 +175,18 @@ data_path = '..//data//data.csv'
 df = pd.read_csv(data_path)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사에서는 GitHub Actions 능력을 자동으로 재교육하는 데 초점을 맞추기로 했어요. 데이터 탐색 이외의 것에 초점을 맞출 거예요. 노트북에서 데이터 탐색 부분을 포함했으니, 확인하고 싶다면 방문해주세요.
 
@@ -148,7 +218,18 @@ preprocessor = ColumnTransformer(
 
 파이프라인이 준비되면 머신 러닝 모델로 랜덤 포레스트 알고리즘을 사용할 거예요. 다른 목적에 맞는 다른 모델을 선택할 수도 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 from sklearn.ensemble import RandomForestClassifier
@@ -175,7 +256,18 @@ print(report)
 
 <img src="/assets/img/2024-06-19-SimpleModelRetrainingAutomationviaGitHubActions_3.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 전반적으로 성능은 만족스러운 수준입니다. 더 나아질 여지는 있지만, 현재 모델을 유지하고 이를 모델 폴더에 저장하겠습니다.
 
@@ -190,7 +282,18 @@ with open('..//models//pipeline.pkl', 'wb') as f:
 
 모델을 API로 배포하기 위해 app.py라는 파일을 생성하여 스크립트 폴더에 저장해 봅시다. 파일 내부에 다음 코드를 사용하여 모델을 API로 만들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 from fastapi import FastAPI, HTTPException
@@ -200,7 +303,7 @@ import pandas as pd
 
 app = FastAPI()
 
-columns = ['임신횟수', '글루코스', '혈압', 
+columns = ['임신횟수', '글루코스', '혈압',
 '피하지방', '인슐린', 'BMI', '당뇨위계보이지DNA', '나이']
 
 dict_res = {0: '당뇨가 아님', 1: '당뇨'}
@@ -218,9 +321,9 @@ async def predict(input_data: DataInput):
         df = pd.DataFrame(input_data.data, columns=columns)
         predictions = pipeline.predict(df)
         results = [dict_res[pred] for pred in predictions]
-    
+
         return {"예측결과": results}
-    
+
     except Exception as e:
         print("에러:", str(e))
         raise HTTPException(status_code=400, detail=str(e))
@@ -238,7 +341,18 @@ uvicorn scripts.app:app --host 0.0.0.0 --port 8000
 
 그런 다음, Jupyter Notebook에서 다음 코드를 실행하여 API를 테스트합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import requests
@@ -275,7 +389,18 @@ EXPOSE 8000
 CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8000"]
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 코드에서는 Python 환경을 설정하고 API를 실행하는 데 필요한 파일을 컨테이너로 복사하여 포트 8000에서 수신 대기하는 방법을 안내합니다.
 
@@ -289,7 +414,18 @@ docker push username/image_name:latest
 
 위 코드에서 username을 귀하의 Dockerhub 사용자명으로, image_name을 선호하는 응용 프로그램 이름으로 변경해주세요. 성공한다면, 내 것과 같이 Dockerhub에 귀하의 이미지가 표시될 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서 우리가 모델 API를 Docker에 넣고 Dockerhub에 푸시한 이유는 무엇인가요? 이것은 응용 프로그램을 실행할 모든 환경에서 일관성을 보장하기 때문입니다.
 
@@ -303,7 +439,18 @@ docker pull username/image_name:latest
 docker run -d -p 8000:8000 username/image_name:latest
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금까지 제품 모델이 운영 중입니다. 다음 부분에서는 GitHub Actions를 사용하여 모델을 특정 트리거로 다시 학습하는 방법을 살펴보겠습니다.
 
@@ -313,7 +460,18 @@ docker run -d -p 8000:8000 username/image_name:latest
 
 이 튜토리얼에서는 운영 데이터셋에서 데이터 드리프트가 감지될 때 자동으로 모델 재학습을 수행하는 방법을 배우겠습니다. 먼저, 데이터셋에서 드리프트를 감지하는 방법을 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 코드를 사용하여 데이터셋에서 drift를 시뮬레이션해 보겠습니다.
 
@@ -323,13 +481,13 @@ import numpy as np
 def introduce_drift(data, drift_features, drift_amount=0.1, random_seed=42):
     np.random.seed(random_seed)
     drifted_data = data.copy()
-    
+
     for feature in drift_features:
         if feature in data.columns:
             drifted_data[feature] += np.random.normal(loc=0, scale=drift_amount, size=data.shape[0])
-    
+
     return drifted_data
-    
+
 features_to_drift = ['Glucose', 'BloodPressure', 'SkinThickness', 'Pregnancies']
 
 drifted_data = introduce_drift(X_test, features_to_drift, drift_amount=50)
@@ -340,15 +498,24 @@ drifted_data = drifted_data.reset_index(drop=True)
 
 튜토리얼에는 학습 데이터(참조)와 drift 데이터(신규)가 필요합니다. 나중에 다시 학습할 때 사용할 타겟 열도 저장해두는 것이 좋습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 reference_data['Outcome'] = y_train.reset_index(drop=True)
 drifted_data['Outcome'] = y_test.reset_index(drop=True)
 
 drifted_data.to_csv('..//data//new_data.csv', index=False)
 reference_data.to_csv('..//data//reference_data.csv', index=False)
-
 
 Evidently(제가 Evidently와 어떤 제휴도 없습니다)를 사용하여 제품 데이터가 참조 데이터에 비해 드리프트했는지 확인할 수 있습니다. 다음 코드로 확인할 수 있습니다.
 
@@ -358,7 +525,7 @@ from evidently.report import Report
 
 data_drift_report = Report(metrics=[DataDriftPreset()])
 
-data_drift_report.run(current_data=drifted_data.drop('Outcome', axis=1), 
+data_drift_report.run(current_data=drifted_data.drop('Outcome', axis=1),
 reference_data=reference_data.drop('Outcome', axis=1), column_mapping=None)
 report_json = data_drift_report.as_dict()
 drift_detected = report_json['metrics'][0]['result']['dataset_drift']
@@ -366,8 +533,18 @@ drift_detected = report_json['metrics'][0]['result']['dataset_drift']
 
 ![이미지](/assets/img/2024-06-19-SimpleModelRetrainingAutomationviaGitHubActions_4.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결과에는 나중에 재훈련 자동화를 위해 사용할 드리프트 데이터 세트가 나타납니다.
 
@@ -385,7 +562,7 @@ data_drift_report = Report(metrics=[
     DataDriftPreset()
 ])
 
-data_drift_report.run(reference_data=reference_data.drop('Outcome', axis=1), 
+data_drift_report.run(reference_data=reference_data.drop('Outcome', axis=1),
                       current_data=new_data.drop('Outcome', axis=1), column_mapping=None)
 
 report_json = data_drift_report.as_dict()
@@ -403,7 +580,18 @@ else:
 
 위 코드에서 우리는 드리프트 감지 여부를 drift_detected.txt 파일에 저장하고, 드리프트가 감지되었는지 여부에 따라 정보를 출력합니다. 드리프트가 감지된 경우, 모델을 재훈련하고 싶습니다. 이에 대비하여 훈련 스크립트를 준비해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스크립트 폴더에 train_model.py라는 파일을 만들고 다음 코드로 채워주세요.
 
@@ -450,7 +638,18 @@ with open('models/pipeline.pkl', 'wb') as f:
 
 그러나 모든 스크립트가 준비되면, GitHub Actions를 통해 드리프트가 감지될 때 모델을 재학습할 수 있도록 준비할 것입니다. 재학습에 필요한 모든 구성을 포함하는 YAML 파일을 준비해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서, .github\workflows 폴더에 mlops_pipeline.yml 파일을 생성해봅시다. 폴더 이름이 제대로 되었는지 확인하세요; GitHub Actions은 적절한 이름이 필요합니다. 아래의 코드로 mlops_pipeline.yml을 채워넣어주세요.
 
@@ -472,7 +671,7 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Set up Python
-      uses: actions/setup-python@v2 
+      uses: actions/setup-python@v2
       with:
         python-version: 3.9
 
@@ -484,7 +683,7 @@ jobs:
     - name: Run data drift detection
       run: |
         python scripts/drift_detection.py
-      continue-on-error: true 
+      continue-on-error: true
 
     - name: Check for data drift
       id: check_drift
@@ -544,8 +743,18 @@ jobs:
 
 ![Simple Model Retraining Automation via GitHub Actions](/assets/img/2024-06-19-SimpleModelRetrainingAutomationviaGitHubActions_5.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 GitHub Actions에서 사용하는 트리거는 data 폴더 안에 new_data.csv 파일이 푸시될 때입니다. 그러나 모델 재학습은 drift가 감지될 때만 실행됩니다. 모델을 다시 훈련한 후, 해당 모델을 GitHub 저장소와 Docker Hub에 다시 푸시할 것입니다.
 
@@ -555,7 +764,18 @@ GitHub Actions에서 사용하는 트리거는 data 폴더 안에 new_data.csv �
 
 GitHub 저장소의 Actions 탭으로 이동해주세요. 성공적으로 실행되었다면, 'Success' 상태를 가진 'build'라는 작업이 하나 표시될 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-19-SimpleModelRetrainingAutomationviaGitHubActions_6.png)
 
@@ -565,7 +785,18 @@ GitHub 저장소의 Actions 탭으로 이동해주세요. 성공적으로 실행
 
 저장소의 모델로 이동하면 모델이 업데이트되었는지 확인할 수 있습니다. 모델을 다시 학습했을 때 커밋 메시지를 사용하여 알림을 받습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-19-SimpleModelRetrainingAutomationviaGitHubActions_8.png)
 
@@ -575,7 +806,18 @@ GitHub 저장소의 Actions 탭으로 이동해주세요. 성공적으로 실행
 
 이 글에서 사용한 코드들이 필요하면, 해당 레포지토리에 푸시해 놓았어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

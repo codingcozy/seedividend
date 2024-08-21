@@ -3,16 +3,13 @@ title: "React Native 앱 디버깅하는 방법"
 description: ""
 coverImage: "/assets/img/2024-05-01-DebuggingReactNativeAppsTopToolsandStrategies_0.png"
 date: 2024-05-01 18:14
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-01-DebuggingReactNativeAppsTopToolsandStrategies_0.png
 tag: Tech
 originalTitle: "Debugging React Native Apps: Top Tools and Strategies"
 link: "https://medium.com/@contact_53145/debugging-react-native-apps-top-tools-and-strategies-e98c350a8d33"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-05-01-ReactNativeAppsDebuggingTopToolsandStrategies_0.png" />
 
@@ -26,7 +23,18 @@ isUpdated: true
 - React Native CLI: React Native CLI를 사용하여 앱을 실행할 때 — debug 플래그를 사용하여 디버깅 기능을 활성화할 수 있어요.
 - Flipper: React Native를 위한 인기 있는 디버깅 도구로, 디버거, 콘솔 등을 제공해줘요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 전략:
 
@@ -43,6 +51,17 @@ isUpdated: true
 - 성공: React Native Debugger를 사용하여 제3자 라이브러리와 관련된 까다로운 문제를 식별했습니다.
 - 실패: 몇 시간 동안 디버깅을 한 후에야 단순한 오타였음을 깨달았습니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 여러분들의 차례입니다! 좋아하는 디버깅 도구와 전략을 공유해 주세요. 함께 서로의 경험을 나누며 배워봐요!

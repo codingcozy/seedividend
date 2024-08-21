@@ -3,15 +3,13 @@ title: "DOM 조작 완전정복 기술 및 응용 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-DOMManipulationDemystifiedTechniquesandApplications_0.png"
 date: 2024-07-09 14:14
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-DOMManipulationDemystifiedTechniquesandApplications_0.png
 tag: Tech
 originalTitle: "DOM Manipulation Demystified: Techniques and Applications"
 link: "https://medium.com/@rajataha062/dom-manipulation-demystified-techniques-and-applications-9863d2d3e733"
 isUpdated: true
 ---
-
-
 
 웹 개발자에게는 DOM (Document Object Model) 조작이 필수적인 기술입니다. 이 기술은 동적이고 인터랙티브한 웹 페이지를 만들 수 있게 해줍니다. 본 안내서에서는 다양한 DOM 조작 기술을 탐구하고, 그들이 실제 프로젝트에서 어떻게 활용되는지를 소개합니다.
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 DOM은 웹 문서를 위한 프로그래밍 인터페이스로, 페이지 구조를 노드 트리로 표현합니다. 이러한 노드들은 JavaScript를 사용하여 콘텐츠, 스타일 및 구조를 업데이트하는 데 활용될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 기본 개념
 
@@ -33,7 +42,18 @@ DOM은 웹 문서를 위한 프로그래밍 인터페이스로, 페이지 구조
 
 # 요소 선택하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 DOM을 조작하려면 먼저 작업하려는 요소를 선택해야 합니다. JavaScript에서는 다음과 같은 여러 메소드를 제공합니다:
 
@@ -54,7 +74,18 @@ const allElements = document.querySelectorAll(".myClass");
 
 # 콘텐츠 수정하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한번 요소를 선택하면 innerHTML, textContent, innerText와 같은 속성을 사용하여 내용을 수정할 수 있어요.
 
@@ -71,7 +102,18 @@ element.innerText = "다른 텍스트 내용";
 
 setAttribute(), getAttribute(), removeAttribute() 메소드를 사용하여 요소의 속성을 변경할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const imgElement = document.getElementById("myImage");
@@ -95,7 +137,18 @@ element.style.fontSize = "20px";
 element.style.display = "none";
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 클래스 추가 및 제거
 
@@ -112,7 +165,18 @@ element.classList.toggle("activeClass");
 
 # 요소 생성 및 추가하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 DOM에서 createElement() 및 appendChild()를 사용하여 새 요소를 만들고 추가할 수 있어요.
 
@@ -128,7 +192,18 @@ container.appendChild(newElement);
 
 요소를 제거하려면 removeChild() 메서드를 사용하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const container = document.getElementById("container");
@@ -142,7 +217,18 @@ container.removeChild(elementToRemove);
 
 동적 To-Do 목록 애플리케이션은 요소를 추가, 제거, 수정하는 여러 DOM 조작 기술을 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const addButton = document.getElementById("addButton");
@@ -187,7 +273,18 @@ images.forEach((src) => {
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 프로젝트: GitHub 프로필 웹사이트
 
@@ -221,6 +318,17 @@ getGitHubProfile("octocat");
 
 # 마무리
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 DOM 조작을 능숙하게 다루는 것은 동적이고 상호작용적인 웹 페이지를 만들기 위해 중요합니다. 요소 선택, 내용 수정, 속성 및 스타일 관리, 요소 생성 및 삭제 등의 기술을 이해하고 적용함으로써 웹 개발 실력을 향상시킬 수 있습니다. 이러한 기술들은 이론적인 것뿐만 아니라 실용적인 측면도 가지고 있으며, 동적 할일 목록, 이미지 갤러리, GitHub 프로필 웹사이트와 같은 프로젝트에서 관련 기능을 확인할 수 있습니다. 여러분이 실험하고 프로젝트를 구축하는 과정에서 이러한 DOM 조작 기술을 익힘으로써 여러분의 개발 도구상자에서 중요한 부분으로 자리매깁니다.

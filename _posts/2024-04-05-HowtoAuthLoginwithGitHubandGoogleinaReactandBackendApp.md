@@ -3,17 +3,13 @@ title: "리액트 및 백엔드 앱에서 GitHub 및 Google을 사용한 인증 
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How to Auth Login with GitHub and Google in a React and Backend App"
 link: "https://medium.com/bitsrc/how-to-auth-login-with-github-and-google-in-a-react-and-backend-app-77423565b506"
 isUpdated: true
 ---
-
-
-
-
 
 ![HowtoAuthLoginwithGitHubandGoogleinaReactandBackendApp_0](/assets/img/HowtoAuthLoginwithGitHubandGoogleinaReactandBackendApp_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 예를 들어, 사용자가 Google 계정에 두 단계 인증을 활성화했다면, 해당 보안 조치는 사용 중인 애플리케이션이나 웹사이트에도 적용됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 튜토리얼에서는 TypeScript로 React 애플리케이션에서 Github 및 Google 로그인을 구현할 것입니다. 우리는 애플리케이션을 만들기 위해 Vite를 사용하고 패키지 관리자로 pnpm을 사용할 것입니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 Github의 경우 다음 단계를 따르세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 구글을 사용하려면 다음 단계를 따라주세요.
 
@@ -43,7 +61,18 @@ Github의 경우 다음 단계를 따르세요.
 
 아래 게시물에서 이에 대해 좀 더 설명하고 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 개의 애플리케이션, 백엔드와 클라이언트를 디렉토리마다 나눠서 준비할 거예요.
 
@@ -55,7 +84,18 @@ Github의 경우 다음 단계를 따르세요.
 pnpm init -y
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트에 필요한 종속성을 설치해보세요:
 
@@ -69,7 +109,18 @@ pnpm install @types/cors @types/express @types/node ts-node-dev typescript -D
 
 이후에는 다음과 같은 구조로 프로젝트를 생성하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 ├── src/
@@ -92,7 +143,18 @@ pnpm install @types/cors @types/express @types/node ts-node-dev typescript -D
 pnpm install @octokit/auth @react-oauth/google @nextui-org/react axios react-router-dom
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 후, 프로젝트를 위한 다음 구조를 만들었습니다:
 
@@ -122,7 +184,18 @@ pnpm install @octokit/auth @react-oauth/google @nextui-org/react axios react-rou
 
 ## 백엔드
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 파일 server.ts:
 
@@ -156,7 +229,18 @@ app.listen(PORT, () => console.log("Server on port", PORT));
 
 또한 이 애플리케이션은 요청에서 JSON 사용을 가능하게 하고 GitHub 서비스 및 Google 서비스에 대한 라우트를 정의하기 위해 app.use() 함수를 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막으로, 응용 프로그램은 PORT 상수에 지정된 포트에서 청취하거나 포트가 지정되지 않은 경우 3001 포트에서 청취합니다.
 
@@ -183,7 +267,18 @@ export default router;
 
 이 코드는 /accessToken과 /userData 두 경로를 정의하는 Express 라우터를 생성합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 /accessToken 경로는 쿼리에서 code 매개변수를 가져와 GitHub 서비스의 getAccessToken 함수를 호출하는 GET 경로입니다.
 
@@ -205,7 +300,18 @@ router.get('/userData', (req: Request, res: Response) => {
 export default router;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 코드는 Express 라우터를 생성하여 /userData라는 GET 경로를 정의합니다. 이 경로는 쿼리에서 accessToken 매개변수를 받아와 Google 서비스의 getUserData 함수를 호출합니다.
 
@@ -223,9 +329,7 @@ type AccessTokenData = {
   scope: string,
 } | null;
 
-export const getAccessToken = async (
-  code: string
-): Promise<AccessTokenData> => {
+export const getAccessToken = async (code: string): Promise<AccessTokenData> => {
   try {
     const params = `?client_id=${process.env.GITHUB_CLIENT_ID}&client_secret=${process.env.GITHUB_CLIENT_SECRET}&code=${code}`;
 
@@ -263,7 +367,18 @@ export const getUserData = async (accessToken: string) => {
 
 getAccessToken 함수는 code 매개변수를 받아와 GitHub API에 POST 요청을 보내어 제공된 client_id, client_secret 및 code를 사용하여 액세스 토큰을 얻습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 getUserData 함수는 accessToken 매개변수를 받아들이고 요청에서 제공된 액세스 토큰을 사용하여 GitHub API에서 사용자 정보를 반환합니다.
 
@@ -274,14 +389,11 @@ import axios from "axios";
 
 export const getUserData = async (accessToken: string) => {
   try {
-    const { data } = await axios.get(
-      "https://www.googleapis.com/oauth2/v3/userinfo",
-      {
-        headers: {
-          Authorization: `Bearer ${accessToken}`,
-        },
-      }
-    );
+    const { data } = await axios.get("https://www.googleapis.com/oauth2/v3/userinfo", {
+      headers: {
+        Authorization: `Bearer ${accessToken}`,
+      },
+    });
 
     return data;
   } catch (error) {
@@ -292,7 +404,18 @@ export const getUserData = async (accessToken: string) => {
 
 getUserData 함수는 accessToken 매개변수를 받아들이고, 요청의 권한 헤더에 제공된 액세스 토큰을 사용하여 Google OAuth 사용자 정보 API로 GET 요청을 수행하고 사용자 정보를 반환합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 이미 필요한 최소한의 백엔드가 생성되었습니다. 이제 프론트엔드로 진행해 봅시다.
 
@@ -321,7 +444,18 @@ ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
 )
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 애플리케이션에서는 Next UI를 사용하여 스타일을 적용할 것입니다. 사용하고 싶은 UI 라이브러리를 자유롭게 선택할 수 있어요.
 
@@ -347,7 +481,18 @@ const App = () => {
 export default App;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 App 컴포넌트에서는 사용할 페이지의 라우트를 생성하고 해당 컴포넌트를 할당할 것입니다.
 
@@ -415,7 +560,18 @@ export default LoginPage
 
 사용자가 GitHub 로그인 버튼을 클릭하면 사용자는 GitHub 로그인 페이지로 리디렉트되며 브라우저의 로컬 저장소에 사용자가 GitHub로 로그인 중임을 나타내는 키가 저장됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용자가 Google 로그인 버튼을 클릭하면 @react-oauth/google의 useGoogleLogin 기능을 사용하여 Google로 로그인합니다. 로그인이 성공하면 사용자가 Google로 로그인하고 있다는 것을 나타내는 키가 브라우저의 로컬 저장소에 저장됩니다.
 
@@ -534,7 +690,18 @@ export default HomePage
 
 사용자가 로그인하고 홈페이지로 리디렉션되면 useEffect 훅을 사용하여 페이지가 로드될 때 일련의 작업을 수행합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저 페이지 URL에서 권한 코드를 받아 사용자가 GitHub으로 로그인한 경우 액세스 토큰을 받고 그런 다음 GitHub에서 사용자 데이터를 가져옵니다. 사용자가 Google로 로그인 한 경우에는 Google 사용자 데이터를 간단히 가져옵니다.
 
@@ -544,7 +711,18 @@ export default HomePage
 
 이제 GitHub 또는 Google로 로그인할 수 있습니다. 다음 단계는 사용자를 등록하고 사용자 정보를 데이터베이스에 저장하거나 원하는 대로 처리하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 애플리케이션은 다음과 같이 보입니다:
 
@@ -554,7 +732,18 @@ export default HomePage
 
 ![이미지3](/assets/img/HowtoAuthLoginwithGitHubandGoogleinaReactandBackendApp_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 🧑‍💻 위 저장소에서 확인하세요.
 
@@ -564,7 +753,18 @@ export default HomePage
 
 더 읽기:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 작가와 소통하고 싶으신가요?
 세계의 친구들과 트위터를 통해 소통하는 것을 즐기시나요.

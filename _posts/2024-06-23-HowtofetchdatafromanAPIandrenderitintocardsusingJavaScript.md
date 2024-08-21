@@ -3,16 +3,13 @@ title: "JavaScript로 API에서 데이터를 받아 카드 형태로 렌더링�
 description: ""
 coverImage: "/assets/img/2024-06-23-HowtofetchdatafromanAPIandrenderitintocardsusingJavaScript_0.png"
 date: 2024-06-23 14:31
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-HowtofetchdatafromanAPIandrenderitintocardsusingJavaScript_0.png
 tag: Tech
 originalTitle: "How to fetch data from an API and render it into cards using JavaScript"
 link: "https://medium.com/@jenniferjimenez90/how-to-fetch-data-from-an-api-and-render-it-into-cards-using-javascript-b0d1f6e22702"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-06-23-HowtofetchdatafromanAPIandrenderitintocardsusingJavaScript_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 먼저, JavaScript 파일(index.js)을 링크하기 위해 index.html을 가지고 있어야 합니다.<script> 태그를 사용하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <!DOCTYPE html>
@@ -32,7 +40,7 @@ isUpdated: true
      </head>
      <body>
        <div id="cards-container">
-        </div> 
+        </div>
       <script src="index.js" defer></script>
      </body>
   </html>
@@ -44,42 +52,84 @@ isUpdated: true
 
 API를 가져오려면 올바른 구문을 사용해야 합니다. 이 프로젝트를 작업하기 전에 fetch를 소개받았지만 프로젝트에서 데이터를 가져오는 작업은 해본 적이 없었습니다. 데이터를 가져오는 다른 방법도 있지만 그것은 나중에 다시 다루도록 하겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 index.js에 다음과 같이 작성되어 있어야 해요:
 
 구문:
 
 ```js
-fetch('API_URL')
-.then(response => response.json())
-.then(data => console.log(data));
+fetch("API_URL")
+  .then((response) => response.json())
+  .then((data) => console.log(data));
 ```
 
 <img src="/assets/img/2024-06-23-HowtofetchdatafromanAPIandrenderitintocardsusingJavaScript_1.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 릭 앤 모티 문서를 확인한 후, 우리는 필요한 모든 캐릭터를 가져오기 위해 "/character" 엔드포인트를 추가해야 한다는 것을 배웠어요. 위의 구문에서 한 가지 변경한 점은 '데이터' 대신 '캐릭터'를 사용하기로 결정한 것이에요. 이름을 지을 때 '데이터'를 사용하는 대신 '캐릭터'로 지었어요. 왜냐하면 우리가 가지고 오려고 하는 정확한 데이터가 '캐릭터'이기 때문이에요.
 
 팁: 무엇을 하기 전에 데이터를 console.log 해보는 것이 좋아요. 이것은 좋은 초보 실습이에요. 콘솔을 통해 작업할 API의 데이터를 볼 수 있기 때문에 어떻게 데이터를 가져올 수 있는지 정확히 파악할 수 있어요. 또한, API에 더 많은 속성이 있다면, 점 표기법을 사용해 접근할 수 있어요.
 
-
 <img src="/assets/img/2024-06-23-HowtofetchdatafromanAPIandrenderitintocardsusingJavaScript_2.png" />
-
 
 우리가 console.log(characters)를 사용했기 때문에, 크롬 개발자 도구의 콘솔을 열면 API의 데이터를 볼 수 있어요 (Windows에서는 Ctrl Shift J 또는 Mac에서는 Ctrl Option J). "info"라는 객체와 "results"라는 배열이 있어요. 우리가 원하는 것은 "results" 배열에서 모든 캐릭터를 가져오는 것이에요. 이번에는 '캐릭터' 뒤에 '.results'를 추가할 거에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 이 캐릭터들의 경로를 알았습니다. "characters.results"입니다.
 
 카드를 생성하기 전에 index.html에서 cards-container div를 index.js로 가져와야 합니다. API를 가져올 때 캐릭터를 렌더링 할 곳이 되기 때문입니다. index.js에서 전역 변수를 만들고(어떤 함수 외부에서) DOM(Document Object Model)의 querySelector() 메서드를 사용하여 Id가 'cards-container'인 div를 가져와야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-const cardsContainer = document.querySelector('#cards-container');
+const cardsContainer = document.querySelector("#cards-container");
 ```
 
 이제 다음 단계로 넘어가 보겠습니다. 콜백 함수를 만드는 것입니다.
@@ -96,26 +146,48 @@ function renderCharacters(characters) {
     const like = document.createElement('button');
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로는 CSS를 사용하여 스타일을 적용할 수 있도록 div, 이미지 및 좋아요 버튼에 class를 추가합니다. 이를 위해 요소 이름 뒤에 점 표기법을 사용하여 해당 요소에 사용할 이름을 할당해주면 됩니다.
 
 ```js
-div.classList = 'card'
-image.classList = 'card-img'
-like.classList = 'empty'
+div.classList = "card";
+image.classList = "card-img";
+like.classList = "empty";
 ```
 
 선호하는 API에 따라 데이터를 가져오는 것이 가능합니다. Rick and Morty API의 경우 캐릭터의 이미지, 이름 및 종족이 제공되므로 해당 데이터를 가져오기 위해 점 표기법을 사용할 수 있습니다.
 
 ```js
-image.src = character.image
-name.innerText = `이름: ${character.name}`
-species.innerText = `종족: ${character.species}`
-like.textContent = '좋아요'
+image.src = character.image;
+name.innerText = `이름: ${character.name}`;
+species.innerText = `종족: ${character.species}`;
+like.textContent = "좋아요";
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 캐릭터 이미지를 얻기 위해서는 이미지 뒤에 'src' (소스의 약자)를 추가한 후 character.image에 할당해야 합니다. 이름과 종 요소에 대해서는 innerText와 역따옴표 (``)를 사용했습니다. 캐릭터의 이름과 종 옆에 텍스트를 표시하려면 이 작업이 필요합니다. 이를 위해 역따옴표와 보간 구문 (`$''`)을 사용합니다. 그렇지 않으면 'Name:'과 'Species:' 텍스트가 표시되지 않습니다. 또한, 좋아요 버튼에는 'like'의 textContent를 지정해줍니다.
 
@@ -123,39 +195,61 @@ like.textContent = '좋아요'
 
 팁: 요소를 추가한 순서가 페이지에 나타나는 순서입니다. 이 경우에는, 캐릭터 이미지가 먼저 나타나고 그 다음으로 이름 및 기타 정보가 나타나도록 하려고 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 함수 전체를 다음과 같이 작성해 보세요:
 
 ```js
 function renderCharacters(characters) {
-  characters.forEach(character => {
-    const div = document.createElement('div');
-    const image = document.createElement('img');
-    const name = document.createElement('h3');
-    const species = document.createElement('h3');
-    const like = document.createElement('button');
-    div.classList = 'card';
-    image.classList = 'card-img';
-    like.classList = 'empty';
+  characters.forEach((character) => {
+    const div = document.createElement("div");
+    const image = document.createElement("img");
+    const name = document.createElement("h3");
+    const species = document.createElement("h3");
+    const like = document.createElement("button");
+    div.classList = "card";
+    image.classList = "card-img";
+    like.classList = "empty";
     image.src = character.image;
     name.innerText = `이름: ${character.name}`;
     species.innerText = `종: ${character.species}`;
-    like.textContent = '좋아요';
+    like.textContent = "좋아요";
     div.appendChild(image);
     div.appendChild(name);
     div.appendChild(species);
     div.appendChild(like);
     cardsContainer.appendChild(div);
   });
-};
+}
 ```
 
 멋져요! 마지막 단계는 다시 fetch로 돌아가서 두 번째 'then()'에서 renderCharacters를 콜백으로 호출하는 것입니다. characters.results를 이용하여 캐릭터 배열에 접근하는 방법을 알고 있으므로 해당 매개변수로 추가해줍시다.
 
 <img src="/assets/img/2024-06-23-HowtofetchdatafromanAPIandrenderitintocardsusingJavaScript_5.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 브라우저에서 index.html을 열어보면 이와 같은 모습을 볼 수 있을 거에요.
 

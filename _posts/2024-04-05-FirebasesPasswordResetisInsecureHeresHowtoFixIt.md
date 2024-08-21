@@ -3,17 +3,13 @@ title: "파이어베이스의 비밀번호 재설정을 절대 하면 안되는 
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Firebases Password Reset is Insecure Heres How to Fix It"
 link: "https://medium.com/better-programming/firebases-password-reset-is-insecure-here-s-how-to-fix-it-882629e3b779"
 isUpdated: true
 ---
-
-
-
-
 
 ## Firebase Auth의 기본 비밀번호 재설정 앱은 보안에 취약합니다. 사용자가 보안에 취약한 비밀번호를 입력할 수 있게끔 허용하기 때문입니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이 문제는 Firebase Auth에서 이메일/비밀번호 인증을 사용하는 앱에 해당됩니다. 사용자가 비밀번호를 재설정하려고 할 때, 기본적으로 이 미니 앱으로 이동됩니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="https://miro.medium.com/v2/resize:fit:932/1*X_oKmcs9qTFHvu5VkN_aQQ.gif" />
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 # 간단한 해결책
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `SafeFirebasePasswordReset` 저장소는 Firebase의 기본적이고 보안이 취약한 비밀번호 재설정 미니 앱을 대체하기 위해 설계되었습니다. 다음과 같이 보입니다:
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 해당 저장소는 오픈 소스이며 사용자의 요구에 맞게 쉽게 사용자 정의할 수 있으며 무료로 사용 가능합니다(MIT 라이선스).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # SafeFirebasePasswordReset 사용 방법
 
@@ -55,7 +84,18 @@ isUpdated: true
 - NodeJS
 - Firebase CLI (설치 후 명령 프롬프트 창을 열고 firebase login을 입력하세요).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 명령 프롬프트에서 시작해서, 레포를 클론하세요: git clone https://github.com/tdcolvin/SafeFirebasePasswordReset.git.
 
@@ -65,7 +105,18 @@ isUpdated: true
 
 Firebase 구성 객체가 필요합니다. 이를 얻으려면 Firebase 콘솔로 이동하여, 톱니바퀴 아이콘을 클릭하고, 프로젝트 설정을 클릭한 후 일반 탭에서 앱 추가를 클릭하고, 웹 아이콘(라벨 `/`로 표시됨)을 클릭하고, 앱 이름으로 Password Reset을 입력하고, 앱 등록을 누르세요. 아래와 같은 화면이 표시됩니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/FirebasesPasswordResetisInsecureHeresHowtoFixIt_3.png" />
 
@@ -75,7 +126,18 @@ Firebase 구성 객체가 필요합니다. 이를 얻으려면 Firebase 콘솔�
 
 <img src="/assets/img/FirebasesPasswordResetisInsecureHeresHowtoFixIt_4.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 작업이 완료되면 오류가 발생하지 않았는지 확인하고(녹색 "정상적으로 컴파일됨" 라인을 확인하세요), 프로젝트에 다음 내용이 포함된 빌드 디렉토리가 생성됩니다:
 
@@ -85,7 +147,18 @@ Firebase 구성 객체가 필요합니다. 이를 얻으려면 Firebase 콘솔�
 
 # Firebase Hosting: 웹에서 미니 앱을 이용 가능하게 만들기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파이어베이스 호스팅은 앱을 호스팅하기에 좋은 선택입니다. 기능은 간소하지만 파이어베이스와 잘 통합되어 있으며 무료 티어도 넉넉합니다. 그러나 이 경우 파이어베이스 호스팅이 특별한 것은 없으므로 거의 모든 다른 호스팅 플랫폼을 사용할 수 있습니다.
 
@@ -95,7 +168,18 @@ Firebase 구성 객체가 필요합니다. 이를 얻으려면 Firebase 콘솔�
 
 시작하기 버튼을 클릭하면 단계별 가이드가 표시되며, 계속해서 다음 버튼을 누르다가 마지막으로 콘솔로 계속합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Firebase의 Password Reset이 안전하지 않습니다. 이를 고치는 방법은 여기에 있습니다_7.png](/assets/img/FirebasesPasswordResetisInsecureHeresHowtoFixIt_7.png)
 
@@ -105,7 +189,18 @@ Firebase 구성 객체가 필요합니다. 이를 얻으려면 Firebase 콘솔�
 
 ![Firebase의 Password Reset이 안전하지 않습니다. 이를 고치는 방법은 여기에 있습니다_8.png](/assets/img/FirebasesPasswordResetisInsecureHeresHowtoFixIt_8.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 다음 질문에서 로그인을 선택하세요.
 - 기존 프로젝트를 사용 선택
@@ -120,7 +215,18 @@ Firebase 구성 객체가 필요합니다. 이를 얻으려면 Firebase 콘솔�
 
 이제 Firebase Hosting을 앱에 구성했습니다. 우와!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막으로 남은 단계는 앱을 업로드하여 웹에서 사용할 수 있게 하는 것입니다. firebase deploy를 입력하고 엔터를 누르세요. 다음을 보게 될 것입니다:
 
@@ -130,7 +236,18 @@ Firebase 구성 객체가 필요합니다. 이를 얻으려면 Firebase 콘솔�
 
 # 사용자를 새로운 앱으로 보내기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막으로, Firebase의 비밀번호 재설정 이메일을 새 주소로 사용자에게 안내해야 합니다.
 
@@ -140,7 +257,18 @@ Firebase 콘솔에서 인증을 선택한 다음 템플릿 탭을 클릭하세�
 
 여기에 위에서 얻은 호스팅 URL을 상자에 입력하고 /#을 더하세요. 따라서 호스팅 URL이 https://your-firebase-project.web.app인 경우 https://your-firebase-project.web.app/#을 입력하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 왜 #를 사용할까요? 약간 더 안전하기 때문이에요. 이렇게 하면 사용자의 브라우저가 해당 페이지를 방문할 때 비밀번호 재설정 키를 인터넷을 통해 전송하지 않게 됩니다.
 
@@ -150,7 +278,18 @@ Firebase 콘솔에서 인증을 선택한 다음 템플릿 탭을 클릭하세�
 
 Tom Colvin은 안드로이드 및 보안 전문가입니다. 프리랜서로 활동하고 있습니다. 앱 개발 전문가인 Apptaura의 공동 창업자이며 개발 팀을 이끌고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Coda 1: SafeFirebasePasswordReset이 비밀번호 강도를 측정하는 방법
 
@@ -160,7 +299,18 @@ SafeFirebasePasswordReset은 비밀번호 강도를 추정하는 데 사용되�
 
 # Coda 2: 작업 URL들
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Firebase에서는 비밀번호 재설정 이메일만을 위한 조치 URL을 변경할 수 없습니다. 주소 확인 및 MFA 등록과 같은 다른 이유로 전송된 이메일에도 동일한 URL이 표시됩니다.
 
@@ -170,7 +320,18 @@ SafeFirebasePasswordReset은 비밀번호 재설정 외의 경우에는 기본 �
 
 # 코다 3: Firebase 비밀번호 정책의 예정된 변경사항
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앞으로 Firebase Auth를 구성하여 비밀번호가 특정 길이이거나 특정 유형의 문자를 포함해야 하는 옵션을 설정할 수 있을 것으로 보입니다. 하지만 아직 일반적으로 사용 가능한 상태는 아닙니다.
 

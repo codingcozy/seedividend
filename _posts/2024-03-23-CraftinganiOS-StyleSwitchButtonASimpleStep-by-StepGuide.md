@@ -3,17 +3,13 @@ title: "HTML, CSS, JS로 iOS 스타일 스위치 버튼 만들기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Crafting an iOS-Style Switch Button A Simple Step-by-Step Guide"
 link: "https://medium.com/@bishal.pahari53/crafting-an-ios-style-switch-button-a-simple-step-by-step-guide-774d8a977484"
 isUpdated: true
 ---
-
-
-
-
 
 ![Switch Button Step 0](/assets/img/Crafting-an-iOS-Style-Switch-Button:-A-Simple-Step-by-Step-Guide_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ![Switch Button Step 1](/assets/img/Crafting-an-iOS-Style-Switch-Button:-A-Simple-Step-by-Step-Guide_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 전제 조건
 
@@ -34,7 +41,18 @@ isUpdated: true
 
 폴더를 생성하고 코드 편집기에서 엽니다. 이 튜토리얼에서는 VS Code를 사용하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## HTML 구조 설정하기
 
@@ -81,7 +99,18 @@ index.html
 </html>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 스위치 컨테이너를 포함하는 .switch-container 박스를 포함하는 .pack-box에 이미지 .svg-icon과 "Notification Alert" 텍스트가 들어가도록 콘텐츠를 구조화했습니다. 레이블 .switch는 체크박스 입력 .switch-1과 슬라이더 버튼 모양을 만들기 위한 span .slider와 연결됩니다.
 
@@ -91,7 +120,18 @@ index.html
 
 스위치 버튼을 스타일링하려면 styles.css라는 파일을 생성하여 HTML 파일에 연결하십시오. 요소들을 적절히 정렬하고 가운데 정렬하는 것으로 시작하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /* 본문 콘텐츠 가운데 정렬 */
@@ -140,7 +180,18 @@ body {
 
 .slider 클래스는 슬라이더 요소를 컨테이너 내부에서 절대적으로 위치시키고, 완전한 위치 지정으로 전체 영역을 채우도록 합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /* 슬라이더 버튼 스타일링 */
@@ -163,7 +214,18 @@ body {
 
 ::before 가상 클래스를 사용하여 슬라이더 앞에 빈 콘텐츠를 추가하여 토글 버튼을 가운데 정렬하고 외형을 원형으로 변경하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
  /* 슬라이더 모양 스타일 지정 */
@@ -191,7 +253,18 @@ body {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막으로, 슬라이더 버튼을 토글할 때 움직이도록 하려면, 변환 속성을 사용하여 수평으로 이동하도록 설정하세요:
 
@@ -206,7 +279,18 @@ body {
 
 <img src="https://miro.medium.com/v2/resize:fit:612/1*fnc3gUFrouST3MueP2XmZQ.gif" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 상호 작용을 위한 JavaScript 추가하기
 
@@ -227,7 +311,18 @@ const handleChange = () => {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

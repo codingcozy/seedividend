@@ -3,17 +3,13 @@ title: "디자인 가이드를 코드로 변환하는 여러가지 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "What is Design to Code An Elegant Approach"
 link: "https://medium.com/@pxcode/what-is-design-to-code-an-elegant-approach-bdb73b858dfb"
 isUpdated: true
 ---
-
-
-
-
 
 디자인을 코드로 변환하는 디자인 투 코드에 중점을 두며, 원하는 외관을 복제하는 정확한 코드로 변환하는 작업을 의미합니다. 이 프로세스는 디자이너와 개발자 간의 시너지 효과가 필요하여 정확도를 달성하며, 시간을 여러 일에서 몇 분으로 크게 단축시킵니다. 하지만 이 진화의 역사는 무엇이고, 미래는 어떤 모습일까요?
 
@@ -29,7 +25,18 @@ isUpdated: true
 
 # 디자인을 코드로 변환하는 프로세스
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 UI 디자인을 코드로 변환하는 과정은 시각적 및 상호작용 디자인을 브라우저나 모바일 플랫폼이 해석할 수 있는 프로그래밍 가능한 형식으로 변환하는 것을 포함합니다. pxCode와 같은 도구는 디자이너가 디자인 파일(Adobe XD, Figma, Sketch 등과 같은 소프트웨어에서 가져온)을 가져와 HTML, CSS 및 JavaScript 코드를 생성하도록 하는 것으로 이 프로세스를 자동화합니다. pxCode는 반응형 디자인을 강조하여 디자인이 화면 크기와 장치에 대해 지속적으로 적응할 수 있도록 하며, 상세한 수동 조정이 필요하지 않습니다.
 pxCode 사용에 대해 더 알아보기
@@ -40,7 +47,18 @@ pxCode 사용에 대해 더 알아보기
 
 ![디자인을 코드로](/assets/img/WhatisDesigntoCodeAnElegantApproach_0.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 본질적으로, 디자인을 코드로 변환하는 것은 디자인 컨셉을 기능적인 소프트웨어로 변환하는 과정을 의미합니다. 이 과정은 시각적 디자인을 코딩된 응용 프로그램으로 변환시킴으로써 이루어집니다. 이 변환은 이상적으로는 디자인을 코딩 환경으로 직접 자동 변환하는 도구들에 의해 용이하게 이루어지며, 최종 제품을 창조하는 과정을 간소화합니다.
 
@@ -50,7 +68,18 @@ pxCode 사용에 대해 더 알아보기
 
 ![이미지](/assets/img/WhatisDesigntoCodeAnElegantApproach_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 과정은 설계를 참조하고 그에 기반하여 코딩하며, 그 결과물을 원본 디자인과 비교하여 조정하는 반복적인 사이클로 이루어집니다. 비교를 위해 스크린샷을 찍고 수정사항을 적용해야 하는 이 방법은 단조롭고 개발자에게 구조, 그룹화 및 반응형 구현 방법 등을 해독해야 하는 작업을 남기기도 합니다.
 
@@ -65,7 +94,18 @@ pxCode 사용에 대해 더 알아보기
 - 의사소통: 디자이너와 개발자 간의 의사소통 오류는 디자인된 UI와 구현된 코드 간의 불일치로 이어질 수 있습니다.
 - 시간 및 효율성: 디자인으로부터의 수동 코딩은 시간이 많이 소요되고 오류를 발생시킬 수 있어 프로세스를 덜 효율적으로 만들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 디자인을 코드로 사용하는 장점은 무엇인가요?
 
@@ -77,7 +117,18 @@ pxCode 사용에 대해 더 알아보기
 
 수동 코딩은 오류를 범하기 쉽고 종종 미세한 차이로 인해 브랜드 표현에 상당한 영향을 미칠 수 있습니다. 간격, 색상 및 글꼴 굵기를 정렬하는 프로세스를 자동화하여 더 높은 수준의 정밀도를 확보함으로써 전반적인 미적 품질이 향상되며 디자이너와 개발자 간에 발생하는 일반적인 마찰을 줄일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 디자인을 코드로 변환하는 데 내재된 제약 사항
 
@@ -91,6 +142,17 @@ pxCode 사용에 대해 더 알아보기
 - 디자이너: 시각적 및 상호작용 디자인을 만드는 데 초점을 맞추어 사용성, 미학, 전반적인 사용자 경험을 보장합니다.
 - 개발자: pxCode와 같은 도구를 사용하여 디자인을 코드로 변환하며 기능, 성능, 장치 간 적응성에 초점을 두게 됩니다. 개발자는 또한 생성된 코드를 수동으로 조정하여 애플리케이션을 세밀하게 조정할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요약하면, 특히 pxCode와 같은 도구의 등장으로 디자인에서 코드로의 프로세스는 협력적이고 효율적으로 크게 발전해 왔습니다. 여전히 어려움이 존재하지만, 간소화된 워크플로우, 향상된 정확성, 그리고 빠른 개발 주기라는 혜택들은 디자인에서 코드로의 전환을 현대 웹 및 앱 개발의 핵심 요소로 만듭니다.

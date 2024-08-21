@@ -3,17 +3,13 @@ title: "모든 React 훅들 간단 정리"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "All React hooks in one short"
 link: "https://medium.com/@AbidKazmi/all-react-hooks-in-one-short-4b0ed4b5a6e4"
 isUpdated: true
 ---
-
-
-
-
 
 ![img](/assets/img/AllReacthooksinoneshort_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 useState 훅을 사용하면 함수형 컴포넌트에 상태를 추가할 수 있습니다. 초기값을 인수로 전달하고 현재 상태 값과 해당 값을 업데이트하는 함수가 포함된 배열을 반환합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 함수형 컴포넌트에 카운터를 추가하는 방법을 설명하는 예제입니다:
 
@@ -54,7 +61,18 @@ function Counter() {
 
 # 2: useEffect 훅
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `useEffect` 훅을 사용하면 함수형 컴포넌트에서 부작용을 수행할 수 있습니다. 부작용에는 API에서 데이터를 가져오기, DOM을 업데이트하기, 이벤트를 구독하기 등이 포함될 수 있습니다.
 
@@ -84,7 +102,18 @@ function DataFetcher() {
 
 이 예제에서는 API에서 데이터를 가져와서 `setData` 함수를 사용하여 컴포넌트의 상태를 업데이트합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 3: useContext 훅
 
@@ -113,7 +142,18 @@ function ThemeButton() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예시에서는 "light"라는 기본 값을 가진 테마 컨텍스트를 만들고 useContext 훅을 사용하여 ThemeButton 컴포넌트에서 액세스합니다.
 
@@ -123,7 +163,18 @@ useReducer 훅을 사용하면 함수형 컴포넌트에서 복잡한 상태를 
 
 쇼핑 카트를 관리하기 위해 useReducer를 사용하는 예시가 여기 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import React, { useReducer } from "react";
@@ -161,9 +212,7 @@ function ShoppingCart() {
           </li>
         ))}
       </ul>
-      <button onClick={() => addItem({ id: 1, name: "상품 1", price: 9.99 })}>
-        상품 추가
-      </button>
+      <button onClick={() => addItem({ id: 1, name: "상품 1", price: 9.99 })}>상품 추가</button>
     </div>
   );
 }
@@ -175,7 +224,18 @@ function ShoppingCart() {
 
 마지막으로 장바구니 항목과 항목을 추가하거나 제거할 수 있는 버튼이 있는 쇼핑 카트를 렌더링합니다. 버튼이 클릭되면 useReducer 훅을 통해 반환된 dispatch 함수를 사용하여 카트 상태를 업데이트하기 위해 addItem 또는 removeItem 함수가 호출됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 5: useCallback 훅
 
@@ -201,7 +261,18 @@ function SearchBar({ onSearch }) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예에서는 onSearch 프로퍼티 함수를 사용하는 SearchBar 컴포넌트를 정의합니다. useCallback 훅을 사용하여 handleQueryChange 함수를 메모이제이션하여 onSearch 함수가 변경될 때만 다시 생성되도록합니다.
 
@@ -211,7 +282,18 @@ useMemo 훅을 사용하면 값이 의존성이 변경될 때만 다시 계산�
 
 useMemo를 사용하여 계산된 값을 메모이제이션하는 방법에 대한 예시는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import React, { useState, useMemo } from "react";
@@ -232,7 +314,18 @@ function ExpensiveCalculation({ a, b }) {
 
 useRef 훅을 사용하면 컴포넌트의 수명 동안 지속되는 변경 가능한 ref 객체를 생성할 수 있습니다. 다시 렌더링을 유발하지 않는 값들을 저장하고 액세스하는 데 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 예시는 useRef를 사용하여 입력 요소의 값을 액세스하는 방법을 보여줍니다:
 
@@ -259,7 +352,18 @@ function InputWithFocus() {
 
 # 8: useLayoutEffect 훅
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 useLayoutEffect 훅은 useEffect와 유사하지만 모든 DOM 변이 후 동기적으로 실행됩니다. 이는 컴포넌트가 렌더링된 직후 DOM을 조작하는 데 유용합니다.
 
@@ -286,10 +390,7 @@ function ResizableBox() {
   }, []);
 
   return (
-    <div
-      ref={boxRef}
-      style={{ width: "50%", height: "50%", backgroundColor: "red" }}
-    >
+    <div ref={boxRef} style={{ width: "50%", height: "50%", backgroundColor: "red" }}>
       <p>Width: {width}px</p>
       <p>Height: {height}px</p>
     </div>
@@ -299,7 +400,18 @@ function ResizableBox() {
 
 이 예시에서는 resizableBox 컴포넌트를 정의하고, useLayoutEffect 훅을 사용하여 div 요소의 크기를 측정합니다. 그런 다음 크기 값을 사용하여 상자의 너비와 높이를 렌더링합니다. 훅은 창 크기 조정 시 사이즈 값을 업데이트하기 위해 크기 이벤트 리스너를 추가하고 제거합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 9: useDebugValue 훅
 
@@ -325,7 +437,18 @@ function useFetch(url) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예시에서는 URL에서 데이터를 가져와 반환하는 useFetch라는 사용자 정의 훅을 정의합니다. useDebugValue 훅을 사용하여 React DevTools에 사용자 정의 디버깅 메시지를 표시합니다. 데이터가 로드된 경우 데이터 항목 수를 포함하는 메시지를 표시합니다. 데이터가 아직 로드 중인 경우 "로드 중..."이라는 메시지를 표시합니다.
 
@@ -335,7 +458,18 @@ useDebugValue 훅은 디버깅 목적으로만 사용해야하며 사용자 정�
 
 # 10: useImperativeHandle 훅
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `useImperativeHandle` 훅을 사용하면 ref를 사용할 때 부모 컴포넌트에 노출되는 인스턴스 값을 사용자 정의할 수 있습니다. 이를 통해 자식 컴포넌트의 내부 구현 세부 정보를 모두 노출하고 싶지 않을 때 유용할 수 있습니다.
 
@@ -375,7 +509,18 @@ function App() {
 
 이 예제에서는 `useImperativeHandle`을 사용하여 ref를 사용할 때 부모 컴포넌트에 노출될 focus 메서드와 value 속성을 가진 사용자 지정 Input 컴포넌트를 정의했습니다. `useImperativeHandle` 훅은 ref 객체와 부모 컴포넌트에 노출될 속성 및 메서드를 반환하는 콜백 함수 두 가지 인수를 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앱 컴포넌트에서 Input 컴포넌트를 사용하고 ref 객체를 전달합니다. 또한 클릭 시 inputRef 객체의 focus 메서드를 호출하는 handleClick 함수를 정의합니다.
 
@@ -385,7 +530,18 @@ function App() {
 
 # 요약
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - "강력한 React 훅을 사용하면 웹 개발을 더 나은 수준으로 끌어올려 효율적이고 효과적인 애플리케이션을 만들 수 있어요."
 - "useReducer로 상태를 관리하거나 useMemo 및 useCallback을 사용해 성능을 최적화하는 등, 이러한 React 훅은 개발자들에게 혁신을 가져다 줍니다."

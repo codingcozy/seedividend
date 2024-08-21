@@ -3,17 +3,13 @@ title: "아웃시스템즈에서 프론트엔드 엔지니어링에 장소가 �
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Is there a place for Frontend Engineering in OutSystems"
 link: "https://medium.com/itnext/is-there-a-place-for-frontend-engineering-in-outsystems-7e1ebbdef900"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/IsthereaplaceforFrontendEngineeringinOutSystems_0.png)
 
@@ -23,7 +19,18 @@ OutSystems를 처음 설치한 지 두 해가 지났습니다. OutSystems와 함
 
 ## 안녕 OutSystems, 만나서 반가워요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 친구의 초대를 받아 로우코드를 받아들이기로 결정했어요. 시작부터 전통적인 하이코드 소프트웨어 개발과 비교했을 때 이점을 명확히 볼 수 있었어요.
 
@@ -33,7 +40,18 @@ OutSystems는 이 분야의 발전기일 수도 있지만, 다른 회사도 따�
 
 프로젝트에 합류하게 된 이유는, 프론트엔드 문제가 지속적으로 발생하여 팀이 새로운 기능을 구현하는 것을 방해했기 때문이었어요. OutSystems에 익숙하지는 않았지만, 프론트엔드 개발 경험이 유용할 것이라고 생각되었어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오 좋아요... 그들이 알지 못했던 것들이 있었어요.
 
@@ -43,7 +61,18 @@ OutSystems는 이 분야의 발전기일 수도 있지만, 다른 회사도 따�
 
 CSS는 어디로든 흩어져 있었고, 여러 테마에서 복사하여 붙여넣었어요. 하나의 패턴을 변경해야 할 때 마다, 여러 곳에서 문제가 발생했답니다. CSS 아키텍처에 대한 개념이 없었고, 무작위로 덮어쓰여진 수많은 스파게티 CSS 줄들만 존재했어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자바스크립트는 전역 네임스페이스에 있었습니다. 똑같은 변수와 함수 정의가 우연히 덮어씌워졌고, 웹 블록의 순서를 바꿔보면 때때로 작동하다가 때때로 동작하지 않을 때도 있었습니다. 캡슐화, 상속과 같은 개념은 전혀 찾을 수 없었습니다. 물론 아코디언, 팝업, 날짜 선택기, 아이프레임, 드롭다운 등 다양한 문제가 있었습니다.
 
@@ -55,7 +84,18 @@ CSS는 어디로든 흩어져 있었고, 여러 테마에서 복사하여 붙여
 방 안에는 큰 코끼리가 있었습니다: 기술적 지식의 부재였죠. 🐘
 이 정도 나쁜 코드 중 일부는 이전 몇 달 동안 인증된 아웃시스템즈 기술 리드들이 만들었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 몇 달 후, 나는 총괄 매니저를 설득해서 실제로 HTTP 요청의 응답 및 브라우저 내에서 어떤 일이 일어나는지를 아는 더 많은 프론트엔드 엔지니어가 필요하다고 생각했습니다. 이 관리 승인은 어떤 일이 벌어질 것인지에 있어서 매우 중요했어요.
 
@@ -67,7 +107,18 @@ UI 결함이 크게 감소되었고 응답 시간이 즉각적으로 줄었습�
 프론트엔드 엔지니어 중 한 명은 스핀오프 프로젝트에 집중할 수 있게 되었고, 이제 우리는 비즈니스 가치가 높은 새로운 기능에 전념할 수 있게 되었어요.
 그들이 온보딩을 마치고 3개월 후, 나는 부모휴가를 나갔는데 누구도 그걸 실제로 못 눈치챘어요. 스스로 불필요해지는 것을 경험해 보는 거야 😂
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어떻게 가능했던 걸까요? 무슨 일이 있었나요?
 아니요, 프론트엔드 엔지니어들은 천재가 아닙니다.
@@ -79,7 +130,18 @@ UI 결함이 크게 감소되었고 응답 시간이 즉각적으로 줄었습�
 
 오늘날의 프로젝트에서는 데이터 과학자, 데브옵스 전문가, UI 디자이너, UX 연구원, 제품 디자이너, 데이터/비즈니스 분석가, 제품 소유자, 프로그램 매니저, 엔지니어링 매니저가 있습니다... 아마도 빠진 역할이 몇 개 더 있을 겁니다. 모두 자신의 역할과 기술 세트에 집중합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼요… 여러분이 찾는 것을 가지고 있는 개발자, 일명 아웃시스템즈 개발자, 일명 풀스택 개발자가 있습니다. 타이머 및 SQL 및 JavaScript 및 CSS를 알고 있는 그 사람 혹은 그 여자… 정말요? 😒
 
@@ -92,7 +154,18 @@ UI 결함이 크게 감소되었고 응답 시간이 즉각적으로 줄었습�
 
 하지만 그래도 될까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 모든 것은 앞으로 나아가는 가운데 달려있습니다
 
@@ -105,7 +178,18 @@ UI 결함이 크게 감소되었고 응답 시간이 즉각적으로 줄었습�
 저: "처음에 프론트엔드 전문가를 고용하지 않았던 이유가 뭔가요?" 🤷
 (종교적인 언급은 신경쓰지 마세요, 지중해 문화입니다)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아웃시스템즈 웹사이트의 가이드 경로 비디오로 만든 프로젝트와 공개용 맞춤형 B2C 솔루션 사이에 명확한 차이가 있습니다.
 
@@ -115,7 +199,18 @@ UI 결함이 크게 감소되었고 응답 시간이 즉각적으로 줄었습�
 
 저는 많은 해역에서 계약자로 활동해 왔습니다. 인기 있는 믿음과 달리 현역자는 더 높은 급여에 충성하는 용병이 아닙니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내가 충실하게 지키는 것들이 많아! (특정한 순서는 없어!)
 
@@ -127,7 +222,18 @@ UI 결함이 크게 감소되었고 응답 시간이 즉각적으로 줄었습�
 
 Frontend 개발에 대한 내 원하는 방향이 OutSystems 방식이 아니라는 얘기를 듣면 짜증이 나.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 OutSystems 방식이 품질을 제공하지 않는다면, 다른 방법을 찾아야겠어요.
 
@@ -137,7 +243,18 @@ OutSystems 방식이 품질을 제공하지 않는다면, 다른 방법을 찾�
 
 ## 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로우 코드가 미래입니다. 전통 기술에서 개발한 사람은 보일러플레이트 코드, 데이터베이스 처리 및 연결, 사용자 처리에 대한 이점을 이해합니다. 이 모든 것이 분산 아키텍처와 컨테이너화 위에 있습니다.
 
@@ -147,4 +264,15 @@ OutSystems 방식이 품질을 제공하지 않는다면, 다른 방법을 찾�
 
 프론트엔드 엔지니어링을 위한 공간이 있습니다. 🤘
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

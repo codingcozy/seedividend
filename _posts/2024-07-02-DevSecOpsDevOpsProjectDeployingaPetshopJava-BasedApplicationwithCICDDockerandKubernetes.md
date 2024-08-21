@@ -3,16 +3,13 @@ title: "DevSecOps 프로젝트 CI CD, Docker, Kubernetes로 자바 기반 애완
 description: ""
 coverImage: "/assets/img/2024-07-02-DevSecOpsDevOpsProjectDeployingaPetshopJava-BasedApplicationwithCICDDockerandKubernetes_0.png"
 date: 2024-07-02 23:14
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-02-DevSecOpsDevOpsProjectDeployingaPetshopJava-BasedApplicationwithCICDDockerandKubernetes_0.png
 tag: Tech
 originalTitle: "DevSecOps (DevOps) Project: Deploying a Petshop Java-Based Application with CI CD, Docker, and Kubernetes"
 link: "https://medium.com/@21harsh12/devsecops-devops-project-deploying-a-petshop-java-based-application-with-ci-cd-docker-and-e737d3a5501b"
 isUpdated: true
 ---
-
-
-
 
 ![Blog Image](https://miro.medium.com/v2/resize:fit:1198/0*SrFliCpFziZ8voqc.gif)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 이 프로젝트를 통해 다양한 도전과제를 직접 마주하고 해결함으로써 문제 해결 능력을 크게 향상시키고 관련 기술에 대한 이해를 깊게 하게 되었습니다. 함께 살펴보도록 하죠! 🔍🛠️
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Ajay Kumar Yegireddi님께 프로젝트와 자세한 블로그를 제공해 주셔서 정말 감사드립니다. 해당 블로그는 제가 이 프로젝트를 성공적으로 완료하는 데 큰 도움이 되었습니다. 🙏🏽
 
@@ -32,7 +40,18 @@ Ajay Kumar Yegireddi님께 프로젝트와 자세한 블로그를 제공해 주�
 
 진행하기 전에 코드를 정확히 읽고 이해하도록 합니다. GitHub 저장소 URL, 자격 증명, DockerHub 사용자 이름 등의 변수를 필요에 맞게 수정하십시오. 이러한 변수를 업데이트하지 않으면 배포 과정에 영향을 줄 수 있습니다. 항상 구성을 두 번 확인하고 환경과 일치하는지 확인하십시오.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 프로젝트 개요
 
@@ -48,7 +67,18 @@ Ajay Kumar Yegireddi님께 프로젝트와 자세한 블로그를 제공해 주�
 
 # Petshop Java 기반 응용 프로그램 배포를 위한 CI/CD 파이프라인
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CI/CD 파이프라인은 현대 소프트웨어 개발에서 중요한 구성 요소로, 팀이 고품질 소프트웨어를 효율적이고 신뢰성 있게 제공할 수 있도록 돕습니다. 아래는 Petshop Java 기반 애플리케이션을 위한 CI/CD 파이프라인에 대한 설명이 있습니다.
 
@@ -67,40 +97,51 @@ CI/CD 파이프라인은 현대 소프트웨어 개발에서 중요한 구성 �
 - Trivy: 취약성을 유지하고 안전한 배포를 위해 Docker 이미지를 스캔합니다.
 - Kubernetes: 컨테이너화된 애플리케이션 배포를 조정하고 스케일링 및 작업 관리를 수행합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 상세한 파이프라인 설명
 
 - GitHub에 커밋:
-   - 작업: 개발자가 코드를 작성하고 변경 사항을 GitHub 저장소에 커밋합니다.
-   - 중요성: 중앙 집중식 코드 관리는 버전 관리와 협업을 보장합니다.
+  - 작업: 개발자가 코드를 작성하고 변경 사항을 GitHub 저장소에 커밋합니다.
+  - 중요성: 중앙 집중식 코드 관리는 버전 관리와 협업을 보장합니다.
 - Jenkins 빌드 트리거:
-   - 작업: Jenkins는 GitHub 저장소를 모니터링하여 새로운 커밋을 감지합니다. 새로운 커밋이 감지되면 Jenkins가 파이프라인을 트리거합니다.
-   - 중요성: 통합 프로세스를 자동화하여 수동 개입을 줄이고 개발 주기를 가속화합니다.
+  - 작업: Jenkins는 GitHub 저장소를 모니터링하여 새로운 커밋을 감지합니다. 새로운 커밋이 감지되면 Jenkins가 파이프라인을 트리거합니다.
+  - 중요성: 통합 프로세스를 자동화하여 수동 개입을 줄이고 개발 주기를 가속화합니다.
 - Maven 빌드:
-   - 작업: Jenkins는 Maven을 사용하여 프로젝트를 빌드합니다. Maven은 코드를 컴파일하고 배포할 수 있는 형식(JAR 파일 등)으로 패키징합니다.
-   - 중요성: 응용 프로그램이 소스 코드에서 일관되게 빌드될 수 있도록 보장합니다.
+  - 작업: Jenkins는 Maven을 사용하여 프로젝트를 빌드합니다. Maven은 코드를 컴파일하고 배포할 수 있는 형식(JAR 파일 등)으로 패키징합니다.
+  - 중요성: 응용 프로그램이 소스 코드에서 일관되게 빌드될 수 있도록 보장합니다.
 - 의존성-체크:
-   - 작업: Maven은 프로젝트의 의존성을 스캔하기 위해 의존성-체크와 통합됩니다.
-   - 중요성: 개발 프로세스 초기에 타사 라이브러리의 잠재적 보안 위험을 식별하고 완화합니다.
+  - 작업: Maven은 프로젝트의 의존성을 스캔하기 위해 의존성-체크와 통합됩니다.
+  - 중요성: 개발 프로세스 초기에 타사 라이브러리의 잠재적 보안 위험을 식별하고 완화합니다.
 - Ansible Docker Playbook:
-   - 작업: Ansible 플레이북은 Docker 컨테이너 설정을 자동화합니다. Jenkins가 Docker 환경이 올바르게 구성되었는지 확인하기 위해 Ansible을 사용합니다.
-   - 중요성: 환경 설정 및 구성 관리를 단순화하여 서로 다른 환경 간에 일관성을 유지합니다.
+  - 작업: Ansible 플레이북은 Docker 컨테이너 설정을 자동화합니다. Jenkins가 Docker 환경이 올바르게 구성되었는지 확인하기 위해 Ansible을 사용합니다.
+  - 중요성: 환경 설정 및 구성 관리를 단순화하여 서로 다른 환경 간에 일관성을 유지합니다.
 - Docker 컨테이너화:
-   - 작업: 어플리케이션을 Docker를 사용하여 컨테이너화하며 어플리케이션과 그 의존성을 하나의 컨테이너로 패키징합니다.
-   - 중요성: 컨테이너는 "내 컴퓨터에서는 작동하는데"와 관련된 문제를 줄이는 일관된 런타임 환경을 제공합니다.
+  - 작업: 어플리케이션을 Docker를 사용하여 컨테이너화하며 어플리케이션과 그 의존성을 하나의 컨테이너로 패키징합니다.
+  - 중요성: 컨테이너는 "내 컴퓨터에서는 작동하는데"와 관련된 문제를 줄이는 일관된 런타임 환경을 제공합니다.
 - Maven 컴파일 및 테스트:
-   - 작업: Maven은 코드를 컴파일하고 어플리케이션이 예상대로 작동하는지 확인하기 위해 테스트를 실행합니다.
-   - 중요성: 자동화된 테스트는 코드 변경이 새로운 버그를 도입하지 않도록 보장합니다.
+  - 작업: Maven은 코드를 컴파일하고 어플리케이션이 예상대로 작동하는지 확인하기 위해 테스트를 실행합니다.
+  - 중요성: 자동화된 테스트는 코드 변경이 새로운 버그를 도입하지 않도록 보장합니다.
 - SonarQube 분석:
-   - 작업: Jenkins는 코드 품질과 보안 문제를 확인하기 위해 SonarQube와 통합합니다.
-   - 중요성: 전체 코드 품질과 안전 기준을 유지하여 어플리케이션이 신뢰할 수 있고 유지 관리가 가능하도록 보장합니다
+  - 작업: Jenkins는 코드 품질과 보안 문제를 확인하기 위해 SonarQube와 통합합니다.
+  - 중요성: 전체 코드 품질과 안전 기준을 유지하여 어플리케이션이 신뢰할 수 있고 유지 관리가 가능하도록 보장합니다
 - Trivy 보안 스캔:
-   - 작업: Trivy는 배포 전에 Docker 이미지를 알려진 취약점에 대해 스캔합니다.
-   - 중요성: 배포된 컨테이너가 안전하고 중요한 취약성이 없는지 확인합니다.
+  - 작업: Trivy는 배포 전에 Docker 이미지를 알려진 취약점에 대해 스캔합니다.
+  - 중요성: 배포된 컨테이너가 안전하고 중요한 취약성이 없는지 확인합니다.
 - Kubernetes 배포:
-   - 작업: Jenkins가 컨테이너화된 어플리케이션을 Kubernetes 클러스터에 배포합니다.
-   - 중요성: Kubernetes는 어플리케이션의 배포, 확장 및 운영을 관리하여 고가용성 및 신뢰성을 보장합니다.
+  - 작업: Jenkins가 컨테이너화된 어플리케이션을 Kubernetes 클러스터에 배포합니다.
+  - 중요성: Kubernetes는 어플리케이션의 배포, 확장 및 운영을 관리하여 고가용성 및 신뢰성을 보장합니다.
 
 # 메인 질문: 이 CI/CD 파이프라인이 필요한 이유???
 
@@ -111,7 +152,18 @@ CI/CD 파이프라인은 현대 소프트웨어 개발에서 중요한 구성 �
 - 확장성: Kubernetes에 어플리케이션을 배포하여 수요에 따라 원활하게 확장될 수 있습니다.
 - 신뢰성: 자동화된 테스팅과 분석을 통해 새로운 코드 변경이 어플리케이션을 망치지 않도록 보장하여 신뢰성을 유지합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결론적으로, 이 CI/CD 파이프라인은 견고하고 안전하며 확장 가능한 Petshop Java 기반 애플리케이션을 제공하는 데 필수적입니다. 전체 프로세스를 자동화함으로써, 애플리케이션이 항상 배포 가능한 상태여야 하며, 개발 라이프사이클 동안 코드 품질과 보안 기준을 유지하도록 보장합니다.
 
@@ -121,7 +173,18 @@ CI/CD 파이프라인에서 Docker와 Kubernetes를 모두 사용하는 것은 �
 
 ## Docker: 컨테이너화
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 일관된 환경: 도커는 애플리케이션과 필요한 모든 종속성을 컨테이너에 패키징합니다. 이를 통해 애플리케이션이 배포된 위치와 관계없이 항상 동일하게 작동하므로 "내 컴퓨터에서는 작동한다" 문제를 제거합니다.
 
@@ -145,7 +208,18 @@ CI/CD 파이프라인에서 Docker와 Kubernetes를 모두 사용하는 것은 �
 
 ## 결합된 혜택
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 개발에서 운영으로: Docker는 개발 중 개별 애플리케이션을 패키징하고 실행하는 데 이상적입니다. Kubernetes는 이러한 Docker 컨테이너를 가져와 제대로 규모 확장하여 안정적으로 실행하는 인프라를 제공합니다.
 - 마이크로서비스 아키텍처: 개별 마이크로서비스에 Docker를 사용하고 Kubernetes를 사용하여 이러한 마이크로서비스를 관리하면 유연하고 확장 가능하며 견고한 아키텍처를 구축할 수 있습니다.
@@ -158,7 +232,18 @@ CI/CD 파이프라인에서 Docker와 Kubernetes를 모두 사용하는 것은 �
 
 # 단계 1: 테라폼을 사용하여 Ubuntu (22.04) T2 Large 인스턴스 생성하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테라폼 IaC를 사용하여 전통적인 방법이 아닌 AWS에서 EC2 인스턴스를 시작하는 중이에요. AWS CLI를 설정하고 테라폼을 사용하는 방법에 익숙하다고 가정할게요.
 
@@ -215,7 +300,18 @@ terraform init
 terraform apply
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 2: Jenkins, Docker, Trivy 설치하기
 
@@ -253,36 +349,55 @@ sudo apt install trivy -y
 
 아파치 메이븐의 기본 프록시는 8080이기 때문에 Jenkins의 포트를 8080에서 8090으로 변경해야합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금까지 여행을 즐겼나요? 여행 중에는 자주 발생하는 문제 중 하나가 업무와 관련된 일을 처리해야 할 때입니다. 이를 위해 제가 준비한 몇 가지 명령어를 사용해보세요!
-
 
 sudo systemctl stop jenkins
 sudo systemctl status jenkins
 cd /etc/default
-sudo vi jenkins   # HTTP_PORT=8090로 포트 변경 후 저장하고 종료
+sudo vi jenkins # HTTP_PORT=8090로 포트 변경 후 저장하고 종료
 cd /lib/systemd/system
-sudo vi jenkins.service  # Environments="Jenkins_port=8090"로 포트 변경 후 저장하고 종료
+sudo vi jenkins.service # Environments="Jenkins_port=8090"로 포트 변경 후 저장하고 종료
 sudo systemctl daemon-reload
 sudo systemctl restart jenkins
 sudo systemctl status jenkins
 
-
 이제 공용 IP 주소를 확인해보세요.
 
-
 <EC2 공용 IP 주소: 8090>
-# jenkins 비밀번호 확인
-sudo cat /var/lib/jenkins/secrets/initialAdminPassword
-# jenkins 서버를 설정하고 나면 비밀번호를 변경하세요
 
+# jenkins 비밀번호 확인
+
+sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+
+# jenkins 서버를 설정하고 나면 비밀번호를 변경하세요
 
 ![이미지](/assets/img/2024-07-02-DevSecOpsDevOpsProjectDeployingaPetshopJava-BasedApplicationwithCICDDockerandKubernetes_1.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도커 설치 후에는 SonarQube 컨테이너를 생성합니다:
 
@@ -290,7 +405,7 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 docker run -d --name sonar -p 9000:9000 sonarqube:lts-community
 ```
 
-이제 SonarQube가 정상적으로 작동 중입니다.   
+이제 SonarQube가 정상적으로 작동 중입니다.  
 사용자 이름과 암호를 입력하고 로그인한 후 비밀번호를 변경해주세요.
 
 ```bash
@@ -298,8 +413,18 @@ username admin
 password admin
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-02-DevSecOpsDevOpsProjectDeployingaPetshopJava-BasedApplicationwithCICDDockerandKubernetes_2.png)
 
@@ -312,8 +437,18 @@ Jenkins에서 `Manage Jenkins` - `Available Plugins`으로 이동하여 다음 �
 - Maven
 - OWASP Dependency Check
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 글로벌 도구 구성에서 Java와 Maven 설정하기
 Jenkins 관리 → 도구 → JDK(17)와 Maven3(3.6.0) 설치 → 적용 및 저장 클릭하기
@@ -324,7 +459,18 @@ Jenkins 관리 → 도구 → JDK(17)와 Maven3(3.6.0) 설치 → 적용 및 저
 
 파이프라인 옵션으로 새 작업 만들기:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지 태그를 마크다운 형식으로 바꿔주세요.
 
@@ -364,7 +510,18 @@ pipeline{
 
 ![이미지](/assets/img/2024-07-02-DevSecOpsDevOpsProjectDeployingaPetshopJava-BasedApplicationwithCICDDockerandKubernetes_6.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-02-DevSecOpsDevOpsProjectDeployingaPetshopJava-BasedApplicationwithCICDDockerandKubernetes_7.png)
 
@@ -376,7 +533,18 @@ EC2 인스턴스의 공용 IP 주소를 가져옵니다. SonarQube는 9000번 �
 
 Jenkins 대시보드로 이동한 다음 관리 Jenkins → 자격 증명 → 비밀 텍스트 추가로 이동합니다. 화면은 다음과 같아야 합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-02-DevSecOpsDevOpsProjectDeployingaPetshopJava-BasedApplicationwithCICDDockerandKubernetes_8.png)
 
@@ -386,7 +554,18 @@ Jenkins 대시보드로 이동한 다음 관리 Jenkins → 자격 증명 → �
 
 이제 우리는 도구에 소나 스캐너를 설치할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![링크 텍스트](/assets/img/2024-07-02-DevSecOpsDevOpsProjectDeployingaPetshopJava-BasedApplicationwithCICDDockerandKubernetes_10.png)
 
@@ -396,12 +575,25 @@ SonarQube 대시보드에서 품질 게이트를 추가하려면 Administration 
 
 자세한 내용을 추가하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 이름: jenkins
+
 # 품질 게이트의 URL 섹션 중에 다음을 추가하세요
+
 [http://jenkins-public-ip:8090](http://jenkins-public-ip:8090)/sonarqube-webhook/
+
 # 시크릿란을 비워둡니다.
 
 이제 이 스크립트를 파이프라인에 추가하십시오 (대시보드 → 펫스토어 → 구성) 그리고 우리가 한 SonarQube 단계를 테스트하세요:
@@ -432,8 +624,18 @@ stage("품질 게이트") {
 
 적용하고 저장한 다음 빌드를 실행하세요. 이제 SonarQube 서버로 이동하여 프로젝트로 이동하세요:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-02-DevSecOpsDevOpsProjectDeployingaPetshopJava-BasedApplicationwithCICDDockerandKubernetes_12.png)
 
@@ -443,13 +645,22 @@ Jenkins 대시보드에 가서 Manage Jenkins → 플러그인으로 이동하�
 
 플러그인 설치 후, Dashboard → Manage Jenkins → Tools 로 이동해 도구의 구성을 진행하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지 태그를 다음과 같이 Markdown 형식으로 변경해주세요:
 
-
 ![이미지](/assets/img/2024-07-02-DevSecOpsDevOpsProjectDeployingaPetshopJava-BasedApplicationwithCICDDockerandKubernetes_13.png)
-
 
 지금 OWASP 스크립트를 파이프라인에 추가하세요:
 
@@ -469,7 +680,18 @@ stage("OWASP Dependency Check"){
 
 적용한 후 저장하고 빌드하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-02-DevSecOpsDevOpsProjectDeployingaPetshopJava-BasedApplicationwithCICDDockerandKubernetes_14.png)
 
@@ -479,11 +701,23 @@ stage("OWASP Dependency Check"){
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1280/0*2D2vHmHPBfxgR0kt.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 6: 도커 설정
 
 젠킨스에서 "Manage Jenkins - Available Plugins"로 이동해서 다음 플러그인을 설치해주세요:
+
 - Docker
 - Docker Commons
 - Docker Pipeline
@@ -494,7 +728,18 @@ stage("OWASP Dependency Check"){
 
 ![이미지](/assets/img/2024-07-02-DevSecOpsDevOpsProjectDeployingaPetshopJava-BasedApplicationwithCICDDockerandKubernetes_16.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 글로벌 자격 증명에 DockerHub 사용자 이름과 암호(액세스 토큰)을 추가하세요:
 
@@ -504,7 +749,18 @@ stage("OWASP Dependency Check"){
 
 SSH를 통해 인스턴스에 연결하여 서버에 Ansible을 설치하려면 다음 명령어를 실행하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 sudo apt update -y
@@ -527,7 +783,18 @@ sudo vi hosts
 <Jenkins의 IP>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저장하고 나가기
 
@@ -537,7 +804,18 @@ sudo vi hosts
 
 ![이미지](/assets/img/2024-07-02-DevSecOpsDevOpsProjectDeployingaPetshopJava-BasedApplicationwithCICDDockerandKubernetes_18.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 개인 키 섹션에 .pem 키 파일 내용을 직접 붙여넣으세요.
 
@@ -549,7 +827,18 @@ which ansible
 
 경로를 복사해서 여기에 붙여넣으세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Ansible playbook](/assets/img/2024-07-02-DevSecOpsDevOpsProjectDeployingaPetshopJava-BasedApplicationwithCICDDockerandKubernetes_19.png)
 
@@ -559,7 +848,18 @@ which ansible
 
 ![DockerHub credentials](/assets/img/2024-07-02-DevSecOpsDevOpsProjectDeployingaPetshopJava-BasedApplicationwithCICDDockerandKubernetes_20.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 도커 이미지를 빌드하고 Docker Hub에 푸시한 뒤 컨테이너를 실행하는 파이프라인 단계를 포함해 주세요.
 
@@ -581,7 +881,18 @@ stage('도커 설치') {
 <jenkins-ip:8081>/jpetstore
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Kubernetes Setup](/assets/img/2024-07-02-DevSecOpsDevOpsProjectDeployingaPetshopJava-BasedApplicationwithCICDDockerandKubernetes_21.png)
 
@@ -650,7 +961,18 @@ resource "aws_instance" "my_ec2_instance2" {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 젠킨스 머신에 Kubectl과 Minikube 설치하기
 
@@ -679,7 +1001,18 @@ bash
 clear
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 이 명령어를 마스터 및 워커 노드에서 실행해주세요:
 
@@ -710,7 +1043,18 @@ sudo snap install kube-apiserver
 
 ## 마스터 인스턴스에서,
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 sudo kubeadm init --pod-network-cidr=10.244.0.0/16
@@ -729,7 +1073,18 @@ sudo kubeadm join <master-node-ip>:<master-node-port> --token <token> --discover
 
 Jenkins 마스터나 로컬 파일 관리자로 구성 파일을 복사하여 저장하고, 마스터 노드에서 찾을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 cd /.kube
@@ -742,8 +1097,18 @@ cat config
 
 ![이미지](/assets/img/2024-07-02-DevSecOpsDevOpsProjectDeployingaPetshopJava-BasedApplicationwithCICDDockerandKubernetes_22.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 Jenkins 관리로 이동하세요 - 자격 증명 - 시스템 - 전역 자격 증명 - 자격 증명 추가하기
 
@@ -753,19 +1118,41 @@ cat config
 
 Kubernetes 클라이언트와의 통신을 가능하게 하려면 Ansible 노드에 SSH 키를 생성하고 Kubernetes 마스터 시스템과 공유해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주요한 메인 인스턴스(젠킨을 실행 중인 인스턴스, 마스터-워커가 아닌)에서 다음과 같이 명령어를 입력해 주세요.
 
 ```js
-ssh-keygen
+ssh - keygen;
 ```
 
 ![이미지](/assets/img/2024-07-02-DevSecOpsDevOpsProjectDeployingaPetshopJava-BasedApplicationwithCICDDockerandKubernetes_24.png)
 
 .ssh 디렉토리로 변경하고 공개 키(id_rsa.pub)를 복사하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 cd .ssh
@@ -781,7 +1168,18 @@ sudo vi authorized_keys
 
 메인에서 공개 키를 Kubernetes 머신에 추가하면 더 이상 키를 사용한 액세스가 구성됩니다. 확인하려면 다음 명령 형식을 사용하여 Kubernetes 마스터에 액세스해 보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 ssh ubuntu@<public-ip-k8s-master>
@@ -796,7 +1194,18 @@ ssh ubuntu@<public-ip-k8s-master>
 k8s 마스터의 공개 IP
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Ansible 마스터-슬레이브 연결 테스트
 
@@ -818,7 +1227,18 @@ stage('ansible을 사용한 k8s') {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Kubernetes 클러스터에서 다음 명령어를 실행해주세요.
 
@@ -834,7 +1254,18 @@ kubectl get svc
 
 ![이미지](/assets/img/2024-07-02-DevSecOpsDevOpsProjectDeployingaPetshopJava-BasedApplicationwithCICDDockerandKubernetes_26.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 완성된 파이프라인:
 
@@ -922,11 +1353,22 @@ kubectl get svc
 
 이러한 단계를 따라서 우리는 Jenkins, Docker, Kubernetes, Terraform, SonarQube, Trivy, 그리고 앤서블을 사용하여 Java 기반 Petshop 애플리케이션을 성공적으로 배포했습니다. 이 프로젝트는 현대 애플리케이션 배포에 대한 포괄적인 접근 방식을 보여주었을 뿐만 아니라 데브옵스 파이프라인에서의 자동화와 보안의 중요성을 강조합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 여정은 인프라 프로비저닝부터 지속적 통합 및 배포, 컨테이너화, 오케스트레이션, 견고한 보안 조치까지 소중한 학습 경험이었습니다. 이 상세 가이드가 여러분의 배포 프로젝트에 도움이 되고 데브세커스 옵스 영역의 강력한 도구와 기술을 탐험하게 도와주기를 바랍니다.
 
-궁금한 점이 있거나 공유하고 싶은 내용이 있는 경우 연락해주세요. 여기 제 포트폴리오에서도 저를 디엠해주세요. 
+궁금한 점이 있거나 공유하고 싶은 내용이 있는 경우 연락해주세요. 여기 제 포트폴리오에서도 저를 디엠해주세요.
 
 앞으로의 여정, 제 프로젝트, 사이버 보안 이야기, 글들을 계속해서 팔로우해주셔서 감사합니다! 🚀
 

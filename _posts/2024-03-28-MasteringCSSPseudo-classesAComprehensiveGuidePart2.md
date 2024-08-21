@@ -3,17 +3,13 @@ title: "CSS 가상 클래스 사용 방법 정리"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Mastering CSS Pseudo-classes A Comprehensive Guide  Part 2"
 link: "https://medium.com/@paddyuiux/mastering-css-pseudo-classes-a-comprehensive-guide-part-2-87af1e8bc0a4"
 isUpdated: true
 ---
-
-
-
-
 
 ![MasteringCSSPseudo-classesAComprehensiveGuidePart2_0](/assets/img/MasteringCSSPseudo-classesAComprehensiveGuidePart2_0.png)
 
@@ -23,7 +19,18 @@ CSS(가상 클래스)는 웹 디자인의 기본을 이루며, 개발자들에�
 
 # 사용된 CSS 가상 클래스:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - :checked
 - :disabled
@@ -44,7 +51,18 @@ CSS에서의 :checked 의사 클래스는 현재 선택되거나 확인된 체�
 
 이 의사 클래스를 사용하면 요소의 확인된 상태에 따라 스타일을 적용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용자가 선택한 경우, 체크박스, 라디오 버튼 또는 선택 드롭다운의 옵션과 같은 입력 요소에 스타일을 적용합니다.
 
@@ -57,7 +75,18 @@ CSS에서의 :checked 의사 클래스는 현재 선택되거나 확인된 체�
 <label for="checkbox1">Checkbox 1</label>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금 사용자가 체크박스를 선택했을 때 해당 체크박스를 스타일링하고 싶다면, :checked를 사용할 수 있어요:
 
@@ -72,7 +101,18 @@ input[type="checkbox"]:checked + label {
 
 — — —
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 :checked 가상 클래스는 셀렉트 드롭다운에서 라디오 버튼 옵션과 함께 사용할 수도 있어요:
 
@@ -100,7 +140,18 @@ option:checked {
 
 이 예시에서는 선택된 라디오 버튼의 라벨 텍스트가 굵어지고, 셀렉트 드롭다운에서 선택된 옵션의 배경색이 연한 회색으로 변경됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 :checked을 사용하면 사용자가 선택한 옵션을 나타내는 시각적 피드백을 제공하여 사용성과 전반적인 사용자 경험을 향상시킬 수 있습니다.
 
@@ -110,7 +161,18 @@ CSS의 :disabled 가상 클래스는 비활성화된 폼 요소에 스타일을 
 
 이 가상 클래스를 사용하면 개발자들이 활성 상태인 폼 요소와 비활성 상태인 요소를 시각적으로 구별할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 입력 요소, 버튼, 선택 드롭다운 및 기타 폼 컨트롤에 스타일을 적용합니다. 이들은 disabled 속성이 설정된 경우에 해당합니다.
 
@@ -123,7 +185,18 @@ CSS의 :disabled 가상 클래스는 비활성화된 폼 요소에 스타일을 
 <button disabled>비활성화된 버튼</button>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 만약 비활성화된 입력 필드와 버튼의 스타일을 변경하고 싶다면, :disabled를 사용할 수 있어요:
 
@@ -145,7 +218,18 @@ button:disabled {
 
 — — —
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 :disabled 가상 클래스는 셀렉트 드롭다운과 체크박스와 같은 다른 비활성화된 폼 요소에도 스타일을 적용하는 데 사용할 수 있어요.
 
@@ -174,11 +258,33 @@ input[type="checkbox"]:disabled {
 
 이 예시에서 비활성화된 셀렉트 드롭다운과 체크박스는 투명도가 줄어들고 'not-allowed' 커서가 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `<table>` 태그를 Markdown 형식으로 변경하면, 표를 더 읽기 쉽게 만들 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비활성화되지 않은 입력 요소, 버튼 또는 기타 양식 컨트롤에 스타일을 적용합니다.
 
@@ -191,7 +297,18 @@ input[type="checkbox"]:disabled {
 <button>클릭하세요</button>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예시에서는 disabled 속성을 사용하여 입력 필드를 비활성화하고 버튼은 활성화된 상태를 유지합니다.
 
@@ -208,7 +325,18 @@ button:enabled {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예시에서 버튼은 활성화되었을 때 파란 배경색, 흰색 텍스트 색 및 포인터 커서가 표시됩니다.
 
@@ -228,7 +356,18 @@ select:enabled {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 예에서 활성화된 입력 필드는 파란 테두리가 있고, 활성화된 드롭다운은 연한 회색 배경색이 있습니다.
 
@@ -238,7 +377,18 @@ select:enabled {
 
 CSS의 :lang 가상 클래스는 부모 또는 조상 요소의 lang 속성에서 지정된 언어를 기반으로 요소를 스타일링하는 데 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 pseudo-class는 요소에 특정 언어를 기반으로 한 스타일을 적용할 수 있게 해줍니다.
 
@@ -248,7 +398,18 @@ CSS의 :lang 가상 클래스는 부모 또는 조상 요소의 lang 속성에�
 
 다음은 영어 텍스트가 포함된 단락 (`p`) 요소와 프랑스어 텍스트가 포함된 다른 단락이 있는 간단한 HTML 구조를 고려해보세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```html
 <p lang="en">This is a paragraph in English.</p>
@@ -271,8 +432,18 @@ p:lang(fr) {
 
 이 예제에서, 영어로 작성된 단락은 이탤릭체로 설정되고, 프랑스어로 작성된 단락은 굵게 표시됩니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ---
 
@@ -287,7 +458,18 @@ p:lang(fr-CA) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예시에서 캐나다 불어로 쓰인 단락은 빨간 글자색으로 표시됩니다.
 
@@ -297,7 +479,18 @@ p:lang(fr-CA) {
 
 CSS의 :not 가상 클래스는 지정된 선택기와 일치하지 않는 요소를 선택하는 데 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 개발자들이 특정 기준을 충족하지 않는 요소에 스타일을 적용할 수 있도록 해주어 더 정확한 스타일링 제어를 제공합니다.
 
@@ -307,7 +500,18 @@ CSS의 :not 가상 클래스는 지정된 선택기와 일치하지 않는 요�
 
 항목 목록이 포함된 간단한 HTML 구조를 고려해보세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <ul>
@@ -329,7 +533,18 @@ li:not(.item) {
 
 이 예제에서 "item" 클래스가 없는 리스트 항목의 텍스트 색상이 회색으로 변경됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ---
 
@@ -345,7 +560,18 @@ input:not([type="submit"]) {
 
 이 예제에서는 "submit" 타입을 갖지 않는 모든 input 필드에는 테두리와 패딩이 적용됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **:not**을 사용하면 특정 요소를 대상으로 지정하면서 다른 요소는 제외할 수 있어 CSS 스타일링에서 더 유연성을 제공하고 웹 페이지 전반에 일관된 디자인을 보장할 수 있습니다.
 
@@ -355,7 +581,18 @@ CSS의 **:empty** 가상 클래스는 자식 요소가 없는 요소, 텍스트 
 
 이 가상 클래스를 사용하면 내용이 전혀 포함되지 않은 요소에 스타일을 적용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그것은 열림 태그와 닫힘 태그 사이에 콘텐츠가 포함되어 있지 않은 요소를 대상으로합니다. 텍스트 노드, 공백 또는 다른 요소를 포함합니다.
 
@@ -367,7 +604,18 @@ div 요소가 포함된 간단한 HTML 구조를 고려해 보세요:
 <div></div>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 div 요소를 empty 일 때 스타일링하고 싶다면, :empty 를 사용할 수 있어요:
 
@@ -382,7 +630,18 @@ div:empty {
 
 이 예제에서 div 요소는 empty 상태일 때 연한 회색 배경색, 대시로 된 테두리, 그리고 패딩이 적용됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 :empty 가상 클래스는 비어있는 컨테이너나 동적 콘텐츠의 자리 표시자와 같은 플레이스홀더를 스타일링하는 데 유용할 수 있습니다.
 
@@ -400,7 +659,18 @@ div:empty {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예시에서 빈 드롭 영역은 파란 점선 테두리와 지정된 높이를 가지고 있어 사용자가 상호 작용할 수 있도록 시각적 신호를 제공합니다.
 
@@ -410,7 +680,18 @@ div:empty {
 
 CSS의 :placeholder-shown 가상 클래스는 입력 요소가 현재 플레이스홀더 텍스트를 표시할 때 스타일을 지정하는 데 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 의사 클래스는 입력 요소에 스타일을 적용할 수 있게 해줍니다. 이것은 자리 표시자 텍스트가 표시되는지 여부에 따라서 스타일을 적용합니다.
 
@@ -420,7 +701,18 @@ CSS의 :placeholder-shown 가상 클래스는 입력 요소가 현재 플레이�
 
 간단한 HTML 입력 필드를 고려해 보세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <input type="text" placeholder="이름을 입력해주세요">
@@ -438,7 +730,18 @@ input:placeholder-shown {
 
 이 예시에서는 입력 필드가 플레이스홀더 텍스트가 표시될 때 회색 테두리와 텍스트 색상을 가지게 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ---
 
@@ -454,7 +757,18 @@ input:placeholder-shown {
 
 이 예제에서는 placeholder 텍스트가 표시될 때 입력 필드의 배경색이 연한 회색이되고 패딩이 추가됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `:placeholder-shown`을 사용하면 사용자가 입력 데이터를 어디에 넣어야 하는지 시각적으로 알려주는 방법으로 사용자 경험을 향상시킬 수 있어요.
 
@@ -464,7 +778,18 @@ CSS의 `:required` 의사 클래스는 필수 속성이 설정된 폼 요소를 
 
 이 의사 클래스를 사용하면 필수 폼 요소에 대해 특정 스타일을 적용하여 양식의 필수 필드에 대한 사용자에게 시각적인 힌트를 제공할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용자가 양식을 제출하기 전에 입력해야 하는 텍스트 필드, 체크박스 및 라디오 버튼과 같은 입력 요소에 스타일을 적용합니다.
 
@@ -480,7 +805,18 @@ CSS의 `:required` 의사 클래스는 필수 속성이 설정된 폼 요소를 
 </form>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 사용자에게 시각적 피드백을 제공하기 위해 필수 입력 필드를 스타일링하고 싶다면, :required를 사용할 수 있어요:
 
@@ -495,7 +831,18 @@ input:required {
 
 — — —
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 :required 가상 클래스는 체크박스와 라디오 버튼과 같은 다른 필수 양식 요소에도 스타일을 적용하는 데 사용할 수 있습니다.
 
@@ -516,7 +863,18 @@ input[type="checkbox"]:required {
 
 이 예시에서는 사용자에게 필수 필드임을 나타내기 위해 체크박스에 파란색 테두리가 생깁니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 폼에서 필수 필드를 나타내는 시각적 단서를 제공하여 사용성과 전반적인 사용자 경험을 향상시킬 수 있는 :required를 사용할 수 있어요.
 
@@ -526,7 +884,18 @@ CSS의 :optional 가짜 클래스는 필수 속성이 설정되지 않은 폼 �
 
 이 가상 클래스를 사용하면 개발자가 선택적인 폼 요소에 스타일을 적용하여 필수 필드와 선택적 필드를 사용자에게 시각적으로 알려줄 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `입력`, `텍스트 에어리어` 및 `다른 양식 컨트롤`에 스타일을 적용합니다. 이 중 필수로 표시되지 않은 요소에 대해서 적용됩니다.
 
@@ -549,7 +918,18 @@ CSS의 :optional 가짜 클래스는 필수 속성이 설정되지 않은 폼 �
 </form>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 선택 사항인 입력 필드의 스타일을 필수 입력 필드와 다르게 지정하고 싶다면 ":optional"을 사용할 수 있어요:
 
@@ -570,7 +950,18 @@ input:optional {
 
 ":optional" 가상 클래스는 양식 내에서 선택 사항인 필드를 시각적으로 강조하는 데 특히 유용하며, 사용성과 전반적인 사용자 경험을 향상시킬 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 10. :root
 
@@ -580,7 +971,18 @@ CSS에서의 :root 가상 클래스는 문서의 루트 요소인 일반적으�
 
 일반적으로 문서 내의 모든 요소에 적용되는 전역 스타일 및 CSS 변수(사용자 정의 속성)를 정의하는 데 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ---
 
@@ -622,7 +1024,18 @@ h1 {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예에서는 :root 가상 클래스를 사용하여 두 가지 CSS 변수 : --primary-color와 --secondary-color을 정의합니다. 이 변수들은 각각 주요 색상과 보조 색상을 나타냅니다. 그런 다음 이러한 변수를 사용하여 전체 문서의 색상 구성표를 정의합니다.
 
@@ -632,7 +1045,18 @@ h1 {
 
 ## 11. :valid
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS에서의 :valid 가상 클래스는 정의된 제약 조건이나 요구 사항에 따라 유효한 입력을 포함하는 폼 요소에 스타일을 적용하는 데 사용됩니다.
 
@@ -642,7 +1066,18 @@ CSS에서의 :valid 가상 클래스는 정의된 제약 조건이나 요구 사
 
 ---
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단한 이메일 주소를 요구하는 입력 필드가 있는 HTML 폼을 고려해보세요:
 
@@ -663,7 +1098,18 @@ input:valid {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예제에서는 브라우저의 내장 이메일 유효성 검사에 따라 유효한 이메일 주소가 포함된 경우 입력 필드에 녹색 테두리가 생깁니다.
 
@@ -676,7 +1122,18 @@ input:valid {
 <label for="agree">약관에 동의합니다</label>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /* 체크박스가 체크되었고 유효할 때 스타일을 지정합니다. */
@@ -691,17 +1148,39 @@ input[type="checkbox"]:valid {
 
 ## 12. :invalid
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS에서 :invalid 가상 클래스는 지정된 제약 조건에 따라 유효하지 않은 값이나 형식을 갖는 양식 요소를 스타일링하는 데 사용됩니다.
 
 이 가상 클래스를 사용하면 개발자들이 사용자에게 입력이 필요한 기준을 충족하지 못했음을 시각적으로 표시할 수 있습니다.
 
---- --- ---
+---
 
 유효한 이메일 주소가 필요한 입력 필드가 있는 간단한 HTML 양식을 고려해보세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <form>
@@ -722,7 +1201,18 @@ input:invalid {
 
 이 예시에서 유효하지 않은 이메일 주소(예: "@ " 기호가 없는 경우)로 양식을 제출하려고하면, 입력 필드는 값이 유효하지 않다는 것을 나타내기 위해 빨간 테두리가 생깁니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ---
 
@@ -737,7 +1227,18 @@ input[type="number"]:invalid {
 
 이 예시에서 숫자 입력은 값이 유효하지 않은 경우(예: 지정된 범위를 벗어날 때) 빨간 테두리가 지정됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 :invalid를 사용하여 사용자에게 입력 내용이 필요한 기준을 충족시키지 못했다는 시각적 단서를 제공하여 사용성과 전반적인 사용자 경험을 향상시킬 수 있습니다.
 

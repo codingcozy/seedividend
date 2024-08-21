@@ -3,17 +3,13 @@ title: "리액트 상태를 Reducer로 관리하기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Manage React State With Reducer"
 link: "https://medium.com/stackademic/manage-react-state-with-reducer-ed0a2eff0ace"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/ManageReactStateWithReducer_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ## 리듀서란 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리듀서는 애플리케이션의 상태를 결정하는 함수입니다. 현재 상태와 액션을 인수로 받아 새로운 상태를 반환합니다. 이 패턴은 Redux에서 영감을 받았습니다. 개발자들은 React의 useReducer 훅과 함께 자주 사용합니다.
 
@@ -35,7 +42,18 @@ isUpdated: true
 
 # 구현
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 인터페이스
 
@@ -58,7 +76,18 @@ interface Action {
 - FormState: 이름, 이메일, 전화번호 및 주소의 모양을 나타내는 상태 객체의 모양을 설명합니다. 모두 string 타입입니다.
 - Action: 액션 객체의 모양을 설명합니다. 타입 및 선택적 값(value)을 포함합니다. 타입은 액션 유형을 나타내는 문자열입니다. 값은 특정 필드에 대한 새 값의 표현입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 초기 상태 및 리듀서 함수
 
@@ -75,7 +104,18 @@ const initialState: FormState = {
 
 다음으로, 리듀서 함수가 정의되었습니다. 리듀서는 현재 상태와 액션을 받아들이고, 액션 유형에 기반하여 새로운 상태를 반환합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const reducer = (state: FormState, action: Action) => {
@@ -96,7 +136,18 @@ const reducer = (state: FormState, action: Action) => {
 
 이제, 주요 컴포넌트가 함수형 컴포넌트(FC)로 정의되었습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 export const Form: FC = (props) => {
@@ -173,7 +224,18 @@ export const Form: FC = (props) => {
 
 전반적으로, 이 Form 컴포넌트는 이름, 이메일, 전화번호 및 주소에 대한 필드가 있는 양식을 생성합니다. 사용자가 양식과 상호 작용하는 동안 useReducer 훅과 reducer 함수를 통해 상태가 업데이트됩니다. React에서 제어된 양식 동작을 제공합니다. 양식이 제출되면 양식 필드가 지워집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 또 다른 reduce의 예제가 있어요. 이것은 Form 컴포넌트보다 복잡해요.
 
@@ -322,7 +384,18 @@ export const ShoppingCart: FC = () => {
 
 요약하면, 리듀서는 React 응용 프로그램에서 상태를 관리하는 구조적이고 확장 가능한 접근 방식을 제공해요. 개발자들은 명확한 액션을 정의하고 리듀서 함수에서 이를 처리함으로써 유지보수 가능하고 이해하기 쉬운 상태 논리를 만들 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 쇼핑 카트, 폼 처리 또는 기타 복잡한 상태 요구 사항에 대해서 리듀서를 사용하면 더 예측 가능하고 관리할 수 있는 코드를 작성할 수 있습니다.
 
@@ -332,7 +405,18 @@ export const ShoppingCart: FC = () => {
 
 👨‍💼 귀하의 시간에 감사드리며 이 이야기를 유익하게 여기셨기를 바랍니다. 즐겁게 읽으셨다면, 열심히 일한 작가를 칭찬하기 위해 👏 클랩으로 감사를 표현해주세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 📰 기사를 공유하여 지식을 공유해 주세요!
 
@@ -343,7 +427,18 @@ export const ShoppingCart: FC = () => {
 - Twitter
 - Instagram
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 🔍 더 알아보기! 📖 코디미스에서 지식의 보물 창고로 빠져들어보세요. 배울 것이 더 많고, 발견하는 여정에서 도와드릴 준비가 되어있습니다.
 

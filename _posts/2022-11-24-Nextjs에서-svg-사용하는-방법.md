@@ -3,17 +3,13 @@ title: "Nextjs에서 svg파일을 사용하는 방법 2024년 8월 최신"
 description: "Nextjs에서 svg파일을 사용하는 방법에 대해서 정리합니다"
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # Nextjs에서 svg 사용하는 방법
 
@@ -35,16 +31,23 @@ const Component = () => {
 
 ## 설정방법
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 nextjs에서 svg를 사용하기 위해서는 `@svgr/webpack` 모듈을 설치해주어야합니다.
 
-
 npm i -D @svgr/webpack
 yarn add -D @svgr/webpack
-
 
 설치를 마쳤다면 next.config.js 파일을 수정해주어야합니다.
 

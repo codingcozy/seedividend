@@ -3,16 +3,13 @@ title: "장고로 대규모 프로젝트를 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-05-18-CanDjangoHandleYourAmbitiousProjectLetsBeHonest_0.png"
 date: 2024-05-18 22:36
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-18-CanDjangoHandleYourAmbitiousProjectLetsBeHonest_0.png
 tag: Tech
 originalTitle: "Can Django Handle Your Ambitious Project? Let’s Be Honest…"
 link: "https://medium.com/python-in-plain-english/can-django-handle-your-ambitious-project-lets-be-honest-9b970d35d75e"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-05-18-CanDjangoHandleYourAmbitiousProjectLetsBeHonest_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 # 장고가 빛을 발하는 곳: 아이디어를 가속화합니다
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 빠른 시작, 빠른 반복: Django의 '전부 구비'는 빈말이 아닙니다. 사용자 인증이 필요한가요? 퍼워, 이미 구현되어 있어요. 객체-관계 매핑은? 해결했어요. 초기 단계는 아이디어를 발전시키는 데 집중할 수 있는 시간이에요. 새 프로젝트를 시작할 때 항상 Django를 선택하는 이유죠.
 - 구조가 정신 건강을 지킨다: 사실 몇몇 프로젝트는 빨리 코드 공룡이 될 수 있어요. Django의 모델은 데이터 관계를 깔끔하게 유지시켜주고 관리 패널은 전체 구조를 한 눈에 볼 수 있게 해줘요. 몇 달 후 코드를 다시 보게 되었을 때, 이것은 과거의 자신으로부터의 선물 같이 느껴질 거에요.
@@ -36,7 +44,7 @@ isUpdated: true
 class Source(models.Model):
     name = models.CharField(max_length=100)
     url = models.URLField()
-    # ... 기타 업데이트 주기 추적을 위한 필드들 
+    # ... 기타 업데이트 주기 추적을 위한 필드들
 
 class Article(models.Model):
     title = models.CharField(max_length=255)
@@ -45,9 +53,20 @@ class Article(models.Model):
     # ... 발행일, 작가 등을 위한 필드들
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-보니까 많이 깨끗하다, 맞지? Django는 데이터베이스 관련 작업을 맡아 처리해주기 때문에 당신은 콘텐츠를 가져오고 표현하는 로직에 주력할 수 있어요. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+보니까 많이 깨끗하다, 맞지? Django는 데이터베이스 관련 작업을 맡아 처리해주기 때문에 당신은 콘텐츠를 가져오고 표현하는 로직에 주력할 수 있어요.
 
 # 야망이 Django를 넘어설 때
 
@@ -57,7 +76,18 @@ class Article(models.Model):
 
 ## 예시: 게임이 시작될 때
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신의 멋진 실시간 멀티플레이어 게임 아이디어를 상상해 보세요. 물리 시뮬레이션, 게임 상태에 대한 지속적인 업데이트... Django는 플레이어 계정, 로비 등을 처리할 수 있지만 실시간, 저지연의 액션은 아마도 그 부분을 위해 특화된 도구가 필요할 것입니다. Django는 '큰 그림'을 관리하게 됩니다.
 
@@ -69,7 +99,18 @@ class Article(models.Model):
 - 데이터 중심 vs. 야생의 서쪽: Django는 구조화된 데이터에서 빛을 발합니다. 전자상거래 사이트, 콘텐츠 플랫폼, 심지어 내부 도구들... 거기서 잘 동작합니다. 그러나 만약 당신의 아이디어가 예측할 수 없는 데이터 유형이나 상호작용을 가진 매우 실험적인 경우, Django를 자신의 의지에 맞게 굽히느라 건설하는 것보다 더 많은 시간을 보낼지도 모릅니다.
 - 야심찬...어떻게, 정확히? 백만 명의 사용자는 말하는 건가요, 그러나 비교적 직관적인 기능들일까요? Django는 스마트한 최적화로 이를 처리하는 경우가 많습니다. 그러나 적은 사용자지만 괴로운 완전히 복잡한 기능과 톤의 맞춤 논리가 있는 경우는? 그건 다른 종류의 도전입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코딩의 아름다움(그리고 때로는 좌절!)은 보편적으로 '최고'인 도구가 없다는 점입니다. 올바른 선택은 이러한 요소들과 어떻게 조화를 이루느냐에 따라 달라집니다. 판단은 여러분의 최대 자산인 경험에 달려있어요.
 
@@ -79,11 +120,22 @@ class Article(models.Model):
 
 ```js
 def homepage_view(request):
-    latest_articles = Article.objects.all().order_by('-published_date')[:20] 
+    latest_articles = Article.objects.all().order_by('-published_date')[:20]
     return render(request, 'homepage.html', {'articles': latest_articles})
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문제: 이 방법은 모든 기사를 매번 가져와서 표시를 위해 슬라이스합니다. 데이터베이스가 커질수록 문제가 심각해집니다.
 
@@ -96,7 +148,18 @@ def homepage_view(request):
 
 변경된 사항:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - select_related: 이것은 Django에게 각 기사에 대해 관련 'Source' 객체를 미리 가져오도록 지시하여 나중에 데이터베이스 작업을 줄입니다.
 - Queryset Slicing: 우리는 필요한 최상위 20개만 가져옵니다, 모든 것을 가져오지 않습니다.
@@ -109,7 +172,18 @@ def homepage_view(request):
 - 구축을 시작하고, 답이 나타날 것입니다: 솔직히 말해서, Django가 장기적으로 적합한지 알아보는 가장 좋은 방법은 직접 해 보는 것입니다. 초기 속도를 통해 잠재적인 병목 현상이 실제 문제가 되기 훨씬 전에 발견할 수 있습니다. '만약' 때문에 시작하는 것을 막지 마세요.
 - Django보다 크게 생각하십시오: 데이터베이스가 중요합니다! 확장성을 고려하지 않고 나쁜 데이터베이스를 선택하면, Django 코드가 얼마나 좋든 손해를 입을 것입니다. 같은 이유로 엉성한 배포도 마찬가지입니다 - 느린 서버는 모든 것을 느리게 만듭니다. 전문가적인 마인드는 전체 시스템에 대한 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Django의 모든 문제가 아닙니다
 
@@ -120,7 +194,18 @@ def homepage_view(request):
 
 핵심 포인트: Django는 여러분의 도구상자에서 강력한 도구일 뿐, 유일한 존재는 아닙니다. 성공은 이러한 조각들을 잘 맞물리게 하는 데에 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 추가 맛
 
@@ -132,9 +217,20 @@ def homepage_view(request):
 
 만약 이러한 해설이 도움이 되었다면, 중요한 Python과 Django 통찰을 좀 더 파헤치겠습니다. 제 Medium 페이지를 팔로우해주시고, 대화를 이어가고, 만약 가치 있다고 느끼시면 박수를 치세요. 또한, 곧 YouTube 채널을 시작할 준비 중이니, 더 많은 코딩 모험을 기대해주세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-# 친절한 번역  🚀
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+# 친절한 번역 🚀
 
 In Plain English 커뮤니티에 참여해 주셔서 감사합니다! 이렇게 가기 전에:
 

@@ -3,17 +3,13 @@ title: "Nextjs Static HTML 사이트 netlify에 배포하는 방법"
 description: "Nextjs Static HTML site를 Netlify에 deploy하는 방법에 대해서 소개합니다"
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # Nextjs Static HTML 사이트 배포하는 방법
 
@@ -35,9 +31,18 @@ Nextjs 저장소의 package.json에 있는 build 명령어를 아래와 같이 �
 
 아래 명령어로 프로젝트를 빌드해줍니다.
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 yarn build
@@ -49,9 +54,18 @@ next export 명령어로 인해 `out/` 디렉토리가 생기고 하위에 아�
 
 <img width="447" alt="1" src="https://user-images.githubusercontent.com/46010705/203996982-3d261ae7-7a8e-4f65-b09e-0258197ff1a4.png">
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### Netlify 배포
 
@@ -72,9 +86,18 @@ next export 명령어로 인해 `out/` 디렉토리가 생기고 하위에 아�
 
 <img width="1261" alt="5" src="https://user-images.githubusercontent.com/46010705/203997171-df283c4d-476f-4221-9d58-8a4269649f34.png">
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 사이트 접속
 

@@ -3,17 +3,13 @@ title: "JavaScript의  접두사 대신 TypeScript의 private를 사용해야하
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Why Sticking with TypeScripts private Keyword Trumps Using JavaScripts  Prefix for Privacy"
 link: "https://medium.com/stackademic/why-sticking-with-typescripts-private-keyword-trumps-using-javascripts-prefix-for-privacy-deba0f4026f0"
 isUpdated: true
 ---
-
-
-
-
 
 ![Why Sticking with TypeScript's private Keyword Trumps Using JavaScript's Prefix for Privacy](/assets/img/WhyStickingwithTypeScriptsprivateKeywordTrumpsUsingJavaScriptsPrefixforPrivacy_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 TypeScript의 private 키워드는 클래스 내의 개인 속성 및 메서드에 대한 표준입니다. 이는 객체 지향 프로그래밍 개념에 익숙한 사람에게 쉽게 이해될 수 있는 액세스 제어의 명확하고 명시적인 표시입니다. 동일한 코드베이스 내에서 개인 및 #을 사용하여 개인 정보 보호를 전환하는 것은 일관성의 부재로 인해 코드를 읽고 유지 관리하기 어렵게 만들 수 있습니다. private 키워드를 적용하면 일관된 코드 스타일을 유지하고 새로운 개발자가 코드베이스를 이해하기 쉽게 만듭니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 2. 도구 및 IDE 지원
 
@@ -33,7 +40,18 @@ TypeScript 도구인 린터와 통합 개발 환경(IDE)은 private, protected, 
 
 TypeScript의 핵심 기능 중 하나는 값의 모양에 초점을 맞춘 구조적 타입 시스템입니다. 이 시스템은 명칭적 타이핑과 비교하여 더 유연하고 동적인 코딩 패턴을 지원합니다. private 키워드의 사용은 이 시스템에 영향을 주지 않지만, # 접두사는 private 필드가 있는 클래스의 유형 확인에 명칭적 요소를 도입합니다. 이러한 약간의 명칭적 타이핑으로 인해 TypeScript 개발자가 감사했던 유연성 중 일부가 제한될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 4. 상호 운용성 및 리팩터링
 
@@ -43,7 +61,18 @@ TypeScript의 핵심 기능 중 하나는 값의 모양에 초점을 맞춘 구�
 
 TypeScript 팀은 새로운 JavaScript 기능을 적극적으로 채택하되 TypeScript가 미래 JavaScript 버전과 호환되도록 보장하는 것으로 알려져 있습니다. private 키워드를 사용함으로써 개발자들은 코드가 TypeScript 및 JavaScript의 미래 버전과 호환될 것이라는 것을 믿을 수 있습니다. TypeScript 팀은 JavaScript의 발전에 맞춘 새로운 기능을 지원하거나 이동할 수 있는 경로를 제공할 가능성이 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -53,7 +82,18 @@ TypeScript 팀은 새로운 JavaScript 기능을 적극적으로 채택하되 Ty
 
 끝까지 읽어주셔서 감사합니다. 가기 전에:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 작가에 대한 박수와 팔로우 부탁드려요! 👏
 - 팔로우하기 X | LinkedIn | YouTube | Discord

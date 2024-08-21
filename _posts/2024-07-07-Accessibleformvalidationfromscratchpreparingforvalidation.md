@@ -3,15 +3,13 @@ title: "처음부터 시작하는 접근성 있는 폼 유효성 검사 준비 �
 description: ""
 coverImage: "/assets/img/2024-07-07-Accessibleformvalidationfromscratchpreparingforvalidation_0.png"
 date: 2024-07-07 21:25
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-Accessibleformvalidationfromscratchpreparingforvalidation_0.png
 tag: Tech
 originalTitle: "Accessible form validation from scratch — preparing for validation"
 link: "https://medium.com/user-experience-design-1/accessible-form-validation-from-scratch-preparing-for-validation-6fc9e5b98d68"
 isUpdated: true
 ---
-
-
 
 <img src="/assets/img/2024-07-07-Accessibleformvalidationfromscratchpreparingforvalidation_0.png" />
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 # 소개
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리 이전 기사에서 많은 내용을 다루었어요:
 
@@ -36,7 +45,18 @@ isUpdated: true
 - 입력 그룹 구현
 - 요약 검증 준비
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 필수 필드 표시
 

@@ -3,16 +3,13 @@ title: "Airflow 변수 완전 정복하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-13-MasteringAirflowVariables_0.png"
 date: 2024-07-13 20:34
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-MasteringAirflowVariables_0.png
 tag: Tech
 originalTitle: "Mastering Airflow Variables"
 link: "https://medium.com/towards-data-science/mastering-airflow-variables-32548a53b3c5"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-07-13-MasteringAirflowVariables_0.png" />
 
@@ -22,7 +19,18 @@ Airflow 변수는 간단하면서도 가치 있는 구조로, 여러 DAG에서 �
 
 그리고 코드가 토큰이나 기타 유형의 비밀을 사용한다면 어떻게 해야 할까요? 평문으로 하드코딩하는 것은 안전한 접근 방식으로 보이지 않습니다. 반복을 줄이는 데 beyond하는 Airflow 변수는 민감한 정보를 관리하는 데도 도움이 됩니다. Airflow에서 변수를 정의하는 여섯 가지 다양한 방법 중에서 적합한 방법을 선택하는 것은 보안과 이식성을 보장하기 위해 중요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자주 간과되는 측면 중 하나는 변수 검색이 Airflow 성능에 미치는 영향입니다. 스케줄러가 DAG 파일을 파싱할 때마다 메타데이터베이스에 요청하는 것은 성능에 부담이 될 수 있습니다(기본값은 삼십 초입니다).
 
@@ -32,7 +40,18 @@ Airflow 변수는 간단하면서도 가치 있는 구조로, 여러 DAG에서 �
 
 DAG 파일을 파싱하는 방법과 DAGs를 최적화하기 위해 적용해야 하는 베스트 프렉티스에 대해 논의하기 전에, 기초를 제대로 이해하는 것이 중요합니다. 여기서는 어떻게 Airflow에서 변수를 선언하는지에만 초점을 맞춰 보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미 언급한 바와 같이, Airflow에서 변수를 선언하는 여러 가지 방법이 있습니다. 그 중 일부는 다른 것보다 더 안전하고 이식성이 뛰어난 것으로 나타나므로, 이들의 장단점을 살펴보고 이해해 봅시다.
 
@@ -42,7 +61,18 @@ DAG 파일을 파싱하는 방법과 DAGs를 최적화하기 위해 적용해야
 
 키와 값을 입력한 후, 만들기를 클릭하여 생성합니다. 변수는 이제 변수 목록에서 확인할 수 있어야 합니다. 기본적으로 UI에서 생성된 변수는 자동으로 메타데이터 데이터베이스에 저장됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 변수 값이 평문으로 표시된다는 것을 알 수 있어요. Airflow 변수 중 민감한 정보를 저장하려면 UI 방식이 가장 적합하지 않을 수 있어요.
 
@@ -50,9 +80,20 @@ DAG 파일을 파싱하는 방법과 DAGs를 최적화하기 위해 적용해야
 
 ## 2. 환경 변수를 내보내어 변수 생성하기
 
-두 번째 옵션은 AIRFLOW_VAR_`변수_이름` 표기법을 사용하여 환경 변수를 내보내는 것이에요.
+두 번째 옵션은 AIRFLOW*VAR*`변수_이름` 표기법을 사용하여 환경 변수를 내보내는 것이에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 명령어를 사용하여 두 변수인 foo와 bar를 생성할 수 있습니다.
 
@@ -65,7 +106,18 @@ export AIRFLOW_VAR_BAR='{"newsletter":"Data Pipeline"}'
 
 UI를 통해 생성된 변수와는 달리, 이 방법은 메타데이터베이스에 지속적으로 저장하지 않습니다. 따라서 환경 변수를 사용하면 데이터베이스 연결을 설정할 필요가 없어 빠르게 검색할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 여전히 환경 변수를 관리하는 것도 어려울 수 있습니다. 환경 변수가 Airflow 배포를 담당하는 자동화 스크립트에서 사용되는 파일에 저장된 경우 값들을 어떻게 안전하게 보호할 수 있을까요?
 
@@ -77,7 +129,18 @@ Airflow CLI를 사용하여 변수를 생성할 수도 있습니다. 먼저 Airf
 docker exec -it <airflow-scheduler-container-id> /bin/bash
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Airflow 변수를 만들려면 다음의 명령어를 사용할 수 있어요:
 
@@ -97,7 +160,18 @@ airflow variables set \
     --description '이 변수는 CLI를 통해 생성되었어요'
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 JSON 변수를 직렬화하는 옵션도 있습니다. 이를 위해 -j 또는 --json 플래그를 제공하여 수행할 수 있습니다.
 
@@ -113,7 +187,18 @@ airflow variables set \
 
 CLI를 통해 생성된 변수는 UI에서 확인할 수 있어 민감한 정보도 노출되고 메타데이터베이스에 저장될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 의견으로는, 이 방법은 개발 환경에서 유용합니다. 특정 변수를 빠르게 생성하고 테스트하거나 해당 변수를 참조하는 기능을 테스트하고 싶을 때 유용합니다. 프로덕션 배포의 경우, 변수를 생성(또는 업데이트)하기 위한 자동화 스크립트를 작성해야 하며, 이 정보는 파일에 저장되어야 합니다. 그렇기 때문에 몇 가지 변수에는 민감한 정보가 포함될 수 있어 처리하기 어려울 수 있습니다.
 
@@ -128,7 +213,18 @@ curl -X POST ${AIRFLOW_URL}/api/v1/variables \
         -d '{"key": "json_var", "value": "{\"key1\":\"val1\"}"}'
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 5. 변수를 프로그래밍적으로 생성하기
 
@@ -140,8 +236,8 @@ def create_vars():
 
     Variable.set(key='my_var', value='my_val')
     Variable.set(
-        key='my_json_var', 
-        value={'my_key': 23, 'another_key': 'another_val'}, 
+        key='my_json_var',
+        value={'my_key': 23, 'another_key': 'another_val'},
         serialize_json=True,
     )
 
@@ -155,7 +251,18 @@ PythonOperator(
 
 물론 이것은 나쁜 관행이며 프로덕션 배포에서 피해야 합니다. 변수 - 특히 민감한 정보를 포함하는 변수 - 는 DAG 파일에서 선언되어서는 안 되며 코드는 버전 관리되고 UI의 코드 탭에서도 볼 수 있기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 6. 시크릿 스토어/백엔드에서 변수 만들기 ❤
 
@@ -168,7 +275,18 @@ PythonOperator(
 - Microsoft (Azure Key Vault)
 - HashiCorp (Vault)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사실, Airflow에서 변수를 정의하는 가장 좋고 안전하며 휴대성이 뛰어난 방법입니다.
 
@@ -178,40 +296,73 @@ PythonOperator(
 
 변수 이름에 특정 키워드가 포함되어 민감한 정보를 나타낼 수 있다고 생각되면 해당 값이 자동으로 숨겨집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 민감한 정보를 값으로 저장하게끔 변수를 자격 부여할 키워드 목록입니다:
 
 ```js
-access_token
-api_key
-apikey
-authorization
-passphrase
-passwd
-password
-private_key
-secret
-token
-keyfile_dict
-service_account
+access_token;
+api_key;
+apikey;
+authorization;
+passphrase;
+passwd;
+password;
+private_key;
+secret;
+token;
+keyfile_dict;
+service_account;
 ```
 
 만약 변수 이름에 이 키워드 중 하나가 포함되어 있다면, Airflow는 해당 값을 적절히 처리할 것입니다. 이 기능이 예상대로 작동하는지 확인하기 위해 예제를 시도해 보겠습니다.
 
 먼저, 위에 언급된 키워드 중 하나를 추가하지 않고 새 변수를 만들어 보겠습니다. 우리는 변수의 값이 사용자 인터페이스에서 보이는 것을 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 화면에서는 새로운 변수인 my_api_key를 생성하려고 시도합니다. 이전에 토론한 대로 변수 이름에 api_key 키워드가 포함되어 있기 때문에 Airflow는 민감한 정보를 보호하는 방식으로 해당 값을 처리해야 합니다.
 
 실제로 지금 UI의 변수 목록으로 돌아가보면 새로 생성된 변수의 값을 숨겨진 것을 볼 수 있습니다.
 
-기존 키워드 목록에 만족스럽지 않다면, 추가적인 키워드를 지정하여 변수 값 숨김 시 고려해야 하는 키워드 목록을 확장할 수도 있습니다. 이는 airflow.cfg( [core] 섹션 내)의 sensitive_var_conn_names를 통해 구성하거나 AIRFLOW__CORE__SENSITIVE_VAR_CONN_NAMES 환경 변수를 내보내는 것으로 설정할 수 있습니다.
+기존 키워드 목록에 만족스럽지 않다면, 추가적인 키워드를 지정하여 변수 값 숨김 시 고려해야 하는 키워드 목록을 확장할 수도 있습니다. 이는 airflow.cfg( [core] 섹션 내)의 sensitive_var_conn_names를 통해 구성하거나 AIRFLOW**CORE**SENSITIVE_VAR_CONN_NAMES 환경 변수를 내보내는 것으로 설정할 수 있습니다.
 
 # 효율적인 변수 검색
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기본 설정으로 Airflow DAG는 30초마다 구문 분석됩니다. 스케줄러는 DAG 폴더를 스캔하여 DAG 파일에 대한 변경 사항을 식별합니다. 변수를 올바르게 가져오지 않으면 DAG 구문 분석 프로세스가 곧 병목 현상이 될 수 있습니다.
 
@@ -221,7 +372,18 @@ service_account
 
 DAG에서 변수를 검색하기 위해 두 가지 접근 방식을 취할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Variable.get() 함수 사용
 - var 템플릿 변수 사용
@@ -232,7 +394,18 @@ DAG에서 변수를 검색하기 위해 두 가지 접근 방식을 취할 수 �
 
 만약 이 함수가 태스크 외부에서 호출되거나 DAG Context Manager 내에서 호출된다면, 메타스토어와의 -의미 없는- 새로운 연결이 DAG가 파싱될 때마다 생성될 것입니다(즉, 30초마다).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 from datetime import datetime
@@ -256,8 +429,18 @@ with DAG('my_dag', start_date=datetime(2024, 1, 1)) as dag:
 
 또한, 연산자의 인수에서 Variable.get() 함수를 호출하더라도 동일한 문제가 발생할 것임을 언급하는 것이 중요합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 from datetime import datetime
@@ -282,8 +465,18 @@ with DAG('my_dag', start_date=datetime(2024, 1, 1)) as dag:
 
 기본적으로 Variable.get()를 호출하는 대신에 템플릿 참조를 사용할 수 있어요. 이 기술을 사용하면 변수의 값은 런타임에만 가져와지게 돼요.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래의 코드 스니펫은 JSON 또는 JSON이 아닌 값에 대한 변수의 템플릿 참조를 사용하는 방법을 보여줍니다.
 
@@ -317,7 +510,18 @@ with DAG('my_dag', start_date=datetime(2024, 1, 1)) as dag:
 
 템플릿 참조가 작동하지 않는 경우에는 여전히 Variable.get()이 작업 내에서 호출되도록하여 매번 DAG가 구문 분석될 때 메타스토어 데이터베이스로의 연결이 초기화되지 않도록 할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 from datetime import datetime
@@ -363,7 +567,18 @@ with DAG('my_dag', start_date=datetime(2024, 1, 1)) as dag:
     )
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대신, 세 개의 키-값 쌍으로 구성된 단일 JSON 변수를 생성할 수 있습니다. 당연히 이 작업은 세 값을 한 변수로 압축하는 데 논리적으로 의미가 있는 한 수행해야 합니다.
 
@@ -391,7 +606,18 @@ with DAG('my_dag', start_date=datetime(2024, 1, 1)) as dag:
 
 # 최종 생각..
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 에어플로우 변수 선언은 간단하지만, 가장 좋은 방법을 적용하지 않으면 메타스토어 데이터베이스에서 가져오는 과정이 악몽이 될 수 있습니다.
 

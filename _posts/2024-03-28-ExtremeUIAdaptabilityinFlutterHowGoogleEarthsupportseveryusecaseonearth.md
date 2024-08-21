@@ -3,17 +3,13 @@ title: "플러터에서의 UI 적응성 - 구글 어스가 지구상의 모든 �
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Extreme UI Adaptability in Flutter  How Google Earth supports every use case on earth"
 link: "https://medium.com/flutter/extreme-ui-adaptability-in-flutter-how-google-earth-supports-every-use-case-on-earth-6db4661e7a17"
 isUpdated: true
 ---
-
-
-
-
 
 Google Earth이 모바일 및 웹 클라이언트를 Flutter로 다시 작성하기로 결정할 때, 그들은 사용자가 행성을 자유롭게 탐험할 수 있도록 하기를 원했습니다. 그들은 각 사용자가 소유한 장치에서 어떻게든 행성을 탐험할 수 있도록 제공하고 싶었습니다. 이는 어느 정도로 오래 동안 사실이었습니다. 결국 Google Earth는 기존의 웹, 데스크톱, 안드로이드 및 iOS 클라이언트를 보유하고 있었기 때문입니다. 그러나 이번 재작성은 데스크톱을 제외한 모든 대상을 다룰 것이며, 기존 사용 사례의 초과 지원 뿐만 아니라 Earth 팀이 탐색할 열정적인 새로운 적응 아이디어를 지원해야 했습니다.
 
@@ -23,7 +19,18 @@ Flutter를 사용하는 결정적인 요인은 두 가지였습니다. 첫째, �
 
 # 적응성 정의하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서 Google Earth 팀은 UI 적응성의 한계를 뛰어넘기 위한 모험을 떠났습니다. 다양한 사용자 여정에 맞춘 UI를 만드는 데 대한 선행 기술은 스마트폰 등장 초기부터 존재하였고, 대부분의 웹사이트가 작은 화면을 위해 재검토가 필요하다는 사실을 깨닫게 했습니다. 브라우저 API 및 CSS 패턴이 등장하여 화면 해상도를 인식하는 웹사이트를 구축하는데 사용되었고, 이러한 아이디어들은 그 후 계속해서 주목을 받고 있습니다. Flutter 초기 단계에서부터 개발자들은 폰 화면이 다양할 것이라는 사실을 알고 앱의 UI를 화면 해상도에 따라 다르게 만들었습니다. 그 화면 해상도가 변경되어도 — 사용자가 폰을 회전시키거나 브라우저 창의 크기를 조절한 경우와 같이 — 앱의 UI는 응답할 것입니다. Flutter에서는 수년 전 웹에서와 마찬가지로 반응형 UI가 사용자 경험을 개선했습니다.
 
@@ -33,7 +40,18 @@ Flutter를 사용하는 결정적인 요인은 두 가지였습니다. 첫째, �
 
 그 모든 것이 Google Earth 팀을 놀라게 한 초기 프로토 타입의 동작에서 정점에 이르렀습니다. 이들은 초기 빌드로 재미있는 시간을 보내던 중 구글 어스 엔지니어가 데스크톱 웹 브라우저를 매우 좁은 폭으로 축소했다. 갑자기, 사이드 탐색 바와 더 작은 터치 대상과 같은 전형적인 데스크톱 특성들이 모바일 특성인 하단 탐색 바와 더 큰, 손으로 누르기 쉬운 버튼으로 대체되었습니다. 그들의 놀라움은 잠깐이었고 — 결국, 그들이 앱에 요청한 것이 바로 그것이었기 때문이었습니다. Google Earth 팀은 이제 깊이 있는 질문을 다루어야 했습니다 — 사용자들이 이것을 원할까?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Google Earth 팀이 차트를 그려낼 미지의 땅이었습니다.
 
@@ -43,7 +61,18 @@ Google Earth 팀이 차트를 그려낼 미지의 땅이었습니다.
 
 이것들은 좋은 질문들이지만, 이들은 플러터에 대한 망설임을 부추기지 않아야 합니다. 플러터와 같은 크로스 플랫폼 UI 프레임워크를 사용하는 것은 적응형 UI 염려 사항을 도입하는 게 아니라 적응형 UI 솔루션을 개방합니다. 그 이상으로, 여기 적응형 UI가 정말 중요하다고 나타내는 두 가지 고려 사항이 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 화면 해상도는 예전과 같은 의미를 갖지 않습니다. 데스크톱 브라우저는 낮은 DPI 설정을 가질 수 있으며, 단순한 중단점 확인은 이를 모바일 환경과 혼동시킬 수 있습니다. 고 DPI를 가진 폰들은 가로 방향으로 사용 시 오래된 태블릿(또는 심지어 데스크톱!) 중단점으로 오해될 수 있고, 접히는 장치는 앱을 전체 화면으로 표시하거나 여러 앱 간에 화면 공간을 분할하는 방식으로 번갈아가며 전환함으로써 특정 중단점을 횡적으로 움직이는 사용자에게 당혹스러운 차이를 줄 수 있습니다.
 - Read 및 Edit 경험을 가진 텍스트 작성 앱과 같은 창작 대 소비 모드가 구분되는 앱들은 모바일에서 심각한 문제가 발생할 수 있습니다. 스마트폰 및 태블릿에 대해 모바일 퍼스트이므로 소비 중심 경험을 제공하면 태블릿, 블루투스 키보드 및 마우스를 사용하는 고급 사용자의 가능성이 크게 제한됩니다.
@@ -56,7 +85,18 @@ Google Earth 팀은 최종적으로 출시된 앱에 이르기까지 실험, 사
 - 앱은 어떻게하고 언제 UI 전략을 변경해야 하는가?
 - Google Earth 팀은 이러한 논리를 깔끔하게 구현할 수 있는가?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 초기 UI 전략 결정하기
 
@@ -66,7 +106,18 @@ Google Earth 팀은 최종적으로 출시된 앱에 이르기까지 실험, 사
 
 # 사용자 세션 내에서 UI 전략 업데이트하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지구 팀의 UI 변경에 대한 첫 번째 전략은 기존의 반응형 UI 규칙에 불과했습니다. 최소 임계값 아래의 모든 해상도에서는 모바일 UI를 표시하고, 그 다음 몇 백의 가능한 너비에서는 태블릿 UI(있는 경우)를 표시하며, 마지막으로 그 이외의 모든 것에서 데스크톱 UI를 표시하는 것이었습니다. 그리고 가장 중요한 점은 어떤 이유로든 UI가 해당 임계값을 넘어설 때 앱을 다시 렌더링한다는 것이었습니다. 물론, 이 규칙 세트의 어색함으로 구글 어스는 극도의 적응성 여정을 시작하게 되었고, 따라서 팀이 이 접근 방식을 포기한 것은 놀랍지 않습니다.
 
@@ -74,7 +125,18 @@ Google Earth 팀은 최종적으로 출시된 앱에 이르기까지 실험, 사
 
 결국, 구글 어스 팀은 매우 간단한 두 번째 규칙에 합의했습니다: 세션 내에서 일관성 유지하고 사용자의 명시적인 허가 없이 초기 UI 스타일을 변경하지 말아야 한다는 것이었습니다. 앞서 탐구한 바와 같이, 구글 어스는 스마트폰과 태블릿에서 모바일 우선 UI를 보여주고, 데스크톱에서는 데스크톱 우선 UI를 보여주며, 사용자가 설정 패널에서 변경을 요청하지 않는 한 이것을 변경하지 않도록 하였습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 세션 내에서 UI 일관성은 Google Earth에 큰 도움이 되었지만, 이것만으로는 충분하지 않습니다. 커서 호버 효과와 같은 데스크톱 환경의 UI 특성은 휴대폰에서는 동등한 것이 없기 때문에 재구상해야 합니다. 터치 스크린 노트북을 태블릿처럼 다루는 사용자가, 모바일에 적합한 대안으로 중요한 호버 효과를 대체하지 못한 앱의 결함으로 완전히 막힐 수 있습니다. 이 깨달음은 이중 문제와 해결책을 시사했습니다. Google Earth의 UI는 사용자 요청 시에 모바일과 데스크톱 환경을 원활하게 전환할 뿐만 아니라, 종합 전략과 관계없이 각 컨트롤은 터치에 친화적인 형태와 마우스에 친화적인 형태 둘 다 가져야 했습니다.
 
@@ -85,7 +147,18 @@ Google Earth 팀은 최종적으로 출시된 앱에 이르기까지 실험, 사
 
 # 여러 UI 관리
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가장 간단히 말하면, 어떤 플러터 앱이 두 가지 다른 환경 사이를 원활하게 전환하려면 다음 줄을 위젯의 빌드 메소드 어딘가에 넣는 것만으로 충분합니다:
 
@@ -97,7 +170,18 @@ child: mode == Mode.desktop ? DesktopUI() : MobileUI();
 
 첫 번째 층을 상상해 보면, 데스크톱에는 여러 패널이 있는 화면이 있고 모바일에서는 이러한 패널을 탭 바 경험으로 재구성합니다. 모바일 사용자는 활성 탭이 있겠지만, 데스크톱에는 그와 동일한 개념이 없습니다. StatefulWidget 안에 활성 탭 인덱스를 저장하는 것(플러터에서 이디오매틱한 결정!)은 항상 모바일 사용자의 위치를 기본 탭으로 재설정하게 만들어 데스크톱 UI를 왔다갔다 할 때마다. 이 문제에 대한 해결책은 기본 응용 프로그램 상태 — 문자열, 정수 등 — 를 StatefulWidgets에서 빼내어 상태 관리 클래스에 넣는 것입니다. 이렇게 하면 위젯 트리에서 어떤 광기가 중요한 값들을 재설정할 수 없게 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문제의 두 번째 층은 위젯 트리에서 쉽게 추출되지 않는 애플리케이션 상태에 온다. 예를 들어 TextEditingControllers 또는 ScrollControllers와 같은 것입니다. 상황은 이런 식으로 보입니다: TextField가 있는 ListTile이 있고 사용자가 마우스나 터치스크린을 터치할 때마다 그 ListTile을 사용자의 최신 페리페럴에 맞게 다시 만듭니다. 개입이 없다면, 이것은 Flutter가 이전 TextField를 포함하는 Widget 및 Element 트리의 전체 부분을 파괴하고 사용자의 작업을 보관하는 컨트롤러를 가져갈 수 있기 때문에 문제가 될 수 있습니다. 여기서 이러한 것들을 기본형(primitives)으로 취급하려 할지도 모릅니다(TextEditingControllers를 문자열로, ScrollControllers를 숫자로 변환); 하지만 컨트롤러들은 이런 방식으로 쉽게 직렬화할 수 없는 정도로 매우 복잡합니다(커서 위치 및 텍스트 선택 같은 것들).
 
@@ -141,7 +225,18 @@ class _AdaptableTextInputState extends State<AdaptableTextInput> {
 
 # 네이게이션
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내비게이션 스택 및 앱의 뒤로가기 버튼도 특별한 주의를 요구합니다. 여러 패널을 동시에 표시하는 데스크톱 UI의 위 예제를 계속해서 생각해보면, 이제 그 패널들을 스택 모양의 UI로 표현하는 보조 모바일 UI를 상상해보세요. 앞뒤로 이동하는 네비게이션이 함께 있습니다. 데스크톱이 모바일 UI를 사용하거나 휴대폰이 데스크톱 UI를 사용할 수 있는 영향은 Google Earth가 추구한 큰 적응성 아이디어 중 하나였습니다.
 
@@ -151,7 +246,18 @@ class _AdaptableTextInputState extends State<AdaptableTextInput> {
 
 ![이미지](/assets/img/ExtremeUIAdaptabilityinFlutterHowGoogleEarthsupportseveryusecaseonearth_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다행히도, GoRouter의 선언형 라우팅 API를 활용할 수 있어요. 두 개의 별도 라우팅 선언을 생성하고 사용자가 UI 모드를 토글할 때 적합한 경로로 전환하세요. 이 상황에서 데스크톱 UI가 사용자의 마지막 활동을 빨간 패널로 추적하고, 모바일 UI를 활성화하는 요청이 들어오면 `mobileRouter.go('home/blue/red')`를 호출하여 합성 이력을 가진 탐색 스택을 만들어 사용자가 뒤로 버튼을 눌러 빨간 화면을 벗어날 수 있어요.
 
@@ -198,7 +304,18 @@ Google Earth와 같이 매우 적응형인 UI의 경우, 오직 하나의 특정
 
 # 사용자 입력에 대한 적응력
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 작업이 해결되어 남은 어려운 적응성 문제는 한 가지 더 남아 있었습니다: UI 전반에 걸쳐 컨트롤이 사용자의 최근 사용 장치에 적합하고 단순히 지배적인 UI 전략에만 영향받지 않도록 하는 것이었습니다. 결국, 태블릿 사용자가 Bluetooth 마우스를 클릭하기 시작했을 때 구글 어스는 바로 데스크톱 UI로 전환하지 않았지만 키보드와 마우스의 강점을 활용하기 위해 요소를 약간 조정하고 싶었습니다.
 
@@ -237,7 +354,18 @@ class InputTypeBuilder extends StatelessWidget {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 InputTypeBuilder와 같은 위젯은 InputTypeModel이라는 최상위 메커니즘을 듣고 있습니다. InputTypeModel 자체가 Flutter 엔진에 구독하여 사용자의 최근 입력에 대한 업데이트를 받습니다. InputTypeModel.inputType은 InputType enum의 속성입니다. 이를 통해 자식 위젯들은 사용자가 앱과 상호 작용하는 방식에 따라 스스로를 렌더링하는 방법에 대한 로컬화된 결정을 내릴 수 있습니다. 예를 들어, 마우스를 사용 중이었던 것을 터치스크린에 손가락을 댄 경우, 커서의 호버 효과로만 나타나던 지원 기능이 앱 전체에 나타날 것입니다. 마찬가지로, 마우스를 다시 사용하도록 전환하면, 이 InputTypeBuilder를 통해 변경을 되돌릴 수 있습니다.
 
@@ -262,7 +390,18 @@ Widget build(BuildContext context) {
 
 ![Google Earth UI](https://miro.medium.com/v2/resize:fit:1400/1*7hP0qPviv5Hrh7U82WWhQg.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

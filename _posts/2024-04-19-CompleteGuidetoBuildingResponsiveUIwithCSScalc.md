@@ -3,17 +3,13 @@ title: "CSS calc를 활용한 반응형 웹사이트 만드는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Complete Guide to Building Responsive UI with CSS calc"
 link: "https://medium.com/@anton.martyniuk/complete-guide-to-building-responsive-ui-with-css-calc-a787832dc8b3"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/CompleteGuidetoBuildingResponsiveUIwithCSScalc_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 오늘의 글에서는 다양한 CSS 속성에 대한 값들을 동적으로 계산하는 방법을 배우며, 웹 디자인의 반응성과 유연성을 향상시킬 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # calc() CSS 함수란 무엇인가요?
 
@@ -37,7 +44,18 @@ element {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 표현 매개변수는 계산을 나타내며 그 결과가 CSS 속성 값으로 사용됩니다. 표현은 숫자, 정수, 백분율, 길이, 주파수, 각도 또는 시간 값과 함께 사용할 수 있습니다.
 
@@ -54,7 +72,18 @@ element {
 
 화면의 높이에서 헤더의 크기를 제외한 메인 콘텐츠를 만드는 실제 사용 사례를 살펴보겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <style>
@@ -94,7 +123,18 @@ calc() 함수를 사용하면 CSS 속성 중 일부를 계산하는 데 사용�
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 스타일은 배경 이미지의 가로 여백을 추가하고 세로 가운데 정렬을 유지합니다.
 
@@ -109,7 +149,18 @@ calc() 함수를 사용하면 CSS 속성 중 일부를 계산하는 데 사용�
 
 ## 다른 함수 내부에서 calc() 사용하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 calc() 함수의 매우 멋진 기능 중 하나는 다른 함수 내에서 중첩될 수 있다는 것입니다. 더 복잡한 계산을 위해 calc()를 다른 함수 내에 중첩하여 사용할 수 있습니다. clamp() 함수 내에서 calc()를 사용하여 서로 다른 화면 크기에 대한 반응형 글꼴 크기를 만들 수 있습니다:
 
@@ -123,7 +174,18 @@ body {
 
 clamp()와 calc()를 함께 사용하면 더 나은 반응형 디자인을 위해 매우 복잡한 계산을 만들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 재밌는 사실: calc() 함수는 다른 calc() 함수 안에 중첩될 수 있어요.
 
@@ -137,7 +199,18 @@ calc() 함수는 수학 계산을 더 우아하게 표현하는 방법으로 사
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이렇게 하는 것이 낭독하기가 훨씬 좋아요: 11,11111111111111%;
 
@@ -147,7 +220,18 @@ Custom CSS 속성 또는 CSS 변수라고도 불리는 것은 웹 디자인을 �
 
 일반적으로 custom CSS 속성은 전역적으로 접근할 수 있도록 root 레벨에서 선언되지만 필요에 따라 개별 선택자에 대해 범위를 정할 수 있습니다. 다음과 같이 정의됩니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 :root {
@@ -170,7 +254,18 @@ Custom CSS 속성 또는 CSS 변수라고도 불리는 것은 웹 디자인을 �
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 기본 글꼴 크기로 속성을 정의하고 뷰포트 너비에 따라 조정합니다. CSS 변수의 이름을 액세스하려면 var 함수를 사용해야 합니다. 이 함수는 변수의 이름을 하나의 매개변수로 받습니다.
 
@@ -180,7 +275,18 @@ Custom CSS 속성 또는 CSS 변수라고도 불리는 것은 웹 디자인을 �
 
 calc()를 사용할 때 가장 흔한 함정 중 하나는 연산자 주변의 공백을 처리하는 것입니다. calc() 표현식에서 덧셈(+) 및 뺄셈(-) 연산자는 공백으로 둘러싸여 있어야만 연산자로 인식됩니다. 적절한 공백이 없으면 이러한 연산자가 숫자의 일부로 해석될 수 있어 구문 오류가 발생할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제대로 된 공백 사용:
 
@@ -198,7 +304,18 @@ calc()를 사용할 때 가장 흔한 함정 중 하나는 연산자 주변의 �
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 음수도 사용할 수 있습니다.
 
@@ -212,7 +329,18 @@ calc()를 사용할 때 가장 흔한 함정 중 하나는 연산자 주변의 �
 
 ## 덧셈 (+) 및 뺄셈 (-) 요구사항
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 표 태그를 Markdown 형식으로 변경해주세요.
 
@@ -221,7 +349,18 @@ calc()를 사용할 때 가장 흔한 함정 중 하나는 연산자 주변의 �
 | +        | Adds one value to another value        |
 | -        | Subtracts one value from another value |
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .content {
@@ -237,7 +376,18 @@ calc()를 사용할 때 가장 흔한 함정 중 하나는 연산자 주변의 �
 
 올바른 사용법:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 .content {
@@ -258,7 +408,18 @@ calc()를 사용할 때 가장 흔한 함정 중 하나는 연산자 주변의 �
 
 ## 미디어 쿼리에서의 사용법
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안타깝게도, calc() CSS 함수는 미디어 쿼리에서 사용할 수 없습니다. 예를 들어:
 
@@ -272,7 +433,18 @@ calc()를 사용할 때 가장 흔한 함정 중 하나는 연산자 주변의 �
 
 calc() CSS 함수는 CSS 속성 값을 결정하기 위해 계산을 수행할 수 있게 합니다. 이 함수는 픽셀, 백분율, 뷰포트 크기, em, rem 등과 같은 다양한 CSS 단위 간에 덧셈, 뺄셈, 곱셈, 나눗셈과 같은 기본 산술 연산을 지원합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기능은 필요한 속성을 동적으로 조정하여 유연한 반응형 디자인을 만드는 데 정말 도움이 됩니다.
 
@@ -284,7 +456,18 @@ calc() CSS 함수는 CSS 속성 값을 결정하기 위해 계산을 수행할 �
 
 이 블로그 포스트가 유용하게 사용되었으면 좋겠습니다. 즐거운 코딩되세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 https://antondevtips.com에서 처음 발행되었습니다.
 
@@ -295,7 +478,18 @@ https://antondevtips.com에서 처음 발행되었습니다.
 
 내 콘텐츠가 마음에 든다면 제게 지원을 고려해주세요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프렌들리 톤으로 번역하면 다음과 같습니다.
 

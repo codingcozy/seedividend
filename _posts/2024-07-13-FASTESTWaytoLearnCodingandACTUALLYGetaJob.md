@@ -3,16 +3,13 @@ title: "코딩을 가장 빠르게 배우고 실제로 취업하는 방법 "
 description: ""
 coverImage: "/assets/img/2024-07-13-FASTESTWaytoLearnCodingandACTUALLYGetaJob_0.png"
 date: 2024-07-13 21:24
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-FASTESTWaytoLearnCodingandACTUALLYGetaJob_0.png
 tag: Tech
 originalTitle: "FASTEST Way to Learn Coding and ACTUALLY Get a Job"
 link: "https://medium.com/@ashaynayak50/fastest-way-to-learn-coding-and-actually-get-a-job-04d7b34b5359"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-07-13-FASTESTWaytoLearnCodingandACTUALLYGetaJob_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 비디오 버전은 아래를 참고해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요 독자 여러분!!!
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 코딩을 배우는 데 3년 이상이 걸렸어요. 2015년 대학에 가서 코딩 배경이 전혀 없는 채 컴퓨터 과학을 공부했어요. 다른 사람들처럼, 컴퓨터 과학에 대해 배우고 일자리를 얻기 위해 인터넷을 탐험하기 시작했어요. 프로그래밍 언어, 자료 구조 및 알고리즘 등을 공부해야 한다는 것을 알게 되었죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하나씩 배우기 시작했지만, 어떤 프로그래밍 언어부터 시작해야 할지, 자료 구조 및 알고리즘에서 무엇을 공부해야 하는지, 그리고 가장 중요한 것은 어디에서 공부해야 하는지를 확신하지 못했습니다. 하나의 YouTube 채널에서 배우기 시작했는데, 이해하지 못한 부분이 있으면 다른 곳으로 옮겼습니다. 이렇게 하다 보니 다른 사람들로부터 다양한 주제를 배우고 많은 필요하지 않은 강의와 주제를 경험하게 되었습니다. 요약하자면, 많은 시간이 낭비되었습니다.
 
@@ -42,7 +61,18 @@ isUpdated: true
 
 단계 №1:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로그래밍 언어부터 시작해야 해요. 프로그래밍 언어는 각기 장단점이 있는 여러 가지가 있어요. 빠른 출발을 하려면, 배우기 쉽고 다양한 응용 프로그램이 있는 언어를 선택해야 해요. 또한, 이력서를 위해 몇 가지 프로젝트를 구축해야 하고, 매번 새로운 언어를 배우기 싫어해요. 그래서 우리의 요구를 충족하는 언어는 파이썬이에요. 파이썬은 영어로 글을 쓰는 것만큼 쉬워요. 게다가 웹 개발, 기계 학습, 데이터 과학 및 자동화에서 사용되어서 다양한 분야의 다양한 프로젝트 옵션을 제공해요.
 
@@ -52,7 +82,18 @@ isUpdated: true
 
 단계 2:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 Python을 알게 되었으니 프로젝트를 만드는 시간이에요. 프로젝트를 만드는 것은 여러 가지 방식으로 도움이 돼요.
 
@@ -62,7 +103,18 @@ isUpdated: true
 
 여기서 하는 오류는 '실습 없이 배우기' 입니다. 코딩 튜토리얼을 보기 시작하면 계속해서 보게 될 거예요. 이건 큰 실수에요. 내가 알아요, 실습 없이 강의를 보면 빨리 수강을 마칠 수 있지만, 그건 마치 누군가가 크리켓을 하는 걸 구경하는 것과 같아요. 스스로 코딩을 하며 언어를 배우거나, 프로젝트를 수행하거나, 코딩 문제를 해결할 때 항상 직접 코딩을 해야 해요. Richard Branson이 한 말씀이 많은 도움이 될 거라 생각해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## "규칙을 따라 걷는 것으로 걷기를 배우지 않습니다. 해보고 넘어지면서 배우는 법입니다."
 
@@ -72,7 +124,18 @@ isUpdated: true
 
 파이썬 개발을 완료했으니 이제 자료 구조와 알고리즘을 배우는 시간입니다. 자료 구조와 알고리즘을 배우면 면접을 통과하는 데 도움이 됩니다. FAANG을 비롯한 모든 기술 회사에서 면접 중 코딩 문제를 출제합니다. 이를 해결하기 위해서는 자료 구조와 알고리즘을 알아야 합니다. 나와 공유할 세 가지 과정 중 하나를 사용하여 자료 구조와 알고리즘을 배울 수 있습니다. 모든 강의는 무료입니다. 강의는:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제 4 단계:
 
@@ -82,7 +145,18 @@ DSA 과정을 완료한 후 코딩 문제를 연습해야 합니다. Leetcode, H
 
 ## 여기까지입니다... 이제 무엇을 공부해야 하는지, 어떤 리소스를 사용해야 하는지(아래 링크), 빠르게 코딩을 배우고 소프트웨어 엔지니어가 되기 위해 피해야 할 실수를 알게 되었을 것입니다. 적어도 "한 번 클래프 👏, 한 개의 댓글 💻, 마음에 드는 한 줄을 강조 🔆해서 하나를 따라하고 공유"해주세요. 우리를 격려해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 학습 자료:
 
@@ -92,7 +166,18 @@ DSA 과정을 완료한 후 코딩 문제를 연습해야 합니다. Leetcode, H
 
 자료 구조와 알고리즘을 위한 강좌가 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 내용을 시도해보세요,
 

@@ -3,16 +3,13 @@ title: "MLOps - 쉽게 배우는 2024년 Mlflow Pipelines 기초"
 description: ""
 coverImage: "/assets/img/2024-07-12-MLOpsAGentleIntroductiontoMlflowPipelines_0.png"
 date: 2024-07-12 19:47
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-12-MLOpsAGentleIntroductiontoMlflowPipelines_0.png
 tag: Tech
 originalTitle: "MLOps — A Gentle Introduction to Mlflow Pipelines"
 link: "https://medium.com/towards-data-science/mlops-a-gentle-introduction-to-mlflow-pipelines-c7bcec88a6ec"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-07-12-MLOpsAGentleIntroductiontoMlflowPipelines_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 산업계에서 머신러닝 업무를 찾을 때 가장 필수적인 기술 중 하나는 MLflow와 같이 복잡한 파이프라인을 조정하는 도구를 사용하는 능력입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 글에서는 프로젝트를 여러 단계로 구조화하고 모든 단계를 체계적으로 관리하는 방법을 알아볼 것입니다.
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 MLflow는 Databricks가 개발한 기계 학습의 완전한 라이프사이클 관리를 위한 오픈 소스 플랫폼입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 MLflow은 훈련 중인 모델을 모니터링하고 아티팩트 스토어를 사용하며 모델을 제공하는 등 여러 가지 기능을 제공합니다. 오늘은 MLflow를 머신러닝 파이프라인의 오케스트레이터로 사용하는 방법을 살펴볼 것입니다. 왜냐하면 특히 인공지능 세계에서는 다양한 단계와 실험이 있기 때문에 깔끔하고 이해하기 쉽고 쉽게 재현할 수 있는 코드를 갖추는 것이 중요합니다.
 
@@ -40,7 +59,18 @@ MLflow은 훈련 중인 모델을 모니터링하고 아티팩트 스토어를 �
 
 여기서는 매우 기본적인 파이프라인을 가정합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 가능한 한 각 단계를 독립적으로 개발하길 원합니다. 모델링을 맡은 사람들은 데이터 수집, 데이터 다운로드, 정리 등과 무관하게 그 구성요소만 개발하면 됩니다.
 
@@ -50,7 +80,18 @@ MLflow를 설치하려면 pip를 사용할 수 있습니다.
 
 ## MLflow 프로젝트 정의
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 MLflow 프로젝트는 3가지 주요 부분으로 구성되어 있습니다:
 
@@ -62,30 +103,52 @@ MLflow 프로젝트는 3가지 주요 부분으로 구성되어 있습니다:
 
 환경을 어떻게 관리할까요? 재현 가능하고 격리된 개발 환경을 정의하려면 여러 도구를 사용할 수 있습니다. 주요 도구로는 docker와 conda가 있습니다. 이 예에서는 conda를 사용할 것인데, conda를 사용하면 의존성을 빠르고 쉽게 지정할 수 있지만, docker는 다소 어려운 학습 곡선을 가지고 있습니다. conda를 다운로드해야 한다면, 가벼운 버전인 miniconda를 추천합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 개발 환경을 정의하는 conda.yml 파일을 만들어 가상 환경을 생성할 수 있습니다.
 
 우리가 할 일은 conda.yml에서 pip 사용을 정의하고 나중에 wandb와 같은 추가 설치를 위해 pip를 사용하는 것입니다. (참고로 이 경우에는 wandb가 실제로 필요하지 않습니다.)
 
-
 # conda.yml
+
 name: download_data
 channels:
-  - conda-forge
-  - defaults
-dependencies:
-  - requests
-  - pip
-  - mlflow
-  - hydra-core
-  - pip:
-    - wandb
 
+- conda-forge
+- defaults
+  dependencies:
+- requests
+- pip
+- mlflow
+- hydra-core
+- pip:
+  - wandb
 
 이제 conda.yml에 정의된 환경을 생성하기 위해 다음 명령을 CLI에서 실행할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 conda env create --file=conda.yaml
@@ -99,30 +162,50 @@ conda activate download_data
 
 이제 MLproject 파일을 정의해야 합니다. 이 파일에 유의해 주세요. yaml로 작성되어 있지만 확장자가 필요하지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 파일에서는 먼저 단계의 이름과 사용할 콘다 환경을 정의합니다. 그런 다음 계산을 시작할 주요 Python 파일인 entry point를 지정해야 합니다. 그 후에는 파일을 시작하는 데 필요한 매개변수도 정의해야 합니다. 예를 들어, 다운로드 단계에서는 데이터를 다운로드할 URL을 전달할 것으로 예상합니다.
 
 마지막으로 mlflow가 실제로 시작해야 하는 명령을 표시합니다.
 
-
 name: download_data
 conda_env: conda.yml
 
 entry_points:
-  main:
-    parameters:
-      data_url:
-        description: 데이터 다운로드 URL
-        type: uri
+main:
+parameters:
+data_url:
+description: 데이터 다운로드 URL
+type: uri
 
     command: >-
       python main.py --data_url {data_url} #중괄호에 입력 변수를 넣으세요
 
-
 이제 본격적으로 주 Python 코드 main.py를 작성할 준비가 됐습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파이썬 코드에서는 MLproject로부터 예상되는 인수 "data_url"을 입력으로 받아야 합니다. 그런 다음 사용자가 이 인수를 cli에서 전달할 수 있도록 argparser를 사용할 수 있습니다.
 
@@ -132,7 +215,18 @@ entry_points:
 
 이렇게 main.py 파일을 작성할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 mlflow를 사용하여 전체 구성 요소를 실행할 수 있습니다. mlflow에서 매개변수를 지정하려면 -P 플래그를 사용합니다.
 
@@ -144,7 +238,18 @@ mlflow run . -P data_url="https://raw.githubusercontent.com/datasciencedojo/data
 
 ![이미지](/assets/img/2024-07-12-MLOpsAGentleIntroductiontoMlflowPipelines_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 구성 요소에서 파이프라인으로
 
@@ -154,8 +259,18 @@ mlflow run . -P data_url="https://raw.githubusercontent.com/datasciencedojo/data
 
 루트 디렉토리에서 여러 구성 요소로 파이프라인을 생성하고 싶으므로 각 구성 요소용 서브디렉토리를 두 개 만들겠습니다. 다음 이미지에서 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Step 1](/assets/img/2024-07-12-MLOpsAGentleIntroductiontoMlflowPipelines_4.png)
 
@@ -165,8 +280,18 @@ mlflow run . -P data_url="https://raw.githubusercontent.com/datasciencedojo/data
 
 ![Step 2](/assets/img/2024-07-12-MLOpsAGentleIntroductiontoMlflowPipelines_5.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 이 디렉토리에 있는 모든 파일을 어떻게 정의했는지 살펴봅시다.
 
@@ -186,9 +311,20 @@ dependencies:
   - requests
   - pip
   - mlflow
-```  
+```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 🟢 mlflow_pipeline/MLproject
 
@@ -198,18 +334,28 @@ MLflow를 실행할 때 다음과 같은 명령을 사용할 것입니다:
 
 mlflow run . P steps=”download,cleaning,training”
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 name: mlflow_pipeline
 conda_env: conda.yml
 
 entry_points:
-  main:
-    parameters:
-      steps:
-        description: 쉼표로 구분된 수행할 단계
-        type: str
+main:
+parameters:
+steps:
+description: 쉼표로 구분된 수행할 단계
+type: str
 
       data_url:
         descripton: 데이터의 URL
@@ -218,15 +364,24 @@ entry_points:
     command: >-
       python main.py --steps {steps} --data_url {data_url}
 
-
 🟢 mlflow_pipeline/main.py
 
 이 파일에서는 이제 단계를 처리할 것입니다. 입력을 파싱하면 문자열을 쉼표로 분할하여 모든 단계가 배열에 포함됩니다.
 
 각 단계에 대해 mlflow.run을 실행하며, 이번에는 cli를 사용하지 않고 직접 Python에서 실행합니다. 명령어는 매우 유사하지만 각 실행에는 구성 요소 경로와 entry point(항상 main)를 지정하고 필요한 경우 매개변수를 전달합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서부터 다른 구성 요소를 정의하는 방법은 이전에 했던 것과 매우 유사합니다. 다운로드 및 정리 단계를 계속 설명하겠습니다.
 ⚠️ 모든 conda.yml은 동일하므로 여러 번 반복하는 것을 피하겠습니다.
@@ -250,7 +405,18 @@ entry_points:
       python run.py --data_url {data_url}
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 🟢 mlflow_pipeline/data_download/run.py
 
@@ -260,7 +426,18 @@ run.py 파일에서는 MLproject에 정의된 URL 파일을 가져와 pandas 데
 
 이 경우, 데이터 클리닝은 매우 간단합니다. 파이프라인 구조화에 초점을 맞추고 복잡한 단계 생성에 대해서는 다루지 않습니다. 입력 매개변수를 예상하지 않으므로 run.py만 실행하면 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```yaml
 name: data_cleaning
@@ -278,10 +455,21 @@ entry_points:
 
 이제 우리가 실수를 하지 않았다면 적절한 매개변수를 지정하여 단일 mlflow 명령어로 전체 파이프라인을 실행할 수 있습니다. 그럼 단계와 데이터셋의 URL을 지정하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-mlflow run . -P steps="data_download,data_cleaning" -P data_url="https://raw.githubusercontent.com/datasciencedojo/datasets/master/titanic.csv" 
+mlflow run . -P steps="data_download,data_cleaning" -P data_url="https://raw.githubusercontent.com/datasciencedojo/datasets/master/titanic.csv"
 ```
 
 모든 단계가 올바르게 수행될 것이며, 여러분의 디렉토리에 두 개의 새 CSV 파일이 생길 것입니다! 🚀
@@ -290,7 +478,18 @@ mlflow run . -P steps="data_download,data_cleaning" -P data_url="https://raw.git
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사에서는 MLflow에서 프로젝트가 구성되는 방식과 파이프라인이 프로젝트 시퀀스에 의해 정의되는 방법을 살펴 보았습니다.
 
@@ -300,7 +499,18 @@ MLFlow는 머신러닝 실험을 추적하는 데 매우 유용하지만, 복잡
 
 MLflow가 제공하는 기능들은 매우 다양합니다. 예를 들어, 모델의 성능을 모니터링하거나 생성한 아티팩트를 저장하는 데 사용할 수 있습니다. 앞으로 다른 도구들을 MLflow에 통합하여 그 잠재력을 최대한 활용하는 방법을 소개할 예정이니 기대해 주세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 이 기사에 관심이 있다면 제 Medium 팔로우해주세요! 😁
 

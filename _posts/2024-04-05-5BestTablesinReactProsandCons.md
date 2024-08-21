@@ -3,17 +3,13 @@ title: "리액트에서 표테이블을 만들기 쉬운 라이브러리 5개"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "5 Best Tables in React Pros and Cons"
 link: "https://medium.com/@debpanda17/5-best-tables-in-react-pros-and-cons-5c5d08cfe69a"
 isUpdated: true
 ---
-
-
-
-
 
 ![React에서 가장 좋은 테이블 5선: 장단점](/assets/img/5BestTablesinReactProsandCons_0.png)
 
@@ -23,7 +19,18 @@ React, 사용자 인터페이스를 구축하는 데 가장 인기 있는 JavaSc
 
 GitHub 저장소: [링크]
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 장점:
 
@@ -36,7 +43,18 @@ GitHub 저장소: [링크]
 - 엔터프라이즈 버전은 가격이 부과됩니다.
 - 간단한 테이블에는 과도할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. React 테이블
 
@@ -48,7 +66,18 @@ GitHub 저장소
 - 가상화를 포함한 우수한 성능 최적화.
 - 활발한 커뮤니티 및 지속적인 개발.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Cons:
 
@@ -59,7 +88,18 @@ Cons:
 
 GitHub 저장소
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 장점:
 
@@ -72,7 +112,18 @@ GitHub 저장소
 - 다른 라이브러리와 비교했을 때 고급 기능이 제한적임.
 - Material-UI 프로젝트가 아닌 경우에는 최적의 선택이 아닐 수 있음.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. Griddle
 
@@ -84,7 +135,18 @@ GitHub 저장소
 - 작고 중간 규모의 프로젝트에 적합한 가벼우면서 최소한의 기능.
 - 필요에 따라 높은 사용자 정의가 가능합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Cons:
 
@@ -95,7 +157,18 @@ Cons:
 
 [GitHub 저장소](링크)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 장점:
 
@@ -108,7 +181,18 @@ Cons:
 - 더 포괄적인 라이브러리와 비교하여 기능이 제한적입니다.
 - 고급 상호 작용이 필요한 애플리케이션에 적합하지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결론: React 프로젝트에 가장 적합한 테이블 라이브러리를 선택하는 것은 특정 요구 사항 및 응용 프로그램의 규모에 따라 다릅니다. 복잡하고 기능이 풍부한 데이터 테이블에는 AG-Grid와 React Table이 우수한 선택지이며, Material-UI Table은 Material-UI 프로젝트에 매끄럽게 통합됩니다. Griddle과 React Data Table Component는 간단한 요구 사항을 가진 작은 프로젝트에 적합한 가벼운 옵션입니다.
 

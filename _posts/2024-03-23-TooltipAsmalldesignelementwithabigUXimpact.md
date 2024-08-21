@@ -3,17 +3,13 @@ title: "사용자 경험에 큰 영향을 주는 디자인 요소 툴팁 디자�
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Tooltip A small design element with a big UX impact"
 link: "https://uxplanet.org/tooltip-a-small-design-element-with-a-big-ux-impact-e12f4ecec419"
 isUpdated: true
 ---
-
-
-
-
 
 ![툴팁](/assets/img/Tooltip:-A-small-design-element-with-a-big-UX-impact_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 툴팁은 사용자가 인터페이스를 탐색하는 동안 추가적인 맥락과 안내를 제공하기 위해 존재합니다. 툴팁은 다음과 같은 기능을 할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 생소한 아이콘, 필드 이름 또는 기능 설명
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ## 작업을 완료하는 방법에 대해서 지시하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/Tooltip:-A-small-design-element-with-a-big-UX-impact_3.png)
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 ![이미지](/assets/img/Tooltip:-A-small-design-element-with-a-big-UX-impact_5.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Tooltip: A small design element with a big UX impact](/assets/img/Tooltip:-A-small-design-element-with-a-big-UX-impact_6.png)
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 ![Tooltip: A small design element with a big UX impact](/assets/img/Tooltip:-A-small-design-element-with-a-big-UX-impact_8.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 사용자를 안심시키기
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 여기 Figma에서 인터랙티브 툴팁을 디자인하는 빠른 튜토리얼이 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 상호 작용 동작
 
@@ -73,7 +124,18 @@ isUpdated: true
 
 화면 부동산 및 의도에 따라 툴팁은 UI 요소 위, 아래 및 양쪽에 나타날 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/Tooltip:-A-small-design-element-with-a-big-UX-impact_10.png" />
 
@@ -83,7 +145,18 @@ isUpdated: true
 
 # 디자인 권고 사항
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 툴팁을 절약하게 사용해주세요
 
@@ -93,7 +166,18 @@ isUpdated: true
 
 복잡하거나 위험한 항목 또는 자주 오해되는 항목에 대한 설명을 우선시해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/Tooltip:-A-small-design-element-with-a-big-UX-impact_13.png" />
 
@@ -103,7 +187,18 @@ isUpdated: true
 
 <img src="/assets/img/Tooltip:-A-small-design-element-with-a-big-UX-impact_14.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Tooltip: A small design element with a big UX impact](/assets/img/Tooltip:-A-small-design-element-with-a-big-UX-impact_15.png)
 
@@ -111,7 +206,18 @@ isUpdated: true
 
 툴팁 텍스트는 명확하고 간결하며 빠르게 스캔할 수 있어야 합니다. 평범한 언어를 사용하고 핵심으로 바로 들어가세요(사용자가 알아야 할 내용을 가능한 한 적은 단어로 설명). 문자 수 제한은 20자로, 이는 공백을 포함한 2~5단어 사이입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![도구 설명: 큰 UX 영향을 주는 작은 디자인 요소](/assets/img/Tooltip:-A-small-design-element-with-a-big-UX-impact_16.png)
 
@@ -121,7 +227,18 @@ isUpdated: true
 
 ![도구 설명: 큰 UX 영향을 주는 작은 디자인 요소](/assets/img/Tooltip:-A-small-design-element-with-a-big-UX-impact_17.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/Tooltip:-A-small-design-element-with-a-big-UX-impact_18.png" />
 
@@ -131,7 +248,18 @@ isUpdated: true
 
 키보드 상호작용
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Tab: 트리거에 포커스를 이동하고 툴팁을 엽니다.
 - Esc: 툴팁을 닫습니다

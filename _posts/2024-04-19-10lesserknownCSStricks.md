@@ -3,17 +3,13 @@ title: "프론트엔드 개발자라면 알아야하는 CSS 트릭 10가지"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "10 lesser known CSS tricks"
 link: "https://medium.com/@creativebyte/10-lesser-known-css-tricks-259197d9aced"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/10lesserknownCSStricks_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 전체 페이지에 스무스 스크롤링을 활성화하려면 `html` 요소에 scroll-behavior: smooth를 추가하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 html{
@@ -41,7 +48,18 @@ a[href^="https"]{
   }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 03. ~ 형제를 결합하는 `table` 태그
 
@@ -55,7 +73,18 @@ h2 ~ p {
 
 # 04. `:not()` 가상 클래스
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 선택기는 특별한 클래스를 가지지 않은 리스트 항목에 스타일을 적용합니다.
 
@@ -69,7 +98,18 @@ li:not(.special){
 
 뷰포트 단위(vw, vh, vmin, vmax)를 사용하면 폰트 크기를 뷰포트 크기에 반응하는 방식으로 조절할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 h1{
@@ -87,7 +127,18 @@ p:empty{
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 07. 사용자 지정 속성 (변수)
 
@@ -105,7 +156,18 @@ p:empty{
 
 # 08. 이미지 제어를 위한 object-fit 속성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 object-fit은 대체 요소의 내용(예: `img`)이 어떻게 조절되어야 하는지를 결정합니다.
 
@@ -121,7 +183,18 @@ img{
 
 CSS 그리드는 더 간편한 방식으로 레이아웃을 생성하는 강력한 도구를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 .container {

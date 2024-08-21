@@ -3,17 +3,13 @@ title: "html2canvas 사용법 - html 요소 이미지로 캡쳐해서 다운로�
 description: "html2canvas를 사용해 html 요소를 이미지로 캡쳐해서 다운로드 받는 방법에 대해 정리합니다"
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # html2canvas로 html 요소 캡쳐해서 이미지로 다운로드 받기
 
@@ -23,9 +19,18 @@ html2canvas를 이용해 특정 html 태그를 캡쳐해서 이미지로 다운�
 
 아래 명령어를 입력해서 설치해줍니다.
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 npm i html2canvas
@@ -54,9 +59,18 @@ const download = () => {
 };
 ```
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 다운로드 받는 함수
 
@@ -86,9 +100,18 @@ const saveAs = (uri: any, filename: string) => {
 
 위와 같이 작성해서 **버튼 클릭 이벤트에 연결하면 아래처럼 다운로드 버튼 클릭시 특정 html요소를 이미지로 만들어 다운로드 받을 수 있습니다.**
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2022-12-09-html2canvas로-html-요소-캡쳐해서-이미지로-다운로드-받기-1.gif" width="500" />
 

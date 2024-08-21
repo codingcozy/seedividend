@@ -3,15 +3,13 @@ title: "파이썬에서 덮어쓰기 헷갈리지만 위험하고 강력한 방�
 description: ""
 coverImage: "/assets/img/2024-07-09-OverwritinginPythonTrickyDangerousPowerful_0.png"
 date: 2024-07-09 19:09
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-OverwritinginPythonTrickyDangerousPowerful_0.png
 tag: Tech
 originalTitle: "Overwriting in Python: Tricky. Dangerous. Powerful"
 link: "https://medium.com/towards-data-science/overwriting-in-python-tricky-dangerous-powerful-04b12a9b1a7e"
 isUpdated: true
 ---
-
-
 
 ## 파이썬 프로그래밍
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 변수를 덮어썼지만 함수, 클래스, 그리고 클래스 메서드까지도 덮어썼습니다. 때로는 예외까지 덮어썼습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 실제로 변수 덮어쓰기와 호출 가능한 객체 덮어쓰기 사이에는 차이가 있습니다. 이 두 가지 프로세스 간의 차이는 실제로 상당히 중요합니다. 후자는 더 까다롭기 때문에요. 호출 가능한 객체 덮어쓰기에 초점을 맞추고 있지만, 좀 더 고급 기술인 것으로 알려진 것이기 때문에 변수 덮어쓰기에 대해서도 이야기할 것입니다. 그것은 이야기를 이어가는 좋은 시작점을 제공하기 때문이죠.
 
@@ -31,7 +40,18 @@ isUpdated: true
 
 그럼에도 불구하고 나는 '덮어쓰기'라는 용어를 넓은 의미로 사용합니다. 특정 상황에서는 더 정확한 용어가 특정 형태의 덮어쓰기를 더 잘 설명할 수 있습니다. 오버로딩과 몽키 패칭과 같은 형태의 덮어쓰기를 보다 정확하게 설명하는 것이요. 오버로딩은 다양한 유형의 입력에 대해 작동하도록 함수를 정의하는 것을 말합니다. 몽키 패칭은 실행 시간에 클래스, 함수 또는 모듈의 동적 수정을 참조하며, 원본 객체를 수정하지 않고 호출 가능한 객체의 동작을 변경할 때 자주 사용됩니다. 그러나 이러한 용어들은 모두 덮어쓰기의 특정 사례입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사는 당신에게 덮어쓰기 기술을 가르치려는 것이 아닙니다. 오히려 덮어쓰기가 어떻게 작동하는지, 왜 위험할 수 있는지 및 주의해야 할 위험과 결과에 대해 이해하는 데 도움을 주고자 합니다.
 
@@ -41,7 +61,18 @@ isUpdated: true
 
 일반적으로, Python에서 덮어쓰기란 이름에 새 객체를 할당하는 것을 의미합니다. 그러니까:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 덮어씌워지기 전: 이름 x는 특정 객체를 저장하는 메모리 주소와 연관되어 있습니다. 파이썬 용어로 말하면, x는 해당 객체를 참조합니다.
 - 덮어씌워진 후: x에 새로운 객체를 할당하면, 그 참조가 새로운 객체가 저장된 다른 메모리 주소를 가리키도록 변경됩니다. 이제 이름 x는 이 새로운 객체를 참조합니다.
@@ -59,7 +90,18 @@ isUpdated: true
 20
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기에 있습니다:
 
@@ -76,7 +118,18 @@ isUpdated: true
 
 Python의 동적 유형 시스템은 변수가 수명 주기의 어느 시점에서든 어떤 유형의 개체를 참조할 수 있도록하는 중요한 수준의 유연성을 제공합니다. 이에 대해 자세히 읽을 수 있는 다음 글이 있으니 참고하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파이썬의 강점 중 하나인 이 유연성은 신속한 개발과 간단한 데이터 흐름을 가능하게 합니다. 그러나 많은 권한이 따르기 때문에 큰 책임도 따라옵니다. 그리고 이것이 파이썬의 동적 환경에도 적용됩니다. 변수 유형을 바꾸는 간편성은 특히 대규모 코드 기반에서 코드의 가독성을 떨어뜨릴 수 있습니다.
 
@@ -86,7 +139,18 @@ Python의 동적 유형 시스템은 변수가 수명 주기의 어느 시점에
 
 한편으로, 파이썬의 동적 타이핑은 변수가 수명 동안 다른 유형의 값들을 보관할 수 있도록 합니다. 다른 한편으로, 타입 힌트의 도입은 예상 유형을 명시하는 방법을 제공하면서 코드의 가독성을 향상시키고 정적 분석 도구를 지원합니다. 예를 들어, 타입 힌트 관점에서 첫 번째 코드 블록에서 x를 덮어쓰는 것은 완전히 올바릅니다. 그러나 두 번째 블록에서는 그렇지 않습니다. 이는 정수를 새 이름 x에 할당할 때 타입 힌트를 넣지 않고 실제로는 x가 정수임을 간접적으로 타입 검사기에 알렸기 때문입니다. 이후에 x를 문자열로 덮어쓰기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 문제를 피하기 위해 다음을 할 수 있습니다:
 
@@ -104,7 +168,18 @@ x가 정수 또는 문자열일 수 있다고 알려주면, 타입 체커는 이
 
 잠깐, 뭐라구요?! 왜 타입 힌트에 대해 그렇게 많이 언급하나요? 우리는 파이썬에서 덮어쓰기에 대해 얘기하고 싶지 않았나요? 왜 이걸 하고 있지 않나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그렇습니다. Type hint는 우리를 보호합니다. 모든 의도치 않은 유형의 값으로 변수를 잘못 덮어쓸 경우를 방지해줍니다. 따라서 Python에서 변수를 덮어쓸 때 Type hint는 안전장치 역할을 합니다. 타입 체커가 특정 덮어쓰기에 대해 경고를 보내면, 우리 스스로 좋은 일을 위해 그것이 올바른지 확인하고 의도한 결과가 실제로 달성되는지 확인해야 합니다.
 
@@ -114,7 +189,18 @@ x가 정수 또는 문자열일 수 있다고 알려주면, 타입 체커는 이
 
 다양한 객체 유형을 다루지만 관련 위험요소가 기본적으로 동일하기 때문에 세 가지 덮어쓰기 형태를 함께 설명하기로 결정했습니다. 따라서 가독성을 위해 함수에 대해 설명하겠지만, 모든 내용은 동일하게 클래스, 클래스 메서드 및 기타 콜러블 객체에도 적용됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기존 함수를 덮어쓰는 이유에 대해 궁금할 수 있습니다. 그냥 다르게 구현하면 안 되는 걸까요? 사실, 우리가 다르게 구현할 수 있는 상황도 있습니다. 따라서 덮어쓸 필요가 없는 경우도 있습니다. 그러나 외부 패키지에서 함수(또는 여러 함수)를 덮어써야 하는 상황도 있을 수 있습니다. 그 이유는 다양할 수 있습니다. 조금 다른 동작이 필요하거나 다른 데이터 유형과 호환되어야 하거나 성능을 개선해야 할 수도 있고, 또는 원래 구현에서 버그가 발견되었지만 수정된 공식 릴리스를 기다릴 수 없는 경우일 수도 있습니다.
 
@@ -124,7 +210,18 @@ x가 정수 또는 문자열일 수 있다고 알려주면, 타입 체커는 이
 
 \[이미지 첨부: "2024-07-09-OverwritinginPythonTrickyDangerousPowerful_1.png"\]
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에서 sum 함수를 max 함수로 덮어썼습니다. 그러나 더 많은 것을 할 수 있습니다. 아래에서 sum 함수를 문자열로 덮어씁니다!
 
@@ -134,7 +231,18 @@ x가 정수 또는 문자열일 수 있다고 알려주면, 타입 체커는 이
 
 간단히 말하면, 한 모듈에서 sum을 덮어쓰면 다른 모듈에 영향을 미치지 않습니다. 따라서 sum은 여기에 덮어씌워지지 않습니다. 이것은 기억해야 할 중요한 사항입니다. 왜냐하면 위에서 보여준대로 sum을 덮어쓰면 두 개의 다른 sum 함수가 만들어지기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 덮어쓴 합계는 덮어쓰기를 수행한 모듈에서 발생합니다.
 - 프로그램의 모든 다른 모듈(그리고 사실 다른 프로그램들에서의 기본 내장 합계)에는 원래 기본 내장 합계가 있습니다.
@@ -145,7 +253,18 @@ x가 정수 또는 문자열일 수 있다고 알려주면, 타입 체커는 이
 
 이 글은 파이썬에서 전역 변수와 파이썬 모듈에서 객체를 가져오는 다양한 방법에 대한 두 가지 기사로, 파이썬에서 덮어쓰기가 어떻게 작동하는지 이해하는 데 필요한 지식을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 섹션에서는 기능을 덮어쓰는 매우 잘 알려진 Python 기법인 'decoration'을 소개합니다.
 
@@ -155,7 +274,18 @@ x가 정수 또는 문자열일 수 있다고 알려주면, 타입 체커는 이
 
 더 많은 Python decoration에 대해 알고 싶다면, 다음 기사에서 기본 및 고급 정보를 찾을 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 장식은 실제로 덮어쓰기의 한 특정 버전입니다: 일반적으로 가져오는 시간에 발생하며 되돌릴 수 없습니다. 다시 말해, 한 번 장식되면 항상 장식되어 있습니다. "일반적으로" 라고 했습니다, 왜냐하면 해당 프로세스를 되돌릴 수 있는 기술이 있기 때문입니다; 이와 같은 것을 배우고 장식에 대해 더 알고 싶다면 위의 기사를 참조하세요.
 
@@ -169,7 +299,18 @@ x가 정수 또는 문자열일 수 있다고 알려주면, 타입 체커는 이
 
 4번째 단계에서 무엇을 했는지 주목했나요? 다른 것이 아니라 덮어쓰기입니다 — 이것이 장식이 덮어쓰기의 한 형태인 이유입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 함수를 꾸며주는 것은 매우 조심스러워야 한다는 뜻인가요?
 
@@ -179,7 +320,18 @@ x가 정수 또는 문자열일 수 있다고 알려주면, 타입 체커는 이
 
 지금 이 방식을 다른 모듈에 숨겨진 한 줄로 함수를 덮어씌우는 방식과 비교해보세요. 꾸미기는 덮어쓰기를 알려주고 있지만, 후자의 방식은 조용히 속삭이는 것과 같습니다: "쉿... 덮어쓰고 있어요... 이 함수를... 다르게 동작하게 할 거에요..."
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 섹션에서 중요한 결론이 나오는데요. Python에서 함수, 클래스 및 클래스 메서드 덮어쓰기 기법은 눈에 띄게 할 수도 있고 눈에 띄지 않을 수도 있습니다. 가능한 경우 더 눈에 띄는 방법을 선택해야 합니다. 코드에서 알기 어려운 덮어쓰기 기술을 사용하지 않도록 하세요. 이는 코드의 기능을 혼란스럽게 만들고 이해를 방해할 수 있습니다.
 
@@ -189,7 +341,18 @@ x가 정수 또는 문자열일 수 있다고 알려주면, 타입 체커는 이
 
 다음 가상이지만 완전히 타당한 사례 연구를 고려해 보겠습니다. 이 시나리오를 읽고 분석하면서 개발자의 역할을 맡아주세요. 실수를 저지른 사람은 아니지만 그 결과물과 씨름해야 하는 사람이 바로 여러분입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 5년 이상 프로젝트에 참여한 수많은 개발자들이 작업한 코드를 이어 받았습니다. 코드 베이스에는 20개의 모듈 중 하나인 큰 모듈이 있고, 이 모듈에는 read_info_from_db라는 중요한 기능이 있습니다. 이 기능은 사용 중인 20개 모듈 중 15개에서 사용되며, 사용되는 프로세스에 중요한 정보를 제공합니다. 그러니까 현재까지는 잘 작동하고 있습니다.
 
@@ -199,7 +362,18 @@ x가 정수 또는 문자열일 수 있다고 알려주면, 타입 체커는 이
 
 21주차에 드디어 출력물의 문제를 인식하게 되었습니다. 처음에 데이터에 문제가 있을 수 있다는 것을 알아차렸지만, 이를 찾지 못했습니다. 코드를 디버깅했지만 덮어쓰기를 알지 못했습니다 — 코드 전체를 한 줄씩 디버깅하는 것은 선택지가 아니었고, 적어도 처음에는 가능한 방법이 아니었습니다. 왜냐하면 10만 줄 이상의 코드를 다루는데, 버그를 찾을 위치조차 알 길이 없기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결국, 해결되지 않은 디버깅을 3일 더 한 후에 모든 것이 다운되었습니다. E-V-E-R-Y-T-H-I-N-G!
 
@@ -209,7 +383,18 @@ x가 정수 또는 문자열일 수 있다고 알려주면, 타입 체커는 이
 
 따라서 첫 번째 결론은: 덮어쓰기 해킹을 사용할 때는 항상 명확하게 문서화하고, 해당되는 유닛 테스트를 구현하고, 그것들을 철저하게 만드는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단위 테스트나 해킹에 대한 문서가 없었던 이유는 무엇일까요? 아마도 일시적인 해결책이었거나 코드 리팩토링되지 않은 상태로 남아있었을 수도 있습니다. 혹은 개발자가 회사를 떠나기 전에 작성하지 못한 것일 수도 있습니다. 또는 개발자가 대충 처리했을 수도 있습니다. 그 이유는 중요하지 않습니다 — 결과가 중요합니다. 지금은 애플리케이션 코드와 버그를 찾는 작업에 책임이 있는 건 여러분입니다.
 
@@ -219,7 +404,18 @@ x가 정수 또는 문자열일 수 있다고 알려주면, 타입 체커는 이
 
 이 예에서 덮어쓰기는 해킹이었습니다. 그러나 항상 그런 것은 아닙니다. 종종 이는 의도적인 결정일 수 있습니다. Python은 다양한 상황에서 다양한 개체를 덮어쓸 수 있도록 허용하기 때문에 이 기법을 사용하는 데 주저하지 마세요. 그러나 이를 할 때 항상 주의해야 합니다. 결과 코드가 불분명해질 위험이 있다면, 이를 문서화하고 이 특정 객체를 덮어쓰기로 선택한 이유를 설명하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 주요 위험과 결과
 
@@ -229,7 +425,18 @@ x가 정수 또는 문자열일 수 있다고 알려주면, 타입 체커는 이
 
 아래에서 덮어쓰기의 가능한 위험 목록을 찾을 수 있습니다. 이 목록이 완전한 것은 아니지만, 가장 중요한 위험을 다루고 있다고 생각합니다. 객체를 덮어쓸 때 이러한 위험들을 인식하는 것이 좋습니다 — 특히 덮어쓰기가 복잡하거나 비표준적이거나 불분명할 때입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1. 예상치 못한 동작
 
@@ -239,7 +446,18 @@ x가 정수 또는 문자열일 수 있다고 알려주면, 타입 체커는 이
 
 ## 2. 유지보수
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코드의 복잡도를 줄이는 것은 유지 보수 중에 덮어쓰기가 어려운 문제를 일으킬 수 있습니다. 여기서 명확한 문서화가 도움이 될 수 있습니다: 덮어쓰기의 이유, 메커니즘 및 가능한 위험을 명확히 설명해야 합니다. 문서는 또한 덮어쓰기를 리팩토링할 수 있는지 분석해야 합니다.
 
@@ -249,7 +467,18 @@ x가 정수 또는 문자열일 수 있다고 알려주면, 타입 체커는 이
 
 따라서 이러한 변경은 업데이트 후 진단하기 어려운 오류로 이어질 수 있습니다. 덮어씌운 기능에 대한 좋은 단위 및 통합 테스트가 도움이 될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 4. 보안
 
@@ -259,7 +488,18 @@ x가 정수 또는 문자열일 수 있다고 알려주면, 타입 체커는 이
 
 ## 5. 성능
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 많은 표준 라이브러리 모듈과 외부 패키지에는 C로 작성된 매우 최적화된 구현이 포함되어 있어, 사용자 정의 Python 코드로 유사한 성능을 달성하기가 어렵거나 불가능할 수도 있습니다. 이러한 최적화가 너무 우수하여, C 확장으로 비슷한 성능을 달성하는 것조차 어려울 뿐만 아니라 향상시키기도 어려울 수 있습니다. 성능이 중요할 때는 이러한 기능을 덮어쓰기 전에 고려해 보세요.
 
@@ -269,7 +509,18 @@ x가 정수 또는 문자열일 수 있다고 알려주면, 타입 체커는 이
 
 물론 성능이 중요하지 않다면, 벤치마킹에 미친 듯이 집착할 필요는 없습니다. 그렇다고 완전히 무시해선 안 됩니다. 이러한 경우에도 특정 함수나 클래스를 덮어써서 코드를 천 배 느리게 만들지 않았는지 확인하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 6. 의존성 오해
 
@@ -279,7 +530,18 @@ x가 정수 또는 문자열일 수 있다고 알려주면, 타입 체커는 이
 
 이 추가된 복잡성이 반드시 문제가 되지는 않지만, 혼동과 오해로 이어질 수 있습니다. 따라서, 덮어쓰기로 인해 애플리케이션에서 발생하는 환경 변경 사항을 문서화하는 것을 기억해 주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 7. 디자인 파괴하기
 
@@ -289,7 +551,18 @@ x가 정수 또는 문자열일 수 있다고 알려주면, 타입 체커는 이
 
 클래스의 개인 속성을 덮어쓰면 원래 개발자가 방지하려고 했던 것을 정확히 하는 것입니다. 때로는 원래 개발자가 계획하지 않은 기능을 달성하기 위해 필요할 수 있지만, 그럼에도 불구하고 이러한 조치는 객체 지향 프로그래밍(OOP)의 기본 원칙에 도전할 수 있어서 불안정한 코드로 이어질 수 있습니다. OOP 원칙을 훼손한다고 생각하는 사람들도 있는데, 이는 강한 표현이지만 무리가 없는 발언입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 따라서, 속성을 덮어쓰는 것은 OOP의 근본적인 원칙을 위반한다고 생각될 수 있다는 것을 인식하는 것이 중요합니다. 가끔은 속성 하나 대신 클래스 전체를 덮어쓰는 것이 더 나아 보일 수도 있습니다. 그러나 OOP 순수주의자들은 여전히 이를 OOP의 핵심 원칙에 위배된다고 간주할 것입니다.
 
@@ -299,7 +572,18 @@ x가 정수 또는 문자열일 수 있다고 알려주면, 타입 체커는 이
 
 이전에 언급했듯이, 덮어쓴 기능에 대한 새로운 단위 및 통합 테스트를 구현하는 것은 효과적이며 종종 필수적인 안전장치입니다. 그러나 기존 기능의 동작을 변경하면 기존 테스트에 영향을 미칠 것이라는 점을 기억하는 것이 중요합니다. 최소한 일부 기존 동작을 고려한 테스트 중 몇 개는 실패해야 합니다. 그리고 그것은 놀랄 일이 아니어야 합니다. 왜냐하면 우리는 다른 동작을 얻기 위해 기능을 덮어썼기 때문입니다. 사실, 이러한 중요한 변경사항 이후에 모든 원래 테스트가 여전히 통과한다면, 원래 테스트가 충분히 설계되지 않았을 수도 있다는 것을 나타낼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 따라서 함수, 클래스 메소드 또는 전체 클래스를 덮어쓸 때는 새로운 테스트를 구현하는 것만큼 원래 테스트를 다시 평가하는 것이 중요합니다. 이를 다양한 방법으로 할 수 있지만, 실패한 테스트를 표시하는 것을 권장합니다. 예를 들어, 아래 Pytest의 foo() 함수 테스트에서 다음을 수행할 수 있습니다:
 
@@ -317,7 +601,18 @@ def test_foo_blahblah():
     ...
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 보통 나는 전자의 방식을 선호해요. 왜냐하면 실제로 무언가를 수행하기 때문이죠. 테스트를 건너뛰기만 하는 것이 아니에요. 덮어쓴 기능 때문에 실패할 것으로 예상된 테스트를 표시하는 것은 테스트 자체에 대한 통찰력을 제공해줘요. 만약 원래의 foo() 함수나 새로운 (덮어쓴) 버전 중 하나를 수정한 후에 테스트가 더 이상 실패하지 않으면, 이는 더 깊은 분석이 필요하다는 신호예요. 왜 이전에 실패해야 했는데 더 이상 실패하지 않는 테스트가 있을까요? 이런 미묘한 차이는 단순히 새로운 기능 때문에 테스트를 건너뛰면 놓칠 수 있어요.
 
@@ -327,7 +622,18 @@ def test_foo_blahblah():
 
 ## 9. 디버깅의 어려움
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앱을 디버깅할 때 덮어씌운 함수, 클래스 및/또는 메서드가 있는 경우 코드의 복잡성 때문에 문제 해결이 더 어려울 수 있습니다. 특히 덮어쓴 함수 또는 메서드 내에 오류가 있는 경우에는 그렇습니다. 덮어쓰기가 잘 문서화되지 않은 경우 특히 더 그럴 수 있습니다.
 
@@ -347,7 +653,18 @@ if __name__ == "__main__":
 
 다음과 같이 할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # __main__.py
@@ -394,7 +711,18 @@ if __name__ == "__main__":
     foomodule.foo(1, 2, 3) # FLAG 2: foo_overwritten(1, 2, 3) 호출
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 FLAG 1로 표시된 줄을 실행하는 동안 예외가 발생하면, foomodule.foo()에서의 원시 예외가 발생합니다. 그러나 FLAG 2 줄을 실행하는 동안 예외가 발생하면, foomodule.foo()에서는 OverwritingError 및 foo_overwritten() 함수에서 발생한 실제 예외가 발생합니다.
 
@@ -404,7 +732,18 @@ if __name__ == "__main__":
 
 이 섹션에서는 다른 시나리오로서의 덮어쓰기 사용에 대해 이야기하고 싶습니다. 보통 이러한 경우에는 그 정도 리스크를 안고있지 않고, 때로는 전혀 리스크가 없을 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 상황을 상상해보세요. 테스트 파일에서 collections.Counter 클래스를 사용하여 두 리스트를 비교하는 데 사용될 예정인 30개 이상의 어설션을 구현했습니다. 예를 들어 여기에서와 같이요:
 
@@ -431,7 +770,18 @@ False
 
 Counter를 적용한 Counter 인스턴스를 비교하는 것은 요소를 비교하고 순서는 무시한다는 것을 보실 수 있습니다. 따라서 list_1과 list_2가 동일한 요소를 가지고 있더라도 요소의 순서가 다르기 때문에 서로 다르다는 것이죠. 그러나 이들 리스트에 Counter를 적용한 후에 비교하는 경우, 비교 결과는 True를 반환합니다. list_3는 이들 중 양쪽과 다른 요소를 가지고 있기 때문에, list_1 및 list_2로부터 Counter를 적용한 비교에서 실패합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 특정 시점에 다른 테스트 로직을 확인해보기로 생각했습니다. Counter 클래스를 사용하여 리스트를 비교하는 대신 전통적인 방식으로 비교하고 싶습니다:
 
@@ -446,7 +796,18 @@ False
 
 하나씩 확인할 수 있습니다. 한편으로, 이는 각 어설션을 개별적으로 확인하기 때문에 좋은 방법일 수 있습니다. 그러나 반대로 이것은 상당히 시간 소요가 될 수 있습니다, 특히 새로운 어설션이 모두 통과하는 경우가 발생할 때. 그렇다면 빠르게 이 작업을 수행할 방법이 있는가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 네, 있습니다. 사실 두 가지 해결책을 생각해 냈습니다. 둘 중 하나는 다른 것보다 나은 방법입니다.
 
@@ -456,7 +817,18 @@ False
 
 대신 덮어쓰기를 사용할 수 있습니다. 이 특정 상황에서는 실제로 매우 간단합니다. Counter(list_1)을 list_1이나 일반적으로 Counter(obj)를 obj와 같은 의미로 만들고 싶은 경우, Counter를 동일한 함수로 덮어씌우면 됩니다. 동일한 함수는 객체(예: obj)를 받아서 변경하지 않은 채로 반환하는 함수입니다. 이를 정의하는 것은 매우 간단합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 >>> def identity(obj): return obj
@@ -474,7 +846,18 @@ Counter = lambda obj: obj
 
 당연히 일반적인 def 정의를 사용할 수도 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 ... # 가져오기
@@ -500,7 +883,18 @@ False
 False
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 물론, 이것은 항상 출력을 변경한다는 것을 의미하지는 않아요:
 
@@ -522,7 +916,18 @@ True
 
 이것은 개발 기술에 불과하다는 것을 기억하세요. 얼마나 유혹적인지에 관계없이 실제 코드에서 사용해서는 안 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이름이 지정된 람다 정의를 사용한 것을 알아 보셨나요? 이것은 제품 코드에서 하지 말아야 할 것이지만, 임시 개발 기술로 이름이 지정된 람다 함수를 사용하는 데는 아무런 문제가 없다고 생각해요. 마찬가지로 임시 데이터 분석 코드에서 사용하는 것이 잘못된 일이라고 보지 않아요.
 
@@ -532,7 +937,18 @@ True
 
 덮어쓰기가 종종 해킹으로 여겨지기도 하지만 항상 그런 것은 아니에요. 개발자의 도구 세트에서 표준적이고 귀중한 도구가 될 수 있어요. 그러나 단순 변수 외의 복잡한 객체에 덮어쓰기를 사용하는 경우에는 기본적인 조건을 기억해야 해요. 개발 목적의 일시적인 해결책이 아닌 경우, 덮어쓰기의 각 인스턴스는 충분히 문서화되고 명확하고 포괄적인 테스트로 처리되어야 해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새로운 callable 객체를 덮어쓰는 아이디어가 떠오를 때, 저는 원본 구현을 이해하기 위해 노력합니다. 이를 이해하지 않으면 덮어쓰기가 무엇을 하는지, 그리고 왜 원본 버전과는 다르게 동작하는지 이해할 수 없을 것입니다.
 
@@ -542,7 +958,18 @@ True
 
 이 글을 계획할 때, 상당히 간단할 것으로 예상했습니다. 덮어쓰기의 위험에 대해 얼마나 많은 얘기를 할 수 있겠는가? 그러나 주제에 더 깊이 파고들수록 그 안에 복잡한 부분들을 보게 되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 코딩 기법으로 덮어쓰기를 주의 깊게 살펴보면, 첫눈에 보이는 것보다 더 위험할 수 있다는 것을 알 수 있죠? 그래서 이 글의 주요 목적은 파이썬에서 객체를 덮어쓰고 싶다면 신중히 생각해야 한다는 것을 설득하는 것이었습니다. 만약 그렇게 하기로 결정한다면, 덮어쓰기를 주의 깊게 실행하고, 테스트 스위트의 해당 부분을 재설계하고 확장하며, 덮어쓰기의 이유를 문서화하여 설명하는 것이 중요합니다.
 

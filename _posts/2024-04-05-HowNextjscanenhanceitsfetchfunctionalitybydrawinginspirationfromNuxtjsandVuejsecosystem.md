@@ -3,17 +3,13 @@ title: "Nextjs에서 Nuxtjs와 Vuejs에서 fetch 기능을 향상시키는 방�
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How Nextjs can enhance its fetch functionality by drawing inspiration from Nuxtjs and Vuejs ecosystem "
 link: "https://medium.com/@kristiyan.velkov/how-next-js-can-enhance-its-fetch-functionality-by-drawing-inspiration-from-nuxt-js-37534a09cce4"
 isUpdated: true
 ---
-
-
-
-
 
 ![Next.js와 Nuxt.js 생태계에서 영감을 받아 가져오기 기능을 강화하는 방법_0.png](/assets/img/HowNextjscanenhanceitsfetchfunctionalitybydrawinginspirationfromNuxtjsandVuejsecosystem_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 자, Next.js의 데이터 가져오기 예제부터 시작해 보겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 export default async function Page() {
@@ -51,8 +58,18 @@ export default async function Page() {
 
 <img src="/assets/img/HowNextjscanenhanceitsfetchfunctionalitybydrawinginspirationfromNuxtjsandVuejsecosystem_2.png" />
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 다음 Next.js 개선 사항
 
@@ -62,7 +79,18 @@ Nuxt.js에서 영감을 받아 Next.js가 개발자에게 더 나은 Fetch 기�
 
 Next.js는 데이터 가져오기를 위한 통합 가능한 API를 제공하여 개발자들에게 더 좋은 서비스를 제공할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Nuxt.js는 useFetch, useAsyncData 및 $fetch를 제공하여 데이터 가져오기에 대한 통일된 유연한 접근 방식을 제공합니다. Next.js에서는 유사한 일련의 훅이나 컴포저블을 도입할 수 있어 데이터 가져오기의 복잡성을 추상화할 수 있습니다. 특히 서버 측 렌더링(SSR) 및 정적 사이트 생성(SSG)에 대해 간편한 방법을 제공할 수 있습니다. 통일된 API를 통해 데이터를 가져오는 개발자 경험을 단순화할 수 있으며, 어디서나 어떻게 데이터를 가져오던 일관된 방법을 제공할 수 있습니다.
 
@@ -92,7 +120,18 @@ const { data, pending, error, refresh } = await useFetch("/api/modules", {
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 2. 클라이언트 쪽 데이터 가져오기 기능 강화
 
@@ -111,7 +150,18 @@ function contactForm() {
 
 # 3. 데이터 가져오기 행동에 대한 정교한 제어
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Nuxt.js는 개발자들이 데이터를 가져오는 방법과 시기를 더욱 세밀하게 제어할 수 있도록 lazy fetching 및 client-only fetching(server: false)와 같은 옵션을 제공합니다. Next.js는 유사한 옵션을 도입하여 개발자들이 데이터를 SSR 중에 가져올지, 클라이언트 측에서 연기할지 또는 특정 조건 하에 다시 가져올지 지정할 수 있도록 합니다. 이를 통해 성능 및 사용자 경험을 최적화하는 데 더 많은 유연성을 제공할 수 있습니다.
 
@@ -128,7 +178,18 @@ const { pending, data: posts } = useFetch("/api/posts", {
 
 Nuxt.js는 서버에서 클라이언트로 전달된 데이터를 직렬화하기 위해 devalue를 활용하여 날짜, 맵, 세트 및 반응형 객체와 같은 복잡한 데이터 구조를 지원합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 5. 사용자 정의 캐싱 및 다시 유효화 전략
 
@@ -145,7 +206,18 @@ const { data, error, refresh } = await useFetch("/api/users", {
 
 # 6. 선택적 데이터 가져오기 및 변환
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Nuxt.js의 데이터 가져오기 컴포저블에서는 선택 및 변환 옵션을 제공하여 개발자가 클라이언트에 도달하기 전에 페이로드 크기를 최소화하고 데이터 구조를 맞춤화할 수 있습니다.
 
@@ -160,7 +232,18 @@ const { data: mountain } = await useFetch("/api/mountains/everest", {
 
 - Transform 방법: Transform 방법은 데이터 구조를 컴포넌트에 전달되기 전에 조작하는 방법을 제공합니다. 이를 사용하여 서버에서 클라이언트로의 데이터 형식을 적합한 형식으로 변환하거나 여러 소스에서 데이터를 집계하거나 프론트엔드에서 필요한 기타 데이터 변환 작업을 수행할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 산 목록을 가져와 각 산의 'title'과 'description'만 포함하도록 데이터를 변환합니다.
@@ -181,7 +264,18 @@ Next.js는 React 기반 애플리케이션을 개발하기 위한 강력한 프�
 
 ## ❤️ 만약 내 작업을 좋아한다면, 팔로우하고 구독해주세요 ❤️
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 팔로우해주세요
 - 구독하기

@@ -3,17 +3,13 @@ title: "Nextjs 14 서버 액션으로 장바구니 기능 만들기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Build a Shopping Cart with Nextjs 14 Server Actions"
 link: "https://medium.com/javascript-in-plain-english/build-a-shopping-cart-with-next-js-14-and-server-actions-a9368e023b96"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/BuildaShoppingCartwithNextjs14ServerActions_0.png)
 
@@ -23,7 +19,18 @@ Vercel KV와 Next-Auth를 이용해 서버 액션을 사용하여 사용자와 �
 
 이 기능을 복잡한 프로젝트에 구현한 전자 상거래 사이트를 확인하고 그 빠른 처리 속도를 확인해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 일자리를 찾고 있어요! 제 포트폴리오를 확인하고 연락주세요.
 
@@ -33,7 +40,18 @@ Vercel KV와 Next-Auth를 이용해 서버 액션을 사용하여 사용자와 �
 
 Next.js 프로젝트를 설정하는 방법을 시작해봅시다. 다음 단계를 따라 폴더 구조를 만들어주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 터미널을 열고 다음 명령어를 실행하세요:
 
@@ -50,7 +68,18 @@ npx create-next-app@latest
 - App Router를 사용하시겠습니까? (예, 권장)
 - 기본 import 별칭(@/\*)을 사용자 정의하시겠습니까? (예)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 계속하기 전에 애플리케이션을 위한 몇 가지 종속성을 설치해보겠습니다:
 
@@ -62,7 +91,18 @@ npm install @vercel/kv next-auth
 
 이 섹션에서는 Next-Auth를 사용하여 사용자와 사용자의 쇼핑 카트를 연결할 것입니다. 이미 이 라이브러리를 사용하는 방법에 대해 더 깊이 알아볼 수 있는 기사가 있습니다. 그러나 이제는 구글 로그인만 허용할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1.1 환경 변수 설정
 
@@ -76,7 +116,18 @@ NEXTAUTH_SECRET = "NEXTAUTH_시크릿";
 
 Google 인증 키를 어떻게 얻을지 모르겠다면 여기를 클릭하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Next-Auth 시크릿 키를 얻으려면 터미널에서 다음을 실행하면 무작위 키가 생성됩니다.
 
@@ -88,7 +139,18 @@ npx auth secret
 
 다음으로 필요한 폴더와 파일을 생성하여 인증 로직을 설정하겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1.2.1 NextAuth 설정 구성하기
 
@@ -125,7 +187,18 @@ export { handler as GET, handler as POST };
 
 ## 1.2.2 로그인 페이지 생성하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앱/login 폴더 안에 page.tsx라는 파일을 만들어주세요:
 
@@ -214,7 +287,18 @@ const Signin = () => {
 export default Signin;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 섹션에서는 NextAuth를 사용하여 Google 로그인을 통한 사용자 인증 인프라를 설정했습니다.
 
@@ -224,7 +308,18 @@ export default Signin;
 
 ## 2.1 환경 변수 설정
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `.env.local` 파일을 만들고 다음 변수를 추가해주세요:
 
@@ -239,7 +334,18 @@ KV_REST_API_READ_ONLY_TOKEN = "YOUR_READ_ONLY_TOKEN";
 
 ## 2.2.1 장바구니 페이지 설정
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로직 사용자 인증이 완료되면 장바구니 로직을 시작해 보겠습니다. add-to-cart라는 경로를 생성하고 이 미완료 코드를 넣을 page.tsx 파일을 만들 것입니다.
 
@@ -292,7 +398,18 @@ export default async function AddToCart() {
 
 add-to-cart 폴더 내에 action.ts라는 파일을 생성할 것입니다. 여기에는 모든 쇼핑 카트 로직이 위치합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 'start server'
@@ -423,7 +540,18 @@ export async function delOneItem(userId: string, productId: number) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```javascript
 "use client" // 클라이언트 컴포넌트
@@ -533,19 +661,11 @@ export default async function AddToCart() {
     <main className="flex flex-col items-center min-h-screen p-24">
       {/* 제품 표시를 위한 섹션 */}
       <div className="w-full">
-        <h1 className="mb-6 text-xl font-semibold text-left text-slate-900">
-          제품:{" "}
-        </h1>
+        <h1 className="mb-6 text-xl font-semibold text-left text-slate-900">제품: </h1>
         <div className="flex gap-6">
           {/* 제품 배열을 매핑하고 각 제품에 대해 ProductCard 컴포넌트 렌더링 */}
           {products.map((product) => (
-            <ProductCard
-              key={product.id}
-              id={product.id}
-              userId={userId}
-              name={product.name}
-              price={product.price}
-            />
+            <ProductCard key={product.id} id={product.id} userId={userId} name={product.name} price={product.price} />
           ))}
         </div>
       </div>
@@ -585,7 +705,18 @@ export default async function AddToCart() {
 
 ## 마무리 및 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 Next.js 14에서 Vercel KV와 Next-Auth를 사용하여 사용자와 연결된 쇼핑 카트를 만드는 방법입니다. 꽤 쉽죠?
 
@@ -595,7 +726,18 @@ export default async function AddToCart() {
 
 In Plain English 커뮤니티에 참여해 주셔서 감사합니다! 계속 진행하기 전에:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 작가를 칭찬하고 팔로우하는 것을 잊지 마세요! 👏️
 - 팔로우하기: X | LinkedIn | YouTube | Discord | 뉴스레터

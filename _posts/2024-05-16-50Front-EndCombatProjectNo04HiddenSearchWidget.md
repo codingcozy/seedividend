@@ -3,16 +3,13 @@ title: "프론트엔드 전투 프로젝트 No04 숨겨진 검색 위젯"
 description: ""
 coverImage: "/assets/img/2024-05-16-50Front-EndCombatProjectNo04HiddenSearchWidget_0.png"
 date: 2024-05-16 16:39
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-16-50Front-EndCombatProjectNo04HiddenSearchWidget_0.png
 tag: Tech
 originalTitle: "50 Front-End Combat Project No.04: Hidden Search Widget"
 link: "https://medium.com/@cendz/50-front-end-combat-project-no-04-hidden-search-widget-aab92bb9285f"
 isUpdated: true
 ---
-
-
-
 
 ![image1](/assets/img/2024-05-16-50Front-EndCombatProjectNo04HiddenSearchWidget_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 ![image2](/assets/img/2024-05-16-50Front-EndCombatProjectNo04HiddenSearchWidget_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 구현
 
@@ -36,7 +44,18 @@ isUpdated: true
 - .input 입력 상자는 검색어를 입력하는 데 사용됩니다.
 - .btn 버튼은 검색 창을 확장하거나 축소하는 데 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <!DOCTYPE html>
@@ -126,20 +145,31 @@ body {
 
 - 검색 바, 버튼 및 입력 상자의 DOM 요소 참조 가져오기.
 - 버튼 클릭 이벤트 핸들러:
-— `.search` 요소의 `active` 클래스를 토글하여 검색 바의 확장/축소를 제어합니다.
-— 검색 바가 확장되면 자동으로 입력 상자로 포커스가 이동됩니다.
+  — `.search` 요소의 `active` 클래스를 토글하여 검색 바의 확장/축소를 제어합니다.
+  — 검색 바가 확장되면 자동으로 입력 상자로 포커스가 이동됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-const search = document.querySelector('.search')
-const btn = document.querySelector('.btn')
-const input = document.querySelector('.input')
+const search = document.querySelector(".search");
+const btn = document.querySelector(".btn");
+const input = document.querySelector(".input");
 
-btn.addEventListener('click', () => {
-    search.classList.toggle('active')
-    input.focus()
-})
+btn.addEventListener("click", () => {
+  search.classList.toggle("active");
+  input.focus();
+});
 ```
 
 # 에필로그
@@ -148,8 +178,18 @@ btn.addEventListener('click', () => {
 
 GIF의 과정 전체가 표시됩니다:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-05-16-50Front-EndCombatProjectNo04HiddenSearchWidget_2.png" />
 

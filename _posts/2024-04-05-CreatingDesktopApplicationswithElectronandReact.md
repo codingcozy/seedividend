@@ -3,17 +3,13 @@ title: "Electron, React로 데스크톱 애플리케이션 만들기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Creating Desktop Applications with Electron and React"
 link: "https://medium.com/@azer.maslow/creating-desktop-applications-with-electron-and-react-b7f81f78c9d5"
 isUpdated: true
 ---
-
-
-
-
 
 ![CreatingDesktopApplicationswithElectronandReact_0](/assets/img/CreatingDesktopApplicationswithElectronandReact_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 준비물
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시작하기 전에 시스템에 다음 소프트웨어가 설치되어 있는지 확인해주세요:
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 create-react-app을 사용하여 새로운 리액트 애플리케이션을 설정하는 것으로 시작해봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 터미널이나 명령 프롬프트를 열고 새로운 React 애플리케이션을 생성하려면 다음 명령을 실행하세요:
 
@@ -47,7 +65,18 @@ npx create-react-app electron-react-app
 cd electron-react-app
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. 모든 것이 올바르게 설정되었는지 확인하려면 개발 서버를 실행하세요:
 
@@ -59,7 +88,18 @@ npm start
 
 # 단계 2: 일렉트론 설치하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로, Electron을 설치하고 React 애플리케이션이 Electron과 함께 작동하도록 구성할 것입니다.
 
@@ -74,7 +114,18 @@ npm install electron electron-builder --save-dev
 
 이 명령은 우리의 Electron 앱이 개발 중인지 아니면 프로덕션 환경에 있는지 확인하는 데 사용되는 유용한 npm 패키지인 electron-is-dev도 함께 설치했습니다. electron을 개발 의존성으로 설치하기 위해 -D 플래그를 사용했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 3: Electron 구성
 
@@ -100,9 +151,7 @@ function createWindow() {
     },
   });
 
-  const startURL = isDev
-    ? "http://localhost:3000"
-    : `file://${path.join(__dirname, "../build/index.html")}`;
+  const startURL = isDev ? "http://localhost:3000" : `file://${path.join(__dirname, "../build/index.html")}`;
 
   mainWindow.loadURL(startURL);
 
@@ -124,7 +173,18 @@ app.on("activate", () => {
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 코드는 주된 Electron 애플리케이션 창을 설정하고, 개발 모드인 경우 개발 서버에서 React 애플리케이션을 로드하거나, 제품 모드인 경우 빌드 디렉토리에서 로드합니다.
 
@@ -134,7 +194,18 @@ Electron이 메인 엔트리 파일 및 빌드 디렉토리를 인지하도록 �
 
 - package.json 파일을 열고 다음 줄을 JSON 객체 내부에 추가하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // package.json
@@ -162,7 +233,18 @@ Electron이 메인 엔트리 파일 및 빌드 디렉토리를 인지하도록 �
 
 이제 일렉트론 애플리케이션을 테스트해 봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - React 애플리케이션의 개발 서버를 시작하려면 다음을 실행하세요:
 
@@ -176,7 +258,18 @@ npm start
 npm run electron
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 독립적인 Electron 창 내에서 React 애플리케이션이 실행되는 것을 확인할 수 있어요.
 
@@ -187,7 +280,18 @@ Electron 애플리케이션을 패키지화하여 사용자에게 배포하려�
 - 패키지 빌드를 진행하기 전에 실행 중인 Electron 애플리케이션과 React 개발 서버를 중지해 주세요.
 - 현재 플랫폼용 패키지를 빌드하려면, 다음 명령어를 실행하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm run build
@@ -201,7 +305,18 @@ npm run build
 npm run dist
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 명령은 dist 디렉토리에 Windows, macOS 및 Linux용 패키지를 생성합니다.
 
@@ -211,6 +326,17 @@ npm run dist
 
 Electron과 React는 크로스플랫폼 데스크톱 애플리케이션을 구축하기 위한 강력한 조합을 제공합니다. 이 튜토리얼을 따라와 React 애플리케이션을 설정하고 Electron과 통합하며 배포를 위해 패키징하는 방법을 배웠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 튜토리얼은 기본 사항만 다루었으며, Electron과 React를 활용하여 정교한 데스크톱 애플리케이션을 개발할 수 있는 방법이 더 많이 있습니다. 프로젝트에 대한 더 고급 기능과 가능성을 발견하려면 Electron과 React 문서를 탐색해보세요. 즐거운 코딩 하세요!

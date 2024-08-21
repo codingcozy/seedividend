@@ -3,17 +3,13 @@ title: "이렇게 Python 함수 작성 안 하면 PR 거부"
 description: ""
 coverImage: "/assets/img/2024-06-23-WritePythonFunctionsLikeThisOrIllRejectYourPullRequest_0.png"
 date: 2024-06-23 13:30
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-WritePythonFunctionsLikeThisOrIllRejectYourPullRequest_0.png
 tag: Tech
 originalTitle: "Write Python Functions Like This Or I’ll Reject Your Pull Request"
 link: "https://medium.com/@zlliu/write-python-functions-like-this-or-ill-reject-your-pull-request-d8aa501ab1c4"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-23-WritePythonFunctionsLikeThisOrIllRejectYourPullRequest_0.png" />
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 다음은 간단한 매개변수를 사용하는 함수입니다:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 숫자 목록 num_list가 있습니다.
 - 숫자 num이 있습니다.
@@ -47,17 +53,39 @@ print(x) # 13, 14, 15
 - 이 함수가 어떤 데이터 유형을 사용하는지
 - 이 함수가 어떤 데이터 유형을 반환하는지
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 음, 코드를 읽으면 num_list가 숫자의 목록이고 num은 숫자이며, 함수가 숫자의 목록을 반환한다는 것을 유추할 수 있다는 걸 알 수 있어. 그러나 이건 즉시 알 수 있는 게 아니잖아.
 
 그리고 대규모 제품용 앱에서는 수천 개의 함수가 처리되어야 한다. 정말 그 추가 시간을 들여서 데이터 유형을 이해하고 추론해야 할까?
 
-# 타입 주석 (타입 힌트)이 구해줍니다 
+# 타입 주석 (타입 힌트)이 구해줍니다
 
 참고 - 우리는 이것을 타입 힌트 또는 타입 주석이라고 부를 수 있어
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 위의 함수에 몇 가지 타입 힌트를 추가해 봅시다.
 
@@ -69,7 +97,7 @@ def add_all(
     num: Union[int, float]
 ) -> List[Union[int, float]]:
     """
-    num_list의 모든 숫자에 num을 추가합니다  
+    num_list의 모든 숫자에 num을 추가합니다
 
     inputs:
         num_list: 숫자 리스트
@@ -90,7 +118,18 @@ print(x) # 13, 14, 15
 
 num_list: List[Union[int, float]]은 num_list가 숫자 (정수 또는 소수)의 리스트여야 함을 의미합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비슷하게, `num: Union[int, float]`은 num이 정수 또는 부동 소수점 숫자여야 함을 의미합니다.
 
@@ -100,7 +139,18 @@ num_list: List[Union[int, float]]은 num_list가 숫자 (정수 또는 소수)�
 
 # 네, 이렇게 함수를 작성해야 합니다. 그렇지 않으면 PR이 거부될 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 왜 기술 리드가 우리에게 함수를 이렇게 작성하라고 요청하는지 알려드릴게요:
 
@@ -114,16 +164,27 @@ num_list: List[Union[int, float]]은 num_list가 숫자 (정수 또는 소수)�
 
 기본 사항:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-a: int = 5
+a: int = 5;
 
-b: float = 3.14
+b: float = 3.14;
 
-c: bool = True
+c: bool = True;
 
-d: str = 'apple orange pear'
+d: str = "apple orange pear";
 ```
 
 리스트, 사전, 튜플, 셋:
@@ -132,10 +193,10 @@ d: str = 'apple orange pear'
 from typing import List, Dict, Tuple, Set
 
 # 정수 리스트
-a: List[int] = [1, 2, 3]  
+a: List[int] = [1, 2, 3]
 
 # 문자열 리스트
-b: List[str] = ['apple', 'orange'] 
+b: List[str] = ['apple', 'orange']
 
 # 키가 문자열이고 값이 정수인 사전
 c: Dict[str, int] = {'apple':4, 'orange':5}
@@ -146,7 +207,18 @@ d: Dict[int, bool] = {1: True, 2: False, 3: True}
 
 변수가 정수 또는 부동 소수점 숫자일 수 있는 경우 Unions을 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 from typing import Union, Dict
@@ -180,7 +252,18 @@ def test(d: Dict[str, int | float | bool]):
 
 ^ `Union[int, float]` 대신에 `int | float`을 사용하는 대체 방법입니다. 저는 이 방법을 더 우아하게 보이고(그리고 덜 타이핑해야 하기 때문에) 주로 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 옵셔널 변수에 대한 예제입니다:
 
@@ -205,7 +288,18 @@ def test() -> Optional[int]:
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 네, 정말이죠. 만약 우리 중 누군가가 타입 주석이나 독스트링을 추가하지 않고 코드를 작성한다면, 우리는 리더들로부터 그것을 추가하라는 의견을 받게 될 거에요.
 
@@ -219,7 +313,18 @@ def test() -> Optional[int]:
 - 여러분의 생각을 나에게 말씀해 주세요
 - 이야기에서 가장 좋아하는 부분을 강조해 주세요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 감사합니다! 이런 작은 조치들이 큰 도움이 되고, 정말 감사드립니다!
 

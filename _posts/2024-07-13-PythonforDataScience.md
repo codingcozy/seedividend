@@ -3,16 +3,13 @@ title: "데이터 과학을 위한 Python 완벽 가이드"
 description: ""
 coverImage: "/assets/img/2024-07-13-PythonforDataScience_0.png"
 date: 2024-07-13 19:36
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-PythonforDataScience_0.png
 tag: Tech
 originalTitle: "Python for Data Science"
 link: "https://medium.com/dev-genius/python-for-data-science-de1c55b4761c"
 isUpdated: true
 ---
-
-
-
 
 <table>
     <tr>
@@ -28,7 +25,18 @@ isUpdated: true
 - 다양한 라이브러리: 데이터 과학을 위해 특별히 설계된 다양한 라이브러리가 존재합니다.
 - 커뮤니티 지원: 큰 활성화된 커뮤니티가 많은 자료, 튜토리얼, 문제 해결 및 새로운 기술 습득을 지원해줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 데이터 과학을 위한 주요 라이브러리
 
@@ -41,7 +49,18 @@ arr = np.array([1, 2, 3, 4])
 
 - Pandas: 데이터 조작과 분석에 꼭 필요한 DataFrames와 같은 데이터 구조를 제공하여 탭 형식의 데이터를 처리합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 import pandas as pd
@@ -58,7 +77,18 @@ plt.show()
 
 4. Seaborn: Matplotlib을 기반으로 한 Seaborn은 매력적인 통계 그래픽을 그리기 위한 고수준 인터페이스를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import seaborn as sns
@@ -73,7 +103,18 @@ from scipy import stats
 
 6. Scikit-Learn: 데이터 마이닝 및 데이터 분석에 유용한 간단하고 효율적인 도구를 제공하는 머신러닝 라이브러리입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 from sklearn.ensemble import RandomForestClassifier
@@ -89,8 +130,18 @@ from sklearn.ensemble import RandomForestClassifier
 - 모델 구축: Scikit-Learn을 사용하여 머신러닝 알고리즘 적용
 - 평가: Scikit-Learn에서 제공하는 메트릭을 사용하여 모델 성능 평가
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

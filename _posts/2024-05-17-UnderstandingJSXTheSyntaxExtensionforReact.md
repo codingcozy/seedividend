@@ -3,16 +3,13 @@ title: "React jsx를 이해하는 방법"
 description: ""
 coverImage: "/assets/img/2024-05-17-UnderstandingJSXTheSyntaxExtensionforReact_0.png"
 date: 2024-05-17 21:05
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-17-UnderstandingJSXTheSyntaxExtensionforReact_0.png
 tag: Tech
 originalTitle: "Understanding JSX: The Syntax Extension for React"
 link: "https://medium.com/@iammayank20/understanding-jsx-the-syntax-extension-for-react-1ac0064b4432"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-05-17-UnderstandingJSXTheSyntaxExtensionforReact_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 ## JSX란 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 JSX는 JavaScript XML의 약자입니다. JavaScript의 구문 확장으로, JavaScript 코드 내에서 직접적으로 HTML 태그를 작성할 수 있게 해줍니다. HTML과 비슷해 보이지만, JavaScript의 모든 기능을 갖고 있습니다. JSX를 작성하면 일반적인 JavaScript 함수 호출로 변환되어 React 요소를 생성합니다.
 
@@ -34,19 +42,41 @@ JSX를 사용하면 JavaScript 로직을 HTML 구조와 원활하게 통합할 �
 const element = <h1>Hello, world!</h1>;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 JSX 코드가 다음으로 변환됩니다:
 
 ```js
-const element = React.createElement('h1', null, 'Hello, world!');
+const element = React.createElement("h1", null, "Hello, world!");
 ```
 
 ## JSX 사용의 장점
 
 1. 가독성과 유지보수성: JSX를 사용하면 마크업과 로직을 한 곳에 모아 코드를 더 읽기 쉽게 만들 수 있습니다. 이는 UI 구조와 관련 로직을 함께 볼 수 있어 이해와 유지보수가 쉬워집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 개발자 경험: JSX는 UI 구성 요소를 작성하는 더 직관적인 방법을 제공합니다. JSX 내에서 JavaScript의 모든 기능을 활용할 수 있으며, 반복문, 조건문 및 변수 선언을 포함할 수 있습니다.
 
@@ -56,20 +86,42 @@ const element = React.createElement('h1', null, 'Hello, world!');
 
 ## JSX 동작 예시
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1. JSX에서 표현식 삽입하기
 
 JSX 내에서는 중괄호 `''`로 둘러싸면 어떤 JavaScript 표현식이든 포함할 수 있습니다. 변수, 함수 호출 등을 포함합니다.
 
 ```js
-const name = 'John';
+const name = "John";
 const element = <h1>Hello, {name}!</h1>;
 ```
 
 이 예시에서는 `name` 변수의 값이 JSX에 동적으로 삽입됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 2. JavaScript 함수와 함께 JSX 사용하기
 
@@ -90,7 +142,18 @@ const element = <h1>Hello, {formatName(user)}!</h1>;
 
 여기서 `formatName` 함수는 JSX 내에서 호출되어 개인화된 인사말을 생성합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 3. JSX를 사용한 조건부 렌더링
 
@@ -98,16 +161,23 @@ JSX 내에서 JavaScript의 조건부 연산자를 사용하여 요소를 조건
 
 ```js
 const isLoggedIn = true;
-const element = (
-  <div>
-    {isLoggedIn ? <h1>어서 오세요!</h1> : <h1>로그인해주세요.</h1>}
-  </div>
-);
+const element = <div>{isLoggedIn ? <h1>어서 오세요!</h1> : <h1>로그인해주세요.</h1>}</div>;
 ```
 
 이 예제는 `isLoggedIn` 상태에 따라 다른 요소를 렌더링하는 삼항 연산자를 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 4. JSX에서 반복문
 
@@ -115,19 +185,24 @@ const element = (
 
 ```js
 const numbers = [1, 2, 3, 4, 5];
-const listItems = numbers.map((number) =>
- <li key={number}>{number}</li>
-);
-const element = (
- <ul>
- {listItems}
- </ul>
-);
+const listItems = numbers.map((number) => <li key={number}>{number}</li>);
+const element = <ul>{listItems}</ul>;
 ```
 
 이 경우 `map()` 함수는 숫자 배열에서 `li` 요소 목록을 생성하는 데 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 5. JSX를 사용하여 컴포넌트 생성하기
 
@@ -135,14 +210,25 @@ JSX는 일반적으로 React 컴포넌트 내에서 사용됩니다. 다음은 �
 
 ```js
 function Welcome(props) {
- return <h1>Hello, {props.name}</h1>;
+  return <h1>Hello, {props.name}</h1>;
 }
 const element = <Welcome name="Sara" />;
 ```
 
 이 예제는 `name` prop을 받아 인사 메시지를 렌더링하는 `Welcome` 컴포넌트를 정의합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 결론
 

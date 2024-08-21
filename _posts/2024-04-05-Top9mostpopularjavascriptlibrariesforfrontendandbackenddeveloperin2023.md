@@ -3,17 +3,13 @@ title: "프론트엔드와 백엔드 개발자를 위한 9개의 자바스크립
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Top 9 most popular javascript libraries for front end and back end developer in 2023"
 link: "https://medium.com/@akchauhan556/top-9-most-popular-javascript-libraries-for-front-end-and-back-end-developer-in-2023-4d2718abe29e"
 isUpdated: true
 ---
-
-
-
-
 
 홈 JavaScript 2023년 프런트엔드 및 백엔드 개발자를 위한 가장 인기 있는 JavaScript 라이브러리 상위 9개
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 최근 몇 년간 JavaScript 라이브러리는 프런트엔드 및 백엔드 개발자들 사이에서 점점 더 인기를 얻고 있습니다. 이 인기에는 여러 이유가 있지만, 그 중에서도 가장 중요한 이유 중 하나는 JavaScript 라이브러리를 사용하면 개발이 더 효율적이고 빠르게 처리된다는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Javascript 라이브러리는 지속적으로 업데이트되므로 개발자들은 최신 버전을 따라가야 합니다. 라이브러리를 사용하면 코드가 최신 브라우저 표준과 호환되는지 확인할 수 있습니다.
 
@@ -36,7 +43,18 @@ Javascript 라이브러리는 지속적으로 업데이트되므로 개발자들
 - 2023년을 위한 최고 인기 자바스크립트 라이브러리 목록
 - 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 자바스크립트 라이브러리란 무엇인가요
 
@@ -46,7 +64,18 @@ Javascript 라이브러리는 지속적으로 업데이트되므로 개발자들
 
 # 자바스크립트 라이브러리가 중요한 이유
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자바스크립트 라이브러리는 코드가 조직되지 않을 경우에 구조를 제공하기 때문에 중요합니다. 또한 작업을 완료하는 데 사용할 수 있는 미리 작성된 코드를 제공하여 시간과 에너지를 절약할 수 있습니다.
 
@@ -56,7 +85,18 @@ Javascript 라이브러리는 지속적으로 업데이트되므로 개발자들
 
 # 2023년에 가장 인기 있는 자바스크립트 라이브러리 목록
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 1. React.js
 
@@ -66,7 +106,18 @@ React.js는 사용자 인터페이스와 웹 애플리케이션을 만드는 데
 
 React는 사용자 인터페이스를 구축하기 위한 자바스크립트 라이브러리입니다. 오늘날 개발자들이 많이 사용하는 가장 인기 있는 자바스크립트 라이브러리 중 하나입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React는 성능이 우수하고 재사용 가능한 컴포넌트를 생성할 수 있는 기능, 선언적 문법 및 서버 측 렌더링을 지원하는 등 많은 기능을 가지고 있어 개발자들에게 매력적으로 다가갑니다.
 
@@ -76,7 +127,18 @@ React는 성능이 우수하고 재사용 가능한 컴포넌트를 생성할 �
 
 # 2. jQuery
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/Top9mostpopularjavascriptlibrariesforfrontendandbackenddeveloperin2023_2.png" />
 
@@ -96,7 +158,18 @@ React는 성능이 우수하고 재사용 가능한 컴포넌트를 생성할 �
 
 # 3. moment.js
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/Top9mostpopularjavascriptlibrariesforfrontendandbackenddeveloperin2023_3.png" />
 
@@ -117,7 +190,18 @@ React는 성능이 우수하고 재사용 가능한 컴포넌트를 생성할 �
 
 # 4. Popper.js
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/Top9mostpopularjavascriptlibrariesforfrontendandbackenddeveloperin2023_4.png)
 
@@ -135,7 +219,18 @@ React는 성능이 우수하고 재사용 가능한 컴포넌트를 생성할 �
 
 # 5. D3.js
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Data-Driven Documents (D3.js)은 브라우저에서 인터랙티브한 데이터 시각화를 만들 수 있는 자바스크립트 라이브러리입니다. 많은 코드를 작성하지 않아도 복잡한 시각화를 만들 수 있는 소수의 라이브러리 중 하나이기 때문에 중요합니다.
 
@@ -145,7 +240,18 @@ Data-Driven Documents (D3.js)은 브라우저에서 인터랙티브한 데이터
 
 D3.js는 차트, 그래프 및 데이터의 다른 시각적 표현물을 만드는 데 사용됩니다. 이 라이브러리는 또한 지도 및 기타 인터랙티브 애플리케이션을 만드는 데 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 D3는 HTML, SVG 및 CSS를 사용하여 데이터를 활발하게 만드는 데 도움이 됩니다. D3의 웹 표준에 대한 강조는 전용 프레임워크에 구속되지 않고 현대 브라우저의 모든 기능을 제공합니다.
 
@@ -163,7 +269,18 @@ D3를 사용하면 임의의 데이터를 문서 객체 모델(DOM)에 바인딩
 - HTML, CSS 및 SVG와 같은 웹 표준과 함께 작동하므로 디버깅 도구가 필요 없음
 - 대규모 데이터 세트와 잘 작동함
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 6. anime.js
 
@@ -173,7 +290,18 @@ D3를 사용하면 임의의 데이터를 문서 객체 모델(DOM)에 바인딩
 
 jQuery 기반으로 만들어진 이 인기 있는 라이브러리는 이벤트 처리 및 AJAX 지원과 같은 jQuery의 모든 기능을 활용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 혜택 및 기능
 
@@ -189,7 +317,18 @@ jQuery 기반으로 만들어진 이 인기 있는 라이브러리는 이벤트 
 
 Chart.js는 강력하고 유연한 오픈 소스 차트 라이브러리입니다. JavaScript를 사용하여 선, 막대, 파이 등과 같은 다양한 종류의 차트를 쉽게 생성할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 라이브러리는 경량화되어 있어서 모바일 개발에 이상적입니다. Chart.js는 jQuery와 호환되기도 해서 이미 라이브러리를 알고 있는 개발자들 사이에서 많이 선택되고 있어요.
 
@@ -199,7 +338,18 @@ jQuery가 필요하지 않아서 코드를 가볍게 유지하려는 경우 플�
 
 라이브러리는 경량화되어 있어서 모바일 개발에 이상적입니다. Chart.js는 이미 라이브러리를 알고 있는 개발자들 사이에서 많이 선택되고 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또한 chart.js에는 차트 및 시각화를 만드는 데 도움이 되는 다양한 기능이 있습니다.
 
@@ -220,7 +370,18 @@ jQuery가 필요하지 않아서 코드를 가볍게 유지하려는 경우 플�
 
 # 8. lodash
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/Top9mostpopularjavascriptlibrariesforfrontendandbackenddeveloperin2023_6.png)
 
@@ -230,7 +391,18 @@ jQuery가 필요하지 않아서 코드를 가볍게 유지하려는 경우 플�
 
 로다쉬를 사용하면 배열 및 객체 생성, 조작, 탐색과 같은 작업을 수행할 수 있으며, 데이터 조작을 위한 연결 가능한 API를 제공한다는 점에서 제이쿼리와 유사합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 lodash는 더 기능적이며 jQuery보다 더 많은 기능을 제공합니다.
 
@@ -247,7 +419,18 @@ lodash는 더 기능적이며 jQuery보다 더 많은 기능을 제공합니다.
 
 # 9. Bideo.js
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](https://miro.medium.com/v2/resize:fit:800/0*X8-pGvTn-er3UUWo.gif)
 
@@ -257,7 +440,18 @@ jQuery 플러그인은 MP4, WebM, Ogg 등 다양한 비디오 형식을 지원�
 
 이 라이브러리는 Brightcove, Netflix, Microsoft와 같은 기업에서 사용되고 있습니다. Video.js는 오픈 소스이며 무료로 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비디오.js는 비디오에 사용자 정의 컨트롤을 만들거나 재생 속도 제어 및 전체 화면 모드와 같은 기능을 추가하는 데 사용할 수 있어요.
 
@@ -272,7 +466,18 @@ jQuery 플러그인은 MP4, WebM, Ogg 등 다양한 비디오 형식을 지원�
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결론적으로, 2023년에 프론트엔드 및 백엔드 개발자를 위한 가장 인기있는 상위 9개의 자바스크립트 라이브러리 및 기술은 다음과 같습니다: Reactjs, jQuery, moment.js, popper.js, D3.js, anime.js, chart.js, lodash 및 Bideo.js.
 
@@ -282,7 +487,18 @@ jQuery 플러그인은 MP4, WebM, Ogg 등 다양한 비디오 형식을 지원�
 
 2023년에 알아야 할 프론트엔드 개발자의 10가지 필수 기술입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2023년에 학습 및 비즈니스에 앵귤러를 고려할 수 있을까요?
 

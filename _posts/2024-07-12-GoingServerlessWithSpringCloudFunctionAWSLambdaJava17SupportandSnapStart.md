@@ -3,17 +3,13 @@ title: "Spring Cloud Function으로 서버리스 구현하기 AWS Lambda Java 17
 description: ""
 coverImage: "/assets/img/2024-07-12-GoingServerlessWithSpringCloudFunctionAWSLambdaJava17SupportandSnapStart_0.png"
 date: 2024-07-12 21:21
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-12-GoingServerlessWithSpringCloudFunctionAWSLambdaJava17SupportandSnapStart_0.png
 tag: Tech
 originalTitle: "Going Serverless With Spring Cloud Function, AWS Lambda Java 17 Support, and SnapStart"
 link: "https://medium.com/better-programming/going-serverless-with-spring-cloud-function-aws-lambda-java-17-support-and-snapstart-d3d8ffd44bbd"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-07-12-GoingServerlessWithSpringCloudFunctionAWSLambdaJava17SupportandSnapStart_0.png)
 
@@ -23,9 +19,18 @@ AWS Lambda는 2023년 4월 27일에 Java 17 지원을 추가했어요. 많은 �
 
 저희 Java 람다 함수에서는 이전에 썼던 글 'Integrating ChatGPT and Whisper APIs Into Spring Boot Microservice'를 확장해서, 채팅 기능이 있는 Lambda 함수로 만들 건데요. 이 함수는 OpenAI API의 /chat/completions 엔드포인트를 호출할 거예요.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-07-12-GoingServerlessWithSpringCloudFunctionAWSLambdaJava17SupportandSnapStart_1.png)
 
@@ -35,8 +40,18 @@ AWS Lambda는 2023년 4월 27일에 Java 17 지원을 추가했어요. 많은 �
 
 스프링 클라우드 함수는 모든 전송 세부 정보 및 인프라를 추상화하여 개발자가 익숙한 도구 및 프로세스를 유지하고 비즈니스 로직에 몰입할 수 있도록 합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리의 OpenAI API 채팅 기능 구현 세부 내용을 살펴보겠습니다.
 
@@ -68,7 +83,18 @@ AWS Lambda는 2023년 4월 27일에 Java 17 지원을 추가했어요. 많은 �
 </dependency>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 함수 클래스
 
@@ -79,7 +105,18 @@ Spring Cloud Function으로 구축된 앱에서 함수를 구현하는 주요 �
 
 저희는 첫 번째 방법을 사용하겠습니다. OpenAIClientFunctions 함수 클래스에서 함수 구현을 위해 @Bean으로 주석이 달린 일반 메서드를 사용할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 함수 클래스는 Spring Cloud OpenFeign을 호출하여 OpenAI의 API를 사용합니다. 샘플 빈 구성은 다음과 같습니다:
 
@@ -105,7 +142,18 @@ OpenAIClientService가 Spring Cloud OpenFeign을 통해 OpenAI API를 호출하�
 
 # Lambda Java 17 런타임
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AWS Lambda은 이제 Java 17을 관리 런타임 및 컨테이너 기본 이미지로 지원합니다. AWS Corretto OpenJDK 배포판을 기반으로 한 Java 17 런타임은 Java 17 기능을 갖추고 있을 뿐만 아니라 Lambda 함수를 Graviton 2 프로세서에서 실행할 때 최적화된 성능 향상을 제공하며, 빠른 콜드 스타트를 위한 SnapStart 지원, 그리고 최신 버전의 Spring Boot 3 프레임워크를 지원합니다.
 
@@ -115,7 +163,18 @@ AWS Lambda은 이제 Java 17을 관리 런타임 및 컨테이너 기본 이미�
 
 SnapStart은 게시된 함수 버전들과 함께 작동합니다. 내부적으로 함수의 수명주기에는 배포 및 호출 두 가지 주요 단계가 있습니다. 함수 버전이 게시되면 배포 단계가 트리거되고, 아래 다이어그램에 표시된 여러 단계를 거칩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 함수 코드를 초기화하는 동안 Lambda 서비스는 초기화된 실행 환경의 암호화된 스냅샷을 촬영하고 이를 단계별 캐시에 유지하여 저지연 액세스를 제공합니다. 호출 단계에서 Lambda는 스냅샷에서 실행 환경을 재개하여 처음부터 초기화하는 대신 낮은 시작 지연시간으로 이어집니다.
 
@@ -125,7 +184,18 @@ SnapStart가 작동하는 방식에 대해 자세히 알아보려면 AWS의 시�
 
 # AWS Lambda Power Tuning
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Lambda 함수 개발은 Alex Casalboni가 개발한 AWS Lambda Power Tuning으로 조정하지 않으면 완료되지 않습니다. 최근에 작성한 "AWS Lambda Power Tuning을 활용한 성능 최적화 자동화"라는 제 블로그 글에서 새 Lambda 함수를 튜닝하는 방법을 자세히 설명했으니 확인해보세요.
 
@@ -135,7 +205,18 @@ Lambda 함수 개발은 Alex Casalboni가 개발한 AWS Lambda Power Tuning으�
 
 기본 512 MB 메모리가 가장 낮은 호출 시간과 합리적인 호출 비용을 제공하기 때문에, 이 기능에서는 이 기본 메모리를 유지할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # HTTP API 게이트웨이
 
@@ -145,7 +226,18 @@ REST API 게이트웨이와 HTTP API 게이트웨이는 둘 다 RESTful API 제�
 
 두 종류의 API 게이트웨이는 모두 AWS를 통한 요청 횟수와 데이터 전송 비용에 대한 요금만 부과받아요. 하지만, 가격 차이가 크게 나타나는데요. REST API는 백만 요청 당 3.50달러에 데이터 전송 요금을 부과해요. HTTP API는 첫 백만 요청에 대해 1.00달러를 부과하고, 그 이후에는 백만 요청 당 0.90달러를 부과해요. 이 주목할 만한 71%의 가격 차이가 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 HTTP API 게이트웨이는 요청 처리와 트래픽 처리면에서 더 효율적일 수 있어요. 이는 낮은 수준의 프로토콜과 메커니즘을 사용할 수 있기 때문인데, 이를 통해 지연 시간을 크게 감소시키고 성능을 향상시킬 수 있어요.
 
@@ -155,7 +247,18 @@ REST API 게이트웨이는 HTTP API 게이트웨이보다 더 많은 기능을 
 
 SAM과 CDK가 서버리스 앱을 위한 인프라스트럭처 코드 도구로 인기가 많지만, 저는 Terraform의 팬이에요. 새로운 람다 함수 및 이에 대한 HTTP API 게이트웨이를 프로비저닝하기 위해 Terraform을 사용할 거에요. DevOps 셀프 서비스 중심의 Terraform 프로젝트 구조를 따를 거에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 배포 고려 사항
 
@@ -170,7 +273,18 @@ SAM과 CDK가 서버리스 앱을 위한 인프라스트럭처 코드 도구로 
 
 ## Lambda 프로비저닝
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 배포 고려 사항을 염두에 두고, aws_lambda_function을 사용하여 Lambda 함수를 프로비저닝하는 우리의 Terraform 모듈 lambda_java의 주요 구현 세부 정보를 아래와 같이 정리했습니다. publish 매개변수가 true로 설정되어 있고, apply_on을 PublishedVersions로 지정하여 snap_start가 켜져 있음에 유의하세요.
 
@@ -230,7 +344,18 @@ lambda_function              = {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또한 Java 17 람다 런타임 지원은 terraform-provider-aws 버전 4.66.0에서 제공됩니다. 따라서 main.tf 파일의 required_providers 섹션에 올바른 버전을 사용하는지 확인해주세요. 아래 스니펫을 참조해주세요.
 
@@ -254,7 +379,18 @@ output "qualified_invoke_arn" {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## HTTP API Gateway Provisioning
 
@@ -271,7 +407,18 @@ resource "aws_apigatewayv2_api" "apigateway" {
 
 OpenAPI 스펙 JSON 파일은 정말 간단하고 직관적입니다. 아래 스니펫을 확인해보세요. 데모를 위해 간단하게 유지하고 있지만, 실제로는 인가자를 추가하거나 CORS를 구성하는 것이 좋습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```json
 {
@@ -308,7 +455,18 @@ OpenAPI 스펙 JSON 파일은 정말 간단하고 직관적입니다. 아래 스
 
 맞췄어요! SnapStart는 발행된 버전을 필요로 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래에서 HTTP API 게이트웨이 모듈을 호출하여 프로비전하는 코드 스니펫을 확인할 수 있습니다. templatefile 함수를 사용하여 openai-client-openapi.json 파일을 open_api_spec 변수에 전달하고, Lambda 모듈 module.lambda.qualified_invoke_arn의 출력을 qualified_invoke_arn으로 구성했습니다.
 
@@ -333,19 +491,28 @@ module "apigatewayv2" {
 
 GitHub Actions 워크플로우를 개발하여 CI 및 CD를 실행하여 Java Lambda 코드를 빌드하고 배포하여 AWS에서 프로비전된 Lambda 함수에 배포되도록 했습니다. 아래에 해당 워크플로우의 주요 단계를 호출하는 코드 스니펫이 표시되어 있습니다. 이 코드는 action appleboy/lambda-action을 호출하여 지정된 jar 파일을 Lambda 함수에 배포하며, 자격증명과 AWS 지역 정보가 전달됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - name: Lambda 함수에 배포하기
   uses: appleboy/lambda-action@master
   with:
-    # 여기서는 액세스 키와 비밀 키를 사용해야 합니다. IAM 역할은 작동하지 않았습니다.
-    aws_access_key_id: ${secrets.AWS_ACCESS_KEY_ID}
-    aws_secret_access_key: ${secrets.AWS_SECRET_ACCESS_KEY}
-    aws_region: ${secrets.AWS_REGION}
-    function_name: chat-java17-snapstart
-    zip_file: target/openai-api-chat-0.0.1-SNAPSHOT-aws.jar
-
+  # 여기서는 액세스 키와 비밀 키를 사용해야 합니다. IAM 역할은 작동하지 않았습니다.
+  aws_access_key_id: ${secrets.AWS_ACCESS_KEY_ID}
+  aws_secret_access_key: ${secrets.AWS_SECRET_ACCESS_KEY}
+  aws_region: ${secrets.AWS_REGION}
+  function_name: chat-java17-snapstart
+  zip_file: target/openai-api-chat-0.0.1-SNAPSHOT-aws.jar
 
 ## 추가 포인트: Infracost 지원
 
@@ -353,8 +520,18 @@ Infracost는 엔지니어들이 리소스를 시작하기 전에 클라우드 �
 
 아래는 Lambda 함수와 해당 API 게이트웨이에 대해 정의한 사용량 파일입니다. 이 예상 사용량 세부정보는 단순히 샘플입니다:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 version: 0.1
@@ -380,7 +557,18 @@ resource_type_default_usage:
 
 인프라 파이프라인에 Infracost를 통합하는 방법에 대해 더 알고 싶다면, 자세한 내용은 제 글인 'Infracost + Terraform + GitHub Actions = 클라우드 비용 관리 자동화'를 확인해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 배포 옵션 비교
 
@@ -390,8 +578,18 @@ resource_type_default_usage:
 
 기본 메모리는 512 MB, SnapStart 없음:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image1](/assets/img/2024-07-12-GoingServerlessWithSpringCloudFunctionAWSLambdaJava17SupportandSnapStart_5.png)
 
@@ -401,8 +599,18 @@ Startup time: 4.372 seconds
 
 ## Option 2: Lambda Java 17 support, with SnapStart enabled
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기본 메모리는 512 MB이며, SnapStart로 함께 제공됩니다:
 
@@ -412,13 +620,22 @@ Startup time: 4.372 seconds
 
 ![이미지2](/assets/img/2024-07-12-GoingServerlessWithSpringCloudFunctionAWSLambdaJava17SupportandSnapStart_8.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로그의 아래 보고서 라인이 더 많은 정보를 알려줍니다:
 
-
 ![이미지](/assets/img/2024-07-12-GoingServerlessWithSpringCloudFunctionAWSLambdaJava17SupportandSnapStart_9.png)
-
 
 - 소요 시간: 3593.21 ms (대부분은 OpenAI API 호출로 인해 시간이 오래 걸림)
 - 청구된 소요 시간: 3854 ms
@@ -427,7 +644,18 @@ Startup time: 4.372 seconds
 
 SnapStart에 의한 성능 향상이 상당히 뚜렷하다는 것을 확인할 수 있습니다! 더 이상 콜드 스타트는 없습니다! SnapStart는 정말 Java 람다 함수에 대한 게임 체인저입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 언급할 가치가 있는 몇 가지 관찰 사항
 
@@ -437,7 +665,18 @@ SnapStart에 의한 성능 향상이 상당히 뚜렷하다는 것을 확인할 
 
 업데이트: 2023년 5월 10일 현재, AWS X-Ray로 SnapStart가 활성화된 람다 함수를 디버깅하는 것이 쉽게 되었습니다. 정말 좋은 소식입니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 요약
 
@@ -447,7 +686,18 @@ Lambda Java 17 지원과 SnapStart로 인해 Java가 서버리스 개발의 주�
 
 이 글의 완전한 소스 코드는 제 GitHub Repos에서 확인하실 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 https://github.com/wenqiglantz/openai-api-client-spring-cloud-function
 
@@ -457,7 +707,18 @@ https://github.com/wenqiglantz/reusable-workflows-modules
 
 ## 참고 문헌:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Spring Cloud Function
 
@@ -467,7 +728,18 @@ https://aws.amazon.com/about-aws/whats-new/2023/04/aws-lambda-java-17/
 
 https://aws.amazon.com/blogs/compute/reducing-java-cold-starts-on-aws-lambda-functions-with-snapstart/
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 https://github.com/alexcasalboni/aws-lambda-power-tuning
 
@@ -477,6 +749,17 @@ https://github.com/alexcasalboni/aws-lambda-power-tuning
 
 [https://www.tinystacks.com/blog-post/api-gateway-rest-vs-http-api-what-are-the-differences/](https://www.tinystacks.com/blog-post/api-gateway-rest-vs-http-api-what-are-the-differences/)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-https://docs.aws.amazon.com/lambda/latest/dg/snapstart.html 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+https://docs.aws.amazon.com/lambda/latest/dg/snapstart.html

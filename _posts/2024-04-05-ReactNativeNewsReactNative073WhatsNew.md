@@ -3,17 +3,13 @@ title: "리액트 네이티브 073에서 추가된 새로운 기능"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "React Native News React Native 073 Whats New"
 link: "https://medium.com/stackademic/react-native-news-react-native-0-73-whats-new-3387915c0a41"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/ReactNativeNewsReactNative073WhatsNew_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 React Native 팀은 개발 중 문제를 해결하는 방법을 업그레이드했으며 Flipper를 사용하지 않을 방안에 대해 고민 중입니다. 이미 Firebase와 작업 중에 이런 문제가 있었는데, 특히 고통스러웠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![React Native News](/assets/img/ReactNativeNewsReactNative073WhatsNew_1.png)
 
@@ -36,7 +43,18 @@ Flipper를 사용하여 디버깅하는 것이 좋지 않은 경험을 했어요
 
 React Native는 새로운 JavaScript 디버거에 대한 작업 중이라고 발표했어요. 점진적으로 Flipper를 React Native 앱의 디버깅을 위한 기본 도구로부터 이동하고 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 헤르메스의 콘솔 로그 기록:
 
@@ -47,7 +65,18 @@ React Native는 새로운 JavaScript 디버거에 대한 작업 중이라고 발
 
 - RN 팀이 문서의 디버깅 섹션을 업데이트했으며, 이제 모든 지원되는 디버거에 연결하는 방법에 대한 최신 정보, React DevTools에 대한 자세한 정보, 그리고 새롭게 업데이트된 시각적 자료가 포함되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 향후 새로운 React Native 프로젝트에서 Flipper가 제거되더라도, 개발자들은 원하는 경우에 앱에 Flipper를 수동으로 추가할 수 있습니다.
 
@@ -57,7 +86,18 @@ React Native는 이제 Metro에서 심볼릭 링크를 자동으로 해결하여
 
 ## 3. 안드로이드에서의 Kotlin 템플릿
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - React Native (RN) 팀이 안드로이드 앱을 React Native로 구축하는 데 선호하는 언어로 Kotlin을 공식적으로 지지했습니다. 이 결정은 안드로이드 생태계에서 현대적인 언어로의 지속적인 추세를 반영하고 있습니다.
 - 안드로이드용 React Native 템플릿이 변경되어 Java 대신 Kotlin이 통합되었습니다.
@@ -73,7 +113,18 @@ brew tap homebrew/cask-versions
 brew install --cask zulu17
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - React Native앱은 이제 사진 및 비디오에 부분적인 액세스 권한을 부여하기 위해 PermissionsAndroid API의 READ_MEDIA_VISUAL_USER_SELECTED 권한을 사용하여 이 기능을 지원합니다.
 
@@ -85,7 +136,18 @@ brew install --cask zulu17
 
 ## 6. 사용이 중단된 디버깅 기능
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 과거에는 원격 JavaScript 디버깅 기능이 외부 웹 브라우저(예: Chrome)를 앱에 연결하는 레거시 디버깅 모드로 사용되었습니다. http://localhost:8081/debugger-ui에 자바스크립트 코드를 실행하여 작동했습니다. 그러나 이 접근 방식은 종종 디버깅 중 예측할 수없는 앱 동작을 일으키고 New Architecture의 네이티브 모듈과 호환되지 않았습니다. 0.73 버전부터, 원격 JavaScript 디버깅은 폐기되었으며 더 이상 개발 메뉴에서 제거되었습니다. 원격 디버거를 활성화하려면 사용자가 NativeDevSettings API를 수동으로 사용해야 합니다. 이 수동 활성화 프로세스에 대한 지침은 기타 디버깅 방법에 대한 문서에서 찾을 수 있습니다.
 
@@ -101,7 +163,18 @@ brew install --cask zulu17
 - iOS: 최소 iOS 버전을 13.4로 상향조정했습니다.
 - iOS: Xcode를 통해 빌드를 실행할 때 Metro가 자동으로 시작되지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## React Native CLI 변경 사항:
 
@@ -114,6 +187,17 @@ brew install --cask zulu17
 
 ## Deprecated @types/react-native
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - RN 팀은 이제 0.73에 0.71 @types/react-native을 사용하지 않을 예정입니다.

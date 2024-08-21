@@ -3,17 +3,13 @@ title: "트렐로같은 드래그 앤 드롭 칸반보드 만드는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How To Drag , Drop Like Trello"
 link: "https://medium.com/@rekdhmer/how-to-drag-drop-like-trello-b21c4e821429"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/HowToDrag-DropLikeTrello_0.png" />
 
@@ -28,7 +24,18 @@ isUpdated: true
 
 # 단계 1: 드래그 앤 드롭 컨텍스트 설정
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우선, 끌어다 놓기 컨텍스트가 구성 요소 구조 주변에 래핑되어 있는지 확인하여 끌어다 놓을 수 있는 항목을 관리하세요.
 
@@ -38,7 +45,18 @@ isUpdated: true
 
 ## 단계 3: 끌어다 놓을 수 있는 목록 구현하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ListContainer 안에서 고유한 draggableId로 래핑된 ListItem 구성 요소를 렌더링하십시오.
 
@@ -48,7 +66,18 @@ ListContainer 안에서 고유한 draggableId로 래핑된 ListItem 구성 요�
 
 # 단계 5: 재정렬 로직 구현하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 DragDropContext에서 onDragEnd 메소드를 사용하여 드래그 작업이 완료된 후 아이템을 다시 정렬하는 논리를 처리해야 합니다. 결과 매개변수의 소스와 대상을 사용하여 새로운 순서를 결정하세요.
 
@@ -58,7 +87,18 @@ DragDropContext에서 onDragEnd 메소드를 사용하여 드래그 작업이 �
 
 ## 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 단계를 따라하면 Trello 보드와 유사한 기본 드래그 앤 드롭 기능을 구현할 수 있어요. 이 튜토리얼에서는 드래그할 수 있는 컨텍스트, 목록 및 카드 설정, 그리고 순서 재정렬 논리 처리에 대해 다루었어요. 귀하의 구체적인 요구 사항과 데이터 구조에 맞게 이 논리를 수정하고 확장하세요.
 

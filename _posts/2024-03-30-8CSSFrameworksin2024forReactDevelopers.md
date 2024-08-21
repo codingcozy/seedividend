@@ -3,17 +3,13 @@ title: "2024년 리액트 개발자를 위한 8가지 CSS 프레임워크"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "8 CSS Frameworks in 2024 for React Developers"
 link: "https://medium.com/@imPradhyumn/8-css-frameworks-in-2024-for-react-developers-e3512c196b35"
 isUpdated: true
 ---
-
-
-
-
 
 안녕하세요!!
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ![image](/assets/img/8CSSFrameworksin2024forReactDevelopers_0.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 함께 살펴볼 10가지 CSS 프레임워크:
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ![이미지](/assets/img/8CSSFrameworksin2024forReactDevelopers_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 장점:
 
@@ -47,7 +65,18 @@ isUpdated: true
 - 웹사이트들이 서로 매우 비슷해 보일 수 있음
 - 커스터마이징이 그리 많지 않음
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. Material-UI
 
@@ -57,7 +86,18 @@ isUpdated: true
 
 장점:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 훌륭한 문서, 구성 요소의 쉬운 통합을 제공합니다
 - 특정 요구 사항에 맞게 쉽게 사용자 정의 가능
@@ -70,7 +110,18 @@ isUpdated: true
 
 3. Ant-Design
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Ant Design은 다양한 구성 요소를 보유한 인기 있는 디자인 프레임워크이며 기업용 응용 프로그램을 고려하여 제작되었습니다.
 
@@ -83,7 +134,18 @@ Ant Design은 다양한 구성 요소를 보유한 인기 있는 디자인 프�
 - 좋은 폼 처리
 - UI가 아름답게 보입니다
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단점:
 
@@ -95,7 +157,18 @@ Ant Design은 다양한 구성 요소를 보유한 인기 있는 디자인 프�
 
 2024년에 가장 인기 있는 라이브러리 중 하나이며 저의 개인적인 즐겨찾기입니다. 다른 프레임워크와 달리 미리 구축된 컴포넌트를 제공하지 않지만 함께 사용할 수 있는 유틸리티 클래스를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/8CSSFrameworksin2024forReactDevelopers_4.png" />
 
@@ -109,7 +182,18 @@ Ant Design은 다양한 구성 요소를 보유한 인기 있는 디자인 프�
 
 단점:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 큰 HTML 파일
 - CSS 지식이 필요
@@ -122,7 +206,18 @@ Ant Design은 다양한 구성 요소를 보유한 인기 있는 디자인 프�
 
 ![이미지](/assets/img/8CSSFrameworksin2024forReactDevelopers_5.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 장점:
 
@@ -138,7 +233,18 @@ Ant Design은 다양한 구성 요소를 보유한 인기 있는 디자인 프�
 - 오래된 브라우저와 호환되지 않음
 - 클래스 이름에 대한 지나친 의존
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 6. Bulma
 
@@ -148,7 +254,18 @@ Ant Design은 다양한 구성 요소를 보유한 인기 있는 디자인 프�
 
 장점:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 모바일 퍼스트 컨셉트
 - 가벼운 무게
@@ -164,7 +281,18 @@ Ant Design은 다양한 구성 요소를 보유한 인기 있는 디자인 프�
 
 7. Chakra UI
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Chakra UI는 React 애플리케이션을 구축하는 데 필요한 기본 빌딩 블록을 제공하는 간단하고 모듈식이며 접근 가능한 컴포넌트 라이브러리입니다.
 
@@ -177,7 +305,18 @@ Chakra UI는 React 애플리케이션을 구축하는 데 필요한 기본 빌�
 - 다크 모드 지원
 - 반응형을 쉽게 추가할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단점:
 
@@ -187,7 +326,18 @@ Chakra UI는 React 애플리케이션을 구축하는 데 필요한 기본 빌�
 
 React 웹 애플리케이션을 위한 100가지 이상의 사용 준비된 구성 요소 및 50 가지 훅을 제공하는 타입스크립트 기반 프레임워크입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 [이미지](/assets/img/8CSSFrameworksin2024forReactDevelopers_8.png)
 
@@ -200,7 +350,18 @@ React 웹 애플리케이션을 위한 100가지 이상의 사용 준비된 구�
 
 단점:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 커뮤니티 지원이 부족합니다.
 - 맞춤 설정을 위한 학습 곡선이 있습니다.
@@ -215,6 +376,17 @@ React 웹 애플리케이션을 위한 100가지 이상의 사용 준비된 구�
 
 읽어 주셔서 감사합니다!!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 행복한 코딩하세요!

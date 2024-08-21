@@ -3,17 +3,13 @@ title: "Nextjs 14 메타데이터 설정하는 방법 정리"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # Nextjs 14 메타데이터 설정하는 방법 정리
 
@@ -39,7 +35,18 @@ export async function generateMetadata({ params }) {
 > 메타데이터 객체와 generateMetadata 함수는 서버 컴포넌트에서만 지원됩니다.
 > 동일한 라우트 세그먼트에서 메타데이터 객체와 generateMetadata 함수를 모두 내보낼 수 없습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 메타데이터 객체
 
@@ -58,7 +65,18 @@ export default function Page() {}
 
 지원되는 옵션의 전체 목록을 보려면 메타데이터 필드를 참조하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## generateMetadata 함수
 
@@ -95,7 +113,18 @@ export default function Page({ params, searchParams }: Props) {}
 
 ### 매개변수
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 generateMetadata 함수는 다음과 같은 매개변수를 받습니다:
 
@@ -126,7 +155,18 @@ generateMetadata 함수는 다음과 같은 매개변수를 받습니다:
 
 generateMetadata 함수는 하나 이상의 메타데이터 필드를 포함한 Metadata 객체를 반환해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 > 좋아 알아두기:
 > 만약 메타데이터가 런타임 정보에 의존하지 않는다면, generateMetadata 대신 정적 메타데이터 객체를 사용하여 정의해야 합니다.
@@ -140,7 +180,18 @@ generateMetadata 함수는 하나 이상의 메타데이터 필드를 포함한 
 
 title 속성은 문서의 제목을 설정하는데 사용됩니다. 간단한 문자열 또는 선택적 템플릿 객체로 정의할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 #### 문자열
 
@@ -156,7 +207,18 @@ export const metadata = {
 
 #### 템플릿 객체
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```typescript
 import { Metadata } from "next";
@@ -190,7 +252,18 @@ export const metadata: Metadata = {};
 // 출력: <title>Acme</title>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `title.template`은 자식 라우트 세그먼트에서 정의된 제목에 접두사 또는 접미사를 추가하는 데 사용할 수 있어요.
 
@@ -223,7 +296,18 @@ export const metadata: Metadata = {
 - page.js에 정의된 `title.template`은 페이지가 항상 종단 세그먼트이기 때문에 효과가 없어요(자식 라우트 세그먼트가 없어요).
 - 라우트가 제목 또는 `title.default`를 정의하지 않은 경우 `title.template`은 효과가 없어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 title.absolute은 부모 세그먼트에서 설정한 title.template을 무시하는 제목을 제공하는 데 사용할 수 있습니다.
 
@@ -260,7 +344,18 @@ export const metadata: Metadata = {
 > title.absolute는 경로의 제목을 정의합니다. 부모 세그먼트의 title.template을 무시합니다.
 > title.template은 페이지가 항상 경로의 종단 세그먼트이기 때문에 page.js에서 효과가 없습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 설명
 
@@ -276,7 +371,18 @@ export const metadata = {
 
 ### 기본 필드
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 수출 대상 metadata = {
@@ -313,7 +419,18 @@ export const metadata = {
 
 metadataBase은 완전히 정규화된 URL이 필요한 metadata 필드를 위한 기본 URL 접두어를 설정하는 편의 옵션입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - metadataBase는 현재 route 세그먼트 및 그 아래에서 정의된 URL 기반 메타데이터 필드를, 필수적인 절대 URL 대신 상대 경로를 사용할 수 있도록 합니다.
 - 필드의 상대 경로는 metadataBase와 결합되어 완전한 URL을 형성합니다.
@@ -350,7 +467,18 @@ export const metadata = {
 > metadataBase를 구성하지 않고 URL 기반 메타데이터 필드에서 상대 경로를 사용하는 경우 빌드 오류가 발생할 수 있습니다.
 > Next.js는 metadataBase(예: https://acme.com/)와 상대 필드(예: /path) 사이의 중복 슬래시를 단일 슬래시(예: https://acme.com/path)로 정규화합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 #### 기본값
 
@@ -361,7 +489,18 @@ export const metadata = {
 
 #### URL 구성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 URL 구성은 기본 디렉터리 이동 의미보다 개발자 의도를 우선합니다.
 
@@ -378,7 +517,18 @@ export const metadata: Metadata = {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 metadataBase를 상속하고 자체 값을 설정하는 모든 메타데이터 필드는 다음과 같이 해결됩니다:
 
@@ -420,7 +570,18 @@ export const metadata = {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 ---
@@ -453,7 +614,18 @@ export const metadata = {
 > 알아두면 좋아요:  
 > Open Graph 이미지를 위한 파일 기반 메타데이터 API를 사용하는 것이 더 편리할 수 있습니다. 설정 내보내기와 실제 파일을 동기화하는 대신 파일 기반 API를 사용하면 자동으로 올바른 메타데이터가 생성됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 로봇
 
@@ -487,7 +659,18 @@ export const metadata: Metadata = {
 
 ### 아이콘
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 > 참고로: 가능한 경우 아이콘에 대한 파일 기반 Metadata API를 사용하는 것을 권장합니다. 실제 파일을 구성 내보내기와 동기화해야 하는 부담을 덜기 위해 파일 기반 API는 자동으로 올바른 메타데이터를 생성해 줍니다.
 
@@ -518,7 +701,11 @@ export const metadata = {
 ```js
 export const metadata = {
   icons: {
-    icon: [{ url: "/icon.png" }, new URL("/icon.png", "https://example.com"), { url: "/icon-dark.png", media: "(prefers-color-scheme: dark)" }],
+    icon: [
+      { url: "/icon.png" },
+      new URL("/icon.png", "https://example.com"),
+      { url: "/icon-dark.png", media: "(prefers-color-scheme: dark)" },
+    ],
     shortcut: ["/shortcut-icon.png"],
     apple: [{ url: "/apple-icon.png" }, { url: "/apple-icon-x3.png", sizes: "180x180", type: "image/png" }],
     other: [
@@ -531,7 +718,18 @@ export const metadata = {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <link rel="shortcut icon" href="/shortcut-icon.png" />
@@ -557,7 +755,18 @@ export const metadata = {
 
 > 사용 중단: Next.js 14에서 메타데이터의 themeColor 옵션은 사용 중단되었습니다. 대신 viewport 구성을 사용하십시오.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### manifest
 
@@ -573,7 +782,18 @@ export const metadata = {
 <link rel="manifest" href="https://nextjs.org/manifest.json" />
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 트위터
 
@@ -595,7 +815,18 @@ export const metadata = {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```html
 <meta name="twitter:card" content="summary_large_image" />
@@ -657,7 +888,18 @@ export const metadata = {
 
 ### viewport
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 > **Deprecated:** Next.js 14부터 metadata의 viewport 옵션이 사용되지 않습니다. 대신 viewport 구성을 사용해주세요.
 
@@ -684,7 +926,18 @@ export const metadata = {
 <meta name="me" content="my-link" />
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### appleWebApp
 
@@ -732,7 +985,18 @@ export const metadata = {
 
 ### alternates
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 export const metadata = {
@@ -789,7 +1053,18 @@ export const metadata = {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 아카이브
 
@@ -801,7 +1076,18 @@ export const metadata = {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <link rel="archives" href="https://nextjs.org/13" />
@@ -819,7 +1105,18 @@ export const metadata = {
 <link rel="assets" href="https://nextjs.org/assets" />
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 북마크
 
@@ -835,7 +1132,18 @@ export const metadata = {
 
 ### 카테고리
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 export const metadata = {
@@ -851,7 +1159,18 @@ export const metadata = {
 
 내장 지원을 사용하여 모든 메타데이터 옵션을 다루어야 합니다. 그러나 사이트에 특정한 사용자 정의 메타데이터 태그나 새로 출시된 브랜드 메타데이터 태그가 있을 수 있습니다. 다른 옵션을 사용하여 사용자 정의 메타데이터 태그를 렌더링할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 export const metadata = {
@@ -875,7 +1194,18 @@ export const metadata = {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <meta name="custom" content="meta1" /> <meta name="custom" content="meta2" />
@@ -897,7 +1227,18 @@ export const metadata = {
 | `<link rel="preconnect" />`   | <a href="#link-relpreconnect">`ReactDOM preconnect method`</a>을 사용하세요.                                                                                                                                                                           |
 | `<link rel="dns-prefetch" />` | <a href="#link-reldns-prefetch">`ReactDOM prefetchDNS method`</a>을 사용하세요.                                                                                                                                                                        |
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 리소스 힌트
 
@@ -919,7 +1260,18 @@ export function PreloadResources() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 페이지 렌더링(브라우저) 라이프사이클 중에 리소스를 미리 로드하기 시작하세요. MDN 문서
 
@@ -933,7 +1285,18 @@ ReactDOM.preload(href: string, options: { as: string })
 
 사전에 출발점으로의 연결을 초기화하세요. MDN 문서
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 ReactDOM.preconnect(href: string, options?: { crossOrigin?: string })
@@ -951,7 +1314,18 @@ ReactDOM.preconnect(href: string, options?: { crossOrigin?: string })
 ReactDOM.prefetchDNS(href: string)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <link rel="dns-prefetch" href="..." />
@@ -966,7 +1340,18 @@ ReactDOM.prefetchDNS(href: string)
 
 메타데이터에 유형 안전성을 추가할 수 있습니다. IDE에 내장된 TypeScript 플러그인을 사용하는 경우 유형을 수동으로 추가할 필요가 없지만 원하는 경우 여전히 명시적으로 추가할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### metadata object
 
@@ -982,7 +1367,18 @@ export const metadata: Metadata = {
 
 #### Regular function
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import type { Metadata } from "next";
@@ -1010,7 +1406,18 @@ export async function generateMetadata(): Promise<Metadata> {
 
 #### 세그먼트 속성과 함께
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import type { Metadata } from 'next'
@@ -1043,7 +1450,18 @@ export async function generateMetadata({ params, searchParams }: Props, parent: 
 
 #### JavaScript 프로젝트들
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 JavaScript 프로젝트에서는 JSDoc을 사용하여 타입 안전성을 추가할 수 있어요.
 
@@ -1061,4 +1479,15 @@ export const metadata = {
 | `v13.2.0` | `viewport`, `themeColor`, 그리고 `colorScheme`이 `<code>viewport</code> 구성`을 위해 폐기되었습니다. |
 | `v13.2.0` | `metadata`와 `generateMetadata`가 도입되었습니다.                                                    |
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

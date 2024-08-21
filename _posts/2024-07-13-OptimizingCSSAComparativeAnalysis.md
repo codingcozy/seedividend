@@ -3,7 +3,7 @@ title: "CSS 최적화 비교 분석"
 description: ""
 coverImage: "/assets/img/2024-07-13-OptimizingCSSAComparativeAnalysis_0.png"
 date: 2024-07-13 18:51
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-OptimizingCSSAComparativeAnalysis_0.png
 tag: Tech
 originalTitle: "Optimizing CSS: A Comparative Analysis"
@@ -11,16 +11,24 @@ link: "https://medium.com/@skyz03/optimizing-css-a-comparative-analysis-9ef4d546
 isUpdated: true
 ---
 
-
-
-
 웹 개발 분야에서 깨끗하고 효율적이며 유지보수가 쉬운 CSS를 작성하는 것이 중요합니다. 이 게시물에서는 두 가지 CSS 코드 스니펫에 대한 비교 분석을 살펴보고 후자 버전에서 이루어진 주요 개선 사항과 최적화를 강조할 것입니다.
 
 과거 버전: [여기를 클릭해 이동하세요](https://twiztss.github.io/Frontend-Design/Social-Proof-Section/)
 
 새로운 버전: [여기를 클릭해 이동하세요](https://skyz03.github.io/Frontend-Design-1/Social-Proof-Section/)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 중복된 속성 제거
 
@@ -35,7 +43,18 @@ isUpdated: true
 
 변경 후: 첫 번째 코드 조각에서 .wrapper 클래스의 height 속성이 두 번 정의되었지만, 후자의 코드 조각에서 이러한 중복이 제거되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 병합된 선택자
 
@@ -50,7 +69,18 @@ isUpdated: true
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .main-text, .main-review {
@@ -64,7 +94,18 @@ isUpdated: true
 
 이전:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .review-card, .client-review {
@@ -75,7 +116,18 @@ isUpdated: true
 
 이전 코드에서 .review-card 및 .client-review 클래스가 간소화되어 중복을 줄이기 위해 적절히 결합되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 일관성 향상
 
@@ -85,7 +137,18 @@ isUpdated: true
 
 ## 향상된 Flexbox 사용
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래와 같이 Markdown 형식으로 변경하였습니다.
 
@@ -99,7 +162,18 @@ isUpdated: true
 
 ## 일관된 색상 변수 사용
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 변경 전:
 
@@ -113,7 +187,18 @@ background-color: hsl(300, 43%, 22%);
 background-color: var(--Very-Dark-Magenta);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 번째 코드 스니펫은 일관적으로 색상 변수를 사용합니다.
 
@@ -123,7 +208,18 @@ background-color: var(--Very-Dark-Magenta);
 
 :root 섹션에는 중요한 변화가 없었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 유니버설 선택자
 
@@ -135,7 +231,18 @@ background-color: var(--Very-Dark-Magenta);
 
 ## .container
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나중 코드 조각에서는 너비와 높이 속성 (width: 100vw; height: 100vh;)이 제거되었는데요, 이는 더 나은 반응성을 위해 그리고 오버플로 문제를 피하기 위함일 수 있어요.
 
@@ -145,7 +252,18 @@ background-color: var(--Very-Dark-Magenta);
 
 ## .wrapper
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 코드 조각은 중복되는 height 속성이 제거되었습니다.
 
@@ -155,11 +273,33 @@ background-color: var(--Very-Dark-Magenta);
 
 ## .review-card
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 표 태그를 마크다운 형식으로 변경했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 동일한 색 변수를 일관되게 사용하도록하여 중복 속성을 제거하여 간단한 형식을 간소화했습니다.
 
@@ -169,7 +309,18 @@ background-color: var(--Very-Dark-Magenta);
 
 ## 미디어 쿼리
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 동일한 글자 속성의 일관된 사용을 보장하고 가독성을 향상시키하기 위해 서막 속성을 사용한 것을 변경했습니다.
 

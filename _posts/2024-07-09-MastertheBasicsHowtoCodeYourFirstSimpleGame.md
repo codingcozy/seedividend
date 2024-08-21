@@ -3,15 +3,13 @@ title: "기초 마스터하기 첫 번째 간단한 게임 코딩하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-MastertheBasicsHowtoCodeYourFirstSimpleGame_0.png"
 date: 2024-07-09 14:21
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-MastertheBasicsHowtoCodeYourFirstSimpleGame_0.png
 tag: Tech
 originalTitle: "Master the Basics: How to Code Your First Simple Game"
 link: "https://medium.com/@learntocodetoday/master-the-basics-how-to-code-your-first-simple-game-70d7d076b39e"
 isUpdated: true
 ---
-
-
 
 ![게임 개발 이미지](/assets/img/2024-07-09-MastertheBasicsHowtoCodeYourFirstSimpleGame_0.png)
 
@@ -24,7 +22,18 @@ isUpdated: true
 - CSS로 게임 스타일링
 - JavaScript를 사용하여 게임 로직 추가
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 준비 사항
 
@@ -36,7 +45,18 @@ isUpdated: true
 
 프로젝트를 위한 새 디렉토리를 만들고 index.html, style.css, app.js 세 가지 파일을 추가하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트 구조:
 

@@ -3,16 +3,13 @@ title: "SOLID 원칙으로 테니스 리팩토링 도전 과제 해결하기 Pyt
 description: ""
 coverImage: "/assets/img/2024-07-13-SolvingaTennisRefactoringChallengeinPythonusingSOLID_0.png"
 date: 2024-07-13 19:41
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-SolvingaTennisRefactoringChallengeinPythonusingSOLID_0.png
 tag: Tech
 originalTitle: "Solving a Tennis Refactoring Challenge in Python using SOLID"
 link: "https://medium.com/towards-data-science/solving-a-tennis-refactoring-challenge-in-python-using-solid-f1282f85e7e0"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-07-13-SolvingaTennisRefactoringChallengeinPythonusingSOLID_0.png" />
 
@@ -22,8 +19,18 @@ isUpdated: true
 
 온라인에서는 많은 리팩터링 도전 과제가 제공되고 있습니다. 아마 가장 유명한 것 중 하나는 길드 로즈 카타일 것입니다. 또 다른 재미있는 리팩터링 카타는 테니스 리팩터링 카타인데, 이를 이 글에서 다루겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-13-SolvingaTennisRefactoringChallengeinPythonusingSOLID_1.png)
 
@@ -38,11 +45,20 @@ source .venv/bin/activate # 맥 또는 리눅스에서
 # .venv\Scripts\activate # 윈도우에서
 pip install -r requirements.txt
 pytest
-``` 
+```
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Tennis Refactoring Challenge](/assets/img/2024-07-13-SolvingaTennisRefactoringChallengeinPythonusingSOLID_2.png)
 
@@ -58,8 +74,18 @@ pytest
 - 네 점 이상을 획득했을 때, 상대와 1점 차이가 나면 어드밴티지를 얻습니다.
 - 네 점 이상을 획득했을 때, 상대와 같은 점수를 가지면 '듀스'라고 부릅니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테니스 테스트를 확인할 수 있는 tennis_test.py 및 tennis_unittest.py 두 파일도 있습니다. 이 파일들은 tennis.py 파일의 로직이 올바른지 확인하는 테스트를 제공합니다. 처음에는 모든 테스트가 통과해야 합니다 (이전에 pytest를 실행했을 때 본 것과 같이).
 
@@ -69,10 +95,20 @@ pytest
 
 테니스 게임을 높은 추상화로 정의해 봅시다. 테니스 게임은 두 팀 게임의 형태입니다. 여기서는 두 플레이어가 아닌 두 팀을 사용합니다. 왜냐하면 테니스는 더블즈로도 (예: 패들은 기본적으로 두 팀으로 플레이되는) 할 수 있기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 테이블 태그를 마크다운 형식으로 변경하세요:
-
 
 We can define a two-team game as follows:
 
@@ -102,7 +138,18 @@ class TennisGame1(TwoTeamGame):
         super().__init__(team1_name, team2_name)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테니스 경기에는 won_point(team_name: str)과 score() 두 가지 메서드가 있어야 합니다.
 
@@ -122,8 +169,18 @@ class TennisGame1(TwoTeamGame):
 
 won_points(team_name)부터 시작해보죠. 이 메서드는 매우 간단합니다. team_name으로 팀 이름을 전달하면 해당 플레이어의 점수가 하나 증가해야 합니다. 그러나 SOLID 원칙을 적용하기 위해 더 높은 추상화 수준에 대해 고려해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 won_points를 스코어링 전략을 사용하는 것으로 생각할 수 있습니다.
 
@@ -142,8 +199,18 @@ won_points에서 스코어링 전략을 추출한 이유는 SOLID의 개방/폐�
 
 이제 StandardTennisScoring을 만들어봅시다:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 class StandardTennisScoring(TwoTeamScoringStrategy):
@@ -196,8 +263,18 @@ class TennisGame1(TwoTeamGame):
 
 ## 스코어 표현 구현하기
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금 남은 작업은 score() 메서드를 구현하는 것뿐입니다. 먼저 두 팀 게임의 점수를 표현하는 추상 클래스를 생각해 봅시다. 점수를 나타내려면 게임의 점수에 액세스할 수 있어야 하므로 represent_score 메서드의 game이 매개변수인지 확인해 봅시다.
 
@@ -216,7 +293,18 @@ class TwoTeamScoreRepresentation(ABC):
 - 3: Forty or Deuce
 - 4: Deuce, Advantage or win (최다 점수를 획득한 플레이어의 점수만 나타내기 때문에)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테니스 게임을 생각해볼 때, 점수를 나타내는 세 가지 유형의 상황이 있습니다:
 
@@ -236,7 +324,18 @@ class TennisScoreRepresentation(TwoTeamScoreRepresentation):
 
 우리가 지정한 세 가지 상황에 대해 클래스를 만들어 봅시다. 어떻게 점수를 나타내는지 확인하려면 tennis_unittest.py에서 테스트가 어떻게 지정되어 있는지 살펴봐야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 #(team1_score, team2_score, score_representation, team1_name, team2_name)
@@ -305,8 +404,18 @@ class TennisScoreRepresentation(TwoTeamScoreRepresentation):
         return self.normal_score.represent_score(game)
 ```
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 모든 것을 합쳐보기
 
@@ -314,21 +423,31 @@ class TennisScoreRepresentation(TwoTeamScoreRepresentation):
 
 아마 궁금할 것입니다. tennis_unittest.py에 쓰인 테스트를 준수하는 모든 기능과 규칙을 구현한 한 클래스를 작성할 수 있는데, 왜 이런 클래스들이 필요한 걸까요? 이유는, SOLID 원칙을 준수함으로써, 전체 구현의 어떤 부분이든 손쉽게 교체할 수 있고 기존 코드를 변경하거나 망가뜨리지 않을 수 있습니다. 우리가 바꾸고 싶은 부분에 대해 약간의 새 코드만 작성하면 됩니다. 이는 거의 모든 코드 부분에 적용되며, 각 클래스가 교체 가능하기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 새로운 점수 표현 방식
-class FrenchScoreRepresentation(TwoTeamScoreRepresentation):
-    # 프랑스어 점수 표현에 대한 구현
-    ...
+
+class FrenchScoreRepresentation(TwoTeamScoreRepresentation): # 프랑스어 점수 표현에 대한 구현
+...
 
 # 게임에 새 전략 주입
-french_game = TennisGame1(
-                    team1_name="T1", 
-                    team2_name="T2", 
-                    score_representation=FrenchScoreRepresentation()
-)
 
+french_game = TennisGame1(
+team1_name="T1",
+team2_name="T2",
+score_representation=FrenchScoreRepresentation()
+)
 
 ## 결론
 

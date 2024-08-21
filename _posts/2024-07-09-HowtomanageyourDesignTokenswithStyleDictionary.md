@@ -3,15 +3,13 @@ title: "Style Dictionary로 디자인 토큰을 관리하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-HowtomanageyourDesignTokenswithStyleDictionary_0.png"
 date: 2024-07-09 18:21
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-HowtomanageyourDesignTokenswithStyleDictionary_0.png
 tag: Tech
 originalTitle: "How to manage your Design Tokens with Style Dictionary"
 link: "https://medium.com/@didoo/how-to-manage-your-design-tokens-with-style-dictionary-98c795b938aa"
 isUpdated: true
 ---
-
-
 
 요즘 새로운 도구를 발견했어요. 아마존의 Danny Banks가 개발한 Style Dictionary라는 도구인데, 디자인 시스템을 위한 디자인 토큰(또는 "스타일 속성")을 관리할 수 있게 해줘요. 우리가 Cosmos 디자인 시스템의 디자인 토큰을 처리했던 기존 도구를 대체하기 위해 사용했어요. 이 작업이 정말 흥미롭다고 느꼈고, 그래서 다른 분들도 제가 배운 것을 통해 이득을 볼 수 있도록 문서화하기로 결심했어요.
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 ➡️ https://github.com/didoo/style-dictionary-demo ⬅️
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 거기로 가서 코드를 확인해보세요. 꽤 간단할 거에요. 원하신다면 프로젝트를 복제하고 시작 지점으로 사용할 수 있어요 (하지만 이것은 꽤 주관적이므로 특정한 맥락과 요구 사항에 적합하지 않을 수 있습니다).
 
@@ -31,7 +40,18 @@ isUpdated: true
 
 # 디자인 토큰에 대해
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 디자인 시스템에서는 종종 "디자인 토큰"이라고 하는 특별한 개체를 사용하여 "디자인 결정"을 저장합니다. 이러한 개체는 키/값 쌍의 형태로 저장되며 일반적으로 JSON 또는 YAML과 같은 특정 파일 형식에 저장됩니다. 이 파일들은 후에 입력 파일로 사용되어 처리되고 변환되어 다른 형식의 다른 출력 파일을 생성하기 위해 사용되며, 다른 프로젝트와 코드베이스에서 포함 및 사용됩니다. (디자인 토큰에 대해 더 알고 싶다면 여기, 여기, 여기, 여기를 읽어보세요).
 
@@ -68,7 +88,18 @@ isUpdated: true
 
 이러한 속성들은 또한 스타일 가이드에서 노출되어 문서화의 일부가 될 수 있도록 되어 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-09-HowtomanageyourDesignTokenswithStyleDictionary_0.png)
 
@@ -78,7 +109,18 @@ isUpdated: true
 
 당시 사용 가능한 버전은 Theo5였으며, 몇 주 전까지 이렇게 디자인 토큰 선언이 보였습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```json
 {
@@ -123,7 +165,18 @@ isUpdated: true
 
 또한 토큰에 사용 설명을 위해 사용자 지정 메타데이터를 연결하는 테스트도 수행했지만, 생성된 파일에서 이 정보를 노출하는 방법을 찾지 못해 스타일 가이드에서 토큰에 대한 설명을 포함시키지 못했습니다. 그래서 저희는 스타일 가이드에서 토큰 설명을 생략하게 되었어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 잘못 알아들으시면 안 돼요. Theo는 훌륭한 도구이고, 위에 언급한 문제들은 작은 세부사항일 뿐, 개인적인 기호 문제일 뿐이에요. (그래서 제 인상을 근거로 선택하시지 마세요. 언제나 도구가 당신을 위해 무엇을 할 수 있는지, 문제를 어떻게 해결해주는지, 당신의 요구에 따라 고려해야 해요!)
 
@@ -133,7 +186,18 @@ isUpdated: true
 
 # Style Dictionary와의 첫 만남
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 처음으로 스타일 사전(Style Dictionary)에 대해 어디에서 읽었는지 정확히 기억하지는 못해요. 아마도 트위터 피드나 미디엄 블로그 글, 또는 디자인 시스템 Slack 채널의 채팅 중 어딘가에서 읽은 것 같아요. (Shaun Bent가 이것이 올해 2월에 발표되었다고 지적해 주었는데, 그 포스트는 기억이 나지 않네요).
 
@@ -143,7 +207,18 @@ GitHub 프로젝트의 이력을 보면 그들이 오랜 시간동안 작업해 
 
 또한 눈에 띄었던 이 그림을 기억해요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![스타일 사전으로 디자인 토큰을 관리하는 방법](/assets/img/2024-07-09-HowtomanageyourDesignTokenswithStyleDictionary_1.png)
 
@@ -153,7 +228,18 @@ GitHub 프로젝트의 이력을 보면 그들이 오랜 시간동안 작업해 
 
 내 백로그에 티켓을 만들었습니다 — DO-132 — 디자인 토큰 생성을 위한 Style Dictionary 평가 — 그리고 일상적인 컴포넌트 관련 작업을 진행했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 몇 주 후에 한 트윗이 눈에 띄었어요.
 
@@ -163,7 +249,18 @@ GitHub 프로젝트의 이력을 보면 그들이 오랜 시간동안 작업해 
 
 위에서 말한대로, Style Dictionary를 채택하는 것이 얼마나 간단하고 즐거웠는지 고려할 때, 나는 내가 블로그 글을 쓰는 것이 적합하지 않을까 생각하기 시작했어요. 왜 이것으로 전환하기로 결정한 이유들을 강조하되, 그 과정 중에 배운 것들도 포함하여 경험을 소개해보는 것은 어떨까요. 그래서 이곳에 제 발견 내용을 소개합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Style Dictionary 초기 설정
 
@@ -175,7 +272,18 @@ GitHub 프로젝트의 이력을 보면 그들이 오랜 시간동안 작업해 
 style-dictionary init basic
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기본 프로젝트를 작성하는 것이며 일부 예제 JSON 파일과 토큰을 처리하고 출력 파일의 다양한 형식을 생성하는 데 필요한 config.json 파일이 포함됩니다 (자세한 내용은 나중에 설명합니다).
 
@@ -187,7 +295,18 @@ style-dictionary init basic
 style-dictionary build
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 "변환"을 수행하여 JSON 파일을 처리하고 구성 파일에서 선언된 옵션에 따라 결과 토큰 파일을 생성합니다.
 
@@ -197,7 +316,18 @@ CLI의 미리 정의된 빌드 명령을 사용하면 토큰을 처리하는 가
 
 이제 여러분은 토큰의 JSON 파일(및 구성 파일)을 활용하여 다양한 스타일 속성의 구성 및 다양한 출력 형식 생성을 확인해볼 수 있습니다. 원한다면 Style Dictionary 프로젝트 저장소에 포함된 예제 폴더를 살펴보아 더 복잡한 구성 및 사용 사례를 확인할 수 있지만, Style Dictionary가 제공하는 보다 고급 기능(예: "토큰"으로서 글꼴 또는 아이콘과 같은 자산의 배포 또는 React Native 프로젝트용 토큰 생성)에 혼동되지 않도록 "기본"부터 시작하는 것을 제안합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 문서
 
@@ -207,7 +337,18 @@ Style Dictionary 프로젝트는 매우 잘 문서화되어 있습니다. 공식
 
 ## "카테고리 `유형` 항목" 분류
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Style Dictionary에는 토큰의 암시적 분류가 있습니다:
 
@@ -227,7 +368,18 @@ Style Dictionary에는 토큰의 암시적 분류가 있습니다:
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 빌드 명령을 통해 처리하면 결과 JSON이 다음과 같이 됩니다:
 
@@ -261,7 +413,18 @@ Style Dictionary에는 토큰의 암시적 분류가 있습니다:
 
 Style Dictionary를 사용하면 많은 도우미 및 기능에서 이 암시적인 CTI 분류를 일관되게 찾을 수 있습니다. 다행히도 엄격히 따라야 하는 것은 아니며(이는 프로젝트의 품질과 그 저자의 지혜에 대해 많은 것을 말합니다), 문서에 따르면 "스타일 속성을 원하는 대로 구성하고 명명할 수 있다. 제한이 없습니다.". 그래도 이 도구의 내재적인 특성을 명심하는 것이 중요하므로 올바르게 사용하거나 필요에 맞게 작업할 수 있습니다. (제 프로젝트에서 한 것처럼, 디자인 토큰을 다른 분류 기준으로 설정하는 것을 선호했기 때문에 다르게 처리했습니다).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 내 디자인 토큰 조직
 
@@ -271,7 +434,18 @@ React로 구축된 Cosmos 컴포넌트 라이브러리는 완전히 Mobile Web �
 
 반면에 Cosmos 디자인 토큰은 모든 플랫폼에서 사용됩니다. 이에 따라, 우리는 디자인 토큰을 다른 브랜드와 플랫폼에 필요한 값들과 관련하여 조직화했습니다. 일부는 브랜드에 의존합니다 (예: 주요 및 보조 색상), 일부는 플랫폼에 따라 다릅니다 (예: 글꼴 패밀리 및 버튼 높이), 그리고 일부는 전역적으로 동일한 값을 갖기 때문에 모든 브랜드와 플랫폼에 대해 동일합니다(예: color-facebook 또는 spacing-small).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희의 JSON 소스 파일의 폴더 구조를 간단히 설명드리겠습니다:
 
@@ -318,7 +492,18 @@ React로 구축된 Cosmos 컴포넌트 라이브러리는 완전히 Mobile Web �
 
 대상/출력 폴더의 구성에 대해 제 것 같은 구조를 선호했습니다. 다양한 "사용자"들이 관심 있는 파일을 찾기 쉽고 명확하게 구성되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위는 생성된 파일의 폴더 구조의 스키마입니다:
 
@@ -363,7 +548,18 @@ React로 구축된 Cosmos 컴포넌트 라이브러리는 완전히 Mobile Web �
 
 반면에 /style_guide 폴더는 약간 다릅니다. 여기서 토큰은 코스모스 스타일 가이드에서 사용되며, 플랫폼/브랜드의 모든 가능한 조합에 대한 토큰 값을 노출해야 합니다. 사용자는 UI에서 선택할 수 있으므로 선택된 조합에 따라 해당 토큰 값을 동적으로로드해야 합니다. 이 경우 모든 파일이 단일 폴더에있는 평면 구조가 더 나은 방법입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-07-09-HowtomanageyourDesignTokenswithStyleDictionary_3.png)
 
@@ -373,7 +569,18 @@ React로 구축된 Cosmos 컴포넌트 라이브러리는 완전히 Mobile Web �
 
 Input 컴포넌트를 고려해보겠습니다. 우리 스타일 가이드에서 이 컴포넌트가 어떻게 보이는지 살펴봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 내용을 보시다시피 `Input/` 컴포넌트는 `Choice/`, `Toggle/`, 그리고 `Search/` 세 가지 특화된 컴포넌트로 구분됩니다. 이러한 컴포넌트들의 파일 구성은 코드베이스에서 다음과 같이 구성되어 있습니다:
 
@@ -420,7 +627,18 @@ Input 컴포넌트를 고려해보겠습니다. 우리 스타일 가이드에서
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 생성된 변수들은 이 ‘no-brainer’ 네이밍 규칙을 유지하며 이러한 컴포넌트의 소스 코드에서 사용됩니다:
 
@@ -435,7 +653,18 @@ $token-input-search-height: 32px;
 
 또 다른 중요한 조직 형태의 결과는 다른 컴포넌트 안에서 “별칭”을 쉽게 사용하거나 다른 토큰 값을 참조하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, 브랜드의 주요 색상과 보조 색상에 대해 토큰으로 선언하지 않고 별칭으로 선언했습니다:
 
@@ -472,7 +701,18 @@ $token-input-search-height: 32px;
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다른 구성 요소 내에서 다른 구성 요소의 토큰 값을 참조할 수도 있습니다.
 
@@ -499,7 +739,18 @@ $token-input-search-height: 32px;
 
 실제 토큰 값이 포함된 `Brick/` 컴포넌트 파일은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```json
 {
@@ -521,7 +772,18 @@ $token-input-search-height: 32px;
 
 즉, 프로젝트의 토큰을 구성하는 방법에 대해 완전한 자유를 가질 수 있습니다. 디자인 토큰의 구조를 실험해보고 당신의 요구 사항에 가장 잘 맞는 구성을 찾는 것을 제안합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막으로, 선언된 디자인 토큰의 실제 빌드 과정으로 넘어가기 전에 한 가지 더 있습니다. 이전에 언급했듯이 Style Dictionary를 사용하면 특정 속성에 연결하는 모든 속성이 소스 JSON 파일에서 자동으로 투명하게 전달되어 변환되고 출력 파일에 나타납니다.
 
@@ -547,7 +809,18 @@ $token-input-search-height: 32px;
 
 생성된 JSON 파일은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```json
 {
@@ -577,7 +850,18 @@ $token-input-search-height: 32px;
 
 마지막으로 멋진 점 하나 더: 단순히 값을 넣으면 이를 내보낼 Scss 파일에 주석으로 자동으로 추가됩니다 (실제로 모든 주석을 지원하는 파일 형식):
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 {
@@ -600,7 +884,18 @@ $button-border-width: 1px; // this is a comment
 
 디자인 토큰과 관련된 최소한의 문서를 내보내고 싶을 때 유용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 이 라이브러리가 정말 신중하게 만들어진 많은 "멋진" 작은 세부 사항 중 하나일 뿐입니다: 문서를 읽어보시고 사용 가능한 모든 옵션을 살펴보면 이와 같은 많은 보석을 찾을 수 있을 것입니다.
 
@@ -612,7 +907,18 @@ $button-border-width: 1px; // this is a comment
 style-dictionary build
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 명령에 수정자를 전달하여 설정 파일의 경로와 빌드할 플랫폼을 지정할 수 있어요.
 
@@ -625,7 +931,18 @@ SD.buildAllPlatforms();
 
 또는 비슷한 방법을 사용하여 특정 플랫폼만 빌드하기도 할 수 있어요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 SD.buildPlatform("web");
@@ -637,7 +954,18 @@ Style Dictionary에는 사전 정의된 변환 그룹 세트가 포함되어 있
 
 일부 이러한 변환 함수는 토큰의 이름에 적용됩니다 (예: name/cti/camel 또는 name/cti/kebab), 일부는 값에 적용됩니다 (예: color/hex 또는 size/rem 또는 time/seconds), 그리고 일부는 속성에 적용됩니다 (예: attribute/cti).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 함수들은 토큰의 이름, 값 및 속성에 직접 작용하기 때문에, 원하는 속성 및 값 선언 방식과 어떤 식으로 결합되는지를 의미합니다. 예를 들어, 어떤 이유로 "시간" 값을 측정 단위와 함께 선언하거나 선언하지 않을 수 있습니다(이는 토큰을 사용할 사람과 데이터의 형식을 기대하는 방식에 따라 다릅니다). 그러나 시간/초 변환은 "밀리초 시간을 10진수로 변환한다"는 것을 가정하며, 이는 특정 입력 형식을 사용하는 경우에만 사용할 수 있다는 것을 의미합니다. 비슷한 방식으로, 거의 모든 사이즈/\*\* 변환은 입력 값으로 숫자를 가정하며, 카테고리가 `size` 조건과 일치하는 토큰에만 적용됩니다(이는 꼭 당신의 사용 사례가 아닌 경우도 있습니다).
 
@@ -647,7 +975,18 @@ Style Dictionary에는 사전 정의된 변환 그룹 세트가 포함되어 있
 
 그래서 Style Dictionary 라이브러리에서 제공된 API를 활용한 커스텀 빌드 스크립트를 작성하기로 결심했습니다. 저는 공식 문서에 설명된 예제를 토대로 시작했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const StyleDictionary = require("style-dictionary");
@@ -689,7 +1028,18 @@ console.log("\n======================================");
 console.log("\n빌드 완료!");
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 하는 것은 간단해요: 제가 보유한 모든 플랫폼과 브랜드를 루프를 돌면서, 각 조합마다 특정 빌드를 실행하고, 이 빌드는 동적 설정 객체를 받아들여 플랫폼과 브랜드를 매개변수로합니다.
 
@@ -757,7 +1107,18 @@ module.exports = getStyleDictionaryConfig;
 
 이 "컨셉 증명"이 작동하는 것을 보자마자, 설정 객체 주변을 만지작 거릴 시작했고, 디자인 토큰의 사용자 정의를 얼마나 많이 조절할 수 있는지 살펴보았어요. 결과는 모든 가능한 기대치를 능가했어요: Style Dictionary에서 제공하는 API를 한 번 더 사용하여 사용자 정의 형식, 사용자 정의 변환 및 변환 그룹, 나중에는 심지어 사용자 정의 템플릿 파일까지 손쉽게 도입하여 생성된 파일의 모든 세부사항을 조정할 수 있었어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 프로세스의 마지막 단계에서 나의 동적 구성 파일은 이렇게 보였어요:
 
@@ -840,7 +1201,18 @@ StyleDictionaryPackage.registerTemplate({
 ...
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 하는 것은, Style Dictionary에서 제공하는 기본 형식과 변형을 사용하는 대신, 나는 사용자 정의 함수를 만들고 있습니다 (각각은 몇 줄의 코드로 구성되어 있고 매우 유사합니다). 이러한 함수의 이름은 그냥 빌드 프로세스의 구성에서 형식, 변형, 변형 그룹, 그리고 템플릿을 선언하는 데 사용되는 매개변수입니다. 그게 다예요!
 
@@ -850,7 +1222,18 @@ StyleDictionaryPackage.registerTemplate({
 
 빌드 스크립트를 위해 비슷한 작업을 하고 싶은 경우, 과정에서 알아낸 몇 가지 흥미로운 팁과 트릭 몇 가지가 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 미리 정의된 함수 이름을 재정의할 수 있어요. (예: 이미 존재하는 size/px나 time/seconds 함수를 등록할 수 있어요)
 - 접두사 속성을 사용하여 토큰 이름 앞에 문자열을 추가할 수 있어요.
@@ -864,7 +1247,18 @@ StyleDictionaryPackage.registerTemplate({
 
 주의: 다시 강조하겠지만, 제가 한 것은 필요한 것과 달리 명확히 원하는 것을 알고 있을 때 제안하는 것이에요. 대부분의 경우 여러분에게 잘 동작할 것으로 예상되는 많은 미리 정의된 기본 설정을 가지고 있는 Style Dictionary가 제공해요. 사용 가능한 모든 사용자 정의 설정을 파헤치기 시작하기 전에 라이브러리에서 제공하는 기본 설정을 시도하고, 출력 파일을 확인하고 여러분의 요구 사항에 부합하는지 확인해보세요. 아마도 충분히 부합할 거에요. 그렇지 않다면, 생성된 출력 파일이 어떻게 되길 원하는지 생각해보고, 해당 특정 범위에 대해 사용할 API 메소드 중 어느 것을 사용할 수 있는지 살펴보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 생성된 디자인 토큰 파일들
 
@@ -880,7 +1274,18 @@ $token-avatar-size-xxsm: 36px;
 ...
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에서 설명한 대로, 변수 이름에는 "토큰" 접두사가 있습니다. 이것은 디자인 토큰에서 가져온 Scss 변수와 Scss 파일에서 선언된 일반 변수를 구분하는 데 사용됩니다.
 
@@ -896,7 +1301,18 @@ export const TOKEN_AVATAR_SIZE_XXSM = '36px';
 
 그리고 다음은 평평한 JSON 파일입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // ./dist/web/brand#1/tokens.json
@@ -985,7 +1401,18 @@ export const TOKEN_AVATAR_SIZE_XXSM = '36px';
 </dict>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 안드로이드용으로 출력될 내용은 다음과 같습니다:
 
@@ -1003,7 +1430,18 @@ export const TOKEN_AVATAR_SIZE_XXSM = '36px';
 
 # Github의 예제 프로젝트
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미 언급했듯이, 제가 만든 레포지토리는 바돗이(Design System at Badoo)의 디자인 토큰을 설정한 방식과 매우 유사한 예시를 담고 있어요. 이 GitHub 주소에서 데모를 확인할 수 있어요:
 
@@ -1016,7 +1454,18 @@ http://github.com/didoo/style-dictionary-demo
 - /templates 폴더에는 파일을 생성하는 데 사용되는 템플릿 파일이 들어 있어요.
 - /build.js에는 사용자 정의 함수의 선언부터 빌드 구성, 실제 빌드 실행까지 모두 포함된 전체 빌드 작업이 들어 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 비교적 간단한 사용 사례이지만, 다중 브랜드 및 플랫폼 디자인 토큰을 처리할 수 있는 Style Dictionary 프로젝트를 설정하고 구성하는 방법을 명확하게 보여줍니다. 제가 말했듯이, 영감을 얻는 데 사용하거나 자체 구현의 시작점으로 자유롭게 활용해보세요.
 
@@ -1026,7 +1475,18 @@ http://github.com/didoo/style-dictionary-demo
 
 최근 몇 일, 몇 주 동안 Style Dictionary를 많이 사용했고 매번 "와우. 제대로 작동하네요!" 라고 생각했습니다. 이 프로젝트의 모든 것이 기대한 대로 작동하며, 모든 것이 신중하게 고려되고 명확하다는 것(이 점에 대해 Danny Banks에게 크레딧)을 알 수 있었기 때문에 학습 곡선은 거의 제로입니다. 금방 꿈꿔왔던 일들을 하고 있는 자신을 발견하게 될 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 라이브러리에 대한 최상의 설명은 contributing.md 파일에 있습니다:
 
@@ -1036,6 +1496,17 @@ http://github.com/didoo/style-dictionary-demo
 
 업데이트:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 함께 공유 드리겠습니다. 저희 Cosmos에서는 색상, 타이포그래피 및 간격 이외에도 디자인 토큰을 사용하는 방법과 함께, 이러한 토큰에 메타 정보를 추가하여 필터링, 그룹화 및 후속 처리하는 방법에 대해 다루는 후속 게시물을 작성했습니다. 컴포넌트 속성 및 사양을 설명하는 데 얼마나 강력한지 확인해보세요!

@@ -3,16 +3,13 @@ title: "Nodejs 19가 출시, 새로운 기능 및 내용 정리"
 description: ""
 coverImage: "/assets/img/2024-05-27-Nodejs19isOutHerearetheNewUpdates_0.png"
 date: 2024-05-27 18:29
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-Nodejs19isOutHerearetheNewUpdates_0.png
 tag: Tech
 originalTitle: "Node.js 19 is Out! Here are the New Updates"
 link: "https://medium.com/bitsrc/node-js-19-is-out-here-are-the-new-updates-291beb89ba7f"
 isUpdated: true
 ---
-
-
-
 
 ## 노드 v19의 새로운 기능을 강조한 릴리스 노트의 친숙한 버전
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 그러나 Node.js 19의 릴리스 노트에서는 세부적으로 살펴보지 않는다면 발표 공지에서 놓칠 수 있는 흥미로운 정보가 몇 가지 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼 이제 우리가 가장 기대되는 것들을 살펴보겠습니다. 우리가 좋아하는 JavaScript 런타임의 버전 19에서 발표된 변경 사항 중에서 어떤 것들이 있는지요?
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 Deno가 CLI를 설계할 때 Node와 다른 접근 방식을 취했습니다. 그들의 사용자들에게 스크립트를 실행하는 간소화된 방법을 제공하는 대신에, Deno 팀은 모든 필요한 것을 단일 실행 파일로 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이는 파일 감시자, 테스트 러너, 코드 포멧터 등을 의미합니다. 지난 10년간 노드가 수행해온 것과는 확실히 다른 접근 방식이지만 작동하는 것으로 보입니다. Deno 개발자들과 대화를 나눈 후, 이 도구들이 한 곳에서 제공된다는 매력을 느낄 수 있었습니다.
 
@@ -42,7 +61,18 @@ Deno가 CLI를 설계할 때 Node와 다른 접근 방식을 취했습니다. �
 
 특히 이 플래그는 흥미롭습니다. 기본적으로 진입점 파일과 필요한 또는 가져온 종속성을 모두 감시합니다. 특정 폴더에서 변경 사항을 감시하려면(구성 파일 변경 사항을 감시하는 것과 유사한지 상정합니다), 실험 단계에 있는 watch-path 플래그를 명시해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금은 "감시 모드"에서 변경이 감지되면 Node.js 프로세스가 다시 시작될 뿐, 할 일이 많지 않아요.
 
@@ -52,7 +82,18 @@ Deno가 CLI를 설계할 때 Node와 다른 접근 방식을 취했습니다. �
 
 # 사용자 정의 ESM 해상도 조정 (이것을 빠트리지 마세요!)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 제목을 보고 나는 처음에 그냥 내부 플래그가 제거된 것 같다고 생각해서 건너뛰었어요. 정말 별로 관심이 없었거든요.
 
@@ -61,22 +102,44 @@ Deno가 CLI를 설계할 때 Node와 다른 접근 방식을 취했습니다. �
 사실 이름이 Node.js 핵심 개발자가 아니라면 약간 암호적일 수도 있지만, 기능은 그렇지 않아요. Node에서 파일을 이렇게 require 해본 적이 몇 번이나 있었나요?
 
 ```javascript
-const myPkg = require("./folder/file")
+const myPkg = require("./folder/file");
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 폴더에 확장자가 없다는 점에 주목하세요. 노드는 포기하기 전에 여러 가지 대안을 찾기 때문에 확장자를 생략한 것입니다.
 
 또는 이렇게 폴더를 직접 참조할 수도 있어요:
 
 ```javascript
-const myPkg = require("./my-folder")
+const myPkg = require("./my-folder");
 ```
 
 이 폴더 안에 index.js 파일이 있다면 동작할 거예요. 노드가 자동으로 해당 파일을 찾아줄 거에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 동일한 패키지를 가져오려고 시도하면 그렇지 않습니다. 노드의 "ESM specifier resolution"은 해당 추가 동작을 지원하지 않습니다. 올바른 확장명을 직접 지정하지 않는다면 파일을 찾을 수 없습니다.
 
@@ -84,11 +147,20 @@ const myPkg = require("./my-folder")
 
 다행히도 이제 Node.js 19에서는 이 문제가 더 이상 발생하지 않습니다. 새로운 로더로 이와 같은 작업을 수행할 수 있습니다:
 
-
 import file from `./file` // "file"에 올바른 확장명이 있으면 동작합니다
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아니요
 
@@ -98,7 +170,18 @@ import myFile from `./폴더` //만약 "폴더" 안에 "index.js"가 있다면
 
 읽은 내용이 마음에 드셨나요? IT 산업에서 2 10년 간의 지혜를 모두와 공유하는 무료 뉴스레터를 구독해 보세요. “늙은 개발자의 혼잣말”에 가입해 보세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 우리는 V8의 새 버전을 사용 중입니다
 
@@ -108,7 +191,18 @@ import myFile from `./폴더` //만약 "폴더" 안에 "index.js"가 있다면
 
 하지만 당신도 모를까봐요! 이번에 이루어진 이 업데이트는 Node.js가 런타임의 최신 릴리스를 사용하도록 유지시키고 우리가 뒤쳐지지 않게 하는 것 외에도, 특정 버전이 ECMAScript의 Stage 3 제안으로부터 새로운 업데이트를 소개하게 됐다는 사실이요: Intl.numberFormat API의 업데이트입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 언어의 새로운 기능을 사용해볼 때 항상 흥분되는데요, 특히 프로젝트에서 숫자를 다루는 경우에는 이 기능이 매우 흥미로울 거에요.
 
@@ -118,7 +212,18 @@ import myFile from `./폴더` //만약 "폴더" 안에 "index.js"가 있다면
 
 알지 못하셨다면, DTrace, SystemTap 및 ETW는 각각 다른 OS에서 작동하는 프로파일링 도구이며, Node.js 팀 내부에서 런타임이 모두와 호환되도록 유지되고 작동할 수 있도록 노력했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 이 외부 도구를 사용하여 프로필을 만들고 Node.js 기반 코드가 다른 상황에서 어떻게 실행되는지 이해할 수 있게 되었습니다.
 
@@ -128,7 +233,18 @@ import myFile from `./폴더` //만약 "폴더" 안에 "index.js"가 있다면
 
 과거에 이를 활용하셨나요? 이제는 어떻게 할 건가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다른 업데이트도 공지를 확인하면 찾을 수 있어요, 그런데 솔직히 이것들이 제 눈길을 사로잡았어요. 특히 조금 더 파헤쳐봐야 이해할 수 있는 부분들이요.
 
@@ -138,7 +254,18 @@ Node.js 19의 변경 사항에 대해 기대되시나요? 어떻게 당신에게
 
 ![Node.js 19 업데이트 이미지](/assets/img/2024-05-27-Nodejs19isOutHerearetheNewUpdates_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Bit의 오픈 소스 도구는 25만 명 이상의 개발자들이 구성 요소를 활용하여 앱을 구축할 수 있도록 도와줍니다.
 
@@ -148,7 +275,18 @@ Bit의 오픈 소스 도구는 25만 명 이상의 개발자들이 구성 요소
 
 앱을 구성 요소로 분할하여 앱 개발을 더 쉽게 만들고 원하는 작업 흐름에 대한 최상의 경험을 누릴 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## → 마이크로 프론트엔드
 
@@ -158,6 +296,17 @@ Bit의 오픈 소스 도구는 25만 명 이상의 개발자들이 구성 요소
 
 ## → 모노 레포(repository)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 더 알아보기

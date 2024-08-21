@@ -3,16 +3,13 @@ title: "당신의 Angular 프로젝트에 ESLint 설정하기"
 description: ""
 coverImage: "/assets/img/2024-06-20-SettingUpESLintinYourAngularProject_0.png"
 date: 2024-06-20 05:26
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-SettingUpESLintinYourAngularProject_0.png
 tag: Tech
 originalTitle: "Setting Up ESLint in Your Angular Project"
 link: "https://medium.com/@ayushgrwl365/setting-up-eslint-in-your-angular-project-888f210fc25e"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-06-20-SettingUpESLintinYourAngularProject_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 시작하기 전에 다음 전제조건이 갖추어져 있는지 확인해주세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Node.js 및 npm: 개발 머신에 Node.js 및 npm이 설치되어 있는지 확인해주세요.
 - Angular의 기본 이해: 이 안내서를 따라가기 위해서는 Angular 개발에 대한 이해가 필수적입니다.
@@ -35,7 +43,18 @@ isUpdated: true
 npx @angular/cli new your-angular-project
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "your-angular-project"을(를) 귀하의 프로젝트 이름으로 바꿔주세요. Angular CLI를 사용하면 프로젝트 설정을 안내받을 수 있습니다. 원하는 기능과 스타일시트를 선택할 수 있습니다.
 
@@ -47,7 +66,18 @@ ESLint는 인기 있는 JavaScript 린트 도구로, Angular 프로젝트에 쉽
 cd your-angular-project
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러면 프로젝트에 개발 의존성으로 ESLint를 설치해보세요:
 
@@ -59,7 +89,18 @@ npm install eslint --save-dev
 
 ESLint를 사용하면 프로젝트의 코딩 스타일과 가이드라인을 정의하는 규칙을 구성할 수 있습니다. 다음 명령어를 사용하여 프로젝트 디렉토리에 ESLint 구성 파일을 만들 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npx eslint --init
@@ -71,14 +112,25 @@ npx eslint --init
 
 ```js
 module.exports = {
-  extends: 'eslint:recommended',
+  extends: "eslint:recommended",
   rules: {
     // 여기에 사용자 정의 규칙을 추가하세요
   },
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 당신의 Angular 프로젝트와 통합하기
 
@@ -93,7 +145,18 @@ ESLint를 Angular 프로젝트와 통합하려면 package.json 파일에 linting
 
 lint 스크립트는 ESLint 위반 사항을 확인하고, lint:fix 스크립트는 이러한 문제 중 일부를 자동으로 수정하려고 시도할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # ESLint 체크 실행
 
@@ -103,7 +166,18 @@ lint 스크립트는 ESLint 위반 사항을 확인하고, lint:fix 스크립트
 npm run lint
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 > your-angular-project@0.0.0 lint /path/to/your-angular-project
@@ -123,10 +197,20 @@ ESLint가 코드 위반을 스캔하여 터미널에서 피드백을 제공할 �
 npm run lint:fix
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 코드를 다음과 같이 Markdown 형식으로 변경해주세요.
-
 
 This will apply automatic fixes to your code where possible.
 
@@ -136,8 +220,18 @@ To make the linting process even more seamless, consider installing ESLint plugi
 
 ## Conclusion
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 글에서는 다음과 같은 중요한 작업을 다루었습니다:
 

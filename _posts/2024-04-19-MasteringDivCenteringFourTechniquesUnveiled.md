@@ -3,17 +3,13 @@ title: "Div를 중앙 정렬하는 4가지 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Mastering Div Centering Four Techniques Unveiled"
 link: "https://medium.com/@nathananteneh2019/mastering-div-centering-four-techniques-unveiled-cb5e57715442"
 isUpdated: true
 ---
-
-
-
-
 
 ![MasteringDivCenteringFourTechniquesUnveiled_0](/assets/img/MasteringDivCenteringFourTechniquesUnveiled_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 플렉스박스와 그리드와 같은 클래식한 방법부터, 절대 위치 지정과 마진 트릭과 같은 변칙적인 접근법까지 알아보세요. 당신이 프론트엔드 전문가이든 백엔드 마스터이든, 이러한 기술을 숙달하면 웹 개발 능력이 향상될 것입니다. 지금 시작해서 당신의 div 가운데 정렬 잠재력을 발견해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 예시에서는 HTML과 CSS 보일러플레이트를 사용할 것입니다.
 
@@ -73,7 +80,18 @@ isUpdated: true
 
 # 방법 1. flex 박스 사용하기:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이는 div 또는 어떤 요소를 가운데 정렬하는 더 일반적이고 효율적인 방법입니다. 이 방법을 많이 볼 수 있을 것입니다.
 
@@ -85,7 +103,18 @@ display: flex;
 
 그런 다음 justify-content 속성을 center로 설정하면 (기본값은 "start"입니다), x축 또는 수평으로 content를 가운데 위치시킵니다. 이후 수직으로 가운데 정렬하려면 align-item 속성을 center로 설정하면 됩니다. (기본값은 "stretch"입니다) 그러면 content가 아주 잘 가운데 정렬될 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최종 CSS는 다음과 같을 것입니다:
 
@@ -115,7 +144,18 @@ display: flex;
 
 그리드 역시 효과적입니다. 주로 콘텐츠를 그리드 형식으로 구조화해야 할 때 사용됩니다. 해당 메소드를 달성하려면 container의 표시(display) 속성을 그리드로 설정해야 합니다. 이렇게 하면 기본 스타일 때문에 콘텐츠가 왼쪽 상단에 배치됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 display: grid;
@@ -147,7 +187,18 @@ display: grid;
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 방법 3. 절대 위치 사용하기:
 
@@ -159,7 +210,18 @@ display: grid;
 position: relative;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 컨텐츠의 위치 속성을 절대 위치로 설정해야 합니다.
 
@@ -171,7 +233,18 @@ position: absolute;
 
 이제 컨텐츠 클래스 내부에 top을 50%, left를 50%로 설정하면 요소가 중간에 위치하지만 정확히 중앙에는 위치하지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 position: absolute;
@@ -184,7 +257,18 @@ transform: translate(-50%, -50%);
 
 최종 CSS는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .container{
@@ -217,7 +301,18 @@ transform: translate(-50%, -50%);
 
 컨텐츠의 마진 왼쪽과 오른쪽을 모두 자동으로 설정하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 margin-left: auto;

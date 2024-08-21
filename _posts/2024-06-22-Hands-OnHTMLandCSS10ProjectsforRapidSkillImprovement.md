@@ -3,16 +3,13 @@ title: "실전 HTML과 CSS 빠른 실력 향상을 위한 10개 프로젝트"
 description: ""
 coverImage: "/assets/img/2024-06-22-Hands-OnHTMLandCSS10ProjectsforRapidSkillImprovement_0.png"
 date: 2024-06-22 15:35
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-Hands-OnHTMLandCSS10ProjectsforRapidSkillImprovement_0.png
 tag: Tech
 originalTitle: "Hands-On HTML and CSS: 10 Projects for Rapid Skill Improvement"
 link: "https://medium.com/@gitbitpy/hands-on-html-and-css-10-projects-for-rapid-skill-improvement-27465bedbe0c"
 isUpdated: true
 ---
-
-
-
 
 HTML과 CSS를 숙달하는 것은 시각적으로 매력적인 웹사이트를 만드는 데 그치지 않습니다 — 사용자 경험을 공감시키는 것입니다. 처음부터 시작하든지 기술을 더욱 향상시키는 중이든, 저희가 선별한 10일 가이드는 실전 프로젝트로 학습을 가속화하는 데 도움이 될 것입니다.
 
@@ -26,7 +23,18 @@ HTML과 CSS를 숙달하는 것은 시각적으로 매력적인 웹사이트를 
 
 2일차: Flexbox를 사용하여 유연한 항목 위치 지정 및 그리드를 사용하여 구조화된 카드 배열을 디자인하고 구현해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 프로젝트는 나중에 추가될 예정입니다. (22/6/24)
 
@@ -36,7 +44,18 @@ Day 3: CSS Grid을 활용하여 반응형이고 시각적으로 매력적인 고
 
 Day 4: 부드러운 전환 효과와 컨트롤을 갖춘 가로 및 세로 이미지 슬라이더를 개발하여 이미지를 쇼케이스하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 나중에 프로젝트가 추가될 예정입니다. (24/6/24)
 
@@ -46,6 +65,17 @@ Day 4: 부드러운 전환 효과와 컨트롤을 갖춘 가로 및 세로 이�
 
 - 나중에 프로젝트가 추가될 예정입니다. (26/6/24)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일일 프로젝트를 수행하면서 링크를 업데이트할 예정입니다. 이를 통해 CSS를 단계별로 숙달하는 데 집중하고, 각 날짜 학습 목표와 일치하는 관련 자습서 및 자료에 액세스할 수 있습니다. 제 진행을 따라가고 최신 업데이트를 확인하려면 정기적으로 방문해주세요. 즐거운 코딩하세요!

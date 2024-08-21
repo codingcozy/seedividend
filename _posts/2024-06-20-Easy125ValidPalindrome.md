@@ -3,16 +3,13 @@ title: "쉬운 125번 유효한 회문"
 description: ""
 coverImage: "/assets/img/2024-06-20-Easy125ValidPalindrome_0.png"
 date: 2024-06-20 02:36
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-Easy125ValidPalindrome_0.png
 tag: Tech
 originalTitle: "Easy 125 Valid Palindrome"
 link: "https://medium.com/@jacktsai045/easy-125-valid-palindrome-ec4f5da21e9c"
 isUpdated: true
 ---
-
-
-
 
 LeetCode 50 두 포인터
 
@@ -26,7 +23,18 @@ Output: true
 Explanation: "amanaplanacanalpanama"는 회문입니다.
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 예제 2
 
@@ -41,11 +49,22 @@ Explanation: "amanaplanacanalpanama"는 회문입니다.
 ```js
 입력: s = " "
 출력: true
-설명: 비어있는 문자열 ""은 알파벳이나 숫자가 아닌 문자를 제거한 후에 남는 문자열입니다. 
+설명: 비어있는 문자열 ""은 알파벳이나 숫자가 아닌 문자를 제거한 후에 남는 문자열입니다.
 앞으로 읽거나 뒤로 읽어도 동일하기 때문에 회문입니다.
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 해결책
 
@@ -62,20 +81,31 @@ class Solution:
         while left < right:
             while left < right and not s[left].isalnum():
                 left += 1
-            
+
             while left < right and not s[right].isalnum():
                 right -= 1
-            
+
             if s[left].lower() != s[right].lower():
                 return False
 
             left += 1
             right -= 1
-        
-        return True
-```  
 
-<div class="content-ad"></div>
+        return True
+```
+
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## TypeScript
 
@@ -97,7 +127,18 @@ txt4 = "HelloWorld"
 print(txt4.isalnum())  # 결과: True
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 참고 자료
 

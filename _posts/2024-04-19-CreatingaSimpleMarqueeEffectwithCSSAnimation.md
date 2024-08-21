@@ -3,17 +3,13 @@ title: "CSS 애니메이션을 이용한 간단한 마퀴 효과 만들기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Creating a Simple Marquee Effect with CSS Animation"
 link: "https://medium.com/@stheodorejohn/creating-a-simple-marquee-effect-with-css-animation-bbd52bb0dbf8"
 isUpdated: true
 ---
-
-
-
-
 
 ## 화려한 마키 효과를 만들어 사용자들을 매료시키세요. 지금 웹 디자인을 업그레이드하세요! 😍🌟 #CSSAnimation #WebDesign ✨🎉
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 HTML 구조:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, 마퀴의 HTML 구조를 살펴봅시다. "marquee" 클래스를 가진 `div` 요소가 포함된 `span` 요소가 있습니다. `span` 안의 텍스트가 화면을 가로지르는 내용이 됩니다.
 
@@ -33,7 +40,18 @@ CSS 스타일은 마퀴의 모양과 동작을 정의합니다. "marquee" 클래
 
 ## CSS 애니메이션:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 노출 보호를 위해 `span` 요소에 애니메이션 속성이 적용되어 있습니다. 애니메이션은 "marquee"로 명명되었으며 지속 시간은 10초입니다. 이를 선형으로 실행되고 무한히 반복하도록 설정했습니다.
 
@@ -43,7 +61,18 @@ CSS 스타일은 마퀴의 모양과 동작을 정의합니다. "marquee" 클래
 
 ## 코드 스니펫:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <!DOCTYPE html>
@@ -87,6 +116,17 @@ CSS 애니메이션과 keyframes를 결합하여 간단하지만 효과적인 �
 
 CSS 애니메이션을 통해 다양한 웹 요소에 적용할 수 있는 이 마퀴 효과는 웹사이트의 헤드라인, 공지사항 또는 주요 콘텐츠와 같이 다양한 부분에 적용할 수 있습니다. CSS 애니메이션은 매혹적이고 상호작용적인 웹 경험을 만들 수 있는 강력한 도구 세트를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 희망 했던 기사가 더 나은 이해를 돕기를 바랍니다. 이 기사에서 논의한 내용이나 개선할 부분에 대한 질문이 있다면 주저하지 말고 아래에 댓글을 남겨주세요.

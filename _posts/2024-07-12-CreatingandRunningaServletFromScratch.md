@@ -3,17 +3,13 @@ title: "처음부터 서블릿 만들기와 실행하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-12-CreatingandRunningaServletFromScratch_0.png"
 date: 2024-07-12 21:29
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-12-CreatingandRunningaServletFromScratch_0.png
 tag: Tech
 originalTitle: "Creating and Running a Servlet From Scratch"
 link: "https://medium.com/codex/creating-and-running-a-servlet-from-scratch-6c9a23d74afb"
 isUpdated: true
 ---
-
-
-
-
 
 ![Servlet](/assets/img/2024-07-12-CreatingandRunningaServletFromScratch_0.png)
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 주요 단계는 다음과 같습니다:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Tomcat을 다운로드하고 설치하세요.
 - HttpServlet을 확장하는 Java 클래스를 작성하세요.
@@ -41,7 +47,18 @@ isUpdated: true
 
 Tomcat의 최신 버전은 직접 공식 웹사이트에서 다운로드할 수 있습니다. 사용 중인 운영 체제에 따라 적절한 버전을 다운로드하세요. 이 예시에서는 맥 시스템을 사용합니다. 다운로드한 후에는 간단히 아카이브를 해제하세요. 해제 후 디렉토리 구조는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-12-CreatingandRunningaServletFromScratch_1.png" />
 
@@ -56,7 +73,18 @@ Tomcat 설치 디렉토리의 주요 디렉토리를 간단히 살펴보겠습�
 
 ## 2. HttpServlet을 상속하는 Java 클래스 생성하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 javax.servlet 패키지는 Servlet 인터페이스를 구현하는 GenericServlet 추상 클래스를 제공합니다. 이 클래스는 Servlet을 만들기 위해 확장할 수 있는 편리한 클래스입니다. 그러나 대부분의 Servlet은 HTTP 환경에서 요청을 처리하므로 Servlet 사양은 GenericServlet을 확장하고 HTTP 기능을 추가한 HttpServlet을 제공합니다. HttpServlet 클래스를 상속받아 doGet 및 doPost 두 가지 메서드만 재정의하여 우리만의 Servlet을 구현할 수 있습니다.
 
@@ -98,7 +126,18 @@ public class MyServlet extends HttpServlet {
 
 이 Servlet은 매우 간단한 작업을 수행합니다. doGet() 및 doPost() 메서드의 본문에 기본 HTML 스니펫을 반환합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 3. Java 파일을 클래스 파일로 컴파일하기
 
@@ -110,7 +149,18 @@ javac -cp ./servlet-api.jar MyServlet.java
 
 성공적으로 컴파일한 후에, 현재 디렉토리에 MyServlet.class라는 파일을 찾을 수 있을 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 4. 웹 애플리케이션을 위한 디렉토리 구조 설정
 
@@ -121,7 +171,18 @@ javac -cp ./servlet-api.jar MyServlet.java
 
 그런 다음, 다음 내용으로 web.xml에 서블릿을 구성하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <?xml version="1.0" encoding="UTF-8"?>
@@ -131,21 +192,21 @@ javac -cp ./servlet-api.jar MyServlet.java
   http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
   version="4.0"
   metadata-complete="true">
- 
+
     <description> Servlet Example. </description>
     <display-name> MyServlet Example </display-name>
     <request-character-encoding>UTF-8</request-character-encoding>
- 
+
     <servlet>
       <servlet-name>myServlet</servlet-name>
       <servlet-class>MyServlet</servlet-class>
     </servlet>
- 
+
     <servlet-mapping>
       <servlet-name>myServlet</servlet-name>
       <url-pattern>/myservlet</url-pattern>
     </servlet-mapping>
- 
+
 </web-app>
 ```
 
@@ -155,7 +216,18 @@ javac -cp ./servlet-api.jar MyServlet.java
 
 Tomcat 애플리케이션을 배포하는 것은 매우 간단합니다. MyWebApp 디렉토리를 Tomcat 설치 디렉토리의 webapps 디렉토리로 복사하기만 하면 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 6. 톰캣 시작하기
 
@@ -165,7 +237,18 @@ Tomcat 애플리케이션을 배포하는 것은 매우 간단합니다. MyWebAp
 
 웹 브라우저에서 다음 URL에 액세스하십시오: http://localhost:8080/MyWebApp/myservlet. 확인되어야 하는 내용은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 내 서블릿!
@@ -178,21 +261,43 @@ Tomcat 설치 디렉토리에있는 logs 디렉토리를 열어보세요. Tomcat
 - 접속 로그: 접속 시간, IP 주소, 요청 경로 등과 같은 정보를 기록하는 이러한 로그들이 있습니다.
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각 로그 파일에 대한 간단한 설명은 다음과 같습니다:
 
-- catalina.***.log 이 파일은 주로 Tomcat 시작 프로세스에 관한 정보를 기록하며, JVM 매개변수와 운영 체제 로그를 포함합니다.
+- catalina.\*\*\*.log 이 파일은 주로 Tomcat 시작 프로세스에 관한 정보를 기록하며, JVM 매개변수와 운영 체제 로그를 포함합니다.
 - catalina.out catalina.out은 Tomcat의 표준 출력(stdout) 및 표준 오류(stderr)를 나타내며, Tomcat 시작 스크립트에서 지정됩니다. 수정되지 않았다면, stdout와 stderr는 이 파일로 리디렉션됩니다. 따라서 여기에서 MyServlet.java 프로그램이 출력하는 정보를 볼 수 있습니다: MyServlet handling GET request...
-- localhost.**.log 이 파일은 웹 애플리케이션 초기화 중 발생한 처리되지 않은 예외를 기록합니다. Tomcat은 이러한 예외를 포착하여 이 로그 파일로 출력합니다.
-- localhost_access_log.**.txt 이 파일은 Tomcat에 대한 요청 로그를 포함하여 IP 주소, 요청 경로, 시간, 요청 프로토콜 및 상태 코드와 같은 정보를 기록합니다.
-- manager.***.log / host-manager.***.log 이 파일들은 Tomcat의 내장 Manager 및 Host Manager 웹 애플리케이션에 대한 로그 정보를 포함합니다.
+- localhost.\*\*.log 이 파일은 웹 애플리케이션 초기화 중 발생한 처리되지 않은 예외를 기록합니다. Tomcat은 이러한 예외를 포착하여 이 로그 파일로 출력합니다.
+- localhost_access_log.\*\*.txt 이 파일은 Tomcat에 대한 요청 로그를 포함하여 IP 주소, 요청 경로, 시간, 요청 프로토콜 및 상태 코드와 같은 정보를 기록합니다.
+- manager.**_.log / host-manager._**.log 이 파일들은 Tomcat의 내장 Manager 및 Host Manager 웹 애플리케이션에 대한 로그 정보를 포함합니다.
 
 ## 주석을 사용하여 서블릿 배포하기
 
 주석을 사용하여 서블릿을 배포하는 방법을 보여주기 위해, 먼저 서블릿 클래스에 @WebServlet 주석을 추가하여 Java 코드를 수정합니다. 업데이트된 코드는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 import java.io.IOException;
@@ -210,7 +315,7 @@ public class AnnotationServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        
+
         System.out.println("AnnotationServlet Handling GET Requests......");
         PrintWriter out = response.getWriter();
         response.setContentType("text/html; charset=utf-8");
@@ -229,7 +334,7 @@ public class AnnotationServlet extends HttpServlet {
 
     }
 
-} 
+}
 ```
 
 이 코드에서 가장 중요한 부분은 @WebServlet 어노테이션이며, 두 가지 주요 정보를 전달합니다:
@@ -241,7 +346,18 @@ public class AnnotationServlet extends HttpServlet {
 @WebServlet("/myAnnotationServlet")
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자바 클래스를 생성한 후 일반적으로 컴파일하고 MyWebApp의 class 디렉토리에 생성된 .class 파일을 둡니다. Servlet 구성에 웹.xml이 더 이상 필요하지 않기 때문에 원래 웹.xml을 삭제해야 합니다. 그런 다음 Tomcat을 다시 시작하고 브라우저에서 다음 URL을 입력하여 새로운 AnnotationServlet이 성공적으로 배포되었는지 확인하세요: http://localhost:8080/MyWebApp/myAnnotationServlet. 결과를 확인해야 합니다:
 
@@ -253,7 +369,18 @@ Annotation Servlet!
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오늘의 학습과 실습을 통해 이제 HttpServlet을 확장하여 자체 Servlet을 만드는 방법, Servlet을 컴파일하는 방법, 그리고 web.xml을 사용하여 Servlet을 배포하는 방법을 이해하게 되셨어요. 또한 Tomcat을 시작하는 방법, 다양한 Tomcat 로그를 확인하는 방법, 그리고 어노테이션을 사용하여 Servlet을 배포하는 방법도 연습했어요. 이 실습을 통해 Servlet이 어떻게 작동하는지에 대한 이해가 깊어지리라 믿어요.
 

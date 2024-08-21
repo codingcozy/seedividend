@@ -3,17 +3,13 @@ title: "팀 내에서 최악의 개발자들이 가지고 있는 습관"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How It Feels to be the Worst Developer on a Team and How it Accelerated My Career"
 link: "https://medium.com/@brianjenney/how-it-feels-to-be-the-worst-developer-on-a-team-and-how-it-accelerated-my-career-85a24d54c7f9"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/HowItFeelstobetheWorstDeveloperonaTeamandHowitAcceleratedMyCareer_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 내 연봉도 두 배로 뛰었어. 이직 결정을 내리는 건 당연한 선택이었어.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 첫 날부터 머리가 따갑다는 것을 알았어요.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 하지만 적어도 Javascript는 알았다고 생각했어요... 최소한 그렇게 생각했던 것만큼요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1일차에는 온보딩이 없었습니다. 나는 곧바로 선임 개발자와 CTO와 함께 작업을 시작했습니다.
 
@@ -43,7 +61,18 @@ Dijkstra에 관한 농담이 있었어요. 그 사람은 누구야?
 
 호이스팅이 테스트에 영향을 주었어요. 저는 이전에 테스트를 작성해본 적이 없었죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 전반적으로 팀원들은 제게 매우 인내심을 가지고 있었어요. 하지만...
 
@@ -53,7 +82,18 @@ Dijkstra에 관한 농담이 있었어요. 그 사람은 누구야?
 
 또한, 도움을 요청하지 않아 한 달 정도 더 걸린 기능이 있었죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제 과업량을 따라가기 어려워지면서 클로저, 클래스, 테스팅과 같은 개념을 파악하는 데 어려움을 겪었죠. 그래서 다른 개발자들과의 협업이 어려워졌습니다.
 
@@ -65,7 +105,18 @@ CTO/공동 창업자님과 1:1 미팅을 가졌는데, 제가 개선해야 할 �
 
 이런 것들이 해볼만한 일들로 보였어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그런 다음 깨달음이 왔어요.
 
@@ -78,7 +129,18 @@ CTO/공동 창업자님과 1:1 미팅을 가졌는데, 제가 개선해야 할 �
 - 유튜브 래빗 홀에 빠져들기
 - 화가 나서 이직하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 내 소통 및 코딩 스킬을 향상시키는 데 아주 잘 작동했던 것 몇 가지가 있어요.
 
@@ -91,7 +153,18 @@ CTO/공동 창업자님과 1:1 미팅을 가졌는데, 제가 개선해야 할 �
 
 언젠가 이 회사를 떠나 더 큰 스타트업에서 일하게 되었는데, 여기서 배운 교훈들을 활용하여 시니어로 승진했어요. 그 때 느꼈던 게 아프더라도 CTO가 그 피드백을 주어주었던 건 엄청난 도움이었어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 책을 읽는 게 너의 스타일이라면... 정말로 해야 할 일이야. 나를 더 나은 개발자와 엔지니어 관리자로 만든 몇 권의 책들이 있어:
 
@@ -105,7 +178,18 @@ CTO/공동 창업자님과 1:1 미팅을 가졌는데, 제가 개선해야 할 �
 
 행동은 불안을 치료해 준다는 걸 명심해.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에서 언급한 책들을 몇 권 읽어 보면서 자신의 부족한 부분을 파악하고 강화할 계획을 세워보세요. 더 나은 실력으로 성장할 수 있을 거예요.
 

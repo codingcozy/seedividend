@@ -3,15 +3,13 @@ title: "Kafka, Redis, Postgres, Kubernetes를 활용한 실시간 파이프라�
 description: ""
 coverImage: "/assets/img/2024-07-09-Real-TimePipelineMicroservicesProjectwithKafkaRedisPostgresandKubernetes_0.png"
 date: 2024-07-09 19:43
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-Real-TimePipelineMicroservicesProjectwithKafkaRedisPostgresandKubernetes_0.png
 tag: Tech
 originalTitle: "Real-Time Pipeline Microservices Project with Kafka, Redis, Postgres, and Kubernetes."
 link: "https://medium.com/stackademic/real-time-pipeline-microservices-project-with-kafka-redis-postgres-and-kubernetes-a09e40c20520"
 isUpdated: true
 ---
-
-
 
 # 소개
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 # STG-Service
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Redis 클라이언트
 
@@ -49,7 +58,18 @@ class RedisClient:
 
 # Postgres 클라이언트
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터베이스에 연결하는 것 외에도, 클라이언트는 하나의 컨텍스트 매니저의 일부로 여러 쿼리를 실행할 수 있는 기능을 제공하여 한 트랜잭션의 실행 명령을 커밋할 필요가 없어요 (나중에 사용 예제를 보게 될 거에요):
 
@@ -165,7 +185,18 @@ class KafkaConsumer:
         return json.loads(val)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # STG Schema
 
@@ -185,7 +216,18 @@ CREATE TABLE IF NOT EXISTS stg.order_events (
 
 그리고 이를 실행할 파이썬 함수는:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 from lib.pg.pg_connect import PgConnect
@@ -203,7 +245,18 @@ def make_stg_migrations(db: PgConnect) -> None:
 
 먼저 소비된 카프카 메시지를 STG 포스트그레스 테이블(StgRepository)에 삽입한 다음, 레디스에서 레스토랑 데이터를 풍부하게하여 다른 카프카 클러스터(StgMessageProcessor)를 위한 출력 메시지를 구성해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 from datetime import datetime
@@ -314,7 +367,18 @@ class StgMessageProcessor:
 
 소스/싱크 카프카, Redis 및 포스트그레스와 연결해야 합니다. 이것은 확실히 많은 구성이 필요하며 환경 변수를 사용해야 하므로 이를 별도의 클래스에서 수용할 것입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 import os
@@ -426,7 +490,18 @@ if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', use_reloader=False)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Dockerfile
 
@@ -453,7 +528,18 @@ CMD ["app.py"]
 
 로컬 테스트를 위해 Docker Compose를 사용하여 스테이징 서비스를 실행할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```yaml
 version: "3.9"
@@ -516,7 +602,18 @@ PG_PASSWORD=**********
 
 # HELM 차트
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Chart.yaml 파일:
 
@@ -590,7 +687,18 @@ resources:
     memory: 128Mi
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```yaml
 templates/configmap.yaml은 우리 서비스의 구성을 저장하는 k8s 엔터티입니다. values.yaml 파일의 config 블록에서 모든 키-값 쌍을 가져올 것입니다:
@@ -649,7 +757,16 @@ spec:
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 STG-Service의 소스 코드는 여기에서 찾을 수 있어요.
 
@@ -659,7 +776,16 @@ STG-Service 이후의 모든 것은 실제로 매우 쉬워집니다. 다른 서
 
 가장 큰 차이점은 데이터 모델링 방식에 있습니다 (Data Vault 2.0을 사용합니다):
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CREATE SCHEMA IF NOT EXISTS dds;
 
@@ -862,7 +988,16 @@ class DdsRepository:
                 })
     def l_order_user_insert(self, user_id: str, order_id:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 수신 메시지를 HUB, SATELLITE 및 LINK로 분할합니다 - 이는 우리 데이터 모델의 주요 개체입니다. 또한, 마지막 단계로, 메시지를 출력 Kafka 클러스터로 준비하여 다음 다운스트림 서비스에 전달합니다.
 
@@ -872,7 +1007,16 @@ app.py 파일은 기본적으로 동일합니다: 서비스를 백그라운드 �
 
 다른 서비스들과 유사하게 작동하며 여기에서 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 스택아데믹 🎓
 

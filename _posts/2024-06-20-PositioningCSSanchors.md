@@ -3,16 +3,13 @@ title: "CSS 앵커의 위치 조정"
 description: ""
 coverImage: "/assets/img/2024-06-20-PositioningCSSanchors_0.png"
 date: 2024-06-20 00:52
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-PositioningCSSanchors_0.png
 tag: Tech
 originalTitle: "Positioning CSS anchors"
 link: "https://medium.com/@evayde/positioning-css-anchors-f847c03b4f78"
 isUpdated: true
 ---
-
-
-
 
 ![](/assets/img/2024-06-20-PositioningCSSanchors_0.png)
 
@@ -23,7 +20,18 @@ Popover API는 툴팁 주변의 많은 도전에 대한 해결책을 제공합�
 업데이트: 사양이 변경되었습니다. 최근 예시는 다음에서 찾을 수 있습니다:
 https://codepen.io/una/pen/KKYXMNo
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 팝오버 API 간단 소개
 
@@ -41,7 +49,18 @@ https://codepen.io/una/pen/KKYXMNo
 
 편의를 위해 다음에 제공된 피들(fiddle)을 확인해보세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에서 보듯이, id와 popovertarget 속성에 의해 생성된 두 항목 간에 링크가 있습니다.
 
@@ -51,7 +70,18 @@ https://codepen.io/una/pen/KKYXMNo
 
 앵커 위치 지정 속성을 통해 우리는 요소를 앵커 요소와 상대적으로 페이지 어디에든 배치할 수 있습니다. 요소의 레이아웃과 관계없이 (position absolute와 같이)요소를 배치할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오늘 앵커 위치 지정을 시도하려면 Chrome에서 실험적인 웹 플랫폼 기능을 활성화해야 합니다(chrome://flags/#enable-experimental-web-platform-features) 또는 최신 개발자 채널을 사용하세요(Chrome 125부터 기본으로 활성화되며, 2024년 5월 8일에 안정 버전이 될 것입니다).
 
@@ -69,7 +99,18 @@ https://codepen.io/una/pen/KKYXMNo
 
 그리고 앵커가 어떻게 동작해야 하는지 알려주기 위해 CSS를 추가하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 #my-tooltip {
@@ -85,8 +126,18 @@ https://codepen.io/una/pen/KKYXMNo
 
 그러나 아랫부분에도 충분한 공간이 없으면 상단 위치로 다시 이동하게 됩니다. 심지어 거기에도 충분한 공간이 없다면 (다른 곳으로 갈 곳이 없기 때문에):
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-20-PositioningCSSanchors_2.png" />
 
@@ -96,8 +147,18 @@ https://codepen.io/una/pen/KKYXMNo
 
 <img src="/assets/img/2024-06-20-PositioningCSSanchors_3.png" />
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기까지 입니다!
 읽어 주셔서 정말 감사합니다.

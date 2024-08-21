@@ -3,17 +3,13 @@ title: "UIUX 글꼴 색상 검정색 대신에 000 사용해야하는 이유"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Font colors for ui ux design instead of pure black 000000"
 link: "https://medium.com/design-bootcamp/font-colors-to-use-instead-of-pure-black-000000-a53944d4e3eb"
 isUpdated: true
 ---
-
-
-
-
 
 UI/UX 디자인에 가장 적합한 색상을 찾아보세요. 가독성을 높이고 눈의 피로를 줄이는 것이 목적입니다. Obsidian, Lava Black, Oil Black, Midnight Blue, Oil Slick과 같은 순수한 검정색 대안들을 소개하며 그들의 색상 코드를 포함했습니다.
 
@@ -24,7 +20,18 @@ UI/UX 디자인에 가장 적합한 색상을 찾아보세요. 가독성을 높�
 UI/UX 디자인을 고려할 때, 선택한 색상이 중요합니다.
 검정색은 세련된 룩 때문에 안전한 선택처럼 보일 수 있지만, 실제로 눈에 스트레스를 주는 경향이 있습니다. 특히 어두운 조명에서는 읽기가 어려울 수 있습니다. 그래서 눈에 부담을 덜 주면서도 멋진 느낌을 낼 수 있는 몇 가지 쿨하고 부드러운 색상에 대해 이야기해보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/Fontcolorsforuiuxdesigninsteadofpureblack000000_1.png)
 
@@ -34,7 +41,18 @@ UI/UX 디자인을 고려할 때, 선택한 색상이 중요합니다.
 
 ![이미지](/assets/img/Fontcolorsforuiuxdesigninsteadofpureblack000000_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 라바 블랙 (#352f36): 따뜻한 분위기
 
@@ -44,7 +62,18 @@ UI/UX 디자인을 고려할 때, 선택한 색상이 중요합니다.
 
 ## 오일 블랙 (#0C0C0C): 깔끔하고 현대적
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Oil Black은 현대적이고 미니멀한 룩을 연출할 때 제격입니다. 거의 검은 색이지만 부드러움이 느껴져 눈을 편안하게 해줘요. 눈부심 없이 모든 것이 매우 세련된 모습으로 보여집니다.
 
@@ -54,7 +83,18 @@ Oil Black은 현대적이고 미니멀한 룩을 연출할 때 제격입니다. 
 
 그 다음은 Midnight Blue인데, 늦은 밤에 사용하는 친구처럼 생각해보세요. 어두운데 안정감 있는 파란 느낌이 있어서 밤에 읽기가 훨씬 수월해요. 게다가 정말 멋지게 보여집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/Fontcolorsforuiuxdesigninsteadofpureblack000000_5.png)
 
@@ -64,7 +104,18 @@ Oil Black은 현대적이고 미니멀한 룩을 연출할 때 제격입니다. 
 
 ## 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 순수한 검은색 대신 이러한 대안 색상을 사용하면 디자인에 큰 차이를 줄 수 있어요. 이 색상들을 탐험하면 UI/UX 프로젝트가 시각적으로 더 매력적이고 사용자가 상호 작용하기 편안해질 거예요. 순수한 검은색으로 인한 눈 피로와 작별하고 보다 읽기 쉽고 매력적인 디자인으로 안녕하세요!
 

@@ -3,16 +3,13 @@ title: "자바에서 If Else 없이 입력 검증하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-NomoreIfelseinputvalidationinJava_0.png"
 date: 2024-07-09 21:33
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-NomoreIfelseinputvalidationinJava_0.png
 tag: Tech
 originalTitle: "No more If else input validation in Java"
 link: "https://medium.com/@vishvakalhara/no-more-if-else-input-validation-in-java-ccdc931439f9"
 isUpdated: true
 ---
-
-
-
 
 우리가 직접 모든 입력을 유효성 검사해야 하는 걸까요?
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 최근에, 저는 Java를 사용하여 독립 실행형 응용 프로그램 개발을 배우기 시작했습니다. 학습과정은 흥미로웠지만, 한 가지 중요한 고충이 있었습니다. 클라이언트 입력 데이터를 처리할 때, 핵심 백엔드 로직에 집중하는 대신에 검증에 많은 시간을 쏟아야 했습니다. 네, 유효성 검사는 중요하지만, 계속해서 물어보게 되는 실제 질문은 "정말 우리가 모든 입력을 직접 유효성 검사해야만 하는 걸까요?"
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자바에서는 Hibernate Validator, Apache Commons Validator, Spring Validation과 같이 유명한 유효성 검사 라이브러리가 여러 개 있습니다. 이러한 라이브러리들은 강력하고 다양한 기능을 제공하지만, 많은 일반적인 사용 사례에 대해 지나치게 과할 수 있다고 생각합니다. 내 생각에는 때로는 사용자가 값을 입력했는지 또는 입력한 텍스트가 유효한 이메일인지 확인하는 등 기본적인 확인 작업만 수행할 필요가 있는 경우도 있습니다. 이러한 간단한 유효성 검사에는 이러한 라이브러리를 사용하는 것이 불필요하게 복잡할 수 있습니다.
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 저는 경량화된 유효성 검사 라이브러리를 개발하는 아이디어를 생각해 냈습니다. 이전에 TypeScript용 스키마 유효성 검사 라이브러리인 Zod를 사용해 봤습니다. Spark Validator는 Zod와 유사하게 작동합니다. 단순히 Spark의 여러 메소드를 연결하여 사용자 입력을 유효성 검사할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 설치
 
@@ -46,13 +65,24 @@ import com.wishva.*;
 
 4. 이 라이브러리의 메소드는 항상 "SparkException"이라는 유효성 검사 오류를 발생시키므로 개발자는 try/catch 블록을 사용하여 처리해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 try{
-  
+
   // 유효성 검사
-  
+
 } catch (SparkException ex) {
   JOptionPane.showMessageDialog(this, ex.getMessage(), ex.title, JOptionPane.ERROR_MESSAGE);
 }
@@ -71,7 +101,18 @@ try {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 이메일 주소 유효성 검사 👇
 
@@ -95,9 +136,20 @@ String password = new Spark("Password", txtBoxPassword.getPassword())
 new Spark("Confirm Password", txtBoxConfirmPassword.getPassword())
          .required()
          .equals(password, "Passwords does not match!");
-```  
+```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 정수 유효성 검사하기 👇
 
@@ -121,9 +173,20 @@ try {
 } catch (SparkException e) {
     System.out.println(e.getMessage());
 }
-```  
+```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

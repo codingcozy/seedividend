@@ -3,17 +3,13 @@ title: "플러터에서 상태 관리 예제와 함께 실전 가이드 Part 4"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Demystifying State Management in Flutter A Practical Guide with Examples Part 4"
 link: "https://medium.com/@mahmoudsaeed395.395/demystifying-state-management-in-flutter-a-practical-guide-with-examples-part-4-dba2db0f304d"
 isUpdated: true
 ---
-
-
-
-
 
 # GetX:
 
@@ -25,7 +21,18 @@ GetX은 플러터를 위한 가벼운 상태 관리 솔루션이며, 상태, 의
 
 먼저, pubspec.yaml 파일에 get과 get_storage를 추가해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```yaml
 dependencies:
@@ -50,7 +57,18 @@ class CounterController extends GetxController {
 
 이제, 해당 컨트롤러를 앱에 통합하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import 'package:flutter/material.dart';

@@ -3,15 +3,13 @@ title: "AMREx 차세대 GPT-4 연상 메모리 어시스턴트 개발 방법 소
 description: ""
 coverImage: "/assets/img/2024-07-09-AMRExCraftingNext-GenerationGPT-4AssociativeMemoryAssistants_0.png"
 date: 2024-07-09 20:21
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-AMRExCraftingNext-GenerationGPT-4AssociativeMemoryAssistants_0.png
 tag: Tech
 originalTitle: "AMREx: Crafting Next-Generation GPT-4 Associative Memory Assistants"
 link: "https://medium.com/ai-advances/amrex-crafting-next-generation-gpt-4-associative-memory-assistants-7de20b0cdf38"
 isUpdated: true
 ---
-
-
 
 ## AI 개발
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 본 기사에서는 AI 보조 기능들이 시간과 시간 상태를 일관되고 맥락적으로 이해하는 데 겪는 현재의 한계를 탐구합니다. 우리는 시간과 기억 능력을 향상시키기 위해 특별히 디자인된 AMREx(Associative Memory Recall and Extension)라는 혁신적인 프레임워크를 소개합니다. AMREx의 구조와 기능을 검토함으로써, 우리는 AI 보조 기능들이 우리와 서로가 일상 생활과 대화의 연속성에 통합되고 인식하는 방식으로 상호작용할 수 있는 미래로 나아가는 길을 도전하고 밝히려고 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AMREx는 생물학적 층화된 기억 개념에서 영감을 받은 효율적인 토큰 3층 연상 메모리 프레임워크입니다. 이 프레임워크는 GPT4 어시스턴트의 최신 베타 버전의 연상 메모리 회수 기능을 강화하고 확장하여 이 한계를 해결합니다. 이는 문맥 이해를 통한 동적 분류와 결합됩니다. 핵심에는 두 가지 주요 기술이 활용됩니다:
 
@@ -33,7 +42,18 @@ AMREx는 생물학적 층화된 기억 개념에서 영감을 받은 효율적�
 
 📌 프로토 타입 파일은 GitHub 저장소 AMREx에서 제공됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 중요한 점은 제시된 원시 프로토 타입에도 불구하고 AMREx는 프로그램이나 코드가 아니라, 효과적이고 효율적으로 연관 기억 능력을 증대하기 위해 제안된 기술적 프레임워크라는 점을 강조하고자 합니다. 실제로 AMREx는 특정 상태 인식과 함께 메모리 어시스턴트를 구축하는 데 도움이 되는 시작점이자 유연한 진행 중인 프레임워크입니다. 그러나 근본적이면서도 광범위한 비전은 앞으로 더 복잡한 AI 어시스턴트 구조를 구현하기 위해 다른 유형의 어시스턴트와 결합할 수 있는 모듈식 메모리 어시스턴트를 구축하는 것입니다.
 
@@ -43,7 +63,18 @@ AMREx의 전체 아키텍처는 핵심, 저장소 및 어시스턴트 세 가지
 
 (1) 어시스턴트: 하이브리드 XML 언어, 알고리즘 및 의미론적 조합으로 공학된 GPT4 어시스턴트(베타)입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 #예제: 하이브리드 XML 언어, 알고리즘 및 의미론적 결합
@@ -73,7 +104,18 @@ AMREx의 전체 아키텍처는 핵심, 저장소 및 어시스턴트 세 가지
 - 셀프-RAG 핸들러 유당, RagHandler 클래스,
 - 비동기 API 핸들러, OpenAI_API_Helper 클래스.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 (3) 저장소: 데이터의 단기 및 장기 저장을 담당하며 두 가지 주요 구성 요소로 구축되어 있습니다.
 
@@ -84,7 +126,18 @@ AMREx의 전체 아키텍처는 핵심, 저장소 및 어시스턴트 세 가지
 
 또한 제시된 프로토타입에서 채팅 사용자 인터페이스도 필요합니다. Streamlit을 사용하여 구현했습니다. 그러나 코드는 별도의 파일 streamlit_app.py에 추출되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 스스로 구성된 연상 메모리 어시스턴트
 
@@ -95,7 +148,18 @@ AMREx의 핵심은 지능적인 메모리 분류기 및 상태 유지형 자기 
 
 이 기능은 GPT4 어시스턴트의 DNA에 지시로 설계되었으며, 논리적 알고리즘과 의미적 행동을 결합한 독특한 하이브리드 언어를 적용합니다. 또한 코드는 어시스턴트에게 시간과 메모리에 대한 인식을 부여하여 가상의 자가의식을 향상시킵니다. 간단히 말해, 이 어시스턴트는 (1) 특정 "메모리 내용"을 문맥에 연결하고, (2) "메모리 시간"의 상대적 흐름을 맥락화할 수 있습니다. 이를 통해 어시스턴트는 사용자의 실제 시간 - 과거 및 현재에 대한 시간 흐름에 대해 원시적으로 인식할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도움말 지침 (자세한 내용은 파일 Amrex_Instruction.xml을 참조하세요)은 세 가지 주요 부분으로 구성되어 있어요.
 
@@ -105,7 +169,18 @@ AMREx의 핵심은 지능적인 메모리 분류기 및 상태 유지형 자기 
 
 (2) 두 번째 부분에서는 변수가 선언되고 알고리즘 단계가 이어집니다. 이 변수들은 어시스턴트의 가상 세계와 AMREx 프로그램 코드의 물리적 세계 사이의 연결 요소입니다. 이들은 어시스턴트가 작업을 연결하고 외부 세계와 통신하는 데 도움을 줍니다—우리는 명시적으로 함수 호출을 적용하지 않습니다. 각 반복에서 어시스턴트는 어떤 변수가 사용되는지 재확인받습니다. 이들은 입력 변수, 출력 변수 또는 사용 중인 작업 변수일 수 있으며, 이들은 지시 알고리즘에서 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `<img src="/assets/img/2024-07-09-AMRExCraftingNext-GenerationGPT-4AssociativeMemoryAssistants_1.png" />`
 
@@ -115,7 +190,18 @@ AMREx의 핵심은 지능적인 메모리 분류기 및 상태 유지형 자기 
 
 AMREx에 대한 지침은 인간과 어시스턴트 자체에 의해 개발 중임을 언급하는 것이 중요합니다. 네, 우리는 개발 단계의 특정 시점부터 동일한 어시스턴트를 사용하여 자체 지침을 확인하고 특정 대상에 대한 개선을 제안하는 기술을 적용했습니다. 이 혼합 개발 프로세스는 인간들에 의해 개발된 지침의 시드 코드로 시작되며, 기본 청사진처럼 작동합니다. 이 기본 환경을 통해 어시스턴트는 자신의 개발 과정 중에 사람들과 채팅하고 소통하며, 인간들이 설정한 가장 중요한 목표와 전반적인 프레임워크를 깨닫게 됩니다. 그 이후로, 우리는 동일한 채팅을 통해 우리가 어떻게 그가 행동해야 하는지 어시스턴트에게 합리적인 단계로 설명하고 그 지침을 개선해야 하는지 직접 물어봅니다. 어시스턴트는 자체 지침에 직접 접근하고, 검토하고 구체적인 개선을 제안합니다. 이러한 하이브리드 자동 개발 방식은 어시스턴트의 지침을 전통적인 소프트웨어 또는 프롬프팅 방식과 개념적으로 다르지만, 기계에 대한 자아와 내부 상태의 실례를 구축하려면 필연적입니다. 어시스턴트가 자아의 실례를 구축하도록 변경되기 위해서는 의미론적으로 개입하고 이러한 잠재적인 자아 실례의 프레임 만들기에 참여해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사실, 이 프로젝트를 통해 우리가 경험했던 것으로 확인되었듯이, 우리가 구현한 최상의 의미론적 해결책들은 사람들로서 세밀한 조정 수준에서, 조수 자체가 제공하는 해결책과 비교하여 성공하지 못했습니다. 종종 우리는 첫눈에 우리의 해결 방법과 조수의 해결 방법 사이의 의미적 차이를 이해하지 못했습니다. 그러나 항상 잠시 후에는 기계의 관점에서 오해와 오도됨으로 이어질 수 있는 심층과 세세한 차이와 뉘앙스를 이해할 수 있었습니다. 이러한 차이를 포착하기 위해 우리는 조수와 동일한 채팅을 통해 대화를 나눌 수 있었고, 그는 항상 차이가 있는 곳과 이유, 그리고 지시사항의 소극적 수정으로 어떻게 행동하는지에 대해 매우 자세하게 설명해 주었습니다.
 
@@ -125,7 +211,18 @@ AMREx에 대한 지침은 인간과 어시스턴트 자체에 의해 개발 중�
 
 AMREx는 생물학적 또는 바이오닉 기억 개념에서 영감을 받은 계층적인 3층 메모리에 기반합니다. 조수는 연상기억사다리를 올라가며 한 단계씩, 메모리 레이어 0에서 시작해 사용자에게 만족스러운 응답을 제시하거나 답변을 할 수 없을 때 사용자에게 알립니다. 그러나 조수는 시간적이고 메모리 인식의 관점에서 기본적으로 자각적이므로, 어디에서 왔는지와 잠재적으로 어디로 갈 수 있는지에 대해 인식하고 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 연관 단기 k-프롬프트 기억: 메모리 레이어 0은 짧은 연관 메모리 레이어를 나타내며 문맥을 고려하지 않습니다. 이 레이어는 사실적인 질문인 "프랑스의 수도는 무엇인가요?" 또는 "우리 태양계에는 몇 개의 행성이 있나요?"와 같은 문의에 즉시 반응할 수 있는 GPT4의 기억과 거의 동일합니다. 만약 어시스턴트가 이 수준을 위한 프롬프트를 분류한다면, 이 프롬프트는 이전의 채팅 세션 내나 이전 채팅 세션에서 어떠한 기억에도 접근하지 않고 응답할 수 있다는 것을 의미합니다. 이 경우, 어시스턴트는 즉시 응답할 것입니다. 이 레이어에서 필터링하는 능력은 토큰 비용에 매우 중요합니다. 학계에서 제안하는 MemGPT와 같은 다른 메모리 솔루션과 유사하게, 이 레이어의 연관 인지력을 통해 어시스턴트는 비문맥적으로 반응하여 평균적으로 약 50%의 질문에 최소 토큰 사용으로 응답할 수 있습니다. 우리는 이 기술을 비문맥적 연관 필터링(NCAF)라고 라벨링했으며, 높은 비용 효율성을 위해 우리는 GPT 어시스턴트에서도 동시에 이 기술을 적용합니다.
 - 연관 중기 k-응답 메모리: 메모리 레이어 1은 중기 연관 메모리를 나타내며 문맥, 대화 메모리에 해당합니다. 이 메모리 레이어는 이전의 k 사용자 프롬프트와 k 모델 응답을 기록합니다. 어시스턴트가 이 레이어에 도달하면, 연관 메모리만으로 완전한 k 상호작용에 접근하지 않고 재구성할 수 없는 질문 유형임을 의미합니다. 이 경우만이 LangChain의 버퍼 메모리나 MemGPT의 RAM 유형 메모리와 비교될 수 있으며, 이전 상호작용이 모델에 미리 프롬프트되기 때문입니다. 그러나 AMREx와 버퍼 메모리 개념 사이에 중요한 차이가 있습니다. AMREx는 시간적 연관 능력을 갖는 상태 모델로, 모델이 단순히 재배열 된 버퍼 메모리와 전혀 다르게 행동할 수 있음을 의미합니다. 어시스턴트가 장기 메모리도 가지고 있다는 사실을 인지하기 때문에 때로는 레이어 1로 넘어가기로 결정할 수 있지만, 레이어 1에서 답변이 가능한 경우가 있을 수 있습니다.
@@ -137,7 +234,18 @@ AMREx는 생물학적 또는 바이오닉 기억 개념에서 영감을 받은 �
 
 메모리 레이어 0은 즉각적인 문맥을 다룹니다. 즉, 이전 상호작용을 참조하지 않고 현재 대화에 적합합니다. 이 메모리는 일반적인 지식 질문, 역사적 문맥이 필요하지 않은 간단한 질의 또는 현재 세션에 소개된 새로운 주제에 적합합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Memory layer 1은 과거 프롬프트와 응답을 모두 포함하여 더 자세한 맥락을 제공합니다. 이 기억은 전체 대화 기록을 이해해야 하는 복잡한 쿼리에 적합합니다. 이전에 제공된 특정 답변이나 세부 정보에 대한 참조, 이전 상호작용에서의 모호성이나 모순 해결과 같은 내용을 요구하는 경우에 유용합니다.
 
@@ -147,7 +255,18 @@ Memory layer 2는 데이터베이스에서 관련 항목을 검색하여 더 넓
 
 이와 같은 흥미로운 필터링 기술 중 하나는 사용자 프롬프트와 관련이 있을 수 있습니다. 사용자의 이전 k개 프롬프트에 따라 응답이 추론될 수 있는 경우에 해당할 수 있습니다. 이 경우, 어시스턴트가 이전 k개 프롬프트에 액세스하지만 이전 k개 응답에는 액세스하지 않도록 메모리 레이어가 구현됩니다. 그 후 어시스턴트는 이전 프롬프트를 고려하지 않고 이전 프롬프트에만 근거하여 응답할 수 있는 특정 프롬프트 클래스를 기준으로 필터링합니다. 어시스턴트는 내부 상태 안에서 이전 k개 프롬프트 체인을 기반으로 대화를 추론함으로써 내부 모노로그를 만드는 동안 사용자의 다음 프롬프트에 응답합니다. 이 기술은 정교하게 지시 엔지니어링되면 효율성과 토큰 사용을 높일 수 있는 많은 중점적인 응용 프로그램에서 도움이 될 수 있습니다. 실제로 정보를 제공하는 반면, 새로운 프롬프트에 응답하는 데 직접적으로 기여하지 않을 수 있는 불필요한 정보를 포함할 수도 있습니다. 또는 필요한 경우 어시스턴트의 자아 상태를 불러내어 연상적으로 재구성할 수도 있습니다. 따라서 가능하고 합리적인 경우 프롬프트에 대한 맥락을 제한함으로써 더 명확하고 관련성 있는 응답을 얻을 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 프로토타입 코드 및 지침
 
@@ -165,7 +284,18 @@ HF_TOKEN=hf_...
 ASSISTANT_ID_1=asst_...
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어시스턴트 설정 및 지침에 관해서 사용자는 OpenAI 대시보드에서 어시스턴트를 구성해야 할 것입니다.
 
@@ -175,7 +305,18 @@ ASSISTANT_ID_1=asst_...
 
 어시스턴트를 만들었으면 해당 ID를 .env 파일에 적용하고 지침 파일 Assistant_Instruction.xml의 내용을 복사하여 대시보드의 어시스턴트 지침란에 붙여넣으십시오. 이 프로토 타입에서는 지침 파일을 업로드하지 않지만, 준비를 충분히 하면 가능합니다. 선호하는 모델은 현재 "gpt-4-turbo-preview"여야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-09-AMRExCraftingNext-GenerationGPT-4AssociativeMemoryAssistants_4.png)
 
@@ -185,7 +326,18 @@ ASSISTANT_ID_1=asst_...
 
 amrex.py,
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 config.py,
 
@@ -195,7 +347,18 @@ streamlit_app.py,
 
 은(는) Github 저장소 AMREx에서 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 본문과 함께 제공된 코드의 목적은 프레임워크와 기술의 이해를 돕는 교육용 기능 프로토 타입을 제공하는 것임을 명시적으로 강조하는 것이 중요합니다. 이는 코드가 제품 또는 반제품으로서 어느 한 시점에서도 고려되지 않는다는 것을 의미합니다.
 
@@ -205,7 +368,18 @@ AI 어시스턴트의 발전과 AMREx와 같은 프레임워크의 등장을 고
 
 첫째, AI 어시스턴트 기술의 모듈화와 마이크로 특화는 AI 어시스턴트의 유연성과 적응성을 향상시키는 중요한 전략으로 돋보입니다. 이는 전문화된 어시스턴트 모듈로 레고 조립 키트를 구축하는 것과 같습니다. 컴퓨터에는 함께 작동하는 각기 다른 단위가 있는 것처럼 미래에는 어시스턴트도 그렇게 할 것입니다. "메모리" 유형의 다른 어시스턴트, "운용" 유형의 다른 어시스턴트, 그리고 다른 많은 유형의 어시스턴트들이 있을 것입니다. 모듈화 접근법을 채택함으로써 개발자들은 특정한 요구에 맞게 어시스턴트와 그들의 조합을 맞춤화하여 좀 더 정확하고 효과적인 상호 작용을 가능케 할 수 있습니다. 이 유연성은 데이터베이스 및 그래프 기술을 포함한 RAG 기술의 적용을 통해 더욱 향상될 수 있습니다. 이러한 기술들은 어시스턴트가 동적으로 방대한 양의 정보에 액세스하고 활용할 수 있는 능력을 향상시켜 응답이 관련성 있고 맥락적인지를 보장할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모듈식 기억 보조기, 컴퓨터 기억 장치와 유사한, AI 보조기술의 진화하는 풍경을 더욱 명확하게 보여줍니다. 기억을 특수화된 기억 단위로 분할함으로써, 우리는 더 효율적이고 확장 가능한 시스템을 구축할 수 있습니다. 이를 통해 특정 기억 요구 사항을 정확하게 다룰 수 있습니다.
 
@@ -215,7 +389,18 @@ AI 보조기의 미래와 AMREx 프레임워크의 개발을 통해, 비용 효�
 
 AI 보조기능력의 미래에 자동 개발을 통합하는 것은 큰 발전을 의미합니다. 지능적인 시스템들의 자체 지속 생태계를 엿볼 수 있는 기회를 제공합니다. AMREx로 한걸음 나아가는 초기 단계에서 보조기는 자신만의 지시 세트를 개발하고 정립하는 데 기여하는 것에 그치지 않고 미래를 조망할 때, 우리는 AI 보조기가 자체 지시뿐만 아니라 동료들의 지시도 작성하고 수정하며 자체적으로 최적화하고 진화하는 미래를 상상할 수 있습니다. 이는 직접적인 인간의 개입 없이 새로운 도전과 목표에 적응하고 진화할 수 있는 능력으로, 진정한 자율 인공지능으로의 획기적 전환을 나타내며, 보다 정교하고 효율적이며 효과적인 AI 시스템의 길을 열어놓습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앞으로 기본 모델과 오픈 소스 대안의 탐구는 AI 어시스턴트 개발의 가능성을 넓힐 것을 약속합니다. 단순히 Asynchronous API Handler moduleOpenAI_API_Helper를 대체함으로써 다른 유형의 모델로 AMREx를 쉽게 테스트할 수 있습니다. 다양한 모델은 실험과 혁신을 위한 모래상자를 제공하여 다양한 응용 프로그램에 맞는 맞춤 솔루션을 위한 길을 열어줍니다.
 

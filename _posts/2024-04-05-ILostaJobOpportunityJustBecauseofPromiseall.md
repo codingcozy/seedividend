@@ -3,17 +3,13 @@ title: "Promiseall을 직접 만드는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "I Lost a Job Opportunity Just Because of Promiseall"
 link: "https://medium.com/@fatfish/i-lost-a-job-opportunity-just-because-of-promise-all-28cf5d399cae"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/ILostaJobOpportunityJustBecauseofPromiseall_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 사실, 나는 이 면접관의 행동에 어리둥절해. Promise.all을 구현할 수 없다는 게 기초를 제대로 확립하지 못했다는 걸 의미하는 걸까? 이상하지 않아?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음에서 Promise.all 및 다른 중요한 Promise 메서드에 대해 이해하기 쉽게 설명하려고 노력했습니다. 그러니 시작해 봅시다.
 
@@ -33,7 +40,18 @@ MDN에서:
 
 “Promise.all() 메서드는 promises의 iterable을 입력으로 받아들이고, 입력 promises의 결과 배열로 해결되는 단일 Promise를 반환합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 반환된 Promise는 입력된 모든 Promise가 이행되었을 때 또는 입력된 반복 가능(iterable)이 약속을 포함하지 않을 때 이행될 것입니다.
 
@@ -43,7 +61,18 @@ MDN에서:
 
 Promise.all을 사용하는 방법을 검토하기 위해 몇 가지 예제를 작성해 보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 시점에서 이미 구현하는 방법을 알고 계실 거예요. 정말 쉽죠?
 
@@ -53,7 +82,18 @@ Promise.all을 사용하는 방법을 검토하기 위해 몇 가지 예제를 �
 
 Promise.myAll이 Promise.all과 똑같이 작동하는 것을 확인할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 2. Promise.resolve
 
@@ -63,7 +103,18 @@ MDN에서:
 
 “Promise.resolve() 메소드는 주어진 값(value)을 Promise로 "해결(resolve)"합니다. 값이 promise인 경우 해당 promise가 반환되고, 값이 thenable인 경우 Promise.resolve()는 미리 준비된 두 개의 콜백을 사용하여 then() 메소드를 호출할 것이고, 그렇지 않은 경우 반환된 프로미스는 값으로 완료될 것입니다.”
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시
 
@@ -73,7 +124,18 @@ Promise.resolve가 이렇게 쉬울 줄 몰랐어요.
 
 테스트 해보세요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 3. Promise.reject
 
@@ -83,7 +145,18 @@ MDN에 따르면:
 
 “Promise.reject() 메서드는 지정된 이유로 거부된 Promise 객체를 반환합니다.”
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예제
 
@@ -93,7 +166,18 @@ Promise.reject를 구현하는 것은 매우 쉽습니다. 해야 할 일은 새
 
 테스트를 해보세요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 4. Promise.race
 
@@ -103,7 +187,18 @@ MDN에서:
 
 예제
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요!
 
@@ -119,7 +214,18 @@ MDN에서:
 
 # 5. Promise.allSettled
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 우리가 구현할 Promise의 마지막 API이며, 실제로 거의 사용되지 않습니다.
 
@@ -129,7 +235,18 @@ MDN에서:
 
 일반적으로 서로에게 의존하지 않는 여러 비동기 작업을 성공적으로 완료하거나 각 프로미스의 결과를 항상 알고 싶을 때 사용됩니다.”
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 약속.all()에 의해 반환된 약속은, 작업들이 서로 의존적이거나 그 중 하나가 거부될 경우 즉시 거부하고 싶을 때 더 적합할 수 있습니다."
 
@@ -139,7 +256,18 @@ MDN에서:
 
 내 친구야, 잠시만 기다려. 글이 곧 끝나갑니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 예제를 통해 우리는 그 규칙을 요약합니다.
 
@@ -151,6 +279,17 @@ MDN에서:
 
 # 마지막으로
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 감사합니다. 저의 팔로우와 높은 품질의 더 많은 글을 읽기를 기대하고 있습니다.

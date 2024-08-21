@@ -3,16 +3,13 @@ title: "NVIDIA GPU로 Ollama Docker를 사용해 RHEL 9에서 LLaMA 3 모델 실
 description: ""
 coverImage: "/assets/img/2024-07-10-RunningLLaMA3ModelwithNVIDIAGPUUsingOllamaDockeronRHEL9_0.png"
 date: 2024-07-10 02:42
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-10-RunningLLaMA3ModelwithNVIDIAGPUUsingOllamaDockeronRHEL9_0.png
 tag: Tech
 originalTitle: "Running LLaMA 3 Model with NVIDIA GPU Using Ollama Docker on RHEL 9"
 link: "https://medium.com/@blackhorseya/running-llama-3-model-with-nvidia-gpu-using-ollama-docker-on-rhel-9-0504aeb1c924"
 isUpdated: true
 ---
-
-
-
 
 ![이미지](/assets/img/2024-07-10-RunningLLaMA3ModelwithNVIDIAGPUUsingOllamaDockeronRHEL9_0.png)
 
@@ -22,7 +19,18 @@ NVIDIA GPU의 성능을 활용하여 AI 및 머신러닝 작업을 수행하면 
 
 NVIDIA 드라이버와 CUDA 툴킷을 포함한 적절한 설정을 통해 GPU에서 대규모 언어 모델(LLMs)을 실행할 수 있습니다. 이 글에서는 RHEL 9.3 워크스테이션에서 이를 어떻게 구현할 수 있는지 자세히 안내합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 준비 사항
 
@@ -32,7 +40,18 @@ NVIDIA 드라이버와 CUDA 툴킷을 포함한 적절한 설정을 통해 GPU�
 
 워크스테이션 사양:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - OS: RHEL 9.3
 - RAM: 128GB
@@ -45,7 +64,18 @@ NVIDIA 드라이버와 CUDA 툴킷을 포함한 적절한 설정을 통해 GPU�
 
 # 1. 환경 준비하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, NVIDIA 드라이버와 CUDA 툴킷이 설치되어 있는지 필요한 요구 사항을 충족시키는지 확인하세요.
 
@@ -55,7 +85,18 @@ Ollama 도커 컨테이너는 CPU 또는 GPU를 활용하고자 하는지에 따
 
 ### CPU 전용 버전으로 시작하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일단 모든 것이 올바르게 설정되었는지 확인하기 위해 CPU 전용 버전을 실행하는 것이 좋을 수 있어요:
 
@@ -67,14 +108,34 @@ docker run -d -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama
 
 환경을 깔끔하게 유지하고 초기에 볼륨을 마운트하지 않으려면 다음을 사용할 수 있어요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```shell
 도커 명령을 수정하여 GPU를 활용하여 성능을 향상시키려면 다음과 같이 변경하실 수 있어요:
 
 docker run -it --rm --gpus=all -v /home/ollama:/root/.ollama:z -p 11434:11434 --name ollama ollama/ollama
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 명령은 도커 컨테이너가 사용 가능한 모든 GPU에 액세스하고 SELinux 권한을 처리하기 위해 /home/ollama 디렉토리를 모델 저장소로 마운트합니다.
 
@@ -84,7 +145,16 @@ Ollama 도커 컨테이너가 작동 중인 상태에서, 다음 단계는 LLaMA
 
 docker exec -it ollama ollama pull llama3
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다운로드를 완료한 후에는 사용 가능한 모델을 나열하고 원하는 모델을 실행할 수 있어요:
 
@@ -95,7 +165,16 @@ docker exec -it ollama ollama run llama3
 
 모델을 테스트하려면 curl 명령어를 사용하여 API에 요청을 보낼 수 있어요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 curl http://localhost:11434/api/generate -d '{
 "model": "llama3",

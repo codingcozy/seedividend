@@ -3,17 +3,13 @@ title: "React query, Axios를 사용하여 데이터를 변환하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How to use React query, Axios and a custom request processor to transform your data"
 link: "https://medium.com/@amavictor/how-to-use-react-query-axios-and-a-custom-request-processor-to-transform-your-data-2a9f0c9f5bf0"
 isUpdated: true
 ---
-
-
-
-
 
 ![Screenshot](/assets/img/HowtouseReactqueryAxiosandacustomrequestprocessortotransformyourdata_0.png)
 
@@ -23,7 +19,18 @@ React Query는 React 애플리케이션 내에서 데이터를 관리하기 위�
 
 # 단계 1: Axios 클라이언트 및 request processor 설정하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React Query 코드를 구현하기 전에 프로젝트 구조를 설정하는 것이 중요합니다. Utils 폴더를 만들어 프로젝트 구조를 조직화하세요. 이 폴더 안에 Network.js 파일을 생성해 요청 처리기를 구현하세요. 요청 처리기를 설정하는 단계는 다음과 같습니다:
 
@@ -46,8 +53,7 @@ export const request = async (options) => {
     token = accessToken;
   }
   // 인가 헤더 설정
-  token !== "" &&
-    (client.defaults.headers.common.Authorization = `Bearer ${token}`);
+  token !== "" && (client.defaults.headers.common.Authorization = `Bearer ${token}`);
 
   const onSuccess = (response) => {
     return response?.data?.data;
@@ -65,7 +71,18 @@ export const request = async (options) => {
 
 요청 함수는 이 설정에서 중심적인 역할을 하며 헤더 설정, 요청 생성, 견고한 오류 처리, 반환된 데이터 형식 변환에 도움을 줍니다. 또한 특정 프로젝트 요구 사항에 따라 맞춤화할 수 있는 여지가 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요청 기능이 준비되면 React Query 내에서 사용자 정의 훅을 만들어 API 요청을 간편하게 처리하고 데이터를 추가로 변환할 수 있습니다. 구체적으로, 사용자 정의 useApiSend 및 useApiGet 훅을 만들어 외부 및 내부 요청에 사용할 수 있습니다.
 
@@ -102,7 +119,18 @@ useApiGet 코드 스니펫에서는 쿼리 키를 받아들이는 것을 볼 수
 
 마찬가지로 useApiSend는 POST, PUT, PATCH, DELETE 등의 외부 요청을 용이하게 처리합니다. useApiGet과 유사하게 fn(함수), 성공 시 작업을 정의하는 success 매개변수, 오류 처리를 담당하는 error 매개변수, 무효화를 위한 쿼리 키 및 React Query 옵션과 같은 매개변수를 받습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 2: useApiGet 사용하기
 
@@ -112,7 +140,18 @@ useApiGet 코드 스니펫에서는 쿼리 키를 받아들이는 것을 볼 수
 
 ![이미지2](/assets/img/HowtouseReactqueryAxiosandacustomrequestprocessortotransformyourdata_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 이미지는 URL 파일을 구조화하는 방법을 설명하기 위한 것입니다. 이제 토론으로 돌아가 봅시다. "feeds" 엔드포인트에 대한 GET 요청을 만들어보겠습니다.
 
@@ -163,7 +202,18 @@ return (
 
 위의 코드는 useApiGet을 사용하여 GET 요청을 하는 간단한 설명을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 3: 데이터 변이
 
@@ -219,7 +269,18 @@ return (
 )
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서는 POST 요청을 만들고 있어요. 먼저 createPost 함수를 정의하여 URL, 메소드 및 데이터를 요청 처리기에 전달하여 요청을 수행합니다. 또한 axios.post, axios.get, axios.patch 등의 Axios 함수를 활용하고 요구 사항에 맞게 더 맞춤화된 API 훅을 만들 수 있어요. useApiSend 훅은 React Query의 useMutation과 유사한 모든 메소드와 변수를 노출하며 요청을 수행하고 로딩 및 오류 상태를 관리하는 데 도움이 되도록 만들어졌어요.
 
@@ -229,6 +290,17 @@ return (
 
 React Query를 Axios와 함께 활용함으로써 사용자 친화적이고 유지 보수 가능한 견고한 데이터 관리 솔루션을 구축할 수 있어요. 데이터 가져오기, 캐싱 및 서버와의 동기화를 관리하는 간단하고 우아한 접근 방식을 제공해줘요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 감사합니다! 또 봐요!

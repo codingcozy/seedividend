@@ -3,7 +3,7 @@ title: "웹 스크레이퍼로부터 사이트를 안전하게 보호하는 방�
 description: ""
 coverImage: "/assets/img/2024-06-20-HowtoSecureYourSiteAgainstWebScrapers_0.png"
 date: 2024-06-20 07:15
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-HowtoSecureYourSiteAgainstWebScrapers_0.png
 tag: Tech
 originalTitle: "How to Secure Your Site Against Web Scrapers"
@@ -11,16 +11,24 @@ link: "https://medium.com/bitsrc/how-to-secure-your-site-against-web-scrapers-th
 isUpdated: true
 ---
 
-
-
-
 ## 가장 좋은 브라우저 지문 기술입니다. 당신만의 지문 코드를 몇 분 안에 구현하는 법을 배워보세요!
 
 ![이미지](/assets/img/2024-06-20-HowtoSecureYourSiteAgainstWebScrapers_0.png)
 
 브라우저 지문 기술은 사용자를 고유하게 식별하고 싶은 다양한 상황에서 사용되는 보안 기술입니다. 물론, 그러한 상황 중 하나는 당신의 웹 사이트를 스크랩하는 경우입니다. 사용자 에이전트나 IP를 확인하는 것과 같은 제한적인 탐지 기술을 사용하면 그 정보를 쉽게 변경할 수 있으며 당신은 알지 못할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 브라우저 핑거프린트와 같은 것을 구현한다면, 그들의 작업을 훨씬 더 어렵게 만들 수 있습니다. 왜냐하면 가짜로 만들기 어려운 정보를 사용하기 때문이죠.
 
@@ -30,7 +38,18 @@ isUpdated: true
 
 이 제목이 어려운 것처럼 들릴 수 있지만, 핑거프린트란 특정 입력 데이터 집합으로부터 생성된 해시에 불과합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 진짜 핵심은 어떻게 그것에 도달하는지에 있어요.
 
@@ -40,7 +59,18 @@ isUpdated: true
 
 각 브라우저는 캔버스 요소에 콘텐츠를 렌더링하는 방식에 약간의 차이가 있습니다. 이들은 미묘한 차이이므로 찾고 있지 않다면 정말로 발견하기 어렵습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 특정한 사용 사례는 여러 사실을 활용합니다:
 
@@ -52,7 +82,18 @@ isUpdated: true
 
 최고의 부분은 캔버스 요소를 숨길 수 있어서 사용자가 실제로 무엇을 하는지 알 수 없다는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 미디어 장치 목록
 
@@ -62,7 +103,18 @@ isUpdated: true
 
 다음 코드는 시스템에서 모든 미디어 장치를 나열합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 MDN 공식 문서에서 가져온 코드입니다. 제 Firefox에서 실행하면 다음 출력이 나옵니다:
 
@@ -74,7 +126,18 @@ MDN 공식 문서에서 가져온 코드입니다. 제 Firefox에서 실행하�
 
 ## 오디오 파형 지문분석
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 캔버스 요소 기술과 마찬가지로 Web Audio API를 사용하여 오디오 클립을 생성할 수도 있습니다. 고정된 소스(모든 시스템에 동일한 입력을 제공하는 발진기)를 기반으로 하고 출력의 해시를 계산할 수도 있습니다.
 
@@ -82,7 +145,18 @@ Web Audio API의 복잡성을 고려하면, 많은 수학과 부동 소수점 �
 
 이러한 값은 브라우저와 운영 체제를 식별하는 데 사용할 수 있는 신뢰할 수 있는 지문으로 사용할 수 있습니다. 특히, 브라우저의 시크릿 모드를 사용하더라도 동일한 지문이 유지됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 직접 지문코드를 구현해 봅시다
 
@@ -92,7 +166,18 @@ Web Audio API의 복잡성을 고려하면, 많은 수학과 부동 소수점 �
 
 이 기술을 사용하려면 텍스트가 포함된 그림을 캔버스 요소 내부에 그리고, 그 그림을 단일 해시로 변환해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 해야 할 일은 캔버스를 정의하고 그 안에 몇 가지 모양을 그리고 텍스트를 추가한 다음, 그 위에서 toDataURL 메서드를 호출하는 것 뿐이에요. 기본적으로 캔버스는 우리의 이미지를 PNG로 변환하고, 그것을 단일 해시 값으로 변환할 겁니다.
 
@@ -102,7 +187,18 @@ Web Audio API의 복잡성을 고려하면, 많은 수학과 부동 소수점 �
 
 ![How to Secure Your Site Against Web Scrapers](/assets/img/2024-06-20-HowtoSecureYourSiteAgainstWebScrapers_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당연히 실제 이미지는 상당히 추악합니다. 우리는 지금 아름다운 것을 만들려는 것이 아니라 해시에 대해 걱정하고 있습니다. 크롬과 시크릿 모드의 크롬의 값이 동일하고 파이어폭스에서는 다르다는 것을 주목하세요.
 
@@ -112,7 +208,18 @@ Web Audio API의 복잡성을 고려하면, 많은 수학과 부동 소수점 �
 
 이 상황에서 당신은 웹사이트를 크롤링/스크래핑하려는 헤드리스 브라우저에 대해 보호할 수 있습니다. 위 코드를 숨겨진 Canvas 요소에 실행하는 스크립트를 갖고, 해시를 가져와서 자체 "블랙리스트" 값 목록과 비교하세요. 그들이 거기에 있다면, 그럼 무슨 일을 해야하는지 알 수 있습니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 브라우저 지문 추적은 사용자가 시스템과 상호 작용하는 방식을 원치 않을 때 보호하는 데 훌륭한 도구일 수 있습니다. 사이트를 스크랩하려는 사람부터 사용자가 유료 콘텐츠를 속일 수 없도록 하는 데 사용되며, 또는 콘텐츠에 제한된 횟수로만 액세스하도록 하는 데도 사용될 수 있습니다. 정말로 여러분의 상상력이 한계입니다.
 
@@ -122,7 +229,18 @@ Web Audio API의 복잡성을 고려하면, 많은 수학과 부동 소수점 �
 
 # 재사용 가능한 컴포넌트로 마이크로프론트엔드 구축하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-20-HowtoSecureYourSiteAgainstWebScrapers_3.png" />
 
@@ -132,15 +250,37 @@ Bit의 오픈소스 도구를 통해 25만 명 이상의 개발자가 컴포넌�
 
 → 자세히 알아보기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앱을 구성 요소로 나누어 앱 개발을 쉽게 만들고 원하는 워크플로우에 최적의 경험을 즐기세요:
 
-- **Micro-Frontends**   
-- **Design System**   
-- **Code-Sharing and reuse**  
+- **Micro-Frontends**
+- **Design System**
+- **Code-Sharing and reuse**
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## → 모노리포
 

@@ -3,16 +3,13 @@ title: "시스템 디자인 면접 아마존 플립카트"
 description: ""
 coverImage: "/assets/img/2024-06-20-SystemDesignInterviewAmazonFlipkart_0.png"
 date: 2024-06-20 01:08
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-SystemDesignInterviewAmazonFlipkart_0.png
 tag: Tech
 originalTitle: "System Design Interview: Amazon  Flipkart"
 link: "https://medium.com/gitconnected/system-design-interview-amazon-flipkart-efe5c3f1666b"
 isUpdated: true
 ---
-
-
-
 
 ## 다루는 주제:
 
@@ -24,7 +21,18 @@ isUpdated: true
 - 우버나 에어비앤비의 백엔드와 마찬가지로 아마존 및 기타 전자 상거래 플랫폼도 시스템에 대한 두 가지 면을 갖고 있습니다.
 - 아마존의 고객인 경우, 아마존의 자체 격리된 스토어를 통해 제품을 판매하거나 다른 판매자들이 제공하는 제품을 구매할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 기능 요구 사항
 
@@ -41,18 +49,40 @@ isUpdated: true
 - 높은 일관성: 시스템 전체의 정확한 데이터를 보장하며 특히 재고 및 거래에 대해 정확성을 유지해야 합니다.
 - 낮은 지연 시간: 원활한 사용자 경험을 위해 빠른 응답 시간이 필요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제가 말한 것과 같이, Markdown 형식의 표로 변경해 보겣습니다:
 
-| Component              | Priority        | Description                                                                                  |
-|------------------------|-----------------|----------------------------------------------------------------------------------------------|
-| Payment service        | High            | Highly consistent                                                                            |
-| Inventory management   | High            | Highly consistent                                                                            |
-| Search service         | High            | Highly available and low latency, eventually consistent                                      |
-| Availability           | Low             | Low priority                                                                                 |
+| Component            | Priority | Description                                             |
+| -------------------- | -------- | ------------------------------------------------------- |
+| Payment service      | High     | Highly consistent                                       |
+| Inventory management | High     | Highly consistent                                       |
+| Search service       | High     | Highly available and low latency, eventually consistent |
+| Availability         | Low      | Low priority                                            |
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 사용자/구매자는 전자 상거래 웹 사이트를 방문하여 홈페이지에 도착할 것입니다.
 - 홈페이지는 추천 서비스에 의해 구동됩니다. 사용자가 무언가를 검색하면 시스템의 검색 서비스를 호출할 것입니다.
@@ -66,8 +96,18 @@ isUpdated: true
 - 홈 화면에는 몇 가지 추천 사항이 있을 것입니다. 반환 사용자인지 새 사용자인지에 따라 개인화된 추천이거나 일반 추천일 수 있습니다.
 - 검색 페이지에서 사용자는 일부 검색 텍스트를 기반으로 결과를 볼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지1](/assets/img/2024-06-20-SystemDesignInterviewAmazonFlipkart_0.png)
 
@@ -77,8 +117,18 @@ isUpdated: true
 
 ## 상품 서비스
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Item 서비스는 Kafka를 청취하여 새 항목을 추가하고 업데이트하고 가져오는 API를 노출합니다.
 - 이 서비스는 해당 항목 관련 데이터가 비구조적이기 때문에 MongoDB에 위치합니다.
@@ -92,7 +142,18 @@ isUpdated: true
 
 이제 Search 서비스,
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이 ElasticSearch와 상호 작용하면 제품을 필터링, 정렬, 검색하는 API가 노출됩니다.
 - 기능 요구 사항에서 '배송 예상 시간으로 검색'을 언급했습니다. 이를 확장하여 사용자에게 전달할 수 없는 검색 결과를 표시하지 말아야 한다는 요구 사항으로 확장할 수 있습니다. 그렇지 않으면 사용자 경험이 좋지 않을 것입니다.
@@ -109,7 +170,18 @@ isUpdated: true
 
 ## 찜 목록 및 카트 서비스
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 검색 결과가 표시된 후 사용자는 서로 다른 제품의 속성을 확인하고 비교할 수 있습니다.
 - 다음으로, 사용자는 무언가를 선택하고 '위시리스트'나 '장바구니'에 추가할 수 있습니다. '위시리스트'에 추가하면 위시리스트 서비스가 호출되어 해당 항목을 위시리스트 MySQL 데이터베이스에 추가합니다.
@@ -123,7 +195,18 @@ isUpdated: true
 - 이 두 서비스는 서로 완전히 동일한 방식으로 구축될 것이며, 각각 위시리스트나 장바구니에서 항목을 가져오고 업데이트하고 추가 또는 삭제할 API를 제공하며, 둘 다 MySQL DB에 저장될 것입니다.
 - 이들은 동일한 하드웨어 위에서 구축될 수 있지만, 특히 할인이 다가올 때 위시리스트가 매우 길어지는 경향이 있기 때문에 이 서비스들을 위한 별도의 하드웨어를 사용하는 것이 좋습니다. 이렇게 하면 각 서비스에 대한 하드웨어 확장이 훨씬 쉬워집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 사용자의 검색, 장바구니 및 위시리스트 항목은 추천 서비스를 지원하는 중요한 자원입니다.
 - 이러한 이벤트들은 사용자의 관심을 반영하며 해당 사용자에 맞는 추천을 만드는 데 활용될 수 있습니다.
@@ -140,7 +223,18 @@ isUpdated: true
 
 ## 사용자 위치 데이터
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 시스템은 사용자 데이터도 저장합니다.
 - 사용자 위치 정보를 통해 시스템이 특정 제품을 사용자에게 배달할 수 있는지 여부를 결정할 수 있습니다.
@@ -158,7 +252,18 @@ isUpdated: true
 
 ## 창고 서비스
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 창고 서비스는 다양한 상점을 위해 창고에 있는 모든 제품에 대한 인덱스를 유지합니다.
 - 이 정보는 검색 서비스에 의해 가져와서 제품이 현재 사용 가능한지 여부를 표시하는 데 사용됩니다.
@@ -171,7 +276,18 @@ isUpdated: true
 - 주문 관리 시스템은 MySQL 데이터베이스에 있습니다. 우리는 고객 테이블, 제품 테이블, 주문 테이블 등 여러 테이블을 예상대로 가지고 있으며, 이러한 테이블을 통해 다양한 거래가 진행됩니다.
 - 이제 우리는 데이터베이스가 변화를 즉시 반영하지 못해 창고에서 최신 AirPods의 마지막 제품을 두 명의 사용자가 주문할 수 없도록 하고 싶습니다. 이것은 관계형 데이터베이스의 ACID 특성이 필요하므로 MySQL이 필요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주문 수신 서비스가 호출되면,
 
@@ -186,7 +302,18 @@ isUpdated: true
 
 전형적인 전자 상거래 아키텍처에서 각 서비스가 사용하는 데이터베이스를 분석하겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1. 제품 카탈로그
 
@@ -200,7 +327,18 @@ isUpdated: true
 - 목적: 사용자 계정, 인증 및 권한을 관리합니다. 사용자 정보, 예를 들어 이름, 주소 및 결제 방법을 저장합니다.
 - 참조: 관계형 데이터베이스는 ACID 속성을 유지하기 위해 사용되고, Redis는 성능을 향상시키기 위해 캐싱에 사용됩니다 (CodeKarle).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 3. 쇼핑 카트 및 위시리스트
 
@@ -214,7 +352,18 @@ isUpdated: true
 - 목적: 항목 가용성을 확인하고, 트랜잭션을 처리하며, 재고를 업데이트하고, 주문 세부 정보를 저장합니다.
 - 참고: 관계형 데이터베이스 사용은 트랜잭션을 처리하고 주문 프로세스 중 데이터 무결성을 유지하는 데 중요한 ACID 속성을 보장합니다 (CodeKarle).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 5. 결제 게이트웨이
 
@@ -228,7 +377,18 @@ isUpdated: true
 - 목적: 제품 가용성을 추적하고 주문에 따라 재고를 업데이트.
 - 참조: 재고 수준을 정확하고 일관되게 추적함(CodeKarle).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 7. 검색 기능
 
@@ -242,7 +402,18 @@ isUpdated: true
 - 목적: 제품에 대한 사용자 리뷰 및 평점을 저장합니다.
 - 참조: 리뷰와 평점이 일관되고 신뢰할 수 있게 저장 및 검색되도록 보장합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 9. 추천 시스템
 
@@ -256,7 +427,18 @@ isUpdated: true
 - 목적: 사용자 상호작용, 매출 및 시스템 성능에 대한 데이터 수집 및 분석
 - 참고: 데이터 웨어하우스와 Hadoop은 대용량 데이터를 처리하고 복잡한 분석 쿼리를 수행하기에 적합함
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 11. 캐싱과 콘텐츠 전달
 
@@ -269,7 +451,18 @@ isUpdated: true
 - https://www.systemdesignnotes.com/amazon-ecommerce-design
 - https://www.codekarle.com/system-design/Amazon-system-design.html
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 전자 상거래 응용프로그램의 판매자용 아키텍처
 

@@ -3,17 +3,13 @@ title: "Tailwind로 커스텀 체크박스 만들기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Styling checkbox with Tailwind"
 link: "https://medium.com/@marek-rozmus/styling-checkbox-with-tailwind-46a92c157e2d"
 isUpdated: true
 ---
-
-
-
-
 
 ## React Checkbox 컴포넌트 스타일링
 
@@ -21,7 +17,18 @@ isUpdated: true
 
 이번에는 순수한 프론트엔드 작업인 체크박스 스타일링에 대해 알아보겠습니다. 체크박스 요소에서는 일부 스타일링(예: 테두리)을 변경할 수 없고 전체 체크박스를 처음부터 다시 스타일링해야 합니다. 기본 스타일링을 지워야 하며, 한 단계씩 만들어나가야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 Tailwind로 스타일이 적용된 React 컴포넌트가 있습니다:
 
@@ -31,7 +38,18 @@ isUpdated: true
 
 HTML 체크박스(보다 정확히는 input 태그)의 모양은 브라우저와 운영 체제에 따라 다릅니다. 이것은 (제 시스템과 브라우저에서) 기본 체크박스와 몇 가지 스타일이 적용된 체크박스의 비교입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/StylingcheckboxwithTailwind_2.png" />
 
@@ -46,7 +64,18 @@ HTML 체크박스(보다 정확히는 input 태그)의 모양은 브라우저와
 </div>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 기본 스타일 제거
 
@@ -58,7 +87,18 @@ HTML 체크박스(보다 정확히는 input 태그)의 모양은 브라우저와
 
 해당 클래스를 사용한 후에는 체크박스가 사라집니다. 이제 디자인할 차례입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 기본 입력 스타일(상자) 구성
 
@@ -75,7 +115,18 @@ HTML 체크박스(보다 정확히는 input 태그)의 모양은 브라우저와
 
 <img src="/assets/img/StylingcheckboxwithTailwind_3.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 레이아웃 수정
 
@@ -96,7 +147,18 @@ HTML 체크박스(보다 정확히는 input 태그)의 모양은 브라우저와
 
 상자에는 4px의 상단 여백도 있어요. 이 정렬은 사용된 글꼴 및 그 크기 (또한 줄 높이)에 따라 달라져요. 원하는 결과를 얻으려면 이러한 요소들을 조정해야 해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/StylingcheckboxwithTailwind_4.png" />
 
@@ -106,7 +168,18 @@ HTML 체크박스(보다 정확히는 input 태그)의 모양은 브라우저와
 
 <img src="/assets/img/StylingcheckboxwithTailwind_6.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요소를 많은 텍스트와 줄 바꿈을 고려하여 테스트하는 것을 기억하세요 ;)
 
@@ -116,7 +189,18 @@ flex 요소는 기본적으로 shrink 값을 설정합니다. 경우에 따라 �
 
 ![이미지](/assets/img/StylingcheckboxwithTailwind_7.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 체크 상태 추가하기
 
@@ -138,7 +222,18 @@ flex 요소는 기본적으로 shrink 값을 설정합니다. 경우에 따라 �
 
 SVG 아이콘은 상자에 렌더링되어야 하므로 상대 및 절대 클래스를 사용해야 합니다. SVG의 크기는 입력 상자와 동일하게 설정되며(상단 여백 포함)입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아이콘이 표시되어야 하는 경우에만 체크박스가 선택되어야 합니다. 스타일을 연결하려면 input 요소에 동료 Tailwind 클래스를 사용할 수 있습니다.
 
@@ -176,7 +271,18 @@ SVG 아이콘은 상자에 렌더링되어야 하므로 상대 및 절대 클래
 
 <img src="/assets/img/StylingcheckboxwithTailwind_8.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 클릭 이벤트 수정하기
 
@@ -186,7 +292,18 @@ SVG 아이콘은 상자에 렌더링되어야 하므로 상대 및 절대 클래
 
 해결하려면 SVG 클래스 목록에 pointer-events-none 클래스를 추가해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <svg
@@ -226,7 +343,18 @@ SVG 아이콘은 상자에 렌더링되어야 하므로 상대 및 절대 클래
 />
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 보너스: 하트 모양 체크박스
 
@@ -234,7 +362,18 @@ SVG 아이콘은 상자에 렌더링되어야 하므로 상대 및 절대 클래
 
 이상입니다 - 이제 탤윈드 클래스로 체크박스를 스타일링하는 방법을 알게 되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다른 이야기도 확인해보세요:
 

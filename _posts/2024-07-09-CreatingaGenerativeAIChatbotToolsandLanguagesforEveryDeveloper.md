@@ -3,16 +3,13 @@ title: "생성형 AI 챗봇 만들기 모든 개발자를 위한 도구와 언�
 description: ""
 coverImage: "/assets/img/2024-07-09-CreatingaGenerativeAIChatbotToolsandLanguagesforEveryDeveloper_0.png"
 date: 2024-07-09 21:44
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-CreatingaGenerativeAIChatbotToolsandLanguagesforEveryDeveloper_0.png
 tag: Tech
 originalTitle: "Creating a Generative AI Chatbot: Tools and Languages for Every Developer"
 link: "https://medium.com/@sa2019062986/creating-a-generative-ai-chatbot-tools-and-languages-for-every-developer-6742b5611cab"
 isUpdated: true
 ---
-
-
-
 
 인공 지능 분야에서 끊임없이 발전하는 가운데, 챗봇은 사용자 참여를 증진시키고 고객 서비스를 자동화하는 중요한 돌출점이 되었습니다. 특히 생성형 인공 지능 챗봇은 대화의 맥락에 기반하여 실시간으로 응답을 생성하여 이를 더욱 발전시킵니다. 이 글에서는 각종 언어와 도구를 사용하여 생성형 인공 지능 챗봇을 만드는 방법을 탐구하며, 모든 개발자들이 참고할 만한 내용을 제공할 것입니다.
 
@@ -24,7 +21,18 @@ isUpdated: true
 - 확장성: 여러 대화를 동시에 처리할 수 있도록 쉽게 확장할 수 있습니다.
 - 학습 능력: 이러한 모델들은 새로운 상호작용을 통해 학습함으로써 시간이 지남에 따라 개선될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 인기 있는 언어 및 도구: 생성적 AI 챗봇 구축을 위한
 
@@ -34,7 +42,18 @@ Python은 많은 AI 및 기계 학습 프로젝트에서 사용되는 주요 언
 
 ## 단계:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - TensorFlow 설치:
 
@@ -44,7 +63,18 @@ Python은 많은 AI 및 기계 학습 프로젝트에서 사용되는 주요 언
 
 ![이미지](/assets/img/2024-07-09-CreatingaGenerativeAIChatbotToolsandLanguagesforEveryDeveloper_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. 추론 및 응답 생성:
 
@@ -54,7 +84,18 @@ Python은 많은 AI 및 기계 학습 프로젝트에서 사용되는 주요 언
 
 자바스크립트를 선호하는 분들을 위해, TensorFlow.js는 브라우저와 Node.js로 기계 학습을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계:
 
@@ -64,7 +105,18 @@ Python은 많은 AI 및 기계 학습 프로젝트에서 사용되는 주요 언
 
 2. 모델을 불러오고 학습시키세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 Markdown 형식으로 변경한 것입니다.
 
@@ -76,7 +128,18 @@ Python은 많은 AI 및 기계 학습 프로젝트에서 사용되는 주요 언
 
 # 3. Java와 Deeplearning4j
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자바 개발자들은 JVM을 위한 오픈 소스 딥 러닝 라이브러리인 Deeplearning4j (DL4J)를 사용할 수 있습니다.
 
@@ -86,7 +149,18 @@ Python은 많은 AI 및 기계 학습 프로젝트에서 사용되는 주요 언
 
 ![이미지](/assets/img/2024-07-09-CreatingaGenerativeAIChatbotToolsandLanguagesforEveryDeveloper_6.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 모델 구축 및 훈련:
 
@@ -96,7 +170,18 @@ Python은 많은 AI 및 기계 학습 프로젝트에서 사용되는 주요 언
 
 ![이미지](/assets/img/2024-07-09-CreatingaGenerativeAIChatbotToolsandLanguagesforEveryDeveloper_8.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 4. R과 Keras
 
@@ -106,10 +191,20 @@ R을 선호하는 분들을 위해, Keras는 TensorFlow 위에서 실행할 수 
 
 - Keras와 TensorFlow 설치하기:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 마크다운 형식으로 표시해 주세요.
-
 
 ![Creating a Generative AI Chatbot Part 2](/assets/img/2024-07-09-CreatingaGenerativeAIChatbotToolsandLanguagesforEveryDeveloper_9.png)
 
@@ -119,8 +214,18 @@ R을 선호하는 분들을 위해, Keras는 TensorFlow 위에서 실행할 수 
 
 3. Inference and Generating Responses:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-07-09-CreatingaGenerativeAIChatbotToolsandLanguagesforEveryDeveloper_11.png)
 

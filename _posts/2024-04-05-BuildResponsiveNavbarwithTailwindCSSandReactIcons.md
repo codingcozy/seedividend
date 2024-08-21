@@ -3,17 +3,13 @@ title: "Tailwind CSS와 React Icons로 반응형 네비게이션 바 만들기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Build Responsive Navbar with Tailwind CSS and React Icons"
 link: "https://medium.com/@ryaddev/build-responsive-navbar-with-tailwind-css-and-react-icons-3b13a272dec4"
 isUpdated: true
 ---
-
-
-
-
 
 # 소개
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 네비게이션 바 작성 여정을 시작하기 전에, 프로젝트가 필요한 도구로 장착되어 있는지 확인해 보겠습니다. 다음 명령어를 사용하여 Tailwind CSS와 React Icons를 설치해 주세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # Tailwind CSS 설치하기
@@ -39,7 +46,18 @@ npm install react-icons
 
 # 네비게이션 바 컴포넌트 (Navbar.jsx)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import React, { useState } from "react";
@@ -94,9 +112,7 @@ const Navbar = () => {
         }
       >
         {/* 모바일 로고 */}
-        <h1 className="w-full text-3xl font-bold text-[#00df9a] m-4">
-          리액트.
-        </h1>
+        <h1 className="w-full text-3xl font-bold text-[#00df9a] m-4">리액트.</h1>
 
         {/* 모바일 네비게이션 항목 */}
         {navItems.map((item) => (
@@ -121,7 +137,18 @@ export default Navbar;
 
 # 앱 컴포넌트 (app.js)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import React from "react";
@@ -141,7 +168,3 @@ export default App;
 # 결론
 
 이제 React 애플리케이션용 시각적으로 매력적이고 반응형 네비게이션 바를 만들었습니다. Tailwind CSS와 React Icons의 기능을 활용하여 다양한 기기에서 훌륭하게 보이며 매끄러운 사용자 경험을 제공하도록 보장했습니다. 프로젝트의 고유한 요구 사항에 맞게 스타일을 사용자 정의하고 기능을 확장하는 것은 자유롭게 진행해주세요. 즐거운 코딩하세요!
-
-
-
-

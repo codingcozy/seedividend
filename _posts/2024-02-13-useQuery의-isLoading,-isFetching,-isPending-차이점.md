@@ -3,21 +3,28 @@ title: "useQuery의 isLoading, isFetching, isPending 차이점 정리"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
 
-
-
-
-
 # useQuery의 isLoading, isFetching, isPending 차이점
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 tanstack react query를 사용할 때 useQuery함수를 사용하게 되면 `isPending`, `isFetching`, `isLoading` 을 볼 수 있는데, 개발할 때 이 세가지의 용도에 대해서 헷갈리기 쉽다.
 

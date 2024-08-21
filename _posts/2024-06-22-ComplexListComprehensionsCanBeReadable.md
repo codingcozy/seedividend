@@ -3,16 +3,13 @@ title: "복잡한 리스트 컴프리헨션도 읽기 쉽게 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-22-ComplexListComprehensionsCanBeReadable_0.png"
 date: 2024-06-22 14:18
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-ComplexListComprehensionsCanBeReadable_0.png
 tag: Tech
 originalTitle: "Complex List Comprehensions Can Be Readable!"
 link: "https://medium.com/towards-data-science/complex-list-comprehensions-can-be-readable-b6c657622910"
 isUpdated: true
 ---
-
-
-
 
 ## PYTHON PROGRAMMING
 
@@ -22,7 +19,18 @@ Python comprehensions — including list, dictionary, and set comprehensions as 
 
 Python comprehensions have two great advantages when compared to the corresponding for loops: they are faster and they can be much more readable.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에서 "훨씬 더 가독성이 높을 수 있습니다"라는 구절을 유의해주세요. 실제로 항상 더 가독성이 높은 것은 아닙니다. 그렇다면, 언제 가독성이 높아질까요?
 
@@ -32,7 +40,18 @@ Python comprehensions have two great advantages when compared to the correspondi
 
 많은 사람들은 복잡한 컴프리헨션을 사용해서는 안 된다고 말합니다. 이 기사에서는 이 범주에 속하는 잘 알려진 원칙 - 혹은 신화라고 해도 좋을 것 같습니다. 유감스럽게도, 많은 사람들은 성공적으로 사용될 수 있는 상황에서 파이썬 컴프리헨션을 지나치게 회피함으로써 이 원칙을 무리하게 적용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 읽기 이해
 
@@ -42,7 +61,18 @@ Python comprehensions have two great advantages when compared to the correspondi
 
 이 규칙에는 예외가 있어요. 월러스 연산자를 사용할 때, 이 알고리즘 패턴을 약간 변경해야 할 필요가 있는데요; 나중에 이에 대해 자세히 다룰 거에요. 그럼에도 불구하고, 연습을 많이 하면 이 변경이 큰 도전이 되지 않을 거에요, 알고리즘은 큰 가독성을 잃지 않을 거에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 기본 사용 사례
 
@@ -59,11 +89,22 @@ Python comprehensions have two great advantages when compared to the correspondi
 
 두 번째 줄부터 코드를 읽어봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 먼저 비어있는 출력 리스트 x_squared를 만들어요. 이름 자체가 리스트가 어떤 내용을 포함할지를 말해줘요.
 - for 루프가 실행되는데, 각 반복은 xi에 대해 실행되며, xi의 값은 x 리스트의 연속 요소로 구성돼요.
-- 각 반복에서 우리는 xi**2를 출력 리스트 x_squared에 추가해요.
+- 각 반복에서 우리는 xi\*\*2를 출력 리스트 x_squared에 추가해요.
 
 해당 리스트 컴프리헨션을 고려해 봅시다:
 
@@ -76,9 +117,20 @@ Python comprehensions have two great advantages when compared to the correspondi
 
 이 간단한 예제에서 보듯이 컴프리헨션은 한 줄만 필요해요. 여기서 읽을 수 있는 방법은 다음과 같아요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-- 각 xi에 대해 xi**2를 계산하여 x 목록의 연속적인 값으로 결과를 출력 목록에 수집합니다.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+- 각 xi에 대해 xi\*\*2를 계산하여 x 목록의 연속적인 값으로 결과를 출력 목록에 수집합니다.
 
 그게 다에요! 명확하고, 명백하며, 읽기 쉽습니다. 우리가 사용한 패턴을 주목했나요? 데이터 작업 → 반복이 아주 간단합니다.
 
@@ -86,7 +138,18 @@ Python comprehensions have two great advantages when compared to the correspondi
 
 진짜야: Python을 사용하고 싶다면 컴프리헨션을 사용하고 이해할 수 있어야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파이썬 컴프리헨션을 자연스럽고 읽기 쉽지 않다고 생각하지 않더라도 계속 시도해보세요. Sooner or later, you’ll see in them what advanced Pythonistas see: simplicity joined with brevity and readability. 계속 노력해주세요.
 
@@ -99,13 +162,24 @@ Python comprehensions have two great advantages when compared to the correspondi
 [1, 25]
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서요:
 
 - 이전과 마찬가지로 빈 출력 목록인 x_squared를 생성하십시오.
 - for 루프가 실행되며, 각 반복은 xi에 대해 실행되고, xi의 값은 x 목록의 후속 요소를 구성합니다.
-- 각 반복에서 xi가 홀수인지 확인합니다. 그렇다면 xi**2 값을 출력 목록 x_squared에 추가합니다. 그렇지 않으면 xi는 무시됩니다.
+- 각 반복에서 xi가 홀수인지 확인합니다. 그렇다면 xi\*\*2 값을 출력 목록 x_squared에 추가합니다. 그렇지 않으면 xi는 무시됩니다.
 
 해당하는 리스트 컴프리헨션을 사용해 봅시다:
 
@@ -116,18 +190,40 @@ Python comprehensions have two great advantages when compared to the correspondi
 [1, 25]
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한번 읽어 봅시다:
 
-- x 목록의 연속 값 xi에 대해 xi**2을 계산합니다.
+- x 목록의 연속 값 xi에 대해 xi\*\*2을 계산합니다.
 - 홀수 값 xi의 결과를 출력 목록에 수집합니다.
 
 위의 두 가지 상황에서도 목록 내포 버전이 더 간편하게 읽힌다고 생각합니다. for 루프를 사용하면 전체 코드를 읽어야 하며, 다양한 작업이 코드 전반에 흩어져 있습니다. 반면 목록 내포는 모든 작업을 전형적인 패턴에 모아 넣은 간결한 한 줄로 이루어져 있습니다: 데이터 작업 → 루프 → 조건.
 
 이러한 간단한 상황들이었습니다. 그러나, 파이썬 내포의 가독성이 떨어질 수 있는지도 알려진 사실은, 여러 층으로 중첩되어 복잡해진 경우입니다 (즉, 루프 안에 루프를 생성). 이러한 예제에 대해 다음 섹션에서 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 고급 사용 사례
 
@@ -144,7 +240,18 @@ Python comprehensions have two great advantages when compared to the correspondi
 >>> discounts = [0.10, 0.25, 0.05, 0.20, 0.15]
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 할인율이 최소 15%이고 가격이 $20에서 $30 사이인 제품에 대한 가격을 포함하는 사전을 만들고 싶습니다.
 
@@ -162,7 +269,18 @@ Python comprehensions have two great advantages when compared to the correspondi
 
 위 코드를 이렇게 이해할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 먼저, 우리는 조건을 충족하는 제품들을 수집할 출력용 딕셔너리인 discounted_products를 초기화해야 합니다.
 - 그런 다음 제품 이름, 가격 및 할인을 동시에 반복하는 for 루프를 생성합니다. 이를 위해 zip() 함수를 사용하여 zip 객체를 만들어야 합니다.
@@ -184,18 +302,41 @@ Python comprehensions have two great advantages when compared to the correspondi
 
 보시다시피, 두가지 접근방식 모두 동일한 결과를 도출합니다. 코드를 읽어보죠:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 전체 과정이 하나의 사전 컴프리헨션으로 압축됐어요. 하지만 매우 긴 줄을 받아들이는 준비가 되어 있지 않다면 한 줄에 맞지 않을 거예요. 저는 이렇게 너무 긴 한 줄보다 위에서 보여준 for 루프가 더 읽기 쉬울 수 있다고 생각해요.
 - 이 컴프리헨션을 해독하는 방법은 다음과 같아요. 제품(키)과 가격(값)을 가져와서, 제품, 가격 및 할인을 동시에 반복하면서 해당 zip 객체를 사용해서 할인 제품 그룹(할인 적용된 제품)을 만들어내는 zip() 함수를 사용해요 — 단, 두 가지 조건을 만족해야 해요. 각 제품의 할인이 적어도 15%여야 하고(discount `= 0.15) 가격은 $20부터 $30 사이여야 해요(20 `= price `= 30).
 - 이러한 키-값 쌍은 할인 된 제품(discounted_products)이라는 출력 사전에 보관돼요.
 
 나에게는 컴프리헨션 코드가 사전 구축, 데이터 처리, 루핑 및 조건 검사를 하나로 통합한 명확한 편이에요. 이제 하나의 줄이 아니지만 결과 코드는 여전히 매우 읽기 쉽고, 전체 과정을 우리가 이전에 사용한 알고리즘 패턴을 사용하여 구현해요: 데이터 처리 → 루프 → 조건. 두 가지 조건이 하나의 if 조건으로 압축돼 있음을 유의해요. 두 if 문을 쉽게 사용할 수도 있지만(이는 코드의 양 버전 모두에 적용됨), 여러분이 선택해야 할 것은 가독성입니다.
+
 - 즉, Python 컴프리헨션에서 a if b는 a and b와 동일한 의미를 갖습니다. 두 가지 해법의 벤치마킹이 결론적인 결과를 제공하지 않았기 때문에 선택은 가독성에 따라 달라져야 해요.
 
 더 나아가서 두 개의 중첩된 for 루프를 사용하는 더 복잡한 시나리오를 고려해볼게요. 이것이 사용할 데이터에요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 >>> products = ['사과', '바나나', '체리', '데이트']
@@ -228,7 +369,18 @@ Python comprehensions have two great advantages when compared to the correspondi
 {('사과', '동쪽'): 25, ('사과', '북쪽'): 25, ('체리', '동쪽'): 22}
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해당하는 딕셔너리 함축 부분과 함께 테이블 태그를 마크다운 형식으로 변경하시려면 다음과 같이 작성하시면 됩니다:
 
@@ -262,7 +414,18 @@ Python comprehensions have two great advantages when compared to the correspondi
 {('Apples', 'East'): 25, ('Apples', 'North'): 25, ('Cherries', 'East'): 22}
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이번에는 코드를 한 줄씩 설명해 드리지 않겠습니다. 스스로 시도해 보세요. 그러나 코드의 다음 측면을 강조하고 싶습니다:
 
@@ -275,7 +438,18 @@ Python comprehensions have two great advantages when compared to the correspondi
 
 코드가 가독성이 좋은지 여부는 여러분의 몫입니다. 더 복잡한 상황에서는 코드가 읽기 어려워질 수 있습니다. 마지막 예제를 다시 써 보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 >>> discounted_products = {
@@ -292,7 +466,18 @@ Python comprehensions have two great advantages when compared to the correspondi
 
 다음 예제를 고려해보세요. 복수의 for 루프가 정말 이해하기 어려울까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 행 값인 x 및 열 값인 y를 사용하여 값 행렬을 계산해 보겠습니다. 이는 곱셈 표와 유사합니다.
 
@@ -314,20 +499,42 @@ Python comprehensions have two great advantages when compared to the correspondi
 30
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-저는 확실히 후자를 선호합니다. 한 명령어로 이루어진 5줄의 리스트 내포를 사용하는 것이 더 좋다고 생각해요. 각 줄이 프로세스의 개별 단계를 나타냅니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+저는 확실히 후자를 선호합니다. 한 명령어로 이루어진 5줄의 리스트 내포를 사용하는 것이 더 좋다고 생각해요. 각 줄이 프로세스의 개별 단계를 나타냅니다.
 
 여기에, 이것은
 
-- 데이터 작업: x*y를 계산하고 (x, y) 튜플로 저장
+- 데이터 작업: x\*y를 계산하고 (x, y) 튜플로 저장
 - 반복문: 주어진 x 값에 대해, 주어진 y 값에 대해
 
 이겁니다. 이것은 간단한 곱셈이었지만, 첫 번째 줄을 더 고급 계산으로 바꿀 수 있고, 그러면 이러한 내포가 삶을 더 쉽게 만들고 코드를 훨씬 간단하고 가독성이 높게 만들 수 있다는 것을 알게 될 거에요.
 
 다음에 해당하는 코드보다 간단하지 않나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 multi_table = {}
@@ -349,7 +556,18 @@ x, y = range(3), range(3)
 
 이 계산 줄이 길지 않다면 이해하기 쉬운 내용일 때, 이해를 돕기 위해 리스트 내포가 항상 더 읽기 쉬울 것이라 주장하고 싶지는 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 월러스 연산자를 잊지 말아야합니다. 컴프리헨션 코드를 더욱 강력하게 만들 수 있죠. 파이썬 3.8 이상에서 사용 가능합니다:
 
@@ -370,7 +588,18 @@ x, y = range(3), range(3)
 - 루프: range(7)에서 x 값에 대해, range(7)에서 y 값에 대해
 - 조건: 곱셈을 한 값이 홀수이고, y가 x보다 클 경우
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이번에는 데이터 조작 결과에 대한 조건이었습니다. 원래 데이터와는 다른 조건이었죠. 그래서 우리는 위바다 연산자를 사용했습니다.
 
@@ -389,9 +618,20 @@ x, y = range(3), range(3)
 {(1, 3): 3, (1, 5): 5, (3, 5): 15}
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-이 코드에서 문제점을 발견했나요? 이번에는 가독성이 아니라 최적화에 관한 문제에요: 오타리스트(철학 연산자) 버전과 달리, 제품 (x * y)이 두 번 계산됩니다! 이는 오타리스트 연산자를 사용하지 않은 버전보다 느리다는 것을 의미해요.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+이 코드에서 문제점을 발견했나요? 이번에는 가독성이 아니라 최적화에 관한 문제에요: 오타리스트(철학 연산자) 버전과 달리, 제품 (x \* y)이 두 번 계산됩니다! 이는 오타리스트 연산자를 사용하지 않은 버전보다 느리다는 것을 의미해요.
 
 그럼 일반 for 루프로 어떠한지 확인해보겠습니다. 여기서는 오타리스트 연산자가 필요하지 않아요:
 
@@ -408,7 +648,18 @@ multi_table
 
 정말이지, 함축 표현식의 다음 부분:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 ...     (x, y): x * y
@@ -430,7 +681,18 @@ multi_table
 
 이전의 코드에 왈러스 연산자가 있음에도 불구하고 그렇습니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 복잡한 이해를 단순하게 하는 파이프라인
 
@@ -438,9 +700,20 @@ multi_table
 
 하나의 이해 안에 여러 작업을 결합해야 한다면, 중요한 솔루션이 여러 가지 있습니다. 가장 중요한 것은 다음과 같습니다:
 
-작업을 합쳐라. 예를 들어, (x + 5)**2는 사실 두 작업, x + 5와 그 결과의 제곱을 계산하는 것을 합칩니다. 하지만 다른 예제로 작업을 한 번에 세 개 결합해야 한다고 가정해봅시다: str.lower(), str.strip(), 그리고 str.replace(` `,`_`). 이 경우에는 다음과 같이 합니다:
+작업을 합쳐라. 예를 들어, (x + 5)\*\*2는 사실 두 작업, x + 5와 그 결과의 제곱을 계산하는 것을 합칩니다. 하지만 다른 예제로 작업을 한 번에 세 개 결합해야 한다고 가정해봅시다: str.lower(), str.strip(), 그리고 str.replace(` `,`_`). 이 경우에는 다음과 같이 합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 >>> texts = [
@@ -463,7 +736,18 @@ multi_table
 >>> output_func = [preprocess(t) for t in texts]
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 솔루션은 매우 복잡한 상황에서도 작동할 수 있습니다. 데이터에 대한 여러 고급 연산이 필요하고 계산이 필요한 여러 단계를 거치더라도 작동합니다.
 
@@ -473,7 +757,18 @@ multi_table
 
 콤프리헨션 파이프라인을 사용하세요. 이 경우 단일 콤프리헨션은 사용하지 않고 단계별로 콤프리헨션을 호출합니다. 이를 콤프리헨션 파이프라인이라고 합니다. 제너레이터 파이프라인을 생성해 봅시다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 >>> step1 = (t.lower() for t in texts)
@@ -491,7 +786,18 @@ multi_table
 
 전자 버전은 생성기를 생성하므로 평가해야 합니다. 평가하기 위해 이를 위한 목록을 사용할 것입니다. 아래 참고해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 노트: 모든 네 가지 접근 방식은 매우 유사한 결과를 보여줍니다:
 
@@ -504,7 +810,18 @@ True
 
 이 주제는 고급적이므로 여기에서 다루지 않겠습니다. 관심이 있다면 다음 기사에서 관련 정보를 많이 찾아볼 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -514,7 +831,18 @@ True
 
 고급 Python 개발자가 아니라면, 이러한 기술을 키워야 합니다. 아직 그 수준에 이르지 못했다면 걱정하지 마세요; 가능한 많은 comprehension을 구현하여 이 기술을 연습해보세요 — 심지어 맥락이 comprehension에는 너무 어려워 보이더라도 그렇게 해보세요. 맥락이 실제로 매우 복잡하고 각 반복마다 여러 작업이 필요한 경우가 아닌 이상, comprehension과 for 루프 둘 다 구현하고 비교해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각 반복이 여러 데이터 작업을 필요로 할 때도, 우리가 위에서 논의한 간단한 비결을 활용하여 이해하기 쉬운 코드를 만들 수 있습니다: 데이터 작업을 함수로 이동시키고 이를 함축 표현의 루프 각 반복에서 호출하세요. 이러한 접근 방식은 모든 작업이 루프의 코드 블록 내에 구현된 for 룹보다 훨씬 간결한 코드를 제공할 수 있습니다.
 
@@ -524,7 +852,18 @@ True
 
 예를 들어, Pytest의 픽스처(parametrization of fixtures)의 매개변수화를 고려해보세요. pytest.fixture() 호출 내부나 직접 params 인자로 전달하는 매개변수 목록을 만들 수 있습니다. 종종, 내부에서 작업하는 것이 좋습니다. 왜냐하면 이렇게 하면 코드가 더욱 명확하고 조직적으로 구성되기 때문입니다. 픽스처의 매개변수화 코드가 pytest.fixture() 호출 내부에 포함하기에 너무 복잡해질 때만 외부로 이동시킵니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파이썬 구문 설탕인 컴프리헨션(제너레이터 표현식 포함), 데코레이터, 물고기 연산자 등은 파이썬을 강력하고 가독성 있게 만들어줍니다. 그래서 이러한 요소들을 피하지 마세요. 이들은 파이썬 프로그래밍을 더 쉽게 만들기 위해 존재합니다. 게다가, 컴프리헨션은 파이썬에 아름다움을 더해줍니다. 이를 배워서 사용하는 법을 익히면, 이제까지 못 느꼈던 만족감을 느낄 수 있을 거예요.
 
@@ -534,7 +873,18 @@ True
 
 컴프리헨션을 가장 단순한 상황에만 사용해야 한다는 주장은 오버 사용된 신화가 되어버렸습니다. 사실, 너무 복잡한 컴프리헨션 사용은 피해야 하지만, 이것이 무엇을 의미하는 걸까요? 두 개의 조건문이나 중첩된 루프는 컴프리헨션을 너무 복잡하게 만드는 것인가요? 아니요, 그렇지 않아요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서 이 규칙을 따라주세요: Python 컴프리헨션이 해당하는 for 루프보다 이해하기 복잡하다면 컴프리헨션을 사용하지 마세요. 하지만, 컴프리헨션이 더 이해하기 쉽다면 무조건 사용해주세요. 심지어 여러 줄에 걸쳐 나타나고 어려울지라도요.
 

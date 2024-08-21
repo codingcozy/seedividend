@@ -3,15 +3,13 @@ title: "초보자를 위한 전자상거래 웹사이트 만들기 코딩 가이
 description: ""
 coverImage: "/assets/img/2024-07-09-BuildYourOwnE-CommerceWebsiteCodingGuideforBeginners_0.png"
 date: 2024-07-09 13:58
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-BuildYourOwnE-CommerceWebsiteCodingGuideforBeginners_0.png
 tag: Tech
 originalTitle: "Build Your Own E-Commerce Website: Coding Guide for Beginners"
 link: "https://medium.com/@learntocodetoday/build-your-own-e-commerce-website-coding-guide-for-beginners-30597335bffa"
 isUpdated: true
 ---
-
-
 
 <img src="/assets/img/2024-07-09-BuildYourOwnE-CommerceWebsiteCodingGuideforBeginners_0.png" />
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 시작하기 전에 다음 사항이 있는지 확인하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - HTML, CSS, JavaScript 및 Node.js의 기본 지식이 필요합니다.
 - 컴퓨터에 Node.js 및 npm(Node Package Manager)이 설치되어 있어야 합니다.
@@ -37,7 +46,18 @@ cd ecommerce-website
 npm init -y
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 필요한 종속성을 설치하세요:
 
@@ -49,7 +69,18 @@ npm install express body-parser mongoose ejs
 
 프로젝트를 위해 다음 디렉토리와 파일을 생성하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트 구조:
 

@@ -3,16 +3,13 @@ title: "Flutter와 Firebase로 픽셀 아트 앱 만들기"
 description: ""
 coverImage: "/assets/img/2024-05-18-BuildaCollaborativePixelArtAppWithFlutterandFirebase_0.png"
 date: 2024-05-18 22:24
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-18-BuildaCollaborativePixelArtAppWithFlutterandFirebase_0.png
 tag: Tech
 originalTitle: "Build a Collaborative Pixel Art App With Flutter and Firebase"
 link: "https://medium.com/better-programming/build-a-collaborative-pixel-art-app-with-flutter-and-firebase-d4a027b4534b"
 isUpdated: true
 ---
-
-
-
 
 ## 자신만의 r/place 만들기
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 요즘 r/place나 z/place에 대해 들어보셨을 것 같은데, 듣지 못했다면 무슨 얘길 하는 건지 궁금하실 것입니다. 이것들은 협업 프로젝트이자 소셜 실험이며, 사용자들이 한 번에 한 픽셀의 색을 변경하여 캔버스를 편집할 수 있는 프로젝트입니다. 행사가 끝나면 대개 2~3일 후에 아름다운 픽셀 아트 작품이 완성됩니다. 모든 정보는 위키백과에서 찾아볼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 음, 저의 GitHub 계정에서 전체 프로젝트를 찾을 수 있어요! 이 프로젝트는 클린 아키텍처 패턴을 따르지만 몇 가지 변형이 있어요. 이 글을 위해 완전히 맹목적이 될 필요를 느끼지 않았답니다.
 
@@ -33,7 +41,18 @@ isUpdated: true
 - 픽셀을 그리고 색상을 선택하는 방법.
 - 픽셀을 저장하고 가장 중요한 것은 변경이 발생할 때 사용자에게 알릴 수 있는 실시간 데이터베이스.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 당신처럼 나를 그려주세요...
 
@@ -43,7 +62,18 @@ isUpdated: true
 
 픽셀을 그리기 위해서는 캔버스를 제공하는 위젯이 필요합니다. 그것이 CustomPaint가 하는 일이며, 표현하고자 하는 내용과 방법을 지정하기 위해 CustomPainter가 필요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기본적으로 CustomPaint는 화면 전체를 차지하지만, 모두에게 동일한 그리기 경험을 제공하고 싶으므로 그냥 1920x1080으로 고정하겠습니다. 이는 200만 픽셀 이상이 됩니다. 충분할 거예요! 흥미로운 사실은 사용하지 않는 두 가지 추가 속성이 있답니다. isComplex와 willChange입니다. 열광적으로 개발한다면 캐시 이점을 얻기 위해 true로 설정해보세요.
 
@@ -53,7 +83,18 @@ isUpdated: true
 
 게다가, 픽셀 좌표를 결정하는 방법이 필요해요. 가장 쉬운 방법은 CustomPaint를 Listener 위젯으로 감싸고 onPointerDown 콜백을 구현하는 겁니다. 그렇게 함으로써 localePosition 이벤트 매개변수를 활용하여 커서 위치를 얻을 수 있어요. position을 사용하지 마세요. 그렇게 하면 절대 위치가 아닌 캔버스 내에서의 상대 위치를 얻을 거에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 드디어 색상을 선택하기 위해 flutter_colorpicker 패키지를 사용하기로 결정했어요. 제가 직접 위젯을 구현할 수도 있었지만, 어차피 이미 만들어진 것을 다시 만들 필요 없잖아요.
 
@@ -63,7 +104,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-05-18-BuildaCollaborativePixelArtAppWithFlutterandFirebase_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터베이스를 빠르게 설정하는 가장 빠른 방법 중 하나는 아마도 Firebase를 사용하는 것입니다. 사용하기 쉽고 잘 문서화되어 있으며 기본적인 용법 대부분에 대해 무료로 제공됩니다. Firebase 콘솔에서 프로젝트를 만들고 Firebase 실시간 데이터베이스를 활성화하고 플러터 프로젝트에서 Firebase 데이터베이스를 구성하면 됩니다. 현재는 권한에 대해 걱정할 필요가 없습니다. 그냥 누구든지 데이터베이스를 읽고 쓸 수 있도록 허용하십시오.
 
@@ -80,7 +132,18 @@ isUpdated: true
 
 # 네트워크 레이어
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 빠르고... 깔끔하게 진행해 봅시다! BLoC와 FirebasePixelsRepository를 설정하여 각각 프레젠테이션 레이어와 Firebase 데이터베이스와 상호 작용하도록 해보세요.
 
@@ -91,7 +154,18 @@ PixelsRepository는 간단한 인터페이스입니다. 실용적으로 생각�
 - createPixel은 좌표를 기반으로 한 고유 해시로 참조된 픽셀을 만듭니다. 이를 통해 색상을 변경할 때 쉽게 액세스할 수 있으며 계속해서 새로운 픽셀을 무조건적으로 만드는 것을 방지합니다.
 - listenPixels는 데이터베이스 내의 추가 또는 변경 사항에 구독하고, 스트림에 푸시하여 새로운 픽셀이 생성되거나 업데이트될 때 알립니다. StreamGroup에 대해 자세히 알아보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 PixelModel은 다음과 같습니다. (역)직렬화 개체를 원활하게 수행하기 위해 두 개의 컨버터를 만들었습니다. 비용이 거의 들지 않습니다. 많이 도와줍니다.
 
@@ -101,7 +175,18 @@ PixelModel은 다음과 같습니다. (역)직렬화 개체를 원활하게 수�
 
 언급할 가치가 있는 두 가지 사항: 먼저, 우리는 listen을 사용하여 스트림을 구독합니다. 두 번째, 우리는 cancelOnError를 사용하지 않습니다. (데이터의) 흐름을 계속 유지합시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 BLoC를 뷰에 추가하고 Stream을 StreamBuilder 위젯에 제공하세요. 그런 다음 데이터를 캔버스로 전송하세요. 여러 창에서 실행하고 하나에서 픽셀을 만들면 다른 창에서도 복제되는 것을 볼 수 있어야 합니다.
 
@@ -109,7 +194,18 @@ BLoC를 뷰에 추가하고 Stream을 StreamBuilder 위젯에 제공하세요. �
 
 ![Build a Collaborative Pixel Art App with Flutter and Firebase](/assets/img/2024-05-18-BuildaCollaborativePixelArtAppWithFlutterandFirebase_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 조금 빨리 진행하겠습니다. 실제 r/place 규칙에 더 가까운 몇 가지 추가 기능을 제공하기 위해 노력할 거에요. 너무 제한적이지 않으면서도 사용자가 이를 변경할 수 없게 할 생각이에요.
 
@@ -119,7 +215,18 @@ firebase_auth 패키지를 추가하고, firebase 콘솔에서 인증 기능을 
 
 우리가 매우 기본적인 인증 개념을 가졌기 때문에 보안 규칙을 조금 업그레이드할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```json
 {
@@ -136,8 +243,18 @@ Cubit을 사용하면 BLoC과 달리 사용자 정의 이벤트를 만들 필요
 
 ## 수정 이력
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 픽셀이 추가되거나 수정될 때마다 모든 변경 사항을 추적할 시간입니다. 우리가 픽셀을 저장하는 데 사용한 것과 동일한 Realtime 데이터베이스를 사용해 봅시다. 이를 위해 단순히 createPixel 메서드를 업데이트하면 됩니다.
 
@@ -147,7 +264,18 @@ Cubit을 사용하면 BLoC과 달리 사용자 정의 이벤트를 만들 필요
 
 ## 확대/축소
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이건 조금 어려울 거에요. 지금까지 사용자들은 전체 1920x1080 캔버스를 볼 수 있기 위해 매우 큰 스크린을 갖고 있어야 했어요. 이 문제를 해결하기 위해, 먼저 수직 및 수평 스크롤을 위한 double SingleChildScrollView 위젯을 추가하고 싶을 수 있지만, 이것은 실수일 수 있고 어차피 부드럽게 작동하지 않아요.
 
@@ -157,7 +285,18 @@ Cubit을 사용하면 BLoC과 달리 사용자 정의 이벤트를 만들 필요
 
 ## 호스팅
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 정말 간단해요. 공식 문서를 따라하기만 하면 돼요.
 
@@ -172,7 +311,18 @@ Cubit을 사용하면 BLoC과 달리 사용자 정의 이벤트를 만들 필요
 
 build/web을 공개 저장소로 설정하는 것이 중요해요. 여기에 소스 파일이 저장돼 있어요. 그런 다음 firebase deploy를 실행하면 웹사이트가 공개돼요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제가 작성하는 것만큼 읽는 데 즐거움을 느끼셨기를 바랍니다. 이 글은 조밀하게 쓰여 있어 몇 가지 세부 내용을 건너뛴 것 같지만 필요하다면 저장소를 확인해 주세요.
 

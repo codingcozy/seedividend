@@ -3,7 +3,7 @@ title: "Golang Defer 힙 할당 Defer, 스택 할당 Defer, 그리고 오픈 코
 description: ""
 coverImage: "/assets/img/2024-08-18-GolangDeferHeap-allocatedDeferStack-allocatedDeferandOpen-codedDefer_0.png"
 date: 2024-08-18 11:45
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-18-GolangDeferHeap-allocatedDeferStack-allocatedDeferandOpen-codedDefer_0.png
 tag: Tech
 originalTitle: "Golang Defer Heap-allocated Defer, Stack-allocated Defer and Open-coded Defer"
@@ -11,7 +11,6 @@ link: "https://medium.com/@func25/golang-defer-heap-allocated-defer-stack-alloca
 isUpdated: true
 updatedAt: 1724032746387
 ---
-
 
 <img src="/assets/img/2024-08-18-GolangDeferHeap-allocatedDeferStack-allocatedDeferandOpen-codedDefer_0.png" />
 
@@ -21,7 +20,18 @@ updatedAt: 1724032746387
 
 예를 들어, 디퍼(defer) 문에는 실제로 3가지 유형이 있습니다 (Go 1.22 기준으로, 나중에 변경될 수도 있습니다): 오픈 코딩된 디퍼, 힙 할당된 디퍼, 스택 할당된 디퍼가 있어요. 각각은 다른 성능과 최적 사용 시나리오를 가지고 있어요. 성능을 최적화하려면 이를 알면 좋겠죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 토론에서는 기초부터 고급 사용법까지 모두 다룰 것이며, 심지어 내부 세부 사항 중 일부도 조금씩 파헤쳐보겠습니다.
 
@@ -31,7 +41,18 @@ updatedAt: 1724032746387
 
 Go에서 defer는 주변 함수가 종료될 때까지 함수의 실행을 지연시키기 위해 사용되는 키워드입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 func main() {
@@ -59,7 +80,18 @@ func doSomething() error {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 코드는 defer가 어떻게 작동하는지 잘 보여주는 좋은 예제이지만, defer를 사용하는 나쁜 방법이기도 합니다. 다음 섹션에서 그에 대해 더 자세히 알아보겠습니다.
 
@@ -70,7 +102,18 @@ func doSomething() error {
 
 패닉이 발생하면, 스택이 해제되고 지연된 함수가 특정한 순서대로 실행됩니다. 다음 섹션에서 이에 대해 자세히 다룰 예정입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Defer 문은 쌓입니다
 
@@ -91,7 +134,18 @@ func main() {
 
 defer 문을 호출할 때마다 해당 함수가 현재 고루틴(linked list)의 맨 위에 추가되어 스택에 쌓이게 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 이미지에 나타난 순서대로 링크드 리스트를 통해 각 defer를 실행합니다.
 
@@ -110,7 +164,18 @@ func A() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요즘에 현재 함수(또는 현재 스택 프레임)에서만 지연된 함수들이 실행됩니다.
 
@@ -120,7 +185,18 @@ func A() {
 
 # 지연 실행, 패닉 및 복구
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컴파일 시간 오류 외에도 런타임 오류가 많이 발생합니다: 0으로 나누기(정수만), 배열 범위를 넘어가는 경우, nil 포인터를 역참조하는 경우 등이 있습니다. 이러한 오류로 인해 어플리케이션이 패닉 상태가 될 수 있습니다.
 
@@ -140,7 +216,18 @@ func main() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 출력:
@@ -153,7 +240,18 @@ func main() {
 
 여기에 나열할 수 있는 몇 가지 실수가 있습니다. 실제 코드에서 이와 유사한 세 개 이상의 코드 문단을 봤습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 첫 번째 방법은 recover를 직접적으로 defer 함수로 사용하는 것입니다:
 
@@ -168,7 +266,18 @@ func main() {
 
 recover 함수는 패닉을 잡기 위해 사용되지만, 올바르게 작동하려면 defer 함수 내에서 호출되어야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 배경에서, 우리의 회복 호출은 사실 runtime.gorecover이며, 회복 호출이 올바른 컨텍스트에서 발생하는지 확인하고 패닉이 발생했을 때 활성화된 올바른 지연 함수에서 호출되는지 확인합니다.
 
@@ -192,7 +301,18 @@ func main() {
 
 그리고 또 다른 실수는 다른 고루틴에서의 패닉을 잡으려고 하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 func main() {
@@ -213,8 +333,18 @@ func main() {
 
 # 수신자를 포함한 Defer 인수는 즉시 평가됩니다
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요! 이전에도 일어났던 문제인데, 예전 데이터가 분석 시스템에 전달되어 낡은 데이터로 분석하는 상황이 발생했을 때 어떻게 처리해야 할지 고민이 많이 되었죠.
 
@@ -234,7 +364,18 @@ func main() {
 
 어떻게 생각하시나요? 결과물은 무엇일까요? 10이 나옵니다. 결과는 10이 나오고 20은 나오지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그것은 defer 문을 사용할 때 값을 즉시 가져오기 때문입니다. 이를 "값으로 캡처"라고 합니다. 그래서 defer가 예약될 때 pushAnalytic에 전달되는 a의 값은 나중에 변경되더라도 10으로 설정됩니다.
 

@@ -3,16 +3,13 @@ title: "SwiftUI에서 차트 쉽게 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-01-IntroductiontoChartsinSwiftUI_0.png"
 date: 2024-07-01 20:07
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-01-IntroductiontoChartsinSwiftUI_0.png
 tag: Tech
 originalTitle: "Introduction to Charts in SwiftUI"
 link: "https://medium.com/@blorenzop/swiftui-charts-b6fa4aca46db"
 isUpdated: true
 ---
-
-
-
 
 ![Introduction to Charts in SwiftUI](/assets/img/2024-07-01-IntroductiontoChartsinSwiftUI_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 차트를 사용하면 사용자는 제시된 데이터에 대한 이해를 확장할 수 있습니다. 처음 봤을 때, 사용자는 데이터를 더 잘 파악할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 앱의 참여를 높이고 싶다면, 차트를 활용하는 방법에 대한 빠르고 쉽게 따라할 수 있는 가이드를 보여드릴게요.
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 차트를 만들 때는 차트 요소들을 조합하여 만듭니다. 이러한 요소들은 ChartContent 프로토콜을 준수해야 하며, 차트 범위 내에서 그려질 수 있는 유형을 나타내야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 차트를 만들려면 init(content:) 메서드를 사용합니다. ViewBuilder 클로저에서 필요한 모든 시각적 요소를 추가합니다.
 
@@ -50,8 +69,18 @@ struct ChartView: View {
 
 Charts framework에는 Marks라고 불리는 사용 준비된 ChartContent 세트가 있습니다. Mark는 데이터를 표현하는 그래픽 요소로 볼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-07-01-IntroductiontoChartsinSwiftUI_1.png)
 
@@ -63,8 +92,18 @@ Charts framework에는 Marks라고 불리는 사용 준비된 ChartContent 세�
 
 사용하는 데이터 유형에 따라 차트 UI를 조작하는 데 적용할 수 있는 구성 요소가 달라집니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 코드를 보여주겠어요 🤓
 
@@ -78,13 +117,13 @@ struct CoffeeData: Identifiable {
   let id = UUID()
   let date: Date
   let details: [CoffeeDetails]
-  
+
   static func mockData() -> [CoffeeData] { ... }
 }
 
 struct DemoChart: View {
   @State private var coffeeData = CoffeeData.mockData()
-  
+
   var body: some View {
     Chart {
       ForEach(coffeeData, id: \.id) { coffeeInfo in
@@ -97,15 +136,25 @@ struct DemoChart: View {
     .frame(height: 300)
     .padding()
   }
-  
+
   func totalCoffees(in details: [CoffeeData.CoffeeDetails]) -> Int {
     return details.map({$0.amount}).reduce(0, +)
   }
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Chart](/assets/img/2024-07-01-IntroductiontoChartsinSwiftUI_2.png)
 
@@ -116,7 +165,7 @@ struct DemoChart: View {
 ```swift
 struct DemoChart: View {
   @State private var coffeeData = CoffeeData.mockData()
-    
+
   var body: some View {
     Chart {
       ForEach(coffeeData, id: \.id) { coffeeInfo in
@@ -135,8 +184,18 @@ struct DemoChart: View {
 }
 ```
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-01-IntroductiontoChartsinSwiftUI_3.png" />
 
@@ -147,12 +206,23 @@ struct DemoChart: View {
 - X-축 값에서 unit 옵션을 사용하여 월별로 값을 그룹화하려고 한다는 것을 표시합니다.
 - 실제로 그룹화된 막대를 만들기 위해 position(by:axis:span:) 수정자를 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```swift
 struct DemoChart: View {
   @State private var coffeeData = CoffeeData.mockData()
-    
+
   var body: some View {
     Chart {
       ForEach(coffeeData, id: \.id) { coffeeInfo in
@@ -178,10 +248,20 @@ struct DemoChart: View {
 
 ## 사용자 정의 막대 색상
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-chartForegroundStyleScale(_:) 수정자를 사용하세요. 그룹화에 사용하는 모든 옵션에 값을 지정해야 합니다. 우리 경우에는 Latte, Cappuccino, Cortado, FlatWhite을 사용하면 됩니다.
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+chartForegroundStyleScale(\_:) 수정자를 사용하세요. 그룹화에 사용하는 모든 옵션에 값을 지정해야 합니다. 우리 경우에는 Latte, Cappuccino, Cortado, FlatWhite을 사용하면 됩니다.
 
 ## 스케일 변경
 
@@ -189,7 +269,18 @@ chartForegroundStyleScale(_:) 수정자를 사용하세요. 그룹화에 사용�
 
 ## 축 레이블 구성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리 경우에는 X 축에 월과 연도를 함께 표시하는 것이 좋을 것 같아요, 예를 들면, 2023년 8월처럼요. chartXAxis(content:) 수정자를 사용하면 이를 할 수 있어요.
 
@@ -200,7 +291,7 @@ chartForegroundStyleScale(_:) 수정자를 사용하세요. 그룹화에 사용�
 ```js
 struct DemoChart: View {
   @State private var coffeeData = CoffeeData.mockData()
-  
+
   var body: some View {
     Chart {
       ForEach(coffeeData, id: \.id) { coffeeInfo in
@@ -237,8 +328,18 @@ struct DemoChart: View {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-01-IntroductiontoChartsinSwiftUI_5.png" />
 
@@ -248,19 +349,29 @@ struct DemoChart: View {
 
 <img src="/assets/img/2024-07-01-IntroductiontoChartsinSwiftUI_6.png" />
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-라인마크와 에어리아마크를 결합하여 이 UI를 구현할 수 있습니다. 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+라인마크와 에어리아마크를 결합하여 이 UI를 구현할 수 있습니다.
 
 ```js
 struct OverallData: Identifiable {
     let id = UUID()
     let date: Date
     let coffee: Int
-    
+
     static func mockData() -> [OverallData] {
-        
+
         return [
             .init(date: Date(year: 2023, month: 08), coffee: 12),
             .init(date: Date(year: 2023, month: 09), coffee: 15),
@@ -287,7 +398,7 @@ struct DemoChart: View {
       )
       .symbol(.circle)
       .interpolationMethod(.catmullRom)
-      
+
       AreaMark(
         x: .value("월", $0.date, unit: .month),
         y: .value("양", $0.coffee)
@@ -311,7 +422,18 @@ struct DemoChart: View {
 
 <img src="https://miro.medium.com/v2/resize:fit:592/1*J24NHU32eh38kMeASpLt1A.gif" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```swift
 struct DemoChart: View {
@@ -319,7 +441,7 @@ struct DemoChart: View {
   @State private var coffeeData = CoffeeData.mockData()
   @State private var overallData = OverallData.mockData()
   @State private var chartSelection: Date?
-    
+
   private var areaBackground: Gradient {
       return Gradient(colors: [Color.accentColor, Color.accentColor.opacity(0.1)])
   }
@@ -332,7 +454,7 @@ struct DemoChart: View {
       )
       .symbol(.circle)
       .interpolationMethod(.catmullRom)
-      
+
       if let chartSelection {
         RuleMark(x: .value("Month", chartSelection, unit: .month))
           .foregroundStyle(.gray.opacity(0.5))
@@ -350,7 +472,7 @@ struct DemoChart: View {
             }
           }
       }
-      
+
       AreaMark(
         x: .value("Month", $0.date, unit: .month),
         y: .value("Amount", $0.coffee)
@@ -380,8 +502,18 @@ struct DemoChart: View {
 
 질문이 있으신가요? 언제든지 메시지 남겨주세요! 🙂
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 🤓 iOS 개발 팁과 통찰을 정기적으로 공유하는 X에서 저와 함께하세요
 - 🚀 제 GitHub에서 내 예제 프로젝트들을 확인해보세요

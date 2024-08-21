@@ -3,7 +3,7 @@ title: "유니티로 만든 게임 플레이 스토어에 배포하는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-19-FromSideProjecttoPlayStoreHowaUnityGameRescuedMyGooglePlayDream_0.png"
 date: 2024-08-19 03:19
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-19-FromSideProjecttoPlayStoreHowaUnityGameRescuedMyGooglePlayDream_0.png
 tag: Tech
 originalTitle: "From Side Project to Play Store How a Unity Game Rescued My Google Play Dream"
@@ -11,7 +11,6 @@ link: "https://medium.com/@developerswork/from-side-project-to-play-store-how-a-
 isUpdated: true
 updatedAt: 1724032904226
 ---
-
 
 ## 오래된 프로젝트를 되살린 것의 놀라운 이점(그리고 당신도 해야 하는 이유)
 
@@ -21,7 +20,18 @@ updatedAt: 1724032904226
 
 홈랩과 함께 한 내 여정처럼(아직 읽지 않았다면, 꼭 해보세요! 여기를 클릭하세요), 내 앱 개발 모험도 졸업 당시부터 시작했습니다. 구글 플레이 개발자 계정에 $25(그당시 일이었죠!)을 내고 안드로이드 스튜디오와 신뢰할 수 있는 Java로 안드로이드 앱을 개발하는 일에 머리를 갈기고 뛰어들었네요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 첫 작품? 좋은 오래된 Tic Tac Toe 게임이지. 코드는 오픈 소스이니까 부디 es에 눈팅하러 와. 만약 1년 전이라면 나는 아마도 이것을 내 첫 "게임"이라고 불렀을텐데, 시각이 변하니까 그렇지 않니? 하지만 그건 이야기를 나중에 하도록 하지.
 
@@ -31,7 +41,18 @@ updatedAt: 1724032904226
 
 몇 달 전, 나는 구글 Play Console 지원센터로부터 그 두려운 이메일을 받았어. 아시는 그 이메일을... 이러면 당신 개발자 계정이 불활성화 될 수 있다는 내용의 이메일을 말야. 그들은 나에게 60일 내로 이 문제에 대해 어떤 조치를 취하라고 했어, 그렇지 않으면 내 계정이 영구정지될 거란다. 이 말은 즉, 내가 다시 Play Store에 게시하기 원한다면 다시 $25를 내야 한다는 뜻이지.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![사진](/assets/img/2024-08-19-FromSideProjecttoPlayStoreHowaUnityGameRescuedMyGooglePlayDream_1.png)
 
@@ -41,7 +62,18 @@ updatedAt: 1724032904226
 
 그때 갑자기 깨닫게 되었습니다 — 게임 개발 학습 단계에서 몇 가지 모바일 호환 게임을 만들었습니다. 그 중 하나가 Fruit Collector 3D(github/Fruit-Collector-3D)였습니다. Unity로 만들어졌고 다양한 디자인 패턴을 보여주기 위한 프로토타입이었습니다. 하지만, APK로 컴파일하여 여러 Android 기기에서 테스트해 본 결과, 작동했습니다! 적어도, 크래시나 오류가 나지 않았죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 구글 플레이를 위한 앱 준비하기
 
@@ -58,7 +90,18 @@ updatedAt: 1724032904226
   - 스크립팅 백엔드: IL2CPP로 설정하세요. 다음 설정을 위해 필요합니다.
   - 대상 아키텍처: 앱 번들이 ARM64를 지원해야 하며, 이를 위해 IL2CPP가 필요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 배포 설정: Player 설정(Android) → 배포 설정에서 해당 프로젝트에 로컬 키스토어를 사용했지만, 키스토어를 생성하고 관리하는 표준 프로세스를 따르는 것이 좋습니다.
 - 빌드 설정으로 돌아가세요: "Build APP Bundle"을 선택했는지, "Create symbols.zip"이 "public"으로 설정되어 있는지, 그리고 "Development Build"가 선택 해제되어 있는지 확인해주세요.
@@ -69,7 +112,18 @@ updatedAt: 1724032904226
 
 ![이미지](/assets/img/2024-08-19-FromSideProjecttoPlayStoreHowaUnityGameRescuedMyGooglePlayDream_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 구글 플레이 콘솔 탐색하기
 
@@ -82,7 +136,18 @@ updatedAt: 1724032904226
 - 공개 테스트: 이제 누구나 앱을 다운로드할 수 있지만, 테스트 중임을 경고하며 안정성이 보장되지 않을 수 있음을 알려줍니다.
 - 제품 출시: 이는 최종 안정 버전입니다. 더 이상 경고 없이 누구나 다운로드하고 설치할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-08-19-FromSideProjecttoPlayStoreHowaUnityGameRescuedMyGooglePlayDream_5.png)
 
@@ -92,7 +157,18 @@ updatedAt: 1724032904226
 
 그래서 이 특별한 사가의 끝입니다. 여러분도 궁금할 것입니다. "계정 폐쇄 문제가 어떻게 해결되었는가?" 딱 "리뷰 제출" 버튼을 누를 때, 문제가 마법처럼 사라졌습니다! 구글은 내가 어떤 조치를 취하길 원했던 것 같군요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 Play Store의 복잡한 릴리스 프로세스를 거쳐왔으니, 길을 나선 동안 만든 몇 가지 게임을 더 출시하기로 결심했어요. 일단은 오픈 테스팅을 유지할 예정이라 누구나 쉽게 확인할 수 있게 할 거예요.
 

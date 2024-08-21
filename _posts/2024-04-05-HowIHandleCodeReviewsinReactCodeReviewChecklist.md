@@ -3,17 +3,13 @@ title: "팀원들과 리액트 프로젝트 코드 리뷰하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How I Handle Code Reviews in React Code Review Checklist"
 link: "https://medium.com/javascript-in-plain-english/how-i-handle-code-reviews-in-react-code-review-checklist-a106a16fb172"
 isUpdated: true
 ---
-
-
-
-
 
 ![React 코드 리뷰 가이드](/assets/img/HowIHandleCodeReviewsinReactCodeReviewChecklist_0.png)
 
@@ -23,7 +19,18 @@ React는 웹사이트와 웹 앱을 만드는 데 인기 있는 도구입니다.
 
 어떤 사람이라도 이해하기 쉬운 방식으로 React 코드를 확인하는 방법을 살펴볼 것입니다. 이 팁을 사용하려면 전문가일 필요는 없습니다! 코드를 정돈하고 좋은 실천 방법을 따르도록 도와주는 몇 가지 간단한 단계들을 진행할 것입니다. React를 처음 사용하거나 얼마나 오랫동안 사용하고 있던 중이든, 이 가이드라인을 통해 코드를 더 나아지고 작업하기 쉽게 만드는 데 도움을 받을 수 있을 것입니다. 그러니 함께 React 코드 리뷰의 세계로 여행을 시작해봅시다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 덤으로 들어가기 전에 내 개인 웹 사이트에서 웹 개발에 대한 더 자세한 기사를 탐색해보세요:
 
@@ -42,7 +49,18 @@ React는 웹사이트와 웹 앱을 만드는 데 인기 있는 도구입니다.
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Pre-Commit 훅의 장점
 
@@ -54,7 +72,18 @@ React 프로젝트에 린팅을 위한 pre-commit 훅을 통합함으로써, 제
 
 ## PR 프로세스 확인하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/HowIHandleCodeReviewsinReactCodeReviewChecklist_1.png" />
 
@@ -80,7 +109,18 @@ React 프로젝트에 린팅을 위한 pre-commit 훅을 통합함으로써, 제
 - [양식 UI를 볼 수 있는 화면 캡처 또는 링크 첨부]
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 풀 리퀘스트에 상세한 설명을 추가하는 것은 리뷰 프로세스를 원활하게 만들 뿐만 아니라 팀 간 커뮤니케이션을 강화하고 프로젝트 문서화에 도움이 됩니다.
 
@@ -90,7 +130,18 @@ React 프로젝트에 린팅을 위한 pre-commit 훅을 통합함으로써, 제
 
 사용자 데이터를 가져오는 함수가 있다고 가정해보겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 async function fetchUserData(userId) {
@@ -105,7 +156,18 @@ async function fetchUserData(userId) {
 
 ## 4. ES6+ 기능 사용하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React 개발에 ES6+ 기능을 통합하면 코드를 현대화할 뿐만 아니라 더 간결하고 가독성 있게 만들어줍니다. ES6는 React 애플리케이션에서 널리 사용되는 다양한 새로운 기능을 소개했습니다.
 
@@ -131,7 +193,18 @@ React 개발에서 ES6+ 기능을 채택함으로써 더 깔끔하고 효율적�
 
 ## 5. 기술적 네이밍
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React에서 서술적 네이밍은 컴포넌트, 함수, 변수 및 props의 이름을 선택할 때 목적과 사용법을 명확하게 전달하는 것을 의미합니다. 이 관행은 코드의 가독성과 유지보수성을 높입니다.
 
@@ -162,13 +235,35 @@ function Comp({ title }) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 자세한 버전에서 각 변수, 함수, 그리고 컴포넌트 prop는 그 목적과 다루는 데이터 유형을 명확하게 전달하는 이름을 갖고 있습니다. 이렇게 하면 코드의 가독성과 유지 관리성이 향상됩니다.
 
 ## 6. 함수형 컴포넌트를 클래스 컴포넌트 대신 사용하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React 16.8 버전에서 Hooks가 소개되면서 함수형 컴포넌트가 상태(state)와 라이프사이클(lifecycle) 기능을 활용할 수 있게 되어, 기존에는 클래스 컴포넌트에서만 사용할 수 있었던 기능을 활용할 수 있게 되었습니다. 이 변경으로 React 애플리케이션을 작성하고 구조화하는 방식에 상당한 영향이 있습니다.
 
@@ -191,7 +286,18 @@ class UserProfile extends React.Component {
 
 함수형 컴포넌트:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 function UserProfile({ userId }) {
@@ -211,7 +317,18 @@ React 개발에서 함수형 컴포넌트로의 전환이 깔끔하고 가독성
 
 Prop Types 및 Default Props는 컴포넌트의 프롭스의 타입 안전성과 기본 동작을 보장하는 React에서 중요한 기능입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import PropTypes from "prop-types";
@@ -241,7 +358,18 @@ UserGreeting.defaultProps = {
 
 React.memo는 함수형 컴포넌트의 렌더링 성능을 최적화하는 React의 하이어오더 컴포넌트입니다. 현재 및 새로운 props를 얕은 비교하여, props가 변경됐을 때에만 컴포넌트를 재렌더링하여 불필요한 렌더링을 방지합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const MyComponent = React.memo(({ text }) => {
@@ -258,7 +386,18 @@ React.memo를 사용하면 함수형 컴포넌트가 가능한 한 효율적으�
 
 React에서의 Lazy Loading은 페이지 로드 시 비필수 리소스의 로딩을 지연시키는 기술입니다. 코드를 논리적 중단점에서 분할하고 사용자가 필요할 때에만 로드하는 것이 핵심입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import React, { Suspense, lazy } from "react";
@@ -282,7 +421,18 @@ function App() {
 
 React에서 접근성 체크는 장애를 가진 사용자를 포함하여 가능한 많은 사람들이 웹 애플리케이션을 사용할 수 있도록 보장하는 것을 의미합니다. 이는 다양한 실천 방법을 포함합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 주요 사항:
 
@@ -299,7 +449,18 @@ React에서 접근성 체크는 장애를 가진 사용자를 포함하여 가�
 
 정기적인 접근성 검사를 수행하면 React 어플리케이션이 웹 접근성 표준을 준수할 뿐만 아니라 모든 사용자에게 더 나은 사용자 경험을 제공하게 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 11. 국제화 지원
 
@@ -318,7 +479,18 @@ function Welcome() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예시에서 t(`welcome_message`)는 사용자의 언어 설정에 따라 적절한 번역된 텍스트를 가져옵니다.
 
@@ -328,7 +500,18 @@ function Welcome() {
 
 코드 리뷰 중 건설적인 피드백을 제공하는 것은 개발자가 코드와 이해력을 향상시키도록 도와주는 행동 가능하고 구체적이며 친절한 지침을 제공하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 작업 소개: "이 함수는 너무 복잡해요."
@@ -341,7 +524,18 @@ React 애플리케이션에 대한 코드 검토를 진행할 때는 프로세�
 
 - 사용자 입력 정제 문제
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 dangerouslySetInnerHTML을 사용할 때, 안전하지 않은 입력은 XSS 공격으로 이어질 수 있습니다.
 
@@ -362,19 +556,39 @@ function DangerousComponent({ htmlContent }) {
 // return <div dangerouslySetInnerHTML={ __html: DOMPurify.sanitize(htmlContent) } />;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 안전하지 않은 API 호출
 
 HTTP를 통해 API 호출을하거나 사용자 입력을 적절하게 인코딩하지 않으면 보안 취약점이 발생할 수 있습니다.
 
-
 fetch(`http://api.example.com/data?param=${userInput}`)
-
 
 리뷰 코멘트 및 해결책:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 리뷰 코멘트:
@@ -392,7 +606,18 @@ API 키와 같은 중요한 정보를 하드코딩하는 것은 코드가 노출
 const API_KEY = "12345-SECRET-API-KEY";
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 리뷰 코멘트:
@@ -408,7 +633,18 @@ const API_KEY = "12345-SECRET-API-KEY";
 
 React의 이해와 숙련도를 더 향상시키기 위해 다양한 스타일 가이드를 탐색하는 것이 중요합니다. 이 가이드는 React 커뮤니티에서 채택한 모범 사례, 코딩 규칙 및 패턴에 대한 통찰을 제공합니다. 여기 몇 가지 필수 자원이 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Airbnb React/JSX 스타일 가이드: Airbnb React/JSX 스타일 가이드
 - Google JavaScript 스타일 가이드: Google JavaScript 스타일 가이드
@@ -421,7 +657,18 @@ React 코딩 리뷰를 위한 최상의 실천 방법을 경험하면서 우리�
 
 기억하세요, 우리가 작성하는 각 줄의 코드는 기계가 실행하는 것뿐만 아니라 사람이 읽고 이해하는 데도 사용됩니다. 이러한 지침을 채택함으로써 우리는 우리의 코드를 향상시키는 것뿐만 아니라 전체 개발 프로세스를 높이는 우수성과 공유된 이해를 육성합니다. 자랑스러워할 수 있는 React 코드를 계속해서 작성하며, 품질에 대한 우리의 헌신과 소프트웨어 개발에 대한 헌신이 반영된 코드를 만들어가 봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 행복한 코딩!
 
@@ -431,7 +678,18 @@ React 코딩 리뷰를 위한 최상의 실천 방법을 경험하면서 우리�
 
 In Plain English 커뮤니티의 일원이 되어 주셔서 감사합니다! 이전에 가기 전에:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 작가에게 박수를 보내주시고 팔로우도 해주세요️
 - In Plain English에 글을 쓸 수 있는 방법을 배워보세요️

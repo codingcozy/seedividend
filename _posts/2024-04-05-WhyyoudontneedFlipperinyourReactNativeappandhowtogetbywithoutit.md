@@ -3,17 +3,13 @@ title: "React Native 앱에서 Flipper가 필요하지 않은 이유"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Why you dont need Flipper in your React Native app  and how to get by without it"
 link: "https://medium.com/infinite-red/why-you-dont-need-flipper-in-your-react-native-app-and-how-to-get-by-without-it-3af461955109"
 isUpdated: true
 ---
-
-
-
-
 
 Flipper가 0.62 버전에서 소개되었을 때, React Native 개발자들에게 큰 도움이 되었습니다. 이 소식은 React Native 개발자들에게는 정말 좋은 소식이었죠! 오랫동안 더 나은 디버깅 도구를 원해왔었거든요.
 
@@ -23,7 +19,18 @@ Flipper가 0.62 버전에서 소개되었을 때, React Native 개발자들에�
 
 결국 React Native 핵심 팀은 Flipper를 제거하기로 결정했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/WhyyoudontneedFlipperinyourReactNativeappandhowtogetbywithoutit_1.png" />
 
@@ -33,7 +40,18 @@ Flipper가 0.62 버전에서 소개되었을 때, React Native 개발자들에�
 
 자켓을 걷어서 한 가지씩 대체해 봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](https://miro.medium.com/v2/resize:fit:996/0*Fc1EzfW1mhk-nraz.gif)
 
@@ -43,7 +61,18 @@ Flipper을 열 때 React DevTools로 가서 React 렌더 트리와 Components In
 
 ![image](/assets/img/WhyyoudontneedFlipperinyourReactNativeappandhowtogetbywithoutit_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 대안:
 
@@ -55,7 +84,18 @@ npx react-devtools
 
 ![이미지](/assets/img/WhyyoudontneedFlipperinyourReactNativeappandhowtogetbywithoutit_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 도구에는 React Native 앱에서 발생할 수 있는 몇 가지 주의할 점이 있습니다.
 
@@ -65,7 +105,18 @@ npx react-devtools
 
 ![이미지](/assets/img/WhyyoudontneedFlipperinyourReactNativeappandhowtogetbywithoutit_5.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 대안:
 
@@ -82,7 +133,18 @@ adb -s "기기_ID" logcat
 
 (더 간단한 방법은 npx react-native log-android을 통해 실행하는 것입니다.)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 iOS에서는 Xcode의 내장 기기 로그를 사용할 수 있어요:
 
@@ -92,7 +154,18 @@ iOS에서는 Xcode의 내장 기기 로그를 사용할 수 있어요:
 
 ![Console.app](/assets/img/WhyyoudontneedFlipperinyourReactNativeappandhowtogetbywithoutit_7.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 대안들을 지금 당장 사용하는 것을 추천해 드리는데, npx react-native log-ios를 실행해 볼 수도 있어요. 제가 테스트 중에는 제대로 작동하지 않았는데요.
 
@@ -102,7 +175,18 @@ iOS에서는 Xcode의 내장 기기 로그를 사용할 수 있어요:
 
 ![이미지](/assets/img/WhyyoudontneedFlipperinyourReactNativeappandhowtogetbywithoutit_8.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 대안:
 
@@ -112,7 +196,18 @@ Infinite Red의 Reactotron을 사용하세요! 타임라인에서 네트워크 �
 
 ![이미지](/assets/img/WhyyoudontneedFlipperinyourReactNativeappandhowtogetbywithoutit_9.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 데이터베이스 보기
 
@@ -122,7 +217,18 @@ Flipper에는 장치에서 SQLite 쿼리를 검사할 수 있는 데이터베이
 
 ## 대안:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 정말 솔직히 말하면, 이것은 치환하기가 어려운 것 중 하나입니다! Flipper의 데이터베이스 뷰어는 매우 사용하기 쉽고 강력합니다.
 
@@ -132,7 +238,18 @@ Flipper에는 장치에서 SQLite 쿼리를 검사할 수 있는 데이터베이
 
 Flipper의 충돌 보고서는 네이티브 측에서 앱이 충돌할 때 알림을 표시하고 로그와 함께 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/WhyyoudontneedFlipperinyourReactNativeappandhowtogetbywithoutit_11.png" />
 
@@ -142,7 +259,18 @@ Flipper의 충돌 보고서는 네이티브 측에서 앱이 충돌할 때 알�
 
 개발환경에서도 네이티브 로그에서 크래시를 확인할 수 있습니다(위에서 설명한 대로). 결국 Flipper에서 하는 것과 별 다를바 없습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 공유 설정 뷰어
 
@@ -152,7 +280,18 @@ Flipper의 충돌 보고서는 네이티브 측에서 앱이 충돌할 때 알�
 
 ## 대안:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트 네이티브 개발자들은 보통 선호도를 저장하기 위해 react-native-mmkv 또는 AsyncStorage를 사용하지만, 네이티브 코드와 공유해야 할 경우에는 일반적으로 이러한 네이티브 도구들을 활용합니다.
 
@@ -162,7 +301,18 @@ Flipper의 충돌 보고서는 네이티브 측에서 앱이 충돌할 때 알�
 
 Flipper의 레이아웃 인스펙터와 UI 디버거는 네이티브 뷰를 자세히 살펴보고 관련 정보를 확인하는 데 유용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/WhyyoudontneedFlipperinyourReactNativeappandhowtogetbywithoutit_13.png" />
 
@@ -173,7 +323,18 @@ iOS 네이티브 뷰를 확인하려면 Xcode의 내장된 뷰 계층 검사 도
 - Xcode에서, 디버깅 메뉴로 이동한 다음 “프로세스에 연결”을 선택하고 실행 중인 앱을 선택하세요.
 - 다시 디버깅 메뉴로 돌아가서 “뷰 디버깅” 및 “뷰 계층 캡처”를 선택하세요. 왼쪽에는 계층 구조, 중간에는 폭발된 뷰를 보실 수 있습니다. 오른쪽에는 뷰에 대한 다양한 정보를 보실 수 있는 마지막 두 아이콘을 클릭할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/WhyyoudontneedFlipperinyourReactNativeappandhowtogetbywithoutit_14.png" />
 
@@ -184,7 +345,18 @@ iOS 네이티브 뷰를 확인하려면 Xcode의 내장된 뷰 계층 검사 도
 
 이를 통해 네이티브 뷰를 확인할 수 있고, Xcode의 유사한 3D 폭발 뷰로 살펴볼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/WhyyoudontneedFlipperinyourReactNativeappandhowtogetbywithoutit_15.png)
 
@@ -194,7 +366,18 @@ iOS 네이티브 뷰를 확인하려면 Xcode의 내장된 뷰 계층 검사 도
 
 ## 대안:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Reactotron은 유사한 기능을 달성하기 위해 설정할 수 있는 사용자 정의 명령을 가지고 있습니다. 또한 기기에서 브라우저에서 실행되는 간단한 웹 페이지에서 딥 링크를 설정할 수도 있습니다.
 
@@ -204,7 +387,18 @@ Reactotron은 유사한 기능을 달성하기 위해 설정할 수 있는 사�
 
 ![이미지](/assets/img/WhyyoudontneedFlipperinyourReactNativeappandhowtogetbywithoutit_16.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 작업은 비교적 간단합니다! 공식 문서에서 가져온 내용입니다:
 
@@ -216,7 +410,18 @@ Reactotron은 유사한 기능을 달성하기 위해 설정할 수 있는 사�
 
 # Flipper 이후의 삶
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 Flipper에서 알고 사랑하는 모든 기능을 대체할 수 있는 도구를 갖게 되었으니 안전하게 그것을 폐기할 수 있어요!
 
@@ -226,7 +431,18 @@ Reactotron은 유사한 기능을 달성하기 위해 설정할 수 있는 사�
 
 그런데 기다려봐요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 참 사소한 내용이 있어요!
 
@@ -236,7 +452,18 @@ React Native에 새로운 디버거가 나옵니다!
 
 React Native JS Inspector라고 하는데 npx react-native start --experimental-debugger를 실행하면 됩니다. 개발자 메뉴에서 "디버거 열기"를 선택하면 구글 크롬 또는 마이크로소프트 엣지에서 새 디버거가 시작됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/WhyyoudontneedFlipperinyourReactNativeappandhowtogetbywithoutit_20.png)
 
@@ -246,7 +473,18 @@ React Native JS Inspector라고 하는데 npx react-native start --experimental-
 
 준비됐나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 플립퍼네요.
 
@@ -256,6 +494,17 @@ React Native JS Inspector라고 하는데 npx react-native start --experimental-
 
 React Native 앱에 도움이 필요하다면, Infinite Red라는 우리 회사가 최고의 React Native 앱 개발 업체입니다! 연락해보고 우리가 귀하의 팀의 실력을 향상시키고 앱을 출시 준비 단계로 이끄는 데 어떻게 도움을 줄 수 있는지 확인해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 마크다운 형식으로 변경해주세요.

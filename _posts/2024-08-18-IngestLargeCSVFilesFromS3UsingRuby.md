@@ -3,7 +3,7 @@ title: "루비를 사용하여 S3에서 대용량 CSV 파일 가져오는 방법
 description: ""
 coverImage: "/assets/img/2024-08-18-IngestLargeCSVFilesFromS3UsingRuby_0.png"
 date: 2024-08-18 11:40
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-18-IngestLargeCSVFilesFromS3UsingRuby_0.png
 tag: Tech
 originalTitle: "Ingest Large CSV Files From S3 Using Ruby"
@@ -11,7 +11,6 @@ link: "https://medium.com/@ascourter/ingest-large-csv-files-from-s3-using-ruby-7
 isUpdated: true
 updatedAt: 1724032773426
 ---
-
 
 최근에 루비 온 레일즈 앱에서 우리의 데이터 수집 프로세스를 조정해야 하는 문제를 겪었습니다. 처음에 작성된 코드는 S3 버킷에서 원래 구축되어 있던 것보다 훨씬 큰 파일을 읽어들이는 것에 도전했습니다.
 
@@ -21,7 +20,18 @@ updatedAt: 1724032773426
 
 # 시작하는 코드
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기에 처음에 시작한 내용입니다:
 
@@ -31,7 +41,7 @@ end
 
 class LoadFile
     def perform(file_name:)
-        Record.transaction do 
+        Record.transaction do
             Record.delete_all
 
             data = S3Client.get_object(bucket: "BUCKET", key: file_name).body
@@ -56,7 +66,18 @@ end
 
 만약 문제가 발생하면 모든 변경 사항이 롤백되도록 트랜잭션에 모든 것을 감쌉니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 문제
 
@@ -66,7 +87,18 @@ end
 
 전체 파일을 메모리에 로드하다 보니 이 프로세스가 크래시되고 실행 중인 컨테이너가 갑자기 멈췄습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스트리밍으로 전환하거나 파일을 청크로 읽어들여서 컨테이너의 CPU 및 메모리 제한에 도달하지 않도록 조정해야 했어요.
 
@@ -76,7 +108,18 @@ end
 
 우리의 기준이 무엇인지 파악하고 해결책이 더 나은지 테스트할 수 있도록 프로파일링을 추가해야 했어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여러 가지 다른 젬(예: ruby prof)을 사용하여이 작업을 수행하는 몇 가지 방법이 있습니다.
 
@@ -115,17 +158,28 @@ def profile_gc
 end
 
 def profile
-  profile_memory do 
-    profile_time do 
+  profile_memory do
+    profile_time do
       profile_gc do
         yield
       end
-    end 
-  end 
+    end
+  end
 end
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리 방법 주변에 프로필을 추가했습니다:
 
@@ -133,7 +187,7 @@ end
 class LoadFile
     def perform
       profile do
-        Record.transaction do 
+        Record.transaction do
           ...
         end
       end
@@ -145,7 +199,18 @@ end
 
 # Amazon S3 클라이언트에서 청크 사용
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 가지 방법은 S3를 사용하여 파일을 메모리로 모두 로드하는 대신 청크로 스트리밍하는 것입니다.
 
@@ -156,7 +221,7 @@ class LoadFile
     def perform(file_name:)
       line_count = 0
       remaining_string = ""
-      Record.transaction do 
+      Record.transaction do
           Record.delete_all
 
           ::Aws::S3::Client.new.get_object(
@@ -195,7 +260,18 @@ end
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 솔루션을 마침내 작동하게 하는 데 시간이 걸렸기 때문에, 나중에 누군가에게 도움이 될 수 있도록 공유하고 싶었습니다. 결과적으로 성능을 더 향상시키기 위해 추가로 원시 SQL을 사용하는 변경을 가했습니다.
 

@@ -3,16 +3,13 @@ title: "Angular Content Security Policy 위반 사항 보고하는 방법 "
 description: ""
 coverImage: "/assets/img/2024-06-22-AngularWayswecanreportContentSecurityPolicyViolations_0.png"
 date: 2024-06-22 14:55
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-AngularWayswecanreportContentSecurityPolicyViolations_0.png
 tag: Tech
 originalTitle: "Angular: Ways we can report Content Security Policy Violations"
 link: "https://medium.com/@ramya-bala221190/angular-ways-we-can-report-content-security-policy-violations-e5f36d971904"
 isUpdated: true
 ---
-
-
-
 
 귀하의 애플리케이션에서 발생한 CSP 위반 사항을 추적하여 해당 보고서를 응용 프로그램 서버로 전송하여 분석할 수 있습니다. 이를 위해 Content-Security-Policy 헤더의 report-to 또는 report-uri 지시문을 사용하면 됩니다.
 
@@ -24,7 +21,18 @@ report-uri은 더 이상 권장되지 않으며 report-to가 이를 대체하기
 “Content-Security-Policy”:”default-src ‘self’;report-uri https://csrfexample.com:3443/reportViolations"
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 CSP를 위반해보고 위반 보고서가 어떻게 전송되는지 살펴보겠습니다. 내 Angular 앱은 https://innocent.csrfexample.com:4200에서 호스팅되어 있습니다.
 
@@ -36,7 +44,18 @@ AppComponent에서 https://csrfexample.com:3443에서 이미지를 로드하고 
 
 Angular.json의 "serve" 섹션에 "headers" 속성을 아래와 같이 설정했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 “serve”: {
@@ -71,8 +90,18 @@ res.status(200).send(“위반 사항이 성공적으로 수신되었습니다�
 
 브라우저에서 https://innocent.csrfexample.com:4200을 입력하면, https://csrfexample.com:3443/getImage로의 http GET 요청이 CSP에 의해 차단되었음을 확인할 수 있으며, https://csrfexample.com:3443/reportViolations으로 3개의 http POST 요청을 보게 됩니다. 각 POST 요청에는 개별 위반 사항의 보고서가 포함되어 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금 3개의 위반 보고서 내용을 확인해보겠습니다.
 
@@ -82,7 +111,18 @@ res.status(200).send(“위반 사항이 성공적으로 수신되었습니다�
 
 angular.json 파일의 "serve" 섹션 아래 headers 속성을 아래와 같이 수정해봅시다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 “serve”: {
@@ -113,7 +153,18 @@ angular.json 파일의 "serve" 섹션 아래 headers 속성을 아래와 같이 
 
 애플리케이션 서버가 위반 보고서 처리 책임을 다른 신뢰할 수 있는 시스템에 맡길 수 있을까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래요! https://report-uri.com/ 이 도움을 줄 거에요. 테스트 목적으로 무료 계정을 만들고 계정별 보고 URL을 사용해 위반 보고서를 게시할 수 있어요.
 

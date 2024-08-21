@@ -3,16 +3,13 @@ title: "Spring AI 대형 언어 모델과 Java 통합 쉽게 하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-12-SpringAIJavaIntegrationwithLargeLanguageModelsSimplified_0.png"
 date: 2024-07-12 21:20
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-12-SpringAIJavaIntegrationwithLargeLanguageModelsSimplified_0.png
 tag: Tech
 originalTitle: "Spring AI : Java Integration with Large Language Models Simplified"
 link: "https://medium.com/@freeyecheng/spring-ai-java-integration-with-large-language-models-simplified-04873df6a538"
 isUpdated: true
 ---
-
-
-
 
 ![link](/assets/img/2024-07-12-SpringAIJavaIntegrationwithLargeLanguageModelsSimplified_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 ![link](/assets/img/2024-07-12-SpringAIJavaIntegrationwithLargeLanguageModelsSimplified_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오늘은 공식적으로 Spring Initializr에 Spring AI가 등록되었다는 소식이 전해졌어요. 이제 AI와 상호작용하는 더 간소화된 방법을 제공하여 LLM 모델을 Java 작업에 통합하는 학습 곡선을 줄일 수 있어요. 지금 start.spring.io에서 사용하고 구축할 수 있어요.
 
@@ -32,7 +40,18 @@ Spring AI는 인공 지능 엔지니어링을 위한 응용 프로그램 프레�
 
 휴대용 API는 채팅, 텍스트로 이미지로, 모델 포함을 포함한 교차-AI 제공자 상호작용을 지원해요. 동기식 및 스트림 API 옵션을 모두 지원해요. 또한 특정 모델에 액세스하기 위해 매개변수를 구성하는 기능을 지원해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지원되는 챗 모델:
 
@@ -53,7 +72,18 @@ Spring AI는 인공 지능 엔지니어링을 위한 응용 프로그램 프레�
 - OpenAI의 DALL-E
 - StabilityAI
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지원되는 벡터 모델:
 
@@ -70,7 +100,18 @@ Spring AI는 인공 지능 엔지니어링을 위한 응용 프로그램 프레�
 
 # 빠른 시작
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 빠르게 IDEA를 사용하여 새 프로젝트를 시작하고 필요한 AI 모델 종속성을 선택하세요.
 
@@ -80,7 +121,18 @@ Spring AI는 인공 지능 엔지니어링을 위한 응용 프로그램 프레�
 
 # Ollama
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Ollama은 GPU 자원이 필요 없이 로컬 컴퓨터에서 한 번의 클릭으로 대형 모델을 구축할 수 있게 해주며, Ollama에서 대형 모델의 빠른 테스트 및 통합을 위해 콘솔과 RestfulAPI를 제공합니다.
 
@@ -90,7 +142,18 @@ Ollama은 GPU 자원이 필요 없이 로컬 컴퓨터에서 한 번의 클릭�
 
 Ollama 웹사이트: ollama.com/library
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 팁:
 
@@ -123,7 +186,18 @@ Ollama 웹사이트: ollama.com/library
 </dependencyManagement>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Ollama 모델 실행하기
 
@@ -133,7 +207,18 @@ Ollama 웹사이트: ollama.com/library
 
 첫 번째 실행에서는 모델 파일을 다운로드합니다 (약 3GB이며 시간이 오래 걸릴 수 있습니다).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모델 리소스를 다운로드한 후에는 위와 같이 모델이 자동으로 시작되며, 콘솔에서 모델을 테스트하고 상호 작용할 수 있습니다.
 
@@ -150,7 +235,18 @@ spring:
         model: gemma:2b
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 테스트
 
@@ -158,7 +254,7 @@ spring:
 @Test
 void contextLoads() {
     String message = """
-                누가 도널드 트럼프인가?                               
+                누가 도널드 트럼프인가?
             """;
     System.out.println(chatClient.call(message));
 }
@@ -168,7 +264,18 @@ void contextLoads() {
 
 # 스트림 액세스
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 @Test

@@ -3,16 +3,13 @@ title: "Android window-size 클래스를 사용하여 대화면에 최적화하�
 description: ""
 coverImage: "/assets/img/2024-07-01-Getyourandroidappreadyforlargerscreensizesusingwindow-sizeclassesonandroid_0.png"
 date: 2024-07-01 16:54
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-01-Getyourandroidappreadyforlargerscreensizesusingwindow-sizeclassesonandroid_0.png
 tag: Tech
 originalTitle: "Get your android app ready for larger screen sizes using window-size classes on android"
 link: "https://medium.com/@mubaraknative/get-your-android-app-ready-for-larger-screen-sizes-using-window-size-classes-on-android-1663d1a77423"
 isUpdated: true
 ---
-
-
-
 
 ## 왜 우리는 더 큰 화면 크기를 지원해야 할까요?
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 모든 화면 크기를 지원하려면 레이아웃을 적응형으로 만들어야 합니다. 이렇게 하면 화면 크기에 따라 크기를 조정할 수 있습니다. 안드로이드에서는 윈도우 사이즈 클래스를 사용하여 이를 달성합니다. 이 클래스는 화면 크기의 고수준 추상화를 제공하여 간단한 유형인 compact, medium, expanded를 제공하므로 화면 크기에 기반한 UI 디자인 결정을 쉽게 할 수 있습니다. 예를 들어, compact 모드에서는 네비게이션 바나 모델 네비게이션 드로어를 표시합니다. 이 클래스에는 2가지 윈도우 사이즈 클래스가 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 높이
 - 너비
@@ -39,7 +47,18 @@ material3AdaptiveNavigationSuite = "1.3.0-beta04"
 androidx-material3-adaptive-navigation-suite = { module = "androidx.compose.material3:material3-adaptive-navigation-suite", version.ref = "material3AdaptiveNavigationSuite" }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 표 태그를 Markdown 형식으로 변경하고 build.gradle.kts(module:app) 파일에 이를 정의하세요.
 
@@ -54,7 +73,18 @@ dependencies {
 
 - 첫 번째로, currentWindowAdaptiveInfo() 함수를 사용하여 높이와 너비에 대한 창 크기 클래스에 액세스할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```kotlin
 val windowSizeClass = currentWindowAdaptiveInfo().windowSizeClass.windowWidthSizeClass
@@ -86,7 +116,18 @@ fun App(
 
 2. 두 번째로, NavigationSuiteScaffold에 액세스할 수 있어서 창 크기에 따라 네비게이션 UI 결정 로직을 단순화할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 윈도우 크기가 콤팩트하거나 테이블-탑(수평) 위치에 있으면 하단 탐색바가 표시되고, 그 외에는 네비게이션 레일이 표시됩니다.
 
@@ -96,9 +137,20 @@ Material Design 가이드라인에 따르면, 윈도우 크기 클래스는 다�
 
 - 콤팩트(너비 ` 600 dp): 네비게이션 바, 모달 네비게이션 드로어 사용
 - 중간(600 dp≤ 너비 ` 840 dp): 네비게이션 레일, 모달 네비게이션 드로어 사용
-- 확장(840 ≤ 너비 ` 1200*): 네비게이션 레일, 모달 또는 표준 네비게이션 드로어 사용 (확장되었을 경우 ListDetailPaneScaffold를 사용하여 목록-세부 화면을 사용할 경우 2 패인 레이아웃 사용)
+- 확장(840 ≤ 너비 ` 1200\*): 네비게이션 레일, 모달 또는 표준 네비게이션 드로어 사용 (확장되었을 경우 ListDetailPaneScaffold를 사용하여 목록-세부 화면을 사용할 경우 2 패인 레이아웃 사용)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 실제 데모를 확인해 보겠습니다
 
@@ -108,7 +160,18 @@ Material Design 가이드라인에 따르면, 윈도우 크기 클래스는 다�
 
 ![image](/assets/img/2024-07-01-Getyourandroidappreadyforlargerscreensizesusingwindow-sizeclassesonandroid_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 앱에서는 화면의 내용에 집중하지 않고 현재 위치인 텍스트만 표시합니다. 창 크기에 따라 네비게이션 레이아웃을 표시하는 것이 우리의 목표입니다.
 
@@ -118,7 +181,18 @@ Material Design 가이드라인에 따르면, 윈도우 크기 클래스는 다�
 
 최상위 목적지로, 열거형 클래스를 추가했습니다. 그 코드는 다음과 같습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```kotlin
 enum class AppDestinations(
@@ -139,8 +213,18 @@ NavigationSuiteScaffold를 사용할 때 창 크기 클래스를 기반으로 �
 
 원한다면 더 맞춤화할 수도 있습니다. 창 크기에 따라 다른 네비게이션 레이아웃을 표시하려면 NavigationSuiteScaffold에 layoutType이라는 매개변수를 전달하여 할 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```kotlin
 val adaptiveInfo = currentWindowAdaptiveInfo()
@@ -164,8 +248,18 @@ val customNavSuiteType = with(adaptiveInfo) {
 
 이제 NavigationSuiteScaffold를 사용하는 방법을 알아보았습니다. 이제 더 맞춤화된 옵션으로 넘어가 봅시다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Window-Size-Classes를 사용하여 네비게이션 레이아웃 결정 처리하기
 
@@ -177,7 +271,18 @@ val customNavSuiteType = with(adaptiveInfo) {
 val isExpanded = widthSizeClass == WindowWidthSizeClass.EXPANDED
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 MainActivity.kt에서 이 함수를 호출해보세요.
 
@@ -192,7 +297,18 @@ YourAppTheme{
 
 <img src="/assets/img/2024-07-01-Getyourandroidappreadyforlargerscreensizesusingwindow-sizeclassesonandroid_2.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 NavigationSuiteScaffold 데모의 소스 코드는 이 저장소에서 확인할 수 있습니다:
 

@@ -3,17 +3,13 @@ title: "플러터의 Shimmer 로딩 효과로 로딩을 세련되게 만드는 �
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Make Loading Great  Shimmer Loading Effect on Flutter"
 link: "https://itnext.io/make-loading-great-shimmer-loading-effect-on-flutter-9938facb3aae"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/Make-Loading-Great-—-Shimmer-Loading-Effect-on-Flutter_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 제가 보여드릴 내용을 따라가려면 GitHub에서 시작 프로젝트를 다운로드하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/Make-Loading-Great-—-Shimmer-Loading-Effect-on-Flutter_1.png" />
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ## Skelton 위젯 만들기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 셰머 효과는 아무 것도 아닌데, 연한 회색으로 된 컨테이너입니다. 저희 컨테이너의 색은 투명도가 4%인 백 색입니다. 또한, borderRadius를 적용하여 코너를 둥글게 만들 것입니다. 마지막으로, 우리 컨테이너가 현재 16픽셀의 미니 높이를 갖도록 패딩을 추가할 것입니다. 이는 컨테이너 주위에 8의 패딩을 적용하기 때문입니다.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 ![Skelton Widget](/assets/img/Make-Loading-Great-—-Shimmer-Loading-Effect-on-Flutter_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 희미한 효과
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 CircularProgressIndicator를 NewsCardSkeleton으로 대체할 때입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/Make-Loading-Great-—-Shimmer-Loading-Effect-on-Flutter_6.png)
 
@@ -63,4 +103,15 @@ CircularProgressIndicator를 NewsCardSkeleton으로 대체할 때입니다.
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1400/1*cCLQ2W1gGrKNADYXh9UE_A.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

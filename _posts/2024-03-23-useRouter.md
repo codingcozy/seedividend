@@ -3,17 +3,13 @@ title: "Nextjs 13 - 라우트 처리를 위한 useRouter 사용하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "useRouter"
 link: "undefined"
 isUpdated: true
 ---
-
-
-
-
 
 # useRouter
 
@@ -47,7 +43,18 @@ export default ActiveLink
 
 > useRouter는 React Hook입니다. 따라서 클래스와 함께 사용할 수 없습니다. withRouter를 사용하거나 클래스를 함수 컴포넌트로 래핑해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 라우터 객체
 
@@ -67,7 +74,18 @@ export default ActiveLink
 
 > asPath 필드 사용은 서버 측 렌더링 또는 자동 정적 최적화를 사용하여 페이지가 렌더링된 경우에 클라이언트 및 서버 간 불일치로 이어질 수 있습니다. isReady 필드가 true인 경우에만 asPath를 사용하는 것을 피하십시오.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래에는 라우터 내에 포함된 메서드들이 있습니다:
 
@@ -79,7 +97,18 @@ export default ActiveLink
 router.push(url, as, options);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - url: UrlObject 또는 String - 이동할 URL (Node.JS URL 모듈 문서 참조).
 - as: UrlObject 또는 String - 브라우저 URL 표시에 사용될 경로의 선택적 장식. Next.js 9.5.3 이전에는 동적 경로에 사용되었습니다.
@@ -109,7 +138,18 @@ export default function Page() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다이나믹 라우트인 페이지/포스트/[pid].js를 탐색 중입니다:
 
@@ -150,7 +190,18 @@ export default function Page() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 #### 내비게이션 후 상태 재설정하기
 
@@ -177,7 +228,18 @@ export default function Page(props) {
 
 위 예시에서 `/one`과 `/two` 사이를 이동해도 카운트가 재설정되지 않습니다. 상태는 렌더링 간에 유지되기 때문에 상위 레벨 React 컴포넌트인 Page이 동일하게 유지됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 이 동작을 원치 않는다면, 몇 가지 옵션이 있습니다:
 
@@ -205,7 +267,18 @@ export default function MyApp({ Component, pageProps }) {
 
 next/link에서 사용할 수 있는 방법과 동일하게 URL 객체를 사용할 수 있습니다. URL 및 as 매개변수 모두에 작동합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { useRouter } from 'next/router'
@@ -237,7 +310,18 @@ export default function ReadMore({ post }) {
 router.replace(url, as, options);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - router.replace의 API는 router.push의 API와 정확히 동일합니다.
 
@@ -259,7 +343,18 @@ export default function Page() {
 
 ### router.prefetch
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 클라이언트 측 전환이 빨라지도록 페이지를 사전에 가져옵니다. 이 방법은 next/link가 없는 네비게이션의 경우에만 유용합니다. next/link는 페이지를 자동으로 가져오는 데 도움이 됩니다.
 
@@ -275,7 +370,18 @@ router.prefetch(url, as, options);
   - locale - 활성 언어 설정과 다른 로캘을 제공할 수 있도록 합니다. false이면 URL에 로캘을 포함해야 합니다. 활성 언어는 사용되지 않음을 유의하세요.
   - locale - 활성 언어 설정과 다른 로캘을 제공할 수 있도록 합니다. false이면 URL에 로캘을 포함해야 합니다. 활성 언어는 사용되지 않음을 유의하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로그인 페이지가 있고 로그인 후에 사용자를 대시보드로 리디렉션하는 경우를 예를 들어봅시다. 이 경우에는 다음 예시처럼 대시보드를 미리 가져와 더 빠른 전환을 만들 수 있습니다:
 
@@ -318,7 +424,18 @@ export default function Login() {
 
 일부 경우(예: 사용자 지정 서버를 사용하는 경우)에는 popstate를 청취하고 라우터가 작동하기 전에 어떤 작업을 수행하고 싶을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 router.beforePopState(cb);
@@ -336,7 +453,18 @@ cb가 false를 반환하는 경우, Next.js 라우터가 popstate를 처리하�
 
 다음 예제처럼 요청을 조작하거나 SSR 새로고침을 강제로 실행하는 데 beforePopState을 사용할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { useEffect } from "react";
@@ -380,7 +508,18 @@ export default function Page() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### router.reload
 
@@ -402,7 +541,18 @@ export default function Page() {
 
 ### router.events
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Next.js Router 내부에서 발생하는 다양한 이벤트를 들을 수 있어요. 지원되는 이벤트 목록이에요:
 
@@ -419,7 +569,18 @@ Next.js Router 내부에서 발생하는 다양한 이벤트를 들을 수 있�
 
 예를 들어, 라우터 이벤트 routeChangeStart을 듣기 위해 pages/\_app.js 파일을 열거나 생성하고, 이벤트에 구독하면 됩니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { useEffect } from "react";
@@ -451,7 +612,18 @@ export default function MyApp({ Component, pageProps }) {
 
 예를 들어, 두 번 연속으로 빠르게 링크를 클릭하여 경로로드를 취소하는 경우, routeChangeError 이벤트가 발생합니다. 전달된 err에는 true로 설정된 canceled 속성이 포함됩니다. 다음 예제와 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { useEffect } from "react";
@@ -486,7 +658,18 @@ export default function MyApp({ Component, pageProps }) {
 
 애플리케이션이 이 규칙을 필요로 하는 경우, Promise를 void하거나 async 함수를 사용하고 Promise를 await한 다음 함수 호출을 void해야합니다. 이것은 해당 메서드가 onClick 핸들러 내부에서 호출될 때는 적용되지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 영향을 받는 메소드는 다음과 같습니다:
 
@@ -529,7 +712,18 @@ export default function Page() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## withRouter
 
@@ -547,7 +741,18 @@ function Page({ router }) {
 export default withRouter(Page);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### TypeScript
 
@@ -572,4 +777,15 @@ class MyComponent extends React.Component<MyComponentProps> {
 export default withRouter(MyComponent);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

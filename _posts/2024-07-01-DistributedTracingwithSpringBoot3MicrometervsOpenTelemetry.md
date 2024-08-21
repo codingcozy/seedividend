@@ -3,7 +3,7 @@ title: "Spring Boot 3로 분산 추적하는 방법  Micrometer와 OpenTelemetry
 description: ""
 coverImage: "/assets/img/2024-07-01-DistributedTracingwithSpringBoot3MicrometervsOpenTelemetry_0.png"
 date: 2024-07-01 16:44
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-01-DistributedTracingwithSpringBoot3MicrometervsOpenTelemetry_0.png
 tag: Tech
 originalTitle: "Distributed Tracing with Spring Boot 3 — Micrometer vs OpenTelemetry"
@@ -11,12 +11,20 @@ link: "https://medium.com/itnext/distributed-tracing-with-spring-boot-3-micromet
 isUpdated: true
 ---
 
-
-
-
 <table> 태그를 Markdown 형식으로 변경해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Micrometer 추적 시작하기
 
@@ -49,7 +57,18 @@ isUpdated: true
 
 추적에 사용되는 라이브러리(Micrometer)와 추적 데이터가 전송되는 익스포터(Jaeger)를 모두 교체할 수 있는 OpenTelemetry와 OTLP를 완전히 공급업체 중립적인 구현으로 사용할 수 있다는 점에 유의하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Jaeger를 Exporter로 선택했기 때문에 실행해야 합니다. 아래 명령어로 시작해보세요:
 
@@ -64,24 +83,25 @@ docker run --rm -d --name jaeger \
 application.yaml 파일에 아래 항목을 추가하여 모든 요청이 추적되도록 설정하세요 (기본적으로는 요청의 10%만 추적됩니다). Jaeger의 엔드포인트도 구성되어 있습니다.
 
 ```js
-spring:
-  application:
-    name: "http-service1"
+spring: application: name: "http-service1";
 
-management:
-  tracing:
-    sampling:
-      probability: 1.0
-  otlp:
-    tracing:
-      endpoint: http://localhost:4318/v1/traces
-  endpoints:
-    web:
-      exposure:
-        include: "*"  
+management: tracing: sampling: probability: 1.0;
+otlp: tracing: endpoint: //localhost:4318/v1/traces
+http: endpoints: web: exposure: include: "*";
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희 예제 애플리케이션은 두 개의 서비스로 구성되어 있어요. HTTP 서비스 1은 HTTP 서비스 2에 REST 호출을 하고, HTTP 서비스 2는 원격 서비스에 동기 REST 호출을 하여 커밋 메시지를 가져옵니다. 그리고 이 메시지를 서비스 1로 반환해요.
 
@@ -91,7 +111,18 @@ management:
 
 ![이미지](/assets/img/2024-07-01-DistributedTracingwithSpringBoot3MicrometervsOpenTelemetry_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기본적으로 많은 라이브러리가 자동으로 추적됩니다. Instrumented Projects에서 전체 목록을 확인할 수 있습니다. JDBC와 같은 일부 라이브러리는 추적을 활성화하려면 pom.xml에 특정 종속성을 추가해야 합니다.
 
@@ -101,7 +132,18 @@ management:
 
 샘플 애플리케이션에서는 원격 서비스에서 가져온 실제 커밋 메시지를 추적하고 싶습니다. 다음은 원격 시스템에서 랜덤 "커밋 메시지"를 가져오기 위해 HTTP 호출을 수행하는 서비스의 예입니다. 실제 커밋 메시지는 스팬 태그로 캡처됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 @Service
@@ -136,8 +178,18 @@ Jaeger에서 추적을 확인해 봅시다. 커밋 메시지를 포함한 commit
 
 <img src="/assets/img/2024-07-01-DistributedTracingwithSpringBoot3MicrometervsOpenTelemetry_3.png" />
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Observation API를 사용하는 또 다른 장점은 모든 관측치가 메트릭과 추적을 모두 생성한다는 것입니다. 확인해보기 위해 액추에이터 메트릭 엔드포인트인 http://localhost:8081/actuator/metrics/fetch-commit을 호출해봅시다. 기본적으로 메트릭의 개수, 총 시간 및 최대 값이 계산됩니다. Micrometer Prometheus 라이브러리를 사용하면 이러한 메트릭을 특정 형식으로 변환하고 Prometheus에 저장할 수 있습니다.
 
@@ -174,7 +226,18 @@ Observation API를 사용하는 또 다른 장점은 모든 관측치가 메트�
 
 ## OpenTelemetry 자동 Instrumentation 시작하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Micrometer은 Spring Boot 애플리케이션을 추적하는 권장 방법입니다만, 유일한 방법은 아닙니다. OpenTelemetry 자동 계측을 직접 사용하여 Micrometer가 제공하는 추상화 계층을 건너뛸 수 있습니다.
 
@@ -202,7 +265,18 @@ Micrometer은 Spring Boot 애플리케이션을 추적하는 권장 방법입니
 
 OpenTelemetry를 직접 사용하기 위해서는 애플리케이션을 OpenTelemetry 에이전트와 함께 실행해야 합니다. 아래 명령어로 두 서비스를 시작해보세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 java -javaagent:./opentelemetry-javaagent.jar \
@@ -228,7 +302,18 @@ curl 호출을 실행하고 Jaeger에서 추적을 확인하세요:
 
 <img src="/assets/img/2024-07-01-DistributedTracingwithSpringBoot3MicrometervsOpenTelemetry_4.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용자 정의 span fetch-commit에는 commit.message 태그가 있는 사용자 정의 span이 있음을 알립니다. OpenTelemetry 자동 계측을 사용하면 아래와 같이 사용자 정의 span을 추가할 수 있습니다:
 
@@ -261,7 +346,18 @@ class FetchCommitService {
 
 ## Micrometer Tracing 또는 OpenTelemetry Auto Instrumentation을 사용해야 할까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그것은 정해진 사항이 아닙니다. 이 기본 선택 사항이 틀리다는 것은 없어요. 스프링 애플리케이션에는 Micrometer Tracing이 가는 방법일 것입니다.
 
@@ -271,15 +367,26 @@ Micrometer Tracing은 여전히 발전 중인 라이브러리이며, 지난 번�
 
 ## Micrometer을 활용한 통합 테스트
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비즈니스 컨텍스트를 제공하는 사용자 정의 span을 추가할 때, 실수로 삭제되지 않도록 하고 항상 새로운 코드가 계측되도록 하는 것이 중요합니다. Micrometer는 아래 종속성을 이용하여 코드를 테스트하고 spans 및 tags를 확인하는 방법을 제공합니다:
 
 ```js
 <dependency>
-    <groupId>io.micrometer</groupId>
-    <artifactId>micrometer-tracing-integration-test</artifactId>
-    <scope>test</scope>
+  <groupId>io.micrometer</groupId>
+  <artifactId>micrometer-tracing-integration-test</artifactId>
+  <scope>test</scope>
 </dependency>
 ```
 
@@ -364,7 +471,18 @@ class ApplicationIT extends SampleTestRunner {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 원격 서비스가 WireMock으로 대체되는 전형적인 IT입니다. REST 엔드포인트는 MockMvc로 호출되고 예상 응답이 확인됩니다. 또한, Micrometer에 의해 생성될 것으로 예상되는 스팬 및 메트릭을 검증합니다.
 
@@ -374,7 +492,18 @@ class ApplicationIT extends SampleTestRunner {
 
 모든 에이전트가 그렇지는 않습니다. 제대로 작성되지 않은 에이전트는 성능에 영향을 미치기 쉬우며 OpenTelemetry 에이전트는 해당 사례 중 하나가 아닙니다. 또한, 일반적으로 에이전트의 성능에 대한 잔류적인 영향이 여러분이 생각하는 것만큼 나쁘지 않을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 애플리케이션의 성능이 중요하다면 몇 가지 테스트를 진행하고 결과를 측정한 다음 결정하세요. 그러나 에이전트 기반 솔루션을 맹목적으로 거부하는 것은 좋지 않아요.
 
@@ -384,7 +513,18 @@ class ApplicationIT extends SampleTestRunner {
 
 그래서 추적이 비즈니스 로직의 필수적인 부분임을 받아들이세요. 결국 로깅 문이 비즈니스 코드 내부에 배치될 수 있다면 왜 추적을 배치하지 않을까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 추적이 필요하지 않아요. 로그에서의 상관 ID만 있으면 돼요!
 
@@ -394,7 +534,18 @@ class ApplicationIT extends SampleTestRunner {
 
 ## Spring Native GraalVM 애플리케이션은 어떨까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Micrometer과 OpenTelemetry은 둘 다 Spring 네이티브 애플리케이션에서 사용할 수 있어요. OpenTelemetry 에이전트는 직접 사용할 수 없지만, 특정 종속성을 추가할 수 있어요.
 
@@ -404,6 +555,17 @@ Micrometer과 OpenTelemetry은 둘 다 Spring 네이티브 애플리케이션에
 
 측정 및 추적을 통한 가시성은 몇 년 전과는 많이 다르죠. Java 스택에서는 이미 라이브러리들이 성숙해졌기 때문에 지금 바로 애플리케이션에 적용하고 프로 수준의 생산 문제 해결 능력을 갖추세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 GitHub에서 완전히 작동하는 코드 샘플을 확인하실 수 있어요.

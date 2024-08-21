@@ -3,17 +3,13 @@ title: "디자인 매니저가 디자인을 해야 할까요"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Hold on, but should design managers design"
 link: "https://medium.com/design-bridges/design-manager-types-b12c980576b5"
 isUpdated: true
 ---
-
-
-
-
 
 ## 디자인 리더십
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 디자인 관리의 다양한 측면과 당신의 관리 프로필을 정의하는 요소에 대해 이야기하기 전에, 간단한 질문부터 시작해보죠: 디자인 매니저는 어디에서 올까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/Holdonbutshoulddesignmanagersdesign_1.png)
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 하지만 듣고 보셔요: 매니지먼트는 디자인의 자연스러운 연장선이 아닙니다. 디자이너로 일하는 동안 자동으로 습득할 수 없는 다른 스킬 세트입니다. 실제로는 아래의 미임(meme)에 더 가까울 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Holdonbutshoulddesignmanagersdesign_3.png](/assets/img/Holdonbutshoulddesignmanagersdesign_3.png)
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 직책 표기는 다양하지만, 대개 생각하는 것은 모두가 공감할 수 있는 것 같습니다. 시니어(또는 때로는 리드) 수준에 도달하는 것은 직업 생활에서 중대한 지점이라고 봅니다. 이 단계에서 추가적인 경력 성장은 대개 개인 기여자로 남을 것인지 관리로 전환할 것인지에 달려 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/Holdonbutshoulddesignmanagersdesign_5.png)
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 반면에, 초보 디자인 리더가 팀을 디자인하는 데 능가하려고 시도할 때, 그는 실패로 향하는 길에 올라섭니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/Holdonbutshoulddesignmanagersdesign_7.png)
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 하지만 가장 흥미로운 변화 중 하나는 디자인 중심의 프레임워크에서 사람 중심의 프레임워크로의 전환입니다. 유명한 디자인 생각 프로세스와 직원 라이프사이클을 비교해 보면, 직원 라이프사이클은 디자이너들 사이에서는 잘 알려지지 않았지만 덜 유명하지는 않습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 디자인 생각: 공감 → 정의 → 아이디어 발전 → 프로토타입 → 시험 → 실행.
 - 직원 수명주기: 유치 → 채용 → 입사 → 개발 → 유지 → 이직.
@@ -74,7 +125,18 @@ isUpdated: true
 
 ![이미지](/assets/img/Holdonbutshoulddesignmanagersdesign_10.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안타깝게도, 관리 업무와 실무 업무의 균형 잡힌 조합은 일정한 한계 내에서만 가능합니다. 두 분야 모두 헌신을 요구하기 때문에 어느 한 쪽이 반드시 우위를 차지하게 될 것입니다.
 
@@ -85,7 +147,18 @@ isUpdated: true
 - 디자인 측면: 디자인 품질, 비전, 전략, 사용자 여정, UX 메트릭, 디스커버리, 방법론 및 도구 등
 - 인적 측면: 기술, 승진, 채용, 온보딩, 팀 내 협업, 위기 관리 등
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 디자인 관리자로서의 프로필은 디자인 및 인적 구성 요소의 비율로 정해집니다. 이것은 제한된 유형의 집합이 아니라 연속적인 스펙트럼입니다.
 
@@ -95,7 +168,18 @@ isUpdated: true
 
 ![이미지](/assets/img/Holdonbutshoulddesignmanagersdesign_13.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여러 요소들이 당신의 위치에 영향을 미치는 스펙트럼에 대해 알아보겠습니다:
 
@@ -110,7 +194,18 @@ isUpdated: true
 
 동일한 직책을 가진 사람들이 어떻게 다르게 작업할 수 있는지 맛을 볼 수 있도록 3가지 관리 설정을 자세히 살펴봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 예시 1. "안정된 균형"
 
@@ -120,7 +215,18 @@ isUpdated: true
 
 이 프로필은 최근에 빠르게 성장한 디자인 팀들에서 자주 관찰되며, 가장 유망한 디자이너들이 이 자리를 맡았지만 아직 디자인 매니저로부터 무엇을 기대해야 할지 모르는 경우가 많습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Holdonbutshoulddesignmanagersdesign_15](/assets/img/Holdonbutshoulddesignmanagersdesign_15.png)
 
@@ -130,7 +236,18 @@ isUpdated: true
 
 이 세팅이 본질적으로 잘못된 것은 아니지만, 누군가는 급여나 직원 유지와 같은 민감한 주제를 다뤄야 합니다. 일반적으로 이런 주제들은 디자인 리더의 상사나 인사 담당자에게 속합니다. 그러나 이 디자인 리더 유형은 모든 사람이 제목이나 계급과 관계없이 협력할 것으로 기대되는 초기 단계 스타트업에서 이상적일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한편, "상여급을 받는 디자인 전문가"라는 역할은 어떤 사람이 관리 책임을 완전히 맡기 싫어하는 것을 의미할 수 있습니다. 이러한 리더들은 구체적인 가치가 즉시 드러나는 현장 작업에 근거한 자신의 컴포트 존을 벗어나 충분히 잘 알지 못하는 관리의 영역으로 나아가는 것을 두려워할 수 있습니다.
 
@@ -140,7 +257,18 @@ isUpdated: true
 
 ![이미지](/assets/img/Holdonbutshoulddesignmanagersdesign_18.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 경험상, '디자이너들의 리더'는 팀이 충분히 커지고 경험이 쌓여 있어 실용적인 디자인 업무를 자율적으로 처리할 수 있는 때에 나타나며, 정렬, 표준화 및 공통 방향성이 필요할 때발생합니다. 디자이너들이 이미 자신의 전문성을 가지고 있다면(개별적으로 또는 팀으로), 더 많은 실용적 디자인 전문가를 추가할 필요가 없습니다.
 
@@ -150,7 +278,18 @@ isUpdated: true
 
 기업의 요구 사항을 충족시키는 것에 중점을 둔 디자인 매니저 유형 스펙트럼이 개인적인 선호도가 아니라 적절한 기업 상황에 부합하도록 되어 있다는 것을 인식하는 것이 중요합니다. 각 유형은 조직의 독특한 맥락에서 나오며, 이를 이해하는 것이 효과적인 관리의 핵심입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또한, 당신은 혼자서 일하지 않습니다. 다른 전문가들도 당신의 팀과 협력하여 성공을 보장합니다:
 
@@ -164,7 +303,18 @@ isUpdated: true
 
 ![Holdonbutshoulddesignmanagersdesign_20](/assets/img/Holdonbutshoulddesignmanagersdesign_20.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 디자인 팀에 직접적이거나 간접적인 영향을 미치는 모든 사람을 나열하고 그들의 참여를 단계별로 매핑함으로써 집중해야 할 부분과 다른 사람에게 의존해야 할 부분을 알 수 있습니다. 이를 통해 다른 사람에게 자신의 가치와 기여를 효과적으로 전달할 수도 있습니다.
 
@@ -174,7 +324,18 @@ isUpdated: true
 
 유념해야 할 단 하나의 주의 사항이 있습니다: 팀원들의 문제를 잘 해결하고 그들의 성공을 돕느냐에 따라 팀 내에서 어떻게 리더로 인식되는지가 달라집니다. 공식적인 위치와는 무관하게 사람들이 사실상의 리더로 인식하는지에 대한 빠른 테스트가 있습니다: 디자이너들의 문제에 대해 가장 먼저 알게 되는 사람이 누구인가요? 그들이 여러분에게 알리나요, 아니면 다른 누군가를 통해 그것을 알게 되나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Holdonbutshoulddesignmanagersdesign_22.png](/assets/img/Holdonbutshoulddesignmanagersdesign_22.png)
 
@@ -186,7 +347,18 @@ isUpdated: true
 
 그러니 디자이너로서 매니지먼트로의 이동을 고민 중이라면, 일반적인 리더십 뿐만 아니라 회사 내에서 필요한 특정 유형의 디자인 매니저도 탐색해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - ✍️ 제 중요한 디자인 기사 모두가 여기에 있어요.
 - 💼 LinkedIn에서 연결합시다. 만약에 제가 이 기사 주제를 컨퍼런스나 밋업에서 발표하길 원하면 노트를 남겨주세요.

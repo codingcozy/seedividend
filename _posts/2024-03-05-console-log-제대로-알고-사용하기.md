@@ -3,17 +3,13 @@ title: "console log 제대로 알고 사용하기"
 description: "이 글은 JavaScript에서 consolelog 메서드를 올바르게 활용하는 방법에 대해 소개합니다"
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # console log 제대로 알고 사용하기
 
@@ -39,7 +35,18 @@ JavaScript는 웹 개발에서 매우 중요한 언어로, 다양한 프론트�
 
 JavaScript 개발에서는 Console 객체를 효과적으로 활용하여 코드의 디버깅 및 로깅을 수행함으로써 프로그램의 품질을 향상시키고 문제를 신속하게 해결할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Console 객체의 기본 기능
 
@@ -52,7 +59,6 @@ Console 객체는 JavaScript에서 디버깅과 로깅을 위한 핵심 도구�
      js
      console.log("Hello, world!");
      console.log("The answer is", 42);
-     
    - 특징:
      - 콘솔에 출력된 정보는 기본적으로 일반 텍스트로 출력됩니다.
      - 여러 개의 인수를 전달할 수 있으며, 이는 콘솔에 연이어 출력됩니다.
@@ -63,7 +69,6 @@ Console 객체는 JavaScript에서 디버깅과 로깅을 위한 핵심 도구�
    - 사용 예시:
      js
      console.info("This is an informational message.");
-     
    - 특징:
      - 일반 로그와 비슷하게 작동하지만, 일반 로그보다 더 강조된 스타일로 출력됩니다.
      - 브라우저 콘솔에서는 일반 로그와는 다르게 아이콘이나 색상이 다르게 표시될 수 있습니다.
@@ -74,7 +79,6 @@ Console 객체는 JavaScript에서 디버깅과 로깅을 위한 핵심 도구�
    - 사용 예시:
      js
      console.warn("This is a warning message.");
-     
    - 특징:
      - 경고 메시지를 표시하여 사용자에게 주의를 요하는 데 사용됩니다.
      - 브라우저 콘솔에서는 주로 노란색으로 표시되어 경고임을 강조합니다.
@@ -84,14 +88,24 @@ Console 객체는 JavaScript에서 디버깅과 로깅을 위한 핵심 도구�
    - 사용 예시:
      js
      console.error("This is an error message.");
-     
    - 특징:
      - 프로그램에서 오류가 발생했을 때 사용되며, 오류의 원인을 식별하고 디버깅하는 데 도움이 됩니다.
      - 브라우저 콘솔에서는 일반적으로 빨간색으로 표시되어 오류임을 강조합니다.
 
 Console 객체의 이러한 메서드를 적절하게 활용하면 코드 실행 중 발생하는 다양한 유형의 정보를 콘솔에 출력하고, 프로그램의 동작을 모니터링하며, 문제를 식별하는 데 큰 도움이 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 디버깅 기능
 
@@ -104,7 +118,6 @@ Console 객체는 JavaScript 코드를 디버깅하는 데 매우 유용한 도�
      js
      let x = 10;
      console.log("x:", x); // 변수 x의 값을 출력
-     
    - 특징:
      - 변수의 값이나 객체의 속성 등을 출력하여 코드 실행 중에 상태를 확인할 수 있습니다.
 
@@ -114,12 +127,11 @@ Console 객체는 JavaScript 코드를 디버깅하는 데 매우 유용한 도�
    - 사용 예시:
      js
      for (let i = 0; i < 5; i++) {
-       console.log("Index:", i);
-       if (i === 3) {
-         console.warn("Index reached 3!");
-       }
+     console.log("Index:", i);
+     if (i === 3) {
+     console.warn("Index reached 3!");
      }
-     
+     }
    - 특징:
      - 조건문이나 반복문 내부에서 Console을 사용하여 해당 블록이 실행되는지, 조건이 충족되는지 확인할 수 있습니다.
      - 특정 조건이 충족될 때 경고 메시지를 출력하여 사용자에게 알릴 수도 있습니다.
@@ -131,15 +143,14 @@ Console 객체는 JavaScript 코드를 디버깅하는 데 매우 유용한 도�
 
      js
      function foo() {
-       throw new Error("Something went wrong!");
+     throw new Error("Something went wrong!");
      }
 
      function bar() {
-       foo();
+     foo();
      }
 
      bar();
-     
 
    - 특징:
      - 오류가 발생한 함수의 호출 스택을 추적하여 오류가 발생한 원인을 식별할 수 있습니다.
@@ -157,10 +168,9 @@ Console 객체를 사용하여 JavaScript 애플리케이션에서 로그를 작
    - 사용 예시:
      js
      function handleButtonClick() {
-       console.log("사용자가 버튼을 클릭했습니다.");
-       // 추가적인 로직 수행
+     console.log("사용자가 버튼을 클릭했습니다.");
+     // 추가적인 로직 수행
      }
-     
    - 특징:
      - 사용자의 특정 동작에 대한 로그를 기록하여 사용자 행동을 추적하고, 애플리케이션의 사용 패턴을 이해할 수 있습니다.
 
@@ -170,12 +180,11 @@ Console 객체를 사용하여 JavaScript 애플리케이션에서 로그를 작
    - 사용 예시:
      js
      function fetchData() {
-       console.log("서버로 데이터 요청을 보냅니다.");
-       // 서버 요청 보내기
-       // 서버 응답 받기
-       console.log("서버 응답을 받았습니다:", responseData);
+     console.log("서버로 데이터 요청을 보냅니다.");
+     // 서버 요청 보내기
+     // 서버 응답 받기
+     console.log("서버 응답을 받았습니다:", responseData);
      }
-     
    - 특징:
      - 서버와의 통신 과정에서 발생하는 요청과 응답에 대한 로그를 기록하여 네트워크 트래픽 및 응답 상태를 모니터링할 수 있습니다.
 
@@ -186,20 +195,30 @@ Console 객체를 사용하여 JavaScript 애플리케이션에서 로그를 작
 
      js
      function updateStatus(status) {
-       console.log("애플리케이션 상태가 변경되었습니다:", status);
+     console.log("애플리케이션 상태가 변경되었습니다:", status);
      }
 
      function handleCriticalError(error) {
-       console.error("중요한 오류가 발생했습니다:", error);
+     console.error("중요한 오류가 발생했습니다:", error);
      }
-     
 
    - 특징:
      - 애플리케이션의 상태 변화나 오류와 같이 중요한 이벤트에 대한 로그를 기록하여 애플리케이션의 건강 상태를 모니터링하고, 문제 발생 시 즉시 대응할 수 있습니다.
 
 Console 객체를 사용하여 사용자 활동, 서버 통신, 애플리케이션의 상태 등 다양한 로그를 기록함으로써 JavaScript 애플리케이션을 효율적으로 모니터링하고 문제를 신속하게 해결할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 고급 활용
 
@@ -213,12 +232,11 @@ Console 객체는 JavaScript 개발자가 디버깅 및 로깅 작업을 보다 
      console.log("문자열:", "%s", "Hello");
      console.log("숫자:", "%d", 42);
      console.log(
-       "스타일 적용:",
-       "%c",
-       "Hello, world!",
-       "color: blue; font-size: 16px;"
+     "스타일 적용:",
+     "%c",
+     "Hello, world!",
+     "color: blue; font-size: 16px;"
      );
-     
    - 특징:
      - `%s`, `%d`와 같은 서식 지정자를 사용하여 출력 메시지의 형식을 지정할 수 있습니다.
      - `%c`를 사용하여 스타일을 적용한 문자열을 출력할 수 있습니다.
@@ -236,7 +254,6 @@ Console 객체는 JavaScript 개발자가 디버깅 및 로깅 작업을 보다 
      console.time("타이머 이름");
      // 시간 측정 대상 코드
      console.timeEnd("타이머 이름");
-     
 
    - 특징:
      - `console.group()` 및 `console.groupEnd()`를 사용하여 그룹화된 로그를 생성할 수 있습니다.
@@ -253,7 +270,6 @@ Console 객체는 JavaScript 개발자가 디버깅 및 로깅 작업을 보다 
 
      const arr = [1, 2, 3];
      console.table(arr);
-     
 
    - 특징:
      - `console.dir()`을 사용하여 객체의 내부 구조를 출력할 수 있습니다.
@@ -277,7 +293,18 @@ Console 객체는 JavaScript 개발 과정에서 매우 유용한 도구이지�
 
 Console 객체는 개발 단계에서 디버깅 및 로깅을 위한 필수 도구지만, 보안 및 프로덕션 환경에서는 조심해서 사용해야 합니다. 민감한 정보를 노출하지 않고, 성능을 최적화하며, 로깅을 관리함으로써 안전하고 안정적인 프로덕션 환경을 구축할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Console 객체의 확장
 

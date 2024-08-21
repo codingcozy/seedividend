@@ -3,17 +3,13 @@ title: "WebRTC API 탐구 미디어 캡처부터 피어 투 피어 연결까지"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Exploring WebRTC APIs From Media Capture to Peer-to-Peer Connectivity"
 link: "https://medium.com/@joybrata007/exploring-webrtc-apis-from-media-capture-to-peer-to-peer-connectivity-b63c473acac2"
 isUpdated: true
 ---
-
-
-
-
 
 ![Exploring WebRTC APIs](/assets/img/ExploringWebRTCAPIsFromMediaCapturetoPeer-to-PeerConnectivity_0.png)
 
@@ -34,7 +30,18 @@ navigator.mediaDevices
   });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 II. 화면 캡처: 카메라와 마이크에 추가로 WebRTC를 사용하면 발표나 원격 지원과 같은 활동을 위해 화면 콘텐츠를 캡처할 수 있습니다. navigator.mediaDevices.getDisplayMedia() 함수가 이를 위해 사용됩니다.
 
@@ -53,7 +60,18 @@ navigator.mediaDevices
 
 I. RTCPeerConnection 인터페이스: 이 인터페이스는 WebRTC 세션에서 두 피어 간의 연결을 설정하고 제어하는 역할을 합니다. 개발자는 이를 사용하여 세션 매개변수 협상, 미디어 스트림 교환, 암호화 및 대역폭 관리를 포함한 통신 프로세스의 다양한 측면을 관리합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 새로운 RTCPeerConnection을 만듭니다
@@ -101,7 +119,18 @@ signalingChannel.addEventListener("message", (message) => {
 signalingChannel.send("안녕하세요!");
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 III. RTCConfiguration: RTCConfiguration은 ICE 서버 및 미디어 제한과 같은 WebRTC 설정을 구성하는 데 사용되는 JavaScript 객체입니다. 이러한 설정은 WebRTC가 피어 간 연결을 설정하고 유지하는 방법을 결정합니다.
 
@@ -138,7 +167,18 @@ signalingChannel.addEventListener("message", async (message) => {
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 V: Trickle ICE: ICE 후보가 수집될 때마다 교환되어 모든 후보가 수집된 후에 교환될 때보다 연결 설정 프로세스가 빨라질 수 있는 기술입니다.
 
@@ -173,7 +213,18 @@ peerConnection.addEventListener("connectionstatechange", (event) => {
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 기사 주제:
 

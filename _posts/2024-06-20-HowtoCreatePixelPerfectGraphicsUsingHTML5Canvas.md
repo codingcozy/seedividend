@@ -3,16 +3,13 @@ title: "HTML5 캔버스를 사용하여 픽셀 완벽한 그래픽 만들기 방
 description: ""
 coverImage: "/assets/img/2024-06-20-HowtoCreatePixelPerfectGraphicsUsingHTML5Canvas_0.png"
 date: 2024-06-20 06:07
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-HowtoCreatePixelPerfectGraphicsUsingHTML5Canvas_0.png
 tag: Tech
 originalTitle: "How to Create Pixel Perfect Graphics Using HTML5 Canvas"
 link: "https://medium.com/@oscar.lindberg/how-to-create-pixel-perfect-graphics-using-html5-canvas-3750eb5f1dc9"
 isUpdated: true
 ---
-
-
-
 
 진짜 8비트 시각을 위한 캔버스 그래픽 마스터링 단계별 안내서입니다.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 1. 캔버스가 올바르게 크기 조정되는 기본 HTML 구조 설정
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 직사각형과 별을 그려보세요
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 한 가지 HTML5 캔버스를 가진 간단한 HTML 페이지를 만들 것입니다. 이 캔버스는 브라우저 창 크기가 변경될 때 동적으로 크기가 조정됩니다. 정수 스케일링 상수를 사용하여 스케일링이 균일한 픽셀 크기를 유지하는지 제어할 수 있습니다. 정수 스케일링을 true로 설정하면 모든 픽셀이 동일한 크기를 유지합니다. 단점은 정수 스케일링으로 인해 일부 브라우저 창 크기에 따라 캔버스 주변에 더 큰 테두리가 생길 수 있다는 점입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <!DOCTYPE html>
@@ -51,7 +70,7 @@ isUpdated: true
         margin: 0;
         background-color: #887ecb;
       }
-    
+
       .canvas-container {
         display: flex;
         justify-content: center;
@@ -101,8 +120,18 @@ isUpdated: true
 
 # 캔버스에 그리기
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 캔버스에 그리기 위해서는 먼저 캔버스의 컨텍스트를 가져와야 합니다. 투명한 픽셀을 남기지 않을 것이기 때문에 알파값을 false로 설정합니다.
 
@@ -120,7 +149,18 @@ function drawRectangle(x, y, width, height, color) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼 우리는 배경을 위해 200개의 별을 만듭니다. 별은 색에 따라 정렬되어 있으므로 덜 밝은 별이 더 밝은 별 위에 그려지지 않습니다.
 
@@ -132,12 +172,10 @@ function createStar() {
     y: Math.random() * canvas.height,
     color: color,
     fillStyle: `rgb(${color}, ${color}, ${color})`,
-  }; 
+  };
 }
 
-const stars = Array.from({ length: 200 }, createStar).sort(
-  (a, b) => a.color - b.color
-);
+const stars = Array.from({ length: 200 }, createStar).sort((a, b) => a.color - b.color);
 ```
 
 우리는 requestAnimationFrame을 사용하여 게임 루프가 필요한 매 프레임마다 발생하도록 만듭니다. gameLoop이 호출될 속도는 "일반적으로 디스플레이 새로고침 속도와 일치"합니다. 많은 경우에 초당 60프레임인 경우가 많지만 다를 수도 있습니다. `now` 매개변수는 이전 프레임 렌더링의 밀리초를 나타냅니다. 애니메이션 중에 이 시간을 사용하는 것이 중요하며 일정한 프레임 속도를 가정하는 대신 해당 시간을 사용해야 합니다.
@@ -150,7 +188,18 @@ function gameLoop(now) {
 gameLoop();
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 재미있는 부분이 시작됩니다 — 캔버스에 그림을 그리는 것! 이전 프레임의 그래픽을 지우기 위해 캔버스를 지우는 것으로 시작합니다. 그런 다음, 모든 별과 두 개의 사각형을 그리는데, 이는 일정한 사인 및 코사인 패턴에 따라 움직입니다.
 
@@ -183,7 +232,18 @@ function draw(t) {
 
 이 코드펜에서 실행 중인 애니메이션을 확인해보세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그게 많이 8-bit스럽지 않네요, 맞죠? 우리가 마주한 두 가지 문제는 스케일링할 때 픽셀 보간과 그릴 때 안티앨리어싱입니다.
 
@@ -193,7 +253,18 @@ function draw(t) {
 
 브라우저는 캔버스를 확대할 때 픽셀을 보간하고 있습니다. 이는 합리적인 표준 동작이지만 픽셀 그래픽에 적합하지 않습니다. 대신 css에서 픽셀화된 스케일링을 사용하도록 브라우저에 지시합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 canvas {
@@ -211,16 +282,22 @@ canvas {
 ```js
 function drawRectangle(x, y, width, height, color) {
   ctx.fillStyle = color;
-  ctx.fillRect(
-    Math.round(x),
-    Math.round(y),
-    Math.round(width),
-    Math.round(height)
-  );
+  ctx.fillRect(Math.round(x), Math.round(y), Math.round(width), Math.round(height));
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 정리된 버전에 대한 코드펜입니다:
 
@@ -342,6 +419,17 @@ function drawRectangle(x, y, width, height, color) {
 </html>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 기초가 마련되었습니다 - 브라우저에서 픽셀 완벽한 그래픽을 애니메이트할 수 있는 코드 조각이 있습니다! 다음에는 몇 가지 스프라이트를 애니메이션화할 것입니다!

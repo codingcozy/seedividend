@@ -3,17 +3,13 @@ title: "Html css로 그라디언트 배경 만드는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How to create Gradient Background for Messaging Apps"
 link: "https://medium.com/@gokhanipek/how-to-create-gradient-background-for-messaging-apps-05e958bf5356"
 isUpdated: true
 ---
-
-
-
-
 
 요즘 인스타그램에서 메시지 배경뿐만 아니라 메시지의 배경에 그라데이션 배경을 선택할 수 있다는 사실을 알게 되었어요. 그래서 이것에 대해 생각을 해 보았는데, 웹에서는 어떻게 이를 적용할 수 있을까요?
 
@@ -23,11 +19,33 @@ isUpdated: true
 
 메시징 애플리케이션에서 각 메시지 말풍선에도 이를 적용할 수 있지만 약간 이상할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 표를 Markdown 형식으로 변경하고 싶습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그걸 위해서는 말풍선과 액션 버블의 부모에 배경 그라데이션을 적용하고 마스크로 사용해야 해요.
 
@@ -37,7 +55,18 @@ isUpdated: true
 
 버블로부터 나머지 배경을 가리기 위해 박스 그림자를 적용해야 해요. 아래 비디오에서는, 텍스트 요소에 적용했을 때 박스 그림자의 마법을 보여줘요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 box-shadow: <x-offset> <y-offset> <blur> <spread radius> <color>
@@ -49,7 +78,18 @@ div 안에 실제 텍스트를 위한 하나와 다시 흰색 배경 마스킹�
 
 여기까지 하면 백그라운드는 거품이 서로 분리되어 있고 그 뒤에 있는 색과 일치하는 그라데이션 배경으로 제공될 거에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 더 많은 메시지를 추가할 수 있고, 객체에서 메시지를 가져와 맵핑할 수 있습니다. 이 글을 위해서, 메시지를 왼쪽 또는 오른쪽으로 정렬하는 옵션을 추가했습니다. 실제 상황에서는 보낸 사람 또는 받는 사람을 정의해야 합니다.
 
@@ -59,6 +99,17 @@ div 안에 실제 텍스트를 위한 하나와 다시 흰색 배경 마스킹�
 
 맵 내부에 {item.text}를 추가하고 실제 메시지를 표시하며, border-radius를 추가하여 레이아웃을 보강하고, 더 많은 메시지를 추가할 수 있는 기능을 갖춘 입력란을 추가할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제 다음 글에서는 자이로스코프, 나침반, 가속도계와 같은 센서에 액세스할 수 있는 기기에서 배경을 애니메이션화하는 방법을 보여드릴 거예요.

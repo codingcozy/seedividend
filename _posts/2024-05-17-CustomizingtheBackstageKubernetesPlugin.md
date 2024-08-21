@@ -3,16 +3,13 @@ title: "백스테이지 Kubernetes 플러그인 사용자 정의하기"
 description: ""
 coverImage: "/assets/img/2024-05-17-CustomizingtheBackstageKubernetesPlugin_0.png"
 date: 2024-05-17 03:48
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-17-CustomizingtheBackstageKubernetesPlugin_0.png
 tag: Tech
 originalTitle: "Customizing the Backstage Kubernetes Plugin"
 link: "https://medium.com/itnext/customizing-the-backstage-kubernetes-plugin-1c8e2d7ad802"
 isUpdated: true
 ---
-
-
-
 
 백스테이지의 새로운 백엔드 시스템에서 쿠버네티스 플러그인을 사용자 정의하는 방법 소개
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 스포티파이에서 개발한 백스테이지는 다양한 도구와 인터페이스를 통합하여 응용 프로그램 관리를 간편화하는 통합 플랫폼입니다. 이 글에서는 백스테이지의 아키텍처와 쿠버네티스 플러그인을 살펴보며 사용자 정의 옵션이 작업 흐름을 최적화하고 쿠버네티스 리소스의 중앙 집중화된 보기를 제공하는 방법을 소개합니다. 실용적인 예제를 통해 독자들은 백스테이지가 어떻게 응용 프로그램 관리를 혁신할 수 있는지 발견할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Backstage란 무엇인가요?
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 Backstage는 세 가지 구성 요소로 간단한 아키텍처를 가지고 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 백스테이지 프론트엔드
 - 백스테이지 백엔드
@@ -44,7 +63,18 @@ Backstage는 세 가지 구성 요소로 간단한 아키텍처를 가지고 있
 
 백스테이지에는 응용 프로그램의 포괄적인 뷰를 만드는 데 사용할 수 있는 많은 플러그인이 있습니다. 몇 가지 플러그인은 프론트엔드 및 백엔드에 추가해야 합니다. Kubernetes 플러그인과 같은 경우입니다. Kubernetes 플러그인의 설치에 대한 공식 문서는 매우 상세하며 다음 링크에서 확인할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Kubernetes 플러그인 사용자 정의
 
@@ -60,7 +90,18 @@ Kubernetes 플러그인에는 여러 모듈이 있고, 각각을 사용자 정�
 
 # Fetcher(검색기) 사용자 정의: 다중 Namespace 로켸터
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사에서는 Kubernetes 클러스터에서 쿼리를 가져 오고 일부 동작을 변경하는 Fetcher 모듈의 사용자 정의에 중점을두려고합니다. 다음 GitHub 링크에서 기본 Fetcher 모듈을 찾을 수 있습니다:
 
@@ -68,28 +109,36 @@ Kubernetes 플러그인에는 여러 모듈이 있고, 각각을 사용자 정�
 
 예를 들어, 다음 catalog-info.yaml 파일에서 kubernetes-namespace 필드에 쉼표로 구분 된 두 개의 네임 스페이스를 포함하는 것을 볼 수 있습니다. 이 두 네임 스페이스에서 파드를로드하려고합니다.
 
-
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: order-service
-  description: 주문 서비스
-  links:
-    - title: 웹 사이트
-      url: https://docs.spring.io/spring-cloud-config/docs/current/reference/html/
-  annotations:
-    backstage.io/techdocs-ref: dir:.
-    lighthouse.com/website-url: https://docs.spring.io/spring-cloud-config/docs/current/reference/html/
-    'backstage.io/kubernetes-label-selector': 'app=order-service'
-    'backstage.io/kubernetes-namespace': 'spring-cloud-config-dev, spring-cloud-config-prod'
-    'backstage.io/kubernetes-cluster': dev-cluster
+name: order-service
+description: 주문 서비스
+links: - title: 웹 사이트
+url: https://docs.spring.io/spring-cloud-config/docs/current/reference/html/
+annotations:
+backstage.io/techdocs-ref: dir:.
+lighthouse.com/website-url: https://docs.spring.io/spring-cloud-config/docs/current/reference/html/
+'backstage.io/kubernetes-label-selector': 'app=order-service'
+'backstage.io/kubernetes-namespace': 'spring-cloud-config-dev, spring-cloud-config-prod'
+'backstage.io/kubernetes-cluster': dev-cluster
 spec:
-  type: 서비스
-  owner: me@example.com
-  lifecycle: POC
+type: 서비스
+owner: me@example.com
+lifecycle: POC
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이를 달성하기 위해 fetchObjectsForService 함수에서 약간의 변경을 해야합니다. 그러나 npm 모듈에서 내보내지 않았기 때문에 KubernetesClientBasedFetcher 클래스를 직접 확장할 수 없습니다. 대신 해당 클래스를 복사하고 일부 동작을 수정해야 합니다. 아래는 packages/backend/src/plugins/CustomKubernetesClientBasedFetcher.ts 파일에 있는 사용자 정의 모듈의 예시입니다:
 
@@ -131,7 +180,18 @@ export class CustomKubernetesClientBasedFetcher implements KubernetesFetcher {
 
 https://gist.github.com/mlkmhd/dc8a97449777b7dc0c30bff7b032e4d5
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 가지 더 해야 할 일이 있어요. 패키지/백엔드(src/index.ts) 파일을 수정하여 새로운 사용자 정의 모듈을 추가해야 해요. 아래와 같이요:
 
@@ -174,7 +234,18 @@ backend.start();
 
 <img src="/assets/img/2024-05-17-CustomizingtheBackstageKubernetesPlugin_2.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 서비스 계정은 backstage 네임스페이스 내에 있어야 합니다:
 
@@ -195,31 +266,42 @@ metadata:
   name: backstage-role
   namespace: b-ns
 rules:
-- apiGroups: [""]
-  resources:
-    - pods
-    - pods/log
-    - configmaps
-    - services
-    - limitranges
-    - resourcequotas
-  verbs:
-    - get
-    - list
-    - watch
-- apiGroups: ["apps"]
-  resources:
-    - deployments
-    - replicasets
-    - statefulsets
-    - daemonsets
-  verbs:
-    - get
-    - list
-    - watch
+  - apiGroups: [""]
+    resources:
+      - pods
+      - pods/log
+      - configmaps
+      - services
+      - limitranges
+      - resourcequotas
+    verbs:
+      - get
+      - list
+      - watch
+  - apiGroups: ["apps"]
+    resources:
+      - deployments
+      - replicasets
+      - statefulsets
+      - daemonsets
+    verbs:
+      - get
+      - list
+      - watch
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 C 네임스페이스 내부의 롤 바인딩은 다음과 같을 수 있어요:
 
@@ -244,7 +326,7 @@ C 네임스페이스 또는 각 새로운 네임스페이스에 대해 롤과 �
 ```js
 ...
 kubernetes:
-  serviceLocatorMethod: 
+  serviceLocatorMethod:
     type: 'multiTenant'
   clusterLocatorMethods:
     - type: 'config'
@@ -257,7 +339,18 @@ kubernetes:
 ...
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러면 다음 명령어를 실행하여 애플리케이션을 빌드하고 실행할 수 있어요:
 
@@ -280,7 +373,7 @@ $ yarn dev --config app-config.yaml
 [0] <i> [webpack-dev-server] 404에는 '/index.html'로 대체함
 [0] <i> [webpack-dev-middleware] 번들 완료 대기중: /
 [1] MergedConfigSource에서 설정 로드됨
-[1] 2024-05-12T22:26:37.074Z backstage 정보 구성 내에 레드액트될 2개의 새로운 시크릿 발견됨 
+[1] 2024-05-12T22:26:37.074Z backstage 정보 구성 내에 레드액트될 2개의 새로운 시크릿 발견됨
 [1] 2024-05-12T22:26:37.082Z rootHttpRouter 정보 :7007에서 수신 대기중
 ...
 ```
@@ -308,19 +401,39 @@ spec:
   lifecycle: POC
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대시보드 안에 이렇게 테이블 태그를 변경해보세요:
 
-
 <img src="/assets/img/2024-05-17-CustomizingtheBackstageKubernetesPlugin_3.png" />
-
 
 위 이미지에서 order-service는 spring-cloud-config-dev 네임스페이스에만 배포되어 있습니다. 그러나 이 서비스를 spring-cloud-config-prod 네임스페이스에 배포하면 거기서도 볼 수 있을 겁니다.
 
 이 글에서 사용된 모든 다이어그램은 다음 저장소에서 찾아볼 수 있습니다: [링크입니다.]
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

@@ -3,7 +3,7 @@ title: "손으로 만든 꿈 일기장으로 나를 더 강하게 만드는 방�
 description: ""
 coverImage: "/assets/img/2024-05-17-HowtoEmpowerYourselfwithaHandmadeDreamJournal_0.png"
 date: 2024-05-17 04:12
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-17-HowtoEmpowerYourselfwithaHandmadeDreamJournal_0.png
 tag: Tech
 originalTitle: "How to Empower Yourself with a Handmade Dream Journal"
@@ -11,18 +11,26 @@ link: "https://medium.com/the-diy-diaries/how-to-empower-yourself-with-a-handmad
 isUpdated: true
 ---
 
-
-
-
 ## DIY
 
 ![image](/assets/img/2024-05-17-HowtoEmpowerYourselfwithaHandmadeDreamJournal_0.png)
 
-In the documentary *The Way of the Dream*, Dr. Marie-Louise von Franz says:
+In the documentary _The Way of the Dream_, Dr. Marie-Louise von Franz says:
 
 This is one of those remarkable statements that really hit home when I first heard it, and that’s because I’ve always believed dreams are a source of information and inspiration.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 꿈을 기억하든 말든, 그것들은 오랫동안 의식의 수수께끼적인 문으로 간주되어 왔습니다. 당신의 가장 깊은 욕망, 두려움, 그리고 해결되지 않은 갈등을 엿볼 수 있는 곳이죠.
 
@@ -32,7 +40,18 @@ This is one of those remarkable statements that really hit home when I first hea
 
 # 꿈 일지의 역할
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 과거에 꿈이 인도나 초자연적인 메시지를 위해 사용되었다면, 어떤 사람들에게는 꿈의 초현실적이고 단편적인 성질은 이전 날에 받은 정보를 회상하거나 무작위로 의미 없는 영화처럼 떼어져 있는 장면들을 재생하는 것처럼 느껴집니다.
 
@@ -42,7 +61,18 @@ This is one of those remarkable statements that really hit home when I first hea
 
 침대 옆 탁자 옆에 꿈 일기장을 두는 것은 귀하의 꿈 세계의 복잡성에 몰입하여 내면의 신비를 풀어내고, 특별한 통찰력을 얻어 깨어 있는 삶을 형성할 수 있도록 도와줄 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 저희가 저널 내용을 살펴보기 전에, 꿈과 그것을 기록하는 이젠을 말씀드리겠습니다. 하루를 시작하기 전에 깨어나자마자 꿈을 기록하는 이점에 대해 알려드릴게요.
 
@@ -52,7 +82,18 @@ This is one of those remarkable statements that really hit home when I first hea
 
 어린 시절 꿈을 기억합니다. 그 꿈들은 무서웠고 끔찍했어요. 때로는 제 자신을 바꾸기도 했고, 때로는 길거리나 삶의 위기에 처했을 때 도와주기도 했죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가끔은 죽은 친구들과 가족들이 방문하는데, 다행히 자주는 아니지만 그들이 나에게 남긴 인상은 때때로 몇 년 동안도 계속 남아 있다.
 
@@ -62,7 +103,18 @@ This is one of those remarkable statements that really hit home when I first hea
 
 # 꿈을 쓰기 전에
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 디지털 산만함이 가득한 세상에서, 내면에 대한 탐구라는 예술은 종종 잊혀지곤 합니다.
 
@@ -72,7 +124,18 @@ This is one of those remarkable statements that really hit home when I first hea
 
 가끔은 핸드폰을 사용하기도 하는데, 그 시간에 눈에 맞는 적절한 빛이 필요하기 때문입니다. 하지만 나에게는 꿈을 노트에 적는 것이 가장 마음에 드는 방식입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 최근 이에 더 깐깐해졌어요.
 
@@ -82,7 +145,18 @@ This is one of those remarkable statements that really hit home when I first hea
 
 언어학교를 폐쇄하면서, 색종이, 리본, 접착제, 반짝임, 스티커, 마커 등 다양한 문구용품과 관련 용품이 많이 남았어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 남편과 나는 많은 물건들을위한 집을 찾았어요. 가장 중요하고 가슴 아픈 도네이션들은 우리가 아프리카로 보낸 맞춤형 학교 가방들이었어요. 심지어 이에 대해 Medium에 기사를 썼어요.
 
@@ -92,7 +166,18 @@ This is one of those remarkable statements that really hit home when I first hea
 
 내 고딕 감성이 가득한 맞춤형 꿈 일기장을 만들어내고, 내 정신 속의 아테나를 통해 창의력을 몇 시간 동안 이끄는 경험으로 이어진 깜짝 놀라운 경험이었어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 이 운동이 당신에게 어떻게 도움이 될 수 있는지 봅시다.
 
@@ -107,7 +192,18 @@ This is one of those remarkable statements that really hit home when I first hea
 - 창의적 표현: 당신의 꿈 일지를 맞추는 데 필요한 모든 다양한 능력을 통합함으로써 정신적 과정, 욕망, 패턴 인식, 조직, 조화 능력에 접근합니다. Canva와 같은 도구를 사용하면 디자인 능력을 탐험하게 됩니다. 이는 다양하고 많각적인 창조자들에게 깊은 만족감을 줄 수 있습니다.
 - 신성한 공간: 꿈 일지를 만드는 것은 단순히 어떤 종류의 노트북에 꿈을 기록하는 행위를 신성하거나 의식주적인 운동으로 바꿀 수 있습니다. 의도와 중요성을 꿈 일지에 불어넣음으로써, 당신은 당신의 정신 심오한 깊이를 탐험하고 영적 성장을 촉진하기 위한 특별한 공간을 창조하게 될 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 마지막으로
 
@@ -117,7 +213,18 @@ This is one of those remarkable statements that really hit home when I first hea
 
 수제 꿈 저널 만드는 것은 자아 발견 여정을 시작하는 첫걸음이 될 수 있습니다. 그 저널의 페이지는 당신의 최고의 동반자가 되어주며, 꿈 뿐만 아니라 당신의 본질을 반영할 거울이 될 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 꿈 일기를 만드는 것은 당신의 내면 세계와의 심오한 연결을 통해 시작하는 첫걸음일 뿐입니다. 꿈을 규칙적으로 적어가며 전문가의 도움을 받아 그것들을 분석하는 것이 진정 변화가 시작되는 곳입니다.
 

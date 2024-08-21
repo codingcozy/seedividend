@@ -3,16 +3,13 @@ title: "파이썬을 사용한 탐색적 데이터 분석EDA을 위한 데이터
 description: ""
 coverImage: "/assets/img/2024-07-13-DataVisualizationforExploratoryDataAnalysisEDAinPython_0.png"
 date: 2024-07-13 19:08
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-DataVisualizationforExploratoryDataAnalysisEDAinPython_0.png
 tag: Tech
 originalTitle: "Data Visualization for Exploratory Data Analysis (EDA) in Python"
 link: "https://medium.com/@pythonfundamentals/data-visualization-for-exploratory-data-analysis-eda-in-python-4aea402648e7"
 isUpdated: true
 ---
-
-
-
 
 데이터 시각화는 탐색적 데이터 분석의 중요한 부분이에요. 데이터를 분석하고 시각화함으로써 데이터의 분포, 변수 간의 관계, 그리고 이상값을 파악하는데 도움이 되죠.
 
@@ -28,7 +25,18 @@ isUpdated: true
 - 산점도: 두 연속 변수 사이의 관계를 보여줄 때 사용돼요.
 - 상자 그림: 변수의 분포를 보여주고 이상값을 식별할 때 사용돼요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Python을 사용한 데이터 시각화 작성 단계
 
@@ -43,7 +51,18 @@ isUpdated: true
 
 심혈관 질환은 전 세계적으로 주요 사망 원인입니다. 세계 보건 기구(WHO)에 따르면, 매년 약 1,790만 명이 심장 질환으로 사망합니다. 이들 사망의 85%는 심근경색 및 뇌졸중으로 인한 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사에서는 Kaggle의 Heart Attack 데이터셋을 탐색하고 Python을 사용하여 EDA를 위한 데이터 시각화를 만들어볼 것입니다.
 
@@ -64,7 +83,18 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 3. 데이터 세트 로드하기
 
@@ -76,10 +106,21 @@ heart = pd.read_csv('heart.csv')
 
 데이터를 로드했으니, 데이터프레임의 처음 몇 행을 살펴보며 데이터의 모습을 파악해봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-heart.head()
+heart.head();
 ```
 
 <img src="/assets/img/2024-07-13-DataVisualizationforExploratoryDataAnalysisEDAinPython_1.png" />
@@ -88,7 +129,18 @@ heart.head()
 
 # 4. 데이터 정리 및 전처리
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터 정리의 목적은 분석하고 시각화할 준비를 하는 것입니다.
 
@@ -101,7 +153,18 @@ heart.isnull().sum().sort_values(ascending=False).head(11)
 
 여기서는 누락된 값이 없는 것을 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```yaml
 # 중복된 값 체크
@@ -115,7 +178,18 @@ heart.drop_duplicates(keep='first', inplace=True)
 ![Screenshot](/assets/img/2024-07-13-DataVisualizationforExploratoryDataAnalysisEDAinPython_4.png)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 데이터가 깔끔해졌어요.
 
@@ -128,7 +202,18 @@ heart.describe().T
 
 <img src="/assets/img/2024-07-13-DataVisualizationforExploratoryDataAnalysisEDAinPython_5.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가장 중요한 결론은 대부분의 열에서, 평균 값이 중앙값(50번째 백분위: 50%)과 유사하다는 것입니다.
 
@@ -152,8 +237,18 @@ plt.legend(["여성","남성"], fontsize=14)
 plt.xticks(rotation=0)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-07-13-DataVisualizationforExploratoryDataAnalysisEDAinPython_6.png)
 
@@ -188,23 +283,32 @@ fig.show()
 
 해석: 남성은 심장 공격의 위험이 더 높습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 연령별 데이터 시각화
 
 ```js
-plt.figure(figsize=(14,8))
-sns.set(font_scale=1.2)
-sns.set_style("white")
+plt.figure((figsize = (14, 8)));
+sns.set((font_scale = 1.2));
+sns.set_style("white");
 
-sns.countplot(x=heart["age"],
-              palette='Reds')
+sns.countplot((x = heart["age"]), (palette = "Reds"));
 
-plt.title("환자 연령별 수", fontsize=20)
-plt.xlabel("연령", fontsize=16)
-plt.ylabel("수", fontsize=16)
-plt.show()
+plt.title("환자 연령별 수", (fontsize = 20));
+plt.xlabel("연령", (fontsize = 16));
+plt.ylabel("수", (fontsize = 16));
+plt.show();
 ```
 
 ![이미지](/assets/img/2024-07-13-DataVisualizationforExploratoryDataAnalysisEDAinPython_8.png)
@@ -225,8 +329,18 @@ plt.ylabel("밀도", fontsize=16)
 plt.show()
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-13-DataVisualizationforExploratoryDataAnalysisEDAinPython_9.png)
 
@@ -252,29 +366,47 @@ plt.legend(["낮은 위험","높은 위험"], fontsize=14)
 plt.show()
 ```
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-13-DataVisualizationforExploratoryDataAnalysisEDAinPython_10.png" />
 
 ```js
-plt.figure(figsize=(8,6))
+plt.figure((figsize = (8, 6)));
 
-sns.lineplot(y="chol",
-             x="age",
-             data=heart,
-             color="red")
-plt.title("Cholesterol with Age",fontsize=20)
-plt.xlabel("Age",fontsize=16)
-plt.ylabel("Cholesterol Level",fontsize=16)
-plt.show()
+sns.lineplot((y = "chol"), (x = "age"), (data = heart), (color = "red"));
+plt.title("Cholesterol with Age", (fontsize = 20));
+plt.xlabel("Age", (fontsize = 16));
+plt.ylabel("Cholesterol Level", (fontsize = 16));
+plt.show();
 ```
 
 <img src="/assets/img/2024-07-13-DataVisualizationforExploratoryDataAnalysisEDAinPython_11.png" />
 
 해석:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 환자들의 대부분은 콜레스테롤 수치가 200–300 사이에 있습니다.
 - 나이가 들수록 체내 콜레스테롤 수치가 증가할 가능성이 높습니다.
@@ -303,29 +435,49 @@ plt.xticks(rotation=0);
 
 해석:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 대부분의 환자는 전형적인 협심증 유형을 가지고 있습니다.
 - 비협심통을 겪는 환자들은 심근경색 발생 위험이 높습니다.
 - 상관 관계 기반 데이터 시각화
 
 ```js
-plt.figure(figsize=(12,10))
-sns.set(font_scale=0.9)
+plt.figure((figsize = (12, 10)));
+sns.set((font_scale = 0.9));
 
-sns.heatmap(heart.corr(),
-            annot=True,
-            cmap='Reds')
+sns.heatmap(heart.corr(), (annot = True), (cmap = "Reds"));
 
-plt.title("변수 간 상관 관계", size=15)
-plt.show()
+plt.title("변수 간 상관 관계", (size = 15));
+plt.show();
 ```
 
 ![그림](/assets/img/2024-07-13-DataVisualizationforExploratoryDataAnalysisEDAinPython_13.png)
 
 해석:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 열이 히트맵을 통해 다음 사항을 알 수 있습니다.
 
@@ -339,7 +491,18 @@ plt.show()
 - caa: 주요 혈관 수 및 결과(Output)
 - exng: 운동 유도성 협심증
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -349,7 +512,18 @@ plt.show()
 
 # Python 기초 개념
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 감사합니다! 🚀
 "Python Fundamentals"에서 더 많은 콘텐츠를 찾아보실 수 있어요 💫

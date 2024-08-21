@@ -3,17 +3,13 @@ title: "React-admin, prisma, Zenstack을 이용해 관리자 페이지 만들기
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Building an Admin Console With Minimum Code Using React-Admin, Prisma, and Zenstack"
 link: "https://blog.whimslab.io/building-an-admin-console-with-minimum-code-using-react-admin-prisma-and-zenstack-f9286e2a606e"
 isUpdated: true
 ---
-
-
-
-
 
 ## 쉽고 안전한 방법으로 CRUD 앱 만들기
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 다양한 유형의 어드민 콘솔이 있습니다. 이 게시물에서는 가장 일반적인 유형의 콘솔에 대해 이야기하겠습니다: 비기술자도 데이터베이스를 변경하고 동시에 적절한 권한 관리를 보장할 수 있는 콘솔입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 관리자 콘솔을 구축하려면 세 가지 선택지가 있습니다:
 
@@ -35,7 +42,18 @@ isUpdated: true
 
 # 사용할 라이브러리들 간단히 살펴보기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## React-Admin
 
@@ -45,7 +63,18 @@ React-Admin은 백엔드 데이터 API와 통신하는 관리자 애플리케이
 
 Prisma는 최신 TypeScript-중심 ORM으로, 데이터베이스 스키마를 쉽게 관리하고 쿼리와 뮤테이션을 높은 유연성으로 수행하며 우수한 유형 안전성을 보장할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## ZenStack
 
@@ -55,7 +84,18 @@ ZenStack은 Prisma 위에 구축된 도구 상자로, 접근 제어, 자동 CRUD
 
 토론을 용이하게 하기 위해 예시로 판타지 컨텐츠 발행 앱을 사용하겠습니다. 이 앱은 블로그 게시물을 만들고 편집하여 발행하는 내용을 다룹니다. 사용자 역할로는 세 가지가 포함되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 작성자: 게시물을 작성하고 편집 검토를 요청할 수 있습니다.
 - 편집자: 기사를 편집하고 게시물을 발행할 수 있습니다.
@@ -72,7 +112,18 @@ ZenStack은 Prisma 위에 구축된 도구 상자로, 접근 제어, 자동 CRUD
 
 물론, 관리자 사용자는 모든 상태의 게시물에 대해 어떤 작업이라도 수행할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 작업들을 연결하기
 
@@ -82,7 +133,18 @@ ZenStack은 Prisma 위에 구축된 도구 상자로, 접근 제어, 자동 CRUD
 
 ## 앱 뼈대 구성하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제가 사용한 create-t3-app은 Next.js 앱을 TypeScript, Prisma 및 "app router"를 옵션으로 활성화한 상태로 생성하였어요. 작업을 위해 create-next-app을 사용하고 Prisma를 수동으로 설치할 수도 있어요.
 
@@ -97,7 +159,18 @@ npm install @zenstackhq/server
 
 중요한 한 가지는 zenstack init 명령이 prisma/schema.prisma 파일을 /schema.zmodel로 복사한다는 것이에요. ZModel 언어는 ZenStack이 데이터베이스 스키마 및 액세스 제어 정책과 같은 다른 것들을 모델링하는 데 사용하는 DSL입니다. ZModel은 Prisma Schema의 슈퍼셋이에요. 우선은 Prisma 스키마를 작성하는 것처럼 이를 작성할 거예요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터베이스 스키마 변경이 필요할 때 기억해 주세요:
 
@@ -108,7 +181,18 @@ npm install @zenstackhq/server
 
 우리 앱의 스키마는 여기 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 generator client {
@@ -153,7 +237,18 @@ model Post {
 
 ## 인증 시스템 구축하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React-Admin은 내장된 인증(AuthN) 플로우와 UI를 제공합니다. 백엔드의 인증 메커니즘에 맞게 적응하기 위해 "auth provider"를 구현하는 것만 필요합니다. 간단히 말해서, 우리는 이메일과 비밀번호를 자격 증명으로 사용하는 간단한 JWT 기반의 인증 디자인을 사용할 것입니다. 이를 위해 먼저 /src/app/api/auth/login/route.ts에 API 핸들러를 생성하세요:
 
@@ -248,7 +343,18 @@ const authProvider: AuthProvider = {
 export default authProvider;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Auth provider는 React-Admin을 사용하여 CRUD UI를 구축할 때 사용됩니다.
 
@@ -259,7 +365,18 @@ Auth provider는 React-Admin을 사용하여 CRUD UI를 구축할 때 사용됩�
 - 백엔드: CRUD API
 - 프론트엔드: 백엔드 API를 사용하는 데이터 제공자
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ZenStack은 데이터베이스 스키마를 기반으로 자동 RESTful API를 제공하여 백엔드 부분을 거의 손쉽게 처리할 수 있습니다. 다음은 Next.js API 핸들러로 설치하는 방법입니다 ("src/app/api/model/[…path]/router.ts"):
 
@@ -309,7 +426,18 @@ export {
 
 이제 React-Admin 데이터 제공자 부분을 다루어 보겠습니다. 이 부분은 매우 직관적입니다. 간략하게 설명하기 위해 여기에서는 일부 코드만 보여주지만, 전체 구현은 이 글의 끝에서 찾으실 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```typescript
 type FetchFn = (url: string, init: RequestInit) => Promise<Response>;
@@ -398,13 +526,38 @@ export function createDataProvider(
 
 여기서 React-Admin이 빛을 발합니다 - CRUD UI를 만드는 것이 정말 쉽습니다. 이런 방식으로 진행됩니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const AdminApp = () => (
   <Admin dataProvider={dataProvider} authProvider={authProvider}>
-    <Resource name="user" list={ListGuesser} edit={EditGuesser} create={UserCreate} hasCreate={true} recordRepresentation="name" />
-    <Resource name="post" list={PostList} edit={EditGuesser} create={PostCreate} hasCreate={true} recordRepresentation="title" />
+    <Resource
+      name="user"
+      list={ListGuesser}
+      edit={EditGuesser}
+      create={UserCreate}
+      hasCreate={true}
+      recordRepresentation="name"
+    />
+    <Resource
+      name="post"
+      list={PostList}
+      edit={EditGuesser}
+      create={PostCreate}
+      hasCreate={true}
+      recordRepresentation="title"
+    />
   </Admin>
 );
 
@@ -485,7 +638,18 @@ const dataProvider = createDataProvider("/api/model", (url, init) => {
 
 React-Admin은 고수준 컴포넌트를 통해 백엔드 API와 자동으로 통신하여 CRUD UI를 구축하는 과정을 단순화합니다. 대부분의 경우 Guesser 컴포넌트들이 잘 작동하지만, 필요한 경우에는 Grid, List, Input 등을 조합하여 사용자 정의 컴포넌트를 쉽게 만들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 로그인하고 사용자 및 게시물을 만들고 조회하고 수정 및 삭제할 수 있어야 합니다.
 
@@ -495,7 +659,18 @@ React-Admin은 고수준 컴포넌트를 통해 백엔드 API와 자동으로 �
 
 CRUD가 작동하는 것은 좋은 일입니다. 그러나 우리는 퍼즐에서 아직 하나의 중요한 조각이 빠진 상태입니다: 권한 설정. ZenStack은 스키마에서 규칙을 선언적으로 정의하여 AuthZ를 구현하는 것을 굉장히 쉽게 만들어 줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CRUD API 핸들러를 구축할 때 우리가 "향상된" PrismaClient를 만들어서 현재 요청을 위해 데이터베이스에 액세스하는 것 기억하시나요? 이 향상된 클라이언트는 자동으로 액세스 제어를 강제합니다. 그러나 정책은 우리가 정의하는 것이 책임입니다. 사용자 모델을 보호하기 시작해봅시다.
 
@@ -515,7 +690,18 @@ model User {
 
 그럼, 이제 포스트 부분으로 넘어가 봅시다. 여러 요구사항을 다루어야 해요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 model Post {
@@ -549,7 +735,18 @@ npx zenstack generate를 다시 실행하고 개발 서버를 다시 시작하�
 
 ![/assets/img/Building-an-Admin-Console-With-Minimum-Code-Using-React-Admin-Prisma-and-Zenstack_2.png](/assets/img/Building-an-Admin-Console-With-Minimum-Code-Using-React-Admin-Prisma-and-Zenstack_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

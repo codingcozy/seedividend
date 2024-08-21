@@ -3,16 +3,13 @@ title: "올바른 Docker 없이 Open WebUI를 설치하는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-20-HowtoinstallOpenWebUIwithoutDocker_0.png"
 date: 2024-06-20 07:33
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-HowtoinstallOpenWebUIwithoutDocker_0.png
 tag: Tech
 originalTitle: "How to install Open WebUI without Docker"
 link: "https://medium.com/@bhavikjikadara/how-to-install-open-webui-without-docker-33eedbda9b96"
 isUpdated: true
 ---
-
-
-
 
 ![image](/assets/img/2024-06-20-HowtoinstallOpenWebUIwithoutDocker_0.png)
 
@@ -23,7 +20,18 @@ isUpdated: true
 - 프론트엔드: 상호 작용하는 웹 인터페이스입니다.
 - 백엔드: 뒷면에서의 통신 및 기능을 처리합니다. 두 구성 요소는 동시에 실행되어야 개발할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 요구 사항:
 
@@ -33,7 +41,18 @@ isUpdated: true
 
 - Ollama: 모델용.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 시작해보자! 설치 단계:
 
@@ -45,7 +64,18 @@ git clone https://github.com/open-webui/open-webui.git
 
 - 프로젝트 디렉토리로 이동하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 cd ollama-webui/
@@ -59,7 +89,18 @@ cp -RPp example.env .env
 
 참고: 이 파일에는 설정과 구성이 저장됩니다. 필요에 따라 업데이트하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 프론트엔드 빌드:
 
@@ -73,7 +114,18 @@ npm install
 npm run build
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 백엔드 시작:
 
@@ -94,7 +146,18 @@ source venv/Scripts/activate
 
 - 백엔드와 함께 프론트엔드 제공
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 pip install -r requirements.txt -U
@@ -108,7 +171,18 @@ bash start.sh
 
 - 웹 브라우저에서 http://localhost:8080/을 열어주세요. 인터페이스가 실행 중이어야 합니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 팁 및 문제 해결:
 

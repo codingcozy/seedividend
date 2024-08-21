@@ -3,25 +3,30 @@ title: "scss에서 for each 반복문 사용하는 방법"
 description: "sass, scss for each 반복문 문법에 대해서 정리했습니다"
 coverImage: ""
 date: 2024-08-03 16:52
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
 
-
-
-
-
 # scss에서 @for @each 반복문 사용하는 방법
 
 scss에서 for, each 반복문을 작성할 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1. for ${i} from ${start} to ${end}
 
@@ -32,8 +37,7 @@ i를 인덱스로 하고 start부터 end **미만**까지 반복합니다.
 이하가 아니라 미만이라는 점만 참고하시면 됩니다.
 
 ```scss
-$colorList: #e74c3c, #e67e22, #f1c40f, #2ecc71, #c0392b, #3498db, #2c3e50,
-  #9b59b6, #bdc3c7, #7f8c8d, #2980b9;
+$colorList: #e74c3c, #e67e22, #f1c40f, #2ecc71, #c0392b, #3498db, #2c3e50, #9b59b6, #bdc3c7, #7f8c8d, #2980b9;
 
 // 1~10까지 반복
 @for $i from 1 to 11 {
@@ -43,9 +47,18 @@ $colorList: #e74c3c, #e67e22, #f1c40f, #2ecc71, #c0392b, #3498db, #2c3e50,
 }
 ```
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 nth는 기본 내장 함수로서 scss의 배열에서 특정 값을 알아낼 수 있는 함수입니다.
 자바스크립트로 치면 `colorList[i]` 와 같은 개념이겠죠.
@@ -56,8 +69,7 @@ $colorList: #e74c3c, #e67e22, #f1c40f, #2ecc71, #c0392b, #3498db, #2c3e50,
 start부터 end**이하** 까지 반복합니다.
 
 ```scss
-$colorList: #e74c3c, #e67e22, #f1c40f, #2ecc71, #c0392b, #3498db, #2c3e50,
-  #9b59b6, #bdc3c7, #7f8c8d, #2980b9;
+$colorList: #e74c3c, #e67e22, #f1c40f, #2ecc71, #c0392b, #3498db, #2c3e50, #9b59b6, #bdc3c7, #7f8c8d, #2980b9;
 
 // 1~11까지 반복
 @for $i from 1 to 11 {
@@ -71,9 +83,18 @@ $colorList: #e74c3c, #e67e22, #f1c40f, #2ecc71, #c0392b, #3498db, #2c3e50,
 
 다음은 @each 문법인데요. 자바스크립트의 for each 문법과 동일한 방식이라고 생각해주시면 됩니다.
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```scss
 // index 찾는 방법

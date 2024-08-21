@@ -3,17 +3,13 @@ title: "Nextjs 14 devIndicators란"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # Nextjs 14 devIndicators란?
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 일부 경우에는 이 지시기가 페이지에서 잘못된 위치에 있을 수 있습니다. 예를 들어, 채팅 런처와 충돌할 때가 있습니다. 위치를 변경하려면 next.config.js을 열고 devIndicators 객체 내의 buildActivityPosition을 bottom-right(기본값), bottom-left, top-right 또는 top-left로 설정하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 module.exports = {
@@ -43,4 +50,15 @@ module.exports = {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

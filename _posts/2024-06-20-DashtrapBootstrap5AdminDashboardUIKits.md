@@ -3,16 +3,13 @@ title: "대시트랩 - 부트스트랩 5 관리자 대시보드, UI 키트"
 description: ""
 coverImage: "/assets/img/2024-06-20-DashtrapBootstrap5AdminDashboardUIKits_0.png"
 date: 2024-06-20 06:09
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-DashtrapBootstrap5AdminDashboardUIKits_0.png
 tag: Tech
 originalTitle: "Dashtrap — Bootstrap 5 Admin Dashboard , UI Kits"
 link: "https://medium.com/@technotrekker_45277/dashtrap-bootstrap-5-admin-dashboard-ui-kits-2fa22cf45a1c"
 isUpdated: true
 ---
-
-
-
 
 🔍 다시 한 번 Dashtrap을 확인해보세요 - Bootstrap 5 Admin Dashboard & UI Kits! 🎉 저희의 📁 관리자 템플릿 웹 템플릿 라이브러리를 살펴보시고 🆓 무료 다운로드 혜택을 누리세요. 함께 즐겁게 작업해봅시다! 🚀
 
@@ -41,7 +38,18 @@ Xeloro는 Bootstrap 5, HTML5, CSS3, 그리고 JQuery를 기반으로 한 개발�
 - Apex Chats 라이브러리
 - Bootstrap, React, MaxLength, Switchery, Select2, Bootstrap Touchspin, Colorpicker, Bootstrap Datepicker, Date Range Picker 및 Auto-Numberic 플러그인
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-20-DashtrapBootstrap5AdminDashboardUIKits_0.png)
 

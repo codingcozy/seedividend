@@ -3,16 +3,13 @@ title: "JAVA 웹 아직도 서버에서 로그를 수집하고 계신가요 로�
 description: ""
 coverImage: "/assets/img/2024-07-13-JAVAWEBYouStillRetrieveLogsfromtheServerIsntSettingUpLogCollectionMoreConvenient_0.png"
 date: 2024-07-13 20:41
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-JAVAWEBYouStillRetrieveLogsfromtheServerIsntSettingUpLogCollectionMoreConvenient_0.png
 tag: Tech
 originalTitle: "JAVA WEB: You Still Retrieve Logs from the Server? Isn’t Setting Up Log Collection More Convenient?"
 link: "https://medium.com/stackademic/java-web-you-still-retrieve-logs-from-the-server-isnt-setting-up-log-collection-more-convenient-cedbb262c5b1"
 isUpdated: true
 ---
-
-
-
 
 `<img src="/assets/img/2024-07-13-JAVAWEBYouStillRetrieveLogsfromtheServerIsntSettingUpLogCollectionMoreConvenient_0.png" />`
 
@@ -25,7 +22,18 @@ isUpdated: true
 - Elasticsearch (ES)는 로그 저장 및 검색 시스템으로 기능합니다.
 - Kibana는 프론트엔드 시각화를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 전체 아키텍처 다이어그램:
 
@@ -35,7 +43,18 @@ isUpdated: true
 
 컨테이너화된 시나리오에서는 특히 Kubernetes(k8s) 환경에서 사용자들이 EFK 아키텍처를 자주 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 F는 Fluend Bit을 의미합니다. Fluend Bit은 오픈 소스이며 여러 플랫폼에서 동작하는 로그 프로세서 및 포워더입니다. Fluend Bit을 사용하면:
 
@@ -47,7 +66,18 @@ F는 Fluend Bit을 의미합니다. Fluend Bit은 오픈 소스이며 여러 플
 
 # 3. PLG 로그 시스템
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 3.1 프로메테우스 + k8s 로그 시스템
 
@@ -57,7 +87,18 @@ F는 Fluend Bit을 의미합니다. Fluend Bit은 오픈 소스이며 여러 플
 
 ![이미지](/assets/img/2024-07-13-JAVAWEBYouStillRetrieveLogsfromtheServerIsntSettingUpLogCollectionMoreConvenient_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-13-JAVAWEBYouStillRetrieveLogsfromtheServerIsntSettingUpLogCollectionMoreConvenient_4.png" />
 
@@ -69,8 +110,18 @@ Grafana Labs에서 제공하는 또 다른 로그 솔루션인 PLG가 인기를 
 - Loki는 로그 집계 및 저장 시스템 역할을 합니다.
 - Grafana는 프론트엔드 시각화를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-13-JAVAWEBYouStillRetrieveLogsfromtheServerIsntSettingUpLogCollectionMoreConvenient_5.png)
 
@@ -80,8 +131,18 @@ Grafana는 기본적으로 시계열 데이터에 대한 대시보드 솔루션�
 
 Grafana Loki는 로그 스택으로 구성될 수 있는 구성 요소 집합입니다. 다른 로그 시스템과 달리 Loki는 로그 메시지의 원시 메시지가 아닌 로그의 레이블만 색인화합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대신, 로그 데이터에 대한 레이블 그룹을 설정하여 운영 비용을 줄이고 효율성을 크게 향상시킵니다.
 
@@ -91,7 +152,18 @@ Grafana Loki는 로그 스택으로 구성될 수 있는 구성 요소 집합입
 
 Prometheus를 모티브로 한 Loki는 수평적으로 확장 가능하고 고가용성을 갖춘 멀티테넌트 로그 시스템을 목표로 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로키의 전체 아키텍처는 로그 수집, 색인, 저장 및 기타 작업을 수행하기 위해 협력하는 다양한 구성 요소로 구성되어 있습니다.
 
@@ -103,7 +175,18 @@ Prometheus를 모티브로 한 Loki는 수평적으로 확장 가능하고 고�
 
 더 자세히 알아보려면 로키의 아키텍처를 방문해주세요. 로키는 본질적으로 "로그용 프로메테우스와 같은" 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-13-JAVAWEBYouStillRetrieveLogsfromtheServerIsntSettingUpLogCollectionMoreConvenient_7.png" />
 
@@ -113,7 +196,18 @@ Prometheus를 모티브로 한 Loki는 수평적으로 확장 가능하고 고�
 
 # 4. PLG 대 ELK
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 4.1 ES 대 노키
 
@@ -123,7 +217,18 @@ Elasticsearch (ES)에 저장된 로그는 일반적으로 디스크에 저장된
 
 한편, Loki는 데이터 저장을 분리합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 디스크에 데이터를 저장할 수 있습니다.
 - 아마존 S3와 같은 클라우드 저장 시스템도 사용할 수 있습니다.
@@ -134,7 +239,18 @@ Loki 로그는 일련의 키-값 쌍으로 레이블이 지정되며, 인덱싱�
 
 # 4.2 Fluentd 대 Promtail
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Fluentd에 비해 Promtail은 Loki에 맞게 사용자 정의되었습니다. Promtail은 Kubernetes (k8s) Pods와 동일한 노드에서 실행되는 서비스를 탐지하고 지정된 디렉토리에서 로그를 읽을 수 있습니다.
 
@@ -144,7 +260,18 @@ Loki는 Prometheus와 유사한 레이블링 방법을 사용합니다. 따라�
 
 Kibana는 이상 감지 및 기타 머신러닝 기능과 같은 고급 기능을 포함한 데이터 분석을 위한 많은 시각화 도구를 제공합니다. Prometheus와 Loki의 시계열 데이터를 위해 설계된 Grafana는 동일한 대시보드에서 로그와 메트릭을 볼 수 있도록 해줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 스택더믹 🎓
 

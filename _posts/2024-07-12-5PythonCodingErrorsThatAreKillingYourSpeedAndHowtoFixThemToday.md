@@ -3,16 +3,13 @@ title: "파이썬 속도를 떨어뜨리는 다섯 가지 코딩 실수 및 오�
 description: ""
 coverImage: "/assets/img/2024-07-12-5PythonCodingErrorsThatAreKillingYourSpeedAndHowtoFixThemToday_0.png"
 date: 2024-07-12 20:38
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-12-5PythonCodingErrorsThatAreKillingYourSpeedAndHowtoFixThemToday_0.png
 tag: Tech
 originalTitle: "5 Python Coding Errors That Are Killing Your Speed (And How to Fix Them Today)"
 link: "https://medium.com/python-in-plain-english/5-python-coding-errors-that-are-killing-your-speed-and-how-to-fix-them-today-8064f4d32e20"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-07-12-5PythonCodingErrorsThatAreKillingYourSpeedAndHowtoFixThemToday_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 하지만 걱정하지 마세요! 이 글에서는 제가 보고(심지어 제가 직접 한 것) 온갖 성능 저하 요인을 분석해 보여드릴 것입니다. 그리고 어떤 것을 하지 말아야 하는지뿐만 아니라, 실제 해결책과 코드 예제를 제공하여 여러분의 스크립트를 부드럽고 강력한 파이썬 기계로 만들어 줄 겁니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 실수 #1: 1999년처럼 루핑하기
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 거대한 숫자 목록의 제곱을 합산해야 한다고 상상해보세요. 여기에는 루프 방식이 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 numbers = [1, 2, 3, 4, 5, ... , 10000]  # A big list
@@ -48,12 +67,23 @@ for number in numbers:
 
 이것이 NumPy가 슈퍼히어로처럼 나타나는 곳입니다. 이것은 벡터화에 관한 모든 것입니다 — 한 번에 전체 배열에 대한 연산 수행하기. 그 예시를 다시 써보겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 import numpy as np
 
-numbers = np.array([1, 2, 3, 4, 5, ... , 10000])  
+numbers = np.array([1, 2, 3, 4, 5, ... , 10000])
 squared = numbers * numbers  # Vectorized squaring!
 total = squared.sum()
 ```
@@ -64,7 +94,18 @@ Boom! Instead of processing element by element, NumPy takes care of the entire c
 
 List comprehensions are like the stealthy middle ground:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 total = sum(number * number for number in numbers)
@@ -76,7 +117,18 @@ total = sum(number * number for number in numbers)
 
 망치 하나만으로 집을 짓는다고 상상해보세요. 집을 완성할 수는 있지만, 정말 혼란스러울 것입니다. 마찬가지로, Python에서 모든 작업에 대해 리스트만을 의존하는 것은 등이 뒤로 돌아가있는 채 프로그래밍하는 것과 같습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 예시: 내 전화번호는 어디에?
 
@@ -92,7 +144,18 @@ contacts = [
 
 Bob의 전화번호를 찾으려면 목록을 훑어봐야 합니다. 모든 연락처를 확인해야 할 수도 있어요! 어떡하지?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 문제 해결: 초능력을 지닌 데이터 구조들
 
@@ -109,7 +172,18 @@ bobs_number = contacts_dict["Bob"]  # 즉시 접근!
 
 - Sets: 고유성 강제하기 고유한 웹사이트 방문자들을 추적해야 하는가요? Set은 중복을 자동으로 제거합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 unique_visitors = set()
@@ -124,8 +198,18 @@ unique_visitors.add("192.168.1.100")  # No duplicate added
 
 코드가 느릴 것 같은 느낌을 익히 알고 계실 거예요. 그런데 그 이유가 왜 그런지는 모르겠다고요. 토치(Torch) 없이 누수하는 천장을 고치는 것과 유사합니다. 화가 난답니다! 여기서 프로파일러(Profiler)가 등장합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 예시: 예상하지 못한 범인
 
@@ -135,7 +219,18 @@ unique_visitors.add("192.168.1.100")  # No duplicate added
 
 Python의 내장 cProfile 모듈이 성능 탐지 요원이 됩니다. 다음은 그 사용법입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 import cProfile
@@ -154,7 +249,18 @@ cProfile.run('my_function()')
 
 단서를 통해 정보 확인하기 위해 이러한 숫자들은 실제 병목 현상을 찾아내는 데 도움이 됩니다. 최적화 노력을 가장 큰 영향을 줄 수 있는 곳에 집중할 수 있도록 도와줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 오류 #4: DIY 함정
 
@@ -164,13 +270,24 @@ cProfile.run('my_function()')
 
 숫자 목록을 정렬해야 하나요? 버블 정렬을 구현해 볼 수도 있지만... Python의 sorted()를 사용해보는 것은 어떨까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 my_list = [5, 3, 1, 4, 2]
 
 # The long way (probably pretty slow)
-def my_bubble_sort(list): 
+def my_bubble_sort(list):
    # ... your sorting code here
 
 # The Pythonic way
@@ -183,7 +300,18 @@ sorted_list = sorted(my_list)
 
 Python 표준 라이브러리는 개발자의 가장 좋은 친구입니다. 이러한 강력한 기능들을 알아보세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - itertools: 이터레이터 작업을 강화해주는 모듈 (효율적인 반복문을 위한 상급 루프라고 생각해보세요)
 - heapq: 힙(heap)을 관리하기 위한 모듈 (우선순위 큐에 관심 있으신가요?)
@@ -195,7 +323,18 @@ Python 표준 라이브러리는 개발자의 가장 좋은 친구입니다. 이
 
 컴퓨터의 메모리(RAM)를 초고속 작업 영역, 하드 디스크를 도시 반대편에 있는 저장 창고로 생각해보세요. 파일에 접근하거나 수정할 때마다 전달원을 왕복하도록 하는 것과 같습니다. 너무 많은 왕복으로 코드가 대기하는 것처럼 느껴지기 시작합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 예시: 라인별 처리 지연
 
@@ -209,7 +348,18 @@ with open("huge_log.txt", "r") as file:
 
 각 라인을 읽을 때마다 하드 드라이브에서 별도의 가져오기가 필요합니다. 아야!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 문제 해결: 더 똑똑하게 일하기
 
@@ -217,13 +367,24 @@ with open("huge_log.txt", "r") as file:
 
 ```js
 with open("huge_log.txt", "r") as file:
-    contents = file.read() 
+    contents = file.read()
     # 메모리에서 내용 처리
 ```
 
 - 버퍼링으로 구조화: 세밀한 제어가 필요할 때, 버퍼링이 도움이 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 with open("huge_log.txt", "r") as file:
@@ -240,7 +401,18 @@ with open("huge_log.txt", "r") as file:
 
 자, 이제 우리의 속도 저하는 원인을 다시 한 번 요약해 봅시다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 루프 과부화: NumPy로 벡터화를 활용해보세요.
 - 잘못된 도구: 룩업에는 사전, 고유성에는 세트... 현명하게 선택하세요!
@@ -254,7 +426,18 @@ with open("huge_log.txt", "r") as file:
 
 이것을 실천하실 준비가 되셨나요? 여러분의 코드에서 이러한 실수를 찾아보세요! 여러분이 얻는 속도 향상에 대한 소식을 듣고 싶습니다. 결과를 댓글로 공유해주세요. 함께 최적화를 축하해봐요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 더 알고 싶나요?
 
@@ -264,7 +447,18 @@ with open("huge_log.txt", "r") as file:
 
 # 쉽게 이해할 수 있는 English 🚀
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 In Plain English 커뮤니티에 참여해 주셔서 감사합니다! 떠나시기 전에:
 

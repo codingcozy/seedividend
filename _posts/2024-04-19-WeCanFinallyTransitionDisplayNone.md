@@ -3,17 +3,13 @@ title: "displaynone으로 transition을 드디어 할 수 있습니다"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "We Can Finally Transition Display None"
 link: "https://medium.com/@kentondejong/we-can-finally-transition-display-none-cbb03831351f"
 isUpdated: true
 ---
-
-
-
-
 
 ![img](/assets/img/WeCanFinallyTransitionDisplayNone_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 다음 CSS를 고려해 주세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 .box {
@@ -52,7 +59,18 @@ isUpdated: true
 
 스스로 확인해보세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가시성: 숨김에서도 작동해요. 하지만 거의 사용하지 않아요.
 

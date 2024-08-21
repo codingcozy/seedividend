@@ -3,16 +3,13 @@ title: "Django Rest FrameworkDFR를 사용하여 Mpesa STK 푸시 및 CallbackVi
 description: ""
 coverImage: "/assets/img/2024-06-19-ImplementingMpesaSTKpushandCallbackViewusingDjangoRestFrameworkDFR_0.png"
 date: 2024-06-19 23:36
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-ImplementingMpesaSTKpushandCallbackViewusingDjangoRestFrameworkDFR_0.png
 tag: Tech
 originalTitle: "Implementing Mpesa STK push and CallbackView using Django Rest Framework(DFR)"
 link: "https://medium.com/@gabrielngeti4/implementing-mpesa-stk-push-and-callbackview-using-django-rest-framework-dfr-fc42bf0474df"
 isUpdated: true
 ---
-
-
-
 
 ![이미지](/assets/img/2024-06-19-ImplementingMpesaSTKpushandCallbackViewusingDjangoRestFrameworkDFR_0.png)
 
@@ -22,7 +19,18 @@ MPESA STK PUSH
 
 대부분의 사람들은 대부분 시간에 핸드폰을 가지고 있기 때문에 핸드폰으로 결제하는 것이 합리적일 것입니다. Mpesa 팀은 라이브 및 샌드박스 API를 소개했습니다. mpesa stk push를 사용하려면 액세스 토큰을 생성해야 합니다. 액세스 토큰은 응용 프로그램이 mpesa api를 사용할 수 있는 시간대를 제공하는 코드입니다. 액세스 토큰 생성을 구현하려면 Daraja 계정이 필요합니다. 그런 다음 홈 뷰의 내 애플리케이션 섹션으로 이동하여 앱을 만듭니다. 앱이 생성되면 다음이 생성됩니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-19-ImplementingMpesaSTKpushandCallbackViewusingDjangoRestFrameworkDFR_1.png" />
 
@@ -32,7 +40,18 @@ MPESA STK PUSH
 
 <img src="/assets/img/2024-06-19-ImplementingMpesaSTKpushandCallbackViewusingDjangoRestFrameworkDFR_2.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 실제로 사용자 키와 시크릿은 보안상의 이유로 소스에 노출되어서는 안 되지만 별도의 .env 파일에 넣어야 합니다. 이는 구성에서 사용자 키와 시크릿을 검색하여 콜론 구분자로 연결한 후 결과를 Base64로 인코딩하고 인코딩된 값으로 HTTP 인증 헤더를 구성합니다. 그런 다음 지정된 API URL로 Authorization 헤더 및 JSON Content-Type 헤더와 함께 GET 요청을 보냅니다. JSON 형식으로 예상되는 API 응답은 "access_token" 값을 추출하여 함수에서 반환됩니다. 액세스 토큰은 mpesa stk push 함수에서 사용될 것입니다.
 
@@ -42,7 +61,18 @@ MPESA STK PUSH
 
 MPESA CALLBACK VIEW
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 mpesa stk 페이로드에서는 모든 stk 푸시 트랜잭션 결과가 전송되는 안전한 콜백URL을 포함해야 합니다. 이를 통해 트랜잭션을 추적할 수 있습니다.
 
@@ -52,7 +82,18 @@ mpesa stk 페이로드에서는 모든 stk 푸시 트랜잭션 결과가 전송�
 
 ![이미지](/assets/img/2024-06-19-ImplementingMpesaSTKpushandCallbackViewusingDjangoRestFrameworkDFR_5.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 시리얼라이저는 데이터베이스의 AllResponses 모델의 모든 레코드를 변환합니다.
 

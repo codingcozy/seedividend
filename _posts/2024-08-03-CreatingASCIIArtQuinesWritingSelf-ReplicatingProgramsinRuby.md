@@ -3,16 +3,13 @@ title: "Ruby로 ASCII 아트 퀸 만들기 셀프 복제 프로그램 작성 방
 description: ""
 coverImage: "/assets/img/2024-08-03-CreatingASCIIArtQuinesWritingSelf-ReplicatingProgramsinRuby_0.png"
 date: 2024-08-03 18:52
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-03-CreatingASCIIArtQuinesWritingSelf-ReplicatingProgramsinRuby_0.png
 tag: Tech
 originalTitle: "Creating ASCII Art Quines Writing Self-Replicating Programs in Ruby"
 link: "https://medium.com/@sean0628/creating-ascii-art-quines-writing-self-replicating-programs-in-ruby-c5d1f7a1c4e0"
 isUpdated: true
 ---
-
-
-
 
 # 쿼인(Quine)이란 무엇인가요?
 
@@ -22,9 +19,20 @@ isUpdated: true
 
 # 루비(Ruby)에서 쿼인을 어떻게 작성할까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-이 글에서는 루비로 ASCII 쿼인을 작성하는 방법에 초점을 맞춥니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+이 글에서는 루비로 ASCII 쿼인을 작성하는 방법에 초점을 맞춥니다.
 
 쿼인은 다음 단계를 따라 작성할 수 있습니다:
 
@@ -34,11 +42,21 @@ isUpdated: true
 
 ## 선행 요구 사항
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Sure! Here is your ASCII art representation of the source code:
 
-
 1111111111111111
 1000000000000001
 1000011111000001
@@ -48,8 +66,18 @@ Sure! Here is your ASCII art representation of the source code:
 1000000000000001
 1111111111111111
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 aa = <<~AA
@@ -59,7 +87,16 @@ aa = <<~AA
   11111111111111111111000000000000000000111110000000000000000011111111111111111111
   111111111111111111110000000000000011111111111100000000000
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 크고 작은 따옴표의 숨겨진 기능
 
@@ -71,9 +108,19 @@ aa = <<~AA
 - 문자 그리드를 소스 코드의 문자열로 대체하여 원래 소스 코드를 작성합니다.
 - 원래 소스 코드를 출력합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```
+
 <img src="/assets/img/2024-08-03-CreatingASCIIArtQuinesWritingSelf-ReplicatingProgramsinRuby_0.png" />
 
 - Orange: 프로그램의 소스 코드를 문자열로 얻기.
@@ -106,8 +153,18 @@ al$s=@j;}*"";eval$s=                   %w                   {s=%{eval$s=%w(#{$s}
 
 ## 퀸 실행하기
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 $ ruby ca.rb > _ca.rb
@@ -121,7 +178,18 @@ ca.rb 및 _ca.rb 파일은 동일합니다.
 
 이 글에서는 쿼인(Quine)이 무엇인지, 그리고 루비로 쿼인을 작성하는 방법을 살펴보았습니다. 쿼인은 실제로는 유용하지는 않지만, 재밌고 동시에 교육적인 요소를 품고 있습니다. 다른 언어로 소스 코드를 생성하는 쿼인이나 음악을 연주하는 쿼인과 같은 많은 다른 유형의 쿼인도 있습니다. 쿼인에 관심이 있다면 더 알아보고 직접 쿼인을 작성해 보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 참고 자료
 

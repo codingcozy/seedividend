@@ -3,15 +3,13 @@ title: "셀렉터 명시도Selector Specificity란 무엇인가요"
 description: ""
 coverImage: "/assets/img/2024-07-09-WhatisSelectorSpecificity_0.png"
 date: 2024-07-09 14:11
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-WhatisSelectorSpecificity_0.png
 tag: Tech
 originalTitle: "What is Selector Specificity"
 link: "https://medium.com/@kithma/what-is-selector-specificity-b9fef8729d94"
 isUpdated: true
 ---
-
-
 
 <img src="/assets/img/2024-07-09-WhatisSelectorSpecificity_0.png" />
 
@@ -22,7 +20,18 @@ isUpdated: true
 특이성에 대해 들어가기 전에, 이 기사에서 사용될 용어인 CSS 선언이 무엇인지 이해해보자.
 간단히 말해서 CSS 선언은 CSS 속성과 그 값의 키-값 쌍이다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위는 CSS 선언의 예입니다. "border-radius"는 속성이고 "50%"는 값입니다. 이를 사용하여 특정 요소에 스타일 속성을 설정합니다. 이제 CSS 선언이 무엇인지 알게 되었으니, 특이성으로 넘어가 봅시다.
 

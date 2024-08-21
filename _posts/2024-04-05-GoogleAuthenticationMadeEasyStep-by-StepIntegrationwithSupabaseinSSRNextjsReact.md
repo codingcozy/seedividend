@@ -3,17 +3,13 @@ title: "SSR Nextjs React에서 Supabase로 Google 인증을 쉽게 하기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Google Authentication Made Easy Step-by-Step Integration with Supabase in SSR Nextjs React"
 link: "https://medium.com/@pierrobj5/google-authentication-made-easy-step-by-step-integration-with-supabase-in-ssr-next-js-react-e70cc918e150"
 isUpdated: true
 ---
-
-
-
-
 
 ![SupabaseNecessity](/assets/img/GoogleAuthenticationMadeEasyStep-by-StepIntegrationwithSupabaseinSSRNextjsReact_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # Next.js 설정하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Supabase를 이용한 Next.js를 위한 서버 측 인증 설정하기
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ## 단계 1: 콜백 라우트 구성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 /app/auth/callback/route.ts 파일에 다음 코드를 추가해주세요:
 
@@ -84,7 +102,18 @@ export async function GET(request: Request) {
 
 action.ts 파일에 다음 코드를 추가하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 "use server";
@@ -137,16 +166,9 @@ function GoogleSignInButton() {
   }
 
   return (
-    <div
-      formAction={handleSignInGoogle}
-      className="flex cursor-pointer items-center justify-center gap-2"
-    >
+    <div formAction={handleSignInGoogle} className="flex cursor-pointer items-center justify-center gap-2">
       <FcGoogle className="text-2xl" />
-      {pending ? (
-        "로딩 중 ...."
-      ) : (
-        <p className="text-center text-green-500">Google로 로그인</p>
-      )}
+      {pending ? "로딩 중 ...." : <p className="text-center text-green-500">Google로 로그인</p>}
     </div>
   );
 }
@@ -161,6 +183,17 @@ export default function LoginForm() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 축하합니다! 당신은 Next.js와 함께 Supabase 구글 인증을 성공적으로 설정했습니다. 다음에 만날 때까지 즐거운 코딩 하시고 즐거운 삶 되세요!

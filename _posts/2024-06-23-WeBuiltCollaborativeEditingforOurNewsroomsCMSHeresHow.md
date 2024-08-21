@@ -3,16 +3,13 @@ title: "협업 편집 기능 추가 우리 뉴스룸 CMS 구축 과정 공개"
 description: ""
 coverImage: "/assets/img/2024-06-23-WeBuiltCollaborativeEditingforOurNewsroomsCMSHeresHow_0.png"
 date: 2024-06-23 13:12
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-WeBuiltCollaborativeEditingforOurNewsroomsCMSHeresHow_0.png
 tag: Tech
 originalTitle: "We Built Collaborative Editing for Our Newsroom’s CMS. Here’s How."
 link: "https://medium.com/timesopen/we-built-collaborative-editing-for-our-newsrooms-cms-here-s-how-415618a3ec49"
 isUpdated: true
 ---
-
-
-
 
 Sophia Ciocca와 Jeff Sisson
 
@@ -22,7 +19,18 @@ Sophia Ciocca와 Jeff Sisson
 
 협업 편집 기능이 필요했던 Oak에서 협력자가 동시에 자연스럽게 문서에서 작업할 수있는 더 완벽한 기사 편집기가 필요했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 협업 편집은 해결하기 어려운 문제입니다. 실시간 업데이트를 통합하는 방법, 충돌하는 편집에 대처하는 방법, 불안정한 와이파이로 인한 오류를 처리하는 방법 등 많은 새로운 수수께끼를 제시합니다. Google Docs와 같은 제품은 대규모로 이러한 문제를 해결하기 위해 막대한 팀과 자원을 투입하고 있습니다. 저희 팀은 The Times의 편집 작업 흐름에 적합한 방식으로 이러한 수수께끼를 해결할 시간이 몇 달밖에 없었습니다. 다행히도 이러한 종류의 기술적 도전에 대한 지원이 Oak의 기술 기반으로 ProseMirror를 선택한 초기 이유 중 하나였습니다.
 
@@ -32,7 +40,18 @@ Oak 글이 협업적이 되기 위해서는 글에 접근 권한이 있는 모�
 
 정확히 어떻게 단계의 데이터가 표현되는 걸까요? 우리는 단계를 문서를 어떻게 변경하는지에 대한 지시사항으로 작동하는 JSON 객체로 나타냅니다. 문서의 두 번째 위치에 글자 "H"를 넣는 것이 어떻게 보이는지 여기에 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 {
@@ -59,8 +78,18 @@ Oak 글이 협업적이 되기 위해서는 글에 접근 권한이 있는 모�
 
 로컬 문서와 원격 권한 서버 간의 전형적인 대화는 다음과 같을 수 있습니다:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 1. 로컬: "안녕하세요, 한, 둘, 셋 단계를 가지고 있어요."
@@ -78,7 +107,18 @@ Oak 글이 협업적이 되기 위해서는 글에 접근 권한이 있는 모�
 
 # 단계가 있는 곳이 집이다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ProseMirror은 협업 편집 서버를 구현하기 위한 매우 훌륭한 구성 요소(그리고 완벽히 작동하는 데모)를 제공하지만, 데이터베이스에 단계를 저장하는 방법을 명시하지 않습니다. 우리는 우리의 특정 요구 사항에 맞는 솔루션을 설계하고 구현해야 했습니다. 저희는 프로토타이핑 단계에서 고려한 몇 가지 질문은 다음과 같습니다. 권한 있는 서버를 어떻게 확장하여 많은 수정을 허용할 수 있을까요? (기사 당 최대 25,000회) 협업 문서의 편집 기록을 어떻게 보존할 수 있을까요? 마지막으로, 최신 문서를 인쇄 생산 시스템에 전달하는 등, 우리 뉴스룸의 고유한 필요에 맞는 다양한 기능을 지원하는 방법은 무엇일까요?
 
@@ -88,7 +128,18 @@ ProseMirror은 협업 편집 서버를 구현하기 위한 매우 훌륭한 구�
 
 # 여러 사람이 입력 중입니다
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 협업 문서를 최신 상태로 유지하는 것은 중요하지만, 문서를 지켜보고 있는 다른 사람이 누구인지 알아내는 것도 중요합니다. 문서에 있는 모든 사람이 협업자의 커서 위치를 볼 수 있거나, 협업자가 마우스로 특정 부분을 강조한 것을 볼 수 있기를 원했습니다. ProseMirror와 Firebase API (Firestore의 동생)를 활용하여 Oak에 추가한 기능은 문서에 누가 있고 그들이 커서를 둔 위치를 보여주는 것입니다.
 
@@ -98,7 +149,18 @@ ProseMirror은 협업 편집 서버를 구현하기 위한 매우 훌륭한 구�
 
 사용자가 문서에서 선택을 만들면, 해당 선택이 문서를 열어둔 모든 컴퓨터에 렌더링되고 그 옆에 사용자의 이름이 표시됩니다. 사용자가 브라우저에서 선택을 변경할 때, 해당 변경 사항이 문서에 반영되어야 하므로 업데이트된 선택 데이터(머리 + 앵커 위치)를 Firebase로 푸시합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 선택 사항을 처리하기 위해 가끔은 미래를 예측해야 합니다. 선택 데이터와 문서 변경 사항이 별도의 서버로 전송되기 때문에 Oak 앱은 브라우저가 아직 수신하지 않은 문서 버전의 선택 변경을 수신할 수 있습니다. Oak 앱이 문서 편집에 대응하는 선택 변경을 받기 전에 문서 편집을 수신하면 해당 선택이 어떻게 변경될 지 시뮬레이션해야 합니다. 마찬가지로, 아직 도착하지 않은 편집에 관련된 선택 변경을 수신하면 앱은 해당 편집이 도착할 때까지 선택 변경을 렌더링하기 전까지 기다려야 합니다. 이를 위해 미래에서 선택 업데이트를 기다렸다가 적용하기 위해 Redux Saga를 사용합니다.
 
@@ -108,7 +170,18 @@ ProseMirror은 협업 편집 서버를 구현하기 위한 매우 훌륭한 구�
 
 모든 기사 편집물 또는 단계가 Firestore에 삽입되면 해당 기사를 열어둔 모든 브라우저 창이 최신 단계로 업데이트됩니다. 기사를 게시할 준비가 되면, 게시를 처리하는 백엔드 서비스는 최신 기사 데이터도 가져와 사이트와 앱이 기사를 렌더링하기 위해 사용자 끝단에 제공하는 게시 파이프라인으로 전송합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 협업 편집을 구현하기 전에는 이 흐름이 더 간단했습니다: 백엔드 서비스는 기사 내용과 메타데이터가 저장된 MySQL 데이터베이스로 직접 이동할 수 있었습니다. 그러나 협업 편집 기사의 경우에는 Firestore에서 기사 내용을 퍼블리싱 서비스로 이동시키는 앱 엔진 서비스(우리가 “협업 서비스”라고 명명했습니다)를 만들었습니다. 사용자가 게시 버튼을 클릭하면 브라우저가 이 협업 서비스에 요청을 보내고, 해당 서비스는 Firestore로부터 데이터를 퍼블리싱 파이프라인으로 복사합니다.
 
@@ -118,7 +191,18 @@ ProseMirror은 협업 편집 서버를 구현하기 위한 매우 훌륭한 구�
 
 이러한 인쇄 편집을 수행하는 인터페이스는 기존 MySQL 데이터베이스에 의존합니다. 협업 기사는 Firestore에 저장되어 이 인쇄 데이터베이스와 연결이 끊겨 있기 때문에, 기사의 협업 상태가 정기적 간격으로 주요 MySQL 데이터베이스로 복사되는 시스템을 개발했습니다. 이 시스템에는 Google Cloud Functions와 Google Cloud Tasks가 포함되어 있으며, 최소 한끗 차이로 콜라보레이티브 변경 사항을 신문에 인쇄될 것과 동일하게 미리 볼 수 있게 해줍니다. 이는 우리의 인쇄 편집자들에게 유용한 기능입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 공동으로 편집된 Oak 기사가 게시되고 인쇄되었을 때, 드디어 결승선에 오르게 되었습니다! 게시 후에 수정 사항이 있는 경우 일부 기사는 변경 사항을 추적하기 위해 Firestore에 저장되며, 그 단계는 디지털 게시를 마침으로 우리 기사와 해당 단계의 이야기는 끝납니다. 우리는 이제 뉴스룸 전체의 협력자들에게 대대적으로 향상된 사용자 경험을 제공하는 기존 뉴스 워크플로우와 매끈하게 작동하는 공동 편집자를 보유하고 있습니다.
 
@@ -128,6 +212,17 @@ ProseMirror은 협업 편집 서버를 구현하기 위한 매우 훌륭한 구�
 
 Sophia Ciocca는 뉴욕 타임즈 출판팀 소프트웨어 엔지니어로 Oak에서 일하고 있습니다. 그녀의 Medium을 팔로우하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제프 시슨은 뉴욕타임스의 퍼블리싱 팀에서 리드 소프트웨어 엔지니어로 일하며 Oak에 참여하고 있습니다. 트위터에서 그를 팔로우하거나 그의 개인 홈페이지를 방문해보세요.

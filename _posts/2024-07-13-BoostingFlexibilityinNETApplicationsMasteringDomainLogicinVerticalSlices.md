@@ -3,16 +3,13 @@ title: "NET 애플리케이션의 유연성 극대화 도메인 로직 수직 �
 description: ""
 coverImage: "/assets/img/2024-07-13-BoostingFlexibilityinNETApplicationsMasteringDomainLogicinVerticalSlices_0.png"
 date: 2024-07-13 21:25
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-BoostingFlexibilityinNETApplicationsMasteringDomainLogicinVerticalSlices_0.png
 tag: Tech
 originalTitle: "Boosting Flexibility in .NET Applications: Mastering Domain Logic in Vertical Slices"
 link: "https://medium.com/gitconnected/boosting-flexibility-in-net-applications-mastering-domain-logic-in-vertical-slices-d26ad2e0883f"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-07-13-BoostingFlexibilityinNETApplicationsMasteringDomainLogicinVerticalSlices_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 오늘의 글에서는 도메인별 핸들러를 어떻게 구현할 수 있는지 보여드리고 싶습니다. 미리 강조하고 싶은 점은 여전히 수직 슬라이스 아키텍처의 길을 따르고 있다는 것입니다. 그리고 그 이유가 있습니다. 이 방식을 통해 우리는 유연할 수 있기 때문이죠. "계층화된 아키텍처에서 수직 슬라이스 아키텍처로의 아키텍처적 경계 재고"라는 제 글에서 엄격한 계층화된 아키텍처 지지자에서 수직 슬라이스와 같은 유연한 접근 방식으로 진화하는 과정을 설명했습니다. 또한 항상 틀린 것과 맞는 것이 아니라 세상이 흑백이 아니라는 점을 상기시켜드리고 싶습니다. 종종 세세한 차이가 있고 올바른 아키텍처 접근 방식을 선택하는 것은 비즈니스 요구사항, 팀 배경 및 기술, 조직 구조 등과 같은 상황에 달려있음을 기억해주시기 바랍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 수직으로 조각을 나누면 특정 사용 사례를 구현하는 방법에 있어 유연성을 제공합니다. 예를 들어, 예전의 CRUD 패턴에서 우리는 간단한 요청을 받아 페이로드를 데이터베이스에 저장해야 할 수도 있습니다. 이 경우 서비스 클래스는 필요하지 않을 수 있으며 DbContext나 심지어 SQL 문만 있으면 될 수도 있습니다. 다른 경우에는 더 많은 로직이 필요하고 전용 도메인 서비스가 필요할 수도 있습니다. 내가 말하고 싶은 것은 우리가 반드시 처음부터 커밋할 필요가 없다는 것이고, 경우에 따라 가장 적합한 접근법을 선택할 수 있다는 것입니다.
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 # 서비스 클래스의 딜레마
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시작하기 전에, 서비스 클래스에 대해 몇 마디 꼭 해야겠어요. 많은 해 동안, 저는 계층을 가볍게 유지하고 비즈니스 로직을 도메인 서비스로 넣는 것을 옹호해 왔어요. 그러나 아쉽게도, 제가 자주 비판하는 컨트롤러처럼, 서비스 클래스도 뚱뚱하고 지저분한 컨테이너가 되곤 해요. 이는 종종 단순히 "오, 주문 서비스가 필요하겠구나"라고 빠르게 생각하여 주문과 관련된 모든 것을 거기에 "모아" 놓기 때문일 때문이죠. 그것은 결국 클래스 내의 메소드 모음일 뿐이라고 생각하니까 더 이상 좋은 생각이 아니라고 생각해요. 단일 책임 원칙이 종종 빨리 깨지기 때문이에요. 따라서 우리는 계속해서 증가하는 사용 케이스의 수를 견딜 수 있는 더 나은 접근 방식이 필요합니다.
 
@@ -44,7 +63,18 @@ isUpdated: true
 
 제 예시에서, 최근 Vertical Slice Architecture 접근 방식을 통해 들어오는 요청을 명령어로 전환하는 것을 설명한 지난 기사를 따라가고 싶어요. 이 기사는 솔루션의 구조화, 매핑 및 .NET에서 MediatR을 사용하여 명령어 적용에 중점을 둔 것이었어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 사용 사례에서는 다른 시스템의 요청 데이터를 우리 시스템으로 변환하는 과정에서 다음과 같은 문제가 발생했습니다.
 
@@ -67,7 +97,18 @@ isUpdated: true
 
 그러나 요청 payload에서 국가는 여러 언어로 표시될 수 있습니다. 예를 들어 "Spain" 대신에 "España"로 나타날 수 있습니다. 그러나 제 도메인 모델에서 국가 정보는 ISO 3166–1 alpha-2 표준 국가 코드와 이름으로 구성된 국가 목록을 참조합니다. 다음 예시를 참조해주십시오.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-13-BoostingFlexibilityinNETApplicationsMasteringDomainLogicinVerticalSlices_1.png" />
 
@@ -77,7 +118,18 @@ isUpdated: true
 
 다음 그림을 살펴보고 핸들러가 수행해야 하는 작업을 대략적으로 이해해 보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```csharp
 public class CreateOrUpdateCompanyHandler : IRequestHandler<CreateOrUpdateCompanyCommand>
@@ -97,10 +149,10 @@ public class CreateOrUpdateCompanyHandler : IRequestHandler<CreateOrUpdateCompan
 
         // Step 2: Check if the company already exists
         ...
-        
+
         // Step 3: Update or create company
         ...
-        
+
         // Step 4: Save changes
         await _context.SaveChangesAsync(cancellationToken);
     }
@@ -113,10 +165,20 @@ public class CreateOrUpdateCompanyHandler : IRequestHandler<CreateOrUpdateCompan
 
 도메인 모델이 없거나 필요하지 않는 한 DbContext를 핸들러에 주입하고 생성된 데이터 객체를 저장하는 것으로 충분히 사용할 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-나라 항목을 결정하기 위해서는 레포지토리만으로는 충분하지 않을 거예요. 왜냐하면 입력값을 기반으로 나라 항목을 결정할 논리가 필요하기 때문이죠. 입력값은 기본적으로 영어로된 나라, 나라 코드 또는 다른 언어로 된 나라일 수 있어요. 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+나라 항목을 결정하기 위해서는 레포지토리만으로는 충분하지 않을 거예요. 왜냐하면 입력값을 기반으로 나라 항목을 결정할 논리가 필요하기 때문이죠. 입력값은 기본적으로 영어로된 나라, 나라 코드 또는 다른 언어로 된 나라일 수 있어요.
 
 하지만 한 걸음씩 진행해 보죠. 여전히 우리가 ISO 기반 테이블에서 "ES - 스페인" 항목을 "España" 입력값으로 어떻게 찾을지 문제를 해결해야 해요.
 
@@ -124,7 +186,18 @@ public class CreateOrUpdateCompanyHandler : IRequestHandler<CreateOrUpdateCompan
 
 이를 위해 다음과 같은 솔루션을 만들었어요. 이 요구 사항을 확장 가능한 방식으로 해결하기 위해 비ISO 국가 이름을 ISO 국가 코드에 매핑하는 CountryTranslation 엔티티를 만들었어요. 이 엔티티를 나중에 CountryFinder에서 사용하여 국가 이름을 ISO 코드로 변환한 후 Countries 테이블을 찾아보고 싶어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 public class CountryTranslation
@@ -140,7 +213,18 @@ public class CountryTranslation
 
 국가 이름을 다른 언어로 ISO 국가 코드에 매핑하는 데 필요한 사전 작업을 완료했습니다. 이를 통해 CountryFinder가 작동해야 하는 방법에 대한 아이디어가 나타납니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```javascript
 public class CountryFinder
@@ -159,7 +243,7 @@ public class CountryFinder
 
         // 그런 다음, ISO 코드로 찾아 보세요
         ...
-        
+
         // 마지막으로, 이름으로 찾아 보세요
 
         return country;
@@ -173,23 +257,41 @@ public class CountryFinder
 
 물론, CountryFinder를 "회사 생성 또는 업데이트" 슬라이스의 일부로 만들어 그곳에서만 사용할 수도 있습니다. 그러나 저는 Finder를 다른 사용 사례에서도 잘 활용할 수 있을 것으로 보여서 이를 재사용 가능하다고 생각하고 다른 위치를 볼 수 있습니다. 이는 수직 슬라이스 아키텍처에서 각 슬라이스(또는 기능 또는 사용 사례)가 격리되고 독립되어야 한다는 원칙을 따르기 때문입니다. 그러나 CountryFinder와 같은 일반적인 기능은 다른 슬라이스에서도 사용할 수 있습니다. CountryFinder 로직을 각 슬라이스에 넣는 대신 고립을 유지하려면서도 중복 코드를 피하려는 경향이 있습니다. 이는 잠재적인 코드 중복으로 인해 일반적으로 권장하지 않는 방법입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 다양한 슬라이스에서 사용할 수 있는 CountryFinder와 같은 유틸리티나 서비스를 저장하는 공유 폴더를 애플리케이션 레이어 내에 생성하기로 결정했습니다. 애플리케이션 레이어는 다음과 같이 구성됩니다.
 
 ```js
-- Application
-   - Company
-     - CreateOrUpdateCompany
-   - Shared
-     - CountryFinder
+-Application - Company - CreateOrUpdateCompany - Shared - CountryFinder;
 ```
 
 # 애플리케이션 레이어와 인프라스트럭처 레이어의 구분
 
 가끔 애플리케이션 렠이어와 인프라스트럭처 레이어 사이의 구별이 약간 모호할 수 있기 때문에, CountryFinder를 인프라스트럭처 레이어가 아닌 애플리케이션 레이어에 넣기로 한 이유에 대해 설명해 드리겠습니다. 결정은 때로는 애플리케이션과 아키텍처의 구체적인 내용에 따라 다를 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 의견으로는 도메인 주도 설계 방식과 수직 슬라이스 아키텍처에서는 파인더(Finder)가 비즈니스 사용 사례와 워크플로를 지원하는 데 주로 사용되는 경우 응용 프로그램 레이어의 일부로 간주될 수 있습니다. 응용 프로그램 레이어는 작업이 조정되고 비즈니스 규칙이 처리되며 도메인 엔티티가 특정 비즈니스 요구에 맞게 조율되는 곳입니다.
 
@@ -199,7 +301,18 @@ public class CountryFinder
 
 # CountryFinder 구현
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제 CountryFinder의 구현에서는 로직이 있기 때문에 명확하게 응용 프로그램 계층에 할당했습니다.
 
@@ -249,7 +362,18 @@ CountryFinder를 사용하려면 서비스로 등록해야 합니다. 이를 위
 builder.Services.AddTransient<ICountryFinder, CountryFinder>();
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 서비스를 RequestHandler에 주입하고 사용할 수 있습니다. 업데이트된 구현은 이제 다음과 같이 보일 것입니다.
 
@@ -297,7 +421,7 @@ public class CreateOrUpdateCompanyHandler : IRequestHandler<CreateOrUpdateCompan
         {
             _logger.LogError(exception.Message);
         }
-        
+
     }
 }
 ```
@@ -306,7 +430,18 @@ public class CreateOrUpdateCompanyHandler : IRequestHandler<CreateOrUpdateCompan
 
 여기까지 CountryFinder 구성 요소를 세로 슬라이스 아키텍처 내에 생성 및 배포한 여정이었습니다. 이 과정을 통해 소프트웨어 개발의 복잡성과 영향을 분석하고 소프트웨어 아키텍처를 형성하는 의사 결정 과정에 대해 깊이 있게 살펴봤습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 세심한 단계별 분석을 통해, 우리는 클린 코드를 유지하고 단일 책임 원칙과 재사용 가능한 구성 요소 사이의 미묘한 균형을 탐구해 왔습니다. 수직 슬라이스 아키텍처에서 유연성의 중요성과 각 사용 사례의 고유한 요구 사항을 바탕으로 순 정보 결정을 내리는 필요성에 대해 논의했습니다.
 

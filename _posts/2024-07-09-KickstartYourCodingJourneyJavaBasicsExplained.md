@@ -3,16 +3,13 @@ title: "코딩 여정 시작하기 자바 기초 완벽 설명"
 description: ""
 coverImage: "/assets/img/2024-07-09-KickstartYourCodingJourneyJavaBasicsExplained_0.png"
 date: 2024-07-09 09:36
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-KickstartYourCodingJourneyJavaBasicsExplained_0.png
 tag: Tech
 originalTitle: "Kickstart Your Coding Journey: Java Basics Explained"
 link: "https://medium.com/@eniyaask2005/kickstart-your-coding-journey-java-basics-explained-eaa0796bed32"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-07-09-KickstartYourCodingJourneyJavaBasicsExplained_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 # 자바의 기본 개념 이해:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 1. Hello World Program:
 
@@ -40,7 +48,18 @@ System.out.println("Hello, World!");
 - public static void main(String[] args): 애플리케이션의 진입점인 메인 메서드입니다.
 - System.out.println("Hello, World!");: "Hello, World!"를 콘솔에 출력합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 2. 클래스와 객체:
 
@@ -59,7 +78,18 @@ myDog.name = "Buddy";
 myDog.age = 5;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 3. 변수와 데이터 유형:
 
@@ -75,7 +105,18 @@ String myString = "Hello";
 
 여기에서,
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - myNumber은 값을 10으로 가지는 int 유형의 변수입니다. 이는 계산, 인덱싱 또는 정수가 필요한 작업에 유용합니다.
 - myDouble은 값을 5.99로 가지는 double 유형의 변수입니다. 이 유형은 금융 계산이나 과학 연산과 같은 소수점을 포함하는 정밀한 계산에 적합합니다.
@@ -89,7 +130,18 @@ String myString = "Hello";
 
 프로그램:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 import java.util.Scanner;
@@ -98,24 +150,24 @@ public class UserInfo {
     public static void main(String[] args) {
         // 콘솔에서 입력을 읽는 Scanner 객체 생성
         Scanner scanner = new Scanner(System.in);
-        
+
         // 사용자에게 이름을 입력하도록 안내
         System.out.print("이름을 입력하세요: ");
         String name = scanner.nextLine();
-        
+
         // 사용자에게 나이를 입력하도록 안내
         System.out.print("나이를 입력하세요: ");
         int age = scanner.nextInt();
-        
+
         // 입력된 값 출력
         System.out.println("안녕하세요, " + name + "님!");
         System.out.println("당신은 " + age + "살입니다.");
-        
+
         // Scanner 닫기
         scanner.close();
     }
 }
-``` 
+```
 
 ## 5. 반환 값:
 
@@ -123,13 +175,23 @@ public class UserInfo {
 
 프로그램:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 public class ReturnExample {
-    public static int add(int a, int b) { 
-        return a + b; 
+    public static int add(int a, int b) {
+        return a + b;
     }
 
     public static void main(String[] args) {
@@ -142,36 +204,56 @@ public class ReturnExample {
 - 메소드 선언: add 메소드는 두 개의 정수 a와 b를 받아들여 그들의 합을 반환합니다.
 - 반환문: return a + b;는 합계를 호출자에게 보냅니다.
 - 메인 메소드:
-    - 3과 4를 인자로 사용하여 add 메소드를 호출하고 반환된 값을 result에 저장합니다.
-    - System.out.println(result);를 사용하여 결과를 출력합니다.
+  - 3과 4를 인자로 사용하여 add 메소드를 호출하고 반환된 값을 result에 저장합니다.
+  - System.out.println(result);를 사용하여 결과를 출력합니다.
 
 # 6. 제어문:
 
 # - 'If-Else' 문:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자바에서는 if-else 문을 사용하여 의사 결정을 내릴 수 있으며, 조건에 따라 특정 코드 블록을 실행할 수 있습니다. 조건이 참 또는 거짓인지를 평가하여 프로그램의 흐름을 제어하는 데 도움이 됩니다. if-else 문이 어떻게 작동하는지 살펴보고 사용 예시를 제공해보겠습니다.
 
 구문:
 
-
 if (condition) {
-    // 조건이 참일 때 실행되는 코드 블록
+// 조건이 참일 때 실행되는 코드 블록
 } else {
-    // 조건이 거짓일 때 실행되는 코드 블록
+// 조건이 거짓일 때 실행되는 코드 블록
 }
-
 
 프로그램:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 if (myNumber > 5) {
- console.log("5보다 큽니다");
+  console.log("5보다 큽니다");
 } else {
- console.log("5 이하입니다.");
+  console.log("5 이하입니다.");
 }
 ```
 
@@ -181,7 +263,18 @@ if (myNumber > 5) {
 
 구문:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 condition1이 참이면 '
 // condition1이 참일 때 실행할 코드 블록
@@ -214,22 +307,44 @@ if (score >= 90) {
 
 # -중첩 If 문:`
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자바에서 중첩된 if 문을 사용하면 한 if 문을 다른 if 문 안에 배치할 수 있습니다. 이것은 여러 조건을 순차적으로 확인해야 할 때 유용하며, 각 조건이 이전 조건에 종속된 경우에 사용됩니다. 중첩된 if 문이 어떻게 작동하는지 살펴보고, 사용 예시를 제공해보겠습니다.
 
 구문:
 
 if (outerCondition) {
-    // 바깥 블록 코드
-    if (innerCondition) {
-        // 안쪽 블록 코드
-    }
+// 바깥 블록 코드
+if (innerCondition) {
+// 안쪽 블록 코드
+}
 }
 
 프로그램:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 public class NestedIfExample {
@@ -255,8 +370,18 @@ public class NestedIfExample {
 
 ![이미지 2](/assets/img/2024-07-09-KickstartYourCodingJourneyJavaBasicsExplained_2.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론 :
 

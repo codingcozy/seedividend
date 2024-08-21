@@ -3,17 +3,13 @@ title: "팬더스를 포함한 다양한 라이브러리에서 Case-When 다시 
 description: ""
 coverImage: "/assets/img/2024-06-19-LetsRevisitCase-WheninDifferentLibrariesIncludingtheNewPlayerPandas_0.png"
 date: 2024-06-19 23:17
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-19-LetsRevisitCase-WheninDifferentLibrariesIncludingtheNewPlayerPandas_0.png
 tag: Tech
 originalTitle: "Let’s Revisit Case-When in Different Libraries Including the New Player: Pandas"
 link: "https://medium.com/towards-data-science/lets-revisit-case-when-in-different-libraries-including-the-new-player-pandas-8c4febb979ba"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-06-19-LetsRevisitCase-WheninDifferentLibrariesIncludingtheNewPlayerPandas_0.png)
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 그런데, Pandas로 조건부 열을 만드는 것은 가능했지만, 전용 case-when 함수는 없었습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 판다 2.2.0에서 case_when 함수가 도입되어 한 개 이상의 조건에 기반한 Series 객체를 생성할 수 있습니다.
 
@@ -34,7 +40,18 @@ isUpdated: true
 
 ## SQL
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 'mytable'이라는 작은 SQL 테이블입니다.
 
@@ -56,15 +73,26 @@ isUpdated: true
 - a 열이 b 열보다 작으면 a 열과 c 열의 곱이 사용됩니다.
 - 그렇지 않은 경우 (즉, a 열이 b 열과 같은 경우), a 열과 b 열의 합이 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 필요에 따라 여러 조건을 만들고, 그것들을 훨씬 복잡하게 만들 수 있지만, 이 세 가지 조건은 논리를 배울 때 충분합니다.
 
 새 열을 "d" 라고 부르고, 위 두 조건에 기반한 이 열을 생성하기 위한 SQL 코드는 다음과 같습니다:
 
 ```js
-select 
-  (case 
+select
+  (case
      when a > b then a
      when a < b then a * c
      else a + b end
@@ -74,14 +102,25 @@ from mytable
 
 이 SQL 코드는 "mytable"에서 열 d만 생성하고 선택합니다. 열 a, b, c를 함께 반환하도록 필요하다면, select 문에 해당 열을 작성해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-select 
+select
   a,
   b,
   c,
-  (case 
+  (case
      when a > b then a
      when a < b then a * c
      else a + b end
@@ -95,14 +134,21 @@ from mytable
 
 이제 이 패키지를 사용하여 조건부 열 d를 생성하는 방법을 배워보겠습니다. 먼저 SQL 테이블과 동일한 열을 포함하는 데이터 테이블을 만들어봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-mytable <- data.table(
-      a=c(0, 1, 5, 4, 4, 10, 4), 
-      b=c(5, -1, 20, 8, 4, 7, 2), 
-      c=c(1, 0, 0, 1, 1, 0, 1)
-)
+mytable < -data.table((a = c(0, 1, 5, 4, 4, 10, 4)), (b = c(5, -1, 20, 8, 4, 7, 2)), (c = c(1, 0, 0, 1, 1, 0, 1)));
 ```
 
 데이터 테이블에서 조건에 맞는 경우 fcase 함수를 사용하여 구현할 수 있습니다. 조건을 작성하고 해당하는 값들을 쉼표로 구분하여 입력할 수 있습니다.
@@ -113,9 +159,20 @@ mytable <- data.table(
 mytable[, d := (fcase(a > b, a, a < b, a*c, a==b, a+b))]
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-fcase 함수 내부의 첫 번째 표현식(a ` b)은 첫 번째 조건이며, 두 번째 표현식(a)은 해당 값을 나타냅니다. 세 번째 표현식(a ` b)은 두 번째 조건이며, 네 번째 표현식(a*c)은 해당 값을 의미합니다. 그리고 이어서 계속됩니다.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+fcase 함수 내부의 첫 번째 표현식(a `b)은 첫 번째 조건이며, 두 번째 표현식(a)은 해당 값을 나타냅니다. 세 번째 표현식(a` b)은 두 번째 조건이며, 네 번째 표현식(a\*c)은 해당 값을 의미합니다. 그리고 이어서 계속됩니다.
 
 이제 데이터 테이블 "mytable"은 다음과 같습니다:
 
@@ -132,7 +189,18 @@ fcase 함수 내부의 첫 번째 표현식(a ` b)은 첫 번째 조건이며, �
 
 ## PySpark
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파이스파크는 대규모 데이터 처리에 사용되는 분석 엔진인 Spark를 위한 Python API입니다. 수십억 개의 행을 가진 데이터셋 작업에는 보통 Spark가 선호되는 도구입니다.
 
@@ -158,7 +226,18 @@ mytable = spark.createDataFrame(data)
 
 우리는 먼저 spark 세션을 시작하고 그 후에 DataFrame을 만들었습니다. Databricks와 같은 개발 환경에서 작업하는 경우에는 명시적으로 spark 세션을 생성할 필요가 없다는 점에 유의하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 withColumn 함수를 사용하여 새 열을 생성하고 여러 조건에 따라 값을 결정하기 위해 when 함수를 사용할 수 있습니다.
 
@@ -190,7 +269,18 @@ mytable.show()
 
 ## 판다스
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 팬더스는 데이터 분석 및 조작 작업 중 가장 자주 사용되는 도구일 수 있습니다. 버전 2.2.0 이전에는 팬더스에 case_when 함수가 없었습니다. 그러나 다른 함수들을 사용하여 작업을 처리할 수 있었습니다. 예를 들어, 팬더스의 where 함수나 NumPy의 where 및 select 함수를 사용할 수 있었습니다. 그러나 지금은 팬더스에 case_when 함수가 있으니 다른 도구들로 작업하던 것을 이 함수를 사용하여 보겠습니다.
 
@@ -210,7 +300,18 @@ mytable = pd.DataFrame(
 
 case_when 함수는 조건 및 해당 값을 튜플로 포함하는 케이스 리스트를 인수로 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 caselist = [
@@ -257,7 +358,18 @@ mytable
 6   4  2  1  4
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4번 행의 값들을 확인해 보세요. 열 d의 값은 열 a의 값과 같습니다.
 
@@ -267,6 +379,17 @@ mytable
 
 이 글에서는 SQL, PySpark, R 데이터 테이블 및 Pandas를 사용하여 조건부 열을 생성하는 방법에 대해 배웠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 읽어 주셔서 감사합니다. 피드백이 있으시면 언제든 알려주세요!

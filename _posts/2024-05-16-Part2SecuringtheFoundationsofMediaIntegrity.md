@@ -3,16 +3,13 @@ title: "2부 미디어 무결성 기반 보호하기"
 description: ""
 coverImage: "/assets/img/2024-05-16-Part2SecuringtheFoundationsofMediaIntegrity_0.png"
 date: 2024-05-16 17:45
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-16-Part2SecuringtheFoundationsofMediaIntegrity_0.png
 tag: Tech
 originalTitle: "Part 2: Securing the Foundations of Media Integrity"
 link: "https://medium.com/@soltrinox/securing-the-foundations-of-media-integrity-1092a1cb544a"
 isUpdated: true
 ---
-
-
-
 
 ![이미지](/assets/img/2024-05-16-Part2SecuringtheFoundationsofMediaIntegrity_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 미군은 종종 적에 대비해 응답 속도가 늦어지는 것에 대해 걱정을 표명했습니다. 이에 대응하기 위해 군은 방어작전에 대한 미디어 접근을 제공하는 정책을 시행했습니다. 군사 부대에 기자를 배치하는 것은 주로 작전 보안을 보호하면서 뉴스의 적시성과 상세 설명을 크게 희생시키지 않도록 하는 것을 목표로 합니다. 이에 대해 언론 조작 가능성에 대한 비판이 있지만, 이것은 주로 작전 보안을 보호하는 데 목적이 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 많은 접근 및 투명한 정보 공유는 언론이 더 많은 정보와 포괄적인 보도를 생산할 수 있도록 돕습니다. 그러나 뉴스 산업은 수익 창출을 위한 노력과 감소하는 수익과 광고 베이스로 인한 압력 등, 이러한 최선의 실천 방안을 방해할 수 있는 압력에 직면합니다. 뉴스 수집 자원의 중대한 감소와 경험이 적은 계약 직원에 대한 의존도 증가는 추가적인 도전을 제기합니다. 더불어 미디어 플랫폼들의 증가로 지속적인 콘텐츠 업데이트가 요구되는데, 이는 종종 덜 비용이 드는 코멘터리로 채워지며 정보의 품질과 정확성을 희석시킬 수 있습니다.
 
@@ -30,7 +38,18 @@ isUpdated: true
 
 ![The Security of Our Minds](/assets/img/2024-05-16-Part2SecuringtheFoundationsofMediaIntegrity_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인간의 정신을 교란하는 숨겨진 영향으로부터 방어하기 위한 여정에서, 우리의 집단 책임은 단순한 경계를 초월하여 깊은 이해를 필요로 합니다; 진실과 거짓이 우리의 사고의 전장을 어떻게 형성하는지를 깊이 파악해야 합니다. 미디어의 무결성은 정보 보안의 중추일 뿐만 아니라 정신적 자율성의 수호자가 되는 것입니다. 사회적 상호작용 속에서, 미디어는 대중 담론의 풍경을 형성하는 통로로서 존재합니다. 이 흐름이 오보와 프로파간다의 오염물질로 오염된다면, 인간 인식의 본질 자체가 훼손됩니다.
 
@@ -40,7 +59,18 @@ isUpdated: true
 
 이것으로서 뉴스 이야기의 권을 그 중요한 방패로 드러납니다. 정보의 성질을 보호하고, 그로부터 확장된 인간 정신의 자율성을 보호하는 수단으로 나타납니다. 미디어의 신뢰성을 보장하기 위해 암호화와 견고한 사이버 보안 조치가 배치되는 데에는 쌍둥이 목적이 있습니다. 먼저, 정보의 부패를 막는 방어선으로 작용하여 뉴스의 원본과 무결성이 창조부터 소비까지 보존되도록 합니다. 둘째, 참된 것을 접근하고 검증할 수 있는 환경을 육성하여 개인을 에워싸는 정보 영역을 견고하게 하여 진실이 접근 가능하고 확인 가능한 환경이 유지되도록 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 미디어 소스의 신뢰성은 기술적 보호를 통해 확보되며, 이는 개인들이 진실을 추출할 수 있는 기반을 제공합니다. 이 진실은 다시 말해, 잘 통찰하고 판단력 있는 결정을 내릴 수 있는 기초가 되며, 시민들이 건강하고 지속 가능한 사회를 유지하고 육성하는 길을 선택할 수 있게 합니다. 미디어의 역할은 정보를 제공하는 데 그치는 것이 아니라, 인간 발전의 드라마에서 핵심적인 주역이 되어 현실의 관리자이자 대중의 지성을 지키는 역할을 합니다.
 
@@ -50,7 +80,18 @@ isUpdated: true
 
 - 미디어 출처의 중요성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 뉴스의 출처와 신뢰성은 그저 운영 상세사항에 그치는 것이 아니라, 언론이 사회에서 발하는 역할에 있어 중요한 요소입니다. 이는 언론이 공익의 수호자로서, 권력에 대항하는 감시자로서, 진실을 추구하는 신뢰할 만한 횃불로서의 역할을 수행할 수 있도록 보장합니다. 이에 따라 뉴스 보도의 출처와 신뢰성을 강화하기 위한 노력은 정보 제공, 공정성, 민주적 사회 형성에 있어서 언론의 영향력과 효과를 유지하는 데 중요합니다. 뉴스 보도에서의 출처와 신뢰성의 중요성은 널리 강조되어야 합니다. 특히 오늘날의 디지털 시대에는 정보가 신속하게 생성되고 수정되며 세계적으로 퍼져나가는 환경에서 그 중요성이 더욱 커집니다. 뉴스 기사에 대한 명확하고 검증 가능한 가계보를 수립하는 것은 여러 가지 핵심적인 이유로 필수적입니다:
 
@@ -60,7 +101,18 @@ isUpdated: true
 
 2. 정보화된 시민 유도
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 정보에 정통한 대중은 기능하는 민주주의의 기반이 됩니다. 시민들은 정확하고 진실한 보도에 의존하여 행정, 정책 및 지역 사회 참여에 대한 결정을 내립니다. 뉴스의 출처가 명확하고 검증 가능하면 이를 통해 이러한 결정에 사용되는 정보가 정확함이 보장되어 시민이 현실에 기반한 시민 생활에 참여할 수 있도록 지원됩니다.
 
@@ -70,7 +122,18 @@ isUpdated: true
 
 4. 저널리즘의 정직한 유지
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저널리즘적 신뢰도는 정확성, 공정성 및 중립성을 준수하는 윤리적 기준에 의지합니다. Provenance는 정보 원본으로의 추적 가능한 경로를 제공함으로써 이러한 원칙을 지원하며, 저널리즘이 매력적인 이야기 전달 도구뿐만 아니라 신뢰할 수 있고 윤리적인 공중정보 제공자가 되도록 보장합니다.
 
@@ -80,19 +143,39 @@ isUpdated: true
 
 6. 책임과 투명성 지원
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 정보의 원본이 명확히 문서화되고 접근할 수 있는 경우, 이는 언론과 그 대상에 대한 책임을 지지합니다. 이 투명성은 공개 인물과 기관이 행동에 대해 책임을 져야 함을 보장하며, 그들의 발언과 정보가 검증된 사실과 출처와 대조될 수 있도록 돕습니다.
 
 미디어와 뉴스에서 제공되는 오리진, 신뢰성, 그리고 정보의 정직성을 보장하는 핵심적인 수용 — 현대 언론과 정보 전파 아키텍처의 기반적인 기둥으로 기능합니다. 현실의 질서가 디지털 조작과 거짓된 이야기를 통해 왜곡될 수 있는 시대에, 뉴스 기사에 대한 검증 가능한 계보를 수립하는 것은 공중의 신뢰와 정보화된 시민성을 유지하는 데 중요합니다. 미디어에서의 오리진 보증은 흥미로운 내용을 그 소스와 맥락에 고정시키는 진리의 수호자 역할을 효과적으로 합니다. 각 뉴스 항목의 기원과 발전을 추적할 수 있는 강력한 메커니즘을 내장함으로써 소비자들은 신뢰성을 확인할 도구를 갖출 수 있습니다. 이것은 미술이나 고고학의 출처 프로토콜과 유사하여, 유물의 기원과 역사가 그 평가된 가치와 정토성에 중요한 역할을 합니다.
 
-
 ![Part2SecuringtheFoundationsofMediaIntegrity_3](/assets/img/2024-05-16-Part2SecuringtheFoundationsofMediaIntegrity_3.png)
-
 
 블록체인과 디지털 워터마킹과 같은 기술들은 이 분야에서 중추적인 역할을 할 수 있습니다. 블록체인은 변경할 수 없는 장부 능력을 이용하여 뉴스 아이템의 수명주기를 기록하는 방법을 제공합니다. 각 단계는 타임 스탬프가 찍히고 생성자에게 연결될 수 있어, 어떤 수정 또는 추가 사항이 투명하고 책임 있게 할 수 있습니다. 반면 디지털 워터마킹은 디지털 콘텐츠에 직접 정보를 삽입하여 생성자의 신원과 콘텐츠의 정직성을 확인할 수 있게 하여, 어떤 조작이 감지될 수 있도록 합니다. 이러한 워터마크는 이동하는 콘텐츠와 함께 유지되어, 기원지로의 지속적이고 눈에 띄지 않는 연결을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 제안된 실제 실현 가능성에는 몇 가지 난관이 있을 수 있지만, 섭왜성을 보장하기 위한 이 이론적인 프레임워크는 진보적으로 보일 수도 있습니다. 첫째로, 기존 미디어 생산 및 배포 워크플로우에 이러한 시스템을 통합하는 기술적인 어려움이 있습니다. 이를 해결하면서 언론에게 중요한 속도와 효율을 해치지 않아야 합니다. 둘째로, 언론사, 기자, 그리고 궁극적으로 대중이 받아들이고 채택해야 하는 보다 넓은 문제가 있습니다. 궁극적으로 성공적으로 기능하기 위해서는 섭왜성 시스템이 산업 내에서 일반적으로 받아들여지고 신뢰돼야 합니다.
 
@@ -102,7 +185,18 @@ isUpdated: true
 
 미디어와 뉴스에서 섭왜성을 실현하는 것은 기술적인 문제뿐만 아니라 건강한 사회를 위한 필수 문화적 요구입니다. 점점 복잡해지는 정보의 풍경을 고려할 때, 뉴스의 근원 및 진위를 확인하는 능력은 부가적인 기능에 그치는 것이 아닌 자유롭고 정보화되고 민주적인 사회를 지키기 위한 필수 조건입니다. 궁극적으로, 미디어에서의 섭왜성 채택은 정보가 얼마나 가치 있고 신뢰되는지에 대한 철학적 전환이 요구됩니다. 이는 정보 소비가 함께 중요한 것이라는 콘텐츠 자체와 동등한 중요도를 갖게 하여, 보다 미래를 밝게 하는 공개적인 대화를 이끌 수 있습니다. 공개적인 대화는 진실과 투명성에 대한 공유된 약속을 바탕으로 한 더 현명한 공공 토론으로 이어질 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Part 1: 매체에서의 진실
 

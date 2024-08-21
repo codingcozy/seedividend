@@ -3,16 +3,13 @@ title: "플러터에서 사용자 정의 테마 만들기"
 description: ""
 coverImage: "/assets/img/2024-05-16-CreatingCustomThemeinFlutter_0.png"
 date: 2024-05-16 16:44
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-16-CreatingCustomThemeinFlutter_0.png
 tag: Tech
 originalTitle: "Creating Custom Theme in Flutter"
 link: "https://medium.com/@kth4dev/creating-custom-themes-in-flutter-f9dbced59124"
 isUpdated: true
 ---
-
-
-
 
 플러터에서 테마는 애플리케이션의 시각적 디자인을 정의하는 강력한 도구입니다. 플러터는 기본적인 머티리얼 디자인 테마를 제공하지만, 디자이너가 머티리얼 테마의 규칙을 따르는 대신 커스텀 이름을 사용하는 경우가 있습니다. 이 기사에서는 플러터에서 이러한 사용자 정의 이름을 수용하는 사용자 정의 테마를 만드는 방법을 살펴보겠습니다.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 ![Creating Custom Theme in Flutter](/assets/img/2024-05-16-CreatingCustomThemeinFlutter_0.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 텍스트 테마 사용자 정의
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 ## 사용자 정의 테마 구현하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신이 원하는 커스텀 색상 Scheme 및 텍스트 테마를 사용하기 위해 Flutter 앱에서는 이러한 속성을 캡슐화하는 사용자 정의 테마 데이터 클래스를 정의할 수 있습니다:
 
@@ -42,7 +61,18 @@ isUpdated: true
 
 커스텀 색상 Scheme 및 텍스트 테마를 정의한 후에는 앱 전반에 걸쳐 사용할 커스텀 테마 데이터의 인스턴스를 만들 수 있습니다. 예를 들어, 이렇게 밝은 테마와 어두운 테마를 정의할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-05-16-CreatingCustomThemeinFlutter_3.png)
 

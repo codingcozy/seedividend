@@ -3,17 +3,13 @@ title: "vscode에디터가 지겹다면 써봐야할 Zed IDE"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Reviewing Zed An IDE of the Future"
 link: "https://blog.stackademic.com/reviewing-zed-the-ide-of-the-future-305d681d990c"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/Reviewing-Zed:-An-IDE-of-the-Future_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 작성 시점에서 Zed는 완전히 개발된 IDE가 아닙니다. 아직 베타 버전이며, 이 기사는 이 단계에서 제공하는 것에 대한 초기 미리보기입니다. 현실적으로는 현재 사용 중인 VSCode 또는 다른 IDE에 충실해야 할 것입니다. 에디터의 속도를 정말 중요하게 생각하지 않는 한요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 간단히
 
@@ -33,7 +40,18 @@ Zed는 Sublime Text보다 빠르며 강력한 기능을 기본 제공하는 새�
 
 # #0: 현재 문제
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 VSCode는 현재 프로그래밍 여정을 시작하려는 누구에게나 가장 적합한 편집기입니다. 현재 가장 인기 있는 통합 개발 환경(IDE)입니다. 현대적이고 우아하며 기능이 풍부하며 강력합니다. HTML, CSS 및 JavaScript로 완전히 작성되어 대부분의 개발자에게 접근하기 쉽게 확장할 수 있으며 이미 다수의 확장 기능이 있어 행동을 수정하거나 테마를 변경하거나 무수히 많은 언어 및 프레임워크를 지원하도록 확장할 수 있습니다.
 
@@ -43,7 +61,18 @@ VSCode는 거의 완벽하지만 중요한 문제가 있습니다: 속도가 느
 
 VSCode의 성능 문제는 새로운, 더 빠르고 메모리 사용량이 적은 대안의 개발로 이어졌습니다. 최근 인기를 얻은 경쟁 옵션 중 하나는 Zed입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # #1: 새로운 IDE
 
@@ -53,7 +82,18 @@ Zed은 Atom과 Tree-sitter의 창시자들이 개발한 것으로, VSCode의 위
 
 ## 놀라운 속도
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제드는 이 벤치마크에서 보듯이 서브라임 텍스트와 같은 경량 편집기보다 우수한 성능을 발휘할 수 있으며, VSCode보다 거의 2배 빠르게 작동합니다:
 
@@ -64,7 +104,18 @@ Zed은 Atom과 Tree-sitter의 창시자들이 개발한 것으로, VSCode의 위
 - 제드는 러스트로 개발되어 GPU의 성능을 활용하는 GPUI 라는 새로 개발된 프레임워크를 사용하여 뛰어난 속도와 안정성을 구현합니다.
 - 제드를 효율적으로 만드는 또 다른 기능은 다중 코어 및 멀티스레딩을 활용하는 능력입니다. 이는 이전에 썼던 이 글에서 Conflict-Free Replicated Data Types 또는 CRDTs를 사용함으로써 달성됩니다. 관련 내용은 링크에서 자세히 읽어볼 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 원활한 협업
 
@@ -74,7 +125,18 @@ Zed가 빛을 발하는 또 다른 기능은 강력한 협업 도구입니다. Z
 
 Zed에는 GitHub Copilot을 지원하는 내장 기능뿐만 아니라, ChatGPT-3.5 또는 GPT-4와 통합된 어시스턴트도 포함되어 있어 여러 줄의 코드를 순식간에 작성하고 리팩터링할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 상자 안의 내용
 
@@ -88,7 +150,18 @@ Zed의 몇 가지 추가적인 멋진 기능들은 다음과 같습니다:
 
 이것이 Zed가 제공하는 모든 기능은 아닙니다. 더 많은 기능들은 그들의 웹사이트에서 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단점
 
@@ -102,7 +175,18 @@ Zed의 몇 가지 추가적인 멋진 기능들은 다음과 같습니다:
 
 지금 Zed가 가지고 있는 이러한 문제들은 일반적으로 베타 제품에는 있을 수 있는 것이라고 할 수 있습니다. 희망차 너무나도 많이 이 문제들이 1.0이 되기 전에 모두 해결될 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # #2: 사진
 
@@ -112,7 +196,18 @@ Zed의 몇 가지 추가적인 멋진 기능들은 다음과 같습니다:
 
 ![이미지2](/assets/img/Reviewing-Zed:-An-IDE-of-the-Future_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Reviewing-Zed:-An-IDE-of-the-Future_4](/assets/img/Reviewing-Zed:-An-IDE-of-the-Future_4.png)
 
@@ -122,7 +217,18 @@ Zed의 몇 가지 추가적인 멋진 기능들은 다음과 같습니다:
 
 ![Reviewing-Zed:-An-IDE-of-the-Future_7](/assets/img/Reviewing-Zed:-An-IDE-of-the-Future_7.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/Reviewing-Zed:-An-IDE-of-the-Future_8.png" />
 
@@ -132,4 +238,15 @@ Zed는 성능, 기능 및 강력함에서 독특한 IDE이며 베타 버전이�
 
 # Stackademic
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

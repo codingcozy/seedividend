@@ -3,17 +3,13 @@ title: "ReactJs, GraphQL API, Nestjs, TypeORM을 사용하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Using ReactJs, GraphQL API, Nestjs , TypeORM"
 link: "https://medium.com/@gangwanijayant737/using-reactjs-graphql-api-nestjs-typeorm-16548c050440"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/Using-ReactJs-GraphQL-API-Nestjs-TypeORM_0.png" />
 
@@ -32,7 +28,18 @@ const apolloGraphQLClient = new ApolloClient({
 export default apolloGraphQLClient;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 app.js 파일이나 부모 구성 요소를 apollo client로 래핑해보세요.
 
@@ -81,7 +88,18 @@ export const CREATE_WORKSPACE = gql`
 `;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신의 workspace.js에서는 이 gql에서 데이터를 가져올 것입니다.
 
@@ -130,7 +148,18 @@ export const createWorkspace = () => async () => {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React 부분 코드는 끝났어요. 이제 nestjs 로 넘어가 볼게요.
 
@@ -140,7 +169,18 @@ Postgres 데이터베이스가 있지만 TypeORM을 통해 데이터를 가져�
 
 workspace.dto.ts - 이 파일은 워크스페이스를 만들 때 사용할 거에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { ObjectType, Field, InputType } from "@nestjs/graphql";
@@ -212,7 +252,18 @@ export class WorkspaceResponseDto {
 
 workspace.entity.ts에 대한 TypeORM 및 postgres DB
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { Entity, PrimaryGeneratedColumn, Column, PrimaryColumn } from "typeorm";
@@ -283,7 +334,18 @@ export class WorkspaceService {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 workspace.resolver.ts
 
@@ -336,7 +398,18 @@ import { workspaces } from "./workspace.entity";
 export class WorkspaceModule {}
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 마지막으로, TypeORM에서 데이터베이스를 등록하고 NestJS의 메인 모듈인 앱에서 이 워크스페이스 모듈을 가져옵니다.
 
@@ -372,4 +445,15 @@ export class AppModule implements NestModule {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

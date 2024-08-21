@@ -3,17 +3,13 @@ title: "내가 자바스크립트 프론트엔드 프레임워크를 만들며 �
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How Making My Own Javascript Fronted Framework Moved Me Ahead"
 link: "https://medium.com/@ori.holis/how-making-my-own-javascript-fronted-framework-moved-me-ahead-be7872eaeb4e"
 isUpdated: true
 ---
-
-
-
-
 
 ![HowMakingMyOwnJavascriptFrontedFrameworkMovedMeAhead_0.png](/assets/img/HowMakingMyOwnJavascriptFrontedFrameworkMovedMeAhead_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 자체 프레임워크를 만드는 것은 쉬운 작업은 아니에요. DOM과 JavaScript 자체에 대해 많은 지식이 필요하죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서 나는 동료의 프레임워크에서 영감을 얻어 작업을 조금 단순화하기로 결정했어. 이것이 어디서부터 시작해야 할지 결정하는 데 도움이 되었어.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 나에게 가장 중요한 것은 새로운 컴포넌트를 쉽게 작성하고 속도였어. 개발 과정에서 더욱 중요해졌어. 어느 순간부터 나는 그것에 광적이 되었어.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 첫 번째로, 내 프레임워크에 포함시키고 싶은 기능 목록을 작성했습니다.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 ![이미지](/assets/img/HowMakingMyOwnJavascriptFrontedFrameworkMovedMeAhead_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 코딩 시작
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 이때 새로운 생각이 떠올랐어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 코드를 살펴보니 다른 요소들처럼 간단하게 렌더링할 수 있도록 프레임워크를 수정하는 것이 꽤 쉽다고 생각했어요. 하지만 크게 오산이었네요.
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 SVG 렌더링을 위한 확장 기능을 개발한 후 내 프레임워크를 사용해 첫 번째 구성 요소를 작성했지만, 아무 일도 일어나지 않았어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 응, 맞아. 아무 일도 일어나지 않았어.
 
@@ -73,7 +124,18 @@ SVG 렌더링을 위한 확장 기능을 개발한 후 내 프레임워크를 �
 
 ![이미지](/assets/img/HowMakingMyOwnJavascriptFrontedFrameworkMovedMeAhead_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코드를 확인한 후에 몇 가지 실수를 발견했어요. 몇 시간 동안 그것들을 고쳤고, 이제 시도할 준비가 되어 있어요.
 
@@ -83,7 +145,18 @@ SVG 렌더링을 위한 확장 기능을 개발한 후 내 프레임워크를 �
 
 프레임워크를 만드는 것은 복잡한 작업이기 때문에, 고수준의 생각을 하게 되는 계기가 되죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신은 모든 것인 호환성, 속도, 확장성에 대해 고려해야 합니다. 그리고 이를 개발 과정 전반에 걸쳐 염두에 두어야 합니다.
 
@@ -93,4 +166,15 @@ SVG 렌더링을 위한 확장 기능을 개발한 후 내 프레임워크를 �
 
 도전에 참여할 준비가 되셨나요? 도전해 보는 것을 닆을 장려합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

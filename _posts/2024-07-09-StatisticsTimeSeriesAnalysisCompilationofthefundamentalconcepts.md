@@ -3,15 +3,13 @@ title: "통계학 시계열 분석  기본 개념 총정리"
 description: ""
 coverImage: "/assets/img/2024-07-09-StatisticsTimeSeriesAnalysisCompilationofthefundamentalconcepts_0.png"
 date: 2024-07-09 18:59
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-StatisticsTimeSeriesAnalysisCompilationofthefundamentalconcepts_0.png
 tag: Tech
 originalTitle: "Statistics: Time Series Analysis — Compilation of the fundamental concepts"
 link: "https://medium.com/intuition/statistics-time-series-analysis-compilation-of-the-fundamental-concepts-7c3799953a0b"
 isUpdated: true
 ---
-
-
 
 ## 통계 및 수학
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 요즘 시험을 위해 기본적인 통계적 시계열 분석에 대해 공부하고 있어요 [1]. 하지만 무서운 수학 공식들 때문에 머리에 남지 않는다구요. 그래서 자기상관, 자기상관성, 정상성 및 시계열 프로세스와 같은 기본적인 개념들을 시각화를 통해 정리하기로 했어요. 이 블로그에서는 시각화를 통해 이러한 개념을 가능한 한 자세히 설명하고 파이썬으로 구현해 볼 거에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 목차
 
@@ -31,7 +40,18 @@ isUpdated: true
   - 2.1 백색 소음(white noise)
   - 2.2 자기회귀(AR) 과정
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 2.3 이동평균(MA) 프로세스
 
@@ -41,7 +61,18 @@ isUpdated: true
 
 - 3.1 증가된 디키-퓰러(ADF) 검정
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 -3.2 더빈-왓슨 검정
 
@@ -51,7 +82,18 @@ isUpdated: true
 
 ![image alt text](/assets/img/2024-07-09-StatisticsTimeSeriesAnalysisCompilationofthefundamentalconcepts_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 Xₜ를 랜덤 변수로 간주한다면, 관측 시점 t에 따라 평균과 분산을 정의할 수 있습니다.
 
@@ -61,7 +103,18 @@ isUpdated: true
 
 자기공분산
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기술적으로 자기공분산은 공분산과 같습니다. 공분산은 다음과 같은 공식을 갖습니다:
 
@@ -71,7 +124,18 @@ isUpdated: true
 
 ![Autocovariance Formula](/assets/img/2024-07-09-StatisticsTimeSeriesAnalysisCompilationofthefundamentalconcepts_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 헤이지는 래그로 불리며, 래그된 X는 h만큼 이동된 직전 X 값입니다. 공분산과 동일한 수식을 가지고 있는 것을 볼 수 있습니다.
 
@@ -81,7 +145,18 @@ isUpdated: true
 
 <img src="/assets/img/2024-07-09-StatisticsTimeSeriesAnalysisCompilationofthefundamentalconcepts_5.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 상관관계는 변수 X와 Y의 표준 편차로 공분산을 나누어 계산됩니다. 상관관계는 정규화된 공분산과 유사하게 생각할 수 있습니다. 자기 상관관계의 경우, 이전 및 현재 관측치 사이의 상관관계를 계산합니다. 여기서 h는 이 공식에서의 지연을 나타냅니다.
 
@@ -91,7 +166,18 @@ isUpdated: true
 
 첫 번째 예제에서는 AR(1) 과정에서 데이터를 생성했습니다(나중에 자세히 살펴보겠습니다). 이는 잡음이 섞인 데이터처럼 보입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 표는 Markdown 형식으로 변경되었습니다.
 
@@ -103,7 +189,18 @@ isUpdated: true
 
 자기상관 및 자기상관도가 비슷한 경향을 보입니다. 따라서, 자기상관은 정규화된 자기상관으로 볼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 예제에서는 AirPassengers [4]와 같은 실제 데이터를 사용할 것입니다. AirPassengers 데이터는 명확한 상승 경향을 보입니다.
 
@@ -113,7 +210,18 @@ isUpdated: true
 
 ![Autocovariance and Autocorrelation](/assets/img/2024-07-09-StatisticsTimeSeriesAnalysisCompilationofthefundamentalconcepts_10.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비슷하게, 자기 공분산과 자기 상관은 비슷한 경향을 가집니다. 이 데이터는 첫 번째 예제보다 더 많은 상관관계와 더 큰 지연을 가지고 있습니다.
 
@@ -124,7 +232,18 @@ isUpdated: true
 
 정의를 확인해 봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1. 약한 정상성(2차 정상성)
 
@@ -134,7 +253,18 @@ isUpdated: true
 
 여기서 µ는 상수이고 𝛾ₜ는 𝛕에 의존하지 않습니다. 이러한 공식들은 평균과 분산이 시간에 따라 안정적이며, 공분산은 시간 지연에 의해 결정된다는 것을 보여줍니다. 예를 들어, 이전 단락의 첫 번째 예제는 약한 정상성을 갖습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 엄격한 정상성(강한 정상성)
 
@@ -144,7 +274,18 @@ Fx(・)로 결합 밀도 함수를 나타낼 때, 엄격한 정상성은 다음�
 
 모든 시계열 데이터의 결합 분포가 시간 변화에 대해 불변일 때, 해당 시계열은 엄격한 정상성을 갖습니다. 엄격한 정상성은 약한 정상성을 함축합니다. 이 특성은 현실 세계에서 매우 제한적입니다. 따라서 많은 응용 프로그램은 약한 정상성에 의존합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시계열 데이터가 정상인지 확인하는 몇 가지 통계적 검정 방법이 있습니다. 2장에서 대표적인 시계열 프로세스를 배우면 보다 이해하기 쉬울 것입니다. 그래서 이를 3장에서 소개하겠습니다.
 
@@ -154,7 +295,18 @@ Fx(・)로 결합 밀도 함수를 나타낼 때, 엄격한 정상성은 다음�
 
 ## 2.1 흰 잡음
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시계열 데이터가 다음 특성을 가질 때 해당 시계열 데이터는 화이트 노이즈를 가지고 있습니다.
 
@@ -164,11 +316,33 @@ Fx(・)로 결합 밀도 함수를 나타낼 때, 엄격한 정상성은 다음�
 
 ![화이트 노이즈 플롯](/assets/img/2024-07-09-StatisticsTimeSeriesAnalysisCompilationofthefundamentalconcepts_14.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 표 태그를 Markdown 형식으로 변환할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Uₜ이 백색 잡음이라고 가정하며, 𝜙은 한 단계 이전 값에 해당하는 알려지지 않은 매개변수입니다. Uₜ는 충격(shock)이라고도 불립니다. 과거 단계로 수식 (1)을 해결할 때 아래의 공식을 얻을 수 있습니다.
 
@@ -180,7 +354,18 @@ Uₜ이 백색 잡음이라고 가정하며, 𝜙은 한 단계 이전 값에 �
 - 만약 |𝜙₁| = 1이면, 과거 값의 영향은 시차(Lags)에 관계없이 일정합니다.
 - 만약 |𝜙₁| ` 1이면, 과거 값의 영향이 단계가 지남에 따라 현재 값에 영향을 줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각 케이스의 시각화를 확인해 봅시다.
 
@@ -190,7 +375,18 @@ Uₜ이 백색 잡음이라고 가정하며, 𝜙은 한 단계 이전 값에 �
 
 |𝜙₁| ` 1인 경우 약간의 정상 프로세스가 있습니다. AR(1) 프로세스가 약한 정상성을 만족할 때 평균과 공분산은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![그림](/assets/img/2024-07-09-StatisticsTimeSeriesAnalysisCompilationofthefundamentalconcepts_18.png)
 
@@ -200,7 +396,18 @@ Uₜ이 백색 잡음이라고 가정하며, 𝜙은 한 단계 이전 값에 �
 
 공분산에 대해서는 먼저 공식 (1)을 변경해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image 1](/assets/img/2024-07-09-StatisticsTimeSeriesAnalysisCompilationofthefundamentalconcepts_20.png)
 
@@ -210,7 +417,18 @@ Then, we need to derive the variance and the covariance in this order. For the v
 
 For the covariance, we can derive it by multiplying the subtraction of the previous step value and the mean.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-09-StatisticsTimeSeriesAnalysisCompilationofthefundamentalconcepts_22.png" />
 
@@ -220,7 +438,18 @@ AR(p) process를 비슷하게 고려할 수 있습니다.
 
 보통, AR(p) 과정은 다음 조건(5)(6)을 만족할 때 약정상태(weak-stationary)가 될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-09-StatisticsTimeSeriesAnalysisCompilationofthefundamentalconcepts_24.png)
 
@@ -230,7 +459,18 @@ AR(p) process를 비슷하게 고려할 수 있습니다.
 
 이동 평균(MA) 프로세스는 현재와 이전 충격의 합으로 이루어져 있습니다. MA 프로세스에는 이전 잔차 또는 충격(Uₜ)의 수를 나타내는 순서(order)가 있습니다. 이를 MA(순서)로 표기합니다. 간단히, MA(1) 프로세스를 살펴봅시다. 다음 공식이 MA(1) 프로세스를 나타냅니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Time Series Analysis](/assets/img/2024-07-09-StatisticsTimeSeriesAnalysisCompilationofthefundamentalconcepts_25.png)
 
@@ -240,7 +480,18 @@ Uₜ가 백색 잡음이라고 가정하고, θ₁은 1단계 전 완강을 나�
 
 분산은 다음과 같이 유도할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마찬가지로, 공분산을 다음과 같이 유도할 수 있습니다:
 
@@ -248,13 +499,35 @@ Uₜ가 백색 잡음이라고 가정하고, θ₁은 1단계 전 완강을 나�
 
 화이트 노이즈는 각 변수가 다른 변수와 독립적이라고 가정하므로 이를 취소할 수 있습니다. 따라서 MA(1) 프로세스는 어떤 매개변수 θ₁에 대해서도 약한 정상 프로세스입니다. 이제 시각화를 통해 이를 확인해보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래와 같이 보시다시피, 평균과 분산은 AR(1) 프로세스와 비교했을 때 동일해 보입니다. 파라미터 값이 증가할수록 시리즈가 상대적으로 부드러워집니다. MA(1) 프로세스와 백색 잡음의 분산이 다르다는 점을 참고해 주세요.
 
 일반적으로 MA(q) 프로세스도 약정상태(weak-stationary)입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 평균과 공분산은 다음과 같이 정의할 수 있습니다.
 
@@ -264,7 +537,18 @@ Uₜ가 백색 잡음이라고 가정하고, θ₁은 1단계 전 완강을 나�
 
 ## 2.4 자기회귀 이동평균(ARMA) 과정 및 ARIMA 과정
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자신의 이름에서 알 수 있듯이 자기회귀 이동 평균(ARMA) 과정은 AR 및 MA 과정을 결합합니다. 직관적으로 ARMA 과정은 서로의 약점을 보완하고 데이터를 더 유연하게 나타낼 수 있습니다. 수학적 표현은 다음과 같습니다:
 
@@ -274,7 +558,18 @@ Uₜ가 백색 잡음이라고 가정하고, θ₁은 1단계 전 완강을 나�
 
 시각화를 통해 ARMA 과정이 어떻게 보이는지 확인해보겠습니다. AR(p=1, q=1) 과정은 다음과 같이 보입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AR(p=3, q=2) 프로세스는 아래 그래프와 같이 나타납니다.
 
@@ -282,7 +577,18 @@ AR(p=3, q=2) 프로세스는 아래 그래프와 같이 나타납니다.
 
 보시다시피, AR 및 MA 프로세스만 사용했을 때보다 더 복잡한 데이터 구조를 잘 파악할 수 있습니다. 매개변수 값이 증가할수록 그래프가 더 부드러워집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마침내, Autoregressive-integrated-moving average(ARIMA) 프로세스는 ARMA 프로세스와 일부를 공유합니다. 차이점은 ARIMA에 통합된 부분 (I)이 있다는 것입니다. 통합된 부분이란 데이터를 평상태로 만들기 위해 차이를 몇 번 해야 하는지를 의미합니다. 이게 무슨 의미일까요? 먼저, 미분 연산자 ∇를 다음과 같이 정의합니다:
 
@@ -292,13 +598,35 @@ AR(p=3, q=2) 프로세스는 아래 그래프와 같이 나타납니다.
 
 ![image](/assets/img/2024-07-09-StatisticsTimeSeriesAnalysisCompilationofthefundamentalconcepts_36.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 차이 매개변수를 사용하여 ARIMA(p, d, q) 프로세스를 정의할 수 있습니다.
 
 p는 AR 프로세스의 순서이고, d는 차별화를 할 횟수이며, q는 MA 프로세스의 순서입니다. 따라서 데이터를 차별화한 후 ARIMA 프로세스는 ARMA 프로세스가 됩니다. ARIMA 프로세스는 시계열에서 평균이 다른 경우 유용합니다. 즉, 시계열이 정상적이지 않을 때 사용됩니다. AirPassengers 데이터 세트를 기억해 주세요. 이 데이터 세트는 시리즈 전체에서 동일한 평균이 없습니다. 이 시리즈에 nabla를 적용하면 그래프가 다음과 같이 보입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오른쪽 그래프의 평균은 왼쪽 그래프의 원본 데이터와 비교하여 시계열에서 안정적으로 보입니다. 이제 미분을 한 후 ARMA 프로세스를 적합시키고 싶습니다. 그러나 문제가 있습니다. 파라미터를 어떻게 정의해야 할까요? 다음과 같은 몇 가지 방법이 있습니다.
 
@@ -319,7 +647,18 @@ arima = pm.auto_arima(y_train, start_p=1, start_q=1,
 arima.summary()
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Statistics Time Series Analysis Compilation of the fundamental concepts](/assets/img/2024-07-09-StatisticsTimeSeriesAnalysisCompilationofthefundamentalconcepts_39.png)
 
@@ -329,7 +668,18 @@ arima.summary()
 
 마지막 섹션에서는 시계열을 위해 사용되는 두 가지 유명한 통계 테스트를 소개하겠습니다. 이러한 테스트는 데이터가 정상 상태인지 또는 잔차 항이 자기상관성을 가지고 있는지 확인하기 위해 자주 사용됩니다. 각 테스트에 들어가기 전에, 단위근이라는 중요한 개념이 있습니다. 시계열에 단위근이 있는 경우 정상 상태가 아닙니다. 따라서 AR(p) 프로세스가 식(5)의 적어도 하나의 근이 1과 같다면, AR(p) 프로세스가 정상 상태가 아님을 의미하므로 AR(p) 프로세스에는 단위근이 있다고 할 수 있습니다. 이 개념을 사용하여 몇 가지 통계 테스트가 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 3.1 Augmented Dickey-Fuller(ADF) test
 
@@ -339,7 +689,18 @@ ADF 검정은 아래의 공식을 사용합니다. 이 공식은 공식(10)에�
 
 ![image](/assets/img/2024-07-09-StatisticsTimeSeriesAnalysisCompilationofthefundamentalconcepts_40.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼, 다음은 귀무 가설과 대립 가설을 설정합니다.
 
@@ -349,7 +710,18 @@ ADF 검정은 아래의 공식을 사용합니다. 이 공식은 공식(10)에�
 
 ![통계량 수식](/assets/img/2024-07-09-StatisticsTimeSeriesAnalysisCompilationofthefundamentalconcepts_42.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 분자가 음수여야만 시계열이 정상 상태일 때입니다. 실제로는, 여러 라이브러리에서 ADF 테스트를 계산할 수 있기 때문에 구현할 필요가 없어요. 아래 예시는 세 가지 시계열 데이터의 예시를 보여줍니다. 왼쪽은 AR(1) 프로세스를 참조하고, 가운데는 MA(1) 프로세스를 참조하며, 마지막은 AirPassenger 데이터셋을 사용합니다. 그래프 제목에는 프로세스 이름과 ADF 테스트의 p-값이 표시됩니다.
 
@@ -359,13 +731,35 @@ ADF 검정은 아래의 공식을 사용합니다. 이 공식은 공식(10)에�
 
 ## 3.2 Durbin-Watson 테스트
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Durbin-Watson 테스트는 시계열 회귀 모델의 잔차 항이 자기상관성을 갖고 있는지를 평가합니다. 이를 어떻게 활용할 수 있을까요? 다음과 같은 시계열을 사용하는 회귀 모델을 가정했을 때, 최소자승법을 사용하여 매개변수를 추정할 수 있습니다.
 
 만약 Uₜ가 백색 잡음을 따르지 않는다면, 모델의 품질이 좋지 않을 수 있습니다. Uₜ에 일부 자기상관 또는 연속 상관이 있다고 생각할 여지가 있으며, 이를 모델에 포함해야 합니다. 이를 확인하기 위해 Durbin-Watson 테스트를 사용할 수 있습니다. Durbin-Watson 테스트는 잔차 항이 AR(1) 모델을 가정합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 귀무가설과 대립가설을 설정합니다.
 
@@ -375,7 +769,18 @@ Durbin-Watson 테스트는 시계열 회귀 모델의 잔차 항이 자기상관
 
 ![Durbin-Watson 통계량](/assets/img/2024-07-09-StatisticsTimeSeriesAnalysisCompilationofthefundamentalconcepts_47.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 공식은 좀 더 직관적일 수 있습니다. 따라서 바꿔보겠습니다. 우리는 T가 다음과 같은 관계에 충분히 크다고 가정합니다.
 
@@ -385,7 +790,18 @@ Durbin-Watson 테스트는 시계열 회귀 모델의 잔차 항이 자기상관
 
 ![formula_2](/assets/img/2024-07-09-StatisticsTimeSeriesAnalysisCompilationofthefundamentalconcepts_49.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 γ는 적자 순서 자기 상관 관계를 의미합니다. DW 통계량은 자기 상관 관계가 0에 가까울수록 2에 가까워지며, 이는 시계열에 거의 자기 상관 관계가 없음을 의미합니다. 반면, 시계열에 자기 상관 관계가 있는 경우 DW 통계량은 2보다 작아집니다.
 
@@ -404,7 +820,18 @@ print('DW 통계량: ', dw)
 # DW 통계량:  1.6882339836228373
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 DW 통계량은 2보다 작기 때문에 자기상관 또는 연령상관성이 남아 있습니다. 아래 잔차 플롯을 보면 잔차에 여전히 일부 상관 관계가 있음을 알 수 있습니다.
 
@@ -414,7 +841,18 @@ DW 통계량은 2보다 작기 때문에 자기상관 또는 연령상관성이 
 
 이 블로그에서 결과를 생성하기 위해 아래 코드를 사용했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 블로그의 끝입니다. 제 블로그를 읽어주셔서 감사합니다!
 
@@ -423,7 +861,18 @@ DW 통계량은 2보다 작기 때문에 자기상관 또는 연령상관성이 
 - 統計検定 準一級
 - Wang, D., Lecture Notes, University of South Carolina
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 [3] Buteikis, A., 02 Stationary time series
 
@@ -433,6 +882,17 @@ DW 통계량은 2보다 작기 때문에 자기상관 또는 연령상관성이 
 
 [6] Bartlett, P., Introduction to Time Series Analysis. Lecture 12, Berkeley university
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 [7] pmdarima: Python에서 사용할 수 있는 ARIMA 추정 도구

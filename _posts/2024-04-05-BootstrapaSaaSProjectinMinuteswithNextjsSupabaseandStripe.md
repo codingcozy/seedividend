@@ -3,17 +3,13 @@ title: "Nextjs, Supabase 및 Stripe를 사용하여 몇 분 만에 SaaS 프로�
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Bootstrap a SaaS Project in Minutes with Nextjs, Supabase, and Stripe"
 link: "https://medium.com/udacity-engineering/bootstrap-a-saas-project-in-minutes-with-next-js-supabase-and-stripe-71cceb10c578"
 isUpdated: true
 ---
-
-
-
-
 
 ![Bootstrap a SaaS with a modern tech stack built to move quickly](/assets/img/BootstrapaSaaSProjectinMinuteswithNextjsSupabaseandStripe_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 Bootstrap a SaaS with a modern tech stack built to move quickly. In just a few minutes you can deploy a SaaS project that includes:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Supabase — 포스트그레스 데이터베이스 및 사용자 인증
 - Stripe — 체크아웃, 구독 및 고객 포턜
@@ -41,7 +48,18 @@ Bootstrap a SaaS with a modern tech stack built to move quickly. In just a few m
 
 ## 단계 1: Supabase 설정
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - supabase.com으로 이동하여 프로젝트를 생성하세요.
 - Project Settings → Database → Database password로 이동하여 데이터베이스 비밀번호를 재설정하고 새 비밀번호를 생성하세요. (이미 생성한 비밀번호가 있지만, CLI에서 특수 문자를 사용한 비밀번호를 사용할 때 발생하는 버그를 해결할 수 있습니다)
@@ -54,7 +72,18 @@ Bootstrap a SaaS with a modern tech stack built to move quickly. In just a few m
 
 ## 단계 3: 배포
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이 링크를 클릭하세요: Vercel로 배포하기
 - 양식에서 새로운 저장소를 생성하고 Supabase 통합을 추가하세요.
@@ -76,7 +105,18 @@ Bootstrap a SaaS with a modern tech stack built to move quickly. In just a few m
 - Vercel 프로젝트 설정으로 이동하여 환경 변수를 업데이트하세요.
 - 새로 획득한 웹훅 시크릿으로 STRIPE_WEBHOOK_SECRET 환경 변수의 값을 업데이트하세요. 저장을 눌러주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 5: Supabase 마이그레이션 실행하기
 
@@ -90,7 +130,18 @@ Bootstrap a SaaS with a modern tech stack built to move quickly. In just a few m
 
 💥새로운 데이터베이스가 준비되었습니다! 이제 시작해봐요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/BootstrapaSaaSProjectinMinuteswithNextjsSupabaseandStripe_3.png)
 
@@ -102,7 +153,18 @@ Stripe fixtures는 Stripe UI에서 꼬이지 않고 제품 오퍼링을 구성�
 - stripe fixtures ./stripe-fixtures.json — api-key UPDATE_THIS_WITH_YOUR_STRIPE_SK 명령을 실행하세요
   (Stripe SK로 명령어를 업데이트해야 합니다)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 💥 새로운 Stripe 제품을 사용할 준비가 되었습니다! 그게 아니라, Stripe에서 변경 사항이 발생하면 웹훅이 배포된 API를 호출합니다. API 핸들러는 Stripe에서 변경된 데이터를 가져와 Supabase 데이터베이스와 동기화합니다.
 
@@ -113,7 +175,18 @@ Stripe fixtures는 Stripe UI에서 꼬이지 않고 제품 오퍼링을 구성�
 - 코드 에디터에서 UPDATE*THIS*로 검색하고 .env.local.example을 제외한 모든 인스턴스를 관련 값으로 업데이트합니다.
 - delete-me 디렉토리를 삭제하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 8: 확인해보세요!
 
@@ -131,7 +204,18 @@ Stripe fixtures는 Stripe UI에서 꼬이지 않고 제품 오퍼링을 구성�
 
 # 결과
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 짧은 설정 작업 후에는 작동하는 데이터베이스, 구성된 스트라이프 제품, 결제, 구독, 고객 포털, Stripe와 Supabase를 동기화하는 웹훅, 현대적인 기술 스택을 사용한 아름다운 코드베이스가 준비되었습니다. 이제 제품을 구축하는 데 집중할 수 있습니다.
 

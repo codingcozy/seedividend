@@ -3,15 +3,13 @@ title: "자바스크립트를 사용하여 한 HTML 페이지에서 다른 페�
 description: ""
 coverImage: "/assets/img/2024-07-09-HowToPassValueFromOneHTMLPageToAnotherUsingJavaScript_0.png"
 date: 2024-07-09 18:12
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-HowToPassValueFromOneHTMLPageToAnotherUsingJavaScript_0.png
 tag: Tech
 originalTitle: "How To Pass Value From One HTML Page To Another Using JavaScript"
 link: "https://medium.com/@cyberbotmachines/how-to-pass-value-from-one-html-page-to-another-using-javascript-3c9ab62df4d"
 isUpdated: true
 ---
-
-
 
 JavaScript의 힘을 활용하여 HTML 페이지 간에 값 전달하는 간단한 튜토리얼입니다.
 
@@ -22,7 +20,18 @@ JavaScript의 힘을 활용하여 HTML 페이지 간에 값 전달하는 간단�
 다른 HTML 페이지로 전달하고 싶은 간단한 텍스트나 숫자 값을 가지고 있다면 URL 매개변수를 사용하는 것이 가장 간단합니다.
 (더 자세한 정보는 다음 섹션을 참조하세요.)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 URL 매개변수 값을 설정하는 방법이 두 가지 있어요.
 
@@ -36,7 +45,18 @@ window.location.href = “/second_page.html?greeting=hello”;
 
 그런 다음 두 번째 페이지에서는 URL 매개변수에서 값을 읽기만 하면 돼요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 추가 정보
 
@@ -46,7 +66,18 @@ window.location.href = “/second_page.html?greeting=hello”;
 
 그런 경우에는 이미 브라우저에 내장된 localStorage 객체를 사용하는 것이 가장 좋습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로컬스토리지는 무엇일까요?
 
@@ -56,7 +87,18 @@ window.location.href = “/second_page.html?greeting=hello”;
 
 따라서 다른 페이지로 이동해도 localStorage에 저장한 모든 값이 계속해서 사용할 수 있다는 점이 좋습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹사이트에서 사용하는 간단한 예제를 보여드릴게요:
 
@@ -68,7 +110,18 @@ localStorage에 대한 주의할 점 하나 있어요: 객체를 저장할 수 �
 객체를 문자열로 변환하는 방법은 다음과 같아요:
 JSON.stringify(myObject);
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 문자열을 객체로 변환하는 방법입니다:
 JSON.parse(myObjectString);
@@ -80,7 +133,18 @@ localStorage.clear();
 
 HTML 페이지 간에 JavaScript를 사용하여 값을 전달하는 방법은 이것이 전부입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 내용은 다음과 같이 변환해 주시면 됩니다:
 

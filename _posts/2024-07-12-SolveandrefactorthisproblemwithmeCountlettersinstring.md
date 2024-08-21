@@ -3,16 +3,13 @@ title: "제목 Solve and refactor this problem with me Count letters in string�
 description: ""
 coverImage: "/assets/img/2024-07-12-SolveandrefactorthisproblemwithmeCountlettersinstring_0.png"
 date: 2024-07-12 21:38
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-12-SolveandrefactorthisproblemwithmeCountlettersinstring_0.png
 tag: Tech
 originalTitle: "Solve and refactor this problem with me (Count letters in string)."
 link: "https://medium.com/gitconnected/solve-and-refactor-this-problem-with-me-count-letters-in-string-b1d74c51d5a6"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-07-12-SolveandrefactorthisproblemwithmeCountlettersinstring_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 이 카타에서 주어진 문자열에서 소문자를 세고 'letter'를 키로, 'value'로서 카운트를 반환해야 해요. 루비에서는 키가 '문자열' 대신 '심볼'이어야 하며, Crystal에서는 키가 '문자열' 대신 '캐릭터'여야 해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테스트 케이스와 예상 결과:
 
@@ -44,7 +52,18 @@ p letter_count('arithmetics') == { a: 1, c: 1, e: 1, h: 1, i: 2, m: 1, r: 1, s: 
 # - 키는 문자열이 아니라 심볼이어야 합니다.
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼 문제를 잘 이해했는지 확인하기 위해 몇 가지 예제를 분석했습니다:
 
@@ -75,7 +94,18 @@ p letter_count('arithmetics') == { a: 1, c: 1, e: 1, h: 1, i: 2, m: 1, r: 1, s: 
 # -암묵적으로 `count` 해시 반환
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 알고리즘에 따라 첫 번째 솔루션을 코딩했어요:
 
@@ -113,7 +143,18 @@ def letter_count(str)
 end
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가장 먼저 눈에 띄는 것은 char에 대해 3번의 to_sym 메소드를 호출한다는 것이다. 그래서 코드를 변경했습니다:
 
@@ -142,7 +183,18 @@ def letter_count(string)
 end
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 transform_keys 함수를 사용하여 키를 심볼로 변경하고 delete_if 함수를 사용하여 대문자로 된 키를 제거했어요. 초기에는 12줄이었던 내 솔루션이 3줄로 줄어들었는데, 명확성을 많이 잃지 않고요.
 
@@ -152,15 +204,25 @@ transform_keys 함수를 사용하여 키를 심볼로 변경하고 delete_if �
 
 보너스: Array#each_with_object 메소드를 사용하여도 이 문제를 해결할 수 있어요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 def letter_count(string)
-  array = string.chars.sort
-  
-  count = array.each_with_object(Hash.new(0)) do |char, hash|
-    hash[char] += 1
-  end
+array = string.chars.sort
 
-  count.delete_if { |k, _| k == k.upcase }.transform_keys { |key| key.to_sym }
+count = array.each_with_object(Hash.new(0)) do |char, hash|
+hash[char] += 1
+end
+
+count.delete*if { |k, *| k == k.upcase }.transform_keys { |key| key.to_sym }
 end

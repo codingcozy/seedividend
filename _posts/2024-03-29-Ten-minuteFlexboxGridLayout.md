@@ -3,17 +3,13 @@ title: "10분 만에 Flexbox Grid 레이아웃 쉽게 배우는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Ten-minute Flexbox Grid Layout"
 link: "https://medium.com/@mike-dresser/ten-minute-flexbox-grid-layout-ab7631310293"
 isUpdated: true
 ---
-
-
-
-
 
 CSS 이해의 여정은 2000년대 초에 시작했어요 — 사실상 전생 같은 시대죠! PHP 기반 콘텐츠 관리 시스템을 사용 중이던 부서 웹사이트를 다시 만들기 시작했어요. 맞춤화 옵션들이 많이 있었는데, 우리 중 누가 그걸 어떻게 구현할 수 있는지 발견하게 된 후에요. 곽씨관의 변덕쟁이로서 그 일을 맡았죠. 당시에는 의미론적인 HTML/CSS가 핫한 트렌드였어요 — HTML 태그가 컨텐츠의 실제 목적을 반영해야 한다는 대담한 아이디어였죠. 더 이상 테이블 요소로 내용을 스타일링하지 않겠다고요 — 우리는 모두 div와 p를 사용했고, 필수적인 페이지 간격은 CSS로 처리했어요. 매우 우아한 상황이었지만, 자체적인 도전도 따라왔어요.
 
@@ -23,7 +19,18 @@ CSS는 그때 그때, 그리고 지금도, 일부 사람들에게 마법의 주�
 
 오늘은 이 도구들을 활용하여 이 포저 제목에 언급된 것을 만들어보려고 해요: 빠르고 더러운, 스크롤링 그리드 레이아웃. 일반적인 구글 이미지 검색 결과나 아마존 쇼핑 경험을 상상해 보세요, 그것이 개념이에요. 저는 메트로폴리탄 미술관의 컬렉션 API에서 이미지를 검색하고 표시하는 프로젝트를 진행하다 이 작업에 왔어요. Figma에서 간단한 모델링 후, 제가 찾는 건 이런 것이었어요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/Ten-minuteFlexboxGridLayout_0.png" />
 
@@ -35,7 +42,18 @@ CSS는 그때 그때, 그리고 지금도, 일부 사람들에게 마법의 주�
 
 지금은 드롭다운 상자들을 무시하겠습니다 (그들 자체로 하나의 발견 여행이었지만, 아마도 다른날에 대한 주제일지도 모릅니다). 우선 컨테이너 div와 탐색 막대부터 시작해 보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아주 괜찮네요! 뷰포트 단위인 vh로 또는 뷰포트 측정 단위로 높이 CSS 속성을 정의하면 이러한 항목들이 사용자의 창이나 기기 화면 크기에 비례하여 크기가 조정될 거예요. 멋지네요. 이미지 컨테이너를 추가해봅시다.
 
@@ -48,7 +66,18 @@ display: flex;
 flex-wrap: wrap;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 … 더 멋진 해결책이 있어요. 이걸 자세히 살펴보면, display: flex는 바깥쪽 div를 flex 컨테이너로 정의합니다. 그것의 flex 자식들은 모두 주목을 받아 inline-block 항목처럼 행동합니다. Flex 박스의 "flex" 부분은 유동적인 레이아웃 뿐만 아니라 항목들이 정의된 방식으로 커지고 줄어드는 기본 동작을 의미합니다. 이것은 한 가지 주제이며, 간단함을 위해 뷰포트 크기에 비례하는 고정 크기와 다른 속성인 flex-wrap을 사용했습니다. 이것은 직관적으로 내부 항목을 새 줄로 랩핑하도록 합니다. 다시 말하지만, 이 동작의 방향과 세부사항은 수정할 수 있지만, 기본 방향은 영어 텍스트 동작과 유사합니다: 왼쪽에서 오른쪽으로, 위에서 아래로.
 

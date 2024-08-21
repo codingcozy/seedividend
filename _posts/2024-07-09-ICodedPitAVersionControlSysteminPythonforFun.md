@@ -3,15 +3,13 @@ title: "취미로 만든 파이썬 버전 관리 시스템 I Coded Pit 소개 "
 description: ""
 coverImage: "/assets/img/2024-07-09-ICodedPitAVersionControlSysteminPythonforFun_0.png"
 date: 2024-07-09 14:31
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-ICodedPitAVersionControlSysteminPythonforFun_0.png
 tag: Tech
 originalTitle: "I Coded Pit: A Version Control System in Python for Fun 😏"
 link: "https://medium.com/@zaid-kamil/i-coded-pit-a-version-control-system-in-python-for-fun-67b23cf17018"
 isUpdated: true
 ---
-
-
 
 <img src="/assets/img/2024-07-09-ICodedPitAVersionControlSysteminPythonforFun_0.png" />
 
@@ -22,7 +20,18 @@ isUpdated: true
 Pit을 알아보기 전에 Git을 먼저 살펴볼까요? 2005년 Linus Torvalds가 만든 Git은 소스 코드의 변경 사항을 추적하는 분산 버전 관리 시스템으로, 여러 개발자가 협업할 수 있도록 하고 작업을 덮어쓰지 않게 합니다. 강력하고 유연하며 진지한 코딩 활동을 위해 필수적이에요.
 이론은 넘어가고 Pit이 완성된 후 어떻게 작동하는지 확인해보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-07-09-ICodedPitAVersionControlSysteminPythonforFun_1](/assets/img/2024-07-09-ICodedPitAVersionControlSysteminPythonforFun_1.png)
 
@@ -32,7 +41,18 @@ Pit을 알아보기 전에 Git을 먼저 살펴볼까요? 2005년 Linus Torvalds
 
 Pit은 명령줄 인터페이스를 통해 기본적인 버전 관리 기능을 제공하도록 설계되었습니다. 사용자는 새 저장소를 초기화하고 파일을 스테이징 영역에 추가하며 변경 사항을 커밋하고 커밋 로그를 확인하거나 저장소의 상태를 확인할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 프로젝트 구조
 
@@ -51,7 +71,18 @@ project/
 
 Pit의 핵심은 Pit 클래스로, 핵심 기능을 캡슐화하고 Python의 pathlib 라이브러리를 통해 파일 시스템과 상호 작용합니다. 이 구조를 통해 Pit은 초기화된 디렉토리(초기화 명령)부터 커밋 스냅샷을 저장하는 일 등 저장소 데이터를 효과적으로 관리할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import os
@@ -76,7 +107,18 @@ pit init
 
 ## Project Initialization with Pit
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Pit을 사용하기 위해서는 새 저장소를 초기화해야 합니다. 이 과정은 프로젝트 내에서 버전 관리를 관리하기 위한 필요한 디렉터리 구조와 파일을 설정합니다.
 
@@ -86,7 +128,18 @@ Pit을 사용하기 위해서는 새 저장소를 초기화해야 합니다. 이
 
 저장소 존재 여부 확인: start 메서드는 먼저 지정된 또는 현재 디렉토리(repo_path)에 .pit 디렉터리가 이미 존재하는지 확인합니다. 이미 존재한다면 저장소가 이미 존재한다는 메시지를 인쇄하고 프로그램을 종료합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 def start(self):
@@ -111,7 +164,18 @@ def start(self):
 
 init 명령어를 구현함으로써, Pit은 프로젝트 이력과 변경 사항을 관리하기 위한 기초를 마련합니다. 이 체계적인 접근은 업무 분리를 명확히 하고, 파일 추가 (add), 변경 내용 커밋 (commit), 커밋 로그 보기 (log)와 같은 후속 작업을 위해 저장소를 준비합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # add 명령어 구현
 
@@ -121,7 +185,18 @@ pit add `파일명`
 
 리포지토리를 초기화한 후에 Pit을 사용하는 다음 단계는 변경 사항을 스테이징하는 것입니다. 특히, 파일을 스테이징 영역에 추가하는 것입니다. 이를 통해 사용자는 프로젝트 파일의 버전을 제어하고 조직적으로 관리하기 위해 수정 사항을 다음 커밋을 위해 준비할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 스테이징 영역에 파일 추가하기
 
@@ -134,7 +209,18 @@ def add(self, file_path):
     file_data = self.read_file(file_path)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파일 내용 해싱: 다음으로, Pit은 파일 내용의 SHA-1 해시를 계산하여 파일을 고유하게 식별합니다. 이 해시는 체크섬으로 작용하여 무결성을 보장하고 파일 버전을 빠르게 찾을 수 있도록 합니다.
 
@@ -154,7 +240,18 @@ def add(self, file_path):
         sys.exit(1)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기존 파일 확인: Pit은 객체 디렉토리에 동일한 해시를 가진 파일이 이미 있는지 확인합니다. 이미 존재한다면 해당 파일이 이미 저장소에 추가되었음을 나타냅니다.
 
@@ -177,7 +274,18 @@ def add(self, file_path):
     print(f"⛏️  {file_path}를 스테이징 영역에 추가했습니다")
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # commit 명령어 구현하기
 
@@ -187,7 +295,18 @@ pit commit "메시지"
 
 add 명령어로 변경 사항을 스테이징한 후, Pit을 사용하여 버전 관리하는 다음 단계는 이러한 변경 사항을 커밋하는 것입니다. 커밋은 프로젝트의 현재 상태에 대한 스냅샷을 생성하고, 저장소의 히스토리에 기록합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 변경 내용 커밋하기
 
@@ -200,7 +319,18 @@ def commit(self, message):
     index = self.as_list(self.read_file(self.index_path))
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현재 HEAD 가져오기: 그런 다음 get_current_head 메서드를 사용하여 HEAD 파일에서 현재 커밋 (HEAD)의 해시를 검색합니다.
 
@@ -223,7 +353,18 @@ def commit(self, message):
     })
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 커밋 데이터 해싱: 직렬화된 커밋 데이터에 대해 SHA-1 해시가 계산되어 저장소 내에서 커밋을 고유하게 식별합니다.
 
@@ -242,7 +383,18 @@ def commit(self, message):
     self.write_file(commit_path, str(commit_data))
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 HEAD 및 인덱스 업데이트: HEAD 파일이 새로운 커밋 해시를 가리키도록 업데이트되어 저장소의 최신 상태를 나타냅니다. 인덱스 파일이 지워져, 향후 변경을 위한 스테이징 영역이 재설정됩니다.
 
@@ -261,7 +413,18 @@ def commit(self, message):
     print(f"⛏️  {commit_hash}로 커밋되었습니다.")
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 로그 명령어 구현
 
@@ -271,7 +434,18 @@ pit log
 
 커밋 명령어로 변경 사항을 커밋한 후, Pit은 로그 명령어를 통해 사용자가 저장소의 이력을 탐색할 수 있습니다. 이 명령어는 커밋들의 연대순 목록을 표시하여 프로젝트의 진화와 시간이 지남에 따른 변경 사항 순서를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 커밋 로그 보기
 
@@ -284,7 +458,18 @@ def log(self):
     current_commit_hash = self.get_current_head()
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 커밋 반복: Pit은 루프를 사용하여 현재 HEAD부터 시작하여 커밋 기록을 반복합니다. 초기 커밋 (부모가 없는 곳)에 도달할 때까지 커밋 데이터를 가져와 표시합니다.
 
@@ -306,7 +491,18 @@ def log(self):
         pp(commit_data)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 커밋 기록 탐색: `Pit`은 `current_commit_hash`를 부모 커밋의 해시로 업데이트하여 초기 커밋부터 최신 커밋까지 저장소의 기록을 탐색할 수 있습니다.
 
@@ -326,7 +522,18 @@ def log(self):
         print("⛏️  아직 커밋이 없습니다!")
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 클래스에서 중요한 메소드였습니다. 사용자를 안내해주는 도우미 메소드인 show_usage()도 있습니다.
 
@@ -345,7 +552,18 @@ def show_usage():
 
 # 명령 줄 인터페이스(CLI) 작업 관리
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 피트(Pit)의 주요 기능인 main 함수는 명령줄 인터페이스(CLI)를 통해 버전 관리 작업을 실행하는 진입점으로 기능합니다. 이 함수는 사용자, 다양한 피트(init, add, commit, log) 명령어, 그리고 피트 클래스의 기본 기능 간의 상호 작용을 조정합니다. 이 함수는 클래스 외부에 있어야 합니다.
 
@@ -387,7 +605,18 @@ if __name__ == "__main__"
 
 ## 배치 스크립트
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 배치 스크립트 (pit.cmd)는 Python 모듈(pit)과 상호 작용하는 간단한 방법을 제공합니다. 이 모듈은 버전 관리 기능을 구현하며, Python의 직접적인 모듈 실행 능력(-m 플래그)을 활용하여 명령줄 인수를 원활하게 전달함으로써 윈도우 명령 프롬프트에서 pit 모듈을 유연하고 직관적으로 사용할 수 있습니다.
 
@@ -400,7 +629,18 @@ python -m pit %*
 
 이 pit과의 여정 첫 부분에서 우리는 Python 기반 버전 관리 시스템의 기본 설정 및 초기 작업을 탐색했습니다. 우리는 pit init을 사용하여 새 저장소를 초기화하여 프로젝트 히스토리를 관리하는 데 필요한 디렉토리 구조를 설정했습니다. 이후에는 pit add로 스테이징 영역에 파일을 추가하고, pit commit으로 변경 사항을 커밋하며, pit log를 통해 커밋 히스토리를 살펴보았습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 기초적인 명령어들을 통해, 우리는 변경 사항을 추적하고 버전을 관리하며 협업과 프로젝트 관리에 체계적인 방법을 제공하는 피트를 위한 기반을 마련했습니다. 첫 번째 파트에서는 Python 프로젝트 내에서 피트를 효과적으로 활용하기 위한 필수 도구들을 갖추었습니다.
 

@@ -3,17 +3,13 @@ title: "React Native에서 iOS와 안드로이드 홈 화면 위젯 만드는 �
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How To Build a Home Screen Widget for iOS and Android in React Native"
 link: "https://sanjanahumanintech.medium.com/how-to-build-a-home-screen-widget-for-ios-and-android-in-react-native-227c6d95ff5f"
 isUpdated: true
 ---
-
-
-
-
 
 목표: 네이티브 위젯을 만드는 방법을 배우고 위젯을 클릭하여 애플리케이션의 홈 화면을 열 때 리액트 네이티브 앱과 정보를 공유합니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 안타깝게도 React Native를 직접적으로 위젯을 만들 때 사용할 수 없습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 안드로이드
 
@@ -35,7 +42,18 @@ isUpdated: true
 
 이제 앱을 실행하면 위젯을 볼 수 있어야 합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/How-To-Build-a-Home-Screen-Widget-for-iOS-and-Android-in-React-Native_1.png" />
 
@@ -45,7 +63,18 @@ Android Studio에서 애플리케이션을 실행하면 에뮬레이터에서 �
 
 이렇게 위젯의 레이아웃이 열립니다. "WIDGET"이라고 쓰인 텍스트 뷰가 있는 것을 보실 수 있습니다. 클릭하면 더 많은 세부 정보를 보실 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![위젯](/assets/img/How-To-Build-a-Home-Screen-Widget-for-iOS-and-Android-in-React-Native_2.png)
 
@@ -57,7 +86,18 @@ Android Studio에서 애플리케이션을 실행하면 에뮬레이터에서 �
 
 좋아요, 이제 위젯을 커스터마이징하는 방법을 알았네요. 그 다음은 React Native 앱을 통해 이를 구현하는 방법을 알아봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 3. 위젯과 React Native 앱 간의 통신 채널 생성하기
 
@@ -67,7 +107,18 @@ Android Studio에서 애플리케이션을 실행하면 에뮬레이터에서 �
 
 호출하기 위해서 React Native와 네이티브 Android 간의 브리지를 만들 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트 내 MainActivity.java 파일 옆에 SharedStorage.java 및 SharedStoragePackager.java 파일을 두 개 추가해주세요:
 
@@ -108,7 +159,18 @@ public class SharedStoragePackager implements ReactPackage {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 중요한 점: 패키지 이름 com.reactnativecreatewidgettutorial을 자신의 것으로 변경해주세요. 그리고 Widget.class를 자신의 위젯 클래스 이름으로 바꿔주세요.
 
@@ -120,7 +182,18 @@ Android가 모듈이 존재함을 알 수 있도록 MainApplication.java 파일�
 new SharedStoragePackager();
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 4. React Native 앱에서 위젯 콘텐츠 제어하기
 
@@ -133,7 +206,18 @@ import { NativeModules } from "react-native";
 const SharedStorage = NativeModules.SharedStorage;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼 저장소로 데이터를 전송해 봅시다:
 
@@ -145,7 +229,18 @@ SharedStorage.set(JSON.stringify({ text: "이것은 React Native 앱에서 가�
 
 <img src="/assets/img/How-To-Build-a-Home-Screen-Widget-for-iOS-and-Android-in-React-Native_5.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 남은 일은 위젯이 데이터를 읽고 UI에 삽입하는 것입니다. 위젯을, 데이터를 읽은 다음 "HELLO" 라벨에 데이터를 출력하기 위해 연결할 것입니다.
 
@@ -159,7 +254,18 @@ import org.json.JSONObject;
 
 이제 widget.java 파일의 updateAppWidget 함수를 다음처럼 수정하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 package com.reactnativecreatewidgettutorial;
@@ -221,8 +327,18 @@ updateAppWidget 함수를 수정하여 위젯 내용을 업데이트하는 역�
 
 <img src="/assets/img/How-To-Build-a-Home-Screen-Widget-for-iOS-and-Android-in-React-Native_6.png" />
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # iOS
 
@@ -232,7 +348,18 @@ updateAppWidget 함수를 수정하여 위젯 내용을 업데이트하는 역�
 
 Today Extension을 선택하고 Next를 클릭하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![img1](/assets/img/How-To-Build-a-Home-Screen-Widget-for-iOS-and-Android-in-React-Native_7.png)
 
@@ -242,14 +369,36 @@ Give it a name, and choose your preferred language. In this case, I’m going to
 
 You should see the Widget folder on your project:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![위젯 화면이 표시되어야 합니다. 화면 위젯을 이미 활성화할 수 있습니다:
 위젯의 구조를 확인해 보겠습니다. 위젯 폴더로 이동하여 스토리보드 파일을 클릭하십시오. 화면 오른쪽 상단에 2개의 동그라미가 있는 도우미 편집기 버튼을 클릭하십시오:](/assets/img/How-To-Build-a-Home-Screen-Widget-for-iOS-and-Android-in-React-Native_9.png)
 
 ![위젯 화면을 확인한 후 위젯 폴더로 이동하고 스토리보드 파일을 클릭하십시오. 스크린 오른쪽 상단에 있는 도우미 편집기 버튼(2개의 동그라미가 그려진)을 클릭하십시오:](/assets/img/How-To-Build-a-Home-Screen-Widget-for-iOS-and-Android-in-React-Native_10.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 가지 함수인 viewDidLoad와 widgetPerformUpdate가 있는 것을 볼 수 있어요. viewDidLoad 함수는 사용자가 위젯 화면으로 전환할 때마다 실행돼요. 그래서 이곳에서 변수, 레이블 또는 뷰를 초기화해야 해요. widgetPerformUpdate 함수는 위젯 콘텐츠를 업데이트해야 할 때 호출돼요.
 
@@ -259,7 +408,18 @@ You should see the Widget folder on your project:
 
 # 3. 위젯과 React Native 앱 간의 통신 채널을 생성하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼 이제 즐거운 부분을 시작해봅시다. React Native 앱이 위젯이 표시하는 내용을 제어하도록 해 보겠습니다. 이를 위해 React Native 앱과 위젯 사이의 통신 방법을 구현해야 합니다. 이를 위해 UserDefaults iOS 네이티브 모듈을 사용하여 구현할 거에요.
 
@@ -269,7 +429,18 @@ React Native 앱이 UserDefaults에 작성하고 위젯이 그것을 읽도록 �
 
 ![이미지](/assets/img/How-To-Build-a-Home-Screen-Widget-for-iOS-and-Android-in-React-Native_12.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 활성화한 다음 그룹을 선택하거나 추가하세요.
 
@@ -279,7 +450,18 @@ React Native 앱이 UserDefaults에 작성하고 위젯이 그것을 읽도록 �
 
 ![image2](/assets/img/How-To-Build-a-Home-Screen-Widget-for-iOS-and-Android-in-React-Native_14.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Cocoa Touch Class를 선택하고 다음을 클릭하세요:
 
@@ -289,7 +471,18 @@ Cocoa Touch Class를 선택하고 다음을 클릭하세요:
 
 ![image](/assets/img/How-To-Build-a-Home-Screen-Widget-for-iOS-and-Android-in-React-Native_16.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 프로젝트에 새 파일이 나타났어요:
 이 파일들을 편집합시다. 먼저 이 내용을 SharedStorage.h 파일에 복사해주세요.
@@ -348,7 +541,18 @@ RCT_EXPORT_METHOD(set:(NSString *)data
 @end
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 중요: 그룹 이름 (group.com.createwidget.pimenta)을 App 그룹에서 생성한 이름으로 변경해주세요.
 
@@ -358,7 +562,18 @@ RCT_EXPORT_METHOD(set:(NSString *)data
 
 React Native 측에서 모듈을 가져와봅시다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { NativeModules } from "react-native";
@@ -373,7 +588,18 @@ SharedStorage.set(JSON.stringify({ text: "리액트 네이티브 앱에서 온 �
 
 예를 들어 App.tsx 파일이나 데이터를 설정하는 것이 적절한 React Native 코드에서 이 작업을 수행할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 해야 할 일은 위젯이 데이터를 읽어 UI에 삽입하도록 만드는 것뿐입니다. 위젯을 UserDefaults에 연결하고 데이터를 읽은 다음에 그 데이터를 "Hello World" 텍스트 레이블에 출력할 것입니다.
 
@@ -435,7 +661,18 @@ public class Widget extends AppWidgetProvider {
 
 중요: 그룹 이름 (group.com.createwidget.pimenta)을 App Groups에서 만든 그룹 이름으로 바꿔주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어플리케이션을 실행해서 위젯을 확인해 보세요 (SharedStorage를 작성하기 위해 앱을 실행하고 열어야 합니다):
 
@@ -445,4 +682,15 @@ public class Widget extends AppWidgetProvider {
 
 이 기사를 읽어 주셔서 감사합니다! 👏를 누르지 않으셨다면 잊지 마세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

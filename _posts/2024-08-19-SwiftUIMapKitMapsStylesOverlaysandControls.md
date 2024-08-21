@@ -3,7 +3,7 @@ title: "SwiftUI와 MapKit을 활용한 지도, 스타일, 오버레이, 그리�
 description: ""
 coverImage: "/assets/img/2024-08-19-SwiftUIMapKitMapsStylesOverlaysandControls_0.png"
 date: 2024-08-19 03:25
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-19-SwiftUIMapKitMapsStylesOverlaysandControls_0.png
 tag: Tech
 originalTitle: "SwiftUIMapKit Maps, Styles, Overlays and Controls"
@@ -11,8 +11,6 @@ link: "https://medium.com/gitconnected/swiftui-mapkit-maps-styles-overlays-and-c
 isUpdated: true
 updatedAt: 1724032974335
 ---
-
-
 
 ![Map](/assets/img/2024-08-19-SwiftUIMapKitMapsStylesOverlaysandControls_0.png)
 
@@ -22,10 +20,20 @@ updatedAt: 1724032974335
 
 그게 괜찮다면 시작해봅시다!
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
---- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+---
 
 이 기사에서는 지도를 만드는 데 초점을 맞출 것입니다. 다음을 포함합니다.
 
@@ -37,7 +45,18 @@ updatedAt: 1724032974335
 
 그런 다음 적용할 수 있는 다양한 지도 스타일을 살펴보고 다른 구성 간의 차이를 확인해보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Hybrid
 - Imaginary
@@ -49,7 +68,18 @@ updatedAt: 1724032974335
 
 MapKit을 사용하는 방법에 대해 더 많이 다루고 있으며, 이를 CoreLocation과 결합하여 사용자의 위치를 얻고 추적하는 방법, 사용자 상호작용에 반응하여 맵 위치를 가져오고 설정하는 방법 등에 대해 더욱 상세히 다룰 예정입니다! 관심이 있으시다면 추가 업데이트를 기다려주시기 바랍니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 지도
 
@@ -68,7 +98,18 @@ struct MapBaseView: View {
 
 <img src="/assets/img/2024-08-19-SwiftUIMapKitMapsStylesOverlaysandControls_1.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 전체 국가를 보여 주기 위한 지도 확대? 아마 99.999%(?)의 경우에는 원하는 바가 아닐 겁니다!
 
@@ -78,7 +119,18 @@ struct MapBaseView: View {
 
 가장 먼저, 지도의 초기 위치와 확대를 설정해 봅시다! 초기Position: MapCameraPosition을 지도를 만들 때 전달하여 이를 달성할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 MapCameraPosition을 만드는 여러 가지 방법이 있습니다.
 
@@ -91,7 +143,18 @@ MapCamera를 사용하여 다음을 지정할 수 있습니다.
 - pitch: 지도 수직에 대한 카메라의 피치
 - distance: 미터 단위의 대상 지점으로부터의 카메라 거리. 이 값을 설정함으로써 맵이 초기에 얼마나 확대되길 원하는지를 제어할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 카메라에서 생성된 MapCameraPosition의 예시입니다. Aspen, 콜로라도에 중심을 둔 카메라가 1000 미터 떨어진 위치에 있습니다.
 
@@ -112,8 +175,18 @@ let initialPosition = MapCameraPosition.camera(
 Map(initialPosition: initialPosition)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![SwiftUIMapKitMapsStylesOverlaysandControls_2](/assets/img/2024-08-19-SwiftUIMapKitMapsStylesOverlaysandControls_2.png)
 
@@ -122,16 +195,26 @@ Map(initialPosition: initialPosition)
 ```js
 let userLocation = MapCameraPosition.userLocation(fallback: MapCameraPosition.camera(
     MapCamera(
-        centerCoordinate: CLLocationCoordinate2D(latitude: 39.1911, longitude: -106.817535), 
-        distance: 1000, 
-        heading: 0, 
+        centerCoordinate: CLLocationCoordinate2D(latitude: 39.1911, longitude: -106.817535),
+        distance: 1000,
+        heading: 0,
         pitch: 0)))
 ```
 
 참고로, 이를 사용하려면 info.plist에 Privacy — Location When In Use Usage Description를 추가하고 사용자의 허가를 받으려면 CLLocationManager().requestWhenInUseAuthorization을 호출해야 합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요!
 
@@ -143,7 +226,18 @@ let userLocation = MapCameraPosition.userLocation(fallback: MapCameraPosition.ca
 
 예를 들어, 디즈니랜드 지도를 만드는 경우 사용자가 경계를 벗어나거나 확대하지 않도록 하려면 이 기능이 정말 유용합니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 MapCameraBounds를 만드는 방법은 init(centerCoordinateBounds: MKCoordinateRegion, minimumDistance: Double?, maximumDistance: Double?)을 사용할 수 있습니다.
 
@@ -155,14 +249,25 @@ MapCameraBounds를 만드는 방법은 init(centerCoordinateBounds: MKCoordinate
 
 한 번 더 말씀드리면, Aspen 예시를 사용해보겠습니다. 먼저, 지정된 좌표와 거리 값에서 새로운 MKCoordinateRegion을 생성합니다. 그런 다음, 축소 및 확대 양을 제한하기 위해 minimumDistance와 maximumDistance를 설정합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 아스펜, 콜로라도
 let bounds = MapCameraBounds(
     centerCoordinateBounds: MKCoordinateRegion(
-        center: CLLocationCoordinate2D(latitude: 39.1911, longitude: -106.817535), 
-        latitudinalMeters: 1000, 
+        center: CLLocationCoordinate2D(latitude: 39.1911, longitude: -106.817535),
+        latitudinalMeters: 1000,
         longitudinalMeters: 1000),
     minimumDistance: 1000,
     maximumDistance: 10000
@@ -179,7 +284,18 @@ var body: some View {
 
 트레일링 클로저를 전달하여 일부 기존 마커 및 주석이 있는 지도를 생성할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, 법정 패스에서 마커와 주석을 추가하는 방법을 보여드리겠습니다.
 
@@ -192,7 +308,7 @@ var body: some View {
                 .fill(Color.green.opacity(0.3))
                 .frame(width: 100, height: 100)
         }
-        
+
         Marker("법정 패스", coordinate: CLLocationCoordinate2D(latitude: 39.191, longitude: -106.817535))
             .tint(.red)
 
@@ -204,7 +320,18 @@ var body: some View {
 
 마커 및 주석에 대해 자세히 다루는 내용은 나중에 다른 기사에서 소개하겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 사용자 상호작용 제한
 
@@ -216,8 +343,18 @@ var body: some View {
 Map(initialPosition: initialPosition, interactionModes: [.rotate, .pitch])
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](https://miro.medium.com/v2/resize:fit:500/1*OCoFeifYRwBiUnF3_jDzRw.gif)
 
@@ -227,8 +364,18 @@ Also, if you don’t want your user to interact with the map AT ALL, simply set 
 
 ## Enable Selection
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용자가 터치 가능한 MapFeature에서 선택할 수 있도록 하려면 selection: Binding`MapFeature?` 바인딩을 전달할 수 있습니다.
 
@@ -247,7 +394,18 @@ var body: some View {
 
 주의할 점은 marker(핀)이 선택 가능하지 않다는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 추가된 사용자 정의 마커 및 주석을 선택할 수 있도록 Binding`SelectedValue?`를 사용하여 태그를 추가할 수 있습니다.
 
@@ -261,7 +419,7 @@ var body: some View {
         Marker("Orange", coordinate: CLLocationCoordinate2D(latitude: 39.19, longitude: -106.817535))
             .tint(.orange)
             .tag(1)
-        
+
         Marker("Red", coordinate: CLLocationCoordinate2D(latitude: 39.191, longitude: -106.817535))
             .tint(.red)
             .tag(2)
@@ -273,8 +431,18 @@ var body: some View {
 
 (여기서 mapStyle은 무시하고, 곧 자세히 다룰 예정입니다. 다른 MapFeatures의 마커/주석을 숨기게 설정되어 있어 우리 마커를 쉽게 인식할 수 있습니다.)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](https://miro.medium.com/v2/resize:fit:500/1*fsua5TWMI2__bbFwBA-wVQ.gif)
 
@@ -284,8 +452,18 @@ var body: some View {
 
 이를 위해 WWDC24에서 소개된 베타 기능을 사용해야 합니다. 자세한 내용은 다른 제 블로그 SwiftUI+MapKit: Support User Selection for Both Pre-defined Map Features and Our Own Contents를 확인해보세요!
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # MapStyle
 
@@ -295,7 +473,18 @@ var body: some View {
 
 ## 이미지 설정
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지는 지도 스타일로, 표시되는 지도 영역의 위성 이미지를 나타냅니다. 고도 매개변수를 설정하여 지도가 고도를 렌더링하는 방식을 제어할 수 있습니다.
 
@@ -310,7 +499,18 @@ Map(initialPosition: initialPosition)
 
 ![이미지](/assets/img/2024-08-19-SwiftUIMapKitMapsStylesOverlaysandControls_5.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Hybrid
 
@@ -321,7 +521,18 @@ Map(initialPosition: initialPosition)
 - pointsOfInterest: map이 표시하는 PointOfInterestCategories의 컬렉션입니다.
 - showsTraffic: map이 교통 상황을 표시하는지 여부를 나타내는 부울 값입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, 공원과 주차장만 표시하려면 다음과 같이 설정하실 수 있습니다.
 
@@ -334,7 +545,18 @@ Map(initialPosition: initialPosition)
 
 ## 표준
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이름대로라면, 이것은 기본 지도 표현을 나타내는 맵 스타일입니다. 이는 도로의 위치와 일부 도로 이름을 보여주는 거리 지도입니다. 맵의 확대 수준에 따라 다릅니다.
 
@@ -346,7 +568,18 @@ Map(initialPosition: initialPosition)
 
 또한, 프레임워크가 지도 특징을 강조하는 방법을 제어하기 위해 MapStyle.StandardEmphasis 값 중 하나가 되도록 강조를 구성할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, 우리가 강조를 'muted'로 설정했을 때 지도의 이미지를 강조하지 않는 스타일로 설정한 경우, 지도는 다음과 같이 보일 것입니다.
 
@@ -359,7 +592,18 @@ Map(initialPosition: initialPosition)
 
 # 주석 및 오버레이
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 이미 초기 지도 콘텐츠를 설정하는 동안 사용했지만, 이제 우리가 지도에 추가할 수 있는 멋진 기능들을 좀 더 자세히 살펴보도록 해요!
 
@@ -374,7 +618,18 @@ Map(initialPosition: initialPosition)
 
 모두 살펴봐요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Annotation, Marker, MapCircle
 
@@ -391,10 +646,10 @@ var body: some View {
                 .padding(.all, 8)
                 .background(RoundedRectangle(cornerRadius: 5).fill(.yellow))
         }
-                
+
         Marker("Marker", coordinate: CLLocationCoordinate2D(latitude: 39.191, longitude: -106.817535))
             .tint(.red)
-        
+
         MapCircle(center: CLLocationCoordinate2D(latitude: 39.191, longitude: -106.817535), radius: 100)
             .foregroundStyle(.red.opacity(0.2))
 
@@ -410,7 +665,18 @@ var body: some View {
 
 ## MapPolygon
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 MapPolygon(coordinates: [
@@ -434,8 +700,18 @@ MapPolyline(coordinates: [
 .stroke(.blue, lineWidth: 8)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-08-19-SwiftUIMapKitMapsStylesOverlaysandControls_10.png)
 
@@ -465,8 +741,18 @@ var body: some View {
 
 ![이미지](/assets/img/2024-08-19-SwiftUIMapKitMapsStylesOverlaysandControls_11.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전에 MapCameraPosition.userLocation을 사용했을 때처럼 UserAnnotation을 사용하기 위해선 info.plist에 Privacy — Location When In Use Usage Description을 추가하고, CLLocationManager().requestWhenInUseAuthorization을 호출하여 사용자의 허락을 받아야 합니다.
 
@@ -476,7 +762,18 @@ var body: some View {
 
 ## 참고!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오버레이의 색상은 서로 다른 수정자를 사용하여 적용됩니다. 어떤 것은 tint를 사용하고, 어떤 것은 foregroundStyle을 사용하며, 어떤 것은 stroke를 사용합니다!
 
@@ -491,7 +788,18 @@ var body: some View {
 - MapUserLocationButton
 - MapZoomStepper (Mac 전용)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## MapCompass
 
@@ -514,13 +822,24 @@ var body: some View {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위와 같이, Map 및 MapCompass가 동일한 네임스페이스에 속한다는 것을 프레임워크에 알려주기 위해 scope 매개변수를 지정해야 합니다!
 
 ![이미지](https://miro.medium.com/v2/resize:fit:500/1*h2Suxs99H3Bj1wYiqzLhsA.gif)
 
-두 번째로, mapControls(_:) 수정자를 사용하여 다음과 같이 처리할 수 있습니다.
+두 번째로, mapControls(\_:) 수정자를 사용하여 다음과 같이 처리할 수 있습니다.
 
 ```js
 Map(initialPosition: initialPosition)
@@ -529,8 +848,18 @@ Map(initialPosition: initialPosition)
       }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](https://miro.medium.com/v2/resize:fit:500/1*gz47I46XaZsINfu_SnA-Yw.gif)
 
@@ -540,8 +869,18 @@ Map(initialPosition: initialPosition)
 
 둘째, 컴파스를 탭하면 맵을 다시 조정하여 북쪽이 Map 뷰의 맨 위에 오게 만들어요.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## MapPitchToggle
 
@@ -557,8 +896,18 @@ Map(initialPosition: initialPosition)
 .mapStyle(.standard(pointsOfInterest: []))
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![](https://miro.medium.com/v2/resize:fit:500/1*47ULWSRoJKq4WXi2bT-lLA.gif)
 
@@ -573,7 +922,18 @@ Map(initialPosition: initialPosition)
     }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="https://miro.medium.com/v2/resize:fit:500/1*hBwzXOKx3PBYSU3CfhvFaw.gif" />
 
@@ -583,7 +943,18 @@ Map(initialPosition: initialPosition)
 
 사용자의 위치를 표시하는 지도의 프레임을 설정하는 버튼입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .mapControls {
@@ -597,7 +968,18 @@ Map(initialPosition: initialPosition)
 
 우리는 Privacy - Location When In Use Usage Description을 info.plist에 추가하고 CLLocationManager().requestWhenInUseAuthorization을 호출하여 사용자의 허락을 받아야 합니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오늘은 여기까지입니다!
 

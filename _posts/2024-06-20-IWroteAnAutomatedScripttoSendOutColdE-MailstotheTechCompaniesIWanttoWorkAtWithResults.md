@@ -3,17 +3,13 @@ title: "내가 원하는 테크 회사에 자동 이메일을 보내는 스크�
 description: ""
 coverImage: "/assets/img/2024-06-20-IWroteAnAutomatedScripttoSendOutColdE-MailstotheTechCompaniesIWanttoWorkAtWithResults_0.png"
 date: 2024-06-20 04:35
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-IWroteAnAutomatedScripttoSendOutColdE-MailstotheTechCompaniesIWanttoWorkAtWithResults_0.png
 tag: Tech
 originalTitle: "I Wrote An Automated Script to Send Out Cold E-Mails to the Tech Companies I Want to Work At (With Results)"
 link: "https://medium.com/@priyanshu-shkl7/i-wrote-a-script-to-send-out-cold-e-mails-to-the-tech-companies-i-want-to-work-at-with-results-ab9647ea4ee2"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-06-20-IWroteAnAutomatedScripttoSendOutColdE-MailstotheTechCompaniesIWanttoWorkAtWithResults_0.png" />
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 # 생각
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어떻게 하면 좋을까요? '회사 이름' 채용 담당자/리쿠르터의 LinkedIn을 온라인으로 검색하여 그들의 이름을 찾고, 직접적인 이메일을 보내는 스크립트를 작성한다면 어떨까요? 하지만 LinkedIn에서 이들의 이메일 주소를 어떻게 찾을까요? 각기 다른 회사에 맞춰 이메일을 어떻게 개인화할까요? 가장 중요한 것은, 이 모든 작업을 수작업으로 할 수는 없다는 것입니다.
 
@@ -34,7 +40,18 @@ isUpdated: true
 
 이 문제는 꽤 간단하게 해결할 수 있었습니다. 유효하지 않은 이메일로 메일을 보내면 메일러 데몬(발신자와 수신자 사이의 중간 인터페이스)이 수신자의 이메일 주소가 유효하지 않아서 이메일을 보낼 수 없다는 경고를 통보해줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 알겠어요. 이제 하나의 조합이 유효하다면 메일러 데몬으로부터 알림을 받지 않는다는 사실을 알게 되었어요. 이제 조합을 생성하는 것은 또 다른 작업이었지만, 제 경험상 회사 이메일은 일반적으로 다음과 같은 양식을 따른다는 것을 알고 있어요 -
 
@@ -48,7 +65,18 @@ isUpdated: true
 
 # ‘맞춤’ 이메일
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각 회사에 이메일을 맞춤화하는 것을 고려해야 하는 부분이었지만, 회사에 대한 내 흥미와 경력, 프로젝트, 학력을 언급한 일반적인 텍스트 조각을 만드는 것이 목표였어요. 또한, 이메일에 이력서를 첨부해야 했죠.
 
@@ -63,7 +91,18 @@ isUpdated: true
 
 매우 간략한 형태로 이메일을 작성한 것을 볼 수 있어요. 회사 이름이 변수로 전달되는 것에 주목해주세요. 이 변수는 내가 최우선 순위로 둔 회사들의 배열에서 가져온 것이에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단히 말씀드리면, 목록에서 각 회사에 대해 다음을 시도했습니다:
 
@@ -76,8 +115,18 @@ isUpdated: true
 
 # 결과 및 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![1](/assets/img/2024-06-20-IWroteAnAutomatedScripttoSendOutColdE-MailstotheTechCompaniesIWanttoWorkAtWithResults_1.png)
 
@@ -87,8 +136,18 @@ isUpdated: true
 
 ![4](/assets/img/2024-06-20-IWroteAnAutomatedScripttoSendOutColdE-MailstotheTechCompaniesIWanttoWorkAtWithResults_4.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 많은 추가적인 이메일도 있어요.
 

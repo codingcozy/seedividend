@@ -3,17 +3,13 @@ title: "위협 인텔리전스를 멋지다고 생각하시나요"
 description: ""
 coverImage: "/assets/img/2024-05-16-DoyouthinkThreatIntelligenceiscool_0.png"
 date: 2024-05-16 17:43
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-16-DoyouthinkThreatIntelligenceiscool_0.png
 tag: Tech
 originalTitle: "Do you think Threat Intelligence is “cool”?"
 link: "https://medium.com/@corneacristian/do-you-think-threat-intelligence-is-cool-98c51edc0118"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-05-16-DoyouthinkThreatIntelligenceiscool_0.png)
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 ## 위협 인텔리전스 활동
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 많은 사람들(아마도 당신도)이 생각하는 것:
 
@@ -34,7 +40,18 @@ isUpdated: true
 
 위협 인텔리전스 활동의 다른 예시를 소개해 드릴게요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 위협 모델링: 조직에 특정한 위협을 매핑합니다. 예를 들어, 은행은 TV 온라인 채널보다 다른 위협을 대상으로 합니다.
 
@@ -44,7 +61,18 @@ isUpdated: true
 
 두 가지 예를 들어볼게요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 비즈니스 결정: 귀하의 조직에 특화된 위협 모델을 정의하면 비즈니스는 귀하의 요구에 맞게 특정 투자 결정을 내릴 수 있습니다. 제 나라에 곰이 없다면 왜 스스로를 곰으로부터 방어해야 하는 걸까요? 같은 개념이 여기에도 적용됩니다.
 - 레드팀: 위협 모델을 사용하여 레드팀은 귀하의 조직을 대상으로 하는 위협 그룹들이 사용하는 기술, 전술 및 절차(Techniques, Tactics, and Procedures, TTPs)를 모의할 수 있습니다.
@@ -56,7 +84,18 @@ isUpdated: true
 
 또한, OSINT를 통해 사이버범죄 포럼에서 정보를 수집할 수 있습니다. 아래에서 확인할 수 있는 몇 가지 예시를 찾아보세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 xss[.]in
@@ -75,8 +114,18 @@ Www-club[.]link
 
 - **Puppet Master**: 네, 정말로 그렇습니다! 당신은 꼭두각시 주인이 될 수 있습니다... 하지만 위협 인텔리전스 분야에서요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-05-16-DoyouthinkThreatIntelligenceiscool_4.png)
 
@@ -86,8 +135,18 @@ HUMINT와 퍼펫 마스터링의 차이는 무엇인가요? — HUMINT는 외부
 
 이 주제에 관한 정말 좋은 책인 “Securing Online Personas” by deadlock (온라인에서 찾을 수 있어요)를 공부할 수 있어요.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 위에 나열된 것 외에도 수행할 수 있는 많은 위협 인텔 활동이 있습니다.
 
@@ -97,7 +156,18 @@ HUMINT와 퍼펫 마스터링의 차이는 무엇인가요? — HUMINT는 외부
 
 "This is an IP address" - `데이터`
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "이 IP 주소는 명령 및 제어에 사용됩니다" -` 정보
 
@@ -107,7 +177,18 @@ HUMINT와 퍼펫 마스터링의 차이는 무엇인가요? — HUMINT는 외부
 
 위협 인텔리전스 산업에서 사용되는 용어 예시 중 일부를 아래에서 찾을 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 소스 = 지능을 제공하는 모든 제공자 또는 채널을 가리킵니다. 보고서에서 사람들은 정보를 어떻게 또는 누구로부터 얻었는지 언급하지 않습니다. 대신, 매우 자주 "우리의 소스가 우리에게 XYZ를 알려주었다"고 언급됩니다.
 
@@ -117,7 +198,18 @@ HUMINT와 퍼펫 마스터링의 차이는 무엇인가요? — HUMINT는 외부
 
 침해 지표 (IoC) = 시스템이 침입되었거나 침해당했다는 것을 시사하는 증거 또는 유물입니다. 이는 악성 파일 해시, IP 주소, 도메인 이름, URL, 이메일 주소, 레지스트리 키, 파일 경로, 사용자 에이전트 문자열 등을 포함할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **기술, 전술 및 절차(TTPs)** = 위협 행위자가 목표를 달성하는 데 사용하는 구체적인 방법 또는 접근법입니다. MITRE ATT&CK 페이지에서 포괄적인 목록을 찾을 수 있습니다.
 
@@ -127,7 +219,18 @@ HUMINT와 퍼펫 마스터링의 차이는 무엇인가요? — HUMINT는 외부
 
 ![이미지](/assets/img/2024-05-16-DoyouthinkThreatIntelligenceiscool_6.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 적 정보 = 위협 주체의 신원과 온라인 존재에 관한 정보
 
@@ -137,7 +240,18 @@ HUMINT와 퍼펫 마스터링의 차이는 무엇인가요? — HUMINT는 외부
 
 위협 모형 = 조직의 잠재적 위협을 평가하기 위한 구조화된 접근 방식
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 MISP는 "악성 소프트웨어 정보 공유 플랫폼 및 위협 공유"로, 조직이 보안 위협에 대한 정보를 수집, 공유 및 분석할 수 있게 해주는 오픈 소스 위협 인텔리전스 플랫폼입니다.
 
@@ -147,7 +261,18 @@ MISP는 "악성 소프트웨어 정보 공유 플랫폼 및 위협 공유"로, �
 
 얻은 위협 인텔리전스는 NATO 해군 시스템을 사용하여 분류할 수 있으며, 이를 사용하여 정보의 신뢰성 및 유효성을 분류할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `<img src="/assets/img/2024-05-16-DoyouthinkThreatIntelligenceiscool_8.png" />`
 
@@ -157,7 +282,18 @@ MISP는 "악성 소프트웨어 정보 공유 플랫폼 및 위협 공유"로, �
 
 Definitely YES!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 많은 갱단, 깡패, 범죄 조직 및 테러 조직이 사이버 위협 가해자들과 관련되어 있음을 고려해야 합니다. 그들은 돈, 무기 및 영향력을 갖고 있습니다.
 

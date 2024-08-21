@@ -3,17 +3,13 @@ title: "HTML와 CSS를 사용하여 그라데이션 테두리와 그라데이션
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How To Make a Button with a Gradient Border and Gradient Text in HTML , CSS"
 link: "https://medium.com/@christianjbolus/how-to-make-a-button-with-a-gradient-border-and-gradient-text-in-html-css-7d495656169"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/HowToMakeaButtonwithaGradientBorderandGradientTextinHTML-CSS_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이 효과를 만들려면 여러 요소를 서로 쌓아야 합니다. 우리는 ::before 및 ::after 가상 요소를 가진 버튼 요소를 사용하여 이를 수행할 것입니다. ::before 및 ::after는 해당되는 요소의 자식 요소를 만들어 냅니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ::before와 ::after에 대한 더 깊은 설명을 원하신다면 이 비디오를 추천드려요.
 
@@ -37,7 +44,18 @@ HTML
 </div>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS
 
@@ -57,7 +75,18 @@ CSS
 
 현재 버튼은 이와 같이 보여야 합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/HowToMakeaButtonwithaGradientBorderandGradientTextinHTML-CSS_1.png" />
 
@@ -77,7 +106,18 @@ CSS
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 상대 위치 속성을 사용하여 첫 번째 의사 요소를 배치할 수 있습니다. 이제 버튼은 다음과 같아야 합니다:
 
@@ -97,7 +137,18 @@ CSS
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리의 버튼은 이제 다음과 같아야 합니다:
 
@@ -107,7 +158,18 @@ CSS
 
 position: absolute 및 position: relative에 대해 더 자세히 알고 싶다면, 이 비디오를 추천합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위쪽, 오른쪽, 아래쪽 및 왼쪽 속성들은 ::before의 가장자리를 버튼의 가장자리에서 1픽셀 떨어지게 합니다. 우리 버튼 모서리에 간격이 있는 이유를 이해하려면, ::before의 배경색을 검정으로 변경해 봅시다:
 
@@ -127,7 +189,18 @@ position: absolute 및 position: relative에 대해 더 자세히 알고 싶다�
 
 자세히 보면, ::before의 모서리가 사각형 모양이며 따라서 우리 버튼의 둥근 모서리에 잘릴 수 있습니다. 이는 ::before의 색상이 배경색과 동일할 때 간격처럼 보이게 합니다. 이 문제를 해결하기 위해 ::before에 일정한 border-radius를 추가하겠습니다. 두 요소 사이에 균일한 간격을 얻을 수 있도록 중첩된 요소에 얼마나 많은 border-radius를 줘야 하는지 계산하는 다음 공식을 사용하는 것을 선호합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/HowToMakeaButtonwithaGradientBorderandGradientTextinHTML-CSS_5.png" />
 
@@ -149,7 +222,18 @@ R1 — D = R2 -` 5 — 1 = 4:
 
 <img src="/assets/img/HowToMakeaButtonwithaGradientBorderandGradientTextinHTML-CSS_6.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 우리가 테두리를 올바르게 라운딩했으므로,::before의 배경색을 다시 흰색으로 변경할 수 있습니다:
 
@@ -170,7 +254,18 @@ R1 — D = R2 -` 5 — 1 = 4:
 
 이제 우리의 그라데이션 테두리 효과가 완성되었습니다. 이제 그라데이션 텍스트로 넘어가겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ::before가 button 요소의 자식이므로 position: absolute를 가지고 있습니다. 따라서 ::before는 button 위에 쌓이게 됩니다. 이는 button 태그 사이에 일반적으로 넣는 텍스트를 사용할 수 없다는 것을 의미합니다. 왜냐하면 그것은 ::before에 의해 가려지기 때문입니다. 이 문제를 해결하기 위해 또 다른 가상 요소인 ::after를 사용할 것입니다. 또한 button 요소에 data 속성을 추가할 것입니다.
 
@@ -184,7 +279,18 @@ R1 — D = R2 -` 5 — 1 = 4:
 
 그리고 ::after에 대한 CSS는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .btn::after {
@@ -199,7 +305,18 @@ R1 — D = R2 -` 5 — 1 = 4:
 
 아마도 우리가 텍스트를 보지 못한다는 것을 눈치챘을 것입니다. 그러나 이제 우리의 버튼은 더 커져서 .btn 클래스에 추가한 패딩이 어딘가를 밀어올리고 있음을 의미합니다. 우리가 텍스트를 보지 못하는 이유는 현재 ::before (position: absolute 때문에)가 현재 ::after도 가리고 있기 때문입니다. 우선 ::before를 주석 처리해 봅시다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /* .btn::before {
@@ -221,7 +338,18 @@ R1 — D = R2 -` 5 — 1 = 4:
 
 그래디언트 텍스트 효과를 만들기 위해 먼저 ::after의 배경에 같은 색상을 사용하여 선형 그라데이션을 적용해야 합니다. 단, 방향만 반대로 설정합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .btn::after {
@@ -237,7 +365,18 @@ R1 — D = R2 -` 5 — 1 = 4:
 
 다음 단계는 ::after 에 -webkit-background-clip: text 및 color: transparent를 추가하는 것입니다. background-clip에 -webkit 접두사를 사용하고 있습니다. 이 속성은 아직 모든 브라우저에서 완전히 지원되지 않기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .btn::after {
@@ -255,7 +394,18 @@ R1 — D = R2 -` 5 — 1 = 4:
 
 백그라운드 클립 속성에 대한 더 많은 정보는 이 문서를 참조하실 것을 권장합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리 ::before CSS에서 다시 주석을 달아보겠습니다:
 
@@ -287,7 +437,18 @@ R1 — D = R2 -` 5 — 1 = 4:
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금은 아무런 변화가 없습니다:
 
@@ -297,7 +458,18 @@ z-index 속성은 요소가 z축을 따라 쌓이는 순서를 나타냅니다. 
 
 쌓임 맥락과 z-index에 대한 자세한 내용은 이 기사와 이 비디오를 추천합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .btn::before {
@@ -319,7 +491,18 @@ z-index 속성은 요소가 z축을 따라 쌓이는 순서를 나타냅니다. 
 
 ...하지만 몇 가지 마무리 작업을 추가해보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 첫 번째로 ::before와 ::after에 트랜지션을 추가할 거에요. 200ms가 속도로 설정돼요.
 
@@ -361,7 +544,18 @@ z-index 속성은 요소가 z축을 따라 쌓이는 순서를 나타냅니다. 
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ::before에 있는 :hover 가상 클래스의 top, right, bottom 및 left 속성을 수정하면 버튼의 전체 폭과 높이가 확장됩니다. ::after의 opacity: 50% 및 color: white와 결합하여 버튼을 가리면 다음과 같은 효과가 발생합니다:
 
@@ -371,7 +565,18 @@ z-index 속성은 요소가 z축을 따라 쌓이는 순서를 나타냅니다. 
 
 전체 HTML 및 CSS는 아래에서 확인할 수 있습니다. 예시 CodePen은 여기에서 확인할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Markdown
 

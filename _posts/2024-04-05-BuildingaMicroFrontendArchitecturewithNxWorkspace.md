@@ -3,17 +3,13 @@ title: "Nx Workspace를 활용한 Micro Frontend 아키텍처 구축하는 방�
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Building a Micro Frontend Architecture with Nx Workspace"
 link: "https://medium.com/javascript-in-plain-english/building-a-micro-frontend-architecture-with-nx-workspace-c0fd9b6bf322"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/BuildingaMicroFrontendArchitecturewithNxWorkspace_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 마이크로 프런트엔드 아키텍처의 최종 구현은 다음 저장소 커밋에서 확인할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 마이크로 프런트 엔드 설정
 - Netlify에서 프로덕션을 위한 'info' 모듈의 원격 URL 업데이트
@@ -35,7 +42,18 @@ isUpdated: true
 
 # 준비사항
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시작하기 전에 다음 사항을 준비해 두세요:
 
@@ -45,7 +63,18 @@ isUpdated: true
 
 - 다음 명령어를 실행하여 apps 폴더에 있는 기존 애플리케이션을 모두 제거하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 rm -rf apps/*
@@ -80,7 +109,18 @@ rm -rf apps/*
 
 - 다음 명령어를 실행하여 종속성을 설치하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - `package-lock.json`, `yarn.lock`, `pnpm-lock.yaml`, 그리고 `node_modules` 폴더를 삭제해야 해요. 아래 명령어를 사용해서 이 파일들과 폴더를 삭제할 수 있어요.
 
@@ -101,7 +141,18 @@ yarn install
 npm install
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 축하합니다! 종속성을 성공적으로 설치했습니다.
 
@@ -111,7 +162,18 @@ npm install
 
 호스트 애플리케이션은 container로, 원격 애플리케이션은 info로 지칭합니다. 이 스크립트를 따라갈 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 pnpm exec nx generate @nx/react:host --name=container --devServerPort=3000 --directory=apps/container --remotes=info --projectNameAndRootFormat=as-provided --no-interactive --dry-run
@@ -128,7 +190,18 @@ pnpm exec nx generate @nx/react:host --name=container --devServerPort=3000 --dir
   },
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 pnpm run lint
@@ -146,7 +219,18 @@ pnpm run lint --fix
 
 # 핫 리로드 및 개발
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 호스트 및 원격 애플리케이션을 실행하는 다음 단계입니다. package.json 파일에 다음 스크립트를 추가할 수 있어요.
 
@@ -163,7 +247,18 @@ pnpm run lint --fix
 pnpm run dev:info
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 pnpm run dev:container
@@ -180,7 +275,18 @@ pnpm run dev:container
   },
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이제 다음 명령어를 사용하여 호스트 및 원격 애플리케이션을 실행할 수 있어요.
 
@@ -194,7 +300,18 @@ pnpm run serve:container
 
 ![이미지](/assets/img/BuildingaMicroFrontendArchitecturewithNxWorkspace_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 🎉 축하합니다! React 애플리케이션을 성공적으로 만들었습니다.
 
@@ -204,7 +321,18 @@ pnpm run serve:container
 
 이 튜토리얼은 Nx Workspace를 사용한 마이크로 프론트엔드 아키텍처를 구축하는 데 견고한 기반을 제공했습니다. 이제 더 많은 고급 기능과 구성을 탐색하여 마이크로 프론트엔드 아키텍처를 더욱 강화할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 감사합니다! 🚀
 
@@ -225,7 +353,18 @@ pnpm run serve:container
 
 # 간단한 설명 🚀
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인 플레인 영어 커뮤니티의 일원이 되어 주셔서 감사합니다! 떠나시기 전에:
 

@@ -3,17 +3,13 @@ title: "React와 Nextjs에서 데이터를 가져오는 여러가지 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "The best way to fetch data in React and Nextjs"
 link: "https://medium.com/@codewithmee/the-best-way-to-fetch-data-in-react-and-next-js-47b291922089"
 isUpdated: true
 ---
-
-
-
-
 
 웹 개발 세계에서 HTTP 요청을 하는 것은 기본적인 작업입니다. 개발자들은 종종 이를 위해 어떤 라이브러리 또는 도구를 사용할지 선택해야 합니다. 이 글에서는 TypeScript에서 HTTP 요청을 처리하는 세 가지 인기 있는 옵션인 fetch, axios, 그리고 tanstack react-query를 비교해 보겠습니다.
 
@@ -27,7 +23,18 @@ fetch("https://api.example.com/data")
   .catch((error) => console.error(error));
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 fetch는 내장되어 있어 가벼운 편이지만 캐싱 및 오류 상태 처리를 적절히 하지 못합니다. 그리고 포스트를 작성할 때 헤더와 콘텐츠 유형 등을 전달해야 합니다. 아래 예제를 확인해보세요.
 
@@ -62,7 +69,18 @@ fetch(url, requestOptions)
 
 axios
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Axios는 HTTP 요청을 보다 간단하게 만들어주는 인기 있는 JavaScript 라이브러리입니다. 요청을 보내는 과정을 간소화하고 요청 및 응답 인터셉터와 같은 추가 기능을 제공합니다. axios를 사용하여 동일한 GET 요청을 하는 방법은 다음과 같습니다:
 
@@ -81,7 +99,18 @@ axios
   .catch((error) => console.error(error));
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 포스트 요청을 할 때
 
@@ -110,7 +139,18 @@ axios
 
 React Query
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React-Query은 데이터 가져오기 및 상태 관리, 오류 처리, 캐싱을 전문으로 하는 강력한 라이브러리입니다. 최근 5.0에서는 optimistic updates라는 새로운 기능이 추가되었어요. 이는 데이터 관리의 복잡성을 추상화하여 매우 효율적이고 개발자 친화적인 경험을 제공합니다. React-Query를 사용하여 데이터를 가져오는 예시를 보여드리겠습니다.
 
@@ -136,7 +176,18 @@ const MyComponent = () => {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 게시물 또는 다른 변경 요청에 대해
 
@@ -184,7 +235,18 @@ React Query를 통해 다양한 로딩 및 오류 상태를 아름답게 처리�
 
 낙관적 업데이트
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 상태를 낙관적으로 업데이트한 후 변경 사항을 수행하기 전에 뮤테이션이 실패할 수 있습니다. 이러한 실패 경우 대부분에서 낙관적 쿼리를 되돌릴 수 있는 재요청만으로 문제를 해결할 수 있습니다. 그러나 때로는, 재요청이 제대로 작동하지 않아 뮤테이션 오류가 서버 문제와 관련된 경우 낙관적 업데이트를 되돌리는 것이 더 나을 수 있습니다.
 
@@ -246,9 +308,7 @@ export default function Home() {
         {data?.map((todo) => (
           <li key={todo.id}>{todo.task}</li>
         ))}
-        {isPending && (
-          <li className="opacity-50 text-white">{variables.task}</li>
-        )}
+        {isPending && <li className="opacity-50 text-white">{variables.task}</li>}
       </ul>
     </div>
   );
@@ -257,6 +317,17 @@ export default function Home() {
 
 무한 스크롤링과 페이지네이션
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위는 React Query를 사용한 무한 스크롤 및 페이지네이션 예제입니다. 곧 관련 블로그 글을 작성할 예정이니 함께 지켜봐 주세요.

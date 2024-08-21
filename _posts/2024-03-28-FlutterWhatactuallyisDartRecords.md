@@ -3,17 +3,13 @@ title: "플러터 다트 레코드가 실제로 뭐죠"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Flutter What actually is Dart Records"
 link: "https://medium.com/@marcoedomingos/flutter-what-actually-is-dart-records-1054aaab38ca"
 isUpdated: true
 ---
-
-
-
-
 
 한 해 전, 우리는 드디어 프로덕션으로 Dart 3가 출시된다는 소식을 들었습니다. 이 소식은 플러터 커뮤니티에게는 좋은 소식이었습니다. 왜냐하면 이번 업데이트로 Dart 레코드를 얻게 되었기 때문이죠. 하지만 Dart 레코드가 무엇이며 실제로 어떻게 작동하는 걸까요?
 
@@ -25,7 +21,18 @@ isUpdated: true
 (String, String) fullName= ('Marco', 'Domingos');
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 알겠어요, 이건 간단하게 들리지만 정작 어떻게 작동하는지는 많이 알려주지 않죠? 그래서 문서가 레코드를 어떻게 정의하는지 자세히 살펴봅시다.
 
@@ -35,7 +42,18 @@ Dart 문서에 따르면 레코드는 익명이면서 불변한 집합형 자료
 
 ## 익명
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기록은 익명 유형이라고 합니다. 즉, 기록에 데이터 유형과 관련된 이름이 없음을 의미합니다. 예를 들어, 텍스트 변수를 원한다면 다음과 같이 정의해야 합니다:
 
@@ -49,7 +67,18 @@ String name = 'marco';
 (String, String) fullName = ('Marco', 'Domingos');
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래의 Markdown 형식 표를 사용하면 레코드 데이터 유형의 변수 이름을 지정할 필요 없이 동일한 결과를 얻을 수 있습니다.
 
@@ -65,7 +94,18 @@ void main() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 변수를 정의한 후에 값을 변경하려고 하면 "최종 변수 'name'은 한 번만 정의할 수 있습니다"라는 오류가 발생합니다.
 
@@ -80,7 +120,18 @@ void main() {
 
 ## 집계
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막으로, 레코드는 집합 유형의 변수들이기도 합니다. 즉, 레코드는 여러 값을 가져와서 하나의 객체로 결합합니다. 여기에서 커뮤니티가 레코드의 정의를 얻은 곳이기도 합니다. 우리가 집합 유형의 변수와 상호 작용하는 것은 새로운 것이 아닙니다. 예를 들어:
 
@@ -99,7 +150,18 @@ void main() {
 
 이 값을 출력하면 "hello {Name: Marco, Surname: Domingos}"이라는 Map 값이 있는 단일 객체를 얻습니다. 레코드에서도 원칙은 동일합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 void main() {
@@ -115,7 +177,18 @@ void main() {
 
 여기 레코드에 관한 재미있는 사실들:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1- 레코드는 컬렉션의 유형이 아니지만 구문이 비슷해서 종종 Collection 유형의 변수로 혼동될 수 있어요.
 
@@ -130,7 +203,18 @@ void main() {
 
 이렇게 해야 하는 이유는 일부 구현에서 한 개의 필드만 있는 Records가 괄호로 묶인 표현식과 혼동할 수 있기 때문이에요. 유형 뒤에 ‘,’를 추가함으로써, 변수의 유형을 하나의 필드를 가진 Records로 확정시킬 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3- Dart 레코드 표현식은 이름 지정된 필드 또는 위치 지정된 필드의 쉼표로 구분된 목록입니다. 이는 각 필드에 접근할 수 있음을 의미합니다:
 
@@ -152,7 +236,18 @@ void main() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 개 다 "안녕 도밍고스"를 출력할 것입니다.
 
@@ -162,7 +257,18 @@ void main() {
 
 읽어주셔서 감사합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다른 흥미로운 기사를 찾거나 나에게 연락하려면 아래를 참고하세요:
 

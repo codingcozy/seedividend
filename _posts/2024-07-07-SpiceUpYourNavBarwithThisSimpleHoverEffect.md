@@ -3,15 +3,13 @@ title: "간단한 호버 효과로 네비게이션 바 멋지게 꾸미는 방�
 description: ""
 coverImage: "/assets/img/2024-07-07-SpiceUpYourNavBarwithThisSimpleHoverEffect_0.png"
 date: 2024-07-07 12:44
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-SpiceUpYourNavBarwithThisSimpleHoverEffect_0.png
 tag: Tech
 originalTitle: "Spice Up Your Nav Bar with This Simple Hover Effect"
 link: "https://medium.com/@support_59471/spice-up-your-nav-bar-with-this-simple-hover-effect-09fcdeeac9d7"
 isUpdated: true
 ---
-
-
 
 PreCodeCamp.com의 로브가 만든 이 흥미로운 비디오 튜토리얼은 네비게이션 바를 간단한 호버 효과로 향상시키는 방법을 소개하고 보여줍니다.
 
@@ -21,7 +19,18 @@ CodePen: [여기](https://codepen.io/precodecamp/pen/MWdXozQ?editors=1100)
 
 로브는 CSS를 사용하여 세련된 밑줄 호버 효과가 있는 간단한 네비게이션 바를 만드는 방법을 보여줍니다. 네비게이션 요소 설정하는 방법, 불릿 포인트 제거, 레이아웃을 위해 Flexbox 사용, 그리고 다듬어진 외관을 위해 앵커 태그를 사용하는 방법을 배울 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 Markdown 형식으로 변경한 내용입니다.
 
@@ -35,7 +44,18 @@ Key takeaways include:
 - Removing list bullet points
 - Styling anchor tags and implementing pseudo-elements for hover effects
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ✨ 내비게이션 바를 업그레이드하고 싶나요? Rob와 함께 코드에 빠져보세요. 이 간단한 호버 효과로 네비게이션 바를 더욱 멋지게 만들어보세요.
 
@@ -45,7 +65,18 @@ Key takeaways include:
 
 즐거운 코딩하세요! 🚀 무료 VS CODE 설정 비디오: [여기](https://links.precodecamp.com/free-vs-code-video-series) 라이브 코칭으로 기본기 배우기: [이곳](https://links.precodecamp.com/learn-about-code)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 링크를 사용하여 서버에 참여해주세요: [https://discord.gg/EGeSumD8qe](https://discord.gg/EGeSumD8qe)
 

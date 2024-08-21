@@ -3,17 +3,13 @@ title: "리액트 사용하기 제어된 폼에 대한 단계별 안내"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Working with React A Step-by-Step Guide to Controlled Forms"
 link: "https://medium.com/@ianflurkey/working-with-react-a-step-by-step-guide-to-controlled-forms-253723dde858"
 isUpdated: true
 ---
-
-
-
-
 
 리액트를 학습 중인 학생으로서 여러 가지 다양한 도전에 직면해 왔어요. 이 중에서 가장 큰 도전 중 하나는 제어 폼이 어떻게 작동하는지 이해하는 것이었어요. 이 블로그 포스트에서 나는 제어 폼을 생성하는 과정을 안내하면서, 제 자신의 학습 여정에서 얻은 통찰과 팁을 공유할 거예요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 - JSX로 초기 폼 생성하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 JSX를 컴포넌트에 통합하는 것부터 시작해봅시다. JSX는 자바스크립트에서 HTML과 유사한 코드를 작성할 수 있게 해주는 구문 확장입니다. 먼저 form 컴포넌트의 반환 값에 `form` 요소를 만들어 보겠습니다.
 
@@ -44,7 +51,18 @@ export default myForm;
 
 이제 form에 입력 필드를 넣어봅시다. 이 예제에서는 텍스트 입력 필드를 사용할 것이지만, 체크박스부터 드롭다운 메뉴까지 가능한 다양한 입력 유형에 개념이 적용됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <form>
@@ -60,7 +78,18 @@ export default myForm;
 const [myStateVariable, setMyStateVariable] = useState("");
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. 값 바인딩
 
@@ -72,7 +101,18 @@ JSX에서는 입력 요소와 상태 변수 간에 직접적인 연결을 설정
 
 5. 변경 처리
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현재, 필드에 텍스트를 입력해도 어떤 시각적 변화도 보이지 않습니다. 이 문제를 해결하기 위해 사용자 입력을 캡처하고 예상 데이터 형식과 일치하는지 확인하는 기능이 필요합니다. 여기서 handleChange 함수가 필요합니다. 이 함수는 매우 중요한 역할을 합니다. 사용자 입력을 캡처하고 상태 변수를 적절하게 업데이트하여 효과적인 상태 관리를 보장합니다. useState 덕분에 setMyVariable을 호출할 때마다 컴포넌트가 다시 렌더링되어 폼이 반응적이고 사용자 친화적인 상태를 유지합니다.
 
@@ -87,7 +127,18 @@ const handleChange = (e) => {
 
 이제 우리는 폼, 입력, 입력 값으로 설정된 상태 변수 및 상태 수정 함수를 제어하는 변경 처리 함수를 갖추었습니다. 하지만 입력 필드에 텍스트를 입력해도 아무 변화도 일어나지 않습니다. 입력 필드에는 한 가지 더 중요한 측면이 있습니다: onChange 속성이 필요하며 그 속성은 handleChange 함수로 설정되어야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <input type="text" value={myStateVariable} onChange={handleChange} />
@@ -104,7 +155,18 @@ const handleSubmit = (e) => {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 onSubmit 속성을 사용하여 이를 양식과 연결합니다.
 
@@ -140,7 +202,18 @@ function myForm() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결론
 

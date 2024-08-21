@@ -3,17 +3,13 @@ title: "유지보수하기 쉬운 CSS 작성방법 팁"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Clean  Maintainable  Reusable  Scalable Css"
 link: "https://medium.com/@egemenhalici/clean-maintainable-reusable-scalable-css-8e6f7ac90783"
 isUpdated: true
 ---
-
-
-
-
 
 ![CleanMaintainableReusableScalableCss_0.png](/assets/img/CleanMaintainableReusableScalableCss_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ## 객체 지향 CSS (OOCSS):
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 OOCSS는 수천 개의 페이지에 대한 확장 가능한 CSS를 위한 네이밍 방법론입니다. 주로 2가지 원칙이 있습니다.
 
@@ -33,7 +40,18 @@ OOCSS는 수천 개의 페이지에 대한 확장 가능한 CSS를 위한 네이
 
 레이아웃 스타일은 너비, 높이, 여백 등에 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 디자인 스타일은 테두리, 색상, 글꼴 등을 위한 것입니다.
 
@@ -58,7 +76,18 @@ OOCSS는 수천 개의 페이지에 대한 확장 가능한 CSS를 위한 네이
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예시에서는 여백 및 안쪽 여백이 다른 클래스에 있고, 색상 및 테두리 값은 다른 클래스에 있습니다. HTML 부분에서 다음과 같이 작성합니다.
 
@@ -72,7 +101,18 @@ OOCSS는 수천 개의 페이지에 대한 확장 가능한 CSS를 위한 네이
 OOCSS 위키에 따르면 이는 "위치에 의존적인 스타일을 드물게 사용해야 한다"를 의미합니다.
 최대한 자식-부모 관계를 피해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 원칙에 대한 예시
 
@@ -97,7 +137,18 @@ h1 {
 
 이 예시에서는 헤더 색상을 여러 번 사용할 수 있습니다. 만약 h1 태그에 header-color 클래스가 없으면 동일하게 보입니다. 반면에 header-color 클래스는 block-header 외부에서도 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또한 OOCSS GitHub 위키 페이지를 확인해보세요 😊
 
@@ -107,7 +158,18 @@ h1 {
 
 첫 번째 질문은, 왜 이 원칙을 BEM이라고 부르게 되었을까요? 🤔
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 BEM 방법론에서는 웹 페이지의 주요 구조 구성 요소를 블록이라고 합니다.
 
@@ -137,7 +199,18 @@ BEM 방법론에서는 웹 페이지의 주요 구조 구성 요소를 블록이
 </div>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 많은 정보를 원하시면 공식 BEM 웹사이트를 확인해주세요.
 
@@ -147,7 +220,18 @@ BEM 방법론에서는 웹 페이지의 주요 구조 구성 요소를 블록이
 
 Base, Layout, Module, State, Theme.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 베이스: p, h1, span, div와 같은 기본 HTML 태그입니다.
 
@@ -157,7 +241,18 @@ Base, Layout, Module, State, Theme.
 
 상태: 요소의 활성, 활성화, 숨겨진 상태입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테마: 모든 요소 스타일은 여기에 있습니다.
 
@@ -167,7 +262,18 @@ SMACSS에는 권장되는 네이밍 규칙이 있습니다.
 
 모듈의 경우, 접두사 없이 직접 모듈 이름을 사용합니다. 예: .contact-form
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 State에 대해서, 접두사로 -is를 사용하실 수 있습니다. 예를 들어 is-hidden 또는 is-tab-active 같이요.
 
@@ -175,6 +281,17 @@ State에 대해서, 접두사로 -is를 사용하실 수 있습니다. 예를 �
 
 CSS 작성 방법론에는 총 3가지가 있습니다. 이 세 가지 방법론을 동시에 하나의 프로젝트에서 사용하거나 필요에 맞는 하나를 선택하여 사용할 수 있습니다. 이러한 방법론은 간결하고 유지보수가 용이하며 확장 가능한 CSS를 개발하기 위해 고안되었습니다. 또한 Less, Sass, SCSS와 같은 CSS 전처리기에도 이 방법론을 적용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 행복한 코딩하세요!

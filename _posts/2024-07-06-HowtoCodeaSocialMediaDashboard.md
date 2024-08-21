@@ -3,15 +3,13 @@ title: "소셜 미디어 대시보드 코딩하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-06-HowtoCodeaSocialMediaDashboard_0.png"
 date: 2024-07-06 10:18
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-06-HowtoCodeaSocialMediaDashboard_0.png
 tag: Tech
 originalTitle: "How to Code a Social Media Dashboard"
 link: "https://medium.com/@learntocodetoday/how-to-code-a-social-media-dashboard-1b1a2c8e9c40"
 isUpdated: true
 ---
-
-
 
 /assets/img/2024-07-06-HowtoCodeaSocialMediaDashboard_0.png
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 시작하기 전에 다음 사항을 확인하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - HTML, CSS, JavaScript에 대한 기본 지식이 필요합니다.
 - 텍스트 편집기(예: VSCode, Sublime Text, 또는 Atom)가 필요합니다.
@@ -33,7 +42,18 @@ isUpdated: true
 
 프로젝트 구조:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 social-media-dashboard/
 ├── index.html
@@ -46,7 +66,18 @@ social-media-dashboard/
 
 index.html:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```html
 <!DOCTYPE html>

@@ -3,16 +3,13 @@ title: "AI 콘텍스트 Neurosymbolic RAG 내용 정리"
 description: ""
 coverImage: "/assets/img/2024-05-17-ContextualAINeurosymbolicRAGandthePowerofKnowledgeGraphs_0.png"
 date: 2024-05-17 04:17
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-17-ContextualAINeurosymbolicRAGandthePowerofKnowledgeGraphs_0.png
 tag: Tech
 originalTitle: "Contextual AI: Neurosymbolic RAG and the Power of Knowledge Graphs"
 link: "https://medium.com/codex/contextual-ai-neurosymbolic-rag-and-the-power-of-knowledge-graphs-6ba0a30e363d"
 isUpdated: true
 ---
-
-
-
 
 지식 그래프를 활용한 검색 기반 생성 (RAG)은 실세계 LLM 응용 프로그램에 대한 중요한 AI 스택입니다.
 
@@ -22,7 +19,18 @@ RAG는 언어 모델이 생성 과정 중 외부 지식을 검색하고 통합�
 
 지식 그래프의 심볼적 지지체 안에 RAG를 고정시킴으로써, 순수히 신경적인 접근 방식에 오랫동안 부족했던 견고한 추론, 컨텍스트 인식 생성, 향상된 설명 및 해석 가능성을 AI 시스템에 주입할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또한, 이 신경-기호론 RAG 패러다임은 선량한 데이터 플라이휠 효과를 제시합니다.
 
@@ -32,7 +40,18 @@ AI 시스템이 물리적 증강을 위해 지식 그래프를 활용하는 동�
 
 또한, LLMs가 생성 프로세스 중에 다양한 관련 예시를 제공받는 많은 예시 내 문맥 학습의 파워를 활용함으로써, 우리는 신경-기호론 RAG의 이점을 확대시키고 AI 시스템이 풍부한 맥락화 된 지식과 추론 패턴으로부터 학습하도록 할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # I. 순수한 신경망 접근 방식의 제한
 
@@ -42,7 +61,18 @@ AI 시스템이 물리적 증강을 위해 지식 그래프를 활용하는 동�
 
 특히 대형 언어 모델(LLM)은 데이터의 통계적 패턴을 캡처하는 데 뛰어나지만, 사람들이 가진 합성성, 인과관계, 시간성 및 상식 추론을 통합하는 데 어려움을 겪습니다. 이는 복잡한 시나리오에서 일관성이 없거나 비논리적인 결과물로 이어질 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## B. 규범화, 시간 이해 및 상식 추론에서의 과제:
 
@@ -52,7 +82,18 @@ AI 시스템이 물리적 증강을 위해 지식 그래프를 활용하는 동�
 
 기업이 심층적인 AI 발전을 추구하는 가운데, 인간의 지식을 구조화된 지타구로 인코딩하는 것이 필수적입니다. 비구조화된 데이터에서의 순수한 통계적 학습은 현실 세계를 조절하는 풍부한 관계, 제약 및 규칙을 포착하지 못합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 한계를 해결하기 위해 연구자들은 신경 기호 접근법을 채택해왔습니다. 이 방법은 신경망의 유연성과 학습 능력을 기호적 시스템의 구조화된 지식과 추론 능력과 결합합니다.
 
@@ -62,7 +103,18 @@ AI 시스템이 물리적 증강을 위해 지식 그래프를 활용하는 동�
 
 ### A. 지식 그래프의 정의:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지식 그래프는 지식의 그래프 기반 표현으로, 노드는 엔티티(예: 사람, 장소, 개념)를 나타내고 엣지는 이러한 엔티티 간의 관계(예: 출생지, 근무처, 친구)를 나타냅니다.
 
@@ -75,7 +127,18 @@ AI 시스템이 물리적 증강을 위해 지식 그래프를 활용하는 동�
 - 논리적 추론과 추론 용이성 제공
 - 지식의 쿼리 및 탐색 용이성을 제공
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## C. 다양한 도메인에서의 지식 그래프의 다양한 응용:
 
@@ -88,7 +151,18 @@ AI 시스템이 물리적 증강을 위해 지식 그래프를 활용하는 동�
 
 지식 그래프의 구조화된 특성을 활용함으로써, AI 시스템은 다양한 지식의 풍부한 직물에 접근하여 보다 견고한 추론 및 세간적인 이해를 가능케 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # III. 검색 보강 생성 (RAG): 언어 모델 강화
 
@@ -98,7 +172,18 @@ AI 시스템이 물리적 증강을 위해 지식 그래프를 활용하는 동�
 
 RAG 시스템은 다양한 방법을 통해 LLM을 보강할 수 있습니다. 이 방법에는 이와 같은 것들이 포함됩니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 쿼리 기반: 검색된 콘텐츠가 LLM 프롬프트로 직접 공급됩니다.
 - 잠재: LLM이 검색된 개체의 잠재 임베딩과 상호 작용합니다.
@@ -111,7 +196,18 @@ RAG 시스템은 다양한 방법을 통해 LLM을 보강할 수 있습니다. �
 
 ## C. 지식 그래프 증강 RAG (논리 RAG)의 잠재력:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 외부 지식 원천으로 지식 그래프를 통합함으로써, RAG 시스템은 실세계 엔티티, 관계 및 제약 조건의 구조화된 표현을 활용할 수 있습니다. 이 접근 방식은 종종 "논리 RAG"라고 불리며, 복잡한 추론 및 컨텍스트 인식 생성을 용이하게 하는 더 고급 검색 패러다임을 가능하게 합니다.
 
@@ -121,7 +217,18 @@ RAG 시스템은 다양한 방법을 통해 LLM을 보강할 수 있습니다. �
 
 RAG의 맥락에서 신호신경적 접근법은 신경망의 유연성과 학습 능력을 구조화된 지식 및 논리 추론 능력과 통합하는 것을 목표로 합니다. 종종 지식 그래프 형태로 이루어집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## A. 뉴로 심볼릭 접근:
 
@@ -131,7 +238,18 @@ RAG의 경우, 이는 신경망을 사용하여 언어 생성 및 지식 검색�
 
 ## B. 지식 그래프와 논리 검색 패러다임:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 논리적인 지식 그래프를 통한 검색에 대해 여러 패러다임이 제안되었습니다. 문맥을 고려하고 추론을 기반으로 한 지식 검색을 가능케 합니다:
 
@@ -142,7 +260,18 @@ RAG의 경우, 이는 신경망을 사용하여 언어 생성 및 지식 검색�
 
 3. Hybrid methods: 학습된 표현을 사용하여 상징적 알고리즘을 결합합니다(예: 중요한 제약 조건에 따라 검색된 개체를 필터링하는 경우).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## C. Contextual and grounded AI benefits of neurosymbolic RAG:
 
@@ -152,7 +281,18 @@ Through the integration of knowledge graphs into the RAG process, neurosymbolic 
 
 2. **Context-aware generation:** By retrieving relevant entities and relationships from knowledge graphs, rich contextual information is provided for language generation tasks. This results in more coherent and meaningful outputs.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가독성 및 해석력: 지식 그래프의 상징적 특성과 관계의 명시적 표현은 신호기호 RAG 시스템의 해석력과 가독성을 향상시킬 수 있습니다.
 
@@ -162,7 +302,18 @@ Through the integration of knowledge graphs into the RAG process, neurosymbolic 
 
 ![ContextualAINeurosymbolicRAGandthePowerofKnowledgeGraphs_1.png](/assets/img/2024-05-17-ContextualAINeurosymbolicRAGandthePowerofKnowledgeGraphs_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # V. 지식 그래프 내에서 협력 필터링을 결합한 예시와 문맥 학습에서의 검색
 
@@ -172,7 +323,18 @@ Through the integration of knowledge graphs into the RAG process, neurosymbolic 
 
 추천 시스템에서의 협력 필터링 기술은 후보자를 직무 요구 사항에 대해 점수화하는 데 적용될 수 있으며, 후보자와 요구 사항의 유사성을 고려합니다. 이 접근 방식은 후보자 정보, 공석 정보, 기술, 요구 사항 및 점수를 지식 그래프 내에 저장하는 것을 포함합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## B. 지식 그래프를 활용한 지능적인 유사성 계산:
 
@@ -184,7 +346,18 @@ Through the integration of knowledge graphs into the RAG process, neurosymbolic 
 
 ## C. 사용자 피드백을 통한 지속적인 개선과 설명력:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시스템은 사용자 피드백을 기반으로 유사성 계산을 지속적으로 개선하는 피드백 루프를 구현할 수 있습니다.
 
@@ -194,7 +367,18 @@ Through the integration of knowledge graphs into the RAG process, neurosymbolic 
 
 # VI. 응용 및 현실 세계 사용 사례
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Neurosymbolic RAG with Knowledge Graphs has the potential to unlock a wide range of applications and real-world use cases, spanning various domains and industries. Here are some examples:
 
@@ -204,7 +388,18 @@ Neurosymbolic RAG with Knowledge Graphs has the potential to unlock a wide range
 
 ## B. 추천 시스템 및 개인화 어시스턴트:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지식 그래프를 증강한 RAG는 권장 시스템과 개인화된 어시스턴트를 개선하여 사용자 선호도, 제품 속성 및 맥락 제약의 더 섬세한 이해를 가능케 합니다. 이는 더 관련성 높고 맞춤형 권장 사항을 제공하여 사용자 만족도와 참여도를 향상시킬 수 있습니다.
 
@@ -214,7 +409,18 @@ Neurosymbolic RAG with Knowledge Graphs has the potential to unlock a wide range
 
 ### D. 기업 의사결정 지원 및 업무 자동화:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지식 그래프는 기업 내의 조직 구조, 정책, 워크플로 및 도메인 특정 지식을 포착할 수 있습니다. 이러한 지식 그래프를 RAG 시스템에 통합하면 더 지능적인 의사 결정 지원, 자동 추론 및 워크플로 최적화를 가능하게 하여 효율성을 증가시키고 더 나은 결정을 내릴 수 있게 도와줄 수 있습니다.
 
@@ -224,7 +430,18 @@ Neurosymbolic RAG with Knowledge Graphs has the potential to unlock a wide range
 
 ## A. 지식 그래프 구축 및 유지 관리:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 높은 품질의 지식 그래프를 구축하고 유지하는 것은 복잡하고 자원 소모적인 작업입니다. 종종 상당한 도메인 전문 지식과 수동으로 관리하는 작업이 필요합니다. 자동화된 지식 그래프 구축 및 정제 기술은 이러한 시스템의 널리 통용되는 채택을 위해 중요할 것입니다.
 
@@ -234,7 +451,18 @@ Neurosymbolic RAG with Knowledge Graphs has the potential to unlock a wide range
 
 ## C. 신경 기호 주의 모델의 해석 가능성과 투명성:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 심볼릭 구성 요소가 뇌 심볼릭 RAG 시스템의 해석 가능성을 향상시킬 수 있지만, 신경 구성 요소는 여전히 불투명성과 투명성의 부족을 도입할 수 있습니다. 이러한 혼합 모델이 내린 결정을 해석하고 설명하는 기술은 신뢰를 구축하고 인간-인공지능 협업을 원활하게 하는 데 중요할 것입니다.
 
@@ -244,7 +472,18 @@ Neurosymbolic RAG with Knowledge Graphs has the potential to unlock a wide range
 
 이러한 도전에도 불구하고, 뇌 심볼릭 RAG 및 지식 그래프 통합 분야는 맥락적이고 뿌리있는 AI의 미래를 형성하는 데 엄청난 잠재력을 가지고 있습니다. 이 분야에서 계속되는 연구, 협업 및 혁신은 인공지능의 전체 잠재력을 발휘하고, 인간과 유사한 지능으로 세계를 인지하고 조작할 수 있는 시스템을 가능하게 하는 데 중요할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -254,6 +493,17 @@ Neurosymbolic RAG with Knowledge Graphs has the potential to unlock a wide range
 
 지식 그래프와 함께하는 신경 기호론적 RAG의 응용은 질의 응답, 추천 시스템, 생명과학 연구, 그리고 기업 의사 결정 지원을 포함한 다양한 분야에 걸쳐 있습니다. 구조화된 지식과 논리적 추론을 활용함으로써 이러한 시스템은 더 정확하고 맥락적이며 통찰력 있는 결과물을 제공하여 실제로 지적이고 터무니없는 AI 솔루션으로 향하게 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 신경 기호 RAG의 완전한 잠재력을 실현하려면 지식 그래프 구축 및 유지, 확장성 및 계산 복잡성, 해석 가능성 및 투명성, 다중 모달 데이터 및 상식 추론과 같은 도전을 극복해야 합니다. 이러한 영역에서 계속된 연구, 협업 및 혁신이 문맥적이고 기초가 있는 AI의 미래를 결정하는 데 중요할 것입니다.

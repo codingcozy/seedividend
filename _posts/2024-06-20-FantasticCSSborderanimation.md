@@ -3,7 +3,7 @@ title: "환상적인 CSS 테두리 애니메이션"
 description: ""
 coverImage: "/assets/img/2024-06-20-FantasticCSSborderanimation_0.png"
 date: 2024-06-20 06:05
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-FantasticCSSborderanimation_0.png
 tag: Tech
 originalTitle: "Fantastic CSS border animation"
@@ -11,20 +11,26 @@ link: "https://medium.com/frontend-canteen/fantastic-css-border-animation-b02e06
 isUpdated: true
 ---
 
-
-
-
 오늘 나는 블로그 사이트인 shoptalkshow를 방문했는데, 그 사이트에서 다음과 같은 스타일을 보게 되어 정말 흥미로웠어요:
 
-
 <img src="/assets/img/2024-06-20-FantasticCSSborderanimation_0.png" />
-
 
 그 사이트의 스타일은 유니크하다고 생각되며, 특히 일부 베젤들이 돋보였어요.
 
 따라서, 이 글에서는 CSS를 사용하여 다양하고 멋진 테두리 효과를 만들어볼 거예요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # CSS Border 속성
 
@@ -34,7 +40,18 @@ isUpdated: true
 
 ![Fantastic CSS Border Animation](/assets/img/2024-06-20-FantasticCSSborderanimation_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것들은 기본 사항들입니다. 다른 스타일의 테두리를 구현하거나 테두리에 애니메이션을 추가하려면 몇 가지 다른 속성과 협력하거나 마음을 열어야 합니다. 좋아요, 몇 가지 추가로 흥미로운 테두리를 살펴보겠습니다.
 
@@ -44,7 +61,18 @@ isUpdated: true
 
 <img src="/assets/img/2024-06-20-FantasticCSSborderanimation_2.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사실 이것은 두 가지 의사 요소가 요소를 빌려 사용하는 것입니다. 두 의사 요소의 상단 및 왼쪽 테두리, 아래쪽 및 오른쪽 테두리가 각각 설정되어 있으며, hover을 통해 두 가지 의사 요소의 높이와 너비를 변경할 수 있습니다. 이해하기 매우 쉽습니다.
 
@@ -52,7 +80,7 @@ isUpdated: true
 div {
     position: relative;
     border: 1px solid #03A9F3;
-    
+
     &::before,
     &::after {
         content: "";
@@ -60,21 +88,21 @@ div {
         width: 20px;
         height: 20px;
     }
-    
+
     &::before {
         top: -5px;
         left: -5px;
         border-top: 1px solid var(--borderColor);
         border-left: 1px solid var(--borderColor);
     }
-    
+
     &::after {
         right: -5px;
         bottom: -5px;
         border-bottom: 1px solid var(--borderColor);
         border-right: 1px solid var(--borderColor);
     }
-    
+
     &:hover::before,
     &:hover::after {
         width: calc(100% + 9px);
@@ -87,7 +115,18 @@ CodePen Demo — 너비 테두리 애니메이션
 
 다음으로 난이도를 조금 더 심화해 볼 예정입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 점선 테두리 애니메이션
 
@@ -101,26 +140,46 @@ div {
 
 ![Fantastic CSS border animation](/assets/img/2024-06-20-FantasticCSSborderanimation_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 물론, 테이블 태그를 마크다운 형식으로 변경하겠습니다.
 
-
 | 브라우저 | 지원 여부 |
-| ------- | --------- |
-| Chrome  | 예        |
-| Firefox | 예        |
-| Safari  | 예        |
-| Edge    | 예        |
+| -------- | --------- |
+| Chrome   | 예        |
+| Firefox  | 예        |
+| Safari   | 예        |
+| Edge     | 예        |
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래디언트는 여러 개의 그래디언트를 지원해요. 우리는 모든 컨테이너의 네 면을 나타내기 위해 그래디언트를 사용할 수 있어요:
 
 ```js
 div {
-    background: 
+    background:
         linear-gradient(90deg, #333 50%, transparent 0) repeat-x,
         linear-gradient(90deg, #333 50%, transparent 0) repeat-x,
         linear-gradient(0deg, #333 50%, transparent 0) repeat-y,
@@ -134,7 +193,18 @@ div {
 
 <img src="/assets/img/2024-06-20-FantasticCSSborderanimation_5.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 좋아요, 지금까지 우리의 점선 테두리 애니메이션이 사실상 절반 이상 완료되었습니다. 애니메이션에서 border-style: dashed가 지원되지는 않지만 gradients는 지원됩니다. 우리는 hover 효과를 추가하고 animation을 추가할 때, 배경 위치를 변경할 수 있습니다.
 
@@ -154,7 +224,18 @@ div:hover {
 
 <img src="/assets/img/2024-06-20-FantasticCSSborderanimation_6.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 또 하나의 작은 꿀팁이 있어요. 만약 주어진 그림자 테두리 애니메이션을 다른 테두리에서 대시 테두리로 전환하고 싶은 경우, 애니메이션을 시뮬레이션하는 것이 가능해요. 예를 들어 다음과 같을 거예요:
 
@@ -164,7 +245,7 @@ div {
 
     &:hover {
         border: none;
-        background: 
+        background:
             linear-gradient(90deg, #333 50%, transparent 0) repeat-x,
             linear-gradient(90deg, #333 50%, transparent 0) repeat-x,
             linear-gradient(0deg, #333 50%, transparent 0) repeat-y,
@@ -179,15 +260,26 @@ div {
 
 ![예시 이미지](/assets/img/2024-06-20-FantasticCSSborderanimation_7.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-위 문제를 해결하기 위해 테이블 태그를 마크다운 형식으로 변경할 수 있습니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+위 문제를 해결하기 위해 테이블 태그를 마크다운 형식으로 변경할 수 있습니다.
 
 ```js
 div {
     outline: 1px solid #333;
     outline-offset: -1px;
-    
+
     &:hover {
         outline: none;
     }
@@ -198,7 +290,18 @@ div {
 
 ![버튼 효과](/assets/img/2024-06-20-FantasticCSSborderanimation_8.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 Demo의 전체 코드는 다음과 같습니다:
 
@@ -208,26 +311,40 @@ CodePen 데모 - 대시 테두리 애니메이션
 
 그라데이션을 사용하면 위의 효과뿐만 아니라 더 많은 효과를 얻을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그라데이션에 대해 자세히 들어가서 이러한 배경을 만들기 위해 그라데이션을 사용하고 있어요:
 
 ```css
 div {
-    position: relative;
+  position: relative;
 
-    &::after {
-        content: '';
-        position: absolute;
-        left: -50%;
-        top: -50%;
-        width: 200%;
-        height: 200%;
-        background-repeat: no-repeat;
-        background-size: 50% 50%, 50% 50%;
-        background-position: 0 0, 100% 0, 100% 100%, 0 100%;
-        background-image: linear-gradient(#399953, #399953), linear-gradient(#fbb300, #fbb300), linear-gradient(#d53e33, #d53e33), linear-gradient(#377af5, #377af5);
-    }
+  &::after {
+    content: "";
+    position: absolute;
+    left: -50%;
+    top: -50%;
+    width: 200%;
+    height: 200%;
+    background-repeat: no-repeat;
+    background-size: 50% 50%, 50% 50%;
+    background-position: 0 0, 100% 0, 100% 100%, 0 100%;
+    background-image: linear-gradient(#399953, #399953), linear-gradient(#fbb300, #fbb300), linear-gradient(
+        #d53e33,
+        #d53e33
+      ), linear-gradient(#377af5, #377af5);
+  }
 }
 ```
 
@@ -235,7 +352,18 @@ div {
 
 ![FantasticCSSborderanimation_9](/assets/img/2024-06-20-FantasticCSSborderanimation_9.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로, 그것에 회전을 추가해 보세요:
 
@@ -255,7 +383,18 @@ div {
 
 <img src="/assets/img/2024-06-20-FantasticCSSborderanimation_10.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막으로 가상 요소를 사용하여 중간 부분을 가리고 멋진 테두리 애니메이션이 나오게 할 수 있어요. (투명한 요소들이 애니메이션 속에서 나타나면, 원리를 이해하는 데 도움이 될 거예요):
 
@@ -265,7 +404,18 @@ div {
 
 CodePen Demo - 그라데이션 테두리 애니메이션
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 그라데이션 색상 변경
 
@@ -289,8 +439,18 @@ div::after {
 
 이와 같은 그래픽을 얻을 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-20-FantasticCSSborderanimation_12.png" />
 
@@ -300,8 +460,18 @@ div::after {
 
 CodePen 데모 - 그라데이션 테두리 애니메이션 2
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 와우, 정말 멋지네요. 그러나 한 줄인 경우 뚜렷한 결함이 있습니다. 즉, 테두리 끝이 작은 삼각형인 대신 수직인 경우가 있습니다. 이는 특정 시나리오에서 적용되지 않거나 PM이 이를 수용하지 않을 수 있습니다.
 
@@ -311,7 +481,18 @@ CodePen 데모 - 그라데이션 테두리 애니메이션 2
 
 # 코닉 그래디언트의 스마트한 사용
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 clip-path에 대해서 더 이상 진행하기 전에, 우선 각도 그라데이션에 대해 이야기해 봅시다.
 
@@ -322,7 +503,7 @@ CodePen 데모 - 그라데이션 테두리 애니메이션 2
 ```js
 .conic {
     position: relative;
-    
+
     &::before {
         content: '';
         position: absolute;
@@ -341,7 +522,18 @@ CodePen 데모 - 그라데이션 테두리 애니메이션 2
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 렌더링 및 개요도입니다. 부분 각도 그라데이션을 사용하여 그래프를 회전하고, 다른 가상 요소를 사용하여 중간 부분을 마스킹하여 선 부분 만이 노출되도록합니다:
 
@@ -351,7 +543,18 @@ CodePen 데모 - 회전 테두리 3
 
 # 클립 경로의 스마트한 사용
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전에 친한 친구 clip-path가 다시 나타났습니다. 재미있는 일은 결코 없을 것입니다.
 
@@ -392,7 +595,18 @@ div {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 스키매틱 다이어그램과 함께 렌더링 내용입니다:
 
@@ -402,7 +616,18 @@ CodePen - 클립 패스 보더 애니메이션
 
 여기서는 요소가 클립된다는 점을 감안하고 가상 요소를 사용하여 클리핑 및 애니메이션용 배경으로 사용할 수 있습니다. clip-path를 사용하면 잘려진 보더가 작은 삼각형을 생성하지 않는다는 것을 기억해 주세요. 동시에 이 방법은 둥근 border-radius모서리도 지원합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 다른 가상 요소를 사용하여 실제로 버튼 스타일을 구현한다면 다음과 같은 효과를 얻을 수 있습니다:
 
@@ -412,7 +637,18 @@ CodePen — clip-path border animation 2
 
 # overflow의 스마트한 활용
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 트릭은 오버플로우를 사용하여 구현되었습니다. 이러한 테두리 애니메이션을 구현해보세요:
 
@@ -422,8 +658,18 @@ CodePen — clip-path border animation 2
 
 도표를 붙여주세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-20-FantasticCSSborderanimation_19.png" />
 
@@ -434,8 +680,18 @@ Two core points:
 - We use overflow: hiddento hide an entire element that was originally outside the container
 - used transform-origin, controls the center of rotation of the element
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사실 흥미로운 CSS 효과 대부분이 비슷한 기술을 사용한다는 것을 발견했나요?
 
@@ -445,7 +701,18 @@ Two core points:
 
 border-image를 사용하여 흥미로운 테두리 애니메이션도 구현할 수 있습니다. border-image에 대해 매우 좋은 설명글이 있습니다 -- border-image의 올바른 사용법, 이 글은 기본 정의에 대해 자세히 설명하지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 이런 그래프가 있다면:
 
@@ -464,7 +731,18 @@ div {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위와 같이 요소의 높이와 너비를 마음대로 변경할 수 있으므로, 컨테이너 테두리의 크기에 맞춰 확장할 수 있습니다:
 
@@ -474,7 +752,18 @@ div {
 
 그리고, 이 기사인 — border-image를 사용한 SVG 애니메이션 방법 에서도, 매우 멋진 효과를 낼 수 있는 border animation를 설명했었어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 예제와의 차이점은 우리가 패턴을 움직이게 할 필요가 있다는 점입니다. 즉, 이러한 배경 이미지가 필요합니다:
 
@@ -484,7 +773,18 @@ div {
 
 ![이미지](/assets/img/2024-06-20-FantasticCSSborderanimation_23.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CodePen 데모 — 춤추는 해골 테두리
 
@@ -494,7 +794,18 @@ border-image는 텍스처 참조 url에 추가하여 직접 색상 또는 그라
 
 border-image와 filter, clip-path를 사용하여 그라데이션 변환을 가진 둥근 테두리를 만들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .border-image-clip-path {
@@ -523,7 +834,18 @@ border-image와 filter, clip-path를 사용하여 그라데이션 변환을 가�
 
 # 마무리하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 iCSS에 좀 더 멋진 CSS 기술 관련 문서들이 요약되어 있어요.
 

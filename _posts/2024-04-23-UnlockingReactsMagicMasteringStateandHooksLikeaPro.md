@@ -3,17 +3,13 @@ title: "React에서 상태State와 훅스Hooks를 잘 사용하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Unlocking Reacts Magic Mastering State and Hooks Like a Pro"
 link: "https://medium.com/@michaelyoussef396/unlocking-reacts-magic-mastering-state-and-hooks-like-a-pro-a94c2cdbeda0"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/UnlockingReactsMagicMasteringStateandHooksLikeaPro_0.png)
 
@@ -25,7 +21,18 @@ isUpdated: true
 - 왜 훅을 사용해야 하나요? 이전에는 상태 관리를 하기 위해 복잡하고 시간이 많이 소요되는 라이프사이클 메소드를 포함한 대형 클래스 컴포넌트를 작성해야 했기 때문에 상태 관리는 어려웠습니다. 반복문을 사용하면 함수형 컴포넌트 내에서 자바스크립트 변수를 더 짧고 조직적인 방식으로 조작할 수 있게 됩니다.
 - 핵심 요소: useState — 가장 자주 사용되는 훅으로, 기본적인 상태를 추적하는 데 사용됩니다. 데이터 가져오기나 변경 사항에 구독하기와 같은 작업을 수행하려면 useEffect가 요긴하게 사용됩니다. 복잡한 상태 로직과 동작을 관리하기 위해서는 useReducer가 상태 전이와 동작을 효과적으로 관리하는 강력한 도구입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 지원되는 주장: Hooks의 활용
 
@@ -50,7 +57,18 @@ function Counter() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예제에서 useState는 두 요소를 가진 배열을 반환합니다: 현재 상태(count)와 다음 상태로 업데이트할 수 있는 함수(setCount). 간편하게 해당 함수를 사용하여 값의 추가 또는 감소를 할 수 있고, React는 자동으로 업데이트된 count로 컴포넌트를 다시 렌더링합니다.
 
@@ -72,7 +90,18 @@ function DataFetcher() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 useEffect 훅을 활용하려면, 첫 번째 인자에 함수를 작성하고 두 번째 인자에 의존성 배열을 작성하세요. 함수 선언 부분을 함수형 컴포넌트 내부에 배치하여 전반적인 함수 내에서 올바른 위치로 렌더링이 되도록 합니다. 이 경우에는 API URL을 인용하고, 요청 결과를 받은 후 상태 배열에 데이터를 저장합니다. 화살표 함수는 효과가 한 번 또는 컴포넌트가 등록될 때에 한 번 연결되어야 합니다.
 
@@ -82,6 +111,17 @@ useEffect 훅을 활용하려면, 첫 번째 인자에 함수를 작성하고 �
 
 # React 스킬을 레벨업하세요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트 스킬을 더욱 향상시키고 싶나요? Redux나 Zustand 같은 고급 상태 관리 라이브러리를 탐험해보거나, 커스텀 훅에 더 깊이 파고들어 볼 수도 있고, 복잡하고 현실적인 프로젝트들을 구축할 수도 있어요. 리액트 세계는 여러분의 게살이에요, 그러니 탐험을 시작하고 계속해서 배워나가세요!

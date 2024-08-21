@@ -3,17 +3,13 @@ title: "2024년 최고의 React 보일러플레이트 소개"
 description: ""
 coverImage: "/assets/img/2024-05-01-TopReactBoilerplates2024completeresearch_0.png"
 date: 2024-05-01 17:59
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-01-TopReactBoilerplates2024completeresearch_0.png
 tag: Tech
 originalTitle: "Top React Boilerplates 2024: complete research"
 link: "https://medium.com/javascript-in-plain-english/top-react-boilerplates-2024-complete-research-033f012603df"
 isUpdated: true
 ---
-
-
-
-
 
 ![React](/assets/img/2024-05-01-TopReactBoilerplates2024completeresearch_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 React 라이브러리는 의견을 가지지 않는 설계로, '맨 처음에' 정의되고 구성 요소를 관리하는 핵심 기능 이외에는 실제로 거의 어떤 추가 기능도 포함하지 않습니다. 따라서 프로퍼티 전달, 구성 요소 분해, React 응용 프로그램 파일 구조화, 전체 응용 프로그램 규모 확장 및 기타 세부 사항에 대한 최상의 방법을 알지 못하는 경우 쉽게 혼동할 수 있습니다. 이러한 함정은 내장 함수 및 구성 요소를 포함하여 개발 프로세스를 최적화하고 개발자가 초기 설정 및 구성 처리에 시간을 허비하는 대신 응용 프로그램 로직을 구축하는 데 집중할 수 있도록 하는 보일러플레이트를 사용하여 피할 수 있습니다. 다시 말해, 응용 프로그램 개발을 시작하는 표준화된 기점 역할을 합니다. GitHub에서 'react-boilerplate'을 검색하면 현재 44.8k 저장소가 나옵니다. 개발용으로 선택할 템플릿을 결정할 때, 자신의 응용 프로그램에 해당하고 확장성과 향후 유지 관리에 좋은 것을 선택하는 문제가 생깁니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # React 보일러플레이트 유형
 
@@ -33,7 +40,18 @@ React 보일러플레이트의 다양한 측면을 탐구함으로써, 어떤 �
 
 라이브러리와 설정:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 미니멀리즘 보일러플레이트: React 프로젝트를 위한 기본 구성을 제공하며, Webpack, Babel, ESLint 등의 기본 설정을 포함합니다. 개발자가 필요에 따라 특정 라이브러리와 기능을 추가할 것으로 가정합니다. 대부분의 보일러플레이트가 이 범주에 속합니다.
 - 기능이 풍부한 보일러플레이트: 미리 구성된 추가 라이브러리와 도구를 포함합니다. 상태 관리(예: Redux), 라우팅(React Router), 테스팅 등을 포함할 수 있으며, 기본 UI 구성 요소와 페이지를 포함할 수도 있어 개발 속도를 높여 공통 UI 요소와 레이아웃을 제공합니다.
@@ -45,7 +63,18 @@ React 보일러플레이트의 다양한 측면을 탐구함으로써, 어떤 �
 
 풀 스택 vs. 프론트엔드 전용:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 풀 스택 보일러플레이트: React를 사용한 프론트엔드와 백엔드를 모두 다루는 웹 애플리케이션을 구축하기 위한 종합적인 솔루션을 제공합니다.
 - 프론트엔드 전용 보일러플레이트: 주로 React 인터페이스에 초점을 맞춥니다. 개발자가 원하는 서버와 통합해야 합니다.
@@ -57,7 +86,18 @@ UI 컴포넌트 라이브러리:
 
 유료 vs. 무료:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 무료/오픈 소스 보일러플레이트: 사용에 제한이 없고 커뮤니티 지원이 있으며 종종 잘 유지보수됩니다.
 - 유료 보일러플레이트: 일부 상용 템플릿은 추가 기능, 프리미엄 지원 또는 확장된 기능을 제공합니다.
@@ -68,7 +108,18 @@ UI 컴포넌트 라이브러리:
 
 개발 중에 사용할 보일러플레이트를 결정하는 것은 그냥 애플리케이션을 만드는 것만큼이나 그 이후에 스케일링 및 유지보수하는 것과 관련이 있기 때문에 꽤 어려울 수 있습니다. 그래서 기존 보일러플레이트의 다양성에서 적절한 솔루션을 선택하고 일반적으로 어떻게 선택해야 하는 지 어떻게 결정할 수 있을까요? 프로젝트를 시작할 보일러플레이트를 선택할 때 주의를 기울여야 할 핵심 포인트는 다음과 같습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 지원 및 유지보수 옵션: 프로젝트는 정기적으로 업데이트되나요?
 - 성능 점수
@@ -82,7 +133,18 @@ React 애플리케이션을 개발하는 초기 단계는 일반적으로 Vite, 
 
 Vite는 웹 개발에서 빠른 개발 서버와 워크플로우 속도를 중점으로 두고 있습니다. 개발 중에 자체 ES 모듈을 가져와 시작 시간을 빠르게 하여 속도를 높입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Create React App (CRA)은 Webpack, Babel 및 기타 빌드 도구의 설정 복잡성을 감추어주어 개발자들이 React 코드 작성에 집중할 수 있도록 도와줍니다. 효율적인 개발을 위해 핫 모듈 리로딩과 같은 기능을 제공합니다.
 
@@ -92,17 +154,39 @@ Razzle은 에어비앤비에서 만든 빌드 도구로, 서버 사이드 렌더
 
 상기 언급된 빌드 도구들은 종종 React 보일러플레이트로 언급됩니다. 설정 복잡성을 감춰주고 기본 설정을 제공하며 빌드 워크플로우를 최적화하는 기능만 제공하기 때문에, 추가적인 기능을 포함하고 있지는 않고 매우 기능이 제한되어 있습니다. 따라서 위의 분류에 따라, 이러한 도구들을 미니멀리스틱 보일러플레이트로 분류합니다. 기본 템플릿으로 대표되는 이 도구들은 보다 기능이 풍부한 React 보일러플레이트를 만드는 데 탁월한 도구입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 선택된 보일러플레이트 표
 
-이제 우리는 라이선스 수수료를 부과하지 않거나 기능을 유료로 제공하지 않는 React 보일러플레이트를 고려하고 또한 최근 업데이트 날짜를 고려합니다 (6개월 이내). 이에 따라, 우리는 12가지 보일러플레이트를 고려했습니다*:
+이제 우리는 라이선스 수수료를 부과하지 않거나 기능을 유료로 제공하지 않는 React 보일러플레이트를 고려하고 또한 최근 업데이트 날짜를 고려합니다 (6개월 이내). 이에 따라, 우리는 12가지 보일러플레이트를 고려했습니다\*:
 
-* 2024년 4월 기준
+- 2024년 4월 기준
 
 # 기능 별 보일러플레이트 비교
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 보일러플레이트를 사용하여 개발자들이 얻을 수 있는 기능을 자세히 살펴보고 고려해야 할 사항을 알아보겠습니다:
 
@@ -112,7 +196,18 @@ API 통합: 특정 API 또는 서버 서비스와 통합하기 위한 구성을 
 
 테스트 설정: 미리 정의된 테스트 설정 또는 전혀 없는 것들도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인증 및 권한 부여: 사용자 인증 및 권한이 어떻게 정의되고 처리되는지, 특히 특정 인증 라이브러리와의 통합 여부가 명시되어 있는지 확인해주세요.
 
@@ -122,7 +217,18 @@ ESLint 규칙 준수: 코드 포맷팅 중에 문제를 감지하거나 수정�
 
 스타일링 솔루션: CSS 모듈, styled-components 또는 UI 라이브러리를 사용하여 스타일드 컴포넌트를 쉽고 효율적으로 재사용할 수 있는 솔루션이 있는지 확인해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트의 타입 안전성: TypeScript를 사용하여 개발 중 정적 유형을 제공하며, 클래스 또는 모듈을 활용하여 더 확장 가능하고 신뢰할 수 있는 애플리케이션을 만듭니다.
 
@@ -132,8 +238,18 @@ ESLint 규칙 준수: 코드 포맷팅 중에 문제를 감지하거나 수정�
 
 UI 컴포넌트 라이브러리: 버튼 및 모달 창과 같은 사전 제작 및 사용자 정의 가능한 컴포넌트를 제공하여 개발자가 애플리케이션에 쉽게 통합할 수 있습니다. 이러한 요소를 처음부터 디자인하고 코딩하는 시간과 노력을 절약할 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 각 보일러플레이트를 분석한 후 다음과 같은 표를 얻었습니다:
 
@@ -154,7 +270,18 @@ Extensive-react-boilerplate. 이 React 보일러플레이트는 모든 종류의
 - dropzone 기능이 있는 아바타 선택 및 업로드 기능.
 - 향상된 애플리케이션 성능과 SEO 최적화를 위한 Next.js 프레임워크 (SSR) 지원.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에서 언급된 기능들을 보시면, 이 보일러플레이트는 프로젝트의 시작 시간을 크게 줄여줍니다 (대략 193시간), 고려할 가치가 있는 선택입니다.
 
@@ -164,7 +291,18 @@ React-starter-kit. React를 기반으로 웹 애플리케이션을 만들기 위
 
 카테고리: 기능이 풍부한 보일러플레이트, 인증 및 등록이 포함된 보일러플레이트, 프론트엔드 전용, 무료.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React-redux-saga-boilerplate. Redux를 사용하여 상태 관리를 하는 React 애플리케이션을 생성하는데 사용하는 스타터 프로젝트입니다. 유닛 및 엔드 투 엔드 테스트, react-helmet 지원하며, Emotion 라이브러리를 사용하여 CSS 스타일링을 간단하게 합니다. styled 기능을 사용하여 헤더나 푸터와 같은 사용자 정의 컴포넌트를 제공합니다.
 
@@ -174,7 +312,18 @@ Next-js-Boilerplate. 이 보일러플레이트는 유연한 코드 구조를 가
 
 카테고리: 기능이 풍부한 보일러플레이트, 인증 및 등록이 있는 보일러플레이트, 프론트엔드 전용, 무료.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 라디안-리액트-템플릿. 이 보일러플레이트는 다국어 지원, 부드러운 애니메이션 및 JSON 파일에 모든 콘텐츠를 저장하여 React.js에 대한 사전 지식이 없어도 텍스트를 관리할 수 있도록 해줍니다. styled-components를 사용하여 HTML 엘리먼트를 스타일링한 자체 컴포넌트(버튼, 입력란, 텍스트영역 등) 세트를 포함하고 있습니다.
 
@@ -184,7 +333,18 @@ Next-js-Boilerplate. 이 보일러플레이트는 유연한 코드 구조를 가
 
 카테고리: 최소주의 보일러플레이트, 인증 없는 보일러플레이트, 프론트엔드 전용, 무료.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Nextjs-boilerplate. 이 React 보일러플레이트는 정적 페이지 생성을 위해 Next.js를 사용합니다. git 메시지 규칙을 지원하며, Plop를 사용하여 컴포넌트 생성을 지원하며, Tailwind CSS를 사용하여 스타일을 구성합니다. 컴포넌트 문서화를 위해 Storybook이 포함되어 있습니다.
 
@@ -194,7 +354,18 @@ React-pwa. 프로젝트를 처음부터 시작하기 위한 준비된 세트입�
 
 카테고리: 기능이 풍부한 보일러플레이트, 인증 없는 보일러플레이트, 프론트엔드 전용, 무료.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비타민. Tailwind CSS와 기본적인 스타일 리셋이 포함된 스타터 프로젝트로, Prettier 플러그인을 사용하여 자동으로 클래스를 정리합니다. Vitest, Testing Library, Cypress 등의 도구를 사용하여 테스트하지만, React UI 컴포넌트 라이브러리는 포함되어 있지 않습니다.
 
@@ -204,7 +375,18 @@ Next-saas-stripe-starter. 이 보일러플레이트를 사용하면 Next.js, Pri
 
 카테고리: 기능 풍부한 보일러플레이트, 인증 및 등록이 포함된 보일러플레이트, 풀스택 보일러플레이트, 무료.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Gatsby-starter-apple. 멋진 반응형 디자인을 갖춘 애플리케이션을 만들기 위한 템플릿으로, 모바일 메뉴에 애니메이션이 포함되어 있습니다. 사용된 컴포넌트들의 스타일링은 styled-components를 기반으로 합니다. 이 보일러플레이트는 검색 엔진 최적화를 잘 지원하며 RSS 피드 기능을 갖추고 있습니다.
 
@@ -214,7 +396,18 @@ Fullstack-typescript. 이 보일러플레이트는 프로젝트를 신속하게 
 
 카테고리: 미니멀리스트 보일러플레이트, 인증 없는 보일러플레이트, 풀스택 보일러플레이트, 무료.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 일부 기능 구현 특이사항
 
@@ -224,7 +417,18 @@ Fullstack-typescript. 이 보일러플레이트는 프로젝트를 신속하게 
 
 React 보일러플레이트의 기능 구현은 주로 구성 요소가 재사용 가능하고 조합 가능하게 설계되어 있는 모듈화된 개발을 중심으로 진행됩니다. 현재 라이브러리를 분석하고 이 기사에 따르면, 다음은 가장 인기 있는 것들로 간주될 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-05-01-TopReactBoilerplates2024completeresearch_1.png)
 
@@ -234,7 +438,18 @@ React 보일러플레이트의 기능 구현은 주로 구성 요소가 재사�
 
 CSS 모듈, styled-components, 또는 Sass와 같은 스타일링 솔루션은 일반적으로 React 보일러플레이트에 포함되어 있습니다. 이들은 컴포넌트에 스타일을 적용하는 다양한 방법을 제공하여 유연성과 확장성을 유지하면서 컴포넌트 캡슐화를 유지합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 styled-components를 스타일링 솔루션으로 사용하는 장점:
 
@@ -247,7 +462,18 @@ styled-components를 스타일링 솔루션으로 사용하는 장점:
 
 5. 스타일링 중 컴포넌트의 동적 props를 사용합니다. 이를 통해 변수의 값에 따라 스타일이 업데이트되도록 보장합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-05-01-TopReactBoilerplates2024completeresearch_3.png)
 
@@ -257,7 +483,18 @@ styled-components를 스타일링 솔루션으로 사용하는 장점:
 
 ## 상태 관리
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 상태 관리는 복잡한 애플리케이션에서 특히 확장성과 유지 보수성을 제공하는 중요한 요소입니다. 보통 상태 관리 도구를 선택할 때 Redux, MobX, Zustand이 떠오릅니다. 그러나 이들은 클라이언트 측 라이브러리이며, 비동기 데이터 저장과 같은 작업에 React Query와 비교했을 때 효율적이지 않을 수 있습니다.
 
@@ -267,8 +504,18 @@ React Query는 서버 상태 라이브러리입니다. 서버와 클라이언트
 
 프로젝트 개발 중 ESLint 규칙을 사용하는 효율성은 사용자 지정 규칙을 작성하는 데도 나타납니다. ESLint는 포맷팅 및 규칙뿐만 아니라 내부 프로젝트 결정 사항도 고려할 수 있도록 많은 기능과 유연성을 제공합니다. 예를 들어, 폼 작업 시 불필요한 렌더링 가능성을 제어하고 개발자에게 경고를 주거나, 객체 작업 시에는 잘못된 솔루션을 알리거나, 사용하지 않는 import를 가리킬 수 있습니다. 예를 들어, extensive-react-boilerplate에서는 이러한 문제를 다음과 같이 다룹니다:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 패턴을 잘못 사용한 경우의 규칙에 대해 경고합니다
 
@@ -278,7 +525,18 @@ React Query는 서버 상태 라이브러리입니다. 서버와 클라이언트
 
 ![이미지](/assets/img/2024-05-01-TopReactBoilerplates2024completeresearch_6.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -288,7 +546,18 @@ React Query는 서버 상태 라이브러리입니다. 서버와 클라이언트
 
 # 간단하게 이야기하기 🚀
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 In Plain English 커뮤니티에 참여해 주셔서 감사합니다! 떠나시기 전에:
 

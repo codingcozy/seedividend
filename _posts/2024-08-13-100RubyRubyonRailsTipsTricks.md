@@ -3,7 +3,7 @@ title: "반드시 알아둬야할 루비 루비 온 레일즈 팁 100가지 "
 description: ""
 coverImage: "/assets/img/2024-08-13-100RubyRubyonRailsTipsTricks_0.png"
 date: 2024-08-13 11:43
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-13-100RubyRubyonRailsTipsTricks_0.png
 tag: Tech
 originalTitle: "100 Ruby   Ruby on Rails Tips , Tricks"
@@ -11,7 +11,6 @@ link: "https://medium.com/@pinte.ionut.andrei/100-ruby-ruby-on-rails-tips-tricks
 isUpdated: true
 updatedAt: 1723863966051
 ---
-
 
 안녕하세요, 이 글에서는 루비 코드를 작성할 때 사용하는 100가지 팁 및 트릭에 대해 다룰 예정입니다. 주로 루비, 루비 온 레일즈, Rspec 및 일반 프로그래밍 최상의 실천법에 중점을 두었습니다.
 
@@ -21,7 +20,18 @@ updatedAt: 1723863966051
 
 # 1. 가드 절을 사용하세요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 루비의 가장 독특한 기능 중 하나는 가드 절을 다루는 방법입니다. 루비는 읽기 쉽고 쓰기 쉬운 우아한 구문을 갖고 있기 때문에 평범한 영어처럼 보이는 가드 절을 작성할 수 있습니다.
 
@@ -41,7 +51,18 @@ end
 
 가드 절이 있는 경우
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 def spell_usage(spell)
@@ -58,8 +79,18 @@ end
 
 # 2. 문자열 보간(interpolation)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 루비는 다른 많은 언어들처럼 문자열 보간을 기본으로 제공합니다. 이 기능을 사용하면 동적이고 사용자 정의 가능한 문자열을 간단한 방법으로 작성할 수 있습니다.
 
@@ -76,7 +107,18 @@ cast('Harry', 'love', 'Hermione')
 
 문자열 보간을 사용하면
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 def cast(wizard, spell_type, target)
@@ -93,7 +135,18 @@ cast('Harry', '사랑', 'Hermione')
 문자열 보간에 대한 또 다른 멋진 점은 $' 사이에 제공된 블록에 자동으로 to_s를 호출한다는 것입니다. 따라서 객체에서 to_s를 덮어쓰고 이를 통해 객체를 표시하는 멋진 방법을 얻을 수 있습니다.
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 형 변환과 문자열 보간 없이
 
@@ -143,7 +196,18 @@ puts "결투 시작: #{ignacia} 대 #{marina}"
 # 결투 시작: Warmy [Fire] 대 Marina [Water]
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2번 예시에서는 문자열 보간을 사용했기 때문에 .to_s를 명시적으로 호출할 필요가 없었습니다.
 
@@ -160,7 +224,18 @@ class MagicJourney
 end
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 in_progress? 메소드는 마법의 여정이 진행 중인지 아닌지 확인하고 싶다는 것을 명확히 나타냅니다. 물음표(?)가 없으면 메소드가 혼란스러울 수 있습니다. jouner.in_progress를 호출하면 여정을 "진행 중" 상태로 옮길 것이라고 생각할 수도 있습니다.
 
@@ -188,7 +263,18 @@ end
 # 원본 배열도 변경됩니다
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 !로 끝나는 메서드를 다룰 때 주의해야 합니다. 예상 동작을 이해하는 것이 중요하며, 그렇지 않으면 예기치 않은 변경된 데이터가 나올 수 있습니다 (그리고 주문이 성공하지 않을 수도 있습니다).
 
@@ -198,7 +284,18 @@ end
 
 전통적인 for 루프 (의사 코드)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 hp = 100
@@ -209,15 +306,24 @@ end
 puts "Remaining HP after the attack: #{hp}"
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위자드가 맞았어요!
 위자드가 맞았어요!
-... [ 7번 더 ] 
+... [ 7번 더 ]
 위자드가 맞았어요!
 공격 후 남은 HP: 0
-
 
 따라서 우리가 실행할 블록의 횟수를 정확히 알고 있다면 times do를 의지할 수 있습니다.
 
@@ -225,8 +331,18 @@ puts "Remaining HP after the attack: #{hp}"
 
 이미 배열을 반복하고 그 안에서 블록을 하나만 실행해야 하는 경우가 있었나요? 특히 매핑 및 필터링과 같은 경우에 이런 일이 자주 발생합니다. Ruby에는 그런 경우를 위해 원 라이너로 동일한 기능을 달성할 수 있도록 하나의 구문 설탕 문법이 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 짧은 심볼을 프로크로 변경
 
@@ -234,7 +350,18 @@ puts "Remaining HP after the attack: #{hp}"
 magical_creature_names = animals.filter(&:has_magical_powers?).map(&:name)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에서 볼 수 있듯이, 동일한 기능을 얻기 위해 필요한 코드를 대폭 줄일 수 있으며, 메소드를 깔끔하게 연결할 수도 있습니다.
 
@@ -244,13 +371,24 @@ magical_creature_names = animals.filter(&:has_magical_powers?).map(&:name)
 
 Safe Navigation operator가 없는 경우
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 def alohomora(room = nil)
   return unless room.present?
   return unless room.door.present?
-  
+
   room.door.open
 end
 ```
@@ -268,7 +406,18 @@ end
 
 &. 연산자를 사용하면 독자들이 기능을 한눈에 빠르게 이해할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 9. Compact
 
@@ -290,7 +439,18 @@ ratings = magical_mountain_ratings.compact
 
 compact를 map과 결합하여 사용하는 멋진 방법은, 원하는 요소로 이루어진 배열을 얻되 null 값 없이 종료하는 것이에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 eligible_wizards = wizards.map do |wizard|
@@ -308,19 +468,39 @@ end.compact
 
 가끔 배열이나 해시(객체/사전)를 반복하면서 동시에 정보를 저장해야 할 때가 있습니다. 이 경우를 위해 루비는 each_with_object 메서드를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 마크다운 형식으로 변경하면 다음과 같습니다.
 
+| 명령어 | 설명                                         |
+| ------ | -------------------------------------------- |
+| ls     | 현재 디렉토리의 파일 목록을 보여줍니다.      |
+| cd     | 디렉토리를 변경합니다.                       |
+| pwd    | 현재 작업 중인 디렉토리의 경로를 표시합니다. |
 
-|  명령어  |  설명                                                |
-|---------|-----------------------------------------------------|
-|  ls     |  현재 디렉토리의 파일 목록을 보여줍니다.          |
-|  cd     |  디렉토리를 변경합니다.                              |
-|  pwd    |  현재 작업 중인 디렉토리의 경로를 표시합니다.     |
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각각의 객체에 주어진 매개변수는 기본값이며, 두 번째 매개변수인 do 블록에서의 값은 객체에 대한 참조입니다.
 
@@ -332,7 +512,18 @@ hash.each_with_object('') do |key, value, obj|
 
 # 11. 반복
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 무한 루프가 무서워도, 코드에서 루프는 필요합니다. 특정 단계가 없다면 Ruby의 루프가 답입니다. 이것은 while true와 동일하지만 문법적으로 더 명확합니다.
 
@@ -346,7 +537,18 @@ loop do
 end
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 루비는 범위를 통해 연속적인 요소의 목록을 빠르게 생성할 수 있습니다.
@@ -355,7 +557,16 @@ end
 (1...10).to_a   # 1, 2, 3, 4, 5, 6, 7, 8, 9
 ('A'..'Z').to_a # 'A', 'B', 'C', ..., 'Z'
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리스트를 생성하는 것 외에도 범위는 배열이나 문자열의 부분 집합을 확인하거나 검색하는 데 유용합니다.
 
@@ -380,7 +591,16 @@ end
 
 # 13. 논리 배열 연산자
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 배열은 데이터를 저장하는 유용한 구조이며 때로는 데이터를 반복하거나 처리하는 것 외에도 데이터를 비교하거나 연결하는 등 더 고급 작업을 수행하고 싶을 때가 있습니다. 이를 위해 Ruby는 논리적인 배열 연산자를 제공합니다.
 
@@ -415,7 +635,16 @@ books.length # 5, 중복 항목은 각각 개별 항목으로 추가됨
 
 배열에 대해 말하고 그 요소들을 다룰 때, Ruby는 배열을 쉽게 구조분해하여(인덱스를 명시적으로 제공하지 않고 변수에 그 요소를 할당) 작업할 수 있도록 허용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 팀 = [
   "Merlinius Shadowspire",
@@ -438,7 +667,16 @@ books.length # 5, 중복 항목은 각각 개별 항목으로 추가됨
 
 언더스코어(_) 키워드는 일반적으로 사용하지 않을 값을 저장하는 데 사용됩니다. 파괴 할당 예제에서는 하나의 요소를 건너뛰기 위해 사용되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 15. Splat “*”
 
@@ -455,7 +693,16 @@ clone_spell('피자')
 
 위 예제에서 objects 매개변수는 함수에 전달된 모든 인수를 포함하는 배열이 될 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 splat (*) 연산자를 사용하는 또 다른 일반적인 경우는 배열을 메소드의 매개변수로 분해하는 것입니다.
 
@@ -472,7 +719,16 @@ conjoined_spell(*wizards.last(2))  # Mars와 Venus가 주문을 사용 중입니
 
 초보자가 보통 사용하지 않는 일반적인 메소드 중 하나는 `include?` 메소드입니다. 이 메소드는 배열의 요소 중에 특정 요소가 있는지 확인하는 데 사용될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제외하고?
 
@@ -495,7 +751,16 @@ is_weapon_allowed = allowed_weapons.include?(chosen_weapon)
 
 puts "#{chosen_weapon} #{is_weapon_allowed ? '사용 가능합니다.' : '사용할 수 없습니다.'}"
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 17. 수확
 
@@ -514,7 +779,16 @@ end
 
 위 예제에서는 yield에 인수를 전달했지만, 이것은 선택 사항입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 함수가 콜백을 받을 수도, 받지 못할 수도 있다면, 특별한 block_given? 메소드를 사용하여 콜백의 존재 여부를 확인할 수 있습니다. 이 확인을 하지 않고 블록이 주어지지 않으면, yield는 오류를 발생시킬 것입니다.
 
@@ -536,7 +810,16 @@ end
 
 비록 덜 사용되긴 하지만, Ruby의 tap 메소드는 특정 상황에서 매우 유용할 수 있습니다. tap 메소드는 self를 블록에 전달하고, self를 반환하여 호출자를 쉽게 디버그, 출력 또는 수정할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 디버깅을 위해 체인 메소드에 `tap`을 사용해보세요.
 
@@ -558,7 +841,16 @@ total_cost = shopping_list.map do |shopping_list_item|
 
 다른 좋은 `tap` 사용 사례는 재사용이 필요 없는 경우 로직을 캡슐화하는데 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 class Wizard
   attr_accessor :id, :name
@@ -581,7 +873,16 @@ end
 
 falsey 값을 다루는 것은 까다로울 수 있습니다. 값이 없는지 확인하거나 falsey 값을 가질 것으로 예상되는지 항상 쉽게 확인할 수 있는 방법이 없기 때문입니다. 루비에서는 해시와 falsey 값을 다룰 때 프로세스를 더 명확하게 만들기 위해 fetch를 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 questionnaire = [
   { question: '마법 스프를 즐겼습니까?', answer: false },
@@ -601,7 +902,18 @@ end
 fetch에 제공된 두 번째 인수는 키가 해시에 존재하지 않을 경우의 기본 값으로 작용합니다.
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 참고: 만약 해시에 키가 존재하지 않고 기본 값을 지정하지 않았을 때 fetch는 오류를 발생시킵니다.
 
@@ -617,7 +929,18 @@ magic_word = 'abracadabra!'
 값이 생략된 해시 = { magic_word: }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 해시 두 개는 모두 'magic_word: `abracadabra!`'와 같습니다.
 
@@ -629,7 +952,18 @@ magic_word = 'abracadabra!'
 { wizard.name => wizard }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 예제에서 해시의 키는 위자드의 이름이며, 이는 하드 코딩되어서는 안 되므로 =` 구문을 사용하여 키 이름으로 사용합니다.
 
@@ -642,7 +976,18 @@ magic_word = 'abracadabra!'
 
 # 22. Dig
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 dig 메서드를 사용하면 중첩된 배열 요소나 해시 값(또는 이들의 조합)에 간편하게 접근할 수 있습니다.
 
@@ -658,8 +1003,18 @@ wizards[0][:pets][:list][2] # Frog
 
 dig를 사용한 경우
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 wizards = [
@@ -675,8 +1030,18 @@ dig의 또 다른 장점은 한 번에 nil 값을 만날 때 nil을 반환하므
 
 이전 예제에서 본 것처럼 Ruby에서 method chaining은 흔히 사용되는 관행입니다. 한 줄로 모든 문자를 대문자로 바꾸고 문자열을 뒤집는 예제가 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 주문 = "숨겨진 주문"
@@ -689,7 +1054,7 @@ puts 주문 # 호커스 포커스
 ```js
 class MagicBroom
   attr_accessor :상태, :마지막_사용_시간
-  
+
   def initialize
     @status = '대기 중..'
   end
@@ -718,8 +1083,18 @@ broom.use!.fly!.display # [Current Time]: Flying...
 
 # 24. 메모이제이션
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 성능은 프로그램의 중요한 측면입니다. Ruby에서 더 빠른 애플리케이션을 위한 한 가지 방법은 메모이제이션입니다. 메모이제이션이란 다시 사용되고 변경되지 않을 값들을 메모리에 저장하는 것을 의미합니다.
 
@@ -761,7 +1136,18 @@ puts "작은 단서: #{forest.magical_tree_clue}"
 
 위 예에서 magical_tree_id 메서드는 magical_tree_side 메서드와 magical_tree_clue 메서드에서 각각 두 번 호출됩니다. 1000개의 나무만 있는 경우에는 쉽게 알아채기 어렵지만, 실행 중인 코드는 두 번 실행되며 실행 사이에 변경 사항이 없음을 이미 알고 있음에도 불구하고 두 번 실행됩니다. 이 경우 magical_tree_id를 메모이제이션할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 메모이제이션을 사용한 코드입니다
 
@@ -782,7 +1168,18 @@ end
 
 # 25. 조건 할당 연산자
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 연산자 ||=은 변수에 값을 할당해야 하는 경우에 사용되며 변수가 이미 값을 가지고 있지 않은 경우에 사용됩니다.
 
@@ -798,9 +1195,20 @@ feed_the_frog           # 개구리는 Frogy Snacks을(를) 즐깁니다
 
 따라서 음식이 제공되지 않으면 기본적으로 간식으로 설정되며, ||=는 음식 = 음식 || `Frogy Snacks`과 같습니다.
 
-조건부 할당 연산자는 메모이제이션에도 사용할 수 있지만, 메모이제이션 값이 거짓 값이 아닌지 확인하십시오. 거짓 값을 가지고 있다면 예상대로 작동하지 않습니다. 거짓 || 값은 항상 값 부분에 도달하기 때문에 코드가 매번 실행됩니다. 반면, 참_값 || 값은 값 부분에 도달하지 않습니다.
+조건부 할당 연산자는 메모이제이션에도 사용할 수 있지만, 메모이제이션 값이 거짓 값이 아닌지 확인하십시오. 거짓 값을 가지고 있다면 예상대로 작동하지 않습니다. 거짓 || 값은 항상 값 부분에 도달하기 때문에 코드가 매번 실행됩니다. 반면, 참\_값 || 값은 값 부분에 도달하지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 def frog_food
@@ -832,7 +1240,18 @@ wand.send(:activate, "Lunosiera") # false
 wand.send(:activate, "Lumosera")  # true
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 send 메소드에 제공되는 첫 번째 인수는 심볼로 된 비공개 메소드의 이름이어야 하며, 다른 인수들은 원본 메소드로 전달될 인수들입니다.
 
@@ -842,7 +1261,18 @@ send 메소드에 제공되는 첫 번째 인수는 심볼로 된 비공개 메�
 
 일부 상황에서는 클래스를 변수에 저장해야 할 수도 있습니다. 이러한 상황 중 일부는 클래스를 메소드에 전달하거나 여러 클래스 중 하나를 조건에 따라 인스턴스화해야 하는 경우일 수 있습니다. Ruby에서는 이것이 간단하며, 그냥 클래스에 다른 값들을 할당하는 것과 같습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 class Traveler
@@ -863,8 +1293,18 @@ spotted_person = klass.new
 
 루비에서는 추상 클래스를 구축하기 위한 내장 메서드가 없습니다. 그러나 추상 클래스와 유사한 것을 달성하기 위한 일반적인 접근 방식이 있습니다. 프로젝트에서 이와 같은 상황을 만날 수 있는 경우를 대비하여 이 접근법에 대해 알아두는 것이 중요합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 추상 클래스는 다른 클래스들의 청사진으로 사용되는 클래스입니다 (나는 이들을 클래스들의 클래스로 생각하곤 해요). 이들이 준수해야 하는 "규칙" 중 일부는 인스턴스화될 수 없으며 일반적으로 구현이 없는 추상 메서드만 포함하고 있어야 한다는 것입니다.
 
@@ -912,7 +1352,18 @@ werewolf.move # 에러가 발생합니다
 
 # 29. 포함
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 루비에서 중요한 개념인 모듈은 클래스와 유사하지만 인스턴스화할 수 없으며 재사용 가능한 논리를 일반적으로 포함하고 있습니다.
 
@@ -939,13 +1390,25 @@ Wizard.new.attack # I'm a wizard and I'm attacking!
 
 포함된 모듈의 메소드는 클래스의 인스턴스에서 사용할 수 있으며 예제에서 볼 수 있듯이 클래스 메소드 역할을 합니다. self는 메소드를 호출한 실제 인스턴스를 나타냅니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 30. 정적 메서드
 
 루비에서는 정적 메서드(클래스 메서드)를 선언하는 두 가지 방법이 있습니다.
 
 def self.method_name을 사용하는 방법
+
 ```js
 class MagicRealm
   def self.occupants
@@ -956,7 +1419,18 @@ end
 puts MagicRealm.occupants.join(" & ") # Wizards & Fairies & Mermaids
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 class MagicRealm
@@ -974,8 +1448,18 @@ puts MagicRealm.occupants.join(" & ") # Wizards & Fairies & Mermaids
 
 # 31. 확장
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인스턴스의 기능을 확장하기 위해 모듈을 포함할 수 있듯이 더 정적인 기능을 얻기 위해 확장할 수도 있습니다.
 
@@ -1002,7 +1486,18 @@ Frog.description # 개구리는 마법의 생물입니다!
 
 # 32. Prepend
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 클래스에 모듈을 포함하는 덜 알려진 방법도 있습니다. include와 비슷한 prepend는 하나의 주요 차이점을 가지고 있습니다. 모듈 메소드들이 클래스 메소드들을 덮어쓰게 됩니다.
 
@@ -1028,7 +1523,18 @@ prepend는 기존의 기능을 폐기할 때나 모듈 내에 공통된 이름�
 
 # 33. 메소드 별칭
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 루비에서 사용되는 라이브러리는 젬이라고 불립니다. 젬은 다양한 기능을 구현하는 데 매우 유용합니다. 그러나 때로는 원하는 바를 존중하도록 조정이 필요한 경우가 있습니다. 이런 경우에는 내장된 alias_method 방식을 사용하여 메서드를 "복사"하고 원본 메서드를 원하는 대로 수정할 수 있습니다. 이렇게 하면 초기 명령 세트를 잃지 않고 작업할 수 있습니다.
 
@@ -1056,14 +1562,25 @@ Cauldron.new.boil_potions
 
 위 예제에서는 boil_potions 메서드에 추가 지시사항을 넣고 원래의 명령 세트를 호출했습니다. original_boil_potions은 단순히 예시 이름이며 별칭 이름으로 아무 문자열을 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 루비는 인스턴스가 특정 클래스의 인스턴스인지를 확인하는 깔끔한 방법을 제공합니다. is_a? 메서드는 내장 클래스뿐만 아니라 우리가 만든 클래스에도 사용할 수 있습니다.
 
 ```js
 def levitate(objects)
   if objects.is_a?(Array)
-    objects.each { |object| puts "#{object} is levitating" }  
+    objects.each { |object| puts "#{object} is levitating" }
   else
     puts "#{objects} is levitating"
   end
@@ -1081,7 +1598,18 @@ levitate(['옷장', '식물'])
 
 루비에서 모든 클래스는 Object 클래스에서 상속을 받습니다. Object는 루비 코드의 최상위에 존재하는 루트 클래스이기도 합니다. 일반적으로 Object 클래스와 상호작용할 일은 없겠지만 특정 상황에서 유용할 수 있으니 알아두는 것이 좋습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, 루비 프로그램의 최상위에 선언된 상수는 실제로 Object 클래스의 상수입니다.
 
@@ -1095,7 +1623,18 @@ puts Object::MAGIC_WORD # Abracadabra!
 
 이전 단계에서 변수에 클래스를 할당하는 경우에 대해 설명했습니다. 필요에 따라 조건부로 인스턴스화해야 할 때 사용됩니다. 메서드의 경우 루비에서 괄호와 같은 특별한 구문이 필요하지 않기 때문에 마침표를 이용하여 변수에 메서드를 할당할 수 없습니다. 따라서 meth = method는 meth 변수에 메서드를 할당하는 것이 아니라 method 메서드를 호출하여 반환된 값이 meth에 할당됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우너가 원하는 기능을 달성하는 한 가지 방법은 private 메소드를 호출하는 데 사용한 send 메소드를 사용하는 것입니다.
 
@@ -1138,8 +1677,18 @@ wizard.cast_spell('Levitatuts!') # 주문이 올바르지 않습니다...
 
 루비에서 유명한 try...catch 구문은 begin...rescue로 대체됩니다. Rescue는 에러를 잡아내고 처리하는 데 사용될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 코드는 0으로 나누기 오류를 잡아서 친근한 메시지를 표시할 것입니다.
 
@@ -1157,7 +1706,18 @@ rescue
 end
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 변형들은 함께 또는 개별적으로 사용할 수 있습니다. 모든 오류를 복구하고 오류 인스턴스가 필요한 경우, rescue = 'e, e는 그냥 이름이며, 사용자 임의의 문자열을 대신 사용할 수 있습니다.
 
@@ -1175,7 +1735,18 @@ end
 leviosa('의자') # fetch가 오류를 발생시키므로 'Something went wrong'이 출력됩니다
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 39. 인라인 구조
 
@@ -1189,7 +1760,18 @@ puts "The pumpkin was sliced in #{1 / wizards.length rescue 0} slices."
 
 # 40. 에러 발생하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 생각에는, 다양한 시나리오를 처리할 때 오류를 일으키는 것은 코드를 작성하는 우아한 방법으로, 더 읽기 쉽고 확장하기 쉽습니다.
 
@@ -1243,7 +1825,18 @@ harry.cast_spell('leviosa') # leviosa를 시전할 마나가 부족합니다.
 
 첫눈에 보기에 위 코드는 이해하기 어렵고 많은 조건 분기가 있습니다. 우리만의 오류를 발생시키고 처리함으로써 이를 크게 개선할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 주문 목록 = [
@@ -1298,7 +1891,18 @@ end
 
 오류를 처리하고 처리하기 위해 `rescue`와 `raise`를 사용할 때, 가끔 조용한 실패 상황에 직면할 수 있습니다. 이러한 상황이 발생할 수 있음을 인지하여 코드를 원활하게 디버깅할 수 있어야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 def potions_list(potions)
@@ -1318,8 +1922,18 @@ puts potions_list(['Love', 'Dizzy', 'Sleep'])
 
 JS Promises를 다뤄본 적이 있다면 then 키워드에 대해 알고 있을 것입니다. then은 루비에서도 사용할 수 있으며 더 깔끔한 코드를 작성하는 방법입니다. then은 tap과 유사하며 차이점은 tap이 반환하는 대상을 반환하지 않는다는 점입니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 문장 = 'sucop sucoh'
@@ -1341,8 +1955,18 @@ JS Promises를 다뤄본 적이 있다면 then 키워드에 대해 알고 있을
 
 IRB(Interactive Ruby Console)는 Ruby 코드를 테스트하는 좋은 방법입니다. 터미널에서 `irb` 명령을 실행하면 콘솔이 열리고 Ruby 코드를 실행할 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그런데 코드의 특정 지점에서 대화형 콘솔을 열 수 있다는 것을 알고 계셨나요?
 
@@ -1357,11 +1981,22 @@ end
 
 실행을 계속하려면 CTRL+D를 사용할 수 있고, 프로그램에서 여러 개의 `binding.irb`를 가질 수 있습니다. 그러나 그것들을 커밋하지 않도록 주의하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-# 44. IRB에서의 "_"
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-인터랙티브 루비 콘솔에서 멋진 트릭은 _를 입력하면 이전 라인의 값을 얻을 수 있다는 것입니다. 이는 디버깅하는 동안 시간을 절약할 수 있습니다.
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+# 44. IRB에서의 "\_"
+
+인터랙티브 루비 콘솔에서 멋진 트릭은 \_를 입력하면 이전 라인의 값을 얻을 수 있다는 것입니다. 이는 디버깅하는 동안 시간을 절약할 수 있습니다.
 
 ```js
 irb(main):001> [1, 2, 3].sum
@@ -1376,7 +2011,18 @@ irb(main):004> six
 
 # 45. RVM / Rbenv
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로페셔널한 루비 개발자들은 현재 사용 중인 루비 버전을 변경할 수 있는 프로그램을 사용합니다. 이것은 모든 루비 프로젝트가 동일한 버전에서 실행되지 않기 때문에 중요합니다.
 
@@ -1386,7 +2032,18 @@ irb(main):004> six
 
 이 순간에는 독서에서 쉬어가는 것을 추천드립니다. 핸드폰이나 모니터 바깥을 보거나 조금 걸음을 걸으며 쉬어가세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 46. Rails 제너레이터
 
@@ -1397,7 +2054,18 @@ Rails는 프로젝트 기능을 추가/업데이트/제거하기 위한 제너�
 
 개인적으로 저는 자주 사용하는 유일한 제너레이터는 rails generate migration ... 인데, 이는 마이그레이션 파일을 생성해주고 거기에 코드를 추가할 수 있게 해줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Rails 생성기를 모두 탐험하고 학습 자료로 또는 시간을 절약하는 동반자로 사용하십시오. 생성기를 사용할 때 생성된 코드의 목적 또는 배후에서 무슨 일이 벌어지고 있는지를 이해하지 못하는 경우 생성기를 사용하지 마십시오.
 
@@ -1424,7 +2092,18 @@ module WithMagicPowers
 end
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # app/models/wizard.rb
@@ -1449,7 +2128,18 @@ Fairy.new(power: 'magic dust').attack # 마법 먼지!
 
 이렇게 보면, 요정과 마법사 클래스에 대해 많은 코드를 재사용했음을 알 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우려사항에 대해 몇 가지 주의할 사항이 있습니다:
 
@@ -1462,7 +2152,18 @@ Fairy.new(power: 'magic dust').attack # 마법 먼지!
 
 젬은 루비용 라이브러리입니다. 젬에는 프로젝트에서 사용할 수 있는 로직이 포함되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가끔은 젬들이 우리가 기대한 대로 작동하지 않을 수도 있습니다. 혹은 더 큰 문제를 조사하고 있을 때에도 있는데, 이때 해당 젬 내부에서 무슨 일이 일어나고 있는지 이해하고 싶을 수 있습니다. 이를 로컬에서 빠르게 확인할 수 있는 방법이 있습니다. 프로젝트 루트 디렉토리에서 bundle show [GEM_NAME] (예: bundle show puma) 명령어를 실행하고 반환된 경로에 해당하는 폴더를 좋아하는 편집기에서 열면 됩니다.
 
@@ -1472,7 +2173,18 @@ Fairy.new(power: 'magic dust').attack # 마법 먼지!
 
 가끔은 특정 상황에서 젬을 약간 수정하여 우리의 프로젝트에서 어떻게 작동하게 할지를 조정하고 싶을 수 있습니다. 이는 젬에서 발견된 버그 때문이거나 특정 프로젝트 요구 사항 때문일 수 있습니다. 우리는 변경하고자 하는 메소드/함수를 덮어쓰는 방식으로 이를 할 수 있습니다. 이 방법을 "패치"라고 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 애플리케이션에서 평점을 표시하는 데 도움이 되는 Star라는 젬을 사용한다고 가정해 봅시다. 시각적인 부분에 사용된 클래스는 다음과 같은 구조를 갖습니다:
 
@@ -1507,7 +2219,18 @@ module Star
 end
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 메소드가 덮어쓰여지고 새로운 아이콘들이 사용될 것입니다.
 
@@ -1518,7 +2241,18 @@ end
 
 # 50. 사용자 정의 로거
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Rails에는 기본 로거가 있습니다: Rails.logger.info(message). 이것은 프로젝트의 구성에 따라 들어오는 요청, 매개변수, 라우트를 처리하는 컨트롤러, 데이터베이스 쿼리, 오류 추적 등을 볼 수 있어 좋습니다. 이 모든 정보는 log/development.log에서 찾을 수 있습니다.
 
@@ -1529,7 +2263,18 @@ Rails에는 기본 로거가 있습니다: Rails.logger.info(message). 이것은
 
 이제 해당 파일을 확인하여 내가 로그인한 메시지만 볼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 51. Active Record Import
 
@@ -1552,7 +2297,18 @@ Wizard.import(
 
 이렇게 사용하는 방법 중 하나이지만, 이 젬에 대해 더 많이 읽고 여러 사용 방법을 알아보는 걸 적극 권장해요. 또한, 유효성 검사를 걱정할 필요가 없어요. 이 젬을 사용하면서 여전히 레코드를 유효성 검사할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 52. Raw SQL 쿼리
 
@@ -1567,7 +2323,18 @@ ActiveRecord::Base.connection.execute(query)
 
 이렇게 하면 됩니다. 그러나 raw 쿼리를 다룰 때 매우 주의해야 하며 SQL Injection에 대비하여 신뢰할 수 없는 데이터를 쿼리에 사용하지 않도록 주의하십시오.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 53. 스코프
 
@@ -1583,7 +2350,18 @@ end
 
 Wizard.shadow_wizards를 사용하면 그림자 소환 능력을 가진 위저드들의 모든 목록을 반환합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 class Fairy < ApplicationRecord
@@ -1598,10 +2376,21 @@ end
 만약 기본 스코프를 만나더라도 모든 레코드를 얻고 싶다면 다음처럼 unscoped 메서드를 사용할 수 있어요: Fairy.unscoped. 이렇게 하면 기본 스코프를 무시하고 활성 레코드 메서드를 연결할 수 있어요.
 
 ```js
-all_fairies = Fairy.unscoped.all
+all_fairies = Fairy.unscoped.all;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 54. 존재하는가?
 
@@ -1614,10 +2403,20 @@ Wizard.where(power: 'Fire'). length> 0
 
 위의 예제는 예상대로 작동하지만 대규모 데이터 세트의 경우 효율적이지 않습니다. 왜냐하면 일치하는 모든 레코드를 메모리에 로드한 다음 레코드 모음에서 길이를 호출하기 때문입니다. 우리가 원하는 것은 최소한 하나의 일치하는 레코드가 있는지 확인하는 것이기 때문에 그러한 작업은 필요하지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 Markdown 형식으로 변경해 보세요.
-
 
 You might also use .count, this is a bit better since it counts at the database level, however, we don’t need the count so we can further improve the performance.
 
@@ -1630,8 +2429,18 @@ Wizard.where(power: 'Fire').exists?
 
 Note: 액티브 레코드 쿼리를 실행할 때 레일스 콘솔에 SQL 쿼리가 기본적으로 표시됩니다. 이는 데이터베이스 수준에서 무슨 일이 일어나고 있는지 검사하고 디버그하는 훌륭한 방법입니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 55. Find vs Find by
 
@@ -1647,7 +2456,18 @@ Wizard.find_by(id: 4)
 # SELECT "wizards".* FROM "wizards" WHERE "wizards"."id" = ? LIMIT ?  [["id", 4], ["LIMIT", 1]]
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결과 처리 방식이 다릅니다. find를 사용할 때, 레코드를 찾을 수 없으면 ActiveRecord::RecordNotFound 오류가 발생합니다. 반면에 find_by는 레코드를 찾을 수 없을 때 단순히 nil을 반환합니다.
 
@@ -1663,7 +2483,18 @@ Wizard.find_by(id: 4)
 
 # 56. 찾거나 초기값 설정하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 find_or_initialize_by 메서드는 우리가 원하는 레코드를 찾고 그 레코드가 존재하지 않는 경우 초기화하는 데에 유용합니다.
 
@@ -1682,7 +2513,18 @@ end
 
 find_or_initialize_by를 사용한 경우
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 class Spell < ApplicationRecord
@@ -1700,8 +2542,18 @@ end
 
 연관 관계를 다룰 때 ActiveRecord는 연관된 레코드를 만들거나 생성하는 좋은 방법을 제공합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 wizard.magic_books.build(title: 'Spells & Potions')
@@ -1719,7 +2571,18 @@ wizard.magic_books.create(title: 'The secrets of Magic')
 
 # 58. Active Record dirty 메서드
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 특정 경우에는 모델의 특정 부분이 업데이트되었을 때에만 특정 지시사항 세트를 실행하고 싶을 때가 있습니다. Active Record Dirty 메서드는 이를 위한 최적의 도구입니다.
 
@@ -1739,7 +2602,18 @@ end
 
 본질적으로 제공되는 다양한 Active Record Dirty 메서드는 스스로 저장 전후의 변경 사항을 확인하는 데 유용하며, 다양한 시나리오에서 유용하게 활용될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 59. 에러 전체 메시지
 
@@ -1764,7 +2638,18 @@ wizard.errors.full_messages
 
 모델에 오류 및 전체 메시지가 추가되려면, 먼저 해당 유효성 검사 메서드를 호출하거나 데이터베이스에 저장을 시도해야 함을 유의하십시오.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 60. Eager Loading
 
@@ -1803,7 +2688,18 @@ Wizard.first.professors
 # 해당 위자드가 가진 책의 수에 따라 반복 수행됩니다
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에서 알 수 있듯이 데이터베이스 쿼리가 많이 발생하고, 연관 레코드 수가 증가할수록 이 숫자도 증가합니다.
 
@@ -1831,7 +2727,18 @@ Wizard.first.professors
 
 아주 작은 코드 조정으로 includes(:professor)를 추가함으로써, 마법사가 소유한 매직 북의 수에 관계 없이 이 메서드에 대해 항상 세 개의 데이터베이스 쿼리만 수행됨을 보장할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 61. Active Record Transactions
 
@@ -1871,7 +2778,18 @@ Professor.enroll('Arthur', 'My Biography')
 # 마법책 생성이 오류를 발생시켜도 데이터베이스는 변경되지 않음
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 With Active Record Transactions
 
@@ -1910,7 +2828,18 @@ Active Record Transactions를 사용하면 데이터베이스에 실패 시 레�
 
 트랜잭션 내에서 발생한 모든 오류는 롤백을 트리거하고 아무것도 저장되지 않으므로 다양한 조건에 따라 자체 사용자 정의 오류를 발생시킬 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 62. 레일즈 라우트
 
@@ -1920,7 +2849,18 @@ http://localhost:3000/rails/info/routes URL은 애플리케이션이 지원하�
 
 참고: rails 서버를 시작할 때 3000은 기본 포트이며, 다른 포트를 사용하는 경우에는 위의 URL에 해당 포트를 사용해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 63. 액션 전
 
@@ -1933,7 +2873,7 @@ class FairiesController < ApplicationController
   def update
     @fairy.update(fairy_params)
   end
-  
+
   def destroy
     @fairy.destroy
   end
@@ -1952,7 +2892,18 @@ end
 
 이 예시에서는 fairy 모델이 업데이트 및 삭제 작업 전에 id 파라미터를 기반으로 로드됩니다. before_action을 사용하면 두 메서드 모두에서 같은 코드 줄을 작성하는 번거로움을 줄일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에서 사용한 것만 사용했기 때문에 except:를 사용하여 제외된 작업을 제외하고 모든 작업에 대한 콜백을 실행할 수 있었습니다. only 또는 except가 지정되지 않은 경우에는 메소드가 각 작업 전에 호출됩니다.
 
@@ -1962,7 +2913,18 @@ before_action의 또 다른 좋은 사용 사례는 사용자가 해당 작업�
 
 특정 before_action 콜백을 건너뛸 수도 있습니다. 이는 before_action이 동일한 컨트롤러에 등록된 경우에는 의미가 없습니다. 왜냐하면 영향받는 작업을 관리하기 위해 only 및 except를 사용할 수 있기 때문입니다. 그러나 before_action이 내장 메소드인 경우이거나 컨트롤러에 포함된 concern에서 추가한 경우에는 skip_before_action을 사용하여 콜백이 호출되지 않도록 할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 class FairiesController < ApplicationController
@@ -1978,7 +2940,18 @@ end
 
 Rails를 사용할 때 시간과 관련된 몇 가지 매우 직관적인 메서드가 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, 지난 1일 동안 생성된 모든 레코드를 검색하고 싶다면, 다음과 같이 간단하고 가독성 있는 코드를 사용할 수 있어요:
 
@@ -1992,7 +2965,18 @@ Fairy.where('created_at > ?', 1.day.ago)
 25.minutes.from_now
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 이렇게 시간 여행도 할 수 있어요:
 
@@ -2005,7 +2989,18 @@ Fairy.first.updated_at - 1.month
 
 날짜와 시간을 다루어 본 적이 있다면, 아마도 그것들이 조금 귀찮을 수 있다는 것에 동의하실 것입니다. 위의 방법들과 함께 Rails는 사용자에게 시간에 관한 직관적인 메시지도 제공해줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 class FriendlyTimeAgoMessage
@@ -2027,7 +3022,18 @@ FriendlyTimeAgoMessage.time_ago_in_words(
 루비의 딕셔너리(객체로도 알려진)는 해시로 불립니다. 대부분의 경우 해시 키는 일반적으로 심볼이나 문자열입니다. 해시의 형식을 제어할 수 없는 상황이 발생할 때도 있습니다(예: 사용하는 젬에서 제공될 수 있음).
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 레일즈는 심볼과 문자열을 같은 키로 처리하는 간단한 방법을 제공합니다.
 
@@ -2052,7 +3058,18 @@ with_indifferent_access를 사용하면 심볼이나 문자열을 사용하여 �
 
 # 68. Symbolize keys
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전 예제와 동일한 상황에서는 symbolize_keys를 사용하여 해시 키를 문자열에서 심볼로 변경할 수도 있습니다. 이 경우 유용한 경우는 JSON 데이터를 다룰 때입니다.
 
@@ -2073,7 +3090,18 @@ wizard.symbolize_keys!
 
 # 69. 존재여부
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 레일즈는 값을 쉽게 확인하는 방법을 제공합니다. 값이 있으면 진릿값을 가진 것입니다.
 
@@ -2095,18 +3123,29 @@ puts welcome_text
 
 `present`와 함께
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```javascript
 wizard = {
-  first_name: '',
-  email: '2'
-}
+  first_name: "",
+  email: "2",
+};
 
-wizard_name = wizard.first_name || wizard.email || '마법 손님'
+wizard_name = wizard.first_name || wizard.email || "마법 손님";
 
-welcome_text = `환영합니다, ${wizard_name}!`
-console.log(welcome_text)
+welcome_text = `환영합니다, ${wizard_name}!`;
+console.log(welcome_text);
 ```
 
 presence는 값이 true이면 해당 값을 반환하고, 그렇지 않으면 nil을 반환하여 한 줄에 이러한 체크를 만들 수 있습니다.
@@ -2115,8 +3154,18 @@ presence는 값이 true이면 해당 값을 반환하고, 그렇지 않으면 ni
 
 루비를 제공하는 것 외에도 Rails는 반대로 'exclude?'라는 메서드를 추가했습니다. 이 메서드는 호출하는 구조체에 제공된 인수가 있는지 여부를 알려주며, '!structure.include?(something)'의 좋고 읽기 쉬운 대안입니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 wizard_schedule = [
@@ -2143,8 +3192,18 @@ exclude?를 사용하면 코드를 더 쉽게 이해할 수 있습니다.
 
 이 이름이 얼마나 재미있는지 모르지만, PORO(Plain Old Ruby Objects)는 깔끔한 코드 기반에서 중요합니다. 이들은 컨트롤러, 모델 또는 다른 영역에서 로직을 추출하여 독립적인 클래스로 사용됩니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 PORO를 사용하는 장점은 코드가 캡슐화되어 있어 재사용할 수 있고, PORO를 사용하는 클래스가 더 깔끔해집니다.
 
@@ -2168,7 +3227,18 @@ end
 
 PORO를 사용하는 경우
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # app/models/wizard.rb
@@ -2220,21 +3290,31 @@ end
 
 PORO나 다른 클래스를 사용하는 경우, 해당 인스턴스를 해당 인스턴스로 위임하여 현재 클래스에 정의된 것처럼 사용할 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 module Wizards
   class QuestParticipant
     attr_accessor :wizard, :role
-    
+
     delegate :name, to: :wizard
-  
+
     def initialize(wizard, role)
       @wizard = wizard
       @role = role
     end
-  
+
     def presentation
       puts "My name is #{name} and I'm joining the quest as a #{role}"
     end
@@ -2251,8 +3331,18 @@ Wizards::QuestParticipant.new(Wizard.first, 'fighter')
 
 이전에 메모이제이션에 대해 이야기했었는데, 메모이제이션이란 메모리에 일부 데이터를 저장하여 인스턴스를 사용하는 동안 재사용할 수 있는 것입니다. 예를 들어 클래스의 인스턴스와 함께 작업하는 동안 데이터를 저장해야 할 때 유용합니다. 그러나 데이터를 오랜 기간 동안 저장해야 하는 경우, 예를 들어 사용자 요청 사이에 데이터를 저장해야 하는 경우, 캐싱이 적합합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 캐시를 사용하는 방법을 살펴보기 전에, 프로젝트의 루트 디렉토리에서 rails dev:cache를 사용하여 캐시를 활성화해야 합니다. 동일한 명령어를 사용하여 캐싱을 중지할 수도 있습니다.
 
@@ -2274,14 +3364,25 @@ irb(main):010* Rails.cache.fetch("wizards_count") do
 irb(main):011*   Wizard.count
 irb(main):012> end
 => 7
-irb(main):013> 
+irb(main):013>
 ```
 
 데이터베이스 쿼리가 처음 한 번만 실행된 것을 확인했나요? 이후에는 값이 메모리에 저장되어 그곳에서 검색됩니다. 이것은 간단한 예제입니다. 만약 열 개의 데이터베이스 쿼리가 있다면, 성능을 향상시키는 좋은 방법이었을 것입니다.
 
 참고: 캐시 작업은 복잡해질 수 있습니다. 특히 동적으로 생성된 캐시 키를 사용할 때, 올바른 키가 사용되었는지 확인해야 합니다. 그렇지 않으면 캐시에서 오래된 데이터를 가져올 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 irb(main):002* Rails.cache.fetch("wizards_#{Wizard.last.updated_at}") do
@@ -2309,8 +3410,18 @@ irb(main):009> end
 
 # 74. 백그라운드 작업
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가끔은 많은 정보를 포함한 보고서를 생성하는 등의 무거운 작업을 실행해야 할 때가 있습니다. 그러나 이를 주 애플리케이션에서 처리하면 크게 두 가지 단점이 있어요:
 
@@ -2321,17 +3432,39 @@ irb(main):009> end
 
 이 동작을 사용하기 위해 여러 가지 젬을 사용할 수 있어요. 그 중에서 가장 일반적인 것은 Resque와 Sidekiq인데, 둘 다 내부적으로 redis를 사용합니다. 백그라운드 작업에 대해 더 많이 알아보고 심지어 개인 프로젝트에서 설정해 보는 것을 강력히 추천합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 75. 크론 작업
 
 크론 작업은 특정 간격으로 실행되는 백그라운드 작업입니다. Resque와 Sidekiq 둘 다 크론 작업을 구현하는 어댑터를 갖고 있습니다: resque-scheduler, sidekiq-scheduler.
 
-라이브러리 외에도 크론 작업을 다룰 때는 크론 스케줄 표현식도 알아야 합니다. 크론 스케줄 표현식은 이렇게 생겼습니다: 0 22 * * 1-5 그리고 이는 크론 작업이 실행되는 간격을 설정하는 데 사용됩니다. Crontab.guru는 크론 표현식을 확인하는 데 훌륭한 웹 애플리케이션입니다.
+라이브러리 외에도 크론 작업을 다룰 때는 크론 스케줄 표현식도 알아야 합니다. 크론 스케줄 표현식은 이렇게 생겼습니다: 0 22 \* \* 1-5 그리고 이는 크론 작업이 실행되는 간격을 설정하는 데 사용됩니다. Crontab.guru는 크론 표현식을 확인하는 데 훌륭한 웹 애플리케이션입니다.
 
 # 76. Rails 자격 증명
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 레일즈에는 자격 증명, 비밀 또는 기타 민감한 데이터를 저장하는 내장 방법이 제공됩니다. 코드에서 비슷한 것을 볼 수 있을 것입니다:
 
@@ -2343,7 +3476,18 @@ Rails.application.credentials[:secret_word]
 
 이제 키를 가졌으므로 비밀을 추가/편집/제거하는 방법이 궁금할 수 있습니다. 이를 위해 다음 명령어를 사용할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 EDITOR="code --wait" bin/rails credentials:edit
@@ -2355,7 +3499,18 @@ EDITOR="code --wait" bin/rails credentials:edit
 
 보통 rails db:migrate 명령어만 실행해도 새로운 데이터베이스 마이그레이션을 완료할 수 있습니다. 하지만 필요한 경우에는 특정 마이그레이션 파일을 실행하거나 되돌릴 수도 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 특정 마이그레이션 실행하기:
@@ -2371,7 +3526,18 @@ VERSION에 제공된 숫자는 마이그레이션의 버전이며 마이그레�
 
 계속해서, RSpec 팁과 트릭에 대해 집중해보겠습니다. 다른 테스트 라이브러리를 사용하더라도 이 정보 중 일부는 해당 사례에도 적용될 수 있으니 계속 읽는 것을 권장합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 우리는 루비와 루비 온 레일즈에 적용되는 코딩에 관한 몇 가지 일반적인 모범 사례에 대해 자세히 알아볼 예정이에요.
 
@@ -2381,8 +3547,18 @@ VERSION에 제공된 숫자는 마이그레이션의 버전이며 마이그레�
 
 하지만 만약 우리가 그 점들을 좋아하지 않고, 테스트 진행 상황을 더 "언어적으로" 표현하고 싶다면 어떻게 할까요? Rspec은 이를 위한 특별한 플래그를 통해 그 가능성을 제공해줘요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 = 기본 방식 =
 $ rspec spec
@@ -2395,13 +3571,13 @@ $ rspec spec
 
 $ rspec spec --format documentation
 Wizard
-  #spell_cast
-    주문을 외웁니다
-  #learn_spell
-    주문이 쉬울 때
-      주문을 배웁니다
-    주문이 어려울 때
-      주문을 배우지 못합니다
+#spell_cast
+주문을 외웁니다
+#learn_spell
+주문이 쉬울 때
+주문을 배웁니다
+주문이 어려울 때
+주문을 배우지 못합니다
 
 소요 시간: 0.05237 초 (파일 로드에 6.18 초 소요)
 3 예제, 0 실패
@@ -2412,9 +3588,18 @@ Wizard
 
 대부분의 경우, 로컬 개발 중에 작은 변경을 가할 때마다 전체 단위 테스트 스위트를 실행할 필요는 없습니다. Rspec을 사용하여 특정 폴더, 파일 또는 테스트만 실행할 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 = 특정 폴더 =
 rspec spec/models
@@ -2425,14 +3610,24 @@ rspec spec/models/wizard_spec.rb
 = 특정 테스트 블록 =
 rspec spec/models/wizard_spec.rb:12
 
-
-위 내용은 각각 사이에 공백을 두고 결합하여도 됩니다. 예를 들어 rspec spec 폴더_경로 파일_1_경로 파일_2_경로:줄_번호.
+위 내용은 각각 사이에 공백을 두고 결합하여도 됩니다. 예를 들어 rspec spec 폴더*경로 파일\_1*경로 파일*2*경로:줄\_번호.
 
 # 80. 팩토리
 
 팩토리는 모델 인스턴스를 생성하는 지침으로 사용되어, 테스트 중에 이를 수동으로 수행하고 많은 코드를 반복하지 않아도 되도록 도와줍니다. Rails 프로젝트에서 흔히 사용되는 젬은 factory_bot_rails입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 팩토리를 사용하는 방법은 다음과 같습니다:
 
@@ -2462,7 +3657,18 @@ end
 
 팩토리에 대해 더 많이 알아보시기를 권장하며, 여기서 강조하고 싶은 점은 팩토리를 실제로 어떻게 사용하는지입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 FactoryBot은 팩토리를 사용하는 세 가지 방법을 제공합니다:
 
@@ -2474,7 +3680,18 @@ FactoryBot은 팩토리를 사용하는 세 가지 방법을 제공합니다:
 
 let은 RSpec에서 사용되는 특별한 메서드로, 유닛 테스트에서 사용할 수 있는 메모이즈된 값을 생성할 수 있습니다. 이는 코드의 성능과 가독성에 도움이 되며 반복하지 않아도 되기 때문에 유용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 RSPec을 사용할 때 많이 겪는 "문제" 중 하나가 이렇습니다:
 
@@ -2495,7 +3712,7 @@ end
 첫눈에는 모든 것이 잘 보이고 테스트가 통과될 것으로 예상할 수 있습니다. 그러나 테스트를 실행하면 다음과 같은 실패 메시지가 나옵니다:
 
 ```js
-$ rspec spec/models spec/models/wizard_spec.rb 
+$ rspec spec/models spec/models/wizard_spec.rb
 F
 
 Failures:
@@ -2517,7 +3734,18 @@ Failed examples:
 rspec ./spec/models/wizard_spec.rb:7 # Wizard#expell destroy the wizard
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이런 일이 발생하는 이유는 우리의 테스트 앞에 let을 추가하는 것만으로 충분하지 않기 때문입니다. let 뒤에 제공된 블록을 실행하고 값을 메모이제이션하기 위해서는 먼저 let을 호출하거나 끝에 !로 선언해야 합니다.
 
@@ -2558,7 +3786,18 @@ end
 
 # 82. Faker
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단위 테스트 작성은 재미있어요. 이름, 이메일 주소, 문장 또는 무작위 숫자를 사용해야 하는 순간이 될 때까지는요. 그럴 때 최적의 예제를 고민하기 시작합니다.
 
@@ -2580,7 +3819,18 @@ irb(main):005> Faker::Quotes::Shakespeare.hamlet_quote
 irb(main):006>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Faker의 모든 생성기를 공식 GitHub 저장소에서 찾을 수 있어요.
 
@@ -2590,7 +3840,18 @@ Faker의 모든 생성기를 공식 GitHub 저장소에서 찾을 수 있어요.
 
 공유 예시 없이
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 require 'rails_helper'
@@ -2646,8 +3907,18 @@ end
 
 As you can see, we extracted the duplicated code while still having a readable file.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 84. 씨앗
 
@@ -2665,7 +3936,18 @@ Randomized with seed 59647
 rspec spec --seed 59647
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 85. 테스트 커버리지
 
@@ -2678,7 +3960,18 @@ require 'simplecov'
 SimpleCov.start
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스펙을 실행한 후에 SimpleCov로부터 한 경로로 이동하는 메시지를 볼 것입니다. 가장 좋은 부분은 이것이 모든 소스 코드와 커버된 부분 또는 커버되지 않은 영역을 포함하는 멋지고 상호 작용하는 HTML 페이지를 생성한다는 것입니다.
 
@@ -2700,7 +3993,18 @@ Coverage report generated for RSpec to .../app/coverage. 83 / 88 LOC (94.32%) co
 
 # 86. Rspec은 여전히 루비입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 require 'rails_helper'
@@ -2730,7 +4034,18 @@ describe Wizard do
 end
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 require 'rails_helper'
@@ -2760,8 +4075,18 @@ end
 
 단위 테스트의 구조 및 각 케이스에 제공된 메시지는 실제 단위 테스트를 작성하는 데 일부 시간이 걸릴 수 있습니다. 특히 여러 가지 개인적인 선호도가 있는 경우입니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 경우 내 제안은 구조 및 메시지에 대한 훌륭한 리소스이자 유닛 테스트에 관한 많은 유용한 정보도 제공하는 https://www.betterspecs.org/를 참고하는 것입니다.
 
@@ -2771,7 +4096,18 @@ end
 
 솔직히 말해서, 이 주제를 심층적으로 다룬 적은 거의 없지만, 지금까지 만난 모든 프로그래밍 언어에서 이를 모범 사례로 인식합니다. 따라서 항상 파일이 빈 줄로 끝나도록 확인해 주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 루비에서 대부분의 파일은 end 키워드로 끝나기 때문에 파일 끝에 빈 줄이 누락되었는지 확인하는 것이 더 쉽습니다.
 
@@ -2781,7 +4117,18 @@ end
 
 이를 몇 가지 실제 예제로 쉽게 이해할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 if wizard.has_mana? && wizard.all_spells_are_ready?
@@ -2799,7 +4146,18 @@ end
 
 위의 예시에서 만약 wizard.sick?이 true이면 나머지 부분인 wizard.hurt?와 wizard.any_damaged_item?은 더 이상 확인되지 않습니다. 왜냐하면 최종 결과는 항상 true가 되기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이를 염두에 두고 항상 조건을 복잡도에 따라 구성해보세요. 더 빠른 표현식이 먼저 실행되도록 조직을 맞춰줍시다. 예를 들어, 모든 주문이 준비되었는지 또는 마법사에 손상된 아이템이 있는지를 먼저 확인하는 것은 의미가 없을 것입니다. 왜냐하면 결정을 내릴 때 우리에게 도움을 줄 수 있는 더 빠른 조건이 있기 때문입니다.
 
@@ -2809,7 +4167,18 @@ end
 
 return 뒤에 줄이 없음
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 def magical_season?
@@ -2827,7 +4196,18 @@ end
 
 각 return 다음에 줄을 추가하면 메소드를 읽기 쉽게 만들 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 규칙이 아니며 개인 또는 팀의 기호에 따라 달라집니다. 모든 return 후에 새 줄을 추가하는 것이 항상 합리적이지는 않을 수 있습니다. 아래와 같은 경우 또한 있습니다:
 
@@ -2844,7 +4224,18 @@ end
 
 매직 문자열은 코드에서 사용되는 리터럴 문자열 값입니다. 코드에서 문자열 값을 직접 사용하는 것은 일반적으로 좋은 아이디어가 아닙니다. 값이 무엇을 나타내는지 이해하기 어렵고, 필요 시 모든 위치에서 업데이트해야 하기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마술 문자열을 사용하는 대신, 상수나 구성 파일과 같은 데이터 표현 유형을 사용하는 것이 더 나은 방법입니다.
 
@@ -2868,27 +4259,38 @@ end
 
 마술 문자열 없이:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 class Wizard < ApplicationRecord
-  FIRE_ELEMENT = 'Fire'
-  WATER_ELEMENT = 'Water'
-  EARTH_ELEMENT = 'Earth'
-  AIR_ELEMENT = 'Air'
-  ELEMENTS = [FIRE_ELEMENT, WATER_ELEMENT, EARTH_ELEMENT, AIR_ELEMENT]
+FIRE_ELEMENT = 'Fire'
+WATER_ELEMENT = 'Water'
+EARTH_ELEMENT = 'Earth'
+AIR_ELEMENT = 'Air'
+ELEMENTS = [FIRE_ELEMENT, WATER_ELEMENT, EARTH_ELEMENT, AIR_ELEMENT]
 
-  def elemental?
-    power.in?(ELEMENTS)
-  end
+def elemental?
+power.in?(ELEMENTS)
+end
 
-  def supreme?
-    ELEMENTS.each do |element|
-      return false if power.exclude?(element)
-    end
+def supreme?
+ELEMENTS.each do |element|
+return false if power.exclude?(element)
+end
 
     true
-  end
+
+end
 end
 
 # 92. RuboCop
@@ -2897,8 +4299,18 @@ end
 
 # 93. 짧고 명확한 메서드
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 클린 코드의 중요한 측면 중 하나는 메소드를 짧고 최대한 추상적으로 유지하는 것입니다. 이는 코드의 가독성과 재사용성을 향상시키며, 이러한 코드 조각을 모두 통째로 수정하거나 확장하는 것보다 훨씬 쉽습니다.
 
@@ -2939,7 +4351,18 @@ end
 
 그리고 이것은 이를 염두에 두지 않고 작성했을 때의 모습입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 module Wizards
@@ -2966,8 +4389,18 @@ end
 
 대부분의 경우, 메소드를 작성하고 그 메소드가 두 개 이상의 매개변수를 필요로 한다면, 저는 대신 하나의 해시 파라미터를 사용하는 것을 선호합니다. 가독성을 향상시킬 뿐만 아니라, 이 방법은 미래에 쉽게 클래스를 수정할 수 있도록 해줍니다(예: 새로운 매개변수 추가) 호출되는 모든 위치를 수정하지 않아도 됩니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3개의 매개변수를 갖는 메소드
 
@@ -2995,7 +4428,18 @@ search_book(
 )
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 예시에서는 다음과 같은 이점이 있습니다:
 
@@ -3007,7 +4451,18 @@ search_book(
 
 # 95. 코멘트
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코드의 일부나 비즈니스 로직을 설명할 때 주석을 추가하는 것은 좋습니다. 그러나 항상 주석이 절실한 경우에만 추가되도록 하세요. 가독성이 높은 코드를 작성하여 주석처리를 최소화하는 것이 좋습니다.
 
@@ -3022,7 +4477,18 @@ end
 
 이를 주석이 필요 없는 방식으로 개선할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 def magic_book_titles(wizard)
@@ -3038,7 +4504,18 @@ end
 
 로컬 개발 중에 반복적인 작업을 수행해야 하는 상황에 처하게 된다면 쉘 스크립트가 정확히 필요한 것일 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이론적인 예를 들어 보겠습니다. 우리의 Rails 애플리케이션이 SECRET 환경 변수가 필요하다고 가정해 봅시다. 서버나 콘솔을 로컬에서 시작하기 전에 설정해야 합니다. 저는 모르겠는데, 많은 시간이 지나서 그것을 추가하는 것을 까먹으면서 왜 로컬 환경에 문제가 발생하는지 궁금해 할 것입니다.
 
@@ -3063,7 +4540,18 @@ irb(main):001> ENV['SECRET']
 irb(main):002>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 글의 끝에서 우리의 초점을 조금 더 편안한 것으로 전환할 것입니다.
 
@@ -3073,7 +4561,18 @@ irb(main):002>
 
 이게 어디까지나 뻗어나갈지 궁금했던 적이 있나요? 음, 다섯까지가 끝이고, 그 다음에는 특별한 것이 있습니다: forty_two.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 특정 번호가 궁금하다면, 이 부분을 확인해보세요.
 
@@ -3092,7 +4591,18 @@ irb(main):002>
 
 대화형 루비 콘솔에서 IRB.send(:easter_egg, :logo)를 호출하면 콘솔에 멋진 루비 로고가 출력됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 99. 이스터 에그 #3
 
@@ -3102,7 +4612,18 @@ irb(main):002>
 
 레일스의 창시자인 David Heinemeier Hansson은 레일스가 어떻게 만들어 졌는지 설명하는 다큐멘터리에 참여했습니다. 내 의견으로는 이것은 정말 영감을 주는 일이며, 편안한 시간을 보내는 좋은 방법이라고 생각합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 영상은 여기에서 확인하실 수 있습니다: Ruby on Rails, The Documentary.
 

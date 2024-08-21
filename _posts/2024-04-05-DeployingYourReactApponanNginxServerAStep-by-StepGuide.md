@@ -3,17 +3,13 @@ title: "React 앱을 Nginx 서버에 배포하기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Deploying Your React App on an Nginx Server A Step-by-Step Guide"
 link: "https://medium.com/@prateekpareekvyas/deploying-your-react-app-on-an-nginx-server-a-step-by-step-guide-71dd9e0533a5"
 isUpdated: true
 ---
-
-
-
-
 
 판타스틱한 React 애플리케이션을 만들었네요! 이제 이를 세계와 공유할 때입니다. Nginx 웹 서버에 앱을 배포하는 것은 이를 효율적이고 견고하게 할 수 있는 방법 중 하나입니다. 이 안내서에서는 React 앱을 Nginx 서버에 배포하는 과정을 안내해 드리겠습니다.
 
@@ -24,7 +20,18 @@ isUpdated: true
 - 배포를 위해 준비된 프로덕션용 React 애플리케이션이 필요합니다 (npm run build를 사용하여 프로덕션 빌드를 생성할 수 있습니다).
 - Nginx가 설치되고 구성된 서버에 액세스할 수 있어야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 1: React 앱을 배포할 준비하기
 
@@ -34,7 +41,18 @@ isUpdated: true
 npm run build
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 Save to grepper
@@ -46,7 +64,18 @@ Save to grepper
 
 다음으로, 앱의 빌드 파일을 서버로 전송해야 합니다. 이 작업을 수행하기 위해 scp, rsync 또는 심지어 FTP와 같은 도구를 사용할 수 있습니다. 예를 들어 scp를 사용하는 방법:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 bashCopy 코드
@@ -62,7 +91,18 @@ Grepper에 저장
 
 이 명령은 앱의 빌드 폴더 내용을 Nginx 웹 루트 디렉토리로 전송합니다 (이 예시에서는 /var/www/html/). 설정에 맞게 경로와 서버 대상을 수정해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 3: Nginx 구성하기
 
@@ -78,7 +118,18 @@ server {
     server_name your-domain.com www.your-domain.com;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
     root /var/www/html;  # 빌드 파일이 저장된 위치로 이 경로를 변경해주세요
@@ -105,7 +156,18 @@ grepper에 저장
 
 # 단계 4: Nginx 구성 활성화
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Nginx 설정을 활성화하기 위한 심볼릭 링크를 생성하세요:
 
@@ -115,7 +177,18 @@ sudo ln -s /etc/nginx/sites-available/your-app.conf /etc/nginx/sites-enabled/
 
 Grepper에 저장하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 텍스트를 친근한 톤으로 한국어로 번역해드리겠습니다.
 
@@ -133,7 +206,18 @@ sudo nginx -t
 grepper에 저장
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 것이 잘 되었다면 변경 내용을 적용하려면 Nginx를 다시로드하십시오:
 
@@ -149,7 +233,18 @@ sudo systemctl reload nginx
 Grepper에 저장하세요
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 5: 도메인 설정 구성
 
@@ -159,7 +254,18 @@ Grepper에 저장하세요
 
 모든 것이 준비되었으므로, 웹 브라우저에서 도메인을 방문하여 React 앱에 액세스 할 수 있어야합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

@@ -3,17 +3,13 @@ title: "React  D3js로 인터렉티브 웹사이트 만들기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: " Getting started with React  D3js"
 link: "https://medium.com/@kamibrumi/getting-started-with-react-d3-js-d86ccea05f08"
 isUpdated: true
 ---
-
-
-
-
 
 타코에 대한 내가 좋아하는 두 가지 재미있는 사실은 그것들을 아무 것이나 (정말로!) 채울 수 있고, 그리고 그들을 축하하는 날이 있다는 것입니다 (미국에서는 10월 4일)!
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 사이드바가 끝나면, 왜 나는 타코에 대해 언급하고 있는 걸까요? 음, 여기서의 비유가 조금 억지스러울 수 있지만, React와 D3.js를 결합하는 것은 타코를 만드는 과정과 비슷하다고 믿습니다. React는 맛있는 타코 껍데기를 이루는 흰 옥수수 토르티야처럼, D3는 타코 안의 충전물처럼 작용합니다. React가 시각을 담당하며, D3는 React 구성 요소를 맛있는 시각화로 채웁니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 연구소 동료들의 업무 흐름과 업계의 표준 관행을 기반으로 이 두 도구를 배우기로 결정했습니다. 이미 존재하는 React와 D3 코드를 결합하여 작동시키는 실용적인 예시를 온라인으로 찾을 수 없어서, React와 D3 학습 과정을 공유하기 위해 짧은 글을 작성하기로 결심했습니다. 이 글이 이 두 라이브러리를 함께(조화롭게, 오류 없이) 작동하도록 하려는 다른 사람들에게 도움이 되길 바랍니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 <img src="/assets/img/GettingstartedwithReactD3js_1.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자, 그럼 요리 시작해볼까요!
 
@@ -45,7 +63,18 @@ isUpdated: true
 - D3.js: 지금 사용할 시각화 라이브러리입니다. 이후에 프로젝트에 추가할 거에요.
 - React 구성 요소에 임베드할 D3 예제: 시작을 위해 간단한 막대 차트를 선택했어요: https://d3-graph-gallery.com/graph/barplot_basic.html
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 지시 사항
 
@@ -59,7 +88,18 @@ cd react-d3-test
 
 물론 npx를 사용해도 되지만, 리액트 앱에 라이브러리를 설치할 때 일관성을 유지하기 위해 동일한 패키지(npm 또는 yarn)를 사용하는 것을 권장합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npx react-app react-d3-test
@@ -76,7 +116,18 @@ yarn add d3
 # npm install d3
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 차트를 리액트 구성 요소로 추가하기 위해 모든 준비가 끝났어요.
 
@@ -101,7 +152,18 @@ reportWebVitals();
 이 간단한 예제를 개발할 때 우리의 삶을 더 쉽게 만들기 위해 StrictMode 태그를 제거하기로 했어요.
 따라서 여기 있는 코드는 이렇게 보일 거에요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -127,12 +189,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
           Learn React
         </a>
       </header>
@@ -145,7 +202,18 @@ export default App;
 
 시작 코드는 주로 무용지물이므로, 제목과 가져오고 싶은 Barchart 컴포넌트를 포함하도록 수정할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import "./App.css";
@@ -172,7 +240,18 @@ import { useEffect, useRef } from "react";
 
 그런 다음, 빈 Barchart 함수 컴포넌트를 생성하고 내보냅니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const Barchart = () => {};
@@ -250,7 +329,18 @@ export default Barchart;
 
 React와 함께 이 d3 예제를 작동하도록 만들기 위해 몇 가지 변경 사항이 있습니다. 먼저 svg를 선택할 때 index.html에 "my_dataviz" id로 된 svg가 없습니다. 이 문제를 해결하는 방법은 useRef 훅을 사용하는 것입니다. React 문서에서 useRef에 대해 다음과 같이 설명합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 따라서, useEffect 훅 이전에 ref를 생성하고 다음과 같이 d3.select 메서드에 전달하십시오:
 
@@ -292,7 +382,18 @@ const Barchart = () => {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 전체 Barchart.jsx 코드는 모든 소스와 토핑을 모두 포함할 때 다음과 같이 보입니다:
 
@@ -363,7 +464,18 @@ export default Barchart;
 
 7. 이제 그 토르티야를 예열해야 해요! 다음 명령어를 터미널에서 실행하여 브라우저에서 로컬 애플리케이션을 실행하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 yarn start
@@ -377,7 +489,18 @@ yarn start
 
 # 소스에 대한 일부 최종 생각...
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 타코에는 크리미 치포틀 랜치 드레싱이나 살사 베르데가 잘 어울려요 (나중에 고마워할 거에요).
 

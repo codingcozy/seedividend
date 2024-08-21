@@ -3,16 +3,13 @@ title: "Spring Boot에서 Autowired 애노테이션 사용 시 최고의 방법�
 description: ""
 coverImage: "/allround-coder.github.io/assets/no-image.jpg"
 date: 2024-07-07 22:06
-ogImage: 
+ogImage:
   url: /allround-coder.github.io/assets/no-image.jpg
 tag: Tech
 originalTitle: "Best Practices of using @Autowired annotation in spring boot"
 link: "https://medium.com/@contactshubham/best-practices-of-using-autowired-annotation-in-spring-boot-6675cf7e8d9b"
 isUpdated: true
 ---
-
-
-
 
 이 게시물에서는 @Autowired 주석을 사용하여 Constructor Injection Over Field Injection을 선호하여 가장 안전하고 최상의 방법으로 활용하는 방법에 대해 설명하겠습니다. 가능한 한 간단하게 모든 논리를 설명하고 예제를 통해 보여드리겠습니다.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 의존성을 주입하는 가장 일반적인 방법을 살펴보기 전에 Constructor Injection을 통해 @Autowired 주석을 사용하는 방법에 대해 알아보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 @Service
@@ -40,7 +48,18 @@ public class UserController {
 
 @Autowired는 어떻게 작동합니까?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1. 빈 인스턴스: @Autowired 주석은 완전히 초기화된 빈 인스턴스를 주입합니다. 이는 주입된 빈의 모든 종속성이 이미 해결되고 주입된 상태를 의미합니다.
 2. 종속성 해결: 애플리케이션 컨텍스트에서 필요한 빈을 찾습니다.
@@ -54,7 +73,18 @@ public class UserController {
 
 여기 생성자 주입을 사용하여 종속성을 주입하는 방법입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 @Service
@@ -80,8 +110,18 @@ public class UserController {
 
 생성자 주입을 사용하면 UserService 의존성을 실제로 해결하지 않고 UserController 객체를 만들 수 없습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 마지막으로, @Autowired 어노테이션을 사용하여 필드에 직접 클래스를 주입하는 것과 @Autowired 어노테이션을 사용하여 생성자 주입을 통해 클래스를 주입하는 것 사이의 차이를 보여 드렸습니다. 이는 불변성을 강제하고, 테스트 가능성을 향상시키며, Spring Boot 애플리케이션에서 종속성을 더 잘 관리할 수 있도록 도와줍니다. 생성자 주입을 택함으로써 더 명확한 코드를 확보할 수 있으며, 종속성 주입과 관련된 잠재적 문제를 줄일 수 있습니다.
 

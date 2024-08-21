@@ -3,16 +3,13 @@ title: "Python의 가장 강력한 데코레이터"
 description: ""
 coverImage: "/assets/img/2024-07-13-PythonsMostPowerfulDecorator_0.png"
 date: 2024-07-13 20:21
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-PythonsMostPowerfulDecorator_0.png
 tag: Tech
 originalTitle: "Python’s Most Powerful Decorator"
 link: "https://medium.com/towards-data-science/pythons-most-powerful-decorator-6bc39e6a8dd8"
 isUpdated: true
 ---
-
-
-
 
 ![파이썬의 강력한 데코레이터](/assets/img/2024-07-13-PythonsMostPowerfulDecorator_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 팁: 파이썬 애호가에게 처음으로 속성을 소개할 때 그들 눈 속에서 반짝임을 볼 때 너무 흥분돼요. 처음 알게 될 때도 그대로 반짝이길 바래요! 이미 경험 많은 개발자이고 개념에 익숙하다면, 이 포스트에서 새로운 것을 발견했으면 좋겠어요. 어찌되었든, 설명이 더 잘 될 수 있는 부분이 있거나 놓칠법한 중요한 사용 사례가 있다면 댓글에서 알려주시면 감사하겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 속성 간단 안내서
 
@@ -32,9 +40,20 @@ isUpdated: true
 
 여기서 @property를 사용하여 이름 속성에 액세스하기 전에 추가 작업을 할 수 있었습니다! 이름 속성의 기술용어는 getter입니다: 속성을 "가져오기"하기 전에 작업을 수행할 수 있는 방법이라고 생각해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-기본적으로 속성은 Python에서 getter 메서드를 생성할 수 있게 해주는 바로가기로 생각할 수 있어요. 객체에 대한 정보를 안전하게 접근할 수 있는 방법을 제공해줍니다. @property를 통해 구현된 getter 메서드를 통해 비공개 또는 보호된 속성에 안전하게 접근할 수 있게 됩니다. 위 예시에서 볼 수 있듯이, "비공개" 속성 _name을 정의하고 getter 메서드인 name 속성을 통해 접근하고 있어요.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+기본적으로 속성은 Python에서 getter 메서드를 생성할 수 있게 해주는 바로가기로 생각할 수 있어요. 객체에 대한 정보를 안전하게 접근할 수 있는 방법을 제공해줍니다. @property를 통해 구현된 getter 메서드를 통해 비공개 또는 보호된 속성에 안전하게 접근할 수 있게 됩니다. 위 예시에서 볼 수 있듯이, "비공개" 속성 \_name을 정의하고 getter 메서드인 name 속성을 통해 접근하고 있어요.
 
 속성의 가장 중요한 기능은 속성을 읽기 전용으로 만들어 값을 덮어쓰기하는 것을 막는다는 점이에요. 아래 예시를 살펴보세요:
 
@@ -42,17 +61,39 @@ name이 속성으로 설정되어 있기 때문에 보통의 속성처럼 어떤
 
 요약하자면, 속성은 속성을 읽기 전용으로 만들어주고 실제 속성에 접근하기 전에 다른 작업을 수행할 수 있도록 해줍니다. 실제 예시를 통해 자세히 살펴보겠지만, 지금은 속성 데코레이터가 어떻게 작동하는지에 대한 대략적인 개념을 이해하셨으면 좋겠어요. 계속 진행하기 전에 한 가지 알아보고 넘어가기 위해 속성이 어떻게 작동하는지와 속성이 작동하는 기본 개념인 디스크립터에 대해 간단히 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 뒷면에서: 속성과 디스크립터
 
 속성은 속성이 어떻게 접근, 수정 또는 삭제되는지를 결정하는 객체인 디스크립터 개념과 밀접한 관련이 있습니다. 여기서는 "접근" 부분에만 초점을 맞춥니다. 디스크립터는 클래스 내의 속성에 대한 특정 규칙과 조건을 정의할 수 있습니다. 일반적으로 이를 통해 코드와 객체/클래스의 동작을 더 잘 제어하고 유연하게 조작할 수 있습니다. 속성은 내부적으로 디스크립터를 활용하여 클래스에 이를 녹여내어 객체/클래스의 기능을 향상시킬 수 있습니다.
 
-메소드에 @property 데코레이터를 사용하면 getter 디스크립터가 생성됩니다. 속성에 접근할 때 디스크립터의 __get__ 메소드가 호출되어 속성 값을 반환하기 전에 추가 동작을 수행할 수 있습니다. 실제로 @property 데코레이터는 getter 디스크립터를 만드는 간편한 방법입니다.
+메소드에 @property 데코레이터를 사용하면 getter 디스크립터가 생성됩니다. 속성에 접근할 때 디스크립터의 **get** 메소드가 호출되어 속성 값을 반환하기 전에 추가 동작을 수행할 수 있습니다. 실제로 @property 데코레이터는 getter 디스크립터를 만드는 간편한 방법입니다.
 
 디스크립터의 작동 방식에 대한 자세한 내용은 이 글의 범위를 벗어나지만, 파이썬 참조 문서와 Real Python의 훌륭한 기사를 참조하여 더 자세히 알아볼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 데이터 처리 및 기계 학습의 맥락에서 속성을 사용하는 5가지 다른 방법을 살펴보겠습니다.
 
@@ -62,7 +103,18 @@ name이 속성으로 설정되어 있기 때문에 보통의 속성처럼 어떤
 
 우리가 토론한 대로, 속성은 직접 할당을 제한하여 클래스 속성이 덮어쓰기되는 것을 방지하는 강력한 메커니즘을 제공합니다. 이 기능은 데이터 과학 및 기계 학습 응용 프로그램에서 데이터 및 모델의 무결성이 중요한 경우에 특히 가치가 있습니다. @property 데코레이터를 활용하여 읽기 전용 속성을 생성할 수 있으며, 이를 통해 속성에 액세스할 수 있지만 수정할 수는 없습니다. 이는 우연한 오류 발생 가능성이 적은 견고한 데이터 및 모델 객체를 생성하는 데 매우 유용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 클래스 속성이 데이터셋을 나타낼 때는 덮어쓰기를 방지하는 것이 매우 중요합니다. 이렇게 함으로써 데이터의 일관성과 신뢰성을 보장할 수 있습니다. 데이터 과학과 기계 학습 워크플로우에서 데이터셋은 종종 외부 소스에서 로드되거나 복잡한 계산을 통해 생성됩니다. 한 번 데이터가 로드되거나 계산된 후에는 그 무결성을 유지하는 것이 중요합니다. 이를 통해 후속 분석이나 모델에서 오류나 불일치를 방지할 수 있습니다.
 
@@ -72,7 +124,18 @@ name이 속성으로 설정되어 있기 때문에 보통의 속성처럼 어떤
 
 이 문제를 개선하기 위해 dataset을 호출할 때 경로를 로드하는 메서드로 변환하는 방법이 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 혹시 load_dataset() 메서드를 호출하기 위해 seemingly redundant 한 dataset() 메서드를 정의하는지 혼란스러워 하신다면, 곧 알게 될 거예요.
 
@@ -82,7 +145,18 @@ name이 속성으로 설정되어 있기 때문에 보통의 속성처럼 어떤
 
 지금까지 좋아요, 하지만 또 다른 문제가 생겼어요. 이 특정 구현은 데이터셋 속성을 호출할 때마다 데이터를 불러오기 위해 pd.read_parquet() 함수를 호출합니다. 이것은 매우 비효율적일 수 있으며, 중대한 크기의 데이터셋에도 적합하지 않을 수 있어요. 데이터셋 메서드에 캐싱을 구현해야 합니다. 이것이 다음 세그먼트의 주제입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 작업을 계속하기 전에, 이 세그먼트를 요약해보겠습니다. 클래스 속성이 덮어쓰여지는 것을 방지하는 속성을 사용함으로써, 데이터 과학과 머신 러닝 애플리케이션에서 데이터의 일관성과 신뢰성을 보장할 수 있습니다. 이는 모델의 무결성을 유지하고 오류를 방지하며 정확한 분석과 예측을 촉진하는 데 도움이 됩니다.
 
@@ -92,17 +166,39 @@ name이 속성으로 설정되어 있기 때문에 보통의 속성처럼 어떤
 
 ![이미지](/assets/img/2024-07-13-PythonsMostPowerfulDecorator_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 속성은 성능을 최적화하고 런타임을 줄이는 캐싱 메커니즘으로 사용할 수 있습니다. 이는 특히 속성의 계산이 자원을 많이 사용하고 결과가 자주 변하지 않는 시나리오에서 이점을 제공합니다.
 
-이전 세그먼트에서는 데이터셋 속성을 호출할 때마다 클래스가 디스크에서 데이터프레임을 로드하는 문제가 발생했습니다. 그러나 최초로 로드된 후 데이터셋을 캐시하기 위해 프라이빗 속성 _dataset을 추가함으로써 이를 완화할 수 있습니다.
+이전 세그먼트에서는 데이터셋 속성을 호출할 때마다 클래스가 디스크에서 데이터프레임을 로드하는 문제가 발생했습니다. 그러나 최초로 로드된 후 데이터셋을 캐시하기 위해 프라이빗 속성 \_dataset을 추가함으로써 이를 완화할 수 있습니다.
 
-이 업데이트로 데이터셋이 처음 호출될 때 데이터는 한 번 파일에서 내부 _dataset 속성으로 로드됩니다. 데이터셋을 이후에 사용할 때는 간단히 메모리에서 데이터를 로드합니다.
+이 업데이트로 데이터셋이 처음 호출될 때 데이터는 한 번 파일에서 내부 \_dataset 속성으로 로드됩니다. 데이터셋을 이후에 사용할 때는 간단히 메모리에서 데이터를 로드합니다.
 
 더 안전하게 하기 위해 file_path도 속성으로 변경할 수 있지만, 실제 사용 사례에 따라 달라집니다. 각 로더 인스턴스가 특정 파일 경로 또는 데이터셋에만 해당하도록 하려면 file_path를 읽기 전용으로 만들어야 합니다. 그렇지 않으면 파일 경로가 동적으로 변경될 수 있는 더 유연한 범용 데이터 로딩 클래스가 필요한 경우, 그대로 두면 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 완전성을 위해 머신 러닝과 관련된 예제도 고려해 봅시다. 하이퍼파라미터를 갖지 않고 피쳐와 타겟 데이터셋을 입력으로 받아 모델을 훈련하는 간단한 머신 러닝 모델을 구축해 봅시다. 아래 구현은 두 가지 속성을 갖고 있습니다: trained는 모델이 훈련되었는지 여부를 나타내며 model_parameters는 훈련 후에 모델 파라미터를 "캐싱"하여 덮어쓰기 방지 기능을 제공합니다.
 
@@ -112,7 +208,18 @@ name이 속성으로 설정되어 있기 때문에 보통의 속성처럼 어떤
 
 # 3. 자주 사용되는 속성의 동적 계산
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![그림](/assets/img/2024-07-13-PythonsMostPowerfulDecorator_3.png)
 
@@ -122,7 +229,18 @@ name이 속성으로 설정되어 있기 때문에 보통의 속성처럼 어떤
 
 데이터 처리 문맥에서 더 실용적인 예제는 다음과 같이 설명됩니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예에서 DataProcessor 클래스는 팬더스 DataFrame을 입력으로 받아 "계산"에 대한 속성을 제공합니다. 동적 계산을 위해 속성을 사용하면 데이터에 대한 정보를 수동으로 매번 계산할 필요 없이 쉽게 가져올 수 있습니다. 이는 특히 대규모 데이터셋을 처리하거나 반복적인 계산을 수행할 때 시간과 노력을 절약하는 데 도움이 됩니다.
 
@@ -132,8 +250,18 @@ name이 속성으로 설정되어 있기 때문에 보통의 속성처럼 어떤
 
 # 4. Setter와 결합하여 새 값 할당의 유효성 검사하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-07-13-PythonsMostPowerfulDecorator_4.png)
 
@@ -143,8 +271,18 @@ name이 속성으로 설정되어 있기 때문에 보통의 속성처럼 어떤
 
 scaling_factor 속성은 이제 setter 메서드가 정의되어 있기 때문에 더 이상 읽기 전용이 아닙니다. 그러나 긍정적인 측면은 이제 속성에 할당하기 전에 체크를 수행하여 새 값을 유효한지 확인할 수 있다는 것입니다. 예를 들어, 여기서 스케일 요인에 할당된 값을 항상 양수인지 확인하는 것을 보여드리겠습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 예제에서 확인할 수 있듯이, 유효하지 않은 (0 또는 음수) 값을 할당하려고 하면 ValueError가 발생합니다. 이는 클래스 속성에 문제가 있는 값을 실수로 할당하여 발생하는 오류를 찾는 데 매우 유용할 수 있습니다.
 
@@ -154,17 +292,39 @@ scaling_factor 속성은 이제 setter 메서드가 정의되어 있기 때문�
 
 ![image](/assets/img/2024-07-13-PythonsMostPowerfulDecorator_5.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 속성은 클래스 내에서 메모리 집중형 에셋 및 속성을 게으르게 로드할 수 있는 방법을 제공하여, 필요한 시점까지 미루는 것을 가능하게 합니다. 이 기능은 방대한 데이터 세트나 자원 집약적인 작업을 다룰 때 특히 유용합니다. 이러한 자원들을 실제로 필요한 시점까지 로드를 미룸으로써, 시스템의 전반적인 성능과 효율성을 크게 향상시킬 수 있습니다. 게으르게 로딩을 통해 오직 필요한 자원만 필요한 시점에 메모리에 로드되므로, 불필요한 오버헤드를 줄일 수 있어 메모리를 절약하고 자원 할당을 최적화할 수 있습니다.
 
-저희는 이미 이를 섹션 2의 예제에서 수동으로 구현했습니다. 데이터는 DataLoader 클래스에 초기화 시 로딩되는 것이 아니라 데이터셋 속성에 처음 접근할 때 로드됩니다. 캐싱을 위해 우리는 비공개 속성 _dataset을 정의하고 None으로 인스턴스화하고, 처음으로 접근할 때 이 데이터를로드하도록했습니다. 너무 많은 단계처럼 들립니다. functools 라이브러리는 @property 대신 @cached_property 데코레이터를 사용하여 모든 보일러플레이트 코드를 간단히 없애는 편리한 방법을 제공합니다. 예시를 보겠습니다:
+저희는 이미 이를 섹션 2의 예제에서 수동으로 구현했습니다. 데이터는 DataLoader 클래스에 초기화 시 로딩되는 것이 아니라 데이터셋 속성에 처음 접근할 때 로드됩니다. 캐싱을 위해 우리는 비공개 속성 \_dataset을 정의하고 None으로 인스턴스화하고, 처음으로 접근할 때 이 데이터를로드하도록했습니다. 너무 많은 단계처럼 들립니다. functools 라이브러리는 @property 대신 @cached_property 데코레이터를 사용하여 모든 보일러플레이트 코드를 간단히 없애는 편리한 방법을 제공합니다. 예시를 보겠습니다:
 
 훨씬 깔끔하죠! 누구나 보일러플레이트 코드를 좋아하지 않아요.
 
 게으르게 로드되는 속성들은 데이터 클래스를 보다 메모리 효율적으로 만들 수 있습니다. Python에서 메모리 효율적인 클래스를 작성하는 다른 방법에 대해 자세히 알아보려면 이 글을 확인해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요약하자면: 속성의 게으른 로딩 활용은 성능 향상, 리소스 사용 최적화 및 코드의 전반적 효율성 향상 이점을 제공합니다. @cached_property 데코레이터를 사용하여 이를 쉽게 달성할 수 있습니다.
 

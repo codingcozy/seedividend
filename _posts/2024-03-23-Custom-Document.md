@@ -3,17 +3,13 @@ title: "Nextjs 13 _document 파일 사용 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "사용자 정의 문서"
 link: "undefined"
 isUpdated: true
 ---
-
-
-
-
 
 # 사용자 정의 문서
 
@@ -37,7 +33,18 @@ export default function Document() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 > 유용한 정보
 > \_document 파일은 서버에서만 렌더링되므로 onClick 같은 이벤트 핸들러를 사용할 수 없습니다.
@@ -51,7 +58,18 @@ export default function Document() {
 
 ## renderPage 사용자 정의하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 렌더페이지를 사용자 정의하는 것은 고급 기능이며 서버 사이드 렌더링을 지원하기 위해 CSS-in-JS와 같은 라이브러리에 필요합니다. 이것은 내장 styled-jsx 지원에는 필요하지 않습니다.
 
@@ -99,4 +117,15 @@ export default MyDocument;
 > \_document의 getInitialProps는 클라이언트 측 전환 중에 호출되지 않습니다.
 > \_document에 대한 ctx 객체는 getInitialProps에서 받는 것과 동일하며, renderPage가 추가된 것이 차이점입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

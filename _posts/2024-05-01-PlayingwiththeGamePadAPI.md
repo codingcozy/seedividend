@@ -3,16 +3,13 @@ title: "게임패드 API로 놀아보기"
 description: ""
 coverImage: "/assets/img/2024-05-01-PlayingwiththeGamePadAPI_0.png"
 date: 2024-05-01 23:18
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-01-PlayingwiththeGamePadAPI_0.png
 tag: Tech
 originalTitle: "Playing with the GamePad API"
 link: "https://medium.com/gitconnected/playing-with-the-gamepad-api-c46858c38cb1"
 isUpdated: true
 ---
-
-
-
 
 ![게임패드API](/assets/img/2024-05-01-PlayingwiththeGamePadAPI_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 # 호기심은 고양이를 죽인다...
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 게임패드를 액세스하고 제어하기 위한 표준 API? 그리고 "실험적으로" 나열되어 있더라도 모든 주요 브라우저에서 지원된다고? 예상치 못했지만 흥미로운 일이네요. 제 호기심을 자극했어요.
 
@@ -31,12 +39,23 @@ isUpdated: true
 첫 페이지를 읽은 후에, 굉장히 간단해 보였어요: 상호작용, 이벤트, 그리고 메소드로 놀 수 있는 수줄. 제가 다룰 수 없는 것은 없다고 생각했죠...라고 생각했어요. MDN 튜토리얼로 이동해서 첫 코드 예제를 조금 단순화했어요:
 
 ```js
-window.addEventListener("gamepadconnected", function() {
+window.addEventListener("gamepadconnected", function () {
   console.log("게임패드가 연결되었습니다");
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 페이지가 브라우저에 로드되었고, 기분 좋게 RetroPie 컨트롤러를 컴퓨터에 연결했는데...
 
@@ -46,7 +65,18 @@ window.addEventListener("gamepadconnected", function() {
 
 아무 반응이 없네요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 언플러그. 다시 연결했어요.
 
@@ -58,7 +88,18 @@ window.addEventListener("gamepadconnected", function() {
 게임패드가 연결되었습니다
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 페이지를 새로고침하고 버튼을 눌렀더니 콘솔에 다시 "게임패드 연결됨" 메시지가 나타났어요. 게임패드 API에 대해 많은 교훈 중 첫 번째를 배웠어요: 모든 컨트롤러가 컴퓨터에 연결되자마자 브라우저에 연결되는 것은 아니라는 거죠. 대부분은 버튼을 누르거나 조이스틱을 움직이지 않으면 활성화되지 않아요.
 
@@ -68,7 +109,18 @@ window.addEventListener("gamepadconnected", function() {
 
 ![게임패드 API 사용](/assets/img/2024-05-01-PlayingwiththeGamePadAPI_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일부 기능은 이전 버전에서도 사용할 수 있을 수도 있어요. 그럼에도 불구하고, 이 글에서 언급된 모든 기능은 위 표에 나타난 브라우저를 필요로 해요 (진동을 제외한 경우, 지원이 일관되지 않을 수 있습니다. 곧 자세히 살펴볼게요).
 
@@ -78,7 +130,18 @@ window.addEventListener("gamepadconnected", function() {
 
 자세한 대답: 일부는 작동하고, 일부는 작동하지 않아요. 예를 들어, PlayStation 컨트롤러(버전에 상관없이)나 닌텐도 스위치 컨트롤러는 문제가 없었어요. 몇몇 친구들이 Wii 컨트롤러도 데모 페이지에서 테스트해보고, 그것도 원활하게 작동했어요. 그러나 Xbox 컨트롤러는 다른 이야기였어요. 그들이 더 많은 전원이 필요할 수도 있고, 우리가 테스트한 버전이 올바르지 않았을 수도 있어요. 하지만, 우리는 그 중 어떤 것도 작동시키지 못했어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ... 흥미로운 사실이죠. 모조 게임패드는 모두 훌륭하게 작동했는데, 나중에 설명할 몇 가지 주의할 점이 있어요.
 
@@ -87,13 +150,24 @@ window.addEventListener("gamepadconnected", function() {
 다음 단계는 예제를 확장하고 게임패드 인터페이스를 탐색하는 것이었어요. gamepadconnected 이벤트가 연결된 게임패드 정보를 콜백 함수의 매개변수로 전달한다는 것을 알았죠. 이 정보를 볼 수 있게 객체를 기록해봤어요:
 
 ```js
-window.addEventListener("gamepadconnected", function(e) {
+window.addEventListener("gamepadconnected", function (e) {
   console.log("게임패드가 연결되었습니다.");
   console.log(e.gamepad);
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 게임패드 인터페이스의 정의와 일치하는 결과를 기대했었어요:
 
@@ -135,7 +209,18 @@ interface Gamepad {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래와 같은 표에서 찾을 수 있습니다:
 
@@ -151,7 +236,18 @@ interface Gamepad {
 
 한편, 게임패드 인터페이스에 익숙해지던 중 재미있는 부분에 대비했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 버튼
 
@@ -161,13 +257,24 @@ interface Gamepad {
 
 ```js
 interface GamepadButton {
-  pressed: Boolean,
-  touched: Boolean,
-  value: Double
+  pressed: Boolean;
+  touched: Boolean;
+  value: Double;
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그들은 대개 스스로 설명되어 있어요:
 
@@ -179,7 +286,18 @@ interface GamepadButton {
 
 ![다이어그램](/assets/img/2024-05-01-PlayingwiththeGamePadAPI_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 모든 게임패드가 동일한 버튼/축 패턴을 따르지는 않아요. 그래서 버튼 매핑에 대해 알고 있어야 하는 것이 중요해요.
 
@@ -189,7 +307,18 @@ interface GamepadButton {
 
 제가 시험하고 작업한 대부분의 오리지널 컨트롤러들은 표준 매핑을 가졌어요. 내가 시도한 대부분의 짝퉁들은 표준 매핑을 갖지 않았어요. 이러한 경우에는 개발자가 눌린 버튼이 사용자의 기대와 일치하는지 확인해야 해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 뭔가가 빠져 있는 것 같았어요. 버튼 중 하나를 눌렀을 때 트리거되는 이벤트를 볼 수 없었어요. 문서에도(오직 두 개의 이벤트만 나열되어 있는)나, 게임패드 객체에도 없었어요. 이제 튜토리얼과 문서를 계속 읽어봐야 할 시간이에요.
 
@@ -199,7 +328,18 @@ interface GamepadButton {
 
 간단하게 말하면, 작동하지 않아요... 왜냐하면 이벤트가 없기 때문이죠. 다른 API 및 요소들과 달리 연결하고 청취할 수 있는 이벤트가 없기 때문에 Gamepad API는 다르게 작동해요. 청취할 이벤트가 없는 상황에서 개발자는 계속해서 게임패드를 쿼링하여 어떤 변경 사항이 일어났는지 확인해야 해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 기능을 구현하기 위해서는 Navigator 인터페이스의 확장인 getGamepads 메서드가 있습니다. getGamepads는 연결된 게임패드와 그 상태의 스냅숏을 포함한 배열을 반환할 것입니다:
 
@@ -215,7 +355,18 @@ if (navigator.getGamepads) gamepads = navigator.getGamepads();
 else if (navigator.webkitGetGamepads) gamepads = navigator.webkitGetGamepads();
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 연결된 게임패드의 상태를 읽을 수는 있었지만, 함수를 호출할 때의 상태 스냅샷이었다. 계속해서 게임패드의 상태를 쿼리해야했습니다! setTimeout이나 setInterval과 같은 것을 사용하는 대신, 화면을 다시 그릴 때마다 함수가 실행되도록 requestAnimationFrame 내에서 함수를 호출해야 했습니다...
 
@@ -241,7 +392,18 @@ function checkStatus() {
 
 이 함수는 gamepadconnected 이벤트 핸들러에서 호출되어 브라우저에 게임패드가 연결될 때만 쿼리를 시작합니다. 또한, 연결된 게임패드가 없을 경우 중지 조건을 추가하는 것이 중요합니다. 그렇지 않으면 지속적이고 불필요한 쿼리를 수행하여 앱의 효율성이 떨어질 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 조이스틱은 버튼이 아니에요
 
@@ -252,7 +414,18 @@ function checkStatus() {
 - 첫 번째 값은 조이스틱의 X 축을 나타내요. -1.0은 왼쪽을, 1.0은 오른쪽을 의미해요.
 - 두 번째 값은 조이스틱의 Y 축을 나타내요. -1.0은 위/앞으로, 1.0은 아래/뒤쪽을 의미해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![게임패드 API로 놀아보기](/assets/img/2024-05-01-PlayingwiththeGamePadAPI_3.png)
 
@@ -280,7 +453,18 @@ if (gamepads[0].axes[1] == 1.0) {
 
 ## 민감도 임계값
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 개발 중인 조이스틱/축을 위해 하는 좋은 일 중 하나는 다양한 감도 임계값을 허용하는 것입니다. 모든 조이스틱이 동등하게 만들어지지는 않으며 모두가 조이스틱의 동작 방식에 대해 동일한 선호도나 필요를 가지고 있는 것이 아닙니다.
 
@@ -299,7 +483,18 @@ if (gamepads[0].axes[1] >= threshold) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 진동
 
@@ -309,7 +504,18 @@ if (gamepads[0].axes[1] >= threshold) {
 
 다만, 큰 문제가 있습니다: 이것은 진동을 제어하기 위한 표준 확장이 아니라 크롬에서 사용 가능한 확장입니다. 표준 방법은 hapticActuators를 사용하는 것이며, 이는 주목할 만한 다른 브라우저, 특히 파이어폭스에서 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예제에서는 표준 hapticActuators에만 초점을 맞추겠습니다.
 
@@ -326,7 +532,18 @@ myGamepad.hapticActuator[0].pulse(1.0, 1500);
 
 hapticActuators에 대한 한 가지 까다로운 점은 표준에서 정의된대로 GamepadHapticActuators 배열이 아니라 해당 유형의 단일 객체였다는 것입니다. 구현은 여전히 브라우저에 매우 의존적입니다. 개발자 주의해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 라이브러리 개발
 
@@ -336,7 +553,18 @@ Gamepad API는 비교적 쉽지만 귀찮은 것을 알아차렸을 것입니다
 
 예를 들어, 시작 버튼이 눌렸는지 확인하려면 Gamepad API를 사용해야 했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - requestAnimationFrame으로 간격 설정하기
 - 각 애니메이션 프레임에서 getGamepad() 호출하기
@@ -349,14 +577,25 @@ Gamepad API는 비교적 쉽지만 귀찮은 것을 알아차렸을 것입니다
 위 과정마다 몇 줄의 코드가 필요합니다. 이러한 복잡성을 라이브러리/모듈로 이동시키면 jQuery스러운 간단한 모양으로 유사한 작업을 수행할 수 있습니다.
 
 ```js
-myGamepad.on("start", function() {
+myGamepad.on("start", function () {
   console.log("Start 버튼이 눌렸습니다");
 });
 ```
 
 필요한 모든 코드는 여전히 있지만, 내부적으로는 Gamepad API의 사용을 용이하게 해주며, 다른 이벤트가 쿼리하는 대신 이벤트를 듣는 다른 API처럼 보이게 만듭니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 게임 개발
 
@@ -366,7 +605,18 @@ myGamepad.on("start", function() {
 
 여기에 코드와 데모가 있습니다 (게임패드를 연결하여 플레이하세요):
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컴퓨터에 게임패드가 연결되어 있지 않으면 해당 Codepen이 작동하지 않을 수 있어요. 하지만 키보드 기능도 몇 가지 추가했어요.
 
@@ -379,7 +629,18 @@ myGamepad.on("start", function() {
 - 이벤트 읽는 방법
 - 게임패드로 진동 사용하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 몇 가지 빠뜨린 것이 있어요: 게임패드 포즈 인터페이스입니다. 이 인터페이스를 통해 게임패드에서 위치, 방향, 속도 및 가속도 (사용 가능한 경우)와 같은 정보를 얻을 수 있습니다. 이는 증강 현실 및 가상 현실 장치에 적합합니다. 불행하게도 이것은 잘 지원되지 않습니다.
 
@@ -389,7 +650,18 @@ myGamepad.on("start", function() {
 
 게임패드 API와 작동하는 다양한 유형의 컨트롤러를 테스트한 후에 한 가지 생각이 들었어요: 만약 내 옛날 PS3 컨트롤러가 작동한다면, 옛날 Rock Band 드럼과 기타는 어떨까요? Dance Dance Revolution 매트는 어떻게 될까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 긴 이야기를 짧게 말하자면, 이것이 결과입니다:
 

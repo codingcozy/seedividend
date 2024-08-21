@@ -3,16 +3,13 @@ title: "리눅스 탐험기 최고의 배포판을 찾아서"
 description: ""
 coverImage: "/trivasor.github.io/assets/no-image.jpg"
 date: 2024-07-13 01:42
-ogImage: 
+ogImage:
   url: /trivasor.github.io/assets/no-image.jpg
 tag: Tech
 originalTitle: "My Journey Through Linux: Discovering the Best Distro"
 link: "https://medium.com/@apedik.dev/my-journey-through-linux-discovering-the-best-distro-32915c80a7a7"
 isUpdated: true
 ---
-
-
-
 
 저는 Slackware로 약 30년 전에 리눅스를 시작했어요. 당시에는 XFree86이라는 그래픽 인터페이스가 선택사항이었고, 모든 것을 수동으로 설치하고 종종 마우스나 오디오와 같은 구성 요소가 제대로 작동하도록 커널을 컴파일해야 했어요. 그 때의 경험은 도전적이었지만 매우 보람있었죠. 리눅스의 원시적인 파워를 보여줬어요.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 Laravel과 같은 가벼운 프레임워크 및 프로젝트의 경우 Mac에서 Docker가 괜찮았지만 Magento와 같은 무거운 프로젝트에서는 문제점이 발생했습니다. 특히 PHPStorm을 사용할 때 파일 수천 개를 처리해야 해서 Xdebug 디버깅시 속도가 느려졌죠. Magento 개발은 실시간으로 파일 및 정적 콘텐츠를 컴파일해야 해서 개발 모드에서는 프로덕션 모드보다 느려져요. 자주 캐시를 지우고 다시 인덱싱해야 하고 디버깅할 때 Xdebug 오버헤드가 발생해서 빠른 스택을 권장합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이런 도전들을 겪으면서, 10년 넘게 써오던 리눅스로 다시 돌아가보기로 했습니다. 수년 전 회사에서 제공한 델 XPS 9520에서 이를 시도했지만, 불편한 경험이 있었습니다. 델이 리눅스를 적극적으로 지원하지만 하드웨어 호환성 문제가 있었습니다. 첫 번째 문제는 듀얼 비디오 카드 (NVIDIA 및 Intel)로 발생했습니다. 오픈 소스 NVIDIA 드라이버로 인해 랩톱이 몇 분 후에 심각하게 멈추는 문제가 발생했었습니다. 우분투 22.04 LTS에서 발생한 문제로, 많은 사람들이 선택하는 운영체제였습니다. 이 문제를 해결하기 위해 오픈 소스 드라이버를 비활성화하고 설치 후에 곧바로 소유 드라이버를 설치해야 했습니다.
 
@@ -30,9 +38,20 @@ Laravel과 같은 가벼운 프레임워크 및 프로젝트의 경우 Mac에서
 
 하루에 여러 차례 멈춤 현상을 겪고 일을 완료할 수 없는 상황이 반복되자, 미리 설치된 윈도우 11과 WSL2를 시도하기로 결정했습니다. 윈도우 11은 부드럽게 운영되었으며 DELL의 미리 설정된 환경 덕분에 WSL2가 인상적이었습니다. 하지만 WSL2는 파일 동기화 성능 문제가 심각하게 있었습니다. PHPStorm과 매젔토를 사용할 때 코드 변경 사항이 올바르게 동기화되지 않아 서버가 오래된 파일을 사용하는 문제가 발생했습니다. 이는 미트로스프트 명세서에서 WSL1과 WLS2를 비교한 내용에도 명시되어 있습니다.
 
-회사 정책에 의해 랩톱 모델을 변경할 수 없어 다른 해결책이 필요했습니다. 페도라를 시도해보았지만 부팅 직후도 멈춤 문제가 발생했습니다. NVIDIA 지원이 더 좋다고 알려진 Pop!_OS는 잘 작동하는 데스크톱을 제공하는 더 나은 옵션이었습니다. 그러나 GNOME 셸 및 갑작스러운 배터리 문제와 관련된 멈춤 문제를 여전히 겪었습니다.
+회사 정책에 의해 랩톱 모델을 변경할 수 없어 다른 해결책이 필요했습니다. 페도라를 시도해보았지만 부팅 직후도 멈춤 문제가 발생했습니다. NVIDIA 지원이 더 좋다고 알려진 Pop!\_OS는 잘 작동하는 데스크톱을 제공하는 더 나은 옵션이었습니다. 그러나 GNOME 셸 및 갑작스러운 배터리 문제와 관련된 멈춤 문제를 여전히 겪었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리눅스 배포판에서 흔한 문제 중 하나인 X.org 멀티 디스플레이 설정 문제는 특히 NVIDIA와 함께 자주 발생합니다. 이것이 많은 배포판들이 이제 Wayland로 기본 설정을 변경한 이유 중 하나입니다. 그러나 NVIDIA의 경우 Wayland를 제대로 작동시키려면 조정이 필요합니다. 제가 강력한 GPU가 필요하지 않았기 때문에 NVIDIA를 비활성화하고 Wayland를 활성화하여 디스플레이 문제를 크게 개선했습니다.
 
@@ -42,6 +61,17 @@ Laravel과 같은 가벼운 프레임워크 및 프로젝트의 경우 Mac에서
 
 물론 무작위로 발생하는 GNOME 쉘 충돌과 지속적인 터치패드 문제에 직면했지만, 뭔가 다른 것을 시도해보고 싶었습니다. 아치 리눅스에는 매력을 느끼지만 처음부터 배포판을 구축하고 싶지는 않아서 Arch를 기반으로 하는 롤링 릴리스 모델인 Manjaro를 선택했습니다. 최신 안정 패키지들은 훌륭한 성능, 새로운 기능 및 버그 수정을 제공했습니다. 그러나 자주 업데이트되어 시스템을 망가뜨릴 수도 있습니다. 가장 골치 아픈 문제는 일반적으로 대기 상태 중에 GNOME 쉘이 충돌하여 급히 쉬는 동안 자주 작업을 재시작해야 했다는 것입니다. 이것이 일부 확장과의 호환성 때문에 GNOME 버전 45에서 발생할 수 있다고 생각했기에 이러한 빈발하는 문제가 없었던 이전이지만 더 안정적인 GNOME 43을 사용했던 Debian으로 돌아가기로 결정했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다양한 리눅스 배포판을 경험해 본 결과, 내 결론은 내 요구에 가장 적합한 Linux 배포판으로 Debian을 선택했다. 그 안정성, 최소 업데이트 및 깔끔한 데스크탑 환경은 내 개발 작업에 대한 신뢰할 수 있는 선택을 만들어 주었다. 완벽한 배포판은 없지만, Debian은 내 작업 흐름에 필요한 원활한 경험을 제공하는 데 가장 가까운 것으로 보인다. 리눅스 커뮤니티에 감사의 말씀을 전하며, 그 언젠가 멀지 않은 미래에 모든 요구 사항에 완벽히 부합하는 배포판이 마침내 출시되기를 기대한다.

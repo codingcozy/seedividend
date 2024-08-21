@@ -3,16 +3,13 @@ title: "앵귤러 신호 컴포넌트 입력을 위한 새로운 시대"
 description: ""
 coverImage: "/assets/img/2024-05-27-AngularSignalsANewEraforComponentInputs_0.png"
 date: 2024-05-27 19:00
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-AngularSignalsANewEraforComponentInputs_0.png
 tag: Tech
 originalTitle: "🚦Angular Signals: A New Era for Component Inputs"
 link: "https://medium.com/javascript-in-plain-english/angular-signals-a-new-era-for-component-inputs-f762d06eb8b1"
 isUpdated: true
 ---
-
-
-
 
 ## 안녕하세요 👋
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 기존 Angular은 컴포넌트 입력을 처리하기 위해 setter나 ngOnChanges를 사용합니다. 이러한 방법은 작동하지만 명령형 스타일에 의존합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ➡️ 신호 입력:
 
@@ -36,7 +44,18 @@ isUpdated: true
 - 단순화된 코드: 코드가 더 깨끗하고 이해하기 쉬워집니다.
 - 증진된 반응성: 신호는 계산 및 효과와 같은 Angular의 반응적 기능과 원활하게 통합됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 🗝️ 중요한 개념:
 
@@ -47,9 +66,9 @@ isUpdated: true
 ```js
 ...
 export class AComponent {
-  
+
   anInput = input.required<number>();
-      
+
   constructor(){
     // ⚠️ 주입 환경에서 호출되어야 합니다
     effect(() => console.log(this.anInput());
@@ -62,7 +81,18 @@ export class AComponent {
 - 선택적 및 필수 입력: 신호는 초기값과 함께 선택적이거나 필수로 지정할 수 있습니다 (예시).
 - 입력 변환: 입력 신호는 입력 값의 의미를 변경하지 않고 강제 혹은 구문 분석이 필요할 때 변환될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 ...
@@ -88,7 +118,7 @@ export class AComponent {
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class AComponent {
-  
+
   aName= input.required<string>({alias: 'aliasName'});
 ...
 }
@@ -99,7 +129,18 @@ export class AComponent {
 
 🎬 신호 입력을 실행하는 중:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 시그널로 라우트 파라미터에 액세스: 라우터에 withComponentInputBinding 옵션을 활성화하여 반응형 시그널로 라우트 파라미터에 액세스할 수 있습니다.
 
@@ -135,13 +176,24 @@ export default class AComponent {
   private readonly aService = inject(AService);
 
   id = input.required<string>();
-  
+
   /*💡toSignal로 생성된 구독은 toSignal을 호출하는 컴포넌트 또는 서비스가 제거될 때 주어진 Observable에서 자동으로 구독을 해제합니다.*/
   data = toSignal(this.aService.getData(i), {initialValue: []}); // 👈 toSignal 사용 예시
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 복잡한 시나리오: toSignal이 강력하긴 하지만, Observables를 사용해야 하는 특정 상황이 있습니다. 이는 주로 RxJS 연산자를 활용하여 데이터를 보다 효과적으로 처리하는 데 도움이 되기 때문입니다. 이를 위해 필요한 모든 프로세스를 처리하고 데이터를 신호로 쉽게 추적할 수 있는 스트림을 생성하는 toObservable 유틸리티를 사용할 수 있습니다. 다음 예시는 id 입력이 변경될 때마다 가장 최신의 새로운 id를 기반으로 즉시 getData으로 전환하고 싶을 때 간단한 케이스를 제공합니다.
 
@@ -171,7 +223,18 @@ export default class AComponent {
 
 이 새로운 API는 Angular 애플리케이션의 반응성과 효율성을 향상시키는 데 중요한 역할을 합니다. 이것들은 더 간단하고 반응적인 컴포넌트 디자인을 생성할 수 있게 해주며, zoneless 애플리케이션을 구축하는 데 필수적입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최종 목표는 미래에 존리스(Zoneless) 모드의 보급을 촉진하는 것입니다. 특히, 이 기능을 지원하는 실험적 API는 이미 Angular의 최신 버전(현재 버전 17)에서 사용할 수 있습니다(첫머리에서 언급된 글을 참조하세요).
 
@@ -181,7 +244,18 @@ export default class AComponent {
 
 질문이나 피드백이 있으면 댓글을 남기거나 LinkedIn을 통해 저에게 연락해주세요 — 기다리고 있겠습니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 부지런히 커피 한 잔 사 줄래요? ☕️
 
@@ -191,7 +265,18 @@ export default class AComponent {
 
 # 쉬운 용어로 🚀
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 In Plain English 커뮤니티의 일원이 되어 주셔서 감사합니다! 떠나시기 전에:
 

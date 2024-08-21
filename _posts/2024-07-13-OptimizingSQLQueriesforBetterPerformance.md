@@ -3,16 +3,13 @@ title: "SQL 쿼리 성능 향상을 위한 최적화 방법 7가지"
 description: ""
 coverImage: "/assets/img/2024-07-13-OptimizingSQLQueriesforBetterPerformance_0.png"
 date: 2024-07-13 21:21
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-OptimizingSQLQueriesforBetterPerformance_0.png
 tag: Tech
 originalTitle: "Optimizing SQL Queries for Better Performance"
 link: "https://medium.com/dev-genius/optimizing-sql-queries-for-better-performance-ad9ccefdb0c0"
 isUpdated: true
 ---
-
-
-
 
 SQL 쿼리는 데이터베이스가 효율적이고 빠르게 작동할 수 있도록 하는 데 중요합니다. 이 포스트에서는 우리 시스템에서 수행한 특정 예시를 통해 쿼리 최적화의 장점을 살펴보고 최적화된 쿼리가 얼마나 성능 향상에 도움이 되는지 보여줄 것입니다.
 
@@ -22,7 +19,18 @@ SQL 쿼리는 데이터베이스가 효율적이고 빠르게 작동할 수 있�
 
 Products라는 테이블에서 가장 비싼 상품 10개를 가져오고 싶다고 가정해 보겠습니다. 처음에 잘못된 쿼리는 다음과 같을 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```sql
 SELECT TOP 10 * FROM Products ORDER BY Price DESC;
@@ -31,7 +39,7 @@ SELECT TOP 10 * FROM Products ORDER BY Price DESC;
 쿼리는 간단하지만 대량의 데이터셋이 있는 경우 효율적이지 않을 수 있습니다. 대신, ROW_NUMBER()를 사용하여 성능을 개선할 수 있습니다:
 
 ```sql
-SELECT * 
+SELECT *
 FROM (
     SELECT *, ROW_NUMBER() OVER (ORDER BY Price DESC) AS RowNum
     FROM Products
@@ -41,7 +49,18 @@ WHERE RowNum <= 10;
 
 제품을 가격별로 순위를 매기도록 쿼리를 최적화하여 결과 집합에 대한 전체 정렬이 필요하지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 제품 테이블 생성 및 데이터 삽입
 
@@ -94,7 +113,18 @@ END;
 
 ## 성능 지표 수집
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 하위 최적화 및 최적화된 쿼리의 성능을 비교하여 쿼리가 사용하는 실행 시간 메트릭, 쿼리에 의해 소비된 논리 읽기 또는 사용된 CPU 시간을 수집할 수 있습니다.
 
@@ -112,7 +142,7 @@ GO
 -- 쿼리 2: ROW_NUMBER()을 사용한 최적화된 쿼리
 PRINT '쿼리 2: 최적화된 쿼리';
 GO
-SELECT * 
+SELECT *
 FROM (
     SELECT *, ROW_NUMBER() OVER (ORDER BY Price DESC) AS RowNum
     FROM Products
@@ -129,7 +159,18 @@ SET STATISTICS IO OFF;
 
 <img src="/assets/img/2024-07-13-OptimizingSQLQueriesforBetterPerformance_1.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 쿼리 1: 서브옵티멀 쿼리 SQL Server 실행 시간은 CPU 시간 = 0 ms, 경과 시간 = 41 ms입니다. 'Products' 테이블. 스캔 횟수 12, 논리 읽기 15202, 물리 읽기 6., 페이지 서버 읽기-6039(버퍼 풀로 인해 줄어듦), 순차 읽기 사전 로드 7992, lobtree 폭 3192.
 
@@ -139,7 +180,18 @@ SET STATISTICS IO OFF;
 
 결과를 통해 우리는 다음과 같이 관찰할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 경과 시간: 최적화된 쿼리 (11ms)는 최적이 아닌 쿼리(41ms)보다 현저히 빠릅니다.
 - 논리적 읽기: 두 쿼리 모두 동일한 논리적 읽기 수(861)를 갖고 있지만, 최적화된 쿼리는 미리 읽기를 제거합니다.

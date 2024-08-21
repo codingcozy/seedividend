@@ -3,17 +3,13 @@ title: "프론트엔드 개발자들이 잘 모르는 8가지 CSS 속성"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "8 Must-Know CSS Properties for Styling Websites"
 link: "https://medium.com/@Itsmemuna/8-must-know-css-properties-for-styling-websites-70de2ef22e2e"
 isUpdated: true
 ---
-
-
-
-
 
 만약 웹사이트를 스타일링하고 싶다면, CSS 속성과 그에 해당하는 값들을 이해하는 것이 중요합니다.
 
@@ -23,7 +19,18 @@ CSS 속성은 HTML 요소를 스타일링하는 다양한 방법들과 스타일
 
 ## CSS 속성 값이란?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS Property Value는 스타일링하려는 속성의 여러 가능한 외관 중 하나를 선택할 수 있게 합니다.
 
@@ -36,7 +43,18 @@ CSS Property Value는 스타일링하려는 속성의 여러 가능한 외관 �
 
 # 텍스트 속성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 속성은 HTML 문서에서 텍스트를 스타일링하는 데 사용됩니다.
 
@@ -50,7 +68,18 @@ h1{
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 h1은 선택자로 작용하고, 색은 속성으로 작용하며, red는 속성 값으로 작용합니다. 이 문맥에서 값은 파란색, 녹색 또는 다른 색일 수 있습니다.
 
@@ -64,7 +93,18 @@ h1{
 
 이 문맥에서 값은 end, left, right 또는 다른 위치일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 폰트 속성
 
@@ -74,7 +114,18 @@ h1{
 
 - 폰트 패밀리 (Font-family): 이는 문서 내 텍스트의 글꼴 패밀리를 지정합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 h1 {
@@ -92,12 +143,34 @@ h1 {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가로 갭: 20px  
 세로 갭: 10px
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 마진: 이것은 테두리 바깥에 공간을 만들 때 사용됩니다.
 
@@ -118,7 +191,18 @@ h1{
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위치를 지정할 때 위쪽과 아래쪽에는 특정 값을 가져야 하지만, 왼쪽과 오른쪽에는 다른 값을 가지는 경우가 있습니다. 이렇게 해요:
 
@@ -136,7 +220,18 @@ h1{
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 첫 번째는 위, 두 번째는 오른쪽, 세 번째는 아래, 네 번째는 왼쪽입니다.
 
@@ -150,7 +245,18 @@ h1 {
 
 여기에는 마진에 적용된 규칙이 적용됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 크기 조정 속성
 
@@ -160,7 +266,18 @@ h1 {
 
 - 높이: 이는 콘텐츠의 높이를 늘리거나 줄이는 데 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 img{
@@ -178,6 +295,17 @@ img{
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이는 텍스트 크기를 증가하거나 감소시키는 데 사용할 수 없으며, 텍스트를 줄였을 때 다음 줄로 줄바꿈됩니다.

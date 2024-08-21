@@ -3,17 +3,13 @@ title: "React 디자인 패턴 레이아웃 컴포넌트 패턴"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "React Design Patterns Layout Components Pattern"
 link: "https://medium.com/@vitorbritto/react-design-patterns-layout-components-pattern-455c98e0bf92"
 isUpdated: true
 ---
-
-
-
-
 
 ## 애플리케이션 전체에서 일관된 사용자 경험 제공
 
@@ -23,7 +19,18 @@ React의 레이아웃 구성요소 패턴은 개발자가 애플리케이션의 
 
 레이아웃 구성요소 패턴의 주요 아이디어는 구성요소가 표시되는 위치를 인식하면 안 되며, 레이아웃 구성요소 패턴은 해당 구성요소를 표시하는 데만 관심을 가져야 한다는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트 개발에서는 네비게이션 바나 푸터와 같은 유사한 콘텐츠나 컴포넌트를 여러 페이지에서 공유하는 것이 일반적입니다. 각 페이지마다 이러한 컴포넌트를 가져와 렌더링하는 대신, 레이아웃 컴포넌트 패턴을 활용하여 이 프로세스를 간소화할 수 있습니다. 레이아웃 컴포넌트는 사실상 애플리케이션의 레이아웃을 정의하는 방법으로, 코드를 한 번 작성하고 애플리케이션 전체에서 재사용할 수 있도록 해줍니다. 이는 그리드 시스템이나 플렉스 박스 모델을 기반으로 한 레이아웃을 구현하는 데 특히 유용할 수 있습니다.
 
@@ -49,7 +56,18 @@ const Layout = ({ children }) => {
 export default Layout;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예에서 {children}은 React에서 특별한 속성(prop)으로, 다른 컴포넌트로 데이터를 전달할 수 있게 해줍니다. 여기에서 정의된 Layout 컴포넌트는 항상 Header와 Footer를 렌더링하고, 그리고 전달된 자식 컴포넌트들을 렌더링합니다.
 
@@ -73,7 +91,18 @@ export default HomePage;
 
 HomePage 컴포넌트에서는 Layout 컴포넌트를 사용하여 홈페이지를 위한 특정 내용을 감싸고 있습니다. 이는 Header와 Footer가 Layout 컴포넌트를 사용하는 모든 페이지에서 공유되어, 여러 페이지에 걸쳐 일반적으로 사용되는 섹션을 재사용할 수 있도록 해줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -83,6 +112,17 @@ React에서 레이아웃 컴포넌트 패턴을 사용하면 더 유지보수 �
 
 트위터, 깃허브, 링크드인에서 저를 팔로우하실 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 표를 마크다운 형식으로 변경하세요.

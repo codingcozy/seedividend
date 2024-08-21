@@ -3,16 +3,13 @@ title: "새로운 Angular 프로젝트 생성 및 샘플 폼 디자인하기"
 description: ""
 coverImage: "/assets/img/2024-06-20-CreatingaNewAngularProjectandDesigningaSampleForm_0.png"
 date: 2024-06-20 02:54
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-CreatingaNewAngularProjectandDesigningaSampleForm_0.png
 tag: Tech
 originalTitle: "Creating a New Angular Project and Designing a Sample Form"
 link: "https://medium.com/@minduladilthushan/creating-a-new-angular-project-and-designing-a-sample-form-729e7dcccc42"
 isUpdated: true
 ---
-
-
-
 
 ![image](/assets/img/2024-06-20-CreatingaNewAngularProjectandDesigningaSampleForm_0.png)
 
@@ -22,7 +19,18 @@ Angular은 동적 웹 애플리케이션을 구축하기 위한 강력한 프레
 
 Angular CLI (Command Line Interface)는 Angular 프로젝트를 관리하는 강력한 도구입니다. Angular CLI를 설치하려면 다음 명령어를 실행하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm install -g @angular/cli
@@ -38,7 +46,18 @@ cd my-angular-app
 ng serve
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 명령 시퀀스를 사용하세요:
 
@@ -50,7 +69,18 @@ ng serve
 
 새로운 폼을 처리할 컴포넌트를 생성합니다. 컴포넌트는 Angular 애플리케이션의 구성 요소입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 ng generate component sample-form
@@ -62,7 +92,18 @@ ng generate component sample-form
 
 생성된 컴포넌트의 HTML 파일을 열고 Angular의 폼 지시문을 사용하여 폼을 만드세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # sample-form.component.html #
@@ -95,25 +136,35 @@ ng generate component sample-form
 - 필드가 유효하지 않거나 사용자가 터치한 경우 유효성 검사 메시지가 표시됩니다.
 - 제출 버튼을 클릭하면 onSubmit 메서드를 통해 양식이 제출됩니다.
 
-# 5. 양식 제출 처리하기 #
+# 5. 양식 제출 처리하기
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // sample-form.component.ts
-import { Component } from '@angular/core';
+import { Component } from "@angular/core";
 
 @Component({
-  selector: 'app-sample-form',
-  templateUrl: './sample-form.component.html',
-  styleUrls: ['./sample-form.component.css']
+  selector: "app-sample-form",
+  templateUrl: "./sample-form.component.html",
+  styleUrls: ["./sample-form.component.css"],
 })
 export class SampleFormComponent {
   model: any = {};
 
   onSubmit() {
-    console.log('Form submitted!', this.model);
+    console.log("Form submitted!", this.model);
   }
 }
 ```
@@ -123,7 +174,18 @@ export class SampleFormComponent {
 - 모델 객체가 정의되어서 폼 데이터를 저장합니다.
 - `onSubmit` 메서드는 폼 제출 시 콘솔에 폼 데이터를 기록합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

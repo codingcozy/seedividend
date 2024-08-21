@@ -3,17 +3,13 @@ title: "플러터 316 새로운 기능 소개"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Whats new in Flutter 316"
 link: "https://medium.com/flutter/whats-new-in-flutter-3-16-dba6cb1015d1"
 isUpdated: true
 ---
-
-
-
-
 
 분기별 플러터 안정 버전 업데이트인 플러터 3.16을 소개합니다. 이번 릴리스에서는 새로운 기본 테마로 Material 3를 설정하고, 안드로이드용 Impeller 미리보기를 제공하며, DevTools의 확장 기능 추가 등이 가능해졌습니다! 또한, 플러터 캐주얼 게임 툴킷에도 중요한 업데이트가 동시에 이루어졌습니다!
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 프레임워크
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Material 3는 새로운 기본 설정입니다
 
@@ -33,7 +40,18 @@ Material 라이브러리의 M3 버전을 사용하지 않고 싶다면 MaterialA
 
 데모 애플리케이션을 통해 모든 구성요소를 시도해볼 수 있습니다. 데모는 useMaterial3을 토글하여 변경 사항을 비교할 수 있도록 지원합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Material 3 컴포넌트의 외관은 주로 [ThemeData.colorScheme] 및 [ThemeData.textTheme] 값에 의해 결정됩니다. Material 3 색상 구성표를 만드는 선호하는 방법은 ColorScheme.fromSeed()를 사용하는 것입니다. 이 방법은 시각적으로 매력적이며 접근성을 준수하는 어두운 및 밝은 테마를 생성합니다. 또한 ColorScheme.fromImageProvider를 사용하여 이미지의 주요 색상에서 색상 구성표를 만들 수도 있습니다. Material 3 컴포넌트의 외관을 더욱 사용자 정의하려면 ThemeData에 ThemeData.segmentedButtonTheme 또는 ThemeData.snackBarTheme과 같은 컴포넌트 테마를 추가하세요. null이 아닌 컴포넌트 테마 속성은 컴포넌트의 API 설명에서 지정된 기본값을 무시합니다.
 
@@ -43,7 +61,18 @@ Material 3 컴포넌트의 외관은 주로 [ThemeData.colorScheme] 및 [ThemeDa
 
 Material 3 모션 개선 사항에는 Easing 및 Durations 클래스가 추가되었습니다. Material 2 곡선은 "legacy"라는 단어가 포함된 이름으로 변경되었으며 결국 폐기되고 제거될 예정입니다. (#129942)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 편집 메뉴에 추가 옵션 추가하기
 
@@ -53,7 +82,18 @@ iOS의 기본 기능을 사용하면 사용자가 텍스트를 선택하고 여�
 
 ## 전역 텍스트 스케일 계수를 지정하는 TextScaler
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요! 안드로이드 14의 비선형 글꼴 확대 기능을 지원하기 위해 새로운 TextScaler 클래스가 등장했어요. 이 기능은 시각 장애인을 돕는 데 도움이 됩니다. Text.textScaleFactor 속성은 이제 TextScaler 클래스로 대체됩니다. (#128522)
 
@@ -65,7 +105,18 @@ Flutter의 SelectionArea가 업데이트되어 마우스를 사용한 단일 또
 - 이중 클릭: 클릭한 위치의 단어를 선택합니다.
 - 이중 클릭 + 드래그: 단어 블록에서 선택 영역을 확장합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![WhatsnewinFlutter316_2](/assets/img/WhatsnewinFlutter316_2.png)
 
@@ -75,7 +126,18 @@ Flutter의 SelectionArea가 업데이트되어 마우스를 사용한 단일 또
 
 ## 포커스된 위젯에서 작동하는 메뉴 항목
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 릴리스에는 메뉴 항목을 사용할 때 포커스 변경을 정리한 내용이 포함되어 있어요. 이제 FocusManager의 applyFocusChangesIfNeeded 함수가 메뉴 포커스를 복원합니다. 사용자가 메뉴 항목을 클릭하면 포커스는 이미 메뉴가 열리기 전에 포커스가 있던 항목으로 돌아갑니다. (#130536)
 
@@ -85,7 +147,18 @@ Mac 플랫폼에서 실행되는 Flutter 앱들은 이제 메뉴에서 바로 �
 
 <img src="/assets/img/WhatsnewinFlutter316_4.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/WhatsnewinFlutter316_5.png" />
 
@@ -95,7 +168,18 @@ Mac 플랫폼에서 실행되는 Flutter 앱들은 이제 메뉴에서 바로 �
 
 ## flutter_test에 PaintPattern 추가
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 flutter_test 패키지에서 새로운 PaintPattern 클래스를 통해 CustomPainters 및 Decorations과 같은 위젯에서 캔버스로 호출된 페인트 작업을 유효성 검사할 수 있습니다 (유닛 테스트에서 사용).
 
@@ -132,7 +216,18 @@ expect(
 
 이 API는 이전에 프레임워크 테스트 파일까지 깊숙이 존재했었는데, 일부 개발자들이 매우 유용하다고 느껴 자신의 프로젝트로 복사했다는 것을 알 수 있었습니다. 이 적용 사항이 해당된다면, Flutter 3.16로 업그레이드한 후 프로젝트에서 복사본을 삭제할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 스크롤 업데이트
 
@@ -142,7 +237,18 @@ expect(
 
 # 엔진
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 임펠러
 
@@ -152,22 +258,41 @@ expect(
 
 <img src="/assets/img/WhatsnewinFlutter316_6.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 임펠러는 아직 Vulkan을 지원하지 않는 장치에서 잘 동작하지 않을 것으로 예상됩니다. 임펠러의 OpenGL 백엔드를 다음 몇 달 동안 기능 완전성을 갖추게 하면서, 미래 안정 버전에서 이러한 장치에서의 임펠러의 특성에 대한 피드백도 받을 계획입니다.
 
 Flutter 개발자들은 flutter run에 --enable-impeller 플래그를 전달하거나, 아래 설정을 프로젝트의 AndroidManifest.xml 파일의 `application` 태그 아래에 추가함으로써 Vulkan을 지원하는 안드로이드 장치에서 임펠러를 시도해 볼 수 있습니다:
 
 ```js
-<meta-data
-  android:name="io.flutter.embedding.android.EnableImpeller"
-  android:value="true"
-/>
+<meta-data android:name="io.flutter.embedding.android.EnableImpeller" android:value="true" />
 ```
 
 임펠러가 장치가 Vulkan을 지원하는지 판단하기 위해, 임펠러는 임펠러 리포지토리 문서에서 논의된 테스트를 사용합니다. 일반적으로, 임펠러는 Android API 레벨 29 이상을 실행하는 64비트 OS에서 Vulkan 백엔드를 사용합니다. 사용자는 또한 Vulkan을 지원하는지 확인하는 조언을 따라 장치가 Vulkan을 지원하는지 확인할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희가 Impeller의 Vulkan 백엔드에 대한 진척 상황에 자신감을 가지고 있지만, 미리보기 기간 동안 알려진 몇 가지 문제가 있습니다:
 
@@ -179,7 +304,18 @@ Flutter 개발자들은 flutter run에 --enable-impeller 플래그를 전달하�
 
 또한, Impeller의 Vulkan 백엔드는 Skia와 사용하는 것 이상의 "디버그" 빌드에서 추가 디버깅 기능을 활성화하며, 이러한 기능은 추가 실행시간 부하가 있습니다. 따라서 Impeller의 성능에 대한 피드백은 프로필 또는 릴리스 빌드에서 와야 하며, 동일한 기기에서 Skia 백엔드와 비교한 DevTools의 타임라인을 포함해야 합니다. 마지막으로, 항상 작은 문제를 재현할 수 있는 테스트 케이스를 포함하는 피드백에 대해 매우 감사드립니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 임펠러 성능, 충실도 및 안정성
 
@@ -189,7 +325,18 @@ Flutter 개발자들은 flutter run에 --enable-impeller 플래그를 전달하�
 
 팀은 사용자들이 신고한 안드로이드 및 iOS에 대한 충실도 및 안정성 개선에도 공들였습니다. 특히, 이 안정적인 릴리스 주기의 세 달 동안, 팀은 플러터/엔진 레포지토리로 209개의 임펠러 관련 커밋을 하여 217개의 이슈를 해결했으며, 그 중 42개는 사용자가 보고한 충실도, 안정성 또는 성능 문제에 관한 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 엔진 성능
 
@@ -199,7 +346,18 @@ Flutter 개발자들은 flutter run에 --enable-impeller 플래그를 전달하�
 
 ## API 및 신뢰도 개선
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 임펠러 성능 오버레이
 
@@ -209,7 +367,18 @@ Flutter 개발자들은 flutter run에 --enable-impeller 플래그를 전달하�
 
 이 릴리스에서는 Paint.enableDithering 속성이 true로 설정되어 기본 설정으로 활성화되었으며, 플러터의 폐기 정책에 따라 폐기되었습니다. 이제 디더링이 기본적으로 활성화되며(개발자 구성 가능 디더링은 더 이상 지원되지 않음), 밴딩 문제가 더 이상 발생하지 않습니다. 이 변경 사항 및 이관 안내서의 전체 설명을 보려면 docs.flutter.dev의 파괴적 변경 페이지를 참조하십시오.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/WhatsnewinFlutter316_9.png" />
 
@@ -219,7 +388,18 @@ Flutter 개발자들은 flutter run에 --enable-impeller 플래그를 전달하�
 
 ## 플러터 게임 툴킷
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지난 몇 년 동안, 우리는 캐주얼 게임 개발을 둘러싼 커뮤니티가 성장하는 것을 목격해왔어요. Flutter를 사용하여 게시된 게임은 수만 개에 이릅니다. 단순하지만 재미있는 퍼즐부터 더 복잡한 아케이드 게임까지 가장 좋아하는 몇 가지를 살펴보자면, 이터맥스(Etermax)의 'Trivia Crack', 로툼(Lotum)의 '4 Pics 1 Word' (단어 추측 게임), 동 디지털(Dong Digital)의 'Brick Mania' (아케이드 게임), 온리즌(Onrizon)의 'StopotS' (카테고리 게임), 저희가 I/O를 위해 Flutter로 만든 레트로 핀볼 게임, 그리고 소셜 및 메뉴 화면에서 Flutter를 사용하는 PUBG mobile이 있어요.
 
@@ -229,7 +409,18 @@ Flutter 개발자들은 flutter run에 --enable-impeller 플래그를 전달하�
 
 # 웹
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 크롬 개발 도구에서 플러터 타임라인 이벤트
 
@@ -239,7 +430,18 @@ Flutter 개발자들은 flutter run에 --enable-impeller 플래그를 전달하�
 
 ![이미지](/assets/img/WhatsnewinFlutter316_12.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Android
 
@@ -249,7 +451,18 @@ Flutter 개발자들은 flutter run에 --enable-impeller 플래그를 전달하�
 
 이번 릴리스를 통해 플러터 뷰에서 마우스로 스크롤할 때 안드로이드 장치의 스크롤 속도에 맞게 일치하도록 설정되었습니다. (44724)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![/assets/img/WhatsnewinFlutter316_13.png](/assets/img/WhatsnewinFlutter316_13.png)
 
@@ -259,7 +472,18 @@ Flutter 개발자들은 flutter run에 --enable-impeller 플래그를 전달하�
 
 Android 14 릴리스에는 디바이스의 뒤로 제스처를 사용하여 현재 화면 뒤의 홈 화면을 "살펴볼 수" 있는 예측적인 뒤로 제스처 기능이 포함되어 있습니다. 이 업데이트로 Flutter에 예측적인 뒤로 제스처를 가져왔습니다! 마이그레이션 가이드를 확인해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/WhatsnewinFlutter316_15.png)
 
@@ -269,7 +493,18 @@ Android 14 릴리스에는 디바이스의 뒤로 제스처를 사용하여 현�
 
 플러터는 이제 일부 iOS 앱 확장에 대상으로 사용될 수 있습니다. 이는 Flutter 위젯을 사용하여 특정 유형의 iOS 앱 확장을 위한 UI를 그릴 수 있다는 것을 의미합니다. API에는 제한 사항(예: 홈 화면 위젯)이 있을 수 있기 때문에 모든 종류의 앱 확장에 대해 작동하지 않을 수 있습니다. 메모리 등을 고려해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/WhatsnewinFlutter316_16.png" />
 
@@ -279,7 +514,18 @@ Android 14 릴리스에는 디바이스의 뒤로 제스처를 사용하여 현�
 
 ## 새로운 Flutter 인기 패키지
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 플러터 즐겨찾기 프로그램이 다시 시작되었습니다! 이번 주기에는 플러터 생태계 위원회가 flame, flutter_animate, flutter_rust_bridge, riverpod, video_player, macos_ui 및 fpdart 패키지를 새로운 플러터 즐겨찾기로 지정했습니다. 축하합니다!
 
@@ -289,7 +535,18 @@ Android 14 릴리스에는 디바이스의 뒤로 제스처를 사용하여 현�
 
 ## 첫 번째 패키지 생태계 가상 정상회의
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지난 8월에는 패키지 생태계를 위한 처음으로 가상 서밋을 진행했어요. 이 서밋에는 pub.dev에 참여하는 50명 이상의 구글 외부 및 내부 기여자가 참석했죠. 이 서밋의 목표는 커뮤니티 간 함께 토론하고 계획을 세우며 교육하고 배우는 공간을 제공하는 것이었어요. 참석자들의 만족도는 이후 조사 결과 100%였어요. 앞으로도 패키지 생태계를 위해 비슷한 이벤트를 커뮤니티와 함께 진행할 계획입니다. 패키지 생태계 업데이트 블로그 포스트에서 자세한 내용을 확인해주세요.
 
@@ -299,7 +556,18 @@ Google Maps 플랫폼은 Google Cloud 콘솔의 Map Styles 페이지를 통해 �
 
 ![이미지](/assets/img/WhatsnewinFlutter316_18.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 플러터에서 이 기능을 사용하려면 콘솔에서 설정한 맵 ID를 사용하여 맵을 참조하면 됩니다:
 
@@ -319,7 +587,18 @@ GoogleMap(
 
 3.10 안정 버전에서는 Flutter 카메라 플러그인에 Camera X 지원을 추가했습니다. Camera X는 Jetpack 라이브러리로 안드로이드 앱에 풍부한 카메라 기능을 간단하게 추가할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 릴리스에서는 카메라를 사용하는 앱에 필요한 대부분의 기능을 추가했습니다. CameraX는 플러그인의 Camera 2 구현에서 발생하는 많은 문제를 해결합니다.
 
@@ -333,7 +612,18 @@ Dependencies:
 
 CameraX를 향후 릴리스에서 기본 구현으로 만들 계획이므로 피드백을 기다리고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## macOS 비디오 플레이어
 
@@ -343,7 +633,18 @@ CameraX를 향후 릴리스에서 기본 구현으로 만들 계획이므로 피
 
 # DevTools
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## DevTools 확장 기능
 
@@ -355,7 +656,18 @@ CameraX를 향후 릴리스에서 기본 구현으로 만들 계획이므로 피
 
 Provider, Drift 및 Patrol의 패키지 개발자들 덕분에 이미 이러한 생태계가 구축되고 있으며, 지금 당장 해당 패키지용 DevTools 확장 기능을 사용할 수 있습니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 마크다운 형식으로 표시합니다.
 
@@ -367,7 +679,18 @@ Provider, Drift 및 Patrol의 패키지 개발자들 덕분에 이미 이러한 
 
 더 깊게 살펴보고 싶다면 켄지 데이비슨(Kenzie Davisson)이 업데이트한 Dart와 Flutter DevTools 확장 기능을 확인해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## DevTools 업데이트
 
@@ -378,7 +701,18 @@ Provider, Drift 및 Patrol의 패키지 개발자들 덕분에 이미 이러한 
 
 ![이미지](/assets/img/WhatsnewinFlutter316_22.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기타 개선 사항은 다음과 같습니다:
 
@@ -391,7 +725,18 @@ Provider, Drift 및 Patrol의 패키지 개발자들 덕분에 이미 이러한 
 
 ## VS Code UI 더 쉽게 찾아보기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 플러터 커뮤니티 멤버 DanTup의 놀라운 작업 덕분에 Flutter VS Code 확장 프로그램에 이제 Flutter 사이드바가 생겼어요. 이 사이드바를 통해 다음을 간편하게 이용할 수 있어요:
 
@@ -407,7 +752,18 @@ Provider, Drift 및 Patrol의 패키지 개발자들 덕분에 이미 이러한 
 
 # 사용되지 않는 기능 및 중요 변경사항
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 사용 중단 및 주요 변경 사항
 
@@ -417,7 +773,18 @@ Provider, Drift 및 Patrol의 패키지 개발자들 덕분에 이미 이러한 
 
 다음 릴리즈에서 우리는 이미 지원되는 flutter 및 flutter_test 패키지에 추가하여 flutter_driver 패키지의 사용 중단 정책을 확대할 계획입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -427,6 +794,17 @@ Provider, Drift 및 Patrol의 패키지 개발자들 덕분에 이미 이러한 
 
 Flutter 3.16은 오늘부터 stable 채널에서 사용할 수 있으며, Dart 3.2를 포함하고 있습니다. 이 최신 업데이트로 시작하려면 flutter upgrade만 하면 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 곧 다시 만나요!

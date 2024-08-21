@@ -3,17 +3,13 @@ title: "슬랙 데이터로 AI 모델 훈련하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Feeding AI Models with Slack Data"
 link: "https://medium.com/slalom-build/feeding-ai-models-with-slack-data-8106550f6485"
 isUpdated: true
 ---
-
-
-
-
 
 ## Slack과 생성 적 AI를 결합하여 팀 간 연결을 촉진하는 방법
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 매년 Q3 초반, Slalom Build는 글로벌 해커톤 대회를 개최하여 혁신적인 기술 가능성을 고객 및 커뮤니티에게 relevan한 것으로 만드는 것을 목표로 합니다. 2023년 테마는 그 어느 때보다도 생성 적인 인공 지능이었습니다. 2023년 해커톤의 전반적인 임무는 기본적으로 다음 질문에 대한 답을 찾는 것이었습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 핵톤 대회에서는 매년 치열한 경쟁이 벌어지지만, 2023년에는 GenAI에게 추가적인 바람이 불었습니다. 21세기 우주 경주처럼, 우리는 GenAI에 관해 여행하면서 도로맵을 정의하고 있었습니다. 우리 팀이 프로젝트 목표와 아키텍처를 개발할 때 고려한 몇 가지 중요한 요소가 있었습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 대회를 위해 무엇을 구축할지 결정할 때 우리 팀이 고려한 또 다른 요소는 연결이었습니다. 팬데믹이 발생한 이후로 사람들이 고립되었다는 사실은 비밀이 아닙니다. 그러므로, 우리는 Slalom Build 팀 내에서 연결을 촉진하는 데 GenAI를 활용할 수 있을까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 요소들을 고려하며, 우리 팀의 목표는 ChatGPT의 능력을 활용하여 만나서 더 많은 연결과 재미를 제공할 수 있는 앱을 만드는 것이었습니다. 팀 구성원의 관심사를 충족시키는 게임을 만들어 실제로 만난 팀들에게 기회를 제공하는 것이 목표였죠.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 스포일러 경고: 저희 팀은 대회의 상위 16팀 중에 결선에 진출했어요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 슬라럼 빌드팀에서는 상황-행동-영향 피드백 모델을 기반으로 합니다. 그래서 저는 우리 팀이 GenAI 모델에 슬랙 데이터를 공급하기 위해 만든 Proof of Concept 작품을 소개하는 데 그 템플릿을 활용할 것입니다.
 
@@ -53,7 +82,18 @@ BuildPlay에서 질문했습니다: "어떻게 생성적 AI를 활용하여 빌�
 
 게임의 생성은 생성적 AI를 통해 태깅, 요약, 그리고 필터링 요청의 연속을 통해 이뤄졌을 것입니다. Slack 데이터를 성격 프로필로 변환함으로써, 우리는 게임 개발을 위한 문맥적 입력으로 활용할 수 있었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/FeedingAIModelswithSlackData_1.png" />
 
@@ -63,7 +103,18 @@ BuildPlay에서 질문했습니다: "어떻게 생성적 AI를 활용하여 빌�
 
 # 행동
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 Slack API를 활용하여 우리 애플리케이션에 Slack 데이터 통합 Proof of Concept를 구축하기 시작했어요. API는 무료로 제공되는 거예요. 저는 Slack API 토큰을 받아와서 conversations.history 메소드를 발견하고 난 이후에는 나머지 설정이 매끄럽게 마무리되었고, 핵심 기능은 하나로 줄어들었어요.
 
@@ -112,7 +163,18 @@ def extract_messages(channel_id):
 
 extract_messages 함수 내에서 사용자 이름과 일시 표시를 위해 데이터를 조금 조작해야 했지만, Slack API를 통해 우리 애플리케이션에서 개성 프로필을 생성하는 데 필요한 모든 데이터를 가져올 수 있었어요. 함수의 끝에 있는 extracted_messages.append() 부분을 중점적으로 살펴보면, 공개 Slack 채널 메시지에서 다음 데이터를 추출했다는 것을 나타내요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 메시지 작성자 이름
 - 메시지 날짜와 시간
@@ -126,7 +188,18 @@ extract_messages 함수 내에서 사용자 이름과 일시 표시를 위해 �
 
 # 영향
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 스크립트가 당사 애플리케이션에 미친 영향은 일반적이고 단조로운 경험보다 BuildPlay의 게임에서 더 많은 개인화를 유도했습니다.
 
@@ -136,7 +209,18 @@ extract_messages 함수 내에서 사용자 이름과 일시 표시를 위해 �
 
 Slalom Build에서는 생성적 인공지능이 새로운 일자리의 기회를 제공한다고 믿습니다. 특히, 2023 해커톤 대회의 주제에 나타난 것처럼 성장하고 발전하는 데 사용하는 방법을 배운 사람들에게 특히 그렇습니다. 그리고 BuildPlay의 어떤 구성원에게 물어봐도, 우리는 GenAI가 연결할 수 있는 기회도 제공한다고 믿습니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 감사합니다
 
@@ -146,7 +230,18 @@ Slalom Build에서는 생성적 인공지능이 새로운 일자리의 기회를
 
 # 자원
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 상황-행동-영향 피드백 도구
 - Slack API 문서

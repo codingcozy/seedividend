@@ -3,15 +3,13 @@ title: "Flutter 322와 함께 사용할 수 있는 5가지 추가 패키지(2024
 description: ""
 coverImage: "/assets/img/2024-05-18-5extrapackagestousewithFlutter322in2024_0.png"
 date: 2024-05-18 22:17
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-18-5extrapackagestousewithFlutter322in2024_0.png
 tag: Tech
 originalTitle: "5 extra packages to use with Flutter 3.22 in 2024"
 link: "https://medium.com/@kanellopoulos.leo/5-extra-packages-to-use-with-flutter-3-22-in-2024-81a0d8afc78b"
 isUpdated: true
 ---
-
-
 
 흥미로운 뉴스! 구글 I/O 2024에서 Flutter 3.22이 발표되었고, 물론 이전에 제가 즐겨 사용하는 Flutter 앱 개발용 패키지에 관한 기사를 사랑해주셔서 감사합니다. 많은 앱에서 사용하는 추가 기능 몇 가지를 공유하기로 결정했습니다. 오늘은 코드를 깔끔하고 조직적으로 유지할 뿐만 아니라 훌륭한 앱을 만드는 데 도움이 되는 5가지 Flutter 패키지를 소개하려고 합니다.
 
@@ -21,7 +19,18 @@ UI에 여백을 추가해야 하는 경우가 많은데, Row나 Column에서 Pad
 
 사용하기도 매우 쉽습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 Column(
@@ -53,7 +62,18 @@ const kGap100 = Gap(100);
 
 이렇게 하면 UI 사양이 변경되면 앱 내의 공간을 빠르게 재정비할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 패키지를 확인할 수 있어요.
 
@@ -63,7 +83,18 @@ const kGap100 = Gap(100);
 
 모두가 딱딱한 로딩 화면을 싫어하거나 더 나쁜 경우에는 아예 없을 때가 있죠. 사용자로서 무슨 일이 일어나고 있는지 전혀 모를 때. 데이터가 로딩 중인가요? 앱이 다운되었나요? 무슨 일이 벌어지고 있는 건가요? 저는 앱에 스켈레톤 로더를 추가하고 사용자 경험을 향상시키기 위해 스켈레터나이저를 사용해요. 스켈레톤 UI는 데이터가 이미 로딩된 것처럼 보이는 간단한 플레이스홀더 UI를 제공해요. 많은 유명한 앱이 이 기술을 사용하고 사용자들이 익숙해졌어요. 또한 앱에 쉽게 추가할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](https://miro.medium.com/v2/resize:fit:776/0*SxYiRxewtRIFNa4e.gif)
 
@@ -73,7 +104,18 @@ You can check the package [here](link).
 
 3. toastification
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-05-18-5extrapackagestousewithFlutter322in2024_1.png)
 
@@ -83,7 +125,18 @@ You can check the package [here](link).
 
 4. linkfy_text
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 패키지는 소형이고 간단하지만 다양한 애플리케이션에서 매우 유용함을 입증했습니다. 이는 URL, 이메일 주소, 해시태그 등과 같은 패턴을 감지하여 일반 텍스트를 클릭 가능한 요소로 변환합니다. 이 패키지를 자주 활용하여 다음과 같은 애플리케이션에서 사용합니다:
 
@@ -95,7 +148,18 @@ You can check the package [here](link).
 
 이 패키지를 통합하면 최소한의 노력으로 앱의 기능성과 사용자 경험을 향상시킬 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기에서 패키지를 확인할 수 있어요.
 
@@ -105,6 +169,17 @@ You can check the package [here](link).
 
 여기에서 패키지를 확인할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저의 이전 게시물 두 번째 부분을 마무리합니다. Flutter 앱을 개발할 때 가장 좋아하고 가장 많이 사용하는 패키지에 대해 이야기했습니다. Flutter 3.22 버전이 나오면서 더 많은 흥미로운 새로운 패키지들이 나올 것으로 기대됩니다. 함께 더 나은 앱을 만들 수 있는 도움이 되리라 믿어요!

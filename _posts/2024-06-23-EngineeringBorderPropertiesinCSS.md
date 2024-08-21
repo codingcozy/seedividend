@@ -3,16 +3,13 @@ title: "CSS에서 테두리 속성 다루는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-23-EngineeringBorderPropertiesinCSS_0.png"
 date: 2024-06-23 14:40
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-EngineeringBorderPropertiesinCSS_0.png
 tag: Tech
 originalTitle: "Engineering: Border Properties in CSS"
 link: "https://medium.com/@naqvishahwar120/engineering-border-properties-in-css-db8b3fc94834"
 isUpdated: true
 ---
-
-
-
 
 공학 (CSS)
 
@@ -27,7 +24,18 @@ isUpdated: true
 - border-radius
 - border
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 테두리 너비:
 
@@ -37,7 +45,18 @@ isUpdated: true
 
 - 유효한 색상 값 중 하나 (예: 색 이름, 16진수, RGB, RGBA, HSL, HSLA 등)을 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 테두리 스타일:
 
@@ -47,13 +66,33 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-23-EngineeringBorderPropertiesinCSS_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Individual border sides:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - border-top: 상단 테두리를 설정합니다.
 - border-right: 우측 테두리를 설정합니다.
@@ -66,7 +105,18 @@ isUpdated: true
 
 # border-radius:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - border-radius 속성을 사용하면 테두리에 둥근 모퉁이를 추가할 수 있습니다.
 - 모든 모퉁이에 적용하는 대신 다음 중 하나를 사용할 수 있습니다:
@@ -81,7 +131,18 @@ isUpdated: true
 
 # All in one
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - `border` 속기 속성을 사용하면 요소의 테두리 너비, 스타일 및 색상을 한 번에 설정할 수 있습니다.
 

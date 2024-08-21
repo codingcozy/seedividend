@@ -3,16 +3,13 @@ title: "리액트, Framer 연동해서 사용하기"
 description: ""
 coverImage: "/assets/img/2024-05-20-ReactFramersequences_0.png"
 date: 2024-05-20 22:09
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-20-ReactFramersequences_0.png
 tag: Tech
 originalTitle: "React , Framer — sequences."
 link: "https://medium.com/@anya./react-framer-sequences-397db9375fb4"
 isUpdated: true
 ---
-
-
-
 
 웹 애플리케이션용 애니메이션 코드 학습 경험을 공유하려 합니다. 웹 애플리케이션을 위해 애니메이션을 코드로 작성하는 데 사용한 몇 가지 간단하고 빠른 기술을 소개하겠습니다.
 
@@ -22,8 +19,18 @@ isUpdated: true
 
 - 각기 다른 변형 및 staggarChildren으로 간단한 연속 효과
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image 1](https://miro.medium.com/v2/resize:fit:1400/1*RDCcMOuV4CbcB0dhPd-sgQ.gif)
 
@@ -33,8 +40,18 @@ isUpdated: true
 
 3. Sequence sequences 😄
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/1*fYmW-ckGVVVdBn1hR23jzA.gif" />
 
@@ -46,7 +63,18 @@ React 애플리케이션에 framer-motion을 설치하기만 하면 됩니다.
 npm install framer-motion
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 이 기사에 대한 링크
 
@@ -56,7 +84,18 @@ Figma 링크, CodeSandbox: 링크 1, 링크 2, 링크 3
 
 이것은 간단한 시각적 상태 변경이 있는 요소들에서 순차를 만드는 가장 쉬운 방법입니다. 이에는 두 가지 부분만이 필요합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 변형을 사용하여 애니메이션 설정하기
 - staggerChildren으로 조정하기
@@ -67,7 +106,18 @@ Figma 링크, CodeSandbox: 링크 1, 링크 2, 링크 3
 
 - 애니메이션 디자인하기. 글귀가 약간 세로 방향으로 움직이면서 일련의 카드를 흐려지게 만들고 카드를 가로로 가로질러 나누는 선을 그렸습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-05-20-ReactFramersequences_0.png" />
 
@@ -75,8 +125,8 @@ Figma 링크, CodeSandbox: 링크 1, 링크 2, 링크 3
 
 ```js
 type Props = {
-  label: string;
-  text: string;
+  label: string,
+  text: string,
 };
 
 export const Card = ({ label, text }: Props) => {
@@ -92,7 +142,18 @@ export const Card = ({ label, text }: Props) => {
 
 3. 이제 우리는 컴포넌트 내에서 재생하고 싶은 애니메이션을 위해 framer variants를 연결할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/1*dJC-pf0US95Bjk_16mz6vw.gif" />
 
@@ -129,8 +190,18 @@ export const Card = ({ label, text }: Props) => {
 
 4. 부모 구성 요소에서 일련의 순서를 조율합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1400/1*RDCcMOuV4CbcB0dhPd-sgQ.gif)
 
@@ -152,8 +223,18 @@ export const CardContainer = () => {
 
 이 샌드박스에서 전체 코드를 확인하세요.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # useAnimate()을 사용한 순차 처리
 
@@ -164,7 +245,18 @@ export const CardContainer = () => {
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1400/1*-vqhUfXmPoehZSW8hRd7Lg.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계
 
@@ -174,7 +266,18 @@ export const CardContainer = () => {
 
 2. 컴포넌트를 생성하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 ...
@@ -212,7 +315,18 @@ export const Card = () => {
    ...
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. 순서를 생성합니다. 하트가 텍스트로 내려오면서 약간 회전하고, 내 텍스트가 만나도록 슬라이드되기를 원합니다. 대상 요소를 참조하는 방법은 여러 가지가 있습니다. 클래스이름을 사용하고, 각 속성에 대한 모든 값을 제공하고 있습니다.
 
@@ -240,7 +354,18 @@ animate(
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/1*-vqhUfXmPoehZSW8hRd7Lg.gif" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해당 샌드박스에서 전체 코드를 확인하세요.
 
@@ -250,40 +375,50 @@ animate(
 
 ![image](https://miro.medium.com/v2/resize:fit:1400/1*fYmW-ckGVVVdBn1hR23jzA.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계
 
 - 시퀀스에 지연 추가
 
 ```js
-  useEffect(() => {
-    animate(
-      [
-        [
-          scope.current,
-          { backgroundColor: ["#ED2733", "#FF4D98"] },
-          { duration: 1 },
-        ],
-        [
-          `.${styles.heart}`,
-          { rotate: [0, 10, -10, 0], top: ["-20%", "40%"] },
-          { duration: 3 },
-        ],
-        [
-          `.${styles.textBox}`,
-          { gap: ["250px", "24px"] },
-          { duration: 2, at: "<" },
-        ],
-      ],
-      { delay: delay }
-    );
-  }, []);
+useEffect(() => {
+  animate(
+    [
+      [scope.current, { backgroundColor: ["#ED2733", "#FF4D98"] }, { duration: 1 }],
+      [`.${styles.heart}`, { rotate: [0, 10, -10, 0], top: ["-20%", "40%"] }, { duration: 3 }],
+      [`.${styles.textBox}`, { gap: ["250px", "24px"] }, { duration: 2, at: "<" }],
+    ],
+    { delay: delay }
+  );
+}, []);
 ```
 
 2. Cards에 delay 속성 전달
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 코드를 번역하면 다음과 같다.
 

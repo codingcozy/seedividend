@@ -3,17 +3,13 @@ title: "디자이너 대부분 모르는 UI 디자인 규칙 16가지"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "16 little UI design rules that make a big impact"
 link: "https://uxplanet.org/16-ui-design-tips-ba2e7524d203"
 isUpdated: true
 ---
-
-
-
-
 
 ## 논리적인 규칙 또는 지침을 사용하여 예제 사용자 인터페이스를 재설계하는 UI 디자인 사례 연구
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 사용자 인터페이스 디자인은 어렵습니다. 레이아웃, 간격, 타이포그래피, 색상과 관련하여 선택할 수 있는 옵션이 많기 때문에 디자인 결정을 내리는 것은 압도적일 수 있습니다. 사용성, 접근성 및 심리학을 더해 보면 일이 더욱 어려워집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다행히도, UI 디자인을 하는 데 그렇게 어렵지 않아요. 제품 디자이너로 거의 2 10년 동안 일한 경험을 통해 대부분의 시각적 및 상호 작용 디자인 결정이 논리적 규칙 체계에 따라 이뤄진다는 것을 알게 되었어요. 예술적인 재주나 마법같은 직감이 아닌, 단순한 규칙들이에요.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 가장 빠른 배우는 방법은 실습하는 것이니, 시작해봐요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 논리 규칙을 적용하여 이 예시를 고쳐봅시다
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 시각적 또는 상호 작용 디자인 경험이 많지 않아도 원본 디자인이 엉망으로 느껴지고 복잡하며 사용하기 어렵다는 것을 아마 느끼실겁니다. 이는 사용성에 위험을 초래할 수 있는 많은 문제가 있는 디자인 세부 사항을 포함하고 있기 때문입니다. 아마 이미 몇 가지 문제를 발견하신 것 같나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 원래 디자인의 문제를 하나씩 해결해 보겠어요! 다음의 논리적인 규칙이나 지침을 활용해요:
 
@@ -68,7 +97,18 @@ isUpdated: true
 
 정보를 관련 요소들의 작은 그룹으로 나누면 인터페이스를 구조화하고 조직하는 데 도움이 됩니다. 이렇게 하면 사람들이 이해하고 기억하기가 더 빨라지고 쉬워져요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 방법을 사용하여 관련된 요소들을 그룹화할 수 있어요:
 
@@ -81,7 +121,18 @@ isUpdated: true
 
 특히 공간을 사용하는 것은 관련된 요소를 그룹화하는 매우 효과적이고 간단한 방법이에요. 또한 여러 그룹화 방법을 결합하여 그룹화를 더 명확하게 표시할 수도 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리 예시에서 콘텐츠 사이의 공간 부족은 디자인을 혼잡하게 보이고 이해하기 어렵게 만듭니다. 간격을 늘리면 콘텐츠를 명확하게 그룹화하여 조직화되고 이해하기 쉬워집니다.
 
@@ -91,7 +142,18 @@ isUpdated: true
 
 UI 디자인에서의 일관성은 유사한 요소가 비슷하게 보이고 작동한다는 것을 의미합니다. 이는 귀하의 제품 내에서도 그리고 다른 잘 알려진 제품과 비교했을 때도 동일해야 합니다. 이 예측 가능한 기능성은 사용성을 향상시키고 오류를 줄여줍니다. 사용자들이 작동 방식을 계속 학습할 필요가 없기 때문에 오류를 줄일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시에서 아이콘 스타일이 일관성이 없습니다. 어떤 것은 채워져 있고, 다른 것들은 채워져 있지 않습니다. 이것은 일부 사람들을 혼동시킬 수 있습니다. 완전한 아이콘은 종종 요소가 선택되었음을 나타내므로요. 모든 아이콘에 2pt의 스트로크 두께와 둥근 모서리를 적용하여 일관성을 향상시키고 각 아이콘에 유사한 시각적 무게를 부여할 수 있습니다.
 
@@ -101,7 +163,18 @@ UI 디자인에서의 일관성은 유사한 요소가 비슷하게 보이고 �
 
 ![아이콘 텍스트 레이블 이미지](/assets/img/16-little-UI-design-rules-that-make-a-big-impact_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 3. 비슷한 모습의 요소는 유사하게 작동하도록 보장하십시오
 
@@ -111,7 +184,18 @@ UI 디자인에서의 일관성은 유사한 요소가 비슷하게 보이고 �
 
 ![이미지](/assets/img/16-little-UI-design-rules-that-make-a-big-impact_5.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 4. 명확한 시각적 계층 구조 생성하기
 
@@ -121,7 +205,18 @@ UI 디자인에서의 일관성은 유사한 요소가 비슷하게 보이고 �
 
 여기에는 명확한 시각적 계층 구조가 없는 웹 사이트 히어로 배너의 예와 중요도 순서대로 요소가 명확하게 제시된 예가 이어집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![16-little-UI-design-rules-that-make-a-big-impact_6.png](/assets/img/16-little-UI-design-rules-that-make-a-big-impact_6.png)
 
@@ -131,7 +226,18 @@ UI 디자인에서의 일관성은 유사한 요소가 비슷하게 보이고 �
 
 이 예시에 Squint Test를 적용해 봅시다. 서로 유사한 강한 중심을 가진 여러 요소들이 경쟁하고 있는 것을 볼 수 있습니다. 한편, 왼쪽 하단의 주요 동작은 전혀 두드러지지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/16-little-UI-design-rules-that-make-a-big-impact_8.png" />
 
@@ -141,7 +247,18 @@ UI 디자인에서의 일관성은 유사한 요소가 비슷하게 보이고 �
 
 업데이트된 디자인에 Squint Test를 적용하면, 주요 작업이 명백히 가장 두드러진 요소임을 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/16-little-UI-design-rules-that-make-a-big-impact_10.png)
 
@@ -151,7 +268,18 @@ UI 디자인에서의 일관성은 유사한 요소가 비슷하게 보이고 �
 
 필요하지 않은 정보와 시각적 스타일은 주의를 산만하게 만들 수 있으며, 인터페이스를 사용하는 데 필요한 뇌의 작업량을 증가시킬 수 있습니다. 불필요한 선, 색상, 배경, 그리고 애니메이션을 피하여 더 단순하고 집중적인 인터페이스를 만들어보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/16-little-UI-design-rules-that-make-a-big-impact_11.png" />
 
@@ -161,7 +289,18 @@ UI 디자인에서의 일관성은 유사한 요소가 비슷하게 보이고 �
 
 # 6. 색상을 목적에 맞게 사용하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 색상은 적당히 사용하고 목적을 가지고 사용하세요. 장식용으로만 색상을 사용하는 것은 혼란스럽고 주의를 산만하게 할 수 있으니 주의하세요. 흑백으로 시작하고 의미를 전달하는 곳에 색상을 도입하세요.
 
@@ -171,7 +310,18 @@ UI 디자인에서의 일관성은 유사한 요소가 비슷하게 보이고 �
 
 ![이미지](/assets/img/16-little-UI-design-rules-that-make-a-big-impact_13.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 원래 예시에서 파란색 제목은 좋아 보일 수 있지만 텍스트를 상호작용적으로 보이게 만듭니다. 혼란을 피하기 위해 상호작용성이 없는 내용에서 파란색을 제거합니다.
 
@@ -181,7 +331,18 @@ UI 디자인에서의 일관성은 유사한 요소가 비슷하게 보이고 �
 
 **7. 인터페이스 요소가 3:1 대비 비율을 가져야 합니다.**
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대조는 두 색상 간에 인식된 밝기 차이를 측정한 것입니다. 이는 1:1에서 21:1까지의 비율로 표현됩니다. 예를 들어, 검은색 배경에 검은 텍스트를 사용하면 가장 낮은 1:1 대비 비율을 갖게 되는 반면, 흰색 배경에 검은 텍스트를 사용하면 최고 21:1 비율을 가집니다. 서로 다른 색상 간의 대비 비율을 측정하는 데 도움이 되는 많은 온라인 도구들이 있습니다.
 
@@ -191,7 +352,18 @@ UI 디자인에서의 일관성은 유사한 요소가 비슷하게 보이고 �
 
 ![이미지](/assets/img/16-little-UI-design-rules-that-make-a-big-impact_15.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 원본 예제에서 주된 버튼 대조도가 너무 낮았습니다. 시각적 계층 구조를 다루면서 이를 이전에 수정했지만, 여기서 언급하는 것도 중요합니다.
 
@@ -201,7 +373,18 @@ UI 디자인에서의 일관성은 유사한 요소가 비슷하게 보이고 �
 
 화살표와 버튼 대조도를 3:1 이상의 비율로 높이면 다음과 같은 디자인을 얻을 수 있습니다. 점진적으로 발전하고 있지만, 아직 수정해야 할 문제가 더 많습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![16-little-UI-design-rules-that-make-a-big-impact_17](/assets/img/16-little-UI-design-rules-that-make-a-big-impact_17.png)
 
@@ -212,7 +395,18 @@ UI 디자인에서의 일관성은 유사한 요소가 비슷하게 보이고 �
 - 소형 텍스트(18px 이하)는 최소 4.5:1의 대비를 가져야 합니다.
 - 큰 텍스트(굵은 두께가 있는 18px 이상 또는 일반 두께 24px 이상)는 최소 3:1의 대비를 가져아 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희 예시에서 사진 안 요소인 카운트 요소의 작은 텍스트는 충분한 명암 대비가 부족합니다. 회색 컨테이너의 불투명도를 높여 대비 비율을 4.5:1 이상으로 늘리고, 텍스트 그림자도 추가합니다.
 
@@ -222,7 +416,18 @@ UI 디자인에서의 일관성은 유사한 요소가 비슷하게 보이고 �
 
 ![image](/assets/img/16-little-UI-design-rules-that-make-a-big-impact_19.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 9. 색상 하나만을 지시자로 의존하지 마세요
 
@@ -232,7 +437,18 @@ UI 디자인에서의 일관성은 유사한 요소가 비슷하게 보이고 �
 
 예를 들어, "리뷰" 텍스트에 파란색을 사용하여 링크라는 것을 나타냅니다. 색상이 제거된다면, 링크 텍스트는 다른 텍스트와 동일하게 보이므로 색맹은 이것이 링크인지 알 수 없습니다. 링크 텍스트에 밑줄을 그으면 색이 없을 때 다른 텍스트와 명확하게 구별됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/16-little-UI-design-rules-that-make-a-big-impact_20.png)
 
@@ -242,7 +458,18 @@ UI 디자인에서의 일관성은 유사한 요소가 비슷하게 보이고 �
 
 인터페이스 디자인에는 일반적으로 가장 가독성이 좋고 중립적이며 간단한 산세리프 글꼴 하나를 사용하는 것이 가장 안전합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희 예시에서는 제목이 자세한 세리프 글꼴을 사용하고 있어서 일부 사람들에게는 읽기 어렵고 주의를 산만하게 할 수 있습니다. 또한, 이 속성 임대 앱의 일부 사진들과 매치되지 않을 수 있는 개성을 가지고 있습니다. 산세리프 글꼴을 사용하여 단순화하면 사용성과 디자인을 개선할 수 있습니다.
 
@@ -252,7 +479,18 @@ UI 디자인에서의 일관성은 유사한 요소가 비슷하게 보이고 �
 
 ### 11. 소문자 글자가 더 긴 글꼴을 사용하세요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 작은 크기에서 일반적으로 더 가독성이 좋은 작은 소문자와 더 큰 글자 간격이 있는 서체를 찾아보세요. 서체의 소문자 높이는 x-높이로 알려져 있어요.
 
@@ -262,7 +500,18 @@ UI 디자인에서의 일관성은 유사한 요소가 비슷하게 보이고 �
 
 ![이미지](/assets/img/16-little-UI-design-rules-that-make-a-big-impact_24.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 길 산스에서 라토로 업데이트된 예시입니다.
 
@@ -272,7 +521,18 @@ UI 디자인에서의 일관성은 유사한 요소가 비슷하게 보이고 �
 
 사람들에게 소리치는 게 아닌 이상, 대문자를 사용하는 유효한 이유는 많지 않습니다. LOUD하고 읽기 어렵습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 글을 읽을 때는 각 글자를 하나씩 보는 것이 아닌, 단어의 형태를 보는 편이 낫습니다. 형태를 보는 것이 단어를 빠르게 인식하는 데 도움이 됩니다. 대문자로 된 단어는 모두 직사각형 모양을 가지고 있습니다. 이는 각 글자를 하나씩 읽도록 만듭니다.
 
@@ -282,7 +542,18 @@ UI 디자인에서의 일관성은 유사한 요소가 비슷하게 보이고 �
 
 ![이미지](/assets/img/16-little-UI-design-rules-that-make-a-big-impact_27.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/16-little-UI-design-rules-that-make-a-big-impact_28.png)
 
@@ -292,7 +563,18 @@ UI 디자인에서의 일관성은 유사한 요소가 비슷하게 보이고 �
 
 일반 글꼴과 굵은 글꼴만 사용하여 디자인 시스템을 간단하고 간결하게 유지하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![16-little-UI-design-rules-that-make-a-big-impact_29](/assets/img/16-little-UI-design-rules-that-make-a-big-impact_29.png)
 
@@ -304,7 +586,18 @@ UI 디자인에서의 일관성은 유사한 요소가 비슷하게 보이고 �
 
 우리의 예에서 위치 텍스트는 가벼운 글꼴 두께를 사용했습니다. 요구된 4.5:1 대비 비율 이상을 증가했지만, 얇은 문자는 여전히 일부 사람들에게 읽기 어려울 수 있습니다. 글꼴 두께를 일반으로 증가시키면 가독성이 향상되고 디자인이 단순해집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지 1](/assets/img/16-little-UI-design-rules-that-make-a-big-impact_30.png)
 
@@ -314,7 +607,18 @@ UI 디자인에서의 일관성은 유사한 요소가 비슷하게 보이고 �
 
 UI 디자인에서 순수 검정색을 피하는 것이 일반적으로 안전합니다. 순수 검은색은 흰색과 매우 높은 대비를 가지고 있기 때문에 텍스트를 읽을 때 눈에 스트레인을 유발하고 피로를 유발할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 검정은 0%의 색 밝기를 가지고 있고, 흰색은 100%의 색 밝기를 가지고 있어요. 색 밝기의 큰 차이는 우리 눈을 더 열심히 일하게 만들어요. 흰색 대비 순수한 검정을 피하는 것이 가장 안전하며, 대신 어두운 회색을 선택하는 것이 좋아요.
 
@@ -324,7 +628,18 @@ UI 디자인에서 순수 검정색을 피하는 것이 일반적으로 안전�
 
 # 15. 텍스트를 왼쪽으로 정렬하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 영어는 왼쪽에서 오른쪽으로, 아래로 F자 모양의 패턴으로 읽힙니다. 따라서 텍스트를 최적의 가독성을 위해 왼쪽 정렬하는 것이 좋습니다. 긴 본문 텍스트의 경우, 가운데 정렬이나 양쪽 맞춤 텍스트를 피하는 것이 가장 안전합니다. 이렇게 하는 것이 읽기 더 어렵게 만들고, 특히인 인지 장애가 있는 사람들에게 더 어려울 수 있습니다.
 
@@ -332,7 +647,18 @@ UI 디자인에서 순수 검정색을 피하는 것이 일반적으로 안전�
 
 이 예에서는 속성 설명 텍스트가 중앙 정렬되어 있습니다. 텍스트를 왼쪽 정렬로 변경하면 가독성이 향상되며, 위의 왼쪽 정렬된 텍스트와도 일관성이 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/16-little-UI-design-rules-that-make-a-big-impact_34.png)
 
@@ -342,7 +668,18 @@ UI 디자인에서 순수 검정색을 피하는 것이 일반적으로 안전�
 
 접근성과 가독성을 위해, 특히 긴 본문 텍스트의 경우, 줄 간격을 최소 1.5(150%)로 유지해주세요. 일반적으로 줄 간격을 1.5에서 2 사이로 유지하는 것이 적절합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![다운로드 이미지](/assets/img/16-little-UI-design-rules-that-make-a-big-impact_35.png)
 
@@ -352,7 +689,18 @@ UI 디자인에서 순수 검정색을 피하는 것이 일반적으로 안전�
 
 # 문제가 해결되었습니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단하지만 강력한 UI 디자인 가이드라인을 통해, 우리는 예시 디자인에서 발견한 많은 문제를 빠르게 해결했습니다. 가이드라인은 제약적으로 느껴질 수 있지만 창의성을 제한하려는 것은 아닙니다. 대신, 이를 단단한 토대로 생각해 보세요. 건축하고 탐험하며 실험할 수 있는 토대입니다.
 
@@ -362,7 +710,18 @@ UI 디자인이 얼마나 어렵지 않은지 알아가고 계셨으면 좋겠�
 
 # 더 알고 싶으세요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것들은 제 UI 디자인 책에서 가져온 논리 주도 가이드라인 중 일부에 불과해요. 이 책에는 상세한 예제와 함께 수백 개의 가이드라인이 더 있답니다.
 

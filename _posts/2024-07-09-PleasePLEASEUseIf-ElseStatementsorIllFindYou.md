@@ -3,15 +3,13 @@ title: "제발, 제발 If-Else 문 사용하기, 아니면 후회할 거예요"
 description: ""
 coverImage: "/assets/img/2024-07-09-PleasePLEASEUseIf-ElseStatementsorIllFindYou_0.png"
 date: 2024-07-09 14:51
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-PleasePLEASEUseIf-ElseStatementsorIllFindYou_0.png
 tag: Tech
 originalTitle: "Please, PLEASE Use If-Else Statements, or I’ll Find You"
 link: "https://medium.com/@jakemer10/please-please-use-if-else-statements-or-ill-find-you-4e4c6af38912"
 isUpdated: true
 ---
-
-
 
 ![이미지](/assets/img/2024-07-09-PleasePLEASEUseIf-ElseStatementsorIllFindYou_0.png)
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 if-else 문은 프로그래밍에서 의사 결정을 하는 데 중추적인 역할을 합니다. 다양한 조건에 따라 코드가 가지를 치거나 다른 경로를 따라갈 수 있습니다. 이렇게 함으로써 코드가 유연하고 가독성이 좋아지며 유지보수하기 쉬워집니다. 간단한 예제로 설명해보겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 온도가 30도를 넘으면:
 print("뜨거운 날씨네요, 수분을 충분히 섭취하세요!")
@@ -34,7 +43,18 @@ print("날씨가 좋고 시원해요.")
 
 이제 중첩된 삼항 연산자의 공포를 상상해보세요. 다음의 혼돈스러운 예제를 해독하려고 노력하는 것을 상상해보세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 message = "기온이 30도를 넘는 더운 날씨네요! 수분을 충분히 섭취하세요." if temperature > 30 else "날씨가 시원해서 좋네요."
 
@@ -44,7 +64,18 @@ message = "기온이 30도를 넘는 더운 날씨네요! 수분을 충분히 �
 
 명확한 코드는 예의뿐만 아니라 필수적입니다. 깨끗하고 이해하기 쉬운 코드를 작성할 때, 당신뿐만 아니라 미래에 프로젝트에 참여할 수 있는 모든 개발자들에게 도움이 됩니다. 복잡하고 따라가기 어려운 로직이 가득한 코드베이스를 상속받는 상황을 상상해보세요. 당신은 당혹스럽고 오류가 발생하기 쉬운 상황에 처할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 if-else문을 사용하면 당신의 의도를 명확하게 전달할 수 있습니다. 코드를 읽는 사람에게 로드맵을 제공하여 디버깅, 수정 및 확장을 쉽게 만들 수 있습니다. 아래에는 차이를 보여주기 위한 더 복잡한 예제가 있습니다:
 
@@ -62,7 +93,18 @@ else:
 
 # Ternary 방식
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 display_admin_panel() if user.is_logged_in and user.has_permission("admin") else display_user_dashboard() if user.is_logged_in else prompt_login()
@@ -74,6 +116,17 @@ display_admin_panel() if user.is_logged_in and user.has_permission("admin") else
 
 저와 같은 개발자 여러분들에게 작은 부탁이 있습니다. 제 정신 건강과 여러분의 것을 위해, if-else 문을 사용해 주세요. 이것은 좋은 습관뿐만 아니라 생명줄이기도 합니다. 당신의 논리를 하나의 난해한 줄로 압축하려는 유혹이 들 때, 이 글을 기억해 주세요. 언젠가 여러분의 코드를 읽게 될 개발자가 여러분을 감사하며 명료함을 선택했음을 기억해 주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그게 만족스럽지 않다면, 기억해둬 — 내가 널 찾을 수 있는 곳을 알고 있다니까.

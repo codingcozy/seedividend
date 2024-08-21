@@ -3,16 +3,13 @@ title: "움직이는 메쉬 그라데이션 배경으로 웹사이트에 생명�
 description: ""
 coverImage: "/assets/img/2024-06-27-BringingLifetoYourWebsitewithMovingMeshGradientBackgrounds_0.png"
 date: 2024-06-27 18:24
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-27-BringingLifetoYourWebsitewithMovingMeshGradientBackgrounds_0.png
 tag: Tech
 originalTitle: "Bringing Life to Your Website with Moving Mesh Gradient Backgrounds"
 link: "https://medium.com/design-bootcamp/bringing-life-to-your-website-with-moving-mesh-gradient-backgrounds-20b7e26844a2"
 isUpdated: true
 ---
-
-
-
 
 요즘에는 메쉬 그라데이션 디자인이 점점 더 인기를 끌고 있는 것 같아요.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 본문에서는 움직이는 메쉬 그라디언트 배경을 애니메이션화하여 웹사이트에 다이내미즘과 생동감을 더해주는 방법을 배워보겠어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/1*PL_QXqTv_ibiPlDv9Ux1NQ.gif" />
 
@@ -33,8 +41,18 @@ isUpdated: true
 - React 프로젝트가 설정되어 있어야 합니다.
 - Tailwind 종속성이 설치되어 있어야 합니다. npm install -D tailwindcss postcss autoprefixer && npx tailwindcss init -p
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-27-BringingLifetoYourWebsitewithMovingMeshGradientBackgrounds_1.png)
 
@@ -44,8 +62,18 @@ isUpdated: true
 
 먼저, 우리는 애니메이션할 수 있는 mesh gradient를 생성해야 합니다. 빠른 구글 검색으로 몇 가지 훌륭한 mesh gradient 생성기를 찾을 수 있습니다. 이 기사에서는 CSS 형식으로 mesh gradient를 출력할 수 있는 것이 필요합니다. https://csshero.org/mesher/ 이 사이트를 사용해보세요.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-27-BringingLifetoYourWebsitewithMovingMeshGradientBackgrounds_2.png" />
 
@@ -55,25 +83,36 @@ isUpdated: true
 
 MeshGradientBackground.jsx
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-import React from 'react';
+import React from "react";
 
 function MeshGradientBackground(props) {
-    return (
-        <div style={ {position: 'relative', height: '100vh'} }>
-            {/* Background using ::before pseudo-element */}
-            <div style={
-                {
-                    position: 'absolute',
-                    top: 0,
-                    left: 0,
-                    width: '100%',
-                    height: '100%',
-                    zIndex: -1, // Ensure background is behind content
-                    backgroundColor: '#ff99df',
-                    backgroundImage: `
+  return (
+    <div style={{ position: "relative", height: "100vh" }}>
+      {/* Background using ::before pseudo-element */}
+      <div
+        style={{
+          position: "absolute",
+          top: 0,
+          left: 0,
+          width: "100%",
+          height: "100%",
+          zIndex: -1, // Ensure background is behind content
+          backgroundColor: "#ff99df",
+          backgroundImage: `
                         radial-gradient(circle at 52% 73%, hsla(310, 85%, 67%, 1) 0px, transparent 50%),
                         radial-gradient(circle at 0% 30%, hsla(197, 90%, 76%, 1) 0px, transparent 50%),
                         radial-gradient(circle at 41% 26%, hsla(234, 79%, 69%, 1) 0px, transparent 50%),
@@ -81,13 +120,12 @@ function MeshGradientBackground(props) {
                         radial-gradient(circle at 41% 88%, hsla(36, 83%, 61%, 1) 0px, transparent 50%),
                         radial-gradient(circle at 76% 73%, hsla(346, 69%, 70%, 1) 0px, transparent 50%),
                         radial-gradient(circle at 29% 37%, hsla(272, 96%, 64%, 1) 0px, transparent 50%)`,
-                    backgroundSize: '100% 100%',
-                    filter: 'blur(80px)',
-                }
-            }></div>
-  
-        </div>
-    );
+          backgroundSize: "100% 100%",
+          filter: "blur(80px)",
+        }}
+      ></div>
+    </div>
+  );
 }
 
 export default MeshGradientBackground;
@@ -99,27 +137,39 @@ export default MeshGradientBackground;
 
 메쉬 그라디언트를 애니메이션화하는 것은 그라디언트 색상을 직접적으로 애니메이션화하는 것이 지원되지 않기 때문에 까다로울 수 있습니다. 이 문제를 해결하기 위해 배경 크기를 애니메이션화하여 움직임의 환상을 만들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 업데이트한 내용이 있는 MeshGradientBackground.jsx 파일을 수정해주세요.
 
 ```js
-import React from 'react';
-import '../../styles.css'; // 이 파일에 @keyframes 정의가 포함되어 있는지 확인해주세요
+import React from "react";
+import "../../styles.css"; // 이 파일에 @keyframes 정의가 포함되어 있는지 확인해주세요
 
 function MeshGradientBackground(props) {
-    return (
-        <div style={{ position: 'relative', height: '100vh' }}>
-            {/* ::before 가상 요소를 사용한 배경 */}
-            <div style={{
-                position: 'absolute',
-                top: 0,
-                left: 0,
-                width: '100%',
-                height: '100%',
-                zIndex: -1, // 배경이 내용 뒤에 있도록 함
-                backgroundColor: '#ff99df',
-                backgroundImage: `
+  return (
+    <div style={{ position: "relative", height: "100vh" }}>
+      {/* ::before 가상 요소를 사용한 배경 */}
+      <div
+        style={{
+          position: "absolute",
+          top: 0,
+          left: 0,
+          width: "100%",
+          height: "100%",
+          zIndex: -1, // 배경이 내용 뒤에 있도록 함
+          backgroundColor: "#ff99df",
+          backgroundImage: `
                     radial-gradient(circle at 52% 73%, hsla(310, 85%, 67%, 1) 0px, transparent 50%),
                     radial-gradient(circle at 0% 30%, hsla(197, 90%, 76%, 1) 0px, transparent 50%),
                     radial-gradient(circle at 41% 26%, hsla(234, 79%, 69%, 1) 0px, transparent 50%),
@@ -127,13 +177,13 @@ function MeshGradientBackground(props) {
                     radial-gradient(circle at 41% 88%, hsla(36, 83%, 61%, 1) 0px, transparent 50%),
                     radial-gradient(circle at 76% 73%, hsla(346, 69%, 70%, 1) 0px, transparent 50%),
                     radial-gradient(circle at 29% 37%, hsla(272, 96%, 64%, 1) 0px, transparent 50%)`,
-                backgroundSize: '150% 150%',
-                filter: 'blur(80px)',
-                animation: 'moveBackground 10s linear infinite',
-            }}></div>
-  
-        </div>
-    );
+          backgroundSize: "150% 150%",
+          filter: "blur(80px)",
+          animation: "moveBackground 10s linear infinite",
+        }}
+      ></div>
+    </div>
+  );
 }
 
 export default MeshGradientBackground;
@@ -143,22 +193,54 @@ styles.css 파일을 추가해주세요.
 
 ```css
 @keyframes moveBackground {
-    0% { background-size: 100% 100%; }
-    10% { background-size: 120% 80%; }
-    20% { background-size: 190% 140%; }
-    30% { background-size: 130% 110%; }
-    40% { background-size: 150% 120%; }
-    50% { background-size: 180% 100%; }
-    60% { background-size: 220% 80%; }
-    70% { background-size: 100% 50%; }
-    80% { background-size: 120% 70%; }
-    90% { background-size: 110% 90%; }
-    100% { background-size: 100% 100%; }
+  0% {
+    background-size: 100% 100%;
+  }
+  10% {
+    background-size: 120% 80%;
+  }
+  20% {
+    background-size: 190% 140%;
+  }
+  30% {
+    background-size: 130% 110%;
+  }
+  40% {
+    background-size: 150% 120%;
+  }
+  50% {
+    background-size: 180% 100%;
+  }
+  60% {
+    background-size: 220% 80%;
+  }
+  70% {
+    background-size: 100% 50%;
+  }
+  80% {
+    background-size: 120% 70%;
+  }
+  90% {
+    background-size: 110% 90%;
+  }
+  100% {
+    background-size: 100% 100%;
+  }
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Background Animation](https://miro.medium.com/v2/resize:fit:1400/1*GURQVNHCw-MtVgHjeS4GcQ.gif)
 
@@ -168,8 +250,18 @@ Explanation:
 
 The moveBackground animation is applied to this div, making the background size change over time, which gives the illusion of movement.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요렇게 하면 됩니다 — 메쉬 그라데이션 배경을 애니메이션화하는 간단한 키프레임 애니메이션이 완성되었어요.
 

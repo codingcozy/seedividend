@@ -3,15 +3,13 @@ title: "Tailwind CSS vs SCSS 유틸리티 퍼스트와 전처리기 접근 방�
 description: ""
 coverImage: "/assets/img/2024-07-09-TailwindCSSvsSCSSAComparisonofUtility-FirstandPreprocessorApproaches_0.png"
 date: 2024-07-09 13:54
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-TailwindCSSvsSCSSAComparisonofUtility-FirstandPreprocessorApproaches_0.png
 tag: Tech
 originalTitle: "Tailwind CSS vs. SCSS: A Comparison of Utility-First and Preprocessor Approaches"
 link: "https://medium.com/@muzammilsyed270300/tailwind-css-vs-scss-a-comparison-of-utility-first-and-preprocessor-approaches-1d0be4cc0bbd"
 isUpdated: true
 ---
-
-
 
 ![이미지](/assets/img/2024-07-09-TailwindCSSvsSCSSAComparisonofUtility-FirstandPreprocessorApproaches_0.png)
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 SCSS는 Sassy CSS의 약어로 CSS의 기능을 변수, 믹스인, 함수 및 중첩과 같은 기능으로 확장하는 CSS 전처리기입니다. CSS 전처리기는 브라우저가 이해할 수 있는 일반 CSS로 컴파일할 때 CSS를 더 강력하고 표현력 있게 작성할 수 있도록 해주는 도구입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # SCSS를 사용하는 이유
 
@@ -44,7 +53,18 @@ SCSS를 사용하는 사람들은 다양한 이유로 사용하지만, 그 중 �
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 변수: SCSS와 CSS 모두 색상, 글ꔰ 사이즈, 간격 등과 같이 자주 사용되는 값을 저장하는 변수를 정의할 수 있습니다. 그러나 SCSS 변수는 전처리, 명령형 동작, 색상 계산과 같은 고급 기능을 제공하여 이점을 제공합니다. 예를 들면:
 
@@ -76,7 +96,18 @@ body {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Partial 및 Import: SCSS를 사용하면 스타일시트를 부분 파일로 나눌 수 있는데, 이는 밑줄(\_)로 시작하는 파일인 파셜 파일을 사용합니다. 그런 다음 @import 지시문을 사용하여 이러한 partial을 주요 스타일시트에 가져올 수 있습니다. 이를 통해 코드를 조직화하고 반복을 피할 수 있습니다. CSS는 이러한 기능을 지원하지 않습니다. 예를 들어:
 
@@ -106,7 +137,18 @@ body {
 
 - 상속 및 연산자: SCSS를 사용하면 @extend 지시문을 사용하여 다른 선택자에서 스타일을 상속할 수 있으며, 이는 코드 중복을 피하는 데 도움이 됩니다. 또한 SCSS는 +, -, \*, /, % 및, or, and, not와 같은 산술 및 논리 연산자를 지원하여 스타일과 연산 및 비교를 수행할 수 있습니다. CSS에는 이러한 기능이 없습니다. 예를 들어:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 .error {
 border: 1px solid red;
@@ -143,11 +185,33 @@ width: 50% - 10px;
 
 # Tailwind CSS란 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 Markdown 형식으로 변경해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Tailwind CSS를 사용하여 호버 효과가 있는 카드 컴포넌트를 만드는 방법의 예제입니다:
 
@@ -178,7 +242,18 @@ Tailwind CSS를 사용하여 호버 효과가 있는 카드 컴포넌트를 만�
 
 SCSS가 강력하고 유연하다면, 왜 Tailwind CSS로 전환해야 할까요? 실제로 Tailwind CSS는 SCSS가 할 수 있는 모든 것을 할 뿐만 아니라 더 많은 기능을 제공합니다. 어떻게 할 수 있는지 보여드릴게요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # HTML에서 스타일을 분리하고 싶으세요?
 
@@ -199,7 +274,18 @@ Tailwind CSS를 사용하면 마크업에서 미리 정의된 클래스를 직�
 </div>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위와 같이 작성할 수 있습니다:
 
@@ -245,11 +331,33 @@ Tailwind CSS를 사용하면 마크업에서 미리 정의된 클래스를 직�
 
 또는, 제가 선호하는 방법으로 HTML 클래스를 접기 또는 숨길 수 있는 코드 편집기 확장 프로그램을 사용할 수 있습니다. VS Code의 Inline-Fold와 같은 기능이 있는 확장 프로그램을 사용하면 코드가 다음과 같이 변환됩니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이렇게 변경해도 좋을 것 같아요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 중첩 없이는 살 수 없나요?
 
@@ -268,7 +376,18 @@ module.exports = {
 
 그러면 Tailwind 유틸리티 클래스와 함께 중첩된 선택자를 작성할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 .navbar {
 @apply bg-gray-900 text-white;
@@ -297,7 +416,18 @@ ul {
 
 SCSS 사용자들이 즐기는 또 다른 기능은 부분 파일인데, 이를 사용하면 스타일시트를 여러 파일로 분할하고 이를 주 파일에 가져올 수 있습니다. 여러분은 Tailwind CSS로도 이를 할 수 있습니다. 사용법은 다음과 같습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 명령어를 사용하여 이 플러그인을 npm을 통해 설치해주세요:
 
@@ -319,7 +449,18 @@ module.exports = {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 button.css라는 파일을 만들어서 버튼 스타일을 저장할 수 있어요. 아래와 같이요:
 
@@ -339,13 +480,35 @@ module.exports = {
 @tailwind utilities;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 보이는 것처럼, Tailwind CSS는 여러 파일을 사용하는 것을 막지 않습니다. 사실, 스타일을 조직화하고 관리하기가 더 쉬워집니다.
 
 # 색상, 글꼴 및 화면 크기를 중앙 집중화하고 싶으신가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SCSS의 장점 중 하나는 색상, 글꼴, 화면 크기 등과 같이 자주 사용하는 값들을 저장할 수 있는 변수를 정의할 수 있다는 것입니다. Tailwind CSS로도 이를 할 수 있습니다. 필요한 것은 단순히 커스텀 값을 Tailwind 구성에서 테마 객체에 추가하는 것 뿐입니다. 아래와 같이 하면 됩니다:
 
@@ -387,7 +550,18 @@ module.exports = {
 </div>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 보시다시피, Tailwind CSS는 변수 사용을 제한하지 않습니다. 실제로 변수를 사용하는 것이 더 편리하고 일관성 있게 만들어줍니다.
 
@@ -402,7 +576,18 @@ SCSS 사용자가 의존하는 기능 중 하나는 mixins입니다. 이는 재�
 </div>
 \
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

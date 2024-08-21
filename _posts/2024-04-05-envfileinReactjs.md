@@ -3,17 +3,13 @@ title: "React JS에서 env 파일 사용 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "env file in React js"
 link: "https://medium.com/@bhairabpatra.iitd/env-file-in-react-js-09d11dc77924"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/envfileinReactjs_0.png" />
 
@@ -24,7 +20,18 @@ React.js 프로젝트에서 .env 파일은 주로 환경 변수를 저장하는 
 - .env 파일 생성: React 프로젝트의 루트 디렉토리에 .env 파일이름으로 파일을 생성합니다. 이 파일은 수동으로 생성하거나 명령줄 도구를 사용하여 생성할 수 있습니다.
 - 환경 변수 정의: .env 파일에서 KEY=VALUE 구문을 사용하여 환경 변수를 정의할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 환경 변수 생성하기
 
@@ -37,7 +44,18 @@ React를 사용할 때는 환경 변수 이름을 REACT*APP*로 접두어를 붙
 
 ## 환경 변수 접근하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 JavaScript 코드에서 process.env를 사용하여 이 환경 변수에 액세스할 수 있습니다.
 
@@ -53,7 +71,18 @@ console.log(`API URL: ${apiUrl}`);
 
 중요: .env 파일을 버전 관리 (예: Git)에 커밋해서는 안 됩니다. 민감한 정보를 보호하려면 .gitignore 파일에 포함시켜 실수로 커밋되지 않도록 해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## .env 파일을 src 폴더 밖에 배치하세요.
 

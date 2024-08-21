@@ -3,17 +3,13 @@ title: "Reactmemo를 사용하여 React 함수형 컴포넌트 성능 최적화�
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Reactmemo  Optimize React Functional Components"
 link: "https://medium.com/@amalhan43/react-memo-optimize-react-functional-components-0e42f91e6579"
 isUpdated: true
 ---
-
-
-
-
 
 ![ReactmemoOptimizeReactFunctionalComponents_0](/assets/img/ReactmemoOptimizeReactFunctionalComponents_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 React.memo는 함수형 컴포넌트의 렌더링 결과를 메모이제이션하는 데 사용할 수 있는 함수입니다. 이 함수는 컴포넌트의 렌더링 출력을 캐싱하고 컴포넌트에 전달된 입력(프롭스)이 변경될 때만 다시 렌더링합니다. 이는 복잡한 컴포넌트나 큰 데이터 세트를 처리할 때 불필요한 다시 렌더링의 수를 크게 줄일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 예시:
 
@@ -40,7 +47,18 @@ export default UserList;
 
 "UserList" 컴포넌트의 렌더링을 최적화하기 위해 React.memo로 래핑할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import React from "react";
@@ -63,7 +81,18 @@ export default UserList;
 
 React.memo는 React의 함수형 컴포넌트의 성능을 최적화하기 위한 강력한 도구입니다. 렌더링 결과를 메모이제이션함으로써 불필요한 재렌더링을 줄이고 응용 프로그램의 전반적인 효율성을 향상시킵니다. 특히 렌더링 프로세스가 비용이 많이 드는 컴포넌트나 props로 대량의 데이터가 전달되는 컴포넌트와 관련된 경우, React.memo를 분별하여 사용하는 것을 기억해 주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 고맙습니다! 끝까지 오신 것을 반가워요.
 

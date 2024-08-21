@@ -3,17 +3,13 @@ title: "자바스크립트로 로그인 폼 유효성 검사하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Create Login Form Validation Using JavaScript"
 link: "https://medium.com/@cwrworksite/create-login-form-validation-using-javascript-9d2295388f16"
 isUpdated: true
 ---
-
-
-
-
 
 안녕, 코더! codewithrandom 블로그에 오신 것을 환영합니다. 이 글에서는 JavaScript를 사용하여 로그인 폼 유효성 검사를 하는 방법을 보여드리겠습니다. 이 블로그를 통해 HTML, CSS, 그리고 JavaScript를 사용하여 간단한 로그인 폼과 유효성 검사를 개발하는 방법에 대한 아이디어를 얻을 수 있을 거예요.
 
@@ -21,7 +17,18 @@ isUpdated: true
 
 로그인 폼 유효성 검사를 이해하고 나서 디자인을 시작해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 자바스크립트를 사용하여 로그인 폼 유효성 검사하는 방법
 
@@ -31,7 +38,18 @@ HTML 폼의 유효성 검사는 사용자의 이메일 주소, 사용자 이름 
 
 # 단계1: 로그인 폼 구조
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <html>
@@ -70,7 +88,18 @@ HTML 폼의 유효성 검사는 사용자의 이메일 주소, 사용자 이름 
 <script src="index.js"></script>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 양식의 구조를 추가할 차례입니다. 우리는 클래스가 있는 div를 생성해야 합니다(login-page), 이것이 우리의 로그인을 위한 주요 컨테이너가 될 것입니다. 이제 양식을 만들기 위해 `form` 태그를 사용해야 합니다. 이제 로그인 양식에 대한 제목을 추가할 것인데, 이때 `h2` 태그를 사용할 겁니다. 로그인 양식은 주로 세 개의 `input` 요소로 이루어져 있습니다: 사용자 이름을 위한 텍스트 필드, 비밀번호를 위한 비밀번호 필드, 그리고 로그인 버튼을 생성하는 'submit' 타입의 버튼입니다.
 
@@ -80,7 +109,18 @@ Output:
 
 <img src="/assets/img/CreateLoginFormValidationUsingJavaScript_1.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계2: 로그인 폼 스타일링하기
 
@@ -172,7 +212,18 @@ span {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹페이지에 기본 스타일링을 추가해봅시다:
 
@@ -193,7 +244,18 @@ body {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/CreateLoginFormValidationUsingJavaScript_2.png)
 
@@ -211,7 +273,18 @@ body {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/CreateLoginFormValidationUsingJavaScript_3.png" />
 
@@ -231,7 +304,18 @@ body {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![CreateLoginFormValidationUsingJavaScript_4.png](/assets/img/CreateLoginFormValidationUsingJavaScript_4.png)
 
@@ -241,7 +325,18 @@ body {
 
 input 태그를 사용하여 입력 필드를 스타일링할 수 있습니다. 배경 색상은 오프화이트입니다. 입력 상자의 너비는 100%로 설정되었습니다. 추가로 input 태그에는 15픽셀의 안쪽 여백과 마진이 지정되었습니다. 입력 영역 사이의 텍스트는 14픽셀의 글꼴 크기를 갖습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 입력란에 포커스가 설정되면 입력란 주위에 상자 그림자가 형성됩니다.
 
@@ -273,7 +368,18 @@ input 태그를 사용하여 입력 필드를 스타일링할 수 있습니다. 
 
 이제 비밀번호 잊음에 대한 버튼과 하이퍼링크를 스타일링할 것입니다. 버튼의 파란 배경을 설정하기 위해 배경 속성을 사용합니다. 버튼의 너비는 100%로 설정됩니다. margin-top 속성을 사용하여 상단 여백을 "10px"로 지정합니다. 글꼴 크기와 글꼴 색상은 15px이며 글꼴 색상은 흰색입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 '비밀번호 재설정' 메시지에 클래스 선택자(.message)를 사용하여 15px의 마진을 줬어요. 텍스트를 가운데 정렬하기 위해 text-align 속성을 사용할 거에요.
 
@@ -314,8 +420,18 @@ input 태그를 사용하여 입력 필드를 스타일링할 수 있습니다. 
 
 <img src="/assets/img/CreateLoginFormValidationUsingJavaScript_5.png" />
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로그인 폼 유효성 검사 JavaScript 사용하기[/caption]
 
@@ -337,7 +453,18 @@ function formvalid() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 폼 유효성 검사 기능을 포함하려면, formvalid라는 함수를 생성할 것입니다. 우리 코드 안에 validpass 변수를 정의할 것이며, document의 getelementById 함수를 사용하여 비밀번호 입력란을 선택할 것입니다.
 
@@ -350,8 +477,7 @@ function show() {
   var x = document.getElementById("pass");
   if (x.type === "password") {
     x.type = "text";
-    document.getElementById("showimg").src =
-      "https://static.thenounproject.com/png/777494-200.png";
+    document.getElementById("showimg").src = "https://static.thenounproject.com/png/777494-200.png";
   } else {
     x.type = "password";
     document.getElementById("showimg").src =
@@ -360,7 +486,18 @@ function show() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 display()라는 절차 안에서 문서를 이용해 비밀번호 입력 설정을 할 것입니다. getElementById()를 이용해서 변수 값이 "password" 문자열과 같은지 조건과 문서를 통해 확인할 것입니다. 우리의 비밀번호 타입 입력의 값은 이미지를 열린 눈으로 변환하는 src 메소드를 사용할 때 텍스트 타입으로 변경될 것입니다. 그 반대로 x.type = password을 설정할 경우 이미지는 닫힌 눈에서 열린 눈으로 전환될 것입니다.
 
@@ -370,7 +507,18 @@ function show() {
 
 만약 이 블로그가 도움이 되었다면 Codewithrandom을 구글에서 검색하여 소스 코드와 함께 프론트 엔드 프로젝트를 찾아보시고, Code with Random 인스타그램 페이지를 팔로우해주시기를 권장드립니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 표를 Markdown 형식으로 변경해주세요.
 
@@ -381,7 +529,18 @@ function show() {
 
 # 이 로그인 폼 유효성 검사에 어떤 코드 편집기를 사용하고 있나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 VS Code Studio를 사용하기를 개인적으로 추천해요. 직관적이고 사용하기 쉬워요.
 
@@ -391,6 +550,17 @@ function show() {
 
 이 프로젝트를 만들기 위해 외부 링크를 사용했나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아니요, 로그인 폼 유효성 검사에 순수 JavaScript 코드를 사용합니다.

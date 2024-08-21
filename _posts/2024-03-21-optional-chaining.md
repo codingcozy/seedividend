@@ -3,25 +3,30 @@ title: "알아두면 유용한 optional chaining 과 nullish coalescing"
 description: "javascript  ,  문법에 대해서 알아보는 글입니다"
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
 
-
-
-
-
 # 알아두면 유용한 optional chaining 과 nullish coalescing
 
 optional chaining(`?.`), nullish coalescing(`??`)를 이용해 변수에 따른 조건 분기 처리를 하는 여러 방법에 대해서 정리해 보려고 합니다.
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1. optional chaining(`?.`)
 
@@ -76,9 +81,18 @@ export const ImageListView = ({imageList} :  ImageListViewProps)  => {
 }
 ```
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위와 같이 작성했을 때는 imageList가 존재하지 않을 때 `<></>` Fragment 요소를 불필요하게 false 조건에 사용해 주어야 하는데요.
 
@@ -139,9 +153,18 @@ image가 존재할 때만 image의 width, height를 사용하는 형태로 작�
 같은 의미에서 만약 아래와 같이 imageList가 nullable한 값이 아니라면
 imageList에도 optional chaining이 필요하지 않게 됩니다.
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```jsx
 {...중략}
@@ -201,9 +224,18 @@ image의 width, height가 없을 경우에 기본 이미지 사이즈를 지정�
 
 0이란 값이 들어왔을 때 0을 그대로 사용하고 싶다면 아래와 같이 조건이 하나 더 추가되어야 합니다.
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```jsx
 {...중략}
@@ -276,9 +308,18 @@ export const ImageListView = ({imageList} :  ImageListViewProps)  => {
 }
 ```
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위와 같이 작성하면 image의 width, height 값이 null 혹은 undefined이 들어왔을 때만 기본 사이즈인 200x200의 이미지를 만들 수 있게 됩니다.
 

@@ -3,17 +3,13 @@ title: "Nextjs 14에서 PWA와 함께 오프라인 페이지 만드는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Nextjs 14 Offline Page with PWA"
 link: "https://medium.com/@mertenercan/nextjs-14-offline-page-with-pwa-6868c02bfefb"
 isUpdated: true
 ---
-
-
-
-
 
 흥미진진한 업데이트 시간이에요! 이번 세션에서는 인터넷에 연결되지 않은 상태에서 앱을 사용하는 사용자들이 보는 '오프라인' 페이지를 사용자 정의하는 방법을 살펴볼 거예요. 브라우저가 제공하는 기본 오프라인 페이지에 의존하는 대신, next-pwa라는 패키지의 기능을 활용할 거예요. 이 튜토리얼의 독특한 점은 해당 패키지를 구현하는 것뿐만 아니라 이 패키지의 하부 작동 메커니즘을 자세하게 살펴보면서 보다 심층적인 이해를 얻을 거라는 거에요. 그러니 더 이상 말이 필요 없죠, 이 프로세스의 복잡성에 뛰어들어 봅시다!
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 PWA는 "Progressive Web App"의 약자에요. PWA는 HTML, CSS, JavaScript 등의 일반적인 웹 기술을 사용하여 만들어진 소프트웨어 응용 프로그램 유형이에요. PWA의 주요 기능은 오프라인 작업, 푸시 알림 및 네이티브 앱처럼 사용자의 장치에 설치될 수 있는 능력을 포함하고 있어요. PWA는 다양한 장치와 네트워크 환경에서 원활하고 매력적인 사용자 경험을 제공하기 위한 목표를 가지고 있어요. 자세한 정보를 보시려면 여기를 확인해 주세요: Progressive Web Apps
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 다음 PWA
 
@@ -33,7 +40,18 @@ PWA는 "Progressive Web App"의 약자에요. PWA는 HTML, CSS, JavaScript 등�
 
 먼저, 패키지를 설치해보겠습니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm i @ducanh2912/next-pwa
@@ -72,7 +90,18 @@ public 폴더 아래에 manifest.json 파일을 생성해야 해요. 이 manifes
 
 이것이 manifest.json 파일이어야 하는 예시에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 후에 오프라인 페이지 설정을 위해 먼저 라우트를 생성해야 해요.
 앱 라우터에 "offline" 폴더를 만들었어요. 이렇게 생겼어요:
@@ -115,7 +144,18 @@ const nextConfig = {
 module.exports = withPWA(nextConfig);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그게 전부에요. 개발 서버 상태에서는 동작하지 않을 수 있으니, npm run build를 실행한 뒤에 npm run start를 시도해보세요.
 
@@ -123,7 +163,18 @@ module.exports = withPWA(nextConfig);
 
 # 어떻게 테스트하나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/Nextjs14OfflinePagewithPWA_1.png" />
 
@@ -133,7 +184,18 @@ module.exports = withPWA(nextConfig);
 
 이 글에서 다룬 예제 NextJS 앱이 여기 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 라이브 링크: 🔗 https://next-pwa-offline-gamma.vercel.app/
 저장소 링크: 🔗 https://github.com/mertthesamael/next-pwa-offline/tree/master

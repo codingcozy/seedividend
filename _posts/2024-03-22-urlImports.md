@@ -3,17 +3,13 @@ title: "Nextjs 13 urlImports 사용 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # urlImports
 
@@ -23,7 +19,18 @@ URL imports는 실험적인 기능으로, 외부 서버에서 모듈을 직접 �
 
 참여하려면 다음의 허용된 URL 접두사를 next.config.js 안에 추가하십시오:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 module.exports = {
@@ -41,7 +48,18 @@ import { a, b, c } from "https://example.com/assets/some/module.js";
 
 URL Imports는 일반적인 패키지 가져오기가 가능한 곳이라면 어디에서든 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 보안 모델
 
@@ -51,7 +69,18 @@ URL Imports는 일반적인 패키지 가져오기가 가능한 곳이라면 어
 
 URL 가져오기를 사용할 때, Next.js는 lockfile과 가져온 에셋이 포함된 next.lock 디렉토리를 생성합니다. 이 디렉토리는 .gitignore에 무시되지 않고 Git에 커밋되어야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Next.js에서 next dev를 실행하면 새로 발견된 모든 URL Imports이 lockfile에 추가되는 동시에 다운로드됩니다.
 - Next.js에서 next build를 실행하면 애플리케이션을 프로덕션용으로 빌드할 때 lockfile만 사용됩니다.
@@ -62,7 +91,18 @@ URL 가져오기를 사용할 때, Next.js는 lockfile과 가져온 에셋이 �
 
 ### Skypack
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import confetti from "https://cdn.skypack.dev/canvas-confetti";
@@ -91,7 +131,18 @@ export default () => (
 
 ### CSS에서의 URL
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .className {
@@ -109,4 +160,15 @@ console.log(logo.pathname);
 // 출력: "/_next/static/media/file.a9727b5d.txt"
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

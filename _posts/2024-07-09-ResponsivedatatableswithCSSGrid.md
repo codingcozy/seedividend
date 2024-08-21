@@ -3,15 +3,13 @@ title: "CSS Grid로 반응형 데이터 테이블 쉽게 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-ResponsivedatatableswithCSSGrid_0.png"
 date: 2024-07-09 17:59
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-ResponsivedatatableswithCSSGrid_0.png
 tag: Tech
 originalTitle: "Responsive data tables with CSS Grid"
 link: "https://medium.com/evodeck/responsive-data-tables-with-css-grid-3c58ecf04723"
 isUpdated: true
 ---
-
-
 
 ![CSS Grid](https://miro.medium.com/v2/resize:fit:1400/1*jTLeBdCKKscV-GR2nVSy2w.gif)
 
@@ -21,7 +19,18 @@ Grid Layout은 새로운 CSS 기능으로, 열과 행의 시스템을 사용하�
 
 Wes Bos의 멋진 강좌에서 CSS Grid에 대한 팬이 되었습니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Evodeck에서 일한 프로젝트 중 하나에서 Grid Layout을 사용하여 데이터 테이블을 구현할 기회를 보았고 시도해 보기로 결정했습니다. 개발 프로세스와 애플리케이션의 진행에 큰 영향을 미치지 않는 방식으로 롤백하거나 다른 요소로 변경할 수 있도록 작은 것을 선택했어요.
 
@@ -31,7 +40,18 @@ Evodeck에서 일한 프로젝트 중 하나에서 Grid Layout을 사용하여 �
 
 이 테이블에는 몇 줄의 CSS 코드가 있는지 알아 맞춰 보세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-09-ResponsivedatatableswithCSSGrid_1.png)
 
@@ -41,7 +61,18 @@ Evodeck에서 일한 프로젝트 중 하나에서 Grid Layout을 사용하여 �
 
 좋아요, 이 신비한 표현 "1 fr"은 요소가 가용 공간의 1분의 1을 차지할 것이라는 뜻이에요! 이를 통해 우리는 필요한 만큼 많은 공간을 갖는 열을 생성하고 고정 너비로 작업할 필요가 없어지게 해줘요! 😮
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 각 열의 너비를 다르게 설정하려면 다음과 같이 지정하면 됩니다:
 
@@ -53,7 +84,18 @@ Evodeck에서 일한 프로젝트 중 하나에서 Grid Layout을 사용하여 �
 - "Full Name" 및 "Email" 열은 사용 가능한 공간의 3 분수를 차지해야 합니다.
 - "Country" 및 "Created at" 열은 사용 가능한 공간의 2 분수를 차지해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결과는:
 
@@ -63,7 +105,18 @@ Evodeck에서 일한 프로젝트 중 하나에서 Grid Layout을 사용하여 �
 
 ![image](/assets/img/2024-07-09-ResponsivedatatableswithCSSGrid_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 마지막 결과물은 아래와 같습니다:
 
@@ -73,7 +126,18 @@ Evodeck에서 일한 프로젝트 중 하나에서 Grid Layout을 사용하여 �
 
 CSS Grid의 가장 일반적인 사용 방법은 grid-template-areas를 사용하여 레이아웃을 구축하는 것이지만, 테이블에도 매우 유용하다고 생각해요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단히 말해서, CSS Grid을 사용하면 매우 유용하고 쉽게 작업할 수 있다고 발견했어요. 제 의견으로는, 이 기술은 미래를 향해 나아갈 것이며 커뮤니티에서 매우 잘 받아들여질 것이에요!
 
@@ -83,7 +147,18 @@ CSS Grid의 가장 일반적인 사용 방법은 grid-template-areas를 사용�
 
 제가 유용하다고 생각하는 여러 리소스를 공유하고 싶습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - CSS-TRICKS의 Grid에 대한 완벽한 가이드
 - MDN 웹 문서의 CSS Grid 레이아웃 참조

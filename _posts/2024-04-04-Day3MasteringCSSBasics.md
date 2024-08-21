@@ -3,17 +3,13 @@ title: "CSS 기초 이 글 하나로 마스터하기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Day 3 Mastering CSS Basics"
 link: "https://medium.com/@CEO-Buddy578/day-3-mastering-css-basics-2c3a4c803f44"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/Day3MasteringCSSBasics_0.png)
 
@@ -24,7 +20,18 @@ isUpdated: true
 
 ## 선택자:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 셀렉터는 특정 HTML 요소를 스타일링하는 데 사용됩니다.
 - 일반적인 셀렉터에는 엘리먼트 셀렉터 (예: p, h1, div), 클래스 셀렉터 (예: .classname), ID 셀렉터 (예: #idname) 및 하위 셀렉터 (예: 부모 자식)가 포함됩니다.
@@ -37,7 +44,18 @@ isUpdated: true
 
 # 박스 모델:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - CSS에서 레이아웃 및 위치 지정에 중요한 상자 모델을 이해하는 것이 중요합니다.
 - 상자 모델은 콘텐츠, 안쪽 여백, 테두리 및 바깥쪽 여백으로 구성됩니다.
@@ -51,7 +69,18 @@ isUpdated: true
 
 # 반응형 디자인:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 다양한 기기가 증가함에 따라 다양한 화면 크기에 적응하는 반응형 레이아웃을 만드는 것이 중요합니다.
 - CSS 미디어 쿼리를 활용하여 화면 너비, 높이 또는 기기 방향에 따라 특정 스타일을 적용할 수 있습니다.
@@ -63,7 +92,18 @@ isUpdated: true
 
 ## 연습과 실험:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 다양한 레이아웃과 스타일을 만들어보며 CSS 개념을 강화하세요.
 - 웹 요소에 미치는 효과를 발견하기 위해 CSS 속성과 값에 실험해보세요.

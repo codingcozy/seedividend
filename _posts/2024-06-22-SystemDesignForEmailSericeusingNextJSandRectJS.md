@@ -3,16 +3,13 @@ title: "NextJS와 ReactJS를 사용한 이메일 서비스 시스템 디자인 �
 description: ""
 coverImage: "/assets/img/2024-06-22-SystemDesignForEmailSericeusingNextJSandRectJS_0.png"
 date: 2024-06-22 02:06
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-SystemDesignForEmailSericeusingNextJSandRectJS_0.png
 tag: Tech
 originalTitle: "System Design For Email Serice using NextJS and RectJS"
 link: "https://medium.com/@yuvrajgawade/system-design-for-email-serice-using-nextjs-and-rectjs-ab9805127a5e"
 isUpdated: true
 ---
-
-
-
 
 # 소개
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-22-SystemDesignForEmailSericeusingNextJSandRectJS_0.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 성공을 향한 5단계 :)
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 # 왜 React 이메일을 사용해야 할까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - React Email은 React를 이미 알고 있는 개발자들에게 학습 곡선이 쉽고 즉시 이메일을 구축할 수 있는 기회를 제공합니다. React에서의 많은 개념들이 React Email로 이어지며, 컴포넌트와 프롭스와 같이 쉽게 전환할 수 있습니다.
 - TypeScript를 이용한 유형 안정성: React Email은 코드에 정적 유형을 추가하기 위해 TypeScript를 함께 제공합니다. 이는 개발 초기에 오류를 더 빨리 발견하고 보다 견고한 코드를 작성하는 데 도움이 됩니다.
@@ -46,7 +65,18 @@ React Email을 사용하여 이메일 템플릿용 재사용 가능한 컴포넌
 
 ![image](/assets/img/2024-06-22-SystemDesignForEmailSericeusingNextJSandRectJS_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # HTML로 변환하기
 
@@ -56,8 +86,18 @@ React Email을 사용하여 이메일 템플릿용 재사용 가능한 컴포넌
 
 # NextJS API를 사용하여 이메일 템플릿 HTML 생성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-22-SystemDesignForEmailSericeusingNextJSandRectJS_3.png)
 

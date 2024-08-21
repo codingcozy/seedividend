@@ -3,17 +3,13 @@ title: "Nextjs Zustand, Text content does not match server-rendered HTML 에러 
 description: "Nextjs와 Zustand를 사용할 때 발생하는 에러 해결방법에 대해서 공유합니다"
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # Nextjs + Zustand, "Text content does not match server-rendered HTML." 에러 해결 방법 (React Hydration Error)
 
@@ -22,9 +18,18 @@ Nextjs와 Zustand를 같이 사용할 때 아래와 같은 에러가 발생할 �
 
 ![1](/assets/img/2024-03-21-zustand-react-hydration-error-1.png)
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1. Persist 제거
 
@@ -62,9 +67,18 @@ export default useCountStore;
 
 위 코드에서 persist를 제거해주면 "Text content does not match server-rendered HTML." 에러가 더이상 발생하지 않는 것을 보실 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```tsx
 import React from "react";

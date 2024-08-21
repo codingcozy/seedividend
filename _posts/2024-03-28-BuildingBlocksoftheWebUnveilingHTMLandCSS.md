@@ -3,17 +3,13 @@ title: "좋은 웹 사이트를 만들기 위해 알아야하는 HTML과 CSS 팁
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Building Blocks of the Web Unveiling HTML and CSS"
 link: "https://medium.com/@moncef.marzouqiwere/building-blocks-of-the-web-unveiling-html-and-css-741f3194ac76"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/BuildingBlocksoftheWebUnveilingHTMLandCSS_0.png" />
 
@@ -23,7 +19,18 @@ HTML: 그 구조
 
 웹사이트를 집으로 상상해보세요. HTML 또는 하이퍼텍스트 마크업 언어는 블루프린트처럼 작동합니다. 이는 웹페이지의 구조와 콘텐츠를 정의하여 제목, 단락, 이미지 및 링크와 같은 기본 구성 요소를 제공합니다. HTML 태그를 사용하여 개발자는 웹사이트 정보에 대한 계층 구조와 조직을 만들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음과 같이 생각해보세요:
 
@@ -36,7 +43,18 @@ HTML: 그 구조
 
 CSS: 세련된 외관
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 웹페이지에 약간의 멋을 더해 봅시다! CSS, 또는 Cascading Style Sheets,는 빈 HTML 구조를 가져다 살려주는 스타일러입니다. 이것은 웹페이지의 시각적 표현을 제어하며 아래와 같은 측면을 다룹니다:
 
@@ -50,7 +68,18 @@ CSS: 세련된 외관
 - 문서에 특정 색상 체계를 선택하는 것도 CSS입니다!
 - 텍스트와 이미지를 사용하여 잡지 레이아웃을 배열하는 것은 모두 CSS로 가능합니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 함께: 다이내믹한 듀오
 

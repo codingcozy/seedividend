@@ -3,16 +3,13 @@ title: "Django 배우기 전에 꼭 마스터 해야 할 필수 Python 주제"
 description: ""
 coverImage: "/assets/img/2024-06-22-EssentialPythonTopicstoMasterBeforeLearningDjango_0.png"
 date: 2024-06-22 02:47
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-EssentialPythonTopicstoMasterBeforeLearningDjango_0.png
 tag: Tech
 originalTitle: "Essential Python Topics to Master Before Learning Django"
 link: "https://medium.com/@kingrayhan/essential-python-topics-to-master-before-learning-django-e56e6233d162"
 isUpdated: true
 ---
-
-
-
 
 Django는 빠른 속도로 안전하고 유지보수가 쉬운 웹 사이트를 개발할 수 있도록 하는 Python의 강력하고 인기 있는 웹 프레임워크입니다. 그러나 Django를 최대한 활용하려면 Python에 튼튼한 기반을 갖추는 것이 중요합니다. 이 블로그 포스트는 Django에 뛰어들기 전에 반드시 숙달해야 할 주요 Python 주제를 안내해 드릴 것입니다.
 
@@ -22,7 +19,18 @@ Django는 빠른 속도로 안전하고 유지보수가 쉬운 웹 사이트를 
 
 Python의 구문과 의미론을 이해하는 것이 첫걸음입니다. Python은 코드 블록을 정의하는 데 들여쓰기를 사용합니다. 이를 숙달함으로써 일반적인 함정을 피하고 코드를 더 읽기 쉽게 만들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 들여쓰기: Python은 코드 블록을 정의하는 데 들여쓰기를 활용합니다.
 - 주석: 한 줄 주석은 #을 사용하고 여러 줄 주석은 삼중 따옴표를 활용합니다.
@@ -34,21 +42,43 @@ Python의 구문과 의미론을 이해하는 것이 첫걸음입니다. Python�
 - 데이터 유형: 정수, 부동 소수점 수, 문자열, 부울린.
 - 컬렉션: 리스트, 튜플, 세트, 사전.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 3. 연산자
 
 연산자는 변수와 값에 대한 작업을 수행하는 데 사용되는 기본 요소입니다.
 
-- 산술 연산자: +, -, *, / 등
+- 산술 연산자: +, -, \*, / 등
 - 비교 연산자: ==, !=, `, ` 등
 - 논리 연산자: and, or, not
 - 할당 연산자: =, +=, -= 등
-- 비트 연산자: &, |, ^, ~, ``, ``
+- 비트 연산자: &, |, ^, ~, `, `
 
 ## 4. 제어 흐름
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로그램의 흐름을 조절하기 위해 제어 흐름 문장을 사용합니다.
 
@@ -60,7 +90,18 @@ Python의 구문과 의미론을 이해하는 것이 첫걸음입니다. Python�
 
 ## 5. 함수
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 함수는 특정 작업을 수행하는 재사용 가능한 코드 조각입니다.
 
@@ -73,7 +114,18 @@ Python의 구문과 의미론을 이해하는 것이 첫걸음입니다. Python�
 
 모듈과 패키지를 사용하여 코드를 모듈화하면 관리하기 쉬워집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 모듈 가져오기: import 문.
 - 패키지 생성 및 사용: 모듈을 디렉토리에 구성하세요.
@@ -86,7 +138,18 @@ Python의 구문과 의미론을 이해하는 것이 첫걸음입니다. Python�
 - 파일 읽고 쓰기: open(), read(), write(), close().
 - 파일 경로: 상대 경로와 절대 경로 이해하기.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 8. 에러 및 예외 처리
 
@@ -97,7 +160,18 @@ Python의 구문과 의미론을 이해하는 것이 첫걸음입니다. Python�
 
 # 고급 Python 개념
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 9. 객체 지향 프로그래밍 (OOP)
 
@@ -108,11 +182,22 @@ OOP는 복잡한 프로그램을 조직화하는 데 도움이 됩니다.
 - 상속: 기존 클래스를 재사용하고 확장합니다.
 - 다형성: 서로 다른 클래스를 교차로 사용할 수 있습니다.
 - 캡슐화: 특정 구성 요소에 대한 접근을 제한합니다.
-- 특별한 메소드: __init__, __str__, 등.
+- 특별한 메소드: **init**, **str**, 등.
 
 ## 10. Comprehensions
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컴프리헨션은 컬렉션을 만드는 간결한 방법을 제공해요.
 
@@ -124,7 +209,18 @@ OOP는 복잡한 프로그램을 조직화하는 데 도움이 됩니다.
 
 데코레이터는 함수나 클래스의 동작을 수정하는 역할을 해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 기능 데코레이터: 다른 함수를 반환하는 함수들입니다.
 - 클래스 데코레이터: 클래스 동작을 수정합니다.
@@ -133,11 +229,22 @@ OOP는 복잡한 프로그램을 조직화하는 데 도움이 됩니다.
 
 이터레이터와 제너레이터는 컬렉션을 간편하게 이터레이션할 수 있게 합니다.
 
-- 이터레이터: __iter__와 __next__ 메소드를 구현합니다.
+- 이터레이터: **iter**와 **next** 메소드를 구현합니다.
 - 제너레이터: 값을 동적으로 생성하기 위해 yield를 사용합니다.
 - 제너레이터 표현식: 리스트 내포와 유사하지만 괄호를 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 추가 유용한 지식
 
@@ -148,7 +255,18 @@ OOP는 복잡한 프로그램을 조직화하는 데 도움이 됩니다.
 - 기본 패턴: 일반적인 정규식 패턴을 배웁니다.
 - re 모듈: Python의 정규식 모듈을 사용하여 패턴 매칭을 수행합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 14. 자료 구조
 
@@ -160,7 +278,18 @@ OOP는 복잡한 프로그램을 조직화하는 데 도움이 됩니다.
 
 ## 15. 동시성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 동시에 여러 작업을 실행하는 것이 동시성에 관한 것이에요.
 
@@ -172,7 +301,18 @@ OOP는 복잡한 프로그램을 조직화하는 데 도움이 됩니다.
 
 ## 16. 가상 환경
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가상 환경을 사용하여 프로젝트 종속성을 격리하세요.
 
@@ -182,7 +322,18 @@ OOP는 복잡한 프로그램을 조직화하는 데 도움이 됩니다.
 
 pip로 프로젝트 종속성을 관리하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 패키지 설치 및 관리: pip를 사용하여 Python 패키지를 설치하고 관리합니다.
 
@@ -193,7 +344,18 @@ Django를 시작할 때 웹 개념에 대한 기본적인 이해가 도움이 �
 - HTTP/HTTPS: 웹 통신의 기본을 이해합니다.
 - REST API: RESTful API 작동 방식을 배웁니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 데이터베이스 작업
 
@@ -205,7 +367,18 @@ Django를 시작할 때 웹 개념에 대한 기본적인 이해가 도움이 �
 - 조인(Join): 여러 테이블에서 행을 결합합니다.
 - 인덱스(Index)와 트랜잭션(Transaction): 데이터베이스 작업을 최적화하고 관리합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 20. ORM (객체 관계 매핑)
 
@@ -216,7 +389,18 @@ ORM은 Django에서 데이터베이스 상호작용을 단순화합니다.
 
 # 학습 자료
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 책
 
@@ -229,7 +413,18 @@ ORM은 Django에서 데이터베이스 상호작용을 단순화합니다.
 - Udemy
 - Codecademy
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 실습 플랫폼
 

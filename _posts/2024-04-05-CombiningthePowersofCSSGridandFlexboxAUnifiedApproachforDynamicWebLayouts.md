@@ -3,17 +3,13 @@ title: "CSS Grid와 Flexbox를 사용해서 동적 웹 레이아웃을 위한 �
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Combining the Powers of CSS Grid and Flexbox A Unified Approach for Dynamic Web Layouts"
 link: "https://medium.com/@asierr/combining-the-powers-of-css-grid-and-flexbox-a-unified-approach-for-dynamic-web-layouts-bd2f7b470f5f"
 isUpdated: true
 ---
-
-
-
-
 
 세로와 가로의 레이아웃을 만들 때 CSS Grid와 Flexbox는 뛰어난 도구입니다. CSS Grid는 2차원 레이아웃을 만들기 위한 강력한 프레임워크를 제공하는 반면, Flexbox는 1차원 공간 내에서 콘텐츠를 정렬하는 데 능숙합니다. 이 기사는 이 두 가지 기술을 결합하여 각각의 장점을 활용하여 복잡하고 반응형 웹 디자인을 만드는 방법을 보여줍니다. “CSS Flexbox를 활용한 유연한 레이아웃 만들기: 포괄적 가이드”와 “CSS Grid를 활용한 웹 레이아웃 기법 마스터하기”를 토대로, Grid와 Flexbox를 함께 사용하여 레이아웃 유연성과 사용성을 향상하는 구체적인 시나리오를 살펴보겠습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 CSS Grid의 행과 열을 관리하는 능력은 전체 페이지 구조를 설정하는 데 이상적입니다. Flexbox는 공간을 분배하고 항목을 하나의 축을 따라 정렬하는 능력 때문에 Grid 내 셀 내용을 효율적으로 관리하는 데 용이합니다. 이러한 기술을 통합함으로써 개발자들은 과거에 어려웠던 디자인 정밀도와 반응성을 달성할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 미디어 라이브러리 예제를 확장해 보겠습니다. CSS Grid와 Flexbox를 어떻게 조합하여 더 복잡한 레이아웃 요구 사항을 처리할 수 있는지 자세히 살펴보겠습니다. 이 방식을 통해 미디어 라이브러리가 미적으로 매력적이며 다양한 콘텐츠 크기와 화면 크기에 적응하여 기능적으로 강력해집니다.
 
@@ -33,7 +40,18 @@ CSS Grid의 행과 열을 관리하는 능력은 전체 페이지 구조를 설�
 
 ## 단계 1: 그리드 레이아웃 향상하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 화면 크기에 따라 조정되는 복잡한 그리드 레이아웃을 정의하여 앨범이 모바일 장치와 데스크톱에서 사용자 친화적으로 표시되도록 할 것입니다.
 
@@ -59,7 +77,18 @@ CSS Grid의 행과 열을 관리하는 능력은 전체 페이지 구조를 설�
 
 각 앨범 안에는 작품, 곡 목록, 그리고 세부 정보를 명확하고 매력적인 방식으로 구성하기 위해 Flexbox 레이아웃을 구현할 것입니다. 또한 미디어 쿼리를 추가하여 다양한 화면 크기에 맞게 레이아웃을 조정할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <div class="album">
@@ -109,7 +138,18 @@ CSS Grid의 행과 열을 관리하는 능력은 전체 페이지 구조를 설�
 
 모든 장치에서 멋지게 보이도록 하기 위해 미디어 쿼리를 사용하여 각 앨범 내의 Flexbox 레이아웃을 조정하여 더 작은 화면에서 노래 목록과 세부 사항에 더 쉽게 액세스할 수 있도록 조정합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 @media (max-width: 600px) {
@@ -134,7 +174,18 @@ CSS Grid의 행과 열을 관리하는 능력은 전체 페이지 구조를 설�
 
 # 통합을 위한 모범 사례
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 전체 페이지 레이아웃에 CSS Grid를 사용하세요. 주요 섹션과 열도 포함됩니다.
 - 동적이거나 알 수 없는 크기를 다룰 때는 Flexbox를 사용하세요.

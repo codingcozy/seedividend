@@ -3,17 +3,13 @@ title: "리액트와 Material-UI로 배경 애니메이션을 만들어보기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Unleashing the Power of React and Material-UI for Mesmerizing Background Animations Part-3"
 link: "https://medium.com/@yogeshmulecraft/unleashing-the-power-of-react-and-material-ui-for-mesmerizing-background-animations-part-3-11781950aac5"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/UnleashingthePowerofReactandMaterial-UIforMesmerizingBackgroundAnimationsPart-3_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 그래디언트 색상 전환으로 아름다움 끌어올리기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 개념:
 
@@ -46,7 +53,18 @@ export const varColor2x = {
 
 # 켄 번스 효과로 동적 비주얼 생성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Concept:
 
@@ -71,7 +89,18 @@ export const varKenburnsTop = {
 
 # 그라디언트 배경 팬으로 매료되는 푸터
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 개념:
 
@@ -83,8 +112,7 @@ const TRANSITION = {
   duration: 4,
   ease: "linear",
 };
-const gradient = (deg) =>
-  `linear-gradient(${deg}deg, #ee7752, #e73c7e, #23a6d5, #23d5ab)`;
+const gradient = (deg) => `linear-gradient(${deg}deg, #ee7752, #e73c7e, #23a6d5, #23d5ab)`;
 export const varPanTop = {
   animate: {
     backgroundImage: [gradient(0), gradient(0)],
@@ -98,7 +126,18 @@ export const varPanTop = {
 
 # React 애플리케이션에서 구현
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시작하기: React 앱 설정하기
 
@@ -110,7 +149,18 @@ export const varPanTop = {
 npx create-react-app my-background-app
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 cd my-background-app
@@ -124,7 +174,18 @@ Material-UI 라이브러리를 React 앱에 통합하세요:
 npm install @mui/material @emotion/react @emotion/styled
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 3: 컴포넌트 폴더 생성
 
@@ -134,7 +195,18 @@ src 폴더 내에 components라는 새 폴더를 만듭니다.
 
 components 폴더 안에 BackgroundAnimation.js라는 새 파일을 만듭니다. 제공된 배경 애니메이션 코드를 이 파일에 복사하여 붙여넣기합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // BackgroundAnimation.js
@@ -175,7 +247,18 @@ export default BackgroundAnimation;
 
 # 단계 5: BackgroundAnimation을 App.js에 통합하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래의 코드로 src/App.js 파일의 내용을 교체해주세요:
 
@@ -206,7 +289,18 @@ export default App;
 
 설정이 완료되면 React 앱을 실행해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm start
@@ -218,7 +312,18 @@ npm start
 
 # 결론: 몰입형 경험 제작하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React와 Material-UI에서 배경 애니메이션을 탐험하는 것으로 마무리하며, 이러한 애니메이션 기술을 활용하면 웹 응용 프로그램의 미적 요소와 사용자 참여도를 높일 수 있다는 것이 분명합니다. 부드러운 그래디언트 색상 전환, 다이내믹한 Ken Burns 효과 또는 매료되는 배경 팬 등, 몰입형 경험을 만들어낼 수 있는 가능성은 무한합니다.
 

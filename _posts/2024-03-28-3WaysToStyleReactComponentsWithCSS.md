@@ -3,17 +3,13 @@ title: "React 컴포넌트에 CSS 스타일링하는 3가지 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "3 Ways To Style React Components With CSS"
 link: "https://medium.com/towardsdev/3-ways-to-style-react-components-with-css-7411c23c1cbe"
 isUpdated: true
 ---
-
-
-
-
 
 ![React 컴포넌트에 CSS를 적용하는 3가지 방법](/assets/img/3WaysToStyleReactComponentsWithCSS_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 React 컴포넌트를 스타일링하는 이 방법은 프로젝트 전체에 전역 스타일을 적용하는 데 사용됩니다. 설정 방법은 index.html 파일을 스타일링하는 평소 방법과 상당히 유사합니다. 전역 CSS 파일을 만들어서 그 안에 모든 CSS 스타일을 작성합니다. 그런 다음 index.html 파일의 head 태그 내에서 전통적인 방식을 사용할 겁니다.—
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <link rel="stylesheet" href="./index.css" />
@@ -63,7 +70,18 @@ export default Header;
  }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 방법을 사용하면 모든 CSS 스타일을 하나의 파일에 쉽게 작성할 수 있으며 모든 React 구성 요소에 적용할 수 있습니다. 이 방법은 CSS를 많이 작성하지 않을 작은 프로젝트에 유용합니다. 그러나 많은 구성 요소가 있는 대규모 프로젝트에는 적합하지 않습니다. 왜냐하면 CSS 파일을 유지하는 것이 어렵고 클래스 네이밍으로 시작하고 싶지 않을 겁니다 🤧.
 
@@ -75,7 +93,18 @@ export default Header;
 import styles from "./Header.module.css";
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼 컴포넌트 함수 내 각 구성 요소에 스타일을 적용하려면 클래스 이름을 “styles.className”으로 바꿔야 합니다. 예를 들어
 
@@ -101,7 +130,18 @@ export default Header;
 
 # 인라인 CSS
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 작은 구성 요소에 최소한의 스타일이 적용된 것으로, "좋아요 👍 버튼"과 같은 것에 사용됩니다. 물론 이 내용으로부터 어떤 것을 얻고 있다면 많은 박수 👏👏를 주시면 고맙겠습니다 😏.
 
@@ -123,7 +163,18 @@ export default Button;
 
 이 방법은 버튼과 같은 작은 구성 요소에 유용합니다. CSS에서의 이름 충돌을 방지하는 데 도움이 됩니다. 그러나 큰 구성 요소에는 이 방법을 사용하는 것이 권장되지 않습니다. 코드 가독성이 저하될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제목: React Js 컴포넌트를 CSS로 스타일링하는 3가지 방법
 

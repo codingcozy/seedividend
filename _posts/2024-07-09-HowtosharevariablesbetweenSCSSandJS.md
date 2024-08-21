@@ -3,7 +3,7 @@ title: "SCSS와 JS 사이에 변수를 공유하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-HowtosharevariablesbetweenSCSSandJS_0.png"
 date: 2024-07-09 18:17
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-HowtosharevariablesbetweenSCSSandJS_0.png
 tag: Tech
 originalTitle: "How to share variables between SCSS and JS"
@@ -11,15 +11,24 @@ link: "https://medium.com/@miroslav_petrov/how-to-share-variables-between-scss-a
 isUpdated: true
 ---
 
-
-
 어플리케이션 스타일의 일관성을 강화하고 SCSS와 JavaScript 간 변수를 공유하여 코드를 보다 효율적으로 관리할 수 있습니다. JS 코드에서 이러한 변수에 손쉽게 접근할 수 있으면서도 수동 개입 없이 사용할 수 있게 하고 싶으신가요? 컬러 예시를 통해 단계별로 알아보겠습니다.
 
 우선, colors.module.scss 파일에 컬러를 담은 SCSS 맵을 생성하세요. 이 파일이 진리의 원천이 됩니다. 맵에서 컬러 값을 가져오는 보조 함수를 구현하고, :export 지시어를 통해 @each 규칙을 사용하여 이러한 변수들을 루프를 통해 내보내세요.
 
 index.scss 파일에서 다음과 같이 CSS 사용자 지정 속성으로 컬러를 포함하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // index.scss
@@ -62,7 +71,18 @@ export const Colors = colors as Colors;
 
 이제 React 컴포넌트에서 이 사전을 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // Card.tsx

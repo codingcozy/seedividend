@@ -3,17 +3,13 @@ title: "Nextjs 13 - src 디렉토리 특징 정리"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "src 디렉토리"
 link: "undefined"
 isUpdated: true
 ---
-
-
-
-
 
 # src 디렉토리
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 src 디렉토리를 사용하려면, 앱 라우터 폴더를 src/app로 또는 페이지 라우터 폴더를 src/pages로 이동시키세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/src-Directory_0.png" />
 
@@ -37,4 +44,15 @@ src 디렉토리를 사용하려면, 앱 라우터 폴더를 src/app로 또는 �
 > Tailwind CSS를 사용하는 경우 tailwind.config.js 파일의 내용 섹션에 /src 접두사를 추가해야 합니다.
 > TypeScript 경로를 사용하여 @/*와 같은 import를 하는 경우, tsconfig.json의 paths 오브젝트를 src/를 포함하도록 업데이트해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

@@ -3,16 +3,13 @@ title: "React Query 활용법 데이터 페칭 최강자 되기"
 description: ""
 coverImage: "/assets/img/2024-06-27-LeveragingReactQueryAData-FetchingPowerhouse_0.png"
 date: 2024-06-27 18:20
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-27-LeveragingReactQueryAData-FetchingPowerhouse_0.png
 tag: Tech
 originalTitle: "Leveraging React Query: A Data-Fetching Powerhouse"
 link: "https://medium.com/@ravsrvamsikrishna/leveraging-react-query-a-data-fetching-powerhouse-21850a482c86"
 isUpdated: true
 ---
-
-
-
 
 React 어플리케이션을 더 빠르게 만들어주는 캐싱이 어떻게 변화를 주는지 궁금했던 적이 있나요? 이 블로그에서 React Query가 캐싱을 활용하여 데이터 가져오기와 관리를 간편하게 하는 방법을 탐구하고 있습니다. 뿐만 아니라 효율적인 캐싱을 위한 다양한 방법들을 살펴볼 예정이에요. 게다가, 낙관적 업데이트의 힘도 발견해 볼 거예요. 이것은 거의 사용되지 않는 주요 최적화 기술이랍니다.
 
@@ -24,7 +21,18 @@ react query를 사용하여 API 호출하는 간단한 예제를 살펴보겠습
 
 ![이미지](/assets/img/2024-06-27-LeveragingReactQueryAData-FetchingPowerhouse_0.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 API 호출 후 받은 응답은 데이터에 저장되고 키를 'user'로하여 캐싱됩니다.
 
@@ -35,7 +43,18 @@ QueryClient — 인스턴스를 생성할 때 생성되는 queryCache 및 mutati
 
 QueryCache — 모든 가져온 데이터와 쿼리 세부 정보를 저장하는 중앙 메모리입니다. 고유한 키를 사용하여 특정 데이터를 찾고 결과를 캐싱하고 앱 전반에 걸쳐 데이터를 일관되게 관리하여 성능을 향상시킵니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 MutationCache — React Query에서 변이(mutation)는 데이터를 업데이트하는 작업(항목 추가 또는 제거와 같은 작업)을 의미합니다. 이 캐시는 이러한 변이의 결과를 일시적으로 저장하여 서버에서 확인될 때까지 그 결과를 유지합니다.
 
@@ -45,9 +64,20 @@ QueryObservers — 옵저버(observer)는 useQuery를 호출할 때 생성되며
 
 ![이미지](/assets/img/2024-06-27-LeveragingReactQueryAData-FetchingPowerhouse_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-이제 내부 작업을 살펴보겠습니다 - 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+이제 내부 작업을 살펴보겠습니다 -
 구성 요소가 마운트될 때 QueryClient의 인스턴스가 생성되고 QueryClientProvider를 통해 전체 응용 프로그램에 전달되며 (내부적으로 React Context를 사용함) 컨텍스트를 통해 사용됩니다.
 
 query 키와 함께 useQuery를 호출할 때 useQuery는 QueryClient와 상호 작용합니다. QueryClient는 queryKey로 식별된 데이터를 QueryCache에서 확인합니다. 데이터가 존재하고 캐시/풀린 시간을 충족하며 다시 가져오기가 트리거되지 않은 경우:
@@ -57,18 +87,41 @@ query 키와 함께 useQuery를 호출할 때 useQuery는 QueryClient와 상호 
 
 데이터가 캐시에 없거나 신선도 기준을 충족하지 못한 경우:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 쿼리 객체가 생성되고(아직 없는 경우), QueryObserver가 설정되어 Query에 연결됩니다.
 
 두 경우 모두, 데이터가 가져오는 동안 초기로딩 상태를 포함한 객체가 있습니다. useQuery에 제공된 queryFunction은 비동기적으로 트리거되어 새로운 데이터를 가져옵니다. 데이터를 가져오면 QueryCache에 쿼리 키와 함께 저장되고 QueryObserver에 업데이트에 대해 알립니다. 구성요소는 useQuery 훅을 통해 업데이트된 데이터를 받아와 새로운 데이터로 재렌더링이 트리거됩니다.
 
 React Query에서 비동기 작업을 수행하는 방법은 useQuery와 useMutation 두 가지가 있습니다. 이러한 훅을 탐색해 봅시다.
+
 - useQuery: React 구성요소에서 데이터를 가져오기 위해 React Query 내에서 사용되는 사용자 정의 훅입니다. 이 훅은 초기 가져오기 후 데이터 캐싱, 백그라운드에서 데이터 다시 가져오기 등 많은 기능을 관리합니다.
 
 ![LeveragingReactQueryAData-FetchingPowerhouse_2.png](/assets/img/2024-06-27-LeveragingReactQueryAData-FetchingPowerhouse_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 useQuery 훅을 사용하여 구문 및 데이터를 가져오는 방법을 확인해 봅시다.
 세 가지 매개변수가 필요합니다 -
@@ -79,7 +132,18 @@ useQuery 훅을 사용하여 구문 및 데이터를 가져오는 방법을 확�
 
 옵션: CacheTime, staleTime, refetchInterval, refetchOnWindowFocus, retry 등 여러 속성이 포함된 개체입니다. 자세한 내용은 여기를 참조하시기 바랍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 useQuery 훅은 여러 속성을 포함한 객체를 반환합니다:
 
@@ -92,7 +156,18 @@ useQuery 훅은 여러 속성을 포함한 객체를 반환합니다:
 
 # 메모
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 쿼리 키는 적절한 캐싱과 재검색을 보장하기 위해 고유해야 합니다. 내부적으로 배열로 변환되어 키-값 쌍과 유사합니다.
 
@@ -103,7 +178,18 @@ useQuery 훅은 여러 속성을 포함한 객체를 반환합니다:
 
 다른 queryFunctions에 동일한 queryKey를 사용하면 해당 키 아래에 가장 최근 결과가 저장되어 잠재적인 문제를 야기할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 UseMutation은 변경 작업(데이터 수정 작업)을 관리하는 강력한 훅입니다. 이를 통해 백엔드 API로 변이를 보내고 응답을 처리하는 프로세스가 간단해집니다.
 
@@ -115,20 +201,43 @@ mutate는 변이를 시작하는 데 사용되는 함수입니다. 데이터 변
 
 useMutation 및 useQuery를 활용한 예제를 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 낙관적인 업데이트
 
 참고 - 이것은 일반적으로 대부분의 프로젝트에서 객체를 생성할 때 백엔드에서 id가 생성되기 때문에, 패치, 삭제 및 업데이트에 대해서만 작동합니다.
 
 위 예시를 고려해 봅시다. 할 일이 삭제되면 현재 2개의 작업이 발생합니다 -
+
 1. 할 일 ID로 삭제 호출.
 2. 즉시 업데이트된 할 일 목록 보여주기 위해 get 호출.
 
 이전 get API가 호출될 때, 응답과 함께 데이터가 캐시에 저장됩니다.
 우리가 해야 할 일은 캐시를 업데이트하는 것뿐입니다(캐시에서 항목에 기반한 할 일 항목 제거).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트 쿼리는 setQueryData를 사용하여 수동으로 캐시 관리하는 것보다 더 간편한 방법을 제공하여 캐시된 데이터를 업데이트할 수 있습니다. 이 방법을 사용하면 특정 쿼리 키와 연관된 데이터를 직접 수정할 수 있습니다.
 이에 대한 2가지 경우가 있습니다 -
@@ -142,7 +251,18 @@ API 호출 전에 캐시 업데이트
 이 경우, API 호출이 성공할 것으로 가정하고 onMutate 함수를 사용하여 데이터를 업데이트합니다.
 onMutate은 변이가 발생하기 전에 실행됩니다. 따라서 여기서 todoItem을 삭제하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-27-LeveragingReactQueryAData-FetchingPowerhouse_5.png" />
 
@@ -154,6 +274,17 @@ onMutate은 변이가 발생하기 전에 실행됩니다. 따라서 여기서 t
 
 useQuery 및 useMutation 훅의 사용을 탐구하며 각각 데이터 가져오기 및 변이에 대한 역할을 강조했습니다. 게다가 낙관적 업데이트의 중요성을 논의하면서 사용자 경험을 향상시킬 수 있는 방법을 살펴보았습니다. 서버 확인을 기다리는 동안 즉각적인 피드백을 제공함으로써 사용자 경험을 향상시킬 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React Query를 다룬 이번 내용이 유익하고 실용적이었기를 바라요. React 애플리케이션을 최적화하는 더 많은 팁과 기술에 대한 소식을 기대해 주세요. 이 블로그가 유용하다면 공유하고 더 많은 콘텐츠를 구독해 주세요. 즐거운 코딩하세요!

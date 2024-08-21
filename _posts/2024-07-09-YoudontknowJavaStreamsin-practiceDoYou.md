@@ -3,16 +3,13 @@ title: "Java Streams 실전 활용법, 알고 있나요"
 description: ""
 coverImage: "/assets/img/2024-07-09-YoudontknowJavaStreamsin-practiceDoYou_0.png"
 date: 2024-07-09 21:54
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-YoudontknowJavaStreamsin-practiceDoYou_0.png
 tag: Tech
 originalTitle: "You don’t know Java Streams in-practice , Do You?"
 link: "https://medium.com/javarevisited/you-dont-know-java-streams-in-practice-do-you-826e6aebba81"
 isUpdated: true
 ---
-
-
-
 
 ## 오늘 Java Streams를 배워야 하는 이유
 
@@ -22,7 +19,18 @@ Java Streams에 익숙하지 않다면, Java 8 이후부터 소개된 이 강력
 
 처음에 Java Streams를 조금 어색하게 느낄 수 있지만, 이 기사를 통해 시작하는 데 도움이 되도록 만들었습니다. Java Streams를 다루는 데 도움이 될 15가지 코딩 질문을 안내해 드리겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 문서 끝까지 읽으면 기쁜 놀라움이 기다리고 있다는 걸 놓치지 마세요. 추가로 다양한 흥분과 놀라운 발표 소식이 있는 내용을 확인하세요.
 
@@ -34,7 +42,18 @@ Java Streams에 익숙하지 않다면, Java 8 이후부터 소개된 이 강력
 
 만약 Java Streams의 깊은 이해와 실시간 코드 데모를 원하신다면, 2부 영상 시리즈를 확인해보세요. 아래 링크를 클릭해주세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 가장 인기 있는 시스템 디자인 기사 6개:
 
@@ -44,7 +63,18 @@ Java Streams에 익숙하지 않다면, Java 8 이후부터 소개된 이 강력
 
 이제 15개의 스트림 기반 질문 및 코드 조각을 시작해보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1. 정수 목록에서 모든 짝수의 합을 찾으세요.
 
@@ -54,7 +84,18 @@ Java Streams에 익숙하지 않다면, Java 8 이후부터 소개된 이 강력
 
 ![이미지](/assets/img/2024-07-09-YoudontknowJavaStreamsin-practiceDoYou_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 3. 정수 목록을 입력으로 받아 각 요소의 제곱을 포함하는 새 목록을 반환하는 함수를 구현하세요.
 
@@ -64,7 +105,18 @@ Java Streams에 익숙하지 않다면, Java 8 이후부터 소개된 이 강력
 
 ![Image](/assets/img/2024-07-09-YoudontknowJavaStreamsin-practiceDoYou_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 5. 리스트에 있는 모든 문자열을 하나의 문자열로 연결합니다.
 
@@ -74,7 +126,18 @@ Java Streams에 익숙하지 않다면, Java 8 이후부터 소개된 이 강력
 
 ![이미지](/assets/img/2024-07-09-YoudontknowJavaStreamsin-practiceDoYou_5.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 7. 스트림을 사용하여 이중 값 목록의 모든 숫자의 평균을 찾으세요.
 
@@ -84,7 +147,18 @@ Java Streams에 익숙하지 않다면, Java 8 이후부터 소개된 이 강력
 
 ![이미지](/assets/img/2024-07-09-YoudontknowJavaStreamsin-practiceDoYou_7.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 9. 스트림을 사용하여 목록의 모든 요소가 주어진 조건을 만족하는지 확인하세요.
 
@@ -94,7 +168,18 @@ Java Streams에 익숙하지 않다면, Java 8 이후부터 소개된 이 강력
 
 ![이미지](/assets/img/2024-07-09-YoudontknowJavaStreamsin-practiceDoYou_9.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 11. 스트림을 사용하여 목록에서 가장 긴 문자열을 찾기.
 
@@ -104,7 +189,18 @@ Java Streams에 익숙하지 않다면, Java 8 이후부터 소개된 이 강력
 
 ![이미지](/assets/img/2024-07-09-YoudontknowJavaStreamsin-practiceDoYou_11.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 13. 문제 설명: 부서별로 GROUP BY하여 최대 급여 찾기
 
@@ -114,8 +210,18 @@ Java Streams에 익숙하지 않다면, Java 8 이후부터 소개된 이 강력
 
 ## 14. 목록에서 두 번째로 작은 요소 찾기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-09-YoudontknowJavaStreamsin-practiceDoYou_13.png)
 
@@ -125,9 +231,18 @@ Java Streams에 익숙하지 않다면, Java 8 이후부터 소개된 이 강력
 
 이 글을 읽어주셔서 감사합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-07-09-YoudontknowJavaStreamsin-practiceDoYou_15](/assets/img/2024-07-09-YoudontknowJavaStreamsin-practiceDoYou_15.png)
 
@@ -137,8 +252,18 @@ Java Streams에 익숙하지 않다면, Java 8 이후부터 소개된 이 강력
 
 Well, here it is: we’re offering a diverse range of exclusive perks, including premium content, virtual video collaborations, member-only polls, and so much more, as part of our YouTube channel membership.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사의 맥락에서 우리의 독점 비디오는 시스템 디자인의 모든 중요한 측면을 안내할 것입니다. 자바 스레드와 동시성에 대한 일반 면접 질문에 전념한 비디오, 스트림과 같은 자바 API에 대한 더 많은 코딩 질문, Spring Boot 프로젝트를 위한 자세한 계획 및 다양한 프로젝트 아이디어가 포함되어 있습니다. 이 모든 특별 컨텐츠는 오직 여러분을 위한 것입니다.
 
@@ -148,7 +273,18 @@ Well, here it is: we’re offering a diverse range of exclusive perks, including
 
 이 기사의 맥락에서 우리의 독점 비디오는 시스템 디자인의 모든 중요한 측면을 안내하며, 구성 요소에 대해 깊숙이 파고들어 수학 개념에 대한 추가 통찰력을 제공하고 가치 있는 팁을 공유하며 시스템 디자인 기술을 강화할 수 있는 실행 가능한 전략을 제공할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 넌 누구야?
 
@@ -158,7 +294,18 @@ Well, here it is: we’re offering a diverse range of exclusive perks, including
 
 게다가, Java 스레드와 동시성에 대한 일반 인터뷰 질문에 대한 비디오, Spring Boot 프로젝트에 대한 구체적인 계획, 그리고 많은 프로젝트 아이디어에 헌신된 비디오도 있을 것입니다. 이 모든 특별한 컨텐츠는 오직 당신을 위한 것입니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기회를 놓치지 마세요! 우리의 커뮤니티에 가입하고 다른 곳에서 찾을 수 없는 콘텐츠에 액세스하면서 채널을 지원하세요.
 
@@ -169,7 +316,18 @@ Well, here it is: we’re offering a diverse range of exclusive perks, including
 
 오늘은 여기까지입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 이 형식이 도움이 되었다면, 아래 댓글 섹션에서 피드백을 공유해 주세요. 이 스타일의 더 많은 기사를 게시해달라는 요청이 있으면 우리에게 알려주세요.
 
@@ -179,7 +337,18 @@ Well, here it is: we’re offering a diverse range of exclusive perks, including
 
 이를 통해 더 많은 콘텐츠를 제공하는 데 충분한 동기부여를 얻을 수 있습니다. 이 글이 도움이 될 것으로 생각되는 친구에게 공유해 주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 유튜브 채널을 팔로우해 주세요 — Code With Ease — By Varsha. 저희는 Java 및 자료 구조 및 알고리즘 등 다양한 내용을 다루고 있어요.
 

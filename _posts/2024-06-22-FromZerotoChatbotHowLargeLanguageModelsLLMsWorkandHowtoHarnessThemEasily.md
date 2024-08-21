@@ -3,16 +3,13 @@ title: "제로부터 챗봇까지 대형 언어 모델LLMs의 동작 원리 및 
 description: ""
 coverImage: "/assets/img/2024-06-22-FromZerotoChatbotHowLargeLanguageModelsLLMsWorkandHowtoHarnessThemEasily_0.png"
 date: 2024-06-22 02:27
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-FromZerotoChatbotHowLargeLanguageModelsLLMsWorkandHowtoHarnessThemEasily_0.png
 tag: Tech
 originalTitle: "From Zero to Chatbot: How Large Language Models (LLMs) Work and How to Harness Them Easily"
 link: "https://medium.com/gopenai/from-zero-to-chatbot-how-large-language-models-llms-work-and-how-to-harness-them-easily-bce55405a5ed"
 isUpdated: true
 ---
-
-
-
 
 # Node.js, OpenAI와 차 한 잔으로 즐거운 시간을 보내세요.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 이제 상상해 보세요, 여러분이 직접 하나를 만들 수 있다는 것을!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 대형 언어 모델 (LLMs)
 
@@ -34,7 +42,18 @@ LLMs의 주요 특징:
 - 다용도성: 이러한 모델들은 번역, 요약 및 대화를 포함한 다양한 작업을 처리할 수 있습니다.
 - 확장성: LLMs는 특정 응용 프로그램에 대해 세밀하게 조정될 수 있어 특정 사용 사례의 성능을 향상시킬 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## LLM(언어 모델) 활용 방법
 
@@ -44,7 +63,18 @@ LLM을 효과적으로 활용하려면, 입력을 처리하고 출력을 생성�
 
 토크나이제이션: LLM은 텍스트를 토큰이라고 불리는 더 작은 단위로 분해하여 처리합니다. 각 토큰은 한 글자에서 한 단어까지일 수 있습니다. 모델의 이해는 이러한 토큰들에 기반합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 온도 및 최대 토큰:
 
@@ -55,7 +85,18 @@ LLM을 효과적으로 활용하려면, 입력을 처리하고 출력을 생성�
 
 ![이미지](/assets/img/2024-06-22-FromZerotoChatbotHowLargeLanguageModelsLLMsWorkandHowtoHarnessThemEasily_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 상당히 지식이 풍부한 친구와 대화하고 있다고 상상해보세요. 그는 당신이 가진 모든 질문에 대답할 수 있는 친구입니다. 일반적인 질문을 시작하여도, 그는 귀하가 정확히 필요한 것을 이해하기 위해 명확하게 질문합니다. 이러한 주고받음은 명확하고 유용한 답변을 제공할 때까지 계속됩니다.
 
@@ -65,7 +106,18 @@ LLM을 효과적으로 활용하려면, 입력을 처리하고 출력을 생성�
 
 프롬프트 엔지니어링을 통해 개발자들은 AI와 효과적으로 소통하여 다양한 작업을 지원할 수 있는 스마트하고 반응성 있는 챗봇을 만들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 효과적인 프롬프트 엔지니어링 팁:
 
@@ -77,7 +129,18 @@ LLM을 효과적으로 활용하려면, 입력을 처리하고 출력을 생성�
 
 이제 즐거운 부분인 Node.js, LangChain 및 OpenAI를 사용하여 챗봇을 만드는 것에 대해 알아봅시다. 우리는 프롬프트 엔지니어링이 챗봇의 응답을 강화하는 방법에 초점을 맞출 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 환경 설정하기:
 
@@ -92,67 +155,100 @@ npm install langchain openai axios
 
 - 챗봇 구조 생성하기:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-const { OpenAI } = require('langchain');
-const axios = require('axios');
+const { OpenAI } = require("langchain");
+const axios = require("axios");
 
 const openai = new OpenAI({
-    apiKey: 'YOUR_OPENAI_API_KEY',  // OpenAI API 키로 바꿔주세요
+  apiKey: "YOUR_OPENAI_API_KEY", // OpenAI API 키로 바꿔주세요
 });
 
 async function generateResponse(prompt) {
-    const response = await openai.complete({
-        model: 'text-davinci-003',  // 다른 사용 가능한 모델을 사용할 수 있어요
-        prompt: prompt,
-        maxTokens: 150,
-    });
+  const response = await openai.complete({
+    model: "text-davinci-003", // 다른 사용 가능한 모델을 사용할 수 있어요
+    prompt: prompt,
+    maxTokens: 150,
+  });
 
-    return response.data.choices[0].text.trim();
+  return response.data.choices[0].text.trim();
 }
 ```
 
 - LangChain을 사용한 프롬프트 엔지니어링 구현:
 
 ```js
-const { OpenAI, PromptTemplate } = require('langchain');
+const { OpenAI, PromptTemplate } = require("langchain");
 
 const openai = new OpenAI({
-    apiKey: 'YOUR_OPENAI_API_KEY',
+  apiKey: "YOUR_OPENAI_API_KEY",
 });
 
 const template = new PromptTemplate({
-    inputVariables: ['query'],
-    template: `도움이 되는 어시스턴트입니다. 다음 질문에 답변하세요: {query}`
+  inputVariables: ["query"],
+  template: `도움이 되는 어시스턴트입니다. 다음 질문에 답변하세요: {query}`,
 });
 
 async function generateResponse(query) {
-    const prompt = await template.format({ query });
-    const response = await openai.complete({
-        model: 'text-davinci-003',
-        prompt: prompt,
-        maxTokens: 150,
-    });
+  const prompt = await template.format({ query });
+  const response = await openai.complete({
+    model: "text-davinci-003",
+    prompt: prompt,
+    maxTokens: 150,
+  });
 
-    return response.data.choices[0].text.trim();
+  return response.data.choices[0].text.trim();
 }
 
 // 예시 사용법
 (async () => {
-    const userQuery = "Node.js를 사용하는 장점은 무엇인가요?";
-    const response = await generateResponse(userQuery);
-    console.log(response);
+  const userQuery = "Node.js를 사용하는 장점은 무엇인가요?";
+  const response = await generateResponse(userQuery);
+  console.log(response);
 })();
 ```
 
 ## 챗봇 테스트 및 개선하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 Markdown 형식으로 변경해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 사용자: "Node.js에서 비동기 프로그래밍은 어떻게 작동하나요?"
 - 챗봇: "Node.js에서의 비동기 프로그래밍은 블로킹되지 않는 작업을 가능하게 하며, 이는 이전 작업이 완료될 때까지 기다리지 않고 여러 작업을 동시에 처리할 수 있다는 것을 의미합니다."
@@ -163,7 +259,18 @@ async function generateResponse(query) {
 
 Node.js, LangChain 및 OpenAI를 활용하여 챗봇을 구축하는 것은 LLM(Large Language Model)의 능력을 활용하기 위한 흥미진진하고 접근성 있는 방법입니다. LLM의 기본 원리를 이해하고 프롬프트 엔지니어링을 숙달하는 것은 정확하고 맥락에 맞는 응답을 제공하는 챗봇을 만드는 데 필수적입니다. 본 안내서가 여러분의 응용 프로그램에서 LLM의 잠재력을 탐험하며 영감을 주기를 바랍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 행복한 코딩!
 

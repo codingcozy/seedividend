@@ -3,16 +3,13 @@ title: "NextJS 앱에 JWT 인증 추가하는 방법(2024년 최신)"
 description: ""
 coverImage: "/assets/img/2024-05-01-HowtoaddJWTAuthenticationtoNextJSApps_0.png"
 date: 2024-05-01 17:56
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-01-HowtoaddJWTAuthenticationtoNextJSApps_0.png
 tag: Tech
 originalTitle: "How to add JWT Authentication to NextJS Apps"
 link: "https://medium.com/gitconnected/how-to-add-jwt-authentication-to-nextjs-apps-a0dc83bd257d"
 isUpdated: true
 ---
-
-
-
 
 ![이미지](/assets/img/2024-05-01-HowtoaddJWTAuthenticationtoNextJSApps_0.png)
 
@@ -24,7 +21,18 @@ isUpdated: true
 - NextJS 미들웨어: 미들웨어를 사용하면 요청이 완료되기 전에 코드를 실행할 수 있으며, 수신된 요청을 기반으로 응답을 수정하여 리다이렉팅하거나 요청 또는 응답 헤더를 수정하거나 직접 응답하는 등의 작업을 수행할 수 있습니다. 이를 사용하여 우리는 인증을 처리하는 라우팅을 돕겠습니다.
 - JWT 인증 서비스: JWT를 사용하여 인증을 지원하는 백엔드 서비스가 필요합니다. NestJS를 사용하여 어떻게 만드는 지에 대한 내 튜토리얼을 확인하거나 다른 기술을 사용하여 직접 만들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 레이아웃
 
@@ -34,7 +42,18 @@ isUpdated: true
 
 레이아웃을 보고 루트를 말해줄 수 있어요. 총 3가지 종류의 루트가 있어요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 공개 경로: 누구나 접근할 수 있는 경로
 - 인증 경로: 인증되지 않은 사용자만 접근할 수 있는 경로
@@ -46,7 +65,18 @@ API 로그인을 호출해야 합니다. 따라서 인증 API 호출을 처리�
 
 ![이미지](/assets/img/2024-05-01-HowtoaddJWTAuthenticationtoNextJSApps_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로그인 요청이 성공하면 사용자 이름, accessToken 또는 JWT, 만료 시간을 얻을 수 있습니다.
 
@@ -58,7 +88,18 @@ API 로그인을 호출해야 합니다. 따라서 인증 API 호출을 처리�
 - useLogin : 로그인 방법을 제공하는 훅
 - useLogout : 로그아웃 방법을 제공하는 훅
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희는 먼저 첫 번째 useLogin으로 들어갈 거에요:
 
@@ -68,7 +109,18 @@ API 로그인을 호출해야 합니다. 따라서 인증 API 호출을 처리�
 
 useLogout:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-05-01-HowtoaddJWTAuthenticationtoNextJSApps_4.png)
 
@@ -78,7 +130,18 @@ useLogout:
 
 ![이미지](/assets/img/2024-05-01-HowtoaddJWTAuthenticationtoNextJSApps_5.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 미들웨어
 
@@ -88,7 +151,18 @@ React만 사용하면 모든 라우트에서 인증을 확인하는 것이 꽤 �
 
 ![라우트 이미지](/assets/img/2024-05-01-HowtoaddJWTAuthenticationtoNextJSApps_6.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 가이드는 간단한 것이므로, 이렇게 가보겠습니다.
 
@@ -98,7 +172,18 @@ React만 사용하면 모든 라우트에서 인증을 확인하는 것이 꽤 �
 
 미들웨어.ts 파일을 살펴보겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-05-01-HowtoaddJWTAuthenticationtoNextJSApps_7.png)
 
@@ -110,7 +195,18 @@ React만 사용하면 모든 라우트에서 인증을 확인하는 것이 꽤 �
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서, NextJS에서 인증을 처리하는 간단한 구현이다. 이 글이 유용하게 느껴지길 바라며, 예제 코드가 너무 난해하다면 소스 코드를 여기서 확인해보세요.
 

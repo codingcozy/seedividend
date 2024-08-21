@@ -3,17 +3,13 @@ title: "HTML, CSS, JavaScript를 활용한 신청 폼 만들기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Creating a Dynamic Registration Form using HTML, CSS, and JavaScript Step-by-Step Guide"
 link: "https://medium.com/@lostcoder20/creating-a-dynamic-registration-form-using-html-css-and-javascript-step-by-step-guide-ea0b012b1b88"
 isUpdated: true
 ---
-
-
-
-
 
 ![CreatingaDynamicRegistrationFormusingHTMLCSSandJavaScriptStep-by-StepGuide_0.png](/assets/img/CreatingaDynamicRegistrationFormusingHTMLCSSandJavaScriptStep-by-StepGuide_0.png)
 
@@ -23,7 +19,18 @@ HTML은 웹 페이지의 구조를 만드는 데 사용되는 마크업 언어�
 
 CSS는 양식을 스타일링하여 시각적으로 매력적으로 만듭니다. CSS는 양식의 외관과 느낌을 담당하며, 글꼴 스타일, 색상 및 기타 시각적 요소를 포함합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 JavaScript은 양식에 상호 작용성을 추가하는 데 사용됩니다. JavaScript를 사용하면 양식을 유효성 검사하고 오류 처리를 수행하며 실시간 데이터 유효성 검사 및 피드백을 추가하여 양식을 동적으로 만들 수 있습니다.
 
@@ -36,7 +43,18 @@ JavaScript은 양식에 상호 작용성을 추가하는 데 사용됩니다. Ja
 
 ## 단계 1 → HTML 양식 구조 만들기:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 main.html
 
@@ -71,39 +89,19 @@ main.html
 
         <div class="input-group">
           <label><strong>이메일:</strong></label>
-          <input
-            type="email"
-            placeholder="이메일 주소를 입력하세요"
-            id="email-id"
-          />
+          <input type="email" placeholder="이메일 주소를 입력하세요" id="email-id" />
         </div>
 
         <div class="input-group">
           <label><strong>휴대전화 번호:</strong></label>
-          <input
-            type="tel"
-            placeholder="휴대전화 번호를 입력하세요"
-            id="phone-no"
-          />
+          <input type="tel" placeholder="휴대전화 번호를 입력하세요" id="phone-no" />
         </div>
 
         <div class="input-group">
           <label><strong>성별:</strong></label>
-          <input
-            type="radio"
-            style="flex-basis: 0%; margin: 0 10px;"
-            name="gender"
-            value="male"
-            id="male"
-          />
+          <input type="radio" style="flex-basis: 0%; margin: 0 10px;" name="gender" value="male" id="male" />
           <label for="male">남성</label>
-          <input
-            type="radio"
-            style="flex-basis: 0%; margin: 0 10px;"
-            name="gender"
-            value="female"
-            id="female"
-          />
+          <input type="radio" style="flex-basis: 0%; margin: 0 10px;" name="gender" value="female" id="female" />
           <label for="female">여성</label>
         </div>
 
@@ -145,11 +143,7 @@ main.html
 
         <div class="input-group">
           <label><strong>취미:</strong></label>
-          <textarea
-            rows="5"
-            placeholder="취미를 입력하세요"
-            id="hobbies"
-          ></textarea>
+          <textarea rows="5" placeholder="취미를 입력하세요" id="hobbies"></textarea>
         </div>
 
         <button>제출</button>
@@ -172,16 +166,12 @@ sucess.html
     <title>Document</title>
   </head>
   <body>
-    <h2
-      style="font-family: 'Poppins', sans-serif; color: green; text-align: center;"
-    >
+    <h2 style="font-family: 'Poppins', sans-serif; color: green; text-align: center;">
       모든 유효성 검사가 성공적으로 완료되었습니다.
     </h2>
     <br />
     <hr />
-    <h2
-      style="font-family: 'Poppins', sans-serif; color: rgb(45, 143, 88); text-align: center;"
-    >
+    <h2 style="font-family: 'Poppins', sans-serif; color: rgb(45, 143, 88); text-align: center;">
       등록이 성공적으로 완료되었으며 등록 ID는 ABCD1234입니다.
     </h2>
     <br />
@@ -194,7 +184,18 @@ sucess.html
 </html>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 2→ 폼에 CSS 스타일 추가:
 
@@ -268,7 +269,18 @@ form button{
 </div>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리의 main.html 파일에 위와 같이 span 태그를 추가할 거에요. 비슷하게 모든 언급된 입력 영역에도 이 태그를 추가할 거예요. 그리고 JavaScript를 사용해서 그것을 표시할 예정이기 때문에 span 태그 요소를 삭제할 거에요.
 
@@ -403,7 +415,18 @@ img{
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 3→ JavaScript를 사용하여 양식을 유효성 검사하기:
 
@@ -428,64 +451,34 @@ var submitError = document.getElementById("submit-error");
 
 주소 필드에 대해 캐스케이딩 드롭다운을 사용할 것이므로 이를 선언합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 var addressObject = {
   INDIA: {
-    Assam: [
-      "Bongaigaon",
-      "Jorhat",
-      "Kokrajhar",
-      "Lakhimpur",
-      "Tinsukia",
-      "Kamrup Metropolitan",
-    ],
+    Assam: ["Bongaigaon", "Jorhat", "Kokrajhar", "Lakhimpur", "Tinsukia", "Kamrup Metropolitan"],
     Goa: ["North Goa", "South Goa"],
-    "Himachal Pradesh": [
-      "Kangra",
-      "Kullu",
-      "Mandi",
-      "Shimla",
-      "Lahaul and Spiti",
-      "Kinnaur",
-    ],
-    Kerela: [
-      "Kollam",
-      "Malappuram",
-      "Thiruvananthapuram",
-      "Kannur",
-      "Palakkad",
-    ],
+    "Himachal Pradesh": ["Kangra", "Kullu", "Mandi", "Shimla", "Lahaul and Spiti", "Kinnaur"],
+    Kerela: ["Kollam", "Malappuram", "Thiruvananthapuram", "Kannur", "Palakkad"],
     Tripura: ["Dhalai", "North Tripura", "South Tripura", "West Tripura"],
     Sikkim: ["Gangtok", "Mangan", "Namchi", "Geyzing", "Pakyong", "Soreng"],
-    "West Bengal": [
-      "Malda",
-      "Alipurduar",
-      "Howrah",
-      "Kolkata",
-      "Bankura",
-      "Nadia",
-    ],
-    Delhi: [
-      "Central Delhi",
-      "East Delhi",
-      "New Delhi",
-      "North Delhi",
-      "South Delhi",
-      "West Delhi",
-    ],
+    "West Bengal": ["Malda", "Alipurduar", "Howrah", "Kolkata", "Bankura", "Nadia"],
+    Delhi: ["Central Delhi", "East Delhi", "New Delhi", "North Delhi", "South Delhi", "West Delhi"],
   },
   USA: {
     Arizona: ["Gila", "Yuma", "Apache", "Mohave", "Santa Cruz", "Greenlee"],
-    California: [
-      "San Francisco",
-      "Los Angeles",
-      "Sacramento",
-      "San Diego",
-      "Riverside",
-      "San Jose",
-    ],
+    California: ["San Francisco", "Los Angeles", "Sacramento", "San Diego", "Riverside", "San Jose"],
     Georgia: ["Atlanta", "Augusta", "Columbus", "Savannah"],
     Michigan: ["Watersmeet", "Holland", "Flint", "Holly", "Dearborn"],
     "New York": ["Shirley", "Brooklyn", "Manhattan", "Bronx", "Yonkers"],
@@ -493,48 +486,13 @@ var addressObject = {
     "New Mexico": ["Alamogordo", "Santa Fe", "Albuquerque"],
   },
   BANGLADESH: {
-    Barisal: [
-      "Barisal",
-      "Barguna",
-      "Bhola",
-      "Pirojpur",
-      "Jhalokati",
-      "Patuakhali",
-    ],
+    Barisal: ["Barisal", "Barguna", "Bhola", "Pirojpur", "Jhalokati", "Patuakhali"],
     Khulna: ["Bagerhat", "Jashore", "Khulna", "Narail", "Satkhira", "Meherpur"],
-    Rajshahi: [
-      "Natore",
-      "Sirajganj",
-      "Pabna",
-      "Bogura",
-      "Naogaon",
-      "Joypurhat",
-    ],
-    Rangpur: [
-      "Dinajpur",
-      "Kurigram",
-      "Rangpur",
-      "Thakurgaon",
-      "Panchagarh",
-      "Gaibandha",
-    ],
+    Rajshahi: ["Natore", "Sirajganj", "Pabna", "Bogura", "Naogaon", "Joypurhat"],
+    Rangpur: ["Dinajpur", "Kurigram", "Rangpur", "Thakurgaon", "Panchagarh", "Gaibandha"],
     Sylhet: ["Habiganj", "Moulvibazar", "Sunamganj", "Sylhet"],
-    Dhaka: [
-      "Gazipur",
-      "Tangail",
-      "Rajbari",
-      "Gopalganj",
-      "Faridpur",
-      "Narayanganj",
-    ],
-    Chittagong: [
-      "Rangamati",
-      "Cox's Bazar",
-      "Chattogram",
-      "Lakshmipur",
-      "Chandpur",
-      "Brahmanbaria",
-    ],
+    Dhaka: ["Gazipur", "Tangail", "Rajbari", "Gopalganj", "Faridpur", "Narayanganj"],
+    Chittagong: ["Rangamati", "Cox's Bazar", "Chattogram", "Lakshmipur", "Chandpur", "Brahmanbaria"],
   },
 };
 ```
@@ -578,7 +536,18 @@ window.onload = function () {
 
 마지막으로 이러한 함수들을 main.html 파일의 해당 입력 요소 태그와 링크해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <!DOCTYPE html>

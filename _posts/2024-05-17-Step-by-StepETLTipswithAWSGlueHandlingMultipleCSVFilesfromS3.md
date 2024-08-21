@@ -3,7 +3,7 @@ title: "AWS Glue로 다수의 CSV 파일을 처리하는 ETL 단계별 팁"
 description: ""
 coverImage: "/assets/img/2024-05-17-Step-by-StepETLTipswithAWSGlueHandlingMultipleCSVFilesfromS3_0.png"
 date: 2024-05-17 20:37
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-17-Step-by-StepETLTipswithAWSGlueHandlingMultipleCSVFilesfromS3_0.png
 tag: Tech
 originalTitle: "Step-by-Step ETL Tips with AWS Glue: Handling Multiple CSV Files from S3"
@@ -11,16 +11,24 @@ link: "https://medium.com/@lintang-gilang01/step-by-step-etl-tips-with-aws-glue-
 isUpdated: true
 ---
 
-
-
-
 이건 훌륭한 이미지입니다! 이 디지털 시대에 데이터는 기업에게 귀중한 자산이 되었습니다. 데이터를 효과적으로 처리하고 분석하는 것이 유용한 통찰력을 얻고 스마트한 의사결정을 하는 데 중요합니다. AWS Glue는 데이터를 쉽고 효율적으로 관리하고 분석하는 데 도움이 되는 포괄적인 솔루션이 됩니다.
 
 이 세션에서는 AWS Glue, 데이터 카탈로그, 및 크롤러가 하나의 버킷에 있는 여러 CSV 파일을 단일 데이터 세트로 읽는 방법에 대해 논의할 것입니다. 아래는 아키텍처 요약입니다:
 
 ![아키텍처 이미지](/assets/img/2024-05-17-Step-by-StepETLTipswithAWSGlueHandlingMultipleCSVFilesfromS3_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # S3 버킷 준비하기
 
@@ -30,7 +38,18 @@ isUpdated: true
 
 # AWS Glue 데이터 카탈로그에서 데이터베이스 생성하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AWS Management Console에서 AWS Glue를 열고, "데이터베이스" 섹션으로 이동하여 메타데이터를 저장할 새 데이터베이스를 생성하세요.
 
@@ -40,8 +59,18 @@ AWS Management Console에서 AWS Glue를 열고, "데이터베이스" 섹션으�
 
 이전에 생성한 데이터베이스를 선택하여 크롤러에 의해 생성된 테이블을 저장하세요. 크롤러를 사용하여 테이블 추가를 선택하세요. 크롤러에 이름을 지정하고 CSV 파일을 포함하는 S3 버킷 위치를 선택하여 데이터 원본을 지정하세요. S3의 데이터 원본에 액세스할 수 있는 IAM 역할을 지정하고 Glue 데이터 카탈로그에 항목을 생성할 수 있는 권한이 있는 IAM 역할을 지정하세요. 필요에 따라 크롤러 옵션을 구성하세요. 크롤러를 주기적으로 실행하려면 빈도를 설정하세요. 구성을 완료한 후 크롤러를 실행하세요. 크롤러는 지정된 버킷의 모든 CSV 파일을 읽고 Glue 데이터 카탈로그에 하나 이상의 테이블을 생성합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Step-by-Step ETL Tips with AWS Glue: Handling Multiple CSV Files from S3](/assets/img/2024-05-17-Step-by-StepETLTipswithAWSGlueHandlingMultipleCSVFilesfromS3_4.png)
 
@@ -51,8 +80,18 @@ Once the crawler status is complete you can preview the table data that has been
 
 ![Step-by-Step ETL Tips with AWS Glue: Handling Multiple CSV Files from S3](/assets/img/2024-05-17-Step-by-StepETLTipswithAWSGlueHandlingMultipleCSVFilesfromS3_6.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # AWS Glue에서 ETL 작업 만들기
 
@@ -62,7 +101,18 @@ AWS Glue은 데이터 변환의 핵심 프로세스인 ETL(추출, 변환, 로�
 
 ## 시각적 ETL
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-05-17-Step-by-StepETLTipswithAWSGlueHandlingMultipleCSVFilesfromS3_8.png" />
 
@@ -78,7 +128,18 @@ AWS Glue은 데이터 변환의 핵심 프로세스인 ETL(추출, 변환, 로�
 - 작업 구성
 - 작업 검토 및 실행
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Jupyter Notebook
 
@@ -88,7 +149,18 @@ AWS Glue은 데이터 변환의 핵심 프로세스인 ETL(추출, 변환, 로�
 
 다음은 AWS Glue를 사용하여 Jupyter Notebook을 사용하는 단계입니다. Data Catalog에서 S3로 콘솔에서 사용하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - AWS Glue Studio를 열어주세요.
 - 새로운 주피터 노트북을 생성해주세요.
@@ -102,7 +174,18 @@ ETL 프로세스를 완전히 제어하고 싶은 경우, AWS Glue를 사용하�
 
 아래는 데이터 카탈로그부터 S3까지 콘솔에서 AWS Glue를 스크립팅과 함께 사용하는 단계입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - AWS Glue 콘솔을 열어주세요.
 - 좌측 탐색 패널에서 Glue를 선택합니다.
@@ -119,22 +202,22 @@ from awsglue.utils import getResolvedOptions
 from pyspark.context import SparkContext
 from awsglue.context import GlueContext
 from awsglue.job import Job
-  
+
 sc = SparkContext.getOrCreate()
 glueContext = GlueContext(sc)
 spark = glueContext.spark_session
 job = Job(glueContext)
 
 # Read
-dyf = glueContext.create_dynamic_frame.from_catalog(database='db-s3-glue ', 
+dyf = glueContext.create_dynamic_frame.from_catalog(database='db-s3-glue ',
                                                     table_name='1_source'
                                                    )
 
 # Store
-output_dyf = glueContext.write_dynamic_frame.from_options(frame=dyf, 
-                                                          connection_type="s3", 
-                                                          format="glueparquet", 
-                                                          connection_options={"path": "s3://s3-glue/2-target/", "partitionKeys": []}, 
+output_dyf = glueContext.write_dynamic_frame.from_options(frame=dyf,
+                                                          connection_type="s3",
+                                                          format="glueparquet",
+                                                          connection_options={"path": "s3://s3-glue/2-target/", "partitionKeys": []},
                                                           format_options={"compression": "uncompressed"}
                                                          )
 
@@ -148,7 +231,18 @@ job.commit()
 - Workflows(오케스트레이션)를 사용하여 작업 자동화하기.
 - 스트림 처리.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 최선의 인사
 

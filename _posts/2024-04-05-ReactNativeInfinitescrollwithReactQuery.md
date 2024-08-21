@@ -3,17 +3,13 @@ title: "리액트 네이티브 - React Query로 무한 스크롤 구현하기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "React Native  Infinite scroll with React Query"
 link: "https://medium.com/@davidecarizzoni/react-native-infinite-scroll-with-react-query-3e5ef90f3caa"
 isUpdated: true
 ---
-
-
-
-
 
 ![React Native Infinite Scroll with React Query](/assets/img/ReactNativeInfinitescrollwithReactQuery_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 저희는 무한 스크롤이 적용된 간단한 항목 목록을 만들고, 목록을 필터링할 수 있는 검색 필드를 추가할 예정입니다. 함께 만들어보시죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하나 이상의 필터와 상호 작용함으로써 목록이 첫 번째 페이지로 재설정되고 그 후 전통적인 방법으로 계속됩니다.
 
@@ -33,7 +40,18 @@ yarn add @tanstack/react-query
 
 예제에서는 React Query 버전 5를 사용하여 시작해 봅시다. 다른 버전을 사용하는 경우 구현 방법은 동일하지만 React Query에서 무한 스크롤을 구현하기 위해 사용되는 옵션이 약간 다를 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저 쿼리 클라이언트를 만들어봅시다. 코드를 깔끔하게 유지하기 위해 React Query 프로바이더를 인스턴스화하고 오프라인 쿼리/뮤테이션 상태 처리와 관련된 로직을 추가할 QueryProvider 파일을 사용할 거에요.
 
@@ -58,9 +76,7 @@ const queryClient = new QueryClient({
 
 // 생성한 queryClient로 QueryClientProvider를 내보냄
 export const QueryProvider = ({ children }: PropsWithChildren) => {
-  return (
-    <QueryClientProvider client={queryClient}>{children}</QueryClientProvider>
-  );
+  return <QueryClientProvider client={queryClient}>{children}</QueryClientProvider>;
 };
 ```
 
@@ -80,7 +96,18 @@ export const App = () => {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 설정을 통해 React Query가 초기화되고 애플리케이션에서 사용할 수 있게 됩니다. 이제 React Query를 사용하여 무한 스크롤이 있는 flatlist를 구현할 수 있습니다.
 
@@ -169,7 +196,18 @@ export const useInfiniteScroll = <T = unknown, F = object>({
 
 아래에서 이 후크가 받는 매개변수를 나타냅니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - key: 데이터를 캐싱하는 기본 키를 나타냅니다. 캐싱 부분은 완전히 React Query 라이브러리에 의해 처리됩니다. 모든 필터 값을 포함한 주요 키를 설정하여 필터가 변경될 때마다 새로운 API 호출이 발생하여 무한 스크롤을 다시 트리거합니다.
 - url: API 호출에 사용되는 URL을 나타냅니다. 예를 들어, JSON Placeholder API를 사용하여 포스트 목록을 가져오려면 URL은 https://jsonplaceholder.typicode.com/posts 가 됩니다.
@@ -183,7 +221,18 @@ export const useInfiniteScroll = <T = unknown, F = object>({
 
 무한 스크롤을 사용하는 예제는 다음과 같습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import React, { useState } from 'react';

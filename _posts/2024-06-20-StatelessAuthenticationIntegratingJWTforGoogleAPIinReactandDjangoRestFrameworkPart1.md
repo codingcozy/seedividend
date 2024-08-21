@@ -3,16 +3,13 @@ title: "상태가 없는 인증 React 및 Django Rest Framework에서 Google API
 description: ""
 coverImage: "/assets/img/2024-06-20-StatelessAuthenticationIntegratingJWTforGoogleAPIinReactandDjangoRestFrameworkPart1_0.png"
 date: 2024-06-20 02:14
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-StatelessAuthenticationIntegratingJWTforGoogleAPIinReactandDjangoRestFrameworkPart1_0.png
 tag: Tech
 originalTitle: "Stateless Authentication: Integrating JWT for Google API in React and Django Rest Framework (Part — 1)"
 link: "https://medium.com/@lcbiplove1/stateless-authentication-integrating-jwt-for-google-api-in-react-and-django-rest-framework-part-6aab7f47a190"
 isUpdated: true
 ---
-
-
-
 
 # 개요
 
@@ -28,7 +25,18 @@ isUpdated: true
 - React
 - React OAuth Google
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기본적인 앱 설정 생성과 같은 몇 가지 기본 단계를 건너뛸 예정이니 참고해 주세요.
 
@@ -38,7 +46,18 @@ isUpdated: true
 
 무상태 특성이란 요청이 유효한지 확인하기 위해 데이터베이스를 쿼리할 필요가 없다는 것을 의미합니다. 이 특성은 JWT를 강력하게 만들며 꼭 무상태입니다. 한 번 토큰이 서명되고 생성되면, 웹 애플리케이션은 토큰의 서명을 기반으로 토큰을 확인할 수 있습니다. 데이터베이스를 쿼리하여 요청이 합법적인지 확인할 필요는 없습니다. 이는 대규모 애플리케이션에 특히 유용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 JWT의 단점을 이해하는 것도 중요합니다. 그 중 하나는 유효한 토큰을 무효화하거나 취소하는 것이 어렵다는 점입니다. 토큰 무효화를 달성하는 방법은 있지만, 다른 종류의 인증(예: 토큰 기반 인증)보다 간단하지는 않습니다.
 
@@ -48,21 +67,40 @@ JWT에 대해 더 자세히 알아보려면 여기에서 공식 소개 페이지
 
 Google API는 구글이 개발한 응용 프로그램 프로그래밍 인터페이스(API) 집합으로, 구글 서비스 및 기타 애플리케이션과 통신할 수 있게 해줍니다. 이러한 API는 구글 지도, 구글 드라이브, 구글 캘린더 등 다양한 구글 서비스에 액세스할 수 있도록 해줍니다. 우리는 이러한 API를 사용하여 앱에서 사용자를 로그인할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 작업을 수행하겠습니다:
 
 - Google Cloud Console에 접속합니다.
 - 왼쪽 상단 로고 근처에서 프로젝트를 선택하거나 새로 만듭니다.
 
-
 ![이미지1](/assets/img/2024-06-20-StatelessAuthenticationIntegratingJWTforGoogleAPIinReactandDjangoRestFrameworkPart1_0.png)
 
 ![이미지2](/assets/img/2024-06-20-StatelessAuthenticationIntegratingJWTforGoogleAPIinReactandDjangoRestFrameworkPart1_1.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image 1](/assets/img/2024-06-20-StatelessAuthenticationIntegratingJWTforGoogleAPIinReactandDjangoRestFrameworkPart1_2.png)
 
@@ -73,8 +111,18 @@ Google API는 구글이 개발한 응용 프로그램 프로그래밍 인터페�
 
 ![Image 3](/assets/img/2024-06-20-StatelessAuthenticationIntegratingJWTforGoogleAPIinReactandDjangoRestFrameworkPart1_4.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 허가된 js origin은 구글 버튼이 렌더링될 URI를 의미합니다. 즉, 프론트엔드 URL(우리의 리액트 서버)을 의미합니다. 반면에, 허가된 리다이렉트 URI는 우리의 장고 서버를 위한 것입니다.
 
@@ -84,6 +132,17 @@ Google API는 구글이 개발한 응용 프로그램 프로그래밍 인터페�
 
 ![이미지](/assets/img/2024-06-20-StatelessAuthenticationIntegratingJWTforGoogleAPIinReactandDjangoRestFrameworkPart1_6.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 우리는 프로젝트를 시작할 기본 구조를 설정했습니다. 다음 섹션에서는 Django 백엔드로 시작할 것입니다. 질문이나 제안이 있으면 언제든지 코멘트해 주세요. 읽어주셔서 감사합니다!!!

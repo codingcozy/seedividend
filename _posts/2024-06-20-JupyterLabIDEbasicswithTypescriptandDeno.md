@@ -3,16 +3,13 @@ title: "주피터 랩 IDE 기본기 TypeScript와 Deno"
 description: ""
 coverImage: "/assets/img/2024-06-20-JupyterLabIDEbasicswithTypescriptandDeno_0.png"
 date: 2024-06-20 00:13
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-JupyterLabIDEbasicswithTypescriptandDeno_0.png
 tag: Tech
 originalTitle: "Jupyter Lab IDE basics with Typescript and Deno"
 link: "https://medium.com/gitconnected/jupyter-lab-ide-basics-with-typescript-and-deno-a4255f2b36f1"
 isUpdated: true
 ---
-
-
-
 
 ## TypeScript 개발자를 위한 단계별 가이드
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 첫 번째 부분을 아직 읽지 않으셨나요? 이 프로젝트가 무엇인지 확인해보세요. 다가오는 몇 달, 아마도 몇 년 동안 새 AI 모델과 도구를 실험해가며 그 과정에서 배우는 모든 것을 여러분에게 보여줄 것입니다. 대중을 상대로 “공개로 빌드”하며 여정의 중요한 이정표를 여러분에게 보여줄 것입니다. 결과적으로 여러분은 이 지식을 실무에 적용할 수 있을 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 번째 글에서는 Jupyter Lab IDE를 설치하는 방법과 빠른 프로토타이핑 환경을 위한 모든 필수 도구를 설명했습니다:
 
@@ -35,7 +43,18 @@ isUpdated: true
 
 이 글에서는 Jupyter Lab의 사용 방법을 설명하고, 기본적인 코딩 워크플로우를 소개하겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 예제가 포함된 샘플 노트북을 다운로드할 수 있어요.
 
@@ -45,8 +64,18 @@ isUpdated: true
 
 주피터 랩의 사용자 인터페이스는 VSCode 또는 JetBrains IDE와 유사해요. "파일 브라우저"와 파일이 열린 주 작업 영역으로 구성되어 있어요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![JupyterLab IDE Basics](/assets/img/2024-06-20-JupyterLabIDEbasicswithTypescriptandDeno_1.png)
 
@@ -56,8 +85,18 @@ isUpdated: true
 
 ![Launcher](/assets/img/2024-06-20-JupyterLabIDEbasicswithTypescriptandDeno_2.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 왼쪽 사이드바에는 다음과 같은 도구들이 있습니다:
 
@@ -70,7 +109,18 @@ isUpdated: true
 
 ![Command Palette](/assets/img/2024-06-20-JupyterLabIDEbasicswithTypescriptandDeno_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 주피터 랩에서의 코딩 워크플로우
 
@@ -80,19 +130,41 @@ isUpdated: true
 
 ## 코드 작성 및 실행
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새 노트북에서는 코드 셀 내에서 TypeScript 코드를 작성하고 실행할 수 있어요. 각 코드 셀을 사용하여 코드 스니펫을 입력하고 실행할 수 있어요. 예를 들어, 메시지를 표시하려면 다음과 같이 작성하세요:
 
 ```js
-console.log('Hello Deno!')
+console.log("Hello Deno!");
 ```
 
 Shift+Enter를 눌러 코드를 실행하세요. 결과는 셀 아래에 바로 나타날 거예요:
 
 ![이미지](/assets/img/2024-06-20-JupyterLabIDEbasicswithTypescriptandDeno_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 커널
 
@@ -102,7 +174,18 @@ Shift+Enter를 눌러 코드를 실행하세요. 결과는 셀 아래에 바로 
 
 노트북의 커널 메모리는 이전 실행에서 온 변수들로 어지럴 수 있습니다. 커널을 다시 시작하면 이 메모리가 지워지며 깨끗한 상태를 제공합니다. 또한 업데이트된 모듈도 다시 불러옵니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "Kernel" 메뉴에서 커널을 재시작할 수 있어요.
 
@@ -116,7 +199,18 @@ Shift+Enter를 눌러 코드를 실행하세요. 결과는 셀 아래에 바로 
 JavaScript의 표준 출력 함수인 `console.log`을 사용하여 출력 셀에 쓸 수 있어요.
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마크다운으로 표를 변환하려면, Shift+Enter를 누르세요.
 
@@ -126,7 +220,18 @@ JavaScript의 표준 출력 함수인 `console.log`을 사용하여 출력 셀�
 
 Deno에서는 패키지를 가져오는 데 URL 기반 구문을 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { escape } from "https://deno.land/std/html/mod.ts";
@@ -140,7 +245,18 @@ import { escape } from "https://deno.land/std@0.224.0/html/mod.ts";
 
 또한 Deno에는 서드 파티 모듈을 위한 저장소가 https://deno.land/x에 있습니다. html() 함수를 가져오려면 다음을 사용하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { html } from "https://deno.land/x/display/mod.ts";
@@ -154,11 +270,22 @@ import { z } from "npm:zod";
 
 # 결과 셀에 입력하는 방법
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 코드 셀에서 출력할 수 있는 방법입니다:
 
-- console.* 함수 사용
+- console.\* 함수 사용
 - html 함수 사용 (HTML 출력)
 - md 함수 사용 (Markdown 출력)
 
@@ -166,7 +293,18 @@ import { z } from "npm:zod";
 
 <img src="/assets/img/2024-06-20-JupyterLabIDEbasicswithTypescriptandDeno_6.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 환경 변수
 
@@ -178,7 +316,18 @@ OPENAI_API_KEY=[여기에 키를 입력하세요]
 
 다음 명령으로 이 파일을 불러옵니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import "https://deno.land/std@0.215.0/dotenv/load.ts";
@@ -192,12 +341,23 @@ console.log(Deno.env.get("OPENAI_API_KEY"));
 
 # 로컬 파일 가져오기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Deno는 로컬 파일 임포트를 지원합니다. 외부 파일을 변경한 후에는 커널을 다시 시작하여 다시로드하세요:
 
 ```js
-import { f1 } from './1.ts';
+import { f1 } from "./1.ts";
 
 f1();
 ```
@@ -209,7 +369,18 @@ import jsonData from "./data.json" with { type: "json" };
 console.log(jsonData);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 요약
 
@@ -219,7 +390,18 @@ console.log(jsonData);
 
 내 이름은 Gergely Szerovay이며, 많은 해간 데이터 과학자이자 풀스택 개발자로 일해왔습니다. 최근에는 Angular 기반 프론트엔드 개발에 중점을 둔 프론트엔드 기술 리드로 일하고 있습니다. 제 역할의 일환으로 Angular와 프론트엔드 개발 환경이 어떻게 발전하고 있는지 꾸준히 주시하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지난 몇 년 동안 Angular는 매우 빠르게 발전해 왔습니다. 특히 작년에는 생성 모델 AI의 등장과 함께 소프트웨어 개발 워크플로가 급속히 발전했습니다. AI 지원 소프트웨어 개발의 발전을 밀접히 따라가기 위해, 나는 공개적으로 AI 도구를 만들기로 결심했고 진행 상황은 AIBoosted.dev 에 게시할 것입니다. 구독하시려면 여기를 눌러주세요 🚀
 

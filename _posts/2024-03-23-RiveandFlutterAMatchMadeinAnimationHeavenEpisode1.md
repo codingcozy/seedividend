@@ -3,17 +3,13 @@ title: "Rive와 플러터로 애니메이션 쉽게 만드는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Rive and Flutter A Match Made in Animation Heaven  Episode 1"
 link: "https://medium.com/flutter-community/rive-and-flutter-a-match-made-in-animation-heaven-episode-1-3d8a6535bda9"
 isUpdated: true
 ---
-
-
-
-
 
 저희의 Rive와 Flutter를 활용한 애니메이션 앱 제작 튜토리얼 시리즈에 오신 것을 환영합니다! 이번 시리즈에서는 앱을 돋보이게 만들어줄 멋진 애니메이션을 만드는 데 중점을 두고 진행할 것입니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ## 시작하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 첫 번째 할 일은 GitHub에서 시작 프로젝트를 복제하는 것입니다. 이 프로젝트에는 앱 개발을 시작하는 데 필요한 모든 파일과 에셋이 포함되어 있습니다. 이 작업을 위해 제공된 링크(https://github.com/abuanwar072/Build-an-Animated-App-with-Rive-and-Flutter/tree/Starting)를 방문하면 됩니다. 프로젝트를 복제한 후에는 선호하는 코드 편집기에서 열고 다음 단계에 대비하세요.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 이 프로젝트에서는 OnboardingScreen에서 작업을 시작할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 코드는 현재 lib/screens/onboarding/onboarding_screen.dart 파일에 위치한 빈 화면을 나타냅니다.
 
@@ -49,7 +67,18 @@ Scaffold(
 
 위의 코드에서 Stack 위젯 내부에는 앱에서 사용할 Rive 애니메이션을 정의합니다. 앱에 Rive 애니메이션을 추가하는 것은 이미지를 추가하는 것과 유사합니다. 자산의 위치를 정의하기만 하면 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/1*iZjNA2OfA1rv-Z2mHghh3g.gif" />
 
@@ -66,7 +95,18 @@ Positioned.fill(
 ),
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1400/1*TT8Xfa5Ksz55lI9rl8_lSw.gif)
 
@@ -86,13 +126,20 @@ Positioned.fill(
 ),
 ```
 
-
-
 ![이미지](https://miro.medium.com/v2/resize:fit:1400/1*ukw9E_1QVKa41WyP4Kqx1A.gif)
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 온보딩 화면 UI
 
@@ -143,7 +190,18 @@ SafeArea(
 
 <img src="/assets/img/Rive-and-Flutter:-A-Match-Made-in-Animation-Heaven-—-Episode-1_4.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 애니메이션 버튼
 
@@ -185,7 +243,18 @@ GestureDetector(
 
 버튼의 아이콘과 텍스트를 중앙에 배치하기 위해 고정 크기와 Stack 위젯을 사용했어요. Stack 위젯을 사용하면 여러 자식을 하나의 컨테이너에 겹쳐 놓을 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/Rive-and-Flutter:-A-Match-Made-in-Animation-Heaven-—-Episode-1_5.png" />
 
@@ -206,7 +275,18 @@ void initState() {
 
 Rive는 OneShot, Loop, PingPong 세 가지 유형의 애니메이션을 지원합니다. 저는 버튼 애니메이션이 OneShot 유형인 것을 고려하여 OneShotAnimation을 사용하고 있습니다. 이 유형은 애니메이션이 한 번 재생되고 멈추도록 허용합니다. 사용자 작업(예: 버튼 탭)으로 트리거되는 애니메이션에 유용합니다. 사용 중인 animationName인 "active"는 버튼.rive 파일에 정의된 애니메이션의 이름을 가리킵니다. 이 파일을 Rive에서 열면 idl과 active 두 가지 애니메이션이 있음을 알 수 있습니다. active 애니메이션에는 애니메이션의 모든 키프레임과 속성이 포함되어 있고 idl 애니메이션은 버튼의 기본 상태를 정의하는 데 사용되는 플레이스홀더입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자, 이제 버튼에 컨트롤러를 추가해 봅시다. 이 작업을 수행하려면 다음 코드로 TODO: Rive 컨트롤러 추가 부분을 대체하면 됩니다:
 
@@ -220,7 +300,18 @@ controllers: [_btnAnimationColtroller];
 _btnAnimationController.isActive = true;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1400/1*3IXBRGAtbJ0zbO9bJEt8Cw.gif)
 
@@ -230,7 +321,18 @@ _btnAnimationController.isActive = true;
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1280/1*d9oma8awuBcpw5kZwhpNIQ.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/Rive-and-Flutter:-A-Match-Made-in-Animation-Heaven-—-Episode-1_8.png" />
 

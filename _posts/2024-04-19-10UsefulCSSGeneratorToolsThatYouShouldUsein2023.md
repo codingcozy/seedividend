@@ -3,17 +3,13 @@ title: "2024년 최신 CSS 속성 10가지"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "10 Useful CSS Generator Tools That You Should Use in 2023"
 link: "https://medium.com/javascript-in-plain-english/10-useful-css-generator-tools-that-you-should-use-in-2023-14fde4cd225d"
 isUpdated: true
 ---
-
-
-
-
 
 ![CSS Generator](/assets/img/10UsefulCSSGeneratorToolsThatYouShouldUsein2023_0.png)
 
@@ -23,7 +19,18 @@ CSS에 대해 이야기할 때, 프로젝트를 스타일링하는 데 많은 �
 
 하지만 코딩할 때 우리의 삶을 더 쉽게 만들어주는 단축키나 도구가 필요합니다. 다행히도 개발자들의 생산성을 향상시켜주는 많은 무료 오픈 소스 CSS 도구와 생성기들이 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가끔 우리에겐 시간이 부족할 때도 있고, 프로젝트를 제 시간에 완료해야 할 때도 있죠. 그래서 프로젝트를 위한 CSS 코드를 생성하는 데 도움이 되는 몇 가지 CSS 생성기를 사용하는 것이 좋습니다.
 
@@ -33,7 +40,18 @@ CSS에 대해 이야기할 때, 프로젝트를 스타일링하는 데 많은 �
 
 CSS Gradient는 현재 작업 중인 프로젝트에 그라데이션 배경을 생성하는 데 도움이 되는 멋진 도구입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마음에 드는 색상을 선택하고 편집할 수 있어요. 이 도구를 사용하면 원하는 그라디언트 배경을 많은 옵션으로 얻을 수 있고 CSS 코드를 생성할 수 있어요.
 
@@ -43,7 +61,18 @@ CSS Gradient는 현재 작업 중인 프로젝트에 그라데이션 배경을 �
 
 CSS 웹 애니메이션과 전환에 관해 얘기할 때 Animista는 프로젝트에서 사용할 수 있는 CSS 애니메이션 전체 라이브러리를 제공하는 매우 유용한 도구에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/10UsefulCSSGeneratorToolsThatYouShouldUsein2023_2.png)
 
@@ -53,7 +82,18 @@ CSS 웹 애니메이션과 전환에 관해 얘기할 때 Animista는 프로젝�
 
 # 3. Neumorphism
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요즘에는 Neumorphism 디자인이 인기를 끌면서 많은 디자이너와 웹 개발자들이 웹 프로젝트에 이 유형의 디자인을 사용합니다.
 
@@ -63,7 +103,18 @@ Neumorphism은 디자인에 대해 부드러운 UI CSS 코드를 생성하는 �
 
 이 도구는 여러 옵션을 제공합니다. 색상, 크기, 반경, UI 거리 등을 선택하고 편집할 수 있습니다. 한번 시도해보세요. 정말 좋아하게 될 거에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 4. 웨이브 가져오기
 
@@ -73,11 +124,33 @@ Neumorphism은 디자인에 대해 부드러운 UI CSS 코드를 생성하는 �
 
 이 도구는 프로젝트를 위해 눈길을 끄는 SVG 모양과 웨이브를 생성하는 데 도움을 줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 Markdown 형식으로 변경해주시면 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 도구를 사용하면 CSS로 작성할 필요없이 아름답고 멋진 그림자를 만드는 것이 쉬워집니다.
 
@@ -87,7 +160,18 @@ Neumorphism은 디자인에 대해 부드러운 UI CSS 코드를 생성하는 �
 
 CSS 클립-패스 메이커는 멋진 복잡한 모양을 쉽게 만들고 그에 대한 CSS 코드를 생성해 주는 도구입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 도구는 다양한 모양(다각형, 원, 타원 등)을 만들 수 있는 CSS 속성 clip-path를 기반으로 합니다.
 
@@ -97,7 +181,18 @@ CSS 클립-패스 메이커는 멋진 복잡한 모양을 쉽게 만들고 그�
 
 # 7. PurgeCSS
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 CSS 파일에서 사용되지 않는 코드를 쉽게 제거하고 싶다면, PurgeCSS가 매우 유용한 도구입니다.
 
@@ -107,7 +202,18 @@ CSS 클립-패스 메이커는 멋진 복잡한 모양을 쉽게 만들고 그�
 
 그래서 PurgeCSS는 CSS 파일의 크기를 줄이고 웹사이트나 애플리케이션의 성능을 향상시킬 수 있는 도구입니다. 더 많은 정보는 문서를 확인해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 8. CSS Scan
 
@@ -117,7 +223,18 @@ CSS Scan은 어떤 웹 페이지를 탐색 중일 때 CSS 코드를 볼 수 있�
 
 또한 한 번의 클릭으로 CSS 코드를 쉽게 복사하고 편집할 수 있습니다. "요소 검사" 브라우저 기능을 항상 확인해야 하는 번거로움을 덜어줄 수 있는 훌륭한 도구입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 9. 멋진 테두리 반경 생성기
 
@@ -127,7 +244,18 @@ CSS 속성 border-radius를 사용하여 복잡한 모양을 만들고 싶다면
 
 ![이미지](/assets/img/10UsefulCSSGeneratorToolsThatYouShouldUsein2023_9.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 10. CSS Grid Generator
 
@@ -137,11 +265,33 @@ CSS 속성 border-radius를 사용하여 복잡한 모양을 만들고 싶다면
 
 ![이미지](/assets/img/10UsefulCSSGeneratorToolsThatYouShouldUsein2023_10.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 Markdown 형식으로 변경하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 도구에는 멋진 CSS 호버 효과가 적용된 많은 멋진 버튼이 포함되어 있어요. 원하는 버튼을 클릭하기만 하면 CSS 코드를 받을 수 있어요.
 
@@ -151,7 +301,18 @@ CSS 속성 border-radius를 사용하여 복잡한 모양을 만들고 싶다면
 
 이 도구들을 사용하면 많은 CSS 코드를 작성하지 않고도 짧은 시간 내에 멋진 것들을 만들 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 글을 읽어 주셔서 감사합니다. 또한, 내 컨텐츠가 유용하다고 느꼈거나 Medium 회원이 아니신 경우, Medium 멤버십을 구독하여 Medium의 모든 기사에 무제한 액세스하고 작가로써 저희를 지원할 수 있습니다(Medium 추천 링크).
 

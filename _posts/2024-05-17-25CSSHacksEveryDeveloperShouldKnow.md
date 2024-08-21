@@ -3,17 +3,13 @@ title: "개발자라면 반드시 알아야 할 CSS 팁 25가지"
 description: ""
 coverImage: "/assets/img/2024-05-17-25CSSHacksEveryDeveloperShouldKnow_0.png"
 date: 2024-05-17 21:24
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-17-25CSSHacksEveryDeveloperShouldKnow_0.png
 tag: Tech
 originalTitle: "25 CSS Hacks Every Developer Should Know"
 link: "https://medium.com/@amitmishraam941/25-css-hacks-every-developer-should-know-1317102ab791"
 isUpdated: true
 ---
-
-
-
-
 
 ![CSS](/assets/img/2024-05-17-25CSSHacksEveryDeveloperShouldKnow_0.png)
 
@@ -23,8 +19,18 @@ CSS (Cascading Style Sheets)은 웹 개발자에게 필수적인 도구로, HTML
 
 문제: 요소를 컨테이너 내에서 수직 및 수평으로 가운데 정렬하는 것.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해결책: Flexbox를 사용해주세요.
 
@@ -41,13 +47,24 @@ CSS (Cascading Style Sheets)은 웹 개발자에게 필수적인 도구로, HTML
 
 문제: 뷰포트와 비례하여 텍스트가 확대/축소되는지 확인하는 것이 중요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해결책: `vw` 단위를 사용하세요.
 
 ```css
 h1 {
-    font-size: 5vw;
+  font-size: 5vw;
 }
 ```
 
@@ -55,7 +72,18 @@ h1 {
 
 문제: 요소의 종횡비 유지하기.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해결책: 백분율 기반의 패딩 사용하기.
 
@@ -78,14 +106,25 @@ left: 0;
 
 문제: 기본 체크박스와 라디오 버튼의 스타일링.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해결책: 기본 입력란을 숨기고 레이블을 스타일링합니다.
 
 ```js
 <label class="custom-checkbox">
-<input type="checkbox" />
-<span class="checkmark"></span>
+  <input type="checkbox" />
+  <span class="checkmark"></span>
 </label>
 ```
 
@@ -106,7 +145,18 @@ background-color: #2196F3;
 
 ## 5. 레이아웃을 위한 CSS 그리드
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문제: 복잡한 레이아웃 만들기.
 
@@ -114,19 +164,30 @@ background-color: #2196F3;
 
 ```css
 .container {
-display: grid;
-grid-template-columns: repeat(3, 1fr);
-gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
 }
 .item {
-background-color: lightblue;
-padding: 20px;
+  background-color: lightblue;
+  padding: 20px;
 }
 ```
 
 ## 6. 고정 푸터
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문제: 페이지 하단에 푸터를 고정하는 방법
 
@@ -150,7 +211,18 @@ footer {
 
 ## 7. 부드러운 스크롤
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문제: 앵커 링크에 부드러운 스크롤 추가하기
 
@@ -158,13 +230,24 @@ footer {
 
 ```css
 html {
-scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 ```
 
 ## 8. 반응형 이미지
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문제: 이미지가 반응형으로 표시되도록하기
 
@@ -172,14 +255,25 @@ scroll-behavior: smooth;
 
 ```css
 img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 ```
 
 ## 9. 텍스트 줄임표(...) 처리
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해결: 넘치는 텍스트 자르기
 
@@ -196,7 +290,18 @@ img {
 
 ## 10. 커스텀 스크롤바
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문제: 스크롤바 스타일링하기.
 
@@ -222,7 +327,18 @@ img {
 
 ## 11. 전체 화면 배경 이미지
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문제: 배경 이미지를 전체 화면에 적용하는 방법.
 
@@ -230,16 +346,27 @@ img {
 
 ```css
 .full-screen-bg {
-background-image: url('background.jpg');
-background-size: cover;
-background-position: center;
-height: 100vh;
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
 }
 ```
 
 ## 12. 그라디언트 배경 애니메이션
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문제: 애니메이션 그라데이션 배경 만들기.
 
@@ -260,7 +387,18 @@ animation: gradient 15s ease infinite;
 
 ## 13. 오버레이
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문제: 이미지에 오버레이 추가하기
 
@@ -283,7 +421,18 @@ background-color: rgba(0, 0, 0, 0.5); /* 투명도 50%인 검은색 */
 
 ## 14. 이미지 호버 효과
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문제: 이미지에 호버 효과 추가하기.
 
@@ -291,16 +440,27 @@ background-color: rgba(0, 0, 0, 0.5); /* 투명도 50%인 검은색 */
 
 ```css
 .image-hover img {
-    transition: transform 0.3s;
+  transition: transform 0.3s;
 }
 .image-hover img:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 ```
 
 ## 15. CSS 변수
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문제: 테마 변경을 간단하게하기.
 
@@ -308,18 +468,29 @@ background-color: rgba(0, 0, 0, 0.5); /* 투명도 50%인 검은색 */
 
 ```css
 :root {
-    --primary-color: #3498db;
-    --secondary-color: #2ecc71;
+  --primary-color: #3498db;
+  --secondary-color: #2ecc71;
 }
 button {
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
 }
 ```
 
 ## 16. 이미지용 Object Fit
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문제: 이미지가 왜곡되지 않고 컨테이너 내에 잘 맞게 표시되는지 확인합니다.
 
@@ -327,15 +498,26 @@ button {
 
 ```css
 .fit-image {
-    width: 100%;
-    height: 200px;
-    object-fit: cover; /* 또는 contain, fill 등 */
+  width: 100%;
+  height: 200px;
+  object-fit: cover; /* 또는 contain, fill 등 */
 }
 ```
 
 ## 17. 줄 바꿈 방지
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문제: 텍스트가 여러 줄로 나뉘는 것을 방지해야 합니다.
 
@@ -343,13 +525,24 @@ button {
 
 ```css
 .no-break {
-white-space: nowrap;
+  white-space: nowrap;
 }
 ```
 
 ## 18. 전체 너비 요소
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문제: 요소가 부모 요소의 전체 너비를 차지하도록 만들기.
 
@@ -357,15 +550,26 @@ white-space: nowrap;
 
 ```css
 .full-width {
-width: 100vw;
-margin-left: calc(50% - 50vw);
-margin-right: calc(50% - 50vw);
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
 }
 ```
 
 ## 19. SVG 아이콘 색상 제어
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문제: CSS를 사용하여 인라인 SVG의 색상 변경하기
 
@@ -373,16 +577,27 @@ margin-right: calc(50% - 50vw);
 
 ```css
 .icon {
-fill: currentColor;
+  fill: currentColor;
 }
 .icon-container {
-color: #ff6347;
+  color: #ff6347;
 }
 ```
 
 ## 20. 이름이 지정된 영역을 사용한 CSS 그리드
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문제: 이름이 지정된 그리드 영역으로 복잡한 레이아웃을 생성하려면.
 
@@ -413,7 +628,18 @@ color: #ff6347;
 
 ## 21. CSS Transtions
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문제: 상태 간의 부드러운 전환.
 
@@ -421,17 +647,28 @@ color: #ff6347;
 
 ```css
 .transition-button {
-background-color: #3498db;
-transition: background-color 0.3s;
+  background-color: #3498db;
+  transition: background-color 0.3s;
 }
 .transition-button:hover {
-background-color: #2ecc71;
+  background-color: #2ecc71;
 }
 ```
 
 ## 22. CSS 애니메이션
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문제: 요소에 애니메이션 추가하기
 
@@ -449,7 +686,18 @@ animation: bounce 2s infinite;
 
 ## 23. CSS 모양 아웃사이더들
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문제: 비직사각형 모양 만들기.
 
@@ -466,7 +714,18 @@ height: 200px;
 
 ## 24. 다크 모드
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문제: 다크 모드 구현하기.
 
@@ -493,7 +752,18 @@ body {
 
 ## 25. CSS 카운터
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문제: 카운터 만들기
 
@@ -501,10 +771,10 @@ body {
 
 ```css
 .counter-list {
-    counter-reset: section;
+  counter-reset: section;
 }
 .counter-list li::before {
-    counter-increment: section;
-    content: "섹션 " counter(section) ": ";
+  counter-increment: section;
+  content: "섹션 " counter(section) ": ";
 }
 ```

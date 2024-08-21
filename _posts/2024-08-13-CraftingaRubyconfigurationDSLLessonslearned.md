@@ -3,7 +3,7 @@ title: "Ruby 설정 DSL 만드는 방법 정리"
 description: ""
 coverImage: "/assets/no-image.jpg"
 date: 2024-08-13 11:42
-ogImage: 
+ogImage:
   url: /assets/no-image.jpg
 tag: Tech
 originalTitle: "Crafting a Ruby configuration DSL Lessons learned"
@@ -11,7 +11,6 @@ link: "https://medium.com/@vaisakhvm/crafting-a-ruby-configuration-dsl-lessons-l
 isUpdated: true
 updatedAt: 1723863991412
 ---
-
 
 만약 YAML 또는 JSON 구성이 복잡해져서 고민한 적이 있다면 혼자가 아닙니다. 이러한 형식이 얼마나 복잡해질 수 있는지에 좌절하여, 저는 자체 도메인 특화 언어(Domain-Specific Language, DSL)를 루비로 만들기로 결심했습니다. 간단한 학습 연습으로 시작했지만, 구성 관리를 훨씬 간단하게 만들어주는 강력한 도구로 발전했습니다. 이 DSL을 만들면서 배운 점과 복잡한 구성을 처리하는 방식이 어떻게 변화했는지 알아보겠습니다.
 
@@ -21,7 +20,18 @@ YAML과 JSON은 구성에 널리 사용되지만, 그 한계가 있습니다. �
 
 ## 루비에서 장난감 DSL 만들기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 루비의 메타프로그래밍 기능 덕분에 DSL을 만드는 데 좋은 선택이 됩니다. 설정을 더 우아하게 처리하기 위해 기본 DSL을 만들었습니다. 아래는 제가 만든 ConfigParser 클래스를 살펴볼 수 있어요:
 
@@ -59,7 +69,18 @@ end
 
 ## 예시 설정
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 내 DSL(config.dsl)을 사용하여 구성 파일을 작성하는 방법의 예시입니다:
 
@@ -73,13 +94,23 @@ end
 이 DSL 구성이 처리되면 다음과 같이 YAML 형식으로 변환됩니다:
 
 ```js
-server:
-  name: vaisakhvm.in
-  port: 80
-  enable_ssl: true
+server: name: vaisakhvm.in;
+port: 80;
+enable_ssl: true;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 배운 내용
 
@@ -89,7 +120,18 @@ server:
 
 내부 DSL을 생성하는 것 이상으로, 이 프로젝트는 내부 DSL과 외부 DSL 사이의 확장된 DSL 랜드스케이프를 상기시켰습니다. 내부 DSL은 Ruby와 같은 호스트 언어 내에 포함된 DSL이며, 외부 DSL은 고유한 구문과 구문 분석기를 갖춘 독립형 언어입니다. 각 유형에는 각각의 강점이 있습니다. 내부 DSL은 기존 프로젝트에 쉽게 통합할 수 있지만, 외부 DSL은 추가 복잡성을 초래하면서 언어 설계에서 더 많은 자유를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다양한 접근법을 이해하면 DSL의 유연성과 잠재력에 대한 이해가 높아집니다. 기존 언어의 제약 내에서 작업하거나 처음부터 새로운 언어를 설계하더라도 DSL은 복잡한 작업을 훨씬 더 관리 가능하고 효율적으로 변환할 수 있습니다.
 

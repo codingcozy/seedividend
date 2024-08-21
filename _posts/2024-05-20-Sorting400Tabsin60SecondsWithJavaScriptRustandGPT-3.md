@@ -3,16 +3,13 @@ title: "JavaScript, Rust, 그리고 GPT-3로 60초 안에 400개 이상의 탭 �
 description: ""
 coverImage: "/assets/img/2024-05-20-Sorting400Tabsin60SecondsWithJavaScriptRustandGPT-3_0.png"
 date: 2024-05-20 21:47
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-20-Sorting400Tabsin60SecondsWithJavaScriptRustandGPT-3_0.png
 tag: Tech
 originalTitle: "Sorting 400+ Tabs in 60 Seconds With JavaScript, Rust, and GPT-3"
 link: "https://medium.com/better-programming/sorting-400-tabs-in-60-seconds-with-js-rust-gpt3-part-2-macros-recursion-92384ab96348"
 isUpdated: true
 ---
-
-
-
 
 ## 모든 재미를 위해 GPT-3 사용 중.
 
@@ -22,17 +19,39 @@ isUpdated: true
 
 현재 5개의 브레이브 창에서 약 460개의 탭을 열어 두고 있습니다. 북마크는 신경쓰지 말아요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 응, 난 정보 햄스터 같아. 모든 탭을 호아딩해놓고 충분한 시간을 내어 모든 걸 읽으려고 노력할 때까지 새로운 탭을 더 열어. 알 수 있듯이, 너무 많은 탭을 가지고 있다는 건 상당히 압도적일 수 있어. 탭 바의 경계 너머로 사라져 버렸을 때 뭔가를 찾아야 하는 경우거나, 화면을 바라보며 "할 일이 너무 많다"는 불안한 느낌이 드는 경우 등이 있지. 그냥 어떤 작업도 해야 할 일이 없는 데도 말이야.
 
-그래서 게을러버리고 있는 해커 본성으로, 그들을 실제로 정리하거나 청소하거나 *이런* 단순히 모두 닫지 않고 기계가 할 수 있는 방법이 없을까 궁금해졌어. 내 괴로움의 1클릭 솔루션을 갖출 수 있을까?
+그래서 게을러버리고 있는 해커 본성으로, 그들을 실제로 정리하거나 청소하거나 _이런_ 단순히 모두 닫지 않고 기계가 할 수 있는 방법이 없을까 궁금해졌어. 내 괴로움의 1클릭 솔루션을 갖출 수 있을까?
 
 내 내면의 과다 집착자를 코드를 사용해 마리 콘도의 노예로 바꿀 수 있을까?
 
 다행히도, 우리에게는 수십억 달러의 가치가 있을 모델 언어가 있어 열심히 일을 할 준비만 하고 기다리고 있지.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아이디어는 간단해요: GPT-3에 항목 목록을 제공하고 해당 항목이 속하는 카테고리 목록을 요청하세요. 그것을 Chrome 확장 프로그램으로 묶어서 마법이 일어나게 해 보세요.
 
@@ -42,7 +61,18 @@ isUpdated: true
 
 조금 되돌아가 봅시다. 우리의 계획은 충분히 간단해 보이죠. 그러나 소프트웨어에서 보통 그렇듯, 우리는 제대로 생각하지 않으면 범위와 예산을 폭발시킬 중요한 세부사항을 놓쳤습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코드에 처음 뛰어들기 전에 후회의 세계에 빠지지 않도록 고려해야 할 중요한 문제 몇 가지가 있습니다:
 
@@ -55,7 +85,18 @@ isUpdated: true
 
 간단한 방법을 채택할 것입니다 - 확장 프로그램 자체에 모든 로직을 작성하는 대신 API 뒤에 숨깁니다 - 탭 데이터를 전달할 간단한 백엔드 서비스를 구축하여 프롬프트를 나누고 OpenAI API와 통신하여 데이터를 단일 응답으로 줄입니다. 이를 통해 키를 안전하게 보호하고 업데이트를 제어하며 시크릿 토큰을 노출하지 않고도 확장 프로그램을 오픈 소스로 공개할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이를 위해 Rust를 사용할 것입니다. 백엔드 프레임워크로 Axum을, 배포 플랫폼으로 Shuttle을, 그리고 CI로 GitHub Actions를 사용할 것입니다.
 
@@ -65,7 +106,18 @@ isUpdated: true
 
 ## 단계 1: 확장 프로그램 구축하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 크로미움 확장 프로그램을 만드는 것은 매우 간단해요. 그냥 브라우저 안에 살아있는 작은 웹페이지들이에요. (적절한 권한으로) 브라우저의 API에 접근할 수 있어요.
 
@@ -75,7 +127,18 @@ isUpdated: true
 
 구체적으로, 이 두 API에 초점을 맞출 거에요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - chrome.tabs - 현재 사용자가 열어둔 탭을 조회할 수 있도록 합니다.
 - chrome.tabGroups - 기존 그룹을 조회하고 새 그룹을 만들며 그 안에 탭을 이동할 수 있도록 합니다.
@@ -86,40 +149,58 @@ isUpdated: true
 
 그러니 터미널을 열고 다음을 입력해 보세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 npm install -g chrome-extension-cli
 chrome-extension-cli bookie-js
 cd bookie-js
 
-
 마지막에 나오는 안내에 따라 빌드 폴더를 확장 프로그램으로 로드하세요. 이를 통해 확장 프로그램을 핫 리로드를 통해로드 및 테스트할 수 있어서 변경 사항이 즉시 보입니다.
 
 지금 생성된 구조 안을 엿보세요. 대부분이 자명합니다.
 
-
 ├── README.md
 ├── config
-│   ├── paths.js
-│   ├── webpack.common.js
-│   └── webpack.config.js
+│ ├── paths.js
+│ ├── webpack.common.js
+│ └── webpack.config.js
 ├── node_modules
 ├── package-lock.json
 ├── package.json
 ├── pbcopy
 ├── public
-│   ├── icons
-│   ├── manifest.json
-│   └── popup.html
+│ ├── icons
+│ ├── manifest.json
+│ └── popup.html
 └── src
-    ├── background.js
-    ├── contentScript.js
-    ├── popup.css
-    └── popup.js
+├── background.js
+├── contentScript.js
+├── popup.css
+└── popup.js
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 현재 주로 세 개의 파일에 관심이 있어요:
 
@@ -131,7 +212,18 @@ public/manifest.json — manifest는 당신의 확장 프로그램에 대한 정
 
 지금은 이 모든 것을 그대로 두고, 나중에 다시 돌아와서 확인할게요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 src/popup.html은 UI의 시작점입니다. 웹 브라우저의 확장 기능 버튼을 클릭하면 이 HTML이 팝업됩니다. 여기에 간단한 인터페이스를 구축하는 데 사용할 것입니다.
 
@@ -162,7 +254,18 @@ API의 /sort 엔드포인트를 호출하고 결과를 반환하는 '정렬' 버
 
 src/popup.js 파일은 JS가 위치하는 곳입니다. 우린 적당한 Vanilla JS 만 사용할 것이니 예쁘고 견고한 사이버네틱 SSSR JavaScript 프레임워크는 사용하지 않을 거에요. UI를 업데이트하기 위해 DOM 요소를 조작하는 간단한 render(state) 함수에 의존하며, 요소.style.display를 block/none으로 변경하여 간단한 표시 및 숨김 함수를 사용할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 함수로 우리의 사고 과정을 작성해 봅시다.
 
@@ -174,7 +277,7 @@ import './popup.css';
 const SORT_BTN = 'sortBtn';
 const LOADING = 'loading';
 const ERROR = 'error';
-    
+
 // API에서 탭 및 그룹을 가져옵니다
 async function getTabsAndGroups(){};
 // 데이터로 백엔드 호출
@@ -201,7 +304,7 @@ let btn = document.getElementById('sortBtn')
 }
 // 콘텐츠가로드 될 때 run 함수를로드합니다
 document.addEventListener('DOMContentLoaded', run);
-    
+
 })();
 ```
 
@@ -209,14 +312,25 @@ document.addEventListener('DOMContentLoaded', run);
 
 ![이미지](/assets/img/2024-05-20-Sorting400Tabsin60SecondsWithJavaScriptRustandGPT-3_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래, 한번 해보죠:
 
 ```js
 async function getTabsAndGroups() {
-    let chromeTabs = await chrome.tabs.query({})
-    console.log(chromeTabs)
+  let chromeTabs = await chrome.tabs.query({});
+  console.log(chromeTabs);
 }
 ```
 
@@ -225,7 +339,18 @@ async function getTabsAndGroups() {
 그래서, 탭들, 제목들, 그리고 그룹들에 접근하려면, 그에 맞는 권한들을 추가해야 합니다. 그래서 manifest.json을 열어서 permissions 아래에 "tabs", "tabGroups"를 추가합니다. 그러면 설치시, Chrome이 확장 기능의 권한을 확인하고 사용자에게 어떤 정보에 접근하는지 알려줄 수 있습니다.
 하지만, 탭 API에 접근하려면, host-permissions라는 다른 특별한 권한이 필요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 확장 프로그램이 실행되는 웹 사이트를 사용자에게 알려줍니다. 따라서 모든 탭에서 이를 사용하려면 적절한 URL 패턴을 추가해야 합니다. 그래서 manifest.json에 "host_permissions"라는 새 속성을 추가하여 모든 URL과 일치하도록 패턴을 설정하세요. 예를 들어 "host_permissions": ["*://*/*"]입니다. 마지막으로 이제 사용자의 모든 탭과 그룹에 액세스할 수 있습니다.
 
@@ -234,40 +359,50 @@ async function getTabsAndGroups() {
 그룹에 대한 더 많은 데이터를 얻으려면 tabsForGroups 함수를 만들어야 합니다. 이 함수는 모든 고유 그룹을 찾고 각 그룹의 제목을 가져오기 위해 chrome.tabGroups.get(id)를 사용하여 Chrome API를 쿼리할 것입니다.
 
 ```js
-async function tabsToGroups(tabs){
+async function tabsToGroups(tabs) {
   //탭에서 모든 기존 그룹Id 가져오기
-  let groupIds = tabs
-      .map( (it)=>it.groupId)
-      .filter((it)=>it!==null && it!==undefined && it!==-1);
-  
+  let groupIds = tabs.map((it) => it.groupId).filter((it) => it !== null && it !== undefined && it !== -1);
+
   //고유한 것만 가져올 수 있도록 세트에 넣기
-  let groups = new Set(groupIds)
-  
+  let groups = new Set(groupIds);
+
   //각 탭 그룹에 대한 데이터를 가져오기 위해 chrome API에 쿼리
-  return await Promise.all([...groups]
-      .map(async (it) => {
-      let item = await chrome.tabGroups.get(it)
-        return {
-          id: item.id,
-          title: item.title
-        }
-    }));
-  }
+  return await Promise.all(
+    [...groups].map(async (it) => {
+      let item = await chrome.tabGroups.get(it);
+      return {
+        id: item.id,
+        title: item.title,
+      };
+    })
+  );
+}
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 이제 함수가 모든 탭과 그룹을 반환할 수 있습니다.
 async function getTabsAndGroups() {
-    let chromeTabs = await chrome.tabs.query({});
-    let tabs = await mapTabs(chromeTabs);
-    let tabsWithGroups = await tabsToGroups(tabs);
-    let groups =  tabsWithGroups.filter((it)=>it.title.length !== 0);
-    return {
-      items: tabs,
-      categories: groups
-    };
+  let chromeTabs = await chrome.tabs.query({});
+  let tabs = await mapTabs(chromeTabs);
+  let tabsWithGroups = await tabsToGroups(tabs);
+  let groups = tabsWithGroups.filter((it) => it.title.length !== 0);
+  return {
+    items: tabs,
+    categories: groups,
+  };
 }
 ```
 
@@ -276,38 +411,47 @@ async function getTabsAndGroups() {
 또한 API 호출 함수도 매우 간단합니다. 아직 API가 없기 때문에 로컬호스트로 일반 POST 요청을 작성할 거에요:
 
 ```js
-async function callBackendToSort(data) {    
- return await fetch('http://127.0.0.1:8000/sort',{
-      method: 'POST',
-      headers: {'Content-Type': 'application/json'},
-      body: JSON.stringify({
-        items: data.items,
-        categories: data.categories
-      })
-    });
+async function callBackendToSort(data) {
+  return await fetch("http://127.0.0.1:8000/sort", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      items: data.items,
+      categories: data.categories,
+    }),
+  });
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희 render 함수도 상당히 간단해요. 상태를 확인하고 UI를 그에 맞게 변경하는 것뿐이죠.
 
 ```js
-function render(state){
-    if(state.loading){
-      show(LOADING)
-      hide(SORT_BTN)
-      hide(ERROR)
-    }else{
-      hide(LOADING)
-      show(SORT_BTN,true)
-    }
-    if(state.loading!==true &&
-      (state.error!==undefined && state.error!=null)){
-      show(ERROR)
-      showError(state.error)
-    }else
-      hide(ERROR)
+function render(state) {
+  if (state.loading) {
+    show(LOADING);
+    hide(SORT_BTN);
+    hide(ERROR);
+  } else {
+    hide(LOADING);
+    show(SORT_BTN, true);
+  }
+  if (state.loading !== true && state.error !== undefined && state.error != null) {
+    show(ERROR);
+    showError(state.error);
+  } else hide(ERROR);
 }
 ```
 
@@ -315,20 +459,42 @@ function render(state){
 
 아이디어는:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 그룹이 존재하는지 확인하세요.
 - 그룹이 없다면, 새로 만드세요.
 - 탭 목록과 제목을 업데이트하세요.
 
-이를 위해 API 조사를 좀 해야 합니다. 이 부분을 다루는 문서가 조금 혼란스러울 수 있어요. 
+이를 위해 API 조사를 좀 해야 합니다. 이 부분을 다루는 문서가 조금 혼란스러울 수 있어요.
 chrome.tabGroups.create 또는 chrome.tabGroups.update와 같은 것이 있을 것으로 예상할 수 있지만... 그런 건 순진한 생각이죠.
 
 그룹을 만들기 위해 사용하는 API 호출은 chrome.tabs.group으로, chrome.tabs.group에 groupId를 전달하지 않습니다. 그럼 그룹이 생성되고 새로운 groupId가 반환됩니다. 이것은 chrome 팀에 의해 조금 이상한 호출입니다 - 탭이 그룹에 대해 알고 있고 제어해야하는 이유는 무엇인가요?
 
 그룹은 그룹 API를 통해 생성하고 관리되어야 할 텐데요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아, 또한 그룹에 탭을 추가하려면 동일한 호출을 사용하여 tabIds를 통해 탭 배열을 전달합니다. "이 API 호출을 통해 이미 객체를 생성하고 업데이트하고 있기 때문에 제목도 전달할 수 있을까요?" 아니요, 그렇게 하려면 chrome.tabGroups.update API 호출을 사용해야 합니다.
 
@@ -338,7 +504,18 @@ chrome.tabGroups.create 또는 chrome.tabGroups.update와 같은 것이 있을 �
 
 ![이미지](/assets/img/2024-05-20-Sorting400Tabsin60SecondsWithJavaScriptRustandGPT-3_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저의 관점에서(API 사용자로서) 단점 목록은 그렇게 나쁘지 않아 보입니다. 탭은 그룹에 대해 알 필요가 없을 것이며, 사용자 보안이 강화될 것입니다(확장 프로그램은 tabGroups 권한만 필요로 하며, 악성 확장 프로그램에 의한 잠재적인 남용 가능성이 줄어들 것입니다) 그리고 이는 추상화가 가지는 의미인 직관적 API로 구현 세부 정보를 숨겨주며 대체할 것입니다. 그래도 이상한 결정일 수 있어요.
 
@@ -346,7 +523,7 @@ chrome.tabGroups.create 또는 chrome.tabGroups.update와 같은 것이 있을 �
 
 ```js
 function applySort(sortedCategories){
-/* 우리가 원하는 응답 객체는 다음과 같습니다: 
+/* 우리가 원하는 응답 객체는 다음과 같습니다:
 { categories: [
  { category_id: int, category_title: string, items: [int] }
     ] }
@@ -362,7 +539,7 @@ for (i = 0; i < sortedCategories.categories.length; i++) {
          // ID가 없다면, chrome.tabs.group가 우리에게 ID를 반환합니다
          groupId = await chrome.tabs.group({ tabIds: category.items });
       else {
-          
+
         // ID가 있다면, 기존 것을 사용합니다
         groupId = groupExists.id
         await chrome.tabs.group({groupId: groupId,
@@ -379,7 +556,18 @@ for (i = 0; i < sortedCategories.categories.length; i++) {
 
 이로써, JS 익스텐션 MVP가 완료되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 탭과 그룹을 수집합니다.
 - 그것들을 API로 보냅니다.
@@ -391,31 +579,48 @@ for (i = 0; i < sortedCategories.categories.length; i++) {
 
 지금은 callBackendToSort 함수의 반환을 조작하여 몇 가지 카테고리와 몇 가지 탭 ID를 포함시킬 수 있습니다 - 당신의 탭 ID와 함께 이런 식으로 (하지만 당신의 탭 ID로):
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```json
 {
- "categories": [{
-  "category_id": 837293848,
-  "category_name": "Hacker News",
-  "items": [1322973609, 1322973620]
- }, {
-  "category_id": 837293850,
-  "category_name": "Science",
-  "items": [1322973618, 1322973617, 1322973608]
- }, {
-  "category_id": 837293851,
-  "category_name": "GitHub",
-  "items": [1322973619]
- }, {
-  "category_id": 837293852,
-  "category_name": "Web Development",
-  "items": [1322973612, 1322973613, 1322973615, 1322973616]
- }, {
-  "category_id": 837293853,
-  "category_name": "Web APIs",
-  "items": [1322973646]
- }]
+  "categories": [
+    {
+      "category_id": 837293848,
+      "category_name": "Hacker News",
+      "items": [1322973609, 1322973620]
+    },
+    {
+      "category_id": 837293850,
+      "category_name": "Science",
+      "items": [1322973618, 1322973617, 1322973608]
+    },
+    {
+      "category_id": 837293851,
+      "category_name": "GitHub",
+      "items": [1322973619]
+    },
+    {
+      "category_id": 837293852,
+      "category_name": "Web Development",
+      "items": [1322973612, 1322973613, 1322973615, 1322973616]
+    },
+    {
+      "category_id": 837293853,
+      "category_name": "Web APIs",
+      "items": [1322973646]
+    }
+  ]
 }
 ```
 
@@ -425,8 +630,18 @@ for (i = 0; i < sortedCategories.categories.length; i++) {
 
 이제, 현재 가장 핫한 언어인 Rust로 다가가 봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Sorting 400 Tabs in 60 Seconds With JavaScript, Rust, and GPT-3](/assets/img/2024-05-20-Sorting400Tabsin60SecondsWithJavaScriptRustandGPT-3_4.png)
 
@@ -436,8 +651,18 @@ for (i = 0; i < sortedCategories.categories.length; i++) {
 
 그래서 이 언어를 익히는 느낌을 받아볼까요? 좀 재미있게 해보죠.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단한 서비스를 만들 예정이에요. 우리는 탭 컬렉션을 가져와서 조금 단순화하고 OpenAI API와 대화할 거예요. 희망컨대 환각 없이 응답을 우리 익스텐션에서 사용할 수 있는 형태로 파싱할 거예요.
 
@@ -445,7 +670,18 @@ for (i = 0; i < sortedCategories.categories.length; i++) {
 
 우리 서비스는 꽤 간단할 거예요. 우리는 탭과 기존 카테고리를 POST할 /sort 메소드를 노출할 거에요. 이를 구축하기 위해 Axum 프레임워크를 활용할 거에요. 이를 통해 /sort 엔드포인트가 있는 서버를 쉽게 시작할 수 있어요. 그리고 배포를 위해 셔틀을 사용할 거에요. AWS 구성 파일 물어다님으로 싸움하지 않고 Rust 서버를 쉽게 가동할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트를 구성하는 데 사용할 것이기 때문에 설치부터 시작해봅시다.
 먼저, 러스트 패키지 관리자인 cargo가 필요합니다. 만약 설치되어 있지 않다면 여기에 있는 단계를 따라주세요. 둘째, 셔틀 계정이 필요합니다. 걱정하지 마세요. GitHub으로 1클릭 가입하면 됩니다. 양식을 작성할 필요 없어요.
@@ -456,35 +692,51 @@ for (i = 0; i < sortedCategories.categories.length; i++) {
 
 우리 폴더는 이제 이와 같이 보일 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ├── Cargo.lock
 ├── Cargo.toml
 └── src
-    └── lib.rs
-
+└── lib.rs
 
 간단한 구조에요 — `Cargo.toml` 파일이 있습니다. 이는 `manifest.json`이나 `package.json`의 러스트 버전입니다. 이 파일에는 패키지, 의존성, 컴파일 특징 등에 대한 메타데이터가 포함되어 있어요. `Cargo.lock`은 환경 간 일관된 빌드를 보장하기 위해 지정된 의존성 목록을 담은 파일입니다.
 
 메인 서버 코드는 `src/lib.rs` 파일 안에 있어요. 아직 신선하고 아름다운 상태에서 코드를 살펴보려고 합니다:
 
-
 use axum::{routing::get, Router};
 use sync_wrapper::SyncWrapper;
 async fn hello_world() -> &'static str {
-    "Hello, world!"
-}
-#[shuttle_service::main]
+"Hello, world!"
+} #[shuttle_service::main]
 async fn axum() -> shuttle_service::ShuttleAxum {
-    let router = Router::new().route("/hello", get(hello_world));
-    let sync_wrapper = SyncWrapper::new(router);
-    Ok(sync_wrapper)
+let router = Router::new().route("/hello", get(hello_world));
+let sync_wrapper = SyncWrapper::new(router);
+Ok(sync_wrapper)
 }
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 주목할 점이 몇 가지 있어요:
 
@@ -497,7 +749,18 @@ async fn axum() -> shuttle_service::ShuttleAxum {
 
 <img src="/assets/img/2024-05-20-Sorting400Tabsin60SecondsWithJavaScriptRustandGPT-3_6.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제, 매크로에 들어가기 전에 경고로 처음부터 말씀드리겠습니다. 이 글은 [여기에 즐겨 사용하는 언어를 삽입]에서의 매크로에 대한 100% 설명이 아닙니다. 이에 대해 수백 권의 책, 안내서 및 기사들이 존재합니다.
 
@@ -507,24 +770,46 @@ async fn axum() -> shuttle_service::ShuttleAxum {
 
 '버스트'는 이제 트위터 전체에서 소문이 나고 있는 멋진 새로운 언어이며, 메타버스 AI 웹4 앱의 언어가 될 것으로 말하고 있습니다. 그러나 새로운 언어이므로 아직 초기 단계이며 많은 라이브러리가 없습니다. 예를 들어, 아직 JSON 직렬화 라이브러리가 없기 때문에 직렬화 코드를 아직 수동으로 작성해야 합니다. 따라서 구조체를 만들 때마다 직렬화 코드를 작성해주어야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 impl ToJson for ReallyBigModel {
    fn toJson() -> String {
-       return mapOf { "id" to id, 
+       return mapOf { "id" to id,
              "name" to name,
              "isReal" to isReal,
-             ..., 
+             ...,
              "stuff" to stuff.toJson())
-         }.toJson() 
+         }.toJson()
    }
 }
 ```
 
 조금 귀찮죠? 매일 이렇게 많은 보일러플레이트를 작성하고 싶지 않으시죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 어느 날, 최신 변경 로그를 읽는 중에 새롭게 추가된 매크로(macros)라는 새로운 기능을 발견했다. 매크로는 여러 종류가 있지만, Bust에서의 매크로는 두 가지로 구성된 특별한 메서드로 정의할 수 있는 것이야:
 
@@ -535,7 +820,18 @@ impl ToJson for ReallyBigModel {
 
 클래스나 메서드 위에 큼지막한 빨간 X 표시가 있는 걸 상상해봐. 그래서 컴파일러가 컴파일 중에 함수를 만나면, 그 함수 머리 위에 큼지막한 빨간 X 표시가 있다면, 너의 매크로 함수를 호출해야 한다는 걸 알 수 있어.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 매크로 함수는 속성으로 표시된 코드를 받아 처리한 후, 새로운 코드를 컴파일러에 반환하여 해당 기능이 있는 곳에 통합합니다.
 
@@ -554,29 +850,40 @@ struct ReallyBigModel {
 
 그리고 매크로는 어떻게 생겼을까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에 나와 있는 코드(토큰으로 표시됨)를 가져와서 이를 대체할 새로운 코드를 반환하는 함수입니다.
 
 ```js
 #[toJson]
-#[toJson] fn addToJsonTrait(input: TokenStream) -> TokenStream { 
-  let tree = parseIntoAST(input) 
+#[toJson] fn addToJsonTrait(input: TokenStream) -> TokenStream {
+  let tree = parseIntoAST(input)
   let nodes = ast.data.asStruct();
   let name = tree.identity
    // Get all the children that are properties
-   // Map them into format: $name to name 
+   // Map them into format: $name to name
   let properties = nodes
     .filter((child)=>child.isProperty)
     .map((property) => "\"${property.name}\" to ${property.name}")
-    .joinToString(",\n") 
+    .joinToString(",\n")
   // Write the toJson trait body
   let body = quote! { //this is also a kind of macro!
-     impl ToJson for #name { 
-      fn toJson() -> String { mapOf { properties }.toJson()}; 
+     impl ToJson for #name {
+      fn toJson() -> String { mapOf { properties }.toJson()};
     }
    }
-   return body.intoTree().intoStream() 
+   return body.intoTree().intoStream()
 }
 ```
 
@@ -584,7 +891,18 @@ struct ReallyBigModel {
 
 이제 우리 컴파일러가 #[toJson]로 표시된 클래스에 도착하면 addToJsonTrait 메서드를 호출하여 클래스 코드를 전달하고, 새 코드를 반환할 때까지 컴파일을 계속하기 전에 기다릴 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그렇게 해서, 우리는 매크로 함수를 사용하여 시간을 많이 절약했고 항상 되고 싶어했던 생산적인 Bust 개발자가 될 수 있게 되었어요!
 
@@ -594,7 +912,18 @@ struct ReallyBigModel {
 
 ## The POST office
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리의 서비스의 간단한 매력을 /sort POST 방식 뒤에 숨기겠습니다. 따라서 그 "hello world"를 삭제하고 /sort 요청을 처리하는 라우터로 교체할 거에요 - Router::new().route("/sort", post(sort_items)) 그리고 요청을 처리할 sort_items 메서드:
 
@@ -609,7 +938,18 @@ async fn sort_items(Json(payload): Json<SortRequestPayload>)
 
 구체적으로, 우리는 이를 StatusCode, T 튜플 형식으로 반환할 거에요. 이것은 서버가 적절한 응답으로 변환하는 방법을 알고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 가지 더 구현해야 할 것이 있습니다. 바로 요청 데이터 구조입니다. 이제 같은 파일에 만들어 둘 대신에 src 폴더에 models.rs라는 새 파일을 열어 기본 정의를 만들어 봅시다.
 
@@ -649,7 +989,18 @@ pub(crate) struct ErrorResponse {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만, 한 가지 문제가 발생했습니다 — 우리는 Serde 라이브러리를 사용하여 JSON과 (디)시리얼화가 쉽게 가능하도록 하려고 합니다. 이를 위해 앞서 구성한 매크로와 비슷한 매크로를 사용할 것입니다. 그래서 cargo.toml 파일을 열어서 serde와 serde_json을 종속성으로 추가해주세요:
 
@@ -700,7 +1051,18 @@ pub(crate) struct ErrorResponse {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 작업을 완료했으니, 이제 코드 작업에 다시 몰두해 볼까요?
 
@@ -721,7 +1083,18 @@ pub(crate) struct ErrorResponse {
 
 그리고 메소드로 구조화해 보겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```rust
 //in lib.rs
@@ -740,7 +1113,18 @@ fn prompt_open_ai(prompt: String) -> Result<String, String>
 
 그런 다음, 반환할 유효한 JSON 형식을 설명하고 기존 카테고리를 전달하세요. 마지막으로, 유효한 JSON 형식으로 반환하도록 요청하세요. JSON 형식을 준수하고 이를 해석하지 않기를 희망하지만 후속 게시물에서 그 부분을 미세 조정할 거에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금은 프롬프트의 끝 부분에 유효한 JSON 형식을 명시하고 "유효한 JSON 형식"을 언급하는 것이 꽤 적절해 보입니다.
 
@@ -751,12 +1135,12 @@ fn prompt_open_ai(prompt: String) -> Result<String, String>
 탭은:
 [$tabName, $tabId].
 반환할 유효한 JSON 형식은 다음과 같습니다:
-{ "categories": [ { 
+{ "categories": [ {
     "category_id":"여기에 id 입력",
-    "category_name": "여기에 이름 입력", 
-    "items":[여기에 tab_id 입력] } 
+    "category_name": "여기에 이름 입력",
+    "items":[여기에 tab_id 입력] }
 ]}.
-기존 범주는: 
+기존 범주는:
 $categories
 보다 자세한 새 범주 목록(기존 및 새 범주 포함)과 항목을 유효한 JSON 형식으로 제시합니다.
 ```
@@ -765,7 +1149,18 @@ $categories
 
 이를 우리 코드 내에서 사용할 상수로 분리해 봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```rust
 const PROMPT_TEXT_START: &str = "아이템 목록을 제목과 id의 형태로 받게 됩니다. 제목과 URL을 기반으로 기존 카테고리를 사용하거나 새로 만들어 아이템을 분류해주세요.";
@@ -792,7 +1187,18 @@ let categories = payload.categories.iter().map(|it| {
 let prompt_slices = create_chunks_for_prompting(items_with_indexes);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 왜 청크를 사용하는 걸까요?
 
@@ -802,7 +1208,18 @@ let prompt_slices = create_chunks_for_prompting(items_with_indexes);
 
 이를 달성하기 위해 create_chunks_for_prompting 함수는 두 가지 작업을 수행해야 합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 우리 기본 프롬프트의 토큰 수를 세어 보세요.
 - API로 전송하는 데이터의 토큰 수를 세어 보세요.
@@ -814,36 +1231,47 @@ OpenAI 문서에 따르면, 토큰 하나는 대략 4개의 문자 크기로 보
 
 하지만, 그런 접근은 다른 문제로 이어지기 때문에, 이번에는 건너뛰고 간단한 방법을 사용하겠습니다 - split_whitespace 메서드를 사용해 토큰 길이의 근사치를 얻을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```rust
 fn create_chunks_for_prompting(items: Vec<Item>) -> Vec<Vec<Item>> {
-   
+
   // 데이터 내의 토큰
   let json_size = serde_json::to_string(&items).unwrap()
       .split_whitespace()
       .collect_vec()
       .len();
-  
+
   // 하드코딩된 프롬프트의 크기 구하기
   let hardcoded_prompt = format!("{a}{b}{c}",
                                  a =String::from(PROMPT_TEXT),
                                  b = String::from(PROMPT_TEXT_APPEND),
                                  c= String::from(PROMPT_TEXT_ENDING));
-  
+
   let hardcoded_prompt_size = hardcoded_prompt
       .split_whitespace()
       .len();
-  
+
   // 아이템을 나눌 청크의 수 계산
   let chunks_to_make = json_size / (2048 - hardcoded_prompt_size);
-  
+
   // 벡터를 N개의 청크로 나누기
   let chunk_size = items.chunks(items.len() /
                                     (if chunks_to_make > 0 {
                                     chunks_to_make
                                     } else { 1 }));
-                                    
+
   // 청크 목록 반환
   return chunk_size.map(|s| s.into()).collect();
 }
@@ -855,8 +1283,18 @@ fn create_chunks_for_prompting(items: Vec<Item>) -> Vec<Vec<Item>> {
 
 항목 목록을 [제목, ID] 형식의 문자열로 변환한 다음, 카테고리를 JSON으로 변환하여 이를 모두 결합하는 형식으로 하나의 프롬프트를 생성할 것입니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```rust
 fn build_prompt(items: Vec<Item>,
@@ -869,7 +1307,7 @@ fn build_prompt(items: Vec<Item>,
                                 .collect()
                                 .join(",");
     let categories_json = serde_json::to_string(&categories).unwrap();
-    
+
     format!("{prompt}\n{tabs}{middle}{categories}\n{ending}",
             prompt = String::from(PROMPT_TEXT_START),
             tabs = items_joined,
@@ -885,13 +1323,22 @@ fn build_prompt(items: Vec<Item>,
 
 그러니 우리의 Cargo.toml 파일에 이를 추가해 봅시다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 [의존성]
 ...
 reqwest = { version = "0.11", features = ["json"] }
-
 
 여기서 우리는 오래된 좋은 빌더 패턴을 통해 HTTP 클라이언트를 구축할 수 있습니다.
 
@@ -905,7 +1352,18 @@ let client = Client::builder()
 
 그러나 만약 우리가 prompt_open_ai 함수 내에서 클라이언트를 구축한다면, 우리는 각 요청마다 Client 인스턴스를 생성하게 될 것이므로, 대신 종속성을 만들어 sort_items 함수에 클라이언트 코드를 추가한 다음, 이를 sort_recursively 함수와 prompt_open_ai 함수에 전달하도록 하겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 HTTP 클라이언트를 한 번만 사용하여 /sort 호출당 한 번의 인스턴스만 사용할 수 있습니다. 그리고 prompt_open_ai 함수는 실제 API를 호출하고 결과를 받는 데 중점을 둘 수 있습니다.
 
@@ -915,7 +1373,18 @@ HTTP 클라이언트를 한 번만 사용하여 /sort 호출당 한 번의 인�
 
 openai라는 새 폴더를 만들고 그 안에 두 개의 새 파일을 만들어 주세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 우리 코드를 위한 mod.rs 파일
 - 우리 모델을 위한 models.rs 파일을 열어보세요.
@@ -949,7 +1418,18 @@ pub(crate) struct Choices {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 mod.rs 파일에서 prompt_open_ai 메서드를 구축할 수 있습니다. 이 메서드는 새로 생성된 AskGPT 모델을 OpenAI의 /completions 엔드포인트에 보낼 POST 요청을 함께 합니다.
 
@@ -975,7 +1455,18 @@ async fn prompt_open_ai(prompt_txt: String,
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결과가 나왔네요!
 
@@ -985,7 +1476,18 @@ async fn prompt_open_ai(prompt_txt: String,
 
 match 문은 러스트 개발 경험의 핵심이며, 강력한 패턴 매칭 기능을 제공하여 코드가 따라가는 모든 경로를 확실하게 다룰 수 있도록 도와줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Ian씨, 이건 무슨 특별한 점이 있는 걸까요? 이게 그냥 더 강력한 if/else일 뿐인 거 아닌가요?
 
@@ -995,7 +1497,18 @@ if/else나 switch 문들의 집합과 달리, match는 코드가 갈 수 있는 
 
 이게 왜 이렇게 초능력이라고 할까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 버그가 처리되지 않은 케이스로 인한 가능성을 줄이고 모든 가능한 케이스를 다루도록 강제하기 때문에 코드를 즉시 개선할 수 있습니다. 이는 코드의 가독성을 향상시키고 버그를 해결하며 유지보수성을 높이는 희귀한 도구 중 하나입니다.
 
@@ -1014,7 +1527,18 @@ match req {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 우리 Ok 브랜치에서는 안심하고 응답 객체에 접근할 수 있습니다. 에러 케이스에 대비했기 때문에 런타임 중에 충돌을 일으키지 않을 것입니다.
 
@@ -1023,7 +1547,7 @@ match req {
 ```js
 match response.status() {
     StatusCode::OK => {
-      // 흥미진진한 성공 
+      // 흥미진진한 성공
     }
     other => {
       // TODO 에러 처리
@@ -1033,7 +1557,18 @@ match response.status() {
 
 마지막으로, 본격적인 단계로 진행합니다 — 요청이 성공했다면, 응답을 담은 Completion 구조체로 본문을 역직렬화해야 합니다. 그러나 이 역시 실패할 수 있으므로 이 부분에서도 빠르게 매칭을 수행하고 완료 객체에서 응답을 추출해야 합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```rust
 match response.json::<Completion>().await {
@@ -1074,17 +1609,27 @@ match req {
                     Err(err) => Err(Parsing);
                 }
             }
-            other => Err(Server)          
+            other => Err(Server)
         }
     }
     Err(err) => Err(Connection)
 }
 ```
 
-축하합니다! 우리는 안전하게 요청을 보내고 이 과정에서 모든 안좋은 상황과 기쁜 상황을 모두 다루었습니다. 
+축하합니다! 우리는 안전하게 요청을 보내고 이 과정에서 모든 안좋은 상황과 기쁜 상황을 모두 다루었습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리 요청이 증가하면서, 이제 드디어 재귀적으로 정렬하는 함수인 sort_recursively 함수에 대해 작업을 시작할 수 있게 되었어요. 여기서 왜 재귀일까요? 왜냐하면 우리는 GPT3가 우리의 축소 함수로 작용하면서 리스트를 자기 자신에게 축소하고 있거든.
 
@@ -1094,7 +1639,18 @@ match req {
 
 먼저 우리의 프롬프트를 구축한 다음, prompt_open_ai로 보내고 응답을 역직렬화하려고 해요. 성공하면 기존의 카테고리들과 연결하고 남은 청크를 가지고 다시 sort_recursively에 전달합니다. 이를 계속해서 반복하여 남은 청크가 없을 때까지 반복합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```rust
 async fn sort_recursively(
@@ -1104,16 +1660,16 @@ async fn sort_recursively(
     let prompt = build_prompt(remaining.first().unwrap().to_vec(), sorted_categories);
     let ai_response = prompt_open_ai(prompt, &client).await.unwrap();
     let json = ai_response.as_str();
-    
+
     let generated = serde_json::from_str::<Categories>(json);
-    
+
     let result = generated.map_err(|err| err.to_string()).and_then(|res| {
         res.map_err(|err| err.to_string()).and_then(|wrapper| {
             let mut new_categories = wrapper.categories.to_owned();
             let mut next_slice = remaining.to_owned();
             next_slice.remove(0);
             next_categories.append(&mut new_categories);
-            
+
             if next_slice.len() != 0 {
                 sort_recursively(next_categories, next_slice, client).await
             } else {
@@ -1132,8 +1688,18 @@ The data will pass only through the corresponding operands so we can safely map 
 
 We’ll use it to reduce the first set of nested matches and we’ll leave the last one as a match. Why? Because async closures still aren’t stable in Rust it seems. We’ll map all the errors into an `Err(String)` format so we can return it properly.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```rust
 async fn sort_recursively(sorted_categories: Vec<CategoryWithItems>,
@@ -1159,10 +1725,10 @@ async fn sort_recursively(sorted_categories: Vec<CategoryWithItems>,
             next_categories.append(&mut new_categories);
             // 아직 끝나지 않았다면 재귀 호출
             if next_slice.len() != 0 {
-                sort_recursively(next_categories, 
+                sort_recursively(next_categories,
                                 next_slice,
                                 client).await
-                    .map_err(|e| 
+                    .map_err(|e|
                         format!("정렬 실패, 이유: {}", e))
             } else {
                 Ok(Categories { categories: next_categories })
@@ -1179,8 +1745,18 @@ async fn sort_recursively(sorted_categories: Vec<CategoryWithItems>,
 
 음, 한 가지 생각하지 못한 것은 비동기 재귀입니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이게 왜 문제가 됐는지 궁금하시죠?
 
@@ -1190,7 +1766,18 @@ Rust (그리고 다른 많은 언어들)에서 async/await가 어떻게 구현�
 
 은 폭발하는 것을 막기 위해, 재귀를 수정하여 Box에 포장된 Future를 반환해야 하는데, 그러면 힙에 대한 포인터만 얻게 되어 전체 객체가 아닌 포인터를 제공하여 내부적으로 무한 자기 참조를 방지할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 문제에 대해 좀 더 읽어보고 더 깊이 파고들어보시는 것을 추천드립니다. 많은 언어에서 나타나는 언어 디자인 질문과 개념들을 다루고 있습니다. 하지만 지금은 async_recursion 크레이트를 사용할 것이니, Cargo.toml로 이동해서 다음과 같이 추가해주세요:
 
@@ -1204,12 +1791,23 @@ async-recursion = "1.0.2"
 
 이제 이 문제를 해결했으므로, 원래의 sort_items 메서드로 돌아가서 마침내 API 요청에 응답할 차례입니다. 마지막으로 그곳에 Client 인스턴스를 추가한 채로, 그 아래로 내려가서 sort_recursively 메서드를 호출하고, map_err를 사용하여 오류를 ErrorResponse 구조체로 매핑하고, JSON으로 래핑하여 응답으로 반환하고, map을 사용하여 Ok 결과를 적절한 응답으로 바꿉니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 sort_recursively(categories, prompt_slices, client).await
-    .map_err(|e| 
-        (StatusCode::INTERNAL_SERVER_ERROR, 
+    .map_err(|e|
+        (StatusCode::INTERNAL_SERVER_ERROR,
         Json(ErrorResponse { message: e })).into_response())
     .map(|wrapper| {
         let new_categories = wrapper.categories.iter().map(|item| {
@@ -1231,7 +1829,18 @@ sort_recursively(categories, prompt_slices, client).await
 
 쉘에서 프로젝트 폴더를 열고 다음을 입력하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 카고 셔틀을 배포했습니다.
 
@@ -1241,7 +1850,18 @@ sort_recursively(categories, prompt_slices, client).await
 
 아, 맞다, JS 확장 프로그램을 작성 중이었죠. 서버가 올라와서 거의 다 완성됐어요. 확장 프로그램으로 이동해서 localhost 엔드포인트를 방금 셔틀로부터 받은 실제 엔드포인트로 교체하기만 하면 돼요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 확장 프로그램을 테스트하기 위해 작은 창에 로드하세요. 정렬 버튼을 누르고 잠시 기다리면 — 바로 그렇습니다! 탭이 마법처럼 올바른 그룹으로 정리될 것입니다! 마침내!
 
@@ -1251,7 +1871,18 @@ sort_recursively(categories, prompt_slices, client).await
 
 .....조금 더 기다려보세요...
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 잠시만 기다려주세요...
 
@@ -1261,7 +1892,18 @@ sort_recursively(categories, prompt_slices, client).await
 
 에러가 발생한 것 같네요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앗— 토큰 한도에 도달했네요!
 
@@ -1271,7 +1913,18 @@ sort_recursively(categories, prompt_slices, client).await
 
 그리고 재귀가 문제를 일으키고 있는 것 같아요— 각 프롬프트에 이전 카테고리를 모두 추가하는 방식으로 크기가 폭발적으로 증가하고 전체 체인을 완료하는 데 정말 매우 오랜 시간이 걸리고요— 60초보다 훨씬 더 말이에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 마지막으로, 카테고리가 조금... 별로네요.
 
@@ -1281,6 +1934,17 @@ sort_recursively(categories, prompt_slices, client).await
 
 지금까지 읽어 주셔서 감사합니다. 다음 시리즈에서 계속해서 발전하고 잠재적 문제를 해결할 예정이니 걱정 마시고 '인간 대 기계'의 다음 에피소드에서 만나요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `<img src="/assets/img/2024-05-20-Sorting400Tabsin60SecondsWithJavaScriptRustandGPT-3_7.png" />`

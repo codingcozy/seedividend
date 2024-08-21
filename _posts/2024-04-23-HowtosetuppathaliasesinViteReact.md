@@ -3,17 +3,13 @@ title: "Vite React에서 경로 alias 설정하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How to setup path aliases in Vite React"
 link: "https://medium.com/@devxprite/how-to-setup-path-aliases-in-vite-df955939ffe8"
 isUpdated: true
 ---
-
-
-
-
 
 이미 React 프로젝트에서 파일에 대한 올바른 경로를 찾느라 import 문들의 미로에 갇힌 적이 있나요? "../../assets/_" 또는 "../../../assets/_"와 같은 귀찮은 import를 제거할 더 나은 방법이 있을 것이라고 생각해 본 적이 있나요? 그렇다면 혼자가 아닙니다. 다행스럽게도 프로젝트 루트를 참조하기 쉽게 해주는 해결책이 있습니다. 이는 모듈 해결 오류를 해결하고 더 깔끔하고 효율적인 코딩 경험을 위해 궁금증을 자극합니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ## React Vite 프로젝트 설정하기:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 경로 별칭에 대해 알아보기 전에 React Vite 프로젝트를 설정해 봅시다. 아직 프로젝트를 설정하지 않은 경우 다음 명령을 사용하여 새 프로젝트를 생성할 수 있습니다:
 
@@ -37,7 +44,18 @@ npm install
 
 절대 경로를 사용하도록 앱을 구성하려면 프로젝트 디렉터리 루트에 있는 vite.config.js 파일에서 별칭을 해결해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```json
 {
@@ -57,7 +75,18 @@ npm install
 import Button from "@/components/Button";
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 경로 별칭을 사용할 수 있습니다:
 

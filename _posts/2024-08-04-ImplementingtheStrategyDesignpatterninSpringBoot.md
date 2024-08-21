@@ -3,16 +3,13 @@ title: "Spring Boot에서 전략 디자인 패턴을 구현하는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-04-ImplementingtheStrategyDesignpatterninSpringBoot_0.png"
 date: 2024-08-04 18:57
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-04-ImplementingtheStrategyDesignpatterninSpringBoot_0.png
 tag: Tech
 originalTitle: "Implementing the Strategy Design pattern in Spring Boot"
 link: "https://medium.com/codex/implementing-the-strategy-design-pattern-in-spring-boot-df3adb9ceb4a"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-08-04-ImplementingtheStrategyDesignpatterninSpringBoot_0.png" />
 
@@ -22,14 +19,25 @@ isUpdated: true
 
 # 문제
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파일 구문 분석이라는 기능에 작업 중이라고 가정해보겠습니다. 파일을 업로드하여 시스템이 데이터를 추출하고 데이터를 데이터베이스에 보관할 수 있는 API를 작성해야 합니다. 현재는 CSV, JSON 및 XML 파일을 지원하도록 요청받았습니다. 즉각적인 솔루션은 아래와 같이 보일 것입니다.
 
 ```java
 @Service
 public class FileParserService {
-  
+
   public void parse(File file, String fileType) {
     if (Objects.equals(fileType, "CSV")) {
       // TODO : CSV 파일 구문 분석 및 데이터를 db에 보관하는 방대한 구현
@@ -41,7 +49,7 @@ public class FileParserService {
       throw new IllegalArgumentException("지원되지 않는 파일 형식");
     }
   }
-  
+
 }
 ```
 
@@ -49,7 +57,18 @@ public class FileParserService {
 
 뿐만 아니라 또 다른 문제가 있습니다. 이제 추가로 sqlite와 parquet 파일 형식을 지원해야 한다고 가정해봅시다. 두 명의 개발자가 들어가서 같은 방대한 클래스에서 작업하기 시작할 것입니다. 머지 충돌이 발생할 가능성이 매우 높으며, 이는 개발자에게 거슬리는 일 뿐만 아니라 해결하는 데 시간이 많이 걸립니다. 무엇보다도 충돌 해결 후에도 기능이 전체적으로 작동하는 데 대한 신뢰가 감소될 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 해결 방법
 
@@ -59,7 +78,18 @@ public class FileParserService {
 
 ![다이어그램](/assets/img/2024-08-04-ImplementingtheStrategyDesignpatterninSpringBoot_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자, 이제 코드로 들어가 봅시다.
 
@@ -75,7 +105,18 @@ public class FileType {
 
 File Parser를 위한 인터페이스를 만들어 보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 public interface FileParser {
@@ -88,48 +129,70 @@ public interface FileParser {
 ```js
 @Service(FileType.CSV)
 public class CsvFileParser implements FileParser {
-  
+
   @Override
   public void parse(File file) {
     // TODO : csv 파일 파싱하는 구현부
   }
-  
+
 }
 ```
 
 ```js
 @Service(FileType.JSON)
 public class JsonFileParser implements FileParser {
-  
+
   @Override
   public void parse(File file) {
     // TODO : json 파일 파싱하는 구현부
   }
-  
+
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 @Service(FileType.XML)
 public class XmlFileParser implements FileParser {
-  
+
   @Override
   public void parse(File file) {
     // TODO : impl to parse xml file
   }
-  
+
 }
 ```
 
-위 빈들에 대해 사용자 지정 이름을 제공했다는 점에 주목해주세요. 이는 이 세 개의 빈을 필요한 클래스에 모두 주입할 수 있게 도와줄 것입니다. 
+위 빈들에 대해 사용자 지정 이름을 제공했다는 점에 주목해주세요. 이는 이 세 개의 빈을 필요한 클래스에 모두 주입할 수 있게 도와줄 것입니다.
 
 이제 파일 유형에 따라 위 구현 중 하나를 선택하는 방법을 찾아야 합니다.
 
 FileParserFactory 클래스를 만들어봅시다. 이 클래스는 런타임 중에 파일 유형을 기반으로 어떤 구현체를 선택할지 결정하는 역할을 합니다. 우리는 스프링 부트의 멋진 의존성 주입 기능을 활용하여 런타임 중에 적절한 전략을 가져올 것입니다. (자세한 내용은 아래 코드 블록의 주석을 참조하거나 [2]를 참고하세요.)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 @Component
@@ -169,20 +232,31 @@ public class FileParserFactory {
 @Service
 @RequiredArgsConstructor
 public class FileParserService {
-  
+
   private final FileParserFactory fileParserFactory;
-  
+
   public void parse(File file, String fileType) {
     FileParser fileParser = fileParserFactory.get(fileType);
     fileParser.parse(file);
   }
-  
+
 }
 ```
 
 완료되었습니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -192,7 +266,18 @@ public class FileParserService {
 
 또한, 우리의 코드는 이제 SOLID 원칙과 특히 우리가 사랑하는 개방/폐쇄 원칙과 조화를 이룹니다. 파일 파싱 구현을 개별 클래스로 캡슐화함으로써, 기존 코드를 수정하지 않고도 시스템을 새로운 파싱 전략으로 확장할 수 있습니다. 이렇게 하면 시스템이 미래 요구 사항에 더 적응 가능하고 유지보수가 더 쉬워집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 글의 전체 코드는 제 GitHub에서 확인하실 수 있어요.
 

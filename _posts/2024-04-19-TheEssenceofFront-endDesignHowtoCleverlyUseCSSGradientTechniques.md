@@ -3,17 +3,13 @@ title: "CSS 그라데이션 활용하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "The Essence of Front-end Design How to Cleverly Use CSS Gradient Techniques"
 link: "https://medium.com/gitconnected/the-essence-of-front-end-design-how-to-cleverly-use-css-gradient-techniques-ddc2a50c3fa1"
 isUpdated: true
 ---
-
-
-
-
 
 ![CSS Gradient](/assets/img/TheEssenceofFront-endDesignHowtoCleverlyUseCSSGradientTechniques_0.png)
 
@@ -21,7 +17,18 @@ CSS 그라데이션은 프론트엔드 디자인에서 강력하고 섬세한 �
 
 프론트엔드 개발자로써 그라데이션을 생각해 볼 때, 먼저 떠오르는 것은 CSS 그라데이션입니다. 그러나 저는 거의 직접 쓰지 않습니다. 일반적으로 페이지를 자르는 경우에는 그런 효과가 거의 없습니다. 있더라도 대부분은 Sketch로부터 내보낸 CSS를 직접 복사해온 것입니다 🤪.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS에는 선형, 원형 및 원뿔형의 세 가지 그라데이션 유형이 있습니다. 바로 구문과 데모를 던지는 것은 조금 혼란스러울 수 있습니다. 먼저 위키피디아에서 제공한 그라데이션 정의를 살펴보겠습니다:
 
@@ -32,7 +39,18 @@ CSS에는 선형, 원형 및 원뿔형의 세 가지 그라데이션 유형이 �
 
 어떤 종류의 그라데이션이든 위에서 언급한 두 부분으로 구성됩니다. 전형적인 구문은 xx-gradient(방향, 색상 중지, 색상 중지 ...)입니다. 다양한 그라데이션 색상 중지는 일관성이 있으므로 그라디언트 방향을 결정하는 매개 변수를 구분하면 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 선형 그라데이션
 
@@ -46,7 +64,18 @@ CSS에는 선형, 원형 및 원뿔형의 세 가지 그라데이션 유형이 �
 
 위 코드는 색상이 90도 방향(왼쪽에서 오른쪽)으로 진행되는 선형 그라데이션을 정의하며, 파란색부터 핑크, 그리고 초록색까지 서서히 변화하며 각 색상의 위치를 정의합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이펙트는 사진에 나와 있는 대로입니다:
 
@@ -56,7 +85,18 @@ CSS에는 선형, 원형 및 원뿔형의 세 가지 그라데이션 유형이 �
 
 원형 그라데이션은 색상 중지점이 원 또는 타원을 따라 앞으로 이동합니다. 그라이언트의 방향을 결정하려면 그냥 원 또는 타원의 중심을 식별하면 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .radial {
@@ -70,7 +110,18 @@ CSS에는 선형, 원형 및 원뿔형의 세 가지 그라데이션 유형이 �
 
 ## 원뿔 그라디언트
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 원뿔 그라데이션에서는 색 중지점이 중심점을 기준으로 회전하며, 각 색 중지점은 sector 모양의 영역을 형성합니다. 방사형 그라데이션과 유사하게 중심점을 찾아야 합니다. 또한 중심점을 중심으로 회전하므로 초기 회전 각도도 결정해야 합니다.
 
@@ -89,7 +140,18 @@ CSS에는 선형, 원형 및 원뿔형의 세 가지 그라데이션 유형이 �
 
 더 많은 정보를 원하시면 MDN을 방문해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 더 알아보기
 
@@ -108,7 +170,18 @@ CSS에는 선형, 원형 및 원뿔형의 세 가지 그라데이션 유형이 �
 
 더 많은 효과에 대한 정보는 MDN에서 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS 그라데이션의 능력은 매우 강력합니다. 모든 것은 창의력에 달려 있어요. 🤔
 
@@ -118,7 +191,18 @@ CSS 그라데이션의 능력은 매우 강력합니다. 모든 것은 창의력
 
 ## 캔버스
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 선형 그라데이션은 createLinearGradient(x1, y1, x2, y2)을 사용하며, 방향을 결정하기 위해 각도를 사용하는 CSS 선형 그라데이션과는 다릅니다. 네 개의 매개변수는 그라데이션의 시작점(x1, y1)과 끝점(x2, y2)을 나타냅니다.
 
@@ -132,7 +216,18 @@ const lineargradient = ctx.createLinearGradient(0, 0, 150, 150);
 const radialgradient = ctx.createRadialGradient(75, 75, 0, 75, 75, 100);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 희석 영역과 방향을 결정한 후에는 그라디언트에 색상 중지점을 추가할 수 있어요:
 
@@ -145,7 +240,18 @@ lineargradient.addColorStop(1, "black");
 
 파브릭터 내의 그라디언트는 fabric.js를 기반으로 구현되어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파브릭.js의 그라데이션은 Canvas 그라데이션 API를 캡슐화하며, 소스 코드 위치는 다음과 같습니다:
 
@@ -154,21 +260,9 @@ lineargradient.addColorStop(1, "black");
 var gradient;
 
 if (this.type === "linear") {
-  gradient = ctx.createLinearGradient(
-    coords.x1,
-    coords.y1,
-    coords.x2,
-    coords.y2
-  );
+  gradient = ctx.createLinearGradient(coords.x1, coords.y1, coords.x2, coords.y2);
 } else if (this.type === "radial") {
-  gradient = ctx.createRadialGradient(
-    coords.x1,
-    coords.y1,
-    coords.r1,
-    coords.x2,
-    coords.y2,
-    coords.r2
-  );
+  gradient = ctx.createRadialGradient(coords.x1, coords.y1, coords.r1, coords.x2, coords.y2, coords.r2);
 }
 
 for (i = 0, len = this.colorStops.length; i < len; i++) {
@@ -186,7 +280,18 @@ return gradient;
 
 # CSS 텍스트 그라데이션
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Canvas에서 fill 속성이 채우기에 사용된다는 것을 알았는지 궁금해요. 따라서 모든 모양과 텍스트에 그라데이션 색상을 적용할 수 있어요. CSS에서 그라데이션은 일반적으로 배경 또는 background-image 속성 내에서 사용되며, 일반적으로 배경에 사용되어요. 텍스트 색상은 color 속성을 사용하여 설정해요. 저는 color 속성에 그라데이션을 설정해 보았지만 작동하지 않았어요.
 
@@ -202,7 +307,18 @@ background-image: linear-gradient(45deg, #f3ec78, #af4261);
 
 background-clip 속성을 text로 설정하여 배경을 텍스트의 전경 색상으로 클리핑하는 것이 중요해요. 여기서 텍스트를 투명하게 설정하면 텍스트가 그라데이션 색상으로 표시될 거에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # SVG 그라데이션
 
@@ -211,11 +327,7 @@ SVG는 점점 더 많이 사용되고 있으며 대부분의 아이콘 라이브
 SVG에서 그라데이션을 설정하려면 먼저 그라데이션 SVG가 필요합니다.😂:
 
 ```js
-<svg
-  style="width:0;height:0;position:absolute;"
-  aria-hidden="true"
-  focusable="false"
->
+<svg style="width:0;height:0;position:absolute;" aria-hidden="true" focusable="false">
   <linearGradient id="my-cool-gradient" x1="0" y1="0" x2="1" y2="1">
     <stop offset="0%" stop-color="#447799" />
     <stop offset="50%" stop-color="#224488" />
@@ -224,7 +336,18 @@ SVG에서 그라데이션을 설정하려면 먼저 그라데이션 SVG가 필�
 </svg>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신은 문법에 차이가 있음을 제외하고 캔버스에 있는 것과 일대일 대응한다는 것을 알게 될 거에요.
 
@@ -238,17 +361,23 @@ CSS 설정은 다음과 같을 수 있어요:
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 포함 속성은 인라인으로 직접 설정할 수도 있어요:
 
 ```js
-<svg
-  class="icon"
-  fill="url(#my-cool-gradient) #447799;"
-  aria-hidden="true"
-  focusable="false"
->
+<svg class="icon" fill="url(#my-cool-gradient) #447799;" aria-hidden="true" focusable="false">
   <use xlink:href="#symbol-id"></use>
 </svg>
 ```
@@ -257,7 +386,18 @@ CSS 설정은 다음과 같을 수 있어요:
 
 파브리터를 경험했다면, 텍스트를 그라데이션 색상으로 설정한 후에 툴바에 있는 아이콘도 그라데이션 색상으로 표시되는 것을 발견할 거에요. 이것은 위의 방법을 사용해서 달성되었어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또한 fabric.js에는 캔버스 그라데이션을 SVG 그라데이션으로 변환하는 toSVG 메서드가 있는데, gradient 클래스를 사용합니다.
 

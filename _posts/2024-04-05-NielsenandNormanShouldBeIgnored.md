@@ -3,17 +3,13 @@ title: "닐슨과 놀만은 무시해도 좋다"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Nielsen and Norman Should Be Ignored"
 link: "https://rbefored.com/nielsen-and-norman-should-be-ignored-3908aca8085b"
 isUpdated: true
 ---
-
-
-
-
 
 우리는 그들과 그 외 1990년대 최고의 시대를 보낸 사람들을 따라야 한다는 이야기를 듣고 그들을 쳐다봤습니다. 하지만 나는 이 사람들이 정말 누구인지와 오늘의 중요성을 의심합니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ![니엘슨과 노만은 무시해도 좋다](/assets/img/NielsenandNormanShouldBeIgnored_0.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 우리는 영웅이라고 생각했던 사람들에게 더 나은 것을 기대했기 때문에 놀라고 화가 났어요.
 
@@ -31,7 +38,18 @@ isUpdated: true
 
 트윗을 읽었어요. Fast Company의 돈 노먼(Don Norman)에 관한 기사도 읽었고요. 그들의 엘리트적인 일자리 조건들도 읽었어요, 적어도 여섯 개의 일자리를 하나로 합친 파트타임 일자리를 포함한 새로운 일자리도요. 뉴앤지(NNg)가 돈 노먼이 반대했던 버전을 가르쳐 돈을 벌고 있는 동안 돈 노먼이 가장 혐오했던 대부분의 디자인 생각을 비난했다는 걸 공개적으로 말하면서 봤어요. 나쁜 UX 기술, 간소화된 UX 기술, 그리고 디자인 생각, Lean UX, 그리고 기타 기법에 대해 NNg가 반대할 것으로 기대했는데요. 하지만 그들은 우리를 배신했고, 가짜와 나쁜 UX를 가르치고 돈을 벌어들입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 노만이 UX 교육을 재정의할 것이라고 주장하는 것을 보았어요. 그런데 현재 UX가 무엇이며 모든 수준에서 얼마나 악의적인지에 대해 거의 알지 못했어요. 대부분의 UX 직업이 어떻게 되어버린지에 대한 참혹한 현실에 대해 알지 못했어요. 그래서 우리는 사람들을 어떤 일들에 대해 교육해야 할까요? 그것에 대해선 알지 못 했죠.
 
@@ -41,7 +59,18 @@ NNg의 교육에 실망하여 한 과정에 대한 환불을 받았고, 다른 �
 
 상황이 매우 심각해졌기에, 일부 사람들이 닐슨이 유령작가였다고 추측했거나, 일부 사람들이 그들이 나이로 인해 노인이 되어 정상적으로 기능하지 않는다고 제안하기도 했어요. 그건 나이차별적인 발언 같아요. 왜 이런 행동을 변명해야 하는 걸까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 최근 LinkedIn에 나와서 "아니, 이 사람은 2008년에 다룬 것과 똑같아"라고 말하는 사람들이 있습니다.
 
@@ -51,7 +80,18 @@ NNg의 교육에 실망하여 한 과정에 대한 환불을 받았고, 다른 �
 
 우리에게는 "Nielsen 문제"가 없습니다. 그들에 대해 더 이상 언급할 필요가 없습니다. 그들은 스스로 관련성을 상실했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나는 그들의 모든 메일링 목록과 뉴스레터를 구독 해지했습니다. 링크드인에서 그들을 팔로우하지 않았어요. 그들의 채용 정보에 지원하지 않았습니다. 그들의 강의를 수강하지 않았어요. 그들이 하는 말이나 행동에 흥미가 없어요.
 
@@ -61,7 +101,18 @@ NNg의 교육에 실망하여 한 과정에 대한 환불을 받았고, 다른 �
 
 # 보너스:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 양성통 같이 그 어느 누구든 1990년대에 최고의 날을 가졌던 사람들과, 우리를 팔아 먹었던 사람들을 넣어 주세요. 누구나 UX를 할 수 있다고 생각하는 기차 회사, 모두가 디자이너라고 말하는 사람, 그리고 애자일 팀이 UX 작업을 할 때 더 나은 결과를 얻을 수 있다는 사람들을 넣어 주세요. 2024년에 해고를 당하지 않을 것을 약속하면서 당신에게 팔고 싶어 하는 사람들도 여기에 넣어 주세요. 이 조언이 모두에게 도움이 될까요? 가능하다고 하지만 그럴 확률은 낮습니다.
 
@@ -71,7 +122,18 @@ NNg의 교육에 실망하여 한 과정에 대한 환불을 받았고, 다른 �
 
 이 양성통 같이 일을 하다가 일을 이야기하는 데 전환한 사람들을 넣어 주세요. 오랫동안 일을 보지 않아서 현실에서 떨어진 사람들도 여기에 포함됩니다. 기업 교육, 특히 우리를 팔아 먹는 기법들은 제외하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 UX 및 UX와 관련된 도메인에는 주로 두 마디로 말하면 인기를 끌게 된 "충신"들이 많이 있습니다. 이들은 회사에 듣고 싶은 말을 하면서 UX에게는 우리 잘못이라고 말합니다. 우리의 고난, 우리의 문제입니다. 이것은 항상 비판적 사고를 요구하는 이유 중 하나입니다.
 
@@ -81,7 +143,18 @@ UX 및 UX와 관련된 도메인에는 주로 두 마디로 말하면 인기를 
 
 저희와 연락하거나 더 자세히 알려주세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - CustomerCentricity.com — 저희 웹사이트
 - youtube.com/@cx-cc — YouTube 채널

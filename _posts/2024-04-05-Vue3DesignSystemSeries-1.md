@@ -3,17 +3,13 @@ title: "Vue 3 디자인 시스템으로 재사용 가능한 디자인 만들기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Vue 3 Design System Series -1"
 link: "https://medium.com/@ademyalcin27/vue-3-design-system-series-1-59ee543ccf40"
 isUpdated: true
 ---
-
-
-
-
 
 # 설치 및 재사용 가능한 입력 컴포넌트 생성
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 Nuxt 3는 웹 애플리케이션을 구축하는 방식을 혁신적으로 변화시켰습니다. 더 효율적이고 유연한 프레임워크를 제공합니다. 효율적이고 일관된 사용자 인터페이스를 만드는 데 중요한 부분은 잘 구조화된 디자인 시스템입니다. 이 글에서는 Vue 3 디자인 시스템 킷 중에서 특별히 입력 컴포넌트에 집중합니다. 실제 킷의 코드를 사용하여 설정, 구조 및 스타일링을 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 디자인 시스템 컴포넌트를 탐험하기 전에 Nuxt 3 프로젝트가 설정되어 있는지 확인해주세요. nuxi를 사용하여 쉽게 새 프로젝트를 만들 수 있습니다.
 
@@ -35,7 +42,18 @@ Nuxt 3는 웹 애플리케이션을 구축하는 방식을 혁신적으로 변�
 npx nuxi@latest init <프로젝트명>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2- Tailwind CSS 설치하기
 
@@ -47,7 +65,18 @@ npm install -D @nuxtjs/tailwindcss
 
 2. nuxt.config의 modules 섹션에 추가하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // nuxt.config.ts
@@ -64,7 +93,18 @@ npx tailwindcss init
 
 4. 직접 Tailwind CSS 파일을 만들 계획이라면, 각 Tailwind 레이어 유형(base, components, utilities)에 대해 @tailwind 지시문을 추가해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 @tailwind base;
@@ -84,7 +124,18 @@ export default defineNuxtConfig({
 
 # 3- Font Awsome 설정
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1. 먼저 @fortawesome/fontawesome-svg-core 및 사용할 아이콘 패키지를 설치하세요.
 
@@ -108,7 +159,18 @@ config.autoAddCss = false;
 library.add(fas);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3- `nuxt.config.ts` 파일을 수정하여 `export default defineNuxtConfig()`에 다음 코드를 추가해주세요.
 
@@ -122,7 +184,18 @@ export default defineNuxtPlugin((nuxtApp) => {
 
 ## 1- 입력 컴포넌트 템플릿 부분
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 동적 레이블: 레이블 요소는 :for 바인딩을 통해 입력 필드와 연결되어 접근성을 향상시킵니다.
 - 유연한 입력 필드: input 클래스는 v-model로 동적으로 변경되며, clearable 및 error와 같은 상태를 처리합니다.
@@ -173,7 +246,18 @@ export default defineNuxtPlugin((nuxtApp) => {
 - 계산된 속성: showClearable은 clear 아이콘이 표시되어야 하는 조건을 결정합니다.
 - Clear 함수: clearInput은 입력 필드를 지우는 논리를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <script setup lang="ts">
@@ -252,7 +336,18 @@ function clearInput() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 모든 튜토리얼을 시청하고 싶다면.
 

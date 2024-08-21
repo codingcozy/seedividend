@@ -3,17 +3,13 @@ title: "linear-gradient를 활용한 border 애니메이션 5가지 만들기"
 description: "linear-gradient, conic-gradient 등을 활용해 border 애니메이션을 만드는 방법에 대해서 공유합니다"
 coverImage: ""
 date: 2024-08-03 16:52
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # linear-gradient를 활용한 여러가지 border 애니메이션 5가지
 
@@ -31,7 +27,18 @@ isUpdated: true
 **5. 색깔이 변하는 border 애니메이션**
 ![5](./img/hue_box.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ---
 
@@ -85,7 +92,18 @@ isUpdated: true
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 결과
 
@@ -113,14 +131,27 @@ border: 1px dotted #333;
 하지만 border는 따로 animation을 제공하지 않기 때문에 움직이는 점선 애니메이션을 만들 수 없습니다.
 그렇기 때문에 다른 방법으로 점선을 구현해야 합니다. 점선은 `linear-gradient` 로 아래와 같이 구현할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 .dotted_box {
-  background: linear-gradient(90deg, #333 50%, transparent 50%) 0 0 / 4px 1px repeat-x,
-    /* 상 */ linear-gradient(90deg, #333 50%, transparent 50%) 0 100% / 4px 1px repeat-x,
-    /* 하 */ linear-gradient(0, #333 50%, transparent 50%) 0 0 / 1px 4px repeat-y,
-    /* 좌 */ linear-gradient(0, #333 50%, transparent 50%) 100% 0 / 1px 4px repeat-y; /* 우 */
+  background: linear-gradient(90deg, #333 50%, transparent 50%) 0 0 / 4px 1px repeat-x, /* 상 */ linear-gradient(
+        90deg,
+        #333 50%,
+        transparent 50%
+      ) 0 100% / 4px 1px repeat-x, /* 하 */ linear-gradient(0, #333 50%, transparent 50%) 0 0 / 1px 4px repeat-y, /* 좌 */
+      linear-gradient(0, #333 50%, transparent 50%) 100% 0 / 1px 4px repeat-y; /* 우 */
 }
 ```
 
@@ -153,7 +184,18 @@ border: 1px dotted #333;
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 결과
 
@@ -174,7 +216,18 @@ border 속성으로는 지원하지 않지만 `linear-gradient`로 아래와 같
 위와 같은 스펙을 지원하는 css 속성은 없으니 다른 방법으로 만들어야겠다는 생각이 듭니다.
 이번에도 테두리만 보이지만 사각형을 활용해 볼 수 있을 것 같습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 .rotated_box {
@@ -188,16 +241,27 @@ border 속성으로는 지원하지 않지만 `linear-gradient`로 아래와 같
     background-repeat: no-repeat;
     background-size: 50% 50%;
     background-position: 0 0, 100% 0, 100% 100%, 0 100%;
-    background-image: linear-gradient(#399953, #399953), linear-gradient(
-        #fbb300,
-        #fbb300
-      ), linear-gradient(#d53e33, #d53e33), linear-gradient(#377af5, #377af5);
+    background-image: linear-gradient(#399953, #399953), linear-gradient(#fbb300, #fbb300), linear-gradient(
+        #d53e33,
+        #d53e33
+      ), linear-gradient(#377af5, #377af5);
     animation: rotate 3s linear infinite;
   }
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![3](./img/rainbow_box.png)
 
@@ -221,10 +285,10 @@ border 속성으로는 지원하지 않지만 `linear-gradient`로 아래와 같
     background-repeat: no-repeat;
     background-size: 50% 50%;
     background-position: 0 0, 100% 0, 100% 100%, 0 100%;
-    background-image: linear-gradient(#399953, #399953), linear-gradient(
-        #fbb300,
-        #fbb300
-      ), linear-gradient(#d53e33, #d53e33), linear-gradient(#377af5, #377af5);
+    background-image: linear-gradient(#399953, #399953), linear-gradient(#fbb300, #fbb300), linear-gradient(
+        #d53e33,
+        #d53e33
+      ), linear-gradient(#377af5, #377af5);
     animation: rotate 3s linear infinite;
   }
 }
@@ -244,7 +308,18 @@ border 속성으로는 지원하지 않지만 `linear-gradient`로 아래와 같
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 4. 빛나는 border 애니메이션
 
@@ -266,11 +341,7 @@ border 속성으로는 지원하지 않지만 `linear-gradient`로 아래와 같
     top: -50%;
     width: 200%;
     height: 200%;
-    background: conic-gradient(
-      transparent,
-      rgba(168, 239, 255, 1),
-      transparent 30%
-    );
+    background: conic-gradient(transparent, rgba(168, 239, 255, 1), transparent 30%);
   }
 }
 ```
@@ -279,7 +350,18 @@ border 속성으로는 지원하지 않지만 `linear-gradient`로 아래와 같
 
 이제 이 `::before` 가상 요소를 무지개 애니메이션 때와 같이 회전시켜주고 `::after` 요소를 이용해 내부 컨텐츠를 채워주면 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 결과
 
@@ -314,7 +396,18 @@ border 속성으로는 지원하지 않지만 `linear-gradient`로 아래와 같
 이렇게 그라디언트 border를 적용 했으면 `hue-rotate` 속성과 애니메이션으로 색상을 변경해 주면 됩니다.
 `hue-rotate`는 각도 값을 넣어주면 되며, 아래 사진과 같은 색상환에 따라서 색상이 노출됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 hue-ratote(angle)

@@ -3,17 +3,13 @@ title: "End-to-End CI CD 파이프라인 구현하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-01-End-to-EndCICDPipelineImplementation_0.png"
 date: 2024-07-01 00:17
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-01-End-to-EndCICDPipelineImplementation_0.png
 tag: Tech
 originalTitle: "End-to-End CI CD Pipeline Implementation"
 link: "https://medium.com/devops-dev/building-an-end-to-end-ci-cd-pipeline-with-jenkins-7ef2205d7988"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-07-01-End-to-EndCICDPipelineImplementation_0.png)
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 Jenkins는 유연성과 다양한 플러그인 옵션으로 유명하여, CI/CD 파이프라인을 만드는 데 선도하는 도구입니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 블로그 포스트에서는 Jenkins를 사용한 CI/CD 파이프라인의 전체 설정을 안내합니다. 젠킨스 구성부터 버전 관리 시스템과 통합, 빌드, 테스트, 배포 오케스트레이션까지 모두 다룰 예정입니다. 소프트웨어 전달 프로세스를 개선하는 데 도움이 되도록 제작되었습니다.
 
@@ -40,7 +46,18 @@ Jenkins는 유연성과 다양한 플러그인 옵션으로 유명하여, CI/CD 
 - 쿠버네티스 배포 관리를 위한 ArgoCD 및 Helm
 - 컨테이너 오케스트레이션을 위한 쿠버네티스
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LinkedIn에서 연락할 것이 있으면 언제든지 연락해주세요.
 
@@ -48,9 +65,20 @@ LinkedIn에서 연락할 것이 있으면 언제든지 연락해주세요.
 
 자바 애플리케이션의 Jenkins 파이프라인을 위한 기반을 설정하기 위해 Git을 구성하는 것부터 시작해보겠습니다:
 
-- 개인 Git 저장소 만들기: 
+- 개인 Git 저장소 만들기:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 원하는 Git 호스팅 플랫폼(예: GitHub, GitLab)을 방문해주세요.
 - 계정에 로그인하거나 계정이 없다면 가입해주세요.
@@ -65,7 +93,18 @@ LinkedIn에서 연락할 것이 있으면 언제든지 연락해주세요.
 
 3. 저장소를 로컬로 복제하기:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 여기서 소스 코드를 찾으세요.
 - Git Bash나 터미널을 열어주세요.
@@ -80,17 +119,40 @@ git clone <URL>
 
 # EC2 인스턴스 생성하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금 우리는 테라폼을 사용하여 자동화할 수도 있지만, 이해를 돕기 위해 이 과정을 수동으로 진행하겠습니다.
 
 1. AWS 콘솔에 로그인합니다:
-    - AWS 관리 콘솔에 접속하세요.
-    - AWS 계정 자격 증명을 사용하여 로그인하세요. 계정이 없는 경우 새로 생성해야 합니다.
+
+   - AWS 관리 콘솔에 접속하세요.
+   - AWS 계정 자격 증명을 사용하여 로그인하세요. 계정이 없는 경우 새로 생성해야 합니다.
 
 2. EC2 대시보드로 이동합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 콘솔 상단에 있는 "Services" 메뉴를 찾아주세요.
 - "Compute" 섹션 아래에 있는 "EC2"를 클릭하여 EC2 대시보드로 이동해주세요.
@@ -101,19 +163,41 @@ git clone <URL>
 
 4. 태그 추가:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 5. 이미지 태그와 이름을 추가하여 인스턴스를 더 잘 정리하고 관리합니다.
 
-    - AMI 선택:
+   - AMI 선택:
 
-    - 사전 구성된 서버 템플릿인 AMI 목록이 표시됩니다. 이것들은 다른 운영 체제와 설정을 포함할 수 있습니다.
-    
-    - 요구 사항에 맞는 AMI를 선택하십시오. 초보자에게는 Amazon Linux AMI나 기본 Ubuntu Server가 가장 쉬운 옵션이 될 수 있습니다.
+   - 사전 구성된 서버 템플릿인 AMI 목록이 표시됩니다. 이것들은 다른 운영 체제와 설정을 포함할 수 있습니다.
+
+   - 요구 사항에 맞는 AMI를 선택하십시오. 초보자에게는 Amazon Linux AMI나 기본 Ubuntu Server가 가장 쉬운 옵션이 될 수 있습니다.
 
 6. 인스턴스 유형 선택:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 필요에 맞는 인스턴스 유형을 선택하세요.
 - 기본 옵션(일반적으로 t2.micro 인스턴스)은 테스트와 소규모 워크로드에 적합하며 무료 티어 대상입니다.
@@ -127,7 +211,18 @@ git clone <URL>
 
 8. 인스턴스 세부정보 구성:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 9. 보안 그룹 구성:
 
@@ -136,7 +231,18 @@ git clone <URL>
 
 10. 스토리지 추가:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 루트 볼륨의 크기를 지정합니다 (일반적으로 기본 설정이 테스트 목적으로 적합합니다).
 
@@ -147,7 +253,18 @@ git clone <URL>
 
 ![이미지](/assets/img/2024-07-01-End-to-EndCICDPipelineImplementation_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 인스턴스에 액세스하기
 
@@ -157,7 +274,18 @@ git clone <URL>
 
 Windows 기기에서 EC2 인스턴스에 SSH하기 위해 Mobaxterm을 사용하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - MobaXterm을 다운로드하고 설치하세요.
 - 데스크톱이나 시작 메뉴에서 MobaXterm을 엽니다.
@@ -172,7 +300,18 @@ Windows 기기에서 EC2 인스턴스에 SSH하기 위해 Mobaxterm을 사용하
 
 Java 설치하기:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제단을 실행하기 전에 서버에 Java를 설치해야 합니다. Jenkins는 OpenJDK와 Oracle Java 둘 다 호환되지만, 일반적으로 OpenJDK에서 최적의 성능을 발휘합니다.
 
@@ -186,7 +325,18 @@ java -version
 
 제단을 설치하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 서버에 Java가 설치되어 있고 준비가 되었으므로 다음 단계는 Jenkins를 설치하는 것입니다. 설치를 진행하는 두 가지 옵션이 있습니다: 스크립트 사용 또는 수동 명령 실행.
 
@@ -198,7 +348,18 @@ java -version
 vim install_jenkins.sh
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - i키를 눌러 삽입 모드로 전환한 후 스크립트를 작성하세요.
 
@@ -224,10 +385,21 @@ sudo apt-get install jenkins -y
 - 다음 명령을 사용하여 파일을 실행 가능하게 만드세요:
 
 ```bash
-chmod +x install_jenkins.sh 
+chmod +x install_jenkins.sh
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 스크립트를 실행할 수 있게 되었으니, Jenkins를 설치하기 위해 스크립트를 실행할 차례입니다:
 
@@ -239,7 +411,18 @@ chmod +x install_jenkins.sh
 
 웹 브라우저를 통해 Jenkins에 접속할 수 있도록 하려면, 방화벽 설정을 제대로 구성하는 것이 중요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 젠킨스는 기본적으로 8080 포트에서 실행됩니다. 따라서 보안 그룹 설정에서 이 포트로의 인바운드 트래픽을 허용해야 합니다.
 
@@ -249,7 +432,18 @@ chmod +x install_jenkins.sh
 
 초기 관리자 암호를 사용하여 젠킨스를 잠금 해제하세요. 암호는 다음 위치에서 찾을 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
@@ -262,14 +456,36 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 - Jenkins를 잠금 해제하면 추천 플러그인을 설치하거나 특정 플러그인을 수동으로 선택할 수 있는 옵션이 제공됩니다.
 - 대부분의 사용자들에게 권장되는 표준 플러그인 세트를 자동으로 설치하려면 '추천 플러그인 설치'를 클릭해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마스터 환경 변수
 
 - 마스터가 시작될 때 특정 환경 변수 설정이 필요한 경우 환경 변수를 추가할 수 있습니다.
 - 'Manage Jenkins'에서 'Configure System'에 들어가서 'Global properties' 섹션에서 'Environment variables'를 설정합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제이킨스 설정 완료:
 
@@ -281,7 +497,18 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 
 필요한 플러그인 설치하기:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Jenkins 대시보드 열기: Jenkins 인터페이스에 로그인하세요.
 - “관리 Jenkins > 플러그인”으로 이동하세요.
@@ -293,7 +520,18 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 
 # 컴파일 작업
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Jenkins 메인 대시보드에서 "새 항목"을 클릭합니다.
 - 파이프라인의 이름을 지정하고 프로젝트 유형으로 '파이프라인'을 선택한 후 '확인'을 클릭합니다.
@@ -305,21 +543,43 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 - 생성된 작업을 클릭하고 구성 화면에서 "파이프라인" 섹션으로 스크롤합니다.
 - "파이프라인 스크립트" 또는 "SCM에서 파이프라인 스크립트"를 선택합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 첫 번째 옵션은 Jenkins 인터페이스에서 Groovy 스크립트를 직접 작성하는 것이고, 두 번째 옵션은 스크립트를 Git과 같은 소스 코드 관리 시스템에서 가져오는 것입니다.
 
 - "SCM에서 파이프라인 스크립트": SCM 유형을 선택하세요 (예: Git).
 - Jenkinsfile이 포함된 저장소의 URL을 입력하세요.
 - 저장소가 비공개인 경우 자격 증명을 추가하세요.
-- 빌드할 브랜치를 지정하세요. 일반적으로 */main 또는 */master입니다.
+- 빌드할 브랜치를 지정하세요. 일반적으로 _/main 또는 _/master입니다.
 - Jenkinsfile이 서브디렉토리에 있거나 다르게 명명된 경우 경로를 지정하세요 (기본값은 Jenkinsfile).
 
 ![이미지](/assets/img/2024-07-01-End-to-EndCICDPipelineImplementation_11.png)
 
 ![이미지](/assets/img/2024-07-01-End-to-EndCICDPipelineImplementation_12.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Jenkins 재시작하기:
 
@@ -331,7 +591,18 @@ Jenkins 재시작하기:
 
 # Sonarqube 서버 설정하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Docker 컨테이너로 SonarQube를 설치하는 것은 설정 프로세스를 간단히 하고 관리 및 확장을 쉽게 만드는 인기 있는 옵션입니다.
 
@@ -341,10 +612,21 @@ Docker 설치:
 
 - 'vim' 또는 사용하고자 하는 다른 편집기를 사용하여 스크립트 파일을 만들어주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-install_docker.sh
+install_docker.sh;
 ```
 
 - 삽입 모드에 들어가기 위해 i를 누르세요. 그리고 스크립트를 작성하세요.
@@ -375,13 +657,24 @@ sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 # 패키지 관리자 저장소 업데이트
 sudo apt-get update
 
-sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin 
+sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
 
 - 정상 모드로 변경하시려면 Esc를 눌러서 normal 모드로 전환한 후 :wq를 입력한 후 Enter 키를 눌러주세요.
 - 파일을 실행 가능하게 만드는 명령어를 사용하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 chmod +x install_docker.sh
@@ -395,8 +688,18 @@ chmod +x install_docker.sh
 
 Sonarqube 설치하라:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 도커 허브에서 공식 SonarQube 도커 이미지를 가져옵시다:
 
@@ -410,7 +713,18 @@ docker pull sonarqube
 docker run -d --name sonarqube -p 9000:9000 sonarqube
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SonarQube는 기본적으로 9000번 포트에서 작동합니다. SonarQube 대시보드에 원활하게 접속하기 위해 방화벽을 구성하여이 포트의 들어오는 트래픽을 허용하는 것이 중요합니다.
 
@@ -421,20 +735,43 @@ SonarQube의 기본 로그인 자격 증명은 다음과 같습니다:
 - 사용자 이름: admin
 - 비밀번호: admin
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 보안상의 이유로 초기 설정 후에는 이러한 기본 자격 증명을 변경하는 것이 좋습니다.
 
 ![image](/assets/img/2024-07-01-End-to-EndCICDPipelineImplementation_14.png)
 
 Jenkins와 통합하기:
+
 - Jenkins 플러그인을 위한 SonarQube Scanner를 설치합니다.
 - SonarQube 대시보드에 로그인합니다.
 - "내 계정"으로 이동하여 "보안"을 클릭하고 "토큰 생성"을 클릭합니다.
 - 토큰에 이름을 지정하고 "생성"을 클릭합니다.
 - 생성된 토큰을 복사합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-01-End-to-EndCICDPipelineImplementation_15.png)
 
@@ -449,7 +786,18 @@ Jenkins에 SonarQube 토큰을 자격 인증으로 추가하는 방법:
 - 자격 증명의 ID와 설명을 선택적으로 제공합니다.
 - 자격 증명을 저장하려면 “생성”을 클릭합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지태그를 Markdown 형식으로 바꿔줍시다.
 
@@ -463,7 +811,18 @@ Jenkins SonarQube Scanner 설정:
 - SonarQube 서버 URL을 제공합니다(e.g.,http://`your_instance_ip`:9000, `your_instance_ip`을 서버의 IP 주소로 대체하세요).
 - 이전에 추가한 SonarQube 토큰을 인증 토큰으로 사용하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 자격증
 
@@ -473,7 +832,18 @@ SonarQube 인증, Docker Hub 접근 및 Git 저장소 인증을 위한 자격증
 
 ![이미지](/assets/img/2024-07-01-End-to-EndCICDPipelineImplementation_19.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Jenkinsfile
 
@@ -483,7 +853,18 @@ Jenkinsfile은 파이프라인 작업을 실행할 때 Jenkins가 실행해야�
 
 Jenkins 파일의 일부는 자격 증명 및 세부 정보로 교체해야 할 부분이 있으니 주의해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Pipeline Stages:
 
@@ -493,7 +874,18 @@ Stage 2: Maven을 사용하여 Java 애플리케이션을 빌드합니다.
 
 Stage 3: JUnit과 Mockito를 사용하여 단위 테스트를 실행합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Stage 4: 코드 품질을 확인하기 위해 SonarQube 분석 실행
 
@@ -503,7 +895,18 @@ Stage 3: JUnit과 Mockito를 사용하여 단위 테스트를 실행합니다.
 
 ## Stage 7: 배포된 어플리케이션에서 사용자 수락 테스트 실행
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **Stage 8: Helm을 사용하여 애플리케이션을 프로덕션 환경으로 프로모션하기**
 
@@ -587,7 +990,18 @@ Stage 3: JUnit과 Mockito를 사용하여 단위 테스트를 실행합니다.
 
 ![End-to-End CI/CD 파이프라인 구현](/assets/img/2024-07-01-End-to-EndCICDPipelineImplementation_20.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SonarQube는 파이프라인 실행 보고서를 포함하게 됩니다.
 
@@ -597,16 +1011,39 @@ SonarQube는 파이프라인 실행 보고서를 포함하게 됩니다.
 
 ArgoCD는 CI/CD 파이프라인의 지속적 배포 세그먼트를 관리하며, Kubernetes로의 배포를 자동화합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-로컬 배포는 Minikube를 사용하거나 Amazon EKS를 활용한 클라우드 배포를 선택할 수 있어요. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+로컬 배포는 Minikube를 사용하거나 Amazon EKS를 활용한 클라우드 배포를 선택할 수 있어요.
 
 준비물:
+
 - Minikube에서 필요로 하는 가상화를 위해 Windows 컴퓨터에 VirtualBox 또는 Hyper-V가 설치되어 있는지 확인해주세요.
 
 Minikube 설치하는 방법은 다음과 같아요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Minikube을 다운로드하고 설치하세요. 각 OS에 맞는 설명은 Minikube 공식 문서를 참고해주세요.
 - 로컬 Kubernetes 클러스터를 시작하세요.
@@ -620,7 +1057,18 @@ Kubectl 설치 방법:
 - 공식 Kubernetes 릴리스 페이지에서 최신 버전의 kubectl을 다운로드하세요.
 - kubectl을 PATH에 추가하여 명령 프롬프트에서 어디서든 실행할 수 있도록 해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # ArgoCD 오퍼레이터 설치하기
 
@@ -636,7 +1084,18 @@ Kubectl 설치 방법:
 $ curl -sL https://github.com/operator-framework/operator-lifecycle-manager/releases/download/v0.27.0/install.sh | bash -s v0.27.0
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```shell
 # AgroCD Operator 설치하기
@@ -652,8 +1111,18 @@ $ kubectl get csv -n operators
 
 ![이미지](/assets/img/2024-07-01-End-to-EndCICDPipelineImplementation_22.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-01-End-to-EndCICDPipelineImplementation_23.png)
 
@@ -666,26 +1135,46 @@ $ kubectl get csv -n operators
 
 ![이미지](/assets/img/2024-07-01-End-to-EndCICDPipelineImplementation_24.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-07-01-End-to-EndCICDPipelineImplementation_25.png)
 
 - Argo CD 인스턴스를 정의하는 다음 내용을 포함하여 vim argocd-basic.yml이라는 새 파일을 생성하세요:
 
 ```js
-apiVersion: argoproj.io/v1alpha1
-kind: ArgoCD
-metadata:
-  name: example-argocd
-  labels:
-    example: basic
-spec: {}
+apiVersion: argoproj.io / v1alpha1;
+kind: ArgoCD;
+metadata: name: example - argocd;
+labels: example: basic;
+spec: {
+}
 ```
 
 - 구성을 적용하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 kubectl apply -f argocd-basic.yml
@@ -697,7 +1186,18 @@ kubectl apply -f argocd-basic.yml
 
 - 브라우저를 통해 Argo CD 서버 UI에 접속하려면 서비스 유형을 'ClusterIP'에서 'NodePort'로 변경해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 kubectl get svc
@@ -711,7 +1211,18 @@ minikube service argocd-server --url
 
 ![2024-07-01-End-to-EndCICDPipelineImplementation_27.png](/assets/img/2024-07-01-End-to-EndCICDPipelineImplementation_27.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이전 명령어에서 표시된 URL을 복사해서 브라우저에 붙여넣어 Argo CD UI에 액세스하세요.
 
@@ -723,7 +1234,18 @@ minikube service argocd-server --url
 kubectl get secret
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - "example-argocd-cluster" 시크릿을 편집하고 어드민 비밀번호를 복사해주세요.
 
@@ -737,7 +1259,18 @@ kubectl edit secret example-argocd-cluster
 echo <인코딩된 비밀번호 입력>= | base64 -d
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - "admin" 사용자 이름과 이전 단계에서 가져온 비밀번호를 사용하여 Argo CD UI에 로그인하세요.
 
@@ -748,7 +1281,18 @@ echo <인코딩된 비밀번호 입력>= | base64 -d
 - Argo CD UI에서 "Create Application"을 클릭하세요.
 - 애플리케이션에 필요한 정보를 입력하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 애플리케이션 이름: 애플리케이션에 대한 설명적인 이름을 입력해주세요.
 
@@ -758,7 +1302,18 @@ echo <인코딩된 비밀번호 입력>= | base64 -d
 
 저장소 URL: 애플리케이션 코드를 포함한 Git 저장소의 URL을 입력해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Path: 레포지토리 내 배포 파일 경로를 지정합니다.
 
@@ -769,7 +1324,18 @@ Namespace: 애플리케이션이 배포될 쿠버네티스 네임스페이스를
 - 필요한 모든 정보를 제공한 후, "생성"을 클릭합니다.
 - 제공된 구성에 따라 Argo CD가 자동으로 쿠버네티스 클러스터에 애플리케이션을 생성합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지1](/assets/img/2024-07-01-End-to-EndCICDPipelineImplementation_30.png)
 
@@ -779,7 +1345,18 @@ Namespace: 애플리케이션이 배포될 쿠버네티스 네임스페이스를
 
 이 프로젝트는 GitHub, Maven, SonarQube, Docker, Jenkins, Argo CD, Helm, 그리고 Kubernetes를 CI/CD 파이프라인에 통합하여 소프트웨어 개발의 효율성과 신뢰성을 향상시킬 수 있다는 것을 효과적으로 시연하였습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희는 프로세스를 개선하여 배송 속도를 높이고 소프트웨어 품질을 향상시켰습니다.
 
@@ -789,7 +1366,18 @@ Namespace: 애플리케이션이 배포될 쿠버네티스 네임스페이스를
 
 이 프로젝트는 우수한 데브옵스 컨텐츠로 유명한 Abhishek Veeramalla의 영감을 많이 받았습니다. 그의 컨텐츠가 나의 발전을 위한 견고한 기반이 되었습니다. 그의 컨텐츠는 여기에서 확인해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 함께 소통해요
 

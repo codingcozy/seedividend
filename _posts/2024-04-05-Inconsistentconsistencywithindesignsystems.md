@@ -3,17 +3,13 @@ title: "디자인 시스템 - 디자인 일관성 유지하기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Inconsistent consistency within design systems"
 link: "https://medium.com/redesigning-design-systems/inconsistent-consistency-within-design-systems-29072a5eef03"
 isUpdated: true
 ---
-
-
-
-
 
 디자인 시스템의 주요 장점 중 하나는 디지털 제품 간의 일관성이며 또한 대부분의 정의에서 공통적인 주제입니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ## 일관성이란 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일관성이라는 용어는 종종 디자인 시스템 및 사용자에게 미치는 영향에 대한 명확한 이해 없이 사용됩니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 사람 2: "일치하게 만들기 위해 기본 iOS 타이포그래피 스케일을 사용해야 한다고 생각합니다."
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/Inconsistentconsistencywithindesignsystems_0.png)
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 마찬가지로 ‘일관성’이라는 용어도 일관되게 이해되지 않습니다. 본 문서는 디자인 시스템 내에서 이러한 불일치를 탐구합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 이미 정의되어 있나요?
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 잠시만요... 🤨 플랫폼 및 산업 규칙을 따라야 한다면, 왜 계속해서 각자의 규칙을 가진 새로운 디자인 시스템을 만들고 있는 걸까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 제품 생태계 내 일관성
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 이러한 것이 디자인 시스템 내에서 가장 흔한 일관성 정의로 보이며, 종종 존재하는 큰 장점 중 하나입니다. 모든 구성 요소가 갖춘 성숙한 디자인 시스템이 있다면, 이론적으로 연결된 디지털 제품들은 하나의 생태계처럼 느껴질 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 사용자의 생태계 내 일관성
 
@@ -73,7 +124,18 @@ isUpdated: true
 
 이것은 Apple이 자사 플랫폼을 위해 Human Interface Guidelines를 발행하고, Google도 Material Design을 개발하는 이유 중 하나입니다. 이것이 전 세계적인 디자인 시스템을 위한 Brad Frost의 촉구를 지지하는 이유이기도 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 일관성의 딜레마
 
@@ -83,7 +145,18 @@ isUpdated: true
 
 ![이미지](/assets/img/Inconsistentconsistencywithindesignsystems_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 속도
 
@@ -93,7 +166,18 @@ isUpdated: true
 
 예를 들어, Android 대화상자와 iOS 경고 구성 요소를 살펴보겠습니다. 두 구성 요소 모두 사용자에게 "중요한 정보"를 제공함으로써 매우 유사한 기능을 제공하지만 시각적으로는 구별되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Inconsistent consistency within design systems](/assets/img/Inconsistentconsistencywithindesignsystems_2.png)
 
@@ -103,7 +187,18 @@ isUpdated: true
 
 플랫폼의 재고 제어에 의존함으로써, 접근성 고려 사항의 수를 줄이고 장애인 고객들이 더 익숙한 경험을 제공할 수 있습니다. 일반적으로 재고 제어에는 다음과 같은 지원이 제공됩니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 동적 글꼴 크기 조정
 - 증가한 대비
@@ -116,7 +211,18 @@ isUpdated: true
 
 시각적, 기능적 및 의미론적으로 일치하는 구성 요소를 만들려면 종종 마법이 일어나도록 뒷단에 몇 가지 해킹이 필요합니다. 그러나 네이티브 모바일 환경 내에서의 빠른 변화 속에서 제품 팀이 사용하는 버전과 프레임워크가 매우 단편화되어 있다면, 디자인 시스템의 신뢰성이 줄어들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 성숙한 디자인 시스템을 갖춘 제품은 고객이 여러 기기에서 동일한 서비스를 사용하는 것을 고려할 때, 제품 일관성을 높이는 것이 타당합니다. Spotify는 이러한 좋은 예시입니다. 안드로이드, iOS, 웹 앱 모두 매우 유사합니다.
 
@@ -126,7 +232,18 @@ isUpdated: true
 
 # 플랫폼 중심 접근법
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 디자인 시스템에 대한 "플랫폼 우선" 접근 방식을 믿는 사람입니다.
 
@@ -138,7 +255,18 @@ isUpdated: true
 
 ![이미지](/assets/img/Inconsistentconsistencywithindesignsystems_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 디자인 시스템에 대한 더 지속 가능하고 확장 가능하며 접근성이 좋은 방법이라고 믿습니다. 비록 의견이 다르더라도, 여러분께 도전을 드리겠습니다. 여러분의 시스템에 대한 '일관성'을 정의해 보고, 앞으로 공유된 이해를 이끌어보세요.
 
@@ -148,6 +276,17 @@ isUpdated: true
 
 제가 Kevin Muldoon과 함께 이야기하는 '에피소드 1: 일관적인 불일치'를 듣기 위해 오셔서 함께 해 주시면 기쁠 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Inconsistent consistency within design systems](/assets/img/Inconsistentconsistencywithindesignsystems_5.png)

@@ -3,17 +3,13 @@ title: "CSS flexbox를 제대로 사용 하는 방법2024년"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Flex It Like a Pro A Beginners Guide to CSS Flexbox"
 link: "https://medium.com/@codebyshreya/flex-it-like-a-pro-a-beginners-guide-to-css-flexbox-f2ebebd1d9ba"
 isUpdated: true
 ---
-
-
-
-
 
 ![Flexbox](/assets/img/FlexItLikeaProABeginnersGuidetoCSSFlexbox_0.png)
 
@@ -23,7 +19,18 @@ CSS Flexbox, "CSS Flexible Box Layout"로 줄여진 것은 CSS에서 요소들�
 
 # 기본 용어
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 플렉스 레이아웃의 주요 아이디어를 설명하는 도표가 있어요:
 
@@ -38,7 +45,18 @@ CSS Flexbox, "CSS Flexible Box Layout"로 줄여진 것은 CSS에서 요소들�
 
 # 플렉스박스 속성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Flexbox Properties](/assets/img/FlexItLikeaProABeginnersGuidetoCSSFlexbox_2.png)
 
@@ -53,7 +71,18 @@ div {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. flex-direction
    이 속성은 플렉스 아이템의 방향을 설정합니다.
@@ -72,7 +101,18 @@ div {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. flex-wrap  
    flex-wrap 속성은 flex 아이템이 여러 줄로 랩핑되는지 여부를 결정합니다.  
@@ -90,7 +130,18 @@ div {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. 내용 정렬
    이 속성은 플렉스 항목을 주 축에 따라 정렬합니다.
@@ -111,7 +162,18 @@ div {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 5. align-items
    이 속성은 플렉스 항목들을 교차 축을 따라 정렬합니다.
@@ -130,7 +192,18 @@ div {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 6. align-content
    축 방향에서 여분의 공간이 있을 때 플렉스 아이템의 라인을 정렬합니다.
@@ -151,7 +224,18 @@ div {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 7. 갭, 행 갭, 열 갭
    플렉스 아이템 사이의 간격을 명시적으로 제어합니다.
@@ -171,7 +255,18 @@ div {
 
 자식 속성 (플렉스 아이템)용 속성들:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1. order
    flex 항목의 순서를 설정합니다. 기본값은 0입니다.
@@ -187,7 +282,18 @@ div {
 2. flex-grow
    flex 항목이 형제 항목에 비해 얼마나 더 늘어날지를 제어합니다. 기본값은 0입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .item2 {
@@ -206,7 +312,18 @@ div {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/FlexItLikeaProABeginnersGuidetoCSSFlexbox_11.png" />
 
@@ -221,7 +338,18 @@ div {
 
 <img src="/assets/img/FlexItLikeaProABeginnersGuidetoCSSFlexbox_12.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 5. flex-basis
    선택한 flex 항목의 성장 또는 축소 전 초기 크기를 설정합니다.
@@ -238,7 +366,18 @@ CSS 유연한 박스 레이아웃 모듈 레벨 1 (W3C): CSS Flexbox의 공식 �
 CSS Flexbox Cheatsheet (DigitalOcean): 예제와 설명이 담긴 편리한 가이드입니다.
 CSS Flexbox를 사용하여 요소 가운데 정렬하기 (DigitalOcean): 요소를 가운데 정렬하기 위한 Flexbox 사용 설명서입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그게 전부야! 이제 CSS 플렉스박스에 대한 뛰어난 기초 지식을 가졌어. 궁금한 점이 있거나 추가 도움이 필요하면 언제든지 말해줘!
 

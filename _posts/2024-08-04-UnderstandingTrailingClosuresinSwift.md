@@ -3,16 +3,13 @@ title: "Swift에서 트레일링 클로저 이해하기"
 description: ""
 coverImage: "/assets/img/2024-08-04-UnderstandingTrailingClosuresinSwift_0.png"
 date: 2024-08-04 19:27
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-04-UnderstandingTrailingClosuresinSwift_0.png
 tag: Tech
 originalTitle: "Understanding Trailing Closures in Swift"
 link: "https://medium.com/@harshaag99/understanding-trailing-closures-in-swift-2525e2ea793a"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-08-04-UnderstandingTrailingClosuresinSwift_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 Trailing closure는 함수 호출의 괄호 외부 및 뒤에 작성된 클로저 표현식입니다. 함수의 마지막 매개변수가 클로저인 경우, 이를 trailing closure로 작성할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 실제 예시
 
@@ -37,10 +45,21 @@ orderFood(item: "피자", completion: {
 
 하지만 만약 주문의 마지막 부분이 항상 "식사를 즐기세요!"와 같다면, 이를 trailing closure로 생각하여 주문을 더 간단하게 할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```swift
-orderFood(item: "피자") { 
+orderFood(item: "피자") {
     print("식사를 즐겨주세요!")
 }
 ```
@@ -67,7 +86,18 @@ fetchData(url: "www.example.com") { data in
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 예제에서 fetchData 함수는 URL과 데이터를 가져온 후 호출되는 완료 closure를 가져옵니다. trailing closure syntax를 사용하면 함수 호출이 더 가독성이 좋아집니다.
 
@@ -89,7 +119,18 @@ downloadFile(url: "www.example.com", progress: { percent in
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 선택적 클로저: 클로저가 선택적인 경우에도 후행 클로저 구문을 사용할 수 있습니다.
 
@@ -107,7 +148,18 @@ performTask {
 
 1. Swift 5.3+에서 여러 후행 클로저 사용: Swift 5.3부터 여러 후행 클로저를 사용할 수 있으므로 여러 클로저를 허용하는 함수의 가독성을 향상시킬 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 func animate(duration: Double, animations: () -> Void, completion: (() -> Void)?) {
@@ -142,7 +194,18 @@ let doubled = numbers.map { number in
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스위프트의 트레일링 클로저는 함수가 클로저 매개변수를 사용할 때 특히 코드를 더 깔끔하고 가독성있게 만들어 줍니다. 이를 통해 보다 간결하고 표현력 있는 코드를 작성할 수 있습니다. 더 자세한 내용은 Apple 문서를 참조해 주세요.
 

@@ -3,17 +3,13 @@ title: "워드프레스에서 JS와 CSS를 사용하여 사용자 커스텀 위�
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Creating Custom Widgets with JS and CSS in WordPress"
 link: "https://volodymyrzh.medium.com/creating-custom-widgets-with-js-and-css-in-wordpress-50aa5bf43817"
 isUpdated: true
 ---
-
-
-
-
 
 ![Creating-Custom-Widgets-with-JS-and-CSS-in-WordPress_0.png](/assets/img/Creating-Custom-Widgets-with-JS-and-CSS-in-WordPress_0.png)
 
@@ -23,7 +19,18 @@ WordPress에서 위젯은 사이드바, 풋터 및 기타 위젯 사용 가능�
 
 WordPress의 위젯은 최신 게시물 표시, 검색 막대 또는 사용자 정의 메뉴와 같은 특정 기능을 수행하는 모듈식 블록입니다. 워드프레스 대시 보드를 통해 테마 코드를 수정할 필요 없이 사이트의 지정된 영역에 손쉽게 배치할 수 있도록 설계되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 HTML 태그에 대한 자세한 안내 https://medium.com/@volodymyrzh/html-tags-a-comprehensive-guide-9c00427861b8 을 읽어보세요.
 
@@ -33,7 +40,18 @@ HTML 태그에 대한 자세한 안내 https://medium.com/@volodymyrzh/html-tags
 
 # 단계 2: 위젯 클래스 생성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 워드프레스 위젯은 WP_Widget 클래스를 확장하는 PHP 클래스입니다. 테마 또는 플러그인 디렉토리에 새 PHP 파일을 만들고 WP_Widget를 확장하는 클래스를 정의하여 시작하세요.
 
@@ -68,7 +86,18 @@ class My_Custom_Widget extends WP_Widget {
 
 # 단계 3: 위젯 등록 및 로드
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 WordPress에 새 위젯을 알리려면 widgets_init 액션 훅을 사용하여 해당 위젯을 등록해야 합니다.
 
@@ -83,7 +112,18 @@ add_action("widgets_init", "register_my_custom_widget");
 
 # 단계 4: 사용자 정의 스타일 및 스크립트 추가
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금 CSS와 JS를 사용하여 위젯에 스타일과 기능을 추가하세요. 필요한 위치에 로드되도록 WordPress에 스크립트와 스타일을 올바르게 enqueue하세요.
 
@@ -99,7 +139,18 @@ add_action( 'wp_enqueue_scripts', 'enqueue_custom_widget_scripts' );
 
 # 단계 5: JS 및 CSS 구현하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 귀하의 스크립트와 스타일이 큐에 들어 있으므로, 이제 위젯을 독특하게 만드는 구체적인 기능과 디자인 요소를 구현할 수 있습니다.
 
@@ -116,7 +167,18 @@ add_action( 'wp_enqueue_scripts', 'enqueue_custom_widget_scripts' );
 
 # 사용자 정의 위젯 기능 (JS)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 jQuery(document).ready(function ($) {
@@ -130,7 +192,18 @@ WordPress 사이트를 위한 좋은 호스팅을 찾고 계신가요? Host4Biz�
 
 그리고 첫 결제 시 MYHOST10 프로모션 코드를 사용하시면 10% 할인 혜택을 받을 수 있습니다. 이를 위해 여기서 등록하고 결제 전에 코드를 입력해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 워드프레스 호스팅의 또 다른 좋은 옵션은 Hostinger입니다. 링크 https://hostinger.com.ua?REFERRALCODE=1VOLODYMYR55를 통해 계정을 등록하고 내 블로그의 업데이트를 확인해보세요
 

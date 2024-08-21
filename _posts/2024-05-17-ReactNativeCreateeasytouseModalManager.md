@@ -3,16 +3,13 @@ title: "리액트 네이티브로 모달을 윕게 사용할 수 있는 Modal Ma
 description: ""
 coverImage: "/assets/img/2024-05-17-ReactNativeCreateeasytouseModalManager_0.png"
 date: 2024-05-17 21:03
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-17-ReactNativeCreateeasytouseModalManager_0.png
 tag: Tech
 originalTitle: "React Native | Create easy to use Modal Manager"
 link: "https://medium.com/@davidecarizzoni/react-native-create-easy-to-use-modal-manager-f5cb41020dbd"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-05-17-ReactNativeCreateeasytouseModalManager_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 보통 확인 또는 다른 복잡한 동작에 모달을 사용하는 각 화면에서는 useState를 사용하여 가시성 상태를 정의합니다 (전통적인 [visible, setVisible] = useState(false) 방식), 이를 통해 모달이 화면에 표시되는지 여부를 컨트롤합니다. 이 방법은 개발 속도를 크게 늦추고 유연성과 재사용성을 저하시키는 요소로 인식됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 문제를 해결하기 위해 간단하고 효율적인 방법으로 모달 가시성을 관리하는 방법을 고안했습니다.
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 ![모달 매니저](/assets/img/2024-05-17-ReactNativeCreateeasytouseModalManager_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 보시다시피, 프로젝트를 최적으로 관리할 수 있는 간단하고 조직적인 구조를 만드는 것이 매우 중요합니다.
 
@@ -42,14 +61,25 @@ isUpdated: true
 
 여기에서는 나중에 사용할 모달을 어디에 어떻게 정의하는지에 대한 예제가 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```jsx
   import { NavigationContainer } from '@react-navigation/native';
   import Modal, { BaseCenterModalContainer, BaseBottomModalContainer } from "./src/modal-manager";
 
   export const App = () => {
-   
+
    const showCenteredModal = () => {
      Modal.show({
        children: (
@@ -61,8 +91,8 @@ isUpdated: true
        position: 'center',
      });
    };
-  
-  
+
+
    return (
      <NavigationContainer>
        <Modal />
@@ -78,7 +108,18 @@ isUpdated: true
 
 두 가지 방법으로 모달을 표시할 수 있는 옵션이 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1 — 화면 하단에
 
@@ -98,7 +139,18 @@ Modal.show({
 
 2 — 화면 중앙에 위치
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 Modal.show({
@@ -120,7 +172,18 @@ Modal.show({
 - dismissable ⇒ 배경을 탭하여 모달을 닫을 수 있는지 여부를 나타냅니다.
 - position ⇒ 모달의 위치를 지정합니다. 이는 중앙 또는 하단일 수 있습니다. 이 두 값 중 하나를 사용할 때는 기본적인 스타일을 쉽게 오버라이드할 수 있는 BaseCenterModalContainer 또는 BaseBottomModalContainer 컴포넌트를 사용할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또한, 이전 구성 요소를 사용하지 않고도 모달에 표시해야 하는 구성 요소를 간단히 전달할 수도 있습니다.
 
@@ -130,22 +193,33 @@ types/index.tsx
 
 모달에 대한 모든 유용한 유형은 이 파일 내에서 정의되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-import { ReactNode } from 'react';
-import { StyleProp } from 'react-native';
+import { ReactNode } from "react";
+import { StyleProp } from "react-native";
 
 export type ReactChildren = ReactNode;
 
 export type ModalData = {
-  children: ReactChildren;
+  children: ReactChildren,
 };
 
 export type ModalOptions = {
-  dismissable: boolean;
-  animated?: boolean;
-  position: 'center' | 'bottom';
+  dismissable: boolean,
+  animated?: boolean,
+  position: "center" | "bottom",
 };
 
 export type ModalShowParams = ModalData & ModalOptions;
@@ -153,16 +227,16 @@ export type ModalShowParams = ModalData & ModalOptions;
 export type ModalHideParams = {};
 
 export type ModalRef = {
-  show: (params: ModalShowParams) => void;
-  hide: (params?: ModalHideParams) => void;
+  show: (params: ModalShowParams) => void,
+  hide: (params?: ModalHideParams) => void,
 };
 
 export type ModalConfig = {
-  style?: StyleProp<any>;
+  style?: StyleProp<any>,
 };
 
 export type ModalProps = {
-  config?: ModalConfig;
+  config?: ModalConfig,
 };
 ```
 
@@ -172,7 +246,18 @@ export type ModalProps = {
 
 ModalUI.tsx
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { Dimensions, StyleSheet } from "react-native";
@@ -181,25 +266,18 @@ import RNModal from "react-native-modal";
 import { useCallback } from "react";
 
 export type ModalUIProps = {
-  isVisible: boolean;
-  options: ModalOptions;
-  data: ModalData;
-  show: (params: ModalShowParams) => void;
-  hide: (params: ModalHideParams) => void;
-  config?: ModalConfig;
-  onHide: () => void;
+  isVisible: boolean,
+  options: ModalOptions,
+  data: ModalData,
+  show: (params: ModalShowParams) => void,
+  hide: (params: ModalHideParams) => void,
+  config?: ModalConfig,
+  onHide: () => void,
 };
 
-const { width: SCREEN_WIDTH, height: SCREEN_HEIGHT } = Dimensions.get('screen');
+const { width: SCREEN_WIDTH, height: SCREEN_HEIGHT } = Dimensions.get("screen");
 
-export const ModalUI = ({
-  isVisible,
-  data,
-  options,
-  hide,
-  onHide,
-  config,
-}: ModalUIProps) => {
+export const ModalUI = ({ isVisible, data, options, hide, onHide, config }: ModalUIProps) => {
   const { children } = data;
   const { style } = config || {};
   const { dismissable, position, animated } = options;
@@ -234,11 +312,11 @@ export const ModalUI = ({
 
 const modalPositionStyles = StyleSheet.create({
   center: {
-    justifyContent: 'center',
+    justifyContent: "center",
     margin: 20,
   },
   bottom: {
-    justifyContent: 'flex-end',
+    justifyContent: "flex-end",
     margin: 0,
   },
 });
@@ -254,8 +332,18 @@ const styles = StyleSheet.create({
 
 - 모달의 표시 상태, 표시할 데이터, 모달 구성 옵션, 모달을 숨기는 함수 및 모달 닫기 이벤트를 처리하는 콜백 함수와 같은 props를 받습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 이벤트 처리:
 
@@ -267,7 +355,18 @@ const styles = StyleSheet.create({
 - 모달을 생성하기 위해 react-native-modal 컴포넌트를 사용합니다.
 - 모달의 위치 (가운데 또는 아래)에 기본 스타일을 적용하고, config prop을 통해 제공된 스타일을 통해 사용자 정의를 허용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. 미리 정의된 스타일:
 
@@ -277,7 +376,18 @@ const styles = StyleSheet.create({
 
 - 모달은 화면 크기를 상태의 일부로 수신하여 다양한 기기 크기에 적절하게 적응합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요약하자면, 이 컴포넌트는 리액트 네이티브에서 모달을 유연하고 구성 가능하게 표시하는 인프라를 제공하며, 애플리케이션 요구에 맞는 외관 및 동작을 사용자화할 수 있습니다.
 
@@ -293,19 +403,30 @@ export const BaseBottomModalContainer = ({ children, style, ...props }: ViewProp
     <View style={[styles.container, style]} {...props}>
       {children}
     </View>
-  )
-}
+  );
+};
 
 const styles = StyleSheet.create({
   container: {
     borderTopRightRadius: 20,
     borderTopLeftRadius: 20,
-    padding: 20
-  }
-})
+    padding: 20,
+  },
+});
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 Markdown 형식으로 변경해주세요.
 
@@ -330,7 +451,18 @@ const styles = StyleSheet.create({
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { useCallback, useState } from 'react';
@@ -405,20 +537,25 @@ export const useModal = ({ defaultOptions }: UseModalParams) => {
 - 모달 숨기기: hide 함수는 현재 표시 중인 모달을 숨기는 데 사용됩니다. isVisible를 false로 설정합니다.
 - 숨김 콜백: onHide 함수는 모달이 숨겨질 때 트리거되는 콜백입니다. 모달 데이터와 옵션을 초기 값으로 재설정합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Modal.tsx
 
 ```js
-import { forwardRef, useCallback, useImperativeHandle, useRef } from 'react';
-import {
-  ModalHideParams,
-  ModalProps,
-  ModalRef,
-  ModalShowParams,
-} from './types';
-import { useModal } from './hook/useModal.ts';
+import { forwardRef, useCallback, useImperativeHandle, useRef } from "react";
+import { ModalHideParams, ModalProps, ModalRef, ModalShowParams } from "./types";
+import { useModal } from "./hook/useModal.ts";
 import { ModalUI } from "./components";
 
 const ModalRoot = forwardRef((props: ModalProps, ref) => {
@@ -435,8 +572,8 @@ const ModalRoot = forwardRef((props: ModalProps, ref) => {
         show,
         hide,
       }),
-      [hide, show],
-    ),
+      [hide, show]
+    )
   );
 
   return (
@@ -453,7 +590,7 @@ const ModalRoot = forwardRef((props: ModalProps, ref) => {
 });
 
 type ModalRefObj = {
-  current: ModalRef | null;
+  current: ModalRef | null,
 };
 
 let refs: ModalRefObj[] = [];
@@ -475,11 +612,11 @@ function addNewRef(newRef: ModalRef) {
  * @param oldRef the exact ref object to remove from the refs array.
  */
 function removeOldRef(oldRef: ModalRef | null) {
-  refs = refs.filter(r => r.current !== oldRef);
+  refs = refs.filter((r) => r.current !== oldRef);
 }
 
 export function Modal(props: ModalProps) {
-  const ModalRef = useRef<ModalRef | null>(null);
+  const ModalRef = (useRef < ModalRef) | (null > null);
 
   /*
     This must use `useCallback` to ensure the ref doesn't get set to null and then a new ref every render.
@@ -503,7 +640,7 @@ export function Modal(props: ModalProps) {
 
 function getRef() {
   const reversePriority = [...refs].reverse();
-  const activeRef = reversePriority.find(ref => ref?.current !== null);
+  const activeRef = reversePriority.find((ref) => ref?.current !== null);
   if (!activeRef) {
     return null;
   }
@@ -523,7 +660,18 @@ Modal.hide = (params?: ModalHideParams) => {
 
 - ModalRoot 컴포넌트:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이 컴포넌트는 ref를 전달받을 수 있도록 forwardRef를 사용하여 정의되었습니다.
 - Modal의 상태를 관리하는 useModal 훅을 활용하여 시각적 효과, 옵션 및 데이터를 포함합니다.
@@ -536,7 +684,18 @@ Modal.hide = (params?: ModalHideParams) => {
 
 3. Ref 관리:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - `addNewRef`은 새 모달이 생성될 때 refs 배열에 새 ref를 추가합니다.
 - `removeOldRef`는 모달이 파괴될 때 배열에서 ref를 제거합니다.
@@ -548,7 +707,18 @@ Modal.hide = (params?: ModalHideParams) => {
 
 이 파일은 React Native 애플리케이션에서 모달을 관리하는 논리를 캡슐화합니다. 사용자는 `Modal/` 컴포넌트 하나로 모달을 쉽게 생성하고 제어할 수 있으며, 모달을 표시하고 숨기는 정적 메서드가 포함되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기까지 왔네요! 이 모달 관리 시스템을 구현함으로써 프로세스를 보다 효율적이고 직관적으로 만들었습니다. 이 방식의 모듈성을 통해 표시 및 상호 작용 방식을 우리의 특정 요구에 쉽게 적응시킬 수 있습니다. 더 많은 통찰력과 코딩을 더 부드럽고 빠르게 만들어줄 새로운 도구를 업데이트하는 방법을 계속 따라와 주세요. 이 여정에 함께해줘서 감사합니다!
 

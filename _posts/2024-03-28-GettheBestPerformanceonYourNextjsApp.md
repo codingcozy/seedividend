@@ -3,17 +3,13 @@ title: "Nextjs 앱의 성능을 100 활용하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Get the Best Performance on Your Nextjs App"
 link: "https://medium.com/javascript-in-plain-english/get-the-best-performance-on-your-next-js-app-f407cc25d1f9"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/GettheBestPerformanceonYourNextjsApp_0.png)
 
@@ -24,7 +20,18 @@ Next.js를 사용하여 웹 사이트의 성능을 100% 활용하고 싶나요?
 
 ## 1. 필요한 JavaScript 및 CSS만 로드하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 문제가 있는지 알아보려면 DevTools의 커버리지 탭을 사용할 수 있어요.
 
@@ -34,7 +41,18 @@ Next.js를 사용하여 웹 사이트의 성능을 100% 활용하고 싶나요?
 
 ![이미지](/assets/img/GettheBestPerformanceonYourNextjsApp_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 2. 의존성의 지연 로딩
 
@@ -44,7 +62,18 @@ next/dynamic을 사용하면 헤더 컴포넌트가 페이지의 초기 JavaScri
 
 JavaScript 코드로 동적 컴포넌트 가져오기의 예시:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import dynamic from "next/dynamic";
@@ -90,7 +119,18 @@ export default function Page() {
 
 # 3. Next.js의 <Image /> 컴포넌트 사용하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Next.js Image 구성 요소는 자동 이미지 최적화 기능을 제공하는 HTML `img` 요소를 확장합니다:
 
@@ -110,7 +150,18 @@ export default function Page() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 4. JavaScript 대신 CSS를 선호하세요
 
@@ -123,7 +174,18 @@ CSS는 많이 발전하고 점점 강력해지고 있어요. 요즘에는 JavaSc
 - 주 스레드를 차단하지 않고
 - 더 나은 사용자 경험을 제공할 수 있어요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 5. 처음에 로더를 표시하지 않습니다
 
@@ -133,7 +195,18 @@ CSS는 많이 발전하고 점점 강력해지고 있어요. 요즘에는 JavaSc
 
 ![이미지](/assets/img/GettheBestPerformanceonYourNextjsApp_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 6. Next.js 폰트 최적화 사용하기
 
@@ -143,7 +216,18 @@ next/font에는 모든 폰트 파일에 대한 내장 자체 호스팅이 포함
 
 이 새로운 폰트 시스템을 통해 Google Fonts를 성능과 개인 정보 보호를 고려하여 편리하게 사용할 수 있습니다. CSS와 폰트 파일이 빌드 시 다운로드되고 정적 자산과 함께 자체 호스팅됩니다. 브라우저에서 Google로 요청이 전송되지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Google 폰트를 사용하는 예시입니다. next/font를 사용하여 Google 폰트를 적용하는 방법은 다음과 같습니다:
 
@@ -166,7 +250,18 @@ export default function MyApp({ Component, pageProps }) {
 
 모든 경로에 대한 서드파티 스크립트를 로드하려면, next/script를 import하고 스크립트를 직접 사용자 정의 컴포넌트에 포함시키면 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import Script from "next/script";
@@ -187,7 +282,18 @@ export default function MyApp({ Component, pageProps }) {
 
 가끔 package.json에 정의되어 있지만 더 이상 필요하지 않은 패키지를 제거하는 것을 잊어버립니다. npx depcheck를 실행하여 해당 항목을 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/GettheBestPerformanceonYourNextjsApp_3.png" />
 
@@ -197,7 +303,18 @@ export default function MyApp({ Component, pageProps }) {
 
 <img src="/assets/img/GettheBestPerformanceonYourNextjsApp_4.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 10. 서버 컴포넌트 사용하기
 
@@ -211,4 +328,15 @@ React Server 컴포넌트를 사용하면 UI를 서버에서 렌더링하고 선
 - 검색 엔진 최적화 및 소셜 네트워크 공유 가능성: 생성된 HTML은 검색 엔진 봇이 페이지를 색인화하고 소셜 네트워크 봇이 페이지에 대한 소셜 카드 미리보기를 생성하는 데 사용될 수 있습니다.
 - 스트리밍: 서버 컴포넌트를 사용하면 렌더링 작업을 청크로 분할하고 준비되는 대로 클라이언트로 스트리밍할 수 있습니다. 이렇게 하면 사용자가 페이지 전체를 서버에서 렌더링할 때까지 기다릴 필요 없이 페이지 일부를 일찍 볼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

@@ -3,16 +3,13 @@ title: "라이브러리나 커스텀 알고리즘 없이 모던 컬러 스케일
 description: ""
 coverImage: "/assets/img/2024-06-23-Moderncolorscaleswithoutanylibrariesorcustomalgorithms_0.png"
 date: 2024-06-23 14:14
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-Moderncolorscaleswithoutanylibrariesorcustomalgorithms_0.png
 tag: Tech
 originalTitle: "Modern color scales without any libraries or custom algorithms"
 link: "https://medium.com/@marian-caikovski/modern-color-scales-without-any-libraries-or-custom-algorithms-12e2267c7068"
 isUpdated: true
 ---
-
-
-
 
 ![이미지](/assets/img/2024-06-23-Moderncolorscaleswithoutanylibrariesorcustomalgorithms_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 텍스트의 색상도 유용할 수 있습니다. 예를 들어, 텍스트 분류 작업에서는 사용자가 입력 텍스트의 각 단어가 예측된 레이블에 미치는 기여도를 보는 것을 좋아합니다. 색상 척도는 각 단어의 점수를 시각적으로 나타내는 효과적인 수단입니다. 프랑스 명사의 끝과 성별 간 상관 관계에 대한 이전에 공유된 게시물에서 접미사의 양적 여성성과 남성성을 시각화하기 위해 분홍-파랑 척도를 사용했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 의미 있는 색상으로 값을 강조하려면 두 가지 도구가 필요합니다:
 
@@ -33,7 +41,18 @@ isUpdated: true
 
 두 가지 다른 색상 사이의 경로는 완전히 다른 색이거나 심지어 자연적으로 관련이 없는 색 또는 한계 색의 음영일 수 있는 다른 색상을 통해 지나갑니다. 위의 이미지에서 확인할 수 있습니다. 경로상의 색상은 모든 가능한 색상이 계산 중에 어떻게 배열되는지에 따라 달라집니다. 현대 CSS는 15가지 색 공간을 지원합니다. 그 중 4가지는 극좌표입니다. 극좌표 공간의 두 색상 사이의 경로는 짧을 수도 있고 길 수도 있습니다. 따라서 브라우저는 CSS 함수 linear-gradient()를 사용하여 어떤 두 색상 사이의 19가지 서로 다른 경로를 생성할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 background: linear-gradient(in hsl shorter hue, limegreen, red);
@@ -45,8 +64,18 @@ background: linear-gradient(in hsl shorter hue, limegreen, red);
 
 <img src="/assets/img/2024-06-23-Moderncolorscaleswithoutanylibrariesorcustomalgorithms_1.png" />
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서 기본적으로 두 색상 사이의 점진적인 전환을 계산하는 다양한 방법이 있습니다. 그러나 모든 가능한 색상 조합에 대해 시각적으로 일정한 그라데이션을 만들어내는 보편적인 방법은 없습니다. 특정 두 색상을 균일하게 섞는 것이 항상 가능한 것도 아닙니다. 색상 척도를 만들려면 약간의 시도와 실험을 통해 두 색상을 선택하고 이를 균일하게 섞는 방법을 선택해야 합니다.
 
@@ -58,7 +87,18 @@ background: linear-gradient(in hsl shorter hue, limegreen, red);
 color: color-mix(in hsl longer hue, limegreen, 20%, red)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 요약
 

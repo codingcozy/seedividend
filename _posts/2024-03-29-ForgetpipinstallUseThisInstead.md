@@ -3,29 +3,47 @@ title: "pip install는 이제 그만 이제 이걸 사용하세요"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Forget pip install, Use This Instead"
 link: "https://medium.com/bitgrit-data-science-publication/forget-pip-install-use-this-instead-754863c58f1e"
 isUpdated: true
 ---
 
-
-
-
-
 ## 파이썬
 
 <img src="/assets/img/ForgetpipinstallUseThisInstead_0.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![ForgetpipinstallUseThisInstead_1.png](/assets/img/ForgetpipinstallUseThisInstead_1.png)
 
 ![ForgetpipinstallUseThisInstead_2.png](/assets/img/ForgetpipinstallUseThisInstead_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 러프
 
@@ -35,7 +53,18 @@ isUpdated: true
 
 럼의 러프에 관한 내 기사를 여기에서 읽어보세요 👇
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자, 이제 uv로 돌아왔어요.
 
@@ -45,7 +74,18 @@ uv는 Rust로 작성된 초고속 Python 패키지 설치 및 해결 프로그�
 
 따뜻한 캐시로, uv는 pip 및 pip-tools보다 10~100배 빠르며 거의 즉시 설치가 완료됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 몇 가지 더 강조할 점
 
@@ -63,7 +103,18 @@ uv는 Rust로 작성된 초고속 Python 패키지 설치 및 해결 프로그�
 - 전역 모듈 캐시: 이미 본 파일을 기억하여 종속성을 다시 다운로드하거나 다시 빌드하지 않습니다.
 - Copy-on-Write 및 하드 링크: 이는 디스크 공간 사용량을 최소화하는 데 도움이 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 uv의 큰 비전은 그 속도와 신뢰성으로 Python 패키지 관리를 변화시키는 것입니다.
 
@@ -73,7 +124,18 @@ uv의 큰 비전은 그 속도와 신뢰성으로 Python 패키지 관리를 변
 
 ![이미지](/assets/img/ForgetpipinstallUseThisInstead_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 UV는 매우 빠르고 신뢰할 수 있으며 사용하기 쉬운 통합 Python 패키지 및 프로젝트 관리자 'Python용 Cargo'를 설립할 계획이 있습니다.
 
@@ -83,7 +145,18 @@ UV가 Python 개발 경험을 크게 향상시키는 것을 기대하고 있어�
 
 그들의 벤치마크에서 몇 가지 숫자를 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 콜드 설치 (8–10배 빠름)
 
@@ -93,7 +166,18 @@ uv는 캐싱 없이 pip 및 pip-tools보다 8–10배 빠릅니다.
 
 ![이미지](/assets/img/ForgetpipinstallUseThisInstead_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 따뜻한 설치 (80–115배 빠름)
 
@@ -103,7 +187,18 @@ uv는 캐싱 없이 pip 및 pip-tools보다 8–10배 빠릅니다.
 
 ## 가상 환경 만들기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 표는 Python -m venv보다 약 80배, virtualenv보다 약 7배 빠릅니다.
 
@@ -113,7 +208,18 @@ uv는 캐싱 없이 pip 및 pip-tools보다 8–10배 빠릅니다.
 
 # 트랜스포머 설치하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나는 허깅페이스의 트랜스포머 패키지에 있는 uv를 시험해봤어.
 
@@ -123,7 +229,18 @@ uv는 캐싱 없이 pip 및 pip-tools보다 8–10배 빠릅니다.
 
 ## 설치
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # macOS 및 Linux에서
@@ -142,7 +259,18 @@ uv venv  # .venv에 가상 환경을 만듭니다.
 
 ## 가상 환경 활성화
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # macOS 및 Linux에서
@@ -164,7 +292,18 @@ uv pip install "flask[dotenv]"      # "dotenv" 추가 기능이 있는 Flask 설
 
 ## 잠금된 종속성 생성하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 uv pip compile pyproject.toml -o requirements.txt   # pyproject.toml 파일을 읽습니다.
@@ -179,7 +318,18 @@ uv pip sync requirements.txt  # requirements.txt 파일에서 설치합니다.
 
 여기까지가 이 기사의 모든 내용입니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # UV에 대해 더 알아보기
 
@@ -192,7 +342,18 @@ uv pip sync requirements.txt  # requirements.txt 파일에서 설치합니다.
 
 # 읽어주셔서 감사합니다
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 bitgrit 데이터 과학 게시물을 구독해 보세요!
 

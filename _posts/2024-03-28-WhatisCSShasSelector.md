@@ -3,17 +3,13 @@ title: "CSS has 선택자로 특정 요소 자식으로 가지고 있는지 확�
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "What is CSS has Selector"
 link: "https://medium.com/@thetechplatform/what-is-css-has-selector-38b3aee9fbdf"
 isUpdated: true
 ---
-
-
-
-
 
 CSS는 지속적으로 발전하며, 개발자들이 더 효율적이고 시각적으로 놀라운 웹 경험을 만들 수 있도록 새로운 기능이 등장합니다. 그 중 하나인 최근에 추가된 CSS :has() 선택자는 자식 콘텐츠를 기반으로 요소를 대상으로 하는 데 큰 도움이 되는 혁신적인 기능입니다.
 
@@ -23,7 +19,18 @@ CSS는 지속적으로 발전하며, 개발자들이 더 효율적이고 시각�
 
 # CSS :has() 선택자란 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS :has() 선택자는 CSS 선택자 레벨 4에 도입된 상대적으로 새로운 가상 클래스로, 특정 선택기와 일치하는 자식 요소의 존재에 따라 요소를 대상으로합니다.
 
@@ -34,7 +41,18 @@ CSS :has() 선택자는 CSS 선택자 레벨 4에 도입된 상대적으로 새�
 
 고려할 사항:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 새로운 기능: 확산되는 동안, :has()는 오래된 브라우저에서 폴리필이나 해결책이 필요할 수 있습니다.
 - 성능: 복잡한 선택자를 사용한 CSS :has()의 강도가 높은 사용은 성능에 약간 영향을 미칠 수 있습니다.
@@ -50,7 +68,18 @@ CSS :has() 선택자의 구문은 다음과 같습니다:
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 코드에서:
 
@@ -61,7 +90,18 @@ CSS :has() 선택자의 구문은 다음과 같습니다:
 
 참고:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS :has()에서 여러 자식 요소를 대상으로하려면 쉼표로 구분하여 지정할 수 있습니다. CSS :has() 선택자의 가상 클래스는 태그 이름, 속성 선택자 또는 기타 유효한 선택자를 사용하여 요소를 대상으로할 수도 있습니다.
 
@@ -73,7 +113,18 @@ CSS :has()에서 여러 자식 요소를 대상으로하려면 쉼표로 구분�
 
 # 기능성:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 1. CSS의 자식 콘텐츠를 기반으로 하는 대상 선택 :has()
 
@@ -83,7 +134,18 @@ CSS :has()에서 여러 자식 요소를 대상으로하려면 쉼표로 구분�
 
 중첩 선택자: 부모 요소 내에서 자식 요소를 선택하기 위해 선택자를 중첩하는 것이었습니다. 기능적이지만 복잡하고 유지보수가 어려울 수 있으며, 특히 깊게 중첩된 구조에 대해서는 더욱 어려워질 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /* 클래스가 "content"인 섹션 내의 제목(h2) 선택 */
@@ -105,7 +167,18 @@ img ~ p
 
 CSS :has() 선택자가 등장하는 곳입니다. 이를 사용하면 특정 자식 요소들의 선택기 목록과 일치하는 부모 요소들을 대상으로 할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Markdown 형식의 테이블(href 모드) 예제 :
 
@@ -126,7 +199,18 @@ figure:not(:has(figcaption)) {
 
 두 번째 rule은 CSS `:not(:has(figcaption))`를 사용하여 figcaption과 일치하는 자식 요소가 없는 figure를 대상으로 합니다. 이를 통해 캡션이 없는 figure를 다른 방식으로 스타일링할 수 있으며, 아마도 테두리를 완전히 제거할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자녀 콘텐츠를 대상으로 하는 장점:
 
@@ -137,7 +221,18 @@ figure:not(:has(figcaption)) {
 
 CSS의 :has()는 가상 클래스의 성격을 가지고 있습니다. 일반 선택자가 직접 요소를 대상으로 하는 것과 달리, :has()는 기능적인 의사 클래스입니다. 이는 CSS 코드 내에서 함수처럼 작동하며 괄호 안의 선택자 목록을 취합니다. 이 목록은 부모가 가져야 할 자녀 요소를 지정합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 구문:
 
@@ -153,7 +248,18 @@ CSS의 :has()는 가상 클래스의 성격을 가지고 있습니다. 일반 �
 
 다양한 자식 선택기를 사용한 예시:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /* "ul" 자식(순서 없는 목록)을 가진 네비게이션 타겟 */
@@ -174,7 +280,18 @@ article:has(h2) {
 - 유연성: CSS :has() 내에서 선택자 목록을 지정하는 기능으로, 다양한 자식 콘텐츠 조건에 따라 부모 요소를 타겟팅하는 데 매우 유연성을 부여합니다.
 - 동적 스타일링: 이는 HTML의 실제 콘텐츠 구조에 따라 적응하는 동적 스타일을 만들 수 있게 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # CSS 의사 클래스 비교: CSS :has() vs :not()
 
@@ -184,7 +301,18 @@ CSS의 :has()와 :not()은 각각 고유한 기능을 제공하는 CSS의 기능
 
 ![이미지2](/assets/img/WhatisCSShasSelector_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # CSS :has()을 사용할 때 주의할 점:
 
@@ -192,7 +320,18 @@ CSS의 :has()와 :not()은 각각 고유한 기능을 제공하는 CSS의 기능
 - 성능: CSS :has()는 일부 경우에 성능에 영향을 줄 수 있습니다. 특히 네스트된 선택자와 일반적으로 사용될 때 브라우저가 자식 요소를 확인해야 하므로 전통적인 선택자보다 약간 느릴 수 있습니다.
 - 가독성: CSS :has()는 명확할 수 있지만, 네스트된 선택자가 복잡한 :has() 문이 다른 개발자들에게 이해하기 어려울 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 여기 몇 가지 추가적으로 고려해야 할 사항이 있습니다:
 

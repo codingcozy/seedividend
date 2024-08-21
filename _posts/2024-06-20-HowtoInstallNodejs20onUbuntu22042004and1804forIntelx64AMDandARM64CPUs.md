@@ -3,16 +3,13 @@ title: "우분투 2204, 2004 및 1804에서 Intel x64, AMD, ARM64 CPU용 Nodejs 
 description: ""
 coverImage: "/assets/img/2024-06-20-HowtoInstallNodejs20onUbuntu22042004and1804forIntelx64AMDandARM64CPUs_0.png"
 date: 2024-06-20 07:32
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-HowtoInstallNodejs20onUbuntu22042004and1804forIntelx64AMDandARM64CPUs_0.png
 tag: Tech
 originalTitle: "How to Install Node.js 20 on Ubuntu 22.04, 20.04, and 18.04 for Intel x64, AMD, and ARM64 CPUs"
 link: "https://medium.com/@gmusumeci/how-to-install-node-js-20-on-ubuntu-22-04-20-04-and-18-04-for-x64-amd-and-arm64-cpus-232d0f3c9f08"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-06-20-HowtoInstallNodejs20onUbuntu22042004and1804forIntelx64AMDandARM64CPUs_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 선택적 단계: Node.js 버전 20.x를 설치하기 전에 아래의 BASH 명령어를 사용하여 가장 오래된 Node.js 버전을 삭제할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 sudo apt-get remove nodejs
@@ -43,14 +51,25 @@ sudo apt update
 sudo apt install -y nodejs
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 우분투 ARM64 CPU에 NodeJS 설치 방법:
 
 아래는 ARM64 CPU에서 Node.js 버전 20.x을 설치하는 데 필요한 문장들입니다:
 
 ```js
-nodeVersion=20.14    
+nodeVersion=20.14
 sudo apt-get remove nodejs
 wget "https://nodejs.org/dist/v${nodeVersion}.0/node-v${nodeVersion}.0-linux-arm64.tar.gz"
 tar -xvf "node-v${nodeVersion}.0-linux-arm64.tar.gz"
@@ -61,7 +80,18 @@ sudo ln -s "/etc/node${nodeVersion}/bin/npm" /usr/bin/npm
 
 # Node.js 설치 확인
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 명령을 실행하여 설치가 완료되었는지 확인해보세요:
 

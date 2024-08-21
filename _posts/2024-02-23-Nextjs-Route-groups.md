@@ -3,17 +3,13 @@ title: "Nextjs에서 라우터 폴더들 그룹으로 묶는 방법(Route groups
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # Nextjs에서 라우터 폴더들 그룹으로 묶는 방법 (Route groups)
 
@@ -40,7 +36,18 @@ URL에 영향을 주지 않고 라우트를 구성하려면 관련된 라우트�
 
 <img src="/assets/img/Route-Groups_0.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 (마케팅) 및 (쇼핑) 내부의 라우트는 동일한 URL 계층 구조를 공유하지만 각 그룹 내에 layout.js 파일을 추가하여 각 그룹에 대해 다른 레이아웃을 만들 수 있습니다.
 
@@ -59,7 +66,6 @@ URL에 영향을 주지 않고 라우트를 구성하려면 관련된 라우트�
 <img src="/assets/img/Route-Groups_3.png" />
 
 위의 예에서 (마케팅) 및 (쇼핑) 모두 자체 루트 레이아웃을 갖습니다.
-
 
 - 라우트 그룹의 이름 짓는 것은 조직을 위한 특별한 의미가 없습니다. URL 경로에 영향을 주지 않습니다.
 - 라우트 그룹을 포함하는 라우트는 다른 라우트와 동일한 URL 경로로 해석되지 않아야 합니다. 예를 들어, 라우트 그룹이 URL 구조에 영향을 주지 않기 때문에 (marketing)/about/page.js 및 (shop)/about/page.js는 모두 /about으로 해석되어 오류가 발생합니다.

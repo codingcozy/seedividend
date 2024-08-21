@@ -3,17 +3,13 @@ title: "플러터 vs 리액트 네이티브, 어떤 것을 선택해야할까"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Flutter or React Native Which is Better for Your Next App"
 link: "https://medium.com/@ayaanhaider.dev/flutter-or-react-native-which-is-better-for-your-next-app-d69ac62e96a2"
 isUpdated: true
 ---
-
-
-
-
 
 안녕하세요 여러분! 오늘은 모바일 앱을 만들기 위한 두 가지 인기 있는 도구인 Flutter와 React Native에 대해 이야기하려고 해요. 새로운 앱 프로젝트를 시작할 계획이 있다면, 이 비교가 사용할 도구를 결정하는 데 도움이 될지도 몰라요.
 
@@ -24,7 +20,18 @@ isUpdated: true
 - Flutter는 구글에서 만든 도구로, 단일 코드베이스에서 모바일, 웹 및 데스크톱용으로 매우 부드럽고 빠른 앱을 만들 수 있도록 도와줘요.
 - React Native는 페이스북에서 나온 것으로, JavaScript를 사용하여 모바일 앱을 만들 수 있게 해줘요. Android와 iOS 양쪽에 동일한 코드를 사용해서 작업이 쉬워져요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 무엇을 비교해야 할까요?
 
@@ -35,7 +42,18 @@ isUpdated: true
 - Flutter: 빠르다는 것으로 유명합니다. 자체 위젯을 갖고 있기 때문에 실행 플랫폼에 의존하지 않아 앱이 더 부드럽고 빠르게 실행될 수 있습니다.
 - React Native: 이 역시 빠른 편이지만, 플랫폼의 네이티브 구성 요소에 더 의존하기 때문에 때로는 플러터만큼 부드럽지 않을 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 사용 편의성
 
@@ -46,7 +64,18 @@ isUpdated: true
 
 - Flutter와 React Native은 모두 강력한 커뮤니티를 갖고 있습니다. 질문을 할 수 있는 많은 자습서와 포럼을 찾을 수 있습니다. 그러나 최근 Flutter가 많은 주목을 받고 있으며 커뮤니티가 빠르게 성장하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

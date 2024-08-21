@@ -3,16 +3,13 @@ title: "Nodejs 애플리케이션을 위한 효율적인 멀티스테이지 빌�
 description: ""
 coverImage: "/assets/img/2024-07-13-MasteringDockerCreatingEfficientMulti-StageBuildsforNodejsApplications_0.png"
 date: 2024-07-13 01:47
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-MasteringDockerCreatingEfficientMulti-StageBuildsforNodejsApplications_0.png
 tag: Tech
 originalTitle: "Mastering Docker: Creating Efficient Multi-Stage Builds for Node.js Applications"
 link: "https://medium.com/codex/mastering-docker-creating-efficient-multi-stage-builds-for-node-js-applications-34cb9731990e"
 isUpdated: true
 ---
-
-
-
 
 ![Docker Multi-Stage Builds](/assets/img/2024-07-13-MasteringDockerCreatingEfficientMulti-StageBuildsforNodejsApplications_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 Docker의 멀티 스테이지 빌드를 활용하면 Dockerfile에서 여러 FROM 문을 사용할 수 있어서 빌드 프로세스에 여러 단계를 만들 수 있습니다. 이는 빌드 환경을 실행 환경과 분리할 수 있어 최종 이미지에 필요한 파일과 의존성만 포함되도록 보장합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Dockerfile 작성
 
@@ -69,13 +77,24 @@ CMD ["node", "build/server.js"]
 
 # Dockerfile 분석
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Multi-Stage Build: Dockerfile에서 두 단계를 정의합니다. 첫 번째 단계, 빌더(builder),는 빌드 프로세스를 처리합니다. 두 번째 단계는 최적화된 프로덕션 이미지를 생성합니다.
 - Base Image: 우리는 두 단계 모두에 대해 가벼운 Node.js의 Alpine Linux 버전인 node:18-alpine을 사용합니다.
 - 작업 디렉토리: WORKDIR 지시문은 컨테이너 안의 작업 디렉토리를 설정합니다.
-- 종속성 복사: 빌더 단계에서 package*.json 파일을 복사하고 npm install을 실행하여 종속성을 설치합니다. 그런 다음 애플리케이션 코드의 나머지를 복사하고 빌드 프로세스(npm run build)를 실행합니다.
-- 프로덕션 종속성: 최종 단계에서는 빌더 단계에서 구축된 파일과 package*.json을 복사하고 npm install --only=production을 사용하여 프로덕션 종속성만 설치합니다.
+- 종속성 복사: 빌더 단계에서 package\*.json 파일을 복사하고 npm install을 실행하여 종속성을 설치합니다. 그런 다음 애플리케이션 코드의 나머지를 복사하고 빌드 프로세스(npm run build)를 실행합니다.
+- 프로덕션 종속성: 최종 단계에서는 빌더 단계에서 구축된 파일과 package\*.json을 복사하고 npm install --only=production을 사용하여 프로덕션 종속성만 설치합니다.
 - 포트 노출: EXPOSE 지시문을 사용하여 앱이 실행될 포트(포트 3000)를 문서화합니다.
 - 시작 명령: CMD 지시문은 애플리케이션을 실행할 명령을 지정합니다(node build/server.js).
 
@@ -85,7 +104,18 @@ CMD ["node", "build/server.js"]
 
 - 빌드 및 런타임 환경을 분리함으로써 최종 이미지에 필요한 파일과 종속성만 포함되도록 보장합니다. 이는 이미지 크기를 크게 줄이고 시작 시간을 개선하며 저장 요구 사항을 줄입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 향상된 보안:
 
@@ -95,7 +125,18 @@ CMD ["node", "build/server.js"]
 
 - 캐시에서 중간 레이어를 재사용하는 것은 종속성이 변경되지 않은 경우 빌드 프로세스를 가속화할 수 있습니다. Docker는 변경된 레이어만 다시 빌드하므로 개발 중에 시간을 절약할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. 관심사의 명확한 분리:
 
@@ -105,8 +146,18 @@ CMD ["node", "build/server.js"]
 
 위의 Dockerfile과 함께 작동하는 Node.js 어플리케이션의 예시 구조입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /my-app
@@ -126,8 +177,18 @@ CMD ["node", "build/server.js"]
 
 도커 이미지를 빌드하고 실행하려면:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 도커 이미지 만들기:
 
@@ -141,17 +202,39 @@ docker build -t my-node-app .
 docker run -p 3000:3000 my-node-app
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 추가 개선 사항
 
 1. 의존성 캐싱:
 
-- COPY package*.json . 및 RUN npm install을 나머지 응용 프로그램 코드를 복사하기 전에 사용하면 Docker의 캐싱 메커니즘을 활용할 수 있습니다. 의존성이 변경되지 않았다면 Docker는 캐시된 레이어를 재사용하여 이후 빌드를 가속화합니다.
+- COPY package\*.json . 및 RUN npm install을 나머지 응용 프로그램 코드를 복사하기 전에 사용하면 Docker의 캐싱 메커니즘을 활용할 수 있습니다. 의존성이 변경되지 않았다면 Docker는 캐시된 레이어를 재사용하여 이후 빌드를 가속화합니다.
 
 2. 환경 변수:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - ARG와 ENV 명령을 사용하면 빌드 시간 및 실행 시간 환경 변수를 전달할 수 있습니다. 이는 Dockerfile을 더 유연하고 구성 가능하게 만듭니다.
 
@@ -167,6 +250,17 @@ RUN if [ "$NODE_ENV" = "production" ]; then npm install --only=production; else 
 
 Docker와 다중 단계 빌드를 활용하여 효율적이고 안전하며 확장 가능한 컨테이너화된 애플리케이션을 만들 수 있습니다. 이 접근 방식은 최종 이미지 크기를 줄이는데 그치지 않고 보안 및 빌드 효율성을 향상시킵니다. Docker의 기능을 활용하여 개발 및 배포 프로세스를 최적화하고, 모든 환경에서 일관되고 신뢰할 수 있는 애플리케이션 성능을 보장하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 댓글란에 여러분의 도커(Docker)에 대한 생각과 경험을 자유롭게 공유해 주세요! 🌟

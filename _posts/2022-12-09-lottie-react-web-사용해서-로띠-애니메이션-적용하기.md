@@ -3,25 +3,30 @@ title: "lottie-react-web를 사용해서 로띠 애니메이션 적용하기"
 description: "lottie-react-web로 리액트 프로젝트에서 로띠 애니메이션을 사용하는 방법에 대해서 정리합니다"
 coverImage: ""
 date: 2024-08-03 16:52
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
 
-
-
-
-
 # lottie-react-web 사용해서 로띠 애니메이션 적용하기
 
 리액트 프로젝트에 lottie-react-web를 이용해 아래와 같은 로띠 애니메이션을 쉽게 적용할 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="./img/2022-12-09-lottie-react-web-사용해서-로띠-애니메이션-적용하기-1.gif" width="500" />
 
@@ -40,9 +45,18 @@ isUpdated: true
 
 ## 1. lottie-react-web 설치
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저 lottie-react-web를 설치해줍니다.
 
@@ -54,9 +68,18 @@ yarn add lottie-react-web
 
 적용하는 방법은 굉장히 간단합니다.
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```tsx
 {... 중략}

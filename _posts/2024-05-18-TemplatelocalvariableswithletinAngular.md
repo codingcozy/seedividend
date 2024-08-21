@@ -3,16 +3,13 @@ title: "앵귤러에서 let을 사용하여 템플릿 로컬 변수 생성하기
 description: ""
 coverImage: "/assets/img/2024-05-18-TemplatelocalvariableswithletinAngular_0.png"
 date: 2024-05-18 21:55
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-18-TemplatelocalvariableswithletinAngular_0.png
 tag: Tech
 originalTitle: "Template local variables with @let in Angular"
 link: "https://medium.com/@eneajahollari/template-local-variables-with-let-in-angular-4c6b3adfd9be"
 isUpdated: true
 ---
-
-
-
 
 ![image](/assets/img/2024-05-18-TemplatelocalvariableswithletinAngular_0.png)
 
@@ -22,7 +19,18 @@ Angular를 오랫동안 사용해본 적이 있다면, 언젠가는 템플릿 �
 
 가장 일반적인 방법은 ngIf와 같은 디렉티브를 사용하여 as 키워드를 이용해 변수에 값을 할당하는 것입니다. 예를 들면:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <div *ngIf="user$ | async as user">
@@ -38,23 +46,30 @@ Angular를 오랫동안 사용해본 적이 있다면, 언젠가는 템플릿 �
 숫자를 다루고 있을 때는 어떻게 될까요?
 
 ```js
-<div>
-    @if (points$ | async; as points) {
-        <h1>당신은 { points } 포인트를 가지고 있습니다!</h1>
-    }
-</div>
+<div>@if (points$ | async; as points) {<h1>당신은 {points} 포인트를 가지고 있습니다!</h1>}</div>
 ```
 
 템플릿에서 포인트가 0이라면 어떻게 표시될까요? 아무것도 표시되지 않을 것입니다! 왜냐하면 0은 falsy한 값이기 때문에 if 블록 내에서 사용될 때 내용을 표시하지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새로운 @let 블록이 작용하는 곳입니다. @let 블록을 사용하면 템플릿 내에서 변수를 선언하고 나중에 템플릿에서 사용할 수 있습니다. 어떻게 작동하는지 살펴봅시다.
 
 ```js
 <div>
-    @let points = (points$ | async) ?? 0;  
-    <h1>You have: { points } points!</h1>
+  @let points = (points$ | async) ?? 0;
+  <h1>You have: {points} points!</h1>
 </div>
 ```
 
@@ -62,7 +77,18 @@ Angular를 오랫동안 사용해본 적이 있다면, 언젠가는 템플릿 �
 
 또한, @let 블록의 가장 일반적인 사용 사례 중 하나는 복잡한 표현식에 대한 별칭을 저장할 수 있는 변수를 저장하는 것입니다. 예를 들어:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 @let someField = someService.someSignal().someProperty.someOtherProperty;
@@ -75,12 +101,22 @@ Angular를 오랫동안 사용해본 적이 있다면, 언젠가는 템플릿 �
 
 - 비동기 파이프와 함께:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <div>
-    @let user = (user$ | async) ?? { name: 'Guest' };  
+    @let user = (user$ | async) ?? { name: 'Guest' };
     <h1>{ user.name }</h1>
 </div>
 ```
@@ -88,25 +124,30 @@ Angular를 오랫동안 사용해본 적이 있다면, 언젠가는 템플릿 �
 - With control flow directives:
 
 ```js
-<div>
-    @let user = user$ | async;  
-    @if (user) {
-        <h1>{ user.name }</h1>
-    }
-</div>
+<div>@let user = user$ | async; @if (user) {<h1>{user.name}</h1>}</div>
 ```
 
 - Inside @for to refactor code duplications:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <mat-selection-list>
     @for (item of items(); track item.id) {
         @let isSelected = item.id === selectedId();
         <mat-list-option [selected]="isSelected" [class.selected]="isSelected">
-            { item.text } 
+            { item.text }
             @if (isSelected) {
                 <span>(selected)</span>
             }
@@ -120,7 +161,7 @@ Angular를 오랫동안 사용해본 적이 있다면, 언젠가는 템플릿 �
 ```js
 <div>
     @for (game of games; track game.id) {
-        @let points = calcPoints(game.points > 0 ? game.points : 0);  
+        @let points = calcPoints(game.points > 0 ? game.points : 0);
         <h1>You have: { points } points!</h1>
     }
 </div>
@@ -128,12 +169,23 @@ Angular를 오랫동안 사용해본 적이 있다면, 언젠가는 템플릿 �
 
 - 기본 산술 연산자 활용:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <div>
    @for (게임 of 게임목록; 게임.id로 순회) {
-       @let 합계 = 이전합계 + 게임.점수; 
+       @let 합계 = 이전합계 + 게임.점수;
        <h1>총 점수: { 합계 }</h1>
    }
 </div>
@@ -143,22 +195,31 @@ Angular를 오랫동안 사용해본 적이 있다면, 언젠가는 템플릿 �
 
 ```js
 <div>
-    @let 사용자이름 = 사용자()?.이름 ?? '손님';
-    <h1>환영합니다, { 사용자이름 }</h1>
+  @let 사용자이름 = 사용자()?.이름 ?? '손님';
+  <h1>환영합니다, {사용자이름}</h1>
 </div>
 ```
 
 - 여러 선언을 한 줄에 나열하거나 여러 줄에 나눠서 선언하기:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-<div>  
-    @let total = count + previousCount, average = calcAverage(count), (여기서 `total`을 사용할 수 있을까요?)
-    
-    @let total = count + previousCount, 
-         average = calcAverage(count)
-    <h1>{total}</h1>
+<div>
+  @let total = count + previousCount, average = calcAverage(count), (여기서 `total`을 사용할 수 있을까요?) @let total =
+  count + previousCount, average = calcAverage(count)
+  <h1>{total}</h1>
 </div>
 ```
 
@@ -169,10 +230,20 @@ let 선언은 JavaScript의 let 선언과 거의 동일하게 작동합니다.
 - 스코핑은 JavaScript의 let과 동일하게 작동합니다.
 - 타입 추론이 그대로 작동합니다!
 - let 선언은 구성 속성보다 로컬 let 선언을 우선시합니다.
-- let 선언은 정의되기 전에 참조할 수 없으며, 예외는 이벤트 핸들러 내에서 사용될 때입니다. 
+- let 선언은 정의되기 전에 참조할 수 없으며, 예외는 이벤트 핸들러 내에서 사용될 때입니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기능은 2017년 3월부터 열려 있던 문제를 해결합니다.
 
@@ -185,7 +256,18 @@ let 선언은 JavaScript의 let 선언과 거의 동일하게 작동합니다.
 
 PR에 대한 자세한 정보는 여기에서 확인할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 새로운 @let 블록을 Angular 템플릿에서 사용하는 방법이 있습니다. 이 기능은 아마도 예상대로 다가오는 달에 출시될 Angular v18.1에서 사용 가능할 것으로 예상됩니다.
 

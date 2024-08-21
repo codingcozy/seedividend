@@ -3,15 +3,13 @@ title: "자바스크립트 고수만을 위한 스크래치부터 동적 싱글 
 description: ""
 coverImage: "/assets/img/2024-07-09-JavaScriptWizardsOnlyHowtoCreateaDynamicSinglePageApplicationfromScratch_0.png"
 date: 2024-07-09 08:50
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-JavaScriptWizardsOnlyHowtoCreateaDynamicSinglePageApplicationfromScratch_0.png
 tag: Tech
 originalTitle: "JavaScript Wizards Only: How to Create a Dynamic Single Page Application from Scratch!"
 link: "https://medium.com/@learntocodetoday/javascript-wizards-only-how-to-create-a-dynamic-single-page-application-from-scratch-f9555491032f"
 isUpdated: true
 ---
-
-
 
 ![JavaScript Wizards Only](/assets/img/2024-07-09-JavaScriptWizardsOnlyHowtoCreateaDynamicSinglePageApplicationfromScratch_0.png)
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 먼저, 새 프로젝트 디렉토리를 만들고 프로젝트 구조를 설정하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 mkdir dynamic-spa
@@ -37,7 +46,18 @@ npm init -y
 
 ## 2. 기본 HTML 구조
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기본 HTML 구조부터 index.html에 시작하세요:
 

@@ -3,17 +3,13 @@ title: "React로 간단한 자동완성Autocomplete 기능 구현하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How to build a simple Autocomplete with React"
 link: "https://medium.com/@vickyvishal/how-to-build-a-simple-autocomplete-with-react-6d84240af18e"
 isUpdated: true
 ---
-
-
-
-
 
 자동완성은 사용자가 입력하는 동안 빠르게 미리 입력된 값 목록에서 찾아 선택할 수 있는 기능을 제공하는 것을 말합니다. 검색 및 필터링을 활용합니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 가장 널리 활용되는 곳은 검색 엔진입니다. 2004년 구글에서 소개되었지만 이 개념을 개선하고 제품에 통합하는 방법에 대한 산업 표준을 설정했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 뷰
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 이 입력란에 문자열을 입력하면 API를 호출하여 쿼리를 전달하여 목록을 받습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/HowtobuildasimpleAutocompletewithReact_1.png" />
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 - 2개의 UI를 가지고 있는 뷰가 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 입력 UI
 - 결과 목록 UI
@@ -54,7 +83,18 @@ isUpdated: true
 
 ## 코드
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 서버
 
@@ -92,9 +132,7 @@ const itemList = [
 app.get("/api/items", (req, res) => {
   if (req.query?.searchTerm) {
     const searchTerm = req.query?.searchTerm.toLowerCase();
-    const filteredItems = itemList.filter((item) =>
-      item.name.toLowerCase().includes(searchTerm)
-    );
+    const filteredItems = itemList.filter((item) => item.name.toLowerCase().includes(searchTerm));
     res.json(filteredItems);
   }
 });
@@ -102,7 +140,18 @@ app.get("/api/items", (req, res) => {
 
 ## 클라이언트
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 간단한 React 앱을 만듭니다. 설정에는 Vite를 사용하는 것을 추천합니다.
 - 프레젠테이션용으로 AutoComplete 컴포넌트를 만듭니다.
@@ -143,10 +192,7 @@ export default function AutoComplete() {
   const [searchTerm, setSearchTerm] = React.useState("");
   const [activeIndex, setActiveIndex] = React.useState(-1);
 
-  const { fruits, loading } = useFruits(
-    "http://localhost:3000/api/items",
-    searchTerm
-  );
+  const { fruits, loading } = useFruits("http://localhost:3000/api/items", searchTerm);
 
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setSearchTerm(event.target.value);
@@ -170,12 +216,7 @@ export default function AutoComplete() {
 
   return (
     <AutoCompleteContainer>
-      <Input
-        onChange={handleChange}
-        onKeyDown={onKeyDown}
-        value={searchTerm}
-        placeholder="Search Your Fruits"
-      />
+      <Input onChange={handleChange} onKeyDown={onKeyDown} value={searchTerm} placeholder="Search Your Fruits" />
 
       {searchTerm ? (
         <ResultContainer>
@@ -198,7 +239,18 @@ export default function AutoComplete() {
 - 프레젠테이션 컴포넌트로, useFruits 훅에서 데이터를 받습니다.
 - 사용자가 입력하고 값이 searchTerm 상태에 의해 단일 진실의 원본에서 값을 얻을 수 있는 제어 Input이 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `ResultList/`
 
@@ -283,7 +335,18 @@ export default function ResultList({
 
 `useFruits/`
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 export default function useFruits(url: string, searchTerm?: string) {

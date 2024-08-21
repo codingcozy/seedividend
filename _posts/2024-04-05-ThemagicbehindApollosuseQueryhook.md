@@ -3,17 +3,13 @@ title: "Apollo의 useQuery 훅 사용 방법 정리"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "The magic behind Apollos useQuery hook"
 link: "https://medium.com/stackademic/the-magic-behind-apollo-s-usequery-hook-05023588a6a3"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/ThemagicbehindApollosuseQueryhook_0.png" />
 
@@ -23,7 +19,18 @@ Apollo Client은 포괄적인 GraphQL 클라이언트 및 상태 관리 라이�
 
 이 기사에서 다룰 주제는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 표면적으로 무엇을 하는가
 - 내부에서 어떤 작업을 하는가
@@ -35,7 +42,18 @@ Apollo Client은 포괄적인 GraphQL 클라이언트 및 상태 관리 라이�
 
 useQuery는 우리가 React 컴포넌트 내에서 구현할 수 있는 React 훅입니다. 주요 용도는 전달된 graphQL 쿼리를 실행하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시는 다음과 같습니다:
 
@@ -71,7 +89,18 @@ ShoppingCart 컴포넌트가 렌더링되면 useQuery가 실행되어 쿼리를 
 
 Apollo의 강력한 기능 중 하나는 캐시입니다. useQuery를 통해 데이터를 받으면 클라이언트 내부에 자동으로 이를 캐시합니다. 이후 동일한 쿼리의 실행은 캐시에서 결과를 가져올 수 있습니다. Apollo 클라이언트의 기본 fetch 정책은 cache-first입니다. fetch 정책에 대해 더 자세히 알아보려면 공식 문서를 참조하실 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주문 내역을 이미 가져온 쇼핑 카트 컴포넌트가 있다고 가정합니다. 후속 컴포넌트가 동일한 데이터를 요청하면, 이번에는 데이터가 외부 API가 아닌 캐시에서 액세스됩니다.
 
@@ -102,7 +131,18 @@ function CheckoutButton() {
 
 ## 캐시 업데이트 구독하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 명시적으로 Graphql 쿼리를 가져오는 것 외에도 useQuery 훅은 Apollo 캐시의 해당 부분을 구독하고 미래 업데이트를 '청취'합니다.
 
@@ -129,17 +169,24 @@ export function Product({ product }) {
       <h3>{product.title}</h3>
       <p>${product.price}</p>
       {loading && <p>Adding product</p>}
-      <button
-        onClick={() => addProduct({ variables: { product: product.id } })}
-      >
-        Add to cart
-      </button>
+      <button onClick={() => addProduct({ variables: { product: product.id } })}>Add to cart</button>
     </div>
   );
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 백엔드 데이터를 수정할 때 뮤테이션(mutations)을 사용할 수 있고, 리액트 환경에서는 useMutation 훅을 활용할 수 있어요. 이 글에서는 뮤테이션에 대해 자세히 다루지 않겠지만, Apollo 문서에서 더 많은 정보를 찾아볼 수 있어요.
 
@@ -149,7 +196,18 @@ export function Product({ product }) {
 
 AddToCart 뮤테이션에서 refetchQueries 배열에 우리의 GetShoppingCart 쿼리를 포함시킴으로써 이를 구현할 수 있어요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const [addProduct, { data, loading }] = useMutation(ADD_PRODUCT, {
@@ -163,7 +221,18 @@ UI에서 이 동작을 관찰할 때 장바구니가 업데이트되면 Shopping
 
 상품 컴포넌트가 상호작용할 때 ShoppingCart 컴포넌트가 어떻게 업데이트되는지 궁금하신가요? useQuery가 바로...
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 옵저버블
 
@@ -173,7 +242,18 @@ useQuery는 내부적으로 Apollo의 watchQuery 함수를 사용합니다. 이 
 
 따라서 쇼핑 카트 컴포넌트에서 useQuery를 다음과 같이 추가할 때...
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const GET_CART = gql`
@@ -215,7 +295,18 @@ observableQuery.subscribe({
 
 이렇게 하면 캐시의 특정 부분에 대한 구독이 생성됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 AddToCart 뮤테이션이 발생할 때, 장바구니에 있는 총 수량과 항목 수를 업데이트하면 다음과 같은 일이 발생합니다:
 
@@ -228,7 +319,18 @@ observableQuery.subscribe({
 
 멋지죠? 보통은 단순한 훅이라고 생각되지만 실제로는 중요한 기능을 제공합니다. 하지만 마지막으로 끝내기 전에 더 해야 할 일이 있습니다...
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 서버 사이드 렌더링 중 useQuery 사용
 
@@ -238,7 +340,18 @@ Apollo는 서버에서 필요한 리액트 트리로 렌더링하는 데 실행�
 
 서버 렌더링 시 다음 단계가 진행됩니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Apollo은 애플리케이션의 React 트리를 탐색하여 useQuery로 생성된 모든 GraphQL 쿼리를 수집합니다. 이를 통해 Apollo는 렌더링을 충족하기 위해 가져와야 하는 쿼리를 이해합니다.
 - 이는 모든 이러한 쿼리가 응답을 반환할 때까지 해결되는 프라미스를 반환합니다.
@@ -251,7 +364,18 @@ React 애플리케이션에서 이 능력은 Apollo의 renderToStringWithData �
 
 이런 식으로 보입니다…
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import express from 'express';
@@ -298,7 +422,18 @@ app.get('/', async (req, res) => {
 
 여기서 확인할 수 있듯이, useQuery는 Graphql 쿼리를 가져오는 것 이상의 기능을 제공합니다. 실제로 React/Apollo 애플리케이션을 구축하는 동안 많은 기능을 단순히 사용할 뿐입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 희망적으로 이 기사가 useQuery가 이를 어떻게 달성하는지에 대한 조금 더 통찰력을 제공해줄 것입니다.
 

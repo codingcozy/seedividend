@@ -3,17 +3,13 @@ title: "Could not resolve dependency 오류 해결방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Could not resolve dependency What actually it Means"
 link: "https://medium.com/@mynameischandangupta1/could-not-resolve-dependency-what-actually-it-means-b00c898cc7fb"
 isUpdated: true
 ---
-
-
-
-
 
 저는 Node와 React 의존성을 버전 x(예: 10.0)에서 X(예: 16.20.1)으로 업그레이드하는 작업을 진행 중이에요. 의존성 문제에 부딪혔는데, npm에서 "의존성을 해결할 수 없음" 오류를 정확히 어떻게 이해해야 하는지 간단한 설명을 찾지 못했어요.
 
@@ -45,7 +41,18 @@ npm ERR!
 
 위의 오류는 쇼케이스용이에요... 여러분의 문제는 다를 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인간 용어로 번역하면 다음과 같습니다: — → 꽤 혼란스럽네요…
 
@@ -58,7 +65,18 @@ npm ERR! Found: react@18.2.0
 
 처음에 읽을 때 약간 혼란스럽습니다. “무엇을 발견했는데 문제가 뭔가요?”라는 생각이 들어요. 더 읽어봐야 정확히 알 수 있죠. 위와 같은 문구를 보면…
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm ERR! 종속성을 해결할 수 없습니다:
@@ -74,7 +92,18 @@ npm ERR! 상류 종속성 충돌을 해결하거나 다시 시도하십시오
 npm ERR! 이 명령을 --force 또는 --legacy-peer-deps와 함께 실행하십시오
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어떤 조사와 수정을 진행하거나 빌드를 업데이트하여 이 문제를 해결할 수도 있어요(덜 이상적이고, 위험이 따를 수도 있지만요).
 

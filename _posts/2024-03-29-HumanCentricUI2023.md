@@ -3,17 +3,13 @@ title: "사용자 중심 UI 만드는 방법 2024년"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Human Centric UI 2023"
 link: "https://medium.com/@carlosalmonte04/human-centric-ui-2023-f836fbc838d7"
 isUpdated: true
 ---
-
-
-
-
 
 ![HumanCentricUI2023_0](/assets/img/HumanCentricUI2023_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 새로운 기능을 코딩할 때 모든 세부 사항을 기억하는 것은 어렵지만, 이상한 인간 행동을 예상하는 것은 코드를 인간 중심으로 만드는 열쇠에요; 기기 흔들기, 버튼에 분노를 누르기, 포켓 속에서 화면을 켜놓기, 그리고 지금은 잊혀진 많은 다른 행동들도 있죠. 버튼을 만드는 것은 단순히 "버튼을 만드는 것"이 아니에요, 분노로 빨리 누르기를 피하기 위해 디바운스를 추가하는 것이고, 목표지 않은 터치를 피하기 위해 탭 가능한 영역을 10픽셀 더 늘리는 것이에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음에 사용자 상호작용을 기대하는 프론트엔드 컴포넌트를 개발할 때는 다음 팁을 고려해보세요:
 
@@ -38,7 +45,18 @@ isUpdated: true
 
 Slack은 사람들에게 친숙한 경험을 제공하는 데 아주 잘 지원하고 있습니다. 심지어 메시지 반응에서 모든 피부 톤이 표시되어 다양성을 인식하고 존중하는 데 큰 도움이 되는 기능이라고 생각해요. ‘자연스럽고’ 유기적인 경험에 진심으로 관심을 가지는 다른 회사로는 Apple이 있는데요, 구체적인 예시는 떠오르지 않지만 이 회사는 다양한 기기 간 최상의 경험을 개발한다는 점으로 유명합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제가 불평하는 것을 지금은 그만두려고 해요. 그렇지만 이 6가지 팁을 통해 여러분의 작업을 차별화시키고 Slack이나 Apple 제품과 더 비슷하게 만들 수 있을 거에요.
 

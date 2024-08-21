@@ -3,16 +3,13 @@ title: "CSS Flexbox 최신 레이아웃 디자인 안내"
 description: ""
 coverImage: "/assets/img/2024-05-18-CSSFlexboxGuidetoModernLayoutDesign_0.png"
 date: 2024-05-18 22:11
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-18-CSSFlexboxGuidetoModernLayoutDesign_0.png
 tag: Tech
 originalTitle: "CSS Flexbox: Guide to Modern Layout Design"
 link: "https://medium.com/@hassani20120/css-flexbox-guide-to-modern-layout-design-051c9c36a4c1"
 isUpdated: true
 ---
-
-
-
 
 <table>
 
@@ -26,7 +23,18 @@ Flexbox 이해하기: Flexbox는 유연하고 동적인 레이아웃을 쉽게 �
 
 </table>
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Key Concepts of Flexbox:
 
@@ -36,7 +44,18 @@ Key Concepts of Flexbox:
 
 # Exploring Flexbox Properties:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Flex Direction: flex 컨테이너 내에서 flex 항목이 배치되는 기본 축을 결정하여 수평 (행) 또는 수직 (열) 정렬이 가능합니다.
 - Justify Content: flex 컨테이너의 주 축을 따라 flex 항목의 정렬을 제어하여 공간을 항목 사이에 고르게 분배하거나 주위로 배치할 수 있습니다.
@@ -57,7 +76,18 @@ Key Concepts of Flexbox:
 </nav>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 .menu {
@@ -87,7 +117,18 @@ Key Concepts of Flexbox:
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. 동일한 높이 열 구현:
 
@@ -112,7 +153,18 @@ Key Concepts of Flexbox:
 
 최상의 관행과 고려 사항:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 오래된 브라우저들이 Flexbox를 완전히 지원하지 않을 수도 있는 브라우저 지원 및 대체 방법에 대한 이해
 - CSS Grid와 같은 다른 레이아웃 모델과 함께 사용하여 더 복잡하고 반응형 디자인을 만드는 법

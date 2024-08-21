@@ -3,17 +3,13 @@ title: "새로운 앱 라우터를 활용하여 Nextjs 사이트 만들기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How to Structure Your Nextjs App With the New App Router"
 link: "https://medium.com/better-programming/how-to-structure-your-next-js-app-with-the-new-app-router-61bf2bf5a20d"
 isUpdated: true
 ---
-
-
-
-
 
 ## 새 App Router를 활용한 피쳐-드리븐 구조로 Next.js 프로젝트를 조직하는 방법을 배워보세요. 이를 통해 개발에서 보다 큰 유연성과 효율성을 누릴 수 있습니다.
 
@@ -31,7 +27,18 @@ isUpdated: true
 - 최종 권고사항
 - 마무리
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 앱 라우터
 
@@ -41,7 +48,18 @@ isUpdated: true
 
 이 기사에서는 Next.js 프로젝트를 구성하는 가장 유연하고 확장 가능한 방법을 안내하겠습니다. 이 기사는 Next.js의 앱 라우터를 위한 것이지만, 많은 기본 사항은 React 프로젝트에도 적용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대부분의 프로젝트 구조는 역할 중심이지만, 이 안내서에서는 특징 중심 접근 방식을 취할 것입니다. 정확히 무엇이 특징인지 이해하려면 다음 섹션을 읽어주세요.
 
@@ -51,7 +69,18 @@ isUpdated: true
 
 프로젝트를 여러 특징으로 나누면 관심사 분리 디자인 원칙에 대해 생각하게 될 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기능을 만드는 데 일정한 규칙은 없지만 만들기 전에 스스로에게 이 질문들을 해볼 수 있습니다:
 
@@ -65,7 +94,18 @@ isUpdated: true
 
 기능을 언제든지 만들 수 있는 자유가 있습니다. 사실 코딩을 먼저 해보고, 새로이 마음껏 해보는 것이 좋은 생각일 때도 있습니다. 왜냐하면 그 순간에는 전체 그림을 볼 수 있고, 이후에 최적화하는 것이 더 쉬워지기 때문이죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 피처 중심 구조가 가져다주는 혜택은 무엇일까요? Next Right Now 문서에 따르면 다음과 같습니다:
 
@@ -156,7 +196,18 @@ isUpdated: true
     └── ...
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 심사숙고를 해본다면, 차이는 모든 파일을 기계적으로 분류하는 것이 아니라 논리적 추론을 기반으로 프로젝트를 그룹화하는 데 있다.
 
@@ -166,7 +217,18 @@ isUpdated: true
 
 # 라우트 구조화
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 앱을 구조화할 때 가장 먼저 고려해야 하는 것은 루트 및 관련 페이지입니다. 응용프로그램 라우터를 통해 이를 어떻게 구조화할 수 있는지 살펴봅시다:
 
@@ -182,17 +244,26 @@ isUpdated: true
 
 근본과 관련된 다른 파일들을 어디에 놓아야 할 필요가 있다면, 예시를 살펴보겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 .
 └── app/
-    ├── home
-    ├── landing
-    └── (root)/
-        ├── page.tsx
-        └── useAuth.ts
-
+├── home
+├── landing
+└── (root)/
+├── page.tsx
+└── useAuth.ts
 
 루트 폴더에서만 사용되는 파일을 저장해야 할 경우, 해당 파일들을 루트 폴더 안에 그룹화할 수 있습니다. 이 경우에는 괄호 안에 폴더 이름을 감싸서 라우트 그룹을 만들고 있습니다. 이는 URL 경로에 영향을 주지 않도록하는 것입니다.
 
@@ -200,7 +271,18 @@ isUpdated: true
 
 # 공통 파일 정리하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트에서 기본 버튼 컴포넌트와 같은 전역 파일이 필요할 때가 많습니다. 이러한 공통 파일은 최상위 레벨에 배치됩니다. 특정한 경우에 대해서만 말씀드리면, 이러한 파일은 어떤 기능과도 관련이 없는 것으로 정의되기 때문에 역할 기반 그룹화가 채택됩니다. 다음은 그 모습을 예로 보여드립니다:
 
@@ -218,7 +300,18 @@ isUpdated: true
 
 공통 파일에 대한 정해진 규칙은 없지만, 공통 폴더에 파일을 배치하기 전에 스스로에게 물어볼 몇 가지 질문이 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 -이 파일은 일반적으로 전체 프로젝트에서 사용됩니까? -이 파일은 특정 기능에 특화되지 않습니까? -프로젝트가이 파일에 대한 전역 액세스로 이점을 얻을 수 있습니까?
 
@@ -228,7 +321,18 @@ isUpdated: true
 
 기능 폴더 내에서 혼란스러워지면 파일을 더 그룹화할 수도 있습니다. 다음은 예시입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .
@@ -259,7 +363,18 @@ isUpdated: true
 
 # 모두를 모아보기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 몇 가지 주제를 단계별로 다뤘습니다. 이제 모든 것을 함께 정리해봅시다:
 
@@ -295,7 +410,18 @@ isUpdated: true
 - 기능 폴더: home 그리고 auth.
 - 페이지: /home, /sign-up, 그리고 /login.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 최종 권장 사항
 
@@ -308,7 +434,18 @@ isUpdated: true
 
 이 기사가 여러분이 프로젝트를 확장 가능하면서도 여러분의 요구에 맞게 구조화하는 데 도움이 되고 영감을 줬으면 좋겠습니다. 빠뜨린 부분이 있거나 의문이 있으시면, 댓글을 남겨주시면 기꺼이 돌아가며 도와드리겠습니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 Next.js 13.4에 대해 더 알고 싶다면 여기를 확인해보세요. 또한, App Router에 대한 문서를 여기에서 찾을 수 있어요.
 

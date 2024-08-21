@@ -3,17 +3,13 @@ title: "더 나은 Dart 프로그래밍을 위한 팁 5가지"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "The Dart Speed"
 link: "https://medium.com/@tommyyy/the-dart-speed-035272e9d46d"
 isUpdated: true
 ---
-
-
-
-
 
 프로그래밍 언어의 속도는 중요합니다, 비록 그것이 드물게 필요하더라도 말이죠. 사용하는 언어가 빠르면 기뻐요. Dart가 시장에서 가장 빠른 언어는 아니지만, 멋지고 깔끔한 문법에 감사합니다. 그래서 Dart, JavaScript, Rust의 속도를 비교해보았어요.
 
@@ -23,7 +19,18 @@ Rust가 가장 빠를 거라는 것은 모두가 알고 있죠. 하지만 제 �
 
 # 성능 평가
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 벤치마크는 피보나치 함수의 성능을 평가합니다. 각 스크립트에서 입력값으로 35를 사용하여 함수를 100번 실행합니다. 제 노트북의 하드웨어 제한으로 더 높은 입력값을 테스트할 수는 없습니다. JavaScript 코드는 Deno로 실행되었습니다. 이제 Dart, JavaScript 및 Rust 구현을 보여드리도록 하겠습니다.
 
@@ -37,7 +44,18 @@ Rust가 가장 빠를 거라는 것은 모두가 알고 있죠. 하지만 제 �
 시스템: 64비트 운영 체제, x64 기반 프로세서
 Windows: Windows 11 Home, 버전 23H2
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 PowerShell 스크립트입니다:
 
@@ -64,7 +82,18 @@ Write-Host "평균 실행 시간: $averageTime 밀리초"
 
 ![Dart Speed](/assets/img/TheDartSpeed_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## JavaScript
 
@@ -74,7 +103,18 @@ Write-Host "평균 실행 시간: $averageTime 밀리초"
 
 ![이미지](/assets/img/TheDartSpeed_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 알 수 있듯이, 같은 코드를 사용하여 언어 간에 번역을 한 것입니다.
 
@@ -86,7 +126,18 @@ Write-Host "평균 실행 시간: $averageTime 밀리초"
 Dart 대비 1.59% 늦음
 Rust 대비 138.67% 더 늦음
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/TheDartSpeed_5.png)
 
@@ -100,7 +151,18 @@ Rust 대비: 86.79 % 느림
 JavaScript 대비: 138.67 % 빠름
 Dart 대비: 86.79 % 빠름
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

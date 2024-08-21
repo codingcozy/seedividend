@@ -3,15 +3,13 @@ title: "1px 테두리 문제 해결을 위한 8가지 솔루션 모바일 디자
 description: ""
 coverImage: "/assets/img/2024-07-09-8SolutionsToThe1pxBorderPredicamentAMobileDesignMystery_0.png"
 date: 2024-07-09 08:55
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-8SolutionsToThe1pxBorderPredicamentAMobileDesignMystery_0.png
 tag: Tech
 originalTitle: "8 Solutions To The 1px Border Predicament: A Mobile Design Mystery 🕵️‍♀️"
 link: "https://medium.com/javascript-in-plain-english/8-solutions-to-the-1px-border-predicament-a-mobile-design-mystery-%EF%B8%8F-%EF%B8%8F-82c678ca206c"
 isUpdated: true
 ---
-
-
 
 <img src="/assets/img/2024-07-09-8SolutionsToThe1pxBorderPredicamentAMobileDesignMystery_0.png" />
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 ## 주범: 픽셀 밀도
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 장치에는 기기 독립적인 픽셀과 실제 픽셀 사이의 비율을 알려주는 devicePixelRatio로 측정된 특정 픽셀 밀도가 있습니다.
 
@@ -31,7 +40,18 @@ isUpdated: true
 
 ## 1. 0.5px 테두리: 간단한 고치기 방법
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 방법은 장치 픽셀 비율이 2 이상인 경우 조건부로 0.5px 테두리를 적용하는 것을 포함합니다.
 

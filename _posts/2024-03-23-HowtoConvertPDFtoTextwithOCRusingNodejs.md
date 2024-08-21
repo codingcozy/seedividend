@@ -3,17 +3,13 @@ title: "Nodejs를 사용하여 OCR을 이용하여 PDF를 텍스트로 변환하
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How to Convert PDF to Text with OCR using Nodejs"
 link: "https://cloudmersive.medium.com/how-to-convert-pdf-to-text-with-ocr-using-node-js-cfb3630735fb"
 isUpdated: true
 ---
-
-
-
-
 
 우리의 PDF 파일이 비트맵 이미지(벡터 이미지가 아닌 이미지)로 변환될 때 문서로부터 일반 텍스트를 추출하기 위해 OCR 서비스가 필요합니다.
 
@@ -25,7 +21,18 @@ isUpdated: true
 - 입력 문서의 언어를 지정할 수 있으며 수십 개의 일반 국제 언어를 지원합니다.
 - 이미지 변환 전에 이미지를 전처리하도록 선택할 수 있습니다. (이 기능을 해제하려면 'none'으로 설정).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희 요청을 인가하기 위해서는 무료 티어 API 키만 있으면 됩니다. 이를 통해 매월 800회의 API 호출 한도를 무언의 추가 약정 없이 이용할 수 있고, 클라우드머시브 웹사이트에서 무료 계정을 등록함으로써 얻을 수 있습니다.
 
@@ -37,7 +44,18 @@ npm install cloudmersive-ocr-api-client --save
 
 또는 이 코드 스니펫을 package.json 파일에 추가함으로써도 됩니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
   "dependencies": {
@@ -75,7 +93,3 @@ apiInstance.pdfOcrPost(imageFile, opts, callback);
 ```
 
 이제 래스터 PDF 문서를 텍스트로 쉽게 변환할 수 있습니다.
-
-
-
-

@@ -3,17 +3,13 @@ title: "Tanstack ReactQuery로 무한스크롤 구현하기 (react-intersection-
 description: "tanstack react-query와 react-intersection-observer 활용해서 무한스크롤 가장 쉽게 구현하는 방법"
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # Tanstack ReactQuery로 무한스크롤 구현하기(react-intersection-observer)
 
@@ -63,7 +59,18 @@ export default async function Home() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2. useInfiniteQuery 적용
 
@@ -73,11 +80,7 @@ export default async function Home() {
 ```tsx
 "use client";
 
-import {
-  InfiniteData,
-  useInfiniteQuery,
-  useQuery,
-} from "@tanstack/react-query";
+import { InfiniteData, useInfiniteQuery, useQuery } from "@tanstack/react-query";
 
 export default function PostRecommends() {
   const { data, fetchNextPage } = useInfiniteQuery<
@@ -96,13 +99,7 @@ export default function PostRecommends() {
     gcTime: 100000,
   });
 
-  return (
-    <Fragment>
-      {data?.pages.map((page) =>
-        page.map((v) => <Post key={v.postId} post={v} />)
-      )}
-    </Fragment>
-  );
+  return <Fragment>{data?.pages.map((page) => page.map((v) => <Post key={v.postId} post={v} />))}</Fragment>;
 }
 ```
 
@@ -119,15 +116,12 @@ getNextPageParam의 값은 queryFn의 인자로 들어가게 되는데요.
 
 ```tsx
 export async function getPostRecommends({ pageParam }: { pageParam: number }) {
-  const res = await fetch(
-    `http://localhost:9090/api/postRecommends?cursor=${pageParam}`,
-    {
-      next: {
-        tags: ["posts", "recommends"],
-      },
-      cache: "no-cache",
-    }
-  );
+  const res = await fetch(`http://localhost:9090/api/postRecommends?cursor=${pageParam}`, {
+    next: {
+      tags: ["posts", "recommends"],
+    },
+    cache: "no-cache",
+  });
 
   return res.json();
 }
@@ -197,7 +191,18 @@ export async function getPostRecommends({ pageParam }: { pageParam: number }) {
 
 여기까지 하면 무한 스크롤을 할 준비를 마친 것인데요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 3. react-intersection-observer로 무한스크롤 적용
 
@@ -210,11 +215,7 @@ react-intersection-observer를 사용하면 브라우저에 특정 요소가 보
 "use client";
 
 import { getPostRecommends } from "@/app/_lib/getPostRecommends";
-import {
-  InfiniteData,
-  useInfiniteQuery,
-  useQuery,
-} from "@tanstack/react-query";
+import { InfiniteData, useInfiniteQuery, useQuery } from "@tanstack/react-query";
 import Post from "../Post";
 import { IPost } from "../PostArticle";
 import { Fragment, useEffect } from "react";
@@ -249,9 +250,7 @@ export default function PostRecommends() {
 
   return (
     <Fragment>
-      {data?.pages.map((page) =>
-        page.map((v) => <Post key={v.postId} post={v} />)
-      )}
+      {data?.pages.map((page) => page.map((v) => <Post key={v.postId} post={v} />))}
       <div ref={ref} style={{ height: "50px" }}></div>
     </Fragment>
   );
@@ -273,7 +272,18 @@ ref는 브라우저에 보이는지를 판단하고 싶은 요소에 넣어줍�
 </Fragment>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `inView`는 ref 요소가 브라우저에 보이는지를 판단하는 훅 변수입니다.
 아래 코드가 useInView가 true가 되었을 때 fetchNextPage 함수를 호출하는 부분입니다.

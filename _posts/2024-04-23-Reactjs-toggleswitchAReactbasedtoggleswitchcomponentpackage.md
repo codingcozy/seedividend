@@ -3,17 +3,13 @@ title: "Reactjs로 토글 스위치 컴포넌트 만드는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Reactjs-toggleswitch A React based toggle switch component package"
 link: "https://medium.com/@subbuks/reactjs-toggleswitch-a-react-based-toggle-switch-component-package-9716b7dd2ef3"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/Reactjs-toggleswitchAReactbasedtoggleswitchcomponentpackage_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # reactjs-toggleswitch 개요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 reactjs-toggleswitch는 React 및 TypeScript를 사용하여 만든 사용자 정의 토글 스위치 컴포넌트입니다. React 프로젝트에서 이 토글 스위치를 어디에 사용할 수 있을지 궁금할 수 있습니다. 주로, 라이트 모드와 다크 모드 간에 토글하고 싶을 때 두 상태 (켜기/끄기) 간에 토글 스위치가 사용됩니다.
 
@@ -33,7 +40,18 @@ NPM이나 YARN과 같은 즐겨 사용하는 패키지 매니저를 사용하여
 
 NPM을 사용하는 경우, 터미널에 아래 명령어를 입력하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm install reactjs-toggleswitch
@@ -47,7 +65,18 @@ yarn add reactjs-toggleswitch
 
 설치가 완료되면 reactjs-toggleswitch 기능을 탐험할 준비가 끝났습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## reactjs-toggleswitch 사용 방법
 
@@ -75,7 +104,18 @@ const MyComponent: React.FC = () => {
 
 위의 간단한 예제에서는 reactjs-toggleswitch에서 ToggleSwitch 컴포넌트를 import 했습니다. ToggleSwitch 컴포넌트에는 checked와 onToggle이라는 2가지 필수 props가 있습니다. checked는 스위치가 선택되었는지 여부를 나타내며, onToggle은 스위치 상태가 변경되거나 토글될 때 호출되는 콜백 함수입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 커스터마이징은 어떤가요?
 
@@ -85,15 +125,21 @@ const MyComponent: React.FC = () => {
 
 우리는 toggle switch의 색상을 변경할 수 있습니다. onColor 및 offColor props를 사용하여 toggle switch의 색상을 변경할 수 있습니다. 아래는 해당 예시입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-<ToggleSwitch
-  checked={isChecked}
-  onColor={"#0f0"}
-  offColor={"#0ff"}
-  onToggle={handleChange}
-/>
+<ToggleSwitch checked={isChecked} onColor={"#0f0"} offColor={"#0ff"} onToggle={handleChange} />
 ```
 
 2. 너비
@@ -101,16 +147,21 @@ const MyComponent: React.FC = () => {
 toggle switch의 너비를 `width` prop을 사용하여 변경할 수 있습니다. 아래에 예시를 보여드리겠습니다.
 
 ```js
-<ToggleSwitch
-  checked={checked}
-  onToggle={handleChange}
-  offColor="red"
-  onColor="green"
-  width={"200px"}
-/>
+<ToggleSwitch checked={checked} onToggle={handleChange} offColor="red" onColor="green" width={"200px"} />
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. 엄지 색상
 
@@ -129,7 +180,18 @@ toggle switch의 너비를 `width` prop을 사용하여 변경할 수 있습니�
 
 이 외에도 더 많은 기능이 있습니다. 더 많은 예시를 참고해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -139,7 +201,18 @@ toggle switch의 너비를 `width` prop을 사용하여 변경할 수 있습니�
 
 좋은 하루 되세요, 즐거운 코딩하세요!✨
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 reactjs-toggleswitch를 사용하는 동안 문제가 발생하면 여기에서 문제를 제기해주세요. 패키지의 README를 참조할 수 있습니다.
 

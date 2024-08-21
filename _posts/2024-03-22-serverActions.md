@@ -3,17 +3,13 @@ title: "Server action으로 Nextjs에서 서버 동작 작성하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # 서버 동작
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 서버 동작이 호출될 수 있는 추가 안전한 오리진 도메인 목록입니다. Next.js는 서버 동작 요청의 오리진과 호스트 도메인을 비교하여 CSRF 공격을 방지하기 위해 일치 여부를 확인합니다. 제공되지 않은 경우 동일한 오리진만 허용됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /** @type {import('next').NextConfig} */
@@ -43,7 +50,18 @@ module.exports = {
 
 그러나 serverActions.bodySizeLimit 옵션을 사용하여이 제한을 구성할 수 있습니다. 이는 바이트 수 또는 바이트에서 지원하는 어떤 문자열 형식을 사용할 수 있습니다. 예를들어 1000, `500kb` 또는 `3mb`와 같은 형식이 가능합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /** @type {import('next').NextConfig} */
@@ -72,4 +90,15 @@ const config = {
 module.exports = config;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

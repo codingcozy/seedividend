@@ -3,16 +3,13 @@ title: "가축 관리 vs 애완동물 관리 IT 관리의 비유 비교"
 description: ""
 coverImage: "/assets/img/2024-07-13-CattlevsPetAMetaphorforITManagement_0.png"
 date: 2024-07-13 01:38
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-CattlevsPetAMetaphorforITManagement_0.png
 tag: Tech
 originalTitle: "Cattle vs. Pet: A Metaphor for IT Management"
 link: "https://medium.com/@paulinadubas/cattle-vs-pet-a-metaphor-for-it-management-945c094521d2"
 isUpdated: true
 ---
-
-
-
 
 ![2024-07-13-CattlevsPetAMetaphorforITManagement](/assets/img/2024-07-13-CattlevsPetAMetaphorforITManagement_0.png)
 
@@ -22,7 +19,18 @@ IT 관리 분야에서 급속히 발전하는 세상 속에서 한 비유가 명
 
 큰 소떼를 상상해보세요. 소떼 속의 각 동물은 거의 동일하며, 중요한 것은 교체가 가능하다는 점입니다. 한 마리 소가 아프거나 성과가 나쁘면, 생각하지 않고 바로 교체됩니다. 이 효율적이고 비인간적인 방식으로 소떼의 전체적인 건강상태가 유지됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 IT 관리에서 서버를 가축으로 취급하는 것은 자동화와 확장성을 수용하는 것을 의미합니다. 각 서버는 더 큰 풀의 일부이며, 하나가 실패하면 자동으로 다른 서버로 교체됩니다. 이 방법은 개별 서버가 아닌 시스템 전체의 성능에 초점을 맞추므로 높은 가용성과 신뢰성을 보장합니다. 이 접근법의 주요 구현 요소에는 자동화 도구 및 Kubernetes 및 Docker와 같은 컨테이너화 기술이 포함됩니다.
 
@@ -35,7 +43,18 @@ IT 관리에서 서버를 가축으로 취급하는 것은 자동화와 확장�
 
 # 애완동물: 전통적인 접근 방식
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 서버를 애완동물처럼 대우하는 것을 고려해보세요. 각 서버는 고유한 이름을 가지고 특별한 관리와 주의를 받습니다. 한 대의 서버가 고장 나면, 건강을 회복시키기 위해 상당한 시간과 노력을 들입니다. 이 맞춤 접근은 개별 서버가 중요하고 대체할 수 없는 작은 환경에서 잘 작동할 수 있습니다.
 
@@ -48,7 +67,18 @@ IT 관리에서 서버를 가축으로 취급하는 것은 자동화와 확장�
 - 증가된 다운타임: 개별 서버를 고치는 데 집중하면 빠르게 대체하는 것보다 장기적인 다운타임 위험이 높아집니다.
 - 비효율성: 리소스 활용이 최적이 아닐 수 있으며 유지보수 작업이 더 복잡하고 시간이 많이 소요될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### '소 유인'으로의 전환
 
@@ -64,7 +94,18 @@ IT 관리에서 서버를 가축으로 취급하는 것은 자동화와 확장�
 
 - **지속적인 통합/지속적인 배포(CI/CD)**: CI/CD 파이프라인을 구축하여 테스트, 빌드 및 코드 변경의 배포 프로세스를 자동화하세요. 이를 통해 업데이트를 빠르고 안전하게 롤아웃할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -74,7 +115,18 @@ IT 관리에서 서버를 가축으로 취급하는 것은 자동화와 확장�
 
 #IT관리 #데브옵스 #자동화 #클라우드컴퓨팅 #인프라스트럭처 #기술리더십
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 To stay updated, follow me on:
 

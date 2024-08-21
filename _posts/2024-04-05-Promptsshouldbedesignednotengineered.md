@@ -3,17 +3,13 @@ title: "프롬프트는 디자인되어야 하며 엔지니어링되어서는 �
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Prompts should be designed  not engineered"
 link: "https://medium.com/user-experience-design-1/prompts-should-be-designed-not-engineered-45838a9c3564"
 isUpdated: true
 ---
-
-
-
-
 
 ## AI 시대에 디자인의 중요성을 재조명하다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 "이제 비디오를 만들 수 있어요!" 아침 커피를 마시며 제 파트너에게 소리치게 되는 걸 발견하곤 했어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 나는 클라크의 세 번째 법칙을 기술이 진짜 마법인지 알려주는 것으로 해석했어.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 반대로, 이러한 모델이 강력하더라도 디자인이 없으면 쓸모 없을 거야. 우리 산업으로서는 충분히 많은 AI 기능을 출시하지 않았거나 충분한 AI 실패를 겪지 않았기 때문에 아직 이 사실을 완전히 깨닫지 못한 것 같아.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아직까지 AI 시대에서 디자인의 중요한 역할에 대해 날 확신시켜 준 게, 모델 프롬프트를 설계할 때 내 핵심 디자인 스킬 세트에 의존하게 되는 순간이었어요.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 심리학 101에서 학습한 할로우의 원숭이 실험이 기억나시나요? 젖소로부터 먹는 것과 위안을 주는 천으로 만들어진 두 "어머니" 사이에서 선택을 받은 어린 원숭이들은, 예상대로 부드럽고 위안을 주는 천 어머니를 강하게 선호했던 기억이 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "이렇게 보면 '공학'과 '디자인' 프롬프트의 차이가 눈에 들어옵니다.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 이것은 대화형 경험의 열린 성격 때문에 전통적인 소프트웨어 상호작용에 비해 더욱 중요합니다. 디자이너 엠리 캠벨이 언급했듯이, '사용자가 컴퓨터에 개인적인 요구를 제시하는 더 많은 자유를 가질수록, 컴퓨터가 그들을 이해하고 그들의 요구를 예측하기를 기대할 것입니다.'"
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로건 킬패트릭은 OpenAI의 개발자 관련 책임자로, "문맥"이라고 요약합니다. 모델이 특정 작업을 잘 수행하려면 문맥이 필요합니다. 이는 프롬프트가 "본질적으로 인간적인" 작업이 되도록 만듭니다. 왜냐하면 우리는 사람들이 무엇을 이루고자 하는지의 세밀함을 이해해야하기 때문입니다.
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 # 프롬프트 디자인은 반복적인 과정입니다
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 전통 소프트웨어 엔지니어링과 프롬프트 엔지니어링 사이에는 강조할 가치 있는 기본적인 차이가 있습니다.
 
@@ -73,7 +124,18 @@ isUpdated: true
 
 이것이 반복적인 프롬프트 디자인 프로세스가 필요한 이유입니다. 이 프로세스에서는 사용자와 모델 통찰력을 기반으로 계속적으로 디자인하고 개선합니다. (최근에 "양면 사용자 테스트"에 대해 썼는데, 연구자가 사용자와 모델의 행동을 동시에 연구합니다.)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 The field of quick design is still in its early stages, and there is still much to be learned about its best practices. For example, OpenAPI only defines three prompt categories in its playground: system, user, and assistant.
 
@@ -88,7 +150,18 @@ In my personal approach, I utilize six categories to organize the prompt design 
 - Examples
 - Output parameters
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 이러한 각각을 개요하는 프롬프트 디자인 안내서를 작업 중입니다. 완성되면 액세스를 구독할 수 있습니다. 이 기사에서는 프롬프트 디자인 프로세스의 반복적인 특성을 살려내는 것이 목표입니다.
 
@@ -98,7 +171,18 @@ In my personal approach, I utilize six categories to organize the prompt design 
 
 ## 플로우
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 디자이너의 첫 번째 일은 최종 목표를 달성하기 위한 단계를 나타내는 것입니다. 대화형 AI 상호작용은 표준 소프트웨어 작업흐름보다 훨씬 더 개방적이지만, 여전히 도우미는 사용자를 논리적인 순서로 안내해야 합니다. 이렇게 하지 않으면 모델과 사용자가 길을 잃을 수 있습니다. 또는 디자이너 Paz Perez가 강조한 것처럼 사용자는 "AI 파워드 채팅과 상호작용할 때 무엇을 해야 할지 또는 무엇을 요청해야 할지 알지 못합니다."
 
@@ -108,7 +192,18 @@ In my personal approach, I utilize six categories to organize the prompt design 
 
 ## 예제
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비결정론적 모델을 원하는 결과로 이끄는 가장 강력한 방법은 모델이 해야 할 일을 예시로 제공하는 것입니다. 이 방법은 소수의 예시를 제시하는 것으로, 모델이 제공된 예시를 모방할 수 있게 합니다.
 
@@ -119,7 +214,18 @@ In my personal approach, I utilize six categories to organize the prompt design 
 - 사용자 입력: "프롬을 위한 드레스가 필요해."
 - 모델 응답: 기념일, 프롬
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테스트 중 디자이너가 패턴을 발견했습니다. 가끔 사용자들이 특정 이벤트(예: "내 생일")를 언급하고 때로는 구매 동기(예: "남자친구와 헤어졌어요")를 언급합니다. 이 통찰력으로 디자이너는 프롬프트를 위해 두 가지 범주의 예시를 개발하게 되었습니다: 이벤트 기반 행사를 위한 것과 동기에 기반한 이유를 위한 것.
 
@@ -129,7 +235,18 @@ In my personal approach, I utilize six categories to organize the prompt design 
 
 반복적인 프롬프트 디자인 과정...
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테스트 중에 디자이너가 모델이 사용자의 응답을 수강해석하고 중요한 세부 정보를 잃어버리는 것을 알아차립니다.
 
@@ -140,7 +257,18 @@ In my personal approach, I utilize six categories to organize the prompt design 
 
 디자이너는 사용자의 응답을 정확히 사용하도록 권장하는 가이드라인을 프롬프트에 추가합니다. "사용자가 제공한 정확한 단어를 사용하고, 그들의 응답을 수강해석하지 않도록 노력해주세요"라는 명시적 인 가이드라인은 결과물을 형성하는 데 추가적인 맥락을 제공할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 양갈래자리 시즌이에요
 
@@ -150,7 +278,18 @@ In my personal approach, I utilize six categories to organize the prompt design 
 
 가식적 감각 증후군이 찾아오면, 그냥 기억하세요. 아무도 모든 해답을 알고 있지 않아요. 함께 진전하며 모르는 것들을 찾아가고 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사는 원래 '공감과 인공지능'에 게시되었으며, 더 많은 인간 중심 AI 콘텐츠를 보려면 팔로우하거나 Linkedin에서 연락하세요.
 

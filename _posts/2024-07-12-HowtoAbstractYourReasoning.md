@@ -3,17 +3,13 @@ title: "추론을 추상화하는 방법 이해를 돕는 구체적 사례 포�
 description: ""
 coverImage: "/assets/img/2024-07-12-HowtoAbstractYourReasoning_0.png"
 date: 2024-07-12 20:10
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-12-HowtoAbstractYourReasoning_0.png
 tag: Tech
 originalTitle: "How to Abstract Your Reasoning"
 link: "https://medium.com/@keith-mcnulty/how-to-abstract-your-reasoning-3064f772aa4b"
 isUpdated: true
 ---
-
-
-
-
 
 ![Screenshot](/assets/img/2024-07-12-HowtoAbstractYourReasoning_0.png)
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 그러나 완전히 발전된 전문 수학자들은 최대한 일반화하고 추상화하여 생각하는 데 훈련 받습니다. 정수나 확립된 일상적인 숫자 구조와 작업하는 대신, 그들은 그룹, 환, 모듈 또는 체와 같은 추상 대수 구조와 작업합니다. 이는 많은 알려진 보다 구체적인 구조를 포괄하는데, 그 결과로 그들의 결과물은 더 강력해지며 보다 일반적인 구조와 문제에 적용할 수 있게 됩니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 문장은 조금 추상적이에요. 웃음을 포함하기 위해 말장난을 쓰는 걸 용서해주세요. 수학적 통찰을 일반화하는 기회를 잡는다면 더 강력해질 수 있다는 간단한 예시를 보여드리겠어요. 이 옥스퍼드 수학 입학 시험 문제에서 고등학생은 특정 상황에 대해 결론을 내야 하죠. 그러나 접근법의 일반화를 발견하려는 순간에 훨씬 더 일반적인 결론을 내릴 수 있다는 것이 밝혀졌어요. 시험지에서의 문제로 시작해볼게요.
 
@@ -34,7 +40,18 @@ isUpdated: true
 
 미국 독자분들을 위해, '사탕'에 대한 미국식 단어는 '과자'입니다 😊
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문제를 적혀 있는 그대로 해결해 보겠습니다. 그리고 우리의 해결책에 대해 일반화할 수 있는 부분이 있는지 살펴보겠습니다.
 
@@ -44,9 +61,20 @@ isUpdated: true
 
 (iii)부분에서, 우선 하루가 비 오는 날이고 다음 날이 맑은 날인 미리암의 경우를 살펴보겠습니다. 그리고 k를 이 비 오는 날을 포함하여 지난 휴가 중에 발생한 맑은 날의 수라고 가정합니다. 그러면 오늘이 미리암이 총 사탕을 받는 데에 k개에 기여할 것이고, 내일은 k+1개를 기여할 것입니다. 따라서 오늘과 내일 모두 미리암의 총 사탕에 2k+1개를 기여합니다. 이제 이 두 날을 바꿔 봅시다. 그러면 오늘이 미리암에게 k+1개의 사탕을 기여할 것이고, 내일 또한 k+1개를 기여하므로, 따라서 이 두 날은 미리암의 총 사탕에 2k+2개를 기여합니다. 이 교환이 다른 날들이 미리암의 총 사탕에 기여하는 데에 영향을 주지 않는다는 것에 유의하면, 이 교환은 미리암의 총 사탕을 한 개 더 늘어나게 합니다. 아담의 경우에도 동일한 방법을 사용하면, k일이 비 오는 날이라고 가정하고 그 다음 k+1일이 맑은 날인 경우를 생각해봅시다. 그러면 k일이 아담의 총 사탕에 k개를 기여하고 k+1일이 0을 기여하는데, 따라서 총 k개를 기여할 것입니다. 이들을 교환하면, k일이 0을 기여하고 k+1일이 k+1을 기여하므로, 총 기여하는 양은 k+1개가 됩니다. 따라서 아담의 경우에도 이 교환으로 인해 한 개의 사탕을 더 받습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-(iv) 부분에서는 실제로 지금까지 한 작업을 약간의 일반적화하도록 유도받았습니다. 처음 두 부분에서 알 수 있듯이 첫 15일이 비 오는 휴일과 다음 15일이 맑음인 경우, 아담과 미리암이 같은 양의 사탕을 먹는다는 것을 알았습니다. 그러나 여기서 중요한 깨달음은 — 이 시나리오로 시작한다면 — 우리는 점진적으로 인접한 비와 맑은 날을 교환하여 15일 간의 비와 맑은 날의 어떤 구성도 얻을 수 있다는 것입니다. 예를 들어, 주어진 구성에서 첫 맑은 날이 ` 16일인 경우, 우리는 초기 시나리오로 돌아가서 15일과 16일을 교환합니다. k가 15이면, 14일과 15일을 교환하고, 이렇게 반복하여 k에 첫 맑은 날을 배치합니다. 그런 다음 j ` k 위치에 다음 맑은 날을 배치하고, 이를 반복합니다. 이제 (iii)부분에서 어떤 교환 시리즈도 미리암과 아담의 합계에 동일한 영향을 준다는 것에 주목합니다. 따라서 그들은 같은 총 사탕 양으로 시작하며, 우리가 만드는 모든 인접한 교환은 그들의 총 사탕에 동일한 영향을 미치므로, 미리암과 아담이 같은 총 사탕 양을 가질 것이라고 결론지을 수 있습니다. 15일 동안 비와 맑은 날이 있는 휴일에 대해서도 마찬가지입니다. 그럼 이 내용으로 마칩니다.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+(iv) 부분에서는 실제로 지금까지 한 작업을 약간의 일반적화하도록 유도받았습니다. 처음 두 부분에서 알 수 있듯이 첫 15일이 비 오는 휴일과 다음 15일이 맑음인 경우, 아담과 미리암이 같은 양의 사탕을 먹는다는 것을 알았습니다. 그러나 여기서 중요한 깨달음은 — 이 시나리오로 시작한다면 — 우리는 점진적으로 인접한 비와 맑은 날을 교환하여 15일 간의 비와 맑은 날의 어떤 구성도 얻을 수 있다는 것입니다. 예를 들어, 주어진 구성에서 첫 맑은 날이 `16일인 경우, 우리는 초기 시나리오로 돌아가서 15일과 16일을 교환합니다. k가 15이면, 14일과 15일을 교환하고, 이렇게 반복하여 k에 첫 맑은 날을 배치합니다. 그런 다음 j` k 위치에 다음 맑은 날을 배치하고, 이를 반복합니다. 이제 (iii)부분에서 어떤 교환 시리즈도 미리암과 아담의 합계에 동일한 영향을 준다는 것에 주목합니다. 따라서 그들은 같은 총 사탕 양으로 시작하며, 우리가 만드는 모든 인접한 교환은 그들의 총 사탕에 동일한 영향을 미치므로, 미리암과 아담이 같은 총 사탕 양을 가질 것이라고 결론지을 수 있습니다. 15일 동안 비와 맑은 날이 있는 휴일에 대해서도 마찬가지입니다. 그럼 이 내용으로 마칩니다.
 
 ## 여기서 멈추는 이유가 있을까요?
 
@@ -54,7 +82,18 @@ isUpdated: true
 
 휴일이 30일이고 15일 동안 비가 오고 15일 동안 맑은 날이라는 것 대신에, 휴일이 q일이라고 가정하고 k ≤ q인 비 오는 날이 k개이고 맑은 날이 q-k개인 경우를 생각해 봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 방법에서 알 수 있듯이, 우리는 k일 동안의 비가 내린 날이 모두 달의 시작부터인 것으로 가정할 수 있습니다. 인접한 비 오는 날과 맑은 날을 교환하는 일련의 작업으로 이를 통해 어떤 구성도 유도할 수 있고, 이것이 어린이들이 받는 사탕의 총 수를 변경하지 않음을 알 수 있습니다. 따라서 k일 동안 비가 내린 다음 q-k일 동안 맑은 날이 있는 이 초기 구성에서 사탕의 차이를 계산하는 것으로 충분합니다.
 
@@ -64,8 +103,18 @@ isUpdated: true
 
 미리암의 경우, 처음 k일 동안은 사탕을 받지 않다가 k+1일에 한 개의 사탕을 받은 후 마지막 날(q일)까지 각각의 추가적인 날마다 한 개의 사탕을 받습니다. 따라서 미리암은 다음과 같은 수의 사탕을 받게 됩니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Miriam and Adam sweets difference equation](/assets/img/2024-07-12-HowtoAbstractYourReasoning_3.png)
 
@@ -75,7 +124,17 @@ When we subtract these two and perform some algebraic simplification, we obtain 
 
 It's clear from this equation that for holidays with an equal number of rainy and sunny days (i.e., q = 2k), the difference in sweets is zero, and both children will receive the same number of sweets. Furthermore, the number is positive when there are more sunny days than rainy days (favoring Miriam), and negative when there are more rainy days than sunny days (favoring Adam).
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시험 문제의 이 추상화에 대해 어떻게 생각하셨나요? 자유롭게 의겢하여 주세요.

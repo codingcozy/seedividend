@@ -3,16 +3,13 @@ title: "HTML 링크의 종류와 사용 방법"
 description: ""
 coverImage: "/assets/img/2024-06-23-LinksinHTMLTypesandUses_0.png"
 date: 2024-06-23 14:43
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-LinksinHTMLTypesandUses_0.png
 tag: Tech
 originalTitle: "Links in HTML: Types and Uses"
 link: "https://medium.com/@greennolgaa/links-in-html-types-and-uses-1406153a6da5"
 isUpdated: true
 ---
-
-
-
 
 HTML의 링크는 웹사이트 내에서의 탐색과 연결을 가능하게 하는 가장 중요한 요소 중 하나입니다. 이들은 웹페이지간이나 문서, 이미지, 비디오 등 외부 소스로의 하이퍼링크 생성에 사용됩니다. 이 블로그 포스트에서는 HTML의 링크가 무엇이며, 어떻게 작동하는지, 그리고 사용 가능한 다양한 종류의 HTML 링크에 대해 살펴볼 것입니다.
 
@@ -22,7 +19,18 @@ HTML의 링크는 웹사이트 내에서의 탐색과 연결을 가능하게 하
 
 HTML에서의 링크는 사용자가 하이퍼링크를 클릭하여 웹사이트를 탐색할 수 있는 요소입니다. 하이퍼링크는 사용자를 새 웹페이지, 문서 또는 자원으로 이동시키는 클릭 가능한 요소입니다. 이는 "anchor(앵커)"를 나타내는 HTML `a` 태그를 사용하여 생성됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하이퍼링크는 목적지 웹페이지나 리소스의 URL을 `a` 태그에 추가하여 만듭니다. 사용자가 하이퍼링크를 클릭하면 브라우저가 새 탭이나 창에서 목적지 웹페이지나 리소스를 엽니다.
 
@@ -32,7 +40,18 @@ HTML에서 링크는 HTML 코드와 사용자의 웹 브라우저를 함께 사�
 
 ## HTML에서 다양한 유형의 링크
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 HTML에는 각각의 특정 사용과 목적을 갖는 여러 유형의 링크가 있습니다. 이 섹션에서는 HTML에서 가장 일반적인 유형의 링크 몇 가지를 살펴보겠습니다.
 
@@ -44,7 +63,18 @@ HTML에는 각각의 특정 사용과 목적을 갖는 여러 유형의 링크�
 <a href="about.html">About</a>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용자가 "About" 링크를 클릭하면 동일한 웹 사이트 내의 "about.html" 페이지로 이동하게 됩니다.
 
@@ -54,7 +84,18 @@ HTML에는 각각의 특정 사용과 목적을 갖는 여러 유형의 링크�
 
 외부 링크는 HTML `a` 태그와 대상 페이지의 전체 URL을 사용하여 생성됩니다. 예를 들어, "HTML" 위키백과 페이지에 대한 링크를 만들고 싶다면 다음 코드를 사용하면 됩니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 [HTML on Wikipedia](https://en.wikipedia.org/wiki/HTML)
@@ -66,8 +107,18 @@ HTML에는 각각의 특정 사용과 목적을 갖는 여러 유형의 링크�
 
 이미지 링크는 HTML `a` 태그와 `img` 태그를 사용하여 만듭니다. 예를 들어, 웹 사이트 내 "contact.html"이라는 페이지로 이미지 링크를 만들고 싶다면 다음 코드를 사용할 수 있습니다:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 [Contact Us](contact.html)
@@ -79,7 +130,18 @@ HTML에는 각각의 특정 사용과 목적을 갖는 여러 유형의 링크�
 
 이메일 링크는 HTML `a` 태그와 "mailto" 프로토콜을 사용하여 생성됩니다. 예를 들어 사용자가 "info@example.com"로 이메일을 보낼 수 있는 이메일 링크를 만들고 싶다면 다음 코드를 사용할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 [info@example.com](mailto:info@example.com)
@@ -91,8 +153,18 @@ HTML의 링크는 사용자 친화적이고 기능적인 웹 사이트를 만드
 
 ![Links in HTML Types and Uses](/assets/img/2024-06-23-LinksinHTMLTypesandUses_2.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## HTML 링크의 활용
 
@@ -106,7 +178,18 @@ HTML에서의 링크는 웹 개발의 기본 구성 요소로, 웹 사이트 내
 
 HTML에서의 링크는 사용자 친화적이고 기능적인 웹 사이트를 만드는 데 있어서 필수적인 부분입니다. 내부 링크, 외부 링크, 이미지 링크, 이메일 링크는 HTML에서 사용되는 가장 일반적인 유형의 링크입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-23-LinksinHTMLTypesandUses_3.png)
 
@@ -116,7 +199,18 @@ HTML에서의 링크는 웹 개발의 중요한 구성 요소로, 웹 사이트 
 
 CronJ는 HTML 개발 분야의 전문가로, 비즈니스에게 효과적이고 효율적인 웹 사이트를 만들기 위한 전문 지식과 자원을 제공합니다. 품질, 효율성, 고객 만족도에 중점을 둔 CronJ는 비즈니스에 최고의 HTML 개발 솔루션을 제공하기 위해 노력하고 있습니다. 내부 링크, 외부 링크, 이미지 링크, 이메일 링크가 필요하다면, CronJ는 HTML 개발 요구 사항을 충족시키기 위한 전문 지식과 자원을 보유하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 참고 자료
 

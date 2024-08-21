@@ -3,17 +3,13 @@ title: "리액트 훅을 사용하여 콜백을 Debounce하고 Throttle하는 �
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How to Debounce Throttle a Callback with React Hooks"
 link: "https://medium.com/programming-essentials/how-to-debounce-throttle-a-callback-with-react-hooks-deb26b2fd7c"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/HowtoDebounceThrottleaCallbackwithReactHooks_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # Input 컴포넌트 만들기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트에서 입력을 처리하는 표준 방식은 입력 값이 변경될 때 해당 state 변수도 변경하는 것입니다.
 
@@ -35,7 +42,18 @@ const [value, setValue] = useState("");
 
 우리는 상태 변수를 검색 입력란과 연결하기 위해 해당 값과 onChange 속성을 설정합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { useState } from "react";
@@ -58,7 +76,18 @@ export default DebouncedInput;
 function DebouncedInput({ onInput }) {}
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 처음에 컴포넌트는 사용자가 입력할 때 제공된 콜백을 호출합니다. 기본적으로는 onChange 핸들러 내에서 호출하는 것을 의미합니다.
 
@@ -80,7 +109,18 @@ export default DebouncedInput;
 
 # 디바운스된 콜백
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미 도전에 대처하는 데 도움이 되는 유틸리티 함수가 라이브러리에 있음을 아시겠지만, 그런 함수를 다시 작성할 필요는 없습니다. 우리는 React 컴포넌트와 통합하기만 하면 됩니다.
 
@@ -92,7 +132,18 @@ debounce 함수는 함수와 주어진 밀리초 단위의 시간을 가져와 �
 const onInputDebounced = debounce(onInput, 400),
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 React 함수 컴포넌트가 작동하는 방식 때문에 이 방법은 작동하지 않을 것입니다. 값 상태 변수가 변경될 때마다 함수 컴포넌트가 다시 렌더링되고 새로운 디바운스된 콜백이 생성됩니다.
 
@@ -104,7 +155,18 @@ useCallback 훅은 콜백과 의존성 목록을 가져와서 기억된 콜백�
 const onInputDebounced = useCallback(debounce(onInput, 400), [onInput]);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해야 할 일은 이것이 전부에요. 이제 onChange 핸들러에서, 컴포넌트 매개변수에 제공된 핸들러 대신 디바운스된 콜백을 호출해야 합니다.
 
@@ -132,7 +194,18 @@ export default DebouncedInput;
 
 아래는 이전 DebouncedInput 컴포넌트를 사용하는 예시입니다. 사용자가 입력을 멈출 때까지 기다린 후 검색 콜백이 호출됨을 주목해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import DebouncedInput from "./DebouncedInput";
@@ -155,7 +228,18 @@ export default App;
 
 throttle은 함수와 밀리초 단위의 시간을 인자로 사용하며, 새로운 함수를 반환합니다. 반환된 함수는 여러 번 호출되어도 지정된 밀리초 단위로 원본 함수를 최대 한 번만 호출합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { useState, useCallback } from "react";

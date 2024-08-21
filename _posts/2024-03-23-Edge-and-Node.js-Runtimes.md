@@ -3,17 +3,13 @@ title: "Nextjs 13의 nodejs 런타임 내용 정리"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "에지와 노드js 실행 환경"
 link: "undefined"
 isUpdated: true
 ---
-
-
-
-
 
 # 엣지 및 Node.js 런타임
 
@@ -24,7 +20,18 @@ Next.js의 맥락에서 런타임이란 실행 중에 코드에서 사용할 수
 - Node.js 런타임(기본값)은 모든 Node.js API 및 생태계에서 호환되는 패키지에 액세스할 수 있습니다.
 - Edge 런타임은 Web API를 기반으로 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 런타임 차이점
 
@@ -45,7 +52,18 @@ Next.js의 맥락에서 런타임이란 실행 중에 코드에서 사용할 수
 
 ### Edge 런타임
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Next.js에서 경량 Edge Runtime은 사용 가능한 Node.js API의 하위 집합입니다.
 
@@ -55,7 +73,18 @@ Edge Runtime은 낮은 대기 시간으로 동적이고 개인화된 콘텐츠�
 
 ### Node.js Runtime
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Node.js 런타임을 사용하면 모든 Node.js API에 액세스할 수 있고 그에 의존하는 모든 npm 패키지에도 액세스할 수 있어요. 그러나 Edge 런타임을 사용하는 라우트에 비해 시작 속도가 느릴 수도 있어요.
 
@@ -65,10 +94,32 @@ Next.js 애플리케이션을 Node.js 서버에 배포하려면 인프라를 관
 
 서버리스는 Edge 런타임보다 복잡한 계산 부하를 처리할 수 있는 확장 가능한 솔루션이 필요한 경우에 이상적이에요. 예를 들어 Vercel의 서버리스 함수를 사용하면 가져온 패키지, 폰트, 파일을 포함해 전체 코드 크기가 50MB이에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Edge를 사용한 라우팅과 비교해서 Serverless Functions가 요청을 처리하기 전에 부팅하는 데 수백 밀리초가 걸릴 수 있다는 단점이 있습니다. 사이트가 받는 트래픽 양에 따라, 이는 함수가 자주 "워밍 업"되지 않기 때문에 빈번히 발생할 수 있습니다.
 
 > Node.js 문서와 Edge 문서를 참조하여 사용 가능한 API의 전체 목록을 확인해주세요. 배포 인프라에 따라 런타임은 스트리밍도 지원할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

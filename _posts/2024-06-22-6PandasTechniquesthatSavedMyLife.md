@@ -3,17 +3,13 @@ title: "내 인생을 구한 6가지 Pandas 테크닉"
 description: ""
 coverImage: "/assets/img/2024-06-22-6PandasTechniquesthatSavedMyLife_0.png"
 date: 2024-06-22 06:04
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-6PandasTechniquesthatSavedMyLife_0.png
 tag: Tech
 originalTitle: "6 Pandas Techniques that Saved My Life"
 link: "https://medium.com/@derekmeegan/6-pandas-techniques-that-saved-my-life-0d8fcf7d2c26"
 isUpdated: true
 ---
-
-
-
-
 
 ![img](/assets/img/2024-06-22-6PandasTechniquesthatSavedMyLife_0.png)
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 이 글에서는 해당 기술들을 탐구하고, 상징적인 Titanic 데이터셋을 사용하여 효과적으로 적용하는 방법을 보여드릴 것입니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 연쇄
 
@@ -34,8 +40,18 @@ isUpdated: true
 
 아래에서 데이터셋에 대해 일반적인 작업 세트를 수행하는 샘플 워크플로우를 생성했습니다. 첫 번째 스니펫에서 변수 재할당을 사용하고, 두 번째에서는 연쇄를 사용했습니다. 두 가지 중 어떤 것이 더 깔끔해 보이나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![링크1](/assets/img/2024-06-22-6PandasTechniquesthatSavedMyLife_1.png)
 
@@ -45,8 +61,18 @@ isUpdated: true
 
 체이닝 시 시각적 명확성을 유지하려면 각 인덴트가 파이프라인의 더 깊은 수준에 해당하도록 코드를 계층적으로 배치하세요. 이는 워크플로가 더 복잡해질수록 점점 더 중요해집니다. 또한, .assign 메소드에서 "lambda" 함수의 사용에 주목하세요. 처음에는 복잡해 보일 수 있지만, 이 람다는 간단히 앞서 언급된 DataFrame을 참조하는 것뿐입니다. 그룹화된 또는 필터된 데이터에 변환을 적용하거나 여러 의존하는 열을 생성할 때 특히 유용합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 우리가 체이닝의 중요성과 이점을 이해했으니, 이 접근 방식을 활용하여 복잡한 작업을 쉽게 처리하는 몇 가지 기술을 살펴보겠습니다.
 
@@ -54,7 +80,18 @@ isUpdated: true
 
 Pandas의 내장 drop_duplicates 함수는 중복 행을 제거하는 데 유용하지만, 중복된 행 자체를 보여주지는 않습니다. 중복을 식별하려면 .duplicated 메서드를 사용하며, 이 메서드는 중복되는 행에 대한 boolean 시리즈를 반환합니다. 여기서 행이 이전 행의 중복인 경우 해당 행은 True가 됩니다. 그러나 이렇게 하면 종종 코드가 복잡해질 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 목적을 달성했지만, 접근 방식을 개선할 수 있어요. 먼저 바닐라 불리언 인덱싱을 .loc로 대체하여 동적 필터링 표현을 만들 수 있습니다.
 
@@ -64,7 +101,18 @@ Pandas의 내장 drop_duplicates 함수는 중복 행을 제거하는 데 유용
 
 ![이미지](/assets/img/2024-06-22-6PandasTechniquesthatSavedMyLife_5.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 The ~ operator reverses the boolean conditions of the filter statement, so that only rows that were not duplicated would be returned. This is useful when you want to examine your data and quickly look at the duplicated and non-duplicated rows.
 
@@ -74,7 +122,18 @@ One aspect of pandas I found challenging is accessing a specific value in a cell
 
 ![Value selection using .loc](/assets/img/2024-06-22-6PandasTechniquesthatSavedMyLife_6.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 방법은 정말 좋지만, .iloc 속성은 조금 강제로 느껴질 수 있어요. 다행히 .loc 메소드를 사용하기 전에 조금의 준비를 해두면 값을 직접적으로 접근할 수 있어요. 중요한 것은 DataFrame의 색인을 필터링할 때 사용하는 열로 설정하는 것이에요. 이렇게 하면 .loc 문에서 이름을 첫 번째 액세서로 사용하고 원하는 열을 두 번째 액세서로 지정할 수 있어요.
 
@@ -84,7 +143,18 @@ One aspect of pandas I found challenging is accessing a specific value in a cell
 
 ## Pipe Ternary
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 판다는 데이터의 행, 열 및 테이블 지향 변환을 수행하는 데 탁월하지만, 조건부 작업을 지원하는 데는 한계가 있다는 게 엽기적이에요. 저는 해결책 중 하나로 .pipe 메소드 내부의 람다 함수에서 삼항 연산자를 사용하는 방법을 활용해왔어요. 가령, 타이타닉 데이터셋을 위한 파이프라인을 생성하는 경우를 생각해보죠. "Cabin"이라는 열이 있는 것을 보장할 수 없을 때도 있어요. 이럴 때, 아래와 같은 방법을 사용할 수 있어요:
 
@@ -94,7 +164,18 @@ One aspect of pandas I found challenging is accessing a specific value in a cell
 
 <img src="/assets/img/2024-06-22-6PandasTechniquesthatSavedMyLife_9.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 .pipe을 사용하여 DataFrame의 열에서 “Cabin”이 이미 존재하는지를 확인하는 사용자 정의 삼항 함수를 생성합니다. 만약 존재한다면, 함수는 DataFrame을 바로 반환하고, 그렇지 않다면 열을 할당합니다. 이제 조금 더 화려한 것을 살펴보겠습니다...
 
@@ -104,7 +185,18 @@ One aspect of pandas I found challenging is accessing a specific value in a cell
 
 ![image](/assets/img/2024-06-22-6PandasTechniquesthatSavedMyLife_10.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 만약 두 개의 열을 변환하는 대신에 열 개를 변환하고 싶다면 어떻게 해야 할까요? 동일한 변환을 반복해서 입력하는 것은 지루해지며, 변환을 변경해야 하는 경우 열 번 수정해야 합니다. 다행히 .pipe, lambda, 그리고 약간의 파이썬 언패킹 마법을 사용하여 더 나은 방법이 있습니다:
 
@@ -114,7 +206,18 @@ One aspect of pandas I found challenging is accessing a specific value in a cell
 
 다음으로, .pipe가 어떻게 사용되어 준비된 데이터를 시각화 라이브러리로 직접 전달하는 데 도움이 되는지 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Plotly로 변환된 데이터를 바로 시각화하기
 
@@ -124,7 +227,18 @@ One aspect of pandas I found challenging is accessing a specific value in a cell
 
 이 흐름에서는 람다 함수 대신에 원하는 함수를 .pipe 메서드의 첫 번째 인수로 직접 전달하고 있습니다. 그 후속 인수들은 px.histogram 함수와 관련이 있으며, 판다스가 이들을 추가 키워드 인수로 전달합니다. .pipe 메서드의 결과는 Plotly 차트이며, 이를 통해 연쇄에 직접 Plotly 메서드를 추가하여 파이프라인과 시각화를 효율적으로 통합할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-22-6PandasTechniquesthatSavedMyLife_13.png)
 

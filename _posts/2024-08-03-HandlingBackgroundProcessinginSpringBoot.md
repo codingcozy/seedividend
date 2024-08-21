@@ -3,17 +3,13 @@ title: "Spring Boot에서 백그라운드 처리를 다루는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-03-HandlingBackgroundProcessinginSpringBoot_0.png"
 date: 2024-08-03 18:48
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-03-HandlingBackgroundProcessinginSpringBoot_0.png
 tag: Tech
 originalTitle: "Handling Background Processing in Spring Boot"
 link: "https://medium.com/stackademic/handling-background-processing-in-spring-boot-ae94aa03b869"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-08-03-HandlingBackgroundProcessinginSpringBoot_0.png)
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 Spring Boot는 @Async 어노테이션을 사용하여 메소드를 비동기적으로 실행할 수 있도록 허용합니다. 이는 이메일 전송이나 외부 API 호출과 같이 메인 스레드와 독립적으로 실행할 수 있는 작업에 유용합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 설정:
 
@@ -39,10 +45,21 @@ public class AsyncConfig {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 비동기 방식 메소드 정의:
-@Async를 사용하여 비동기적으로 실행하고자 하는 메소드에 주석을 달아주세요.
+   @Async를 사용하여 비동기적으로 실행하고자 하는 메소드에 주석을 달아주세요.
 
 ```java
 @Service
@@ -78,7 +95,18 @@ public class EmailController {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 2. 작업 일정
 
@@ -87,9 +115,20 @@ Spring Boot은 @Scheduled 주석을 사용하여 주기적으로 작업을 실�
 설정:
 
 1. 스케줄링 활성화:
-@Configuration 클래스에 @EnableScheduling 주석을 추가하여 스케줄링을 활성화합니다.
+   @Configuration 클래스에 @EnableScheduling 주석을 추가하여 스케줄링을 활성화합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
    @Configuration
@@ -114,7 +153,18 @@ public class ReportService {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. 일정 옵션:
 
@@ -131,7 +181,18 @@ public class ReportService {
    }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 3. 메시징 시스템 사용
 
@@ -140,30 +201,52 @@ public class ReportService {
 RabbitMQ 설정:
 
 1. 종속성 추가:
-pom.xml이나 build.gradle에 RabbitMQ 스타터를 포함시킵니다.
+   pom.xml이나 build.gradle에 RabbitMQ 스타터를 포함시킵니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <dependency>
-   <groupId>org.springframework.boot</groupId>
-   <artifactId>spring-boot-starter-amqp</artifactId>
+  <groupId>org.springframework.boot</groupId>
+  <artifactId>spring-boot-starter-amqp</artifactId>
 </dependency>
 ```
 
 2. RabbitMQ 구성:
-application.properties에서 RabbitMQ 연결 설정 구성.
+   application.properties에서 RabbitMQ 연결 설정 구성.
 
 ```js
-spring.rabbitmq.host=localhost
-spring.rabbitmq.port=5672
-spring.rabbitmq.username=guest
-spring.rabbitmq.password=guest
+spring.rabbitmq.host = localhost;
+spring.rabbitmq.port = 5672;
+spring.rabbitmq.username = guest;
+spring.rabbitmq.password = guest;
 ```
 
 3. 메시지 수신기 정의:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 @Service
@@ -194,7 +277,18 @@ public class TaskSender {
 
 5. 작업을 트리거하는 컨트롤러:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 @RestController
@@ -217,8 +311,18 @@ Spring Boot은 더 고급 스레딩 요구 사항을 충족하기 위해 `Execut
 
 ## 설정:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 작업 실행기를 정의하세요:
 
@@ -261,7 +365,18 @@ Spring Boot은 더 고급 스레딩 요구 사항을 충족하기 위해 `Execut
    }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Spring Boot에서 백그라운드 처리 다루는 최상의 방법
 
@@ -271,7 +386,18 @@ Spring Boot은 더 고급 스레딩 요구 사항을 충족하기 위해 `Execut
 
 Spring Boot는 `@Async`, `@Scheduled` 및 RabbitMQ 또는 Kafka와 같은 메시징 시스템을 포함하여 여러 방법으로 백그라운드 처리를 다룰 수 있습니다. 요구 사항에 따라 적절한 도구를 선택하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 간단한 비동기 작업: `@Async`를 사용하세요.
 - 주기적인 작업: `@Scheduled`를 사용하세요.
@@ -283,7 +409,18 @@ Spring Boot는 `@Async`, `@Scheduled` 및 RabbitMQ 또는 Kafka와 같은 메시
 
 - 사용자 정의 스레드 풀을 정의하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 @Configuration
@@ -308,7 +445,18 @@ public class ExecutorConfig {
 
 백그라운드 작업에서 처리되지 않은 예외는 예기치 않은 애플리케이션 동작이나 충돌로 이어질 수 있습니다. 항상 예외를 공손하게 처리해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - try-catch 블록 사용:
 
@@ -347,9 +495,20 @@ public class ExecutorConfig {
           };
       }
   }
-```  
+```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 4. Spring의 트랜잭션 관리를 활용하세요
 
@@ -368,7 +527,18 @@ public class ExecutorConfig {
   }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 트랜잭션을 조심해서 비동기 처리와 결합하기: 특별히 설계되지 않은 한, 비동기 메서드가 호출자의 트랜잭션 컨텍스트에 의존하지 않도록 주의하세요.
 
@@ -378,7 +548,18 @@ public class ExecutorConfig {
 
 - 적절한 로깅 사용: 백그라운드 작업의 진행 상황과 결과를 추적하는 로깅 문장을 포함하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 @Async
@@ -399,7 +580,18 @@ public void sendEmail(String recipient, String message) {
 
 백그라운드 작업의 성능을 최적화하여 애플리케이션의 응답성에 부정적인 영향을 미치지 않도록 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 블로킹 작업은 피하십시오: 가능한 경우 블로킹 I/O 작업 및 비동기 프로그래밍 모델을 선호하십시오.
 - JVM 및 가비지 수집 설정 조정: 백그라운드 작업의 성능을 향상시키기 위해 JVM 설정을 최적화하십시오.
@@ -411,7 +603,18 @@ public void sendEmail(String recipient, String message) {
 - 오케스트레이션 프레임워크 사용: Spring Batch나 Camunda와 같은 워크플로 엔진과 같은 오케스트레이션 프레임워크 사용을 고려하십시오.
 - 아이덤포턴시 보장: 가능한 경우 작업을 아이덤포텐트하게 설계하여 부작용이 발생하지 않고 재시도를 graceful하게 처리하십시오.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 8. Idempotency 및 재시도 보장하기
 
@@ -427,7 +630,18 @@ public void sendEmail(String recipient, String message) {
   }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 9. 안전한 백그라운드 처리
 
@@ -438,7 +652,18 @@ public void sendEmail(String recipient, String message) {
 
 ## 10. 우아한 종료
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 친절한 톤으로 번역하면 다음과 같습니다.
 
@@ -458,9 +683,20 @@ public void sendEmail(String recipient, String message) {
           executor.shutdownNow();
       }
   }
-``` 
+```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Spring Boot은 다양한 도구와 기술을 제공하여 백그라운드 처리를 다루는 데 필요한 다양한 요구 사항과 복잡성을 맞춤화할 수 있습니다. 간단한 비동기 메소드, 예약된 작업 또는 메시징 시스템을 사용한 분산 처리가 필요하더라도, Spring Boot은 백그라운드 처리를 간편하고 효율적으로 만들기 위한 견고한 지원을 제공합니다. 이 기능을 활용함으로써 응용 프로그램이 반응적이고 확장 가능하며 백그라운드에서 시간 소모적인 작업을 효율적으로 관리하는 것을 보장할 수 있습니다.
 

@@ -3,16 +3,13 @@ title: "Angular 애플리케이션과 Net Web API를 Auth0로 안전하게 보�
 description: ""
 coverImage: "/assets/img/2024-05-17-SecureanAngularapplicationandNetWebAPIwithAuth0_0.png"
 date: 2024-05-17 03:31
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-17-SecureanAngularapplicationandNetWebAPIwithAuth0_0.png
 tag: Tech
 originalTitle: "Secure an Angular application and .Net Web API with Auth0"
 link: "https://medium.com/@cl0v15/secure-an-angular-application-and-net-web-api-with-auth0-df1db7d6effa"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-05-17-SecureanAngularapplicationandNetWebAPIwithAuth0_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 보안에 대해 잘 모르더라도, Auth0를 사용하면 보안 서비스를 처음부터 만들 필요 없이 응용 프로그램에 인증/권한 부여를 추가할 수 있는 좋은 방법입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Auth0
 
@@ -32,7 +40,18 @@ https://auth0.com으로 이동하여 무료로 가입하고 계정을 설정하�
 
 ## Auth0 싱글 페이지 애플리케이션 구성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 왼쪽 메뉴에서 Applications > Applications로 이동하여 Default App을 선택하십시오. 설정 탭으로 이동하여 이름을 변경하십시오. 또한 새 응용 프로그램을 만들 수 있습니다.
 
@@ -42,7 +61,18 @@ https://auth0.com으로 이동하여 무료로 가입하고 계정을 설정하�
 
 Application URIs 섹션에서 Allowed Callback, Logout URLs 및 Allowed Web Origins에 URL http://localhost:4200/을 제공하십시오.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 http://localhost:4200/은 우리 Angular 애플리케이션의 로컬 URL이 되겠습니다.
 
@@ -52,7 +82,18 @@ http://localhost:4200/은 우리 Angular 애플리케이션의 로컬 URL이 되
 
 Visual Studio를 열고 ASP.NET Core Web API 프로젝트 템플릿에서 새 프로젝트를 만드세요. .Net 6 프레임워크를 선택하세요. 이 튜토리얼에서는 이 템플릿에서 생성된 WeatherForcastController를 사용할 것입니다. 이 컨트롤러에는 사용 예제에서 사용할 HTTP Get 엔드포인트가 포함되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트를 생성한 후 프로그램을 실행하고 https://localhost:7202/weatherforecast (포트 번호가 다를 수 있습니다)으로 JSON 형식의 WeatherForecast 목록이 반환되는지 확인해주세요.
 
@@ -62,31 +103,51 @@ Visual Studio를 열고 ASP.NET Core Web API 프로젝트 템플릿에서 새 �
 
 builder.Services를 services로 바꿔주세요. 그리고 var builder = WebApplication.CreateBuilder(args); 다음에 services 변수를 만들어주세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-var services = builder.Services;Copy
+var services = builder.Services;
+Copy;
 ```
 
 그 후에, CORS 미들웨어를 추가하세요.
 
 ```js
-app.UseCors("CorsPolicy");Copy
+app.UseCors("CorsPolicy");
+Copy;
 ```
 
 CORS 정책을 등록하고 http://localhost:4200 출처를 허용하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-services.AddCors(options =>
-{
-    options.AddPolicy("CorsPolicy", builder => builder
-    .WithOrigins("http://localhost:4200")
-    .AllowAnyMethod()
-    .AllowAnyHeader()
-    .AllowCredentials());
+services.AddCors((options) => {
+  options.AddPolicy("CorsPolicy", (builder) =>
+    builder.WithOrigins("http://localhost:4200").AllowAnyMethod().AllowAnyHeader().AllowCredentials()
+  );
 });
 ```
 
@@ -96,8 +157,18 @@ Auth0 계정으로 돌아가서 Applications & APIs로 이동하여 새 API를 �
 
 API 이름과 식별자 URL(https://localhost:7202/로 포트 번호를 변경)을 입력하세요. RS256 알고리즘을 선택하세요.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## API 엔드포인트 보안하기
 
@@ -110,7 +181,18 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```csharp
 namespace Auth0WebApi.Controllers
@@ -155,19 +237,39 @@ namespace Auth0WebApi.Controllers
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러면 "테이블" 태그를 Markdown 형식으로 변경해주세요.
 
-
 | 아이템 | 가격 |
-|---|---|
-| 사과 | 1.99 |
+| ------ | ---- |
+| 사과   | 1.99 |
 | 바나나 | 0.99 |
-| 수박 | 5.99 |
+| 수박   | 5.99 |
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 코드를 추가하여 인증을 구성하십시오.
 
@@ -187,19 +289,42 @@ services.AddAuthentication(options =>
 
 토큰을 유효성 검사하려면, Auth0 애플리케이션에서 구성한 도메인을 지정해야 합니다. 이 정보는 설정에서 찾을 수 있으며, 방금 생성한 Auth0 API의 식별자인 Audience(청중)도 지정해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음과 같이 AuthenticationMiddleware을 추가해 주세요:
 
 ```js
-app.UseAuthentication();Copy
+app.UseAuthentication();
+Copy;
 ```
 
 프로그램을 다시 실행하면 HTTP ERROR 401 (Unauthorized)를 받게 됩니다.
 
 # Angular 애플리케이션을 만들어 로그인 시스템을 구축하세요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Angular CLI 설치
 
@@ -209,7 +334,18 @@ app.UseAuthentication();Copy
 
 그런 다음, 명령 프롬프트에 이 명령을 입력하여 Angular CLI를 설치하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm install -g @angular/cli
@@ -223,7 +359,18 @@ Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 
 ## Angular 애플리케이션 생성하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새로운 Angular 애플리케이션을 생성하려면 ng new CLI 명령어를 실행하세요.
 
@@ -235,7 +382,18 @@ ng new auth0-angular-appCopy
 
 애플리케이션이 생성되면 ng serve -o를 실행하여 브라우저에서 앱을 실행하고 엽니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 ng serve --oCopy
@@ -247,7 +405,18 @@ ng serve --oCopy
 
 좋아하는 텍스트 편집기나 IDE로 애플리케이션을 열어보세요. 여기서는 VS Code를 사용하겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트 디렉토리 내에서 터미널을 열고 Auth0 Angular SDK를 설치하려면 다음 명령을 실행해주세요.
 
@@ -258,16 +427,27 @@ npm install @auth0/auth0-angularCopy
 app.module.ts를 열어서 AuthModule 패키지를 가져와서 AuthModule.forRoot를 호출하여 imports 목록에 추가해주세요. Auth0 애플리케이션 설정에서 Domain 및 ClientId 값을 복사해주세요.
 
 ```js
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
-import { AuthModule } from '@auth0/auth0-angular'
+import { NgModule } from "@angular/core";
+import { BrowserModule } from "@angular/platform-browser";
+import { AuthModule } from "@auth0/auth0-angular";
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
+import { AppRoutingModule } from "./app-routing.module";
+import { AppComponent } from "./app.component";
 @NgModule({
   declarations: [AppComponent],
   imports: [
@@ -275,8 +455,8 @@ import { AppComponent } from './app.component';
     AppRoutingModule,
     HttpClientModule,
     AuthModule.forRoot({
-      domain: 'auth0tuto.eu.auth0.com',
-      clientId: 'aJZmQXUxWhl4arU5ZhN2FJ38YUQgNYbf'
+      domain: "auth0tuto.eu.auth0.com",
+      clientId: "aJZmQXUxWhl4arU5ZhN2FJ38YUQgNYbf",
     }),
   ],
   providers: [],
@@ -291,11 +471,22 @@ app.component.ts 파일을 열고 AuthService 클래스에 대한 종속성을 �
 
 귀하의 코드는 다음과 같아야 합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-import { Component } from '@angular/core';
-import { AuthService } from '@auth0/auth0-angular';
+import { Component } from "@angular/core";
+import { AuthService } from "@auth0/auth0-angular";
 ```
 
 ```js
@@ -323,7 +514,18 @@ export class AppComponent {
 </button>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 loginWithRedirect() 메소드를 호출하면 사용자가 Auth0 Universal 로그인 페이지로 리디렉션되어 해당 페이지에서 애플리케이션으로 이동하기 전에 로그인 또는 회원 가입을 할 수 있습니다.
 
@@ -343,7 +545,18 @@ loginWithRedirect() 메소드를 호출하면 사용자가 Auth0 Universal 로�
 
 이제 배너에 로그인 버튼이 표시될 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `div class = "content" role = "main"`와 `/div` 사이의 모든 것을 삭제하고 다음 코드를 복사하여 붙여넣으십시오.
 
@@ -360,7 +573,18 @@ loginWithRedirect() 메소드를 호출하면 사용자가 Auth0 Universal 로�
 
 로그인 버튼을 클릭하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금은 Auth0 로그인 페이지로 이동되었습니다.
 
@@ -370,7 +594,18 @@ loginWithRedirect() 메소드를 호출하면 사용자가 Auth0 Universal 로�
 
 ## 로그아웃
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가입한 후에는 로그인 버튼이 로그아웃 버튼으로 대체된 것을 볼 수 있습니다.
 
@@ -380,7 +615,18 @@ loginWithRedirect() 메소드를 호출하면 사용자가 Auth0 Universal 로�
 
 이제 다시 로그인 버튼을 클릭하여 응용 프로그램에 로그인하십시오.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용자 로그인 시스템이 작동되었으니, 이제 보안된 웹 API에 HTTP 호출을 만들어 날씨 예보 목록을 가져와 표시하고 싶어요.
 
@@ -392,7 +638,18 @@ loginWithRedirect() 메소드를 호출하면 사용자가 Auth0 Universal 로�
 ng g s weatherforecastCopy
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 app.module.ts에 WeatherForecastService와 HttpClientModule를 providers 배열에 추가해주세요. './weatherforecast.service'에서 WeatherForecastService를 import하고, @angular/common/http에서 HttpClientModule를 import해주세요.
 
@@ -411,14 +668,25 @@ get(): Observable<number> {
 
 이 메소드는 우리 Web API의 weatherforecast 엔드포인트로 GET http 호출을 하게 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 귀하는 다음과 같이 서비스 클래스를 작성하셔야 합니다:
 
 ```js
-import { HttpClient } from '@angular/common/http';
-import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs';
+import { HttpClient } from "@angular/common/http";
+import { Injectable } from "@angular/core";
+import { Observable } from "rxjs";
 ```
 
 ```js
@@ -435,7 +703,18 @@ export class WeatherForecastService {
 
 ## 날씨 예보 표시하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 app.components.ts로 돌아가서 생성자에 WeatherForecastService 종속성을 추가하고 ./weatherforecast.service에서 해당 클래스를 import하세요.
 
@@ -447,8 +726,18 @@ weatherForecast: any[] = [];
 
 getWeatherForecasts() 메서드를 생성하여 날씨 예보 목록을 로드하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 getWeatherForecasts() {
@@ -459,9 +748,9 @@ getWeatherForecasts() {
 ```
 
 ```js
-import { Component, OnInit } from '@angular/core';
-import { AuthService } from '@auth0/auth0-angular';
-import { WeatherForecastService } from './weatherforecast.service';
+import { Component, OnInit } from "@angular/core";
+import { AuthService } from "@auth0/auth0-angular";
+import { WeatherForecastService } from "./weatherforecast.service";
 ```
 
 ```js
@@ -490,8 +779,18 @@ export class AppComponent implements OnInit{
 
 ## Add JWT to the HTTP requests
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전에 언급한 대로, 저희 웹 API는 HTTP 요청의 Authorization 헤더에서 JWT bearer를 디코딩하여 클라이언트의 엔드포인트 접근을 승인합니다.
 
@@ -500,13 +799,21 @@ Auth0 SDK를 사용하면 각 요청에 JWT를 수동으로 추가할 필요가 
 app.module.ts에서 AuthHttpInterceptor와 HTTP_INTERCEPTORS를 다음과 같이 providers 배열에 추가하세요:
 
 ```js
-providers: [
-  WeatherForecastService,
-  { provide: HTTP_INTERCEPTORS, useClass: AuthHttpInterceptor, multi: true },
-],Copy
+providers: [WeatherForecastService, { provide: HTTP_INTERCEPTORS, useClass: AuthHttpInterceptor, multi: true }], Copy;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 @angular/common/http에 HTTP_INTERCEPTORS와 @auth0/auth0-angular에 AuthHttpInterceptor을 추가해주세요.
 
@@ -515,19 +822,29 @@ AuthModule.forRoot()에서 audience와 httpInterceptor를 추가하고, 허용�
 우리의 app.module.ts는 이제 다음과 같이 보입니다:
 
 ```js
-import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
-import { AuthHttpInterceptor, AuthModule } from '@auth0/auth0-angular';
-import { WeatherForecastService } from './weatherforecast.service';
+import { HttpClientModule, HTTP_INTERCEPTORS } from "@angular/common/http";
+import { NgModule } from "@angular/core";
+import { BrowserModule } from "@angular/platform-browser";
+import { AuthHttpInterceptor, AuthModule } from "@auth0/auth0-angular";
+import { WeatherForecastService } from "./weatherforecast.service";
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
+import { AppRoutingModule } from "./app-routing.module";
+import { AppComponent } from "./app.component";
 @NgModule({
   declarations: [AppComponent],
   imports: [
@@ -535,18 +852,15 @@ import { AppComponent } from './app.component';
     AppRoutingModule,
     HttpClientModule,
     AuthModule.forRoot({
-      domain: 'auth0tuto.eu.auth0.com',
-      clientId: 'aJZmQXUxWhl4arU5ZhN2FJ38YUQgNYbf',
-      audience: 'https://localhost:7202/',
+      domain: "auth0tuto.eu.auth0.com",
+      clientId: "aJZmQXUxWhl4arU5ZhN2FJ38YUQgNYbf",
+      audience: "https://localhost:7202/",
       httpInterceptor: {
-        allowedList: [ 'https://localhost:7202/*' ],
+        allowedList: ["https://localhost:7202/*"],
       },
     }),
   ],
-  providers: [
-    WeatherForecastService,
-    { provide: HTTP_INTERCEPTORS, useClass: AuthHttpInterceptor, multi: true },
-  ],
+  providers: [WeatherForecastService, { provide: HTTP_INTERCEPTORS, useClass: AuthHttpInterceptor, multi: true }],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

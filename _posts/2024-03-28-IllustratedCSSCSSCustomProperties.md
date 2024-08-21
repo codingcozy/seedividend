@@ -3,17 +3,13 @@ title: "그림으로 쉽게 이해하는 CSS Custom Properties 완벽 정리"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Illustrated CSS CSS Custom Properties"
 link: "https://medium.com/@w3cplus/illustrated-css-css-custom-properties-c5eb7da8423d"
 isUpdated: true
 ---
-
-
-
-
 
 모두가 잘 아시다시피, 대규모 웹 사이트나 애플리케이션을 구축할 때 CSS를 유지하는 것은 항상 어려운 일이었습니다. 여러 사람이 협업한다면 어려움은 더 커질 것입니다. 게다가 CSS 언어는 변수, 조건, 논리와 같은 기능이 없는 선언형 언어이기 때문에 다른 프로그래밍 언어보다 항상 하위 수준에서 작업해야 했습니다.
 
@@ -23,7 +19,18 @@ CSS 프로세서가 CSS 작성 및 유지에 편의성을 제공했지만 여전
 
 다음으로, 이 장에서는 CSS 사용자 지정 속성과 그 응용 및 장점을 탐험해 보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # CSS 사용자 정의 속성 소개
 
@@ -34,7 +41,18 @@ CSS 사용자 정의 속성은 W3C 명세의 TR 단계에 돌입했으며 별도
 - 사용자 정의 속성: --* ( *는 선언된 임의의 이름을 나타냄)를 사용하여 특정 형식을 선언하여 이름으로 지정하며, 이를 사용자 정의 속성이라고 부르며 임의의 값이 사용자 정의 속성에 할당될 수 있습니다. 예: --color: #fff.
 - 변수: CSS에서 var() 함수에 의해 참조된 사용자 정의 속성을 변수라고 합니다. var()는 사용자 정의 속성에 해당하는 값을 반환하고 해당 CSS 속성에 적용할 수 있습니다. 해당 값은 CSS 규칙의 속성 값입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사진을 통해 그들의 관계를 설명해보세요:
 
@@ -44,7 +62,18 @@ CSS 사용자 정의 속성은 W3C 명세의 TR 단계에 돌입했으며 별도
 
 프로그래밍 언어를 사용해본 적이 있다면 변수(개념)이 익숙할 것입니다. 몇몇 명령형 프로그래밍 언어(예: 프런트 엔드에서 익숙한 JavaScript)에서 변수는 특정 상태를 더 잘 추적하는 데 도움이 됩니다. 변수는 특정 값과 연결된 기호이며 변수의 값은 시간이 지남에 따라 변경될 수 있습니다. 변수의 장점은 값을 한 곳에 저장한 다음 필요한 곳에서 호출하거나 수정할 수 있다는 것입니다. 이렇게 하면 프로그램의 다른 부분에 서로 다른 값에 대해 서로 다른 변수를 추가할 필요가 없습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![CSS Custom Properties](/assets/img/IllustratedCSSCSSCustomProperties_1.png)
 
@@ -54,7 +83,18 @@ CSS 사용자 지정 속성이 등장하기 전에 CSS는 계층 변수의 개�
 
 많은 동료들은 대규모 웹 사이트나 웹 애플리케이션을 구축한 경험이 있을 것으로 생각합니다. 사용된 CSS 양은 매우 많고, 많은 경우에 재사용이 이루어집니다. 웹 사이트의 색상 구성을 예로 들어보겠습니다. 일부 색상은 CSS 파일에서 여러 차례 나타나고 재사용됩니다. 색상 구성을 수정할 때, 특정 색상을 조정하든 전체 색상 구성을 완전히 수정하든 복잡한 문제가 될 것입니다. 단순히 글로벌 검색 및 교체에만 의존하는 것은 충분하지 않으며, 이러한 작업은 필연적으로 오류를 발생시킬 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 CSS 프레임워크를 사용하였다면, 이 상황은 특히 좋지 않아질 것입니다. 이 경우, 만약 색을 수정하고 싶다면 프레임워크 자체를 수정해야 할 것입니다. 이러한 프레임워크들은 에러 발생 가능성을 줄이고 유지보수성을 향상시켜주는 Sass와 같은 CSS 프로세서를 도입했을지라도, 추가적인 단계(컴파일 처리가 필요함)를 추가함으로써 시스템의 복잡성을 증가시킬 수 있습니다.
 
@@ -64,7 +104,18 @@ CSS 사용자 지정 속성(CSS 변수)의 등장은 CSS 프로세서의 일부 
 
 # CSS 사용자 지정 속성 구문 및 기본 적용법
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS custom properties를 소개할 때, 백엔드에서 온 동료들이 이해하기 쉽도록 익숙한 개념부터 시작할 수 있어요. 자바스크립트에서 변수를 예로 들어보겠습니다.
 
@@ -80,7 +131,18 @@ const customProperty = IS_ACTIVE;
 
 만약 나와 같이 자바스크립트에 익숙하지 않다면, 또는 CSS 프로세서와 접해본 경험이 있다면, CSS 프로세서를 예로 들어볼 수도 있어요. LESS, Sass, Stylus와 같이 익숙한 여러 CSS 프로세서들은 각자 변수를 선언하는 방식이 있어요. 보통 변수 접두사로 상징적인 엔티티 문자를 사용하는 편이에요. Sass에서는 $ 기호, LESS에서는 @ 기호, 그리고 Stylus에서는 특별한 접두사 없이 직접 표현을 사용한다는 거죠. primary-color = red와 같이요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS 사용자 정의 속성은 유사한 접근 방식을 사용하여 선언될 때 사용됩니다. 사용자 정의 속성을 선언할 때 -- 기호를 접두어로 사용합니다:
 
@@ -94,7 +156,18 @@ CSS 사용자 정의 속성은 유사한 접근 방식을 사용하여 선언될
 
 선언된 CSS 사용자 정의 속성이 어떤 속성에서도 호출되지 않는 경우에는 영향을 주지 않습니다. 단지 문자열만이 스타일 파일에 남게 될 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 선언된 CSS 사용자 지정 속성을 호출하는 방법은 다른 CSS 핸들러의 변수를 호출하는 것과 약간 다릅니다. CSS 사용자 지정 속성을 호출하려면 var() 함수를 통해 참조해야 합니다. var() 함수의 첫 번째 매개변수로 CSS 사용자 정의 속성을 전달하고 전체 함수를 CSS 속성에 할당해야 합니다(이것은 CSS 속성 또는 CSS 사용자 정의 속성이 될 수 있음). 예를 들어:
 
@@ -112,7 +185,18 @@ body {
 
 var() 함수는 동시에 두 개의 값을 받아들일 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 var(<custom-property-name>, <declaration-value>)
@@ -133,7 +217,18 @@ var(<custom-property-name>, <declaration-value>)
 
 # CSS 사용자 정의 속성 사용법
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 CSS 사용자 지정 속성에 대한 기본적인 이해가 생겼으므로 몇 가지 작은 예제 코드를 사용하여 CSS 사용자 지정 속성의 기능을 강조하는 것이 제 이해를 높이는 데 도움이 될 것 같아요.
 
@@ -153,7 +248,18 @@ section::after {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![CSS Custom Properties](/assets/img/IllustratedCSSCSSCustomProperties_2.png)
 
@@ -169,7 +275,18 @@ CSS를 배울 때 꼭 알아야 할 세 가지 개념인 cascading(계단식), i
 </div>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .parent {
@@ -200,7 +317,18 @@ CSS를 배울 때 꼭 알아야 할 세 가지 개념인 cascading(계단식), i
 
 이것이 이해하기 쉽지 않을 수 있으므로 더 현실적인 예시를 살펴보겠습니다. 예를 들어, 모든 웹 애플리케이션에는 고유한 색 구성표가 있습니다. CSS 프레임워크인 Bootstrap의 색 구성표를 예로 들어보겠습니다. 그 중요한 색 구성은 --primary: #007bff 이며, 다음과 같이 여러 곳에서 사용됩니다
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![CSS customization example](/assets/img/IllustratedCSSCSSCustomProperties_3.png)
 
@@ -238,7 +366,18 @@ CSS의 상속 기능을 사용하면 일들이 쉬워집니다.
 
 언젠가 상사가 "이 색상을 더 이상 보기 싫다"고 하고 색상 시스템을 변경하고 싶다고 말한다면, :root 내의 --primary 값을 조정하기만 하면 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또한, 동일한 모듈 구성 요소는 아래 그림에 나타난 효과와 같이 약간의 차이만 있습니다.
 
@@ -262,7 +401,18 @@ CSS의 상속 기능을 사용하면 일들이 쉬워집니다.
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS 캐스케이딩과 상속의 복잡성으로 인해, CSS 사용자 정의 속성의 특성을 더 잘 보여주기 위해 (더 적은 코드, 더 쉬운 유지 보수, 더 쉬운 확장을 통해), 더 계층적인 예제를 보여드리겠습니다.
 
@@ -290,7 +440,18 @@ div {
 
 결과는 아래 그림으로 보여집니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/IllustratedCSSCSSCustomProperties_5.png)
 
@@ -303,7 +464,18 @@ CSS 사용자 지정 속성은 CSS 속성과 마찬가지로 요소의 스타일
 <button style="--color: blue">Click Me</button>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 button {
@@ -321,7 +493,18 @@ button:hover {
 
 CSS 사용자 지정 속성은 CSS 속성과 약간 다릅니다. CSS 속성은 대소문자를 구분하지 않지만 CSS 사용자 지정 속성은 대소문자를 구분합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 :root {
@@ -341,7 +524,18 @@ CSS 사용자 지정 속성은 CSS 속성과 약간 다릅니다. CSS 속성은 
 
 CSS 커스텀 속성 네이밍 규칙은 비교적 느슨합니다. 중국어, 대문자, 카멜 케이스 네이밍, 하이픈, 이모지, HTML 엔티티 등과 같은 유효한 문자열을 사용할 수 있습니다. :
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/IllustratedCSSCSSCustomProperties_7.png" />
 
@@ -353,7 +547,18 @@ CSS 사용자 정의 속성을 소개할 때 var() 함수의 매개변수로 CSS
 - 브라우저가 CSS 사용자 정의 속성을 지원하지만 CSS 사용자 정의 속성의 값을 명시적으로 선언하지 않은 경우, 저하된 매개변수가 선택됩니다.
 - 브라우저가 CSS 사용자 정의 속성을 지원하고 CSS 사용자 정의 속성의 값을 명시적으로 선언한 경우 CSS 사용자 정의 속성의 값이 선택되고 저하된 매개변수는 선택되지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, 다음과 같은 예시입니다:
 
@@ -373,7 +578,18 @@ CSS 사용자 정의 속성을 소개할 때 var() 함수의 매개변수로 CSS
 
 # 잘못된 CSS 사용자 지정 속성은 어떻게 처리되나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS 사용자 지정 속성에 잘못된 값을 적용하면 어떻게 될까요? 무엇이 일어나는지 알려주기 전에 CSS 속성에 잘못된 값을 사용할 때 어떤 일이 발생하는지 살펴봅시다.
 
@@ -387,7 +603,18 @@ CSS 사용자 지정 속성에 잘못된 값을 적용하면 어떻게 될까요
 
 패딩(padding)은 음수 값을 지원하지 않습니다. 즉, -10px는 패딩 속성에 대한 잘못된 값입니다. 이때, 브라우저는 렌더링할 때 패딩의 초기 값(initial)을 사용하게 되는데, 초기 값은 0입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/IllustratedCSSCSSCustomProperties_9.png" />
 
@@ -407,7 +634,18 @@ CSS 사용자 지정 속성을 사용할 때, CSS 사용자 지정 속성이 호
 
 부모 요소가 명시적으로 색상 값을 설정하지 않은 경우, `html` 요소의 색상 값을 상속받을 겁니다. Chrome 브라우저에서는 #000 색상 값을 상속받을 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또 다른 시나리오는 선언된 CSS 사용자 지정 속성을 호출하는 것이 잘못된 값이지만, 축소된 값이 제공되고 그 축소된 값이 유효한 값인 경우에는 초기 값이 사용되지 않고 축소된 값이 사용됩니다. 예를 들어:
 
@@ -425,7 +663,18 @@ p {
 
 # 연결된 CSS 사용자 지정 속성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 var() 함수를 사용하여 선언된 CSS 사용자 지정 속성을 호출할 때, var() 함수에 저하된 매개변수를 제공할 때, 연쇄적으로 저하된 매개변수를 제공할 수 있습니다. 예를 들어:
 
@@ -442,7 +691,18 @@ p {
 
 # 순환 의존성을 갖는 CSS 사용자 지정 속성은 잘못된 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS는 선언형 언어이며, 요소의 스타일 규칙은 순서 개념이 없습니다(동일한 프로퍼티가 동일한 선택자 블록 내에 있을 때, 나중에 나오는 것이 앞설 것을 덮어쓴다). 값은 하나만 가질 수 있으며, 이전 값과 그 값에 1을 더한 값이 동시에 될 수 없으므로 이것은 루프를 형성합니다.
 
@@ -456,7 +716,18 @@ console.log(a); // » 1
 
 CSS 사용자 정의 프로퍼티의 순환적 사용을 다시 살펴봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 :root {
@@ -475,7 +746,18 @@ CSS에서는 동일한 CSS 속성이 같은 선택기 블록에 있으면, 후�
 
 자신을 참조하는 사용자 지정 속성 외에도, 두 개 이상의 사용자 지정 속성이 서로를 참조하는 경우에도 다른 시나리오가 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 :root {
@@ -490,7 +772,18 @@ CSS에서는 동일한 CSS 속성이 같은 선택기 블록에 있으면, 후�
 
 CSS 프로세서에 익숙한 동료들은 CSS 프로세서에서 연산자 관련 작업을 수행할 수 있다는 것을 알고 있을 것입니다. 실제로 이 기능은 calc() 함수를 사용하여 CSS에서 일부 기본 연산자 관련 작업을 수행할 수 있습니다. CSS 사용자 지정 속성에서도 동일한 기능을 찾을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 :root {
@@ -520,7 +813,18 @@ CSS 사용자 지정 속성에서 기본 연산을 수행할 때 주의할 점�
 
 # CSS 사용자 정의 속성의 값은 데이터입니다. 속성 값이 아닙니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 예제에서는 CSS 사용자 정의 속성에 순수한 숫자 값을 할당할 수 있다는 것을 보았습니다. CSS 속성 값 대신에 숫자 값을 할당할 수 있다는 장점이 있습니다. 이렇게 하면 우리가 원하는 값으로 쉽게 변환할 수 있습니다. 예를 들어:
 
@@ -535,7 +839,18 @@ CSS 사용자 지정 속성에서 기본 연산을 수행할 때 주의할 점�
 
 ![CSS 사용자 정의 속성 이미지](/assets/img/IllustratedCSSCSSCustomProperties_13.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 문제를 해결하기 위해 calc() 함수를 사용할 수 있습니다:
 
@@ -557,7 +872,18 @@ CSS 사용자 지정 속성에서 기본 연산을 수행할 때 주의할 점�
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 vw 단위를 vw/vw 로 나누고, --size를 순수한 숫자로 변경한 다음 1vh를 곱하여 height: 40vh로 만들기를 희망합니다. 하지만 예상한 대로 결과가 나오지 않았습니다. 왜냐하면 calc() 함수는 길이 단위(예: px, vw, vh 등)로 나누는 것을 지원하지 않고, 순수한 숫자로만 나눌 수 있기 때문입니다. 그래서 height 속성은 잘못된 값에 대한 참조를 하고 초기값인 auto를 사용합니다.
 
@@ -570,7 +896,18 @@ calc()와 CSS 사용자 지정 속성 간의 기본 작업은 주로 calc() 함�
 
 # @ 규칙에서 CSS 사용자 지정 속성 사용하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS에는 @ 규칙 중 일부가 있습니다. @charset, @import, @namespace, @document, @font-face, @keyframes, @media, @page, @supports, @viewport 및 @color-profile 등이 있습니다. 그 중에서 @media, @supports 및 @keyframes는 흔한 @ 규칙입니다.
 
@@ -580,7 +917,18 @@ CSS에는 @ 규칙 중 일부가 있습니다. @charset, @import, @namespace, @d
 
 미디어 쿼리 @media에 대한 CSS 사용자 정의를 사용하여 CSS 사용자 정의 속성의 값을 동적으로 변경할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 body {
@@ -601,7 +949,18 @@ body {
 
 위에 소개된 예제는 가장 간단한 예 중 하나입니다. 사실, CSS 사용자 지정 속성과 @media의 조합은 반응형 웹 디자인을 훨씬 간단하게 만듭니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## @keyframes에서 CSS 사용자 정의 속성 사용하기
 
@@ -628,7 +987,18 @@ CSS 사용자 정의 속성과 CSS 애니메이션은 잘 동작합니다. 그�
 
 효과는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/IllustratedCSSCSSCustomProperties_15.png" />
 
@@ -638,7 +1008,18 @@ CSS 사용자 정의 속성과 CSS 애니메이션은 잘 동작합니다. 그�
 
 <img src="/assets/img/IllustratedCSSCSSCustomProperties_16.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 조금이나마 조건부 판단을 할 수 있게 @supports를 사용할 수 있어요:
 
@@ -659,7 +1040,18 @@ body {
 
 웹 컴포넌트는 이제 웹 사이트나 웹 애플리케이션 개발에 널리 사용되며, 많은 팀 또는 개인이 관련 준비를 했다. 사실, 웹 컴포넌트를 개발하거나 디자인할 때 CSS 사용자 지정 속성을 결합하면 전체 디자인이 더 유연해집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가장 영향력 있는 CSS Framework(Bootstrap)에서 Button UI 구성 요소를 살펴보며 웹 컴포넌트에서 CSS 사용자 지정 속성의 적용을 설명하는 예로 삼겠습니다.
 
@@ -680,7 +1072,18 @@ body {
 <button type="button" class="btn btn-link">Link</button>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 버튼 하나당 두 개의 클래스 이름이 있는 것을 확인할 수 있어요. 하나는 기본 클래스 이름인 .btn 이고, 다른 하나는 확장 클래스 이름인 .btn-primary 같은 것이에요. 스타일은 다음과 같아요:
 
@@ -759,7 +1162,18 @@ body {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 코드를 두 부분으로 나눠 보겠습니다.
 
@@ -775,7 +1189,18 @@ body {
 <img src="/assets/img/IllustratedCSSCSSCustomProperties_19.png" />
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 예시 코드에서 보면, 다른 스타일의 버튼들이 동일한 CSS 속성을 갖고 있지만 값만 다른 것을 볼 수 있어요. 색상(color), 배경색(background-color), 테두리 색상(border-color), 그림자 색상(box-shadow)과 같은 속성들이죠. 이렇게 하면 이러한 동일한 CSS 속성을 CSS 사용자 정의 속성으로 추출할 수 있어요. 예를 들어:
 
@@ -834,7 +1259,18 @@ body {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/IllustratedCSSCSSCustomProperties_20.png" />
 
@@ -844,8 +1280,18 @@ CSS 사용자 지정 속성과 SVG는 잘 호환이 됩니다.
 
 예를 들어, 서로 다른 색상으로 동일한 아이콘을 여러 곳에 사용할 때, 아이콘의 컨테이너 요소에 CSS 사용자 지정 속성을 설정하고 다른 속성 값을 할당할 수 있습니다. 예를 들어:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <table>
     <tr>
@@ -858,8 +1304,18 @@ CSS 사용자 지정 속성과 SVG는 잘 호환이 됩니다.
     </tr>
 </table>
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/IllustratedCSSCSSCustomProperties_21.png)
 
@@ -869,7 +1325,18 @@ CSS 사용자 지정 속성과 SVG는 잘 호환이 됩니다.
 
 CSS 사용자 지정 속성을 사용하면 box-shadow-color, text-shadow-color, background-sprites 등과 같은 존재하지 않는 CSS 규칙을 더 잘 모방할 수 있습니다. CSS box-shadow를 예로 들어보겠습니다. CSS box-shadow에는 그림자 색이 포함되어 있지만, 그림자 색을 설정하는 독립적인 속성이 CSS에는 없습니다. 이때 CSS 사용자 지정 속성이 유용하게 사용될 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 .box {
@@ -891,7 +1358,18 @@ CSS 사용자 지정 속성을 사용하면 box-shadow-color, text-shadow-color,
 
 보다 복잡한 경우를 살펴보겠습니다. 배경 스프라이트를 시뮬레이션하는 것:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .sprites{
@@ -916,7 +1394,18 @@ CSS 사용자 지정 속성을 사용하면 box-shadow-color, text-shadow-color,
 
 CSS 사용자 지정 속성은 CSS 속성과 마찬가지로 CSSOM에서 일부 API를 통해 조작할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 내부 연결 스타일에서 CSS 사용자 지정 속성을 가져오려면 .style.getPropertyValue(--foo)를 사용하세요.
 - 어디서든 CSS 사용자 지정 속성을 가져오려면 getComputedStyle(element).getPropertyValue(--)를 사용하세요.
@@ -928,7 +1417,18 @@ CSS 사용자 지정 속성은 CSS 속성과 마찬가지로 CSSOM에서 일부 
 
 HTML 구조는 매우 간단합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <!-- HTML -->
@@ -953,7 +1453,18 @@ HTML 구조는 매우 간단합니다.
 
 기본 스타일:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .ball {
@@ -1018,7 +1529,18 @@ document.addEventListener("mousemove", (e) => {
 
 이렇게 하면 화면에서 마우스를 움직이면 구체가 확대 등 여러 효과와 함께 움직일 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/IllustratedCSSCSSCustomProperties_24.png" />
 
@@ -1028,7 +1550,18 @@ document.addEventListener("mousemove", (e) => {
 
 CSS 사용자 정의 속성의 등장은 더 깔끔하고 더 간결하며 더 유연한 CSS를 작성할 수 있게 해주며, 심지어 CSS를 작성하고 CSS에 대해 생각하는 방식을 바꿀 수도 있습니다. 다음으로, CSS 사용자 정의 속성이 CSS 작성 방식을 어떻게 변경하는지 몇 가지 작은 포인트를 통해 함께 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 로직과 디자인 분리
 
@@ -1048,7 +1581,18 @@ body {
 
 우리는 항상 CSS 프로세서에서 변수 선언과 CSS 속성 선언은 분리되어야 한다고 주장해왔습니다. CSS 사용자 정의 속성의 실제 활용에서도 이것은 바뀌지 않아야 합니다. 우리는 CSS 사용자 정의 속성을 선언할 때도 CSS 속성과 분리해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 접기 로직
 
@@ -1068,7 +1612,18 @@ body {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 접힌 영역 아래의 코드는 다음과 같이 나타낼 수 있습니다:
 
@@ -1084,7 +1639,18 @@ body {
 
 대부분의 경우, 미디어 쿼리나 CSS 셀렉터가 하나의 CSS 사용자 정의 속성을 다른 값으로 대체하는 것은 좋지 않은 방법입니다. 대신 CSS 사용자 정의 속성을 교환하는 대신, 초기값을 설정하고 해당 값을 변경하기 위해 셀렉터나 미디어 쿼리를 사용하는 것이 더 나은 방법이라고 생각합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 변경되면 CSS 사용자 지정 속성입니다
 
@@ -1094,7 +1660,18 @@ body {
 
 모든 CSS 사용자 지정 속성과 관련된 로직을 문서 상단(즉, :root)에 두는 것이 합리적입니다. 한 곳에서 변경할 수 있기 때문에 유지 관리하기가 더 쉽고, 읽기도 더 쉬워집니다. 전체 스타일시트를 읽지 않고도 변경 사항을 확인할 수 있으므로 어떤 부분이 변경되는지 쉽게 파악할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 미디어 쿼리에 대한 테이블 태그는 선택자의 서로 다른 부분의 요소 스타일 규칙을 분리하기 때문에 사용할 수 없습니다. 이는 실용적이지 않고 유지 보수가 어려우므로 변경된 선택자와 관련된 선언과 미디어 쿼리를 그룹화하는 것이 합리적입니다.
 
@@ -1104,7 +1681,18 @@ CSS 사용자 정의 속성은 논리와 디자인 구현 사이의 링크를 �
 
 논리적인 것과 디자인을 효과적으로 분리함으로써 주요 속성 선언의 복잡성을 피할 수도 있으며, 선택자를 결합할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 예제에서 다른 글꼴 크기로 `aside`와 `main` 요소가 있습니다. 동시에 `aside`에는 검은 배경색이, `main`에는 밝은 배경색이 있습니다. 이를 다음과 같이 작성할 수 있습니다:
 
@@ -1135,7 +1723,18 @@ aside {
 
 ## 더 일반적인 CSS 사용자 정의 속성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS 처리 로직과 관련된 모든 CSS 사용자 정의 속성을 일반 선택기 \*에 선언하는 아이디어가 있을 수 있습니다. 사실, 이 접근 방식은 좋지 않아요:
 
@@ -1159,7 +1758,18 @@ CSS 처리 로직과 관련된 모든 CSS 사용자 정의 속성을 일반 선�
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컨테이너 안의 모든 것은 --border 속성을 상속받을 것입니다. 곧, 모든 CSS 사용자 지정 속성을 재정의하고 일반적인 \* 선택자를 사용하지 않고도 스스로를 골 pit에 빠트릴 필요가 없게 될 것입니다.
 
@@ -1169,7 +1779,18 @@ CSS 처리 로직과 관련된 모든 CSS 사용자 정의 속성을 일반 선�
 
 # 문법적 차이점
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS 사용자 지정 속성은 CSS 핸들러 내의 변수와 조금 비슷하지만 여전히 큰 차이가 있어요. 가장 중요하고 명백한 차이점은 구문입니다. 예를 들어 SCSS에서는 변수를 선언할 때 $를 사용하며 코드 블록 {}에서 선언할 필요가 없어요.
 
@@ -1185,11 +1806,33 @@ CSS 사용자 지정 속성은 -- 접두사를 사용하여 선언되며 선택�
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또 다른 뚜렷한 차이점은 이름입니다. 이들은 순수한 CSS 속성이기 때문에 사용자 정의 속성이라고 불립니다. CSS 프로세서에서 변수를 어디서든 선언할 수 있으며, 외부 선언 블록, 미디어 쿼리, 심지어 셀렉터 안에서도 선언할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // SCSS
@@ -1221,7 +1864,18 @@ $list: ".text, .cats";
 
 CSS 사용자 정의로 선언된 값을 속성 선언의 어디서든 가져올 수 있습니다. 이는 단일 값으로 사용하거나, 명령문의 일부로 사용하거나, 심지어 calc () 함수에서도 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 .cats {
@@ -1252,7 +1906,18 @@ div:nth-child(var(--num)) {
 
 # 동적 대 정적
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS 프로세스 메커니즘을 실행하는 과정은 대략 다음과 같을 수 있습니다:
 
@@ -1262,7 +1927,18 @@ CSS 프로세서의 코드는 여전히 CSS 코드로 페이지에 모두 표시
 
 CSS 프로세서에서는 SCSS를 예로 들어 다음과 같이 할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // SCSS
@@ -1286,7 +1962,18 @@ CSS 프로세서를 사용해본 동료들은 알겠지만, @media 안의 $gutte
 
 브라우저 너비가 어떻게 변경되던 $gutter의 값은 항상 1em으로 유지됩니다. 이를 정적(static)이라고 합니다(프로세서는 클라이언트에서 동적으로 컴파일할 수 없음). 이는 CSS 프로세서가 클라이언트에서 실행되기 전에 컴파일되어야 하기 때문에 발생합니다. 한편, CSS 사용자 정의 속성은 컴파일 프로세스를 거치지 않고 직접 클라이언트에서 사용할 수 있습니다. 예를 들면:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 :root {
@@ -1310,7 +1997,18 @@ CSS 프로세서를 사용해본 동료들은 알겠지만, @media 안의 $gutte
 
 또한, 우리는 JavaScript를 사용하여 SCSS 변수를 동적으로 수정할 수 없습니다(다른 CSS 프로세서의 변수에도 동일). 그러나 CSS 사용자 지정 속성은 다릅니다. CSS 사용자 지정 속성의 값을 동적으로 얻거나 수정할 수 있습니다. 또한, 이전에 CSS 사용자 지정 속성의 기본 사용법을 논의했습니다. 예를 들어, 요소를 마우스 이동에 따라 위치를 변경할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 :root {
@@ -1338,7 +2036,18 @@ moveEle.addEventListener('mousemove', e => {
 
 CSS 프로세서와 CSS 사용자 지정 속성에는 계층 구조 및 상속과 관련된 중요한 차이점이 있습니다. 이전 논의를 통해 CSS 사용자 지정 속성이 CSS 속성과 관련된 계층 구조 및 상속 특성을 가지고 있다는 점을 알 수 있습니다. 그러나 이러한 특성은 CSS 프로세서에서 사용할 수 없습니다. 먼저 계단식 특성을 살펴보겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // SCSS
@@ -1370,7 +2079,18 @@ body {
 
 위 예시에서 SCSS로 컴파일 된 CSS 코드는 body의 font-size를 항상 1em으로 유지합니다. 사용자가 .user-setting-large-text를 명시적으로 설정해도 body의 font-size 값은 바뀌지 않습니다. 하지만 CSS 사용자 지정 속성에서는 다릅니다. body의 기본 font-size 값은 1em입니다. user-setting-large-text가 적용되면(body에 이 클래스명을 명시적으로 추가했을 때 또는 JavaScript가 body에 이 클래스명을 추가했을 때), body의 font-size 값은 1.5em이 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또 다른 상속 예제를 살펴보겠습니다. 경고 상자의 UI를 예로 들어 보겠습니다. 종종 특정 요소들의 UI가 부모 요소의 값을 상속하거나 해당 값에 대한 계산을 수행하도록 원할 때가 많습니다. 아래 예제를 참고해주세요:
 
@@ -1407,7 +2127,18 @@ $alert-info-color: green;
 
 ![이미지](/assets/img/IllustratedCSSCSSCustomProperties_28.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Scope: Global vs. Local
 
@@ -1426,7 +2157,18 @@ $globalVar : 10px; // 전역 변수
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SCSS에서는 변수의 범위가 코드 구조에 완전히 의존한다는 것을 의미합니다. 그러나 CSS 사용자 지정 속성은 다른 CSS 속성과 마찬가지로 상속 속성을 가지고 있습니다.
 
@@ -1444,7 +2186,18 @@ SCSS에서는 변수의 범위가 코드 구조에 완전히 의존한다는 것
 </div>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS 스타일은 다음과 같습니다:
 
@@ -1472,7 +2225,18 @@ CSS 스타일은 다음과 같습니다:
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 CSS에서는 --closureVar의 값이 변경됨에 따라 font-size의 값이 다시 계산됩니다:
 
@@ -1488,7 +2252,18 @@ CSS 스타일은 다음과 같습니다:
 
 # CSS 프로세서는 DOM 구조를 인식하지 못합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 Markdown 형식으로 변경하세요.
 
@@ -1518,7 +2293,18 @@ CSS 사용자 정의 속성을 사용합니다.
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 번째 HTML 플레인은 기본 클래스 이름에 추가로 하이라이트된 클래스 이름을 사용하므로, 하이라이트된 속성이 이 요소에 적용됩니다. 이 예에서는 --highlightened-size: 30px가 적용되며, font-size에 --highlightened-size가 사용됩니다.
 
@@ -1543,7 +2329,18 @@ CSS 사용자 정의 속성을 사용합니다.
 
 실제로, $default-size는 두 요소 모두에 사용되고, $highlightened-size은 영향을주지 않습니다. 이는 SCSS의 계산 및 처리가 컴파일 시간에 발생하므로, DOM 구조에 대해 아무것도 알 수 없고 코드 구조에 완전히 의존하기 때문입니다. CSS 사용자 정의 속성은 다르며, DOM 구조와 관련된 포함 범위와 캐스케이딩 CSS 속성을 갖습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 기본 및 논리 연산
 
@@ -1558,7 +2355,18 @@ CSS 프로세서에는 기본 연산과 논리 연산이 있으며, 이는 다�
 
 CSS 프로세서의 @if 및 @else 기능은 코드에서 조건 판단 연산을 수행하는 데 도움이 될 수 있습니다. 그러나 CSS 사용자 정의 속성에는 @if 및 @else와 같은 기능이 없습니다. 그러나 calc() 함수를 이용하여 CSS 사용자 정의 속성의 관련 기능을 사용하여 if... else 와 유사한 조건 판단 기능을 구현할 수 있습니다. 가정해보자면, 사용자 정의 속성 --i가 있을 때:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - --i의 값이 1인 경우 참(즉, 열림)
 - --i의 값이 0인 경우 거짓(즉, 닫힘)
@@ -1570,7 +2378,18 @@ CSS 프로세서의 @if 및 @else 기능은 코드에서 조건 판단 연산을
 
 다음과 같이 코드를 작성할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 :root {
@@ -1605,7 +2424,18 @@ Or:
 
 The whole effect is as follows:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![IllustratedCSSCSSCustomProperties_29](/assets/img/IllustratedCSSCSSCustomProperties_29.png)
 
@@ -1616,7 +2446,18 @@ The whole effect is as follows:
 
 위에서 언급한 기능 외에도 일부 프로세서(SCSS와 같은)는 코드 처리를 더 잘하고 더 강력한 기능을 제공할 수 있도록 도와주는 일부 함수 기능을 갖고 있습니다. CSS 사용자 지정 속성의 경우 CSS 함수 기능을 사용하여 더 강력한 작업을 수행할 수도 있습니다. 예를 들어, 이전 예시에서 color-mod() 함수 모습을 보았습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .alert button {
@@ -1630,7 +2471,18 @@ The whole effect is as follows:
 
 # CSS에서 첫 번째 변수 currentColor
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS 사용자 지정 속성 범위에 대해 이야기하기 전에 CSS의 또 다른 변수 currentColor 에 대해 이야기해 봅시다.
 
@@ -1640,7 +2492,18 @@ border-color , background-color , box-shadow , text-shadow , outline 및 CSS 그
 
 currentColor 의 도움을 받아 색상 계층을 더 잘 확장할 수 있습니다. 다시 말해, color 값이 변경되면 currentColor 를 사용하는 색 속성도 변경됩니다. 예를 들면:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/IllustratedCSSCSSCustomProperties_30.png)
 
@@ -1650,7 +2513,18 @@ currentColor 의 도움을 받아 색상 계층을 더 잘 확장할 수 있습�
 
 실제로 위 그림의 효과를 달성하는 것은 어렵지 않습니다. 더 어려운 것은 코드양을 최소화하고 가장 간단한 방법으로 그 효과를 달성하는 것이며, 동시에 스킨을 벗겨야 한다는 요구사항이 있습니다. 위 그림의 효과를 얻기 위해 사용하는 DOM 구조를 가정하면 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <!-- HTML -->
@@ -1676,7 +2550,18 @@ h3 {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 최종 결과가 예상한 대로 나오지 않았나요?
 
@@ -1686,7 +2571,18 @@ h3 {
 
 body에 color 속성의 값은 명시적으로 red로 설정되어 있지만, border-color 속성의 값은 명시적으로 설정되지 않았습니다. CSS의 규칙은 CSS 속성 값이 명시적으로 설정되지 않은 경우 초기 값(기본 값)이 사용된다는 것입니다. border-color의 기본 값은 currentColor입니다. 이 예제의 맥락을 기반으로 currentColor 값이 red임으로 상속되는 예상 값 또한 red입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼 상속되는 값이 빨간색이 아닌 건가요? 그 이유는 h3에 대한 color 값을 CSS에서 #000으로 명시적으로 설정했기 때문입니다. 그리고 border-color의 상속된 값은 currentColor 입니다. currentColor 값은 color 값과 밀접한 관련이 있어서 최종적으로 렌더링된 테두리 색상은 #000이 됩니다. 이 문제를 해결하는 방법은 매우 간단합니다. body의 border-color 값을 명시적으로 빨간색으로 설정해주면 됩니다:
 
@@ -1707,7 +2603,18 @@ h3 {
 
 <img src="/assets/img/IllustratedCSSCSSCustomProperties_33.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 원하는 효과를 얻기 위해 currentColor를 사용하고 있지만, CSS 사용자 정의 속성을 표시하는 방법은 CSS 사용자 정의 속성을 사용하여이 효과를 처리하는 것이 더 쉽고 유지 관리하기 쉬울 것입니다:
 
@@ -1729,7 +2636,18 @@ h3 {
 
 currentColor와 CSS 사용자 정의 속성 간의 주요 차이점은:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # CSS에서 Scope
 
@@ -1743,7 +2661,18 @@ p {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 코드는 문서 전체의 모든 p 요소의 색상 값을 빨간색으로 만듭니다. 그러나 종종 서로 다른 위치의 서로 다른 p 요소에 대해 서로 다른 색상 값을 설정하는 것이 좋을 때가 많습니다. 이때 다음과 같이 p 요소 앞에 다른 요소, 클래스 이름 또는 ID를 추가할 수 있습니다:
 
@@ -1771,7 +2700,18 @@ div p {
 
 또한, p 요소 앞에 모듈(범위)을 추가하더라도 문서 구조의 제약사항뿐만 아니라 CSS 셀렉터 가중치의 제약사항도 있습니다. 아래 예시를 살펴봅니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <!-- HTML -->
@@ -1808,7 +2748,18 @@ p {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 시점에서 위 예제의 p 요소의 텍스트 색상은 녹색이 될 것입니다. 이것은 헤드 CSS 선택자 문제로, 범위 문제라고도 합니다.
 
@@ -1818,7 +2769,18 @@ p {
 
 # CSS 사용자 지정 속성의 범위
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS 사용자 정의 속성(또는 CSS 변수로도 알려짐)은 이미 범위가 지정되어 있습니다. 사용자 정의 속성 값은 특정 요소 및 해당 하위 항목에 재정의할 수 있습니다.
 
@@ -1840,7 +2802,18 @@ function enclosing() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 폐쇄 ()는 외부 (폐쇄) 함수 범위의 변수에 액세스합니다. 폐쇄는 세 가지 범위가 있으며 그 액세스는 다음과 같습니다:
 
@@ -1852,7 +2825,18 @@ function enclosing() {
 
 SCSS와 JavaScript는 약간 유사합니다. 어떤 선택자나 생성자(예: mixin macro @mixin )에서 선언된 변수는 전역 변수이고, 그렇지 않으면 지역 변수입니다. 그리고 중첩된 코드 블록은 폐쇄된 내부의 변수에 액세스할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 $globalVar: 10px; // 전역 변수
@@ -1885,7 +2869,18 @@ p {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/IllustratedCSSCSSCustomProperties_36.png" />
 
@@ -1906,7 +2901,18 @@ html {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/IllustratedCSSCSSCustomProperties_37.png" />
 
@@ -1918,7 +2924,18 @@ html {
 
 따라서 전역 CSS 사용자 지정 속성을 선언하려면 가장 좋은 방법은 :root 선택기에 선언하는 것입니다. 이것이 또한 사람들이 HTML 요소에 전역 CSS 사용자 정의 속성을 선언하는 대신 :root에 사용자 정의 속성을 선언하는 이유입니다. 또한 :root에서 CSS 사용자 정의 속성을 선언하면 문서에 사용되는 스타일된 선택기와 나중에 사용할 CSS 사용자 정의 속성을 분리하는 데도 도움이 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 경우에 모든 사용자 지정 속성은 :root 에 선언되어야 할까요? 이 질문에 대답하기 전에 SCSS에서 변수가 선언되는 방법으로 돌아가 봅시다. SCSS에서 모든 블록 외부(어떤 선택기 외부에서 선언된 변수)에 선언된 변수는 어디에서든 사용할 수 있는 전역 변수입니다. 이것은 당신이 무엇을 하려는지 명확하게 해주기 때문에 유용합니다.
 
@@ -1965,7 +2982,18 @@ html {
 
 :root 에 모든 CSS 사용자 지정 속성을 선언함으로써 CSS 사용자 지정 속성을 쉽게 관리하고 어디에서 사용되는지 파악할 수 있습니다. 그렇다면, 왜 네비게이션 바, 헤더 및 버튼과 관련된 CSS 사용자 지정 속성을 :root 에 선언해야 할까요? 내가 이해한 바로는, 이들은 로컬적이어야 하고 전역적으로 사용되지 않아야 합니다. 전역 속성이 아니기 때문에 왜 명시적으로 :root 에 선언해야 할까요? 이것은 CSS 사용자 지정 속성의 지역 범위가 작용해야 하는 곳입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![CSS Custom Properties Example](/assets/img/IllustratedCSSCSSCustomProperties_38.png)
 
@@ -1983,7 +3011,18 @@ CSS 사용자 지정 속성을 사용할 때, 대문자와 소문자를 구분�
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS 사용자 정의 속성을 사용하면 var() 함수로 변수를 사용할 때 감쇠 값 제공이 가능합니다. 따라서 실제 사용 시 전역 범위의 CSS 사용자 정의 속성을 직접 덮어쓰는 것을 피해야 합니다. 이렇게 함으로써 전역 범위의 CSS 사용자 정의 속성과 해당 값 사이를 최대한 분리하는 것이 목적입니다. 이 요구 사항을 충족하기 위해 감쇠 값은 이를 달성하는 데 사용될 수 있습니다. 예를 들어:
 
@@ -2002,7 +3041,18 @@ body {
 
 # CSS 사용자 정의 속성 적용 시나리오
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오늘날 CSS는 대표적인 브라우저에서 지원을 받고 있습니다. 게다가 CSS 커스텀 프로퍼티를 통해 우리는 CSS를 작성하고 생각하는 방식을 변경할 수 있습니다. CSS 커스텀 프로퍼티는 다양한 시나리오에서 사용할 수 있습니다. CSS 커스텀 프로퍼티를 사용하면 유연성을 제공할 뿐만 아니라 CSS 코드를 더 잘 유지할 수 있게 해줍니다.
 
@@ -2012,7 +3062,18 @@ CSS 커스텀 프로퍼티를 사용하는 몇 가지 예시를 들어보겠습�
 
 CSS에는 rgb, rgba, hsl, hsla 등 다양한 색상 모드가 있습니다. 때로는 JavaScript를 사용하여 CSS 색상을 조작합니다. CSS 커스텀 프로퍼티가 등장한 이후에는 CSS 커스텀 프로퍼티를 사용하여 색상을 수정할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 :root {
@@ -2030,7 +3091,18 @@ CSS에는 rgb, rgba, hsl, hsla 등 다양한 색상 모드가 있습니다. 때�
 
 CSS 사용자 정의 속성을 사용하면 더 복잡한 테마 전환 효과도 달성할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # CSS 사용자 정의 속성으로 스트리밍 레이아웃 제어하기
 
@@ -2042,7 +3114,18 @@ CSS 사용자 정의 속성을 사용하면 더 복잡한 테마 전환 효과�
 
 보통은 vw 창 단위와 calc() 함수를 사용하여 폰트 크기나 패딩을 계산합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![CSS Custom Properties](/assets/img/IllustratedCSSCSSCustomProperties_39.png)
 
@@ -2052,7 +3135,18 @@ CSS 사용자 정의 속성을 사용하면 더 복잡한 테마 전환 효과�
 
 간단히 말해, CSS 커스텀 속성을 사용하여 웹 디자인에 API와 같은 인터페이스를 제공하는 방법은 사용자들이 웹 컴포넌트를 더 잘 활용하고 구성 요소의 UI 스타일을 더 유연하게 확장하고 재정의할 수 있도록합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 웹 애니메이션에서 CSS 사용자 지정 속성의 적용
 
@@ -2062,7 +3156,18 @@ SVG 동적 그래픽과도 유연하게 결합하여 일부 마이크로 동적 
 
 마우스나 제스처를 함께 결합하여 반응형 동적 그래픽도 구현할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 다른 데모
 
@@ -2072,7 +3177,18 @@ Codepen에는 많은 CSS 사용자 정의 속성에 관한 데모가 있어요. 
 
 # 요약
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사에서는 CSS 사용자 지정 속성과 관련된 지식에 대해 오랜 시간을 함께 논의해 왔어요. 지금까지 대부분의 브라우저가 CSS 사용자 지정 속성을 잘 지원하고 있어, 우리는 담대하게 그것을 사용할 수 있어요. 호환성 문제에 대해 걱정된다면, PostCSS 관련 플러그인(postcss-custom-properties)을 사용하여 CSS 사용자 지정 속성을 하위 버전으로 변환하는 방법도 고려해 볼 수 있어요.
 

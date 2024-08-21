@@ -3,16 +3,13 @@ title: "2024년 Nodejs와 TypeScript로 API 구축하는 방법 Expressjs 실전
 description: ""
 coverImage: "/assets/img/2024-06-23-ExpressjsinActionHowtoBuildanAPIwithNodejsandTypeScriptin2024_0.png"
 date: 2024-06-23 13:57
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-ExpressjsinActionHowtoBuildanAPIwithNodejsandTypeScriptin2024_0.png
 tag: Tech
 originalTitle: "Express.js in Action: How to Build an API with Node.js and TypeScript in 2024"
 link: "https://medium.com/@mahmoud-kassem/how-to-build-an-api-with-node-js-express-and-typescript-2024-extended-part-1-6-f65df183dbc5"
 isUpdated: true
 ---
-
-
-
 
 ![Express.js in Action: How to Build an API with Node.js and TypeScript in 2024](/assets/img/2024-06-23-ExpressjsinActionHowtoBuildanAPIwithNodejsandTypeScriptin2024_0.png)
 
@@ -28,27 +25,49 @@ isUpdated: true
 - CORS 활성화 및 기본 인증을 통해 API 보호
 - 유효성 검사 및 예외 처리
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 프로젝트 구조
 
 우리의 프로젝트 구조는 간단하면서도 확장 가능한 구조로, 잘 조직된 코드를 쉽게 확장하고 유지보수할 수 있게 해줍니다. 불필요한 복잡성을 피하며 모든 것을 간단하게 유지합니다.
 
 ```js
--- src
-   -- controllers
-   -- models
-   -- utils
-      -- helpers
-      -- middlewares
-      -- validations
-      -- exceptions
-   -- app.ts
+--src;
+--controllers;
+--models;
+--utils;
+--helpers;
+--middlewares;
+--validations;
+--exceptions;
+--app.ts;
 ```
 
 # 프로젝트 초기화 및 TypeScript 설정하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시작하려면 node 및 npm이 이미 설치되어 있어야합니다. 이 튜토리얼에서는 node v20.11.0 (npm v10.2.4)를 사용할 것입니다. 또한 IDE로 Visual Studio Code를 사용할 것입니다.
 
@@ -62,7 +81,18 @@ isUpdated: true
 code .
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 Ctrl + `를 사용하여 vscode 통합 터미널을 엽니다. 이렇게 하면 기본 터미널이 열릴 것입니다.
 
@@ -72,7 +102,18 @@ code .
 
 # 프로젝트 초기화하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 프로젝트 폴더에서 다음 명령어를 사용하여 빈 Node.js 프로젝트를 초기화해보겠습니다. 진행하시기 전에 프로젝트 디렉토리에 있는지 확인해주세요:
 
@@ -84,17 +125,28 @@ npm init
 
 ```js
 package name: (api-ts) node-api-ts
-version: (1.0.0) 
+version: (1.0.0)
 description: API with Node.js and TypeScript
 entry point: (index.js) build/app.js
-test command: 
-git repository: 
+test command:
+git repository:
 keywords: node.js,express,api,typescript
 author: Mahmoud Kassem
-license: (ISC) 
+license: (ISC)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트 폴더를 확인해보세요. 아마 이와 유사한 내용을 찾을 수 있을 거에요:
 
@@ -122,7 +174,18 @@ license: (ISC)
 
 무언가를 시작하기 전에 먼저 사용할 종속성(dependancies) 및 개발 종속성(devDependancies)을 나열하고 각각의 사용 목적을 설명해봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 의존성(dependencies):
 
@@ -137,7 +200,18 @@ license: (ISC)
 - typescript: 코드를 빌드하여 JavaScript로 변환하는 데 사용
 - types (@types/express, @types/helmet, @types/morgan, @types/dotenv): 자바스크립트 생태계의 일부 패키지는 자체 유형 정의를 제공하지 않아 TypeScript 개발자가 사용하기 어렵게 만들 수 있습니다. 다행히 이러한 패키지를 위한 유형 정의를 제공하는 @types 선언 패키지가 있습니다. 예를 들어, @types/express, @types/helmet, @types/morgan 및 @types/dotenv는 각각 express, helmet, morgan 및 dotenv에 대한 유형 정의를 제공하는 선언 패키지입니다. 이러한 선언 패키지를 devDependencies로 설치하고 TypeScript 코드에서 가져와서 해당 패키지에 대한 유형 검사와 코드 완성을 활성화할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 명령어를 사용하여 종속성을 먼저 설치하세요 — 여러 개의 패키지를 설치할 때는 각 패키지 이름 사이에 공백을 사용하면 됩니다:
 
@@ -151,7 +225,18 @@ npm install express cors dotenv helmet morgan
 npm install --save-dev typescript @types/express @types/cors @types/dotenv @types/helmet @types/morgan
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 패키지.json 파일을 확인했다면, 설치된 패키지와 그 버전이 업데이트되었음을 알 수 있습니다. 또한 프로젝트에 node_modules와 package-lock.json이 추가된 것을 발견하게 될 거에요.
 
@@ -161,7 +246,18 @@ package-lock.json은 노드 패키지 매니저(npm)에 의해 자동으로 생�
 
 ## TypeScript 구성하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Node.js는 JavaScript의 런타임으로, 개발자들이 확장 가능하고 효율적인 웹 애플리케이션을 만들 수 있게 합니다. TypeScript는 JavaScript의 슈퍼셋으로, 정적 유형 지정, 객체 지향 프로그래밍, 데코레이터 등의 기능을 추가합니다. 그러나 TypeScript 코드는 Node.js에서 직접 실행되지 않고 먼저 JavaScript로 컴파일해야 합니다.
 
@@ -173,7 +269,18 @@ npx tsc --init
 
 이전 명령은 다음 내용을 출력할 것입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 다음은 TypeScript의 기본 구성이지만 변경할 수 있습니다. tsconfig.json이라는 새 파일이 생성된 것을 알 수 있을 거에요.
@@ -183,7 +290,18 @@ npx tsc --init
 rootDir 주석 처리를 해제하고 값을 ./src로 변경해주세요.
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 {
@@ -205,7 +323,18 @@ outDir를 주석 처리해제하고 값으로 ./build를 변경하세요.
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 코드는 transpiled TypeScript의 기본 출력 디렉터리를 변경합니다.
 
@@ -215,15 +344,26 @@ outDir를 주석 처리해제하고 값으로 ./build를 변경하세요.
 
 이제 코드를 작성해 보겠습니다. 전체 프로젝트의 첫 번째 파일 및 주 파일을 만들어 보겠습니다. npm을 사용하여 노드 프로젝트를 초기화하고 일치하는 엔트리 포인트를 build/app.js로 선택했던 것을 기억하십니까?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 .ts 파일을 생성하여 이 파일로 컴파일될 것입니다. 그래서 먼저 해야 할 일은 소스 폴더를 생성하는 것입니다. src 폴더를 루트 디렉토리로 설정한 다음, ./src/app.ts 라는 새 파일을 만들어야 합니다. 그 안에 다음과 같은 코드를 작성해 봅시다.
 
 ```js
-import express from 'express';
-import cors from 'cors';
-import helmet from 'helmet';
-import morgan from 'morgan';
+import express from "express";
+import cors from "cors";
+import helmet from "helmet";
+import morgan from "morgan";
 
 // Express 서버 생성
 const app = express(); // 새 express 인스턴스
@@ -232,7 +372,7 @@ const port = 3000; // 포트 번호
 // Express 설정
 app.use(cors()); // CORS 활성화
 app.use(helmet()); // Helmet 활성화
-app.use(morgan('dev')); // Morgan 활성화
+app.use(morgan("dev")); // Morgan 활성화
 
 // Express 서버 시작
 app.listen(port, () => {
@@ -248,7 +388,18 @@ export default app;
 
 이제 다음 명령어를 실행하여 응용 프로그램을 시작할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npx tsc && node .
@@ -262,7 +413,18 @@ npx tsc && node .
 
 이것은 서버가 성공적으로 시작되었음을 보여주는 콜백 함수의 텍스트입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 첫 번째 라우트 생성하기
 
@@ -272,12 +434,23 @@ npx tsc && node .
 
 Start Express Server 코드 블록 앞에 다음 코드를 추가하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // Express 라우트 정의
-app.get('/', (req, res) => {
-  res.send('Hello World!');
+app.get("/", (req, res) => {
+  res.send("Hello World!");
 });
 ```
 
@@ -287,8 +460,18 @@ app.get('/', (req, res) => {
 
 ![이미지](/assets/img/2024-06-23-ExpressjsinActionHowtoBuildanAPIwithNodejsandTypeScriptin2024_2.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 잘 하셨습니다! 첫 번째 라우트를 만드셨네요.
 

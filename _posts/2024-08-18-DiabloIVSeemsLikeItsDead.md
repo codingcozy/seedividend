@@ -3,7 +3,7 @@ title: "Diablo IV 현재 개발 상황"
 description: ""
 coverImage: "/assets/img/2024-08-18-DiabloIVSeemsLikeItsDead_0.png"
 date: 2024-08-18 11:26
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-18-DiabloIVSeemsLikeItsDead_0.png
 tag: Tech
 originalTitle: "Diablo IV Seems Like Its Dead"
@@ -11,7 +11,6 @@ link: "https://medium.com/@xander51/diablo-iv-seems-like-its-dead-777b35adc794"
 isUpdated: true
 updatedAt: 1724032680099
 ---
-
 
 ![Diablo IV](/assets/img/2024-08-18-DiabloIVSeemsLikeItsDead_0.png)
 
@@ -21,7 +20,18 @@ updatedAt: 1724032680099
 
 온라인 스트리밍 시청자 수도 비슷한 하락세를 보이고 있어요. 트위치에서 600명의 시청자를 모으는 것도 어려운데, 출시 당시처럼 수만 명씩의 시청자들이 몰려드는 일은 거의 없어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 플레이어 이탈은 일반적인 현상이고 큰 게임에서도 발생하지만, 계속되는 라이브 서비스로 예상되는 곳에서 그렇게 급격하게 일어나는 것은 보통 아니에요... 특히, 역사상 가장 인기 있는 시리즈 중 하나의 다음 게임에서는 더더욱 그렇지 않아야 하는데요.
 
@@ -31,7 +41,18 @@ updatedAt: 1724032680099
 
 Diablo는 일반적으로 무작위 레벨 생성을 활용하여 수백 번의 플레이를 즐겁게 만들어 왔죠. 던전과 세계에서 무엇을 기대해야 하는지 정확히 알 수 없으며, 매번 지도의 작은 변경사항이 계속 바뀌어 나가는 것은 똑같은 일을 반복하는 지루함으로부터 벗어나는 데 도움이 돼 왔어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Diablo IV는 대부분의 땅이 거대하고 정교하게 제작된 개별 맵으로 이루어진 랜덤 월드에서 크게 벗어났습니다. 이 맵은 탐험할 몇 십 개의 지역과 일반적인 상인 및 서비스를 제공하는 몇몇 대규모 정착지로 구성되어 있습니다.
 
@@ -41,8 +62,18 @@ Diablo IV는 대부분의 땅이 거대하고 정교하게 제작된 개별 맵�
 
 던전들도 별로 좋지 않습니다. 공개된 세계보다는 조금 더 무작위성이 있는데, 그 설계도 마찬가지로 좋지 않습니다. 각 던전은 완료할 핵심 퀘스트를 제공하지만, 전반적으로 이 테이블은 매우 작기 때문에 거의 즉시 반복될 것입니다. 또한, 이들은 모두 단순한 "모두를 처치하거나" 또는 "문을 열기 위한 열쇠 찾기"의 변형에 불과하며, 게임 마케팅이 약속한 것처럼 던전이 복잡하고 흥미로운 디자인 진보는 찾아볼 수 없습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Screenshot](/assets/img/2024-08-18-DiabloIVSeemsLikeItsDead_1.png)
 
@@ -52,9 +83,18 @@ Diablo IV는 대부분의 땅이 거대하고 정교하게 제작된 개별 맵�
 
 Diablo IV의 세계는 이 시리즈 역사상 가장 잊을 수 없는 배경 소음 중 하나이며, 비디오 게임에서 본 가장 실망스러운 오픈 월드 중 하나입니다. 처음 플레이 스루를 끝내고 말을 얻어 처음으로 약간 빨리 통과할 수 있게 되었을 때, 더 탐험할 수 있는 초대가 아닌 안심이었습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Diablo IV](/assets/img/2024-08-18-DiabloIVSeemsLikeItsDead_2.png)
 
@@ -64,8 +104,18 @@ Diablo IV는 모든 Diablo 게임 중 가장 오래 걸리는 그라인드를 �
 
 게임은 실마리를 찾아 100의 어려운 레벨 캡까지 오르는 동안 정말 느리게 진행됩니다. 그것은 숨 막히는 정도로 재미가 없습니다. 당신이 파워 레벨을 높이면서 등반할수록, 메커니즘 뒤에 숨어있는 수학도 파괴됩니다. 저항 시스템은 아직도 거의 완전히 고장이 나 있는데, 이는 숫자가 높은 파워 레벨에 도달함에 따라 적절하게 확장되지 않기 때문에 높은 레벨 플레이어가 정기적으로 대규모 제어 및 원소 능력에 빠지는 것이 거의 불가능해집니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 문제는 게임의 모든 시스템에 영향을 미칩니다. 블리자드는 디아블로 III의 대미지 수치가 급증하는 것을 피하기 위해 무기 스탯이 이곳에서 훨씬 점진적으로 조정되도록 노력했습니다. 그러나 그 결과로 무기 업그레이드가 훨씬 단조롭게 느껴지는 단점이 있습니다. 몇 포인트의 대미지 차이가 게임플레이에 실제 영향을 미치는 방식에서 다른 디아블로 게임들에서는 느껴지지 않았던 것이지만, 그것이 단지 표면적으로 이렇다고 재미있는 것은 아닙니다.
 
@@ -75,7 +125,18 @@ Diablo IV는 모든 Diablo 게임 중 가장 오래 걸리는 그라인드를 �
 
 엔드게임은 정말 지루해서 수개월 전에 고레벨 캐릭터 플레이를 그만두었습니다. 대신 다른 빌드를 실험해보기 위해 하드코어 캐릭터를 만들고 있습니다. 이로써 클래스 간의 균형 문제가 드러납니다. 게임을 잘하는 캐릭터들도 있고, 그들 중 일부는 심지어 스킬 트리의 특정 분기에 특정한 이점을 가지고 있어 진정한 빌드 다양성을 가지기 어려울 정도입니다. 소서러는 화염 주문을 통한 매우 느린 지속 대미지 대신 번개와 추위 사용 시 대미지를 증가시키는 밸런스를 가지고 있으며— 드루이드는 여전히 게임에서 가장 느리고 가장 적은 대미지를 주는 클래스입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 이 느린, 재미없는 고난 속에서, 블리자드가 두 가지 큰 실수를 저질렀어. 그들은 유명해진 버프 패치를 내놓았는데, 게임을 더 늦추는 결과를 가져왔고, 잘못된 첫 번째 시즌을 출시했어. 그 후, 그들은 그 끔찍한 패치로 인해 생긴 통계적 피해를 되돌리려고 노력했지만, 커뮤니티에 입힌 피해는 여전해. 첫 번째 시즌의 플레이어 수가 너무 낮아, 블리자드는 너무 일찍 시즌 2를 공지했어. 시즌 1과 같은 다른 기계 요소를 가진 미니 서브 스토리일 것으로 보여. 하지만 이 정도면 자체적인 게임을 구원할만한 것은 아닌 것 같아.
 
@@ -85,7 +146,18 @@ Diablo IV는 모든 Diablo 게임 중 가장 오래 걸리는 그라인드를 �
 
 나는 어리석게도 Diablo IV의 디럭스 버전을 샀어, 이 버전에는 "무료로" 제공된 첫 유료 배틀 패스가 포함되어 있었는데, "무료"라는 말은 사실 나에게 미리 지불하게 했다는 뜻이야.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 거의 90개의 언락 티어 중 거의 절반을 통과했어요. 이제 다시는 이렇게 하고 싶지 않아요. 이전에 배틀 패스는 산업과 아이들이 룻박스와 같은 도박적인 성향을 받아들이지 않을 수 있는 좋은 방법이라고 생각했었는데, 실제로는 그렇게 비관적이고 짜증나요.
 
@@ -95,11 +167,22 @@ Diablo IV는 모든 Diablo 게임 중 가장 오래 걸리는 그라인드를 �
 
 플레이어가 정기적으로 발표된 배틀 패스 콘텐츠를 천천히 끝내도록 게임을 설계해야 할 때, 게임이 어떻게 재미있게 만들 수 있을지 거의 불가능해요. 이 두 가지가 결코 교차되지 않아요. 발드의 게이트 III와 스타필드 같은 게임들은 여전히 대단한 고객 요구를 충족시키지만, 이러한 유형의 게임에서 유료화에 관한 구속에서 벗어나 있다는 것을 보여줘요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Fast Diablo은 재미있어요. 나에게 매달 다른 요금을 내도록 요구하는 느린 Diablo는 악몽입니다.
 
-이 게임은 즐겨 찾는 프랜차이즈를 가져와 "현대적인" 비즈니스 결정으로 가득 채우는 나쁜 신의 행사입니다. Diablo III는 실제 돈을 쓰도록 플레이어들을 유도하기 위해 만들어졌을 떄 출시 당시 비슷한 문제들을 겪었고, 그걸 해결하기 위해서는 두 년과 새로운 디자인 팀이 필요했어요 - 그러니까 아마 이 게임에서도 비슷한 일이 일어날지도 모르겠네요. 
+이 게임은 즐겨 찾는 프랜차이즈를 가져와 "현대적인" 비즈니스 결정으로 가득 채우는 나쁜 신의 행사입니다. Diablo III는 실제 돈을 쓰도록 플레이어들을 유도하기 위해 만들어졌을 떄 출시 당시 비슷한 문제들을 겪었고, 그걸 해결하기 위해서는 두 년과 새로운 디자인 팀이 필요했어요 - 그러니까 아마 이 게임에서도 비슷한 일이 일어날지도 모르겠네요.
 
 하지만 그래도, 게임이 유령 도시가 되어 있고 새로운 시즌들이 특별한 스토리들 덕분에 이상한 리소스를 소모하고 있기 때문에, 블리자드가 조용히 이 게임을 포기할 수도 있을거라고 생각해요. 이 게임이 프랜차이즈를 죽일 만큼 나쁘지는 않지만, Diablo V는 완전히 다른 사람들에 의해 만들어져야 할 큰 징후라고 생각해요.
 

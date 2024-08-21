@@ -3,17 +3,13 @@ title: "Flexbox CSS 마스터하기 - 현업에서 자주 사용하는 Flexbox �
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Mastering Flexbox CSS A Comprehensive Guide to Flexbox Basics"
 link: "https://medium.com/@paddyuiux/mastering-responsive-web-design-with-flexbox-css-f27190c86bdc"
 isUpdated: true
 ---
-
-
-
-
 
 ![Flexbox](/assets/img/Mastering-Flexbox-CSS-:-A-Comprehensive-Guide-to-Flexbox-Basics_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # Flexbox 기본 개념 이해
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 플렉스박스는 공간을 효율적으로 분배하고 항목을 정렬하는 더 효율적인 방법을 제공하기 위해 설계되었습니다. 이는 해당 항목의 크기나 내용에 관계없이 컨테이너 내에서 항목을 정렬합니다. 플렉스박스의 핵심은 두 가지 구성 요소인 플렉스 컨테이너와 플렉스 아이템을 중심으로 돌아갑니다.
 
@@ -37,7 +44,18 @@ isUpdated: true
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 플렉스 아이템
 
@@ -57,7 +75,18 @@ isUpdated: true
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Flexbox 속성
 
@@ -67,7 +96,18 @@ Flexbox는 컨테이너 내의 플렉스 아이템의 레이아웃 및 정렬을
 
 flex-direction 속성은 플렉스 컨테이너 내에서 주축의 방향을 정의합니다. 플렉스 아이템이 행(기본값), 열 또는 반대 순서로 배치되는지를 지정할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .container {
@@ -87,7 +127,18 @@ justify-content 속성은 flex 컨테이너의 주축을 따라 flex 항목을 �
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 3- align-items
 
@@ -102,7 +153,18 @@ align-items 속성은 플렉스 컨테이너의 교차 축을 따라 플렉스 �
 
 ## 4- flex-wrap
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 마크다운 형식으로 변경하세요.
 
@@ -119,7 +181,18 @@ The flex-wrap 속성은 flex 아이템이 컨테이너를 넘어갈 경우 여�
 
 이 속성들은 flex 아이템이 성장하거나 축소하고, flex 컨테이너 내에서 공간을 분배하는 방식을 제어합니다. 이러한 속성을 조정하여 개별 flex 아이템의 유연성을 제어할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .item {
@@ -137,7 +210,18 @@ align-self 속성은 각각의 플렉스 아이템에 대해 align-items로 설�
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 7- 순서
 
@@ -151,6 +235,17 @@ order 속성은 플렉스 아이템이 컨테이너 내에서 나타나는 순�
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 유연하고 직관적인 Flexbox CSS는 다양한 화면 크기와 디바이스에 매끄럽게 적응하는 반응형 레이아웃을 생성하는 데 유용합니다. Flexbox의 기본 원리를 습득하고 각 속성이 어떻게 작용하는지 이해함으로써, 현대적인 웹 인터페이스를 디자인하는 데 다양한 가능성을 확보할 수 있습니다. 단순한 내비게이션 메뉴부터 복잡한 그리드 레이아웃까지 만들 때, Flexbox는 효율적이고 효과적으로 디자인 목표를 달성할 수 있는 도구를 제공합니다. 연습과 실험을 통해, Flexbox를 활용하여 다양한 플랫폼에서 사용자들을 기쁘게 할만한 멋진 반응형 웹 경험을 만들어낼 수 있습니다.

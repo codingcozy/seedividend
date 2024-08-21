@@ -3,17 +3,13 @@ title: "Mantine를 컴포넌트 라이브러리로 선택한 이유"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Why I Chose Mantine as My Component Library"
 link: "https://javascript.plainenglish.io/why-i-chose-mantine-as-my-component-library-ca1da2c56a3a"
 isUpdated: true
 ---
-
-
-
-
 
 ## 다양한 라이브러리를 시도해 보고 하나에만 고수하는 것도 중요하다고 생각해요.
 
@@ -26,7 +22,18 @@ isUpdated: true
 - 어떤 패키지 매니저를 사용할까요?
 - 저희의 워크플로우는 무엇일까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다행히도, 프론트엔드 세계의 커뮤니티는 훌륭하고 충분한 정보와 훌륭한 도구가 있어서 잘 서비스할 도구들을 선택하는 것이 너무 복잡하지는 않습니다.
 
@@ -36,7 +43,18 @@ isUpdated: true
 
 ## 서로 사용 가능했던 컴포넌트 라이브러리
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 결정을 내리기로 했을 때, 후보 목록을 좁히는 시간이었어요. 몇 년 동안 여러 컴포넌트 라이브러리를 사용해 왔기 때문에, 다음은 내가 선정한 목록입니다:
 
@@ -51,7 +69,18 @@ isUpdated: true
 
 ## 나의 결정 과정
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시작해보겠습니다.
 
@@ -61,7 +90,18 @@ isUpdated: true
 
 그와는 반대로, 초보 개발자나 빠르고 더러운 UI를 조립하고 싶은 백엔드 개발자들에게는 필수 라이브러리인 것 같아요. 이것도 흥미롭게 생각해요. 다른 라이브러리들보다 사용이 더 쉽거나 더 멋있어 보이는 것은 아닌데, 여전히 많은 상황에서 기본 선택처럼 보이죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 부트스트랩(현재 기준)은 5버전을 사용하고 있어요. 문서를 확인하면 다양한 컴포넌트와 맞춤 설정 옵션들이 많이 있어요.
 
@@ -71,7 +111,18 @@ isUpdated: true
 
 HeadlessUI의 경우 두 가지 이유로 빨리 배제했어요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 저는 이를 사용해 본 적이 없었고, 개별 구성 요소의 스타일링과 조정에 너무 많은 시간을 쓰게 될 것 같았습니다. 필요한 기능을 빠르게 구현하는 대신에.
 - 당신은 TailwindCSS와 함께 사용해야 합니다. 정적 사이트에서 Tailwind를 좋아하지만, 다시 만들고 있는 동적 사이트에 Tailwind를 사용하는 것은 스타일링과 컴포넌트 라이브러리 구축에 너무 많은 시간이 걸릴 것 같았습니다.
@@ -82,7 +133,18 @@ HeadlessUI의 경우 두 가지 이유로 빨리 배제했어요:
 
 이것은 정말로 저를 흥미롭게 했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 그들의 문서를 정말 좋아해요. 그들이 제공하는 모든 예제들을 정말 좋아해요. 이 예제들 덕분에 개발자가 각 구성 요소를 어떻게 사용해야 하는지 이해하기가 매우 쉬워졌어요. 유용한 많은 구성 요소 목록을 갖고 있죠. 페이징이나 시간 선택기와 같은 컴포넌트들이 프로젝트에서 필요할 것이라는 확신이 들었어요. 현재 버전 5를 사용 중인 성숙한 라이브러리이기도 해요.
 
@@ -93,7 +155,18 @@ HeadlessUI의 경우 두 가지 이유로 빨리 배제했어요:
 
 전체적으로, 이것은 훌륭한 컴포넌트 라이브러리일 것으로 생각되며, 앞으로 제 개인 프로젝트 중 일부에서 활용할 계획이에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Chakra-UI
 
@@ -110,7 +183,18 @@ HeadlessUI의 경우 두 가지 이유로 빨리 배제했어요:
 </InputGroup>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 조금 작은 일이긴 하지만, 오랜 프로젝트에 컴포넌트 라이브러리를 사용하고 많은 작업 시간을 보낼 거라면, 작은 것들이 중요하죠.
 
@@ -120,7 +204,18 @@ HeadlessUI의 경우 두 가지 이유로 빨리 배제했어요:
 
 많은 React 개발자들처럼 과거에 Material UI를 많이 사용해본 적이 있어서 매우 익숙했어요. 이 라이브러리에는 많은 장점이 있습니다. 리소스가 풍부하고 넓은 사용자 베이스를 보유하고 있으며 지속적으로 개발되고 향상되고 있습니다. 신뢰할 수 있고 테스트가 잘 되어 있으며 문서도 아주 잘 되어 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그렇다면 왜 내가 작업 중인 이 큰 프로젝트에 선택하지 않았을까요? 나에게는 몇 가지 이유가 있었습니다:
 
@@ -132,7 +227,18 @@ HeadlessUI의 경우 두 가지 이유로 빨리 배제했어요:
 
 ## Mantine
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 친구가 Mantine을 사용하라고 했어. 나는 Jack Herrington의 훌륭한 YouTube 비디오 중 하나를 볼 때 처음으로 발견했어. Mantine 문서를 확인해봤는데, 문서 레이아웃과 제공되는 컴포넌트의 범위에 감명을 받았어. 거의 매주 새로운 릴리스가 나오며 정기적으로 업데이트되고 있어.
 
@@ -142,7 +248,18 @@ HeadlessUI의 경우 두 가지 이유로 빨리 배제했어요:
 
 1년 정도 이 라이브러리를 사용하고 있는데, 아직도 내 결정에 매우 만족하고 있어. Mantine을 사용하여 개발한 앱들이 정말 멋져 보이고, Mantine에서 제공하는 많은 컴포넌트 중 많은 것들을 사용하고 있어. 분명히 실망시키지 않았어!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -152,7 +269,18 @@ HeadlessUI의 경우 두 가지 이유로 빨리 배제했어요:
 
 # 나에 대해
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 일상적으로 주로 React와 Typescript를 사용하여 프론트엔드 개발을 하는 프론트엔드 개발자입니다. 새로운 도구와 라이브러리를 탐험하고 JavaScript 생태계를 사랑합니다.
 
@@ -162,7 +290,18 @@ HeadlessUI의 경우 두 가지 이유로 빨리 배제했어요:
 
 제 블로그에서 원문을 확인해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 관심 있으시면 제 LinkedIn과 Github를 확인해보세요.
 

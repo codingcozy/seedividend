@@ -3,17 +3,13 @@ title: "CSS로 산타 클로스 만드는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "CSS Art Drawing Santa Claus in CSS"
 link: "https://medium.com/gitconnected/css-art-drawing-santa-claus-in-css-1f27a764d43f"
 isUpdated: true
 ---
-
-
-
-
 
 이 기사에서는 HTML과 CSS를 사용하여 산타 클로스의 반응형 만화를 만드는 방법을 살펴보겠습니다. 아래와 같이요:
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ## 캔버스 설정
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 캔버스라고 하면 `canvas` 요소가 아닌, 그림을 그릴 캔버스를 의미합니다. 이는 설정된 후 요소들의 참조로 사용할 수 있어서 유용합니다.
 
@@ -35,7 +42,18 @@ isUpdated: true
 <div class="canvas"></div>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .canvas {
@@ -58,7 +76,18 @@ isUpdated: true
 
 # 머리 그리기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 머리에는 여러 개의 원과 타원이 있을 거에요: 얼굴을 나타내는 큰 원, 눈을 나타내는 작은 원, 볼을 나타내는 타원이요.
 
@@ -68,7 +97,18 @@ isUpdated: true
 
 얼굴에는 원을 만들고, 한 눈에는 다른 원을 만들고, 한 볼에는 타원을 만드세요. 그리고 초안에서는 box-shadow를 사용하여 두 번째 눈과 볼을 복제했는데, 그런데 box-shadow는 % 외에 다른 단위가 필요해서 그림이 일부만 반응하는 문제가 있었어요. 눈과 볼을 복제하면 더 견고하고 유지보수가 쉬울거에요 (그림에 대해 이렇게 이야기하는 게 조금 웃기죠?).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <div class="canvas">
@@ -139,7 +179,18 @@ isUpdated: true
 
 # 수염과 콧수염
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 섹션에서는 얼굴 근처에는 수염 모양을 그리는 데 굉장히 유용한 두 가지 기본 CSS 모양을 사용할 것입니다: 수염의 원형과 콧수염의 눈 모양입니다.
 
@@ -161,7 +212,18 @@ isUpdated: true
 </div>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .canvas {
@@ -209,7 +271,18 @@ isUpdated: true
 
 모자는 하나의 요소로 만들어지지만, 두 가지 가상 요소인 ::before와 ::after를 포함할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 방법은 모자의 크기와 위치가 상대적이어서 한 요소만 변경해도 한꺼번에 세 요소가 모두 업데이트된다는 점이 편리합니다. 우리는 모자, 베이스, 그리고 포폼이 3개의 요소를 가질 수 있지만, 이 방법으로 가상 요소를 연습합니다.
 
@@ -219,7 +292,18 @@ isUpdated: true
 
 그 모양을 만들었다면, 배경으로 원형 그라데이션을 추가합니다. 그럼 둥근 하단이 생기게 될 것입니다. 조금 회전시켜서 머리에 맞게 조절할 필요가 있을 수도 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <div class="canvas">
@@ -290,7 +374,18 @@ html {
 
 # The body
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 체형은 종류가 있는데요, 말랑말랑한 벨 모양으로, 기본적으로는 CSS에서 작은 하단 코너 반지름이 있는 타원입니다. CSS에서 모양에 대해 더 읽으시려면 여기에 게시한 이 기사를 읽어보세요.
 
@@ -300,7 +395,18 @@ html {
 
 벨트는 조금 깔끔할 겁니다. 원형(방사형) 그라데이션이며, 정확한 위치에 배치하려면 값들을 변형해야 할 겁니다. 버튼 섹션과 유사하게 투명색-색상-투명색 패턴을 따릅니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <div class="canvas">
@@ -345,7 +451,18 @@ html {
 
 몸체의 그라데이션이 이전 그라데이션의 정확한 끝 부분에서 시작하지 않는 것을 확인할 수 있습니다. 그 대신 약간의 소수점이 추가되어 있습니다. 이는 CSS 그라데이션에서 (SVG는 아님) 브라우저가 컷을 너무 가파르게 만들기 때문에 발생하는 현상이며, 이 소수점은 모서리를 부드럽게 만들어주는 데 도움이 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러면 몸이 완성됩니다. 그러나 조금 지루합니다. 이제 개선할 시간입니다.
 
@@ -355,7 +472,18 @@ html {
 
 벨트 버클은 사각형일 뿐입니다! 황금색 테두리를 추가하고 약간의 테두리 반경을 줄 것입니다(타원은 원하지 않습니다). 배경도 금색이지만 내부 상자 그림자를 사용하여 송과 버클을 강조할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 산타 그림을 확인 중이에요. 많은 그림에서 산타의 재킷 아래부분이 흰색으로 그려졌어요. 그래서 우리는 몸에서 radial-gradient를 확장해서 투명 대신 흰색으로 끝나도록 했어요:
 
@@ -423,7 +551,18 @@ html {
 
 <img src="/assets/img/CSSArtDrawingSantaClausinCSS_5.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 버튼 크기가 다른 것을 확인할 수 있는데, 시각 상으로는 같은 크기로 보입니다. 이것은 버튼의 가장 먼 모서리부터 크기가 계산되기 때문에, 모든 것에 동일한 비율을 설정하면 각각 다른 크기를 갖게 됩니다.
 
@@ -433,7 +572,18 @@ html {
 
 팔은 몸체와 동일한 모양인 종이컵 모양의 단일 요소가 될 것입니다. 그러나 이 종이컵은 더 짧고 넓게 될 것입니다. 이렇게 하면 몸체 뒤에 놓을 때 측면으로 "넘치게" 되는 효과가 납니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 몸체에서 팔까지 작은 수직 그라데이션을 투명에서 반투명 검정색으로 변경하여 몸체와 팔이 색깔적 거리를 두게 했어요. 이 그라데이션은 그림자처럼 보여주고 뒷자리에 집중되도록 해줘요.
 
@@ -490,7 +640,18 @@ html {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![CSSArtDrawingSantaClausinCSS_6.png](/assets/img/CSSArtDrawingSantaClausinCSS_6.png)
 
@@ -500,7 +661,18 @@ html {
 
 다리는 두 부분으로 구성될 거에요: 다리 그 자체와 부츠 끝 부분 (부츠는 다리 자체에 선형 그라데이션으로 그려질 것이기 때문에 부분만 그립니다).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다리에 사각형을 그리고 조금 거리를 두어주어요 (수염에 사용한 인접 형제 결합자를 사용해야 합니다). 팬츠와 부츠를 나누기 위해 빨간 검은 그라데이션을 추가하고... skew()를 사용하여 약간 기울여 simmetrical하지 않게 만들어요.
 
@@ -562,7 +734,18 @@ html {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/CSSArtDrawingSantaClausinCSS_7.png" />
 
@@ -572,7 +755,18 @@ html {
 
 쉽게 시작하기 위해 지면으로 시작해봅시다. 새로운 요소가 필요하지 않아요! 캔버스의 가상 요소인 ::before를 사용할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 정말 크게 만들 거에요. 뷰포트를 넘어가는 정도로 크게 만들 거고, 귀찮은 스크롤 막대를 피하기 위해 문서의 `body`에 `overflow: hidden`을 추가해야 할 거에요.
 
@@ -582,7 +776,18 @@ html {
 
 결과는 이렇게 생겼습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 html {
@@ -619,7 +824,18 @@ html {
 
 # 장면을 애니메이션화하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 정적 그림을 완성했다구요... 그러나 일부 애니메이션을 추가하여 눈에 띄게 만들어볼까요:
 
@@ -631,7 +847,18 @@ html {
 
 수염을 움직이는 것도 단순한 애니메이션인데, 두 개의 수염을 동기화해야 해서 "어지럽다"고 느껴질 수 있어요! 시간과 각도를 조절하면 훌륭한 결과를 얻을 수 있을 거예요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 눈에 관해서, 배경 위치를 애니메이트해서 눈이 내리는 것처럼 보이도록 만들 수 있어요. 수직 방향으로 하는 것은 쉽지만, 너무 현실적으로 보이지 않아요. 눈은 떨어질 때 지그재그로 떨어져서 그 지그재그를 애니메이션에 추가할 거에요.
 
@@ -685,7 +912,18 @@ html {
 
 사용자의 의사를 고려하고 사용자가 선택한 경우 애니메이션을 비활성화하는 것이 중요해요 (특히 접근성을 고려하는 경우). prefers-reduced-motion 미디어 피처로 그렇게 할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 @media (prefers-reduced-motion) {
@@ -701,7 +939,18 @@ html {
 
 CSS 아트는 그림이지만 대체 텍스트가 필요없는 것이 아닙니다... 아닐까요? 사실 대체 텍스트가 필요합니다! 보조 기술이 산타 그림을 그림이자 설명이 들어있는 이미지로 식별할 수 있도록 원한다면 추가하는 것이 좋습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS 아트를 보다 쉽게 접근할 수 있도록 하는 방법에 대한 글을 썼어요. 이 경우에는 그림의 뿌리에 img 역할과 또한 뿌리에 aria-label을 추가해야 합니다.
 
@@ -717,7 +966,18 @@ CSS 아트를 보다 쉽게 접근할 수 있도록 하는 방법에 대한 글�
 
 <img src="/assets/img/CSSArtDrawingSantaClausinCSS_9.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자유롭게 더 많은 세부 정보를 추가해 보세요: 적당한 눈썹, 모자 아래에서 나오는 몇 가닥 머리카락, 산타 근처에 선물들, 아니면 말이 어딘가에서 나타나는 것도 좋겠죠!
 
@@ -727,7 +987,18 @@ CSS 아트를 보다 쉽게 접근할 수 있도록 하는 방법에 대한 글�
 
 페이지의 특정 공간에 그림을 추가하고 싶은 경우 vmin 단위가 문제가 될 수 있습니다. 걱정하지 마세요. 이를 해결할 작은 변경 사항을 만들어보죠:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .canvas {
@@ -740,7 +1011,18 @@ CSS 아트를 보다 쉽게 접근할 수 있도록 하는 방법에 대한 글�
 이게 다입니다! 산타 클로스가 있는 애니메이션 씬을 만들었고, 이 과정에서 많은 CSS를 연습했습니다:
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 애니메이션
 - 배경

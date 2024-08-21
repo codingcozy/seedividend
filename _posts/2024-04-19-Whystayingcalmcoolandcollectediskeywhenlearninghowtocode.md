@@ -3,17 +3,13 @@ title: "코딩을 배울 때 침착하고 냉정하게 유지하는 것이 중�
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Why staying calm, cool, and collected is key when learning how to code"
 link: "https://medium.com/@alziex/why-staying-calm-cool-and-collected-is-key-when-learning-how-to-code-edae564ff423"
 isUpdated: true
 ---
-
-
-
-
 
 항상 빠르게 배우는 사람이라고 생각해왔어요. 제가 스스로 외국어를 처음부터 배워서 구사할 수 있도록 했고, 기본적인 사진 및 비디오 편집을 배웠어요. 몇 년 동안 새로운 것을 배울 때 어떤 방법이 나에게 맞는지 알아내기에 성공했죠. 그러다 코딩에 발을 들였어요.
 
@@ -29,11 +25,33 @@ isUpdated: true
 
 CSS의 본질적인 복잡성과 무엇을 하는지 이해하는 데 시간을 투자하는 것이 얼마나 중요한지 깨달기 시작했어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마음껏 연습해보세요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내가 이 분야에 처음 시작하는 사람에게 할 수 있는 가장 중요한 조언은 몇 주 만에 전문가가 되지 않을 것을 받아들이고, 실수를 해도 괜찮다는 것입니다. 이해가 잘 되지 않는 특정 요소에 대해 조금 더 연구를 하는 데 추가 시간을 투자해도 괜찮습니다. 이 모든 것이 과정의 일부입니다!
 
@@ -53,7 +71,18 @@ pfimg-3 {
 
 이 코드는 거의 동일하지만 두 번째 요소 뒤에 쉼표를 추가하는 것을 "깜빡했습니다". 세 번째 요소를 무시하게 될 정도로 충분히 코드를 망가뜨릴 만큼의 영향을 미치게 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 실제로 그런 작은 실수조차도 패닉을 유발하고 전체 코드를 살펴 오류를 찾느라 시간을 낭비하는 일이 발생할 수 있어요. 그럴 때 도움이 되는 소중한 도구가 있어요:
 

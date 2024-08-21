@@ -3,16 +3,13 @@ title: "Nest JS에서 Redis 사용하는 방법"
 description: ""
 coverImage: "/assets/img/2024-05-17-UsingRedisinNestJS_0.png"
 date: 2024-05-17 20:30
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-17-UsingRedisinNestJS_0.png
 tag: Tech
 originalTitle: "Using Redis in NestJS"
 link: "https://medium.com/@mut1aq/using-redis-in-nestjs-8ca1a009670f"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-05-17-UsingRedisinNestJS_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 이 글에서는 Redis를 활용하여 응용 프로그램의 속도와 보안을 향상시키는 방법을 알아보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 NestJS와 함께 사용할 것입니다. 네스트는 Kamil Mysliwiec가 만든 간단하고 가벼운 프레임워크로, 강건함과 개발자 친화적인 아키텍처로 유명합니다.
 
@@ -32,8 +40,18 @@ NestJS와 함께 사용할 것입니다. 네스트는 Kamil Mysliwiec가 만든 
 
 가정: -
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - NodeJS가 설치되어 있습니다.
 - VS Code 또는 원하시는 편집기가 설치되어 있습니다.
@@ -42,13 +60,24 @@ NestJS와 함께 사용할 것입니다. 네스트는 Kamil Mysliwiec가 만든 
 시작하려면 명령줄을 실행하고 선택한 폴더로 이동하세요 (해당 폴더에 코드를 작성할 것입니다). 그리고 다음 명령을 실행하세요.
 
 ```js
-npm i -g @nestjs/cli 
+npm i -g @nestjs/cli
 nest new using-redis-in-nestjs #원하는 프로젝트 이름으로 "using-redis-in-nestjs"를 대체할 수 있습니다
 ```
 
 해당 폴더로 이동하면 다음처럼 간단한 시작 코드가 있는 기본 NestJS 프로젝트가 표시됩니다…
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-05-17-UsingRedisinNestJS_1.png" />
 
@@ -58,8 +87,18 @@ nest new using-redis-in-nestjs #원하는 프로젝트 이름으로 "using-redis
 
 첫 번째 할 일은 NestJS의 캐시 매니저와 패키지 cache-manager 자체를 설치하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm install @nestjs/cache-manager cache-manager
@@ -70,14 +109,24 @@ npm install @nestjs/cache-manager cache-manager
 이제 캐시 모듈을 설정하려면 "app.module.ts" 파일로 이동하여 @nestjs/cache-manager에서 캐시 모듈을 import하고 매개변수 없이 register 메서드를 사용하면 됩니다.
 
 ```js
-import { CacheModule } from '@nestjs/cache-manager';
-import { Module } from '@nestjs/common';
-import { AppController } from './app.controller';
-import { AppService } from './app.service';
+import { CacheModule } from "@nestjs/cache-manager";
+import { Module } from "@nestjs/common";
+import { AppController } from "./app.controller";
+import { AppService } from "./app.service";
 ```
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 @Module({
@@ -91,9 +140,9 @@ export class AppModule {}
 이 레지스트리를 통해 "app.service.ts" 파일에서 캐시 매니저를 사용하여 데이터를 저장하고 검색할 수 있게 되었습니다. 사용하려면 "app.service.ts"의 생성자에 주입해야 합니다.
 
 ```javascript
-import { CACHE_MANAGER } from '@nestjs/cache-manager';
-import { Cache } from 'cache-manager'; // ! 이 import를 빠뜨리지 마세요
-import { Inject, Injectable } from '@nestjs/common';
+import { CACHE_MANAGER } from "@nestjs/cache-manager";
+import { Cache } from "cache-manager"; // ! 이 import를 빠뜨리지 마세요
+import { Inject, Injectable } from "@nestjs/common";
 ```
 
 ```javascript
@@ -106,33 +155,55 @@ export class AppService {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 캐시 모듈은 NestJS의 다른 모듈과 마찬가지로 작동합니다. 따라서 사용 중인 모듈에서 가져오거나 전역으로 사용할 수 있도록 설정해야 합니다.
 
 ```js
-CacheModule.register({isGlobal: true})
+CacheModule.register({ isGlobal: true });
 ```
 
 이제 사용 방법을 알아보겠습니다. 시작하려면 세 가지 메서드만 알아야 합니다.
 
 ```js
-await this.cacheManager.set('키', '값'); // 캐시에 데이터 설정
-const value = await this.cacheManager.get<string>('키'); // 캐시에서 데이터 가져오기
-await this.cacheManager.del('키'); // 캐시에서 데이터 삭제
+await this.cacheManager.set("키", "값"); // 캐시에 데이터 설정
+const value = (await this.cacheManager.get) < string > "키"; // 캐시에서 데이터 가져오기
+await this.cacheManager.del("키"); // 캐시에서 데이터 삭제
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 세 가지 메소드는 기본적으로 캐싱과 관련된 거의 모든 작업을 수행할 수 있도록 해줍니다. 이를 실제로 보기 위해 세 가지 메소드를 테스트할 수 있는 세 가지 라우트를 준비했는데요. 이를 따라오시면서 저의 GitHub을 방문하셔서 코드를 확인해보실 수 있어요.
 
 아래는 컨트롤러에서의 라우트들입니다.
 
 ```js
-import { Controller, Delete, Get, Post } from '@nestjs/common';
-import { Body } from '@nestjs/common/decorators';
-import { CreateDataDto } from 'dtos/create-data.dto';
-import { AppService } from './app.service';
+import { Controller, Delete, Get, Post } from "@nestjs/common";
+import { Body } from "@nestjs/common/decorators";
+import { CreateDataDto } from "dtos/create-data.dto";
+import { AppService } from "./app.service";
 ```
 
 ```js
@@ -169,15 +240,26 @@ export class AppController {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 이것이 서비스입니다.
 
 ```js
-import { CACHE_MANAGER } from '@nestjs/cache-manager';
-import { Cache } from 'cache-manager'; // ! 이 임포트를 빠트리지 마세요
-import { Inject, Injectable } from '@nestjs/common';
-import { CreateDataDto } from 'dtos/create-data.dto';
+import { CACHE_MANAGER } from "@nestjs/cache-manager";
+import { Cache } from "cache-manager"; // ! 이 임포트를 빠트리지 마세요
+import { Inject, Injectable } from "@nestjs/common";
+import { CreateDataDto } from "dtos/create-data.dto";
 ```
 
 ```js
@@ -200,7 +282,18 @@ export class AppService {
 
 NestJS의 캐시 모듈을 사용하는 것은 매우 간단하고 쉬우며, 꽤 간단한 애플리케이션에서 필요한 모든 것일 수 있음을 확인할 수 있습니다. 물론, 여기에 그치지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Redis
 
@@ -210,14 +303,25 @@ NestJS의 캐시 모듈을 사용하는 것은 매우 간단하고 쉬우며, �
 
 ```js
 export interface CacheManagerOptions {
-    store?: string | CacheStoreFactory | CacheStore;
-    ttl?: number;
-    max?: number;
-    isCacheableValue?: (value: any) => boolean;
+  store?: string | CacheStoreFactory | CacheStore;
+  ttl?: number;
+  max?: number;
+  isCacheableValue?: (value: any) => boolean;
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 옵션에 'store' 속성이 있는 것을 확인할 수 있습니다. 여기에는 Redis Store의 초기화가 필요합니다.
 
@@ -229,7 +333,18 @@ npm i --save cache-manager-redis-store
 
 이제 레지스터 메서드를 변경해야 합니다. 코드를 깔끔하게 유지하기 위해 'configs'라는 폴더를 만들고 그 안에 'app-options.constants.ts'라는 파일을 생성하여 레지스터 메서드를 작성했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { CacheModuleAsyncOptions } from "@nestjs/cache-manager";
@@ -259,22 +374,30 @@ export const RedisOptions: CacheModuleAsyncOptions = {
 그리고 앱 모듈에서 간단히 사용하세요.
 
 ```js
-import { CacheModule } from '@nestjs/cache-manager';
-import { Module } from '@nestjs/common';
-import { ConfigModule } from '@nestjs/config';
-import { RedisOptions } from 'configs/app-options.constants';
-import { AppController } from './app.controller';
-import { AppService } from './app.service';
+import { CacheModule } from "@nestjs/cache-manager";
+import { Module } from "@nestjs/common";
+import { ConfigModule } from "@nestjs/config";
+import { RedisOptions } from "configs/app-options.constants";
+import { AppController } from "./app.controller";
+import { AppService } from "./app.service";
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```ts
 @Module({
-  imports: [
-    ConfigModule.forRoot({ isGlobal: true }),
-    CacheModule.registerAsync(RedisOptions),
-  ],
+  imports: [ConfigModule.forRoot({ isGlobal: true }), CacheModule.registerAsync(RedisOptions)],
   controllers: [AppController],
   providers: [AppService],
 })
@@ -289,7 +412,18 @@ export class AppModule {}
 - JWT 토큰 유효성 검사 (보안)
 - 채팅을 위한 소켓 ID 저장 (속도)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼 하나씩 깊이 파고들어 봅시다.
 
@@ -299,16 +433,27 @@ export class AppModule {}
 
 NestJS로 이를 실현하려면, GET 요청에서 반환된 데이터를 추적하고 저장할 Interceptor를 사용해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 물론 NestJS에서 인터셉터를 사용하는 것은 매우 간단합니다. 원하는 컨트롤러에 내장 인터셉터를 바인딩하기만 하면 됩니다.
 
 ```js
-import { CacheInterceptor } from '@nestjs/cache-manager';
-import { Controller, Delete, Get, Post } from '@nestjs/common';
-import { Body, UseInterceptors } from '@nestjs/common/decorators';
-import { CreateDataDto } from 'dtos/create-data.dto';
-import { AppService } from './app.service';
+import { CacheInterceptor } from "@nestjs/cache-manager";
+import { Controller, Delete, Get, Post } from "@nestjs/common";
+import { Body, UseInterceptors } from "@nestjs/common/decorators";
+import { CreateDataDto } from "dtos/create-data.dto";
+import { AppService } from "./app.service";
 ```
 
 ```js
@@ -348,7 +493,18 @@ export class AppController {
 
 이렇게 캐싱 인터셉터를 추가하면 기본 TTL에 따라 모든 GET 라우트 핸들러 응답이 캐시됩니다. 물론 이는 register 메서드에서 수정할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 {
@@ -360,21 +516,16 @@ export class AppController {
 우리 앱 전체의 모든 GET 요청을 캐시하려면 앱 모듈에서 전역으로 바인딩해야 합니다.
 
 ```js
-import { CacheInterceptor, CacheModule } from '@nestjs/cache-manager';
-import { Module } from '@nestjs/common';
-import { ConfigModule } from '@nestjs/config';
-import { APP_INTERCEPTOR } from '@nestjs/core';
-import { RedisOptions } from 'configs/app-options.constants';
-import { AppController } from './app.controller';
-import { AppService } from './app.service';
-
-
+import { CacheInterceptor, CacheModule } from "@nestjs/cache-manager";
+import { Module } from "@nestjs/common";
+import { ConfigModule } from "@nestjs/config";
+import { APP_INTERCEPTOR } from "@nestjs/core";
+import { RedisOptions } from "configs/app-options.constants";
+import { AppController } from "./app.controller";
+import { AppService } from "./app.service";
 
 @Module({
-  imports: [
-    ConfigModule.forRoot({ isGlobal: true }),
-    CacheModule.registerAsync(RedisOptions),
-  ],
+  imports: [ConfigModule.forRoot({ isGlobal: true }), CacheModule.registerAsync(RedisOptions)],
   controllers: [AppController],
   providers: [
     AppService,
@@ -387,18 +538,29 @@ import { AppService } from './app.service';
 export class AppModule {}
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 캐시의 지속 시간이나 라우트에 저장된 키를 사용자 정의하는 경우 NestJS의 데코레이터를 사용할 수 있습니다.
 
 - 기본 킷 값은 엔드포인트의 이름이며, 이를 변경하면 쿼리 매개변수와 함께 요청에 영향을 주므로 코드가 손상되지 않도록 주의하는 것이 중요합니다.
 
 ```js
-import { CacheInterceptor, CacheKey, CacheTTL } from '@nestjs/cache-manager';
-import { Controller, Delete, Get, Post } from '@nestjs/common';
-import { Body, UseInterceptors } from '@nestjs/common/decorators';
-import { CreateDataDto } from 'dtos/create-data.dto';
-import { AppService } from './app.service';
+import { CacheInterceptor, CacheKey, CacheTTL } from "@nestjs/cache-manager";
+import { Controller, Delete, Get, Post } from "@nestjs/common";
+import { Body, UseInterceptors } from "@nestjs/common/decorators";
+import { CreateDataDto } from "dtos/create-data.dto";
+import { AppService } from "./app.service";
 ```
 
 ```js
@@ -438,7 +600,18 @@ export class AppController {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 2. JWT 토큰 유효성 검사
 
@@ -448,7 +621,18 @@ export class AppController {
 
 이외에도, 대다수의 자습서들은 사용자가 로그인할 때 JWT가 특정 기간 동안 생성되지만 해당 사용자가 로그아웃했을 때에도 일정 기간이 지나지 않았더라도 토큰을 폐기해야 하는 것에 대해 언급하지 않는 것 같습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼 이 경우에는 무엇을 해야 할까요? Redis를 세션 관리자로 사용할 수 있어요!
 
@@ -464,7 +648,18 @@ export class AppController {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 물론 "HEST" 명령어를 사용하여 순수 Redis로 구현할 수도 있고, Redis 명령어를 NestJS 캐시 매니저를 사용하여 추상화하여 통일된 API 아이디어를 유지할 수도 있어요.
 
@@ -484,7 +679,18 @@ async hset(key: string, field: string, value: string) {
   }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 순수한 Redis를 사용하고 싶다면, underline client를 가져와서 'HSET' 메서드를 호출할 수 있어요.
 
@@ -499,10 +705,21 @@ constructor(@Inject(CACHE_MANAGER) private readonly cache: Cache) {
 
 ```js
 const client = this.redisStore.getClient();
-await client.HSET('KEY', 'FIELD', 'VALUE')
+await client.HSET("KEY", "FIELD", "VALUE");
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 서버 캐시에 액세스 토큰을 저장할 수 있으므로 사용자 로그아웃시 이를 제거하고 이 아이디어를 기반으로 논리를 구축할 수 있습니다.
 
@@ -512,7 +729,18 @@ await client.HSET('KEY', 'FIELD', 'VALUE')
 
 일반적인 DB에 저장하는 것의 문제점은 당연히 속도 입니다. 우리는 이전에 얼마나 느릴 수 있는지에 대해 논의했던 것을 기억할 겁니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 반면, 메모리 변수에 저장하는 것은 많은 사용자 수에 대응할 수 없는 해결책입니다.
 
@@ -529,7 +757,18 @@ await client.HSET('KEY', 'FIELD', 'VALUE')
 
 이제 상담 중인 상대방으로부터 소켓 ID를 받아와 두 당사자 간 쉽게 메시지를 전송할 수 있게 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이 글이 제 첫 글이니, 내가 실수를 한 경우 언제든지 연락주세요
 
@@ -542,7 +781,18 @@ Redis를 캐싱 솔루션으로 원활하게 통합하여 응답 시간을 크�
 
 🚀 전문 풀스택 개발자로 프로젝트를 강화하세요 🚀
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요! 저는 요르단 암만을 기반으로 활동하는 숙련된 시니어 풀스택 웹 개발자, 무틀락 알사따입니다.
 원활한 디지털 경험을 만들어내는 데 열정을 가지고 문제 해결에 능숙한 저는 아이디어를 기능적이고 매력적인 웹 솔루션으로 변환하는 데 전문화되어 있습니다.
@@ -555,7 +805,18 @@ Redis를 캐싱 솔루션으로 원활하게 통합하여 응답 시간을 크�
 💡 혁신적인 문제 해결자: 복잡한 도전에 직면하는 것을 즐깁니다.
 캐싱 전략을 통한 성능 최적화 경험 및 안전한 사용자 인증 솔루션 구현을 통해 혁신에 대한 저의 헌신을 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 🛠️ 맞춤형 개발: 모든 프로젝트는 같지 않습니다. 저는 각 클라이언트의 고유한 요구 사항에 맞게 접근 방식을 맞춤화하는 데 자부심을 갖고 있습니다. 전자 상거래 플랫폼부터 동적 웹 앱까지, 영향을 주는 맞춤 솔루션을 전달하는 데 헌신하고 있습니다.
 
@@ -565,7 +826,18 @@ Redis를 캐싱 솔루션으로 원활하게 통합하여 응답 시간을 크�
 
 📊 결과 중심: 제 관심사는 코드 작성뿐만 아니라 측정 가능한 결과를 제공하는 데 있습니다. 사용자 참여도 개선, 사이트 속도 향상 또는 전환율 최적화 등 명확한 결과를 달성하기 위해 헌신하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 🤝 고객 중심 접근: 효과적인 커뮤니케이션과 이해는 제 프리랜스 실무의 핵심입니다. 저는 고객과 긴밀히 협력하여 그들의 비전이 기능적 현실로 옮겨지고 기대를 뛰어넘는 결과물이 되도록 합니다.
 

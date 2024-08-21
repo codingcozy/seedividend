@@ -3,16 +3,13 @@ title: "PostgreSQL 쿼리를 최적화하는 방법 "
 description: ""
 coverImage: "/assets/img/2024-06-22-HowtoOptimizePostgreSQLQueries_0.png"
 date: 2024-06-22 13:57
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-HowtoOptimizePostgreSQLQueries_0.png
 tag: Tech
 originalTitle: "How to Optimize PostgreSQL Queries"
 link: "https://medium.com/@nodeteam/how-to-optimize-postgresql-queries-226e6ff15f72"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-06-22-HowtoOptimizePostgreSQLQueries_0.png" />
 
@@ -22,8 +19,18 @@ PostgreSQL은 강력하고 높은 사용자 정의 가능성을 가진 오픈 �
 
 이메일로 사용자를 자주 검색하는 경우, “users”라는 테이블이 있고 “id”, “name”, “email” 열이 있다고 가정해보겠습니다. 이 경우 “email” 열에 인덱스를 생성할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 CREATE INDEX users_email_idx ON users (email);
@@ -35,10 +42,20 @@ Suppose you have a query that joins two tables and returns the total number of r
 
 ```js
 EXPLAIN SELECT COUNT(*) FROM table1 JOIN table2 ON table1.id = table2.table1_id;
-```  
+```
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 EXPLAIN 명령은 쿼리의 실행 계획을 출력하여 성능 문제를 식별하는 데 도움이 됩니다.
 
@@ -50,7 +67,18 @@ EXPLAIN 명령은 쿼리의 실행 계획을 출력하여 성능 문제를 식�
 SELECT * FROM users WHERE email LIKE '%@example.com';
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 쿼리는 "users" 테이블 전체를 순차적으로 스캔하여 실행되며, 테이블이 크다면 느릴 수 있습니다. 이 쿼리를 최적화하려면 다음과 같이 다시 작성할 수 있습니다:
 
@@ -62,7 +90,18 @@ SELECT * FROM users WHERE email LIKE '@example.com%';
 
 ## 4. 반환된 행의 수 제한:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "users" 테이블에서 모든 사용자를 반환하는 쿼리가 있다고 가정해보세요:
 
@@ -76,7 +115,18 @@ SELECT * FROM users;
 SELECT * FROM users LIMIT 100;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 쿼리는 성능을 향상시킬 수 있도록 처음 100개의 행만 반환합니다.
 
@@ -88,7 +138,18 @@ SELECT * FROM users LIMIT 100;
 ALTER TABLE users ALTER COLUMN age TYPE smallint;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 표 태그를 마크다운 형식으로 변경하면 메모리 사용량을 줄일 수 있어 성능을 향상시킬 수 있어요.
 
@@ -100,7 +161,18 @@ ALTER TABLE users ALTER COLUMN age TYPE smallint;
 SELECT * FROM orders WHERE customer_id IN (SELECT id FROM customers WHERE city = '뉴욕');
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 쿼리는 뉴욕에 거주하는 고객들의 고객 ID를 검색하기 위해 서브쿼리를 사용합니다. 이 쿼리를 최적화하기 위해 JOIN으로 다시 작성할 수 있습니다:
 
@@ -112,7 +184,18 @@ SELECT orders.* FROM orders JOIN customers ON orders.customer_id = customers.id 
 
 ## 7. 준비된 문을 사용하세요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 특정 이름을 가진 모든 사용자를 검색하는 쿼리가 있다고 가정해봅시다:
 
@@ -128,7 +211,18 @@ EXECUTE get_users_by_name('John');
 EXECUTE get_users_by_name('Jane');
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이렇게 하면 각 후속 실행에 대해 쿼리를 준비하고 실행 계획을 재사용할 수 있어 성능을 향상시킬 수 있습니다.
 
@@ -138,7 +232,18 @@ EXECUTE get_users_by_name('Jane');
 
 연결 풀을 사용하면 데이터베이스 연결을 생성하고 해제하는 오버헤드를 줄여 성능을 향상시킬 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 커넥션 풀링은 각 데이터베이스 요청마다 새로운 연결을 생성하고 해제하는 대신 데이터베이스 연결 풀을 관리하는 기술입니다. 기존 연결을 재사용함으로써 커넥션 풀링은 새로운 연결을 맺는 데 필요한 오버헤드를 줄일 수 있어 PostgreSQL 쿼리의 성능을 향상시킬 수 있습니다.
 
@@ -150,7 +255,18 @@ EXECUTE get_users_by_name('Jane');
 
 다음은 pgBouncer를 사용한 커넥션 풀링 사용 예시입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - pgBouncer 설치: 패키지 관리자를 사용하거나 소스에서 컴파일하여 서버에 pgBouncer를 설치합니다.
 - 연결 풀 구성: pgBouncer 구성 파일을 편집하여 데이터베이스에 대한 연결 최대 수와 최대 휴식 연결 수를 지정합니다. 또한 일정 시간이 지난 후 자동으로 휴식 연결을 닫도록 pgBouncer를 구성할 수 있습니다.
@@ -166,7 +282,18 @@ postgres://username:password@hostname:port/database
 postgres://username:password@hostname:6432/database
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 포트 번호가 다르고 호스트 이름이 PostgreSQL 서버가 아닌 pgBouncer 서버를 가리키는 것을 유의해 주세요.
 
@@ -176,7 +303,18 @@ pgBouncer와 같은 커넥션 풀을 사용하면 데이터베이스 연결을 �
 
 분석과 VACUUM은 데이터베이스 통계를 업데이트하고 디스크 공간을 회수하여 PostgreSQL 쿼리의 성능을 향상시킬 수 있는 두 가지 중요한 유지 관리 작업입니다. 각 작업에 대한 간단한 설명은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 분석: 테이블에 인덱스를 생성하거나 데이터를 필터링하거나 정렬하는 쿼리를 실행할 때, PostgreSQL은 통계를 사용하여 조건과 일치하는 행 수를 추정합니다. 데이터베이스 통계에는 데이터의 분포에 대한 정보가 포함되어 있습니다. 즉, 고유한 값의 수 및 각 값의 빈도가 포함됩니다. 이러한 통계는 pg_statistic이라는 시스템 카탈로그에 저장됩니다. 통계가 오래되거나 부정확할 경우, 쿼리 플래너가 잘못된 결정을 내리고 효율적이지 않은 쿼리 계획을 생성할 수 있습니다.
 
@@ -186,7 +324,18 @@ pgBouncer와 같은 커넥션 풀을 사용하면 데이터베이스 연결을 �
 
 PostgreSQL에서 테이블을 박강하는 여러 옵션이 있습니다. 가장 간단한 옵션은 VACUUM 명령을 실행하는 것으로, 전체 테이블을 스캔하고 불필요한 공간을 제거합니다. 다른 옵션은 VACUUM ANALYZE 명령을 실행하는 것으로, 분석과 박강 작업의 혜택을 결합한 명령입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 PostgreSQL에서 테이블을 분석하고 VACUUM하는 방법을 알아볼게요:
 

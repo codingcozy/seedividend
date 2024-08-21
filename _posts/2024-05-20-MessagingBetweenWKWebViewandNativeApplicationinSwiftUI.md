@@ -3,16 +3,13 @@ title: "SwiftUI에서 WKWebView와 네이티브 애플리케이션 간 메시지
 description: ""
 coverImage: "/assets/img/2024-05-20-MessagingBetweenWKWebViewandNativeApplicationinSwiftUI_0.png"
 date: 2024-05-20 23:05
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-20-MessagingBetweenWKWebViewandNativeApplicationinSwiftUI_0.png
 tag: Tech
 originalTitle: "Messaging Between WKWebView and Native Application in SwiftUI"
 link: "https://medium.com/@yeeedward/messaging-between-wkwebview-and-native-application-in-swiftui-e985f0bfacf"
 isUpdated: true
 ---
-
-
-
 
 이 문서는 WKWebView와 네이티브 측 간의 프로세스간 통신을 탐구합니다. 이는 로컬/임베디드 웹 페이지에 집중할 것입니다.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-05-20-MessagingBetweenWKWebViewandNativeApplicationinSwiftUI_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 애플은 2003년 맥용 Safari 웹 브라우저의 첫 번째 버전을 출시할 때, 네이티브 애플리케이션에서 웹 콘텐츠를 표시하기 위한 최초 세대의 프로그래밍 인터페이스인 WebView 클래스를 개발했습니다.
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 이것이 WKWebView의 간단한 역사입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # WKWebView이 뭔가요?
 
@@ -42,7 +61,18 @@ isUpdated: true
 
 왜 HTML과 네이티브 구성 요소를 함께 사용해야 하죠?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 텍스트 콘텐츠나 멋진 UI를 SwiftUI/UIKit로 서식 지정하는 것은 상당히 어려울 수 있습니다. HTML과 CSS는 검증된 기술입니다. 웹 개발자가 모바일 친화적 웹사이트를 제작할 수 있다면, 네이티브 애플리케이션용 UI를 쉽게 만들 수 있습니다!
 
@@ -52,7 +82,18 @@ isUpdated: true
 
 웹 콘텐츠는 어디서 오는 걸까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당연히, 웹 브라우저는 웹 서버에서 웹 페이지를 로드합니다. WKWebView이 로컬 파일이나 심지어 HTML 스트링에서 웹 콘텐츠를 로드할 수 있다는 것을 알아내는 것은 흥미롭습니다.
 
@@ -62,28 +103,39 @@ isUpdated: true
 
 WKWebView에 대해 자세히 알아봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 웹 뷰 생성하기
 
 ```js
 struct SwiftUIWebView: UIViewRepresentable {
     typealias UIViewType = WKWebView
-    
+
     var vm: BaseWebViewVM
 
     // 뷰 모델로 초기화
     init(viewModel: BaseWebViewVM) {
         self.vm = viewModel
     }
-    
+
     func makeUIView(context: Context) -> WKWebView {
         return vm.webView
     }
-    
+
     func updateUIView(_ uiView: WKWebView, context: Context) {
     }
-    
+
     func makeCoordinator() -> Coordinator {
         return Coordinator(viewModel: vm)
     }
@@ -91,8 +143,8 @@ struct SwiftUIWebView: UIViewRepresentable {
 
 extension SwiftUIWebView {
     class Coordinator: NSObject {
-        var viewModel: BaseWebViewVM 
-        
+        var viewModel: BaseWebViewVM
+
         init(viewModel: BaseWebViewVM) {
             self.viewModel = viewModel
         }
@@ -105,7 +157,7 @@ class BaseWebViewVM: ObservableObject {
 
     init(webResource: String? = nil) {
         self.webResource = webResource
-        
+
         self.webView = WKWebView(frame: .zero,
                                  configuration: WKWebViewConfiguration())
     }
@@ -128,7 +180,18 @@ class BaseWebViewVM: ObservableObject {
 
 ## SwiftUIWebView
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 WKWebView은 UIView입니다. SwiftUIWebView는 UIViewRepresentable을 구현하는 구조체로 표현되어야 합니다.
 
@@ -138,7 +201,18 @@ makeUIView 메서드는 뷰 모델에서 WKWebView의 인스턴스를 반환합�
 
 makeCoordinator 메서드는 Coordinator의 인스턴스를 반환합니다. Coordinator에는 WKWebView를 위한 델리게이트 함수들이 포함되어 있습니다. 현재로서는 특별한 작업을 수행하지는 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## BaseWebViewVM
 
@@ -148,7 +222,18 @@ BaseWebViewVM에는 공개된 속성 webResource가 있습니다. 이 속성은 
 
 일단 loadWebPage 메서드는 인터넷 웹 리소스를 로드할 것입니다. 나중에 로컬 웹 콘텐츠를 처리하는 방법도 살펴볼 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 XCode Playground에서 시도해 보고 싶다면 다음을 추가해보세요:
 
@@ -161,7 +246,7 @@ import PlaygroundSupport
 
 struct ContentView: View {
     let vm = BaseWebViewVM(webResource: "http://www.google.com")
-    
+
     var body: some View {
         SwiftUIWebView(viewModel: vm)
             .onAppear(perform: vm.loadWebPage)
@@ -175,7 +260,18 @@ PlaygroundPage.current.setLiveView(ContentView())
 
 인터넷 웹 페이지를 표시하는 데 유용합니다. 로컬 웹 콘텐츠를 표시하는 방법을 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 내장 웹 페이지 표시
 
@@ -185,19 +281,41 @@ PlaygroundPage.current.setLiveView(ContentView())
 
 웹 콘텐츠 폴더는 원시 애플리케이션 프로젝트의 물리적인 일부일 수도 있고 그렇지 않을 수도 있습니다. 두 개가 별도의 개체이면 소스 코드 관리에 특히 주의해야 합니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 애플리케이션이 특정 HTML 파일에 액세스하는 방법은 무엇인가요?
 
 애플리케이션이 Web 폴더에있는 다음 웹 페이지에 액세스해야 하는 경우: (위 스크린샷 참조)
 
 ```js
-Web/userGuide/section1/login.html
+Web / userGuide / section1 / login.html;
 ```
 
 이것은 상대 경로입니다. 애플리케이션은 절대 경로로만 파일을 열 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 시뮬레이터에서
@@ -227,9 +345,20 @@ let absolutePath = Bundle.main.path(forResource: fileName,
                                     inDirectory: inDirectory)
 ```
 
-애플리케이션 메인 번들에서 path 메서드는 주어진 파일 정보를 절대 경로로 변환하려고 합니다. 만약 주어진 파일 정보가 잘못되었다면 nil을 반환합니다. 
+애플리케이션 메인 번들에서 path 메서드는 주어진 파일 정보를 절대 경로로 변환하려고 합니다. 만약 주어진 파일 정보가 잘못되었다면 nil을 반환합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 애플리케이션이 HTML 파일의 절대 경로를 획득하면, 웹 뷰에 해당 파일을 로드할 수 있습니다.
 
@@ -242,7 +371,18 @@ webView.loadFileURL(url, allowingReadAccessTo: url)
 
 위 샘플 코드를 기준으로 설명하자면, LocalWebViewVM이라는 새 클래스를 추가할 것입니다. 이 클래스는 BaseWebViewVM의 하위 클래스입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```swift
 class LocalWebViewVM: BaseWebViewVM {
@@ -281,7 +421,7 @@ ContentView를 다른 뷰 모델로 업데이트합니다.
 ```swift
 struct ContentView: View {
     let vm = LocalWebViewVM(webResource: "Web/userGuide/section1/login.html")
-    
+
     var body: some View {
         SwiftUIWebView(viewModel: vm)
             .onAppear(perform: vm.loadWebPage)
@@ -289,7 +429,18 @@ struct ContentView: View {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 캔버스에서 표시되는 내용입니다. (XCode Playground에서 라이브 뷰로 확인)
 
@@ -299,7 +450,18 @@ struct ContentView: View {
 
 ## 자바스크립트 경고
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 페이지나 어플리케이션은 다음과 같은 Javascript 코드를 통해 사용자에게 알림 메시지를 표시할 수 있습니다:
 
@@ -316,7 +478,7 @@ struct SwiftUIWebView: UIViewRepresentable {
     func makeUIView(context: Context) -> WKWebView {
         // 알림 처리
         vm.webView.uiDelegate = context.coordinator
-        
+
         return vm.webView
     }
 
@@ -340,7 +502,7 @@ extension SwiftUIWebView {
 
 enum JSPanelType {
     case alert
-    
+
     var description: String {
         switch self {
         case .alert:
@@ -356,9 +518,9 @@ class BaseWebViewVM: ObservableObject {
     @Published var showPanel: Bool = false
     var panelTitle: String = ""
     var panelType: JSPanelType? = nil
-    
+
     var panelMessage: String = ""
-        
+
     // 알림 프로퍼티
     var alertCompletionHandler: () -> Void = {}
 
@@ -374,7 +536,18 @@ class BaseWebViewVM: ObservableObject {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, 응용 프로그램은 context.coordinator를 웹 뷰 uiDelegate 속성에 할당해야 합니다.
 
@@ -384,8 +557,18 @@ Javascript alert는 모든 웹 페이지에 대해 일반적인 기능이므로 
 
 다음은 몇 가지 새로운 속성입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 showPanel - ContentView에서 UI 표시를 토글하는 발행된 속성입니다.
 
@@ -395,8 +578,18 @@ panelMessage - 웹 페이지에서 나오는 메시지입니다.
 
 panelType - UI 표시의 유형을 나타냅니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 alertCompletionHandler — 특정 Javascript 경고 콜백 함수
 
@@ -406,7 +599,18 @@ JSPanelType은 열거 유형입니다. 현재는 alert 값만 포함하고 있�
 
 다음은 업데이트된 ContentView입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```swift
 struct ContentView: View {
@@ -443,20 +647,28 @@ SwiftUIWebView에는 alert modifier가 포함되어 있습니다. 해당 alert�
 ```html
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    ...
+  </head>
 
-<head>
-  ...
-</head>
-
-<body>
-  <button onclick="alert('This is an alert!')">Alert</button>
-</body>
-
+  <body>
+    <button onclick="alert('This is an alert!')">Alert</button>
+  </body>
 </html>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](https://miro.medium.com/v2/resize:fit:508/1*crNpOlR8VlOFpZSVQXkF-Q.gif)
 
@@ -466,11 +678,21 @@ SwiftUIWebView에는 alert modifier가 포함되어 있습니다. 해당 alert�
 
 Javascript confirm 기능은 javascript alert와 유사합니다. 표준 프레젠테이션에서 모달에는 메시지, 확인 버튼 및 취소 버튼이 포함됩니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-confirm("Are you sure?")
+confirm("Are you sure?");
 ```
 
 자바스크립트 confirm 함수는 OK 버튼을 클릭할 때 TRUE를 반환합니다. 그렇지 않으면 FALSE를 반환합니다.
@@ -496,7 +718,7 @@ extension SwiftUIWebView {
 enum JSPanelType {
     case alert
     case confirm
-    
+
     var description: String {
         switch self {
         case .alert:
@@ -525,7 +747,18 @@ class BaseWebViewVM: ObservableObject {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 JavaScript의 confirm을 위한 webView 함수는 약간 다른 콜백 함수 서명을 가지고 있어요.
 
@@ -537,7 +770,18 @@ boolean 값을 인자로 받아요.
 
 JSPanelType에 confirm 값을 추가해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 BaseWebViewVM에 confirmCompletionHandler 속성을 추가하십시오. Javascript confirm을 위한 다른 webPanel 함수를 추가하십시오. panelType 속성을 JSPanelType.confirm으로 설정하십시오. 다시 한번 showPanel을 true로 설정하여 UI 표시를 트리거합니다.
 
@@ -580,7 +824,18 @@ struct ContentView: View {
 
 다음은 업데이트된 웹 페이지입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <!DOCTYPE html>
@@ -596,7 +851,7 @@ struct ContentView: View {
       } else {
         document.getElementById("confirmValue").innerText = "You hit cancel";
       }
-    }    
+    }
   </script>
 </head>
 
@@ -617,7 +872,18 @@ struct ContentView: View {
 
 The last standard Javascript modal is prompt. The modal contains a text field for user input.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```swift
 var response = prompt("이것은 프롬프트입니다! 어떻게 지내세요?", "좋음");
@@ -649,7 +915,7 @@ enum JSPanelType {
     case alert
     case confirm
     case prompt
-    
+
     var description: String {
         switch self {
         case .alert:
@@ -682,11 +948,33 @@ class BaseWebViewVM: ObservableObject {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 마크다운 형식으로 변경해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 콜백 함수는 promptInput 속성 값을 전달합니다. promptInput은 null이 아닌 문자열 속성임을 유의하세요. 따라서 콜백은 빈 문자열이거나 사용자 입력일 수 있습니다.
 
@@ -708,7 +996,7 @@ class BaseWebViewVM: ObservableObject {
       } else {
         document.getElementById("promptResult").innerText = "취소됨";
       }
-    }  
+    }
     </script>
 </head>
 
@@ -725,7 +1013,18 @@ class BaseWebViewVM: ObservableObject {
 
 ![이미지](https://miro.medium.com/v2/resize:fit:508/1*rlolSsaDf_BRguFOB8td5Q.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 HTML5에서는 다이얼로그 요소가 있습니다. 이 요소는 HTML에서 모달 및 비모달 대화 상자를 만드는 데 사용됩니다.
 
@@ -735,7 +1034,18 @@ HTML5에서는 다이얼로그 요소가 있습니다. 이 요소는 HTML에서 
 
 # 웹 페이지와 기본 응용프로그램 간 통신
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹킷 프레임워크는 Objective-C 및 Swift를 위해 설계되었습니다. WebKit JS라고도 하는 자바스크립트 부분도 있습니다. 이는 Safari DOM 확장 기능입니다. (그것이 원래 이름일 수도 있습니다!) 기본적으로 이는 Safari 환경에 터치 제스처 이벤트, 스타일링 및 시각적 효과를 추가합니다. 실제로 그 기능 중 일부는 이미 W3C 표준의 일부로 채택되었습니다.
 
@@ -745,7 +1055,18 @@ HTML5에서는 다이얼로그 요소가 있습니다. 이 요소는 HTML에서 
 
 우선 웹 콘텐츠부터 시작해보죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```javascript
 <!-- index2.html -->
@@ -799,7 +1120,18 @@ HTML5에서는 다이얼로그 요소가 있습니다. 이 요소는 HTML에서 
 </html>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "Send Message" 버튼으로부터 발생한 처리되지 않은 예외의 스크린샷과 "Get Data" 버튼에서 처리된 예외의 스크린샷입니다.
 
@@ -809,7 +1141,18 @@ HTML5에서는 다이얼로그 요소가 있습니다. 이 요소는 HTML에서 
 
 sendWebKitMessage 함수에는 console.log가 있습니다. 이 함수는 웹 인스펙터 콘솔 영역에 메시지를 표시할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 네이티브 애플리케이션 UI와 웹 뷰를 Safari 웹 브라우저에서 검사할 수 있도록 몇 가지 변경을 가해봅시다.
 
@@ -822,7 +1165,7 @@ class BaseWebViewVM: ObservableObject {
 
     init(webResource: String? = nil) {
         ...
-        
+
 #if DEBUG
         // 검사 가능한 웹 뷰
         self.webView.isInspectable = true
@@ -854,7 +1197,18 @@ BaseWebViewVM에서 messageFromWV라는 publish된 속성이 추가되었습니�
 Text("웹 뷰에서 온 메시지:\n\(vm.messageFromWV)")
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 BaseWebViewVM 이니셜라이저에는 다음과 같은 코드 줄이 포함되어 있습니다.
 
@@ -868,7 +1222,18 @@ BaseWebViewVM 이니셜라이저에는 다음과 같은 코드 줄이 포함되�
 
 <img src="/assets/img/2024-05-20-MessagingBetweenWKWebViewandNativeApplicationinSwiftUI_6.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 HTML 버튼이 네이티브 애플리케이션과 상호 작용하도록 만들어 봅시다.
 
@@ -882,7 +1247,7 @@ struct SwiftUIWebView: UIViewRepresentable {
         let userContentController = vm.webView
             .configuration
             .userContentController
-        
+
         // 모든 메시지 핸들러를 제거합니다 (기존에 있으면)
         userContentController.removeAllScriptMessageHandlers()
 
@@ -901,7 +1266,18 @@ struct SwiftUIWebView: UIViewRepresentable {
 
 사용자 콘텐츠 컨트롤러(WKUserContentController)는 "앱의 네이티브 코드와 웹페이지의 스크립트 및 기타 콘텐츠 간의 상호 작용을 조정"합니다. 이것은 웹 뷰 구성(WKWebViewConfiguration) 구성 요소입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 메시지 송수신 핸들러를 위해 애플리케이션은 사용자 콘텐츠 컨트롤러의 add 메서드를 사용해야 합니다.
 
@@ -911,7 +1287,18 @@ struct SwiftUIWebView: UIViewRepresentable {
 
 addScriptMessageHandler는 또한 메시지 핸들러를 설치할 위치를 알아야 합니다. 이 샘플 코드에서, 애플리케이션은 WKContentWorld.page를 contentWorld 인자에 전달합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자연스럽게, 코디네이터가 메시지 통신을 처리할 것입니다. 여기 구현입니다.
 
@@ -923,7 +1310,7 @@ extension SwiftUIWebView {
         // MARK: - WKScriptMessageHandler delegate function
 
         // 메시지 송수신을 위한
-        func userContentController(_ userContentController: WKUserContentController, 
+        func userContentController(_ userContentController: WKUserContentController,
                                    didReceive message: WKScriptMessage) {
             self.viewModel.messageFrom(fromHandler: message.name,
                                        message: message.body)
@@ -938,7 +1325,7 @@ extension SwiftUIWebView {
             do {
                 let returnValue = try self.viewModel.messageFromWithReply(fromHandler: message.name,
                                                                           message: message.body)
-                
+
                 replyHandler(returnValue, nil)
             } catch WebViewErrors.GenericError {
                 replyHandler(nil, "일반 오류")
@@ -956,7 +1343,18 @@ userContentController 두 가지 구현은 사용자 컨텐츠 컨트롤러 및 
 
 메시지인 WKScriptMessage는 두 가지 중요한 매개변수, 메시지 핸들러의 이름(name)과 메시지 내용(body)을 포함합니다. 이 샘플 코드에서, 두 구현은 모두 이름과 내용을 사용하여 뷰 모델 메서드를 호출합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 보내기-수신-응답 버전을 위해 추가적인 replyHandler 클로저 인자가 있습니다. 클로저는 반환값과 오류 메시지 2개의 인자를 갖습니다. 클로저를 호출할 때 애플리케이션이 "something"을 한 인자로 전달하고 다른 하나는 nil입니다.
 
@@ -987,11 +1385,11 @@ class BaseWebViewVM: ObservableObject {
          * - WebViewErrors.GenericError
          * - WebViewErrors.ErrorWithValue(value: 99)
          */
-        
+
         if fromHandler == "getData" {
             returnValue = "{ data: \"It is good!\" }"
         }
-        
+
         return returnValue
     }
 }
@@ -999,7 +1397,18 @@ class BaseWebViewVM: ObservableObject {
 
 messageFrom 메서드는 send-receive 메시징을 처리합니다. 예외를 던지지는 않는다는 점에 유의하십시오. 던진다 해도 userContentController 메서드는 해당 오류를 웹 뷰로 다시 전달할 수 없을 것입니다. 오류를 웹 뷰로 다시 전달해야 하는 경우 send-receive-reply 메시징 전략을 사용해야 합니다 - messageFromWithReply 메서드를 사용하세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 messageFromWithReply 메서드는 예외를 throw하고 문자열 값을 반환합니다. 샘플 코드에서는 JSON 문자열을 웹 뷰로 다시 반환합니다. 자바스크립트 세계에서는 JSON 문자열을 쉽게 자바스크립트 객체로 파싱할 수 있습니다.
 
@@ -1014,7 +1423,18 @@ enum WebViewErrors: Error {
 
 첫 번째 오류는 정수값을 받습니다. 하나 이상의 인수를 받을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앱의 enum을 앱에 맞게 사용자 정의하세요!
 
@@ -1024,7 +1444,18 @@ enum WebViewErrors: Error {
 
 네이티브 애플리케이션에서 웹 뷰로 메시지를 보내는 방법은 어떤가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 네이티브 애플리케이션에서 메시지를 수신하려면 웹 페이지가 "메시지" 이벤트를 "청취"해야 합니다.
 
@@ -1058,7 +1489,18 @@ enum WebViewErrors: Error {
 
 웹 페이지는 "메시지" 이벤트리스너를 추가합니다. event.data에는 메시지 콘텐츠가 포함됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 페이지가 "메시지"를 수신하면 해당 내용을 웹 페이지에 단순히 표시합니다.
 
@@ -1068,7 +1510,7 @@ enum WebViewErrors: Error {
 struct MessageToWebView: View {
     @ObservedObject var vm = LocalWebViewVM(webResource: "index3.html")
     @State var message: String = ""
-    
+
     var body: some View {
         VStack(alignment: .leading) {
             Text("메시지:")
@@ -1092,14 +1534,25 @@ struct MessageToWebView: View {
 
 ![MessagingBetweenWKWebViewandNativeApplicationinSwiftUI](/assets/img/2024-05-20-MessagingBetweenWKWebViewandNativeApplicationinSwiftUI_7.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "보내기" 버튼은 뷰 모델에서 messageTo 메서드를 호출합니다.
 
 ```js
 func messageTo(message: String) {
     let escapedMessage = message.replacingOccurrences(of: "\"", with: "\\\"")
-    
+
     let js = "window.postMessage(\"\(escapedMessage)\", \"*\")"
     self.webView.evaluateJavaScript(js) { (result, error) in
         if let error = error {
@@ -1113,7 +1566,18 @@ func messageTo(message: String) {
 
 대신 네이티브 애플리케이션은 Javascript postMessage 호출을 생성해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 window.postMessage(...)
@@ -1130,7 +1594,18 @@ func evaluateJavaScript(
 
 evaluateJavaScript에는 completionHandler가 있습니다. 이는 반환 값을 또는 에러를 네이티브 응용 프로그램으로 돌려 보내는 방법입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 evaluateJavaScript 메서드는 JavaScript 코드를 실행하거나 평가할 수 있습니다. 예시 코드에서 window.postMessage 호출은 값을 반환하거나 오류를 반환하지 않습니다. 다른 경우에는 실행되는 코드가 값이 반환되고 예외가 발생할 수 있습니다.
 
@@ -1140,7 +1615,18 @@ evaluateJavaScript 메서드는 JavaScript 코드를 실행하거나 평가할 �
 
 위 웹 페이지에는 이벤트 리스너 선언을 포함한 스크립트 요소가 포함되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 애플리케이션이 모든 웹 페이지에 동일한 Javascript 코드를 주입해야 할 때, 모든 웹 페이지에 수동으로 스크립트 요소를 추가하는 대신, 사용자 콘텐츠 컨트롤러의 addUserScript 메서드를 활용할 수 있습니다.
 
@@ -1180,7 +1666,18 @@ window.addEventListener("message", (event) => {
 
 injectJS 함수는 동일한 이벤트 리스너 코드를 가진 변수(msgEventListener)를 포함하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `addUserScript` 함수에는 `WKUserScript`의 인스턴스가 필요합니다.
 
@@ -1190,7 +1687,18 @@ injectJS 함수는 동일한 이벤트 리스너 코드를 가진 변수(msgEven
 
 만약 자바스크립트 코드가 라이브러리이면, 코드를 `.atDocumentStart`에 주입하는 것이 가장 좋을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 forMainFrameOnly 인수는 부울 값입니다. true를 전달하면 자바스크립트 코드가 주 페이지에만 삽입됩니다. 애플리케이션은 모든 iframe 요소에 동일한 자바스크립트 코드를 삽입하지 않습니다. 그렇지 않으면 자바스크립트 코드는 주 페이지와 해당 iframe 요소에 삽입됩니다.
 
@@ -1200,7 +1708,18 @@ forMainFrameOnly 인수는 부울 값입니다. true를 전달하면 자바스�
 
 웹 인스펙터에서 삽입된 자바스크립트 코드는 "추가 스크립트 `user-script:1`" 아래에 표시됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용자가 하이퍼링크를 통해 다른 웹 페이지로 이동하면, 애플리케이션이 해당 웹 페이지에 동일한 자바스크립트 블록을 삽입합니다.
 
@@ -1210,7 +1729,18 @@ forMainFrameOnly 인수는 부울 값입니다. true를 전달하면 자바스�
 
 웹 인스펙터에서 "user-script:1"이 두 번 표시됩니다. 각 웹 페이지는 자바스크립트 코드 블록을 수신합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 사용 시나리오
 
@@ -1220,7 +1750,18 @@ iOS 또는 macOS 애플리케이션에서 사용자 가이드나 맥락에 맞�
 
 UIKit의 UILabel 및 SwiftUI의 Text 요소는 기본적인 마크다운 형식을 지원합니다. 서식이 있는 텍스트와 이미지로 유용한 도움말 페이지를 만드는 것은 다소 귀찮은 작업이 될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도움 페이지는 HTML과 CSS를 사용하여 웹 페이지로 작성할 수도 있습니다. 도움 페이지는 앱 내에 포함되어 WKWebView를 사용하여 표시될 수 있습니다.
 
@@ -1230,7 +1771,18 @@ SwiftUI 또는 UIKit을 사용하여 전체 네이티브 애플리케이션을 �
 
 ReactJS, Angular, VueJS 등의 Javascript 프레임워크를 사용하면 프론트엔드 로직을 구성하는 데 도움이 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자바스크립트 UI 라이브러리인 Bootstrap, Foundation, Semantic UI, Tailwind Elements 등은 많은 매력적인 UI 구성 요소들을 제공해요. 이 라이브러리들은 네이티브 애플리케이션의 느낌과 모양에 맞게 사용자정의할 수 있어요.
 
@@ -1240,7 +1792,18 @@ ReactJS, Angular, VueJS 등의 Javascript 프레임워크를 사용하면 프론
 
 해당 XCode 프로젝트에 대한 GitHub 링크는 여기에서 확인할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 참고 자료
 

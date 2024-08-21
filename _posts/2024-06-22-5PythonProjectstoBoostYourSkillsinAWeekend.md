@@ -3,17 +3,13 @@ title: "주말 동안 스킬을 향상시킬 5가지 파이썬 프로젝트"
 description: ""
 coverImage: "/assets/img/2024-06-22-5PythonProjectstoBoostYourSkillsinAWeekend_0.png"
 date: 2024-06-22 14:17
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-5PythonProjectstoBoostYourSkillsinAWeekend_0.png
 tag: Tech
 originalTitle: "5 Python Projects to Boost Your Skills in A Weekend"
 link: "https://medium.com/python-in-plain-english/5-python-projects-to-boost-your-skills-in-a-weekend-4c87d851dee1"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-06-22-5PythonProjectstoBoostYourSkillsinAWeekend_0.png)
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 수업을 수동적으로 시청하는 것만으로는 프로그래머가 되지 못합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로그래밍으로 역량을 향상시키는 방법을 알려드릴게요.
 
@@ -34,7 +40,18 @@ isUpdated: true
 
 # 프로젝트 1: 퀴즈 코드론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 초보자이고 간단한 프로젝트를 코딩하려는 경우, 퀴즈는 시작하기에 좋은 선택입니다.
 
@@ -44,7 +61,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-22-5PythonProjectstoBoostYourSkillsinAWeekend_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신의 퀴즈는 게임, 시험, 설문조사 등이 될 수 있어요.
 
@@ -54,7 +82,18 @@ isUpdated: true
 
 # 프로젝트 2: 스네이크 게임 코딩
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 게임은 즐기면서 프로그래밍을 빠르고 효과적으로 배울 수 있는 훌륭한 프로젝트입니다.
 
@@ -64,7 +103,18 @@ isUpdated: true
 
 만약 올바른 방향으로 진행 중인지 확인이 필요하다면 GitHub에서 여러 비디오, 블로그, 코드를 찾아볼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 뱀 게임을 좋아하지 않거나 다른 게임을 선호한다면 행맨 게임, 스페이스 인베이더, 플래피 버드 등을 코딩해보세요.
 
@@ -74,7 +124,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-22-5PythonProjectstoBoostYourSkillsinAWeekend_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다운로드 폴더가 파일로 넘쳐납니다?
 
@@ -86,7 +147,18 @@ isUpdated: true
 - Excel 폴더
 - JPG 폴더
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그런 식이죠.
 
@@ -96,7 +168,18 @@ isUpdated: true
 
 # 프로젝트 4: 데이터 분석 앱 (고급)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터 분석 분야에 발을 담그고 계신다면, 이 프로젝트는 여러분의 포트폴리오를 멋지게 만들어 줄 수 있는 훌륭한 기회입니다.
 
@@ -106,8 +189,18 @@ isUpdated: true
 
 따라서 이 프로젝트에서는 Python 모듈인 Tkinter나 Streamlit과 같은 도구를 사용하여 놀 수 있는 데이터셋과 함께 멋진 사용자 인터페이스를 만들어볼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Python project image](/assets/img/2024-06-22-5PythonProjectstoBoostYourSkillsinAWeekend_4.png)
 
@@ -117,8 +210,18 @@ isUpdated: true
 
 이 프로젝트는 프론트엔드 프로그래밍에 대한 입문에 도움이 될 것입니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 프로젝트 5: 호텔 데이터 웹 스크래핑 (고급)
 
@@ -128,7 +231,18 @@ Fiverr 또는 Upwork과 같은 프리랜서 플랫폼의 많은 구인 공고에
 
 따라서 하나의 프로젝트는 호텔 데이터로 데이터셋을 만들어 보는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아마도 몇 시간 정도 소요될 것 같아요.
 
@@ -138,10 +252,20 @@ Fiverr 또는 Upwork과 같은 프리랜서 플랫폼의 많은 구인 공고에
 
 여러 요청을 하지 않는다면, 공개 데이터를 스크랩하는 것은 합법적이에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래와 같이 표 태그를 Markdown 형식으로 변경해주세요.
-
 
 ![Python Project Image](/assets/img/2024-06-22-5PythonProjectstoBoostYourSkillsinAWeekend_5.png)
 
@@ -151,8 +275,18 @@ Fiverr 또는 Upwork과 같은 프리랜서 플랫폼의 많은 구인 공고에
 
 동영상을 수동적으로 시청하며 프로그래밍을 배울 수는 없습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로그래밍을 통해 프로그래머가 될 것입니다.
 
@@ -162,7 +296,18 @@ Fiverr 또는 Upwork과 같은 프리랜서 플랫폼의 많은 구인 공고에
 
 🦜 만약 제 포스트를 좋아하셨다면, 신경과학, 심리학, 생산성, 동물, 파이썬에 관한 더 많은 콘텐츠를 보려면 👏 50번 클랩 해주세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 아래 사항을 참고하실 수 있습니다:
 
@@ -172,7 +317,18 @@ Fiverr 또는 Upwork과 같은 프리랜서 플랫폼의 많은 구인 공고에
 
 # 일반 언어로 🚀
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 In Plain English 커뮤니티에 참여해 주셔서 감사합니다! 떠나시기 전에:
 

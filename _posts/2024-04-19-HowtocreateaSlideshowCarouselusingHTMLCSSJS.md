@@ -3,17 +3,13 @@ title: "HTML, CSS, JS를 사용하여 슬라이드 캐러셀을 만드는 방법
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How to create a Slideshow Carousel using HTML, CSS , JS"
 link: "https://medium.com/@algopoint.ltd/how-to-create-a-slideshow-carousel-using-html-css-js-7ab0561b39b3"
 isUpdated: true
 ---
-
-
-
-
 
 최근에 슬라이드쇼/캐로셀을 구현해야 하는 프로젝트를 진행 중이에요. 구글에서 검색했지만 다양한 기능을 갖춘 캐로셀을 찾지 못했어요. 그래서 직접 만들어 보기로 결정했죠.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ![이미지](https://miro.medium.com/v2/resize:fit:980/1*YgxV5tKm0pBR307gZMuDOQ.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # HTML
 
@@ -37,7 +44,18 @@ isUpdated: true
 
 # CSS
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 CSS 부분으로 넘어가 봅시다. 먼저 베이스를 설정해야 합니다.
 다음 이미지는 CSS 구조화 방법을 보여줍니다.
@@ -49,7 +67,18 @@ isUpdated: true
 
 이 컨테이너에 적용해야 하는 속성을 간단히 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Slide Image](/assets/img/HowtocreateaSlideshowCarouselusingHTMLCSS-JS_3.png)
 
@@ -61,7 +90,18 @@ isUpdated: true
 수직 슬라이더를 만들려면 scroll-snap-type: y mandatory를 사용할 수 있습니다.
 scroll-snap 속성에 대해 더 알아보려면 여기를 확인하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 팁: 스크롤 막기는 하되 기능은 유지하려면 다음과 같이 할 수 있습니다
 
@@ -72,7 +112,18 @@ scroll-snap 속성에 대해 더 알아보려면 여기를 확인하세요.
 - document.getElementById() 함수를 사용하여 document에서 nextButton, prevButton 및 itemList 객체를 가져옵니다.
 - 이제 eventListener를 사용하여 클릭할 때 항목 스크롤을 구현합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/HowtocreateaSlideshowCarouselusingHTMLCSS-JS_4.png" />
 
@@ -83,7 +134,18 @@ scroll-snap 속성에 대해 더 알아보려면 여기를 확인하세요.
 
 이 문서를 읽어 주셔서 감사합니다. 유용하게 느꼈다면 친구나 가족과 공유해주세요. 저를 지원하려면 팔로우 버튼을 클릭해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 트위터에서 만나요! 내 관객들을 더 알고 커뮤니티를 형성하고 싶어요 :)
 

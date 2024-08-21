@@ -3,17 +3,13 @@ title: "CSS Flexbox 사용 방법 및 속성 정리"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "CSS Flexbox Fundamentals"
 link: "https://medium.com/@muskan.vgupta306/css-flexbox-fundamentals-fd9f769bcdad"
 isUpdated: true
 ---
-
-
-
-
 
 웹 디자인 분야에서 반응형 레이아웃을 구현하는 것은 매우 중요한 요소이며, 이 과정을 간단하게 만들어주는 솔루션이 있습니다. 바로 Flexbox입니다. Flexbox는 웹 페이지 내 요소를 배치하고 정렬하는 과정을 단순화하는 현대적인 솔루션입니다. 경험 많은 개발자이거나 웹 디자인 세계로 첫 발을 내딛는 분이라도, Flexbox는 멋진 작업 가능한 레이아웃을 쉽게 만들 수 있게 도와주는 필수 도구입니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 특정 요소에 display: flex 속성을 적용하면 해당 요소가 일반적으로 말하는 Flex 컨테이너로 변환됩니다. "컨테이너"는 내용물을 담는 용도로 설계된 것이며, 이 경우에도 마찬가지입니다. Flex 컨테이너 안에는 "자식 요소"라고도 불리는 다른 중첩된 요소를 넣어야 합니다. 이들의 자식 요소는 Flex 아이템으로 불리기도 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컨테이너에 대해 이야기할 때는 flex-flow, justify-content, align-content 및 align-items와 같은 다양한 속성을 사용할 수 있습니다. 마찬가지로,이 컨테이너 내부의 항목을 처리할 때도 order, flex 및 align-self와 같은 특정 속성을 사용할 수 있습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 flex를 적용하기 위해 display 속성으로 flex 값을 사용할 때의 모습을 자세히 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가정해보죠. 블록 수준 요소로 시작하는 경우가 있습니다. 예를 들어 div 요소는 기본적으로 display 값이 block입니다. 이 부모 div 내부에는 특정 너비와 높이 속성이 적용된 각각의 추가 블록 수준 요소를 자식으로 배치할 수 있습니다.
 
@@ -43,7 +61,18 @@ flex를 적용하기 위해 display 속성으로 flex 값을 사용할 때의 �
 
 ![CSSFlexboxFundamentals_2.png](/assets/img/CSSFlexboxFundamentals_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 부모 div 요소의 display 속성을 "flex"로 설정하면 결과는 다음과 같습니다.
 
@@ -53,7 +82,18 @@ flex를 적용하기 위해 display 속성으로 flex 값을 사용할 때의 �
 
 간단히 말해, 이제 플렉스 컨테이너인 부모 요소는 일반적인 웹 페이지 레이아웃 규칙을 따르는 블록 수준 요소처럼 행동합니다. 한편에는 그 자식 요소들이 유연한 레이아웃 속성을 적용받은 플렉스 컨테이너의 유연하고 적응 가능한 위치 지정을 허용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 부모 요소가 자식 요소를 플렉스 아이템으로 구성하면서도 인라인과 같은 동작을 유지하길 원한다면 "display: inline-flex"를 선택할 수 있습니다.
 
@@ -63,7 +103,18 @@ flex를 적용하기 위해 display 속성으로 flex 값을 사용할 때의 �
 
 # FlexBox 컨테이너
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금 display 속성을 flex로 설정하면 기본적으로 두 가지 속성이 작용합니다.
 첫 번째는 기본값이 행(row)인 flex-direction입니다.
@@ -75,7 +126,18 @@ flex-direction 속성은 CSS Flexbox의 기본 구성 요소로, 플렉스 아�
 
 flex-direction에는 네 가지 가능한 값이 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 행 (기본값): 이 값은 플렉스 항목을 가로로 정렬하여 왼쪽에서 오른쪽으로 이동합니다.
 
@@ -85,7 +147,18 @@ row-reverse: 이 값은 행 값과 유사하지만 반대로, 플렉스 항목�
 
 열: 열로 설정하면 플렉스 항목이 수직으로 정렬되어 위에서 아래로 쌓입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/CSSFlexboxFundamentals_6.png)
 
@@ -95,7 +168,18 @@ row-reverse: 이 값은 행 값과 유사하지만 반대로, 플렉스 항목�
 
 CSS 속성 flex-wrap은 flex 항목이 한 줄에 있어야 하는지 여러 줄로 래핑될 수 있는지를 제어합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 flex-wrap에는 3가지 가능한 값이 있습니다:
 
@@ -105,7 +189,18 @@ flex-wrap에는 3가지 가능한 값이 있습니다:
 
 참고: 너비가 100px로 지정된 flex 항목은 할당된 너비에 엄격하게 준수하지 않을 수 있습니다. 이는 flex 항목의 기본 동작에 기인하는데, 이는 기본값이 1인 flex-shrink 속성을 포함합니다. 결과적으로 이러한 flex 항목은 내용을 수용하기 위해 너비를 줄이려고 시도하지만, 축소할 수 있는 한계가 있습니다. 나중에 이 기사에서 이 flex-shrink 속성을 자세히 알아볼 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 wrap: flex 항목은 flex-direction 속성에 지정된 값에 따라 여러 줄 또는 여러 열로 나뉩니다.
 
@@ -115,7 +210,18 @@ wrap-reverse: wrap 값과 동일하지만 반대 방향으로 동작합니다.
 
 ![CSSFlexboxFundamentals_9.png](/assets/img/CSSFlexboxFundamentals_9.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다양한 속성을 탐색하기 전에 주축(Main Axis) 및 교차축(Cross Axis) 개념을 잡는 것이 중요합니다. 이 용어들에 대해 자세히 알아보겠습니다.
 
@@ -125,7 +231,18 @@ wrap-reverse: wrap 값과 동일하지만 반대 방향으로 동작합니다.
 
 요컨대, 주축과 교차축은 서로 수직이며, 시작점과 방향은 flex-direction 속성에 의해 결정됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/CSSFlexboxFundamentals_10.png)
 
@@ -135,7 +252,18 @@ wrap-reverse: wrap 값과 동일하지만 반대 방향으로 동작합니다.
 
 flex-flow는 flex 컨테이너의 방향과 감싸기 동작을 지정하는 CSS 단축 속성입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/CSSFlexboxFundamentals_11.png)
 
@@ -145,7 +273,18 @@ flex-flow는 flex 컨테이너의 방향과 감싸기 동작을 지정하는 CSS
 
 가장 일반적으로 사용되는 속성 값은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 stretch: 이것이 기본값입니다. 플렉스 항목은 플렉스 컨테이너 요소에 맞게 늘어납니다.
 
@@ -155,7 +294,18 @@ center: 플렉스 항목은 플렉스 컨테이너 요소의 중앙에 위치합
 
 ![이미지2](/assets/img/CSSFlexboxFundamentals_13.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 flex-start: Flex items are positioned at the beginning of the flex container element.
 
@@ -165,7 +315,18 @@ flex-end: Flex items are positioned at the end of the flex container element.
 
 ![Flex-end](/assets/img/CSSFlexboxFundamentals_15.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## justify-content
 
@@ -175,7 +336,18 @@ flex-end: Flex items are positioned at the end of the flex container element.
 
 - `flex-start`: 이 값은 기본 값입니다. Flex 항목은 flex 컨테이너 요소의 시작 부분에 배치됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![CSS Flexbox Fundamentals 16](/assets/img/CSSFlexboxFundamentals_16.png)
 
@@ -185,7 +357,18 @@ center: Flex 항목은 플렉스 컨테이너 요소의 중앙에 위치합니�
 
 flex-end: Flex 항목은 플렉스 컨테이너 요소의 끝에 위치합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![CSSFlexboxFundamentals_18](/assets/img/CSSFlexboxFundamentals_18.png)
 
@@ -195,7 +378,18 @@ space-between: Flex 아이템은 플렉스 컨테이너 요소 사이에 공간�
 
 space-around: Flex 아이템은 플렉스 컨테이너 요소 전후로 공간이 생깁니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/CSSFlexboxFundamentals_20.png" />
 
@@ -205,7 +399,18 @@ space-evenly: Flex 아이템은 플렉스 컨테이너 요소 주변에 동일�
 
 ## align-content
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `align-content` 속성은 여러 줄의 플렉스 아이템에 사용됩니다. 플렉스 아이템이 한 줄에 있는 경우에는 아무 효과가 없습니다. 이 속성을 사용하면 플렉스 아이템을 교차 축인 따라 정렬할 수 있습니다.
 
@@ -215,7 +420,18 @@ space-evenly: Flex 아이템은 플렉스 컨테이너 요소 주변에 동일�
 
 ![CSSFlexboxFundamentals_22.png](/assets/img/CSSFlexboxFundamentals_22.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가운데: Flex 아이템은 플렉스 컨테이너 요소의 중앙 쪽으로 정렬됩니다. 이것은 Cross Axis를 따라 플렉스 아이템을 가운데 정렬합니다.
 
@@ -225,7 +441,18 @@ space-evenly: Flex 아이템은 플렉스 컨테이너 요소 주변에 동일�
 
 ![이미지](/assets/img/CSSFlexboxFundamentals_24.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 flex-end: Flex 항목은 flex 컨테이너 요소의 끝 쪽으로 정렬됩니다.
 
@@ -235,7 +462,18 @@ space-between: Flex 항목은 flex 컨테이너 요소에서 고르게 분배됩
 
 ![이미지](/assets/img/CSSFlexboxFundamentals_26.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 Markdown 형식에 맞게 수정된 내용입니다.
 
@@ -247,7 +485,18 @@ space-evenly: Flex 아이템은 flex 컨테이너 요소 안에서 고르게 분
 
 ![이미지 2](/assets/img/CSSFlexboxFundamentals_28.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 플렉스 아이템 속성
 
@@ -257,7 +506,18 @@ order 속성은 플렉스 아이템을 순서대로 그룹화하는 데 사용�
 
 ![이미지](/assets/img/CSSFlexboxFundamentals_29.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## align-self
 
@@ -267,7 +527,18 @@ align-self은 플렉스 컨테이너 내 개별 플렉스 아이템의 정렬을
 
 ## flex-grow
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `flex-grow` 속성은 플렉스 아이템이 플렉스박스 컨테이너 내에서 얼마나 확장될 수 있는지를 결정합니다. 이는 플렉스박스 컨테이너 내에서 남은 사용 가능한 공간 중 일부가 플렉스 아이템에 할당되어야 하는 비율으로 표현됩니다.
 
@@ -277,7 +548,18 @@ align-self은 플렉스 컨테이너 내 개별 플렉스 아이템의 정렬을
 
 ## flex-shrink
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 flex-shrink 속성은 플렉스박스 컨테이너 내의 플렉스 항목에서 축소 계수를 지정합니다. 모든 플렉스 항목의 결합된 크기가 플렉스박스 컨테이너 내의 사용 가능한 공간을 초과하는 경우, flex-shrink 속성이 작용합니다. 이는 각 플렉스 항목이 사용 가능한 공간에 맞게 크기를 얼마나 축소할 수 있는지를 결정합니다. flex-shrink의 초기 값은 1(one)입니다.
 
@@ -287,7 +569,18 @@ flex-shrink 속성은 플렉스박스 컨테이너 내의 플렉스 항목에서
 
 flex-basis 속성은 플렉스 컨테이너의 주 축을 따라 플렉스 항목의 크기를 결정합니다. flex-basis는 너비나 높이를 명확히 지정하지 않고, 대신 주 축의 방향에 따라 플렉스 항목의 초기 크기를 설정하는 것이 중요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Main Axis가 좌에서 우로 뻗어나갈 경우, flex-basis 값은 flex 항목의 너비에 영향을 미칩니다. 반대로, Main Axis가 위에서 아래로 뻗어나갈 경우, flex-basis 값은 flex 항목의 높이를 결정합니다.
 
@@ -297,7 +590,18 @@ flexbox 컨테이너의 경우, 부모는 flex-direction 속성을 row로 설정
 
 반면, item4의 경우, flex-basis가 자동으로 설정된 기본값의 auto로 되어있기 때문에, 본질적으로 이전에 정의된 너비 값으로 되돌아가, 적용된 너비를 유지하게 됩니다. 이 동작은 flex-basis가 명시적으로 설정된 너비 값으로 되돌아가기 때문에 발생하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## flex
 
@@ -307,7 +611,18 @@ CSS에서의 flex 속성은 flexbox 컨테이너 내의 flex 항목에 대한 �
 
 이 글은 여기서 마칩니다. Flexbox 레이아웃의 flex 컨테이너와 flex 항목에 대한 핵심 원칙과 필수 속성에 대한 견고한 이해를 제공해 드렸기를 바랍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS의 세계를 계속 탐험하면서 연습과 실험이 당신의 최고의 동반자가 될 것을 기억해 주세요. Flexbox의 세계에 몰두하여 그 기능을 두려움 없이 탐험하고, 정확하고 유연한 레이아웃으로 여러분의 웹 디자인이 살아있는 것을 확인해 보세요. 코딩을 즐기세요!
 

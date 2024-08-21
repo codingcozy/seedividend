@@ -3,17 +3,13 @@ title: "디자이너들이 자주 놓치는 안좋은 UX 20가지 (2024년 최�
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Bad Bad UX 20 Common Mistakes in User Experience"
 link: "https://medium.com/@FlowMapp/bad-bad-ux-20-common-mistakes-in-user-experience-d30301ba686b"
 isUpdated: true
 ---
-
-
-
-
 
 가끔은 무엇을 해서는 안 되는지에 대한 조언이 가장 현실적인 것으로 나타날 때가 있습니다. 왜냐하면 간단한 가이드와 추천은 잘못된 결정을 내릴 여지를 항상 남겨 두기 때문이죠. 그래서 우리는 당신과 함께 UX를 망칠 수 있는 좋지 않은 경험의 몇 가지 예시를 공유하기로 결정했습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ## #1 — 오디오/비디오 자동 재생
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당연히 웹 페이지를 여는 순간 바로 발생하는 오디오 재생은 웹 사이트 사용자들을 괴롭히는 가장 귀찮은 일 중 하나입니다. 간단히 말해서, 웹 사이트 방문자들에게 볼륨을 급하게 줄이라는 강요 대신 기본 음소거를 제공하고 끌 수 있는 옵션을 제공하세요.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 COVID-19 때문에 기분이 나빠지셨나요? 우리의 가구가 해결해줄 거예요. 우리의 스시 배달이 해결해줄 거예요. 우리의 핸드폰이 그걸 해결해줄 거에요. 유사한, 아마도 덜 직접적인 표현은 거의 모든 웹 사이트에서 찾을 수 있습니다. 그들의 텍스트 컨텐츠에 약간의 관련성을 추가하기로 결정한 관리자가 있는 웹 사이트에서 찾을 수 있습니다. 이렇게 하지 마십시오. 비즈니스를 연결하지 않는 세계적인 문제를 귀사의 비즈니스 분야로 끌어들이지 마십시오.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Bad-Bad-UX:-20-Common-Mistakes-in-User-Experience_1.png](/assets/img/Bad-Bad-UX:-20-Common-Mistakes-in-User-Experience_1.png)
 
@@ -43,7 +61,18 @@ COVID-19 때문에 기분이 나빠지셨나요? 우리의 가구가 해결해�
 
 ![Bad-Bad-UX:-20-Common-Mistakes-in-User-Experience_2.png](/assets/img/Bad-Bad-UX:-20-Common-Mistakes-in-User-Experience_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## #4 — 긴 드롭다운 메뉴
 
@@ -53,7 +82,18 @@ COVID-19 때문에 기분이 나빠지셨나요? 우리의 가구가 해결해�
 
 ## #5 — 세 번의 클릭 규칙 위반
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용자가 귀하의 웹사이트에서 원하는 작업을 완료하기 위해 몇 번의 클릭을 해야 하는지 확인해 보셨나요? 기본 작업에 대해서 이 숫자가 세 번을 초과한다면, 사용자 경험(UX)에 문제가 있을 수 있습니다.
 
@@ -63,7 +103,18 @@ COVID-19 때문에 기분이 나빠지셨나요? 우리의 가구가 해결해�
 
 체크리스트는 사용자가 이진 형식의 예/아니오 답변을 할 수 있도록 원래 만들어졌다는 것을 알고 계셨나요? 이는 전적으로 사실이 아니며, 더 많은 옵션이 있을 수 있지만 그것을 남용해서는 안 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Bad UX example 5](/assets/img/Bad-Bad-UX:-20-Common-Mistakes-in-User-Experience_5.png)
 
@@ -73,7 +124,18 @@ COVID-19 때문에 기분이 나빠지셨나요? 우리의 가구가 해결해�
 
 ![Bad UX example 6](/assets/img/Bad-Bad-UX:-20-Common-Mistakes-in-User-Experience_6.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## #8 — 발견하기 어려운 기능
 
@@ -83,7 +145,18 @@ COVID-19 때문에 기분이 나빠지셨나요? 우리의 가구가 해결해�
 
 ## #9 — 짜증나는 색 구성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 색상이 그렇게 중요하지 않다면, 팬톤 색상 연구소가 없었을 테지요. 실제로 사람들은 색상에 많은 주의를 기울이며, 이 규칙은 웹사이트 색 구성에도 적용됩니다. 따라서 빛나는 것을 선택하기보다는 어떤 색조가 인간 인지에 가장 유익한 효과를 주는지에 관심을 가져보세요.
 
@@ -93,7 +166,18 @@ COVID-19 때문에 기분이 나빠지셨나요? 우리의 가구가 해결해�
 
 당신의 웹사이트에서 비밀리에 펜타곤 데이터를 공유하시나요? 아니면 음모론을 게시하시나요? 그렇지 않다면, 왜 뛰어난 기억력을 가진 사람들만이 리소스에 접근할 수 있도록 허용하시나요? 분명히, 그들만이 높은 비밀번호 요구 사항 때문에 당신의 웹사이트 계정에 액세스할 수 있을 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제가 사용자 경험(User Experience)에서 가장 흔한 실수 중 하나인 "#11 — CAPTCHA 남용"에 대해 이야기해볼까요?
 
@@ -101,7 +185,18 @@ COVID-19 때문에 기분이 나빠지셨나요? 우리의 가구가 해결해�
 
 이미지: ![이미지](/assets/img/Bad-Bad-UX:-20-Common-Mistakes-in-User-Experience_10.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## #12 — 데모 콘텐츠 사용 방식이 잘못됨
 
@@ -111,7 +206,18 @@ COVID-19 때문에 기분이 나빠지셨나요? 우리의 가구가 해결해�
 
 ## #13 — 직관성의 부족
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹마스터들의 창의적인 사고가 상식보다 우선될 때가 많습니다. 그 결과로 아래 예시처럼 해결책을 만들어 냅니다. 어디를 클릭해야 하는 걸까요? 어디를 클릭해야 하는 건지요? 다른 웹사이트로 넘어가 보겠습니다.
 
@@ -121,7 +227,18 @@ COVID-19 때문에 기분이 나빠지셨나요? 우리의 가구가 해결해�
 
 트렌디하려면 일리가 없는 핫 키워드를 사용할 필요는 없어요. 결국, 다음으로 방문할 인터넷 이용자가 누군지 아무도 모르는데요. 아마도 주 타겟 대상으로부터 먼 사람일 수도 있습니다. 그 사실을 잊지 말아 주세요. 명확하게 얘기해 주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Bad-Bad-UX:-20-Common-Mistakes-in-User-Experience_13](/assets/img/Bad-Bad-UX:-20-Common-Mistakes-in-User-Experience_13.png)
 
@@ -131,7 +248,18 @@ COVID-19 때문에 기분이 나빠지셨나요? 우리의 가구가 해결해�
 
 ![Bad-Bad-UX:-20-Common-Mistakes-in-User-Experience_14](/assets/img/Bad-Bad-UX:-20-Common-Mistakes-in-User-Experience_14.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## #16 — 권한 문제
 
@@ -141,7 +269,18 @@ COVID-19 때문에 기분이 나빠지셨나요? 우리의 가구가 해결해�
 
 ## #17 — 단어 과도 사용
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 좋은 컨텐츠 작가를 찾는 것은 쉬운 일이 아닙니다. 그러나 사용자들이 원하는 만큼 자주 웹사이트를 방문하지 않는 이유를 나중에 분석하는 것이 훨씬 더 어려울 수 있습니다. 간결하고 명확하게 글을 쓸 수 있는 사람들을 찾아보세요, 그러면 문제가 없을 겁니다.
 
@@ -151,7 +290,18 @@ COVID-19 때문에 기분이 나빠지셨나요? 우리의 가구가 해결해�
 
 상사에게 그만두고 싶다고 문자를 보내고 후회해서 메시지를 삭제하고, 그 뒤에 무엇을 쓰고 싶었는지 설명하려고 하는 상황이 있을 때 더 나쁜 일은 없습니다. 아래의 예시에 대해 이야기하고 있습니다. 많은 웹 솔루션은 이러한 접근 방식을 지키지 못합니다. 우리의 권장 사항을 따른다면 당신의 것과는 다르게 될 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Bad Bad UX: 20 Common Mistakes in User Experience_17](/assets/img/Bad-Bad-UX:-20-Common-Mistakes-in-User-Experience_17.png)
 
@@ -161,7 +311,18 @@ COVID-19 때문에 기분이 나빠지셨나요? 우리의 가구가 해결해�
 
 ![Bad Bad UX: 20 Common Mistakes in User Experience_18](/assets/img/Bad-Bad-UX:-20-Common-Mistakes-in-User-Experience_18.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## #20 — 로딩 지연
 
@@ -171,7 +332,18 @@ COVID-19 때문에 기분이 나빠지셨나요? 우리의 가구가 해결해�
 
 # 마지막으로
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신의 웹사이트 방문자들이 인터페이스와 상호작용하는 데 어려움을 겪는 실수로부터 당신을 구해줬으면 좋겠습니다. 그러므로 이제 완벽한 사용자 경험을 만들기 위한 한 걸음 더 나아갈 수 있게 된 것입니다.
 

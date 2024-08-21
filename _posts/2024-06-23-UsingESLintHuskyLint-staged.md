@@ -3,16 +3,13 @@ title: "ESLint  Husky  Lint-staged 사용 방법 및 설정 가이드"
 description: ""
 coverImage: "/assets/img/2024-06-23-UsingESLintHuskyLint-staged_0.png"
 date: 2024-06-23 13:55
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-UsingESLintHuskyLint-staged_0.png
 tag: Tech
 originalTitle: "Using ESLint + Husky + Lint-staged"
 link: "https://medium.com/@bkn020612/using-eslint-husky-lint-staged-6d6609b02fc2"
 isUpdated: true
 ---
-
-
-
 
 저는 새로운 회사에 프론트엔드 개발자로 합류했어요!
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 그렇지만 5명 이상이 참여하는 프로젝트에서 각자 다른 스타일로 코딩한 걸 보면, 특히 네이밍 규약과 함수 이름 (사실 패턴까지도)에 다양한 스타일이 있음을 알게 되었어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제가 회사에 새로 합류한 입장에서는 코드를 이해하는 데 시간이 걸렸는데, 이러한 시간을 최소화하기 위해 이름 규칙을 적어도 일관되게 적용할 방법에 대해 생각하기 시작했습니다.
 
@@ -32,9 +40,20 @@ isUpdated: true
 
 사실, 이는 이 두 도구의 사용을 무효화시키는 결과를 초래합니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-요즘에는 VSCode와 같은 IDE가 팝업 알림을 제공하지만, 커밋하기 전에 추가적인 확인을 하는 것도 나쁘지 않은 생각이에요. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+요즘에는 VSCode와 같은 IDE가 팝업 알림을 제공하지만, 커밋하기 전에 추가적인 확인을 하는 것도 나쁘지 않은 생각이에요.
 
 그래서, 커밋 전에 코드 스타일을 확인하는 라이브러리 husky를 사용해보자는 아이디어를 생각해냈어요. 이렇게 하면 더 편리할 거에요.
 
@@ -42,7 +61,18 @@ isUpdated: true
 
 먼저, 대부분의 분들이 이미 알고 있을 것 같지만, ESLint와 Prettier가 무엇인지 간단히 설명드리겠어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## ESLint: 코드의 수호천사 👼
 
@@ -55,7 +85,18 @@ ESLint는 교묘한 구문 오류를 잡는 것뿐만 아니라 일관된 코드
 코드베이스를 위한 패션 관리자가 있는 것 같아요.
 Prettier는 코드를 새롭게 꾸며주는 데 도움을 줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 두 가지 도구는 때때로 구성 사항 간의 충돌로 이어져있는 코드 스타일과 관련된 측면을 다룹니다. 이러한 충돌을 처리하는 것이 중요합니다.
 
@@ -65,7 +106,18 @@ Prettier는 코드를 새롭게 꾸며주는 데 도움을 줍니다.
 
 이전에 논의한 바와 같이 Husky는 git commit이나 git push와 같은 중요한 Git 이벤트가 발생하기 전에 지정된 스크립트를 실행하는 데 도움이 되는 다재다능한 라이브러리입니다. 이 고급 도구는 사실상 지휘자 역할을 하여 Git 내에서의 작업 흐름을 안내하고 개발자가 개발 과정을 보다 세밀하게 통제할 수 있도록 돕습니다. Husky는 Git 이벤트 사이에 전략적으로 배치된 후크를 구현하여 작동하며 작업 흐름을 섬세하게 조정할 수 있게 합니다. 이런 제어된 이벤트 저지 기법 패러다임은 보통 git 후크 관리로 불립니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## lint-staged
 
@@ -78,7 +130,18 @@ lint-staged는 코드 품질 보증 분야에서 세련되고 전략적인 협�
 
 ## husky & lint-staged 사용하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Husky 및 lint-staged을 설치하세요
 
@@ -100,7 +163,18 @@ npx mrm lint-staged
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## husky 설정하기
 
@@ -110,7 +184,18 @@ mrm은 다운로드 시 기본 구성을 제공하기 때문에 별도로 구성
 
 lint-staged의 구성은 사용 중인 프로그래밍 언어에 따라 다를 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나의 경우에는 TypeScript를 사용하고 있기 때문에 별도로 설정해주어야 했습니다.
 
@@ -127,7 +212,18 @@ lint-staged의 구성은 사용 중인 프로그래밍 언어에 따라 다를 �
 
 당신의 상황에 따라 제거하는 것도 고려해볼 수 있어요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 실행하면 아래와 같이 Husky가 원활하게 작동하는 것을 확인할 수 있습니다.
 
@@ -139,8 +235,18 @@ git commit -m 'husky work'
 
 <img src="/assets/img/2024-06-23-UsingESLintHuskyLint-staged_1.png" />
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 😎
 

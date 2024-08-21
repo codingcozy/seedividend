@@ -3,17 +3,13 @@ title: "드론 사진을 3D 모델로 변환할 수 있는 포토그램메트리
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "An Open Source Photogrammetry Pipeline"
 link: "https://medium.com/better-programming/opensource-photogrammetry-pipeline-41854dca4e8e"
 isUpdated: true
 ---
-
-
-
-
 
 ## 드론 사진을 3D 모델로 변환하고 결과물을 지도상에 표시해보세요
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 위키피디아에 따르면:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저 전문가가 아닌 것을 언급하고 싶습니다. 드론을 활용하여 더 흥미로운 일을 하려는 개발자일 뿐입니다. 그렇지만 포토그래미터리를 사용하여 3D 모델을 만들기 위해서는 서로 겹치는 많은 사진이 필요합니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ![img](/assets/img/AnOpenSourcePhotogrammetryPipeline_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 비행 계획
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 ![이미지](/assets/img/AnOpenSourcePhotogrammetryPipeline_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아이디어는 타겟의 겹친 사진을 다양한 각도에서 촬영하는 것입니다. 그 작업을 하기 위해 두 가지 다른 비행 모드를 사용할 수 있어요: Orbit 또는 Waypoints. Waypoints가 가장 많이 사용되는 모드이지만, 저는 더 직관적인 Orbit 모드를 선택했어요. Orbit 모드에서는 드론을 타겟의 중심에 위치시키고 반지름을 선택해야 해요. 카메라는 항상 타겟을 향하고 있어야 합니다.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 # OpenDroneMap (ODM)을 사용한 이미지 처리
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ODM은 놀라운 오픈소스 도구이며, 드론 사진을 가져와 유용한 출력물을 많이 생성합니다.
 
@@ -66,7 +106,18 @@ ODM을 실행하는 데 필요한 유일한 것은 도커입니다. ODM에는 �
 │   ├── images
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 교회 폴더 안에서 다음 명령을 실행해주세요:
 
@@ -78,7 +129,18 @@ docker run -ti - rm -v .:/datasets/code opendronemap/odm - project-path /dataset
 
 아래 이미지에서 제 오비트 비행 모드와 카메라 촬영 위치를 확인할 수 있어요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![AnOpenSourcePhotogrammetryPipeline_3](/assets/img/AnOpenSourcePhotogrammetryPipeline_3.png)
 
@@ -88,7 +150,18 @@ docker run -ti - rm -v .:/datasets/code opendronemap/odm - project-path /dataset
 
 우리는 CesiumIon을 사용하여 모델을 적절히 호스팅하고 제공할 것입니다. 모델은 3D 타일로 제공될 것입니다. Cesium 계정을 만들어주세요. 개발자용으로 무료입니다. 모델을 CesiumIon에 업로드하는 과정은 매우 간단하며 다음 튜토리얼에서 다룹니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 odm-texturing 폴더의 모든 파일을 업데이트하는 걸 잊지 마세요. 다만 문제가 있었어요. Cesium이 지구 상에 모델 위치를 찾지 못해서 수동으로 설정해야 했어요. Cesium에는 이에 대한 튜토리얼도 있어요.
 
@@ -98,7 +171,18 @@ odm-texturing 폴더의 모든 파일을 업데이트하는 걸 잊지 마세요
 
 네, 이제 코딩을 해볼까요? 이 모델을 지도에 렌더링하기 위해 다양한 라이브러리를 사용할 거에요, 하지만 최종 코드는 매우 간단할 거에요. 이것들은 사용할 라이브러리들이에요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Vite — 프로젝트를 부트스트랩합니다
 - react-map-gl — React 방식으로 베이스 맵을 렌더링합니다
@@ -114,7 +198,18 @@ React 및 TypeScript 프로젝트를 부트스트랩하려면:
 pnpm create vite your-project-name --template react-ts
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트 폴더로 이동하여 의존성을 설치하세요:
 
@@ -131,7 +226,18 @@ mkdir components
 touch components/Loading.tsx components/ChurchMap.tsx
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 app.css 파일과 App.tsx의 모든 보일러플레이트 코드를 삭제할 수 있어요. 그 다음 main.tsx로 이동해서 app.css import를 삭제하고 maplibre CSS import를 추가하세요. 이 CSS는 기본 지도를 올바르게 렌더링하게 해줄 거에요.
 
@@ -155,7 +261,18 @@ ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
 touch src/mapHelpers.tsx
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 코드는 Mapbox 스타일 객체입니다. 맵 소스를 지정하고 스타일을 적용하는 등 다양한 작업을 수행할 수 있습니다.
 
@@ -212,7 +329,18 @@ export default function ChurchMap() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 작동 중인 베이스 맵이 있으면, Deck.gl을 추가할 수 있어요. Deck.gl은 다른 라이브러리와 통합하는 방법을 가르쳐 주는 좋은 문서가 있어요. 우리의 경우에는 react-map-gl이죠, 그런데 문제가 있어요. 그들의 예시들 중 많은 것들이 react-map-gl의 오래된 버전을 사용하고 있어요. 이 두 라이브러리를 올바르게 통합하려면 다음의 예시를 사용해야 해요:
 
@@ -227,7 +355,18 @@ touch.env.local;
 VITE_CESIUM = yourAccessToken
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ChurchMap.tsx 컴포넌트를 Deck.gl과 CesiumIon 데이터로 업데이트해보세요.
 
@@ -308,6 +447,17 @@ export default function ChurchMap() {
 
 <img src="/assets/img/AnOpenSourcePhotogrammetryPipeline_4.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이상입니다, 모두 여러분. 읽어 주셔서 감사합니다.

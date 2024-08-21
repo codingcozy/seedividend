@@ -3,15 +3,13 @@ title: "온라인 학습 및 교육 모바일 앱 PWA를 HTML로 만드는 방�
 description: ""
 coverImage: "/assets/img/2024-07-09-OnlineLearningandEducationMobileAppPWAHTML_0.png"
 date: 2024-07-09 09:02
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-OnlineLearningandEducationMobileAppPWAHTML_0.png
 tag: Tech
 originalTitle: "Online Learning and Education Mobile App PWA HTML"
 link: "https://medium.com/@patternvirtuoso/online-learning-and-education-mobile-app-pwa-html-73a938e923cc"
 isUpdated: true
 ---
-
-
 
 🔍 온라인 학습 및 교육을 위한 모바일 앱 PWA HTML을 지금 확인해보세요! 저희의 📁 사이트 템플릿 웹 템플릿 라이브러리를 탐험하고 🆓 무료 다운로드 혜택을 받으세요. 함께 공작을 시작해봐요! 🚀
 
@@ -21,7 +19,18 @@ Guruji로 모바일 학습의 힘을 불러내세요. Guruji는 학생, 교육�
 
 주요 기능:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Progressive Web App (PWA) 기술: 앱 스토어 설치 없이 네이티브 앱과 유사한 경험을 제공하여 더 넓은 대중에게 도달하고 배포 과정을 간소화합니다.
 - 다양한 학습 형식: 영상 강의, 대화식 퀴즈, 다운로드 가능한 자료 등 다양한 형식의 코스를 제공하여 다양한 학습 성향을 고려합니다.
@@ -36,7 +45,18 @@ Guruji로 모바일 학습의 힘을 불러내세요. Guruji는 학생, 교육�
 
 지금 지니를 다운로드하여 모바일 학습의 잠재력을 스스로와 사용자들에게 펼쳐보세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사양:
 
@@ -54,7 +74,18 @@ Guruji로 모바일 학습의 힘을 불러내세요. Guruji는 학생, 교육�
 - HTML 파일
 - 설명서
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Guruji는 다음과 같은 분야에 이상적입니다:
 
@@ -68,7 +99,18 @@ Guruji는 다음과 같은 분야에 이상적입니다:
 
 ![이미지](/assets/img/2024-07-09-OnlineLearningandEducationMobileAppPWAHTML_0.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Photo by The_Krishna on Envato Elements
 

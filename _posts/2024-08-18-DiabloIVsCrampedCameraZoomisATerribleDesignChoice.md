@@ -3,7 +3,7 @@ title: "디아블로 IV의 좁은 카메라 줌이 별로인 이유"
 description: ""
 coverImage: "/assets/no-image.jpg"
 date: 2024-08-18 11:27
-ogImage: 
+ogImage:
   url: /assets/no-image.jpg
 tag: Tech
 originalTitle: "Diablo IVs Cramped Camera Zoom is A Terrible Design Choice"
@@ -11,7 +11,6 @@ link: "https://medium.com/@xander51/diablo-ivs-cramped-camera-zoom-is-a-terrible
 isUpdated: true
 updatedAt: 1724032686137
 ---
-
 
 이소메트릭 액션 RPG는 주로 완전히 고정된 카메라 시점을 사용하는데요. 이 설계 요소는 Diablo 및 다른 고전적인 이소메트릭 게임에서 온 연대를 건너뛰며 발전팀에 정확한 매개변수를 제공하여 게임의 모든 다른 부분을 제작할 수 있게 돕습니다. 플레이 도중 플레이어가 볼 수 있는 지역을 알고 있을 때, 게임 레벨 디자인, 적의 행동, 효과적인 공격 범위 등 게임플레이의 많은 측면에 직접적인 영향을 줍니다. 다른 게임 디자인 요소가 흘러야 할 기본 규칙을 설정합니다.
 
@@ -21,7 +20,18 @@ Diablo IV의 카메라가 이상하게도 공격적으로 확대된 시점으로
 
 Diablo IV의 좁은 시야는 의심의 여지 없이 게임 디자인의 범위를 좁히는 결과를 가져왔습니다. 원하는지 않는지에 상관없이 모든 캐릭터를 근접전 캐릭터로 만들었습니다. 앞선 Diablo 게임에서는 여러 클래스가 실행 가능한 원거리 빌드를 제공했습니다. 전장 가장자리에서 움직여 적들을 밀어내고 손을 대는 것으로 장거리에서 피해를 입힐 수 있는 캐릭터를 플레이할 수 있었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Diablo IV에서는 그렇게 쉽지 않아요. 대부분의 전투 공간은 상당히 작으며, 적들은 플레이어에게 돌진합니다. 게임에는 여전히 "근거리"와 "원거리" 범위를 구분하는 여러 스킬과 혜택이 있지만, 이제 "원거리"는 사심 범위 바깥, 즉 단순히 당신의 검 끝보다 더 멀리 떨어진 것을 의미합니다. 모든 클래스는 스킬 트리에서 이용할 수 있는 근접 전투 스킬과, 근거리 피해를 완화하는 방어 능력이 있습니다. 주문을 사용하는 마법사나 활을 사용하는 도적으로 플레이해도 적들이 얼굴을 뗴떡이고 다니는 게 이상한 느낌이에요.
 
@@ -31,7 +41,18 @@ Diablo IV에서는 그렇게 쉽지 않아요. 대부분의 전투 공간은 상
 
 한 번 소환된 적들은 항상 활성 상태로 있으며, 플레이어가 나타날 때까지 기다립니다. 그들은 화면을 벗어나도 전투에 완전히 참여하죠. 이전 Diablo 게임에서는 플레이어 근처에 오기 전에 세계 속의 적들이 깨어나지 않으며, 다양한 종류의 적들이 다양하고 동적인 플레이를 제공함으로써 플레이어가 이동하고 상대와 자유롭게 전투할 수 있는 선택권을 주기도 했어요. Diablo II와 III는 더 작고, 연결되어 있지 않은 플레이 공간을 가지고 있지만, 카메라 시야, 다양한 넓은 필드, 그리고 적들의 동적인 행동성으로 인해 상대적으로 더 크게 느껴졌어요. Diablo IV에서는 모든 것이 죽이러 달려들고, 당신은 그들과 원거리에서 대치할 단께만 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 진짜 내부 정보는 없지만, 이 근접한 카메라 각도는 성능과 수익화를 고려하여 선택된 것 같아요. 시야를 좁게 유지하면 덜 렌더링해야 하므로 도움이 되죠. Diablo IV는 2013년의 오리지널 Xbox One을 포함한 다양한 하드웨어에서 실행되는데, 좁은 시야가 더 많은 플랫폼을 대상으로 할 수 있고 초상화의 세세한 시각적 효과를 유지하는 데 도움이 되는 것은 분명해요.
 
@@ -41,7 +62,18 @@ Diablo IV는 시리즈에서 가장 많이 수익을 창출하는 게임으로, 
 
 (모자에 돈을 지불하는 것을 제가 거부하는 것은 아니에요. 가정상황에서 말하자면, 저는 다시 한번 블리자드에게 게임에 더 멋진 배낭을 넣어달라고 요청하고 있어요. 현재 구매한 하나의 강아지 배낭으로 만족하고, 다른 하나 때문에 게임을 플레이할 동기부여를 받았어요. 이런 것들을 더 구입할 거예요! 부끄러움이라도 무엇입니까! 적어도 그렇게 확대되어 있다면 더 많은 강아지를 가져다 주세요.)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 블리자드는 이미 지난 여러 차례에 걸쳐 동일한 디자인 상황을 더 나은 방식으로 다뤄 왔습니다. 이번이 그들의 첫 번째가 아니기 때문입니다. 이전에도 게임을 콘솔에 올려 놓거나, 컴퓨터 모니터보다 먼 거리의 TV에 게임을 제공한 적이 있습니다. 디아블로 III의 콘솔 빌드는 PC 버전과는 다른 카메라 각도를 사용합니다. 그러나 매우 확대하지 않고 기울기를 약간 변경함으로써 캐릭터 아트를 자랑스럽게 표시하면서도 플레이할만한 영역을 제공합니다.
 
@@ -51,7 +83,18 @@ Diablo IV는 시리즈에서 가장 많이 수익을 창출하는 게임으로, 
 
 Path of Exile은 디아블로 IV와 유사한 확대된 시야를 가지고 있지만, 이러한 디자인은 더 보완된 것으로 생각됩니다. 전투 상황은 적절한 속도로 진행되며, 부가적인 알려지지 않은 피해가 없습니다. 다른 플레이어가 적을 내 영역으로 가져오거나 아직 시도하고 싶지 않은 이벤트를 발동하는 경우도 없습니다. 게임은 인스턴스화된 세계 설계를 사용하기 때문입니다. Path of Exile의 원거리 공격 옵션은 훨씬 더 유효하며, 매우 바쁜 전투 상황에서 갑자기 몬스터에 덮쳐지기 전에 패닉 상황이 덜 발생합니다. PoE는 이런 종류의 확대 수준이 플레이 가능하다는 좋은 양식을 보여주며, 블리자드가 더 잘 알고 있다고 해서 무시한 듯합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Diablo IV의 초반 마케팅 비디오에서는 UI가 없었고, 몇 가지 동적 카메라 순간을 지능적으로 활용하여 세계의 규모를 보여주려고 했습니다. 최종 게임은 훨씬 혼잡하고 폐쇄된 느낌입니다. 카메라가 세계 보스나 "재미있는" 건물 하이라이트를 위해 줌 아웃되는 순간들은 엔진에서 보다 넓은 시야각이 기술적으로 가능하다는 것을 보여줍니다. 하지만 이미 프레임 제한이 있는 구형 콘솔들은 너무 넓은 시야를 다룰 경우 아마도 굉장히 버거울 것이라고 확신합니다. 그래도 가능성에 대해 상상하는 것은 즐겁습니다.
 

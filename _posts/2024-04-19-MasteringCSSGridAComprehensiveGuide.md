@@ -3,17 +3,13 @@ title: "CSS 그리드를 어떻게 사용하는지 알아보기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Mastering CSS Grid A Comprehensive Guide"
 link: "https://medium.com/@shivananddhanagond48/mastering-css-grid-a-comprehensive-guide-21f4d44fef28"
 isUpdated: true
 ---
-
-
-
-
 
 # 1. CSS Grid 기본 개념 이해하기:
 
@@ -27,7 +23,18 @@ isUpdated: true
 
 # 3. 행과 열 정의하기:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 .container {
@@ -48,7 +55,18 @@ isUpdated: true
 
 ## 5. 그리드 간격:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .container {
@@ -69,7 +87,18 @@ isUpdated: true
 
 # 7. 반응형 그리드:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 @media screen and (max-width: 768px) {

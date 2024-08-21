@@ -3,16 +3,13 @@ title: "NinjaCart SDE 2 프론트엔드 인터뷰 경험"
 description: ""
 coverImage: "/assets/img/2024-05-18-NinjaCartSDE2frontendInterviewExp_0.png"
 date: 2024-05-18 21:40
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-18-NinjaCartSDE2frontendInterviewExp_0.png
 tag: Tech
 originalTitle: "NinjaCart SDE 2 frontend Interview Exp"
 link: "https://medium.com/@prikshit8/ninjacart-sde-2-frontend-interview-exp-d84801a02e5c"
 isUpdated: true
 ---
-
-
-
 
 친구로부터 닌자카트 인재영입 담당자의 전화번호를 받았어요
 
@@ -22,37 +19,59 @@ isUpdated: true
 
 2번 질문 — 프로미스와 setTimeout을 활용한 출력 관련 질문입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 console.log(1);
 
 setTimeout(function () {
-    console.log(2);
+  console.log(2);
 }, 0);
 
 Promise.resolve()
-    .then(function () {
-        console.log(3);
-    })
-    .then(function () {
-        console.log(4);
-    });
+  .then(function () {
+    console.log(3);
+  })
+  .then(function () {
+    console.log(4);
+  });
 ```
 
 3번 문제 — 클로저 및 setTimeout을 기반으로 한 출력 문제
 
 ```js
 for (var index = 1; index <= 3; index++) {
-    setTimeout(function () {
-        console.log('after ' + index + ' second(s):' + index);
-    }, index * 1000);
+  setTimeout(function () {
+    console.log("after " + index + " second(s):" + index);
+  }, index * 1000);
 }
 ```
 
 4번 문제 — 중첩된 배열을 평평하게 만드는 함수를 작성하십시오.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 5번 질문 — useEffect와 useMemo를 기반으로 함
 
@@ -63,7 +82,18 @@ for (var index = 1; index <= 3; index++) {
 
 2번 질문 — 실패하면 프라미스를 다시 시도하는 함수 만들기 (질문 링크)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 3차 면접 — 매니저 면접
 

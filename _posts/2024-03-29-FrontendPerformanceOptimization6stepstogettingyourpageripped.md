@@ -3,17 +3,13 @@ title: "프론트엔드 성능 최적화  페이지 성능 향상을 위한 6 �
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Frontend Performance Optimization  6 steps to getting your page ripped"
 link: "https://medium.com/@arunrajkumar/frontend-performance-web-application-optimization-techniques-553123b465ed"
 isUpdated: true
 ---
-
-
-
-
 
 # 좋은 다이어트 프로그램처럼, 우리는 체계적인 방식으로 체중을 줄이는 절제된 접근법을 채택했습니다. 우리는 주요 소스를 확인하고 공격을 시작했습니다.
 
@@ -23,7 +19,18 @@ Freshchat의 웹 메신저는 페이지 하단에 있는 확장 가능한 작은
 
 Freshchat에서는 사용자 경험을 향상시키는 도전에 착수했습니다. 결국, 누가 가벼우면서 더 빠른 페이지를 원하지 않겠습니까?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 페이지 크기란 무엇인가요?
 
@@ -33,7 +40,18 @@ Freshchat에서는 사용자 경험을 향상시키는 도전에 착수했습니
 
 그런 후에, 그 크기의 약 1/20로 줄이기 위해 몇 가지 조치를 취했어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 저희가 한 방법
 
@@ -43,7 +61,18 @@ Freshchat에서는 사용자 경험을 향상시키는 도전에 착수했습니
 
 전통적인 지혜에 따르면 이미지를 스프라이트 파일로 결합해야 합니다. 그러나 우리는 정반대로 했어요. 1,280개의 이모티콘을 담은 거대한 크기(압축되지 않은 8MB)의 스프라이트 파일을 사용하였습니다. 이 파일은 페이지를 불러올 때마다 가져와서 이모티콘 피커 내에서 표시되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/FrontendPerformanceOptimization6stepstogettingyourpageripped_0.png)
 
@@ -53,7 +82,18 @@ Freshchat에서는 사용자 경험을 향상시키는 도전에 착수했습니
 
 그래서 이모지 피커를 사용하지 않아도 대화 내에서 이모티콘을 표시하기 위해 스프라이트 파일이 로드됩니다. 겸손한 이모지를 표시하려면 거대한 8MB가 필요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 먼저 스프라이트 파일을 1,280개의 파일로 분할하여 대화창 안의 이모지들이 개별적으로 액세스할 수 있도록 했어요.
 
@@ -63,7 +103,18 @@ Freshchat에서는 사용자 경험을 향상시키는 도전에 착수했습니
 
 이 해킹은 로드 시에 우리가 버릴 수 있는 가장 큰 청크인 5MB(gzip 압축)를 절약할 수 있었답니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2. 적정 크기 - 미디어 파일 크기 조정
 
@@ -76,7 +127,18 @@ Freshchat에서는 사용자 경험을 향상시키는 도전에 착수했습니
 
 ## 3. 인자확장을 통한 리소스 로딩
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다시 이모지로 돌아와서, 우리는 이모지 카테고리에 기반하여 단일 대형 이모지 스프라이트 파일을 8개의 파일로 나누었어요.
 
@@ -86,7 +148,18 @@ Freshchat에서는 사용자 경험을 향상시키는 도전에 착수했습니
 
 멋지죠? 8MB의 이모지 스프라이트에서 250KB로.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 메신저에서 FAQ 검색은 브라우저에서 lunr.js를 사용하여 이루어집니다. 그리고 lunr.js가 지원하는 모든 언어에서 키워드 검색을 지원합니다. 이는 총 14개의 지원 언어 파일을 로드해야 했다는 것을 의미합니다.
 
@@ -96,7 +169,18 @@ Freshchat에서는 사용자 경험을 향상시키는 도전에 착수했습니
 
 따라서, 우리는 사용자의 지역 설정을 식별하고 정말 필요한 언어 파일만을 로드했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Moment.js의 로케일 및 공동 브라우징과 유사한 방식으로 접근했습니다. 이 기능을 통해 고객의 화면 접근 권한을 요청하여 원격으로 도와드릴 수 있습니다.
 
@@ -106,7 +190,18 @@ Moment.js의 로케일 및 공동 브라우징과 유사한 방식으로 접근�
 
 이점:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 리소스 전달 속도 개선 — 페이지 로딩 시간이 현격히 단축되었습니다.
 - nginx 서버의 CPU 사용량 감소.
@@ -119,7 +214,18 @@ Moment.js의 로케일 및 공동 브라우징과 유사한 방식으로 접근�
 
 시장에 빨리 진입하는 데 도움이 되지만, 우리 벤더(js|css)에 많은 불필요한 코드를 추가합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Animate.css는 fadeIn, fadeOut, zoomIn, slideInRight 등과 같은 멋진 전환 효과를 제공해줬어요. 하지만 그 중 일부만 사용하는 대신, 우리는 모든 애니메이션을 하나의 파일 animate.min.css에 포함시켰어요.
 
@@ -129,7 +235,18 @@ Bootstrap도 포함되어 있었어요. 누가 Bootstrap 없이 웹사이트를 
 
 이모지들이 또 나왔어요. 이모지를 최적화할 수 있는 여지는 끝이 없는 것 같아요. 우리는 동물과 국기를 포함해 가장 적게 사용된 (사실 전혀 사용되지 않은) 이모지들을 식별하고 제거했어요. 그들이 상당한 용량을 차지하고 있었거든요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 6. 빼다
 
@@ -139,7 +256,18 @@ Bootstrap도 포함되어 있었어요. 누가 Bootstrap 없이 웹사이트를 
 
 지금 우리의 웹 메신저는 한때 7.8MB에서 크게 성장했던 것과는 거리가 멀어진 430KB로 남아 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 업데이트: 특정 브라우저가 아직 Brotli 압축된 리소스를 지원하지 않기 때문에 이를 되돌려야 했습니다.
 
@@ -150,7 +278,18 @@ Bootstrap도 포함되어 있었어요. 누가 Bootstrap 없이 웹사이트를 
 - 이것 없이도 할 수 있을까요?
 - 그렇지 않다면, 사용하는 관련 코드만 포함할 수 있을까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 다음에는 무엇을 할까요?
 
@@ -160,6 +299,17 @@ Bootstrap도 포함되어 있었어요. 누가 Bootstrap 없이 웹사이트를 
 
 저희 Freshchat 프론트엔드 팀은 Sankar Ganesh, Mohamed Imthihas, Arunkumar Velu, Vasanth Kumar 그리고 저, Arun Rajkumar로 구성되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Sakthi Goutham, Yuvaraj, Vijayabharathi, and Shanmugapriya from Freshchat QA.

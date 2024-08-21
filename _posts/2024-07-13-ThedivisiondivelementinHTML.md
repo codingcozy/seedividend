@@ -3,16 +3,13 @@ title: "HTML의 div 요소 완벽 가이드"
 description: ""
 coverImage: "/assets/img/2024-07-13-ThedivisiondivelementinHTML_0.png"
 date: 2024-07-13 18:56
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-ThedivisiondivelementinHTML_0.png
 tag: Tech
 originalTitle: "The division (<div>) element in HTML."
 link: "https://medium.com/@nagy_razvan/the-division-div-element-in-html-b5fb7daff9f6"
 isUpdated: true
 ---
-
-
-
 
 `div` 요소는 다른 페이지 요소를 캡슐화하는 블록 수준 요소입니다. 이러한 컨테이너는 CSS 또는 JavaScript를 사용하여 스타일링이나 레이아웃 목적으로 다른 HTML 요소를 그룹화하는 데 사용할 수 있습니다.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 ## 기본 구문.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `div` 태그의 기본 구문은 다음과 같습니다.
 
@@ -51,7 +59,18 @@ isUpdated: true
 </html>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 단계 1. "HTML div 튜토리얼"이라는 폴더를 만드세요.
 
@@ -61,7 +80,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-07-13-ThedivisiondivelementinHTML_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Step 3. 위의 코드를 복사하여 텍스트 파일에 붙여넣고 "HTML div.html"로 저장하여 브라우저(Chrome, Mozzila, Opera 등)로 열 수 있는 HTML 웹 페이지로 변환합니다.
 
@@ -71,7 +101,18 @@ Step 3. 위의 코드를 복사하여 텍스트 파일에 붙여넣고 "HTML div
 
 ![HTML div.html](/assets/img/2024-07-13-ThedivisiondivelementinHTML_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## `div`의 속성
 
@@ -84,7 +125,18 @@ Step 3. 위의 코드를 복사하여 텍스트 파일에 붙여넣고 "HTML div
 
 이제 이러한 속성을 개별적으로 적용해 보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## CSS를 사용하여 `div` 스타일링하기
 
@@ -119,7 +171,18 @@ Step 3. 위의 코드를 복사하여 텍스트 파일에 붙여넣고 "HTML div
 
 `head` 태그 안에서, 웹 페이지에서 내용이 어떻게 표시될지 담당하는 메타데이터 (데이터 정보)를 먼저 정의했어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼 `body` 태그 안에 `div class="styled-div"` 클래스를 정의하고, 우리 클래스의 이름인 "styled-div"를 할당해 보겠습니다.
 
@@ -127,7 +190,18 @@ Step 3. 위의 코드를 복사하여 텍스트 파일에 붙여넣고 "HTML div
 
 <img src="/assets/img/2024-07-13-ThedivisiondivelementinHTML_5.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 중첩 `div` 태그입니다.
 
@@ -166,7 +240,18 @@ Step 3. 위의 코드를 복사하여 텍스트 파일에 붙여넣고 "HTML div
 
 그리고 스타일 속성에서 스타일링을 담당하는 두 클래스를 정의했습니다. 외부 테두리는 파란색이고 내부 테두리는 빨간색입니다. 외부 `div`는 파란 테두리를 가진 outer 클래스를 가지고 있고, 내부 `div`는 빨간 테두리를 가진 inner 클래스를 가지고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 외부 `div`에는 내부 `div`가 포함되어 중첩 구조가 만들어집니다. 이것은 여러 계층의 컨테이너를 사용하여 복잡한 레이아웃을 만드는 데 유용합니다.
 
@@ -176,7 +261,18 @@ Step 3. 위의 코드를 복사하여 텍스트 파일에 붙여넣고 "HTML div
 
 `id` 태그입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <!DOCTYPE html>
@@ -208,8 +304,18 @@ Step 3. 위의 코드를 복사하여 텍스트 파일에 붙여넣고 "HTML div
 
 그 다음은 `body` 태그입니다. 여기서 `div`에 id="main"이라는 고유 식별자가 할당되어 있습니다. 이 식별자를 사용하여 CSS 스타일을 적용할 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼 div의 배경색을 설정하는 인라인 CSS로 style = "background-color: light-blue;"을 추가합니다.
 
@@ -219,6 +325,17 @@ div 위로 마우스를 올리면 나타나는 툴팁을 제공하는 title="Thi
 
 ![image](/assets/img/2024-07-13-ThedivisiondivelementinHTML_7.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 분할 태그에 대해 더 알고 싶다면, 아래 링크를 확인해보세요.

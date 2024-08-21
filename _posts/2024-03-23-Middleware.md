@@ -3,17 +3,13 @@ title: "Nextjs 13 프로젝트에서 middleware 사용 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "미들웨어"
 link: "undefined"
 isUpdated: true
 ---
-
-
-
-
 
 # 미들웨어
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ## 규칙
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트 루트의 파일 미들웨어.ts(또는 .js)를 사용하여 미들웨어를 정의하세요. 예를 들어, 페이지 또는 앱과 동일한 수준에 있거나 해당하는 경우 src 내부에 있어야 합니다.
 
@@ -46,7 +53,18 @@ export const config = {
 
 ## 경로 일치
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트의 모든 경로에 대해 미들웨어가 호출됩니다. 아래는 실행 순서입니다:
 
@@ -64,7 +82,18 @@ export const config = {
 - 사용자 정의 일치기준 구성
 - 조건문
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### Matcher
 
@@ -78,7 +107,18 @@ export const config = {
 
 단일 경로 또는 배열 구문을 사용하여 여러 경로를 일치시킬 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 export const config = {
@@ -105,7 +145,18 @@ export const config = {
 
 또한 누락 또는 포함 배열 또는 두 가지의 조합을 사용하여 특정 요청에 대해 Middleware를 우회할 수도 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 export const config = {
@@ -150,7 +201,18 @@ export const config = {
 - Named parameters에 수정자를 추가할 수 있습니다 (:로 시작): /about/:path*는 *가 0개 이상이므로 /about/a/b/c와 일치합니다. ?는 0 또는 1이고 +는 1 이상입니다.
 - 괄호로 묶인 정규 표현식을 사용할 수 있습니다: /about/(.*)는 /about/:path*와 동일합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 path-to-regexp에 대한 자세한 내용을 확인하려면 문서를 읽어보세요.
 
@@ -173,7 +235,18 @@ export function middleware(request: NextRequest) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## NextResponse
 
@@ -187,7 +260,18 @@ NextResponse API를 통해 다음을 수행할 수 있습니다:
 
 Middleware에서 응답을 생성하려면:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 응담을 생성하는 라우트 (페이지 또는 Edge API 라우트)로 재작성하십시오
 - 직접적으로 NextResponse를 반환하십시오. 응담 생성을 참조하십시오.
@@ -199,7 +283,18 @@ Middleware에서 응답을 생성하려면:
 - 들어오는 요청의 경우, cookies는 다음 메소드들을 포함하고 있습니다: get, getAll, set, delete 쿠키. cookie의 존재 여부를 확인하거나 모든 쿠키를 제거할 수 있습니다.
 - 나가는 응답의 경우, cookies는 다음 메소드들을 포함하고 있습니다: get, getAll, set, delete.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```typescript
 import { NextResponse } from "next/server";
@@ -260,7 +355,18 @@ export function middleware(request: NextRequest) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 > 좋은 정보: 큰 헤더를 설정하지 않는 것이 좋습니다. 백엔드 웹 서버 구성에 따라 431 Request Header Fields Too Large 오류가 발생할 수 있습니다.
 
@@ -313,7 +419,18 @@ export const config = {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 응답 생성
 
@@ -339,7 +456,18 @@ export function middleware(request: NextRequest) {
 
 ### waitUntil과 NextFetchEvent
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 The NextFetchEvent 객체는 기본 FetchEvent 객체를 확장하며 waitUntil() 메소드를 포함합니다.
 
@@ -363,7 +491,18 @@ export function middleware(req: NextRequest, event: NextFetchEvent) {
 
 ## 고급 Middleware 플래그
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Next.js v13.1에서 미들웨어를 위한 두 가지 추가 플래그인이 소개되었습니다. skipMiddlewareUrlNormalize와 skipTrailingSlashRedirect은 고급 사용 사례를 처리하기 위해 도입되었습니다.
 
@@ -393,7 +532,18 @@ export default async function middleware(req) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 skipMiddlewareUrlNormalize은 Next.js에서 URL 정규화를 비활성화하여 직접 방문과 클라이언트 전환을 동일하게 처리할 수 있게 합니다. 일부 고급 경우에는 이 옵션을 사용하여 원래 URL을 사용하여 완전한 제어를 제공할 수 있습니다.
 
@@ -417,7 +567,18 @@ export default async function middleware(req) {
 
 ## Runtime
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현재 Middleware는 Edge 런타임만 지원합니다. Node.js 런타임은 사용할 수 없습니다.
 
@@ -431,4 +592,15 @@ export default async function middleware(req) {
 | `v12.0.9` | Edge 런타임에서 절대 URL 적용 (<a href="https://github.com/vercel/next.js/pull/33410" rel="noopener noreferrer" target="_blank">PR</a>) |
 | `v12.0.0` | Middleware (베타) 추가됨                                                                                                                |
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

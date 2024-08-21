@@ -3,17 +3,13 @@ title: "React에서 더이상 useMemo와 useCallback를 사용할 필요가 없�
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Reacts Upcoming Compiler Say Goodbye to useMemo and useCallback"
 link: "https://medium.com/javascript-in-plain-english/reacts-upcoming-compiler-say-goodbye-to-usememo-and-usecallback-965e88cd4d79"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/ReactsUpcomingCompilerSayGoodbyetouseMemoanduseCallback_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 가장 놀란 건 React 컴파일러였어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React는 종종 런타임이 무거운 프레임워크라고 불립니다. 이는 컴파일 중 렌더링에 대한 많은 최적화를 수행하지 않기 때문입니다.
 
@@ -33,7 +40,18 @@ React를 잘 활용하면 앱의 성능을 탁월하게 개선할 수 있습니�
 
 반면에 Vue.js와 같은 프레임워크는 다릅니다. 사람들은 Vue가 초보자에게 더 쉽다고 말합니다. 주로 더 직관적이기 때문입니다. 많은 최적화가 컴파일 시간에 수행됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트 컴파일러가 새롭게 선보여지면 이 흔히 알려진 믿음이 바뀌게 될지도 몰라요.
 
@@ -43,7 +61,18 @@ React를 잘 활용하면 앱의 성능을 탁월하게 개선할 수 있습니�
 
 ![이미지](/assets/img/ReactsUpcomingCompilerSayGoodbyetouseMemoanduseCallback_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 작년에 React 팀이 이를 발표했어요. 그 때는 React Forget이라고 불렀는데, 지금은 React Compiler로 이름이 바뀌었어요.
 
@@ -64,7 +93,18 @@ const Component = () => {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금 여기서, 실제로 onSubmit 및 onMount가 useCallback으로 래핑된 것처럼 작동합니다. 그리고 Form은 React.memo로 래핑되어 있습니다:
 
@@ -87,7 +127,18 @@ const Component = () => {
 
 자세한 설명은 이 비디오를 시청해보세요: React 컴파일러 비디오
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현재 버전에서는 부모 컴포넌트가 다시 렌더링되면 그 안에 있는 모든 컴포넌트가 다시 렌더링됩니다.
 
@@ -103,7 +154,18 @@ const Parent = () => {
 
 React 컴파일러로 인해 모든 것이 낮은 수준의 캐싱되므로 이 이상적인 상태가 실현되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 개발할 때 성능 최적화 기교를 자주 사용해요. "상태를 아래로 이동"하거나 "컴포넌트를 props로 전달"하는 방법을 사용하여 다시 렌더링을 줄일 수 있어요. useCallback과 memo를 사용하기 전에 이런 기교들을 시도하는 것이 좋아요. 왜냐하면 React에서 캐싱을 올바르게 하는 것은 매우 까다로운 일이기 때문이에요.
 
@@ -125,7 +187,18 @@ const Component = () => {
 
 다이얼로그를 열 때마다 VerySlowComponent가 다시 렌더링되요. 이 때문에 다이얼로그를 열 때 지연이 발생해요. 다이얼로그 열기 상태를 컴포넌트로 캡슐화하면 다음과 같아요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const ButtonWithDialog = () => {
@@ -155,7 +228,18 @@ React 컴파일러를 사용하면 이러한 시나리오로 인한 성능 저�
 
 당연하게도, 번거로운 useMemo와 useCallback은 과거의 것이 될 것입니다...
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앤드류 클락이 트위터에서 말한 바에 따르면, React 컴파일러가 올해 말까지 출시될 예정이라고 합니다. 게다가 React는 몇 가지 새로운 변경 사항을 가져올 예정입니다:
 
@@ -170,7 +254,18 @@ React 컴파일러를 사용하면 이러한 시나리오로 인한 성능 저�
 
 React가 곧 출시할 새로운 기능에 대해 어떻게 생각하시나요? 아래에 의견을 자유롭게 남겨주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 친근한 말투로 번역하여 드립니다 🚀
 

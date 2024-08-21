@@ -3,17 +3,13 @@ title: "Angular에서의 템플릿 레벨 지연 로딩template level lazy loadi
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Template-Level Lazy Loading in Angular"
 link: "https://medium.com/itnext/template-level-lazy-loading-in-angular-8adde7dad50a"
 isUpdated: true
 ---
-
-
-
-
 
 ![Template-LevelLazyLoadinginAngular_0](/assets/img/Template-LevelLazyLoadinginAngular_0.png)
 
@@ -23,7 +19,18 @@ Angular과 같은 컴포넌트 기반 프레임워크를 사용하면 템플릿�
 
 현재 개발자 미리보기 상태인 Deferrable Views는 Angular 템플릿을 선언적이고 내장된 메커니즘으로 보완하여, 개발자가 필요한 경우 나중에 나중에 게으르게로드될 컴포넌트, 디렉티브, 파이프 및 관련 CSS를 지정할 수 있게 해줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사에서는 Deferrable Views에 대해 심층 안내를 하지는 않겠지만, 우리 개발자들로 하여금 산문적인 템플릿 구문을 통해 게으르게 로딩의 이점을 얻을 수 있도록하여 프레임워크 자체로 일부 매뉴얼 작업을 제공했다는 것을 보여드리고자 합니다.
 
@@ -33,7 +40,18 @@ Angular과 같은 컴포넌트 기반 프레임워크를 사용하면 템플릿�
 
 여기서 쇼케이스하고자 하는 내용을 더 잘 이해하기 위해, 다음을 구현하고자 하는 포인트를 먼저 정의해 봅시다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 뷰포트에 들어왔을 때 lazy loading을 트리거합니다.
 - 로딩 및 에러 상태를 적절히 처리합니다.
@@ -46,7 +64,18 @@ Angular과 같은 컴포넌트 기반 프레임워크를 사용하면 템플릿�
 
 자세히 알아봅시다 🚀
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 클래식 템플릿 수준 지연 로딩
 
@@ -56,7 +85,18 @@ Angular 17 이전에는 템플릿 일부를 동적으로 생성할 수 있게 �
 
 샘플 데모 🐱‍🏍
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 시작으로 UserProfile 컴포넌트를 사용해보겠습니다:
 
@@ -85,7 +125,18 @@ Details 컴포넌트는 사용자의 꽤 긴 설명을 보여줍니다. 한편, 
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/1*0u1G36gdDFj8Z13_1UY1Rg.gif" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이렇게 되는 콘텐츠는 아래 판 위로 컨텐츠라고 알려져 있고, 초기 페이지 로드 및 어플리케이션 번들을 개선하는 작업 중 게으른 로딩을 위한 완벽한 후보입니다.
 
@@ -129,7 +180,18 @@ export class UserProfileComponent {
 
 보시다시피, 컴포넌트들이 템플릿에서 제거되고, 컴포넌트 또는 NgModule의 메타데이터의 imports 배열에 import 되지 않았습니다. 그 후에는 게으르게 로드될 컨텐츠가 삽입될 템플릿에서(ng-template 사용) 컨테이너 또는 슬롯(템플릿 참조 #contentSlot)를 정의했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이외에도 로딩 및 에러 템플릿(다시 말해, ng-template을 사용하는 것)을 정의했습니다. 이는 depsState$ subject로 추적되는 로딩 종속성의 상태를 템플릿으로 반영하는 데 도움이 됩니다.
 
@@ -139,7 +201,18 @@ export class UserProfileComponent {
 
 구조화 템플릿이 구해줍니다 💪
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 화면에 초기 내용이 표시되도록 하려면 원하는 콘텐츠 로딩을 트리거하는 임시 템플릿을 추가해보겠습니다. 이 임시 템플릿은 플레이스홀더 템플릿으로 알려져 있습니다👇:
 
@@ -166,7 +239,18 @@ template: `
 
 이제 트리거 엘리먼트가 준비되었으니, 트리거 엘리먼트(플레이스홀더)이 화면에 들어가면 로딩을 발생시키는 트리거 자체를 정의하는 것만 남았습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이를 위해 IntersectionObserver Web API를 사용할 것입니다. 우리는 지시문 내에 로직을 캡슐화하고, 해당 요소(트리거 요소)가 뷰포트에 들어가면 이벤트를 발생시키고 이후에는 해당 트리거 요소를 추적/관찰하지 않도록 하는 지시문을 사용할 것입니다. 아래와 같이:
 
@@ -244,7 +328,18 @@ export class UserProfileComponent {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컴포넌트를 비동기적으로 로드하기 위해 JavaScript의 동적 임포트 기능을 사용하여 로딩 프로세스의 상태를 추적하여 템플릿에도 상태를 제대로 반영합니다. 로딩 로직이 컴포넌트 클래스에 있기 때문에 템플릿에서 컨테이너/슬롯을 쿼리한 다음 로드된 컴포넌트의 호스트를 컨테이너에 삽입하려면 로드된 후에 이 작업을 수행해야 합니다. 아래에서 확인할 수 있습니다 👇:
 
@@ -254,7 +349,18 @@ export class UserProfileComponent {
 
 이로 인해 위에서 정의한 세 번째 주요 포인트로 이어지며, 플레이스홀더와 로딩 템플릿이 렌더링되는 시점을 조율하여 문제를 해결할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 function delay(timing: number) {
@@ -298,7 +404,18 @@ export class UserProfileComponent {
 
 우리는 보여주려고 계획한 3가지 주요 포인트를 모두 충족했습니다. 복잡하지만 종종 필요한 것 중 하나는 사용자 스크롤이 플레이스홀더가 뷰포트에 들어가도록 하기 전에 로딩이 조금 일찍 시작되게 하는 것입니다. 이것은 트리거 요소가 플레이스홀더 템플릿과 다른 것이며, 템플릿의 다른 곳에 있는 다른 요소를 그 목적으로 사용해야 합니다. 아래 내용을 참고하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 @Component({
@@ -341,7 +458,18 @@ export class UserProfileComponent {
 
 페이지의 프로젝트 섹션으로 스크롤할 때 뷰에 로딩 메시지가 표시되므로 확인이 쉽습니다. 멋져요 😎.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여러 구성 요소의 지연 로드
 
@@ -351,7 +479,18 @@ export class UserProfileComponent {
 
 후자의 옵션을 선택한다면, 변경 사항이 거의 없거나 전혀 필요하지 않습니다. 단지 로딩 및 플레이스홀더 템플릿을 조정하여 두 구성 요소의 로드를 반영하고, 구성 요소 클래스의 로딩 로직을 조정하여 두 종속성을 관리하면 됩니다. 여러 종속성을 동적으로 로드하는 데 Promise.AllSettled 정적 메서드를 사용하는 방법에 유의하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 function loadDeps() {
@@ -414,7 +553,18 @@ export class UserProfileComponent {
 
 의존성의 오류 처리는 프로젝트별이며, 더 나은 방법으로 구현할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 모든 것은 전통적인 방식이며 상당한 양의 작업이죠? 이제 현대적인 방식을 살펴봅시다.
 
@@ -424,7 +574,18 @@ export class UserProfileComponent {
 
 위에서 정의한 기본 포인트를 기억하면, 같은 결과를 얻기 위해 필요한 것은 다음과 같은 템플릿 코드입니다 👇:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 @Component({
@@ -457,9 +618,18 @@ export class UserProfileComponent {}
 
 하지만 이미 알아차린 작은 디테일이 있습니다: Project 컴포넌트가 템플릿에 이미 존재하기 때문에, 템플릿 종속성이 감지되고 접근 가능하도록 컴포넌트 메타데이터의 imports 배열에 import해야 합니다. 그러나 컴파일러는 이에 대해 알고 있기 때문에 모든 것이 원활하게 작동합니다.
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 동일한 이유로 발생하는 깜박임 문제를 발견할 수도 있습니다. 이전과 마찬가지로 이를 해결하려면 플레이스홀더나 로딩 템플릿이 표시되는 시간을 조정해야 합니다. 이를 위해 @loading 블록은 아래와 같이 두 가지 선택적 매개변수, minimum과 after을 받습니다:
 
@@ -483,7 +653,18 @@ export class UserProfileComponent {}
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/1*WjE10Mks6yDOTH5nCPCyjA.gif" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 트리거 자체도 템플릿 블록과 마찬가지로 매개변수를 받을 수 있습니다. 우리의 시나리오에서 viewport 트리거는 트리거 역할을 하는 DOM 요소로 선택적 매개변수를 허용합니다(플레이스홀더 템플릿을 대체). 이를 통해 사용자가 로드된 콘텐츠가 렌더링될 페이지 영역으로 스크롤하기 전에 종속 항목을 로드할 수 있습니다:
 
@@ -511,7 +692,18 @@ export class UserProfileComponent {}
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/1*6eX4kq45gUtXy64hhXFZYQ.gif" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이는 쉽게 확인할 수 있습니다. 페이지의 Projects 섹션으로 스크롤하면 로딩 템플릿이 표시됩니다. 멋지죠 😎.
 
@@ -521,7 +713,18 @@ export class UserProfileComponent {}
 
 클래식한 방식처럼, 따라야 할 두 가지 경로가 있습니다: 따로 로딩하거나 함께 로딩합니다. 새로운 API인 @defer 블록을 사용하면 두 옵션 모두 쉽게 구현할 수 있습니다 😎.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 함께 로드하기 🚀
 
@@ -557,7 +760,18 @@ export class UserProfileComponent {}
 
 또한, 로딩 및 플레이스홀더 템플릿은 이제 두 컴포넌트의 로딩을 반영하도록 조정되었습니다👇:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/1*m8kc_A4EEhmu1VO3myLugQ.gif" />
 
@@ -600,7 +814,18 @@ export class UserProfileComponent {}
 export class UserProfileComponent {}
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 클래식한 방식과 비교해 보면 코드 양이 훨씬 적습니다. 손 쉽게 필요한만큼 많은 @defer 블록을 추가할 수 있고, 여전히 완벽하게 작동한다는 것을 확신할 수 있습니다 🤗:
 
@@ -611,7 +836,18 @@ export class UserProfileComponent {}
 - Angular Deferrable Views 문서.
 - 글과 비디오: Tomas Trajan, Matthieu Riegler, Fanis Prodromou
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 결론
 
@@ -621,10 +857,32 @@ Angular 17에서는 @block 템플릿 구문을 통해, 미룰 수 있는 뷰가 
 
 최종 코드는 여기에서 찾아볼 수 있으며, 코드를 시도해 볼 수 있습니다: https://github.com/ilirbeqirii/lazy-load-component
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 읽어 주셔서 감사합니다!
 
 질문이나 제안이 있으시면 아래에 댓글을 달아 주세요 👇.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

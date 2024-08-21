@@ -3,16 +3,13 @@ title: "Angular의 경로 리다이렉션 로직을 개선하는 방법 Redirect
 description: ""
 coverImage: "/assets/img/2024-05-27-EnhancingAngularsRouteRedirectionLogicIntroducingRedirectFunction_0.png"
 date: 2024-05-27 18:59
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-EnhancingAngularsRouteRedirectionLogicIntroducingRedirectFunction_0.png
 tag: Tech
 originalTitle: "Enhancing Angular’s Route Redirection Logic: Introducing RedirectFunction"
 link: "https://medium.com/netanelbasal/enhancing-angulars-route-redirection-logic-introducing-redirectfunction-245a45add387"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-05-27-EnhancingAngularsRouteRedirectionLogicIntroducingRedirectFunction_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 Angular에서의 전통적인 접근 방식은 Route.redirectTo 속성 내에서 직접 문자열 경로를 지정하는 것이었습니다. 효과적이지만, 이 방법은 특히 라우트 매개변수와 데이터를 기반으로 동적으로 리디렉션 경로를 생성하는 능력에서 한계가 있었습니다. 새로운 RedirectFunction은 이러한 제한을 극복하여 함수가 리디렉트 대상을 결정할 수 있도록 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리다이렉트 기능의 주요 특징:
 
@@ -35,7 +43,18 @@ Angular에서의 전통적인 접근 방식은 Route.redirectTo 속성 내에서
 - RedirectFunction은 전체 ActivatedRouteSnapshot 인터페이스를 제공하지 않습니다. 해결된 제목이나 레이지로드된 컴포넌트와 같은 특정 속성들은 라우트 매칭 단계에서 사용할 수 없습니다. 사용 가능한 속성은 다음과 같습니다: routeConfig, url, params, queryParams, fragment, data, outlet, title.
 - 전체 라우트 트리에 의존하는 속성(예: root, parent, pathFromRoot, firstChild, children)은 아직 전체 라우트 매칭이 이루어지지 않았기 때문에 제외됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 실용적인 예시
 
@@ -44,34 +63,45 @@ Angular에서의 전통적인 접근 방식은 Route.redirectTo 속성 내에서
 ```js
 export const routes: Routes = [
   {
-    path: 'search',
-  redirectTo: ({ queryParams }) => {
-    const router = inject(Router);
-    const searchQuery = queryParams['q'];
+    path: "search",
+    redirectTo: ({ queryParams }) => {
+      const router = inject(Router);
+      const searchQuery = queryParams["q"];
 
-    return searchQuery
-      // UrlTree 반환
-      ? router.createUrlTree(['/results'], {
-          queryParams: { q: searchQuery },
-        })
-     // 또는 문자열
-      : 'home';
+      return searchQuery
+        ? // UrlTree 반환
+          router.createUrlTree(["/results"], {
+            queryParams: { q: searchQuery },
+          })
+        : // 또는 문자열
+          "home";
+    },
   },
-},
-{
-  path: 'results',
-  component: ResultsComponent,
-},
-{
-  path: 'home',
-  component: HomeComponent,
-},
+  {
+    path: "results",
+    component: ResultsComponent,
+  },
+  {
+    path: "home",
+    component: HomeComponent,
+  },
 ];
 ```
 
 이 예시에서 redirectTo 함수는 검색 쿼리 매개변수가 있는 경우 동적으로 사용자를 리디렉션하는 UrlTree를 생성합니다. 검색 쿼리가 있는 경우 쿼리 매개변수를 포함하여 결과 페이지로 리디렉션하고, 없는 경우 홈 페이지로 리디렉션합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 결론
 

@@ -3,15 +3,13 @@ title: "완전 초보에서 고수로 첫 블로그 플랫폼 코딩하는 방�
 description: ""
 coverImage: "/assets/img/2024-07-06-FromZerotoHeroHowtoCodeYourFirstBlogPlatform_0.png"
 date: 2024-07-06 10:17
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-06-FromZerotoHeroHowtoCodeYourFirstBlogPlatform_0.png
 tag: Tech
 originalTitle: "From Zero to Hero: How to Code Your First Blog Platform"
 link: "https://medium.com/@learntocodetoday/from-zero-to-hero-how-to-code-your-first-blog-platform-614180114e2b"
 isUpdated: true
 ---
-
-
 
 ![/assets/img/2024-07-06-FromZerotoHeroHowtoCodeYourFirstBlogPlatform_0.png](/assets/img/2024-07-06-FromZerotoHeroHowtoCodeYourFirstBlogPlatform_0.png)
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 시작하기 전에 다음 사항을 확인하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - HTML, CSS, JavaScript 및 Node.js 또는 Python과 같은 서버 사이드 언어의 기본 지식이 필요합니다.
 - 컴퓨터에 Node.js 및 npm(Node Package Manager)이 설치되어 있어야 합니다(Node.js를 사용하는 경우).
@@ -37,7 +46,18 @@ cd blog-platform
 npm init -y
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요구되는 종속성을 설치해주세요. 이번 튜토리얼에서는 서버로 Express, 데이터베이스로 MongoDB를 사용할 것입니다. 아래의 명령어를 사용하여 설치해주세요:
 

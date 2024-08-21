@@ -3,15 +3,13 @@ title: "PyBroker를 사용한 포트폴리오 최적화 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-PortfolioOptimizationwithPyBroker_0.png"
 date: 2024-07-09 14:26
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-PortfolioOptimizationwithPyBroker_0.png
 tag: Tech
 originalTitle: "Portfolio Optimization with PyBroker"
 link: "https://medium.com/@edtechre/portfolio-optimization-with-pybroker-5ce0af389bfa"
 isUpdated: true
 ---
-
-
 
 <img src="/assets/img/2024-07-09-PortfolioOptimizationwithPyBroker_0.png" />
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 이 글에서는 Python과 PyBroker를 사용하여 매월 초에 포트폴리오를 리밸런싱하는 거래 전략을 시뮬레이션하는 방법을 살펴볼 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 설정
 
@@ -33,7 +42,18 @@ pip install -U lib-pybroker
 
 그 다음으로, 우리가 PyBroker에서 구현할 전략을 위해 포트폴리오 최적화를 수행할 수 있는 Riskfolio-Lib을 설치해봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```shell
 pip install -U riskfolio-lib
@@ -51,7 +71,18 @@ from pybroker import ExecContext, Strategy, YFinance
 
 또한 PyBroker에서 데이터 캐싱을 활성화할 수도 있습니다. 이렇게 하면 Yahoo Finance로부터 다운로드된 히스토리컬 데이터가 캐싱되어 전략을 테스트할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 pyb.enable_data_source_cache("rebalancing");
@@ -63,7 +94,18 @@ pyb.enable_data_source_cache("rebalancing");
 
 먼저, 주식의 목표 할당에 도달하기 위해 주식의 충분한 주식을 매수하거나 매도할 수 있는 함수를 구현하는 것으로 시작합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 def set_target_shares(
@@ -97,7 +139,18 @@ def rebalance(ctxs: dict[str, ExecContext]):
         set_target_shares(ctxs, {symbol: target for symbol in ctxs.keys()})
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼 이제 새로운 달의 시작을 감지하는 도우미 함수를 구현해 봅시다:
 
@@ -119,7 +172,18 @@ strategy.set_after_exec(rebalance);
 result = strategy.backtest();
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 백테스트를 실행한 후에는 주문 목록을 확인할 수 있습니다:
 
@@ -145,7 +209,18 @@ id
 
 그리고 우리의 전략을 평가하기 위한 성능 지표를 확인할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 result.metrics_df;
@@ -165,7 +240,18 @@ max_drawdown_pct            -52.068777
 
 포트폴리오에서 각 주식을 동일한 포지션 크기로 할당하는 대신, 포트폴리오 최적화를 사용하여 각 주식의 할당을 결정해 보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Riskfolio-Lib을 사용하여 포트폴리오에서 각 주식에 할당해야 하는 금액을 최소화하여 리스크를 계산할 수 있어요. 이것은 각 주식과 연관된 과거 리스크를 측정함으로써 할 수 있어요.
 
@@ -204,7 +290,18 @@ def optimization(ctxs: dict[str, ExecContext]):
         set_target_shares(ctxs, targets)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Riskfolio-Lib의 공식 문서에서 더 많은 정보와 예제를 찾을 수 있어요. 이제 전략의 백테스팅으로 넘어가 볼까요?
 
@@ -225,7 +322,18 @@ max_drawdown                -106042.150000
 max_drawdown_pct                -35.190829
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 흥미로운 내용이에요! 이 전략을 사용한 수익률이 평균 포지션 사이즈와 비교했을 때 적은 것을 볼 수 있어요 (139% vs 305%), 그런데 최대 손실액은 낮았다는 것도 알 수 있어요 (35% vs 52%). CVaR을 최소화하는 것이 포트폴리오의 전체 수익률을 크게 줄였다는 점을 고려해봤을 때, 이에 따라 포트폴리오의 하락폭도 크게 감소했어요!
 

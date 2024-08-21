@@ -3,15 +3,13 @@ title: "Tailwind CSS에 Signals가 도입된다"
 description: ""
 coverImage: "/assets/img/2024-07-09-SignalsareNowComingtoTailwindCSS_0.png"
 date: 2024-07-09 13:57
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-SignalsareNowComingtoTailwindCSS_0.png
 tag: Tech
 originalTitle: "Signals are Now Coming to Tailwind CSS?"
 link: "https://medium.com/javascript-in-plain-english/about-me-yevhen-a03fb7d03d20"
 isUpdated: true
 ---
-
-
 
 ![Signals](/assets/img/2024-07-09-SignalsareNowComingtoTailwindCSS_0.png)
 
@@ -21,7 +19,18 @@ Tailwind Signals는 Tailwind CSS의 새로운 실험적인 기능으로, DOM 내
 
 Signals을 사용하면:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <input type="checkbox" class="peer" /> 👈🏼 여기에서 선택 또는 해제할 수 있어요

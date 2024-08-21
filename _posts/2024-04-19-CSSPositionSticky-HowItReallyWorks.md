@@ -3,17 +3,13 @@ title: "CSS 포지션 sticky를 사용하면 안되는 이유"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "CSS Position Sticky - How It Really Works"
 link: "https://medium.com/@elad/css-position-sticky-how-it-really-works-54cd01dc2d46"
 isUpdated: true
 ---
-
-
-
-
 
 CSS position sticky은 브라우저 지원이 매우 좋지만, 대부분의 개발자들이 사용하지 않고 있어요.
 
@@ -23,7 +19,18 @@ CSS position sticky은 브라우저 지원이 매우 좋지만, 대부분의 개
 
 ![CSS 포지션 스티키가 어떻게 작동하는지](/assets/img/CSSPositionSticky-HowItReallyWorks_0.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 여러분이 CSS Position에 대해 알고 있을 거라고 가정합니다만, 간단히 복습해보겠습니다:
 
@@ -33,7 +40,18 @@ static 또는 relative와 absolute 또는 fixed 사이의 주요 차이점은 DO
 
 새로운 Position Sticky는 모든 유형과 유사점을 가지고 있으며, 곧 설명하겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## position: sticky를 활용한 첫 번째 시도
 
@@ -43,7 +61,18 @@ position: sticky를 활용한 첫 번째 시도에서 모든 사람들은 빠르
 
 예시:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 .some-component {
@@ -58,7 +87,18 @@ position: sticky를 활용한 첫 번째 시도에서 모든 사람들은 빠르
 
 이를 실험해보면, 'position: sticky' 스타일이 적용된 요소가 감싸져 있고 해당 요소가 래퍼 요소 내에서 유일한 요소인 경우 이 요소가 'position: sticky'로 정의되었음에도 고정되지 않음을 빠르게 알 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <!-- 동작하지 않아요!!! -->
@@ -82,7 +122,18 @@ wrapper 요소 내에 요소를 추가하니까 동작하기 시작했어요.
 
 ## CSS Position Sticky가 실제로 작동하는 방법!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS position: sticky에는 sticky item 및 sticky container 두 가지 주요 부분이 있습니다.
 
@@ -97,7 +148,18 @@ Sticky item은 position: sticky 스타일로 정의한 요소입니다. 뷰포�
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Sticky Container - 스티키 항목을 감싸는 HTML 요소입니다. 이는 스티키 항목이 부유할 수 있는 최대 영역입니다.
 
@@ -108,7 +170,18 @@ position: sticky로 요소를 정의하면 자동으로 부모 요소가 스티�
 
 CSS Position Sticky의 시각적 예시:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/CSSPositionSticky-HowItReallyWorks_1.png" />
 
@@ -118,7 +191,18 @@ CodePen Example:
 
 이전에 말했듯이 CSS Position Sticky는 다른 모든 CSS Position들과는 다르게 동작하지만, 또한 유사한 점이 있습니다. 제게 설명을 해 드릴게요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 상대적(또는 정적) - 스티키로 고정된 요소는 상대적 및 정적 위치와 유사하며 DOM에서 자연적인 갭을 유지합니다(플로우 안에 있음).
 
@@ -137,7 +221,18 @@ CodePen Example:
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 정확히 이 목적으로 만들어졌습니다. 이전에는 JavaScript를 사용해야만 했던 일을 지금 할 수 있습니다.
 
@@ -147,7 +242,18 @@ CodePen Example:
 
 HTML
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <main class="main-container">
@@ -168,7 +274,18 @@ CSS
 
 Live CodePen Example:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 실제로 고정 요약 테이블에 사용하고 있고, 이 방법을 사용하면 매우 잘 작동할 수 있는 고정 푸터 내비게이션을 생각할 수 있어요.
 
@@ -182,7 +299,18 @@ position: -webkit-sticky; /* Safari */
 position: sticky;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![CSSPositionSticky-HowItReallyWorks_2](/assets/img/CSSPositionSticky-HowItReallyWorks_2.png)
 
@@ -198,7 +326,18 @@ position: sticky;
 CSS 그리드 닌자로 거듭나기!
 새로운 반응형 디자인 진화
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 누구일까요?
 저는 CSS 및 HTML 디자인과 아키텍처에 특화된 웹 개발자인 Elad Shechter입니다. Investing.com에서 일하고 있어요.

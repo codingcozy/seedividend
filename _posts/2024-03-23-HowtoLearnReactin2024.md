@@ -3,17 +3,13 @@ title: "2024년에 React를 배우는 가장 효율적인 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How to Learn React in 2024"
 link: "https://reedbarger.medium.com/how-to-learn-react-in-2024-12eed74c9a40"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/How-to-Learn-React-in-2024_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 📖 1~2주: React 문서 탐색
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 React를 처음 시작한다면, 당신의 여정 동안 이상적인 리소스는 강의나 책이 아니라 완전히 무료인 react.dev의 React 문서입니다.
 
@@ -33,7 +40,18 @@ React 문서는 2023년에 처음부터 다시 작성되었습니다. 이 문서
 
 React 문서는 React에 익숙해지는 좋은 방법뿐만 아니라, 앞에서부터 뒤까지 React를 배우기 위한 온라인에서 가장 전체적인 자료입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 할 일:
 
@@ -44,7 +62,18 @@ React 문서는 React에 익숙해지는 좋은 방법뿐만 아니라, 앞에�
 
 새로운 리액트 문서에는 인터랙티브 코드 샌드박스가 포함되어 있어요. 이는 브라우저에서 리액트 코드를 실습해 볼 수 있다는 뜻입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 🤔 JavaScript를 먼저 배워야 할까요?
 
@@ -54,7 +83,18 @@ React 문서는 React에 익숙해지는 좋은 방법뿐만 아니라, 앞에�
 
 어떤 리액트 앱에서든 활용해야 할 몇 가지 JavaScript 기본 사항만 알면 돼요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이들은 문자열, 숫자, 부울과 같은 간단한 데이터 유형부터 객체와 배열과 같은 복잡한 데이터 유형, 또한 프라미스를 사용한 함수 및 비동기 작업과 같은 것들을 포함합니다. 그게 전부에요.
 
@@ -64,7 +104,18 @@ React 문서는 React에 익숙해지는 좋은 방법뿐만 아니라, 앞에�
 
 이 시점에서, 리액트 앱을 만들기 전에 반드시 해야 할 중요한 일이 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React 프로젝트를 처음부터 생성하고 컴퓨터에서 개발 모드로 실행하는 방법을 간단히 배우면 됩니다.
 
@@ -75,7 +126,18 @@ React 프로젝트를 처음부터 생성하고 컴퓨터에서 개발 모드로
 
 이 프로세스에 익숙해지는 데 시간이 걸리겠지만, 이 작업은 중요합니다. 왜냐하면 주로 컴퓨터의 React 프로젝트 폴더에서 작업하게 될 것이기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코드 편집기를 설정하고 편한 환경을 만드는 데 시간을 투자해보세요. 아마도 Visual Studio Code를 사용하게 될 것입니다. 그런 다음 Vite를 사용하여 React 프로젝트를 만드는 방법을 살펴보세요.
 
@@ -85,7 +147,18 @@ React 프로젝트를 만드는 여러 가지 방법이 있습니다. 그러나 
 
 마지막으로 터미널에서 기본 명령어를 열고 실행하는 데 편안해지는 것이 중요합니다. Visual Studio Code의 통합 터미널이나 컴퓨터의 터미널 또는 명령줄 중 어디든 원하는 대로 명령어를 실행해 보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여유시간이 있다면, 코드를 만든 변경 사항을 푸시하는 방법을 확인하는 것도 좋아요. 팀으로 작업할 때 Git과 같은 버전 관리 시스템을 사용하여 이러한 변경 사항을 추적하는 것이 중요하니까요.
 
@@ -95,7 +168,18 @@ React 프로젝트를 만드는 여러 가지 방법이 있습니다. 그러나 
 
 이제 React가 무엇이며 사용자 인터페이스를 구축하는 데 어떻게 사용될 수 있는지 기본 개념을 이해했으니, 간단한 사용자 인터페이스를 만들어보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Fully functional한 애플리케이션을 만들기 전에, React elements, components, 그리고 CSS를 사용하여 앱의 구조를 구축하는 데 집중해야 해요.
 
@@ -108,7 +192,18 @@ Fully functional한 애플리케이션을 만들기 전에, React elements, comp
 
 단순한 React element를 사용하여 이 과정을 따라갈 수 있어요. 이러한 요소들을 컴포넌트로 나누어 재사용할 수 있도록 하는 방법을 배우게 될 거예요. 그 후에는 props로 전달된 데이터를 사용하여 동적으로 만들어 보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금 이 시점에서는 React에서 CSS를 사용하는 법에 익숙해지는 것을 강력히 추천합니다. 간단한 스타일 시트를 사용하거나 매우 인기 있는 Tailwind CSS와 같은 도구를 사용할 수 있어요.
 
@@ -118,7 +213,18 @@ React를 사용하여 정적 페이지를 만드는 이 단계는 시맨틱 HTML
 
 # 🛠️ 7주차-10주차: 동적 React 프로젝트 만들기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트 정적 프로젝트를 만든 후에는 간단하지만 기능적인 리액트 프로젝트를 만드는 게 목표입니다.
 
@@ -129,7 +235,18 @@ React를 사용하여 정적 페이지를 만드는 이 단계는 시맨틱 HTML
 
 ![React 학습법 2024_3](/assets/img/How-to-Learn-React-in-2024_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 프로젝트들을 중급 프로젝트로 만드는 것은 정확히 무엇인가요? 간단히 말하자면, 이러한 프로젝트들은 기본적이고 정적인 것들과 비교할 때 실제 세계 응용 프로그램처럼 더 많이 기능해야 합니다. 사용자 입력을 사용해야 하며, React 상태를 사용하여 이벤트를 처리하고 데이터를 관리해야 합니다.
 
@@ -139,7 +256,18 @@ React를 사용하여 정적 페이지를 만드는 이 단계는 시맨틱 HTML
 
 어떤 아이디어가 필요하다면, 하루 안에 할 수 있는 React 초보자 프로젝트를 다수 소개한 전문 기사가 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 시기는 일반 HTML(기술적으로 JSX)과 CSS 대신 React를 사용하고 React-특화 코드를 작성하는 데 편안해지는 중요한 시기입니다.
 
@@ -149,7 +277,18 @@ React를 사용하여 정적 페이지를 만드는 이 단계는 시맨틱 HTML
 
 미니 React 프로젝트를 구축하는 데 자신감을 느끼기 시작하면, 더 고급 프로젝트로 도전하는 좋은 시기라는 신호입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 할 일:
 
@@ -160,7 +299,18 @@ React를 사용하여 정적 페이지를 만드는 이 단계는 시맨틱 HTML
 
 ![React 학습하기](/assets/img/How-to-Learn-React-in-2024_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React은 TikTok, Twitch, Hulu, Notion 등 매일 사용하는 큰 애플리케이션을 만드는 데 사용됩니다. 그러니 포트폴리오 프로젝트를 선택할 때 크게 생각해보세요.
 
@@ -172,7 +322,18 @@ React은 TikTok, Twitch, Hulu, Notion 등 매일 사용하는 큰 애플리케�
 - 무료 또는 유료로 사용할 수 있는 인증 서비스를 사용하여 사용자를 인증하는 방법
 - React 프로젝트에서 비디오를 재생하는 데 가장 적합한 라이브러리는 무엇인지
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 많은 작은 결정들 위에, 당신이 길을 따라 결정할 많은 것들이 있습니다.
 
@@ -182,7 +343,18 @@ React은 TikTok, Twitch, Hulu, Notion 등 매일 사용하는 큰 애플리케�
 
 당신이 자랑스러운 기능 프로젝트를 가지고 있고, React의 핵심 개념을 잘 이해하고 있으며 코딩하는 동안 어떻게 문제를 해결할지 알고 있다고 느낄 때, React 주니어 개발자로 지원할 준비가 된 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 축하합니다!
 
@@ -192,7 +364,18 @@ React를 처음부터 끝까지 배울 수 있는 궁극의 자료를 찾고 계
 
 ✨ 소개합니다: 더 React 부트캠프
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 부트캠프는 React에서 성공하기 위한 모든 리소스를 제공합니다:
 
@@ -207,6 +390,17 @@ React를 처음부터 끝까지 배울 수 있는 궁극의 자료를 찾고 계
 
 ![React 부트캠프 포스터](/assets/img/How-to-Learn-React-in-2024_5.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시작하려면 클릭하세요.

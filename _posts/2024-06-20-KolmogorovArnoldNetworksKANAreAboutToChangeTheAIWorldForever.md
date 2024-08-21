@@ -3,16 +3,13 @@ title: "콜모고로프-아놀드 네트워크KAN가 인공지능 세계를 영�
 description: ""
 coverImage: "/assets/img/2024-06-20-KolmogorovArnoldNetworksKANAreAboutToChangeTheAIWorldForever_0.png"
 date: 2024-06-20 04:51
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-KolmogorovArnoldNetworksKANAreAboutToChangeTheAIWorldForever_0.png
 tag: Tech
 originalTitle: "Kolmogorov–Arnold Networks (KAN) Are About To Change The AI World Forever"
 link: "https://medium.com/accredian/kolmogorov-arnold-networks-kan-are-about-to-change-the-ai-world-forever-687f6d0b4d93"
 isUpdated: true
 ---
-
-
-
 
 ## 신경망에 대해 알고 있던 모든 것을 잊어버리세요, KAN이 규칙을 다시 쓸 예정입니다
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 머신 러닝의 계속 변화하는 풍경 속에서 최근 발표된 "KAN: Kolmogorov-Arnold Network"라는 연구 논문은 열광적인 열기를 불러일으켰습니다. 이 혁신적인 접근 방식은 다층 퍼셉트론(MLP)의 전통적인 지혜에 도전하여 신경망 구조에 대한 새로운 시각을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 콜모고로프-아놀드 네트워크 (KAN's)란 무엇인가요:
 
@@ -32,8 +40,18 @@ isUpdated: true
 
 이제 당연한 질문은 이 "더 간단한 일차원 함수"가 무엇인가요. 수학 또는 컴퓨터 그래픽을 조금 알고 있는 사람이라면, 우리가 말하는 것은 옛날부터 신뢰받는 조각별 다항식인 Spline입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](https://miro.medium.com/v2/resize:fit:1400/1*1VcxJSh_CYAPc9-0os2-pA.gif)
 
@@ -43,8 +61,18 @@ isUpdated: true
 
 스플라인을 생성하기 위해 일반적으로 곡선의 경로를 정의하는 일련의 제어점을 시작점으로 삼습니다. 그런 다음, B-스플라인이나 베지에 곡선과 같은 기저 함수를 사용하여 이러한 제어점 사이의 경로를 보간하거나 근사합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1400/1*B1MXmHF8xD_WP3GJNwbfDQ.gif)
 
@@ -54,7 +82,18 @@ isUpdated: true
 
 # KAN 작동 방식을 이해하는 가장 간단한 방법
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 전통적인 MLP들과 달리 KAN은 고정된 활성화 함수를 학습 가능한 기능(B-Splines)으로 대체하여 네트워크의 가장자리를 따라 작동합니다.
 
@@ -64,7 +103,18 @@ isUpdated: true
 
 MLP의 경우 신호를 전달하는 수동적인 수단으로 기능하는 것과 달리, KAN의 뉴런들은 학습 프로세스의 적극적인 참여자로서 동적으로 동작을 조정하여 마주치는 데이터에 대응합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 네트워크의 가장자리에 배치된 학습 가능한 활성화 함수를 도입하여 가능해진 이 혁신적인 전환은, 네트워크의 에지에 배치된 학습 가능한 활성화 함수를 통해 가능케 되었습니다.
 
@@ -74,7 +124,18 @@ B-스플라인의 표현력을 이용하여, 이러한 함수들은 KAN에 무�
 
 # KAN의 주요 장점:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 향상된 확장성
 
@@ -84,7 +145,18 @@ KAN은 특히 고차원 데이터 시나리오에서 MLP에 비해 우수한 확
 
 더 적은 매개변수를 사용하더라도 KAN은 다양한 작업에 걸쳐 전통적인 MLP보다 더 높은 정확도와 낮은 손실을 달성합니다. 이는 데이터 내에서 관계를 적응적으로 모델링하는 능력 때문에, 보다 정확한 예측과 보다 잘 일반화된 결과를 얻을 수 있다고 이해됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 해석 가능한 모델
 
@@ -94,7 +166,18 @@ KAN의 구조는 해석 가능성을 용이하게 하여 연구자들이 학습�
 
 하지만 KAN의 가장 좋은 점은 새로운 Python 라이브러리 "PyKAN"을 사용하여 자신의 데이터 과학 문제에 쉽고 간단하게 적용할 수 있다는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 텍스트를 친근한 어조로 한국어로 번역하겠습니다.
 
@@ -106,7 +189,18 @@ KAN의 구조는 해석 가능성을 용이하게 하여 연구자들이 학습�
 
 ## 데이터셋 생성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 sklearn 라이브러리의 "make_moons" 함수를 사용하여 합성 데이터 세트를 생성할 예정이에요.
 
@@ -134,7 +228,18 @@ plt.scatter(X[:,0], X[:,1], c=y[:])
 
 <img src="/assets/img/2024-06-20-KolmogorovArnoldNetworksKANAreAboutToChangeTheAIWorldForever_3.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## KAN 생성 및 훈련
 
@@ -144,15 +249,15 @@ from kan import KAN
 model = KAN(width=[2,2], grid=3, k=3)
 
 def train_acc():
-    return torch.mean((torch.argmax(model(dataset['train_input']), 
+    return torch.mean((torch.argmax(model(dataset['train_input']),
     dim=1) == dataset['train_label']).float())
 
 def test_acc():
-    return torch.mean((torch.argmax(model(dataset['test_input']), 
+    return torch.mean((torch.argmax(model(dataset['test_input']),
     dim=1) == dataset['test_label']).float())
 
-results = model.train(dataset, opt="LBFGS", steps=20, 
-          metrics=(train_acc, test_acc), 
+results = model.train(dataset, opt="LBFGS", steps=20,
+          metrics=(train_acc, test_acc),
           loss_fn=torch.nn.CrossEntropyLoss())
 ```
 
@@ -160,7 +265,18 @@ results = model.train(dataset, opt="LBFGS", steps=20,
 
 이후, 모델이 데이터로부터 학습한 내용을 나타내는 심볼릭 공식이 유도됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 formula1, formula2 = model.symbolic_formula()[0]
@@ -189,7 +305,18 @@ print('학습 데이터 정확도:', acc(formula1, formula2, dataset['train_inpu
 print('테스트 데이터 정확도:', acc(formula1, formula2, dataset['test_input'], dataset['test_label']))
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 결과
 
@@ -202,6 +329,17 @@ print('테스트 데이터 정확도:', acc(formula1, formula2, dataset['test_in
 
 요약하자면, 콜모고로프-아놀드 네트워크(KANs)는 신경망 구조에서 패러다임 전환을 나타냅니다. KANs는 잠재력을 최대로 발휘하기 위해 추가 연구와 실험이 필요하지만, 앞으로 몇 년 동안 기계 학습과 과학적 발견을 진전시키는 데 유용한 도구로서의 가능성을 갖고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 계속 발전하는 이 분야에서 KAN은 혁신의 선두에 서 있습니다. 지능 시스템의 미래를 형성하고 복잡한 데이터 분석과 모델링 방식을 혁명화하고 있습니다.

@@ -3,16 +3,13 @@ title: "의사결정을 이끄는 매직 놀라움을 발견하라, 추천 시�
 description: ""
 coverImage: "/assets/img/2024-06-20-TheMagicThatGuidesOurDecisionsDiscoveringSurprisetheLibraryforRecommendationSystems_0.png"
 date: 2024-06-20 02:04
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-TheMagicThatGuidesOurDecisionsDiscoveringSurprisetheLibraryforRecommendationSystems_0.png
 tag: Tech
 originalTitle: "The Magic That Guides Our Decisions: Discovering Surprise, the Library for Recommendation Systems"
 link: "https://medium.com/@lfcaro90/the-magic-that-guides-our-decisions-discovering-surprise-the-library-for-recommendation-systems-662cde62c9c3"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-06-20-TheMagicThatGuidesOurDecisionsDiscoveringSurprisetheLibraryforRecommendationSystems_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 여정의 시작: Surprise가 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 거의 마법적인 도구가 있다고 상상해보세요. 이 도구는 추천 시스템을 쉽게 만들 수 있게 해줍니다. 이 도구는 'Surprise'라고 불리며, 이는 "간단한 Python 추천 시스템 엔진"을 의미합니다. Facebook의 영국에서 근무 중인 기계 학습 엔지니어이자 박사 후보인 닥터 니콜라스 휙(Nicolas Hug) 박사가 개발한 Surprise는 협업 필터링 기술을 중점으로 한 추천 시스템을 구축하고 분석하는 데 사용됩니다.
 
@@ -32,7 +40,18 @@ Surprise는 추천 시스템(RS)을 생성하는 것뿐만 아니라 그러한 �
 
 이러한 개념을 탐색하기 위해 우리는 유명한 MovieLens 100k 데이터 세트를 사용할 것입니다. 이 데이터 세트에는 100,000개의 사용자 평가 영화 순위가 포함되어 있으며, 이를 기반으로 추천 모델을 구축하고 평가할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 항해 시작: 데이터 로드 및 조작
 
@@ -42,7 +61,18 @@ Surprise는 추천 시스템(RS)을 생성하는 것뿐만 아니라 그러한 �
 
 평점이 어떻게 분포되어 있는지를 보여주는 그래프를 생성할 것입니다. 이러한 그래프들은 데이터의 패턴과 트렌드를 명확하게 보여줄 것이며, 정확한 추천 모델을 구축하는 데 기본적입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최적의 과정을 찾아가는 여정: 추천 모델
 
@@ -52,7 +82,18 @@ Surprise는 추천 시스템(RS)을 생성하는 것뿐만 아니라 그러한 �
 
 우리는 모델의 하이퍼파라미터를 조정하여 정확도를 극대화할 것입니다. GridSearchCV를 통해 각 알고리즘에 대한 최상의 설정값을 찾을 때까지 다양한 매개변수 조합을 테스트할 것입니다. 이 연습의 끝에서는 RMSE(평균 제곱근 오차)와 MAE(평균 절대 오차) 메트릭을 사용하여 모델의 성능을 비교하여 이 특정한 경우에 가장 좋은 추천을 제공하는 모델을 명확히 이해할 수 있도록 결과를 시각적으로 확인할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 탐험의 여정
 
@@ -62,7 +103,18 @@ Surprise의 데이터 집합과 다양한 알고리즘 및 평가 도구를 활�
 
 다음 항해 때, 항해 차트 없이 하지 마세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각 사용자의 경험을 정밀하고 관련성 높은 추천으로 개인화할 수 있는 가능성을 상상해 보세요. 다음으로 볼 영화를 제안하거나 완벽한 책을 추천하는 등, 추천 시스템은 사용자 상호작용을 개선하고 경험을 더 개인적으로 만드는 강력한 도구입니다.
 
@@ -82,7 +134,18 @@ from surprise import Dataset, Reader, SVD, KNNBasic
 from surprise.model_selection import cross_validate, GridSearchCV
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # MovieLens 100k 데이터 세트 로드하기
@@ -127,7 +190,18 @@ plt.tight_layout()
 plt.show()
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 아이템별 평가 횟수
@@ -178,7 +252,18 @@ print("\nSVD의 최적 하이퍼파라미터:")
 print(gs_svd.best_params['rmse'])
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # KNN을 위한 하이퍼파라미터 튜닝을 위한 GridSearchCV
@@ -220,9 +305,20 @@ plt.tight_layout()
 plt.show()
 ```
 
-참고 문헌 
+참고 문헌
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Hug, N. (2017). 놀라운 추천 시스템을 위한 Python 라이브러리. Journal of Open Source Software, 2(12), 1–4.
 - Hug, N. (2020). Surprise 문서. http://surpriselib.com 에서 확인

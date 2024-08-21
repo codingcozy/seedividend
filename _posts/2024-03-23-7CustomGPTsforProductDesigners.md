@@ -3,17 +3,13 @@ title: "디자이너에게 꼭 필요한 GPT 서비스 7가지"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "7 Custom GPTs for Product Designers"
 link: "https://uxplanet.org/7-custom-gpts-for-product-designers-437bcd92e2ba"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/7-Custom-GPTs-for-Product-Designers_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ## 1. Canva
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 첫 번째 GPT는 Canva입니다. Canva는 빠르게 배너, 소셜 미디어 게시물 및 포스터를 만들 수 있는 온라인 그래픽 디자인 도구입니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ![이미지 alt 텍스트](/assets/img/7-Custom-GPTs-for-Product-Designers_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 마크다운 형식으로 "칸바(Canva)"가 우리에게 전달하길 원하는 메시지에 대한 구체적인 세부 정보를 제공해야 한다.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 ![Image 2](/assets/img/7-Custom-GPTs-for-Product-Designers_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 솔직히 말해서, 두 옵션 모두 평균 수준으로 보입니다. 첫 번째 옵션은 로봇 강아지를 보여주기 때문에 우리의 목표와 더 관련이 있어 보입니다. 옵션 1을 클릭하면 이 디자인을 더 자세하게 다듬을 수 있는 Canva 도구로 이동하게 됩니다. 그래서 이 GPT는 독립된 디자인 도구보다는 Canva 서비스로의 단축키 같은 존재인 것 같아요.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 이 GPT는 아름다운 웹사이트를 만들고 호스팅하는 것을 약속합니다. 제시된 프롬프트를 기반으로 이 도구가 간단한 레이아웃의 웹사이트를 생성한다고 상상해 볼 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![/assets/img/7-Custom-GPTs-for-Product-Designers_6.png]
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 Canva GPT와 비슷하게, 이 도구도 작업을 완료하기 위해 3rd party 서비스로 요청을 보냅니다. 디자인이 완성되면 생성된 웹페이지 링크를 제공해 줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![사용자 정의 GPT(General Performance Test) 7 - 제품 디자이너를 위한](/assets/img/7-Custom-GPTs-for-Product-Designers_8.png)
 
@@ -73,7 +124,18 @@ Canva GPT와 비슷하게, 이 도구도 작업을 완료하기 위해 3rd party
 
 그리고 첫 눈에 띄는 것은 이 웹 디자인이 환영받는 미적 감각을 가지고 있지 않다는 것입니다. 이 페이지는 이미지가 없는 단순한 한 열 레이아웃입니다. 이 디자인의 좋은 점은 실제 텍스트 복사를 강조하고 있다는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 GPT의 장점은 디자인을 실시간으로 반복할 수 있다는 것입니다. 도구에게 디자인 문제를 해결하라고 요청할 수 있습니다. 예를 들어, 이 페이지의 사진을 일반 강아지의 사진으로 변경해 달라고 요청했습니다. 도구는 그 작업을 수행하고 업데이트된 버전의 링크를 제공했습니다.
 
@@ -83,7 +145,18 @@ GPT의 장점은 디자인을 실시간으로 반복할 수 있다는 것입니�
 
 ![멋진 강아지](/assets/img/7-Custom-GPTs-for-Product-Designers_11.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 3. 로고 생성기
 
@@ -93,7 +166,18 @@ GPT의 장점은 디자인을 실시간으로 반복할 수 있다는 것입니�
 
 로봇 개를 특징으로 하는 로고를 만들도록 도구에 요청해보죠. 도구는 시각적 스타일, 로고 복잡도 및 색상을 명확히하기 위해 몇 가지 질문을 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/7-Custom-GPTs-for-Product-Designers_13.png)
 
@@ -103,7 +187,18 @@ GPT의 장점은 디자인을 실시간으로 반복할 수 있다는 것입니�
 
 ## 4. 그리모어
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 GPT는 코딩에 도움을 줄 수 있어요. 설명에 따르면 한 문장으로 웹사이트를 만들 수 있다고 해요.
 
@@ -113,7 +208,18 @@ GPT의 장점은 디자인을 실시간으로 반복할 수 있다는 것입니�
 
 이 도구에게 3가지 특정 질문이 있는 온라인 설문 조사 코드를 작성하라고 요청해보죠. 바로 목소리 톤을 느껴보실 거에요. 마치 코딩을 할 수 있는 간달프와 상호 작용하고 있는 듯한 기분이 들죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Custom GPTs for Product Designers Step 1](/assets/img/7-Custom-GPTs-for-Product-Designers_16.png)
 
@@ -123,7 +229,18 @@ GPT의 장점은 디자인을 실시간으로 반복할 수 있다는 것입니�
 
 그리모어는 HTML, CSS 및 JavaScript 코드를 제공했습니다. 그리고 코드가 어떻게 작동하는지에 대한 몇 가지 구체적인 노트도 함께 제공되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Custom GPT for Product Designers](/assets/img/7-Custom-GPTs-for-Product-Designers_18.png)
 
@@ -133,7 +250,18 @@ Here is what the survey form will look like.
 
 ![Custom GPT for Product Designers](/assets/img/7-Custom-GPTs-for-Product-Designers_20.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 디자인은 정말 아름답지 않지만, 코드는 제대로 작동하고 있어요. 게다가 JavaScript는 사용자 입력을 유효성 검사해줘요. 그래서 잘못된 값을 입력하면 오류 메시지가 표시될 거예요.
 
@@ -143,7 +271,18 @@ Here is what the survey form will look like.
 
 이 GPT는 사용자 연구에 도움이 될 거에요. 특정 주제에 대해 합의에 물어보면 관련 연구를 찾아줄 거예요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![사람들이 인간형 로봇에 대해 어떻게 반응하는지에 대해 도구에 요청하면, 도구는 거대한 과학 논문 데이터베이스를 검색하고 이 주제와 관련된 연구 목록을 제공합니다. 이 목록의 각 연구는 원래 논문을 참조하므로 목록을 클릭하여 볼 수 있습니다.](/assets/img/7-Custom-GPTs-for-Product-Designers_22.png)
 
@@ -151,7 +290,18 @@ Here is what the survey form will look like.
 
 도구는 응답 끝에 연구자들에 대한 좋은 요약을 제공합니다.](/assets/img/7-Custom-GPTs-for-Product-Designers_23.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/7-Custom-GPTs-for-Product-Designers_24.png)
 
@@ -161,7 +311,18 @@ Here is what the survey form will look like.
 
 ![이미지](/assets/img/7-Custom-GPTs-for-Product-Designers_25.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도구를 활용하여 이해방식을 개선하고 이해관계자로부터 제품에 대한 지지를 얻을 수 있는 좋은 전략을 만들어보는 것이 어때요?
 
@@ -171,7 +332,18 @@ Here is what the survey form will look like.
 
 ![이미지](/assets/img/7-Custom-GPTs-for-Product-Designers_27.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 7. 무엇이든 변환하기
 
@@ -181,7 +353,18 @@ Here is what the survey form will look like.
 
 여러분은 JPG 이미지를 업로드하고 도구에게 이를 PDF로 변환해 달라고 요청할 수 있습니다. 도구는 오류 메시지를 표시하지만, 여전히 작업을 완료합니다. 변환된 파일(PDF)에 대한 다운로드 링크를 제공하며, 클릭하면 변환된 PDF 파일이 생성된 것을 볼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![GPT Collection](/assets/img/7-Custom-GPTs-for-Product-Designers_29.png)
 
@@ -191,10 +374,17 @@ Here is what the survey form will look like.
 
 Uxcel을 시도해보세요. Uxcel은 전문 디자이너를 위해 특별히 만들어진 대화식 UX 코스와 스킬 테스트로 디자인 스킬을 배우고 향상시킬 수 있습니다. 이 링크를 통해 가입하면 Pro 연간 구독에서 25% 할인 혜택을 받을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 게시물에는 제휴 링크가 포함되어 있습니다.
-
-
-
-

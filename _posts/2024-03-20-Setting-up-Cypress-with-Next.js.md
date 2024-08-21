@@ -3,17 +3,13 @@ title: "Nextjs 14 Cypress 셋팅하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # Next.js에서 Cypress 설정하기
 
@@ -25,7 +21,18 @@ Cypress는 엔드 투 엔드(E2E) 및 컴포넌트 테스트에 사용되는 테
 
 ## 빠른 시작
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 create-next-app을 with-cypress 예제와 함께 사용하여 빠르게 시작할 수 있어요.
 
@@ -37,7 +44,18 @@ npx create-next-app@latest --example with-cypress with-cypress-app
 
 수동으로 Cypress를 설정하려면 Cypress를 개발 의존성으로 설치하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm install -D cypress
@@ -63,7 +81,18 @@ package.json 스크립트 필드에 Cypress 실행 명령어를 추가하세요:
 
 처음으로 Cypress를 실행하여 Cypress 테스트 스위트를 엽니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm run cypress:open
@@ -75,7 +104,18 @@ E2E 테스트 및/또는 구성 요소 테스트를 구성할 수 있습니다. 
 
 cypress.config.js 파일이 다음 구성을 가지고 있는지 확인하십시오:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { defineConfig } from "cypress";
@@ -112,7 +152,18 @@ export default function Page() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import Link from "next/link";
@@ -149,7 +200,18 @@ describe("Navigation", () => {
 
 ### E2E 테스트 실행하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 싸이프레스는 사용자가 귀하의 애플리케이션을 탐색하는 것을 시뮬레이션합니다. 이를 위해서는 Next.js 서버가 실행 중이어야 합니다. 귀하의 테스트를 제품 코드에 대해 실행하여 귀하의 애플리케이션이 어떻게 동작할지 보다 정확하게 모사할 것을 권장합니다.
 다음 명령어를 실행하여 Next.js 애플리케이션을 빌드하고 시작하세요 npm run build && npm run start. 그런 다음 또 다른 터미널 창에서 npm run cypress:open을 실행하여 Cypress를 시작하고 E2E 테스트 스위트를 실행하세요.
@@ -160,7 +222,18 @@ describe("Navigation", () => {
 
 ## 처음으로 Cypress 컴포넌트 테스트를 만들어 보세요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컴포넌트 테스트는 전체 애플리케이션을 번들링하거나 서버를 시작하지 않고도 특정 컴포넌트를 빌드하고 마운트하는 것을 말해요.
 Cypress 앱에서 컴포넌트 테스팅을 선택한 다음, 프론트엔드 프레임워크로 Next.js를 선택하세요. 프로젝트에 cypress/component 폴더가 생성되며 cypress.config.js 파일이 업데이트되어 컴포넌트 테스트를 활성화합니다.
@@ -179,7 +252,18 @@ export default defineConfig({
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const { defineConfig } = require("cypress");
@@ -218,7 +302,18 @@ describe("<Page />", () => {
 > Cypress는 현재 비동기 서버 구성 요소에 대한 구성 요소 테스트를 지원하지 않습니다. E2E 테스트를 사용하는 것을 권장합니다.
 > 구성 요소 테스트는 Next.js 서버를 필요로하지 않으므로 서버가 필요한 `<Image />`와 같은 기능은 기본적으로 작동하지 않을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 컴포넌트 테스트 실행하기
 
@@ -228,7 +323,18 @@ describe("<Page />", () => {
 
 대화형 테스트 외에도 cypress run 명령을 사용하여 Cypress를 헤드리스 모드로 실행하여 CI 환경에 더 적합하게 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```json
 {
@@ -250,4 +356,15 @@ describe("<Page />", () => {
 - 공식 Cypress GitHub Action
 - Cypress Discord
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

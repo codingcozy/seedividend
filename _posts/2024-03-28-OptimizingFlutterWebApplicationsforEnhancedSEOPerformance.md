@@ -3,17 +3,13 @@ title: "Flutter 웹 애플리케이션 SEO 최적화 하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Optimizing Flutter Web Applications for Enhanced SEO Performance"
 link: "https://medium.com/@function12/optimizing-flutter-web-applications-for-enhanced-seo-performance-0650869024b2"
 isUpdated: true
 ---
-
-
-
-
 
 ![OptimizingFlutterWebApplicationsforEnhancedSEOPerformance](/assets/img/OptimizingFlutterWebApplicationsforEnhancedSEOPerformance_0.png)
 
@@ -25,7 +21,18 @@ isUpdated: true
 - 초기 로드 시간: 처음 렌더링하기 전에 Flutter 엔진 및 앱 코드를 다운로드해야 하므로 Flutter 웹 앱은 초기 로드 시간이 더 길어질 수 있습니다. 특히 Google은 페이지 속도를 순위 요소로 고려합니다. 느린 로딩 시간은 사용자 경험에 부정적인 영향을 미칠 수 있고, 결과적으로 앱의 검색 엔진 순위에도 영향을 줄 수 있습니다.
 - 콘텐츠 가시성: Flutter 웹 앱의 콘텐츠가 클라이언트 측에서 렌더링되기 때문에 사용자 상호 작용을 통해 생성 또는 수정된 모든 콘텐츠가 검색 엔진 크롤러에게 보이지 않을 수 있습니다. 이러한 무보이는 측면은 콘텐츠 풍부한 쿼리를 위해 순위를 매기는 앱의 능력을 저하시키고 전반적인 발견성을 줄일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 플러터 웹 애플리케이션에서 SEO 도전을 극복하는 방법:
 

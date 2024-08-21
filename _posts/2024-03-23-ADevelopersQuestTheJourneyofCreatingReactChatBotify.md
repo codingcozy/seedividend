@@ -3,17 +3,13 @@ title: "React 챗봇 토이 프로젝트 ChatBotify 만들기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "A Developers Quest The Journey of Creating React ChatBotify"
 link: "https://tjtanjin.medium.com/a-developers-quest-the-journey-of-creating-react-chatbotify-2620efbf8478"
 isUpdated: true
 ---
-
-
-
-
 
 ![A-Developer’s-Quest:-The-Journey-of-Creating-React-ChatBotify_0.png](/assets/img/A-Developer’s-Quest:-The-Journey-of-Creating-React-ChatBotify_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 영감
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 약 1~2개월 전, 나는 개인 포트폴리오 웹사이트를 업데이트하기 위한 모험에 나섰어. 웹사이트를 더 매력적으로 만들기 위해 새로운 기능을 시도하다가, 간단하지만 상호작용이 가능한 챗봇을 웹사이트에 통합하는 아이디어가 떠올랐어. 적합한 해결책을 찾기 위해 열정을 가지고 React 생태계에서 이미 존재하는 챗봇 라이브러리들을 탐험하기 시작했지.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 # 아이디어 불붙일 때
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 열정적으로 가능한 옵션을 찾아보던 중 인상적인 챗봇 솔루션인 Tidio를 만났어요. 그러나 그 뛰어난 점에도 불구하고, Tidio의 일반적인 특성 때문에 제 요구 사항을 충족시키는 능력이 제한되었죠. 이 찜찜한 느낌이 더 특별한 방법을 추구할 것을 저에게 억울하게 했어요. 저는 개발자가 챗봇에 대해 꼼꼼한 제어를 할 수 있는 참신한 라이브러리를 상상했고, 동시에 단숨에 아름답게 유지할 수 있는 라이브러리도 필요했어요!
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 커뮤니티로부터 영감을 받고 신중한 고려 끝에, 챗봇에 대한 제 비전은 아래의 기능과 이점과 함께 구체화되기 시작했어요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 동적 속성: 사용자 입력에 따라 메시지를 동적으로 생성하고 여러 대화 경로를 정의하여 상호작용 가능한 대화를 만듭니다.
 - 컴포넌트의 사용자 지정 렌더링: 자체 사용자 정의 컴포넌트를 챗봇 인터페이스에 원활하게 통합하여 응용 프로그램의 고유한 디자인과 기능을 강조합니다.
@@ -61,7 +90,18 @@ isUpdated: true
 
 노력과 열정적인 노력으로 React ChatBotify는 나의 노고의 열매가 되었습니다. 개발자들에게 유용한 보상이 되기를 희망합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 태아부터 실현까지의 여정은 성장, 학습 및 탐험으로 가득 찬 흥미로운 경험이었습니다. 이 라이브러리를 개발자 커뮤니티에 소개하면서, 솔직한 소망은 이 라이브러리가 매혹적이고 매력적인 챗봇 경험을 만들기 위해 노력하는 개발자들의 믿을 수 있는 동반자로 봉사하기를 원하는 것입니다.
 

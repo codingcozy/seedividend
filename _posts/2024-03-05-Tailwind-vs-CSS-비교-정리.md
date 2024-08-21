@@ -3,17 +3,13 @@ title: "Tailwind vs CSS 비교 정리(2024년 최신)"
 description: "Tailwind와 CSS를 비교하여 장단점을 살펴봅니다"
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # Tailwind vs CSS 비교 정리
 
@@ -31,7 +27,18 @@ Tailwind는 사랑받는 CSS 프레임워크로, 사용자 인터페이스를 �
 
 바로 코드 편집에 대한 개발자들의 태도에 관한 것입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 모든 것을 한 눈에 편집할 수 있다
 
@@ -61,7 +68,18 @@ Tailwind는 사랑받는 CSS 프레임워크로, 사용자 인터페이스를 �
 
 이러한 접근 방식은 모두 네이티브 CSS를 사용하며, 일부 사람들에게는 사용자 정의에 약간의 패러다임 변경이 필요할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 인라인 클래스의 문제점
 
@@ -85,7 +103,18 @@ Tailwind는 사랑받는 CSS 프레임워크로, 사용자 인터페이스를 �
 
 CSS 중첩과 상대 선택자는 CSS 프레임워크보다 적은 인라인 클래스를 정의하며, 전통적인 CSS 프로젝트와 비교했을 때도 적은 인라인 클래스를 정의합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

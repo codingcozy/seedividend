@@ -3,15 +3,13 @@ title: "React 컴포넌트에서 웹 컴포넌트 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-07-CreateaWebComponentfromaReactComponent_0.png"
 date: 2024-07-07 21:26
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-CreateaWebComponentfromaReactComponent_0.png
 tag: Tech
 originalTitle: "Create a Web Component from a React Component"
 link: "https://medium.com/skeepers/create-a-web-component-from-a-react-component-bbe7c5f85ee6"
 isUpdated: true
 ---
-
-
 
 ## 웹 컴포넌트 캡슐화가 제공하는 멋진 세계!
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 내 경험상, 클라이언트 웹사이트에 구현되는 "위젯"이라 불리는 작은 컴포넌트를 만들어야 했습니다. 이것은 쉽게 통합되고 재사용 가능하며 사용자 친화적이어야 했습니다. 이전에는 이 캡슐화를 달성하기 위해 iframe을 사용할 수 있었습니다. 그러나 점점 정교해지는 콘텐츠 보안 정책 (CSP) 및 보안 규칙로 인해 권한 관리가 악몽이 되었습니다. 클라이언트 DOM에 코드를 삽입하는 것은 다른 옵션이었지만 종종 폰트 크기가 누락되거나 !important로 인해 충돌하는 클라이언트 스타일과 같은 스타일 문제에 직면했습니다. 이는 우리와 클라이언트 모두에게 지저분하고 관리하기 어려운 문제로 이어졌습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 🛠 Web Components를 활용해봐요!
 
@@ -31,7 +40,18 @@ isUpdated: true
 
 # 🚀 코딩할 시간입니다
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이론을 배웠으니 이제 실습할 시간입니다.
 
@@ -43,7 +63,18 @@ isUpdated: true
 npm create vite
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트를 설정하기 위한 몇 가지 안내를 받게 될 것입니다. 설정은 매우 쉽습니다. 구성을 선택하고 Vite가 나머지를 처리하도록 해야 합니다.
 
@@ -55,7 +86,18 @@ npm create vite
 cd vite-project && npm install && npm install sass && npm run dev
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 명령을 사용하면 종속성을 설치하고 스타일을 사전 처리기 SASS로 작성하기 위해 sass를 설치하고 로컬 서버를 실행할 수 있습니다.
 
@@ -91,7 +133,18 @@ export const Subscription: FC<ISubscriptionProps> = ({ username, shouldDisplayMe
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 좋아요, 두 개의 props인 username과 shouldDisplayMentions을 가져오는 React 컴포넌트를 만들었어요. 이 컴포넌트는 제목과 이메일 입력란이 있는 팝업 형식이에요.
 
@@ -111,7 +164,18 @@ export default App;
 
 ![2024-07-07-CreateaWebComponentfromaReactComponent_2.png](/assets/img/2024-07-07-CreateaWebComponentfromaReactComponent_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 음, 보세요... 현재 상태는 좋지 않네요. 정말 솔직히 말하면 좀 못생겼다고 할 수 있어요. 이제 조금 스타일을 넣어볼 시간입니다!
 
@@ -183,7 +247,18 @@ export const Subscription: FC<ISubscriptionProps> = ({
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-07-07-CreateaWebComponentfromaReactComponent_3.png)
 
@@ -193,7 +268,18 @@ Et voilà, you should have a component with our style. Of course, you can change
 
 ## 🚀 Create your Web Component From your React Component
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오랫동안 지연되었던 웹 구성 요소를 만들어 봅시다. 이를 위해 src 폴더의 루트에 새 파일 web-component.tsx를 추가하겠습니다.
 
@@ -236,7 +322,18 @@ export default SubscriptionWebComponent;
 
 constructor는 요소가 생성될 때 호출됩니다. this.attachShadow(' mode: "open" ')를 사용하는 것을 볼 수 있는데, 이는 shadowRoot 메서드를 사용하여 Shadow DOM 내부 요소와 JavaScript 코드에서 상호 작용할 수 있도록 해줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 connectedCallback은 요소가 DOM에 추가된 후에 호출됩니다. 이 순간에는 태그의 속성이나 속성을 복원합니다. 그 후에는 React 애플리케이션을 Shadow DOM에 삽입합니다.
 
@@ -252,7 +349,18 @@ import SubscriptionWebComponent from "./web-component";
 customElements.define("my-subscription", SubscriptionWebComponent);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 웹 구성 요소를 가져왔고 새로운 사용자 정의 요소를 설정했습니다. 첫 번째 매개변수에서는 당신의 태그 이름을 `my-subscription`으로 지정했고, 두 번째 매개변수에는 당신의 클래스 정의를 포함했습니다. 중요한 점은 태그 이름이 두 부분으로 구성된다는 것입니다: 첫 번째 부분은 당신의 네임스페이스이고, 두 번째 부분은 당신의 구성 요소의 이름입니다.
 
@@ -284,7 +392,18 @@ export default defineConfig({
 
 vite에게 우리 라이브러리를 구축할 것을 요청하여 웹 구성 요소와 함께 내보낼 파일을 지정했으며, umd 및 es와 같은 2개 형식을 갖기 위해 formats 키를 지정하지 않았습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이모든 작업을 끝낸 후에 우리는 라이브러리를 만들고 즐길 수 있어요!
 
@@ -296,7 +415,18 @@ npm run build
 
 빌드 명령어를 실행한 후 /dist 폴더가 생성된 것을 알게 될 거에요. 그 안에 index.html 파일을 만드는 것을 추천해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <!DOCTYPE html>
@@ -322,7 +452,18 @@ npm run build
 
 좋아요, 좋은데 사용자가 위젯을 공유하고 싶다면 사용자 정의를 허용하고 싶을 것입니다. 걱정하지 마세요. 당신은 그것을 할 수 있습니다. Subscription.scss 스타일 파일에서 CSS 변수를 소개할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // src/components/Subscription.scss
@@ -350,7 +491,18 @@ npm run build
 
 색상 주요 변수를 재정의하고 사용자에게 자유롭게 사용할 수 있도록 해보죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <!DOCTYPE html>
@@ -383,6 +535,17 @@ npm run build
 
 이는 Web Components 및 캡슐화에 대한 좋은 소개를 제공합니다. 나만의 공유 가능한 위젯을 만드는 데 흥미를 불러일으킬 수 있기를 바랍니다. 앞서 말했듯이, 저는 매일 사용하는 React를 사용하여 편안하게 사용합니다. 그러나 즐겨 사용하는 프레임워크를 사용하여 캡슐화된 애플리케이션을 만들 수 있습니다. 특히 Shopify와 같은 확장 앱을 개발할 때 이 접근 방식이 매우 유용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 👀 제 GitHub 저장소에 코드를 공유했어요. 자유롭게 시도해보세요! 그리고 기억하세요. GitHub에서는 https://github.com을 https://github.dev로 변경하여 프로젝트를 Visual Studio Code에서 바로 열 수 있어요! 👋

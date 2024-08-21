@@ -3,16 +3,13 @@ title: "웹 개발자가 알아야 할 최고의 HTML 태그"
 description: ""
 coverImage: "/assets/img/2024-06-20-TopHTMLTagsEveryWebDeveloperShouldKnow_0.png"
 date: 2024-06-20 05:58
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-TopHTMLTagsEveryWebDeveloperShouldKnow_0.png
 tag: Tech
 originalTitle: "Top HTML Tags Every Web Developer Should Know"
 link: "https://medium.com/@devsumitg/top-html-tags-every-web-developer-should-know-653092889eb4"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-06-20-TopHTMLTagsEveryWebDeveloperShouldKnow_0.png"/>
 
@@ -22,7 +19,18 @@ Django Best Practices: Tips for Writing Better Code 블로그를 확인해보세
 
 이 블로그 포스트에서는 웹 개발자가 알아야 할 상위 HTML 태그를 다루며 코드 예제도 함께 제공할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1. Doytype 태그 — `!DOCTYPE html`
 
@@ -43,7 +51,18 @@ Django Best Practices: Tips for Writing Better Code 블로그를 확인해보세
 </html>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2. Html Tag - `html`
 
@@ -60,11 +79,22 @@ Django Best Practices: Tips for Writing Better Code 블로그를 확인해보세
 <body>
   <h1>Welcome to my page!</h1>
   <p>This is some text.</p>
-</body> 
+</body>
 </html> <!-- 👈 html 태그 닫기 -->
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 3. Head Tag — `head`
 
@@ -85,7 +115,7 @@ head 태그에는 문서에 대한 정보가 포함되어 있습니다. 페이�
 
     h1 {
       background-color: cyan;
-      color: white; 
+      color: white;
       font-family: cursive;
     }
 
@@ -103,7 +133,18 @@ head 태그에는 문서에 대한 정보가 포함되어 있습니다. 페이�
 </html>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 4. 제목 태그 — `title`
 
@@ -124,7 +165,18 @@ head 태그에는 문서에 대한 정보가 포함되어 있습니다. 페이�
 </html>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 5. Body Tag — `body`
 
@@ -145,7 +197,18 @@ head 태그에는 문서에 대한 정보가 포함되어 있습니다. 페이�
 </html>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 6. 헤딩 — `h1`-`h6`
 
@@ -170,7 +233,18 @@ head 태그에는 문서에 대한 정보가 포함되어 있습니다. 페이�
 </html>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 7. 문단 — `p`
 
@@ -192,7 +266,18 @@ head 태그에는 문서에 대한 정보가 포함되어 있습니다. 페이�
 </html>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 8. Anchor - `a`
 
@@ -216,7 +301,18 @@ head 태그에는 문서에 대한 정보가 포함되어 있습니다. 페이�
 </html>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 9. 이미지 — `img`
 
@@ -237,7 +333,18 @@ head 태그에는 문서에 대한 정보가 포함되어 있습니다. 페이�
 </html>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 10. 스타일 태그 - `style`
 
@@ -266,7 +373,18 @@ head 태그에는 문서에 대한 정보가 포함되어 있습니다. 페이�
 </html>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 코드에서는 스타일 태그를 사용하여 h1 태그의 색상을 파란색으로 변경하고 p 태그의 글꼴 크기를 16픽셀로 설정하고 있습니다. 이것은 기본적인 예시일 뿐이지만, CSS는 HTML 코드에 대한 다양한 스타일링 옵션을 제공합니다.
 
@@ -276,7 +394,18 @@ form 태그는 사용자 입력을 위한 컨테이너를 만드는 데 사용�
 
 다음은 예시입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <!DOCTYPE html>
@@ -305,8 +434,18 @@ form 태그는 사용자 입력을 위한 컨테이너를 만드는 데 사용�
 
 테이블 태그는 웹페이지에서 테이블을 생성하는 데 사용됩니다. 테이블은 데이터를 구성하고 시각적으로 더 매력적으로 만드는 데 사용될 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 예시입니다:
 
@@ -330,7 +469,18 @@ form 태그는 사용자 입력을 위한 컨테이너를 만드는 데 사용�
 
 ## 13. Div Tag — `div`
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 div 태그는 웹페이지에서 콘텐츠를 담는 컨테이너를 만드는 데 사용됩니다. 이 태그를 사용하여 관련 요소를 그룹화하고 CSS 스타일을 적용할 수 있습니다.
 
@@ -359,7 +509,18 @@ div 태그는 웹페이지에서 콘텐츠를 담는 컨테이너를 만드는 �
 
 위 코드에서는 div 태그를 사용하여 회색 배경과 20픽셀의 패딩이 있는 컨테이너를 만듭니다. 또한 이 div에 .container CSS 클래스를 적용하여 스타일을 적용했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 14. 주석 태그 - `! - 이것은 주석입니다 →`
 
@@ -381,7 +542,18 @@ HTML의 주석 태그는 브라우저에 표시되지 않는 코드에 주석을
 </html>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -391,7 +563,18 @@ HTML의 주석 태그는 브라우저에 표시되지 않는 코드에 주석을
 
 즐거운 코딩되세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 블로그에서 제공된 정보에 대한 질문이나 코멘트가 있다면 언제든지 연락해 주세요. 다시 한번 읽어 주셔서 감사합니다!
 

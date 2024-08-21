@@ -3,7 +3,7 @@ title: "Angular로 사용자 지정 날짜 범위 선택기 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-27-CreatingaCustomDatesRangePickerinAngular_0.png"
 date: 2024-06-27 18:22
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-27-CreatingaCustomDatesRangePickerinAngular_0.png
 tag: Tech
 originalTitle: "Creating a Custom Dates Range Picker in Angular"
@@ -11,18 +11,26 @@ link: "https://medium.com/stackademic/creating-a-custom-dates-range-picker-in-an
 isUpdated: true
 ---
 
-
-
-
 이 글은 Angular에서 구성 요소로써 처음부터 날짜 범위 선택기를 만드는 방법을 설명하는 것을 목표로 하고 있습니다. 이것은 제 첫 번째 글의 두 번째 버전으로 여기에서 찾을 수 있습니다: [Medium 링크](https://medium.com/stackademic/creating-a-custom-date-time-picker-in-angular-5f00591d641c). 또한, 다음 글에서 작성할 사용자 정의 구성 요소의 장점을 잊지 않으세요.
 
 ![이미지](/assets/img/2024-06-27-CreatingaCustomDatesRangePickerinAngular_0.png)
-  
+
 ## 생성 의도
 
 이 구성 요소를 만들기 전에, 쉽게 스타일링할 수 있고 다음을 제공하는 범용 날짜 선택기를 찾고 있었습니다: 날짜 선택, 시간 선택, 범위 선택. 제가 필요한 것은 간단한 것이었지만, 조사 중에 대부분의 날짜 선택기가 너무 복잡하거나 필요한 조합을 제공하지 않는 것을 발견했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 필요한 기능들:
 
@@ -35,13 +43,22 @@ isUpdated: true
 
 # 논리
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 범위=false인 경우에 대한 두 가지 다른 출력이 필요합니다. 하나는 단일 선택이고 두 번째는 선택된 범위 배열이며 selectedRange[0]는 시작 선택이되고 selectedRange[1]는 끝 선택이됩니다.
 
-
 ![Creating a Custom Dates Range Picker in Angular](/assets/img/2024-06-27-CreatingaCustomDatesRangePickerinAngular_1.png)
-
 
 그런 다음 범위를 확인하여 시각적으로 선택을 표시할 수 있도록해야합니다.
 
@@ -67,7 +84,18 @@ inRangeSelection(i: number) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
   setDate(index: number) {
@@ -139,7 +167,18 @@ inRangeSelection(i: number) {
 
 ## 모든 로직을 컴포넌트 내부에 놓게 된 이유는 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 저장소에서 전체 컴포넌트를 확인했다면: https://github.com/marekpanti/dateTimePicker/blob/master/projects/marekpanti/angular-date-time-picker/src/lib/angular-date-time-picker.component.ts 아마도 궁금할 것입니다. 왜 Marek는 패서드와 깔끔한 컴포넌트에 대해 언급했을 때 모든 로직을 컴포넌트 내부에 넣는 건지요.
 
@@ -149,7 +188,18 @@ inRangeSelection(i: number) {
 
 이 글은 처음에 복잡해 보이지만 적절한 계획과 문제 이해로 자신만의 컴포넌트를 쉽게 만들 수 있는 방법을 잘 정리한 요약입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Stackademic 🎓
 

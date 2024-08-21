@@ -3,17 +3,13 @@ title: "React Router V6에서 Protected Routes 간편하게 사용하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "React Router V6  Simplified Protected Routes"
 link: "https://medium.com/@shirisha95/react-router-v6-simplified-protected-routes-85b209326a55"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/ReactRouterV6SimplifiedProtectedRoutes_0.png" />
 
@@ -23,7 +19,18 @@ React Router v6로 보호된 경로를 만드는 것은 이제 간단합니다. 
 
 이제 공개 및 보호된 라우트가 모두 포함된 AppRoutes 컴포넌트를 만들어 봅시다. 여기서 ProtectedRoute 컴포넌트가 중심이 되어 "/dashboard" 또는 "/profile"과 같은 보호된 경로 구성 요소 내의 모든 경로의 기본 역할을 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 export const AppRoutes = () => {
@@ -47,7 +54,18 @@ ProtectedRoute 컴포넌트를 구축하기 전에 사용자 인증을 결정할
 
 React Router v6에는 여기서 중요한 Outlet 컴포넌트가 제공됩니다. 이 컴포넌트를 사용하면 부모 경로 내에서 자식 경로 요소를 쉽게 렌더링할 수 있습니다. 이 기능을 활용하여 부모 경로 내에서 중첩된 경로 요소를 로드할 수 있습니다. 또한 모든 중첩된 경로 요소에서 공유할 수 있는 레이아웃 컴포넌트(헤더 및 사이드바와 같은)를 추가할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 export const ProtectedRoute = () => {

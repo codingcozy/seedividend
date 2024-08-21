@@ -3,17 +3,13 @@ title: "PubNub을 활용한 실시간 모바일 푸시 서비스 만들기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Enhancing User Engagement Leveraging PubNub for Seamless Real-Time Mobile Push"
 link: "https://medium.com/stackademic/enhancing-user-engagement-leveraging-pubnub-for-seamless-real-time-mobile-push-5ff80c15c103"
 isUpdated: true
 ---
-
-
-
-
 
 ![Enhancing User Engagement Leveraging PubNub for Seamless Real-Time Mobile Push](/assets/img/EnhancingUserEngagementLeveragingPubNubforSeamlessReal-TimeMobilePush_0.png)
 
@@ -23,7 +19,18 @@ PubNub이란 무엇인가요? PubNub은 개발자가 신속하고 쉽게 실시�
 
 푸시 알림을 위해 PubNub을 선택하는 이유는 무엇인가요? PubNub은 모바일 푸시 알림을 보내는 데 여러 가지 이점을 제공합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 실시간 배송: PubNub의 글로벌 데이터 센터 네트워크를 통해 푸시 알림이 최소 대기 시간으로 모바일 장치로 실시간으로 전달됩니다.
 - 확장성: PubNub의 클라우드 기반 인프라는 매우 확장 가능하여 응용 프로그램이 대량의 푸시 알림을 처리할 수 있도록하며, 특히 사용량이 많은 기간에도 작동합니다.
@@ -37,7 +44,18 @@ PubNub이란 무엇인가요? PubNub은 개발자가 신속하고 쉽게 실시�
 
 - PubNub 계정에 가입하고 PubNub 대시 보드에서 게시 및 구독 키를 검색하십시오.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. PubNub SDK 설치하기:
 
@@ -49,7 +67,18 @@ npm install pubnub
 
 3. 푸시 알림 구성하기:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - iOS 및 Android에 대한 React Native 프로젝트에서 APNS(이 iOS를 위해) 및 FCM(이 Android를 위해)과 같은 플랫폼을 사용하여 푸시 알림 설정을 구성하세요.
 
@@ -66,7 +95,18 @@ const pubnub = new PubNub({
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 5. 푸시 알림 발행:
 
@@ -74,17 +114,27 @@ const pubnub = new PubNub({
 
    js
    const sendMessage = (message) => {
-     // 채널로 메시지 발행
-     pubnub.publish({
-       channel: "chat_channel",
-       message: message,
-     });
+   // 채널로 메시지 발행
+   pubnub.publish({
+   channel: "chat_channel",
+   message: message,
+   });
    };
-   
 
 6. 푸시 알림 처리:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 클라이언트 측에서 푸시 알림을 수신하고 처리하는 핸들러를 구현하세요:
 
@@ -107,7 +157,18 @@ pubnub.addListener({
 
 # 🌟 읽어 주셔서 감사합니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 🚀 작업을 지원하려면 이 링크를 클릭해주세요: Support Me 🌟
 - 👏 감사를 표현하기 위해 기사에 박수를 보내주세요.
@@ -120,7 +181,18 @@ pubnub.addListener({
 
 # Stackademic 🎓
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 감사합니다. 마지막까지 읽어주셔서 감사합니다!
 

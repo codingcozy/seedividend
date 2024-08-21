@@ -3,17 +3,13 @@ title: "자바스크립트로 selenium iframe에 접근하는 방법"
 description: "javascript selenium 사용시 iframe 내부에 있는 요소를 처리하는 방법에 대해서 알 수 있습니다"
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # 자바스크립트로 selenium iframe에 접근하는 방법
 
@@ -24,9 +20,18 @@ selenium을 사용하다보면 이렇게 사이트가 iframe으로 이루어진 
 
 <img src="/assets/img/2022-12-22-자바스크립트로-selenium-iframe에-접근하는-방법-1.png"  />
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현재 body로 되어있는 기준을 iframe으로 먼저 바꿔 준 후에 findElements를 사용해야
 iframe 내부에 있는 요소에 접근할 수 있는데요.
@@ -45,9 +50,18 @@ if (iframe) {
 
 위와 같이 하면 이제 iframe 내부에 있는 엘리먼트에 접근할 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 let [iframe] = await driver.findElements(By.css("iframe"));
@@ -73,9 +87,18 @@ if (iframe) {
 }
 ```
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 정리
 

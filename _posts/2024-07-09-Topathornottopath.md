@@ -3,16 +3,13 @@ title: "Path를 사용할까 말까 고민된다면 비교와 선택 가이드"
 description: ""
 coverImage: "/allround-coder.github.io/assets/no-image.jpg"
 date: 2024-07-09 21:09
-ogImage: 
+ogImage:
   url: /allround-coder.github.io/assets/no-image.jpg
 tag: Tech
 originalTitle: "To path or not to path…"
 link: "https://medium.com/juliusbaerengineering/to-path-or-not-to-path-34f06d26fff1"
 isUpdated: true
 ---
-
-
-
 
 ## 이야기…
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 Spring Boot은 악의적인 요청에 대해 강력한 보호 기능을 기본 제공하지만, 자동으로 구성할 수 있는 상황이 아닌 것을 명심하는 것이 중요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 스프링 프레임워크는 잘못된 요청을 어떻게 처리하나요?
 
@@ -40,7 +48,18 @@ Spring Boot는 잘못된 요청에 대한 강력한 기본 처리 기능을 제�
  }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 컨트롤러는 보안 필터에 의해 처리 파이프라인 초기 단계에서 거부된 요청에 대한 오류를 다룹니다. 경로 관련 문제는 org.springframework.security.web.firewall.StrictHttpFirewall 클래스에서 감지됩니다. 이 클래스는 일부 구성 옵션을 제공하지만 완전히 사용자 정의할 수는 없습니다.
 
@@ -50,7 +69,18 @@ Spring Boot는 잘못된 요청에 대한 강력한 기본 처리 기능을 제�
 
 오류 응답을 작성할 때 오류 컨트롤러는 org.springframework.boot.web.servlet.error.DefaultErrorAttributes 클래스에서 정의된 속성 목록을 사용합니다. 기본적으로 이 클래스에는 요청 경로뿐만 아니라 스택 추적 및 예외 세부 정보와 같은 다른 속성도 포함됩니다. 그러나 이후의 속성은 구성에 의해 제거할 수 있지만 경로는 그렇지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희 Spring Boot 애플리케이션 모음에서는 일반적인 해결책이 필요했습니다. 이는 각 애플리케이션에서 개별적으로 수정하는 대신 Spring 자동 구성을 사용하는 라이브러리를 생성하는 것을 의미했습니다. 결과적으로 라이브러리를 포함하면 기본 Spring 컨트롤러를 자동으로 대체하고 결함을 수정할 수 있습니다.
 
@@ -60,7 +90,18 @@ Spring Boot는 잘못된 요청에 대한 강력한 기본 처리 기능을 제�
 
 com.library.autoconfigure.CustomErrorControllerConfiguration
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 줄은 필요한 빈을 구성하는 클래스를 지정합니다.
 
@@ -70,7 +111,18 @@ ErrorMvcAutoConfiguration 클래스를 살펴보면, 이 솔루션에 관련된 
 
 두 번째 단계: 자동 구성 구현
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 중요한 점은 ErrorMvcAutoConfiguration 클래스보다 설정 클래스가 인스턴스화되어야한다는 것입니다. 그렇지 않으면 우리의 사용자 지정 컨트롤러가 컨텍스트에 등록되지 않습니다. 그래서 @AutoConfiguration(before = ErrorMvcAutoConfiguration.class) 어노테이션이 사용됩니다.
 
@@ -91,7 +143,18 @@ public class CustomErrorControllerConfiguration {
 
 내 사용자 지정 빈이 우선순위를 가지도록 하려면 ErrorMvcAutoConfiguration이 인스턴스화되기 전에 명시적으로 정의해야했습니다. 이를 위해 CustomErrorController 및 ErrorAttributes 빈을 수동으로 생성하는 것이 포함되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 @Bean
@@ -126,7 +189,18 @@ public class CustomErrorController extends BasicErrorController {
 ...
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막으로, 경로 제거에 대해 다루어 봅시다...
 

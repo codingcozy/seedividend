@@ -3,17 +3,13 @@ title: "리액트로 간단히 마이크로 프론트엔드 만드는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Build Micro Frontends In React In 3 Easy Steps"
 link: "https://medium.com/bitsrc/build-microfrontend-in-react-in-3-easy-steps-74790fd0c9fb"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/BuildMicroFrontendsInReactIn3EasySteps_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 컴포넌트 기반의 MFE 접근 방식
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 MFEs 아키텍처는 구성 요소 중심 개발에서 자연스럽게 발전하며, 두 가지 모두 자율적인 팀이 느슨하게 결합되고 유지 관리하기 쉬운 코드베이스를 개발하고 기능을 빠르고 독립적으로 제공할 수 있도록 하는 것을 목표로 합니다.
 
@@ -35,7 +42,18 @@ MFEs 아키텍처는 구성 요소 중심 개발에서 자연스럽게 발전하
 npx @teambit/bvm install
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음을 실행하여 Module Federation을 사용한 React MFE에 대한 완전한 컴포넌트 기반 솔루션을 갖춘 Bit 워크스페이스를 생성하세요:
 
@@ -47,7 +65,18 @@ bit new module-federation-react my-mf-workspace --env learnbit.module-federation
 
 이 컴포넌트 기반 솔루션은 독립적인 Bit 컴포넌트의 구성으로 구현되어 있습니다. 호스트 앱, 원격 앱, UI 컴포넌트, 심지어 웹팩 구성도 — 모두 git 저장소나 프로젝트 빌드 설정과는 독립적으로 유지 및 전달할 수 있는 Bit 컴포넌트입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/BuildMicroFrontendsInReactIn3EasySteps_1.png)
 
@@ -57,7 +86,18 @@ bit new module-federation-react my-mf-workspace --env learnbit.module-federation
 
 MFE(Micro Frontends)는 종종 동일한 Bit 구성 요소를 사용하여 모든 앱에서 동일한 "룩 앤 필"을 유지합니다. 이러한 구성 요소에 대한 변경 사항은 모든 MFE에 자동으로 전파되며 쉽게 테스트하고 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Bit 구성 요소는 개발, 빌드 및 배달을 위해 재사용 가능한 개발 환경을 사용합니다. 공유 환경을 사용하면 개발 및 빌드 프로세스가 모든 구성 요소 및 모든 MFE에 걸쳐 일관성 있게 유지됩니다. 공유 환경을 통해 동등한 수준의 품질과 일관성을 유지하면서 독립적으로 개발할 수 있습니다.
 
@@ -67,7 +107,18 @@ Bit 구성 요소는 개발, 빌드 및 배달을 위해 재사용 가능한 개
 
 첫 번째 마이크로프런트엔드를 구축하기 위해 React와 웹팩 모듈 연합을 사용하겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 마이크로프론트엔드 프로젝트 디렉토리를 생성하세요. 이름은 micro-host로 지어주세요.
 - 아래 명령어를 실행하여 프로젝트를 시작하고 모든 종속 항목을 설치하세요:
@@ -87,7 +138,18 @@ npm install @babel/core @babel/preset-env @babel/preset-react babel-loader css-l
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 아래 구성을 붙여넣어 babel.config.json 파일을 생성하세요:
 
@@ -161,7 +223,18 @@ module.exports = {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 구성에서 우리는 마이크로프론트엔드를 FIRST_APP이라고 이름 짓었습니다. App 컴포넌트를 공개하여 원격 URL을 통해 직접 통합할 수 있습니다.
 
@@ -182,7 +255,18 @@ module.exports = {
 
 이 파일은 React 웹 애플리케이션의 구조를 만듭니다. 다른 React 애플리케이션을 사용하는 것처럼 앱은 "container" div 내에 렌더링됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - `src` 디렉터리를 생성하고 `src/index.js` 파일을 만들어 아래 코드를 붙여넣으세요:
 
@@ -206,7 +290,18 @@ root.render(
 
 - `src/components` 디렉터리를 생성하고 `App.js` 파일을 만들어 아래 코드를 붙여넣으세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import * as React from "react";
@@ -235,16 +330,25 @@ export default function MainApp() {
   const [name, setName] = React.useState(null);
   return (
     <>
-      <h3 style={{ textAlign: "center" }}>
-        {name ? <p>Your name is: {name}</p> : null}
-      </h3>
+      <h3 style={{ textAlign: "center" }}>{name ? <p>Your name is: {name}</p> : null}</h3>
       <App onChange={(e) => setName(e.target.value)} />
     </>
   );
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 MainApp 컴포넌트는 앱을 다른 React 앱처럼 사용할 수 있도록 하는 용도로만 사용됩니다.
 
@@ -275,7 +379,18 @@ MainApp 컴포넌트는 앱을 다른 React 앱처럼 사용할 수 있도록 �
 
 ## 2. 첫 번째 마이크로프론트앱 부팅하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신의 마이크로프론트엔드 앱 서버를 시작하려면 아래 명령을 실행하세요:
 
@@ -287,7 +402,18 @@ npm start
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/0*-jAvO7TLcyASkefO.gif" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 3. React에서 MicroFrontend 통합하기
 
@@ -302,7 +428,18 @@ npm install react react-dom --save
 npm install @babel/core @babel/preset-env @babel/preset-react babel-loader css-loader html-webpack-plugin sass sass-loader style-loader webpack webpack-cli webpack-dev-server --save-dev
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - package.json 파일을 열고 아래 npm 스크립트를 복사하여 붙여넣기하세요:
 
@@ -324,7 +461,18 @@ npm install @babel/core @babel/preset-env @babel/preset-react babel-loader css-l
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - `webpack.config.js` 파일을 생성하고 아래 구성을 붙여넣으세요:
 
@@ -386,7 +534,18 @@ module.exports = {
 
 - `public` 디렉토리를 생성하고 `public/index.html` 파일을 생성하고 아래 코드를 붙여넣으세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <!DOCTYPE html>
@@ -422,7 +581,18 @@ root.render(
 
 - src 디렉토리를 만들고 src/App.js 파일을 생성하여 아래 코드를 붙여넣어주세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import React, { lazy, Suspense } from "react";
@@ -465,7 +635,18 @@ export default App;
 npm start
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm start
@@ -477,7 +658,18 @@ npm start
 
 두 번째 React 앱에서는 원격 URL을 사용하여 마이크로프론트엔드 앱을 로드합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 자습서의 코드는 여기에서 찾을 수 있습니다.
 
@@ -487,6 +679,17 @@ npm start
 
 프론트엔드를 더 작고 독립적인 구성 요소로 분해함으로써, 보다 유연하고 모듈식 애플리케이션을 만들 수 있습니다. 이를 통해 애플리케이션을 유지보수하고 업데이트하기가 더 쉬워지며, 또한 작성해야 하는 중복 코드의 양을 줄일 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 더 알아보기:

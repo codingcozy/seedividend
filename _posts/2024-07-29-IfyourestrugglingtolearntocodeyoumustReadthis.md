@@ -3,17 +3,13 @@ title: "코딩 배우기 어렵다면 읽어봐야 할 필독서"
 description: ""
 coverImage: "/assets/img/2024-07-29-IfyourestrugglingtolearntocodeyoumustReadthis_0.png"
 date: 2024-07-29 14:02
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-29-IfyourestrugglingtolearntocodeyoumustReadthis_0.png
 tag: Tech
 originalTitle: "If youre struggling to learn to code, you must Read this"
 link: "https://medium.com/@cannon_circuit/if-youre-struggling-to-learn-to-code-you-must-read-this-8d4cc38ec81f"
 isUpdated: true
 ---
-
-
-
-
 
 ![image](/assets/img/2024-07-29-IfyourestrugglingtolearntocodeyoumustReadthis_0.png)
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 # 좌절의 일반적인 경험
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코딩 학습을 시작할 때 처음에는 흥분과 호기심이 금방 좌절로 바뀌기도 합니다.
 
@@ -34,7 +40,18 @@ isUpdated: true
 
 ## 코딩 개념의 복잡성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코딩은 다양한 복잡한 개념을 이해하고 실제 상황에 적용하는 것을 포함합니다.
 

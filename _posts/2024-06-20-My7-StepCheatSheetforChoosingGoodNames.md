@@ -3,16 +3,13 @@ title: "좋은 이름을 선택하기 위한 7단계 치트 시트"
 description: ""
 coverImage: "/assets/img/2024-06-20-My7-StepCheatSheetforChoosingGoodNames_0.png"
 date: 2024-06-20 04:06
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-My7-StepCheatSheetforChoosingGoodNames_0.png
 tag: Tech
 originalTitle: "My 7-Step Cheat Sheet for Choosing Good Names"
 link: "https://medium.com/gitconnected/my-7-step-cheat-sheet-for-choosing-good-names-6137bcdbb2f4"
 isUpdated: true
 ---
-
-
-
 
 뭔가 이름 짓기는 결코 쉬운 일이 아니었죠. 특히 개발자들에게!
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 코드베이스를 깨끗하고 유지보수 가능하게 유지하기 위해서는 좋고 일관된 이름 규칙이 필수적입니다. 시스템이 커짐에 따라 새로운 이름이 기존 이름과 충돌하지 않도록 보장하는 것이 어려울 수 있기 때문에 이것은 도전적일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사에서는 코드 이름을 선택할 때 고려해야 할 사항에 대한 체크리스트를 살펴보겠습니다. 이 목록에는 저의 개인적인 통찰과 Uncle Bob 및 Eric Evans와 같은 유명한 저자들의 아이디어가 포함되어 있습니다.
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 반면에 지나치게 짧은 변수 이름이나 믿을 수 없는 약어의 사용은 관련된 모든 사람들에게 코드의 가독성과 이해도를 크게 해치게 될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 public double calculateBmi(double m, double h) {
@@ -56,8 +75,18 @@ public double calculateBmi(double massInLbs, double heightInMeters) {
 
 ## 2. Avoid Noise Words
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한번 웃어보세요! 자바 애플리케이션을 위한 클래스 이름을 생성해주는 재밌는 웹사이트가 있어요. "enterprisify"를 몇 번 클릭해보세요! 이런 생성된 이름들은 '소음 단어'로 이루어져 있어요. 이것은 의도를 표현하지 않는 기술 용어들이에요.
 
@@ -67,7 +96,18 @@ public double calculateBmi(double massInLbs, double heightInMeters) {
 
 그리고 AccountDto나 AccountEntity는 어떨까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 “Data”라는 노이즈 단어는 추가 정보를 제공하지 않아요. 하지만 때로는 클래스 이름을 지을 때 기술 용어를 사용해서 클래스의 위치나 구현을 나타낼 수 있어요. 예를 들어, Service, Dto, Entity, Repository와 같은 접미사를 사용할 수 있어요.
 
@@ -77,7 +117,18 @@ public double calculateBmi(double massInLbs, double heightInMeters) {
 
 데이터 유형 역시 "노이즈 단어"로 간주될 수 있어요. 몇 가지 예시는 다음과 같아요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 기록 PromotionRecord (
@@ -103,10 +154,21 @@ class CustomerDetailsProviderImpl implements ICustomerDetailsProvider {}
 
 그럼 정말 인터페이스가 필요한 이유는 무엇일까요? 대부분의 경우 인터페이스를 두 가지 경우 중 하나에서 사용할 것입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 의존 역전(Dependency Inversion): 인터페이스는 도메인 레이어의 일부이며 구현은 인프라스트럭처 레이어의 코드를 사용하는 어댑터처럼 작동합니다.
-예를 들어, 도메인 레이어의 일부로 CustomerDetailsProvider 인터페이스를 가질 수 있고, 해당 구현은 네트워크 호출을 통해 고객에 대한 특정 데이터를 가져옵니다. 만약 해당 구현을 "CustomerDetailsProviderImpl"이라고 명명한다면 "Impl" 접미사는 가치를 추가하지 않을 것입니다. 대신, "CustomerDetailsApiClient" 또는 "CustomerApiAdapter"와 같이 데이터가 어떻게 가져와지는지에 대한 힌트를 제공해줄 것입니다.
+  예를 들어, 도메인 레이어의 일부로 CustomerDetailsProvider 인터페이스를 가질 수 있고, 해당 구현은 네트워크 호출을 통해 고객에 대한 특정 데이터를 가져옵니다. 만약 해당 구현을 "CustomerDetailsProviderImpl"이라고 명명한다면 "Impl" 접미사는 가치를 추가하지 않을 것입니다. 대신, "CustomerDetailsApiClient" 또는 "CustomerApiAdapter"와 같이 데이터가 어떻게 가져와지는지에 대한 힌트를 제공해줄 것입니다.
 - 다형성(Polymorphism): 다형성을 위해 인터페이스를 사용한다면, 최소 두 가지 이상의 명확히 구분된 구현이 있어야 합니다. 예를 들어, "Payment" 인터페이스와 다른 결제 방법을 위한 다양한 구현이 있다면 구현은 매우 다르며 의미 있는 이름을 가져야 합니다: "CashPayment", "VisaPayment", "OnlinePayment" 등.
 
 ## 4. 길이 대 무게
@@ -125,7 +187,18 @@ employeesEligibleForPromotion.stream()
     .forEach(this::sendNotificationToHrDepartment);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 긴 범위에 따라, 변수 이름도 길어집니다. 하지만 변수 이름이 너무 길어진다면, 이는 코드 향기의 지표일 수 있습니다: 함수가 너무 커졌다는 것을 의미할 수 있습니다.
 
@@ -141,7 +214,18 @@ public void sendNotificationToHrForEmployees(List<Employees> employees) {
 
 우리가 볼 수 있듯이, 함수를 추출하고 변수의 범위를 작게 만들면 이름을 줄일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 함수를 명명할 때는 범위가 길수록 이름을 작고 추상적으로 지어야 합니다. 이는 우리가 상위 수준의 함수가 구현 세부 정보를 누설하지 않도록 원하기 때문입니다. 따라서 범위가 작은 함수는 이름이 더 길어질 것입니다.
 
@@ -151,7 +235,18 @@ public void sendNotificationToHrForEmployees(List<Employees> employees) {
 
 동일한 작업에 대해 다른 동사를 사용하지 않도록 주의하세요: 구현이 동일한 경우 fetch, retrieve, get 및 find를 서로 교차적으로 사용하지 마세요. 동시에 다른 구현이나 개념에 대해 서로 다른 단어를 선택해야 합니다. 예를 들어, "find" 동사를 사용하여 Optional 또는 nullable 데이터를 반환할 수 있지만, 데이터가 누락된 경우에는 "get"이 항상 예외를 throw합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 6. 비즈니스 용어 vs. 기술 용어
 
@@ -161,7 +256,18 @@ public void sendNotificationToHrForEmployees(List<Employees> employees) {
 
 전반적으로, 컴포넌트에 이름을 선택할 때 비즈니스 용어와 기술 용어 모두 좋은 후보가 될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 7. 동사 vs. 명사
 
@@ -171,7 +277,18 @@ public void sendNotificationToHrForEmployees(List<Employees> employees) {
 
 인터페이스는 모두 메서드와 동작에 관한 것입니다. 인터페이스 이름을 정할 때에는 명사를 사용해야 하지만, 동시에 그들이 가능하게 하는 행동을 명확하게 표현해야 합니다. 예를 들어 Clonable, Runnable, Executable, DataProvider 등이 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 결론
 
@@ -181,7 +298,18 @@ public void sendNotificationToHrForEmployees(List<Employees> employees) {
 
 # 감사합니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기사를 읽어 주셔서 감사합니다! 의견을 주시면 감사하겠습니다. 어떠한 피드백이든 환영입니다.
 
@@ -191,7 +319,18 @@ public void sendNotificationToHrForEmployees(List<Employees> employees) {
 
 # 레벨업 코딩
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리 커뮤니티에 참여해 주셔서 감사합니다! 떠나시기 전에:
 

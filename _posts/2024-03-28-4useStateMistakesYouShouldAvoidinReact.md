@@ -3,17 +3,13 @@ title: "리액트에서 피해야 할 4가지 useState 실수"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "4 useState Mistakes You Should Avoid in React"
 link: "https://medium.com/gitconnected/4-usestate-mistakes-you-should-avoid-in-react-0d9d676869e2"
 isUpdated: true
 ---
-
-
-
-
 
 ![4useStateMistakesYouShouldAvoidinReact_0](/assets/img/4useStateMistakesYouShouldAvoidinReact_0.png)
 
@@ -23,7 +19,18 @@ React.js는 현대 웹 개발의 중심 요소가 되었으며, 컴포넌트 내
 
 본 블로그에서는 React에서 useState를 사용할 때 피해야 할 네 가지 중요한 실수에 대해 살펴볼 것입니다. 함께 React 스킬을 향상시켜봅시다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 들어가기 전에 내 개인 웹사이트에서 웹 개발에 관한 보다 심층적인 기사들을 살펴보세요:
 
@@ -33,7 +40,18 @@ React의 useState 훅을 사용할 때 흔한 실수는 가장 최근의 상태�
 
 ### ❌ 이슈를 이해하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 상상해보세요. React에서 카운터를 만들고 있는 상황입니다. 버튼이 클릭될 때마다 카운트를 증가시키는 것이 목표입니다. 간단한 접근 방법은 현재 상태 값에 1을 더하는 것일 수 있습니다. 그러나 이렇게 하면 문제가 발생할 수 있습니다.
 
@@ -62,7 +80,18 @@ export default CounterComponent;
 
 ## ✅ 수정 방법:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 문제를 피하려면 setCounter 메서드의 기능적 형태를 사용하십시오. 이 버전은 함수를 인수로 취하며, React는 가장 최신의 상태 값을 전달합니다. 이를 통해 항상 최신 상태 값을 사용하게 됩니다.
 
@@ -91,7 +120,18 @@ export default CounterComponent;
 
 ## 실수 2: 상태 불변성을 방치하기 🧊
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## ❌ 문제 이해하기
 
@@ -122,11 +162,33 @@ const ProfileComponent = () => {
 export default ProfileComponent;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 Markdown 형식으로 변경하십시오.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 수정된 코드에서 updateAge는 상태 불변성을 유지하면서 업데이트된 나이로 새 프로필 객체를 생성하기 위해 스프레드 연산자를 사용합니다.
 
@@ -136,7 +198,18 @@ export default ProfileComponent;
 
 React의 useState를 통한 상태 업데이트는 비동기적으로 이루어집니다. 이는 종종 여러 상태 업데이트가 빠르게 일어날 때 헷갈릴 수 있습니다. 개발자들은 setState 호출 후 즉시 상태가 변경될 것으로 기대할 수 있지만, 사실은 React가 이러한 업데이트를 성능상의 이유로 일괄 처리합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자주 발생하는 상황을 살펴보면 이해를 잘못하여 문제가 생길 수 있다는 점을 알 수 있어요
 
@@ -167,7 +240,18 @@ export default AsyncCounterComponent;
 
 ## ✅ 수정 방법:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비동기 업데이트를 올바르게 다루려면 setCount의 함수형 업데이트 형식을 사용해야 합니다. 이를 통해 각 업데이트가 가장 최근의 상태를 기반으로 하도록 보장합니다.
 
@@ -202,7 +286,18 @@ export default AsyncCounterComponent;
 
 ## 실수 4: 파생 데이터에 상태를 오용하기 📊
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## ❌ 이해해야 할 사항
 
@@ -222,7 +317,18 @@ const GreetingComponent = ({ name }) => {
 export default GreetingComponent;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 인사말 상태는 이름에서 직접 유도할 수 있기 때문에 필요하지 않습니다.
 
@@ -242,7 +348,18 @@ const GreetingComponent = ({ name }) => {
 export default GreetingComponent;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 수정된 코드에서는 greeting이 이름 속성에서 직접 계산되어 컴포넌트를 단순화하고 불필요한 상태 관리를 피했습니다.
 
@@ -250,6 +367,17 @@ export default GreetingComponent;
 
 React에서 useState 훅을 효과적으로 활용하는 것은 신뢰할 수 있고 효율적인 애플리케이션을 구축하는 데 중요합니다. 이전 상태를 무시하거나 상태의 불변성을 지키지 않는 것, 비동기 업데이트를 간과하는 것, 파생 데이터를 위한 중복 상태를 만들지 않는 것과 같은 일반적인 실수를 이해하고 피함으로써 더 부드럽고 예측 가능한 컴포넌트 동작을 보장할 수 있습니다. 이러한 통찰력을 염두에 두고 React 개발 여정을 향상시키고 더 견고한 애플리케이션을 만들어보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 행복한 코딩하세요!!

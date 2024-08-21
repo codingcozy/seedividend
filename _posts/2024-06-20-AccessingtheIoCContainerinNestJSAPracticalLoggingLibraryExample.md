@@ -3,16 +3,13 @@ title: "NestJS에서 IoC 컨테이너에 접근하기 실용적인 로깅 라이
 description: ""
 coverImage: "/assets/img/2024-06-20-AccessingtheIoCContainerinNestJSAPracticalLoggingLibraryExample_0.png"
 date: 2024-06-20 04:34
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-AccessingtheIoCContainerinNestJSAPracticalLoggingLibraryExample_0.png
 tag: Tech
 originalTitle: "Accessing the IoC Container in NestJS: A Practical Logging Library Example"
 link: "https://medium.com/@Abdelrahman_Rezk/accessing-the-ioc-container-in-nestjs-a-practical-logging-library-example-7b34a22fe72d"
 isUpdated: true
 ---
-
-
-
 
 ![2024-06-20-AccessingtheIoCContainerinNestJSAPracticalLoggingLibraryExample_0.png](/assets/img/2024-06-20-AccessingtheIoCContainerinNestJSAPracticalLoggingLibraryExample_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 NestJS의 IoC 컨테이너는 애플리케이션 구성 요소의 생성, 설정 및 라이프사이클을 관리하여 의존성 주입을 가능하게 합니다. 이는 컨테이너가 필요한 클래스에 자동으로 의존성을 제공하는 의존성 주입을 허용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # IoC 컨테이너에 접근하는 이유
 
@@ -34,7 +42,18 @@ IoC 컨테이너에 접근하는 것은 다음과 같은 이유로 매우 중요
 
 # 단계별 안내
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 NestJS 프로젝트를 만들고 동적 로깅 라이브러리를 빌드하는 단계를 함께 진행해 보겠습니다.
 
@@ -46,7 +65,18 @@ NestJS 프로젝트를 만들고 동적 로깅 라이브러리를 빌드하는 �
 npm install -g @nestjs/cli
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 새로운 NestJS 프로젝트 만들기:
 
@@ -61,7 +91,18 @@ cd logging-library
 npm install @nestjs/core @nestjs/common @nestjs-plus/discovery
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 2: LoggerService 생성하기
 
@@ -73,7 +114,18 @@ NestJS 라이프사이클 훅을 사용하여 메서드 호출 로깅을 동적�
 nest generate service logger
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. LoggerService를 구현하세요:
 
@@ -150,7 +202,18 @@ export class LoggerService implements OnApplicationBootstrap, OnApplicationShutd
 
 # 로깅 메소드의 상세 설명
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코드의 일부를 더 깊이 파헤쳐 보겠습니다. 여기서는 로깅 기능을 가진 메소드를 동적으로 래핑하는 부분에 집중해 봅시다:
 
@@ -159,7 +222,7 @@ methodKeys.forEach((methodKey) => {
   // 메소드 이름으로 메소드를 가져옵니다
   const method = instance[methodKey];
   // 속성이 함수(메소드)인지 확인합니다
-  if (typeof method === 'function') {
+  if (typeof method === "function") {
     // 원본 메소드를 저장합니다
     this.originals.set(method, method.bind(instance));
     // 원본 메소드를 로깅 래퍼로 교체합니다
@@ -173,7 +236,18 @@ methodKeys.forEach((methodKey) => {
 
 ## 단계별 설명
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 methodKeys.forEach((methodKey) => {
@@ -187,7 +261,18 @@ methodKeys.forEach((methodKey) => {
 const method = instance[methodKey];
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - instance[methodKey]: 이름(key)으로 인스턴스의 메서드에 액세스합니다.
 - method: 실제 메서드 함수에 대한 참조를 보유합니다.
@@ -200,7 +285,18 @@ if (typeof method === 'function') {
 
 - 속성이 실제로 함수이고 다른 유형의 속성(예: 변수)이 아님을 보장합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. 원본 메소드 저장:
 
@@ -213,7 +309,18 @@ this.originals.set(method, method.bind(instance));
 
 5. 원본 메소드를 로깅 래퍼로 대체하기:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 instance[methodKey] = (...args: any[]) => {
@@ -231,7 +338,18 @@ instance[methodKey] = (...args: any[]) => {
 
 createUser 및 deleteUser 메소드를 갖는 UserService 클래스가 있다고 가정해보겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 @Loggable
@@ -257,8 +375,18 @@ LoggerService가 초기화될 때 다음을 합니다:
 
 ## 단계 3: 사용자 정의 데코레이터 정의하기
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 클래스 및 메서드에 로깅을 위한 표시를 지정하기 위해 @Loggable 데코레이터를 정의합니다.
 
@@ -266,17 +394,28 @@ LoggerService가 초기화될 때 다음을 합니다:
 
 ```js
 // src/logger/loggable.decorator.ts
-import { SetMetadata } from '@nestjs/common';
+import { SetMetadata } from "@nestjs/common";
 
 // loggable 메타데이터를 위한 키
-export const LOGGABLE_KEY = 'LOGGABLE_KEY';
+export const LOGGABLE_KEY = "LOGGABLE_KEY";
 // 로깅을 위해 클래스를 표시하는 Loggable 데코레이터
 export const Loggable: ClassDecorator = SetMetadata(LOGGABLE_KEY, true);
 ```
 
 ## 스텝 4: 사용자 지정 데코레이터 사용하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 @Service 클래스에서 @Loggable 데코레이터를 사용하여 로깅해야 하는 메서드를 생성하세요.
 
@@ -288,12 +427,23 @@ nest generate service user
 
 2. UserService를 구현하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // src/user/user.service.ts
-import { Injectable } from '@nestjs/common';
-import { Loggable } from '../logger/loggable.decorator';
+import { Injectable } from "@nestjs/common";
+import { Loggable } from "../logger/loggable.decorator";
 
 // UserService 클래스를 로깅하기 위해 표시합니다
 @Loggable
@@ -319,7 +469,18 @@ nest generate controller user
 
 4. UserController를 구현합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // src/user/user.controller.ts
@@ -348,7 +509,18 @@ LoggerService와 UserController가 응용 프로그램 모듈에 포함되어 �
 
 AppModule 업데이트:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // src/app.module.ts
@@ -375,7 +547,18 @@ curl을 사용하여 엔드포인트를 테스트하고 로깅 기능을 확인�
 
 - 유저 생성:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 # 사용자 추가:
@@ -390,7 +573,18 @@ curl -X DELETE http://localhost:3000/users/1
 
 # 결과
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 createUser을 다음과 같은 args와 함께 호출했습니다: ['John Doe']

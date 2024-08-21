@@ -3,15 +3,13 @@ title: "HTML 리스트 종류와 사용 방법 완벽 가이드"
 description: ""
 coverImage: "/assets/img/2024-07-07-HTMLLists_0.png"
 date: 2024-07-07 02:22
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-HTMLLists_0.png
 tag: Tech
 originalTitle: "HTML Lists"
 link: "https://medium.com/@anushkas.ch/html-lists-6660bb666520"
 isUpdated: true
 ---
-
-
 
 HTML 목록은 정렬되거나 정렬되지 않은 형식의 일반 목록과 같습니다.
 
@@ -23,7 +21,18 @@ HTML에는 세 가지 유형의 목록이 있습니다:
 
 정렬되지 않은 목록
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 순서가 없는 목록은 간단한 글머리 기호 목록과 같아요.
 
@@ -33,7 +42,18 @@ HTML에는 세 가지 유형의 목록이 있습니다:
 
 "타입" 속성을 사용하여 글머리 기호의 모양을 변경할 수 있어요. 세 가지 값이 지원돼요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 디스크- 기본 글머리 기호
 - 정사각형
@@ -45,7 +65,18 @@ HTML에는 세 가지 유형의 목록이 있습니다:
 
 번호가 매겨진 목록
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 정렬된 HTML 목록에서는 모든 항목이 기본적으로 숫자로 표시됩니다. 이것은 순서가 지정된 목록으로도 알려져 있습니다.
 
@@ -55,7 +86,18 @@ HTML에는 세 가지 유형의 목록이 있습니다:
 
 여기에서도 "type" 속성을 사용하여 숫자 대신 대문자나 로마 숫자를 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 Markdown 형식으로 표를 제공합니다:
 
@@ -70,11 +112,21 @@ HTML에는 세 가지 유형의 목록이 있습니다:
 아래는 이미지가 삽입된 HTML 코드입니다:
 
 ```html
-<img src="/assets/img/2024-07-07-HTMLLists_6.png" />
-<img src="/assets/img/2024-07-07-HTMLLists_7.png" />
+<img src="/assets/img/2024-07-07-HTMLLists_6.png" /> <img src="/assets/img/2024-07-07-HTMLLists_7.png" />
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 정의 목록
 
@@ -84,7 +136,18 @@ HTML에는 세 가지 유형의 목록이 있습니다:
 
 HTML 정의 목록에는 다음 세 가지 태그가 포함되어 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - `dl` tag은 목록의 시작을 정의합니다.
 - `dt` tag는 용어를 정의합니다.

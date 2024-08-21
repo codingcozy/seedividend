@@ -3,15 +3,13 @@ title: "스파크 최적화 집중 강좌 최고의 성능을 위한 단계별 �
 description: ""
 coverImage: "/assets/img/2024-07-09-IntensiveSparkOptimizationCourse_0.png"
 date: 2024-07-09 20:14
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-IntensiveSparkOptimizationCourse_0.png
 tag: Tech
 originalTitle: "Intensive Spark Optimization Course"
 link: "https://medium.com/@kevinchwong/intensive-spark-optimization-course-082bdd0592bc"
 isUpdated: true
 ---
-
-
 
 ![Intensive Spark Optimization Course](/assets/img/2024-07-09-IntensiveSparkOptimizationCourse_0.png)
 
@@ -29,7 +27,18 @@ isUpdated: true
     http://127.0.0.1:8888/lab?token=a88888b6aa6620fc976588ba58817f3b14ea0674bdc77f72
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # SparkSession 초기화하기
 
@@ -42,7 +51,18 @@ spark = SparkSession.builder.appName("Spark Test").getOrCreate()
 
 ## 1. 데이터프레임 생성하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 컬럼 사용
 
@@ -73,7 +93,18 @@ schema = StructType([
 df = spark.createDataFrame(data, schema=schema)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - RDD 사용
 
@@ -107,7 +138,18 @@ df.show()
 
 ## 2. 데이터프레임 표시
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 df.printSchema();
@@ -154,7 +196,18 @@ df.select(df["Name"]).show();
 df.select("Name").show();
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 #Output
@@ -186,7 +239,18 @@ df.filter(df["Age"] > 25).show()
 +-----+---+
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 5. 파일에 DataFrame 작성하기
 
@@ -207,7 +271,18 @@ df_json = spark.read.json("test123.json")
 df_parquet = spark.read.parquet("test123.parquet")
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 7. 새로운 복합 데이터 유형을 포함한 새로운 열 추가
 
@@ -239,7 +314,18 @@ root
 
 # 쿼리: 그룹화 및 집계
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1. count()
 
@@ -283,7 +369,18 @@ grouped_df.show()
 
 ## 2. max(), min(), avg(), sum()
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 그룹별로 그룹화 및 최댓값 찾기
@@ -319,7 +416,18 @@ agg_df = df.groupBy("department").agg(
 agg_df.show()
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 결과
@@ -356,7 +464,18 @@ collected_list_df.show(truncate=False)
 +----------+------------------------------+-------------------+
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 5. agg() + 사용자 정의 집계 함수 (UDAF)
 
@@ -391,7 +510,18 @@ udaf_df = df.groupBy("department").agg(
 udaf_df.show()
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 결과
@@ -423,7 +553,16 @@ udaf_df.show()
 |     Sales|         Saif|  4100|
 +----------+-------------+------+
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 from pyspark.sql.functions import when
 
@@ -447,7 +586,16 @@ conditional_agg_df.show()
 
 - 경우에 따라 매핑 함수를 GroupBy와 결합하여 집단화된 데이터에 대한 직접적인 집계가 아닌 작업을 수행할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```
 
@@ -489,7 +637,18 @@ result_df.show()
 
 # 조회: 다른 것
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1. rollup()과 cube()
 
@@ -519,7 +678,18 @@ rollup_df = df.rollup("department", "employee_name").sum("salary")
 rollup_df.show()
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 결과
@@ -570,7 +740,18 @@ cube_df = df.cube("department", "employee_name").sum("salary")
 cube_df.show()
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 결과
@@ -624,7 +805,18 @@ cube_df.show()
 +----------+-------------+------+
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # Pivot 예시
@@ -647,7 +839,18 @@ pivot_df.show()
 
 - 윈도우 함수는 현재 행과 관련된 "윈도우"에 대해 계산을 수행할 수 있어 전통적인 group-by 작업보다 더 유연성을 제공합니다. 이는 러닝 토탈, 이동 평균 또는 이전 및 다음 행에 액세스하는 데 특히 유용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 초기 데이터
@@ -694,7 +897,18 @@ df_with_row_number.show()
 
 - Rank() 함수를 위해
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 from pyspark.sql.window import Window
@@ -727,7 +941,18 @@ df_with_rank.show()
 
 ## 0. 불필요한 원시 데이터 제거
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1. DataFrame이 여러 번 액세스 될 때 캐시합니다.
 
@@ -743,7 +968,18 @@ df.count();
 
 ## 2. 적절한 파일 형식 사용하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 압축 파일은 파일의 입출력 및 메모리를 절약할 수 있어요.
 - 압축 해제된 파일은 CPU를 절약할 수 있어요.
@@ -764,7 +1000,18 @@ schema = StructType([
 df = spark.read.schema(schema).csv("path/to/file.csv")
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 4. 조기에 필요한 열 선택하기
 
@@ -787,7 +1034,18 @@ df.select("dept_name", "name")
 +---------+----+
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 5. 필터를 조인이나 집계 전에 빠르게 적용하세요.
 
@@ -799,7 +1057,18 @@ df.filter("age > 25").join(df_other, "id").show();
 
 - 큰 데이터셋에 collect()를 사용하지 않도록 주의하여 메모리 부족 오류를 방지하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 df.filter("age > 30").limit(100).collect();
@@ -814,7 +1083,18 @@ df.createOrReplaceTempView("table");
 spark.sql("SELECT id, sum(value) FROM table GROUP BY id").show();
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 8. RDD 사용: reduceByKey를 사용한 집계
 
@@ -828,7 +1108,18 @@ reduced.toDF(["key", "value"]).show()
 
 # 최적화 II: 파티션 없이 병렬화 없음
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1. 테이블 분할: partitionBy()
 
@@ -840,7 +1131,18 @@ df.write.partitionBy("year", "month").parquet("path/to/output");
 
 ## 2. 스튜 관리를 위한 Salting 키
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 조인 연산 중 데이터 스큐가 발생하는 경우, 하나 이상의 키 값이 다른 것들보다 훨씬 더 많은 데이터를 가지고 있을 때 발생합니다.
 - 예를 들어 "customer_id"를 기준으로 조인을 수행하고, 대부분의 거래가 소수의 고객에 속해 있다면 이러한 소수의 키는 다른 키들에 비해 훨씬 많은 양의 데이터를 가지고 있을 것입니다. 이로 인해 일부 작업(큰 키를 처리하는 작업)이 훨씬 더 오랜 시간이 걸리고 병목 현상이 발생할 수 있습니다.
@@ -864,7 +1166,18 @@ df.withColumn("salted_key",
 
 - 데이터 로딩의 균형을 어떻게 맞출까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 from pyspark.sql.functions import monotonically_increasing_id, expr
@@ -896,7 +1209,18 @@ df.withColumn("salted_key",
   - Shuffling을 필요로 하는 넓은 변환을 최소화하기 위해 작업을 계획합니다.
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 섞기
 
@@ -911,7 +1235,18 @@ df.withColumn("salted_key",
 - 동시성: 병렬 처리를 강화하고 리소스 활용을 최적화합니다.
 - 데이터 지역성 최적화: 데이터가 처리될 위치에 가까이 이동하도록 합니다. 네트워크 트래픽을 줄입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 셔플링의 고민거리
 
@@ -950,7 +1285,18 @@ df_joined = df_employees.join(broadcast(df_departments), "dept_id")
 df_joined.show()
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 #출력
@@ -971,7 +1317,18 @@ df_joined.show()
 
 ## 2. 파티션 조정: 병렬성 증가를 위한 다시 분할
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 데이터 프레임의 파티션을 재분할하여 병렬성을 높이거나 셔플 비용을 줄일 수 있습니다.
 - 그러나 여전히 전체 셔플을 유발할 수 있습니다.
@@ -989,7 +1346,18 @@ df_repartitioned = df.repartition(10)  # 파티션 수 증가
 - 전체 셔플 피하기: coalesce는 대규모 데이터 세트를 필터링한 후 파티션 수를 줄이고 싶을 때 셔플 비용을 피해야 할 때 최적입니다.
 - 전형적인 사용 사례: 많은 파티션이 부분적으로 채워지거나 비어있는 상태로 남을 수 있는 대규모 DataFrame을 필터링한 후 사용됩니다. coalesce는 네트워크 오버헤드를 줄이고 비용 효율적으로 리소스를 관리하는 데 도움이 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 대규모 셔플링 없이 파티션 수를 줄이기 위한 코어스 예시
@@ -1006,7 +1374,18 @@ df_coalesced = df_filtered.coalesce(2)  # 파티션 수 줄이기
 
 ## 4–1. 일찍 필터링하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 데이터 처리 파이프라인에서 조인 또는 집계와 같은 후속 작업에서 나중에 섞어야 하는 데이터 양을 줄이기 위해 필터를 가능한 한 빨리 적용하세요.
 
@@ -1041,7 +1420,18 @@ aggregated_df.show()
 
 ## 4-2. 가능한 경우 RDD/넓은 변환 사용하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 좁은 변환, 예를 들어 `map` 및 `filter`와 같은 작업은 개별 파티션에서 작동하며 데이터 셔플을 필요로하지 않습니다. 가능한 경우 이러한 작업을 넓은 변환 대신 사용하십시오.
 
@@ -1068,7 +1458,18 @@ updated_salaries_df.show()
 
 ## 4-3. Boardcasting join으로 불필요한 셔플을 피하세요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 조인 작업시, 한 데이터셋이 다른 데이터셋보다 현저히 작을 때 브로드캐스트 조인을 사용하여 큰 데이터셋을 셔플링하지 않도록 합니다.
 
@@ -1102,7 +1503,18 @@ optimized_join_df.show()
 
 ## 4-4. 전략적으로 파티션 나누기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 만약 넓은 변환을 사용해야 한다면, 나중에 조인 또는 집계할 키를 기반으로 데이터를 파티션으로 나누세요. 이 전략을 사용하면 동일한 키를 가진 행을 동일한 파티션에 함께 두어 셔플링을 줄일 수 있습니다.
 
@@ -1125,7 +1537,18 @@ aggregated_df.show()
 
 # 성능 모니터링 및 세부 조정
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1. 메모리 관리
 
@@ -1140,7 +1563,18 @@ spark.conf.set(“spark.driver.memory”, “2g”)
 - Spark UI에 액세스하려면 다음으로 이동하십시오: http://[your-spark-driver-host]:4040
 - Executor 메트릭 분석: 각 executor의 메트릭을 모니터링하여 메모리 사용, 디스크 스피릴 및 가비지 수집에 대한 통찰을 얻을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 자세한 실행자 지표를 수집하도록 Spark를 구성합니다
@@ -1155,7 +1589,18 @@ spark.conf.set("spark.executor.metrics.pollingInterval", "5000")
 df.explain(“formatted”)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 == 물리적인 계획 ==
@@ -1181,7 +1626,18 @@ spark.conf.set("spark.dynamicAllocation.executorIdleTimeout", "60s");
 spark.conf.set("spark.shuffle.service.enabled", "true");
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 5. 데이터 지역성
 
@@ -1193,7 +1649,18 @@ spark.conf.set("spark.locality.wait", "300ms");
 
 ## 6. Garbage Collection Tuning
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 - 가비지 컬렉터 설정을 조정하여 메모리 관리를 최적화하고 일시 중지 시간을 줄일 수 있습니다.
@@ -1208,7 +1675,18 @@ spark.conf.set("spark.executor.extraJavaOptions", "-XX:MaxGCPauseMillis=100")
 - 데이터 직렬화는 분산 애플리케이션의 성능에 중요한 역할을 합니다. Spark는 두 가지 직렬화 도구를 지원합니다:
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 더 나은 성능과 효율성을 위해 Kryo 직렬화 프로그램 사용
@@ -1233,7 +1711,18 @@ spark.conf.set("spark.network.timeout", "800s")
 spark.conf.set("spark.core.connection.ack.wait.timeout", "600s")
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 9. 고급 Spark SQL 튜닝
 
@@ -1249,7 +1738,18 @@ spark.conf.set("spark.sql.autoBroadcastJoinThreshold", "10485760")  # 10 MB
 
 ## 10. 데이터 파티셔닝 최적화
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터 분배를 세밀하게 조정하여 쿼리 성능을 향상시키고 셔플 오버헤드를 줄일 수 있어요:
 
@@ -1264,7 +1764,18 @@ spark.conf.set("spark.sql.shuffle.partitions", "200")
 
 - 적응형 쿼리 실행 (AQE)는 실행 중에 쿼리 계획을 조정함으로써 Spark SQL 쿼리를 더 빠르고 데이터 스쿠 및 기타 이슈에 더 강건하게 만드는 기능이에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 쿼리 실행을 적응적으로 조정하는 AQE를 활성화합니다. 이는 구성을 간소화하고 성능을 향상시킬 수 있습니다.
@@ -1277,7 +1788,18 @@ spark.conf.set("spark.sql.adaptive.enabled", "true")
 
 - 적절한 메모리 관리는 메모리 집약적인 작업에서 특히 효과적인 성능 개선을 위해 스파이지를 방지할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # RDD 저장소에 예약된 메모리 분수를 구성합니다.
 
@@ -1290,7 +1812,18 @@ spark.conf.set(“spark.memory.storageFraction”, “0.5”)
 
 이 글이 마음에 드시면:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 👏 여러 번 박수로 지지를 보여주세요!
 - 이 안내서를 친구들과 공유해도 좋아요.

@@ -3,16 +3,13 @@ title: "아직도 파이썬으로 엑셀 파일을 읽으세요? 1000배 더 빠
 description: ""
 coverImage: "/assets/img/2024-05-18-DoYouReadExcelFileswithPythonThereisa1000xFasterWay_0.png"
 date: 2024-05-18 21:32
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-18-DoYouReadExcelFileswithPythonThereisa1000xFasterWay_0.png
 tag: Tech
 originalTitle: "Do You Read Excel Files with Python? There is a 1000x Faster Way"
 link: "https://medium.com/python-in-plain-english/do-you-read-excel-files-with-python-there-is-a-1000x-faster-way-72a15964d30a"
 isUpdated: true
 ---
-
-
-
 
 ## 전문 기술로 번개처럼 빠른 데이터 처리 능력을 발휘하세요
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 본 글에서는 Python에서 데이터를 로드하는 다섯 가지 방법을 소개하겠습니다. 이 토론이 끝나면 속도가 세 개의 자릿수가 높아져, 프로세스가 엄청나게 빨라질 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 실험 설정
 
@@ -43,7 +51,18 @@ for file_number in range(10):
     pd.DataFrame(values).to_pickle(f"더미 {file_number}.pickle")
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Python에서 데이터를로드하는 5 가지 방법
 
@@ -60,7 +79,18 @@ end = time.time()
 print("Excel:", end - start)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 약 50초 정도 소요됩니다. 상당히 느린 속도네요.
 
@@ -70,7 +100,18 @@ print("Excel:", end - start)
 
 # 3: Pandas 데이터프레임의 더 똑똑한 생성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희 데이터 로딩 프로세스를 더 향상시키기 위해, Pandas DataFrames를 만드는 방식을 최적화할 수 있습니다. 기존 DataFrame에 각 파일을 직접 추가하는 대신에, 시간이 많이 소요될 수 있으므로:
 
@@ -91,12 +132,33 @@ end = time.time()
 print("CSV2:", end - start)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 작업 테이블을 Markdown 형식으로 변경하면 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 start = time.time()
@@ -114,8 +176,18 @@ print("CSV//:", end - start)
 
 Joblib은 병렬 처리를 위해 설계된 간단한 Python 라이브러리입니다. 리스트 내포와 유사하게 작동하지만 한 가지 중요한 차이가 있습니다. 각 반복이 별도의 스레드에서 실행된다는 것입니다. 이 접근 방식을 통해 작업을 동시에 처리할 수 있습니다. 다음은 이를 구현하는 방법입니다:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 def loop(file_number):
@@ -132,8 +204,18 @@ df = [loop(file_number) for file_number in range(10)]
 
 그러나 pickle 파일의 중요한 단점은 사람이 읽을 수 없다는 것입니다. .csv 파일과 달리 pickle 파일을 텍스트 편집기나 스프레드시트 프로그램으로 열어 직접 내용을 볼거나 수정할 수 없습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 start = time.time()
@@ -151,7 +233,18 @@ print("Pickle//:", end - start)
 
 실제로 시스템은 일반적으로 데이터를 피클 형식으로 직접 내보내지 않아요. 다음 상황에서 피클 파일을 사용하는 것을 권장합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1. 내부 파이썬 사용을 위한 정보: 파이썬 프로세스에서 데이터를 저장하고 해당 데이터를 엑셀이나 다른 파이썬이 아닌 환경에서 열 필요가 없는 경우, 데이터프레임을 피클 파일로 저장하세요. 이는 파이썬 스크립트나 응용 프로그램 내에서 재사용할 데이터에 이상적입니다.
 
@@ -161,7 +254,18 @@ print("Pickle//:", end - start)
 
 # 추가 정보: 병렬로 엑셀 파일 로드하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Excel 파일을 받은 상황에서 직접 작업해야 할 때, 병렬 처리를 사용하여 효율성을 높일 수 있습니다. 다른 형식과 마찬가지로 `joblib` 라이브러리를 사용하여 이러한 파일을 병렬로 로드할 수 있습니다.
 
@@ -179,7 +283,18 @@ print("Excel//:", end - start)
 
 로딩 시간을 70% 줄여 50초에서 13초로 단축했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아울러 병렬 로딩 프로세스를 활용하여 필요할 때마다 pickle 파일을 실시간으로 생성할 수도 있습니다. 이렇게 함으로써 파일을 다시 로드해야 하는 경우에 pickle 파일이 제공하는 크게 빠른 로딩 시간을 활용하여 데이터에 거의 즉각적으로 액세스할 수 있습니다. 이 방법은 초기 로딩 프로세스를 최적화하는 데 그치지 않고 동일한 데이터셋과의 미래 상호작용을 간소화합니다.
 
@@ -194,7 +309,18 @@ print("Excel//:", end - start)
 - 병렬 Pickle 로딩: 0.07초로 급격하게 줄었습니다, 1초의 1/10 이하입니다.
 - 병렬 Excel 로딩: 13.5초로 줄었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 결과들은 Python에서 데이터 로딩 작업의 성능을 향상시키기 위해 파일 형식을 최적화하고 병렬 처리를 활용하는 이점을 강조합니다.
 

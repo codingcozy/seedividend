@@ -3,16 +3,13 @@ title: "이제는 SVG 파비콘을 써야할 시대, PNG 파비콘은 쓰지 마
 description: ""
 coverImage: "/assets/img/2024-05-02-AreyouusingSVGfaviconsyetAguideformodernbrowsers_0.png"
 date: 2024-05-02 00:29
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-02-AreyouusingSVGfaviconsyetAguideformodernbrowsers_0.png
 tag: Tech
 originalTitle: "Are you using SVG favicons yet? A guide for modern browsers."
 link: "https://medium.com/swlh/are-you-using-svg-favicons-yet-a-guide-for-modern-browsers-836a6aace3df"
 isUpdated: true
 ---
-
-
-
 
 ![이미지](/assets/img/2024-05-02-AreyouusingSVGfaviconsyetAguideformodernbrowsers_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-05-02-AreyouusingSVGfaviconsyetAguideformodernbrowsers_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 아이콘
 
@@ -34,7 +42,18 @@ isUpdated: true
 
 # 마스크 아이콘
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Safari의 경우 조금 다릅니다. mask-icon을 추가해야 합니다. SVG 형식이지만 하나의 색상으로 이루어져 있어야 하며 투명 배경에 배치되어야 합니다. 브라우저가 속성의 색상을 추가합니다.
 
@@ -46,11 +65,20 @@ Safari의 경우 조금 다릅니다. mask-icon을 추가해야 합니다. SVG �
 
 iOS 기기 및 브라우저의 즐겨찾기 새 탭 페이지에 대한 아이콘입니다. 180 x 180 크기만 필요하며 sizes 속성은 불필요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
-
 
 # 매니페스트
 
@@ -70,7 +98,18 @@ manifest.json은 웹 앱이나 웹 사이트에 대한 정보를 제공합니다
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요! Android의 Chrome 브라우저 색상을 설정할 때 여전히 theme-color 메타 태그가 필요합니다.
 
@@ -82,7 +121,18 @@ manifest.json은 웹 앱이나 웹 사이트에 대한 정보를 제공합니다
 
 현재의 모던 브라우저를 위해 필요한 모든 아이콘들이 여기에 있습니다. 그 외에는 불필요합니다. Windows 타일에 다른 아이콘을 원할 경우에만 msapplication-TileImage를 추가할 수 있지만, 그렇지 않으면 apple-touch-icon이 사용됩니다. TileColor는 더 이상 사용되지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 그 외
 
@@ -92,7 +142,18 @@ manifest.json은 웹 앱이나 웹 사이트에 대한 정보를 제공합니다
 
 # 다크 모드
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 끝내는 팁 하나 더 드릴게요. 다크 모드에 대한 조언이에요. SVG 파비콘의 장점 중 하나는 CSS로 색상을 변경할 수 있다는 거예요. prefers-color-scheme 미디어 쿼리를 사용하면 사용자의 다크 또는 라이트 모드에 맞게 파비콘의 색상을 변경할 수 있어요. 하지만 이 방법은 mask-icon에는 동작하지 않아요. 왜냐하면 색상이 해당 속성에 포함되어 있기 때문이죠. Safari는 충분한 대비가 없을 경우 흰색 배경을 추가해줘요.
 
@@ -116,7 +177,18 @@ manifest.json은 웹 앱이나 웹 사이트에 대한 정보를 제공합니다
 
 # 결과
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 최종 결과입니다. 웹사이트의 `head`에 복사하고 루트에 favicon.ico를 두지 않도록 잊지 마세요. ✌️
 

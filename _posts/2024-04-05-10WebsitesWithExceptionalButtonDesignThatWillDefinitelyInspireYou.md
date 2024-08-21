@@ -3,17 +3,13 @@ title: "버튼 디자인에 영감을 줄 수 있는 10개의 웹사이트"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "10 Websites With Exceptional Button Design That Will Definitely Inspire You"
 link: "https://medium.com/orpetron/10-websites-with-exceptional-button-design-that-will-definitely-inspire-you-349cfcde787e"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1400/1*hcxR-4iqb5bRWOgrabucsw.gif)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 비전을 가진 디자이너들이 만든 우리가 선별한 각 웹사이트는 예술적인 모험과 기능적 우아함이 뒤섞인 독특한 조합을 자랑합니다. 환상적인 애니메이션에서 대담한 타이포그래피까지, 이 버튼들은 단순한 네비게이션 도구가 아니라 그 자체로 예술적 표현입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자, 디지털 작품의 세계로 함께 떠나보세요. 창의력은 끝이 없고 영감은 클릭 한 번만으로도 찾아옵니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 영국의 Lusion이 제작함.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 소개:
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 디자인 에이전시 3D 소개 페이지 스크롤 애니메이션 버튼 깨끗한 크리에이티브 메뉴 푸터 디자인 대화형 애니메이션 대화형 디자인 대화형 헤더 소개 애니메이션 마이크로 상호작용 최소한의 전환 타이포그래피 Angular Netlify 오픈 그래프 PWA Three.js TypeScript
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 2. ARGUS LABS
 
@@ -53,7 +82,18 @@ By Studio Freight from The USA.
 
 ## About:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 게임이 개방적이고 상호 운용 가능하며 신흥 게임플레이로 모양을 갖추는 미래를 실현하기 위해 헌신하고 있습니다. 응용 연구와 암호화 원천 기술이 융합된 지점에서, 우리는 게임을 만들고 플레이하며 확장하는 방법을 발전시키고 있습니다.
 
@@ -63,7 +103,18 @@ By Studio Freight from The USA.
 
 # 3. 스케치 스튜디오들
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1400/1*aKebm4xyvp6_IB7w2RrvVw.gif)
 
@@ -73,7 +124,18 @@ Made By Shape에서 영국에서 제작되었습니다.
 
 Sketch Studios - 편안하고 자극적인 직장 환경을 만들어내며, 직장 디자인에 열린, 긍정적이고 적극적인 접근을 가져옵니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 태그:
 
@@ -83,7 +145,18 @@ Architecture Services 404 페이지 About 페이지 Button Clean Cookie message 
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1400/1*7BgyFfc4QTNm8O0V8e5VUg.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스페인의 무비엔(Mubien)이 작성함.
 
@@ -93,7 +166,18 @@ Tokenology는 소셜 네트워킹(Social Networking) + 데이터 집계(Data Agg
 
 ## 제작자:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS_killer
 
@@ -103,7 +187,18 @@ CSS_killer
 
 # 5. 에너지 파크
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](https://miro.medium.com/v2/resize:fit:1400/1*uh5-y05nhlbq6XrZ9XUw4g.gif)
 
@@ -113,7 +208,18 @@ CSS_killer
 
 가정, 직장, 주거 지역 및 기업을 위한 맞춤형 전기 자동차 충전 솔루션을 제공합니다. 전문적인 지도와 지속적인 고객 지원을 제공합니다. 자세한 내용은 확인해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 제작진:
 
@@ -123,7 +229,18 @@ Gil Huybrecht, Jesper Landberg
 
 서비스 제품 프로모션 버튼 클린 쿠키 메시지 인트로 애니메이션 미니멀 패럴랙스 사진 및 비디오 타이포그래피 앵귤러 코어.제이에스 GSAP 애니메이션 노드.제이에스 눅트.제이에스 오픈 그래프 테일윈드 CSS 타입스크립트 뷰.제이에스 웹팩
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 6. 버진 갤럭틱
 
@@ -133,7 +250,18 @@ Gil Huybrecht, Jesper Landberg
 
 ## 소개:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 버진 갤럭틱이 새로운 우주 시대를 개척하고, 모두가 함께 떠날 수 있도록 초대합니다.
 
@@ -143,7 +271,18 @@ Gil Huybrecht, Jesper Landberg
 
 # 7. PAPUMBA
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1400/1*4u6of1bJJRO7vCldYGPZZA.gif)
 
@@ -153,7 +292,18 @@ By Cuberto from The USA.
 
 Papumba - 어린이를 위한 교육 플랫폼입니다. 500개 이상의 게임에 무제한 액세스할 수 있습니다. iOS와 Android에서 무료 트라이얼을 시작해 보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 태그:
 
@@ -163,7 +313,18 @@ Papumba - 어린이를 위한 교육 플랫폼입니다. 500개 이상의 게임
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1400/1*M_q1UI0HAWh5IHJ4vibf1Q.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 By Emotion Agency from Ukraine.
 
@@ -173,7 +334,18 @@ Flashform은 웹 사이트의 연락 양식에서 다양한 메신저 및 이메
 
 ## 태그:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **서비스**
 
@@ -200,7 +372,18 @@ Flashform은 웹 사이트의 연락 양식에서 다양한 메신저 및 이메
 
 뉴질랜드 Psychoactive Studios 작품.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 소개:
 
@@ -210,7 +393,18 @@ KKFOS는 80년대의 상징적인 영화를 기반으로 한 멀티플레이어 
 
 게임 및 엔터테인먼트 커뮤니티 3D 버튼 청소 가된 디자인 상호작용 헤더 최소한의 타이포그래피 Angular GSAP 애니메이션 Netlify Node.js Nuxt.js Open Graph Tailwind CSS TypeScript Vue.js
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 10. 카옌타
 
@@ -220,7 +414,18 @@ KKFOS는 80년대의 상징적인 영화를 기반으로 한 멀티플레이어 
 
 ## 소개:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **헷지 펀드 자금관리의 궁극적인 해결책. 업계 베테랑들이 개발하여 헷지 펀드 자금 조달의 복잡성과 투명성의 중요성을 이해합니다.**
 
@@ -230,7 +435,18 @@ KKFOS는 80년대의 상징적인 영화를 기반으로 한 멀티플레이어 
 
 # 더 많은 웹 디자인 영감이 필요하신가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지속적인 웹 디자인 영감을 위해 팔로우해 주세요! 웹 디자인의 최신 소식을 확인하세요.
 

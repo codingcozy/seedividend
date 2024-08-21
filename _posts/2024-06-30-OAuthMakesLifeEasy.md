@@ -3,16 +3,13 @@ title: "OAuth는 삶을 쉽게 만들어 준다 사용 방법, 이점 및 실전
 description: ""
 coverImage: "/assets/img/2024-06-30-OAuthMakesLifeEasy_0.png"
 date: 2024-06-30 18:28
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-30-OAuthMakesLifeEasy_0.png
 tag: Tech
 originalTitle: "OAuth Makes Life Easy"
 link: "https://medium.com/@igmarvvvi/oauth-makes-life-easy-bf66d8df81de"
 isUpdated: true
 ---
-
-
-
 
 저와 같이 기술의 발전으로 게으를 갖고 있는 분이세요? 솔직히 말씀드리자면, 스트레스 받을 건 전혀 가망이 없죠. 보안은 기술에서 매우 중요한 측면이며, 진지하게 고려해야 합니다. 그러나 솔직히 말해요, 우리 중 얼마나 많은 사람들이 안전한 암호를 생성하고 안전하게 보관하는 필요한 단계를 취하는 것을 선호할까요? 이 세대의 기술 사용자들은 그래 할 만큼 게으르죠.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 OAuth(Open Authorization)란 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 OAuth은 Google, Facebook 또는 GitHub과 같은 신뢰할 수 있는 플랫폼을 사용하여 인증할 수 있도록 합니다. 이러한 대표적인 사이트들은 보안에 수십억을 투자하고 있습니다. 만약 해커가 Google 또는 Facebook을 성공적으로 해킹할 수 있다면, 나의 계정을 해킹해도 된다고 생각할 수도 있겠지만, 그건 농담이에요. 하지만 사실은 이들에게 우리의 보안을 맡길 수 있다는 것이죠. 그래서 내가 해야 할 일은 구글에 로그인하는 것 뿐이에요. 적어도 그건 하나의 비밀번호일 뿐이니까, 이건 안전하게 지킬 수 있어야겠죠.
 
@@ -32,53 +40,101 @@ OAuth 유형
 
 더 나아가기 전에, Open Authorization에는 OAuth 1.0과 OAuth 2.0 두 가지 유형이 있다는 것을 간략히 언급하고 싶어요. 오늘날 가장 일반적으로 사용되는 버전인 OAuth 2.0은 더 간단하고 유연성이 더 높은 기능을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 Markdown 형식으로 변경해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 필요한 npm 패키지를 설치해주세요:
 
-
 npm install express passport passport-google-oauth20 express-session
-
 
 3. index.js 파일을 만들고 Express 애플리케이션을 설정해주세요:
 
 ```javascript
-const express = require('express');
-const passport = require('passport');
-const GoogleStrategy = require('passport-google-oauth20').Strategy;
-const session = require('express-session');
+const express = require("express");
+const passport = require("passport");
+const GoogleStrategy = require("passport-google-oauth20").Strategy;
+const session = require("express-session");
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```javascript
 const app = express();
 
-app.use(session({
-    secret: 'your_secret_key', // Replace with a secure key
+app.use(
+  session({
+    secret: "your_secret_key", // Replace with a secure key
     resave: false,
-    saveUninitialized: true
-}));
+    saveUninitialized: true,
+  })
+);
 
 app.use(passport.initialize());
 app.use(passport.session());
 
 // Configure Passport to use Google OAuth
-passport.use(new GoogleStrategy({
-    clientID: 'YOUR_GOOGLE_CLIENT_ID',
-    clientSecret: 'YOUR_GOOGLE_CLIENT_SECRET',
-    callbackURL: 'http://localhost:3000/auth/google/callback'
-},
-function(token, tokenSecret, profile, done) {
-    return done(null, profile);
-}));
+passport.use(
+  new GoogleStrategy(
+    {
+      clientID: "YOUR_GOOGLE_CLIENT_ID",
+      clientSecret: "YOUR_GOOGLE_CLIENT_SECRET",
+      callbackURL: "http://localhost:3000/auth/google/callback",
+    },
+    function (token, tokenSecret, profile, done) {
+      return done(null, profile);
+    }
+  )
+);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```javascript
 passport.serializeUser((user, done) => {
@@ -90,33 +146,50 @@ passport.deserializeUser((obj, done) => {
 });
 
 // Define routes
-app.get('/auth/google',
-  passport.authenticate('google', { scope: ['profile'] }));
+app.get("/auth/google", passport.authenticate("google", { scope: ["profile"] }));
 
-app.get('/auth/google/callback',
-  passport.authenticate('google', { failureRedirect: '/' }),
-  (req, res) => {
-    res.redirect('/');
-  });
+app.get("/auth/google/callback", passport.authenticate("google", { failureRedirect: "/" }), (req, res) => {
+  res.redirect("/");
+});
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 app.get('/', (req, res) => {
-  res.send(`<h1>Home</h1><a href="/auth/google">Login with Google</a>`);
+res.send(`<h1>Home</h1><a href="/auth/google">Login with Google</a>`);
 });
 
 app.listen(3000, () => {
-  console.log('Server started on http://localhost:3000');
+console.log('Server started on http://localhost:3000');
 });
 
 4. Start your Node.js server with “node index.js”. Open your browser and go to http://localhost:3000. Click on "Login with Google" to start the OAuth process.
 
 To get the Google Client ID and Secret, follow these steps:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Google Cloud Console로 이동하세요.
 - 새 프로젝트를 만들거나 기존 프로젝트를 선택하세요.

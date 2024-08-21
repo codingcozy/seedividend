@@ -3,17 +3,13 @@ title: "러스트 트레이트 TypeScript 인터페이스의 강력한 대안"
 description: ""
 coverImage: "/assets/img/2024-05-20-RustTraitAPowerfulAlternativeToTypeScriptInterface_0.png"
 date: 2024-05-20 21:42
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-20-RustTraitAPowerfulAlternativeToTypeScriptInterface_0.png
 tag: Tech
 originalTitle: "Rust Trait: A Powerful Alternative To TypeScript Interface"
 link: "https://medium.com/better-programming/rust-trait-a-powerful-alternative-to-typescript-interface-e671cd7f9690"
 isUpdated: true
 ---
-
-
-
-
 
 ![RustTraitAPowerfulAlternativeToTypeScriptInterface](/assets/img/2024-05-20-RustTraitAPowerfulAlternativeToTypeScriptInterface_0.png)
 
@@ -23,8 +19,18 @@ Rust은 인터페이스 개념을 갖고 있지만, 다른 프로그래밍 언�
 
 # 선언
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이는 데이터베이스에 문서 및 이미지를 저장하고 나열하는 프로젝트를 상상해 봅시다. 두 유형의 파일이 동일한 저장소에 저장되고 공통 특성을 공유하기 때문에 공통 정보를 공유하기 위해 인터페이스를 사용할 수 있습니다.
 
@@ -34,20 +40,31 @@ TypeScript에서는 이러한 인터페이스를 다음과 같이 정의할 수 
 
 ```js
 interface Entity {
-    id: string;
-    timestamp: number;
+  id: string;
+  timestamp: number;
 }
 
 interface Document extends Entity {
-    revised: boolean;
+  revised: boolean;
 }
 
 interface Image extends Entity {
-    type: string;
+  type: string;
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Rust에서는 상속이 없기 때문에 가장 간단한 대응 구현은 타입을 복제해야 한다.
 
@@ -69,20 +86,24 @@ struct Image {
 
 이제 특정 문서 또는 이미지를 찾고 싶은 시나리오를 고려해보겠습니다. TypeScript에서는 다음과 같은 코드로 이를 수행할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-const getDocument = (
- id: string,
- documents: Document[]
-): Document | undefined =>
- documents.find(({ id: docId }) => docId === id);
+const getDocument = (id: string, documents: Document[]): Document | undefined =>
+  documents.find(({ id: docId }) => docId === id);
 
-const getImages = (
- id: string,
- images: Image[]
-): Image | undefined =>
- images.find(({ id: imageId }) => imageId === id);
+const getImages = (id: string, images: Image[]): Image | undefined => images.find(({ id: imageId }) => imageId === id);
 ```
 
 하지만 두 함수가 동일한 인터페이스를 구현하기 때문에 중복을 피할 수 있습니다. 제네릭 함수를 추출하여 코드 중복을 피는 것이 좋습니다:
@@ -107,7 +128,18 @@ const getImages = (
 
 Rust에서 동일한 기능을 구현하는 경우 초기에는 코드를 중복해야 합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 fn get_document(id: String, documents: Vec<Document>) -> Option<Document> {
@@ -141,7 +173,18 @@ impl Compare for Image {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마침내 러스트에서 공통 코드를 일반 함수로 추출할 수 있게 되었습니다. 이전에 TypeScript에서 했던 것처럼요.
 
@@ -169,7 +212,18 @@ fn get<T: Compare + OtherTrait>(id: String, elements: Vec<T>) -> Option<T> {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 패턴은 두 개의 매개변수가 동일한 구조체와 관련될 수 있기 때문에 객체를 비교하는 구현도 흥미로울 수 있습니다.
 
@@ -189,7 +243,18 @@ impl Compare for Document {
 
 우리는 트레이트가 제공할 수 있는 강력함의 일부만 살펴봤지만, 저와 같이 러스트를 탐색하고 있는 자바스크립트 개발자들에게 이 간단한 튜토리얼이 유용할 것이라고 희망합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 무한한 여정이 시작됩니다
 데이비드

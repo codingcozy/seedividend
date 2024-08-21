@@ -3,16 +3,13 @@ title: "CSS 배경과 테두리 사용하기"
 description: ""
 coverImage: "/assets/img/2024-06-20-HowToUseCSSBackgroundsandBorders_0.png"
 date: 2024-06-20 03:10
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-HowToUseCSSBackgroundsandBorders_0.png
 tag: Tech
 originalTitle: "How To Use CSS Backgrounds and Borders"
 link: "https://medium.com/@ed.wacc1995/how-to-use-css-backgrounds-and-borders-bf95d6448967"
 isUpdated: true
 ---
-
-
-
 
 ![이미지](/assets/img/2024-06-20-HowToUseCSSBackgroundsandBorders_0.png)
 
@@ -22,11 +19,33 @@ CSS 배경과 테두리의 슈퍼파워를 해제할 준비가 되셨나요? 이
 
 CSS 스타일시트의 복잡한 배경 속성에 압도당하고 있나요? 걱정 마세요, 우린 여기 있어요! 배경의 단축 속성이 많은 정보를 담을 수 있지만, 이 강의에서는 한 단계씩 세부적으로 설명하겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사각형.box를 예시로 들어 설명하면, 처음에는 복잡해 보일지 모르겠지만 개별 구성 요소인 그라데이션, 이미지, 색상 등을 분해하여 전체 가능성을 펼쳐보자구!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## CSS에서 배경 설정하기
 
@@ -36,35 +55,52 @@ CSS의 `background-color` 속성을 사용하면 어떤 요소든 생동감 있�
 
 <img src="/assets/img/2024-06-20-HowToUseCSSBackgroundsandBorders_1.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 .box {
-  background-color: #567895;
+background-color: #567895;
 }
 
 h2 {
-  background-color: black;
-  color: white;
+background-color: black;
+color: white;
 }
 span {
-  background-color: rgb(255 255 255 / 50%);
+background-color: rgb(255 255 255 / 50%);
 }
-
-
 
 <div class="box">
   <h2>배경 색상</h2>
   <p>배경 <span>색상</span>을 변경해보세요.</p>
 </div>
 
-
 ## CSS 배경 이미지로 이미지 추가하기
 
 CSS의 background-image 속성을 사용하면 어떤 요소든 멋진 이미지를 표현할 수 있습니다. 단순히 이미지 파일의 경로를 제공하면 요소의 배경에 이미지가 나타납니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마법을 실행해 봅시다! 이 예제에서는 두 개의 상자가 있습니다:
 
@@ -76,7 +112,18 @@ CSS의 background-image 속성을 사용하면 어떤 요소든 멋진 이미지
 - 크기 조절: 큰 이미지는 자동으로 요소에 맞게 축소되지 않습니다.
 - 타일링: 작은 이미지는 전체 배경 영역을 채우기 위해 반복됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 본 수업에서는 이러한 행동을 제어하고 배경 이미지로 더 멋진 효과를 만드는 방법을 나중에 살펴볼 예정입니다!
 
@@ -99,7 +146,18 @@ CSS의 background-image 속성을 사용하면 어떤 요소든 멋진 이미지
 </div>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지로 색상이 빛날 수 있다면 어떨까요? 위의 예제에 background-color 속성을 추가해 보세요! 일반적으로 배경 이미지는 정의한 모든 색상 위에 배치됩니다. 이것을 마음껏 조절해 보세요. 예상치 못한 멋진 효과를 얻을 수도 있어요!
 
@@ -114,7 +172,18 @@ background-repeat 속성은 이미지의 타일링 동작을 제어하는 데 �
 - space — 가능한 한 많이 반복하되, 여분의 공간이 있으면 이미지 사이에 공간을 추가합니다.
 - round — space 와 비슷하지만, 여분 공간을 채우기 위해 이미지를 늘립니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 예시에서 이 값들을 시도해보세요. 값이 no-repeat으로 설정되어 있어서 별 하나만 보일 것입니다. 다른 값들인 repeat-x와 repeat-y를 시도해 보면 그 효과를 확인할 수 있습니다.
 
@@ -131,7 +200,18 @@ background-repeat 속성은 이미지의 타일링 동작을 제어하는 데 �
 <div class="box"></div>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## CSS에서 배경 이미지 크기 조절
 
@@ -141,10 +221,18 @@ background-size 속성을 사용하면 배경 이미지가 요소 내에 어떻�
 
 - 길이 또는 퍼센트: 정확한 크기를 지정하여 (예: "100px" 또는 "50%") 정밀한 제어가 가능합니다. (이는 이미지 왜곡을 일으킬 수 있으니 조심하세요!)
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 키워드:
 
@@ -157,7 +245,18 @@ background-size 속성을 사용하면 배경 이미지가 요소 내에 어떻�
 - 키워드 마니아: 픽셀 값을 제거하고 background-size: cover 또는 background-size: contain을 설정하여 자동으로 크기를 조절해보세요.
 - 작은 이미지 반복: 이미지가 상자보다 작을 경우, background-repeat를 조정하여 이미지를 반복하고 공간을 채울 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기술들을 활용하면 이미지 크기와 요소 크기 사이에 완벽한 균형을 찾을 수 있어요!
 
@@ -175,7 +274,18 @@ background-size 속성을 사용하면 배경 이미지가 요소 내에 어떻�
 <div class="box"></div>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 배경 이미지를 배치하는 위치
 
@@ -186,41 +296,55 @@ background-size 속성을 사용하면 배경 이미지가 요소 내에 어떻�
 - 키워드: 간단하고 직접적이에요! 이미지를 배치할 때 “top”, “bottom”, “left”, “right”와 같은 용어를 사용하세요. (배경 위치 문서에서 더 많은 옵션을 살펴보세요!)
 - 길이와 백분율: 정확한 제어가 필요하신가요? 픽셀 값 (예: “20px”)이나 백분율 (예: “10%”)을 지정하여 정확한 위치를 지정할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-.box {
-  background-image: url(star.png);
-  background-repeat: no-repeat;
-  background-position: top center;
-}
-
-
-
-.box {
-  background-image: url(star.png);
-  background-repeat: no-repeat;
-  background-position: 20px 10%;
-}
-
-
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 .box {
-  background-image: url(star.png);
-  background-repeat: no-repeat;
-  background-position: 20px top;
+background-image: url(star.png);
+background-repeat: no-repeat;
+background-position: top center;
 }
-
-
 
 .box {
-  background-image: url(star.png);
-  background-repeat: no-repeat;
-  background-position: top 20px right 10px;
+background-image: url(star.png);
+background-repeat: no-repeat;
+background-position: 20px 10%;
 }
 
+.box {
+background-image: url(star.png);
+background-repeat: no-repeat;
+background-position: 20px top;
+}
 
-<div class="content-ad"></div>
+.box {
+background-image: url(star.png);
+background-repeat: no-repeat;
+background-position: top 20px right 10px;
+}
+
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 준비가 되셨나요? 조합해 보세요! 그림을 자유롭게 조절할 수 있어요. 단, 첫 번째 값이 수평 위치(좌우), 두 번째 값이 수직 위치(상하)를 제어합니다.
 
@@ -230,7 +354,18 @@ background-size 속성을 사용하면 배경 이미지가 요소 내에 어떻�
 
 ![그림](/assets/img/2024-06-20-HowToUseCSSBackgroundsandBorders_5.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .box {
@@ -246,9 +381,20 @@ background-size 속성을 사용하면 배경 이미지가 요소 내에 어떻�
 
 ## 그라디언트 배경의 힘을 발휘해보세요
 
-단조로운 색상에 지쳤나요? 그라디언트는 귀하의 웹사이트에 화려한 전환을 더할 수 있습니다! 그라디언트는 배경 이미지처럼 작동하며 익숙한 background-image 속성을 사용하여 설정됩니다. 
+단조로운 색상에 지쳤나요? 그라디언트는 귀하의 웹사이트에 화려한 전환을 더할 수 있습니다! 그라디언트는 배경 이미지처럼 작동하며 익숙한 background-image 속성을 사용하여 설정됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그라데이션을 더 깊게 탐구해보세요! 'gradient' 데이터 유형에 대한 MDN 페이지에서 다양한 유형과 가능성에 대해 설명합니다. (MDN 페이지 링크를 여기에 삽입).
 
@@ -259,7 +405,18 @@ background-size 속성을 사용하면 배경 이미지가 요소 내에 어떻�
 - 상자 1: 전체 상자를 우아하게 가로지르는 선형 그라데이션.
 - 상자 2: 정의된 크기를 가지는 원형 그라데이션으로 반복되는 패턴을 만듭니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자신만의 매혹적인 그라데이션을 만들 준비가 되셨나요? 가능성을 탐험해보세요!
 
@@ -283,7 +440,18 @@ background-size 속성을 사용하면 배경 이미지가 요소 내에 어떻�
 </div>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 여러 배경 이미지 사용하기
 
@@ -294,17 +462,40 @@ background-size 속성을 사용하면 배경 이미지가 요소 내에 어떻�
 - 코드에서 나열하는 마지막 이미지는 스택의 아래쪽에 배치되어요 (기본 레이어처럼).
 - 각 이전 이미지는 위로 층을 이루며 아름다운 시각적 효과를 만들어냅니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 보너스! 그라데이션도 함께 참여하여 일반 이미지와 혼합하여 더 많은 창의적인 가능성을 끌어올릴 수 있어요.
 
 레이어 제어하기:
 
-다른 background-* 속성들(예: repeat 및 position)도 쉼표로 구분된 여러 값들과 함께 작동할 수 있어요. 여기 주의할 점이 있어요:
+다른 background-\* 속성들(예: repeat 및 position)도 쉼표로 구분된 여러 값들과 함께 작동할 수 있어요. 여기 주의할 점이 있어요:
+
 - 속성의 각 값은 background-image 목록에 나타난 순서에 맞춰 이미지와 일치해야 해요.
 - 이미지보다 적은 값이 있는 경우, 해당 값들은 이미지들을 순환하게 될 거에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, 아래 코드에서는 네 개의 이미지가 있지만 background-position 값이 두 개뿐입니다. 처음 두 위치는 첫 번째 두 이미지에 적용되고 나머지 이미지에 대해서도 동일하게 반복됩니다.
 
@@ -315,7 +506,18 @@ background-size 속성을 사용하면 배경 이미지가 요소 내에 어떻�
 
 약간의 연습으로 층으로 구성된 시각적으로 멋진 배경을 만들어내는 마스터가 될 수 있을 거에요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-20-HowToUseCSSBackgroundsandBorders_7.png" />
 
@@ -333,7 +535,18 @@ background-size 속성을 사용하면 배경 이미지가 요소 내에 어떻�
 
 ## 배경 첨부
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS에서 배경을 다룰 때, 컨테이너 내의 콘텐츠가 스크롤될 때 배경이 어떻게 작동하는지 제어할 수 있어요. 이건 background-attachment 속성을 사용하여 달성되며, 주요 세 가지 값이 있어요:
 
@@ -345,7 +558,18 @@ CSS에서 배경을 다룰 때, 컨테이너 내의 콘텐츠가 스크롤될 �
 
 여기서 직접 해보세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 효율성을 위한 배경 단축키
 
@@ -355,7 +579,18 @@ CSS는 한 번에 여러 배경 속성을 정의하는 단축키를 제공하여
 
 값을 구성하는 방법은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 각 배경 정의에는 색상, 이미지, 위치, 반복 방법 등과 같은 해당 속성을 위한 값이 포함됩니다.
 - 순서가 중요합니다. 한 배경에 대한 모든 속성은 다음 배경 정의로 넘어가기 전에 함께 나열되어야 합니다.
@@ -366,10 +601,8 @@ CSS는 한 번에 여러 배경 속성을 정의하는 단축키를 제공하여
 
 ```css
 .box {
-  background:
-  linear-gradient(105deg, rgb(255 255 255 / 20%) 39%, rgb(51 56 57 / 100%) 96%) center center / 400px 200px no-repeat,
-  url(big-star.png) center no-repeat,
-  rebeccapurple;
+  background: linear-gradient(105deg, rgb(255 255 255 / 20%) 39%, rgb(51 56 57 / 100%) 96%) center center / 400px 200px no-repeat,
+    url(big-star.png) center no-repeat, rebeccapurple;
 }
 ```
 
@@ -377,7 +610,18 @@ CSS는 한 번에 여러 배경 속성을 정의하는 단축키를 제공하여
 <div class="box"></div>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 배경 접근성 향상하기
 
@@ -389,7 +633,18 @@ CSS는 한 번에 여러 배경 속성을 정의하는 단축키를 제공하여
 
 이전 레슨에서 배운 박스 모델을 기억하시나요? 테두리는 그 모델 내에서 요소의 크기를 정의하는 데 중요한 역할을 합니다. 이제 테두리를 디자인 목적으로 창의적으로 활용하는 방법을 살펴봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 효율을 위한 간편한 표기법: CSS에서는 보통 border shorthand 속성을 사용하여 테두리의 색상, 너비 및 스타일을 한 줄로 정의합니다. 이 속성은 요소의 네 면에 동일한 스타일을 적용합니다.
 - 개별 측면 지정: 상자의 특정 측면에 대한 테두리를 지정할 수도 있습니다. border-top, border-right, border-bottom, border-left와 같은 속성을 사용하여 각 측면을 독립적으로 스타일링할 수 있습니다.
@@ -402,7 +657,18 @@ CSS는 한 번에 여러 배경 속성을 정의하는 단축키를 제공하여
 
 세심한 제어를 위한 Longhand 속성: 더 세밀한 제어를 위해 CSS는 테두리 각 측면에 대한 longhand 속성을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 너비에 대한 border-top-width, border-right-width, border-bottom-width 및 border-left-width가 있습니다.
 - 스타일에 대한 border-top-style, border-right-style, border-bottom-style 및 border-left-style이 있습니다.
@@ -414,7 +680,18 @@ CSS는 한 번에 여러 배경 속성을 정의하는 단축키를 제공하여
 
 <img src="/assets/img/2024-06-20-HowToUseCSSBackgroundsandBorders_9.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 .box {
@@ -441,7 +718,18 @@ h2 {
 
 border-radius 속성을 사용하면 상자의 모서리를 둥글게 형성할 수 있습니다. 곡률을 정의하는 shorthand와 longhand 옵션이 모두 제공됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - "Uniform Radii에 대한 단축 표기법: 대부분의 경우, border-radius의 단축 형식을 사용할 것입니다. 하나 또는 두 값을 허용합니다."
 - "단일 값: 단일 값은 상자의 네 꼭지 모두에 동일한 곡률을 적용합니다."
@@ -463,7 +751,18 @@ border-radius 속성을 사용하면 상자의 모서리를 둥글게 형성할 
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 논리적 속성 (다음 레슨): 테두리와 유사하게, 논리적 테두리 반경 속성은 문서의 작성 모드에 맞게 조정됩니다.
 - 실험하고 탐험해보세요: 원하는 코너 모양을 얻기 위해 다양한 반경 값으로 놀아보세요. 자세한 구문 옵션은 보더 반경 속성 문서(여기에 포함되지 않음)를 참조하세요. "border-radius 생성기"와 같은 온라인 도구도 있어서 구체적인 둥근 코너 스타일을 시각화하고 코드를 생성하는 데 도움이 될 수 있습니다.
@@ -485,7 +784,18 @@ border-radius 속성을 사용하면 상자의 모서리를 둥글게 형성할 
 </div>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 요약
 
@@ -497,13 +807,13 @@ border-radius 속성을 사용하면 상자의 모서리를 둥글게 형성할 
 
 ```js
 type SocialMedia = {
-  LinkedIn: string;
-  GitHub: string;
-  StackOverflow: string;
-  Litsy: string;
-  Email: string;
-  X: string;
-}
+  LinkedIn: string,
+  GitHub: string,
+  StackOverflow: string,
+  Litsy: string,
+  Email: string,
+  X: string,
+};
 
 function newSocialMedia(): SocialMedia {
   return {
@@ -512,7 +822,7 @@ function newSocialMedia(): SocialMedia {
     StackOverflow: "stackoverflow.com/users/11941146/edward-casanova",
     Litsy: "https://www.litsy.com/web/stack/edca3899/read",
     Email: "ed.wacc1995@gmail.com",
-    X: "https://twitter.com/edca3911"
+    X: "https://twitter.com/edca3911",
   };
 }
 const subscribe = (): string => {

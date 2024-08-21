@@ -3,16 +3,13 @@ title: "Angular 18의 새로운 기능 알아보기"
 description: ""
 coverImage: "/assets/img/2024-05-27-WhatsnewinAngular18_0.png"
 date: 2024-05-27 18:51
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-WhatsnewinAngular18_0.png
 tag: Tech
 originalTitle: "What’s new in Angular 18?"
 link: "https://medium.com/@singhsharp/whats-new-in-angular-18-cead7972dce7"
 isUpdated: true
 ---
-
-
-
 
 ![image](/assets/img/2024-05-27-WhatsnewinAngular18_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 Angular 18은 독립형 컴포넌트를 소개하여 NgModules의 제약 없이 재사용 가능한 컴포넌트를 만들 수 있게 했습니다. 이를 통해 프로젝트 구조를 간소화하고 보일러플레이트 코드를 줄이며 모듈식 접근 방식을 사용할 수 있습니다. 더 작고 독립적인 컴포넌트로 복잡한 UI를 구축하고 이를 유지 보수하고 응용 프로그램의 다른 영역 간에 공유하기 쉽게 만들어보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래에는 기본 독립형 컴포넌트를 보여주는 코드 예제가 있습니다:
 
@@ -32,7 +40,18 @@ Angular 18은 독립형 컴포넌트를 소개하여 NgModules의 제약 없이 
 
 ## Zone-less Change Detection — 성능 향상 (실험적)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Angular 18은 실험적 기능으로 Zone-less 변화 감지를 소개했습니다. Zone.js에 대한 의존성을 제거함으로써, 이 방식은 특히 대규모 애플리케이션에서 성능 향상을 이끌어낼 수 있습니다. Zone.js는 특정 시나리오에서 오버헤드를 일으킬 수 있으며, Zone-less 변화 감지는 Angular 애플리케이션 내에서 변화 감지에 대한 대안적 접근 방식을 제공합니다.
 
@@ -42,7 +61,18 @@ Angular 18은 실험적 기능으로 Zone-less 변화 감지를 소개했습니�
 
 ![이미지](/assets/img/2024-05-27-WhatsnewinAngular18_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 개선된 디버깅 도구 — 문제 해결이 쉬워집니다
 
@@ -52,7 +82,18 @@ Angular 18은 디버깅 도구를 개선했으며 의존성 주입 계층 구조
 
 Angular.io가 Angular.dev로 대체되었습니다. 기능인 문서, 튜토리얼 및 새로운 기능을 살펴볼 수 있는 플레이그라운드와 함께 재정의된 사용자 인터페이스를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-05-27-WhatsnewinAngular18_3.png" />
 
@@ -64,7 +105,18 @@ Angular.io가 Angular.dev로 대체되었습니다. 기능인 문서, 튜토리�
 - ng-content 기본 콘텐츠: 컴포넌트 템플릿의 유연성을 높이기 위해 ng-content 태그 내에서 기본 콘텐츠를 직접 정의할 수 있습니다. 이를 통해 구성 요소의 구조를 단순화하고 콘텐츠가 어떻게 투영되는지에 대한 더 많은 제어권을 제공할 수 있습니다.
 - TypeScript 5.5 지원: TypeScript의 최신 기능과 개선 사항을 활용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 앵귤러 개발의 미래에 도전하세요
 

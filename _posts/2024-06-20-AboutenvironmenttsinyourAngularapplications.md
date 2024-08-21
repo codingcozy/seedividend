@@ -3,16 +3,13 @@ title: "앵귤러 애플리케이션에서의 environmentts 파일에 대하여"
 description: ""
 coverImage: "/assets/img/2024-06-20-AboutenvironmenttsinyourAngularapplications_0.png"
 date: 2024-06-20 03:30
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-AboutenvironmenttsinyourAngularapplications_0.png
 tag: Tech
 originalTitle: "About environment.ts in your Angular applications"
 link: "https://medium.com/@hongtatyew/about-environment-ts-in-your-angular-applications-50646ab08c81"
 isUpdated: true
 ---
-
-
-
 
 `<img src="/assets/img/2024-06-20-AboutenvironmenttsinyourAngularapplications_0.png" />`
 
@@ -22,7 +19,18 @@ Environment.ts는 애플리케이션 설정을 보관하는 일반적인 장소�
 
 # 면책 조항
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 문서는 Angular 공식 문서와 거의 유사합니다. 환경 설정을 더 잘 다루는 방법을 이해할 수 있도록 이 문서에 추가 정보를 포함했습니다. 이 문서는 오래되었을 수 있으니 항상 최신 정보를 참조하려면 공식 Angular 문서를 참고하세요: Angular 애플리케이션 빌드 및 제공.
 
@@ -31,42 +39,63 @@ Environment.ts는 애플리케이션 설정을 보관하는 일반적인 장소�
 모든 Angular 프로젝트에 environments 폴더가 있습니다. 이 폴더는 모든 애플리케이션 설정이 환경별로 보관되는 곳입니다. environment.ts는 기본 환경 파일로 프로젝트에서 참조됩니다.
 
 ```js
-yourProject/src/environments
-- environment.ts
-- environment.prod.ts
+yourProject / src / environments - environment.ts - environment.prod.ts;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # environment.ts 파일 사용 방법
 
 여러 개의 파일이 environments 폴더에 있기 때문에 무엇을 가져와야 할지 궁금할 수 있습니다. 애플리케이션 설정을 사용하려면 environment.ts 파일을 가져오기만 하면 됩니다. 아래에서 이유를 설명하겠습니다.
 
 ```js
-import { environment } from './../environments/environment';
+import { environment } from "./../environments/environment";
 ```
 
 아래 스니펫은 app.component.ts가 environment.ts 파일에서 변수를 사용하는 방법을 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // app.component.ts
-import { Component } from '@angular/core';
-import { environment } from './../environments/environment';
+import { Component } from "@angular/core";
+import { environment } from "./../environments/environment";
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: "app-root",
+  templateUrl: "./app.component.html",
+  styleUrls: ["./app.component.css"],
 })
 export class AppComponent {
   constructor() {
-    if(environment.production) { // 👈🏻👈🏻👈🏻
+    if (environment.production) {
+      // 👈🏻👈🏻👈🏻
       // 만약 이것이 프로덕션 환경이라면 구현 코드 작성
     }
   }
-  title = 'app works!';
+  title = "app works!";
 }
 ```
 
@@ -80,27 +109,39 @@ export class AppComponent {
 // 파일 대체 목록은 `angular.json`에서 찾을 수 있습니다.
 
 export const environment = {
-  production: false // 👈🏻👈🏻👈🏻
+  production: false, // 👈🏻👈🏻👈🏻
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 질문: 이 변수를 삭제할 수 있을까요? 답은 아니요입니다. 왜냐하면 이 변수는 main.ts에서 사용되어 있어서 production 변수가 true로 설정된 경우 production 모드를 활성화하는 데 사용됩니다. Production 모드를 활성화하면 Angular은 변경 감지 과정이 어떤 바인딩에 추가 변경 사항이 생기지 않는지 확인하여 응용 프로그램 성능을 향상시킵니다 (일방향 데이터 흐름이라고도 함). 이 enableProdMode 메서드에 대해 자세히 다루지는 않겠습니다. enableProdMode에 대해 더 알고 싶다면 이 기사에서 enableProdMode가 무엇을 하는지 자세히 읽어보시기 바랍니다: https://lukaonik.medium.com/what-is-the-difference-between-production-and-development-mode-in-angular-3eed82b9cf73. 다시 말해서, 응용 프로그램을 디버깅하지 않을 때는 production 변수를 항상 true로 설정해야 합니다.
 
 ```js
-import { enableProdMode } from '@angular/core';
-import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
+import { enableProdMode } from "@angular/core";
+import { platformBrowserDynamic } from "@angular/platform-browser-dynamic";
 
-import { AppModule } from './app/app.module';
-import { environment } from './environments/environment';
+import { AppModule } from "./app/app.module";
+import { environment } from "./environments/environment";
 
 if (environment.production) {
   enableProdMode(); // 👈🏻👈🏻👈🏻
 }
 
-platformBrowserDynamic().bootstrapModule(AppModule)
-  .catch(err => console.error(err));
+platformBrowserDynamic()
+  .bootstrapModule(AppModule)
+  .catch((err) => console.error(err));
 ```
 
 팁: Angular은 앱이 개발 모드에서 실행 중인지 확인하기 위한 유틸리티 함수를 제공합니다.
@@ -120,7 +161,18 @@ export class AppComponent implements OnInit {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # environment.ts 파일에 변수를 추가하고 Angular 애플리케이션에서 이 변수를 사용하세요.
 
@@ -135,32 +187,44 @@ export class AppComponent implements OnInit {
 
 export const environment = {
   production: false,
-  enableLogging: true
+  enableLogging: true,
 };
 ```
 
 새로 추가된 이 변수를 사용하려면 environment.ts 파일을 import하여 Angular 애플리케이션의 모든 TypeScript 파일에서 사용하면 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // app.component.ts
 
-import { Component } from '@angular/core';
-import { environment } from './../environments/environment'; // 👈🏻👈🏻👈🏻
+import { Component } from "@angular/core";
+import { environment } from "./../environments/environment"; // 👈🏻👈🏻👈🏻
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: "app-root",
+  templateUrl: "./app.component.html",
+  styleUrls: ["./app.component.css"],
 })
 export class AppComponent {
   constructor() {
-    if(environment.enableLogging) { // 👈🏻👈🏻👈🏻
-      console.log('Angular app started');
+    if (environment.enableLogging) {
+      // 👈🏻👈🏻👈🏻
+      console.log("Angular app started");
     }
   }
-  title = 'app works!';
+  title = "app works!";
 }
 ```
 
@@ -170,7 +234,18 @@ export class AppComponent {
 
 기본적으로 Angular 애플리케이션에는 environment.ts 및 environment.prod.ts가 있습니다. 저는 개발 환경으로 environment.ts를 사용합니다. 지역에서 Angular 애플리케이션을 개발하기 때문에 명령에 추가 인수를 추가할 필요가 없고, environment.ts가 기본 설정으로 사용됩니다. 반면 프로덕션 환경에서는 ng serve --configuration production과 같은 추가 매개변수를 전달해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기존 Angular 애플리케이션을 위한 스테이징 환경을 구성해 보겠습니다.
 
@@ -179,13 +254,24 @@ export class AppComponent {
 ```js
 // environments/environment.staging.ts
 export const environment = {
-  production: true // 애플리케이션을 디버깅 중이 아니라면 true
+  production: true, // 애플리케이션을 디버깅 중이 아니라면 true
 };
 ```
 
 그 다음, environment.ts에 있는 모든 변수는 이 environment.staging.ts에 있어야 합니다. 왜냐하면 environment.staging.ts가 컴파일 시(environment.ts 파일 대체) 필요하기 때문입니다 (ng serve 또는 ng build). 따라서 environment.staging.ts 파일에 누락된 변수가 없어야하며, 그렇지 않으면 컴파일이 실패할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안전을 위해 environment.ts의 내용을 environment.staging.ts로 복사한 후 environment.staging.ts의 설정을 스테이징 설정으로 수정하세요. 이제 environment.staging.ts를 마친 것입니다.
 
@@ -195,7 +281,18 @@ ng build 명령어는 Angular 애플리케이션을 컴파일하는 데 사용�
 
 이는 angular.json에서 스테이징 구성을 설정하지 않았기 때문입니다. 루트 폴더의 angular.json으로 이동하여 build configurations에서 production 구성을 복사하고 (아래 스니펫에서 production 구성 위치를 확인하십시오), 복사한 구성을 production 구성 바로 아래에 붙여넣으세요. 붙여넣은 구성의 이름을 staging으로 변경하고 파일 교체 경로를 스테이징 환경 파일 경로로 설정하세요. 이제 ng build --configuration staging을 다시 실행하면 성공적으로 빌드할 수 있을 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 주목했다면, configurations 맨 끝에 defaultConfiguration 설정이 있습니다. 이 설정은 ng build를 실행할 때 기본 구성을 설정하는 것입니다. 어떤 구성도 지정하지 않았다면 빌더는 defaultConfiguration에서 구성을 사용합니다. 지금 ng build를 실행하면 기본 구성은 프로덕션 구성이 될 것입니다.
 
@@ -208,7 +305,7 @@ ng build 명령어는 Angular 애플리케이션을 컴파일하는 데 사용�
         "architect": {
           "build": {
             [...]
-            "configurations": { 
+            "configurations": {
               "production": { // 👈🏻👈🏻👈🏻 이 섹션을 복사하세요
                 "budgets": [
                   {
@@ -266,7 +363,18 @@ ng serve를 위해 angular.json을 확장하기
 
 ng serve는 Angular 애플리케이션을 로컬에서 실행하려는 경우 사용하는 명령어입니다. 이 명령은 애플리케이션을 빌드하고 서비스하며 파일 변경 시 다시 빌드합니다. 이미 ng build를 설정했습니다. ng serve는 빌드 구성을 사용하여 애플리케이션을 빌드하고 제공합니다. 그런 다음 다음 형식의 serve 구성을 serve configurations에 추가해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 "<환경 이름>": {
@@ -283,7 +391,7 @@ ng serve는 Angular 애플리케이션을 로컬에서 실행하려는 경우 �
       "your-project-name": {
         [...]
         "architect": {
-          [...]    
+          [...]
           "serve": {
             "builder": "@angular-devkit/build-angular:dev-server",
             "configurations": {
@@ -308,7 +416,18 @@ ng serve는 Angular 애플리케이션을 로컬에서 실행하려는 경우 �
 
 ng serve --configuration staging 명령을 실행하면 스테이징 설정으로 애플리케이션을 실행할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Angular schematic을 사용하여 환경 추가하기
 

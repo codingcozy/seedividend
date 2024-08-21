@@ -3,16 +3,13 @@ title: "Coolify를 사용해 Docker Compose로 앱 배포하기 방법"
 description: ""
 coverImage: "/trivasor.github.io/assets/no-image.jpg"
 date: 2024-07-10 01:57
-ogImage: 
+ogImage:
   url: /trivasor.github.io/assets/no-image.jpg
 tag: Tech
 originalTitle: "Coolify: Deploying your app with Docker Compose"
 link: "https://medium.com/@darkghosthunter/coolify-deploying-your-app-with-docker-compose-8f85c8ae3d9a"
 isUpdated: true
 ---
-
-
-
 
 ## 쉽게 접근할 순 없지만 이용해 보면 된다
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 조언을 구해본 결과, Laravel로 만들어진 Coolify를 사용해보게 되었습니다. Coolify는 개인 git 리포지토리나 Docker Compose 스택과 같은 소스를 통해 배포되는 "프로젝트"를 처리합니다. Kubernetes, Nomad, Docker Swarm과 견줄 만한 것은 아니지만, 정적이거나 간단한 웹 프로젝트, 단일 이진 파일 또는 Docker 마법이 필요한 프로젝트와 함께 사용하기에 훌륭합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 도커 컴포즈의 독특한 점
 
@@ -32,7 +40,18 @@ Coolify는 뒷단에서 많은 "마법"을 실행합니다. 가장 중요한 것
 
 이 방법의 문제점은 배포에 있습니다. 도우미 컨테이너는 코드를 가져오지만 한 번 작업이 완료되면 컨테이너가 사라지기 때문에 호스트에서 볼륨을 마운트할 수 없습니다. 다시 말해, 앱을 빌드할 때 (일반적으로 마지막 단계) 컨테이너 중 하나 안으로 앱을 복사해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지 태그를 Markdown 형식으로 바꿀 때 직면하는 다른 문제가 있습니다. 프로젝트의 루트 디렉터리에서 데이터를 복사해야 하는 경우 Docker Compose 파일은 해당 위치에 있어야 합니다. Docker 파일은 속한 위치 아래만 살펴볼 수 있으므로 상위 디렉터리를 넘어가는 파일을 가져올 수 없습니다 (보안 기능).
 
@@ -66,10 +85,20 @@ services:
     # ... 기타 사항
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 내용을 Markdown 형식으로 변경하세요:
-
 
 도커 컴포즈 파일이 있는 루트 폴더인 "context" 키를 주목해주세요. 거기서 올바른 Dockerfile을 가리키기 위해 `docker/app/Dockerfile`에 있는 dockerfile 키를 설정해야 합니다. Docker 관련 파일을 저장하는 좋은 방법은 독립적인 디렉토리에 보관하는 것입니다.
 
@@ -129,7 +158,18 @@ RUN npm run production
 ENTRYPOINT ["npm", "run", "server", "--foreground"]
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 Dockerfile은 매우 단순화되었지만, 빌드 단계가 다른 단계, 즉 베이스 이미지에 기반하여 수행되는 것을 볼 수 있습니다.
 

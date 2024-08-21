@@ -3,7 +3,7 @@ title: "Remnant II 놀라운 랜덤 월드의 아름다움"
 description: ""
 coverImage: "/assets/no-image.jpg"
 date: 2024-08-17 01:10
-ogImage: 
+ogImage:
   url: /assets/no-image.jpg
 tag: Tech
 originalTitle: "Remnant II A Hauntingly Beautiful Random World"
@@ -11,7 +11,6 @@ link: "https://medium.com/@xander51/remnant-ii-a-hauntingly-beautiful-random-wor
 isUpdated: true
 updatedAt: 1723864236873
 ---
-
 
 작년 Remnant II는 전설 기반의, Dark Souls 스타일의 세 번째 인칭 액션 게임인데, 그 레벨 디자인에서 Diablo IV로부터 절실히 원했던 것이 있었습니다: 각각의 플레이어를 위해 독특하게 랜덤하게 설정된 세계를 제작하는 점입니다.
 
@@ -21,7 +20,18 @@ updatedAt: 1723864236873
 
 내 의견으로는 Remnant II는 이 무작위성/흥미 사이를 완벽하게 걸어가고 있다고 생각합니다. 거대한 아티스트가 만든 부품 카탈로그에서 레벨을 제작하고, 그 후에 세계가 너무 유사해 보이지 않도록 몇 가지 추가적인 혼돈의 층을 도입하여 삽화합니다 - 서로 비교하였을 때뿐만 아니라 여러 번의 플레이를 통해 여러번 방문할 때도. Remnant 시리즈는 서사적인 3-행위 구조를 통한 진행을 소개하는 다른 액션 RPG게임과는 다르게, Remnant II는 당신이 방문한 세계의 레이아웃 뿐만 아니라 당신의 이야기에서 그 세계를 만나게 되는 순서까지 랜덤하게 섞어놓습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서 당신은 친구가 볼 것과 같은 다양한 장소 세트를 볼 수 있지만, 고유한 경로를 통해 그 세계를 경험할 것입니다. 다른 플레이어들과는 다른 퀘스트와 보스들을 만나며, 다른 위치에 배치되어 있습니다. 한 번 게임을 플레이하면, 이것이 일어나고 있다는 것조차 모를 수도 있습니다. 퀘스트 라인은 세계 디자인에 잘 통합되어 있기 때문입니다. 처음에는 만나는 캐릭터와 잠긴 문들이 게임이 작동할 유일한 방법으로 보입니다. 하지만 조금 더 탐험하게 되거나 게임 세계의 사이드 컨텐츠를 탐구하려는 사람들에게는 게임의 진정한 규모가 열릴 것입니다.
 
@@ -31,7 +41,18 @@ updatedAt: 1723864236873
 
 따라서 Remnant II는 절대적으로 가장 멋지게 보이려고 하는 게 아닙니다. UE5의 렌더링 기능 세트를 완전히 활용하지는 않으며, 특히 Lumen과 같은 UE5의 차세대 조명 엔진을 배제했습니다. 게임의 조명 디자인은 여전히 훌륭해 보이지만, Xbox Series S와 같은 저전력 하드웨어에서는 몇 프레임 동안 품질을 높이는 과정에서 그림자에 일부 아티팩트가 보일 수 있습니다. 스튜디오는 Nanite로 알려진 가상 지오메트리 시스템에 완전히 투자했으며, 이 선택이 랜덤 월드에 완벽히 어울렸음을 알 수 있었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Nanite는 게임 내 자산의 지오메트릭 디테일을 화면에서 차지하는 픽셀 수에 따라 지능적으로 조절합니다. 이는 팝인을 제거하고 가까이 있는 객체에 동적으로 추가 세부 정보를 더해줌으로써 게임 경험에 의미 있는 세부 사항을 추가합니다. UE5 게임에서는 종종 하이퍼 디테일한 바위들을 만들기 위해 사용되었는데, 이는 당신의 게임 경험에 실질적인 가치를 더하지 않을 수 있습니다 (먼저 썼던 내용입니다). 그러나 Remnant II에서는 이 시스템이 서로 다른 세계의 타일이 어떻게 맞아 떨어지는지 노출되는 거친 가장자리를 완벽하게 매끄럽게 처리하는 데 탁월하게 작동합니다.
 
@@ -41,7 +62,18 @@ UE5의 비주얼 트릭은 Remnant II의 무작위 생성된 조각들을 더 �
 
 적어도 그 영역들은 여전히 멋지게 보일 것이고, 크라프트된 내용이 "당신을 위해" 마치 즉석에서 만들어진 것임을 알면서 조금 된다는 즐거움을 느낄 수 있습니다. 아직도 이러한 유형의 무작위 게임 세계 디자인에서 탐험할 많은 깊이가 남아 있다고 생각합니다. Diablo IV가 출시되어 그저 프로시저 프로세싱을 통한 몇몇 거의 섞여있는 던전 배치에 과거의 재미를 약간 드러내는 경미한 MMO로 나타나기 전, 나는 각 플레이어마다 독특한 거대한 오픈 월드를 만들어낼 것으로 상상했습니다. 오늘날의 현대 컴퓨팅 파워가 이러한 종류의 무작위성을 큰 오픈 월드 게임에 주입하여 지루함을 방지하는 데 사용된다면 좋겠다고 생각합니다. 이것은 예술적 혁신으로 내세우려는 많은 악몽과 대조되는 CPU 세대라고 생각합니다. Remnant II의 모든 자산은 여전히 아티스트와 디자이너들이 만들었지만, 무작위 요소는 그 콘텐트를 플레이어에게 더 예상치 못하고 신선하게 만들어주는 데 도움이 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Remnant II와 그 전작은 몇 년 전 오리지널 Diablo를 플레이하면서 미래의 게임 세계를 상상했던 아이디어에 기반을 두고 있어요. Gunfire Games의 개발 팀이 앞으로 시리즈의 미래에서 이 예술가 주도의 디자인 탐험을 계속할 수 있기를 바라고, 다른 최근의 유명한 게임들처럼 삶 있는 서비스 공장이 되어 모자와 이모티콘을 톤으로 제작하는 대신에 그렇지 않았으면 좋겠어요.
 

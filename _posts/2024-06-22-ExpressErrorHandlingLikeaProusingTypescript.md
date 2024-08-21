@@ -3,16 +3,13 @@ title: "타입스크립트를 사용하여 Express 에러를 프로처럼 처리
 description: ""
 coverImage: "/assets/img/2024-06-22-ExpressErrorHandlingLikeaProusingTypescript_0.png"
 date: 2024-06-22 03:26
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-ExpressErrorHandlingLikeaProusingTypescript_0.png
 tag: Tech
 originalTitle: "Express Error Handling Like a Pro using Typescript"
 link: "https://medium.com/@xiaominghu19922/proper-error-handling-in-express-server-with-typescript-8cd4ffb67188"
 isUpdated: true
 ---
-
-
-
 
 ![2024-06-22-ExpressErrorHandlingLikeaProusingTypescript_0](/assets/img/2024-06-22-ExpressErrorHandlingLikeaProusingTypescript_0.png)
 
@@ -22,7 +19,18 @@ Express는 Node.js를 위한 인기 있는 서버 프레임워크로, 웹 애플
 
 Express는 강력하고 유연한 환경을 제공하여 웹 애플리케이션을 구축하는 데 도움이 되지만, 배포 환경으로 사용할 때 신뢰성, 유지 보수성 및 보안을 보장하기 위해 개발자가 주의해야 할 에러 핸들링이 중요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 잘 구조화된 오류 처리 메커니즘은 예기치 못한 충돌을 방지하고 보안 취약점을 노출시키지 않으며, 무언가 잘못되었을 때 의미 있는 오류 메시지를 제공하여 사용자 경험을 향상시킬 수 있습니다. 우리는 Typescript를 사용하여 응용 프로그램에서 오류 처리를 실제로 개선하기 위한 강력한 도구인 이유를 살펴볼 것입니다. 이 기사에서는 프로덕션용 Express 애플리케이션에서 오류를 효과적으로 처리하기 위한 몇 가지 최상의 방법론과 전략을 탐색할 것입니다.
 
@@ -32,7 +40,18 @@ Express는 강력하고 유연한 환경을 제공하여 웹 애플리케이션�
 
 이 기사에서는 Express 서버가 포함된 시작 프로젝트 템플릿을 준비했습니다. 해당 레포지토리에서 프로젝트를 복제할 수 있습니다. 프로젝트를 다운로드한 후, 다음 명령을 실행하여 모든 종속성을 설치하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 cd express-error-handling && npm install
@@ -44,7 +63,18 @@ cd express-error-handling && npm install
 
 서버는 index.ts에서 8000 포트에서 시작되어 듣고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /** src/index.ts **/
@@ -55,7 +85,7 @@ const initServer = async () => {
   app.listen(8000, () => {
     console.log(`Listening on port ${8000}`);
   });
-}
+};
 
 initServer();
 ```
@@ -86,8 +116,18 @@ export default app;
 
 이 예제 서버에서는 routes/users.ts에 위치한 하나의 엔드포인트가 있습니다:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /** src/routes/users.ts **/
@@ -120,7 +160,7 @@ const getHandler = async (req: Request, res: Response) => {
   if(!id) {
     return res.status(400).send({ message: "Id가 필요합니다!" });
   }
-  
+
   try {
     const fetchedUserData = await fetchUserData();
     let filteredUserData = fetchedUserData.filter((user) => user.id === parseInt(id as string));
@@ -151,7 +191,18 @@ router.post("/users", postHandler);
 export default router;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 getHandler가 비동기이고 postHandler는 동기입니다. 이는 각 라우트 핸들러에서 발생하는 오류를 어떻게 처리할지에 역할을 하며, 나중에 왜 그러한지 알게 될 것입니다. 우선 그것을 염두에두세요.
 
@@ -161,7 +212,18 @@ getHandler가 비동기이고 postHandler는 동기입니다. 이는 각 라우�
 
 다음 섹션에서 익스프레스 서버에서 올바른 오류 처리에 사용되는 기술을 보여드리겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Express 기본 오류 처리기
 
@@ -171,7 +233,18 @@ Express 기본 오류 처리기는 Express에서 제공하는 내장 오류 처�
 
 기본 오류 처리기는 개발 중에 처리되지 않은 오류를 빠르게 식별하는 데 유용하지만, 일반적으로 프로덕션 환경에서는 적합하지 않습니다. 프로덕션에서는 보다 견고한 오류 처리를 제공하는 사용자 정의 오류 처리 미들웨어로 기본 오류 처리기를 대체하고, 적절한 로깅, 사용자 친화적인 오류 응답 및 서로 다른 유형의 오류를 구분하는 기능을 제공해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기본 오류 처리기를 교체하려면 네 가지 인수 (err, req, res 및 next)를 사용하는 사용자 지정 오류 미들웨어를 만들어 해당 미들웨어 내에서 오류 처리 로직을 정의할 수 있습니다. 이렇게 함으로써 오류 응답을 더욱 세밀하게 제어할 수 있으며 응용 프로그램이 제품 환경에서 신뢰성 있게 동작하고 안전하게 운영되도록 할 수 있습니다. 아래에 샘플 사용자 지정 오류 처리기 미들웨어가 표시되어 있습니다.
 
@@ -190,7 +263,18 @@ export const errorHandler = (err: Error, req: Request, res: Response, next: Next
 
 미들웨어 폴더를 만들고, 해당 폴더 안에 위의 오류 처리기 코드를 담은 새로운 errors.ts 파일을 만들어 보도록 하겠습니다. 그리고 app.ts 파일 내에서 express 서버와 연결된 내보내기된 에러 핸들러를 연결할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /** src/app.ts **/
@@ -213,7 +297,7 @@ app.use(json());
 app.use(userRouter);
 
 // 오류 처리
-app.use(errorHandler);  // <--------- errorHandler를 사용 중
+app.use(errorHandler); // <--------- errorHandler를 사용 중
 
 export default app;
 ```
@@ -224,14 +308,25 @@ export default app;
 
 우선 동기식 라우트 핸들러에서 오류를 처리하는 방법을 살펴봅시다. 이것은 더 쉬운 방식으로 다룰 수 있습니다. users.ts의 postHandler를 아래와 같이 변경해봅시다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /** src/routes/users.ts **/
 
 const postHandler = (req: Request, res: Response) => {
   const { name } = req.body;
-  if(!name) {
+  if (!name) {
     throw new Error("Name is required!");
     // return res.status(400).send({ message: "Name is required!" });
   }
@@ -252,7 +347,18 @@ const postHandler = (req: Request, res: Response) => {
 
 # 비동기 오류
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금은 users.ts의 getHandler를 아래와 같이 변경해 봅시다:
 
@@ -265,7 +371,7 @@ const getHandler = async (req: Request, res: Response) => {
     throw new Error("Id is required!");
     // return res.status(400).send({ message: "Id is required!" });
   }
-  
+
   const fetchedUserData = await fetchUserData();
   let filteredUserData = fetchedUserData.filter((user) => user.id === parseInt(id as string));
   return res.status(200).send({ data: filteredUserData });
@@ -284,7 +390,7 @@ const getHandler = async (req: Request, res: Response, next: NextFunction) => {
     // throw new Error("Id is required!");
     // return res.status(400).send({ message: "Id is required!" });
   }
-  
+
   try {
     const fetchedUserData = await fetchUserData();
     let filteredUserData = fetchedUserData.filter((user) => user.id === parseInt(id as string));
@@ -295,7 +401,18 @@ const getHandler = async (req: Request, res: Response, next: NextFunction) => {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 함수는 일반적으로 인수를 받지 않고 요청을 다음 미들웨어로 이동시키기 위해 호출됩니다. next 함수에 입력을 제공하면 Express 서버에게 모든 것을 건너뛰고 바로 에러 핸들러로 이동해야 한다는 신호를 보냅니다.
 
@@ -307,7 +424,18 @@ fetchUserData가 프라미스를 반환하므로 오류 처리를 위해 try-cat
 npm install express-async-errors
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 app.ts 파일 안에서 express 라이브러리에 대한 패치가 적용되도록 패키지를 import하세요.
 
@@ -317,7 +445,7 @@ app.ts 파일 안에서 express 라이브러리에 대한 패치가 적용되도
 // Global dependencies
 import express from "express";
 import { json } from "body-parser";
-import "express-async-errors";  // <---------- apply async error patch
+import "express-async-errors"; // <---------- apply async error patch
 
 // Project dependencies
 import userRouter from "./routes/users";
@@ -348,24 +476,47 @@ const getHandler = async (req: Request, res: Response, next: NextFunction) => {
   if(!id) {
     throw new Error("Id is required!");
   }
-  
+
   const fetchedUserData = await fetchUserData();
   let filteredUserData = fetchedUserData.filter((user) => user.id === parseInt(id as string));
   return res.status(200).send({ data: filteredUserData });
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-Express에서 오류를 중앙 집중식으로 처리하는 데 도움을 주는 도구가 있으니, 해결해야 할 문제가 아직 몇 가지 더 있습니다:  
-- 모든 오류가 500 응답으로 처리되는 대신 다른 상태 코드로 응답을 보내는 방법은 무엇인가요?  
-- 클라이언트에게 오류 응답을 일관된 형식으로 보장하는 방법은 무엇인가요?  
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-이것이 TypeScript가 우리를 도와줄 부분이며, 다음 섹션에서 왜 도와주는지 볼 것입니다.  
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+Express에서 오류를 중앙 집중식으로 처리하는 데 도움을 주는 도구가 있으니, 해결해야 할 문제가 아직 몇 가지 더 있습니다:
+
+- 모든 오류가 500 응답으로 처리되는 대신 다른 상태 코드로 응답을 보내는 방법은 무엇인가요?
+- 클라이언트에게 오류 응답을 일관된 형식으로 보장하는 방법은 무엇인가요?
+
+이것이 TypeScript가 우리를 도와줄 부분이며, 다음 섹션에서 왜 도와주는지 볼 것입니다.
 
 # 사용자 정의 오류 클래스
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 고객에게 반환하는 오류에 일관된 인터페이스를 보장하기 위해 TypeScript에서 사용자 정의 오류 클래스를 만들 수 있습니다. 이를 통해 더 구조화되고 의미 있는 오류 응답을 제공할 수 있습니다. 사용자 정의 오류 클래스를 사용하면 특정 오류 정보를 캡슐화하고 응용 프로그램 전반에서 일관된 오류 객체를 만들 수 있습니다.
 
@@ -395,7 +546,18 @@ export abstract class CustomError extends Error {
 
 CustomErrorContent 유형은 오류 메시지의 구조를 정의합니다. 이는 필수 메시지 필드와 선택적 context 필드(추가적인 오류 관련 데이터를 보유하는 키-값 객체)를 포함합니다. 반면에 CustomError 추상 클래스는 특정 사용자 정의 오류 클래스를 만드는 데 기본 역할을 합니다. 이 클래스는 statusCode(오류 응답에 보낼 HTTP 상태 코드를 나타냄), errors(구체적인 오류 세부 정보를 가진 CustomErrorContent 객체 배열), logging(오류를 로깅해야 하는지 여부를 나타내는 부울값) 세 가지 추상 속성을 구현하도록 강제합니다. 이 추상 클래스 자체는 기본 내장 Error 클래스를 확장하므로 stack 및 cause와 같은 속성에 접근할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CustomError 클래스를 확장하고 추상 속성을 구현함으로써 다양한 오류 시나리오를 처리하는 일관성 있고 구조화된 확장 가능한 오류 클래스를 만들 수 있습니다. 예를 들어, 아래와 같이 일반적인 BadRequestError 클래스를 생성할 수 있습니다.
 
@@ -412,7 +574,7 @@ export default class BadRequestError extends CustomError {
 
   constructor(params?: {code?: number, message?: string, logging?: boolean, context?: { [key: string]: any }) {
     const { code, message, logging } = params || {};
-    
+
     super(message || "Bad request");
     this._code = code || BadRequestError._statusCode;
     this._logging = logging || false;
@@ -436,11 +598,22 @@ export default class BadRequestError extends CustomError {
 }
 ```
 
-이 클래스는 CustomError 클래스를 확장하고 Express 서버 애플리케이션에서 잘못된 요청 시나리오를 처리하기 위해 설계되었습니다. 이 클래스에는 HTTP 상태 코드를 나타내는 _code, 로깅 플래그를 나타내는 _logging, 그리고 오류에 대한 추가적인 컨텍스트 데이터를 나타내는 _context라는 프라이빗 속성이 포함되어 있습니다. 클래스 생성자는 옵션 params 객체를 인수로 받아 코드, 메시지, 로깅, 컨텍스트를 지정하여 오류를 사용자 정의할 수 있도록합니다. params가 제공되지 않으면 생성자는 오류 메시지("Bad request")와 상태 코드(400)에 대한 기본값을 설정합니다. 이 사용자 정의 오류 클래스를 위한 구체적인 오류 세부 정보를 반환하도록 구현된 errors, statusCode 및 logging Getter 메서드가 있습니다. 이것들이 CustomError 클래스에 의해 강제됨에 유의하세요.
+이 클래스는 CustomError 클래스를 확장하고 Express 서버 애플리케이션에서 잘못된 요청 시나리오를 처리하기 위해 설계되었습니다. 이 클래스에는 HTTP 상태 코드를 나타내는 \_code, 로깅 플래그를 나타내는 \_logging, 그리고 오류에 대한 추가적인 컨텍스트 데이터를 나타내는 \_context라는 프라이빗 속성이 포함되어 있습니다. 클래스 생성자는 옵션 params 객체를 인수로 받아 코드, 메시지, 로깅, 컨텍스트를 지정하여 오류를 사용자 정의할 수 있도록합니다. params가 제공되지 않으면 생성자는 오류 메시지("Bad request")와 상태 코드(400)에 대한 기본값을 설정합니다. 이 사용자 정의 오류 클래스를 위한 구체적인 오류 세부 정보를 반환하도록 구현된 errors, statusCode 및 logging Getter 메서드가 있습니다. 이것들이 CustomError 클래스에 의해 강제됨에 유의하세요.
 
 우리는 사용자 엔드포인트의 postHandler에서 BadRequestError 클래스를 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /** src/routes/users.ts **/
@@ -449,8 +622,8 @@ export default class BadRequestError extends CustomError {
 
 const postHandler = (req: Request, res: Response) => {
   const { name } = req.body;
-  if(!name) {
-    throw new BadRequestError({code: 400, message: "Name is required!", logging: true});
+  if (!name) {
+    throw new BadRequestError({ code: 400, message: "Name is required!", logging: true });
   }
 
   const newUser = {
@@ -475,14 +648,20 @@ import { CustomError } from "../errors/CustomError";
 
 export const errorHandler = (err: Error, req: Request, res: Response, next: NextFunction) => {
   // 처리된 오류
-  if(err instanceof CustomError) {
+  if (err instanceof CustomError) {
     const { statusCode, errors, logging } = err;
-    if(logging) {
-      console.error(JSON.stringify({
-        code: err.statusCode,
-        errors: err.errors,
-        stack: err.stack,
-      }, null, 2));
+    if (logging) {
+      console.error(
+        JSON.stringify(
+          {
+            code: err.statusCode,
+            errors: err.errors,
+            stack: err.stack,
+          },
+          null,
+          2
+        )
+      );
     }
 
     return res.status(statusCode).send({ errors });
@@ -496,7 +675,18 @@ export const errorHandler = (err: Error, req: Request, res: Response, next: Next
 
 미들웨어는 먼저 오류가 CustomError 클래스의 인스턴스인 처리된 사용자 정의 오류인지 확인합니다. 처리된 오류일 경우, 미들웨어는 사용자 지정 오류 객체에서 HTTP 상태 코드, 오류 세부 정보 및 로깅 플래그를 추출합니다. 이 오류에 대해 로깅이 활성화되어 있는 경우, 디버깅 목적으로 콘솔에 오류와 그 스택 트레이스를 로깅합니다. 그런 다음 추출된 오류 세부 정보로 클라이언트에 적절한 응답을 보냅니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 미처리된 오류(사용자 정의 오류가 아닌 오류)의 경우 미들웨어가 오류를 콘솔에 기록하며, 오류 객체의 형식이 지정된 JSON 표현과 함께 스택 추적을 표시합니다. 로깅 후 미들웨어는 클라이언트에게 "문제가 발생했습니다." 라는 기본 오류 메시지와 함께 일반적인 500 Internal Server Error 응답을 보냅니다.
 
@@ -506,7 +696,18 @@ export const errorHandler = (err: Error, req: Request, res: Response, next: Next
 
 효과적인 오류 처리는 제품용으로 제작된 안정적이고 견고한 Express 서버 응용 프로그램을 구축하는 중요한 측면입니다. 이 기사에서는 Express 서버에서 TypeScript를 사용하여 프로처럼 오류를 처리하기 위한 다양한 전략과 모범 사례를 탐색했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 예시 Express 서버를 설정하고 Express에서 제공하는 기본 오류 처리 기술의 한계를 확인하며 시작했습니다. 이러한 한계를 극복하기 위해 우리는 사용자 정의 오류 처리 미들웨어를 구현하여 오류 응답을 더 세밀하게 제어하고 응용 프로그램 전반에 걸쳐 일관성을 유지할 수 있도록 했습니다.
 
@@ -516,6 +717,17 @@ export const errorHandler = (err: Error, req: Request, res: Response, next: Next
 
 이러한 기술을 결합하여 우리는 중앙 집중화된 표준화된 오류 처리 메커니즘을 수립하여 클라이언트가 어떤 종류의 오류나 어떤 엔드포인트를 액세스하더라도 일관된 오류 응답을 받도록 했습니다. 또한, 적절한 경우 콘솔에 오류를 로깅함으로써 디버깅 능력을 향상시키고, 동시에 안전하고 사용자 친화적인 오류 인터페이스를 유지했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요약하면, TypeScript의 강력한 기능과 잘 구성된 오류 처리 전략을 활용하여 더 견고하고 유지보수가 쉬운 Express 서버 애플리케이션을 구축할 수 있으며, 프로덕션 환경에서 예기치 못한 다운타임을 최소화할 수 있습니다.

@@ -3,15 +3,13 @@ title: "React와 TypeScript로 Google Analytics 사용 방법"
 description: ""
 coverImage: "/assets/img/2024-07-07-GoogleAnalyticsWithReactTypescript_0.png"
 date: 2024-07-07 21:58
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-GoogleAnalyticsWithReactTypescript_0.png
 tag: Tech
 originalTitle: "Google Analytics With React Typescript"
 link: "https://medium.com/@itay.ey/google-analytics-with-react-typescript-a405da7a3fc3"
 isUpdated: true
 ---
-
-
 
 <img src="/assets/img/2024-07-07-GoogleAnalyticsWithReactTypescript_0.png" />
 
@@ -21,7 +19,18 @@ Google Analytics (GA)은 웹사이트 트래픽 및 사용자 행동을 추적�
 
 다음은 그 동작 방식입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신의 웹사이트에서 GA는 JavaScript 추적 코드를 사용하여 데이터를 수집합니다. 이 코드는 웹사이트 페이지에 삽입되어 방문자에 대한 정보를 수집하고 Google의 서버로 보내어 처리되며 다양한 보고서에서 제공됩니다.
 
@@ -31,7 +40,18 @@ useGoogleAnalytics.ts는 GA와 통합하기 위한 기본 파일로 사용됩니
 
 GoogleAnalyticsProvider.tsx는 라우트를 감싸는 공급자 컴포넌트로 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 App.tsx 파일을 수정하여 GoogleAnalyticsProvider 컴포넌트를 추가해주세요.
 
@@ -41,7 +61,18 @@ App.tsx 파일을 수정하여 GoogleAnalyticsProvider 컴포넌트를 추가해
 
 - 미래를 대비: ReactGA에서 다른 솔루션(예: 미래의 GA 버전)으로 전환하더라도 코드 베이스의 각 인스턴스를 모두 업데이트해야 하는 것이 아니라 이 객체만 업데이트하면 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - React 방식: 이 방법은 React의 최상의 실천 방법을 따르며 부작용을 처리하기 위해 컴포넌트를 사용합니다.
 
@@ -52,7 +83,18 @@ GitHub 저장소: ‘google-analytics-react-ts’
 
 useGoogleAnalytics.ts.tsx
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { useEffect } from "react";
@@ -153,7 +195,18 @@ export default GoogleAnalyticsProvider;
 
 App.tsx
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
@@ -194,7 +247,18 @@ export default App;
 - 페이지 뷰 추적: 페이지 뷰를 추적하는 방법을 제공하여 각 페이지 방문이 로그에 기록되도록 수동으로 처리할 수 있습니다.
 - 사용자 정의 이벤트: trackEventBuilder 메서드를 사용하면 다양한 사용자 상호작용을 추적하는 유연성을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단점:
 
@@ -208,7 +272,18 @@ export default App;
 - 세밀한 제어: 추적할 이벤트와 해당 라벨을 정확하게 제어할 수 있어 매우 상세하고 구체적인 분석 데이터를 얻을 수 있습니다.
 - 사용자 정의: 각 이벤트를 특정 범주, 동작, 라벨 및 값으로 사용자 정의할 수 있어 사용자의 행동과 상호작용에 대한 풍부한 통찰을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단점:
 
@@ -219,7 +294,18 @@ export default App;
 
 GA를 구현하기 위해 GA 스크립트를 웹 애플리케이션에 포함하고 코드에서 추적을 설정하세요. 'https://www.google-analytics.com`를 script-src 및 connect-src 지시문에 추가하여 GA 서버로의 연결을 허용하도록 CSP를 구성하세요. Google Tag Manager를 사용하는 경우 script-src 지시문에 ‘https://www.googletagmanager.com`도 포함하고 CSP 구성을 철저히 테스트하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 참고 자료
 

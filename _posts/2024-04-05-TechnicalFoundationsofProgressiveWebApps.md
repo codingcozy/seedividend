@@ -3,17 +3,13 @@ title: "Progressive Web Apps이란 무엇인지 알아보기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Technical Foundations of Progressive Web Apps"
 link: "https://medium.com/@anant3104/technical-foundations-of-progressive-web-apps-2aa1779b28bc"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/TechnicalFoundationsofProgressiveWebApps_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 HTML, CSS, 그리고 JavaScript의 개요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 애플리케이션의 기초는 HTML, CSS 및 JavaScript와 같은 세 가지 핵심 기술로 이루어져 있어요. HTML (하이퍼텍스트 마크업 언어)는 웹 페이지의 구조를 형성하여 헤더, 단락, 링크 등과 같은 요소를 정의하는 데 사용됩니다. CSS (계단식 스타일 시트)는 프레젠테이션 측면을 담당하여 개발자가 색상, 레이아웃 및 글꼴로 요소를 스타일링하여 시각적으로 매력적인 경험을 만들어냅니다. JavaScript는 상호작용성과 기능성을 제공하여 웹 페이지가 사용자 입력에 반응하고 웹 콘텐츠를 동적으로 조작하며 복잡한 애니메이션 및 계산을 처리할 수 있게 합니다.
 
@@ -33,7 +40,18 @@ PWA는 데스크톱부터 스마트폰까지 모든 기기에서 매끄러운 �
 
 ## 서비스 워커
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 서비스 워커는 Progressive Web Apps(진보적 웹 앱)의 아키텍처에서 중추적인 역할을 하는데, 웹 애플리케이션과 네트워크 사이의 프록시 역할을 합니다. 캐시 제어와 콘텐츠 제공을 통해 성능, 신뢰성, 그리고 오프라인 기능을 향상시키는 데 중요한 역할을 합니다.
 
@@ -43,7 +61,18 @@ PWA는 데스크톱부터 스마트폰까지 모든 기기에서 매끄러운 �
 
 서비스 워커의 라이프사이클은 PWA 내에서 작동 방식을 이해하는 데 중요합니다. 등록, 설치, 활성화, 그리고 가져오기(fetching)라는 여러 단계로 구성됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 등록: 브라우저가 서비스 워커를 등록하여 URL 경로에 연결하고 응용 프로그램 내에서 제어 범위를 결정하는 단계입니다.
 
@@ -65,7 +94,18 @@ PWA는 데스크톱부터 스마트폰까지 모든 기기에서 매끄러운 �
 
 - 네트워크에서 캐시로 대체: 주로 중요 자원에 대한 이 방식은 먼저 네트워크에서 콘텐츠를 가져오려고 시도하며 네트워크에 문제가 발생할 경우 캐시를 대체로 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주의 깊게 선택하고 구현하는 캐싱 전략을 통해 개발자는 자신들의 PWA가 강력한 오프라인 경험을 제공하도록 보장할 수 있으며, 웹 응용 프로그램이 인터넷 연결이 없어도 접근 가능하고 사용 가능하게 합니다.
 
@@ -75,7 +115,18 @@ PWA는 데스크톱부터 스마트폰까지 모든 기기에서 매끄러운 �
 
 매니페스트는 JSON 텍스트 파일에 애플리케이션에 관한 정보(이름, 작성자, 아이콘, 설명 등)를 제공합니다. 매니페스트의 목적은 웹 애플리케이션을 기기의 홈 화면에 설치하여 사용자에게 더 빠른 액세스와 더 풍부한 경험을 제공하는 것입니다. 매니페스트를 사용하면 앱이 어떻게 나타나고 시작되는지 제어할 수 있습니다. 홈 화면 아이콘, 앱 시작 시 로드할 페이지, 화면 방향 및 브라우저 크롬 표시 여부 등을 지정할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 매니페스트 파일에서 정의할 수 있는 주요 요소는 다음과 같습니다:
 
@@ -90,7 +141,18 @@ PWA는 데스크톱부터 스마트폰까지 모든 기기에서 매끄러운 �
 
 웹 앱 매니페스트의 목표 중 하나는 PWA가 네이티브 앱과 일관된 사용자 경험을 제공하도록 하는 것입니다. 이는 운영 체제의 작업 전환기, 알림 시스템 및 설정과의 통합을 포함합니다. 매니페스트에서 아이콘, 색상 및 기타 옵션을 지정함으로써 PWA는 높은 통합 수준을 달성하여 네이티브 애플리케이션과 거의 구별할 수 없는 수준의 외관을 제공할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 심층적인 통합은 웹 앱의 전통적인 제한 사항 중 하나를 극복하여 더 매혹적이고 원활한 사용자 경험을 제공합니다. 사용자들이 홈 화면에 웹 앱을 추가하고 더 자주 사용할 수 있도록 장려하며, 웹과 네이티브 앱 경험 사이의 간격을 줄입니다.
 
@@ -100,7 +162,18 @@ PWA는 데스크톱부터 스마트폰까지 모든 기기에서 매끄러운 �
 
 푸시 알림은 점진적 웹 앱(PWA)의 필수 기능으로, 개발자들이 적시에 관련성 있는 콘텐츠로 사용자와 소통할 수 있도록 합니다. 이러한 알림은 사용자의 디바이스로 전송되어 웹 앱이 브라우저에서 열려 있지 않을 때에도 중요한 기능 중 하나인 네이티브 애플리케이션과 유사하게 작동할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Push 알림을 보낼 수 있는 능력은 PWA를 원활한 경험을 제공하는 주요 기능 중 하나로 끌어올립니다. 이러한 알림은 새로운 콘텐츠를 사용자에게 알리거나 보류 중인 작업을 상기시키거나 맞춤 업데이트를 전달하는 등 다양한 목적으로 사용될 수 있습니다. Push 알림을 효과적으로 활용하면 사용자 참여와 유지율을 크게 향상시킬 수 있어, 사용자가 미니멀한 노력으로 PWA로 되돌아오도록 이끌 수 있습니다.
 
@@ -113,7 +186,18 @@ PWAs에서 push 알림을 구현하기 위해 개발자는 Push API와 Notificat
 - Push 메시지 수신: 서비스 워커가 PWA가 열려 있지 않더라도 push 메시지를 받고 푸시 이벤트를 트리거합니다.
 - 알림 표시: 서비스 워커가 push 이벤트를 처리하고 Notifications API를 사용하여 사용자에게 알림을 표시합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 푸시 알림은 사용자를 관여시키는 강력한 도구이지만, 그 효과는 그들의 관련성과 타이밍에 달려 있어요. 긍정적인 사용자 경험을 보장하기 위해서는 다음과 같은 모범 사례를 따르는 것이 중요합니다:
 
@@ -124,6 +208,17 @@ PWAs에서 push 알림을 구현하기 위해 개발자는 Push API와 Notificat
 
 이러한 원칙을 준수함으로써, 개발자들은 PWAs의 사용자 경험을 효과적으로 향상시키기 위해 푸시 알림을 사용할 수 있어요. 이렇게 함으로써, PWAs의 사용자 경험은 웹과 네이티브 애플리케이션 사이를 더욱 흐린 채로 새로운 수준의 경험을 제공하고 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로그레시브 웹 앱의 기술적 기반에 대한 탐험을 마치게 되었습니다. 웹 기초부터 서비스 워커, 매니페스트 파일, 푸시 알람까지 각 섹션은 이전 내용을 바탕으로 프로그레시브 웹 앱이 혁신적인 이유에 대한 포괄적인 이해를 제공합니다.

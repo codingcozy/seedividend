@@ -3,17 +3,13 @@ title: "JWT 인증 엑세스 토큰과 리프레시 토큰 정리"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "JWT Authentication A Deep Dive into Access Tokens and Refresh Tokens"
 link: "https://medium.com/stackademic/jwt-authentication-a-deep-dive-into-access-tokens-and-refresh-tokens-274c6c3b352d"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/JWTAuthenticationADeepDiveintoAccessTokensandRefreshTokens_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # Refresh Tokens의 필수성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 액세스 토큰은 짧은 수명을 가지며 사용자에게 응용 프로그램의 특정 부분에 대한 열쇠를 제공합니다. 그러나 이러한 키가 분실되거나, 더 나쁜 경우에는 도난당할 경우 어떻게 될까요? 짧은 수명이지만 피해는 오래 남을 수 있습니다. 이때 리프레시 토큰이 빛을 발합니다. 이들은 액세스 토큰을 갱신하는 메커니즘을 제공하여 사용자 세션을 안전하고 원활하게 유지합니다.
 
@@ -34,7 +41,18 @@ isUpdated: true
 
 액세스 토큰만 사용하면 안전망 없이 줄타기를 하고 있는 것과 마찬가지입니다. 토큰이 짧게라도 손상된다면 그 잠재적인 낙폭은 과하게 측정해서는 안 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # NestJS와 함께 하는 백엔드 매직
 
@@ -44,7 +62,18 @@ isUpdated: true
 
 당신의 앱 모듈이나 별도의 인증 모듈에서:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```typescript
 import { JwtModule } from "@nestjs/jwt";
@@ -78,10 +107,7 @@ export class AuthService {
 
   async createRefreshToken(userId: string) {
     const tokenId = uuid();
-    return this.jwtService.sign(
-      { id: userId, tokenId: tokenId },
-      { expiresIn: "7d" }
-    );
+    return this.jwtService.sign({ id: userId, tokenId: tokenId }, { expiresIn: "7d" });
   }
 
   async validateUser(payload: any): Promise<any> {
@@ -91,7 +117,18 @@ export class AuthService {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## c. 로그인 및 새로고침 엔드포인트:
 
@@ -139,7 +176,18 @@ export class AuthController {
 
 # Angular: 이를 어떻게 구현할까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앵귤러, 리액트, 뷰 — 어떤 프론트엔드 프레임워크를 사용하든 핵심 개념은 일관적입니다. 이 예시에서는 앵귤러를 사용해보겠습니다:
 
@@ -160,7 +208,18 @@ getAccessToken() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## b. 인터셉터에서 토큰 만료 및 갱신 처리:
 
@@ -195,7 +254,18 @@ intercept(req: HttpRequest<any>, next: HttpHandler): Observable<HttpEvent<any>> 
 
 # 토큰 로테이션: 보안
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 보안은 Access 토큰과 Refresh 토큰을 사용하여 원래 강력하지만, Refresh 토큰의 회전으로 추가적인 방어층이 더해집니다. 이 개념은 각 Refresh 토큰의 사용 시마다 새로운 것으로 대체되는 것을 규정합니다. 이는 Refresh 토큰이 노출되더라도 오용 기회가 심각하게 제한된다는 것을 보장합니다. 이러한 고급 개념을 자세히 살펴보겠습니다.
 
@@ -205,7 +275,18 @@ intercept(req: HttpRequest<any>, next: HttpHandler): Observable<HttpEvent<any>> 
 
 # NestJS로 백엔드 회전 전략:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## a. 토큰 회전을 위한 AuthService 확장:
 
@@ -238,7 +319,18 @@ export class AuthService {
 
 ## b. 새로운 Refresh Endpoint 업데이트:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새로운 새로고침 메커니즘은 이제 이전 토큰을 처리하고 유효성을 검사한 후 교체해야 합니다:
 
@@ -269,7 +361,18 @@ async rotateRefreshToken(@Res() res: Response, @Req() req: Request) {
 
 Angular 서비스에서 토큰을 새로고침할 때, 메모리 내의 액세스 토큰도 업데이트합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // authService.ts
@@ -290,7 +393,18 @@ refreshToken(): Observable<string> {
 
 # 마무리 🎁
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 보안에서 액세스 토큰과 리프레시 토큰은 기본적인 요소들입니다. 액세스 토큰만 사용하면 애플리케이션에 취약점이 발생할 수 있습니다. 리프레시 토큰을 활용하면, 특히 회전 메커니즘과 결합하여 우리의 방어를 강화하고 보안을 강화할 수 있습니다.
 
@@ -300,7 +414,18 @@ refreshToken(): Observable<string> {
 
 웹 개발에 대한 더 많은 통찰과 토론을 위해서, 제 Medium 블로그를 방문해주시기 바랍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 행복한 코딩! 🚀
 

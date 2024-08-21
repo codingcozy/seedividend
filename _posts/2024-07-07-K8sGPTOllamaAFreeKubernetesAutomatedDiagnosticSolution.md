@@ -3,16 +3,13 @@ title: "K8sGPT  Ollama 무료 Kubernetes 자동 진단 솔루션"
 description: ""
 coverImage: "/assets/img/2024-07-07-K8sGPTOllamaAFreeKubernetesAutomatedDiagnosticSolution_0.png"
 date: 2024-07-07 23:42
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-K8sGPTOllamaAFreeKubernetesAutomatedDiagnosticSolution_0.png
 tag: Tech
 originalTitle: "K8sGPT + Ollama: A Free Kubernetes Automated Diagnostic Solution"
 link: "https://medium.com/@addozhang/k8sgpt-ollama-a-free-kubernetes-automated-diagnostic-solution-d453b63f112f"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-07-07-K8sGPTOllamaAFreeKubernetesAutomatedDiagnosticSolution_0.png" />
 
@@ -22,7 +19,18 @@ k8sgpt-operator을 소개하는 글을 게시한 후에 일부 독자들이 Open
 
 # 1. Ollama 설치하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-07-07-K8sGPTOllamaAFreeKubernetesAutomatedDiagnosticSolution_1.png](/assets/img/2024-07-07-K8sGPTOllamaAFreeKubernetesAutomatedDiagnosticSolution_1.png)
 
@@ -34,10 +42,21 @@ brew install ollama
 
 최신 버전은 0.1.44입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-ollama -v 
+ollama -v
 경고: 실행 중인 Ollama 인스턴스에 연결할 수 없습니다.
 경고: 클라이언트 버전은 0.1.44입니다.
 ```
@@ -50,7 +69,18 @@ curl -sSL https://ollama.com/install.sh | sh
 
 Ollama를 시작하고 컨테이너나 K8s 클러스터에서 접근할 수 있도록 환경 변수를 통해 청취 주소를 0.0.0.0으로 설정하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 OLLAMA_HOST=0.0.0.0 ollama start
@@ -68,7 +98,18 @@ time=2024-06-16T07:54:57.385+08:00 level=INFO source=types.go:71 msg="추론 계
 
 4월에 Meta에서 오픈 소스로 공개된 인기 있는 대형 모델 중 하나인 Llama3. Llama3에는 8B 및 70B 두 가지 버전이 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 맥북에서 실행 중이에요, 그래서 8B 버전을 선택했어요. 8B 버전은 4.7GB 용량이고 빠른 인터넷 연결로 3-4분 정도 소요돼요.
 
@@ -82,7 +123,18 @@ ollama run llama3
 time=2024-06-17T09:30:25.070+08:00 level=INFO source=server.go:572 msg="llama runner started in 12.58 seconds"
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각 쿼리는 약 14초가 걸립니다.
 
@@ -101,7 +153,18 @@ curl http://localhost:11434/api/generate -d '{
 
 # 3. K8sGPT CLI 백엔드 구성하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 k8sgpt-operator를 테스트하고 싶다면, 이 단계를 건너 뛰어도 괜찮아요.
 
@@ -113,7 +176,18 @@ k8sgpt auth add --backend localai --model llama3 --baseurl http://localhost:1143
 
 기본 제공자로 설정하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 k8sgpt auth default --provider localai
@@ -130,10 +204,18 @@ kubectl get po k8sgpt-test
 k8sgpt-test   0/1        ErrImagePull     0          6초
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 k8sgpt 에러를 분석해보세요.
 
@@ -167,8 +249,18 @@ k8sgpt analyze --explain --filter=Pod --namespace=default --output=json
 
 # 4. k8sgpt-operator 배포 및 설정하기
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 k8sgpt-operator은 클러스터 내의 k8sgpt를 자동화할 수 있어요. Helm을 사용해서 설치할 수 있답니다.
 
@@ -186,7 +278,18 @@ k8sgpts  core.k8sgpt.ai/v1alpha1  true  K8sGPT
 results  core.k8sgpt.ai/v1alpha1  true  Result
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Ollama의 IP 주소를 baseUrl로 사용하여 K8sGPT를 구성하세요.
 

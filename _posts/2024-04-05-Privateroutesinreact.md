@@ -3,17 +3,13 @@ title: "리액트에서의 프라이빗 라우트 사용하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Private routes in react"
 link: "https://medium.com/@bhairabpatra.iitd/private-routes-in-react-559a7d8d161f"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/Privateroutesinreact_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ## 프라이빗 루트 컴포넌트 생성하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프라이빗 라우트를 렌더링하는 논리를 처리하는 PrivateRoute 컴포넌트를 생성해보세요.
 
@@ -44,7 +51,18 @@ export default PrivateRoute;
 
 ## 라우팅 구현하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 라우팅 설정 내에서 PrivateRoute 컴포넌트를 사용하세요.
 
@@ -55,12 +73,7 @@ import "./index.css";
 import App from "./App";
 import PrivateRoute from "./components/auth/PrivateRoute";
 import PageNotFound from "./components/PagenotFound/PageNotFound";
-import {
-  createBrowserRouter,
-  createRoutesFromElements,
-  Route,
-  RouterProvider,
-} from "react-router-dom";
+import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from "react-router-dom";
 import Home from "./components/Home/Home";
 
 const router = createBrowserRouter(
@@ -81,7 +94,18 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 기억하세요, isAuthenticated 상태는 백엔드 API, 토큰 또는 기타 인증 메커니즘을 통해 관리되어야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 블로그 포스트가 도움이 되었다면 추가 질문이나 알고 싶은 주제가 있다면 언제든 연락해 주세요.
 

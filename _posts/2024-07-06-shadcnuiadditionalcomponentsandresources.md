@@ -3,15 +3,13 @@ title: "shadcn UI 추가 컴포넌트 및 리소스 모음"
 description: ""
 coverImage: "/assets/img/2024-07-06-shadcnuiadditionalcomponentsandresources_0.png"
 date: 2024-07-06 10:15
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-06-shadcnuiadditionalcomponentsandresources_0.png
 tag: Tech
 originalTitle: "shadcn ui additional components and resources"
 link: "https://medium.com/@jidefr/shadcn-ui-add-components-and-resources-0846b0f57596"
 isUpdated: true
 ---
-
-
 
 # 원본 게시물 이후 추가된 내용:
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 23/06/2024:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 최소한의 Tiptap Editor
 
@@ -31,7 +40,18 @@ isUpdated: true
 
 2024년 5월 12일:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - sortable
 - Planner
@@ -42,7 +62,18 @@ isUpdated: true
 
 2024년 04월 29일 :
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - shadcn-cal-com
 - Multi select 컴포넌트
@@ -55,7 +86,18 @@ isUpdated: true
 
 2024년 4월 7일 :
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 플러터 shadcn/ui
 
@@ -68,7 +110,18 @@ isUpdated: true
 
 2024년 02월 25일:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - shadcn 키보드 단축키
 - 이미지 업로드
@@ -79,7 +132,18 @@ shadcn/ui 프로젝트에서 사용할 준비가 된 추가 구성 요소/라이
 
 따라서 여기에는 프로젝트에서 사용할 수 있는 이러한 구성 요소의 목록이 있습니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다른 유용한 자료를 발견하면 아래에 댓글을 남겨주세요. 그리고 저는 그것들을 목록에 추가하겠습니다.
 
@@ -89,7 +153,18 @@ shadcn/ui 프로젝트에서 사용할 준비가 된 추가 구성 요소/라이
 
 shadcn/ui를 기반으로 구축된 추가 구성 요소 세트입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 자동 크기 조절 텍스트영역
 - 인용문
@@ -106,7 +181,18 @@ shadcn/ui를 기반으로 구축된 추가 구성 요소 세트입니다.
 
 캠프사이트 디자인과 캘닷컴의 설정 양식에서 영감을 받은 멀티 선택 컴포넌트입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 멋진 상자
 
@@ -116,7 +202,18 @@ GitHub의 PR 레이블 선택기에서 영감을 받은 콤보 상자 구성 요
 
 # 멋진 영역
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 /assets/img/2024-07-06-shadcnuiadditionalcomponentsandresources_3.png
 
@@ -126,7 +223,18 @@ GitHub의 PR 댓글 섹션에서 영감을 받은 텍스트 영역 컴포넌트�
 
 /assets/img/2024-07-06-shadcnuiadditionalcomponentsandresources_4.png
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 마크다운 형식으로 바꿔보세요.
 
@@ -138,7 +246,18 @@ A keyboard shortcuts UI, with mac / PC variants.
 
 ![Image](/assets/img/2024-07-06-shadcnuiadditionalcomponentsandresources_5.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 친절하고 자연스러운 한국어 번역입니다.
 
@@ -150,7 +269,18 @@ A keyboard shortcuts UI, with mac / PC variants.
 
 다양한 유용한 도우미와 서버 측 정렬, 필터링 및 페이지네이션 기능을 갖춘 데이터 테이블 생성을 위한 유틸리티 세트입니다."
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Emblor (이전 shadcn-tag-input)
 
@@ -160,7 +290,18 @@ A keyboard shortcuts UI, with mac / PC variants.
 
 # Plate Rich Text Editor
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 /assets/img/2024-07-06-shadcnuiadditionalcomponentsandresources_8.png
 
@@ -170,7 +311,18 @@ A keyboard shortcuts UI, with mac / PC variants.
 
 /assets/img/2024-07-06-shadcnuiadditionalcomponentsandresources_9.png
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Shadcn을 위해 만든 간소한 Tiptap Editor 구성 요소입니다. 사용자가 텍스트를 작성하고 서식을 지정할 수 있는 간단하고 깔끔한 편집기를 제공합니다.
 
@@ -180,7 +332,18 @@ Shadcn을 위해 만든 간소한 Tiptap Editor 구성 요소입니다. 사용�
 
 그라데이션/색상/배경 선택기입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 자동 양식
 
@@ -190,7 +353,18 @@ Shadcn을 위해 만든 간소한 Tiptap Editor 구성 요소입니다. 사용�
 
 # 크레덴자 모달
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 /assets/img/2024-07-06-shadcnuiadditionalcomponentsandresources_12.png
 
@@ -200,7 +374,18 @@ Shadcn을 위해 만든 간소한 Tiptap Editor 구성 요소입니다. 사용�
 
 /assets/img/2024-07-06-shadcnuiadditionalcomponentsandresources_13.png
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 멀티 셀렉트 구성 요소입니다.
 
@@ -210,7 +395,18 @@ Shadcn을 위해 만든 간소한 Tiptap Editor 구성 요소입니다. 사용�
 
 또 다른 멀티 셀렉트 구성 요소입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 전화 입력
 
@@ -220,7 +416,18 @@ Shadcn을 위해 만든 간소한 Tiptap Editor 구성 요소입니다. 사용�
 
 # 향상된 버튼
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 /assets/img/2024-07-06-shadcnuiadditionalcomponentsandresources_16.png
 
@@ -230,7 +437,18 @@ Shadcn을 위해 만든 간소한 Tiptap Editor 구성 요소입니다. 사용�
 
 /assets/img/2024-07-06-shadcnuiadditionalcomponentsandresources_17.png
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Radix UI를 기반으로 한 날짜 범위 선택기입니다.
 
@@ -240,7 +458,18 @@ Radix UI를 기반으로 한 날짜 범위 선택기입니다.
 
 cal.com에서 사용하는 월간 달력의 사본입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Shadcn 국가 지역 선택
 
@@ -250,7 +479,18 @@ cal.com에서 사용하는 월간 달력의 사본입니다.
 
 # 채트
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 /assets/img/2024-07-06-shadcnuiadditionalcomponentsandresources_20.png
 
@@ -260,7 +500,18 @@ cal.com에서 사용하는 월간 달력의 사본입니다.
 
 /assets/img/2024-07-06-shadcnuiadditionalcomponentsandresources_21.png
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AI 프로젝트용 UI 구성 요소 모음.
 
@@ -270,7 +521,18 @@ AI 프로젝트용 UI 구성 요소 모음.
 
 또 다른 전화 입력란입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 정렬 가능
 
@@ -280,7 +542,18 @@ Shadcn/ui와 dnd-kit을 사용한 재사용 가능한 정렬 가능한 컴포넌
 
 # 플래너
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 /assets/img/2024-07-06-shadcnuiadditionalcomponentsandresources_24.png
 
@@ -290,7 +563,18 @@ Shadcn/ui와 dnd-kit을 사용한 재사용 가능한 정렬 가능한 컴포넌
 
 /assets/img/2024-07-06-shadcnuiadditionalcomponentsandresources_25.png
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 shadcn/ui를 위한 비공식 react-querybuilder 구성 요소입니다.
 
@@ -300,7 +584,18 @@ shadcn/ui를 위한 비공식 react-querybuilder 구성 요소입니다.
 
 /assets/img/2024-07-06-shadcnuiadditionalcomponentsandresources_26.png
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 shadcn/ui 테마를 사용자 정의하기 위한 오픈 소스 확장 프로그램입니다.
 
@@ -310,7 +605,18 @@ shadcn/ui 테마를 사용자 정의하기 위한 오픈 소스 확장 프로그
 
 추가 shadcn/ui 컴포넌트와 예제들의 선별된 목록입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Next.js 14 관리자 대시보드 스타터 템플릿
 
@@ -320,7 +626,18 @@ shadcn/ui를 사용한 UI를 위한 준비된 Next.js 관리 템플릿입니다.
 
 # Veryfront 사전 제작된 UI 컴포넌트
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 /assets/img/2024-07-06-shadcnuiadditionalcomponentsandresources_29.png
 
@@ -330,7 +647,18 @@ A list of pre-made templates ready to be copied and pasted.
 
 /assets/img/2024-07-06-shadcnuiadditionalcomponentsandresources_30.png
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다양한 색상 테마 조합.
 
@@ -340,7 +668,18 @@ A list of pre-made templates ready to be copied and pasted.
 
 shadcn/ui의 Svelte 버전.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # shadcn Vue
 
@@ -350,7 +689,18 @@ Vue flavor of shadcn/ui.
 
 # React native 재사용 가능한 컴포넌트
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 /assets/img/2024-07-06-shadcnuiadditionalcomponentsandresources_33.png
 
@@ -360,7 +710,18 @@ shadcn/ui에서 영감을 받은 매우 좋은 React Native UI 라이브러리.
 
 /assets/img/2024-07-06-shadcnuiadditionalcomponentsandresources_34.png
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또 다른 React Native 구현인 shadcn/ui입니다.
 
@@ -370,7 +731,18 @@ shadcn/ui에서 영감을 받은 매우 좋은 React Native UI 라이브러리.
 
 Flutter용 Shadcn UI입니다. 작업 중입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 샐러드 UI
 
@@ -380,7 +752,18 @@ Phoenix Liveview 구성 요소로 shadc/ui의 포트입니다.
 
 # Remix + Vite + shadcn/ui
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 /assets/img/2024-07-06-shadcnuiadditionalcomponentsandresources_37.png
 
@@ -390,7 +773,18 @@ shadcn/ui를 사용한 준비된 Remix 템플릿입니다.
 
 /assets/img/2024-07-06-shadcnuiadditionalcomponentsandresources_38.png
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 Figma 파일은 @shadcn의 놀라운 새 UI 시스템에 대한 디자인 동반자입니다.
 
@@ -400,7 +794,18 @@ shadcn/ui를 사용한 준비된 Remix 템플릿입니다.
 
 /assets/img/2024-07-06-shadcnuiadditionalcomponentsandresources_39.png
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 터미널 없이 구성 요소를 설치하는 데 사용할 수 있는 VSCode 확장 프로그램입니다.
 
@@ -410,6 +815,17 @@ shadcn/ui를 사용한 준비된 Remix 템플릿입니다.
 
 미리 작성된 JSX 및 import를 쉽게 삽입할 수 있는 스니펫입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 다른 자료를 찾게 된다면, 아래 댓글을 남겨 주세요!

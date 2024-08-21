@@ -3,15 +3,13 @@ title: "리액트의 새로운 훅 useActionState 내용 정리"
 description: ""
 coverImage: "/assets/img/2024-07-06-useActionStateANewHookinReact_0.png"
 date: 2024-07-06 00:02
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-06-useActionStateANewHookinReact_0.png
 tag: Tech
 originalTitle: "useActionState — A New Hook in React 🎉"
 link: "https://dev.to/random_ti/useactionstate-a-new-hook-in-react-5blm"
 isUpdated: true
 ---
-
-
 
 안녕하세요 개발자 여러분 👋,
 
@@ -21,7 +19,18 @@ Github에서 저를 팔로우해 주세요⭐
 
 ## useActionState란 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 useActionState는 새로운 React 훅입니다. 이 훅은 양식 작업의 결과에 기반하여 상태를 업데이트하는 데 도움을 줍니다.
 
@@ -31,7 +40,18 @@ useActionState는 새로운 React 훅입니다. 이 훅은 양식 작업의 결�
 
 ## useActionState를 사용하는 방법은?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 훅을 사용하려면 먼저 React에서 해당 훅을 import해야 합니다:
 
@@ -47,7 +67,18 @@ const [state, formAction, isPending] = useActionState(actionFunction, initialSta
 
 각 부분이 의미하는 것은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 '상태'는 현재 양식 상태입니다.
 'formAction'은 양식에서 사용할 새로운 작업입니다.
@@ -60,7 +91,18 @@ const [state, formAction, isPending] = useActionState(actionFunction, initialSta
 
 예:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단한 카운터 양식을 만들어 보겠습니다. useActionState를 사용해주세요:
 
@@ -86,7 +128,18 @@ function StatefulForm() {
 
 ## 더 자세한 내용과 예제는 다음 비디오를 확인해주세요 👇
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 이게 다에요 😅
 
@@ -96,7 +149,18 @@ function StatefulForm() {
 
 ## 경고 ⚠️
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제 새 문서를 확인하지 않도록 잊지 마세요! 🫡
 
@@ -106,7 +170,18 @@ function StatefulForm() {
 
 ...
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 즐거운 코딩!
 
@@ -114,8 +189,17 @@ function StatefulForm() {
 ![image2](/assets/img/2024-07-06-useActionStateANewHookinReact_2.png)
 ![image3](/assets/img/2024-07-06-useActionStateANewHookinReact_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-07-06-useActionStateANewHookinReact_4](/assets/img/2024-07-06-useActionStateANewHookinReact_4.png)
-

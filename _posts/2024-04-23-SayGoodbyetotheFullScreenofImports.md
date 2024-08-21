@@ -3,17 +3,13 @@ title: "React에서 import를 올바르게 사용하는 방법 "
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Say Goodbye to the Full Screen of Imports"
 link: "https://medium.com/gitconnected/say-goodbye-to-the-full-screen-of-import-42d40b21d829"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/SayGoodbyetotheFullScreenofImports_0.png)
 
@@ -23,7 +19,18 @@ import 문에 의해 "전체 화면 점령"을 어떻게 달성할까요? 그리
 
 이 기사에서는 import 문이 많이 생성되는 이유, 그들이 야기할 수 있는 잠재적인 문제, 그리고 여러 관점에서 import 문을 최적화하고 관리하는 방법에 대해 살펴볼 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # "모듈 재 내보내기" 사용을 거절하세요
 
@@ -33,7 +40,18 @@ import 문에 의해 "전체 화면 점령"을 어떻게 달성할까요? 그리
 
 components/index.tsx 파일에서 모든 컴포넌트를 재 내보내기함으로써, 한 줄의 import 문으로 N개의 컴포넌트를 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 명명된 import는 사용하지 않습니다
@@ -52,7 +70,18 @@ import { Modal, Checkbox, Message} from '@arco-design/web-react'
 
 재내보내기의 여러 형태:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 직접 재내보내기
   다른 모듈에서 특정 멤버들을 직접 재내보냅니다.
@@ -65,7 +94,18 @@ export { foo, bar } from "./moduleA";
 
 다른 모듈에서 멤버들을 가져와서 필요에 따라 이름을 바꾸고 내보냅니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기본 내보내기도 이름을 바꿀 수 있고 다시 내보낼 수도 있어요.
 
@@ -83,7 +123,18 @@ export { default as ModuleDDefault } from "./moduleD";
 export * from "./moduleA";
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. 합병하여 가져오고 다시 내보내기
    먼저 모듈에서 멤버를 가져와서 사용한 후에 해당 멤버를 다시 내보냅니다.
@@ -97,7 +148,18 @@ export { foo, bar };
 
 # require.context는 절대 사용하지 마세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 require.context은 하나하나 명시적으로 import하지 않고도 모듈 집합을 동적으로 import할 수 있게 해주는 매우 유용한 기능입니다.
 
@@ -107,7 +169,18 @@ require.context은 하나하나 명시적으로 import하지 않고도 모듈 �
 
 특히 라우트를 구성하고 대량의 import를 생성할 때 유용합니다(페이지 수만큼 import를 해야 할 때가 있어요 😅)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // require.context를 사용하지 않습니다
@@ -138,7 +211,18 @@ export default routes;
 
 동적 가져오기는 require.context와 유사한 기능을 달성할 수 있으며, 모듈을 동적으로 번들링할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # "ProvidePlugin"에서 "Not interested"
 
@@ -148,7 +232,18 @@ webpack.ProvidePlugin은 좋은 것이지만 과용해서는 안 됩니다.
 
 이 예제를 읽은 후에는 한 번 사용하지 않았다면 사용해 보고 싶어질 거예요 🤗
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const webpack = require("webpack");
@@ -176,7 +271,18 @@ module.exports = {
 - 필요한 모듈이나 컴포넌트를 동적으로 로드해야 하는 경우, bundle 크기를 줄이기 위해 코드가 로드되는 시점을 보다 효과적으로 제어하기 위해 동적 import() 구문을 고려해보세요.
 - 불필요한 코드 번들링을 피하기 위해 ProvidePlugin을 적절히 사용하되, 실제로 여러 곳에서 전역 변수 구성이 필요한 모듈에 대해서만 사용하는 것이 좋습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또한, 만약 Vite 프로젝트를 사용 중이라면, ProvidePlugin 기능 대신 vite-plugin-inject를 사용할 수 있습니다.
 
@@ -212,7 +318,18 @@ declare global {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # "대량"의 Typescript 유형 가져오기
 
@@ -222,7 +339,18 @@ TS 프로젝트에서 화면에는 많은 TypeScript 가져오기가 있을 것�
 
 비슷하게, ProvidePlugin처럼 폭발하고 가져오기 문을 직접 제거할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용 예시:
 
@@ -249,7 +377,18 @@ const [user, setUser] = useState<IAccount.IUser|undefined>();
 
 # “Not” making full use of Babel features
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트는 문제를 깨달았습니다. 버전 17 이전에는 JSX의 특성 때문에 각 구성 요소마다 'react'를 명시적으로 가져와야 했습니다. 그러나 그 이후에는 컴파일러에 의해 자동으로 변환되어 'react'를 가져오지 않아도 됩니다. React 17 이전 버전을 사용하고 있다면, Babel을 수정하여 이를 구현할 수 있습니다. 자세한 내용은 공식 React 웹사이트를 참조하십시오. 거기에는 매우 상세한 설명이 제공되며 자동으로 가져오기를 제거하는 스크립트도 제공됩니다.
 
@@ -274,7 +413,18 @@ import MyComponent from '../../../../components/MyComponent';
 import MyComponent from '@components/MyComponent';
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 포맷팅을 설정하실 때 prettier.printWidth를 조정해주세요
    값을 너무 작게 설정하면 줄 바꿈이 자주 일어나서 읽기 어려워질 수 있습니다. 팀 내에서 실제 사용량을 기반으로 120 정도의 값이 적합해 보입니다.
@@ -301,7 +451,18 @@ Vue.component("IMessage", function (resolve) {
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. babel-plugin-import 사용
    babel-plugin-import은 직접적으로 import의 수를 줄이지는 않지만, import 문을 최적화하여 패키지 크기를 줄이고 프로젝트 로딩 성능을 향상시킴으로써 매우 가치 있는 최적화 기술입니다. 큰 제3자 라이브러리를 사용하는 프로젝트에 매우 유용합니다.
@@ -330,7 +491,18 @@ import Button from "@arco-design/web-react/es/button";
 import "@arco-design/web-react/es/button/style/css.js"; // style 설정이 true일 경우
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 끝에서
 

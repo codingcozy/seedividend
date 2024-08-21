@@ -3,15 +3,13 @@ title: "비동기 자바스크립트 완전 정복 개념, 작동 방식, 실용
 description: ""
 coverImage: "/assets/img/2024-07-09-ExploringAsynchronousJavaScriptConceptsHowItWorksandPracticalExamples_0.png"
 date: 2024-07-09 08:57
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-ExploringAsynchronousJavaScriptConceptsHowItWorksandPracticalExamples_0.png
 tag: Tech
 originalTitle: "Exploring Asynchronous JavaScript: Concepts, How It Works, and Practical Examples"
 link: "https://medium.com/@rajataha062/exploring-asynchronous-javascript-concepts-how-it-works-and-practical-examples-ea35dcd5b0d6"
 isUpdated: true
 ---
-
-
 
 현대 웹 개발에서 비동기 JavaScript는 기본적인 개념으로, 서버에서 데이터를 가져오거나 코드 실행을 지연시키면서 전체 응용 프로그램이 멈추지 않게 하는 것을 가능하게 합니다. 이 기사에서는 비동기 JavaScript의 핵심 개념, 작동 방식, GitHub 프로필 웹사이트와 같은 프로젝트에서 얻은 통찰을 포함한 실용적인 예제를 살펴볼 것입니다.
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 동기 vs. 비동기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 동기 프로그래밍에서는 작업이 하나씩 순차적으로 실행되며, 현재 작업이 완료될 때까지 다음 작업의 실행이 차단됩니다. 이는 네트워크 요청과 같이 시간이 오래 걸리는 작업을 처리할 때 비효율적일 수 있습니다.
 
@@ -54,7 +63,18 @@ setTimeout(() => {
 console.log("실행 계속...");
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Callback 함수
 
@@ -76,7 +96,18 @@ console.log("실행 계속 중...");
 
 Promises
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 약속은 비동기 작업을 처리하는 더 견고한 방법을 제공하며, 지금 사용 가능하거나 미래에 사용 가능하거나 아예 사용할 수 없는 값을 나타냅니다. 약속은 대기 중(pending), 이행(fulfilled), 또는 거부된(rejected) 상태 중 하나에 있을 수 있습니다.
 
@@ -104,7 +135,18 @@ console.log("실행 계속됨...");
 
 ES2017에서 소개된 비동기/대기는 동기식으로 비동기 코드를 작성할 수 있게 해주어 코드를 더 읽기 쉽고 디버그하기 쉽게 만듭니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 function fetchData() {
@@ -131,7 +173,18 @@ console.log("Continuing execution...");
 
 GitHub 프로필 데이터 가져오기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 유저의 GitHub 프로필 정보를 표시해야 하는 프로젝트에서는 GitHub API에서 데이터를 비동기적으로 가져올 수 있습니다.
 
@@ -165,7 +218,18 @@ getGitHubProfile("octocat");
 
 또한 리포지토리를 가져오고 프로필 세부 정보를 동시에 가져와야 하는 경우도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 async function getGitHubData(username) {

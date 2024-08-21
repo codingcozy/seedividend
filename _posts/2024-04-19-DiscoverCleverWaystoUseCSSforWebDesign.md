@@ -3,17 +3,13 @@ title: "CSS를 사용해 웹사이트를 만드는 똑똑한 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Discover Clever Ways to Use CSS for Web Design"
 link: "https://medium.com/adl-blog/discover-clever-ways-to-use-css-for-web-design-6b1a3b9f776a"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/DiscoverCleverWaystoUseCSSforWebDesign_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 shape-outside는 기하학적 모양을 설정하여 주변에 텍스트가 부유할 수 있는 텍스트 영역을 생성할 수 있는 CSS 속성입니다. 웹 페이지에서 기하학적 모양을 사용하며 텍스트가 해당 모양 주변에 동적으로 감싸지도록 하려는 경우 도움이 될 수 있습니다. 아래는 샘플 코드 스니펫과 출력물입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .circle{
@@ -39,7 +46,18 @@ shape-outside는 기하학적 모양을 설정하여 주변에 텍스트가 부�
 
 가끔 이미지가 주어진 너비에 맞게 비례적으로 크기를 조정해야 할 때가 있습니다. 이를 쉽게 구현하는 방법 중 하나는 최대 너비를 사용하는 것입니다. 아래는 이를 처리하는 간단한 코드 스니펫입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 img {
@@ -56,7 +74,18 @@ img {
 position: absolute;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/DiscoverCleverWaystoUseCSSforWebDesign_2.png" />
 
@@ -75,7 +104,18 @@ position: absolute;
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 5. 모든 스타일 덮어씌우기
 
@@ -87,7 +127,18 @@ position: absolute;
 
 ## 6. 수직 정렬
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 중요한 점은 메뉴 높이와 텍스트 행 높이를 동일하게 유지하는 것입니다. 아래는 코드 스니펫입니다.
 
@@ -102,7 +153,18 @@ position: absolute;
 
 이 기술은 누군가 해당 요소 위로 마우스를 올릴 때 버튼, 텍스트 링크, 사이트 블록, 아이콘 등의 색상을 변경할 수 있는 강조 표시 기술입니다. 아래는 샘플 코드 스니펫과 결과물입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .a h2{
@@ -122,7 +184,18 @@ position: absolute;
 
 모든 사진, 블로그 및 사이드바에 동일한 경계를 설정하려면 정확히 동일한 CSS를 세 번 쓸 필요가 없고 쉼표로 구분된 항목을 나열할 수 있습니다. 아래는 예시입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 .blog,
@@ -143,7 +216,18 @@ h2:before {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 10. 이후
 
@@ -158,7 +242,18 @@ p:after{
 
 ## 11. 드롭 캡
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기사 안에서 첫 번째 큰 글자는 정말 눈에 띕니다, 그렇죠? CSS로도 가상 요소 :first-letter를 사용하여 같은 효과를 낼 수 있어요. 아래는 샘플 코드 스니펫과 출력 결과입니다.
 
@@ -176,7 +271,18 @@ a:first-letter{
 
 ## 12. 텍스트를 모두 대문자, 모두 소문자로 또는 대문자로 강제로 변경하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 CSS 트릭을 사용하면 특정 유형의 텍스트를 특정 케이스로 강제할 수 있어요. 대문자, 소문자 또는 대문자로 변환하는 예제가 아래에 있어요.
 
@@ -198,7 +304,18 @@ h2 {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 13. 링크
 

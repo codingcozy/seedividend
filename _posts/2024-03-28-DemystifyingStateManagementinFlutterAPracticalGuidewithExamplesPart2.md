@@ -3,17 +3,13 @@ title: "플러터에서의 상태 관리 실제 예제로 알아보는 실용적
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Demystifying State Management in Flutter A Practical Guide with Examples Part 2"
 link: "https://medium.com/@mahmoudsaeed395.395/demystifying-state-management-in-flutter-a-practical-guide-with-examples-part-2-a3720ddeeff8"
 isUpdated: true
 ---
-
-
-
-
 
 InheritedWidget 및 Provider: InheritedWidget은 위젯 트리 전체에서 상태를 공유하는 내장 메커니즘입니다. 이를 통해 prop drilling이 필요하지 않고 효율적으로 데이터를 전달할 수 있습니다. 그러나 InheritedWidget을 직접 사용하면 장황하고 복잡할 수 있습니다. Provider 패키지는 InheritedWidget을 내부적으로 사용하여 상태를 관리하고 소비하는 데 대한 고수준 API를 제공하여이 프로세스를 단순화합니다.
 
@@ -34,7 +30,18 @@ class Counter with ChangeNotifier {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 notifyListeners() 메서드는 앱 내의 리스너를 다시 빌드하기 때문에 중요합니다.
 

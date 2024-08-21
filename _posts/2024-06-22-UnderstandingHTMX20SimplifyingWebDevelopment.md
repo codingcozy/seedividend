@@ -3,16 +3,13 @@ title: "HTMX 20 이해하기 웹 개발을 단순화하는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-22-UnderstandingHTMX20SimplifyingWebDevelopment_0.png"
 date: 2024-06-22 15:34
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-UnderstandingHTMX20SimplifyingWebDevelopment_0.png
 tag: Tech
 originalTitle: "Understanding HTMX 2.0: Simplifying Web Development"
 link: "https://medium.com/@jayprakashj/understanding-htmx-2-0-simplifying-web-development-87c56c937ade"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-06-22-UnderstandingHTMX20SimplifyingWebDevelopment_0.png" />
 
@@ -22,7 +19,18 @@ HTMX 2.0 최근 릴리즈로 인해 복잡한 JavaScript 프레임워크를 쉽�
 
 HTMX는 개발자들이 AJAX, CSS 전환, 웹소켓 및 서버-보낸 이벤트에 HTML 속성을 통해 직접 액세스 할 수 있도록 하는 라이브러리입니다. 주요 목표는 상호작용을 HTML에서 직접 처리함으로써 JavaScript의 필요성을 줄이고 웹 개발을 더 간단하게 만드는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## HTMX 2.0의 주요 기능
 
@@ -35,7 +43,18 @@ HTMX는 개발자들이 AJAX, CSS 전환, 웹소켓 및 서버-보낸 이벤트�
 
 HTMX는 요소의 동작을 정의하기 위해 HTML 속성을 이용합니다. 다음은 일반적인 HTMX 속성 몇 가지입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - hx-get: 요소를 트리거했을 때 지정된 URL로 GET 요청을 보냄.
 - hx-post: 지정된 URL로 POST 요청을 보냄.
@@ -69,7 +88,18 @@ HTMX를 활용한 간단한 예시입니다:
 </html>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예에서는 버튼을 클릭하면 /hello로 AJAX GET 요청이 전송됩니다. 서버에서의 응답이 버튼의 내부 HTML을 대체합니다. 이 설정을 통해, AJAX 호출 및 DOM 조작을 처리하기 위한 추가 JavaScript 작성이 필요하지 않습니다.
 
@@ -82,7 +112,18 @@ HTMX를 활용한 간단한 예시입니다:
 
 ## Laravel과의 통합
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 HTMX를 Laravel 애플리케이션에 신속하게 통합하여 동적 동작을 개선할 수 있습니다. 상당한 복잡성을 추가하지 않고 사용할 수 있어요. 아래는 Laravel 프로젝트에 HTMX를 설정하는 방법에 대한 간략한 개요입니다:
 
@@ -94,7 +135,18 @@ HTMX를 Laravel 애플리케이션에 신속하게 통합하여 동적 동작을
 
 다음은 Laravel에서 HTMX를 사용하는 예시입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Blade Template (resources/views/welcome.blade.php)
 
@@ -122,7 +174,18 @@ Route::get('/getData', function () {
 })->name('getData');
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 설정은 버튼 클릭이 AJAX 요청을 트리거하여 Laravel 라우트에 전달하고 응답이 추가 JavaScript를 작성하지 않고 div의 내용을 업데이트하는 방법을 보여줍니다.
 

@@ -3,7 +3,7 @@ title: "Java Records VS Lombok의 Data 어노테이션 최신 비교"
 description: ""
 coverImage: "/assets/img/2024-08-13-JavaRecordsVSLomboksDataAnnotation_0.png"
 date: 2024-08-13 11:41
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-13-JavaRecordsVSLomboksDataAnnotation_0.png
 tag: Tech
 originalTitle: "Java Records VS Lomboks Data Annotation"
@@ -11,7 +11,6 @@ link: "https://medium.com/@ahmed.abdelfaheem/java-records-vs-lomboks-data-annota
 isUpdated: true
 updatedAt: 1723864020810
 ---
-
 
 <img src="/assets/img/2024-08-13-JavaRecordsVSLomboksDataAnnotation_0.png" />
 
@@ -21,7 +20,18 @@ JDK 14에서 소개된 Java Records는 JDK 16에서 표준화되었으며 불변
 
 ## Java Records: 새로운 데이터 클래스 시대
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Java Records는 JDK 14에서 미리보기 기능으로 소개되었으며 JDK 16에서 표준 기능이 되었습니다. Java Records는 변경할 수 없는 데이터를 보유하기 위해 설계된 Java의 특별한 종류의 클래스입니다. 기본적으로 레코드는 생성자, 접근자 메서드 (getX()), 그리고 equals(), hashCode(), toString()의 구현을 자동으로 생성합니다.
 
@@ -29,9 +39,20 @@ Java Records는 JDK 14에서 미리보기 기능으로 소개되었으며 JDK 16
 
 불변 데이터: 레코드 내의 필드는 final로 선언되어 객체 생성 후에 변경할 수 없습니다. 이는 레코드가 본질적으로 스레드 안전하게 만듭니다.
 
-메서드의 자동 생성: 레코드를 선언하면 Java 컴파일러가 자동으로 다음을 생성합니다:**
+메서드의 자동 생성: 레코드를 선언하면 Java 컴파일러가 자동으로 다음을 생성합니다:\*\*
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 모든 필드를 위한 생성자입니다.
 - equals(), hashCode(), toString() 메서드입니다.
@@ -47,7 +68,18 @@ public record Person(String name, int age) {
 
 위 예시에서 Person은 이름과 나이 두 가지 필드를 가진 레코드입니다. Java는 이 레코드가 기능적이게 하기 위해 필요한 메서드를 자동으로 생성하여 데이터 변경 불가성과 깨끗한 코드에 초점을 맞춥니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기록 사용 예:
 
@@ -56,11 +88,11 @@ public class Main {
     public static void main(String[] args) {
         Person person1 = new Person("Alice", 30);
         Person person2 = new Person("Alice", 30);
-        
+
         System.out.println(person1.name()); // 출력: Alice
         System.out.println(person1.age());  // 출력: 30
         System.out.println(person1);        // 출력: Person[name=Alice, age=30]
-        
+
         System.out.println(person1.equals(person2)); // 출력: true
     }
 }
@@ -70,7 +102,18 @@ public class Main {
 
 ## 롬복의 @Data: 클래식한 접근법
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자바 레코드가 소개되기 전에 Lombok은 (지금도) 자바에서 보일러플레이트 코드를 줄이는 인기 있는 도구였습니다. @Data 주석은 클래스에 대한 모든 보일러플레이트 코드를 자동으로 생성하는 강력한 Lombok 기능으로, getters, setters, equals(), hashCode(), 그리고 toString() 메서드를 포함합니다.
 
@@ -82,7 +125,18 @@ Lombok @Data의 주요 기능:
 
 예시:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 import lombok.Data;
@@ -91,7 +145,7 @@ import lombok.Data;
 public class Person {
     private String name;
     private int age;
-    
+
     // Additional methods or overrides can be added here if needed
 }
 ```
@@ -114,9 +168,9 @@ public class Main {
         System.out.println(person1.getName()); // 결과: Bob
         System.out.println(person1.getAge());  // 결과: 25
         System.out.println(person1);           // 결과: Person(name=Bob, age=25)
-        
+
         System.out.println(person1.equals(person2)); // 결과: true
-        
+
         // 가변성을 보여주기 위한 예시
         person1.setAge(26);
         System.out.println(person1.getAge()); // 결과: 26
@@ -124,7 +178,18 @@ public class Main {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 Person 클래스는 가변이며 객체 생성 후에 필드를 수정할 수 있습니다. 롬복의 @Data는 필요한 메서드를 자동으로 생성하여 객체 상태를 쉽게 조작할 수 있게 합니다.
 
@@ -135,7 +200,18 @@ public class Main {
 - Java 레코드: 레코드는 불변으로 설계되어 있어서 한 번 객체가 생성되면 상태를 변경할 수 없습니다. 이는 데이터 무결성과 스레드 안전성이 중요한 시나리오에 이상적입니다.
 - 롬복 @Data: @Data로 주석이 달린 클래스는 가변이며, 객체 생성 후에 객체 상태를 변경할 수 있습니다. 이는 객체가 시간이 지남에 따라 발전해야 하는 상황에 유용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 보일러플레이트 감소:
 
@@ -146,7 +222,18 @@ public class Main {
 - Java 레코드: 맞춤화 측면에서 유연성이 떨어집니다. 데이터 저장 이상에 사용자 정의 동작이 필요한 경우, 레코드는 제한적일 수 있습니다.
 - 롬복 @Data: 더 많은 유연성을 제공합니다. 쉽게 메소드를 추가하거나 생성된 메소드를 오버라이드할 수 있어, 추가 로직이 필요한 복잡한 클래스에 더 적합합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 상속:
 
@@ -158,7 +245,18 @@ public class Main {
 - Java Records: 적어도 JDK 14가 필요하며, 전체 지원은 JDK 16부터 제공됩니다. 이전 Java 버전과의 호환성을 유지해야 하는 프로젝트에는 레코드가 적합하지 않을 수 있습니다.
 - Lombok @Data: JDK 6부터 옛 버전의 Java와 함께 작동하므로, 이전 Java 버전을 사용하거나 최신 Java 버전으로 마이그레이션하지 않은 레거시 시스템 또는 프로젝트에 더 나은 선택일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Java Records와 Lombok의 @Data를 과도하게 사용하는 것의 잠재적 단점
 
@@ -169,7 +267,18 @@ Java Records와 Lombok의 @Data 주석 모두 강력한 도구이지만 주의�
 - Java Records: 특히 복잡한 데이터 구조에 과도하게 사용하는 경우, records는 데이터 관리 뒤에 있는 로직을 숨기는 코드로 이어질 수 있습니다. 간결한 구문은 사용자 지정 메서드가 추가되거나 개발자들이 레코드를 익숙하지 않을 때 다른 개발자들이 코드의 구조와 동작을 이해하기 어렵게 만들 수 있습니다.
 - Lombok @Data: 메서드의 자동 생성은 클래스의 기본 동작을 가려줄 수 있습니다. 중요한 비즈니스 로직이 있는 클래스에 @Data가 적용되면 문제를 추적하거나 데이터가 어떻게 조작되는지 이해하는 것이 어려울 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 복합 객체에 대한 부적절한 사용:
 
@@ -181,7 +290,18 @@ Java Records와 Lombok의 @Data 주석 모두 강력한 도구이지만 주의�
 - Java Records: 레코드는 일반적으로 효율적입니다만, equals()와 hashCode()의 자동 구현은 필드가 많거나 복잡한 데이터 유형의 클래스에게 최적이 아닐 수 있습니다. 성능에 중요한 응용 프로그램에서 기본 구현에 의존하는 것은 효율성을 떨어뜨릴 수 있습니다.
 - Lombok @Data: 레코드와 유사하게, equals()와 hashCode()의 자동 생성은 대규모 클래스에 대해 가장 효율적이지 않을 수 있습니다. 또한 자동 setters는 동시 애플리케이션에서 의도하지 않은 부작용을 일으켜 잠재적인 데이터 불일치 문제를 유발할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 자동화에 대한 과도한 의존:
 
@@ -192,6 +312,17 @@ Java Records와 Lombok의 @Data 주석 모두 강력한 도구이지만 주의�
 
 Java Records와 Lombok의 @Data 주석은 Java에서 보일러플레이트 코드를 줄이고 데이터 클래스의 생성을 간단화하는 데 상당한 이점을 제공합니다. 그러나 강력한 도구이기 때문에 신중하게 사용해야 합니다. 응용프로그램의 특정 요구 사항을 고려하지 않고 어느 기능을 과도하게 사용하는 경우, 가독성이 저하되거나 복잡한 사용 사례에 부적절한 적용, 그리고 잠재적인 성능 문제와 같은 숨겨진 함정으로 이어질 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 기능을 신중히 고려하여 개발자는 Java Records와 Lombok의 @Data의 장점을 활용하면서 잠재적인 단점을 피할 수 있습니다. 불변성과 간결함을 위해 레코드를 선택하든, 유연성과 가변성을 위해 Lombok을 선택하든, 중요한 것은 이러한 도구를 분별해서 적용하는 것입니다. 애플리케이션의 아키텍처와 요구 사항의 전반적인 맥락을 염두에 두면서 이 도구들을 활용하는 것이 중요합니다.

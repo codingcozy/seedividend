@@ -3,17 +3,13 @@ title: "CSS property를 사용해 CSS 변수 타입 지정하기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # CSS @property를 사용해 CSS 변수 타입 지정하기
 
@@ -21,7 +17,18 @@ isUpdated: true
 
 CSS에서 `@property`는 사용자가 자신만의 CSS 속성을 정의할 수 있는 기능을 제공합니다. 이를 통해 개발자는 원하는 스타일 속성을 직접 만들어 사용할 수 있게 되며, 이는 코드의 모듈성과 재사용성을 향상시키는 데 도움이 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 #### @property의 역할과 중요성
 
@@ -39,7 +46,18 @@ CSS `@property`는 사용자 정의 CSS 속성을 정의하는 데 사용됩니�
 
 `@property` 지시자는 사용자가 정의한 CSS 속성을 선언하는 역할을 합니다. 이 지시자를 사용하여 새로운 속성을 만들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 @property --custom-property-name {
@@ -65,7 +83,18 @@ CSS `@property`는 사용자 정의 CSS 속성을 정의하는 데 사용됩니�
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - `syntax`: 사용자 정의 속성의 유형을 지정합니다. 예를 들어 `<length>`, `<color>` 등이 될 수 있습니다.
 - `inherits`: 해당 속성이 부모 요소로부터 상속되는지 여부를 지정합니다. 기본값은 `true`입니다.
@@ -81,7 +110,18 @@ CSS `@property`는 사용자 정의 CSS 속성을 정의하는 데 사용됩니�
 
 `@property`를 사용하여 사용자 정의 CSS 속성을 정의하고, 이를 활용할 수 있습니다. 이것은 주로 프로젝트의 특정 요구에 따라 스타일을 유연하게 조정하고 재사용하기 위해 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 @property --primary-color {
@@ -134,7 +174,18 @@ CSS `@property`는 사용자 정의 CSS 속성을 정의하는 데 사용됩니�
 
 `@property`는 다양한 장점과 활용 사례를 가지고 있습니다. 이를 통해 CSS 변수와의 관계를 이해하고, 코드의 가독성을 향상시키며, 컴포넌트 기반 디자인에서의 활용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 #### 1. CSS 변수와의 관계
 
@@ -158,7 +209,18 @@ CSS `@property`는 사용자 정의 CSS 속성을 정의하는 데 사용됩니�
 
 사용자 정의 테마를 적용할 때, `@property`를 사용하여 테마 색상을 정의하고 이를 컴포넌트에 적용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 @property --theme-color;
@@ -188,7 +250,18 @@ CSS `@property`는 사용자 정의 CSS 속성을 정의하는 데 사용됩니�
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 #### 3. 애니메이션과 효과 적용하기
 
@@ -233,7 +306,18 @@ CSS `@property`는 사용자 정의 CSS 속성을 정의하는 데 사용됩니�
 
 위의 주의사항과 유의점을 고려하여 `@property`를 사용하면 프로젝트의 스타일링을 보다 유연하게 관리할 수 있으며, 코드의 가독성과 유지보수성을 향상시킬 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 결론
 

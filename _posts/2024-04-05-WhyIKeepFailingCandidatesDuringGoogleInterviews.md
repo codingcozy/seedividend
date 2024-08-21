@@ -3,17 +3,13 @@ title: "Google 면접 중 후보자들이 대답 못하는 질문들 "
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Why I Keep Failing Candidates During Google Interviews"
 link: "https://medium.com/gitconnected/why-i-keep-failing-candidates-during-google-interviews-dc8f865b2c19"
 isUpdated: true
 ---
-
-
-
-
 
 그들은 기준에 미치지 못해요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 데이터 구조를 모르는 것이 후보자를 탈락시키는 가장 큰 이유는 아니에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 들어가기 전에 현재 인터뷰 과정이 어떻게 이루어지는지 살펴보겠습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 신입사원이라면, 코딩 문제를 해결하는 온라인 평가를 받게 될 것입니다. 어떤 언어를 사용하더라도 괜찮습니다. 이 스크린에서 얼마나 잘 하는지는 나중 인터뷰 단계에서 제안을 받을 가능성에 영향을 미치지 않을 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 화면이 테스트하고 있는 것은 하나입니다:
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 ![이미지](/assets/img/WhyIKeepFailingCandidatesDuringGoogleInterviews_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 구글의 전화면 검색은 현장 면접 중 하나를 대표합니다. 지원자는 구글 음성 채팅에 참여하고 구글 IDE에서 코딩 문제를 해결할 것입니다.
 
@@ -54,7 +83,18 @@ isUpdated: true
 - 두 번째 기회를 줄 수 있습니다. 인사 담당자에게 요청하고 왜 다시 기회를 받아야 하는지 또는 코딩 기술을 모두 표현하지 못했는지 설명하세요.
 - 최소 12개월 이상 다시 지원하기 위해 기다려야 할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현장 면접까지 도달하면 후보자는 진지한 면접을 준비해야 합니다.
 
@@ -64,7 +104,18 @@ isUpdated: true
 
 Google의 현장 면접에 합격하는 것은 그 자체로 흔치 않은 성취입니다. 이 정도로 도달하는 소수의 후보자들을 위해 여기 알아두어야 할 사항들입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 후보자가 어떻게 코드를 작성하는지 아주 잘 알려져 있습니다.
 - 각 면접마다 다양한 시나리오와 상황을 평가받을 수 있습니다.
@@ -75,7 +126,18 @@ Google의 현장 면접에 합격하는 것은 그 자체로 흔치 않은 성�
 
 코딩 인터뷰에서 종종 잘못되는 부분은 다음과 같습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 코딩 면접에서 범하는 실수들
 
@@ -85,7 +147,18 @@ Google의 현장 면접에 합격하는 것은 그 자체로 흔치 않은 성�
 
 후보자들은 문제 제시와 동시에 추가 질문을 하지 않고 문제에 즉시 뛰어 들기 마련입니다. 인터뷰어가 그들을 바로 잡아줄 수도 있지만, 그렇지 않은 경우 후보자는 스스로 잘못된 문제를 해결하고 있다는 것을 알아차리지 못할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 중요하지 않은 세부 사항에 집중하기
 
@@ -95,7 +168,18 @@ Google의 현장 면접에 합격하는 것은 그 자체로 흔치 않은 성�
 
 지원자들이 멈추어 버릴 수 있고 면접관들도 이를 알고 있습니다. 지원자가 해야 하는 것은 무슨 질문을 해야 하는지 알고, 소리를 내며 생각을 공유하고 면접관의 의견을 수용하는 것입니다. 대부분의 지원자들은 침묵에 잠겨 있는데, 대부분은 코딩 면접 중에 어떻게 소통해야 하는지 가르치는 사람이 없어서 그렇습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 코드가 작성되었을 때
 
@@ -105,7 +189,18 @@ Google의 현장 면접에 합격하는 것은 그 자체로 흔치 않은 성�
 
 후보자에게 알고리즘의 실행 시간에 대해 묻는 것은 필수입니다. 대부분은 그냥 O(n)이나 O(nlogn)이라고 말할 것입니다. 이에 대해 설명이 없습니다. 더 좋은 후보자들은 그 이유를 설명하는 사람들입니다. 그리고 가장 좋은 사람들은 코드의 다른 부분들의 실행 시간을 설명하고 병목이 어디에 있는지 이유를 설명하는 후보자들입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 마무리
 

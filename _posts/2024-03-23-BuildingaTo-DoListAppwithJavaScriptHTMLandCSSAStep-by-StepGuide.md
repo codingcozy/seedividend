@@ -3,17 +3,13 @@ title: "JavaScript, HTML, CSS로 Todolist 앱 만들기(코드 있음)"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Building a To-Do List App with JavaScript, HTML, and CSS, A Step-by-Step Guide"
 link: "https://medium.com/@jangacharysri/building-a-to-do-list-app-with-javascript-html-and-css-a-step-by-step-guide-4103d5d9402f"
 isUpdated: true
 ---
-
-
-
-
 
 ![Building a To-Do List App with JavaScript, HTML, and CSS: A Step-by-Step Guide](/assets/img/Building-a-To-Do-List-App-with-JavaScript-HTML-and-CSS-A-Step-by-Step-Guide._0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 할 일 목록 앱은 작업을 조직화하고 시간을 효율적으로 관리하는 인기있는 도구입니다. 기본적인 웹 기술을 사용하여 처음부터 만들어보는 것은 JavaScript가 HTML 및 CSS와 상호 작용하여 동적 웹 애플리케이션을 만드는 방법을 이해하는 좋은 방법입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # HTML 구조
 
@@ -59,7 +66,18 @@ index.html
 </html>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # CSS 스타일링
 
@@ -136,7 +154,18 @@ body {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # JavaScript 기능
 
@@ -175,7 +204,18 @@ document.querySelector("#to_do_add_btn").addEventListener("click", () => {
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 자바스크립트 코드 설명
 
@@ -190,7 +230,18 @@ document.querySelector("#to_do_add_btn").addEventListener("click", () => {});
 - "완료" 및 "삭제" span에 이벤트 리스너를 추가하여 각각 항목을 완료 표시하고 삭제하는 작업을 처리합니다.
 - 마지막으로 새로운 목록 항목을 할 일 목록 (#to_do_list)에 추가하고 입력 필드를 재설정합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 소스 코드
 
@@ -200,6 +251,17 @@ document.querySelector("#to_do_add_btn").addEventListener("click", () => {});
 
 # 최종 생각
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 할 일 목록 앱을 만드는 것은 JavaScript, HTML, CSS 기술을 연습하기에 좋은 연습입니다. 이 자습서를 따라가면서 사용자 입력 처리, DOM을 동적으로 업데이트하는 방법, 인터페이스 스타일링 등 기본적인 할 일 목록 앱을 만드는 방법을 배웠습니다. 계속해서 새로운 기능을 추가하고 실험하여 웹 개발 기술을 더욱 향상시키세요.

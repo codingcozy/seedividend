@@ -3,15 +3,13 @@ title: "플러터에서의 마이크로 프론트엔드 모듈화 응용 프로�
 description: ""
 coverImage: "/assets/img/2024-05-27-MicroFrontendsinFlutterModularizationApplication-Part2_0.png"
 date: 2024-05-27 19:17
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-MicroFrontendsinFlutterModularizationApplication-Part2_0.png
 tag: Tech
 originalTitle: "Micro Frontends in Flutter: Modularization Application -Part 2"
 link: "https://medium.com/@tungnd.dev/micro-frontends-in-flutter-modularization-application-part-2-e15c72ca2555"
 isUpdated: true
 ---
-
-
 
 이전 부분에서는 장단점을 논의하고 구현해야 할 아이디어를 기록했습니다. 이 기사를 처음으로 본 독자들도 있을 것이므로, 우선 part 1을 읽어보세요. 물론, 다시 언급해야 할 부분이 있어요. 시작하기 전에 모두 완료해야 할 체크리스트가 있는지 확인하세요.
 
@@ -22,7 +20,18 @@ isUpdated: true
 이번 파트에서 (마지막인지는 확실하지 않아요 😀), 전통적인 템플릿에 따라 프로젝트를 모듈화해 보겠습니다. 여기에 간단한 프로젝트를 만들었습니다. 로그인 및 홈 화면이 있고 목록보기가 딸려 있는 Clean Architecture를 따릅니다.
 말만 하는 것보다는 코드를 보여줘! 라는 '하드코더'들을 위해, 이번 모듈화 후 프로젝트의 전체 소스 코드입니다. 이 기사를 읽은 후에 먼저 확인해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="https://miro.medium.com/v2/resize:fit:960/1*xv3Fj652XewSzSdgdXmniw.gif" />
 
@@ -44,7 +53,18 @@ scripts:
 
 위와 같은 구성이 필요하므로, melos bootstrap을 실행하여 모든 패키지 내의 종속성을 가져올 수 있고, melos gen-l10n을 실행하여 언어 파일을 생성할 수 있습니다. 아주 쉽죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. UI 모듈
 
@@ -57,7 +77,18 @@ scripts:
 - 너무 복잡한 로직이 아니라 UI 요소만 존재합니다.
 - 각 카테고리(대화 상자, 목록보기 등)에 대해 모든 구체적 요소를 내보내는 내보내기 파일이 있어야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 export 'grid_view_load_more.dart';
@@ -71,7 +102,18 @@ export 'list_view_load_more.dart';
 
 3. Core Module
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-05-27-MicroFrontendsinFlutterModularizationApplication-Part2_2.png)
 
@@ -84,7 +126,18 @@ export 'list_view_load_more.dart';
 
 ![이미지](/assets/img/2024-05-27-MicroFrontendsinFlutterModularizationApplication-Part2_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. 주요 애플리케이션
    주요 애플리케이션으로 돌아갑니다. UI 모듈에서 말했듯이, MaterialApp에 localizationsDelegates 및 테마를 추가해야 합니다. 이것이 앱 구성에 관한 전부입니다. 임시로 빈 Splash 화면과 홈 화면을 만듭니다. 기능 모듈을 몇 개 개발하고 그것에 추가할 것입니다.
@@ -94,7 +147,18 @@ export 'list_view_load_more.dart';
 5. 인증 모듈
    의존성은 Auth.start(context)를 호출하면 됩니다. 그런 다음 다음 비즈니스를 위한 결과를 얻습니다. 로그인, 등록, 비밀번호 재설정, OTP 등과 같은 모든 로직 또는 UI 페이지는 이 모듈에서 구현될 것입니다. 이것이 놀랍군요. 주요 앱은 인증에 대한 어떤 로직도 알지 못했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 보시다시피, 리포지토리, 클라이언트 또는 유스케이스와 같은 각 클래스/파일에 auth 접두사를 추가할 필요가 없습니다.
 - 세션 관리, 액세스 토큰 저장, 리프레시 토큰과 같은 것은 이 모듈 안에서만 구현했습니다.
@@ -129,7 +193,18 @@ export 'list_view_load_more.dart';
 
 메인 애플리케이션의 스플래시 화면으로 돌아와서, auth 함수를 호출하기만 하면 됩니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 class SplashController extends BaseController {
@@ -153,7 +228,18 @@ void _goToHome() {
 
 ![이미지](/assets/img/2024-05-27-MicroFrontendsinFlutterModularizationApplication-Part2_5.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 데모에서는 홈 화면용 HomeProductWidget을 export해야 합니다. 이 모듈에 대해 이전 모듈을 알고 있다면 더 이상 언급할 것이 없습니다. 홈 화면 안에서 다음과 같이 호출하기만 하면 됩니다:
 
@@ -174,7 +260,18 @@ class HomeScreen extends StatelessWidget {
 
 모듈화된 프로젝트의 전체 소스 코드입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

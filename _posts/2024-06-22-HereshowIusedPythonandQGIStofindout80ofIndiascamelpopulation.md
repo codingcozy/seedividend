@@ -3,7 +3,7 @@ title: "파이썬과 QGIS로 인도의 낙타 80 찾는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-22-HereshowIusedPythonandQGIStofindout80ofIndiascamelpopulation_0.png"
 date: 2024-06-22 02:56
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-HereshowIusedPythonandQGIStofindout80ofIndiascamelpopulation_0.png
 tag: Tech
 originalTitle: "Here’s how I used Python and QGIS to find out 80% of India’s camel population."
@@ -11,18 +11,26 @@ link: "https://medium.com/@chaayushmalik/heres-how-i-used-python-and-qgis-to-fin
 isUpdated: true
 ---
 
-
-
-
 ## 파이썬 자동화
 
-"안녕 Aayush, 내가 인도의 저소득 농촌 여성들을 위한 낙타 기반 생계 개선에 집중해야 할 곳을 알고 싶어", 라는 요구가 왔어요. 라자스탄 출신인 내 친구가 말했어요. 그녀는 라자스탄의 사막 지역이 정답일 것이라고 알고 있었지만, 직감을 뒷받침할 공식 자료가 필요했어요. 그래서 제가 나서서 이 정보를 찾기로 했어요. 
+"안녕 Aayush, 내가 인도의 저소득 농촌 여성들을 위한 낙타 기반 생계 개선에 집중해야 할 곳을 알고 싶어", 라는 요구가 왔어요. 라자스탄 출신인 내 친구가 말했어요. 그녀는 라자스탄의 사막 지역이 정답일 것이라고 알고 있었지만, 직감을 뒷받침할 공식 자료가 필요했어요. 그래서 제가 나서서 이 정보를 찾기로 했어요.
 
 ## 단계 1
 
 인도 정부의 데이터 제공 플랫폼인 data.gov.in 에서 2019년 20번째 가축 조사 자료 시트 제2020년 승업부와 가축전문부, 수산부, 가축전문부의 자료를 찾아보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 2
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 Postman에 URL을 게시하고 해당하는 Python 요청 코드를 가져와서 응답을 구문 분석하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 4
 
@@ -77,7 +96,18 @@ for row in rows:
     urls.append(url)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최종 출력물은 CSV를 얻기 위해 구문 분석한 URL 목록입니다.
 
@@ -87,7 +117,18 @@ for row in rows:
 
 모든 파일을 다운로드하여 연결하여 최종 데이터 프레임을 얻었습니다. 그 후에는 80%의 기준점을 사용하여 낙타 인구의 80%를 보유한 지역을 파악했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 save_directory = './csv_files/'
@@ -140,22 +181,32 @@ print(f"결합된 CSV가 저장되었습니다: {combined_csv_path}")
 ```
 
 ```js
-df['camel'] = pd.to_numeric(df['camel'], errors='coerce')
-df_sorted = df.sort_values(by='camel', ascending=False).reset_index(drop=True)
-df_sorted['cumulative_sum'] = df_sorted['camel'].cumsum()
-total_camels = df_sorted['camel'].sum()
-threshold = 0.8 * total_camels
-df_sorted['cumulative_percentage'] = df_sorted['cumulative_sum'] / total_camels
-districts_80_percent = df_sorted[df_sorted['cumulative_percentage'] <= 0.8]
-print(districts_80_percent[['state_name','district_name', 'camel', 'cumulative_sum', 'cumulative_percentage']])
+df["camel"] = pd.to_numeric(df["camel"], (errors = "coerce"));
+df_sorted = df.sort_values((by = "camel"), (ascending = False)).reset_index((drop = True));
+df_sorted["cumulative_sum"] = df_sorted["camel"].cumsum();
+total_camels = df_sorted["camel"].sum();
+threshold = 0.8 * total_camels;
+df_sorted["cumulative_percentage"] = df_sorted["cumulative_sum"] / total_camels;
+districts_80_percent = df_sorted[df_sorted["cumulative_percentage"] <= 0.8];
+print(districts_80_percent[["state_name", "district_name", "camel", "cumulative_sum", "cumulative_percentage"]]);
 ```
 
 <img src="/assets/img/2024-06-22-HereshowIusedPythonandQGIStofindout80ofIndiascamelpopulation_1.png" />
 
 ## 단계 6
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인도의 지구 행정 구역 geojson 파일을 받았어요. 이 파일을 이용하여 18개의 지구를 필터링하는 기능을 만들고, QGIS에서 이를 시각화하며 배경 레이어를 구글 위성 지도로 설정하여 최종 결과물을 얻었어요.
 

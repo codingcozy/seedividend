@@ -3,17 +3,13 @@ title: "우분투에서 텔레그램 봇을 만드는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How to Host a Telegram Bot on Ubuntu A Step-by-Step Guide"
 link: "https://tjtanjin.medium.com/how-to-host-a-telegram-bot-on-ubuntu-a-step-by-step-guide-a38fb8c04f72"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/How-to-Host-a-Telegram-Bot-on-Ubuntu:-A-Step-by-Step-Guide_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 필수 준비물
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리의 학습 여정을 시작하기 전에, 다음 항목에 대해 알고 있다는 가정하에 이 가이드를 따라오시기 바랍니다:
 
@@ -36,7 +43,18 @@ isUpdated: true
 
 # 서버 설정
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 학습 여정을 시작하려면 DigitalOcean이나 OVH와 같은 클라우드 제공업체에서 VPS (가상 사설 서버)를 프로비저닝해야 합니다. 우리가 텔레그램 봇을 호스팅하고 있기 때문에 호스팅할 프로젝트가 준비되어 있어야 합니다. 그렇지 않다면 걱정하지 마세요! 이 가이드의 나머지 부분을 진행하기 위해 본인이 게시한 프로젝트를 클론하고 활용할 수 있습니다.
 
@@ -48,7 +66,18 @@ ssh root@172.1.1.1
 
 서버에 로그인하려면 클라우드 제공업체가 제공한 root 암호를 입력해야합니다. 로그인 후에는 다음 명령을 실행하여 패키지를 업데이트하십시오:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 apt-get update && apt-get upgrade
@@ -62,7 +91,18 @@ apt-get install screen
 
 # 사용자 설정
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 서버 설정이 완료되었지만 우리의 파이썬 프로그램을 루트 계정을 사용하여 실행하는 것은 좋은 생각이 아닙니다. 텔레그램 봇 호스팅을 관리할 새로운 telegrambot 사용자를 만들어 봅시다. 다음 명령을 실행하여 이 새로운 사용자를 만듭니다:
 
@@ -76,7 +116,18 @@ adduser telegrambot
 ssh telegrambot@172.1.1.1
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 프로젝트 설정 및 실행
 
@@ -88,7 +139,18 @@ ssh telegrambot@172.1.1.1
 screen;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 화면을 분리하여 키보드에서 CTRL + A + D를 동시에 누르세요. 그렇게 해야 화면이 종료되는 대신 화면에서 분리됩니다. 화면 목록을 확인하려면 다음 몤령어를 사용할 수 있습니다:
 
@@ -96,7 +158,18 @@ screen;
 screen -ls
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 화면에 다시 연결하려면 다음 명령을 사용하면 됩니다:
 
@@ -108,7 +181,18 @@ screen - r;
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 당신의 텔레그램 봇은 24시간 365일 동안 실행 중이어야 합니다! 가이드는 여러분의 프로젝트 선택에 대해 몇 가지 추정을 했기 때문에 (예: JavaScript 대신 사용), 몇몇 명령어가 약간 다를 수 있습니다.
 

@@ -3,17 +3,13 @@ title: "HTML, CSS, JavaScript로 Tic Tac Toe 게임을 만드는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How to create a Tic Tac Toe game with HTML, CSS, and JavaScript"
 link: "https://medium.com/@canankorkut1/how-to-create-a-tic-tac-toe-with-html-css-and-javascript-10a25fddd356"
 isUpdated: true
 ---
-
-
-
-
 
 저는 HTML, CSS, 그리고 JavaScript 언어로 틱택토 게임을 만들어보려고 합니다. 게임의 종료 상황은 다음과 같을 것입니다:
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ## 틱택토란 무엇이며 게임의 규칙은 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 두 명의 플레이어를 위한 게임입니다.
 - 일반적으로 3x3 보드에서 플레이하지만 더 넓게 플레이할 수도 있습니다. 여기서는 3x3 보드를 기준으로 설명할게요.
@@ -36,7 +43,18 @@ isUpdated: true
 
 ![게임 결과](/assets/img/HowtocreateaTicTacToegamewithHTMLCSSandJavaScript_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코딩을 시작하기 전에, 보통 내가 한 일을 먼저 알려드리고 싶어요. 처음에 게임에 필수적인 것들을 위해 HTML로 코딩을 했어요. 좀 더 아름답게 만들기 위해 CSS로 스타일을 만들었고, 게임을 기능적으로 만들기 위해 JavaScript를 사용했어요. 이제 그것들을 살펴보겠어요.
 
@@ -46,7 +64,18 @@ isUpdated: true
 
 - 게임에 필요한 3\*3 보드를 만들기 위해 id가 board인 div를 생성했어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 게임판의 각 정사각형은 클래스가 "square"인 div로 만들었습니다. 각 정사각형에 대한 id도 만들었습니다.
 
@@ -88,7 +117,18 @@ isUpdated: true
 
 ## CSS:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 페이지의 제목을 가운데에 놨어요.
 
@@ -98,7 +138,18 @@ isUpdated: true
 
 게시판은 9개의 정사각형으로 구성되어 있는데, 이를 만들기 위해 display 속성을 그리드로 설정했어요. Grid 템플릿 열 설정을 사용해서 9개의 프레임을 만들었고, grid-gap 속성으로 격자 사이의 간격을 조정했어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각 사각형에 너비와 높이 속성을 설정했어요. 이들 사각형에 테두리 속성을 추가했구요. 배경 색상도 넣었어요. display 속성을 사용해서 위치를 설정했어요. 사각형 위에 마우스를 올렸을 때 색상이 변경되도록 했어요. 이를 위해 hover 기능을 사용했어요.
 
@@ -159,7 +210,18 @@ h1 {
 
 ## JavaScript:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 JavaScript를 통해 HTML에서 사용하는 요소를 처리하기 위해 HTML DOM 기능을 사용했어요.
 
@@ -169,7 +231,18 @@ HTML 파일에서 id가 board인 div과 class가 square인 div에 접근하기 �
 
 게임을 시작하는데 X가 먼저 시작했기 때문에 players[0]를 currentPlayer 변수에 할당했어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const board = document.getElementById("board");
@@ -190,7 +263,18 @@ board.after(endMessage);
 
 게임의 승리 상태를 배열로 정의했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const winning_combinations = [
@@ -225,7 +309,18 @@ function checkWin(currentPlayer) {
 
 무승부 상태를 확인하는 checkTie 함수도 만들었어요. for 루프를 통해 생성된 모든 프레임의 텍스트를 제어합니다. 이 방법으로 모두 가득 차 있고 승리 상태가 만족되지 않은 경우 함수는 true를 반환합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 function checkTie() {
@@ -252,7 +347,18 @@ function restartButton() {
 
 게임에서 생성된 기능을 확인하기 위해 for 루프에서 사용했습니다. 이 루프에서 각 프레임을 클릭할 때, 특정 조건이 충족되는 경우 endMessage 변수를 사용하여 게임 상태가 화면에 출력됩니다. 저는 addEventListener 메서드를 사용하여 이 작업을 수행했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 for (let i = 0; i < squares.length; i++) {
@@ -360,6 +466,17 @@ function restartButton() {
 
 여기는 소스 코드에 액세스할 수 있는 GitHub 링크입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 틱택토를 HTML, CSS 및 JavaScript를 사용해 단계별로 설명해보았어요. 도움이 되었으면 좋겠네요. 읽어 주셔서 감사합니다.

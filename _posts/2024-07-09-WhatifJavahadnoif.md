@@ -3,16 +3,13 @@ title: "자바에 if문이 없다면 어떻게 할까"
 description: ""
 coverImage: "/assets/img/2024-07-09-WhatifJavahadnoif_0.png"
 date: 2024-07-09 21:17
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-WhatifJavahadnoif_0.png
 tag: Tech
 originalTitle: "What if Java had no if?"
 link: "https://medium.com/@donraab/what-if-java-had-no-if-ea88d90b76c3"
 isUpdated: true
 ---
-
-
-
 
 그게 뭔데?
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 만약 우리가 Java에서 if 문, for 루프, while 문과 같은 것들이 없었다면 Java로 프로그래밍하는 건 정말 어려울 것입니다. 이러한 것들은 우리가 프로그램 내에서 코드가 언제, 어떻게 실행되는지 결정하는 데 도움을 주는 편리한 언어 구성요소입니다. 이것이 프로그램에서의 제어 흐름의 본질입니다. 모든 프로그래밍 언어는 제어 흐름이 발생할 수 있도록 하는 메커니즘을 갖고 있습니다. 대부분의 프로그래밍 언어는 내장된 명령문을 통해 언어 자체에서 제어 흐름 메커니즘을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 코드는 Java에서 기본 제어 흐름 문을 보여줍니다.
 
@@ -52,7 +60,18 @@ public static void main(String[] args)
 
 # 객체와 메서드를 사용한 제어 흐름 모델링
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 작은 말투로 번역을 시작하겠습니다.
 
@@ -64,7 +83,18 @@ Smalltalk에서 제어 구조를 찾는 첫 번째 곳은 Boolean에 대한 클�
 
 Smalltalk의 Boolean 클래스는 and:, or:, ifTrue:, ifFalse:, ifTrue:ifFalse:, ifFalse:ifTrue와 같은 메서드를 정의합니다. 각각의 메서드는 하나 또는 두 개의 블록 매개변수를 사용합니다. Smalltalk의 블록은 리터럴 람다 구문으로 표현할 수 있는 유형입니다. 블록의 기본 구문은 왼쪽에 매개변수를 구분하는 파이프가 있는 대괄호와 오른쪽에 표현식이 있습니다. 블록에 매개변수가 없는 경우 파이프가 없을 것입니다. 다음은 리터럴 블록(람다 또는 클로저로도 알려져 있음)의 예시입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - [] — 값이 nil을 반환하는 빈 블록입니다.
 - [true] — true를 반환하는 인자가 없는 블록입니다.
@@ -78,7 +108,18 @@ Smalltalk에 if 문이 없다면, Boolean의 두 하위 클래스 (True와 False
 
 위 다이어그램에 문서화된 True 및 False 클래스의 메서드를 사용하여 Smalltalk에서 조건부 로직을 수행하는 방법은 다음과 같은 테스트를 통해 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 True에 대한 다양한 결과를 보여주는 테스트입니다.
 
@@ -118,7 +159,18 @@ testFalse
  self assert: (4 > 5 ifFalse: [ true ]).
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 수동 대 액티브 부울린 클래스
 
@@ -126,11 +178,10 @@ testFalse
 
 자바에서 Boolean을 액티브 클래스로 만들 수 있습니다. 실험적으로 새로운 Boolean 봉인 인터페이스를 정의하고 True와 False 구현을 정의했습니다.
 
-
 public sealed interface Boolean permits Boolean.True, Boolean.False
 {
-    Boolean TRUE = new True();
-    Boolean FALSE = new False();
+Boolean TRUE = new True();
+Boolean FALSE = new False();
 
     static Boolean valueOf(boolean value)
     {
@@ -158,14 +209,14 @@ public sealed interface Boolean permits Boolean.True, Boolean.False
     }
 
     default <R> R ifTrueIfFalse(
-            Supplier<R> trueBlock, 
+            Supplier<R> trueBlock,
             Supplier<R> falseBlock)
     {
         return null;
     }
 
     default <R> R ifFalseIfTrue(
-            Supplier<R> falseBlock, 
+            Supplier<R> falseBlock,
             Supplier<R> trueBlock)
     {
         return null;
@@ -174,10 +225,21 @@ public sealed interface Boolean permits Boolean.True, Boolean.False
     final class True implements Boolean {}
 
     final class False implements Boolean {}
+
 }
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 여러분이 아버지 Boolean 인터페이스의 기본 구현을 True 및 False 클래스의 상속되었는 지를 상상하고 더 많은 Supplier 및 Boolean 인스턴스 변수를 사용하여 코드를 명확하게 구현할 수 있는 새로운 Boolean 인터페이스를 사용하는 Control Flow Java 예제를 재구성하려면, 기본 boolean을 Boolean 인터페이스로 변환하는 정적 메서드를 제공해야 했습니다.
 
@@ -211,14 +273,25 @@ public static void main(final String[] args)
     argsGreaterThanOne.ifTrueIfFalse(
             moreThanOneSupplier,
             () -> argsGreaterThanZero.ifTrueIfFalse(
-                    moreThanZeroSupplier, 
+                    moreThanZeroSupplier,
                     noArgumentSupplier));
 }
 ```
 
 활성 Boolean 버전의 코드에서는, Eclipse Collections의 IntInterval을 사용하여 for 루프의 OO 버전을 표현합니다. 활성 Boolean 버전의 코드는 조립 가능하며 모든 것을 명확하게 구획화하여 논리를 이동하기가 쉽습니다. Supplier 인스턴스를 인라인하는 경우 코드는 다음과 같습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 public static void main(final String[] args)
@@ -274,7 +347,18 @@ public static void main(String[] args)
 
 원시 boolean 예제의 코드는 if 문을 사용하여 덜 장황하지만 논리를 옮기려면 복사 및 붙여넣기가 더 필요할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현재 사용 중인 액티브 부울리안 인터페이스의 번잡성은 부분적으로 Smalltalk이 Boolean과 함께 블록을 사용하는 방식과 더 유사한 서플라이어를 선택했기 때문입니다. Smalltalk의 Boolean 메소드는 블록을 사용하여 메소드의 결과로 불리언 표현식을 형성할 수 있습니다. 부울리안 표현식에서 값을 반환하는 데 신경 쓰지 않는다면 메소드를 Runnable을 사용하여 모델링할 수 있습니다.
 
@@ -298,7 +382,18 @@ public static void main(final String[] args)
 
 한 줄의 코드로 각 if 문의 각 브랜치를 덮을 수 있기 때문에 중괄호가 모두 사라집니다. 자바의 람다는 한 줄 람다 표현식에 대해 중괄호를 제거할 수 있게 해줍니다. 이렇게 하면 불필요한 많은 코드 줄이 제거되지만 텍스트 압축 및 자연적인 공백의 손실 때문에 가독성이 일부 저하될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Runnable 인스턴스를 코드에서 변수로 추출하면 다음과 같이 보일 것입니다.
 
@@ -308,7 +403,7 @@ public static void main(final String[] args)
     Boolean argsGreaterThanOne = Boolean.valueOf(args.length > 1);
     Boolean argsGreaterThanZero = Boolean.valueOf(args.length > 0);
 
-    Runnable moreThanOneRunnable = () -> 
+    Runnable moreThanOneRunnable = () ->
             IntInterval.oneTo(Integer.parseInt(args[1]))
                 .forEach(j -> System.out.println(args[0]));
 
@@ -328,7 +423,18 @@ public static void main(final String[] args)
 
 이 블로그는 Java의 true/false와 Smalltalk의 true/false 간의 차이를 간단하게 설명하는 것을 목적으로 했습니다. Java는 프로그램 제어 흐름에 대한 사용자 관리를 위해 언어에서 제공하는 문을 사용합니다. Smalltalk은 동일한 작업을 수행하기 위해 객체, 메서드 및 람다를 사용합니다. 두 접근 방식은 장단점이 있습니다. 합성 가능성과 다소 언급이 서로 충돌할 때가 있습니다. 논리 분기절 내의 메서드를 추출하면 두 가지 접근 방식으로 더 나은 합성 가능성과 덜 불필요한 부분을 얻을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제가 여기서 보여준 활성 부욜안 접근 방식은 Java의 Boolean 클래스에 추가하여 활성 부욜안 객체로 만들 수 있습니다. 이를 통해 Boolean 클래스가 메서드를 통해 제어 흐름을 관리할 수 있게 됩니다. 이 접근 방식의 장점은 현재의 Java 메커니즘인 삼항 표현식을 사용하여 복잡한 if 표현식을 에뮬레이트하고 읽기 쉽게 만드는 것입니다.
 
@@ -338,6 +444,17 @@ public static void main(final String[] args)
 
 읽어 주셔서 감사합니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제가 이클립스 컬렉션 OSS 프로젝트의 창시자이자 기여자입니다. 해당 프로젝트는 Eclipse Foundation에서 관리됩니다. Eclipse Collections는 기여를 환영합니다.

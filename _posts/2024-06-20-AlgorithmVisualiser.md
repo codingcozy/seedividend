@@ -3,16 +3,13 @@ title: "알고리즘 시각화 프로그램"
 description: ""
 coverImage: "/assets/img/2024-06-20-AlgorithmVisualiser_0.png"
 date: 2024-06-20 00:45
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-AlgorithmVisualiser_0.png
 tag: Tech
 originalTitle: "Algorithm Visualiser"
 link: "https://medium.com/@EverusLainus/algorithm-visualiser-608f1f2f7302"
 isUpdated: true
 ---
-
-
-
 
 ## HTML, CSS, 및 JavaScript를 사용한 알고리즘 시각화 도구의 기능 구현
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 본문에서는 이 프로젝트에서 구현한 핵심 기능들을 안내해 드리겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 버블 정렬 비주얼라이저:
 
@@ -30,39 +38,50 @@ isUpdated: true
 
 ```js
 /* 코드베이스에서 발췌한 코드 조각 */
-    for (let i = 0; i < array.length - 1; i++) {
-        for (let j = 0; j < array.length - i - 1; j++) {
-            for (let k = 0; k < bso_bars.length; k++) {
-                if (k !== j && k !== j + 1 && k < l) {
-                    bso_bars[k].style.backgroundColor = "brown";
-                }
-            }
-            if (array[j] > array[j + 1]) {
-                let temp = array[j];
-                array[j] = array[j + 1];
-                array[j + 1] = temp;
-
-                let tempHeight = bso_bars[j].style.height;
-                bso_bars[j].style.height = bso_bars[j + 1].style.height;
-                bso_bars[j + 1].style.height = tempHeight;
-                bso_bars[j].innerHTML = array[j];
-                bso_bars[j + 1].innerHTML = array[j + 1];
-                bso_bars[j].style.backgroundColor = "#feb737";
-                bso_bars[j + 1].style.backgroundColor = "#feb737";
-
-                await sleep(speed);
-            }
-        }
-        l--;
-        bso_bars[l].style.backgroundColor = "#2fb45d";
-
-        await sleep(speed);
+for (let i = 0; i < array.length - 1; i++) {
+  for (let j = 0; j < array.length - i - 1; j++) {
+    for (let k = 0; k < bso_bars.length; k++) {
+      if (k !== j && k !== j + 1 && k < l) {
+        bso_bars[k].style.backgroundColor = "brown";
+      }
     }
+    if (array[j] > array[j + 1]) {
+      let temp = array[j];
+      array[j] = array[j + 1];
+      array[j + 1] = temp;
+
+      let tempHeight = bso_bars[j].style.height;
+      bso_bars[j].style.height = bso_bars[j + 1].style.height;
+      bso_bars[j + 1].style.height = tempHeight;
+      bso_bars[j].innerHTML = array[j];
+      bso_bars[j + 1].innerHTML = array[j + 1];
+      bso_bars[j].style.backgroundColor = "#feb737";
+      bso_bars[j + 1].style.backgroundColor = "#feb737";
+
+      await sleep(speed);
+    }
+  }
+  l--;
+  bso_bars[l].style.backgroundColor = "#2fb45d";
+
+  await sleep(speed);
+}
 ```
 
 비슷한 방식으로 선택 정렬, 병합 정렬, 퀵 정렬의 비주얼라이저도 만들었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 연결 리스트 시각화기:
 
@@ -76,38 +95,46 @@ isUpdated: true
 /* 코드베이스에서의 일부분 */
 
 while (current !== null) {
-            const nodeGroup = svg.append("g")
-                .attr("class", "node")
-                .attr("transform", `translate(${xPos}, ${yPos})`);
+  const nodeGroup = svg.append("g").attr("class", "node").attr("transform", `translate(${xPos}, ${yPos})`);
 
-            nodeGroup.append("circle")
-                .attr("r", nodeRadius)
-                .attr("stroke", "black")
-                .attr("fill", "white")
-                .attr("stroke-width", 2); 
+  nodeGroup
+    .append("circle")
+    .attr("r", nodeRadius)
+    .attr("stroke", "black")
+    .attr("fill", "white")
+    .attr("stroke-width", 2);
 
-            nodeGroup.append("text")
-                .attr("dy", 5)
-                .attr("text-anchor", "middle")
-                .text(current.data);
+  nodeGroup.append("text").attr("dy", 5).attr("text-anchor", "middle").text(current.data);
 
-            if (current.next !== null) {
-                svg.append("line")
-                    .attr("class", "link")
-                    .attr("x1", xPos + nodeRadius)
-                    .attr("y1", yPos)
-                    .attr("x2", xPos + nodeRadius + nodeMargin)
-                    .attr("y2", yPos)
-                    .attr("stroke", "black")
-                    .attr("marker-end", "url(#arrow)");
-            }
-
-            current = current.next;
-            xPos += nodeRadius * 2 + nodeMargin;
+  if (current.next !== null) {
+    svg
+      .append("line")
+      .attr("class", "link")
+      .attr("x1", xPos + nodeRadius)
+      .attr("y1", yPos)
+      .attr("x2", xPos + nodeRadius + nodeMargin)
+      .attr("y2", yPos)
+      .attr("stroke", "black")
+      .attr("marker-end", "url(#arrow)");
   }
+
+  current = current.next;
+  xPos += nodeRadius * 2 + nodeMargin;
+}
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 에라토스테네스의 체
 
@@ -116,46 +143,57 @@ while (current !== null) {
 
 ```js
 /* 코드 기반의 일부 */
- 
+
 for (let i = 1; i < 101; i++) {
-    if (i == 1) {
-        arr[i] = true;
-        var cur = document.getElementById(`idx${i}`);
-        cur.classList.add("current_cell");
-        await sleep(ms);
-        cur.classList.remove("current_cell");
-        cur.classList.add("not_prime")
-        if (flag) {
-            return;
-        }
-        await sleep(ms);
-    } else {
-        if (!arr[i]) {
-            var cur = document.getElementById(`idx${i}`);
-            cur.classList.add("current_cell");
-            await sleep(ms);
-            for (let j = 2; j * i < 101; j++) {
-                var multiples = document.getElementById(`idx${i * j}`);
-                multiples.classList.add("multiple");
-            }
-            await sleep(ms);
-            for (let j = 2; j * i < 101; j++) {
-                var multiples = document.getElementById(`idx${i * j}`);
-                multiples.classList.remove("multiple");
-                arr[i * j] = true;
-                if (flag) {
-                    return;
-                }
-                multiples.classList.add("not_prime");
-            }
-            cur.classList.remove("current_cell");
-        }
+  if (i == 1) {
+    arr[i] = true;
+    var cur = document.getElementById(`idx${i}`);
+    cur.classList.add("current_cell");
+    await sleep(ms);
+    cur.classList.remove("current_cell");
+    cur.classList.add("not_prime");
+    if (flag) {
+      return;
     }
+    await sleep(ms);
+  } else {
+    if (!arr[i]) {
+      var cur = document.getElementById(`idx${i}`);
+      cur.classList.add("current_cell");
+      await sleep(ms);
+      for (let j = 2; j * i < 101; j++) {
+        var multiples = document.getElementById(`idx${i * j}`);
+        multiples.classList.add("multiple");
+      }
+      await sleep(ms);
+      for (let j = 2; j * i < 101; j++) {
+        var multiples = document.getElementById(`idx${i * j}`);
+        multiples.classList.remove("multiple");
+        arr[i * j] = true;
+        if (flag) {
+          return;
+        }
+        multiples.classList.add("not_prime");
+      }
+      cur.classList.remove("current_cell");
+    }
+  }
 }
 ```
 
 참조:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 의견이나 제안이 있으시면 댓글을 남겨주세요.

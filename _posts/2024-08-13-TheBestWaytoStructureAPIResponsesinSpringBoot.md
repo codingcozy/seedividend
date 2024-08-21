@@ -3,7 +3,7 @@ title: "Spring Boot에서 API 응답을 구조화하는 최고의 방법"
 description: ""
 coverImage: "/assets/img/2024-08-13-TheBestWaytoStructureAPIResponsesinSpringBoot_0.png"
 date: 2024-08-13 11:40
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-13-TheBestWaytoStructureAPIResponsesinSpringBoot_0.png
 tag: Tech
 originalTitle: "The Best Way to Structure API Responses in Spring Boot"
@@ -11,7 +11,6 @@ link: "https://medium.com/insights-from-thoughtclan/the-best-way-to-structure-ap
 isUpdated: true
 updatedAt: 1723864062321
 ---
-
 
 <img src="/assets/img/2024-08-13-TheBestWaytoStructureAPIResponsesinSpringBoot_0.png" />
 
@@ -21,7 +20,18 @@ updatedAt: 1723864062321
 
 세부 사항에 들어가기 전에, 잘 구조화된 API 응답을 가지는 것이 중요한 이유에 대해 알아보겠습니다. 일관된 응답 구조:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 클라이언트 사이드 오류 처리가 개선됩니다: 프론트엔드 팀이 감사할 것입니다.
 - 가독성과 유지보수성이 향상됩니다: 미래의 당신(또는 당신의 팀)은 명확함을 감사히 받게 될 것입니다.
@@ -35,7 +45,18 @@ updatedAt: 1723864062321
 - 정보를 제공함: 관련 데이터, 메시지, 상태 코드 및 오류 코드를 포함해야 합니다.
 - 간결함: 해석하고 이해하기 쉽게 하는 것이 중요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 이상적인 응답 구조 만들기
 
@@ -45,7 +66,18 @@ updatedAt: 1723864062321
 
 ## 각 필드 이해:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 성공:
 
@@ -55,11 +87,22 @@ updatedAt: 1723864062321
 
 2. 메시지:
 
-  - 유형: 문자열(String)
-  - 설명: API 호출 결과에 대한 사람이 읽기 쉬운 메시지를 제공합니다.
-  - 사용 이유: 클라이언트에게 맥락을 제공하는 데 도움이 되며, 성공 및 오류 시나리오 모두에 유용합니다.
+- 유형: 문자열(String)
+- 설명: API 호출 결과에 대한 사람이 읽기 쉬운 메시지를 제공합니다.
+- 사용 이유: 클라이언트에게 맥락을 제공하는 데 도움이 되며, 성공 및 오류 시나리오 모두에 유용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 3. data:
 
@@ -73,7 +116,18 @@ updatedAt: 1723864062321
 - Description: API 호출이 실패한 경우 오류 메시지 목록을 제공합니다.
 - 왜 사용하는가: 무엇이 잘못되었는지에 대한 자세한 정보를 제공하여 디버깅 및 사용자 피드백에 유용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **5. errorCode:**
 
@@ -87,7 +141,18 @@ updatedAt: 1723864062321
 - **Description:** 응답이 생성된 타임스탬프입니다.
 - **사용 이유:** 로깅 및 응답 시간을 추적하는 데 유용하며 디버깅 및 모니터링에 도움이 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 7. 경로:
 
@@ -99,7 +164,18 @@ updatedAt: 1723864062321
 
 반복을 피하기 위해 응답을 생성하기 위한 유틸리티 메서드를 만들어보겠습니다. 이렇게 하면 일관성을 유지하고 보일러플레이트 코드를 줄일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 3. 전역 예외 처리 구현하기
 
@@ -109,7 +185,18 @@ updatedAt: 1723864062321
 
 이제 샘플 컨트롤러에서 우리의 표준화된 응답 구조를 사용해 보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 일반적인 오류 코드
 
@@ -124,7 +211,18 @@ updatedAt: 1723864062321
 
 이러한 오류 코드는 프론트엔드와 백엔드에서 유지되어 일관된 오류 처리를 보장하고 사용자에게 의미 있는 피드백을 제공할 수 있습니다. 오류 코드를 표준화함으로써 응용 프로그램의 다른 계층에서 오류 처리를 단순화하여 문제를 관리하고 디버깅하기가 더 쉬워집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 🚀 그런데 Java Spring Boot 애플리케이션에서 로그를 올바르게 얻는 데 어려움을 겪나요? 제 Medium 블로그 "Log 타이밍 마스터하기: 최상의 실천법, 예제 및 로그 레벨 구성"을 확인해보세요!
 

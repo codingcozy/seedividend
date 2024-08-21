@@ -3,16 +3,13 @@ title: "리액트만 사용하지 마세요"
 description: ""
 coverImage: "/assets/img/2024-06-20-DontusejustReact_0.png"
 date: 2024-06-20 02:19
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-DontusejustReact_0.png
 tag: Tech
 originalTitle: "Don’t use just React"
 link: "https://medium.com/enlear-academy/dont-use-just-react-680c093986bb"
 isUpdated: true
 ---
-
-
-
 
 ## Next.js 초보자를 위한 소개
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 알았어요 친구, 당신은 Next.js가 놀라운 것으로 화려하게 말하고 있군요😅😅 그리고 그냥 React를 사용하지 말라고 말해요. 왜 그래야 하는 거죠? 그것에 이유를 좀 알려주세요. 🌝
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 한 가지씩 살펴보며 Next.js가 얼마나 강력한지 이해해 보자🤩.
 
@@ -33,7 +41,18 @@ isUpdated: true
 - 서버 컴포넌트
 - 클라이언트 컴포넌트.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 넥스트.js 13에서 서버 구성 요소가 등장했습니다. 서버 구성 요소는 서버에서 실행되어 정적 콘텐츠만 브라우저로 전송합니다. 이러한 서버 구성 요소에서 데이터를 가져오면 앱이 빠릅니다. 사용자 상호 작용에 필요한 경우 클라이언트 구성 요소를 사용해야 합니다. 즉, 마우스 오버 이벤트가 발생할 때 어떤 작업을 수행해야 하는 경우 클라이언트 구성 요소에서 수행해야 합니다. 이러한 방식으로 제공되는 추가적인 기능이 있습니다🤩.
 
@@ -44,7 +63,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-20-DontusejustReact_0.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Next.js는 전통적인 React Router보다 직관적이고 관리하기 쉬운 파일 기반 라우팅 시스템을 소개합니다. Next.js에서는 애플리케이션의 페이지들이 파일 시스템에 자동으로 매핑되어 경로를 간편하게 생성할 수 있습니다.
 
@@ -55,7 +85,18 @@ Next.js는 전통적인 React Router보다 직관적이고 관리하기 쉬운 �
 
 ## 3. API Routes
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Next.js를 사용하면 동일한 프로젝트 내에서 API 엔드포인트를 생성할 수 있습니다. 이는 Next.js 애플리케이션 내에서 직접 서버리스 함수로 풀 스택 애플리케이션을 구축할 수 있다는 것을 의미합니다🫡.
 
@@ -66,7 +107,18 @@ Next.js를 사용하면 동일한 프로젝트 내에서 API 엔드포인트를 
 
 ## 4. 이미지 최적화
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Next.js는 이미지 구성 요소를 포함하고 있어요. 이 구성 요소는 자동으로 이미지를 최적화하여 사용자의 장치에 최상의 품질로 효율적으로 로드합니다🤩.
 
@@ -77,7 +129,18 @@ Next.js는 이미지 구성 요소를 포함하고 있어요. 이 구성 요소�
 
 Next.js는 웹 애플리케이션의 성능과 사용자 경험을 향상시키는 데 중점을 둔 회사인 Vercel의 지지를 받고 있어요. 이 프레임워크에는 큰 커뮤니티🤩와 다양한 플러그인, 확장 프로그램 및 도구가 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 활발한 커뮤니티: 다수의 개발자 커뮤니티의 지원과 기여를 받아보세요.
 - 다양한 생태계: Next.js를 위해 특별히 개발된 다양한 플러그인, 확장 프로그램 및 도구를 활용하세요.
@@ -89,7 +152,18 @@ Next.js에서 스타일링은 CSS, Tailwind 및 Sass를 내장 지원하여 간�
 - 전역 및 모듈식 CSS: 전역 스타일을 쉽게 적용하거나 개별 구성 요소에 CSS를 스코프로 적용할 수 있으며 이름 충돌에 대해 걱정할 필요가 없습니다.
 - Sass 지원: 최소 구성으로 보다 복잡한 스타일링 요구를 위해 Sass의 기능을 활용하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 7. TypeScript 지원
 
@@ -100,7 +174,18 @@ Next.js는 기본적으로 훌륭한 TypeScript 지원을 제공합니다. 추�
 
 요약하면, React만으로도 강력한 UI 라이브러리이지만, Next.js는 추가적인 기능을 제공하여 React를 더욱 향상시킵니다.🤩
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 개발을 효율적으로 진행합니다.
 - 성능을 향상시킵니다.

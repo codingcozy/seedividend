@@ -3,17 +3,13 @@ title: "React에서 CSS를 활용한 반응형 사이트 만들기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Creating Responsive Web Designs Using CSS"
 link: "https://medium.com/@fitrafilthmongers/creating-responsive-web-designs-using-css-b9084f86f7c5"
 isUpdated: true
 ---
-
-
-
-
 
 웹 개발의 계속 변화하는 풍경에서 반응형 웹사이트를 만드는 것이 중요해졌어요. 오늘날 다양한 기기와 화면 크기로 인해 웹사이트가 모든 플랫폼에서 완벽하게 보이고 작동되도록 하는 것이 중요합니다. Cascading Style Sheets (CSS)는 유연하고 적응 가능한 레이아웃을 만들 수 있는 수단을 제공함으로써 이 목표를 달성하는 데 중요한 역할을 합니다. 이 튜토리얼에서는 CSS를 사용하여 반응형 웹 디자인의 기본을 살펴볼 거예요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 HTML 구조 설정하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS에 빠지기 전에 웹페이지를 위한 기본 HTML 구조를 설정해 보죠:
 
@@ -63,7 +70,18 @@ CSS를 사용하여 스타일을 만들어 보죠.
 
 이제 웹사이트를 반응형으로 만들기 위해 CSS를 추가해 보겠습니다. `styles.css`라는 이름의 파일을 만들고 HTML 파일에 연결해 주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /* styles.css */
@@ -148,7 +166,18 @@ footer {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결론
 

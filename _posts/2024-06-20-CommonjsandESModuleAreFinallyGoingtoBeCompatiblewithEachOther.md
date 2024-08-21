@@ -3,17 +3,13 @@ title: "CommonJS와 ES 모듈이 드디어 서로 호환될 예정입니다"
 description: ""
 coverImage: "/assets/img/2024-06-20-CommonjsandESModuleAreFinallyGoingtoBeCompatiblewithEachOther_0.png"
 date: 2024-06-20 01:30
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-CommonjsandESModuleAreFinallyGoingtoBeCompatiblewithEachOther_0.png
 tag: Tech
 originalTitle: "Commonjs and ES Module Are Finally Going to Be Compatible with Each Other."
 link: "https://medium.com/gitconnected/commonjs-and-es-module-are-finally-going-to-be-compatible-with-each-other-39b8b880796b"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-06-20-CommonjsandESModuleAreFinallyGoingtoBeCompatiblewithEachOther_0.png)
 
@@ -23,8 +19,18 @@ ECMAScript 모듈은 현대 JavaScript 개발에서 인정받는 산업 표준�
 
 최근 joyeecheung 님이 이 문제를 해결하기 위한 중요한 Pull Request를 제출했습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-20-CommonjsandESModuleAreFinallyGoingtoBeCompatiblewithEachOther_1.png"/>
 
@@ -34,7 +40,18 @@ ECMAScript 모듈은 현대 JavaScript 개발에서 인정받는 산업 표준�
 
 CommonJS는 Node.js에서 네이티브로 지원되는 모듈 시스템으로, 초기에 서버 측 모듈화 요구를 충족하기 위해 도입되었습니다. CJS는 require 함수를 사용하여 모듈을 로드하고 module.exports 또는 exports 객체를 사용하여 코드를 모듈로 노출합니다. CommonJS 모듈의 특징은 동기적으로 로딩되는 것으로, 모듈이 로드된 후 즉시 코드가 실행된다는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // math.js
@@ -44,7 +61,7 @@ function add(x, y) {
 module.exports = { add };
 
 // app.js
-const math = require('./math.js');
+const math = require("./math.js");
 console.log(math.add(0, 17)); // 17을 출력합니다
 ```
 
@@ -59,11 +76,22 @@ export function add(x, y) {
 }
 
 // app.js
-import { add } from './math.js';
+import { add } from "./math.js";
 console.log(add(0, 17)); // 17을 출력합니다
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ESM을 Node.js에서 활성화하려면 보다 복잡한 방법을 요구합니다. 이는 .js 파일 확장자가 기본적으로 CommonJS 모듈과 연관되기 때문입니다. 이 문제를 해결하기 위해 Node.js는 .mjs 파일 확장자를 사용하거나 package.json에서 명시적으로 "type": "module" 속성을 지정하여 ESM 모듘임을 나타낼 수 있습니다.
 
@@ -71,7 +99,18 @@ Node.js에서 ESM이 지원되기 때문에 cjs를 가져올 수 있지만 requi
 
 ![Commonjs and ESM Module Compatibility](/assets/img/2024-06-20-CommonjsandESModuleAreFinallyGoingtoBeCompatiblewithEachOther_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 패키지 제작자들이 CJS와 ESM 사용자 모두가 그들의 패키지를 사용할 수 있도록 보장하고 싶다면, 그들은 모듈을 계속 CJS로 출판하거나 CJS와 ESM 둘 다를 릴리스하는 이중 모듈로 출시하여야 합니다 (일부 문제를 발생시킬 수 있지만, 이는 지금 매우 흔한 실천법입니다).
 
@@ -81,7 +120,18 @@ Node.js에서 ESM이 지원되기 때문에 cjs를 가져올 수 있지만 requi
 
 당연히 사람들은 다음과 같이 물을 수 있습니다: 왜 require()가 ESM 로딩을 지원하지 않을까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오랜 시간 동안 Node.js 프로젝트의 응답은 항상 이와 같았습니다:
 
@@ -91,7 +141,18 @@ Node.js에서 ESM이 지원되기 때문에 cjs를 가져올 수 있지만 requi
 
 실제로, joyeecheung이 후에 npm 레지스트리에서 ESM을 지원하기 위해 (esm)을 요구하는 약 30개의 패키지를 테스트한 결과, 아무도 최상위 await를 포함하지 않았습니다 — 그리고 require()에서 동기 모듈을 지원하는 것이 이미 생태계에서 많은 머리아픔을 해결할 수 있을 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 초기 탐험 및 시도
 
@@ -101,7 +162,18 @@ ESM 지원은 긴 토론, 디자인 및 실험을 거쳤습니다. 2019년부터
 
 ![image](/assets/img/2024-06-20-CommonjsandESModuleAreFinallyGoingtoBeCompatiblewithEachOther_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 풀 리퀘스트는 상위 수준 대기를 처리하기 위해 로더에서 이벤트를 루핑하는 시도를 했지만, 그 방법이 안전하지 않아서 닫혔습니다.
 
@@ -111,7 +183,18 @@ ESM 지원은 긴 토론, 디자인 및 실험을 거쳤습니다. 2019년부터
 
 작년 말에 joyeecheung은 문법에 따르면 ESM이 동기적일 수 있음을 발견하였으며, 오징어는 로딩 프로세스에 비동기성을 도입한 것은 오직 Node.js 뿐이라고 언급했습니다. 따라서, joyeecheung과 GeoffreyBooth는 동기 require(esm)를 다시 시작하기로 논의를 시작했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2024년 2월 말, joyeecheung은 CJS와 ESM 로더에 대해 캐싱과 유사한 작업을 수행하면서 더 깊이 파고들었을 때, "Node.js에서 ESM 로더를 유일한 로더로 만드는 것을 포기하고 CJS 로더를 지원하는 별도의 프로그램을 구현하자"는 더 간단한 방법이 있다는 것을 알게 되었습니다. 기존 ESM 로더 코드를 최소화할수록 구현이 더 쉬워지는 것 같았죠.
 
@@ -121,8 +204,18 @@ https://github.com/nodejs/node/pull/51977
 
 2019년 PR과의 주요 차이점은 이 PR이 require(esm)의 범위를 작게 유지하고 동기적으로 ESM을 로드하는 것만 지원하려고 한다는 것입니다. 기술 지도위원회(TSC)에서는 이것이 전혀 논란이되지 않았고, 크게 반박도 받지 않았다고 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![](/assets/img/2024-06-20-CommonjsandESModuleAreFinallyGoingtoBeCompatiblewithEachOther_4.png)
 
@@ -132,7 +225,17 @@ https://github.com/nodejs/node/pull/51977
 
 ## 마침내
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 정직히 말해서, 이 문제는 오랜 시간 동안 나를 괴롭혔어요. 많은 NPM 패키지 개발자들도 이런 문제로 고통을 겪고 있어요. 이번 joyeecheung의 시도가 가능한 한 빨리 제품으로 출시되기를 바랍니다!

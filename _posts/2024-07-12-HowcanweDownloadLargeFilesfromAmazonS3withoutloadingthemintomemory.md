@@ -3,16 +3,13 @@ title: "Amazon S3에서 큰 파일을 메모리에 로드하지 않고 다운로
 description: ""
 coverImage: "/allround-coder.github.io/assets/no-image.jpg"
 date: 2024-07-12 21:36
-ogImage: 
+ogImage:
   url: /allround-coder.github.io/assets/no-image.jpg
 tag: Tech
 originalTitle: "How can we Download Large Files from Amazon S3 without loading them into memory?"
 link: "https://medium.com/gitconnected/downloading-large-files-from-amazon-s3-without-loading-them-into-the-memory-41dfbf273dc4"
 isUpdated: true
 ---
-
-
-
 
 안녕하세요 여러분 🫶
 
@@ -24,7 +21,18 @@ java.lang.OutOfMemoryError: Java heap space
 
 # 현재 우리의 구현 방법: 다운로드 및 로컬 저장하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Spring Boot Dependencies
 
@@ -33,7 +41,7 @@ java.lang.OutOfMemoryError: Java heap space
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
     <version>3.2.0</version>
-    <relativePath/> 
+    <relativePath/>
 </parent>
 
 <properties>
@@ -83,7 +91,18 @@ public void transferS3ObjectToFile(final File tempFile, final String key) throws
 
 ## Why is this implementation causing an out-of-memory error?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 문제를 이해하려면 s3Client.getObjectAsBytes 메서드의 내부 구현을 살펴봐야합니다.
 
@@ -98,7 +117,18 @@ default ResponseBytes<GetObjectResponse> getObjectAsBytes(GetObjectRequest getOb
 
 이것이 java.lang.OutOfMemoryError: Java heap space라는 문제의 원인이었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 static <ResponseT> ResponseTransformer<ResponseT, ResponseBytes<ResponseT>> toBytes() {
@@ -119,7 +149,18 @@ static <ResponseT> ResponseTransformer<ResponseT, ResponseBytes<ResponseT>> toBy
 
 Amazon S3에서 제공하는 응답을 ResponseInputStream으로 변환하는 기능을 활용할 수 있습니다. 이 입력 스트림을 사용하여 컨텐츠를 로컬 스토리지에 저장할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 public InputStream getS3ObjectInputStream(final String key){
@@ -174,7 +215,18 @@ public final class ResponseInputStream<ResponseT> extends SdkFilterInputStream i
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 밑줄 친 InputStream을 사용하는 유일한 방법은 반환된 ResponseInputStream 객체에서 InputStream 클래스의 transferTo 메서드를 사용하는 것입니다.
 
@@ -190,7 +242,18 @@ public void transferS3ObjectToFile(final File tempFile, final String key) throws
 
 Amazon S3에서 제공하는 기능을 활용하여 응답 콘텐츠를 내부적으로 지정된 파일로 모두 작성할 수 있습니다. 따라서 여기서 밑줄 친 InputStream이 파일 경로로 지정된 파일로 직접 복사됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 public void transferS3ObjectToFile(final File tempFile, final String key) throws IOException {
@@ -243,7 +306,18 @@ static <ResponseT> ResponseTransformer<ResponseT, ResponseT> toFile(Path path) {
 
 지정된 출력 스트림에 응답을 작성하는 데에 설계된 ResponseTransformer를 사용하여 지정된 경로에 파일을 작성할 수 있습니다. 이 방법을 통해 기존 파일의 내용을 교체할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 public void transferS3ObjectToFile(final File tempFile, final String key) throws IOException {
@@ -274,7 +348,18 @@ static <ResponseT> ResponseTransformer<ResponseT, ResponseT> toOutputStream(Outp
 
 이 접근법은 아직 최적의 접근법이 아닌 블로킹 API를 사용합니다. 다음 글에서는 파일을 메모리로 로드하지 않고 향상된 처리량과 신뢰성으로 대용량 파일을 다운로드하고 업로드하는 비블로킹 API를 사용하는 방법에 대해 이야기하겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 읽어 주셔서 감사합니다
 

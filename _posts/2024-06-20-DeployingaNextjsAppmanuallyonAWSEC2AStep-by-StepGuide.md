@@ -3,16 +3,13 @@ title: "AWS EC2에 수동으로 Nextjs 앱을 배포하는 방법 단계별 안�
 description: ""
 coverImage: "/assets/img/2024-06-20-DeployingaNextjsAppmanuallyonAWSEC2AStep-by-StepGuide_0.png"
 date: 2024-06-20 04:31
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-DeployingaNextjsAppmanuallyonAWSEC2AStep-by-StepGuide_0.png
 tag: Tech
 originalTitle: "Deploying a Next.js App manually on AWS EC2: A Step-by-Step Guide"
 link: "https://medium.com/@mudasirhaji/deploying-a-next-js-app-manually-on-aws-ec2-a-step-by-step-guide-58b266ff1c52"
 isUpdated: true
 ---
-
-
-
 
 소개
 
@@ -22,7 +19,18 @@ AWS 클라우드에서 Next.js 배포의 장점
 
 배포 프로세스에 들어가기 전에, AWS 클라우드에서 Next.js 앱을 호스팅하는 주요 이점을 강조해 보겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 확장성: AWS는 수요에 따라 EC2 인스턴스를 확장할 수 있는 유연성을 제공합니다. 이는 당신의 Next.js 앱이 성능을 희생하지 않고 트래픽 증가를 처리할 수 있음을 의미합니다.
 - 신뢰성: AWS는 SLA(서비스 레벨 계약)로 높은 신뢰성의 인프라를 제공하여 사용자가 필요로 할 때 응용 프로그램이 이용 가능하고 운영 중인지를 보장합니다.
@@ -36,7 +44,18 @@ AWS EC2에 Next.js 앱을 배포하는 단계별 안내서
 
 # 전제 조건
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Github 계정
 - AWS 계정
@@ -49,7 +68,18 @@ AWS EC2에 Next.js 앱을 배포하는 단계별 안내서
 
 단계 2: EC2 인스턴스 시작하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아마존 관리 콘솔에 로그인한 후 EC2 대시보드를 열고 인스턴스 시작 드롭다운 목록을 클릭한 후 아래 그림과 같이 '인스턴스 시작'을 클릭하세요:
 
@@ -59,7 +89,18 @@ AWS EC2에 Next.js 앱을 배포하는 단계별 안내서
 
 ![Provide EC2 Instance Name](/assets/img/2024-06-20-DeployingaNextjsAppmanuallyonAWSEC2AStep-by-StepGuide_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 데모에서는 무료 티어 자격이 있는 Ubuntu 22.04 LTS를 선택할 것입니다.
 
@@ -69,7 +110,18 @@ AWS EC2에 Next.js 앱을 배포하는 단계별 안내서
 
 ![이미지](/assets/img/2024-06-20-DeployingaNextjsAppmanuallyonAWSEC2AStep-by-StepGuide_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 데모에서는 이미 존재하는 키페어를 선택할 것입니다. 키 쌍이 없는 경우에는 새로운 키페어를 만들 수 있습니다:
 
@@ -79,7 +131,18 @@ AWS EC2에 Next.js 앱을 배포하는 단계별 안내서
 
 ![보안 그룹 설정](/assets/img/2024-06-20-DeployingaNextjsAppmanuallyonAWSEC2AStep-by-StepGuide_5.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나머지 설정은 기본값으로 유지하고 "인스턴스 시작"을 클릭해주세요.
 
@@ -89,7 +152,18 @@ AWS EC2에 Next.js 앱을 배포하는 단계별 안내서
 
 ![이미지](/assets/img/2024-06-20-DeployingaNextjsAppmanuallyonAWSEC2AStep-by-StepGuide_7.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 인스턴스 연결 마법사가 열립니다. SSH 클라이언트 탭으로 이동하고 제공된 chmod 및 SSH 명령을 복사하세요:
 
@@ -99,7 +173,18 @@ AWS EC2에 Next.js 앱을 배포하는 단계별 안내서
 
 단계 3: EC2 인스턴스를 준비하고 다른 종속성 설치하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시스템 패키지를 업데이트하세요: 최신 업데이트를 적용하려면 sudo apt update를 실행하십시오.
 
@@ -113,7 +198,18 @@ sudo apt-get install -y nodejs
 node -v
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-20-DeployingaNextjsAppmanuallyonAWSEC2AStep-by-StepGuide_10.png" />
 
@@ -126,7 +222,18 @@ npm -v
 
 <img src="/assets/img/2024-06-20-DeployingaNextjsAppmanuallyonAWSEC2AStep-by-StepGuide_11.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Step 4: GitHub에서 Nextjs 앱을 클론하세요.
 
@@ -138,7 +245,18 @@ https://github.com/warengonzaga/sample-nextjs-app.git
 
 <img src="/assets/img/2024-06-20-DeployingaNextjsAppmanuallyonAWSEC2AStep-by-StepGuide_12.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **단계 5: npm 설치**
 
@@ -148,7 +266,18 @@ https://github.com/warengonzaga/sample-nextjs-app.git
 
 **단계 6: npm 빌드**
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로덕션 단계에 애플리케이션을 준비하려면 자바스크립트 파일을 번들로 묶어야합니다. 이 작업은 다음 명령어를 실행하여 Next.js에서 처리됩니다:
 
@@ -161,8 +290,8 @@ ubuntu@ip-172-31-36-85:~/sample-nextjs-app$ npm run build
 > next build
 
 info  - SWC minify release candidate enabled. https://nextjs.link/swcmin
-주의: Next.js는 이제 완전히 익명의 텔레메트리 데이터를 수집합니다. 
-이 정보는 Next.js의 로드맵을 구성하고 기능을 우선 순위에 따라 결정하는 데 사용됩니다. 
+주의: Next.js는 이제 완전히 익명의 텔레메트리 데이터를 수집합니다.
+이 정보는 Next.js의 로드맵을 구성하고 기능을 우선 순위에 따라 결정하는 데 사용됩니다.
 이 익명의 프로그램에 참여하고 싶지 않다면 해당 URL을 방문하여 옵트아웃하는 방법을 비롯한 자세한 정보를 확인할 수 있습니다.
 https://nextjs.org/telemetry
 
@@ -198,7 +327,18 @@ Route (pages)                              Size     First Load JS
 
 6단계: PM2 설치
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Next.js 프로세스를 처리하고 터미널을 닫아도 계속해서 백그라운드에서 실행되도록 하는 솔루션이 필요합니다. 이 요구사항을 충족시키기 위해 PM2가 프로세스 관리에 이상적인 도구로 사용됩니다.
 
@@ -210,7 +350,18 @@ sudo npm install pm2 -g
 
 - PM2 설치를 확인하려면 다음 명령어 pm2를 실행하고, 아래 스크린샷과 유사한 응답을 받게 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-20-DeployingaNextjsAppmanuallyonAWSEC2AStep-by-StepGuide_14.png" />
 
@@ -220,7 +371,18 @@ sudo npm install pm2 -g
 
 다음 코드를 실행하여 PM2로 Next.js를 실행하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 pm2 start npm --name nextjs-app -- run start -- -p 3000
@@ -234,8 +396,18 @@ pm2 start npm --name nextjs-app -- run start -- -p 3000
 pm2 list nextjs-app
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Next.js app deployment](/assets/img/2024-06-20-DeployingaNextjsAppmanuallyonAWSEC2AStep-by-StepGuide_16.png)
 
@@ -245,8 +417,18 @@ Next.js 애플리케이션의 기능을 확인하려면, 웹 브라우저에 EC2
 
 nextjs-app 프로세스를 중지하려면, 아래 명령어를 사용하세요:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 pm2 stop nextjs-app
@@ -260,7 +442,18 @@ pm2 stop nextjs-app
 pm2 start nextjs-app
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음js-app 프로세스를 다시 시작하려면:
 
@@ -274,7 +467,18 @@ pm2 restart nextjs-app
 pm2 delete nextjs-app
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

@@ -3,17 +3,13 @@ title: "React 성능 최적화를 위한 5가지 팁"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Top 5 Tips for Optimizing React Performance"
 link: "https://blog.bitsrc.io/tips-for-optimizing-react-performance-890f2b3a36d7"
 isUpdated: true
 ---
-
-
-
-
 
 ## 컴포넌트 재렌더링을 줄이고, 레이지 로딩, 디바운싱, 스로틀링을 사용하고 이미지를 최적화하여 React 앱 성능을 향상시킵니다
 
@@ -23,7 +19,18 @@ React.js를 사용하면 동적이고 인터랙티브한 웹 애플리케이션�
 
 # 1. 불필요한 렌더링 줄이기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React 애플리케이션을 개발할 때는 성능을 최적화하는 것이 중요합니다. 한 가지 중요한 측면은 컴포넌트 재렌더링 횟수를 최소화하는 것입니다. 불필요한 재렌더링은 사용자 경험을 느리게 만들고 전체적인 응답성에 영향을 줄 수 있습니다.
 
@@ -39,7 +46,18 @@ ComponentB를 memo()로 감싸면, 부모가 몇 번이고 재렌더링되더라
 
 useCallback()은 콜백 함수를 메모이제이션하는 훅입니다. 특히 자식 컴포넌트에 콜백을 props로 전달할 때 유용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import React, { useCallback } from "react";
@@ -59,7 +77,18 @@ React.memo()와 useCallback()과 같은 기술을 사용하여 성능을 최적�
 
 # 2. 코드 분할을 통한 레이지 로딩
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트 애플리케이션의 성능을 최적화하기 위해 사용되는 `Lazy loading`과 `code splitting`은 필요한 컴포넌트만로드하여 코드를 더 작은 번들로 분할하여 초기로드 시간을 줄이는 기술입니다.
 
@@ -83,7 +112,18 @@ function MyComponent() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예제에서는 LazyComponent가 필요할 때만 로드되고 Suspense 컴포넌트 내에서 표시됩니다. fallback 속성은 컴포넌트가 로드되는 동안 표시할 콘텐츠를 지정하는 데 사용됩니다.
 
@@ -117,7 +157,18 @@ function MyComponent() {
 
 이 예제에서는 버튼을 클릭할 때 AnotherLazyComponent가 동적으로 로드되어 코드를 작은 번들로 분할하고 초기로드 시간을 줄일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 레이지 로딩과 코드 분할을 사용하여 응용 프로그램이 필요한 구성 요소와 코드만로드되도록하고, 초기로드 시간을 줄이고 전반적인 성능을 향상시킬 수 있습니다.
 
@@ -127,7 +178,18 @@ function MyComponent() {
 
 디바운싱부터 시작해 보겠습니다. React 애플리케이션에서 매번 사용자가 문자를 입력할 때마다 서버로 네트워크 요청을 보내는 검색 바가 있다고 상상해보십시오. 이렇게하면 많은 불필요한 요청이 발생할 수 있고 애플리케이션이 느려질 수 있습니다. 이를 피하기 위해 디바운싱을 사용하여 사용자가 일정 시간 동안 타이핑을 멈춘 후에만 네트워크 요청이 전송되도록 할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 lodash의 debounce 기능을 사용하여 React 컴포넌트에서 디바운싱을 구현하는 방법에 대한 예시가 있습니다:
 
@@ -160,7 +222,18 @@ function SearchBar() {
 
 이제 쓰로틀링에 대해 이야기해 봅시다. 쓰로틀링은 함수가 여러 번 빠르게 연속해서 호출되더라도 호출 속도를 제한하고 싶을 때 유용합니다. 예를 들어, 브라우저의 이벤트 루프를 과부하시키지 않도록 스크롤 이벤트를 100ms로 제한하고 싶을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 lodash의 쓰로틀(throttle) 함수를 사용하여 스크롤링을 구현하는 방법에 대한 예시입니다:
 
@@ -195,7 +268,18 @@ function ScrollComponent() {
 
 React 애플리케이션에서 디바운싱과 쓰로틀링을 사용하면 더 민첩하고 효율적인 사용자 인터페이스를 구축하여 사용자에게 더 나은 경험을 제공할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 4. 긴 목록 가상화
 
@@ -225,13 +309,26 @@ const listData = Array.from({ length: totalItems }, (_, i) => `Item ${i}`);
 const Row = ({ index, style }) => <div style={style}>{listData[index]}</div>;
 
 // 가상화된 목록을 렌더링합니다
-const VirtualizedList = () => <List width={width} height={height} rowCount={totalItems} rowHeight={rowHeight} rowRenderer={Row} />;
+const VirtualizedList = () => (
+  <List width={width} height={height} rowCount={totalItems} rowHeight={rowHeight} rowRenderer={Row} />
+);
 
 // 앱에서 사용할 수 있도록 VirtualizedList 컴포넌트를 내보냅니다
 export default VirtualizedList;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예시에서는 목록의 각 행의 높이 (rowHeight), 목록에서의 총 항목 수 (totalItems), 그리고 보이는 영역의 크기 (rowCount, 너비, 높이)를 정의합니다. 또한 목록을 위한 데이터 (listData)와 각 행을 렌더링하는 컴포넌트 (Row)를 정의합니다.
 
@@ -241,7 +338,18 @@ export default VirtualizedList;
 
 # 5. 이미지 최적화하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지 최적화는 React 애플리케이션의 성능을 향상시키는 데 중요합니다. 이미지는 페이지 로드 시간에 상당한 영향을 미칠 수 있어요.
 
@@ -266,7 +374,18 @@ export default MyComponent;
 
 이 예제에서는 OptimizedImage 컴포넌트를 사용하여 원격 URL에서 이미지를 로드합니다. 이미지의 너비와 높이를 지정하고, 로딩 prop을 "lazy"로 설정하여 이미지를 뷰포트 근처에 다가올 때까지 로딩을 지연시키는 방식입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 The react-optimized-image 패키지는 이미지를 자동으로 최적화해주는 imgix 서비스를 이용합니다. 이 서비스는 이미지 압축, 크기 조절 및 기타 최적화 기능을 제공합니다. 또한 해당 패키지에는 레이지 로딩 및 점진적 로딩을 지원하여 로드 시간과 사용자 경험을 개선할 수 있습니다.
 
@@ -276,7 +395,18 @@ The react-optimized-image 패키지는 이미지를 자동으로 최적화해주
 
 불필요한 렌더링을 줄이고, 코드 분할을 통한 레이지 로딩을 활용하며, 디바운싱과 스로틀링을 사용하고, 긴 리스트를 가상화하고, 이미지를 최적화함으로써 개발자들은 React 애플리케이션의 성능을 크게 향상시킬 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 조치를 React 앱에서 시도하여 최대한 잘 작동하도록 보장하세요!
 

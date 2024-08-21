@@ -3,16 +3,13 @@ title: "Pumpi - 유기농 채소 쇼핑몰 20 테마"
 description: ""
 coverImage: "/assets/img/2024-06-20-PumpiOrganicVegetablesShopify20Theme_0.png"
 date: 2024-06-20 03:32
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-PumpiOrganicVegetablesShopify20Theme_0.png
 tag: Tech
 originalTitle: "Pumpi — Organic Vegetables Shopify 2.0 Theme"
 link: "https://medium.com/@logocraft99/pumpi-organic-vegetables-shopify-2-0-theme-ac0c947f6b3d"
 isUpdated: true
 ---
-
-
-
 
 🔍 Pumpi- Organic Vegetables Shopify 2.0 테마를 확인해보세요! 📁 Shopify CMS 템플릿 라이브러리를 살펴보고 🆓 무료 다운로드를 받아보세요. 함께 만들어 봐요! 🚀
 
@@ -22,7 +19,18 @@ Pumpi는 스마트 필터를 갖춘 완벽한 스토어 프론트를 지원해�
 
 Pumpi는 코드 지식이나 웹마스터 없이도 누구나 쉽게 사용할 수 있어요. 모든 데모는 한 번의 클릭으로 빠르게 가져올 수 있어요. 체험하기 위해 데모를 확인해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테마 기능
 
@@ -95,6 +103,17 @@ Pumpi는 코드 지식이나 웹마스터 없이도 누구나 쉽게 사용할 �
 
 EngoTheme님의 Envato Elements에서 제공하는 사진
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 면책 조항: 본 글에는 제휴 링크가 포함되어 있습니다. 이는 이 링크를 통해 구매를 하시는 경우 추가 비용 없이 수수료를 받을 수 있음을 의미합니다.

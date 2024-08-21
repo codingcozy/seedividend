@@ -3,17 +3,13 @@ title: "HTML과 CSS를 사용한 챗봇 만들기소스코드 있음"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Chatbot Template Using HTML and CSS"
 link: "https://medium.com/@cwrworksite/chatbot-template-using-html-and-css-29266f8b3383"
 isUpdated: true
 ---
-
-
-
-
 
 안녕하세요, 코더님, Codewithrandom 블로그에 오신 것을 환영합니다. 이 글에서는 HTML과 CSS를 사용하여 챗봇 템플릿을 만드는 방법을 알아볼 거에요. 이 템플릿은 무료이며, 디자인에는 메시지 UI와 수신 메시지 템플릿이 포함되어 있습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 학습자 여러분들은 웹사이트를 로딩한 후 왼쪽 하단에 작은 메시지 아이콘을 볼 수 있었을 겁니다. 클릭하면 웹사이트 핸들러나 봇(AI)과 채팅을 할 수 있는 팝업 미리보기가 나타납니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 알지 못하는 것이 있다면 이 블로그에 참여해 보세요. 스크롤을 내리는 손가락만이 자유로운지 확인해주세요.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 이 블로그에서는 작동 방식을 알려주는 대신 채팅 상자 레이아웃이나 팝업 레이아웃을 어떻게 디자인할 수 있는지를 밀접히 살펴볼 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저 외에도 사용자와의 상호작용이 더욱 높아요. 페이지의 동적 움직임이 보여줘요. 프로젝트에 대한 아이디어를 얻었기를 바래요.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 메시지 보내기를 클릭하면 챗박스 UI가 팝업 될 거에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/ChatbotTemplateUsingHTMLandCSS_2.png)
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 HTML 섹션에는 다음 부분이 있습니다. 먼저, `chat-box-header` 클래스를 갖는 div가 있습니다. 이 안에는 아이콘과 함께 'Message us'라고 쓰인 버튼이 있습니다. 별도의 Div 아래에는 UI 디자인 요소가 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 코드를 참고해서 IDE나 CSS 스타일링 없이 HTML만으로 디자인하는 환경에서 실행해보세요.
 
@@ -116,7 +156,18 @@ HTML 섹션에는 다음 부분이 있습니다. 먼저, `chat-box-header` 클�
 
 CSS를 사용하여 입력 태그 버튼을 디자인하고 반응형으로 만들어보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 코드를 추가하면 더 많은 분석이 가능합니다. 저속된 HTML 파일을 추가하고 마법을 경험해 보세요.
 
@@ -351,7 +402,18 @@ Step1: 먼저 구글 "Raleway" 글꼴을 가져와서 챗봇 사용자 인터페
 
 웹페이지에 기본 스타일을 적용하겠습니다. background 속성을 사용하여 배경을 "연한 파랑"으로 설정하고, font-family 속성을 사용하여 글꼴을 "Raleway"로 변경하고, padding 및 margin을 "제로"로 설정하겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 @import url("https://fonts.googleapis.com/css?family=Raleway|Ubuntu&display=swap");
@@ -428,8 +490,18 @@ Step2: 높이와 너비를 클래스 선택자 (.chat-box)를 사용하여 각�
 
 <img src="/assets/img/ChatbotTemplateUsingHTMLandCSS_3.png" />
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **단계3:** 이제 우리는 클래스 선택자(.chart-button)를 사용하여 버튼에 스타일을 추가할 것입니다. 우리는 패딩을 25px로 지정하고 배경색을 "dark-blue"로 설정하며 버튼의 너비는 "120px"로 지정하고 위치는 "절대"로 설정할 것입니다. Bottom 및 right 속성을 사용하여 아래 및 오른쪽으로부터 0의 공간을 남기겠습니다.
 
@@ -520,7 +592,18 @@ Step2: 높이와 너비를 클래스 선택자 (.chat-box)를 사용하여 각�
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/ChatbotTemplateUsingHTMLandCSS_4.png" />
 
@@ -530,7 +613,18 @@ Step2: 높이와 너비를 클래스 선택자 (.chat-box)를 사용하여 각�
 
 로그인 폼을 클릭하면 챗박스 UI 폼 페이지가 표시됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비슷하게, '취소' 버튼을 클릭하면 숨겨집니다.
 
@@ -561,7 +655,18 @@ $('.chat-box .chat-box-header p').on('click', function() {
 
 이제 채팅 상자가 숨겨진 상태에서 채팅 버튼이 보이게 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 코드 줄에는 .chat-box 헤더 p 요소에 대한 onclick 이벤트가 추가되어 있습니다. 그 이벤트가 트리거될 때, display 속성이 block에서 none으로 변경됩니다.
 
@@ -571,7 +676,18 @@ $('.chat-box .chat-box-header p').on('click', function() {
 
 이 블로그를 통해... Chatbot 템플릿을 설계하는 방법을 배웠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 여러분의 리뷰를 기다리고 있어요. 그래서, 블로그는 어땠나요, Learners?
 
@@ -581,7 +697,18 @@ $('.chat-box .chat-box-header p').on('click', function() {
 
 Instagram에서 저를 팔로우할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **@Ankit kumar**님의 글
 
@@ -591,7 +718,18 @@ Instagram에서 저를 팔로우할 수 있습니다.
 
 제가 개인적으로 추천하는 것은 VS Code Studio입니다. 사용하기 간편하고 직관적이에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 이 프로젝트는 반응형인가요?
 

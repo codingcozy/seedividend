@@ -3,16 +3,13 @@ title: "Angular에서 의존성 주입 Dependency Injection을 사용하여 브�
 description: ""
 coverImage: "/assets/img/2024-05-17-AccessingBrowserGlobalObjectsinAngularwithDependencyInjection_0.png"
 date: 2024-05-17 21:15
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-17-AccessingBrowserGlobalObjectsinAngularwithDependencyInjection_0.png
 tag: Tech
 originalTitle: "Accessing Browser Global Objects in Angular with Dependency Injection"
 link: "https://medium.com/@monsieur_ricky/accessing-browser-global-objects-in-angular-with-dependency-injection-3ebc9d764e84"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-05-17-AccessingBrowserGlobalObjectsinAngularwithDependencyInjection_0.png" />
 
@@ -22,7 +19,18 @@ Angular 애플리케이션에서는 종종 네이티브 브라우저 API 또는 
 
 # Angular의 Document 토큰
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Angular에서는 브라우저의 문서 객체를 주입할 수 있는 DOCUMENT 토큰이 있습니다. 이 토큰은 Angular의 platform-browser 패키지의 일부이며, 앱이 서버 또는 브라우저에서 실행 중인지에 관계없이 적절한 객체를 제공할 것입니다.
 
@@ -43,7 +51,18 @@ export class TestComponent {
 
 이 전 예제는 매우 간단합니다: Angular의 DOCUMENT 토큰을 가져와 주입하고, 브라우저의 위치 속성에 접근하며 다시로드하는 방법을 실행합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 창 속성 접근
 
@@ -65,7 +84,18 @@ export class TestComponent {
 
 주입된 DOCUMENT를 활용하여, defaultView 속성을 통해 창 객체에 접근할 수 있습니다. 이를 통해 모든 기능과 객체에 접근할 수 있습니다. 이 구체적인 예제에서는 브라우저 사용자 인터페이스의 언어를 나타내는 문자열을 제공하는 navigator 객체를 가져옵니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 방식은 이제 브라우저별 API와 작업하는 것이 훨씬 쉽고 안전해졌어요. 그러나 window 객체를 자주 사용해야 하는 상황이 생기면 사용자 정의 토큰을 만들 수도 있어요.
 
@@ -75,18 +105,33 @@ export class TestComponent {
 
 ```js
 // browser-global-tokens.ts
-import { DOCUMENT } from '@angular/common';
-import { InjectionToken, inject } from '@angular/core';
+import { DOCUMENT } from "@angular/common";
+import { InjectionToken, inject } from "@angular/core";
 
 /**
  * 전역 window 객체를 위한 인젝션 토큰.
  */
-export const WINDOW = new InjectionToken<Window>('Global window object', {
-  factory: (): Window => inject(DOCUMENT)?.defaultView
-});
+export const WINDOW =
+  new InjectionToken() <
+  Window >
+  ("Global window object",
+  {
+    factory: (): Window => inject(DOCUMENT)?.defaultView,
+  });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 코드 스니펫은 팩토리 함수를 사용하여 생성된 WINDOW이라는 인젝션 토큰을 정의합니다. 이 함수는 inject(DOCUMENT).defaultView를 사용하여 DOCUMENT 객체의 defaultView 속성을 검색하며, Angular 애플리케이션 내에서 의존성 주입(DI)을 통해 윈도우 객체에 접근할 수 있도록 합니다.
 
@@ -107,7 +152,18 @@ export class TestComponent {
 
 우리의 WINDOW 토큰을 직접 사용하여 브라우저의 언어에 액세스하는 코드를 약간 단순화할 수 있었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

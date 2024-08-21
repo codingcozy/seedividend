@@ -3,17 +3,13 @@ title: "FlutterFlow 2024 비전과 로드맵"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "FlutterFlow 2024 our product vision and roadmap"
 link: "https://medium.com/flutterflow-enterprise/flutterflow-2024-our-product-vision-and-roadmap-2dba66a87c66"
 isUpdated: true
 ---
-
-
-
-
 
 ## 플러터플로우 플랫폼의 내년 전망 및 그 목표를 이루기 위한 계획
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 열정적인 강력한 사용자들과 오랜 시간을 보내고, 비판적인 비판자들로부터 많은 피드백을 듣고, 플랫폼에 직접 참여하는 등의 시간을 보내왔습니다. 제 목표는 사용자들이 직면한 고통스러운 문제를 이해하는 것이었습니다. 어디서 사용자들을 느리게 하고 있는지, 또는 앞으로 나아가는 것을 방해하고 있는지를 알아내는 것이었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제품 비전
 
@@ -31,7 +38,18 @@ FlutterFlow의 미션은 세계가 훌륭한 제품을 만들 수 있도록 돕�
 
 플랫폼의 관점에서 우리의 비전은 Low-code 세계를 넘어서는 것입니다. 대신에, FlutterFlow가 앱 품질이나 기능을 희생하지 않고 개발할 수 있는 시각적 개발 환경이 되기를 원합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/FlutterFlow2024ourproductvisionandroadmap_1.png" />
 
@@ -43,7 +61,18 @@ FlutterFlow의 미션은 세계가 훌륭한 제품을 만들 수 있도록 돕�
 
 # 로드맵
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 목표를 설계해 놓았지만, 그 목표를 어떻게 실현할까요? 바로 로드맵이 그 역할을 합니다! 로드맵은 몇 가지 중점 영역으로 나누어져 있습니다.
 
@@ -53,7 +82,18 @@ FlutterFlow에서 생성된 코드를 사용하여 Flutter 및 Dart 표준과 �
 
 ## 🧪 테스팅 및 디버깅
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용자들이 어플리케이션을 실행하고 테스트하며 문제 해결하기 쉽게 만들어보세요.
 
@@ -63,7 +103,18 @@ FlutterFlow에서 생성된 코드를 사용하여 Flutter 및 Dart 표준과 �
 
 ## 👌 사용자 경험
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 작업 단순화를 통해 클릭을 줄이고 일관성을 유지하며 AI를 통합하고 사용자가 코드와 GUI 간에 원활하게 전환할 수 있도록 합니다.
 
@@ -77,7 +128,18 @@ FlutterFlow에서 생성된 코드를 사용하여 Flutter 및 Dart 표준과 �
 - 👌 코드 편집기 개선: FlutterFlow 코드 편집기에서 로컬에서 VSCode에서 작업하는 것처럼 즐거운 경험이 되도록 하려 합니다.
 - 👥 모듈형 개발 지원: FlutterFlow에서 "엔티티"를 공유하는 여러 방법이 있습니다. 마켓플레이스, 템플릿, 팀 라이브러리, 플로우... 하지만 각각이 제한 사항을 가지고 있습니다. FlutterFlow 프로젝트의 어떤 부분이든 공유하고 사용하는 것을 쉽게 만들고 싶습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 프로젝트들을 넘어서, 올해 후반에는 다른 많은 개선 사항들이 계획되어 있습니다. 기대해 주세요!
 
@@ -87,7 +149,18 @@ FlutterFlow에서 생성된 코드를 사용하여 Flutter 및 Dart 표준과 �
 
 ## 기대 설정
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희의 로드맵을 넘어서, 일회성 기능, 사용성 및 버그 수정에 시간을 할애하고 있습니다. 이러한 수정 사항과 로드맵 변경 사항은 고객들의 피드백을 검토하고 논의하여 우선순위를 정합니다. 저희 결정에 영향을 미치는 가장 좋은 방법은 FlutterFlow 내 "피드백" 양식에서 사용 사례, 문제 및 권장 수정 사항에 대한 상세한 피드백을 제공하는 것입니다:
 
@@ -97,6 +170,17 @@ FlutterFlow에서 생성된 코드를 사용하여 Flutter 및 Dart 표준과 �
 
 다가오는 흥미로운 기능들이 많은 상황에서 현재 사용 가능한 새로운 기능에 대해 알고 싶으실 것입니다! 릴리스 공지사항을 최신 상태로 유지하는 가장 좋은 방법은 커뮤니티 포럼의 "새로운 기능 소식" 섹션을 확인하는 것입니다. 여기에서는 새로운 기능에 대한 주기적인 업데이트 및 해당 기능을 사용하는 방법을 보여주는 링크가 포함되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/FlutterFlow2024ourproductvisionandroadmap_3.png" />

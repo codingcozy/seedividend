@@ -3,16 +3,13 @@ title: "ReactJs를 사용한 테이블 페이지네이션 구현하기 간단한
 description: ""
 coverImage: "/assets/img/2024-06-20-ImplementingTablePaginationwithReactJsASimpleGuide_0.png"
 date: 2024-06-20 00:59
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-ImplementingTablePaginationwithReactJsASimpleGuide_0.png
 tag: Tech
 originalTitle: "Implementing Table Pagination with ReactJs : A Simple Guide"
 link: "https://medium.com/@imPradhyumn/implementing-table-pagination-with-reactjs-a-simple-guide-ed36469b26e9"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-06-20-ImplementingTablePaginationwithReactJsASimpleGuide_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 Pagination이란 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대부분의 UI 프레임워크에서는 테이블과 페이지네이션 기능을 제공하며, 이 포스트에서는 우리만의 방법으로 구현해보고 있습니다. 또한 페이지네이션은 기계 코딩 면접에서 자주 묻는 질문 중 하나입니다.
 
@@ -32,7 +40,18 @@ Pagination이란 무엇인가요?
 
 ![데모](https://miro.medium.com/v2/resize:fit:1200/0*EkEwLTBUF_iIa5nL.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1. 에디터를 열고 터미널에서 아래 명령을 사용하여 'pagination-demo' 라는 리액트 앱을 생성하세요.
 
@@ -44,7 +63,18 @@ npx create-react-app pagination-demo
 
 3. components라는 폴더를 만들고 그 안에 Demo.jsx, Table.jsx 및 Demo.css 파일을 각각 생성할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 표를 다른 구성 요소로 분리했습니다.
 
@@ -64,42 +94,51 @@ npx create-react-app pagination-demo
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 css
 table {
-  border: 1px solid black;
-  width: 100%;
+border: 1px solid black;
+width: 100%;
 }
 table tr td {
-  max-width: 100%;
-  white-space: nowrap;
-  overflow: hidden;
+max-width: 100%;
+white-space: nowrap;
+overflow: hidden;
 }
 td,
 th {
-  padding: 5px;
-  border: 1px solid black;
-  text-align: center;
+padding: 5px;
+border: 1px solid black;
+text-align: center;
 }
 td:nth-child(2) {
-  width: 70% !important;
+width: 70% !important;
 }
 #page-no-dropdown {
-  width: fit-content;
-  border: 1px solid black;
-  padding: 2px;
+width: fit-content;
+border: 1px solid black;
+padding: 2px;
 }
 select:focus-visible {
-  outline: none;
-  border: none;
+outline: none;
+border: none;
 }
 button {
-  border: 1px solid black;
-  padding: 2px;
+border: 1px solid black;
+padding: 2px;
 }
-
 
 2. Table.jsx
 
@@ -107,8 +146,18 @@ button {
 
 테이블 헤더에는 (userId)를 제외한 3가지 헤더 값을 표시합니다. (포함하려면 포함할 수 있습니다). 테이블 본문에는 해당 값들을 표시합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 export default function Table({ dataToDisplay }) {
@@ -148,50 +197,72 @@ const [data, setData] = useState([]);
 const [currentPageNumber, setCurrentPageNumber] = useState(1);
 const [dataToDisplay, setDataToDisplay] = useState([]);
 const TOTAL_VALUES_PER_PAGE = 10;
-``` 
+```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 useEffect(() => {
-    fetch("https://jsonplaceholder.typicode.com/todos")
-      .then((response) => response.json())
-      .then((res) => {
-        setData(res);
-        setDataToDisplay(res.slice(0, TOTAL_VALUES_PER_PAGE));
-      });
-  }, []);
+  fetch("https://jsonplaceholder.typicode.com/todos")
+    .then((response) => response.json())
+    .then((res) => {
+      setData(res);
+      setDataToDisplay(res.slice(0, TOTAL_VALUES_PER_PAGE));
+    });
+}, []);
 ```
 
 - 여기에는 총 3개의 함수가 있어요 = `goOnPrevPage(), goOnNextPage(), handleSelectChange()
 
 ```js
 const goOnPrevPage = () => {
-    if (currentPageNumber === 1) return;
-    setCurrentPageNumber((prev) => prev - 1);
-  };
+  if (currentPageNumber === 1) return;
+  setCurrentPageNumber((prev) => prev - 1);
+};
 ```
 
 ```js
-  const goOnNextPage = () => {
-    if (currentPageNumber === data.length / TOTAL_VALUES_PER_PAGE) return;
-    setCurrentPageNumber((prev) => prev + 1);
-  };
-  const handleSelectChange = (e) => {
-    setCurrentPageNumber(e.target.value);
-  };
-```  
+const goOnNextPage = () => {
+  if (currentPageNumber === data.length / TOTAL_VALUES_PER_PAGE) return;
+  setCurrentPageNumber((prev) => prev + 1);
+};
+const handleSelectChange = (e) => {
+  setCurrentPageNumber(e.target.value);
+};
+```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기에 또 다른 useEffect가 있어요. currentPageNumber가 의존성으로 설정되어 있어서 페이지 번호가 변경될 때마다 이 블록이 실행되고 데이터 배열을 잘라내어 dataToDisplay를 업데이트할 거예요.
 
 ```js
 useEffect(() => {
-    const start = (currentPageNumber - 1) * TOTAL_VALUES_PER_PAGE;
-    const end = currentPageNumber * TOTAL_VALUES_PER_PAGE;
-    setDataToDisplay(data.slice(start, end));
-  }, [currentPageNumber]);
+  const start = (currentPageNumber - 1) * TOTAL_VALUES_PER_PAGE;
+  const end = currentPageNumber * TOTAL_VALUES_PER_PAGE;
+  setDataToDisplay(data.slice(start, end));
+}, [currentPageNumber]);
 ```
 
 그리고 마지막으로 렌더링될 UI 코드가 있어요. 여기서 데이터가 가져오는 중이면 '로딩 중...'을 보여주는 조건이 추가되어 있어요.
@@ -200,46 +271,66 @@ useEffect(() => {
 if (data.length == 0) return <div>Loading...</div>;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-  return (
-    <div id="container">
-      <div id="page-no-dropdown">
-        <select
-          name="page-number"
-          onChange={handleSelectChange}
-          value={currentPageNumber}
-        >
-          {Array.from(Array(data.length / TOTAL_VALUES_PER_PAGE))
-            .map((e, i) => i + 1)
-            .map((val) => {
-              return <option key={val}>{val}</option>;
-            })}
-        </select>
-      </div>
-      <Table dataToDisplay={dataToDisplay} />
-      <div id="btn-container">
-        <button onClick={goOnPrevPage}>Prev</button>
-        <button onClick={goOnNextPage}>Next</button>
-      </div>
+return (
+  <div id="container">
+    <div id="page-no-dropdown">
+      <select name="page-number" onChange={handleSelectChange} value={currentPageNumber}>
+        {Array.from(Array(data.length / TOTAL_VALUES_PER_PAGE))
+          .map((e, i) => i + 1)
+          .map((val) => {
+            return <option key={val}>{val}</option>;
+          })}
+      </select>
     </div>
-  );
+    <Table dataToDisplay={dataToDisplay} />
+    <div id="btn-container">
+      <button onClick={goOnPrevPage}>Prev</button>
+      <button onClick={goOnNextPage}>Next</button>
+    </div>
+  </div>
+);
 ```
 
 ```js
-{Array.from(Array(data.length / TOTAL_VALUES_PER_PAGE))
-      .map((e, i) => i + 1)
-       .map((val) => {
-    return <option key={val}>{val}</option>;
-})}
+{
+  Array.from(Array(data.length / TOTAL_VALUES_PER_PAGE))
+    .map((e, i) => i + 1)
+    .map((val) => {
+      return <option key={val}>{val}</option>;
+    });
+}
 ```
 
 이 블록은 데이터가 페이지로 나뉘어진 개수만큼 1부터 페이지 번호까지의 배열을 생성합니다.
 
 데모에서 데이터 길이가 200이고 페이지 당 10개의 행을 표시하므로, totalPages = 200/10이므로 20이 됩니다. 따라서 [1,2,3……20]과 같은 배열이 생성되며, 이를 매핑하여 선택 드롭다운의 옵션을 생성합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 코드를 Markdown 형식으로 변경한 것입니다!
 
@@ -283,11 +374,7 @@ export default function HomeDashboard() {
   return (
     <div id="container">
       <div id="page-no-dropdown">
-        <select
-          name="page-number"
-          onChange={handleSelectChange}
-          value={currentPageNumber}
-        >
+        <select name="page-number" onChange={handleSelectChange} value={currentPageNumber}>
           {Array.from(Array(data.length / TOTAL_VALUES_PER_PAGE))
             .map((e, i) => i + 1)
             .map((val) => {
@@ -307,6 +394,17 @@ export default function HomeDashboard() {
 
 즐겁게 코딩하고 계속 배워 나가세요!!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 읽어 주셔서 감사합니다! 좋아요와 댓글 부탁드려요...

@@ -3,17 +3,13 @@ title: "React Props가 무엇인지 알고 넘어가자"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "React Props  The Animated Guide"
 link: "https://reedbarger.medium.com/react-props-the-animated-guide-f401ce92f481"
 isUpdated: true
 ---
-
-
-
-
 
 <table>
   <tr>
@@ -36,7 +32,18 @@ isUpdated: true
 
 라이프사이클 메서드는 React 컴포넌트의 다양한 단계에서 실행되는 함수입니다. 언제 어떤 메서드를 사용해야 하는지 알고 있으면 React 애플리케이션을 더 잘 관리할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # JavaScript 함수에 데이터 전달하는 방법
 
@@ -52,7 +59,18 @@ sum(); // Reference Error: a is not defined
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1400/0*MjzLHJIBue3LqvKa.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 이 함수를 호출하면 “a is not defined”라는 참조 오류가 발생합니다.
 
@@ -66,7 +84,18 @@ function sum(a, b) {
 sum(2, 2); // 4
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](https://miro.medium.com/v2/resize:fit:1400/0*BfPuSsS8eyUF2St4.gif)
 
@@ -76,7 +105,18 @@ sum(2, 2); // 4
 
 React 컴포넌트는 일반 자바스크립트 함수와 매우 비슷해 보입니다. 그러나 JS 함수와는 달리 React 요소(예: 버튼)를 반환하고 렌더링합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 function Button() {
@@ -98,7 +138,18 @@ function Button() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](https://miro.medium.com/v2/resize:fit:1400/0*kQ4W8yxFNwnWGub8.gif)
 
@@ -108,7 +159,18 @@ function Button() {
 
 예를 들어, 버튼에 우리만의 사용자 정의 텍스트를 추가하려면 텍스트 속성을 추가하고 그 값을 일부 문자열로 설정할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 function App() {
@@ -126,7 +188,18 @@ function Button() {
 
 우리는 우리의 컴포넌트에 원하는 만큼 많은 prop을 추가할 수 있습니다. 이들은 모든 JavaScript 데이터 유형이 될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 function App() {
@@ -144,7 +217,18 @@ function Button() {
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1400/0*PkbojCpS9Ta9ogwX.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 이 경우는 그렇지 않아요. 일반 JavaScript 함수와 달리, 이러한 모든 속성은 하나의 값으로 모두 모이는데, 이 값 자체가 객체입니다.
 
@@ -154,7 +238,18 @@ function Button() {
 
 아무 이름을 지정할 수 있지만, 일반적으로 이 매개변수를 "props"로 지칭하는 것이 관습입니다. 왜냐하면 이것이 포함하는 것이 "props"라고 불리우면서, 이 컴포넌트로 전달된 모든 값들입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신이 넘겨준 데이터를 컴포넌트 내부에서 중괄호로 사용할 수 있습니다.
 
@@ -170,7 +265,18 @@ function Button(props) {
 
 ![image](https://miro.medium.com/v2/resize:fit:1400/0*Z4dTebIx9NGZlpor.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 컴포넌트가 작은 경우 유용한 패턴 중 하나는 프롭스(props) 객체를 구조 분해하는 것입니다.
 
@@ -192,7 +298,18 @@ function Button({ color, text }) {
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1400/0*N08oUMcmAfDjQvvr.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 🏆 프로 페셔널 React 개발자가 되어 보세요
 
@@ -202,7 +319,18 @@ React를 처음부터 끝까지 배울 수 있는 최고의 자원을 찾고 계
 
 부트캠프에는 React로 성공을 이룰 수 있도록 도와주는 모든 자원이 제공됩니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 🕹️ 100개 이상의 실전 React 도전 과제
 - 🎬 100개 이상의 심층 영상

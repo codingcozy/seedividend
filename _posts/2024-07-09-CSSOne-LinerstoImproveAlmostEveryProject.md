@@ -3,15 +3,13 @@ title: "모든 프로젝트를 개선하는 10가지 CSS 원라이너 사용법"
 description: ""
 coverImage: "/assets/img/2024-07-09-CSSOne-LinerstoImproveAlmostEveryProject_0.png"
 date: 2024-07-09 14:03
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-CSSOne-LinerstoImproveAlmostEveryProject_0.png
 tag: Tech
 originalTitle: "CSS One-Liners to Improve (Almost) Every Project"
 link: "https://medium.com/gitconnected/css-one-liners-to-improve-almost-every-project-b7462a697dc0"
 isUpdated: true
 ---
-
-
 
 ![이미지](/assets/img/2024-07-09-CSSOne-LinerstoImproveAlmostEveryProject_0.png)
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 이 한 줄 CSS가 수행하는 작업에 대한 요약입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 뷰포트 내에서 콘텐츠 너비 제한
 - 본문 텍스트 크기 증가

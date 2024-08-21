@@ -3,17 +3,13 @@ title: "NET Core MVC에서 Tailwind CSS를 사용하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How can you use Tailwindcss with Net Core MVC"
 link: "https://medium.com/@omerconsept999/how-can-you-use-tailwindcss-with-net-core-mvc-445694739a6e"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/How-can-you-use-Tailwindcss-with-.Net-Core-MVC_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이 단계에서는 터미널을 사용할 것이지만 Visual Studio나 기타 툴을 선호하신다면 사용하셔도 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 $ dotnet new sln -n MvcProject
@@ -44,7 +51,18 @@ $ npm init
 $ npm i tailwindcss
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Tailwindcss 준비하기
 
@@ -56,7 +74,18 @@ $ npx tailwincss init
 
 이 명령어는 당신의 디렉토리에 tailwind.config.js 파일을 생성할 거에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 파일의 기본 버전은 다음과 같습니다
 
@@ -84,7 +113,18 @@ module.exports = {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 Tailwind는 .cshtml 파일을 감지할 수 있습니다.
 
@@ -99,7 +139,18 @@ package.json 파일에 다음 코드를 추가해야 합니다.
   },
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 npm watch 명령어를 사용하여 개발할 수 있어요. 이 명령어는 당신의 변경 사항을 지켜보고 tailwind 코드를 너무 빨리 다시 빌드해줄 거예요.
 
@@ -109,7 +160,18 @@ npm watch 명령어를 사용하여 개발할 수 있어요. 이 명령어는 �
 
 우리는 npm과 tailwindcss 설정을 완료했어요. 이제 우리의 views에 tailwindcss 빌드를 추가할 차례에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ./Views/Shared/\_Layout.cshtml을 열어서 붙여넣어주세요.
 
@@ -121,7 +183,18 @@ npm watch 명령어를 사용하여 개발할 수 있어요. 이 명령어는 �
 
 # 나의 정보
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Github: [https://github.com/omerasaf01](https://github.com/omerasaf01)
 - Medium: [https://medium.com/@omerconsept999](https://medium.com/@omerconsept999)

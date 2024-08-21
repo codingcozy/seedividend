@@ -3,17 +3,13 @@ title: "자바스크립트를 사용하지 않고 html css로 할 수 있는 것
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "5 Things You No Longer Need JavaScript to Do"
 link: "https://medium.com/@xiuerold/5-things-you-no-longer-need-javascript-to-do-a4c21e4332ac"
 isUpdated: true
 ---
-
-
-
-
 
 `<img src="/assets/img/5ThingsYouNoLongerNeedJavaScripttoDo_0.png" />`
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 JS에 의존하는 대신 CSS로 화려한 SVG 애니메이션을 만들 수 있습니다. 예를 들어, 아래 스니펫을 사용하여 폭죽을 시뮬레이션할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .trail {
@@ -52,7 +59,18 @@ SVG 경로에서 선 그리기 효과를 만들기 위해 stroke-dasharray와 an
 
 순수 CSS를 사용하여 호버로 트리거되는 사이드바를 만들어보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 nav {
@@ -73,7 +91,18 @@ nav:focus-within {
 
 요소들을 고정하는 데 position: sticky를 활용하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .square {
@@ -88,7 +117,18 @@ nav:focus-within {
 
 아코디언 효과를 위해 HTML의 `details` 태그를 활용하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```html
 <details>
@@ -104,7 +144,18 @@ nav:focus-within {
 
 다크 테마의 광범위한 채택으로, prefers-color-scheme 미디어 피처를 사용하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 @media (prefers-color-scheme: light) {
@@ -121,6 +172,17 @@ nav:focus-within {
 
 이 5가지 예시 이상으로, 전체 기사에서는 scroll snapping 및 네이티브 컬러 피커와 같은 다른 기능을 탐구합니다. 다양한 효과와 상호작용에 JS를 활용하는 것이 유혹적일 수 있지만, HTML의 의미론적 요소와 CSS의 스타일링 기능을 활용하면 더 효율적이고 우아한 코딩 솔루션을 찾을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 작업에 적합한 도구를 선택하는 것은 숙련된 웹 개발의 특징입니다. JS에 손을 댈 때 앞서 HTML과 CSS를 고려하는 것을 잊지 마세요.

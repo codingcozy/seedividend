@@ -3,17 +3,13 @@ title: "React Query 마스터하기 설치부터 고급 기능까지"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Mastering React Query From Installation to Advanced Features"
 link: "https://medium.com/stackademic/mastering-react-query-from-installation-to-advanced-features-8f419d22ba86"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/MasteringReactQueryFromInstallationtoAdvancedFeatures_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ## React 프로젝트에서 React Query 설정하기 ⚙️
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 1: React Query 설치하기
 
@@ -35,7 +42,18 @@ npm을 사용하는 경우:
 npm install react-query
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이렇게 하시면 됩니다:
 
@@ -47,7 +65,18 @@ yarn add react-query
 
 ## 단계 2: 기본 구성 💡
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React Query를 설치했다면, 다음 단계는 React 애플리케이션에서 React Query를 구성하는 것입니다. React Query에는 QueryClient와 QueryClientProvider가 포함되어 있어서 React Query 환경을 초기화하고 제공하는 데 중요합니다.
 
@@ -59,7 +88,18 @@ React Query를 설치했다면, 다음 단계는 React 애플리케이션에서 
 import { QueryClient, QueryClientProvider } from "react-query";
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. QueryClient의 새 인스턴스를 만듭니다:
 
@@ -91,7 +131,18 @@ function App() {
 export default App;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 설정은 React Query를 React 애플리케이션에 효과적으로 통합하여 프로젝트 전체에서 해당 기능을 사용할 수 있게 합니다.
 
@@ -101,7 +152,18 @@ export default App;
 
 React Query는 주로 서버로부터 데이터를 가져오는 읽기 작업에 주로 초점을 맞춘 React 애플리케이션에서 데이터 가져오기를 간소화하는 강력한 도구입니다. 이 섹션에서는 효율적인 데이터 가져오기를 위해 React Query의 useQuery 훅을 사용하는 과정을 안내합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 useQuery 이해하기
 
@@ -113,7 +175,18 @@ useQuery는 React Query에서 서버 데이터를 가져오고 캐싱 및 업데
 import { useQuery } from "react-query";
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼, 데이터를 가져오는 기능을 만들어보세요. 예를 들어, JSON API에서 데이터를 가져오는 방법입니다:
 
@@ -161,7 +234,18 @@ function Dashboard() {
 export default Dashboard;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트 쿼리의 useQuery 훅은 첫 번째 매개변수로 고유 식별자 (`posts`)와 두 번째로 데이터 가져오는 함수(fetchPosts)를 사용합니다. 이 훅은 데이터(posts), 로딩 상태(isLoading), 그리고 에러 상세(error)를 포함한 객체를 반환합니다.
 
@@ -171,7 +255,18 @@ useQuery를 활용하면 리액트 애플리케이션에서 데이터 가져오�
 
 ## 1. Polling Data with React Query 🔄
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 폴링은 응용 프로그램이 지정된 간격으로 자동으로 새 데이터를 가져오는 기술입니다. React Query는 pollInterval 옵션을 사용하여 이를 쉽게 구현할 수 있게 해줍니다.
 
@@ -216,7 +311,18 @@ export default PollingExample;
 
 ## 2. 조건부 데이터 가져오기 - React Query 🎯
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가끔은 사용자 행동과 같은 특정 기준에 따라 데이터를 조건부로 가져오고 싶을 수 있습니다. enabled 옵션을 사용하면 쿼리가 언제 데이터를 가져와야 하는지 제어할 수 있습니다.
 
@@ -225,9 +331,7 @@ import React, { useState } from "react";
 import { useQuery } from "react-query";
 
 const fetchUserData = async (userId) => {
-  const response = await fetch(
-    `https://jsonplaceholder.typicode.com/users/${userId}`
-  );
+  const response = await fetch(`https://jsonplaceholder.typicode.com/users/${userId}`);
   return response.json();
 };
 
@@ -263,7 +367,18 @@ export default ConditionalFetchingExample;
 
 ## React Query에서 변경사항(생성, 업데이트, 삭제) 🔄
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React Query에서 useQuery는 데이터를 가져오는 데 훌륭하며, useMutation은 생성, 업데이트 또는 삭제하는 데 사용하는 후크입니다. 즉, 서버의 데이터를 수정하는 모든 작업에 해당합니다. useQuery와 useMutation 간의 구분은 React Query의 설계에서 중요하며, 데이터 관리에서 "읽기" (쿼리)와 "쓰기" (뮤테이션) 사이의 전형적인 구분을 반영합니다.
 
@@ -274,7 +389,18 @@ useQuery와의 차이점:
 
 JSONPlaceholder API를 사용하여 useMutation 구현하기:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단한 예제를 만들어서 useMutation을 사용하여 JSONPlaceholder API에 데이터를 게시해 봅시다.
 
@@ -297,7 +423,18 @@ const createPost = async (postData) => {
 
 React 컴포넌트에서 useMutation 사용하기:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 function NewPostForm() {
@@ -344,7 +481,18 @@ React Query를 사용하면 React 애플리케이션에서 데이터 수정을 �
 
 참고: React Query의 고급 기능은 기능적인 측면 뿐만 아니라 애플리케이션을 더 빠르고 반응성이 높은 것으로 만드는 데 중요한 역할을 합니다. 캐싱, 재시도 로직 및 프리패칭은 성능 증대제 같은 역할을 하며 데이터 검색 및 업데이트를 효율적으로 관리하여 앱이 사용자에게 원활한 경험을 제공하도록합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 🔥React Query의 고급 기능: 캐싱, 재시도, 그리고 프리패칭
 
@@ -354,7 +502,18 @@ React Query는 여러 가지 고급 기능을 제공하는데, 이 기능들은 
 
 캐싱은 React Query의 주요 기능 중 하나입니다. 이는 쿼리 결과를 자동으로 캐시하여 불필요한 네트워크 요청의 수를 줄입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const { data } = useQuery("todos", fetchTodos, {
@@ -369,7 +528,18 @@ const { data } = useQuery("todos", fetchTodos, {
 
 React Query를 사용하면 쿼리에 대한 재시도 로직을 구현할 수 있어요. 이는 가끔 발생하는 네트워크 문제를 처리하는 데 특히 유용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const { 데이터 } = useQuery("todos", fetchTodos, {
@@ -384,7 +554,18 @@ const { 데이터 } = useQuery("todos", fetchTodos, {
 
 미리 가져오기를 통해 필요한 시점보다 데이터를 로드하여 미래의 네비게이션 및 상호작용이 더 빠르게 느껴지도록 사용자 경험을 향상시킬 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const queryClient = useQueryClient();
@@ -404,7 +585,18 @@ const { data: todos } = useQuery("todos", fetchTodos);
 
 요약하면, React Query는 React 애플리케이션에서 데이터 작업을 효율적으로 처리하는 강력한 도구로 나타납니다. 자동 캐싱, 백그라운드 업데이트, 내장형 로딩 및 오류 처리와 같은 기능을 통해 UI 개발에 우선적으로 주의를 기울일 수 있도록 돕습니다. 데이터를 가져오기 위해 useQuery를 사용하고 수정을 위해 useMutation을 사용하는 구조화된 사용법은 캐싱과 재시도 메커니즘과 같은 고급 기능과 결합하여 성능을 최적화합니다. 초보자든 숙련된 개발자든 React Query는 빠르고 효율적이며 견고한 애플리케이션을 육성하는 필수적인 요소로 입증됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React Query를 프로젝트에서 계속 탐구하고 구현하면, 현대적이고 데이터 중심의 웹 애플리케이션을 만드는 데 필수적인 역할을 발견할 것입니다. 추가 학습을 위해 React Query 문서는 깊이 있는 가이드와 API 참조를 제공하는 훌륭한 자원입니다.
 
@@ -414,7 +606,18 @@ React Query를 프로젝트에서 계속 탐구하고 구현하면, 현대적이
 
 # Stackademic
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 글을 끝까지 읽어 주셔서 감사합니다. 떠나시기 전에:
 

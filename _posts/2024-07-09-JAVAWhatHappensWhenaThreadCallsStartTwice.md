@@ -3,16 +3,13 @@ title: "JAVA 쓰레드가 start를 두 번 호출하면 어떻게 될까"
 description: ""
 coverImage: "/assets/img/2024-07-09-JAVAWhatHappensWhenaThreadCallsStartTwice_0.png"
 date: 2024-07-09 21:26
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-JAVAWhatHappensWhenaThreadCallsStartTwice_0.png
 tag: Tech
 originalTitle: "JAVA: What Happens When a Thread Calls Start Twice?"
 link: "https://medium.com/@haiou-a/java-what-happens-when-a-thread-calls-start-twice-7b85ddd22c05"
 isUpdated: true
 ---
-
-
-
 
 ![이미지](/assets/img/2024-07-09-JAVAWhatHappensWhenaThreadCallsStartTwice_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 면접관은 Java 멀티스레딩에 관련된 질문을 폭풍처럼 던져왔어요. 쓰레드 생성 방법, 쓰레드 상태, 상태 전이, 쓰레드 안전성 보장 방법, 다양한 락의 차이, 사용 방법 등에 대해 물어봤습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 열심히 자료를 외워서 대부분의 질문에 대답할 수 있었어요. 그런데 면접관이 마지막으로 한 질문은 회고적으로 간단했지만, 그 당시에는 전혀 몰랐어요.
 
@@ -30,7 +38,18 @@ isUpdated: true
 
 # Thread 시작하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 많은 면접 질문이 자바에서 스레드를 생성하는 방법으로 3, 4가지 이상이 있다고 언급하지만, 실제로 스레드를 생성하는 유일한 방법은 new Thread().start()을 사용하는 것입니다.
 
@@ -49,7 +68,18 @@ public class Test {
 
 출력:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```javascript
 Thread-0:NEW
@@ -62,7 +92,18 @@ Thread-0:RUNNABLE
 
 위의 테스트 코드를 기반으로 start() 메서드를 다시 호출해보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <img src="/assets/img/2024-07-09-JAVAWhatHappensWhenaThreadCallsStartTwice_1.png" />
@@ -85,7 +126,18 @@ public class Test {
 출력:
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 Thread-0:새로 만들어짐
@@ -101,7 +153,18 @@ start를 두 번 호출하면 IllegalThreadStateException이 발생합니다.
 
 【소스 코드 분석 1】
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 // synchronized 키워드를 사용하면이 메서드가 스레드로부터 안전하다는 것이 보장됩니다.
@@ -141,8 +204,18 @@ start 소스 코드에 중단점을 설정하고 첫 번째 start 호출을 따�
 
 ![그림](/assets/img/2024-07-09-JAVAWhatHappensWhenaThreadCallsStartTwice_2.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 시점에서 threadStatus가 0인 것으로 나타내어 thread가 NEW 상태임을 알 수 있습니다. 중단점을 설정한 후, native method인 start0()에 도달하면 threadStatus가 5로 변하여 thread가 RUNNABLE 상태임을 나타냅니다. 이제 두 번째 start 호출을 따라 진행해 봅시다.
 
@@ -152,7 +225,18 @@ start 소스 코드에 중단점을 설정하고 첫 번째 start 호출을 따�
 
 # TERMINATED Thread에 Start 호출하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 public class Test {
@@ -167,7 +251,18 @@ public class Test {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 Thread-0:TERMINATED
@@ -182,8 +277,18 @@ Exception in thread "main" java.lang.IllegalThreadStateException
 
 【소스 코드 분석 2】
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 // Thread.getState 메서드 소스 코드:

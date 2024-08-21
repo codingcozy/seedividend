@@ -3,15 +3,13 @@ title: "NanoLlava 가장 작은 시각적 언어란"
 description: ""
 coverImage: "/assets/img/2024-07-09-NanoLlavaisthesmallestVisualLanguage_0.png"
 date: 2024-07-09 15:02
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-NanoLlavaisthesmallestVisualLanguage_0.png
 tag: Tech
 originalTitle: "NanoLlava is the smallest Visual Language"
 link: "https://medium.com/generative-ai/nanollava-is-the-smallest-visual-language-9b89b139eadf"
 isUpdated: true
 ---
-
-
 
 ![이미지](/assets/img/2024-07-09-NanoLlavaisthesmallestVisualLanguage_0.png)
 
@@ -21,7 +19,18 @@ GPT-4o, Gemini-flash, PaliGemma, Copilot+PC… 이 모든 것이 1주일 안에 
 
 아무도 알지 못했지만 Abetlen이 GGUF 버전의 가장 작은 언어 모델인 TINIEST을 출시했다는 사실이죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 전체 모델은 NanoLlava를 만나실 수 있는 컴퓨터의 2GB 하드 디스크 공간에 저장됩니다.
 
@@ -40,6 +49,17 @@ Streamlit Application
 
 # 작고 강력한
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나노라바는 Sub 1B 비전-언어 모델입니다. 네, 정확히 들으셨어요! GPT-4o 수행능력을 기대하지 마세요 (그렇게 할 수는 있지만, ...혹은 소유중인 경우에만 가능합니다.)

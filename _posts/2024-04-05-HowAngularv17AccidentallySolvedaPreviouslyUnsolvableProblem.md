@@ -3,17 +3,13 @@ title: "Angular v17에서는 해결 가능한 이슈들"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How Angular v17 Accidentally Solved a Previously Unsolvable Problem"
 link: "https://javascript.plainenglish.io/how-angular-v17-accidentally-solved-a-previously-unsolvable-problem-14777e78916d"
 isUpdated: true
 ---
-
-
-
-
 
 ## 도커 빌드에서 간단한 유니코드 문자가 문제를 일으켰을 때
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이 기사에서는 간단한 유니코드 문자가 문제를 일으켰는데, 이를 해결하려는 노력 끝에 문제가 해결되지 않는 것처럼 보였던 상황을 분석해보겠습니다. 걱정하지 마세요. 그 해법을 살펴보겠지만, 다른 문제를 일으킬 수 있음에 주의해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문제에 대해 자세히 알아보기 전에 Angular, Azure Container Registry 및 Azure Pipelines Windows 에이전트가 어떻게 기여하는지 이해해야 합니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 Azure 파이프라인은 Microsoft의 솔루션으로 자동으로 빌드 및 코드 프로젝트를 테스트합니다. 이는 지속적인 통합 및 지속적인 전달 (CI/CD) 관행을 결합하여 애플리케이션을 어디든지 빌드, 테스트 및 릴리스할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Azure 파이프라인 에이전트는 한 번에 하나의 작업을 실행하는 설치된 에이전트 소프트웨어가 있는 컴퓨팅 인프라(컴퓨터)입니다. CI/CD 작업은 이러한 작업 내에서 수행됩니다.
 
@@ -44,7 +62,18 @@ Azure 파이프라인은 두 가지 주요 유형의 에이전트를 제공합�
 
 Azure 파이프라인 에이전트는 다양한 유형의 기계에 설치할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - macOS 에이전트
 - Linux 에이전트
@@ -57,7 +86,18 @@ Azure 파이프라인 에이전트는 다양한 유형의 기계에 설치할 �
 
 익숙한 docker build 형식을 사용하는 경우, Azure CLI의 az acr build 커맨드는 프로젝트를 압축하고 임시 blob 저장소에 업로드하여 Microsoft 호스팅 에이전트가 가져와 docker build를 수행할 수 있게 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 빌드 과정 중에, 빌드 에이전트는 로그를 다시 보내줍니다 (나중에 왜 이게 중요한지 알게 될 거예요). 작업이 완료되면, 생성된 이미지가 Azure Container Registry에 푸시됩니다 — Microsoft Azure 클라우드에 호스팅된 관리되는 Docker 레지스트리 서비스입니다.
 
@@ -67,7 +107,18 @@ Angular는 인기 있는 오픈 소스 프론트엔드 웹 애플리케이션 �
 
 # Angular이 책임을 질까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희 Angular 애플리케이션의 Dockerfile을 살펴보겠습니다.
 
@@ -77,7 +128,18 @@ Angular 프로젝트는 ng build 명령어를 사용하여 빌드됩니다. 이 
 
 ![output](/assets/img/HowAngularv17AccidentallySolvedaPreviouslyUnsolvableProblem_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 초록색 체크 표시가 문제를 만드는 요인입니다. 왜냐하면 "✔"는 유니코드 문자 (코드 U+2714)이기 때문이죠.
 
@@ -87,7 +149,18 @@ Angular 프로젝트는 ng build 명령어를 사용하여 빌드됩니다. 이 
 
 동일한 오류는 Python을 사용하여 Windows OS 기계에서 다음 명령을 사용하여 재현할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 (python -c "print('\u2714')") >> output.txt
@@ -99,7 +172,18 @@ Angular 프로젝트는 ng build 명령어를 사용하여 빌드됩니다. 이 
 
 문제는 파이프라인 에이전트 내에서 'checkmark'인 '\u2714' 문자를 해독하려고 시도할 때 발생하며, 이는 colorama/ansitowin32.py 스크립트 파일에 관련한 오류 로그 부분에서 확인할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 D:\a\_work\1\s\build_scripts\windows\artifacts\cli\Lib\site-packages\colorama/ansitowin32.py
@@ -111,7 +195,18 @@ D:\a\_work\1\s\build_scripts\windows\artifacts\cli\Lib\site-packages\colorama/an
 
 기술적으로, 2단계와 3단계에서 우리의 압축된 프로젝트는 Azure Blob 저장소에 업로드되며, 여기서 ACR 빌드 에이전트가 해당 데이터를 가져옵니다. 마찬가지로, ACR 빌드 에이전트는 로그를 Azure Blob 저장소에 저장하고 이것들은 az acr 명령의 일부로 스트리밍됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Azure 파이프라인 빌드 에이전트에서 발생하는 오류는 Azure Blob storage에서 로그를 스트리밍하고 표준 출력으로 인쇄하는 동안 3단계와 4단계 사이에 발생합니다.
 
@@ -121,7 +216,18 @@ Azure CLI 서버는 colorama(파이썬 패키지)를 사용하여 터미널 텍�
 
 Azure CLI의 오류는 command_modules/acr/\_stream_utils.py 파일 143번째 줄에서 발생합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import colorama
@@ -139,7 +245,18 @@ Colorama는 Win32 API 호출을 사용하여 터미널의 상태를 수정하며
 
 이제 이 배경에서 무슨 일이 일어나는지 이해하기 시작했습니다. 하지만 실제 해결책을 살펴보기 전에 다른 가능성 있는 반쯤 마음에 드는 해결책들을 확인해 봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 로그를 비활성화하면 문제가 해결될 것으로 생각되지만, 더 나은 방법이 있습니다.
 
@@ -149,7 +266,18 @@ Colorama는 Win32 API 호출을 사용하여 터미널의 상태를 수정하며
 az acr build --no-logs --registry $(Registry) --image "$(image):$(tag)" .
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - `ng build` 명령의 진행 로그를 progress=false 인자로 비활성화하세요. 진행 관련 일부 로그를 잃지만 이상적인 해결책은 아닙니다.
 
@@ -161,7 +289,18 @@ RUN npm run build -- --progress=false
 
 해결책을 살펴보기 전에, 인코딩 및 문자 세트 (코드 페이지)가 어떻게 작동하는지 이해하는 것이 좋습니다. Unicode 및 Character Sets (No Excuses!) 기사를 읽으면 개발자가 꼭 알아야 할 최소한의 내용을 이해할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - ACP는 ANSI (미국 국가 표준 협회) 코드 페이지를 의미하며, 기본적으로 미국 및 서유럽 지역에서는 Windows-1252 문자 집합으로 설정됩니다. 이는 레거시 GUI 애플리케이션에서 사용됩니다.
 - OEMCP는 원본 장비 제조업체 코드 페이지를 의미하며, 기본적으로는 원본 IBM PC의 문자 집합인 437로 설정됩니다. 이는 레거시 콘솔 애플리케이션에서 사용됩니다.
@@ -175,7 +314,18 @@ Get-ItemProperty HKLM:\SYSTEM\CurrentControlSet\Control\Nls\CodePage `
 
 ![이미지](/assets/img/HowAngularv17AccidentallySolvedaPreviouslyUnsolvableProblem_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지역 설정에 따라이 값은 코드 페이지 식별자 목록 중 아무것이나 가질 수 있습니다. 가장 일반적인 것들은 다음과 같습니다:
 
@@ -197,7 +347,18 @@ cmd.exe와 powershell.exe에서 텍스트는 현재 지정된 ANSI 코드 페이
 
 유니코드 특정 문자를 인코딩하기 위해 Windows 레지스트리 항목을 변경하여 Windows가 UTF-8 인코딩 (코드 페이지 65001)을 사용하도록해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 New-ItemProperty -LiteralPath 'HKLM:\SYSTEM\CurrentControlSet\Control\Nls\CodePage' -Name 'ACP' -Value '65001' -PropertyType String -Force;
@@ -212,7 +373,18 @@ New-ItemProperty -LiteralPath 'HKLM:\SYSTEM\CurrentControlSet\Control\Nls\CodePa
 
 ![이미지](/assets/img/HowAngularv17AccidentallySolvedaPreviouslyUnsolvableProblem_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 이 솔루션이 다른 문제를 일으키는 방법
 
@@ -222,7 +394,18 @@ New-ItemProperty -LiteralPath 'HKLM:\SYSTEM\CurrentControlSet\Control\Nls\CodePa
 
 ## Linux 에이전트
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금 문제는 Linux 기반 Azure DevOps 에이전트에서도 동일한 오류가 발생하는가요? 그 답은 아닙니다. 왜냐하면 colorama에서 터미널 출력을 변경하기 위해 Win32 API 호출을 할 필요가 없기 때문이죠.
 
@@ -232,7 +415,18 @@ New-ItemProperty -LiteralPath 'HKLM:\SYSTEM\CurrentControlSet\Control\Nls\CodePa
 
 ![How Angular v17 Accidentally Solved a Previously Unsolvable Problem](/assets/img/HowAngularv17AccidentallySolvedaPreviouslyUnsolvableProblem_5.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -242,7 +436,18 @@ New-ItemProperty -LiteralPath 'HKLM:\SYSTEM\CurrentControlSet\Control\Nls\CodePa
 
 이것이 과거에 직면한 보이지 않는 해결이 불가능한 코딩 문제를 다시 해결하고 재시도하는 동기부여가 되길 바랍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사에서 사용된 모든 소스 코드는 내 GitHub 저장소에 있습니다.
 

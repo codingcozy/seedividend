@@ -3,16 +3,13 @@ title: "전략 패턴 NET C"
 description: ""
 coverImage: "/assets/img/2024-06-20-StrategyPatternNETC_0.png"
 date: 2024-06-20 04:08
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-StrategyPatternNETC_0.png
 tag: Tech
 originalTitle: "Strategy Pattern .NET (C#)"
 link: "https://medium.com/codenx/strategy-pattern-net-c-ea0d122f60c4"
 isUpdated: true
 ---
-
-
-
 
 전략(pattern) 패턴은 알고리즘의 동작을 런타임(runtime)에서 선택할 수 있게 해주는 행동 디자인 패턴입니다. 주요 아이디어는 알고리즘의 집합을 정의하고 각각을 캡슐화하여 상호 교환 가능하게 만드는 것입니다. 전략(pattern) 패턴은 알고리즘을 사용하는 클라이언트로부터 독립적으로 알고리즘을 변경할 수 있게 합니다.
 
@@ -24,7 +21,18 @@ isUpdated: true
 
 ## 원칙과 정책
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 변이의 캡슐화: 전략 패턴은 알고리즘의 변하는 부분을 유지되는 부분과 캡슐화합니다. 이는 알고리즘의 변경이 클라이언트 코드에 영향을 미치지 않는다는 것을 의미합니다.
 - 인터페이스에 프로그래밍, 구현에 프로그래밍하지 말기: 클라이언트는 구현이 아닌 인터페이스를 통해 전략과 상호작용합니다. 이는 클라이언트 코드가 인터페이스를 구현하는 어떤 전략과도 작동할 수 있다는 것을 의미합니다.
@@ -38,7 +46,18 @@ isUpdated: true
 
 크레딧 카드, PayPal 또는 암호화폐와 같이 다양한 결제 전략이 필요한 결제 처리 시스템을 고려해 봅시다. 결제 전략은 종종 변경되거나 추가가 필요할 수 있어 전략 패턴에 적합한 사용 사례입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-20-StrategyPatternNETC_0.png" />
 
@@ -64,7 +83,18 @@ var paymentProcessor = new PaymentProcessor();
 paymentProcessor.ProcessPayment(100.00m, "CreditCard");
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 PayPal을 결제 방법으로 추가해야 한다고 가정해 보겠습니다. PaymentProcessor 클래스를 수정하여 다른 if-else 조건을 추가해야 할 수 있습니다.
 
@@ -99,7 +129,18 @@ paymentProcessor.ProcessPayment(75.50m, "PayPal");
 - 유지보수성: 시간이 흐르면서 ProcessPayment 메서드는 점점 복잡해지고 관리하기 어려워집니다.
 - 개방/폐쇄 원칙 위반: 이 클래스는 수정을 열어둔 상태입니다. 새로운 결제 유형을 추가할 때마다 이 클래스를 수정해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 전략 패턴 사용하기
 
@@ -114,7 +155,18 @@ public interface IPaymentStrategy
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 구체적인 전략
 
@@ -162,17 +214,28 @@ public class PaymentProcessor
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 사용법
 
 ```js
 var creditCardPayment = new PaymentProcessor(new CreditCardPaymentStrategy());
-creditCardPayment.ProcessPayment(100.00m); 
+creditCardPayment.ProcessPayment(100.0m);
 // 출력: 신용 카드로 100.00 처리 중
 
 var payPalPayment = new PaymentProcessor(new PayPalPaymentStrategy());
-payPalPayment.ProcessPayment(75.50m); 
+payPalPayment.ProcessPayment(75.5m);
 // 출력: PayPal로 75.50 처리 중
 ```
 
@@ -180,7 +243,18 @@ payPalPayment.ProcessPayment(75.50m);
 
 기존 시스템에 새로운 암호화폐 결제 전략을 추가하는 방법을 살펴보고 이 접근 방식이 기능 확장을 어떻게 단순화하는지 비교해봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 암호화폐 결제 전략 추가하기
 
@@ -199,11 +273,22 @@ public class CryptoPaymentStrategy : IPaymentStrategy
 
 새 전략을 사용하는 방법은 새 CryptoPaymentStrategy로 PaymentProcessor를 인스턴스화하는 것만으로 간단합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```javascript
 var cryptoPayment = new PaymentProcessor(new CryptoPaymentStrategy());
-cryptoPayment.ProcessPayment(50.00m); 
+cryptoPayment.ProcessPayment(50.0m);
 // 출력: 50.00을(를) 암호화폐를 통해 처리 중
 ```
 
@@ -215,7 +300,18 @@ cryptoPayment.ProcessPayment(50.00m);
 - 개방/폐쇄 원칙 준수: 시스템은 확장을 위해 열려 있지만 수정은 닫혀 있습니다. 기존 클래스를 변경하지 않고 새로운 지불 전략을 추가할 수 있습니다.
 - 간결함과 유지보수성: PaymentProcessor 클래스는 간단한 상태를 유지하며 새 지불 방법이 추가될수록 복잡성이 증가하지 않습니다. 각 지불 방법은 자체 클래스에 캡슐화되어 있어 시스템을 이해하고 유지하기 쉬워집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 정보가 유용했길 바랍니다. 🌟 즐거우면서도 풍부한 학습 여정을 희망합니다!
 

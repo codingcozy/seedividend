@@ -3,16 +3,13 @@ title: "코딩 없이 바로 사용할 수 있는 실용적인 파이썬 팁 5�
 description: ""
 coverImage: "/assets/img/2024-07-12-5PracticalPythonTipsNoCodingRequiredReadytoUse_0.png"
 date: 2024-07-12 20:52
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-12-5PracticalPythonTipsNoCodingRequiredReadytoUse_0.png
 tag: Tech
 originalTitle: "5 Practical Python Tips: No Coding Required, Ready to Use!"
 link: "https://medium.com/top-python-libraries/5-practical-python-tips-no-coding-required-ready-to-use-b433e8e9e407"
 isUpdated: true
 ---
-
-
-
 
 ## 파이썬 기술
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 # Python CLI "-m" 매개변수
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파이썬 CLI (명령줄 인터페이스)로 시작해봅시다. 나중에 언급할 기능들을 사용하기 위해 코드를 작성할 필요는 없지만, 파이썬이 우리가 무엇을 하고 싶은지 알 수 있도록 파이썬 명령줄을 사용해야 합니다.
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 출력이 길기 때문에 위 이미지는 일부만 보여줍니다. 여기서 강조하고 싶은 것은 `-m mod` 매개변수인데, 이는 파이썬 모듈을 스크립트로 실행합니다. 모듈이 명령줄 작업을 지원한다면, 해당 모듈을 명령줄에서 바로 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 서버 포트 테스트
 
@@ -44,7 +63,18 @@ isUpdated: true
 python -m telnetlib -d 142.250.70.174 443
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 로컬 웹 서버 시작하기
 
@@ -56,8 +86,18 @@ python -m http.server
 
 실행한 후에는 서비스가 로컬 8000 포트에서 수신 대기합니다. 그런 다음 브라우저에서 http://localhost:8000/을 통해 접속할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-07-12-5PracticalPythonTipsNoCodingRequiredReadytoUse_1](/assets/img/2024-07-12-5PracticalPythonTipsNoCodingRequiredReadytoUse_1.png)
 
@@ -67,8 +107,18 @@ python -m http.server
 
 ![2024-07-12-5PracticalPythonTipsNoCodingRequiredReadytoUse_2](/assets/img/2024-07-12-5PracticalPythonTipsNoCodingRequiredReadytoUse_2.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # JSON 문자열 확인 및 서식 지정
 
@@ -80,7 +130,18 @@ echo '{"name": {"first_name":"Chris", "last_name":"Tao"} "age":33}'
 
 위 명령줄 도구로는 원래의 형식으로 표시되지만, Python의 `json.tool` 도구를 사용하면 JSON 문자열이 잘 서식이 지정됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 죄송합니다! JSON 문자열이 잘못되었네요. `json.tool`을 사용하면 문제를 파악할 수 있어요. "name" 객체 뒤에 쉼표를 빠뜨렸네요. 쉼표를 추가하면 JSON이 올바르게 됩니다.
 
@@ -90,7 +151,18 @@ echo '{"name": {"first_name":"Chris", "last_name":"Tao"} "age":33}'
 
 맞아요, Python을 사용하여 텍스트 에디터를 "만들" 수 있어요. 물론 기능이 제한적이지만, 더 나은 옵션이 없을 때 유용해요. Vim이나 Nano와 기능 면에서 비교할 수 없지만, 명령줄 텍스트 에디터가 아닌 UI 에디터에요. 이 에디터는 Tkinter를 기반으로 한 `idlelib` 모듈에 의해 만들어졌기 때문에 크로스 플랫폼이에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단한 Python 프로그램을 작성하여 현재 시간을 표시하려고 합니다. 큰 코드 편집기를 다운로드하고 설치하지 않고 빠르게 코드를 작성하려면 다음 명령을 실행해 봅시다.
 
@@ -103,8 +175,18 @@ python -m idlelib get_time_app/print_time.py
 
 ![Image](/assets/img/2024-07-12-5PracticalPythonTipsNoCodingRequiredReadytoUse_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `ctrl+s`를 사용하여 코드를 저장하고 편집기를 닫으세요. 명령줄에서 편집된 코드 파일을 확인하고 문제가 없어야 합니다.
 
@@ -116,12 +198,20 @@ cat get_time_app/print_time.py
 
 현재 시간을 가져오는 간단한 애플리케이션을 만들고 싶다면, PyInstaller와 같은 서드파티 도구가 필요하지 않습니다. Python의 내장 Zipapp을 사용할 수 있습니다. "현재 시간 가져오기" 애플리케이션으로 패키지하려면, 명령줄에서 다음 명령을 실행하세요.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 python -m zipapp get_time_app -m "print_time:main"
-
 
 우리는 `zipapp` 이름을 `get_time_app`으로 설정하고, 파이썬 프로그램의 진입 파일과 진입 함수를 지정하기만 하면 됩니다. `.pyz` 확장자를 가진 파일이 우리가 만든 애플리케이션입니다. 이 프로젝트를 폴더가 아닌 단일 파일로 배포할 수 있습니다.
 
@@ -129,8 +219,18 @@ python -m zipapp get_time_app -m "print_time:main"
 
 프로그램을 실행하는 것은 간단합니다. Python을 사용하여 직접 호출하면 됩니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 python get_time_app.pyz
@@ -142,7 +242,18 @@ python get_time_app.pyz
 
 총 10편의 글 중 8번째 글이 이미 완료되었습니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 글을 읽어 주셔서 감사합니다!📖 형광펜으로 강조해 주시고🖍️ 박수를 보내 주시고👏 댓글을 남겨 주시고💬 공유해 주셔서 감사합니다🗣️. "미디엄의 친구"로서 매일 열심히 노력하고 있습니다.
 

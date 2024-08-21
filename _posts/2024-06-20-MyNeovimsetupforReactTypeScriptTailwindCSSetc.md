@@ -3,16 +3,13 @@ title: "내 Neovim 설정 React, TypeScript, Tailwind CSS 등"
 description: ""
 coverImage: "/assets/img/2024-06-20-MyNeovimsetupforReactTypeScriptTailwindCSSetc_0.png"
 date: 2024-06-20 05:27
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-MyNeovimsetupforReactTypeScriptTailwindCSSetc_0.png
 tag: Tech
 originalTitle: "My Neovim setup for React, TypeScript, Tailwind CSS, etc"
 link: "https://medium.com/prodhacker/my-neovim-setup-for-react-typescript-tailwind-css-etc-in-2022-a7405862c9a4"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-06-20-MyNeovimsetupforReactTypeScriptTailwindCSSetc_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 여기 제 설정의 간단한 요약입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Neovim `= 0.7
 - wbthomason/packer.nvim — Neovim을 위한 플러그인 매니저
@@ -58,7 +66,18 @@ isUpdated: true
 
 # 사전 요구 사항 — iTerm2 및 Patched Nerd 글꼴
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 iTerm2는 macOS용 빠른 터미널 에뮬레이터입니다. 터미널에서 멋진 글리프를 표시하기 위해 Nerd Fonts 중 하나를 설치하세요. 저는 현재 Hack을 사용하고 있어요. 그리고 터미널 앱에서 사용해보세요. 예를 들어, iTerm2에서:
 
@@ -68,7 +87,18 @@ iTerm2는 macOS용 빠른 터미널 에뮬레이터입니다. 터미널에서 �
 
 간단합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 brew install neovim
@@ -88,7 +118,18 @@ Neovim은 XDG 기본 디렉토리 구조를 준수합니다. 여기는 내 설�
 └── 🇻 init.lua
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Neovim은 $HOME/.config/nvim/init.vim 또는 init.lua를 $HOME/.vimrc 대신 먼저로드합니다. 자세한 내용은 퀵스타트 가이드를 확인해보세요:
 
@@ -101,7 +142,18 @@ git clone --depth 1 https://github.com/wbthomason/packer.nvim \
 ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러면, 다음과 같이 `.config/nvim/lua/plugins.lua` 파일을 만들어주세요:
 
@@ -123,10 +175,21 @@ end)
 그런 다음, `init.lua`에서 다음과 같이 불러오세요:
 
 ```js
-require('plugins') 
+require("plugins");
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 색 구성표: Neosolarized
 
@@ -153,7 +216,7 @@ Color.new('black', '#000000')
 Group.new('CursorLine', colors.none, colors.base03, styles.NONE, colors.base1)
 Group.new('CursorLineNr', colors.yellow, colors.black, styles.NONE, colors.base1)
 Group.new('Visual', colors.none, colors.base03, styles.reverse)
-  
+
 local cError = groups.Error.fg
 local cInfo = groups.Information.fg
 local cWarn = groups.Warning.fg
@@ -167,9 +230,20 @@ Group.new("DiagnosticUnderlineError", colors.none, colors.none, styles.undercurl
 Group.new("DiagnosticUnderlineWarn", colors.none, colors.none, styles.undercurl, cWarn)
 Group.new("DiagnosticUnderlineInfo", colors.none, colors.none, styles.undercurl, cInfo)
 Group.new("DiagnosticUnderlineHint", colors.none, colors.none, styles.undercurl, cHint)
-```  
+```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 상태 라인: Lualine
 
@@ -223,7 +297,18 @@ lualine.setup {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Lspconfig
 
@@ -251,12 +336,23 @@ nvim_lsp.tsserver.setup {
   on_attach = on_attach,
   filetypes = { "typescript", "typescriptreact", "typescript.tsx" },
   cmd = { "typescript-language-server", "--stdio" }
-} 
+}
 ```
 
 타입스크립트 언어 서버를 설치하는 것을 잊지 마세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm i -g typescript-language-server
@@ -268,8 +364,18 @@ npm i -g typescript-language-server
 
 팬시한 픽토그램이 포함된 LSP를 인식하는 자동 완성 기능을 얻으려면 다음 플러그인을 사용합니다:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - onsails/lspkind-nvim - VSCode와 비슷한 그림표
 - L3MON4D3/LuaSnip - 스니펫 엔진
@@ -317,8 +423,18 @@ vim.cmd [[
 
 # 문법 강조: Treesitter
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-20-MyNeovimsetupforReactTypeScriptTailwindCSSetc_5.png)
 
@@ -330,8 +446,18 @@ brew install tree-sitter
 
 Packer를 사용하여 nvim-treesitter/nvim-treesitter를 설치하고 다음과 같이 구성하세요:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 local status, ts = pcall(require, "nvim-treesitter.configs")
@@ -378,7 +504,18 @@ if (not status) then return end
 autotag.setup({})
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 windwp/nvim-autopairs는 괄호를 자동으로 닫아주는 플러그인이에요.
 
@@ -395,7 +532,18 @@ autopairs.setup({
 
 ![이미지](/assets/img/2024-06-20-MyNeovimsetupforReactTypeScriptTailwindCSSetc_6.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 telescope.nvim은 최신 Neovim 기능을 기반으로 한 목록 위의 대화식 퍼지 파인더를 제공합니다. 또한 filer로 telescope-file-browser.nvim을 사용합니다.
 
@@ -405,7 +553,18 @@ Telescope, 상태행 및 다른 지원 플러그인에 파일 아이콘을 얻�
 
 구성은 다음과 같이 보일 것입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 local status, telescope = pcall(require, "telescope")
@@ -454,7 +613,7 @@ vim.keymap.set('n', ';e', function()
 end)
 ```
 
-이미지를 추가했어요: 
+이미지를 추가했어요:
 
 ![이미지](/assets/img/2024-06-20-MyNeovimsetupforReactTypeScriptTailwindCSSetc_7.png)
 
@@ -507,7 +666,18 @@ vim.keymap.set("n", "sf", function()
 end)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 탭: 버퍼 라인
 
@@ -552,9 +722,20 @@ bufferline.setup({
 
 vim.keymap.set('n', '<Tab>', '<Cmd>BufferLineCycleNext<CR>', {})
 vim.keymap.set('n', '<S-Tab>', '<Cmd>BufferLineCyclePrev<CR>', {})
-```  
+```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # LSP 설정: Lspsaga
 
@@ -564,7 +745,18 @@ vim.keymap.set('n', '<S-Tab>', '<Cmd>BufferLineCyclePrev<CR>', {})
 
 ![](/assets/img/2024-06-20-MyNeovimsetupforReactTypeScriptTailwindCSSetc_11.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 local status, saga = pcall(require, "lspsaga")
@@ -591,8 +783,18 @@ vim.keymap.set('n', 'gr', '<Cmd>Lspsaga rename<CR>', opts)
 
 TypeScript/JavaScript/CSS 파일을 포맷하는 데 Prettier에 큰 의존을 하고 있습니다. 이를 위해 jose-elias-alvarez/null-ls.nvim 및 MunifTanjim/prettier.nvim을 사용합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, prettierd를 설치해야 합니다:
 
@@ -616,7 +818,18 @@ null_ls.setup({
 })
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 친화적인 톤으로 번역하면:
 
@@ -643,8 +856,18 @@ prettier.setup {
 
 ![이미지](/assets/img/2024-06-20-MyNeovimsetupforReactTypeScriptTailwindCSSetc_12.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 lewis6991/gitsigns.nvim은 현재 버퍼에 대한 Git 장식을 제공합니다. 현재 변경된 줄을 파악하는 데 도움이 됩니다. 기본 설정으로 작동합니다.
 
@@ -656,7 +879,18 @@ require('gitsigns').setup {}
 
 <img src="/assets/img/2024-06-20-MyNeovimsetupforReactTypeScriptTailwindCSSetc_13.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요즘 제가 자주 사용하는 사이트는 GitHub입니다. dinhhuy258/git.nvim을 사용하면 Neovim에서 바로 GitHub을 열 수 있고, 분할 화면에서 git blame을 볼 수 있어 정말 편리해요.
 
@@ -678,7 +912,18 @@ git.setup({
 
 <img src="/assets/img/2024-06-20-MyNeovimsetupforReactTypeScriptTailwindCSSetc_14.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 특정 라이브러리에 대한 추가 LSP 지원이 필요하면 williamboman/mason.nvim 및 williamboman/mason-lspconfig.nvim이 필요할 수 있습니다. Neovim에서 Tailwind CSS 언어 서버를 실행하기 위해 사용하고 있어요.
 
@@ -702,7 +947,18 @@ local nvim_lsp = require "lspconfig"
 nvim_lsp.tailwindcss.setup {}
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것으로 대부분 끝났어요! 네오빔 환경을 개선하는 데 도움이 되길 바랍니다.
 

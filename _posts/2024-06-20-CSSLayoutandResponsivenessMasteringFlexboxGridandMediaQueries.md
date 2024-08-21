@@ -3,16 +3,13 @@ title: "CSS 레이아웃 및 반응 형성 Flexbox, Grid 및 미디어 쿼리 �
 description: ""
 coverImage: "/assets/img/2024-06-20-CSSLayoutandResponsivenessMasteringFlexboxGridandMediaQueries_0.png"
 date: 2024-06-20 03:34
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-CSSLayoutandResponsivenessMasteringFlexboxGridandMediaQueries_0.png
 tag: Tech
 originalTitle: "CSS Layout and Responsiveness: Mastering Flexbox, Grid, and Media Queries"
 link: "https://medium.com/@etwinworkshop/css-layout-and-responsiveness-mastering-flexbox-grid-and-media-queries-7840862db936"
 isUpdated: true
 ---
-
-
-
 
 웹 레이아웃을 잘 구조화하고 반응형으로 만드는 것은 어려울 수 있지만, CSS는 이 작업을 쉽게 만들어 주는 강력한 도구를 제공합니다.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 # 왜 CSS 레이아웃 방법이 중요한 이유
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 구체적인 내용에 들어가기 전에 CSS 레이아웃 방법이 왜 중요한지 이해해 봅시다. 전통적인 레이아웃 기술인 플로트(floats) 사용은 종종 복잡하고 유지보수하기 어려운 코드로 이어집니다.
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 플렉스박스(Flexbox) 또는 유연한 박스 레이아웃은 하나의 축(수평 또는 수직)을 따라 공간을 분배하도록 디자인되었습니다. 컨테이너 내에서 항목을 정렬하고 공간을 분배하는 것을 쉽게 만들어 줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 플렉스박스를 사용해야 하는 경우:
 
@@ -43,7 +62,18 @@ isUpdated: true
 
 HTML:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <!DOCTYPE html>
@@ -88,8 +118,18 @@ HTML:
 
 ## What the code displays
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-20-CSSLayoutandResponsivenessMasteringFlexboxGridandMediaQueries_0.png" />
 
@@ -101,7 +141,18 @@ HTML:
 
 ## Flexbox의 제한사항:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 하나의 차원적 레이아웃을 위해 디자인되었으며, 따라서 행이나 열 중 하나만 처리하고 동시에 둘 다 처리하지는 않습니다.
 
@@ -111,7 +162,18 @@ CSS Grid Layout 또는 격자(Grid)는 두 차원 레이아웃을 만들기 위�
 
 ## Grid을 사용해야 하는 경우:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 2차원 레이아웃(예: 포토 갤러리, 복잡한 웹 페이지 레이아웃)에 사용됩니다.
 - 행과 열을 모두 정확하게 제어해야 할 때 유용합니다.
@@ -146,7 +208,18 @@ HTML:
 </html>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS:
 
@@ -170,7 +243,18 @@ CSS:
 
 <img src="/assets/img/2024-06-20-CSSLayoutandResponsivenessMasteringFlexboxGridandMediaQueries_1.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 그리드의 문제를 해결하는 부분:
 
@@ -182,7 +266,18 @@ CSS:
 
 - 간단한 레이아웃에는 부담스러울 수 있으며, 해당 경우 플렉스박스가 더 적합할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 미디어 쿼리를 활용한 반응형 디자인
 
@@ -192,10 +287,20 @@ CSS:
 
 ## 기본적인 미디어 쿼리 예시:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Markdown:
-
 
 # Media Query Example
 
@@ -217,6 +322,7 @@ Markdown:
 ```
 
 **Media query for screens wider than 600px:**
+
 ```css
 @media (min-width: 600px) {
   .responsive-item {
@@ -226,6 +332,7 @@ Markdown:
 ```
 
 **Media query for screens wider than 900px:**
+
 ```css
 @media (min-width: 900px) {
   .responsive-item {
@@ -249,7 +356,18 @@ Markdown:
 </div>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 미디어 쿼리가 해결하는 문제:
 
@@ -261,7 +379,18 @@ Markdown:
 
 플렉스박스와 그리드와 같은 CSS 레이아웃 기법 및 미디어 쿼리를 사용한 반응형 디자인 원칙을 이해하고 숙달하는 것은 현대 웹 개발에 필수적인 기술입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 도구들은 유연하고 적응 가능하며 사용자 친화적인 웹 레이아웃을 만드는 과정을 간편화합니다.
 

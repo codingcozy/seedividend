@@ -3,17 +3,13 @@ title: "backbonejs 란 무엇인가"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Backbonejs and its Advantages"
 link: "https://medium.com/@shariq.ahmed525/backbone-js-and-its-advantages-3224ef3b0451"
 isUpdated: true
 ---
-
-
-
-
 
 ![Backbone.js와 그 이점](/assets/img/BackbonejsanditsAdvantages_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이외에도 backbone.js에는 많은 독특한 기능이 있었습니다. 모든 현대적인 JS 앱에 필요한 기본 기능이 포함되어 있었습니다. 이는 파브 서브 모듈과 유사한 이벤트 모듈을 함께 제공했습니다. 또한 backbone 모델을 만드는 방법을 제공했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 바람직한 질문은 왜 backbone.js를 사용해야 하는가일 것입니다? 그렇죠, backbone.js의 여러 가지 이점 중 일부를 살펴보겠습니다.
 

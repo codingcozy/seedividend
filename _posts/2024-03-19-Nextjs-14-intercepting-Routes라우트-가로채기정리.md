@@ -3,17 +3,13 @@ title: "Nextjs 14 intercepting Routes라우트 가로채기정리"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # Nextjs 14 intercepting Routes(라우트 가로채기)정리
 
@@ -21,7 +17,18 @@ isUpdated: true
 
 라우트 가로채기는 현재 레이아웃 내에서 애플리케이션의 다른 부분에서 라우트를 로드할 수 있게 해줍니다. 이 라우팅 패러다임은 사용자가 다른 컨텍스트로 전환하지 않고도 라우트의 내용을 표시할 때 유용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, 피드에서 사진을 클릭하면 피드 위에 모달로 사진을 표시할 수 있습니다. 이 경우 Next.js는 /photo/123 라우트를 가로채서 URL을 가린 다음 /feed 위에 오버레이합니다.
 
@@ -31,7 +38,18 @@ isUpdated: true
 
 ![라우트 가로채기 예시](/assets/img/Intercepting-Routes_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 규칙
 
@@ -50,7 +68,18 @@ isUpdated: true
 
 > (..) 컨벤션은 파일 시스템이 아니라 라우트 세그먼트를 기반으로 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 예시
 
@@ -65,7 +94,18 @@ isUpdated: true
 
 사용자가 갤러리에서 클라이언트 측 탐색을 사용하여 사진 모달을 열거나 공유 가능한 URL을 통해 사진 페이지로 직접 이동할 수 있는 다음 UI 패턴을 고려해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![라우트 가로채기 예시](/assets/img/Intercepting-Routes_3.png)
 

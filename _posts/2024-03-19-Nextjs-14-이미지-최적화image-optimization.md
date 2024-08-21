@@ -3,17 +3,13 @@ title: "Nextjs 14 이미지 최적화image optimization 방법 정리"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # Nextjs 14 이미지 최적화(image optimization)
 
@@ -30,7 +26,18 @@ Next.js의 Image 컴포넌트는 자동 이미지 최적화 기능을 제공하�
 
 > 🎥 시청: next/image 사용 방법에 대해 자세히 알아보기 → YouTube (9분)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 사용법
 
@@ -79,17 +86,23 @@ import Image from "next/image";
 
 export default function Page() {
   return (
-    <Image
-      src="https://s3.amazonaws.com/my-bucket/profile.png"
-      alt="Picture of the author"
-      width={500}
-      height={500}
-    />
+    <Image src="https://s3.amazonaws.com/my-bucket/profile.png" alt="Picture of the author" width={500} height={500} />
   );
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지 최적화를 안전하게 허용하려면 next.config.js에서 지원하는 URL 패턴 목록을 정의하세요. 악의적 사용을 방지하려면 가능한 한 구체적으로 지정하세요. 예를 들어 다음 구성은 특정 AWS S3 버킷에서만 이미지를 허용합니다.
 
@@ -118,7 +131,18 @@ remotePatterns 구성에 대해 자세히 알아보세요. 이미지 src에 대�
 
 > remotePatterns 구성에 대해 자세히 알아보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 로더
 
@@ -151,7 +175,18 @@ export default function Page() {
 
 우선순위에 대한 자세한 내용은 next/image 컴포넌트 문서를 참조하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 이미지 크기 지정
 
@@ -192,7 +227,18 @@ inline 스타일을 지정하기 위해 style 속성을 사용할 수도 있습�
 
 ## 예시
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 반응형
 
@@ -256,7 +302,18 @@ export default function Fill() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 배경 이미지
 
@@ -285,7 +342,18 @@ export default function Background() {
 
 다양한 스타일과 함께 Image 컴포넌트를 사용한 예제는 Image Component Demo를 참조하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 다른 속성
 

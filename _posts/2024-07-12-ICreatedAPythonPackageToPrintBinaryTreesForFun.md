@@ -3,16 +3,13 @@ title: "이진 트리 출력용 파이썬 패키지 제작기 재미로 했어�
 description: ""
 coverImage: "/assets/img/2024-07-12-ICreatedAPythonPackageToPrintBinaryTreesForFun_0.png"
 date: 2024-07-12 20:57
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-12-ICreatedAPythonPackageToPrintBinaryTreesForFun_0.png
 tag: Tech
 originalTitle: "I Created A Python Package To Print Binary Trees For Fun"
 link: "https://medium.com/gitconnected/i-created-a-python-package-to-print-binary-trees-for-fun-e68011db9b08"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-07-12-ICreatedAPythonPackageToPrintBinaryTreesForFun_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 기존 솔루션을 사용하고 코드를 약간 더 써가며 내 시간을 낭비하는 대신, 개발자들이 흔히 하는 것처럼, 몇 일을 허비해서 처음부터 내가 직접 패키지를 만들기로 결정했죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 내 패키지 — print-btree
 
@@ -34,7 +42,18 @@ pip install print-btree
 
 Github: https://github.com/zlliu246/print_btree
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 기본 사용 방법
 
@@ -60,9 +79,9 @@ print_btree(root)
 
  __1__
  |   |
-_2_  3 
-| |    
-4 5   
+_2_  3
+| |
+4 5
 
 '''
 ```
@@ -71,7 +90,18 @@ _2_  3
 
 # 노드가 다른 이름을 사용하는 경우 어떻게 하나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 from print_btree import print_btree
@@ -90,7 +120,7 @@ root.left_node.right_node = BNode(5)
 root.right_node.right_node = BNode(100)
 
 # we pass in the names here
-print_btree(root, 
+print_btree(root,
             val='value',
             left='left_node',
             right='right_node')
@@ -115,7 +145,18 @@ _2_  3__
 
 문제없이 이 이름들을 print_btree에 전달할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 일부로 매우 긴 값 이름을 지원합니다
 
@@ -151,7 +192,18 @@ pear   pineapplejuice       durian
 
 # 빠른 논리 요약
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가정하에 이진 트리를 출력해야 한다고 가정합시다.
 
@@ -194,7 +246,18 @@ root
 # 참고: None 값은 순서를 유지하기 위해 유지됩니다.
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 마크다운 형식으로 변경해주세요.
 
@@ -227,12 +290,23 @@ pear   pineapplejuice  ?   durian
 '''
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "4단계) 다음으로 아래에 있는 목록에서 문자열 생성하기
 
 ```js
-# from 
+# from
 ['pie', 'juice']    # 그리고
 ' |        |      |      |  '
 
@@ -276,7 +350,16 @@ pear   pineapplejuice   ?   durian
 pear   pineapplejuice   ?   durian
 '''
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -286,7 +369,16 @@ pear   pineapplejuice   ?   durian
 
 응원합니다
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 만약 제가 만든 작품을 지원하고 싶다면
 
@@ -300,6 +392,16 @@ pear   pineapplejuice   ?   durian
 
 YouTube: [여기를 클릭하세요](https://www.youtube.com/@zlliu246)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LinkedIn: [https://www.linkedin.com/in/zlliu/](https://www.linkedin.com/in/zlliu/)
+```

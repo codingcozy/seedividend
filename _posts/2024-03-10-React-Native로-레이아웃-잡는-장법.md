@@ -3,23 +3,30 @@ title: "React Native로 레이아웃 잡는 방법"
 description: "React Native에서 레이아웃을 디자인하는 고급 기술에 대해 알아봅니다"
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
 
-
-
-
-
 # React Native로 레이아웃 디자인하기: 고급 기술 소개
 
 <img src="/assets/img/Advanced-React-Native-CSS-Layout-Techniques_0.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 소개
 
@@ -38,7 +45,18 @@ React Native에서는 플렉스박스(flexbox)와 절대위치 지정(absolute p
 </View>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/Advanced-React-Native-CSS-Layout-Techniques_1.png" />
 
@@ -46,7 +64,18 @@ React Native에서는 플렉스박스(flexbox)와 절대위치 지정(absolute p
 
 요소를 정렬하기 위해 alignItems와 justifyContent 스타일 속성을 사용할 수 있습니다. justifyContent는 주축을 따라 항목들의 정렬을 조절하고, alignItems는 교차축을 따라 항목들의 정렬을 조절합니다. 이러한 속성은 'flex-start', 'flex-end', 'center', 'stretch', 또는 'space-between'으로 설정할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, 이전 예제의 플렉스 컨테이너에서 요소들을 가운데 정렬하려면:
 
@@ -78,15 +107,9 @@ flexGrow 속성을 사용하면 컨테이너 내의 다른 항목들과 비교�
 
 ```js
 <View style={{ flexDirection: "row" }}>
-  <View
-    style={{ flexGrow: 1, width: 50, height: 50, backgroundColor: "red" }}
-  />
-  <View
-    style={{ flexGrow: 2, width: 50, height: 50, backgroundColor: "blue" }}
-  />
-  <View
-    style={{ flexGrow: 3, width: 50, height: 50, backgroundColor: "green" }}
-  />
+  <View style={{ flexGrow: 1, width: 50, height: 50, backgroundColor: "red" }} />
+  <View style={{ flexGrow: 2, width: 50, height: 50, backgroundColor: "blue" }} />
+  <View style={{ flexGrow: 3, width: 50, height: 50, backgroundColor: "green" }} />
 </View>
 ```
 
@@ -106,7 +129,18 @@ React Native에서 미디어 쿼리를 사용하려면 Dimensions 모듈을 사�
 
 다양한 화면 크기에 대응하는 반응형 레이아웃을 만들기 위해 React Native에서 미디어 쿼리를 사용하는 예시를 살펴보겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { Dimensions, View } from "react-native";
@@ -166,7 +200,18 @@ export default App;
 
 이러한 고급 플렉스박스 기술을 활용하면 프로처럼 유연하고 반응형 레이아웃을 React Native에서 만들 수 있습니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 절대위치 지정
 
@@ -229,7 +274,18 @@ React Native에서 절대위치 지정을 사용하려면 원하는 요소에 po
 
 이 예제에서는 외부 컨테이너가 전체 화면을 커버하도록 100%의 높이와 너비를 가져야 하므로 중요합니다. 그렇지 않으면 절대위치 지정이 예상대로 작동하지 않을 수 있습니다. 절대위치를 사용하여 요소를 배치할 때 레이아웃이 덜 반응적일 수 있으므로 화면 크기에 따라 위치를 조정하기 위해 미디어 쿼리나 다른 방법을 사용해야 할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 레이아웃 기술 혼합하기
 
@@ -299,7 +355,18 @@ React Native에서 절대위치 지정을 사용하려면 원하는 요소에 po
 
 이 예에서는 절대위치 지정을 사용하여 요소를 배치하는 데 있어 부모 컨테이너의 너비와 높이가 각각 100%여야 함을 기억하는 것이 중요합니다. 그렇지 않으면 절대위치 지정이 예상대로 작동하지 않을 수 있습니다. 절대위치 지정을 사용하여 요소를 배치할 때 레이아웃이 덜 반응적일 수 있으므로 화면 크기에 따라 위치를 조정하기 위해 미디어 쿼리나 다른 방법을 사용해야 할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 레이아웃 문제 해결
 

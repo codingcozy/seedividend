@@ -3,17 +3,13 @@ title: "플러터의 로컬 데이터베이스 비교하기"
 description: ""
 coverImage: "/assets/img/2024-05-17-ComparingFluttersLocalDatabases_0.png"
 date: 2024-05-17 21:40
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-17-ComparingFluttersLocalDatabases_0.png
 tag: Tech
 originalTitle: "Comparing Flutter’s Local Databases"
 link: "https://medium.com/@nandhuraj/comparing-flutters-local-databases-cb6bc7709316"
 isUpdated: true
 ---
-
-
-
-
 
 ![Comparison of local database options](/assets/img/2024-05-17-ComparingFluttersLocalDatabases_0.png)
 
@@ -23,8 +19,18 @@ Flutter 앱 개발에서 로컬 데이터를 효율적으로 관리하는 것은
 
 특징:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - SQLite는 널리 사용되는 관계형 데이터베이스 관리 시스템입니다.
 - 자기 포함형이며 서버가 필요하지 않으며 설정이 필요하지 않은 트랜잭션 SQL 데이터베이스 엔진입니다.
@@ -39,7 +45,18 @@ Flutter 앱 개발에서 로컬 데이터를 효율적으로 관리하는 것은
 
 단점:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 복잡하고 오류가 발생하기 쉬운 원시 SQL 쿼리를 작성해야 합니다.
 - 객체-관계 매핑(ORM)을 지원하지 않습니다.
@@ -54,7 +71,18 @@ Flutter 앱 개발에서 로컬 데이터를 효율적으로 관리하는 것은
 - 리스트, 맵, 중첩 객체와 같은 복잡한 데이터 구조를 지원합니다.
 - 데이터는 이진 형식으로 저장되어 성능을 향상시킵니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 장점:
 
@@ -68,7 +96,18 @@ Flutter 앱 개발에서 로컬 데이터를 효율적으로 관리하는 것은
 - SQL 쿼리를 지원하지 않습니다.
 - 더 확립된 옵션에 비해 커뮤니티 지원이 제한적입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # ObjectBox 📦
 
@@ -80,7 +119,18 @@ Flutter 앱 개발에서 로컬 데이터를 효율적으로 관리하는 것은
 
 장점:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 개발 시간을 단축시키는 간단하고 직관적인 API.
 - 읽기 중심 작업에 특히 뛰어난 성능.
@@ -94,7 +144,18 @@ Flutter 앱 개발에서 로컬 데이터를 효율적으로 관리하는 것은
 
 # Isar 🌀
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 특징:
 
@@ -108,7 +169,18 @@ Flutter 앱 개발에서 로컬 데이터를 효율적으로 관리하는 것은
 - 복잡한 쿼리에 특히 우수한 성능을 제공합니다.
 - 데이터 보안을 위한 내장 암호화를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단점:
 
@@ -120,20 +192,43 @@ Flutter 앱 개발에서 로컬 데이터를 효율적으로 관리하는 것은
 
 특징:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - FLor은 Firestore에 영감을 받은 Flutter에 최적화된 NoSQL 데이터베이스입니다.
 - 실시간 데이터 동기화 및 오프라인 지원을 제공합니다.
 - 복잡한 쿼리와 페이지네이션을 지원합니다.
 
 장점:
+
 - Flutter에 특별히 설계되어 원할한 개발 경험을 제공합니다.
 - 협업 앱에 적합한 실시간 데이터 업데이트를 제공합니다.
 - 인터넷 연결 없이 작업할 수 있는 오프라인 지원을 제공합니다.
 
 단점:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 더 확립된 옵션들과 비교하여 문서화 및 커뮤니티 지원이 제한적입니다.
 - 상대적으로 신규 제품이므로 일부 고급 기능이 부족할 수 있습니다.
@@ -147,7 +242,18 @@ Flutter 앱 개발에서 로컬 데이터를 효율적으로 관리하는 것은
 - 타입 안전한 쿼리 및 마이그레이션을 제공합니다.
 - 테이블 간 관계와 복잡한 데이터 모델을 지원합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 장점:
 
@@ -161,7 +267,18 @@ Flutter 앱 개발에서 로컬 데이터를 효율적으로 관리하는 것은
 - SQL 개념과 구문을 이해해야 합니다.
 - 다른 ORM에 비해 커뮤니티 지원과 문서화가 제한적일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Sembast 📦
 
@@ -173,7 +290,18 @@ Flutter 앱 개발에서 로컬 데이터를 효율적으로 관리하는 것은
 
 장점:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 가볍고 사용하기 쉽며 간단한 API를 제공합니다.
 - 소규모에서 중간 규모의 데이터셋에 대해 잘 작동합니다.
@@ -187,7 +315,18 @@ Flutter 앱 개발에서 로컬 데이터를 효율적으로 관리하는 것은
 
 # Couchbase Lite (CBL) 🛋️
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기능:
 
@@ -201,7 +340,18 @@ Flutter 앱 개발에서 로컬 데이터를 효율적으로 관리하는 것은
 - 실시간 데이터 동기화 및 충돌 해결 기능을 제공합니다.
 - 암호화, 복제, 클라우드 통합 등의 포괄적인 기능을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단점:
 
@@ -213,7 +363,18 @@ Flutter 앱 개발에서 로컬 데이터를 효율적으로 관리하는 것은
 
 특징들:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Realm은 모바일 앱을 위한 빠르고 가벼우며 크로스 플랫폼 데이터베이스입니다.
 - 데이터의 자동 동기화 및 충돌 해결 기능을 제공합니다.
@@ -227,7 +388,18 @@ Flutter 앱 개발에서 로컬 데이터를 효율적으로 관리하는 것은
 
 단점:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 프로프리어터리 기술, 오픈 소스 옵션과 비교해 유연성이 제한될 수 있습니다.
 - Realm 특정 개념과 API를 학습해야 합니다.

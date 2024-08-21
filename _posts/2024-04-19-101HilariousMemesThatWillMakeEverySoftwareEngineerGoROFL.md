@@ -3,17 +3,13 @@ title: "101 재미있는 개발자 밈 소프트웨어 엔지니어가 전부 RO
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "101 Hilarious Memes That Will Make Every Software Engineer Go ROFL"
 link: "https://medium.com/fasal-engineering/funniest-software-development-memes-ever-f383ccf32a39"
 isUpdated: true
 ---
-
-
-
-
 
 현대 삶에서 미미는 매우 중요한 상품이에요. 모든 현대적인 문제에 현대적인 해결책이 필요하듯이, 모든 현대적인 상황은 현대적인 미미로 표현될 수 있어요. 멋진 얼음 깨기부터 환경을 쾌적하게 유지하는 데 이르기까지, 현대 문화에서 그 존재감을 때때로 느낄 수 있어요.
 
@@ -21,7 +17,18 @@ isUpdated: true
 
 아무튼, 미미를 사랑하는 이유에 대한 설명으로 여러분을 지루하게 할 생각은 안 해요. 저는 소프트웨어 개발 엔지니어이며, 일상적인 코드, 버그, IDE, 파이프라인, 핫픽스, 배포 등으로부터 10~20분간 여유롭게 일석이조로 쉴 수 있게 해줄 좋은 미미를 모든 동료 SDE들에게 제안하고 싶었어요. 🚀
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모두에게 부탁이 있어요. 만약 기사에 들어가야 할 멋진 미임이 있다면 아래 댓글로 올려주세요.
 
@@ -31,7 +38,18 @@ isUpdated: true
 
 ![101HilariousMemesThatWillMakeEverySoftwareEngineerGoROFL_1.png](/assets/img/101HilariousMemesThatWillMakeEverySoftwareEngineerGoROFL_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## HTML 최고!
 
@@ -41,7 +59,18 @@ isUpdated: true
 
 ![101HilariousMemesThatWillMakeEverySoftwareEngineerGoROFL_3.png](/assets/img/101HilariousMemesThatWillMakeEverySoftwareEngineerGoROFL_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 거의 완성!
 
@@ -51,7 +80,18 @@ isUpdated: true
 
 ![101HilariousMemesThatWillMakeEverySoftwareEngineerGoROFL_5](/assets/img/101HilariousMemesThatWillMakeEverySoftwareEngineerGoROFL_5.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 아싸, 다시 시작해봅시다 😮‍💨
 
@@ -61,7 +101,18 @@ isUpdated: true
 
 ![이미지](/assets/img/101HilariousMemesThatWillMakeEverySoftwareEngineerGoROFL_7.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 스택 오버플로우 없이 삶을 상상할 수 있나요? 나는 할 수 없어요 😶
 
@@ -73,7 +124,18 @@ isUpdated: true
 
 ![이미지2](/assets/img/101HilariousMemesThatWillMakeEverySoftwareEngineerGoROFL_9.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 가장 짧은 공포 이야기 🤢
 
@@ -83,7 +145,18 @@ isUpdated: true
 
 ![이미지](/assets/img/101HilariousMemesThatWillMakeEverySoftwareEngineerGoROFL_11.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 잠깐만요...
 
@@ -93,7 +166,18 @@ isUpdated: true
 
 ![101 Hilarious Memes That Will Make Every Software Engineer Go ROFL #13](/assets/img/101HilariousMemesThatWillMakeEverySoftwareEngineerGoROFL_13.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## PM을 사랑한다면 박수를 치세요 😈
 
@@ -103,7 +187,18 @@ isUpdated: true
 
 ![이미지](/assets/img/101HilariousMemesThatWillMakeEverySoftwareEngineerGoROFL_15.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 우리 모두 한 번쯤 그런 적이 있죠 🥲
 
@@ -113,7 +208,18 @@ isUpdated: true
 
 ![image 2](/assets/img/101HilariousMemesThatWillMakeEverySoftwareEngineerGoROFL_17.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 작동은 되는 걸 ✌️
 
@@ -123,7 +229,18 @@ isUpdated: true
 
 ![이미지](/assets/img/101HilariousMemesThatWillMakeEverySoftwareEngineerGoROFL_19.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 댓글을 다는 것은 슈퍼파워입니다!!
 
@@ -133,7 +250,18 @@ isUpdated: true
 
 ![101HilariousMemesThatWillMakeEverySoftwareEngineerGoROFL_21.png](/assets/img/101HilariousMemesThatWillMakeEverySoftwareEngineerGoROFL_21.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Agile 개발 :|
 
@@ -143,7 +271,18 @@ isUpdated: true
 
 ![이미지](/assets/img/101HilariousMemesThatWillMakeEverySoftwareEngineerGoROFL_23.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Linkedin은 전문가들을 위한 Instagram이에요 🙃
 
@@ -153,7 +292,18 @@ isUpdated: true
 
 ![이미지](/assets/img/101HilariousMemesThatWillMakeEverySoftwareEngineerGoROFL_25.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 그래서, 프로그래머들이 왜 독신일까요? 😒
 
@@ -163,7 +313,18 @@ isUpdated: true
 
 ![image](/assets/img/101HilariousMemesThatWillMakeEverySoftwareEngineerGoROFL_27.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 이해해 😉
 
@@ -173,7 +334,18 @@ isUpdated: true
 
 ![이미지](/assets/img/101HilariousMemesThatWillMakeEverySoftwareEngineerGoROFL_29.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 항상 일어나죠 🥲
 
@@ -183,7 +355,18 @@ isUpdated: true
 
 ![image](/assets/img/101HilariousMemesThatWillMakeEverySoftwareEngineerGoROFL_31.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 다크 모드는 ❤️
 
@@ -193,7 +376,18 @@ isUpdated: true
 
 ![이미지](/assets/img/101HilariousMemesThatWillMakeEverySoftwareEngineerGoROFL_33.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 그냥 지나가는 중이에요?
 
@@ -203,7 +397,18 @@ isUpdated: true
 
 ![이미지](/assets/img/101HilariousMemesThatWillMakeEverySoftwareEngineerGoROFL_35.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 난 그의 주장이 정말 옳은 것 같아요 😄
 
@@ -213,7 +418,18 @@ isUpdated: true
 
 ![Image 2](/assets/img/101HilariousMemesThatWillMakeEverySoftwareEngineerGoROFL_37.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 요즘 Linkedin
 
@@ -223,7 +439,18 @@ isUpdated: true
 
 ![이미지](/assets/img/101HilariousMemesThatWillMakeEverySoftwareEngineerGoROFL_39.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 아래 코멘트에 공유해주세요! 본받을만한 프로덕션 테스트 경험
 
@@ -233,7 +460,18 @@ isUpdated: true
 
 ![이미지](/assets/img/101HilariousMemesThatWillMakeEverySoftwareEngineerGoROFL_41.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 아무도 원하지 않았지만 누구나 이루어져야 할 로고
 
@@ -243,7 +481,18 @@ isUpdated: true
 
 ![이미지](/assets/img/101HilariousMemesThatWillMakeEverySoftwareEngineerGoROFL_43.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 절대적인 진실
 
@@ -253,7 +502,18 @@ isUpdated: true
 
 ![이미지](/assets/img/101HilariousMemesThatWillMakeEverySoftwareEngineerGoROFL_45.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 알면 알수록 흥미로운 이야기 🤭
 
@@ -263,7 +523,18 @@ isUpdated: true
 
 ![101HilariousMemesThatWillMakeEverySoftwareEngineerGoROFL_47](/assets/img/101HilariousMemesThatWillMakeEverySoftwareEngineerGoROFL_47.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 꼭 그렇지는 않지만...
 
@@ -273,7 +544,18 @@ isUpdated: true
 
 ![101HilariousMemesThatWillMakeEverySoftwareEngineerGoROFL_49](/assets/img/101HilariousMemesThatWillMakeEverySoftwareEngineerGoROFL_49.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 웃김
 
@@ -283,7 +565,18 @@ isUpdated: true
 
 ![image](/assets/img/101HilariousMemesThatWillMakeEverySoftwareEngineerGoROFL_51.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 논리 연산 설명
 
@@ -293,7 +586,18 @@ isUpdated: true
 
 ![Image 2](/assets/img/101HilariousMemesThatWillMakeEverySoftwareEngineerGoROFL_53.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 맛있는 맛
 
@@ -303,7 +607,18 @@ isUpdated: true
 
 <img src="/assets/img/101HilariousMemesThatWillMakeEverySoftwareEngineerGoROFL_55.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 힘들어요 🤧
 
@@ -313,7 +628,18 @@ isUpdated: true
 
 ![Meme 57](/assets/img/101HilariousMemesThatWillMakeEverySoftwareEngineerGoROFL_57.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## VS Code 설정 변경 — 공포 소설 😵‍💫
 
@@ -323,7 +649,18 @@ isUpdated: true
 
 ![img 2](/assets/img/101HilariousMemesThatWillMakeEverySoftwareEngineerGoROFL_59.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 대박이야 #$@%
 
@@ -333,7 +670,18 @@ isUpdated: true
 
 ![이미지](/assets/img/101HilariousMemesThatWillMakeEverySoftwareEngineerGoROFL_61.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 정확히
 
@@ -343,7 +691,18 @@ isUpdated: true
 
 ![이미지](/assets/img/101HilariousMemesThatWillMakeEverySoftwareEngineerGoROFL_63.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 의미의 의미는 정말 무시하는 것 같아요
 
@@ -353,7 +712,18 @@ isUpdated: true
 
 ![image](/assets/img/101HilariousMemesThatWillMakeEverySoftwareEngineerGoROFL_65.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 아헴 아헴
 
@@ -363,7 +733,18 @@ isUpdated: true
 
 ![이미지](/assets/img/101HilariousMemesThatWillMakeEverySoftwareEngineerGoROFL_67.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 매일
 
@@ -373,7 +754,18 @@ isUpdated: true
 
 ![다양한 종교](/assets/img/101HilariousMemesThatWillMakeEverySoftwareEngineerGoROFL_69.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 재미있는
 
@@ -383,7 +775,18 @@ isUpdated: true
 
 ![img2](/assets/img/101HilariousMemesThatWillMakeEverySoftwareEngineerGoROFL_71.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 100%
 
@@ -393,7 +796,18 @@ isUpdated: true
 
 ![이미지](/assets/img/101HilariousMemesThatWillMakeEverySoftwareEngineerGoROFL_73.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 자주 일어나는 일 🤣
 
@@ -403,7 +817,18 @@ isUpdated: true
 
 ![101개의 소프트웨어 엔지니어를 깔끔하게 만들어 버리는 유머](/assets/img/101HilariousMemesThatWillMakeEverySoftwareEngineerGoROFL_75.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 간단해
 
@@ -413,7 +838,18 @@ isUpdated: true
 
 ![이미지](/assets/img/101HilariousMemesThatWillMakeEverySoftwareEngineerGoROFL_77.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 거짓말쟁이가 이곳저곳에
 
@@ -423,7 +859,18 @@ isUpdated: true
 
 ![이미지](/assets/img/101HilariousMemesThatWillMakeEverySoftwareEngineerGoROFL_79.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 매번 반복되는 일
 
@@ -433,7 +880,18 @@ isUpdated: true
 
 ![101HilariousMemesThatWillMakeEverySoftwareEngineerGoROFL_81.png](/assets/img/101HilariousMemesThatWillMakeEverySoftwareEngineerGoROFL_81.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 음..
 
@@ -443,7 +901,18 @@ isUpdated: true
 
 ![image](/assets/img/101HilariousMemesThatWillMakeEverySoftwareEngineerGoROFL_83.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 도서관은 항상 잘못돼요 🤬
 
@@ -453,7 +922,18 @@ isUpdated: true
 
 ![ㅎㄷㅇ088](/assets/img/101HilariousMemesThatWillMakeEverySoftwareEngineerGoROFL_85.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 세상이 타버리길 원하는 사람들이 있다는 걸요 🔥
 
@@ -463,7 +943,18 @@ isUpdated: true
 
 ![이미지](/assets/img/101HilariousMemesThatWillMakeEverySoftwareEngineerGoROFL_87.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 너무 정확하네요 👌🏻
 
@@ -473,7 +964,18 @@ isUpdated: true
 
 ![image](/assets/img/101HilariousMemesThatWillMakeEverySoftwareEngineerGoROFL_89.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기에 희망에 관한 멋진 시가 있어요 (중단된 점에 대해 죄송합니다)
 
@@ -483,7 +985,18 @@ isUpdated: true
 
 ## 그렇죠, 그렇다구요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/101HilariousMemesThatWillMakeEverySoftwareEngineerGoROFL_91.png" />
 
@@ -493,7 +1006,18 @@ isUpdated: true
 
 ## 옛날 방식은 결코 실패하지 않습니다
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/101HilariousMemesThatWillMakeEverySoftwareEngineerGoROFL_93.png" />
 
@@ -503,7 +1027,18 @@ isUpdated: true
 
 ## 코드 이야기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/101HilariousMemesThatWillMakeEverySoftwareEngineerGoROFL_95.png" />
 
@@ -513,7 +1048,18 @@ isUpdated: true
 
 ## 건드리지 말아주세요 🤢
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/101HilariousMemesThatWillMakeEverySoftwareEngineerGoROFL_97.png" />
 
@@ -523,7 +1069,18 @@ isUpdated: true
 
 ## 돌아간다면 돌아간다는 거죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/101HilariousMemesThatWillMakeEverySoftwareEngineerGoROFL_99.png" />
 
@@ -533,7 +1090,18 @@ isUpdated: true
 
 ### 소리쳐..
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![101개의 재밌는 밈](/assets/img/101HilariousMemesThatWillMakeEverySoftwareEngineerGoROFL_101.png)
 
@@ -543,7 +1111,18 @@ isUpdated: true
 
 # 마침내,
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](https://miro.medium.com/v2/resize:fit:1200/1*WN815xtc917WXXI_RXzu-Q.gif)
 
@@ -553,7 +1132,18 @@ isUpdated: true
 
 그런데 말이야, Fasal에는 멋진 사람들과 즐겁게 일하는 멋진 분위기가 있어요. (추신: 우리는 채용 중이에요, 여기서 오픈 포지션을 확인해보세요.)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당연히 일상적인 상황을 표현하기 위해 밈을 만들곤 해. 여기 몇 개 있어 —
 
@@ -563,7 +1153,18 @@ isUpdated: true
 
 ## 스펠링 실수가 매우 전염성 있는 경우
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/101HilariousMemesThatWillMakeEverySoftwareEngineerGoROFL_106.png" />
 
@@ -573,7 +1174,18 @@ Fasal의 무제한 휴가 정책에 관한 엔지니어 수빅 브람하 제작
 
 수빅이 만든 Fasal의 혁신적인 질병/해충 예측 모델이 농부들을 도와주는 메멘트.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![101 Hilarious Memes](/assets/img/101HilariousMemesThatWillMakeEverySoftwareEngineerGoROFL_108.png)
 

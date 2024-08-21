@@ -3,17 +3,13 @@ title: "초보 프론트엔드 개발자를 위한 토이 프로젝트 5개 추�
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Build These 5 Projects to get better at Web Development"
 link: "https://medium.com/@mohit-vaswani/build-these-5-projects-to-become-a-better-developer-7d60837344b0"
 isUpdated: true
 ---
-
-
-
-
 
 개발자의 역할은 사용자들이 사랑하고 중독적으로 사용하는 제품을 만드는 것입니다. 이러한 제품을 만들기 위해선 어떻게 하는지 배워야 합니다. 본 문서에서는 스타트업을 창업하거나 개발자로 취업하거나 어떠한 SaaS를 구축하더라도 좋은 프로젝트를 만드는 방법을 보여주는 다섯 가지 예제를 제공하겠습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ## 1. RoomGpt
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/BuildThese5ProjectstogetbetteratWebDevelopment_0.png" />
 
@@ -33,7 +40,18 @@ GitHub 링크
 
 ## 2. 멋진 날씨 웹 앱
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/BuildThese5ProjectstogetbetteratWebDevelopment_1.png" />
 
@@ -43,7 +61,18 @@ GitHub 링크
 
 ## 3. Equinox ~ macOS용 동적 배경 화면 생성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/BuildThese5ProjectstogetbetteratWebDevelopment_2.png" />
 
@@ -53,7 +82,18 @@ GitHub 링크
 
 ## 4. tldraw
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/BuildThese5ProjectstogetbetteratWebDevelopment_3.png" />
 
@@ -63,7 +103,18 @@ GitHub 링크
 
 ## 5. Fill3d
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/BuildThese5ProjectstogetbetteratWebDevelopment_4.png)
 
@@ -73,7 +124,18 @@ GitHub 링크
 
 ## 추가 혜택: 개발자로 더 나아지기 위한 놀라운 50개 이상의 프로젝트( AI 앱, 복잡한 웹 앱, 기타 멋진 프로젝트 포함 )
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/BuildThese5ProjectstogetbetteratWebDevelopment_5.png" />
 

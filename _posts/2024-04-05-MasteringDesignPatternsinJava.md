@@ -3,17 +3,13 @@ title: "자바에서 디자인 패턴 마스터하기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Mastering Design Patterns in Java"
 link: "https://medium.com/@dharshib.8/mastering-design-patterns-in-java-1e39194ac480"
 isUpdated: true
 ---
-
-
-
-
 
 ![MasteringDesignPatternsinJava_0.png](/assets/img/MasteringDesignPatternsinJava_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 핵심적으로 디자인 패턴은 소프트웨어를 디자인할 때 마주치는 일반적인 문제에 대한 준비된 솔루션과 같습니다. 이러한 솔루션은 단축키처럼 작용하여 전문가들이 오랜 시간 동안 개선해 온 검증된 전략을 활용하여 시간과 노력을 절약합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사에서는 모든 개발자가 익숙해져야 할 가장 중요한 디자인 패턴 중 일부에 대해 깊이 파헤쳐 보겠습니다. 그들의 원칙을 알아보고, 왜 유용한지, 그리고 실제 프로젝트에서 어떻게 사용할 수 있는지 살펴볼 것입니다. 객체를 생성하는 데 어려움을 겪고 있다면, 클래스 간의 관계를 조직하는 데 어려움을 겪고 있다면, 또는 객체의 동작 방식을 관리하는 데 어려움을 겪고 있다면, 도움이 될 수 있는 디자인 패턴이 있습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 싱글톤 패턴은 한 클래스에 하나의 인스턴스만 존재하도록 보장하고 해당 인스턴스에 대한 전역 액세스 지점을 제공하는 생성 패턴입니다. 더 간단히 말하면, 프로그램에서 특정 객체의 유일한 복사본이 하나만 있도록 보장하고 코드의 어디서든 해당 객체에 액세스할 수 있도록 하는 것과 같습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/MasteringDesignPatternsinJava_1.png" />
 
@@ -56,7 +74,18 @@ public class Clipboard {
 
 위의 예시에서는 값을 복사하고 붙여넣을 수 있는 Clipboard 클래스를 정의했습니다. 그러나 Clipboard의 여러 인스턴스를 만들 경우, 각 인스턴스는 자체 데이터를 가지게 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 public class Main {
@@ -106,7 +135,18 @@ public class Clipboard {
 
 싱글톤 패턴을 구현함으로써 프로그램 실행 중에 Clipboard 클래스의 단일 인스턴스만 존재함을 보장합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 public class Main {
@@ -131,7 +171,18 @@ public class Main {
 
 팩토리 디자인 패턴은 생성 패턴으로, 슈퍼 클래스에서 객체를 생성하기 위한 인터페이스를 제공하지만 하위 클래스가 어떤 클래스를 인스턴스화할지 결정할 수 있도록 합니다. 다시 말해, 인스턴스화 로직을 자식 클래스에 위임하는 방법을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![MasteringDesignPatternsinJava_2.png](/assets/img/MasteringDesignPatternsinJava_2.png)
 
@@ -141,7 +192,18 @@ public class Main {
 
 Factory Design Pattern은 정확한 클래스를 지정하지 않고 객체를 생성하는 방법을 제공하여 이 문제를 해결하도록 도와줍니다. 대신, 생성 프로세스를 팩토리 클래스에 위임합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 제품 인터페이스를 정의하십시오. (Operation).
 
@@ -196,7 +258,18 @@ public class InvalidOperationException extends Exception {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. 어떤 매개변수를 기반으로 객체를 만드는 메서드( getInstance)를 가진 팩토리 클래스(OperationFactory)를 생성하세요.
 
@@ -260,7 +333,18 @@ public static void main(String[] args) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 Main 클래스는 느슨한 결합을 통해 특정 구현 클래스를 알지 못하면서도 다양한 작업 객체를 만들기 위한 팩토리의 사용법을 보여줍니다. 팩토리 인터페이스와만 상호 작용합니다. 더 나아가, 기존의 클라이언트 코드를 변경하지 않고도 쉽게 새로운 유형의 작업을 추가할 수도 있습니다. 새로운 구상 제품을 만들고 필요한 경우 팩토리를 업데이트하기만 하면 됩니다.
 
@@ -270,7 +354,18 @@ public static void main(String[] args) {
 
 객체에 대해 일부 매개변수는 선택적일 수 있지만, 모든 매개변수를 보내야 하며 선택적 매개변수는 NULL로 보내야 하는 경우가 있습니다. 필수 매개변수가 포함된 생성자를 제공하고 선택적 매개변수를 설정하는 다른 setter 메서드를 제공함으로써 이 문제를 해결할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 패턴은 많은 선택적 매개변수나 구성을 가진 객체를 다룰 때 특히 유용합니다.
 
@@ -350,7 +445,18 @@ public class User {
 - UserBuilder 클래스: User 객체를 구성하는 데 책임이 있는 내부 빌더 클래스입니다. 다양한 속성 (이름, 이메일, 전화번호, 도시)의 존재 여부를 나타내는 필드를 가지고 있습니다. 이 클래스는 각 속성에 대한 setter 메서드를 제공하며, 이 메서드들은 빌더 자체를 반환합니다 (name(), phone(), city(), email()). 이를 통해 메소드 체이닝을 가능하게 합니다.
 - User 클래스: 빌더 패턴을 사용하여 구성하려는 제품을 나타내는 클래스입니다. 사용자의 속성 (이름, 이메일, 전화번호, 도시)을 나타내는 private 필드를 가지고 있습니다. User의 생성자는 UserBuilder 객체를 사용하여 필드를 초기화하며, 빌더의 설정에 따라 필드를 설정합니다. 새 UserBuilder 인스턴스를 반환하는 static builder() 메서드를 제공하여 새 빌더를 쉽게 만들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 코드를 사용하여 선택적 속성이 있는 사용자를 생성하는 방법의 예제를 살펴보겠습니다:
 
@@ -379,7 +485,18 @@ public class Main {
 
 # 4. 어댑터 패턴
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어댑터 패턴은 서로 호환되지 않는 인터페이스를 가진 객체들이 함께 작동할 수 있도록 해주는 구조적 디자인 패턴입니다. 이는 두 개의 호환되지 않는 인터페이스 사이에 다리 역할을 합니다.
 
@@ -392,7 +509,18 @@ public class Main {
 
 ![이미지](/assets/img/MasteringDesignPatternsinJava_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 대상 인터페이스
@@ -441,7 +569,18 @@ public class AdapterMain {
 
 어댑터 패턴을 사용하는 이유는 무엇일까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Adaptee는 직접 수정할 수 없는 제삼자 라이브러리나 레거시 코드베이스의 클래스일 수 있습니다. 어댑터를 사용하여 클라이언트가 기대하는 인터페이스와 일치하도록 조정할 수 있으며, 원본 코드를 수정하지 않고도 이를 달성할 수 있습니다.
 - 클라이언트는 Adaptee로부터 특정 기능만 필요로 할 수 있습니다. 어댑터를 사용하여 필요한 기능만 노출하는 맞춤형 인터페이스를 제공할 수 있으며, Adaptee의 전체 인터페이스를 노출하는 것보다 더 나은 방법입니다.
@@ -451,7 +590,18 @@ public class AdapterMain {
 
 데코레이터 패턴은 객체 지향 프로그래밍에서 개별 객체에 정적 또는 동적으로 동작을 추가할 수 있게 하는 디자인 패턴입니다. 이 패턴에서는 공통 기능을 정의하는 기본 클래스(또는 인터페이스)와 추가 동작을 추가하는 하나 이상의 데코레이터 클래스가 있습니다. 이러한 데코레이터 클래스는 원본 객체를 래핑하여 모듈식 및 유연한 방식으로 그 동작을 확장합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/MasteringDesignPatternsinJava_4.png" />
 
@@ -485,7 +635,18 @@ class Circle implements Shape {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 모양 인터페이스: 모든 모양이 지원해야 하는 기본 작업을 정의합니다. 이 경우에는 모양을 그리는 draw() 메서드와 모양의 이름을 반환하는 getName()이 포함됩니다.
 - 원 클래스: Shape 인터페이스를 구현하며 구체적인 모양(이 경우에는 원)을 나타냅니다. 이름 속성을 갖고 원을 그리는 draw() 메서드를 구현합니다.
@@ -549,7 +710,18 @@ class ColorDecorator extends ShapeDecorator {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - BorderDecorator 및 ColorDecorator 클래스: ShapeDecorator를 확장한 구체적인 데코레이터 클래스입니다. 이들은 경계선과 색상과 같은 추가 기능을 데코레이트된 도형에 추가합니다. 데코레이터된 도형의 draw() 메서드를 오버라이드하여 특정 기능을 추가하고 데코레이트된 도형의 draw() 메서드를 호출합니다.
 
@@ -581,7 +753,18 @@ public class DecoratorMain {
 
 이제 Decorator Pattern을 구현함으로써, 그림 그리기 응용 프로그램은 원 뿐만 아니라 사각형, 삼각형 등의 다양한 기하학적 모양을 장식할 수 있는 놀라운 능력을 갖추게 되었습니다. 또한, 이 패턴의 확장성을 통해 투명도, 다양한 테두리 스타일(실선, 점선)과 같은 기능을 제공하는 추가적인 데코레이터를 원할 때마다 원활하게 통합할 수 있습니다. 이 동적인 기능 향상 능력은 도형의 핵심 구조를 변경하지 않고 코드 재사용성, 유연성 및 확장 가능성을 촉진하는 이 패턴의 능력을 강조합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 6. Observer 패턴
 
@@ -594,8 +777,18 @@ public class DecoratorMain {
 - 구체적인 주체(Concrete Subject): 주체 인터페이스의 구체적인 구현입니다. 상태를 유지하고 상태가 변경될 때 옵저버에게 알림을 보냅니다.
 - 구체적인 옵저버(Concrete Observer): 옵저버 인터페이스의 구체적인 구현입니다. 주체에 자체를 등록하여 알림을 받고, 상태 변경에 대응하기 위해 업데이트 메서드를 구현합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![MasteringDesignPatternsinJava_5.png](/assets/img/MasteringDesignPatternsinJava_5.png)
 
@@ -627,8 +820,18 @@ public class YoutubeEvent {
 }
 ```
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - EventType: EventType enum은 발생할 수 있는 이벤트 유형을 정의합니다. NEW_VIDEO, LIVE_STREAM 등이 있습니다.
 - Event: YoutubeEvent 클래스는 시스템에서 발생하는 이벤트를 나타냅니다. 이벤트의 유형과 주제와 같은 정보를 포함하고 있습니다.
@@ -688,7 +891,18 @@ public class YoutubeChannel implements Subject{
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 구체적인 주제: YoutubeChannel 클래스는 Subject 인터페이스를 구현합니다. 구독자 목록을 유지하고 새 이벤트가 발생할 때 알림을 받습니다.
 
@@ -742,7 +956,18 @@ public class ObserverMain {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Main Class: ObserverMain 클래스에는 구현을 테스트하는 main 메서드가 포함되어 있습니다. 여기서는 YoutubeChannel 인스턴스를 생성하고 구독자를 추가하여 새 비디오 이벤트를 통지하며, 그 중 하나의 구독자를 제거한 후 다시 라이브 스트림 이벤트를 통지합니다.
 
@@ -760,7 +985,18 @@ Observer 디자인 패턴을 사용하면 YouTube 채널이 비디오를 업로�
 
 요약하면, 디자인 패턴은 반복적인 설계 문제에 대한 검증된 솔루션을 제공하고 코드의 재사용성, 유지보수성 및 확장성을 촉진하는 Java 개발자에게 필수적인 도구입니다. 이러한 패턴을 효과적으로 이해하고 구현함으로써 개발자는 견고하고 유연하며 쉽게 유지보수 가능한 소프트웨어 솔루션을 만들 수 있습니다. 디자인 패턴을 숙달하는 데는 실습과 경험이 필요하지만, 소프트웨어 개발에 제공하는 혜택은 값진 것입니다. 소규모 프로젝트나 대규모 기업 애플리케이션을 작업 중이더라도, 디자인 패턴을 활용하면 더 깔끔하고 효율적인 코드를 작성하고 궁극적으로 보다 능숙한 Java 개발자가 될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여러분, 이 기사를 다 읽어주셔서 감사합니다! 이 기사에서 유용한 정보를 찾아보시고 주제에 대한 가치 있는 통찰을 얻었기를 바랍니다. 디자인 패턴이 무엇인지부터 실제 디자인 패턴 예시를 탐색하는 과정까지 많은 주제를 다뤘습니다.
 
@@ -771,7 +1007,18 @@ Observer 디자인 패턴을 사용하면 YouTube 채널이 비디오를 업로�
 
 제 기사들이 유용했다면 즐겨 찾아주시고 친구나 동료들과 공유해 주시면 감사하겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자바로 계속 배우고 탐험하며 멋진 것들을 만들어 보세요!
 

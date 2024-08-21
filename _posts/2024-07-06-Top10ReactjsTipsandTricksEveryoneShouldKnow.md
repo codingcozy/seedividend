@@ -3,16 +3,13 @@ title: "모두가 알아야 할 최고의 10가지 Reactjs 팁과 트릭"
 description: ""
 coverImage: "/assets/img/2024-07-06-Top10ReactjsTipsandTricksEveryoneShouldKnow_0.png"
 date: 2024-07-06 00:43
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-06-Top10ReactjsTipsandTricksEveryoneShouldKnow_0.png
 tag: Tech
 originalTitle: "Top 10 React.js Tips and Tricks Everyone Should Know"
 link: "https://dev.to/vyan/top-10-reactjs-tips-and-tricks-everyone-should-know-2m18"
 isUpdated: true
 ---
-
-
-
 
 ### 1. 더 깨끗한 코드를 위해 JSX를 활용해보세요 📝
 
@@ -29,7 +26,18 @@ const App = () => (
 );
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 2. 함수형 컴포넌트와 훅 사용하기 🧩
 
@@ -38,7 +46,7 @@ React는 클래스 기반 컴포넌트에서 함수형 컴포넌트와 훅으로
 예시:
 
 ```js
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 
 const Counter = () => {
   const [count, setCount] = useState(0);
@@ -56,7 +64,18 @@ const Counter = () => {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 3. 리스트에서 Key의 중요성을 이해해요 🔑
 
@@ -67,14 +86,25 @@ React에서 리스트를 렌더링할 때 키 값은 변경된, 추가된 또는
 ```js
 const TodoList = ({ todos }) => (
   <ul>
-    {todos.map(todo => (
+    {todos.map((todo) => (
       <li key={todo.id}>{todo.text}</li>
     ))}
   </ul>
 );
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 4. 재사용 가능한 컴포넌트로 UI 구성하기 🧱
 
@@ -83,18 +113,27 @@ React의 핵심 원칙 중 하나는 컴포넌트 기반 아키텍처입니다. 
 예시:
 
 ```js
-const Button = ({ onClick, children }) => (
-  <button onClick={onClick}>{children}</button>
-);
+const Button = ({ onClick, children }) => <button onClick={onClick}>{children}</button>;
 
 const App = () => (
   <div>
-    <Button onClick={() => alert('버튼이 클릭되었습니다!')}>클릭하세요</Button>
+    <Button onClick={() => alert("버튼이 클릭되었습니다!")}>클릭하세요</Button>
   </div>
 );
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 5. useState 및 useReducer를 사용하여 효율적으로 상태 관리하기 🌐
 
@@ -103,15 +142,15 @@ React에서 컴포넌트 상태를 관리하는 것은 중요합니다. 간단�
 예시:
 
 ```js
-import React, { useReducer } from 'react';
+import React, { useReducer } from "react";
 
 const initialState = { count: 0 };
 
 function reducer(state, action) {
   switch (action.type) {
-    case 'increment':
+    case "increment":
       return { count: state.count + 1 };
-    case 'decrement':
+    case "decrement":
       return { count: state.count - 1 };
     default:
       throw new Error();
@@ -124,14 +163,25 @@ const Counter = () => {
   return (
     <div>
       <p>Count: {state.count}</p>
-      <button onClick={() => dispatch({ type: 'increment' })}>+</button>
-      <button onClick={() => dispatch({ type: 'decrement' })}>-</button>
+      <button onClick={() => dispatch({ type: "increment" })}>+</button>
+      <button onClick={() => dispatch({ type: "decrement" })}>-</button>
     </div>
   );
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 6. useMemo와 useCallback으로 성능 최적화하기 🚀
 
@@ -140,7 +190,7 @@ const Counter = () => {
 예시:
 
 ```js
-import React, { useState, useMemo, useCallback } from 'react';
+import React, { useState, useMemo, useCallback } from "react";
 
 const ExpensiveComponent = ({ compute, value }) => {
   const result = useMemo(() => compute(value), [compute, value]);
@@ -149,16 +199,16 @@ const ExpensiveComponent = ({ compute, value }) => {
 
 const App = () => {
   const [count, setCount] = useState(0);
-  const [text, setText] = useState('');
+  const [text, setText] = useState("");
 
-  const compute = useCallback(value => {
+  const compute = useCallback((value) => {
     // 어떤 비용이 많이 드는 계산
     return value * 2;
   }, []);
 
   return (
     <div>
-      <input value={text} onChange={e => setText(e.target.value)} />
+      <input value={text} onChange={(e) => setText(e.target.value)} />
       <ExpensiveComponent compute={compute} value={count} />
       <button onClick={() => setCount(count + 1)}>증가</button>
     </div>
@@ -166,7 +216,18 @@ const App = () => {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 7. 컴포넌트 유효성 검사에 PropTypes 활용하기 ✅
 
@@ -175,19 +236,30 @@ PropTypes는 컴포넌트가 올바른 유형의 props를 받도록 도와줍니
 예시:
 
 ```js
-import React from 'react';
-import PropTypes from 'prop-types';
+import React from "react";
+import PropTypes from "prop-types";
 
 const Greeting = ({ name }) => <h1>Hello, {name}!</h1>;
 
 Greeting.propTypes = {
-  name: PropTypes.string.isRequired
+  name: PropTypes.string.isRequired,
 };
 
 export default Greeting;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 8. 전역 상태를 위해 React Context를 이해하고 활용하기 🌍
 
@@ -196,17 +268,13 @@ React Context는 트리의 각 수준을 통해 props를 전달하지 않고 컴
 예시:
 
 ```js
-import React, { createContext, useState, useContext } from 'react';
+import React, { createContext, useState, useContext } from "react";
 
 const ThemeContext = createContext();
 
 const ThemeProvider = ({ children }) => {
-  const [theme, setTheme] = useState('light');
-  return (
-    <ThemeContext.Provider value={{ theme, setTheme }}>
-      {children}
-    </ThemeContext.Provider>
-  );
+  const [theme, setTheme] = useState("light");
+  return <ThemeContext.Provider value={{ theme, setTheme }}>{children}</ThemeContext.Provider>;
 };
 
 const ThemedComponent = () => {
@@ -214,9 +282,7 @@ const ThemedComponent = () => {
   return (
     <div>
       <p>현재 테마는 {theme}입니다</p>
-      <button onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}>
-        테마 전환
-      </button>
+      <button onClick={() => setTheme(theme === "light" ? "dark" : "light")}>테마 전환</button>
     </div>
   );
 };
@@ -230,7 +296,18 @@ const App = () => (
 export default App;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 9. 안정성을 향상시키기 위한 에러 바운더리 구현하기 🚧
 
@@ -239,7 +316,7 @@ export default App;
 예시:
 
 ```js
-import React from 'react';
+import React from "react";
 
 class ErrorBoundary extends React.Component {
   constructor(props) {
@@ -253,7 +330,7 @@ class ErrorBoundary extends React.Component {
 
   componentDidCatch(error, errorInfo) {
     // 해당 오류를 오류 보고 서비스에 기록합니다
-    console.error('ErrorBoundary caught an error', error, errorInfo);
+    console.error("ErrorBoundary caught an error", error, errorInfo);
   }
 
   render() {
@@ -261,12 +338,12 @@ class ErrorBoundary extends React.Component {
       return <h1>문제가 발생했습니다.</h1>;
     }
 
-    return this.props.children; 
+    return this.props.children;
   }
 }
 
 const BuggyComponent = () => {
-  throw new Error('의도적인 오류!');
+  throw new Error("의도적인 오류!");
 };
 
 const App = () => (
@@ -276,7 +353,18 @@ const App = () => (
 );
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 10. React의 생태계와 도구들을 최신 상태로 유지해보세요 🛠️
 
@@ -286,7 +374,18 @@ React의 생태계는 방대하고 지속적으로 발전하고 있습니다. �
 
 ### 결론:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 🌟 반응형.js 기술을 향상시키는 필수 팁을 소개해드릴게요! 🌟
 

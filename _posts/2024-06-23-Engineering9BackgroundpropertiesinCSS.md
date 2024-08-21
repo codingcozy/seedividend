@@ -3,16 +3,13 @@ title: "CSS 배경 속성 9가지 완벽 정리"
 description: ""
 coverImage: "/assets/img/2024-06-23-Engineering9BackgroundpropertiesinCSS_0.png"
 date: 2024-06-23 14:24
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-Engineering9BackgroundpropertiesinCSS_0.png
 tag: Tech
 originalTitle: "Engineering: 9 Background properties in CSS"
 link: "https://medium.com/@naqvishahwar120/engineering-9-background-properties-in-css-c9be68206ffe"
 isUpdated: true
 ---
-
-
-
 
 공학 (CSS)
 
@@ -30,7 +27,18 @@ isUpdated: true
 - background-clip
 - background (shorthand)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 배경색:
 
@@ -40,7 +48,18 @@ isUpdated: true
 
 ![Engineering9BackgroundpropertiesinCSS_2](/assets/img/2024-06-23-Engineering9BackgroundpropertiesinCSS_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 배경 이미지:
 
@@ -50,8 +69,18 @@ isUpdated: true
 
 - 이미지 링크는 어디서 가져왔나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![output](/assets/img/2024-06-23-Engineering9BackgroundpropertiesinCSS_4.png)
 
@@ -61,8 +90,18 @@ isUpdated: true
 
 - 반복된 부분이 있습니다. 다음 속성으로 넘어가 봅시다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # background-repeat
 
@@ -74,8 +113,18 @@ isUpdated: true
 
 ![image2](/assets/img/2024-06-23-Engineering9BackgroundpropertiesinCSS_7.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Engineering9BackgroundpropertiesinCSS_8](/assets/img/2024-06-23-Engineering9BackgroundpropertiesinCSS_8.png)
 
@@ -85,8 +134,18 @@ isUpdated: true
 
 ![Engineering9BackgroundpropertiesinCSS_11](/assets/img/2024-06-23-Engineering9BackgroundpropertiesinCSS_11.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 배경 위치
 
@@ -100,8 +159,18 @@ isUpdated: true
 
 ![이미지2](/assets/img/2024-06-23-Engineering9BackgroundpropertiesinCSS_13.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Engineering9BackgroundpropertiesinCSS_14](/assets/img/2024-06-23-Engineering9BackgroundpropertiesinCSS_14.png)
 
@@ -111,8 +180,18 @@ isUpdated: true
 
 ![Engineering9BackgroundpropertiesinCSS_17](/assets/img/2024-06-23-Engineering9BackgroundpropertiesinCSS_17.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 배경 크기:
 
@@ -128,10 +207,20 @@ background-size: 너비 높이;
   - contain: 이미지를 너비와 높이가 콘텐츠 영역에 모두 맞을 수 있는 가장 큰 크기로 조절
   - 길이 값: px, em 등
   - 백분율 값: 100% 50% (너비 높이)
-  
 - 예시:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 배경 크기: cover;
@@ -147,7 +236,18 @@ background-size: 너비 높이;
 배경 첨부: scroll|fixed|local;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 값:
   - scroll (기본값): 배경 이미지가 콘텐츠와 함께 스크롤됩니다.
@@ -168,7 +268,18 @@ background-attachment: fixed;
   - content-box: 배경이 콘텐츠 상자에 상대적으로 위치합니다.
 - 문법 및 예시,
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 background-origin: padding-box|border-box|content-box;
@@ -181,8 +292,18 @@ background-origin: padding-box|border-box|content-box;
 
 <img src="/assets/img/2024-06-23-Engineering9BackgroundpropertiesinCSS_18.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Engineering Background](/assets/img/2024-06-23-Engineering9BackgroundpropertiesinCSS_19.png)
 
@@ -194,4 +315,4 @@ background-origin: padding-box|border-box|content-box;
 
 ```js
 background: #ff0000 url('background.jpg') no-repeat center/cover fixed content-box border-box;
-``` 
+```

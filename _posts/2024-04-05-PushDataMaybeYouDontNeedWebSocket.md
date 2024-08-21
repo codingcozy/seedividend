@@ -3,17 +3,13 @@ title: "WebSocket 없이 데이터 푸시 알림 기능 사용하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Push Data Maybe You Dont Need WebSocket"
 link: "https://medium.com/gitconnected/push-data-maybe-you-dont-need-websocket-e8d2e4b45d33"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/PushDataMaybeYouDontNeedWebSocket_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 그러나 단방향 메시지 푸시만 필요한 경우에는 HTTP도 Server-Sent Events를 통해 이 기능을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹소켓의 통신 과정은 다음과 같습니다:
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 이후, 웹소켓 형식의 데이터 통신이 시작되며 한 쪽은 언제든지 다른 쪽으로 메시지를 푸시할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 HTTP에서 Server-Sent 이벤트에 대해 설명드리겠습니다:
 
@@ -43,7 +61,18 @@ HTTP에서 Server-Sent 이벤트에 대해 설명드리겠습니다:
 
 Server-sent 이벤트는 언제든지 데이터를 이 타입의 메시지로 전송합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SSE에 대해 처음 들어보신 분도 있겠지만, 이를 기반으로 한 애플리케이션을 사용해 본 적이 있을 거에요.
 
@@ -53,7 +82,18 @@ SSE에 대해 처음 들어보신 분도 있겠지만, 이를 기반으로 한 �
 
 데이터를 조각조각 전송해야 하는데, 일반적으로 SSE가 이런 방식으로 데이터를 푸시하는 데 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다른 예로 ChatGPT가 있습니다. 질문에 답변할 때 한꺼번에 모든 답변을 제공하지 않고, 대신 부분적으로 점진적으로 로드합니다.
 
@@ -63,7 +103,18 @@ SSE에 대해 처음 들어보신 분도 있겠지만, 이를 기반으로 한 �
 
 이제 SSE가 무엇이며 어떻게 적용되는지 알았으니, 직접 구현해 봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이중 프로젝트를 만들어보세요.
 
@@ -75,8 +126,18 @@ npx nest new sse-test
 
 실행해보세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![/assets/img/PushDataMaybeYouDontNeedWebSocket_5.png](/assets/img/PushDataMaybeYouDontNeedWebSocket_5.png)
 
@@ -86,8 +147,18 @@ npx nest new sse-test
 
 그런 다음 AppController에 스트림 인터페이스를 추가하세요.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![PushDataMaybeYouDontNeedWebSocket](/assets/img/PushDataMaybeYouDontNeedWebSocket_7.png)
 
@@ -112,7 +183,18 @@ stream() {
 
 반환된 것은 Observable 객체이며, 내부적으로 observer.next를 사용하여 메시지를 반환합니다. 어떤 JSON 데이터도 반환할 수 있습니다. 먼저 aaa를 반환하고, 2초 후에는 bbb를 반환하고, 5초 후에는 ccc를 반환합니다. 그런 다음 Frontend 페이지를 만듭시다: React 프로젝트를 만듭니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 npx create-react-app --template=typescript sse-test-frontend
@@ -139,7 +221,18 @@ function App() {
 export default App;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 EventSource는 SSE 인터페이스에서 응닑을 얻는 데 사용되는 브라우저 기본 API입니다. 각 메시지를 콜백 함수 onmessage로 전달합니다.
 
@@ -149,7 +242,18 @@ export default App;
 
 그런 다음 React 프로젝트의 index.tsx 파일에서 이 코드 라인을 삭제하세요. 이는 추가적인 렌더링을 발생시킬 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/PushDataMaybeYouDontNeedWebSocket_10.png)
 
@@ -159,7 +263,18 @@ npm run start를 실행하세요.
 
 ![이미지](/assets/img/PushDataMaybeYouDontNeedWebSocket_11.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 브라우저에 접근해주세요:
 
@@ -169,7 +284,18 @@ npm run start를 실행하세요.
 
 이것이 Server-Sent Events(서버 보낸 이벤트) 입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 개발 도구에서 응답의 Content-Type이 text/event-stream으로 설정되어 있음을 확인할 수 있어요.
 
@@ -179,7 +305,18 @@ npm run start를 실행하세요.
 
 ![PushDataMaybeYouDontNeedWebSocket_14](/assets/img/PushDataMaybeYouDontNeedWebSocket_14.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 서버는 언제든지 웹페이지로 메시지를 푸시할 수 있습니다.
 
@@ -189,7 +326,18 @@ MDN에서 확인할 수 있습니다.
 
 ![이미지](/assets/img/PushDataMaybeYouDontNeedWebSocket_15.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 IE나 Edge를 제외하고 다른 브라우저와의 호환성 문제가 없습니다.
 
@@ -199,7 +347,18 @@ IE나 Edge를 제외하고 다른 브라우저와의 호환성 문제가 없습�
 
 서버 전송 이벤트(Server-Sent Events)는 서버 쪽 푸시만 필요한 시나리오에 특히 적합합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, 로그의 실시간 푸시가 있습니다.
 
@@ -209,7 +368,18 @@ IE나 Edge를 제외하고 다른 브라우저와의 호환성 문제가 없습�
 
 ![이미지](/assets/img/PushDataMaybeYouDontNeedWebSocket_16.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 child_process 모듈의 exec 함수를 사용하여 이 명령을 실행하고, 그 결과물을 stdout 출력을 듣습니다.
 
@@ -227,7 +397,18 @@ Node로 실행하세요.
 
 ![이미지](/assets/img/PushDataMaybeYouDontNeedWebSocket_17.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로 SSE 인터페이스를 추가해주세요.
 
@@ -248,7 +429,18 @@ stream2() {
 
 브라우저는 다음과 같이 새 인터페이스에 연결합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 테스트 내용입니다:
 
@@ -256,7 +448,18 @@ stream2() {
 
 브라우저가 실시간 로그를 수신한 것을 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 많은 빌드 로그들이 SSE를 통해 실시간으로 전송됩니다.
 
@@ -272,11 +475,33 @@ const buffer = readFileSync("./package.json");
 console.log(buffer);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 테이블 태그를 마크다운 형식으로 변경하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 한번 시도해보세요:
 
@@ -294,7 +519,18 @@ stream3() {
 
 ![](/assets/img/PushDataMaybeYouDontNeedWebSocket_23.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그렇습니다.
 
@@ -304,7 +540,18 @@ stream3() {
 
 WebSocket이나 HTTP의 Server-Sent Events (SSE)를 사용하여 실시간 데이터를 서버에서 푸시할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Content-Type을 text/event-stream으로 설정한 헤더를 반환함으로써 HTTP 응답에서 메시지를 스트리밍을 통해 여러 번 보낼 수 있습니다.
 
@@ -314,7 +561,18 @@ Content-Type을 text/event-stream으로 설정한 헤더를 반환함으로써 H
 
 프론트 엔드에서 EventSource의 onmessage를 사용하여 메시지를 수신합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 API는 IE를 제외하고 안전하게 사용할 수 있는 높은 호환성을 가지고 있어요.
 

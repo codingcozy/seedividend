@@ -3,7 +3,7 @@ title: "최신 업데이트 이후에도 LangChain 사용 시 주의해야 하�
 description: ""
 coverImage: "/assets/img/2024-08-17-WhyYouShouldBeCautiousAboutUsingLangChainEvenAfterItsLatestUpdates_0.png"
 date: 2024-08-17 01:33
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-17-WhyYouShouldBeCautiousAboutUsingLangChainEvenAfterItsLatestUpdates_0.png
 tag: Tech
 originalTitle: "Why You Should Be Cautious About Using LangChain Even After Its Latest Updates"
@@ -11,8 +11,6 @@ link: "https://medium.com/ai-advances/why-you-should-be-cautious-about-using-lan
 isUpdated: true
 updatedAt: 1723864308340
 ---
-
-
 
 ![LangChain](/assets/img/2024-08-17-WhyYouShouldBeCautiousAboutUsingLangChainEvenAfterItsLatestUpdates_0.png)
 
@@ -22,8 +20,18 @@ LangChain은 2022년 10월 대형 언어 모델 (LLM)에 대한 응용 프레임
 
 이 프레임워크는 오픈 소스 특성과 GitHub에서 개발자들의 적극적인 기여로 빠르게 주목을 받았습니다. 2023년 초까지, LangChain은 소셜 미디어에서의 논의, 번창하는 Discord 커뮤니티, 그리고 YouTube와 같은 플랫폼에서의 교육 콘텐츠를 통해 인기가 상당히 성장했습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2023년 4월, LangChain은 스타트업으로 전환하여 Sequoia Capital 및 Benchmark를 포함한 벤처 투자 기관으로부터 2천만 달러 이상의 자금을 확보했습니다. 이번 자금 지원으로 랑체인 프레임워크를 둘러싼 높은 기대가 부각되었는데, 특히 ChatGPT의 널리 퍼진 사용 이후 발생한 생성형 인공지능 기술에 대한 강한 관심이 있던 시기에 높아졌습니다.
 
@@ -33,7 +41,18 @@ LangChain은 2022년 10월 대형 언어 모델 (LLM)에 대한 응용 프레임
 
 2024년 5월, LangChain은 버전 0.2를 출시하여 이전에 받은 비판을 해소하고 사용자 경험을 개선하는 중요한 업데이트를 소개했습니다. 이 버전에는 기능을 최적화하고 통합 기능을 향상시키기 위한 파손 변경 사항과 사용 안내가 포함되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주요 업데이트 사항은 다음과 같습니다:
 
@@ -46,7 +65,18 @@ LangChain은 2022년 10월 대형 언어 모델 (LLM)에 대한 응용 프레임
 
 # 사용 편의성 및 복잡성 문제
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인기가 있지만 LangChain은 사용성과 복잡성에 대해 비판을 받아왔습니다. 많은 개발자들이 이 프레임워크의 구조가 혼동스러울 수 있고, 지나치게 추상화된 수준으로 핵심 기능을 이해하기 어렵다고 보고했습니다.
 
@@ -59,7 +89,18 @@ LangChain은 2022년 10월 대형 언어 모델 (LLM)에 대한 응용 프레임
 
 이러한 문제들로 일부 개발자들은 LangChain이 프로젝트에 가장 적합한 도구인지에 대해 의문을 제기하고 있습니다, 특히 보다 간단한 대안들과 비교했을 때.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 운영 중 성능
 
@@ -71,7 +112,18 @@ LangChain의 실제 응용 프로그램에서의 성능이 일부 개발자들 �
 - ConversationRetrievalChain이 사용자 입력을 다시 정리하는 경향이 있는 것으로, 때로는 대화의 흐름을 방해합니다.
 - 특정 산업 분야에서 정확한 용어가 중요한 경우에 한정된 적응성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LangChain은 학습과 프로토타이핑에 유용할 수 있지만, 이러한 성능 이슈로 인해 일부 개발자들이 프로덕션 환경에 대비하지 않았다는 점을 의심하고 있습니다. 특히 특정 어휘 또는 고위험 시나리오를 다루는 산업에서는 더욱 그렇습니다.
 
@@ -83,7 +135,18 @@ LangChain의 문서는 많은 사용자들 사이에서 논란의 여지가 있�
 - 오래된 정보 및 링크 오류
 - 잘못된 코드 예제
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 문서화 문제는 새로운 사용자들이 플랫폼을 효과적으로 활용하는 것을 방해하고, 신뢰할 수 있는 리소스가 중요한 프로덕션 환경에서의 널리 퍼지는 채택을 방해할 수 있습니다.
 
@@ -93,7 +156,18 @@ LangChain은 지원 및 지식 공유를 위한 커뮤니티를 구축했지만,
 
 LangChain 대안을 고려할 때, 다른 라이브러리들을 탐색해보는 것이 좋을 수 있습니다. 그 중 하나가 Kenny Vaneetvelde가 개발한 Atomic Agents입니다 (네 맞아요, 바로 저입니다!).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Atomic Agents는 LangChain 및 기타 유사한 프레임워크와 관련된 일부 단점을 해결하기 위해 설계되었습니다. 다음은 Atomic Agents의 주요 기능 및 철학입니다:
 
@@ -107,7 +181,18 @@ Atomic Agents는 LangChain 및 기타 유사한 프레임워크와 관련된 일
 
 Atomic Agents의 창시자로서, 다른 프레임워크에서 관찰된 제한 사항을 해결하기 위해 특별히 설계했습니다. 그러나 모든 도구와 마찬가지로 해당 도구의 적합성은 특정 프로젝트 요구 사항과 선호도에 따라 다를 것임을 감안해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -120,7 +205,18 @@ LangChain은 인기를 얻으며 여러 문제에 대한 업데이트를 소개�
 
 이러한 요인들은 LangChain이 교육 자료 및 프로토타입 도구로 유용할 수 있지만, 더 전문화되고 사용자 친화적인 대안이 더 많이 나타남에 따라 관련성을 유지하는 데 어려움을 겪을 수 있다는 것을 시사합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 작가 지원하기
 
@@ -130,7 +226,18 @@ LangChain은 인기를 얻으며 여러 문제에 대한 업데이트를 소개�
 
 감사합니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 경험 많은 프리랜서 건축가/개발자/리드를 찾고 계시거나 개념 증명을 개발하려는 경우, 심지어 AI 구현에 대한 전략적 조언이 필요한 경우, 제가 바로 그 분입니다!
 

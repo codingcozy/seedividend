@@ -3,16 +3,13 @@ title: "이 웹사이트의 다크 모드를 위한 1가지 간단한 CSS 트릭
 description: ""
 coverImage: "/assets/img/2024-06-20-1simpleCSStrickforDarkModeonyourwebsite_0.png"
 date: 2024-06-20 03:18
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-1simpleCSStrickforDarkModeonyourwebsite_0.png
 tag: Tech
 originalTitle: "1 simple CSS trick for Dark Mode on your website"
 link: "https://medium.com/x-periment-asteroid/1-simple-css-trick-for-dark-mode-on-your-website-d44ed7a7bfb5"
 isUpdated: true
 ---
-
-
-
 
 ## 야간 모드가 기다리고 있어요!
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 # 다크 모드를 간편화하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS를 활용하면 사용자 선호 테마에 매끄럽게 적응하는 웹사이트를 구축할 수 있어요. 어떻게요? 미디어 쿼리를 사용하여 --body-bg 및 --body-color CSS 변수를 조정하면 되죠. 라이트 모드에서는 배경을 흰색으로, 다크 모드에서는 검정색으로 설정할 거예요. 이렇게 하면 됩니다:
 
@@ -46,7 +54,18 @@ CSS를 활용하면 사용자 선호 테마에 매끄럽게 적응하는 웹사�
 
 만세! 이제 사이트가 낮과 밤 사이를 자유자재로 이동할 수 있답니다.재즈 뮤지션이 조퍼바꾸는 것만큼 부드럽죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 작동 방식
 
@@ -56,7 +75,18 @@ CSS를 활용하면 사용자 선호 테마에 매끄럽게 적응하는 웹사�
 
 하지만 왜 다크 모드를 신경 써야 할까요? 이유는 몇 가지 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 눈의 피로를 줄여줍니다: 특히 어두운 환경에서는 다크 모드가 눈에 부담을 덜어줄 수 있습니다.
 - 배터리 수명 절약: OLED 화면에서는 다크 모드를 사용하여 검은 픽셀이 더 적은 전력을 소비하기 때문에 배터리 수명을 절약할 수 있습니다.
@@ -68,7 +98,18 @@ CSS를 활용하면 사용자 선호 테마에 매끄럽게 적응하는 웹사�
 
 이 CSS 트릭을 프로젝트에 통합하려면 다음 단계를 따르세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 변수 정의: CSS 변수를 루트 수준에서 설정하여 스타일 시트 전체에서 액세스할 수 있도록 합니다.
 - 미디어 쿼리 적용: 사용자의 선호도에 따라 이러한 변수를 조정하기 위해 prefers-color-scheme 미디어 쿼리를 사용하세요.
@@ -85,7 +126,18 @@ body {
 
 # 결론: 밤 모드가 여러분을 기다립니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 있습니다! 웹 개발 생활을 조금 더 쉽게 만드는 빠르고 재미있는 가이드! 기술 분야에서 모든 것이 이렇게 간단했으면 좋겠죠? 이제 용감하게 코딩하고 사용자들을 눈부시게 하거나 배열에 뒤얽히지 않고 진행할 수 있어요! 새벽에 코딩을 하는 야행성 개발자이든, 세련된 현대적인 디자인을 좋아하는 사람이든, 이 간단한 CSS 요령이 여러분을 지켜줄 거예요.
 

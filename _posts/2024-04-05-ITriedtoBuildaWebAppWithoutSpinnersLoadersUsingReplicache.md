@@ -3,17 +3,13 @@ title: "Replicache를 활용해 스피너나 로더 없이 웹 사이트 만들�
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "I Tried to Build a WebApp Without Spinners , Loaders Using Replicache"
 link: "https://medium.com/bitsrc/i-tried-to-build-a-webapp-without-spinners-loaders-using-replicache-450aaf5b870"
 isUpdated: true
 ---
-
-
-
-
 
 ## Replicache은 웹 개발의 미래입니까? 그게 좋았나요? 함께 알아봐요!
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 무엇을 개발하고 있으며 클라이언트로부터 데이터를 보내는지에 따라 다릅니다. 일반적으로 데이터를 클라이언트로부터 보내면 대기해야 하며 이 대기 시간은 사용자에게 시각적인 인디케이터(진행 표시줄, 로딩 아이콘, 회전하는 바퀴 등)로 나타납니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 반면에 Replicache는 모든 대기 시간을 다룰 필요 없이 완전한 웹 애플리케이션을 구축할 수 있다고 주장합니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 # Replicache란 무엇일까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Replicache는 데이터 모델과 UI를 백엔드와 연결하여 데이터 트랜잭션을 처리하는 프레임워크입니다.
 
@@ -43,7 +61,18 @@ Replicache는 데이터 모델과 UI를 백엔드와 연결하여 데이터 트�
 
 새로운 레코드를 저장하는 것과 같은 동작들은 즉시 발생하며 레코드 목록을 관리하거나 새로운 레코드를 표시하는 UI가 자동으로 알림을 받습니다. 따라서 해당 업데이트를 수신해야 하는 모든 사용자가 업데이트를 받게 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Replicache 사용이 얼마나 쉬운가요?
 
@@ -53,7 +82,18 @@ Replicache는 데이터 모델과 UI를 백엔드와 연결하여 데이터 트�
 
 반면에, 처음부터 시작하려는 것이라면, 그들의 템플릿 중 하나로 시작하는 것이 좋은 아이디어일 수도 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러면 기본 인프라가 갖추어지니, 이후 어떤 방향으로 앱을 성장시키든 원하는 대로 할 수 있게 될 거에요.
 
@@ -63,7 +103,18 @@ Replicache는 데이터 모델과 UI를 백엔드와 연결하여 데이터 트�
 
 # Replicache로 시작하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예제에서는 사전 빌드된 할 일 앱을 사용할 것이고, 그를 위해 필요한 것은 다음 한 줄의 코드뿐입니다: npx degit rocicorp/replicache-todo my-todo-app
 
@@ -73,7 +124,18 @@ Replicache는 데이터 모델과 UI를 백엔드와 연결하여 데이터 트�
 
 우리의 경우, 다음 명령을 실행하기만 하면 됩니다: npx replicache get-license
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해당 명령을 실행하면 이름, 회사 이름 및 이메일과 같은 몇 가지 질문을 하게 될 거예요. 그리고 결과적으로 실제 라이선스 키를 받게 될 거에요.
 
@@ -83,7 +145,18 @@ Replicache는 데이터 모델과 UI를 백엔드와 연결하여 데이터 트�
 
 ![이미지](/assets/img/ITriedtoBuildaWebAppWithoutSpinners-LoadersUsingReplicache_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 앱을 사용하면 다음을 할 수 있어요:
 
@@ -95,7 +168,18 @@ Replicache는 데이터 모델과 UI를 백엔드와 연결하여 데이터 트�
 
 최종 결과물은 다음과 같을 거예요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/ITriedtoBuildaWebAppWithoutSpinners-LoadersUsingReplicache_2.png)
 
@@ -105,7 +189,18 @@ Replicache는 데이터 모델과 UI를 백엔드와 연결하여 데이터 트�
 
 첫 번째로 할 일은 데이터 모델을 업데이트하는 것입니다. TypeScript를 사용하는 앱이기도 하고, 이제 SQL 데이터베이스를 다루는 것처럼 생각해야 하기 때문입니다. 모델 구조를 변경하려면 모델 정의를 업데이트해야 합니다. 데이터를 다루는 모든 작업을 할 때마다 해당 작업을 트랜잭션으로 둘러싸야 하기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 변경하려는 모델은 src/todo.ts 파일에 있습니다. 그리고 기본적으로 두 가지 유형이 정의되어 있습니다: Todo 및 TodoUpdate
 
@@ -115,7 +210,18 @@ Replicache는 데이터 모델과 UI를 백엔드와 연결하여 데이터 트�
 
 이 모든 것을 고려하면, 새 데이터 모델은 다음과 같이 보입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 할 일 유형에 추가한 내용은 다음과 같습니다:
 
@@ -128,7 +234,18 @@ Replicache는 데이터 모델과 UI를 백엔드와 연결하여 데이터 트�
 
 이제 일 처리 관련 UI 변경 사항을 구현해야 할 차례입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 텍스트를 좋아하셨나요? IT 산업에서 20년 동안의 지혜를 모두와 함께 공유하는 무료 뉴스레터에 가입해보세요. "The Rambling of an old developer"에 가입하세요!
 
@@ -138,7 +255,18 @@ Replicache는 데이터 모델과 UI를 백엔드와 연결하여 데이터 트�
 
 이미지를 통해 UI가 어떻게 변화하는지 보여드립니다. 우리는 각 작업 아래에 메시지를 추가해야 하지만, "X" 옆에 "재생" 및 "일시정지" 버튼도 추가해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 작업은 src/components/todo-item.tsx 파일에서 이루어질 것입니다. 이 파일의 전체 소스 코드를 보려면 여기를 클릭하세요. 다음에는 필요한 코드가 포함된 추출물이 있습니다:
 
@@ -148,7 +276,18 @@ Replicache는 데이터 모델과 UI를 백엔드와 연결하여 데이터 트�
 
 이제 더 많은 함수가 추가되었습니다: workingTime 및 toggleWorkingOnIt. 첫 번째 함수는 간단히 작업의 workingWindows를 반복하고 init과 end 사이의 시간 차이를 더합니다. 이것은 순수 VanillaJS이며 전체 소스 코드를 여기에서 읽을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 중요한 건 토글 기능입니다. 왜냐하면 이 기능은 데이터를 업데이트하기 때문에 Replicache와 상호 작용합니다.
 
@@ -158,7 +297,18 @@ Replicache는 데이터 모델과 UI를 백엔드와 연결하여 데이터 트�
 
 그런데, onWorkingOnIt 함수는 어디서 온 걸까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비즈니스 로직을 살펴보겠습니다.
 
@@ -168,7 +318,18 @@ onWorkingOnIt이라는 함수는 우리 컴포넌트의 프롭으로 받게 되�
 
 그러니까, 이 함수가 어떻게 생겼는지 살펴보죠:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 항상 전체 소스 코드를 여기에서 확인할 수 있어요.
 
@@ -178,7 +339,18 @@ onWorkingOnIt이라는 함수는 우리 컴포넌트의 프롭으로 받게 되�
 
 작업 중인 task의 currentWorkingOn 속성에 현재 타임스탬프를 저장하고 있어요. 그 값은 나중에 작업을 중지할 때 사용될 거예요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 작업을 일시 중단하면 어떻게 될까요? 이전에 현재 작업 중이었던 값으로 새로운 작업 창을 만들어야 하며, 작업 창 목록에 추가해야 합니다.
 
@@ -188,7 +360,18 @@ onWorkingOnIt이라는 함수는 우리 컴포넌트의 프롭으로 받게 되�
 
 ## Mutators 작성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 토글 함수가 모든 흥미로운 일을 처리하지만, 데이터 저장 레이어와 상호 작용해야 할 때 Replicache의 마법을 처리해야 합니다.
 
@@ -198,7 +381,18 @@ onWorkingOnIt이라는 함수는 우리 컴포넌트의 프롭으로 받게 되�
 
 이들은 거의 동일한 일을 합니다. tx.get 메서드를 통해 실제 Todo를 가져와 필요한 속성을 반환합니다. 나머지 뮤테이터 함수들을 여기서 확인할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터를 조회하거나 업데이트해야 한다면 여기에서 뮤테이터를 정의해야 합니다.
 
@@ -208,7 +402,18 @@ onWorkingOnIt이라는 함수는 우리 컴포넌트의 프롭으로 받게 되�
 
 예제에서 일부 부분을 건너 뛴 것처럼 보일 수 있지만 실제로 그렇지 않습니다. Replicache를 사용한 작동하는 애플리케이션을 한 번 만들면 이 예제의 Todo 앱처럼 더 많은 논리를 추가하는 것은 매우 쉽습니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 결과는 놀랍군요.
 
@@ -218,7 +423,18 @@ onWorkingOnIt이라는 함수는 우리 컴포넌트의 프롭으로 받게 되�
 
 ![이미지](/assets/img/ITriedtoBuildaWebAppWithoutSpinners-LoadersUsingReplicache_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Bit의 오픈 소스 도구는 25만 명 이상의 개발자들이 컴포넌트를 사용하여 앱을 만들 수 있게 도와줍니다.
 
@@ -228,7 +444,18 @@ Bit의 오픈 소스 도구는 25만 명 이상의 개발자들이 컴포넌트�
 
 앱을 컴포넌트로 분할하여 앱 개발을 더 쉽게 만들고, 원하는 워크플로에 대한 최상의 경험을 즐기세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## → 마이크로 프론트엔드
 
@@ -238,6 +465,17 @@ Bit의 오픈 소스 도구는 25만 명 이상의 개발자들이 컴포넌트�
 
 ## → 모노 레포
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 더 알아보기

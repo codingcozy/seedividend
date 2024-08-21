@@ -3,16 +3,13 @@ title: "프론트엔드 주간 소식: 2024년 5월 13일  5월 19일"
 description: ""
 coverImage: "/assets/img/2024-05-20-FrontendWeeklyDigest3631319May2024_0.png"
 date: 2024-05-20 21:41
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-20-FrontendWeeklyDigest3631319May2024_0.png
 tag: Tech
 originalTitle: "Frontend Weekly Digest #363 (13–19 May 2024)"
 link: "https://medium.com/@frontender-ua/frontend-weekly-digest-363-13-19-may-2024-9f9c46819336"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-05-20-FrontendWeeklyDigest3631319May2024_0.png" />
 
@@ -35,7 +32,18 @@ isUpdated: true
 - 웹에서 텍스트 크기 조정을 다시 생각하기
 - 웹을 보다 접근 가능하게 만들기: 메뉴와 로더
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # CSS
 
@@ -53,7 +61,18 @@ isUpdated: true
 - 프로젝트에 적합한 라이브러리 선택: htmx vs. React
 - Vuejs Amsterdam 2024, 29개 동영상
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - TypeScript
   - TypeScript Adventures: Prop Drilling Down the Rabbit Hole

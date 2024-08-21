@@ -3,16 +3,13 @@ title: "리액트 컴파일러와 리액트 18에 대해서 알아보기"
 description: ""
 coverImage: "/assets/img/2024-05-27-ReactCompilerWithReact18_0.png"
 date: 2024-05-27 18:43
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-ReactCompilerWithReact18_0.png
 tag: Tech
 originalTitle: "React Compiler With React 18"
 link: "https://medium.com/@jherr2020/react-compiler-with-react-18-1e39f60ae71a"
 isUpdated: true
 ---
-
-
-
 
 우선, 아니요. React 컴파일러는 React 19의 일부가 아닙니다. React 19는 단순히 React 라이브러리일 뿐입니다. 빌드 변경사항은 없습니다. 따라서 React 컴파일러를 통합하려면 스스로 작업해야 합니다. 또한 React 컴파일러가 선택 사항이라는 것을 의미합니다. 이것이 좋은 점입니다.
 
@@ -22,7 +19,18 @@ React 19에 대한 포인트를 더 증명하기 위해 React 18 프로젝트에
 
 # 프로젝트 설정
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예시에서는 다른 프레임워크와 달리 리액트 19가 아닌 리액트 18.2.0으로 설정되어 있어서 Vite를 사용할 것입니다.
 
@@ -34,7 +42,18 @@ pnpm create vite r18-with-compiler --template react
 
 # 예제 만들기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컴파일러가 작동하는 방식을 보여주기 위해 최적화되지 않은 버전을 먼저 보여준 다음, 컴파일러를 설치하고 최적화된 버전을 확인해보겠습니다.
 
@@ -69,7 +88,18 @@ function App() {
 
 여기에는 간단한 헤더를 표시하는 새로운 Header 컴포넌트와 Header를 사용하고 자체적인 카운터 구현을 갖는 App 컴포넌트가 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최적화되지 않은 React 컴포넌트에서 Header는 매번 App이 버튼을 클릭하여 카운터를 업데이트할 때 다시 렌더링됩니다.
 
@@ -79,7 +109,18 @@ function App() {
 
 React 컴파일러는 우리의 App 컴포넌트(사실 Header도)를 최적화하는 방식으로 작동합니다. App에서 Header를 렌더링할 때 Header가 의존하는지 확인합니다. 좋은 소식은, Header가 어느 것에도 의존하지 않습니다. 그래서 Header를 렌더링한 것이 처음이면 마지막이 되어야 합니다. 컴파일러를 사용하는 것이 최적화된 결과입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 잘 작업했다면 버튼을 클릭할 때 Header의 console.log에서 메시지가 표시되지 않을 것을 기대할 수 있습니다. 이는 Header 함수가 호출되지 않기 때문입니다.
 
@@ -91,7 +132,18 @@ pnpm add babel-plugin-react-compiler
 
 그런 다음 Vite 구성에서 babel 플러그인을 구성해야 합니다. 제 경우에는 다음과 같이 보입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { defineConfig } from "vite";
@@ -124,8 +176,18 @@ export default defineConfig({
 
 또한 @ 별칭을 설정하고 소스로 가리키도록해야 합니다. 이렇게 하면 컴포넌트가 위치한 곳과 관계없이 항상 우리의 훅을 찾을 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 무엇을 다시 하고 있나요?
 
@@ -141,7 +203,18 @@ export function c(size) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 잠깐만요. 말 그대로 하는 게 없어요. 먼저 사전 할당된 배열의 필요한 크기를 매개변수로 사용하고, 그 크기의 배열이 있는 컴포넌트와 관련된 몇 가지 상태를 반환합니다. 그래서 useState를 사용하여 해당 배열을 만들고 배열만 반환합니다.
 
@@ -151,7 +224,18 @@ export function c(size) {
 
 다른 옵션은 사실상 패키지 관리자를 속여 ./src/mycache가 실제로 react-compiler-runtime 라이브러리라고 생각하게 하는 것입니다. 그래서 package.json 의 종속성에 이 부분을 추가할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 "dependencies": { ..., "react-compiler-runtime": "file:./src/mycache" }
@@ -163,7 +247,18 @@ export function c(size) {
 
 # 그래서 왜 이 C 구현이 작동합니까?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 모든 것이 원활히 진행되었으니 이 C 구현을 한 번 더 살펴보고 왜 동작하는지 알아보려고 해봅시다.
 
@@ -179,7 +274,18 @@ export function c(size) {
 
 이 컴포넌트를 컴파일해보죠:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 export default function Hello() {
@@ -190,34 +296,50 @@ export default function Hello() {
 위의 코드가 아래와 같이 변합니다:
 
 ```js
-import {c as _c} from "/src/mycache.js";
+import { c as _c } from "/src/mycache.js";
 export default function Hello() {
-    const $ = _c(2);
-    if ($[0] !== "a49bfc30998b8cb2...") {
-        for (let $i = 0; $i < 2; $i += 1) {
-            $[$i] = Symbol.for("react.memo_cache_sentinel");
-        }
-        $[0] = "a49bfc30998b8cb2...";
+  const $ = _c(2);
+  if ($[0] !== "a49bfc30998b8cb2...") {
+    for (let $i = 0; $i < 2; $i += 1) {
+      $[$i] = Symbol.for("react.memo_cache_sentinel");
     }
-    let t0;
-    if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
-        t0 = jsxDEV("div", {
-            className: "foo",
-            children: "안녕하세요"
-        }, void 0, false, {
-        }, this);
-        $[1] = t0;
-    } else {
-        t0 = $[1];
-    }
-    return t0;
+    $[0] = "a49bfc30998b8cb2...";
+  }
+  let t0;
+  if ($[1] === Symbol.for("react.memo_cache_sentinel")) {
+    t0 = jsxDEV(
+      "div",
+      {
+        className: "foo",
+        children: "안녕하세요",
+      },
+      void 0,
+      false,
+      {},
+      this
+    );
+    $[1] = t0;
+  } else {
+    t0 = $[1];
+  }
+  return t0;
 }
 ```
 
 컴파일된 코드의 상단에서 c 훅을 불러오고 최적화된 컴포넌트에서 사용한다는 것을 확인할 수 있습니다. 컴파일러는 초기화된 플래그를 저장하는 데 첫 번째 슬롯, 두 번째 슬롯에는 DOM 트리가 포함된 JSX의 메모이즈된 버전을 저장할 때 두 개의 슬롯만 필요하다는 사실을 알고 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금 c 훅이 어떻게 사용되는지 알았으니, 왜 우리의 구현이 작동하는지에 대해 조금 더 이해할 수 있게 되었습니다.
 
@@ -227,7 +349,18 @@ export default function Hello() {
 
 그 두 번째 부분이 여러분을 헷갈리게 한다면, JavaScript 메모리 관리와 참조가 배열 및 객체와 관련하여 작동하는 방식에 대한 이 비디오를 추천합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 공식 Polyfill
 
@@ -237,7 +370,18 @@ export default function Hello() {
 
 만약 React 컴파일러와 메모이제이션 작업 방식에 대해 더 자세히 알고 싶다면 제 React 컴파일러 영상을 꼭 시청해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 비디오는 메모이제이션의 메커니즘을 심도 있게 다루어서 React 컴포넌트 코드가 어떻게 변환되고 메모이징되며, 그 메모이제이션의 정밀도를 정말로 이해할 수 있도록 도와줍니다.
 
@@ -247,6 +391,17 @@ export default function Hello() {
 
 ## 더욱 심화된 주제
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 당신이 이러한 고급 React 주제에 관심이 있다면, 특히 NextJS에 대해, 제 ProNextJS 뉴스레터에 가입해보세요. 그것을 통해 NextJS 상태 관리와 폼 관리에 대한 두 가지 무료 자습서에 액세스 할 수 있습니다. 그리고 ProNextJS 전체 코스가 출시될 때 알림을 받을 수도 있어요! 곧 공개될 예정이에요!

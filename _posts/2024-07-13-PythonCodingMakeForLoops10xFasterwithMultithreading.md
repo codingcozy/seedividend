@@ -3,17 +3,13 @@ title: "파이썬 코딩 멀티스레딩으로 for 루프 속도 10배 향상시
 description: ""
 coverImage: "/assets/img/2024-07-13-PythonCodingMakeForLoops10xFasterwithMultithreading_0.png"
 date: 2024-07-13 19:21
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-PythonCodingMakeForLoops10xFasterwithMultithreading_0.png
 tag: Tech
 originalTitle: "Python Coding: Make For Loops 10x Faster with Multithreading"
 link: "https://medium.com/gitconnected/python-coding-make-for-loops-10x-faster-with-multithreading-63c3d5c5d9d9"
 isUpdated: true
 ---
-
-
-
-
 
 ![Python Coding Make For Loops 10x Faster with Multithreading](/assets/img/2024-07-13-PythonCodingMakeForLoops10xFasterwithMultithreading_0.png)
 
@@ -45,8 +41,18 @@ print("Time taken:", end_time - start_time, "seconds")
 # Time taken: 10.082990884780884 seconds
 ```
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 스크립트는 square_number 함수 내의 time.sleep(1) 호출로 인해 각 숫자를 순차적으로 처리합니다. 전체 실행에는 10.1초가 소요됩니다.
 
@@ -56,7 +62,18 @@ print("Time taken:", end_time - start_time, "seconds")
 
 다음은 스크립트를 멀티스레딩을 사용하도록 수정하는 방법입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import time
@@ -93,8 +110,18 @@ print("소요 시간:", end_time - start_time, "초")
 
 # 멀티스레딩 사용 시기
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다중 스레딩은 다양한 시나리오에서 상당한 속도 향상을 제공할 수 있다는 것을 보셨을 것입니다. 그러나 모든 작업에 적합한 것은 아닙니다. 다음은 다중 스레딩이 특히 유익한 일반적인 사용 사례 몇 가지입니다:
 
@@ -106,7 +133,18 @@ print("소요 시간:", end_time - start_time, "초")
 
 ## 2. 동시 작업:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 실시간 데이터 처리: 여러 센서 또는 스트림에서 데이터를 실시간으로 처리하며, IoT 응용 프로그램에서 사용됩니다.
 - GUI 어플리케이션: 사용자 인터페이스를 반응적으로 유지하기 위해 시간이 많이 소요되는 작업을 백그라운드에서 실행합니다.
@@ -118,7 +156,18 @@ print("소요 시간:", end_time - start_time, "초")
 
 # 멀티스레딩을 사용하지 말아야 할 때:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 멀티스레딩은 상당한 속도 향상을 제공할 수 있지만 항상 모든 문제에 대한 최적의 해결책은 아닙니다. 멀티스레딩이 적합하지 않을 수 있는 몇 가지 시나리오는 다음과 같습니다:
 
@@ -130,7 +179,18 @@ print("소요 시간:", end_time - start_time, "초")
 
 # 전문 팁 - 데코레이터 사용하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데코레이터는 함수에 멀티스레딩을 더 우아하고 재사용 가능한 방식으로 추가할 수 있습니다. 데코레이터는 다른 함수를 받아들이고 그 동작을 명시적으로 수정하지 않고 확장하는 함수입니다.
 
@@ -179,7 +239,18 @@ print("소요 시간:", end_time - start_time, "초")
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 멀티스레딩은 Python에서 루프를 최적화하는 강력한 도구입니다, 특히 I/O 바운드 및 동시성 작업에 대해. concurrent.futures 모듈을 활용하여 프로세스 시간을 크게 단축하고 프로그램의 효율성을 향상시킬 수 있습니다. 그러나 CPU 바운드 작업이나 복잡한 공유 상태를 다룰 때에는 멀티스레딩이 최선의 방법인지를 판단하기 위해 특정 사용 사례를 신중하게 평가하는 것이 중요합니다. 신중한 고려와 구현으로 멀티스레딩은 응용 프로그램의 성능을 크게 향상시킬 수 있습니다.
 
@@ -192,6 +263,17 @@ print("소요 시간:", end_time - start_time, "초")
 - LinkedIn에서 저를 찾아보세요
 - GitHub에서 코드를 확인해 보세요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 언제나 궁금한 점이나 아이디어, 추천 사항이 있으시면 언제든지 댓글로 질문해주세요.

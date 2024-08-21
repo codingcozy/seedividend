@@ -3,17 +3,13 @@ title: "제품 디자이너들이 디자인 시스템 디자이너로 이직하�
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Can Product Designers be Design System Designers"
 link: "https://medium.com/all-about-design-systems/can-product-designers-be-design-system-designers-c7be6c4b9a0c"
 isUpdated: true
 ---
-
-
-
-
 
 조직에서 디자인 시스템이 내부에서 구축되었지만 성숙도가 낮은 경우, 그 조직의 디지털 제품에 작업하는 제품 디자이너들이 디자인 시스템을 구축하는 경우가 흔합니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 제품 디자인 vs. 디자인 시스템
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 처음으로 두 분야의 차이점을 명확히 해보겠습니다:
 
@@ -34,7 +41,18 @@ isUpdated: true
 
 정의상으로는, 제품 디자인과 디자인 시스템 사이에 명확한 차이가 있지만, 유사성이 있습니다. 자세히 살펴보겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/CanProductDesignersbeDesignSystemDesigners_0.png" />
 
@@ -44,7 +62,18 @@ isUpdated: true
 
 # 제품 디자이너와 디자인 시스템 디자이너의 역할 차이
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제품 디자이너와 디자인 시스템 디자이너를 구분하는 것을 더 깊이 파악하려면 그들의 역할의 복잡성, 일상적인 작업의 세세한 부분, 그리고 조직 내에서의 작업의 넓은 영향에 대해 자세히 살펴봐야 합니다.
 
@@ -57,7 +86,18 @@ isUpdated: true
 - 시각 및 상호작용 디자인: 제품 디자이너들은 제품을 단순히 사용 가능한 것으로 만드는 것을 넘어, 시각적으로 매력적이게 만들기(UI 디자인)와 사용자가 제품을 사용하는 것을 즐길 수 있는 원활한 상호작용 경험(UX 디자인)에도 집중합니다. 이에는 시각 디자인 원칙에 대한 예리한 시각과 HCI 이해가 필요합니다.
 - 다학제적 협업: 제품 디자이너들은 엔지니어, 제품 관리자, 마케터, 그리고 아마도 고객 지원 팀과 밀접하게 협력하여, 사용자 요구 사항에 대한 공유된 이해를 조성하고 솔루션이 기술적 능력과 비즈니스 전략 내에 적합한지를 보장합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 설계와 제품에 미치는 영향
 
@@ -67,7 +107,18 @@ isUpdated: true
 
 ## 책임 범위
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 시스템 Thinking: 디자인 시스템 디자이너들은 시스템 Thinking의 원칙을 적용하여 확장 가능하고 재사용 가능한 디자인 솔루션을 만듭니다. 그들은 단순히 구성 요소를 고립시키는 것이 아니라 모든 구성 요소가 제품 및 플랫폼 내에서 및 간에 어떻게 함께 작동할 수 있는지 고려합니다.
 - 구성 요소 디자인 및 문서화: 그들의 역할 중 중요한 부분은 UI 구성 요소를 디자인하고 철저히 문서화하는 것입니다. 이 문서에는 시각적 명세 (크기, 색상, 타이포그래피) 뿐만 아니라 행동 명세 (상태, 상호 작용, 애니메이션) 및 구현을 위한 코드 지침도 포함됩니다.
@@ -80,7 +131,18 @@ isUpdated: true
 
 # 역할에서의 중복됨
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제품 디자이너와 디자인 시스템 디자이너의 명확한 역할과 중점 영역에도 불구하고, 제품 개발 생태계 내에서 이 포지션들이 얼마나 연결되어 있는지를 보여주는 몇 가지 중첩이 존재합니다. 이러한 중첩은 주로 두 역할이 일정한 범위에서 공유하는 기술, 방법론 및 목표에 나타납니다:
 
@@ -90,7 +152,18 @@ isUpdated: true
 
 ## 디자인 원칙 및 최선의 실천법
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 종류의 디자이너는 디자인 원칙과 최良의 실천 방법에 대한 기본적인 이해를 바탕으로 합니다. 이에는 색상 이론, 타이포그래피, 레이아웃 및 상호작용 디자인 원칙에 대한 지식이 포함되어 있으며, 이를 통해 매력적이고 기능적으로 효과적인 디자인을 만들 수 있습니다.
 
@@ -100,7 +173,18 @@ isUpdated: true
 
 ## 프로토타이핑과 테스트
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제품 디자이너와 디자인 시스템 디자이너 모두 디자인 아이디어를 소통하고 테스트하는 데 프로토타이핑 도구를 사용합니다. 제품 디자이너의 경우 사용자 흐름 및 특정 제품 내 상호 작용에 중점을 두고 프로토타입을 만들지만, 디자인 시스템 디자이너는 디자인 구성 요소의 유연성과 다양한 문맥에서의 적용 가능성을 테스트하기 위해 프로토타입을 만들 수 있습니다.
 
@@ -110,7 +194,18 @@ isUpdated: true
 
 ## 접근성과 포용성에 대한 주의력
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 디자인이 접근 가능하고 포괄적인지 확보하는 것은 모두의 책임입니다. 두 역할 모두 다양한 사용자를 고려하고, 설계한 제품이나 구성 요소를 최대한 많은 사람이 사용할 수 있도록 보장해야 합니다.
 
@@ -120,7 +215,18 @@ isUpdated: true
 
 ## 디자인 일관성을 위한 대변 활동
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 디자인 시스템 디자이너들은 디자인의 일관성을 보장하는 표준을 만들기 위해 직접 책임을 집니다. 한편 제품 디자이너들은 이러한 디자인 시스템을 준수하고 때로는 그 발전에 기여함으로써 자신의 작업에서 일관성을 지킵니다.
 
@@ -130,7 +236,18 @@ isUpdated: true
 
 # 마지막으로
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 역할 모두 디자인을 제공하지만, 각각의 초점과 프로세스는 명확하게 다릅니다.
 
@@ -140,6 +257,17 @@ isUpdated: true
 
 제품 디자이너는 특정 제품을 위해 즐거운 및 기능적인 사용자 경험을 만들기에 초점을 맞추는 반면, 디자인 시스템 디자이너는 조직 전체 제품 라인에 대해 일관되고 효율적인 디자인을 가능하게 하는 인프라에 투자합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼에도 불구하고, 두 역할 모두 고품질의 디지털 제품과 경험을 전달하는 데 중요합니다.

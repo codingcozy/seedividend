@@ -3,17 +3,13 @@ title: " React에서 클로저closures를 사용하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Fantastic closures and how to find them in React"
 link: "https://medium.com/@adevnadia/fantastic-closures-and-how-to-find-them-in-react-d81f000919d2"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/FantasticclosuresandhowtofindtheminReact_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 목차
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 문제
 - JavaScript, 스코프 및 클로저
@@ -41,7 +48,18 @@ JavaScript의 클로저는 해당 언어에서 가장 무서운 기능 중 하�
 - 낡은 클로저가 무엇이며, 왜 발생하는지.
 - React에서 낡은 클로저를 유발하는 일반적인 시나리오와 그것들과 싸우는 방법.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 경고: React에서 클로저를 다룬 적이 없으면 이 글을 읽는 동안 뇌가 폭발할 수 있습니다. 이 글을 읽을 때 뇌세포를 자극하기 위해 충분한 초콜릿을 준비해 두세요.
 
@@ -57,18 +75,25 @@ const Form = () => {
 
   return (
     <>
-      <input
-        type="text"
-        value={value}
-        onChange={(e) => setValue(e.target.value)}
-      />
+      <input type="text" value={value} onChange={(e) => setValue(e.target.value)} />
       <HeavyComponentMemo />
     </>
   );
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금까지 잘 하셨어요. 이 Heavy 컴포넌트는 title이라는 하나의 문자열 prop과 onClick 콜백을 받아들입니다. 이 컴포넌트 내부의 "done" 버튼을 클릭할 때 이 콜백이 트리거됩니다. 그리고 이 클릭이 발생할 때 form 데이터를 제출하고 싶다면 쉽습니다. 그냥 title과 onClick prop을 전달하면 됩니다.
 
@@ -85,11 +110,7 @@ const Form = () => {
 
   return (
     <>
-      <input
-        type="text"
-        value={value}
-        onChange={(e) => setValue(e.target.value)}
-      />
+      <input type="text" value={value} onChange={(e) => setValue(e.target.value)} />
       <HeavyComponentMemo title="폼에 오신 것을 환영합니다" onClick={onClick} />
     </>
   );
@@ -104,7 +125,18 @@ const onClick = useCallback(() => {
 }, []);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 useCallback 훅은 종속성 배열에 모든 종속성을 선언해야 한다는 점을 알고 있습니다. 따라서 내부에 양식 데이터를 제출하려면 해당 데이터를 종속성으로 선언해야 합니다:
 
@@ -121,7 +153,18 @@ const onClick = useCallback(() => {
 
 좋아요, 그만큼 충분하네요. 다른 솔루션을 찾아보죠. React.memo에는 비교 함수라는 것이 있습니다. 이 함수를 통해 React.memo에서 속성 비교에 대해 더 세부적으로 제어할 수 있습니다. 일반적으로 React는 "이전" 속성을 모두 "이후" 속성과 자체적으로 비교합니다. 그러나 이 함수를 제공하면 그 결과에 의존하게 됩니다. 반환 값이 true이면 React는 속성이 동일하다는 것을 알고 해당 컴포넌트를 다시 렌더링하지 않아도 된다. 바로 우리가 필요한 것 같네요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 신경 쓰는 prop은 제목 하나 뿐이기 때문에 그렇게 복잡하지는 않을 거에요:
 
@@ -148,18 +191,25 @@ const Form = () => {
 
   return (
     <>
-      <input
-        type="text"
-        value={value}
-        onChange={(e) => setValue(e.target.value)}
-      />
+      <input type="text" value={value} onChange={(e) => setValue(e.target.value)} />
       <HeavyComponentMemo title="폼에 오신 걸 환영합니다" onClick={onClick} />
     </>
   );
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 작동했습니다! 우리가 입력란에 무언가를 입력하면 무겁게 보이는 컴포넌트가 다시 렌더링되지 않고 성능에 영향을 받지 않습니다.
 
@@ -177,7 +227,18 @@ const onClick = () => {
 
 여기서 전체 예제를 직접 테스트할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요!
 
@@ -187,7 +248,18 @@ const onClick = () => {
 
 함수와 변수로 시작해보겠습니다. JavaScript에서 함수를 선언할 때 일반 선언을 사용하든 화살표 함수를 사용하든 어떤 일이 벌어질까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 function something() {
@@ -208,7 +280,18 @@ console.log(value); // 작동하지 않습니다, "value"는 "something" 함수 
 
 이것은 함수를 생성할 때마다 발생합니다. 다른 함수 내부에서 생성된 함수는 자체적인 로컬 스코프를 가지며, 외부 함수에서는 보이지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const something = () => {
@@ -235,7 +318,18 @@ const something = () => {
 
 이것은 "클로저"로 알려진 개념을 통해 달성됩니다. 내부 함수는 외부에서 얻은 모든 데이터를 "닫아"버립니다. 이는 말그대로 시간이 정지된 모든 "외부" 데이터의 스냅샷을 메모리에 따로 저장하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약에 그 값을 something 함수 내부에서 생성하는 대신 인수로 전달하고 내부 함수를 반환한다면:
 
@@ -260,7 +354,18 @@ first(); // "first"를 출력합니다
 second(); // "second"를 출력합니다
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 변수 "first"를 값으로 사용하여 우리의 'something' 함수를 호출하고 결과를 변수에 할당합니다. 결과는 내부에서 선언된 함수에 대한 참조입니다. 클로저가 형성됩니다. 이제 그 참조를 보유하고 있는 첫 번째 변수가 존재하는 한, 우리가 전달한 "first" 값은 고정되고 내부 함수가 그에 액세스할 수 있게 됩니다.
 
@@ -286,7 +391,18 @@ first(); // 무작위 숫자를 기록합니다
 second(); // 다른 무작위 숫자를 기록합니다
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 동적인 장면을 사진으로 찍는 것과 같아요: 버튼을 누르면 장면 전체가 사진 속에 영원히 “얼려져”버려요. 버튼을 다시 눌러도 이미 촬영된 사진에는 아무 변화도 일어나지 않을 거예요.
 
@@ -304,7 +420,18 @@ const Component = () => {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 useEffect 또는 useCallback 훅 안의 모든 것은 클로저입니다:
 
@@ -338,7 +465,18 @@ const Component = () => {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컴포넌트 내의 모든 함수는 컴포넌트 자체가 함수이기 때문에 클로저입니다.
 
@@ -348,7 +486,18 @@ const Component = () => {
 
 그렇다면 문제는 무엇일까요? 왜 클로저가 JavaScript에서 가장 무서운 것 중 하나이며 많은 개발자들에게 고통의 근원인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 클로저는 생긴 지 쉽 기 리 함수에 대한 참조가 존재하는 한 계속 존재하기 때문이에요. 함수에 대한 참조는 할당할 수 있는 값일 뿐이에요. 약간 머리를 굴려 봅시다. 위에서 가져온 함수인데, 완전히 무해한 클로저를 반환하는 함수가 있어요:
 
@@ -378,7 +527,18 @@ const something = (value) => {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 표면적으로 코드는 해armless 해 보입니다. 외부 변수 named cache를 생성하고 내부 함수를 cache.current 속성에 할당했습니다. 이제 이 함수가 매번 재생성되는 대신 이미 저장된 값을 반환합니다.
 
@@ -396,7 +556,18 @@ third(); // "first"를 출력합니다.
 
 다양한 인수로 something 함수를 호출해도 항상 첫 번째 값이 로깅되는 것을 볼 수 있습니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 방금 "고대한 클로저"를 만들었어요. 모든 클로저는 생성될 때의 상태로 고정돼요. 처음으로 something 함수를 호출할 때, "first"가 값 변수에 들어간 클로저를 만들었어요. 그리고 나서, 이를 something 함수 밖의 객체에 저장했어요.
 
@@ -406,7 +577,18 @@ third(); // "first"를 출력합니다.
 
 ![FantasticclosuresandhowtofindtheminReact_2.png](/assets/img/FantasticclosuresandhowtofindtheminReact_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const cache = {};
@@ -440,7 +622,18 @@ second(); // "second"를 기록합니다
 console.log(first === anotherFirst); // true가 됩니다
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기에서 코드를 재생해보세요:
 
@@ -453,7 +646,18 @@ console.log(first === anotherFirst); // true가 됩니다
 const onClick = useCallback(() => {}, []);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 이 함수 내부에서 state 또는 props에 액세스해야 한다면, 해당 값을 종속성 배열에 추가해야 합니다:
 
@@ -486,7 +690,18 @@ const Component = () => {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 콜백을 트리거할 때마다 기록된 것은 모두 정의되지 않은 상태입니다.
 
@@ -496,7 +711,18 @@ const Component = () => {
 
 콜백 후에 useState 또는 React.useEffect로 변수의 값 변경을 감지했다면, 해당 변수를 useRef로 변경해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 useMemo 훅 대신 Ref를 사용하려고 한다면 어떻게 될까요? 가끔 인터넷의 글들에서 컴포넌트의 props를 메모이즈하는 방법으로 이를 추천하기도 합니다. 표면적으로 봤을 때, 더 간단해 보입니다: useRef에 함수를 전달하고 ref.current로 액세스하면 됩니다. 의존성 없이, 걱정 없이.
 
@@ -514,7 +740,18 @@ const useRef = (callback) => {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서 이 경우, 컴포넌트가 처음으로 마운트됐을 때 형성된 클로저가 유지되고 절대 새로 고쳐지지 않을 것입니다. Ref에 저장된 함수 내에서 상태나 프롭에 접근하려고 할 때 우리는 오직 초기 값만 얻게 될 것입니다:
 
@@ -551,7 +788,18 @@ const Component = ({ someProp }) => {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 코드를 조금 더 수정해 보세요:
 
@@ -574,18 +822,25 @@ const Form = () => {
 
   return (
     <>
-      <input
-        type="text"
-        value={value}
-        onChange={(e) => setValue(e.target.value)}
-      />
+      <input type="text" value={value} onChange={(e) => setValue(e.target.value)} />
       <HeavyComponentMemo title="폼에 오신 것을 환영합니다" onClick={onClick} />
     </>
   );
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 버튼을 클릭할 때마다 "undefined"를 기록하는 문제가 발생합니다. onClick 내부의 값이 업데이트되지 않습니다. 왜 그런지 알 수 있을까요?
 
@@ -595,7 +850,18 @@ const Form = () => {
 
 이상적으로는 모든 prop을 비교 함수에 포함해야 하기 때문에, 여기에 onClick을 포함해야 합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 (before, after) => {
@@ -609,7 +875,18 @@ const Form = () => {
 
 우리는 합성을 이용하여 상태나 HeavyComponent를 추출 및 분리해볼 수 있지만, 쉽지 않을 것입니다: input과 HeavyComponent 둘 다 그 상태에 의존하고 있기 때문이죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 여러 다른 방법을 시도할 수 있어요. 하지만 클로저 트랩을 피하기 위해 어떤 대규모 리팩토링을 해야 할 필요는 없어요. 여기에 우리를 도와줄 멋진 꼼수 하나가 있어요.
 
@@ -619,7 +896,18 @@ const Form = () => {
 
 일단 React.memo에서 비교 함수와 onClick 구현을 제거해봅시다. 상태와 메모이즈된 HeavyComponent만 있는 순수 컴포넌트로 만들어봅시다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const HeavyComponentMemo = React.memo(HeavyComponent);
@@ -649,7 +937,18 @@ const Form = () => {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 함수가 최신 상태에 액세스하려면 모든 다시 렌더링될 때 다시 만들어져야 합니다. 이것을 피할 방법은 없어요. 이것은 클로저의 성질로 React와는 아무 상관이 없어요. useEffect 안에서 Ref를 수정해야 하고 렌더링 안에서 직접 수정하면 안돼요. 그래서 이렇게 하죠.
 
@@ -675,7 +974,18 @@ const Form = () => {
 
 하지만 그 ref.current를 메모이징된 컴포넌트에 바로 전달할 수는 없어요. 매번 다시 렌더링될 때마다 값이 달라지기 때문에 메모이제이션은 작동하지 않아요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const Form = () => {
@@ -723,7 +1033,18 @@ const Form = () => {
 
 이제 메모이제이션이 완벽하게 작동합니다 — onClick이 변하지 않습니다. 하나 문제가 있습니다, 그러나: 아무것도 수행하지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그런데 마법 같은 트릭을 보여줄게요: 동작하게 하려면 memoized 콜백 내에서 ref.current를 호출하기만 하면 됩니다:
 
@@ -746,7 +1067,18 @@ useCallback의 종속성에 ref가 없는 것을 주목하셨나요? 없어도 �
 
 하지만 클로저가 주변 모든 것을 고정시키지만, 객체를 불변하게 하거나 고정시키지는 않습니다. 객체는 메모리의 다른 부분에 저장되며, 여러 변수가 정확히 같은 객체에 대한 참조를 포함할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const a = { value: "one" };
@@ -764,7 +1096,18 @@ console.log(b.value); // "two"가 출력됩니다
 
 우리의 경우에는 심지어 그렇지 않습니다: useCallback 내부와 useEffect 내부에서 정확히 같은 참조를 가지고 있습니다. 따라서 useEffect 내부에서 ref 객체의 현재 속성을 변경할 때, 우리는 해당 속성에 접근할 수 있습니다. 이 속성은 최신 상태 데이터를 캡처한 클로저입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 전체 코드는 이렇게 될 거예요:
 
@@ -787,11 +1130,7 @@ const Form = () => {
 
   return (
     <>
-      <input
-        type="text"
-        value={value}
-        onChange={(e) => setValue(e.target.value)}
-      />
+      <input type="text" value={value} onChange={(e) => setValue(e.target.value)} />
       <HeavyComponentMemo title="Welcome closures" onClick={onClick} />
     </>
   );
@@ -802,7 +1141,18 @@ const Form = () => {
 
 수정된 예제로 놀아보세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 희망적으로, 이 모든 것이 이해되고 클로저에 대해 이해하기 쉬워졌을 거에요. 가기 전에 클로저에 대해 기억해야 할 몇 가지 사항이 있어요:
 
@@ -817,7 +1167,18 @@ const Form = () => {
 
 이 기사는 "고급 React" 책의 일환입니다. 이 기사를 좋아하셨다면 책도 좋아하실 수 있어요 😉
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 https://www.developerway.com에서 처음 발행되었습니다. 해당 웹사이트에는 이와 비슷한 추가 기사가 더 있습니다.
 

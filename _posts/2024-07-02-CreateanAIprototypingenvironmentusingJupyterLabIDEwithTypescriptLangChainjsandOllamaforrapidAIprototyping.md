@@ -3,15 +3,13 @@ title: "Jupyter Lab IDE에서 Typescript, LangChainjs, Ollama를 사용하여 AI
 description: ""
 coverImage: "/assets/img/2024-07-02-CreateanAIprototypingenvironmentusingJupyterLabIDEwithTypescriptLangChainjsandOllamaforrapidAIprototyping_0.png"
 date: 2024-07-02 21:45
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-02-CreateanAIprototypingenvironmentusingJupyterLabIDEwithTypescriptLangChainjsandOllamaforrapidAIprototyping_0.png
 tag: Tech
 originalTitle: "Create an AI prototyping environment using Jupyter Lab IDE with Typescript, LangChain.js and Ollama for rapid AI prototyping"
 link: "https://medium.com/itnext/create-an-ai-prototyping-environment-using-jupyter-lab-ide-with-typescript-langchain-js-7b395dae3f09"
 isUpdated: true
 ---
-
-
 
 ## TypeScript 개발자를 위한 단계별 안내서
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 이 글은 AI 지원 개발에 대한 나의 여정을 설명한 글 시리즈의 두 번째 부분입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 시리즈의 소개 부분에서는 최근 변경 사항을 요약하여 Typescript로 AI 앱을 프로토 타입 및 개발할 수 있도록 하는 내용을 설명했습니다.
 
@@ -31,7 +40,18 @@ isUpdated: true
 
 예를 들어, 이 시리즈의 다음 부분에서는 "텍스트 리뷰어 앱"을 만드는 과정을 자세히 설명할 예정입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-07-02-CreateanAIprototypingenvironmentusingJupyterLabIDEwithTypescriptLangChainjsandOllamaforrapidAIprototyping_1.png)
 
@@ -43,7 +63,18 @@ AI 도구 개발을 위해 다음과 같은 작업 흐름을 사용합니다:
 - 프로토타입의 코드를 확장하고 이를 기반으로 스토어를 생성합니다. React 앱에서는 Zustand React 스토어를 사용하고, Angular에서는 NgRx의 SignalStore를 사용하며, Jupyter Lab에서는 Zustand Vanilla 스토어를 사용합니다. 이러한 스토어 솔루션들은 많은 공통점을 가지고 있어서 동일한 선택자, 이펙트 및 업데이터 코드를 재사용할 수 있습니다.
 - Angular 또는 React 앱 또는 Nx 모노레포에서 스토어를 사용하는 스마트 컴포넌트를 구축합니다. React 앱에서는 Shadcn UI를 사용하고, Angular 앱에서는 Shadcn 기반의 spartan/ui를 사용하여 Angular 및 React 모두에서 거의 동일한 앱 아키텍처를 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제 Typescript 기반 AI 도구 프로토타이핑 환경에서 가장 중요한 도구들은 다음과 같아요:
 
@@ -57,7 +88,18 @@ AI 도구 개발을 위해 다음과 같은 작업 흐름을 사용합니다:
 - Chocolatey: Windows 소프트웨어 관리 솔루션, Python과 Deno를 설치하는 데 사용됩니다
 - Python 패키지 설치 관리자 (pip): Python 기반 패키지를 설치하는 데 사용되며, Jupyter Lab과 같은 Python 기반 도구 및 Chroma DB 벡터 데이터베이스와 같은 다른 Python 기반 도구를 설치하는 데 사용할 거에요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 글의 단계를 따르면 로컬 Jupyter Lab IDE(다운로드 가능한 Jupyter 노트북)에서 "텍스트 리뷰어 앱" 프로토 타입을 실행하고 나의 예시를 기반으로 자신의 앱 프로토 타입을 만들 수 있게 될 거예요:
 
@@ -67,7 +109,18 @@ AI 도구 개발을 위해 다음과 같은 작업 흐름을 사용합니다:
 
 처음 실험을 시작했을 때, 간단한 Angular 앱을 만들고 실험용 AI 코드를 주 컴포넌트의 생성자에 작성하고 콘솔에 출력했습니다. 단순한 실험에는 이 방식이 잘 작동했지만, 어떤 것을 구축할 방법에 대한 명확한 계획이 있고 여러 가지 모델, 프롬프트 또는 에이전트 네트워크를 실험하고 싶지 않을 때입니다. 그러나 더 복잡한 실험의 경우, 이 간단한 방법에는 제약이 있어요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 전체 실험 코드는 한꺼번에 모두 실행됩니다. 만약 여러 부분으로 나누어 실행하고 싶다면, UI 컨트롤이 필요하거나 코드 일부를 주석 처리/해제해야 합니다. Jupyter에서는 코드를 여러 셀로 나누고, 모든 셀 또는 일부 셀을 별도로 실행할 수 있습니다.
 - 패키지 관리: Deno에서는 이 과정이 자동으로 이루어집니다. import 문을 작성하면 Deno가 NPM 또는 Deno 패키지를 백그라운드에서 자동으로 다운로드하고 저장합니다. package.json이나 node_modules 디렉토리가 필요하지 않습니다. Deno에서 특정 버전의 패키지를 다운로드하면 모든 Jupyter 노트북에서 해당 패키지를 사용할 수 있습니다.
@@ -82,7 +135,18 @@ AI 도구 개발을 위해 다음과 같은 작업 흐름을 사용합니다:
 
 # Chocolatey CLI 설치 (Windows)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앞서 말씀드린대로 Chocolatey는 Windows용 소프트웨어 관리 솔루션으로, Python 및 Deno를 설치하는 데 사용됩니다. Jupyter Lab IDE를 설치하고 실행하기 위해 Python이 필요하며, Deno는 Jupyter Lab를 위한 Typescript 언어 지원을 제공합니다.
 
@@ -94,7 +158,18 @@ Chocolatey를 설치하려면 다음 명령을 관리자 권한으로 실행하�
 @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "[System.Net.ServicePointManager]::SecurityProtocol = 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 명령은 원격 설치1.ps 스크립트를 다운로드하여 컴퓨터에서 실행하므로 실행하기 전에 안전을 확인하려면 내용을 확인해야합니다.
 
@@ -108,7 +183,18 @@ Chocolatey를 설치하려면 다음 명령을 관리자 권한으로 실행하�
 - choco uninstall PackageName: 패키지를 제거합니다.
 - choco outdated: 새로운 버전이 있는 로컬로 설치된 패키지를 나열합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 설정: Python 및 Deno 설치
 
@@ -118,7 +204,18 @@ Chocolatey를 설치하려면 다음 명령을 관리자 권한으로 실행하�
 
 Python 패키지 관리자(pip) 버전을 업그레이드하려면 python -m pip install -U pip을 실행하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로 Deno Typescript Kernel을 설치하세요:
 
@@ -130,7 +227,18 @@ choco install deno
 
 리눅스에서는 배포판의 패키지 관리자를 사용하여 Python을 설치할 수 있습니다. 그런 다음 python -m pip install -U pip 명령을 사용하여 Python 패키지 관리자(pip)를 업그레이드할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼 Deno Typescript Kernel과 Pnpm 패키지 관리자를 설치하세요:
 
@@ -142,7 +250,18 @@ curl -fsSL https://deno.land/install.sh | sh
 
 관련 기사:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Deno 설치
 
@@ -152,7 +271,18 @@ curl -fsSL https://deno.land/install.sh | sh
 
 가상 환경은 설치된 패키지 집합을 포함합니다. 컴퓨터의 각 Python 기반 프로젝트를 위해 별도의 가상 환경을 만드는 것을 권장합니다. 따라서 JupyterLab과 Deno를 위한 새 가상 환경을 만듭니다. 나중에 추가적인 가상 환경을 생성할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 명령 프롬프트(관리자 권한 없는 상태에서)를 열고 가상 환경을 위한 새 디렉토리를 만들어주세요: mkdir C:\Users\YourUser\venv. 그리고 다음 명령어로 새 가상 환경을 생성해주세요: python -m venv C:\Users\YourUser\venv\jupyter-deno
 
@@ -162,7 +292,18 @@ curl -fsSL https://deno.land/install.sh | sh
 
 # 가장 중요한 Python 패키지 관리자 (pip) 명령어
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - pip list: 현재 설치된 패키지 목록을 확인합니다.
 - pip install PackageName: 패키지를 설치합니다 (Python Package Index에서 사용 가능한 패키지를 확인할 수 있습니다).
@@ -176,7 +317,18 @@ curl -fsSL https://deno.land/install.sh | sh
 
 Jupyter Lab에서는 기본적으로 숨김 파일을 표시하지 않습니다. 예를 들어, Jupyter Lab에서 .env 파일을 볼 수 없습니다. OpenAI의 API 키와 같은 정보를 .env 파일에 저장할 수 있습니다. 이러한 파일을 Jupyter Lab의 파일 관리자에서 표시하려면 다음 명령으로 새 Jupyter 구성 파일을 생성해야 합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 mkdir C:\Users\YourUser\.jupyter
@@ -194,7 +346,18 @@ cd C:\Users\YourUser\jupyter
 jupyter lab
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 관련 기사:
 
@@ -205,7 +368,18 @@ jupyter lab
 
 # Ollama 및 모델 설치
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전에 언급했듯이, 로컬 LLM 모델을 실행할 때 Ollama를 사용합니다.
 
@@ -217,7 +391,18 @@ Windows용 Ollama를 여기서 다운로드하고 모델 라이브러리는 여�
 - ollama pull ModelName:version: LLM 모델을 다운로드합니다.
 - ollama serve: 백그라운드에서 Ollama 서버를 실행합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 로컬 모델로 첫 번째 AI 프로토 타입을 시도해보세요
 
@@ -227,7 +412,18 @@ Windows용 Ollama를 여기서 다운로드하고 모델 라이브러리는 여�
 
 ![AI 프로토타입 환경 설정 이미지](/assets/img/2024-07-02-CreateanAIprototypingenvironmentusingJupyterLabIDEwithTypescriptLangChainjsandOllamaforrapidAIprototyping_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 다음 단계
 
@@ -241,7 +437,18 @@ Windows용 Ollama를 여기서 다운로드하고 모델 라이브러리는 여�
 
 # 요약
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 작은 튜토리얼을 완료한 것을 축하해요! 알겠지만, 지금까지 따라온 것 중에 가장 흥미로운 과정은 아니었을 거야. 하지만 신뢰해줘, 이제 AI 도구를 구축해보며 실험할 수 있는 강력한 프로토타이핑 환경을 갖게 됐어. 거기에 이는 대단한 식사를 위한 모든 재료를 얻는 것과 같아 (동시에 주방도 짓는 느낌이지 :D). 다음 글에서 요리를 시작할 텐데, 즐거운 파트를 기대해!
 
@@ -251,7 +458,18 @@ Windows용 Ollama를 여기서 다운로드하고 모델 라이브러리는 여�
 
 내 이름은 Gergely Szerovay이고, 많은 해 동안 데이터 과학자와 풀스택 개발자로 일했어. 최근에는 Angular 기반 프론트엔드 개발에 중점을 둔 프론트엔드 테크 리드로 일하고 있어. 나의 역할의 일환으로, Angular 및 프론트엔드 개발 분야가 어떻게 진화하고 있는지를 지속적으로 추적하고 있어.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지난 몇 년 동안 Angular은 매우 빠르게 발전해 왔고, 작년에는 AI 활용이 늘어나면서 소프트웨어 개발 워크플로우도 빠르게 진화했습니다. AI 지원 소프트웨어 개발의 진화를 밀접히 따라가기 위해, 저는 공개적으로 AI 도구를 개발하기로 결심했고, 진행 상황을 AIBoosted.dev에서 공개할 것입니다. 여기 구독하기 🚀
 

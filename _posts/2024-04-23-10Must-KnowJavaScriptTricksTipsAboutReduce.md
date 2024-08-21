@@ -3,17 +3,13 @@ title: "10가지 JavaScript 팁, reduce에 관한 팁2024년 최신"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "10 Must-Know JavaScript Tricks , Tips About Reduce"
 link: "https://medium.com/javascript-in-plain-english/10-must-know-javascript-tricks-tips-about-reduce-2bc7e5809c27"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/10Must-KnowJavaScriptTricks-TipsAboutReduce_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 "reduce"를 사용하면 여러 숫자를 더하거나 누적하는 기능을 쉽게 구현할 수 있어.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/10Must-KnowJavaScriptTricks-TipsAboutReduce_1.png" />
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 1: Math.max와 Math.min을 사용하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 Math의 API를 사용하는 것이 가장 쉬운 방법이라고 인정해야 합니다.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 네, 단 한 줄의 코드로 Math의 API와 동일한 효과를 얻을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/10Must-KnowJavaScriptTricks-TipsAboutReduce_3.png)
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 예를 들어
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1. 일반 방법
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 2. reduce 사용
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 'Markdown' 포맷으로 변경하면 됩니다.
 
@@ -73,7 +124,18 @@ isUpdated: true
 
 ## 4. 검색 매개변수의 역직렬화
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 링크로 이동하고 일부 검색 매개변수를 추가하려면 수동 연결 방식은 매우 불편합니다.
 
@@ -83,7 +145,18 @@ isUpdated: true
 
 ![Reduce Method Example](/assets/img/10Must-KnowJavaScriptTricks-TipsAboutReduce_6.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 5. 다중 레벨 중첩 배열을 평탄화하세요
 
@@ -93,7 +166,18 @@ isUpdated: true
 
 “flat”은 매우 강력한 API입니다. 자세한 내용을 보시려면 여기를 클릭해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 reduce 를 사용하여 flat 기능을 구현할 수 있어요.
 
@@ -103,7 +187,18 @@ reduce 를 사용하여 flat 기능을 구현할 수 있어요.
 
 깊게 중첩된 배열을 평탄화하는 함수를 구현했다면, flat 함수의 기능을 완전히 구현하는 방법은 무엇일까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 좋아요, 잘 했어요.
 
@@ -113,7 +208,18 @@ reduce 를 사용하여 flat 기능을 구현할 수 있어요.
 
 reduce를 사용해 배열을 유니크하게 유지하는 것도 간단합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/10Must-KnowJavaScriptTricks-TipsAboutReduce_10.png" />
 
@@ -123,7 +229,18 @@ reduce를 사용해 배열을 유니크하게 유지하는 것도 간단합니�
 
 왜 객체 대신에 Map을 사용해야 하나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕 친구들!
 
@@ -131,7 +248,18 @@ reduce를 사용해 배열을 유니크하게 유지하는 것도 간단합니�
 
 reduce를 활용하여 이 문제를 해결해 보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/10Must-KnowJavaScriptTricks-TipsAboutReduce_12.png" />
 
@@ -141,7 +269,18 @@ reduce를 활용하여 이 문제를 해결해 보세요.
 
 읽어 주셔서 감사합니다. 제 팔로우와 더 많은 고품질 기사 읽기를 기대하고 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 쉽고 이해하기 쉽게 🚀
 

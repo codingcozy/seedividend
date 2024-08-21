@@ -3,17 +3,13 @@ title: "selenium webdriver를 사용한 자동화 테스팅 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Complete Guide to Automated Testing Using Selenium WebDriver"
 link: "https://medium.com/stackademic/complete-guide-to-automated-testing-using-selenium-webdriver-1b47f99119cd"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/CompleteGuidetoAutomatedTestingUsingSeleniumWebDriver_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 소개
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지난 튜토리얼에서는 Mocha.js 라이브러리를 살펴보고 기본적인 React 애플리케이션을 테스트하는 데 활용했어요.
 
@@ -33,7 +40,18 @@ Enzyme을 사용하면 React 컴포넌트를 클론하고 도우미 함수를 �
 
 오늘은 Selenium WebDriver라는 또 다른 테스팅 도구를 알아보고 이를 사용하여 React 애플리케이션을 테스트할 거에요. 우리는 Java 프로그래밍 언어를 활용하고 테스트에 도움이 되는 별도의 Maven 프로젝트를 생성할 거에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 튜토리얼은 독자가 Java, Maven 및 Java 프로젝트 설정에 익숙하다고 가정합니다.
 
@@ -43,7 +61,18 @@ Enzyme을 사용하면 React 컴포넌트를 클론하고 도우미 함수를 �
 
 Selenium WebDriver는 Java, Node.js, Python 및 C#과 같은 다양한 프로그래밍 언어를 지원하며 Firefox, Google Chrome, Safari 및 Internet Explorer와 같은 다양한 브라우저를 지원하여 자동화된 테스트를 실행할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 특정 웹 페이지에서 웹 요소에 액세스하고 해당 요소와 상호 작용하여 성능을 확인합니다. Selenium WebDriver는 페이지 요소에 액세스하고 상호 작용하는 다양한 방법을 제공합니다.
 
@@ -53,7 +82,18 @@ Selenium WebDriver는 Java, Node.js, Python 및 C#과 같은 다양한 프로그
 
 다양한 브라우저 웹 드라이버에 대한 추가 정보는 여기에서 찾을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 웹 드라이버 아키텍처
 
@@ -63,7 +103,18 @@ Selenium WebDriver는 Java, Node.js, Python 및 C#과 같은 다양한 프로그
 
 이것은 우리가 이전에 살펴본 전형적인 클라이언트-서버 아키텍처입니다. Selenium WebDriver API를 사용하여 클라이언트 테스트 코드를 작성하고 페이지 요소에 액세스하고 상호 작용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 특정 브라우저에서 클라이언트 코드를 실행할 계획이 있다면 해당 브라우저 전용 웹 드라이버를 사용할 것입니다. 이전에 논의한 것처럼, 이는 테스트 프로세스를 자동화할 것입니다.
 
@@ -73,7 +124,18 @@ Selenium WebDriver를 사용하는 여러 이점이 있습니다. 첫 번째로,
 
 두 번째 이점은 개발자가 버그를 확인하고 전체 사용자 경험을 원활하게 테스트할 수 있도록 하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 서로 다른 프로그래밍 언어를 지원함으로써 Selenium WebDriver는 개발자들이 Selenium WebDriver API와 상호 작용하는 데 원하는 언어로 테스트 코드를 작성할 수 있도록 유연성을 제공합니다.
 
@@ -83,7 +145,18 @@ Selenium WebDriver API는 포괄적이며 개발자들이 웹 페이지 동작�
 
 어떤 작업을 실행하기 전에 Selenium이 제공하는 내장 WebDriver 클래스를 사용하여 웹 드라이버를 인스턴스화해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 사용하고 싶은 브라우저와 관련된 브라우저별 웹 드라이버 클래스를 사용합니다.
 
@@ -97,7 +170,18 @@ Selenium WebDriver API는 포괄적이며 개발자들이 웹 페이지 동작�
 
 인스턴스화에 성공한 후에는 API에서 제공하는 핵심 기능 중 하나를 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 대기 시간
 
@@ -107,7 +191,18 @@ Selenium WebDriver API는 포괄적이며 개발자들이 웹 페이지 동작�
 
 또 다른 경우에는 페이지가 제 시간에 로드되었기 때문에 테스트가 통과할 수 있지만, 실제로는 실패할 수도 있습니다. 모든 액션 사이에 대기 시간을 일괄적으로 설정함으로써 이를 피할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 셀레니움에서는 두 가지 다른 대기 시간이 있어요:
 
@@ -118,7 +213,18 @@ Selenium WebDriver API는 포괄적이며 개발자들이 웹 페이지 동작�
 
 ## 로케이터와 WebElement 클래스
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웨이팅 시간을 설정하는 것 외에도 Selenium WebDriver API는 웹 요소에 접근하는 다양한 방법을 제공합니다.
 
@@ -128,7 +234,18 @@ Selenium WebDriver에는 한 번 접근된 웹 요소와 상호 작용하기 위
 
 우리는 인스턴스화된 웹 드라이버와 findElement() 함수를 사용하여 웹 요소에 접근합니다. 이는 WebElement 타입의 객체를 반환하며, 그것이 지원하는 다양한 함수를 사용할 수 있게 해줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 좋은 질문이에요! Selenium WebDriver API에서 제공하는 로케이터를 사용하여 페이지별 요소에 액세스합니다. 다음은 각종 로케이터의 목록입니다:
 
@@ -144,7 +261,18 @@ Selenium WebDriver에는 한 번 접근된 웹 요소와 상호 작용하기 위
 
 다른 로케이터 방법은 특정 검색 기준에 따라 여러 웹 요소를 반환할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내장된 추상 By 클래스에 의해 제공되는 모든 이 로케이터들입니다.
 
@@ -154,7 +282,18 @@ findElements() 함수를 사용하여 웹 요소들의 목록을 얻을 수도 �
 
 웹 드라이버 브라우저와 DOM을 사용하여 웹 페이지 요소에 액세스합니다. HTML DOM에 익숙하지 않다면 진행하기 전에 해당 튜토리얼을 참조해 주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 웹 요소 상호 작용
 
@@ -166,7 +305,18 @@ Selenium WebDriver API는 웹 요소와 상호 작용하는 세 가지 다른 �
 - 키 입력
 - 지우기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 WebElement 클래스에서 제공하는 click() 함수를 사용하여 클릭 작업을 호출할 수 있습니다.
 
@@ -176,7 +326,18 @@ clear() 함수를 사용하여 요소를 지울 수 있습니다 (입력 필드 
 
 이것들은 웹 페이지 요소와 상호 작용하는 방법 중 일부입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 웹 요소 설명
 
@@ -186,7 +347,18 @@ clear() 함수를 사용하여 요소를 지울 수 있습니다 (입력 필드 
 
 양식을 유효성 검사할 때 isEnabled() 함수를 사용하여 특정 버튼이 활성화되어 있는지 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 특정 요소가 선택되었는지를 확인할 수 있는 isSelected() 함수(폼 요소가 선택되었는지 확인)를 사용할 수 있습니다.
 
@@ -196,7 +368,18 @@ clear() 함수를 사용하여 요소를 지울 수 있습니다 (입력 필드 
 
 이러한 함수에 대한 자세한 정보 및 사용 방법은 여기에서 공식 Selenium WebDriver 문서를 참조하실 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 브라우저 상호작용
 
@@ -206,7 +389,18 @@ clear() 함수를 사용하여 요소를 지울 수 있습니다 (입력 필드 
 
 한 가지 예는 탐색입니다. 시작할 때 웹 드라이버 브라우저가 이동해야 할 URL을 지정해야 합니다. 이를 위해 WebDriver 클래스에서 제공하는 get() 함수를 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 원하는 웹 페이지에 착륙했을 때 navigate() 함수를 사용하여 앞뒤로 이동할 수 있습니다.
 
@@ -216,7 +410,18 @@ to() 함수는 웹 드라이버가 이동해야 할 URL 문자열을 지정하�
 
 창 경고창은 중요한 브라우저 상호작용입니다. Selenium WebDriver는 내장된 Alert 클래스를 제공함으로써 경고창에 대한 지원을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 내장된 ExpectedConditions 클래스와 alertIsPresent() 함수를 사용하여 경고가 표시되는지 확인합니다.
 
@@ -226,7 +431,18 @@ getText() 함수를 사용하여 내용을 확인하기 위해 경고 텍스트�
 
 마지막으로, 웹 브라우저에서 작업할 때 창은 중요한 기능입니다. 세션 내에서 종종 여러 개의 탭/창을 열어 둘 수 있습니다. Selenium WebDriver API는 창을 지원합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현재 웹 드라이버가 있는 창의 ID에 접근할 수 있습니다. 이는 getWindowHandle() 함수를 사용하여 가능합니다.
 
@@ -236,7 +452,18 @@ WebDriver 클래스에서 제공하는 switchTo() 함수를 사용하여 창 간
 
 newWindow() 함수를 사용하여 새 창/탭을 만들거나 close() 함수를 사용하여 기존 창/탭을 닫을 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 원하는대로 창 크기를 조절할 수 있어요. 예를 들어, 창을 최대화/최소화하려면 각각 maximize()/minimize() 함수를 사용해요.
 
@@ -246,7 +473,18 @@ newWindow() 함수를 사용하여 새 창/탭을 만들거나 close() 함수를
 
 전체 자동화 테스트 프로세스를 따라가보고 셀레니움 WebDriver API가 어떻게 작동하는지 살펴볼 거에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 코드 개요
 
@@ -256,7 +494,18 @@ newWindow() 함수를 사용하여 새 창/탭을 만들거나 close() 함수를
 
 이러한 구성 요소를 자유롭게 탐색해보세요. 그러나 이 튜토리얼에서는 Selenium 테스트에 중점을 두고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자동화 테스트 프로세스에서 브라우저로 Google Chrome을 사용할 것입니다. Google Chrome 웹 드라이버 실행 파일 위치는 /webapp/selenium_test/src/main/java/pages/chromedriver.exe에 있습니다.
 
@@ -266,7 +515,18 @@ Node.js에는 의존성 관리를 위한 Node Package Manager가 포함되어 �
 
 Java에서 메이븐 프로젝트를 생성해야 합니다. Eclipse IDE에 익숙하다면 쉽게 만들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 매 Maven 프로젝트는 프로젝트의 모든 종속성을 상세히 나타내는 pom.xml 파일로 구성됩니다. 이는 Node.js 프로젝트에서 발견되는 package.json 파일과 유사합니다.
 
@@ -276,7 +536,18 @@ Java에서 메이븐 프로젝트를 생성해야 합니다. Eclipse IDE에 익�
 
 이를 통해 서로 다른 Selenium 클래스를 가져와 다양한 React 컴포넌트를 테스트할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 홈페이지 컴포넌트 테스트
 
@@ -286,7 +557,18 @@ Java에서 메이븐 프로젝트를 생성해야 합니다. Eclipse IDE에 익�
 
 이전에 설명한대로 WebDriver 클래스를 사용하여 웹 드라이버 객체를 만듭니다. 암시적 대기 시간을 2초로 설정하고 화면 크기를 최대화합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트 애플리케이션이 이미 실행 중인 것으로 가정합니다. 먼저 테스트를 실행하기 전에 localhost:3000으로 이동하여 화면에 HomePage 컴포넌트가 표시되는지 확인합니다.
 
@@ -296,7 +578,18 @@ By 클래스와 tagName() 함수를 사용하여 제목 및 단락 텍스트 요
 
 모든 것이 올바르다면 콘솔은 각 테스트에 대해 true를 출력해야 합니다. 마지막으로 driver.quit()를 사용하여 세션을 종료합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 네비게이션 바 구성 요소 테스트
 
@@ -306,7 +599,18 @@ HomePageTest 클래스와 유사하게, 웹 드라이버를 설정하고 사용�
 
 React 애플리케이션의 홈페이지로 이동하고 화면에 표시된 네비게이션 바 구성 요소에서 앵커 요소 목록을 가져옵니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그들을 By 클래스와 tagName() 함수를 사용하여 태그 이름으로 가져옵니다. 리스트의 크기가 2여야 하며 각 앵커 요소의 내용을 확인합니다.
 
@@ -316,7 +620,18 @@ React 애플리케이션의 홈페이지로 이동하고 화면에 표시된 네
 
 검색 페이지 컴포넌트를 테스트하기 위해 /selenium_test/src/main/java/pages/SearchPageTest.java 파일에서 해당 테스트를 찾을 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금까지 우리가 탐구한 것 중에서 이번에 할 테스트가 가장 포괄적이에요. 앞서 논의한 대로 Selenium WebDriver API의 주요 기능을 많이 포함하고 있어요.
 
@@ -326,7 +641,18 @@ React 애플리케이션의 홈페이지로 이동하고 화면에 표시된 네
 
 그 다음으로는 제목, 단락 텍스트, 입력 필드, 버튼 웹 요소의 존재 여부를 확인해요. By 클래스와 tagName() 함수를 사용해서 이를 수행해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 헤드라인(h3), 이태리체(i), 입력(input), 그리고 버튼(button) 태그를 사용하여 데이터를 가져온 후, SearchPage 컴포넌트가 간단하다는 것을 확인합니다.
 
@@ -336,7 +662,18 @@ React 애플리케이션의 홈페이지로 이동하고 화면에 표시된 네
 
 WebDriver 클래스에서 제공하는 switchTo().alert() 함수를 사용하여 Alert 창으로 전환합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Alert 컴포넌트에서 예상하는 텍스트와 일치하도록하고 dismiss() 함수를 사용하여 닫습니다.
 
@@ -346,7 +683,18 @@ Alert 컴포넌트에서 예상하는 텍스트와 일치하도록하고 dismiss
 
 이제 이 테스트 코드에 대한 안내가 마무리되었습니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 데모 시간!
 
@@ -356,7 +704,18 @@ Alert 컴포넌트에서 예상하는 텍스트와 일치하도록하고 dismiss
 
 이것을 성공적으로 프로젝트를 실행하는 데 필요한 모든 관련 Java 코드가 포함된 zip 폴더로 생각할 수 있습니다. 이를 가져와 프로젝트 설정을 간단히 할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어떤 테스트를 실행하기 전에 리액트 웹 애플리케이션이 실행되고 있는지 확인해야 합니다.
 
@@ -366,7 +725,18 @@ Alert 컴포넌트에서 예상하는 텍스트와 일치하도록하고 dismiss
 
 Java 프로젝트 내에서 src/main/java/pages 패키지로 이동하십시오. 거기에는 chromedriver.exe 파일과 함께 세 가지 서로 다른 클래스가 보일 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어느 클래스를 선택하고 콘솔에서 실행하세요(IDE 상단에 옵션이 있을 것입니다).
 
@@ -376,7 +746,18 @@ Java 프로젝트 내에서 src/main/java/pages 패키지로 이동하십시오.
 
 모든 것이 자동화되어 있으므로 실행 버튼을 누른 후에는 전체 프로세스를 지켜보는 것 이외에는 다른 작업을 할 필요가 없습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용자 개입 없이 자동으로 클릭 및 글자 입력이 발생하는 것을 관찰하는 것이 정말 흥미롭습니다.
 
@@ -386,7 +767,18 @@ Java 프로젝트 내에서 src/main/java/pages 패키지로 이동하십시오.
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 Selenium WebDriver를 자세히 다루고 그 다양한 기능을 탐험했습니다.
 
@@ -396,7 +788,18 @@ Selenium WebDriver는 개발자와 테스터 모두에게 테스트 프로세스
 
 우리는 WebDriver, WebElement, By와 같은 Selenium WebDriver API에서 제공되는 다양한 클래스를 살펴보았습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 드라이버의 다양한 유형을 살펴보고 탐색, 창 크기 조정, 그리고 동작 간의 다른 대기 시간을 설정하는 다양한 방법을 살펴보았어요.
 
@@ -406,7 +809,18 @@ Selenium WebDriver는 개발자와 테스터 모두에게 테스트 프로세스
 
 이 튜토리얼에서 사용된 GitHub 저장소, 공식 Selenium WebDriver 문서, 그리고 Maven 저장소 링크가 아래에 첨부되어 있어요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - GitHub 저장소
 - 공식 Selenium WebDriver 문서
@@ -418,7 +832,18 @@ Selenium WebDriver는 개발자와 테스터 모두에게 테스트 프로세스
 
 # Stackademic 🎓
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 공표를 끝까지 읽어 주셔서 감사합니다. 떠나시기 전에:
 

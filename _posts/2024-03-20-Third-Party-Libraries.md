@@ -3,17 +3,13 @@ title: "Nextjs 14 써드파티 라이브러리 사용 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # Nextjs 14 써드파티 라이브러리 사용 방법
 
@@ -22,7 +18,18 @@ isUpdated: true
 
 ## 시작하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시작하려면 @next/third-parties 라이브러리를 설치하세요:
 
@@ -34,7 +41,18 @@ npm install @next/third-parties@latest next@latest
 
 ## Google 타사
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Google에서 지원하는 모든 외부 라이브러리는 @next/third-parties/google에서 가져올 수 있습니다.
 
@@ -43,7 +61,18 @@ Google에서 지원하는 모든 외부 라이브러리는 @next/third-parties/g
 GoogleTagManager 컴포넌트를 사용하여 Google Tag Manager 컨테이너를 페이지에 인스턴스화할 수 있습니다. 기본적으로 페이지에서 수분화가 발생한 후에 원본 인라인 스크립트를 가져옵니다.
 모든 경로에 Google Tag Manager를로드하려면 루트 레이아웃에 직접 컴포넌트를 포함하고 GTM 컨테이너 ID를 전달하십시오:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```typescript
 import { GoogleTagManager } from "@next/third-parties/google";
@@ -70,7 +99,18 @@ export default function Page() {
 
 #### 이벤트 전송
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `sendGTMEvent` 함수는 데이터 레이어 객체를 사용하여 이벤트를 전송하여 페이지에서 사용자 상호작용을 추적하는 데 사용할 수 있습니다. 이 함수가 작동하려면 부모 레이아웃, 페이지 또는 컴포넌트 중 하나에 `<GoogleTagManager />` 컴포넌트가 포함되어 있거나 동일한 파일에 직접 포함되어 있어야 합니다.
 
@@ -92,7 +132,18 @@ export function EventButton() {
 
 #### 옵션
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Google Tag Manager에 전달할 옵션입니다. 전체 옵션 목록은 Google Tag Manager 문서를 참조하세요.
 
@@ -108,7 +159,18 @@ Google Tag Manager에 전달할 옵션입니다. 전체 옵션 목록은 Google 
 
 GoogleAnalytics 컴포넌트를 사용하면 Google Analytics 4를 Google 태그(gtag.js)를 통해 페이지에 포함시킬 수 있습니다. 기본적으로 페이지에서 수분화가 발생한 후에 원본 스크립트를 가져옵니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 > 권장 사항: 이미 응용 프로그램에 Google Tag Manager가 포함되어 있다면 Google Analytics를 별도 구성하는 대신 Google Tag Manager를 사용하여 Google Analytics를 직접 구성할 수 있습니다. Tag Manager와 gtag.js 간의 차이에 대해 자세히 알아 보려면 문서를 참조하십시오.
 > 모든 경로에 Google Analytics를 로드하려면 루트 레이아웃에 구성 요소를 직접 포함하고 측정 ID를 전달하십시오:
@@ -128,7 +190,18 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
 단일 경로에 Google Analytics를 로드하려면 페이지 파일에 구성 요소를 포함하십시오:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { GoogleAnalytics } from "@next/third-parties/google";
@@ -156,7 +229,18 @@ export function EventButton() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Google Analytics 개발자 문서를 참조해서 이벤트 매개변수에 대해 더 알아보세요.
 
@@ -165,7 +249,18 @@ Google Analytics 개발자 문서를 참조해서 이벤트 매개변수에 대�
 Google Analytics는 브라우저 히스토리 상태가 변경될 때 자동으로 페이지뷰를 추적합니다. 이는 Next.js 경로간의 클라이언트 측 이동이 어떤 구성 없이도 페이지뷰 데이터를 전송한다는 것을 의미합니다.
 클라이언트 측 이동이 올바르게 측정되고 있는지 확인하려면 '향상된 측정' 속성이 관리자 패널에서 활성화되어 있고 '브라우저 히스토리 이벤트에 기반한 페이지 변경' 확인란이 선택되어 있는지 확인하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 > 참고: 페이지뷰 이벤트를 수동으로 전송하기로 결정한다면, 중복 데이터가 발생하지 않도록 기본 페이지뷰 측정을 비활성화해야 합니다. 더 자세한 내용은 Google Analytics 개발자 문서를 참조해주세요.
 
@@ -178,7 +273,18 @@ Google Analytics는 브라우저 히스토리 상태가 변경될 때 자동으�
 | `gaId`          | 필수      | 귀하의 [측정 ID](https://support.google.com/analytics/answer/12270356)입니다. 일반적으로 `<code>G-</code>`로 시작합니다. |
 | `dataLayerName` | 선택 사항 | 데이터 레이어의 이름입니다. 기본값은 `<code>dataLayer</code>`입니다.                                                     |
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### Google 지도 삽입
 
@@ -194,7 +300,18 @@ export default function Page() {
 
 #### 옵션
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Google Maps Embed에 전달할 옵션입니다. 전체 옵션 목록을 보려면 Google Map Embed 문서를 참조하세요
 .
@@ -219,7 +336,18 @@ YouTubeEmbed 컴포넌트를 사용하여 YouTube 임베드를 로드하고 표�
 | `language`        | 선택 사항 | UI 요소 및 맵 타일 레이블의 표시에 사용할 언어를 정의합니다.                                                       |
 | `region`          | 선택 사항 | 지리적 민감성에 따라 표시할 적절한 경계 및 레이블을 정의합니다.                                                    |
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { YouTubeEmbed } from "@next/third-parties/google";

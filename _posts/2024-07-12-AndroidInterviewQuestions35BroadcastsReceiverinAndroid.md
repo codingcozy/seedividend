@@ -3,16 +3,13 @@ title: "2024년 안드로이드 인터뷰 대비 Broadcasts Receiver 관련 35�
 description: ""
 coverImage: "/assets/img/2024-07-12-AndroidInterviewQuestions35BroadcastsReceiverinAndroid_0.png"
 date: 2024-07-12 21:44
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-12-AndroidInterviewQuestions35BroadcastsReceiverinAndroid_0.png
 tag: Tech
 originalTitle: "Android Interview Questions: 35 | Broadcasts Receiver in Android"
 link: "https://medium.com/@dawinderapps/android-interview-questions-35-broadcasts-receiver-in-android-636656bc8116"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-07-12-AndroidInterviewQuestions35BroadcastsReceiverinAndroid_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 Android에서 앱들은 서로 통신할 수 있으며 시스템은 브로드캐스트라고하는 메시징 시스템을 사용합니다. 브로드캐스트 수신자는 이 시스템의 중요한 부분으로, 앱들이 시스템 또는 다른 앱으로부터 메시지를 받아 응답할 수 있게 합니다. 이들은 앱이 최신 상태를 유지하도록 도와주고 변경 사항에 반응하며 새로운 작업을 시작할 수 있습니다. 이 기사에서는 브로드캐스트 수신자가 어떻게 작동하며, 그 종류와 앱 개발에서 효과적으로 사용하는 방법에 대해 탐색해 보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 브로드캐스트 수신기란 무엇인가요?
 
@@ -32,7 +40,18 @@ Android에서 앱들은 서로 통신할 수 있으며 시스템은 브로드캐
 
 # 브로드캐스트의 종류
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요! 안드로이드에는 두 가지 주요 브로드캐스트 유형이 있어요:
 
@@ -45,7 +64,18 @@ Android에서 앱들은 서로 통신할 수 있으며 시스템은 브로드캐
 - 화면 켜짐/꺼짐
 - 네트워크 연결 상태 변경
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 시스템 브로드캐스트의 예시입니다:
 
@@ -57,7 +87,18 @@ Android에서 앱들은 서로 통신할 수 있으며 시스템은 브로드캐
 
 반면에, 사용자 정의 브로드캐스트는 앱에서 전송되며 다양한 목적으로 사용할 수 있습니다. 이들은 앱에서 전송되며 다양한 목적으로 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 앱간 데이터 전송
 - 다른 앱에 이벤트 알림
@@ -71,15 +112,26 @@ Android에서 앱들은 서로 통신할 수 있으며 시스템은 브로드캐
 
 # 방송 수신기가 어떻게 동작하는지
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 1: AndroidManifest.xml 파일에 방송 수신기 등록
 
 ```js
 <receiver android:name=".MyReceiver">
-    <intent-filter>
-        <action android:name="android.intent.action.BATTERY_LOW" />
-    </intent-filter>
+  <intent-filter>
+    <action android:name="android.intent.action.BATTERY_LOW" />
+  </intent-filter>
 </receiver>
 ```
 
@@ -87,7 +139,18 @@ Android에서 앱들은 서로 통신할 수 있으며 시스템은 브로드캐
 
 ## 단계 2: 방송 수신기 클래스 생성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```kotlin
 class MyReceiver : BroadcastReceiver() {
@@ -110,7 +173,18 @@ fun sendBroadcast() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 단계에서는 sendBroadcast() 메서드를 사용하여 브로드캐스트를 전송합니다. ACTION_BATTERY_LOW 작업을 사용하여 Intent를 만들고 sendBroadcast() 메서드에 전달합니다.
 
@@ -120,7 +194,18 @@ fun sendBroadcast() {
 
 우리의 예제에서는 MyReceiver 클래스의 onReceive() 메서드가 호출되어 "배터리가 낮습니다"라는 메시지를 토스트로 표시합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이는 시스템 방송과 동일하게 사용자 정의 방송을 생성할 수 있는 예시입니다. 간단한 예시가 여기 있습니다:
 
@@ -157,7 +242,18 @@ fun sendCustomBroadcast(message: String) {
 
 # 방송 수신기의 사용 사례
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 시스템 이벤트: 시스템 상태 변경 시 알림을 받습니다 (예: 배터리 부족, 화면 켜기/끄기)
 - 다른 앱으로부터 데이터: 다른 앱이 보낸 데이터를 받습니다 (예: 새 메시지 알림)
@@ -173,20 +269,31 @@ fun sendCustomBroadcast(message: String) {
 이 주제에 관한 인터뷰에서 물어볼 수 있는 몇 가지 질문:
 
 - 안드로이드에서 Broadcast Receiver란 무엇인가요?
-시스템 전반의 알림이나 이벤트에 응답하는 구성 요소입니다.
+  시스템 전반의 알림이나 이벤트에 응답하는 구성 요소입니다.
 - Broadcast Receiver에서 Intent Filter의 목적은 무엇인가요?
-Receiver가 처리해야 할 방송을 지정하기 위해 사용됩니다.
+  Receiver가 처리해야 할 방송을 지정하기 위해 사용됩니다.
 - 동기식과 비동기식 Broadcast Receiver의 차이점은 무엇인가요?
-동기식 Receiver는 주 스레드에서 실행되고, 비동기식 Receiver는 백그라운드 스레드에서 실행됩니다.
+  동기식 Receiver는 주 스레드에서 실행되고, 비동기식 Receiver는 백그라운드 스레드에서 실행됩니다.
 - Broadcast Receiver를 등록 해제해야 하는 시기는 언제인가요?
-리소스를 낭비하지 않기 위해 Receiver가 더 이상 필요하지 않을 때 등록을 해제해야 합니다.
+  리소스를 낭비하지 않기 위해 Receiver가 더 이상 필요하지 않을 때 등록을 해제해야 합니다.
 - Broadcast Receiver가 액티비티를 시작할 수 있나요?
-네, startActivity() 메서드를 사용하여 시작할 수 있습니다.
+  네, startActivity() 메서드를 사용하여 시작할 수 있습니다.
 - Broadcast Receiver에서 수신한 데이터를 어떻게 처리하나요?
-getIntent() 메서드를 사용하여 Intent에서 데이터를 추출합니다.
+  getIntent() 메서드를 사용하여 Intent에서 데이터를 추출합니다.
 
 질문이 있거나 추가 설명이 필요하면 언제든지 저에게 연락해 주세요 ☎️. 또한 다른 이들이 이에 도움을 받을 수 있는 경우 함께 공유해 주시고 👏 여러 번 클랩을 쾌적해 주시기 바랍니다. 여러분의 지원은 저에게 큰 힘이 되며 계속 배운 것을 공유할 수 있도록 격려해 주는 요인입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막으로, 코딩 세계를 한 줄씩 탐험하는 이런 게시물을 더 보고 싶다면 👥 Dawinder Singh Gill를 팔로우해보세요. 즐거운 코딩되세요!

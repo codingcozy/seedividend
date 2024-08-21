@@ -3,16 +3,13 @@ title: "Rails로 OCR 시스템 구축하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-02-HowIbuiltanOCRSystemwithRails_0.png"
 date: 2024-07-02 22:13
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-02-HowIbuiltanOCRSystemwithRails_0.png
 tag: Tech
 originalTitle: "How I built an OCR System with Rails"
 link: "https://medium.com/@lcgarcia/how-i-built-an-ocr-system-with-rails-525535da8995"
 isUpdated: true
 ---
-
-
-
 
 친구와의 대화 중에 이 아이디어가 떠올랐어요. 친구가 문서를 스캔하고 분석해야 할 일이 많다고 언급했는데, 시간을 내기가 어려운 상황이라고 했어요. 이 일이 꽤 부담스러운 작업인 것 같아 보였고, 스트레스를 받고 있는 모습이었습니다. 그래서 제가 말했죠, "음, 어쩌면 해결책을 찾을 수도 있겠어요." 그래서 저는 RTesseract를 사용해 루비로 작은 스크립트를 만들기로 결심했어요. 이 스크립트는 그의 문서 스캔을 도와주는 것뿐만 아니라 이미지에서 텍스트를 추출하기 위한 OCR도 수행했어요. 꽤 유용하다는 것을 알아냈고, 다른 사람들도 이 아이디어의 더 강력한 버전에서 혜택을 받을 수 있을 것 같아요. 그래서 이 레일즈 어플리케이션이 탄생했습니다.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 ## 이 프로젝트에서는 다음 도구들을 사용할 예정입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 루비 온 레일즈: 나는 옛날 학교파야!
 - 액티브 스토리지: 빠르기 때문에!
@@ -41,7 +49,18 @@ rails active_storage:install
 rails db:migrate
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로 Tailwind가 필요합니다.
 
@@ -54,7 +73,18 @@ rails tailwindcss:install
 
 # 단계 2: 모델 생성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모델을 생성해 보겠습니다. 파일 첨부 기능이 있는 모델을 생성할 거에요. 이 예시에서는 Document 모델을 만들어 볼게요.
 다른 column도 추가해도 괜찮아요. 저는 제목만 추가할 거에요.
@@ -68,7 +98,18 @@ rails db:migrate
 
 파일 첨부를 다루기 위해 Active Storage를 사용할 거에요. 이를 통해 모델에 파일을 손쉽게 첨부할 수 있어요. Document 모델을 수정해 파일 첨부 기능을 포함시켜야 해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 단계별로 설명합니다:
 
@@ -84,7 +125,18 @@ end
 
 - has_one_attached :file: 이 줄은 Rails에 각 문서 인스턴스가 첨부 파일을 하나 가질 수 있다고 알려줍니다. Active Storage는 첨부를 관리하며, 메타데이터를 데이터베이스에 저장하고 실제 파일을 구성된 스토리지 서비스(로컬 디스크, Amazon S3 등)에 저장합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리 모델에 has_one_attached :file을 추가함으로써, 이제 생성할 다른 구성 요소가 생겼습니다: 컨트롤러입니다.
 
@@ -96,7 +148,18 @@ end
 rails generate controller Documents
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음에는 문서를 업로드하고 표시하는 데 필요한 동작을 정의하겠습니다. app/controllers/documents_controller.rb에 위치한 DocumentsController 파일을 열고 다음 코드로 업데이트하세요:
 
@@ -133,7 +196,18 @@ end
 
 # 단계 5: 뷰 생성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음에는 뷰를 생성할 차례입니다.
 
@@ -144,7 +218,7 @@ end
 <div class="min-h-screen bg-gray-100 flex items-center justify-center">
   <div class="bg-white p-8 rounded-lg shadow-md w-full max-w-md">
     <h2 class="text-2xl font-bold mb-6 text-center">새 문서 업로드</h2>
-    
+
     <%= form_with model: @document, local: true, class: "space-y-6" do |form| %>
       <% if @document.errors.any? %>
         <div class="bg-red-100 text-red-700 p-4 rounded-lg">
@@ -177,8 +251,18 @@ end
 
 그리고 다음을 app/views/documents/show.html.erb에 추가하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <p>
   <strong>Title:</strong>
@@ -190,18 +274,26 @@ end
   <%= link_to @document.file.filename.to_s, rails_blob_path(@document.file, disposition: "attachment") %>
 </p>
 
-
 # 단계 6: 라우트 추가
 
 Rails가 대부분을 처리하기 때문에 작은 단계입니다. config/routes.rb에 다음을 추가하세요:
 
-
 Rails.application.routes.draw do
-  resources :documents, only: [:new, :create, :show]
+resources :documents, only: [:new, :create, :show]
 end
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 7: 스토리지 서비스 구성
 
@@ -211,7 +303,18 @@ Active Storage를 사용하면 구성 파일을 업데이트함으로써 이러�
 
 아래는 우리 앱에서 사용할 구성입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 local:
@@ -227,8 +330,18 @@ local:
 
 아래와 같은 내용이 표시될 것입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-07-02-HowIbuiltanOCRSystemwithRails_1.png)
 
@@ -238,8 +351,18 @@ local:
 
 # 단계 8: rtesseract Gem 추가
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신의 Gemfile에 Gem을 추가해주세요.
 
@@ -251,7 +374,18 @@ gem 'rtesseract'
 
 업로드된 파일에 OCR을 수행하는 메소드를 Document 모델에 만드세요. 다음은 그 방법입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 class Document < ApplicationRecord
@@ -299,7 +433,18 @@ class DocumentsController < ApplicationController
 end
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 11: OCR 텍스트 표시를 위한 뷰 업데이트
 
@@ -322,11 +467,22 @@ show.html.erb 뷰를 수정하여 OCR 텍스트를 표시합니다:
     <pre><%= @ocr_text %></pre>
   </p>
 <% end %>
-``` 
+```
 
 # 단계 12: Tesseract가 설치되어 있는지 확인하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시스템에 Tesseract OCR이 설치되어 있는지 확인해주세요. 다음 명령어를 사용하여 해당 프로그램을 설치할 수 있습니다. 운영 체제에 따라 다음과 같이 명령어를 입력해주세요:
 
@@ -342,7 +498,18 @@ sudo apt-get install tesseract-ocr
 
 <img src="/assets/img/2024-07-02-HowIbuiltanOCRSystemwithRails_2.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 텍스트에는 여전히 개선할 부분이 많이 있네요. 의견을 주시면 감사하겠습니다.
 

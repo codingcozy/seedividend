@@ -3,16 +3,13 @@ title: "Angular에서 Firebase 인증 사용하는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-23-Firebaseauthenticationinangular_0.png"
 date: 2024-06-23 14:06
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-Firebaseauthenticationinangular_0.png
 tag: Tech
 originalTitle: "Firebase authentication in angular"
 link: "https://medium.com/@gabriel.cournelle/firebase-authentication-in-angular-ab1b66d041dc"
 isUpdated: true
 ---
-
-
-
 
 이 기사에서는 Angular 프로젝트에 Firebase 인증을 Google Single Sign-On (SSO)과 빠르게 설정하는 방법을 제안합니다. 또한 선택한 백엔드에 인증된 요청을 하는 방법도 포함되어 있습니다.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 # Firebase 설정
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Firebase에 가서 새 프로젝트를 만들어주세요.
 
@@ -32,7 +40,18 @@ Firebase에 가서 새 프로젝트를 만들어주세요.
 
 ![이미지](/assets/img/2024-06-23-Firebaseauthenticationinangular_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 열리는 창에서 앱에 이름을 지정하고, 예를 들어 myangularapp처럼 등록해주세요. Firebase 구성을 어딘가에 저장하세요. 다음과 같이 보여야 합니다:
 
@@ -51,7 +70,18 @@ const firebaseConfig = {
 
 ## 인증 설정
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 제품으로 이동한 다음 **인증**을 선택하세요. **로그인 방법**에서 **새로운 제공자 추가**를 클릭하고 Google을 선택하세요. Firebase는 Google과 긴밀하게 통합되어 있기 때문에 별도의 설정이 필요하지 않습니다.
 
@@ -61,7 +91,18 @@ const firebaseConfig = {
 
 ![이미지](/assets/img/2024-06-23-Firebaseauthenticationinangular_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Angular 설정
 
@@ -71,7 +112,18 @@ const firebaseConfig = {
 
 그런 다음, demofirebase라는 새 폴더를 만들고 해당 폴더에서 ng new frontend --no-standalone --routing ssr=false을 실행하세요. 이렇게 하면 필요한 파일이 포함된 frontend 폴더가 생성됩니다. 이 단계를 마치면 저장소 구조는 다음과 같아야 합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 demofirebase
@@ -93,7 +145,18 @@ demofirebase
 ]
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Firebase 구성을 environment.development.ts에 붙여 넣으세요.
 
@@ -127,7 +190,18 @@ export const environment = {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앱 모듈(app.module.ts)에 필요한 import 문을 추가하고 애플리케이션을 초기화하세요:
 
@@ -159,7 +233,18 @@ export class AppModule {}
 
 첫째로, Google SSO를 위한 컴포넌트를 생성하려면 'ng g c signin'을 사용하고, 랜딩 페이지를 위한 컴포넌트를 생성하려면 'ng g c landing'을 사용하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 Markdown으로 테이블 태그를 변경하세요.
 
@@ -199,7 +284,18 @@ export class AppRoutingModule {}
 <router-outlet></router-outlet>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금 ng serve를 실행하고 http://localhost:4200으로 이동하면 아주 아름다운 페이지를 볼 수 있고, 랜딩 페이지와 로그인 페이지 사이를 이동할 수 있습니다.
 
@@ -209,7 +305,18 @@ export class AppRoutingModule {}
 
 구글 SSO를 추가하려면 단순히 버튼에 click 이벤트 리스너를 추가하면 됩니다. 저는 재사용 가능하도록 지시어를 사용하는 것을 선호하는데, 아래에 제가 보여주는 구현 방법을 사용하시면 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 구글 SSO를 실행하여 지시문을 만들고 app.module.ts에 자동으로 추가합니다.
 
@@ -238,7 +345,18 @@ app.module.ts에 지시문을 추가하십시오.
 
 이제 로그인 페이지에서 해당 지시문을 사용할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <!-- signin.component.html -->
@@ -266,16 +384,26 @@ export class SigninComponent {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <!-- signin.component.html -->
+
 @if (angularFireAuth.authState | async) {
 <button (click)="logOut()">Log out</button>
 } @else {
 <button googleSso>Sign in with google</button>
 }
-
 
 ## Adding a route available only for logged in users
 
@@ -283,8 +411,18 @@ Let’s create another component: ng g c require-auth
 
 Then let’s create a guard: ng g g auth then select CanActivate
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // auth.guard.ts
@@ -321,7 +459,18 @@ const routes: Routes = [
 
 app.component.html에 추가하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <li>
@@ -335,7 +484,18 @@ app.component.html에 추가하세요.
 
 백엔드에서 요청을 인증하려면 Firebase에서 제공한 토큰을 Authorization 헤더에 추가해야 합니다. 백엔드에서는 토큰을 확인하는 작업을 담당할 것입니다(본 문서의 범위를 벗어남).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ng g interceptor bearer-token 명령을 사용하여 interceptor를 생성하세요.
 
@@ -348,10 +508,7 @@ import { from, lastValueFrom } from "rxjs";
 import { environment } from "../environments/environment";
 
 // 토큰을 얻는 작업이 비동기적이므로 이 함수를 추가해야 합니다.
-const addBearerToken = async (
-  req: HttpRequest<any>,
-  next: HttpHandlerFn,
-): Promise<HttpEvent<any>> => {
+const addBearerToken = async (req: HttpRequest<any>, next: HttpHandlerFn): Promise<HttpEvent<any>> => {
   const angularFireAuth = inject(AngularFireAuth);
   const firebaseUser = await angularFireAuth.currentUser;
   const token = await firebaseUser?.getIdToken();
@@ -386,7 +543,18 @@ import { bearerTokenInterceptor } from './bearer-token.interceptor';
 ...
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막으로 확인해보기 위해 백엔드를 호출하는 서비스를 생성해봅시다: ng g s api
 
@@ -416,7 +584,18 @@ export class ApiService {
 <button (click)="getUserId()">사용자 ID 가져오기</button>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { Component } from "@angular/core";
@@ -443,7 +622,18 @@ export class LandingComponent {
 
 ## 추가 정보: Firebase는 로그인 정보를 어디에 저장하나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희가 인터셉터를 사용할 때 다음 코드를 사용했습니다:
 
@@ -457,6 +647,17 @@ const token = await firebaseUser?.getIdToken();
 
 사실, Google SSO로 인증할 때, 인증 정보가 브라우저에 저장됩니다. 브라우저 개발자 도구를 열고 저장소 탭 (Chrome의 경우 Application)으로 이동하신 다음 Indexed DB로 이동해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <table> 태그를 Markdown 형식으로 변경해주세요.

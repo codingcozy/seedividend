@@ -3,16 +3,13 @@ title: "여러분의 RAG 어플리케이션 성능 향상을 위한 5가지 꿀�
 description: ""
 coverImage: "/assets/img/2024-05-17-5HacksToImproveYourRAGApplication_0.png"
 date: 2024-05-17 04:20
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-17-5HacksToImproveYourRAGApplication_0.png
 tag: Tech
 originalTitle: "5 Hacks To Improve Your RAG Application"
 link: "https://medium.com/@mansoorsyed05/5-hacks-to-improve-your-rag-application-7b4aa76397fb"
 isUpdated: true
 ---
-
-
-
 
 RAG는 기업 및 비즈니스에서 Gen AI 기능을 사용자 지정 데이터와 통합하는 데 중요한 도구가 되었습니다.
 
@@ -26,7 +23,18 @@ RAG는 기업 및 비즈니스에서 Gen AI 기능을 사용자 지정 데이터
 - 임베딩 어댑터
 - 가상 문서 임베딩
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 쿼리 확장:
 
@@ -38,7 +46,18 @@ RAG는 기업 및 비즈니스에서 Gen AI 기능을 사용자 지정 데이터
 - 검색된 데이터/문서와 프롬프트를 결합합니다.
 - LLM(언어 모델)을 사용하여 하이브리드 데이터로부터 데이터를 생성합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 import chromadb
@@ -54,11 +73,11 @@ def augmented_query_creator(user_query, retrieved_documents):
     return prompt
 
 def generate_answer(prompt):
-    openai.api_key = "YOUR_OPENAI_API_KEY"  
+    openai.api_key = "YOUR_OPENAI_API_KEY"
     response = openai.Completion.create(
-        engine="text-davinci-003",  
+        engine="text-davinci-003",
         prompt=prompt,
-        max_tokens=1024, 
+        max_tokens=1024,
         n=1,
         stop=None,
         temperature=0.7
@@ -67,11 +86,11 @@ def generate_answer(prompt):
 
 if __name__ == "__main__":
     query = "What is the review of the movie?"
-    
+
     # 1 Retrive relevant documents
     results = chroma_collection.query(query_texts=[query], n_results=5)
     retrieved_documents = results['documents'][0]
-    
+
     # 2 Augmented query generation
     augmented_query = augmented_query_creator(query,retrieved_documents)
 
@@ -85,7 +104,18 @@ if __name__ == "__main__":
 
 하지만 이러한 청크를 사용하더라도 한 문서와 다른 문서 사이의 의미와 연속성 손실이 발생할 수 있습니다. 이 문제를 완화하기 위해 데이터의 일관성과 흐름을 유지하기 위해 청크 사이에 중첩을 도입하는 것이 중요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 from langchain.vectorstores import Chroma
@@ -120,7 +150,18 @@ chroma_collection = Chroma.from_documents(
 
 우리는 문서의 관련성 순서를 변경하기 위해 코사인 유사성 대신 크로스 인코더 모델을 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Step 1: 크로스-인코더 모델을 로드합니다.
 
@@ -132,11 +173,11 @@ Step 3: 문서를 정렬하고 반환합니다.
 from sentence_transformers import SentenceTransformer
 
 # ChromaDB와 크로스-인코더 모델을 로드합니다.
-chromadb = Chroma.load("chroma_db")  
-cross_encoder = SentenceTransformer("all-mpnet-base-v2")  
+chromadb = Chroma.load("chroma_db")
+cross_encoder = SentenceTransformer("all-mpnet-base-v2")
 
 def re_rank_results(query, retrieved_chunks, k=3):
-  
+
   scored_chunks = []
   for chunk in retrieved_chunks:
     score = cross_encoder.compute_similarity([query], [chunk])[0][0]
@@ -147,7 +188,18 @@ def re_rank_results(query, retrieved_chunks, k=3):
   return sorted_chunks[:k]
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 임베딩 어댑터:
 
@@ -157,7 +209,18 @@ def re_rank_results(query, retrieved_chunks, k=3):
 
 단계 2: 임베딩 어댑터로 섬세하게 조정하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3단계: 개선된 검색
 
@@ -176,8 +239,8 @@ text_loader = TextLoader(document_path)
 documents = text_loader.load()
 
 # 텍스트 인코더를 사용하여 ChromaDB 생성 (선택 사항)
-persist_directory = "chroma_db"  
-text_encoder = IdentityEncoder()  
+persist_directory = "chroma_db"
+text_encoder = IdentityEncoder()
 
 vectordb = Chroma.from_documents(
     documents=documents,
@@ -206,7 +269,18 @@ print("ChromaDB 검색 완료!")
 
 HyDE는 대형 언어 모델(Large Language Models, LLMs)을 활용하여 문서로부터 정보 검색을 개선하는 기술입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Step 1: Query 이해하기: 모든 것은 사용자 쿼리로 시작됩니다. HyDE는 이 쿼리를 입력으로 받습니다.
 
@@ -216,7 +290,18 @@ Step 3: 가설 인코딩: 가상 문서가 생성된 후, HyDE는 문서 자체�
 
 Step 4: 유사 문서 찾기: 이제 검색 과정이 시작됩니다. HyDE는 가상 문서를 나타내는 벡터를 사용하여 방대한 문서 컬렉션(보통 미리 인코딩된)을 검색합니다. 이것은 가상 문서의 벡터와 유사한 실제 문서를 탐색합니다. 유사성은 이 실제 문서들이 가상 답변과 유사한 방법으로 사용자 쿼리에 대응한다는 것을 나타냅니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 5단계: 검색된 문서를 활용하기: HyDE 프로세스를 기반으로 가장 관련성 높은 것으로 간주된 이러한 검색된 문서는 이후 RAG 시스템에 공급됩니다. RAG 내의 LLM은 이 문서들을 사용하여 사용자의 초기 쿼리에 대한 더 포괄적이고 유익한 응답을 생성할 수 있습니다.
 

@@ -3,16 +3,13 @@ title: "REST 엔드포인트를 데이터 소스로 사용하는 GraphQL 쿼리 
 description: ""
 coverImage: "/assets/img/2024-05-18-CreateaGraphQLQueryWithaRESTEndpointAsaDataSource_0.png"
 date: 2024-05-18 21:26
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-18-CreateaGraphQLQueryWithaRESTEndpointAsaDataSource_0.png
 tag: Tech
 originalTitle: "Create a GraphQL Query With a REST Endpoint As a Data Source"
 link: "https://medium.com/javascript-in-plain-english/create-a-graphql-query-with-a-rest-endpoint-as-a-data-source-fc21ae95a441"
 isUpdated: true
 ---
-
-
-
 
 ![image](/assets/img/2024-05-18-CreateaGraphQLQueryWithaRESTEndpointAsaDataSource_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 ## PlainEnglish.io에서 더 많은 내용 확인 가능합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리 무료 주간 뉴스레터를 구독해보세요. Twitter, LinkedIn, YouTube, 그리고 Discord에서도 팔로우해주세요.
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 자, 더 이상 말이 필요없으니 시작해봅시다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # GraphQL 프로젝트 초기화:
 
@@ -42,7 +61,18 @@ isUpdated: true
 
 ## Dependencies 추가:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희가 주요하게 사용하는 의존성은 graphQL과 apollo-server 패키지입니다. 그러니 이들을 프로젝트에 추가해봅시다:
 
@@ -56,7 +86,18 @@ yarn add apollo-server graphql
 yarn add --dev nodemon
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금 우리의 package.json 파일은 다음과 같이 보일 것입니다:
 
@@ -81,7 +122,18 @@ yarn add --dev nodemon
 
 ## index 파일을 생성하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트의 루트에 index.js라는 파일을 만들어주세요. 이 파일은 우리의 GraphQL 서버의 진입점이 될 것입니다.
 
@@ -89,9 +141,7 @@ yarn add --dev nodemon
 // index.js
 import { ApolloServer } from "apollo-server";
 const server = new ApolloServer();
-server
-  .listen({port: process.env.PORT || 5000})
-  .then(({url})=> console.log(`서버 실행 중 : ${url}`));
+server.listen({ port: process.env.PORT || 5000 }).then(({ url }) => console.log(`서버 실행 중 : ${url}`));
 ```
 
 기본적인 GraphQL 서버가 설정되었으니, package.json에 nodemon을 사용하여 개발 모드에서 시작하는 스크립트를 추가해봅시다:
@@ -106,7 +156,18 @@ server
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 사용자 스키마 생성하기:
 
@@ -116,7 +177,18 @@ server
 
 스키마를 정의하기 위해 gql이라는 특별한 태그를 사용할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용자 스키마는 다음과 같이 정의될 수 있습니다:
 
@@ -129,13 +201,24 @@ export const User = gql`
     email: String,
     name: String
   }
-``` 
+```
 
 UUID를 위해 우리는 graphQL에서 ID라는 특별한 타입을 사용하며, '!' 표시는 값이 null일 수 없음을 의미합니다.
 
 따라서 User라는 타입을 정의하고 사용자 객체에 대한 스키마를 생성했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 사용자 쿼리 정의:
 
@@ -152,30 +235,50 @@ export const Query = gql`
 
 사용자 쿼리로 여러 사용자를 검색할 것이기 때문에 그 유형을 이전에 스키마에서 정의한 User 유형의 배열로 지정합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 편의를 위해 스키마 디렉토리 아래에 인덱스 파일을 만들고 정의된 스키마를 다음과 같이 노출해봅시다:
 
 ```js
 // schema/index.js
-export { User } from './user.js';
-export { Query } from './query.js';
+export { User } from "./user.js";
+export { Query } from "./query.js";
 ```
 
 # 서버 실행:
 
 저희가 정의한 스키마를 포함하는 서버의 진입점인 index.js를 수정해봅시다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // index.js
 import { ApolloServer } from "apollo-server";
 import { Query, User } from "./schema/index.js";
-const server = new ApolloServer({typeDefs:[Query,User]});
-server
-  .listen({ port: process.env.PORT || 5000 })
-  .then(({ url }) => console.log(`gserver at : ${url}`));
+const server = new ApolloServer({ typeDefs: [Query, User] });
+server.listen({ port: process.env.PORT || 5000 }).then(({ url }) => console.log(`gserver at : ${url}`));
 ```
 
 이제 터미널에서 `yarn dev`라고 입력해보세요:
@@ -184,8 +287,18 @@ server
 
 브라우저를 http://localhost:5000 에서 열어볼 때, 모든게 잘 되었다면 다음 화면을 보게 됩니다:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-05-18-CreateaGraphQLQueryWithaRESTEndpointAsaDataSource_2.png" />
 
@@ -195,7 +308,18 @@ server
 
 아직 많이 할 수 있는 것은 없어요. 그래서 다음 섹션에서 사용자 정보를 가져오기 위한 리졸버를 추가해볼게요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 사용자 RESTful 서비스:
 
@@ -205,7 +329,18 @@ server
 
 이것은 express 서버에서 실행 중인 전형적인 RESTful 엔드포인트입니다. 이미 구현되어 있으므로 많은 걱정할 필요가 없습니다. 이 기사의 초점은 기존 REST 엔드포인트와 graphQL 쿼리를 인터페이싱하는 것뿐입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 사용자 데이터 소스 및 리졸버:
 
@@ -215,7 +350,18 @@ server
 
 ## 사용자 데이터 소스:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 데이터 소스로 REST 엔드포인트를 사용할 것이기 때문에, 아폴로 팀이 만든 apollo-datasource-rest 패키지를 설치해봅시다. 이 패키지는 캐싱과 같은 중요한 기능을 다루므로 우리가 걱정할 필요가 없습니다.
 
@@ -227,18 +373,29 @@ yarn add apollo-datasource-rest
 
 이제 프로젝트 루트에 datasource라는 디렉토리를 만들어 다음과 같이 정의해봅시다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // datasource/users.js
 import { RESTDataSource } from "apollo-datasource-rest";
 export class UsersAPI extends RESTDataSource {
-  constructor(){
+  constructor() {
     super();
-    this.baseURL = "http://localhost:3000/"
+    this.baseURL = "http://localhost:3000/";
   }
   async getAllUsers() {
-    return this.get('users')
+    return this.get("users");
   }
 }
 ```
@@ -251,11 +408,22 @@ datasource 디렉토리의 인덱스 파일은 다음과 같이 될 것입니다
 // datasource/index.js
 import { UsersAPI } from "./users.js";
 export const dataSources = () => ({
-  UsersAPI: new UsersAPI()
+  UsersAPI: new UsersAPI(),
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 사용자 리졸버:
 
@@ -264,22 +432,33 @@ export const dataSources = () => ({
 ```js
 // resolvers/users.js
 export const userResolvers = {
-  users: (parent, args, {dataSources}, info) => dataSources.UsersAPI.getAllUsers()
-}
+  users: (parent, args, { dataSources }, info) => dataSources.UsersAPI.getAllUsers(),
+};
 ```
 
 다음 세션에서 서버의 진입점과 연결할 때 이해할 수 있을 것입니다. 리졸버 인덱스에 다음을 추가합시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // resolvers/index.js
 import { userResolvers } from "./users.js";
 export const resolvers = {
   Query: {
-    ...userResolvers
-  }
-}
+    ...userResolvers,
+  },
+};
 ```
 
 ## 서버와 연결하기:
@@ -292,13 +471,22 @@ import { ApolloServer } from "apollo-server";
 import { Query, User } from "./schema/index.js";
 import { resolvers } from "./resolver/index.js";
 import { dataSources } from "./datasource/index.js";
-const server = new ApolloServer({ typeDefs:[Query,User ], resolvers, dataSources });
-server
-  .listen({ port: process.env.PORT || 5000 })
-  .then(({ url }) => console.log(`서버가 실행 중: ${url}`));
+const server = new ApolloServer({ typeDefs: [Query, User], resolvers, dataSources });
+server.listen({ port: process.env.PORT || 5000 }).then(({ url }) => console.log(`서버가 실행 중: ${url}`));
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 로컬호스트:5000에서 실행 중인 GraphQL 플레이그라운드로 이동하여 다음과 같이 모든 사용자를 검색하는 쿼리를 실행할 수 있습니다:
 
@@ -308,6 +496,17 @@ REST 엔드포인트와 달리 GraphQL 쿼리에서는 사용자 스키마에서
 
 # 결론:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 따라서 기존 REST 엔드포인트에서 데이터를 가져오는 기능이 포함된 GraphQL 쿼리를 만들었습니다. 또한 필요한 다양한 구성 요소 및 구성 설정이 무엇이며, 이를 어떻게 연결하여 작동시키는지 살펴보았습니다.

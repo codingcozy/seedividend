@@ -3,17 +3,13 @@ title: "블로그 페이지 테일윈드 CSS 3 HTML 템플릿"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Blogez  Blog Pages Tailwind CSS 3 HTML Template Site Templates Web Templates"
 link: "https://medium.com/@vectorverve/blogez-blog-pages-tailwind-css-3-html-template-site-templates-web-templates-a07699a720a4"
 isUpdated: true
 ---
-
-
-
-
 
 ![Blogez Blog Pages Tailwind CSS 3 HTML Template](/assets/img/BlogezBlogPagesTailwindCSS3HTMLTemplateSiteTemplatesWebTemplates_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 Blogez — 놀라운 아름다움과 깨끗한 코드와 함께하는 Tailwind CSS 블로그 템플릿! 강력한 HTML 및 CSS 파일을 사용하여 100% W3 유효한 웹 표준을 준수합니다. 또한 비즈니스, 에이전시, 서비스 판매 웹사이트를 위한 100% 반응형, 모바일 우선 블로그 디자인입니다. 암호화폐, 라라벨, 이메일 및 커밍순, 라라벨 템플릿 또는 워드프레스 테마와 함께도 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 아름다운 디자인
 
@@ -33,7 +40,18 @@ Blogez는 현대적이고 시각적으로 매력적인 디자인으로 제작되
 
 우리의 템플릿은 웹 개발의 최고의 실천 방법을 따라 정밀하게 코딩되었습니다. 웹사이트가 빠르게 로드되고 원활하게 작동할 것이므로 사용자 경험을 향상시켜 줄 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 모바일 친화적
 
@@ -43,7 +61,18 @@ Blogez는 현대적이고 시각적으로 매력적인 디자인으로 제작되
 
 Tailwind CSS를 사용하면 웹사이트의 모든 측면을 쉽게 사용자 정의할 수 있습니다. 색상, 글꼴, 레이아웃을 변경하고 싶어도 Blogez는 사용자가 자신만의 웹사이트로 만들 수 있는 유연성을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 특징
 
@@ -62,7 +91,18 @@ Tailwind CSS를 사용하면 웹사이트의 모든 측면을 쉽게 사용자 �
 
 #admin #css #tailwind #page #ecommerce #tailwindcss #onepage #ui #agency #portfolio #app #mobile #blog #animation
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 파일 유형
 
@@ -74,7 +114,18 @@ HTML, CSS, JS
 반응형
 문서 포함
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 상업적 라이선스
 
@@ -84,7 +135,18 @@ HTML, CSS, JS
 
 더 보기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/BlogezBlogPagesTailwindCSS3HTMLTemplateSiteTemplatesWebTemplates_1.png)
 
@@ -94,7 +156,18 @@ HTML, CSS, JS
 
 TechButton — Tailwind CSS 3 버튼 HTML 템플릿 by Techzaa
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![TechCard](/assets/img/BlogezBlogPagesTailwindCSS3HTMLTemplateSiteTemplatesWebTemplates_3.png)
 
@@ -104,7 +177,18 @@ TechCard — Tailwind CSS 3 Card HTML Template by Techzaa
 
 TechAuth — Auth Pages Tailwind CSS 3 HTML Template by Techzaa
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 테크자 더 보기
 
@@ -114,7 +198,18 @@ TechAuth — Auth Pages Tailwind CSS 3 HTML Template by Techzaa
 
 Velonic — PHP 관리자 및 대시보드 템플릿 by 테크자
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![BlogezBlogPagesTailwindCSS3HTMLTemplateSiteTemplatesWebTemplates_6](/assets/img/BlogezBlogPagesTailwindCSS3HTMLTemplateSiteTemplatesWebTemplates_6.png)
 
@@ -124,7 +219,18 @@ Bootstrap 5 UI Kit & Admin Dashboard — Techmin by Techzaa
 
 Velonic — React Admin & Dashboard Template by Techzaa
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img> 태그를 Markdown 형식으로 변경하십시오.
 

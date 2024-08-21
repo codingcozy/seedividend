@@ -3,16 +3,13 @@ title: "2024년의 도커 볼륨 및 네트워크 이해하기 기본 개념부�
 description: ""
 coverImage: "/assets/img/2024-07-10-DockerVolumesandNetwork_0.png"
 date: 2024-07-10 02:48
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-10-DockerVolumesandNetwork_0.png
 tag: Tech
 originalTitle: "Docker Volumes and Network"
 link: "https://medium.com/@m.qasimnauman/docker-volumes-and-network-90ba2ddc581c"
 isUpdated: true
 ---
-
-
-
 
 안녕하세요 여러분! 데브옵스 여정을 계속해요. 오늘은 더 고급 컨테이너화 개념에 대해 이야기할게요.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 볼륨은 컨테이너에 물리적 저장 공간을 제공하는 저장용기입니다. 내부와 외부(외부) 양쪽에 모두 존재합니다. 그들은 다양한 이점을 제공하는데, 이 중 일부는 아래와 같습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 그것들은 여러 컨테이너 간에 공유될 수 있습니다.
 - 데이터 이전을 쉽게 만들어 줍니다.
@@ -34,7 +42,18 @@ Docker 네트워크는 Docker 컨테이너를 연결하는 가상 네트워크�
 
 도커에서는 다양한 유형의 네트워크가 사용되며 각각이 그 목적에 맞게 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자세한 내용은 여기에서 읽어볼 수 있어요.
 
@@ -44,7 +63,18 @@ Docker 네트워크는 Docker 컨테이너를 연결하는 가상 네트워크�
 
 첫 번째 작업은 도커 컴포즈가 어떻게 작동하는지 이해해야 해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사전 준비 사항:
 
@@ -56,7 +86,18 @@ Docker 네트워크는 Docker 컨테이너를 연결하는 가상 네트워크�
 
 프로젝트 저장소 링크: [프로젝트 저장소 링크]
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저 아래 명령을 사용하여 로컬 머신으로 복제할 거에요.
 
@@ -68,10 +109,21 @@ git clone https://github.com/testdrivenio/django-on-docker.git
 
 저장소를 복제했으니, 먼저 개발 환경을 만들 거예요. 다음 명령을 사용하여 새 파일을 만들고 아래 내용을 채워 넣어 주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-nano .dev.env
+nano.dev.env;
 ```
 
 내용
@@ -91,7 +143,18 @@ DATABASE=postgres
 
 이 파일은 Django 프로젝트의 다양한 측면, 특히 데이터베이스에 대한 환경 변수를 설정합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 작업을 마치면 이제 다음 내용을 포함한 Docker Compose 파일을 생성할 것입니다.
 
@@ -138,8 +201,18 @@ networks:
     driver: bridge
 ```
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 파일은 두 개의 서비스를 실행합니다.
 
@@ -150,8 +223,18 @@ networks:
 
 이제 다음 명령을 사용하여 프로젝트를 빌드하고 로컬 머신에서 8000 포트의 어떤 호스트에서 실행할 것입니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 도커 컴포즈 업
@@ -163,7 +246,18 @@ networks:
 ![이미지](/assets/img/2024-07-10-DockerVolumesandNetwork_2.png)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파일을 업로드하면 해당 파일의 내용을 볼 수 있어요!
 
@@ -173,7 +267,18 @@ networks:
 
 이제 프로덕션 단계로 애플리케이션을 배포하기 위해 다음과 같은 프로세스를 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, 다음 내용을 포함한 운영용 도커 컴포즈 파일을 만들어봅시다.
 
@@ -235,8 +340,18 @@ networks:
     driver: bridge
 ```
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 파일에서는 Gunicorn을 사용하여 웹 서비스를 실행하며 Django에 의해 생성된 정적 및 미디어 파일을 저장하는 두 볼륨을 연결하여, DB에 따라 8000포트에 노출됩니다.
 
@@ -245,34 +360,63 @@ DB는 PostgreSQL 15 버전 15을 끌어와 postgre_data라는 볼륨과 마운�
 환경을 설정해야 합니다. 이를 위해 프로덕션 환경을 생성할 때 다음 명령어를 사용합니다.
 
 ```js
-nano .env.prod
+nano.env.prod;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 한 가지 새로운 콘텐츠가 있어요! 설정 파일에서 데이터베이스를 조정하려면 다음 명령어를 사용하세요.
 
 ```js
-nano .env.prod.db
+nano.env.prod.db;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내용
-
 
 POSTGRES_USER=hello_django
 POSTGRES_PASSWORD=hello_django
 POSTGRES_DB=hello_django_prod
 
-
 모든 작업을 마친 후에는 다음 명령어를 사용하여 실행합니다.
-
 
 docker-compose -f docker-compose.prod.yml up --build
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희 앱은 1337 포트에서 실행됩니다.
 
@@ -282,7 +426,18 @@ docker-compose -f docker-compose.prod.yml up --build
 
 태스크 2
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 볼륨이 어떻게 작동하는지 자세히 이해해 보겠습니다.
 
@@ -300,29 +455,73 @@ docker run -it -v volume_name:/directory ubuntu
 #해당 디렉토리에 이미지 데이터가 저장됩니다.
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-이제 컨테이너 안에 있어요. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+이제 컨테이너 안에 있어요.
 
 ![이미지](/assets/img/2024-07-10-DockerVolumesandNetwork_6.png)
 
 /data 디렉토리를 줬으니, 데이터가 하나 있어요. 이제 저 속으로 들어가면 초기에는 비어 있을 거에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 여기에 새 폴더를 만들어보겠습니다.
 
 새 터미널 창을 열고 동일한 컨테이너를 다시 시작해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-이제 데이터 디렉토리로 가 보면 거기에 무엇이 있는지 볼 수 있을 거예요. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+이제 데이터 디렉토리로 가 보면 거기에 무엇이 있는지 볼 수 있을 거예요.
 
 ![이미지](/assets/img/2024-07-10-DockerVolumesandNetwork_10.png)
 
 여기서 이전 컨테이너에서 생성한 폴더도 여전히 있는 것을 알 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기에 새 폴더를 만들었어요. 다른 실행 중인 컨테이너에도 반영될 거에요.
 
@@ -331,7 +530,18 @@ docker run -it -v volume_name:/directory ubuntu
 
 볼륨은 컨테이너에 지속적인 데이터 저장을 제공하는 방식입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 너를 위한 작업이야, 동일한 이미지로 컨테이너를 만들어 그 볼륨을 연결하고 새 파일이나 디렉토리를 추가해봐. 그리고 다른 컨테이너에서 그것이 반영되었는지 확인해봐.
 

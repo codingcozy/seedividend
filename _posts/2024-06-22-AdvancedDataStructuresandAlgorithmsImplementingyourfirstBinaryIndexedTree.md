@@ -3,16 +3,13 @@ title: "고급 자료 구조와 알고리즘 초기 이진 인덱스 트리 구�
 description: ""
 coverImage: "/assets/img/2024-06-22-AdvancedDataStructuresandAlgorithmsImplementingyourfirstBinaryIndexedTree_0.png"
 date: 2024-06-22 02:03
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-AdvancedDataStructuresandAlgorithmsImplementingyourfirstBinaryIndexedTree_0.png
 tag: Tech
 originalTitle: "Advanced Data Structures and Algorithms: Implementing your first Binary Indexed Tree"
 link: "https://medium.com/bitsrc/advanced-data-structures-and-algorithms-implementing-your-first-binary-indexed-tree-a3fcfd2a98ab"
 isUpdated: true
 ---
-
-
-
 
 ## 최적화에 실패한 보통의 데이터 구조
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 그런데 항상 그렇지만은 않습니다. 때로는 데이터 구조가 그저 어떤 이점이나 성능 향상을 제공하기 위해 존재하는 경우도 있습니다. 항상 사용하실 건가요? 아마도 그렇지 않을 것입니다. 하지만 실제로 유용하게 사용할 때 알아 두어서 기뻐할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오늘은 BIT 또는 다른 말로 이진 인덱스 트리에 대해 이야기하고 싶어요. 이 데이터 구조는 검색 및 삽입을 최적화하려고 노력하지만 그것을 실패하는 특징을 가지고 있어요.
 
@@ -32,7 +40,18 @@ BITs를 "보통인 데이터 구조"라고 부르고 싶어요. 다른 데이터
 
 그런데 트리에 삽입하고 읽기를 상수 시간 안에 수행하는 것은 불가능하기 때문에, 이 구조체가 시도하는 것에 실패한다고 말하는 건 정말 그렇게 생각해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 말이 그렇게 되면, 실제로 BITs는 O(Log n) 성능으로 데이터를 삽입하고 읽을 수 있게 해줍니다. 대단하지도 않고 최악도 아니라서, 그러니까 그냥 보통 정도입니다.
 
@@ -42,7 +61,18 @@ BITs를 "보통인 데이터 구조"라고 부르고 싶어요. 다른 데이터
 
 # JavaScript에서 이진 색인 트리 구현
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 코드를 구현할 때, 예상과는 다르게 할 것입니다. 클래스로 트리 구조를 구현하는 대신, 이 구조를 배열로 나타내고 트래버스하는 방법으로 이해할 수 있도록 특수한 비트 연산을 사용할 것입니다.
 
@@ -52,7 +82,18 @@ BITs를 "보통인 데이터 구조"라고 부르고 싶어요. 다른 데이터
 
 "getSum" 작업은 원하는 노드까지의 서브트리의 합을 반환할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## BIT 생성하기
 
@@ -62,7 +103,18 @@ BITs를 "보통인 데이터 구조"라고 부르고 싶어요. 다른 데이터
 
 초기에 BIT 배열은 모두 0으로 설정되어 있고, 우리는 원본 값의 배열을 지나가며 이 논리를 따릅니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 첫 번째 인덱스(이 경우에는 0)부터 시작합니다.
 - 인덱스에 1을 추가합니다(BIT 배열은 초기 요소가 비어 있는 상태입니다).
@@ -83,7 +135,18 @@ BITs를 "보통인 데이터 구조"라고 부르고 싶어요. 다른 데이터
 
 이 시점에서 BIT 배열은 다음과 같이 보입니다: [0, 2, 2, 0, 2, 0, 0]
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 우리는 원래 배열의 첫 번째 2개만 추가했습니다. 이제 우리 배열의 두 번째 요소에도 같은 작업을 수행합니다(위치 1):
 
@@ -96,7 +159,18 @@ BITs를 "보통인 데이터 구조"라고 부르고 싶어요. 다른 데이터
 
 그리고 계속 진행하면 다음과 같은 결과를 얻게 됩니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 Idx — BIT 배열
@@ -115,7 +189,18 @@ Idx — BIT 배열
 
 constructBITree 함수는 배열을 초기화하고 각 값에 대해 업데이트하는 역할을 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 배열이 설정되면, 원하는 색인까지의 접두사 합을 요청할 수 있는 쿼리를 시작할 수 있습니다.
 
@@ -125,7 +210,18 @@ constructBITree 함수는 배열을 초기화하고 각 값에 대해 업데이�
 
 인덱스 0 대신 우리가 찾고 있는 인덱스에서 (물론 1을 더한 값으로) 시작하고, 해당 인덱스의 마지막 비트를 제거하여 0 또는 그 이하로 이동하면서 트리를 "위로" 이동합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리의 BIT 배열 [0, 2, 3, 1, 7, 2, 5]에서 트리에 쿼리하여 5번째 요소의 접두사 합을 얻고 싶다고 합시다. 물론, 이는 원래 배열의 모든 값을 더하는 것과 동일하다는 것을 의미합니다 (6개의 값이 있음).
 
@@ -138,7 +234,18 @@ constructBITree 함수는 배열을 초기화하고 각 값에 대해 업데이�
 
 원래 배열을 모두 순회하여 모든 숫자를 더하는 대신, 우리는 BIT 배열에서 2개의 값을 필요로 했습니다. 이 변경으로 O(n)을 O(Log2(n)) 알고리즘으로 변환했습니다. 꽤 멋지죠?!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자, 이제 구현을 살펴봅시다:
 
@@ -148,7 +255,18 @@ constructBITree 함수는 배열을 초기화하고 각 값에 대해 업데이�
 
 이진 색인 트리는 그 뒤의 논리를 이해하면 매우 멋집니다. 첫 시도에서 이해하기 어려워 해도 걱정하지 마세요. "이해하는 데 오랜 시간이 걸렸어요". 중간값을 저장된 배열에서 확인하고 위에 보여준 단계를 따라 가는 것이 내 추천입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 BITs를 사용해 보신 적이 있나요? 그것으로 무엇을 하셨나요? 이 데이터 구조의 실제 구현에 대해 알고 싶어요! 그러니까 의견란에 공유해 주세요!
 
@@ -158,7 +276,18 @@ BITs를 사용해 보신 적이 있나요? 그것으로 무엇을 하셨나요? 
 
 Bit의 오픈소스 도구는 25만 명 이상의 개발자가 구성 요소로 앱을 만드는 데 도와주고 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어떤 UI, 기능 또는 페이지를 재사용 가능한 구성 요소로 변환하여 여러 애플리케이션 간에 공유하세요. 협업하기가 더 쉽고 빠르게 빌드할 수 있어요.
 
@@ -168,7 +297,18 @@ Bit의 오픈소스 도구는 25만 명 이상의 개발자가 구성 요소로 
 
 ## → 마이크로 프론트엔드
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## → 디자인 시스템
 

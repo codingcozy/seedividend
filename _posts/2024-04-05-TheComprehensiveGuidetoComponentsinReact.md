@@ -3,17 +3,13 @@ title: "리액트에서 컴포넌트에 대한 포괄적인 안내"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "The Comprehensive Guide to Components in React"
 link: "https://medium.com/@priyaeswaran/the-comprehensive-guide-to-components-in-react-154ac7490dd3"
 isUpdated: true
 ---
-
-
-
-
 
 # 소개:
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 목차:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 소개:
 
@@ -53,7 +60,18 @@ isUpdated: true
 
 # 리액트 개발에서 컴포넌트가 왜 중요한가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 재사용성: 컴포넌트를 사용하면 UI를 작은 조각으로 나눌 수 있어 유지보수가 쉽고 응용 프로그램의 다양한 부분에서 재사용할 수 있어 코드를 중복해서 작성할 필요가 없다.
 - 관심사 분리: 각 컴포넌트는 특정 기능 또는 UI 작업을 처리하며 리스트 렌더링, 사용자 상호 작용 관리, 상태 처리 등을 담당한다. 이는 더 깨끗하고 유지보수하기 쉬운 코드를 촉진한다.
@@ -64,7 +82,18 @@ isUpdated: true
 
 ## 언제 새로운 컴포넌트를 생성해야 할까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ✅ 컴포넌트 내의 콘텐츠가 서로 밀접한 관련이 없을 때는 이를 위해 새로운 컴포넌트를 만드세요.
 
@@ -74,7 +103,18 @@ isUpdated: true
 
 ✅ 코드가 혼란스럽거나 복잡할 때는 해당 부분을 작은 컴포넌트로 분할하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 컴포넌트를 만들 때 주의할 점:
 
@@ -84,7 +124,18 @@ isUpdated: true
 
 ✔️ 한 컴포넌트에서 반환할 여러 요소가 있는 경우, div나 React fragment(``,`/`)로 감싸야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ✔️ 컴포넌트 정의 내에서 직접적으로 컴포넌트를 호출하는 것을 피해야 합니다. 그렇게 하면 무한 루프가 발생할 수 있습니다.
 
@@ -94,7 +145,18 @@ isUpdated: true
 
 ✅ 마운팅 단계/초기 렌더링 — 컴포넌트가 처음으로 렌더링됩니다. 새로운 상태와 프롭스가 생성됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ✅ 다시 렌더링 단계(선택적인 단계) — 상태, 프롭스, 부모 컴포넌트의 다시 렌더링 또는 컨텍스트 변경이 발생할 때 발생합니다.
 
@@ -108,7 +170,18 @@ isUpdated: true
 - 고차 컴포넌트(HOCs)
 - 프레젠테이션 컴포넌트
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 기능적 컴포넌트:
 
@@ -139,7 +212,18 @@ Hello World!
 컴포넌트에 대해 배웠습니다
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 클래스 컴포넌트:
 
@@ -155,7 +239,18 @@ class MyComponent extends React.Component {
 
 ## 순수(퓨어) 컴포넌트:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 순수 컴포넌트는 리액트에서의 성능 최적화 방법 중 하나에요. 클래스 컴포넌트와 유사하지만 shouldComponentUpdate()을 자동으로 구현하여 얕은 속성 및 상태 비교로 다시 렌더링이 필요한지 확인해 불필요한 다시 렌더링을 방지합니다.
 
@@ -171,7 +266,18 @@ class MyPureComponent extends React.PureComponent {
 
 고차 컴포넌트는 컴포넌트를 입력으로 받아 새로운 향상된 프로퍼티를 추가한 새로운 컴포넌트를 반환하는 함수입니다. 일반적인 기능을 여러 컴포넌트에서 추상화하기 위해 공통 기능을 별도의 컴포넌트로 분리하고 여러 컴포넌트에 적용하여 코드 재사용성을 높입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import React, { useState } from "react";
@@ -187,9 +293,7 @@ const counterFunction = (WrappedComponent) => {
       setCount(count + 1);
     };
 
-    return (
-      <WrappedComponent count={count} incrementCounter={incrementCounter} />
-    );
+    return <WrappedComponent count={count} incrementCounter={incrementCounter} />;
   };
 
   // HOC 컴포넌트를 반환해요
@@ -241,7 +345,18 @@ export default App;
 
 이러한 컴포넌트들은 주로 외관에 초점을 맞춥니다. props를 통해 데이터를 받아 UI 요소를 렌더링합니다. 일반적으로 상태가 없는 함수형 컴포넌트입니다. 예시: 버튼, 카드, 헤더.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 function App() {
@@ -266,7 +381,18 @@ function Header() {
 - 컴포넌트 합성은 여러 개의 컴포넌트 층을 통과해야 하는 "prop drilling" 문제를 피하는 데 도움이 됩니다.
 - 각 레이어를 통해 props를 수동으로 전달하는 대신 children prop을 사용하여 필요한 컴포넌트에 직접 props를 전달할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 위에서 언급한 몇 가지 기본 용어:
 
@@ -276,7 +402,18 @@ JSX는 Javascript XML의 약자입니다. 이는 CSS, Javascript 코드 및 리�
 
 ## Props:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프롭스는 부모 컴포넌트에서 자식 컴포넌트로 데이터를 전달하는 방법입니다. 이는 함수에 인수를 전달하는 것과 유사합니다. 문자열, 배열, 객체, 함수 및 심지어 다른 리액트 컴포넌트를 포함해 모든 것을 프롭스로 전달할 수 있습니다. 이는 컴포넌트를 사용자 정의하는데 필수적인 도구입니다.
 
@@ -286,7 +423,18 @@ JSX는 Javascript XML의 약자입니다. 이는 CSS, Javascript 코드 및 리�
 
 ## 프롭 드릴링(Prop drilling):
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프롭 프로퍼게이션이란 부모에서 깊게 중첩된 자식 컴포넌트로 프롭을 전달하는 것을 의미합니다. 비록 이러한 컴포넌트들이 해당 프롭을 사용하지 않더라도, 필요한 컴포넌트에 도달할 때까지 단순히 프롭을 전달하는 것입니다.
 

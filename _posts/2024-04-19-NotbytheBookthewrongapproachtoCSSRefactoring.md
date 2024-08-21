@@ -3,17 +3,13 @@ title: "CSS 리팩터링을 위한 잘못된 접근 방식"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Not by the Book the wrong approach to CSS Refactoring"
 link: "https://medium.com/@bseleng/not-by-the-book-the-wrong-approach-to-css-refactoring-e2047f6e77e1"
 isUpdated: true
 ---
-
-
-
-
 
 많은 분들이 딜레마를 겪은 적이 있을 것 같아요: "올바르게 하는 방법을 알고 있는데 (그리고 그것을 하는 것이 좋은 이유도 알고 있는데) 그러나 제 상황에서는 거의 의미가 없어요." "규칙은 깨지기 위해 만들어졌다"나 "규칙을 어기는 사람들이 역사를 만든다"와 같은 문구로 당신을 괴롭히지 않겠어요. 스타일 시트 리팩터링에 대한 다른 이론적인 기사를 보완하는 몇 가지 실제적인 예제를 공유하는 것이 더 중요해요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 공식 문서에 따르면 @import rule에는 몇 가지 문제가 있고, 앞으로 몇 년 안에 사용 중지될 예정입니다. "올바른" 대안은 모듈을 소개하고 @import의 모든 "잘못"을 해결하는 @use rule입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 @use, @import, 및 @forward가 SASS에서의 차이에 대해 잘 모르시겠다면, 이 짧은 비디오를 확인해보세요. 더 섬세하게 코드 변경 사항을 따를 수 있습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 우리는 결정을 내리기로 했습니다: "올바른 방법"으로 모든 것을 처리하고 변수를 부트스트랩 브레이크포인트에서 분리하여 네임스페이스를 통해 액세스하거나, @use 규칙을 사용하여 상태를 그대로 둘 것인지.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/NotbytheBookthewrongapproachtoCSSRefactoring_0.png" />
 
@@ -46,7 +64,18 @@ isUpdated: true
 - 자동완성은 여전히 잘 작동합니다; 여러 달 동안 모듈 없는 작업 흐름에 익숙해진 팀은 새로운 것에 적응할 필요가 없습니다.
 - 앞으로 모듈을 분리해야 할 필요가 있으면 그때 추가할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단점:
 
@@ -57,7 +86,18 @@ isUpdated: true
 
 # 단계 1: @import를 @forward로 바꿔줘요 만약 데이터가 사용되지 않는다면
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 과거에는 start.scss 파일이 있었는데, 이 파일은 변수와 부트스트랩을 모두 가져와 모든 스타일에 접근 가능하도록 했습니다. 그런데 start.scss 안에는 아무것도 사용하지 않은 채로, 스타일 시트에 @forward 규칙을 사용하여 해당 스타일을 Layout.tsx에서 액세스할 수 있게 수정했습니다. 또한 JSX에서 부트스트랩 및 변수를 사용하지 않게 되었으므로 해제해야 합니다. 변경 내용은 아래와 같았습니다:
 
@@ -67,7 +107,18 @@ isUpdated: true
 
 부트스트랩과 변수를 결합하기 위해 새 파일 imports.scss를 생성하고 값들을 사용하지 않을 것이기 때문에 다시 @forward 규칙을 사용했습니다. 즉시 주요 색상 및 다양한 레이아웃 지점과 같은 중복되는 변수 문제에 직면했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/NotbytheBookthewrongapproachtoCSSRefactoring_2.png" />
 
@@ -77,7 +128,18 @@ isUpdated: true
 
 이 접근 방식에서 정말 싫어하는 점이 있습니다. 즉, 변수가 어떻게 변하는지 헷갈리지 않도록 파일을 특정한 방식으로 정리해야한다는 점입니다. 모든 변경 사항을 \_override.scss에 저장할 수 있지만, 아름다운 with() 구성 옵션이 있기 때문에 굳이 귀찮아할 필요가 있을까요? 저는 이 접근 방식을 선호합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 우리는 모든 것을 한 곳에 모았어요 — 중첩된 변수가 너무 많지 않다면 유지 관리가 더 쉬워요;
 - 추가 파일을 생성하지 않아요 — 이게 프로젝트를 새롭게 시작하는 사람들에게 더 읽기 쉽게 만들어줘요;
@@ -89,7 +151,18 @@ isUpdated: true
 
 모든 이 "표준화" 클래스들을 import에 복사하는 게 왜 좋지 않을까요? 우리는 모듈들을 가장 잘 활용하기 때문이에요: imports.scss와 그 변수들을 "기본" 클래스에서 사용할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/NotbytheBookthewrongapproachtoCSSRefactoring_5.png" />
 
@@ -99,7 +172,18 @@ isUpdated: true
 
 구현해야 할 마지막 것은 developers가 프로젝트의 나머지 부분을 바꾸지 않고 imports.scss와 global.scss 데이터를 모두 사용할 수 있도록 하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/NotbytheBookthewrongapproachtoCSSRefactoring_6.png" />
 
@@ -109,7 +193,18 @@ isUpdated: true
 
 # 단계 4: @forward를 이용한 보너스 챌린지
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 당신이 단계 1이 순조롭다고 생각했다면, 아니었어요. 음, 완전히 순조롭지는 않았어요. 우리 프로젝트에서는 모든 스타일을 결합하는 start.scss와 같은 파일이 필요했어요. 당연히 그런 상황에서는 스타일 시트의 지역 변수가 서로 겹치게 되었죠. 하지만 그것들을 재할당하길 원하지 않았어요. “올바른” 방법은 다시 말하지만 각 스타일 시트마다 지역 변수와 @use 변수를 사용하도록 별도의 파일을 만들어야 했어요. 멋지고 좋은 방법이긴 하지만, 너무 많은 작업이 필요했는데 완전히 필요 없는 작업이었어요. 보여줄게요.
 
@@ -119,7 +214,18 @@ isUpdated: true
 
 # 단계 5: 마지막 @import 제거
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 다시 말씀드리겠습니다: "집중력을 낭비하지 마세요; 목표를 기억하세요". 우리는 @import 규칙을 @use와 @forward로 대체하기 위해 스타일 시트를 리팩토링해야 합니다. 이것이 우리의 주요 목표이며, 우리는 성공했습니다. 그러나! 우리는 variables.scss에서 외부 글꼴을 사용하고 @use로는 이를 할 수 없습니다.
 
@@ -129,7 +235,18 @@ isUpdated: true
 
 ![이미지](/assets/img/NotbytheBookthewrongapproachtoCSSRefactoring_9.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트에서 마지막 @import를 제거하고 기존 작업 흐름을 방해하지 않기 위해 글꼴 변수를 남겨두면 됩니다.
 
@@ -139,6 +256,17 @@ isUpdated: true
 
 몇 가지 실천 방법은 너무 우수해서 "최상의 실천 방법"으로 불립니다. 그러나 이것들이 보편적인 것일까요? 그렇지 않아요. "이상적인 아키텍처"나 "깔끔한 코드"를 갖는 것은 정말로 좋지만, 이를 가능하게 하려면 얼마나 많은 요소가 결합되어야 할까요? 현실에서는 빠른 제공과 유지보수의 쉬움 사이의 균형을 찾아야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리의 목표는 적응하고 전달하는 것이며 "만약" 가지를 이상화하지 않는 것입니다. 각 결정이 결과로 이어진다는 것을 인식하세요. 하지만 예측 가능한 한 cool 하게 행동해요. 그래서 용감하게 "잘못된" 방식으로 일을 처리해보세요. 단, 규칙을 어기는 이유를 정당화할 수 있다면요.

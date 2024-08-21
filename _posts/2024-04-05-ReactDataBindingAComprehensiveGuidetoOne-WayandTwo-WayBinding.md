@@ -3,17 +3,13 @@ title: "리액트 데이터 바인딩 일방향 및 양방향 바인딩 정리"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "React Data Binding A Comprehensive Guide to One-Way and Two-Way Binding"
 link: "https://medium.com/@priyam_mondal/react-data-binding-a-comprehensive-guide-to-one-way-and-two-way-binding-6fb945add5ed"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/ReactDataBindingAComprehensiveGuidetoOne-WayandTwo-WayBinding_0.png" />
 
@@ -23,7 +19,18 @@ React에서 데이터 바인딩은 동적이고 상호작용적인 사용자 인
 
 단방향은 바인딩이 한 방향으로 발생한다는 뜻입니다. 이 경우 데이터의 변경사항이 자동으로 UI를 업데이트하지만, UI의 변경사항은 데이터를 자동으로 업데이트하지 않습니다. 이것이 바로 단방향 데이터 바인딩으로 불리는 이유입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // ParentComponent.jsx
@@ -59,7 +66,18 @@ const ChildComponent = ({ data }) => {
 
 React에서의 일방향 데이터 바인딩의 특징을 보여주는 예시로, 변경 사항이 부모에서 발생하여 하위 컴포넌트로 흘러가게 되어 예측 가능하고 제어된 데이터 흐름을 보장합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![ReactDataBindingAComprehensiveGuidetoOne-WayandTwo-WayBinding_1](/assets/img/ReactDataBindingAComprehensiveGuidetoOne-WayandTwo-WayBinding_1.png)
 
@@ -69,7 +87,18 @@ React는 원방향 데이터 바인딩을 기본으로 하지만, 일부 상황�
 
 제어 컴포넌트에서는 입력값이 상태 조각에 바인딩되어 있으며, 입력값의 변경은 onChange 이벤트를 통해 처리됩니다. 이러한 제어 흐름을 통해 React가 일관되고 예측 가능한 데이터 흐름을 유지함으로써 개발자가 폼 데이터를 원활하게 관리할 수 있도록 지원합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import React, { useState } from "react";
@@ -96,7 +125,18 @@ const ControlledComponentExample = () => {
 
 양방향 흐름은 입력 필드의 변경이 상태(이메일)를 즉시 업데이트하고, 그 반대로 상태의 변경이 입력 필드에 반영되도록 보장합니다. 이는 React에서의 양방향 데이터 바인딩의 특성인 상호 동기화를 만들어냅니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 결론:
 

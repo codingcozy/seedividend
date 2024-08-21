@@ -3,17 +3,13 @@ title: "media query로 기본 반응형 웹사이트 만들기 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How to make a basic responsive web from scratch"
 link: "https://medium.com/design-bootcamp/how-to-make-a-basic-responsive-web-from-scratch-97235e29f6a0"
 isUpdated: true
 ---
-
-
-
-
 
 ![How to make a basic responsive web from scratch screenshot](/assets/img/Howtomakeabasicresponsivewebfromscratch_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 시작해 봅시다. 이 모든 코드는 body 태그 안에 있습니다. 우리는 먼저 1024px 데스크톱 화면 해상도부터 시작하여 iPad 또는 스마트폰 화면에 맞게 반응형으로 만들 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 대형 해상도
 
@@ -50,20 +57,29 @@ isUpdated: true
     </div>
     <div class="row2">
       <div class="column-2">
-        "고도로 숙련된 웹 개발자로서, 기술적 전문지식과 창의적 비전을 갖추어
-        첨단 웹사이트를 설계하고 온라인 존재감을 높이며 비즈니스 성공을
-        이끌어내는 능력을 지니고 있습니다."
+        "고도로 숙련된 웹 개발자로서, 기술적 전문지식과 창의적 비전을 갖추어 첨단 웹사이트를 설계하고 온라인 존재감을
+        높이며 비즈니스 성공을 이끌어내는 능력을 지니고 있습니다."
       </div>
       <div class="column-3">
-        "효과적인 웹 디자인은 어떤 비즈니스에게도 시각적으로 매력적이고 기능적인
-        온라인 존재감을 만드는 데 중요합니다."
+        "효과적인 웹 디자인은 어떤 비즈니스에게도 시각적으로 매력적이고 기능적인 온라인 존재감을 만드는 데 중요합니다."
       </div>
     </div>
   </body>
 </html>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 body{
@@ -105,7 +121,18 @@ body{
 
 CSS에서 max-width가 768픽셀인 기기를 대상으로 하는 CSS 미디어 쿼리를 사용할 수 있습니다. 이는 이 크기나 그 이하의 화면에 특별히 맞춘 스타일을 적용하는 데 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 미디어 쿼리 아래에서는 화면 크기에 맞춰 웹사이트 레이아웃을 변경할 수 있어요.
 
@@ -154,7 +181,18 @@ body {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 작은 해상도
 
@@ -164,7 +202,18 @@ body {
 
 CSS
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 body{

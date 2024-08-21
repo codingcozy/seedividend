@@ -3,17 +3,13 @@ title: "플러터에서 DotEnv 사용하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "DotEnv In Flutter"
 link: "https://medium.com/@omartaamallah4/dotenv-in-flutter-e27c45a2f7ed"
 isUpdated: true
 ---
-
-
-
-
 
 ![DotEnvInFlutter_0](/assets/img/DotEnvInFlutter_0.png)
 
@@ -23,7 +19,18 @@ flutter_dotenv를 사용하는 방법에 대한 간단한 소개입니다:
 
 - pubspec.yaml 파일에 flutter_dotenv 패키지를 추가하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```yaml
 dependencies:
@@ -38,7 +45,18 @@ dependencies:
 API_KEY=여기에_당신의_앱_키를_입력하세요
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. pubspec.yaml 파일에 .env 파일을 assets에 추가해주세요:
 
@@ -53,7 +71,18 @@ assets:
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 6. .env 파일에서 환경 변수를 로드하세요:
 
@@ -68,7 +97,18 @@ dotenv.load() 함수는 .env 파일에서 환경 변수를 로드하고 dotenv.e
 
 7. dotenv.env 객체를 사용하여 코드에서 환경 변수에 액세스하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 String apiKey = dotenv.env['API_KEY']!;

@@ -3,16 +3,13 @@ title: "ChatGPT Vision 오픈소스 대안 LLaVA로 멀티모달 모델 구현�
 description: ""
 coverImage: "/assets/img/2024-07-13-ChatGPTVisionbutOpenSourceMultimodalmodelswithLLaVA_0.png"
 date: 2024-07-13 21:22
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-ChatGPTVisionbutOpenSourceMultimodalmodelswithLLaVA_0.png
 tag: Tech
 originalTitle: "ChatGPT Vision but Open Source: Multimodal models with LLaVA"
 link: "https://medium.com/generative-ai/chatgpt-vision-but-open-source-multimodal-models-with-llava-70f7e584fe7a"
 isUpdated: true
 ---
-
-
-
 
 ![image](/assets/img/2024-07-13-ChatGPTVisionbutOpenSourceMultimodalmodelswithLLaVA_0.png)
 
@@ -24,7 +21,18 @@ isUpdated: true
 
 이제 대부분의 사람들은 2022년 11월 30일에 프로토 타입으로 출시된 ChatGPT의 탁월한 성공 이야기에 익숙해졌습니다. 2023년 1월까지 1억 명 이상의 사용자를 확보했습니다*. 2023년 3월에는 GPT-4 개발자 라이브 스트림에서도 LLM이 이미지와 상호 작용할 수 있는 방법을 소개했습니다. 이로써 다중 모달성의 뚜렷한 잠재력이 밝혀졌습니다. 그 이후로 사람들은 비전 기능을 차분히 기다렸습니다. 9월 25일부터 이제 "ChatGPT는 이제 보고, 듣고, 말할 수 있습니다"*.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 트위터에서 검색하면 이 기술을 활용한 가장 인기 있는 실험 중 일부는 주차 규칙 이해(6.7 백만 조회), 디자인에서 인터페이스용 코드 생성(1.3 백만 조회), 또는 수학 공식을 코드로 변환(2.6 백만 조회)하는 것이었습니다. 여기에는 또 다른 사용 사례 컴필레이션이 있습니다. 이러한 쇼케이스를 단순히 단계별 진전만 있는 좋은 실험으로 여기기 쉽지만, 작업에 맞게 조정된 딥러닝 이미지 모델은 매우 오랜 시간 동안 초인적 정확도로 특징 지은 바 있었으며, 어떤 사용자 경험 디자이너라도 매끄러운 경험을 만드는 데 추가 작업이 얼마나 필요한지 얘기할 수 있습니다.
 
@@ -34,7 +42,18 @@ isUpdated: true
 
 명백하게, ChatGPT Vision에는 환상적인 가능성이 있습니다. 그러나 OpenAI에 의존하는 것에는 비용, 프라이버시 및 사용자 정의 옵션과 같은 몇 가지 단점이 있습니다. 작성 시점에서는 웹사이트를 통해서만 사용할 수 있고 API를 통해 사용할 수 없습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## LLaVA 소개
 
@@ -44,7 +63,18 @@ LLaVA의 첫 릴리즈는 이미 올해 4월 17일에 있었습니다. 10월 5�
 
 ![LLaVA 발표](/assets/img/2024-07-13-ChatGPTVisionbutOpenSourceMultimodalmodelswithLLaVA_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LLaVA를 실행 중입니다. 저자들은 멋진 gradio 인터페이스를 제공하고 온라인에서 호스팅하여 직접 시도할 수 있게 했습니다. 데모 목적으로, 아래에 사진을 시도해 보았어요. 앞서 말한 대로, 이는 다섯 년 전에 작성된 다른 블로그 글에서의 내용으로, 주사위의 무작위성을 분석하고 여러 이미지 조작을 포함했던 것입니다.
 
@@ -54,7 +84,18 @@ LLaVA를 실행 중입니다. 저자들은 멋진 gradio 인터페이스를 제�
 
 비교를 위해 동일한 질문을 제기할 때, GPT-4는 올바른 숫자를 식별하여 뚜렷한 품질차를 강조했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 설치. 만약 자체 하드웨어에서 작업을 실행하고 싶다면, GitHub의 설치 지침은 비교적 직관적입니다. 하지만 실행하는 데는 제 경우에 3번의 시도가 필요했습니다.
 
@@ -64,7 +105,18 @@ LLaVA를 실행 중입니다. 저자들은 멋진 gradio 인터페이스를 제�
 
 세 번째로, Windows의 WSL (Ubuntu-22.04)을 통해 일부 조정을 통해 마침내 작동했습니다. 간단히 말해서, WSL 내에서 CUDA 드라이버를 설치해야 하며, 여기를 참고하십시오. 그리고 libcuda를 찾을 수 없어 오류가 발생하면 여기를 참고하십시오.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그라디오 서버를 시작할 때는 반드시 동시에 실행되는 세 가지 스크립트를 시작해야 합니다. (1) 컨트롤러, (2) 웹 서버, 그리고 (3) 추론을 수행하는 모델 워커입니다. Windows에서는 WSL을 위해 세 개의 명령 창이 필요합니다. 각각에서는 콘다 환경이 활성화되어 있어야 합니다. 제 경우에는 2080 Ti GPU(16GB VRAM)를 사용하는 4비트 양자화된 버전을 사용했습니다. LLaVA는 양자화된 비트로 시작할 수 있으며, 전체 모델에 충분한 메모리가 없는 경우 GPU 메모리를 적게 차지하는 축소된 모델을 사용할 수 있습니다. 마지막으로, 다음과 같은 시작 명령을 사용했습니다:
 
@@ -76,7 +128,18 @@ python -m llava.serve.model_worker --host 0.0.0.0 --controller http://localhost:
 
 그리고 이제 Colab 노트북을 제공하는 GitHub도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CLI 인터페이스. LLaVA에는 명령 줄 인터페이스가 있고, 이것은 정말 유용합니다. 아래는 문서에서 가져온 일부 코드입니다:
 
@@ -91,7 +154,18 @@ python -m llava.serve.cli \
 
 사용자 정의성. 저자들은 사용자 정의 데이터로 훈련하는 방법에 대한 지침을 공유하기도 해서 여러분의 데이터에 맞게 맞춤화할 수 있는 많은 공간을 제공합니다. 이는 허용적인 Apache 2.0 라이선스로 이루어져 있어 LLaVA로 무언가를 만드는 데 즉각적인 제약이 없습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 기술적인 측면
 
@@ -101,7 +175,18 @@ python -m llava.serve.cli \
 
 저자들은 수동으로 설계된 초기 예제를 시작으로, GPT-4로 데이터 수집 과정을 확장하기 위한 프롬프트 엔지니어링 기술인 인-컨텍스트 학습을 사용합니다. 이를 통해 대화, 상세 설명 및 복잡한 추론의 세 가지 유형을 가진 158,000개의 고유한 이미지-텍스트 지시-따르기 샘플이 생성됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막으로, LLaVA는 ~6시간의 사전 학습과 ~20시간의 시각 지시 조정을 8대의 A100에서 진행했습니다. Computcost 측면에서는 예를 들어 8대의 A100 (80GB)이 시간당 $12에 비용이 들었던 Lambda Labs에서 수백 달러 정도밖에 들지 않을 것입니다.
 
@@ -111,7 +196,18 @@ python -m llava.serve.cli \
 
 LLM 분야에서 LLaVA는 폐쇄 소스 모델이 오픈 소스 상대 모델용 훈련 데이터를 효율적으로 생성하는 방법을 보여주는 사례입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-13-ChatGPTVisionbutOpenSourceMultimodalmodelswithLLaVA_3.png" />
 

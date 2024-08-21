@@ -3,16 +3,13 @@ title: "React Conf 2024에서 새롭게 소개된 내용들"
 description: ""
 coverImage: "/assets/img/2024-05-20-WhatsNewatReactConf2024_0.png"
 date: 2024-05-20 21:45
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-20-WhatsNewatReactConf2024_0.png
 tag: Tech
 originalTitle: "What’s New at React Conf 2024"
 link: "https://medium.com/gitconnected/whats-new-at-react-conf-2024-376e509a172b"
 isUpdated: true
 ---
-
-
-
 
 ## 빠르게 따라잡는 빠른 안내서
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 React 개발자들은 모두 2024년 5월 15일에 공식적으로 시작된 React Conf 2024에 집중하고 있습니다. 여기 8시간의 비디오 다시보기: [React Conf 2024 Video](링크).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 제가 강조해야 한다고 생각하는 몇 가지 주요 사항을 빠르게 요약한 글입니다. 이를 통해 빠르게 최신 정보를 파악할 수 있습니다.
 
@@ -35,7 +43,18 @@ Remix가 React Router와 통합을 발표했습니다. 다가오는 React Router
 + import { Link } from `react-router`
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트 라우터 사용자들을 위해, 이제 SSR, prefetching 또는 Vite 플러그인을 포함한 Remix 기능을 React 프로젝트에서 직접 사용할 수 있습니다.
 
@@ -45,7 +64,18 @@ Remix는 항상 React Router 위에 있는 레이어에 불과했으며 시간�
 
 사실 이렇게 말해도 될 것 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-05-20-WhatsNewatReactConf2024_2.png" />
 
@@ -55,7 +85,18 @@ Remix는 항상 React Router 위에 있는 레이어에 불과했으며 시간�
 
 ## Actions 기능
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 개선된 비동기 작업 및 상태 업데이트 처리를 위한 useTransition 및 useOptimistic과 같은 훅을 사용하여 suspense, 오류 처리 및 낙관적 업데이트의 관리를 간편화했습니다.
 
@@ -66,7 +107,18 @@ Remix는 항상 React Router 위에 있는 레이어에 불과했으며 시간�
 
 ## 기능 최적화:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Ref 로 속성 전달: ref를 함수 컴포넌트 인수로 직접 전달할 수 있어서 forwardRef가 필요하지 않게 되었습니다.
 - 향상된 수분 공급 오류 보고: 클라이언트 측 렌더링이 서버 측 렌더링된 콘텐츠와 일치하지 않을 때 개선된 오류 보고로 더 명확한 오류 메시지를 제공합니다.
@@ -87,7 +139,18 @@ React 컴파일러인 Forget으로도 알려진 React 컴파일러가 이제 오
 
 <img src="/assets/img/2024-05-20-WhatsNewatReactConf2024_3.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 개발자들에 미치는 영향은 useMemo, useCallback, React.memo API를 사용하여 수동으로 최적화를 할 필요가 없어졌다는 점입니다. 이는 현재 이에 한정되어 있으며 useEffect와 같은 의존성 규칙에는 영향을 미치지 않습니다. 현재도 여전히 React 훅 규칙 (예: 훅을 최상위 레벨에서만 호출하는 것과 같은)을 따라야 합니다.
 
@@ -97,7 +160,18 @@ React 컴파일러인 Forget으로도 알려진 React 컴파일러가 이제 오
 
 # 두 대의 컴퓨터를 위한 리액트
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Dan Abramov가 React 클라이언트 컴포넌트와 서버 컴포넌트의 각각의 장점을 소개했고, 어떻게 선택해야 하는지에 대해 설명했습니다. 여기에 간략하게 정리해보겠습니다:
 
@@ -110,7 +184,18 @@ Dan Abramov가 React 클라이언트 컴포넌트와 서버 컴포넌트의 각�
 
 ## 클라이언트 사이드 컴포넌트의 장점:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 즉시 피드백: 사용자가 UI와 상호 작용할 때(예: 버튼 클릭), 서버 응답을 기다리지 않고 즉시 피드백을 받을 수 있습니다.
 - 서버 폴링 없음: 사용자 작업 중 일부(슬라이더 드래깅 또는 버튼 클릭 등)에 대해 서버로부터 추가 요청이나 데이터 다운로드가 필요하지 않습니다.
@@ -123,7 +208,18 @@ Expo Router는 React Native 및 웹 애플리케이션용 파일 기반 라우�
 
 서버 구성 요소의 장점은 클라이언트에 완전히 상호 작용적인 동적 UI를 전송할 수 있다는 것입니다. 이는 응용 프로그램이 다른 사용자 작업에 기반한 복잡한 UI 요소를 제공할 수 있음을 의미합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # React 규칙 어기기
 
@@ -133,7 +229,18 @@ React에는 몇 가지 규칙이 있어요:
 
 Charlotte은 이러한 규칙에 대한 이유를 논의하여 React의 내부 메커니즘을 더 깊이 이해하려고 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최근에 React 아래의 내부를 더 깊이 이해하기 위해 기사를 썼어요. 간소화된 Fiber 아키텍처와 동시 모드를 사용하여 렌더링 중에 메인 스레드를 차단하지 않도록 했죠. 여기서 이 지침을 어기면 안 되는 이유도 이해할 수 있어요.
 
@@ -143,7 +250,18 @@ RedwoodJS는 포함된 배터리를 갖춘 또 다른 풀스택 JavaScript 애�
 
 높은 수준에서, 이는 사용자 정의 GraphQL API와 통신하는 React 프런트엔드입니다. API는 데이터베이스와 상호 작용하기 위해 Prisma를 사용합니다. 기본 설정으로는 테스트에 Jest, 로깅에 Pino, UI 구성 요소 목록에 Storybook을 사용할 수 있어요. 인증(Auth0 같은) 또는 CSS 프레임워크(Tailwind CSS 같은) 설정은 명령줄 호출만으로도 간단하게 할 수 있어요. 게다가 Redwood의 아키텍처를 통해 서버리스 공급자(Netlify, Vercel 등) 또는 전통적인 서버 및 컨테이너 공급자(AWS, Render 등)로 배포할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

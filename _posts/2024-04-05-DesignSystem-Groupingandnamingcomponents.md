@@ -3,17 +3,13 @@ title: "디자인 시스템 만들기1 - 컴포넌트 그룹화와 명명하기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Design System- Grouping and naming components"
 link: "https://medium.com/@shuchisaxena/design-system-grouping-and-naming-components-7cef856906b5"
 isUpdated: true
 ---
-
-
-
-
 
 ![Design System](/assets/img/DesignSystem-Groupingandnamingcomponents_0.png)
 
@@ -28,7 +24,18 @@ isUpdated: true
 
 어떻게 보이시나요? :)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/DesignSystem-Groupingandnamingcomponents_1.png" />
 
@@ -38,7 +45,18 @@ isUpdated: true
 
 ## 기업 부문:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Adobe — Spectrum
 - Google- Material Design
@@ -61,7 +79,18 @@ isUpdated: true
 
 이 외에도 많은 우수한 디자인 시스템이 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 컴포넌트 및 패턴
 
@@ -71,7 +100,18 @@ isUpdated: true
 
 패턴은 공통 사용자 문제를 해결하는 반복 가능한 재사용 가능한 컴포넌트의 조합입니다. 예를 들어, Adobe가 지적한 '카드'는 카드 컨테이너, 미리보기(이미지/일러스트), 아바타 또는 로고, 액션 메뉴, 푸터 등으로 구성되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 디자인 시스템에는 각 조직마다 독특하게 만드는 다양한 정보가 많이 있지만, 컴포넌트들은 그것의 중요한 부분입니다. 그것에 대해 오늘은 이야기할 거예요. 커피를 들고 오세요, 제가 보여줄게요:
 
@@ -82,7 +122,18 @@ isUpdated: true
 
 # 컴포넌트 그룹화
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 디지털 공간에서 규모에 따라 조직은 10개에서 100개 이상의 컴포넌트 라이브러리를 포함할 수 있습니다. 이러한 컴포넌트를 그룹화하는 세 가지 일반적인 방법은 다음과 같습니다:
 
@@ -94,7 +145,18 @@ isUpdated: true
 
 컴포넌트를 알파벳순으로 나열하는 것이 가장 간단한 방법입니다. 이는 기술적으로 컴포넌트를 "그룹화"하는 것은 아니지만, 자주 볼 수 있어 언급할 가치가 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **이점:**
 
@@ -102,7 +164,18 @@ a. 디자인 시스템 게이트키퍼 및 자주 사용하는 사용자에게�
 
 b. 확장이 쉽습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 장점:
 
@@ -113,7 +186,18 @@ b. 확장이 쉽습니다.
 
 - 무엇을 찾고 있는지 알아야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 b. 각 구성 요소의 명명에 익숙해져야 합니다.
 
@@ -123,7 +207,18 @@ d. 다른 솔루션을 찾기 위한 발견 가능성이 최적이 아닙니다.
 
 찾을 수 있는 것과 발견할 수 있는 것은 서로 다릅니다. 이 훌륭한 기사를 통해 그에 대해 더 알아보세요. - Sumeet
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2. 복잡성에 기반한 그룹화
 
@@ -133,7 +228,18 @@ d. 다른 솔루션을 찾기 위한 발견 가능성이 최적이 아닙니다.
 
 장점:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 a. 세워진 규칙과 엄격한 통제가 이미 갖춰진 성숙한 디자인 시스템 및 디자인 시스템 팀에게 탁월한 효과를 발휘합니다.
 
@@ -143,7 +249,18 @@ c. 각 팀원이 이해해야 하는 수준이 어떻게 정의되는지에 대�
 
 d. 팀이 비교적 작거나 다양하지 않을 때도 훌륭한 선택지입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단점:
 
@@ -153,7 +270,18 @@ b. 모든 사람이 익숙한 명확히 정의된 조직 수준의 비전이 필
 
 c. 조직이 성장함에 따라 "어디에 무엇을 넣어야 하는가?"라는 질문이 쉽게 생길 수 있습니다. 회사가 성장하고 새로운 프로그래머, 디자이너, 기획자, 다른 비즈니스 부서, 컬러 팔레트, 타이포그래피, 패턴, 페이지 템플릿, 마케팅 솔루션 등이 나타나면 디지털 제품에서 불일치가 생기고 유지 보수 비용이 증가합니다. 새로운 고용은 엔트로피를 높입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 d. 매우 엄격하게 관리하지 않으면 '덤프 지역'이 될 위험이 있습니다.
 
@@ -163,7 +291,18 @@ d. 매우 엄격하게 관리하지 않으면 '덤프 지역'이 될 위험이 �
 
 ![이미지](https://miro.medium.com/v2/resize:fit:972/1*kEB9VjTJzrCX93aGiWtLwA.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 장점:
 
@@ -173,7 +312,18 @@ b. 구성 요소의 오용 가능성을 줄이고 미디어/장치에 관계없�
 
 c. 공통 (문제) 범주 아래에 있는 다른 유사한 구성 요소를 찾아주어 대체 솔루션을 찾고 발견할 수 있도록 도와줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 d. 그룹들은 나중에 확장할 수 있습니다.
 
@@ -183,7 +333,18 @@ f. 모든 프로젝트 구성원, 디자이너 또는 비디자이너는 문제�
 
 단점:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 a. 올바른 기능 그룹에 구성 요소가 할당되는지 확인하는 감독이 필요합니다.
 
@@ -193,7 +354,18 @@ a. 올바른 기능 그룹에 구성 요소가 할당되는지 확인하는 감�
 
 ![이미지](/assets/img/DesignSystem-Groupingandnamingcomponents_5.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 사용자의 인지 부하를 줄이는 것은 우리가 영원히 책임져야 하는 또 다른 중요한 작업입니다. 힉의 법칙에서 명확히 언급되었듯이
 
@@ -203,7 +375,18 @@ a. 올바른 기능 그룹에 구성 요소가 할당되는지 확인하는 감�
 
 이미 익숙한 옵션을 사용자에게 제공하세요. 가장 이상적인 방법은 사용자가 해결하려는 문제를 기반으로 선택해야 합니다. 모든 조직은 동일한 구성 요소에 대해 서로 다른 이름을 사용합니다. 예: 바텀 내비게이션 대 비터. 새로 조직에 합류한 멤버들이 필요한 것을 찾기가 매우 어려워집니다. 그러나 디자이너로서 예를 들어 스크롤 문제를 해결하려고 한다면, 익숙한 문제로 식별하는 것은 해결책을 찾기가 매우 쉬워집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 구성 요소 그룹화에 대한 최종 권고
 
@@ -213,7 +396,18 @@ a. 올바른 기능 그룹에 구성 요소가 할당되는지 확인하는 감�
 
 기능 그룹의 이름을 선택하기 전에 고려해야 할 사항 몇 가지가 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 카테고리에 선택된 이름은 사용자들이 내부 구성 요소와 작업하는 방식을 결정합니다.
 
@@ -223,7 +417,18 @@ a. 올바른 기능 그룹에 구성 요소가 할당되는지 확인하는 감�
 
 그래서 효과적인 카테고리 이름이란 무엇일까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 그룹에 대한 표현적인 이름을 피하세요.
 - 구성 요소의 기능을 설명하세요.

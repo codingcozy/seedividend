@@ -3,16 +3,13 @@ title: "앵귤러 서비스를 활용한 깔끔한 코드"
 description: ""
 coverImage: "/assets/img/2024-06-20-CleanCodeUsingAngularServices_0.png"
 date: 2024-06-20 05:42
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-CleanCodeUsingAngularServices_0.png
 tag: Tech
 originalTitle: "Clean Code Using Angular Services"
 link: "https://medium.com/@khizerrehandev/clean-code-using-angular-services-eb8bcb30af09"
 isUpdated: true
 ---
-
-
-
 
 서비스/추상화 계층 패턴을 추가하여 복잡성을 줄입니다.
 
@@ -41,15 +38,26 @@ export function initializeApp(appInitializer: AppInitializer) {
 
 export const appInitializerProviders = [
   AppInitializer,
-  { provide: APP_INITIALIZER, 
-    useFactory: initializeApp, 
-    deps: [AppInitializer], 
-    multi: true 
+  { provide: APP_INITIALIZER,
+    useFactory: initializeApp,
+    deps: [AppInitializer],
+    multi: true
   }
 ];
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나쁜 코드 예시:
 
@@ -105,7 +113,18 @@ export class TestBComponent implements OnInit {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 방식은 컴포넌트 내에서 인증 세부 정보에 직접 액세스하여 모범 사례를 위반합니다.
 
@@ -120,7 +139,18 @@ export class TestBComponent implements OnInit {
 - 확장성: 비즈니스 로직을 업데이트하거나 특정 기능에 역할을 추가해야 하는 경우 해당 변경 사항이 필요한 모든 컴포넌트에서 업데이트해야 합니다.
 - 유연성: 다른 인증 공급자로 전환하려는 경우, 각 컴포넌트에 인증이 구현되어 있기 때문에 전환하기 어려우며 더 많은 작업이 필요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 따라서 공통 인터페이스를 제공하고 단일 서비스 DI를 사용하는 공유 서비스 레이어를 소개하면, 로직을 1개의 레이어로 유지할 수 있으며, 더 나아가 SRP, 캡슐화 및 Keycloak에서 역할 로직을 가져오는 추상화 소프트웨어 원칙을 준수하는 데 도움이 됩니다. 예를 들어 각 구성 요소에서 Wrapper 메서드 대신 내부 구현 방식에 따라 역할을 가져오기 위해 구성 요소에서 역할 로직을 가져오지 않아야 합니다. 이렇게 하면 구성 요소는 역할을 어떻게 가져오는지 알 필요가 없습니다.
 
@@ -130,15 +160,26 @@ export class TestBComponent implements OnInit {
 
 사용자 권한 서비스
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```ts
-import { Injectable } from '@angular/core';
-import { KeycloakService } from './keycloak.service';
-import { Role } from './role.enum';
+import { Injectable } from "@angular/core";
+import { KeycloakService } from "./keycloak.service";
+import { Role } from "./role.enum";
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: "root",
 })
 export class UserAuthorizationService {
   private userRoles: string[];
@@ -162,13 +203,13 @@ export class UserAuthorizationService {
 ```ts
 // 테스트 A 컴포넌트
 
-import { Component, OnInit } from '@angular/core';
-import { KeycloakService } from 'keycloak-angular';
-import { Role } from './role.enum';
+import { Component, OnInit } from "@angular/core";
+import { KeycloakService } from "keycloak-angular";
+import { Role } from "./role.enum";
 
 @Component({
-  selector: 'app-component-a',
-  template: `<button *ngIf="showAdminButton">Admin Button</button>`
+  selector: "app-component-a",
+  template: `<button *ngIf="showAdminButton">Admin Button</button>`,
 })
 export class TestAComponent implements OnInit {
   showAdminButton = false;
@@ -176,37 +217,47 @@ export class TestAComponent implements OnInit {
   constructor(private userAuthorizationService: UserAuthorizationService) {}
 
   ngOnInit() {
-    this.showAdminButton = this.userAuthorizationService.hasRoleAdmin()
+    this.showAdminButton = this.userAuthorizationService.hasRoleAdmin();
   }
 }
 
 // 테스트 B 컴포넌트
 
-import { Component, OnInit } from '@angular/core';
-import { KeycloakService } from 'keycloak-angular';
-import { Role } from './role.enum';
+import { Component, OnInit } from "@angular/core";
+import { KeycloakService } from "keycloak-angular";
+import { Role } from "./role.enum";
 
 @Component({
-  selector: 'app-component-b',
-  template: `<button *ngIf="showUserButton">User Button</button>`
+  selector: "app-component-b",
+  template: `<button *ngIf="showUserButton">User Button</button>`,
 })
 export class TestBComponent implements OnInit {
   showUserButton = false;
 
- constructor(private userAuthorizationService: UserAuthorizationService) {
+  constructor(private userAuthorizationService: UserAuthorizationService) {
     this.userRoles = this.userAuthorizationService.getUserRoles();
   }
 
   ngOnInit() {
-    this.showUserButton = this.userAuthorizationService.hasRoleUser()
+    this.showUserButton = this.userAuthorizationService.hasRoleUser();
   }
 }
 ```
 
 서비스 계층 또는 추상화 계층을 추가하면 모든 컴포넌트로 중복하는 로직을 간단하게 만들 수 있습니다. 이제 서비스가 권한 로직을 처리하고 컴포넌트는 서비스를 사용하여 권한을 확인하므로 권한을 가져오고 할당하는 데 명확한 (SoC)이 생깁니다. 컴포넌트는 비즈니스 로직을 분리하는 뿐만 아니라 테스트 관점에서도 도움이 됩니다. 모든 기본적인 작업이 제거되며, 이제 서비스는 독립적으로 테스트할 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -216,7 +267,18 @@ export class TestBComponent implements OnInit {
 
 지원을 계속해 주시고 계속 배우세요. 🙏
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저를 응원해 주시면 커피 한 잔 사주시는 방법이 있어요. ☕
 

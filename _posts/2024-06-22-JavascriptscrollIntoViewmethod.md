@@ -3,17 +3,13 @@ title: "Javascript scrollIntoView 메소드 사용 방법"
 description: ""
 coverImage: "/assets/img/2024-06-22-JavascriptscrollIntoViewmethod_0.png"
 date: 2024-06-22 15:32
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-JavascriptscrollIntoViewmethod_0.png
 tag: Tech
 originalTitle: "Javascript scrollIntoView() method"
 link: "https://medium.com/@twinkal189/javascript-scrollintoview-method-198436f81648"
 isUpdated: true
 ---
-
-
-
-
 
 ![scrollIntoView method](/assets/img/2024-06-22-JavascriptscrollIntoViewmethod_0.png)
 
@@ -24,7 +20,18 @@ scrollIntoView 메소드는 문서 객체 모델(DOM)의 Element 인터페이스
 element.scrollIntoView();
 element.scrollIntoView([scrollIntoViewOptions]);
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 scrollIntoView의 문법에는 2 가지 유형이 있습니다.
 
@@ -34,7 +41,18 @@ scrollIntoView의 문법에는 2 가지 유형이 있습니다.
 
 scrollIntoViewOptions는 뷰포트에서 요소를 스크롤하는 여러 옵션을 지정하는 선택적 객체 속성입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음과 같은 속성이 있습니다.
 
@@ -46,7 +64,18 @@ scrollIntoViewOptions는 뷰포트에서 요소를 스크롤하는 여러 옵션
 - smooth: 부드럽고 애니메이션 효과로 요소를 스크롤합니다.
 - instant: 즉시 요소를 스크롤하여 단일 점프와 동일합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 속성은 가시 영역 내 요소의 수직 정렬을 정의하는 데 사용됩니다.
 
@@ -59,7 +88,18 @@ scrollIntoViewOptions는 뷰포트에서 요소를 스크롤하는 여러 옵션
 
 이 속성은 가시 영역 내 요소의 수평 정렬을 정의하는 데 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 가능한 값들입니다
 
@@ -72,7 +112,18 @@ scrollIntoViewOptions는 뷰포트에서 요소를 스크롤하는 여러 옵션
 
 여기에 scrollIntoView의 다양한 속성 조합에 따라 생성된 3가지 예시가 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 1. scrollIntoView() 기본
 
@@ -112,11 +163,23 @@ scrollIntoViewOptions는 뷰포트에서 요소를 스크롤하는 여러 옵션
             }
         </script>
     </body>
+
 </html>
 
 # 2. scrollIntoView() 수직으로
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 코드는 요소를 수직으로 화면 안에 스크롤합니다.
 
@@ -150,13 +213,25 @@ scrollIntoViewOptions는 뷰포트에서 요소를 스크롤하는 여러 옵션
             }
         </script>
     </body>
+
 </html>
 
 # 3 .scrollIntoView() 수평 방향
 
 이것은 요소를 수평으로 화면 안에 스크롤합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <!DOCTYPE html>
 <html>
@@ -188,6 +263,7 @@ scrollIntoViewOptions는 뷰포트에서 요소를 스크롤하는 여러 옵션
             }
         </script>
     </body>
+
 </html>
 
 참고: scrollIntoView 메서드는 요소의 CSS에 많이 의존합니다. 요소에 대한 스크롤 간격에 대한 유효한 CSS를 제공했을 경우에만 예상대로 작동합니다.

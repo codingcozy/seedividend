@@ -20,7 +20,18 @@ updatedAt: 1724032845658
 
 # Prerequisites
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시작하기 전에 시스템에 Python이 설치되어 있는지 확인하세요. 또한 다음 라이브러리를 설치해야 합니다:
 
@@ -36,7 +47,18 @@ pip install keyboard pyautogui pyperclip groq pyaudio
 - Pyperclip: 시스템 클립보드와 상호작용하기 위해 사용됩니다.
 - Groq: Whisper 구현에 접근하기 위한 Groq API 클라이언트입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 게다가, Groq API 키가 필요합니다. 아직 보유하고 있지 않다면, https://console.groq.com/keys 로 이동하여 무료 API 키를 등록해주세요.
 
@@ -46,7 +68,18 @@ pip install keyboard pyautogui pyperclip groq pyaudio
 
 이번 한 번은 Atomic Agents 라이브러리를 사용하지 않을 것이지만, 멋진 에이전트 AI 기능을 찾고 있다면 다음을 살펴보세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 환경 설정하기
 
@@ -65,7 +98,18 @@ from groq import Groq
 client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 record_audio 함수는 그 이름에서 알 수 있듯이 오디오 입력을 캡처하는 역할을 담당합니다:
 
@@ -98,7 +142,18 @@ def record_audio(sample_rate=16000, channels=1, chunk=1024):
 
 이 함수는 PyAudio 스트림을 설정하고 PAUSE 버튼이 눌릴 때까지 기다립니다. 그런 다음 버튼이 누르고 있는 동안 오디오를 청크 단위로 기록합니다. 우리는 PAUSE 버튼을 선택했는데, 현대적인 애플리케이션에서 거의 사용되지 않는다는 점 때문입니다. 그러나 원한다면 이를 다른 키로 변경할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 임시 파일로 오디오 저장하기
 
@@ -118,7 +173,18 @@ def save_audio(frames, sample_rate):
 
 이 함수는 tempfile 모듈을 사용하여 임시 WAV 파일을 생성합니다. 여기서 임시 파일을 사용하는 것이 편리합니다. 왜냐하면 전사를 위해 오디오 데이터가 잠깐 필요할 뿐이기 때문에 처리 후 청소를 원할 것이기 때문입니다. 나중에 다시 다루겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Groq를 사용한 오디오 전사
 
@@ -143,7 +209,18 @@ def transcribe_audio(audio_file_path):
 
 이 함수는 Groq API를 사용하여 오디오 파일을 전사합니다. 우리는 "whisper-large-v3" 모델을 사용했는데, 이 모델은 음성 인식에 대한 높은 정확도를 제공하며 Groq API를 통해 이를 빠르게 수행합니다. prompt 매개변수는 모델에 컨텍스트를 제공하여 오디오 콘텐츠에 대한 이해를 개선합니다. 이 경우, 프로그래밍 관련 주제를 논의할 것이라고 알려주어 라이브러리 이름과 같은 내용의 전사를 조금 더 잘 수행하게 했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 전사 결과 처리
 
@@ -157,7 +234,18 @@ def copy_transcription_to_clipboard(text):
 
 이 함수는 pyperclip을 사용하여 전사된 텍스트를 클립보드에 복사한 후, pyautogui를 사용하여 "Ctrl+V" 키 조합을 모방하여 텍스트를 활성 애플리케이션에 붙여넣습니다. 이 접근 방식을 통해 우리의 도구가 응용 프로그램에 관계없이 모든 텍스트 입력 필드에서 원활하게 작동함이 보장됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 메인 루프
 
@@ -190,7 +278,18 @@ def main():
 
 이 함수는 무한 루프에서 실행되어 사용자가 스크립트를 다시 시작하지 않고 여러 녹음을 할 수 있도록 해줍니다. 각 반복에서 다음과 같은 작업이 수행됩니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - PAUSE 버튼을 누르고 누르고 누르고 누를 때 스크립트가 오디오를 녹음합니다.
 - 녹음된 오디오는 임시 파일로 저장됩니다.
@@ -204,7 +303,18 @@ def main():
 
 이 기사가 유용했다면, 적당한 금액을 내 PayPal.me 팁 jar에 기부해도 되지만 강요받지 마세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신의 지원은 제게 큰 의미를 가지고 있고, 계속해서 기사를 쓰고 튜토리얼을 제작하는 데 시간을 할애할 수 있게 해줍니다.
 
@@ -214,6 +324,17 @@ def main():
 
 LinkedIn에서 저와 연락을 취할 수도 있고, 저에게 참여를 원하는 프로젝트가 있을 때는 언제든지 kenny.vaneetvelde@gmail.com으로 이메일 보내주세요. 함께 협업하고 싶어요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `<img src="/assets/img/2024-08-18-ThisSimpleAI-poweredPythonScriptwillCompletelyChangeHowYouWork_1.png" />`

@@ -3,16 +3,13 @@ title: "이클립스 컬렉션 개발 20년의 회고록 2024년 최신 정리"
 description: ""
 coverImage: "/assets/img/2024-07-09-MemoriesofTwentyYearsofEclipseCollectionsDevelopment_0.png"
 date: 2024-07-09 21:24
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-MemoriesofTwentyYearsofEclipseCollectionsDevelopment_0.png
 tag: Tech
 originalTitle: "Memories of Twenty Years of Eclipse Collections Development"
 link: "https://medium.com/@donraab/memories-of-twenty-years-of-eclipse-collections-development-ddd545969dcf"
 isUpdated: true
 ---
-
-
-
 
 만약 오픈 소스에서 멀리 가고 싶다면, 함께 가야죠!
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 오픈 소스 이클립스 컬렉션 자바 라이브러리는 2004년에 나의 작업 중이던 자바 애플리케이션의 메모리 문제를 해결하기 위해 시작되었습니다. 2004년에 저와 제 가족(아내 및 딸)은 런던에 거주하고 일하였습니다. 이클립스 컬렉션과 제 아들은 런던에서 탄생했습니다. 런던의 날씨에게 그들을 감사드립니다. 런던에서는 매일 우산을 챙기고 돌아다닐 때 유아용 카시트에 비닐을 씌우는 것에 익숙해졌으며 날씨 변화에 대비하는 법을 배웠습니다. 런던 여행은 많은 이유로 나의 소중한 추억 중 하나입니다. 런던은 언제나 제 둘째 고향 같은 느낌입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-07-09-MemoriesofTwentyYearsofEclipseCollectionsDevelopment_1.png](/assets/img/2024-07-09-MemoriesofTwentyYearsofEclipseCollectionsDevelopment_1.png)
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 2022년 10월, 제 아내와 딸이 라스베이거스에서 열린 JavaOne 2022에서 저의 발표를 직접 보았습니다. IntelliJ IDEA Conf 2022 주제로 처음으로 발표한 '생존하는 오픈 소스' 발표를 듣게 되었습니다. 이는 그들이 제가 기술 컨퍼런스에서 발표하는 것을 처음으로 보았던 시간이었습니다. 그 특별한 발표를 보게 되어 기쁩니다. 이를 통해 그들이 내가 무엇을 하고 있는지, 그리고 Java 및 오픈소스 커뮤니티에 미친 영향을 더 잘 이해하게 되었을 것으로 생각합니다. 또한 그들은 이 여정에서 얼마나 중요한 역할을 해 왔는지 더 깨달았을 것입니다. 언젠가는 아들을 컨퍼런스로 데리고 가서 저의 발표를 듣게 해주어야겠습니다. 그가 오픈소스 동생인 Eclipse Collections에 대해 이야기하는 제 모습을 볼 수 있기를 바랍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-09-MemoriesofTwentyYearsofEclipseCollectionsDevelopment_3.png)
 
@@ -42,7 +61,18 @@ isUpdated: true
 
 이 라이브러리는 모든 위대한 라이브러리가 시작해야 하는 대로 시작되었어요. 실제 애플리케이션에서 실제 문제를 해결하기 위해 만들어진 코드로 시작되었어요. 결국 코드는 해당 애플리케이션에서 수확되어 공유 코드 공간으로 이동되어 여러 애플리케이션에서 재사용 가능하게 되었어요. 코드는 더 많은 개발자들의 기여를 통해 더 많은 사용 및 발전을 보았어요. 코드는 다시 수확되었고 더 이동되어 몇 번 더 재사용 가능하게 만들어져 Goldman Sachs 내에서 Caramel이라는 라이브러리라는 최종 내부 목적지를 찾았어요. Caramel은 Goldman Sachs 내부에서 가장 많이 재사용되고 기여된 Java 라이브러리 중 하나로 자리잡게 되었어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 카라멜이 다시 수확되어 더 재사용 가능하게 만들어졌고, GS Collections로 이전되어 GitHub에 이식되었습니다. GS Collections는 골드만삭스에서 처음으로 만든 오픈 소스 프로젝트였습니다. 그 이후로 골드만삭스는 자사의 GitHub 계정과 FinOS 재단에서 여러 대규모 내부 개발 프로젝트를 오픈 소스로 공개했습니다. GS Collections로 골드만삭스의 오픈 소스 프로젝트 기여 트렌드를 시작한 것에 자부심을 느끼고 있습니다. 이 트렌드가 계속될 것이며, GS 개발자들이 오픈 소스에 기여하는 데 계속해서 성공을 거두길 바랍니다.
 
@@ -53,7 +83,18 @@ isUpdated: true
 
 나는 2019년 뉴욕시에서 열린 Open Source Strategy Forum에서 Gab Columbro와 함께 Fireside Chat으로 개인적으로 몇 가지 스토리를 공유했습니다. 이 컨퍼런스는 FinOS 재단에서 주최되었습니다. 토크 녹화 링크는 여기 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 글로벌 협업으로 나아가기
 
@@ -63,7 +104,18 @@ GS Collections는 Eclipse Collections의 오픈 소스 여정의 시작에 불�
 
 ![이미지](/assets/img/2024-07-09-MemoriesofTwentyYearsofEclipseCollectionsDevelopment_5.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 절대 멋진 이클립스 컬렉션 기여자 팀인 Nikhil Nanivadekar, Sirisha Pratha, Craig Motlin, Moh Rezaei, Hiroshi Ito에게 큰 감사를 전합니다. 이 헌신적인 엔지니어 팀은 지난 8년 동안 에클립스 컬렉션을 발전시켜 왔습니다. 코드 리뷰, 풀 리퀘스트 병합, 이슈 생성과 모니터링, 릴리스 준비 및 제공, 버그 수정, 그리고 소중한 공헌을 했던 힘든 작업들로 에클립스 컬렉션의 지속적인 성공을 이끌어내었습니다. 그들의 헌신에 감사드립니다!
 
@@ -73,7 +125,18 @@ GS Collections는 Eclipse Collections의 오픈 소스 여정의 시작에 불�
 
 개발자들은 초반에는 Eclipse Collections를 사용하여 원시 컬렉션 같이 스스로 구현하거나 유지관리하기 비용이 많이 드는 문제를 해결하기 위해 사용합니다. 시간이 흐르면서, 개발자들은 Eclipse Collections를 원하게 되며, 이는 그들이 더 생산적이고 행복해지게 만들기 때문입니다. Eclipse Collections는 모든 금융 서비스를 대상으로 한 가장 잘 보존된 Java 생산성 비밀 중 하나입니다. 2012년 GS Collection이 처음 오픈 소스로 공개된 이후로 저는 이 비밀을 가장 잘 공유하기 위해 노력했습니다. 1200만 Java 개발자에게 놓친 것을 알려주는 것은 분명한 도전이며, 블로그, 기사, 모임 및 컨퍼런스 토크를 통해 유의성을 높이기 위해 많은 시간을 투자해야 합니다. Eclipse Collections는 계속해서 더 생산적이게 만든다고 약속하는 모든 새로운 화려한 것들과 경쟁해야 합니다. Eclipse Collections는 모든 Java 개발자의 비밀 무기가 될 수 있지만, 조용히한 채로 정말로 이미 당신에게 시간과 비용을 아낀다면 다른 사람에게는 말하지 마세요. ChatGPT에게는 필요 없습니다. ChatGPT가 이미 Eclipse Collections를 사용하여 시간과 비용을 절약하도록 하는 Java 코드를 작성하기 시작하기를 원하지 않습니다. 일단 생각해보니까... ChatGPT, 시작하세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다섯 개의 오픈 소스 프로젝트가 Eclipse Collections를 재사용함으로써 혜택을 받습니다.
 
@@ -83,7 +146,18 @@ Eclipse Collections는 계속 발전하고 성장하고 있습니다. 다운로�
 
 ## 2023년 매월 메이븐 센트럴 다운로드 현황
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-09-MemoriesofTwentyYearsofEclipseCollectionsDevelopment_6.png" />
 
@@ -98,7 +172,18 @@ Eclipse Collections는 계속 발전하고 성장하고 있습니다. 다운로�
 
 ## 빠른 링크
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - GitHub Repo
 - Kata Repo
@@ -111,7 +196,18 @@ Eclipse Collections는 계속 발전하고 성장하고 있습니다. 다운로�
 
 2020년 말 이후 Eclipse Collections에 대해 많은 기술적 콘텐츠가 쓰여졌습니다. 다음 링크에서 Eclipse Collections GitHub 위키의 Medium 검색 링크를 찾을 수 있으며, 여기에는 최근에 생산된 많은 콘텐츠가 포함되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 감사합니다!
 
@@ -121,6 +217,17 @@ Eclipse Collections는 계속 발전하고 성장하고 있습니다. 다운로�
 
 모두 안전하고 행복하며 건강한 연말과 새해가 되시길 바랍니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 Eclipse Foundation에서 관리되는 Eclipse Collections OSS 프로젝트의 창조자이자 커미터입니다. Eclipse Collections는 기여를 환영합니다.

@@ -3,17 +3,13 @@ title: "React와 TypeScript를 활용한 고급 개발 팁"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Senior Engineering Strategies for Advanced React and TypeScript"
 link: "https://medium.com/@techmade/senior-engineering-strategies-for-advanced-react-and-typescript-9d7aa8a07fd8"
 isUpdated: true
 ---
-
-
-
-
 
 ![Senior Engineering Strategies for Advanced React and TypeScript](/assets/img/SeniorEngineeringStrategiesforAdvancedReactandTypeScript_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 잘 설계된 아키텍처는 확장 가능하고 유지보수 가능하며 확장 가능한 애플리케이션을 구축하는 데 중요합니다. 탄탄한 아키텍처 전략은 애플리케이션이 성장하고 진화할 때 관리하기 쉽도록 보장할 수 있습니다. 리액트 애플리케이션에는 `Flux`, `Redux`, `Context API`와 같은 여러 가지 아키텍처 패턴이 있습니다. 각 패턴마다 장단점이 있으며 선택은 애플리케이션의 요구 사항과 팀의 선호도에 따라 다를 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 TypeScript 애플리케이션을 개발할 때는 TypeScript의 복잡성 추가 레이어와 잘 작동하는 아키텍처를 선택하는 것이 중요합니다. 도메인 주도 설계와 같은 계층화된 아키텍처는 복잡성을 관리하고 관심사의 분리를 강제함으로써 도움을 줄 수 있습니다. 또한, Micro Frontends와 같은 모듈화된 아키텍처는 대규모 애플리케이션을 작은 관리 가능한 부분으로 나누는 데 도움이 될 수 있습니다.
 
@@ -63,7 +70,18 @@ function App() {
 export default App;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 샘플 아키텍처에서는 애플리케이션의 상태와 데이터 흐름을 관리하는 컨테이너 컴포넌트인 App이 있습니다. 우리는 React Router를 사용하여 애플리케이션의 라우팅을 관리하고 URL에 기반하여 다른 페이지를 렌더링합니다. 컨테이너 컴포넌트는 또한 전역 상태에 액세스할 수 있도록 Redux Provider로 애플리케이션 전체를 감쌉니다. Header와 Footer와 같은 프레젠테이션 컴포넌트는 UI를 렌더링하는 데 관여하며 컨테이너 컴포넌트에서 props를 받습니다.
 
@@ -73,7 +91,18 @@ export default App;
 
 TypeScript 애플리케이션을 테스트할 때는 테스트가 코드를 올바르게 타입 지정하고 타입 관련 오류를 잡는 것이 중요합니다. 단위 테스트는 개별 함수 또는 컴포넌트를 커버하도록 작성해야 하며, 통합 테스트는 애플리케이션의 다른 부분이 함께 작동하는 방식을 테스트해야 합니다. 최종 사용자 테스트는 실제 사용자 시나리오를 시뮬레이션하고 애플리케이션의 모든 측면을 다루어야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 React 및 TypeScript 애플리케이션에 대한 샘플 테스팅 전략을 살펴보겠습니다.
 
@@ -102,7 +131,18 @@ describe("Example component", () => {
 
 # 성능
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 성능은 대규모이고 복잡한 응용 프로그램에서 빠르고 반응이 빠른 사용자 경험을 제공하는 데 아주 중요합니다. 성능 최적화는 개발 전략에 처음부터 통합되어야 합니다. React 및 TypeScript에는 지연로딩, 코드 분할 및 메모이제이션과 같은 여러 성능 최적화 기술이 있습니다.
 
@@ -125,7 +165,18 @@ function LazyLoadedComponentWrapper() {
 export default LazyLoadedComponentWrapper;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 샘플 성능 최적화 기법에서는 React lazy 함수를 사용하여 컴포넌트를 지연 로드하는 방법을 사용하고 있어요. lazy 함수는 동적 import를 반환하는 함수를 받아들여, 컴포넌트가 필요할 때만 로드되도록 합니다. Suspense 컴포넌트는 컴포넌트가 로드되는 동안 대체 UI를 제공하는 데 사용됩니다. 이 기술은 응용 프로그램의 초기 로드 시간을 개선할 수 있으며, 다운로드 및 구문 분석해야 하는 코드 양을 줄여줄 수 있어요.
 
@@ -135,7 +186,18 @@ export default LazyLoadedComponentWrapper;
 
 Scrum과 같은 Agile 개발 방법론은 개발 프로세스를 간소화하고 협업과 커뮤니케이션을 촉진하며, 더 효율적으로 고품질 소프트웨어를 제공할 수 있어요. 정기적인 코드 리뷰와 지식 공유 세션은 코드 품질을 유지하고 팀의 모든 구성원이 최신 개발 내용을 숙지하도록 도와줄 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스트림라인된 개발 워크플로우의 또 다른 측면은 자동화입니다. 응용 프로그램을 빌드하고 배포하는 것과 같은 반복적인 작업을 자동화하면 시간을 절약하고 오류를 줄일 수 있습니다. **CI/CD (지속적 통합/배포) 파이프라인**을 활용하여 개발 워크플로우를 자동화할 수 있어요. 이를 통해 코드 작성에 집중하고 기능을 제공할 수 있어요.
 
@@ -190,7 +252,18 @@ Scrum과 같은 Agile 개발 방법론은 개발 프로세스를 간소화하고
 
 위 샘플 개발 워크플로우에서 우리는 webpack을 사용해 코드 번들링하고 Babel을 사용해 TypeScript 코드를 JavaScript로 변환하고 있어요. Jest로 테스트를 실행하고 ESLint로 코드를 린팅하고 있어요. `precommit` 스크립트는 각 커밋 전에 ESLint와 코드 포맷팅이 실행되도록 `lint-staged`를 사용하고 있어요. 마지막으로 `deploy` 스크립트는 우리의 애플리케이션을 빌드하고 AWS S3 버킷에 배포하고 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 5. 접근성
 
@@ -200,13 +273,23 @@ React 및 TypeScript 응용 프로그램을 개발할 때, 접근성은 개발 �
 
 React 및 TypeScript 응용 프로그램의 샘플 접근성 기술을 자세히 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```javascript
 // AccessibleButton.tsx
 import React, { ButtonHTMLAttributes } from "react";
-interface AccessibleButtonProps
-  extends ButtonHTMLAttributes<HTMLButtonElement> {
+interface AccessibleButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   label: string;
 }
 function AccessibleButton({ label, ...rest }: AccessibleButtonProps) {
@@ -225,7 +308,18 @@ export default AccessibleButton;
 
 보안은 고급 React 및 TypeScript 개발의 또 다른 중요한 측면입니다. 보안 취약점은 데이터 유출에서 애플리케이션 다운타임에 이르는 심각한 결과를 초래할 수 있습니다. React 및 TypeScript 애플리케이션을 개발할 때 따라야 할 여러 보안 모범 사례가 있습니다. 안전한 코딩 관행, 입력 유효성 검사 및 HTTPS 사용 등이 그에 속합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 TypeScript 애플리케이션을 개발할 때는 보안을 염두에 두고 코드를 작성하는 것이 중요합니다. SQL 인젝션 및 크로스사이트 스크립팅(XSS)과 같은 일반적인 보안 취약점은 매개변수화된 쿼리를 사용하고 사용자 입력을 정리함으로써 예방할 수 있습니다. 또한 HTTPS를 사용하면 데이터가 암호화되어 전송되므로 중간자 공격을 방지할 수 있습니다.
 
@@ -252,19 +346,11 @@ function SecureForm() {
     <form onSubmit={handleSubmit}>
       <label>
         이름:
-        <input
-          type="text"
-          value={name}
-          onChange={(event) => setName(event.target.value)}
-        />
+        <input type="text" value={name} onChange={(event) => setName(event.target.value)} />
       </label>
       <label>
         이메일:
-        <input
-          type="email"
-          value={email}
-          onChange={(event) => setEmail(event.target.value)}
-        />
+        <input type="email" value={email} onChange={(event) => setEmail(event.target.value)} />
       </label>
       <button type="submit">제출</button>
     </form>
@@ -275,7 +361,18 @@ export default SecureForm;
 
 이 샘플 보안 기법에서는 보안 코딩 관행과 입력 유효성 검사를 사용하여 보안 취약점을 예방합니다. handleSubmit 함수는 사용자 입력을 서버로 보내기 전에 정리하고 검증합니다. 또한 데이터가 전송 중에 암호화되도록 안전한 HTTPS 프로토콜을 사용하여 양식을 제출합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 유지보수
 
@@ -285,7 +382,18 @@ export default SecureForm;
 
 React 및 TypeScript 응용 프로그램의 샘플 유지보수 전략에 대해 좀 더 자세히 알아보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // ExampleComponent.tsx
@@ -310,7 +418,18 @@ export default ExampleComponent;
 
 위에서 논의된 전략 외에도 더 많은 고급 React 및 TypeScript 기술과 패턴이 있습니다. 이러한 기술의 예시로는 고차 컴포넌트, 렌더 프롭스, 컨텍스트 등이 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 고차 컴포넌트(HOC)는 React에서 인기있는 패턴으로, 컴포넌트 간에 로직을 재사용하고 공유할 수 있도록 도와줍니다. HOC는 컴포넌트를 가져와 추가 기능이 있는 새로운 컴포넌트를 반환하는 함수입니다. 예를 들어 HOC를 사용하여 컴포넌트에 인증 또는 권한 부여를 추가할 수 있습니다.
 
@@ -320,7 +439,18 @@ export default ExampleComponent;
 
 이러한 고급 기술의 각각 예시 구현을 조금 더 자세히 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // withAuthentication.tsx
@@ -329,11 +459,7 @@ import React, { ComponentType } from "react";
 function withAuthentication<T>(WrappedComponent: ComponentType<T>) {
   return function WithAuthentication(props: T) {
     const isAuthenticated = true; // 실제 인증 로직으로 대체
-    return isAuthenticated ? (
-      <WrappedComponent {...props} />
-    ) : (
-      <div>이 컨텐츠를 보려면 로그인 해야 합니다.</div>
-    );
+    return isAuthenticated ? <WrappedComponent {...props} /> : <div>이 컨텐츠를 보려면 로그인 해야 합니다.</div>;
   };
 }
 export default withAuthentication;
@@ -379,7 +505,18 @@ export default FetchData;
 
 이 랜더 프롭(rending prop)의 샘플 구현에서는 FetchData 컴포넌트를 사용하여 API에서 데이터를 가져와 랜더 프롭을 사용하여 표시하는 방법을 보여줍니다. FetchData 컴포넌트는 가져올 API 엔드포인트를 지정하는 url prop과 가져온 데이터를 가져와 JSX를 반환하는 랜더 프롭인 render prop을 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // ThemeContext.tsx
@@ -401,7 +538,18 @@ export const ThemeProvider = ({ children }: { children: React.ReactNode }) => (
 - Formik: React에서 폼을 구축하기 위한 라이브러리.
 - Storybook: UI 컴포넌트를 격리해서 만들기 위한 도구.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 도구들을 사용하고 고급 React 및 TypeScript 기술과 전략을 따르면 더 나은, 확장 가능하고 유지보수가 쉬운 애플리케이션을 구축할 수 있습니다.
 
@@ -409,7 +557,18 @@ export const ThemeProvider = ({ children }: { children: React.ReactNode }) => (
 
 이 글에서는 컴포넌트 아키텍처와 구성, 포괄적인 테스트, 성능 최적화, 효율적인 개발 워크플로우, 접근성, 보안, 유지보수 등 많은 고급 React 및 TypeScript 기술과 전략을 다루었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또한, 더 나아가 고차 컴포넌트, 렌더 프롭스 및 컨텍스트와 같은 고급 React 및 TypeScript 기술, 그리고 더 나은 애플리케이션을 구축하는 데 도움이 되는 일부 도구 및 라이브러리에 대해 다루었습니다.
 

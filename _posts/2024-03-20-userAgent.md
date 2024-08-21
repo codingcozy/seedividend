@@ -3,17 +3,13 @@ title: "Nextjs 14에서 user agent 알아내는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # Nextjs 14에서 user agent 알아내는 방법
 
@@ -33,7 +29,18 @@ export function middleware(request: NextRequest) {
 
 ## isBot
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 알려진 봇에서 요청이 왔는지를 나타내는 부울 값입니다.
 
@@ -44,7 +51,18 @@ export function middleware(request: NextRequest) {
 - name: 브라우저의 이름을 나타내는 문자열 또는 식별할 수 없는 경우에는 정의되지 않습니다.
 - version: 브라우저의 버전을 나타내는 문자열이거나 정의되지 않은 경우입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 디바이스
 
@@ -56,7 +74,18 @@ export function middleware(request: NextRequest) {
 
 ## 엔진
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 브라우저 엔진에 관한 정보를 담고 있는 객체입니다.
 
@@ -67,7 +96,18 @@ export function middleware(request: NextRequest) {
 
 운영 체제에 관한 정보를 담고 있는 객체입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - name: 운영 체제의 이름을 나타내는 문자열 또는 정의되지 않은 값.
 - version: 운영 체제의 버전을 나타내는 문자열 또는 정의되지 않은 값.
@@ -78,4 +118,15 @@ CPU 아키텍처에 대한 정보를 포함하는 객체입니다.
 
 - architecture: CPU 아키텍처를 나타내는 문자열. 가능한 값은 68k, amd64, arm, arm64, armhf, avr, ia32, ia64, irix, irix64, mips, mips64, pa-risc, ppc, sparc, sparc64 또는 정의되지 않은 값입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

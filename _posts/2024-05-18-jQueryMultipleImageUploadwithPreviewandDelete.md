@@ -3,16 +3,13 @@ title: "jQuery를 이용한 다중 이미지 업로드 및 미리 보기와 삭�
 description: ""
 coverImage: "/assets/img/2024-05-18-jQueryMultipleImageUploadwithPreviewandDelete_0.png"
 date: 2024-05-18 22:13
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-18-jQueryMultipleImageUploadwithPreviewandDelete_0.png
 tag: Tech
 originalTitle: "jQuery Multiple Image Upload with Preview and Delete"
 link: "https://medium.com/@tutsmake.com/jquery-multiple-image-upload-with-preview-and-delete-6506a3b954ca"
 isUpdated: true
 ---
-
-
-
 
 jQuery를 이용한 다중 이미지 업로드 기능에 미리 보기 및 삭제가 포함되어 있습니다. 이 기능을 사용하면 사용자가 로컬 디바이스에서 여러 이미지를 선택하고 실제로 서버에 업로드하기 전에 미리 보여줄 수 있습니다. 또한 업로드 전에 미리 보기된 선택한 이미지를 삭제할 수 있는 기능도 포함되어 있습니다. 이 기능은 사진 갤러리, 이미지 공유 플랫폼, 콘텐츠 관리 시스템 등 사용자가 여러 이미지를 업로드해야 하는 웹 애플리케이션에서 일반적으로 사용됩니다.
 
@@ -27,7 +24,18 @@ jQuery를 이용한 다중 이미지 업로드 기능에 미리 보기 및 삭�
 - 선택한 이미지를 업로드하기 전에 사용자가 이미지를 선택 해제할 수 있는 삭제 버튼을 제공할 수도 있습니다.
 - 사용자가 선택한 이미지를 업로드할 준비가 되면 실제 파일 데이터를 서버로 보내기 위해 폼 제출 또는 AJAX 요청을 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 여러 이미지를 미리보기 및 삭제할 수 있는 방법을 구현하는 간단한 가이드입니다.
 
@@ -36,53 +44,66 @@ jQuery를 이용한 다중 이미지 업로드 기능에 미리 보기 및 삭�
 ```html
 <!DOCTYPE html>
 <html>
-<head>
+  <head>
     <title>다중 이미지 업로드 및 미리보기 및 삭제</title>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <style>
-        .preview {
-            display: inline-block;
-            margin: 10px;
-        }
-        .preview img {
-            width: 100px;
-            height: 100px;
-            margin-right: 10px;
-        }
+      .preview {
+        display: inline-block;
+        margin: 10px;
+      }
+      .preview img {
+        width: 100px;
+        height: 100px;
+        margin-right: 10px;
+      }
     </style>
-</head>
-<body>
-    <input type="file" id="file-input" multiple>
+  </head>
+  <body>
+    <input type="file" id="file-input" multiple />
     <div id="preview-container"></div>
-<script src="script.js"></script>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
 ```
 
 2단계: JavaScript
 JavaScript 파일을 script.js로 만들고 다음 코드를 추가하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-$(document).ready(function(){
-    $("#file-input").on("change", function(){
-        var files = $(this)[0].files;
-        $("#preview-container").empty();
-        if(files.length > 0){
-            for(var i = 0; i < files.length; i++){
-                var reader = new FileReader();
-                reader.onload = function(e){
-                    $("<div class='preview'><img src='" + e.target.result + "'><button class='delete'>Delete</button></div>").appendTo("#preview-container");
-                };
-                reader.readAsDataURL(files[i]);
-            }
-        }
-    });
-    $("#preview-container").on("click", ".delete", function(){
-        $(this).parent(".preview").remove();
-        $("#file-input").val(""); // Clear input value if needed
-    });
+$(document).ready(function () {
+  $("#file-input").on("change", function () {
+    var files = $(this)[0].files;
+    $("#preview-container").empty();
+    if (files.length > 0) {
+      for (var i = 0; i < files.length; i++) {
+        var reader = new FileReader();
+        reader.onload = function (e) {
+          $(
+            "<div class='preview'><img src='" + e.target.result + "'><button class='delete'>Delete</button></div>"
+          ).appendTo("#preview-container");
+        };
+        reader.readAsDataURL(files[i]);
+      }
+    }
+  });
+  $("#preview-container").on("click", ".delete", function () {
+    $(this).parent(".preview").remove();
+    $("#file-input").val(""); // Clear input value if needed
+  });
 });
 ```
 

@@ -3,16 +3,13 @@ title: "CSS 부모의 Overflow Hidden을 덮어쓰는 방법"
 description: ""
 coverImage: "/assets/no-image.jpg"
 date: 2024-07-09 18:12
-ogImage: 
+ogImage:
   url: /assets/no-image.jpg
 tag: Tech
 originalTitle: "CSS: Overriding the Parent’s Overflow Hidden"
 link: "https://medium.com/@thomas.ryu/css-overriding-the-parents-overflow-hidden-90c75a0e7296"
 isUpdated: true
 ---
-
-
-
 
 사용 사례: 아주 당연한 것이죠. 특정 요소를 돋보이게 하고 부모 요소의 overflow: hidden을 무시하고 싶을 때입니다.
 
@@ -34,7 +31,18 @@ overflow: hidden;을 가진 부모 요소에 position 속성이 기본 static으
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Case 2: 위치가 정의된 부모 요소
 

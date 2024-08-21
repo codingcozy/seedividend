@@ -3,16 +3,13 @@ title: "Docker, Uptime Kuma, Traefik으로 사이트 모니터링하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-10-UseDockerUptimeKumaandTraefikToMonitorYourWebsite_0.png"
 date: 2024-07-10 02:36
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-10-UseDockerUptimeKumaandTraefikToMonitorYourWebsite_0.png
 tag: Tech
 originalTitle: "Use Docker, Uptime Kuma, and Traefik To Monitor Your Website"
 link: "https://medium.com/gitconnected/use-docker-uptime-kuma-and-traefik-to-monitor-your-website-593373f9e0c2"
 isUpdated: true
 ---
-
-
-
 
 ![이미지](/assets/img/2024-07-10-UseDockerUptimeKumaandTraefikToMonitorYourWebsite_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 해당 프로젝트는 오픈 소스로 GitHub에서 찾을 수 있으며, 링크는 다음과 같습니다: https://github.com/louislam/uptime-kuma
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 대체 방법을 사용하게 된 결정적인 이유는 다음과 같습니다:
 

@@ -3,7 +3,7 @@ title: "SwiftUI에서 Scrolling Picker를 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-13-ScrollingpickersinSwiftUI_0.png"
 date: 2024-08-13 12:06
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-13-ScrollingpickersinSwiftUI_0.png
 tag: Tech
 originalTitle: "Scrolling pickers in SwiftUI"
@@ -11,9 +11,6 @@ link: "https://medium.com/@uvolchyk/scrolling-pickers-in-swiftui-de4a9c653fb6"
 isUpdated: true
 updatedAt: 1723864057821
 ---
-
-
-
 
 ![Scrolling Pickers in SwiftUI](/assets/img/2024-08-13-ScrollingpickersinSwiftUI_0.png)
 
@@ -23,8 +20,18 @@ updatedAt: 1723864057821
 
 # 울타리 만들기
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 구현 아이디어는 꽤 명확합니다. 수직 세그먼트를 생성해야 합니다. 일부는 더 높고 텍스트 블록이 있으며, 일부는 더 짧고 표시할 숫자가 없습니다. 이는 각 세그먼트의 색인에 따라 결정됩니다.
 
@@ -62,8 +69,18 @@ struct WheelPicker: View {
 
 따라서 수평으로 열두 개의 수직 세그먼트를 표시합니다. 각 수직 세그먼트는 각각 위쪽과 아래쪽에 정렬된 두 개의 사각형으로 구성됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](https://miro.medium.com/v2/resize:fit:1200/1*RfcW4QEqSMMmJE42DeE4Cg.gif)
 
@@ -73,9 +90,18 @@ struct WheelPicker: View {
 
 계속하기 전에 표준 자 등을 살펴 보겠습니다. 그려진 긴 세그먼트는 주요 값 사이의 단계 수의 배수인 순서 번호입니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![스크롤링 피커](/assets/img/2024-08-13-ScrollingpickersinSwiftUI_1.png)
 
@@ -91,14 +117,14 @@ struct WheelPicker: View {
 
   // 중요한 인덱스 사이의 단계 수.
   var steps: Int = 5
-  
+
   var body: some View {
     ZStack {
       ScrollView(.horizontal) {
         HStack(spacing: spacing) {
           ForEach(values, id: \.self) { index in
             let isPrimary = index % steps == 0
-            
+
             VStack(spacing: 40.0) {
               Rectangle()
                 .frame(
@@ -123,7 +149,7 @@ struct WheelPicker: View {
               if isPrimary {
                 Text("\(index)")
                   .font(.system(
-                    size: 24.0, 
+                    size: 24.0,
                     design: .monospaced
                   ))
                   .fixedSize()
@@ -140,8 +166,18 @@ struct WheelPicker: View {
 
 ![사진](https://miro.medium.com/v2/resize:fit:1200/1*GIWZFuUWtgdat1iEL4vJGw.gif)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스크롤 뷰 위에 빨간색 라인 오버레이를 추가하여 현재 선택 항목을 나타낼 수 있도록 이 부분을 완료했습니다.
 
@@ -160,7 +196,18 @@ ScrollView(.horizontal) {
 
 # 펜스 스크롤링
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기본 스크롤 표시자를 표시하지 않도록 설정하려고 합니다. 그러니 숨겨봅시다.
 
@@ -178,7 +225,18 @@ ScrollView(.horizontal) {
 
 이 작업은 .safeAreaPadding 수정자를 사용하여 수행할 수 있습니다. 여백에 필요한 값을 계산하려면 GeometryReader를 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 GeometryReader { proxy in
@@ -199,7 +257,18 @@ GeometryReader { proxy in
 
 빨간 선의 왼쪽에 있는 세그먼트는 약간 어둡게 나타나고, 반대로 오른쪽에 있는 세그먼트는 완전히 불투명하게 나타납니다. 이 효과는 `scrollTransition` 수정자를 사용하여 구현합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 번째 매개변수는 두 가지 값을 제공하는 클로저입니다:
 
@@ -211,7 +280,7 @@ GeometryReader { proxy in
 ```js
 ForEach(values, id: \.self) { index in
   let isPrimary = index % steps == .zero
-  
+
   VStack(spacing: 40.0) {
     ...
   }
@@ -228,8 +297,18 @@ ForEach(values, id: \.self) { index in
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](https://miro.medium.com/v2/resize:fit:1200/1*liBrt3TntxHEvMK2JCClFA.gif)
 
@@ -238,7 +317,7 @@ ForEach(values, id: \.self) { index in
 ```js
 ForEach(values, id: \.self) { index in
   let isPrimary = index % steps == .zero
-  
+
   VStack(spacing: 40.0) {
     ...
   }
@@ -253,7 +332,7 @@ ForEach(values, id: \.self) { index in
     if isPrimary {
       Text("\(index)")
         .font(.system(
-          size: 24.0, 
+          size: 24.0,
           design: .monospaced
         ))
         .fixedSize()
@@ -271,8 +350,18 @@ ForEach(values, id: \.self) { index in
 
 ![Image](https://miro.medium.com/v2/resize:fit:1200/1*Bo-t9NrowlRESkvGAZwZjA.gif)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 정수 범위에서 작업 중이므로 세그먼트 자체에만 스크롤을 멈추도록 설정하는 것이 합리적입니다. 다시 말해, 휠을 다소 각인하여 세그먼트에 제대로 정렬하도록 만들어 보겠습니다.
 
@@ -283,7 +372,18 @@ ForEach(values, id: \.self) { index in
 
 ScrollTargetBehavior는 scrollTargetLayout 수정자와 함께 작동합니다. 후자는 스톱 지점을 계산할 때 SwiftUI에게 어떤 뷰를 고려해야 하는지 알려주는 데 도움을 줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 GeometryReader { proxy in
@@ -315,7 +415,18 @@ struct SnapScrollTargetBehavior: ScrollTargetBehavior {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 updateTarget 메서드는 프로토콜에서 필요한 유일한 메서드입니다. 여기서 target 매개변수는 스크롤 뷰에게 멈추어야 하는 위치를 알려줄 때 사용됩니다. 초기에는 SwiftUI가 스크롤 뷰가 멈춰야 할 위치를 알 수 있는 몇 가지 크기 값이 포함되어 있습니다. 이를 사용하여 동작을 사용자 정의할 수 있습니다.
 
@@ -325,7 +436,18 @@ updateTarget 메서드는 프로토콜에서 필요한 유일한 메서드입니
 
 ![Image](/assets/img/2024-08-13-ScrollingpickersinSwiftUI_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 x1(예상 중단 지점, SwiftUI에서 범례)을 찾아야 합니다. x2(우리가 평가한 원하는 값)가 조각 길이의 배수이고 x1에 가장 가까운 값이 되도록 해야 합니다.
 
@@ -341,7 +463,7 @@ struct SnapScrollTargetBehavior: ScrollTargetBehavior {
   ) {
     let x1 = target.rect.origin.x
     let x2 = closestMultiple(a: x1, b: step)
-    
+
     target.rect.origin.x = x2
   }
 
@@ -351,7 +473,7 @@ struct SnapScrollTargetBehavior: ScrollTargetBehavior {
   ) -> Double {
     let lowerMultiple = floor((a / b)) * b
     let upperMultiple = floor(lowerMultiple + b)
-    
+
     return if abs(a - lowerMultiple) <= abs(a - upperMultiple) {
       lowerMultiple
     } else {
@@ -363,7 +485,18 @@ struct SnapScrollTargetBehavior: ScrollTargetBehavior {
 
 이제 남은 일은 이 인스턴스를 생성하는 편리한 메소드를 정의하는 것 뿐입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 extension ScrollTargetBehavior where Self == SnapScrollTargetBehavior {
@@ -392,8 +525,18 @@ GeometryReader { proxy in
 
 <img src="https://miro.medium.com/v2/resize:fit:1200/1*HBpt_MN2ed5wPGgoHyP3pQ.gif" />
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 피커로 불리우는 이 기능은 외부로 값을 전달할 수 있어야 합니다. 이를 위해 해당 값을 바인딩할 필요가 있습니다.
 
@@ -413,7 +556,7 @@ GeometryReader { proxy in
     ...
   }
   .overlay {
-    ... 
+    ...
   }
   .scrollIndicators(.hidden)
   .safeAreaPadding(.horizontal, proxy.size.width / 2.0)
@@ -431,7 +574,18 @@ GeometryReader { proxy in
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 scrollPosition 수정자는 스크롤 대상과 밀접하게 작동하며 그들의 식별자를 사용하여 값을 전달합니다. 정수 범위와 함께 작업하기 때문에 해당 바인딩을 통해 정수가 반환될 것으로 기대할 수 있습니다.
 
@@ -446,7 +600,18 @@ ZStack {
 .sensoryFeedback(.selection, trigger: count)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -456,6 +621,17 @@ ZStack {
 
 최종 솔루션을 포함한 gist를 남기고, 추가 개선을 위해 빈 칸을 남겼습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앞으로도 계속해서 실험을 해 나갈 테니, 곧 뵙겠습니다! 🙌

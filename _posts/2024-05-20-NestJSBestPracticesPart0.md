@@ -3,16 +3,13 @@ title: "NestJS 전반적인 내용 정리"
 description: ""
 coverImage: "/assets/img/2024-05-20-NestJSBestPracticesPart0_0.png"
 date: 2024-05-20 22:20
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-20-NestJSBestPracticesPart0_0.png
 tag: Tech
 originalTitle: "NestJS Best Practices Part #0"
 link: "https://medium.com/javascript-in-plain-english/nestjs-best-practices-0-9d4b0cd00631"
 isUpdated: true
 ---
-
-
-
 
 # 용어
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-05-20-NestJSBestPracticesPart0_0.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # @글로벌()
 
@@ -30,9 +38,20 @@ isUpdated: true
 
 ## 글로벌 함수
 
-.useGlobal* 함수에도 동일한 규칙이 적용돼요. 이러한 함수들은 글로벌 구성을 e2e 테스트에서 반복해야 할 것을 강요할 거예요.
+.useGlobal\* 함수에도 동일한 규칙이 적용돼요. 이러한 함수들은 글로벌 구성을 e2e 테스트에서 반복해야 할 것을 강요할 거예요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어:
 
@@ -45,7 +64,18 @@ app.useGlobalGuards(new RolesGuard()); // <- 좋지 않은 해결책
 
 이 규칙의 유일한 예외는 .setGlobalPrefix 함수입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 친절한 한국어 번역 🚀
 

@@ -3,16 +3,13 @@ title: "프로그래밍 처음부터 배우는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-13-Howtolearnprogrammingfromscratch_0.png"
 date: 2024-07-13 20:48
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-Howtolearnprogrammingfromscratch_0.png
 tag: Tech
 originalTitle: "How to learn programming from scratch?"
 link: "https://medium.com/@tomaszs2/how-to-learn-programming-from-scratch-92a2094511a1"
 isUpdated: true
 ---
-
-
-
 
 많은 사람들이 나에게 프로그래밍을 처음부터 배우는 방법을 묻곤 합니다. 이 답변을 통해 당신은 그 방법을 배울 수 있을 거예요. 나는 20년간 프로그래밍을 해 왔습니다. 나는 지금까지 도울 수 있었던 사람들과의 경험을 공유하며 이 직업 분야에서 성장해 온 것입니다.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 이 답변을 통해 당신은 처음부터 프로그래밍을 시작하는 방법을 배울 수 있을 뿐만 아니라 진행 중에 도움이 될 조언도 받으실 것입니다. 그러니 시작해 보겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코딩을 배우려면 다음 단계를 따라야 합니다:
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 우선 웹 개발자에 대해 설명할 수 있습니다. 이들은 워드프레스나 다른 콘텐츠 관리 시스템(CMS)을 사용하며, 자신의 기술을 활용하여 웹 사이트를 조정하여 클라이언트가 기대하는 대로 작동하도록 만듭니다. 이를 위해 이들은 주로 JavaScript, HTML 및 CSS를 알아야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹사이트 개발자님, 세계적으로 가장 인기 있는 "프로그래머"의 해석입니다.
 
@@ -42,7 +61,18 @@ isUpdated: true
 
 데스크톱 앱 프로그래밍 - 위와 비슷하지만, 이는 예를 들어 Windows 시스템에 설치할 수 있는 응용프로그램을 프로그래밍하는 것입니다. 이 그룹은 이전 그룹과 다릅니다. 다른 기술을 사용합니다. 예를 들어, Windows용 프로그래밍은 C# 언어와 .NET Framework를 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모바일 앱 프로그래밍 — 이는 모바일 기기에 설치된 앱을 작성하는 것에 관련이 있습니다. 주로 Android 및 iOS 운영 체제를 사용하는 기기에서 작동합니다. Android를 위한 프로그래밍은 주로 Java 프로그래밍 언어를 사용하며, iOS를 위한 경우에는 Swift 언어를 사용합니다. 각 시스템에는 서로 다른 프레임워크가 있습니다. 두 시스템을 위한 프레임워크 또한 존재합니다.
 
@@ -52,7 +82,18 @@ isUpdated: true
 
 백엔드 프로그래밍 — 백엔드 개발자는 데이터베이스와 프론트엔드 또는 협력해야 하는 다른 시스템 간에 데이터를 처리합니다. 거의 모든 프로그래밍 언어를 백엔드에 사용할 수 있지만, 백엔드는 특정 용도로 사용되기 때문에 프론트엔드와 다른 언어를 사용하는 경향이 있습니다. 예를 들어 PHP, Ruby, Python, Java, 그리고 JavaScipt가 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대부분의 프로그래머들은 프론트엔드와 백엔드 개발자로 나눠집니다. 그러나 풀스택 개발자도 있어요. 풀스택 개발자는 프론트엔드와 백엔드 기술을 알고 있는 사람을 말해요. 그는 모든 것을 처리하는 능력이 있어요: 데이터베이스, 백엔드, 사용자 인터페이스까지.
 
@@ -62,7 +103,18 @@ isUpdated: true
 
 또 다른 분야는 레거시 프로그래밍인데요. 레거시 개발자들은 시스템을 구축하는 데 사용된 기술들을 알지만 더 이상 인기가 없는 것들이에요. 그들은 여전히 작동해야 하지만 수년 전에 만들어진 레거시 시스템들을 지원해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 많은 프로그래밍 분야들이 있어요. 이곳에 모든 것을 다 쓰지는 않을 거예요. 하지만 찾을 수 있다는 사실을 기억하세요.
 
@@ -72,7 +124,18 @@ isUpdated: true
 
 2. 기술 선택하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 나아가려면 배워야 할 기술에 대해 신중한 결정을 내려야 합니다. 하지만 솔직히 많은 조언을 받기는 쉽지 않아요. 누군가에게 물어보거나 연구를 하거나 부트캠프에 다녀와 볼 수 있지만 어찌되었든, 여전히 학습해야 할 것들은 있어요: a) 인기 있는 것 b) 가르쳐 줄 사람이 알고 있는 것 c) 답을 하는 사람이 사용하는 것. 이런 방법들은 종종 최선의 선택이 아니에요. 하지만 좋은 소식이 있어요. 더 잘 할 수 있고 잘 할 수 있어요.
 
@@ -82,7 +145,18 @@ isUpdated: true
 
 3. 학습 방법 선택하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 포인트는 매우 중요하며 그 이유를 쓰겠습니다. 모두가 개발자가 어떻게 배워야 하는지에 대한 의견을 갖고 있습니다. 온라인에서 답을 찾고 싶다면, 올바른 방법에 대한 다양한 아이디어를 발견할 것입니다. 어떤 사람은 YouTube 비디오를 사용하는 것을 권할 것입니다. 다른 사람은 책을 읽는 것이 가장 좋다고 말할 것입니다. 또 다른 사람은 부트캠프가 최선이라고 이야기할 것입니다. 소프트웨어 개발자는 문서에서 배웁니다! 어떤 개발자들은 대학 교육이 쓸모없다고 말하기도 합니다. 이러한 주장에 대해 슬퍼합니다.
 
@@ -92,7 +166,18 @@ isUpdated: true
 
 그것은 학교에서의 학습이 체계적이고 방법적이기 때문입니다. 한 걸음씩. 이 시스템은 수백 년간의 경험을 통해 개발되었습니다. 충분하지 않다고 생각하신다면, 자신에게 물어보세요: 감자 배터리를 만드는 법은 무엇인가요? 이 시스템은 그 정도로 훌륭합니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로그래밍을 배우려는 여러분을 응원해요. 제일 중요한 것은 체계적이고 체계적인 학습 방법을 선택하는 것이에요. 그러니까 스스로에게 질문해보세요. 가장 체계적이고 체계적인 학습 방법은 무엇인가요? 당연히 고등학교 교육일 거예요. 고등학교 교사진은 체계적이고 체계적인 교육을 잘 알고 계실거예요. 힘들겠지만, 프로그래밍을 배울 수 있을 거예요.
 
@@ -102,7 +187,18 @@ isUpdated: true
 
 부트캠프도 좋은 선택이 될 수 있어요. 집중적인 프로그래밍 교육이에요. 그룹으로 일하는 것을 좋아한다면 좋은 해결책이 될 거예요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로그래밍을 배우는 비체계적이고 불완전한 방법을 사용하지 않도록 유의해주세요. YouTube 비디오 강의에서 주제의 50%를 배우게 됐다고 상상해봅시다(무료이기 때문에). 그러나 나머지 부분은 없습니다. 다른 강의를 찾아보지만 그 강의에는 모르는 부분도 있고 이미 알고 있는 부분도 있습니다. 그리고 주제가 전혀 다른 방식으로 설명됩니다. 이것은 기분을 낮춥니다! 그러므로 초보자를 위해: 주제를 A부터 Z까지 다루는 콘텐츠.
 
@@ -112,7 +208,18 @@ isUpdated: true
 
 교육과정을 계획할 때 종종 목표 설정이 누락됩니다. 사람들은 한 강의를 시작하고 그만두고 이후에 부트캠프에 가는 경향이 있습니다. 시간이 흐르면서 여러 달이 지나면 이전에 무엇을 배웠는지 기억하지 못할 때가 있습니다. 무언가를 배웠다는 느낌은 들지만 정확히 무엇을 성취했는지는 기억이 안 나죠?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 학습을 쉽게 만들기 위해서 목표를 설정하는 것이 좋은 생각이에요. 예를 들어, 한 달 동안 800페이지 분량의 책을 읽을 것이라고 다짐할 수 있어요. 또는, 대학원을 졸업하거나 6개월 안에 주니어 개발자 직업을 찾을 수 있다고 생각할 수도 있어요.
 
@@ -122,7 +229,18 @@ isUpdated: true
 
 목표를 이미 설정했다면, 다음 단계는 학습 일정을 만드는 거예요. 매일 한 시간씩. 그리고 매일, 항상 한 시간씩. 그리고 또 다른 비디오 자습서를 보거나 글을 읽는 것이 아니라, 의미 있는 것을 배우는 거에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이렇게 해도 더 쉬울 방법이 없을까요? 프로그래밍을 배우려면 집중이 필요하죠. 집중이 많이 필요한 일이죠. 이렇게 해보세요. 모든 사람에게 선언하세요: 오후 6시에 1시간 동안 프로그래밍을 배우겠다고 하고, 저를 방해하지 않도록 해주세요. 핸드폰은 끄고, 페이스북에서 로그아웃하세요. 아이들은 시아버지나 시어머니에게 맡기고, 강아지는 이웃에게 맡기세요.
 
@@ -132,7 +250,18 @@ isUpdated: true
 
 나는 링크드인에서 멋진 초보 소프트웨어 개발자를 팔로우하고 있어요. 그녀는 프로그래밍을 연습하는 멋진 방법을 찾았어요. 매일 코딩할 목표를 세우는 거예요. 예를 들면: 하루에는 간단한 계산기. 다음 날에는 영화 표지가 있는 간단한 페이지. 그녀는 자신이 무엇을 했는지 보여주는 애니메이션 GIF를 만들고 링크드인에 올려요. 하루에 배운 것을 적어요. 그녀를 팔로우하는 것을 좋아해요. 그녀는 멋진 미니 프로젝트를 만들어 냅니다. 또한 저도 초창기에 그녀가 하는 것처럼 했어요. 나는 알고 있는 모든 좋은 소프트웨어 개발자들이 한 것이었죠. 작업을 계획하고 프로그래밍하는 것. 이것이 여러분이 소프트웨어 개발자가 되는 방법입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당연히 공부하거나 일하거나 부트캠프에 참여하거나 예제 테스크가 있는 책을 가지고 있으면 쉬워요. 왜냐하면 별도로 과제를 생각해 낼 필요가 없거든요. 이것 또한 좋은 방법이에요. 하지만 때로는 이러한 작업이 지루하고 안전 영역을 벗어나도록 강요하지 않을 수 있어요. 만약 여러분이 스스로 과제를 처리한다면 어떨까요? 그러면 당신이 어떤 것을 배워야 하는지 가르쳐 줄 장애물에 부딪힐 거에요.
 
@@ -142,17 +271,39 @@ isUpdated: true
 
 하지만 오늘날은 "인터넷에서 검색해보세요", "이전에 물어봤습니다" 또는 "다시"와 같은 답변을 받을 수 있어요. 이것은 짜증나는 일이죠. 안타깝게도. 인터넷에는 답변이 가득히 있어요. 고급 소프트웨어 개발자들이 이해하지 못하는 것은 초보 프로그래머가 문제의 이름을 정하는 것이 얼마나 어려운지인 거예요. 심지어 정확히 동일한 문제를 가졌다 해도 말이죠! 저는 여러분에게 이것을 확신합니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러므로 질문하는 것이 중요하다고 역력합니다. 소프트웨어 개발자를 위한 멋진 곳을 인터넷에서 찾거나 멘토를 찾아보세요. 질문을 하세요. 가끔 주저하게 될 때가 있겠지만, 여기서 당신을 막을 수 없을 거예요. 그렇다 해도, 그렇다면 더 좋은 곳을 찾아보세요.
 
-질문할수록 당신이 겪는 문제를 명확히 표현하는 것이 쉬워질 거예요. 시간이 흘러갈수록 당신의 질문도 더 좋아지고, 답변도 더 빨리 나타날 거에요. 나중에는, 적절한 질문을 정리하는 것만으로도 일부 문제를 해결할 수 있음을 발견할 거예요. 
+질문할수록 당신이 겪는 문제를 명확히 표현하는 것이 쉬워질 거예요. 시간이 흘러갈수록 당신의 질문도 더 좋아지고, 답변도 더 빨리 나타날 거에요. 나중에는, 적절한 질문을 정리하는 것만으로도 일부 문제를 해결할 수 있음을 발견할 거예요.
 
 8. 빠르게 일자리를 구하세요
 
 많은 사람들이 일자리를 찾는 것을 미루다가 더 배우고 나서 찾는다는 것을 종종 읽게 됩니다. 그렇게 하다 보면 반년이 지나가 버릴 거에요. 소프트웨어 개발은 지속적으로 지식을 갱신해야 하는 분야이기 때문에요. 예를 들어 필요한 기술 3-4개를 배웠다고 가정해봅시다. 직장을 찾기 시작하면 문제에 부딪힐 수 있어요. 당신은 몇 달 동안 일자리를 찾을 수도 있어요! 그러면서 당신이 배운 것의 절반을 잊어버릴 거에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 조언은 학습 경로의 중간쯤에는 취업을 찾기 시작해야 한다는 것입니다. 몇 가지 좋은 이유가 있습니다. 먼저 인턴 직책이나 주니어 직무를 맡게 되면 고용주는 당신이 거의 아무것도 모른다고 가정합니다. 둘째, 채용 과정은 그 자체로 시간이 소요됩니다. 이력서를 세밀하게 보정하고 사전에 준비된 온라인 시험 문제를 배우기 전에 시간이 흘러갑니다. 또한 취업을 찾는 것도 배워야 할 부분입니다.
 
@@ -162,7 +313,18 @@ isUpdated: true
 
 이제 일자리가 생겼습니다. 그러나 프로그래밍의 가장 큰 함정이 당신 앞에 있습니다. 일단 일을 얻게 되면 책을 책장에 올려놓고 당신에게 요청된 일만 하면 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이렇게하는 것 아닙니다! 주니어 인턴들은 종종 복잡한 작업을 부여받는 대신 매우 간단한 작업을 맡는 경우가 많습니다. 곧 당신도 느끼겠지만, 이러한 작업은 점점 더 빠르게 완료되는데, 그에 따라 지루해질 것입니다. 이에 대해 아무것도 하지 않으면 시간을 낭비하게 됩니다. 새로운 것을 배울 수 있습니다. 빙빙 돌지 마세요.
 
@@ -172,7 +334,18 @@ isUpdated: true
 
 인턴/주니어로서 당신은 많은 것을 배워야 합니다. 많은 것을 더 배워야 합니다. 나는 당신이 인터넷에서 "인턴/주니어 포지션은 아무것도 가르쳐주지 않았다"고 말하는 사람 중 하나가 되길 원하지 않다는 것을 100% 확신합니다. 그들은 더 나아가고 싶어하지 않았기 때문에 배우지 않았습니다. 그들은 자신과 고용주의 시간을 낭비했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 10. 새로운 기술 습득하기
 

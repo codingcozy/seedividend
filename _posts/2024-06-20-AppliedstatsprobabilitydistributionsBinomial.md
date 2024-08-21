@@ -3,16 +3,13 @@ title: "응용 통계 확률 분포 - 이항분포"
 description: ""
 coverImage: "/assets/img/2024-06-20-AppliedstatsprobabilitydistributionsBinomial_0.png"
 date: 2024-06-20 02:13
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-AppliedstatsprobabilitydistributionsBinomial_0.png
 tag: Tech
 originalTitle: "Applied stats: probability distributions — Binomial"
 link: "https://medium.com/@vitorbeltrao300/applied-stats-probability-distributions-binomial-95276bdcab54"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-06-20-AppliedstatsprobabilitydistributionsBinomial_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 이 절차를 통계 추론이라고 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 모집단에 대해 정의된 변수 X의 확률 분포가 특정 확률 모델에 의해 설명될 수 있다고 가정한다면, 우리의 문제는 해당 모델에 의해 표현된 특정 확률 분포의 매개변수를 추정하는 것으로 간소화됩니다. 이항 분포의 경우, 이러한 매개변수는 다음과 같습니다:
 
@@ -33,7 +41,18 @@ isUpdated: true
 
 # 이항 분포: 이론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이항 분포의 특정 수학 함수를 사용하면 두 가지 결과가 있는 어떤 실생활 이벤트의 결과를 예측할 수 있습니다.
 
@@ -43,7 +62,18 @@ isUpdated: true
 
 ![이항분포 이미지](/assets/img/2024-06-20-AppliedstatsprobabilitydistributionsBinomial_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 정확한 예측을 위해 기대값과 표준편차를 계산할 수 있습니다. 이 경우:
 
@@ -57,7 +87,18 @@ isUpdated: true
 - 고정된 횟수의 시행이 있어야 합니다.
 - 각 시행에서의 성공 확률이 일정해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 이항 분포: 실습
 
@@ -67,7 +108,18 @@ isUpdated: true
 
 X = 반품 수량.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 n = 50번의 구매.
 
@@ -86,18 +138,28 @@ n = 50
 p = 0.1
 k = 2
 
-print('2개 이하의 환불 누적 확률:', 
+print('2개 이하의 환불 누적 확률:',
   binom.cdf(k, n, p)) # P(X=0) + P(X=1) + P(X=2)
-print('정확히 2개의 환불이 일어날 확률:', 
+print('정확히 2개의 환불이 일어날 확률:',
   binom.pmf(k, n, p)) # P(X=3)
-print('3개 이상의 환불이 일어날 확률:', 
+print('3개 이상의 환불이 일어날 확률:',
   1 - binom.cdf(k, n, p)) # k를 0, 1, 2로 포함
-print('3개 이상의 환불이 일어날 확률:', 
+print('3개 이상의 환불이 일어날 확률:',
   binom.sf(k, n, p)) # 1 - cdf
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-20-AppliedstatsprobabilitydistributionsBinomial_2.png)
 
@@ -126,8 +188,18 @@ fig.show()
 
 이 코드는 기사 초반에 보았던 그래프를 나타낼 것입니다. 빠르고 매우 유용하죠?
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 예시 2
 
@@ -137,7 +209,18 @@ fig.show()
 
 ![transactions](/assets/img/2024-06-20-AppliedstatsprobabilitydistributionsBinomial_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 거래에 대한 데이터를 모두 가정한다면, 사기 및 비 사기의 각각의 발생 확률은 다음과 같습니다:
 
@@ -153,21 +236,42 @@ print('사기 확률은:', 사기의 확률)
 
 이는 각 거래에서 사기를 저지를 확률입니다. 불균형은 예상대로 발생하며, 우리는 훨씬 더 많은 합법적인 거래를 가지고 있습니다. 중요한 점은 은행에서 많은 일일 거래가 있고 분명 그 중 하나는 사기일 것이라는 것입니다. 이 은행의 평균 일일 거래를 확인해봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-20-AppliedstatsprobabilitydistributionsBinomial_5.png" />
 
 ```js
-mean_transactions_per_day = transactions_per_day.mean()
-print("평균 거래 횟수(하루):", 
-  round(mean_transactions_per_day, 0))
+mean_transactions_per_day = transactions_per_day.mean();
+print("평균 거래 횟수(하루):", round(mean_transactions_per_day, 0));
 ```
 
 <img src="/assets/img/2024-06-20-AppliedstatsprobabilitydistributionsBinomial_6.png" />
 
 이제 가장 중요한 부분으로 들어가 봅시다. 이제 비즈니스 문제를 활용하여 궁금증에 답할 수 있습니다. 예를 들어, 50번의 시도에서 1, 2, 3, ... 50건의 사기 사례를 발견할 확률은 얼마인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 ## 파이썬을 사용하여 확률 분포 그래프 그리기
@@ -197,11 +301,22 @@ fig.show()
 그리고 한 가지 더 예시를 드리면:
 
 ```js
-print(f'3333번 시도 중 200번 이상 사기가 발생할 확률은:', 
+print(f'3333번 시도 중 200번 이상 사기가 발생할 확률은:',
               binom.sf(200, 3333, 0.05))
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-20-AppliedstatsprobabilitydistributionsBinomial_8.png" />
 
@@ -211,6 +326,17 @@ print(f'3333번 시도 중 200번 이상 사기가 발생할 확률은:',
 
 Wheelan, Charles. Naked Statistics: Stripping the Dread from the Data. W.W. Norton & Company, 2013.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Spiegelhalter, David. The Art of Statistics: How to Learn from Data. Basic Books, 2019.

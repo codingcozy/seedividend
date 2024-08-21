@@ -3,17 +3,13 @@ title: "자바스크립트 파일에서 버그 찾는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Hunting JavaScript File for Bug Hunters"
 link: "https://medium.com/stackademic/hunting-javascript-file-for-bug-hunters-e8b278a1306a"
 isUpdated: true
 ---
-
-
-
-
 
 안녕하세요,
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ## 웹 개발에서 JavaScript의 중요성에 대한 몇 가지 핵심 측면:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1. 상호 작용성: JavaScript는 웹 페이지를 사용하기 즐겁게 만드는 마법봉 같은 존재입니다. 개발자들이 멋진 이미지 슬라이드 쇼, 팝업 상자, 그리고 툴팁과 같은 것들을 만들 수 있게 해줍니다. 무언가를 클릭하면 전체 페이지를 새로 고치지 않고 응답을 받을 수 있어요.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 우리의 회사에서 JavaScript가 여러 곳에 널리 사용되고 있음이 분명해졌습니다. 보안 전문가들은 항상 시스템이나 특정 기술의 약점을 찾거나 응용 프로그램의 흐름을 분석하고 공개적인 취약점을 발견하는 등 자신들이 예전에 했던 여러 작업들을 합니다. 그러므로 JavaScript가 어떻게 우리의 침투 테스트 프로세스에서 활용될 수 있는지 자세히 살펴볼게요. 잠시 우리의 JavaScript 요구 사항에 대해 논해보죠. 수동 및 자동 방법을 모두 사용하여 수집하고 가능한 취약점을 식별하기 위해 도구를 활용하는 방법에 대해 이야기해보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 우리가 JavaScript에서 찾고 있는 것:
 
@@ -46,7 +64,18 @@ isUpdated: true
 
 웹 브라우저에서 웹 페이지를 마우스 오른쪽 버튼으로 클릭하고 "페이지 소스 보기" 또는 "검사"를 선택하세요. 이렇게 하면 개발자 도구가 열리고 HTML 소스 코드를 탐색할 수 있습니다. HTML 파일 내에서 JavaScript 참조를 찾아보세요. 이는 일반적으로 'script' 태그를 사용하여 포함됩니다. 이러한 참조를 클릭하여 JavaScript 코드를 볼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가끔 개발자들은 실수로 비밀번호나 API 키와 같은 민감한 데이터를 클라이언트 측 JavaScript 코드에 직접 포함시킬 때가 있습니다. JavaScript 코드 내에서 이 정보를 감지하는 것은 JavaScript 프로그래밍에 대한 폭넓은 배경 지식이 필요하다거나 많은 경험을 요구하지는 않습니다.
 
@@ -56,7 +85,18 @@ Burp 프록시를 설정하고 백그라운드에서 실행 중인지 확인하�
 
 <img src="/assets/img/HuntingJavaScriptFileforBugHunters_1.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/HuntingJavaScriptFileforBugHunters_2.png" />
 
@@ -66,7 +106,18 @@ Burp 프록시를 설정하고 백그라운드에서 실행 중인지 확인하�
 
 명령어: wget -P jsfiles -i link.txt
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - wget 명령어는 HTTP 및 FTP 프로토콜을 사용하여 웹에서 파일을 검색할 수 있는 명령어입니다.
 - -P 옵션은 파일을 저장할 다른 디렉토리를 지정합니다.
@@ -78,7 +129,18 @@ Burp 프록시를 설정하고 백그라운드에서 실행 중인지 확인하�
 
 만일 민감한 토큰이나 키를 발견한다면, 아래 저장소를 사용하여 공격을 더 진행할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 https://github.com/streaak/keyhacks
 
@@ -92,7 +154,18 @@ https://github.com/streaak/keyhacks
 - Subjs: https://github.com/lc/subjs
 - Nuclei: https://github.com/projectdiscovery/nuclei
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신의 시스템에 해당 코드를 bash 파일에 저장해주세요. "target.txt" 파일에는 대상 도메인이 포함되어 있습니다.
 
@@ -105,7 +178,18 @@ cat target.txt | gau | grep ".js" | tee js.txt
 cat target.txt | waybackurls | grep ".js" | tee -a js.txt
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 명령어는 target.txt 파일의 내용을 읽어와 subjs 및 httpx 도구로 URL을 추출하고, .js를 포함하는 URL만 필터링하기 위해 grep에 파이프를 연결한 후 결과를 js.txt 파일에 작성하기 위해 tee에 파이프를 연결합니다.
 
@@ -119,7 +203,18 @@ cat target.txt | subjs | httpx -mc 200 | tee -a js.txt
 nuclei -l js.txt -t /root/nuclei-templates/http/exposures/ -o js_bugs.txt
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 명령은 /root/nuclei-templates/http/exposures/ 디렉토리에 위치한 템플릿을 사용하여 js.txt 파일에 저장된 JavaScript 파일을 취약점을 스캔하는 nuclei 도구를 사용합니다. 스캔 결과는 js_bugs.txt 파일에 저장됩니다.
 
@@ -131,7 +226,18 @@ Mantra: https://github.com/MrEmpy/mantra
 cat js.txt | Mantra
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/HuntingJavaScriptFileforBugHunters_5.png)
 
@@ -141,7 +247,18 @@ Secret Finder: https://github.com/m4ll0k/SecretFinder
 
 ![이미지](/assets/img/HuntingJavaScriptFileforBugHunters_6.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - cat js.txt: 이 명령어는 대상의 모든 js 파일을 포함하는 js.txt 파일의 내용을 읽습니다.
 - while read url;do python3 SecretFinder.py -i $url -o cli ; done: 이 명령어는 while 루프를 사용하여 js.txt 파일에서 각 URL을 읽고 Secret Finder 도구에 연결합니다. -i 플래그는 입력 파일을 지정하고, -o cli 플래그는 결과를 명령행에 작성해야 함을 나타냅니다. 각 스캔 결과는 명령행에 표시됩니다.
@@ -153,7 +270,18 @@ Secret Finder: https://github.com/m4ll0k/SecretFinder
 
 ## JSFScan.sh
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 JSFScan.sh은 버그 바운티에서 JavaScript recon을 자동화하는 데 사용되는 도구입니다. 이 도구는 JS 파일을 추출하고 일부 민감한 키워드, 엔드포인트, 비밀, 워드리스트, 변수 등을 수집된 JS 파일에서 추출합니다. 이 도구에 대한 자세한 정보는 다음 블로그를 참조하세요: https://kathanp19.medium.com/beginners-guide-on-how-you-can-use-javascript-in-bugbounty-492f6eb1f9ea
 
@@ -168,7 +296,18 @@ bash JSFScan.sh -l target -all -r -o result.ru
 - -r: 또 다른 옵션으로, 더 많은 정보 없이는 해당 옵션이 무엇을 하는지 명확하지 않습니다.
 - -o result.ru: 스캔 결과를 저장할 출력 파일인 "result.ru"를 지정하는 옵션인 것 같습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/HuntingJavaScriptFileforBugHunters_9.png" />
 
@@ -178,7 +317,18 @@ bash JSFScan.sh -l target -all -r -o result.ru
 
 이 기사는 침투 테스트 중 시간을 절약하고 이 분야에서 JavaScript의 중요성을 이해하는 데 도움을 주기 위해 작성되었습니다. 우리는 이 기사가 침투 테스트 중 시간을 최적화하고 JavaScript의 중요한 역할을 강조하는 데 도움이 되기를 기대합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 내용을 읽어주셔서 감사합니다!
 
@@ -188,4 +338,15 @@ LinkedIn: https://www.linkedin.com/in/vivek-ghinaiya-b3b560202/
 
 Website: https://vivekghinaiya.github.io/about/
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

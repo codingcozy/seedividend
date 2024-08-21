@@ -3,15 +3,13 @@ title: "React에서 간단한 캐러셀 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-HowtoBuildaSimpleCarouselinReact_0.png"
 date: 2024-07-09 18:43
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-HowtoBuildaSimpleCarouselinReact_0.png
 tag: Tech
 originalTitle: "How to Build a Simple Carousel in React"
 link: "https://medium.com/bitsrc/simple-carousel-in-react-2aac73887243"
 isUpdated: true
 ---
-
-
 
 최근 프로젝트에서 제공되는 서비스를 쇼케이스하기 위해 캐러셀을 구현해야 했어요.
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 내 프로젝트에 맞는 간단한 캐러셀을 직접 만들어 사용하는 거예요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Carousel Step 1](/assets/img/2024-07-09-HowtoBuildaSimpleCarouselinReact_0.png)
 
@@ -31,7 +40,18 @@ isUpdated: true
 
 ![Carousel Step 2](/assets/img/2024-07-09-HowtoBuildaSimpleCarouselinReact_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기본적인 캐러셀 구조를 만들었으니 이제 CSS의 힘을 빌려 멋있게(약간) 꾸밀 때입니다. carousel 클래스는 부모 요소에 바운드를 설정하고 .carousel-item은 캐러셀 안에 표시될 항목에 대한 스타일을 설정합니다. 캐로셀의 동작을 조금 덜 지루하게 만들기 위해 transition 속성을 사용했어요.
 
@@ -41,7 +61,18 @@ isUpdated: true
 
 이제 구성 요소가 정적으로 완료되었으니, 이것이 수행해야 할 일을 실제로 수행하도록 넘어갈 차례입니다. 이 컴포넌트를 만드는 두 가지 방법이 있었는데요 — 캐러셀 블록 양쪽에 수동으로 항목을 변경하는 다음 및 이전 버튼을 두는 방법 또는 루프에서 계속 타일을 변경하도록 만드는 것입니다. 저는 두 번째 옵션을 선택했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 구성요소를 테스트하기 위해 문자열 배열을 선언했습니다 — const data = [“1”, “2”, “3”, “4”]. 이들이 내 캐러셀 항목이 될 것입니다. 그 다음으로, 캐러셀 항목의 인덱스를 관리하기 위해 상태(state)를 사용했습니다. 이를 위해 다음과 같이 선언했습니다. 기본 상태는 0입니다: const [currentIndex, setCurrentIndex] = useState(0).
 
@@ -51,7 +82,18 @@ isUpdated: true
 
 currentIndex를 처리하기 위해, 3초 간격으로 실행될 함수를 만들었고(이는 캐러셀 항목이 다음 항목으로 이동하기 전에 얼마나 오래 표시될지를 결정할 것입니다), 이 함수를 useEffect() 내에서 호출했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 useEffect()을 사용할 때 주의할 점은 부수 효과를 다루는 것입니다. 구독이 있기 때문에 컴포넌트가 언마운트되면 부수 효과를 처리해줄 클린업 함수도 작성해야 합니다.
 
@@ -61,7 +103,18 @@ useEffect()을 사용할 때 주의할 점은 부수 효과를 다루는 것입�
 
 카루셀 항목과 카루셀 컨테이너가 준비되었으니, 이제 마지막 단계로 모든 조각들을 함께 조립하여 카루셀을 만들어 보겠습니다. 사용 중인 더미 데이터가 있기 때문에 간단히 array.map() 메서드를 사용하여 화면에 렌더링하는 것이 간단했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 내가 원했던 대로 동작하는 컴포넌트가 마침내 완성되었습니다. 원하는 것을 표시하는 간단한 캐로셀입니다. h1 태그를 컴포넌트, 이미지 또는 다른 것으로 쉽게 변경할 수 있습니다. 그런 다음 해당 CSS를 조정하면 됩니다.
 
@@ -71,7 +124,18 @@ useEffect()을 사용할 때 주의할 점은 부수 효과를 다루는 것입�
 
 더 알아보기:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 작은 단계별 React 컴포넌트 빌딩을 즐겼길 바라요.
 
@@ -81,7 +145,18 @@ useEffect()을 사용할 때 주의할 점은 부수 효과를 다루는 것입�
 
 <img src="/assets/img/2024-07-09-HowtoBuildaSimpleCarouselinReact_6.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Bit의 오픈 소스 도구를 사용하면 25만 명 이상의 개발자들이 구성 요소로 앱을 구축할 수 있어요.
 
@@ -91,7 +166,18 @@ Bit의 오픈 소스 도구를 사용하면 25만 명 이상의 개발자들이 
 
 앱을 구성 요소로 분할하여 앱 개발을 쉽게 만들고 원하는 워크플로에 최적화된 최상의 경험을 누려보세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # → 마이크로 프론트엔드
 
@@ -101,6 +187,17 @@ Bit의 오픈 소스 도구를 사용하면 25만 명 이상의 개발자들이 
 
 # → 모노 리포
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 더 많은 정보:

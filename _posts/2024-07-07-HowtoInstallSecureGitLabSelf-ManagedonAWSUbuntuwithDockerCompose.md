@@ -3,16 +3,13 @@ title: "Docker Compose와 함께 AWS Ubuntu에서 안전한 GitLab 셀프 관리
 description: ""
 coverImage: "/assets/img/2024-07-07-HowtoInstallSecureGitLabSelf-ManagedonAWSUbuntuwithDockerCompose_0.png"
 date: 2024-07-07 03:20
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-HowtoInstallSecureGitLabSelf-ManagedonAWSUbuntuwithDockerCompose_0.png
 tag: Tech
 originalTitle: "How to Install Secure GitLab Self-Managed on AWS Ubuntu with Docker Compose"
 link: "https://medium.com/@varunmanik1/how-to-install-secure-gitlab-self-managed-on-aws-ubuntu-with-docker-compose-7d61d2264c13"
 isUpdated: true
 ---
-
-
-
 
 HTTPS 설치 (https://varuncloud.shop/users/sign_in)
 
@@ -22,7 +19,18 @@ HTTPS 설치 (https://varuncloud.shop/users/sign_in)
 
 GitLab은 완성된 CI/CD 툴체인을 제공하는 인기 있는 DevOps 플랫폼입니다. 이 안내서에서는 Docker Compose를 사용하여 AWS Ubuntu 서버에 자체 관리 GitLab 인스턴스를 설치하고 HTTPS로 보호하는 단계를 안내하겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 준비 사항
 
@@ -40,8 +48,18 @@ GitLab은 완성된 CI/CD 툴체인을 제공하는 인기 있는 DevOps 플랫�
 - 필요에 따라 인스턴스 세부 정보를 구성하고 저장소를 추가합니다.
 - 다음 수신 규칙을 가진 보안 그룹을 추가합니다:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - HTTP (포트 80)
 - HTTPS (포트 443)
@@ -54,7 +72,18 @@ GitLab은 완성된 CI/CD 툴체인을 제공하는 인기 있는 DevOps 플랫�
 
 # 단계 2: Docker 및 Docker Compose 설치하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 패키지 목록을 업데이트하고 도커를 설치하세요:
 
@@ -72,7 +101,18 @@ sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-
 sudo chmod +x /usr/local/bin/docker-compose
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 단계로 진행하기 전에, 설치를 확인해보세요:
 
@@ -86,7 +126,18 @@ docker-compose --version
 - Freenom 웹사이트에 방문하고 무료 도메인을 등록하세요 (예: example.tk).
 - 등록이 완료되면 DNS 설정을 업데이트하여 EC2 인스턴스의 공개 IP 주소를 가리키도록 하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Step 4: Route 53 설정하기
 
@@ -97,7 +148,18 @@ Route 53에서 호스팅 영역 설정:
 
 DNS 레코드 추가하기:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 도메인을 EC2 인스턴스의 공개 IP 주소로 가리키는 A 레코드를 만드세요.
 - 필요하다면 서브도메인을 위해 CNAME 레코드도 만들 수 있어요.
@@ -111,18 +173,29 @@ mkdir gitlab && cd gitlab
 nano docker-compose.yml
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 구성을 docker-compose.yml에 추가해주세요:
 
 ```yaml
-version: '3.6'
+version: "3.6"
 
 services:
   web:
-    image: 'gitlab/gitlab-ce:nightly'
+    image: "gitlab/gitlab-ce:nightly"
     restart: always
-    hostname: 'varuncloud.shop'
+    hostname: "varuncloud.shop"
     environment:
       GITLAB_OMNIBUS_CONFIG: |
         external_url 'https://varuncloud.shop'
@@ -130,21 +203,32 @@ services:
         nginx['ssl_certificate'] = "/etc/letsencrypt/live/varuncloud.shop/fullchain.pem"
         nginx['ssl_certificate_key'] = "/etc/letsencrypt/live/varuncloud.shop/privkey.pem"
     ports:
-      - '80:80'
-      - '443:443'
+      - "80:80"
+      - "443:443"
     volumes:
-      - '/srv/gitlab/config:/etc/gitlab'
-      - '/srv/gitlab/logs:/var/log/gitlab'
-      - '/srv/gitlab/data:/var/opt/gitlab'
-      - '/etc/letsencrypt:/etc/letsencrypt'
-    shm_size: '512m'
+      - "/srv/gitlab/config:/etc/gitlab"
+      - "/srv/gitlab/logs:/var/log/gitlab"
+      - "/srv/gitlab/data:/var/opt/gitlab"
+      - "/etc/letsencrypt:/etc/letsencrypt"
+    shm_size: "512m"
 ```
 
 # 단계 6: Certbot를 사용하여 SSL 인증서 생성하기
 
 - Certbot 설치하기:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 sudo apt install certbot -y
@@ -161,8 +245,18 @@ sudo certbot certonly --standalone -d varuncloud.shop
 
 # 단계 7: GitLab 실행하기
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - GitLab을 시작하기 위해 Docker Compose를 실행하세요:
 
@@ -174,7 +268,18 @@ docker-compose up -d
 
 - GitLab을 시작하려면 Docker Compose를 실행하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 도커 실행 -it <컨테이너_ID_또는_이름> /bin/bash
@@ -188,7 +293,18 @@ gitlab-rails console
 
 루트 비밀번호 재설정하기:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 user = User.where(id: 1).first
@@ -200,12 +316,23 @@ user.save!
 레일즈 콘솔을 나가려면:
 
 ```js
-exit
+exit;
 ```
 
-URL 접속: 
+URL 접속:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-07-HowtoInstallSecureGitLabSelf-ManagedonAWSUbuntuwithDockerCompose_2.png)
 

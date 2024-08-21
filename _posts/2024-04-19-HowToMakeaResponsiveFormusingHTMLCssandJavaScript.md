@@ -3,17 +3,13 @@ title: "HTML, CSS, 및 JavaScript를 사용하여 반응형 폼을 만드는 방
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How To Make a Responsive Form using HTML, Css and JavaScript"
 link: "https://medium.com/@techloons/how-to-make-a-responsive-form-using-html-css-and-javascript-d2daf84c991d"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/HowToMakeaResponsiveFormusingHTMLCssandJavaScript_0.png" />
 
@@ -23,7 +19,18 @@ HTML, CSS, 그리고 JavaScript를 사용하여 반응형 양식을 만드는 �
 
 # 1. index.html
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <!DOCTYPE html>

@@ -3,15 +3,13 @@ title: "Flask와 코사인 유사도를 이용한 영화 추천 시스템 만들
 description: ""
 coverImage: "/assets/img/2024-07-07-MovieRecommendationSystemUsingFlaskandCosineSimilarity_0.png"
 date: 2024-07-07 12:40
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-MovieRecommendationSystemUsingFlaskandCosineSimilarity_0.png
 tag: Tech
 originalTitle: "Movie Recommendation System Using Flask and Cosine Similarity"
 link: "https://medium.com/@Mehmtcnangn/movie-recommendation-system-using-flask-and-cosine-similarity-f24eb9756ba7"
 isUpdated: true
 ---
-
-
 
 # 프로젝트 목적
 
@@ -29,7 +27,18 @@ isUpdated: true
 - Requests: Python에서 HTTP 요청을 만드는 데 사용되는 인기 라이브러리입니다. 이 프로젝트에서 Requests는 데이터셋을 다운로드하는 데 사용되었습니다.
 - Zipfile: Python의 모듈로 zip 파일을 다루는 데 사용됩니다. 이 프로젝트에서는 다운로드한 데이터셋 zip 파일을 추출하는 데 사용되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 프로젝트 사용 방법
 
@@ -42,7 +51,18 @@ isUpdated: true
 
 프로젝트의 코드와 파일은 제 Github 링크에서 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 프로젝트 설명
 
@@ -52,7 +72,18 @@ isUpdated: true
 
 download_and_extract_data라는 함수를 작성하여 데이터 세트를 다운로드하고 압축 해제해봅시다. Pandas를 사용하여 다운로드한 데이터를 ratings.csv 및 movies.csv 파일로 읽어봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 복사된 테이블입니다.이제 해당 평균평점을 영화 데이터셋에 `avg_rating` 열로 추가하세요:
 
@@ -60,7 +91,18 @@ download_and_extract_data라는 함수를 작성하여 데이터 세트를 다�
 
 이제 함수를 사용할 행렬을 생성해보죠. 행 인덱스로 `userId`, 열로 `movieId`, 값으로 `rating`을 사용하여 각 사용자가 각 영화에 부여한 평점을 추가하세요. 마지막으로, 널 값은 `0`으로 대체하는 함수를 사용하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Markdown 포맷에 맞게 테이블 태그를 변경해주세요.
 
@@ -72,7 +114,18 @@ Markdown 포맷에 맞게 테이블 태그를 변경해주세요.
 
 유사한 사용자를 찾는 함수를 작성하세요. 특정 사용자에 대해 유사성 값을 가져와 내림차순으로 정렬하세요. 가장 높은 유사도 값을 가진 상위 num_users (기본값 5) 사용자를 선택하고 반환하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-07-MovieRecommendationSystemUsingFlaskandCosineSimilarity_5.png" />
 
@@ -82,7 +135,18 @@ Markdown 포맷에 맞게 테이블 태그를 변경해주세요.
 
 추천 영화를 유사한 평점에서 가장 높은 것부터 낮은 것 순으로 정렬하고, 상위 num_recommendations (기본값 5) 개의 영화를 선택합니다. 추천 영화 ID와 평균 평점을 반환하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 사용할 HTML 부분을 준비하세요. 먼저 데코레이터를 작성하고 홈페이지에서 `GET` 및 `POST` 요청을 처리하는 `index` 함수를 정의하세요.
 
@@ -90,7 +154,18 @@ Markdown 포맷에 맞게 테이블 태그를 변경해주세요.
 
 <img src="/assets/img/2024-07-07-MovieRecommendationSystemUsingFlaskandCosineSimilarity_7.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **GET**과 **POST** 방식을 다루기 위해 if-else를 사용해 봅시다. 만약 요청이 **POST** 방식일 경우, 코드는 이 블록 내에서 실행됩니다. 사용자로부터 데이터를 받아 **user_id**를 정수로 변환하세요. 만약 사용자 ID가 사용자-영화 매트릭스에 없다면, 오류 메시지를 설정하세요:
 
@@ -100,7 +175,18 @@ Markdown 포맷에 맞게 테이블 태그를 변경해주세요.
 
 ![image](/assets/img/2024-07-07-MovieRecommendationSystemUsingFlaskandCosineSimilarity_9.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 사용자의 ID가 정수로 변환되지 않는다면(올바르지 않은 입력), 이 블록이 실행됩니다. "유효한 사용자 ID를 입력하세요."라는 오류 메시지가 설정됩니다.
 
@@ -110,7 +196,18 @@ Markdown 포맷에 맞게 테이블 태그를 변경해주세요.
 
 마지막으로, Flask 애플리케이션을 직접 실행하세요(app.run(debug=True)). 이렇게 하면 로컬 웹 서버가 실행됩니다. 애플리케이션이 실행 중일 때 변경 사항이 감지되면 서버가 다시 시작됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-07-MovieRecommendationSystemUsingFlaskandCosineSimilarity_11.png)
 
@@ -120,7 +217,18 @@ Markdown 포맷에 맞게 테이블 태그를 변경해주세요.
 
 ![이미지](/assets/img/2024-07-07-MovieRecommendationSystemUsingFlaskandCosineSimilarity_12.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - `meta charset="UTF-8"`은 문서의 문자 집합을 UTF-8로 설정합니다.
 - `meta name="viewport" content="width=device-width, initial-scale=1.0"`은 페이지가 모바일 장치에서 올바르게 표시되도록 합니다.
@@ -134,7 +242,18 @@ Markdown 포맷에 맞게 테이블 태그를 변경해주세요.
 
 <img src="/assets/img/2024-07-07-MovieRecommendationSystemUsingFlaskandCosineSimilarity_13.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - `div class="container"`은 콘텐츠를 컨테이너로 감싸줍니다. 스타일 시트에서 이 컨테이너를 위한 특별한 스타일을 정의할 수 있어요.
 - `h1`Movie Recommendation System`/h1`은 페이지의 주요 제목을 정의합니다.
@@ -154,7 +273,18 @@ Markdown 포맷에 맞게 테이블 태그를 변경해주세요.
 
 body 부분은 페이지의 일반적인 스타일을 정의합니다. 폰트, 배경 색 및 이미지, 텍스트 색상 및 줄 간격을 설정합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-07-MovieRecommendationSystemUsingFlaskandCosineSimilarity_15.png)
 
@@ -164,7 +294,18 @@ body 부분은 페이지의 일반적인 스타일을 정의합니다. 폰트, �
 
 h1 및 h2 부분은 제목을 스타일링합니다. 색상, 글꼴 크기, 정렬 및 여백을 설정합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![캡션](/assets/img/2024-07-07-MovieRecommendationSystemUsingFlaskandCosineSimilarity_17.png)
 
@@ -179,7 +320,18 @@ h1 및 h2 부분은 제목을 스타일링합니다. 색상, 글꼴 크기, 정�
 - li(홀수) 부분은 홀수 번째 목록 항목을 다른 배경색으로 설정합니다.
 - li span 부분은 목록 항목 내의 텍스트의 글꼴 크기와 색상을 설정합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-07-07-MovieRecommendationSystemUsingFlaskandCosineSimilarity_19.png)
 
@@ -192,7 +344,18 @@ The .error-message section defines color, font size, alignment, and bottom margi
 - The form section makes the form full width.
 - The label, input, and button sections set their widths to full width and adjust the bottom margins.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인터넷에서 쉽게 CSS 부분에 필요한 색상 코드를 찾아볼 수 있어요.
 
@@ -202,7 +365,18 @@ The .error-message section defines color, font size, alignment, and bottom margi
 
 ![이미지 2](/assets/img/2024-07-07-MovieRecommendationSystemUsingFlaskandCosineSimilarity_22.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 프로젝트 평가
 

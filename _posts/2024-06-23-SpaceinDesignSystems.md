@@ -3,16 +3,13 @@ title: "디자인 시스템에서 공간 활용하는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-23-SpaceinDesignSystems_0.png"
 date: 2024-06-23 14:20
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-SpaceinDesignSystems_0.png
 tag: Tech
 originalTitle: "Space in Design Systems"
 link: "https://medium.com/eightshapes-llc/space-in-design-systems-188bcbae0d62"
 isUpdated: true
 ---
-
-
-
 
 ## 기본 개념부터 공간을 의도적으로 적용하는 확장 컨셉으로
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 공간은 어디에나 존재합니다. CSS는 패딩, 마진, 절대 위치 지정의 좌측, 우측, 상단 및 하단과 같은 속성을 사용하여 객체를 분리합니다. 부트스트랩, Salesforce Lightning, Foundation, 이전 프로젝트 및 현재 프로젝트라는 다섯 개의 라이브러리에서, 이런 공간 속성이 색, 크기, 타입, 레이아웃 및 기타 속성 그룹에 비해 얼마나 자주 나타나는지 비교해보았습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS에서 이미 결정 시스템을 제공하고 있는 영향(예:0으로 지정된 값 또는 투명 또는 자동과 같은 예약 용어)을 제거한 후, 공간 규칙은 색상을 제외하고 다른 모든 것보다 더 많이 나타났습니다. 다른 것들은 전혀 아니었습니다. 글꼴, 크기, 레이아웃 등이 가까이에 있었던 적도 없었습니다. 우리 라이브러리에는 공간에 내재된 복잡성이 너무 많이 포함되어 있습니다. 그랬다고 하지도 않아도 제품에 어디에큐브의 공간적 복잡성은 너무 많이 포함되어 있습니다ㅠ
 
@@ -32,7 +40,18 @@ CSS에서 이미 결정 시스템을 제공하고 있는 영향(예:0으로 지�
 
 비용이 막대합니다: 주석 달기, 번역하기, QA 중에 시각적으로 정제된 내용을 논의하기. 그 모든 작업... 여전히 충분하지 않은 것을 위해. 따라서 공간은 감정적인 대가를 냅니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 공간 개념은 기본적이에요
 
@@ -42,7 +61,18 @@ CSS에서 이미 결정 시스템을 제공하고 있는 영향(예:0으로 지�
 
 # 공간 기본 원리
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 그리드 ≠ 공간. 그리드는 컴포넌트이며, 공간을 활용합니다.
 
@@ -52,7 +82,18 @@ CSS에서 이미 결정 시스템을 제공하고 있는 영향(예:0으로 지�
 
 결론: 그리드를 활용하여 공간 규칙을 도입하지만 거기서 멈추지 마십시오. 그리드의 여백, 거터 및 열 값은 전체 컴포넌트 라이브러리에 깊게 섞인 더 깊은 공간 개념과 일치시킵니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 기억에 남는 기본 숫자 선택하기 & 기대치 설정하기
 
@@ -62,7 +103,18 @@ CSS에서 이미 결정 시스템을 제공하고 있는 영향(예:0으로 지�
 
 요점: 기억에 남는 기본 숫자를 선택하여 공간 시스템의 범위를 설정하고 사용 방법에 대한 기대치를 제한하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 비선형적인 비율 조정 옵션
 
@@ -72,8 +124,18 @@ CSS에서 이미 결정 시스템을 제공하고 있는 영향(예:0으로 지�
 
 대안은 비선형적입니다. 선택지로는 황금 비율, 모듈러 척도 또는 각 단계를 두배씩 증가시킬 수 있는 비슷한 기하급수가 있습니다. 기본부터 시작하여 작은 중지점(16, 8, 4, 2)과 큰 중지점(16, 32, 64, 그리고... 여기서 마무리)으로 갈 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Space in Design Systems](/assets/img/2024-06-23-SpaceinDesignSystems_1.png)
 
@@ -83,8 +145,18 @@ CSS에서 이미 결정 시스템을 제공하고 있는 영향(예:0으로 지�
 
 저는 Gmail의 Compact, Cozy, Comfortable 스페이스 토글을 좋아합니다. 그래서 우리의 공간 시스템을 만들 때 나는 우리의 작업에서 그 레이블을 사용하는 것을 제안했습니다. 곧바로 팀원 한 명이 나를 도전했습니다: "다른 단계를 뭐라고 부르면 좋을까?" 제 정찬, 작고, 그리고 호화로운 옵션들은 통과하지 못했습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![SpaceinDesignSystems_2](/assets/img/2024-06-23-SpaceinDesignSystems_2.png)
 
@@ -94,7 +166,18 @@ CSS에서 이미 결정 시스템을 제공하고 있는 영향(예:0으로 지�
 
 많은 라이브러리를 검토하고 많은 디자이너들과 이야기를 나눠봤어요. 기본 숫자와 명명된 척도에 대한 간단한 관례가 대화의 종착점인 곳이었어요. 이 몇 가지 옵션은 간단하지만, 여전히 공간을 사용하는 데 있어서 약간 무작위한 느낌이 들었어요. 그래서 더 필요했어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 공간을 위한 어휘 확장
 
@@ -104,8 +187,18 @@ CSS에서 이미 결정 시스템을 제공하고 있는 영향(예:0으로 지�
 
 프론트엔드 개발자로써, 저는 모든 요소 상자들을 시각화하여 요소를 서로 맞춰 보는 것을 상상합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-23-SpaceinDesignSystems_4.png)
 
@@ -115,8 +208,18 @@ CSS에서 이미 결정 시스템을 제공하고 있는 영향(예:0으로 지�
 
 이 개념들 - 삽입, 삽입 압축, 삽입 늘이기, 쌓기, 인라인, 그리드 - 은 우리 라이브러리의 대부분의 CSS 규칙을 다룹니다: 패딩, 마진, 왼쪽, 오른쪽, 위, 아래. 또한 이러한 개념들은 각 원자 별로 독립적이며, 합성성을 향상시킵니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Concept 1: (Square) Inset
 
@@ -126,8 +229,18 @@ CSS에서 이미 결정 시스템을 제공하고 있는 영향(예:0으로 지�
 
 말머리 클릭을 하여 더 읽기! 안 눌러미세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Screenshot](/assets/img/2024-06-23-SpaceinDesignSystems_7.png)
 
@@ -137,8 +250,18 @@ A squished inset reduces space top and bottom, in our case by 50%. While less co
 
 ![Screenshot](/assets/img/2024-06-23-SpaceinDesignSystems_8.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 개념 3: 스트레치 인셋
 
@@ -148,7 +271,18 @@ A squished inset reduces space top and bottom, in our case by 50%. While less co
 
 ## 개념 4: 스택
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 수평 스크롤 UI에 대한 존경을 표합니다. 압도적인 대다수는 수직으로 스크롤합니다. 이것은 한 가지를 의미합니다: 우리는 여러 가지를 쌓습니다. 메시지를 헤딩 위에 데이터 테이블에 쌓습니다. 레일즈에서 모듈을 쌓습니다. 카드 안에 총 데이터, 항목 및 도구 모두를 그리드에 각각 쌓습니다. 참나, 무한 스크롤은 무한하게 쌓이는 것을 의미합니다! 우리는 쌓고 쌓고 쌓습니다.
 
@@ -158,10 +292,20 @@ A squished inset reduces space top and bottom, in our case by 50%. While less co
 
 우리는 객체를 인라인으로 배열하기도 합니다. 흘러가는 것처럼 좌측 또는 우측에서 텍스트처럼 흘러가는 대로 포장합니다. 피맛으로, 태그, 경로, 그리고 더 많은 것과 같은 객체들은 독립적으로 서있을 수도 있고, 다른 객체들과 함께 쌓이고 섞일 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지 태그를 Markdown 형식으로 변경해보세요.
-
 
 ![SpaceinDesignSystems](/assets/img/2024-06-23-SpaceinDesignSystems_11.png)
 
@@ -171,8 +315,18 @@ A squished inset reduces space top and bottom, in our case by 50%. While less co
 
 그래서, 카드 컴포넌트에 적용되는 경우, 스타일이 적용된 패딩과 여백은 다음과 같이 보일 수 있습니다:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 배운 내용
 
@@ -182,8 +336,18 @@ A squished inset reduces space top and bottom, in our case by 50%. While less co
 
 대부분의 협력자들은 공간을 볼 수 없습니다. 이것이 임의로 적용되는 이유 중 하나입니다. 그러나 이제 우리는 시스템을 가지고 있습니다: 각각이 제한된 옵션 범위를 제공하는 제한된 개념 수.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-23-SpaceinDesignSystems_12.png)
 
@@ -193,8 +357,18 @@ A squished inset reduces space top and bottom, in our case by 50%. While less co
 
 어리석은 짓은 하지 마세요. 이 여섯 가지 모델이 모든 문제를 해결하는 것은 아닙니다. 때로는 여전히 여기 저기 여백을 조정해야 합니다. 그러므로 더 일반적인 대안(예: $space-m)을 사용하여 더 의도적인 공간 옵션을 따르는 것이 타당합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요약: 일반적인 옵션을 제공하되, 절약해서 사용하고 제품 팀이 사용할 것을 기대합니다. 비판 또는 풀 리퀘스트에 나타나면, 인셋 또는 스택과 같은 더 구체적인 개념을 팀원들에게 교육하세요.
 
@@ -204,7 +378,18 @@ A squished inset reduces space top and bottom, in our case by 50%. While less co
 
 요약: 속성 이름에서 개념을 분리하세요. 여러 개의 개념이 하나로 제한될 뿐만 아니라 특정 플랫폼에서만 재사용 가능합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 충돌을 체계적으로 해결하고 줄 간격 시스템
 
@@ -214,7 +399,18 @@ A squished inset reduces space top and bottom, in our case by 50%. While less co
 
 그러나 우리는 아이디어의 발전을 따라가며 (@kevinmpowell의 “의사 요소를 사용하여 공간을 음수 여백하자! 그러나 얼마나?”) 일부 수학을 활용했습니다(내 대학 학위를 활용할 수 있게!). 결과적으로, 글꼴 크기와 줄 높이를 결합한 믹스인 공식이 타입 간격을 줄이고 충돌하는 객체 위와 아래의 공간을 축소시키는 것이었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 포기하지 마세요. 예외 때문에 체계적인 명확성을 방치하지 마세요. 문제를 해결해 보세요. 이러한 세세한 사항을 극복할 수 있다면, CSS요령을 사용하여도 단순한 개념을 전달할 수 있다는 것을 기억하세요.
 
@@ -224,7 +420,18 @@ inset, stack 및 grid와 같은 개념을 사용하여 밀도 조절 다이얼�
 
 ![SpaceinDesignSystems_14](/assets/img/2024-06-23-SpaceinDesignSystems_14.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요약: 약간 원시적인 옵션 세트로 심도를 조절할 수 있습니다. 이 옵션이 없으면 밀도 제어는 꿈일 뿐입니다. 그러나 이 옵션들이 있다면, 의도를 갖고 공간을 찾아 조정하고 조절할 수 있는 강력한 엔진을 점차적으로 구축할 수 있습니다. 이는 위험을 줄이고 클라이언트에게 좋은 의도를 갖고 디자인을 할 수 있게 해줍니다.
 

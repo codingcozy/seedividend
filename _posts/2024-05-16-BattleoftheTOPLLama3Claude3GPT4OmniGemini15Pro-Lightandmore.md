@@ -3,16 +3,13 @@ title: "전문 블로그 포스트 스타일로 해석하면 다음과 같습니
 description: ""
 coverImage: "/assets/img/2024-05-16-BattleoftheTOPLLama3Claude3GPT4OmniGemini15Pro-Lightandmore_0.png"
 date: 2024-05-16 17:33
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-16-BattleoftheTOPLLama3Claude3GPT4OmniGemini15Pro-Lightandmore_0.png
 tag: Tech
 originalTitle: "Battle of the TOP — LLama 3, Claude 3, GPT4 Omni, Gemini 1.5 Pro-Light and more"
 link: "https://medium.com/@daniellefranca96/battle-of-the-top-llama-3-claude-3-gpt4-omni-gemini-1-5-pro-light-and-more-3ff560cf6b58"
 isUpdated: true
 ---
-
-
-
 
 모든 것이 적어도 다음 순간까지 조용해 보였으니, 최신 TOP 모델들을 다중 모달리티, 능력, 맥락, 성능 및 가격을 고려하여 비교해봅시다.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 지금은 이미지가 상용 모델에서 흔하지만 LLama 3를 제외한 모든 모델이 이미지를 가지고 있습니다 (META는 올해 후반에 다중 모달 런치를 약속했습니다).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 금니 1.5 버전과 GPT 4 Omni는 오디오 및 비디오(어떤 면에서는 그 스냅샷)를 처리할 수 있는 기능으로 눈에 띕니다.
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-05-16-BattleoftheTOPLLama3Claude3GPT4OmniGemini15Pro-Lightandmore_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 우리는 베타 테스팅을 위해 2M 토큰을 갖춘 Gemini와 나중에 전체 릴리즈를 위한 큰 컨텍스트 창을 갖추었습니다. Claude 3는 1M으로 따르며, GPT 4는 128K로 진행했고, LLama는 8K로 증가했습니다.
 
@@ -42,7 +61,18 @@ isUpdated: true
 
 ## 텍스트
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-05-16-BattleoftheTOPLLama3Claude3GPT4OmniGemini15Pro-Lightandmore_2.png" />
 
@@ -52,10 +82,20 @@ isUpdated: true
 
 ## 비전
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 테이블로 변환된 내용입니다.
-
 
 ![](/assets/img/2024-05-16-BattleoftheTOPLLama3Claude3GPT4OmniGemini15Pro-Lightandmore_3.png)
 
@@ -65,8 +105,18 @@ isUpdated: true
 
 ![](/assets/img/2024-05-16-BattleoftheTOPLLama3Claude3GPT4OmniGemini15Pro-Lightandmore_4.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 목록은 이러한 모델들의 가격을 나타냅니다. 오늘날 GPT4 Omni는 다른 모델들과 비교하여 독특한 능력을 갖고 있지 않지만 GPT 4 Turbo보다 빠른 버전으로, 시각에 대해서는 Gemini 1.5 및 Claude 3의 대안이 있고 텍스트에 대해서는 해당하는 모든 것이 있습니다.
 
@@ -76,7 +126,18 @@ GPT 4 Omni는 아직 매우 비싸다는 것을 알 수 있습니다. 단지 Cla
 
 이 데이터 컴필레이션이 솔루션에 대해 더 나은 성능 대비 비용 모델을 선택하는 데 도움이 되기를 바랍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최근 오픈 소스 모델의 벤치마크를 비교할 계획입니다.
 

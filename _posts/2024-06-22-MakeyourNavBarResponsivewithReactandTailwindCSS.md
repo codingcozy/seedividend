@@ -3,7 +3,7 @@ title: "React와 TailwindCSS로 반응형 NavBar 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-22-MakeyourNavBarResponsivewithReactandTailwindCSS_0.png"
 date: 2024-06-22 05:04
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-MakeyourNavBarResponsivewithReactandTailwindCSS_0.png
 tag: Tech
 originalTitle: "Make your NavBar Responsive with React and TailwindCSS"
@@ -11,10 +11,7 @@ link: "https://medium.com/@egemenc2101/make-your-navbar-responsive-with-react-an
 isUpdated: true
 ---
 
-
-
-
-현재의 모바일 중심 세상에서는 반응형 디자인을 만들고 이를 구현하는 것이 모든 기기에서 원활한 사용자 경험을 제공하는 데 필수적입니다. 
+현재의 모바일 중심 세상에서는 반응형 디자인을 만들고 이를 구현하는 것이 모든 기기에서 원활한 사용자 경험을 제공하는 데 필수적입니다.
 오늘은 내비게이션 바에 반응 형성을 어떻게 구현할 수 있는지에 대해 이야기하겠습니다.
 
 1- NavBar.tsx 라는 컴포넌트를 생성하세요 (이 튜토리얼에서 TypeScript를 사용할 것입니다).
@@ -48,7 +45,18 @@ isUpdated: true
       </div>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 코드에서, nav 태그에는 단순히 (flex items-center justify-between)인 flexBetween 특수 css 클래스가 있습니다. 이 컨테이너의 첫 번째 아이템은 로고이고, 그 다음은 웹 사이트 루트로의 내비게이션 링크가 있는 비순서 목록이며, 마지막으로 버튼이 있습니다.
 
@@ -59,7 +67,18 @@ isUpdated: true
 
 ![해당 이미지](/assets/img/2024-06-22-MakeyourNavBarResponsivewithReactandTailwindCSS_0.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러면 작은 화면용 내비게이션을 넣기 위해 이 버튼이 클릭될 때 언제 체크해야 합니다.
 그를 위해:
@@ -67,10 +86,10 @@ isUpdated: true
 ```js
 const [isOpen, setIsOpen] = useState(false);
 const changeIsOpen = () => {
- setIsOpen(!isOpen);
+  setIsOpen(!isOpen);
 };
 useEffect(() => {
- console.log(isOpen);
+  console.log(isOpen);
 }, [isOpen]);
 ```
 
@@ -78,11 +97,22 @@ useEffect(() => {
 
 ```js
 useEffect(() => {
- console.log(isOpen);
+  console.log(isOpen);
 }, [isOpen]);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4- IsOpen 변수 및 changeIsOpen 함수 사용하기
 
@@ -102,19 +132,28 @@ useEffect(() => {
 
 그다음으로 NavSmallScreen 컴포넌트를 만들겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-import {NAV_LINKS} from "@/constants";
+import { NAV_LINKS } from "@/constants";
 import Link from "next/link";
 import Image from "next/image";
 
-function NavSmallScreen({changeIsOpen}: {changeIsOpen: () => void}) {
+function NavSmallScreen({ changeIsOpen }: { changeIsOpen: () => void }) {
   return (
-    <div
-      className="flex flex-col items-center min-w-[70vw] z-[105] p-10 h-full w-full fixed left-0 top-0 opacity-90 bg-black  backdrop-blur-md rounded-lg">
-      <ul
-        className="flex flex-col items-center justify-center gap-10 text-xl h-full ">
+    <div className="flex flex-col items-center min-w-[70vw] z-[105] p-10 h-full w-full fixed left-0 top-0 opacity-90 bg-black  backdrop-blur-md rounded-lg">
+      <ul className="flex flex-col items-center justify-center gap-10 text-xl h-full ">
         {NAV_LINKS.map((link) => (
           <Link
             href={link.href}
@@ -147,7 +186,18 @@ export default NavSmallScreen;
 
 이 게시물을 읽어 주셔서 감사합니다. 여러분의 반응형 목표를 달성하는데 도움이 되었으면 좋겠습니다! 즐거운 하루 되세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 GitHub repository 에서 소스 코드를 확인할 수 있습니다.
 [이 곳](https://github.com/egemenc21/camptraveler/blob/main/components/Navbar.tsx)에서 확인해보세요.

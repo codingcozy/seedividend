@@ -3,17 +3,13 @@ title: "iOS Safari에서 HTML 비디오 문제 해결 방법"
 description: ""
 coverImage: "/assets/img/2024-07-12-HowtofixHTMLvideoissuesiniOSSafari_0.png"
 date: 2024-07-12 19:17
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-12-HowtofixHTMLvideoissuesiniOSSafari_0.png
 tag: Tech
 originalTitle: "How to fix HTML video issues in iOS Safari"
 link: "https://medium.com/@otterlord/how-to-fix-html-video-issues-in-ios-safari-05e180b3a9f1"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/2024-07-12-HowtofixHTMLvideoissuesiniOSSafari_0.png" />
 
@@ -23,8 +19,18 @@ iOS Safari의 HTML 비디오는 Chromium 및 Firefox와 다른 독특한 동작�
 
 비디오 요소에 playsinline 속성을 추가하십시오.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <비디오 autoplay 소리없음 너비="250" playsinline style="사용자 선택:없음;">
@@ -42,7 +48,18 @@ iOS Safari의 HTML 비디오는 Chromium 및 Firefox와 다른 독특한 동작�
 </비디오>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # canplaythrough 트리거가 작동하지 않음
 

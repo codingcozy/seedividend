@@ -3,17 +3,13 @@ title: "파이썬으로 GenAI 사용하기 LLM과 에이전트 비교"
 description: ""
 coverImage: "/assets/img/2024-07-12-GenAIwithPythonLLMvsAgents_0.png"
 date: 2024-07-12 19:31
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-12-GenAIwithPythonLLMvsAgents_0.png
 tag: Tech
 originalTitle: "GenAI with Python: LLM vs Agents"
 link: "https://medium.com/towards-data-science/genai-with-python-llm-vs-agents-5c3de7ec82a7"
 isUpdated: true
 ---
-
-
-
-
 
 ![2024-07-12-GenAIwithPythonLLMvsAgents_0.png](/assets/img/2024-07-12-GenAIwithPythonLLMvsAgents_0.png)
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 일반적으로, 지능형 에이전트는 환경을 인식할 수 있는 충분한 이해력으로 행동하는 존재로, 특정 목표를 달성하기 위해 자율적으로 행동하고 지식을 습득하며(사람과 같이) 개선합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기술 분야에서 AI 에이전트는 작업을 수행하고 결정을 내리며 다른 개체와 통신하는 자율 프로그램입니다. 보통, 에이전트에게는 작업을 완료하는 동안 사용할 수 있는 도구 세트가 제공됩니다. 이 개념은 보상을 극대화하기 위해 정의된 일련의 작업 중에서 선택하는 강화 학습을 확장한 것입니다.
 
@@ -34,7 +40,18 @@ GenAI에서 에이전트는 순차적 추론을 처리하기 위해 설계된 AI
 
 에이전트가 수행할 수 있는 가장 일반적인 작업은:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 대화 - 일반적인 지식 베이스와 대화하는 것을 의미합니다
 - RAG - 문서와 대화하는 것을 의미합니다
@@ -47,7 +64,18 @@ GenAI에서 에이전트는 순차적 추론을 처리하기 위해 설계된 AI
 
 특히 다음을 다룰 것입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 설정: LangChain + CrewAI + DuckDuckGo.
 - LLM: LLM을 사용하여 데이터를 읽고 시각 작업을 수행합니다.
@@ -65,7 +93,18 @@ GenAI에서 에이전트는 순차적 추론을 처리하기 위해 설계된 AI
 - HuggingFace — 첫 번째 LLM 라이브러리이자 모델 저장소입니다.
 - LlamaIndex — Meta의 LLM 라이브러리와 새로운 에이전트 모듈 LLamaAgents가 포함되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LangChain (LLM을 위한)과 CrewAI (에이전트를 위한)의 조합이 매우 사용자 친화적이고 효과적이라고 생각해요.
 
@@ -75,7 +114,7 @@ LangChain (LLM을 위한)과 CrewAI (에이전트를 위한)의 조합이 매우
 !pip install langchain #0.1.20
 !pip install langchain-community #0.0.38
 
-from langchain_community.llms import Ollama 
+from langchain_community.llms import Ollama
 
 llm = Ollama(model="phi3")
 res = llm.invoke(input=["What day is today?"]).split("\n")[0]
@@ -84,14 +123,25 @@ print(res)
 
 ![이미지](/assets/img/2024-07-12-GenAIwithPythonLLMvsAgents_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당연히 언어 모델은 오늘의 날짜를 알 수 없습니다. 답을 얻는 한 가지 방법은 인터넷에서 검색하는 것입니다. Python에서는 유명한 비공개 브라우저 DuckDuckGo를 사용하여 쉽게 할 수 있습니다.
 
 ```python
 !pip install duckduckgo-search #6.1.7
 
-from langchain.tools import DuckDuckGoSearchResults 
+from langchain.tools import DuckDuckGoSearchResults
 
 DuckDuckGoSearchResults().run("오늘은 무슨 요일인가요?")
 ```
@@ -100,7 +150,18 @@ DuckDuckGoSearchResults().run("오늘은 무슨 요일인가요?")
 
 ... 또는 메타데이터 없이 텍스트만 원하면요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 from langchain_community.tools import DuckDuckGoSearchRun
@@ -116,15 +177,25 @@ DuckDuckGoSearchRun().run("What day is today?")
 - 추가 정보를 얻기 위해 도구를 사용해야 합니다.
 - 결과를 LLM을 통해 처리하고 답변을 생성해야 합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 말씀드렸듯이, 어떤 것이든 Tool 객체가 될 수 있으며 CrewAI 라이브러리를 사용하여 함수에 데코레이터를 간단히 추가할 수 있습니다.
 
 ```js
 !pip install "crewai[tools]" #0.4.0
 
-from crewai_tools import tool 
+from crewai_tools import tool
 
 @tool
 def tool_browser(q: str) -> str:
@@ -140,33 +211,53 @@ def tool_browser(q: str) -> str:
 import crewai
 
 agent = crewai.Agent(
-            role="Calendar", 
+            role="Calendar",
             goal="오늘의 요일을 확인하세요",
             backstory="당신은 달력 도우미입니다. 날짜에 관한 정보를 알려줍니다.",
-            tools=[tool_browser], 
+            tools=[tool_browser],
             llm=llm,
             allow_delegation=False, verbose=False)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼, 다시 한 번 목표를 지정하여 Task 객체를 생성해야 합니다.
 
 ```js
-task = crewai.Task(description="오늘은 무슨 요일인지 알아내기",
-                   agent=agent,
-                   expected_output="오늘 날짜")
+task = crewai.Task((description = "오늘은 무슨 요일인지 알아내기"), (agent = agent), (expected_output = "오늘 날짜"));
 ```
 
 마지막으로, 이 경우에는 Agent가 한 명뿐인 Crew를 실행해야 합니다.
 
 ```js
-crew = crewai.Crew(agents=[agent], tasks=[task], verbose=False)
-res = crew.kickoff()
-print(res)
+crew = crewai.Crew((agents = [agent]), (tasks = [task]), (verbose = False));
+res = crew.kickoff();
+print(res);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![GenAIwithPythonLLMvsAgents_5](/assets/img/2024-07-12-GenAIwithPythonLLMvsAgents_5.png)
 
@@ -176,7 +267,18 @@ print(res)
 
 이 수영복 브랜드(White Water Atelier)에서는 AI를 활용한 소셜 미디어 전략을 만들어 달라고 했어요... 에이전트에게 딱 맞는 사례죠. 특히, 인스타그램 포스트 작성 프로세스를 자동화할 거에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, 데이터(이미지)를 읽어봅시다:
 
@@ -197,7 +299,18 @@ for n,file in enumerate(folder):
 
 LLM에게 게시물을 생성하도록 요청하려면(사진 하나를 선택하고 캡션을 작성하도록 하기 위해서), 이미지는 모델이 처리할 수 있도록 문자열로 인코딩되어야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import base64
@@ -222,7 +335,18 @@ print(res)
 
 <img src="/assets/img/2024-07-12-GenAIwithPythonLLMvsAgents_7.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 꽤 잘했어요. LLM이 두 가지 작업을 완료했고 좋은 설명도 추가했어요. 하지만 캡션이 해시태그가 빠져있어 조금 오래된 것 같아요.
 
@@ -237,7 +361,18 @@ def tool_instagram(q: str) -> str:
     return DuckDuckGoSearchRun().run(f"site:instagram.com {q}")
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 과거 에이전트와의 윯 한 가붕, 이번에는 입력 데아터를 전달할 때입니다. 특히, 이미지를 설명하기 위해 비전 LLM을 활용하고 텍스트를 입력으로 사용할 것입네다.
 
@@ -256,17 +391,28 @@ print(des)
 
 CrewAI에서는 에이전트 실행 시 입력을 제공해야 하며, 'inputs'를 이용하여 프롬프트에서 참조할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 prompt = '''먼저 {images}에서 어떤 이미지가 인스타그램에서 좋아요를 더 많이 받을지 결정해야 합니다. 해당 이미지를 선택한 이유를 설명한 후, 해당 이미지를 기반으로 전환율을 극대화할 캡션을 작성해야 합니다. 현재 계절, 오늘의 날짜, 이번 달의 특별한 이벤트, 트렌드 있는 해시태그 및 이모티콘을 고려하여 완벽한 캡션을 만들어보세요.'''
 
 ## Agent
 agent = crewai.Agent(
-            role="인플루언서", 
+            role="인플루언서",
             goal=prompt,
             backstory="모든 게시물의 전환율을 극대화하는 인플루언서입니다.",
-            tools=[tool_instagram], 
+            tools=[tool_instagram],
             llm=llm,
             allow_delegation=False, verbose=True)
 
@@ -280,13 +426,24 @@ res = crew.kickoff(inputs={"images":des})
 print("Res:", res)
 ```
 
-로그를 분석하기 위해 verbose=True로 설정했습니다. 에이전트는 요청을 처리하면서 필요한 도구인… 
+로그를 분석하기 위해 verbose=True로 설정했습니다. 에이전트는 요청을 처리하면서 필요한 도구인…
 
 ![이미지](/assets/img/2024-07-12-GenAIwithPythonLLMvsAgents_9.png)
 
 …을 사용해 작업을 시작합니다. 요청 결과를 검토하는 것으로 계속됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-12-GenAIwithPythonLLMvsAgents_10.png" />
 
@@ -296,7 +453,18 @@ print("Res:", res)
 
 그래서 Agents는 LLM과 같은 이미지를 선택하고 더 나은 캡션을 생성했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 다중 에이전트
 
@@ -308,7 +476,18 @@ print("Res:", res)
 
 각 작업이 실행되는 동안 출력을 확인하기 위해 콜백 함수를 추가하는 것이 유용할 수 있습니다 (이를 Task 객체에 추가해야 함).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 def callback_function(output):
@@ -329,7 +508,7 @@ prompt = '''{images} 중에서 인스타그램에서 더 많은 좋아요를 받
      게시물로 더 많은 사람들이 상호작용하도록 하고, 전환율을 극대화해야 합니다.
      현재 계절, 오늘 날짜, 이번 달의 특별한 이벤트에 대해 조사해보세요.
      ''',
-    tools=[tool_browser, tool_instagram], 
+    tools=[tool_browser, tool_instagram],
     llm=llm,
     allow_delegation=False, verbose=False)
 
@@ -349,10 +528,10 @@ prompt = '''이미지를 기반으로 인스타그램 게시물의 전환율을 
     role="소셜 미디어 매니저",
     goal=prompt,
     backstory='''소셜 미디어 매니저로서, 사진작가의 결과물을 기반으로 짧은 캡션을 생성해야 합니다.
-     인스타그램에서 더 많은 좋아요를 받고, 게시물로 더 많은 사람들이 상호작용하며 전환율을 극대화해야 합니다. 
-     트렌디한 주제, 해시태그 및 이모지 등에 대해 조사해보세요. 
+     인스타그램에서 더 많은 좋아요를 받고, 게시물로 더 많은 사람들이 상호작용하며 전환율을 극대화해야 합니다.
+     트렌디한 주제, 해시태그 및 이모지 등에 대해 조사해보세요.
      ''',
-    tools=[tool_browser, tool_instagram], 
+    tools=[tool_browser, tool_instagram],
     llm=llm,
     allow_delegation=False,
     verbose=False)
@@ -366,7 +545,18 @@ prompt = '''이미지를 기반으로 인스타그램 게시물의 전환율을 
 
 다음 에이전트는 최종 출력물을 감시하고 인간의 검증을 요청해야 합니다. 따라서 프롬프트 설명에서 매우 정확해야 하며 에이전트 객체에서 allow_delegation=True 및 작업 객체에서 human_input=True 매개변수를 사용해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 ######################## 3-다른 에이전트들의 매니저 #############
@@ -394,19 +584,31 @@ task_manager = crewai.Task(
 마지막으로, 모든 것을 Crew 객체에 넣을 수 있습니다. 이번에는 하나의 에이전트만 프로젝트 전체를 담당해야 한다는 것을 지정할 수 있습니다. 순차 프로세스는 작업이 선형적으로 진행되어 한 작업이 다음 작업을 따르는 것을 보장하며, 계층적 프로세스는 효율적인 작업 위임 및 실행을 위해 전통적인 조직적 계층 구조를 모방합니다.
 
 ```js
-crew = crewai.Crew(agents=[agent_photograper, agent_social], 
-                   tasks=[task_photograper, task_social, task_manager], 
-                   process=crewai.Process.hierarchical,
-                   manager_agent=agent_manager,
-                   verbose=True)
+crew = crewai.Crew(
+  (agents = [agent_photograper, agent_social]),
+  (tasks = [task_photograper, task_social, task_manager]),
+  (process = crewai.Process.hierarchical),
+  (manager_agent = agent_manager),
+  (verbose = True)
+);
 
-res = crew.kickoff(inputs={"images":des})
+res = crew.kickoff((inputs = { images: des }));
 ```
 
 <img src="/assets/img/2024-07-12-GenAIwithPythonLLMvsAgents_12.png" />
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로그에서 확인할 수 있듯이, 매니저가 요청을 처리하고 첫 번째 작업을 첫 번째 에이전트에게 위임했습니다. 첫 번째 결과는 완벽합니다. AI가 최근 소셜 미디어 트렌드와 인스타그램 알고리즘 논리를 분석했습니다.
 
@@ -416,7 +618,18 @@ res = crew.kickoff(inputs={"images":des})
 
 ![두 번째 결과](https://miro.medium.com/v2/resize:fit:1064/1*Ogf4BPBBKolftQIQXd-EQg.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 GitHub에서 전체 코드를 확인할 수 있어요.
 

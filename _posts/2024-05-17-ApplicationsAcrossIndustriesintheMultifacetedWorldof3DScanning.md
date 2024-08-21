@@ -3,16 +3,13 @@ title: "3D 스캐닝의 다양한 분야에서의 응용"
 description: ""
 coverImage: "/assets/img/2024-05-17-ApplicationsAcrossIndustriesintheMultifacetedWorldof3DScanning_0.png"
 date: 2024-05-17 04:09
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-17-ApplicationsAcrossIndustriesintheMultifacetedWorldof3DScanning_0.png
 tag: Tech
 originalTitle: "Applications Across Industries in the Multifaceted World of 3D Scanning"
 link: "https://medium.com/3dprintjunction/applications-across-industries-in-the-multifaceted-world-of-3d-scanning-d7184886a8ff"
 isUpdated: true
 ---
-
-
-
 
 ![image](/assets/img/2024-05-17-ApplicationsAcrossIndustriesintheMultifacetedWorldof3DScanning_0.png)
 
@@ -36,7 +33,18 @@ isUpdated: true
 
 # Introduction
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지난 몇 년 동안 3D 스캐닝은 다양한 산업에서 혁명적인 기술로 등장했습니다. 전문 카메라와 센서를 사용하여 3D 스캐너는 현실 세계 객체의 물리적 측정치와 형태를 캡쳐하여 자세한 디지털 3D 모델을 만듭니다. 이 데이터는 공학 분석, 품질 검사, 역공학, 3D 프린팅 등과 같이 다양한 응용 프로그램에 활용될 수 있습니다. 3D 스캐닝은 효율성 증가, 비용 절감, 품질 향상, 시장 진입 속도 향상 등 다양한 장점을 제공합니다.
 
@@ -46,8 +54,18 @@ isUpdated: true
 
 3D 스캐닝은 제조업 분야에서 프로토 타입 제작, 품질 관리, 역공학 등 다양한 활동에 널리 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-05-17-ApplicationsAcrossIndustriesintheMultifacetedWorldof3DScanning_1.png)
 
@@ -57,8 +75,18 @@ isUpdated: true
 
 ## 품질 통제
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 엄격한 품질 요구사항으로 인해 제조 단위에서 검사에 이상적인 솔루션인 3D 스캔이 가능해집니다. 제조된 부품의 중요한 치수를 3D CAD 모델과 대조하여 이상을 조기에 감지할 수 있습니다. 이를 통해 불량품이 더 나가는 것을 방지하여 품질을 향상시키고 낭비를 최소화할 수 있습니다.
 
@@ -68,7 +96,18 @@ isUpdated: true
 
 # 헬스케어
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 의료 분야에서 3D 스캐닝은 많은 이점을 제공합니다. 그 중 가장 중요한 것은 스캐너에 의해 캡처된 정확한 해부학적 데이터를 기반으로 한 맞춤 솔루션을 가능하게 한다는 점입니다.
 
@@ -78,7 +117,18 @@ isUpdated: true
 
 3D 스캐닝을 활용하면 보청기나 인공 장기와 같은 의료기기 개발이 가능하며, 각 환자의 해부 요구에 맞게 맞춤형으로 제작할 수 있습니다. 이와 같은 맞춤화는 더 나은 착용감과 편의성, 결과를 제공합니다. 보청기 설계에 사용되는 스캐너는 고정밀도 및 속도, 환자 안전에 중점을 둔 비접촉식입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 수술 계획
 
@@ -88,10 +138,20 @@ isUpdated: true
 
 현대 3D 스캐너의 비침습적인 스캐닝 능력은 소중한 유물에 손상을 입히지 않으면서 교육 분야에서 혁신적인 응용 프로그램을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 Markdown 형식으로 table tag를 수정한 내용입니다.
-
 
 ![이미지](/assets/img/2024-05-17-ApplicationsAcrossIndustriesintheMultifacetedWorldof3DScanning_3.png)
 
@@ -101,8 +161,18 @@ isUpdated: true
 
 ## 연구
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 과학 기관은 인류학, 고고학, 생물학 등 다양한 분야에서 연구 노력을 더욱 발전시키기 위해 3D 스캐닝을 활용합니다. 스캐너 데이터를 통해 정확한 측정, 주요 특성의 디지털 카탈로그 작성, 형태학 분석을 통해 진화 증거 발견 및 해부학적 이상 현상 도출이 가능해집니다. 연구자들은 협업 플랫폼을 통해 온라인에서 서로의 스캔을 공유하고 검토할 수도 있습니다.
 
@@ -112,7 +182,18 @@ isUpdated: true
 
 ![3D 스캐닝의 다양한 산업 분야 응용](/assets/img/2024-05-17-ApplicationsAcrossIndustriesintheMultifacetedWorldof3DScanning_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 영화
 
@@ -122,7 +203,18 @@ isUpdated: true
 
 게임 개발자들은 오늘날 AAA 비디오 게임에서 초고화질 환경과 가상 세계를 만들기 위해 스캔된 3D 모델을 활용합니다. SLAM 기술을 사용한 포토그래메트리 릭은 가상 캐릭터를 애니메이션화하기 위한 스캔 데이터를 제공하여, 삶 같은 외모, 표현 및 움직임을 전달하여 증강 현실 경험을 향상시킵니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

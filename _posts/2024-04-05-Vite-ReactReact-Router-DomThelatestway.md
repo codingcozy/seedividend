@@ -3,17 +3,13 @@ title: "Vite-React  React-Router-Dom 로 프로젝트 셋팅하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Vite-React  React-Router-Dom The latest way"
 link: "https://medium.com/@galohernandez/vite-react-react-router-dom-the-latest-way-312ee887197e"
 isUpdated: true
 ---
-
-
-
-
 
 ![Vite-ReactReact-Router-Dom 최신방식_0](/assets/img/Vite-ReactReact-Router-DomThelatestway_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이것은 여러분과 나누고 싶은 몇 가지 미니 튜토리얼 중 첫 번째가 될 것입니다. 희망적으로 가장 쉬운 방법으로 제 발전 상황을 공유할 것이며 언젠가 완전한 전자 상거래 웹 애플리케이션을 완성할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 미니 튜토리얼에서는 Vite+React를 사용하여 Antd와 Bootstrap으로 스타일링된 3개 페이지를 가진 react-router-dom 구현으로 마무리하겠습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 가장 중요한 것! React를 설치하는 올바른 방법은 무엇인가요? 이에 대해 깊게 다루지는 않겠지만, 대다수 "YouTube 웹 전문가"들이 "create-react-app"이 끝났다고 말하며 이를 대체하기 위해 Vite를 사용하는 것을 권장한다고 합니다. 따라서 저는 도전을 받아들였습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "create-react-app"을 사용하는 중 몇 가지 문제가 있었어요. 예를 들어, 노드와 NPM의 최신 버전을 사용하고 있어서 "npm start"가 제대로 작동하지 않았고, 이를 해결하기 위해 몇 가지 해킹을 해야 했어요. 메시지 섹션에서 그 해킹을 공유해드릴게요.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 전자 상거래 앱을 개발하고 있기 때문에 프론트엔드 부분을 "client"라고 이름 짓었어요. Vite로 React를 설치하려면 터미널을 열고 다음 명령어를 사용하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 과정은 "create-react-app"보다 매우 빠릅니다. 완료 후에는 client 폴더로 이동한 다음 다음 명령어를 실행하라는 안내가 표시됩니다:
 
@@ -53,7 +82,18 @@ npm install
 
 일부 경고를 수정해야 할 수도 있습니다. 원한다면 "npm audit-fix"로 이를 해결할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 코드 라인을 사용하여 프로젝트를 실행할 수 있어요:
 
@@ -65,7 +105,18 @@ npm run dev
 
 그럼 Vite+React 기본 프론트 페이지가 보일 거예요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지 1](/assets/img/Vite-ReactReact-Router-DomThelatestway_1.png)
 
@@ -79,7 +130,18 @@ npm run dev
 
 ![이미지 2](/assets/img/Vite-ReactReact-Router-DomThelatestway_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 청소
 
@@ -95,7 +157,18 @@ function App() {
 export default App;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 삭제해주세요.
 
@@ -103,7 +176,18 @@ export default App;
 
 이전에 언급했듯이, 낡은 2021 전자 상거래 튜토리얼을 따르고 있어요. 저자가 저에게 2가지 다른 스타일링 솔루션을 사용하라고 요청합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Antd: 이것은 Ant Design 원칙의 React 구현입니다. 그들의 웹사이트에 그렇게 나와 있어요. 왜 몇몇 현대 웹사이트에는 약간의 역사나 "About this" 링크가 없는 지 모르겠어요. 어쨌든, 이것을 설치하려면 다음 코드 라인을 실행해야 해요:
 
@@ -117,7 +201,18 @@ npm install antd
 npm install react-bootstrap bootstrap
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 `main.jsx` 파일에서 불러오세요:
 
@@ -129,7 +224,18 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 4. 페이지 생성하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 루트에 "Pages" 폴더와 "Auth" 폴더를 생성해야 해요.
 
@@ -147,7 +253,18 @@ export default Home;
 
 애플리케이션을 위한 헤더를 만들어야 해요. 먼저 components라는 폴더를 만들고 그 안에 nav라는 새 폴더를 만들어요. 그런 다음, Header.jsx라는 새 파일을 만들어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 Header.jsx 파일에서는 Antd 컴포넌트 중 하나인 MENU 컴포넌트를 사용할 것입니다. 이 Nav의 기본 모델은 다음과 같습니다:
 
@@ -156,11 +273,7 @@ export default Home;
 이 MENU의 코드는 다음과 같습니다:
 
 ```js
-import {
-  AppstoreOutlined,
-  MailOutlined,
-  SettingOutlined,
-} from "@ant-design/icons";
+import { AppstoreOutlined, MailOutlined, SettingOutlined } from "@ant-design/icons";
 import { Menu } from "antd";
 import { useState } from "react";
 const items = [
@@ -225,23 +338,38 @@ const App = () => {
     console.log("click ", e);
     setCurrent(e.key);
   };
-  return (
-    <Menu
-      onClick={onClick}
-      selectedKeys={[current]}
-      mode="horizontal"
-      items={items}
-    />
-  );
+  return <Menu onClick={onClick} selectedKeys={[current]} mode="horizontal" items={items} />;
 };
 export default App;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 표 태그를 마크다운 형식으로 변경해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm install react-router-dom localforage match-sorter sort-by
@@ -272,7 +400,18 @@ export default App;
 
 이제 새 버전에서는 Layout이 "특별 컴포넌트"를 사용하여 encapsulate하지만 새 문서에서는 찾기 어려울 수 있는 "element" 속성에 포함되어 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트 라우터 돔 문서에서 해결책을 찾아보려고 했는데 다양한 레이아웃 상황에서 몇 가지 예제만 포함되어 있다는 걸 깨달았어요.
 
@@ -303,7 +442,18 @@ const App = () => {
 export default App;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ChatGPT에 의해 생성된 마지막 코드는 실제로 올바르지 않습니다. 최신 버전의 react-router-dom에서는 더 이상 BrowserRouter이 사용되지 않습니다.
 
@@ -313,7 +463,18 @@ ChatGPT에 의해 생성된 마지막 코드는 실제로 올바르지 않습니
 
 우리는 react-router-dom 버전 6에서 몇 가지 기능을 사용해야 합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - createBrowserRouter
 - createRoutesFromElements
@@ -324,12 +485,7 @@ ChatGPT에 의해 생성된 마지막 코드는 실제로 올바르지 않습니
 
 ```js
 import React from "react";
-import {
-  Route,
-  createBrowserRouter,
-  createRoutesFromElements,
-  RouterProvider,
-} from "react-router-dom";
+import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider } from "react-router-dom";
 import Home from "./pages/Home";
 import Login from "./pages/auth/Login";
 import Register from "./pages/auth/Register";
@@ -358,7 +514,18 @@ export default App;
 
 헤더 요소는 루트 경로 "/ "의 속성으로 사용되지만 모든 경로에서 작동하려면 "인덱스 요소"를 정의해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 이제 프로젝트 요구 사항에 맞게 헤더 컴포넌트를 조정하고 "react-router-dom"을 사용해야 합니다.
 
@@ -369,14 +536,21 @@ export default App;
 
 서브메뉴 관련 코드 일부를 삭제하고 아이콘을 변경하는 등 몇 가지 변경을 한 후에는 다음과 같은 코드를 얻게 될 것입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-import {
-  HomeTwoTone,
-  EditTwoTone,
-  CheckCircleTwoTone,
-} from "@ant-design/icons";
+import { HomeTwoTone, EditTwoTone, CheckCircleTwoTone } from "@ant-design/icons";
 import { Menu } from "antd";
 import { useState } from "react";
 import { Outlet, Link } from "react-router-dom";
@@ -415,7 +589,18 @@ export default Header;
 
 마지막으로, 최신 react-router-dom, 최신 react, vite 및 Antd Design을 사용하여 새로운 Nav를 구축하게 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 잠시만 기다려봐요… 왜 Bootstrap을 설치했는데 사용하지 않고 있을까요? 예전 튜토리얼에서 저자는 "Register"와 "Login" 링크를 오른쪽으로 옮기려고 했어요.
 
@@ -437,7 +622,18 @@ export default Header;
      </Menu>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마침내 앱은 이제 이렇게 보일 거에요:
 

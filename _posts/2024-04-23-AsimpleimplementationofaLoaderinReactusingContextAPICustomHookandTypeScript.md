@@ -3,17 +3,13 @@ title: "리액트에서 Loader 간단 구현하는 방법ContextAPI, Custom Hook
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: " A simple implementation of a Loader in React  using ContextAPI, Custom Hook, and TypeScript"
 link: "https://medium.com/@prithirajmajumder8/a-simple-implementation-of-a-loader-in-react-%EF%B8%8F-using-contextapi-custom-hook-and-typescript-5bc36a277e29"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/AsimpleimplementationofaLoaderinReactusingContextAPICustomHookandTypeScript_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 일단 '개발자/'로서의 자신을 잊으세요. 대신 애플리케이션의 종단 사용자 👩‍💻 이라 가정하고 UI에서 버튼을 클릭했을 때 잠시 동안 아무 일도 일어나지 않고 갑자기 화면에 새로운 요소가 팝업됐다고 생각해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 몇 초 동안 머리를 조금 굴려볼 필요가 있을 거에요 🧠 어떤 일이 일어났는지 알아내기 위해서! 아래 이미지를 보세요👇
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ## 여기에는 새로운 것이 없네요 🤗
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # React에서는 컴포넌트에서 여러 개의 대기 상태 UI를 구현할 때, 일반적으로 이👇 (useState)의 혼란스러운 뭉치가 있습니다
 
@@ -71,7 +89,18 @@ export const SomeComponent = () => {
 
 그래서 우리의 일반적인 글로벌 로더 아키텍처 구현은 이렇게 보일 거에요👇
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![example_image](/assets/img/AsimpleimplementationofaLoaderinReactusingContextAPICustomHookandTypeScript_3.png)
 
@@ -118,7 +147,18 @@ export const LoaderProvider = ({ children }: { children: ReactNode }) => {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 문맥에서 제공된 정보는 다음과 같습니다:
 
@@ -134,9 +174,7 @@ export const useLoader = () => {
   const loaderContext = useContext(LoaderContext);
 
   if (!loaderContext) {
-    throw new Error(
-      "LoaderProvider의 컨텍스트 내에서 useLoader를 사용해주세요"
-    );
+    throw new Error("LoaderProvider의 컨텍스트 내에서 useLoader를 사용해주세요");
   }
 
   return {
@@ -168,7 +206,18 @@ export const Loader = () => {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // Employees.tsx
@@ -237,7 +286,18 @@ export const EmployeesList = () => {
 
 ## 하지만 이 구현에 문제가 있습니다 😢
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컨텍스트에는 단일 로딩 상태가 있습니다. 여러 컴포넌트가 이 로더 텍스트를 토글할 것입니다.
 
@@ -249,7 +309,18 @@ requestB의 실행이 끝나는 시점에 로더도 중지됩니다. 이때 requ
 
 따라서 requestA의 실행 시간 동안 스피너가 계속 표시되지 않을 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/AsimpleimplementationofaLoaderinReactusingContextAPICustomHookandTypeScript_5.png" />
 
@@ -260,7 +331,18 @@ requestB의 실행이 끝나는 시점에 로더도 중지됩니다. 이때 requ
 - 따라서 스택이 비어있지 않다면 isLoading의 값은 true가 될 거에요.
 - 그리고 스택이 비어있다면 isLoading의 값은 false가 될 거에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/AsimpleimplementationofaLoaderinReactusingContextAPICustomHookandTypeScript_6.png)
 
@@ -330,7 +412,18 @@ export const useLoader = () => {
 
 # 마무리
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 개발자들의 꿈은 확장 가능하고 사용하기 쉬운 컴포넌트를 만드는 것입니다. 여러분의 프로젝트에서 자유롭게 사용하고 조정해보세요. 행복한 코딩을 기억해주세요, React 개발자 여러분! 😎✨
 

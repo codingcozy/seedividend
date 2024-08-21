@@ -3,17 +3,13 @@ title: "웹사이트 속도와 품질 테스트하기"
 description: ""
 coverImage: "/assets/img/2024-05-20-TestingWebsiteSpeedAndQuality_0.png"
 date: 2024-05-20 22:55
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-20-TestingWebsiteSpeedAndQuality_0.png
 tag: Tech
 originalTitle: "Testing Website Speed And Quality"
 link: "https://medium.com/@deathshadow/testing-website-speed-and-quality-e37622bd5889"
 isUpdated: true
 ---
-
-
-
-
 
 ![Speed and Quality](/assets/img/2024-05-20-TestingWebsiteSpeedAndQuality_0.png)
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 그러나 가장 끔찍한 것은 해당 사이트들이 "반드시 그렇게" 되어야 하는 무수한 엘리베이터들이다. "기업용 등급"이라고 주장하며 ("그게 실제로 무엇을 의미하는지. "바보들이기 때문에 쓰레기인가 봅니다"); "협업을 위해 필요한 코드를 십 배로 작성해야한다" 또는 "새로운 입사자를 빠르게 숙달" 시킬 필요가 있다고 주장하는 등 자신의 무능함을 덮기 위한 모든 헛소리와 함께. 내 이전 기사의 댓글을 다시 읽어보면 많은 귀찮은 변명들을 볼 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 살인범은 빠른 웹사이트를 만드는 것이 어렵지 않다는 것이 가장 중요한데요. 그에 대해 이전에 글을 썼었습니다:
 [여기를 클릭하세요!](https://medium.com/codex/so-you-want-to-make-your-website-faster-d2a00db39097)
@@ -35,13 +41,35 @@ isUpdated: true
 
 # 추천 도구
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자동화는 일반적으로 플레이스보로 사용됩니다. 머리 속에 있는 것을 활용하지 않으면 정확하지 않습니다. 모든 것이 약간의 출발점으로 사용할 수는 있지만 그것이 하는 일을 큰 그릇으로 받아들여야 한다는 것이죠.
 
 Google Lighthouse은 대부분의 Blink 기반 Chrome과 유사한 브라우저(Chrome, Vivaldi, Opera, "최신" Edge 릴리스)의 검사 도구로 내장되어 있습니다. Lighthouse는 속도, 사용성, 접근성, 이미지 최적화, 파일 형식과 관련된 여러 문제를 지적할 수 있습니다. 아마도 우리에게 주어진 최고의 자동화 도구일 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 그러나
 
@@ -52,7 +80,18 @@ https://spotlight.tailwindui.com/about
 
 이는 26개 파일에서 615k이며, 압축 해제하면 218k로 감소됩니다. 따라서 파일 수만으로 최악의 경우 18초의 오버헤드가 발생합니다. 실제 세계에서는 3초 정도로 설명하겠습니다. 그런데 왜 이러는 걸까요? 1.4k의 일반 텍스트와 하나의 콘텐츠 미디어(우주 비행사 이미지)인가요? 심지어 파일 9개로 52k도 안 되는 일입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 캐시를 활용하지 않도록 작성되었고, 효율성을 덮어두려는 것보다는 "아무것도 아닌 SPA"로 스크립트를 던져 처리하려고 하며, 이는 "더 많은 코드를 던져 더 빠르게 만들 수 있다"는 어리석음의 전형입니다.
 
@@ -62,7 +101,18 @@ https://spotlight.tailwindui.com/about
 
 저는 "성능"을 주면서 60점을 줄 것입니다. 그런데 왜 그렇게 후하다고 생각하나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 라이트하우스는 실제 세계의 제한 없이 당신의 연결 속도와 그들의 연결 속도에 기반을 두고 있어요. 광섬유의 마법 땅에 있는 우리에게는 어떤 쓰레기도 꽤 괜찮은 점수를 얻을 수 있어요.
 
@@ -72,8 +122,18 @@ https://spotlight.tailwindui.com/about
 
 여기에서 라이트하우스 점수가 거의 동일합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![TestingWebsiteSpeedAndQuality](/assets/img/2024-05-20-TestingWebsiteSpeedAndQuality_3.png)
 
@@ -83,8 +143,18 @@ https://spotlight.tailwindui.com/about
 
 탈퇴란 사용자가 "이건 말아먹겠다. 다른 데 가야지!" 하는 것을 비하한 용어입니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 접속 속도가 관련이 있는 것 뿐만 아니라 속도 점수는 도구가 만들어진 시간에 다른 웹 사이트와 상대적으로 기반을 두고 있습니다. 따라서 웹이 만들어진 시점에 좋지 않았다면, 어떤 시점을 넘어서면 더 나은 것이 있다고 말할 "여력"이 없습니다.
 
@@ -94,8 +164,18 @@ https://spotlight.tailwindui.com/about
 
 ## 파이어폭스
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Testing Website Speed and Quality](/assets/img/2024-05-20-TestingWebsiteSpeedAndQuality_4.png)
 
@@ -105,9 +185,18 @@ https://spotlight.tailwindui.com/about
 
 파이어폭스에서 페이지를 로드하고 문서 인스펙터를 열려면 마우스 오른쪽 버튼을 클릭하고 "검사"를 선택하거나 F12를 누르세요 — 그 안에 탭이 나타납니다. 위의 FailwindUI 템플릿을 사용하여 "네트워크" 탭으로 이동하고 캐시를 지우고 페이지를 다시 로드하세요: CTRL-F5
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-05-20-TestingWebsiteSpeedAndQuality_5.png)
 
@@ -117,8 +206,18 @@ https://spotlight.tailwindui.com/about
 
 또한 파비콘은 항상 페이지가 "완료"된 후에 로드됨을 기억해 주세요.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사람들이 종종 내게 물어보는 질문 중 하나는 내가 얼마나 많은 파일이 로드되었는지 또는 총 크기가 얼마인지를 어떻게 알 수 있는지이다. 여기 있습니다.
 
@@ -128,7 +227,18 @@ https://spotlight.tailwindui.com/about
 
 속도 테스트에 대한 가장 큰 실수 중 하나는 자기 연결이 "일반 사람들이 얻는 것"을 대표한다고 믿는 것입니다. "하지만 내게는 빠르다"란 오류로 이어집니다. 여러분은 항상 내가 말하는대로 알고 있어요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신과 당신의 마법 같은 판타지 세계의 네트워크 연결이나 완벽한 5G 수신만이 중요한 건 아니에요, 다른 사람들도 중요한 거예요.
 
@@ -138,13 +248,35 @@ https://spotlight.tailwindui.com/about
 
 파일 크기를 실제로 보여주지 않지만, 테스트 단계에서 우리는 실제로 전송되는 것에 더 관심이 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 번째 툴바 아래에 "스로틀링 없음"이라고 쓰인 드롭다운이 있어요. 그 드롭다운의 기본 값은... 좀 부족해요.
 
 그래서 보통 이런 설정을 추가해서 "실제 세계"를 시뮬레이션해요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-05-20-TestingWebsiteSpeedAndQuality_9.png" />
 
@@ -154,7 +286,18 @@ https://spotlight.tailwindui.com/about
 
 <img src="/assets/img/2024-05-20-TestingWebsiteSpeedAndQuality_10.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그렇게 끔찍하게 보이지는 않을 수도 있어요 — 25개 요청이 있는 병렬처리는 여전히 많은 나쁜 선택지들을 집어삼키고 있답니다. 하지만 그래서 연결 제한을 조절할 수 없는 자동화에 대해 우리 스스로 속임수를 부리고 있는 것 아닐까 싶어요. 그래도 제가 쓴 것과 비교해보세요:
 
@@ -164,7 +307,18 @@ https://spotlight.tailwindui.com/about
 
 # 페이지스피드 인사이트: 비추천!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "구글 '페이지속도'는 한때 — 10년이 넘게 전— 유용한 도구였습니다. 그러나 그 이후로 그 저의는 희석되었고, 오도된, 오해되고, 오늘날에는 사실보다는 플래이스보로 여겨지고 있습니다. 어느 순간에는 마케팅 사기 같은 느낌까지 들었죠!
 
@@ -174,7 +328,18 @@ https://spotlight.tailwindui.com/about
 
 PageSpeed에 나쁜 조언이 스며들기 시작할 때 그것들이 끌어 당겼던 상황이 확실해졌습니다. 우리에게 유용한 도구를 제공하여 우리를 중독시킨 후, "페이지속도 서비스"라는 우리를 속이려는 쓰레기 'CDN 대체'를 이용하도록 조장하는 마케팅 플랫폼으로 사용했습니다."
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "서비스" 라는 말은 고객을 정말로 섬기고 있습니다. "속도"를 불필요하게 느린 것을 고쳐 사용할 수 없는 클라이언트 측 스크립팅의 꼬마 조각들로 만드는 동시에 그렇지 않으면 건강한 사이트를 운영하는 데 더 비싼 방향으로 만들고 있어요!
 
@@ -184,7 +349,18 @@ Google PageSpeed가 말하는 거 하나 믿지 말라고 권하고 싶네요. �
 
 # 진정 중요한 것은 무엇인가
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도구가 무엇인가를 알려준다고 해서 항상 그 의미를 완전히 이해한다는 것은 아니에요. 마찬가지로, 자동화된 도구는 주로 시작하는 지점이며 여전히 올바르게 사용하기 위해 약간 자신의 뇌를 사용해야 합니다. 라이트하우스의 숫자를 보고 "괜찮아"라고 생각하기가 너무 쉽습니다. 심지어 그렇지 않을 때도요.
 
@@ -194,7 +370,18 @@ Google PageSpeed가 말하는 거 하나 믿지 말라고 권하고 싶네요. �
 
 이것은 가장 쉽게 평가하고 문제 해결할 수 있는 부분이에요. 또한, 무능한 사기꾼들이 때때로 "모두가 이제 브로드밴드를 갖고 있다"고 사측적으로 무시하거나 피할 다른 쓸데없는 변명을 찾기 때문에 그들이 가장 쉽게 무시하는 부분 중 하나에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 "무시"의 실제 예시로 최근 다른 프로그래머가 내가 개선할 때 "최적" AVIF 대신 PNG 사용했어야 했다며 화를 내서 몹시 화를 내는 상황이 있었습니다. 20k를 절약할 수 있었다고 했죠. 그는 내가 "허튼 소리만 한다"는 예시로 사용했습니다. 전 그냥 2.5 메가바이트의 "아무 의미없는" JS를 12k의 코드로 교체했다는 사실을 완전히 무시했습니다. 더구나 해당 클라이언트는 의료 시설로, IE7이 최첨단이었던 Win ME 기반의 얇은 클라이언트를 사용하고 있습니다. IE에서 AVIF나 webp는 지원되지 않습니다.
 
@@ -206,7 +393,18 @@ Google PageSpeed가 말하는 거 하나 믿지 말라고 권하고 싶네요. �
 - jQuery 없이 더 간단하고 코드가 적은 작업
 - 웹사이트나 어플리케이션에서 하면 안 되는 작업들
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제는 JavaScript를 사용하여 80% 이상을 수행하는 작업에 대해서도 확장해야 한다고 생각합니다. Typescript와 같은 Transpiler는 출력 코드의 크기가 얼마나 크든 상관하지 않고, 더 복잡하고 유지보수하기 어려운 코드를 작성하도록 장려합니다; React나 Angular와 같은 쓸데없는 프런트엔드 프레임 워크가 서버의 "잘못된 쪽"에서 작업을 수행함; 모달 대화 상자나 햄버거 메뉴와 같은 스크립팅 요소를 사용하여 `esc` 키를 눌러 닫히도록 하는 일이 정말 필요한 일인데도 불구하고 1k가 딱 헤더에 들어가도록 presentational한 디자인이 해결되어 있는 것처럼 표시하지 않습니다.
 
@@ -216,7 +414,18 @@ Bootcrap나 Failwind와 같은 프런트엔드 프레임워크 쓰레기통과 �
 
 <img src="/assets/img/2024-05-20-TestingWebsiteSpeedAndQuality_12.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 모든 것에 대해 생각하는 것은 자동화된 도구가 사람들을 잘못된 안전감에 빠트리고 있다는 점이라고 생각해요. 이미지 최적화, 파일 축소? 모두 좋고 필요한 작업이죠. 하지만 거기서 멈추어선 안 돼요!
 
@@ -226,7 +435,18 @@ Bootcrap나 Failwind와 같은 프런트엔드 프레임워크 쓰레기통과 �
 
 FF와 Chrome과 같은 워터폴을 보세요. 문서가 완료될 때까지 다른 것들이 로딩 될 수 없다는 것을 보세요. 저의 계산기 데모에서 가져온 것들 처럼요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하위 파일이 HTML 작성이 완료될 때까지 다운로드를 시작할 수 없습니다. 그리고 HTTP 2.0 푸시 또는 HTML 5 사전로드 / 모듈 사전로드도 이를 해결하지 못합니다! 다른 사람들이 말하는 대로라고 주장할 수 있을지라도.
 
@@ -234,21 +454,43 @@ FF와 Chrome과 같은 워터폴을 보세요. 문서가 완료될 때까지 다
 
 같은 스타일을 여러 페이지에 걸쳐 공유할 경우 캐싱 기회를 놓치게 됩니다. 각 방문뿐만 아니라 같은 방문 내에서 페이지 간에도 캐싱이 가능한 외부 파일로 모든 것을 이동시킬 수 있는데, 이러한 부분이 CSS가 존재하는 이유입니다. 스타일을 정적으로 설정하는 것이 아니라 마크업에서 "style"을 지정해야하며 외관을 고르게 만들기 위해 "style = ""을 사용해야 합니다. 그리고 "이 것은 작은 화면에 4열, 큰 화면에는 6열로 중앙 정렬된 텍스트와 빨간색으로 표시되는 것"을 나타내는 클래스가 무지하고 무능력한 반대표! 프레임워크뿐만 아니라 전체 "컴포넌트"의 어리석은 사고도 물어뜯어야 합니다. HTML 3.2 이해의 최전선이 미래가 되어서는 안됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아니요, "원자적"이나 "유틸리티" 클래스가 얼마나 무지하고 불행하며 쓸모 없는 쓰레기인지 정말로 표현할 수 있는 공손한 말은 없습니다.
 
 HTML의 미리 정의된 태그들이 의미를 갖기 때문에, 관심사의 분리를 실천하면 실제로 콘텐츠와 목적에 따라 HTML의 크기를 추정할 수 있습니다... 적어도 대부분의 전통적인 웹 페이지에 대해 해당합니다. 저는 다음 공식을 사용합니다 (모든 값은 바이트 단위)
 
 2048 +
-일반 텍스트 * 1.5 +
-앵커 (또는 A의 작업을 하는 버튼) * 192 +
-폼 요소 (input, select, textarea, option) * 128 +
-미디어 (img, video, audio) * 256
+일반 텍스트 _ 1.5 +
+앵커 (또는 A의 작업을 하는 버튼) _ 192 +
+폼 요소 (input, select, textarea, option) _ 128 +
+미디어 (img, video, audio) _ 256
 
 2k는 `!DOCTYPE`에서 `/head`까지의 모든 것이 포함되어야 하는 상한선이며, 콘텐츠 당 50% 비용은 완전히 합리적입니다. 192는 URL이나 INPUT/TEXTAREA/SELECT/OPTION 크기에 대한 관대한 추정치이며, 미디어 요소에 대한 256바이트 역시 그러한 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 보통 견적을 50% 이상 초과하면 페이지에 문제가 있습니다. 그러면 이를 두 배 이상 초과하면, 웹 기술과 전혀 관련이 없는 사람들이 만든 무식하고 무능한 쓰레기입니다.
 
@@ -259,7 +501,18 @@ HTML의 미리 정의된 태그들이 의미를 갖기 때문에, 관심사의 �
 퇴보한 부트스트랩의 가격표 페이지를 예로 들어 보겠습니다:
 https://getbootstrap.com/docs/5.3/examples/pricing/
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 평문 888바이트, 앵커(또는 버튼) 20개 및 미디어 요소 하나를 포함하고 있어야 할 텐데, 그렇게 되면 5,428바이트가 되겠네요. 그들은 어느 정도의 HTML을 사용했을까요? 17.3k! 사람들은 내가 그들의 무능한 쓰레기를 계속해서 비난하는 이유에 대해 궁금해할 것입니다.
 
@@ -270,7 +523,18 @@ https://cutcodedown.com/for_others/medium_articles/bootStrapRewrites/pricing/pri
 
 CSS도 상당히 예측 가능합니다. 사이트의 단일 페이지에 대해 약 20k 정도가 대체로 정상이지만, 전체 사이트에 대해서는 공유되어야 하는 스타일 양 때문에 미디어 대상에 대한 상한선은 48k입니다. 많은 웹 사이트에서 필요로 하는 것은 48k으로 media="screen"용 하나 또는 두 개의 파일이고, 대체로 인쇄의 역할은 쓸모없는 것들을 제거하고 단색으로 가기 때문에 media="print"용 32k의 CSS로도 충분합니다. 전체 사이트에 대해서 말이죠!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스크린과 인쇄용으로 총 80k가 넘는 CSS 파일이 세 개나 네 개 필요 없어. 그거야!
 
@@ -278,9 +542,20 @@ CSS도 상당히 예측 가능합니다. 사이트의 단일 페이지에 대해
 
 ![이미지](/assets/img/2024-05-20-TestingWebsiteSpeedAndQuality_13.png)
 
-그렇게 말이야. 부트크랩은 압축 시 최소한 전체 사이트의 2/3는 되는데, 왜냐하면 계속해서 마크업에 당신을 허술하게 만들기 때문이야? 압축하지 않았을 때, 그들의 라이브러리가 아닌 CSS는 14k이며, 그것들을 합쳐도 전체 페이지는 HTML+CSS로 32k이야... 즉, 현재 단일 페이지이며, 그들의 독특한 코드 — 부트스트랩을 제외한 것 —은 10.3k인 내 리라이트와는 달리 세 배가 돼. 그들의 단독 HTML만 해도, 나와 비교하면 HTML과 CSS 합쳐도 70%가 더 커! 
+그렇게 말이야. 부트크랩은 압축 시 최소한 전체 사이트의 2/3는 되는데, 왜냐하면 계속해서 마크업에 당신을 허술하게 만들기 때문이야? 압축하지 않았을 때, 그들의 라이브러리가 아닌 CSS는 14k이며, 그것들을 합쳐도 전체 페이지는 HTML+CSS로 32k이야... 즉, 현재 단일 페이지이며, 그들의 독특한 코드 — 부트스트랩을 제외한 것 —은 10.3k인 내 리라이트와는 달리 세 배가 돼. 그들의 단독 HTML만 해도, 나와 비교하면 HTML과 CSS 합쳐도 70%가 더 커!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그렇게하면 체중이 늘어나고, 느려지며 유지보수하기 어려운 웹사이트가 되어버릴 거예요. 사용성과 접근성을 무시하는 결과는 더할 나위 없는 형편입니다.
 
@@ -290,7 +565,18 @@ CSS도 상당히 예측 가능합니다. 사이트의 단일 페이지에 대해
 
 ## #2 파일 개수
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 페이지에 있는 별도 파일 수는 로드 시간에 막대한 영향을 줄 수 있습니다. 경우에 따라 전체 파일 크기보다 더 많은 영향을 미칠 수도 있죠!
 
@@ -300,7 +586,18 @@ FTP를 사용해 본 적이 있다면 100개의 별도 1k 파일을 전송하는
 
 이제 일부 사람들은 "모든 것을 한 파일에 모아놓으면 왜 안 되지?"라고 과도하게 반응하기도 합니다. 사실 많은 사람들이 이 방식을 취하고 있지만, 해당 방법은 많은 문제를 야기할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 하나의 파일에 모든 것이 들어 있고 하위 페이지가 동일한 데이터를 공유하는 경우 - 표현 이미지, 아이콘, 메뉴, 헤더, 푸터, 일반 스타일링 - 서브 페이지에 대해 캐싱/미리로드를 하지 않습니다. 각 페이지 로드마다 이를 로드해야 하기 때문에 서브 페이지의 속도를 희생하는 것입니다. 캐시가 비어 있는 첫 번째 로드를 위해 속도를 포기합니다.
 - HTTP의 파일 병렬로 로드하는 능력을 활용하고 있지 않습니다. 이는 단일 연결이 가질 수 있는 "속도 제한"을 피할 수 있습니다.
@@ -312,7 +609,18 @@ FTP를 사용해 본 적이 있다면 100개의 별도 1k 파일을 전송하는
 
 푸시 또는 프리로드를 사용하지 않는 경우, 좋은 규칙은 첫 번째 여덟 개의 파일이 "무료"라는 것입니다. 그 이후의 각 파일은 실제로 200ms의 현실적인 벌칙을 받습니다. 최악의 경우 일부 사람들은 1초정도까지 느낄 수도 있습니다. 따라서 48개의 별도 파일로 이루어진 전통적인 "올드 스쿨" 페이지는 8부터 40초의 핸드셰이킹 오버헤드를 볼 수 있습니다. 이는 80% 이상의 이탈 영역입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 알겠어요, 20ms 정도로 더 적은 숫자가 나올 수도 있어서 즉시 통신 중단은 아니지만, 그건 서버나 주요 백본에 가깝다는 뜻이에요. "당신의 일이 아니니까"라고 다시 말하자면, 여러분 모두에게 영향을 미치는 거잖아요.
 
@@ -325,7 +633,18 @@ FTP를 사용해 본 적이 있다면 100개의 별도 1k 파일을 전송하는
 - 웹폰트
 - "대규모" 배경 이미지와 같은 중요한 정적 요소들
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 목록에서 4번 항목은 정말 필요없는 항목이에요. 하지만 난 ‘디자이너’를 자칭하는 예술적인 사람들이 그런 종류의 사물을 좋아하는 걸 알아요. 기본적인 디자인 지식이 없더라도요. 그리고 rel="modulepreload"도 있어요. 이건 새로운 "JavaScript 모듈"과 함께 사용되지만, 로딩에 제한이 없어 보여요. 서버가 허용하는 한 전송/연결을 많이 사용할 수 있는 이유를 알아내기 위해 더 많이 실험을 해봐야 할 것 같아요.
 
@@ -333,7 +652,18 @@ FTP를 사용해 본 적이 있다면 100개의 별도 1k 파일을 전송하는
 
 예를 들어, 한가한 시간대에 근처 캠퍼스의 혼잡한 무료 인터넷에 연결된 상황을 상상해보세요. 혹은 집에서 pooky가 지하실에서 게임과 영화를 얻어다 주는 동안, 부인이 Mando를 보면서 다섯 개의 소셜미디어 사이트를 동시에 스크롤하고 있는 경우… 집의 인터넷 연결 한도는 얼마나 남을까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Google은 하드웨어를 그냥 투입하는 것만으로 해결할 수 있는 문제도 있지만, 그들은 네트워킹, 프로토콜 및 명세 변경을 추진하여... 최소한으로 줄일 수 있도록 노력하고 있습니다. 오늘날 우리가 HTTP 2.0 푸시라고 부르는 것은 Google SPDY라는 이름으로 출발했습니다. 크롬을 위해 만들지 않고 오픈 소스로 공개하고 HTTP 명세로 적용시킨 덕분에 Google이 절약한 돈은 상당히 많을 것입니다.
 
@@ -343,7 +673,18 @@ Google은 하드웨어를 그냥 투입하는 것만으로 해결할 수 있는 
 
 하지만 전체 파일 수를 효율적으로 관리하는데 도움을 줄 수 있는 기술도 더 많이 있습니다. 가장 고전적인 기법 중 하나인 "CSS 스프라이트"는 모든 디자인 이미지/아이콘을 한 이미지에 넣고, 배경으로 적용하고, 배경 위치를 조정하여 원하는 부분만 나타내는 것을 포함합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대부분의 경우 SVG 및 웹폰트로 대체되었습니다. 이러한 방법을 사용하면 핸드셰이크 수를 줄일 뿐만 아니라 해상도 감소 없이 어떤 크기에도 완벽하게 확장이 가능합니다.
 
@@ -353,7 +694,18 @@ Google은 하드웨어를 그냥 투입하는 것만으로 해결할 수 있는 
 
 그러나 CSS에 넣었음에도 불구하고 CSS에서 색상을 제어할 수 없고, 반복해서 사용해야 합니다. (필터를 사용하면 몇 가지 귀여운 트릭을 사용할 수 있습니다.)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여전히 SVG 및 웹 폰트는 수백 개의 파일을 하나로 교체하는 능력을 발휘하고 있습니다. 이를테면 캐싱과 병렬성을 희생하지 않고요.
 
@@ -363,7 +715,18 @@ Google은 하드웨어를 그냥 투입하는 것만으로 해결할 수 있는 
 
 ## #3 렌더링 시간
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단히 말해서, 브라우저가 서버에서 검색한 코드를 사용 가능한 페이지로 변환하는 데 소요되는 시간은 충분한 파일이 있는 이후입니다.
 
@@ -373,7 +736,18 @@ Google은 하드웨어를 그냥 투입하는 것만으로 해결할 수 있는 
 
 옛날에 웃기며 말한 것처럼:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금, "렌더 시간"이 하찮다는 걸 의미하나요? 전혀 아니에요. 그냥 많은 사람들이 그것에 대해 어리석은 부분에 집착한다는 거죠 (라이트하우스가 레이어드 선형 그라디언트에 열광하면서 거대한 이미지 위의 텍스트에는 신경쓰지 않는 것을 보세요), 이것은 방정식에서 아주, 아주 작은 부분일 뿐입니다.
 
@@ -383,7 +757,18 @@ Google은 하드웨어를 그냥 투입하는 것만으로 해결할 수 있는 
 
 그리고 확실히 선형 그라디언트, 박스 그림자, 텍스트 그림자 등은 처리 성능과 렌더 시간이 많이 소요되는 것이 사실입니다. 그러나 정적 이미지를 사용하는 것과 비교했을 때, 오래된 하드웨어를 제외하고 모든 것에 대한 소요 시간/오버헤드가 분원인 것을 보면요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 … 그리고 우리는 영원히 "와 응 응 아이 던즈 워나 스탑 유징 윈블로우즈 XP 앤 머 겟 빈티엄 4" 사람들을 위해 유연하게 휘어져서 서 있을 수 없어요.
 
@@ -393,7 +778,18 @@ Google은 하드웨어를 그냥 투입하는 것만으로 해결할 수 있는 
 
 완전히 헛소리는 아니지만, 나는 Lighthouse가 당신에게 말하는 대로 해 보라고 말할 거예요... 그래도 명백히 헛소리인 것으로 약간의 성능 점수를 받아도? 어쨌든 그래도 될 거예요. 대부분 "렌더링"에서 지연을 초래하는 실제 근본적인 원인들은 다 다루기 쉽기 때문에요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - DOM 요소가 너무 많이 있어요. 즉, 마크업을 적게 사용해주세요.
 - CSS 규칙이 너무 많아요. 적은 CSS를 사용하고 모든 것에 클래스를 부착하지 마세요.
@@ -406,7 +802,18 @@ Google은 하드웨어를 그냥 투입하는 것만으로 해결할 수 있는 
 
 웹사이트의 90% 이상이 속도에 있어 코드 크기, 코드 복잡성, 개별 파일 수 및 전체 파일 크기 등과 관련이 있어요. 이 중에서 파일 크기는 실제로 지난 10년 동안 가장 큰 문제가 될 수도 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파일 수를 살펴보세요. HTML 파일의 크기와 전달하려는 실제 내용을 비교해 보세요. 전체 코드 양과 작업과 비교해서 얼마나 많은 코드가 있는지 살펴보세요. 대부분의 "속도 문제"는 여기서 기인합니다. 계속 말하고 있는 것처럼, 블라인드로 코드를 복사하거나 붙여넣기하여 "프레임워크 덤비"하거나 HTML, CSS, JavaScript를 제대로 사용하는 가장 기본적인 개념에 대한 무지의 결과입니다.
 

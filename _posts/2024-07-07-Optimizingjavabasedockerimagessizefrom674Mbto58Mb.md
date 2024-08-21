@@ -3,16 +3,13 @@ title: "674Mb에서 58Mb로 자바 기반 도커 이미지 최적화하는 방�
 description: ""
 coverImage: "/assets/img/2024-07-07-Optimizingjavabasedockerimagessizefrom674Mbto58Mb_0.png"
 date: 2024-07-07 13:49
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-Optimizingjavabasedockerimagessizefrom674Mbto58Mb_0.png
 tag: Tech
 originalTitle: "Optimizing java base docker images size from 674Mb to 58Mb"
 link: "https://medium.com/@RoussiAbel/optimizing-java-base-docker-images-size-from-674mb-to-58mb-c1b7c911f622"
 isUpdated: true
 ---
-
-
-
 
 만약 당신이 자바 개발자이고 도커를 사용하여 애플리케이션을 패키징한다면, "hello world"와 같은 간단한 프로젝트에도 최종 이미지 크기가 상당히 커질 수 있다는 것을 눈치챘을 것입니다. 이 글에서는 자바 애플리케이션의 도커 이미지 크기를 최적화하기 위한 몇 가지 팁을 알려드릴 것입니다.
 
@@ -23,7 +20,18 @@ isUpdated: true
 
 UserController.java
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 @RestController
@@ -52,7 +60,18 @@ public class UserController {
 
 이미지 크기는 개발자 또는 조직으로서 성능에 상당한 영향을 미칠 수 있습니다. 특히 다수의 서비스가 있는 대규모 프로젝트에서 이미지 크기는 상당히 크며, 이로 인해 많은 비용과 시간이 소모될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 큰 이미지를 피해야 하는 이유 중 일부는 다음과 같습니다:
 
@@ -65,7 +84,18 @@ public class UserController {
 
 # 베이스 이미지 잘 고르기 ✌🏽
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 적용하기 전에, 언제나 어플리케이션을 패키징할 때 사용하는 베이스 이미지를 신중하게 선택해야 합니다. 선택한 베이스 이미지는 최종 이미지의 크기에 상당한 영향을 미칠 수 있습니다.
 
@@ -77,7 +107,18 @@ Java 어플리케이션을 패키징하는 데 사용할 수 있는 몇 가지 �
 
 베이스 이미지의 크기에 대한 감을 잡기 위해, 여기 openjdk:17-jdk-slim (슬림)와 eclipse-temurin:17-jdk-alpine (알파인) 이미지의 크기 비교가 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 애플리케이션 아티팩트(JAR)의 크기는 약 20MB입니다.
 
@@ -87,7 +128,18 @@ Java 어플리케이션을 패키징하는 데 사용할 수 있는 몇 가지 �
 
 ## 베이스 이미지로 openjdk:17-jdk-slim을 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 Dockerfile.base-openjdk에 대한 내용입니다.
 
@@ -116,7 +168,18 @@ Dockerfile을 정의한 후에는 다음 명령어를 사용하여 이미지를 
 docker build -t user-service .
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 사용자 서비스라는 이름의 도커 이미지가 있어야 합니다. 애플리케이션 아티팩트의 크기와 비교했을 때 이미지 크기가 상당히 큽니다. 약 674MB나 됩니다.
 
@@ -126,7 +189,18 @@ docker build -t user-service .
 
 ## eclipse-temurin:17-jdk-alpine을 베이스 이미지로 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 위에 있는 내용을 Markdown 포맷으로 수정했습니다:
 
@@ -161,7 +235,16 @@ ENTRYPOINT ["java", "-jar", "/app/app.jar"]
 
 docker build -t user-service:alpine -f Dockerfile.base-alpine . --platform=linux/amd64
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이클립스-테뮤린:17-jdk-alpine 기본 이미지를 사용하여 이미지를 빌드한 후 결과가 나왔어요.
 
@@ -171,7 +254,16 @@ docker build -t user-service:alpine -f Dockerfile.base-alpine . --platform=linux
 
 # 직접 최적화하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 잠시만요, 왜 JDK 이미지 대신 JRE 이미지를 사용할 수 없을까요?
 
@@ -181,7 +273,16 @@ docker build -t user-service:alpine -f Dockerfile.base-alpine . --platform=linux
 
 ## jlink를 사용하여 자체 JRE 이미지 빌드하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 jlink은 애플리케이션을 실행하는 데 필요한 모듈만 포함하는 사용자 정의 런타임 이미지를 만들 수 있는 도구입니다.
 
@@ -232,7 +333,16 @@ USER $APPLICATION_USER
 EXPOSE 8080
 ENTRYPOINT [ "java", "-jar", "/app/app.jar" ]
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러니까 여기서 한 일을 설명해보겠습니다:
 
@@ -245,7 +355,16 @@ ENTRYPOINT [ "java", "-jar", "/app/app.jar" ]
 
 docker build -t user-service:jlink-all-modules-temurin -f Dockerfile.jlink-all-modules.temurin .
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 다음 명령어를 실행한다면:
 
@@ -255,7 +374,16 @@ docker images user-service
 
 ![이미지](/assets/img/2024-07-07-Optimizingjavabasedockerimagessizefrom674Mbto58Mb_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 이미지가 예상대로 작동하는지 확인하려면 다음 명령을 실행해 보세요:
 
@@ -265,7 +393,16 @@ docker run -p 8080:8080 user-service:jlink-all-modules-temurin
 
 ![이미지](/assets/img/2024-07-07-Optimizingjavabasedockerimagessizefrom674Mbto58Mb_5.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 부족한 부분을 해결하는 방법 🤌🏽
 
@@ -275,7 +412,16 @@ docker run -p 8080:8080 user-service:jlink-all-modules-temurin
 
 ## 애플리케이션을 실행하는 데 필요한 모듈을 어떻게 알 수 있을까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 JDK에 포함된 jdeps 도구를 사용할 수 있습니다. jdeps는 jar 파일의 종속성을 분석하고 어플리케이션을 실행하는 데 필요한 모듈 목록을 생성하는 데 사용될 수 있는 도구입니다.
 
@@ -290,9 +436,19 @@ jdeps --ignore-missing-deps -q \
 
 이 명령은 어플리케이션을 실행하는 데 필요한 모듈 목록을 출력합니다. 우리 경우에는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```
+
 자바 기본, 컴파일러, 데스크탑, 인스트루먼트, 관리, 네이밍, 네트워크, 환경 설정, RMI, 스크립팅, 보안, SQL, JFR, 지원되지 않는 모듈을 jlink 명령어의 ALL-MODULE-PATH 대신 간단히 넣을 수 있습니다.
 
 Dockerfile.jlink-known-modules.temurin
@@ -342,8 +498,18 @@ EXPOSE 8080
 ENTRYPOINT [ "java", "-jar", "/app/app.jar" ]
 ```
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼 다음 명령어를 사용하여 이미지를 빌드할 수 있어요:
 
@@ -354,7 +520,18 @@ docker build -t user-service:jlink-known-modules-temurin -f Dockerfile.jlink-kno
 그리고 이미지 빌드 후의 크기는 다음과 같아요:
 ![이미지 크기](/assets/img/2024-07-07-Optimizingjavabasedockerimagessizefrom674Mbto58Mb_6.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 85.3MB 대신 57.8MB의 더 작은 이미지 크기를 얻었어요.
 
@@ -364,10 +541,21 @@ docker build -t user-service:jlink-known-modules-temurin -f Dockerfile.jlink-kno
 
 Dockerfile.jlink-with-jdeps.temurin
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 첫 번째 단계, 사용자정의 JRE 빌드하기
+
 ```js
 
 FROM eclipse-temurin:17-jdk-alpine AS jre-builder
@@ -439,7 +627,16 @@ ENTRYPOINT [ "java", "-jar", "/app/app.jar" ]
 
 docker build -t user-service:jlink-with-jdeps.temurin -f Dockerfile.jlink-with-jdeps.temurin . --platform=linux/amd64
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 보너스
 
@@ -449,7 +646,16 @@ docker build -t user-service:jlink-with-jdeps.temurin -f Dockerfile.jlink-with-j
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사가 도움이 되었으면 좋겠습니다. 궁금한 점이나 의견이 있으시면 트위터나 링크드인에서 연락 주세요. 또한 새로운 기사를 보시려면 제 웹사이트 https://www.abdelrani.com을 방문해 주세요.
 
@@ -459,3 +665,4 @@ docker build -t user-service:jlink-with-jdeps.temurin -f Dockerfile.jlink-with-j
 - [jlink - Oracle 공식문서](https://docs.oracle.com/en/java/javase/11/tools/jlink.html)
 - [jdeps - Oracle 공식문서](https://docs.oracle.com/en/java/javase/11/tools/jdeps.html)
 - [Java SE 11 릴리스 노트 및 문제점 - 오라클](https://www.oracle.com/java/technologies/javase/11-relnote-issues.html)
+```

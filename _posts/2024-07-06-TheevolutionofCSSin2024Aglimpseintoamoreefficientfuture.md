@@ -3,16 +3,13 @@ title: "2024년 CSS의 진화 더 효율적인 미래를 엿보다"
 description: ""
 coverImage: "/assets/no-image.jpg"
 date: 2024-07-06 02:18
-ogImage: 
+ogImage:
   url: /assets/no-image.jpg
 tag: Tech
 originalTitle: "The evolution of CSS in 2024: A glimpse into a more efficient future"
 link: "https://medium.com/@ninapepite/the-evolution-of-css-in-2024-a-glimpse-into-a-more-efficient-future-2027fa453956"
 isUpdated: true
 ---
-
-
-
 
 만약 개발자이거나 웹 개발에 관심이 있다면, 아마도 2024년에 CSS가 혁신적인 변화를 겪고 있다는 소문을 들어본 적이 있을 것입니다. 이번 업데이트는 웹 인터페이스를 디자인하고 구현하는 방법을 혁신적으로 변화시킬 수 있는 잠재력을 가지고 있습니다. 효율성과 접근성을 중시한 새로운 CSS 기능들은 복잡한 디자인을 더 쉽게 구현하고 페이지를 더 빨리 로드하는 동시에 더 적은 코드를 사용하는 미래를 약속합니다.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 내 눈에 띄는 첫 번째 변경 사항 중 하나는 스크롤에 반응하는 애니메이션을 네이티브 CSS 속성을 사용해서 구현할 수 있다는 점입니다. 이제 우리는 JavaScript의 부담 없이 매력적이고 상호작용적인 UI를 만들 수 있게 되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 scroll-timeline {

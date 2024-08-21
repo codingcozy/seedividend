@@ -3,17 +3,13 @@ title: "Vue js에서 재사용 가능한 toast 컴포넌트 만드는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How to make a reusable toast component in Vue js"
 link: "https://medium.com/@serpentarium13/how-to-toast-on-your-own-in-vue-5962c0f954d1"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/HowtomakeareusabletoastcomponentinVuejs_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 여러분도 이미 알고 계시겠지만, 웹사이트를 구축할 때 사용자 경험은 상당히 중요합니다. 사용자가 버튼이나 양식과 상호작용하거나 뭔가 잘못되었을 때, 사용자에게 그 결과를 어떤 식으로 알려주는 것이 중요하다는 것을 알고 계셔야 합니다. 그래서 작업이 완료되었고 응답이 있는 것처럼 느껴지게끔 사용자에게 통지하는 것이 중요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 종류의 요구 사항에 대한 솔루션 중 하나는 Toast입니다 - 화면의 어딘가에서 부드럽게 알려주는 간단한 팝업 알림입니다. 모든 것이 잘 되었는지 또는 끔찍한 일이 발생했는지 안내하며 최대한 빨리 페이지를 다시로드해야합니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 하지만 프로젝트에서 외부 리소스에 의존하지 않는 요구 사항이 있다면 어떨까요? 또는, 나의 경우처럼 해당 라이브러리의 내장 모듈이 없는 Nuxt 웹 사이트를 제작하고 있어서 우리의 모든 시도가 계속 오류를 발생시킨다면 어떨까요? 이 시점에서는 간단한 질문을 해결하기 위해 단순히 차분하고 손에 있는 도구로 직접 처리하는 것이 더 나을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 레시피
 
@@ -44,7 +62,18 @@ isUpdated: true
 
 로직 없이 인터페이스만으로는 작동하지 않기 때문에, 먼저 로직을 작성해 봅시다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Pinia 스토어
 
@@ -54,7 +83,18 @@ isUpdated: true
 
 Pinia를 설치하려면:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 패키지로 설치하세요 (선호하는 패키지 매니저를 선택하세요):
 
@@ -75,7 +115,18 @@ import { createPinia } from "pinia";
 const pinia = createPinia();
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. 우리 앱에 사용해 봅시다:
 
@@ -96,7 +147,18 @@ export const useToasterStore = defineStore("toaster-store", {
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 첫 번째 인수는 모든 다른 상점들 중에서 그것을 식별하는 데 사용되는 상점의 ID이고, 두 번째 인수는 상태를 보유하는 객체입니다 (중괄호 안에 있는 객체를 반환하는 화살표 함수입니다). 그리고 이 함수 내에서는 클래스의 메소드처럼 작동하는 액션도 포함되어 있습니다.
 
@@ -124,7 +186,18 @@ export default defineStore("toaster-store", {
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 좋아요! 이제 필요에 따라 상태를 변이시키는 몇 가지 메서드를 정의해 보겠습니다. 나중을 위해 상태의 양이 변경될 수 있기 때문에 먼저, 나중에 재사용할 수 있도록 상점의 핵심인 컨트롤러와 유사한 메서드를 정의해야 합니다.
 
@@ -137,7 +210,18 @@ type ToastPayload = { timeout?: number, text: string };
 
 다음으로, 파일의 맨 위에 위치한 함수(상점 내부가 아닌)로 토스트 객체를 생성하는 방법이 필요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const createToast = (text: string, status: TToastStatus): IToast => ({
@@ -155,7 +239,18 @@ const createToast = (text: string, status: TToastStatus): IToast => ({
 const defaultTimeout: number = 2000;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 저희 함수가 여기 나왔어요!
 
@@ -185,7 +280,18 @@ actions: {
 - 생성된 토스트를 상태 배열에 추가
 - 제공된 시간이 종료되거나(널 병합 연산자를 사용하여) 제공되지 않은 경우—기본 시간이 지난 후 토스트를 상태 배열에서 제거하기 위해 지연 시간을 설정합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그렇게 하면 앱에서 손쉽게 사용할 수 있는 세 가지 독립적인 메서드를 만들 수 있게 됩니다. 이러한 메서드는 상태를 직접 변이(mutate)하는 메서드 위에 추상화된 종류의 역할을 하며, 앞으로 상태가 예측 불가능한 방식으로 변이되지 않도록 합니다.
 
@@ -207,7 +313,18 @@ error(payload: ToastPayload) {
 
 마지막으로 useToasterStore 파일은 다음과 같이 보입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { defineStore } from "pinia";
@@ -266,7 +383,18 @@ export default defineStore("toaster-store", {
 
 먼저, 뷰를 만드는 데 필요한 단계를 논의해보겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - store를 초기화하고 사용할 SFC (Single File Component)을 만듭니다.
 - 화면의 오른쪽 하단에 (우리를 위해 설정되어 있는) 토스트를 위한 컨테이너를 만듭니다. 이후 조정할 수 있으며, 특정 옵션을 추가할 수도 있습니다.
@@ -295,7 +423,18 @@ export default defineStore("toaster-store", {
 
 여기에서 우리는 몇 가지를 사용합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - `Teleport` 컴포넌트는 우리의 토스트를 #app div 바깥에 렌더링할 수 있게 해줍니다. 모달과 마찬가지로 앱 위에 모든 것을 다른 DOM 노드로 생성하고 싶다는 점이 중요합니다:
 
@@ -326,7 +465,18 @@ const icon = defineAsyncComponent(
 <style scoped lang="scss"></style>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이해하기 쉽고 타입 안전하며 재사용 가능하기 때문에 여기저기서도 활용할 수 있어요 :) 기사 맨 아래에서 레포지토리에서 SVG 파일을 받아도 돼요.
 
@@ -371,7 +521,18 @@ const icon = defineAsyncComponent(
 
 여기서는 position: fixed와 bottom, right 속성을 적용하여 화면의 오른쪽 하단에 토스트를 위치시켜요. 그리고 z-index를 100으로 지정하여 대부분의 (하지만 modal과 같은 것은 아님) 요소들 위에 나타나도록 해요. 목록에는 패딩을 조금 주고, display: flex 및 flex-direction: column 속성을 주어 토스트가 수직으로 배치되도록 만들었어요. 아이콘과 텍스트도 스타일링했어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 토스트 유형에 따라 색상과 아이콘 결정하기
 
@@ -385,7 +546,18 @@ else if(type === 'c') ...
 
 맵은 단순한 객체일 뿐입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const toastColorMap: Record<TToastStatus, string> = {
@@ -421,7 +593,18 @@ const toastIconMap: Record<TToastStatus, string> = {
 
 여기서 v-for 루프의 각 항목에서 toast.status 필드를 사용하여 맵에서 해당 값에 액세스합니다. 주의할 점은 div에서 템플릿 리터럴 대신 배열을 사용하고 있습니다. 코드를 읽기 쉽게하는 방법입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막으로, 아래 스타일 시트에서 지도에서 사용하는 클래스를 정의해 봅시다. 우리는 매번 중복되는 코드를 재작성하지 않고 토스트의 색상을 동적으로 변경하기 위해 CSS 변수를 사용할 것입니다.
 
@@ -567,7 +750,18 @@ const toastStore = useToasterStore();
 </style>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자, 이제 보기 좋지 않게 만든 버튼을 만들고 토스트를 확인해 봅시다!
 
@@ -594,7 +788,18 @@ const successToast = () => toasterStore.success({ text: "야후!" });
 
 그리고, 타다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/HowtomakeareusabletoastcomponentinVuejs_3.png)
 
@@ -604,7 +809,18 @@ const successToast = () => toasterStore.success({ text: "야후!" });
 
 끝났다고 생각되지만, 한 가지 중요한 부분이 남아있습니다 — 애니메이션. 애니메이션이 없으면 토스트가 정적이고 둔한 느낌이 들어, 이른바 워드프레스 웹사이트에 나타나는 무작위 광고 알림처럼 갑자기 나타납니다. 이것을 고쳐봐요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아이템 목록에 애니메이션을 추가하려면 Vue에서 TransitionGroup이라는 특별한 API가 있어요. 이를 사용하면 아이템이 목록에 들어오거나 나갈 때 애니메이션을 매우 쉽게 정의할 수 있어요. Toaster.vue 컴포넌트에 이를 구현해봅시다:
 
@@ -694,7 +910,18 @@ const toastStore = useToasterStore();
 - `TransitionGroup`은 순서가 없는 목록 요소(렌더링된 것을 `ul`로 표시하도록 tag="ul"을 추가했어요)로 설정되었습니다. 또한 동일한 이름을 가지고 있어요.
 - 그리고 컴포넌트가 오른쪽에서 슬라이드하여 투명하게 나타날 때 및 이탈할 때 오른쪽으로 슬라이드되고 희미하게 사라지도록 하는 몇 가지 스타일이 추가되었어요. `Transition`와 `TransitionGroup`는 내부에서 DOM에 진입하거나 나가는 요소에 해당 클래스를 적용할 것이므로 이러한 속성에 스타일을 적용하면 동일하게 애니메이션을 적용하도록 하는 것과 같아요. 다르게 처리하려면 클래스별로 스타일을 조정할 수 있어요(여기에서 자세히 읽기)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자, 이제 토스트를 터트려 봅시다!
 
@@ -704,6 +931,17 @@ const toastStore = useToasterStore();
 
 안녕하세요, 이 글을 읽어주셔서 감사합니다. 이 글에 대한 코드는 다음 저장소에서 확인할 수 있어요: https://github.com/Serpentarius13/toast-tutorial. 무언가를 배운 것이 있다면 좋아요를 눌러주세요. 이 글을 공유하고 싶다면 함께 공유해주세요. 좋은 하루 되세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](https://miro.medium.com/v2/resize:fit:484/1*cRcpROx-HfBUSamYwytqfQ.gif)

@@ -3,17 +3,13 @@ title: "Angular v17에서 스켈레톤 로더 활용하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Learn how to use a skeleton loader with Angular v17"
 link: "https://medium.com/@akhilabhinav/learn-how-to-use-a-skeleton-loader-with-angular-9414da7bb215"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](https://miro.medium.com/v2/resize:fit:800/1*r4hE6o-YvNclNlJQdb8isw.gif)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 매 순간이 중요한 시대에서, 더 빠른 웹 사이트의 요구는 이제껏 더 중요하지 않았습니다. 사용자는 즉각적인 만족을 기대하며, 페이지 로드에 대한 지연은 분노와 포기로 이어질 수 있습니다. 전통적인 로딩 스피너와 빈 화면만으로는 충분하지 않습니다. Skeleton Loader가 등장합니다 — 사용자들이 콘텐츠 로딩 중에 참여하고 있도록 유지하는 가벼우면서 시각적으로 매력적인 솔루션입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 스켈레톤 로더 이해하기: 로딩 스피너 이상의 기능
 
@@ -35,7 +42,18 @@ isUpdated: true
 - 부드러운 전환: 스켈레톤에서 실제 콘텐츠로의 점진적 전환은 시각적으로 즐거운 경험을 제공하며, 지각된 로딩 시간을 줄입니다.
 - 참여 유지: 사용자가 내용이 완전히 로드되기 전에도 차후 콘텐츠를 시각화할 수 있을 때 더 오래 참여할 가능성이 높아집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Angular에서 Skeleton Loaders 구현하기: 단계별 안내
 
@@ -45,7 +63,18 @@ isUpdated: true
 
 구현에 앞서, Angular 프로젝트가 작동 중인지 확인하세요. Angular CLI를 사용하여 새 프로젝트를 생성할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 ng new your-skeleton-loader-app
@@ -60,7 +89,18 @@ ng add ngx-skeleton-loader
 
 # 단계 2: 기본 구현
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 간단한 Skeleton Loader가 포함된 구성 요소를 만들어봅시다. 예를 들어, 표시할 기사 목록이 있다고 가정해보겠습니다.
 
@@ -93,7 +133,18 @@ export class ArticleListComponent implements OnInit {
 
 이제 템플릿에 Skeleton Loader를 통합하여 부드러운 로딩 경험을 제공해보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <!-- article-list.component.html -->
@@ -118,7 +169,18 @@ export class ArticleListComponent implements OnInit {
 
 Angular 애플리케이션에서 스켈레톤 로더가 사용자 경험을 크게 향상시킬 수 있는 실용적인 시나리오를 살펴봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 예시 1: 사용자 프로필
 
@@ -144,7 +206,18 @@ Angular 애플리케이션에서 스켈레톤 로더가 사용자 경험을 크�
 
 # 예시 2: 제품 카탈로그
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 전자 상거래 애플리케이션에서는 제품 목록을 표시하는 데 제품 세부 정보와 이미지가 필요하여 시간이 걸릴 수 있습니다. 스켈레톤 로더를 사용하면 제품 이미지 및 정보를 위한 자리 표시자를 표시하여 사용자 관심을 유지할 수 있습니다.
 
@@ -172,7 +245,18 @@ Angular 애플리케이션에서 스켈레톤 로더가 사용자 경험을 크�
 
 요약하면, 스켈레톤 로더는 더 빠르고 매력적인 Angular 애플리케이션을 만드는 데 개발자의 강력한 도구로 등장했습니다. 로딩 기간 동안 콘텐츠 구조의 미리보기를 제공함으로써, 스켈레톤 로더는 사용자들의 인지 성능을 크게 향상시키고 전반적인 사용자 만족도를 향상시킵니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앵귤러 애플리케이션을 최적화하기 위한 여정에 들어가실 때, 스켈레톤 로더를 통합하여 원할하고 즐거운 사용자 경험을 만들어보세요. 사용자 인터페이스를 높여서 이탈률을 줄이고, 로딩 과정 전체를 수강 중인 관객들이 지루해하지 않도록 유지하세요.
 

@@ -3,17 +3,13 @@ title: "디자이너에게 유용한 UIUX 디자인 서적"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Useful UI UX design books"
 link: "https://medium.com/@radu_me/useful-ui-ux-design-books-90dcd4ec4d66"
 isUpdated: true
 ---
-
-
-
-
 
 다음 수준의 디자인 스킬을 향상시키는 UI/UX 책들을 소개합니다
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ![UsefulUIUXdesignbooks_1](/assets/img/UsefulUIUXdesignbooks_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 시니어 프로덕트 디자이너로 가는 길
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ![이미지](/assets/img/UsefulUIUXdesignbooks_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # UX 초보자를 위한 디자인 씽킹 소개
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 ![이미지](/assets/img/UsefulUIUXdesignbooks_5.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 사용자 경험을 위한 전략적 글쓰기
 

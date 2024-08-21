@@ -3,17 +3,13 @@ title: "앵귤러에서의 로컬 변경되었을 때 감지하는 방법"
 description: ""
 coverImage: "/assets/img/2024-05-17-LocalChangeDetectioninAngular_0.png"
 date: 2024-05-17 21:16
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-17-LocalChangeDetectioninAngular_0.png
 tag: Tech
 originalTitle: "Local Change Detection in Angular"
 link: "https://medium.com/ngconf/local-change-detection-in-angular-410d82b38664"
 isUpdated: true
 ---
-
-
-
-
 
 ![Local Change Detection in Angular](/assets/img/2024-05-17-LocalChangeDetectioninAngular_0.png)
 
@@ -23,8 +19,18 @@ These Signals are instrumental in Angular’s shift from a component-centric ren
 
 From a framework’s perspective, the render process is just a side effect of a Signal change. By reacting to the Signals, Angular knows exactly when and what to update.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그것을 달성하기 위해서, 새로운 유형의 컴포넌트가 필요합니다. 새로운 Signal Component를 사용하면 Change Detection을 일으키는 것이 zone.js가 아니라 신호 자체가 됩니다.
 
@@ -34,7 +40,18 @@ From a framework’s perspective, the render process is just a side effect of a 
 
 글을 읽는 것보다 비디오를 선호하신다면, 여기에 하나가 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 성능이 떨어지는 변경 감지
 
@@ -44,7 +61,18 @@ zone.js는 DOM 이벤트가 발생하거나 비동기 작업이 완료될 때 �
 
 변경 감지는 전체 컴포넌트 트리를 통과하고 변경 사항을 검색해야 합니다. 변경 사항을 감지하면 해당 DOM 노드를 업데이트합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 전혀 변화가 없을 때도 변경 감지가 실행되므로 성능이 그리 좋지 않습니다.
 
@@ -54,71 +82,84 @@ zone.js는 DOM 이벤트가 발생하거나 비동기 작업이 완료될 때 �
 
 ```typescript
 @Component({
-  selector: 'app-list',
+  selector: "app-list",
   template: `
+    <div>
+      <mat-table [dataSource]="dataSource">
+        <ng-container matColumnDef="title">
+          <mat-header-cell *matHeaderCellDef> Title</mat-header-cell>
+          <mat-cell *matCellDef="let element">{ element.title }</mat-cell>
+        </ng-container>
+        <ng-container matColumnDef="description">
+          <mat-header-cell *matHeaderCellDef> Country</mat-header-cell>
+          <mat-cell *matCellDef="let element">{ element.description }</mat-cell>
+        </ng-container>
+        <mat-header-row *matHeaderRowDef="displayedColumns" />
+        <mat-row *matRowDef="let row; columns: displayedColumns" />
+      </mat-table>
       <div>
-          <mat-table [dataSource]="dataSource">
-              <ng-container matColumnDef="title">
-                  <mat-header-cell *matHeaderCellDef> Title</mat-header-cell>
-                  <mat-cell *matCellDef="let element">{ element.title }</mat-cell>
-              </ng-container>
-              <ng-container matColumnDef="description">
-                  <mat-header-cell *matHeaderCellDef> Country</mat-header-cell>
-                  <mat-cell *matCellDef="let element">{ element.description }</mat-cell>
-              </ng-container>
-              <mat-header-row *matHeaderRowDef="displayedColumns"/>
-              <mat-row *matRowDef="let row; columns: displayedColumns;"/>
-          </mat-table>
-          <div>
-              @if (lastUpdate) {
-                  <app-timer [lastUpdate]="lastUpdate"></app-timer>
-              }
-              <button mat-raised-button color="primary" (click)="refresh()">Refresh</button>
-          </div>
+        @if (lastUpdate) {
+        <app-timer [lastUpdate]="lastUpdate"></app-timer>
+        }
+        <button mat-raised-button color="primary" (click)="refresh()">Refresh</button>
       </div>
-      {logCd()}
+    </div>
+    {logCd()}
   `,
   standalone: true,
-  imports: [MatTableModule, MatButtonModule, TimerComponent]
+  imports: [MatTableModule, MatButtonModule, TimerComponent],
 })
 export class ListComponent implements OnInit {
-  lastUpdate: Date | undefined
+  lastUpdate: Date | undefined;
   dataSource = new MatTableDataSource<Holiday[]>([]);
-  displayedColumns = ['title', 'description'];
+  displayedColumns = ["title", "description"];
   ngOnInit() {
-    this.refresh()
+    this.refresh();
   }
   refresh() {
-    fetch('https://api.eternal-holidays.net/holiday').then(res => res.json()).then(value => {
-      this.lastUpdate = new Date();
-      this.dataSource.data = value;
-    });
+    fetch("https://api.eternal-holidays.net/holiday")
+      .then((res) => res.json())
+      .then((value) => {
+        this.lastUpdate = new Date();
+        this.dataSource.data = value;
+      });
   }
   logCd() {
-    console.log('cd from list');
+    console.log("cd from list");
   }
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 @Component({
-  selector: 'app-timer',
+  selector: "app-timer",
   template: `<span>Last Updated: { lastUpdateInSeconds | number:'1.0-0' } Seconds</span> { logCd() }`,
   standalone: true,
-  imports: [DatePipe, DecimalPipe]
+  imports: [DatePipe, DecimalPipe],
 })
 export class TimerComponent {
   @Input() lastUpdate = new Date();
-  lastUpdateInSeconds = 0
+  lastUpdateInSeconds = 0;
   constructor() {
     setInterval(() => {
       this.lastUpdateInSeconds = (new Date().getTime() - this.lastUpdate.getTime()) / 1_000;
     }, 1000);
   }
   logCd() {
-    console.log('log from timer');
+    console.log("log from timer");
   }
 }
 ```
@@ -129,8 +170,18 @@ TimerComponent은 매 초 간격으로 lastUpdateInSeconds를 업데이트합니
 
 즉, Angular는 매 초 ListComponent를 불필요하게 확인합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 컴포넌트의 logCd()은 체크가 실행될 때 마다 로그를 남깁니다. 현재로서는 매우 빈번하게 로그를 남깁니다.
 
@@ -140,7 +191,18 @@ Component 데코레이터의 인기 있는 설정 중 하나는 ChangeDetectionS
 
 컴포넌트가 "더러워"지는 일반적인 기준은:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 입력값이 객체 참조를 변경합니다.
 - 컴포넌트가 이벤트 핸들러를 실행합니다. 이벤트 핸들러가 없는 요소를 클릭하는 것만으로는 충분하지 않습니다.
@@ -153,8 +215,18 @@ Angular가 컴포넌트를 "더티" 상태로 표시하면 해당 부모 컴포�
 
 다음 그림은 OnPush와 기본 전략을 사용한 변경 감지의 차이를 보여 줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Local Change Detection in Angular](/assets/img/2024-05-17-LocalChangeDetectioninAngular_2.png)
 
@@ -164,8 +236,18 @@ Angular가 컴포넌트를 "더티" 상태로 표시하면 해당 부모 컴포�
 
 따라서 TimerComponent가 ListComponent의 자식 요소인 한, 변경 감지는 ListComponent를 통과하여 해당 요소도 확인해야 합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 함께 해요
 
@@ -175,7 +257,18 @@ TimerComponent는 어떤 기준(위의 목록 참조)도 해당되지 않아 '�
 
 새로 고침을 클릭하면 TimerComponent에서도 변경 감지가 트리거되는 것을 볼 수 있어요. 이는 @Input이 새 참조로 업데이트되었기 때문이에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 "Updated" 텍스트를 클릭하면 아무 변화가 없다는 것을 알 수 있어요. DOM 이벤트를 발생시켰지만 내부적으로 해당 이벤트를 처리할 이벤트 핸들러가 없어요.
 
@@ -185,29 +278,38 @@ TimerComponent는 어떤 기준(위의 목록 참조)도 해당되지 않아 '�
 
 ```js
 @Component({
-  selector: 'app-timer',
-  template: `<span class="px-2">Last Updated: { lastUpdateInSeconds$ | async | number:'1.0-0' }
-      Seconds</span> { logCd() }`,
+  selector: "app-timer",
+  template: `<span class="px-2">Last Updated: { lastUpdateInSeconds$ | async | number:'1.0-0' } Seconds</span> { logCd()
+    }`,
   standalone: true,
   changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [
-    DatePipe,
-    DecimalPipe,
-    AsyncPipe
-  ]
+  imports: [DatePipe, DecimalPipe, AsyncPipe],
 })
 export class TimerComponent {
   @Input() lastUpdate = new Date();
 
-  lastUpdateInSeconds$ = interval(1000).pipe(map(() => this.lastUpdateInSeconds = (new Date().getTime() - this.lastUpdate.getTime()) / 1_000))
+  lastUpdateInSeconds$ = interval(1000).pipe(
+    map(() => (this.lastUpdateInSeconds = (new Date().getTime() - this.lastUpdate.getTime()) / 1_000))
+  );
 
   logCd() {
-    console.log('log from timer');
+    console.log("log from timer");
   }
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금부터 타이머가 매 초 업데이트되어야 합니다. 만약 동기부여를 받았다면 컴포넌트에서 구독을 시도해 보세요. 그러면 변경 감지가 더 이상 컴포넌트를 확인하지 않음을 알 수 있을 것입니다.
 
@@ -217,7 +319,18 @@ export class TimerComponent {
 
 Angular 17와 신호를 발견하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앵귤러 팀이 17번 버전을 릴리스하기 일주일 전에, 로컬 변경 감지를 추가했습니다. 이 기능은 우리의 사용 사례에 완벽하게 어울립니다.
 
@@ -227,8 +340,18 @@ Angular 17와 신호를 발견하세요.
 
 아래 그림은 이 새로운 기능을 보여줍니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Local Change Detection in Angular](/assets/img/2024-05-17-LocalChangeDetectioninAngular_4.png)
 
@@ -236,15 +359,15 @@ OnPush를 추가하고 TimerComponent를 Signals로 리팩토링한 코드입니
 
 ```javascript
 @Component({
-  selector: 'app-timer',
-  template: `<span>Last Updated: {{ lastUpdateInSeconds() | number:'1.0-0' }} Seconds</span> {{ logCd() }}`,
+  selector: "app-timer",
+  template: `<span>Last Updated: {{ lastUpdateInSeconds() | number : "1.0-0" }} Seconds</span> {{ logCd() }}`,
   standalone: true,
   changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [DatePipe, DecimalPipe, AsyncPipe]
+  imports: [DatePipe, DecimalPipe, AsyncPipe],
 })
 export class TimerComponent {
   @Input() lastUpdate = new Date();
-  lastUpdateInSeconds = signal(0)
+  lastUpdateInSeconds = signal(0);
   constructor() {
     setInterval(() => {
       this.lastUpdateInSeconds.set((new Date().getTime() - this.lastUpdate.getTime()) / 1_000);
@@ -252,15 +375,25 @@ export class TimerComponent {
   }
 
   logCd() {
-    console.log('log from timer');
+    console.log("log from timer");
   }
 }
 ```
 
 ListComponent도 OnPush여야 합니다. 그렇지 않으면 Change Detection이 항상 확인합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 지금 페이지를 새로고침하면, 타이머가 작동 중이지만 목록은 한 번만 확인되었습니다. 이제 "새로고침" 버튼을 클릭하면 ListComponent에서 처리되는 DOM 이벤트를 트리거합니다. 따라서 변경 감지는 해당 컴포넌트에 대해... 두 번 실행됩니다.
 
@@ -270,7 +403,18 @@ ListComponent도 OnPush여야 합니다. 그렇지 않으면 Change Detection이
 
 # 요약
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로컬 변경 감지는 강력한 기능입니다. 변경 감지에서 어떤 구성 요소가 검사를 거쳐야 하는지 정확히 정의할 수 있습니다.
 
@@ -280,7 +424,18 @@ Angular 17에서만 사용 가능하며 OnPush 및 신호를 모두 사용해야
 
 데모 저장소는 다음에서 확인할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 감사의 말씀
 

@@ -3,16 +3,13 @@ title: "나만의 OpenTelemetry Docker 이미지 제작 방법"
 description: ""
 coverImage: "/assets/img/2024-07-07-BuiltmyownOpenTelemetryDockerimage_0.png"
 date: 2024-07-07 23:36
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-BuiltmyownOpenTelemetryDockerimage_0.png
 tag: Tech
 originalTitle: "Built my own OpenTelemetry Docker image"
 link: "https://medium.com/@lyd0ng/built-my-own-opentelemetry-docker-image-dc6f35257c80"
 isUpdated: true
 ---
-
-
-
 
 오픈텔레메트리는 요즘 로깅, 메트릭 및 추적에 대한 최신 유행어가 되었어요. 간단히 말하면, '관측 가능성'입니다. 저는 ECS에서 실행 중인 애플리케이션을 가지고 있는데, 모든 ECS 컨테이너가 로그를 보낼 수 있는 중앙 집중식 오픈텔레메트리 수집기를 개발하고 싶어요. 이렇게 하면 비용을 줄이고 각 ECS 서비스마다 하나의 사이드카 OTel 수신기를 추가 관리할 필요도 없어져요.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 아래는 핵심 계정에 ECR 저장소를 설정하는 CloudFormation 템플릿입니다. 여기에 기본 OTel 이미지가 저장될 거예요. 저장소 정책과 함께 라이프사이클 정책도 구성해놓았어요. 이를 통해 한 번에 5개 이상의 이미지를 저장하지 않도록 하여 비용을 절약하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 AWSTemplateFormatVersion: "2010-09-09"
@@ -113,8 +121,18 @@ ENTRYPOINT [ "/etc/otel/bin/otel-collector" ]
 
 이미지가 빌드되어 코어 계정의 ECR에 업로드되면, 이제 애플리케이션 계정의 OTel 구성 파일을 사용하여 테스트할 때가 왔어요! 지금 할 일은 OTel 구성 파일을 Dockerfile 아래에 복사하는 거에요. 그럼 이 Dockerfile은 애플리케이션 계정의 ECR 리포지토리에 빌드되고 푸시될 거에요.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 FROM <CORE-ACCOUNT-OTEL-ECR-URI>:latest

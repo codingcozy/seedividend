@@ -3,17 +3,13 @@ title: "플러터 동적 UI를 위한 Leveraging Extensions 활용하기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Advanced Theming Techniques in Flutter Leveraging Extensions for Dynamic UIs"
 link: "https://medium.com/nonstopio/advanced-theming-techniques-in-flutter-leveraging-extensions-for-dynamic-uis-d7f4e92bc664"
 isUpdated: true
 ---
-
-
-
-
 
 ![Advanced Theming Techniques in Flutter](/assets/img/AdvancedThemingTechniquesinFlutterLeveragingExtensionsforDynamicUIs_0.png)
 
@@ -26,7 +22,18 @@ isUpdated: true
 - 테마 확장 생성
 - 테마 확장을 사용한 라이트 및 다크 모드 구현
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 플러터에서 기본 ThemeData 사용 시 발생하는 도전 과제는 무엇인가요?
 
@@ -36,7 +43,18 @@ isUpdated: true
 
 테마 확장을 통해 앱의 전반적인 디자인 언어와 완벽하게 통합되는 사용자 정의 테마 구성 요소를 정의할 수 있습니다. 이러한 구성 요소는 앱 내에서 특정 사용 사례를 지원하며 모듈화와 코드 구성을 촉진합니다. 가장 좋은 점은 추가적인 보일러플레이트 코드가 필요하지 않도록 Theme.of(context)를 통해 직접 활용할 수 있다는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 테마 확장 생성
 
@@ -80,7 +98,18 @@ class AppColorTheme extends ThemeExtension<AppColorTheme> {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자, 이제 우리 앱 색상 테마 확장 기능을 실제 테마 데이터에 통합해 봅시다. 이를 위해 ThemeData 객체의 확장 속성에 AppColorTheme 인스턴스를 추가합니다. 이렇게 하면 사용자 정의 색상을 앱 전반에 걸쳐 사용할 수 있게 됩니다.
 
@@ -117,7 +146,18 @@ MaterialApp(
 ),
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 추천하는 방법(Null-Safe 및 편리):✅🔥
 
@@ -141,7 +181,18 @@ Container(
 ),
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 방식은 플러터 애플리케이션에서 코드의 가독성, 유지 관리성, 그리고 널 안전성을 촉진합니다.
 
@@ -151,7 +202,18 @@ Container(
 
 앱에서 라이트 모드와 다크 모드를 모두 지원하는 것이 점점 더 중요해지고 있습니다. 테마를 활용하면 다양한 테마를 갖는 앱을 쉽게 개발할 수 있습니다. 이 기사는 ThemeExtension을 활용하여 두 가지 모드를 모두 갖춘 앱을 만드는 방법에 대해 안내해 드립니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1. 사용자 정의 확장 프로그램을 위해 밝은 모드(light mode)와 어두운 모드(dark mode) 테마 정의하기
 
@@ -207,7 +269,18 @@ class AppShadowTheme extends ThemeExtension<AppShadowTheme> {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 게다가, 어떤 모드에 대해 팩토리를 활용하거나 특정 스타일이나 색상을 전달하기 위해 팩토리 메서드를 사용할 수도 있습니다. 다음 예시에서 AppGradientTheme 클래스를 사용한 방법을 보여드리겠습니다. 이 예시는 색 구성표를 기반으로 그라데이션 테마를 사용자 정의하는 방법을 보여줍니다:
 
@@ -247,7 +320,18 @@ ThemeExtension 내에서 copyWith 메서드를 포함하는 것은 중요합니�
 
 유사한 방식으로 필요에 따라 사용자 정의 ThemeExtension을 원하는 만큼 만들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 테마 확장 구현
 
@@ -266,7 +350,18 @@ extension ThemeDataExtension on ThemeData {
 
 3. 앱에서 테마 확장 적용
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 플러터 앱 내에서 테마 확장(extension)을 통합하려면, ThemeData 내에서 초기화해야 합니다. 아래 예시는 AppShadowTheme과 AppGradientTheme을 테마 데이터에 통합하는 방법을 보여줍니다. 이를 통해 밝은(light) 테마와 어두운(dark) 테마를 일관된 방식으로 관리할 수 있습니다.
 
@@ -325,7 +420,18 @@ MaterialApp(
      ),
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. 위젯에서 테마 활용하기
 
@@ -341,7 +447,18 @@ Container(
 
 5. 시스템 설정에 따라 테마 적응하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현재 시스템 설정과 일치하는 앱 테마를 사용하려면 MaterialApp 구성 내에 ThemeMode 속성을 통합하세요. 이렇게 하면 앱이 사용자의 시스템 환경설정에 따라 동적으로 기기의 테마(라이트 또는 다크)와 일치합니다.
 
@@ -363,7 +480,18 @@ ThemeMode themeMode =
           : ThemeMode.dark;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 방법을 사용하면 응용 프로그램이 사용자의 선호하는 시스템 테마와 완벽하게 통합되어 일관된 사용자 경험을 제공합니다.
 
@@ -373,6 +501,17 @@ ThemeMode themeMode =
 
 完整한 예제는 이 GitHub 저장소를 확인해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결론적으로, Flutter에서 테마를 구현하고 관리하는 것은 ThemeExtensions를 통해 ThemeData를 확장할 수 있는 유연성을 갖추어 앱의 시각적 일관성과 사용자 경험을 크게 향상시킵니다. 라이트 모드와 다크 모드를 위한 테마 확장의 힘을 이용하고 앱 테마를 시스템 설정과 일치시킴으로써, 개발자는 사용자 기호와 공명하는 연속적이고 직관적인 인터페이스를 제공할 수 있습니다. 본 문서는 수동 테마 전환 방법을 깊이 있게 다루지는 않았지만, 제시된 방법은 앱 테마를 동적으로 적응시키는 견고한 기반을 제공합니다. 이러한 접근을 받아들이는 것은 당신의 Flutter 앱 디자인을 한 단계 더 성장시키는 데 그치지 않고, 현대적인 앱 개발 표준에 부합하여 앱이 가능한 한 사용자 친화적이고 심미적으로 뛰어나게 하는 것을 보장합니다.

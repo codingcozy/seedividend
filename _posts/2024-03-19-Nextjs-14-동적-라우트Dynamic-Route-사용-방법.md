@@ -3,17 +3,13 @@ title: "Nextjs 14 동적 라우트Dynamic Route 사용 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # Nextjs 14 동적 라우트(Dynamic Route) 사용 방법
 
@@ -27,7 +23,18 @@ isUpdated: true
 
 동적 세그먼트는 레이아웃(layout), 페이지(page), 라우트(route), generateMetadata 함수의 params 속성으로 전달됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 예시
 
@@ -49,7 +56,18 @@ export default function Page({ params }: { params: { slug: string } }) {
 
 > 참고: 동적 세그먼트는 페이지 디렉터리의 동적 라우트와 동일합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 정적 params 생성
 
@@ -71,7 +89,18 @@ generateStaticParams 함수의 주요 장점은 데이터를 스마트하게 검
 
 더 많은 정보와 고급 사용 사례에 대한 generateStaticParams 서버 함수 문서를 참조하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Catch-all 세그먼트
 
@@ -100,7 +129,18 @@ Catch-all과 선택적 catch-all 세그먼트의 차이점은 선택적으로 �
 | app/shop/[[...slug]]/page.js | /shop/a/b   | { slug: ['a', 'b'] }      |
 | app/shop/[[...slug]]/page.js | /shop/a/b/c | { slug: ['a', 'b', 'c'] } |
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## TypeScript
 

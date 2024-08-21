@@ -3,17 +3,13 @@ title: "리액트로 단일 로그인SSO 애플리케이션 만들기단계별 �
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Building a Single Sign-On SSO Application with React A Step-by-Step Guide"
 link: "https://medium.com/@Has_San/building-a-single-sign-on-sso-application-with-react-a-step-by-step-guide-76ee6df2fb19"
 isUpdated: true
 ---
-
-
-
-
 
 싱글 사인 온(SSO)은 현대 웹 개발에서 중요한 구성 요소로, 사용자 경험을 향상시키는 역할을 합니다. 하나의 자격 증명 집합으로 여러 애플리케이션 간에 원활한 인증을 가능하게 함으로써 사용자에게 많은 혜택을 제공합니다. React를 사용하여 인기있는 OAuth 2.0과 같은 인증 프로토콜을 활용하여 기본 SSO 애플리케이션을 만들어 봅시다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 SSO의 주요 구성 요소:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Identity Provider (IdP): 사용자를 인증하고 신원 정보를 제공하는 주체입니다. IdP는 사용자의 신원을 증명하는 데 사용할 수있는 토큰이나 주장을 발행합니다.
 - Service Provider (SP): 인증을 위해 IdP에 의존하는 응용 프로그램이나 서비스입니다. SP는 IdP가 제공한 신원 정보를 신뢰하고 해당 신뢰에 기초하여 액세스를 부여합니다.
@@ -44,7 +51,18 @@ SSO를 구현하는 이유:
 
 SSO없이
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/BuildingaSingleSign-OnSSOApplicationwithReactAStep-by-StepGuide_0.png)
 
@@ -56,7 +74,18 @@ SSO없이
 - React.js
 - 텍스트 편집기(예: Visual Studio Code)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # React 앱 설정하기
 
@@ -69,7 +98,18 @@ cd sso-app
 
 인증 및 라우팅을 처리하기 위한 필요한 종속성을 설치하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm install react-router-dom axios
@@ -87,14 +127,12 @@ const API_URL = "https://your-auth-server.com";
 
 class AuthService {
   login(username, password) {
-    return axios
-      .post(`${API_URL}/login`, { username, password })
-      .then((response) => {
-        if (response.data.accessToken) {
-          localStorage.setItem("user", JSON.stringify(response.data));
-        }
-        return response.data;
-      });
+    return axios.post(`${API_URL}/login`, { username, password }).then((response) => {
+      if (response.data.accessToken) {
+        localStorage.setItem("user", JSON.stringify(response.data));
+      }
+      return response.data;
+    });
   }
 
   logout() {
@@ -109,7 +147,18 @@ class AuthService {
 export default new AuthService();
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `https://your-auth-server.com` 을 귀하의 인증 서버의 실제 URL로 대체하여 주세요.
 
@@ -141,18 +190,10 @@ const Login = ({ history }) => {
       <h2>로그인</h2>
       <form>
         <label>사용자명:</label>
-        <input
-          type="text"
-          value={username}
-          onChange={(e) => setUsername(e.target.value)}
-        />
+        <input type="text" value={username} onChange={(e) => setUsername(e.target.value)} />
 
         <label>비밀번호:</label>
-        <input
-          type="password"
-          value={password}
-          onChange={(e) => setPassword(e.target.value)}
-        />
+        <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} />
 
         <button type="button" onClick={handleLogin}>
           로그인
@@ -165,7 +206,18 @@ const Login = ({ history }) => {
 export default Login;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 보호 구성 요소 구현하기
 
@@ -201,7 +253,18 @@ export default Protected;
 
 # 경로 구성하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 App.js 파일을 수정하여 라우팅을 포함하도록 변경하였습니다:
 
@@ -229,7 +292,18 @@ export default App;
 
 # SSO 작동 방식:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인증:
 
@@ -242,7 +316,18 @@ export default App;
 - 사용자는 서비스나 애플리케이션에 액세스를 시도합니다.
 - SP는 인증이 필요하다는 것을 인식하고 사용자를 IdP로 리디렉션시킵니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 토큰 교환:
 
@@ -253,7 +338,18 @@ export default App;
 
 - SP는 IdP로부터 받은 토큰을 기반으로 사용자에게 접근을 허용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SSO를 이용하여
 

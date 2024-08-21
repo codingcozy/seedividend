@@ -3,15 +3,13 @@ title: "플러터에서 최고의 Bloc 상태 관리 파트 2"
 description: ""
 coverImage: "/assets/img/2024-05-20-BestBlocstatehandlinginFlutterpart2_0.png"
 date: 2024-05-20 23:15
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-20-BestBlocstatehandlinginFlutterpart2_0.png
 tag: Tech
 originalTitle: "Best Bloc state handling in Flutter (part 2)"
 link: "https://medium.com/@moeinmoradi.dev/best-bloc-state-handling-in-flutter-part-2-a518b68dbc65"
 isUpdated: true
 ---
-
-
 
 안녕하세요, 친구들,
 첫 번째 파트에 대한 좋은 피드백에 기쁩니다.
@@ -23,7 +21,18 @@ isUpdated: true
 
 https://medium.com/@moeinmoradi.dev/best-bloc-state-handling-in-flutter-0f95a8e89e40
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제 친구 한 명의 제안에 따라, EventStatus 클래스에 대해 좀 더 나은 컨셉을 제안하고 그 이름을 StateStatus로 변경해보겠습니다. 다음과 같이 변경해주세요.
 
@@ -60,7 +69,18 @@ class StateError<T> extends StateStatus<T> {
 
 # StateStatusLayout
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 StateStatus에 따라 다른 디자인 상태를 표시하는 클래스가 필요합니다. 이 클래스는 각 상태와 해당 위젯을 표시할 수 있어야 합니다.
 
@@ -116,7 +136,18 @@ class StateStatusLayout<T> extends StatelessWidget {
 
 그런데, StateCompleted 조건을 살펴보세요. 데이터를 표시하기 위해 StreamBuilder를 사용했습니다. 이것에 대해 어떻게 생각하시나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](https://miro.medium.com/v2/resize:fit:700/1*I6k_gZJ0KRZYR4KU22Okig.gif)
 
@@ -176,7 +207,18 @@ class ShowLayout extends StatelessWidget {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 샘플 코드에서는 Bloc이 emit() 함수로 갱신될 때 showsStatus 상태에 대한 onCompletedStatus 및 onLoadingStatus를 처리했습니다.
 

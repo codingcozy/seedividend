@@ -3,16 +3,13 @@ title: "React 앱 도커라이징 코드 예제로 간단하게 따라 하는 �
 description: ""
 coverImage: "/assets/img/2024-06-23-DockerizingaReactAppAStep-by-StepGuidewithCodeExample_0.png"
 date: 2024-06-23 13:43
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-DockerizingaReactAppAStep-by-StepGuidewithCodeExample_0.png
 tag: Tech
 originalTitle: "Dockerizing a React App: A Step-by-Step Guide with Code Example"
 link: "https://medium.com/@muhammedcuma/dockerizing-a-react-app-a-step-by-step-guide-with-code-example-3a802ea8874d"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-06-23-DockerizingaReactAppAStep-by-StepGuidewithCodeExample_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 # 전제 조건
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시작하기 전에, 저희가 컴퓨터에 다음 사전 준비물이 설치되어 있는지 확인해야 합니다:
 
@@ -33,7 +41,18 @@ isUpdated: true
 
 먼저 Create React App을 사용해 간단한 리액트 앱을 만들어 봅시다. 터미널을 열고 다음 명령어를 실행하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npx create-react-app my-react-app
@@ -45,7 +64,18 @@ npx create-react-app my-react-app
 
 앱이 생성되면 Dockerize하기 전에 빌드해야 합니다. 터미널을 열고 앱의 루트 디렉토리로 이동한 다음 다음 명령어를 실행하십시오:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm run build
@@ -57,7 +87,18 @@ npm run build
 
 다음으로 앱의 루트 디렉토리에 Dockerfile을 생성해야 합니다. Dockerfile은 앱이 실행될 환경을 지정하는 데 사용됩니다. 좋아하는 텍스트 편집기를 열고 앱의 루트 디렉토리에 Dockerfile이라는 새 파일을 생성해주세요. 파일에 다음 코드를 추가해주세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 베이스 이미지 지정
@@ -85,7 +126,18 @@ CMD ["npm", "start"]
 
 # 단계 4: Docker 이미지 빌드하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 Dockerfile이 준비되었으니 Docker 이미지를 빌드하는 데 사용할 수 있습니다. 터미널을 열고 앱의 루트 디렉토리로 이동한 다음 다음 명령을 실행하세요:
 
@@ -97,7 +149,18 @@ docker build -t my-react-app-image .
 
 # 단계 5: Docker 컨테이너 실행
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도커 이미지를 빌드했으면, 도커 컨테이너를 실행할 수 있어요. 터미널을 열고 다음 명령어를 실행해주세요:
 
@@ -109,7 +172,18 @@ docker run -p 3000:3000 my-react-app-image
 
 # 단계 6: 도커화된 React 앱 테스트하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도커화된 React 앱이 작동 중인지 확인하려면 웹 브라우저를 열고 http://localhost:3000으로 이동하십시오. 도커 컨테이너 내에서 React 앱이 실행 중인 것을 볼 수 있어야 합니다.
 
@@ -121,7 +195,18 @@ docker run -p 3000:3000 my-react-app-image
 - 터미널에서 docker login 명령을 사용하여 Docker Hub에 로그인하세요.
 - 다음 명령을 사용하여 Docker 이미지에 Docker Hub 사용자 이름 및 앱 이름을 태그하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 명령어를 사용하여 Docker 이미지를 Docker Hub에 푸시하세요:
 
@@ -129,7 +214,18 @@ docker run -p 3000:3000 my-react-app-image
 
 이제 Docker 이미지가 Docker Hub에 사용 가능해졌습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

@@ -3,17 +3,13 @@ title: "플러터 앱 개발 빠르게 앱 만들고 배포하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Flutter App Development A Comprehensive Guide to Creating and Publishing Your First App"
 link: "https://medium.com/@JorgeEGraham/flutter-app-development-a-comprehensive-guide-to-creating-and-publishing-your-first-app-af83e3336476"
 isUpdated: true
 ---
-
-
-
-
 
 이 포괄적인 안내서에서는 여러분이 처음으로 Flutter 앱을 만들고 배포하는 과정을 단계별로 안내할 것입니다. Flutter는 구글에서 제공하는 오픈 소스 모바일 앱 개발 프레임워크로, 개발자들이 iOS와 Android 모두에 대한 단일 코드베이스로 크로스 플랫폼 앱을 구축할 수 있도록 돕습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 2단계: 안드로이드 개발 환경 설정
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요! 안드로이드 스튜디오를 설치하고 필요한 안드로이드 개발 환경을 설정해보세요. 테스트를 위해 안드로이드 장치나 에뮬레이터를 구성해보세요.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 4단계: 메인 다트 파일 교체하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기본 "main.dart" 파일을 다음 코드로 바꿔주세요:
 
@@ -106,7 +124,18 @@ class _CounterAppState extends State<CounterApp> {
 
 단계 5: 안드로이드 디바이스에서 앱 실행
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Step 6: 릴리스 빌드 생성하기
 
@@ -114,7 +143,18 @@ Step 6: 릴리스 빌드 생성하기
 
 Step 7: Google Play 콘솔 계정 설정하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Google Play Console 계정을 만들고 앱 목록을 설정해보세요.
 
@@ -124,7 +164,18 @@ Google Play Console 계정을 만들고 앱 목록을 설정해보세요.
 
 단계 9: 업로드 키 생성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "keytool -genkey -v -keystore keystore.jks -keyalg RSA -keysize 2048 -validity 10000 -alias upload"을 사용하여 업로드 키를 생성하세요.
 
@@ -134,7 +185,18 @@ Google Play Console 계정을 만들고 앱 목록을 설정해보세요.
 
 11단계: 앱 발행
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앱 번들을 검토하고 프로덕션으로 롤아웃을 시작하세요.
 

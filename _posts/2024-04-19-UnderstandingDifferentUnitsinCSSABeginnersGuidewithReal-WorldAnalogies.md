@@ -3,17 +3,13 @@ title: "CSS에서 다양한 단위 사용하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Understanding Different Units in CSS A Beginners Guide with Real-World Analogies"
 link: "https://medium.com/@wasiuwazzy/understanding-different-units-in-css-a-practical-guide-with-examples-bd816ec21836"
 isUpdated: true
 ---
-
-
-
-
 
 ![Understanding Different Units in CSS: A Beginner's Guide with Real-World Analogies](/assets/img/UnderstandingDifferentUnitsinCSSABeginnersGuidewithReal-WorldAnalogies_0.png)
 
@@ -35,7 +31,18 @@ isUpdated: true
 
 아름다운 웹사이트를 만드는 웹 디자이너로 상상해보세요. 하지만 모든 것이 완벽하게 맞고, 요소가 적절하게 정렬되고, 레이아웃이 모든 기기에서 잘 보이도록 하는 방법은 무엇일까요? 이것이 케스케이딩 스타일 시트(CSS)의 단위가 중요한 역할을 하는 곳이며, 처음 보는 눈에는 혼란스러운 글자들(px, rem, em, %)로 보일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹페이지에서 요소를 디자인하고 스타일을 적용할 때 CSS의 단위를 이해하는 것이 중요합니다. 이러한 단위는 너비, 높이, 여백, 안쪽 여백, 글꼴 크기 등의 속성에 대한 측정을 정의하는 데 사용됩니다. 하지만 걱정하지 마세요! 이 기사에서는 간단한 비유를 사용하여 이러한 단위를 설명하고, 금방이라도 당신을 단위 마스터로 만들어 드립니다.
 
@@ -45,7 +52,18 @@ isUpdated: true
 
 ## 1. 픽셀 (px)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 픽셀(px)은 CSS에서 가장 기본적인 측정 단위입니다. 화면의 개별 점을 나타내며, 요소의 크기와 위치를 정의하는 작은 건물 블록처럼 작동합니다. 웹사이트를 거대한 레고 세트로 상상해보세요. 각 픽셀은 레고 블록 하나씩입니다. 픽셀은 정확한 제어를 제공하지만, 서로 다른 화면 해상도를 가진 기기 사이에 불일치가 발생할 수 있습니다.
 
@@ -60,7 +78,18 @@ isUpdated: true
 
 위 코드 예시에서 .box 클래스는 화면 크기와 상관없이 항상 가로로 200개의 레고 블록(200px)을 차지하고 세로로 150개의 블록(150px)을 차지합니다. 예를 들어 요소의 너비를 200px로, 높이를 150px로 설정하면 어떤 화면에서도 200픽셀 너비로, 150픽셀 높이로 나타납니다. 하지만 요소의 실제 크기는 화면 해상도에 따라 다르게 보일 수 있습니다. 마치 고무줄 자에 비유하면, 화면 해상도에 따라 크기가 늘어나거나 줄어들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2. Inches (in), Centimeters (cm), Millimeters (mm):
 
@@ -76,7 +105,18 @@ isUpdated: true
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 코드 예시에서 .box 클래스는 요소의 너비를 2인치(in)로 설정하고 높이를 5센티미터(cm)로 설정합니다. 이는 상자가 2인치 너비와 5센티미터 높이가 됨을 의미합니다.
 
@@ -86,7 +126,18 @@ isUpdated: true
 
 자를 가늠자와는 다르게 이러한 단위들은 주변 환경에 따라 자동으로 조정되어 반응형 디자인에 적응하기 좋습니다. 측정하는 대상에 따라 자동으로 조정되는 유연한 측정 테이프를 상상해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1. Em (em):
 
@@ -96,7 +147,18 @@ EMs를 사용하면 자식 요소의 크기를 부모에 상대적으로 정의�
 
 코드 예시:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /* body에 대한 기본 글꼴 크기 설정 */
@@ -125,7 +187,18 @@ body {
 
 Rem(루트 rem의 준말)은 루트 요소의 글꼴 크기를 나타내는 CSS 단위입니다. em과 유사하지만 루트 요소(보통 HTML 태그)의 글꼴 크기를 기준으로 하므로 웹사이트 전체에서 일관된 크기를 유지합니다. REM은 이 기본 크기를 기준으로 다른 요소 크기(제목 크기 등)를 정의할 수 있게 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코드 예제:
 
@@ -150,7 +223,18 @@ p {
 
 ## 3. 백분율 (%):
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 퍼센트 (%)는 CSS에서 상대적인 크기를 정의하여 웹사이트 디자인에서 유연성과 반응성을 제공하는 강력한 단위입니다. 케이크를 자르는 것을 상상해보세요. 20% 조각은 언제나 전체 케이크의 20%이며, 케이크의 크기에 관계없이 동일합니다.
 
@@ -170,7 +254,18 @@ p {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 코드 예제에서 .container 클래스는 퍼센트 단위를 사용하여 뷰포트 너비의 80%를 차지하는 콘텐츠 영역을 정의합니다. 이는 컨테이너 내의 퍼센트 단위를 사용하여 사용 가능한 너비의 80%를 차지하도록 설정합니다. .box 클래스는 사용 가능한 공간의 20%를 차지하고 왼쪽으로 플로트됩니다.
 
@@ -180,7 +275,18 @@ p {
 
 이러한 단위들은 마법의 지팡이처럼 작용하여 사용자 화면(뷰포트)의 크기에 맞춰 조절됩니다. 자동으로 크기를 조절하는 측정테이프가 뷰포트 차지하는 창의 크기에 따라 스케일을 조정하는 것을 상상해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1. 뷰포트 너비 (vw):
 
@@ -196,7 +302,18 @@ p {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 코드 예제에서 .box 클래스의 너비가 50vw로 설정되어 있습니다. 이는 뷰포트의 너비의 50%에 해당합니다. 이는 사용자의 화면 크기와 관계없이 상자가 뷰포트의 절반만큼 넓을 것을 의미합니다. 배경 이미지는 cover 속성을 사용하여 사진 전체를 상자 영역에 비례하여 채우도록 크기가 조정됩니다.
 
@@ -206,7 +323,18 @@ p {
 
 뷰포트 높이(vh)는 CSS에서 다른 단위로, 사용자의 뷰포트 높이에 대한 요소의 크기를 정의합니다. 뷰포트 너비(vw)와 마찬가지로, 이 단위는 다양한 화면 크기에 적응하는 반응형 웹사이트를 가능하게 합니다. 웹사이트 레이아웃을 세로 방향의 휴대전화 화면처럼 상상해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 화면 높이는 전화기의 가시적인 영역의 높이와 같은 역할을 합니다. 뷰포트 높이를 사용하면 요소가 사용자의 화면 높이에 따라 크기를 조정하여 세로 및 가로 방향의 레이아웃을 적응시킬 수 있습니다.
 
@@ -221,7 +349,18 @@ p {
 
 위의 코드 예시에서 .box 클래스는 50vh로 설정되어 있습니다. 이는 뷰포트 높이의 50%에 해당하는데, 이는 사용자의 화면 크기와 방향과 관계 없이 상자가 사용 가능한 뷰포트 높이의 절반이 되도록 합니다. margin: 0 auto; 속성은 콘텐츠를 .box 클래스 내에서 수평으로 가운데 정렬합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 뷰포트 너비와 마찬가지로 뷰포트 높이를 과도하게 사용하면 매우 작은 화면에서 레이아웃 문제가 발생할 수 있습니다. 최적의 웹사이트 응답성을 위해 뷰포트 단위를 전략적으로 사용하고 px 또는 %와 결합하여 사용하는 것이 권장됩니다.
 
@@ -231,7 +370,18 @@ p {
 
 연습이 중요하다는 것을 명심하세요! 웹사이트 레이아웃에 미치는 영향을 관찰하기 위해 다양한 단위를 실험해 보세요. 조금의 이해와 이 간단한 비유를 통해 당신도 곧 CSS 단위 전문가가 될 것입니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

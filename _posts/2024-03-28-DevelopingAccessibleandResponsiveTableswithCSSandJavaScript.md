@@ -3,17 +3,13 @@ title: "CSS와 JavaScript를 사용하여 접근성과 반응형 테이블 만�
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Developing Accessible and Responsive Tables with CSS and JavaScript"
 link: "https://medium.com/@volodymyrzh/developing-accessible-and-responsive-tables-with-css-and-javascript-7e1e420f13e4"
 isUpdated: true
 ---
-
-
-
-
 
 ![개발](/assets/img/DevelopingAccessibleandResponsiveTableswithCSSandJavaScript_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 웹 디자인에서의 접근성은 장애를 가진 사용자가 웹사이트와 도구를 인식하고 이해하며 탐색하고 상호작용할 수 있도록 하는 것을 보장합니다. 테이블의 경우, 이는 스크린 리더 및 기타 보조 기술이 정확하게 해석하고 전달할 수 있도록 테이블 내부의 정보를 활성화하는 것을 의미합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 스크린 리더를 위한 시멘틱 HTML
 
@@ -38,7 +45,18 @@ isUpdated: true
 
 # ARIA 역할 및 속성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 요소의 역할과 상태에 대한 보조 기술의 추가 세부 정보를 제공하는 도구인 Accessible Rich Internet Applications (ARIA) 역할 및 속성은 표의 경우 role="table" 또는 role="grid"을 사용하여 스크린 리더가 데이터를 해석하는 방식을 향상시킬 수 있습니다.
 
@@ -48,7 +66,18 @@ isUpdated: true
 
 접근성의 기초가 마련된 후, 다음 과제는 테이블이 어떤 화면 크기에서도 멋지게 보이고 기능이 유지되도록 보장하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 오버플로우 컨테이너
 
@@ -62,7 +91,18 @@ isUpdated: true
 
 # 반응형 그리드 레이아웃
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 발전된 솔루션으로, CSS Grid를 사용하여 테이블을 더 반응 형 형식으로 변환할 수 있습니다. 이는 테이블 헤더를 숨기고 각 행을 그리드로 표시하여 작은 화면에서 데이터가 가독성 있게 표시되도록 하는 것을 포함합니다.
 
@@ -104,7 +144,18 @@ isUpdated: true
 
 사용자 경험을 더 향상시키기 위해 JavaScript를 사용하여 사용자 상호 작용이나 화면 크기에 따라 테이블을 동적으로 조절할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 정렬 및 필터링
 
@@ -114,7 +165,18 @@ isUpdated: true
 
 매우 큰 테이블의 경우 JavaScript를 사용하여 축소 가능한 섹션을 생성할 수 있습니다. 이를 통해 사용자는 가장 관련 있는 정보에 집중하고 필요에 따라 섹션을 확장할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 워드프레스 사이트를 위한 편리한 호스팅
 
@@ -122,7 +184,18 @@ isUpdated: true
 
 그리고 MYHOST10 프로모션 코드를 사용하면 첫 결제 시 10% 할인 혜택을 받을 수 있습니다. 이를 위해 여기에서 등록하고 결제 전에 코드를 입력해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

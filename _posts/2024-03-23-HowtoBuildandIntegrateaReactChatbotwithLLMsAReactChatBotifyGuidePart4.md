@@ -3,17 +3,13 @@ title: "React ChatBot에 LLMs 모델 추가하는 방법 React ChatBotify 가이
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How to Build and Integrate a React Chatbot with LLMs A React ChatBotify Guide Part 4"
 link: "https://tjtanjin.medium.com/how-to-build-and-integrate-a-react-chatbot-with-llms-a-react-chatbotify-guide-part-4-b40cd59fd6e6"
 isUpdated: true
 ---
-
-
-
-
 
 # 소개
 
@@ -21,7 +17,18 @@ React ChatBotify 시리즈의 네 번째 이야기로 다시 여러분을 환영
 
 # 빠른 생각
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전 튜토리얼에서는 자주 묻는 질문에 대답하기 위해 효과적인 FAQ 봇을 구축하는 방법을 간단히 살펴보았어요. 그러나 하드 코딩된 응답과 예기치 못한 질문에 대답할 수 없는 문제들도 마주쳤죠.
 
@@ -31,7 +38,18 @@ React ChatBotify 시리즈의 네 번째 이야기로 다시 여러분을 환영
 
 # Gemini AI
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/How-to-Build-and-Integrate-a-React-Chatbot-with-LLMs:-A-React-ChatBotify-Guide-(Part-4)_1.png" />
 
@@ -41,7 +59,18 @@ React ChatBotify 시리즈의 네 번째 이야기로 다시 여러분을 환영
 
 # 기본 챗봇
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 API 키를 손에 넣었으니 기본적인 챗봇을 빠르게 구축해 봅시다. 사실, 이미 이 시리즈의 두 번째 부분에서 챗봇을 설정해 두었다면 그것을 기반으로 쉽게 확장할 수 있어요! 그러나 이 튜토리얼을 완전하게 만들기 위해서는 사용자를 인사하는 챗봇이 있는 깔끔한 설정을 갖춘 것으로 상정합시다! 다음 코드 스니펫으로 이것을 달성할 수 있어요:
 
@@ -64,7 +93,18 @@ export default MyChatBot;
 
 이제 매우 흥분한 챗봇이 우리에게 감각을 갖기를 원하지만 더 이상 아무것도 하지 못하는 상태입니다. 그의 소망을 이루어 주기 위해 함께 만들어 봅시다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 모델 초기화
 
@@ -93,7 +133,18 @@ run();
 
 위에서 얻은 API_KEY로 코드 스니펫을 복사하여 챗봇에 붙여넣기하고 실행하세요. 결과는 아래와 같을 것입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // MyChatBot.js
@@ -135,7 +186,18 @@ export default MyChatBot;
 - 대화 흐름에 루프 블록을 추가하고 run 함수를 호출하여 모델과 상호작용을 처리하도록 함
 - run 함수를 수정하여 사용자가 제공하는 프롬프트 매개변수를 전달하고 하드 코딩된 프롬프트를 제거하고 생성된 텍스트를 반환하세요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금까지 초기 작업 통합이 잘 되었습니다! 위의 코드를 실제로 보고 싶다면 위의 코드 스니펫을 플레이그라운드에 복사하여 붙여넣을 수 있습니다 (API 키를 제공하는 것을 잊지 마세요).
 
@@ -145,7 +207,18 @@ export default MyChatBot;
 
 React ChatBotify 버전 1.3.0에서 새로 소개된 메시지 스트리밍 기능은 LLMs와의 통합에 특히 유용합니다. 응답을 부분적으로 스트리밍할 수 있는 이 기능을 지원하도록 현재 방식을 어떻게 수정할 수 있는지 살펴봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희는 Gemini의 빠른 시작 가이드를 다시 한 번 참조하면, 더 빠른 상호 작용을 지원하기 위해 다음 스니펫이 제시된다고 합니다:
 
@@ -167,7 +240,18 @@ for await (const chunk of result.stream) {
 - 스트림 응답 청크를 반복하는 for 루프를 추가하고, 현재 완료된 텍스트로 params.streamMessage를 호출하여 채팅 봇으로 메시지를 스트리밍합니다
 - model-loop 블록을 수정하여 run 함수에 두 번째 매개변수로 params.streamMessage를 포함합니다
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // MyChatBot.js
@@ -214,7 +298,18 @@ export default MyChatBot;
 
 # 시뮬레이션된 스트림 응답
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스트리밍 응답의 심미성과 인기를 인정하는 React ChatBotify는 사용자에게 텍스트 응답을 스트리밍하는 시뮬레이션을 원하는 개발자들을 위해 simStream 및 streamSpeed 옵션을 제공합니다. 이 옵션에 관심이 있다면 여기에서 찾을 수 있는 예제를 참조할 수 있습니다.
 

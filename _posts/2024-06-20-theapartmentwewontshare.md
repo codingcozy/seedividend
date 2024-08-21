@@ -3,16 +3,13 @@ title: "아파트는 공유하지 않을 거예요"
 description: ""
 coverImage: "/assets/img/2024-06-20-theapartmentwewontshare_0.png"
 date: 2024-06-20 05:24
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-theapartmentwewontshare_0.png
 tag: Tech
 originalTitle: "the apartment we won’t share"
 link: "https://medium.com/@sawndcheck/the-apartment-we-wont-share-a6fb2d4051d7"
 isUpdated: true
 ---
-
-
-
 
 ![2024-06-20-theapartmentwewontshare_0.png](/assets/img/2024-06-20-theapartmentwewontshare_0.png)
 
@@ -22,6 +19,17 @@ isUpdated: true
 
 이 모든 것은 제가 되지 못한 것이 우리가 필요로 한 모든 것이었기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 네 악몽 속의 악마는 다른 누군가의 부담이 될 것입니다. 누군가, 아직 보이지 않은 영혼이 그 악몽의 무게를 지고, 그들의 손길은 얽힌 시트 아래 당신의 가슴에 차가운 압력을 줄 것입니다. 내 악마들은 나 안에 남아 있고 결코 떠나지 않을 것입니다. 그들을 추방하려면 나 자신의 한 부분을 끊어야 할 것이고, 그 부분은 영원히 너와 얽혀 있습니다. 나는 우리가 함께하지 않을 아파트에 너가 집으로 돌아올 수 있도록 창문을 열어둘 거야.

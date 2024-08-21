@@ -3,15 +3,13 @@ title: "Python으로 델타 뉴트럴 트레이딩 전략 백테스트 하는 �
 description: ""
 coverImage: "/assets/img/2024-07-09-Backtestadelta-neutraltradingstrategyinPython_0.png"
 date: 2024-07-09 14:50
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-Backtestadelta-neutraltradingstrategyinPython_0.png
 tag: Tech
 originalTitle: "Backtest a delta-neutral trading strategy in Python"
 link: "https://medium.com/@tng-daryl/backtest-a-delta-neutral-trading-strategy-in-python-602cd85e22e0"
 isUpdated: true
 ---
-
-
 
 ![image](/assets/img/2024-07-09-Backtestadelta-neutraltradingstrategyinPython_0.png)
 
@@ -22,7 +20,18 @@ Apple 주식을 매수하면 다음과 같은 상황이 발생합니다:
 - Apple 주식이 상승하면 가치가 증가합니다.
 - Apple 주식이 하락하면 가치가 감소합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-09-Backtestadelta-neutraltradingstrategyinPython_1.png" />
 
@@ -32,7 +41,18 @@ Apple 주식을 매수하면 다음과 같은 상황이 발생합니다:
 
 대부분의 소액 투자자들에게 작은 손실은 투자의 일부입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 대형 기관 투자자들은 특정 투자 규정(예: 미 실현 손실이 15%를 초과해서는 안 된다)에 따라, 미 실현 손실이 발생하는 것은 금물입니다.
 
@@ -42,7 +62,18 @@ Apple 주식을 매수하면 다음과 같은 상황이 발생합니다:
 
 옵션 용어에서는 이를 델타 헷징이라고 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 방향성 노출 조정하기
 
@@ -52,7 +83,18 @@ Apple 주식을 매수하면 다음과 같은 상황이 발생합니다:
 
 ![이미지2](/assets/img/2024-07-09-Backtestadelta-neutraltradingstrategyinPython_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 특정 계약에서 콜의 델타는 0.77이며, 완전히 델타 중립이 되기 위해 주식 대 콜 옵션의 비율은 77:100이어야 합니다.
 
@@ -62,7 +104,18 @@ Apple 주식을 매수하면 다음과 같은 상황이 발생합니다:
 
 다음 날/주에 콜의 델타가 0.80으로 증가하면, 각 콜 당 추가로 3주를 더 매입해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 엄밀히 말하면 역방향도 가능합니다. 매수하거나 빌림으로써 주식 보유량과 델타를 일치시킬 수 있습니다.
 
@@ -72,7 +125,18 @@ Apple 주식을 매수하면 다음과 같은 상황이 발생합니다:
 
 위의 비디오에서 사용된 예시는 John Hull의 다음 교과서에 나와 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-07-09-Backtestadelta-neutraltradingstrategyinPython_4.png)
 
@@ -82,7 +146,18 @@ Apple 주식을 매수하면 다음과 같은 상황이 발생합니다:
 
 ![image](/assets/img/2024-07-09-Backtestadelta-neutraltradingstrategyinPython_5.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 통화물이 처음으로 주 0에 구입되었을 때, 해당 통화물의 델타는 0.522입니다. 따라서 모든 통화물의 델타 합은 52,200입니다.
 
@@ -92,7 +167,18 @@ Apple 주식을 매수하면 다음과 같은 상황이 발생합니다:
 
 ## 주의
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주식 가격이 1주차와 2주차에 하락하는 것을 관찰하실 수 있습니다.
 
@@ -102,7 +188,18 @@ Apple 주식을 매수하면 다음과 같은 상황이 발생합니다:
 
 그러나 우리의 숏 콜 포지션은 네거티브 델타를 가지고 있습니다. (주식 가격이 하락함에 따라 가치가 증가), 우리는 콜 옵션을 더 낮은 가격에 다시 매수하여 우리의 숏 포지션에서 이익을 실현할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 네트 효과는 포트폴리오에서 발생하는 어떤 이익도 손실을 상쇄합니다.
 
@@ -112,7 +209,18 @@ Apple 주식을 매수하면 다음과 같은 상황이 발생합니다:
 
 이러한 경우는 주로 선거나 정부 발표와 같은 이벤트가 예정되어 있는 경우에 발생합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 곰계의 소식이 나쁜 경우에는 포트폴리오 자산에 손실이 발생할 수 있지만, 옵션 거래에서의 수익은 그 손실을 일부 또는 전체로 상쇄시킬 것입니다.
 
@@ -122,7 +230,18 @@ Hull 교재에서는 델타 값과 가격들의 시리즈를 제공했습니다.
 
 델타 값은 양수로 표기되어 있으며, 공매도를 할 경우 해당 값을 음수로 바꿔야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 delta_values = np.array(delta_values)

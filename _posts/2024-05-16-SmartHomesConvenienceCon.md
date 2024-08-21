@@ -3,17 +3,13 @@ title: "스마트 홈 편의성 연구"
 description: ""
 coverImage: "/assets/img/2024-05-16-SmartHomesConvenienceCon_0.png"
 date: 2024-05-16 17:21
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-16-SmartHomesConvenienceCon_0.png
 tag: Tech
 originalTitle: "Smart Homes: Convenience Con"
 link: "https://medium.com/@mabelamber/smart-homes-the-con-of-convenience-b2da62852506"
 isUpdated: true
 ---
-
-
-
-
 
 ![Smart Home](/assets/img/2024-05-16-SmartHomesConvenienceCon_0.png)
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 무엇때문에 주스 제조기가 인터넷에 연결돼야 하나요? 냉장고로부터 식품이 상하는 알림을 받길 원하나요? 당신은 직접 눈, 코, 혀로 확인할 수 없을 정도로 바보거나 게으르신가요? 왜냐하면 그것은 자연이 그것들을 주신 이유입니다! 냉장고가 물자가 부족하다고 알려주길 원하시나요? 손에 공책을 쥐고 검사하고 목록을 작성할 수 없나요? (쇼핑 목록이라고 부릅니다). 스마트 홈 열광자들이 완전한 바보이거나 소파감자가 되어 가장 기본적인 가정 업무조차 수행할 수 없게 된 건가요? 너무 많은 편리함은 대가가 따른다는 것을 알 수 없나요?
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어째서 누가 스마트 카메라를 모든 방에 설치하여 개인 정보를 스위스 치즈처럼 구멍투성이로 만들고 싶어 할까요? 고양이나 개를 위해서라고요? 아이들을 위해서라니요? 당신의 동물을 훈련시키는 법 알고 계신가요? 할아버지와 할머니를 위한 방법을 알고 계신가요? 신뢰할 수 있는 이웃들? 육아 도우미, 그리고 육아 서비스? 도둑들을 잡기 위해서인가요? 아, 집을 비욕하는 도둑들 말이죠? 왜냐하면 그들은 귀하가 집에 없는 시간을 알고 있는데, 그건 아마도 귀하의 카메라를 해킹해 알아냈기 때문이죠.
 
@@ -34,7 +40,18 @@ isUpdated: true
 
 그러니 이제 이유가 결정되었습니다. 자, 자랑스런 스마트 홈 소유자여, 당신이 집에 잡혀들어온 버그가 나무 구멍 밖으로 기어나오지 않고 소프트웨어에 들어가는 상황이 정확히 어떤 위험/단점인가요? 여기요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 보안 취약점: 오래된 소프트웨어, 약한 암호, 암호화되지 않은 연결 등 이러한 요인들이 함께 나타나면 스마트 기기가 사이버 공격에 취약해질 수 있습니다;
 - 환경적 요인: 극한 온도, 물리적 장애물로 인한 막힘, 다른 전자기기로부터의 간섭;
@@ -57,7 +74,18 @@ isUpdated: true
 
 따라서 제가 사는 덤 홈 속에서 겪고 있는 의존성은 다음과 같습니다: 나쁜 인물들을 배제하기 위해 만 6000년 전에 발명된 옛날 스타일의 잠금 장치와 열쇠, 시간 (우주 생성부터 모든 것을 죽여버림), 전력 발전소 (한때 전기가 사람들의 집에 도착했을 때) 및 내 인터넷 서비스 제공자(1990년대 초부터).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스마트 홈에서 살면 시한폭탄처럼 살고 있는 것 같다고 결론지을 자유를 느껴요. 정말 그 시한폭탄이 터질 거라는 것을 알고 있지만 (폭발하는 건 아니고 그냥 당신의 코앞에서 죽어간다는 차이가 있지만) 그 질문은...언제일까요. 집은 제 안식처니까요. 아냐.
 "1984"라는 책을 들어본 적이 있나요? 어떤 조지 오웰이 쓴 책인데요. 그게 바로 스마트 홈이죠. 서방이니까요. 최소한 서양 사회에서는 주요 감시자가 국가 수장이 아니라, 당신이 자신의 두뇌와 손을 사용하여 당신의 삶을 조직할 의사가 없다는 점에 기반하여 자신의 집 안에서 일어나는 많은 당사자들입니다. 그 집은 ... 당신의 집, 큰 나쁜 세계에서 도피할 수 있는 곳, 당신이 자신이 될 수 있는 곳, 당신이 누려지는 소중한 순간을 함께 즐길 수 있는 곳, 혼자이든 아니면 가족과 함께든 말이죠.
@@ -67,15 +95,26 @@ isUpdated: true
 
 ㅋㅋ.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "The Internet of Shit" 사이트에서 보고있는 모든 스마트홈 재미를 놓치지 마세요: https://twitter.com/internetofshit
 
 ©MabelAmber®
 
-PS - 스마트 홈 소유자가 아니라면 내 기사를 읽은 후에도 당신의 개인 정보가 보호되는 것으로 가정하여 자기 자신을 축하하지 마세요; 현재 세계 인구 69.4 억 명 중 약 85%가 스마트폰을 소유하고 있다는 것을 의미합니다. 즉, 당신도 아마 그 중 한 명일 것입니다. 
+PS - 스마트 홈 소유자가 아니라면 내 기사를 읽은 후에도 당신의 개인 정보가 보호되는 것으로 가정하여 자기 자신을 축하하지 마세요; 현재 세계 인구 69.4 억 명 중 약 85%가 스마트폰을 소유하고 있다는 것을 의미합니다. 즉, 당신도 아마 그 중 한 명일 것입니다.
 
-반면에 저와 소수의 다른 사람들은 사회적인 거추장스런 압력에 대항하기 위해 진보의 특정 유형을 반대할 수밖에 없었지만 집에서 엄격하게 운영되는 노트북의 인터넷 사용에 제한되어 있습니다. "스마트폰"이라는 단어는 이 집에서 금지되어 있습니다 (예외는 그 저주받은 것들이 완전히 악마화된 문구 내에서입니다). 
+반면에 저와 소수의 다른 사람들은 사회적인 거추장스런 압력에 대항하기 위해 진보의 특정 유형을 반대할 수밖에 없었지만 집에서 엄격하게 운영되는 노트북의 인터넷 사용에 제한되어 있습니다. "스마트폰"이라는 단어는 이 집에서 금지되어 있습니다 (예외는 그 저주받은 것들이 완전히 악마화된 문구 내에서입니다).
 
 우리에게 좋은 점이죠, 응?"
 

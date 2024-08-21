@@ -3,17 +3,13 @@ title: "리액트 네이티브 앱에서 효율적인 서버 측 데이터 관�
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Mastering RTK Query A Comprehensive Guide for Efficient Server-Side Data Management in React Native Apps"
 link: "https://medium.com/reactnativepro/mastering-rtk-query-a-comprehensive-guide-for-efficient-server-side-data-management-in-react-a61662c8d9ed"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/MasteringRTKQueryAComprehensiveGuideforEfficientServer-SideDataManagementinReactNativeApps_0.png" />
 
@@ -23,7 +19,18 @@ Redux 애플리케이션에서 서버 측 데이터를 효과적으로 처리하
 
 Redux Toolkit의 주요 구성 요소인 RTK Query는 Redux 애플리케이션에서 서버 측 데이터를 처리하는 것을 훨씬 간단하게 만듭니다. 데이터 관리의 세부 사항을 처리하며 개발자가 응용 프로그램의 기능에 집중할 수 있도록 합니다. RTK Query는 데이터 가져오기와 상태 업데이트를 더욱 간단하게 만드는 일련의 유틸리티 및 기능을 제공하여 보일러 플레이트 코드를 줄입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # RTK Query의 주요 기능들
 
@@ -36,7 +43,18 @@ Redux Toolkit의 주요 구성 요소인 RTK Query는 Redux 애플리케이션�
 
 RTK Query로 여정을 시작하려면 초기 단계로 Redux 스토어를 설정해야 합니다. Redux 애플리케이션의 핵심이자 앱의 완전한 상태를 담고 있는 Redux 스토어를 설정합니다. 프로젝트에 Redux Toolkit이 아직 포함되어 있지 않다면, 다음 간단한 npm 명령어로 포함시켜보세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm install @reduxjs/toolkit
@@ -56,7 +74,18 @@ const store = configureStore({
 
 configureStore 함수를 사용할 때 리듀서 필드가 포함된 객체를 입력해야 합니다. 이 리듀서 필드는 객체 자체이며 응용 프로그램에 필요한 다양한 리덕싱 함수를 포함해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 단계를 완료하면 Redux 저장소가 작동 준비가 된 상태입니다. 다음으로 해야 할 일은 이 저장소를 응용 프로그램에 통합하는 것입니다. 이를 달성하는 방법은 Redux Provider 컴포넌트를 사용하는 것입니다.
 
@@ -70,7 +99,18 @@ import { Provider } from "react-redux";
 
 # 슬라이스란 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Redux Toolkit에서는 전역 상태가 여러 "slice"로 나뉩니다. 각 "slice"는 특정 응용 프로그램 도메인이나 관련 상태 그룹을 나타냅니다. 이 분할은 Redux 상태를 관리하기 쉽게 만들어줍니다. 왜냐하면 상태 변경이 전체 상태가 아닌 각 slice 단위로 관리되기 때문이죠.
 
@@ -100,7 +140,18 @@ export const userApi = createApi({
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 설정에서는 사용자 메타데이터를 가져오는 getUserMeta 및 사용자 정보를 업데이트하는 updateUser 두 가지 엔드포인트를 정의합니다. RTK Query는 이러한 엔드포인트에 대한 훅을 자동으로 생성하며, 이를 컴포넌트에서 사용할 수 있습니다.
 
@@ -110,7 +161,18 @@ Redux 스토어 구성에 userApi 리듀서를 추가하는 것이 매우 중요
 
 Redux 스토어에 슬라이스를 통합하려면 다음 단계를 따라야 합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 만든 API slice를 가져와주세요. 이 경우에는 userApi입니다.
 - 다음으로, slice를 스토어 구성에 통합해야 합니다. 이는 configureStore 함수 내에서 reducer 객체에 새 필드를 추가하는 것을 포함합니다. 필드 키는 API slice를 생성할 때 지정한 reducerPath와 일치해야 합니다. 값은 API slice에서 내보낸 reducer여야 합니다. 예를 들어, 다음과 같이 보일 것입니다: [userApi.reducerPath]: userApi.reducer.
@@ -121,8 +183,7 @@ export const store = configureStore({
   reducer: {
     [userApi.reducerPath]: userApi.reducer,
   },
-  middleware: (getDefaultMiddleware) =>
-    getDefaultMiddleware().concat(userApi.middleware),
+  middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat(userApi.middleware),
 });
 ```
 
@@ -130,16 +191,24 @@ export const store = configureStore({
 
 RTK Query는 React hook을 생성하여 컴포넌트에서 API Endpoints와 상호 작용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 컴포넌트에서 생성된 후크 사용하기
 
 ```js
 import React from "react";
-import {
-  useGetUserMetaQuery,
-  useUpdateUserMutation,
-} from "src/services/userApi";
+import { useGetUserMetaQuery, useUpdateUserMutation } from "src/services/userApi";
 
 const UserProfile = ({ userId }) => {
   const { data, isLoading, error } = useGetUserMetaQuery(userId);
@@ -151,9 +220,7 @@ const UserProfile = ({ userId }) => {
   return (
     <View>
       <Title>{data?.name}</Title>
-      <Button onClick={() => updateUser({ id: userId, name: "새 이름" })}>
-        이름 업데이트
-      </Button>
+      <Button onClick={() => updateUser({ id: userId, name: "새 이름" })}>이름 업데이트</Button>
     </View>
   );
 };
@@ -163,7 +230,18 @@ const UserProfile = ({ userId }) => {
 
 # 고급 기능 및 모범 사례
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 RTK Query는 응담속도와 효율성을 크게 향상시킬 수 있는 다양한 기능을 제공합니다.
 
@@ -174,7 +252,18 @@ RTK Query는 응담속도와 효율성을 크게 향상시킬 수 있는 다양�
 
 낙관적 업데이트는 UI가 서버 응답을 기다리지 않고 요청된 작업(예: 뮤테이션)이 성공적으로 이루어진 것처럼 즉시 업데이트되는 전략입니다. 이 접근 방식은 사용자에게 즉각적인 피드백을 제공하여 응답성을 향상시킨다. 작업이 실패하면 변경 사항이 롤백됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 낙관적 업데이트 구현하기
 
@@ -206,7 +295,18 @@ export const optimisticUpdateUser = userApi.useUpdateUserMutation({
 
 이 코드는 사용자 이름을 UI에서 낙관적으로 업데이트하고, 업데이트 작업이 실패한 경우 변경 사항을 롤백하는 방법을 보여줍니다. 핵심 단계는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 변이가 완료되기 전에 지역 캐시를 낙관적으로 업데이트하세요.
 - 변이가 해결될 때까지 기다리세요.
@@ -218,7 +318,18 @@ export const optimisticUpdateUser = userApi.useUpdateUserMutation({
 
 ## 페이지네이션 구현
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 RTK Query를 사용하여 페이지네이션을 설정하려면 페이지 번호와 페이지 크기와 같은 페이지네이션 매개변수를 사용하는 엔드포인트를 생성하세요. 아래는 게시물을 검색하는 페이지네이션 엔드포인트를 만드는 간단한 방법입니다:
 
@@ -265,7 +376,18 @@ const Workspaces = () => {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 컴포넌트는 페이지네이션 컨트롤을 포함한 포스트 목록을 표시하여 사용자가 데이터 페이지를 효율적으로 탐색할 수 있도록 합니다. 페이지네이션된 쿼리는 제공된 페이지 번호와 페이지 크기를 기반으로 데이터를 청크 단위로 가져와서 로드 시간을 개선하고 초기 페이로드 크기를 줄입니다.
 
@@ -275,7 +397,18 @@ const Workspaces = () => {
 
 이 실용적인 예시는 실제 맥락인 Yolmo 앱에서의 워크스페이스 생성 및 표시에서 RTK Query가 어떻게 작동하는지를 보여줍니다. 새 워크스페이스가 생성된 후 부드러운 UI 업데이트에 사용되는 RTK Query의 태그 무효화 기능의 유틸리티를 강조합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 사례 연구 개요
 
@@ -289,7 +422,18 @@ const Workspaces = () => {
 
 # RTK Query로 구현하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기능을 달성하기 위해 RTK Query의 createApi를 사용하여 작업 영역을 가져오고 만드는 데 사용되는 엔드포인트를 정의하며, 캐시 무효화를 효율적으로 관리하기 위해 태그를 활용합니다:
 
@@ -304,12 +448,7 @@ export const workspaceApi = createApi({
     getWorkspaces: builder.query({
       query: () => "workspaces",
       providesTags: (result = [], error, arg) =>
-        result
-          ? [
-              ...result.map(({ id }) => ({ type: "Workspace", id })),
-              "Workspace",
-            ]
-          : ["Workspace"],
+        result ? [...result.map(({ id }) => ({ type: "Workspace", id })), "Workspace"] : ["Workspace"],
     }),
     createWorkspace: builder.mutation({
       query: (workspace) => ({
@@ -327,7 +466,18 @@ export const workspaceApi = createApi({
 
 영상을 통해 학습하는 것을 선호하는 사용자를 위해 데모 영상이 제공됩니다. 이 비디오는 Yolmo 앱에서 작업 영역을 생성하는 과정을 안내합니다. RTK Query가 데이터 가져오기, 캐싱 및 업데이트를 관리하는 실제 사용 사례를 명확히 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

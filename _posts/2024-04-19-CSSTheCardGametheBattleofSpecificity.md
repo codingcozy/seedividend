@@ -3,17 +3,13 @@ title: "CSS 카드 게임 만들기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "CSS The Card Game  the Battle of Specificity"
 link: "https://medium.com/@hanilim/css-the-card-game-the-battle-of-specificity-4d9606011458"
 isUpdated: true
 ---
-
-
-
-
 
 CSS 카드 게임의 다이내믹한 세계로 들어오세요! 특정성을 활용하여 동료들과 프레임워크와 싸워서 그들의 CSS를 무시하세요! 클래스, ID 등을 결합하여 다른 모든 CSS 속성에 우승하세요!
 
@@ -23,7 +19,18 @@ CSS 카드 게임의 다이내믹한 세계로 들어오세요! 특정성을 활
 
 모든 카드는 이름과 특정성을 가지고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 구체성은 A, B, C 형식을 따릅니다. 예를 들어, 0, 1, 0은 A=0, B=1, C=0을 의미합니다.
 
@@ -33,7 +40,18 @@ CSS 카드 게임의 다이내믹한 세계로 들어오세요! 특정성을 활
 
 하나 이상의 카드를 결합하여 유효한 선택기를 작성하세요. 각 열의 구체성을 추가하여 선택기의 총 구체성을 얻으세요. 선택기의 구체성이 높으면 승리합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 특이성 계산
 
@@ -49,7 +67,18 @@ TOTAL         0, 2, 1 (총 특이성)
 
 다시 말하면:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지 태그를 Markdown 형식으로 변경하십시오.
 
@@ -61,7 +90,18 @@ specificity를 계산할 때 이것들이 독립된 column이라는 것을 염�
 
 column A부터 시작하여 specificity를 비교합니다. 한 selector가 다른 것보다 더 높은 specificity를 가지면 이깁니다. 값이 같으면 다음 column으로 이동합니다. specificity를 비교할 때 A `B` C.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/CSSTheCardGametheBattleofSpecificity_3.png" />
 
@@ -71,7 +111,18 @@ column A부터 시작하여 specificity를 비교합니다. 한 selector가 다�
 
 <img src="/assets/img/CSSTheCardGametheBattleofSpecificity_4.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /*
@@ -91,7 +142,18 @@ column A부터 시작하여 specificity를 비교합니다. 한 selector가 다�
 
 페이지의 모든 요소를 대상으로합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 특정성 싸움에서 어느 정도 이길 수 있을지에 대한 유용한 정보는 제공하지 않아요.
 
@@ -104,7 +166,18 @@ column A부터 시작하여 specificity를 비교합니다. 한 selector가 다�
 
 ## 타입
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해당 요소 유형의 모든 요소를 대상으로합니다. 예를 들어, 모든 p, div, a 등을 대상으로합니다.
 
@@ -119,7 +192,18 @@ p { }
 
 ![이미지](/assets/img/CSSTheCardGametheBattleofSpecificity_7.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Class Selector
 
@@ -129,7 +213,18 @@ p { }
 
 _할 수 있는 것이라고 해서 항상 해야 하는 것은 아니라는 걸 명심하세요_
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /* 0, 1, 0 */
@@ -146,7 +241,18 @@ _할 수 있는 것이라고 해서 항상 해야 하는 것은 아니라는 걸
 
 기존 선택자만으로 부족한 경우를 위해. 연쇄적으로 사용하면 각 추가된 가상 클래스가 특이성을 증가시킵니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /* 0, 1, 1 */
@@ -166,7 +272,18 @@ a:last-child:hover { }
 
 요소가 아닌 것에 기반하여 요소를 대상화하세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 특정성에 대한 이 카드의 특수 규칙
 
@@ -185,7 +302,18 @@ div:not(.myclass) { }
 
 <img src="/assets/img/CSSTheCardGametheBattleofSpecificity_10.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 속성
 
@@ -203,8 +331,18 @@ div:not(.myclass) { }
 a[(title = foo)];
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![CSSTheCardGametheBattleofSpecificity_11.png](/assets/img/CSSTheCardGametheBattleofSpecificity_11.png)
 
@@ -214,8 +352,18 @@ a[(title = foo)];
 
 이 선택자는 어떤 클래스, 속성, 가상 클래스 선택자보다 우선순위가 높습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 선택자는 연결할 수 없어요. 어떻게 그리고 왜 요소에 두 개의 아이디가 있을까요?
 
@@ -228,11 +376,33 @@ a[(title = foo)];
 
 ## Inline
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제목바로 다음에 로 테이블 태그를 Markdown 형식으로 바꾸세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # !중요: 가장 강력한 카드
 
@@ -246,7 +416,18 @@ a[(title = foo)];
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 !important 선언을 사용하면 CSS 속성은 다른 선택자나 인라인 스타일로도 쉽게 재정의할 수 없게 됩니다.
 
@@ -256,7 +437,18 @@ a[(title = foo)];
 
 카드 이미지는 무료로 다운로드하고 인쇄할 수 있습니다. 표준 2.5" x 3.5" 트레이딩 카드 크기로 인쇄할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 GitHub 저장소: https://github.com/hanilim/css-the-card-game
 

@@ -3,16 +3,13 @@ title: "MongoDB에서 PostgreSQL로 대규모 전환 가이드"
 description: ""
 coverImage: "/assets/img/2024-06-22-TheGreatMigrationfromMongoDBtoPostgreSQL_0.png"
 date: 2024-06-22 05:24
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-TheGreatMigrationfromMongoDBtoPostgreSQL_0.png
 tag: Tech
 originalTitle: "The Great Migration from MongoDB to PostgreSQL"
 link: "https://medium.com/@tony.infisical/the-great-migration-from-mongodb-to-postgresql-fa3978bc143b"
 isUpdated: true
 ---
-
-
-
 
 ![이미지](/assets/img/2024-06-22-TheGreatMigrationfromMongoDBtoPostgreSQL_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 이는 MongoDB에서 PostgreSQL로 이동한 이유와 그 과정에 대한 우리의 의사결정 이야기입니다. 아마도 이 글은 흥미로운 내용으로, 그 어느 날 비슷한 데이터베이스 이전을 고려할 여러분들에게 유용할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 시작점
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 # 왜 MongoDB가 아닌가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 몽고DB가 초기에 인피지칼에 잘 도움이 되었지만, 제품의 사용 사례가 관리 서비스를 넘어선 경우에 한계를 보이기 시작했습니다. 시간이 지남에 따라, 특히 규정 준수와 보안이 교차하는 기업들 중 많은 조직이 인피지칼을 자체 호스팅하는 것을 선호했으며, 다른 일부는 만족해야 하는 온프렘 요구 사항이 있었습니다.
 
@@ -42,7 +61,18 @@ isUpdated: true
 
 위 몇 가지 도전 과제에 대해 자세히 설명하겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 데이터베이스 트랜잭션 구성의 어려움: MongoDB에서는 트랜잭션을 설정하는 것이 쉽지 않았습니다. 클러스터 모드에서 MongoDB를 실행해야 했으며 다양한 구성 오버헤드가 필요했습니다. 이로 인해 고객이 Infisical의 간단한 POC를 실행하기가 굉장히 어렵게 되었는데, 이는 MongoDB의 프로덕션 환경 설정을 필요로 했기 때문입니다. 데이터 무결성이 반드시 유지되어야 하는 매우 민감한 데이터를 다루는 제품에서는 적합하지 않았습니다.
 
@@ -58,7 +88,18 @@ isUpdated: true
 
 새 데이터베이스를 찾을 때, 우리는 우리에게 가장 중요한 측면을 나열하여 시작했습니다: 관리의 용이성(즉, 구성, 배포 및 확장 포함), 트랜잭션을 위한 내장 지원 및 관계적 기능. 논의의 일환으로, 우리는 직접 통합 저장소를 구축할지 외부 저장소 솔루션을 추구할지에 대해 고민하기도 했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각 옵션에 대한 의미는 다음과 같습니다:
 
@@ -69,7 +110,18 @@ isUpdated: true
 
 이 모든 선택은 Infisical의 사용자들이 어떤 클라우드 제공 업체에서도 우리 플랫폼을 쉽게 자체 호스팅하고 해당 관리형 PostgreSQL 서비스와 함께 사용할 수 있음을 의미합니다. 더욱이, 이 데이터베이스가 널리 채택되었다는 점을 고려할 때, 사용자들이 Infisical을 사용할 때 데이터베이스를 운영하는 데 더 적은 문제가 있을 것으로 확신했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # ORM은 어떻게 됐나요?
 
@@ -79,7 +131,18 @@ PostgreSQL을 선택한 후, 어플리케이션이 데이터베이스와 상호�
 
 데이터베이스와 ORM을 결정한 후, 이어지는 과정에서 수십 개의 데이터 구조 및 수백 개의 쿼리를 어플리케이션 전반에 걸쳐 다시 작성하는 작업을 시작했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 마이그레이션 계획은 어떻게 세웠나요?
 
@@ -89,7 +152,18 @@ Infisical이 고객 인프라에서 중대한 역할을 하는 점을 감안하�
 
 이어서 실제 마이그레이션 작업에 대해 고민할 때 MongoDB에서 데이터를 덤프하고 신중히 변환한 후 PostgreSQL로 다시 삽입해야 했습니다. 마이그레이션 순서를 심사하면서, NoSQL에서 가져온 다양한 트리 형태의 구조를 관련된 상대적인 구조로 올바르게 변환해야 하는 등 다양한 어려움을 겪었습니다; 특히 재귀적인 고려가 필요한 폴더와 같은 데이터 구조에 대해 민감했습니다. 또한, MongoDB에서 PostgreSQL로 식별자를 저장하고 매핑하는 지속적인 방법이 필요하다는 사실을 발견했으며, 메모리에 저장하면 처리할 데이터 양을 고려할 때 동작하지 않을 것 같았습니다. 결과적으로, 우리는 식별자 저장 및 조회 작업을 돕기 위해 LevelDB 키-값 저장소를 사용하기로 결정했습니다. 이를 통해 결과적으로 각 테이블을 순차적으로 PostgreSQL로 이동할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 위대한 이주
 
@@ -99,7 +173,18 @@ Infisical이 고객 인프라에서 중대한 역할을 하는 점을 감안하�
 
 전반적으로 계획은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이주 동안 이주를 준비하는 동안, 사용자들에게 장기적인 데이터베이스 업그레이드에 대해 미리 이메일과 앱 내 배너를 통해 통지하겠습니다. 플랫폼의 모든 기능 flow에 대한 철저한 테스트를 수행하고, 이주를 위한 시범 운영도 진행할 것입니다.
 - 이주 자체는 단순히 소요되는 6시간 동안에만 읽기 작업만 허용되는 창을 통해 진행됩니다. 이 기간 동안 MongoDB에서 PostgreSQL로 데이터를 이동하는 이주 스크립트를 실행하고, 데이터 손실이 없는지 확인한 후 성공적으로 DNS를 새 인스턴스로 전환할 것입니다. 물론, 상황이 역행할 경우를 대비한 백업 계획도 마련되어 있습니다.
@@ -111,7 +196,18 @@ Infisical이 고객 인프라에서 중대한 역할을 하는 점을 감안하�
 
 다행히도, 이주 실행은 원활하게 진행되어 데이터 손실이 없었고, 몇 가지 중요하지 않은 기능 장애 사례만 발생했습니다. 이러한 버그는 소비자에게 미미한 영향을 미친 채 36시간 이후에 해결하였습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이주 후에 우리는 많은 이점을 발견했습니다:
 
@@ -123,7 +219,18 @@ Infisical이 고객 인프라에서 중대한 역할을 하는 점을 감안하�
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 몽고디비에서 포스트그레스큐엘로 이전하기로 한 결정은 처음부터 쉬운 일은 아니었습니다. 모든 과정을 신중하게 계획하고 논의한 후, 우리는 이 일을 수행하기 위해 3~4개월이 걸렸습니다. 왜 이렇게 해야 하는지, 어떻게 실행할 것인지에 대해 심도있게 고민한 끝에 모든 것을 신중히 실행할 수 있었습니다. 이 글을 읽는 누구에게든, 이러한 큰 작업에 속해들기 전에 사용 사례와 구현을 심각하게 고려하는 것을 강력히 권장합니다. 결국 모든 것이 계획대로 진행되어 매우 만족스럽습니다. 앞으로 인피지컬 사용자들에게 큰 변화를 가져다 줄 이런 거대한 업데이트를 성공적으로 전달할 수 있어 기쁩니다.
 
@@ -133,7 +240,18 @@ Infisical이 고객 인프라에서 중대한 역할을 하는 점을 감안하�
 
 ![이주 이미지](/assets/img/2024-06-22-TheGreatMigrationfromMongoDBtoPostgreSQL_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Infisical (11.6K+ ⭐️)은 수천 개의 팀과 조직이 팀 및 인프라 전반에 걸쳐 비밀을 저장하고 동기화하는 데 도움을 줍니다.
 

@@ -3,17 +3,13 @@ title: "HTML, CSS, JS로 음악 플레이어 만들기"
 description: "이 튜토리얼에서는 HTML, CSS, JavaScript를 사용하여 음악 플레이어를 만드는 방법을 배웁니다 플레이어에는 재생 목록이 있으며 JavaScript를 사용하여 음악을 제어할 수 있습니다"
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # HTML, CSS, JS를 활용한 음악 플레이어 만들기
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 <img src="/assets/img/Create-Music-Player-With-Playlist-using-HTMLCSS-and-JavaScript_0.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 음악 플레이어를 위한 HTML 코드
 
@@ -32,48 +39,27 @@ isUpdated: true
   <div class="player__header">
     <div class="player__img player__img--absolute slider">
       <button class="player__button player__button--absolute--nw playlist">
-        <img
-          src="http://physical-authority.surge.sh/imgs/icon/playlist.svg"
-          alt="playlist-icon"
-        />
+        <img src="http://physical-authority.surge.sh/imgs/icon/playlist.svg" alt="playlist-icon" />
       </button>
       <button class="player__button player__button--absolute--center play">
-        <img
-          src="http://physical-authority.surge.sh/imgs/icon/play.svg"
-          alt="play-icon"
-        />
-        <img
-          src="http://physical-authority.surge.sh/imgs/icon/pause.svg"
-          alt="pause-icon"
-        />
+        <img src="http://physical-authority.surge.sh/imgs/icon/play.svg" alt="play-icon" />
+        <img src="http://physical-authority.surge.sh/imgs/icon/pause.svg" alt="pause-icon" />
       </button>
       <div class="slider__content">
-        <img
-          class="img slider__img"
-          src="http://physical-authority.surge.sh/imgs/1.jpg"
-          alt="cover"
-        />
+        <img class="img slider__img" src="http://physical-authority.surge.sh/imgs/1.jpg" alt="cover" />
         <!-- 재생목록 이미지들 -->
       </div>
     </div>
     <div class="player__controls">
       <button class="player__button back">
-        <img
-          class="img"
-          src="http://physical-authority.surge.sh/imgs/icon/back.svg"
-          alt="back-icon"
-        />
+        <img class="img" src="http://physical-authority.surge.sh/imgs/icon/back.svg" alt="back-icon" />
       </button>
       <p class="player__context slider__context">
         <strong class="slider__name"></strong>
         <span class="player__title slider__title"></span>
       </p>
       <button class="player__button next">
-        <img
-          class="img"
-          src="http://physical-authority.surge.sh/imgs/icon/next.svg"
-          alt="next-icon"
-        />
+        <img class="img" src="http://physical-authority.surge.sh/imgs/icon/next.svg" alt="next-icon" />
       </button>
       <div class="progres">
         <div class="progres__filled"></div>
@@ -90,13 +76,35 @@ isUpdated: true
 
 CSS 및 JavaScript 없이 음악 플레이어의 HTML 코드 출력입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/Create-Music-Player-With-Playlist-using-HTMLCSS-and-JavaScript_1.png" />
 
 <img src="/assets/img/Create-Music-Player-With-Playlist-using-HTMLCSS-and-JavaScript_2.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 음악 플레이어를 위한 CSS 코드
 
@@ -173,8 +181,7 @@ body {
   background-color: white;
   padding: 0.95em 0.6em 0 1.2em;
   box-shadow: 0 2px 6px 1px #0000001f;
-  transition: height var(--cubic-header), box-shadow var(--duration),
-    padding var(--duration) ease-in-out;
+  transition: height var(--cubic-header), box-shadow var(--duration), padding var(--duration) ease-in-out;
 }
 .player__header.open-header {
   height: 100%;
@@ -195,8 +202,7 @@ body {
 .slider {
   flex-shrink: 0;
   overflow: hidden;
-  transition: width var(--cubic-header), height var(--cubic-header),
-    top var(--cubic-header), left var(--cubic-header);
+  transition: width var(--cubic-header), height var(--cubic-header), top var(--cubic-header), left var(--cubic-header);
 }
 .slider.open-slider {
   top: 0;
@@ -385,22 +391,25 @@ CSS 및 JavaScript가 추가된 음악 플레이어의 최종 출력입니다.
 
 # 음악 플레이어 및 재생 목록을 위한 JavaScript 코드
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // Designed by: Mauricio Bucardo
 // Original image: https://dribbble.com/shots/6957353-Music-Player-Widget
 "use strict";
 // add elemnts
-const bgBody = [
-  "#e5e7e9",
-  "#ff4545",
-  "#f8ded3",
-  "#ffc382",
-  "#f5eda6",
-  "#ffcbdc",
-  "#dcf3f3",
-];
+const bgBody = ["#e5e7e9", "#ff4545", "#f8ded3", "#ffc382", "#f5eda6", "#ffcbdc", "#dcf3f3"];
 const body = document.body;
 const player = document.querySelector(".player");
 const playerHeader = player.querySelector(".player__header");
@@ -464,10 +473,8 @@ function back(index) {
 }
 function changeSliderContext() {
   sliderContext.style.animationName = "opacity";
-  sliderName.textContent =
-    playerPlayList[count].querySelector(".player__title").textContent;
-  sliderTitle.textContent =
-    playerPlayList[count].querySelector(".player__song-name").textContent;
+  sliderName.textContent = playerPlayList[count].querySelector(".player__title").textContent;
+  sliderTitle.textContent = playerPlayList[count].querySelector(".player__song-name").textContent;
   if (sliderName.textContent.length > 16) {
     const textWrap = document.createElement("span");
     textWrap.className = "text-wrap";
@@ -478,8 +485,7 @@ function changeSliderContext() {
   if (sliderTitle.textContent.length >= 18) {
     const textWrap = document.createElement("span");
     textWrap.className = "text-wrap";
-    textWrap.innerHTML =
-      sliderTitle.textContent + " " + sliderTitle.textContent;
+    textWrap.innerHTML = sliderTitle.textContent + " " + sliderTitle.textContent;
     sliderTitle.innerHTML = "";
     sliderTitle.append(textWrap);
   }
@@ -528,9 +534,7 @@ function progresUpdate() {
 }
 function scurb(e) {
   // If we use e.offsetX, we have trouble setting the song time, when the mousemove is running
-  const currentTime =
-    ((e.clientX - progres.getBoundingClientRect().left) / progres.offsetWidth) *
-    song.duration;
+  const currentTime = ((e.clientX - progres.getBoundingClientRect().left) / progres.offsetWidth) * song.duration;
   song.currentTime = currentTime;
 }
 function durationSongs() {
@@ -539,17 +543,12 @@ function durationSongs() {
   let sec = parseInt(this.duration % 60);
   if (sec < 10) sec = "0" + sec;
   const playerSongTime = `${min}:${sec}`;
-  this.closest(".player__song")
-    .querySelector(".player__song-time")
-    .append(playerSongTime);
+  this.closest(".player__song").querySelector(".player__song-time").append(playerSongTime);
 }
 changeSliderContext();
 // add events
 sliderContext.addEventListener("click", openPlayer);
-sliderContext.addEventListener(
-  "animationend",
-  () => (sliderContext.style.animationName = "")
-);
+sliderContext.addEventListener("animationend", () => (sliderContext.style.animationName = ""));
 playlistButton.addEventListener("click", closePlayer);
 nextButton.addEventListener("click", () => {
   next(0);
@@ -603,7 +602,18 @@ playerPlayList.forEach((item, index) => {
 
 HTML, CSS, JavaScript를 사용하여 간단한 음악 플레이어에 대한 자주 묻는 질문 (FAQ)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 이 음악 플레이어에서 음악 파일을 첨부해야 하나요, 아니면 온라인 음악으로 작동하나요?
 

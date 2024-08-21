@@ -3,17 +3,13 @@ title: " React Native 애플리케이션을 위해 지켜야하는 습관들"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "React Native Masters-2 Best Practices for React Native Applications"
 link: "https://medium.com/stackademic/optimizing-react-native-best-practices-for-effective-development-28516c8df413"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/ReactNativeMasters-2BestPracticesforReactNativeApplications_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이제 React Native의 최상의 관행에 대해 이야기해 보겠습니다. 이러한 것들은 코드를 유지 관리하기 쉽게 작성할 수 있는 지침들의 세트입니다. 이 글에서는 이러한 관행들에 대해 더 자세히 알아보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1. 순서대로 모듈 의존성 가져오기
 
@@ -36,7 +43,18 @@ import React from "react";
 import { TouchableOpacity, View } from "react-native";
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 써드파티 라이브러리:
 
@@ -52,7 +70,18 @@ import { Button, Card } from "../components";
 import { MainLayout } from "../layouts";
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 모듈별 Imports (스타일, PNG 등.):
 
@@ -67,7 +96,18 @@ import image from "./image.png";
 import { testFunction } from "./tests";
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 정렬:
 
@@ -77,7 +117,18 @@ import { testFunction } from "./tests";
 
 - 구조 분해된 Imports:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그룹에 항목이 몇 개만 있으면 한 줄에 하나의 항목으로 나눠서 읽기 쉽게 만들 수 있어요.
 
@@ -87,7 +138,18 @@ ESLint와 같은 린팅 도구나 Prettier와 같은 코드 포매터를 사용�
 
 - 구성 예시 (ESLint):
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // .eslintrc.json
@@ -111,7 +173,18 @@ ESLint와 같은 린팅 도구나 Prettier와 같은 코드 포매터를 사용�
 
 TypeScript는 정적 유형을 갖는 프로그래밍 언어로, 변수, 함수 및 기타 요소에 대해 데이터 유형을 명시적으로 정의합니다. 이는 더 신뢰할 수 있는 코드뿐만 아니라 개발자가 컴파일 프로세스 중에 버그를 잡을 수 있도록 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음과 같은 주문 가격을 계산하는 예시를 살펴봅시다:
 
@@ -127,7 +200,18 @@ function calculateProductPrice(product) {
 
 이러한 문제를 방지하고 코드 가독성을 향상시키기 위해 TypeScript가 필요합니다. TypeScript는 JavaScript에 타입을 추가하여 객체의 각 속성의 유형을 지정할 수 있게 해줍니다. 이렇게 함으로써 오류 가능성을 줄이는 것이 가능합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 인터페이스 Product {
@@ -158,7 +242,18 @@ console.log(`"${exampleProduct.productName}" 제품의 최종 가격은 $${calcu
 
 경로 별칭을 사용하면 코드에 바로가기를 제공하여 import 경로를 더 짧고 이해하기 쉽게 만들 수 있습니다. 특히 서로 중첩된 많은 폴더가 있는 경우 import를 읽기 쉽게 만듭니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, 다음과 같이 긴 import 구문을 사용하는 대신에:
 
@@ -173,7 +268,18 @@ TypeScript 및 React Native에서 경로 별칭(path aliases)을 사용하여 �
 
 1. TypeScript 경로 별칭(K 경로 별칭)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트에 이미 tsconfig.json 파일이 없다면 다음 단계로 만들거나 업데이트해 주세요:
 
@@ -199,7 +305,18 @@ TypeScript 및 React Native에서 경로 별칭(path aliases)을 사용하여 �
 
 이제 TypeScript는 쉽게 이러한 임포트를 인식하고 작업할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { TextButton } from "components/buttons";
@@ -212,7 +329,18 @@ import { DangerButton } from "buttons";
 
 yarn add -D babel-plugin-module-resolveror npm install babel-plugin-module-resolver --save-dev
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로 babel.config.js 파일을 수정하여 module-resolver 플러그인을 추가하고 이 플러그인이 가리킬 디렉터리를 지정할 수 있습니다.
 
@@ -240,7 +368,18 @@ module.exports = {
 
 ## 4. Crash Reporting 도구 사용하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 크래시 분석 도구는 앱을 위한 슈퍼히어로 동료와 같아요. 항상 24/7로 어떤 문제를 주시하고 있어요. 앱 충돌과 오류를 빠르게 찾아내고 실시간으로 이해하여 발생한 문제를 파악하는 데 도움을 줘요.
 

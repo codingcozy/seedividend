@@ -3,16 +3,13 @@ title: "마이크로서비스 인터뷰 필수 질문 30선"
 description: ""
 coverImage: "/assets/no-image.jpg"
 date: 2024-08-03 18:46
-ogImage: 
+ogImage:
   url: /assets/no-image.jpg
 tag: Tech
 originalTitle: "Microservices Must Know Interview Questions"
 link: "https://medium.com/@mpavani667/microservices-must-know-interview-questions-442506cb4e69"
 isUpdated: true
 ---
-
-
-
 
 # 1. 마이크로서비스에서 데이터 일관성을 어떻게 다루시나요?
 
@@ -25,19 +22,41 @@ isUpdated: true
 
 # 2. Saga 패턴과 그 종류를 설명해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사가 패턴은 분산 트랜잭션을 여러 서비스 간에 관리하는 방법으로, 트랜잭션을 여러 개의 작은 트랜잭션으로 나누어 각각 다른 서비스에서 관리합니다. 각 서비스는 자체 트랜잭션을 수행하고 다음 단계를 트리거하는 이벤트를 발행합니다.
 
 - 사가의 종류:
-   - 코레오그래피 기반 사가: 사가에 참여하는 각 서비스가 이벤트를 발행하고 수신합니다. 중앙 조정자가 없습니다.
-   - 오케스트레이션 기반 사가: 중앙 조정자인 사가 오케스트레이터가 각 참가자에게 어떤 지역 트랜잭션을 실행할지 알려줍니다.
+  - 코레오그래피 기반 사가: 사가에 참여하는 각 서비스가 이벤트를 발행하고 수신합니다. 중앙 조정자가 없습니다.
+  - 오케스트레이션 기반 사가: 중앙 조정자인 사가 오케스트레이터가 각 참가자에게 어떤 지역 트랜잭션을 실행할지 알려줍니다.
 
 ## 3. 마이크로서비스 아키텍처에서 어떻게 장애 허용성을 보장할 수 있나요?
 
 답변: 마이크로서비스에서의 장애 허용성을 보장하는 것은 시스템이 실패가 발생해도 올바르게 작동하도록 설계하는 것을 의미합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 회로 차단기 패턴: 서비스가 실패할 가능성이 높으면 호출을 중단하여 서비스가 회복할 수 있도록 합니다.
 - 지수 백오프 재시도: 실패한 요청을 지연 시간을 늘리면서 자동으로 다시 시도합니다.
@@ -50,13 +69,24 @@ isUpdated: true
 답변: 마이크로서비스에서 서비스 간 통신은 동기적 또는 비동기적 방법을 사용하여 처리할 수 있습니다.
 
 - 동기 통신:
-   - HTTP/REST: 간단하고 널리 사용되지만, 강한 결합 및 지연 증가의 가능성이 있습니다.
-   - gRPC: 효율적이며 여러 언어를 지원하며, 저지연 및 고처리량 시나리오에 유용합니다.
+  - HTTP/REST: 간단하고 널리 사용되지만, 강한 결합 및 지연 증가의 가능성이 있습니다.
+  - gRPC: 효율적이며 여러 언어를 지원하며, 저지연 및 고처리량 시나리오에 유용합니다.
 - 비동기 통신:
-   - 메시지 브로커: 메시지 큐(RabbitMQ, Kafka 등)를 사용하여 분리되고 신뢰할 수 있고 확장 가능한 통신을 구현합니다.
-   - 이벤트 기반 아키텍처: 서비스들이 이벤트를 발행하고 구독함으로써 통신하며, 분리 및 확장성을 향상시킵니다.
+  - 메시지 브로커: 메시지 큐(RabbitMQ, Kafka 등)를 사용하여 분리되고 신뢰할 수 있고 확장 가능한 통신을 구현합니다.
+  - 이벤트 기반 아키텍처: 서비스들이 이벤트를 발행하고 구독함으로써 통신하며, 분리 및 확장성을 향상시킵니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 5. 마이크로서비스 아키텍처에서 API 게이트웨이의 역할은 무엇인가요?
 
@@ -70,7 +100,18 @@ isUpdated: true
 
 # 6. 마이크로서비스 환경에서 로깅 및 모니터링을 어떻게 구현하나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로그 및 모니터링은 옵저버빌리티를 유지하고 마이크로서비스 아키텍처의 건강을 유지하기 위해 중요합니다.
 
@@ -83,7 +124,18 @@ isUpdated: true
 
 답변: 서비스 버전 관리는 역호환성을 보장하고 업데이트하거나 기능을 추가할 때 원활한 전환을 도와줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - URL 버전 관리: URL 경로에 버전 번호를 포함하세요 (예: /api/v1/resource).
 - Header 버전 관리: HTTP 헤더에 버전 번호를 지정하세요.

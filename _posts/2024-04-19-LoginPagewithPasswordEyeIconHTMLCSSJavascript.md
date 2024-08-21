@@ -3,17 +3,13 @@ title: "HTML CSS Javascript를 사용한 암호 눈 아이콘이 있는 로그�
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Login Page with Password Eye Icon HTML CSS Javascript"
 link: "https://medium.com/@mralgo/login-page-with-password-eye-icon-html-css-javascript-13b6e643d5e7"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/LoginPagewithPasswordEyeIconHTMLCSSJavascript_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ## HTML:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 HTML 또는 Hypertext Markup Language은 어떤 웹 페이지의 기본 구조입니다. 웹 페이지의 구조와 내용을 만드는 데 사용됩니다. 암호 눈 아이콘이 있는 로그인 페이지를 만들려면 HTML 폼을 만들어야 합니다. 암호 입력 필드와 아이콘이 있는 HTML 폼을 만들어야합니다. 암호 입력 필드에는 JavaScript 코드에서 참조할 수 있는 ID가 있어야 합니다.
 
@@ -33,7 +40,18 @@ CSS 또는 Cascading Style Sheets는 HTML 페이지를 스타일링하고 레이
 
 ## JavaScript:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자바스크립트는 웹 페이지를 인터랙티브하게 만드는 프로그래밍 언어입니다. 로그인 페이지에서는 사용자가 눈 아이콘을 클릭했을 때 비밀번호 표시 여부를 전환하기 위해 JavaScript를 사용할 것입니다. 또한 아이콘에 클릭 이벤트를 감지하는 이벤트 리스너를 추가할 것입니다.
 
@@ -46,7 +64,18 @@ CSS 또는 Cascading Style Sheets는 HTML 페이지를 스타일링하고 레이
 
 ## HTML 코드:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <!DOCTYPE html>
@@ -235,7 +264,18 @@ a span:nth-child(3) {
 
 ## Javascript 코드:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const passwordField = document.getElementById("password");
@@ -255,7 +295,3 @@ togglePassword.addEventListener("click", function () {
 ```
 
 요약하면, 비밀번호 눈 모양 아이콘이 있는 로그인 페이지는 사용자가 비밀번호 가시성을 쉽게 전환할 수 있어 사용자 경험을 향상시킬 수 있습니다. 이 글에서 설명된 구현 단계를 따라 HTML, CSS 및 JavaScript를 사용하여 원홀 소스 코드를 깃허브 저장소에서 다운로드할 수 있습니다.
-
-
-
-

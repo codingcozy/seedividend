@@ -3,17 +3,13 @@ title: "React에서의 SOLID 원칙 React Native"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Frontend Masters Solid Principles in React   React Native"
 link: "https://medium.com/stackademic/react-native-masters-solid-principles-in-react-react-native-a1b8df8d261d"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](https://miro.medium.com/v2/resize:fit:400/1*Z3dOY0ZYYwdAF8InAKKX7A.gif)
 
@@ -23,7 +19,18 @@ SOLID는 소프트웨어 디자인에서 중요한 다섯 가지 규칙의 그�
 
 ## 1. Single Responsibility Principle (SRP)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리 React/React Native 프로젝트에서 단일 책임 원칙 (SRP)을 준수하는 방법은 각 구성 요소가 애플리케이션에서 특정하고 명확히 정의된 목적을 가지도록 하는 것입니다. 예를 들어, 한 구성 요소가 특정 부분을 표시하거나 사용자 입력을 처리하거나 데이터를 가져오기 위해 API 호출을 수행하는 것과 같은 역할을 담당할 수 있습니다. 구성 요소를 단일하고 명확한 작업으로 제한함으로써 코드베이스의 가독성과 유지 관리성을 향상시킬 수 있습니다.
 
@@ -34,7 +41,18 @@ SOLID는 소프트웨어 디자인에서 중요한 다섯 가지 규칙의 그�
 - 합성 사용하기: 작은 구성 요소들을 결합하여 재사용 가능한 UI 구성 요소를 만드세요. 이를 통해 개발자들은 복잡한 UI를 더 작고 관리하기 쉬운 부분으로 나눌 수 있으며, 애플리케이션의 다양한 부분에서 쉽게 재사용할 수 있습니다.
 - Props와 상태를 현명하게 다루기: Props는 데이터와 액션을 자식 구성 요소로 전달하는 메신저 역할을 합니다. 반면에 상태는 구성 요소의 개인 메모처럼 고유한 정보를 보관합니다. 상태는 한 부분에만 한정되지 않는 정보를 담을 때 사용하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import React, { useEffect, useState } from "react";
@@ -90,7 +108,18 @@ export default ListItems;
 
 처음에는 전형적인 컴포넌트처럼 보일 수 있지만, SRP(단일 책임 원칙)에 따르면 할당된 책임보다 더 많은 책임을 다루고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서, 어떻게 더 좋게 만들 수 있을까요?
 
@@ -124,7 +153,18 @@ const useFetchListItems = () => {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 상태 처리와 목록 항목 가져오기 작업을 분리함으로써 초기 컴포넌트는 크게 단순해지고 이해하기 쉬워집니다. 이제 컴포넌트의 유일한 책임은 정보를 표시하는 것뿐이므로 유지 관리 및 확장이 더 용이해졌습니다.
 
@@ -160,7 +200,18 @@ export default ListItems;
 
 그러나 새로운 훅을 자세히 살펴보면 두 가지 작업을 수행하고 있다는 것을 알 수 있습니다. 상태 관리와 목록 항목을 가져오는 작업을 모두 처리합니다. 그러므로 단일 책임 원칙에서 제안하는 것처럼 한 가지 작업만 하는 것과는 맞지 않는 것 같습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 문제를 해결하기 위해, 목록 항목을 가져오는 로직을 분리할 수 있습니다. 간단하게 말해서, 새로운 파일인 api.js를 만들고 거기에서 목록 항목을 가져오는 코드를 이동하겠습니다:
 
@@ -198,7 +249,18 @@ const useFetchListItems = () => {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단하게 유지하는 것에 대해 이야기해 봐요. 단일 책임 원칙(SRP)을 따르면 코드를 조직화하고 실수를 방지할 수 있어요. 하지만 항상 쉬운 일은 아니에요. 파일 구조를 더 복잡하게 만들 수 있고, 계획을 세우는 데 추가적인 시간이 필요할 수 있어요.
 
@@ -209,7 +271,18 @@ const useFetchListItems = () => {
 - Form 구성 요소: 폼은 데이터 확인, 상태 관리, 정보 업데이트 등 여러 작업을 수행해요. 이러한 작업을 분리하면 다른 도구나 라이브러리를 사용할 때 코드가 혼란스러워질 수 있어요.
 - 테이블 구성 요소: 테이블도 데이터 표시 및 사용자 상호작용 관리 등 다양한 작업을 처리해요. 이런 작업을 분리하면 코드가 더 혼란스러워질 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2. 개방/폐쇄 원칙 (OCP)
 
@@ -254,7 +327,18 @@ const ListItem: React.FC<IListItem> = ({ title, image, isAuth, onClickMember, on
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제가 보기에, 위에 있는 코드는 원칙에 맞지 않습니다. 인증 상태에 따라 다른 기능을 렌더링하여 원칙을 위반하고 있습니다.
 
@@ -265,9 +349,7 @@ interface IButtonHandler {
   handle(): void;
 }
 
-export const GuestButtonHandler: React.FC<{ onClickGuest?: () => void }> = ({
-  onClickGuest,
-}) => {
+export const GuestButtonHandler: React.FC<{ onClickGuest?: () => void }> = ({ onClickGuest }) => {
   const handle = () => {
     // 게스트용 로직
     onClickGuest();
@@ -276,9 +358,7 @@ export const GuestButtonHandler: React.FC<{ onClickGuest?: () => void }> = ({
   return <Button onClick={handle}>모달 보기</Button>;
 };
 
-export const MemberButtonHandler: React.FC<{ onClickMember?: () => void }> = ({
-  onClickMember,
-}) => {
+export const MemberButtonHandler: React.FC<{ onClickMember?: () => void }> = ({ onClickMember }) => {
   const handle = () => {
     // 회원용 로직
     onClickMember();
@@ -309,7 +389,18 @@ export const ListItem: React.FC<IListItem> = ({ title, image, children }) => {
 export default ListItem;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 마지막으로, 불필요한 코드를 제거하고 새로운 children이라는 속성을 생성하여 다른 구성 요소가 이를 자식으로 전달하여 이 구성 요소를 확장할 수 있도록 합니다.:
 
@@ -332,7 +423,18 @@ export default App;
 
 ## 3. Liskov Substitution Principle (LSP)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 특정 클래스의 서브클래스는 슈퍼클래스를 대체할 수 있어야 합니다. 그렇게 함으로써 어떤 기능도 깨지지 않아야 합니다.
 
@@ -342,7 +444,18 @@ export default App;
 
 ![이미지](/assets/img/FrontendMastersSolidPrinciplesinReact-ReactNative_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트에서 Liskov 대체 원칙(LSP)은 부모 구성 요소를 쉽게 대체할 수 있으면서도 자식 구성 요소처럼 똑같은 작업을 수행할 수 있는 능력에 관한 것입니다. 구성 요소가 다른 구성 요소를 사용하는 경우 이전과 마찬가지로 작동하여야 합니다.
 
@@ -356,7 +469,18 @@ const SuccessButton = () => {
 
 그래서 SuccessButton 구성 요소를 만들고자 하지만 버튼 기능을 Text로 대체할 수 없으므로 이는 원칙을 위반합니다. 대신에 다음과 같이 그냥 버튼을 반환해야 합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const SuccessButton = () => {
@@ -382,7 +506,18 @@ const SuccessButton = () => {
 
 🎉 이제 버튼의 모든 속성을 상속했고, 이러한 속성을 새 버튼에 전달했어요. 또한 SuccessButton의 모든 인스턴스는 프로그램의 동작을 변경하지 않고 버튼의 인스턴스 자리에 여전히 사용할 수 있으며, Liskov 대체 원칙을 따릅니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 4. Interface Segregation Principle (ISP)
 
@@ -403,7 +538,18 @@ const ListItem = ({item}) => {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 ListItem 컴포넌트가 item props로 부터 이미지, 제목, 설명과 같은 몇 가지 데이터만 필요로 한다는 것을 알고 있습니다. 그래서 ListItem을 props로 제공할 때, 컴포넌트가 실제로 필요로 하는 것보다 더 많은 것을 전달하게 될 수 있습니다. 왜냐하면 item props 자체가 컴포넌트가 필요로 하지 않는 데이터를 포함할 수 있기 때문입니다.
 
@@ -423,7 +569,18 @@ const ListItem = ({ image, title, description }) => {
 
 🎉 그리고 이제 우리의 컴포넌트는 ISP 원칙과 호환됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 5. 의존성 역전 원칙 (DIP)
 
@@ -452,7 +609,18 @@ const CreateListItemForm = () => {
 
 위의 컴포넌트는 폼을 렌더링하여 리스트 항목을 생성하는 처리를 다루는 양식을 나타냅니다. 제출된 데이터를 API로 전송하는 방식입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 시나리오를 고려해보세요. 동일한 UI를 가진 목록 항목 편집용 또 다른 양식이 있지만 로직(예: API 엔드포인트)만 다를 뿐입니다. 우리의 양식은 또 다른 엔드포인트가 필요하기 때문에 재사용할 수 없게 됩니다. 따라서 우리는 특정 저수준 모듈에 의존하지 않는 컴포넌트를 만들어야 합니다.
 
@@ -484,7 +652,18 @@ const CreateListItemForm = () => {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const EditListItemForm = () => {
@@ -505,7 +684,17 @@ const EditListItemForm = () => {
 
 <img src="/assets/img/FrontendMastersSolidPrinciplesinReact-ReactNative_5.png" />
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![FrontendMastersSolidPrinciplesinReact-ReactNative_6](/assets/img/FrontendMastersSolidPrinciplesinReact-ReactNative_6.png)

@@ -3,16 +3,13 @@ title: "엔터티 클래스가 정말 필요한가요"
 description: ""
 coverImage: "/assets/img/2024-07-12-Doyoureallyneedentityclasses_0.png"
 date: 2024-07-12 21:27
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-12-Doyoureallyneedentityclasses_0.png
 tag: Tech
 originalTitle: "Do you really need entity classes?"
 link: "https://medium.com/better-programming/do-you-really-need-entity-classes-d9656534ea82"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-07-12-Doyoureallyneedentityclasses_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 웹 응용 프로그램의 백엔드는 어떤 언어로든 작성할 수 있습니다. Java는 다른 옵션보다 몇 가지 이점을 가지고 있습니다. 예를 들어, 미리 구성된 애플리케이션 서버인 Tomcat을 사용하면 배포가 쉽습니다. 백엔드가 데이터베이스와 인가된 사용자 간의 데이터를 중계하는 경우, 개발이 빠릅니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 상상해보세요. 데이터 웨어하우스에서 유도된 통계를 표시하는 응용 프로그램이 있습니다. 많은 SQL 쿼리의 결과를 표시합니다. 새로운 비즈니스 요구에 따라 응용 프로그램을 자주 개선해야 합니다. 각 쿼리의 결과를 로드하고 직렬화하기 위한 개별 클래스가 필요할까요?
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 # 엔티티란 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터베이스에서 로드된 데이터는 일반적으로 DTOs(데이터 전송 객체) 또는 엔티티라고 불리는 클래스로 변환됩니다. 양 용어 모두 기능적으로 정확히 같은 의미를 갖습니다. 엔티티는 SQL 쿼리 결과에서 한 행 또는 여러 관련 행을 나타내는 클래스입니다. 데이터가 네트워크로 전송될 때, 엔티티는 편리하게 JSON으로 변환됩니다.
 
@@ -42,7 +61,18 @@ isUpdated: true
 
 Spring Boot는 샘플 Java 웹 애플리케이션을 쉽게 실행할 수 있게 해줍니다. 누구나 샘플 애플리케이션의 소스 코드를 다운로드하여 실행할 수 있습니다. 또한 의존성을 포함하고 약간 줄어든 코드로 작성할 수 있습니다. 따라서 제 데모 애플리케이션은 Spring Boot에 의존합니다. 그러나 제 생각에는 데모 애플리케이션이 아닌 개발에 가장 직접적인 옵션이라고 생각하지는 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 애플리케이션은 MySQL 데이터베이스의 샘플 Sakila 스키마의 Film 테이블을 수정한 테이블에서 모든 직렬화 가능한 데이터 유형인 문자열, 숫자, 날짜 및 부울 값을 포함한 데이터를 표시합니다.
 
@@ -54,7 +84,18 @@ Spring Boot는 샘플 Java 웹 애플리케이션을 쉽게 실행할 수 있게
 
 세 가지 방법으로 생성된 객체는 Spring Boot와 기본으로 제공되는 Jackson 라이브러리를 사용하여 직렬화됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 응용 프로그램에서 다른 방법으로 축적된 데이터를 데이터베이스에서 표시하는 최상의 방법을 선택해야 합니다. 이 응용 프로그램은 사용자의 새로운 아이디어에 따라 정기적으로 조정되어야 합니다.
 
@@ -67,10 +108,10 @@ class MyController {
 
     @Autowired
     EntityRepository jpa;
-    
+
     @Autowired
     JdbcRepository jdbc;
-    
+
     @Autowired
     JdbcTableRepository jdbcTable;
 
@@ -93,7 +134,18 @@ class MyController {
 
 그런 다음 프론트 엔드 코드는 데이터를 단순한 표로 시각화합니다. 각 접근 방식에서 수신한 데이터는 개별 탭에 표시됩니다. 탭을 전환하여 세 가지 접근 방식의 출력이 동일한지 확인할 수 있습니다.여기서 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-12-Doyoureallyneedentityclasses_1.png" />
 
@@ -124,7 +176,18 @@ public class Film {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 개발을 간소화하는 한 가지 방법은 SQL, Java 및 JavaScript 코드에서 동일한 이름을 사용하는 것입니다. 그러면 새 열을 추가해야 할 경우 해당 이름을 모든 종류의 코드에 붙여 넣을 수 있습니다. 또는 특정 열을 다루는 Java 또는 JavaScript 코드를 찾아야 할 경우 해당 열 이름을 검색 상자에 간단히 붙여 넣을 수 있습니다.
 
@@ -138,7 +201,18 @@ public interface EntityRepository extends JpaRepository<Film, Integer>{
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 코드는 상당히 직관적으로 보입니다. 이제 사용자가 요청한 일반적인 변경 사항이 어느 정도의 노력을 필요로 할지 고려해 봅시다. 모든 변경은 JavaScript 코드를 변경해야 하지만 클라이언트 측 코드의 변경 사항은 세 접근 방식 모두에서 동일하기 때문에 귀찮은 작업은 무시할 수 있습니다.
 
@@ -148,7 +222,18 @@ public interface EntityRepository extends JpaRepository<Film, Integer>{
 
 # JDBC를 사용하여 데이터 불러오기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 접근 방식은 가능하지만 위의 JPA 기반 접근 방식보다 더 짧지는 않습니다.
 
@@ -181,14 +266,25 @@ public class Film2 {
 
     @JsonProperty("TITLE")
     Object title;
-    
+
     ...
 }
 ```
 
 소스 열의 이름들은 상대적으로 큰 리포지토리 클래스에 명시되어 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 @Repository
@@ -196,7 +292,7 @@ public class JdbcRepository {
 
     @Autowired
     DataSource ds;
- 
+
     public List<Film2> getAllFilms() throws SQLException {
         try ( Connection con = ds.getConnection();  Statement st = con.createStatement();  ResultSet rs = st.executeQuery("SELECT * from film")) {
 
@@ -233,7 +329,18 @@ public class JdbcRepository {
 
 # JDBC를 사용하여 데이터를로드하고 배열로 직렬화하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막 옵션은 브라우저에서 객체 배열로 변환되는 2차원 배열로 데이터를 직렬화하는 것입니다.
 
@@ -278,16 +385,25 @@ public class JdbcTableRepository {
 
 일부 열을 로드하지 말아야 하는 경우 (예: CLOBs), select 문은 별표 대신 열의 이름을 지정해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 클라이언트 측 코드에 두 차원 배열을 객체 배열로 변환하는 작은 추가 함수가 필요합니다.
 
 ```js
 function objectsFromRows(rows) {
-    const headers = rows[0];
-    return rows.slice(1)
-            .map(row => Object.fromEntries(headers.map((h, i) => [h, row[i]])));
-
+  const headers = rows[0];
+  return rows.slice(1).map((row) => Object.fromEntries(headers.map((h, i) => [h, row[i]])));
 }
 ```
 
@@ -295,7 +411,18 @@ JPA 접근 방식에서 사용되는 Film 엔티티의 크기를 고려하면, �
 
 열을 추가해야 한다면, 별표를 사용하는 경우 Java 코드를 변경할 필요가 없습니다. 열 이름을 지정하는 select 문을 사용하는 경우, 해당 열 이름을 쿼리에 추가해야 합니다. 가능한 경우 테이블이 아닌 뷰에서 선택하는 것이 좋습니다. 그럼 서버 측 코드를 변경하지 않고 열을 추가하거나 제거할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 다른 테이블에서 데이터를 로드해야 한다면, 원하는 쿼리로 loadAsArray(String sql)를 호출하는 추가 메서드를 추가하기만 하면 됩니다.
 
@@ -305,7 +432,18 @@ JPA 접근 방식에서 사용되는 Film 엔티티의 크기를 고려하면, �
 
 Entities는 코드입니다. Entities는 브라우저에서 수신된 JSON을 역직렬화하고 데이터베이스에 저장하는 가장 쉬운 해결책입니다. 올바르게 사용하면 JPA는 응용 프로그램 성능을 저하시키지 않고 관련 데이터를로드하는 작업을 단순화합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 But there is little sense in using entities for loading read-only data without relations. If each row of a query results produces a new object, it is easier to convert the rows into an array of objects in the client-side code. The shorter the code, the easier it is to modify it and meet the client's needs.
 

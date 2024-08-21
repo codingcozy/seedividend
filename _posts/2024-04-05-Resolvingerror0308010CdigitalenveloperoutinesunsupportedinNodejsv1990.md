@@ -3,18 +3,13 @@ title: "Nodejs v1990에서 발생하는 error0308010Cdigital envelope routinesun
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Resolving error0308010Cdigital envelope routinesunsupported in Nodejs v1990"
 link: "https://medium.com/@sahilali/resolving-error-0308010c-digital-envelope-routines-unsupported-in-node-js-v19-9-0-2114021209cb"
 isUpdated: true
 ---
-
-
-
-
-
 
 ![오류 메시지](/assets/img/Resolvingerror0308010CdigitalenveloperoutinesunsupportedinNodejsv1990_0.png)
 
@@ -40,7 +35,6 @@ Error: error:0308010C:digital envelope routines::unsupported
 Node.js v19.9.0
 ```
 
-
 ```js
 Error: error:0308010C:digital envelope routines::unsupported
     at new Hash (node:internal/crypto/hash:71:19)
@@ -58,7 +52,18 @@ D:\Projects\Mini Project\Frontend\node_modules\react-scripts\scripts\start.js:19
   ^
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 원인:
 
@@ -68,7 +73,18 @@ D:\Projects\Mini Project\Frontend\node_modules\react-scripts\scripts\start.js:19
 
 단계 1: “package.json” 파일을 엽니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Step2: "Script"을 검색합니다:
 
@@ -81,6 +97,17 @@ Step3: 다음과 같이 "start" 및 "build"를 업데이트하고 저장하세�
  "build": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 Markdown 형식으로 테이블 태그를 변경하세요.

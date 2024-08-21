@@ -3,7 +3,7 @@ title: "개발자 대부분은 모르는 HTML 이야기"
 description: ""
 coverImage: "/assets/img/2024-05-01-Atalefrom30yearsofHTML_0.png"
 date: 2024-05-01 23:42
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-01-Atalefrom30yearsofHTML_0.png
 tag: Tech
 originalTitle: "A tale from 30 years of HTML"
@@ -11,16 +11,24 @@ link: "https://medium.com/@jankammerath/a-tale-from-30-years-of-html-ef4d11069d2
 isUpdated: true
 ---
 
-
-
-
 몇 일 후에 대부분이 간단히 "HTML"로 알고 있는 하이퍼텍스트 마크업 언어가 30세가 됩니다. 1992년 11월 3일에 첫 버전이 출시된 이후로 긴 여정을 걷고 있어요. 정말 오래된 여정이죠.
 
 1992년에 출시되었지만 HTML과 월드 와이드 웹이 인기를 얻기까지는 시간이 걸렸어요. 월드 와이드 웹이 활발해지기 시작한 것은 1995년과 1996년으로, 그 전까지는 꾸준히 여러 기술 천재들과 프로그래머 등 소수의 사람들이 사용하는 것이었습니다.
 
 월드 와이드 웹을 둘러보는 것은 이미 모험이었고, 설정하는 데 꽤 많은 시간과 인내심이 필요했어요. 웹사이트를 만드는 것이 그리 익숙한 일이 아니었고, 상업용 응용프로그램을 개발하려면 여전히 웹, 프랑스의 미네텔, 독일의 BTX 중에서 선택해야 했어요. 이 자리에서 고퍼 프로토콜에 대해서도 한마디 더 남기고 싶어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 90년대 스타일로 웹사이트 만드는 방법
 
@@ -30,7 +38,18 @@ HTML 1.0, 2.0에서부터 3.2까지는 기본적인 수준이었습니다. 정�
 
 만약 사용자가 둘러보기만 하는 것이 아니라 실제로 상호작용할 수 있는 의미있는 인터랙티브 웹사이트를 만들고 싶다면 — 예를 들어 채팅 같은 것 — CGI("Common Gateway Interface")를 사용하거나 자체 웹 서버 소프트웨어를 만들게 될 확률이 매우 높았어요. 예전에 자체 웹 서버를 만드는 것은 그리 흔치 않진 않았습니다. 하지만 대부분의 사람들이 CGI를 사용했죠. CGI는 기본적으로 HTTP 요청을 응용프로그램에 전달하고, 응용프로그램은 헤더와 HTML 코드 또는 해당하는 콘텐츠를 반환하는 역할을 했어요. Perl, C 및 C++는 웹서버용 CGI 응용프로그램을 개발하는 데 가장 흔한 언어였습니다. 서버에서 상호작용하는 모든 것을 처리해야 했기 때문에 매우 번거로웠습니다. 쿠키가 없었던 당시에 세션 처리와 세션 관리는 대부분 각 사용자 또는 세션마다 고유 식별자를 사용하여 URL 경로 구성 요소를 통해 이루어졌습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 및 90년대 중반 컴퓨터의 성능을 고려할 때, CPU 클럭 속도가 25에서 180 Mhz 사이였던 때에는 대화형 웹 서버를 실행하는 것이 비싼 일이었습니다. Sun Microsystem의 SPARC CPU 및 시스템이 그 용도로 흔히 사용되었으며, 그 당시에는 싸지 않았습니다.
 
@@ -40,7 +59,18 @@ HTML 1.0, 2.0에서부터 3.2까지는 기본적인 수준이었습니다. 정�
 
 <img src="/assets/img/2024-05-01-Atalefrom30yearsofHTML_1.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인터넷 정보 서버를 위한 PHP, Microsoft Active Server Pages와 같은 새로운 프로그래밍 언어들은 월드 와이드 웹을 위한 애플리케이션을 쉽게 만들 수 있게 했습니다. 쿠키와 자바스크립트는 상호작용성을 훨씬 더 높일 수 있었지만, 브라우저가 자바스크립트 코드를 실행하고 브라우저 충돌이 흔했던 시기였습니다. 맥로미디어에서 1996년에 출시된 인기 있는 플래시 플레이어와 자바 애플릿은 언급할 바를 잊으면 안 됩니다. 또한, 1996년에는 CSS인 Cascading Style Sheets도 출시되었습니다.
 
@@ -50,7 +80,18 @@ HTML 1.0, 2.0에서부터 3.2까지는 기본적인 수준이었습니다. 정�
 
 # 97년부터 2000년 이후로 달려가는 중
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 샌프란시스코 소재의 작은 회사인 Macromedia가 제공한 소프트웨어 제품인 Dreamweaver, Fireworks, Flash는 많은 프로 웹마스터들에게 가장 선호되는 솔루션이 되었습니다. 웹마스터는 사람들이 가진 직업 중 하나였죠. 그러나 CSS, JavaScript, PHP 등 여러 다른 프로그래밍 언어들이 웹에 순수하게 초점을 맞추며 웹사이트를 만드는 것이 순수한 소프트웨어 개발 또는 엔지니어링 작업이 되는 추세였습니다.
 
@@ -60,7 +101,18 @@ HTML 1.0, 2.0에서부터 3.2까지는 기본적인 수준이었습니다. 정�
 
 ![이미지](/assets/img/2024-05-01-Atalefrom30yearsofHTML_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 90년대 후반에는 첫 비디오 및 음악 스트리밍 서비스가 나타났습니다. 그러나 "브로드밴드" 사용자들조차 초당 한 메가비트 이상이 있다면 거의 아무런 경험을 할 수 없는 수준의 화질이었습니다. 하지만 새롭고 멋있었습니다. 오늘날의 오픈 소스 세계와 비교하면 Real Networks와 같은 제품과 같은 소프트웨어는 매우 비싼 편이었습니다.
 
@@ -70,7 +122,18 @@ HTML 1.0, 2.0에서부터 3.2까지는 기본적인 수준이었습니다. 정�
 
 <img src="/assets/img/2024-05-01-Atalefrom30yearsofHTML_4.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이어서, WAP과 WML은 금방 사라졌어요. 기술적으로는 꽤 흥미로웠지만, 상업적 환경 속에서 그들의 소멸로 이어졌어요. Pocket PC 2002 이후 Windows Mobile 등의 더 강력한 모바일 브라우저들과 많은 다른 모바일 브라우저들이 나오면서 WAP은 더 이상 필요하지 않았어요. Palm, Nokia 등이 여러 방식으로 모바일 웹에 접근했지만 대부분 실패했어요.
 
@@ -80,7 +143,18 @@ HTML 1.0, 2.0에서부터 3.2까지는 기본적인 수준이었습니다. 정�
 
 ![Atalefrom30yearsofHTML_5](/assets/img/2024-05-01-Atalefrom30yearsofHTML_5.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Google Maps와 같은 애플리케이션이 등장하면서 현대의 "웹 2.0"은 이제 Microsoft AutoRoute와 같이 데스크톱 애플리케이션으로만 가능했던 완전한 규모의 애플리케이션을 구축할 수 있는 능력을 나타냈습니다. 상호 작용식 백과사전인 위키피디아로 인해 서버 팜은 이제 대규모 상호 작용식 웹사이트를 운영할 충분한 데이터베이스, 저장소 및 컴퓨팅 능력을 갖추게 되었습니다.
 
@@ -90,7 +164,18 @@ JavaScript는 갑자기 전체 DOM을 조작할 수 있게 되었으며, 브라�
 
 # 2008 — 모바일 웹이 태어남
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 90년대 중반에 태어난 모바일 웹은 항상 성장을 막는 두 가지 중대한 문제를 가지고 있었어요.
 
@@ -101,7 +186,18 @@ JavaScript는 갑자기 전체 DOM을 조작할 수 있게 되었으며, 브라�
 
 ![이미지](/assets/img/2024-05-01-Atalefrom30yearsofHTML_7.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 노키아가 이루지 못한 것을 애플과 구글이 마침내 성취했습니다: 모바일 웹을 대중화하는 것입니다. 악명 높았던 "모바일 웹사이트"는 2012년 CSS 미디어 쿼리가 도입되면서 점차 사라지며, 웹사이트가 다양한 화면 크기, 기기 및 형식에 적응할 수 있게 되었습니다. 또한 모바일 브라우저는 훨씬 더 강력해지고, 그 아래에 있는 기기들도 마찬가지입니다. 물론 JavaScript도 포함되어 있군요.
 
@@ -111,7 +207,18 @@ JavaScript는 갑자기 전체 DOM을 조작할 수 있게 되었으며, 브라�
 
 브라우저는 또한 ChromeOS, Android, iOS, Windows와 같은 운영 체제에 더 많이 통합되어 가고 있습니다. 동시에 더 많은 애플리케이션이 웹과 HTML을 대규모로 활용하여 콘텐츠를 표시하고 서비스를 제공하고 있습니다. 소프트웨어 서비스로의 상승으로 현대 비즈니스 애플리케이션도 빠르게 브라우저로 이동하고 있으며, 사용자로부터 설치 부담과 복잡한 라이선싱을 해방시켜 주는 추세입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 아직 남아 있는 과제들
 
@@ -121,7 +228,18 @@ JavaScript는 갑자기 전체 DOM을 조작할 수 있게 되었으며, 브라�
 
 z-index 조작의 도입은 팝업 창의 새로운 버전을 불러왔습니다. 사용자가 웹사이트의 실제 콘텐츠에 접근하지 못하게 하는 중앙 레이어가 등장했습니다. 역사는 분명히 여기서 반복되고 있습니다. 사람들은 팝업 위기로부터 아무것도 배우지 않았나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 HTML, CSS 및 JavaScript의 복잡성이 증가함에 따라 새로운 소프트웨어 개발자들이 웹 개발 세계에 진입하고 Lighthouse 테스트와 같은 성능 테스트와 같은 웹 응용 프로그램 표준을 유지하기가 점점 더 어려워지고 있습니다. 오늘날의 일부 웹 사이트는 쉽게 5메가바이트 이상을 초과합니다. 과거의 성능 문제는 오늘도 여전히 해결되지 않은 채로 남아 있습니다.
 
@@ -131,7 +249,18 @@ W3C가 웹을 위한 로드맵에 더 많은 것들이 있으며, W3C는 표준�
 
 오늘날 일부 사람들은 Frontend(실제 웹 앱 구축)와 Backend(앱이 통신하는 서버 측 구성 요소를 구축)을 구분하는 경향이 있습니다. 그러나 웹의 역사는 이것이 잘못된 접근법임을 증명했습니다. 예전에는 HTML이 많이 서버 측에서 생성되었고 오늘날은 비디오 및 이미지 편집과 같은 많은 작업이 빠르게 브라우저 쪽으로 이동했기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 좋은 웹 앱을 만드는 것은 React와 같은 프레임워크로 더 쉬워졌어요. JSX 같은 React 요소들이 브라우저의 표준으로 채택될 것을 기대할 수 있어요. W3C 표준에 의해 대체된 Flash와 많은 다른 기술들처럼 말이에요.
 

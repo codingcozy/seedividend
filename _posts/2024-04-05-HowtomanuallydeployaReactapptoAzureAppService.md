@@ -3,17 +3,13 @@ title: "React 앱을 수동으로 Azure App Service에 배포하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How to manually deploy a React app to Azure App Service"
 link: "https://medium.com/@kagamimendoza/how-to-manually-deploy-a-react-app-to-azure-app-service-9a89a194c354"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/HowtomanuallydeployaReactapptoAzureAppService_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ## 요구 사항:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Azure 구독을 통해 무료로 Azure를 시작할 수 있습니다.
 - Visual Studio Code
@@ -36,7 +43,18 @@ isUpdated: true
 
 터미널을 열고 다음 명령을 실행하여 새 React 앱을 생성하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npx create-react-app testreactinaas
@@ -48,7 +66,18 @@ npx create-react-app testreactinaas
 
 단계 1: 로컬에서 React 앱을 테스트하세요: 로컬 서버에서 실행하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 터미널이나 명령 프롬프트를 열고 다음 명령을 실행해보세요:
 
@@ -61,7 +90,18 @@ npm start
 
 ![이미지](/assets/img/HowtomanuallydeployaReactapptoAzureAppService_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기본적으로 앱은 http://localhost:3000/ 에서 사용할 수 있습니다.
 
@@ -73,7 +113,18 @@ npm start
 npm run build
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/HowtomanuallydeployaReactapptoAzureAppService_4.png)
 
@@ -83,7 +134,18 @@ Step 3: React 프로젝트용 Azure App Service 프로비저닝
 
 ![이미지](/assets/img/HowtomanuallydeployaReactapptoAzureAppService_6.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 4: 웹 앱에 대한 기본 구성
 
@@ -93,7 +155,18 @@ Step 3: React 프로젝트용 Azure App Service 프로비저닝
 
 ![이미지](/assets/img/HowtomanuallydeployaReactapptoAzureAppService_9.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테스트를 위해 F1 요금제를 선택해보세요. 필요에 따라 다른 것을 선택해도 괜찮아요.
 
@@ -103,7 +176,18 @@ Step 3: React 프로젝트용 Azure App Service 프로비저닝
 
 ![이미지](/assets/img/HowtomanuallydeployaReactapptoAzureAppService_11.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/HowtomanuallydeployaReactapptoAzureAppService_12.png" />
 
@@ -113,7 +197,18 @@ Step 3: React 프로젝트용 Azure App Service 프로비저닝
 
 Azure Account
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Azure App Service
 
@@ -123,7 +218,18 @@ Azure 자원
 
 ![이미지](/assets/img/HowtomanuallydeployaReactapptoAzureAppService_14.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자격 증명을 완료하시고 나면, Azure에서 리소스를 볼 수 있게 되며 특히 5단계에서 생성한 앱 서비스를 확인할 수 있습니다.
 
@@ -133,7 +239,18 @@ Azure 자원
 
 ![이미지 3](/assets/img/HowtomanuallydeployaReactapptoAzureAppService_17.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![How to manually deploy a React app to Azure App Service 18](/assets/img/HowtomanuallydeployaReactapptoAzureAppService_18.png)
 
@@ -143,7 +260,18 @@ Azure 자원
 
 ![How to manually deploy a React app to Azure App Service 21](/assets/img/HowtomanuallydeployaReactapptoAzureAppService_21.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![img](/assets/img/HowtomanuallydeployaReactapptoAzureAppService_22.png)
 
@@ -153,7 +281,18 @@ Azure 자원
 
 반드시 시행해야 하는 중요한 실천 방법 중 하나는 배포 및 관리 작업을 완료한 후 Azure 계정에서 로그아웃하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 부디 제게 피드백을 주시면 성장할 수 있습니다. 정말 감사합니다.
 

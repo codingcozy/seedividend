@@ -3,17 +3,13 @@ title: "SASS vs Native CSS, 2024년에는 CSS가 더 좋은 이유"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "SASS vs Native CSS Choosing the Right Tool for the Job"
 link: "https://medium.com/@temiye13/sass-vs-native-css-choosing-the-right-tool-for-the-job-db37d8c7feb5"
 isUpdated: true
 ---
-
-
-
-
 
 CSS, 혹은 Cascading Style Sheets 언어는 현대 웹 디자인의 기반입니다. 웹 페이지가 어떻게 보이고 느껴지는지를 결정하며, 기본적인 스타일링부터 복잡한 애니메이션까지 다룹니다. 하지만 때로는 일반 CSS만으로는 조금... 흠.. 평범하게 느껴질 수 있어요. 그런 부분에서 SASS 같은 프리프로세서가 필요합니다.
 
@@ -23,7 +19,18 @@ SASS와 원시 CSS 이해하기
 
 SASS(Syntactically Awesome Style Sheets)는 프리프로세서로, 기본 CSS의 확장이라고 할 수 있어요. 변수, 믹스인, 그리고 중첩과 같은 기능을 통해 일반 CSS에 슈퍼파워를 추가합니다. 이러한 기능들은 특히 대규모 프로젝트에게는 스타일시트를 보다 유지보수하기 쉽고 조직적이며 효율적으로 만들어줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 네이티브 CSS는 우리가 모두 알고 사랑하는 바닐라 버전입니다. 이것은 웹페이지 스타일링의 핵심 언어이며 추가 도구가 필요하지 않습니다.
 
@@ -34,7 +41,18 @@ SASS와 네이티브 CSS가 몇 가지 주요 영역에서 어떻게 대척점�
 - 변수:
 - SASS: $ 기호를 사용하여 변수 정의 (예: $primary-color: blue). 스타일 시트를 더 일관되게 만들고 더 쉽게 업데이트할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 코드 스니펫은 Sass 변수를 사용한 CSS 스타일을 보여줍니다.
 
@@ -57,7 +75,18 @@ $secondary-color: #f1f1f1;
 * **Native CSS:** `var()` 함수로 사용자 지정 속성을 도입했습니다 (예: `--primary-color: blue`). 동적 업데이트를 제공하지만 구문이 덜 직관적일 수 있습니다.
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS
 
@@ -81,7 +110,18 @@ CSS
 - 중첩:
 - SASS: 서로 중첩된 셀렉터를 사용할 수 있어요 (예: .button { color: white; background-color: $primary-color; }). 복잡한 스타일을 작성할 때 가독성을 높여줘요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코드 조각
 
@@ -102,7 +142,18 @@ CSS
 * **Native CSS:** 더 많은 선택자가 필요합니다 (예: `.button { color: white; } .button { background-color: blue; }`).
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS
 
@@ -124,7 +175,18 @@ CSS
 - 믹신:
 - SASS: 스타일 정의를 위한 재사용 가능한 코드 블록 (예: @mixin button-style { color: white; background-color: $primary-color; }). 코드 재사용을 촉진하고 중복을 줄입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 @mixin button-style {
@@ -150,7 +212,18 @@ CSS
 * **Native CSS:** 내장 믹스인은 없지만 클래스와 가상 클래스를 사용하여 해결할 수 있습니다.
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 빌드 프로세스 대 워크플로우
 
@@ -161,7 +234,18 @@ CSS
 
 브라우저 호환성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SASS와 Native CSS 모두 훌륭한 브라우저 지원을 가지고 있지만, 고급 SASS 기능을 사용할 때는 컴파일 단계에서 오래된 브라우저를 위해 벤더 접두사를 추가해야 할 수도 있습니다. 표준인 Native CSS는 일반적으로 더 넓은 호환성을 즐깁니다.
 
@@ -171,7 +255,18 @@ SASS와 Native CSS 모두 훌륭한 브라우저 지원을 가지고 있지만, 
 
 - Native CSS: 소규모 프로젝트나 빠른 프로토타입 또는 간편함이 요구될 때 이상적입니다. 스타일링 웹페이지의 기본을 이해하기 위한 초심자에게 좋은 선택지입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS
 
@@ -202,7 +297,18 @@ body {
 
 - SASS: 대규모 프로젝트, 복잡한 스타일시트 또는 더 나은 구성 및 유지 관리를 원할 때 이상적입니다. 변수, 믹스인, 중첩과 같은 기능이 더 깨끗하고 확장 가능한 코드를 지향합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 코드 스니펫
 
@@ -237,7 +343,18 @@ $secondary-color: #f1f1f1;
 
 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어떤 것이 "최고"인 선택지는 없어요. SASS와 기본 CSS는 각자의 장점이 있어요.
 
@@ -248,6 +365,17 @@ $secondary-color: #f1f1f1;
 
 ## 추가 팁
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SASS를 처음 시작하시는 분이라면, 온라인 튜토리얼과 자료들이 많이 있어요. SASS 공식 문서나 Codecademy나 Udemy와 같은 플랫폼에서 제공하는 온라인 강좌가 인기가 있어요.

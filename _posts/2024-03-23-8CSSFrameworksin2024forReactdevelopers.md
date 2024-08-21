@@ -3,18 +3,13 @@ title: "2024년을 위한 8가지 React 개발자를 위한 CSS 프레임워크"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "8 CSS Frameworks in 2024 for React developers"
 link: "https://medium.com/@imPradhyumn/8-css-frameworks-in-2024-for-react-developers-e3512c196b35"
 isUpdated: true
 ---
-
-
-
-
-
 
 안녕하세요!!
 
@@ -24,7 +19,18 @@ isUpdated: true
 
 ![이미지](/assets/img/8-CSS-Frameworks-in-2024-for-React-developers_0.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 번 살펴볼만한 10가지 CSS 프레임워크에 대해 알아보겠습니다:
 
@@ -34,7 +40,18 @@ isUpdated: true
 
 ![이미지](/assets/img/8-CSS-Frameworks-in-2024-for-React-developers_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 장점:
 
@@ -48,7 +65,18 @@ isUpdated: true
 - 웹사이트들이 서로 꽤 비슷해 보입니다.
 - 맞춤화할 수 있는 기능이 그리 많지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. Material-UI
 
@@ -58,7 +86,18 @@ isUpdated: true
 
 장점:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 훌륭한 문서, 구성 요소의 쉬운 통합을 제공합니다
 - 특정 요구 사항에 맞게 쉽게 사용자 정의할 수 있습니다
@@ -71,7 +110,18 @@ isUpdated: true
 
 3. Ant-Design
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Ant Design은 다양한 컴포넌트를 갖춘 인기 있는 디자인 프레임워크로, 기업 애플리케이션을 염두에 두고 만들어졌습니다.
 
@@ -84,7 +134,18 @@ Ant Design은 다양한 컴포넌트를 갖춘 인기 있는 디자인 프레임
 - 좋은 폼 처리
 - UI가 아름답다
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단점:
 
@@ -96,7 +157,18 @@ Ant Design은 다양한 컴포넌트를 갖춘 인기 있는 디자인 프레임
 
 2024년에 가장 인기 있는 라이브러리 중 하나이자, 제 개인적으로 가장 좋아하는 라이브러리입니다. 다른 프레임워크와 달리, Tailwind CSS는 미리 구축된 컴포넌트를 제공하지 않고 직접 유틸리티 클래스를 사용해 디자인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/8-CSS-Frameworks-in-2024-for-React-developers_4.png)
 
@@ -110,7 +182,18 @@ Ant Design은 다양한 컴포넌트를 갖춘 인기 있는 디자인 프레임
 
 단점:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 대형 HTML 파일
 - CSS 지식이 필요합니다
@@ -123,7 +206,18 @@ Semantic UI는 웹 사이트의 개념적인 구축 블록이 개별 HTML 태그
 
 ![이미지](/assets/img/8-CSS-Frameworks-in-2024-for-React-developers_5.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 장점:
 
@@ -139,7 +233,18 @@ Semantic UI는 웹 사이트의 개념적인 구축 블록이 개별 HTML 태그
 - 오래된 브라우저와 호환되지 않음
 - 클래스 이름에 과도한 의존
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 6. Bulma
 
@@ -149,7 +254,18 @@ Flexbox를 기반으로 하는 무료 오픈 소스 CSS 프레임워크로 Sass�
 
 장점:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 모바일 우선 개념
 - 가벼운 무게
@@ -165,7 +281,18 @@ Flexbox를 기반으로 하는 무료 오픈 소스 CSS 프레임워크로 Sass�
 
 7. Chakra UI
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Chakra UI는 React 애플리케이션을 구축하는 데 필요한 구성 요소를 제공하는 간단하고 모듈식이며 접근성이 있는 컴포넌트 라이브러리입니다.
 
@@ -178,7 +305,18 @@ Chakra UI는 React 애플리케이션을 구축하는 데 필요한 구성 요�
 - 다크 모드 지원
 - 반응형을 쉽게 추가할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단점:
 
@@ -188,11 +326,23 @@ Chakra UI는 React 애플리케이션을 구축하는 데 필요한 구성 요�
 
 React 웹 앱을 위한 100개 이상의 사용 가능한 컴포넌트와 50가지 후크를 제공하는 TypeScript 기반 프레임워크입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-![이미지](/assets/img/8-CSS-Frameworks-in-2024-for-React-developers_8.png)  
-   
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+![이미지](/assets/img/8-CSS-Frameworks-in-2024-for-React-developers_8.png)
+
 장점:
+
 - TypeScript 기반
 - Next.js와 같은 현대적인 프레임워크 지원
 - 커스터마이즈 가능
@@ -200,7 +350,18 @@ React 웹 앱을 위한 100개 이상의 사용 가능한 컴포넌트와 50가�
 
 단점:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 커뮤니티 지원 부족
 - 맞춤화를 위한 학습 곡선
@@ -215,6 +376,17 @@ React 웹 앱을 위한 100개 이상의 사용 가능한 컴포넌트와 50가�
 
 읽어 주셔서 감사합니다!!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 행복한 코딩하세요!!

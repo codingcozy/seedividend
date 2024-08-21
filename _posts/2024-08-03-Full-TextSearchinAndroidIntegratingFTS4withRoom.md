@@ -3,17 +3,13 @@ title: "안드로이드에서 전체 텍스트 검색 Room과 FTS4 통합하는 
 description: ""
 coverImage: "/assets/img/2024-08-03-Full-TextSearchinAndroidIntegratingFTS4withRoom_0.png"
 date: 2024-08-03 18:57
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-03-Full-TextSearchinAndroidIntegratingFTS4withRoom_0.png
 tag: Tech
 originalTitle: "Full-Text Search in Android Integrating FTS4 with Room"
 link: "https://medium.com/@ccansuccanturk/fts4-full-text-search-in-android-273366e488ae"
 isUpdated: true
 ---
-
-
-
-
 
 ![image](/assets/img/2024-08-03-Full-TextSearchinAndroidIntegratingFTS4withRoom_0.png)
 
@@ -23,8 +19,18 @@ FTS4는 SQLite의 기능으로, 전체 텍스트 검색 기능을 제공합니�
 
 전통적인 방법에서는 전체 텍스트 검색을 SQL 쿼리에서 LIKE 연산자를 사용하여 수행합니다. 이 방법은 대규모 데이터셋에 대해 느리고 비효율적일 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 SELECT * FROM notes WHERE content LIKE '%meeting%' AND content LIKE '%agenda%';
@@ -38,7 +44,18 @@ SELECT * FROM notes WHERE content LIKE '%meeting%' AND content LIKE '%agenda%';
 
 # FTS4으로 검색하기:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시: "meeting"과 "agenda"를 포함하는 노트를 찾으려면:
 
@@ -53,7 +70,18 @@ SELECT * FROM notes WHERE notes MATCH 'meeting AND agenda';
 - 쉬운 통합: SQLite 및 Room과 쉽게 통합할 수 있습니다.
 - 자연어 처리: FTS4는 자연어 입력을 다룰 수 있으며, 어간 및 변형 단어를 인식하여 의미 있는 정확한 검색 결과를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 안드로이드에서 Room과 함께 FTS4 사용하는 방법
 
@@ -63,7 +91,18 @@ SELECT * FROM notes WHERE notes MATCH 'meeting AND agenda';
 
 FTS4를 지원하는 최신 Room 라이브러리가 안드로이드 프로젝트에 포함되어 있는지 확인하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 의존성 {
@@ -91,7 +130,18 @@ data class Note(
 )
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 3. DAO 생성
 
@@ -113,7 +163,18 @@ interface NoteDao {
 
 ## 4. 데이터베이스 설정
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래와 같이 Room 데이터베이스를 설정하여 DAO 및 엔티티를 사용할 수 있도록 합니다:
 
@@ -145,7 +206,18 @@ abstract class NoteDatabase : RoomDatabase() {
 
 MainActivity에서 샘플 노트를 삽입하고 검색 쿼리를 수행하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```kotlin
 class MainActivity : ComponentActivity() {
@@ -194,7 +266,17 @@ class MainActivity : ComponentActivity() {
 
 # 결론
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요약하자면, 안드로이드 애플리케이션에서 Room과 함께 FTS4를 사용하면 전체 텍스트 검색을 구현하는 데 매우 효율적인 솔루션을 제공합니다. 전통적인 LIKE 쿼리와 비교하면 FTS4는 뛰어난 성능과 순위 매기기 및 토큰화와 같은 고급 검색 기능을 제공합니다. FTS4를 Room과 통합함으로써 개발자는 Room의 추상화 계층의 간편함을 유지하면서 더 빠르고 정확한 검색 결과를 얻을 수 있습니다. 이 조합은 전체 사용자 경험을 향상시켜 로버스트하고 효율적인 텍스트 검색 기능이 필요한 애플리케이션에 우수한 선택지가 됩니다.

@@ -3,16 +3,13 @@ title: "CSS에서는 박스 모델이 없습니다 - 그래서 테두리가 좋�
 description: ""
 coverImage: "/assets/img/2024-06-20-ThereisnoboxmodelinCSSandthisiswhybordersareterrible_0.png"
 date: 2024-06-20 00:58
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-ThereisnoboxmodelinCSSandthisiswhybordersareterrible_0.png
 tag: Tech
 originalTitle: "There is no box model in CSS — and this is why borders are terrible"
 link: "https://medium.com/@decketts/there-is-no-box-model-in-css-and-this-is-why-borders-are-terrible-dd7e4b736955"
 isUpdated: true
 ---
-
-
-
 
 ## 자바스크립트UI — 개발 블로그 #7
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 ![box](/assets/img/2024-06-20-ThereisnoboxmodelinCSSandthisiswhybordersareterrible_0.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 이것이 사각형입니다:
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 사실, 더 자세히 살펴보면 상자와 사각형 사이에 뚜렷한 차이를 느낄 수 있을 거에요: 하나는 3차원이고 다른 하나는 완전히 평면입니다. 무언가를 "상자"라고 부르면 사람들은 자연스럽게 3차원적인 것을 기대할 테지만, CSS는 모든 것을 2차원으로 평평하게 만들려고 최선을 다합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 불일치로 웹 레이아웃과 사용자 인터페이스를 구축하는 데 심각한 결과가 발생했습니다. 이 중 하나는 CSS에서 적절한 테두리를 적용할 수 없는 것입니다. 이것은 테두리가 문서 내로 펼쳐지기 때문입니다. 이것만으로도 CSS "박스" 모델이 근본적으로 깨진 이유를 보여줍니다.
 
@@ -42,7 +61,18 @@ isUpdated: true
 
 CSS "박스" 모델의 핵심에는 세 가지 개념이 있습니다: 마진 "박스", 테두리 "박스" 및 패딩 "박스"가 있습니다. 간단해 보이죠? 그렇지만, CSS에서 테두리는 항상 레이아웃의 일부인데 실제로는 그렇지 않아야 합니다. 이것이 두 가지 중요한 문제를 일으킵니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 어떤 요소의 크기가 애매해집니다
 - 테두리의 너비가 변경될 때마다 레이아웃이 바뀌게 됩니다.
@@ -53,8 +83,18 @@ CSS "박스" 모델의 핵심에는 세 가지 개념이 있습니다: 마진 "�
 
 그래도 두 번째 문제가 남아있습니다: 레이아웃이 바뀌는 문제입니다. box-sizing에 관계없이 레이아웃이 계속 바뀝니다. 그저 "상자" 내부의 모든 것을 엉망으로 만들 지, 바깥쪽 모든 것을 엉망으로 만들 지를 선택할 수 있을 뿐입니다. 버튼에 호버 효과를 추가할 때 테두리를 넣어보는 단순한 예제를 살펴보세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](https://miro.medium.com/v2/resize:fit:1400/1*ayv0dXb1OsnY0qv6EaxxUQ.gif)
 
@@ -62,39 +102,49 @@ CSS "박스" 모델의 핵심에는 세 가지 개념이 있습니다: 마진 "�
 
 ```js
 Stack(
-    Button(`Border "box"`)
-        .css("box-sizing", "border-box")
-        .width(150)
-        .height(50)
-        .cornerRadius(25)
-        .css("text-align", "center") //수평 정렬
-        .css("line-height", "50px") //수직 정렬 요령
-        .backgroundColor("#027FFC")
-        .onMouseOver(self => self.border("2px solid black"))
-        .onMouseOut(self => self.border("none")),
-        
-    Button(`Content "box"`)
-        .css("box-sizing", "content-box")
-        .width(150)
-        .height(50)
-        .cornerRadius(25)
-        .css("text-align", "center") //수평 정렬
-        .css("line-height", "50px") //수직 정렬 요령
-        .backgroundColor("#027FFC")
-        .onMouseOver(self => self.border("2px solid black"))
-        .onMouseOut(self => self.border("none"))
+  Button(`Border "box"`)
+    .css("box-sizing", "border-box")
+    .width(150)
+    .height(50)
+    .cornerRadius(25)
+    .css("text-align", "center") //수평 정렬
+    .css("line-height", "50px") //수직 정렬 요령
+    .backgroundColor("#027FFC")
+    .onMouseOver((self) => self.border("2px solid black"))
+    .onMouseOut((self) => self.border("none")),
+
+  Button(`Content "box"`)
+    .css("box-sizing", "content-box")
+    .width(150)
+    .height(50)
+    .cornerRadius(25)
+    .css("text-align", "center") //수평 정렬
+    .css("line-height", "50px") //수직 정렬 요령
+    .backgroundColor("#027FFC")
+    .onMouseOver((self) => self.border("2px solid black"))
+    .onMouseOut((self) => self.border("none"))
 )
-    .width(680)
-    .height(500)
-    .gapX(20)
-    .css("justify-content", "center") //수평 정렬
-    .css("align-items", "center"); //수직 정렬
+  .width(680)
+  .height(500)
+  .gapX(20)
+  .css("justify-content", "center") //수평 정렬
+  .css("align-items", "center"); //수직 정렬
 ```
 
 이는 일반적이고 상대적으로 간단한 레이아웃 상황입니다: 동일한 크기의 두 버튼을 만들어 호버 시 2px 폭의 검은 실선 테두리를 추가합니다. border-box를 사용하면 버튼 내부의 레이아웃이 깨지고 content-box를 사용하면 주변에 레이아웃이 깨집니다. 이보다 더 기본적인 예제를 찾기 어려울 것이며, 심지어 여기서도 "box" 모델이 완전히 붕괴됩니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 문제는 단순한 픽셀 조정이라고 속시원하게 말할 수 있지만, 시각 장애나 인지 장애를 가진 사람들에게는 중요한 접근성 문제입니다. 그리고 어떤 요소에도 동적으로 테두리를 설정할 때 이 문제가 널리 발생합니다.
 
@@ -109,7 +159,18 @@ Stack(
 - 일반 요소나 svg 사각형을 기존 요소 위에 추가하여 테두리 역할을 하는 요소로 사용: 의미론적이 아니며, 스타일링뿐만 아니라 뷰 트리(html 계층 구조)를 불필요하게 늘려주며 (예: 둥근 모서리?), CSS에서 요소를 겹치는 것은 일반적으로 고통스럽지만 적어도 가운데 정렬할 수 있습니다 (내부 또는 외부만 가능)
 - 명시적인 대신 상대적인 크기 사용: 두 개 이상의 버튼 너비를 일치시킬 수 없으며, 항상 콘텐츠 상자처럼 동작하기 때문에 모든 것이 외부로 커져 (버튼 내의 레이아웃 변화하는 문제를 포함시킬 수 없게됩니다), 여전히 가운데 테두리가 없습니다. (외부만 가능)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 무엇을 시도해도 "해결책"은 추해고 부자연스럽며 번거로울 것입니다. 이렇게 쉬운 것조차도 이렇게 불행스러울 때, 우리는 어떻게 효율적으로 가치 있는 것을 구축할 것을 기대할 수 있을까요? 그리고 이것이 CSS의 핵심입니다는 것을 염두에 두세요.
 
@@ -119,7 +180,18 @@ Stack(
 
 ## 다른 차원에서 참된 해결책
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기본 CSS "박스" 모델이 그렇게 나쁘다면 올바른 접근 방식은 무엇인가요?
 
@@ -129,8 +201,18 @@ Stack(
 
 ![이미지2](/assets/img/2024-06-20-ThereisnoboxmodelinCSSandthisiswhybordersareterrible_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-20-ThereisnoboxmodelinCSSandthisiswhybordersareterrible_4.png)
 
@@ -140,8 +222,18 @@ Stack(
 
 이 접근 방식을 사용하면 단일하고 명확한 요소 크기를 얻을 수 있으며, 레이아웃에 영향을 주지 않고 테두리를 어떤 방식으로든 변경할 수 있습니다. 심지어 테두리를 제대로 정렬할 수도 있습니다. 갑자기 모든 해킹, box-sizing 및 content-box와 같은 불필요한 개념이 완전히 워크플로우에서 제거되고 이제 Box Model이라는 이름도 약간 더 의미를 갖게 됩니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 이 모든 것 위에 엄청난 추가 혜택이 하나 더 있는데, 이제 디자인 (특히 그래픽 디자인) 및 웹 개발팀이 같은 언어를 구사할 수 있다는 것입니다. 마찰도 없고 번복도 없습니다. 웹이 다른 모든 것과 마찬가지로 작동하는 것이다. 항상 모든 가능한 방법을 다시 창조하는 것이 아닌 것이다.
 
@@ -151,6 +243,17 @@ Stack(
 
 CSS "박스" 모델이라는 용어는 3차원으로 작업할 수 있다는 것을 시사하는 것이 틀림없고 오해를 불러일으킨다. 실제로, 심지어 겹치는 테두리를 구현하는 것조차 거의 불가능하다. 모든 가능한 해결책은 매우 제한적이며 문제를 더 많이 일으키는 경우가 훨씬 많다. 웹 레이아웃에서 테두리를 제거하면 레이아웃 자체뿐만 아니라 작업하기가 훨씬 편리해지며 그래픽 디자인과 웹 개발 간의 간격을 줄일 수 있습니다. 불행히도, JavaScriptUI에서 수용할만한 해결책을 찾지 못했지만, 해결책이 떠오르면 댓글 섹션에서 공유해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 Markdown 형식으로 변경하세요.

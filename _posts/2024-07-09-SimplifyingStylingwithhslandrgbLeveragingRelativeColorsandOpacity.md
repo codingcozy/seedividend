@@ -3,15 +3,13 @@ title: "hsl과 rgb로 스타일링 쉽게 하기 상대 색상과 투명도 활�
 description: ""
 coverImage: "/assets/img/2024-07-09-SimplifyingStylingwithhslandrgbLeveragingRelativeColorsandOpacity_0.png"
 date: 2024-07-09 14:06
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-SimplifyingStylingwithhslandrgbLeveragingRelativeColorsandOpacity_0.png
 tag: Tech
 originalTitle: "Simplifying Styling with hsl() and rgb(): Leveraging Relative Colors and Opacity"
 link: "https://medium.com/@guhaprasaanth/simplifying-styling-with-hsl-and-rgb-leveraging-relative-colors-and-opacity-1d4161ec0cf4"
 isUpdated: true
 ---
-
-
 
 ![이미지](/assets/img/2024-07-09-SimplifyingStylingwithhslandrgbLeveragingRelativeColorsandOpacity_0.png)
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 ## HSL (색조, 채도, 명도)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 HSL 색 모델은 색상을 색상, 채도 및 밝기로 표현합니다:
 
@@ -35,7 +44,18 @@ HSL 색 모델은 색상을 색상, 채도 및 밝기로 표현합니다:
 color: hsl(색상, 채도%, 밝기%);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시:
 
@@ -47,7 +67,18 @@ color: hsl(120, 50%, 50%); /* 중간 녹색 */
 
 RGB 색 모델은 0부터 255까지의 강도로 빨강, 초록 및 파랑 광을 결합하여 색상을 표현합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문법:
 
@@ -61,7 +92,18 @@ color: rgb(red, green, blue);
 color: rgb(0, 128, 0); /* 중간 녹색 */
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # HSL 스타일링의 장점
 
@@ -78,7 +120,18 @@ color: rgb(0, 128, 0); /* 중간 녹색 */
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 채도 및 명도 조절: 채도와 명도를 조절하여 색조, 음영, 그리고 톤을 만들어 보세요. 예시:
 
@@ -95,7 +148,18 @@ color: rgb(0, 128, 0); /* 중간 녹색 */
 
 색조를 일정하게 유지하면서 채도와 명도를 조절함으로써 일관된 색채 구성을 유지하기 쉽습니다. 예시:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .primary {
@@ -122,7 +186,18 @@ HSL 값은 RGB보다 사람이 읽고 이해하기 쉽기 때문에 색상을 �
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # RGB를 사용하는 이유
 
@@ -136,7 +211,18 @@ RGB는 빨강, 초록, 파랑 성분의 강도를 정밀하게 조절할 수 있
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2. 호환성과 지원
 
@@ -150,7 +236,18 @@ RGB는 다양한 플랫폼과 도구에서 널리 지원되고 이해되어 일�
 
 ## 3. 다른 색상 모델과의 통합
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 RGB는 다른 색 모델(예: HEX)로 쉽게 변환할 수 있으며 종종 알파 투명도(rgba)와 함께 사용됩니다. 예시:
 
@@ -164,7 +261,18 @@ RGB는 다른 색 모델(예: HEX)로 쉽게 변환할 수 있으며 종종 알�
 
 ## HSL(HSLA)에서 불투명도
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 HSL 모델에 알파 채널을 추가하며 불투명도를 조절할 수 있는 HSLA입니다. 구문:
 
@@ -180,7 +288,18 @@ color: hsla(색상, 채도%, 밝기%, 알파);
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## RGB( RGBA)에서 불투명도
 
@@ -192,7 +311,18 @@ color: rgba(red, green, blue, alpha);
 
 예시:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .transparent-red {
@@ -206,7 +336,18 @@ color: rgba(red, green, blue, alpha);
 
 라이트 테마와 다크 테마:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 :root {
@@ -240,7 +381,18 @@ Creating Smooth Transitions:
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

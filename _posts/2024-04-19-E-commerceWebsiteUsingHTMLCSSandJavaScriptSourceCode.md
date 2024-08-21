@@ -3,17 +3,13 @@ title: "HTML, CSS 및 JavaScript로 전자 상거래 웹사이트 만드는 방�
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "E-commerce Website Using HTML, CSS, and JavaScript Source Code"
 link: "https://medium.com/@codewithrandomartical/e-commerce-website-using-html-css-and-javascript-source-code-577692c2ba39"
 isUpdated: true
 ---
-
-
-
-
 
 ## HTML, CSS 및 JavaScript를 사용한 전자상거래 웹사이트
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 친애하는 코더 여러분: HTML, CSS 및 JavaScript를 사용하여 전자상거래 웹사이트 소스 코드를 만드는 방법을 살펴봅시다. HTML 코드를 사용하여 전자상거래 웹사이트의 기초를 구축하고, CSS 코드를 사용하여 스타일을 입혀봅니다. 각 코드에 대해 자세히 설명합니다. 그런 다음 전자상거래 웹사이트에서 특정 기능을 활용하기 위해 JavaScript 코드를 작성합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 전자 상거래 웹사이트란 무엇인가요?
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 전자 상거래 웹사이트의 이점은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 24시간 365일 고객 지원
 - 다양한 결제 방법
@@ -46,7 +64,18 @@ isUpdated: true
 
 잠시만 기다려주세요. 여러분은 아직 자신의 웹사이트가 없나요? 실망하지 마세요. 전자 상거래 웹사이트를 만드는 방법을 배울 수 있도록 도와드리겠습니다. 블로그와 계속 연결 유지하여 모험을 끝까지 즐기세요. 여러분의 전자 상거래 웹사이트가 완성되면 자유롭게 쇼핑을 즐기세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 사이트의 외관을 살펴보고, 만드는 과정에 들어가기 전에 먼저 확인해 보세요. 제 우아한 온라인 상점을 둘러보실 수 있습니다.
 
@@ -56,7 +85,18 @@ isUpdated: true
 
 전자 상거래 웹사이트 코드
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 이 웹페이지를 만드는 데 필요한 기술들입니다. 이것들은 전자 상거래 웹사이트를 만들기 위해 반드시 가져야 할 필수 구성 요소들입니다:
 
@@ -68,7 +108,18 @@ isUpdated: true
 
 인간의 몸의 골격 시스템(뼈의 구조/구조)은 인간의 몸에 구조/레이아웃을 제공합니다. 마찬가지로 HTML 코드도 마찬가지입니다. 그것은 웹사이트의 레이아웃을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 걱정하지 마세요. 이 웹 사이트를 위해 생물학적 지식이 필요하지 않아요.
 
@@ -82,7 +133,18 @@ HTML과 CSS를 사용한 레스토랑 웹 사이트
 
 ![이미지](/assets/img/E-commerceWebsiteUsingHTMLCSSandJavaScriptSourceCode_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1. 헤더:-
 
@@ -92,7 +154,18 @@ HTML과 CSS를 사용한 레스토랑 웹 사이트
 
 1. 헤더 섹션에서, 먼저 로고용, 검색 바용 두 개의 div를 만드세요 그리고 메뉴 목록용 세 번째 div를 만드세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 번째 수업에서는 Ionicon을 통해 가져온 검색 아이콘을 사용했어요. 웹사이트 개발에서 사용되는 모든 종류의 아이콘을 사용할 수 있어요.
 
@@ -143,7 +216,18 @@ Input은 체크박스, 라디오, 이메일 입력, 날짜, 시간 등 여러 �
 </header>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리 웹사이트는 반응형이어야 해요 (반응형 웹사이트는 다양한 화면 크기와 뷰포트에 자동으로 맞춰져요).
 
@@ -153,7 +237,18 @@ Input은 체크박스, 라디오, 이메일 입력, 날짜, 시간 등 여러 �
 
 HTML CSS 초보자를 위한 10가지 이상의 프로젝트 (소스 코드)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/E-commerceWebsiteUsingHTMLCSSandJavaScriptSourceCode_3.png)
 
@@ -239,7 +334,18 @@ HTML CSS 초보자를 위한 10가지 이상의 프로젝트 (소스 코드)
 </header>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 헤더 섹션이 끝났어요. 이제 본문 섹션으로 넘어가볼게요.
 
@@ -249,7 +355,18 @@ HTML CSS 초보자를 위한 10가지 이상의 프로젝트 (소스 코드)
 
 이미지 슬라이더가 있는 섹션1입니다. 이미지를 담고 있어요. 컨테이너 클래스를 포함한 섹션 2입니다. 서로 다른 항목들을 담고 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/E-commerceWebsiteUsingHTMLCSSandJavaScriptSourceCode_5.png" />
 
@@ -281,7 +398,18 @@ HTML CSS 초보자를 위한 10가지 이상의 프로젝트 (소스 코드)
 
 이로써 섹션 부분이 종료되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주석: 안녕하세요. 이 태그에 클래스 이름을 지정한 이유에 대해 아직 궁금해 하고 계신가요? 올바른 답은 해당 태그의 스타일링을 지원하기 때문입니다. 동일한 스타일링을 적용하여 여러 태그를 스타일링하려는 경우에는 각 태그를 따로 스타일링해야 합니다. 각 태그에 동일한 이름을 부여하면 한 클래스에 스타일이 적용될 때 해당 이름을 가진 모든 태그가 스타일이 적용됩니다.
 
@@ -291,7 +419,18 @@ HTML, CSS, JavaScript을 사용한 Tic Tac Toe 게임
 
 푸터는 웹 사이트의 마지막 섹션입니다. 일부 세부 정보를 추가합니다. 위 웹 사이트의 푸터는 아래 그림에서 보여집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/E-commerceWebsiteUsingHTMLCSSandJavaScriptSourceCode_6.png" />
 
@@ -301,7 +440,18 @@ HTML, CSS, JavaScript을 사용한 Tic Tac Toe 게임
 
 이제 코드를 구현할 시간입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 순수 CSS로 크리스마스 트리 만들기
 
@@ -311,6 +461,17 @@ footer1 클래스 안에 소셜 미디어 아이콘을 위한 하나의 클래�
 
 비슷하게 footer2와 footer3에 아래 코드에 제공된 클래스들을 추가하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 많이 읽고 완전한 소스 코드를 얻으세요

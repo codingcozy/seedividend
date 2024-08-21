@@ -3,17 +3,13 @@ title: "CSS 애니메이션을 활용하여 버튼에 빛나는 효과 추가하
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Adding a dynamic Glow Effect to a Button with CSS animation"
 link: "https://medium.com/@ashishpaul5055/adding-a-dynamic-glow-effect-to-a-button-with-css-animation-a70aeb809206"
 isUpdated: true
 ---
-
-
-
-
 
 HTML과 CSS를 사용하여 반짝이는 버튼 애니메이션 만들기
 
@@ -23,7 +19,18 @@ HTML 구조:
 
 우선 HTML 구조부터 시작해봅시다. 간단한 버튼을 만들고 내부에 일부 텍스트를 넣겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <!DOCTYPE html>
@@ -52,7 +59,18 @@ CSS 스타일링:
 
 이제 CSS 부분으로 이동하여 버튼에 스타일과 애니메이션을 추가해 봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 /*=============== GOOGLE FONTS ===============*/
@@ -65,8 +83,7 @@ CSS 스타일링:
   --body-color: #393937;
   --accent-color: #03e9f4;
   --white-color: #fff;
-  --box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 100px
-      #03e9f4;
+  --box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 100px #03e9f4;
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
@@ -152,6 +169,17 @@ a {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 HTML 구조와 CSS 스타일 및 애니메이션을 조합하여 시각적으로 매력적인 빛나는 버튼 애니메이션을 만들었습니다. 색상, 글꼴 및 애니메이션 지속 시간을 사용자 정의하여 디자인 취향에 맞게 조정할 수 있습니다.

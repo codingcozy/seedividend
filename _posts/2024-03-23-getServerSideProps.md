@@ -3,17 +3,13 @@ title: "Nextjs 13 getServerSideProps 사용 방법 정리"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "getServerSideProps"
 link: "undefined"
 isUpdated: true
 ---
-
-
-
-
 
 # getServerSideProps
 
@@ -23,7 +19,18 @@ getServerSideProps는 요청 시 데이터를 가져와 페이지의 내용을 �
 
 getServerSideProps를 사용하려면 페이지 구성 요소에서 내보내야합니다. 아래 예제는 getServerSideProps에서 제 3자 API에서 데이터를 가져와 해당 데이터를 페이지에 속성으로 전달하는 방법을 보여줍니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```typescript
 import type { InferGetServerSidePropsType, GetServerSideProps } from "next";
@@ -56,7 +63,18 @@ getServerSideProps는 사용자 정의 사용자 데이터에 의존하거나 �
 
 요청 시 데이터를 가져올 필요가 없거나 데이터와 미리 렌더링된 HTML을 캐시하고자 하는 경우에는 getStaticProps를 사용하는 것이 좋습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 동작
 
@@ -73,7 +91,18 @@ getServerSideProps는 사용자 정의 사용자 데이터에 의존하거나 �
 
 ## 에러 처리
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 getServerSideProps 내에서 오류가 발생하면 pages/500.js 파일이 표시됩니다. 500 페이지에 대해 자세히 알아보려면 문서를 확인해보세요. 개발 중에는 이 파일을 사용하지 않고 대신 개발 오류 오버레이가 표시됩니다.
 
@@ -83,7 +112,18 @@ getServerSideProps 내에서 오류가 발생하면 pages/500.js 파일이 표�
 
 getServerSideProps는 서버리스 및 Edge 런타임 양쪽에서 사용할 수 있으며 두 곳에서 props를 설정할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Edge Runtime에서는 현재 응답 객체에 액세스할 수 없습니다. 따라서 getServerSideProps에서 쿠키를 추가할 수 없습니다. 응답 객체에 액세스하려면 기본 런타임인 Node.js 런타임을 계속 사용해야 합니다.
 
@@ -99,7 +139,18 @@ export const getServerSideProps = async () => {};
 
 ### 서버 측 렌더링(SSR)으로 캐싱하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 동적 응답을 캐시하는 데 getServerSideProps 내에서 캐싱 헤더(Cache-Control)를 사용할 수 있습니다. 예를 들어 stale-while-revalidate을 사용할 수 있어요.
 
@@ -120,4 +171,15 @@ export async function getServerSideProps({ req, res }) {
 
 그러나 Cache-Control을 사용하기 전에, getStaticProps로 ISR이 사용 사례에 더 적합한지 확인하는 것이 좋습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

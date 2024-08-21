@@ -3,16 +3,13 @@ title: "Git Worktree 스태시 대신 플래시로 게임을 바꾸는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-03-FromStashtoFlashHowGitWorktreeChangestheGame_0.png"
 date: 2024-08-03 19:03
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-03-FromStashtoFlashHowGitWorktreeChangestheGame_0.png
 tag: Tech
 originalTitle: "From Stash to Flash How Git Worktree Changes the Game"
 link: "https://medium.com/@deepaksuryas/from-stash-to-flash-how-git-worktree-changes-the-game-67d1fa6e6b8b"
 isUpdated: true
 ---
-
-
-
 
 기존에 깃(Git)에서 여러 브랜치나 변경 사항을 번갈아가며 작업하면서 더 부드러운 경험을 바라본 적이 있나요? 그렇다면 Git Worktree를 소개합니다.
 
@@ -26,7 +23,18 @@ git worktree list      # 모든 작업 디렉터리 나열
 git worktree remove    # 작업 디렉터리 삭제
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-08-03-FromStashtoFlashHowGitWorktreeChangestheGame_0.png" />
 
@@ -36,7 +44,18 @@ git worktree remove    # 작업 디렉터리 삭제
 
 Git Worktree
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 여러 디렉토리에서 동시에 여러 브랜치를 체크아웃할 수 있습니다.
 - 이렇게 하면 계속해서 컨텍스트를 전환할 필요가 줄어듭니다.
@@ -54,7 +73,18 @@ Git Stash
 - 변경 사항을 저장하고 브랜치를 전환한 다음 다시 적용해야 하는 번거로움이 있습니다.
 - 병렬로 여러 브랜치에서 진정한 작업을 수행할 수 있는 기능이 없습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 작업 흐름 및 시간 효율성
 
@@ -66,7 +96,18 @@ Git Stash
 
 **Git Stash**
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 빠른 전활을 위해 좋지만 변경 사항을 숨기고 되돌려야 합니다
 - 문제가 생길 수 있어요. 업무의 흐름을 막을 수 있어요.
@@ -77,22 +118,44 @@ Git Stash
 
 Git Worktree
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 버그 수정을 위한 새 작업트리를 만들고 수정한 후 다시 feature A로 전환하는 데 약 10초가 걸려요. 정말이지!
-- 일일 시간: 10초 * 5 = 50초
-- 월별 시간 (20일 근무일): 50초 * 20 = 16.67분
+- 일일 시간: 10초 \* 5 = 50초
+- 월별 시간 (20일 근무일): 50초 \* 20 = 16.67분
 
 Git Stash
 
 - 변경 사항을 숨기고 브랜치를 전환하고 스태시를 팝하는 루틴에 대해 아실 거예요.
 - 스태시, 브랜치 전환 및 스태시 팝하는 데 걸리는 시간: 약 1분
-- 일일 시간: 1분 * 5 = 5분
-- 월별 시간 (20일 근무일): 5분 * 20 = 100분
+- 일일 시간: 1분 \* 5 = 5분
+- 월별 시간 (20일 근무일): 5분 \* 20 = 100분
 
 ![이미지](/assets/img/2024-08-03-FromStashtoFlashHowGitWorktreeChangestheGame_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 worktree 작업 흐름입니다.
 
@@ -142,7 +205,18 @@ git stash list
 git stash clear
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

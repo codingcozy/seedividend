@@ -3,17 +3,13 @@ title: "React Testing Library를 사용하여 Select 컴포넌트를 테스트�
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Testing Select Components with React Testing Library"
 link: "https://medium.com/gitconnected/testing-select-components-with-react-testing-library-4bdb529ac8d7"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/TestingSelectComponentswithReactTestingLibrary_0.png" />
 
@@ -23,7 +19,18 @@ React에서 Select 구성요소를 테스트하는 것은 사용자 상호작용
 
 이 게시물에서는 React Testing Library를 사용하여 Select 구성요소를 테스트하는 데 대한 최고의 관행 중 일부를 살펴볼 것입니다. 먼저 일반 HTML select 위에 래퍼에 대한 테스트를 작성한 다음 인기있는 react-select 라이브러리를 사용하여 구성요소를 테스트합니다. 최종 코드는 GitHub에서 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 설정하기
 
@@ -36,7 +43,18 @@ npm i react-select
 
 # 네이티브 HTML select 테스트하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 기본 HTML select 요소를 감싸는 역할을 하는 컴포넌트를 테스트하기 시작할 것입니다. 이러한 컴포넌트를 가지고 있는 것은 매우 일반적이며, 선택 옵션을 렌더링하는 논리를 추상화합니다.
 
@@ -60,7 +78,18 @@ export const Select = ({ options, ...props }) => {
 
 이 컴포넌트는 옵션 배열과 추가적인 props를 받습니다. 그런 다음 제공된 옵션을 기반으로 동적으로 생성된 옵션 요소를 가지고 있는 select 요소를 렌더링합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 구성요소가 준비되었으니, 이제 해당 구성요소에 대한 테스트를 작성할 준비가 되었습니다. 이를 위해 Select.test.js 파일을 만들겠습니다.
 
@@ -97,7 +126,18 @@ describe("Native select wrapper", () => {
 
 만약 select 요소를 얻기 위해 getByText 대신 getByRole 쿼리를 사용하는 이유에 궁금해하신다면, 이 문서에서 그런 이유에 대한 상세한 설명과 React Testing Library 테스트 작성을 위한 다른 팁들도 제시하고 있으니 참고하시기 바랍니다: React Testing Library 테스트 개선 방법.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로, 값 선택이 올바르게 작동하는지 테스트할 것입니다.
 
@@ -150,7 +190,18 @@ describe("Native select wrapper", () => {
 
 만약 React Testing Library를 사용하여 다른 폼 컴포넌트를 테스트하고 싶다면, 이 기사가 도움이 될 수 있을 것입니다: Testing React Hook Form With React Testing Library.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # React Testing Library를 사용하여 react-select 테스트하기
 
@@ -160,7 +211,18 @@ React Testing Library를 사용하여 기본 Select 및 AsyncSelect 컴포넌트
 
 ## 동기 Select 테스트하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트 셀렉트 컴포넌트를 테스트할 때 네이티브 셀렉트와 같은 방식으로 독립적인 컴포넌트로 테스트할 수 있지만, 폼 안에서 테스트하는 것이 더 쉽습니다. 이 접근 방식은 컴포넌트의 쿼리 및 데이터 변경을 단순화합니다.
 
@@ -188,12 +250,7 @@ export const ReactSelectForm = (selectProps) => {
   return (
     <form aria-label={"동물 폼"}>
       <label htmlFor={"animals"}>동물</label>
-      <Select
-        name={"animals"}
-        inputId={"animals"}
-        options={animals}
-        {...selectProps}
-      />
+      <Select name={"animals"} inputId={"animals"} options={animals} {...selectProps} />
     </form>
   );
 };
@@ -201,7 +258,18 @@ export const ReactSelectForm = (selectProps) => {
 
 여기서 주의할 점이 몇 가지 있습니다. 먼저, 테스트에서 폼 값을 확인하기 위해 폼에 설명적인 aria-label을 추가했습니다. data-testid를 사용할 수도 있지만, aria-label은 접근성이 좋은 폼의 명칭을 제공합니다. 이렇게 하면 암시적인 ARIA 역할 속성인 form을 가지므로 테스트에서 getByRole("form") 쿼리를 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또 다른 수정 사항은 Select에 레이블을 추가하는 것입니다. react-select은 선택된 값을 기본 수준의 입력 내부에 저장하기 때문에, 우리는 inputId prop을 제공하여 입력과 레이블을 연결할 수 있습니다. 이 prop은 레이블의 htmlFor 속성과 일치해야 합니다. 이를 통해 getByLabelText 쿼리를 사용하여 컴포넌트와 필드의 접근성을 향상할 수 있습니다. 레이블 없이 컴포넌트를 테스트해야 하는 경우, 고립된 상태로 getByText 쿼리를 사용하거나 일치시키기 위해 Select를 div로 랩하고 data-testid를 사용해야 하는 경우가 발생합니다. 마지막으로, Select에 name prop을 추가하여 해당 값이 양식에 저장되도록 합니다. 이제 테스트를 작성할 준비가 되었습니다.
 
@@ -229,7 +297,18 @@ describe("ReactSelectForm", () => {
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전에 하던 것처럼, 기본값이 올바르게 표시되는지 확인하고 폼에 설정되는지 확인하겠습니다.
 
@@ -237,7 +316,18 @@ describe("ReactSelectForm", () => {
 
 첫 번째 옵션은 선택하고 싶은 옵션을 수동으로 열어서 클릭하는 것입니다. 사용자가 상호 작용하는 것처럼 select 요소에 초점을 맞추고, 아래 화살표 버튼을 누르는 것을 모의하는 다음 선택하려는 옵션을 클릭하는 것입니다. 또는 Select 컨테이너를 클릭하여 초점을 맞추고 메뉴를 열 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테스트는 통과하지만 터미널에서 많은 경고 메시지를 볼 수 있어요:
 
@@ -253,7 +343,18 @@ React Testing Library 13 버전 이전에서는 첫 번째 쿼리로 findBy\*를
 
 경고 메시지를 해결하려면 모든 이벤트 호출을 별도의 act 함수로 래핑할 수 있지만, waitFor 유틸리티 도우미를 사용하여 모든 비동기 호출이 해결된 후에 요소를 쿼리할 수 있도록하는 것으로 이 프로세스를 간소화할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // src/components/ReactSelectForm.test.js
@@ -282,7 +383,18 @@ it("should select correct value on change", async () => {
 
 이 라이브러리를 사용하여 테스트를 업데이트하여 차이점을 확인해봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // src/components/ReactSelectForm.test.js
@@ -308,7 +420,18 @@ const selectOptions = async (input, options) => {
 
 react-select-event를 사용하는 또 다른 장점은 동일한 API를 사용하여 여러 요소를 선택할 수 있다는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // src/components/ReactSelectForm.test.js
@@ -330,7 +453,18 @@ it("멀티셀렉트와 함께 작동해야 합니다", async () => {
 
 비동기 react-select을 테스트하는 것은 기본 react-select 컴포넌트와는 조금 다릅니다. 이는 요소들을 쿼리하기 전에 선택 옵션이 로드되기를 기다려야 하는 필요 때문입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 테스트 방법을 보여주기 위해 새로운 ReactAsyncSelectForm 컴포넌트를 만들어보겠습니다.
 
@@ -360,13 +494,7 @@ export const ReactAsyncSelectForm = (selectProps) => {
   return (
     <form aria-label={"animal form"}>
       <label htmlFor={"animals"}>Animals</label>
-      <Select
-        name={"animals"}
-        inputId={"animals"}
-        loadOptions={loadOptions}
-        defaultOptions
-        {...selectProps}
-      />
+      <Select name={"animals"} inputId={"animals"} loadOptions={loadOptions} defaultOptions {...selectProps} />
     </form>
   );
 };
@@ -376,7 +504,18 @@ export const ReactAsyncSelectForm = (selectProps) => {
 
 이제 첫 번째 테스트를 추가할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // src/components/ReactAsyncSelectForm.test.js
@@ -395,9 +534,7 @@ function setup(jsx) {
 
 describe("ReactAsyncSelectForm", () => {
   it("should render with default value selected", async () => {
-    setup(
-      <ReactAsyncSelectForm defaultValue={{ value: "cat", label: "Cat" }} />
-    );
+    setup(<ReactAsyncSelectForm defaultValue={{ value: "cat", label: "Cat" }} />);
     expect(await screen.findByText("Cat")).toBeInTheDocument();
     expect(screen.getByRole("form")).toHaveFormValues({ animals: "cat" });
   });
@@ -428,17 +565,13 @@ const selectOptions = async (input, options) => {
 
 describe("ReactAsyncSelectForm", () => {
   it("should render with default value selected", async () => {
-    setup(
-      <ReactAsyncSelectForm defaultValue={{ value: "cat", label: "Cat" }} />
-    );
+    setup(<ReactAsyncSelectForm defaultValue={{ value: "cat", label: "Cat" }} />);
     expect(await screen.findByText("Cat")).toBeInTheDocument();
     expect(screen.getByRole("form")).toHaveFormValues({ animals: "cat" });
   });
 
   it("should select correct value on change", async () => {
-    setup(
-      <ReactAsyncSelectForm defaultValue={{ value: "cat", label: "Cat" }} />
-    );
+    setup(<ReactAsyncSelectForm defaultValue={{ value: "cat", label: "Cat" }} />);
 
     await selectOptions(screen.getByLabelText("Animals"), "Zebra");
 
@@ -457,7 +590,18 @@ describe("ReactAsyncSelectForm", () => {
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -467,7 +611,18 @@ React에서 Select 컴포넌트를 테스트하는 것은 기능, 동작 및 접
 
 # 참고 자료와 리소스
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 튜토리얼에 대한 코드가 포함된 GitHub
 - GitHub: waitFor을 getAllBy 쿼리로 사용할 때 findAllBy와 동일하지 않음

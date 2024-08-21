@@ -3,17 +3,13 @@ title: "React-React Native 최적화로 성능을 올리는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Senior React-React Native Optimization"
 link: "https://medium.com/@tayfunkaya/senior-react-react-native-optimization-199ae48c9721"
 isUpdated: true
 ---
-
-
-
-
 
 제 3부
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 얼마간 시간이 부족해서 고수 수준의 리액트 네이티브 최적화 기사를 계속하지 못했어요. 이번 주에는 죄송하다는 말과 함께 멋진 글을 계속하겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나는 이전 기사에서 다음과 같은 주제에 많은 강조를 해왔어
 
@@ -37,7 +44,18 @@ isUpdated: true
 
 ![이미지](/assets/img/Senior-React-React-Native-Optimization_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시니어 레벨 엔지니어가 되고 싶다면 요구사항 엔지니어링을 잘 적용하고 시스템의 복잡성을 최소화해야 해요. 제가 안겨준 정보는 매우 중요하니 꼼꼼히 읽지 않으면 그냥 넘어가지 마세요. 이 프로세스는 모바일 애플리케이션을 개발할 때도 똑같이 작동해요. 은행 애플리케이션이나 모바일 프로젝트를 진행 중이라면 요구사항 엔지니어링을 적용하지 않으면 시스템을 최적화하기 어려울 뿐 아니라 미래의 새로운 요구사항에 대응하기도 어려워질 거예요.
 
@@ -47,7 +65,18 @@ isUpdated: true
 
 리액트 네이티브로 개발할 때 사용하는 패키지와 상태 관리는 복잡성을 최소화하기 위해 설계되어야 해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앱 코딩을 시작할 때 최적화를 고려해야 합니다. 시니어 레벨에 위치하기 위해서는 이겁니다. 그렇지 않으면 진전을 이루지 못하고 애플리케이션이 복잡한 최적화로부터 멀어질 것입니다.
 
@@ -57,7 +86,18 @@ React Native 세계에서 상태 관리는 가장 중요한 요구 사항 공학
 
 상태 관리가 복잡하고 관리하기 어렵다면 이 프로젝트에서 어떤 최적화 혜택도 기대하지 마십시오. 여기서 약간 냉혹할 필요가 있습니다. 상태 관리가 좋지 않으면 어떻게 보면 잘 작동하더라도 프로젝트는 좋지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 🧠 요구 사항 확인 프로세스를 통해 당신에게서 기대되는 기본 기능들을 걸러냅니다.
 
@@ -67,7 +107,18 @@ React Native 세계에서 상태 관리는 가장 중요한 요구 사항 공학
 
 이러한 접근법이 어떻게 도움이 될까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 기사가 제공하는 혜택은 전체 애플리케이션에 영향을 줄 중요한 요소입니다. 이것은 프로젝트 흐름에 완전히 영향을 미치며 애플리케이션에서 사용할 패키지, 상태 관리 및 구성 요소 구조와 같은 여러 문제에 대해 당신을 깨우칠 것입니다.
 
@@ -77,7 +128,18 @@ React Native 세계에서 상태 관리는 가장 중요한 요구 사항 공학
 
 1- 홈페이지에 사용자가 있을 것이며 모든 사용자가 이 페이지에 표시될 것입니다. 회사에는 총 3500 명의 직원이 있습니다.👇🏻
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 여기에서는 즉시 시니어 요구 사항 엔지니어링을 고려해야 합니다. 이것이 무엇인가요?
 
@@ -93,7 +155,18 @@ React Native 세계에서 상태 관리는 가장 중요한 요구 사항 공학
 </ScrollView>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <FlatList
@@ -107,7 +180,18 @@ React Native 세계에서 상태 관리는 가장 중요한 요구 사항 공학
 
 💡 보는 것처럼 당신 머릿속에서 어떤 변화가 일어나기 시작했어요. React Native에서 시니어 레벨의 요구사항 공학을 이해하기 시작했어요. 다음 질문은 여기에 나타낼 직원들이 클릭될까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 고객이 '예'라고 하면 즉시 코드 측면과 시스템 측면에서 어떻게 진행할지 상상해야 합니다. 각 직원마다 다른 데이터가 있고 그 데이터를 끌어내야 합니다. 이를 구별해내고 문맥 구조를 설정해야 합니다.
 
@@ -127,7 +211,18 @@ export const YourProvider = ({ children }) => {
 
 위와 같이 Context를 생성하고 프로젝트 외부를 Provider로 감싸면, 원하는 직원 ID를 기반으로 요청을 만들고 데이터를 끌어내어 세부 정보를 보여줄 수 있습니다. 보시다시피, 우리는 고객과 대화하고 시스템 설계에 대해 고민하며 시스템이 어떻게 응답해야 하며 어떤 작업을 해야 하는지 생각합니다. 이로써 React Native에서 요구 사항 공학에 대해 이야기한 첫 번째 포인트를 구현한 것을 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2- 애플리케이션에 몇 페이지가 들어갈지 다음 단계입니다.
 
@@ -137,7 +232,18 @@ export const YourProvider = ({ children }) => {
 
 고객은 홈 페이지와 설정 페이지가 하단에 있어야 한다고도 말했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 📣📣📣📣
 
@@ -173,13 +279,34 @@ function applyHOCs(screen) {
 export default function registerScreens(store, Provider) {
   Navigation.registerComponentWithRedux("migration", () => applyHOCs(MigrationComponent), Provider, store);
   Navigation.registerComponentWithRedux("home", () => applyHOCs(Home), Provider, store);
-  Navigation.registerComponentWithRedux("walletResetConfirm", () => applyHOCs(WalletResetConfirmation), Provider, store);
-  Navigation.registerComponentWithRedux("walletResetRequirePassword", () => applyHOCs(WalletResetRequirePassword), Provider, store);
+  Navigation.registerComponentWithRedux(
+    "walletResetConfirm",
+    () => applyHOCs(WalletResetConfirmation),
+    Provider,
+    store
+  );
+  Navigation.registerComponentWithRedux(
+    "walletResetRequirePassword",
+    () => applyHOCs(WalletResetRequirePassword),
+    Provider,
+    store
+  );
   Navigation.registerComponentWithRedux("privacyPolicy", () => applyHOCs(PrivacyPolicy), Provider, store);
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신이 상기 제시한 예시와 같은 페이지 구조를 사용할 것이라고 즉시 상상할 수 있을 것입니다. 이것에 대해 생각하면서 시간이 지남에 따라 도달하게 될 것입니다. 당신의 상상력과 코드 품질은 시간이 지남에 따라 향상될 것입니다.
 
@@ -189,7 +316,18 @@ export default function registerScreens(store, Provider) {
 
 ⚠️ 이를 위해 이미지를 캐시에 보관하는 아이디어를 상상해 보세요. 그리고 이미지를 받는 상황을 고려해 보세요. 이미지는 어떤 형식으로 제공될지 물어보는 것을 망설이지 마세요. Base64로 올 것인가요, 아니면 다른 형식일까요? 변환해야 하나요? 이는 응용 프로그램의 최적화와 발전에 매우 중요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사진 작업을 하면서 고위차원의 해결책을 어떻게 생산할 수 있을지 상상합니다. 빠른 이미지와 같은 패키지를 검토하거나 사용자 정의 캐시에서 빠른 최적화에 유용한 구성 요소와 함수를 작성할 수도 있습니다.
 
@@ -199,4 +337,15 @@ export default function registerScreens(store, Provider) {
 
 React Native 및 React 프로젝트에서 유스케이스 사용 방법과 이후 사전 및 사후 조건을 결정해야 하는 방법에 대해 이야기하겠습니다. 언급한 주제는 고위차원의 소프트웨어 엔지니어링의 기초를 포함하고 있습니다. 이를 적용하고 이러한 단계로 React Native 프로젝트를 구축하면 최상의 최적화와 품질을 제공할 수 있습니다. 이 문서를 잘 살펴보세요. 인터넷에는 이와 같은 것이 없습니다. 😉
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

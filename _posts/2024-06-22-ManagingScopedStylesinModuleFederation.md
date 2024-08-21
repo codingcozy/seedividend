@@ -3,16 +3,13 @@ title: "모듈 페더레이션에서 범위 지정된 스타일 관리하는 방
 description: ""
 coverImage: "/assets/img/2024-06-22-ManagingScopedStylesinModuleFederation_0.png"
 date: 2024-06-22 03:46
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-ManagingScopedStylesinModuleFederation_0.png
 tag: Tech
 originalTitle: "Managing Scoped Styles in Module Federation"
 link: "https://medium.com/@alpgokcek/managing-scoped-styles-in-module-federation-9879b25b0746"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-06-22-ManagingScopedStylesinModuleFederation_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 # CSS 도전적 과제
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS에 대해 이야기할 때, 전통적인 스타일 포함 방법은 갈등과 일관성 부족으로 이어질 수 있습니다. 이는 여러 팀이 다른 CSS 방법론, 전처리기 또는 프레임워크를 사용할 수 있는 모듈 연합 설정에서 특히 문제가 될 수 있습니다. 주요 도전 과제는 다음과 같습니다:
 
@@ -34,16 +42,27 @@ CSS에 대해 이야기할 때, 전통적인 스타일 포함 방법은 갈등�
 
 # 초기 해결책: 접두사 추가
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가장 간단한 해결책은 각 클래스명에 접두사를 추가하는 것이었습니다. Tailwind의 구성에서 접두사를 추가할 수 있는 옵션이 있습니다:
 
 ```js
 module.exports = {
-  prefix: 'app1-',
-  darkMode: ['class'],
-  content: ['./app/**/*.{js,ts,tsx,html}', './src/**/*.{js,ts,tsx,html}']
-}
+  prefix: "app1-",
+  darkMode: ["class"],
+  content: ["./app/**/*.{js,ts,tsx,html}", "./src/**/*.{js,ts,tsx,html}"],
+};
 ```
 
 그러나 이 방식으로 구성하려면 모든 클래스명을 접두사로 시작하도록 변경해야 했습니다:
@@ -56,7 +75,18 @@ module.exports = {
 <div className="app1-flex app1-gap-3 app1-mb-2 app1-w-full"/>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 접근 방식은 작동했지만 코드 작성과 유지 관리가 어려워졌어요. 예를 들어, 접두사를 추가하는 걸 잊고 이런 경우에 이슈를 찾으려고 했어요. 우리는 다른 해결책이 필요했어요.
 
@@ -66,15 +96,26 @@ module.exports = {
 
 ## 사용자 정의 PostCSS 플러그인 예시
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 만든 사용자 정의 PostCSS 플러그인을 보여드릴게요:
 
 ```js
 // postcss.config.js
-const tailwindcss = require('tailwindcss');
+const tailwindcss = require("tailwindcss");
 const wrapSelector = (opts = {}) => ({
-  postcssPlugin: 'wrap-selector',
+  postcssPlugin: "wrap-selector",
   Once(root) {
     root.walkRules((rule) => {
       if (!rule.selectors) return rule;
@@ -85,7 +126,7 @@ const wrapSelector = (opts = {}) => ({
 wrapSelector.postcss = true;
 
 module.exports = {
-  plugins: ['postcss-preset-env', tailwindcss, wrapSelector({ wrapper: '#app1-id' })],
+  plugins: ["postcss-preset-env", tailwindcss, wrapSelector({ wrapper: "#app1-id" })],
 };
 ```
 
@@ -95,7 +136,18 @@ module.exports = {
 - 규칙 탐색: Once 메서드는 모든 CSS 규칙을 탐색합니다. 선택자가 있는 각 규칙마다 해당하는 wrapper와 함께 접두어를 붙인 새 선택자로 매핑합니다.
 - PostCSS 설정: 이 플러그인은 postcss-preset-env 및 tailwindcss와 같은 다른 플러그인과 함께 PostCSS 구성에 포함됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 모듈 연합에서의 사용법
 
@@ -106,7 +158,18 @@ module.exports = {
 
 ## 웹팩에서의 구성 예시
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹팩 구성에 PostCSS 플러그인을 통합하는 방법은 다음과 같습니다:
 
@@ -117,8 +180,8 @@ module.exports = {
     rules: [
       {
         test: /\.css$/i,
-        use: ['style-loader', 'css-loader', 'postcss-loader'],
-      }
+        use: ["style-loader", "css-loader", "postcss-loader"],
+      },
     ],
   },
 };
@@ -127,7 +190,7 @@ module.exports = {
 ## 리액트 컴포넌트에서의 예시 사용법
 
 ```js
-import React from 'react';
+import React from "react";
 
 const App = () => {
   return (
@@ -140,7 +203,18 @@ const App = () => {
 export default App;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

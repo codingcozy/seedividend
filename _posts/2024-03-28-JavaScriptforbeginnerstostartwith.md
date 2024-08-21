@@ -3,17 +3,13 @@ title: "초보 개발자도 배우기 쉬운 자바스크립트"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "JavaScript for beginners to start with"
 link: "https://medium.com/@manojkhatri.designs/javascript-a-step-by-step-guide-for-beginners-21be24a5a4ef"
 isUpdated: true
 ---
-
-
-
-
 
 ![JavaScript for beginners to start with](/assets/img/JavaScriptforbeginnerstostartwith_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 코딩에 들어가기 전에, 자바스크립트가 무엇인지 이해해 봅시다. 자바스크립트는 웹 페이지에 상호 작용성과 동적 행동을 추가하는 고수준의 해석형 프로그래밍 언어입니다. HTML과 CSS가 각각 마크업 및 스타일링 언어인 반면, 자바스크립트는 완전한 프로그래밍 언어입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 2: 환경 설정하기
 
@@ -49,7 +56,18 @@ isUpdated: true
 
 # 단계 3: 구문 기본하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자바스크립트 구문은 Java나 C++과 비슷하지만 덜 엄격하고 좀 더 관용적입니다. 여기 몇 가지 기본 구문 규칙이 있어요:
 
@@ -61,7 +79,18 @@ isUpdated: true
 
 자바스크립트에서 변수는 데이터 값을 저장하는 컨테이너입니다. 자바스크립트에는 몇 가지 데이터 유형이 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - String: 따옴표(홑 따옴표 또는 쌍 따옴표)로 둘러싸인 텍스트 데이터입니다.
 - Number: 정수 및 부동 소수점 숫자를 포함하는 숫자 데이터입니다.
@@ -81,7 +110,18 @@ var person = { name: "John", age: 30 };
 
 # 단계 5: 제어 흐름
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제어 흐름문을 사용하면 코드 실행을 제어할 수 있어요. 주요 제어 흐름문은 다음과 같아요:
 
@@ -105,7 +145,18 @@ if (hour < 12) {
 console.log(greeting);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Step 6: 함수
 
@@ -122,7 +173,18 @@ console.log(message); // 출력: Hello, John!
 
 # Step 7: DOM 조작
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문서 객체 모델(DOM)은 웹 문서를 위한 프로그래밍 인터페이스입니다. JavaScript를 사용하여 DOM을 조작하여 웹 페이지의 내용, 구조 및 스타일을 동적으로 변경할 수 있습니다. 간단한 예시를 살펴보겠습니다:
 
@@ -134,7 +196,18 @@ document.getElementById("myElement").innerHTML = "새로운 내용";
 
 JavaScript를 사용하면 사용자의 클릭 및 키 입력과 같은 상호 작용에 응답할 수 있습니다. 다음은 클릭 이벤트를 처리하는 방법입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 document.getElementById("myButton").addEventListener("click", function () {
@@ -148,6 +221,17 @@ document.getElementById("myButton").addEventListener("click", function () {
 
 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자바스크립트 기초 단계별 안내서를 완료한 것을 축하드립니다! 문법, 변수, 제어 흐름, 함수, DOM 조작 및 이벤트 처리를 포함한 자바스크립트의 기본 개념을 배웠어요. 계속해서 탐험하고 연습하여 깊은 이해를 갖고 능숙한 자바스크립트 개발자가 되실 수 있도록 노력하세요. 코딩을 재밌게 해봐요!

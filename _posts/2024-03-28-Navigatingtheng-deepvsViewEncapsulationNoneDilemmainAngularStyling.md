@@ -3,17 +3,13 @@ title: "Angular 스타일링에서 ng-deep와 ViewEncapsulationNone의 딜레마
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Navigating the ng-deep vs ViewEncapsulationNone Dilemma in Angular Styling"
 link: "https://medium.com/@shashvatgupta39/navigating-the-ng-deep-vs-viewencapsulation-none-dilemma-in-angular-styling-a5cf0f5cbd9b"
 isUpdated: true
 ---
-
-
-
-
 
 # 소개
 
@@ -23,7 +19,18 @@ Angular 개발 영역에서 스타일링은 종종 내부 컴포넌트 스타일
 
 ::ng-deep는 Angular에서 컴포넌트 캡슐화를 관통하고 전역으로 스타일을 적용하는 데 사용되는 CSS 컴바이너입니다. 다음은 예시입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /* 컴포넌트의 SCSS 파일 내에서 */
@@ -38,7 +45,18 @@ Angular 개발 영역에서 스타일링은 종종 내부 컴포넌트 스타일
 
 ## ViewEncapsulation.None의 등장:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 희망의 빛이 ViewEncapsulation.None 형태로 나타납니다. Angular의 ViewEncapsulation.None은 컴포넌트 스타일을 전역적으로 적용하여 캡슐화를 우회할 수 있게 해줍니다. 예시와 함께 간단히 설명해 드리겠습니다:
 
@@ -60,7 +78,18 @@ ViewEncapsulation.None을 사용하면 컴포넌트의 SCSS 파일에 선언된 
 
 # ViewEncapsulation.None으로 컴포넌트 특정성 보존하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ViewEncapsulation.None에 대한 컴포넌트별 스타일링을 옹호하는 것은 창의력을 필요로 합니다. 여기에서는 컴포넌트 스타일의 성결을 보호하기 위한 두 가지 기술을 탐구해봅니다:
 
@@ -79,7 +108,18 @@ app-component {
   동적 렌더링이 도전적인 상황에서는, 클래스 기반 캡슐화 전략이 가치 있는 대안으로 떠오릅니다. 컴포넌트의 최상위 요소에 컴포넌트 셀렉터와 일치하는 클래스를 할당함으로써, 개발자들은 이 클래스의 범위 내에서 스타일을 캡슐화할 수 있습니다. 따라서, 동적 렌더링 시나리오에서도 컴포넌트별 스타일은 그대로 유지됩니다.
   여기 "app-component"의 범위 내에서, 당신의 스타일이 다이내믹 생성의 변덕에 방해받지 않고 피어너세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <div class="app-component">

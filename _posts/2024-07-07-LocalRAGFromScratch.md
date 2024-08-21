@@ -3,16 +3,13 @@ title: "처음부터 시작하는 Local RAG 구축하기"
 description: ""
 coverImage: "/assets/img/2024-07-07-LocalRAGFromScratch_0.png"
 date: 2024-07-07 13:57
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-LocalRAGFromScratch_0.png
 tag: Tech
 originalTitle: "Local RAG From Scratch"
 link: "https://medium.com/towards-data-science/local-rag-from-scratch-3afc6d3dea08"
 isUpdated: true
 ---
-
-
-
 
 ## 처음부터 완전히 로컬 RAG 시스템 개발 및 배포하기
 
@@ -22,7 +19,18 @@ llama-index 및 Langchain과 같은 라이브러리가 제공하는 고수준 �
 
 유용 사례 개요 — 이 구현은 다양한 종류의 문서를 처리할 수 있도록 설계되었습니다. 현재 예제에서는 각각 SKU, 이름, 설명, 가격, 차원 등의 세부 정보를 가진 제품을 나타내는 작은 문서를 많이 사용하고 있지만, 이 접근 방식은 매우 유연합니다. 서로 다른 유형의 정보를 통합하고 처리할 수 있는 이 유연성으로 책의 다양한 라이브러리를 색인화하거나 방대한 계약서에서 데이터를 채굴하거나 다른 문서 집합이 관련된 경우 이 시스템을 특정 상황에 맞게 조정할 수 있습니다. 이 유연성은 다양한 유형의 정보를 매끈하게 통합하고 처리할 수 있도록 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 빠른 참고 — 본 구현은 텍스트 데이터에 대해서만 작동합니다. 이미지를 임베딩으로 변환하고 이를 CLIP과 같은 멀티 모달 모델을 사용하여 색인화하고 쿼리할 수 있습니다.
 
@@ -37,7 +45,18 @@ llama-index 및 Langchain과 같은 라이브러리가 제공하는 고수준 �
 
 # 모듈식 프레임워크
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 구현에는 네 가지 주요 구성 요소가 있으며 이들을 교체할 수 있습니다.
 
@@ -50,7 +69,18 @@ llama-index 및 Langchain과 같은 라이브러리가 제공하는 고수준 �
 
 마찬가지로, 임베딩 모델, 벡터 저장소 및 LLM 선택 사항을 프로젝트의 요구 사항에 맞게 사용자 정의할 수 있습니다. 더 작거나 더 큰 모델 또는 외부 모델이 필요한지 여부에 따라, 이 접근 방식의 유연성을 통해 적절한 옵션으로 간단히 교체할 수 있습니다. 이 플러그 앤 플레이 기능을 통해 핵심 아키텍처를 중요하게 변경하지 않고 프로젝트가 다양한 요구 사항에 적응할 수 있도록 보장됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Travel Image](/assets/img/2024-07-07-LocalRAGFromScratch_0.png)
 
@@ -60,11 +90,33 @@ llama-index 및 Langchain과 같은 라이브러리가 제공하는 고수준 �
 
 위에서 언급했듯이, 이 구현은 JSON 데이터로 시작합니다. 저는 GPT-4와 Claude를 사용하여 데이터를 합성 생성했습니다. 데이터에는 각각 고유한 SKU를 가진 서로 다른 가구 조각에 대한 제품 설명이 포함되어 있습니다. 여기 예시가 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지 태그를 Markdown 형식으로 변경해 드리겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```json
 {
@@ -104,7 +156,18 @@ llama-index 및 Langchain과 같은 라이브러리가 제공하는 고수준 �
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 사본 텍스트에서 문장을 효율적으로 처리하여 검색이 최적화되도록 해야 합니다. 이 코드는 llama-index SentenceSplitter 클래스를 모델로 설계해 보았습니다.
 
@@ -121,7 +184,7 @@ def document_chunker(directory_path,
                      separator=' ',
                      secondary_chunking_regex=r'\S+?[\.,;!?]',
                      chunk_overlap=0):
-    
+
     tokenizer = AutoTokenizer.from_pretrained(model_name)  # 지정된 모델의 tokenizer를 로드합니다.
     documents = {}  # 결과를 저장할 딕셔너리 초기화
 
@@ -201,7 +264,18 @@ def document_chunker(directory_path,
 
 다음은 함수 내부에서 발생하는 일련의 과정입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제공된 디렉토리의 각 파일에 대해 →
 
@@ -222,7 +296,18 @@ def document_chunker(directory_path,
 
 사용 방법:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 문서 = document_chunker(directory_path='/Users/joesasson/Desktop/articles/rag-from-scratch/text_data',
@@ -244,8 +329,18 @@ print(문서[키들[0]])
 
 ## 색인화
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 문서 저장소를 만들었으니, 벡터 저장소를 만들어야 합니다.
 
@@ -265,18 +360,29 @@ tokenizer.save_pretrained("model/tokenizer")
 model.save_pretrained("model/embedding")
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 def compute_embeddings(text):
-    tokenizer = AutoTokenizer.from_pretrained("/model/tokenizer") 
+    tokenizer = AutoTokenizer.from_pretrained("/model/tokenizer")
     model = AutoModel.from_pretrained("/model/embedding")
 
 # 입력된 텍스트를 토크나이저로 토큰화하고
-    inputs = tokenizer(text, return_tensors="pt", padding=True, truncation=True) 
-    
+    inputs = tokenizer(text, return_tensors="pt", padding=True, truncation=True)
+
     # 임베딩 생성
-    with torch.no_grad():    
+    with torch.no_grad():
         # 마지막 hidden state에서 평균 값으로 임베딩 생성
         embeddings = model(**inputs).last_hidden_state.mean(dim=1).squeeze()
 
@@ -300,8 +406,18 @@ def create_vector_store(doc_store):
 
 ## 검색
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자 이제 질문을 통해 함수를 테스트해 보겠습니다!
 
@@ -345,8 +461,18 @@ compute_matches 함수는 저장된 텍스트 임베딩 컬렉션에서 주어�
 - 코사인 유사도를 계산합니다. 각 청크에 대해 쿼리 벡터와 청크 벡터 사이의 코사인 유사도가 계산됩니다. 여기서 np.linalg.norm은 코사인 유사도 계산에 필요한 벡터의 유클리드 노름(L2 노름)을 계산합니다.
 - 정규화 처리 및 내적 계산을 수행합니다. 코사인 유사도는 다음과 같이 정의됩니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-07-LocalRAGFromScratch_1.png)
 
@@ -378,7 +504,18 @@ docs['d56bc8ca-9bbc-4edb-9f57-d1ea2b62362f']['3086bed2-65e7-46cc-8266-f9099085e9
  'metadata': {'file_name': 'ENT-4001'}
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대박입니다! 모든 거 준비됐네요! 이제 할 일은 LLM 구성요소를 연결시키고 완전한 종단간 테스트를 실행하는 거에요. 그럼 우리가 배포할 준비가 돼요!
 
@@ -386,7 +523,18 @@ LLM 구성요소
 
 우리의 RAG 시스템을 상호작용 가능하게 만들어 사용자 경험을 향상시키기 위해 llama-cpp-python 라이브러리를 활용하겠습니다. 우리의 설정은 Mistral-7B 파라미터 모델을 사용하며 GGUF 3비트 양자화를 적용할 것입니다. 이 구성은 계산 효율성과 성능 사이의 좋은 균형을 제공하는 것으로 알려져 있어요. 광범위한 테스트 결과에 따르면, 이 모델 크기는 특히 제한된 자원을 가진 기기에서 실행될 때 매우 효과적이었어요. 이 방법을 채택함으로써, 우리의 RAG 시스템이 정확하고 관련성 높은 응답을 제공할 뿐만 아니라 대화 형식을 유지하여 최종 사용자들에게 더 매력적이고 접근하기 쉬운 경험을 제공할 수 있게 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로컬에서 LLM을 Mac에 설정하는 방법에 대한 간단한 팁입니다. 저는 아나콘다나 미니콘다를 사용하는 것을 선호합니다. arm64 버전을 설치했는지 확인하고 라이브러리에서 'metal' 설정 지침을 따르세요.
 
@@ -431,7 +579,7 @@ def construct_prompt(system_prompt, retrieved_docs, user_query):
 
     여기 검색된 컨텍스트가 있습니다:
     {retrieved_docs}
-    
+
     여기 사용자 질의가 있습니다:
     {user_query}
     """
@@ -440,7 +588,7 @@ def construct_prompt(system_prompt, retrieved_docs, user_query):
 # 사용법
 system_prompt = """
 지적 검색 엔진입니다. 일부 검색된 컨텍스트와 사용자 질의가 제공될 것입니다.
-    
+
 요청을 이해하고 검색된 컨텍스트를 기반으로 답변할 것이 요구됩니다.
 """
 
@@ -457,7 +605,18 @@ llm = Llama(model_path="/Users/joesasson/Downloads/mistral-7b-instruct-v0.2.Q3_K
 stream_and_buffer(prompt, llm)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 RAG 시스템을 배포할 준비가 되었습니다. 다음 부분을 따라와 주시면 저희는 이 거의 스파게티 코드를 사용자들이 사용할 수 있는 API로 바꿔드릴 겁니다.
 
@@ -465,7 +624,18 @@ stream_and_buffer(prompt, llm)
 
 우리 시스템의 영향력과 사용성을 높이기 위해, 우리는 그것을 컨테이너화된 플라스크 애플리케이션으로 패키징할 것입니다. 이 방식은 우리 모델이 도커 컨테이너 내부에 캡슐화되어 있어, 컴퓨팅 환경에 관계없이 안정성과 일관성을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에서 임베딩 모델과 토크나이저를 다운로드해야 합니다. 이를 애플리케이션 코드, 요구 사항 및 Dockerfile과 같은 수준에 위치시키세요. LLM은 여기에서 다운로드할 수 있습니다.
 
@@ -475,26 +645,55 @@ stream_and_buffer(prompt, llm)
 
 ## app.py
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 플라스크(Flask)에서 로거 레벨을 설정하는 코드를 제공합니다. 코드는 요청에 대한 처리를 수행하고 있습니다. 요청에서 쿼리 문자열을 가져오거나 JSON 데이터에서 쿼리 문자열을 추출하기로 합니다. 적절한 쿼리 문자열이 없는 경우 'query'라는 필수 매개변수가 누락되었다는 오류를 반환합니다. 벡터 스토어와 문서 스토어를 JSON 파일에서 열어 매치를 계산하고 상위 3개 결과를 가져옵니다. 또한 시스템 프롬프트, 검색된 문맥 및 사용자 쿼리를 포함한 기본 프롬프트를 작성합니다.
 
 더불어 중요한 점은 Dockerfile의 두 번째 줄에서 작업 디렉토리를 '/app'으로 설정 중이기 때문에 애플리케이션 코드에서 로컬 경로(모델, 벡터 또는 문서 저장소)를 '/app'으로 접두사로 붙여야 한다는 것입니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앞서 맥 컨테이너에서 앱을 실행할 때 GPU에 접근할 수 없는 점을 확인했어요. 보통 CPU를 사용하면 응답시간이 20분 정도 걸린다고 해요.
 
 빌드 & 실행:
 
-
 docker build -t `이미지-이름`:`태그` .
 docker run -p 5001:5001 `이미지-이름`:`태그`
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컨테이너를 실행하면 앱이 자동으로 시작됩니다 (Dockerfile의 마지막 줄을 참조하세요). 이제 다음 URL로 엔드포인트에 액세스할 수 있습니다:
 
@@ -507,7 +706,7 @@ import requests, json
 
 def call_api(query):
     URL = "http://127.0.0.1:5001/rag_endpoint"
-    
+
     # 요청을 위한 헤더
     headers = {
         "Content-Type": "application/json"
@@ -518,7 +717,7 @@ def call_api(query):
 
     # POST 요청 보내기
     response = requests.post(URL, headers=headers, data=json.dumps(body))
-    
+
     # 요청이 성공했는지 확인
     if response.status_code == 200:
         return response.json()
@@ -535,7 +734,18 @@ print(result)
 {'response': {'choices': [{'finish_reason': 'stop', 'index': 0, 'logprobs': None, 'text': ' Based on the retrieved context, the wall-mounted electric fireplace mentioned includes features such as realistic LED flames. Therefore, the answer to the user\'s query "Wall-mounted electric fireplace with realistic LED flames" is a match to the retrieved context. The specific model mentioned in the context is manufactured by Hearth & Home and comes with additional heat settings.'}], 'created': 1715307125, 'id': 'cmpl-dd6c41ee-7c89-440f-9b04-0c9da9662f26', 'model': '/app/mistral-7b-instruct-v0.2.Q3_K_L.gguf', 'object': 'text_completion', 'usage': {'completion_tokens': 78, 'prompt_tokens': 177, 'total_tokens': 255}}
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 요약
 
@@ -550,6 +760,17 @@ print(result)
 
 중요한 점은 빌드 노트북을 사용하여 doc_store 및 vector_store를 생성하고 이를 앱에 배치하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 깃허브 여러분, 읽어 주셔서 감사합니다!

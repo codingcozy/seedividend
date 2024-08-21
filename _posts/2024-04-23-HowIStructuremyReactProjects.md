@@ -3,17 +3,13 @@ title: "대기업에서 React 프로젝트를 구조화하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How I Structure my React Projects"
 link: "https://medium.com/@rikiphukon/how-i-structure-my-react-projects-as-a-frontend-developer-22bd18e83f5b"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/HowIStructuremyReactProjects_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 프로젝트가 확장될수록 특정 코드를 찾는 것이 마치 바늘을 건초더미에서 찾는 것과 같은 모험이 되어, '바늘이라는 이름의 변수'가 코드 깊은 곳 어딘가에 묻혀있었다는 것을 깨닫게 되었죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React 프로젝트 구조를 배우는 데 시간을 투자하세요. 그 전에 코드베이스가 풀 수 없는 미스터리 소설로 변하지 않도록 해보세요!
 
@@ -57,7 +64,18 @@ src |
 - types: 애플리케이션 전반에 사용되는 기본 타입
 - utils: 공유 유틸리티 함수
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ---
 
@@ -87,7 +105,18 @@ src/features/my-new-feature
 
 # 인덱스 파일
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기능에서 모든 것은 기능의 공개 API로 작동하는 index.ts 파일에서 내보내야 합니다.
 
@@ -99,7 +128,18 @@ src/features/my-new-feature
 import { AwesomeComponent } from "@/features/awesome-feature";
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 - 그리고 아닙니다.
@@ -111,7 +151,18 @@ import { AwesomeComponent } from "@/features/awesome-feature/components/AwesomeC
 절대 경로 가져오기를 설정하면 import 문이 더 깨끗하고 가독성이 좋아집니다. 또한 긴 상대적인 import 경로를 피하는 데 도움이 됩니다.
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```json
 //  jsconfig.json/tsconfig.json
@@ -131,7 +182,18 @@ import { AwesomeComponent } from "@/features/awesome-feature/components/AwesomeC
 웹
 GitHub
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주석:
 [https://github.com/alan2207/bulletproof-react](https://github.com/alan2207/bulletproof-react)

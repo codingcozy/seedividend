@@ -3,18 +3,13 @@ title: "파이썬에서 HTML을 PDF로 변환하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How to Convert HTML to PDF in Python"
 link: "https://cloudmersive.medium.com/how-to-convert-html-to-pdf-in-python-42cc39d68270"
 isUpdated: true
 ---
-
-
-
-
-
 
 HTML을 PDF로 쉽게 변환하는 방법은 무료 API를 호출하여 보완적인 코드 예제를 사용하는 것입니다.
 
@@ -26,7 +21,18 @@ API 호출을 구조화하기 위해 먼저 클라이언트 SDK를 설치해봅�
 pip install cloudmersive-convert-api-client
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 후에, 가져오기와 함수 호출을 추가하세요. input_file 변수에 HTML 파일 경로를 포함하고, 배경 그래픽을 포함하고 스케일 요소를 설정하는 옵션을 사용자 정의해 봅시다:
 

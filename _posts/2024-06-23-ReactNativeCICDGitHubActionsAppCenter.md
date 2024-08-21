@@ -3,7 +3,7 @@ title: "React Native CICD GitHub Actions와 App Center 사용하는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-23-ReactNativeCICDGitHubActionsAppCenter_0.png"
 date: 2024-06-23 13:14
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-ReactNativeCICDGitHubActionsAppCenter_0.png
 tag: Tech
 originalTitle: "React Native CI CD: GitHub Actions , App Center"
@@ -11,22 +11,32 @@ link: "https://medium.com/towardsdev/react-native-ci-cd-github-actions-app-cente
 isUpdated: true
 ---
 
-
-
-
 React Native 프로젝트에 대한 Continuous Integration 및 Continuous Deployment (CI/CD) 설정은 빌드, 테스트 및 배포 프로세스 자동화를 포함합니다. 이렇게 React Native 프로젝트를 CI/CD하려면 인기 있는 도구인 CI용 GitHub Actions 및 CD용 App Center를 사용하는 기본 예제가 있습니다:
 
 ![React Native CI/CD](/assets/img/2024-06-23-ReactNativeCICDGitHubActionsAppCenter_0.png)
 
 1. GitHub 저장소 설정:
+
 - 이미 하지 않았다면 React Native 프로젝트용 GitHub 저장소를 만듭니다.
 - React Native 프로젝트 코드를 이 저장소에 푸시합니다.
 
 2. CI용 GitHub Workflow 만들기:
+
 - 저장소에 `.github/workflows/ci.yml` 파일을 만듭니다.
 - GitHub Actions를 사용하여 CI 워크플로우를 정의하기 위해 이 파일을 구성합니다. 다음은 기본 예제입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```yaml
 이름: CI
@@ -46,7 +56,7 @@ React Native 프로젝트에 대한 Continuous Integration 및 Continuous Deploy
       - 이름: Node.js 설정
         사용: actions/setup-node@v1
         with:
-          node-version: '14.x'
+          node-version: "14.x"
 
       - 이름: 종속성 설치
         실행: npm install
@@ -59,10 +69,12 @@ React Native 프로젝트에 대한 Continuous Integration 및 Continuous Deploy
 ```
 
 3. CD를 위해 앱 센터 설정:
+
 - 이미 Microsoft 앱 센터에 계정이 없다면 계정을 설정하세요.
 - React Native 프로젝트에 대응하는 앱 센터에서 앱을 생성하세요.
 
 4. App Center와 CD 통합:
+
 - 개발 환경에서 App Center CLI를 설치하세요.
 - CLI를 App Center와 인증하세요.
 - React Native 프로젝트에 App Center를 통합하세요:
@@ -72,16 +84,27 @@ appcenter login
 appcenter apps create -d "Your React Native App" -o "React Native" -p React-Native
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 — App Center에서 제공하는 지침에 따라 React Native 프로젝트에 SDK를 통합하여 충돌 보고, 분석 및 배포 기능을 활성화하세요.
 
 5. CD 파이프라인 구성:
-— 자동 배포를 위해 App Center에 릴리스 파이프라인을 생성하세요.
-— 새 빌드 아티팩트가 생성된 경우(예: CI 성공 후) 파이프라인을 트리거하도록 구성하세요.
+   — 자동 배포를 위해 App Center에 릴리스 파이프라인을 생성하세요.
+   — 새 빌드 아티팩트가 생성된 경우(예: CI 성공 후) 파이프라인을 트리거하도록 구성하세요.
 
 6. CD 트리거를 위한 GitHub Workflow 업데이트:
-— 성공한 빌드 후 App Center CD를 트리거하도록 GitHub Actions workflow를 수정하세요:
+   — 성공한 빌드 후 App Center CD를 트리거하도록 GitHub Actions workflow를 수정하세요:
 
 ```js
 ...
@@ -103,9 +126,21 @@ jobs:
         run: appcenter codepush release-react -a <ownerName>/<appName> -d <deploymentName>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 7. 변경 내용 커밋 및 푸시하기:
+
 - `.github/workflows/ci.yml` 및 다른 관련 파일에 변경 내용을 커밋합니다.
 - 변경 사항을 GitHub 저장소에 푸시합니다.
 

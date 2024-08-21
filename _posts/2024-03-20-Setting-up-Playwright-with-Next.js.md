@@ -3,17 +3,13 @@ title: "Playwright를 Nextjs와 함께 설정하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # Playwright를 Next.js와 함께 설정하는 방법
 
@@ -23,7 +19,18 @@ Playwright는 Chromium, Firefox 및 WebKit을 단일 API로 자동화할 수 있
 
 가장 빠르게 시작하는 방법은 with-playwright 예제를 사용하여 create-next-app을 사용하는 것입니다. 이렇게 하면 Playwright가 구성된 Next.js 프로젝트가 생성됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npx create-next-app@latest --example with-playwright with-playwright-app
@@ -41,7 +48,18 @@ yarn create playwright
 pnpm create playwright
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 과정을 통해 Playwright를 설정하고 프로젝트에 추가하기 위한 일련의 프롬프트를 진행하게 됩니다. 이 과정에는 playwright.config.ts 파일도 추가됩니다. Playwright 설치 가이드에서 단계별 안내를 참조해주세요.
 
@@ -62,7 +80,18 @@ export default function Page() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import Link from "next/link";
@@ -97,7 +126,18 @@ test('about 페이지로 이동해야 함', async ({ page }) => {
 > 알아두면 좋은 점:
 > "baseURL": "http://localhost:3000"을 playwright.config.ts 구성 파일에 추가하면 page.goto("/") 대신 page.goto("http://localhost:3000/")를 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### Playwright 테스트 실행하기
 
@@ -106,7 +146,18 @@ npm run build 및 npm run start를 실행한 후 다른 터미널 창에서 npx 
 
 > 팁: 대신, Playwright가 개발 서버를 시작하고 완전히 사용 가능할 때까지 기다리도록 하는 webServer 기능을 사용할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### Continuous Integration (CI)에서 Playwright 실행하기
 
@@ -116,4 +167,15 @@ npm run build 및 npm run start를 실행한 후 다른 터미널 창에서 npx 
 - 본인의 CI 제공업체에서 Playwright 사용하기
 - Playwright Discord
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

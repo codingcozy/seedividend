@@ -3,17 +3,13 @@ title: "UI 워크플로우 생성을 강화할 수 있는 OmniWidget 소개"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Empowering UI Workflow Creation on the go  Introducing State-of-the-art OmniWidget"
 link: "https://medium.com/airteldigital/empowering-ui-workflow-creation-on-the-go-introducing-state-of-the-art-omniwidget-fecf8b4e47e1"
 isUpdated: true
 ---
-
-
-
-
 
 # 소개
 
@@ -23,7 +19,18 @@ Airtel에서 우리는 새로운 서비스 주문(Airtel Black / Broadband / Pre
 
 위의 문제를 해결하고 고객 경험에 일관성을 더하기 위해, 모바일 앱과 웹 모두에 대한 코드 한 줄을 작성할 필요 없이 사용자 여정을 정의할 수 있는 능력을 갖기 위한 여정에 나섰습니다. 동시에, 여러 A/B 실험을 동시에 실행할 수 있을 정도로 프로세스가 간단하고 견고하도록했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 이를 정교하면서도 강력한 엔진이라고 부르는데요 — OmniWidget
 
@@ -33,7 +40,18 @@ OmniWidget이 등장하기 전에는 새 제품/서비스의 UI/UX를 효율적�
 
 번거로운 개발 노력이 필요했고 이어서 엄격한 테스트가 필요했습니다. 동일한 흐름의 다양한 변형을 실행하는 것은 상황을 악화시켰습니다. 이는 더 느린 처리시간과 성장 숫자를 추진하는 측면에서 생산성 감소로 이어졌습니다. 기술적으로 말하자면, 이는 사용되지 않는 기능을 제거하기 위해 더 자주 코드 정리 주기를 동반하게 되어 우리 엔지니어링 팀에 압력을 더 늘어뜨리게 했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 이러한 문제와 더 많은 것들이 우리에게 미리 정해진 템플릿에 의존하지 않는 UI 렌더링 엔진을 고안해야 한다는 동기를 부여했습니다. 요약하면, 설정에 기반해 전체 UI를 생성하고 각 사용자 상호 작용에 대해 어떤 일이 발생해야 하는지 이해하며 설정에 기반해 조치를 취하고 AB 테스트를 가능하게 하며 Web과 App에서 작동하는 시스템을 만들어야 했습니다.
 
@@ -45,7 +63,18 @@ Android Native 및 iOS Native 애플리케이션과 원활하게 통합되는 �
 웹 여정과의 통합을 위해, IFRAME을 기반으로 한 통합을 지원합니다.
 이렇게 함으로써 코드 변경 시 극단적인 경우에도 실시간 업데이트를 전달할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모바일 앱 통합을 위해, 네이티브 언어 SDK에서 OmniWidget을 노출하는 SDK 기반 통합을 지원합니다.
 
@@ -55,7 +84,18 @@ Android Native 및 iOS Native 애플리케이션과 원활하게 통합되는 �
 
 OmniWidget이 열리자마자 백엔드에서 모든 구성을 요청합니다. 어떤 필드를 렌더링할지, 선행 API 요청, 필드가 활성화/비활성화될지, 필드가 표시/숨겨질지, 필드에 유효성 오류가 있는지, onBlur, onFocus, onClick, onSelect, onDrag 등에서 취해야 할 조치들은 구성이 전체 UX를 제어하는 예시입니다. 이 외에 각 필드에 CSS 스타일링을 적용하는 테마 엔진도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용자 그룹에 정의된 조합에 따라 클라이언트로 전송할 구성이 결정됩니다. 이 접근 방식을 통해 우리는 코드 한 줄을 작성하지 않고도 AB 실험을 수행할 수 있습니다.
 
@@ -66,7 +106,18 @@ OmniWidget이 열리자마자 백엔드에서 모든 구성을 요청합니다. 
 A. 구성 요소 레이아웃
 저희는 모든 구성 요소 구성을 트리 구조로 반환하며, 전용 모바일 앱에서 코드를 작성하는 방식과 유사합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 B. 데이터 공급
 각 구성 요소마다 redux 스토어에 동적 항목이 생성됩니다. 각 구성 요소는 자신의 엔트리를 참조하여 데이터를 표시합니다.
@@ -82,7 +133,18 @@ AND 연산, OR 연산, isEmpty, isNotEmpty, equals, regexMatch 등과 같은 기
 E. 폼 제출과 같은 조건부 작업 실행
 우리의 TaskEngine은 RuleEngine 뒤에 숨겨져 있습니다. 이렇게 함으로써 정의된 규칙이 통과되거나 실패할 경우 어떤 작업을 수행할지 정의합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **F. 스타일을 어떻게 관리했나요?**
 위에서 언급했듯이, 각 구성 요소에 고유한 ID를 할당했습니다. 이렇게 하면 백엔드에서 스타일시트를 간단히 보내고 각 구성 요소가 자체 스타일시트를 참조할 수 있습니다.
@@ -94,7 +156,18 @@ E. 폼 제출과 같은 조건부 작업 실행
 **A. 더 큰 작업을 수행하는 데 더 작은 팀**
 전체 UI가 구성을 사용하여 생성되므로 각 제품에 대해 별도의 개발 및 테스트 팀이 필요하지 않습니다. OmniWidget를 유지하는 데 필요한 것은 단일 팀뿐입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### B. 빠른 적응성 및 낮은 GTM 시간
 
@@ -108,7 +181,18 @@ E. 폼 제출과 같은 조건부 작업 실행
 
 OmniWidget는 빠른 전환을 위한 비즈니스 과제를 해결하는 데 도움이 되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최신 아키텍처 덕분에 중복 기능으로 코드를 날릴 필요가 없어요. 최소주의 접근 방식을 기반으로 하기 때문에 코드가 훨씬 더 깔끔하고 유지보수가 쉬워요.
 
@@ -118,5 +202,15 @@ OmniWidget는 빠른 전환을 위한 비즈니스 과제를 해결하는 데 �
 
 신뢰할만한 언급
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

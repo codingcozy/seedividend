@@ -3,16 +3,13 @@ title: "JavaScript에서 이벤트 기반 API를 Promises로 적용하기"
 description: ""
 coverImage: "/assets/img/2024-05-17-BuildingaSyncBridge_0.png"
 date: 2024-05-17 20:29
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-17-BuildingaSyncBridge_0.png
 tag: Tech
 originalTitle: "Building a Sync Bridge"
 link: "https://medium.com/better-programming/building-a-sync-bridge-ccbd9fd920b5"
 isUpdated: true
 ---
-
-
-
 
 ## JavaScript에서 이벤트 기반 API를 Promises로 적응하기
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 하지만 때로는 모델이 개발자로서 우리가 해야 할 일과 일치하지 않을 수 있습니다. 두 응용 프로그램 계층이 비동기 메시지 전달을 통해만 통신할 수 있는 경우, 코드를 서투르게 구조화해야 할 수도 있습니다. 요청 코드를 수신 코드와 함께 동일한 위치에 두지 못하고, 청취기 또는 구독을 직접 관리해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사에서는 이벤트 기반 API를 편리한 Promise 기반 API로 적응하는 일반적인 솔루션을 소개하고 있습니다. 이를 통해 메시지 전달의 복잡성과 보일러플레이트를 숨기고 응용 프로그램 경계를 가로지르는 선형 코드를 작성할 수 있습니다.
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 ![Building a Sync Bridge - 1](/assets/img/2024-05-17-BuildingaSyncBridge_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 EDA(이벤트 기반 아키텍처) 또는 발행/구독 모델이라고도 불리는 것은 데이터 요청 및 수신 프로세스가 분리되어 논블로킹 및 비동기적으로 수행된다는 특징이 있어요. 일반적으로 클라이언트는 서버로부터 메시지를 구독하고, 서버는 클라이언트로부터 메시지를 받습니다. 클라이언트가 데이터를 요청할 때, 단순히 메시지를 보내고 실행을 계속합니다. 서버는 이 메시지를 받아 처리하고 어느 시점에서 다시 클라이언트로 다른 메시지를 보낼 것이에요. 클라이언트는 구독자로서 이 메시지를 "원래 요청으로부터 외줄로" 받아 유용한 대로 처리할 수 있습니다. 중요한 점은 이것이 다른 시간에 이루어지거나 다른 네트워크 요청 또는 다른 프로토콜을 사용해도 된다는 것이에요.
 
@@ -42,7 +61,18 @@ EDA(이벤트 기반 아키텍처) 또는 발행/구독 모델이라고도 불�
 
 웹 기술인 웹훅(Webhooks), 웹소켓(WebSockets), 서버-전송 이벤트(Server-Sent Events)와 MQTT, AMQP와 같은 프로토콜, 이러한 것 위에 구축된 다양한 도구를 사용하여 강력한 이벤트 기반 응용 프로그램을 구현할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## EDA(이벤트 주도 아키텍처)가 방해할 때
 
@@ -52,7 +82,18 @@ EDA(이벤트 기반 아키텍처) 또는 발행/구독 모델이라고도 불�
 
 우리의 Worker 모듈은 메인 스레드로부터 메시지를 수신하고, 비용이 많이 드는 계산을 수행한 후 결과를 메인 스레드로 응답하는 리스너 역할을 합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 기대하는 대로 작동합니다. 고객이 계산을 요청한 다음 나중에 결과를 받아 doSomethingWithResult를 수행할 수 있습니다. 그러나 이 솔루션은 expensiveComputation을 수행할 위치에 제한을 가합니다. 우리는 요청을 하고 응답을 동일한 위치에서 사용할 수 없습니다. 이것은 외부 라이브러리 코드나 비동기 함수의 중간과 같은 우리가 제어력이 부족한 컨텍스트에서 해당 기능을 사용하려고 할 때 도전이 될 수 있습니다. "이 데이터가 필요하고 여기서 기다리겠다"라고 말할 수 있다면 좋을텐데요.
 
@@ -62,7 +103,18 @@ Sync Bridge가 나타났습니다.
 
 이벤트 스트림을 "동기적" 방식으로 사용하려면 인터페이스를 Promise를 사용하는 방식으로 변환해야 합니다. 즉, Sync Bridge가 필요합니다. 이벤트 기반 API를 Promise 기반 API로 변환하는 과정은 몇 가지 단계로 나눌 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 클라이언트에서 메시지를 보내기 전에 요청자를 고유하게 식별할 수 있는 ID나 방법을 메시지에 첨부하십시오. 이것이 우리의 "회신 주소"입니다.
 - "빈" Promise를 만들고 이 Promise와 연결된 해결 및 거부 콜백에 메시지의 ID를 연결하여 보류 중인 데이터 구조에 저장하십시오. Map을 사용하는 것이 좋습니다.
@@ -76,7 +128,18 @@ Sync Bridge가 나타났습니다.
 
 우리가 이를 이전에 다룬 웹 워커 예제에 적용해 보기 위해, 위에 나열된 프로세스를 추상화하는 도우미 클래스를 작성해 보겠습니다. 메시지에 ID를 할당하고 보류 중인 요청을 추적하고 응답을 청취하는 클라이언트 추상화가 필요할 것입니다. 이를 WorkerClient라고 부르겠습니다 :
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 호스트 쪽에서는, 우리가 관심 없는 메시지를 걸러내고 어떤 작업을 수행하며, 요청자의 "반송 주소"로 메시지를 다시 보내는 컨트롤러가 필요할 것입니다. 일종의 프록시 메시지 핸들러, 그렇게 해주는 것이 WorkerHost입니다.
 
@@ -86,7 +149,18 @@ Sync Bridge가 나타났습니다.
 
 자, 상당량의 코드를 작성했습니다. 정확히 어떤 이득을 얻었을까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 신크 브릿지 어댑터는 실제로 미래에 어떤 메시지를 받을 것을 기대하는 것을 약속으로 변환합니다. 이를 통해 원격 컨텍스트에서 데이터와 코드를 로컬처럼 처리할 수 있습니다. 무엇보다도, 동일한 위치에서 원격 데이터를 요청하고 사용할 수 있게 해줍니다. 데이터베이스 트랜잭션 가운데서 비싼 계산을 해야 하거나 임의 이벤트 핸들러에서, 심지어 다른 이벤트 스트림의 메시지 핸들러에서도 그냥 전화를 해서 처리할 수 있습니다.
 
@@ -96,7 +170,18 @@ Sync Bridge가 나타났습니다.
 
 ## 실제 세계에서
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이벤트 주도 시스템에서 작업할 때 "이벤트로 생각하는 것"이 가장 좋지만, 때로는 탈출구가 필요할 수 있습니다. Sync Bridge는 여기 유용한 도구가 될 수 있지만, 구현하기 전에 이 접근 방식이 필요한지 고려해보세요. 대부분의 경우에는 이벤트 처리가 그냥 작동합니다.
 
@@ -128,6 +213,17 @@ async/await 및 Promises에 대한 깊은 논의
 • Phosphor 아이콘
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 표 태그를 Markdown 포맷으로 변경해주세요.

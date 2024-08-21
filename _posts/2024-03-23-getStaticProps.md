@@ -3,17 +3,13 @@ title: "Nextjs 13 - getStaticProps 사용 방법 정리"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "getStaticProps"
 link: "undefined"
 isUpdated: true
 ---
-
-
-
-
 
 # getStaticProps
 
@@ -42,7 +38,18 @@ export default function Page({ repo }: InferGetStaticPropsType<typeof getStaticP
 
 > 렌더링 유형과 관계없이 페이지 컴포넌트로 전달된 모든 props는 초기 HTML에서 클라이언트 측에서 볼 수 있습니다. 이것은 페이지가 올바르게 활성화되도록 하기 위함입니다. props에 클라이언트에서 사용할 수 없어야 하는 민감한 정보를 전달하지 않도록 주의하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## `getStaticProps`을 언제 사용해야 하나요?
 
@@ -55,7 +62,18 @@ export default function Page({ repo }: InferGetStaticPropsType<typeof getStaticP
 
 ## 언제 `getStaticProps`이 실행되나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 getStaticProps은 항상 서버에서 실행되고 클라이언트에서는 실행되지 않습니다. 이 도구를 사용하여 getStaticProps 안에 작성된 코드가 클라이언트 측 번들에서 제거되는지 확인할 수 있어요.
 
@@ -69,7 +87,18 @@ Incremental Static Regeneration과 결합하면 getStaticProps은 새로 고침 
 
 getStaticProps은 요청(쿼리 매개변수 또는 HTTP 헤더와 같은)에 액세스할 수 없습니다. 정적 HTML을 생성하기 때문입니다. 페이지에 대한 요청에 액세스해야 하는 경우 Middleware를 getStaticProps에 추가하여 사용해 보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## CMS에서 데이터를 가져오는 getStaticProps 사용
 
@@ -108,7 +137,18 @@ export async function getStaticProps() {
 
 getStaticProps API 참조에서 getStaticProps와 함께 사용할 수 있는 모든 매개변수와 속성을 다루고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 서버 측 코드를 직접 작성하세요
 
@@ -118,7 +158,18 @@ getStaticProps는 서버 측에서만 실행되기 때문에 클라이언트 측
 
 다음 예제를 살펴보겠습니다. API 경로를 사용하여 CMS에서 데이터를 가져오는 경우가 있습니다. 그런 다음 해당 API 경로가 getStaticProps에서 직접 호출됩니다. 이렇게 하면 성능이 저하되는 추가 호출이 발생합니다. 대신 CMS에서 데이터를 가져오는 로직은 lib/ 디렉토리를 사용하여 공유함으로써 getStaticProps와 공유할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 다음의 함수는 getStaticProps와 API 라우트에서
@@ -152,7 +203,18 @@ getStaticProps에서 직접 사용할 수 있습니다.
 
 Next.js가 클라이언트 측 번들에서 제거하는 항목을 확인하려면 next-code-elimination 도구를 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 정적으로 HTML과 JSON을 생성합니다
 
@@ -162,7 +224,18 @@ getStaticProps가 포함된 페이지가 빌드 시간에 사전 렌더링될 �
 
 증분 정적 생성을 사용할 때, getStaticProps는 클라이언트 측 내비게이션에 필요한 JSON을 생성하기 위해 백그라운드에서 실행됩니다. 동일한 페이지에 대해 여러 요청이 발생할 수 있는 것을 볼 수 있지만, 이는 의도된 동작으로 최종 사용자 성능에 영향을 미치지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## getStaticProps를 어디에서 사용할 수 있나요?
 
@@ -172,7 +245,18 @@ getStaticProps는 페이지에서만 내보낼 수 있습니다. 비페이지 �
 
 또한 getStaticProps를 페이지 컴포넌트의 속성으로 추가하는 대신 독립적인 함수로 내보내야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 > 좋은 정보: 사용자 정의 앱을 만들었다면, 연결된 문서에 표시된 대로 페이지 구성 요소에 pageProps를 전달하는 것을 확인하십시오. 그렇지 않으면 프롭스가 비어 있을 수 있습니다.
 
@@ -182,8 +266,30 @@ getStaticProps는 페이지에서만 내보낼 수 있습니다. 비페이지 �
 
 ## 미리보기 모드
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 '미리보기 모드'를 사용하면 정적 생성을 우회하여 페이지를 빌드 시간이 아닌 요청 시간에 렌더링할 수 있습니다. 예를 들어, 머리 없는 CMS를 사용하고 게시하기 전에 드래프트를 미리보고 싶을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

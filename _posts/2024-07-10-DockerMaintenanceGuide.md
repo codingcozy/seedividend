@@ -3,16 +3,13 @@ title: "Docker 유지보수 가이드 최신 기술과 방법 알아보기"
 description: ""
 coverImage: "/assets/img/2024-07-10-DockerMaintenanceGuide_0.png"
 date: 2024-07-10 02:09
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-10-DockerMaintenanceGuide_0.png
 tag: Tech
 originalTitle: "Docker Maintenance Guide"
 link: "https://medium.com/gitconnected/docker-maintenance-guide-91dabdfe8960"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-07-10-DockerMaintenanceGuide_0.png" />
 
@@ -22,6 +19,17 @@ isUpdated: true
 
 # 도커 엔진 정리와 청소
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도커 자체에 따르면, "도커 엔진은 응용 프로그램을 구축하고 컨테이너화하는 오픈 소스 컨테이너화 기술"입니다. 컴퓨터에서 도커를 실행할 때는 이 도커 엔진 애플리케이션이 백그라운드에서 실행됩니다. 모든 것이 이곳에서...

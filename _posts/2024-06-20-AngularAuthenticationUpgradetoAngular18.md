@@ -3,16 +3,13 @@ title: "Angular 인증 Angular 18로 업그레이드하기 "
 description: ""
 coverImage: "/assets/img/2024-06-20-AngularAuthenticationUpgradetoAngular18_0.png"
 date: 2024-06-20 05:45
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-AngularAuthenticationUpgradetoAngular18_0.png
 tag: Tech
 originalTitle: "Angular Authentication: Upgrade to Angular 18 🚀"
 link: "https://medium.com/@nikosanif/angular-authentication-upgrade-to-angular-18-46489184b40f"
 isUpdated: true
 ---
-
-
-
 
 아래는 Markdown 형식의 표입니다.
 
@@ -24,7 +21,18 @@ Cover Photo by Gareth Davies on Unsplash.
 
 라이브 애플리케이션: angular-authentication.netlify.app
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 도전! 🤔
 
@@ -34,7 +42,18 @@ Angular 프로젝트를 업그레이드하는 것은 주요 버전을 여러 개
 
 # 간단 요약 🎯
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - ✅ Angular 버전: 13 ➡️ 18
 - ✅ 종속성: 종속성을 최신 버전으로 업데이트합니다.
@@ -55,7 +74,18 @@ Angular 프로젝트를 업그레이드하는 것은 주요 버전을 여러 개
 
 [단계 1] ⏩ Angular 업그레이드 가이드 방문하기:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Angular 업데이트 가이드는 각 버전 업그레이드에 대한 자세한 단계와 정보를 제공합니다.
 
@@ -67,7 +97,18 @@ npm install
 
 [단계 3] ⏩ Node 18로 전환: 저는 Node 버전 관리자(nvm)를 사용하여 Node 18로 전환했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 nvm 사용 18
@@ -78,7 +119,16 @@ nvm 사용 18
 
 ng update @angular/core@14 @angular/cli@14 --force
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - --force 플래그를 사용하면 버전 호환성 검사를 우회합니다. 나중에 수동으로 문제를 수정할 거에요.
 
@@ -90,7 +140,16 @@ ng update @angular/core@17 @angular/cli@17 --force
 
 [단계 6] ⏩ Node 20으로 전환:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 nvm 사용 20
 
@@ -99,9 +158,20 @@ nvm 사용 20
 ng update @angular/core@latest @angular/cli@latest --force
 
 # 조정 및 비교
-```  
+```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 [단계 8] ⏩ 비교를 위해 새 Angular 프로젝트 생성하기:
 
@@ -113,7 +183,18 @@ ng new new-angular-project
 
 [단계 9] ⏩ 개발 의존성 업데이트하기:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 모든 패키지를 최신 버전으로 업데이트해주세요.
 - eslint 문제를 수정해주세요.
@@ -125,7 +206,18 @@ ng new new-angular-project
 
 - package.json의 engines 필드를 업데이트하여 Node 20.x를 사용하도록 설정해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```json
 "engines": {
@@ -141,7 +233,18 @@ ng new new-angular-project
 ng g @angular/core:control-flow # 새로운 제어 플로우로 이주
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # UI 및 의존성 이주
 
@@ -152,7 +255,18 @@ ng g @angular/core:control-flow # 새로운 제어 플로우로 이주
 
 [Step.13] ⏩ 사용되지 않는 종속성 제거:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - angular-in-memory-web-api를 제거하고 대안적인 데이터 모킹 솔루션이나 실제 백엔드 서비스를 사용하도록 프로젝트를 업데이트해주세요.
 - API 요청과 응답을 처리하기 위한 사용자 지정 HTTP 인터셉터를 구현해주세요.
@@ -162,20 +276,31 @@ ng g @angular/core:control-flow # 새로운 제어 플로우로 이주
 - Angular의 독립 컴포넌트 기능을 활용하여 모듈 관리를 간단화하고 코드 모듈성을 개선해보세요.
 
 ```typescript
-import { Component } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { Component } from "@angular/core";
+import { CommonModule } from "@angular/common";
 
 @Component({
-  selector: 'app-standalone',
+  selector: "app-standalone",
   standalone: true,
   imports: [CommonModule],
-  templateUrl: './standalone.component.html',
-  styleUrls: ['./standalone.component.css'],
+  templateUrl: "./standalone.component.html",
+  styleUrls: ["./standalone.component.css"],
 })
 export class StandaloneComponent {}
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 [단계 15] ⏩ 새로운 내장 제어 흐름 사용:
 
@@ -185,13 +310,21 @@ export class StandaloneComponent {}
 
 - 라우트 가드를 함수로 리팩토링하여 코드를 간소화하고 유지보수성을 향상시키세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-export const canActivate = (
-  route: ActivatedRouteSnapshot,
-  state: RouterStateSnapshot
-) => {
+export const canActivate = (route: ActivatedRouteSnapshot, state: RouterStateSnapshot) => {
   // 가드 로직
 };
 ```
@@ -207,7 +340,18 @@ loginForm = new FormGroup({
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 기타 향상된 기능
 
@@ -220,7 +364,18 @@ loginForm = new FormGroup({
 npm install --save-dev release-it
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - .release-it.json 파일을 사용하여 release-it을 구성하세요:
 
@@ -242,7 +397,18 @@ npm install --save-dev release-it
 - Signal API 사용하기: Angular 18에서 소개된 새 Signal API를 통해 비동기 작업을 간단하게 해보세요.
 - 지연 가능한 뷰: 렌더링 성능과 사용자 경험을 향상시키기 위해 지연 가능한 뷰를 구현하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론 ✅
 

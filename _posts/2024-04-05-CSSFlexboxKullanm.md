@@ -3,17 +3,13 @@ title: "CSS Flexbox 사용법 2024년 최신"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "CSS Flexbox Kullanm"
 link: "https://medium.com/@alperensarierikli/css-flexbox-kullan%C4%B1m%C4%B1-e6d284741b55"
 isUpdated: true
 ---
-
-
-
-
 
 ![CSS Flexbox](/assets/img/CSSFlexboxKullanm_0.png)
 
@@ -23,7 +19,18 @@ Flexbox (Flexible Box)는 웹 페이지의 HTML 요소를 정렬하는 데 사�
 
 Flexbox를 사용하면 요소들을 수평 및 수직으로 정렬할 수 있으며 간격을 조절할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Flexbox 속성을 사용하려면 정렬하려는 요소가 포함된 컨테이너가 필요합니다. 이 컨테이너에 CSS 속성으로 "display: flex;" 또는 "display: inline-flex;" 코드를 작성해야 합니다.
 
@@ -33,7 +40,18 @@ Flex-direction은 요소를 가로 또는 세로로 정렬하는 데 사용되�
 
 ![CSSFlexboxKullanm_0](/assets/img/CSSFlexboxKullanm_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "row-reverse"와 "column-reverse" 속성은 순서를 거꾸로 시작하도록합니다.
 
@@ -43,7 +61,18 @@ Flex-wrap은 요소들이 현재 화면에 완전히 맞지 않을 때 다음 �
 
 "flex-wrap: nowrap"은 기본 값으로, 요소들/컨테이너가 화면에 맞지 않을 때 넘침을 허용하고 다음 줄/줄들로 넘어가지 않도록합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 “flex-wrap: wrap” 값은 요소들이 화면에 맞지 않을 때 줄 바꿈을 허용합니다.
 
@@ -53,7 +82,18 @@ Flex-wrap은 요소들이 현재 화면에 완전히 맞지 않을 때 다음 �
 
 # Justify-content
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Contents를 정의하는 것은 요소들 사이 및 주위의 간격을 조정하고 정렬하는 데 사용되는 속성입니다.
 
@@ -63,7 +103,18 @@ Contents를 정의하는 것은 요소들 사이 및 주위의 간격을 조정�
 
 “justify-content: center”는 모든 요소를 컨테이너 가운데에 배치하고 좌우로 동일한 간격을 유지합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "justify-content: space-around" 속성은 요소들을 좌우에 동일한 간격으로 정렬합니다. 오른쪽과 왼쪽 끝은 각각 1x의 간격을 가지며 요소들 사이의 간격은 2x로 설정됩니다.
 
@@ -73,7 +124,18 @@ Contents를 정의하는 것은 요소들 사이 및 주위의 간격을 조정�
 
 ![CSSFlexboxKullanm_3.png](/assets/img/CSSFlexboxKullanm_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Align-items
 
@@ -83,7 +145,18 @@ Align items은 아이템들을 수직으로 정렬하는 데 사용됩니다.
 
 References:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1- [여기를 클릭하세요!](https://community.kodular.io/t/flexbox-css-flexible-box-layout-module-for-kodular/132608)
 

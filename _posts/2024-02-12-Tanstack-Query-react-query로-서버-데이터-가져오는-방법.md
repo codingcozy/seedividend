@@ -3,21 +3,15 @@ title: "Tanstack Queryreact-query로 서버 데이터 가져오는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
 
-
-
-
-
 # Tanstack Query(react-query)로 서버 데이터 가져오는 방법
-
-
 
 React-Query의 버전 5는 Tanstack Query로 이름이 바뀌었는데, 사용방법이 간단하니 오늘은 그 내용에 대해서 알아보겠습니다.
 
@@ -104,11 +98,7 @@ export default async function Home() {
 ## 1. 필요한 모듈 import
 
 ```tsx
-import {
-  HydrationBoundary,
-  QueryClient,
-  dehydrate,
-} from "@tanstack/react-query"; // 1. 필요한 모듈 import
+import { HydrationBoundary, QueryClient, dehydrate } from "@tanstack/react-query"; // 1. 필요한 모듈 import
 ```
 
 @tanstack/react-query에서는 데이터를 fetch해오는 곳과 사용하는 곳 이렇게 두가지로 나뉜다고 보시면 됩니다.
@@ -143,7 +133,18 @@ prefetchQuery에서는 `queryKey` 객체와 `queryFn`를 필요로 합니다.
 
 그 다음 queryFn는 이 때 데이터를 fetch하는 함수를 넣어주는 것입니다. `getPostRecommends` 함수는 아래와 같이 추천 포스트를 가져오는 함수입니다. 여기서는 실제 백엔드가 없기 때문에 msw를 이용해 목업 데이터를 리턴해주고 있는데요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```tsx
 export async function getPostRecommends() {
@@ -245,7 +246,18 @@ tanstack query를 통해서 가져온 데이터는 모든 컴포넌트에서 사
 
 여기까지 작성하면 서버 컴포넌트에서 데이터를 미리 페칭하는 과정까지는 완료가 되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 4. fetch한 데이터 사용하기
 

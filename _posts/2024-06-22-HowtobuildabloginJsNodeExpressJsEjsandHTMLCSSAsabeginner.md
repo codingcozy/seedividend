@@ -3,15 +3,13 @@ title: "초보자를 위한 Nodejs, ExpressJs 및 Ejs를 사용한 블로그 만
 description: ""
 coverImage: "/assets/img/2024-06-22-HowtobuildabloginJsNodeExpressJsEjsandHTMLCSSAsabeginner_0.png"
 date: 2024-06-22 03:41
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-HowtobuildabloginJsNodeExpressJsEjsandHTMLCSSAsabeginner_0.png
 tag: Tech
 originalTitle: "How to build a blog in Js (Node + ExpressJs + Ejs) and (HTML + CSS ): As a beginner."
 link: "https://medium.com/@faizanmumtazwork/how-to-building-a-blog-in-js-node-ejs-and-html-css-as-a-beginner-d7b130d9f5c4"
 isUpdated: true
 ---
-
-
 
 이 쉬운 가이드에서는 Express.js를 사용하여 간단하지만 강력한 블로그 애플리케이션을 구축하는 과정을 안내하겠습니다. Express.js는 Node.js를 위한 빠르고 유연하며 가벼운 웹 프레임워크입니다. 이 자습서를 마치면 자신만의 맞춤형 블로그 플랫폼을 만들 수 있는 모든 지식을 습득할 것입니다. 블로그 게시물을 쉽게 추가, 편집 및 삭제할 수 있을 것입니다.
 
@@ -23,7 +21,18 @@ isUpdated: true
 
 # 환경 설정:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저 공식 웹 사이트에서 Node.js를 다운로드한 다음 프로젝트 폴더를 만듭니다. 다음으로 Visual Studio Code에서 해당 폴더를 열고 npm을 초기화합니다. 그런 다음 다음 명령을 실행하여 필요한 종속성을 설치합니다:
 
@@ -35,7 +44,18 @@ npm init
 
 공식 Express.js 웹 사이트에서 Express.js를 다운로드합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm i express
@@ -61,7 +81,18 @@ app.listen(port, () => {
 
 ![이미지](/assets/img/2024-06-22-HowtobuildabloginJsNodeExpressJsEjsandHTMLCSSAsabeginner_0.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 다음으로 템플릿으로 EJS를 다운로드합니다. EJS는 Embedded JavaScript의 준말로, Node.js 및 웹 개발 모두에 적합한 템플릿 엔진입니다. HTML 템플릿에 JavaScript 코드를 직접 통합하여 동적 HTML 콘텐츠를 생성할 수 있습니다.
 
@@ -75,7 +106,18 @@ app.listen(port, () => {
 - 편집 기능: 사용자들은 블로그 게시물을 편집할 수 있는 능력이 있어 콘텐츠가 최신 및 관련성을 유지할 수 있습니다.
 - 삭제 기능: 사용자들은 필요에 따라 블로그 게시물을 쉽게 삭제할 수 있어 콘텐츠를 관리하고 깔끔한 경험을 유지할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로, 메인 페이지용 index.ejs 파일을 생성하고 그 안에 HTML 코드를 작성할 것입니다. 또한 헤더, 푸터, styles.css와 같은 정적 파일을 위해 public 폴더를 생성할 것입니다. 이 폴더 안에 header.ejs, footer.ejs, 그리고 styles.css 파일을 만들 것입니다.
 
@@ -152,7 +194,18 @@ app.listen(port, () => {
   </footer>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 내용은 Express.js와 EJS 템플릿을 사용하여 블로그 애플리케이션을 위한 간단한 웹 페이지 구조를 나타냅니다.
 
@@ -162,7 +215,18 @@ header.ejs에는 내비게이션 링크가 포함된 헤더 섹션이 있습니�
 
 footer.ejs에는 저작권 정보가 포함된 푸터 섹션이 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 포함 함수는 index.ejs 내에 header.ejs 및 footer.ejs 내용을 포함하여 페이지 간 일관성을 유지하는 데 사용됩니다.
 
@@ -182,7 +246,18 @@ app.get("/", (req, res) => {
 
 이 코드는 다양한 EJS 템플릿을 위한 파일 경로를 정의하고 루트("/") 엔드포인트로 GET 요청이 발생할 때 index.ejs 템플릿을 렌더링하기 위한 라우트를 설정합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로, Body Parser를 다운로드하세요. 이는 HTTP 요청 본문에서 JSON, 텍스트, URL 인코딩 및 Raw 데이터 세트를 구문 분석하기 위한 네 가지 Express 미들웨어를 제공합니다. 이러한 미들웨어 루틴은 대상 컨트롤러에 도달하기 전에 들어오는 요청을 처리합니다.
 
@@ -192,7 +267,18 @@ npm i body-parser
 
 다음으로, index.js 파일에 새 블로그를 만드는 POST 요청 코드를 작성해 보세요. 그리고 views라는 새 폴더를 만들어주세요. 이 폴더 안에 blogList.ejs라는 파일을 만들어서 만든 블로그 목록을 표시해보세요. 사용자 입력 값을 캡처하고 "bloglist" 페이지에 렌더링하는 로직을 구현하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 블로그 목록 초기화
@@ -263,7 +349,18 @@ function generateID() {
 
 위 코드는 EJS 템플릿을 사용하여 블로그 애플리케이션의 프론트 엔드 구조를 나타냅니다. BlogList 페이지 (blogList.ejs), 헤더 (header.ejs), 푸터 (footer.ejs) 파일이 포함되어 있습니다. 이 페이지는 JavaScript의 반복 메커니즘을 활용하여 각 블로그 항목을 반복하고 표시합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 Markdown 형식으로 변경한 표입니다.
 
@@ -282,13 +379,14 @@ app.get("/blogDetails/:id", (req, res) => {
 });
 ```
 
-
 <%- include('../public/partials/header.ejs') %>
+
 <div class="container">
   <div class="viewBlog-header">
     <h1 class="title text-left"><%= blogDetails?.title %></h1>
 
     <a href="/edit/<%=blogDetails.id  %>" class="edit-btn">Edit</a>
+
   </div>
   <div class="overflow-div">
     <p><%= blogDetails?.description %></p>
@@ -297,8 +395,18 @@ app.get("/blogDetails/:id", (req, res) => {
 
 <%- include('../public/partials/footer.ejs') %>
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 코드는 지정된 블로그 ID를 기반으로 블로그 세부 페이지를 렌더링하는 라우트를 설정합니다. 요청 매개변수에서 ID를 추출하고 blogList 배열에서 해당 블로그 세부 정보를 찾습니다. 그런 다음 검색된 세부 정보를 사용하여 blogDetails.ejs 템플릿을 렌더링합니다.
 
@@ -328,7 +436,18 @@ app.post("/edit/:id", (req, res) => {
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 Express.js 코드는 블로그 글을 편집하는 작업을 수행합니다. /edit/123(여기서 123은 글 ID입니다)와 같은 URL로의 POST 요청을 수신 대기합니다. ID를 추출하고 해당 글을 찾아 업데이트를 검색합니다. 데이터 문제를 피하기 위해 업데이트가 적용된 새로운 객체를 생성하고(원래 ID 포함) 기존 글을 새 글로 대체합니다. 선택적으로 업데이트된 목록이 있는 페이지를 렌더링할 수 있습니다.
 
@@ -345,7 +464,18 @@ app.post("/delete/:id", (req, res) => {
 
 이 코드는 블로그 글을 삭제하는 라우트를 정의합니다. 요청 URL에서 글 ID를 추출하고 메모리에 있는 블로그 목록을 필터링하여 해당 글을 제거합니다. 응답에는 알림 메시지를 보내거나 사용자를 홈페이지로 두 번 리디렉션하는 기법들이 섞여 있습니다. 이 방식은 제한사항이 있습니다. 서버 재시작 시 데이터가 손실되고 응답 방법이 충돌할 수 있습니다. 더 견고한 솔루션을 찾으려면 데이터베이스 사용 및 프레젠테이션 로직을 서버 측 코드에서 분리하는 것이 권장됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 마무리
 

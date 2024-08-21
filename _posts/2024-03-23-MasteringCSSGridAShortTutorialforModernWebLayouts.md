@@ -3,17 +3,13 @@ title: "CSS Grid 마스터하기 모던 웹 레이아웃을 위한 간단한 튜
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Mastering CSS Grid A Short Tutorial for Modern Web Layouts"
 link: "https://medium.com/@MakeComputerScienceGreatAgain/mastering-css-grid-a-short-tutorial-for-modern-web-layouts-a69f1025639e"
 isUpdated: true
 ---
-
-
-
-
 
 웹 개발 분야에서 CSS Grid를 숙달하는 것은 강력한 도구를 다루는 것과 같아졌어요. CSS Grid는 복잡한 레이아웃을 쉽고 효율적으로 만들 수 있는 능력을 갖추고 있어, 웹사이트 디자인 방식을 혁신적으로 변화시켰어요. 경험 많은 개발자든 막 시작한 개발자든, CSS Grid를 이해하는 것이 현대적이고 반응형 웹 레이아웃을 만드는 데 꼭 필요해요. 이 간단한 튜토리얼에서는 CSS Grid의 기본을 살펴보고, 어떻게 CSS Grid의 힘을 활용하여 멋진 웹 페이지를 디자인할 수 있는지 알아볼 거예요.
 
@@ -23,7 +19,18 @@ CSS Grid는 두 차원의 그리드 시스템을 소개하여 개발자들이 �
 
 CSS Grid를 시작하려면 display: grid; 속성을 사용하여 그리드 컨테이너를 정의해야 해요. 이는 브라우저에게 컨테이너의 자식이 그리드 형식으로 배치될 것이라고 알려줘요. 예를 들면:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 .grid-container {
@@ -43,7 +50,18 @@ CSS Grid를 시작하려면 display: grid; 속성을 사용하여 그리드 컨�
 
 이 예시에서 생성한 그리드 컨테이너는 두 개의 행과 두 개의 열을 가지고 있습니다. 첫 번째 행은 높이가 100px이고, 두 번째 행은 높이가 200px이며, 각각의 열은 사용 가능한 공간의 1/2와 1/3을 차지합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 grid-template-columns에 1fr만 넣으면 어떻게 될까요? grid-template-rows에 100px는 어떨까요? 이를 잠시 멈춰 생각하거나 실험하여 행동을 더 잘 이해해 보세요.
 
@@ -53,7 +71,18 @@ CSS 그리드의 grid-template-columns 속성은 그리드 컨테이너 내의 �
 
 다음은 grid-template-columns를 사용하는 방법에 대한 설명입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 고정 크기 열: 단위를 픽셀(px)이나 센티미터(cm)와 같이 고정 단위로 지정할 수 있습니다. 예를 들어:
 
@@ -68,7 +97,18 @@ CSS 그리드의 grid-template-columns 속성은 그리드 컨테이너 내의 �
 
 2. 유연한 크기 열: 고정 단위 대신 백분율(%)이나 분수(fr)와 같은 유연한 단위를 사용할 수 있습니다. fr 단위는 분수 값에 따라 열 사이의 사용 가능한 공간을 분배합니다. 예를 들어:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .grid-container {
@@ -88,7 +128,18 @@ CSS 그리드의 grid-template-columns 속성은 그리드 컨테이너 내의 �
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 코드는 첫 번째 열이 100px 너비이고 나머지 공간이 두 번째와 세 번째 열 사이에 1:2 비율로 나뉘는 세 개의 열을 만들 것입니다.
 
@@ -103,7 +154,18 @@ CSS 그리드의 grid-template-columns 속성은 그리드 컨테이너 내의 �
 
 이 경우 각 열은 포함된 콘텐츠에 기초하여 크기가 결정됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 5. 반복 표기법: 열 크기를 반복하고 싶다면 repeat() 함수를 사용할 수 있어요. 예를 들어:
 
@@ -118,7 +180,18 @@ CSS 그리드의 grid-template-columns 속성은 그리드 컨테이너 내의 �
 
 # 그리드에 항목 배치하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리드 구조를 정의한 후에는 그리드 행 및 열에 항목을 배치할 수 있습니다. 이를 위해 grid-row 및 grid-column 속성을 사용합니다. 이러한 속성은 각 행과 열에 대해 그리드 라인의 시작 및 끝 위치를 지정합니다. 예를 들어:
 
@@ -133,7 +206,18 @@ CSS 그리드의 grid-template-columns 속성은 그리드 컨테이너 내의 �
 
 # CSS Grid를 활용한 반응형 레이아웃
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS 그리드의 가장 강력한 기능 중 하나는 반응형 레이아웃을 쉽게 생성할 수 있다는 점입니다. CSS 그리드 속성과 미디어 쿼리를 함께 사용하여 레이아웃을 뷰포트 크기에 맞게 조절할 수 있습니다. 예를 들어:
 
@@ -149,7 +233,18 @@ CSS 그리드의 가장 강력한 기능 중 하나는 반응형 레이아웃을
 
 Code Sandbox의 예시:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 용어 해설
 
@@ -165,7 +260,18 @@ CSS Grid의 주요 용어를 이해하는 것은 이 강력한 레이아웃 시�
 </div>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 그리드 항목: 그리드 컨테이너의 직계 자식 요소입니다. 참고: 항목은 그리드 항목입니다만, 서브-항목은 그렇지 않습니다.
 
@@ -183,7 +289,18 @@ CSS Grid의 주요 용어를 이해하는 것은 이 강력한 레이아웃 시�
 
 <img src="/assets/img/Mastering-CSS-Grid:-A-Short-Tutorial-for-Modern-Web-Layouts_0.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. Grid Track: 두 인접한 그리드 선 사이의 공간을 의미합니다. 트랙은 행(row) 또는 열(column)이 될 수 있습니다.
 
@@ -193,7 +310,18 @@ CSS Grid의 주요 용어를 이해하는 것은 이 강력한 레이아웃 시�
 
 ![Grid Cell](/assets/img/Mastering-CSS-Grid:-A-Short-Tutorial-for-Modern-Web-Layouts_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 6. 그리드 영역: 네 개의 그리드 라인으로 정의된 그리드의 직사각형 영역입니다. 여러 그리드 셀을 포함할 수 있으며 그리드 배치 속성을 사용하여 여러 그리드 항목을 병합하여 만듭니다.
 
@@ -203,7 +331,18 @@ CSS Grid의 주요 용어를 이해하는 것은 이 강력한 레이아웃 시�
 
 8. 그리드 열: 그리드의 세로 트랙입니다. 열은 그리드 라인으로 정의됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 9. 그리드 갭 : 그리드 트랙(행과 열) 사이의 간격입니다. grid-gap 또는 gap 속성을 사용하여 설정할 수 있습니다.
 
@@ -213,7 +352,18 @@ CSS Grid의 주요 용어를 이해하는 것은 이 강력한 레이아웃 시�
 
 12. 암시적 그리드 : 명시적 그리드 바깥에 배치된 그리드 항목에 의해 생성된 그리드입니다. 이는 이러한 항목을 수용하기 위해 확장됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 13. 자동 배치: 그리드 항목이 명시적인 위치 지정 없이 그리드에 배치되면 HTML 마크업에 나타나는 순서대로 자동으로 배치됩니다.
 
@@ -223,7 +373,18 @@ CSS Grid의 주요 용어를 이해하는 것은 이 강력한 레이아웃 시�
 
 16. 자기 정렬: 단일 그리드 항목이 그리드 셀 내에서 인라인(행) 축을 따라 정렬되는 방법을 결정합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 17. Align Self: 그리드 셀 내에서 단일 그리드 항목이 블록(열) 축을 따라 정렬되는 방식을 결정합니다.
 
@@ -233,7 +394,18 @@ CSS Grid의 주요 용어를 이해하는 것은 이 강력한 레이아웃 시�
 
 CSS 그리드와 관련된 많은 속성이 있으며, 이를 컨테이너(부모)용 속성과 항목(자식)용 속성으로 나눌 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 컨테이너에 자주 사용되는 속성:
 
@@ -243,7 +415,18 @@ CSS 그리드와 관련된 많은 속성이 있으며, 이를 컨테이너(부�
 
 grid-template-rows 속성의 구문은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 grid-template-rows: <track-size> | <line-name> <track-size> | repeat(<number>, <track-size>) | auto | min-content | max-content | minmax(<min>, <max>) | fit-content(<size>);
@@ -259,7 +442,18 @@ grid-template-rows: <track-size> | <line-name> <track-size> | repeat(<number>, <
 - minmax(`min`, `max`): 행의 최소 및 최대 크기를 지정합니다. 사용 가능한 공간에 맞도록 행이 이 값 사이에 맞추어 크기가 조정됩니다.
 - fit-content(`size`): 행을 사용 가능한 콘텐츠에 맞게 크기 조정하지만 지정된 크기를 초과하지는 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. `line-name`: 행을 정의하는 그리드 라인에 이름을 지정할 수 있습니다. 이름이 지정된 그리드 라인은 그리드 영역을 정의하거나 그리드 항목을 위치시킬 때 참조할 수 있습니다.
 
@@ -290,7 +484,18 @@ grid-template-rows: minmax(100px, auto) minmax(200px, 1fr);
 grid-template-rows: [header-start] 100px [header-end content-start] 1fr [content-end footer-start] 200px [footer-end];
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. grid-template-areas: 그리드 컨테이너 내에서 명명된 그리드 영역을 정의합니다. 이 속성을 사용하면 특정 영역에 이름을 할당한 다음 아이템을 해당 영역에 배치하여 복잡한 레이아웃을 만들 수 있습니다.
 
@@ -305,7 +510,18 @@ grid-template-areas: "<value>"
 
 다음은 구문의 세부 내용입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `value`: 그리드 영역의 레이아웃을 정의하는 문자열 값입니다. 각 값은 그리드 컨테이너의 행에 해당합니다. 각 값 내에서는 공백으로 구분된 문자열을 사용하여 그리드 항목의 배치를 지정합니다. 이러한 문자열은 그리드 영역의 이름 또는 빈 셀을 나타내는 점 (.)으로 구성됩니다.
 
@@ -320,7 +536,18 @@ grid-template-areas:
 
 이 예제에서:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 첫 번째 행에는 header로 명명된 세 개의 그리드 영역이 포함되어 있습니다.
 - 두 번째 행에는 sidebar로 명명된 하나의 그리드 영역과 main으로 명명된 두 개의 영역이 포함되어 있습니다.
@@ -337,7 +564,18 @@ grid-template-areas:
 
 이 예제에서 두 번째 행은 레이아웃에서 갭을 생성하는 main 그리드 영역을 가진 두 번째 열에만 셀을 포함하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. `grid-template`: `grid-template-rows` 및 `grid-template-columns`을 한 번에 정의하는 데 사용되는 속기 속성입니다.
 
@@ -349,7 +587,18 @@ grid-template: [행 라인 이름] / [열 라인 이름];
 
 위의 구문을 자세히 살펴보겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - [행 라인 이름]: 이 구문은 그리드 내의 행의 크기와 배치를 정의합니다. 각 행의 크기를 길이 값 (px, em, rem 등), 백분율 값 (%), 분수 (fr) 또는 auto 키워드로 개별적으로 지정할 수 있습니다. 또한 grid-template-areas 속성 내에서 참조할 수 있는 이름이 지정된 그리드 라인을 정의할 수도 있습니다.
 - [열 라인 이름]: 이 구문은 그리드 내의 열의 크기와 배치를 정의합니다. 행과 유사하게, 각 열의 크기를 각각 다양한 단위를 사용하여 지정하거나 이름이 지정된 그리드 라인을 정의할 수 있습니다.
@@ -362,7 +611,18 @@ grid-template: 100px 200px / 1fr 2fr;
 
 이 예제에서:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 그리드 컨테이너에는 각각 높이가 100px와 200px인 두 개의 행이 있습니다.
 - 또한 첫 번째 열은 사용 가능한 공간의 한 부분(1fr)을 차지하고 두 번째 열은 두 부분(2fr)을 차지합니다.
@@ -379,7 +639,18 @@ grid-template:
 
 이 예시에서:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 각 행은 이름(예: row1-start, row1-end)과 그리드 템플릿 영역 문자열로 정의됩니다.
 - 각 열도 비슷하게 이름(예: col1-start, col2-start)으로 정의됩니다.
@@ -391,7 +662,18 @@ grid-template 속성을 사용하여 그리드 레이아웃의 행과 열 트랙
 
 column-gap 또는 row-gap의 구문
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /* 키워드 값 */
@@ -450,7 +732,18 @@ gap: 초기화;
 
 6. justify-items / align-items: 이 속성들은 그리드 항목이 그리드의 인라인(행) 및 블록(열) 축을 따라 정렬되는 방식을 결정합니다. 이러한 속성들은 컨테이너 내의 모든 그리드 항목에 적용됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `justify-items` 및 `align-items`에 대한 구문:
 
@@ -465,7 +758,18 @@ justify-items: start | end | center | stretch;
 
 코드 예시:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리드 선을 확인하려면 요소를 검사하십시오:
 
@@ -475,7 +779,18 @@ justify-items: start | end | center | stretch;
 
 justify-content 또는 align-content의 구문:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 justify-content: start | end | center | stretch | space-around | space-between | space-evenly;
@@ -493,7 +808,18 @@ justify-content: start | end | center | stretch | space-around | space-between |
 
 8. grid-auto-rows / grid-auto-columns: 그리드 항목이 명시적 위치 지정 없이 그리드에 배치되었을 때 암묵적으로 생성되는 행과 열의 크기를 정의합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리드 자동 행 또는 자동 열의 구문:
 
@@ -510,7 +836,18 @@ grid-auto-rows: <track-size> | min-content | max-content | auto | minmax(min, ma
 
 예제 스니펫:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /* 자동 생성된 행의 고정 크기 정의 */
@@ -541,7 +878,18 @@ grid-auto-columns: minmax(100px, auto);
 
 grid-auto-flow 값을 조정함으로써 그리드 내에서 명시적 배치가 없는 그리드 항목들의 흐름과 패킹 동작을 제어할 수 있습니다. 이 속성을 통해 그리드 레이아웃이 정의된 그리드 트랙을 넘어서거나 동적으로 추가된 항목을 처리하는 방법에 유연성을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 자주 사용되는 자식 요소 속성:
 
@@ -551,7 +899,18 @@ CSS 그리드 레이아웃 내의 자식 요소 (그리드 항목)에 대해 자
 
 구문:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .item {
@@ -571,7 +930,18 @@ CSS 그리드 레이아웃 내의 자식 요소 (그리드 항목)에 대해 자
 
 2. grid-area: 이 속성은 grid 템플릿에 지정된 그리드 영역 이름을 사용하여 그리드 항목의 크기와 위치를 단일 압축형 선언으로 지정할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문법:
 
@@ -586,7 +956,18 @@ grid-area: <row-start> / <column-start> / <row-end> / <column-end>;
 
 그리드 트랙을 나타내는 선 번호, 이름 또는 몇 개의 그리드 트랙을 건너뛰는지 나타내기 위해 span 키워드를 사용할 수 있습니다. 예시:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .item {
@@ -604,7 +985,18 @@ grid-area: <row-start> / <column-start> / <row-end> / <column-end>;
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .item {
@@ -625,7 +1017,18 @@ grid-area: <row-start> / <column-start> / <row-end> / <column-end>;
 - center: 그리드 항목을 그리드 셀 내에서 수평으로 가운데 정렬합니다.
 - stretch: 그리드 항목을 그리드 셀의 전체 너비로 늘립니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시:
 
@@ -638,7 +1041,18 @@ align-self: end; /_ 항목을 수직으로 끝 부분에 정렬합니다 _/
 
 다른 값들인 center나 stretch와 같이 레이아웃 요구에 따라 다른 값들을 사용할 수도 있습니다. 이러한 속성들은 그리드 컨테이너 내에서 그리드 항목의 정렬에 대해 세밀한 제어를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코드 샌드박스:
 
@@ -652,7 +1066,18 @@ align-self: end; /_ 항목을 수직으로 끝 부분에 정렬합니다 _/
 
 이 예시에서는 .item 그리드 항목이 2의 값을 가진 order가 할당되어 있습니다. 이는 HTML 소스 코드에서의 위치와 상관없이 그리드 레이아웃에서 두 번째 항목으로 시각적으로 표시됨을 의미합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `order` 속성을 사용하면 페이지의 요소를 배열하는 데 더 많은 유연성을 제공하여 HTML 소스 순서를 변경하지 않고 그리드 항목에 사용자 정의 시각적 레이아웃을 만들 수 있습니다. 원하는 레이아웃을 달성하기 위해 필요에 따라 `order` 값을 조정하세요.
 
@@ -662,6 +1087,17 @@ CSS Grid는 웹 레이아웃에 대한 탁월한 유연성과 제어를 제공�
 
 그러니 무슨 말이 필요할까요? CSS Grid에 몸담아 웹 개발 기술을 높여보세요! 연습과 실험을 통해 곧 그리드 기반 레이아웃의 기술을 숙달하고 웹에서 창의력을 발휘할 수 있게 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS 그리드를 더 잘 이해하기 위해 이 자료들을 찾아보세요!

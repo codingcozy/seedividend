@@ -3,17 +3,13 @@ title: "Go에서 Swagger 사용 아직 안 해봤다면 놓치고 있는 천재�
 description: ""
 coverImage: "/assets/img/2024-07-13-SwaggerinGoWhyItstheGeniusMoveYouHaventMadeYet_0.png"
 date: 2024-07-13 20:59
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-SwaggerinGoWhyItstheGeniusMoveYouHaventMadeYet_0.png
 tag: Tech
 originalTitle: "Swagger in Go: Why It’s the Genius Move You Haven’t Made Yet"
 link: "https://medium.com/gitconnected/swagger-in-go-why-its-the-genius-move-you-haven-t-made-yet-0326f6e2881f"
 isUpdated: true
 ---
-
-
-
-
 
 ![Swagger in Go](/assets/img/2024-07-13-SwaggerinGoWhyItstheGeniusMoveYouHaventMadeYet_0.png)
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 "Swagger는 서버를 이해하고 사용할 수 있도록 도와주는 도구로, 사용자를 위해 명확한 문서를 생성합니다. API를 사용할 수 있는 모든 방법을 보여주어 개발자가 소프트웨어를 구축하고 연결하기 쉽게 만들어 줍니다."
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 1. 부트스트래핑
 
@@ -34,7 +40,18 @@ isUpdated: true
 
 ## 단계 1: Swag 도구 설치하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 첫 번째 단계는 Swagger 문서를 생성하는 데 필수적인 Swag 도구를 설치하는 것입니다.
 터미널에서 다음 명령을 실행하세요:
@@ -45,7 +62,18 @@ go install github.com/swaggo/swag/cmd/swag@latest
 
 ## 단계 2: 미들웨어 통합
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 Swagger 미들웨어를 통합하는 데 집중해 보겠습니다. Echo를 사용하는 경우, echo-swagger 미들웨어가 필요합니다. 설치하는 방법은 다음과 같습니다:
 
@@ -68,7 +96,18 @@ func main() {
 
 Gin 프레임워크를 사용하는 경우, 접근 방식은 매우 유사하지만 gin-swagger 미들웨어를 대신 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 $ go get -u github.com/swaggo/gin-swagger
@@ -92,7 +131,18 @@ func main() {
 
 이제 main.go에 주석을 추가하여 Swagger 문서 작성을 용이하게합니다. 이러한 주석은 main() 함수 위에 배치하는 것이 가장 효율적입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // Swagger
@@ -115,16 +165,25 @@ func main() {
 //  @description                 JWT security accessToken. Please add it in the format "Bearer {AccessToken}" to authorize your requests.
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-// @title   Pet Management API
-// @version  1.0
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+// @title Pet Management API
+// @version 1.0
 // @description A comprehensive API for managing pets. It provides endpoints for creating, updating, deleting, and retrieving pet information.
 // @termsOfService http://petmanagement.com/terms
 // @contact.name API Support Team
 // @contact.url http://petmanagement.com/support
-
 
 주석들은 gofmt에 의해 재 서식화될 수 있으며, 이는 따라가기 어려운 레이아웃을 초래할 수 있습니다.
 
@@ -132,8 +191,18 @@ func main() {
 
 자, Swagger 문서를 생성해봅시다:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 $ swag init
@@ -146,20 +215,41 @@ $ swag fmt # 주석 서식 맞춰주기
 
 그런 다음, main.go 파일에 docs.go 파일을 포함하여 적절한 초기화를 수행하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import _ "yourproject/docs"
 ```
 
-참고: Go 언어에서 _ 를 사용하여 패키지를 가져 오면 단지 해당 패키지의 초기화 부작용을 위해 가져온 것을 의미합니다.
+참고: Go 언어에서 \_ 를 사용하여 패키지를 가져 오면 단지 해당 패키지의 초기화 부작용을 위해 가져온 것을 의미합니다.
 
 서버를 실행하고 Swagger 문서는 http://localhost:1323/swagger/index.html (또는 사용자 정의 호스트/포트)에서 액세스 할 수 있어야합니다.
 
 <img src="/assets/img/2024-07-13-SwaggerinGoWhyItstheGeniusMoveYouHaventMadeYet_1.png" />
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비록 이것이 간단한 안내서에 대해 이해할 게 많아 보일 수 있지만, Swagger가 제공하는 다양한 옵션을 인식하는 것이 중요합니다. Swagger에 처음 접하는 사람들을 위해 각 어노테이션에 대한 간단한 설명을 제공합니다:
 
@@ -177,7 +267,18 @@ import _ "yourproject/docs"
 
 API 명세를 작성하는 것은 이미 다룬 기본 API 어노테이션에 더해 점진적인 과정입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단한 예시를 살펴보겠습니다: 데이터베이스에서 모든 애완동물을 가져오는 API입니다.
 
@@ -216,7 +317,18 @@ func main() {
 
 <img src="/assets/img/2024-07-13-SwaggerinGoWhyItstheGeniusMoveYouHaventMadeYet_2.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각 주석을 해독해보겠어요:
 
@@ -234,7 +346,18 @@ Swagger는 이러한 주석을 해석할 뿐만 아니라 Pet 구조체를 사�
 
 ![이미지](/assets/img/2024-07-13-SwaggerinGoWhyItstheGeniusMoveYouHaventMadeYet_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 3. 다양한 환경에 맞게 Swagger 사용자 정의하기
 
@@ -244,7 +367,18 @@ Swagger 주석은 일반적으로 정적이며 사전에 컴파일됩니다.
 
 $ swag init으로 생성된 docs.go 파일에서 SwaggerInfo 구조체를 찾을 수 있으며, 이는 이러한 런타임 조정에 중요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // SwaggerInfo은 Swag CLI로 생성된 구성을 보유합니다.
@@ -272,17 +406,23 @@ if isLocal {
 }
 ```
 
-이러한 런타임 조정을 넘어서 Swagger UI는 API 문서의 기능성을 향상시키기 위한 다양한 구성 옵션을 제공합니다.  
+이러한 런타임 조정을 넘어서 Swagger UI는 API 문서의 기능성을 향상시키기 위한 다양한 구성 옵션을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-e.GET(
- "/swagger/*",
- echoswagger.EchoWrapHandler(
-  echoswagger.PersistAuthorization(true),
- ),
-)
+e.GET("/swagger/*", echoswagger.EchoWrapHandler(echoswagger.PersistAuthorization(true)));
 ```
 
 여기 몇 가지 주목할만한 옵션이 있어요:
@@ -297,8 +437,18 @@ e.GET(
 
 # 4. Model
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Swagger UI는 자동으로 모델, 예제 및 세부 필드 정보를 만들어내며 유효성 검사를 포함합니다. Swagger 특정 어노테이션과 태그를 사용하여 모델을 다듬는 데 팩트를 들어봅시다.
 
@@ -321,7 +471,18 @@ type Pet struct {
 } //  @name   RenamePet
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이번에는 몇 가지 개선 사항을 도입했습니다:
 
@@ -333,7 +494,18 @@ type Pet struct {
 
 <img src="/assets/img/2024-07-13-SwaggerinGoWhyItstheGeniusMoveYouHaventMadeYet_4.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## b. 구조체 태그
 
@@ -351,7 +523,18 @@ type Pet struct {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예제 태그의 효과는 즉시 API 섹션에서 눈에 띕니다. 게다가, 이 구조체가 요청의 일부라면 필드 유효성 검사가 활성화되어 Swagger UI 내에서 강제 적용됩니다.
 
@@ -365,14 +548,25 @@ type Pet struct {
 - maximum, minimum (숫자): 숫자 필드의 상한값과 하한값을 설정합니다.
 - maxLength, minLength (정수): 문자열 필드의 최대 및 최소 길이를 지정합니다.
 - multipleOf (숫자): 숫자 값을 특정 숫자의 배수로 요구합니다.
-- enums (*): 필드 또는 배열 요소에 대한 모든 가능한 값을 나열합니다.
+- enums (\*): 필드 또는 배열 요소에 대한 모든 가능한 값을 나열합니다.
 - format (문자열): "date-time"과 같이 필드의 형식을 정의합니다.
 - collectionFormat (배열): 배열의 형식을 설명하며, csv(쉼표로 구분), ssv(공백으로 구분), tsv(탭으로 구분), pipes(파이프(|)로 구분), multi(단일 매개변수 내에 여러 값), 또는 default(표준 배열 형식) 옵션이 사용됩니다.
 - swaggerignore (부울): true인 경우 Swagger 문서에서 해당 필드를 제외합니다.
 - swaggertype (문자열): 필드가 Swagger 문서에 나타나는 방식을 지정합니다. 예를 들어, time.Time 필드는 swaggertype:"string"을 사용하여 문자열로 나타낼 수 있습니다. 이는 custom UnmarshalJSON 및 MarshalJSON을 가진 유형에도 유용합니다.
 - extensions: 표준 OpenAPI 명세에서 다루지 않는 추가 정보나 동작을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코드에서 미리 정의된 열거형에 대해 Swaggo는 enums 태그를 사용하여 가능한 값을 수동으로 나열할 필요가 없습니다. Swaggo가 이 값을 자동으로 감지하고 생성합니다.
 
@@ -395,6 +589,17 @@ Swaggo는 또한 첫 번째로 감지된 열거형 값을 예제로 선택하고
 
 ![스웨거 이미지](/assets/img/2024-07-13-SwaggerinGoWhyItstheGeniusMoveYouHaventMadeYet_6.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 Swaggo의 주요 측면과 기본 사항들을 다루었어요. 더 자세한 사용자 정의 및 고급 기능을 원하신다면, 여기서 제안하는 공식 설명서를 살펴보시기를 권해드립니다.

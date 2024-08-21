@@ -3,17 +3,13 @@ title: "웹 서비스 API 권한 부여 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Best-Practices for API Authorization"
 link: "https://blog.bitsrc.io/best-practices-for-api-security-6d8242587caf"
 isUpdated: true
 ---
-
-
-
-
 
 ## API 권한 부여를 위한 4가지 모범 사례
 
@@ -23,7 +19,18 @@ API(Application Programming Interfaces)는 서로 다른 소프트웨어 프로�
 
 그래서 여기서 API 권한 부여가 필요한 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 API 권한 부여는 문을 열고 내부 자원을 활용할 수 있는 올바른 소프트웨어만이 그 문을 열 수 있도록 보증하는 '경비원' 역할을 합니다. 효과적인 API 권한 부여는 보안 이상의 역할을 합니다. 사용자 경험을 원활하게 유지하고 안전하게 보호합니다. 권한이 있는 응용프로그램만 개인 정보에 액세스하고 이러한 응용프로그램은 허용된 범위 내에서만 작업을 수행할 수 있도록 보장합니다.
 
@@ -33,7 +40,18 @@ API 권한 부여는 문을 열고 내부 자원을 활용할 수 있는 올바�
 
 API 권한 부여의 최선의 실천 방안을 논의하기 전에, '인증'과 '인가'라는 종종 혼동되는 두 개념 사이의 차이를 이해해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 인증(Authentication)은 신원을 확인하는 것을 의미해요. 사용자의 신원을 아이디, 비밀번호 또는 생체 인식을 통해 확인하는 것과 같아요.
 - 인가(Authorization)는 신원이 확인된 후에 자원 또는 기능에 대한 접근을 허용하는 것을 의미해요. 예를 들어, 인증이 건물의 앞문을 통과하는 것이라면, 인가는 그 사람이 건물 안에서 어떤 방과 서비스에 접근할 수 있는지를 결정하는 거예요.
@@ -44,7 +62,18 @@ API 권한 부여의 최선의 실천 방안을 논의하기 전에, '인증'과
 
 ## 1. 토큰 기반 인가(Token-Based Authorization) 사용 (JWT, OAuth 토큰)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/Best-Practices-for-API-Authorization_1.png)
 
@@ -57,7 +86,18 @@ API 권한 부여의 최선의 실천 방안을 논의하기 전에, '인증'과
 
 ## JWT를 사용한 토큰 기반 인가 구현 방법
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 JWT는 사용자가 성공적으로 인증된 후에 일반적으로 생성됩니다. 이들은 사용자 정보와 필요에 따라 권한을 포함하는 페이로드를 포함합니다. JWT 인가를 구현하려면 Node.js에서는 jsonwebtoken 또는 Python에서 PyJWT와 같은 라이브러리를 사용할 수 있습니다.
 
@@ -79,7 +119,18 @@ token = jwt.encode(payload, secret_key, algorithm='HS256')
 
 그런 다음, 각 요청을 유효화하여 사용자가 요청을 수행할 수 있는지를 결정해야 합니다. 토큰은 일반적으로 각 요청의 Authorization 헤더에 전송됩니다. 서버는 비밀 키를 사용하여 JWT를 디코드하고 유효성을 확인할 수 있습니다. 유효하면 서버가 요청을 처리하고, 그렇지 않으면 오류를 반환합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 from flask import Flask, request, jsonify
@@ -117,7 +168,18 @@ def protected():
 
 세밀한 접근 제어는 응용 프로그램 권한과 액세스 권한에 대한 자세한 제어를 제공하는 보안 관리 접근 방식입니다. 해당 사용자나 서비스가 필요한 권한만 갖도록하여 최소한의 권한 원칙을 준수합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 세밀한 접근 제어 구현 방법:
 
@@ -129,7 +191,18 @@ def protected():
 
 예를 들어, 관리자와 사용자 간에 액세스가 다른 API가 있다면, 애플리케이션 전반에 재사용할 수 있는 독립적 구성 요소를 사용하여 액세스 제어 메커니즘을 구현할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, Bit와 같은 도구를 활용하여 API 요청을 인가하는 역할을 맡을 독립적인 authorizer 컴포넌트를 만들 수 있어요.
 
@@ -141,7 +214,18 @@ def protected():
 bit create node util/authorizer
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 제대로 진행한다면 아래 결과를 확인할 수 있을 것입니다:
 
@@ -159,7 +243,18 @@ export function authorizer(userId: string) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로, 다음 명령을 사용하여 Express 앱을 만듭니다:
 
@@ -171,7 +266,18 @@ bit create express-app api
 
 ![Best-Practices-for-API-Authorization_4](/assets/img/Best-Practices-for-API-Authorization_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 다음으로, 앱에 권한 부여자를 연결하기 위해 mock-route.ts를 업데이트해 봅시다. 최초에는 다음과 같은 코드가 나타날 것입니다:
 
@@ -181,7 +287,18 @@ bit create express-app api
 
 ![이미지](/assets/img/Best-Practices-for-API-Authorization_6.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이렇게 하면 실제 비즈니스 로직을 호출하기 전에 권한 부여 구성요소가 실행됩니다. API를 실행한 후 다음 출력을 확인해야 합니다:
 
@@ -191,7 +308,18 @@ bit create express-app api
 
 그리고 권한 부여 로직을 계속 업데이트하고 앱을 업데이트하는 동안, Bit의 CI 서버인 리플 CI가 자동으로 변경 사항을 트리 전체에 업데이트합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 3. 안전한 API 게이트웨이 구성
 
@@ -203,7 +331,18 @@ API 게이트웨이는 모든 API 요청의 출입구 역할을 하며 보안 �
 
 ## 안전한 API 게이트웨이 구성 방법:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신의 애플리케이션에 대한 여러 API 게이트웨이 제공업체가 있습니다. 예를 들어 Amazon API Gateway, Kong, 그리고 Google의 Apigee는 가장 인기 있는 API 게이트웨이 플랫폼 중 일부입니다.
 
@@ -213,7 +352,18 @@ AWS를 사용하려고 하는 경우, AWS 문서에 안내된 단계를 따라 A
 
 ![이미지가 표시되지 않습니다.](/assets/img/Best-Practices-for-API-Authorization_8.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - SSL/TLS 활성화하기 - API 게이트웨이의 사용자 정의 도메인 이름이 AWS Certificate Manager에 등록된 SSL/TLS 인증서와 연결되어 있는지 확인하세요.
 - IP 제한 구현하기 - AWS Lambda 인가자를 사용하여 수신 요청의 IP 주소를 확인하세요. 함수를 배포한 후에는 API 게이트웨이의 권한 탭에서 새로운 인가자를 생성하여 함수를 선택할 수 있습니다. 다음은 IP를 제한하는 Python 샘플 Lambda 함수입니다:
@@ -246,7 +396,18 @@ def lambda_handler(event, context):
 
 ## 4. 이동하는 중요 데이터와 안정상태에서 보호하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터를 트랜짓(전송 중) 및 데이터가 안정 상태에서 암호화 하는 것은 무단 접근과 침입으로부터 데이터를 보호하기 위한 기본적인 보안 관행입니다. 트랜짓에서의 암호화는 클라이언트와 서버 간 데이터 이동 시, 데이터를 안전하게 지킵니다. 반면 안정 상태에서의 암호화는 디스크나 데이터베이스에 저장된 데이터를 지킵니다.
 
@@ -257,7 +418,18 @@ def lambda_handler(event, context):
 - Nginx 구성 파일 수정(일반적으로 /etc/nginx/nginx.conf 또는 /etc/nginx/sites-available/your_site에 위치).
 - 서버 블록에 SSL 설정 추가:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 server {
@@ -281,7 +453,18 @@ server {
 
 데이터 암호화를 데이터베이스 수준, 응용프로그램 수준 또는 클라우드 기반 도구를 사용하여 구현할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 데이터베이스 수준 암호화: 많은 최신 데이터베이스들이 내장 암호화 기능을 제공합니다. 예를 들어:
 - SQL Server: Transparent Data Encryption.
@@ -306,7 +489,18 @@ decrypted_data = cipher_suite.decrypt(encrypted_data)
 
 견고한 API 권한 부여는 디지털 자산을 안전하게 보호하고 사용자 신뢰를 유지하는 데 중요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 논의된 최적의 방법을 도입함으로써 개발자들은 다양한 사이버 위협에 대한 컴플라이언스와 보호를 보장하면서 응용 프로그램의 API 보안을 크게 향상시킬 수 있습니다.
 

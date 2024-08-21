@@ -3,16 +3,13 @@ title: "FastAPI 완벽 가이드 확장 가능한 애플리케이션 구축하�
 description: ""
 coverImage: "/assets/img/2024-07-07-FastAPIUnleashedBuildingScalableApplications_0.png"
 date: 2024-07-07 20:10
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-FastAPIUnleashedBuildingScalableApplications_0.png
 tag: Tech
 originalTitle: "FastAPI Unleashed: Building Scalable Applications"
 link: "https://medium.com/@nvrank1/fastapi-unleashed-building-scalable-applications-e44d275bf814"
 isUpdated: true
 ---
-
-
-
 
 안녕하세요 여러분! 이번 프로젝트는 리워드 공유 플랫폼을 위해 웹 애플리케이션을 디자인하고 개발하는 프로젝트였어요. 30일 안에 컨셉부터 제작까지 전체 애플리케이션을 완성해야 하는 요구사항이 있었죠. 이제 이 목표를 어떻게 달성했는지, 왜 해당 결정을 내렸는지, 그리고 중간에 겪은 어려움 등을 살펴볼게요. 함께해요!
 
@@ -25,15 +22,27 @@ isUpdated: true
 다른 파이썬 프레임워크의 도전 과제:
 파이썬을 사용하는 경우 주요 도전 과제는 실행 속도가 느리다는 것, 동적 타입(런타임 오류의 원인), 기본적으로 싱글 스레드이며 내장 비동기 지원이 없다는 점 등이 있어요. 제 경험상 Flask와 같은 파이썬 기반 프레임워크로 애플리케이션 개발을 진행한 경험에서, 사용자 입력에 대한 타입 확인 및 데이터 유효성 검사의 필요성을 실감했고, 이것이 FastAPI의 강점이라는 것을 깨달았습니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 FastAPI를 선택한 이유:
 앞서 언급한 도전 과제들을 대부분 해결해주는 FastAPI
+
 1. 데이터 유효성 검사와 타입 힌트를 제공하기 위해 Pydantic을 기본으로 제공합니다.
 2. Async/Await를 내장하고 있습니다.
 3. 빠릅니다!!
 4. "Uvicorn" 웹 서버를 통해 필요한 경우 여러 스레드를 사용할 수 있습니다.
-이를 통해 성능 면에서 Django와 같은 프레임워크와 유사한 성능을 제공하며 때로는 일부 벤치마킹에서 이길 정도의 성능을 제공합니다.
+   이를 통해 성능 면에서 Django와 같은 프레임워크와 유사한 성능을 제공하며 때로는 일부 벤치마킹에서 이길 정도의 성능을 제공합니다.
 
 # 요구사항과 작업 흐름
 
@@ -41,7 +50,18 @@ FastAPI를 선택한 이유:
 
 도전 과제: 우리 서버로의 각 사용자 요청이 3자 API로부터 1~4개의 네트워크 요청을 일으켰습니다. 이는 서버 스레드가 응답이 도착할 때까지 블로킹되면 CPU 시간이 낭비될 수 있다는 중요한 도전 과제를 야기했습니다. 단순히 스레드를 추가하여 서버 확장하는 것은 이 상황에 제한되고 최적이 아니었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 동기 처리의 함의
 
@@ -54,7 +74,18 @@ FastAPI를 선택한 이유:
 
 ![이미지](/assets/img/2024-07-07-FastAPIUnleashedBuildingScalableApplications_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 첫화면과 현실
 
@@ -63,7 +94,18 @@ FastAPI를 선택한 이유:
 
 분석:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 총 소요 시간 분석: 지연은 주로 제3자 서비스의 응답을 기다리는 데 기인했습니다.
 - 동기적 영향: 요청을 동기적으로 처리하는 것은 주로 장기간 및 비효율성을 초래할 수 있었습니다, 특히 부하가 많은 경우에는 더 그렇습니다.
@@ -75,7 +117,18 @@ FastAPI를 선택한 이유:
 
 빠른 개발을 위해 Python과 FastAPI를 선택한 것은 우리의 전체 개발 시간을 단축하는 데 중요한 역할을 했습니다. FastAPI의 비동기 지원은 백엔드 작업을 최적화하는 데 그치지 않고, 자원 활용을 최적화하여 서버 스레딩에 의존하지 않고도 높은 요청 양을 효율적으로 처리할 수 있었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 영향
 
@@ -89,7 +142,18 @@ t = 요청 처리에 필요한 총 시간
 
 ![FastAPIUnleashedBuildingScalableApplications_2](/assets/img/2024-07-07-FastAPIUnleashedBuildingScalableApplications_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 시스템 디자인
 
@@ -99,7 +163,18 @@ t = 요청 처리에 필요한 총 시간
 
 데이터베이스:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - MongoDB: 유연성과 확장성을 위해 MongoDB를 선택했습니다. MongoDB는 동적 데이터 요구를 수용하며, 민첩한 애플리케이션 요구를 지원합니다.
 
@@ -109,7 +184,18 @@ t = 요청 처리에 필요한 총 시간
 
 패키징과 배포:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Docker: 저희 애플리케이션, MongoDB 및 Redis는 Docker를 이용하여 컨테이너화되어 있어 다양한 환경에서 일관된 배포가 가능하며 의존성 관리가 간소화되었습니다.
 
@@ -119,16 +205,39 @@ t = 요청 처리에 필요한 총 시간
 
 모니터링 및 확장성:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 그라파나 + 프로메테우스: 그라파나와 프로메테우스를 통합하여 포괄적인 서버 및 인프라 모니터링을 실시합니다. 성능 최적화 및 용량 계획을 선제적으로 수립할 수 있게 돕습니다.
 
 고려사항:
+
 - 지연 시간 최적화: MongoDB와 Redis를 동시에 사용하여 네트워크 지연 시간을 최소화하여, 제3자 API 상호작용에 대한 응답성을 향상시켰습니다.
 
 미래준비:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 확장성과 유연성: 도커와 AWS로 구축된 우리의 아키텍처는 수평적 확장을 고려하여 현재 요구 사항을 지원하고 미래 성장과 변화하는 비즈니스 요구 사항에 대비하고 있습니다.
 
@@ -139,7 +248,18 @@ Grafana에서 얻은 일부 서버 메트릭스
 
 ![Grafana](/assets/img/2024-07-07-FastAPIUnleashedBuildingScalableApplications_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 서버 부하가 최대로 발생했을 때 RAM 사용량이 90MB에서 100MB로 증가했고 CPU 사용률이 20%였습니다. 대부분의 요청은 100밀리초 미만으로 처리되었고, 3rd party api를 사용하는 요청은 1.2초가 걸렸습니다. (네트워크 지연으로 인해 영향 받음)
 

@@ -3,17 +3,13 @@ title: "React에서 자식 컴포넌트에서 부모 컴포넌트로 데이터 �
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Passing Data from Child to Parent Components in React"
 link: "https://medium.com/@ozhanli/passing-data-from-child-to-parent-components-in-react-e347ea60b1bb"
 isUpdated: true
 ---
-
-
-
-
 
 React에서는 일반적으로 데이터가 부모 컴포넌트에서 자식 컴포넌트로 props를 통해 전달됩니다. 그러나 자식에서 부모로 데이터를 전달하는 것은 조금 더 복잡할 수 있습니다.
 
@@ -64,7 +60,18 @@ function Child({ sendDataToParent }) {
 export default Child;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예제에서 Parent 컴포넌트는 dataFromChild라는 상태 변수와 이를 업데이트하는 handleDataFromChild 함수를 정의합니다. Parent 컴포넌트는 또한 `Child` 컴포넌트를 렌더링하고 sendDataToParent라는 prop으로 handleDataFromChild 함수를 하향 전달합니다.
 
@@ -74,6 +81,17 @@ handleClick 함수가 호출되면 Parent 컴포넌트로부터 하향 전달된
 
 이 방식을 통해 하위 컴포넌트가 부모 컴포넌트와 깔끔하고 효율적으로 통신할 수 있습니다. 부모 컴포넌트에서 콜백 함수를 정의하고 이를 prop으로 하위 컴포넌트로 전달함으로써, 복잡한 상태 관리 기술에 의존하지 않고도 하위 컴포넌트에서 상위 컴포넌트로 데이터를 쉽게 전달할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요약하자면, React에서 자식 컴포넌트에서 상위 컴포넌트로 데이터를 전달하는 것은 상위 컴포넌트에서 콜백 함수를 정의하고 이를 자식 컴포넌트로 prop으로 전달하여 달성할 수 있습니다. 자식 컴포넌트는 이 함수를 호출하여 상위 컴포넌트로 전달하려는 데이터를 전달할 수 있으며, 이를 통해 컴포넌트 간에 효율적이고 간단한 통신이 가능해집니다.

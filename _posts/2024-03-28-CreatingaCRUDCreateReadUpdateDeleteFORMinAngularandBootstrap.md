@@ -3,17 +3,13 @@ title: "앵귤러와 부트스트랩을 사용해 CRUD Create, Read, Update, Del
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Creating a CRUD Create, Read, Update, Delete FORM in Angular and Bootstrap"
 link: "https://medium.com/stackademic/creating-a-crud-create-read-update-delete-form-in-angular-and-bootstrap-55bc4ee9e247"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/CreatingaCRUDCreateReadUpdateDeleteFORMinAngularandBootstrap_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이미 앵귤러 프로젝트를 설정하고 부트스트랩을 포함하지 않은 경우, 환경을 설정하기 위해 이전 답변에서 제안한 초기 단계를 따라주시기 바랍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 2: 컴포넌트 및 서비스 생성
 
@@ -36,7 +43,18 @@ ng generate service item
 
 # 단계 3: 모델 생성 (선택사항)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새로운 항목을 생성하고 읽고 업데이트 및 삭제하는 간단한 모델을 만드세요. src/app 디렉토리에 item.ts라는 새 파일을 만드세요:
 
@@ -51,7 +69,18 @@ export interface Item {
 
 생성된 서비스 파일 (item.service.ts)에서는 이 예제를 위해 항목을 목록에 추가하는 시뮬레이션을 원할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { Injectable } from '@angular/core';
@@ -94,7 +123,18 @@ import { ReactiveFormsModule } from "@angular/forms";
 export class AppModule {}
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼 item-form.component.ts에서 FormGroup을 설정하세요:
 
@@ -134,7 +174,18 @@ export class ItemFormComponent implements OnInit {
 
 이제 item-form.component.html에서 Bootstrap 클래스를 사용하여 폼을 생성하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <div class="container mt-5">
@@ -160,10 +211,32 @@ export class ItemFormComponent implements OnInit {
 ng serve
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 http://localhost:4200/ 으로 이동하면 부트스트랩으로 스타일이 적용된 양식을 볼 수 있습니다.
 
 이 예제는 항목을 추가하기 위해 양식을 생성하고 제출하는 내용을 다룹니다. 전체 CRUD 기능을 구현하려면 서비스를 확장하여 항목을 읽기, 수정 및 삭제할 수 있도록 처리하고 필요에 따라 추가 컴포넌트나 메소드를 생성해야 합니다. 실제 데이터의 영속성(예: 데이터베이스)은 서버 측 통합이 필요하며, 이 예제에서 다루지 않는 부분입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

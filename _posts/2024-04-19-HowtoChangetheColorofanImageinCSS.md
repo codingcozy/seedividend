@@ -3,17 +3,13 @@ title: "CSS에서 이미지의 색상을 변경하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How to Change the Color of an Image in CSS"
 link: "https://medium.com/gitconnected/how-to-change-the-color-of-an-image-in-css-8eaa85251bfe"
 isUpdated: true
 ---
-
-
-
-
 
 - 이미지 색상을 CSS로 변경하는 방법
 - 이 간단한 단계로 CSS에서 이미지 색상 변경하기
@@ -27,7 +23,18 @@ isUpdated: true
 
 CSS 또는 캐스케이딩 스타일 시트는 웹 페이지 스타일을 적용하는 데 사용되는 언어입니다. 텍스트, 이미지 및 다른 요소들의 모양을 변경하는 데 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS로 할 수 있는 한 가지는 이미지의 색상을 변경하는 것입니다. 이것은 color 속성을 사용하여 할 수 있습니다.
 
@@ -37,7 +44,18 @@ color 속성은 텍스트, 배경 및 이미지의 색상을 지정하는 데 �
 
 `css`
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 img {
@@ -51,7 +69,18 @@ color 속성을 사용하여 이미지의 배경 색상을 변경할 수도 있�
 
 background-color 속성은 color 속성과 동일한 방식으로 값을 취합니다. 예를 들어, 다음 코드는 이미지의 배경색을 파란색으로 변경합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CSS
 
@@ -65,7 +94,18 @@ img {
 
 색상 속성을 사용하여 이미지의 테두리 색상을 변경할 수도 있습니다. 이를 위해서는 border-color 속성을 사용해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 border-color 속성은 color 속성과 동일한 방식으로 값을 취합니다. 예를 들어, 다음 코드는 이미지의 테두리 색상을 녹색으로 변경합니다:
 
@@ -79,7 +119,18 @@ img {
 
 # 이미지 투명도의 색상 변경
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 색 속성은 이미지의 투명도를 변경하는 데에도 사용될 수 있어. 이미지의 투명도는 얼마나 투명한지를 측정하는 척도야. 투명도가 1이면 이미지가 완전 불투명하고, 0이면 이미지가 완전 투명한 거야.
 
@@ -93,7 +144,18 @@ img {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 예시
 
@@ -110,7 +172,18 @@ img {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 코드는 이미지의 색상을 빨간색으로 변경하고, 이미지의 배경 색상을 파란색으로, 테두리 색상을 녹색으로 그리고 이미지의 불투명도를 50%로 변경할 것입니다.
 
@@ -120,7 +193,18 @@ img {
 
 이 기사가 도움이 되었으면 좋겠습니다. 궁금한 점이 있으시면 언제든지 물어보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Medium 게시물을 구독해 주셔서 감사합니다! 아래 내용을 확인해보세요:
 
@@ -129,7 +213,18 @@ Medium 게시물을 구독해 주셔서 감사합니다! 아래 내용을 확인
 - 💰 무료 코딩 인터뷰 코스 ⇒ 코스 보기
 - 🧠 AI 도구 ⇒ 지금 보기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 🔔 팔로우하고: 트위터 | 링크드인 | 뉴스레터
 

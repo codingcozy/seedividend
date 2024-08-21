@@ -3,16 +3,13 @@ title: "앱을 컨테이너화하고 Nginx를 프록시로 사용하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-07-HowToContainerizeYourAppAndUseNginxAsAProxy_0.png"
 date: 2024-07-07 23:37
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-HowToContainerizeYourAppAndUseNginxAsAProxy_0.png
 tag: Tech
 originalTitle: "How To Containerize Your App And Use Nginx As A Proxy"
 link: "https://medium.com/devops-dev/how-to-containerize-your-app-and-use-nginx-as-a-proxy-024cffca8cea"
 isUpdated: true
 ---
-
-
-
 
 ![How To Containerize Your App And Use Nginx As A Proxy](/assets/img/2024-07-07-HowToContainerizeYourAppAndUseNginxAsAProxy_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 본 문서에서는 Docker를 사용하여 애플리케이션을 컨테이너화하고 Nginx를 리버스 프록시로 사용하는 방법에 대해 종합적으로 소개하겠습니다. 환경 설정, 앱 컨테이너화, Nginx 구성 및 모든 것이 원활하게 작동되도록 하는 방법까지 모두 다룰 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 컨테이너화 이해하기
 

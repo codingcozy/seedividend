@@ -3,17 +3,13 @@ title: "React 19 추가된 기능 상세 코드 예제로 살펴보기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "React 19 Enhancements Explored with Detailed Code Examples"
 link: "https://medium.com/stackademic/react-19-enhancements-explored-with-detailed-code-examples-254b8f4200f3"
 isUpdated: true
 ---
-
-
-
-
 
 ReactJS는 현대 프런트엔드 개발의 중심에 서 있으며 강력한 UI 기능으로 칭송받고 있어요. React에 대한 제 관심 중요한 이유 중 하나는 그 발전을 이끄는 전문 팀과 뜨거운 커뮤니티가 지지하는 것이죠.
 
@@ -23,7 +19,18 @@ ReactJS는 현대 프런트엔드 개발의 중심에 서 있으며 강력한 UI
 
 ## React v19 탐험: 포괄적인 개요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1- 소개:
 
@@ -44,7 +51,18 @@ ReactJS는 현대 프런트엔드 개발의 중심에 서 있으며 강력한 UI
 - useFormState() Hook
 - useOptimistic() Hook
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요약:
 
@@ -54,7 +72,18 @@ ReactJS는 현대 프런트엔드 개발의 중심에 서 있으며 강력한 UI
 
 🔥 서버 컴포넌트: 수 년간의 세심한 개발 노력 끝에 React는 서버 컴포넌트의 혁신적인 개념을 소개합니다. 이제 Next.js와 원활하게 통합된 이 기능은 서버 측 렌더링 능력을 뛰어나게 강화시켜주며, 웹 애플리케이션 개발에서 새로운 가능성을 열어줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 💪 동작: DOM 상호 작용에서 패러다임 전환이 대표되는 동작은 DOM 요소와의 상호 작용 방식을 혁신할 것으로 예상됩니다. 이 혁신적인 기능은 사용자 경험을 개선하고 간소화할 것으로 약속되어, 동적 웹 애플리케이션 개발에 새로운 길을 열어줄 것입니다.
 
@@ -64,7 +93,18 @@ ReactJS는 현대 프런트엔드 개발의 중심에 서 있으며 강력한 UI
 
 ⚙️ 웹 구성 요소: React 코드가 웹 구성요소와 원활하게 통합되어 놀라운 가능성의 세계를 열며, 전례없는 다재다능성과 상호운용성을 약속하는 흥미로운 발전이 등장하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 🪝 향상된 훅: 첨단 훅이 우리의 코딩 여정을 재정의할 것으로 예상됩니다. 벌써 흥분이 가득한 새로운 훅은 우리의 개발 경험을 한 단계 높여주며 혁신과 효율성을 높이는 것을 약속합니다.
 
@@ -74,7 +114,18 @@ React 19은 React 내의 지속적인 과도한 다시 렌더링 문제를 해�
 
 과거에는 useMemo(), useCallback(), memo 등과 같은 기술을 활용하여 다시 렌더링 문제를 완화했습니다. 그러나 React 19의 등장으로 이러한 수동 개입 방법들이 쓸모 없어질 것으로 예상됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프레임워크의 고급 기능은 코드를 자동으로 식별하고 메모이제이션하여 수동 최적화가 필요 없게 합니다. 이 간소화된 방식은 개발을 단순화할 뿐만 아니라 더 깨끗하고 효율적인 코드를 유도하여 React 진화의 중요한 발전을 나타냅니다.
 
@@ -84,7 +135,18 @@ React 19은 React 내의 지속적인 과도한 다시 렌더링 문제를 해�
 
 수동 최적화의 번거로움을 인식하고 커뮤니티 피드백을 경청한 React 팀은 이 문제에 대처하기 위한 미션을 시작했습니다. 자동으로 다시 렌더링을 관리하기 위한 혁신적인 해결책인 "React 컴파일러"를 소개합니다. React는 이제 상태를 언제 어떻게 변경하고 UI를 동적으로 새로 고칠지 결정하는 책임을 맡게 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 엄청난 변화는 useMemo(), useCallback(), memo와 같은 기술의 수동 개입 필요성을 없애주었습니다. React 컴파일러가 개발자를 이끄는 동안, 개발자들은 로직과 UI 구성 요소를 만드는 데 집중할 수 있으며, React가 다시 렌더링을 효과적이고 원활하게 처리할 것이라고 확신할 수 있습니다.
 
@@ -95,7 +157,18 @@ React 19은 React 내의 지속적인 과도한 다시 렌더링 문제를 해�
 
 결과적으로 React는 최적화할 구성 요소와 언제, 그리고 무엇을 다시 렌더링할지 결정합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React를 좋아하는 점 중 하나는 React 팀이 새로운 주요 변경 사항을 외부에 도입하기 전에 먼저 그들의 제품에 이러한 새로운 기능을 사용한다는 것입니다 😍. 현재 React 컴파일러는 Instagram을 서비스 중인 동안 사용되고 있어요.
 
@@ -105,7 +178,18 @@ React를 좋아하는 점 중 하나는 React 팀이 새로운 주요 변경 사
 
 기존에는 React 컴포넌트가 주로 클라이언트 측에서 작동했습니다. 그러나 React는 혁신적인 개념을 소개하고 있어요: 서버 측 컴포넌트 실행.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 서버 구성 요소라는 개념은 수년 동안 유행을 타고 있었는데, Next.js가 실제 구현에서 선두를 담당하고 있습니다. Next.js 13가 출시되면서 모든 구성 요소는 기본적으로 서버 측 실행으로 설정됩니다. 구성 요소에 대해 클라이언트 측 실행을 트리거하려면 "use client" 지시어를 사용해야 합니다.
 
@@ -117,7 +201,18 @@ React 19에서 서버 구성 요소를 직접 프레임워크에 통합하는 �
 
 이러한 이점들은 현대 웹 개발에서 서버 구성 요소의 혁신적 잠재력을 강조합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기본적으로 React의 모든 구성 요소는 클라이언트 측에서 작동합니다. 그러나 구성 요소 코드의 초기 라인으로 'use server'를 도입하면 그것을 "서버 구성 요소"로 변환할 수 있습니다. 이를 통해 해당 구성 요소의 실행이 서버 측으로 전용되어 클라이언트 측 처리를 완전히 우회합니다.
 
@@ -139,7 +234,18 @@ function ServerComponent() {
 
 이 간단한 추가로 React 19는 개발자들이 서버 구성 요소의 잠재력을 활용하고, 효율적인 서버 측 렌더링을 실현하며 성능을 최적화할 수 있게 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 서버 구성 요소를 어떻게 사용할 수 있을까요?
 
@@ -160,7 +266,18 @@ export default async function requestUsername(formData) {
 
 Actions 섹션에서는 서버 구성 요소를 사용하는 방법에 대해 더 자세히 배우게 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현재 Next.js는 서버 측 컴포넌트를 지원합니다. Next에서 서버 컴포넌트에 대해 더 많은 정보를 확인할 수 있어요. React 19에서는 서버 컴포넌트 지원이 React에서 바로 사용 가능할 거에요.
 
@@ -170,7 +287,18 @@ Actions 섹션에서는 서버 구성 요소를 사용하는 방법에 대해 �
 
 액션들로 개발자들은 HTML `form/` 태그와 바로 통합할 수 있는 능력을 얻게 됩니다. 이는 전통적인 onSubmit 이벤트를 액션으로 대체하여 HTML 폼 속성으로 작동한다는 것을 의미합니다. 이 간소화된 방식은 폼 처리를 크게 단순화시키고 개발 경험을 더 직관적이고 효율적으로 제공할 것으로 약속돼요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 작업 전 조치:
 
@@ -185,7 +313,18 @@ Actions 섹션에서는 서버 구성 요소를 사용하는 방법에 대해 �
 
 # 작업 후 조치:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 서버 컴포넌트의 등장으로 액션은 이제 서버 측에서 실행할 수 있습니다. JSX에서는 onSubmit 이벤트에 의존하는 대신 `form/` 요소 내부에서 action 속성을 사용할 수 있습니다. 이 속성의 값은 클라이언트 또는 서버 측에서 데이터를 제출하는 데 사용될 메서드가 될 수 있습니다.
 
@@ -205,7 +344,18 @@ const submitData = async (userData) => {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const Form = () => {
@@ -233,7 +383,18 @@ export default Form;
 
 향상된 후크 섹션에서는 양식과 작업하는 방법을 향상시키는 세 가지 새로운 후크를 배울 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 4. ⚙⚙️ 웹 구성 요소 ⚙️⚙
 
@@ -243,13 +404,35 @@ export default Form;
 
 현재 React 내에서 웹 구성 요소를 임베드하는 것에는 도전적인 면이 있습니다. 일반적으로, 개발자는 웹 구성 요소를 React 구성 요소로 변환하거나 추가 패키지를 설치하고 보조 코드를 작성해야 하는 프로세스로 인해 당혹스러울 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 행태 묶음을 변경하여 Markdown 형식으로 문서 메타데이터를 정리해보겠습니다.
 
 ## Document Metadata
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트의 세계에서 싱글 페이지 애플리케이션이 주를 이루는데, SEO 최적화와 접근성을 위한 "제목", "메타 태그", 그리고 "설명"과 같은 중요한 요소를 유지하는 것은 한 가지 도전이 됩니다. 다양한 경로를 횡단하며 이러한 요소들을 관리하는 것은 정밀한 주의를 요구합니다.
 
@@ -264,9 +447,7 @@ const HeadDocument = ({ title }) => {
   useEffect(() => {
     document.title = title;
 
-    const metaDescriptionTag = document.querySelector(
-      'meta[name="description"]'
-    );
+    const metaDescriptionTag = document.querySelector('meta[name="description"]');
     if (metaDescriptionTag) {
       metaDescriptionTag.setAttribute("content", "New description");
     }
@@ -278,7 +459,18 @@ const HeadDocument = ({ title }) => {
 export default HeadDocument;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제공된 코드에서 HeadDocument 컴포넌트는 props에 기반하여 제목과 메타 태그를 동적으로 업데이트하는 역할을 맡습니다. useEffect 훅을 활용하여 이러한 업데이트는 컴포넌트 렌더링 시 발생합니다. 그러나 컴포넌트 내에서 타이틀과 메타 태그를 조작하기 위해 JavaScript를 사용하는 것은 효과적이지만 가장 우아한 해결책은 아닐 수 있습니다.
 
@@ -288,7 +480,18 @@ export default HeadDocument;
 
 React19을 사용하면 React 컴포넌트에서 직접 제목과 메타 태그를 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const HomePage = () => {
@@ -308,7 +511,18 @@ const HomePage = () => {
 
 # 6. 자산 로딩
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트에서 이미지와 기타 자산을 최적화하여 로딩 경험과 성능을 향상시키는 것은 실수 없이 유저 경험을 제공하기 위해 매우 중요합니다.
 
@@ -318,7 +532,18 @@ const HomePage = () => {
 
 그러나 리액트 19에서는 사용자가 현재 페이지를 탐색하는 동안 이미지 및 기타 파일을 백그라운드에서 로딩하여 페이지 로드 시간을 단축하고 대기 시간을 줄이는 유용한 기능이 도입되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또한 React는 스크립트, 스타일시트 및 글꼴을 포함한 자산 로딩을 위한 라이프사이클 Suspense를 도입했습니다. 이 기능을 통해 React는 콘텐츠 준비 여부를 판단하여 스타일이 적용되지 않은 깜박임을 효과적으로 제거하고 더 부드러운 사용자 경험을 보장할 수 있습니다.
 
@@ -328,7 +553,18 @@ preload 및 preinit와 같은 새로운 Resource Loading API가 도입되어 자
 
 # 7. 🪝 새로운 React Hooks 🪝
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트 후크는 확실히 라이브러리의 사랑받는 중심 요소가 되었고, 우아함과 효율성으로 개발자들에게 널리 받아들여졌습니다. React의 내장 후크를 활용하거나 사용자 정의 후크를 작성하든, 후크는 React 생태계 내에서 중요한 프로그래밍 패턴으로 발전해왔습니다.
 
@@ -338,7 +574,18 @@ React 19의 곧 도래하는 출시에 따라 useMemo, forwardRef, useEffect 및
 
 # 🥁 useMemo():
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트 19 이후에는 리액트 컴파일러 자체가 자동으로 메모이제이션을 처리하기 때문에 useMemo() 훅을 사용할 필요가 없게 됩니다.
 
@@ -364,11 +611,7 @@ function ExampleComponent() {
         onChange={(e) => setInputValue(e.target.value)}
         placeholder="뭔가를 입력해 보세요..."
       />
-      <p>
-        {isInputEmpty
-          ? "입력값이 비어 있습니다"
-          : "입력값이 비어 있지 않습니다"}
-      </p>
+      <p>{isInputEmpty ? "입력값이 비어 있습니다" : "입력값이 비어 있지 않습니다"}</p>
     </div>
   );
 }
@@ -378,7 +621,18 @@ export default ExampleComponent;
 
 ## 변경 후:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 예제에서 볼 수 있듯이 React19 이후에는 값을 메모해줄 필요가 없습니다 — React19이 내부에서 자체적으로 처리할 것입니다. 코드가 훨씬 깔끔해졌네요:
 
@@ -413,7 +667,18 @@ export default ExampleComponent;
 
 ref는 이제 forwardRef() 훅을 사용하는 대신에 프롭스로 전달됩니다. 이것으로 코드가 더 간단해집니다. 따라서 React19 이후에는 forwardRef()를 사용할 필요가 없어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 이전:
 
@@ -422,28 +687,46 @@ React 19 이전에 forwardRef()를 사용하는 예시입니다:
 ```js
 import React, { forwardRef } from "react";
 
-const ExampleButton = forwardRef((props, ref) => (
-  <button ref={ref}>{props.children}</button>
-));
+const ExampleButton = forwardRef((props, ref) => <button ref={ref}>{props.children}</button>);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프롭으로 ref를 전달할 수 있습니다. 더 이상 forwardRef()가 필요하지 않습니다.
 
 ```js
 import React from "react";
 
-const ExampleButton = ({ ref, children }) => (
-  <button ref={ref}>{children}</button>
-);
+const ExampleButton = ({ ref, children }) => <button ref={ref}>{children}</button>;
 ```
 
 # 새로운 use() 훅
 
 React19에서는 use()라는 새로운 훅을 소개합니다. 이 훅은 promise, 비동기 코드, 그리고 컨텍스트를 사용하는 방법을 간단하게 만들어 줄 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기가 풀요한 문법입니다:
 
@@ -478,7 +761,18 @@ const UsersItems = () => {
 export default UsersItems;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코드를 이해해 봅시다:
 
@@ -501,11 +795,7 @@ const ThemeProvider = ({ children }) => {
     setTheme((prevTheme) => (prevTheme === "light" ? "dark" : "light"));
   };
 
-  return (
-    <ThemeContext.Provider value={(theme, toggleTheme)}>
-      {children}
-    </ThemeContext.Provider>
-  );
+  return <ThemeContext.Provider value={(theme, toggleTheme)}>{children}</ThemeContext.Provider>;
 };
 
 const Card = () => {
@@ -513,25 +803,10 @@ const Card = () => {
   const { theme, toggleTheme } = use(ThemeContext);
 
   return (
-    <div
-      className={`p-4 rounded-md ${
-        theme === "light" ? "bg-white" : "bg-gray-800"
-      }`}
-    >
-      <h1
-        className={`my-4 text-xl ${
-          theme === "light" ? "text-gray-800" : "text-white"
-        }`}
-      >
-        Theme Card
-      </h1>
-      <p className={theme === "light" ? "text-gray-800" : "text-white"}>
-        Hello!! use() hook
-      </p>
-      <button
-        onClick={toggleTheme}
-        className="bg-blue-500 hover:bg-blue-600 text-white rounded-md mt-4 p-4"
-      >
+    <div className={`p-4 rounded-md ${theme === "light" ? "bg-white" : "bg-gray-800"}`}>
+      <h1 className={`my-4 text-xl ${theme === "light" ? "text-gray-800" : "text-white"}`}>Theme Card</h1>
+      <p className={theme === "light" ? "text-gray-800" : "text-white"}>Hello!! use() hook</p>
+      <button onClick={toggleTheme} className="bg-blue-500 hover:bg-blue-600 text-white rounded-md mt-4 p-4">
         {theme === "light" ? "Switch to Dark Mode" : "Switch to Light Mode"}
       </button>
     </div>
@@ -549,7 +824,18 @@ const Theme = () => {
 export default Theme;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 내용을 한글로 번역해 드리겠습니다:
 
@@ -562,7 +848,18 @@ React19에서는 폼 상태와 데이터를 처리하는 새로운 훅이 있습
 
 # useFormStatus() 훅
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React19에서 제공하는 이 새로운 훅은 만드는 폼에 대해 더 많은 제어를 할 수 있게 도와줄 거예요. 마지막 폼 제출에 대한 상태 정보를 제공해줄 거에요.
 
@@ -574,7 +871,18 @@ const { pending, data, method, action } = useFormStatus();
 
 또는 간단한 버전:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const { status } = useFormStatus();
@@ -589,7 +897,18 @@ const { status } = useFormStatus();
 
 이 훅은 사용자가 제출하고 있는 데이터와 보류 상태를 표시하는 데 사용될 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 코드 예제가 있어요:
 
@@ -598,11 +917,7 @@ import { useFormStatus } from "react-dom";
 
 function Submit() {
   const status = useFormStatus();
-  return (
-    <button disabled={status.pending}>
-      {status.pending ? "제출 중..." : "제출"}
-    </button>
-  );
+  return <button disabled={status.pending}>{status.pending ? "제출 중..." : "제출"}</button>;
 }
 
 const formAction = async () => {
@@ -627,7 +942,18 @@ export default FormStatus;
 - status.pending을 기반으로 UI에 메시지를 표시할 수 있습니다.
 - formAction은 폼 제출을 지연시키기 위한 faker 메서드입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 코드에서, 양식을 제출하면 useFormStatus 후크에서 pending 상태를 받게 됩니다. pending이 true인 동안 UI에 "제출 중..."이라는 텍스트가 표시됩니다. pending이 false가 되면 "제출됨"으로 텍스트가 변경됩니다.
 
@@ -637,7 +963,18 @@ export default FormStatus;
 
 React19의 또 다른 새로운 후크인 useFormState를 사용할 수 있습니다. 이 후크는 양식 제출 결과를 기반으로 state를 업데이트할 수 있게 해줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 문법입니다:
 
@@ -651,7 +988,18 @@ const [state, formAction] = useFormState(fn, initialState, permalink?);
 
 이 훅은 반환합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 상태: 초기 상태는 initialState로 전달한 값이 될 것입니다.
 - formAction: form 액션에 전달될 액션입니다. 이것의 반환값은 상태에서 사용할 수 있습니다.
@@ -692,7 +1040,18 @@ const FormState = () => {
 export default FormState;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 코드에서 무슨 일이 일어나고 있는지 이해해 봅시다:
 
@@ -704,7 +1063,18 @@ export default FormState;
 
 # useOptimistic() 훅
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 useOptimistic은 React 문서에 따르면 비동기 작업이 진행 중일 때 다른 상태를 표시할 수 있게 해주는 React Hook입니다.
 
@@ -713,13 +1083,21 @@ useOptimistic은 React 문서에 따르면 비동기 작업이 진행 중일 때
 다음은 useOptimistic 훅의 구문입니다:
 
 ```js
-const [optimisticMessage, addOptimisticMessage] = useOptimistic(
-  state,
-  updatefn
-);
+const [optimisticMessage, addOptimisticMessage] = useOptimistic(state, updatefn);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, 응답이 오는 동안 사용자에게 즉각적인 응답을 제공하기 위해 "상태"를 표시할 수 있습니다. 실제 응답이 서버로부터 돌아오면 "낙관적" 상태가 그것으로 대체됩니다.
 
@@ -731,19 +1109,14 @@ useOptimistic 훅은 요청이 성공할 것으로 가정하여 즉시 UI를 업
 import { useOptimistic, useState } from "react";
 
 const Optimistic = () => {
-  const [messages, setMessages] = useState([
-    { text: "안녕하세요, 초기 메시지입니다!", sending: false, key: 1 },
+  const [messages, setMessages] = useState([{ text: "안녕하세요, 초기 메시지입니다!", sending: false, key: 1 }]);
+  const [optimisticMessages, addOptimisticMessage] = useOptimistic(messages, (state, newMessage) => [
+    ...state,
+    {
+      text: newMessage,
+      sending: true,
+    },
   ]);
-  const [optimisticMessages, addOptimisticMessage] = useOptimistic(
-    messages,
-    (state, newMessage) => [
-      ...state,
-      {
-        text: newMessage,
-        sending: true,
-      },
-    ]
-  );
 
   async function sendFormData(formData) {
     const sentMessage = await fakeDelayAction(formData.get("message"));
@@ -784,7 +1157,18 @@ const Optimistic = () => {
 export default Optimistic;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - fakeDelayAction은 submit 이벤트를 지연시키기 위한 가짜 메소드입니다. 이는 낙관적인 상태를 보여주기 위한 것입니다.
 - submitData는 액션입니다. 이 메소드는 폼 제출을 담당합니다. 이것 또한 비동기일 수 있습니다.
@@ -792,9 +1176,7 @@ export default Optimistic;
 - 기본 상태를 설정합니다. 메시지는 useOptimistic()에서 입력으로 사용되며, 낙관적 메시지로 반환됩니다.
 
 ```jsx
-const [messages, setMessages] = useState([
-  { text: "안녕, 처음이야!", sending: false, key: 1 },
-]);
+const [messages, setMessages] = useState([{ text: "안녕, 처음이야!", sending: false, key: 1 }]);
 ```
 
 이제 더 자세히 알아보겠습니다:
@@ -802,7 +1184,18 @@ const [messages, setMessages] = useState([
 submitData 내부에서 addOptimisticMessage를 사용합니다. 이는 폼 데이터를 추가하여 낙관적 메시지에서 이용 가능하도록합니다. 이를 사용하여 UI에서 메시지를 표시할 것입니다.
 여기서 우리가 배운 3 가지 폼 훅에 대한 요약은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 {
@@ -821,7 +1214,18 @@ submitData 내부에서 addOptimisticMessage를 사용합니다. 이는 폼 데�
 
 # 지금 React 19를 사용할 수 있나요 ❓
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금까지 소개된 모든 기능은 캐너리 릴리스에서 사용할 수 있습니다. 자세한 정보는 여기에서 확인할 수 있어요. React 팀의 제안에 따라서 현재로서는 이것들을 고객/사용자를 대상으로 한 앱에 사용하지 마세요. 자신이 배우거나 즐기기 위해서 자유롭게 사용해보세요.
 
@@ -834,4 +1238,15 @@ React19의 릴리스 일정이 궁금하다면, 업데이트를 위해 캐너리
 - GitHub
 - 캐너리 릴리스
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

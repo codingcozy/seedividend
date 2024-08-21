@@ -3,17 +3,13 @@ title: "Firebase와 구글 지도를 이용한 플러터 실시간 위치 앱 �
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Flutter real-time location app using firebase and google map"
 link: "https://medium.com/@stephanorazafindramena/flutter-real-time-location-app-using-firebase-and-google-map-35bb391acf8a"
 isUpdated: true
 ---
-
-
-
-
 
 ![Flutter Real-Time Location App Using Firebase and Google Map](/assets/img/Flutter-real-time-location-app-using-firebase-and-google-map_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 본 기사에서는 Firebase 프로젝트를 생성하거나 Google API 키를 얻는 과정에 대해 다루지 않습니다. 이미 해당 단계에 익숙하다고 가정합니다 🤝. 익숙하지 않다면, 이전 기사에서 Firebase에 대해 다룬 적이 있고 Google API 키를 얻는 방법은 여기에서 찾을 수 있습니다. 이제 다음 단계로 이동합시다 🤸‍♂️:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 1. 프로젝트 설정 :
 
@@ -35,7 +42,18 @@ flutter create location_streamer
 
 이제 앱에 필요한 종속성을 통합해봅시다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - google_maps_flutter: 구글 맵 통합을 위해.
 - geolocator: 사용자의 실시간 위치를 얻기 위해.
@@ -55,7 +73,18 @@ dependencies:
 
 ## 1.1 구글 맵 구성하기:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 플러터 프로젝트를 설정하고 필요한 종속 항목을 설치한 후에는 Google Maps를 통합하는 방법에 대한 설명서를 참조하세요. 추가로 AndroidManifest.xml 파일에 다음 권한을 포함하십시오:
 
@@ -82,7 +111,18 @@ dependencies:
 - 프로젝트 내에서 데이터를 저장할 Firestore 인스턴스를 테스트 모드로 생성합니다.
 - google-services.json 파일을 다운로드하여 Flutter 앱 디렉토리, 특히 android/app/ 하위에 배치합니다. 또는 CLI 도구를 사용하여 Firebase 구성을 Flutter 앱과 동기화할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Firestore에서 "users"라는 컬렉션을 만들고 다음 형식으로 데이터를 추가하십시오 :
 
@@ -115,7 +155,18 @@ class User {
 
 위 좌표 주변의 위치 값을 LatLng(-18.9216855, 47.5725194)로 추가하면 동일한 카메라 뷰에서 모든 사용자를 볼 수 있습니다. 이것은 가짜 데이터일 뿐이지만 실제 애플리케이션에서는 코드에서 관리합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1.3 Firestore 구현하기
 
@@ -146,7 +197,18 @@ class FirestoreService {
 
 ## 1.4 지오로케이션 구현하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 사용자의 위치가 변경될 때 데이터베이스로 위치를 전송해 봅시다. 이를 위해 geolocator 플러그인을 활용할 것입니다. 그러나 사용자의 위치에 액세스하기 전에, permission_handler를 사용하여 필요한 권한을 얻는 것이 중요합니다.
 
@@ -176,7 +238,18 @@ class StreamLocationService {
 
 - StreamLocationService 및 FirestoreService를 사용하여 실시간 사용자 추적을 위한 위치 스트림 설정:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 late StreamSubscription<Position>? locationStreamSubscription;
@@ -238,7 +311,18 @@ StreamBuilder<List<User>>(
 
 스트림을 dispose하는 것을 잊지 마세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 md
 클래스(MapScreen) 구현이 완료되었습니다:
@@ -325,4 +409,15 @@ class MapScreenState extends State<MapScreen> {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

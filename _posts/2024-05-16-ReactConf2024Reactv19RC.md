@@ -3,16 +3,13 @@ title: "리액트 컨퍼런스 2024 리액트 v19 RC"
 description: ""
 coverImage: "/assets/img/2024-05-16-ReactConf2024Reactv19RC_0.png"
 date: 2024-05-16 16:34
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-16-ReactConf2024Reactv19RC_0.png
 tag: Tech
 originalTitle: "React Conf 2024. React v19 RC"
 link: "https://medium.com/@vordgi/react-conf-2024-76aabd9da1e1"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-05-16-ReactConf2024Reactv19RC_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 이 업데이트의 주요 방향은 "높은 DX에서 높은 UX를 실현하는 것" 이었다고 할 수 있어요. 최대한 간단한 코드로 최대의 성능을 달성하는 것이죠. 동시에, 업데이트의 일부에서는 서버 컴포넌트에 대해 거의 언급이 없었고, 간접적으로만 언급했어요. 그래서, 컨퍼런스로 넘어가 볼까요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 회의에서는 일반적으로 모든 것이 성장에 대한 설명으로 시작합니다. React 다운로드가 매년 10억 건에 이르렀습니다. 이 도구의 성장은 필연적으로 커뮤니티의 성장과 연결되어 있습니다. 따라서 Stackoverflow 통계도 보여졌는데, 개발자의 40%가 React를 웹 개발에 사용하고 있으며, 36%가 학습 중임을 나타냈습니다.
 
@@ -32,19 +40,40 @@ isUpdated: true
 
 네! 이제 React Router도 이 목록에 추가할 수 있습니다. 첫 번째 회의 보고서는 Ryan Florence로부터 받았습니다. 이제 React Router로 SPA뿐만 아니라 SSR 및 SSG도 수행할 수 있습니다. 이제 Vite와 함께 사용하여 가능한 기능입니다. 데이터 및 서버 컴포넌트 작업을 위한 훅이 제공됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-05-16-ReactConf2024Reactv19RC_2.png" />
 
-하지만 지금은 React.js의 변화로 돌아가 볼까요? 요소들을 조정하고 애플리케이션을 확장하는 문제가 다음에 설명되었습니다. JSX는 UI 개발에서 요소의 조정 문제를 해결했습니다. 그리고 load되는 요소들의 조정 문제를 해결하기 위해 Suspense가 추가되었습니다 (로딩 중에 무엇을 해야 하고 사용자에게 이 시간에 무엇을 보여줄지에 대한 문제). 
+하지만 지금은 React.js의 변화로 돌아가 볼까요? 요소들을 조정하고 애플리케이션을 확장하는 문제가 다음에 설명되었습니다. JSX는 UI 개발에서 요소의 조정 문제를 해결했습니다. 그리고 load되는 요소들의 조정 문제를 해결하기 위해 Suspense가 추가되었습니다 (로딩 중에 무엇을 해야 하고 사용자에게 이 시간에 무엇을 보여줄지에 대한 문제).
 
 React 19에서 다음 것들도 추가되었습니다:
 
 - Server components. 이러한 컴포넌트는 데이터를 로드하고 이후 컴포넌트로 이동하는 문제를 해결할 수 있습니다 (익숙한 props를 사용);
 - 메타데이터 포함. 메타태그는 어디든지 포함될 수 있습니다. React 자체가 올바른 위치에 추가하고 하나의 복사본만 남습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-05-16-ReactConf2024Reactv19RC_3.png)
 
@@ -54,9 +83,18 @@ React 19에서 다음 것들도 추가되었습니다:
 
 - 스타일 임베딩. meta 태그와 유사하게, 스타일에 대한 작업이 진행될 것입니다. 그러나 여기에 중요도 옵션이 추가되었습니다 - 이에 따라 어떤 스타일이 더 중요한지(따라서 DOM에서 더 낮게 표시될 것인지)가 결정됩니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-05-16-ReactConf2024Reactv19RC_5.png)
 
@@ -66,9 +104,18 @@ React 19에서 다음 것들도 추가되었습니다:
 
 서버 컴포넌트의 등장으로 React는 서버 렌더링 책임을 더 맡게 되었으며 결과적으로 하이드레이션은 더 많은 논리와 잠재적인 문제를 가지게 되었습니다. React.js 팀은 하이드레이션 오류를 개선했습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![ReactConf2024](/assets/img/2024-05-16-ReactConf2024Reactv19RC_7.png)
 
@@ -78,9 +125,18 @@ React 19에서 다음 것들도 추가되었습니다:
 
 action을 추가하는 것 자체는 onSubmit과 같이 보이지만, 이벤트 대신 FormData를 즉시 가져옵니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![ReactConf2024Reactv19RC_9](/assets/img/2024-05-16-ReactConf2024Reactv19RC_9.png)
 
@@ -90,8 +146,18 @@ action을 추가하는 것 자체는 onSubmit과 같이 보이지만, 이벤트 
 
 그러나 기본 차이 외에도 폼 제출과 상호 작용에 중요한 변화가 있습니다 - 이들은 새로운 훅입니다. useOptimistic, useFormStatus 및 useActionState.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Sam Selikoff 씨가 "React unpacked: A Roadmap to React 19"라는 프레젠테이션에서 사용 예시를 공유했습니다. 예를 들어, onSubmit을 action + useActionState로 대체한 내용은 이런 식입니다:
 
@@ -101,9 +167,20 @@ Sam Selikoff 씨가 "React unpacked: A Roadmap to React 19"라는 프레젠테�
 
 ![Image](/assets/img/2024-05-16-ReactConf2024Reactv19RC_11.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-그리고 다시 레포트에서 중요한 변경 사항으로 돌아가 보겠습니다. 비교적 작은 변경 사항이 나열되었지만 매우 가치 있습니다. React.js 19에서는 forwardRef 없이도 함수형 컴포넌트에 ref를 props로 전달할 수 있습니다. 즉석에서 가능합니다. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+그리고 다시 레포트에서 중요한 변경 사항으로 돌아가 보겠습니다. 비교적 작은 변경 사항이 나열되었지만 매우 가치 있습니다. React.js 19에서는 forwardRef 없이도 함수형 컴포넌트에 ref를 props로 전달할 수 있습니다. 즉석에서 가능합니다.
 
 ![이미지](/assets/img/2024-05-16-ReactConf2024Reactv19RC_12.png)
 
@@ -111,7 +188,18 @@ Sam Selikoff 씨가 "React unpacked: A Roadmap to React 19"라는 프레젠테�
 
 ![이미지](/assets/img/2024-05-16-ReactConf2024Reactv19RC_13.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최종 열쇠 변경은 React 컴파일러였습니다. 내장되어 있는 메모이제이션을 갖춘 고급 로더입니다. React와 함께 응용 프로그램에서 메모이제이션을 자동으로 설정할 수 있습니다. Lauren Tan은 발표에서 이에 대해 자세히 설명했습니다. "React 컴파일러 사례 연구".
 
@@ -121,8 +209,18 @@ Sam Selikoff 씨가 "React unpacked: A Roadmap to React 19"라는 프레젠테�
 
 이러한 관계에 따라 컴파일러는 의존성의 전체 그래프를 상상할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![ReactConf2024](/assets/img/2024-05-16-ReactConf2024Reactv19RC_15.png)
 
@@ -132,8 +230,18 @@ Sam Selikoff 씨가 "React unpacked: A Roadmap to React 19"라는 프레젠테�
 
 "최대한 간단한 코드로 최대의 성능을 내세요."
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 좋은 해결책이지만, 실제로 메모이제이션을 어떻게 설정할지가 흥미로울 것입니다. 개발자가 이를 작성해야 할 위치와 이 논리를 컴파일러에게 맡겨 복잡하지 않게 유지할 가치가 있는 위치를 볼 수 있을 것입니다.
 
@@ -145,7 +253,18 @@ Sam Selikoff 씨가 "React unpacked: A Roadmap to React 19"라는 프레젠테�
 npm install eslint-plugin-react-compiler
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신은 커맨드 라인 유틸리티를 사용할 수도 있어요. 컴파일러가 어플리케이션을 최적화할 가능성을 점검해 줄 거에요.
 
@@ -157,8 +276,18 @@ npx react-compiler-healthcheck
 
 <img src="/assets/img/2024-05-16-ReactConf2024Reactv19RC_17.png" />
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 use와 hooks의 주요 차이점은 use는 조건 내에서 사용할 수 있다는 것입니다.
 
@@ -168,7 +297,18 @@ use 자체는 프라미스 또는 컨텍스트를 사용할 수 있습니다. us
 
 마지막으로, 놀라운 보고서, 발표, 예제 및 일반적인 성과를 언급하겠습니다. React.js 팀은 모든 개선 사항의 가능성을 보여줄 수 있었으며 (next.js 팀, 용서해 주지만 가까이 서지도 못했습니다). 또한 즐거운 차이점으로, React.js 팀은 fetch API의 재작성을 코어에 포함하지 않기로 결정하고 이미 완료된 변경 사항을 되돌렸다고 언급하겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일반적인 변경 목록은 다음과 같습니다:
 

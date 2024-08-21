@@ -3,17 +3,13 @@ title: "Java 웹 MQ 메시지 백로그 문제 해결하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-07-JavaWebTheBacklogofMQMessagesisDrivingMeCrazy_0.png"
 date: 2024-07-07 19:29
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-JavaWebTheBacklogofMQMessagesisDrivingMeCrazy_0.png
 tag: Tech
 originalTitle: "Java Web: The Backlog of MQ Messages is Driving Me Crazy"
 link: "https://medium.com/@haiou-a/java-web-the-backlog-of-mq-messages-is-driving-me-crazy-7e4d04aa8d1d"
 isUpdated: true
 ---
-
-
-
-
 
 ![Image](/assets/img/2024-07-07-JavaWebTheBacklogofMQMessagesisDrivingMeCrazy_0.png)
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 업무가 원활하게 진행되도록 회사에서는 모든 부서가 식사 시간에는 업무를 번갈아 가며 맡아 온라인 문제를 신속하게 해결하도록 요구했습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제가 속한 키친 디스플레이 시스템 팀은 주문 시스템의 하위 서비스였어요.
 
@@ -34,6 +40,17 @@ isUpdated: true
 
 요리를 서빙한 후, 웨이터는 요리 상태를 업데이트해서 사용자가 어떤 요리가 제공되었는지와 어떤 요리가 아직 처리 중인지 알 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 식당 내 주방에서부터 손님에 이르는 과정에서 효율성이 크게 향상됩니다.

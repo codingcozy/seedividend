@@ -3,17 +3,13 @@ title: "React JS의 새로운 문서에서의 예제"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "React JS Best Practices From The New Docs"
 link: "https://medium.com/@sebastiancarlos/react-js-best-practices-from-the-new-docs-1c65570e785d"
 isUpdated: true
 ---
-
-
-
-
 
 ## 새로운 React 문서를 읽을 시간이 없다면, 난 대신 그것들을 걸러 냈습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ![ReactJSBestPracticesFromTheNewDocs_1](/assets/img/ReactJSBestPracticesFromTheNewDocs_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트 베테랑 개발자 여러분들은 진정한 리액트 그랜드마스터가 되기 위해 모든 리액트 팀 멤버의 트위터를 팔로우해야 한다는 것을 알고 있죠. 소중한 정보 덩어리를 놓치지 않으려면요.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 하지만 두려워 하지 마세요. 저는 팀을 위해 희생적으로 일을 해서 모든 문서를 처음부터 끝까지 살펴보고 여러분을 위해 모두 정리했답니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 면책 사항: 본 문서에는 욕설이 포함되어 있습니다. 나를 어수선한 React 고수로 생각해주세요. 이제 지혜로운 핫한 견해를 제공하고 깊은 관점을 통해 제로펙을 줍니다.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 본 문서는 "배우기" 섹션을 다룹니다. 순차적으로 읽기를 권장합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 경험 많은 React 개발자라면 앞으로 넘어가서 제목을 살펴보세요. 흥미로운 내용이 있으면 깊이 파고들어도 좋아요.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 지금은 Jordan Walke가 메타에서 일하고 있지 않아요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2. 리액트에는 17명의 핵심 팀 멤버가 있어요.
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 ## 3. 문서에서는 인터랙티브 코드 예시에 CodeSandbox를 사용해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문서에는 React가 다른 샌드박스 서비스에서도 지원된다고 언급합니다. 명시적으로 CodeSandbox, StackBlitz, 그리고 CodePen을 언급하고 있어요.
 
@@ -73,7 +124,18 @@ isUpdated: true
 
 ## 5. 간단한 HTML 페이지에 React를 추가하는 것은 쉬워요. 빌드 단계조차 필요하지 않아요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React를 스크립트 태그로 추가하고 컴포넌트를 작성하여 루트에 렌더링하세요. JSX 지원을 추가하려면 babel-cli로 간단한 빌드 단계를 설정할 수도 있습니다.
 
@@ -83,7 +145,18 @@ React를 스크립트 태그로 추가하고 컴포넌트를 작성하여 루트
 
 ## 7. 새 문서에서는 더 이상 권장하지 않던 Create React App을 이제 추천하지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Create React App은 편리했지만 중요한 버그를 해결하지 않고 구식 쓰레기 더미였어요. 제 말을 믿지 않는다면 Github 이슈를 확인해보세요. 이제 문서에서는 Vite와 Parcel과 같은 인기 있는 대안들을 추천합니다.
 
@@ -93,7 +166,18 @@ Create React App은 편리했지만 중요한 버그를 해결하지 않고 구�
 
 ## 9. 자신만의 도구 체인을 구축하기 위한 훌륭한 도구 추천 목록이 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 혼자서 날아다니고 싶다면, 문서에서 합리적이고 트렌디한 옵션 목록을 제안합니다. 나에게는 기쁜 놀라움이었는데, 최근의 문제들을 생각하면 Lerna에 대한 언급이 없다는 것이 합리적으로 느껴졌습니다. 대신, 모노 레포지토리에 대한 권장 사항은 Nx와 Turborepo입니다.
 
@@ -103,7 +187,18 @@ Create React App은 편리했지만 중요한 버그를 해결하지 않고 구�
 
 또한 Vim의 웹사이트는 90년대 그대로인 것으로, 편집기를 실제로 사용할 수 없게 만듭니다. 몇 년 후 문서에서 Neovim으로 교체될 것으로 예상됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 11. React를 올바르게 사용하려면 ESLint가 필요합니다.
 
@@ -113,7 +208,18 @@ Create React App은 편리했지만 중요한 버그를 해결하지 않고 구�
 
 놀랄 것이 없습니다. 문서에서 prettier 사용을 권장하고 있고, 그것은 좋은 일입니다. 코드베이스에서 ESLint와 prettier를 모두 사용하는 경우 eslint-config-prettier 프리셋을 사용하는 것이 좋습니다. 이렇게 하면 ESLint가 논리적인 실수를 잡는 데만 사용되고 중요한 작업은 Prettier에게 맡겨집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 13. 사파리용 React Developer Tools 브라우저 확장 프로그램이 없습니다.
 
@@ -123,7 +229,18 @@ Create React App은 편리했지만 중요한 버그를 해결하지 않고 구�
 
 ## 14. React 앱은 컴포넌트로 이루어져 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문서에서 명확하게 말하고 있는 것은 프레임워크의 주요 추상화가 컴포넌트라는 것이에요.
 이미 많이 언급된 MVC 킬러에 대해 이야기할 게 뭘 더 남겼을까요?
@@ -134,7 +251,18 @@ Create React App은 편리했지만 중요한 버그를 해결하지 않고 구�
 
 제가 javascript.info에 대해 몰랐는데, 오픈소스이고 상당히 신뢰할 만해 보여서 놀랐어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 16. 그들은 HTML을 JSX로 변환하는 온라인 도구를 추천합니다
 
@@ -144,7 +272,18 @@ Create React App은 편리했지만 중요한 버그를 해결하지 않고 구�
 
 ## 17. React에서 CSS를 추가하는 방법을 명시적으로 규정하지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가장 간단한 경우에는 HTML에 `link` 태그를 추가하시면 됩니다. 빌드 도구나 프레임워크를 사용하는 경우 프로젝트에 스타일을 추가하는 방법을 학습하기 위해 해당 문서를 참고하세요.
 
@@ -154,7 +293,18 @@ Create React App은 편리했지만 중요한 버그를 해결하지 않고 구�
 
 중괄호는 “JavaScript 세계로의 창문”입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 19. JSX 내부에서 조건부 렌더링을 원한다면 ?와 && 연산자를 권장합니다.
 
@@ -164,7 +314,18 @@ Create React App은 편리했지만 중요한 버그를 해결하지 않고 구�
 
 key라는 종종 혼란스러운 용어가 새로운 문서에서 잘 설명되어 있습니다. 새로운 문서에서 그 내용 전체를 여기에 복사해 올까 고민 중이에요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나중에 확인하겠지만 "key"는 컴포넌트의 상태를 재설정하는 고급 케이스에도 사용됩니다. 하지만 저는 여전히 해당 고급 케이스가 상기한 "고유성"의 결과일 뿐이라고 생각합니다.
 
@@ -174,7 +335,18 @@ key라는 종종 혼란스러운 용어가 새로운 문서에서 잘 설명되�
 
 예를 들어, useState가 두 가지를 반환한다는 것을 설명하고 있지만, 우리가 [something, setSomething]라고 부르는 것은 관습뿐이라고 설명합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다른 예시로, 이벤트 핸들러를 만들 때 일반적으로 이벤트 이름 뒤에 "handle"라는 접두사를 붙이는 것이 일반적이라고 설명합니다. (onClick={handleClick}, onMouseEnter={handleMouseEnter} 등)
 
@@ -184,7 +356,18 @@ key라는 종종 혼란스러운 용어가 새로운 문서에서 잘 설명되�
 
 여기서 먼저 들었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새로운 React 문서에서는 훅이 주요 레벨에만 있어야 한다는 점을 강조합니다. 만약 조건문이나 반복문 안에 훅을 넣고 싶다면, 새로운 컴포넌트를 만들어야 한다는 뜻입니다.
 
@@ -194,7 +377,18 @@ key라는 종종 혼란스러운 용어가 새로운 문서에서 잘 설명되�
 
 ## 24. UI 모작을 컴포넌트 계층구조로 변환하는 것은 창의적인 과정입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문서는 UI 모킹이 주어졌을 때 React 컴포넌트로 변환하는 하나의 옳은 방법이 없다는 사실을 회피하지 않습니다.
 
@@ -204,7 +398,18 @@ key라는 종종 혼란스러운 용어가 새로운 문서에서 잘 설명되�
 
 컴포넌트 계층 구조를 만들 때, 문서는 "먼저 정적 버전을 먼저 만드는"와 같은 선택적 기술을 언급하며 "위에서 아래로" 구축하거나 계층 구조에서 상위 컴포넌트부터 시작하는 것 또는 하위 컴포넌트부터 작업하는 "아래에서 위로" 건설의 차이를 탐구합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 26. 최소 상태가 멋져요.
 
@@ -214,7 +419,18 @@ key라는 종종 혼란스러운 용어가 새로운 문서에서 잘 설명되�
 
 ## 27. Props와 State의 차이가 명확하게 설명되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "Props는 함수에 전달하는 인수와 같습니다." 반면에 "State는 컴포넌트의 메모리와 같습니다."
 
@@ -224,7 +440,18 @@ key라는 종종 혼란스러운 용어가 새로운 문서에서 잘 설명되�
 
 ## 29. Hooks라고 불리는 이유는 그들이 컴포넌트의 렌더링 주기에 "후크되도록" 허용하기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신이 무엇에 연결하는지 알아두는 것은 언제나 좋습니다. 이제 알았네요.
 
@@ -234,7 +461,18 @@ key라는 종종 혼란스러운 용어가 새로운 문서에서 잘 설명되�
 
 "단방향 데이터 흐름"은 데이터가 컴포넌트 계층 구조의 위에서 아래로 전달되는 것을 말합니다. "반대 방향 데이터 흐름"은 계층구조 깊은 곳에 있는 컴포넌트가 상단에서(일반적으로 사용자 입력으로 인해) 상태를 업데이트해야 할 때 발생합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React가 기술적으로 "양방향 데이터 바인딩"이 아닌 이유는 React가 "역 데이터 흐름"에 대해 매우 명확하기 때문입니다. 개발자는 실제로 onChange 이벤트 처리기를 작성해야 합니다.
 
@@ -244,7 +482,18 @@ React가 기술적으로 "양방향 데이터 바인딩"이 아닌 이유는 Rea
 
 네, 그 순서대로입니다. Chakra UI가 Material UI보다 먼저 권장됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Material UI의 추가적인 모독으로 현재 명칭이라고 할 수 없습니다. 요즘에는 특정 예술적 운동과 결부된 라이브러리에서 멀어지고자 MUI라고 불립니다.
 
@@ -254,7 +503,18 @@ Material UI의 추가적인 모독으로 현재 명칭이라고 할 수 없습�
 
 React 팀은 이에 강하게 반대하며 새로운 문서에서 명확히 밝히고 있어요. 그들이 이에 대해 어떻게 생각하는지 그대로 복사해 보겠습니다. 왜냐하면 정말 잔인하게 재치있게 말했기 때문이에요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Linux 초보자는 화상에 알로에를 바르는 것이 좋습니다.
 
@@ -264,7 +524,18 @@ Linux 초보자는 화상에 알로에를 바르는 것이 좋습니다.
 
 문서에 명시된 또 다른 지침은 로직과 마크업이 함께 있어야 한다는 것입니다 (즉, 같은 파일에 있어야 합니다). 이것은 "각 편집 시에 서로 동기화되어 있음을 보장하기 때문에" 좋은 점입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저자의 언급: 아마도 Styled Components와 Tailwind가 인기를 얻은 이유는 비슷한 방식으로 스타일을 마크업과 로직과 함께 동일한 파일에 유지할 수 있기 때문이겠죠.
 
@@ -274,7 +545,18 @@ Linux 초보자는 화상에 알로에를 바르는 것이 좋습니다.
 
 하지만, 그들의 최종 결론은 "파일이 하나의 컴포넌트만 익스포트하는 경우 대부분의 사람들이 기본 익스포트를 사용하며, 여러 컴포넌트와 값들을 익스포트하는 경우에는 named exports를 사용한다"는 관찰일 뿐입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그들은 기꺼이 "하나의 기본 내보내기와 여러 개의 명명된 내보내기"를 사용합니다.
 
@@ -284,7 +566,18 @@ Linux 초보자는 화상에 알로에를 바르는 것이 좋습니다.
 
 ## 36. 컴포넌트가 재사용되지 않더라도 만들어도 괜찮습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트는 "구성 요소가 모든 것을 결정한다"는 방식이기 때문에 항상 적어도 하나의 재사용 가능하지 않은 구성 요소인 최상위 "앱 구성 요소"가 있게 됩니다.
 
@@ -294,7 +587,18 @@ Linux 초보자는 화상에 알로에를 바르는 것이 좋습니다.
 
 문서에서 구성 요소가 한 번에 하나 이상의 요소를 반환할 수 없는 이유를 설명합니다. 그것은 "하드하면 JSX가 내부적으로 일반 자바스크립트 객체로 변환되기 때문입니다. 함수에서 두 개의 객체를 배열로 래핑하지 않고 반환할 수 없습니다."
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 걱정하지 마세요. "다른 태그나 프래그먼트로 감싸는 것"을 통해 두 개의 JSX 태그를 반환할 수 있습니다.
 
@@ -304,7 +608,18 @@ Linux 초보자는 화상에 알로에를 바르는 것이 좋습니다.
 
 ## 38. aria-*와 data-*는 대시로 작성된 유일한 JSX 속성입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 역사적인 이유로 그런 것이에요.
 
@@ -314,7 +629,18 @@ Linux 초보자는 화상에 알로에를 바르는 것이 좋습니다.
 
 ## 39. "더블 컬리즈"는 공식 용어에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 JSX에서 JS 객체를 전달하는 명시적인 방법입니다. 객체를 또 다른 쌍의 중괄호로 묶어야 합니다: {}.
 
@@ -324,7 +650,18 @@ JSX에서 JS 객체를 전달하는 명시적인 방법입니다. 객체를 또 
 
 ## 40. HTML 태그에 전달할 수 있는 속성들은 미리 정의되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, “className”, “src”, “alt”, “width”, 그리고 “height”은 `img` 태그에 전달할 수 있는 몇 가지 속성입니다.
 
@@ -334,7 +671,18 @@ JSX에서 JS 객체를 전달하는 명시적인 방법입니다. 객체를 또 
 
 몇몇 컴포넌트는 모든 속성을 자식 컴포넌트로 전달합니다. 그들은 자신의 속성을 직접 사용하지 않기 때문에 간결한 “전개” 구문인 {...props}를 사용하는 것이 의미가 있을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 문서에는 "스프레드 구문을 분별하여 사용하십시오. 모든 다른 구성 요소에서 사용 중이라면, 무언가 잘못된 것입니다. 종종 이것은 구성 요소를 분할해야 한다는 것을 나타낼 수 있습니다."
 
@@ -344,7 +692,18 @@ Spread 문법을 사용할 때 주의하세요.
 
 자식 prop을 가진 구성 요소는 임의의 JSX를 사용하여 부모 구성 요소에서 "채워질" 수 있는 "구멍"을 가지고 있다고 생각할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자주 사용하는 시각적 래퍼(패널, 그리드 등)들에 대해 children prop을 사용할 것입니다.
 
@@ -354,7 +713,18 @@ Spread 문법을 사용할 때 주의하세요.
 
 하지만, 부모 컴포넌트는 시간이 지남에 따라 변하는 상태를 가질 수 있고, 이를 자식 컴포넌트로 prop으로 전달할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 자식 컴포넌트의 관점에서 props는 "불변"이라는 컴퓨터 과학 용어로 표현됩니다.
 
@@ -364,7 +734,18 @@ Spread 문법을 사용할 때 주의하세요.
 
 ## 문서에서는 삼항 연산자를 "적당히 사용"하라고 권장합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 JSX 내에서 조건부 렌더링하는 것은 괜찮지만, "컴포넌트가 너무 많은 중첩된 조건부 마크업으로 혼란스러워진다면, 자식 컴포넌트를 추출하여 정리하는 것을 고려해보세요."
 
@@ -374,7 +755,18 @@ JSX 내에서 조건부 렌더링하는 것은 괜찮지만, "컴포넌트가 �
 
 오래된 개발자들만 알고 있는 팁이에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 조건부 렌더링에 &&를 사용하면 0으로 인해 골치가 아플 수 있어요. 아마도 매끈하고 산세리프 형태의 머티리얼 UI에 작은 스타일이 없는 0이 추가될 가능성이 높아요.
 
@@ -384,7 +776,18 @@ JSX 내에서 조건부 렌더링하는 것은 괜찮지만, "컴포넌트가 �
 
 삼항 연산자와 &&는 좋지만, 방해가 된다면 오히려 조건부 JSX를 저장할 때는 옛날 방식의 변수를 사용하는 것이 좋아요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 특별한 JavaScript를 작성해도 괜찮다는 문서 내용을 읽어서 기뻐요. 자바스크립트로 코드를 작성하는 것도 좋지만, 순수한 JS도 충분히 좋아요.
 
@@ -394,7 +797,18 @@ JSX 내에서 조건부 렌더링하는 것은 괜찮지만, "컴포넌트가 �
 
 네, 그들은 "uuid" 패키지보다 "crypto.randomUUID()"를 먼저 추천합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 네이티브 암호 라이브러리는 처음 들어본 것인데, 견고해 보이네요. 만약 'uuid' 패키지의 유지보수자였다면 새 직업 찾기를 시작할 거예요. 이 설명서는 정말 그들의 전체 경력을 끝냈어요.
 
@@ -404,7 +818,18 @@ React 자체에서 힌트로만 사용됩니다.
 
 키로 사용된 ID가 필요한 경우, 별도의 프롭으로 전달해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 49. React는 여러분이 작성하는 모든 컴포넌트가 순수 함수라고 가정합니다.
 
@@ -415,7 +840,18 @@ React 뒷담을 하지 말고 불순한 일을 하지 마세요. React는 순수
 - 자신의 일에만 집중합니다. 호출되기 전에 존재했던 어떤 객체나 변수도 변경하지 않습니다. (이는 함수의 범위 외부 변수를 변형하지 않으며, 입력값을 변형하지 않는다는 것을 의미합니다. React에서는 "props", "state", "context"가 모두 입력값으로 간주됩니다.)
 - 동일한 입력에 대해 동일한 출력을 반환합니다. 동일한 입력이 주어지면 순수 함수는 항상 동일한 결과를 반환해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만, 함수 내부에서 만들어진 변수와 객체를 변경하는 것은 전혀 괜찮습니다. 함수 외부의 코드는 이 변경 사항을 전혀 모르기 때문에 괜찮습니다. 이것을 "로컬 변경"이라고 합니다.
 
@@ -425,7 +861,18 @@ React는 성능, 서버 렌더링에 도움이 되고, 곧 멋진 새로운 기�
 
 ## 50. StrictMode로 불순한 계산 감지하기.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 엄격한 모드에 있다면 모든 구성 요소가 두 번 렌더링됩니다. 이건 당신이 잘못된 일을 하는지 감지하기 위한 것이에요.
 
@@ -435,7 +882,18 @@ React는 성능, 서버 렌더링에 도움이 되고, 곧 멋진 새로운 기�
 
 함수형 프로그래밍은 순수성에 많은 의존을 두지만, 언젠가는 어딘가에서 무언가가 변해야 합니다. 그게 프로그래밍의 요지죠!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서, 리액트에서 우리는 원하는 대로 할 수 있는 작은 비밀 스팟을 갖고 있어요. 우리는 "곁에서" 다르게 행동해!
 
@@ -445,7 +903,18 @@ React는 성능, 서버 렌더링에 도움이 되고, 곧 멋진 새로운 기�
 
 # 섹션 4: 상호 작용 추가하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 52. 디자인 시스템에 대한 미디엄 기사로 링크가 있어요.
 
@@ -457,7 +926,18 @@ Audrey Hacq
 
 ## 53. 이벤트 객체는 보통 관례적으로 "e"로 부르곤 해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이런, React 문서야, 그렇게 하면 안 돼.
 
@@ -467,7 +947,18 @@ Audrey Hacq
 
 ## 54. 이벤트 핸들러는 그냥 props로 전달되는 함수일 뿐이에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그들에 대해 특별한 점은 없어요.
 
@@ -477,7 +968,18 @@ Audrey Hacq
 
 ## 55. 앱별 개념에 기반을 둔 이벤트 핸들러를 지어야 해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컴포넌트가 여러 상호 작용을 지원하는 경우, 앱별 개념에 맞는 이벤트 핸들러 props의 이름을 지정할 수 있습니다. 예를 들어 "onPlayMovie"나 "onUploadImage"와 같이 설정할 수 있어요.
 
@@ -487,7 +989,18 @@ Audrey Hacq
 
 ## 57. e.stopPropagation()은 전파를 중단합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이렇게 하면 부모 구성 요소로 이벤트가 전달되지 않습니다.
 
@@ -497,7 +1010,18 @@ Audrey Hacq
 
 ### 59. 로컬 변수는 렌더 사이에 유지되지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트가 컴포넌트를 두 번 렌더링할 때는 처음부터 다시 렌더링합니다. - 로컬 변수의 변경 사항을 고려하지 않습니다.
 
@@ -507,7 +1031,18 @@ Audrey Hacq
 
 렌더링을 트리거하는 요소는 몇 가지뿐입니다. 로컬 변수를 변경하는 것은 그 중 하나가 아닙니다. 이건 스벨트인 줄 알았나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 61. 컴포넌트를 새 데이터로 업데이트하려면 두 가지가 필요합니다.
 
@@ -518,7 +1053,18 @@ Audrey Hacq
 - 렌더 사이에서 데이터를 유지하는 상태 변수.
 - 변수를 업데이트하고 React에게 컴포넌트를 다시 렌더링하도록 유도하는 상태 설정 함수(즉, "설정 함수" 또는 "상태 설정 함수").
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 간단한 방법이 있을까요? 물론, 그렇지만 여기는 Svelte가 아니에요. 이곳은 React, 우리는 메탈에 가깝게 살아가며 그것을 좋아해요. JavaScript에서 마법은 없어요.
 
@@ -528,7 +1074,18 @@ Audrey Hacq
 
 이것은 베테랑들에게는 당연한 일처럼 보일 수 있지만 React를 처음 사용할 때는 혼란스러울 수 있어요. 특히 useState를 사용할 때, 이것을 가져와야 하고, 가져오는 것이 신비로울 때가 있어요 - 누가 어떤 것이 있는지 아무도 모르니까요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 63. 트리거, 렌더링, 그리고 커밋.
 
@@ -538,7 +1095,18 @@ React에서 화면의 구성 요소를 업데이트하는 프로세스는 세 �
 
 렌더링은 구성 요소를 실행하고 결과를 얻는 것을 의미합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 커밋은 결과물을 진짜로 적용하는 것을 말해. 문서 .createElement() 메서드와 같은 장치들을 사용해 브라우저 DOM API에 렌더링 결과물을 적용한다.
 
@@ -549,7 +1117,18 @@ React에서 화면의 구성 요소를 업데이트하는 프로세스는 세 �
 
 이게 전부야.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 상황이 변할 때는 어떨까요? 아니요, 그 경우는 이미 "상위 요소 중 하나의 상태가 업데이트되었음"에 포함되어 있습니다.
 
@@ -559,7 +1138,18 @@ React에서 화면의 구성 요소를 업데이트하는 프로세스는 세 �
 
 성능 문제에 부딪히면 해결할 수 있는 여러 가지 방법이 있지만, 너무 일찍 최적화를 하지 마세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문서에서 권장하는 주요 최적화 기술은 "memo" API입니다. 이를 통해 입력이 변경되지 않은 컴포넌트의 렌더링을 건너뛸 수 있습니다. 순수 함수는 항상 동일한 결과를 반환하기 때문에 캐싱해도 안전합니다.
 
@@ -569,7 +1159,18 @@ React에서 화면의 구성 요소를 업데이트하는 프로세스는 세 �
 
 재렌더링 시, 리액트는 최신 렌더링 결과와 DOM을 일치시키기 위해 필요한 최소한의 작업을 수행합니다 (렌더링하는 동안 계산됩니다!).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 바로 React의 명성이 발동됩니다. 처음에는 Virtual DOM 또는 "차이"라고 불렸지만, 최근에는 특히 몇 가지 신랄한 비난 이후에는 그저 "React가 하는 그 것"으로 언급되며, 구현이 너무 어렵고 난해해서 거의 일루미나티에 가입해야 할 것입니다.
 
@@ -579,7 +1180,18 @@ React에서 화면의 구성 요소를 업데이트하는 프로세스는 세 �
 
 여기서 분명히 말씀드리겠습니다: 컴포넌트가 다시 렌더링되더라도 무엇인가 바뀌었다 하더라도 React는 변경된 특정 DOM 요소만 변경을 커밋할 것입니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 재렌더링된 컴포넌트 내의 영향받지 않은 DOM 요소는 그대로 유지됩니다! 정말 대단한 발상이죠! React 개발자들은 정말로 대단한 아이디어를 가지고 있네요!
 
@@ -589,7 +1201,18 @@ State는 단순한 JavaScript 변수처럼 보일 수 있지만, state는 스냅
 
 이것은 실제로 "렌더링"이 UI의 스냅샷을 찍는 것이기 때문입니다. React가 컴포넌트 함수를 호출할 때 해당 스냅샷이 생성됩니다. 프롭스, state, 이벤트 핸들러, 이펙트 및 로컬 변수는 렌더링 시간의 상태를 사용하여 계산됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사진이나 영화 장면과 달리 반환하는 UI “스냅샷”은 상호 작용적입니다. 입력에 대한 응답으로 발생하는 이벤트 핸들러와 같은 논리를 포함합니다.
 
@@ -599,7 +1222,18 @@ State는 단순한 JavaScript 변수처럼 보일 수 있지만, state는 스냅
 
 이 원칙을 기억하세요: “렌더링 내에서 상태 변수의 값은 결코 변경되지 않습니다.”
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 뭐든 해보세요. 콘솔 로그를 세 번의 setTimeout으로 감싸도, 렌더 스냅샷을 벗어날 수는 없어요. 업데이트된 상태는 미래 렌더를 위해 예약된 특권이에요. 모든 희망을 버려야 해요.
 
@@ -609,7 +1243,18 @@ React는 이벤트 핸들러 내의 모든 코드가 실행된 후에 상태 업
 
 이렇게 일괄 처리하는 이 동작을 배치(batching)라고 해요. 불필요한 다시 렌더링을 피할 수 있어 앱이 훨씬 빠르게 실행되고, 몇 가지 변수만 업데이트된 "미완성" 렌더를 처리하지 않아도 돼서 혼란을 피할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여러분들, 예시 이벤트 핸들러를 살펴보겠습니다:
 
@@ -624,7 +1269,18 @@ function handleClick() {
 
 ## 70. 비동기 이벤트 핸들러의 경우, "async" 부분은 미래의 일괄 작업에서 실행될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 방금 React가 모든 코드가 실행된 후 상태 업데이트를 처리하기 전까지 기다린다고 말했습니다. 그러나 예외가 있습니다.
 
@@ -642,7 +1298,18 @@ async function handleClick() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 "await" 이후에 실행되는 상태 업데이트는 미래의 일괄 처리에서 실행되고, "await" 이전의 상태 업데이트는 한 번에 실행됩니다.
 
@@ -652,7 +1319,18 @@ React 18 이전에는 비동기 부분이 전혀 일괄 처리되지 않았습�
 
 이는 일반적이지 않은 사용 사례이지만, 다음 렌더링 전에 동일한 상태를 여러 번 업데이트하려면 다음 값을 전달하는 대신 이전 상태를 기반으로 다음 상태를 계산하는 업데이터 함수를 전달할 수 있습니다. 예를 들어 setNumber(n =` n + 1)처럼요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React에게 상태 값을 특정 값으로 교체하는 대신 "상태 값으로 무언가를 수행하도록" 지시하는 방법입니다.
 
@@ -662,7 +1340,18 @@ React에게 상태 값을 특정 값으로 교체하는 대신 "상태 값으로
 
 ## 72. '업데이터 함수'는 순수해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내가 진정으로 어떤 부도덕한 개발자들이 있는지도 알고 싶지 않아. 하지만 이런 점 알아두어, 만약 업데이터 함수에서 부도덕한 일을 한다면, StrictMode가 널 잡을 거야.
 
@@ -675,7 +1364,18 @@ setEnabled((e) => !e);
 setLastName((ln) => ln.reverse());
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 조금 이상한 제안이긴 한데, 나는 상태 값에 항상 "value"를 사용한다. 어쨌든, React 문서야, 너 마음대로 해.
 
@@ -685,7 +1385,18 @@ setLastName((ln) => ln.reverse());
 
 React가 상태 업데이트를 일괄로 처리하기 위해 사용하는 내부 큐는 매우 간단해서 어떤 개발자든 재현할 수 있다. 그리고 React 지식을 저하신 나의 아미갈라에 깊이 형성시키는 좋은 방법이기도 하다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내부 큐는 단순히 일괄 처리된 항목을 포함하는 배열이에요. 여기에는 다음이 포함될 수 있어요:
 
@@ -696,11 +1407,33 @@ React가 상태 업데이트를 일괄로 처리하기 위해 사용하는 내�
 
 ## 75. 상태는 읽기 전용으로 취급하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신이 뭘 하고 있니? 저기 위에 홀로 남겨진 'setPerson' 함수를 보지 못하니까?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해당 코드에는 두 가지 문제가 있습니다:
 
@@ -724,7 +1457,18 @@ function handleFirstNameChange(e) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 의견에 따르면, 상태 내 기존 객체를 기반으로 새 객체를 만들 때 스프레드 구문을 사용해야 합니다.
 
@@ -735,7 +1479,18 @@ setPerson({
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 77. 상태에서 중첩된 객체에 주의하세요.
 
@@ -745,7 +1500,18 @@ setPerson({
 
 ## 78. 자바스크립트에서 객체는 "실제로" 중첩되지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 모든 펼치기와 중첩에 관한 이야기를 하면서, 문서에서는 객체가 실제로 서로 중첩되어 있지 않고 서로를 참조한다는 것을 상기시키는 것이 현명합니다.
 
@@ -755,7 +1521,18 @@ setPerson({
 
 깊게 중첩된 상태에 대해서는 문서가 Immer를 추천합니다. 여기서 업데이트는 모든 규칙을 어기고 상태를 변이시키는 것처럼 보입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const [person, updatePerson] = useImmer({
@@ -774,7 +1551,18 @@ React 문서에서는 심지어 useState 대신 useImmer을 import하여 React �
 
 ## 80. 상태 안의 배열도 읽기 전용으로 취급하십시오.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 객체와 마찬가지로 상태에 저장된 배열을 업데이트하려면 새 배열을 만들어야 합니다(또는 기존 배열을 복사해야 합니다).
 
@@ -784,7 +1572,18 @@ React 문서에서는 심지어 useState 대신 useImmer을 import하여 React �
 
 ![ReactJSBestPracticesFromTheNewDocs_2](/assets/img/ReactJSBestPracticesFromTheNewDocs_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당연히 Immer를 사용하면 모든 메소드를 사용할 수 있습니다.
 
@@ -794,7 +1593,18 @@ React 문서에서는 심지어 useState 대신 useImmer을 import하여 React �
 
 ## 82. 문서에서 배열이 객체를 포함할 수 있다는 것을 상기하라.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가끔 새 배열을 만드는 것만으로는 충분하지 않을 수 있어요. 객체를 포함할 경우, 상태를 업데이트할 때 새 객체를 만드는 것에 주의해야 해요.
 
@@ -804,7 +1614,18 @@ React 문서에서는 심지어 useState 대신 useImmer을 import하여 React �
 
 ## 83. 상태 관리 시 디자이너처럼 생각해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문서는 기쁘게 알려드립니다. 더 이상 jQuery 시대의 어둠 속에 살지 않는다는 것을 상기해주세요. 당신은 명령적인 괴물이 아닌 선언적 프레임워크를 구축하고 있습니다.
 
@@ -814,7 +1635,18 @@ React 문서에서는 심지어 useState 대신 useImmer을 import하여 React �
 
 이게 마법같은 생각처럼 들린다면, 그렇습니다. 하지만 이것은 현대의 가장 성공한 UX 프로그래머들에 의한 마법같은 사고입니다. 그러니 잠잠하고 들어주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 84. 선언적 논리는 명령형 논리보다 더 많은 코드 줄을 사용할 수 있습니다.
 
@@ -824,7 +1656,18 @@ React 문서에서는 심지어 useState 대신 useImmer을 import하여 React �
 
 ## 85. 문서에서는 Storybook과 같은 도구의 유용성에 대해 다룹니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기에 표시된 내용은 Storybook이 명시적으로 언급되지는 않았지만, 문서에는 컴포넌트에 많은 시각적 상태가 있다면 그 모든 상태를 한 페이지에 편리하게 표시하는 것이 좋다고 합니다. 이러한 페이지들은 종종 "리빙 스타일가이드" 또는 "스토리북"이라고도 불립니다.
 
@@ -834,7 +1677,18 @@ React 문서에서는 심지어 useState 대신 useImmer을 import하여 React �
 
 그냥 해 보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 두 상태 변수가 항상 함께 변경된다면, 이를 하나의 상태 변수로 통합하는 것이 좋은 아이디어일 수 있습니다. 그렇게 하면 항상 동기화를 유지해야 한다는 것을 잊지 않게 됩니다.
 
@@ -844,7 +1698,18 @@ React 문서에서는 심지어 useState 대신 useImmer을 import하여 React �
 
 예를 들어, isSending과 isSent 두 상태를 가지고 있는 대신, 어떤 혼란스러운 개발자가 그들을 올바르게 업데이트하는 것을 잊는다면 두 상태가 모두 true인 모순된 경우를 허용하는 것 대신, 가능한 값인 sending과 sent를 가진 단일 상태 변수를 가져야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요,
 
@@ -859,7 +1724,18 @@ const isSent = status === ‘sent’;
 
 ## 88. 상태에서 props를 반대로 미러링하지 마세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그냥 그러지 마세요. 두 가지 이유가 있어요:
 
@@ -870,7 +1746,18 @@ const isSent = status === ‘sent’;
 
 ## 89. 중첩된 상태를 피하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문서에서는 데이터가 깊게 중첩된 상태 대신 "평평한(flatten)" 또는 "정규화(normalized)" 상태를 가지는 것을 권장합니다. 이는 일종의 데이터베이스 테이블을 모방하여 ID와 ID 배열을 가지도록 함으로써 이루어집니다.
 
@@ -880,7 +1767,18 @@ const isSent = status === ‘sent’;
 
 가끔은 중첩된 상태를 줄이기 위해 일부 중첩된 상태를 자식 컴포넌트로 이동시키는 것도 좋은 방법입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 91. "제어 컴포넌트 vs 비제어 컴포넌트"가 명확하게 설명되어 있습니다.
 
@@ -890,7 +1788,18 @@ const isSent = status === ‘sent’;
 
 브라우저가 UI를 구조화하기 위해 많은 트리를 사용한다는 것을 입증하려는 문서에서는 DOM 뿐만 아니라 CSSOM (CSS Object Model)도 있다고 말합니다! 브라우저에는 심지어 접근성 트리도 있습니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 93. React에는 내부 "UI 트리"가 있습니다.
 
@@ -900,7 +1809,18 @@ React도 UI를 구조화하기 위해 내부 트리를 사용한다는 사실에
 
 ## 94. 상태는 UI 트리 내의 위치에 바인딩됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컴포넌트 안에 '상태가 존재한다'라고 간단히 말하는 것은 조금 과장된 표현일 수 있습니다. 왜냐하면 컴포넌트는 UI 트리에서 여러 위치에 렌더링될 수 있으며, 각 위치마다 고유한 분리된 상태를 가질 수 있기 때문입니다.
 
@@ -910,7 +1830,18 @@ React는 동일한 컴포넌트를 동일한 위치에서 렌더링하기만 한
 
 특정 위치에서 컴포넌트 렌더링을 중지하면(컴포넌트가 제거되거나 다른 컴포넌트가 동일한 위치에 렌더링되기 때문이든), 해당 컴포넌트의 상태가 완전히 사라집니다. 실제로 해당 하위 트리의 상태도 완전히 사라집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 UI 트리에서의 위치가 React에서 중요한 것이라는 것을 기억해주세요! 컴포넌트가 조건에 따라 다른 JSX 태그를 반환하더라도, 결과적으로 동일한 위치에 있는 동일한 컴포넌트에 상태가 유지됩니다. 심지어 속성이 변경되더라도요!
 
@@ -934,7 +1865,18 @@ if (isFancy) {
 
 조건이 변경될 때 Counter의 내부 상태가 재설정될 것으로 예상할 수 있지만, 사실은 그렇지 않습니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 한 가지 좋은 지침이 있어요: 다시 렌더링 사이에 상태를 보존하려면 트리의 구조가 한 번 랜더링할 때 다음에 랜더링할 때와 일치해야 합니다.
 
@@ -948,7 +1890,18 @@ if (isFancy) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기에 버그가 있어요: 조건이 변경되어도 점수가 그대로 남아 있어요.
 
@@ -965,7 +1918,18 @@ if (isFancy) {
 
 이 방법은 UI 트리에 유효한 요소로서 null을 사용하기 때문에 작동해요. React는 이 설정을 두 개의 독립된 위치로 인식해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당연히, 이 방법은 요소가 몇 개인 경우에만 좋은 해결책입니다. 문서에서 이렇게 꼼수부리는 걸 보니 놀랐어요! 전 전혀 추천하지 않습니다.
 
@@ -975,7 +1939,18 @@ React 빌자님들은 이미 알고 계실 거에요. 같은 위치에서 상태
 
 리스트를 렌더링할 때 키를 본 적이 있을 거예요. 그게 다라고 생각하시나요? 마음을 뒤집어 놓을 준비하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 키는 리스트뿐만 아니라 React에서 형제 컴포넌트를 구별하는 데 사용할 수 있어요.
 
@@ -983,17 +1958,24 @@ React 빌자님들은 이미 알고 계실 거에요. 같은 위치에서 상태
 
 ```js
 {
-  isPlayerA ? (
-    <Counter key="Taylor" person="Taylor" />
-  ) : (
-    <Counter key="Sarah" person="Sarah" />
-  );
+  isPlayerA ? <Counter key="Taylor" person="Taylor" /> : <Counter key="Sarah" person="Sarah" />;
 }
 ```
 
 여기서 플레이어가 변경될 때 상태가 재설정됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 부모 내 위치를 지정하는 것만 키가 되도록 전역적으로 고유할 필요는 없다는 것을 기억하세요.
 
@@ -1003,7 +1985,18 @@ React가 모든 것을 대신 처리할 것이라고 생각하십니까? 아니�
 
 React는 동일한 위치에 동일한 컴포넌트의 상태를 유지하는 상식적인 기본값을 제공합니다. 그리고 컴포넌트를 고유하게 표시하기 위해 키를 전달하여 이를 선택적으로 제외할 수 있게 해줍니다. 이제 더 많이 원하십니까? 예전 키로 컴포넌트를 다시 렌더링할 때 이전 상태를 회복하려고 하십니까?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 원한다면, 실제 코드를 작성하고 "state lifting up"과 같은 실행된 패턴을 사용하거나 localStorage를 사용하거나 CSS로 요소를 숨길 수 있어요.
 
@@ -1013,7 +2006,18 @@ React는 동일한 위치에 동일한 컴포넌트의 상태를 유지하는 �
 
 보통 이벤트 핸들러에서 상태를 업데이트할 거에요. 그러나 드물게는 렌더링에 대응하여 상태를 조정하고 싶을 수도 있어요 — 예를 들어, 프롭이 변경될 때 상태 변수를 변경하고 싶을 수도 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 부여합니다. 대부분의 경우, 당신은 이것이 필요하지 않습니다:
 
@@ -1025,7 +2029,18 @@ React는 동일한 위치에 동일한 컴포넌트의 상태를 유지하는 �
 
 이 문제를 해결하기 위해 경험 많은 React 개발자들은 어떻게해야 할지 알고 있습니다: **`Effect`**에서 상태를 업데이트하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Nope! 새 문서에서는 Effect(효과)가 이 작업에 적합하지 않다고 명시적으로 알려줍니다. 왜냐하면 자식 트리를 두 번 렌더링하게 되기 때문입니다. 추가 렌더링을 피하려고 하겠지만, 그 대가는 무엇인가요?
 
@@ -1047,7 +2062,18 @@ function List({ items }) {
 
 공포스러운 일이죠! 네, 이것이 렌더 함수 내부에서 상태를 변경하는 것입니다! React에서 가장 중요한 규칙 중 하나인 렌더 함수가 순수해야 한다는 규칙을 어기는 것이죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문서들이 자기들을 변명하게 놔둘게요. 전체적인 상세한 내용 설명을 할게요:
 
@@ -1057,7 +2083,18 @@ function List({ items }) {
 
 공정하게 말하자면, 이 패턴은 훅이 처음 출시된 이후부터 계속 존재했습니다. 하지만, React 팀이 부작용의 원치 않는 사용을 줄이기 위해 재조명했으므로 앞으로 조금 더 권장될 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아마 추려운 모습은 더 나은 대안을 활용하기 위해 코드를 완전히 바꾸도록 우리를 독려하는 미덕일지도 모릅니다. 어찌 되었든, "랜더링에 대한 상태 조정"은 항상 이해하기 어려운 코드로 이어질 겁니다.
 
@@ -1067,7 +2104,18 @@ function List({ items }) {
 
 문서에 따르면, 때로는 리듀서(useReducer()의 리듀서를 의미합니다)를 사용하는 것이 여러 상태를 이용하는 것보다 더 나은 대안일 수 있습니다. 복잡한 상태 머신을 정확하게 모델링하고 "불가능한" 또는 "모순되는" 상태를 쉽게 피하고 싶을 때 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또한, 테이블 태그를 마크다운 형식으로 변경하세요.
 
@@ -1077,7 +2125,18 @@ function List({ items }) {
 
 각 액션은 단일 사용자 상호작용을 설명해야 합니다. 데이터에 여러 변경 사항이 발생한다 하더라도 하나의 reset_form 액션을 디스패치하는 것이 다섯 개의 별도의 set_field 액션을 보내는 것보다 더 의미가 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 상태 업데이트 로직은 리듀서에 있을 것입니다.
 
@@ -1092,7 +2151,18 @@ dispatch({
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 103. 컴포넌트 외부에 리듀서를 위치시키세요.
 
@@ -1102,7 +2172,18 @@ dispatch({
 
 ## 104. 리듀서에서 "switch" 문을 사용하는 것이 관례입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 물론 if 문을 사용할 수도 있지만, 좀 밋밋할 수도 있어요.
 
@@ -1112,7 +2193,18 @@ dispatch({
 
 하지만 문서에서는 애써 설명하려는 시도를 해 봤어요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Reducers는 배열의 "reduce" 메소드와 비슷한 거 같아요. 그러나 "지금까지의 결과와 현재 아이템"을 가져오는 대신 reducers는 "지금까지의 상태와 액션"을 가져와요.
 
@@ -1122,7 +2214,18 @@ Reducers는 배열의 "reduce" 메소드와 비슷한 거 같아요. 그러나 "
 
 문서에서 reducers가 모두에게 적합하지 않을 수도 있다고 말해준 것은 좋은 일이에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일반적으로 리듀서는 디버그와 테스트가 더 쉽다고 합니다. 복잡한 로직이라면 더 읽기 쉽습니다. 하지만 코드가 더 많이 필요하죠.
 
@@ -1132,7 +2235,18 @@ Reducers는 배열의 "reduce" 메소드와 비슷한 거 같아요. 그러나 "
 
 React의 거의 모든 것과 마찬가지로 리듀서도 순수해야 합니다. 이상한 짓은 하지 마세요. 언제든 Immer를 사용하여 삶이 조금 덜 고통스럽게 만들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 섹션 7: 컨텍스트
 
@@ -1142,7 +2256,18 @@ React의 거의 모든 것과 마찬가지로 리듀서도 순수해야 합니�
 
 그렇죠, 데이터를 깊이 전달해야 할 때는 컨텍스트를 선언하는 것이 좋아요. 컨텍스트는 부모 컴포넌트가 아래 트리 전체에 데이터를 제공할 수 있게 해줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 109. 컨텍스트는 초급자도 쉬워요!
 
@@ -1154,7 +2279,18 @@ React의 거의 모든 것과 마찬가지로 리듀서도 순수해야 합니�
 
 컨텍스트를 다룰 때 총 세 가지 요소를 다뤄야 한다는 것이 조금 아쉬워요. 그와는 대조적으로 Vue와 Svelte의 컨텍스트 버전은 두 가지만 필요합니다. React와 Solid의 왜 한 단계가 더 필요한지 알고 계시면 댓글로 알려주세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 110. 가장 가까운 프로바이더로부터 값을 가져올 수 있는 컨텍스트를 사용하는 자녀입니다.
 
@@ -1164,7 +2300,18 @@ React의 거의 모든 것과 마찬가지로 리듀서도 순수해야 합니�
 
 그렇습니다, 이것은 정말 이상한 거죠, 하지만 문서에는 합리적인 예제가 제공됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내부 구성요소가 동일한 컨텍스트를 덮어쓰기를 원할 때 유용할 수 있어요. 그 이유는 잘 모르지만요. 난 판단하지 않아요.
 
@@ -1174,7 +2321,18 @@ React의 거의 모든 것과 마찬가지로 리듀서도 순수해야 합니�
 
 CSS에서 `div`에 color: blue를 지정할 수 있고, 그 안에 있는 모든 DOM 노드는 얼마나 깊게 있든 해당 색상을 상속받아요. 중간에 다른 DOM 노드가 color: green으로 재정의하지 않는 한요. 비슷하게, React에서 위에서 오는 일부 컨텍스트를 덮어쓰는 유일한 방법은 아이들을 다른 값으로 갖는 컨텍스트 제공자 안으로 감싸는 것이에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다른 속성들인 색상과 배경색이 서로 덮어씌우지 않습니다. 비슷하게, 다른 리액트 컨텍스트들도 서로 덮어씌우지 않아요.
 
@@ -1184,7 +2342,18 @@ CSS에서 `div`에 color: blue를 지정할 수 있고, 그 안에 있는 모든
 
 컨텍스트에 손을 뻗기 전에, 속성 전달이 조금 더 명시적으로 데이터 흐름을 만들어 줄 수 있기 때문에 괜찮다는 것을 기억해 주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이거 고민해 볼 거 있는데, 혹시 드릴러로 이렇게 많이 향하는 이유가 데이터와는 아무 상관 없는 성가신 시각 구성 요소를 추출하지 않았기 때문일 수도 있어요. 아마 그냥 children 속성을 가져야 할 지도 몰라요.
 
@@ -1197,7 +2366,18 @@ CSS에서 `div`에 color: blue를 지정할 수 있고, 그 안에 있는 모든
 
 ## 115. 기억하세요, 문맥은 정적 값에만 해당하는 것이 아닙니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 다음 렌더링에 다른 값이 전달되면 React는 그 값을 읽는 모든 컴포넌트를 업데이트합니다!
 
@@ -1207,7 +2387,18 @@ React 전체에서 가장 강력한 패턴을 사용할 자신이 있나요? 그
 
 컨텍스트 + 리듀서 패턴을 사용하면 복잡한 상태를 갖는 부모 컴포넌트가 리듀서로 관리합니다. 트리의 깊은 곳에 있는 다른 컴포넌트들은 이 상태를 컨텍스트를 통해 읽을 수 있을 뿐만 아니라 해당 상태를 업데이트하는 액션도 디스패치할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 117. 더 많은 Chad: 리듀서에 두 가지 컨텍스트를 가지세요.
 
@@ -1217,7 +2408,18 @@ React 전체에서 가장 강력한 패턴을 사용할 자신이 있나요? 그
 
 이렇게 하면 모든 컴포넌트가 상태와 "dispatch"를 모두 필요로 하지 않기 때문에 불필요한 다시 렌더링을 방지할 수 있습니다. 그리고 "dispatch"는 절대 변하지 않기 때문에 오직 디스패치만 하는 컴포넌트를 다시 렌더링하지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 118. 기가 차드: 컨텍스트를 위한 사용자 정의 훅 만들기
 
@@ -1235,7 +2437,18 @@ export function useTasksDispatch() {
 
 이제 context와 useContext 모두를 import하지 않고도 context를 사용할 수 있습니다. 하나의 import만으로 가능합니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 경고: 이렇게 타자를 칠 때 동료가 보게되면 여러분이 대단한 기가 차드임을 알 수 있을 거예요.
 
@@ -1245,7 +2458,18 @@ export function useTasksDispatch() {
 
 컴포넌트에 ref를 추가하는 방법을 살펴봅시다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const ref = useRef(0);
@@ -1261,7 +2485,18 @@ useRef는 다음과 같은 객체를 반환합니다:
 
 문서에서는 리액트 Ref를 간결하고 풍부한 은유와 사랑스러운 그림으로 설명합니다. 저는 그림을 훔쳐야 했어요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![ReactJSBestPracticesFromTheNewDocs_4](/assets/img/ReactJSBestPracticesFromTheNewDocs_4.png)
 
@@ -1271,7 +2506,18 @@ ref는 수정할 수 없는(불변) 일반적인 JavaScript 객체입니다. 사
 
 위 그림에서 current 프로퍼티는 화살표로 표시되는데, 객체 프로퍼티로서 원하는 것을 추적할 수 있습니다. (또한, 보다 전문적인 관점에서 보면 JavaScript 객체 프로퍼티는 기본 C++ 런타임에서 "포인터"로 구현되므로, 화살표 비유가 매우 적절합니다.)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주머니는 바꿀 수 없고 "현재" 화살표도 바꿀 수 없어요. 하지만 화살표가 가리키는 곳은 바꿀 수 있어요.
 
@@ -1281,7 +2527,18 @@ ref는 수정할 수 없는(불변) 일반적인 JavaScript 객체입니다. 사
 
 Refs는 state와 매우 유사해요. state처럼, refs도 React에 의해 다시 랜더링되는 동안 유지됩니다. 사실, 대부분의 경우에는 state를 사용해야 해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 여기에 차이가 있어요: 상태를 설정하면 컴포넌트가 다시 렌더링됩니다. 반면 ref를 변경하면 그렇지 않아요!
 
@@ -1292,7 +2549,18 @@ Refs는 state와 매우 유사해요. state처럼, refs도 React에 의해 다�
 
 일반적으로 컴포넌트가 React 외부로 나가서 외부 API와 통신해야 하는 경우에 ref를 사용할 거예요. 이는 주로 컴포넌트의 모양에 영향을주지 않는 브라우저 API와 소통해야 하는 경우에 해당돼요. 이에 대한 일반적인 예시는 다음과 같아요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - setTimeout 또는 setInterval을 위해 timeout ID 저장
 - DOM 요소 저장
@@ -1303,7 +2571,18 @@ ref.current은 가변적이지만, 렌더링 중에 상호작용하려고 한다
 
 렌더링 중에 필요한 정보가 있다면 대신 상태를 사용하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React는 ref.current가 언제 변경되는지 모르기 때문에, 렌더링 중에 해당 값을 읽는 것만으로도 컴포넌트의 동작을 예측하기 어렵게 만듭니다.
 
@@ -1313,7 +2592,18 @@ React는 ref.current가 언제 변경되는지 모르기 때문에, 렌더링 �
 
 물론 가능합니다. 왜 안 될까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 123. useRef가 내부에서 어떻게 작동합니까?
 
@@ -1329,7 +2619,18 @@ function useRef(initialValue) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예시에서는 state setter가 사용되지 않았어요. useRef는 항상 동일한 객체를 반환해야하기 때문에 불필요합니다.
 
@@ -1339,7 +2640,18 @@ React는 실무에서 충분히 흔하기 때문에 useRef의 내장 버전을 �
 
 ## 124. ref.current를 변경하면 즉시 변경됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React 상태의 한계를 참고하세요. 예를 들어 상태는 모든 렌더링에 대한 스냅샷처럼 작용하며 동기적으로 업데이트되지 않습니다. 그러나 현재 ref 값을 변경하면 즉시 변경됩니다:
 
@@ -1352,7 +2664,18 @@ console.log(ref.current); // 5
 
 ## 125. 컴포넌트 외부의 변수 대신 ref를 사용해보는 것은 어떨까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주의깊게 읽는 독자라면 이렇게 생각할 수도 있겠죠: "잠깐, ref는 렌더링에 사용되지 않는 가변 데이터인데, 왜 ref가 필요할까요? 컴포넌트 외부에서 변수에 데이터를 유지하면 안 되나요?"
 
@@ -1362,7 +2685,18 @@ ref를 사용하는 것은 많은 컴포넌트에서 잘 작동합니다. 왜냐
 
 ## 126. Ref는 비동기 작업으로부터 최신 상태를 읽는 데 도움을 줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문서에는 매우 일반적인 패턴이 언급되어 있어요.
 
@@ -1380,7 +2714,18 @@ function handleChange(e) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 127. React는 DOM에서 손을 떼도록 요청합니다.
 
@@ -1390,7 +2735,18 @@ function handleChange(e) {
 
 ## 128. 실제로 DOM 노드가 필요한 경우 ref를 사용하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위와 같이 하면 됩니다:
 
@@ -1404,7 +2760,18 @@ const myRef = useRef(null);
 
 그런 다음 myRef.current.scrollIntoView()처럼 DOM 노드에 대해 할 수 있는 나쁜 일을 자유롭게 할 수 있습니다. 항상 그런 기획을 이벤트 핸들러나 useEffect 호출에서 유지하십시오.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 129. DOM 노드 참조의 알 수없는 수량을 관리하는 방법은?
 
@@ -1415,7 +2782,18 @@ const myRef = useRef(null);
 - 부모 요소에 단일 참조를 받은 다음 querySelectorAll과 같은 DOM 조작 방법을 사용합니다. 허술하지만 합법적인 방법!
 - React의 스타일에 더 가까운 해결책은 ref 속성에 함수를 전달하는 방식으로, "ref 콜백"이라고 합니다. 간단히 말해 이전 경우에 React가 대신 수행하는 마법을 수동으로 코드로 작성해야 합니다. 자세한 내용은 여기를 참조하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 130. 다른 컴포넌트의 DOM 노드에 액세스하려면 'forwardRef'를 사용하십시오.
 
@@ -1425,7 +2803,18 @@ const myRef = useRef(null);
 
 자신의 DOM 노드를 노출하려는 컴포넌트는 다음과 같이 선택해야 합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const MyInput = forwardRef((props, ref) => {
@@ -1439,7 +2828,18 @@ const MyInput = forwardRef((props, ref) => {
 
 ## 131. ‘forwardRef’를 사용하여 여러 DOM 노드 refs를 전달할 수 있을까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문서에는 설명되어 있지 않았지만 제가 궁금해서 StackOverflow에서 신뢰할 만한 가이드를 찾아 보았어요.
 
@@ -1449,7 +2849,18 @@ const MyInput = forwardRef((props, ref) => {
 
 맞아요, 'useImperativeHandle'은 'forwardRef'와 함께 사용하려면 어떤 사용자 정의한 해킹을 하려고 할 때 사용해야 하는 거에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또는 부모 컴포넌트가 노출된 DOM 노드로 수행할 수 있는 작업을 제한하는 데 사용할 수도 있어요.
 
@@ -1470,7 +2881,18 @@ const MyInput = forwardRef((props, ref) => {
 
 ## 133. 리액트에서 관리되는 DOM 노드를 변경하지 마세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 포커싱이나 스크롤링과 같은 파괴적이지 않은 동작에 집중한다면 어떤 문제도 발생하지 않을 것입니다.
 
@@ -1480,7 +2902,18 @@ const MyInput = forwardRef((props, ref) => {
 
 # 섹션 9: 이펙트
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 134. 효과는 문서에서 소개된 두 번째-to-last 개념입니다.
 
@@ -1490,7 +2923,18 @@ React Hooks가 처음으로 출시된 2019년 2월에는 useEffect 훅에 많은
 
 효과를 문서의 끝에 두는 것으로, React 팀은 문제를 해결하고 효과의 과도한 사용과 찬양을 억제하기 위해 노력하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 135. "효과"와 "부작용"에는 차이가 있습니다.
 
@@ -1500,7 +2944,18 @@ React Hooks가 처음으로 출시된 2019년 2월에는 useEffect 훅에 많은
 
 "Effect"를 대문자로 작성하면 이것을 "부작용"이라는 일반적인 개념과 쉽게 구별할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이는 이전 문서와 대조적입니다. useEffect 훅을 사용하여 컴포넌트에 추가하는 것을 "부수 효과" 또는 "효과"라고 불렀던 이전 문서와는 다릅니다.
 
@@ -1510,7 +2965,18 @@ React Hooks가 처음으로 출시된 2019년 2월에는 useEffect 훅에 많은
 
 리마인더로, React 컴포넌트에는 두 종류의 코드가 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 렌더링 코드(99에서 한가지 예외를 제외하고는 순수합니다)
 - 그리고 실제로 무언가를 하는 부수 효과들
@@ -1521,7 +2987,18 @@ React Hooks가 처음으로 출시된 2019년 2월에는 useEffect 훅에 많은
 
 효과를 통해 사용자 조치에 의한 특정 이벤트가 아니라 컴포넌트 자체의 렌더링으로 인한 부수 효과를 지정할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/ReactJSBestPracticesFromTheNewDocs_5.png" />
 
@@ -1531,7 +3008,18 @@ React Hooks가 처음으로 출시된 2019년 2월에는 useEffect 훅에 많은
 
 하지만 왜 효과를 피하는 것이 좋을까요? 간단하게 말하자면, 효과는 너무 강력하고 종종 이해하기 어려운 코드를 생성하기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어느 면에서는, 효과(Effects)는 React 프레임워크와 개발자 간의 계약을 이행하는 것입니다: 우리는 자바스크립트의 모든 힘을 이용하여 React의 작동을 조절할 수 있지만, 복잡성의 리바이어단(Leviathan)에 삼켜지지 않도록 자제해야 합니다.
 
@@ -1541,7 +3029,18 @@ React Hooks가 처음으로 출시된 2019년 2월에는 useEffect 훅에 많은
 
 이전에 언급한 대로, 컴포넌트 렌더링으로 인해 발생하는 부작용이 필요한 경우 언제든지 효과(Effect)를 사용할 수 있습니다. 걱정마세요, 제가 말리지 않을게요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 새 문서에 따르면, 컴포넌트 렌더링으로 인한 사이드 이펙트가 필요한 유일한 이유가 하나만 있습니다.
 
@@ -1553,7 +3052,18 @@ React Hooks가 처음으로 출시된 2019년 2월에는 useEffect 훅에 많은
 - 서드 파티 라이브러리. animation.start()와 animation.reset()과 같은 API를 가진 애니메이션 라이브러리와 같은 것들입니다.
 - 네트워크. 네트워크 요청을 수행하기 위해 fetch() API를 사용하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 참고: 컴포넌트가 외부 시스템과 상호 작용한다는 것만으로도 Effect를 사용하는 충분한 이유가 되지는 않습니다. 외부 시스템과의 상호 작용이 refs와 이벤트 핸들러를 사용하여 처리될 수 있다면, 그렇게 해주시기 바랍니다.
 
@@ -1563,7 +3073,18 @@ Effects는 렌더링 프로세스가 끝난 후에 실행됩니다. 브라우저
 
 React 팀은 모두의 지혜와 지식을 바탕으로 React 컴포넌트를 외부 시스템과 동기화하는 것이 좋은 시기라고 생각합니다. 그 이유는 React의 핵심 업무가 화면에서 픽셀을 춤추게 하는 것이기 때문에 외부 시스템은 React가 작업을 완료할 때까지 물러나야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 여러분의 효과가 시각적인 작업을 수행하고 시각적인 깜박임을 일으킨다면, React는 useLayoutEffect 훅을 제공합니다. 이 훅은 브라우저가 렌더링하기 전까지 Effect가 실행될 때까지 화면을 그리지 않습니다.
 
@@ -1582,7 +3103,18 @@ function MyComponent() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컴포넌트를 외부 시스템과 동기화할 때, 동기화 동작을 정의하는 데 prop을 사용할 수 있어요.
 
@@ -1605,7 +3137,18 @@ function VideoPlayer({ src, isPlaying }) {
 
 여기 VideoPlayer가 렌더링될 때(최초 또는 다시 렌더링될 때) 어떻게 동작하는지 살펴보겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 먼저, React가 화면을 업데이트합니다.
 - 그런 다음 React가 효과를 실행하고, isPlaying prop의 값에 따라 play() 또는 pause()가 호출됩니다.
@@ -1616,7 +3159,18 @@ function VideoPlayer({ src, isPlaying }) {
 
 기본적으로 효과는 모든 렌더링 후에 실행됩니다. 종종 이는 원하는 동작이 아닙니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 때로는 느릴 수 있어요. 외부 시스템과 동기화가 즉시 이루어지지 않을 수 있으므로 꼭 필요하지 않으면 그 작업을 건너뛰는 것이 좋을 수 있어요.
 - 때로는 잘못된 작업일 수도 있어요. 예를 들어, 컴포넌트가 처음으로 나타날 때만 fade-in 애니메이션을 트리거하고 싶은데 모든 렌더링 시마다 실행하지는 말아야 해요.
@@ -1631,7 +3185,18 @@ useEffect(() => {
 }, []);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러면 린터가 의존성을 누락했다며 경고 메시지를 날릴 거에요. 근데 걱정하지 마세요! 지시 사항을 따라서 Effect가 다음과 같이 보이도록 수정해보세요.
 
@@ -1650,7 +3215,18 @@ useEffect(() => {
 
 의존성 배열에는 여러 개의 의존성을 포함시킬 수 있어요. React는 지정한 모든 의존성이 이전 렌더링 중과 정확히 같은 값을 가졌을 때에만 Effect 실행을 건너뛸 거에요. React는 의존성 값들을 Object.is 비교를 통해 비교해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 142. 리액트에서는 의존성이 당신을 선택합니다.
 
@@ -1661,7 +3237,18 @@ useEffect(() => {
 - 매 렌더링마다 효과를 실행하려면 의존성 배열을 추가하지 마세요.
 - 매 렌더링마다 효과를 실행하지 않으려면 의존성 배열을 추가하고 리액트가 채우도록 하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 맞아요, 의존성 배열은 React가 기대하는 것과 일치해야 해요. 이 문제에 대해 어떤 의견도 허용되지 않아요. 이 동작은 코드에서 많은 버그를 잡아주는 데 도움이 되요.
 
@@ -1671,7 +3258,18 @@ useEffect(() => {
 
 독자들은 또 물어볼지도 모르겠네요: 의존성 배열을 변경해서 효과가 정확히 언제 실행되는지 정의할 수 있어야 할 텐데요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안심하세요. 곧 새롭고 강력한 useEffectEvent 훅을 포함해 의존성 배열을 건드리지 않고 Effect가 실행되는 시기를 엄격하게 제어하는 다양한 기술들이 많이 나올 거에요!
 
@@ -1691,7 +3289,18 @@ useEffect(() => {
 }, [a, b]);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 144. 의존성 배열에는 참조와 set 함수가 제외됩니다.
 
@@ -1701,7 +3310,18 @@ useEffect(() => {
 
 useState에서 반환된 set 함수도 안전한 식별성을 가지므로 이 또한 제외됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 행동은 린터가 볼 수 있는 것에 따라 달려있어요. 문서가 정말 깔끔하게 설명하고 있죠:
 
@@ -1711,7 +3331,18 @@ useState에서 반환된 set 함수도 안전한 식별성을 가지므로 이 �
 
 그래서 이를 위해 자신의 Effect에서 정리(clean up) 함수를 반환하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 useEffect(() => {
@@ -1729,7 +3360,18 @@ useEffect(() => {
 
 ## 146. 개발 환경에서 Effects가 두 번 실행됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제1차 세계대전 당시에는 스위스가 소수의 상주 군대를 보유하고 있었지만 숙련된 소총병으로 이루어진 백성을 가지고 있었습니다. 1912년, 카이저 빌헬름 2세가 스위스의 25만 군대가 있을 때 독일 50만 군대로 스위스가 침공당하면 어떤 일이 일어날까 물었을 때 스위스는 "두 번 쏘고 집에 돌아갈 것"이라고 대답했습니다.
 
@@ -1739,7 +3381,18 @@ React의 엄격 모드도 일말의 용감함을 보입니다. 두 번 발사하
 
 만약 효과가 두 번 발동하여 발생한 버그를 다루고 있다면, 올바른 질문은 "어떻게 효과를 한 번만 실행할 수 있을까"가 아니라 "어떻게 효과를 수정하여 재마운트한 후에도 작동할 수 있게 할 것인가"입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일반적으로, 정리 함수를 구현하는 것이 답입니다. 정리 함수는 Effect가 수행한 작업을 중지하거나 되돌리는 역할을 해야 합니다.
 
@@ -1757,7 +3410,18 @@ useEffect(() => {
 }, []);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 개발 중에는 불투명도가 1로 설정되고, 다음에 0으로 설정되고, 다시 1로 설정됩니다. 이는 프로덕션 환경에서 바로 1로 설정하는 것과 동일한 사용자가 볼 수 있는 행동을 가져야 합니다.
 
@@ -1781,7 +3445,18 @@ useEffect(() => {
 }, [userId]);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문서에 명시적으로 언급되어 있습니다. 비정상 종료 플래그는 fetch 이후에 비동기적 단계가 연결되어 있으면 AbortController 보다 더 신뢰할 수 있습니다.
 
@@ -1791,7 +3466,18 @@ useEffect(() => {
 
 왜 그럴까요? 문서에서 많은 이유를 제시하고 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 서버에서는 효과가 실행되지 않기 때문에 서버 측 렌더링과 효과 기반 데이터 가져오기를 함께 사용하기가 어렵습니다.
 - "네트워크 폭포"가 발생하기 쉽고 데이터를 병렬로 가져오는 것을 지원하기 어렵습니다.
@@ -1805,7 +3491,18 @@ useEffect(() => {
 
 ## 148. 제품 구매는 효과가 아닙니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가끔 정리 기능을 작성해도, Effect가 두 번 실행되어 사용자에게 불이익이 생기는 경우가 있습니다:
 
@@ -1820,7 +3517,18 @@ useEffect(() => {
 
 구매는 렌더링으로 인한 것이 아니라 특정 상호 작용으로 인해 발생합니다. 따라서 Effect를 삭제하고 "구매" 버튼의 이벤트 핸들러에서 요청을 보내는 것이 좋습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 POST 요청이 사용자 이벤트와 관련이 없고 컴포넌트 렌더링과 관련이 있다면 효과(Effects)에서 문제없이 작동합니다(예: 분석 추적을 위한 POST 요청).
 
@@ -1830,7 +3538,18 @@ useEffect를 "붙이는" 행위로 생각할 수 있습니다.
 
 React에서 "렌더링"은 UI의 한 순간을 캡처하는 것과 같습니다. 컴포넌트의 속성(props), 상태(state), 지역 변수, 이벤트 핸들러 및 Effects는 모두 클로저의 마법 덕분에 계산되고 렌더 출력에 첨부됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새로운 문서에서는 이것이 이펙트에 대해 어떻게 작동하는지에 대한 두 가지 깊이 있는 탐구를 제공합니다.
 
@@ -1840,7 +3559,18 @@ React에서 "렌더링"은 UI의 한 순간을 캡처하는 것과 같습니다.
 
 의존성을 정의하면 해당 값이 변경됐을 때에만 실행됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기억하세요, useMemo에 넣는 것은 순수해야 합니다.
 
@@ -1850,7 +3580,18 @@ React에서 "렌더링"은 UI의 한 순간을 캡처하는 것과 같습니다.
 
 가끔 다른 상태에 따라 상태 조정을 하는 효과를 연쇄적으로 연결하고 서로를 트리거하려는 유혹을 느낄 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그것은 효율적이지 않을 뿐만 아니라 당신의 코드베이스가 사탄에게 점령당했음을 명백히 나타냅니다. 간단히 말해서, 코드가 발전함에 따라 "체인"이 새로운 요구사항과 맞지 않는 경우가 발생하게 될 것이고, 때로는 그 쓰레기를 리팩토링하기 위해 의식적인 가축 희생을 도모할 것입니다. 주님, 자비를 베푸소서!
 
@@ -1860,7 +3601,18 @@ React에서 "렌더링"은 UI의 한 순간을 캡처하는 것과 같습니다.
 
 네, 오늘날에도, 사소하지 않은 양식은 가장할 시간도 따뜻한 스파게티 볼로네제를 쉽게 요리할 수 있어, 이탈리아 친모님께 자랑스러운 요리를 만들어낼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 152. 애플리케이션을 이펙트로 초기화할 때 조심하세요.
 
@@ -1870,7 +3622,18 @@ React에서 "렌더링"은 UI의 한 순간을 캡처하는 것과 같습니다.
 
 이 문제를 해결하는 두 가지 방법이 있습니다. 애플리케이션에 가장 잘 맞는 방법을 선택하셔도 좋습니다. 두 가지 중 하나:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 let didInit = false;
@@ -1905,7 +3668,18 @@ function App() {
 
 Tradeoffs에 대한 문서를 확인해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 153. 외부 시스템이 "store"라면 useSyncExternalStore를 사용해보세요.
 
@@ -1915,7 +3689,18 @@ Tradeoffs에 대한 문서를 확인해보세요.
 
 내 말을 믿어 이것은 지금은 무시하는 것이 좋을 것 같습니다. 하지만 미래에 이 훅이 더 유용해질 수도 있으니 주시해두세요. 시간이 알려줄 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 154. 효과의 라이프사이클은 컴포넌트의 라이프사이클과 다릅니다.
 
@@ -1927,7 +3712,18 @@ Tradeoffs에 대한 문서를 확인해보세요.
 
 이것은 컴포넌트에 대해 생각하는 좋은 방법이지만, 효과에 대해서는 그렇지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 의존성 배열 규칙을 무시하는 완벽한 괴물이 아니라면, 외부 시스템을 구성 요소 렌더링에 동기화하는 방법을 설명하는 효과라는 것에 동의할 것입니다.
 
@@ -1937,7 +3733,18 @@ Tradeoffs에 대한 문서를 확인해보세요.
 
 ## 155. 각 효과는 별도의 동기화 프로세스를 나타냅니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 무의식적으로 이미 작성한 이펙트와 동시에 실행되어야 하는 논리를 추가하려는 유혹을 견디세요.
 
@@ -1947,7 +3754,18 @@ Tradeoffs에 대한 문서를 확인해보세요.
 
 친애하는 독자 여러분, 이 글을 읽어주셔서 감사합니다. 당신들에게 자부심을 느낍니다. 걱정 마세요, 우리가 이펙트가 작동하는 방식을 재정의할 마지막 시간입니다. 거의 다 됐습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서, 반응 값(reactive values)이 뭔가요?
 
@@ -1957,7 +3775,18 @@ Props, state 및 구성 요소 내에서 선언된 모든 변수는 반응 값�
 
 효과(Effects)는 구성 요소의 본문에서 어떤 값이든 "반응"할 수 있어요. (제목 떨어짐!)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 효과는 코드 블록의 반응적인 부분이기도 합니다. 그들은 내부에서 읽은 값이 변경될 때 다시 동기화됩니다.
 
@@ -1967,7 +3796,18 @@ Props, state 및 구성 요소 내에서 선언된 모든 변수는 반응 값�
 
 location.pathname과 같은 가변 값은 종속성이 될 수 없습니다. 이는 가변하기 때문에 React 렌더링 데이터 흐름 외에서 언제든지 변경될 수 있습니다. 이것은 또한 React의 규칙을 어기게 되며, 렌더링 중에 가변 데이터를 읽는 것(종속성을 계산할 때)은 순수성을 깨뜨립니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 동일한 이유로 ref.current와 같이 가변 값 또는 해당 값에서 읽어들이는 내용도 의존성이 될 수 없어요.
 
@@ -1977,7 +3817,18 @@ location.pathname과 같은 가변 값은 종속성이 될 수 없습니다. 이
 
 린터에게 이 값들이 반응형 값이 아님을 입증할 수 있어요. 예를 들어 컴포넌트 밖으로 이동하거나 Effect 안으로 이동시켜서 그렇게 할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 객체와 함수를 의존성으로 사용하지 않는 것도 좋은 방법입니다. 렌더링 중에 객체와 함수를 생성하고 나중에 효과에서 읽으면 매 렌더링마다 다를 수 있습니다.
 
@@ -1992,7 +3843,18 @@ useEffect(() => {
 }, []);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 거기서 마크다운으로 양식을 변경할 필요가 없어요. 린터가 당신의 친구에요. 린터가 의존성을 제안하지만 추가하면 루프나 다른 문제가 발생한다면, 그것은 린터를 무시해야 한다는 것이 아니라, Effect 내부(또는 외부)의 코드를 변경해야 한다는 것을 의미해요.
 
@@ -2002,7 +3864,18 @@ useEffect(() => {
 
 오랫동안, React 코드베이스는 Effect를 처리하기 위해 //estlint-disable-next-lines와 같은 것들로 오염되었어요. 우리, React 개발자들은 2019년 2월 이후로 기다리고 있었어요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기쁨을 너무 강조할 수가 없어요. 코드가 알아서 말해줄게요:
 
@@ -2027,7 +3900,18 @@ function Page({ url }) {
 
 참고로, 이 기능은 아직 실험적인 단계에 있어요. 그러나 React 팀이 새로운 React 문서가 베타 버전에서 벗어날 때까지 이 기능을 곧 릴리스할 예정이라는 힌트를 주었어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 마무리 글
 
@@ -2037,7 +3921,18 @@ function Page({ url }) {
 
 리액트에 대해 배울 유일한 방법이 멋진 컨퍼런스에 가서 멋진 해커들과 어울리는 것이었던 것을 기억해. 그들이 네 팜 파이롯을 해킹하지 않았다면 다행했을거야.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 젊은이든 어른이든, 하루 시간을 내어 새로운 React 문서를 읽어보는 걸 권장해요.
 
@@ -2047,6 +3942,17 @@ function Page({ url }) {
 
 도전을 받아들일 준비가 되어 있다면, 문서의 마지막 주제인 "Custom Hooks"을 확인해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 읽어 주셔서 감사합니다! 이런 재미있는 기술 이야기를 즐기고 영원히 쓰려면 Medium 회원이 되어 지원해 주시기를 고려해 보세요. 매월 $5로 Medium에서 이야기에 무제한으로 액세스할 수 있습니다. 제 링크를 사용하여 가입하면 제가 소액 커미션을 받을 수 있습니다. 또한 Medium과 Twitter에서도 제 소식을 받아볼 수 있습니다.

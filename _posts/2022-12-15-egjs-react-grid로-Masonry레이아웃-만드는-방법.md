@@ -3,17 +3,13 @@ title: "egjs react-grid로 Masonry레이아웃 만드는 방법"
 description: "react-grid로 MasonryGrid justifiedGrid PackingGrid 레이아웃을 만드는 방법에 대해서 공유합니다"
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # egjs react-grid로 Masonry레이아웃 만드는 방법
 
@@ -21,9 +17,18 @@ Masonry 레이아웃을 쉽게 구현할 수 있습니다.
 
 <img src="/assets/img/2022-12-15-egjs-react-grid로-Masonry레이아웃-만드는-방법-1.png" width="500" />
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2022-12-15-egjs-react-grid로-Masonry레이아웃-만드는-방법-2.png" width="500" />
 <img src="/assets/img/2022-12-15-egjs-react-grid로-Masonry레이아웃-만드는-방법-3.png" width="500" />
@@ -48,9 +53,18 @@ npm i @egjs/react-grid
 
 아래 컴포넌트를 그대로 사용하시면 됩니다.
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```tsx
 import React from "react";
@@ -105,9 +119,18 @@ export default Masonry;
 
 **위 컴포넌트를 렌더링하면 아래와 같이 Masonry 레이아웃을 매우 쉽게 만들 수 있습니다.**
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2022-12-15-egjs-react-grid로-Masonry레이아웃-만드는-방법-2.png" width="500" />
 
@@ -151,9 +174,18 @@ export default Masonry;
 JustifiedGrid 레이아웃을 적용한 방법과 동일하게
 PackingGrid를 import 해서 컴포넌트로 사용해줍니다.
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```tsx
 import React from "react";

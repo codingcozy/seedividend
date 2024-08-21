@@ -3,15 +3,13 @@ title: "FastAPI 애플리케이션에서 Server-Sent EventSSE 사용 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-Server-SentEventSSEinFastAPIApplications_0.png"
 date: 2024-07-09 09:22
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-Server-SentEventSSEinFastAPIApplications_0.png
 tag: Tech
 originalTitle: "Server-Sent Event(SSE) in FastAPI Applications"
 link: "https://medium.com/@rajansahu713/server-sent-event-sse-in-fastapi-applications-387dcd395d8d"
 isUpdated: true
 ---
-
-
 
 서버 전송 이벤트(Server-Sent Events, SSE)는 서버가 싱글 HTTP 연결을 통해 웹 클라이언트에 실시간 업데이트를 푸시할 수 있는 서버 푸시 기술입니다. 대시보드, 알림 또는 실시간 분석과 같이 실시간 업데이트가 필요한 애플리케이션에 특히 유용합니다.
 
@@ -23,7 +21,18 @@ isUpdated: true
 - 웹소켓과 달리 SSE는 양방향 통신이 아닌 단방향이며, 서버에서 클라이언트로 데이터가 흐릅니다.
 - 이로써 SSE는 서버가 클라이언트로 업데이트를 푸시해야 하는 경우에 더 간단한 대안이 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 왜 SSE를 사용해야 하나요?
 
@@ -36,7 +45,18 @@ SSE는 다음과 같은 시나리오에서 유용합니다:
 
 # FastAPI에서 SSE 구현하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 FastAPI은 속도와 사용 편의성으로 유명하며, sse-starlette 라이브러리와 통합하여 SSE를 구현하는 데 잘 작동합니다. 다음은 설정 방법입니다.
 
@@ -46,7 +66,18 @@ FastAPI은 속도와 사용 편의성으로 유명하며, sse-starlette 라이�
 
 먼저, FastAPI와 sse-starlette를 설치하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 pip install fastapi sse-starlette
@@ -71,7 +102,18 @@ async def sse_endpoint():
 
 이 예시에서 event_generator는 매 초마다 새 이벤트를 생성하는 비동기 생성자입니다. sse_endpoint 엔드포인트는 EventSourceResponse를 사용하여 SSE 연결을 처리합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## FastAPI에서 SSE 사용 사례
 
@@ -81,7 +123,18 @@ async def sse_endpoint():
 
 - 실시간 알림:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 사용자에게 이벤트 알림이 필요한 애플리케이션(메신저 앱이나 알림 시스템과 같은)은 SSE를 사용하여 이러한 업데이트를 신속하게 전달할 수 있습니다.
 
@@ -91,7 +144,18 @@ async def sse_endpoint():
 
 ## SSE의 장점:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 간편함: SSE는 웹소켓에 비해 구현과 관리가 간단합니다.
 - 자동 재연결: 브라우저가 자동으로 재연결을 처리하여 SSE가 실시간 업데이트에 강력합니다.
@@ -104,7 +168,18 @@ async def sse_endpoint():
 - 양방향 통신: 양방향 통신이 필요한 경우 웹소켓을 선호합니다.
 - 낮은 지연 시간: 웹소켓은 SSE보다 낮은 지연 시간을 제공하여 온라인 게임과 같이 매우 상호작용적인 애플리케이션에 적합합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Long Polling:
 
@@ -115,7 +190,18 @@ async def sse_endpoint():
 
 서버-전송 이벤트 (SSE)는 실시간 업데이트를 필요로하는 현실 세계 애플리케이션에서 널리 사용되고 있습니다. 여기에 몇 가지 주목할 만한 예시가 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 라이브 스포츠 스코어
 - 주식 시장 및 금융 데이터
@@ -127,7 +213,18 @@ async def sse_endpoint():
 
 ## SSE 구현
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 서버 측 구현:
 
@@ -158,7 +255,18 @@ async def sse_endpoint():
 - 서버는 경기 데이터의 실시간 피드를 유지하며 SSE를 사용하여 연결된 클라이언트에게 전송합니다.
 - 어떤 이벤트(골, 교체 등)가 발생할 때마다, 서버는 이 업데이트를 모든 연결된 클라이언트에게 푸시합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # main.py
 
@@ -226,7 +334,18 @@ Client-Side Implementation:
 </html>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 참고
 
@@ -237,7 +356,18 @@ Client-Side Implementation:
 
 sse-starlette를 사용하면 FastAPI 애플리케이션에 SSE를 통합하는 것이 간편하고 효율적입니다. 실시간 대시보드, 알림 시스템 또는 데이터 스트리밍 애플리케이션을 개발 중이든, SSE는 견고하고 간편한 해결책을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 읽어 주셔서 감사합니다! 만일 어떠한 오류를 발견하시거나 개선 제안이 있으시다면 아래 댓글에 공유해 주세요.
 

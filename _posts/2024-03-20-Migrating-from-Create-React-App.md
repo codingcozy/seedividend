@@ -3,17 +3,13 @@ title: "Creat React App에서 Nextjs 14로 마이그레이션 하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # Creat React App에서 Nextjs 14로 마이그레이션 하는 방법
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 Create React App에서 Next.js로 전환하고 싶은 이유는 몇 가지 있을 수 있어요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 초기 페이지 로딩 시간이 느립니다
 
@@ -34,7 +41,18 @@ Create React App은 순수 클라이언트 측 React를 사용합니다. 클라�
 
 ### 자동 코드 분할이 없습니다
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전에 발생한 느린로딩 시간 문제는 코드 분할로 어느 정도 해결할 수 있습니다. 그러나 수동으로 코드를 분할하려고 하면 성능이 오히려 나빠질 수 있습니다. 수동으로 코드를 분할하려고 하면 네트워크 폭포가 발생하기 쉬울 수 있습니다. Next.js는 자체 라우터에 내장된 자동 코드 분할 기능을 제공합니다.
 
@@ -44,7 +62,18 @@ Create React App은 순수 클라이언트 측 React를 사용합니다. 클라�
 
 Next.js에서는 클라이언트에서 데이터를 가져오는 것을 지원할 뿐만 아니라, 서버로 데이터 가져오기를 전환할 수 있는 옵션을 제공하여 클라이언트-서버 간의 폭포를 제거할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 빠르고 의도적인 로딩 상태
 
@@ -54,7 +83,18 @@ React Suspense를 통한 스트리밍 지원으로, 네트워크 폭포 효과�
 
 ### 데이터 가져오기 전략 선택
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요구에 따라 Next.js를 사용하면 페이지 및 구성 요소별로 데이터 가져오기 전략을 선택할 수 있습니다. 빌드 시간에 가져오는지, 서버에서 요청 시간에 가져오는지, 또는 클라이언트에서 가져오는지를 결정할 수 있습니다. 예를 들어, CMS에서 데이터를 가져와 블로그 게시물을 빌드할 때, CDN에 효율적으로 캐싱할 수 있습니다.
 
@@ -64,7 +104,18 @@ Next.js 미들웨어를 사용하면 요청이 완료되기 전에 서버에서 
 
 ### 내장된 최적화
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지, 폰트 및 타사 스크립트는 애플리케이션의 성능에 상당한 영향을 줄 수 있습니다. Next.js에는 자동으로 이를 최적화하는 내장 구성 요소가 포함되어 있습니다.
 
@@ -74,7 +125,18 @@ Next.js 미들웨어를 사용하면 요청이 완료되기 전에 서버에서 
 
 ### 단계 1: Next.js 종속성 설치하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 첫 번째 해야 할 일은 종속성으로 next를 설치하는 것입니다:
 
@@ -86,7 +148,18 @@ npm install next@latest
 
 프로젝트의 루트에 next.config.mjs 파일을 만듭니다. 이 파일에는 Next.js 구성 옵션이 저장됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /** @type {import('next').NextConfig} */
@@ -138,7 +211,18 @@ TypeScript를 사용하는 경우, tsconfig.json 파일을 다음 변경 사항�
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Next.js 문서에서 TypeScript를 구성하는 데 대한 자세한 정보를 찾을 수 있습니다.
 
@@ -148,7 +232,18 @@ Next.js 앱 라우터 애플리케이션은 모든 페이지를 감싸는 React 
 
 CRA 애플리케이션의 루트 레이아웃 파일에 가장 유사한 것은 `html`, `head`, `body` 태그가 포함된 index.html 파일입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 단계에서는 index.html 파일을 루트 레이아웃 파일로 변환할 것입니다:
 
@@ -163,7 +258,18 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
 > 참고: 레이아웃 파일에는 .js, .jsx 또는 .tsx 확장자를 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```typescript
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -184,7 +290,18 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Next.js에는 이미 기본적으로 meta charset 및 meta viewport 태그가 포함되어 있습니다. 따라서 안전하게 해당 태그들을 `head`에서 제거할 수 있습니다:
 
@@ -223,7 +340,18 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마침내, Next.js는 Metadata API를 사용하여 마지막 `head` 태그를 관리할 수 있게 되었습니다. 최종 메타데이터 정보를 내보낼 메타데이터 객체로 이동하세요:
 
@@ -250,7 +378,18 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
 ### 단계 6: 스타일
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트 앱 만들기처럼 Next.js에도 CSS Modules을 지원하고 있어요.
 
@@ -264,7 +403,18 @@ import "../index.css";
 
 Tailwind를 사용 중이라면, postcss와 autoprefixer를 설치해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm install postcss autoprefixer
@@ -283,7 +433,18 @@ module.exports = {
 
 ### 단계 7: 진입점 페이지 생성하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Next.js에서는 page.tsx 파일을 만들어 응용 프로그램의 진입점을 선언합니다. CRA에서 이 파일의 가장 유사한 것은 src/index.tsx 파일입니다. 이 단계에서는 응용 프로그램의 진입점을 설정할 것입니다.
 
@@ -293,7 +454,18 @@ Next.js에서는 page.tsx 파일을 만들어 응용 프로그램의 진입점�
 
 이 디렉토리는 선택적 캐치올(route segment) 라우트로 불립니다. Next.js는 파일 시스템 기반의 라우터를 사용하여 디렉토리를 경로로 정의합니다. 이 특별한 디렉토리는 응용 프로그램의 모든 경로가 그 안에 포함된 page.tsx 파일로 이동되도록 보장합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```typescript
 import "../../index.css";
@@ -311,7 +483,18 @@ export default function Page() {
 
 이 파일은 글로벌 CSS를 가져오고 `generateStaticParams` 함수에게 `/` 경로에 있는 인덱스 경로 하나만 생성할 것을 알려줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자, 이제 CRA 애플리케이션의 나머지 부분을 이동해 봅시다. 이 부분은 클라이언트 전용으로 실행될 것입니다.
 
@@ -332,7 +515,18 @@ export function ClientOnly() {
 
 앱 컴포넌트부터 아래로의 렌더링을 비활성화하려면 Next.js를 구성할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 새 컴포넌트를 사용하도록 엔트리포인트 페이지를 업데이트하세요:
 
@@ -351,7 +545,18 @@ export default function Page() {
 
 ### 단계 8: 정적 이미지 가져오기 업데이트
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Next.js는 CRA와 약간 다른 방식으로 정적 이미지 가져오기를 처리합니다. CRA의 경우, 이미지 파일을 가져오면 해당 이미지의 공개 URL이 문자열로 반환됩니다:
 
@@ -367,7 +572,18 @@ Next.js에서는, 정적 이미지 가져오기는 객체로 반환됩니다. �
 
 `Image` 컴포넌트는 자동 이미지 최적화의 장점을 가지고 있습니다. `Image` 컴포넌트는 이미지의 차원을 기반으로 결과 `img`의 너비와 높이 속성을 자동으로 설정합니다. 이는 이미지가로드 될 때 레이아웃 변화를 방지합니다. 그러나, 앱에 한 쪽 차원만 스타일이 적용된 이미지가 있는 경우 문제가 발생할 수 있습니다. 자동으로 스타일을 적용하지 않은 경우, 차원은 `img`의 차원 속성 값으로 기본 설정되어 이미지가 왜곡될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `img` 태그를 유지하면 응용 프로그램에서 변경량을 줄이고 위의 문제를 방지할 수 있습니다. 그럼 나중에 선택적으로 `Image` 컴포넌트로 마이그레이션하여 로더를 구성하거나 기본 Next.js 서버로 옮겨서 이미지 최적화를 활용할 수 있습니다.
 
@@ -383,7 +599,18 @@ import logo from "../public/logo.png";
 
 `img` 태그에 전체 이미지 객체 대신 이미지 src 속성을 전달해 주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 이전
@@ -399,7 +626,18 @@ import logo from "../public/logo.png";
 
 ### 단계 9: 환경 변수 이전하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Next.js는 CRA와 비슷한 .env 환경 변수를 지원합니다.
 
@@ -409,7 +647,18 @@ Next.js는 CRA와 비슷한 .env 환경 변수를 지원합니다.
 
 이제 Next.js로 성공적으로 이관되었는지 확인하기 위해 응용 프로그램을 실행할 수 있어야 합니다. 그러나 그 전에 package.json의 스크립트를 관련 Next.js 명령어로 업데이트하고, .gitignore 파일에 .next, next-env.d.ts 및 dist를 추가해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 {
@@ -433,7 +682,18 @@ dist
 
 ### 단계 11: 정리하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 Create React App과 관련된 자산을 코드베이스에서 정리할 수 있어요:
 
@@ -446,7 +706,18 @@ dist
 
 Create React App과 Next.js는 둘 다 번들링에 webpack을 기본으로 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CRA 애플리케이션을 Next.js로 이주할 때, 사용자 정의 웹팩 설정을 옮기려는 경우가 있을 수 있습니다. Next.js는 사용자 정의 웹팩 설정을 지원합니다.
 
@@ -456,7 +727,18 @@ CRA 애플리케이션을 Next.js로 이주할 때, 사용자 정의 웹팩 설�
 
 모든 것이 계획대로 진행된다면, 이제 단일 페이지 애플리케이션으로 작동하는 기능적인 Next.js 애플리케이션이 실행됩니다. 그러나 아직 Next.js의 대부분의 이점을 활용하지는 못 하고 있지만, 이제 점진적인 변화를 시작하여 모든 이점을 누릴 수 있습니다. 다음에 할 일은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - React Router에서 Next.js App Router로 마이그레이션하여 다음 사항을 얻으세요:
   자동 코드 분할
@@ -472,4 +754,15 @@ CRA 애플리케이션을 Next.js로 이주할 때, 사용자 정의 웹팩 설�
 
 > 알아두면 좋은 점: 정적 익스포트를 사용하는 경우 useParams 훅을 현재 지원하지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

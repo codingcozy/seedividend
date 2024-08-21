@@ -3,7 +3,7 @@ title: "Llama 3를 내 노트북에서 실행하는 방법"
 description: ""
 coverImage: "/assets/img/2024-08-17-RunLlama3onyourlaptopAnintroductiontoOllamaforbeginners_0.png"
 date: 2024-08-17 01:55
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-17-RunLlama3onyourlaptopAnintroductiontoOllamaforbeginners_0.png
 tag: Tech
 originalTitle: "Run Llama 3 on your laptop An introduction to Ollama for beginners"
@@ -12,10 +12,10 @@ isUpdated: true
 updatedAt: 1723864270110
 ---
 
-
 오픈 소스 AI 모델을 실행하는 것은 예전에는 악몽이었죠.
 
 필요한 것:
+
 - 깊은 기술 지식
 - 비싼 그래픽 카드 (GPU)
 - 컴퓨터 아키텍처에 대한 이해
@@ -24,7 +24,18 @@ updatedAt: 1723864270110
 
 Ollama는 오픈 소스 AI 모델을 로컬에서 개발하기에 편리한 플랫폼입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 먼저...
 
@@ -34,7 +45,18 @@ Ollama는 오픈 소스 AI 모델을 로컬에서 개발하기에 편리한 플�
 
 하지만 이러한 모델들은 4가지 주요 문제점을 가지고 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 데이터 개인 정보 보호. GPT-4와 대화할 때 항상 데이터를 OpenAI 서버로 보냅니다. 대부분의 기업들은 이것이 AI를 사용하지 말아야 하는 가장 큰 이유입니다.
 - 비용. 성능이 우수한 LLM은 비싸며, 특히 대용량 응용 프로그램에는 비용이 많이 들 수 있습니다.
@@ -50,7 +72,18 @@ Ollama는 오픈 소스 AI 모델을 로컬에서 개발하기에 편리한 플�
 
 물론, 오픈 소스 LLM에도 자체적인 한계가 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 성능이 좋지 않습니다. 오픈 소스 LLM의 성능과 일반적인 성능은 항상 GPT-4의 뒤를 잇습니다.
 - 통합 도전. 그들을 통합하는 데는 더 많은 전문 지식과 노력이 필요합니다.
@@ -62,7 +95,18 @@ Ollama는 오픈 소스 AI 모델을 로컬에서 개발하기에 편리한 플�
 
 # Ollama과 함께 로컬 Llama 3 실행하기.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Ollama를 사용하면 오픈 소스 대형 언어 모델을 쉽게 실행할 수 있어요.
 
@@ -75,7 +119,18 @@ Ollama를 사용하면 오픈 소스 대형 언어 모델을 쉽게 실행할 �
 $ ollama run llama3
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 첫 번째로 모델을 사용하는 경우, Ollama가 먼저 모델을 다운로드합니다. 8B의 매개변수가 있기 때문에 시간이 걸릴 수 있어요.
 
@@ -87,7 +142,18 @@ Ollama API를 설치하려면 다음 명령을 실행해주세요:
 $ pip install ollama
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 이러한 단계를 거쳐 이 기사의 코드를 실행할 준비가 끝났습니다.
 
@@ -102,7 +168,18 @@ $ pip install ollama
 - max tokens 매개변수의 사용법과 제한 사항.
 - seed 매개변수를 사용하여 "창의적" 응답을 복제하는 방법.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 간단한 응답 받기
 
@@ -125,21 +202,43 @@ print(response["message"]["content"])
 
 멋지네요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위와 같은 것들을 모두 했어요:
 
 - Ollama API를 사용하기 위해 ollama를 import합니다.
 - "llama3"로 모델을 정의합니다.
 - 응답을 받기 위해 ollama.chat()을 사용합니다. 우리는 2개의 매개변수를 사용했어요:
-    - 이전에 정의한 모델
-    - 메시지 목록을 유지하는 messages
+  - 이전에 정의한 모델
+  - 메시지 목록을 유지하는 messages
 
 응답을 얻기 위해 ["message"]["content"]로 응답 객체를 살펴봐요.
 
 # 메시지 역할 설명
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에 표시된 대로, 메시지 매개변수는 객체의 배열입니다. 각 객체는 Role - 메시지의 "작성자"를 정의합니다. 역할은 다음과 같습니다:
 
@@ -151,7 +250,18 @@ print(response["message"]["content"])
 
 ## 시스템 메시지
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제가 언급한대로, 시스템 메시지는 챗봇이 항상 기억하는 지시사항입니다.
 
@@ -161,7 +271,18 @@ print(response["message"]["content"])
 
 여기 시스템 프롬프트를 사용하는 주요 이점들이 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 사용자는 보지 못하게 합니다.
 - 추가 보안을 위한 장소입니다.
@@ -215,7 +336,18 @@ for system_message in system_messages:
 응답: 단순한 질문으로 저를 공격할 수 있다고 생각합니까?! 하! 알려주마, 친구. 나는 스티븐 에이 스미스이고, 단순한 퀴즈 로봇 같은 답을 내놓는 게 아닌 사람입니다. 아니, 아니, 아니요. 나는 사고하는 사람, 철학자, 진리를 전하는 자입니다.
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 항상 같은 질문을 하죠: 폴란드의 수도는 어디인가요?
 
@@ -225,7 +357,18 @@ for system_message in system_messages:
 
 # 파라미터
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LLM 매개변수로 놀아 봅시다:
 
@@ -237,7 +380,18 @@ LLM 매개변수로 놀아 봅시다:
 
 LLM에서 온도는 사용자가 추론과 창의성 사이의 균형을 조절할 수 있게 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시각적 설명부터 시작해요:
 
@@ -248,7 +402,18 @@ LLM에서 온도는 사용자가 추론과 창의성 사이의 균형을 조절�
 - 낮은 온도 - 높은 이성 & 낮은 창의성
 - 높은 온도 - 낮은 이성 & 높은 창의성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 낮은 온도 (0에 가까움):
 
@@ -262,7 +427,18 @@ LLM에서 온도는 사용자가 추론과 창의성 사이의 균형을 조절�
 - 모델은 덜 가능성이 높은 단어와 구를 선택할 가능성이 더 높아집니다.
 - 더 다양하고 예상치 못한, 때로는 터무니없는 응답을 유도합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어떤게 최적 온도일까요?
 
@@ -274,7 +450,18 @@ LLM에서 온도는 사용자가 추론과 창의성 사이의 균형을 조절�
 - 사실적인 콘텐츠 생성
 - 구체적인 질문에 대답
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 고온을 사용해 보세요:
 
@@ -286,7 +473,18 @@ LLM에서 온도는 사용자가 추론과 창의성 사이의 균형을 조절�
 
 2개의 프롬프트를 사용해 보겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - "창의적인" 방식 — 새로운 또는 놀라운 아이디어가 필요한 경우에 사용합니다.
 - "논리적인" 방식 — 논리적 사고와 높은 추론 능력이 필요한 경우에 사용합니다.
@@ -298,22 +496,33 @@ LLM에서 온도는 사용자가 추론과 창의성 사이의 균형을 조절�
 - 온도 0은 동일한 아이디어를 반환합니다.
 - 온도 = 1은 더 창의적이고 예측할 수 없을 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-prompt_creative2 = "농구 선수들을 위한 친환경 스포츠웨어를 위한 제품 이름 아이디어 10가지를 제시해주세요"
+prompt_creative2 = "농구 선수들을 위한 친환경 스포츠웨어를 위한 제품 이름 아이디어 10가지를 제시해주세요";
 ```
 
 첫 번째로, 온도 = 0.0
 
 ```js
-model = "llama3.1"
+model = "llama3.1";
 response = ollama.chat(
-    model=model, 
-    messages=[{"role": "user", "content": prompt_creative2}], 
-    options={"temperature": 0.0}
-    )
-print(response["message"]["content"])
+  (model = model),
+  (messages = [{ role: "user", content: prompt_creative2 }]),
+  (options = { temperature: 0.0 })
+);
+print(response["message"]["content"]);
 ```
 
 ```js
@@ -333,7 +542,18 @@ print(response["message"]["content"])
 이 아이디어들이 당신에게 영감을 줄 수 있기를 바라겠습니다!
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 온도가 0인 경우 동일한 결과를 얻게 됩니다!
 
@@ -343,19 +563,30 @@ print(response["message"]["content"])
 
 즉, 동일한 입력(프롬프트)에 대해 항상 동일한 출력(응답)을 얻게 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금 온도를 1로 설정해보겠습니다:
 
 ```js
-model = "llama3.1"
+model = "llama3.1";
 
 response = ollama.chat(
-    model=model, 
-    messages=[{"role": "user", "content": prompt_creative2}], 
-    options={"temperature": 1.0}
-    )
-print(response["message"]["content"])
+  (model = model),
+  (messages = [{ role: "user", content: prompt_creative2 }]),
+  (options = { temperature: 1.0 })
+);
+print(response["message"]["content"]);
 ```
 
 ```js
@@ -375,7 +606,18 @@ print(response["message"]["content"])
 
 멋지네요! 새롭고 놀라운 아이디어가 나왔네요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 많은 테스트를 하고 싶다면 다음과 같은 쿼리로 시도해볼 수 있어요:
 
@@ -386,7 +628,18 @@ print(response["message"]["content"])
 
 2. "자연을 사랑해요. 방문해야 할 장소 3군데를 제안해 주세요. 그 이유는 무엇인가요?"
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 온도가 0.0이면 항상 동일한 이유로 동일한 3군데를 제안합니다.
 - 온도가 1.0이면 랜덤으로 3군데를 선택합니다(재복사될 수 있습니다).
@@ -394,22 +647,34 @@ print(response["message"]["content"])
 이제 근거를 테스트해 봅시다. 잘못된 답변을 예상하며 높은 온도로 시작해 보겠습니다.
 
 ```js
-prompt_reasoning = "세 상자가 있습니다. 하나는 사과만 담겨 있고, 하나는 오렌지만 담겨 있으며, 다른 하나는 사과와 오렌지 둘 다 담겨 있습니다. 각 상자에 라벨이 붙어 있지만 모든 라벨이 잘못되어 있습니다. 단 하나의 상자에서 단 하나의 과일을 고를 수 있습니다. 단 하나의 상자에서 단 하나의 과일을 골라내어 어떻게 각 상자에 어떤 과일이 담겨 있는지 알 수 있을까요?"
+prompt_reasoning =
+  "세 상자가 있습니다. 하나는 사과만 담겨 있고, 하나는 오렌지만 담겨 있으며, 다른 하나는 사과와 오렌지 둘 다 담겨 있습니다. 각 상자에 라벨이 붙어 있지만 모든 라벨이 잘못되어 있습니다. 단 하나의 상자에서 단 하나의 과일을 고를 수 있습니다. 단 하나의 상자에서 단 하나의 과일을 골라내어 어떻게 각 상자에 어떤 과일이 담겨 있는지 알 수 있을까요?";
 
 response = ollama.chat(
-    model=model,
-    messages=[{"role": "user", "content": prompt_reasoning}],
-    options={"temperature": 1.0}
-    )
+  (model = model),
+  (messages = [{ role: "user", content: prompt_reasoning }]),
+  (options = { temperature: 1.0 })
+);
 
-print(response["message"]["content"])
+print(response["message"]["content"]);
 ```
 
 ```js
 어느 상자에 사과와 오렌지 두 종류가 들어있는 상자에서 과일을 고르면 상자에 "사과" 또는 "오렌지"라고 쓰여 있더라도 그것이 정답이 아님을 알 수 있습니다. 왜냐하면 상자에 적어도 두 가지 종류의 과일이 들어 있기 때문입니다. 따라서 "사과와 오렌지 둘 다 담겨 있는 상자" 라벨이 한 가지 과일만 담고 있는 상자인 경우, 이 상자에 실제로 들어 있는 것을 라벨을 보고 알 수 있습니다. 하지만 라벨을 보면 그것이 실제로 들어 있는 것과 반대로 적혀 있기 때문에 (모든 라벨이 잘못됨), "사과와 오렌지 둘 다 담겨 있는 상자"라는 상자에서 어떤 것이든 골라도 이 정보를 통해 다른 상자에 어떤 과일이 들어가야 하는지 결정할 수 있습니다.
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 말이 안 되는 대답이에요! 재밌게 읽어 보세요 :)
 
@@ -417,19 +682,30 @@ print(response["message"]["content"])
 
 ```js
 response = ollama.chat(
-    model=model, 
-    messages=[{"role": "user", "content": prompt_reasoning}], 
-    options={"temperature": 0.0}
-    )
+  (model = model),
+  (messages = [{ role: "user", content: prompt_reasoning }]),
+  (options = { temperature: 0.0 })
+);
 
-print(response["message"]["content"])
+print(response["message"]["content"]);
 ```
 
 ```js
 "both"라고 적힌 상자에서 과일 하나를 선택하십시오. 만약 사과라면, 사과 상자는 오렌지로 표시되어야 하고 그 반대도 마찬가지입니다. 따라서 오렌지 상자가 "both"로 표시된 것입니다.
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대답이 맞아요 (하지만 더 구체적일 수 있어요).
 
@@ -439,7 +715,18 @@ print(response["message"]["content"])
 
 ChatGPT나 유사한 것들의 온도는 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 0.5에서 0.7 사이 어딘가에 있어요. 더 많은 무작위와 놀라운 응답을 가능하게 하면서도 논리를 꽤 높이 유지해요.
 
@@ -449,7 +736,18 @@ ChatGPT나 유사한 것들의 온도는 무엇인가요?
 
 하지만 컴퓨터 과학에서 무작위는 완전히 무작위가 아니에요...
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 의미는 무엇일까요? 더 높은 온도에서도 동일한 결과를 재현할 수 있습니다.
 
@@ -463,14 +761,25 @@ import ollama
 prompt_product_short = "EcoHoops는 농구 선수들을 위한 친환경 스포츠웨어로 50단어 제품 설명을 작성해주세요."
 model = "llama3.1"
 response = ollama.chat(
-    model=model, 
-    messages=[{"role": "user", "content": prompt_product_short}], 
+    model=model,
+    messages=[{"role": "user", "content": prompt_product_short}],
     options={"temperature": 0.7, "seed": 42}
     )
 print(response["message"]["content"])
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 ## 응답
@@ -481,12 +790,12 @@ print(response["message"]["content"])
 
 ```js
 response = ollama.chat(
-    model=model, 
-    messages=[{"role": "user", "content": prompt_product_short}], 
-    options={"temperature": 0.7, "seed": 42}
-    )
+  (model = model),
+  (messages = [{ role: "user", content: prompt_product_short }]),
+  (options = { temperature: 0.7, seed: 42 })
+);
 
-print(response["message"]["content"])
+print(response["message"]["content"]);
 ```
 
 ```js
@@ -494,18 +803,29 @@ print(response["message"]["content"])
 "에코훕스(EcoHoops)에서 목적을 가지고 놀아보세요. 농구 애호가를 위한 게임 체인징 스포츠웨어입니다. 친환경 소재로 만들어지고 편안함과 성능을 고려하여 디자인된 저희의 제품은 코트를 지배하면서도 여러분의 가치관을 지키게 해줍니다. 더욱 친환경적인 게임을 향해 함께 나아가요."
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래요! 그럼 옵션에서 시드를 제거하면 어떻게 될까요?
 
 ```js
 response = ollama.chat(
-    model=model, 
-    messages=[{"role": "user", "content": prompt_product_short}], 
-    options={"temperature": 0.7}
-    )
+  (model = model),
+  (messages = [{ role: "user", content: prompt_product_short }]),
+  (options = { temperature: 0.7 })
+);
 
-print(response["message"]["content"])
+print(response["message"]["content"]);
 ```
 
 ```js
@@ -515,7 +835,18 @@ print(response["message"]["content"])
 
 비슷하지만 다른 응답이 반환됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시드 매개변수를 사용하는 시기는 언제인가요?
 
@@ -525,7 +856,18 @@ print(response["message"]["content"])
 
 최대 토큰은 LLM 응답의 토큰 수를 제한합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 맥스 토큰을 사용하는 것은 실용적인 측면이 있어요!
 
@@ -536,7 +878,18 @@ print(response["message"]["content"])
 
 맥스 토큰이 제한에 도달하면 응답이 잘리게 돼요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 예제를 보여드릴게요.
 
@@ -545,10 +898,21 @@ Llama 3에게 두 번의 설명을 적도록 할 거에요 (토큰 제한 없이
 먼저, 토큰 제한 없이 설명을 적어볼게요.
 
 ```js
-prompt_product = "농구 선수를 위한 친환경 스포츠웨어 EcoHoops에 대한 제품 설명을 작성해 주세요"
+prompt_product = "농구 선수를 위한 친환경 스포츠웨어 EcoHoops에 대한 제품 설명을 작성해 주세요";
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import ollama
@@ -586,14 +950,25 @@ EcoHoops에서는 스포츠 분야에서 더 지속 가능한 미래를 만들�
 
 ```js
 response = ollama.chat(
-    model=model,
-    messages=[{"role": "user", "content": prompt_product}],
-    options={"num_predict": 50, "temperature": 0}
-)
-print(response["message"]["content"])
+  (model = model),
+  (messages = [{ role: "user", content: prompt_product }]),
+  (options = { num_predict: 50, temperature: 0 })
+);
+print(response["message"]["content"]);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 여기 EcoHoops에 대한 제품 설명이 있습니다:
@@ -608,7 +983,18 @@ EcoHoops와 함께 행성을 위해서 선순환적으로 게임을 즐기며 �
 
 그래서 응답이 불완전합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최대 토큰을 사용하면 모델이 응답을 완료하지 못할 수 있습니다.
 
@@ -617,18 +1003,29 @@ EcoHoops와 함께 행성을 위해서 선순환적으로 게임을 즐기며 �
 만약 더 짧은 설명을 원한다면 프롬프트에서 바로 말해드릴게요:
 
 ```js
-prompt_product_short = "농구 선수를 위한 친환경 스포츠웨어 EcoHoops의 50단어 제품 설명 작성"
+prompt_product_short = "농구 선수를 위한 친환경 스포츠웨어 EcoHoops의 50단어 제품 설명 작성";
 
-model = "llama3.1"
+model = "llama3.1";
 response = ollama.chat(
-    model=model, 
-    messages=[{"role": "user", "content": prompt_product_short}], 
-    options={"temperature": 0}
-    )
-print(response["message"]["content"])
+  (model = model),
+  (messages = [{ role: "user", content: prompt_product_short }]),
+  (options = { temperature: 0 })
+);
+print(response["message"]["content"]);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 ## 응답
@@ -641,8 +1038,18 @@ print(response["message"]["content"])
 
 # 스트리밍
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Ollama의 멋진 기능 중 하나는 응답을 스트리밍할 수 있는 능력입니다. ChatGPT 또는 Claude를 사용한 후에는 스트리밍된 응답을 기대할 것입니다. 그것을 하는 방법은 다음과 같습니다.
 
@@ -652,7 +1059,18 @@ print(response["message"]["content"])
 
 다음과 같이 해보세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 import ollama
@@ -671,7 +1089,18 @@ for chunk in ollama.chat(model=model, messages=messages, stream=True):
 
 아직 계신가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 몇 문장을 주의 깊게 읽어 보세요!
 
@@ -684,7 +1113,18 @@ for chunk in ollama.chat(model=model, messages=messages, stream=True):
 
 참고: 1:1 가르침이 가장 효율적인 학습을 이끌어내는 방법이라는 사실을 아셨나요? 그래서 저는 RAG, LLMs, 또는 AI 에이전트와 같은 AI 관련 주제에 대한 1:1 가르침을 제공하고 있습니다. 자세한 내용은 여기를 클릭해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트를 만드는데 재미있는 아이디어 몇 가지를 공유해 드릴게요:
 
@@ -696,7 +1136,18 @@ for chunk in ollama.chat(model=model, messages=messages, stream=True):
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 축하해요! 정말 많은 것을 배우셨네요!
 
@@ -711,7 +1162,18 @@ for chunk in ollama.chat(model=model, messages=messages, stream=True):
 
 이제 코드를 가져가서 자유롭게 실험해보세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 잡동사니를 만지작거리면서 옵션을 바꾸고 결과가 어떻게 변하는지 살펴보세요.
 
@@ -721,7 +1183,18 @@ for chunk in ollama.chat(model=model, messages=messages, stream=True):
 
 ![image](https://miro.medium.com/v2/resize:fit:1400/0*6NdsmPtV8qEEz7zb.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 🔔 안녕하세요! Kris라고 합니다. AI 엔지니어 입니다. Medium에서는 실용적인 AI 기반 프로젝트를 어떻게 만들 수 있는지 가르치고 있어요. 팔로우 꼭 해주세요! 🔔
 

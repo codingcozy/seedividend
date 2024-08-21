@@ -3,16 +3,13 @@ title: "ETF 데이터 분석을 위한 Python 활용 금융 정보를 가져오�
 description: ""
 coverImage: "/assets/img/2024-07-13-PythonforETFDataAnalysisHowtoFetchAnalyzeandVisualizeFinancialInformation_0.png"
 date: 2024-07-13 20:05
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-PythonforETFDataAnalysisHowtoFetchAnalyzeandVisualizeFinancialInformation_0.png
 tag: Tech
 originalTitle: "Python for ETF Data Analysis: How to Fetch, Analyze and Visualize Financial Information"
 link: "https://medium.com/python-in-plain-english/python-for-etf-data-analysis-how-to-fetch-analyze-and-visualizing-financial-information-6e23024a7b2c"
 isUpdated: true
 ---
-
-
-
 
 금융 분석을 위한 Python의 힘을 발견하는 여정에 나서보세요! 이 포괄적인 안내서는 CSV 보고서를 작성하거나 대화형 Flask 대시보드를 생성하려는지 여부에 관계없이 Exchange-Traded Funds (ETFs) 데이터를 가져오고 분석하고 시각화하는 단계를 안내해 드립니다. 금융 애호가와 신진 개발자 모두에게 이 이야기는 Python을 사용한 ETF 데이터 분석을 숙달하는 길로 안내해주는 열쇠입니다.
 
@@ -22,7 +19,18 @@ ETFs의 매력을 발견해보세요
 
 그런데 이야기의 전개에는 한 가지 반전이 있습니다: 금융 데이터의 방대한 바다를 항해하는 것은 단순히 지도를 가지고 하는 것 이상을 요구합니다; 강력한 신비한 도구가 필요합니다. 현대의 요술사의 지팡이인 Python이 나타납니다. Python이 곁에 있다면, 당신은 수동적인 여행자가 아닌, 시장 트렌드와 투자 기회의 파도를 헤치며 운명을 결정하는 선장이 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "왜 ETFs에게 그토록 주목해야 하는지 궁금해하실 수 있습니다. 이러한 금융 자산은 여러 가지 이유로 매력적입니다:
 
@@ -34,7 +42,18 @@ ETFs의 매력을 발견해보세요
 
 ![이미지](/assets/img/2024-07-13-PythonforETFDataAnalysisHowtoFetchAnalyzeandVisualizeFinancialInformation_0.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신의 퀘스트 설정하기
 
@@ -46,7 +65,18 @@ ETFs의 매력을 발견해보세요
 - 인내심: 프로그래밍의 세계나 좋은 모험에서도 시행 착오와 반대 상황을 경험하게 될 것입니다. 기억해주세요, 코드가 반격을 할 수 있지만 모든 오류 메시지는 보물에 한 발 다가갈 수 있는 단서입니다.
 - yfinance: 금융 영역의 마법사들에 의해 창조된 이 마법책은 몇 줄의 코드로만 금융 데이터를 불러올 수 있는 마법을 부리는 것을 가능하게 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 여정은 여기서 끝나지 않아요. 데이터의 무성한 숲을 헤치고 분석의 산등성이를 오를 때, 여러분의 가방에는 몇 가지 도구가 더 필요할 거에요:
 
@@ -59,7 +89,18 @@ ETFs의 매력을 발견해보세요
 - 터미널이나 명령 프롬프트를 열고 마법의 주문인 pip install yfinance pandas numpy Flask을 속삭여 주세요. 이 주문은 필요한 라이브러리를 거대한 Python 패키지 인덱스(PyPI)에서 불러오고 환경에 설치할 거에요.
 - 작업 디렉토리에 etfs.txt라는 텍스트 파일을 준비하세요. 파일 안에 탐구하고자 하는 ETF의 심볼을 한 줄씩 나열해 주세요. 이 문서는 여러분의 탐구를 안내해 줄 것이며, yfinance에게 건너뛴다는 트레져를 찾을 것을 알려줄 거에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 준비가 완료되어 위대한 모험의 시작점에 서게 되었군요. 깊게 숨을 들이마시세요, 모험가 여러분. 여러분은 해독하지 못한 수수께끼 속으로 들어가게 될 것입니다. 우리는 이 목표를 달성하기 위해 기록해 두겠습니다.
 
@@ -77,7 +118,18 @@ ETFs의 매력을 발견해보세요
 
 이러한 지표들이 여러분의 투자 여정을 안내할 지도가 됩니다. ETF가 밟아온 길, 싸운 전투, 그리고 이겨낸 승리를 보여줌으로써 재물 영광을 위한 여행길에 함께할 가치 있는 동반자인지 여부를 결정할 수 있습니다. 이 지식을 무장하고 이제 ETF 세계가 여러분을 기다리고 있습니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 **코드를 이해하는 여정을 떠나다**
 
@@ -97,7 +149,18 @@ def fetch_options_data(symbol):
     etf = yf.Ticker(symbol)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리의 동맹들을 모으는 중이에요. Flask는 마법같은 대시보드를 만들어줄 거에요, yfinance는 금융 데이터의 세계로 들어가는 당신의 게이트웨이입니다, pandas는 이 데이터를 정리하는 데 도움을 주고, numpy는 당신이 필요로 할 어떤 숫자적 마법도 지원할 거에요. fetch_options_data 이 함수는 마치 요술사와 상담을 하는 것과도 같아요. 당신이 ETF의 심볼을 제공함으로써, 옵션 데이터를 통해 선물 시장에 대한 정보를 찾고 있습니다. yf.Ticker(symbol)의 주문은 당신이 선택한 ETF에 대한 정보를 불러올 거에요.
 
@@ -116,7 +179,18 @@ try:
 
 이 세그먼트에서는 시간의 안개를 통해 거래자들이 베팅한 선물을 엿볼 거에요. etf.options는 옵션의 존재하는 미래 날짜를 보여주며, 시장 관련자들의 기대를 엿볼 수 있게 도와줍니다. 첫 번째 만기일의 옵션 체인을 조사함으로써, ETF에 대한 베팅을 풀어내는 puts(ETF에 대한 베팅)와 calls(ETF를 위한 베팅)의 수를 알아냅니다. 이 숫자들과 만기일은 시장의 심리를 암시하는 보물이 되어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. 미지의 처리:
 
@@ -131,7 +205,18 @@ try:
 
 이 코드는 ETF와 옵션의 신비로운 세계로의 첫 걸음입니다. 여러분은 지식을 찾고, 불확실성에 대비하며 시장의 속삭임을 해석하는 법을 배우게 될 거예요. 우리 여정이 깊어질수록 기억해 주세요: 가장 위대한 마법사들도 한 때는 단지 수습생에 불과했으며, 그 힘은 호기심, 성실함, 그리고 시작할 용기를 통해 형성되었어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자산 총액 형식화
 
@@ -148,7 +233,18 @@ def format_assets(assets):
 
 마법 도서관 공개: EFT 데이터 가져오기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리의 모험은 yfinance의 마법 도서관 심층으로 이어집니다. 거기에는 방대한 지식의 두루마리가 기다리고 있습니다. fetch_data 주문은 우리가 탐험하고자 하는 어떤 ETF 심볼에 대한 비밀을 해제하는 열쇠입니다. 이 강력한 주문이 어떻게 작동하는지 알아봅시다:
 
@@ -198,7 +294,18 @@ def fetch_data(symbol):
 - 수익률과 자산의 보물 지도: 그리고 주문은 이후 1년, 3년, 5년 동안의 수익률과 함께 총 자산을 계산합니다. 이는 보물이 어디에 있을지뿐만 아니라 시간이 지남에 따라 어떻게 자라냈는지를 나타내는 보물 지도를 펼치는 것과 같습니다.
 - 지식의 두루마리 제작: 마지막으로, 우리의 주문은 이 모든 지혜를 쉽게 읽을 수 있는 형식으로 나열한 자세한 두루마리를 만듭니다. 이에는 ETF의 이름, 최신 가격, 고점과 저점, 수익률 등이 포함됩니다. 각 정보 조각은 모험가들이 금융 모험에서 정보된 결정을 내릴 수 있도록 도와주는 단서입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 포탈 제작: Flask가 데이터를 살려 냅니다
 
@@ -211,7 +318,18 @@ def etf_data():
 
 이 말을 통해 우리는 디지털 영역에서 공간을 만들어내고, ETF 데이터가 공개될 전용 성소를 조성하게 됩니다. 마치 숨겨진 보물이 가득한 방문을 열듯 합니다. 그런 다음, 우리는 ETF 심볼 목록을 소환하고, 시장의 수수께끼를 푸는 열쇠로 이어지는 각각의 심볼을 확인하기 위한 안내서로 활용합니다. 이 목록은 우리의 안내자이자, 원하는 스크롤로 이끌어주는 길잡이입니다. 리스트가 제시되면, 하나씩, 우리는 각 ETF 심볼의 데이터를 호출하여 지식의 포괄적인 두루미를 펼쳐 냅니다. 마치 우리가 고대의 원고를 수집하는 듯한데요, 각각이 통찰과 비밀로 가득한 원고입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 무엇일까요? 다음 단계는 수집한 데이터를 시각적인 형태인 테이블로 변환하는 것입니다. 네비게이션하기 쉽고 눈에 즐겁게 보기 좋은 테이블입니다. 그것은 생 데이터를 숫자와 사실들로 짜여진 아름다운 속삭임으로 만드는 주문입니다.
 
@@ -230,7 +348,18 @@ etf_data 함수와 함께, 우리는 단숴분야를 분석한 것뿐만 아니�
 
 마지막 부분은 tricky합니다: 우리는 데이터를 csv 형식으로 다운로드하거나 Flask 대시보드로 이동할 수 있습니다. 따라서 Flask를 가져오고 활성화할 필요가 없습니다. 웹페이지에 표시하는 것이 더 멋지게 보여서 대시보드를 선택할 예정입니다 (개인적인 지각).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 html_template = """
@@ -263,11 +392,20 @@ HTML의 몸체 안에서 우리는 소중한 데이터를 담는 컨테이너로
 그래서, 코드가 준비되었습니다. 실행할 수 있고 결과를 볼 수 있습니다.
 브라우저를 열고 URL을 입력하세요: http://127.0.0.1:5000/.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 귀하가 원하는 코드를 Markdown 형식으로 변경한 것입니다.
-
 
 ![Python for ETF Data Analysis - How to Fetch, Analyze, and Visualize Financial Information](/assets/img/2024-07-13-PythonforETFDataAnalysisHowtoFetchAnalyzeandVisualizeFinancialInformation_1.png)
 
@@ -376,8 +514,18 @@ if __name__ == '__main__':
 
 The Treasure Unveiled: What We Have Achieved
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 축하합니다, 친애하는 모험가 여러분! 여러분은 금융 데이터의 미로를 헤쳐나가며, 파이썬의 마법을 휘둘러 ETF의 비밀을 플라스크 대시보드의 투명한 화면을 통해 밝혀내었습니다. 이제 우리가 발견한 보물에 놀라보는 시간을 가져봅시다:
 
@@ -389,7 +537,18 @@ The Treasure Unveiled: What We Have Achieved
 
 기반을 다지고 배를 준비한 상태에서, 우리는 여기서 어디로 항해해야 할까요? 금융과 코딩의 영역은 방대하며, 발굴되지 않은 미스터리가 무수히 많습니다. 다음은 여러분이 떠날 수 있는 잠재적인 항해들입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 대시보드를 embold: 우리의 Flask 앱은 기능적이지만, 웹 디자인의 영역에서 아름다움은 힘이 될 수 있어요. 대시보드를 시각적으로 멋진 걸작으로 변신시키기 위해 CSS 마법과 JavaScript 마법을 활용해 보세요. 모든 방문자를 사로잡는 멋진 대시보드로 만들어 보세요.
 
@@ -405,7 +564,18 @@ The Treasure Unveiled: What We Have Achieved
 
 다시 만나는 그 순간까지, 용감한 모험가여, 이만 작별하겠습니다. 행운의 바람이 당신을 이끌어주길 바라며, 당신이 항상 지혜와 번창의 해안에 도착할 수 있기를 바랍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인 플레인 영어 커뮤니티의 일원이 되어 주셔서 감사합니다! 떠나시기 전에:
 

@@ -3,17 +3,13 @@ title: "자바스크립트 대신 NET Blazor를 사용하는 이유"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Beyond JavaScript Exploring NET Blazors Challenge to React"
 link: "https://medium.com/itnext/beyond-javascript-exploring-net-blazors-challenge-to-react-e9bcd41ef4a0"
 isUpdated: true
 ---
-
-
-
-
 
 프론트엔드 기술로, 저희 팀은 여전히 서버 측 웹 페이지를 생성하는 .NET 라이브러리인 Razor를 사용하고 있었어요. 안타깝게도, Razor가 페이지를 렌더링하고 클라이언트로 보내는 속도는 요즘 원하는 성능을 갖고 있지 않아요. 고대적인 서버 측 요청/응답 모델 대신, 최신 프론트엔드 프레임워크로 개발된 웹 페이지는 페이지 콘텐츠를 업데이트하기 위해 더 클라이언트 측 접근 방식을 사용해요. 더 현대적인 프론트엔드 기술을 선택하기 위해, 우리는 Razor Pages의 후손인 .NET Blazor와 인기 있는 JavaScript 라이브러리인 React를 비교해서 어떤 것이 우리 팀에 더 적합한지 결정하려고 했어요. 이 기술들을 조금 더 잘 이해해보고 좋은 비교를 할 수 있도록 해봐요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 Blazor는 현대적인 웹 개발을 염두에 두고 만들어졌으며, 몇 가지 다른 시나리오를 지원해요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 웹소켓을 통해 DOM 차이 업데이트를 전달하여 서버 측 렌더링
 - WebAssembly (WASM)에서 실행하고 JS 상호 운용성을 통해 DOM을 업데이트하여 클라이언트 측 렌더링
@@ -35,7 +42,18 @@ Blazor는 가장 인기있는 현대 브라우저에서 지원됩니다.
 
 Blazor의 주요 약속은 JavaScript 한 줄도 쓰지 않고 풀 스택 웹 앱을 구축할 수 있는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또한, 다음과 같은 것들을 약속합니다:
 
@@ -48,7 +66,18 @@ Blazor의 주요 약속은 JavaScript 한 줄도 쓰지 않고 풀 스택 웹 �
 
 본질적으로 모든 Blazor 앱은 구성 요소 기반입니다. 즉 사용자 인터페이스 내의 요소가 모달, 폼 또는 표와 같은 작은 재사용 가능한 구성 요소로 분리된다는 것을 의미합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 컴포넌트들은 예전부터 Razor 페이지에 사용되던 Razor 마크업으로 작성되었습니다. 이 문법을 사용하면 C#과 HTML 마크업을 쉽게 전환할 수 있습니다. Blazor는 옛날 방식인 요청 및 응답 모델에 의존하지 않고, 대신 현대적인 JavaScript UI 프레임워크에서 사용하는 기술을 채용하여 클라이언트 측 디자인 및 논리 구현에 컴포넌트만 사용합니다.
 
@@ -58,7 +87,18 @@ Blazor 서버 렌더링 옵션을 사용하는 경우에도 Blazor는 동작이 
 
 Blazor WebAssembly(WASM)에도 유사한 기술이 사용됩니다. 매우 간단히 요약하면 WASM은 JavaScript 이외의 프로그래밍 언어를 컴파일할 수 있는 스택 기반 가상 머신에서 실행할 수 있는 이진 명령 형식입니다. 기본적으로 모든 네 가지 현대 브라우저(Chrome, Firefox, Edge 및 Safari)에는 브라우저에 통합된 이러한 가상 머신이 있어 JavaScript 이외의 프로그래밍 언어를 컴파일할 수 있도록 합니다. 이것은 Docker가 작동하는 방식과 약간 비교할 수 있으며 모듈을 실행할 수 있는 안전한 메모리 환경을 제공합니다. 이 WASM 샌드박스를 통해 Blazor는 자체 DOM의 복사본을 만들고 차이 비교를 수행하여 브라우저 DOM에 변경 사항이 발생할 경우 브라우저 DOM을 수정할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 왜 Blazor가 좋은 선택일까요?
 
@@ -68,7 +108,18 @@ Blazor은 저희 팀이 이미 C#과 .NET 기술을 사용하는 데 익숙하�
 
 React는 자바스크립트 라이브러리로, 순수 자바스크립트에 기반합니다. Facebook(지금은 Meta)이 2013년에 무료 오픈 소스 라이브러리로 처음 출시했습니다. React의 핵심은 매우 기본적이며, 기본적으로 라우팅 및 데이터 가져오기와 같은 기능을 기본적으로 포함하지 않으며 대신 본인만의 유연성을 제공하거나 이를 위해 제3자 솔루션을 구현할 수 있도록 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다른 라이브러리를 사용하여 React를 실행할 수 있습니다:
 
@@ -80,7 +131,18 @@ React는 자바스크립트 라이브러리로, 순수 자바스크립트에 기
 
 React는 쉽게 설계하고 빠르게 로딩할 수 있는 컴포넌트 기반 시스템을 약속합니다. Next.js나 Remix와 같은 추가 프레임워크를 사용하여 React에서 풀 스택 애플리케이션을 구축할 수 있는 가능성을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 외에도 이것이 약속하는 것은:
 
@@ -92,7 +154,18 @@ React는 쉽게 설계하고 빠르게 로딩할 수 있는 컴포넌트 기반 
 
 React 애플리케이션은 컴포넌트 기반으로 작동합니다. 이는 블레이저와 마찬가지로 애플리케이션이 재사용 가능한 작은 컴포넌트(예: 버튼 또는 폼)로 구성되는 것을 의미합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 구성 요소를 설명하는 것은 JSX (JavaScript Syntax Extension)라는 특별한 마크업 언어로 이루어집니다. 이는 HTML과 React 로직을 쉽게 섞어 사용할 수 있게 해줍니다. React를 사용하면 구성 요소의 상태를 관리할 수 있습니다. 이는 구성 요소 내부에 상태를 로컬로 호스팅하거나, 더 복잡한 시나리오에서는 context와 같은 전역 상태 저장소를 사용하여 수행할 수 있습니다. 이 상태는 React에 의해 관리되며 해당 UI 트리 내의 올바른 노드와 연관시킵니다.
 
@@ -102,7 +175,18 @@ React가 구성 요소 내부의 상태 변경에 응답하는 방식은 해당 
 
 React는 이미 프런트엔드 개발에 일부 JavaScript를 사용하는 데 편안한 팀에게 적합할 수 있습니다. 이는 가장 인기 있는 프런트엔드 UI 라이브러리이며 Blazor와 비교해 더 대중적인 기술입니다. 이 기술은 매우 성숙하고 (10년 이상) 많은 문서와 커뮤니티 지원이 제공됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 전투 준비
 
@@ -112,7 +196,18 @@ React는 이미 프런트엔드 개발에 일부 JavaScript를 사용하는 데 
 
 ![이미지](/assets/img/BeyondJavaScriptExploringNETBlazorsChallengetoReact_0.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 프로세스와 경험
 
@@ -122,7 +217,18 @@ React는 이미 프런트엔드 개발에 일부 JavaScript를 사용하는 데 
 
 # 비교
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Blazor와 React의 이점과 단점을 직접 체험한 것을 기반으로 비교해보겠습니다:
 
@@ -185,7 +291,18 @@ export default function VideoCard({ video, handleEditOpen, setRefresh }: VideoCa
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 별도의 화면 구성 요소 내에서는 컴포넌트를 가져와 필요한 매개변수를 전달하여 추상화할 수 있습니다. 특히 동일한 컴포넌트를 다양한 입력값으로 여러 번 렌더링할 때 유용합니다:
 
@@ -206,7 +323,18 @@ Blazor의 경우, 컴포넌트를 생성한 후 아래와 같이 사용할 수 �
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또한, Blazor은 데이터 바인딩 및 속성을 지원하여 개발을 쉽게 만들어 줍니다. 이는 특히 양식 유효성 검사에 유용합니다. 다음과 같이 모델에 속성을 주석 처리하여 사용할 수 있습니다:
 
@@ -254,7 +382,18 @@ Blazor의 경우, 컴포넌트를 생성한 후 아래와 같이 사용할 수 �
 
 ## 컴포넌트 생명주기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Blazor과 React는 모두 컴포넌트 라이프사이클을 활용하여 컴포넌트를 초기 렌더링하고 상태 변경에 따른 재렌더링을 처리하며, 더 이상 필요하지 않을 때 컴포넌트를 파괴하는 역할을 합니다. Blazor의 경우 Razor Pages의 라이프사이클과는 크게 다르며, 적절한 지식 없이 사용하면 부작용과 다른 문제를 발생시킬 수 있습니다. 특히 JavaScript 상호 운용과 관련된 문제에서 Blazor 팀은 DOM 동기화 문제에 부딪혔습니다.
 
@@ -262,7 +401,18 @@ React도 비슷한 도전을 겪습니다. 더 현대적인 React Hooks를 사�
 
 컴포넌트 라이프사이클에 대해 충분히 이해하는 것이 중요하며, 양쪽 기술을 시작하기 전에 깊이 있는 이해가 필요합니다. 특히 이 개념이 새로운 팀에게는 이러한 개념을 완전히 이해하는 것이 좀 노력이 필요할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 준비된 템플릿
 
@@ -272,7 +422,18 @@ React와 Blazor 둘 다 어느 정도 준비된 템플릿을 제공합니다. Bl
 
 이런 옵션들은 개별 계정을 기반으로 하는 인증 또는 Microsoft Identity Platform을 사용할 수도 있습니다. Visual Studio 내에서 연결 서비스를 사용하면 즉시 응용 프로그램 등록을 생성하고 설정할 수도 있는데, 이를 통해 Azure를 통한 인증을 포함한 사용 준비된 응용 프로그램을 만들 수 있습니다. 또한, Blazor를 위한 사용자 정의 Visual Studio 템플릿을 만들 수도 있습니다. Blazor 팀은 인증과 Progressive Web App (PWA) 지원을 포함하는 표준 템플릿을 사용하여 응용 프로그램을 시작했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트는 반면에 템플릿을 제공합니다 (react-scripts@3.3.0이상 버전) npx create-react-app my-app-name --template cra-template-`name`를 실행하여. 리액트 팀은 JavaScript 및 TypeScript를 위한 두 가지 기본 템플릿을 제공합니다. cra-template- 접두어가 있는 템플릿은 NPM에서 커뮤니티에서 제공됩니다. 또한 Create React App 튜토리얼을 따라 사용자 정의 템플릿을 구축할 수도 있습니다. 이 방법의 단점은 응용 프로그램에서 사용하는 추가 라이브러리에 따라 온라인에서 좋은 오픈 소스 템플릿을 찾기 어려울 수 있으며, 이 경우 팀이 자체 사용자 정의 템플릿을 작성하려는 추가 시간 소요가 발생할 수 있습니다. 리액트 팀은 후자를 선택하고, PWA 지원이 포함된 React TypeScript를 기반으로 사용자 정의 템플릿을 만들었습니다.
 
@@ -282,7 +443,18 @@ React와 Blazor 둘 다 어느 정도 준비된 템플릿을 제공합니다. Bl
 
 ![이미지](/assets/img/BeyondJavaScriptExploringNETBlazorsChallengetoReact_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![BeyondJavaScriptExploringNETBlazorsChallengetoReact_3](/assets/img/BeyondJavaScriptExploringNETBlazorsChallengetoReact_3.png)
 
@@ -292,7 +464,18 @@ Blazor의 초기로드 시간이 React와 비교했을 때 훨씬 느린 것을 
 
 React의 초기 렌더링이 Blazor와 비교했을 때 매우 빠릅니다. 효율적인 번들링과 tree-shaking을 통해 기본으로 푸시되는 파일이 상대적으로 작아져 처음 로드가빠릅니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![BeyondJavaScriptExploringNETBlazorsChallengetoReact_5](/assets/img/BeyondJavaScriptExploringNETBlazorsChallengetoReact_5.png)
 
@@ -302,7 +485,18 @@ React의 초기 렌더링이 Blazor와 비교했을 때 매우 빠릅니다. 효
 
 Blazor는 JavaScript보다 약간 더 안전한 것으로 간주될 수 있습니다. Blazor는 대부분의 프로세스를 WASM에서 실행하기 때문에 메모리 안전 환경에서 실행됩니다. WASM은 독립적인 샌드박스 환경에서만 애플리케이션이 실행되도록 설계되었으며, 의도된 API를 통해서만 외부와 통신할 수 있습니다. WASM이 브라우저에서 실행될 때 데이터 흐름도 동일 출처 정책을 통해 제한됩니다. 이로 인해 WASM 샌드박스 내에서 실행되는 코드를 변조하기가 더 어렵습니다. 그러나 이것은 WASM이 100% 안전하다는 것을 의미하지는 않습니다. 여전히 고려해야 할 취약성이 있습니다. 예를 들어 측면 채널 공격이나 경합 조건에 따른 일부 취약성이 있습니다. Blazor 서버에서 클라이언트로 전송되는 DLL은 JavaScript 코드보다 디컴파일하기 어렵습니다. 게다가 Babel Obfuscator와 같은 타사 난독화 도구를 사용하여 DLL의 디컴파일을 더 어렵게 만드는 것도 가능합니다. 난독화만으로는 안전하지 않다는 점을 유의해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자바스크립트 프론트엔드 파일은 정의상 안전하지 않다고 여겨지는데요. 왜냐하면 모든 파일이 클라이언트로 푸시되어 있고, 파일을 해석하지 않고도 접근할 수 있기 때문입니다. 민감한 값을 다룰 때 환경 변수를 사용하면 코드에 하드코딩될 수 있다는 예를 보여드리겠습니다:
 
@@ -312,7 +506,18 @@ Blazor는 JavaScript보다 약간 더 안전한 것으로 간주될 수 있습�
 
 참고: 프론트엔드 애플리케이션에 관한 것은 어떤 기술을 사용하든 항상 불안전하다고 생각해야 합니다. 왜냐하면 실행에 필요한 모든 파일이 클라이언트로 푸시되어, 포함된 비밀 정보나 민감한 정보가 노출될 수 있기 때문입니다. 또한, 클라이언트 측에서 발생하는 프로세스에 개입할 수도 있습니다. 어떤 기능을 프론트엔드에 구현할지 결정할 때 이 사항을 항상 고려하는 것이 중요합니다. 이상적으로는 사용자 인터페이스(UI)를 처리하는 데 책임이 있는 로직만이 프론트엔드에 존재해야 합니다. 백엔드 서버에 처리를 위임하는 모든 정보는 항상 검증되어야 하며, 인증 및 권한 부여는 항상 백엔드에서 또는 Microsoft Identity Framework 같은 전용 식별 서비스를 통해 이루어져야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 커뮤니티 지원
 
@@ -322,7 +527,18 @@ Blazor는 Microsoft 제품이기 때문에 커뮤니티의 성장에 대한 지�
 
 ## 서드파티 라이브러리
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 NuGet 라이브러리가 Blazor를 지원하는 것은 아닙니다. 저희 실험에서 Blazor 팀은 Azure SDK 중 일부가 아직 Blazor WASM을 지원하지 않는 문제에 직면했습니다. 이는 Azure REST API를 이용해 자체 구현을 작성하거나 JavaScript 라이브러리를 사용하고 Blazor에서 JavaScript 상호 운용을 통해 호출해야 하는 선택을 내리도록 만들었습니다.
 
@@ -332,7 +548,18 @@ React 팀은 대부분의 JavaScript 타사 라이브러리를 제공하는 NPM 
 
 이 연구를 종합하여, 팀은 장단점을 모아 최종 개요로 결론 내리려고 합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![BeyondJavaScriptExploringNETBlazorsChallengetoReact_7](/assets/img/BeyondJavaScriptExploringNETBlazorsChallengetoReact_7.png)
 

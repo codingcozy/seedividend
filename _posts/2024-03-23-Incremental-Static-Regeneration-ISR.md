@@ -3,17 +3,13 @@ title: "Nextjs 13 ISR 사용해서 사이트 정적 재생성하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "증분 정적 재생성 ISR"
 link: "undefined"
 isUpdated: true
 ---
-
-
-
-
 
 # 증분 정적 재생성 (ISR)
 
@@ -23,7 +19,18 @@ Next.js를 사용하면 사이트를 빌드한 후에 정적 페이지를 만들
 
 ISR을 사용하려면 getStaticProps에 revalidate 속성을 추가하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 function Blog({ posts }) {
@@ -82,7 +89,18 @@ export default Blog;
 
 생성되지 않은 경로에 요청이 들어오면 Next.js는 초기 요청 시에 페이지를 서버에서 렌더링합니다. 이후 요청은 캐시에서 정적 파일을 제공합니다. Vercel에서 ISR은 전역적으로 캐시를 유지하고 롤백을 처리합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 > 좋은 정보: 상위 데이터 제공 업체가 캐싱을 기본적으로 활성화했는지 확인해 보세요. 그렇지 않으면 (예: useCdn: false처럼) 비활성화해야 할 수도 있습니다. 그렇지 않으면 재확인이 ISR 캐시를 업데이트할 새로운 데이터를 가져오지 못할 수도 있습니다. 캐싱은 Cache-Control 헤더를 반환하는 경우 엔드포인트에 대해 CDN(요청된 엔드포인트에 대해)에서 발생할 수 있습니다.
 
@@ -92,7 +110,18 @@ export default Blog;
 
 v12.2.0 이상부터 Next.js는 특정 페이지에 대한 Next.js 캐시를 수동으로 삭제하기 위해 On-Demand Incremental Static Regeneration을 지원합니다. 이로써 사이트를 업데이트하는 과정이 더욱 쉬워집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 헤들리스 CMS에서 콘텐츠를 생성 또는 업데이트합니다.
 - 전자 상거래 메타데이터 변경 (가격, 설명, 카테고리, 리뷰 등).
@@ -103,7 +132,18 @@ getStaticProps 내부에서 필요한 경우 온디맨드 재유효화를 사용
 
 ### 온디맨드 재유효화 사용하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, Next.js 앱만이 알 수 있는 비밀 토큰을 생성하세요. 이 비밀 토큰은 재유효화 API 라우트에 대한 무단 액세스를 방지하는 데 사용될 것입니다. 다음 URL 구조로 라우트에 액세스할 수 있습니다 (수동 또는 웹훅을 사용하여):
 
@@ -133,7 +173,18 @@ export default async function handler(req, res) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리의 데모를 확인해보세요.
 실시간 재유효화가 어떻게 작동하는지 확인하고 피드백을 제공해 주세요.
@@ -147,7 +198,18 @@ $ next build
 $ next start
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼, 정적 페이지가 성공적으로 재검증되었는지 확인할 수 있습니다.
 
@@ -181,7 +243,18 @@ export async function getStaticProps() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 자체 호스팅 ISR
 
@@ -191,7 +264,18 @@ export async function getStaticProps() {
 
 ## 버전 기록
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 | Version   | Changes                                                                                 |
 | --------- | --------------------------------------------------------------------------------------- |
@@ -201,4 +285,15 @@ export async function getStaticProps() {
 | `v12.0.0` | [Bot-aware ISR fallback](https://nextjs.org/blog/next-12#bot-aware-isr-fallback) added. |
 | `v9.5.0`  | Base Path added.                                                                        |
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

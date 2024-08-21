@@ -3,16 +3,13 @@ title: "실제 데이터를 사용하는 Kafka, Spark, Airflow, Postgres, Docker
 description: ""
 coverImage: "/assets/img/2024-07-06-End-to-EndDataEngineeringSystemonRealDatawithKafkaSparkAirflowPostgresandDocker_0.png"
 date: 2024-07-06 03:25
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-06-End-to-EndDataEngineeringSystemonRealDatawithKafkaSparkAirflowPostgresandDocker_0.png
 tag: Tech
 originalTitle: "End-to-End Data Engineering System on Real Data with Kafka, Spark, Airflow, Postgres, and Docker"
 link: "https://medium.com/towards-data-science/end-to-end-data-engineering-system-on-real-data-with-kafka-spark-airflow-postgres-and-docker-a70e18df4090"
 isUpdated: true
 ---
-
-
-
 
 이 글은 두 단계로 나누어진 프로젝트의 일환입니다. 첫 번째 단계는 데이터 파이프라인 구축에 초점을 맞춥니다. 이는 API에서 데이터를 가져와 PostgreSQL 데이터베이스에 저장하는 과정을 포함합니다. 두 번째 단계에서는 이 데이터베이스와 상호 작용하는 언어 모델을 활용한 응용 프로그램을 개발할 예정입니다.
 
@@ -23,7 +20,18 @@ isUpdated: true
 
 이 프로젝트의 첫 부분은 데이터 엔지니어링을 처음 시작하는 사람들뿐만 아니라 데이터 과학자와 머신러닝 엔지니어들에게도 적합합니다. 이러한 데이터 엔지니어링 도구를 직접 사용하는 것이 도움이 됩니다. 기계 학습 모델의 생성 및 확장을 미화하며, 이를 효율적으로 실제 환경에서 수행되도록 보장하는 데 도움이 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사는 논의된 도구들의 이론적 측면보다는 실제 적용에 초점을 맞춥니다. 이 도구들이 내부적으로 어떻게 작동하는지 자세히 이해하려면 온라인으로 많은 우수 자료들이 있습니다.
 
@@ -35,7 +43,18 @@ isUpdated: true
 - 데이터 처리: 그런 다음 Spark 작업이 이어서 Kafka 토픽에서 데이터를 소비하고 PostgreSQL 데이터베이스로 전송합니다.
 - Airflow를 이용한 스케줄링: 스트리밍 작업과 Spark 작업은 모두 Airflow를 사용하여 조율됩니다. 실제 시나리오에서 Kafka 프로듀서는 API를 계속 감청할 것이지만, 데모로써 우리는 Kafka 스트리밍 작업을 매일 실행하도록 예약할 것입니다. 스트리밍이 완료되면 Spark 작업이 데이터를 처리하여 LLM 애플리케이션이 사용할 준비를 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 모든 도구는 도커를 사용하여 구축 및 실행되며 더 구체적으로 도커-컴포즈를 사용합니다.
 
@@ -45,7 +64,18 @@ isUpdated: true
 
 # 로컬 설정
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저 아래 명령을 사용하여 로컬 머신에 Github 리포지토리를 복제할 수 있어요:
 
@@ -82,7 +112,18 @@ git clone https://github.com/HamzaG737/data-engineering-project.git
         └── spark_streaming.py
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - airflow 디렉토리에는 airflow를 설정하는 사용자 정의 Dockerfile과 작업을 생성하여 스케줄하는 dags 디렉토리가 포함되어 있습니다.
 - data 디렉토리에는 Kafka 스트리밍 작업에 중요한 last_processed.json 파일이 포함되어 있습니다. 이 파일의 역할에 대한 자세한 내용은 Kafka 섹션에서 제공됩니다.
@@ -99,7 +140,18 @@ pip install -r requirements.txt
 
 이제 프로젝트 세부 정보를 단계별로 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # API 소개
 
@@ -115,7 +167,18 @@ API는 프랑스 공공 서비스의 RappelConso입니다. 이 API를 통해 프
 
 이 링크를 통해 몇 가지 예시를 확인하고 데이터 집합 레코드를 수동으로 조회할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 몇 가지 중요한 방식으로 데이터 열을 정제했습니다:
 
@@ -128,7 +191,18 @@ API는 프랑스 공공 서비스의 RappelConso입니다. 이 API를 통해 프
 
 # 카프카 스트리밍
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스트리밍 작업을 실행할 때마다 API에서 모든 데이터를 보내는 것을 피하기 위해, 최신 스트리밍의 마지막 게시 날짜를 포함하는 로컬 json 파일을 정의합니다. 그런 다음 이 날짜를 새로운 스트리밍 작업의 시작 날짜로 사용할 것입니다.
 
@@ -137,10 +211,23 @@ API는 프랑스 공공 서비스의 RappelConso입니다. 이 API를 통해 프
 이 파일은 ./data/last_processed.json에 저장되며 다음과 같은 형식을 갖습니다:
 
 ```js
-{last_processed: "2023-11-22"}
+{
+  last_processed: "2023-11-22";
+}
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기본적으로 파일은 빈 json이며, 이는 우리의 첫 번째 스트리밍 작업이 약 10,000개의 API 레코드를 모두 처리할 것을 의미합니다.
 
@@ -150,16 +237,27 @@ API는 프랑스 공공 서비스의 RappelConso입니다. 이 API를 통해 프
 
 다음 단계는 아래에 정의된 docker-compose의 카프카 서비스를 실행하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```yaml
-버전: '3'
+버전: "3"
 
 서비스:
   kafka:
-    이미지: 'bitnami/kafka:latest'
+    이미지: "bitnami/kafka:latest"
     포트:
-      - '9094:9094'
+      - "9094:9094"
     네트워크:
       - airflow-kafka
     환경:
@@ -177,13 +275,13 @@ API는 프랑스 공공 서비스의 RappelConso입니다. 이 API를 통해 프
     컨테이너_이름: kafka-ui-1
     이미지: provectuslabs/kafka-ui:latest
     포트:
-      - 8800:8080  
+      - 8800:8080
     디펜즈_온:
       - kafka
     환경:
       KAFKA_CLUSTERS_0_NAME: local
       KAFKA_CLUSTERS_0_BOOTSTRAPSERVERS: PLAINTEXT://kafka:9092
-      DYNAMIC_CONFIG_ENABLED: 'true'
+      DYNAMIC_CONFIG_ENABLED: "true"
     네트워크:
       - airflow-kafka
 
@@ -202,7 +300,18 @@ API는 프랑스 공공 서비스의 RappelConso입니다. 이 API를 통해 프
 
 kafka 서비스를 실행하기 전에 다음 명령어를 사용하여 airflow-kafka 네트워크를 생성해봅시다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 도커 네트워크 airflow-kafka를 생성하세요.
@@ -214,8 +323,18 @@ kafka 서비스를 실행하기 전에 다음 명령어를 사용하여 airflow-
 서비스가 시작되면 http://localhost:8800/에서 kafka-ui를 방문해주세요. 일반적으로 이런 모습을 볼 수 있을 거에요:
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 /assets/img/2024-07-06-End-to-EndDataEngineeringSystemonRealDatawithKafkaSparkAirflowPostgresandDocker_1.png
 
@@ -225,8 +344,18 @@ kafka 서비스를 실행하기 전에 다음 명령어를 사용하여 airflow-
 
 스파크와 에어플로우 구성을 설정하기 전에, API 데이터를 저장할 Postgres 데이터베이스를 만들어봅시다. 이 작업을 위해 저는 pgadmin 4 도구를 사용했지만, 다른 Postgres 개발 플랫폼을 사용해도 됩니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 포스트그레와 PGAdmin을 설치하려면 이 링크를 방문하세요: [https://www.postgresql.org/download/](https://www.postgresql.org/download/) 이 링크에서 운영 체제에 맞는 패키지를 다운로드하세요. 포스트그레를 설치할 때는 나중에 스파크 환경에서 데이터베이스에 연결할 때 필요한 비밀번호를 설정해야 합니다. 포트 번호는 5432로 남겨둘 수도 있습니다.
 
@@ -236,7 +365,18 @@ kafka 서비스를 실행하기 전에 다음 명령어를 사용하여 airflow-
 
 우리가 만들고자 하는 테이블에 많은 열이 있기 때문에, 우리는 Python용 PostgreSQL 데이터베이스 어댑터인 psycopg2를 사용하여 스크립트로 테이블을 만들고 열을 추가하기로 했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 텍스트를 친절한 톤으로 한글로 번역하면 다음과 같습니다:
 
@@ -250,7 +390,18 @@ python scripts/create_table.py
 
 # Spark 설정
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리의 PostgreSQL 데이터베이스를 설정한 후, 스파크 작업의 세부 사항을 탐구해 보겠습니다. 목표는 Kafka 주제 rappel_conso에서 데이터를 스트리밍하여 Postgres 테이블 rappel_conso_table로 전송하는 것입니다.
 
@@ -354,9 +505,21 @@ if __name__ == "__main__":
 ```
 
 주요 강점과 스파크 작업의 기능을 살펴보겠습니다:
+
 - 먼저, Spark 세션을 생성합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 def create_spark_session() -> SparkSession:
@@ -400,7 +563,18 @@ def create_initial_dataframe(spark_session):
 
 3. 데이터가 수집되면 create_final_dataframe이 데이터를 변환합니다. 이 함수는 들어오는 JSON 데이터에 DB_FIELDS 열로 정의된 스키마를 적용하여 데이터를 구조화하고 추가 처리를 위해 준비합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 def create_final_dataframe(df):
@@ -431,7 +605,7 @@ def start_streaming(df_parsed, spark):
     )
 
     unique_column = "reference_fiche"
- 
+
     logging.info("스트리밍 시작 중...")
     query = df_parsed.writeStream.foreachBatch(
         lambda batch_df, _: (
@@ -450,8 +624,18 @@ def start_streaming(df_parsed, spark):
 
 Spark 작업의 전체 코드는 src/spark_pgsql/spark_streaming.py 파일에 있습니다. 다음 섹션에서 설명할대로 Airflow DockerOperator를 사용하여이 작업을 실행할 예정입니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리 스파크 작업을 실행하기 위해 필요한 Docker 이미지를 생성하는 과정을 살펴봅시다. 아래는 참고용 Dockerfile입니다:
 
@@ -474,7 +658,18 @@ ENV POSTGRES_PASSWORD=$POSTGRES_PASSWORD
 
 환경 변수 POSTGRES_DOCKER_USER와 POSTGRES_PASSWORD는 PostgreSQL 데이터베이스에 연결하기 위해 설정됩니다. 우리 데이터베이스가 호스트 머신에 있기 때문에 사용자로 host.docker.internal을 사용합니다. 이를 통해 Docker 컨테이너가 호스트 상의 서비스에 액세스할 수 있도록합니다. PostgreSQL의 비밀번호는 빌드 인자로 전달되므로 이미지에 하드 코딩되지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로덕션 환경에서는 데이터베이스 암호를 빌드 시에 전달하는 것이 보안상 취약할 수 있음을 유념해야 합니다. 민감한 정보를 노출시킬 수 있습니다. 이러한 경우에는 Docker BuildKit과 같이 더 안전한 방법을 고려해야 합니다.
 
@@ -486,7 +681,18 @@ docker build -f spark/Dockerfile -t rappel-conso/spark:latest --build-arg POSTGR
 
 이 명령어는 rappel-conso/spark:latest 이미지를 빌드합니다. 이 이미지에는 Spark 작업을 실행하는 데 필요한 모든 것이 포함되어 있으며, Airflow의 DockerOperator에서 작업을 실행하는 데 사용될 것입니다. 이 명령을 실행할 때 $POSTGRES_PASSWORD를 실제 PostgreSQL 암호로 교체해 주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Airflow
 
@@ -496,7 +702,18 @@ docker build -f spark/Dockerfile -t rappel-conso/spark:latest --build-arg POSTGR
 
 Airflow에서 작업의 시퀀스와 종속성을 개요로 설명하는 Directed Acyclic Graph (DAG)를 살펴보겠습니다. 이를 통해 Airflow가 작업의 실행을 관리할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 start_date = datetime.today() - timedelta(days=1)
@@ -537,6 +754,7 @@ with DAG(
 ```
 
 위 설정에서 주요 요소들을 살펴보면
+
 - 작업은 매일 실행됩니다.
 - 첫 번째 작업은 Kafka 스트림 작업입니다. PythonOperator를 사용하여 구현되었습니다. 이 작업은 RappelConso API에서 데이터를 Kafka 주제로 스트리밍하여 데이터 처리 워크플로우를 시작합니다.
 - 다음 작업은 Spark 스트림 작업입니다. DockerOperator를 사용하여 실행됩니다. 우리의 사용자 정의 Spark 이미지가 담긴 Docker 컨테이너를 실행하며, Kafka로부터 수신한 데이터를 처리하는 역할을 맡습니다.
@@ -544,8 +762,18 @@ with DAG(
 
 ## DockerOperator에 대해
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도커 오퍼레이터를 사용하면 작업에 해당하는 도커 컨테이너를 실행할 수 있습니다. 이 방식의 주요 장점은 패키지 관리가 더 쉽고, 더 나은 격리 및 향상된 테스트 용이성입니다. 스파크 스트리밍 작업에서 이 오퍼레이터의 사용법을 알려드리겠습니다.
 
@@ -567,7 +795,18 @@ with DAG(
       - airflow-kafka
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 DockerOperator에서 호스트 도커의 /var/run/docker.sock에는 여기와 여기에 설명된대로 tcp://docker-proxy:2375 URL을 통해 액세스할 수 있습니다.
 
@@ -577,24 +816,45 @@ DAG의 로직을 정의한 후에 이제 docker-compose-airflow.yaml 파일에�
 
 ## Airflow Configuration
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-The compose file for airflow was adapted from the official Apache Airflow Docker Compose file. You can check out the original file by visiting this [link](link). 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+The compose file for airflow was adapted from the official Apache Airflow Docker Compose file. You can check out the original file by visiting this [link](link).
 
 As mentioned in this article, the proposed version of Airflow is quite resource-intensive because it uses the CeleryExecutor, which is more suitable for distributed and large-scale data processing tasks. Since we have a small workload, using a single-noded LocalExecutor is sufficient.
 
 Here's a summary of the changes we made to the Docker Compose configuration for Airflow:
 
-- We set the environment variable AIRFLOW__CORE__EXECUTOR to LocalExecutor.
+- We set the environment variable AIRFLOW**CORE**EXECUTOR to LocalExecutor.
 - We removed the services airflow-worker and flower as they are only necessary for the Celery executor. We also removed the Redis caching service since it acts as a backend for Celery. Additionally, we won't utilize the airflow-triggerer, so we removed it as well.
 - For the remaining services, mainly the scheduler and the webserver, we replaced the base image $'AIRFLOW_IMAGE_NAME:-apache/airflow:2.7.3' with a custom image that we will build when running the Docker Compose.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```yaml
-버전: '3.8'
-x-airflow-common:
-  &airflow-common
+버전: "3.8"
+x-airflow-common: &airflow-common
   build:
     context: .
     dockerfile: ./airflow_resources/Dockerfile
@@ -617,7 +877,18 @@ x-airflow-common:
 
 다음으로 docker-compose에서 사용될 환경 변수들을 만들어야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 echo -e "AIRFLOW_UID=$(id -u)\nAIRFLOW_PROJ_DIR=\"./airflow_resources\"" > .env
@@ -631,7 +902,18 @@ echo -e "AIRFLOW_UID=$(id -u)\nAIRFLOW_PROJ_DIR=\"./airflow_resources\"" > .env
 docker-compose -f docker-compose-airflow.yaml up
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 에어플로우 사용자 인터페이스에 액세스하려면 다음 URL을 방문해주세요 http://localhost:8080 .
 
@@ -641,7 +923,18 @@ docker-compose -f docker-compose-airflow.yaml up
 
 ![이미지](/assets/img/2024-07-06-End-to-EndDataEngineeringSystemonRealDatawithKafkaSparkAirflowPostgresandDocker_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 DAG: kafka_spark_dag 옆에 있는 버튼을 클릭하여 작업을 시작할 수 있습니다.
 
@@ -651,7 +944,18 @@ DAG: kafka_spark_dag 옆에 있는 버튼을 클릭하여 작업을 시작할 �
 
 rappel_conso_table이 데이터로 채워져 있는지 확인하려면 pgAdmin Query Tool에서 다음 SQL 쿼리를 사용하십시오:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```sql
 SELECT count(*) FROM rappel_conso_table
@@ -663,7 +967,18 @@ SELECT count(*) FROM rappel_conso_table
 
 본문은 Kafka, Airflow, Spark, PostgreSQL, 그리고 Docker를 사용하여 기본적이면서도 실용적인 데이터 엔지니어링 파이프라인을 구축하는 과정을 성공적으로 보여주었습니다. 데이터 엔지니어링 분야에 입문한 초보자와 초심자들을 대상으로 핵심 개념을 이해하고 구현하는 데에 실용적인 지침을 제공했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 가이드에서는 데이터 스트리밍을 위해 Kafka를 설정하고 작업 조작을 위해 Airflow를 사용하는 것에서부터 Spark를 사용한 데이터 처리와 PostgreSQL에 데이터를 저장하는 것까지 세부적으로 다루었습니다. 이 프로젝트 전반에 걸쳐 Docker의 사용은 설정을 단순화하고 다양한 환경 사이의 일관성을 보장합니다.
 
@@ -673,7 +988,18 @@ SELECT count(*) FROM rappel_conso_table
 
 다음 부분에서는 PostgreSQL 데이터베이스에 저장된 데이터를 효과적으로 활용하는 방법을 살펴볼 것입니다. 우리는 대형 언어 모델(Large Language Models, LLMs)로 구동되는 에이전트와 자연어 질의를 사용하여 데이터베이스와 상호 작용할 수 있는 다양한 도구들을 소개할 것입니다. 그러니 많은 관심 부탁드립니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 연락하기
 

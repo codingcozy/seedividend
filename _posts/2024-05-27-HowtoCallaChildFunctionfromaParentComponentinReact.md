@@ -3,16 +3,13 @@ title: "React에서 부모 컴포넌트에서 자식 함수를 호출하는 방�
 description: ""
 coverImage: "/assets/img/2024-05-27-HowtoCallaChildFunctionfromaParentComponentinReact_0.png"
 date: 2024-05-27 18:46
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-HowtoCallaChildFunctionfromaParentComponentinReact_0.png
 tag: Tech
 originalTitle: "How to Call a Child Function from a Parent Component in React"
 link: "https://medium.com/@ankit-royal/how-to-call-a-childs-function-from-a-parent-component-in-react-a3494c3a658a"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-05-27-HowtoCallaChildFunctionfromaParentComponentinReact_0.png" />
 
@@ -22,7 +19,18 @@ React에서는 부모 컴포넌트에서 자식 컴포넌트의 메소드를 호
 
 useImperativeHandle 훅은 React에서 그다지 알려지지 않은 훅으로, ref를 사용할 때 부모 컴포넌트에 노출되는 인스턴스 값을 사용자 정의할 수 있습니다. 이 방법은 불필요한 재렌더링을 유발하지 않고 자식 컴포넌트에서 여러 메소드를 직접 호출해야 할 때 권장됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 부모 구성 요소에서 ref를 선언하세요: useRef 훅을 사용하여 부모 구성 요소에 참조를 생성하세요.
 - 참조를 자식 구성 요소로 전달하세요: 참조를 자식 구성 요소에 prop으로 전달하세요.
@@ -35,7 +43,18 @@ useImperativeHandle 훅은 React에서 그다지 알려지지 않은 훅으로, 
 
 ![예시 이미지 2](/assets/img/2024-05-27-HowtoCallaChildFunctionfromaParentComponentinReact_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 설명
 
@@ -47,7 +66,18 @@ useImperativeHandle 훅은 React에서 그다지 알려지지 않은 훅으로, 
 
 부모 컴포넌트에서 자식의 함수를 호출하는 또 다른 방법은 useEffect 훅을 사용하는 것입니다. 이 접근 방식은 부모에서 사이드 이펙트를 통해 자식 함수를 트리거하는 부모의 상태를 설정하는 것을 포함합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 부모 구성 요소의 트리거 상태 선언: 자식 함수를 트리거할 수 있는 부모 구성 요소에 상태를 생성합니다.
 - 자식 구성 요소로 트리거 상태 전달: 이 상태를 자식 구성 요소로 속성(prop)으로 전달합니다.
@@ -59,7 +89,18 @@ useImperativeHandle 훅은 React에서 그다지 알려지지 않은 훅으로, 
 
 ![image](/assets/img/2024-05-27-HowtoCallaChildFunctionfromaParentComponentinReact_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 설명
 
@@ -72,7 +113,18 @@ useImperativeHandle 훅은 React에서 그다지 알려지지 않은 훅으로, 
 - 상위 컴포넌트에서 자식의 메서드를 직접 호출할 때 이상적입니다.
 - 자식을 다시 렌더링하지 않아도 되는 경우 또는 여러 메서드를 호출해야 할 때 적합합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 부모 상태 변경에 따라 자식에서 함수를 트리거하는 데 유용합니다.
 - 상태 변경으로 인해 부작용이 자연스럽게 발생하는 상황에 적합합니다.

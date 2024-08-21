@@ -3,15 +3,13 @@ title: "Angular의 inject 함수 사용으로 1000줄의 코드를 절약한 방
 description: ""
 coverImage: "/assets/img/2024-07-07-HowUsingAngularsinjectFunctionHasSavedMe1000LinesofCode_0.png"
 date: 2024-07-07 21:51
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-HowUsingAngularsinjectFunctionHasSavedMe1000LinesofCode_0.png
 tag: Tech
 originalTitle: "How Using Angular’s inject() Function Has Saved Me 1000 Lines of Code"
 link: "https://medium.com/javascript-in-plain-english/how-using-the-angulars-inject-function-has-saved-me-1000-lines-of-code-82b699183da8"
 isUpdated: true
 ---
-
-
 
 # inject() 함수란 무엇인가요?
 
@@ -21,7 +19,18 @@ Angular 14에서 소개된 inject() 함수는 서비스, 컴포넌트, 디렉티
 
 ## 생성자를 사용하여 종속성을 주입하는 예전 방식:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { Component } from '@angular/core';
@@ -51,7 +60,18 @@ export class MyComponent {
 
 # inject() 사용의 장점 vs 생성자 사용하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 주목하신 대로, 생성자 대신 inject()을 사용하는 것에는 여러 가지 장점이 있습니다:
 
@@ -63,7 +83,18 @@ export class MyComponent {
 
 저는 상속과 관련된 경우 inject() 함수가 특히 유용하다고 생각합니다. 코드를 재사용하고 여러 자식 클래스에 의해 확장될 부모 서비스 추상 클래스가 있는 시나리오를 고려해 보세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 export abstract class ParentService {
@@ -95,7 +126,18 @@ export class ChildService extends ParentService {
 
 보시다시피 많은 반복이 있습니다: 모든 자식 클래스들은 HttpClient와 HelperService를 가져와야 하는데 이는 ParentService의 생성자가 필요하기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 inject() 함수 덕분에 이 불필요한 반복을 피할 수 있어요:
 
@@ -120,7 +162,18 @@ export class ChildService extends ParentService {
 
 의존성이 많고 많은 자식이 기본 클래스를 확장하는 시나리오를 상상해보세요, inject()를 사용하면 많은 코드 라인을 절약할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 실제 사용 사례 예
 
@@ -130,7 +183,18 @@ export class ChildService extends ParentService {
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - inject() 함수는 일반적으로 생성자를 사용하는 것보다 선호되는 의존성을 효율적이고 현대적인 방법으로 주입해주는 기능을 제공합니다.
 - inject()를 사용하도록 코드베이스를 마이그레이션하는 것이 쉽고, 특히 상속을 다루어야 할 때 유용할 것입니다.

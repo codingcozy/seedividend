@@ -3,17 +3,13 @@ title: "문서에서 LLM 세부 조정을 위한 지시 생성 자동화"
 description: ""
 coverImage: "/assets/img/2024-05-20-AutomatingInstructionGenerationoffanyDocumentforLLMFine-Tuning_0.png"
 date: 2024-05-20 22:04
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-20-AutomatingInstructionGenerationoffanyDocumentforLLMFine-Tuning_0.png
 tag: Tech
 originalTitle: "Automating Instruction Generation off any Document for LLM Fine-Tuning"
 link: "https://medium.com/ai-advances/automating-instruction-generation-off-any-document-for-llm-fine-tuning-5180d7288ccc"
 isUpdated: true
 ---
-
-
-
-
 
 ![Automating Instruction Generation](/assets/img/2024-05-20-AutomatingInstructionGenerationoffanyDocumentforLLMFine-Tuning_0.png)
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 이 기사에서는 Mistral 7B Instruct 모델을 사용하여 내부 문서에서 지침 및 교육 데이터 세트를 자동으로 생성하는 비용 효율적인 대안을 탐색할 것입니다. 우리는 귀하의 도메인을 포괄적으로 다룰 수 있는 지침 생성의 새로운 접근법을 취할 것입니다. Mistral 7B는 또한 학습 데이터 세트 생성을 위해 검색 보조 생성 (RAG) 설정에서 사용됩니다. 한번 훈련 데이터 세트를 확보하면 이 데이터 세트를 사용하여 Mistral 7B를 실제로 세밀히 조정하여 지역 도메인 지식으로보갰습니다.MLX 프레임워크 라이브러리를 호출합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지시 생성부터 모델 세밀 조정까지의 종단 간 워크플로우를 탐색할 예정이에요. 여기에서 다뤄야 할 내용이 많아요. 시작해 볼까요!
 
@@ -43,7 +49,18 @@ isUpdated: true
 
 # 1.0 주요 활성화 기술 개요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 작업은 RAM이 8GB인 MacBook Air M1에서 진행될 예정입니다. 상대적으로 제한된 컴퓨팅 및 메모리 리소스 때문에 Mistral 7B Instruct v0.1 모델의 4비트 양자화 버전을 채택하고 있습니다. GGUF 형식의 이러한 양자화된 모델을 로드하기 위해 llama-cpp-python 라이브러리를 사용할 것입니다. 이 라이브러리는 llama.cpp 라이브러리의 파이썬 바인딩입니다.
 
@@ -53,25 +70,42 @@ faiss-cpu는 CPU를 사용하여 밀집 벡터의 효율적인 유사성 검색 
 
 이제 개발 환경을 준비할 준비가 되었습니다. 이 프로젝트를 관리하기 위해 가상 환경을 생성합시다. 환경을 생성하고 활성화하려면 다음을 실행합시다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 python3.10 -m venv llm_tuning
 source llm_tuning/bin/activate
 
-
 다음으로 필요한 모든 라이브러리를 설치합니다:
-
 
 pip install langchain faiss-cpu sentence-transformers flask-sqlalchemy psutil unstructured pdf2image unstructured_inference pillow_heif opencv-python pikepdf pypdf
 pip install mlx
 CMAKE_ARGS="-DLLAMA_METAL=on" FORCE_CMAKE=1 pip install --upgrade --force-reinstall llama-cpp-python --no-cache-dir
 
-
 위 마지막 줄은 M1 프로세서에서 하드웨어 가속을 사용하여 Mistral 7B를 양자화한 llama-cpp-python 라이브러리를 설치하는 과정을 포함합니다. Metal을 사용하면 계산이 GPU에서 실행됩니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 환경이 준비되었으니, 시스템 설계와 구현을 살펴봅시다.
 
@@ -81,7 +115,18 @@ CMAKE_ARGS="-DLLAMA_METAL=on" FORCE_CMAKE=1 pip install --upgrade --force-reinst
 
 <img src="/assets/img/2024-05-20-AutomatingInstructionGenerationoffanyDocumentforLLMFine-Tuning_1.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LoadVectorize 모듈은 최근에 출시된 (2023 년 12 월) 440 페이지의 IT 벤더 배포 가이드를 로드하는 작업을 포함합니다. 또한 문서 분할 및 벡터화를 처리하며, BM25 검색기의 인스턴스화도 처리합니다. 이 모듈은 이전 작업에서 소개되었고 여기서 그대로 사용되었습니다 [1].
 
@@ -91,7 +136,18 @@ LoadVectorize 모듈은 최근에 출시된 (2023 년 12 월) 440 페이지의 I
 
 ## 2.1 지시 생성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 종단 간 워크플로우에서는 Riverbed SteelHead에 대한 샘플 400페이지 이상의 PDF 문서를 도메인 지식으로 사용하고 있습니다. Riverbed SteelHead는 응용 프로그램 가속 솔루션입니다. 첫 번째 단계로 Mistral 7B를 언어 모델로 사용하여 이 문서와 관련된 지침(또는 프롬프트)를 생성할 것입니다.
 
@@ -101,7 +157,18 @@ LoadVectorize 모듈은 최근에 출시된 (2023 년 12 월) 440 페이지의 I
 
 이 지시 생성을 위한 프롬프트는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 선택된 각 문서 청크를 반복하면서 해당 청크를 컨텍스트로 하고 위 프롬프트를 사용하여 QA 체인을 호출합니다. 생성된 지시 사항은 진행 상황을 나타내며, 소요된 시간과 함께 콘솔에 표시됩니다. 생성된 지시 사항은 instructions.txt 파일에 저장됩니다. 생성 진행 상황을 나타내기 위해 각 반복마다 현재 질문 번호와 소요된 시간이 표시됩니다. 이해를 돕기 위해 다음 목록은 generate_instructions 함수의 코드를 보여줍니다.
 
@@ -143,7 +210,18 @@ def generate_instructions(db,QA_PROMPT,llm) -> None:
 
 ## 2.2 Training Dataset Generation
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지시 사항이 준비되었으면 이제 훈련 데이터 세트 생성을 진행할 수 있습니다. 이전과 마찬가지로 Mistral 7B를 LLM으로 사용하며, 이번에는 RAG 설정을 사용합니다. 우리는 FAISS 최대 여유도(MMR) 및 BM25 검색기의 EnsembleRetriever를 사용할 것입니다. 이전에 언급한 바와 같이 이러한 검색기 목록에 대해 0.3:0.7 비율이 최상의 정확도 성능을 달성했음을 보여주었습니다.
 
@@ -153,7 +231,18 @@ def generate_instructions(db,QA_PROMPT,llm) -> None:
 
 훈련 데이터 세트를 준비하면 이 데이터 세트의 80%가 훈련에 사용되어 train.jsonl에 저장됩니다. 남은 20%의 데이터 세트는 검증에 사용되어 valid.jsonl로 저장됩니다. 아래 목록은 위 절차를 generate_training 함수로 캡처한 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 def generate_training(db, bm25_r, QA_PROMPT, llm) -> None:
@@ -204,7 +293,18 @@ def generate_training(db, bm25_r, QA_PROMPT, llm) -> None:
 
 이 함수에서 두 함수에서 사용하는 여러 개의 공통 개체가 인스턴스화됩니다. 먼저 프롬프트 템플릿이 정의됩니다. 그런 다음 LlamaCpp를 사용하여 4비트 Mistral 7B Instruct 모델을 GGUF 형식으로 로드합니다. 그런 다음 pdf 문서를 벡터화하고 해당 FAISS 객체에 대한 참조 및 BM25 검색기를 얻습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 가지 생성 함수 중 어느 것이든 쉽게 호출할 수 있도록 명령줄 옵션을 사용해 보겠습니다. 'main' 함수는 최대 두 개의 부울 인수를 받아들이게 됩니다. 이는 제공된 명령줄 옵션에 의해 제어될 것입니다. 명령줄 옵션을 통해 발표나 훈련 데이터셋 생성 작업 중 어떤 것을 실행할지 결정하기 위해 라이브러리 argparse를 활용하겠습니다.
 
@@ -232,9 +332,9 @@ def main(is_gen_instruct=False, is_gen_training=False):
     )
     db, bm25_r = LoadVectorize.load_db()
     if is_gen_instruct:
-        generate_instructions(db, QA_PROMPT, llm) 
+        generate_instructions(db, QA_PROMPT, llm)
     elif is_gen_training:
-        generate_training(db, bm25_r, QA_PROMPT, llm) 
+        generate_training(db, bm25_r, QA_PROMPT, llm)
 
 if __name__ == "__main__":
     # 파서 초기화
@@ -250,12 +350,23 @@ if __name__ == "__main__":
     if args.instructions:
         main(is_gen_instruct=args.instructions)
     elif args.training:
-        main(is_gen_training=args.training)  
+        main(is_gen_training=args.training)
 ```
 
 이로써 데이터 생성 시스템 구현이 완료되었습니다. 이 시스템에 대한 전체 코드는 다음 GitHub 저장소에서 확인할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자, 이제 한 번 시도해 봅시다!
 
@@ -267,35 +378,35 @@ if __name__ == "__main__":
 $ python main.py -i
 
 --------------------------------------------------
-Q #0: 
+Q #0:
 1. SteelHead에서 QoS 설정을 어디서 찾을 수 있을까요?
 2. MX-TCP와 TCP 간에 패킷 손실 처리 측면에서 차이가 있나요?
 시간: 57.88847145799991
 --------------------------------------------------
 
 --------------------------------------------------
-Q #1: 
+Q #1:
 1. SteelHead에서 SSL 구성 정보를 어디서 찾을 수 있을까요?
 2. SSL 구성을 위해 클라이언트 가속기 간에 신뢰 관계가 필요한가요?
 시간: 47.30005858300001
 --------------------------------------------------
 
 --------------------------------------------------
-Q #2: 
+Q #2:
 1. 클러스터 내의 SteelHead 간 연결 전달을 활성화하는 구성은 어디에 있나요?
 2. 동일 SteelHead에서 다중 인터페이스를 사용하는 것과 ITD 고가용성 배포를 위해 여러 SteelHead를 사용하는 것 사이에 차이가 있나요?
 시간: 70.70811329100025
 --------------------------------------------------
 
 --------------------------------------------------
-Q #3: 
+Q #3:
 1. PBR 배포에 사용되는 SteelHead에서 CDP를 어디서 활성화할까요?
 2. SteelHead에서 CDP를 활성화하기 위해 사용해야 하는 특정 명령이 있나요?
 시간: 68.81058954199989
 --------------------------------------------------
 ...
 
-Q #99: 
+Q #99:
 1. SteelHead WAN 가속화의 정확한 주소 할당은 무엇인가요?
 2. 정확한 주소 할당은 SteelHead에서 연결 풀 가속화를 어떻게 가능하게 할까요?
 시간: 63.51242004099913
@@ -304,7 +415,18 @@ Q #99:
 총 생성 시간 => 2:06:10.565294
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 생성된 지침을 검토한 결과, 많은 좋은 질문이 나왔어요. 그런데 "어디서 찾을 수 있나요"와 같은 질문들이 많았는데, 이는 도메인 지식을 얻는 데 도움이 되지 않는다고 생각해서 목록에서 제외했어요. 또한, 일부 문서 청크에 대한 질문들이 거의 동일한 경우가 많았고, 이러한 중복들은 제거했어요. 마지막으로, 부정확하거나 의미 없는 질문들이 몇 개 있었어요. 이 모든 정제 작업을 거친 뒤에 좋은 질문이 150개 남았어요. 또한, 질문들이 번호 매겨지고 예상치 못한 서식이 있어서 조정해야 했어요. 이것은 다음 작업을 위해 데이터 품질을 보장하기 위한 인간의 개입이 필요함을 명확히 보여줍니다.
 
@@ -314,8 +436,18 @@ Q #99:
 
 이제 동일한 스크립트를 -t 옵션을 사용하여 실행하여 훈련 및 검증 데이터 집합 생성을 시작합니다. 제 리소스가 제한된 기기에서는 시간이 많이 걸렸어요. 다행히 콘솔 출력을 통해 진행 상황을 잘 파악할 수 있었어요. 이 실행 중에 발생하는 열의 양 때문에 Mac을 일부러 공중에 두어 냉각 효과를 향상시켰어요. 아래는 이 실행의 콘솔 출력 일부입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 $ python main.py -t
@@ -371,8 +503,18 @@ A:
 
 MLX는 Apple 실리콘 기반의 머신 러닝 연구를 위한 배열 프레임워크입니다 [2]. Llama, Mistral 및 TinyLlama와 같은 LLM에 대한 텍스트 생성 및 세밀 조정에 사용될 수 있습니다. 세밀 조정을 위해 모델은 MLX에서 인식하는 형식이어야 하므로 이전에 사용했던 GGUF 버전을 사용할 수 없습니다. MLX는 mlx-examples Github 저장소의 스크립트를 제공하여 전체 워크플로우를 지원합니다. 아래와 같이 생성 시스템의 디렉터리 내에서 MLX 예제 저장소를 클론해 보겠습니다:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 $ git clone https://github.com/ml-explore/mlx-examples.git
@@ -388,7 +530,18 @@ model-00001-of-00003.safetensors: 100%|█████████████�
 model-00002-of-00003.safetensors: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전 섹션에서의 훈련 데이터셋으로 모델을 세밀하게 조정할 준비가 되었습니다. MLX는 파라미터 효율적 세밀조정(PEFT)을 LoRA를 통해 지원합니다. LoRA는 모델의 일부 파라미터를 업데이트하는 데 중점을 둡니다. 종종 특정 레이어나 모델의 일부를 동결하는 것을 포함합니다. 이 방법을 사용하면 세밀조정이 빨라집니다. 또한 MLX는 양자화된 모델에서 QLoRA를 사용합니다.
 
@@ -417,7 +570,18 @@ $ python mlx-examples/lora/lora.py \
 반복 1000: adapter 가중치를 adapters.npz에 저장했습니다.
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 트레이닝 시작 시 3.008의 손실이 있었고, 마지막 반복 중에는 1.511까지 떨어졌어요. 기본적으로 모델은 매 100번의 반복마다 저장됩니다. 제 컴퓨터의 자원 한정 때문에 lora 레이어를 두 개 이상 사용하면 시스템이 메모리 부족으로 작동을 멈춥니다. 그러나 귀하의 컴퓨터에 더 많은 RAM이 있다면, 레이어 수를 더 많이 실험해보세요.
 
@@ -431,7 +595,18 @@ $
 
 저희의 트레이닝 데이터셋이 상당히 한정적이므로, 병합을 포기하기로 결정했어요. 이제 모델 검증을 준비할 차례입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 6.0 모델 유효성 검사
 
@@ -445,12 +620,22 @@ $ python mlx-examples/lora/lora.py --model ./mlx_model \
 
 Fine-tuning이 LLM에 도움이 되었는지 확인하기 위해 기본 및 fine-tuned 모델의 생성 테스트를 실행할 수 있습니다. 아래는 두 모델의 생성을 보여줍니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 기본 모델 테스트
 
-$ python mlx-examples/lora/lora.py --model ./mlx_model --max-tokens 1000 --prompt 'SteelHead 경로 선택의 목적은 무엇입니까?'   
+$ python mlx-examples/lora/lora.py --model ./mlx_model --max-tokens 1000 --prompt 'SteelHead 경로 선택의 목적은 무엇입니까?'  
 사전 훈련된 모델 로드 중
 총 매개변수 1244.041M
 훈련 가능한 매개변수 1.704M
@@ -458,8 +643,7 @@ $ python mlx-examples/lora/lora.py --model ./mlx_model --max-tokens 1000 --promp
 생성 중
 SteelHead 경로 선택의 목적은 무엇입니까?
 
-WAN 최적화 솔루션의 경로 선택 기능은 네트워크를 통해 전송되는 데이터 양을 줄이고 데이터 소스와 클라이언트 사이의 왕복 횟수를 최소화하여 단일 왕복이 소요되는 데이터 전송을 최소화하여 시간 소요와 추가적인 네트워크 트래픽을 줄이는 것입니다...
-==========
+# WAN 최적화 솔루션의 경로 선택 기능은 네트워크를 통해 전송되는 데이터 양을 줄이고 데이터 소스와 클라이언트 사이의 왕복 횟수를 최소화하여 단일 왕복이 소요되는 데이터 전송을 최소화하여 시간 소요와 추가적인 네트워크 트래픽을 줄이는 것입니다...
 
 ### 세부 조정된 모델
 
@@ -473,15 +657,24 @@ SteelHead 경로 선택의 목적은 무엇입니까?
 
 네트워크 경로 선택 기능의 목적은 SaaS 응용 프로그램 트래픽을 기반으로 두 위치 사이에서 가장 효율적인 경로를 선택하는 것입니다. SteelHead 네트워크 경로 선택은 네트워크 트래픽을 특정 응용 프로그램에 액세스하기 위해 특정 경로(네트워크 경로 또는 WAN 경로 연결)를 사용하고 네트워크 성능을 보장하기 위해 트래픽을 우선순위로 처리할 수 있습니다. 이 기능은 여러 경로(다중 WAN 링크, MPLS 연결 및 LAN 등)이 있는 환경에서 특히 유용합니다.
 
-
 세부 조정된 모델 테스트는 lora.py를 --adapter-file 옵션과 어댑터 파일명을 함께 사용하여 실행하는 것을 포함합니다. 그 이외에는 모든 것이 동일합니다.
 
 비교를 쉽게하기 위해 기본 및 세부 조정된 모델 간의 두 실행 결과를 비교한 결과가 Table 1에 나타납니다. 두 쿼리에 대한 기본 모델의 답변은 모두 잘못되었습니다. 세부 조정된 모델의 답변은 거의 정확하지만 일부 오류가 있습니다. 그럼에도 불구하고 비교적 작은 교육 데이터 집합을 사용하여 세세하게 조정한 모델은 여전히 비교적 잘 학습할 수 있습니다.
 
 <img src="/assets/img/2024-05-20-AutomatingInstructionGenerationoffanyDocumentforLLMFine-Tuning_2.png" />
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 7.0 최종 소견
 
@@ -491,8 +684,20 @@ LLM은 공공 도메인의 정보가 풍부한 영역에서 그들의 생성 능
 
 읽어 주셔서 감사합니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 참고 문헌
+
 - Querying Internal Documents using Mistral 7B with Context from an Ensemble Retriever
 - [GitHub 링크](https://github.com/ml-explore/mlx)

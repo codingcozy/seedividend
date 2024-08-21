@@ -3,15 +3,13 @@ title: "디자인 시스템에서 공간 활용 방법 효과적인 레이아웃
 description: ""
 coverImage: "/assets/img/2024-07-09-SpaceinDesignSystems_0.png"
 date: 2024-07-09 18:47
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-SpaceinDesignSystems_0.png
 tag: Tech
 originalTitle: "Space in Design Systems"
 link: "https://medium.com/eightshapes-llc/space-in-design-systems-188bcbae0d62"
 isUpdated: true
 ---
-
-
 
 ## 기본 사항부터 확장된 개념까지 의도적으로 공간을 활용해보세요
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 공간은 어디에나 있습니다. CSS는 패딩, 마진 및 절대 위치 지정의 왼쪽, 오른쪽, 위 및 아래와 같은 속성을 사용하여 객체를 분리합니다. Bootstrap, Salesforce Lightning, Foundation, 이전 프로젝트 및 현재 프로젝트에서 이러한 공간 속성이 발생하는 빈도를 비교해 보았습니다. 색상, 크기, 글꼴, 레이아웃 등의 속성 그룹에 상대적인 공간 속성의 발생을 비교했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 효과를 제거한 후 (이미 CSS에서 결정을 위한 시스템을 제공하는 것과 같이 "zeroed" 값 :0 및 투명하거나 자동과 같은 예약 용어) 공간 규칙은 색상을 제외하고 모든 것보다 더 많이 나타났습니다. 다른 것은 아무 것도 아니었습니다 - 글꼴, 크기, 레이아웃도 아니었습니다. 우리 라이브러리에 구축된 공간 복잡성이 너무 많았네요, 우리 제품은 말할 것도 없죠!
 
@@ -31,7 +40,18 @@ isUpdated: true
 
 비용은 막대합니다: 주석 처리, 번역, 토의, QA 중에 시각적으로 정리하기. 그 모든 일... 여전히 충분히 좋지 않은 무언가를 위해. 그래서 공간은 감정적인 대가를 청구하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 공간 개념은 원시적입니다
 
@@ -41,7 +61,18 @@ isUpdated: true
 
 # 공간 기본 개념
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 그리드 ≠ 공간. 그리드는 구성 요소입니다. 공간을 사용하는 것입니다.
 
@@ -51,7 +82,18 @@ isUpdated: true
 
 요점: 그리드를 사용하여 공간 관습을 소개하지만 그것으로 끝내지 마세요. 그리드의 여백, 거터 및 칼럼 값과 함께 전체 구성 요소 라이브러리에 깔려 있는 더 깊은 공간 개념을 일치시킵니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 잊지 못할 기본 숫자 설정 및 기대
 
@@ -61,7 +103,18 @@ isUpdated: true
 
 요약: 기억에 남는 기본 숫자로 공간 시스템의 범위를 정립하고, 사용 방법에 대한 기대를 제한하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 비선형적으로 스케일 옵션 조절하기
 
@@ -71,7 +124,18 @@ isUpdated: true
 
 비선형적인 대안이 있습니다. 황금비율, 모듈러 스케일, 또는 각 단계를 두 배씩 증가시키는 유사한 기하급수가 있습니다. 기초점부터 시작하여, 작은 중지지점(16, 8, 4, 2)과 큰 중지지점(16, 32, 64, 그리고... 그게 전부)까지 스케일을 조절해보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![SpaceinDesignSystems](/assets/img/2024-07-09-SpaceinDesignSystems_1.png)
 
@@ -81,7 +145,18 @@ isUpdated: true
 
 저는 Gmail의 Compact, Cozy, Comfortable 공간 토글을 좋아합니다. 그래서 우리의 공간 시스템을 만들 때 해당 레이블을 사용해보자고 제안했습니다. 즉시 동료 중 한 명이 나에게 도전을 했습니다: "다른 단계는 어떻게 부르지?" 제가 제안한 spartan, teeny, luxurious 옵션들이 통과되지 못했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Space in Design Systems](/assets/img/2024-07-09-SpaceinDesignSystems_2.png)
 
@@ -91,7 +166,18 @@ isUpdated: true
 
 많은 라이브러리를 검토하고 많은 디자이너들과 대화를 나눠봤습니다. 기본 숫자와 명명된 척도의 간단한 관례가 대화가 종종 끝나는 지점입니다. 이러한 몇 가지 옵션은 간단하긴 하지만, 여전히 공간을 사용하는 데는 어딘지... 무작위로 느껴졌습니다. 더 필요했죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 공간에 대한 어휘 확장
 
@@ -101,7 +187,18 @@ isUpdated: true
 
 프런트엔드 개발자로서, 나는 모든 요소의 상자가 서로 어떻게 핏팅되는지 상상합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Space in Design Systems 4](/assets/img/2024-07-09-SpaceinDesignSystems_4.png)
 
@@ -111,7 +208,18 @@ isUpdated: true
 
 이 개념들인 내포, 내포 압축, 내포 스트레치, 쌓이기, 인라인, 그리드는 우리 라이브러리의 대부분의 CSS 공간 규칙을 다룹니다. 여백, 여백, 좌, 우, 위, 아래. 이러한 개념들은 또한 각 원자가 자기 포함되어 있어 상호작용성을 개선합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 개념 1: (Square) Inset
 
@@ -121,7 +229,18 @@ isUpdated: true
 
 모바일 퍼스트 디자인에 대한 유용한 시작점이 되며, 768px와 같은 관련 뷰포트 너비에서 크게 확장됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![해당 이미지를 불러올 수 없습니다](/assets/img/2024-07-09-SpaceinDesignSystems_7.png)
 
@@ -131,7 +250,18 @@ isUpdated: true
 
 ![해당 이미지를 불러올 수 없습니다](/assets/img/2024-07-09-SpaceinDesignSystems_8.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 개념 3: 스트레치 인셋
 
@@ -141,7 +271,18 @@ isUpdated: true
 
 ## 개념 4: 스택
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가로로 스크롤되는 UI에도 공손하게 말씀드리자면, 압도적인 다수가 세로로 스크롤합니다. 그것은 한 가지를 의미합니다: 우리는 것들을 쌓습니다. 메시지를 제목 위에 데이터 테이블에 쌓고, 레일즈에서 모듈을 쌓고, 카드 안에 각각 그리드에 복사본, 피말 & 툴바를 쌓습니다. 심지어 무한 스크롤은 무한한 쌓임을 의미합니다! 우리는 쌓고, 쌓고, 쌓습니다.
 
@@ -151,7 +292,18 @@ isUpdated: true
 
 또한 객체를 인라인으로 배열하여 왼쪽이나 오른쪽에서 흘러오는 텍스트처럼 흐르도록 감쌉니다. 이러한 객체 — 피말, 태그, 브레드크럼브 등 —은 독립적으로 서 있을 수도 있고 다른 객체와 함께 쌓이거나 섞일 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-07-09-SpaceinDesignSystems_11.png)
 
@@ -161,7 +313,18 @@ Ah, save the grid for last? As spacing stabilizes, we find ourselves revisiting 
 
 So, as applied to a Card component, your styled padding and margin may look something like:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 배운 내용
 
@@ -171,7 +334,18 @@ So, as applied to a Card component, your styled padding and margin may look some
 
 대부분의 협업자는 공간을 볼 수 없기 때문에 임의로 적용됩니다. 그러나 이제 우리는 시스템을 갖고 있습니다: 각각이 제한된 옵션 범위를 제공하는 제한된 개념의 수.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-07-09-SpaceinDesignSystems_12.png)
 
@@ -181,7 +355,18 @@ So, as applied to a Card component, your styled padding and margin may look some
 
 어리석은 짓은 말아요. 이 6가지 모델로는 모든 것을 해결할 수 없습니다. 때로는 여전히 margin-bottom을 조정하거나 left를 여기저기 조정해야 할 수도 있습니다. 그러므로 더 의도적인 공간 옵션과 $space-m와 같은 일반적인 대체 옵션을 따르는 이유가 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 요약: 일반적인 옵션을 제공하고, 적게 사용하며 제품 팀이 사용할 것으로 기대합니다. 평가나 풀 리퀘스트에서 나타날 때는, 여러분의 동료들에게 'inset'이나 'stack'과 같이 더 구체적인 개념에 대해 설명해주세요.
 
@@ -191,7 +376,18 @@ So, as applied to a Card component, your styled padding and margin may look some
 
 ## 요약: 속성 이름과 개념을 분리해주세요. 하나에 많은 것을 제한하고, 재사용을 단일 플랫폼으로 제한합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 충돌을 선형 높이 체계적으로 해결하세요
 
@@ -201,7 +397,18 @@ So, as applied to a Card component, your styled padding and margin may look some
 
 그러나 우리는 한 가지 아이디어의 발상을 따랐습니다. (@kevinmpowell의 "의사 요소를 사용하여 음수 여백 공간을 만들어보자! 그러나 얼마나?") 일부 수학(대학 학위를 활용할 수 있어요!)을 이용해 결과적으로 글꼴 크기와 라인 높이를 결합한 중첩 공식을 만들어 충돌하는 객체 위아래의 공간을 축소했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 포기하지 말고 예외 때문에 체계적인 명확성을 잃지 마세요. 문제를 해결해보세요. 그런 세세한 점들을 극복할 수 있다면 심지어 약간의 CSS 마술로도 보다 간단한 개념을 유지할 수 있습니다.
 
@@ -211,7 +418,18 @@ Inset, stack, grid와 같은 개념을 통해 밀도 조절 다이얼을 손쉽�
 
 ![SpaceinDesignSystems_14](/assets/img/2024-07-09-SpaceinDesignSystems_14.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요약: 거의 원시적인 옵션이라도 공간 밀도를 조절할 수 있습니다. 없으면 밀도 제어는 꿈에 불과합니다. 그런데 옵션이 있다면 강력한 엔진을 구축하여 의도를 가지고 공간을 찾고 조절하며 더 적은 위험으로 진행할 수 있습니다.
 

@@ -3,17 +3,13 @@ title: "파이썬으로 선형 회귀 직접 구현하기 기초부터 완성까
 description: ""
 coverImage: "/assets/img/2024-06-22-LinearRegressionfromScratch_0.png"
 date: 2024-06-22 04:46
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-LinearRegressionfromScratch_0.png
 tag: Tech
 originalTitle: "Linear Regression from Scratch"
 link: "https://medium.com/@pdasedano/linear-regression-from-scratch-2f25c1ab21ea"
 isUpdated: true
 ---
-
-
-
-
 
 ![Linear Regression](/assets/img/2024-06-22-LinearRegressionfromScratch_0.png)
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 선형 회귀는 여러 점들을 고려하여 최적의 선을 찾는 과제입니다. 최적의 선을 찾는 방법을 알아내기 전에, 이것이 실제로 무엇을 의미하는지를 이해해야 합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그림 1의 선이 이 선보다 더 데이터에 잘 맞는 것을 직관적으로 알 수 있어요:
 
@@ -34,7 +40,18 @@ isUpdated: true
 
 간단하고 시각화하기 쉽게 하기 위해, 2차원에서 시작할게요. 이 경우 데이터 포인트는 (x, y) 쌍이고 위의 그림처럼 그래프에 표시할 수 있어요. 우리는 데이터를 가장 잘 나타내는 f(x) = kx와 같은 선형 함수를 찾고 싶어해요. 이 모델은 원점을 통과하는 선을 가정해요. 우리는 아직 원점 이외의 교차점의 가능성에 대해 고려하지 않을 거예요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 n개의 데이터 포인트가 있는 컬렉션이 있다고 가정해 보겠습니다.
 
@@ -44,7 +61,18 @@ n개의 데이터 포인트가 있는 컬렉션이 있다고 가정해 보겠습
 
 ![Linear Regression from Scratch 3](/assets/img/2024-06-22-LinearRegressionfromScratch_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 x 값들을 하나의 벡터에, y 값들을 다른 벡터에 넣어봅시다.
 
@@ -54,7 +82,18 @@ n개의 데이터 포인트가 있는 컬렉션이 있다고 가정해 보겠습
 
 또한 우리가 예측한 y 값들을 모두 담은 벡터를 생성할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-22-LinearRegressionfromScratch_5.png" />
 
@@ -64,20 +103,39 @@ n개의 데이터 포인트가 있는 컬렉션이 있다고 가정해 보겠습
 
 <img src="/assets/img/2024-06-22-LinearRegressionfromScratch_7.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 왜 ||y’ — y||²을 사용하는지 궁금하다면 단순히 ||y’ — y||만 사용하는 것보다 제곱 크기를 사용하는 게 훨씬 간단하다는 점이 하나의 답일 수 있습니다. ||y’ — y||는 합계 외부에 하나의 추가 제곱근 기호가 있습니다:
 
-
 <img src="/assets/img/2024-06-22-LinearRegressionfromScratch_8.png" />
-
 
 이로 인해 미분을 할 때 공식을 처리하는 것이 훨씬 더 까다로워집니다.
 
 이제 선형 회귀 모델의 오차를 정의했으니, 이를 최소화하는 방법을 찾아야 합니다. SSE에 대한 표현을 확장해 보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-22-LinearRegressionfromScratch_9.png)
 
@@ -87,9 +145,18 @@ n개의 데이터 포인트가 있는 컬렉션이 있다고 가정해 보겠습
 
 x와 y를 일정한 값으로 유지할 때 오차를 최소화하는 k의 값을 찾아야 합니다. 이를 위해서는 식 1의 k에 대한 미분값을 0으로 설정하고 해를 구할 수 있습니다:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Linear Regression 1](/assets/img/2024-06-22-LinearRegressionfromScratch_11.png)
 
@@ -105,7 +172,18 @@ class SimpleLinearRegressor:
         self.k = None
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 def predict(self, x):
@@ -137,7 +215,18 @@ def fit(self, x, y):
     return diff @ diff
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모델을 테스트하기 위해 데이터를 생성해야 합니다. 범위 내에서 임의의 x 값을 생성하고 선형 모델을 사용하여 해당하는 y 값을 계산한 다음 이 y 값에 가우시안 노이즈를 추가하는 함수를 만들겠습니다.
 
@@ -172,7 +261,18 @@ plt.text(3, 0, f'오차: {"{:.2f}".format(fit)}\n예측된 기울기: {"{:.2f}".
 plt.show()
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 한 번의 실행 결과입니다:
 
@@ -182,25 +282,56 @@ plt.show()
 
 # 다중 선형 회귀
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하나의 독립 변수 x와 하나의 종속 변수 y로 선형 회귀를 수행하는 방법을 배웠습니다. 이제 y가 m개의 독립 변수에 의존한다고 가정해 보겠습니다. 따라서 우리는 (m + 1)차원 데이터를 다루게 됩니다. 우리가 가진 데이터가 다음과 같은 n개의 데이터 포인트일 수 있습니다:
 
-
 ![image](/assets/img/2024-06-22-LinearRegressionfromScratch_14.png)
-
 
 여기서 x_ij는 i번째 데이터 포인트에서 j번째 독립 변수의 값을 나타냅니다.
 
 데이터를 벡터화하여 정리하는 것은 항상 좋은 첫 번째 단계입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 이전과 마찬가지로 모든 y 값들을 벡터로 모아낼 수 있어요:
 
 이제는 x 데이터가 두 개의 인덱스를 가지고 있기 때문에 xs에 대해 벡터를 사용하는 것이 더 이상이 아니에요. 대신, 각 행이 하나의 데이터 포인트인 행렬로 모아낼 수 있어요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제부터 이 행렬의 항목을 나타내는 변수로 대문자 X_ij와 소문자 x_ij를 서로 바꿔 사용할 거에요.
 
@@ -210,7 +341,18 @@ plt.show()
 
 독립 변수 각각에 대한 계수 또는 "기울기"인 βs가 있는 m개의 계수가 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각 데이터 포인트의 벡터를 만들 수 있어요.
 
@@ -220,17 +362,37 @@ plt.show()
 
 ![Matrix X](/assets/img/2024-06-22-LinearRegressionfromScratch_19.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 β 계수들의 벡터를 만들어보세요.
 
-
 Equation 3은 매우 간결하게 다음과 같이 표현될 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-하지만 각 예측 값 y'_i에 대한 방정식을 모두 예측 값의 벡터로 결합하여보다 간결하게 할 수 있습니다.
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+하지만 각 예측 값 y'\_i에 대한 방정식을 모두 예측 값의 벡터로 결합하여보다 간결하게 할 수 있습니다.
 
 ![image](/assets/img/2024-06-22-LinearRegressionfromScratch_22.png)
 
@@ -238,7 +400,18 @@ Equation 3은 매우 간결하게 다음과 같이 표현될 수 있습니다.
 
 단순 선형 회귀와 마찬가지로, 우리는 제곱 오차의 합 ||y' - y||²를 최소화하려고 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 등식 4를 사용하여 SSE 공식을 X, y, 그리고 β를 사용하여 확장할 수 있습니다.
 
@@ -248,7 +421,18 @@ Equation 3은 매우 간결하게 다음과 같이 표현될 수 있습니다.
 
 ![Equation-25](/assets/img/2024-06-22-LinearRegressionfromScratch_25.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 여기서 멈출 수 있습니다. Numpy에는 X와 y만 입력으로 사용하여 β의 적절한 값을 찾을 수 있는 numpy.linalg.lstsq 메서드가 있습니다. 기술적으로는 Python과 Numpy만 사용해야 한다는 내 규칙을 위반하는 것은 아니지만, 이것은 "처음부터 선형 회귀"에 대한 포스트에서 속임수 같아 보입니다. 대신, 수학적인 부분으로 들어가겠습니다.
 
@@ -256,7 +440,18 @@ Expression 2를 최소화하기 위해 그래디언트를 β에 대해 제로로
 
 점곱의 구성별 공식을 사용하여,
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 행렬-벡터 곱셈의 경우,
 
@@ -266,15 +461,37 @@ Expression 2를 최소화하기 위해 그래디언트를 β에 대해 제로로
 
 ![componentwise form](/assets/img/2024-06-22-LinearRegressionfromScratch_28.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-이제 특정  β_l  컴포넌트에 대한 식 3의 미분을 취해 봅시다:
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+이제 특정 β_l 컴포넌트에 대한 식 3의 미분을 취해 봅시다:
 
 ![image](/assets/img/2024-06-22-LinearRegressionfromScratch_30.png)
 
 ![image](/assets/img/2024-06-22-LinearRegressionfromScratch_31.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 식 4를 단순화하려면 두 합의 미분을 취해야 합니다:
 
@@ -284,7 +501,18 @@ Expression 2를 최소화하기 위해 그래디언트를 β에 대해 제로로
 
 ![식2](/assets/img/2024-06-22-LinearRegressionfromScratch_33.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각각을 개별적으로 다루어 봅시다.
 
@@ -294,7 +522,18 @@ Expression 2를 최소화하기 위해 그래디언트를 β에 대해 제로로
 
 ![image](/assets/img/2024-06-22-LinearRegressionfromScratch_34.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 내용을 번역해 드리겠습니다.
 
@@ -306,19 +545,39 @@ Expression 7의 두 가운데 항목은 인덱스 변수의 이름이 다를 뿐
 
 이제 미분을 할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-22-LinearRegressionfromScratch_36.png)
 
 ![image](/assets/img/2024-06-22-LinearRegressionfromScratch_37.png)
 
-첫 번째 항이 베타_l을 포함하지 않기 때문에 0이 됩니다.
+첫 번째 항이 베타\_l을 포함하지 않기 때문에 0이 됩니다.
 
 식 6 미분
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 식 6의 도함수를 찾는 것은 훨씬 간단합니다:
 
@@ -328,7 +587,18 @@ Expression 7의 두 가운데 항목은 인덱스 변수의 이름이 다를 뿐
 
 여기에서 두 번째 합계를 다시 β_l을 포함하는 부분과 β_l을 포함하지 않는 부분으로 분할하였습니다. 후자는 미분 중에 0으로 만들어집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 것을 합해 봅시다
 
@@ -338,21 +608,39 @@ Expression 7의 두 가운데 항목은 인덱스 변수의 이름이 다를 뿐
 
 ![image](/assets/img/2024-06-22-LinearRegressionfromScratch_41.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 시점에서 우리는 다음 항등식을 사용할 수 있습니다.
 
-
 ![식1](/assets/img/2024-06-22-LinearRegressionfromScratch_42.png)
-
 
 이를 통해 방정식 5를 더 변형할 수 있습니다.
 
-
 ![식2](/assets/img/2024-06-22-LinearRegressionfromScratch_43.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-22-LinearRegressionfromScratch_44.png" />
 
@@ -362,7 +650,18 @@ Expression 7의 두 가운데 항목은 인덱스 변수의 이름이 다를 뿐
 
 솔루션이 올바름을 확인했으므로, 이제 방정식 6을 β에 대해 해결해야 합니다. Numpy에는 numpy.linalg.solve 함수가 제공되지만, 이 방정식이 하나의 솔루션만 있는 경우에만 작동합니다. 다른 옵션으로는 행렬을 축소된 행 사다리꼴 형태로 변환하는 것이 있지만, 놀랍게도 Numpy에는 이를 위한 유틸리티가 없습니다. 일부 조사를 한 결과, numpy.linalg.qr이라는 것을 발견했는데, 이 함수는 입력 행렬의 QR 분해를 수행합니다. 수학 스택 익스체인지의 답변 및 그 댓글이 방정식 풀이에 QR 분해를 사용하는 방법을 배우는 데 도움이 되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 A가 정사각 행렬이고(X^TX도 정사각이어야 함), 선형 방정식 Ax = b를 해결하려면 먼저 직교하는 정사각 행렬 Q와 상삼각 행렬 R을 찾아야 합니다. 여기서 QR = A가 성립합니다. Ax = b 방정식은 QRx = b로 변환됩니다. Q가 역행렬이어야 하므로 방정식은 Rx = Q^-1b로 더욱 단순화될 수 있습니다. R은 상삼각 행렬이고, 오른쪽 부분은 단순히 벡터이므로 Uv = w를 해결할 수 있는 능력이 있으면 충분합니다.
 
@@ -399,7 +698,18 @@ def solve_upper_triangular(a, b):
 
 이제 MultipleLinearRegressor를 생성할 준비가 되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 class MultipleLinearRegressor:
@@ -427,7 +737,18 @@ def predict(self, x):
     return x @ self.beta
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 fit 메소드는 방정식 6을 해결하기 위해 X^TX를 QR 분해한 다음 solve_upper_triangular을 사용하여 Rβ = Q^-1X^Ty의 해를 찾습니다. 또한 적합한 모델의 제곱 오차의 합을 반환합니다.
 
@@ -465,9 +786,20 @@ def generate_noisy_data(n_data_points, n_independent_variables, beta, x_range, n
     x = np.random.uniform(*x_range, (n_data_points, n_independent_variables))
     y = x @ beta + np.random.normal(scale=noise_stddev, size=n_data_points)
     return x, y
-```  
+```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 데이터를 생성하고 회귀자가 원래 β를 얼마나 잘 복원하는지 살펴보는 시간입니다.
 
@@ -491,7 +823,18 @@ Beta: [-9.95436533  5.02469925 -7.95431319 -1.97266714  1.03726794 -2.95935233
   4.03854255 -4.98106051 -1.01840914  3.0410695]
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에서 확인할 수 있듯이, 원래 매개변수 값에 꽤 가까운 결과를 얻는 데 잘 작동하는 것 같습니다.
 
@@ -501,8 +844,18 @@ Beta: [-9.95436533  5.02469925 -7.95431319 -1.97266714  1.03726794 -2.95935233
 
 이러한 고려 사항은 회귀 모델에 편향을 추가하는 데 많은 노력이 필요하지 않다는 것으로 추가 사항으로 남겨두었습니다: 회귀 모델에 편향을 추가하는 것은 데이터에 항상 1로 설정된 추가 독립 변수를 추가하는 것과 동일합니다. 예를 들어, 우리가 2차원 데이터를 가지고 있고 회귀자에 편향을 추가하려는 경우, f(x) = kx 형태의 모델을 적합시키는 대신에
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-22-LinearRegressionfromScratch_45.png)
 
@@ -512,8 +865,18 @@ Beta: [-9.95436533  5.02469925 -7.95431319 -1.97266714  1.03726794 -2.95935233
 
 여기서 β_1은 기울기이고, β_2는 바이어스입니다. 우리는 다중 선형 회귀를 사용하여 이 모델을 적합시킬 수 있습니다. 고차원 데이터의 경우, 이 과정은 비슷하게 작동합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

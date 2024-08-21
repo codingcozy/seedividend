@@ -3,16 +3,13 @@ title: "css 애니메이션을 위한 베지에 곡선(Bezier Curves) 이해하�
 description: ""
 coverImage: "/assets/img/2024-05-17-UnderstandingBzierCurves_0.png"
 date: 2024-05-17 21:20
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-17-UnderstandingBzierCurves_0.png
 tag: Tech
 originalTitle: "Understanding Bézier Curves"
 link: "https://medium.com/@mmrndev/understanding-b%C3%A9zier-curves-f6eaa0fa6c7d"
 isUpdated: true
 ---
-
-
-
 
 ![Understanding Bézier Curves](/assets/img/2024-05-17-UnderstandingBzierCurves_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 이 글의 목표는 바로 이에요. 이후에 베지에 곡선이 정확히 무엇인지, 왜 사용하는지, 어떻게 동작하는지에 대한 수학적이고 직관적인 이해를 가지게 될 거에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 베지에 곡선이란?
 
@@ -32,8 +40,18 @@ isUpdated: true
 
 만약 Adobe Illustrator나 Figma와 같은 그래픽 편집 소프트웨어를 사용해본 적이 있다면, 이미 이러한 제어점들이 어떻게 작용하는지 보았을 겁니다. 아래 gif에서 각 점이 움직일 때 곡선의 모양이 그에 따라 어떻게 변하는지 주목해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](https://miro.medium.com/v2/resize:fit:1400/1*j6VPAteSfVSRWswKIeQtPw.gif)
 
@@ -43,8 +61,18 @@ You can also use as many control points as you like. The more control points you
 
 That’s great and all, but how do we get a curve from just positioning a bunch of points around?
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 답은 베지에 곡선의 수학적 기초인 버네스타인 다항식에 있습니다. n차 버넨스타인 다항식은 각각 버넨스타인 계수에 의해 곱해진 버넨스타인 기저 다항식의 합으로 정의됩니다.
 
@@ -54,7 +82,18 @@ That’s great and all, but how do we get a curve from just positioning a bunch 
 
 이러한 공식들에 집착하지 마세요. 필요한 것은 이 중에서 몇 가지 주요한 점뿐이에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, 그들의 목적이 무엇인가요? 얼마나 간략하게 말씀드릴까요? Bernstein 다항식은 처음에는 닫힌 구간 내의 임의의 연속 함수를 근사화하는 방법으로 사용되었습니다 (자세한 내용은 Stone-Weierstrass 정리를 참조하세요). 다시 말해, 이러한 다항식을 사용함으로써 우리는 원하는 거의 모든 함수(어떤 곡선도 모델링 가능)를 근사화할 수 있습니다. 이는 다항식이 일반적으로 다른 유형의 함수보다 훨씬 간단하게 계산하고 조작할 수 있기 때문에 정말 유용합니다.
 
@@ -64,7 +103,18 @@ That’s great and all, but how do we get a curve from just positioning a bunch 
 
 ![이미지](/assets/img/2024-05-17-UnderstandingBzierCurves_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 베지에 곡선이 정확히 무엇인가요? 베르슈타인 다항식이며, 여기서 베르슈타인 계수는 제어점이 됩니다! 따라서 베지에 곡선을 구축할 때 우리는 사실적인 함수를 근사하는 것이죠! 이것은 베르슈타인 다항식의 직접적인 응용입니다.
 
@@ -74,7 +124,18 @@ That’s great and all, but how do we get a curve from just positioning a bunch 
 
 베지에 곡선에는 각각의 차수(제어점 수)에 따라 구분되는 몇 가지 유명한 형식이 있습니다. 선형, 이차 및 삼차 베지에 곡선이 그 중 몇 가지입니다. 이 주제를 공부할 때, 베르슈타인 다항식에 기반한 공식을 적용하여 얻을 수 있는 이들의 공식을 아마도 만날 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![UnderstandingBézierCurves_5](/assets/img/2024-05-17-UnderstandingBzierCurves_5.png)
 
@@ -84,9 +145,20 @@ That’s great and all, but how do we get a curve from just positioning a bunch 
 
 ![UnderstandingBézierCurves_6](/assets/img/2024-05-17-UnderstandingBzierCurves_6.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-패턴 (1-t) 및 t가 반복됩니다. 우리는 이차 곡선 P0P1P2를 (1-t) * (베지에(P0P1)) + t * (베지에(P1P2))로 표현하고 있습니다. (다양한 종류의 베지에 곡선이 있는 이전 이미지로 돌아가서 제어점을 연결하는 선에 주목해주세요). 실제로 이를 높은 차수의 곡선에 대해 테스트해보면 그것이 성립함을 볼 수 있습니다. 여기서 새로운 재귀적인 방법으로 베지에 곡선을 정의할 수 있습니다:
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+패턴 (1-t) 및 t가 반복됩니다. 우리는 이차 곡선 P0P1P2를 (1-t) _ (베지에(P0P1)) + t _ (베지에(P1P2))로 표현하고 있습니다. (다양한 종류의 베지에 곡선이 있는 이전 이미지로 돌아가서 제어점을 연결하는 선에 주목해주세요). 실제로 이를 높은 차수의 곡선에 대해 테스트해보면 그것이 성립함을 볼 수 있습니다. 여기서 새로운 재귀적인 방법으로 베지에 곡선을 정의할 수 있습니다:
 
 ![image](/assets/img/2024-05-17-UnderstandingBzierCurves_7.png)
 
@@ -94,7 +166,18 @@ That’s great and all, but how do we get a curve from just positioning a bunch 
 
 우리가 이차 베지에 곡선에서 t=0.5 지점을 계산하려고한다고 상상해보세요. 방금 본 바와 같이, 우리는 이 곡선을 P0, P1 및 P1, P2가 되는 두 개의 선형 베지에 곡선으로 표현할 수 있습니다. 새로운 재귀 공식에 0.5를 대입함으로써, 우리는 P0P1 선상의 t=0.5를 계산하고, 다음으로 P1P2 선상의 t=0.5를 계산합니다. 이로서 우리는 두 개의 새로운 점을 얻게 되는데, 이 두 중간점을 다시 다른 선으로 연결하고 (더 작은 차수의 곡선을 곱하는 (1-t) 및 t를 기억하세요) t=0.5의 최종 위치를 계산할 수 있게 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현재 상황을 시각화해 드릴게요:
 
@@ -104,8 +187,18 @@ That’s great and all, but how do we get a curve from just positioning a bunch 
 
 ![Visualization 2](https://miro.medium.com/v2/resize:fit:480/1*NUV8KWFfKmevb_Z_L2A1hQ.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](https://miro.medium.com/v2/resize:fit:480/1*jFpYqpzDRr0F6HppPpr9kA.gif)
 
@@ -114,10 +207,19 @@ That’s great and all, but how do we get a curve from just positioning a bunch 
 ## De Casteljau의 알고리즘
 
 이 알고리즘은 곡선의 각 점을 평가하기 위해 이 재귀적 정의를 사용합니다. 이는 계산을 단계별로 나누며, 첫 번째 단계에는 개별 제어점이 있고, 최종 단계에는 원하는 점이 있으며, 중간 단계에는 재귀적 정의를 통해 계산하는 모든 중간 점들이 있습니다. 어떻게 3차 곡선에서 작동하는지 살펴봅시다:
-  
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![UnderstandingBzierCurves_8](/assets/img/2024-05-17-UnderstandingBzierCurves_8.png)
 
@@ -127,8 +229,18 @@ That’s great and all, but how do we get a curve from just positioning a bunch 
 
 언제나, 이것이 베지에 곡선에서 재귀 패턴을 사용하고 있다는 점을 기억해 주세요. 이는 버너스타인 다항식에서 유도되었습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 왜 베지에 곡선인가요?
 
@@ -138,7 +250,18 @@ That’s great and all, but how do we get a curve from just positioning a bunch 
 
 타이포그래피의 대표적인 예를 들어보겠습니다. 베지에 곡선은 우리에게 간단한 고정폭 서체에서부터 아름다운 표시 서체까지 다양한 서체를 만들 수 있게 해줍니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-05-17-UnderstandingBzierCurves_10.png" />
 

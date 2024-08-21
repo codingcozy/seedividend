@@ -3,16 +3,13 @@ title: "리액트에서 화면 크기에 맞게 반응형으로 텍스트 크기
 description: ""
 coverImage: "/assets/img/2024-05-17-AdaptatextsizetoscreensizewithdifferentratioinReact_0.png"
 date: 2024-05-17 21:22
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-17-AdaptatextsizetoscreensizewithdifferentratioinReact_0.png
 tag: Tech
 originalTitle: "Adapt a text size to screen size with different ratio in React"
 link: "https://medium.com/@maozerhouni/adapt-a-text-size-to-screen-size-with-different-ratio-in-react-04b7b1ed2ca6"
 isUpdated: true
 ---
-
-
-
 
 현대 웹 개발의 중요한 측면 중 하나는 반응형 웹 디자인을 만드는 것입니다. 다양한 디바이스의 존재로 인해 텍스트가 다양한 화면 크기와 비율에서 가독성이 좋고 심미적으로 매력적으로 보이도록 하는 것은 어려운 과제일 수 있습니다. 이 기사에서는 React 애플리케이션을 다룰 때 다양한 화면 비율에 맞게 텍스트 크기를 동적으로 조정하는 실용적인 해결책에 대해 살펴보겠습니다.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 # 기본 사항:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 솔루션으로 들어가기 전에 사용될 몇 가지 개념을 기본적으로 이해하는 것이 중요합니다.
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 이 도전 과제를 효과적으로 해결하기 위해 CSS 단위에 대한 명확한 이해가 중요합니다. CSS 단위는 반응형 디자인의 구성 요소입니다. 다음은 가장 일반적으로 사용되는 몇 가지 단위입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 픽셀 (px): 화면에서 하나의 픽셀을 나타내는 가장 기본적인 단위입니다. 다른 요소에 따라 변경되지 않는 절대적인 단위입니다.
 - 뷰포트 너비 (vw): 이 단위는 뷰포트의 너비(브라우저 창의 가시 영역)의 1%에 대한 상대적인 값입니다. 예를 들어, 뷰포트가 1000px 너비라면 1vw는 10px입니다.
@@ -46,7 +65,18 @@ isUpdated: true
 
 리액트 컴포넌트에는 라이프사이클이라고 하는 것이 있습니다 — 컴포넌트의 생성부터 언마운트까지 일련의 이벤트가 발생합니다. useState와 같은 훅을 사용하여 상태 관리하거나 window 크기 조정과 같은 부수 효과에 대응하기 위한 useEffect를 통해, 리액트는 동적 행위를 다루는 강력한 방법을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # useState
 
@@ -69,7 +99,18 @@ return(<>
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # useEffect
 
@@ -79,7 +120,18 @@ React에서 작업할 때, 코드는 해석적이 아닙니다. 즉, 어떤 코�
 
 ## 숫자 표시 예제
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 useEffect(() => {
@@ -101,8 +153,18 @@ useEffect(() => {
 
 우리는 React에서 useState와 useEffect 훅을 사용하여 viewport 너비 (vw) 및 높이 (vh)의 변경에 따라 적응하는 반응형 텍스트 크기를 만들어 보겠습니다. 아래는 단계별 가이드입니다:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 1: 상태 설정하기
 
@@ -123,7 +185,18 @@ const [catchSentenceStyle, setCatchSentenceStyle] = useState({
 
 ## 단계 2: 글ꔼ 크기 동적으로 계산하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 viewport의 너비와 높이에 기반하여 동적으로 글꼴 크기를 계산하는 updateStyle 함수를 생성합니다.
 
@@ -156,7 +229,18 @@ const updateStyle = () => {
 
 ## 단계 3: 창 크기 조정에 대한 응답
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 useEffect 훅은 컴포넌트가 마운트될 때와 창 사이즈가 조정될 때 updateStyle을 호출하기 위해 사용됩니다.
 
@@ -172,7 +256,18 @@ useEffect(() => {
 
 마지막으로, 이 스타일을 컴포넌트의 텍스트 요소에 적용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```html
 <div
@@ -193,8 +288,18 @@ useEffect(() => {
 
 텍스트 크기를 다른 화면 크기에 맞게 조정하는 것은 반응형 웹 디자인의 중요한 측면입니다. React의 useState 및 useEffect 훅을 활용하여 개발자는 화면 너비뿐만 아니라 높이에도 조절되는 텍스트를 생성할 수 있으며, 가독성과 화면 공간의 최적 활용을 보장합니다. 이 접근 방식은 다양한 장치와 화면 크기에 걸쳐 사용자 경험을 향상시킵니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 이러한 개념을 이해했으니, 2600px에서처럼 응용 프로그램에서 특정 브레이크포인트를 관리하는 방법에 접근할 수 있습니다. 이는 주방에 특별한 규칙이 있는 것과 같습니다: "2600 명 이상의 고객이 있을 때 다른 메뉴로 전환해야 합니다." 웹 개발에서 브레이크포인트는 웹사이트 레이아웃이 다른 화면 크기나 방향에 맞게 변경되는 지점을 의미합니다.
 

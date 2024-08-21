@@ -3,7 +3,7 @@ title: "튜토리얼 Typescript로 배우는 함수형 프로그래밍 실전 �
 description: ""
 coverImage: "/assets/img/2024-07-13-TutorialFunctionalProgramminginActionwithTypescript_0.png"
 date: 2024-07-13 20:37
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-TutorialFunctionalProgramminginActionwithTypescript_0.png
 tag: Tech
 originalTitle: "Tutorial: Functional Programming in Action with Typescript"
@@ -11,20 +11,26 @@ link: "https://medium.com/@andrewrobertallison/tutorial-functional-programming-i
 isUpdated: true
 ---
 
-
-
-
-
 ![Tutorial Image](/assets/img/2024-07-13-TutorialFunctionalProgramminginActionwithTypescript_0.png)
 
 # 소개
 
 내 커리어 초반에 가르쳐진 한 가지는 JavaScript가 객체지향 언어가 아니라는 것이었습니다. 상속보다는 합성을 사용하고 함수(클래스가 아닌)를 일등 시민으로 다루는 것이 더 나은 접근이라는 것이죠. 전체 스택 역할을 하는 Scala가 백엔드 서비스로 사용되는 회사에 들어가니 정말 놀랍더군요. 프로그래밍에 대한 내가 알고 있던 것을 다시 생각해야 했고 Martin Odersky의 목소리를 듣는 데 많은 시간을 보내야 했습니다. 하지만 익숙해지고 나면 한 번도 되돌아보지 않았습니다. 그 이후로 프론트엔드를 위한 몇 가지 FP 트릭을 발견했는데 이를 공유하고 싶습니다.
 
-이 자습서에서는 RxJS, fp-ts 및 io-ts라는 3가지 라이브러리와 그들과 관련된 함수형 프로그래밍 패러다임을 다룰 것입니다. io-ts의 피어 종속성인 fp-ts를 알아야 합니다. 
+이 자습서에서는 RxJS, fp-ts 및 io-ts라는 3가지 라이브러리와 그들과 관련된 함수형 프로그래밍 패러다임을 다룰 것입니다. io-ts의 피어 종속성인 fp-ts를 알아야 합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # FP 리프레셔
 
@@ -34,7 +40,18 @@ map과 같은 고차 함수는 한 개 이상의 함수를 인수로 받아 새�
 
 <img src="/assets/img/2024-07-13-TutorialFunctionalProgramminginActionwithTypescript_1.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # RxJS
 
@@ -46,7 +63,18 @@ map과 같은 고차 함수는 한 개 이상의 함수를 인수로 받아 새�
 
 # fp-ts
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 라이브러리는 RxJS만큼 인기가 없고 조금 더 복잡합니다. 이 라이브러리는 사용자가 숫자뿐만 아니라 어떤 데이터 유형이든 연결할 수 있는 미리 작성된 함수를 제공합니다.
 
@@ -58,7 +86,18 @@ map과 같은 고차 함수는 한 개 이상의 함수를 인수로 받아 새�
 
 # io-ts
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 라이브러리는 3개 중 가장 작은 라이브러리이며 TypeScript 코드에 입력 및 출력 도우미를 제공합니다. 일반적인 사용 사례는 API 호출을 보내고 받는 것이지만 오디오 및 비디오와 같은 것들에도 유용합니다.
 
@@ -70,16 +109,27 @@ map과 같은 고차 함수는 한 개 이상의 함수를 인수로 받아 새�
 
 # 리액트로 데모하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 세 가지 라이브러리를 사용하는 일반적인 사례는 API 호출을 필요 이상으로 복잡하게 만드는 것입니다. 우리가 일반적인 React.js 컴포넌트에서 어떻게 작동하는지 살펴봅시다.
 
 ```js
-import React, { useState, useEffect } from 'react';
-import { Observable } from 'rxjs';
-import { pipe } from 'fp-ts/lib/pipeable';
-import { map, fold } from 'fp-ts/lib/Either';
-import * as t from 'io-ts';
+import React, { useState, useEffect } from "react";
+import { Observable } from "rxjs";
+import { pipe } from "fp-ts/lib/pipeable";
+import { map, fold } from "fp-ts/lib/Either";
+import * as t from "io-ts";
 
 const ResponseType = t.type({
   data: t.string,
@@ -87,17 +137,11 @@ const ResponseType = t.type({
 
 const fetchData = (): Observable<t.TypeOf<typeof ResponseType>> => {
   return Observable.create(({ error, next, complete }) => {
-    fetch('https://example.com/api/data')
+    fetch("https://example.com/api/data")
       .then((response) => response.json())
       .then((data) => {
         const result = ResponseType.decode(data);
-        pipe(
-          result,
-          fold(
-            error,
-            next,
-          ),
-        );
+        pipe(result, fold(error, next));
         complete();
       })
       .catch(error);
@@ -122,7 +166,18 @@ const MyComponent = () => {
 
 React 컴포넌트에서 useState 훅을 사용하여 검색한 데이터를 추적합니다. 그런 다음 useEffect 훅을 사용하여 fetchData에 의해 반환된 Observable을 구독합니다. 컴포넌트가 마운트될 때 Observable을 구독하고 데이터가 도착하면 검색된 데이터로 상태를 업데이트합니다. 또한 컴포넌트가 마운트 해제될 때 Observable을 구독 취소하여 메모리 누수를 방지합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 fp-ts의 pipe 함수를 사용하여 API 응답의 디코딩과 결과를 Either로 폴딩하는 작업을 조합합니다. 이를 통해 디코딩 오류와 API 오류를 기능적이고 조합 가능한 방식으로 처리할 수 있습니다.
 
@@ -203,7 +258,7 @@ const UserTable = () => {
     | 전화번호
     | ------
     | ----------
-    | -------- 
+    | --------
     | {users.map(({ id, name, email, phone }) => (
       <tr key={id}>
         <td>{id}</td>
@@ -212,14 +267,25 @@ const UserTable = () => {
         <td>{phone}</td>
       </tr>
     ))}
-    | 
+    |
   );
 };
 ```
 
 이 예제에서는 우리의 GraphQL 응답의 예상 모양을 나타내는 io-ts를 사용하여 런타임 유형인 ResponseType을 정의합니다. ApolloClient를 사용하여 GraphQL API에서 데이터를 가져오고 응답의 Observable을 반환하는 fetchData 함수를 정의합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리의 React 컴포넌트에서는 useState 훅을 사용하여 가져온 데이터를 추적합니다. 그런 다음 useEffect 훅을 사용하여 fetchData에 의해 반환된 Observable을 구독합니다. 컴포넌트가 마운트될 때 Observable을 구독하고 데이터가 도착하면 상태를 업데이트합니다. 또한 컴포넌트가 마운트 해제될 때 Observable을 구독해제하여 메모리 누수를 방지합니다.
 
@@ -229,6 +295,17 @@ const UserTable = () => {
 
 제 전문 경력의 대부분에서 프로젝트의 핵심 라이브러리와 기술 스택은 일반적으로 제 입성 전에 구현되었습니다. 새로 합류한 팀에게 다른 방향으로 이주할 것을 설득하는 것은 거의 불가능할 수 있습니다. 이미 있는 것에 헌신하고 나아가야 합니다. 그러나 운이 좋으면 JS 코드베이스에 함수형 프로그래밍 패턴과 라이브러리를 소개할 수있는 경우가 있습니다. 그렇게 하면 훨씬 더 행복할 수 있습니다! 프로그래밍 실수로 인해 버그가 발생할 가능성이 적어진다고 (제 의견으로는) 확신합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요! 궁금한 점, 의견, 뜨거운 이야기가 있으면 아래에 남겨주세요!

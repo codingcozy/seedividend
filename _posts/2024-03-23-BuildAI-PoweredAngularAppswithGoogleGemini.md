@@ -3,17 +3,13 @@ title: "Google Gemini를 활용한 AI 기반 Angular 앱 만드는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Build AI-Powered Angular Apps with Google Gemini"
 link: "https://medium.com/google-cloud/build-ai-powered-angular-apps-with-google-gemini-5bf5e905ca1d"
 isUpdated: true
 ---
-
-
-
-
 
 구글 젬니니를 Angular 애플리케이션에 통합하는 단계별 가이드입니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 우리는 공식 클라이언트를 통해 젬니 Pro 및 젬니 Pro Visual을 테스트하기 위한 간단한 어플리케이션을 만들 것입니다. 추가로 Vertex AI를 REST API를 통해 사용하는 방법도 보여드릴 예정입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 내용을 다룰 것입니다:
 
@@ -42,7 +49,18 @@ isUpdated: true
 
 Google Gemini은 Google AI가 만든 최신 AI 기능을 제공하는 대형 언어 모델(문장 집합) 가족입니다. Gemini 모델은 다음을 포함합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Gemini Ultra. 가장 큰 크기에 가장 강력한 모델로, 코딩, 논리적 추론 및 창의적 협업과 같은 복잡한 작업에 능숙합니다. Gemini Advanced(이전 Bard)를 통해 이용 가능합니다.
 - Gemini Pro. 다양한 작업에 최적화된 중간 크기 모델로, Ultra와 유사한 성능을 제공합니다. Gemini Chatbot 및 Google Workspace와 Google Cloud에서 이용 가능합니다. Gemini Pro 1.5는 긴 문맥 이해에 대한 혁신을 포함하여, 텍스트, 코드, 이미지, 오디오 및 비디오를 포함한 백만 개의 토큰까지의 개선된 성능을 제공합니다.
@@ -55,7 +73,18 @@ aistudio.google.com에 가서 API 키를 생성하세요. 미국을 기반으로
 
 ![이미지](/assets/img/Build-AI-Powered-Angular-Apps-with-Google-Gemini_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Angular 애플리케이션 생성하기
 
@@ -67,7 +96,18 @@ ng new google-ai-gemini-angular
 
 이 명령은 최신 Angular 버전으로 새 프로젝트의 틀을 만들어줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 프로젝트 설정하기
 
@@ -79,7 +119,18 @@ ng g environments
 
 이렇게 하면 개발과 프로덕션용으로 다음과 같은 파일이 생성됩니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 src / environments / environment.development.ts;
@@ -97,7 +148,18 @@ export const environment = {
 
 # Google AI JavaScript SDK
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 Gemini 모델에 액세스하기 위한 공식 클라이언트입니다. 우리는 이를 사용하여 다음을 할 것입니다:
 
@@ -112,7 +174,18 @@ export const environment = {
 npm install @google/generative-ai
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 모델 초기화하기
 
@@ -148,7 +221,18 @@ const model = genAI.getGenerativeModel({
 ...
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안전 설정에서는 기본 설정(중간 또는 높음 차단)을 사용하거나 필요에 따라 조정할 수 있습니다. 예를 들어, 우리는 괴롭힘에 대한 임계값을 높여 낮은 확률 이상의 결과를 차단해 안전성을 높였습니다. 더 자세한 설명은 여기에서 확인할 수 있습니다.
 
@@ -158,7 +242,18 @@ const model = genAI.getGenerativeModel({
 
 아래에서 Gemini Pro를 텍스트 입력만으로 보여주는 코드 조각을 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 async TestGeminiPro() {
@@ -208,7 +303,18 @@ async TestGeminiProVisionImages() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 입력 이미지를 Base64로 변환하려면 아래의 FileConversionService 또는 외부 라이브러리를 사용할 수 있습니다.
 
@@ -247,7 +353,18 @@ Gemini을 위한 이미지 요구 사항:
 - 텍스트와 이미지를 포함하여 최대 4MB.
 - 큰 이미지는 원본 비율을 유지하면서 3072 x 3072 픽셀에 맞게 축소됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 다중 턴 대화 구축하기 (채팅)
 
@@ -281,7 +398,18 @@ async TestGeminiProChat() {
 
 # 스트리밍을 사용하여 생성된 내용을 생성하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예시는 Gemini Pro를 사용하여 스트리밍을 통해 컨텐츠를 생성하는 방법을 보여줍니다.
 
@@ -313,7 +441,18 @@ generateContentStream의 결과로 각 청크 스트림이 생성될 때마다 �
 
 # 보너스: REST API를 통해 Vertex AI를 사용하여 AI 컨텐츠를 생성하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 공식 JavaScript 클라이언트 대신 Vertex AI에서 제공하는 Gemini REST API를 사용할 수도 있습니다. Vertex AI는 Google Cloud에서 제공되는 관리형 서비스로, Gemini를 포함한 AI 모델을 훈련하고 배포할 수 있는 완전한 AI 플랫폼입니다.
 
@@ -326,7 +465,18 @@ REST API에 대한 접속 보안을 강화하려면 계정을 만들고 응용 �
 
 프로젝트 ID와 액세스 토큰을 얻으면, Angular 앱으로 계속 진행할 준비가 되었습니다. 모든 설정이 올바르게 완료되었는지 확인하려면 다음 curl 명령어를 시도해 볼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 개발 파일을 편집하여 프로젝트 ID와 액세스 토큰을 포함해 주세요:
 
@@ -350,7 +500,18 @@ export const appConfig: ApplicationConfig = {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 가져오기를 통해 HttpClient를 모든 구성 요소 또는 서비스에 주입하여 웹 요청을 만들 수 있습니다.
 
@@ -432,7 +593,18 @@ getAuthHeaders(accessToken: string) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 코드 실행하기
 
@@ -453,7 +625,18 @@ ngOnInit(): void {
 
 터미널에서 다음 명령을 실행하고 localhost:4200으로 이동하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 ng serve
@@ -467,7 +650,18 @@ ng serve
 console.log(response.text());
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 가장 큰 이름이 붙은 숫자는 구구올플렉스입니다. 구구올플렉스는 1 뒤에 100개의 0이 따릅니다.
@@ -479,7 +673,18 @@ console.log(response.text());
 
 이 튜토리얼을 완료함으로써 다음을 배웠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - API 키를 얻고 Gemini API에 액세스하는 방법
 - 텍스트 및 채팅을 사용하여 Gemini Pro를 호출하는 방법
@@ -493,7 +698,18 @@ console.log(response.text());
 
 Angular Material, ngx-quill 및 ngx-markdown을 사용하여 풀 스케일 Gemini 챗봇을 구축했습니다. 텍스트, 채팅 및 멀티모달 기능을 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/Build-AI-Powered-Angular-Apps-with-Google-Gemini_2.png)
 
@@ -503,7 +719,18 @@ Angular Material, ngx-quill 및 ngx-markdown을 사용하여 풀 스케일 Gemin
 
 질문이 있으신가요? 아래 댓글을 남기거나 Twitter에서 @gerardsans로 연락해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 자원
 

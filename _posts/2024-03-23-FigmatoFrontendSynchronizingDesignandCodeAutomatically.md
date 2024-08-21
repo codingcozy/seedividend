@@ -3,17 +3,13 @@ title: "Figma에서 Frontend로 디자인과 코드 자동 동기화하기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Figma to Frontend Synchronizing Design and Code Automatically"
 link: "https://vkteam.medium.com/figma-to-frontend-synchronizing-design-and-code-automatically-62e493054631"
 isUpdated: true
 ---
-
-
-
-
 
 ![Figma-to-Frontend:-Synchronizing-Design-and-Code-Automatically_0.png](/assets/img/Figma-to-Frontend:-Synchronizing-Design-and-Code-Automatically_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 빠르게 성장하는 것에는 단점도 있습니다 — 인터페이스 품질을 효과적으로 통제하고 UX/UI 패턴의 일관성을 보장하는 것이 점점 더 어려워지고 중요해지고 있는 것을 알 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 디자인 및 프론트엔드의 불일치
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 어느 순간에 이 불일치가 심각해졌습니다 — 거의 모든 프론트엔드 컴포넌트가 어느 정도 디자인과 다르다는 것을 알게 되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 물론, 최소한의 불일치라도 전체적으로 보면 전체 그림을 크게 왜곡합니다.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 디자인 검토 단계를 개발 프로세스에 통합하지 못했거나 모든 구성 요소를 수동으로 비교하지 못했거나 스프린트 중에 이러한 활동을 위한 시간을 찾지 못했습니다 — 항상 더 높은 우선순위를 갖는 다른 작업을 처리했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한편, 디자이너, 개발자, 분석가, 프리세일 매니저, 테스터 및 무엇보다 중요한 사용자와 비즈니스에게 모두 불편을 초래하여 상황이 악화되었기 때문에 우리는 이러한 불일치를 용납할 수 없었습니다.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 물론 자동화도 리소스를 소비하지만 대부분은 구현 단계에서 일어납니다. 그런 다음 많은 시간과 노력을 절약하고 전체 과정의 효율성을 향상시키기 시작합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 디자인에서 스타일과 컴포넌트를 코드로 자동으로 내보내기로 결정했고, 이 작업을 처리할 수 있는 Figma 플러그인이나 독립형 제품과 같은 도구를 찾기 시작했습니다.
 
@@ -66,7 +106,18 @@ isUpdated: true
 - 스타일의 디자인 토큰을 css, json, ts 형식(그 외 형식도 가능)으로 포함한 출력물, svg 아이콘 및 react (javascript) 컴포넌트의 코드 가져오기.
 - 생성된 컴포넌트를 storybook에 자동으로 배치하기.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Figma-to-Frontend:-Synchronizing-Design-and-Code-Automatically_1.png](/assets/img/Figma-to-Frontend:-Synchronizing-Design-and-Code-Automatically_1.png)
 
@@ -76,7 +127,18 @@ isUpdated: true
 
 ## 스타일 자동 생성을 위한 피그마 파일 관리
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 텍스트 스타일, 색상 및 효과는 로컬 스타일(텍스트 스타일, 색상 스타일, 효과 스타일)을 통해 표준 방식으로 관리되며 추가 설정 없이 생성됩니다.
 
@@ -86,7 +148,18 @@ isUpdated: true
 
 ![이미지](/assets/img/Figma-to-Frontend:-Synchronizing-Design-and-Code-Automatically_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 스타일 생성 코드는 변수가 나오기 전에 작성되었습니다. 이제 우리는 Figma 생성기의 이 측면을 발전시켜 로컬 스타일과 변수에서 스타일을 모두 생성할 계획입니다.
 
@@ -96,7 +169,18 @@ isUpdated: true
 
 다음은 이러한 특성의 몇 가지 예시입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 매개변수의 조합에 따라 서로 다른 변형이 있는 변형 요소들,
 - 구성 요소 상태에 의존하여 구성 요소 스타일을 결정하는 가상 상태 (가상 클래스) (호버, 포커스, 액티브, 체크됨 등),
@@ -113,7 +197,18 @@ isUpdated: true
 - 텍스트를 "자르는" 기능을 활성화하는 Truncate text 매개변수 사용
 - 텍스트 컨테이너 내 허용되는 줄 수를 설정하기 위해 Max lines 매개변수를 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 외에도, 수평 및 수직 조절 매개변수를 사용하여 컴포넌트 동작 유형을 프런트엔드로 내보냅니다(이 매개변수는 컴포넌트 크기가 내용에 따라 결정되는지(hug) 또는 컴포넌트가 할당된 공간 전체를 차지하는지(fill)를 결정합니다).
 
@@ -123,7 +218,18 @@ isUpdated: true
 
 다중 값 속성(예: xs, s, m, l 값이 있는 크기 속성)을 관리하기 위해 변형 속성 기능을 사용합니다. 예를 들어 참/거짓 값을 허용하는 속성인 비활성화(disabled), isNegative, isLoading 등은 동일한 방식으로 지정됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가상 상태 (의사 클래스)는 Variant 속성을 통해 지정되며 true/false 값을 수용하며, 이러한 상태의 이름에는 다른 속성과 구분하기 위해 콜론이 추가됩니다. (예: :hover, :focus, :active와 같이).
 
@@ -133,7 +239,18 @@ isUpdated: true
 
 컴포넌트에 텍스트 컨테이너가 포함되어 있는 경우, 해당 컨테이너는 Children이라는 텍스트 매개변수로 할당되어 프론트엔드에서 컴포넌트에 어떤 텍스트든 "추가"할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/Figma-to-Frontend:-Synchronizing-Design-and-Code-Automatically_5.png" />
 
@@ -143,7 +260,18 @@ isUpdated: true
 
 그럼에도 불구하고, 저희는 다음을 성취했습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 모든 구성 요소의 기본 매개변수를 프론트엔드로 내보냅니다.
 - 고도로 자격을 갖춘 개발자가 작성한 것처럼 능숙하게 코드가 작성된 완전한 구성 요소를 생성합니다.
@@ -155,7 +283,18 @@ isUpdated: true
 
 또한, 현재까지 우리는 Figma에서 애니메이션 매개변수를 내보내거나 어떻게 다른 구성 요소의 어떤 수의 구성 요소를 수용하는 구성 요소를 생성할 지 발명하지 못했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막으로 가장 중요한 제약 사항은 Figma 생성기가 우리의 통제를 벗어나는 API를 통해 데이터를 얻는다는 것입니다. 따라서 API의 변경이나 제한된 접근이 생성기를 추가로 개발하거나 이 방식으로 구성 요소를 생성하는 아이디어를 완전히 포기해야 할 필요성을 만들 수 있습니다. 그리고 Figma의 다음 업그레이드에서 개발 모드가 무엇을 제공할지 아무도 모릅니다.)
 
@@ -165,7 +304,18 @@ isUpdated: true
 
 이것이 우리에게 무슨 의미를 갖는지 알아보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희 디자인 시스템의 1/3이 이미 100% 동기화되었다는 뜻이에요. 그리고 동기화는 자동으로 이루어지기 때문에, 이 시스템 부분에 대한 디자인 리뷰를 하는 데 리소스를 낭비할 필요가 없어요.
 
@@ -175,7 +325,18 @@ UI 스타일을 즉석에서 조정할 수 있어요 (색상, 폰트, 모서리 
 
 우리의 Figma 생성기를 계속해서 개선할 수 있으므로, 추가 실험을 위한 기초를 갖추고 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만, 무엇보다 중요한 것은 우리(그리고 아마도 여러분도)가 함께 일하고 전문적으로 성장하는 디자이너와 프론트엔드 개발자가 가장 이례적인 작업들을 해결할 수 있다는 것을 확신할 수 있다는 점입니다!
 
@@ -185,6 +346,17 @@ UI 스타일을 즉석에서 조정할 수 있어요 (색상, 폰트, 모서리 
 
 이 흥미로운 내부 프로젝트를 위해 용기와 지원, 독특한 경험 및 이 기사를 작성하는 동안의 지원에 감사드립니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 의견이나 제안이 있으시다면, 게시물에 댓글로 공유해주세요!

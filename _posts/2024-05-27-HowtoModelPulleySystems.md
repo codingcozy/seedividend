@@ -3,17 +3,13 @@ title: "풀리 시스템 모델링 방법"
 description: ""
 coverImage: "/assets/img/2024-05-27-HowtoModelPulleySystems_0.png"
 date: 2024-05-27 18:33
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-HowtoModelPulleySystems_0.png
 tag: Tech
 originalTitle: "How to Model Pulley Systems"
 link: "https://medium.com/@keith-mcnulty/how-to-model-pulley-systems-7dc71ab4eb6b"
 isUpdated: true
 ---
-
-
-
-
 
 ![Pulley System](/assets/img/2024-05-27-HowtoModelPulleySystems_0.png)
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 풀리 시스템 문제는 고등학교에서 흔히 배우는 수학 도구를 사용하여 해결하는 데 재미있고 깔끔할 수 있습니다. 최근에 매우 만족스러운 해결책이 있는 이 형태의 문제를 발견했습니다. 이 문제를 해결하기 위해서는 뉴턴의 법칙, 운동의 기본 방정식, 그리고 에너지와 운동량에 대한 기본 지식이 필요합니다. 또한 문제를 수학으로 모델링하기 위해 체계적으로 생각할 수 있어야 합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문제를 설명하겠습니다.
 
@@ -34,8 +40,18 @@ A 파일드라이버는 가벼운 무게 m의 경량 카운터웨이트에 의�
 
 역학 문제의 경우 다이어그램이 많은 도움이 됩니다. 이것이 파일 위에 위치한 초기 상황의 다이어그램입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![How to Model Pulley Systems Part 1](/assets/img/2024-05-27-HowtoModelPulleySystems_1.png)
 
@@ -45,8 +61,18 @@ A 파일드라이버는 가벼운 무게 m의 경량 카운터웨이트에 의�
 
 ![How to Model Pulley Systems Part 2](/assets/img/2024-05-27-HowtoModelPulleySystems_2.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어느 순간, 줄이 다시 팽창되어 긴장이 생기면서 편입기가 중력에 의해 느려지고 제로가 될 때까지 위로 올라갈 것입니다. 그런 다음, 파일과 충돌할 때까지 떨어지며, 이 과정은 시스템이 영구적으로 정지할 때까지 반복됩니다.
 
@@ -56,7 +82,18 @@ A 파일드라이버는 가벼운 무게 m의 경량 카운터웨이트에 의�
 
 ![image](/assets/img/2024-05-27-HowtoModelPulleySystems_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 번째 방정식을 재배열하고 첫 번째 방정식에 대입하면, 시스템의 가속도에 대한 식을 유도할 수 있습니다. 다음과 같이:
 
@@ -66,7 +103,18 @@ A 파일드라이버는 가벼운 무게 m의 경량 카운터웨이트에 의�
 
 ![이미지](/assets/img/2024-05-27-HowtoModelPulleySystems_5.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 첫 번째와 두 번째 충돌 사이의 움직임 연구
 
@@ -76,8 +124,18 @@ A 파일드라이버는 가벼운 무게 m의 경량 카운터웨이트에 의�
 
 이제 줄이 다시 팽팽해지는 시점에서, 장력은 집게와 카운터웨이트가 새로운 속도로 함께 움직이도록 유발할 것입니다. 우리는 전단량 보존 법칙을 사용하여 우리가 v₁이라고 부를 새로운 속도를 계산할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-05-27-HowtoModelPulleySystems_6](/assets/img/2024-05-27-HowtoModelPulleySystems_6.png)
 
@@ -86,10 +144,19 @@ A 파일드라이버는 가벼운 무게 m의 경량 카운터웨이트에 의�
 ![2024-05-27-HowtoModelPulleySystems_7](/assets/img/2024-05-27-HowtoModelPulleySystems_7.png)
 
 첫 번째와 두 번째 충돌 사이의 총 시간 T₁을 얻으려면 이 값을 두 배하여 역추적하는 시간을 더해야 합니다:
-  
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-05-27-HowtoModelPulleySystems_8.png)
 
@@ -99,8 +166,18 @@ A 파일드라이버는 가벼운 무게 m의 경량 카운터웨이트에 의�
 
 ![이미지](/assets/img/2024-05-27-HowtoModelPulleySystems_9.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 방법을 사용하여 결합된 시스템이 제로로 느려지는 데 걸리는 시간을 계산할 수도 있습니다. 이 계산 결과는 다음과 같습니다:
 
@@ -110,7 +187,18 @@ A 파일드라이버는 가벼운 무게 m의 경량 카운터웨이트에 의�
 
 ![image](/assets/img/2024-05-27-HowtoModelPulleySystems_11.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 이제 충돌 사이의 소요 시간이 등비 수열인 것을 쉽게 알 수 있습니다. 즉:
 
@@ -120,7 +208,18 @@ A 파일드라이버는 가벼운 무게 m의 경량 카운터웨이트에 의�
 
 충돌 사이의 시간 순열이 공비율 m/(M+m) 과 첫 항 T₁을 가진 등비 수열임을 알았으며, 공비율이 명백히 1보다 작음을 고려하면, 모든 충돌의 시작부터 끝까지의 총 시간이 극한값으로 수렴함을 말할 수 있고, 등비 급수의 합 T = T₁ + T₂ + … 를 다음과 같이 계산할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-05-27-HowtoModelPulleySystems_13.png)
 

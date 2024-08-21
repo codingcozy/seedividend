@@ -3,16 +3,13 @@ title: "Bayesian Framework을 활용한 마케팅 믹스 모델링과 ROAS"
 description: ""
 coverImage: "/assets/img/2024-06-20-MMMBayesianFrameworkforMarketingMixModelingandROAS_0.png"
 date: 2024-06-20 02:06
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-MMMBayesianFrameworkforMarketingMixModelingandROAS_0.png
 tag: Tech
 originalTitle: "MMM: Bayesian Framework for Marketing Mix Modeling and ROAS"
 link: "https://medium.com/towards-data-science/mmm-bayesian-framework-for-marketing-mix-modeling-and-roas-ccade4005bd5"
 isUpdated: true
 ---
-
-
-
 
 이 게시물은 Rafael Guedes와 함께 공동 저술되었습니다.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 MMM은 마케팅 팀이 투자의 영향과 대화 유도에 어떻게 기여하는지를 측정할 수 있는 기술입니다. 이 일의 복잡성은 최근 몇 년 동안 급속히 증가했습니다. 왜냐하면 광고를 할 수 있는 플랫폼이 급증했기 때문입니다. 이 현상은 잠재 고객을 오프라인 또는 온라인 버킷으로 나눌 수 있는 다양한 미디어 채널에 분산시켰습니다. 전통적인 오프라인 채널은 디지털 지원이 없으며 신문, 라디오, 텔레비전 광고, 쿠폰, 박람회 부스 등을 포함할 수 있습니다. 온라인 채널은 급증했고 기업들은 이러한 채널을 함께 사용하고 있습니다. 이메일, 소셜 미디어, 유기적 검색, 유료 검색, 제휴 마케팅, 인플루언서 마케팅 등을 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 중요한 점 중 하나는 좋은 MMM이 동일하게 정확한 데이터 기반 속성 모델이 필요하다는 것입니다. 즉, 어떤 채널이 특정 고객을 확보하는 데 기여했는지를 나타냅니다. 또한 속성은 사용자 수준에서 수행되지만, MMM은 일반적으로 확보 채널 수준에서 적용됩니다. 데이터 기반 속성은 이 글의 범위를 벗어납니다.
 
@@ -30,7 +38,18 @@ MMM은 마케팅 팀이 투자의 영향과 대화 유도에 어떻게 기여하
 
 항상 코드는 우리의 GitHub에서 이용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 미디어 믹스 모델링: 무엇인가요?
 
@@ -40,7 +59,18 @@ MMM은 전 세계 기업들에게 광고 채널의 효과를 측정하고 미디
 
 전통적인 접근 방식은 회귀 방법을 활용하여 상관 관계에서 인과 관계를 추론합니다. 그러나 매출의 반응은 선형적이지 않습니다 - 고수준 지출에서 수익이 감소하는 포화 현상이 있습니다. 게다가 광고에는 선행 또는 잔류 효과가 있어 이전 주에 지출한 내용이 다음 주의 매출에 영향을 미칠 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-20-MMMBayesianFrameworkforMarketingMixModelingandROAS_1.png" />
 
@@ -50,7 +80,18 @@ MMM은 전 세계 기업들에게 광고 채널의 효과를 측정하고 미디
 
 모델 세부사항에 대해 깊이 파고들기 전에, 모델이 어떤 변수를 고려하는지 더 잘 이해하기 위해 가상의 데이터 세트를 정의해보겠습니다. 국가 수준에서 매주 데이터가 있으며 각 행이 주차(t)를 나타내고 각 열이 미디어 채널(m) 또는 계절성 또는 제품 가격과 같은 제어 변수(c)를 나타내는 가정 데이터 세트를 정의해보겠습니다. 주차 t에서 채널 m의 미디어 비용은 Xt,m로 정의되며 동일한 주차에 대한 제어 변수는 Zt,c로 정의됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-20-MMMBayesianFrameworkforMarketingMixModelingandROAS_2.png" />
 
@@ -60,7 +101,18 @@ MMM은 전 세계 기업들에게 광고 채널의 효과를 측정하고 미디
 
 <img src="/assets/img/2024-06-20-MMMBayesianFrameworkforMarketingMixModelingandROAS_3.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 미디어 채널마다 L을 다르게 설정할 수 있습니다. 이것은 전문가가 정의해야 하는 초매개변수입니다. 특정 채널에 대한 사전 정보가 없는 경우, 저자들은 잠재적으로 지연된 효과를 포착하기 위해 L을 13과 같은 큰 숫자로 설정하는 것이 좋다고 충고합니다.
 
@@ -70,7 +122,18 @@ MMM은 전 세계 기업들에게 광고 채널의 효과를 측정하고 미디
 
 ![equation](/assets/img/2024-06-20-MMMBayesianFrameworkforMarketingMixModelingandROAS_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 광고 효과의 정점이 더 오랜 시간이 걸려 구축되고 판매에 즉시 영향을 주지 않는 경우를 지연된 Adstock [1]라고합니다. 식 3에서 θm은 정점 효과의 지연을 나타냅니다.
 
@@ -80,7 +143,18 @@ MMM은 전 세계 기업들에게 광고 채널의 효과를 측정하고 미디
 
 ![이미지](/assets/img/2024-06-20-MMMBayesianFrameworkforMarketingMixModelingandROAS_6.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 표 3는 각 주별 지출이 8주차의 매출량에 얼마나 기여하는지를 보여줍니다.
 
@@ -90,13 +164,35 @@ MMM은 전 세계 기업들에게 광고 채널의 효과를 측정하고 미디
 
 포화 또는 모양 효과는 미디어 비용을 로지스틱 포화 함수 [3]와 같은 곡률 함수를 통해 변환하여 모델링합니다. 다음과 같이 정의됩니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 중에서 x는 미디어 비용을 나타내고, λ는 포화 곡선의 가파르기를 제어한다. 즉, 미디어 비용 효과가 얼마나 빨리 포화되는지를 결정한다. 그러면 낮은 λ 값은 응답 함수의 증가가 점진적이라고 해석할 수 있으며, 미디어 비용이 넓은 범위의 값들에 대해 주목할 만한 효과를 갖는다는 것을 의미한다. 반대로, 높은 λ 값은 지출에 대한 감소된 수익을 가져올 것이다. Figure 4는 이러한 다른 행동들을 매우 명확히 보여줍니다.
 
 이 모델에 어떤 매개변수를 사용해야 하는지 알기가 어렵습니다. 왜냐하면 이는 각 채널의 행동에 매우 구체적이기 때문입니다. 그럼에도 불구하고, Bayesian 접근 방식에서 이러한 매개변수는 사전 분포를 사용하여 추정됩니다. 따라서, 모델은 주어진 데이터에 대해 가능한 가치 매개변수를 선택합니다. 따라서, 우리는 단일 값이 아닌 분포를 설정해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 캐리오버와 형태 효과 결합
 
@@ -107,7 +203,18 @@ MMM은 전 세계 기업들에게 광고 채널의 효과를 측정하고 미디
 
 기관들은 일반적으로 마케팅 활동을 집중하기 때문에 가장 흔한 접근 방식은 캐리오버 → 형태 효과의 결합입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이에 따라 t주차의 종속 변수인 매출 y는 미디어 비용 및 제어 변수의 선형 결합을 통해 모델링될 수 있습니다. 또한 회귀 계수 β를 사용하여 각 미디어 채널에 대한 다른 효과를 모델링합니다.
 
@@ -117,7 +224,18 @@ MMM은 전 세계 기업들에게 광고 채널의 효과를 측정하고 미디
 
 # 베이지안 모델
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 베이지안 접근법은 모델 매개변수에 대한 사전 분포를 정의하는 것으로 시작하여, 데이터를 고려하기 전의 초기 신념을 반영합니다. 새로운 데이터가 도입되면 모수가 주어졌을 때 데이터를 관찰할 확률을 나타내는 우도 함수가 계산됩니다. 이 문맥에서 데이터에는 미디어 채널 X와 종속 변수 y를 설명하는 제어 변수 Z가 포함됩니다. 베이즈 정리를 사용하여 사후 분포는 사전 분포와 우도 함수를 결합하여 얻어집니다.
 
@@ -127,7 +245,18 @@ MMM은 전 세계 기업들에게 광고 채널의 효과를 측정하고 미디
 
 데이터가 강력한 정보를 함유하고 명확한 패턴을 가질 때 모델은 매개변수를 추정할 때 사전 분포에 더 적게 의존한다는 것을 기억해 주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만, 저자들은 각 매개변수에 대한 사전 분포를 정의하는 방법에 대한 일부 지침을 남겼습니다:
 
@@ -137,8 +266,18 @@ MMM은 전 세계 기업들에게 광고 채널의 효과를 측정하고 미디
 
 - 지연 매개변수 (θ)는 일반적으로 [0, L-1]에 제한되어 있으며, 균일 분포나 스케일링된 베타 분포와 같은 사전을 가져야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-20-MMMBayesianFrameworkforMarketingMixModelingandROAS_13.png)
 
@@ -148,8 +287,18 @@ MMM은 전 세계 기업들에게 광고 채널의 효과를 측정하고 미디
 
 - Lambda (λ) is usually modeled by a gamma distribution.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-20-MMMBayesianFrameworkforMarketingMixModelingandROAS_15.png" />
 
@@ -159,7 +308,18 @@ MMM은 전 세계 기업들에게 광고 채널의 효과를 측정하고 미디
 
 # PyMC를 활용한 베이지안 미디어 믹스 모델링
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해당 섹션은 카글의 공개 데이터셋을 활용하여 CC0 라이선스로 Bayesian 모델을 구현했습니다. 이 데이터셋은 세 가지 다른 미디어 채널(TV, 라디오, 신문)에 대한 지출 및 동일 기간의 판매에 대한 정보를 포함하고 있습니다.
 
@@ -173,7 +333,18 @@ MMM은 전 세계 기업들에게 광고 채널의 효과를 측정하고 미디
 
 적합된 Bayesian 모델은 각 채널별 ROAS, 유지율 및 포화 효과를 계산하는 데 도움이 될 것입니다. 또한 미래 주차를 위한 예산 할당을 최적화하는 데도 도움이 될 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모형의 신뢰성을 측정하기 위해 각 매체 채널의 지출과 제어 변수에 기반하여 보이지 않는 데이터에서 종속 변수를 얼마나 잘 모델링할 수 있는지를 평가할 것입니다. 우리는 평균 절대 오차 (MAE)와 같은 회귀 지표를 활용할 것입니다. 벤치마킹 측면에서, 항상 훈련 데이터의 평균 값으로 예측하는 단순 모형을 사용합니다. 그런데, MMM이 없을 때 기업들이 종종 이를 의존합니다.
 
@@ -196,7 +367,18 @@ from sklearn.metrics import mean_absolute_error
 
 그런 다음 데이터셋을 로드하고 일부 기본 전처리 작업을 수행합니다. 열 이름을 간소화하고 ID를 기반으로 새로운 날짜 열을 추가했습니다. 계절성 및 추세와 같은 제어 변수로 데이터셋을 보강하는 데 도움이 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 # 데이터 로드 및 열 이름 변경
@@ -213,7 +395,18 @@ df['ds'] = df['id'].apply(lambda x: pd.to_datetime("2024-02-26")-datetime.timede
 
 - TV는 판매와 가장 크게 관련된 특성이며, Newspaper는 가장 낮은 상관 관계를 갖고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 corr_matrix = df[['sales', 'tv', 'radio', 'newspaper']].corr()
@@ -242,7 +435,18 @@ utils.line_plot(df.copy(), ['sales', 'radio'], '시간에 따른 판매 대 라�
 utils.line_plot(df.copy(), ['sales', 'newspaper'], '시간에 따른 판매 대 신문')
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 EDA를 마무리했으니 모델링 부분을 준비할 차례입니다:
 
@@ -255,7 +459,18 @@ test_df = df.sort_values(by='ds').iloc[-5:,:]
 
 2. 이전에 생성한 주간 데이터를 사용하여 추세와 계절성과 같은 통제 변수를 추출하려고 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 시계열 모델 Prophet을 사용하여 Meta에서 시계열을 추세 및 계절성으로 분해하고 이를 제어 변수로 사용합니다.
 
@@ -271,7 +486,18 @@ test_df.loc[:,'trend'] = trend[-5:]
 
 3. 모델을 위한 다른 하이퍼파라미터를 설정합니다. 이러한 매개변수는 전통적인 ML 하이퍼파라미터 검색을 통해 정의할 수 있습니다. dist, mu 및 sigma 값을 변경하여 일부 회귀 지표를 최적화합니다. 더 높은 표준 편차 값(sigma)은 모델에 더 많은 자유를 제공하여 최적의 매개변수를 탐색할 수 있음을 기억하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 my_model_config = {'intercept': {'dist': 'Normal', 'kwargs': {'mu': 0, 'sigma': 2},
@@ -290,7 +516,18 @@ Figure 13에서 저희가 구현한 모델의 Kruschke 다이어그램을 제시
 
 이제 우리는 교육 및 테스트 세트, 그리고 모델 구성을 정의했으므로 베이지안 모델을 초기화하고 교육 데이터에 맞출 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 미디어 채널 ["tv", "radio", "newspaper"]
 - 통제 변수 ["seasonality", "trend"]
@@ -298,25 +535,46 @@ Figure 13에서 저희가 구현한 모델의 Kruschke 다이어그램을 제시
 
 ```js
 mmm = DelayedSaturatedMMM(
-    model_config=my_model_config,
-    sampler_config={"progressbar": True},
-    date_column="ds",
-    channel_columns=["tv", "radio", "newspaper"],
-    control_columns=["seasonality", "trend"],
-    adstock_max_lag=2,
-)
+  (model_config = my_model_config),
+  (sampler_config = { progressbar: True }),
+  (date_column = "ds"),
+  (channel_columns = ["tv", "radio", "newspaper"]),
+  (control_columns = ["seasonality", "trend"]),
+  (adstock_max_lag = 2)
+);
 
-mmm.fit(X=train_df[['ds', 'tv', 'radio', "newspaper", "seasonality", "trend"]], y=train_df['sales'], target_accept=0.95, chains=4, random_seed=42)
+mmm.fit(
+  (X = train_df[["ds", "tv", "radio", "newspaper", "seasonality", "trend"]]),
+  (y = train_df["sales"]),
+  (target_accept = 0.95),
+  (chains = 4),
+  (random_seed = 42)
+);
 ```
 
 모델을 적합한 후에는 샘플링 예측값(파란색)과 실제 값(검은색)을 비교하여 학습 데이터에 얼마나 잘 맞는지 확인할 수 있습니다. 우리의 경우, 그들이 잘 일치하는 것을 확인할 수 있습니다.
 
 ```js
-mmm.sample_posterior_predictive(train_df[['ds', 'tv', 'radio', "newspaper", "seasonality", "trend"]], extend_idata=True, combined=True)
-mmm.plot_posterior_predictive(original_scale=True);
+mmm.sample_posterior_predictive(
+  train_df[["ds", "tv", "radio", "newspaper", "seasonality", "trend"]],
+  (extend_idata = True),
+  (combined = True)
+);
+mmm.plot_posterior_predictive((original_scale = True));
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 다양한 방법으로 모델 해석을 시작할 수 있습니다:
 
@@ -326,19 +584,24 @@ mmm.plot_posterior_predictive(original_scale=True);
 - 유지율 α는 TV에 대해 3.2%, 라디오에 대해 2.3%, 신문에 대해 23.9%입니다.
 
 ```js
-az.summary(data=mmm.fit_result,
-    var_names=[
-        "intercept",
-        "likelihood_sigma",
-        "beta_channel",
-        "alpha",
-        "lam",
-        "gamma_control",
-    ],
-)
+az.summary(
+  (data = mmm.fit_result),
+  (var_names = ["intercept", "likelihood_sigma", "beta_channel", "alpha", "lam", "gamma_control"])
+);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - TV에서 포화율 λ가 더 높으며 (3.138), 전체 지출의 73%를 차지합니다. 그림 12에서 3개 채널의 포화율을 더 쉽게 비교할 수 있습니다.
 
@@ -349,7 +612,18 @@ az.summary(data=mmm.fit_result,
 - ROAS는 매체 채널 중 하나의 지출을 제로로 설정하여 현재 매출 대비 예측 매출이 어떻게 변경되는지를 평가하여 계산됩니다. 예를 들어, 신문의 매체 지출을 제로로 설정하면 매출 큰 감소를 예상하지 않습니다. 따라서, 이에 대한 ROAS는 낮을 것입니다.
 - TV가 높은 지출을 했기 때문에 가장 큰 기여를 가지고 있지만, 모델은 라디오에 대해 더 높은 ROAS를 예측합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 채널의 공헌도
@@ -366,21 +640,42 @@ X 축은 채널 데이터 백분율 수준입니다:
 - When =1 일 때, 모델 입력 지출 데이터가 됩니다.
 - When =1.5 일 때, 지출을 50% 증가시켰을 때의 공헌도가 어떨지 볼 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-신문은 지출이 50% 증가해도 그다지 많은 기여를 못 할 것 같아요. 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+신문은 지출이 50% 증가해도 그다지 많은 기여를 못 할 것 같아요.
 
 라디오는 TV에 비해 훨씬 포화되지 않아 보여요. 두 선의 기울기를 비교해 봤을 때 그렇죠.
 
 ```js
-plt.rcParams["figure.figsize"] = (20,5)
-mmm.plot_channel_contributions_grid(start=0, stop=1.5, num=12);
+plt.rcParams["figure.figsize"] = (20, 5);
+mmm.plot_channel_contributions_grid((start = 0), (stop = 1.5), (num = 12));
 ```
 
 우리의 결론이 올바른지 확인하기 위해 시험 집합을 사용하여 미디어 채널과 제어 변수를 기반으로 미래 매출을 예측하는 모델의 성능을 평가할 수 있어요. 이를 위해 MAE를 사용하고 소박한 모델과 비교할 거에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 우리는 평균 목표가 13.8인 경우 MAE가 2.01이었습니다.
 - 우리는 베이스라인보다 오차가 58% 낮습니다.
@@ -397,7 +692,18 @@ print(f"평균 절대 비율 오차 (MASE): {mean_absolute_error(test_df['sales'
 
 # 예산 할당
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 판매에 대한 지출 효과가 선형적이지 않을 것으로 가정하기 때문에 어느 시점에서 포화될 것으로 예상됩니다. 따라서, 우리는 어떤 포화 함수가 우리의 데이터와 더 잘 맞는지 결정해야 합니다. 포화 모델링을 위한 두 가지 함수 옵션이 있습니다:
 
@@ -407,8 +713,18 @@ print(f"평균 절대 비율 오차 (MASE): {mean_absolute_error(test_df['sales'
 
 - 알파(alpha)가 채널이 가질 수 있는 최대 기여도인 Michaelis-Menten 함수이며, 람다(lambda)는 곡선이 방향을 조정하는 순간, 즉 기울기입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-20-MMMBayesianFrameworkforMarketingMixModelingandROAS_21.png)
 
@@ -423,10 +739,20 @@ sigmoid_params = mmm.compute_channel_curve_optimization_parameters_original_scal
 
 mm_response_curve_fig = mmm.plot_direct_contribution_curves(show_fit=True, method='michaelis-menten')
 mm_params = mmm.compute_channel_curve_optimization_parameters_original_scale(method='michaelis-menten')
-``` 
+```
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 각 미디어 채널의 시그모이드 매개변수(α 및 λ)가 있으므로 각 채널의 포화점을 알 수 있습니다. 따라서 추가 지출은 수익을 증가시키지 않을 것이며, 다른 채널에 투자된 금액은 원하는 효과를 얻을 수 있습니다.
 
@@ -445,7 +771,18 @@ result_sigmoid = mmm.optimize_channel_budget_for_maximum_contribution(
 )
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-20-MMMBayesianFrameworkforMarketingMixModelingandROAS_22.png)
 
@@ -455,7 +792,18 @@ result_sigmoid = mmm.optimize_channel_budget_for_maximum_contribution(
 
 현재 경제 상황에서 많은 불확실성을 겪고 있습니다. 따라서, 다양한 시나리오를 수용할 수 있는 예산 배정 전략을 설계해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 세 가지 다른 시나리오를 고려해 봅시다:
 
@@ -486,7 +834,18 @@ _ = mmm.plot_budget_scenearios(
 )
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그림 19에서 보듯이, 경제 불황 시나리오에서 TV에 할당된 예산은 초기 시나리오와 비교했을 때 라디오보다 크게 감소합니다. 이는 라디오의 ROAS가 높기 때문에 예상되는 현상입니다. 반면, 성장 시나리오에서는 TV와 라디오에 할당된 예산이 유사하게 증가합니다.
 
@@ -496,7 +855,18 @@ _ = mmm.plot_budget_scenearios(
 
 본 문서에서는 각 회사의 미디어 채널이 새로운 고객을 확보할 수 있는 잠재력을 더 자세히 평가하고 투명성을 제공할 수 있는 마케팅 믹스 모델링을 위한 베이지안 프레임워크를 개발했습니다. 우리의 접근 방식은 마케팅팀의 도메인 지식을 사전 분포를 설정함으로써 통합할 수 있습니다. 이는 모델의 능력을 향상시키고 미디어 채널과 관심 변수(예: 판매) 간의 관계를 이해하는데 도움이 됩니다. 마지막으로, 회사가 새로운 고객을 확보하기 위해 투자할 능력에 따라 예산 할당 전략을 최적화할 수 있습니다. 현재의 거시 경제 상황에서 기업은 수익성으로 돌아갈 수 있으며 성장에 투자할 예산을 줄일 수 있습니다. 우리는 영향을 최소화하면서 어디서 예산을 삭감할지에 대한 데이터 기반 의사결정 방법을 보여주었습니다. 반대로, 상황이 긍정적일 때 어디에 투자할지와 회사가 더 빨리 성장하기 위해 더 많은 자원을 투입하려는 경우 어디에 투자할지를 보여주었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 현재 기관들에 새로운 AI 애플리케이션을 개발하고 배포하고 있어요. 예를 들어, 우리는 생성 모델 AI로 고객 경험을 향상시키고 시계열 예측으로 계획 프로세스를 개선하고 있어요. 이 경우에는 AI가 마케팅 예산의 효율성을 향상시킬 수 있는 방법을 보여주고 있어요. 우리의 경험에 따르면, AI 채택 측면에서 선진적이고 성숙한 기관은 핵심 활동에 중점을 둔 특화된 AI 모델 스위트가 필요해요.
 
@@ -506,7 +876,18 @@ AI 분야의 시리얼 창업가이자 리더에요. 비즈니스를 위한 AI �
 
 ZAAI 설립자 | LinkedIn | X/Twitter
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 참고문헌
 
@@ -516,7 +897,18 @@ ZAAI 설립자 | LinkedIn | X/Twitter
 
 [3] Hill, A. V. (1910). 혈색소 분자의 집단화가 분리 곡선에 미치는 가능한 영향. Journal of Physiology, 40 (suppl), iv–vii. doi:10.1113/jphysiol.1910. sp001386.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 [4] Gelfand, A. E. & Smith, A. F. (1990). Sampling-based approaches to calculating marginal densities. Journal of the American statistical association, 85 (410), 398–409
 

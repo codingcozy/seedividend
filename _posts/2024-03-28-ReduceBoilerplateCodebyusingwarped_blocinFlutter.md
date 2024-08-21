@@ -3,17 +3,13 @@ title: "플러터에서 warped_bloc을 활용하여 보일러플레이트 코드
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Reduce Boilerplate Code by using warped_bloc in Flutter"
 link: "https://medium.com/@sushaanshakya88/reduce-boilerplate-code-by-using-warped-bloc-in-flutter-9ae76c2d1f1b"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/ReduceBoilerplateCodebyusingwarped_blocinFlutter_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 아이디어
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 보일러플레이트 감소 아이디어는 BLoC와 같은 상태 관리 솔루션을 사용할 때 매번 API 호출을 처리할 때 세 가지 특정 상태가 연관되어 있다는 것입니다:
 
@@ -35,7 +42,18 @@ isUpdated: true
 
 이는 모든 API 호출에 대해 일반화할 수 있어야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서 [warped_bloc]이 탄생되었어요.
 
@@ -48,7 +66,18 @@ isUpdated: true
 - ErrorState`T` 클래스
 - DataState`T` 클래스
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 BlocListener와 BlocBuilder를 사용하는 데 도움이 되는 유틸리티가 함께 제공됩니다:
 
@@ -60,7 +89,18 @@ isUpdated: true
 - AsyncCubit 클래스
 - PaginatedAsyncCubit 클래스
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 API 호출 시나리오에 대한 코드입니다 :
 
@@ -102,7 +142,18 @@ class HomeRepo {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 UI를 다음과 같이 간단하게 처리할 수 있습니다:
 
@@ -130,7 +181,18 @@ BlocBuilder<HomeCubit, BlocState>(
 
 ## 포스트 요청
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import 'package:warped_bloc/warped_bloc.dart';
@@ -182,7 +244,18 @@ BlocListener<HomeActionCubit, BlocState>(
 ...
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 class PaginationParam {

@@ -3,15 +3,13 @@ title: "Python으로 나만의 트레이딩 인덱스 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-BuildyourowntradingindexwithPython_0.png"
 date: 2024-07-09 20:37
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-BuildyourowntradingindexwithPython_0.png
 tag: Tech
 originalTitle: "Build your own trading index with Python"
 link: "https://medium.com/python-in-plain-english/build-your-own-trading-index-with-python-483cea143bc2"
 isUpdated: true
 ---
-
-
 
 ## 거래 결정 도구
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 ## 왜 맞춤 지수를 사용해야 하나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 유연성: 특정 투자 또는 거래 전략에 맞게 지수를 맞춤 설정할 수 있습니다.
 - 통제: 자산 포함 및 가중 기준을 사용자 정의할 수 있습니다.
@@ -33,7 +42,18 @@ isUpdated: true
 
 제가 미국 달러(USD)를 선택한 이유는 우리가 사용자 정의 결과를 실제 지수와 비교하여 테스트할 수 있기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제 2로 가장 중요한 건 통화를 선택했습니다. 외환 거래에서 외환 페어를 거래할 때 한 통화가 다른 통화와 비교됨을 볼 수 있습니다. 실제로 페어가 길어지면, 예를 들어 EURUSD가 있습니다. EUR이 강해지고 있는지, USD가 약해지고 있는지 확신할 수 없습니다. 이것은 통화 지수로만 제공될 수 있는 답변입니다.
 
@@ -48,7 +68,18 @@ import yfinance as yf
 import mplfinance as mpf
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼 해당 쌍의 딕셔너리와 내가 관심 있는 통화의 딕셔너리를 불러오세요(기사 맨 끝에 링크가 있습니다).
 
@@ -64,7 +95,18 @@ with open('currencies_pairs.json') as f:
 
 아래 for 루프를 사용하면 모든 쌍에 대한 1시간 가격을 다운로드하고, 우리 사랑하는 `yfinance`의 도움으로 이를 딕셔너리에 추가할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 for pair in pairs:
@@ -86,7 +128,18 @@ print(mindate, maxdate)
 
 이제 계산할 통화의 지수와 이 통화를 포함하는 모든 통화에 대한 종가를 갖는 데이터 프레임을 생성하고 설정해야 합니다. 통화가 판매 쪽에 있다면 환율을 뒤집어서 모두 매수쪽으로 가져와야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 통화 = 'USD'
@@ -116,7 +169,18 @@ weights = [weight / sum(weights) for weight in weights]
 
 이제 가중 폐장 가격을 생성하고 선택한 데이터프레임으로 재샘플링하는 마법이 일어납니다(원본보다 더 높아야 함).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 데이터프레임 준비
@@ -143,7 +207,18 @@ ohlc.dropna(inplace=True)
 usd_dollar_index = yf.download("DX-Y.NYB", (start = "2023-01-01"), (end = "2023-12-31"), (interval = "1d"));
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 첫 번째 점검은 시각적으로 이루어질 것입니다. 그래서 우리가 만든 그래프와 공식 그래프를 겹쳐서 플로팅할 거에요. 멋져 보이죠?
 
@@ -156,7 +231,18 @@ mpf.plot(usd_dollar_index, (type = "candle"), (figratio = (30, 10)));
 
 다른 방법은 종가의 상관 관계를 점검하는 것이에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 # 먼저 상관 계수를 계산하기 전에 두 날짜 및 시간 인덱스를 시간대 정보 없이 만들어야 합니다
@@ -177,7 +263,18 @@ correlation = combined_df.corr().iloc[0, 1]
 
 여기에서 Git Hub에서 코드와 통화 쌍에 대한 json 파일을 찾을 수 있습니다. 클릭하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 다음 단계
 
@@ -189,7 +286,18 @@ correlation = combined_df.corr().iloc[0, 1]
 
 면책 조항: 이 글에서 투자의 흥미로운 세계를 탐험하는 동안 교육 목적으로 제공되는 정보임을 꼭 상기해주세요. 저는 금융 자문가가 아니며 여기에 게시된 내용은 금융 조언으로 간주되지 않습니다. 언제나 연구를 하시고 투자 결정을 내리기 전에 전문가와 상의하는 것을 고려해주십시오.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 쉽고 간결한 영어 커뮤니티에 참여해 주셔서 감사합니다! 떠나시기 전에:
 

@@ -3,17 +3,13 @@ title: "ES6의 최고 기능 10선"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Top 10 ES6 Features"
 link: "https://medium.com/stackademic/top-10-es6-features-5f0e998198bb"
 isUpdated: true
 ---
-
-
-
-
 
 ## JavaScript 개발 향상
 
@@ -39,7 +35,18 @@ ES6, 즉 ECMAScript 2015의 등장은 JavaScript의 진화에서 중요한 이�
   - 속성 값 단축 구문
 - 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 1. 화살표 함수: 간결함과 명확성으로 나아가기
 
@@ -49,7 +56,18 @@ ES6, 즉 ECMAScript 2015의 등장은 JavaScript의 진화에서 중요한 이�
 
 화살표 함수는 자체적인 this 컨텍스트를 갖지 않고 주변 코드의 this를 상속합니다. 이는 콜백 함수 내에서 포함 범위의 this 컨텍스트에 접근하고 싶을 때 특히 유용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시: 어떤 상태에 따라 제품을 필터링하고 싶은 전자상거래 사이트를 고려해 보세요. 화살표 함수를 사용하면 코드가 짧아지는 것뿐만 아니라 더 읽기 쉬워집니다.
 
@@ -68,7 +86,18 @@ console.log(affordable);
 
 # 2. 구조 분해 할당: 우아하게 풀어보기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 마크다운 형식으로 변경하세요.
 
@@ -80,7 +109,18 @@ Destructuring은 배열에서 값들을 분리하거나 객체에서 속성들�
 
 ## 2.2 객체 구조 분해:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 객체에서 속성을 추출할 수 있습니다. 함수 매개변수나 복잡한 객체를 다룰 때 매우 편리합니다.
 
@@ -94,9 +134,7 @@ const config = {
 };
 
 function setupLogger({ level, filename, maxSize }) {
-  console.log(
-    `로거 설정 중: 레벨 ${level}, 파일 ${filename}, 최대 크기 ${maxSize}`
-  );
+  console.log(`로거 설정 중: 레벨 ${level}, 파일 ${filename}, 최대 크기 ${maxSize}`);
 }
 
 setupLogger(config);
@@ -104,7 +142,18 @@ setupLogger(config);
 
 이 방식은 보일러플레이트 boilerplate를 줄이는데 도움을 줄 뿐만 아니라 코드의 가독성도 향상시킵니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 3. 템플릿 리터럴: 문자열 연결 이상의 기능
 
@@ -121,7 +170,18 @@ const emailContent = `안녕하세요 ${userName}님,
 팀`;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 방법을 사용하면 동적 문자열 작성이 간단하고 가독성이 좋아집니다.
 
@@ -131,7 +191,18 @@ ES6의 강화된 객체 리터럴은 객체 생성을 더 직관적으로, 덜 �
 
 실제 시나리오: 사용자 인터페이스 구성 요소의 구성 옵션 설정, 객체 리터럴을 사용하여 이제 더 간결하고 가독성이 좋아질 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const animationDuration = 300;
@@ -151,7 +222,18 @@ JavaScript 클래스는 객체를 생성하고 상속을 관리하기 쉽게하�
 
 실제 시나리오: 특정 능력을 가진 서로 다른 유형의 캐릭터를 가지고 있는 간단한 게임을 만들고자 합니다. 클래스를 사용하면 공통 속성 및 메서드를 갖는 기본 캐릭터를 정의하고, 이 기본 클래스를 확장하여 다양한 캐릭터 유형을 만들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 class Character {
@@ -178,7 +260,18 @@ class Wizard extends Character {
 
 Promise는 비동기 작업의 최종 완료(또는 실패)를 나타내는 객체입니다. Promise는 비동기 논리를 처리하는 강력한 방법을 제공하여, 전통적인 콜백 기반 접근 방식에 비해 더 깔끔하고 관리하기 쉬운 코드를 작성할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 작동 방식: Promise는 세 가지 상태를 가지고 있습니다: 대기 중, 이행됨 또는 거부됨. 성공적으로 약속이 완료되거나 실패한 경우 콜백을 첨부할 수 있습니다. 성공한 경우에는 .then()을 사용하고, 에러가 발생한 경우에는 .catch()을 사용합니다.
 
@@ -193,7 +286,18 @@ fetch("https://api.example.com/data")
 
 이 구조는 코드를 읽고 디버그하기 쉽게 만들어줍니다. 특히 복잡한 비동기 작업 시퀀스에 대해 매우 효과적입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 7. Async/Await: Promises를 위한 구문적 설탕
 
@@ -203,7 +307,18 @@ Async/await은 promise를 다루는 것을 단순화하는 기능으로, 동기 
 
 실제 시나리오: API에서 사용자 데이터를 가져오고 해당 사용자를 기반으로 관련 데이터를 가져 오기 위한 함수를 작성 중이라고 가정해 보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 비동기 함수인 getUserAndData(userId)는 userId를 인자로 받아와서, 해당 userId에 해당하는 사용자 정보를 가져와서 그 사용자의 데이터를 가져오는 기능을 합니다. 이 함수는 프로미스를 연쇄적으로 사용하거나 콜백 함수를 사용하는 것보다 읽기 쉽고 이해하기 쉽습니다.
@@ -213,7 +328,18 @@ Async/await은 promise를 다루는 것을 단순화하는 기능으로, 동기 
 JavaScript의 모듈은 코드를 재사용 가능한 조각으로 분할할 수 있게 해주며, 각각의 기능을 캡슐화합니다. ES6에서는 표준화된 모듈 시스템을 도입하여 export를 사용하여 모듈의 일부를 다른 파일에서 사용할 수 있게 하고, import를 사용하여 해당 모듈을 불러올 수 있게 합니다.
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 혜택: 모듈은 코드 구조화, 의존성 관리, 코드 공유 및 재사용 개선에 도움이 됩니다.
 
@@ -233,7 +359,18 @@ console.log(add(5, 10));
 
 이 모듈화 접근 방식은 특히 대규모 응용 프로그램에서 유지보수성과 확장성을 향상시킵니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 9. 펼침 및 나머지 연산자: 작업 다양성
 
@@ -251,7 +388,18 @@ const obj2 = { age: 30 };
 const combinedObj = { ...obj1, ...obj2 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나머지 연산자 사용 사례: 함수 인수의 무한한 수를 처리하는 것이 훨씬 깔끔합니다
 
@@ -265,7 +413,18 @@ function sum(...numbers) {
 
 # 10. 향상된 객체 속성:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자바스크립트의 발전으로 ES6는 개체의 생성과 조작을 간소화하는 기능을 도입하여 코드를 좀 더 간결하고 표현력 있게 만들었습니다. 이러한 기능들은 연산된 속성 이름, 메서드 속성 단축 구문, 속성 값 단축 구문 등이 있습니다. 이러한 기능은 객체를 처리하는 더 효율적인 방법을 제공하며, 자바스크립트 개발의 동적이고 유연한 성격을 반영합니다.
 
@@ -284,7 +443,18 @@ let user = {
 console.log(user.username); // "johnDoe123"
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 10.2 메서드 속성 단축형:
 
@@ -305,7 +475,18 @@ console.log(calculator.add(5, 3)); // 8
 
 ## 10.3 속성 값 단축형:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 객체 속성에 변수를 할당할 때 구문을 간단화하여 변수 이름과 속성 이름이 동일한 경우의 코드를 줄이고 가독성을 향상시킵니다.
 
@@ -334,7 +515,18 @@ const button = createComponent("button", "click", "Submit");
 button.click(); // "Action click with value Submit"
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

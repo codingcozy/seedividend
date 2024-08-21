@@ -3,17 +3,13 @@ title: "플러터 Riverpod에서 Mixin 클래스를 사용하여 Global 프로�
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Organize Your Global Providers in Flutter Riverpod with Mixin Class"
 link: "https://medium.com/@ximya/organize-your-global-providers-in-flutter-riverpod-with-mixin-class-562ae2aa3376"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/OrganizeYourGlobalProvidersinFlutterRiverpodwithMixinClass_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 하지만 그 후로, 나도 리버포드의 매력에 깊이 빠졌어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/OrganizeYourGlobalProvidersinFlutterRiverpodwithMixinClass_1.png" />
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 <img src="/assets/img/OrganizeYourGlobalProvidersinFlutterRiverpodwithMixinClass_2.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리버포드 공식 문서에서 언급했듯이 전역으로 선언된 프로바이더들은 불변의 특성을 가지고 있어 앱 라이프사이클에 간섭하지 않거나 테스트 코드 작성 시 문제를 일으키지 않습니다. 그러나, 어디서든지 임포트만으로 프로바이더에 액세스할 수 있는 이점은 특정 페이지에서 어떤 프로바이더들이 사용되고 있는지 파악하기 어렵게 만듭니다.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 예를 들어, 리버포드를 활용하는 플러터 프로젝트에 합류하게 되고, 상사가 다음과 같은 작업을 할당한다고 상상해 봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트에 막 참여하셨다니, 홈페이지에서 사용된 프로바이더 상태 값 및 이벤트 메서드를 파악하는 것이 조금 어려울 것 같네요. 그러면 테스트 코드를 이해하고 작성하는 데 더 많은 시간이 걸릴 수 있어요.
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 # Rivepod "Global" 미신
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 상기 문제를 완화하기 위해서는 공급 업체 사용 범위를 구조화하는 것이 중요합니다. 다시 말해, 특정 섹션에서 어떤 공급 업체를 사용하는지 쉽게 구별할 수 있어야 합니다. 공급 업체 사용 범위를 어떻게 구조화해야 하는지 고민하던 중 Randal L. Schwartz의 `The Riverpod "Global" Myth`라는 YouTube 비디오를 발견했습니다.
 
@@ -64,7 +104,18 @@ isUpdated: true
 - 로컬 변수 (밑줄로 시작)
 - 클래스 정적 로컬 변수
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/OrganizeYourGlobalProvidersinFlutterRiverpodwithMixinClass_3.png" />
 
@@ -74,7 +125,18 @@ isUpdated: true
 
 # 로컬 변수
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저 페이지 섹션 내에서 개별로 제공자를 선언하여 로컬라이징하는 방법을 살펴보겠습니다.
 
@@ -107,7 +169,18 @@ class Toolbar extends HookConsumerWidget {
 
 하지만 이 제공자를 서로 다른 클래스로 분리된 여러 하위 위젯에서 액세스해야 할 경우 코드가 다소 복잡해질 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 final _uncompletedTodosCount = Provider<int>((ref) {
@@ -140,7 +213,18 @@ class HomePage extends HookConsumerWidget with HomeEvent, HomeState {
 
 이전에 언급한 문제를 해결하는 또 다른 방법은 클래스 내의 정적 변수에 프로바이더를 할당하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 abstract class HomeProviders {
@@ -182,7 +266,18 @@ class Toolbar extends ConsumwerWidget {
 
 다음으로 위젯에서 필요한 프로바이더들을 이 클래스를 통해 참조할 수 있습니다. 프로바이더가 클래스 내의 static 변수로 할당되어 있기 때문에, 불필요한 인스턴스를 생성하지 않거나 프로바이더의 라이프사이클에 간섭하지 않고 프로바이더 사용의 범위를 구조화할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 믹신 클래스를 사용하여 프로바이더 사용 범위 구조화하기
 
@@ -192,7 +287,18 @@ class Toolbar extends ConsumwerWidget {
 
 이 접근 방식은 두 가지 형식의 믹신 클래스를 활용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 상태 믹신 클래스
 
@@ -210,7 +316,18 @@ mixin class HomeState {
 
 위의 HomeState 믹신 클래스는 홈페이지 섹션에서 사용되는 프로바이더들의 상태 값을 관리합니다. 각 메서드는 WidgetRef를 인자로 받고, WidgetRef의 watch 확장 메서드를 사용하여 상태를 전달합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 WidgetRef ref를 전달받아 AsyncValue`<Todo>` todoAsync(WidgetRef ref) 함수를 실행합니다. 이는 값을 AsyncValue 타입으로 감싸는 방법입니다.
 
@@ -218,7 +335,18 @@ WidgetRef ref를 전달받아 AsyncValue`<Todo>` todoAsync(WidgetRef ref) 함수
 
 위와 같이 구성된 State Mixin Class는 위젯 클래스에 섞여지며, 이를 통해 위젯이 프로바이더의 상태 값을 액세스할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 이벤트 믹신 클래스
 
@@ -247,7 +375,18 @@ mixin class HomeEvent {
 
 예를 들어, 위의 addTodo 메서드는 WidgetRef 객체를 통해 todoListProvider라는 이름의 Notifier 제공자에 액세스하여 현재 목록에 새 항목을 추가하는 메서드를 실행합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 표를 아래와 같이 변경해주세요.
 
@@ -259,7 +398,18 @@ mixin class HomeEvent {
 
 조금 복잡해 보일 수 있지만, 개념은 간단합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/OrganizeYourGlobalProvidersinFlutterRiverpodwithMixinClass_8.png" />
 
@@ -269,7 +419,18 @@ mixin class HomeEvent {
 
 지금, Riverpod 프로바이더 상태 값 및 이벤트 메서드를 믹신 클래스에서 관리하는 장점은 무엇인가요? 다섯 가지 주요 이점을 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 1. 쉬운 유지보수
 
@@ -283,7 +444,18 @@ mixin class HomeState {
 
 예를 들어, 위의 코드에서는 todoListFromRemoteProvider 제공자를 통해 원격 데이터를 검색하고, 특정 페이지의 여러 위젯이 이 값을 참조하도록 설정될 수 있다고 가정해 봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 mixin class HomeState {
@@ -297,7 +469,18 @@ mixin class HomeState {
 
 # 2. 가독성 향상
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Mixin 클래스를 사용하여 제공자 리소스를 관리할 때 특정 페이지에서 사용되는 제공자 상태 값 및 이벤트 로직을 한눈에 쉽게 이해할 수 있습니다. 이는 Mixin 클래스가 부모 페이지 위젯이나 자식 위젯에 섞이며 명확한 종속성을 설정하기 때문입니다.
 
@@ -307,7 +490,18 @@ Mixin 클래스를 사용하여 제공자 리소스를 관리할 때 특정 페�
 
 State 및 Event 믹스인 클래스를 사용하면 단위 테스트 코드 작성이 더 편리해집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 테스트 범위 이해하기
 
@@ -336,7 +530,18 @@ mixin class HomeEvent {
 
 그러나 특정 페이지에서 사용된 이벤트 로직을 Event Mixin Class에서 한눈에 이해할 수 있다면 테스트 범위를 설정하고 테스트 시나리오를 구성하는 데 매우 도움이 될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 간결한 단위 테스트 코드
 
@@ -371,7 +576,18 @@ mixin class HomeStateTest {
 
 먼저 기존 State 및 Event Mixin 모듈의 코드를 복사하여 새로운 Test Mixin Class를 생성합니다. 이 경우에는 WidgetRef에서 ProviderContainer 타입으로 인자를 변경하고 기존의 .watch 메서드를 .read로 대체하여 테스트 코드를 실행합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 void main() {
@@ -395,7 +611,18 @@ void main() {
 
 단계별로 설명:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 초기화: 필요한 테스트 상태 및 이벤트 Mixin 인스턴스를 초기화합니다.
 - 조작: 테스트 이벤트 Mixin을 사용하여 이벤트 로직을 실행하고 상태를 조작하고 변경합니다.
@@ -407,7 +634,18 @@ void main() {
 
 실제 프로젝트 진행 중, 개발자들은 종종 디자인이 완료되지 않은 상황에서 기능 명세 및 API 사양을 받을 수 있습니다. 이런 상황에서는 디자인이 완료될 때까지 기다리지 않고 미리 상태 및 이벤트 Mixin 클래스 모듈을 준비하는 작업을 수행할 수 있습니다. 미리 만들어진 Mixin 클래스를 활용하여 개발자들은 완료된 디자인을 받은 후에 UI 위젯을 구현하고 이미 생성된 Mixin 클래스를 통합함으로써 프로젝트를 원활하게 진행할 수 있습니다. 이를 통해 프로세스에서 발생하는 빈틈을 없애고 프로젝트를 순조롭게 진행할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 5. 협업 프로세스에서의 오류 최소화
 
@@ -417,7 +655,18 @@ void main() {
 
 이 게시물에서는 Mixin 클래스를 사용하여 Riverpod에서 공급자 범위를 구조화하는 방법을 탐구했습니다. 이 접근 방식은 작은 애플리케이션에는 너무 무리한 것으로 볼 수 있지만, 앱이 확장되고 관리하는 공급자 수가 늘어날수록 더 유리해지는 것으로 입증되었습니다. 개인적으로는 이 접근 방식으로 유닛 테스트 코드를 작성하기가 특별히 매력적으로 느껴집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또한, 이전 게시물인 "플러터에서 UI 코드 정리하기"에서 소개한 방법과 조합되었을 때, Mixin 클래스를 사용하여 공급 업체의 범위를 구조화하는 기술은 더욱 빛을 발합니다.
 
@@ -427,6 +676,17 @@ void main() {
 
 내 GitHub 저장소를 참조하실 수 있습니다. Riverpod 공식 문서의 기존 예제 코드에 상태(State) 및 이벤트(Event) Mixin 클래스를 적용하는 로직 및 일부 간단한 테스트 코드를 추가했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 읽어 주셔서 감사합니다!

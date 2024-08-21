@@ -3,15 +3,13 @@ title: "단계별 튜토리얼 매력적인 HTML 사이드바 메뉴 만들기 �
 description: ""
 coverImage: "/assets/img/2024-07-07-CreateEngagingHTMLSidebarMenusAStep-by-StepTutorial_0.png"
 date: 2024-07-07 19:14
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-CreateEngagingHTMLSidebarMenusAStep-by-StepTutorial_0.png
 tag: Tech
 originalTitle: "Create Engaging HTML Sidebar Menus: A Step-by-Step Tutorial"
 link: "https://medium.com/@samturquoise/create-engaging-html-sidebar-menus-a-step-by-step-tutorial-23cdc1467778"
 isUpdated: true
 ---
-
-
 
 <img src="/assets/img/2024-07-07-CreateEngagingHTMLSidebarMenusAStep-by-StepTutorial_0.png" />
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 우선 제일 먼저, 기본적인 HTML 구조가 필요합니다. 좋아하는 코드 편집기를 열고 간단한 HTML 템플릿부터 시작해 보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 html;

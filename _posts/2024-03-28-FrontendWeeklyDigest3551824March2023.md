@@ -3,17 +3,13 @@ title: "24년 3월 4주차 프론트엔드 최신 뉴스 정리"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Frontend Weekly Digest"
 link: "https://medium.com/@frontender-ua/frontend-weekly-digest-355-18-24-march-2023-2058a2c707a3"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/FrontendWeeklyDigest3551824March2023_0.png)
 
@@ -31,7 +27,18 @@ isUpdated: true
   - 브라우저에서 수행하는 팝오버 접근성: 브라우저가 어떤 일을 하지 않는지
   - 가상 클래스를 사용한 접근성 있는 양식
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # CSS
 
@@ -51,7 +58,18 @@ isUpdated: true
 - 재미와 이윤을 위한 JavaScript 최적화
 - Kuto, 역 JS 번들러
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 리액트
   - MistCSS — CSS만을 이용하여 아토믹한 React 컴포넌트를 작성하세요! (JS-from-CSS™)

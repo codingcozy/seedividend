@@ -3,16 +3,13 @@ title: "Shadcn UI, Vite, Tailwind CSS, Storybook으로 React UI 컴포넌트 라
 description: ""
 coverImage: "/assets/img/2024-06-22-HowtoBuildaReactUIComponentLibraryAStep-by-StepGuideusingShadcnUIViteTailwindCSSandStorybook_0.png"
 date: 2024-06-22 02:59
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-HowtoBuildaReactUIComponentLibraryAStep-by-StepGuideusingShadcnUIViteTailwindCSSandStorybook_0.png
 tag: Tech
 originalTitle: "How to Build a React UI Component Library: A Step-by-Step Guide using Shadcn UI, Vite, Tailwind CSS, and Storybook"
 link: "https://medium.com/@tiwariashutosh/how-to-build-a-react-ui-component-library-a-step-by-step-guide-using-shadcn-ui-vite-tailwind-36c1b89e2113"
 isUpdated: true
 ---
-
-
-
 
 ![이미지](/assets/img/2024-06-22-HowtoBuildaReactUIComponentLibraryAStep-by-StepGuideusingShadcnUIViteTailwindCSSandStorybook_0.png)
 
@@ -25,7 +22,18 @@ isUpdated: true
 
 이제 이러한 기술들에 대한 이해를 더 했으니 설정 프로세스에 대해 알아봅시다. 함께 진행해보시죠!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 준비 사항
 
@@ -37,7 +45,18 @@ isUpdated: true
 
 그리고 시스템에 다음이 설치되어 있는지 확인하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Node.js와 npm
 
@@ -49,7 +68,18 @@ isUpdated: true
 npm create vite@latest
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 터미널에서 화면 안내에 따라 따라가서 프로젝트 이름을 입력하세요. 이 글에서는 "ui-library"라는 이름을 사용하고 있습니다. 리액트와 TypeScript를 사용할 것이기 때문에 해당 옵션을 선택하세요.
 
@@ -59,7 +89,18 @@ npm create vite@latest
 
 # 단계 2: Tailwind CSS 설치하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로, Tailwind CSS (3.4.3)를 다음 명령어를 사용하여 설치합니다:
 
@@ -71,7 +112,18 @@ npm install -D tailwindcss postcss autoprefixer
 
 Tailwind CSS를 설치한 후, 구성 파일을 생성해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npx tailwindcss init -p
@@ -83,7 +135,18 @@ npx tailwindcss init -p
 
 각 Tailwind 레이어에 대한 @tailwind 지시문을 src/index.css 파일에 추가하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 @tailwind base;
@@ -95,14 +158,24 @@ App.tsx 파일 안의 모든 내용을 다음과 같이 바꾸고 npm run dev를
 
 ```js
 export default function App() {
-  return <h1 className='text-3xl font-bold underline'>안녕, 세상아!</h1>;
+  return <h1 className="text-3xl font-bold underline">안녕, 세상아!</h1>;
 }
 ```
 
 이제 브라우저에서 다음이 표시됩니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-22-HowtoBuildaReactUIComponentLibraryAStep-by-StepGuideusingShadcnUIViteTailwindCSSandStorybook_3.png)
 
@@ -112,8 +185,18 @@ export default function App() {
 
 이제 우리는 Storybook 8을 통합하여 UI 구성요소를 격리된 상태로 개발하고 각 구성요소에 대한 청결한 문서를 제공할 것입니다. 다음 명령을 사용하여 설치하십시오:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npx storybook@latest init
@@ -125,10 +208,21 @@ npx storybook@latest init
 
 Storybook과 함께 Tailwind 클래스를 사용하려면 .storybook/preview.ts 파일에 불러와야 해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-import 'tailwindcss/tailwind.css'
+import "tailwindcss/tailwind.css";
 ```
 
 # 단계 5: Shadcn UI 설치하기
@@ -137,7 +231,18 @@ import 'tailwindcss/tailwind.css'
 
 먼저, tsconfig.json 파일의 compilerOptions에 경로를 해결하는 몇 가지 코드를 추가해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 {
@@ -163,13 +268,24 @@ npm i -D @types/node
 
 아래 코드를 vite.config.ts에 추가하여 앱이 오류 없이 경로를 해석할 수 있도록 하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-import path from "path"
-import react from "@vitejs/plugin-react"
-import { defineConfig } from "vite"
- 
+import path from "path";
+import react from "@vitejs/plugin-react";
+import { defineConfig } from "vite";
+
 export default defineConfig({
   plugins: [react()],
   resolve: {
@@ -177,7 +293,7 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-})
+});
 ```
 
 프로젝트를 설정하려면 shadcn-ui init 명령을 실행하세요:
@@ -188,8 +304,18 @@ npx shadcn-ui@latest init
 
 다음과 같이 옵션을 선택하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-22-HowtoBuildaReactUIComponentLibraryAStep-by-StepGuideusingShadcnUIViteTailwindCSSandStorybook_5.png)
 
@@ -199,8 +325,18 @@ npx shadcn-ui@latest init
 
 이제 Shadcn UI를 사용하여 간단한 컴포넌트를 만들어 봅시다. 아래 명령어는 Button 컴포넌트를 프로젝트에 추가합니다:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npx shadcn-ui@latest add button
@@ -212,7 +348,18 @@ Storybook story나 src\components\ui\button.tsx에서 Button 컴포넌트를 가
 
 마지막으로, Button 컴포넌트를 Storybook에 추가해 보겠습니다. Storybook에는 기존의 Button 컴포넌트가 있을텐데, 이것을 포함하여 다른 샘플 컴포넌트들을 삭제할 수 있습니다. src\stories\Button.stories.ts 디렉토리의 파일 Button.stories.tsx를 다음과 같이 편집하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { Button } from '@/components/ui/button'
@@ -244,8 +391,18 @@ export const Primary: Story = {
 
 이제 Button 구성 요소를 사용자 정의하고 여기에서 더 많은 shadcn 구성 요소를 추가할 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

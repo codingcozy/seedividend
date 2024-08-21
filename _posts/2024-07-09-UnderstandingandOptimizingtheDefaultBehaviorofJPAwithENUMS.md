@@ -3,16 +3,13 @@ title: "JPA에서 ENUM의 기본 동작 이해 및 최적화 방법"
 description: ""
 coverImage: "/allround-coder.github.io/assets/no-image.jpg"
 date: 2024-07-09 21:27
-ogImage: 
+ogImage:
   url: /allround-coder.github.io/assets/no-image.jpg
 tag: Tech
 originalTitle: "Understanding and Optimizing the Default Behavior of JPA with ENUMS"
 link: "https://medium.com/@ykods/understanding-and-optimizing-the-default-behavior-of-jpa-with-enums-ca7e1b1279c3"
 isUpdated: true
 ---
-
-
-
 
 ## JPA에서 효율적인 ENUM 매핑 전략
 
@@ -22,7 +19,18 @@ Java Persistence API (JPA)는 Java 애플리케이션에서 관계형 데이터�
 
 기본적으로 JPA는 ENUM 유형을 데이터베이스 열에 매핑할 때 ENUM의 이름이나 순서 값을 사용합니다. 이 두 접근 방식에는 각각 다른 영향이 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - ORDINAL 매핑:
 
@@ -36,7 +44,18 @@ Java Persistence API (JPA)는 Java 애플리케이션에서 관계형 데이터�
 - 장점: 읽기 쉽고 유지보수가 쉽으며, ENUM 상수 변경이 데이터베이스 값에 영향을 미치지 않아 오류가 적습니다.
 - 단점: ORDINAL 매핑에 비해 더 많은 저장 공간을 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 효율적인 ENUM 매핑 전략
 
@@ -46,7 +65,18 @@ JPA에서 ENUM을 효율적으로 처리하기 위한 전략을 고려해보세�
 
 - 대부분의 애플리케이션에 대해 가독성이 좋고 오류 가능성이 낮은 STRING 매핑을 권장합니다. @Enumerated(EnumType.STRING) 주석을 사용하여 이를 지정할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. ENUM 변경 사항 처리:
 
@@ -57,7 +87,18 @@ JPA에서 ENUM을 효율적으로 처리하기 위한 전략을 고려해보세�
 
 - 특별한 처리가 필요한 복잡한 ENUM을 위해 사용자 정의 변환기를 구현하세요. @Converter 주석과 AttributeConverter를 구현한 클래스를 사용하여 이 작업을 수행할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 @Converter(autoApply = true)
@@ -94,8 +135,18 @@ JPA에서 ENUM을 관리하는 것은 데이터 무결성과 유지 관리성을
 
 데이터베이스에 상태, 즉 알림 상태를 저장하려고 했을 때, 저장 후 0으로 저장되는 것을 확인하게 되었습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사실 발생한 일은 NotificationStatus 열거형이 데이터베이스에 순서(열거형의 정수 표현)로 저장되고 있었습니다. 이것은 JPA가 열거형을 처리할 때의 기본 동작입니다. 데이터베이스에 열거형의 실제 문자열 값을 저장하려면 Notification 엔티티 클래스에 EnumType.STRING을 사용하여 @Enumerated 주석을 지정해야 합니다.
 
@@ -118,6 +169,17 @@ public class Notification {
 
 새로운 것을 배웠으면 좋겠어요.❤️
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제 GitHub, LinkedIn, Twitter 계정과 연결하세요!

@@ -3,7 +3,7 @@ title: "HTML과 CSS를 사용하여 애니메이션 로켓 로더 만들기"
 description: ""
 coverImage: "/assets/img/2024-05-01-BuildinganAnimatedRocketLoaderUsingHTMLandCSS_0.png"
 date: 2024-05-01 23:11
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-01-BuildinganAnimatedRocketLoaderUsingHTMLandCSS_0.png
 tag: Tech
 originalTitle: "Building an Animated Rocket Loader Using HTML and CSS"
@@ -11,17 +11,26 @@ link: "https://medium.com/@withaarzoo/building-an-animated-rocket-loader-using-h
 isUpdated: true
 ---
 
-
-
-
 ![로켓 로더](https://miro.medium.com/v2/resize:fit:1200/1*fE47ZekcAWWg54RB5WWodg.gif)
 
 # 소개
+
 #100DaysOfCode 챌린지의 제 23일을 환영합니다! 오늘은 프론트엔드 개발 세계로 뛰어들어 흥미진진한 프로젝트를 만들어보겠습니다: 애니메이션 로켓 로더입니다. 이 로더는 당신의 웹사이트의 시각적 매력을 높일 뿐만 아니라 사용자들에게 독특한 로딩 경험을 제공할 것입니다. 시작해봅시다!
 
 # 단계 1: 프로젝트 설정
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, 제공된 링크에서 전체 소스 코드를 다운로드하세요: 소스 코드 다운로드. 다운로드 후, 프로젝트용 새 디렉터리를 만들고 소스 코드 파일을 그 안에 압축 해제하세요.
 
@@ -59,7 +68,18 @@ isUpdated: true
 </html>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 3: CSS로 스타일링하기
 
@@ -306,7 +326,18 @@ ul {
 
 # 단계 4: 애니메이션 키프레임 추가하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리의 로켓 로더를 활성화하기 위해 다양한 애니메이션을 위한 키프레임을 정의해야 합니다. 이러한 키프레임은 입자, 로켓, 지느러미, 그리고 연기의 움직임을 제어할 것입니다. CSS 파일에 제공된 애니메이션 키프레임을 복사하여 붙여넣어주세요.
 
@@ -448,4 +479,4 @@ ul {
 
 # 단계 5: 테스트 및 조정
 
-모든 파일을 저장하고 웹 브라우저에서 index.html 파일을 엽니다. 애니메이션된 로켓 로더가 작동하는 것을 확인할 수 있어야 합니다! CSS 스타일과 애니메이션 키프레임을 조정하여 로더를 원하는 대로 사용자 정의할 수 있습니다. 색상, 크기, 및 시간을 조절하여 원하는 효과를 얻을 수 있습니다.  
+모든 파일을 저장하고 웹 브라우저에서 index.html 파일을 엽니다. 애니메이션된 로켓 로더가 작동하는 것을 확인할 수 있어야 합니다! CSS 스타일과 애니메이션 키프레임을 조정하여 로더를 원하는 대로 사용자 정의할 수 있습니다. 색상, 크기, 및 시간을 조절하여 원하는 효과를 얻을 수 있습니다.

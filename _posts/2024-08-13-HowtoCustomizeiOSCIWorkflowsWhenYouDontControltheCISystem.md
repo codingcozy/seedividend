@@ -3,7 +3,7 @@ title: "CI 시스템을 제어하지 않을 때 iOS CI 워크플로우 커스터
 description: ""
 coverImage: "/assets/img/2024-08-13-HowtoCustomizeiOSCIWorkflowsWhenYouDontControltheCISystem_0.png"
 date: 2024-08-13 12:11
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-13-HowtoCustomizeiOSCIWorkflowsWhenYouDontControltheCISystem_0.png
 tag: Tech
 originalTitle: "How to Customize iOS CI Workflows When You Dont Control the CI System"
@@ -11,7 +11,6 @@ link: "https://medium.com/gitconnected/how-to-customize-ios-ci-workflows-when-yo
 isUpdated: true
 updatedAt: 1723864003889
 ---
-
 
 ![image](/assets/img/2024-08-13-HowtoCustomizeiOSCIWorkflowsWhenYouDontControltheCISystem_0.png)
 
@@ -21,7 +20,18 @@ updatedAt: 1723864003889
 
 그러나 CI 자원은 한정되어 있습니다. 그래서 모바일 인프라 팀은 현재 CI 워크플로우를 제어할 수 있는 유일한 팀입니다. 안타깝게도 현재는 각 프로젝트마다 CI 워크플로우를 맞춤화할 자원이 부족합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CI 작업에서 스크립트를 실행할 수 없어서 짜증나죠. 그래서 개발 워크플로우를 우리만의 방법으로 조정할 아이디어를 생각해냈어요.
 
@@ -32,16 +42,24 @@ CI 구성 파일을 제어할 수 있다면 파이프라인에서 몇 가지 스
 ```js
 // CI 구성 파일
 
-stages:
-  - build
+stages: -build;
 
-build_project:
-  stage: build  
-  script:
-    - your_custom_script.sh
+build_project: stage: build;
+script: -your_custom_script.sh;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CI 구성 파일을 사용자 정의할 수있는 권한이 없기 때문에 CI에서 스크립트를 실행하는 다른 방법을 찾아야합니다.
 
@@ -51,14 +69,23 @@ Xcode 빌드 단계를 사용하면 이를 해결할 수 있습니다.
 
 예를 들어, CI에서 사용되지 않는 코드를 확인하려면 다음과 같이 빌드 단계를 설정했습니다:
 
+| Step         | Script                  |
+| ------------ | ----------------------- |
+| Pre-compile  | sh ci-scripts/check.sh  |
+| Post-compile | sh ci-scripts/report.sh |
 
-| Step              | Script                   |
-|-------------------|--------------------------|
-| Pre-compile       | sh ci-scripts/check.sh    |
-| Post-compile      | sh ci-scripts/report.sh   |
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-08-13-HowtoCustomizeiOSCIWorkflowsWhenYouDontControltheCISystem_1.png" />
 
@@ -68,17 +95,39 @@ Xcode 빌드 단계를 사용하면 이를 해결할 수 있습니다.
 
 이 논리로 엔지니어가 PR을 생성/업데이트할 때, 러너가 유닛 테스트를 실행한 후에 내 사용자 정의 스크립트를 실행하고 우리에게 자동으로 알려줄 거에요 🥳
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 우리가 스케줄된 파이프라인을 직접 만들어 봅시다
 
-Xcode 빌드 단계 트릭은 잘 작동하지만, 승인 없이 프로젝트에서 스케줄된 파이프라인을 만들기 위해 위코드 빌드 단계 트릭은 잘 작동하지만, 대신 주 당 한 번의 실행을 어떨까요? 
+Xcode 빌드 단계 트릭은 잘 작동하지만, 승인 없이 프로젝트에서 스케줄된 파이프라인을 만들기 위해 위코드 빌드 단계 트릭은 잘 작동하지만, 대신 주 당 한 번의 실행을 어떨까요?
 
 "우리가 러너를 직접 설정하는 건 어때요?" — 그래서 생각했어요.
 
 실현 가능하다고 생각해서, 저는 내 맥북에 로컬 러너를 설정했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![3번 이미지](/assets/img/2024-08-13-HowtoCustomizeiOSCIWorkflowsWhenYouDontControltheCISystem_3.png)
 
@@ -89,7 +138,18 @@ Xcode 빌드 단계 트릭은 잘 작동하지만, 승인 없이 프로젝트에
 - 내 노트북이 많은 무거운 작업을 할 것입니다: 무거운 프로젝트를 가져오고, 테스트를 실행하고, 사용자 지정 스크립트를 실행하는 등은 내 일상 업무에 영향을 줄 것입니다.
 - 인프라 팀에서 제공하는 미리 정의된 작업을 활용할 수 없습니다: 지정된 모듈의 테스트 커버리지 수집, 성능 분석 등.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 단점을 극복하기 위해 제 간단한 아이디어는:
 
@@ -101,7 +161,18 @@ Xcode 빌드 단계 트릭은 잘 작동하지만, 승인 없이 프로젝트에
 
 이 접근 방식을 통해 우리는 미리 정의된 작업을 활용할 수 있을 뿐만 아니라 인프라 팀의 러너도 모두를 대신하여 무거운 작업을 수행할 수 있습니다 😛
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결과가 완벽하네요:
 
@@ -111,7 +182,18 @@ Xcode 빌드 단계 트릭은 잘 작동하지만, 승인 없이 프로젝트에
 
 만약 이 게시물이 도움이 되었다면, 좋아요 버튼을 눌러 주시고 Medium에서 다른 사람들에게 이 글을 추천하도록 남겨 주시기 바랍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Thanks for reading.
 

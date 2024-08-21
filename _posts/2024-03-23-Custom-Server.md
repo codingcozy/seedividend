@@ -3,17 +3,13 @@ title: "Nextjs 13 사용자 정의 서버 사용 하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "사용자 지정 서버"
 link: "undefined"
 isUpdated: true
 ---
-
-
-
-
 
 # 사용자 지정 서버
 
@@ -26,7 +22,18 @@ isUpdated: true
 
 다음은 사용자 정의 서버의 예시입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const { createServer } = require("http");
@@ -85,7 +92,18 @@ app.prepare().then(() => {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 커스텀 서버는 다음과 같은 import를 사용하여 서버를 Next.js 애플리케이션과 연결합니다:
 
@@ -107,7 +125,18 @@ const app = next({});
 | `port`         | `Number`           | (<em>Optional</em>) 서버가 실행 중인 포트입니다.                                                                    |
 | `httpServer`   | `node:http#Server` | (<em>Optional</em>) Next.js가 실행 중인 HTTP 서버입니다.                                                            |
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 반환된 앱을 사용하여 Next.js가 필요에 따라 요청을 처리하도록 할 수 있습니다.
 
@@ -117,7 +146,18 @@ const app = next({});
 
 페이지의 파일에 기반한 라우팅을 비활성화하고 파일 시스템을 사용한 라우팅을 방지하려면 next.config.js를 열고 useFileSystemPublicRoutes 구성을 비활성화하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 module.exports = {
@@ -129,4 +169,15 @@ module.exports = {
 
 > 또한 클라이언트 측 라우터를 구성하여 파일 이름 경로로의 클라이언트 측 리디렉션을 금지할 수도 있습니다. 이에 대해서는 router.beforePopState를 참조하십시오.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

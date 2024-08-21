@@ -3,17 +3,13 @@ title: "Nextjs14 앱 구글 클라우드 런에 배포하기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Deploying a Nextjs 14 app to Google Cloud Run"
 link: "https://medium.com/@callumeddisford/deploying-a-next-js-14-app-to-google-cloud-run-c193895f5bd4"
 isUpdated: true
 ---
-
-
-
-
 
 웹사이트를 출시하려고 할 때 다양한 호스팅 옵션으로 인해 압도되었나요? 걱정하지 마세요 — 이 안내서가 여러분을 도와 호스팅 프로세스를 간소화하고 웹사이트를 쉽고 빠르게 온라인으로 구축할 수 있는 해결책을 소개해 드립니다. 시작해 봅시다!
 
@@ -29,7 +25,18 @@ isUpdated: true
 
 ## Google Cloud Run을 선택하는 이유?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Google Cloud Run은 새로운 웹사이트를 빠르게 배포하는 데 탁월한 솔루션입니다. 기존 서버 기반 호스팅에 비해 많은 이점이 있어요. 여러분을 위한 몇 가지 장점을 소개해 드리겠습니다.
 
@@ -42,7 +49,18 @@ Google Cloud Run은 새로운 웹사이트를 빠르게 배포하는 데 탁월�
 
 ## 왜 Next.js를 사용해야 할까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Next.js는 현재 웹에서 가장 빠르게 성장하고 있는 Framework 중 하나로, 특히 특별히 매력적인 기능이 몇 가지 있습니다! 여기에 이 Framework을 특별하게 만드는 몇 가지 이유가 있습니다:
 
@@ -54,7 +72,18 @@ Next.js를 프론트엔드 Framework로 선택해야 하는 다른 이유들이 
 
 ## 새 Next.js 앱 생성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시작해 봅시다! 새 Next.js 애플리케이션을 만들어 보겠습니다. 본 안내서에서는 이미 Node.js, Git, 그리고 VSCode와 같은 코드 편집기가 설치되어 있는 개발 환경을 가정합니다.
 
@@ -66,7 +95,18 @@ npx create-next-app@latest
 
 이 명령어는 새 애플리케이션을 위한 단계별 구성기를 엽니다. 옵션을 순서대로 따라가면 애플리케이션이 생성됩니다. 이 데모에서 제 애플리케이션의 이름을 "cloud-run-nextjs"로 지었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/DeployingaNextjs14apptoGoogleCloudRun_0.png" />
 
@@ -76,7 +116,18 @@ npx create-next-app@latest
 
 애플리케이션 설정에 대해서는 이게 전부입니다! 로컬에서 애플리케이션을 시작하려면 다음 명령을 실행하면 됩니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm run dev
@@ -88,7 +139,18 @@ npm run dev
 
 ![이미지](/assets/img/DeployingaNextjs14apptoGoogleCloudRun_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 Next.js를 시작할 준비가 모두 끝났어요! 이제 여러분의 사이트를 구축할 수 있어요!
 
@@ -98,7 +160,18 @@ Dockerfile은 클라우드 런에서 사이트를 실행하는 데 사용될 이
 
 프로젝트 디렉토리의 루트에 "Dockerfile"이라는 새 파일을 생성해보세요. 여기에는 좋은 시작점으로 사용할 수 있는 예시 Dockerfile이 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 FROM node:18-alpine AS base
@@ -148,7 +221,18 @@ CMD ["npm", "start"]
 
 GitHub로 이동해서 새 저장소를 만들어 주세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/DeployingaNextjs14apptoGoogleCloudRun_4.png)
 
@@ -158,7 +242,18 @@ GitHub로 이동해서 새 저장소를 만들어 주세요:
 
 이 페이지에서 "...또는 명령 줄에서 기존 저장소를 푸시" 블록에서 명령을 복사하고, 프로젝트 내부에서 열려 있는 터미널에 명령을 붙여넣기한 후 Enter를 눌러주세요. 발생할 수 있는 프롬프트에 따라 “yes”를 입력하여 예를 들면 GitHub의 지문을 알려진 호스트에 추가해야 했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 작업을 완료하면 코드를 GitHub에 업로드해야 해요:
 
@@ -168,7 +263,18 @@ GitHub로 이동해서 새 저장소를 만들어 주세요:
 
 요렇게해서 더 이상 필요한 것들은 없고, 이제 Cloud Run에 애플리케이션을 배포할 준비가 됐어요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 클라우드 런 서비스 설정하기
 
@@ -178,7 +284,18 @@ Google Cloud 콘솔로 이동하세요 (아직 계정이 없다면 새로 만드
 
 ![이미지](/assets/img/DeployingaNextjs14apptoGoogleCloudRun_8.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새로운 서비스를 만들기 위한 폼 페이지에 도착하면, "소스 저장소에서 새 버전을 지속적으로 배포"하는 라디오 버튼을 선택한 후 "Cloud Build와 설정" 버튼을 눌러주세요.
 
@@ -188,7 +305,18 @@ Google Cloud 콘솔로 이동하세요 (아직 계정이 없다면 새로 만드
 
 <img src="/assets/img/DeployingaNextjs14apptoGoogleCloudRun_10.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음을 눌러 Build Configuration 설정으로 이동하세요. 브랜치 필드를 GitHub의 메인 브랜치 이름과 일치하도록 설정해주세요 (만약 이 안내를 따르셨다면, 모든 것이 기본적으로 "main"으로 설정되어 있을 것입니다). 그런 다음 "Build Type" 옵션에서 "Dockerfile"을 선택하고 "소스 위치"를 Dockerfile의 이름과 일치하도록 설정해주세요 (한 번 더 말씀드리지만, 이 안내를 따르셨다면 "Dockerfile"로 자동 설정되어 있어야 합니다).
 
@@ -198,7 +326,18 @@ Google Cloud 콘솔로 이동하세요 (아직 계정이 없다면 새로 만드
 
 지역을 원하는 대로 설정해주세요, 제안으로는 본인 또는 대상 청중에게 가장 가까운 지역을 선택하는 것이 좋을 것입니다. "Authentication" 설정 아래 나머지 옵션은 기본값으로 남겨두셔도 되지만, 서비스가 오픈 인터넷을 통해 액세스되도록 하려면 "인증" 설정에서 "인증되지 않은 호출 허용"을 선택해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![DeployingaNextjs14apptoGoogleCloudRun_12.png](/assets/img/DeployingaNextjs14apptoGoogleCloudRun_12.png)
 
@@ -208,7 +347,18 @@ Google Cloud 콘솔로 이동하세요 (아직 계정이 없다면 새로 만드
 
 이후 "생성" 버튼을 누르면 준비됐습니다! 🚀 🌕
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 서비스가 생성되면 자동으로 새로운 서비스의 수정 탭으로 이동됩니다. 본 지점에서 메인 브랜치로 커밋할 때마다 이 목록에 새로운 수정이 표시되며, 필요한 경우 이전 수정으로 빠르게 트래픽을 전환할 수 있습니다.
 
@@ -218,7 +368,18 @@ Google Cloud 콘솔로 이동하세요 (아직 계정이 없다면 새로 만드
 
 ![이미지](/assets/img/DeployingaNextjs14apptoGoogleCloudRun_15.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 번 수정 사항이 빌드되고 배포되면, 클라우드 런 서비스의 "revisions" 탭 아래에 새로운 리비전이 표시됩니다. 그리고 클라우드 런 서비스에서 제공하는 URL을 통해 Next.js 애플리케이션에 액세스할 수 있게 될 거에요.
 
@@ -228,7 +389,18 @@ Google Cloud 콘솔로 이동하세요 (아직 계정이 없다면 새로 만드
 
 ## 사용자 정의 도메인 이름 사용하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 여러분이 여기까지 오셨다면, 아마 마지막으로 할 일은 자신만의 사용자 정의 도메인 이름을 연동하는 것이겠죠. 이 작업을 하려면 구글 클라우드의 Cloud Run 홈페이지로 이동한 다음 상단 내비게이션 바에서 "사용자 정의 도메인 관리"를 누르신 후 다음 페이지에서 "매핑 추가"를 누르세요.
 
@@ -238,7 +410,18 @@ Google Cloud 콘솔로 이동하세요 (아직 계정이 없다면 새로 만드
 
 "사용자 정의 도메인 추가" 창이 나타나면, 새로운 서비스를 매핑할 도메인을 선택한 다음, "Cloud Run 도메인 매핑" 옵션을 선택하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![/assets/img/DeployingaNextjs14apptoGoogleCloudRun_20.png]()
 
@@ -248,7 +431,18 @@ Google Cloud 콘솔로 이동하세요 (아직 계정이 없다면 새로 만드
 
 ![/assets/img/DeployingaNextjs14apptoGoogleCloudRun_21.png]()
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 계속 버튼을 누르면 도메인 등록기 사이트에서 업데이트해야 할 DNS 레코드가 표시됩니다.
 
@@ -258,7 +452,18 @@ DNS 레코드를 추가하는 방법은 등록기마다 다를 수 있지만, �
 
 ![DNS 레코드 예시](/assets/img/DeployingaNextjs14apptoGoogleCloudRun_23.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 구글 클라우드에서 제공된 값과 일치하는 것을 확인할 수 있습니다. 때로는 DNS 레코드가 적용되는 데 시간이 걸릴 수 있으니, 시간이 지난 후에 사이트를 다시 확인하면 사이트가 작동 중일 것입니다!
 
@@ -268,6 +473,17 @@ DNS 레코드를 추가하는 방법은 등록기마다 다를 수 있지만, �
 
 이 가이드를 즐기셨기를 바라며, 모든 것이 원활하게 진행되었기를 희망합니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 재밌게 개발해보세요! 🎉

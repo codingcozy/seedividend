@@ -3,16 +3,13 @@ title: "CSS position fixed가 문제인 3가지 이유"
 description: ""
 coverImage: "/assets/img/2024-06-22-CSSpositionfixedisterriblehereswhy_0.png"
 date: 2024-06-22 03:40
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-CSSpositionfixedisterriblehereswhy_0.png
 tag: Tech
 originalTitle: "CSS position: fixed is terrible, here’s why"
 link: "https://medium.com/@decketts/css-position-fixed-is-terrible-heres-why-a9b0a87bf154"
 isUpdated: true
 ---
-
-
-
 
 ## 자바스크립트 UI - 개발 블로그 #4
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 HTML과 CSS는 근본적인 문제를 해결하기보다 예외 사항을 도입하는 경향이 있습니다. 특히 position 속성과 특히 position: fixed는 그 증거입니다. 이런 언어들이 계속해서 개념, 규칙 및 규례를 만들어 내지만 더 많은 이상한 행동과 일관성이 내가 셀 수 있는 것보다 더 많이 있어서 이해하기 어렵습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그게 무슨 뜻이지?
 
@@ -36,7 +44,18 @@ HTML과 CSS는 근본적인 문제를 해결하기보다 예외 사항을 도입
 - 뷰는 0개 이상의 자식을 가질 수 있어요
 - 나중에 정의된 뷰가 일찍 정의된 뷰 위에 나타나요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 직관적이고 명확하며 간단합니다. 위치:고정을 입력하세요.
 
@@ -51,9 +70,20 @@ HTML에는 우리의 계층 구조를 정의하는 방법에 대한 특정한 �
   </div>
   <div id="regular"></div>
 </body>
-```  
+```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 fixed_1은 일반적인 흐름에서 벗어나 뷰포트에 대해 상대적으로 배치되어 부모가 변경됩니다. fixed_2도 동일하지만 시각적으로 fixed_1의 자식이 아닌 형제가 되었습니다 (fixed_1은 fixed_1을 자르거나 스크롤할 수 없습니다). 더불어 (위치상의) 그들은 정해진 것보다 뒤에 정의되었다는 사실에도 불구하고 일반적인 것 위에 나타납니다. 그리고 웹 전문가들이 의미론적으로 생각하는 것입니다.
 
@@ -63,7 +93,18 @@ fixed_1은 일반적인 흐름에서 벗어나 뷰포트에 대해 상대적으�
 
 HTML 가르침을 잠시 내려놓고 이 코드 조각을 살펴보시기 바랍니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <viewport>
@@ -94,7 +135,18 @@ window //object
           <div> //요소 (일반)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 절대 아름다워요.
 
@@ -104,16 +156,21 @@ JavaScriptUI에서는 position: fixed를 사용할 필요가 없습니다. 사�
 
 이것은 정확히 같은 예제이지만 엉망과 혼란이 없습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-App(
-  Stack(
-    Text("웹 사이트의 본문입니다.")
-  ),
-  Text("고정입니다."),
-  Text("또 다른 고정입니다.")
-);
+App(Stack(Text("웹 사이트의 본문입니다.")), Text("고정입니다."), Text("또 다른 고정입니다."));
 ```
 
 다시 말씀드리지만, 이 코드는 유효한 JavaScript 코드입니다. 단일 라이브러리에 의존하고 있습니다. 여전히 레거시 혼란이 유효한지 생각하시나요?
@@ -122,7 +179,18 @@ App(
 
 알겠어요. 이건 단 하나의 속성일 뿐이고 누가 신경 쓸까요, 맞죠? 제가 전하는 포인트는 HTML과 CSS가 이러한 성가신 문제에 침통해 있으며, 프로젝트가 확장될수록 이러한 문제들이 얼마나 많은 압박을 가하는지 심지어 인지하지 못할 수 있을 것이라는 것입니다. 오버레이, 팝업, 문서 내 다른 레이어가 필요한 경우 이 문제를 마주치게 될 것이며, CSS 코드를 부풀려 HTML 계층 구조를 엉망으로 만들며 혼란을 증가시키고 접근성을 해치고 반응성을 부정적으로 영향을 미칠 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 마무리
 
@@ -132,6 +200,17 @@ App(
 
 감사합니다, 즐거운 시간 보내세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ⬅️ DevBlog #3 — CSS를 대체하기 위한 새로운 스타일 시스템 설계

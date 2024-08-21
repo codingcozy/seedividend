@@ -3,17 +3,13 @@ title: "프론트엔드 프로젝트에 캐시가 있는지 빠르게 확인하�
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How to quickly check if a front-end project has a cache"
 link: "https://medium.com/@jerrodnoliita/front-end-project-injection-version-number-743c29dcd16f"
 isUpdated: true
 ---
-
-
-
-
 
 컨테이너화 시대에는 페이지에 문제가 발생할 때 새로운 버전이 이미 수정되었을 가능성이 높습니다. 따라서 문제 해결을 위해 고군분투할 필요가 없습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # vite
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 vite 프로젝트에서는 vite-plugin-html-template 플러그인을 사용할 수 있어요. vite.config.ts 파일에 다음 코드를 추가해주세요:
 
@@ -54,7 +61,18 @@ json 파일을 참조하기 때문에 기본 tsconfig.config.json 파일을 수�
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `index.html` 파일을 `public` 디렉토리로 이동하고 `head`에 다음과 같은 문장을 추가해주세요:
 

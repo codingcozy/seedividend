@@ -3,17 +3,13 @@ title: "플러터 313 새로운 기능 정리"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Whats new in Flutter 313"
 link: "https://medium.com/flutter/whats-new-in-flutter-3-13-479d9b11df4d"
 isUpdated: true
 ---
-
-
-
-
 
 안녕하세요! 우리의 분기별 플러터 안정 버전에 다시 오신 것을 환영합니다. 이번에는 플러터 3.13을 소개합니다! 지난 릴리스 이후 단 3개월 동안 724개의 풀 리퀘스트가 병합되었고, 55명의 커뮤니티 회원이 플러터에 대한 첫 번째 커밋을 작성했습니다!
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 우리는 새로운 그래픽 렌더러 인 Impeller에 여러 가지 개선 사항을 적용했으며, 접이식 기기용 새로운 엔진 API도 추가했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 이뎀퍼
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ![이미지](/assets/img/WhatsnewinFlutter313_0.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 플러터 갤러리 전환 성능 벤치마크에서 아이폰 11의 평균 프레임 레스터화 시간을 개선했습니다. 이 기간은 대략 3.10 브랜치 절단부터 3.13 브랜치 절단까지의 시간을 다룹니다.
 
@@ -48,7 +66,18 @@ isUpdated: true
 
 ## 충실도 개선사항
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3.10 버전에서는 Impeller를 사용할 때 wide gamut colors을 사용할 수 있는 flag가 있음을 알렸습니다. 사용자들의 의견을 듣고 반영한 후, iOS에서 Impeller를 사용할 때 wide gamut colors가 이제 기본값으로 설정되었습니다.
 
@@ -58,7 +87,18 @@ isUpdated: true
 
 <img src="/assets/img/WhatsnewinFlutter313_1.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다시 한 번, 커뮤니티에서의 기여로 우리의 진전이 크게 가속화되었습니다. 특히 GitHub 사용자 ColdPaleLight가 여러 Impeller 관련 패치를 생성하여 정밀도와 성능을 향상시키고 원뿔 그라데이션 지원을 추가하는 데 큰 도움을 주었습니다.
 
@@ -68,7 +108,18 @@ isUpdated: true
 
 지난 안정적인 릴리스에서 우리는 렌더링 엔진의 재작성인 Impeller를 iOS에 기본으로 활성화할 것이라고 발표했습니다. 그 이후로, 고객들로부터 훌륭한 피드백을 받았습니다. 이제 우리는 macOS용 Impeller를 미리보기로 제공하게 되어 기쁩니다. Impeller 페이지의 안내에 따라 앱에서 Impeller를 테스트하고 활성화할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 내용을 친근한 톤으로 한국어로 번역해드리겠습니다.
 
@@ -80,7 +131,18 @@ macOS에서 Impeller를 시도해 보고 싶으신가요? Mac App Store에서 Wo
 
 # 새 엔진 API
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 향상된 접힐 수 있는 기기 지원
 
@@ -90,7 +152,18 @@ macOS에서 Impeller를 시도해 보고 싶으신가요? Mac App Store에서 Wo
 
 # 머티리얼
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Material Framework를 개선하여 1) 더 많은 플랫폼 호환성을 제공하고, 2) 더 많은 사용자 정의가 가능하도록 하며, 3) 새로운 기능을 추가했습니다.
 
@@ -100,7 +173,18 @@ iOS에서 TextField를 사용할 때 사용자는 기기 카메라를 사용하�
 
 ![화면](https://miro.medium.com/v2/resize:fit:1400/1*J-fzkm7jc2ORDimcTWRPxg.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 커뮤니티 멤버 luckysmg(작성자)와 tgucio(검토자)의 기여 없이는 이 기능이 가능하지 않았을 것입니다. 엔진과 프레임워크를 연결하는 데 1000줄과 70개의 커밋이 투입된 이 기능에 감사드립니다! 감사합니다!
 
@@ -110,7 +194,18 @@ AlertDialog에 적응형 생성자가 추가되었으며 현재 플랫폼에 따
 
 이제 AlertDialog.adaptive()를 사용하면 iOS에서는 CupertinoAlertDialog 위젯을 사용합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/WhatsnewinFlutter313_4.png" />
 
@@ -120,7 +215,18 @@ AlertDialog에 적응형 생성자가 추가되었으며 현재 플랫폼에 따
 
 ## 월과 년을 함께 보여주는 CupertinoDatePicker
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 쿠퍼티노 데이트피커에 monthYear 모드를 추가했습니다.
 
@@ -130,7 +236,18 @@ AlertDialog에 적응형 생성자가 추가되었으며 현재 플랫폼에 따
 
 CupertinoRadio에 useCheckmarkStyle 속성이 추가되었습니다. 이는 Radio.adaptive 및 RadioListTile.adaptive 위젯이 iOS에서 체크마크 스타일을 사용하는지를 제어할 수 있도록 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/WhatsnewinFlutter313_7.png" />
 
@@ -140,7 +257,18 @@ Material 위젯의 디자인을 쉽게 사용자 정의할 수 있도록 여러 
 
 - 이제 입력란을 위한 오류 위젯을 사용자 지정하기 위해 문자열 대신 error 속성을 사용할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/WhatsnewinFlutter313_8.png" />
 
@@ -150,7 +278,18 @@ Material 위젯의 디자인을 쉽게 사용자 정의할 수 있도록 여러 
 
 - materialGapSize 속성을 사용하여 ExpansionPanelList의 간격을 사용자 정의할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Flutter 3.13에서의 새로운 기능](/assets/img/WhatsnewinFlutter313_10.png)
 
@@ -160,7 +299,18 @@ Material 위젯의 디자인을 쉽게 사용자 정의할 수 있도록 여러 
 
 - NavigationDrawer에서 tilePadding 속성을 사용하여 패딩을 사용자 정의할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/WhatsnewinFlutter313_12.png)
 
@@ -170,7 +320,18 @@ Material 위젯의 디자인을 쉽게 사용자 정의할 수 있도록 여러 
 
 ## MaterialState chips의 색
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다양한 상태의 칩의 색상을 사용자 정의할 수 있게 해줍니다.
 
@@ -180,7 +341,18 @@ Material 위젯의 디자인을 쉽게 사용자 정의할 수 있도록 여러 
 
 FilterChip.elevated, ChoiceChip.elevated, 그리고 ActionChip.elevated 변형이 추가되어 Material 3 사양에 따라 새롭게 추가되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/WhatsnewinFlutter313_15.png" />
 
@@ -190,7 +362,18 @@ FilterChip.elevated, ChoiceChip.elevated, 그리고 ActionChip.elevated 변형�
 
 ## BaseTapAndDragGestureRecognizer
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 가족의 클래스를 위한 기본 클래스가 추가되었습니다. 이 클래스에는 탭 + 팬(TapAndPanGestureRecognizer) 및 탭 + 수평 드래그(TapAndHorizontalDragGestureRecognizer)를 지원하는 기능이 포함되어 있습니다. 이미 이러한 클래스들이 기본 텍스트 필드 제스처를 구현하는 데 사용되었습니다. 그러나 이러한 클래스들은 더블 탭 + 수직 드래그 제스처를 사용하여 위젯의 크기를 조정하는 등 다른 용도로도 훌륭하게 사용할 수 있습니다.
 
@@ -200,7 +383,18 @@ FilterChip.elevated, ChoiceChip.elevated, 그리고 ActionChip.elevated 변형�
 
 앱 라이프사이클의 변경 사항을 청취하고 애플리케이션을 종료하는 요청에 응답하기 위해 AppLifecycleListener 클래스가 추가되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/WhatsnewinFlutter313_16.png)
 
@@ -210,7 +404,18 @@ FilterChip.elevated, ChoiceChip.elevated, 그리고 ActionChip.elevated 변형�
 
 Flutter의 이번 릴리스에는 두 차원으로 스크롤되는 위젯을 구축하는 기반이 포함되어 있습니다. 이것은 새로운 클래스들을 활용하여 빌드할 수 있음을 의미합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - ChildVicinity는 1차원 스크롤뷰에서 인덱스와 유사한 표현으로, 두 차원에서 아이템들의 상대적인 위치를 나타냅니다.
 - TwoDimensionalChildDelegate는 SliverChildDelegate와 유사하지만, TwoDimensionalChildBuilderDelegate 및 TwoDimensionalChildListDelegate와 같은 하위 클래스를 가지고 있습니다.
@@ -223,7 +428,18 @@ Flutter의 이번 릴리스에는 두 차원으로 스크롤되는 위젯을 구
 
 Flutter 팀은 이미 이 프레임워크 위에 두 차원 스크롤 위젯을 구축하는 작업을 진행 중이며, 곧 릴리스될 예정인 two_dimensional_scrollables 패키지에서 확인하실 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 새로운 슬리버
 
@@ -233,7 +449,18 @@ SliverMainAxisGroup 및 SliverCrossAxisGroup은 여러 슬리버를 함께 배�
 
 교차 축 그룹화를 통해 슬리버를 뷰포트에 나란히 배치할 수 있으며, 교차 축에서 각 그룹화된 슬리버에 대한 공간 할당을 결정할 수 있는 (또한 새로운) 위젯인 SliverCrossAxisExpanded 및 SliverConstrainedCrossAxis가 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 sliver 라이브러리에 새롭게 추가된 DecoratedSliver는 DecoratedBox와 비슷합니다. 이를 통해 사용자는 장식을 추가할 수 있는 슬리버, 심지어는 슬리버 그룹까지도 꾸밀 수 있습니다.
 
@@ -243,7 +470,18 @@ sliver 라이브러리에 새롭게 추가된 DecoratedSliver는 DecoratedBox와
 
 # 접근성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 접근성 업데이트
 
@@ -254,7 +492,18 @@ sliver 라이브러리에 새롭게 추가된 DecoratedSliver는 DecoratedBox와
 - FocusSemanticEvent가 추가되었습니다. 그러나 이것은 조심해서 사용해야 합니다. 사용자들의 a11y 포커스 작동에 대한 기대치를 깨뜨릴 수 있습니다.
 - IconButton의 isSelected가 이제 스크린 리더에서 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 플랫폼
 
@@ -264,7 +513,18 @@ sliver 라이브러리에 새롭게 추가된 DecoratedSliver는 DecoratedBox와
 
 이번 릴리즈에서 Flutter는 이제 Android 14/API 34를 타겟팅할 수 있습니다. Android 14에서 몇 가지 새로운 기능을 아직 개발 중이지만 (예: 예측적인 백 내비게이션), 이번 릴리즈에 대해 새로운 Android SDK와의 충분한 테스트를 진행했으며 발견하신 관련 문제를 해결하는 데 우선순위를 두었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # iOS
 
@@ -274,7 +534,18 @@ iOS 화면이 회전할 때, Flutter 앱은 이전에 일부 왜곡을 경험했
 
 ![이미지](/assets/img/WhatsnewinFlutter313_19.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Runner 이름 바꾸기
 
@@ -284,7 +555,18 @@ Flutter iOS 앱을 생성하면 /ios 폴더에 Runner Xcode 프로젝트와 Xcod
 
 ## iOS 17 및 Xcode 15 준비하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 iOS 17 및 Xcode 15의 예정된 릴리스로 인해, 이 도구 체인을 사용하여 개발을 원하는 사용자는 Flutter 3.13을 사용해야 합니다. 또한 Xcode 15을 다운로드할 때 iOS 17 시뮬레이터도 함께 다운로드해야 합니다.
 
@@ -294,7 +576,18 @@ iOS 17 및 Xcode 15의 예정된 릴리스로 인해, 이 도구 체인을 사�
 
 2022년에 Flutter 캐주얼 게임 툴킷을 출시했는데, 게임 템플릿, 자습서, 문서, 커뮤니티 공간, 그리고 Flutter 개발자를 위한 GCP/Firebase/Ad 크레딧을 제공했습니다. 그 이후로 Flutter를 사용하여 수만 개의 게임이 출시되었습니다! 출시 이후로 우리는 활발히 Flutter 게임 개발자들과 소통하여 게임 툴킷을 개선할 방법을 찾았습니다. 거의 모든 이들이 게임을 더 잘 디자인하고 개발하며 수익을 창출할 수 있도록 도와주는 더 많은 리소스와 샘플 코드를 원한다고 언급했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오늘은 Flutter Games 웹 페이지에 비디오 자료의 캐러셀과 Flutter에서 빌드하면서 학습할 수 있는 새로운 게임들이 포함된 새 업데이트를 발표합니다. 이번 몇 달 동안 도구 세트에 대한 새로운 업데이트가 많이 예정되어 있으며 게임 개발 여정을 시작하기 위한 추가 자료와 샘플이 계속 추가될 예정입니다.
 
@@ -304,7 +597,18 @@ iOS 17 및 Xcode 15의 예정된 릴리스로 인해, 이 도구 체인을 사�
 
 # 도구들
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # DevTools
 
@@ -314,7 +618,18 @@ DevTools의 성능 및 사용성을 개선했습니다. 이에는 다음이 포�
 
 원하는 탭 목록을 한 번에 표시할 수 없는 경우를 다루기 위해 네비게이션 바에 새로운 오버플로 메뉴를 추가했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/WhatsnewinFlutter313_21.png" />
 
@@ -324,7 +639,18 @@ Memory 탭에 클래스 유형에 대한 범례를 추가했습니다.
 
 <img src="/assets/img/WhatsnewinFlutter313_23.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 또한 CPU 프로파일러에서 트리 테이블 스크롤링을 더 빠르고 부드럽게 만들었습니다. 디버거에서 파일 내 검색이나 파일 검색을 최대 5배 빠르게 만들었습니다.
 
@@ -334,7 +660,18 @@ Memory 탭에 클래스 유형에 대한 범례를 추가했습니다.
 
 # 주요 변경 사항
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 다음 릴리즈에서 기본으로 Material 3
 
@@ -344,7 +681,18 @@ Material 3 데모는 M2와 M3 간의 차이를 미리 볼 수 있을 것입니�
 
 ## Android 지원 플랫폼
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Flutter은 더 이상 Android Jelly Bean API 레벨(16, 17, 18)을 지원하지 않습니다. 좋은 소식은 대부분의 앱이 이 새로운 minSdkVersion으로 자동으로 이전되어야 한다는 것입니다.
 
@@ -354,7 +702,18 @@ Flutter 플러그인은 기본적으로 이전되지 않기 때문에 플러그�
 
 ## 변경 사항 및 이전 가이드 목록
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 릴리스의 주요 변경 사항은 v3.10 릴리스 이후 만료된 API들을 포함합니다. 영향을 받는 모든 API와 추가 문맥 및 이전 가이드를 보려면 해당 릴리스의 폐기 안내서를 참조하세요. 이 중 많은 것들은 Flutter Fix에 의해 지원되며 IDE에서 빠른 수정 및 dart fix 명령을 통한 대량 적용이 가능합니다.
 
@@ -364,7 +723,18 @@ Flutter 플러그인은 기본적으로 이전되지 않기 때문에 플러그�
 
 # Flutter 저장소 우선 순위 및 질의응답
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Triage 업데이트
 
@@ -374,7 +744,18 @@ Flutter 플러그인은 기본적으로 이전되지 않기 때문에 플러그�
 
 ![이미지](/assets/img/WhatsnewinFlutter313_24.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 봇은 GitHub에서 발생하는 일들을 알려주는 Discord와 통합되어 있어요. 우리는 이를 통해 장기적으로 더 생산적일 수 있기를 희망하지만, 새로운 시스템에 적응하는 동안 기다려 주세요!
 
@@ -384,7 +765,18 @@ Flutter 플러그인은 기본적으로 이전되지 않기 때문에 플러그�
 
 이 릴리스에 포함된 모든 PR 목록을 보시려면 해당 릴리스의 릴리스 노트와 변경 로그 섹션을 확인해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 플러터 3.13이 안정 버전으로 출시되었습니다. 이번 업데이트에는 Dart 3.1도 포함되어 있어요. 이 두 가지 최신 업데이트를 시작하려면 flutter upgrade 명령어만 입력하면 돼요.
 

@@ -3,17 +3,13 @@ title: "오늘 배운 사실  왜 속성에 바다코끼리 연산자를 사용�
 description: ""
 coverImage: "/assets/img/2024-07-12-TodayILearntWeCantUseTheWalrusOperatorOnAttributes_0.png"
 date: 2024-07-12 19:35
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-12-TodayILearntWeCantUseTheWalrusOperatorOnAttributes_0.png
 tag: Tech
 originalTitle: "Today I Learnt — We Can’t Use The Walrus Operator On Attributes??"
 link: "https://medium.com/@zlliu/today-i-learnt-we-cant-use-the-walrus-operator-on-attributes-4ed7af348d66"
 isUpdated: true
 ---
-
-
-
-
 
 ![Example of the walrus operator](/assets/img/2024-07-12-TodayILearntWeCantUseTheWalrusOperatorOnAttributes_0.png)
 
@@ -22,9 +18,9 @@ The walrus operator := can condense 2 lines of code into one.
 ```js
 // without walrus operator
 
-let x = 'apple';
-if (x == 'apple') {
-    console.log('ok');
+let x = "apple";
+if (x == "apple") {
+  console.log("ok");
 }
 ```
 
@@ -36,8 +32,18 @@ if ((x := 'apple') === 'apple') {
 }
 ```
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 (x := `apple`)라는 구문에서 2가지 작업이 발생합니다:
 
@@ -48,7 +54,18 @@ if ((x := 'apple') === 'apple') {
 
 하지만 객체 속성으로 이 작업을 시도할 때 오류가 발생합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 class Dog:
@@ -68,12 +85,23 @@ if (dog.age = 5) == 5:
 
 # 해결책
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저 속성을 설정하는 방법에 대해 알아봅시다
 
 ```js
-dog.name = 'rocky'
+dog.name = "rocky";
 ```
 
 ```js
@@ -85,7 +113,18 @@ setattr(dog, 'name', 'rocky')
 
 다음으로 x 또는 `hello` 구문을 살펴보겠습니다
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # x은 Truthy 값입니다. 예: 5, 'apple'
@@ -110,7 +149,18 @@ print(y)  # hello
 - x가 Truthy 값이면, 이 식은 x의 원래 값 반환
 - x가 Falsy 값이면, 이 식은 `hello`를 반환합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 이점을 취할 수 있어요:
 
@@ -130,7 +180,18 @@ if (setattr(dog, 'name', 'rocky') or 'rocky') == 'rocky':
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 건은 하나의 줄로 코드를 작성하길 원하는 경우에만 필요합니다. 그게 아니라면 2줄로 작성하세요.
 
@@ -138,7 +199,18 @@ if (setattr(dog, 'name', 'rocky') or 'rocky') == 'rocky':
 
 # 만약 제가 크리에이터로서를 지원하길 원한다면
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 제 책을 구매해주세요! — 파이썬에 대해 전혀 몰랐던 101가지 이야기
 - 찾을 수 있는 곳: [여기를 클릭해주세요](https://payhip.com/b/vywcf)

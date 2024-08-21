@@ -3,17 +3,13 @@ title: "Netlify에 github 레포지토리 연결하는 방법"
 description: "Netlify에 github 저장소를 연결하여 푸시만 하면 배포되는 방법을 알아봅니다"
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # Netlify에 github 저장소 연결하는 방법
 
@@ -23,9 +19,18 @@ isUpdated: true
 
 ## Github 저장소 연결
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![](/assets/img/2022-11-28-Netlify에-github-저장소-연결하는-방법1.png)
 

@@ -3,17 +3,13 @@ title: "플러터 go_router 사용 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Flutter go_router The Essential Guide"
 link: "https://medium.com/@antonio.tioypedro1234/flutter-go-router-the-essential-guide-349ef39ec5b3"
 isUpdated: true
 ---
-
-
-
-
 
 ![Fluttergo_routerTheEssentialGuide_0](/assets/img/Fluttergo_routerTheEssentialGuide_0.png)
 
@@ -23,7 +19,18 @@ URL 패턴을 정의하고, URL을 사용하여 탐색하며, 딥 링크를 처�
 
 # 특징
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 GoRouter에는 네비게이션을 간단하게 만드는 여러 기능이 있습니다:
 
@@ -38,7 +45,18 @@ GoRouter에는 네비게이션을 간단하게 만드는 여러 기능이 있습
 
 시작하려면 pubspec.yaml에 go_router를 추가하십시오. 이 문서에서는 ^7.1.1을 사용할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```yaml
 dependencies:
@@ -70,7 +88,18 @@ final _router = GoRouter(
 );
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼 MaterialApp.router 또는 CupertinoApp.router 생성자 중 하나를 사용하고 routerConfig 매개변수를 GoRouter 구성 객체로 설정할 수 있어요:
 
@@ -89,7 +118,18 @@ class MyApp extends StatelessWidget {
 
 ## 매개변수
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 경로 매개변수를 지정하려면, 경로 세그먼트 앞에 : 문자를 붙이고, 고유한 이름(예: :userId)을 사용하세요. 빌더 콜백에 제공된 GoRouterState 객체를 통해 매개변수 값을 액세스합니다:
 
@@ -115,7 +155,18 @@ GoRoute(
 ),
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 자식 경로 추가하기
 
@@ -140,7 +191,18 @@ GoRoute(
 )
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 화면 간 이동
 
@@ -156,7 +218,18 @@ build(BuildContext context) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이름으로 URL 대신에 이동할 수도 있어요. `context.goNamed()`를 호출해 보세요.
 
@@ -180,7 +253,18 @@ context.go(
 );
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현재 화면을 context.pop()를 통해 닫을 수 있어요.
 
@@ -190,7 +274,18 @@ context.go(
 
 StatefulShellRoute를 사용하여 중첩된 내비게이션을 설정해봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 StatefulShellRoute 클래스는 루트 네비게이터와 다른 네비게이터에 하위 라우트를 배치합니다. 그러나 이 라우트 클래스는 각 중첩된 브랜치마다 별도의 네비게이터를 생성하여 병렬 네비게이션 트리(즉, 병렬 네비게이션 트리)를 만들면서 상태가 있는 중첩된 네비게이션을 구축할 수 있습니다.
 
@@ -200,7 +295,18 @@ StatefulShellRoute는 루트 네비게이터 및 가지의 전역 네비게이�
 
 이를 어떻게 구현하는지 살펴보겠습니다 🙂
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희는 라우터를 생성하는 것으로 시작합니다. 라우트에 StatefulShellRoute.indexedStack()를 추가할 건데, 이 클래스는 중첩된 네비게이션을 만드는 역할을 담당합니다.
 
@@ -210,7 +316,18 @@ StatefulShellRoute.indexedStack()은 중첩된 네비게이터를 위해 Indexed
 
 라우트에 StatefulShellRoute.indexedStack()을 추가했는데, 이것은 분기를 생성하고 사용자 정의 쉘(이 경우 BottomNavigationBar)을 반환하는 역할을 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 빌더에서: (컨텍스트, 상태, 네비게이션 셸)을 반환하여 사용자 정의 셸을 생성합니다. 기본적으로 하단 네비게이션 바가 있는 Scaffold를 반환합니다. 이 페이지에는 다른 분기로 이동하기 위해 해당 페이지로 이동할 수 있는 navigationShell을 전달하는 것을 기억해 주세요 (예: 홈 == 쇼핑).
 - 분기:[]에서는 StatefulShellBranch(분기) 목록을 제공합니다. 이전에 생성한 \_sectionNavigatorKey를 navigatorKey 속성에 전달하지만 첫 번째 분기에만 사용되며, 다른 분기에는 기본 키가 사용됩니다. 또한 해당 분기에 지원되는 경로인 RouteBase 목록을 제공합니다.
@@ -221,7 +338,18 @@ StatefulShellRoute.indexedStack()은 중첩된 네비게이터를 위해 Indexed
 
 \_onTap(index)에는 navigationShell.goBranch(index)를 사용하여 분기 간에 전환할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그게 다야, 이제 당신의 프로젝트에 구현할 준비가 됐어요 🥳🎉
 
@@ -231,7 +359,18 @@ StatefulShellRoute.indexedStack()은 중첩된 네비게이터를 위해 Indexed
 
 특정 경로를 보호하기 위해, 예를 들어 인증되지 않은 사용자로부터, 전역 리디렉션이 GoRouter를 통해 설정될 수 있습니다. 가장 일반적인 예제는 /login이 아닌 모든 경로를 보호하는 리디렉션 설정이며, 사용자가 인증되지 않은 경우 /login으로 리디렉트됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리다이렉트는 GoRouterRedirect 유형의 콜백입니다. 응용 프로그램 상태에 따라 들어오는 위치를 변경하려면 GoRouter 또는 GoRoute 생성자에 콜백을 추가하십시오:
 
@@ -253,7 +392,18 @@ GoRouter(
 
 # 전환 애니메이션
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 GoRouter는 각 GoRoute에 대한 전환 애니메이션을 사용자 정의할 수 있게 해줍니다. 사용자 정의 전환 애니메이션을 구성하려면 GoRoute 생성자에 pageBuilder 매개변수를 제공하세요:
 
@@ -280,7 +430,18 @@ GoRoute(
 
 # 에러 처리 (404 페이지)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 go_router는 기본적으로 MaterialApp 및 CupertinoApp을 위한 기본 오류 화면과 사용되지 않은 경우의 기본 오류 화면이 함께 제공됩니다. 또한 errorBuilder 매개변수를 사용하여 기본 오류 화면을 대체할 수도 있습니다:
 
@@ -295,7 +456,18 @@ GoRouter(
 
 URL 문자열(context.go("/auth")) 대신 go_router는 go_router_builder 패키지를 사용하여 타입 안전한 라우트를 지원합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시작하려면 pubspec.yaml 파일의 dev_dependencies 섹션에 go_router_builder, build_runner, 그리고 build_verify를 추가해주세요:
 
@@ -310,7 +482,18 @@ dev_dependencies:
 
 그런 다음, 각 라우트를 GoRouteData를 확장한 클래스로 정의하고 build 메서드를 오버라이드하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 class HomeRoute extends GoRouteData {
@@ -361,7 +544,18 @@ class SongRoute extends GoRouteData {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 생성된 파일을 빌드하려면 build_runner 명령어를 사용하십시오:
 
@@ -381,7 +575,18 @@ TextButton(
 ),
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 가기 전에!!!
 
@@ -403,7 +608,18 @@ class MyNavigatorObserver extends NavigatorObserver {
 
 이제 MyNavigatorObserver를 GoRouter에 추가해 보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 GoRouter(

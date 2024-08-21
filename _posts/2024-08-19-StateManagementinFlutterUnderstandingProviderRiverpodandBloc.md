@@ -3,7 +3,7 @@ title: "플러터의 상태 관리 Provider, Riverpod, Bloc 이해하기"
 description: ""
 coverImage: "/assets/img/2024-08-19-StateManagementinFlutterUnderstandingProviderRiverpodandBloc_0.png"
 date: 2024-08-19 03:30
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-19-StateManagementinFlutterUnderstandingProviderRiverpodandBloc_0.png
 tag: Tech
 originalTitle: "State Management in Flutter Understanding Provider, Riverpod, and Bloc"
@@ -11,7 +11,6 @@ link: "https://medium.com/@iqbalfauzien/state-management-in-flutter-understandin
 isUpdated: true
 updatedAt: 1724032960272
 ---
-
 
 ![Table](/assets/img/2024-08-19-StateManagementinFlutterUnderstandingProviderRiverpodandBloc_0.png)
 
@@ -21,7 +20,18 @@ updatedAt: 1724032960272
 
 ## 왜 상태 관리가 중요한가
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 State는 플러터에서 언제든지 변경될 수 있는 데이터 또는 정보를 가리킵니다. 이 상태는 사용자 인터페이스에 반영되어야 하며 효율적으로 관리하는 것이 중요합니다. 이는 앱의 성능, 확장성 및 유지 관리에 직접적으로 영향을 미치기 때문입니다.
 
@@ -33,7 +43,18 @@ State는 플러터에서 언제든지 변경될 수 있는 데이터 또는 정�
 
 플러터 앱에서 상태를 관리하는 데 직면한 가장 큰 도전은 무엇인가요? 댓글에서 여러분의 경험을 공유해 주세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 상태 관리 솔루션 개요
 
@@ -43,7 +64,18 @@ State는 플러터에서 언제든지 변경될 수 있는 데이터 또는 정�
 
 이 표는 각 솔루션의 강점과 도전 과제를 일목요연하게 보여줍니다. 각 솔루션을 자세히 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Provider에 대한 심층 연구
 
@@ -53,7 +85,18 @@ Provider는 Flutter에서 간단하고 가벼운 상태 관리 솔루션이에�
 
 Provider를 사용하는 시점:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Provider는 비교적 간단하고 로컬화된 상태를 가지는 소규모 및 중규모 애플리케이션에 이상적입니다. 또한 상태 관리에 대한 초보자들에게 좋은 시작점입니다.
 
@@ -89,7 +132,18 @@ Provider가 Flutter 개발자들 사이에서 인기가 많은 이유는 무엇�
 
 장단점:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 장점: 배우기 쉽고, Flutter 커뮤니티에서 널리 지원받으며, 간단한 앱에 적합함.
 - 단점: 매우 큰 앱에서는 다루기 어려울 수 있으며, 다른 솔루션에 비해 상태 관리에 대한 제어가 적을 수 있음.
@@ -100,7 +154,18 @@ Riverpod란?
 
 Riverpod는 Provider의 현대적이고 더 강력한 버전입니다. Provider의 일부 한계를 보완하기 위해 더 많은 유연성과 더 안전한 API를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리버포드를 선택해야 하는 이유:
 
@@ -130,7 +195,18 @@ class CounterScreen extends ConsumerWidget {
 
 장단점:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 장점: Provider보다 더 견고하며, 성능이 우수하며, 더 안전한 상태 관리 가능
 - 단점: 학습 곡선이 조금 더 가파르며, Provider와 비교하여 덜 확장된 문서가 제공됨
@@ -141,7 +217,18 @@ Riverpod를 프로젝트에서 사용해 보셨나요? Provider와 어떻게 비
 
 Bloc이란 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Bloc (Business Logic Component)은 비즈니스 로직을 UI로부터 분리하여 테스트와 유지 보수를 쉽게 할 수 있는 디자인 패턴입니다. 대규모 Flutter 앱에 대한 인기있는 상태 관리 솔루션 중 하나입니다.
 
@@ -183,7 +270,18 @@ class CounterScreen extends StatelessWidget {
 
 장단점:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 장점: 매우 테스트하기 쉽고 깔끔한 아키텍처를 강제합니다. 복잡한 앱에 적합합니다.
 - 단점: 다른 솔루션에 비해 학습 곡선이 가파르고 더 많은 문구가 필요합니다.
@@ -194,7 +292,18 @@ Bloc에 대한 당신의 경험은 어떠한가요? 도전적이었나요, 보�
 
 옆으로 나란히 비교:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 상태 관리 솔루션을 선택할 때 다음 사항을 고려해보세요:
 
@@ -206,7 +315,18 @@ Bloc에 대한 당신의 경험은 어떠한가요? 도전적이었나요, 보�
 
 Riverpod과 Bloc은 일반적으로 더 고급 상태 관리 기술로 큰 앱에서 더 나은 성능을 제공합니다. Provider는 작은 앱에는 충분하지만 앱이 성장함에 따라 성능 병목 현상을 일으킬 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 커뮤니티 및 생태계:
 
@@ -216,7 +336,18 @@ Provider는 가장 큰 커뮤니티와 포괄적인 문서를 갖고 있습니�
 
 작은 앱 예시:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단한 할 일 앱을 상상해보세요. 여기서 Provider는 간편성과 구현의 용이성 때문에 탁월한 선택입니다.
 
@@ -226,7 +357,18 @@ Provider는 가장 큰 커뮤니티와 포괄적인 문서를 갖고 있습니�
 
 기업급 예시:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 뱅킹 앱에서 안전하고 복잡한 거래 과정이 필요한 경우, Bloc은 비즈니스 로직을 잘 분리하고 쉽게 테스트할 수 있도록 보장하는 해결책입니다.
 
@@ -236,7 +378,18 @@ Provider는 가장 큰 커뮤니티와 포괄적인 문서를 갖고 있습니�
 
 요약 주요 사항:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Provider는 간단한 상태 요구사항을 가진 소규모부터 중규모 앱에 적합합니다.
 - Riverpod은 큰 앱에 더 많은 기능과 유연성을 제공합니다.
@@ -248,7 +401,18 @@ Provider는 가장 큰 커뮤니티와 포괄적인 문서를 갖고 있습니�
 
 추가 자료:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Provider Documentation: https://pub.dev/packages/provider
 - Riverpod Documentation: https://riverpod.dev/docs/introduction/getting_started

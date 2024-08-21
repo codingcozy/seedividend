@@ -3,17 +3,13 @@ title: "맥 macOS에 NVM Node Version Manager을 설치하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How to install NVM Node Version Manager on macOS"
 link: "https://medium.com/@sukiphan/how-to-install-nvm-node-version-manager-on-macos-d9fe432cc7db"
 isUpdated: true
 ---
-
-
-
-
 
 ![How to install NVM (Node Version Manager) on macOS](/assets/img/HowtoinstallNVMNodeVersionManageronmacOS_0.png)
 
@@ -23,7 +19,18 @@ macOS에 NVM(Node Version Manager)을 설치하려면 다음 단계를 따를 �
 
 - Homebrew 설치:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 Homebrew를 설치하지 않은 경우에는 터미널을 열고 다음 명령어를 실행하여 설치할 수 있어요:
 
@@ -35,7 +42,18 @@ macOS에 NVM(Node Version Manager)을 설치하려면 다음 단계를 따를 �
 
 Homebrew를 통해 NVM을 설치하세요. Homebrew가 설치되면 터미널에서 다음 명령어를 실행하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 brew install nvm
@@ -51,7 +69,18 @@ export NVM_DIR=~/.nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # 이 명령어는 nvm bash_completion을 로드합니다
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그런 다음 터미널을 다시 시작하거나 변경 사항을 적용하려면 source ~/.your_shell_profile을 실행하세요.
 
@@ -63,7 +92,18 @@ NVM이 설치되었는지 확인하려면 다음을 실행합니다:
 nvm --version
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 5. NVM을 사용하여 Node.js 설치하기
 
@@ -75,7 +115,18 @@ nvm install --lts
 
 특정 Node 버전을 설치하려면 다음을 실행하십시오:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 nvm install 18
@@ -89,6 +140,17 @@ nvm use 18
 
 셸 프로필을 변경한 후 변경 사항을 적용하려면 터미널을 다시 시작해야 합니다. 설치 후 NVM을 사용하여 Node.js 버전을 쉽게 전환할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 문서가 도움이 되길 바라요! 읽어 주셔서 감사합니다. 코딩을 즐기세요. ❤️😊

@@ -3,17 +3,13 @@ title: "React dashboard 프로젝트를 위한 무료 리액트 어드민 템플
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Top 30 Free React Admin Templates for Stunning React Dashboard Projects"
 link: "https://medium.com/@Don_Peno/top-30-free-react-admin-templates-for-stunning-react-dashboard-projects-d40b46354d58"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/Top30FreeReactAdminTemplatesforStunningReactDashboardProjects_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 추가 기능, 전문 지원 및 더 넓은 사용자 정의 옵션을 찾는 분들을 위해, 프리미엄 리액트 관리자 대시보드 템플릿을 살펴보기를 권장합니다. 이를 통해 특정 요구 사항과 선호 사항에 맞춰 대시보드 또는 앱을 맞춤 설정할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 작은 규모의 프로젝트를 시작하거나 복잡한 응용 프로그램에 도전하고 있다면, 무료 리액트 관리자 대시보드 템플릿 모음이 개발 여정을 시작하는데 완벽한 해결책을 제공합니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 ![이미지](/assets/img/Top30FreeReactAdminTemplatesforStunningReactDashboardProjects_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 무료 React Native 테마는 견고한 웹 애플리케이션, SaaS 백엔드 인터페이스 및 소프트웨어를 개발하는 포괄적인 솔루션입니다.
 
@@ -43,7 +61,18 @@ DEMO 더 많은 정보 | 다운로드
 
 ## Airframe
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Airframe React template](/assets/img/Top30FreeReactAdminTemplatesforStunningReactDashboardProjects_2.png)
 
@@ -53,7 +82,18 @@ DEMO 더 많은 정보 | 다운로드
 
 더 많은 정보와 데모보기 | 다운로드
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## ArchitectUI
 
@@ -63,7 +103,18 @@ ArchitectUI은 create-react-app, Webpack 및 Bootstrap 5를 사용하여 개발�
 
 이 무료 React 템플릿은 9개 이상의 완전히 코딩된 대시보드 디자인과 150개 이상의 구성 요소, 200개 이상의 레이아웃을 제공합니다. 다양한 개인 프로젝트 또는 애플리케이션 시나리오에 대응하기 위한 요소, 위젯 및 구성 요소의 폭넓은 범위를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ArchitectUI는 여러 가지 색조를 포함하고 있어 사이드바, 헤더, 푸터 및 본문을 원하는 대로 사용자 정의할 수 있습니다. 각 테마에는 10 가지 이상의 사전 정의된 색조가 포함되어 있어 선호하는 색조 설정에 충분한 옵션이 있습니다.
 
@@ -73,7 +124,18 @@ ArchitectUI는 여러 가지 색조를 포함하고 있어 사이드바, 헤더,
 
 전체 목록 및 다른 옵션 찾아보기 클릭
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 공개: 본 콘텐츠에 포함된 일부 링크는 제휴 링크입니다.
 

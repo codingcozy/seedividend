@@ -3,16 +3,13 @@ title: "Angular에서 이벤트 핸들링 HostListener와 HostBinding 탐구하�
 description: ""
 coverImage: "/assets/img/2024-06-23-EventHandlinginAngularExploringHostListenerandHostBinding_0.png"
 date: 2024-06-23 14:13
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-EventHandlinginAngularExploringHostListenerandHostBinding_0.png
 tag: Tech
 originalTitle: "Event Handling in Angular: Exploring HostListener and HostBinding"
 link: "https://medium.com/@mariodante/event-handling-in-angular-exploring-hostlistener-and-hostbinding-4a533c3815a4"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-06-23-EventHandlinginAngularExploringHostListenerandHostBinding_0.png" />
 
@@ -23,7 +20,18 @@ isUpdated: true
 
 Angular에서 이벤트 처리는 상호작용적이고 동적인 애플리케이션을 만드는 데 중요한 역할을 합니다. HostListener와 HostBinding이라는 두 강력한 데코레이터는 컴포넌트나 디렉티브 내에서 호스트 요소의 이벤트를 처리하고 속성을 바인딩하는 중요한 기능을 제공합니다. 이 글에서는 HostListener와 HostBinding의 기술적 측면, 사용 방법, 예제, 차이점 및 최적 사용 방법에 대해 자세히 알아보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # HostListener
 
@@ -33,35 +41,57 @@ HostListener는 Angular에서 호스트 요소에서 이벤트를 수신할 수 
 
 HostListener를 가져오고 사용하는 방법은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1- @angular/core에서 필요한 데코레이터를 가져와주세요:
 
 ```js
-import { Component, Directive, HostListener } from '@angular/core';
+import { Component, Directive, HostListener } from "@angular/core";
 ```
 
 2- 컴포넌트나 디렉티브 내에서 적절한 속성이나 메소드에 HostListener 데코레이터를 적용해주세요.
 
 ## 예시 1:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-import { Component, HostListener } from '@angular/core';
+import { Component, HostListener } from "@angular/core";
 
 @Component({
-  selector: 'app-example',
-  template: `<button (click)="onClick()">Click Here</button>`
+  selector: "app-example",
+  template: `<button (click)="onClick()">Click Here</button>`,
 })
 export class ExampleComponent {
-  @HostListener('document:keydown', ['$event'])
+  @HostListener("document:keydown", ["$event"])
   handleKeyboardEvent(event: KeyboardEvent) {
-    console.log('Key pressed:', event.key);
+    console.log("Key pressed:", event.key);
   }
 
   onClick() {
-    console.log('Button clicked');
+    console.log("Button clicked");
   }
 }
 ```
@@ -72,25 +102,35 @@ export class ExampleComponent {
 
 ## 예시 2:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { HostListener, Component } from "@angular/core";
 
 @Component({
-  selector: 'app',
-  template: `<h1>Hello, you have pressed enter {counter} number of times!</h1> Press enter key
-to increment the counter.
-  <button (click)="resetCounter()">Reset Counter</button>`
+  selector: "app",
+  template: `<h1>Hello, you have pressed enter {counter} number of times!</h1>
+    Press enter key to increment the counter. <button (click)="resetCounter()">Reset Counter</button>`,
 })
 class AppComponent {
   counter = 0;
-  @HostListener('window:keydown.enter', ['$event'])
+  @HostListener("window:keydown.enter", ["$event"])
   handleKeyDown(event: KeyboardEvent) {
     this.counter++;
   }
 
-  @HostListener('window:keydown.Backspace', ['$event'])
+  @HostListener("window:keydown.Backspace", ["$event"])
   handleBackspace(event: KeyboardEvent) {
     this.counter--;
   }
@@ -107,7 +147,18 @@ class AppComponent {
 
 비슷한 아이디어가 적용됩니다. HostListener 데코레이터가 창에서 `keydown.Backspace` 이벤트를 감지하고 'Backspace' 이벤트가 발생할 때마다 handleKeyDown 메서드를 호출합니다(카운터가 하나씩 감소).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막으로 resetCounter 메서드는 카운터 변수에 0의 값을 할당합니다.
 
@@ -117,38 +168,62 @@ HostBinding은 Angular에서 호스트 요소의 속성을 컴포넌트 또는 �
 
 ## Import/사용법
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 HostBinding을 가져와 사용하려면 다음 단계를 따르세요:
 
 1- @angular/core에서 필요한 데코레이터를 가져옵니다:
 
 ```js
-import { Component, Directive, HostBinding } from '@angular/core';
+import { Component, Directive, HostBinding } from "@angular/core";
 ```
 
 2- HostBinding 데코레이터를 컴포넌트나 디렉티브의 적절한 속성에 적용하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 예시 1
 
 ```js
-import { Component, HostBinding } from '@angular/core';
+import { Component, HostBinding } from "@angular/core";
 
 @Component({
-  selector: 'app-example',
+  selector: "app-example",
   template: `<div>컴포넌트 내용</div>`,
-  styles: [`
-    :host {
-      display: block;
-      background-color: yellow;
-    }
-  `]
+  styles: [
+    `
+      :host {
+        display: block;
+        background-color: yellow;
+      }
+    `,
+  ],
 })
 export class ExampleComponent {
-  @HostBinding('style.color') color = 'red';
-  @HostBinding('class.active') isActive = true;
+  @HostBinding("style.color") color = "red";
+  @HostBinding("class.active") isActive = true;
 }
 ```
 
@@ -156,23 +231,36 @@ export class ExampleComponent {
 
 # 예시 2
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-import { Component, HostBinding } from '@angular/core';
+import { Component, HostBinding } from "@angular/core";
 
 @Component({
-  selector: 'app-example',
+  selector: "app-example",
   template: `<div>Component Content</div>`,
-  styles: [`
-    :host {
-      display: block;
-      background-color: yellow;
-    }
-  `]
+  styles: [
+    `
+      :host {
+        display: block;
+        background-color: yellow;
+      }
+    `,
+  ],
 })
 export class ExampleComponent {
-  @HostBinding('attr.role') role = 'button';
+  @HostBinding("attr.role") role = "button";
 }
 ```
 
@@ -182,7 +270,18 @@ export class ExampleComponent {
 
 HostListener와 HostBinding의 주요 차이점은 기능입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - HostListener은 호스트 요소에서 특정 이벤트를 수신하고 해당 이벤트에 따라 구성 요소나 지시문 메서드를 실행하는 데 사용됩니다. 예를 들어, 클릭 또는 키 변경과 같은 이벤트가 있습니다.
 - HostBinding은 구성 요소나 지시문 속성을 호스트 요소의 속성에 바인딩하고 이러한 속성 값에 따라 호스트 요소에 값을 설정하는 데 사용됩니다. 구성 요소나 지시문 속성 값에 따라 호스트 요소의 속성에 값을 설정해야 하는 경우에 사용하며, 스타일, 클래스 등과 같은 속성에 값을 설정하는 데 유용합니다.
@@ -193,7 +292,18 @@ HostListener와 HostBinding의 주요 차이점은 기능입니다:
 
 관심 가져주셔서 감사합니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 참고 자료
 

@@ -3,17 +3,13 @@ title: "2024년에 프론트엔드 개발자가 되기 위해 꼭 알아야 할 
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "What exactly are the technologies you should learn to engineer your front-end"
 link: "https://medium.com/@nanvon/what-exactly-are-the-technologies-you-should-learn-to-engineer-your-front-end-bef150f075a9"
 isUpdated: true
 ---
-
-
-
-
 
 # 엔지니어링
 
@@ -25,7 +21,18 @@ isUpdated: true
 - 둘째해: 엔지니어링은 프론트엔드, 중간 플랫폼, CI/CD인 거죠
 - 셋째해: 엔지니어링은 풀스택, 프로젝트 인프라, 효율성인 거죠
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사실 공학의 개념은 매우 작다고 할 수 있지만, 자신 있게 말씀드릴 수 있는 것은 공학의 목적은 프로젝트의 효율성, 견고성, 유지보수성 및 품질을 향상시키는 데 있다는 것입니다.
 
@@ -35,7 +42,18 @@ isUpdated: true
 
 이전 회사에서 마주했던 몇 가지 공학 기술 스택에 대해서만 말씀드릴 수 있어요~
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 주요 프론트엔드 기술
 
@@ -48,7 +66,18 @@ isUpdated: true
 
 # Node
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/Whatexactlyarethetechnologiesyoushouldlearntoengineeryourfront-end_1.png)
 
@@ -58,7 +87,18 @@ Nest.js: Node.js를 배우고 싶은 사람들을 위한 학습 자료입니다.
 
 ![이미지](/assets/img/Whatexactlyarethetechnologiesyoushouldlearntoengineeryourfront-end_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 웹팩: 웹팩은 패키징 도구로, 최적화를 위한 조치를 이해하고 플러그인을 작성할 수 있어야 합니다.
 - Vite: Vite는 빠른 패키징 도구로, 플러그인을 작성하는 방법을 알아야 합니다.
@@ -70,7 +110,18 @@ Nest.js: Node.js를 배우고 싶은 사람들을 위한 학습 자료입니다.
 
 컴포넌트 라이브러리: 페이지 개발 효율을 향상시키기 위해 컴포넌트 라이브러리를 유지보수합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도구 라이브러리: 회사 내에서 자주 사용되는 도구 기능 유지
 
@@ -80,7 +131,18 @@ Nest.js: Node.js를 배우고 싶은 사람들을 위한 학습 자료입니다.
 
 모니터링: 사용자 동작 모니터링, 오류 모니터링, 동작 기록점 등을 포함한 프로젝트 모니터링 시스템 구축
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문서 및 지식베이스: 전반적인 개발 수준 향상을 위해 일부 문서 및 지식 베이스를 유지관리하세요
 
@@ -90,7 +152,18 @@ Nest.js: Node.js를 배우고 싶은 사람들을 위한 학습 자료입니다.
 
 # CI/CD
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/Whatexactlyarethetechnologiesyoushouldlearntoengineeryourfront-end_4.png" />
 
@@ -103,6 +176,17 @@ CI/CD를 직접 구축할 필요는 없습니다. 이미 준비된 도구들이 
 
 읽어 주셔서 감사합니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 질문이 있으면 언제든지 말해주세요. 빠르게 답변해 드리겠습니다!

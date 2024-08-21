@@ -3,7 +3,7 @@ title: "파이썬 숫자에 대해 미리 알았으면 좋았을 6가지 팁"
 description: ""
 coverImage: "/assets/img/2024-06-27-6ThingsIWishIKnewEarlierAboutPythonNumbers_0.png"
 date: 2024-06-27 17:55
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-27-6ThingsIWishIKnewEarlierAboutPythonNumbers_0.png
 tag: Tech
 originalTitle: "6 Things I Wish I Knew Earlier About Python Numbers"
@@ -11,19 +11,25 @@ link: "https://medium.com/@zlliu/6-things-i-wish-i-knew-earlier-about-python-num
 isUpdated: true
 ---
 
-
-
-
 아래는 Mardown 형식을 사용한 표태그입니다:
 
-
-| 열1 | 열2 |
-|-----|-----|
+| 열1   | 열2   |
+| ----- | ----- |
 | 내용1 | 내용2 |
 | 내용3 | 내용4 |
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 y: float = 3.45e-4
@@ -31,15 +37,25 @@ y: float = 3.45e-4
 print(y) # 0.000345
 ```
 
-- 1.25e5 means 1.25 * 10 ^ 5 (which is 100000)
-- 3.45e-4 means 3.45 * 10 ^ -4 (which is 0.0001)
+- 1.25e5 means 1.25 \* 10 ^ 5 (which is 100000)
+- 3.45e-4 means 3.45 \* 10 ^ -4 (which is 0.0001)
 
 With this, we can easily type out very large and very small numbers without having to ensure that we’ve typed the correct number of zeros.
 
 # 2) We can insert underscores in our numbers
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그래서 숫자를 읽기 쉽게 하기 위해 0을 모아 놓을 수 있습니다.
 
@@ -49,7 +65,7 @@ x: int = 1_000_000_000
 print(x) # 1000000000
 ```
 
-^ 여기서는 3개의 0 사이마다 _ 하나를 넣어서 한 눈에 10억이라는 것을 알 수 있도록 만듭니다.
+^ 여기서는 3개의 0 사이마다 \_ 하나를 넣어서 한 눈에 10억이라는 것을 알 수 있도록 만듭니다.
 
 ```js
 y: int = 1_0_0_00_000
@@ -57,7 +73,18 @@ y: int = 1_0_0_00_000
 print(y) # 10000000
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ^ 각 그룹당 3 개의 숫자가 있어야 하는 것은 의무적이 아닙니다. 원하는 만큼 많은 숫자 그룹당 0을 넣을 수 있지만, 저는 3개로 고정하는 것이 가장 읽기 쉽다고 생각했습니다.
 
@@ -71,7 +98,18 @@ x: int = 123456
 print(round(x, -2)) # 123500
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 숫자를 -3 소수점 자리로 round() 함수를 사용하면, 가장 가까운 1000으로 올립니다.
 
@@ -89,7 +127,18 @@ x: int = 123456
 print(round(x, -4)) # 120000
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 4) divmod() 함수를 사용하여 //와 %를 동시에 수행할 수 있어요
 
@@ -106,7 +155,18 @@ print(b) # 7
 - a // b를 하면 몫을 얻을 수 있어요
 - a % b를 하면 나머지를 얻을 수 있어요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `divmod` 함수를 사용하면 동시에 이를 수행할 수 있어서, 우리가 `//`와 `%`를 동시에 해야 할 때 코드 한 줄을 절약할 수 있어요.
 
@@ -120,7 +180,18 @@ x: float = float('inf')
 print(x) # inf
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 float(`-inf`)를 실행하면 음의 무한대를 얻습니다.
 
@@ -140,7 +211,18 @@ print(x > 1_000_000)  # True
 print(x > 3.14e100)   # True
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 y: float = float('-무한대')
@@ -156,7 +238,18 @@ print(y < -1e1000)     # True
 
 Python에는 내장된 decimal 모듈이 있어서 간단히 가져와서 사용할 수 있으며, 십진수 숫자를 다룰 수 있는 기능을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 from decimal import Decimal
@@ -179,7 +272,18 @@ b: float = 2.000000000000000000000001
 print(a == b) # True
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 특정 지점을 넘어서면 부동 소수점 정밀도 부정확성이 발생할 수 있으며, 이는 작은 숫자에 대해 문제가 될 수 있습니다.
 
@@ -194,7 +298,18 @@ print(a)        # (5+7j)
 print(type(a))  # <class 'complex'>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 5 + 7j는 5 + 7i를 의미해요 (실수 부분 5 + 허수 부분 7)
 
@@ -209,9 +324,20 @@ print(a.imag)  # 7.0
 
 ```js
 import cmath
-```  
+```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ^ 내장 cmath 모듈을 가져와서 다양한 복소수 연산을 수행할 수 있어요! (자세히 설명하지는 않겠죠)
 
@@ -221,7 +347,18 @@ import cmath
 
 # 제작자로서 저를 지원하고 싶으시다면
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 제 책을 구매해주세요! — 파이썬에 대해 알지 못했던 101가지 이야기
 - 어디서 찾을 수 있나요: https://payhip.com/b/vywcf

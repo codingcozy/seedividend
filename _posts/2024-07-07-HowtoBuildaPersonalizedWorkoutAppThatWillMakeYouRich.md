@@ -3,15 +3,13 @@ title: "여러분의 수익을 불러올 개인 맞춤 운동 앱 만드는 방�
 description: ""
 coverImage: "/assets/img/2024-07-07-HowtoBuildaPersonalizedWorkoutAppThatWillMakeYouRich_0.png"
 date: 2024-07-07 21:17
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-HowtoBuildaPersonalizedWorkoutAppThatWillMakeYouRich_0.png
 tag: Tech
 originalTitle: "How to Build a Personalized Workout App That Will Make You Rich!"
 link: "https://medium.com/@learntocodetoday/how-to-build-a-personalized-workout-app-that-will-make-you-rich-d4575f4cddf0"
 isUpdated: true
 ---
-
-
 
 ![이미지](/assets/img/2024-07-07-HowtoBuildaPersonalizedWorkoutAppThatWillMakeYouRich_0.png)
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 먼저 시스템에 Node.js와 npm(Node Package Manager)이 설치되어 있는지 확인하세요. 그런 다음 React Native CLI를 설치하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm install -g react-native-cli
@@ -36,7 +45,18 @@ cd WorkoutApp
 
 # Step 2: 기본 구조 빌드하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신이 좋아하는 코드 편집기(예: VS Code)에서 프로젝트를 열고 App.js 파일로 이동해주세요. 여기에서 앱의 기본 구조를 구축할 수 있어요.
 

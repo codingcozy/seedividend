@@ -3,16 +3,13 @@ title: "Zustand vs. Redux: 상태 관리 어떤 것을 사용해야할까? 비�
 description: ""
 coverImage: "/assets/img/2024-05-01-ZustandvsReduxAComprehensiveComparisoninStateManagement_0.png"
 date: 2024-05-01 18:02
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-01-ZustandvsReduxAComprehensiveComparisoninStateManagement_0.png
 tag: Tech
 originalTitle: "Zustand vs. Redux: A Comprehensive Comparison in State Management"
 link: "https://medium.com/@breakingbadjs/zustand-vs-redux-a-comprehensive-comparison-in-state-management-687a86156b14"
 isUpdated: true
 ---
-
-
-
 
 ![이미지](/assets/img/2024-05-01-ZustandvsReduxAComprehensiveComparisoninStateManagement_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 Redux는 강력하지만 그 힘은 복잡성과 함께 옵니다. 액션, 리듀서 및 저장소 설정이 필요하며, 이는 초보자에겐 압도적일 수 있습니다. 반면 Zustand는 최소주의 방법을 취합니다. 복잡한 설정 없이 상태 관리를 제공하는 단일 훅입니다. 이 간결함은 Zustand를 접근하기 쉽게 만들어주며, 특히 작은 프로젝트나 상태 관리에 새로운 개발자들에게 유용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Redux의 크기는 성능이 중요한 웹 애플리케이션에서도 고려해야 할 사항일 수 있습니다. 그것은 광범위한 기능 세트로 인해 상당한 번들 크기를 가지고 있습니다. 무게가 가벼운 Zustand(압축 후 1KB 미만)는 번들 크기를 유지하는 데 도움을 주어 로드 시간을 단축하고 성능을 향상시킵니다.
 
@@ -32,14 +40,25 @@ Redux는 예측 가능한 상태 변경을 위한 좋은 사례인 불변성을 
 
 # 3. 편리한 API
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Zustand API는 React 개발자들에게 자연스러운 느낌을 제공하도록 설계되었습니다. 스토어를 정의할 때 간단한 create 함수와 상태에 액세스하기 위한 hook을 제공합니다.
 
 다음은 기본적인 예시입니다:
 
 ```js
-import create from 'zustand';
+import create from "zustand";
 const useCountStore = create((set) => ({
   count: 0,
   increment: () => set((state) => ({ count: state.count + 1 })),
@@ -63,7 +82,18 @@ function Counter() {
 
 이 API는 직관적이고 간결하여 Zustand를 사용하기 쉽게 만듭니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 4. 성능 최적화
 
@@ -73,7 +103,18 @@ Zustand은 React의 컨텍스트와 후크를 활용하여 다시 렌더링을 �
 
 Redux는 디버깅에 매우 유용한 개발자 도구 생태계를 갖추고 있습니다. Zustand은 Redux와 같이 전용 개발 도구 확장 기능을 갖추고 있지 않지만, Redux DevTools 또는 React DevTools와 같은 인기있는 개발 도구와 통합할 수 있습니다. 이를 통해 Redux와 동일하게 Zustand 스토어를 검사하고 타임 트래블 디버깅할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 6. React Concurrent Mode 호환성
 
@@ -83,6 +124,17 @@ React Concurrent Mode의 등장으로, Zustand는 이와 원활하게 작업할 
 
 Redux는 오랜 기간동안 존재하며 방대한 커뮤니티와 생태계를 갖추고 있습니다. 대규모 및 복잡한 애플리케이션에 유리할 수 있습니다. 그러나 Zustand의 커뮤니티는 꾸준히 성장하고 있으며, 그 간결함과 사용 편의성으로 더 많은 개발자들을 끌어들이고 있어 새로운 프로젝트에 유망한 선택지가 될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 종합적으로, Zustand와 Redux는 둘 다 가능성 있는 상태 관리 라이브러리이지만, 그 적합성은 프로젝트 요구사항과 팀원들의 익숙함에 따라 다릅니다. Zustand는 간결함, 크기, 그리고 사용 편의성 측면에서 빛을 발하며, 이는 작거나 중간 규모의 프로젝트나 복잡하지 않은 상태 관리 솔루션을 선호하는 개발자들에겐 탁월한 선택이 될 수 있습니다. Redux는 광범위한 생태계와 도구들을 갖추고 있어, 복잡한 상태 관리가 필요한 대규모 애플리케이션에는 여전히 견고한 선택이 될 것입니다. 결국, Zustand와 Redux 사이의 선택은 프로젝트의 구체적인 요구사항과 제약 사항에 기반하여 이루어져야 합니다.

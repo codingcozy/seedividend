@@ -3,17 +3,13 @@ title: "곧 출시 예정인 HTML Tailwind 템플릿  VibeUp"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Coming Soon HTML Tailwind Template  VibeUp Site Templates Web Templates"
 link: "https://medium.com/@gracegraphics97/coming-soon-html-tailwind-template-vibeup-site-templates-web-templates-81849e748092"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/ComingSoonHTMLTailwindTemplateVibeUpSiteTemplatesWebTemplates_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 VibeUp — Tailwind CSS Coming Soon HTML Template — 곧 공개됩니다. Tailwind CSS 3 HTML Template은 카운트다운 웹 페이지, 곧 출시 예정인 웹 페이지, 출시 웹 사이트 및 제품 출시 웹 사이트에 적합한 세련되고 미니멀한 디자인을 제공하며, 기관이나 비즈니스 스타트업에 이상적입니다. 최신 Tailwind CSS v3 프레임워크에서 제작된 이 혁신적인 템플릿은 최신 Tailwind CSS와 완벽하게 통합되어 동적이고 현대적인 사용자 경험을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 VibeUp — Coming Soon Tailwind CSS 3 HTML Template은 어떤 Count Down Web Page, Coming Soon Page, Launching Website, Launching Product Website, 올해 또는 비즈니스 Startup을 위해 만들어진 최소한의 Coming Soon 템플릿입니다. VibeUp은 Coming Soon Tailwind CSS Template입니다. 귀하의 비즈니스, 에이전시, 기업 및 스타트업을 위한 새롭고 현대적이며 독특한 템플릿을 사전 런칭하세요. 최신 Tailwind CSS v3 프레임워크를 기반으로 합니다. VibeUp — Coming Soon Tailwind CSS 3 HTML Template은 Tailwind CSS와 매끄럽게 통합되는 동적 Coming Soon HTML Template입니다. 반응형 CSS 애니메이션, JavaScript 카운트다운, 그라데이션 배경색, 그리고 매력적인 배경 파동 효과 애니메이션을 특징으로 합니다. 다양한 브라우저 및 디바이스를 지원하여 사용자 경험을 일관되게 제공합니다. 이 깔끔하고 빠른 템플릿은 다양한 용도에 맞게 유연하게 사용자 정의할 수 있어 Coming Soon 페이지, Single 페이지, 랜딩 페이지 또는 원페이지 웹사이트에 적합합니다. 주요 기능:
 
@@ -48,7 +55,18 @@ VibeUp — Coming Soon Tailwind CSS 3 HTML Template은 어떤 Count Down Web Pag
 - 개발자 친화적: HTML 및 CSS에 대한 우리 팀의 전문 지식을 활용하여 개발을 간소화하세요.
 - 글로벌 사용: 전 세계적으로 다양한 목적에 적용되며 귀하의 웹 개발 요구 사항을 위한 다목적이고 효율적인 솔루션으로 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 #html #css #tailwind #coming #soon #comingsoon #page #page #ecommerce #tailwindcss #onepage #ui #tailwindui #comingsoonpage #soonpage
 
@@ -58,7 +76,18 @@ HTML, CSS, SASS, JS
 
 ## 추가하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Retina ready
 반응형
@@ -70,7 +99,18 @@ Retina ready
 
 ## 비슷한 웹 템플릿
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 보기
 
@@ -80,7 +120,18 @@ Coming Soon HTML Tailwind Template — Techsoon by Techzaa
 
 ![이미지](/assets/img/ComingSoonHTMLTailwindTemplateVibeUpSiteTemplatesWebTemplates_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 TechPopup — Techzaa가 제작한 전자 상거래 팝업 HTML 템플릿
 
@@ -90,7 +141,18 @@ Servix — Techzaa가 제작한 HTML 및 CSS 서비스 템플릿
 
 ![이미지](/assets/img/ComingSoonHTMLTailwindTemplateVibeUpSiteTemplatesWebTemplates_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ActionVibe - Tailwind Call to Action HTML 템플릿 by Techzaa
 
@@ -100,7 +162,18 @@ ActionVibe - Tailwind Call to Action HTML 템플릿 by Techzaa
 
 ![이미지](/assets/img/ComingSoonHTMLTailwindTemplateVibeUpSiteTemplatesWebTemplates_5.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 부트스트랩 반응형 원페이지 템플릿 — MyraStudio의 Oxavia
 
@@ -110,7 +183,18 @@ ActionVibe - Tailwind Call to Action HTML 템플릿 by Techzaa
 
 ![이미지](/assets/img/ComingSoonHTMLTailwindTemplateVibeUpSiteTemplatesWebTemplates_7.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # MyraStudio에서 만든 창의적인 CSS 버튼 HTML 템플릿 - Botan
 

@@ -3,15 +3,13 @@ title: "파이썬 함수 사용법을 일찍 배웠어야 했던 7가지 팁"
 description: ""
 coverImage: "/assets/img/2024-07-09-7ThingsIShouldveLearntMuchEarlierForPythonFunctions_0.png"
 date: 2024-07-09 14:44
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-7ThingsIShouldveLearntMuchEarlierForPythonFunctions_0.png
 tag: Tech
 originalTitle: "7 Things I Should’ve Learnt Much Earlier For Python Functions"
 link: "https://medium.com/gitconnected/7-things-i-shouldve-learnt-much-earlier-for-python-functions-69d1108f0f62"
 isUpdated: true
 ---
-
-
 
 ![이미지](/assets/img/2024-07-09-7ThingsIShouldveLearntMuchEarlierForPythonFunctions_0.png)
 
@@ -24,7 +22,18 @@ def magic(a, b):
   return a + b
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파이썬은 동적으로 타입이 지정되기 때문에 변수 데이터 유형이 실행 중에 결정되어서 저렇게 함수를 작성할 수 있습니다.
 
@@ -39,7 +48,18 @@ def magic(a:int, b:int) -> int:
 - b는 정수여야 합니다.
 - 함수의 반환 값도 정수여야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코드베이스가 커질수록 타입 힌팅은 우리 코드를 가능한 한 사람이 읽기 쉽게 만드는 데 매우 중요해집니다. 1만 개의 함수가 있다고 상상해보세요. 이때 이 함수들이 어떤 데이터 유형을 취하는지와 반환하는 유형을 추론해야 한다면 정말 즐겁지 않을 것입니다.
 

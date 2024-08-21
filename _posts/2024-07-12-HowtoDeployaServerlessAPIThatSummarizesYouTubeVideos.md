@@ -3,16 +3,13 @@ title: "유튜브 영상을 요약하는 서버리스 API 배포하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-12-HowtoDeployaServerlessAPIThatSummarizesYouTubeVideos_0.png"
 date: 2024-07-12 19:43
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-12-HowtoDeployaServerlessAPIThatSummarizesYouTubeVideos_0.png
 tag: Tech
 originalTitle: "How to Deploy a Serverless API That Summarizes YouTube Videos"
 link: "https://medium.com/gitconnected/how-to-deploy-a-serverless-api-that-summarizes-youtube-videos-c5b705f95f03"
 isUpdated: true
 ---
-
-
-
 
 이 게시물에서는 Google Cloud의 서버리스 클라우드 함수를 자동화하는 방법을 배울 수 있습니다.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 그래서 이 프로젝트를 구축하는 데 다룰 내용은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 클라우드 함수 간단 소개
 - 로컬에서 클라우드 함수 개발 및 테스트하는 방법
@@ -34,7 +42,18 @@ isUpdated: true
 
 ML 콘텐츠, 상세한 튜토리얼 및 산업에서 실용적인 팁에 관심이 있다면, 제 뉴스레터를 팔로우하세요. The Tech Buffet이라고 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 클라우드 함수란 무엇인가요?
 
@@ -44,7 +63,18 @@ ML 콘텐츠, 상세한 튜토리얼 및 산업에서 실용적인 팁에 관심
 
 클라우드 함수를 사용하면 개발자 경험이 간단합니다. 로컬에서 코드를 작성하고 테스트한 후에 해당 코드를 구글 클라우드에 전송하여 배포하고 운영 인프라를 관리할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 구름 함수의 두 번째 훌륭한 기능은 비용입니다: 사용한 만큼만 지불하게 됩니다. 구체적으로 말하면 함수의 실행 시간에 대한 비용을 청구하며, 100밀리초 단위로 측정됩니다. 그리고 함수가 유휴 상태인 경우에는 아무런 비용도 발생하지 않습니다!
 
@@ -54,7 +84,18 @@ ML 콘텐츠, 상세한 튜토리얼 및 산업에서 실용적인 팁에 관심
 
 또한 알림을 보내거나 다른 시스템을 트리거하는 데 구름 함수가 사용되는 것을 자주 볼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 로컬에서 클라우드 함수 개발 및 테스트하기
 
@@ -64,7 +105,18 @@ GCP에 배포하기 전에 먼저 이 함수를 로컬에서 빌드하고 테스
 
 YouTube 비디오를 요약하기 위해 다음 Python 라이브러리가 필요합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - youtube-transcript-api: YouTube 비디오에서 자막을 추출하는 데 사용됩니다.
 - langchain 및 langchain-openai: OpenAI 언어 모델과 상호 작용하여 요약을 생성하는 데 사용됩니다.
@@ -81,7 +133,18 @@ pip install -r function/requirements.txt
 
 그런 다음, 함수의 코드는 function/main.py 파일에 정의됩니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비디오를 요약할 주요 기능을 여기에 소개합니다 (더 자세한 내용은 repo에서 나머지 코드를 확인하세요):
 
@@ -105,7 +168,18 @@ def summarize_youtube_video(url, additional_instructions):
 
 이 논리를 REST API로 래핑하기 위해 functions_framework 패키지를 사용할 것입니다. 이를 통해 HTTP 요청이 전송되면 호출되는 Cloud Function 핸들러(또는 entry point)를 정의할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 @functions_framework.http
@@ -127,7 +201,18 @@ def main(request: flask.Request):
 functions-framework --target=main --source=function/main.py --debug
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해당 명령어를 실행하면 로컬 웹 서버가 시작됩니다. 그래서 Postman을 열어 몇 가지 요청을 보내 봅시다:
 
@@ -135,7 +220,18 @@ Terraform과 Pulumi 간의 차이점에 대해 논의하는 비디오를 보내 
 
 URL을 입력하고 전송 버튼을 클릭하여 양식 데이터를 채우면 다음 결과를 얻을 수 있습니다: summary, title, transcript (전체 텍스트), URL.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 요약을 자세히 살펴보겠습니다:
 
@@ -147,7 +243,18 @@ Terraform과 Pulumi는 DevOps 세계에서 자주 비교되는 두 가지 도구
 
 다음 예시에서 LLM에게 프랑스어로 대답하도록 요청할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 클라우드 함수가 로컬에서 테스트되었습니다.
 
@@ -157,7 +264,18 @@ Terraform과 Pulumi는 DevOps 세계에서 자주 비교되는 두 가지 도구
 
 몇 년 전에 클라우드 함수를 배포해 달라고 요청하면, 저는 기쁜 마음으로 GCP 콘솔에 로그인하고 소스 코드를 버킷에 넣은 다음 UI에서 클라우드 함수를 생성하고 Google Secret Manager에 비밀 정보를 추가하고 앱에 연결하고 배포 버튼을 눌렀을 거예요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 우리가 소스 코드를 변경할 때마다 이러한 단계들을 수행한다면, 이것은:
 
@@ -170,7 +288,18 @@ Terraform과 Pulumi는 DevOps 세계에서 자주 비교되는 두 가지 도구
 
 풀루미(Pulumi)는 이미 알고 있는 프로그래밍 언어를 사용하여 어떠한 아키텍처나 클라우드 공급자에도 인프라를 구축하고 배포하는 데 도움을 주는 SDK입니다(예: Python, TypeScript, Java 등).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Pulumi를 시작하려면 다음과 같이 설치하고 구성해야 합니다:
 
@@ -182,7 +311,18 @@ Pulumi를 시작하려면 다음과 같이 설치하고 구성해야 합니다:
 brew install pulumi/tap/pulumi
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 다른 OS를 사용 중이라면 대안들을 확인해보세요.
 
@@ -192,14 +332,25 @@ gcloud config set project <YOUR_GCP_PROJECT_ID>
 
 - Pulumi는 Google Cloud 리소스와 상호 작용하기 위해 기본 애플리케이션 자격 증명을 필요로 합니다. 따라서 인증 애플리케이션 기본 로그인 명령을 실행하여 해당 자격 증명을 얻어야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 gcloud auth application-default login
 ```
 
 - Pulumi이 GCP 계정으로 구성된 후 Pulumi 프로젝트를 만들 수 있습니다.
-폴더의 루트에 Pulumi.yaml이라는 YAML 파일을 만들고 다음 라인을 붙여넣습니다:
+  폴더의 루트에 Pulumi.yaml이라는 YAML 파일을 만들고 다음 라인을 붙여넣습니다:
 
 ```js
 name: youtube-summarizer
@@ -218,7 +369,18 @@ config:
 
 이 파일은 런타임(Python)을 정의하고, virtualenv 폴더를 가리키며, Pulumi가 인프라의 상태를 저장하는 백엔드 URL을 설정합니다. Pulumi는 다른 백엔드를 사용할 수 있으며, 이 예시에서는 Google Cloud Storage를 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 명령을 실행하여 올바른 매개변수로 Pulumi를 구성하세요:
 
@@ -231,7 +393,18 @@ pulumi config set gcp:project <GCP-PROJECT-ID>
 
 저는 방금 'dev'를 선택했어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 구성이 완료되면 다음 내용이 포함된 Pulumi.dev.yaml 파일이 생성됩니다:
 
@@ -246,7 +419,18 @@ config:
 
 Pulumi 코드로 인프라를 작성하기 전에 앱 아키텍처를 정의한 다음 보여드릴게요. 이것을 통해 필요한 서비스를 이해할 수 있을 거예요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다수의 구성 요소가 함께 작동합니다:
 
@@ -256,9 +440,20 @@ Pulumi 코드로 인프라를 작성하기 전에 앱 아키텍처를 정의한 
 - 서비스 계정이 시크릿 매니저에 액세스할 수 있도록 하는 IAM 정책
 - Cloud Run에서 Cloud 함수를 호출할 수 있게 하는 IAM 호출자 역할(Cloud Functions의 2세대는 Cloud Run에서 관리됩니다)
 
-모든 이 서비스들은 __main__.py 파일에서 명령적인 방식으로 정의될 것입니다:
+모든 이 서비스들은 **main**.py 파일에서 명령적인 방식으로 정의될 것입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 한 번에 하나씩 살펴봐요:
 
@@ -286,7 +481,18 @@ archive = gcp.storage.BucketObject(
 
 - 비밀값과 그 값
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 #### 비밀 생성
@@ -323,25 +529,35 @@ service_account_email = service_account.email.apply(
 
 - 서비스 계정에 대한 IAM 정책을 비밀에 액세스하도록 설정하기
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 secret_accessor = gcp.organizations.get_iam_policy(
-    bindings=[
-        gcp.organizations.GetIAMPolicyBindingArgs(
-            role="roles/secretmanager.secretAccessor",
-            members=[service_account_email],
-        )
-    ]
-)
+  (bindings = [
+    gcp.organizations.GetIAMPolicyBindingArgs(
+      (role = "roles/secretmanager.secretAccessor"),
+      (members = [service_account_email])
+    ),
+  ])
+);
 
 secret_iam_policy = gcp.secretmanager.SecretIamPolicy(
-    "my-secret-iam-policy",
-    secret_id=secret.id,
-    project=gcp.config.project,
-    policy_data=secret_accessor.policy_data,
-)
+  "my-secret-iam-policy",
+  (secret_id = secret.id),
+  (project = gcp.config.project),
+  (policy_data = secret_accessor.policy_data)
+);
 ```
 
 - 클라우드 기능
@@ -379,9 +595,20 @@ cloud_function = gcp.cloudfunctionsv2.Function(
 )
 ```
 
-- 클라우드 런 IAM 바인딩  
+- 클라우드 런 IAM 바인딩
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 #### Cloud Run에 인보커 역할 추가
@@ -403,8 +630,18 @@ export("python_endpoint", cloud_function.service_config.apply(lambda sc: sc.uri)
 
 이 변경 사항을 배포하려면, 아래 명령어를 실행하면 됩니다:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 pulumi up
@@ -416,7 +653,18 @@ pulumi up
 
 이 엔드포인트를 Postman에서 시도함으로써 API가 작동하는지 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 👉 자원 정리하기
 
@@ -428,7 +676,18 @@ pulumi destroy
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 GCP 서비스를 백엔드로 사용하는 서버리스 애플리케이션을 Pulumi와 같은 Infrastructure-as-code (IaC) 도구로 구축할 수 있어요.
 

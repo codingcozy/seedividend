@@ -3,16 +3,13 @@ title: "빵을 만들었어요 My First Loaf of Bread을 구웠어요"
 description: ""
 coverImage: "/assets/img/2024-05-16-Bread-yorNotHereICrumbIBakedMyFirstLoafofBread_0.png"
 date: 2024-05-16 17:29
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-16-Bread-yorNotHereICrumbIBakedMyFirstLoafofBread_0.png
 tag: Tech
 originalTitle: "Bread-y or Not, Here I Crumb! I Baked My First Loaf of Bread"
 link: "https://medium.com/the-diy-diaries/bread-y-or-not-here-i-crumb-i-baked-my-first-loaf-of-bread-a483dae62b66"
 isUpdated: true
 ---
-
-
-
 
 ## DIY
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 그냥 나 혼자 생각해보다가요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나는 레시피를 찾아보았는데, 밀가루, 액티브 드라이 이스트, 소금, 설탕, 따뜻한 물, 올리브 오일만 있으면 된다는 걸 보고 너무 흥분했어.
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 이 빵을 굽는 일은 정말 시간이 많이 드는 작업이었어. 반죽이 오븐에 넣기 전에 두 번씩 반죽이 부풀어올라야 했어.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-05-16-Bread-yorNotHereICrumbIBakedMyFirstLoafofBread_0.png)
 
@@ -42,7 +61,18 @@ isUpdated: true
 
 빵이 구워지는 유혹적인 향기에 우리 엄마도 방에서 나왔답니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "와우! 여기 너무 좋은 냄새 나요!" 그녀가 웃으며 말했습니다.
 
@@ -52,7 +82,18 @@ isUpdated: true
 
 우리는 모두 버터와 잼이 바른 빵 한 조각을 맛보았고, 우리가 처음으로 구워 본 것으로는 꽤 맛있게 나왔다고 결론내렸어요."
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 새로운 시도를 해서 우리의 기대를 뛰어넘는 결과를 얻어 자랑스러웠어요.
 
@@ -62,7 +103,18 @@ isUpdated: true
 
 재료:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 중력분 4컵 (테이블에 묻힐 때 사용할 추가용도)
 
@@ -72,7 +124,18 @@ isUpdated: true
 
 - 설탕 1 tbsp
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 300ml 따뜻한 물
 
@@ -82,7 +145,18 @@ isUpdated: true
 
 1. 이스트 활성화: 작은 그릇에 설탕을 물에 녹여주세요. 이스트를 물 위에 뿌리고 거품이 날 때까지 5~10분 정도 기다려주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. 건조 재료 섞기: 큰 볼에 밀가루와 소금을 섞어주세요. 가운데에 구멍을 만들고 이스트 혼합물과 올리브 오일을 부어주세요.
 
@@ -92,7 +166,18 @@ isUpdated: true
 
 5. 반죽 모양 만들기: 반죽이 부풀어 오르면 공기 벼토를 제거하기 위해 눌러주세요. 풀린 표면에 반죽을 내려놓고 빵 모양이나 로롤을 만들기 위해 작게 나눠주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 6. 두 번째 발효: 모양을 잡은 반죽을 기름칠된 베이킹 시트나 기름칠된 빵 모양 팬에 옮기세요. 부엌 수건으로 덮고 다시 30~45분 정도 더 발효시킵니다. 반죽이 다시 부풀어올 때까지 기다립니다.
 

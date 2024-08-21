@@ -3,16 +3,13 @@ title: "Nodejs를 사용하여 파이썬 프로그램을 이용해 이메일 보
 description: ""
 coverImage: "/assets/img/2024-05-27-SendingEmailsfromNodejsUsingaPythonProgram_0.png"
 date: 2024-05-27 18:22
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-SendingEmailsfromNodejsUsingaPythonProgram_0.png
 tag: Tech
 originalTitle: "Sending Emails from Node.js Using a Python Program"
 link: "https://medium.com/@preranapupadhya/sending-emails-from-node-js-using-a-python-program-042ac5b04d80"
 isUpdated: true
 ---
-
-
-
 
 이 블로그 포스트에서는 Node.js 애플리케이션에서 Python 스크립트를 호출하여 이메일을 보내는 방법을 살펴보겠습니다. 우리는 프로젝트 구조를 설계하여 관심사를 분리하고 코드베이스를 깔끔하게 유지할 것입니다.
 
@@ -29,7 +26,18 @@ isUpdated: true
 
 ### 1. 소개
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어떤 경우에는 Node.js 애플리케이션에서 Python의 기능을 활용하고 싶을 수 있습니다. 이 튜토리얼은 Node.js 백엔드에서 Python을 사용하여 이메일을 보내는 방법을 보여줍니다. 우리는 Node.js의 child_process 모듈에서 spawn 함수를 사용하여 Python 스크립트를 호출할 것입니다.
 
@@ -37,19 +45,28 @@ isUpdated: true
 
 다음은 우리 프로젝트의 구조입니다:
 
-
 server/
-  ├── Controller/
-  │   └── mailController.js
-  ├── route/
-  │   └── mailRoute.js
-  ├── Utils/
-  │   └── mailSender.py
-  └── server.js
-  └── .env
+├── Controller/
+│ └── mailController.js
+├── route/
+│ └── mailRoute.js
+├── Utils/
+│ └── mailSender.py
+└── server.js
+└── .env
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 3. 환경 설정하기
 
@@ -64,7 +81,18 @@ npm install express dotenv body-parser
 
 ## 단계 2: 환경 변수 설정
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 루트 디렉토리에 다음 내용을 사용하여 .env 파일을 만들어주세요:
 
@@ -77,7 +105,18 @@ your-email@gmail.com 및 your-app-password를 실제 Gmail 주소 및 앱 비밀
 
 # 4. 파이썬 이메일 발신 스크립트 만들기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Utils 디렉토리에 mailSender.py라는 Python 스크립트를 만들어주세요:
 
@@ -120,27 +159,38 @@ if __name__ == "__main__":
 
 Controller 디렉토리에 mailController.js라는 파일을 만들어주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-const { spawn } = require('child_process');
-const path = require('path');
+const { spawn } = require("child_process");
+const path = require("path");
 
 exports.sendEmail = (req, res) => {
   const { to, subject, body } = req.body;
-  const pythonProcess = spawn('python3', [path.join(__dirname, '../Utils/mailSender.py'), to, subject, body]);
+  const pythonProcess = spawn("python3", [path.join(__dirname, "../Utils/mailSender.py"), to, subject, body]);
 
-  pythonProcess.stdout.on('data', (data) => {
+  pythonProcess.stdout.on("data", (data) => {
     console.log(`stdout: ${data}`);
   });
 
-  pythonProcess.stderr.on('data', (data) => {
+  pythonProcess.stderr.on("data", (data) => {
     console.error(`stderr: ${data}`);
   });
 
-  pythonProcess.on('close', (code) => {
+  pythonProcess.on("close", (code) => {
     console.log(`child process exited with code ${code}`);
-    res.send('Email sent');
+    res.send("Email sent");
   });
 };
 ```
@@ -152,33 +202,44 @@ exports.sendEmail = (req, res) => {
 route 디렉토리에 mailRoute.js라는 파일을 만드세요:
 
 ```js
-const express = require('express');
+const express = require("express");
 const router = express.Router();
-const mailController = require('../Controller/mailController');
+const mailController = require("../Controller/mailController");
 
-router.post('/send-email', mailController.sendEmail);
+router.post("/send-email", mailController.sendEmail);
 
 module.exports = router;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 7. 서버 생성
 
 루트 디렉토리에 server.js라는 파일을 생성하세요:
 
 ```js
-const express = require('express');
-const bodyParser = require('body-parser');
-const dotenv = require('dotenv');
-const mailRoute = require('./route/mailRoute');
+const express = require("express");
+const bodyParser = require("body-parser");
+const dotenv = require("dotenv");
+const mailRoute = require("./route/mailRoute");
 
 dotenv.config();
 
 const app = express();
 app.use(bodyParser.json());
 
-app.use('/api', mailRoute);
+app.use("/api", mailRoute);
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
@@ -188,7 +249,18 @@ app.listen(PORT, () => {
 
 # 8. 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 블로그 포스트에서는 Node.js 애플리케이션에서 Python 스크립트를 호출하여 이메일을 보내는 방법을 소개했습니다. 프로젝트 구조 설정, 환경 변수 구성, Python 전자 메일 발신자 스크립트 작성, 그리고 Node.js 백엔드를 설정하여 spawn 함수를 사용하여 Python 스크립트를 호출하는 방법에 대해 다뤘습니다. 이 접근 방식은 Node.js와 Python의 강점을 활용하여 유연하고 강력한 이메일 발송 솔루션을 제공합니다.
 

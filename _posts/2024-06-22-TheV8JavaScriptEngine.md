@@ -3,16 +3,13 @@ title: "V8 자바스크립트 엔진의 모든 것 속도, 기능, 사용법"
 description: ""
 coverImage: "/assets/img/2024-06-22-TheV8JavaScriptEngine_0.png"
 date: 2024-06-22 05:30
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-TheV8JavaScriptEngine_0.png
 tag: Tech
 originalTitle: "The V8 JavaScript Engine"
 link: "https://medium.com/@manikmudholkar831995/the-v8-javascript-engine-d1434ca77c96"
 isUpdated: true
 ---
-
-
-
 
 ## Node.js 내부 심층 분석
 
@@ -32,16 +29,25 @@ isUpdated: true
 * 흔한 Node.js 오해 해소
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내용 목차
 
-* V8를 선택한 이유는?
-* Node.js에서 어떻게 사용되는가?
-* V8는 어떻게 작동하는가?
-* 자체적인 JavaScript 런타임 만들기
-
+- V8를 선택한 이유는?
+- Node.js에서 어떻게 사용되는가?
+- V8는 어떻게 작동하는가?
+- 자체적인 JavaScript 런타임 만들기
 
 우리는 Node.js의 가장 낮은 수준에 도달했는데, 여기서는 사물이 혼란스럽고 복잡해집니다. JavaScript는 동적으로 타입이 지정되고 해석되는 언어이며, 우리가 JavaScript에서 실행하는 모든 것은 엔진에 전달됩니다. 그런 다음 엔진은 환경과 상호 작용하여 기계가 프로그램을 실행할 수 있도록 필요한 바이트 코드를 생성합니다. 이를 담당하는 엔진은 Google에서 개발한 오픈 소스 고성능 JavaScript 및 WebAssembly 엔진인 V8입니다. V8는 C++로 작성되었으며 Chrome(또는 유사한 환경)과 Node.js에서 모두 사용됩니다. V8는 ECMAScript와 WebAssembly를 완전히 지원합니다. 흥미로운 점은 V8가 브라우저에만 제한되지 않고 독립적으로 실행되어 모든 C++ 애플리케이션에 임베드될 수 있다는 것입니다.
 
@@ -49,8 +55,18 @@ isUpdated: true
 
 <img src="/assets/img/2024-06-22-TheV8JavaScriptEngine_1.png" />
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 낮은 레벨에 있을수록 더 많은 책임이 있습니다. C/C++을 어셈블리어(assembly)로 변환하기 위해서는 컴파일러가 필요합니다. 어셈블리를 기계어로 변환하기 위해서는 어셈블러(assembler)가 필요합니다. 그래서 Js를 실행 가능한 코드로 변환하기 위해서는 JS 엔진이 필요합니다. Firefox에서 Spidermonkey를 사용했으며 이후 Google Chrome에서 사용하기 위해 V8이 만들어졌고, 현재 Nodejs에서 사용되고 있습니다.
 
@@ -62,7 +78,18 @@ V8 코드 소스 코드를 살펴보면 객체, JSON, 날짜 등의 구현을 �
 
 다른 사람들도 자신의 사용 사례를 위해 동일한 작업을 수행할 수 있기 때문에 JavaScript가 많은 곳에서 사용되고 있는 이유입니다. 예를 들어, 자신의 cpp 기능 구현을 생성하고 이를 이동 오른쪽, 왼쪽과 같은 js 함수에 바인딩하여 로봇 공학에서 JavaScript를 사용하고 있습니다. 이에 따라 V8은 이 특정 사용 사례에 적합하지 않을 수 있으며, Duktape 또는 Jerryscript JS 엔진이 더 나은 선택일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Node.js에서 V8은 결국 종속성이 되는데, 이는 공식 웹사이트에서 확인할 수 있어요.
 
@@ -72,7 +99,18 @@ Node.js에서 V8은 결국 종속성이 되는데, 이는 공식 웹사이트에
 
 ![V8](/assets/img/2024-06-22-TheV8JavaScriptEngine_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 V8 엔진은 코드를 두 단계로 컴파일합니다. 먼저 빠르지만 최적화되지 않은 기계 코드로 컴파일하는 단계가 있습니다. 이는 충분히 시작하는 데 도움이 됩니다. 이 과정이 진행되는 동안 뒤에서 매우 최적화된 코드를 생성하는 느린 컴파일이 이루어집니다. 이렇게 생성된 느린 컴파일된 코드가 작성되면 Javascript는 이 최적화된 코드로 전환됩니다. 이 두 단계는 Ignition(빠르고 저수준 레지스터 기반 해석기)와 Turbofan(최적화 컴파일러)로 알려져 있습니다. Just-in-Time (JIT) 컴파일이라는 새로운 접근 방식이 만들어졌습니다. 이는 해석과 컴파일의 장점을 결합한 것입니다.
 
@@ -88,7 +126,18 @@ V8는 Ignition이라는 해석기를 사용합니다. 먼저 추상 구문 트�
 - 머신 코드가 항상 바이트 코드보다 빠르지 않습니다. 머신 코드는 컴파일하는 데 시간이 오래 걸리지만 실행 단계에서는 빠릅니다. 반면 바이트 코드는 컴파일하는 데 더 적은 시간이 필요하지만 실행 단계는 느립니다.
 - 어떤 가정이 잘못된 경우 최적화 컴파일러는 비최적화를 수행하고 해석기로 돌아갑니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 자체 JavaScript 런타임 만들기
 

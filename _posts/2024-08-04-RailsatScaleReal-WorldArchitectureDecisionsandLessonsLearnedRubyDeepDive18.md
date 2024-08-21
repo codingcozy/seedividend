@@ -3,16 +3,13 @@ title: "대규모 Rails 실전 아키텍처 결정과 배운 점  2024년 최신
 description: ""
 coverImage: "/assets/no-image.jpg"
 date: 2024-08-04 19:03
-ogImage: 
+ogImage:
   url: /assets/no-image.jpg
 tag: Tech
 originalTitle: "Rails at Scale Real-World Architecture Decisions and Lessons Learned  Ruby Deep Dive18"
 link: "https://medium.com/@diversepixel/rails-at-scale-real-world-architecture-decisions-and-lessons-learned-ruby-deep-dive-17-0451b2f156d3"
 isUpdated: true
 ---
-
-
-
 
 루비 온 레일즈는 기술 거물부터 혁신적인 스타트업 및 오픈 소스 프로젝트까지 다양한 성공적인 애플리케이션을 구동해 왔습니다. 이 글에서는 각기 다른 조직이 레일즈를 어떻게 확장하고 중요한 아키텍처 결정을 내렸으며, 그 과정에서 얻은 귀중한 교훈에 대해 알아보겠습니다.
 
@@ -24,7 +21,18 @@ isUpdated: true
 - 대규모 코드 저장소를 처리하기 위해 사용자 정의 데이터베이스 솔루션(GitHub-SQL) 개발
 - "작은 단위로 자주 배포" 전략 구현
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 배운 교훈:
 
@@ -37,7 +45,18 @@ isUpdated: true
 - 정기적인 Rails 업그레이드를 통해 상향 게시한 수정 사항
 - 실시간 기능을 위한 ActionCable과 같은 새로운 기능의 점진적 채택
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Shopify: 모듈식 단일체 접근 방식
 
@@ -49,7 +68,18 @@ isUpdated: true
 
 얻은 교훈:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 모듈식 설계는 운영 복잡성 없이 많은 마이크로서비스 이점을 제공할 수 있습니다.
 - 장기적인 확장성을 위해 데이터 이전 및 샤딩 도구에 투자하는 것이 중요합니다.
@@ -62,7 +92,18 @@ isUpdated: true
 
 ## Basecamp: 규모에 맞은 간단함
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아키텍처 결정:
 
@@ -76,7 +117,18 @@ isUpdated: true
 - JavaScript를 일부 첨가한 서버 렌더링된 HTML은 반응형 UI를 만들 수 있음
 - 관심에 따라 데이터베이스를 분리하면 성능과 확장성을 개선할 수 있음
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 최신 유지하기:
 
@@ -87,7 +139,18 @@ isUpdated: true
 
 아키텍처 결정:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 모노리식 코어를 유지하면서 서비스 지향 아키텍처로 점진적 전환
 - 복잡한 작업을 처리하기 위해 백그라운드 작업을 널리 사용
@@ -101,7 +164,18 @@ isUpdated: true
 
 최신 정보 유지하기:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 주요 Rails 버전을 위한 전용 업그레이드 스프린트
 - 업그레이드 중 안정성을 보장하기 위한 방대한 테스트 커버리지
@@ -114,7 +188,18 @@ isUpdated: true
 - 복잡한 배송 물류 처리를 위해 강력한 백그라운드 작업 처리 구현
 - 캐싱 및 실시간 데이터에 대해 Redis를 많이 활용
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 배운 교훈:
 
@@ -127,7 +212,18 @@ isUpdated: true
 - 최신 Rails 버전으로의 점진적 이전
 - 지속적인 성능 모니터링 및 최적화
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Chatwoot: 오픈소스 고객 상호작용 스위트
 
@@ -139,7 +235,18 @@ isUpdated: true
 
 얻은 교훈:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 레일스는 현대적이고 실시간 애플리케이션을 효과적으로 지원할 수 있어요
 - 오픈소스 개발은 빠른 기능 개발 및 커뮤니티 참여를 촉진할 수 있어요
@@ -152,7 +259,18 @@ isUpdated: true
 
 # 공통 테마와 베스트 프랙티스:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 신중한 아키텍처 진화:
 
@@ -165,7 +283,18 @@ isUpdated: true
 - 데이터베이스 쿼리를 최적화하고 적절한 인덱싱을 구현합니다.
 - 번거로운 작업에 대한 백그라운드 작업을 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 확장 전략:
 
@@ -179,7 +308,18 @@ isUpdated: true
 - 업그레이드를 용이하게 하기 위해 포괄적인 테스트 커버리지 유지
 - 방향에 영향을 미치기 위해 Rails 및 관련 프로젝트에 기여하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 에코시스템 활용하기:
 
@@ -193,7 +333,18 @@ isUpdated: true
 - ActionCable과 같은 최신 Rails 기능을 탐색하세요
 - 복잡한 API 요구 사항을 고려하여 GraphQL을 사용하세요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

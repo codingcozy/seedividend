@@ -3,16 +3,13 @@ title: "Node Boost 클러스터, 스레드"
 description: ""
 coverImage: "/assets/img/2024-06-20-NodeBoostClustersThreads_0.png"
 date: 2024-06-20 07:33
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-NodeBoostClustersThreads_0.png
 tag: Tech
 originalTitle: "Node Boost: Clusters , Threads"
 link: "https://medium.com/@m-mdy-m/node-boost-clusters-threads-5d6cb9e004ea"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-06-20-NodeBoostClustersThreads_0.png" />
 
@@ -22,7 +19,18 @@ Node.js 어플리케이션 성능 최적화 전략
 
 # 이벤트 루프 도전 이해하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Node.js에서 이벤트 루프는 비동기 작업을 처리하는 핵심 개념입니다. 그러나 이벤트 루프 내에 너무 많은 작업이 존재하면 성능 병목 현상이 발생할 수 있습니다. 이 문제는 특히 많은 작업을 효율적으로 처리해야 하는 고성능 응용 프로그램에서 특히 중요해집니다.
 
@@ -34,7 +42,18 @@ Node.js에서 이벤트 루프는 비동기 작업을 처리하는 핵심 개념
 - 부하 분산: Node.js 클러스터 모듈은 여러 인스턴스 사이에 들어오는 요청을 분산하여 부하를 균형 있게 유지하고 단일 인스턴스에 병목 현상이 발생하지 않도록 합니다.
 - 성능 향상: 요청을 처리하는 여러 인스턴스가 존재하므로 애플리케이션 전체의 성능이 향상되며, 작업이 서로 다른 인스턴스 간에 동시에 처리되어 효율적으로 이루어집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 클러스터 모듈은 노드.js를 다중 스레딩으로 만들지는 않지만 병렬로 동작하는 여러 이벤트 루프를 생성하여 다중 스레딩을 시뮬레이트합니다.
 
@@ -45,37 +64,60 @@ Node.js에서 이벤트 루프는 비동기 작업을 처리하는 핵심 개념
 
 - 설정:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 클러스터 모듈을 사용하여 Node.js 애플리케이션을 설정하세요.
 - 클러스터 모듈을 사용하여 기본 프로세스를 여러 워커 프로세스로 포크하세요.
 
 - 장점:
-  
 - 각 워커 프로세스는 독립적인 이벤트 루프를 실행합니다.
 - 부하가 여러 CPU 코어에 분산됩니다.
 - 스케일링 및 장애 허용성이 향상되며, 한 워커 프로세스의 실패가 다른 프로세스에 영향을 미치지 않습니다.
 
 예시:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-const cluster = require('cluster');
-const http = require('http');
-const numCPUs = require('os').cpus().length;
+const cluster = require("cluster");
+const http = require("http");
+const numCPUs = require("os").cpus().length;
 if (cluster.isMaster) {
   for (let i = 0; i < numCPUs; i++) {
     cluster.fork();
   }
-  cluster.on('exit', (worker, code, signal) => {
+  cluster.on("exit", (worker, code, signal) => {
     console.log(`Worker ${worker.process.pid} died`);
   });
 } else {
-  http.createServer((req, res) => {
-    res.writeHead(200);
-    res.end('Hello World\n');
-  }).listen(8000);
+  http
+    .createServer((req, res) => {
+      res.writeHead(200);
+      res.end("Hello World\n");
+    })
+    .listen(8000);
 }
 ```
 
@@ -87,8 +129,18 @@ if (cluster.isMaster) {
 - 병행성: 워커 스레드를 이용하면 작업이 병렬로 실행되어 응용 프로그램의 처리량과 응답성을 크게 향상할 수 있습니다.
 - 구현: 워커 스레드를 설정하는 것은 함수를 독립적으로 실행할 수 있는 스레드 풀을 만드는 과정을 포함합니다. 이 설정은 데이터 처리, 이미지 처리 및 복잡한 계산과 같은 작업에 이상적입니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 개요:
 워커 스레드는 여러 스레드에서 JavaScript를 병렬로 실행하여 중요한 계산을 메인 이벤트 루프에서 벗어나 실행하는 방법을 제공합니다.
@@ -100,7 +152,18 @@ if (cluster.isMaster) {
 - worker_threads 모듈을 사용하여 워커 스레드를 생성합니다.
 - CPU 집약적인 작업을 이 워커 스레드에 위임합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 혜택:
 
@@ -111,15 +174,15 @@ if (cluster.isMaster) {
 예시:
 
 ```js
-const { Worker, isMainThread, parentPort } = require('worker_threads');
+const { Worker, isMainThread, parentPort } = require("worker_threads");
 if (isMainThread) {
   const worker = new Worker(__filename);
-  worker.on('message', message => {
+  worker.on("message", (message) => {
     console.log(`Received message from worker: ${message}`);
   });
-  worker.postMessage('Start work');
+  worker.postMessage("Start work");
 } else {
-  parentPort.on('message', message => {
+  parentPort.on("message", (message) => {
     // 무거운 계산 수행
     let result = heavyComputation();
     parentPort.postMessage(result);
@@ -135,7 +198,18 @@ if (isMainThread) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 최적의 방법과 권장 사항
 
@@ -147,7 +221,18 @@ if (isMainThread) {
 
 # 성능 최적화를 위한 권장 사항
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 클러스터 모듈부터 시작해 보세요:
 
@@ -159,7 +244,18 @@ if (isMainThread) {
 - 특정한 무거운 계산 작업이 있는 애플리케이션에 대해 워커 스레드를 사용하면 매우 효과적입니다.
 - 이 접근 방식은 실험적이지만 특정 사용 사례에 대해 상당한 성능 향상을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 전략 통합:
 
@@ -170,7 +266,18 @@ if (isMainThread) {
 
 성능을 위해 Node.js 애플리케이션을 최적화하는 것은 클러스터 모듈과 워커 스레드와 같은 사용 가능한 도구를 전략적으로 활용하는 것을 포함합니다. 작업 부하를 효과적으로 분산하고 무거운 계산을 처리하는 방식으로 개발자는 애플리케이션이 반응적이고 효율적으로 유지될 수 있도록 할 수 있습니다. 신뢰성을 갖춘 클러스터 모듈부터 시작하여 특정 작업에 대해 워커 스레드를 통합하면 상당한 성능 향상이 기대됩니다. 이 알고리즘에 대한 이해를 더 깊이 파고 싶다면, 제 GitHub 저장소(algorithms-data-structures)를 탐험해보세요. 여기에서는 실험하고 연습하며 지식을 확고히 하는 데 도움이 되는 다양한 알고리즘 및 데이터 구조가 제공됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 언젠가는 완성될 예정인 몇 개 섹션들이 있습니다. 제 꾸준한 학습 여정을 반영한 것입니다. 이 프로세스는 완료되기까지 2-3년이 소요될 것으로 예상됩니다. 그러나 저장소는 끊임없이 발전하고 있습니다.
 

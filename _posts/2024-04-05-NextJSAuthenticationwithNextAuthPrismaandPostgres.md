@@ -3,17 +3,13 @@ title: "NextAuth, Prisma 및 Postgres를 사용한 NextJS 인증 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "NextJS Authentication with NextAuth, Prisma and Postgres"
 link: "https://medium.com/@rabin.nyaundi254/nextjs-authentication-with-nextauth-prisma-an-postgres-7d55b14e68ad"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/NextJSAuthenticationwithNextAuthPrismaandPostgres_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 본 자습서에서는 NextAuth를 사용하여 Prisma(Node.js 및 TypeScript ORM)와 PostgreSQL을 이용해 사용자를 인증하는 방법을 안내합니다. 이 가이드를 읽으면 Next.js 앱을 생성하고 사용자를 인증할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시작해봅시다.
 
@@ -37,7 +44,18 @@ isUpdated: true
 
 ## Next.js 프로젝트 설정
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Next.js 프로젝트를 설정하려면 작업 디렉토리로 이동한 다음 터미널을 열고 아래 명령을 실행하세요. 저희는 앱을 authapp이라고 부를 건데, 이는 선택 사항이에요. 마음에 드는 이름을 원하시면 아무 이름으로 하셔도 돼요.
 
@@ -49,7 +67,18 @@ yarn create next-app authapp
 
 ## Supabase에서 호스팅된 PostgreSQL 데이터베이스를 설정(선택 사항)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Supabase는 Firebase 대안으로 제공되는 플랫폼으로, Postgres 데이터베이스, 인증, 저장소 등 다양한 기능을 제공합니다. 서버를 관리할 필요없이 프로젝트를 생성하고 데이터베이스를 구성할 수 있습니다.
 
@@ -59,7 +88,18 @@ Supabase에 계정을 만듭니다.
 
 로그인한 상태에서 새 프로젝트를 선택하여 새 프로젝트를 시작합니다. 프로젝트 이름을 제공하고 데이터베이스 비밀번호를 설정하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/NextJSAuthenticationwithNextAuthPrismaandPostgres_1.png" />
 
@@ -69,7 +109,18 @@ Supabase에 계정을 만듭니다.
 
 PostgreSQL 데이터베이스 서버가 성공적으로 생성되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Prisma ORM을 사용하여 우리의 애플리케이션을 Postgres 데이터베이스에 연결하는 방법
 
@@ -81,7 +132,18 @@ PostgreSQL 데이터베이스 서버가 성공적으로 생성되었습니다.
 npm install prisma --save-dev
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 Prisma CLI 명령을 사용하여 Prisma 설정을 설정해보세요.
 
@@ -92,7 +154,18 @@ npx prisma init
 - schema.prisma: 데이터베이스 스키마가 포함된 파일입니다.
 - .env: 데이터베이스 연결 URI 및 응용 프로그램의 다른 환경 변수를 정의하는 dotenv 파일입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 .env 파일을 열고 앞에서 설정한 데이터베이스 연결 URI를 추가하세요.
 DATABASE_URL=`postgresql://postgres:[YOUR-PASSWORD]@db.ObubJTKrJYcPSkdsWqms.supabase.co:5432/postgres`
@@ -125,7 +198,18 @@ model User {
 
 참고: 원하는대로 사용자에 대한 더 많은 정보를 캡처하기 위해 필드를 추가할 수 있습니다. 여기 스키마 가이드라인을 따르는지 확인해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 데이터베이스를 구성했으니, 해당 데이터베이스에 테이블을 만들 수 있습니다. 이를 위해서는 다음 명령을 사용합니다.
 
@@ -135,7 +219,18 @@ npx prisma db push
 
 <img src="/assets/img/NextJSAuthenticationwithNextAuthPrismaandPostgres_3.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 경우에는 User 테이블 하나만 있는데, 이 테이블은 User 모델에 정의된 사용자 정보를 저장할 것입니다. 테이블을 생성한 후에는 Prisma 클라이언트를 사용하여 데이터베이스와 상호 작용을 시작할 수 있습니다.
 
@@ -145,7 +240,18 @@ mkdir lib && touch lib/prisma.js
 
 스키마를 업데이트할 때마다 Prisma 클라이언트를 업데이트하려면 다음 내용이 필요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요! 아래의 코드는 Prisma 클라이언트 객체의 새 인스턴스를 생성하고 해당 파일에서 내보낼 것입니다.
 
@@ -160,7 +266,18 @@ export { prisma };
 
 위의 코드를 사용하여 lib 디렉토리로 이동한 다음 prisma.js 파일을 열어서 위의 코드를 추가해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트와 데이터베이스를 성공적으로 연결했습니다.
 
@@ -171,7 +288,18 @@ pages/api/user 폴더에 두 개의 파일을 생성하세요.
 - create.js: 새 사용자를 생성하기 위한 엔드포인트입니다.
 - auth.js: 사용자 로그인을 위한 엔드포인트입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 create.js 파일을 열고 아래 코드를 추가해주세요.
 
@@ -222,7 +350,18 @@ async function createUserHandler(req, res) {
 
 위 코드는 다음과 같은 속성을 가진 새로운 사용자를 데이터베이스에 생성합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이름
 - 이메일
@@ -234,7 +373,18 @@ npm install crypto-js
 
 다음으로 로그인 엔드포인트를 생성합니다. api/user/auth.js 파일을 열고 아래 코드를 추가해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { SHA256 as sha256 } from "crypto-js";
@@ -290,13 +440,33 @@ pages/api/auth 폴더에 [...nextauth].js라는 파일을 만듭니다. 이 파�
 
 [...nextauth].js 파일을 열고 다음 코드를 추가하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 큰 영향을 미치는 작업은 아니지만 HTML에서 table 태그를 Markdown 형식으로 바꾸면 더 읽기 쉽고 편리합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Register.js.
 
@@ -542,7 +712,18 @@ function LoginPage() {
 export default LoginPage;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 마무리하며
 
@@ -552,6 +733,17 @@ Next.js를 사용하면 모든 기능을 갖춘 풀스택 애플리케이션을 
 
 GitHub 저장소 링크: [github](github)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더 많은 내용을 보려면 팔로우해 주세요. 코딩을 즐기세요!

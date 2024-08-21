@@ -3,16 +3,13 @@ title: "프로그래머가 회사를 떠난 후 프로젝트가 죽는 5가지 �
 description: ""
 coverImage: "/assets/img/2024-07-13-WhySomeProjectsDieAfteraProgrammerLeavesTheCompany_0.png"
 date: 2024-07-13 21:05
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-WhySomeProjectsDieAfteraProgrammerLeavesTheCompany_0.png
 tag: Tech
 originalTitle: "Why Some Projects “Die” After a Programmer Leaves The Company"
 link: "https://medium.com/python-in-plain-english/why-some-projects-die-after-a-programmer-leaves-the-company-361e55dd44ba"
 isUpdated: true
 ---
-
-
-
 
 이 글에서는 프로그래머가 회사를 떠난 후 프로젝트가 종료되는 주요 이유 중 하나에 대해 이야기하겠습니다. 여기에 언급된 몇 가지 이유를 피할 수 있도록 좋고 나쁜 실제 사례를 함께 살펴보겠습니다.
 
@@ -22,9 +19,20 @@ isUpdated: true
 
 특정 회사에서 근무하는 동안 작업한 프로젝트가 무슨 일이 있었는지 궁금했던 적이 있나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-항상 그렇게 하고 있어요. 예전 동료들과 프로젝트가 여전히 사용되고 유지되고 있는지 확인하려고 노력해요. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+항상 그렇게 하고 있어요. 예전 동료들과 프로젝트가 여전히 사용되고 유지되고 있는지 확인하려고 노력해요.
 
 자만심 때문이 아니에요. 제가 많은 시간을 투자한 프로젝트가 번성하고 목적을 잘 이루는 걸 보고 싶어요.
 
@@ -32,17 +40,39 @@ isUpdated: true
 
 이 글에서 다룰 내용이에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - "프로젝트를 '리팩터링이 필요한' 상태로 만드는 것은 무엇인가요?"
 
 이것은 개인적인 통찰력이며 개인적인 경험과 프로젝트 구조화 및 유지 보수에 대한 귀하의 회사의 작동 방식과 일치해야 합니다.
 
-프로그래머로서 귀하의 역할은 작업할 수 있는 최상의 코드를 작성하여 기능적이면서도 장기적으로 작업할 수 있는 코드로 만드는 것입니다. 
+프로그래머로서 귀하의 역할은 작업할 수 있는 최상의 코드를 작성하여 기능적이면서도 장기적으로 작업할 수 있는 코드로 만드는 것입니다.
 
 ## "리팩터링이 가능한" 프로젝트의 특징
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 돌에 새겨진 것이 아니며, 프로젝트에 "리팩토링이 필요하다"로 표시될 수 있는 다양한 이유가 있습니다.
 
@@ -52,7 +82,18 @@ isUpdated: true
 
 코드가 예상대로 동작하는 것에는 문제가 없습니다. 말 그대로, 첫 번째 목표는 시스템이 예상대로 동작하도록 하는 것이죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새로운 기능이 필요할 때 문제가 발생합니다. 우리 시스템을 살아있는 존재라고 생각할 수 있는데, 변화는 항상 뒤따릅니다.
 
@@ -62,7 +103,18 @@ isUpdated: true
 
 “그 사람”이 되지 마세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코드를 읽는 것은 무서운 경험일 필요는 없어요. 그러나 몇몇 프로젝트의 패키지와 폴더를 탐색하는 것은 공포 영화를 보는 것 같아서, 일이 어떻게 이루어지는지 이해하기 어려울 수 있어요.
 
@@ -72,7 +124,18 @@ isUpdated: true
 
 이 질문에 대답하는 것은 어려운 일이에요. 사람들이 다르게 생각하고, 각 프로그래머가 자신만의 방식을 갖고 있기 때문이죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 — 문서화되지 않은 프로젝트 또는 부실한 문서
 
@@ -82,7 +145,18 @@ isUpdated: true
 
 우리의 코드를 문서화하는 것은 다양한 형태를 갖을 수 있습니다. 전체 시스템 작동 방식에 대한 end-to-end 문서를 생성할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해당 문서 유형에는 플로우차트, 요구 사항 등이 포함됩니다.
 
@@ -92,7 +166,18 @@ isUpdated: true
 
 - 하드코딩된 값 및 데이터 구조의 미비함
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가끔은 일부 값을 하드코딩하는 것도 괜찮다는 것을 이해합니다.
 
@@ -102,7 +187,18 @@ isUpdated: true
 
 프로그래머가 코드 내부에 값을 명시적으로 넣는 것을 의미하며 환경 변수를 사용하거나 외부 독립적인 소스에서 값을 가져오는 대신 값을 하드코딩하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 username = "yanick_user" # username에 대한 하드코딩 값
@@ -115,7 +211,18 @@ role = "admin" # role에 대한 하드코딩 값
 
 문제가 쉽게 발생할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import os
@@ -135,7 +242,18 @@ def do_something(args):
         ...
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내가 어떻게 생각하는지는 모르겠지만, 나에게는 이 코드가 너무 엉망이고 따라가기 어려운 것 같아. args가 뭐지? args에서 어떤 다른 키들을 가져올 수 있고, 어떤 키가 필수인지 아닌지 알 수 있을까?
 
@@ -152,7 +270,18 @@ class Myclass:
 
 그렇게 하면 이전의 do_something 함수를 리팩터링하고 더 쉽게 따라갈 수 있게 만들 수 있어:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import os
@@ -171,7 +300,18 @@ def do_something(args: Myclass):
 
 정직하게 말하자면, 현재 회사로 이직한 후에 테스트를 적극적으로 작성하기 시작했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 실전에서 테스트 작성의 중요성을 이해했어요. 테스트를 작성함으로써, 우리는 우리의 코드가 예상대로 작동하는지만 확인하는 것뿐만 아니라 시스템과 상호작용하고 사용하는 방법의 안내서 및 예시로도 사용할 수 있어요.
 
@@ -181,7 +321,18 @@ def do_something(args: Myclass):
 
 어떻게 피할 수 있을까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 질문은 조금 까다로운 문제인 것 같아요. 제가 정확하게 답변할 수 있는지 모르겠거나 이 질문에 100% 확신을 가진 누군가가 있는지도 모르겠어요.
 
@@ -191,7 +342,18 @@ def do_something(args: Myclass):
 
 Python Enhancement Proposals (PEP)를 가끔씩 읽으려고 노력하고 있어요. 항상 새로운 것을 배울 수 있는 것이 있고, Python은 빠르게 성장하는 프로그래밍 언어이기 때문에 우리는 최신 정보를 유지해야 해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "‘Needs refactoring’로 표시되지 않도록 프로젝트를 개선하는 데 도움이 될 만한 개인적인 경험을 추가할 수 있는 것이 있다면 공유해주세요.
 
@@ -201,6 +363,17 @@ Python Enhancement Proposals (PEP)를 가끔씩 읽으려고 노력하고 있어
 
 더 알고 싶다면, 저는 여러분의 성장을 돕기 위해 Python에 대해 쓰고 있으니 많은 관심 부탁드립니다."
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 표 태그를 Markdown 형식으로 변경하세요.

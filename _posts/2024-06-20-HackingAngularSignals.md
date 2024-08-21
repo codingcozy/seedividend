@@ -3,16 +3,13 @@ title: "앵귤러 시그널 해킹하기"
 description: ""
 coverImage: "/assets/img/2024-06-20-HackingAngularSignals_0.png"
 date: 2024-06-20 05:43
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-HackingAngularSignals_0.png
 tag: Tech
 originalTitle: "Hacking Angular Signals"
 link: "https://medium.com/@eugeniyoz/hacking-angular-signals-42e4c3afba04"
 isUpdated: true
 ---
-
-
-
 
 앵귤러 시그널이 무엇인지 살펴보고, 기능을 확장하고 디버깅하는 데 어떻게 활용할 수 있는지 알아봅시다.
 
@@ -31,7 +28,18 @@ $val.set(4);
 $val.update((v) => v * 2);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어떻게 가능한 걸까요? JavaScript에서는 함수가 객체이기 때문입니다:
 
@@ -43,17 +51,28 @@ const double = (val: number) => val * 2;
 double.isEven = (number: number) => number % 2 === 0;
 
 // 객체처럼 사용하기
-double.isEven(15) // false
+double.isEven(15); // false
 
 // 함수처럼 사용하기
-double(8) // 16
+double(8); // 16
 ```
 
 어떻게 활용할 수 있을까요?
 
 우리는 가능합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 새로운 메서드 추가하기
 - 수정 사항을 가로챌 수 있도록 set() 및 update() 메서드를 오버라이딩하기
@@ -66,7 +85,18 @@ double(8) // 16
 
 다행히도 신호 및 Observable의 인터페이스는 메서드 이름에서 충돌이 없습니다. 그러니 하이브리드를 만들어 보겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```typescript
 // 여기서는 단순히 기존 객체에 새로운 메서드를 추가하고 있습니다.
@@ -75,8 +105,8 @@ double(8) // 16
 
 export function toObservableSignal<T>(s: Signal<T>) {
 
-  const obs = toObservable(s, options); 
-   
+  const obs = toObservable(s, options);
+
   return new Proxy(s, {
     get(_, prop) {
       if (prop in s) {
@@ -87,7 +117,16 @@ export function toObservableSignal<T>(s: Signal<T>) {
   });
 }
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 사용 예시입니다:
 
@@ -117,7 +156,7 @@ export class App {
   quote = toSignal(this.b);
 
   increment() {
-    // "a" will not stop being a Signal after 
+    // "a" will not stop being a Signal after
     // we used it as an Observable
     this.a.update((v) => v + 1);
   }
@@ -127,11 +166,20 @@ export class App {
   }
 }
 
-NG Extension Platform에서 이 기능을 찾을 수 있습니다. 
+NG Extension Platform에서 이 기능을 찾을 수 있습니다.
 
 원하는 함수로 Signal을 확장할 수 있습니다. 여기서 상상력에는 거의 제한이 없습니다. 단, set, update, asReadonly라는 이름은 사용하지 않도록 주의하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 기존 메서드 재정의
 
@@ -161,7 +209,16 @@ function skipNonEvenNumbers(s: WritableSignal<number>) {
 
 사용 예시:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기법은 Reactive Storage: getWritableSignal()에서 사용됩니다.
 
@@ -171,7 +228,16 @@ Angular 시그널은 단순히 함수가 아니라 객체입니다. 이 객체�
 
 모든 Angular 시그널은 ReactiveNode를 확장합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 // packages/core/primitives/signals/src/graph.ts
 
@@ -206,7 +272,18 @@ export const SIGNAL_NODE = {
 하지만 실제로 Signal 객체가 인스턴스화되면 이들이 모두 직접적으로 포함되지 않습니다. 모두 Symbol을 이름으로 사용하는 필드 아래에 숨겨져 있습니다:
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // packages/core/primitives/signals/src/signal.ts
@@ -231,8 +308,18 @@ export function createSignal<T>(initialValue: T): SignalGetter<T> {
 
 우리는 필드를 읽고 액세스를 가로채어 디버깅에 사용하거나 Signal 내부에서 무슨 일이 일어나는지를 설명하는 멋진 도구를 생성하는 데 사용할 수 있습니다. 종속성 그래프를 렌더링할 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 심지어 일부 필드를 엑세서로 변환할 수도 있습니다:
 
@@ -241,15 +328,15 @@ function getSignalVersion<T>(s: WritableSignal<T>): Signal<number> {
   const node = s[SIGNAL];
   const $version = signal(0);
 
-  Object.defineProperty(node, 'version', {
+  Object.defineProperty(node, "version", {
     get: () => {
       const v = untracked($version);
-      console.log('🟢 reading:', v);
+      console.log("🟢 reading:", v);
       return v;
     },
     set: (v) => {
       untracked(() => $version.set(v));
-      console.log('🔴 writing:', v);
+      console.log("🔴 writing:", v);
     },
   });
 
@@ -261,7 +348,18 @@ StackBlitz:
 
 또는 `effect()` 없이 Signal 읽기를 감시할 수 있는 프록시를 생성할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 function watchSignalReads<T, M extends Signal<T> | WritableSignal<T>>(s: M): M {

@@ -3,16 +3,13 @@ title: "React 코드 향상을 위한 최상의 실천 방법"
 description: ""
 coverImage: "/assets/img/2024-06-20-ReactBestPracticestoImproveYourCode_0.png"
 date: 2024-06-20 00:04
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-ReactBestPracticestoImproveYourCode_0.png
 tag: Tech
 originalTitle: "React Best Practices to Improve Your Code"
 link: "https://medium.com/@onix_react/react-best-practices-to-improve-your-code-a4c68962d5dd"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-06-20-ReactBestPracticestoImproveYourCode_0.png" />
 
@@ -25,36 +22,45 @@ isUpdated: true
 - 미래에 대한 유연성: 최근 몇 년간 리액트는 컴포넌트 작성의 주요 방법으로 훅의 널리 퍼지는 사용을 옹호해왔습니다. 리액트 팀은 함수를 사용하여 컴포넌트를 만드는 것을 권장하며 계속해서 능력을 향상하고 확장하기 위한 투자를 계속하고 있습니다.
 - 성능 향상: 훅을 사용하면 성능을 개선하기가 더 쉬워집니다. useCallback 및 useMemo와 같은 훅을 활용하면 함수와 값을 캐시하여 추가 렌더링 반복이 필요 없게 하고 컴포넌트 성능을 향상시킬 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // Counter.js
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
 class Counter extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            count: 0,
-        };
-    }
+  constructor(props) {
+    super(props);
+    this.state = {
+      count: 0,
+    };
+  }
 
-    incrementCount() {
-        this.setState({
-            count: this.state.count + 1,
-        });
-    }
+  incrementCount() {
+    this.setState({
+      count: this.state.count + 1,
+    });
+  }
 
-    render() {
-        return (
-            <div>
-                <h1>Count: {this.state.count}</h1>
-                <button onClick={() => this.incrementCount()}>
-                    Increment
-                </button>
-            </div>
-        );
-    }
+  render() {
+    return (
+      <div>
+        <h1>Count: {this.state.count}</h1>
+        <button onClick={() => this.incrementCount()}>Increment</button>
+      </div>
+    );
+  }
 }
 
 export default Counter;
@@ -64,23 +70,21 @@ export default Counter;
 
 ```js
 // Hook
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 const Counter = () => {
-    const [count, setCount] = useState(0);
+  const [count, setCount] = useState(0);
 
-    const incrementCount = () => {
-        setCount(prevCount => prevCount + 1);
-    };
+  const incrementCount = () => {
+    setCount((prevCount) => prevCount + 1);
+  };
 
-    return (
-        <div>
-            <h1>Count: {count}</h1>
-            <button onClick={incrementCount}>
-                Increment
-            </button>
-        </div>
-    );
+  return (
+    <div>
+      <h1>Count: {count}</h1>
+      <button onClick={incrementCount}>Increment</button>
+    </div>
+  );
 };
 
 export default Counter;
@@ -88,8 +92,18 @@ export default Counter;
 
 # 2. 구성 요소 조합
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트에서 컴포넌트 구성은 더 작은 컴포넌트를 조합하여 재사용 가능한 UI 컴포넌트를 생성하는 실천을 말합니다. 이를 통해 개발자들은 복잡한 UI를 작은, 더 관리하기 쉬운 부분으로 분해하여 응용 프로그램의 다른 부분에서 쉽게 재사용할 수 있게 됩니다.
 
@@ -113,7 +127,18 @@ const Button = (props) => {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React PropTypes는 React 애플리케이션에서 코드 품질, 유지 관리성 및 개발자 생산성을 향상시키는 데 중요한 런타임 유형 검사, 문서화, 디버깅 지원 및 API 정의 기능을 제공합니다.
 
@@ -127,31 +152,47 @@ import React from "react";
 const styles = {
   width: 200,
   height: 50,
-  backgroundColor: 'red'
+  backgroundColor: "red",
 };
 
-const Button = () => (
-  <button style={styles}>My Button</button>
-)
+const Button = () => <button style={styles}>My Button</button>;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 4. Arrow 함수 사용하기
 
 Arrow 함수를 사용하면 일반 함수 표현식과 비교하여 더 간결한 구문을 제공할 뿐만 아니라 코드 가독성을 향상시키고 작은 함수(예: 이벤트 핸들러 또는 콜백 함수)에 대해 불필요한 말을 줄일 수 있습니다. 이들의 간결한 구문은 코드베이스의 명확성을 유지하고 전반적인 가독성을 향상시키는 데 도움이 됩니다. 더불어 arrow 함수는 주변 코드의 렉시컬 스코프를 상속받아 특정 상황에서 명시적으로 'this'를 바인딩할 필요가 없게 하므로 더 깔끔하고 직관적인 코드를 작성할 수 있습니다. Arrow 함수를 활용하면 코드 유지 관리성을 향상시키고 개발 프로세스를 간소화하여 더 효율적이고 읽기 쉬운 코드를 작성할 수 있습니다.
 
 ```js
-const App = () => (
-  <Container>
-    {/* 앱 코드의 나머지 부분 */}
-  </Container>
-);
-``` 
+const App = () => <Container>{/* 앱 코드의 나머지 부분 */}</Container>;
+```
 
 # 5. lazy()와 Suspense() 함수 사용하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React에서는 lazy() 함수와 component를 사용하여 코드 분할과 로딩 상태 처리를 조절하며, 특히 초기 로드 시간을 최적화하고 사용자 경험을 향상시키는 데 유용합니다. 이는 로딩 인디케이터를 표시함으로써 대규모 응용 프로그램에서 특히 유용합니다.
 
@@ -161,14 +202,25 @@ lazy() 함수를 사용하면 컴포넌트를 동적으로 가져올 수 있습�
 
 - `Suspense` 사용:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해당 컴포넌트는 Lazy-로드되는 컴포넌트가 로드될 때까지 기다리는 동안 로딩 표시기를 지정할 수 있게 해줍니다. 이것은 Lazy-로드되는 컴포넌트를 감싸는 역할을 합니다.
 
 ```js
-import React, { lazy, Suspense } from 'react';
+import React, { lazy, Suspense } from "react";
 
-const LazyComponent = lazy(() => import('./LazyComponent'));
+const LazyComponent = lazy(() => import("./LazyComponent"));
 
 function App() {
   return (
@@ -185,14 +237,25 @@ export default App;
 
 이 접근법은 실제로 필요할 때만 로드되는 Less Critical 컴포넌트로 인해 응용 프로그램의 초기 번들 크기와 로드 시간을 최적화하는 데 도움이 됩니다. 특히 초기 로드 크기를 줄이는 것이 성능에 중요한 대규모 응용 프로그램에서 특히 유익합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React 애플리케이션에서 최적의 성능을 유지하기 위해서는 구성 요소 렌더링 효율을 향상시키는 것이 중요합니다, 특히 복잡하고 방대한 사용자 인터페이스를 가진 애플리케이션의 경우입니다. 아래의 전략을 통해 렌더링 성능을 향상시킬 수 있습니다:
 
 React.memo 활용: 고차 컴포넌트인 React.memo를 활용하면 구성 요소 렌더링 결과를 메모화할 수 있습니다. 이를 통해 구성 요소의 props가 변경되지 않은 경우 불필요한 재렌더링을 방지할 수 있습니다.
 
 ```js
-import React from 'react';
+import React from "react";
 
 const MyComponent = React.memo(({ prop1, prop2 }) => {
   // 구성 요소 렌더링 로직
@@ -203,14 +266,25 @@ export default MyComponent;
 
 이 최적화 기술을 구현함으로써 React 애플리케이션의 전반적인 성능과 반응성을 크게 향상시킬 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 7. TypeScript 사용하기
 
 TypeScript는 JavaScript의 typed superset으로서 일반 JavaScript로 컴파일됩니다. 클래스, 모듈 및 인터페이스를 제공하여 견고한 구성 요소를 구축하는 데 도움이 됩니다.
 
 ```js
-import React from 'react';
+import React from "react";
 
 interface Props {
   name: string;
@@ -221,7 +295,18 @@ const Hello: React.FC<Props> = ({ name }) => <div>Hello {name}</div>;
 
 # 8. 유형 선언 도구 사용하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 TypeScript를 사용할 수 없는 경우, prop-types나 다른 대안과 같은 타입 체크 도구나 라이브러리를 활용하는 것을 권장합니다. 이러한 도구들은 React 컴포넌트 내에서 타입 체크를 보장하여 각 prop으로 전달된 데이터의 정확성을 확보하는 데 도움을 줍니다. prop-types는 인기 있는 선택지이지만, 현대적인 개발 관행과 더 잘 부합하는 대안 라이브러리를 탐색하는 것이 좋습니다.
 
@@ -234,7 +319,18 @@ prop-types가 오랜 기간 사용된 솔루션이긴 하지만, 생태계는 �
 
 # 9. ESLint 사용하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ESLint은 React 애플리케이션에서 코드 품질, 일관성, 잠재적인 오류 또는 버그를 확인하는 데 사용되는 인기 있는 도구입니다. ESLint가 React 개발에서 널리 사용되는 이유와 중요한 기능들은 다음과 같습니다:
 
@@ -247,7 +343,18 @@ ESLint은 React 애플리케이션에서 코드 품질, 일관성, 잠재적인 
 
 테스트는 React 개발의 중요한 측면이며 무시해서는 안 되는 부분입니다. 이를 통해 응용 프로그램이 높은 품질, 신뢰성 및 훌륭한 사용자 경험을 제공하는지 확인할 수 있습니다. 이러한 React 컴포넌트의 테스트 케이스는 방대한 수의 React 테스트 케이스를 포함할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액트 애플리케이션을 테스트하는 데 사용할 수 있는 여러 유형의 테스트가 있습니다.
 

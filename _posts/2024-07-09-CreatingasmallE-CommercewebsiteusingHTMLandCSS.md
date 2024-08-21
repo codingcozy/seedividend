@@ -3,15 +3,13 @@ title: "HTML과 CSS로 작은 전자상거래 웹사이트 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-CreatingasmallE-CommercewebsiteusingHTMLandCSS_0.png"
 date: 2024-07-09 18:30
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-CreatingasmallE-CommercewebsiteusingHTMLandCSS_0.png
 tag: Tech
 originalTitle: "Creating a small E-Commerce website using HTML and CSS"
 link: "https://medium.com/@amashashalindi/creating-a-small-e-commerce-website-using-html-and-css-df799808d12"
 isUpdated: true
 ---
-
-
 
 그렇게 어렵지 않아요😉
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 저는 미디엄에서 처음으로 글을 써봅니다. 오늘은 HTML과 CSS를 사용하여 작은 전자 상거래 웹사이트를 만드는 방법에 대해 이야기해보려고 해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 전자 상거래 웹 사이트는 인터넷을 통해 다양한 제품을 구매하고 판매할 수 있는 온라인 상점입니다. 저희는 HTML을 사용하여 웹페이지의 구조와 내용을 만듭니다. 사용자들의 마음을 사로잡기 위해 CSS를 사용해야 합니다. CSS는 다양한 색상, 레이아웃 및 글꼴을 사용하여 웹사이트를 눈에 띄게 만들어줍니다.
 
@@ -31,7 +40,18 @@ isUpdated: true
 
 # 제 코드를 살펴보세요! 😃
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 페이지는 모두 세 가지 주요 섹션으로 나뉩니다 — `HEADER`, `BODY`, `FOOTER`. 각 섹션마다 HTML 태그 사이의 텍스트를 간단히 변경할 수 있어요.
 
@@ -41,7 +61,18 @@ isUpdated: true
 
 <img src="/assets/img/2024-07-09-CreatingasmallE-CommercewebsiteusingHTMLandCSS_2.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `header` 태그는 소개 콘텐츠나 탐색 링크 세트의 컨테이너로 사용됩니다. `nav` 태그는 주요 탐색 링크 블록에만 사용합니다.
 
@@ -51,7 +82,18 @@ isUpdated: true
 
 `div` 태그는 HTML 요소의 컨테이너로 사용됩니다. 여기서 "intro"라는 div 클래스를 정의했습니다. `h1`부터 `h3` 태그는 제목을 정의합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-07-09-CreatingasmallE-CommercewebsiteusingHTMLandCSS_3.png](/assets/img/2024-07-09-CreatingasmallE-CommercewebsiteusingHTMLandCSS_3.png)
 
@@ -61,7 +103,18 @@ HTML 문서에 CSS를 추가하는 방법은 3가지가 있어요. 바로 인라
 
 ![2024-07-09-CreatingasmallE-CommercewebsiteusingHTMLandCSS_4.png](/assets/img/2024-07-09-CreatingasmallE-CommercewebsiteusingHTMLandCSS_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 코드 부분은 "intro" div 클래스에 CSS 기능을 사용한 방법을 보여줍니다. 요소의 콘텐츠가 지정된 영역에 맞지 않을 때 콘텐츠를 클립할지 스크롤바를 추가할지를 지정하기 위해 "overflow" 속성을 사용합니다. 여기서 값으로 "hidden"을 사용했습니다. 이는 오버플로가 클리핑되어 나머지 콘텐츠가 보이지 않게 됨을 의미합니다. "position"은 요소에 사용된 위치 지정 방법을 강조하는 데 사용됩니다. 여기서는 배경 이미지를 사용하고 속성을 선호에 따라 변경했습니다.
 
@@ -71,7 +124,18 @@ HTML 문서에 CSS를 추가하는 방법은 3가지가 있어요. 바로 인라
 
 우리는 ":hover"를 사용하여 마우스를 요소 위로 올릴 때 해당 요소를 선택합니다. 여기서 컬러 속성을 사용하여 내비게이션 요소를 클릭했음을 알 수 있도록 했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 버튼을 만드는 방법을 알고 싶나요?😉
 
@@ -81,7 +145,18 @@ HTML 문서에 CSS를 추가하는 방법은 3가지가 있어요. 바로 인라
 
 "display: inline"과 비교할 때, "display: inline-block"의 주요 차이점은 요소에 너비와 높이를 설정할 수 있다는 것입니다. "border-radius" 속성을 사용하여 요소의 모퉁이 반지름을 정의합니다. 버튼의 배경색으로 주황색을 사용했어요. "box-shadow" 속성은 요소에 하나 이상의 그림자를 부착합니다. "padding" 속성을 사용하여 요소 콘텐츠 주변 또는 테두리 내부에 여백을 만듭니다. "font-weight" 속성은 문자가 얼마나 굵거나 가느냐를 지정합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 웹사이트의 본문을 엿보아 볼까요! 😃
 
@@ -91,7 +166,18 @@ HTML 문서에 CSS를 추가하는 방법은 3가지가 있어요. 바로 인라
 
 ![이미지](/assets/img/2024-07-09-CreatingasmallE-CommercewebsiteusingHTMLandCSS_9.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "benefit-center box"라는 div 클래스를 정의한 "section benefits" 섹션을 만들었습니다. 그 아래에 "benefit"이라는 div 클래스를 정의했습니다. 또한 "icon"이라는 span 클래스를 정의했습니다. 여기에는 상자 아이콘을 가져왔습니다.
 
@@ -101,7 +187,18 @@ div와 span 클래스에 각각 CSS를 적용했습니다. 여기에서 그리�
 
 <img src="/assets/img/2024-07-09-CreatingasmallE-CommercewebsiteusingHTMLandCSS_11.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 사진에서 제품 이름, 별점 및 가격을 언급했습니다. 제품 주위에 마우스 커서를 이동하면 제품이 크기가 커지는 것을 볼 수 있어요. 좀 더 자세한 내용을 이해하려면 코드를 살펴보겠습니다.
 
@@ -111,7 +208,18 @@ Here I have defined a div class called "ac". Under I have defined a div class ca
 
 ![Product Image](/assets/img/2024-07-09-CreatingasmallE-CommercewebsiteusingHTMLandCSS_13.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에서 볼 수 있듯이, 저는 div와 span 클래스에 CSS를 적용했습니다. 사용자가 해당 제품 위로 커서를 올리면 제품 크기를 확대하기 위해 ":hover"를 사용합니다. "transition" 효과는 일반적으로 사용자가 요소 위로 커서를 이동할 때 발생할 수 있습니다. "transform" 속성을 사용하면 요소를 회전, 확대, 이동할 수 있습니다.
 
@@ -121,7 +229,18 @@ Here I have defined a div class called "ac". Under I have defined a div class ca
 
 # 이제 푸터로 이동해 볼까요? 😃
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-09-CreatingasmallE-CommercewebsiteusingHTMLandCSS_15.png" />
 
@@ -131,7 +250,18 @@ Here I have defined a div class called "ac". Under I have defined a div class ca
 
 "푸터"라는 섹션 id를 정의했어요. 그 아래에서 "foot"라는 div 클래스를 정의했어요. 순서 없는 목록을 얻기 위해 `ul` 태그를 사용했어요. 목록 항목은 `li` 태그로 시작했어요. 웹 페이지로 하이퍼링크를 만들기 위해 `a` 태그를 사용했어요. `a` 태그는 링크의 대상을 나타내야 해요. "social-links"라는 또 다른 div 클래스를 정의했어요. font-awesome 아이콘을 가져왔어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-09-CreatingasmallE-CommercewebsiteusingHTMLandCSS_17.png" />
 

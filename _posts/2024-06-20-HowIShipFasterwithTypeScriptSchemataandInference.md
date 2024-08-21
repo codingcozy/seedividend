@@ -3,16 +3,13 @@ title: "제가 TypeScript, Schemata 및 추론을 사용하여 어떻게 깨른 
 description: ""
 coverImage: "/assets/img/2024-06-20-HowIShipFasterwithTypeScriptSchemataandInference_0.png"
 date: 2024-06-20 02:47
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-HowIShipFasterwithTypeScriptSchemataandInference_0.png
 tag: Tech
 originalTitle: "How I Ship Faster with TypeScript, Schemata, and Inference"
 link: "https://medium.com/gitconnected/how-i-ship-faster-with-typescript-schemata-and-inference-20bd4dd3ff56"
 isUpdated: true
 ---
-
-
-
 
 거의 10년 전에 Java 개발자로서 경력을 시작했고, 여전히 변수를 끊임없이 타이핑했던 기억이 나네요! TypeScript로 전향한 후에는 타입 추론에 의존하기 시작했습니다. 이 언어 기능을 넘어서 이를 이해하고 있고, 이 덕분에 일상적으로 많은 키 스트로크를 절약하고 있어요.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 스키마 작성을 마스터한 뒤에는 말로써 일석이조였죠. 런타임에서 수신 데이터를 구문 분석하고 추론된 유형을 컴파일 타임에 사용할 수 있었어요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 발견으로 내 생산성이 향상되었어요. 이로 인해 더 빨리 프로젝트를 완료할 수 있었거든.
 
@@ -32,8 +40,18 @@ isUpdated: true
 
 빠르게 배송하지 않고 꾸준히 하지 않으면, 엔지니어링 프로세스에 문제가 있는 것이라고 볼 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-20-HowIShipFasterwithTypeScriptSchemataandInference_0.png)
 
@@ -43,8 +61,18 @@ isUpdated: true
 
 파싱을 프로젝트의 핵심 요소로 취급하고 계약 프로그래밍을 강제 적용하기 시작했습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, 각 수신 구조를 구문 분석하면 데이터 처리가 시작되기 전에 보안 계층을 도입합니다. 유명한 속담을 바꿔 말하면, 수신 데이터를 테스트하지 않으면 결국 클라이언트가 테스트하게 될 것입니다!
 
@@ -54,7 +82,18 @@ isUpdated: true
 
 마지막으로, LLM을 사용하여 스키마를 더 빨리 작성할 수 있습니다. 다시 말해, 인공지능을 습득한 사람들은 아마도 그렇지 않은 사람들의 직업을 대체할 것입니다. 이야기 끝에 별도의 섹션에서 LLM 사용에 대해 논의하겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이야기를 써서 생산성을 향상시키는 발견을 설명했어요. 제 경험에서 배우고, 현재와 미래 프로젝트에 적용해 보세요!
 
@@ -64,7 +103,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-06-20-HowIShipFasterwithTypeScriptSchemataandInference_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 선택은 어려운 결정이죠.
 
@@ -74,7 +124,18 @@ isUpdated: true
 
 최소한의 종속성을 유지하고 싶다면, 아무 종속성도 없는 Zod을 선호할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 언급된 라이브러리에 대한 동등한 코드를 제시하겠습니다.
 
@@ -86,7 +147,18 @@ bun install @effect/schema yup zod
 
 ## 구문 분석이 검증을 이기는 이유
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제대로 시작하기 전에 TypeScript의 구조적 타이핑과 유효성 검사 및 구문 분석에 미치는 영향을 언급해야 합니다.
 
@@ -99,14 +171,25 @@ type Company = { id: string };
 
 TypeScript를 사용하기 시작할 때는 명백하지 않을 수 있지만, 더 많은 경험을 쌓으면 감이 올 것입니다. 그러나 객체 리터럴 주변에 더 많은 유의해야 할 점이 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 타입 변수를 초기화할 때 컴파일러는 초과 속성에 대한 검사를 실행합니다. 우리는 이 할당의 오른쪽을 오브젝트 리터럴이라고 공식적으로 부릅니다. 다음 스니펫은 컴파일되지 않습니다:
 
 ```js
 const user: User = {
-  id: '1',
-  name: 'test username',
+  id: "1",
+  name: "test username",
 };
 ```
 
@@ -114,12 +197,23 @@ const user: User = {
 
 다음 스니펫에서 확인할 수 있듯이 함수에 오브젝트 인자를 전달할 때 초과 속성 검사는 작동하지 않습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const userWithExcessProperties = {
-  id: '1',
-  name: 'Alice',
+  id: "1",
+  name: "Alice",
   claims: 0x02,
   test: 1,
 };
@@ -135,8 +229,18 @@ canAccessDashboard(userWithExcessProperties);
 
 로그에 사용자 데이터를 기록하면 개인 식별 정보를 저장할 수 있습니다! 그래서 그것을 피하기 위해 원하는 속성을 갖는 새 객체를 만들어 데이터를 구문 분석해야 합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-20-HowIShipFasterwithTypeScriptSchemataandInference_2.png" />
 
@@ -146,16 +250,29 @@ canAccessDashboard(userWithExcessProperties);
 
 Zod를 사용하여 사용자 스키마를 작성하려면 아래 코드를 작성할 수 있어요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-import z, { ZodType } from 'zod';
+import z, { ZodType } from "zod";
 
-const userSchema = z.object({
-  id: z.string(),
-  name: z.string(),
-  claims: z.number(),
-}).readonly();
+const userSchema = z
+  .object({
+    id: z.string(),
+    name: z.string(),
+    claims: z.number(),
+  })
+  .readonly();
 ```
 
 이제 사용자 유형을 추론하겠습니다:
@@ -166,7 +283,18 @@ type User = z.infer<typeof userSchema>;
 
 이 문장은 다음 코드의 달신이 되었습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 유저 타입을 호출할 때 다음 메소드를 이용하여 구문 분석할 거에요:
@@ -175,7 +303,16 @@ const user: User = userSchema.parse(userWithExcessProperties);
 
 사용자들을 그룹화하고 싶다고 상상해 보세요. 그룹 스키마와 해당 유형을 비슷하게 작성할 거에요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 const groupSchema = z.object({
   id: z.string(),
@@ -199,7 +336,16 @@ type Group = z.infer<typeof groupSchema>;
 
 TypeScript 유형 메커니즘을 활용하여 다음과 같이 작성할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 type InterestLevel = Group['interests'][number]['level'];
 
@@ -209,7 +355,16 @@ type InterestLevel = Group['interests'][number]['level'];
 
 ## 일반 추론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 좀 더 고급 추론 패턴을 보여드릴게요. 이를 "일반 추론"이라고 부르겠어요.
 
@@ -219,7 +374,16 @@ type InterestLevel = Group['interests'][number]['level'];
 
 그래서 우리는 일반 빌더 함수를 작성할 수 있어요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 const buildChecksumEnvelopeSchema = <T>(
   datumSchema: ZodType<T>
@@ -238,7 +402,16 @@ const groupEnvelopeSchema = buildChecksumEnvelopeSchema(groupSchema);
 type UserChecksumEnvelope = z.infer<typeof userEnvelopeSchema>;
 type GroupChecksumEnvelope = z.infer<typeof groupEnvelopeSchema>;
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 우리가 일반적인 envelope 타입을 유지하고 싶다면 어떻게 할까요? 우리는 이를 사용하여 내용을 정확히 모르는 임의의 envelopes에 작업을 수행할 수 있습니다. 예를 들어, 체크섬을 계산하는 것과 같이요.
 
@@ -253,7 +426,16 @@ type GroupChecksumEnvelope = ChecksumEnvelope<Group>;
 
 스키마를 사용할 때, 저는 단수 구조만을 정의하는 것을 선호합니다. 예를 들어, 다음과 같이 작성하지 않겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 const usersSchema = z.array(userSchema);
 type Users = z.infer<typeof usersSchema>;
@@ -264,7 +446,16 @@ type Users = z.infer<typeof usersSchema>;
 
 일반적으로 schema와 비즈니스 구조체의 유추된 타입을 내보내요. 다른 개발자들이 혼란스럽지 않도록 helper schema를 절대 내보내지 않아요. 가져올 수 있는 문장을 줄이기 위해 노력해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 불변성
 
@@ -274,7 +465,16 @@ type Users = z.infer<typeof usersSchema>;
 
 ![이미지](/assets/img/2024-06-20-HowIShipFasterwithTypeScriptSchemataandInference_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 불변성을 사용하는 것은 프로그래밍 언어의 규칙을 제한하기 위해 사슬을 사용하는 것과 같습니다. 깨지기 쉬운 링크만 깨뜨리면 됩니다. 저희 경우에는 스키마가 그런 링크일 수 있습니다.
 
@@ -296,7 +496,16 @@ const groupSchema = z.object({
   })).readonly(),
 }).readonly();
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 추론된 타입을 준수하는 인스턴스를 생성할 때 불변성에서 일시적으로 벗어나고 싶다면 어떻게 해야 할까요?
 
@@ -306,7 +515,16 @@ const groupSchema = z.object({
 
 다음 명령어를 입력하여 설치할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 bun install ts-essentials
 
@@ -318,7 +536,16 @@ type WritableGroup = DeepWritable<Group>;
 
 # Enumerations
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Zod에서 열거형을 정의하는 세 가지 방법이 있습니다:
 
@@ -330,7 +557,16 @@ Zod에서 열거형을 정의하는 세 가지 방법이 있습니다:
 
 예를 들어, 언어 목록이 있다면 사용자의 선택을 유효성 검사하고 목록을 프론트 엔드에 전송하여 드롭다운에서 표시해야 할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-20-HowIShipFasterwithTypeScriptSchemataandInference_5.png" />
 
@@ -344,7 +580,16 @@ enum InterestLevel {
   High = 'high',
 };
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Zod는 열거 유형에서 스키마를 작성하는 방법을 제공합니다. 아래 코드 스니펫에서와 같이:
 
@@ -354,7 +599,16 @@ const interestLevelSchema = z.nativeEnum(InterestLevel);
 
 열거된 모든 값을 추출하려면 다음 코드를 작성해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 const interestLevels = Object.values(InterestLevel);
 
@@ -364,7 +618,16 @@ const interestLevels = Object.values(InterestLevel);
 
 각 관심 수준 리터럴에 대한 스키마를 작성해 봅시다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 const interestLevelLiteralSchemata = [
   z.literal('low'),
@@ -377,9 +640,18 @@ const interestLevelLiteralSchemata = [
 const interestLevelSchema = z.union(interestLevelLiteralSchemata);
 type InterestLevel = z.infer<typeof interestLevelSchema>;
 
-마지막으로, 모든 열거된 값을 추출할 수 있습니다:  
+마지막으로, 모든 열거된 값을 추출할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 const interestLevels = interestLevelLiteralSchemata
   .map((literal) => literal.value);
@@ -390,7 +662,16 @@ const interestLevels = interestLevelLiteralSchemata
 
 다음과 같은 방법으로 스키마를 작성하고 타입을 추론할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 const interestLevelSchema = z.enum(['low', 'medium', 'high']);
 type InterestLevel = z.infer<typeof interestLevelSchema>;
@@ -402,7 +683,18 @@ const interestLevels = interestLevelSchema.options;
 # 구분된 연합(Unions)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일반적인 유니언 타입에서는 컴파일러가 많은 서로 다른 타입을 구분합니다. 디스크리미네이트 유니언에서는 컴파일러가 공유 프로퍼티를 기준으로 구분합니다. 예를 들어, 애플리케이션의 작업을 특정 액터인 사용자 또는 그룹에 할당할 수 있습니다.
 
@@ -412,24 +704,32 @@ const interestLevels = interestLevelSchema.options;
 
 ```js
 const userActorSchema = z.object({
-  type: z.literal('user'),
+  type: z.literal("user"),
   id: z.string(),
 });
 
 const groupActorSchema = z.object({
-  type: z.literal('group'),
+  type: z.literal("group"),
   id: z.string(),
 });
 
-const actorSchema = z.discriminatedUnion(
-  "type",
-  [userActorSchema, groupActorSchema],
-).readonly();
+const actorSchema = z.discriminatedUnion("type", [userActorSchema, groupActorSchema]).readonly();
 
 type Actor = z.infer<typeof actorSchema>;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 선택에는 설명이 필요해요!
 
@@ -439,21 +739,43 @@ type Actor = z.infer<typeof actorSchema>;
 
 둘째, 액터 유형을 스키마에서 추론했어요. 코드 베이스에서 연합 유형의 연산이 멤버 대신 발생하기를 기대하죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 세 번째로, 나는 사용자의 종류와 그룹 활동자의 유형을 추론하지 않았어. 나중에 그들을 정의해야 한다면, 다음 패턴을 사용하여 그렇게 할 수 있을 것 같아:
 
 ```js
 type UserActor1 = z.infer<typeof userActorSchema>;
-type UserActor2 = Extract<Actor, { type: 'user' }>;
-type UserActor3 = Actor & { type: 'user' };
+type UserActor2 = Extract<Actor, { type: "user" }>;
+type UserActor3 = Actor & { type: "user" };
 ```
 
 각각이 동일한 결과를 가져오는 것에도 불구하고, 나는 첫 번째 것을 사용하지 않을 거야. 왜냐하면 그것은 최소한 추론 규칙에 어긋나기 때문이야. 이미 활동자 유형을 추론을 통해 얻었다면 TypeScript 유형 도우미를 사용하여 더 정확한 유형을 추출할 수 있어.
 
 그리고 discriminatedUnion 메서드를 사용하여 식별 속성의 이름을 명시해야 하는 이유를 궁금해할 수도 있어. 일치시켜야 할 내용을 알면 Zod가 적합한 스키마를 빠르게 찾을 수 있어. 이러한 최적화를 피하고 싶다면 union 도우미를 사용할 수도 있었겠지.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 기존 유형 변환
 
@@ -463,7 +785,18 @@ type UserActor3 = Actor & { type: 'user' };
 
 특정 LLM을 추천하지는 않겠지만, 주요 모델들이 이 문제를 상당히 잘 처리합니다. 유형을 정의하고 스키마 정의를 시작해보세요. 몇 번 시도한 후에는 고품질 자동완성 스키마가 나올 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LLM을 완전히 믿지 마세요. 항상 결과를 검증해야 합니다!
 
@@ -473,7 +806,18 @@ LLM을 완전히 믿지 마세요. 항상 결과를 검증해야 합니다!
 
 ![이미지](/assets/img/2024-06-20-HowIShipFasterwithTypeScriptSchemataandInference_7.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 요약
 
@@ -483,7 +827,18 @@ LLM을 완전히 믿지 마세요. 항상 결과를 검증해야 합니다!
 
 나는 내 코드가 파싱되지 않은 데이터에서 실행되지 않기 때문에 보다 빠르게 배포할 수 있습니다. 컴파일 시간 오류만 만날 것이라고 믿습니다. 애플리케이션 모니터링 덕분에 파싱이 실패할 때를 알 수 있습니다. 나는 LLM을 사용하여 스키마를 작성하고 유형을 더 빨리 추론할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이야기의 개념을 설명하는 부록을 작성했습니다. 이번에는 다른 스키마 라이브러리를 사용하여 @effect/schema와 yup을 설명합니다.
 
@@ -492,7 +847,7 @@ LLM을 완전히 믿지 마세요. 항상 결과를 검증해야 합니다!
 사용자 스키마를 정의하기 위해 다음과 같이 작성해야 합니다:
 
 ```js
-import { Schema } from "@effect/schema"
+import { Schema } from "@effect/schema";
 
 const userSchema = Schema.Struct({
   id: Schema.String,
@@ -501,7 +856,18 @@ const userSchema = Schema.Struct({
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용자 스키마는 이미 불변성을 준수합니다. 아래 스니펫을 사용하여 사용자 유형을 추론할 수 있습니다:
 
@@ -515,14 +881,25 @@ type User = Schema.Schema.Type<typeof userSchema>;
 type User = typeof userSchema.Type;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 라이브러리는 객체를 구문 분석하고 초과 속성을 허용하지 않습니다. 아래 내용을 확인해주세요:
 
 ```js
 const userWithExcessProperties = {
-  id: '1',
-  name: 'Alice',
+  id: "1",
+  name: "Alice",
   claims: 0x02,
   excessProperty: 1,
 };
@@ -540,11 +917,7 @@ const groupSchema = Schema.Struct({
   interests: Schema.Array(
     Schema.Struct({
       id: Schema.String,
-      level: Schema.Union(
-        Schema.Literal('low'),
-        Schema.Literal('medium'),
-        Schema.Literal('high'),
-      ),
+      level: Schema.Union(Schema.Literal("low"), Schema.Literal("medium"), Schema.Literal("high")),
     })
   ),
 });
@@ -552,24 +925,32 @@ const groupSchema = Schema.Struct({
 type Group = Schema.Schema.Type<typeof groupSchema>;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일반적인 추론을 달성하기 위해 다음 코드를 작성합니다:
 
 ```js
-const buildChecksumEnvelopeSchema = <T>(
-  datumSchema: Schema.Schema<T>
-) => Schema.Struct({
-  datum: datumSchema,
-  checksum: Schema.String,
-});
+const buildChecksumEnvelopeSchema = <T>(datumSchema: Schema.Schema<T>) =>
+  Schema.Struct({
+    datum: datumSchema,
+    checksum: Schema.String,
+  });
 
 const userEnvelopeSchema = buildChecksumEnvelopeSchema(userSchema);
 const groupEnvelopeSchema = buildChecksumEnvelopeSchema(groupSchema);
 
-type ChecksumEnvelope<T> = Schema.Schema.Type<
-  ReturnType<typeof buildChecksumEnvelopeSchema<T>>
->;
+type ChecksumEnvelope<T> = Schema.Schema.Type<ReturnType<typeof buildChecksumEnvelopeSchema<T>>>;
 
 type UserChecksumEnvelope = ChecksumEnvelope<User>;
 type GroupChecksumEnvelope = ChecksumEnvelope<Group>;
@@ -579,14 +960,21 @@ type GroupChecksumEnvelope = ChecksumEnvelope<Group>;
 
 첫 번째 방법은 리터럴의 합집합을 사용하는 것입니다. 아래 예제를 살펴보세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-const interestLevelSchema = Schema.Union(
-  Schema.Literal('low'),
-  Schema.Literal('medium'),
-  Schema.Literal('high'),
-);
+const interestLevelSchema = Schema.Union(Schema.Literal("low"), Schema.Literal("medium"), Schema.Literal("high"));
 
 type InterestLevel = Schema.Schema.Type<typeof interestLevelSchema>;
 ```
@@ -594,14 +982,23 @@ type InterestLevel = Schema.Schema.Type<typeof interestLevelSchema>;
 스키마 속성에 액세스하여 관심 수준 목록을 추출할 수 있습니다. 아래에 나와있는 것처럼:
 
 ```js
-const interestLevels = interestLevelSchema
-  .members
-  .flatMap((member) => member.literals);
+const interestLevels = interestLevelSchema.members.flatMap((member) => member.literals);
 ```
 
 두 번째 접근 방법은 스키마 리터럴 도우미를 사용하는 것입니다. 한 줄로 스키마를 정의할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const interestLevelSchema = Schema.Literal(‘low’, ‘medium’, ‘high’);
@@ -615,8 +1012,18 @@ const interestLevels = interestLevelSchema.literals;
 
 이 라이브러리를 사용하면 네이티브 열거 유형을 사용할 수 있습니다! 다음 조각을 살펴보세요:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 enum InterestLevel {
@@ -633,12 +1040,12 @@ const interestLevels = Object.values(InterestLevel);
 
 ```js
 const userActorSchema = Schema.Struct({
-  type: Schema.Literal('user'),
+  type: Schema.Literal("user"),
   id: Schema.String,
 });
 
 const groupActorSchema = Schema.Struct({
-  type: Schema.Literal('group'),
+  type: Schema.Literal("group"),
   id: Schema.String,
 });
 
@@ -648,8 +1055,18 @@ type Actor = Schema.Schema.Type<typeof actorSchema>;
 
 # 부록 B : Yup
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Yup을 사용한 사용자 스키마는 다음과 같습니다:
 
@@ -667,7 +1084,18 @@ const userSchema = Yup.object({
 
 하지만, 여기에 더 많은 내용이 있습니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 추론된 유형에서 스키마를 불변성을 보장하도록 강제하는 방법을 찾지 못했습니다. 다음과 같이 ts-essentials 라이브러리의 DeepReadonly 유형 도우미를 사용해야 했습니다:
 
@@ -678,17 +1106,28 @@ type User = DeepReadonly<Yup.InferType<typeof userSchema>>;
 위의 유형은 다음과 같습니다:
 
 ```js
-type User = DeepReadonly<typeof userSchema['__outputType']>;
+type User = DeepReadonly<(typeof userSchema)["__outputType"]>;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 도서관은 내가 정의한 구문 분석을 수행하는 validateSync라는 메서드를 제공합니다:
 
 ```js
 const userWithExcessProperties = {
-  id: '1',
-  name: 'Alice',
+  id: "1",
+  name: "Alice",
   claims: 0x02,
   excessProperty: 1,
 };
@@ -724,34 +1163,38 @@ const groupSchema = Yup.object({
 type Group = DeepReadonly<Yup.InferType<typeof groupSchema>>;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 주의깊게 살펴봤다면, 관심 수준을 위한 enum 형식을 볼 수 있었을 것입니다. 곧 enum을 사용하는 이유에 대해 설명할 것입니다.
 
 아래 예제에서 제시된대로 제네릭 추론을 달성할 수 있습니다:
 
 ```js
-const buildChecksumEnvelopeSchema = <T>(
-  datumSchema: Yup.Schema<T>
-) => Yup.object({
-  datum: datumSchema,
-  checksum: Yup.string().required(),
-}).noUnknown();
+const buildChecksumEnvelopeSchema = <T>(datumSchema: Yup.Schema<T>) =>
+  Yup.object({
+    datum: datumSchema,
+    checksum: Yup.string().required(),
+  }).noUnknown();
 
 const userEnvelopeSchema = buildChecksumEnvelopeSchema(userSchema);
 const groupEnvelopeSchema = buildChecksumEnvelopeSchema(groupSchema);
 
-type UserChecksumEnvelope = DeepReadonly<
-  Yup.InferType<typeof userEnvelopeSchema>
->;
+type UserChecksumEnvelope = DeepReadonly<Yup.InferType<typeof userEnvelopeSchema>>;
 
-type GroupChecksumEnvelope = DeepReadonly<
-  Yup.InferType<typeof groupEnvelopeSchema>
->;
+type GroupChecksumEnvelope = DeepReadonly<Yup.InferType<typeof groupEnvelopeSchema>>;
 
-type ChecksumEnvelope<T> = DeepReadonly<
-  Yup.InferType<ReturnType<typeof buildChecksumEnvelopeSchema<T>>>
->;
+type ChecksumEnvelope<T> = DeepReadonly<Yup.InferType<ReturnType<typeof buildChecksumEnvelopeSchema<T>>>>;
 
 type UserChecksumEnvelope = ChecksumEnvelope<User>;
 type GroupChecksumEnvelope = ChecksumEnvelope<Group>;
@@ -759,7 +1202,18 @@ type GroupChecksumEnvelope = ChecksumEnvelope<Group>;
 
 약속한 대로, Yup에서 enum 유형을 사용하는 것이 가장 합리적인 이유를 설명하겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음과 같이 열거형 유형의 스키마를 손쉽게 만들 수 있습니다:
 
@@ -781,7 +1235,18 @@ const interestLevels = [
 type InterestLevel = typeof interestLevels[number];
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 한 줄로 스키마를 작성할 수 있습니다:
 
@@ -795,6 +1260,17 @@ const interestLevelSchema = Yup.mixed<InterestLevel>()
 
 스키마 시퀀스가 있는 경우, 각 스키마를 사용하여 객체를 구문 분석하는 함수를 작성하여 일치하는 것을 찾을 때까지 시도할 수 있습니다. 빠르게 작성하는 데 도움이 되는 LLM을 사용할 수 있습니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 설정된 제한 시간이 초과되어 서비스에 영향을 줄 수 있습니다. 해당 작업에 대한 피드백이 필요하신 경우 언제든지 알려주세요!

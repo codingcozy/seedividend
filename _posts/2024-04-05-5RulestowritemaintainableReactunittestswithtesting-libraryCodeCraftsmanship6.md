@@ -3,17 +3,13 @@ title: "Testing Library를 활용한 React 유닛 테스트 작성하기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "5 Rules to write maintainable React unit tests with testing-library  CodeCraftsmanship 6"
 link: "https://medium.com/interaction-dynamics/5-rules-to-write-maintainable-react-unit-tests-with-testing-library-codecraftsmanship-6-02572833ec4b"
 isUpdated: true
 ---
-
-
-
-
 
 단위 테스트는 테스트 피라미드의 기초이자 신뢰할 수 있는 애플리케이션의 기반이 됩니다. React에서는 testing-library 라이브러리가 두드러집니다. 많은 개발자들이 이를 사용하여 테스트를 작성하는 것을 보곤 합니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # AAA 패턴
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 좋은 테스트는 컴포넌트의 기능을 문서화하는 좋은 기회입니다. 설계상 항상 최신 상태여야 합니다. 단위 테스트는 매우 명확해야 하는 테스트로 분할되어야 합니다. 그러니 테스트를 작성할 때 어떤 기능을 테스트하는지 쉽게 이해할 수 있도록 작성해주세요.
 
@@ -35,7 +42,18 @@ AAA 패턴은 개발 커뮤니티 전체에서 표준으로 사용됩니다:
 
 제 측면에서는 각 테스트를 3 단락으로 나누겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 it("onChange가 트리거되어야 합니다", async () => {
@@ -57,7 +75,18 @@ it("onChange가 트리거되어야 합니다", async () => {
 
 testing-library를 사용하면 개발자들이 자주 사용하는 선택지는 fireEvent를 사용하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { fireEvent, render } from '@testing-library/react'
@@ -89,7 +118,18 @@ it('해당 요소를 클릭해야 합니다', async () => {
 })
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Mock된 객체들
 
@@ -107,7 +147,18 @@ it("should render hello", () => {
 
 하지만 User 타입에 새로운 프로퍼티를 추가할 때마다, 초기화된 사용자를 사용하는 모든 테스트를 업데이트해야 해요. 이 타입을 많은 테스트에서 사용할 때, 많은 변경을 필요로 해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해결책은 기본 사용자를 만들고 필요한 속성을 재정의할 수 있는 모의 함수를 생성하는 것입니다. 그런 다음 사용자가 필요할 때마다 이 함수를 재사용하면 됩니다:
 
@@ -125,7 +176,18 @@ it("should render hello", () => {
 
 모의 빌더를 만드는 예제는 이곳에서 찾을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Wrapper Builder
 
@@ -135,7 +197,18 @@ it("should render hello", () => {
 
 컴포넌트의 종속성을 모킹하기 위해 jest.mock을 사용하는 개발자들을 종종 보게 됩니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 jest.mock("react-i18next", () => ({
@@ -154,14 +227,27 @@ jest.mock("react-i18next", () => ({
 
 ## 래퍼 사용하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테스트에서 모듈 전체를 가짜로 만들지 않고도 테스트에 문맥을 추가할 수 있게 해주기 위해 testing-library는 래퍼(wrapper)의 원칙을 소개했습니다.
 
 랩퍼는 예를 들어 Context Provider나 상태가 이미 초기화된 Redux Provider가 될 수 있습니다.
 
 ```js
-const Wrapper: React.FC<PropsWithChildren> = ({ children }) => <Provider store={alreadyInitializedState}>{children}</Provider>;
+const Wrapper: React.FC<PropsWithChildren> = ({ children }) => (
+  <Provider store={alreadyInitializedState}>{children}</Provider>
+);
 
 it("...을 렌더링해야 합니다.", () => {
   //...
@@ -174,7 +260,18 @@ it("...을 렌더링해야 합니다.", () => {
 
 대규모 아키텍처에서는 컴포넌트가 종종 여러 프로바이더에 의존하므로 해당 테스트는 상태, HTTP 호출, 번역, 다른 맥락 등을 위한 여러 래퍼(wrapper)가 필요하며 코드가 복잡해집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 항상 동일한 Factory 패턴을 사용하는데, 연쇄 메소드를 사용해요:
 
@@ -199,7 +296,18 @@ it('should render ...', () => {
 
 # Custom Render 함수
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 testing-library로 테스트하는 경우 코드가 이렇게 보일 수 있어요:
 
@@ -228,7 +336,18 @@ it('should ...'', () => {
 - Component에 의해 사용되는 컴포넌트를 리팩토링하면 이제 컨텍스트가 필요한 경우, 모든 테스트를 업데이트하여 래퍼를 전달해야 합니다.
 - 새로운 선택적이 아닌 속성을 추가하면 모든 테스트를 업데이트해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해결책은 재사용할 사용자 정의 렌더 함수를 만드는 것입니다:
 
@@ -259,7 +378,18 @@ it("하는 일은 ...", () => {
 - 새로운 속성이 추가되면 기본 속성이 있으므로 renderTest 초기화만 수정하면 됩니다.
 - 함수 buildRenderTest 내에 기본 래퍼가 이미 설정되어 있으므로 새 종속성을 추가할 때 많은 변경을 이미 방지하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 패턴은 확장 가능한 테스트에 대한 첨단 솔루션입니다. 예를 들어 리덕스 문서에서 테스트를 작성하는 것을 권장합니다.
 
@@ -278,7 +408,18 @@ it("should ...", async () => {
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 전체 예제에 TypeScript와 호환되는 완벽한 예제를 찾을 수 있어요.
 
@@ -288,7 +429,18 @@ it("should ...", async () => {
 
 물론 이것으로 테스트 작성과 관련된 모든 어려움을 해결하지는 못해요. testing-library에는 배울 게 더 많아요. 테스트 작성 능력은 testing-library에만 한정되지 않아요. TDD나 테스트 피라미드 같은 다른 최상의 실천법도 추가할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그런데 컴포넌트를 리팩터링할 때 모든 테스트를 동시에 업데이트할 필요가 없어서 더 자신감이 있을 거예요.
 

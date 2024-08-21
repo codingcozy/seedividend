@@ -3,16 +3,13 @@ title: "TKG 서비스 클러스터 정의 완벽 가이드"
 description: ""
 coverImage: "/assets/img/2024-07-01-AcomprehensiveguidetoTKGServiceClusterdefinition_0.png"
 date: 2024-07-01 21:10
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-01-AcomprehensiveguidetoTKGServiceClusterdefinition_0.png
 tag: Tech
 originalTitle: "A comprehensive guide to TKG Service Cluster definition"
 link: "https://medium.com/@navneet-verma/a-comprehensive-guide-to-tkg-service-cluster-definition-fce2d3903b10"
 isUpdated: true
 ---
-
-
-
 
 지금부터 TKG 클러스터 리소스 정의 매니페스트의 세계로 뛰어들 준비를 해보세요! 이 설계도는 노드 구성, 저장 정책 및 네트워크 설정을 포함한 완벽한 클러스터를 정의합니다. 사용자 정의 가능한 옵션과 확장된 기능 세트로, 새 클러스터를 프로비저닝하는 것이 이제까지보다 쉬워졌습니다. 이 문서는 이 개념을 해체하고 주요 측면을 강조하며 전체 클러스터 구성 프로세스를 어떻게 간소화하는지 보여줍니다.
 
@@ -61,12 +58,21 @@ spec:
 
 ## spec
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 apiVersion: cluster.x-k8s.io/v1beta1
 kind: Cluster
 metadata:
-  name: 
+  name:
 spec:
   clusterNetwork:
   topology:
@@ -79,7 +85,18 @@ spec:
 ## spec.clusterNetwork
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```yaml
 clusterNetwork:
@@ -99,8 +116,18 @@ clusterNetwork:
 
 ## spec.topology
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```yaml
 topology:
@@ -121,8 +148,18 @@ NAME                     AGE
 tanzukubernetescluster   3d6h
 ```
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이름에서 알 수 있듯이, 버전은 클러스터 API가 TKG 클러스터를 배포하는 데 사용할 TKr 버전을 지정합니다.
 
@@ -144,30 +181,41 @@ v1.29.4---vmware.3-fips.1-tkg.1       v1.29.4+vmware.3-fips.1-tkg.1       True  
 
 ## spec.topology.controlPlane
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```yaml
 controlPlane:
-#      machineHealthCheck:
-#        enable: true
-#        maxUnhealthy: 100%
-#        nodeStartupTimeout: 4h0m0s
-#        unhealthyConditions:
-#        - status: Unknown
-#          timeout: 5m0s
-#          type: Ready
-#       - status: "False"
-#          timeout: 12m0s
-#          type: Ready
-      metadata:
-        annotations:
-          run.tanzu.vmware.com/resolve-os-image: os-name=ubuntu
-        labels:
-          my-custom-label-key: my-custom-label-value
-#      nodeDeletionTimeout: "10s"
-#      nodeDrainTimeout: "0s"
-#      nodeVolumeDetachTimeout: "0s"
-      replicas: 1
+  #      machineHealthCheck:
+  #        enable: true
+  #        maxUnhealthy: 100%
+  #        nodeStartupTimeout: 4h0m0s
+  #        unhealthyConditions:
+  #        - status: Unknown
+  #          timeout: 5m0s
+  #          type: Ready
+  #       - status: "False"
+  #          timeout: 12m0s
+  #          type: Ready
+  metadata:
+    annotations:
+      run.tanzu.vmware.com/resolve-os-image: os-name=ubuntu
+    labels:
+      my-custom-label-key: my-custom-label-value
+  #      nodeDeletionTimeout: "10s"
+  #      nodeDrainTimeout: "0s"
+  #      nodeVolumeDetachTimeout: "0s"
+  replicas: 1
 ```
 
 이 섹션은 ClusterAPI를 사용하여 클러스터의 콘트롤 플레인을 생성하는 프로세스를 설명합니다.
@@ -179,43 +227,54 @@ controlPlane:
 
 ## spec.topology.workers
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```yaml
-   workers:
-     machineDeployments:
-     - class: node-pool
-#        failureDomain: zone1
-#        machineHealthCheck:
-#          enable: true
-#          maxUnhealthy: 100%
-#          nodeStartupTimeout: 4h0m0s
-#          unhealthyConditions:
-#          - status: Unknown
-#            timeout: 5m0s
-#            type: Ready
-#          - status: "False"
-#            timeout: 12m0s
-#            type: Ready
-       metadata:
-         annotations:
-           cluster.x-k8s.io/cluster-api-autoscaler-node-group-max-size: "3"
-           cluster.x-k8s.io/cluster-api-autoscaler-node-group-min-size: "1"
-           run.tanzu.vmware.com/resolve-os-image: os-name=ubuntu
-         labels:
-           my-custom-label-key: my-custom-label-value
-       minReadySeconds: 0
-       name: node-pool-1
-#        nodeDeletionTimeout: "10s"
-#        nodeDrainTimeout: "0s"
-#        nodeVolumeDetachTimeout: "0s"
-#        replicas: 1
-       variables:
-         overrides:
-         - name: vmClass
-           value: best-effort-medium
-         - name: nodePoolLabels
-           value: [{ "key": "my-nodepool-name", "value": "node-pool-1" }]
+workers:
+  machineDeployments:
+    - class: node-pool
+      #        failureDomain: zone1
+      #        machineHealthCheck:
+      #          enable: true
+      #          maxUnhealthy: 100%
+      #          nodeStartupTimeout: 4h0m0s
+      #          unhealthyConditions:
+      #          - status: Unknown
+      #            timeout: 5m0s
+      #            type: Ready
+      #          - status: "False"
+      #            timeout: 12m0s
+      #            type: Ready
+      metadata:
+        annotations:
+          cluster.x-k8s.io/cluster-api-autoscaler-node-group-max-size: "3"
+          cluster.x-k8s.io/cluster-api-autoscaler-node-group-min-size: "1"
+          run.tanzu.vmware.com/resolve-os-image: os-name=ubuntu
+        labels:
+          my-custom-label-key: my-custom-label-value
+      minReadySeconds: 0
+      name: node-pool-1
+      #        nodeDeletionTimeout: "10s"
+      #        nodeDrainTimeout: "0s"
+      #        nodeVolumeDetachTimeout: "0s"
+      #        replicas: 1
+      variables:
+        overrides:
+          - name: vmClass
+            value: best-effort-medium
+          - name: nodePoolLabels
+            value: [{ "key": "my-nodepool-name", "value": "node-pool-1" }]
 ```
 
 이 섹션은 클러스터의 워커 노드를 구성하는 다양한 구성 요소를 다룹니다. 여러 워커 노드를 machineDeployments 내에서 그룹화할 수 있습니다. 각 machineDeployment(node-pool-1 예제에서) 내에서 다음 구성을 설정할 수 있습니다: —
@@ -229,8 +288,18 @@ controlPlane:
 
 ## spec.topology.variables
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```yaml
 변수:
@@ -257,28 +326,28 @@ controlPlane:
             - identity: {}
   - name: nodePoolVolumes
     value:
-    - capacity:
-        storage: "15Gi"
-      mountPath: "/var/lib/containerd"
-      name: containerd
-      storageClass: tanzu
-    - capacity:
-        storage: "15Gi"
-      mountPath: "/var/lib/kubelet"
-      name: kubelet
-      storageClass: tanzu
+      - capacity:
+          storage: "15Gi"
+        mountPath: "/var/lib/containerd"
+        name: containerd
+        storageClass: tanzu
+      - capacity:
+          storage: "15Gi"
+        mountPath: "/var/lib/kubelet"
+        name: kubelet
+        storageClass: tanzu
   - name: controlPlaneVolumes
     value:
-    - capacity:
-        storage: "15Gi"
-      mountPath: "/var/lib/containerd"
-      name: containerd
-      storageClass: tanzu
-    - capacity:
-        storage: "15Gi"
-      mountPath: "/var/lib/kubelet"
-      name: kubelet
-      storageClass: tanzu
+      - capacity:
+          storage: "15Gi"
+        mountPath: "/var/lib/containerd"
+        name: containerd
+        storageClass: tanzu
+      - capacity:
+          storage: "15Gi"
+        mountPath: "/var/lib/kubelet"
+        name: kubelet
+        storageClass: tanzu
   - name: podSecurityStandard
     value:
       audit: restricted
@@ -330,7 +399,18 @@ volumeSnapshotClasses
 
 controlPlaneCertificateRotation: 이 기능은 최근 vSphere 8.0 버전에 추가되었습니다. 시스템이 제어 플레인 노드의 TLS 인증서를 만료되기 전에 교체하도록 허용합니다. 제어 플레인 인증서 교체는 새 제어 플레인 노드와 기존 노드 모두에 적용되며, 값은 7일에서 90일 사이로 설정할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 controlPlaneVolumes과 nodePoolVolumes: 이 기능을 사용하면 control plane 노드와 워커 노드를 위해 지속적인 볼륨을 설정할 수 있습니다. 현재, 이러한 지속적인 볼륨을 지원하는 마운트 포인트는 노드의 /var/lib/containerd 및 /var/lib/kubelet 디렉터리입니다. 사용자들은 variables.overrides 옵션을 사용하여 각각의 워커 머신 배포에 크기가 다른 볼륨을 가질 수 있습니다.
 

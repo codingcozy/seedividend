@@ -3,16 +3,13 @@ title: "React Hook Form과 Zod, MUI로 React Form 만들기"
 description: ""
 coverImage: "/assets/img/2024-05-01-SuperchargeyourReactFormswithReactHookFormZodandMUIAPowerfulTrio_0.png"
 date: 2024-05-01 17:57
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-01-SuperchargeyourReactFormswithReactHookFormZodandMUIAPowerfulTrio_0.png
 tag: Tech
 originalTitle: "Supercharge your React Forms with React Hook Form, Zod, and MUI: A Powerful Trio"
 link: "https://medium.com/@charuwaka/supercharge-your-react-forms-with-react-hook-form-zod-and-mui-a-powerful-trio-47b653e7dce0"
 isUpdated: true
 ---
-
-
-
 
 React Hook Form과 Zod 스키마를 사용하여 효율적으로 유효성을 검사하는 방법을 배우세요. MUI 컨트롤과 함께 사용하여 양식 유효성 검사 능력을 한 단계 업그레이드하세요. 이 포괄적인 가이드를 통해 React 애플리케이션에서 견고함과 정확성을 보장하세요. 통합 프로세스를 몰두하고 개발 워크플로우를 간소화하세요!
 
@@ -22,7 +19,18 @@ React Hook Form과 Zod 스키마를 사용하여 효율적으로 유효성을 �
 
 React Hook Form:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 선언적 접근 방식: 등록, 유효성 검사 및 제출에 대한 후크를 사용하여 양식 관리를 간소화합니다.
 - 내장 유효성 검사: 외부 라이브러리가 필요하지 않습니다. 양식 내에서 직접 유효성 검사 규칙을 정의하세요.
@@ -36,7 +44,18 @@ Zod:
 
 MUI:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 아름다운 UI 구성 요소: 미리 만들어진 MUI 컴포넌트를 사용하여 시각적으로 매력적이고 접근성 있는 양식을 만들어보세요.
 - 사용자 정의: 브랜드 아이덴티티에 맞춰 테마를 사용자 정의하여 앱 UI의 모양과 느낌을 조정하세요.
@@ -51,7 +70,18 @@ MUI:
 
 예제를 만들어봅시다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 폼 유효성 검사를 위한 Zod 스키마 정의
@@ -59,11 +89,7 @@ MUI:
 const schema = z.object({
   email: z.string().email("유효하지 않은 이메일입니다.").min(1, "이메일은 필수입니다."),
   password: z.string().min(6, "비밀번호는 최소 6자 이상이어야 합니다."),
-  phoneNumber: z
-    .string()
-    .min(10, "전화번호는 최소 10자 이상이어야 합니다.")
-    .max(10)
-    .optional(),
+  phoneNumber: z.string().min(10, "전화번호는 최소 10자 이상이어야 합니다.").max(10).optional(),
   country: z.string().min(1, "국가는 필수입니다."),
 });
 ```
@@ -77,19 +103,15 @@ const addressSchema = z.object({
   zipCode: z
     .string()
     .min(5, "우편번호는 최소 5자 이상이어야 합니다.")
-    .refine(value => /^\d+$/.test(value), {
-      message: "우편번호는 숫자로만 이루어져야 합니다."
+    .refine((value) => /^\d+$/.test(value), {
+      message: "우편번호는 숫자로만 이루어져야 합니다.",
     }),
 });
 
 const userSchema = z.object({
   email: z.string().email("유효하지 않은 이메일입니다.").min(1, "이메일은 필수입니다."),
   password: z.string().min(6, "비밀번호는 최소 6자 이상이어야 합니다."),
-  phoneNumber: z
-    .string()
-    .min(10, "전화번호는 최소 10자 이상이어야 합니다.")
-    .max(10)
-    .optional(),
+  phoneNumber: z.string().min(10, "전화번호는 최소 10자 이상이어야 합니다.").max(10).optional(),
   country: z.string().min(1, "국가는 필수입니다."),
   address: addressSchema,
 });
@@ -97,7 +119,18 @@ const userSchema = z.object({
 
 폼 데이터의 유형을 정의하고 useForm 훅을 사용하여 입력 상태를 관리하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 폼 데이터 유형 정의
@@ -112,21 +145,24 @@ const {
   watch,
   // formState: 폼 상태 정보를 포함한 객체
   formState: { errors, touchedFields }, // formState에서 errors 및 touchedFields를 구조분해합니다
-} = useForm<FormData>({ // generic 타입 FormData로 useForm 훅 호출
+} = useForm <
+FormData >
+{
+  // generic 타입 FormData로 useForm 훅 호출
   // resolver: Zod를 사용하여 폼 유효성 검사에 대한 리졸버 지정
   resolver: zodResolver(schema), // Zod 스키마를 리졸버에 전달
   // defaultValues: 폼 입력의 기본 값 지정
   defaultValues: {
-    email: "", 
-    password: "", 
+    email: "",
+    password: "",
     phoneNumber: "",
     country: "",
   },
-});
+};
 
- const onSubmit = (data: FormData) => {
-    console.log(data); // 제출된 데이터로 API 호출
- };
+const onSubmit = (data: FormData) => {
+  console.log(data); // 제출된 데이터로 API 호출
+};
 ```
 
 React Hook Form과 Material-UI 컴포넌트, MUI 폼 컨트롤을 사용하여 폼을 생성해봅시다.
@@ -188,7 +224,18 @@ React Hook Form과 Material-UI 컴포넌트, MUI 폼 컨트롤을 사용하여 �
 
 위의 코드에서 무슨 일이 벌어지고 있는지 설명드리겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 - defaultValue={defaultValues.phoneNumber}: 여기서는 입력 필드의 기본값을 저장된 값으로 설정합니다.
@@ -203,7 +250,18 @@ React Hook Form과 Material-UI 컴포넌트, MUI 폼 컨트롤을 사용하여 �
 
 예를 들어 사용자가 상호 작용한 필드에 대해서만 유효성 검사 오류를 표시하고 싶을 수 있습니다. 필드의 touched 상태가 true인지 확인하여 오류 메시지를 조건부로 렌더링할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 error={!!errors.firstName && touchedFields.firstName}
@@ -212,21 +270,32 @@ error={!!errors.firstName && touchedFields.firstName}
 watch를 사용하면 사용자가 입력하는 값의 변경 사항을 추적하고 반응할 수 있습니다. 비밀번호를 입력할 때 암호 강도를 표시하고 싶다면, 입력 값을 기반으로 실시간으로 유효성을 검사하는 watch를 사용하여 이를 달성할 수 있습니다.
 
 ```js
-const password = watch('password');
+const password = watch("password");
 
 useEffect(() => {
-    console.log(passwordWatch); // 로깅
-    if (password.length < 8 || !hasAlphabet(password) || !hasLowercase(password) || !hasSpecialCharacter(password)) {
-      // 비밀번호 강도 경고 표시
-    } else {
-      // 경고 숨기기
-    }
-  }, [password]);
+  console.log(passwordWatch); // 로깅
+  if (password.length < 8 || !hasAlphabet(password) || !hasLowercase(password) || !hasSpecialCharacter(password)) {
+    // 비밀번호 강도 경고 표시
+  } else {
+    // 경고 숨기기
+  }
+}, [password]);
 ```
 
 비밀번호가 변경될 때마다 비밀번호 값이 변경되는 것을 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-05-01-SuperchargeyourReactFormswithReactHookFormZodandMUIAPowerfulTrio_2.png" />
 
@@ -237,7 +306,18 @@ FormControl
 - Material-UI의 컴포넌트: 이 컴포넌트는 텍스트 필드, 체크박스, 라디오 버튼과 같은 폼 컨트롤을 스타일링하고 그룹화하기 위해 특별히 디자인된 컴포넌트입니다. 시각적 일관성과 접근성을 위한 스타일링 및 레이아웃 옵션을 제공합니다.
 - 예시: 코드에서 FormControl은 이메일과 비밀번호 필드를 위해 InputLabel과 Select 컴포넌트를 감싸는 데 사용되어, 레이블과 에러 처리를 포함하는 스타일링된 인풋 그룹을 만듭니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컨트롤
 
@@ -248,7 +328,18 @@ FormControl
 
 react-hook-form-mui 라이브러리를 사용하는 것을 고려해보세요. 이 라이브러리는 Material-UI 구성요소에 대한 사용자 지정 컴포넌트 및 래퍼를 제공하며, react-hook-form과 원활하게 통합됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 일반 사용 사례
 
@@ -258,7 +349,18 @@ Material-UI 구성 요소를 사용할 때는 register 및 Controller 간의 선
 
 - 제어된 동작을 갖는 기본 Material-UI 구성 요소:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 텍스트 필드
 - 선택
@@ -274,7 +376,18 @@ Material-UI 구성 요소를 사용할 때는 register 및 Controller 간의 선
 - 시간 선택기
 - 스위치
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 주요 기능
 
@@ -284,7 +397,18 @@ Re-Renderers 분리하기는 React Hook Form의 기능 중 하나로, 필요한 
 
 세 개의 자식 컴포넌트를 포함한 폼이 있다고 상상해봅시다: 자식 컴포넌트 A, 자식 컴포넌트 B, 자식 컴포넌트 C. 제어되는 폼에서 자식 컴포넌트 A를 변경하면, 자식 컴포넌트 B와 자식 컴포넌트 C가 업데이트될 필요가 없더라도 세 개의 자식 컴포넌트가 모두 다시 렌더링됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React Hook Form을 사용하면 Child Component A의 다시 렌더링을 격리시켜 해당 컴포넌트가 변경되었을 때 해당 컴포넌트만 다시 렌더링됩니다. 이렇게 하면 대형이거나 복잡한 폼을 사용할 경우 폼의 성능을 크게 향상시킬 수 있습니다.
 

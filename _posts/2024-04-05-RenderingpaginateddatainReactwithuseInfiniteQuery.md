@@ -3,17 +3,13 @@ title: "React에서 useInfiniteQuery를 사용하여 페이지네이션된 데�
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Rendering paginated data in React with useInfiniteQuery"
 link: "https://medium.com/@seeusimong/rendering-paginated-data-in-react-with-useinfinitequery-ece9771ec3a3"
 isUpdated: true
 ---
-
-
-
-
 
 ## 여러 페이지의 데이터를 가져와 표시해야 했던 적이 있나요? 아니면 무한 스크롤 피드를 구현하고 싶은 경우가 있나요? useInfiniteQuery를 사용하면 어떻게 도움을 받을 수 있는지 알아보세요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ## 동기부여
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자주 사용자 인터페이스를 구현할 때 데이터 목록을 표시하는 경우 한꺼번에 전체 목록을 가져와 사용자에게 표시하는 유혹이 있을 수 있습니다. 그러나 데이터 크기가 커지면 한꺼번에 모든 데이터를 가져오는 데 더 오래 걸리고 사용자 경험이 부정적으로 영향을 받을 수 있습니다. 이로 인해 서버가 응답하는 데 더 오랜 시간이 걸리고 이로 인해 사용자는 페이지가로드 될 때까지 더 오래 기다려야 합니다. 데이터가 한꺼번에 렌더링되어도 사용자는 화면 높이만큼만 볼 수 있으며 긴 데이터 목록에서 계층이 없으면 탐색이 어려울 수 있습니다. 이는 특히 테이블 또는 밀도 있는 데이터 디스플레이의 경우 매우 부담스러울 수 있습니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 useInfiniteQuery를 활용하여 이 문제를 완화하고 사용자 경험을 향상시키는 방법을 알아보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React에서 이 경험을 구현하려면 두 부분으로 나눠 보겠습니다:
 
@@ -44,7 +62,18 @@ React에서 이 경험을 구현하려면 두 부분으로 나눠 보겠습니�
 
 이를 애플리케이션의 맥락에 두겠습니다. '서버'에는 사용자에게 프런트엔드에 표시하고 싶은 데이터 목록이 있습니다. 인스타그램의 경우, 이는 '게시물' 항목의 피드가 될 것이고 Gitlab의 CI 러너 로그 표시의 경우, 이는 '로그 항목'의 스트림이 될 것입니다. 이미 알고 있듯이 데이터를 조회할 때 데이터베이스나 서버에 부하를 줄이기 위해 이것을 '페이지'로 분할해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러므로 데이터를 페이지별로 나누어 보여주기 위해 '커서'도 필요합니다. REST API 패턴에 익숙하신 분들에게는 자연스럽게 느껴질 것입니다. TypeScript에서는 이러한 형태로 최소한의 데이터가 REST API에서 반환되어야 합니다:
 
@@ -60,7 +89,18 @@ interface Page {
 
 이제 데이터 레이어를 설정했으니, frontend로 이동하여 useInfiniteQuery를 사용하여 페이지별 데이터를 가져오는 데 도움을 받겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Display Layer: useInfiniteQuery
 
@@ -102,7 +142,18 @@ const {
 
 이는 useInfiniteQuery 함수로 반환된 전체 객체를 해체하고 있기 때문에 그래서 복잡해 보일 수 있습니다. 위에서 보듯이, 이는 데이터 가져오기를 제어하는 다양한 유용한 상태 객체와 함수를 제공합니다. isFetchingPreviousPage와 같은 특정 상태가 필요하지 않다면 이를 생략할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저 시작하려면 다음과 같은 매개변수들이 필요합니다:
 
@@ -117,11 +168,33 @@ const {
 - error: queryFn에 의해 반환된 오류입니다. isError가 false이면 null이 될 것입니다.
 - hasNextPage 또는 hasPreviousPage: 현재 페이지에 queryFn이 해당 다음/이전 페이지를 가져올 수 있는 nextCursor 또는 lastCursor가 포함되어 있는지 여부입니다. 좀 더 자세히 살펴보도록 하죠.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 Markdown 형식으로 변경해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 1. 매개변수 없음!
@@ -140,7 +213,18 @@ const fetchData = async ({ pageParam = 0 }) => {
 
 ## 표시 레이어: 페이지네이션
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 페이지된 데이터를 보여주는 간단한 표시 컴포넌트를 구현해 보겠습니다. 이 컴포넌트는 다음 구성요소를 제공해야 합니다:
 
@@ -241,7 +325,18 @@ export default function PaginatedDisplay() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 함수형 컴포넌트에서 나타나는 것처럼, 이는 간단히 데이터 페이지를 가져와서 현재 페이지로 설정하고 페이지 배열에서 항목 목록을 표시하는 역할을 합니다. 컴포넌트는 그런 다음 마지막으로 가져온 페이지의 항목 목록을 업데이트합니다.
 
@@ -251,7 +346,18 @@ getPreviousPageParam 및 "이전 페이지" 가져오기와 관련된 모든 상
 
 ## 무한 스크롤
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금 훅을 사용하는 방법을 살펴보았으니, 알아낸 내용을 활용하여 무한 스크롤을 구현해 봅시다.
 
@@ -325,7 +431,18 @@ export default function InfiniteScrollDisplay() {
 
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 react-intersection-observer의 후크는 배열에서 두 가지 항목을 제공합니다:
 
@@ -336,7 +453,18 @@ react-intersection-observer의 후크는 배열에서 두 가지 항목을 제�
 
 useInfiniteQuery가 하는 마법은 단순히 새로운 데이터 페이지를 페이지 배열에 넣는 것입니다. 따라서 페이지는 새로운 데이터 페이지만 추가로 렌더링하면 되어 처음에 렌더링된 페이지를 그대로 유지합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인터페이스를 개선하기 위해 스타일링을 활용할 수 있으며, 데이터가 보기 좋게 표시될 수 있도록 도와줍니다. 또한, 각 데이터 항목을 props로 전달하는 Functional Component DisplayComponent도 포함되어 있음을 알 수 있습니다. 이를 통해 각 데이터 항목을 렌더링하는 책임이 해당 컴포넌트로 옮겨져, 모든 데이터 항목이 동일한 방식으로 표시됩니다.
 
@@ -347,7 +475,18 @@ useInfiniteQuery가 하는 마법은 단순히 새로운 데이터 페이지를 
 - TanStack Table — 자체 재사용 가능한 테이블 컴포넌트를 사용자 정의하는 무헤드 라이브러리입니다.
 - ShadCN UI — 호버 카드, 아코디언 등과 같은 일반 UI 컴포넌트를 사용자 정의하는 무헤드 라이브러리입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 React/Tanstack Query 프레임워크에 대해 더 자세히 알아보세요: React Query. 이 것은 전체 React 프론트엔드에서 데이터 가져오기/변이 작업 및 가져온 데이터 상태를 달라게합니다. 또한 위에 표시된 queryKey 값과 같이 가져온 데이터를 캐시하는 데 자주 사용됩니다.
 

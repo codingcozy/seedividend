@@ -3,16 +3,13 @@ title: "웹개발에서 알아둬야할 Color들"
 description: ""
 coverImage: "/assets/img/2024-05-17-BestColorsandNames_0.png"
 date: 2024-05-17 21:27
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-17-BestColorsandNames_0.png
 tag: Tech
 originalTitle: "Best Colors and Names"
 link: "https://medium.com/@hexcolors/best-colors-and-names-e257c19abe27"
 isUpdated: true
 ---
-
-
-
 
 ![이미지](/assets/img/2024-05-17-BestColorsandNames_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 hexcolor.co의 "색 이름" 섹션은 해당 HEX 코드와 함께 완벽하게 취합된 색 이름들의 포괄적이고 아름다운 컬렉션이에요. 웹 디자인, 그래픽 디자인 또는 다른 예술적 노력에서 창의성과 정밀함을 더하고 싶은 사람들을 위한 보물창고입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 이 컬러풀한 자료를 좋아할 이유
 
@@ -34,7 +42,18 @@ hexcolor.co의 "색 이름" 섹션은 해당 HEX 코드와 함께 완벽하게 �
 
 Hexcolor.co는 컬러 이름 목록 이상을 제공합니다. 웹사이트 최적화를 위한 A/B 테스트, 전자상거래 KPI, 오피스 페인트 컬러 등에 대한 통찰력을 제공하는 디자인 지식의 포괄적인 중심지입니다. 디자인과 컬러 이론을 깊이 이해하고 싶은 누구에게나 완벽한 목적지입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## "색 이름" 섹션 사용 방법
 
@@ -47,8 +66,18 @@ Hexcolor.co는 컬러 이름 목록 이상을 제공합니다. 웹사이트 최�
 
 ## 마지막으로
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Hexcolor.co에서는 세계를 더 다채롭고 창의적인 곳으로 만들고자 열정을 가지고 노력하고 있습니다. 저희의 "색 이름" 섹션은 이 의지의 증명이며, 영감을 주는 동시에 실용적인 자원을 제공합니다. 당신이 경험 많은 디자이너이든 색상 애호가이든, 여기서 좋아할 만한 것을 찾을 수 있을 겁니다.
 

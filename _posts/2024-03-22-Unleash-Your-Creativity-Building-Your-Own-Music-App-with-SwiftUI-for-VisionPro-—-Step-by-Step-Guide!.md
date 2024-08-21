@@ -3,17 +3,13 @@ title: "Swift로 비전프로용 음악 앱 만드는 방법(코드 있음)"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 Apple은 방금 첫 번째 공간 컴퓨터인 VisionPro를 발표했어요! 분명히 벌써 소문을 들었을 거에요 — 어디에서든 대단히 화제가 되고 있었죠! 하지만 최고의 부분은 뭘까요? 개발자들 입장에서 이것은 정말 혁신적인 변화죠! 마치 새로운 가능성의 세계가 열리는 듯해요! 새로운 VisionPro를 위해 앱을 개발할 수 있는 새로운 VisionOS SDK를 포함한 Xcode 15와 함께 우리는 곧바로 앱을 만들 수 있어요. 함께 새로운 모험을 시작하며 VisionOS를 위한 음악 앱을 만들어봅시다.
 
@@ -23,7 +19,18 @@ Apple은 방금 첫 번째 공간 컴퓨터인 VisionPro를 발표했어요! 분
 
 VisionOS를 위한 앱을 만들기 위해 필요한 첫 번째 것은 Xcode 15에요. 이 글을 쓰는 지금, Xcode 15의 베타 버전을 다운로드할 수 있어요. 미래에서 이 글을 보고 있다면, 아마도 이미 Xcode 15 이상의 새 버전이 있을 거예요. 아직 다운로드하지 않았다면, 다운로드하고 프로그램을 열어주세요. 새 프로젝트를 만들기를 클릭해주세요. 그리고 VisionOS 탭에 있는지 확인해주세요. 그 후에는 Xcode에서 다른 프로젝트를 만드는 것과 동일한 단계를 따르시면 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/Unleash-Your-Creativity:-Building-Your-Own-Music-App-with-SwiftUI-for-VisionPro-—-Step-by-Step-Guide!_1.png" />
 
@@ -49,7 +56,18 @@ struct ContentView: View {
 
 ## 사이드 메뉴
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금은 빈 화면만 보여요. 먼저 사이드 메뉴를 시작해볼까요? 우선, 메뉴 모델을 만들어야 해요.
 
@@ -110,7 +128,18 @@ struct SideMenuView: View {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막으로 해야 할 일은 `TODO: Side Menu`를 `SideMenuView()`로 교체하는 것이며, 그럼 우리의 사이드 메뉴 작업이 완료됩니다.
 
@@ -120,7 +149,18 @@ struct SideMenuView: View {
 
 우리는 사이드 메뉴를 마무리했고, 멋지게 보이네요! 이제 다음 큰 파트로 넘어가서 `AlbumsView`를 만들어봅시다. 이 뷰는 상단에 검색 필드를 가지고 있으며, 앨범 목록이 표시됩니다. 음악이 재생 중이라면 하단에 음악 컨트롤러가 나타납니다. 이제 `AlbumsView`를 생성해봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```swift
 struct AlbumsView: View {
@@ -181,7 +221,18 @@ let albums: [Album] = [
 ]
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 사이드 메뉴에 대해 한 것과 비슷한 작업을 했어요. 변수 이름 columns을 만들어요. 이 변수에 그리드에 원하는 레이아웃을 설명할 거에요.
 
@@ -217,7 +268,18 @@ LazyVGrid(columns: columns, spacing: 24) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ContentView로 돌아가서 TODO: Albums View를 AlbumsView()로 교체해주세요.
 
@@ -225,7 +287,18 @@ ContentView로 돌아가서 TODO: Albums View를 AlbumsView()로 교체해주세
 
 <img src="/assets/img/Unleash-Your-Creativity:-Building-Your-Own-Music-App-with-SwiftUI-for-VisionPro-—-Step-by-Step-Guide!_5.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 VisionOS에서는 툴바를 사용하여 하단 중앙에 부유하게 나타낼 수 있습니다. 이를 위해 ToolbarItemGroup 배치를 bottomOrnament로 설정해야 합니다. 아래 코드로 TODO: 미디어 컨트롤러를 교체하세요.
 
@@ -294,7 +367,18 @@ struct PlayingSongCardView: View {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금 TODO: Playing Song View를 PlayingSongCardView()로 교체해주세요.
 
@@ -304,7 +388,18 @@ struct PlayingSongCardView: View {
 
 마지막으로 탭 바를 추가하겠습니다. 이는 VisionOS에서 창의 leading 쪽에 고정된 위치에 떠 있는 수직 탭 바입니다. ContentView에서 NavigationSplitView를 TabView로 감싸세요. 그런 다음 세부 사항에 tabItem을 추가하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 struct ContentView: View {
@@ -342,4 +437,15 @@ struct ContentView: View {
 
 <img src="/assets/img/Unleash-Your-Creativity:-Building-Your-Own-Music-App-with-SwiftUI-for-VisionPro-—-Step-by-Step-Guide!_7.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

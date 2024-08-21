@@ -3,7 +3,7 @@ title: "Grok 2AI에 큰 영향을 미치는 이유"
 description: ""
 coverImage: "/assets/img/2024-08-17-Grok2WhyItsHUGEforAI_0.png"
 date: 2024-08-17 01:50
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-17-Grok2WhyItsHUGEforAI_0.png
 tag: Tech
 originalTitle: "Grok 2Why Its HUGE for AI"
@@ -11,7 +11,6 @@ link: "https://medium.com/ai-in-plain-english/grok-2-why-its-huge-for-ai-43c18a7
 isUpdated: true
 updatedAt: 1723864188620
 ---
-
 
 **엘론 머스크의 X.ai는 공식적으로 Grok 2를 출시했습니다.**
 
@@ -21,7 +20,18 @@ updatedAt: 1723864188620
 
 **"공식적으로 출시"라고 말하는 이유는 실제로 그들이 "sus-column-R"로 비밀리에 출시했기 때문입니다.**
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 많은 사람들이 sus-column-R을 다뤄보고 꽤 감명을 받았어요.
 
@@ -31,7 +41,18 @@ updatedAt: 1723864188620
 
 여기 그록 2가 큰 변화를 일으키는 이유가 4가지 있어요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Grok 2은 검열되지 않았어요
 
@@ -41,7 +62,18 @@ AI 이미지 생성에도 동일하게 적용되었습니다.
 
 X (Twitter)에서 발견한 Grok 2에 의해 만들어진 이미지가 여기 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-08-17-Grok2WhyItsHUGEforAI_1.png)
 
@@ -51,7 +83,18 @@ X (Twitter)에서 발견한 Grok 2에 의해 만들어진 이미지가 여기 �
 
 이거보다 훨씬 더 그래픽이 강한 사진들을 본 적이 있는데, Medium에서 문제가 생기는 걸 원치 않아서 이곳에는 공유하고 싶지 않아요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가독성이 좋고 사용하기 편한 Grok 2는 거의 모든 이미지를 만들어 줍니다. 이는 경쟁 제품들과는 큰 차별점입니다.
 
@@ -61,8 +104,18 @@ X (Twitter)에서 발견한 Grok 2에 의해 만들어진 이미지가 여기 �
 
 예를 들어, 저는 방금 ChatGPT에게 트럼프와 해리스가 팔씨름을 하는 이미지를 만들라고 요청했습니다. 그 결과는 바로 여기 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image 1](/assets/img/2024-08-17-Grok2WhyItsHUGEforAI_2.png)
 
@@ -72,8 +125,18 @@ I got this: (LOL!!)
 
 ![Image 2](/assets/img/2024-08-17-Grok2WhyItsHUGEforAI_3.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 글쎄요, 제 생각에는 포인트가 명확하죠.
 
@@ -83,7 +146,18 @@ Grok 2는 ChatGPT(그리고 다른 유명한 플랫폼들)보다 훨씬 적은 �
 
 경쟁은 언제나 소비자에게 좋은 요소입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Grok 2는 ChatGPT나 Claude와 같은 다른 주요 플레이어들과는 다른 규칙으로 게임하고 있어요.
 
@@ -93,7 +167,18 @@ Grok 2는 이미지 생성기를 검열되지 않은 상태로 제공하기 때�
 
 엘론 머스크는 항상 "최대한 진실을 추구하는" AI를 만들고 싶어 했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 OpenAI, Anthropic, Meta 또는 다른 사이트들은 이 아이디어에 대해 언급한 적이 없네요.
 
@@ -103,7 +188,18 @@ OpenAI, Anthropic, Meta 또는 다른 사이트들은 이 아이디어에 대해
 
 이것은 Grok 2가 자신의 AI의 전체 능력을 사용하여 원하는 방식으로 답변할 수 있도록 자유롭다는 것을 의미합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다른 LLM들은 모두 답변이 최소한으로 모욕적이지 않도록 프로그래밍되어 있습니다.
 
@@ -113,7 +209,18 @@ AI 이미지와 마찬가지로, 이 "최대 진실 추구" 아이디어는 Grok
 
 # X.ai는 AI 게임에 늦게 참여했지만 빠르게 따라잡고 있습니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 X.ai는 경쟁 모델을 빠르게 만들 수 있다는 것을 보여주고 있어요.
 
@@ -123,7 +230,18 @@ X.ai 팀의 이 인상적인 속도는 경쟁사가 더 빨리 새로운 AI 기�
 
 # 노트:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 귀하의 비즈니스나 웹사이트를 위해 맞춤 AI 챗봇을 개발해달라면 아래로 연락 주세요. 빠르게 회신해 드리겠습니다:
 
@@ -133,7 +251,18 @@ AI Growth Guys Contact ✉️
 
 LinkedIn에서 저를 팔로우해주세요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AI로 더 많은 돈을 벌 수 있는 방법에 대한 뉴스레터에 가입하실 수도 있어요.
 

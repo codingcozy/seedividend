@@ -3,16 +3,13 @@ title: "효과적인 데이터베이스 스케일링 방법 파트 1"
 description: ""
 coverImage: "/assets/img/2024-07-09-EffectiveDatabaseScalingPart1_0.png"
 date: 2024-07-09 09:34
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-EffectiveDatabaseScalingPart1_0.png
 tag: Tech
 originalTitle: "Effective Database Scaling: Part 1"
 link: "https://medium.com/@pujapandey73020/effective-database-scaling-part-1-fd3b216c6a69"
 isUpdated: true
 ---
-
-
-
 
 # 성능 및 용량 향상 전략
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 올바른 데이터베이스 확장 전략을 선택하는 것이 중요합니다. 잘못된 선택은 오히려 해를 끼칠 수 있으므로 올바른 접근 방식을 이해하고 구현하는 것이 성공의 핵심입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터베이스 스케일링 전략은 응용 프로그램이 성장함에 따라 증가하는 부하를 관리하고 최적의 성능을 보장하는 기술입니다. 일반적으로 사용하는 몇 가지 전략은 다음과 같습니다:
 
@@ -43,7 +51,18 @@ CREATE TABLE products (
 CREATE INDEX idx_product_name ON products(product_name);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Effective Database Scaling Part 1](/assets/img/2024-07-09-EffectiveDatabaseScalingPart1_0.png)
 
@@ -56,7 +75,18 @@ CREATE INDEX idx_product_name ON products(product_name);
 
 거래오프 :
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인덱스를 저장하려면 본 테이블과 다른 별도의 테이블이 필요하며, 각 인덱스에는 디스크에 추가적인 공간이 필요합니다.
 
@@ -66,8 +96,18 @@ CREATE INDEX idx_product_name ON products(product_name);
 
 다음 구조로 판매 테이블이 있는 경우:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 CREATE TABLE sales (
@@ -86,16 +126,27 @@ CREATE TABLE sales (
 ```js
 -- 월별 매출 총액용 머티얼라이즈 뷰 생성
 CREATE MATERIALIZED VIEW mv_monthly_sales_totals AS
-SELECT 
+SELECT
     DATE_TRUNC('month', transaction_date) AS month,
     SUM(amount) AS total_sales
-FROM 
+FROM
     sales
-GROUP BY 
+GROUP BY
     DATE_TRUNC('month', transaction_date);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 -- 매월 판매 총액을 계산하기 위해 materialized view를 쿼리합니다.
@@ -109,7 +160,18 @@ SELECT * FROM mv_monthly_sales_totals;
 
 양보 사항:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 추가 저장 공간을 사용하는 양
 - 머티얼라이즈 뷰를 새로 고침하는 것은 특히 많은 데이터 세트를 사용할 수 있습니다.
@@ -121,7 +183,18 @@ SELECT * FROM mv_monthly_sales_totals;
 
 ## 캐싱에 관련된 단계:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 초기 요청:
 
@@ -132,7 +205,18 @@ SELECT * FROM mv_monthly_sales_totals;
 
 - 제품 목록이 데이터베이스에서 검색되면, 웹 애플리케이션은 이 목록을 지정된 캐시 메모리나 저장 영역에 저장(또는 캐시)합니다. 일반적인 캐싱 메커니즘에는 Redis 또는 Memcached와 같은 메모리 내 캐시뿐만 아니라 브라우저 캐시도 포함됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나중에 나오는 요청:
 
@@ -144,7 +228,18 @@ SELECT * FROM mv_monthly_sales_totals;
 - 주기적으로 또는 변경 사항이 발생할 때마다 (예: 새 제품이 인기를 얻을 때), 웹 애플리케이션이 캐시된 제품 목록을 업데이트합니다.
 - 이 프로세스는 시간 간격에 기반하여 자동화될 수 있거나 데이터베이스의 제품 데이터에 변경 사항이 있을 때 수동으로 트리거될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 혜택:
 
@@ -163,7 +258,18 @@ SELECT * FROM mv_monthly_sales_totals;
 - 캐시 일관성: 분산 환경에서 여러 캐시 인스턴스나 노드 간의 캐시 일관성을 유지하는 것은 어려울 수 있습니다. 모든 캐시가 가장 최신의 데이터 상태를 반영하도록 보장하려면 신중한 동기화 및 일관성 메커니즘이 필요합니다.
 - 개발 및 유지 관리 노력 증가: 효과적인 캐싱 전략을 디자인, 구현 및 유지 관리하는 데는 추가 개발 노력이 필요하며 성능 최적화 및 잠재적인 문제에 대응하기 위해 지속적인 모니터링이 필요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 트레이드 오프 완화하기
 
@@ -177,7 +283,18 @@ SELECT * FROM mv_monthly_sales_totals;
 - 캐시 무효화: 캐시된 데이터가 정확하고 최신 상태를 유지하는 것이 중요합니다. 만료 시간 설정 또는 데이터 변경 시 수동으로 캐시 항목을 무효화하는 전략이 중요합니다.
 - 캐시 제거 정책: 캐싱 시스템은 종종 캐시 크기를 관리하고 가장 자주 액세스될 가능성이 높은 데이터를 우선하는 제거 정책(예: LRU - 가장 최근에 사용된 것 우선)을 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앞으로 미래에 더 많은 콘텐츠를 기대해 주세요. 데이터 및 프로그래밍 관련 주제에 대한 업데이트 및 추가 정보를 위해 저를 팔로우해 주세요.
 

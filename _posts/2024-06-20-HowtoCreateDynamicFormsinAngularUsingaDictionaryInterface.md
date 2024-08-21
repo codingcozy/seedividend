@@ -3,17 +3,13 @@ title: "앵귤러에서 사전 인터페이스를 활용하여 동적 폼 생성
 description: ""
 coverImage: "/assets/img/2024-06-20-HowtoCreateDynamicFormsinAngularUsingaDictionaryInterface_0.png"
 date: 2024-06-20 02:35
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-HowtoCreateDynamicFormsinAngularUsingaDictionaryInterface_0.png
 tag: Tech
 originalTitle: "How to Create Dynamic Forms in Angular Using a Dictionary Interface"
 link: "https://medium.com/stackademic/how-to-create-dynamic-forms-in-angular-using-a-dictionary-interface-36aac956fa86"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-06-20-HowtoCreateDynamicFormsinAngularUsingaDictionaryInterface_0.png)
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 먼저 Dictionary 인터페이스를 정의해봅시다. 이 인터페이스를 사용하면 문자열 또는 중첩된 사전을 포함할 수 있는 재귀 형식을 사용할 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 export interface Dictionary {
@@ -38,11 +44,22 @@ export interface Dictionary {
 
 다음은 DynamicFormGeneratorService입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```ts
 @Injectable({
-  providedIn: 'root',
+  providedIn: "root",
 })
 export class DynamicFormGeneratorService {
   #fb = inject(FormBuilder);
@@ -54,7 +71,7 @@ export class DynamicFormGeneratorService {
 
   private createControls(data: Dictionary): { [key: string]: AbstractControl } {
     return Object.keys(data).reduce((controls, key) => {
-      if (typeof data[key] === 'object' && data[key] !== null) {
+      if (typeof data[key] === "object" && data[key] !== null) {
         controls[key] = this.#fb.group(this.createControls(data[key] as Dictionary));
       } else {
         controls[key] = new FormControl(data[key] as string, Validators.required);
@@ -71,8 +88,18 @@ export class DynamicFormGeneratorService {
 
 다음은 DynamicFormGroupComponent의 TypeScript 코드입니다:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 @Component({
@@ -163,39 +190,48 @@ export class DynamicFormGroupComponent implements OnInit {
 
 # 모두 함께 넣어보기
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 동적 양식을 애플리케이션에서 사용하려면 일반적으로 사전 데이터를 제공하고 양식 제출을 처리하는 부모 구성 요소가 있는 것이 일반적입니다:
 
 ```js
 export class AppComponent {
-  title = 'dynamic-forms';
+  title = "dynamic-forms";
 
   onFormValues(values: Dictionary) {
     console.table(values);
   }
 
   contract: Dictionary = {
-    contractId: 'C12345',
-    contractType: 'Employment',
-    startDate: '2024-01-01',
-    endDate: '2025-01-01',
+    contractId: "C12345",
+    contractType: "Employment",
+    startDate: "2024-01-01",
+    endDate: "2025-01-01",
     employer: {
-      name: 'Tech Corp Inc.',
-      address: '456 Technology Drive, Silicon Valley, USA',
+      name: "Tech Corp Inc.",
+      address: "456 Technology Drive, Silicon Valley, USA",
       contact: {
-        phone: '555-1234',
-        email: 'hr@techcorp.com',
+        phone: "555-1234",
+        email: "hr@techcorp.com",
       },
     },
 
     jobDetails: {
-      jobTitle: 'Senior Developer',
-      jobDescription:
-        'Responsible for developing and maintaining web applications.',
-      salary: '75000',
-      benefits: 'Health, Dental, Vision',
+      jobTitle: "Senior Developer",
+      jobDescription: "Responsible for developing and maintaining web applications.",
+      salary: "75000",
+      benefits: "Health, Dental, Vision",
     },
   };
 }
@@ -205,7 +241,18 @@ export class AppComponent {
 
 <img src="/assets/img/2024-06-20-HowtoCreateDynamicFormsinAngularUsingaDictionaryInterface_1.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -215,7 +262,18 @@ export class AppComponent {
 
 이 기사를 즐겼고 연결하고 싶다면 LinkedIn에서 저를 팔로우해 주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 스택데미크 🎓
 

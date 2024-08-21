@@ -3,17 +3,13 @@ title: "애니메이션으로 귀여운 강아지 만들기 HTML과 CSS 활용�
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Animated Cute Puppy with HTML and CSS  FREE Source Code"
 link: "https://medium.com/@withaarzoo/animated-cute-puppy-with-html-and-css-free-source-code-d751cd226909"
 isUpdated: true
 ---
-
-
-
-
 
 ![Cute Puppy](https://miro.medium.com/v2/resize:fit:1200/1*6rgKO2c0cIVC3UL13Hm0gA.gif)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 애니메이션된 귀여운 강아지 프로젝트는 웹 애니메이션 기술을 통해 매력적이고 재미있는 캐릭터를 만들고자 합니다. HTML을 구조에 활용하고 CSS를 스타일링 및 애니메이션에 활용함으로써 시각적으로 매력적이고 상호작용적인 경험을 이룰 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 시작하기
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 # HTML 구조
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리 애니메이션 강아지의 구조를 나타내는 HTML 파일이 있습니다. 이 파일에는 머리, 귀, 눈, 코, 입, 몸통, 꼬리, 발 등을 나타내는 다양한 `div` 요소가 포함되어 있습니다. 이러한 요소들은 CSS를 사용하여 신중하게 배치되고 스타일이 적용되어 강아지의 전체적인 외관을 만들어 냅니다.
 
@@ -43,7 +61,18 @@ CSS는 요소를 스타일링하고 생생한 동작을 구현하기 위해 이�
 
 # 사용법과 사용자 정의
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 귀여운 애니메이션 강아지를 보려면 웹 브라우저에서 HTML 파일을 열기만 하면 됩니다. CSS 파일을 수정하여 애니메이션을 사용자 정의하거나 더 많은 기능을 추가할 수도 있습니다. 다양한 애니메이션 타이밍, 변형 및 스타일을 실험하여 고유한 애니메이션 강아지를 만들어보세요.
 
@@ -53,7 +82,18 @@ CSS는 요소를 스타일링하고 생생한 동작을 구현하기 위해 이�
 
 이 프로젝트에 대한 질문이나 피드백이 있으면 언제든지 연락주세요. #100DaysOfCode 챌린지 여정을 계속하며 더욱 흥미로운 프로젝트가 기다리고 있습니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 행복한 코딩! 🐾✨
 

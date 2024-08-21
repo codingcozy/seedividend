@@ -3,17 +3,13 @@ title: "NestJS의 비즈니스 로직 조직 이해하기"
 description: ""
 coverImage: "/assets/img/2024-05-27-UnderstandingNestJSsBusinessLogicOrganization_0.png"
 date: 2024-05-27 18:47
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-UnderstandingNestJSsBusinessLogicOrganization_0.png
 tag: Tech
 originalTitle: "Understanding NestJS’s Business Logic Organization"
 link: "https://medium.com/@dpericich/understanding-nestjss-business-logic-organization-5504b4ee0487"
 isUpdated: true
 ---
-
-
-
-
 
 ![Understanding NestJS's Business Logic Organization](/assets/img/2024-05-27-UnderstandingNestJSsBusinessLogicOrganization_0.png)
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 NestJS는 구성 기반의 백엔드 프레임워크입니다. JavaScript로 작성되었지만 TypeScript를 사용할 때 가장 빛을 발합니다. 기본 NodeJS와 Express의 Wild West 접근 방식과 Ruby on Rails의 엄격한 규칙 기반 접근 방식과는 다릅니다. NestJS는 애플리케이션 개발을 위한 최상의 관행을 형성하면서도 유연한 디자인을 가능하게 하는 패턴 또는 레시피를 제공합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 NestJS 프로젝트의 설정은 모듈의 조율에 중점을 두고 있습니다. 모든 로직은 기능을 제공하거나 사용하는 모듈에 래핑되어 있습니다. 다른 소프트웨어와 마찬가지로 진입점이 있으며 서로 의존하는 웹이 있습니다:
 
@@ -34,7 +40,18 @@ NestJS는 사용자 요청을 처리하기 위해 서비스와 리포지토리�
 
 ## NestJS에서 컨트롤러는 무엇을 하는가?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 것은 컨트롤러에서 시작됩니다. 클래식 MVC 프로젝트에서는 컨트롤러가 프로젝트의 많은 부분을 책임집니다. 뷰는 서버에서 반환된 데이터를 반영합니다. 모델은 데이터 구조를 제공하고 레코드와 관련된 비즈니스 로직을 저장하며, 컨트롤러는 이들 간의 모든 것을 조율합니다.
 
@@ -44,7 +61,18 @@ NestJS에서는 컨트롤러의 역할이 요청을 수락하고 일부 유효�
 
 ![이미지](/assets/img/2024-05-27-UnderstandingNestJSsBusinessLogicOrganization_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## NestJS에서 서비스는 무엇을 하는가요?
 
@@ -54,7 +82,18 @@ NestJS에서는 컨트롤러의 역할이 요청을 수락하고 일부 유효�
 
 ## NestJS에서 리포지토리는 무엇을 하는가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저장소는 데이터베이스로의 요청을 처리합니다. 사용자의 요청이 올바른 비즈니스 로직(컨트롤러에 의해)으로 라우팅되고 데이터에 필요한 작업(서비스에 의해)이 수행되면 업데이트된 응용 프로그램 상태를 영속화할 준비가 됩니다.
 

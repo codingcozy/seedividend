@@ -3,16 +3,13 @@ title: "완벽한 코드 블로그를 만드는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-23-Howtocreatetheperfectcodeblog_0.png"
 date: 2024-06-23 14:18
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-Howtocreatetheperfectcodeblog_0.png
 tag: Tech
 originalTitle: "How to create the perfect code blog"
 link: "https://medium.com/@abenezerdaniel147/how-to-create-the-perfect-code-blog-f3329b3fea5d"
 isUpdated: true
 ---
-
-
-
 
 ![Code Block Image](/assets/img/2024-06-23-Howtocreatetheperfectcodeblog_0.png)
 
@@ -22,7 +19,18 @@ A code block is a section of a website's content used to display the syntax of a
 
 ## 2. Creating a basic code block
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코드 블록을 만들려면 두 가지 HTML 태그 중 하나를 사용합니다. `code` 태그는 일반적으로 텍스트 편집기에서 볼 수 있는 스타일로 내용을 표시하는 데 사용됩니다. 이 스타일링은 주로 글꼴에서 확인할 수 있습니다. 글꼴은 IDE와 같은 글꼴 패밀리로 변경됩니다. 다른 태그인 `pre`는 텍스트를 그대로 표시하는 데 사용됩니다. HTML에서 텍스트는 단일 공백과 단일 줄 바꿈만 존재하도록 다듬지만 `pre` 태그를 사용하면 작성하는 동안 입력한 모든 공백과 줄 바꿈이 고려됩니다.
 
@@ -40,7 +48,18 @@ function greetings() {
 
 위 코드에서 보듯이, 코드가 태그로 둘러싸여 있기 때문에 코드 태그에 있는 모든 것이 그대로 형식화되도록 pre 태그를 사용하고, 동시에 코드 태그를 사용하여 글꼴을 변경하고 웹 사이트를 의미적으로 만듭니다. 이 코드의 형식은 깨져 보일 수 있지만, 이것이 바로 pre 태그에 내용을 작성할 때 들여쓰기 없이 작성해야 하는 방식입니다. 코드 태그에서는 코드 블록이 작동하는지 테스트하는 데 도움이 되는 간단한 JavaScript 코드만 작성했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 3. 문법 강조 기능 추가하기
 
@@ -52,8 +71,18 @@ function greetings() {
 
 두 번째로 해야 할 일은 우리 코드 태그에 "prettyprint" 클래스를 지정하여 라이브러리가 문법 강조 기능을 적용할 위치를 알 수 있게 하는 것입니다. 사용할 클래스는 이미 문서에서 미리 정해져 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <pre>
@@ -71,8 +100,18 @@ function greetings() {
 
 코드 블록에 일반적인 기능으로 사용자가 코드를 선택하지 않고도 쉽게 복사할 수 있는 방법을 제공하는 것이 좋습니다. 특히 대규모 코드 블록을 다룰 때 마우스로 코드를 모두 선택해야 하는 것은 귀찮을 수 있습니다. 복사 버튼을 만드는 것은 매우 간단합니다. 먼저 HTML에 버튼을 포함시켜야 합니다:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <pre>
@@ -98,7 +137,18 @@ btn.addEventListener("click", () => {
 
 위의 코드에서 볼 수 있듯이, 방금 만든 버튼에 이벤트 리스너를 추가하고 `code`의 텍스트 콘텐트를 사용자 클립보드로 복사하는 JavaScript를 작성했습니다. navigator 객체를 사용하여 사용자가 실행 중인 시스템의 클립보드에 액세스합니다. inner-HTML 대신에 code의 텍스트 콘텐트를 사용하는 것에 유의하십시오. inner-HTML을 사용하면 하이라이트 라이브러리 code-prettify에서 생성된 추가 코드도 복사되기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 5. 일반적인 스타일링 추가하기
 
@@ -128,6 +178,17 @@ button {
 
 위의 스타일을 공부하고 사용하며 원하는 대로 변경할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 블로그를 도움이 되었다면 새로운 블로그 포스트 알림을 받으려면 X(트위터)에서 저를 팔로우해보세요. 읽어 주셔서 감사합니다!

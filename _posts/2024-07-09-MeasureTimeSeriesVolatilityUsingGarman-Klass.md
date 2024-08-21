@@ -3,15 +3,13 @@ title: "Garman-Klass를 사용해 시계열 변동성 측정하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-09-MeasureTimeSeriesVolatilityUsingGarman-Klass_0.png"
 date: 2024-07-09 09:09
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-MeasureTimeSeriesVolatilityUsingGarman-Klass_0.png
 tag: Tech
 originalTitle: "Measure Time Series Volatility Using Garman-Klass"
 link: "https://medium.com/@kaabar-sofien/measure-time-series-volatility-using-garman-klass-865901ba9322"
 isUpdated: true
 ---
-
-
 
 ![Garman-Klass volatility estimator](/assets/img/2024-07-09-MeasureTimeSeriesVolatilityUsingGarman-Klass_0.png)
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 # 가만-클라스(Grarman-Klass) 변동성 이해하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 복잡한 변동성 모델을 논의하기 전에, 먼저 기본적인 변동성 모델(또는 계산)인 역사적 표준 편차에 대해 완벽히 이해하는 것이 좋습니다. 역사적 방법을 사용한 표준 편차는 과거 가격 데이터를 기반으로 금융 상품의 변동성을 측정하는 일반적인 방법입니다.
 

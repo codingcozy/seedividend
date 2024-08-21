@@ -3,17 +3,13 @@ title: "자바에서 Wrapper 클래스를 사용할 때 1  1은 true이고 1000 
 description: ""
 coverImage: "/assets/img/2024-07-12-Whyis11istruebut10001000isfalseWhendealingwithWrapperClassesinJava_0.png"
 date: 2024-07-12 21:17
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-12-Whyis11istruebut10001000isfalseWhendealingwithWrapperClassesinJava_0.png
 tag: Tech
 originalTitle: "Why is 1 == 1 is true but 1000 == 1000 is false When dealing with Wrapper Classes in Java?"
 link: "https://medium.com/javarevisited/why-is-1-1-is-true-but-1000-1000-is-false-when-dealing-with-wrapper-classes-in-java-53c5a45ed687"
 isUpdated: true
 ---
-
-
-
-
 
 ![image](/assets/img/2024-07-12-Whyis11istruebut10001000isfalseWhendealingwithWrapperClassesinJava_0.png)
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 Wrapper 클래스는 해당 기본 데이터 유형을 래핑하여 컬렉션(Lists, Sets 및 Maps와 같은)과 같이 객체만 필요한 문맥에서 객체로 사용할 수 있습니다. 예를 들어, Integer 클래스는 int 데이터 유형에 해당하고, Double은 double에 해당합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 문서를 위해서는 Integer 클래스만 사용할 거에요.
 
@@ -37,7 +43,18 @@ Integer b = 10;
 
 이것은 간단한 예제에요. Integer 객체를 두 개 만들었어요: 하나는 Integer 클래스에서 제공하는 valueOf() 메소드를 사용하고 다른 하나는 오토박싱 기능을 사용했어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 System.out.println((a == b));          // true
@@ -56,7 +73,18 @@ System.out.println((a == b));          // false
 System.out.println(a.equals(b));       // true
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 왜 출력 결과가 다를까요?
 
@@ -66,7 +94,18 @@ System.out.println(a.equals(b));       // true
 
 이 Integer 캐시는 어떻게 작동하나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 캐싱 범위는 -128부터 127까지입니다. Integer.valueOf() 메서드를 처음 호출할 때 해당 값이 범위 내에 있으면 값이 캐시되며, 이후 호출은 새로 생성하는 대신 캐시된 Integer를 반환합니다. 즉, 두 참조는 동일한 객체를 가리키므로 비교가 true를 반환하는 것입니다.
 
@@ -82,7 +121,18 @@ System.out.println((a == b));          // false
 System.out.println(a.equals(b));       // true
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 보시다시피, 첫 번째 비교는 값에 관계없이 항상 false를 반환합니다.
 

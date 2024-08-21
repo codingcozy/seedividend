@@ -3,17 +3,13 @@ title: "결정 트리Decision Trees를 사용한 탐색적 데이터 분석 방�
 description: ""
 coverImage: "/assets/img/2024-06-22-UsingDecisionTreesforExploratoryDataAnalysis_0.png"
 date: 2024-06-22 02:31
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-UsingDecisionTreesforExploratoryDataAnalysis_0.png
 tag: Tech
 originalTitle: "Using Decision Trees for Exploratory Data Analysis"
 link: "https://medium.com/towards-data-science/using-decision-trees-for-exploratory-data-analysis-1d03558930d3"
 isUpdated: true
 ---
-
-
-
-
 
 ![Decision Tree](/assets/img/2024-06-22-UsingDecisionTreesforExploratoryDataAnalysis_0.png)
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 내 의견이죠. 하지만 데이터 과학 분야에서도 흔히 느껴지는 감정이라고 확신합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 운영 연구와 데이터 과학 분야에서 매우 활용되는 DT(의사 결정 트리)의 성공 요인은 인간의 의사 결정 과정과 유사한 프로세스를 따라가기 때문입니다. 이 과정은 각 노드가 주어진 변수에 대해 간단한 이진 결정을 갖는 플로 차트에 기반하며, 최종 결정에 이르기까지 계속됩니다.
 
@@ -37,7 +43,18 @@ isUpdated: true
 
 ![의사 결정 트리 샘플](/assets/img/2024-06-22-UsingDecisionTreesforExploratoryDataAnalysis_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 프로세스는 매우 논리적이고 간단하여 모든 종류의 데이터에 적용할 수 있습니다. 이 알고리즘의 단점은 데이터 세트의 변화에 매우 민감하여 특히 데이터가 작을 때 민감하다는 것입니다. 따라서 데이터의 작은 변동성을 쉽게 학습하여 기계 학습 모델을 과적합시킬 수 있습니다.
 
@@ -47,7 +64,18 @@ isUpdated: true
 
 # EDA란 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 탐색적 데이터 분석 또는 EDA는 데이터 과학 프로젝트의 단계 중 하나로, 데이터 세트를 가져와 변수를 탐색하여 대상 변수에 가장 큰 영향을 미치는 요소를 최대한 파악하려는 과정입니다.
 
@@ -57,7 +85,18 @@ isUpdated: true
 
 DT가 데이터의 가장 작은 변동을 포착할 수 있는 능력 때문에, 변수 간 관계를 이해하는 데 도움이 됩니다. 여기서는 데이터를 탐색 중이므로 데이터 분할이나 알고리즘 세밀 조정에 대해 신중할 필요가 없습니다. 우리는 그저 최상의 통찰을 얻기 위해 DT를 실행하기만 하면 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그것을 어떻게 하는지 봅시다.
 
@@ -90,8 +129,18 @@ df = pd.concat([X,y], axis=1)
 df.head(3)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-06-22-UsingDecisionTreesforExploratoryDataAnalysis_2.png)
 
@@ -101,8 +150,18 @@ df.head(3)
 
 이제 실패, 결석 및 공부 시간이 G3에 미치는 영향을 확인하기 위해 DT를 생성해보겠습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 탐색할 컬럼
@@ -126,7 +185,18 @@ plot_tree(dt, filled=True, feature_names=X.columns, max_depth=3, fontsize=8);
 
 이제 우리는 나열한 변수들 간의 관계를 이해하기 위한 좋은 시각화가 있습니다. 이 트리에서 얻을 수 있는 인사이트는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 각 상자 안의 첫 번째 줄의 조건에 따라 왼쪽이 "예"를, 오른쪽이 "아니오"를 의미한다는 것을 알고 계셔야 합니다.
 - 실패 횟수가 적은 학생들(0.5 또는 0이라고 말해야 할 정도)이 더 높은 성적을 받습니다. 왼쪽 상자의 값이 오른쪽보다 높은 것을 관찰할 수 있습니다.
@@ -136,6 +206,7 @@ plot_tree(dt, filled=True, feature_names=X.columns, max_depth=3, fontsize=8);
 ## 여유 시간과 외출
 
 여가 시간의 양과 외출 빈도에 기반하여 더 높은 성적을 받는 학생들을 알아보고 싶다면 여기에 있는 코드입니다.
+
 ```js
 # 탐색할 열
 cols = ['여가시간', '외출']
@@ -152,7 +223,18 @@ plt.figure(figsize=(20,10))
 plot_tree(dt, filled=True, feature_names=X.columns, max_depth=3, fontsize=10);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Decision Trees for Exploratory Data Analysis](/assets/img/2024-06-22-UsingDecisionTreesforExploratoryDataAnalysis_4.png)
 
@@ -162,7 +244,18 @@ goout와 freetime 변수는 1= 매우 낮음부터 5= 매우 높음까지의 척
 
 동일한 연습을 Classification Tree 알고리즘을 사용해 할 수 있습니다. 논리와 코딩은 동일하지만, 결과 값은 이제 값이 아닌 예측된 클래스를 보여줍니다. Seaborn 패키지(3-Clause BSD License)에서 가져온 뉴욕 시티의 택시 운행 데이터셋을 사용한 간단한 예제를 살펴봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 우리가 런 총액과 결제 방법 간의 관계를 탐구하고 싶다면, 다음 코드를 확인해보세요.
 
@@ -182,7 +275,7 @@ dt = DecisionTreeClassifier().fit(X,y)
 
 # 트리 시각화
 plt.figure(figsize=(21,10))
-plot_tree(dt, filled=True, feature_names=X.columns, max_depth=3, 
+plot_tree(dt, filled=True, feature_names=X.columns, max_depth=3,
           fontsize=10, class_names=['cash', 'credit_card']);
 ```
 
@@ -190,7 +283,18 @@ plot_tree(dt, filled=True, feature_names=X.columns, max_depth=3,
 
 결과 트리를 눈으로 확인해본 결과, 총액이 낮은 경우 현금으로 결제하는 가능성이 훨씬 높다는 것을 알 수 있습니다. $9.32 미만의 총액은 일반적으로 현금으로 결제됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 좋죠, 그렇죠?
 
@@ -200,19 +304,41 @@ plot_tree(dt, filled=True, feature_names=X.columns, max_depth=3,
 
 이 알고리즘은 처음에 쉽게 찾아지지 않는 패턴을 빠르게 포착할 수 있습니다. 우리는 데이터의 그 절삭을 찾기 위해 결정 트리의 힘을 활용하여 거기서 훌륭한 통찰을 얻을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 빠른 코드에 대한 노트하나: plot_tree() 함수에서 max_depth 기능을 사용하여 원하는 수준을 설정할 수 있습니다. 또한 sklearn의 DT 인스턴스에서 해당 하이퍼파라미터를 설정할 수도 있습니다. 선택은 당신의 몫입니다. plot_tree에서 사용하는 장점은 모델을 다시 훈련시킬 필요 없이 다양한 깊이를 빠르게 테스트할 수 있다는 것입니다.
 
 ```js
-plot_tree(dt, filled=True, feature_names=X.columns, max_depth=3);
+plot_tree(dt, (filled = True), (feature_names = X.columns), (max_depth = 3));
 ```
 
 만약 이 내용을 좋아하신다면, 더 많은 내용을 위해 저를 팔로우해주세요.
 
 LinkedIn에서 저를 찾아서 연결해요. 함께해요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 참고 자료
 

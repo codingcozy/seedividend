@@ -3,16 +3,13 @@ title: "프론트엔드 엔지니어를 위한 아마존 전화 인터뷰 경험
 description: ""
 coverImage: "/assets/img/2024-06-20-AmazonPhoneInterviewExperienceforFront-EndEngineer_0.png"
 date: 2024-06-20 05:06
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-AmazonPhoneInterviewExperienceforFront-EndEngineer_0.png
 tag: Tech
 originalTitle: "Amazon Phone Interview Experience for Front-End Engineer"
 link: "https://medium.com/@ghewadesumit/amazon-phone-interview-experience-for-front-end-engineer-ba2d429a3ea2"
 isUpdated: true
 ---
-
-
-
 
 프론트엔드 엔지니어 포지션(4-5년 경력)에 지원했어요. 인터뷰는 행동 질문, 프론트엔드 질문 및 역 인터뷰 세 가지 부분으로 나뉘었어요.
 
@@ -22,7 +19,18 @@ isUpdated: true
 - 기대 이상으로 노력한 적이 있나요?
 - 어떻게 하면 업무 효율성을 향상시키는지 알려주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 프론트엔드 질문
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 인터뷰어는 위 그림을 구현해 달라고 했습니다. "Language Name" 및 "Language Content"를 제공하는 데이터를 가져오는 API 엔드포인트가 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 탭을 클릭하면 콘텐츠가 변경되고 활성화된 탭이 강조 표시되어야 합니다.
 
@@ -43,7 +62,18 @@ isUpdated: true
 - Amazon에서 자랑스러워하는 프로젝트는 무엇인가요?
 - Amazon에서 주니어 개발자에서 시니어 개발자가 되기까지 어떻게 되었나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 내 생각들
 

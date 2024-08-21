@@ -3,17 +3,13 @@ title: "플러터 SDK 구축하기 Part2 pubdev 알아보기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Building a Flutter SDK Part 2 A Deep Dive Into pubdev"
 link: "https://medium.com/flutter-community/building-a-flutter-sdk-part-2-a-deep-dive-into-pub-dev-03f8339fbc2c"
 isUpdated: true
 ---
-
-
-
-
 
 ## 모든 측면을 배우고 자신만의 Flutter 패키지를 만들어보세요
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 Flutter SDK 빌드는 스크래치부터 자신의 Flutter 패키지 및 SDK를 만드는 시리즈입니다. 이 시리즈의 기사들은 Stream Flutter 팀이 우리 자신의 Flutter SDK를 만들면서 배운 교훈을 문서화합니다. 시리즈는 두 개의 SDK를 사용하여 실제 상황을 더 자세히 살펴볼 수 있는 예시로 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Stream Chat Flutter
 - Stream Video Flutter
@@ -34,7 +41,18 @@ Flutter SDK 빌드는 스크래치부터 자신의 Flutter 패키지 및 SDK를 
 
 구글이 Fuchsia를 출시하기 전까지 네이티브 코드는 Dart 이외의 언어로 작성될 것입니다. 플러터가 여러 플랫폼을 지원하므로 모든 플랫폼에 대한 네이티브 코드를 개발자가 작성하는 것은 불합리합니다. 이 어려움은 모든 플랫폼이 응용 프로그램을 다르게 처리하기 때문에 더욱 어려워집니다. 예를 들어, Windows는 응용 프로그램을 위한 여러 창을 가질 수 있지만, Android와 iOS는 그렇지 않습니다. 외부 패키지는 모든 앱의 중요한 요소이며, 이를 위한 적절한 배포 소스가 플러터 프레임워크 자체의 웰빙에 중요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 pub.dev 또는 간단히 "Pub"은 모든 공개적인 Flutter 패키지의 주된 Google 호스팅 저장소입니다. 만약 Flutter SDK를 개발 중이라면, 여러분의 모든 패키지는 아마도 대부분의 경우에 pub에 올라가게 될 것입니다. 패키지를 게시하는 다른 방법도 있지만, 이후에 살펴보겠지만 거의 대부분의 SDK/패키지 개발자들은 단순히 패키지를 pub에 게시하는 것을 선호합니다.
 
@@ -44,7 +62,18 @@ pub.dev 또는 간단히 "Pub"은 모든 공개적인 Flutter 패키지의 주�
 
 패키지를 관리하고 배포하는 것은 항상 쉬운 작업이 아닙니다. Flutter 개발자로서는 조금 지루할 수 있지만, Android 및 iOS를 살펴보면 어려움이 더욱 분명해집니다. 두 플랫폼의 대부분 패키지는 여러 패키지 배포 사이트를 통해 배포될 수 있으며 프로젝트에 다양한 방법으로 통합될 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안녕하세요! 안드로이드 라이브러리들은 보통 Maven Central, Google Maven Repository, 그리고 과거에는 JCenter와 같은 플랫폼에 출판됩니다. 개발자들은 종종 Gradle 또는 Maven과 같은 도구를 사용하여 종속성을 관리하고 이러한 라이브러리를 Android 프로젝트에 포함시킵니다.
 
@@ -54,7 +83,18 @@ iOS의 경우, 라이브러리들은 주로 CocoaPods 또는 Carthage를 통해 
 
 상기한 플랫폼들과 비교했을 때, 현재 기준으로 Flutter는 패키지를 위한 보다 간단한 배포 및 통합 시스템을 갖고 있습니다. 현재 시점에서 pub이라는 유일한 주요 Flutter 패키지 배포 사이트이며, pub로부터 패키지를 가져오는 것이 강제되는 것은 아니지만, 그러나 널리 사용되고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # pub.dev이란 무엇인가요?
 
@@ -64,7 +104,18 @@ Pub.dev은 Google의 Flutter 팀에서 개발하고 유지 보수하는 Dart와 
 
 # pub에서의 패키지 점수
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 패키지 소스 코드를 매번 탐색하는 것은 꽤 어렵기 때문에, 개발자가 패키지의 품질을 판단하는 방법이 오랜 시간을 들이지 않고도 가능해야 합니다. 이를 위한 다양한 방법이 있지만, 대부분의 방법에는 의구심을 품는 사람들이 있습니다. 팀을 포함하는 리뷰 시스템은 종종 논란이 될 수 있으며, 오픈 소스 시스템에서는 관련 가이드라인이 너무 엄격하게 보일 수 있습니다.
 
@@ -74,7 +125,18 @@ pub가 정착한 방법은 세 가지 주요 지표를 갖춘 시스템입니다
 
 ![Building a Flutter SDK Part 2: A Deep Dive into pub.dev](/assets/img/BuildingaFlutterSDKPart2ADeepDiveIntopubdev_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 좋아요 수는 쉽게 이해할 수 있지만, 보드의 다른 메트릭은 그다지 명확하지 않을 수 있어요. 플러터 문서를 인용하자면, 인기 메트릭은 다음과 같이 정의됩니다:
 
@@ -86,7 +148,18 @@ pub가 정착한 방법은 세 가지 주요 지표를 갖춘 시스템입니다
 
 ![BuildingaFlutterSDKPart2ADeepDiveIntopubdev_3](/assets/img/BuildingaFlutterSDKPart2ADeepDiveIntopubdev_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Google의 Flutter 팀은 SDK가 가져야 하는 몇 가지 품질을 설정했습니다:
 
@@ -96,7 +169,18 @@ Dart 규칙 준수: 유효한 pubspec.yaml, README.md, CHANGELOG.md 및 공개 �
 
 플랫폼 지원: 패키지가 더 많은 플랫폼을 지원하면 추가 pub 포인트를 얻을 수 있습니다. 대부분의 Dart 패키지는 비교적 쉽게 이를 할 수 있지만, 플러그인은 모든 플랫폼에 네이티브 코드를 필요로 할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 정적 분석 통과: 패키지가 업로드되면 pana 명령이 실행되어 패키지에서 정적 오류를 확인합니다. 오류, 경고, 린트 오류 또는 형식 지정 문제가 있으면 pub 포인트가 낮아질 수 있습니다.
 
@@ -106,7 +190,18 @@ Dart 규칙 준수: 유효한 pubspec.yaml, README.md, CHANGELOG.md 및 공개 �
 
 모든 패키지에는 패키지에 대해 자세히 알아볼 수 있는 잠재적인 사용자를 위한 메타데이터가 포함되어 있습니다. 이는 문서, 웹 사이트, 이슈 트래커 및 기타 리소스를 액세스할 수 있도록 합니다. 패키지에 추가할 수 있는 모든 종류의 메타데이터가 아니라 패키지에 추가할 수 있는 가시적 메타데이터를 다루는 내용은 이전 시리즈의 [pubspec.yaml](https://getstream.io/blog/breaking-down-flutter-package/) 섹션을 참조해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 패키지 목록에서 메타데이터로 추가할 수 있는 주요 사항은 해당 패키지가 다루는 주제입니다. 저희 Video SDK의 경우, 패키지가 비디오, 오디오, 라이브 스트리밍 등을 다룰 수 있다는 것을 나타내고 싶었는데, 이는 다음과 같이 나타납니다:
 
@@ -118,7 +213,18 @@ Flutter 패키지에 주제를 추가하려면, 다음과 같이 pubspec.yaml �
 topics: -video - audio - audioroom - webrtc - livestream;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 패키지 안에는 측면에 메타데이터가 표시됩니다. flutter_bloc의 메타데이터를 살펴봅시다.
 
@@ -128,7 +234,18 @@ topics: -video - audio - audioroom - webrtc - livestream;
 
 또한 이에 추가로, 스크린샷을 패키지에 메타데이터로 추가할 수도 있습니다. 이는 README.md 파일에 추가한 스크린샷과 다릅니다. 이 스크린샷은 메타데이터 위에 표시됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/BuildingaFlutterSDKPart2ADeepDiveIntopubdev_6.png" />
 
@@ -138,7 +255,18 @@ topics: -video - audio - audioroom - webrtc - livestream;
 
 스크린샷을 추가하려면 pubspec.yaml 파일의 루트에 동일한 필드를 추가해야 해요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```yaml
 screenshots:
@@ -152,7 +280,18 @@ screenshots:
 
 출판 웹 사이트에서 Flutter Favorites라는 프로그램이 다음과 같이 나열된 특정 패키지와 함께 표시됩니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Building a Flutter SDK Part 2: A Deep Dive into pub.dev](/assets/img/BuildingaFlutterSDKPart2ADeepDiveIntopubdev_8.png)
 
@@ -162,7 +301,18 @@ screenshots:
 
 개인적으로, 내가 올바른 패키지를 추천하는 완벽한 해결책이 있는지 모릅니다. 그러나 지금은 GDE들과 주요 플러터 전문가 팀이 목록의 패키지를 선정합니다. 그들 중 몇몇을 알고 있기 때문에 그들의 추천을 받아들일 것입니다. 🙂
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로그램에 패키지를 추가하려면 필요한 항목을 여기에 소개하고 있어요:
 
@@ -179,7 +329,18 @@ screenshots:
 
 이전에는 모든 패키지를 업로더에 연결하는 간단한 시스템을 사용했어요. 그러면 업로더가 발행한 모든 패키지를 확인할 수 있었어요. 그러나 각 업로더는 하나의 이메일 주소와 연결되어 있었죠. 이 시스템은 Stream이나 Invertase와 같이 많은 패키지를 유지하는 여러 사람이 있는 기관에 적합하지 않았어요. 배포자는 플러터 팀이 이 문제를 해결하기 위해 고안한 솔루션이었어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 A publisher is an entity tied to a domain that can publish multiple packages and have multiple emails associated with it. It also adds authenticity to your packages and avoids displaying your personal email address. To create a verified publisher, pub.dev uses DNS (domain name system) domains as an identification token.
 
@@ -189,7 +350,18 @@ For example, Stream publishes under the getstream.io publisher, which contains a
 
 # 패키지 비게시, 중단, 철회 및 삭제
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 pub에서 지원을 중단하거나 전체적으로 배포된 패키지 중 하나를 제거해야 하는 상황이 발생할 수 있습니다. 이러한 경우에는 패키지를 원활하게 중단할 수 있는 여러 가지 방법이 있습니다.
 
@@ -199,7 +371,18 @@ pub에서 지원을 중단하거나 전체적으로 배포된 패키지 중 하�
 
 ![이미지](/assets/img/BuildingaFlutterSDKPart2ADeepDiveIntopubdev_10.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용자에게 패키지가 더 이상 지원되지 않고 업데이트를 받지 않을 것임을 명확히 알리는 중단된 패키지가 있습니다. 이전 버전의 'sensors' 패키지 예시는 다음과 같습니다:
 
@@ -209,7 +392,18 @@ pub에서 지원을 중단하거나 전체적으로 배포된 패키지 중 하�
 
 ![BuildingaFlutterSDKPart2ADeepDiveIntopubdev_12](/assets/img/BuildingaFlutterSDKPart2ADeepDiveIntopubdev_12.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # pub에서 패키지를 비공개 상태로 변경
 
@@ -219,7 +413,18 @@ pub에서 지원을 중단하거나 전체적으로 배포된 패키지 중 하�
 
 조금 역설적으로, pub 검색을 통해 원하는 경우 비공개 상태로 된 패키지를 검색할 수 있습니다. 그러니까 개발자가 이 패키지를 발견하는 것을 일시적으로 막거나, 일반적으로 공개적인 시야에서 숨길 때 사용할 수 있는 임시 조치임을 명심하세요. 비공개 상태로 된 패키지는 여전히 직접 링크를 통해 볼 수 있고, 일반적인 종속성처럼 가져올 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # pub에서 패키지 취소하기
 
@@ -229,7 +434,18 @@ pub에서 지원을 중단하거나 전체적으로 배포된 패키지 중 하�
 
 ![이미지](/assets/img/BuildingaFlutterSDKPart2ADeepDiveIntopubdev_14.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 패키지 삭제하기
 
@@ -239,7 +455,18 @@ pub에서 지원을 중단하거나 전체적으로 배포된 패키지 중 하�
 
 어떤 방법으로도 패키지를 직접 삭제할 방법은 없습니다. 그러나 드물게, Google에 직접 요청을 보내면 그들이 대신 삭제해 줄 수도 있습니다. 아직 그런 일을 해본 적은 없지만, 그들이 각 사례를 검토하고 삭제가 정당한지 심사하는 것으로 보입니다. 이 GitHub 이슈에서 무슨 일이 발생했는지 예시를 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Pub CLI
 
@@ -249,7 +476,18 @@ Pub CLI는 이전 기사에서 flutter pub publish 명령을 사용하여 패키
 
 pubspec.yaml 파일에 패키지를 수동으로 추가하지 않고 추가하려면 pub add 하위 명령을 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 플러터 패키지 관리자를 통해 stream_chat_flutter를 추가할 수 있어요.
@@ -262,7 +500,16 @@ flutter pub remove stream_chat_flutter
 
 # 종속성 업그레이드 / 다운그레이드
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 어떤 프로젝트에 있는 의존성들은 시간이 지남에 따라 구식이 될 수 있어요. 새로운 업데이트가 출시되면 더 이상 최신이 아닌 패키지를 업그레이드하려면 다음을 사용할 수 있어요:
 
@@ -272,7 +519,16 @@ flutter pub upgrade
 
 flutter pub outdated
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 명령어는 모든 구버전 패키지와 최신 버전을 보여줄 거에요:
 
@@ -282,7 +538,16 @@ flutter pub outdated
 
 flutter pub downgrade
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 전역 스크립트 실행
 
@@ -292,7 +557,16 @@ flutter pub downgrade
 
 flutter pub global activate melos
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Pub Cache
 
@@ -303,7 +577,16 @@ flutter pub cache clean
 
 가끔은 이러한 로컬 파일들이 어떤 이유로 인해 변경될 수 있습니다. 이런 상황에서는 캐시를 복원하여 문제를 해결할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 flutter pub cache repair
 
@@ -313,7 +596,16 @@ flutter pub cache repair
 
 pub token add를 사용하여 토큰을 추가할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 dart pub token add https://some-package-repo.com/my-org/my-repo
 
@@ -326,7 +618,16 @@ dart pub token add https://some-package-repo.com/my-org/my-repo
 flutter pub token list
 flutter pub token remove -all
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 몇 가지 문제점에 대한
 
@@ -336,7 +637,16 @@ flutter pub token remove -all
 
 또 다른 문제는 우리가 겪은 것이며, 또한 몇몇 패키지 유지 관리자도 겪은 것으로 볼 수 있는 패키지의 정적 분석 검사입니다. 플러터 패키지는 일반적으로 여러 가지 플러터 SDK 버전을 지원하며, 새로운 플러터 SDK 버전은 패키지를 망가뜨릴 수 있는 파괴적인 변경 사항을 소개할 수 있습니다. 이것은 모든 패키지 사용자에게 분석 문제로 표시되어 신뢰를 줄일 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 문제가 더 복잡해지는 요인으로, 기존의 Flutter 패키지 버전을 지원 중단하고 주요 버전을 업데이트해야 하는 경우가 있었습니다. 이 문제에 대한 해결책은 여러 가지가 있을 수 있지만, 가장 간단한 해결책은 최근 몇 가지 Flutter 버전에 대한 분석 체크를 도입하는 것일 것입니다. 이를 통해 최소한 개발자들이 이 패키지가 어떤 버전과 호환되는지 알 수 있고, 새로운 Flutter 버전이 패키지를 급격히 오류로 표시하지 않을 것입니다.
 
@@ -346,7 +656,16 @@ flutter pub token remove -all
 
 패키지 개발 방법을 알고 있는 것이 중요할 뿐만 아니라, 어떻게 패키지를 배포하고 유지보수하며, 필요한 경우 제거하는 방법을 완전히 이해하는 것도 중요합니다. 이 문서가 pub.dev 생태계에 관해 모든 것을 명확히 해주고 패키지 릴리스를 더 잘 다루도록 돕기를 바랍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 패키지와 배포에 대한 분석이 마무리되었으니, 다음 글에서는 패키지 구축, 상태 관리, 아키텍처, 문서 작성 등의 모범 사례에 대해 더 깊이 알아볼 것입니다. 그 다음 글에서 만나요.
 
@@ -356,3 +675,4 @@ flutter pub token remove -all
 - Flutter 패키지 및 플러그인: https://docs.flutter.dev/packages-and-plugins/developing-packages
 - Stream Chat Flutter 저장소: https://github.com/GetStream/stream-chat-flutter
 - Stream Video Flutter 저장소: https://github.com/GetStream/stream-video-flutter
+```

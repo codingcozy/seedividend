@@ -3,17 +3,13 @@ title: "다트와 플러터 앱에서 Gemini API 활용하기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Harness the Gemini API in your Dart and Flutter Apps"
 link: "https://medium.com/flutter/harness-the-gemini-api-in-your-dart-and-flutter-apps-00573e560381"
 isUpdated: true
 ---
-
-
-
-
 
 구글 AI Dart SDK 소개
 
@@ -27,7 +23,18 @@ isUpdated: true
 - 크로스 플랫폼 AI 기반 앱 구축: Flutter를 사용하여 데스크톱, 웹, 모바일 애플리케이션에 생성형 AI 기능을 쉽게 만드세요.
 - 180개 이상 국가와 영토에서 Gemini API 사용: Gemini API와 Google AI Studio(아래 자세히 설명)을 사용할 수 있는 국가 및 지역의 최신 목록을 확인하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/HarnesstheGeminiAPIinyourDartandFlutterApps_0.png" />
 
@@ -41,7 +48,18 @@ isUpdated: true
 - 접근성을 위한 이미지 설명: 업로드된 이미지의 자세한 텍스트 설명을 생성하여 시각 장애가 있는 사용자들을 지원합니다.
 - 다이어그램 및 차트 해석: 사용자가 다이어그램, 차트 또는 그래프의 이미지를 업로드하면 Gemini API가 데이터의 텍스트 기반 분석과 설명을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 목록은 가능성이 거의 무한하기 때문에 계속될 수 있어요!
 
@@ -51,7 +69,18 @@ isUpdated: true
 
 셋업하는 방법에 대한 자세한 단계별 안내를 보려면 Dart 퀵스타트를 확인해보세요. 대략적으로는 이렇게 할 거에요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Google AI Studio에서 Gemini API 키를 받으세요. 이 키를 안전하게 보관해주세요. 코드에 키를 직접 포함하거나 키를 포함한 파일을 버전 관리 시스템에 업로드하지 않는 것을 강력히 권장합니다. 개발하는 동안에는 flutter run -d [DEVICE NAME] — dart-define=API_KEY=[YOUR API KEY]을 사용하여 API 키를 환경 변수로 사용하여 앱을 에뮬레이터/시뮬레이터에서 실행하는 것이 좋습니다.
 - Dart 또는 Flutter 앱에 Google AI Dart SDK를 추가하려면 각각 dart pub add google_generative_ai 또는 flutter pub add google_generative_ai을 실행하세요. 이는 `pubspec.yaml` 파일에 google_generative_ai를 종속성으로 추가합니다.
@@ -102,7 +131,18 @@ void main() async {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제바이민 애플리케이션 섹셩은 다트 패드에 있는 샘플 앱을 통해 SDK를 사용하는 다양한 사용 사례에 대한 상세 가이드와 예제를 살펴볼 수 있습니다. 다트 패드는 다트와 플러터 코드를 작성할 수 있는 무료 오픈 소스 온라인 편집기이며 이제 플러터로 구축되었습니다. 제너레이티브-ai-다트 깃허브 저장소에서 문제를 신고하거나 기능 요청에 대해 알려주시면 감사하겠습니다.
 
@@ -110,7 +150,18 @@ void main() async {
 
 공지 사항을 기다려주십시오. Google AI 스튜디오에 다트가 추가될 예정이며, 이를 통해 "코드 가져오기"를 클릭한 다음 새 다트 탭을 선택하고 (기존 지원되는 언어 옆에 표시될 예정) 다트 코드를 "복사"하여 작업을 IDE로 전송할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/HarnesstheGeminiAPIinyourDartandFlutterApps_2.png)
 

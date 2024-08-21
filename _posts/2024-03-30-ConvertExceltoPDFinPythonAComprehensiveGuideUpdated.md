@@ -3,17 +3,13 @@ title: "파이썬으로 Excel을 PDF로 변환하는 방법2024년"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Convert Excel to PDF in Python A Comprehensive Guide Updated"
 link: "https://medium.com/@alexaae9/python-how-to-convert-excel-documents-to-pdf-files-1af340822837"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/ConvertExceltoPDFinPythonAComprehensiveGuideUpdated_0.png)
 
@@ -30,7 +26,18 @@ isUpdated: true
 - 파이썬을 사용하여 셀 범위를 PDF로 변환하기
 - 파이썬을 사용하여 워크북을 PDF로 변환하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 종속성 설치
 
@@ -42,7 +49,18 @@ pip install Spire.XLS
 
 ## Python에서 기본 페이지 설정으로 워크시트를 PDF로 변환하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마이크로소프트 엑셀에서 페이지 설정이란 워크시트를 실제 페이지나 PDF와 같은 디지털 형식으로 변환할 때 인쇄되거나 표시될 방식을 결정하는 다양한 매개변수를 의미합니다. 이러한 설정을 통해 페이지 방향, 용지 크기, 여백, 스케일링 등과 같은 요소를 제어할 수 있습니다.
 
@@ -70,7 +88,18 @@ workbook.Dispose()
 
 ## 파이썬에서 사용자 정의 페이지 여백으로 워크시트를 PDF로 변환하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 페이지 여백 설정을 조정하여 콘텐츠와 PDF 페이지 가장자리 간의 간격을 제어할 수 있어요. 페이지 내용을 페이지 중앙에 배치하도록 또는 중요한 데이터나 요소가 변환된 PDF에서 페이지 테두리에 너무 가깝지 않도록 보장하는 데 유용해요.
 
@@ -107,7 +136,18 @@ workbook.Dispose()
 
 ## 필요 없는 공백 영역을 잘라내며 워크시트를 PDF로 변환하는 Python 코드
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 워크시트를 PDF로 변환할 때 불필요한 공백 영역을 제거할 수 있어요. 이렇게 하면 워크시트의 내용을 정확하게 나타내는 PDF 파일이 생성되고 과도한 빈 공간이 없어요.
 
@@ -147,7 +187,18 @@ workbook.Dispose()
 
 <img src="/assets/img/ConvertExceltoPDFinPythonAComprehensiveGuideUpdated_1.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 파이썬을 사용하여 워크시트를 표준 페이지 크기의 PDF로 변환하기
 
@@ -191,7 +242,18 @@ sheet.SaveToPdf("output/StandardPageSize.pdf")
 workbook.Dispose()
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![ConvertExceltoPDFinPythonAComprehensiveGuideUpdated_2.png](/assets/img/ConvertExceltoPDFinPythonAComprehensiveGuideUpdated_2.png)
 
@@ -201,7 +263,18 @@ workbook.Dispose()
 
 워크시트를 PDF로 변환할 때 그리드 선을 활성화하려면 PageSetup.IsPrintGridlines를 True로 설정하십시오. 기본값은 False입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 spire.xls에서 *
@@ -259,7 +332,18 @@ sheet.SaveToPdf("output/PageOrientation.pdf")
 workbook.Dispose()
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Python에서 셀 범위를 PDF로 변환하기
 
@@ -296,7 +380,18 @@ sheet.SaveToPdf("output/CellRangeToPdf.pdf")
 workbook.Dispose()
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Python에서 워크북을 PDF로 변환하기
 
@@ -342,7 +437,18 @@ workbook.SaveToFile("output/WorkbookToPdf.pdf", FileFormat.PDF)
 workbook.Dispose()
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 무료 평가 라이선스 받기
 
@@ -352,7 +458,18 @@ workbook.Dispose()
 
 이 블로그 포스트에서는 엑셀 파일을 PDF로 변환하는 다양한 시나리오에 대해 포괄적으로 요약했습니다. 페이지 크기 조정, 페이지 방향 설정, 페이지 여백 관리, 변환 영역 지정 등과 같은 주제를 다루었습니다. 본 포스트가 귀하의 요구에 대해 가치 있고 유익하다는 것을 바랍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 관련 주제
 

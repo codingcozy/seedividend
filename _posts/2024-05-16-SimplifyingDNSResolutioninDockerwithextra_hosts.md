@@ -3,16 +3,13 @@ title: "도커에서 extra_hosts를 사용하여 DNS 해결 단순화하기"
 description: ""
 coverImage: "/assets/img/2024-05-16-SimplifyingDNSResolutioninDockerwithextra_hosts_0.png"
 date: 2024-05-16 16:56
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-16-SimplifyingDNSResolutioninDockerwithextra_hosts_0.png
 tag: Tech
 originalTitle: "Simplifying DNS Resolution in Docker with extra_hosts"
 link: "https://medium.com/@gopidesaboyina/simplifying-dns-resolution-in-docker-with-extra-hosts-bda92e0a89e9"
 isUpdated: true
 ---
-
-
-
 
 소개: Docker 세계에서는 가장 간단한 작업조차 복잡해질 수 있습니다. 최근 Docker 컨테이너에서 Apache Airflow를 실행하는 중에 귀찮은 문제에 직면했습니다. 우리의 설정은 Airflow를 Azure PostgreSQL 데이터베이스에 연결하는 것을 포함했지만, 때때로 DNS 오류로 인해 작업 흐름이 방해받았습니다. 조사를 통해 Docker의 DNS 캐싱 부족이 문제의 주범임을 알게 되었습니다. 이 게시물에서는 Docker Compose의 extra_hosts 기능을 활용하여 문제를 해결한 방법을 공유하겠습니다. 이를 통해 팀이 불필요한 두통으로부터 구해졌습니다.
 
@@ -22,21 +19,25 @@ isUpdated: true
 
 구현: 해결책을 구현하는 것은 간단했습니다. PostgreSQL 데이터베이스 호스트 이름과 해당 IP 주소에 대한 extra_hosts 항목을 Docker Compose 구성에 업데이트했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 버전: '3'
 서비스:
-  airflow:
-    이미지: airflow:latest
-    환경:
-     - AIRFLOW__CORE__EXECUTOR=LocalExecutor
-     - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://@myprivatpgsqlserver.postgres.database.azure.com:6432/mydbinstance
-     - AIRFLOW__CORE__LOAD_EXAMPLES=False
-     - AIRFLOW__CORE__LOGGING_LEVEL=INFO
-    extra_hosts:
-     - "myprivatpgsqlserver.postgres.database.azure.com:192.168.159.84"
-    # 기타 Airflow 구성...
+airflow:
+이미지: airflow:latest
+환경: - AIRFLOW**CORE**EXECUTOR=LocalExecutor - AIRFLOW**DATABASE**SQL_ALCHEMY_CONN=postgresql+psycopg2://@myprivatpgsqlserver.postgres.database.azure.com:6432/mydbinstance - AIRFLOW**CORE**LOAD_EXAMPLES=False - AIRFLOW**CORE**LOGGING_LEVEL=INFO
+extra_hosts: - "myprivatpgsqlserver.postgres.database.azure.com:192.168.159.84" # 기타 Airflow 구성...
 
 이 구성에서는:
 

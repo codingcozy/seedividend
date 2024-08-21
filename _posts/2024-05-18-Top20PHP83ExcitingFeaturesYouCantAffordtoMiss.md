@@ -3,16 +3,13 @@ title: "PHP 8.3에 추가된 20가지 흥미로운 기능들 정리"
 description: ""
 coverImage: "/assets/img/2024-05-18-Top20PHP83ExcitingFeaturesYouCantAffordtoMiss_0.png"
 date: 2024-05-18 22:31
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-18-Top20PHP83ExcitingFeaturesYouCantAffordtoMiss_0.png
 tag: Tech
 originalTitle: "Top 20 PHP 8.3 Exciting Features You Can’t Afford to Miss"
 link: "https://medium.com/gitconnected/top-20-php-8-3-exciting-features-you-cant-afford-to-miss-0c0a1f3e1172"
 isUpdated: true
 ---
-
-
-
 
 ## 웹 개발과 프로그래밍을 혁신하는 PHP 8.3의 최신 기능 및 개선 사항을 알아보세요.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 # PHP 8.3의 20가지 흥미로운 기능 및 개선 사항
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 읽기 전용 클래스 개선 사항
 - 새로운 json_validate() 함수
@@ -62,9 +70,20 @@ readonly class Post {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-이 예에서 Post 클래스에는 읽기 전용 속성 $createdAt이 있습니다. 이 속성은 게시물의 생성 날짜를 나타냅니다. PHP 8.3에서 개선된 사항으로, __clone() 메서드를 사용하여 읽기 전용 속성을 다시 초기화할 수 있어 객체의 깊은 복제를 가능하게 하고 읽기 전용 속성의 무결성을 해치지 않습니다.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+이 예에서 Post 클래스에는 읽기 전용 속성 $createdAt이 있습니다. 이 속성은 게시물의 생성 날짜를 나타냅니다. PHP 8.3에서 개선된 사항으로, \_\_clone() 메서드를 사용하여 읽기 전용 속성을 다시 초기화할 수 있어 객체의 깊은 복제를 가능하게 하고 읽기 전용 속성의 무결성을 해치지 않습니다.
 
 # 2. 새로운 json_validate() 함수
 
@@ -80,7 +99,18 @@ if (json_validate($jsonString)) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예에서는 json_validate() 함수를 사용하여 JSON 문자열 $jsonString을 직접 유효성 검사합니다. JSON 문자열이 유효하면 해당 메시지가 표시됩니다. 이 함수는 디코딩 및 오류 처리 없이 JSON 데이터를 유효성 검사하는 간단한 방법을 제공합니다.
 
@@ -99,7 +129,18 @@ if (json_validate($jsonString, 512, JSON_THROW_ON_ERROR)) {
 
 이 예제에서는 사용자 정의 깊이와 플래그로 json_validate() 함수를 사용했습니다. 두 번째 매개변수는 JSON 문자열의 최대 깊이를 지정하고, 세 번째 매개변수는 유효성 검사를 위한 플래그를 설정합니다. 이를 통해 개발자는 특정 요구 사항에 맞게 유효성 검사 과정을 설정할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 PHP 8.3에서 json_validate() 함수는 JSON 유효성 검사 프로세스를 간소화하여 JSON 문자열을 해독하는 대안으로 더 효율적인 메모리를 제공합니다. 이 향상된 기능은 JSON 데이터의 유효성만을 확인해야 하는 시나리오에서 특히 유용하며 PHP 애플리케이션에서 성능과 자원 활용을 향상시킵니다.
 
@@ -117,7 +158,18 @@ $randomBytes = Randomizer::getBytesFromString($string, $length);
 var_dump($randomBytes);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예시에서 Randomizer 클래스의 getBytesFromString() 메서드는 지정된 길이($length)의 랜덤 바이트 문자열을 주어진 입력 문자열($string)에서 생성하는 데 사용됩니다. 이 메서드는 랜덤 데이터 생성이 필요한 시나리오에 기반하여 소스 문자열을 기반으로 랜덤 바이트 시퀀스를 생성하는 편리한 방법을 제공합니다.
 
@@ -136,7 +188,18 @@ echo $randomInteger;
 
 이 예시에서 Randomizer 클래스의 getRandomInteger() 메서드는 $min과 $max로 정의된 범위 내에서 랜덤 정수를 생성하는 데 활용됩니다. IntervalBoundary::Closed 열거형은 최소값과 최대값을 범위에 포함해야 함을 나타내는 데 사용됩니다. 이 메서드는 개발자들이 특정 범위 내에서 랜덤 정수를 생성할 수 있도록 돕고 생성된 값에 대한 정확한 제어를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 PHP 8.3의 Randomizer 클래스에 추가 사항은 더 향상된 랜덤 데이터 생성 기능을 제공하여, 다양한 제어된 무작위성을 필요로 하는 사용 사례에 맞춤 기능을 제공합니다. 이러한 방법들은 PHP 개발자들에게 사용 가능한 랜덤 데이터 생성 옵션의 범위를 풍부하게 하여 Randomizer 클래스의 전반적인 다양성과 유틸리티에 기여합니다.
 
@@ -151,7 +214,18 @@ class MathOperations {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예제에서 MathOperations 클래스는 두 개의 클래스 상수, PI와 MAX_ITERATIONS을 특정 데이터 유형으로 정의합니다. PI 상수는 float로, MAX_ITERATIONS 상수는 INT로 유형이 지정됩니다. 이렇게 함으로써 이러한 상수가 지정된 데이터 유형의 값을 보유하도록 보장하여 유형 안전성을 증진시키고 코드 가독성을 높입니다.
 
@@ -159,13 +233,13 @@ class MathOperations {
 class Configuration {
     public const DEFAULT_TIMEOUT: int = 30;
     public const ENABLE_LOGGING: bool = true;
-    
+
     public function setRequestTimeout(int $timeout): void {
         // Set the request timeout using the DEFAULT_TIMEOUT constant
         // defined as an integer
         // ...
     }
-    
+
     public function enableLogging(bool $enable): void {
         // Enable or disable logging based on the ENABLE_LOGGING constant
         // defined as a boolean
@@ -178,7 +252,18 @@ class Configuration {
 
 PHP 8.3에서 유형화된 클래스 상수의 도입은 클래스 정의의 표현성과 신뢰성을 향상시킵니다. 개발자가 클래스 상수에 대한 데이터 유형을 지정할 수 있어 코드 품질 향상, 더 나은 문서 작성, 클래스 상수 내 데이터 유형 오류 가능성 감소에 기여하며, 결국 PHP 애플리케이션의 견고성을 향상시킵니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 5. 익명 읽기 전용 클래스
 
@@ -196,7 +281,18 @@ echo $john->age; // 출력: 30
 
 이 예제에서는 '...' 구문을 사용하여 익명 읽기 전용 클래스를 생성합니다. 이 클래스에는 name 및 age에 대한 공용 속성이 있으며, 이 익명 클래스에서 $john 객체가 인스턴스화됩니다. 이를 통해 포멀한 클래스 선언이 필요 없이 간단하고 가벼운 객체를 생성할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 익명 읽기 전용 클래스를 데이터 구조로 사용할 수도 있습니다.
 
@@ -220,7 +316,18 @@ print_r($data->values); // 출력: Array ( [0] => A [1] => B [2] => C )
 
 PHP 8.3에서 익명 읽기 전용 클래스가 소개되면서 개발자들은 불변의 객체와 데이터 구조를 가볍고 유연하게 즉석에서 만들 수 있게 되었습니다. 이 기능은 PHP의 객체 지향 기능을 보다 표현력 있고 다용도로 사용할 수 있게 하며, 특정 상황에 대해 전통적인 클래스 선언에 대한 편리한 대안을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 6. 동적 클래스 상수 가져오기
 
@@ -238,11 +345,33 @@ echo Configuration::{$constantName}; // 출력: 30
 
 이 예제에서 DEFAULT_TIMEOUT 클래스 상수의 값을 변수 $constantName을 사용하여 동적으로 가져왔습니다. 이 동적 구문을 사용하면 실행 중 값에 따라 클래스 상수를 검색할 수 있어 클래스 상수를 다루는 더 유연한 방법을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 마크다운 형식으로 변경해도 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 7. 더 적절한 날짜/시간 예외 처리
 
@@ -264,7 +393,18 @@ try {
 
 이 예제에서는 범위 오류가 발생한 날짜 연산을 처리하기 위해 특정 DateRangeError 예외가 잡힙니다. 이를 통해 날짜 범위 오류에 특화된 오류 처리가 가능해지며, 특정 예외 유형을 기반으로 적절한 조치를 취할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 날짜 형식이 잘못된 간격 문자열 예외에 대해서도 처리할 수 있어요.
 
@@ -285,31 +425,53 @@ try {
 
 PHP 8.3의 "더 적절한 날짜/시간 예외" 기능은 날짜 및 시간 관련 오류 처리에 대해 더 정확하고 체계적인 접근 방식을 제공해요. 특정 날짜 및 시간 예외를위한 전용 예외를 도입함으로써 이 개선 사항은 더 나은 오류 관리를 촉진하고 날짜 및 시간 관련 예외의 보다 효율적인 처리를 돕습니다. 이는 PHP 애플리케이션에서 날짜 및 시간 작업의 전체 신뢰성과 견고성에 기여합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 8. unserialize() 오류 처리 기능 개선
 
 이 기능은 unserialize() 함수의 오류 처리 메커니즘을 향상시켜, 데이터의 역직렬화 중 문제가 발생했을 때 더 일관되고 예측 가능한 동작을 제공합니다. 이 개선은 오류 보고를 간소화하고 unserialize() 오류를 보다 효과적으로 처리하여 더 나은 오류 관리와 디버깅 기능을 제공하고 있습니다. 이 기능을 몇 가지 예제와 함께 살펴보겠습니다:
 
 ```js
-$data = '...'; // 직렬화된 데이터
+$data = "..."; // 직렬화된 데이터
 $result = unserialize($data);
 if ($result === false) {
-    $error = error_get_last();
-    if ($error && $error['type'] === E_WARNING) {
-        // unserialize() 오류를 E_WARNING으로 처리
-        // 오류 기록, 사용자에게 알림 또는 적절한 조치를 취합니다
-        // ...
-    } else {
-        // 일반적인 오류 처리로 이동
-        // ...
-    }
+  $error = error_get_last();
+  if ($error && $error["type"] === E_WARNING) {
+    // unserialize() 오류를 E_WARNING으로 처리
+    // 오류 기록, 사용자에게 알림 또는 적절한 조치를 취합니다
+    // ...
+  } else {
+    // 일반적인 오류 처리로 이동
+    // ...
+  }
 }
 ```
 
 이 예제에서는 데이터의 역직렬화를 시도한 후 결과가 false인지 확인하여 오류를 나타내는지 여부를 확인합니다. 그런 다음 error_get_last()를 사용하여 마지막 오류를 가져와 오류 유형을 확인합니다. 오류 유형이 E_WARNING인 경우, unserialize() 오류를 경고로 처리하여 unserialize() 문제에 대한 특정 오류 처리를 수행할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 심지어 unserialize 메서드에서 예외 처리를 사용할 수도 있습니다.
 
@@ -333,7 +495,18 @@ try {
 
 PHP 8.3의 "Improved unserialize() error handling" 기능은 unserialize() 함수에 대한 더 일관적이고 구조화된 오류 처리를 도입하여, unserialize 데이터의 처리 중 오류 보고 및 관리에 대한 향상된 제어를 제공합니다. 더 예측 가능한 오류 처리 메커니즘을 제공함으로써, 이 개선 사항은 PHP 애플리케이션에서 직렬화된 데이터를 다룰 때 디버깅 능력과 전반적인 오류 내구성을 향상시킵니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 9. 특성과 정적 속성
 
@@ -369,7 +542,18 @@ var_dump(Product::getLog());
 
 이 예제에서 Loggable 특성은 $log라는 정적 속성과 로그에 메시지를 추가하고 로그를 검색하는 메서드를 포함합니다. User 및 Product 클래스는 Loggable 특성을 사용하여 로깅 기능을 통합합니다. 각 클래스는 정적 속성 $log을 위한 별도의 저장소를 유지함으로써 User 및 Product 클래스 간에 로그 데이터가 격리되고 구분되도록 보장합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 Markdown 형식으로 바꿀 수도 있어요.
 
@@ -406,7 +590,18 @@ var_dump(Invoice::getCount()); // Output: int(1)
 
 PHP 8.3의 "Traits and static properties" 기능은 여러 클래스에서 사용될 때 정적 속성을 일관되고 예측 가능하게 구현함으로써 trait를 사용한 코드 구조에서 정적 속성을 처리하는 강력하고 직관적인 메커니즘을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 10. 스택 오버플로 감지
 
@@ -419,7 +614,18 @@ zend.max_allowed_stack_size = 128K
 
 이 예시에서는 php.ini 구성 파일에서 zend.max_allowed_stack_size 지시문이 128 킬로바이트로 설정되어 있습니다. 이 지시문은 PHP 프로그램의 최대 허용 스택 크기를 지정하는데, 개발자가 호출 스택 크기의 상한선을 정의할 수 있게 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // php.ini
@@ -443,8 +649,18 @@ PHP 8.3의 "스택 오버플로우 감지" 기능은 개발자가 호출 스택 
 
 # 11. 불변 상수 가시성
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기능은 invariant 키워드를 사용하여 클래스 상수를 선언하는 기능을 소개합니다. 이를 통해 클래스의 상수의 가시성이 하위 클래스에서 확장되더라도 불변으로 유지될 수 있습니다. 이 향상된 기능은 클래스 상수를 정의하는 더 명시적이고 제어된 방법을 제공하며, 상속 계층 구조에서 상수의 가시성을 유지할 수 있습니다. 몇 가지 예제를 통해 이 기능을 살펴보겠습니다:
 
@@ -463,7 +679,18 @@ class ChildClass extends ParentClass {
 
 인터페이스에서도 invariant 상수를 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 인터페이스 Constants {
@@ -482,21 +709,41 @@ PHP 8.3의 “불변 상수 가시성” 기능은 클래스 상수를 정의하
 
 # 12. Assert String Eval Cleanup
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기능은 문자열 평가 코드 어설션의 폐기를 포함하며, 더 안전하고 유지보수가 용이한 코딩 관행을 장려합니다. 이 개선은 문자열 평가 코드를 통한 어설션 사용을 억제하여 보안 취약점 및 코드 유지 관리 도전에 대응합니다. 몇 가지 예제를 통해 이 기능을 살펴보겠습니다:
 
 ```js
-assert('is_numeric($value)');
+assert("is_numeric($value)");
 ```
 
 이 예에서는 assert 함수가 $value가 숫자인지 확인하기 위해 문자열 평가 코드 어설션과 함께 사용됩니다. 그러나 이 방식은 보안 위험에 노출되어 있으며 PHP 8.3에서는 폐기됩니다.
 
 여기서는 직접 표현식을 사용한 어설션의 업데이트된 버전을 표시합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 assert(is_numeric($value));
@@ -508,8 +755,18 @@ PHP 8.3의 "Assert String Eval Cleanup" 기능은 개발자들이 단언문에 �
 
 # 13. 향상된 FFI\CData:void
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기능은 FFI (외부 함수 인터페이스) 확장 기능을 향상시켜 C 함수가 void 반환 유형을 가질 때 PHP에서 FFI\CData`void` 인스턴스를 반환하는 대신 null로 표시할 수 있도록 합니다. 이 개선을 통해 값을 반환하지 않는 C 함수를 처리하기가 더 간편해지며, PHP에서 예상하는 null 반환 유형과 일치시킵니다. 몇 가지 예제를 통해 이 기능을 살펴보겠습니다:
 
@@ -531,7 +788,18 @@ $ffi->myFunction(); // C 함수 호출
 
 다음과 같이 반환 유형을 확인할 수도 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```php
 $result = $ffi->myFunction();
@@ -549,7 +817,18 @@ PHP 8.3의 "Improved FFI\CData:void" 기능은 PHP에서 void를 반환하는 C 
 
 # 14. posix_getrlimit() 매개변수 향상
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기능은 posix_getrlimit() 함수에 개선 사항을 소개합니다. 선택적 매개변수를 전달하여 단일 리소스 제한을 가져올 수 있도록 허용합니다. 이 향상된 기능은 특정 리소스에 대한 자원 제한을 검색할 때 더 큰 유연성과 정밀도를 제공함으로써 PHP 애플리케이션 내에서 자원 한도에 대한 자세한 정보를 획득하는 프로세스를 간소화합니다. 몇 가지 예제를 통해 이 기능을 살펴보겠습니다:
 
@@ -563,7 +842,18 @@ echo "최대 열린 파일 수에 대한 소프트 제한: " . $softLimit . "\n"
 
 심지어 CPU 시간에 대한 하드 제한도 가져올 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // CPU 시간의 하드 제한을 가져오는 중
@@ -577,7 +867,18 @@ PHP 8.3의 "posix_getrlimit() 매개변수 개선"은 개발자가 개별 리소
 
 # 15. gc_status() 개선내용
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 gc_status() 함수가 개선되어 PHP 애플리케이션 내에서 메모리 관리 및 가비지 수집에 대한 상세 정보를 제공하는 총 여덟 가지 새로운 필드가 도입되었습니다. 이러한 필드는 실제 가비지 수집이 실행 중인지, 메모리 블록이 가비지 수집으로부터 보호되는지, 가득찬 가비지 수집 주기가 진행 중인지 등 다양한 측면에 대한 세부 정보를 제공합니다.
 새로운 필드 목록은 다음과 같습니다:
@@ -593,19 +894,41 @@ gc_status() 함수가 개선되어 PHP 애플리케이션 내에서 메모리 �
 
 이러한 필드에 접근하여 개발자들은 가비지 수집 상태, 메모리 보호, 수집 주기 시간, 리소스 활용 등에 대한 가치 있는 통찰을 얻을 수 있습니다. 이러한 상세 정보는 개발자들이 메모리에 관련된 결정을 내릴 때 인포메이션을 바탕으로 신중한 판단을 할 수 있도록 돕습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 16. 내부 클래스에 대한 class_alias() 지원
 
 이 기능은 class_alias() 함수의 기능을 확장하여 내부 PHP 클래스에 대한 별칭을 생성할 수 있도록 지원합니다. 이 향상된 기능은 내부 클래스를 다룰 때 더 많은 유연성과 편의성을 제공하여, 기존 내부 클래스에 대한 대체 이름을 생성할 수 있게 해줍니다. 이를 통해 클래스 참조를 간단히 하고 코드 가독성을 높일 수 있습니다. 아래 예시를 통해 이 기능을 살펴보겠습니다:
 
 ```js
-class_alias('DateTime', 'MyDateTime');
+class_alias("DateTime", "MyDateTime");
 ```
 
 이 예시에서는 class_alias() 함수를 사용하여 내부 PHP 클래스 DateTime에 대한 별칭 MyDateTime을 생성합니다. 이를 통해 개발자는 코드베이스 전반에서 MyDateTime이라는 별칭을 사용하여 DateTime 클래스에 참조할 수 있게 되며, 해당 클래스에 대해 더 명확하고 맥락적인 이름을 제공할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내부 클래스 초기화를 위해 클래스 별칭을 사용할 수도 있어요.
 
@@ -618,7 +941,18 @@ echo $date->format('Y-m-d');
 
 PHP 8.3의 "내부 클래스에 대한 class_alias() 지원" 기능은 내부 클래스에 별칭을 만드는 프로세스를 간소화하여 개발자들에게 내부 클래스에 대한 대체 이름을 정의할 수 있는 편리한 메커니즘을 제공합니다. 이 개선으로 PHP 애플리케이션 내에서 보다 명확하고 읽기 쉬운 클래스 참조를 제공하여 더 표현적이고 일관성 있는 코드베이스로의 기여가 가능해집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 17. mysqli_poll() 오류 처리
 
@@ -645,7 +979,18 @@ if (mysqli_poll($links, $read, $error, $reject, $timeout)) {
 
 이 예제에서 mysqli_poll() 함수는 $read, $error, $reject 배열을 포함한 올바른 인수와 함께 호출됩니다. 이 사용법은 PHP 8.3의 업데이트된 동작을 준수하며, 폴링 작업 결과를 처리하기 위해 필요한 인수로 함수가 호출되도록 보장합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 read나 error 인자가 전달되지 않을 때 ValueError를 발생시키는 PHP 8.3은 더 명시적이고 신뢰할 수 있는 오류 처리 방법을 장려하며, mysqli_poll() 호출에 필요한 모든 인자를 제공하도록 개발자들을 격려합니다. 이 개선으로 PHP 애플리케이션에서 비동기 MySQL 쿼리 실행의 전체적인 견고성과 예측 가능성이 향상됩니다.
 
@@ -655,7 +1000,18 @@ read나 error 인자가 전달되지 않을 때 ValueError를 발생시키는 PH
 
 그러나 PHP 8.3에서 소개된 개선으로, array_pad() 함수는 이제 배열이 가질 수 있는 최대 요소 수만 제한으로 나타냅니다. 이를 통해 개발자들은 더 큰 유연성을 가지고 이전의 배열 패딩 작업을 통해 추가할 수 있는 요소 수에 대한 제약을 제거할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 향상은 배열을 훨씬 많은 요소로 채우는 것을 가능하게 하며, 기존 제한으로 인해 배열 크기가 제한되지 않고 다양한 크기의 배열을 다룰 수 있도록 합니다. 결과적으로, 개발자는 array_pad() 함수를 보다 효과적으로 활용하여 배열 조작과 동적 크기 조정이 필요한 시나리오에서 유연성과 확장성을 향상시키는데 기여하며, PHP 애플리케이션 내에서 배열 패딩 작업의 유연성과 확장성을 향상시킵니다.
 
@@ -665,10 +1021,21 @@ read나 error 인자가 전달되지 않을 때 ValueError를 발생시키는 PH
 
 이전 OPCache 설정과 opcache.consistency_checks.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-opcache.consistency_checks=1
+opcache.consistency_checks = 1;
 ```
 
 이 예제에서는 opcache.consistency_checks 지시문을 1로 설정하여 OPCache의 일관성 검사를 활성화합니다.
@@ -677,8 +1044,18 @@ PHP 8.3에서 opcache.consistency_checks 지시문이 삭제되면 OPCache의 �
 
 이 변경은 OPCache 구성에 대한 단순화된 접근 방식을 반영하며, OPCache의 일관성 검사를 관리하는 복잡성을 줄이고 PHP 8.3에서 OPCache의 전체 효율성과 사용 편의성을 향상시키는 목표와 일치합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 20. number_format()을 사용하여 소수점 처리하는 방법
 
@@ -692,7 +1069,18 @@ $formatted2 = number_format($num, -2); // 1,200
 
 이 예제에서 number_format() 함수는 음수 $decimal 값을 올바르게 처리하여 숫자를 지정된 유효 숫자 자릿수로 소수점 이전에 반올림합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 업그레이드는 number_format() 함수를 사용하여 숫자를 반올림할 때 더 일관성 있고 예측 가능한 동작을 보장하여 개발자들이 숫자 값의 형식을 더 잘 제어할 수 있도록 합니다.
 

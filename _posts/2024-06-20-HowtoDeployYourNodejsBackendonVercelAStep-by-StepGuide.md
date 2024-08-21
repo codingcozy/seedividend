@@ -3,16 +3,13 @@ title: "Vercel에 Nodejs 백엔드를 배포하는 방법 단계별 가이드"
 description: ""
 coverImage: "/assets/img/2024-06-20-HowtoDeployYourNodejsBackendonVercelAStep-by-StepGuide_0.png"
 date: 2024-06-20 04:36
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-HowtoDeployYourNodejsBackendonVercelAStep-by-StepGuide_0.png
 tag: Tech
 originalTitle: "How to Deploy Your Node.js Backend on Vercel: A Step-by-Step Guide"
 link: "https://medium.com/@kanakkholwal/how-to-deploy-your-node-js-backend-on-vercel-a-step-by-step-guide-21796db74601"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-06-20-HowtoDeployYourNodejsBackendonVercelAStep-by-StepGuide_0.png" />
 
@@ -22,7 +19,18 @@ Vercel에 Node.js 백엔드를 배포하는 것은 업무를 간편화하면서 
 
 먼저, vercel.com에서 Vercel 계정을 만들어주세요. GitHub, GitLab 또는 Bitbucket 중 선호하는 인증 방법을 선택할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 2. 간단한 Express API 만들기
 
@@ -36,7 +44,18 @@ cd my-express-api
 npm init -y
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Express를 설치하고 index.js 파일을 만드세요:
 
@@ -58,7 +77,18 @@ app.listen(PORT, () => {
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 3. Express API 내보내기
 
@@ -70,7 +100,18 @@ app.listen(PORT, () => {
 
 프로젝트 디렉토리에 vercel.json 파일을 생성하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 touch vercel.json
@@ -98,7 +139,18 @@ vercel.json 파일 내용:
 
 # 5. Express API 배포하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 깃 레포지토리를 초기화하고 코드를 커밋한 후에 해당 코드를 소스 레포지토리에 푸시하세요. 이 레포지토리는 GitHub, GitLab 또는 다른 플랫폼에 있을 수 있습니다.
 

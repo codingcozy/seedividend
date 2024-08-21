@@ -3,17 +3,13 @@ title: "Nextjs 앱 라우터 라우팅 패턴을 모르면 나중에 후회하�
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Nextjs App Router Routing patterns you should know"
 link: "https://medium.com/israeli-tech-radar/next-js-app-router-routing-patterns-you-should-know-9dfa6b669983"
 isUpdated: true
 ---
-
-
-
-
 
 # 라우트 정의하기
 
@@ -32,7 +28,18 @@ nextjs-routing-patterns
 
 다음은 게시물을 가져와 표시하는 코드입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { ContentWrapper, Title } from "@nrp/components/server";
@@ -76,7 +83,18 @@ nextjs-routing-patterns
 └── libs
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 글을 한국어로 번역하면 다음과 같습니다:
 
@@ -101,7 +119,18 @@ export default async function Page({ params }: { params: { postId: string } }) {
 
 특정 디렉토리의 루트 이외의 모든 경로를 캐치하려면, Catch All 패턴을 사용할 수 있습니다. 우리는 [...slug] 괄호와 3 점 주석을 추가하고, 파라미터 props에서 slug를 경로 파라미터로 사용할 것이며, 해당 디렉토리에 page.tsx 파일을 추가할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 nextjs-routing-patterns
@@ -132,7 +161,18 @@ export default function Page({ params }: { params: { slug: string[] } }) {
 
 /catch-all 경로로 이동하면 404 페이지가 나타납니다. 하지만 /catch-all/next/page/etc로 이동하면 원하는 대로 렌더링된 페이지가 표시되며 JSON 형식의 매개변수 배열이 표시됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 번째 패턴을 사용하면 루트 디렉터리를 캐치할 수도 있어요. 디렉터리를 [[...slug]]와 3개의 점 주석으로 만든 다음, 그 폴더에 page.tsx를 추가할 거에요:
 
@@ -164,7 +204,18 @@ export default function Page({ params }: { params: { slug: string[] } }) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금 루트 디렉토리는 404 페이지를 반환하지 않고 페이지의 제목 및 빈 매개 변수 배열을 반환합니다. 더 나아갈 때에도 이전에 설명한 것과 같은 동작이 발생할 것입니다.
 
@@ -187,7 +238,18 @@ nextjs-routing-patterns
 └── libs
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 layout.tsx 코드입니다:
 
@@ -216,7 +278,18 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 
 레이아웃 페이지를 다시 렌더링해야 하는 경우 템플릿 파일 규칙을 사용하는 것을 고려해보세요: https://nextjs.org/docs/app/api-reference/file-conventions/template
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 page.tsx 코드입니다:
 
@@ -229,8 +302,8 @@ export default function Page() {
       <Title>Account</Title>
 
       <Paragraph>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A architecto, corporis eos eum facilis incidunt libero perspiciatis provident quae quod. Aliquid animi at culpa, hic illo reiciendis
-        similique? Molestiae, repudiandae.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A architecto, corporis eos eum facilis incidunt libero
+        perspiciatis provident quae quod. Aliquid animi at culpa, hic illo reiciendis similique? Molestiae, repudiandae.
       </Paragraph>
     </ContentWrapper>
   );
@@ -253,7 +326,18 @@ export default function Page() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 병렬 경로
 
@@ -275,7 +359,18 @@ nextjs-routing-patterns
 └── libs
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앨범 페이지 코드입니다:
 
@@ -331,7 +426,18 @@ export default async function Page() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로 레이아웃에 슬롯을 추가해야 합니다. 병렬 라우트 내에 중첩된 레이아웃을 추가하거나 루트 레이아웃에도 추가할 수 있습니다. 우리는 layout.tsx 파일과 병렬 페이지를 위한 page.tsx를 만듭니다.
 
@@ -356,7 +462,15 @@ nextjs-routing-patterns
 ```js
 import { Title } from "@nrp/components/server";
 
-export default function Layout({ children, users, albums }: { children: React.ReactNode, users: React.ReactNode, albums: React.ReactNode }) {
+export default function Layout({
+  children,
+  users,
+  albums,
+}: {
+  children: React.ReactNode,
+  users: React.ReactNode,
+  albums: React.ReactNode,
+}) {
   return (
     <div>
       <Title>Parallel Layout</Title>
@@ -372,7 +486,18 @@ export default function Layout({ children, users, albums }: { children: React.Re
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그리고 우리의 병렬 라우트 페이지:
 
@@ -388,7 +513,18 @@ export default function Page() {
 
 가끔 페이지에서 소프트한 라우트를 원할 때가 있습니다. 예를 들어 Modal에서 페이지를 간단히 열어보고 원래의 라우트를 그대로 유지하려고 할 때나 직접 액세스하거나 링크를 공유할 때입니다. 그래서 이 패턴은 그런 용도로 아주 좋습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사진 갤러리와 ID에 따른 사진 라우트가 있는 경우, 클라이언트에서 모달 대화상자에서 사진을 열지만 사진 페이지를 전체 새로 고침하고 직접 링크 공유를 통해 열 수 있도록 합니다.
 
@@ -409,7 +545,18 @@ nextjs-routing-patterns
 
 이제 /intercepted/[photoId] 라우트를 가로채도록 원합니다. 이를 위해 레이아웃에 슬롯 디렉토리를 만들어 추가해야 합니다. 슬롯 디렉토리에서 현재 범위를 나타내는 접두사가 있는 디렉토리를 만들어야 합니다. 여기서 (.)는 현재 범위를, (..)는 상위 범위를, (../..)는 상위의 상위 범위를, (...)는 루트 범위를 나타냅니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 중첩된 라우트라면 이 디렉토리 내에서 라우팅 디렉토리 구조를 추가할 거에요. (.) prefix 대신에, 첫 번째 폴더만 가지고 있을 거에요. 우리 @modal 슬롯을 보관할 layout.tsx 파일도 추가해 봅시다.
 
@@ -445,7 +592,18 @@ export default function Layout({ children, modal }: { children: ReactNode, modal
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 js
 /[photoId]/page.tsx 페이지 코드:
@@ -488,7 +646,18 @@ export default async function Page({ params }: { params: { imageId: string } }) 
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예상대로 작동하도록 하려면 default.tsx 파일을 디렉터리 구조에 추가해야 합니다. 이 파일은 만일 레이아웃의 슬롯에 렌더링할 내용이 없을 경우 next.js에 렌더링할 내용을 알려줍니다:
 
@@ -517,7 +686,18 @@ nextjs-routing-patterns
 
 또 다른 사용하는 패턴으로 옵셔널 캐치 올 라우트를 사용하는 것이 있습니다. 그리고 페이지를 조건부로 렌더링합니다. params가 제공되었는지 여부에 따라 페이지를 조건부로 렌더링할 수 있습니다. 이를 통해 페이지에서 여러 시나리오를 처리하고 직접 링크로 접근해도 항상 특정 페이지를 제어할 수 있는 방법을 제공합니다. 예를 들어 모달에서 이미지를 표시할 때 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 디렉토리 구조입니다:
 
@@ -571,7 +751,18 @@ export default async function Page({ params }: { params: { slug: string[] } }) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

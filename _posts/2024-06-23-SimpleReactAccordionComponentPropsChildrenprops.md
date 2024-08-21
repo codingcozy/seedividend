@@ -3,17 +3,13 @@ title: "간단한 React 아코디언 컴포넌트 만들기Props와 Children pro
 description: ""
 coverImage: "/assets/img/2024-06-23-SimpleReactAccordionComponentPropsChildrenprops_0.png"
 date: 2024-06-23 13:38
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-23-SimpleReactAccordionComponentPropsChildrenprops_0.png
 tag: Tech
 originalTitle: "Simple React Accordion Component(Props, “Children” props)"
 link: "https://medium.com/@mastermusili/simple-react-accordion-component-props-children-props-e0f077c4d8fd"
 isUpdated: true
 ---
-
-
-
-
 
 ![SimpleReactAccordionComponentPropsChildrenprops](/assets/img/2024-06-23-SimpleReactAccordionComponentPropsChildrenprops_0.png)
 
@@ -23,9 +19,18 @@ React 컴포넌트는 props를 사용하여 서로 통신합니다. 모든 부�
 
 이 프로젝트에서는 정적 데이터를 사용할 것이며, 외부 API에서 데이터를 전달할 수도 있습니다. 아래는 사용할 데이터입니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Img1](/assets/img/2024-06-23-SimpleReactAccordionComponentPropsChildrenprops_1.png)
 
@@ -35,8 +40,18 @@ React 컴포넌트는 props를 사용하여 서로 통신합니다. 모든 부�
 
 참고: 스타일링은 tailwind css를 사용했습니다
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 구성 요소에서는 "currOpen" 상태를 사용하여 데이터 배열에서 현재 열린 데이터를 결정하므로 true이면 표시되고, 그렇지 않으면 표시되지 않습니다.
 
@@ -46,8 +61,18 @@ React 컴포넌트는 props를 사용하여 서로 통신합니다. 모든 부�
 
 항목, currOpen 및 setCurrOpen과 같은 이름의 프롭을 ('와 ') 사이에 쉼표로 구분하여 AccordionItem 함수 바로 뒤에 나열하여 AccordionItem 코드 내에서 변수처럼 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![SimpleReactAccordionComponentPropsChildrenprops](/assets/img/2024-06-23-SimpleReactAccordionComponentPropsChildrenprops_3.png)
 
@@ -57,8 +82,18 @@ React 컴포넌트는 props를 사용하여 서로 통신합니다. 모든 부�
 
 toggleClick 메서드는 아코디언을 열고 해당 아코디언이 열려 있는지 확인하고 다시 클릭되었는지 확인한 후 상태가 null로 설정되어 아코디언이 닫힙니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아코디언이 열리지 않았을 경우, onclick 메서드를 사용하여 toggleClick이 항목의 id를 "currOpen"으로 설정한 후 아코디언을 엽니다.
 

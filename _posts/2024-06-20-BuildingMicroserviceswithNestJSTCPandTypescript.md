@@ -3,16 +3,13 @@ title: "NestJS, TCP 및 Typescript로 Microservices 구축하기"
 description: ""
 coverImage: "/assets/img/2024-06-20-BuildingMicroserviceswithNestJSTCPandTypescript_0.png"
 date: 2024-06-20 00:09
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-BuildingMicroserviceswithNestJSTCPandTypescript_0.png
 tag: Tech
 originalTitle: "Building Microservices with NestJS, TCP and Typescript"
 link: "https://medium.com/itnext/building-microservices-with-nestjs-tcp-and-typescript-dda33aad8b89"
 isUpdated: true
 ---
-
-
-
 
 ## 마이크로서비스가 서로 상호 작용하는 방법
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 이 글에서는 단일체와 마이크로서비스 아키텍처의 차이를 이야기하고, NestJS, TCP 및 Typescript를 사용하여 이를 구축하는 방법을 보여드리려고 합니다. 먼저 마이크로서비스가 무엇인지 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 미크로서비스란 무엇인가
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 더 나은 이해를 위해 저희는 함께 NestJS에서 미크로서비스 프로젝트를 개발할 예정입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 프로젝트 설정하기
 
@@ -43,7 +62,18 @@ isUpdated: true
 
 간략히 설명하면, 사용자가 자격 증명으로 /api/login 엔드포인트를 통해 로그인하면 API 게이트웨이에 연결됩니다. API 게이트웨이는 그런 다음 요청-응답 스타일의 메시지 패턴을 사용하여 인증 마이크로서비스와 메시지를 주고받습니다. 이러한 방식으로 저희 앱이 작동할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여러 서비스를 구축할 예정이므로 여러 앱과 라이브러리가 포함된 단일 버전 관리 코드 저장소인 모노레포 프로젝트를 가지는 것이 좋습니다. 따라서 모노-저장소에서 웹 앱 및 서비스를 빌드하고 확장할 수 있는 Nx 도구를 사용할 것입니다.
 
@@ -55,7 +85,18 @@ npx create-nx-workspace nestjs-microservices --preset=nest
 
 앱 이름을 api-gateway로 지정해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-20-BuildingMicroserviceswithNestJSTCPandTypescript_1.png" />
 
@@ -68,7 +109,18 @@ npm i @nestjs/microservices class-validator class-transformer
 
 # Auth 모듈 추가하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리 프로젝트가 생성되었으므로, nx는 이미 API Gateway 서비스 애플리케이션을 생성해 주었습니다. 이제 API Gateway 앱에서 인증 모듈을 만들어서 인증 관련 요청을 처리할 것입니다.
 
@@ -80,12 +132,23 @@ nx g @nx/nest:lib shared
 
 이제 dto 폴더를 만들어서 create-user.dto.ts 파일을 추가해 주세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```ts
 // shared/src/lib/dto/create-user.dto.ts
 
-import { IsNotEmpty, IsString } from 'class-validator';
+import { IsNotEmpty, IsString } from "class-validator";
 
 export class CreateUserDto {
   @IsString()
@@ -114,25 +177,36 @@ export class CreateUserDto {
 
 NestJS는 기본 TCP 전송 계층을 사용하여 서로 다른 마이크로서비스 인스턴스 간에 메시지를 전달합니다. NestJS는 microservice 전송자를 설명하는 객체 배열을 인자로받는 static register() 메서드를 노출하는 ClientsModule을 제공합니다. 다음 코드 라인을 사용하여 auth.service.ts를 추가하고 AUTH_MICROSERVICE를 등록해 보겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // apps/api-gateway/src/auth/auth.module.ts
 
-import { Module } from '@nestjs/common';
-import { ClientsModule, Transport } from '@nestjs/microservices';
+import { Module } from "@nestjs/common";
+import { ClientsModule, Transport } from "@nestjs/microservices";
 
-import { AuthController } from './auth.controller';
-import { AuthService } from './auth.service';
+import { AuthController } from "./auth.controller";
+import { AuthService } from "./auth.service";
 
 @Module({
   imports: [
     ClientsModule.register([
       {
-        name: 'AUTH_MICROSERVICE',
+        name: "AUTH_MICROSERVICE",
         transport: Transport.TCP,
         options: {
-          host: 'localhost',
+          host: "localhost",
           port: 3001,
         },
       },
@@ -172,7 +246,18 @@ export class AuthService {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에서 보듯이, get_user 또는 create_user 패턴을 사용하여 인증 마이크로서비스에 메시지를 보낼 수 있습니다. 사용자가 로그인하거나 등록할 때 이를 사용할 것입니다.
 
@@ -183,7 +268,18 @@ send 메서드는 마이크로서비스를 호출하고 응답으로 Observable�
 
 마지막으로, login 및 signup을 위한 두 API 엔드포인트를 갖는 AuthController 클래스를 만들 것입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // apps/api-gateway/src/auth/auth.controller.ts
@@ -240,7 +336,18 @@ export class AuthController {
 
 이제 다음 명령을 실행하여 첫 번째 인증 마이크로서비스를 생성할 것입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 nx g @nx/nest:app auth-microservice
@@ -251,27 +358,28 @@ nx g @nx/nest:app auth-microservice
 ```js
 // apps/auth-microservice/src/main.ts
 
-import { Logger } from '@nestjs/common';
-import { NestFactory } from '@nestjs/core';
-import { Transport, MicroserviceOptions } from '@nestjs/microservices';
+import { Logger } from "@nestjs/common";
+import { NestFactory } from "@nestjs/core";
+import { Transport, MicroserviceOptions } from "@nestjs/microservices";
 
-import { AppModule } from './app/app.module';
+import { AppModule } from "./app/app.module";
 
 async function bootstrap() {
-  const app = await NestFactory.createMicroservice<MicroserviceOptions>(
-    AppModule,
+  const app =
+    (await NestFactory.createMicroservice) <
+    MicroserviceOptions >
+    (AppModule,
     {
       transport: Transport.TCP,
       options: {
-        host: 'localhost',
+        host: "localhost",
         port: 3001,
       },
-    }
-  );
+    });
 
   await app.listen();
 
-  Logger.log('🚀 Auth microservice is listening');
+  Logger.log("🚀 Auth microservice is listening");
 }
 
 bootstrap();
@@ -279,8 +387,18 @@ bootstrap();
 
 NestFactory 클래스의 createMicroservice() 메소드를 사용하여 마이크로서비스의 인스턴스를 생성할 수 있습니다. 아주 간단하죠! 만약 궁금한 점이 있거나 도움이 필요하시다면 언제든지 물어주세요! 😊✨
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러면 사용자 엔티티를 공유 라이브러리에서 생성하여 UsersRepository 클래스에서 사용할 겁니다. 이를 통해 사용자 데이터를 저장하고 사용자를 검색하는 작업을 수행할 수 있습니다.
 
@@ -322,7 +440,18 @@ export class UserRepository {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 createUser() 및 getUser()를 app.service.ts에서 UserRepository 메소드를 사용하여 사용자를 생성하고 찾는 메소드를 추가할 것입니다:
 
@@ -370,7 +499,18 @@ export class AppController {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 코드에서 handleGetUser() 메시지 핸들러는 get_user 메시지 패턴과 일치하는 메시지를 수신합니다. 이 메시지 핸들러는 클라이언트로부터 전달된 CreateUserDto 유형의 사용자를 인자로 취합니다.
 
@@ -383,7 +523,18 @@ nx serve api-gateway
 nx serve auth-microservice
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앱을 테스트하려면 Postman이나 다른 API 클라이언트를 사용할 수 있어요.
 
@@ -393,7 +544,18 @@ nx serve auth-microservice
 
 ## 가입
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-20-BuildingMicroserviceswithNestJSTCPandTypescript_3.png" />
 
@@ -403,7 +565,18 @@ nx serve auth-microservice
 
 ## 동일한 사용자 이름으로 가입
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-20-BuildingMicroserviceswithNestJSTCPandTypescript_5.png)
 
@@ -413,6 +586,17 @@ nx serve auth-microservice
 
 읽어 주셔서 감사합니다 — 이 글이 도움이 되셨으면 좋겠습니다. 즐거운 코딩 되세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 자원

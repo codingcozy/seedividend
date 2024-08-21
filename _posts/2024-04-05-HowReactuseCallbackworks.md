@@ -3,17 +3,13 @@ title: "리액트의 useCallback이 어떻게 작동하는지 알아보기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How ReactuseCallback works"
 link: "https://medium.com/@ramnayan699/how-react-usecallback-working-with-react-memo-f9d8129ed8f7"
 isUpdated: true
 ---
-
-
-
-
 
 ![HowReactuseCallbackworks_0](/assets/img/HowReactuseCallbackworks_0.png)
 
@@ -67,7 +63,18 @@ export default function App() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기본적으로 React는 컴포넌트가 다시 렌더링될 때 모든 하위 컴포넌트를 재귀적으로 다시 렌더링합니다. 따라서 부모 컴포넌트가 다른 테마 속성으로 다시 렌더링되면 자식 컴포넌트도 다시 렌더링됩니다. 그러나 자식 컴포넌트의 다시 렌더링을 건너뛰고 싶다면 React.memo를 사용하세요.
 
@@ -90,6 +97,17 @@ export default memo(Child);
 
 React의 useCallback에 대해 더 많이 읽고 싶다면 React 업데이트된 문서 페이지를 확인해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기에 오신 걸 환영합니다! 👍

@@ -3,17 +3,13 @@ title: "자바스크립트에서 windowpostMessage와 windowparentpostMessage �
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Understanding windowpostMessage and windowparentpostMessage in JavaScript"
 link: "https://medium.com/@mrajaeim/understanding-window-postmessage-and-window-parent-postmessage-in-javascript-f09d4eac68ba"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/UnderstandingwindowpostMessageandwindowparentpostMessageinJavaScript_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 window.postMessage 메서드는 서로 다른 출처(도메인)에 속하는 두 창 또는 탭 간 통신을 활성화하는 안전한 방법입니다. 이를 통해 한 창의 스크립트가 다른 창으로 안전하게 메시지를 전달할 수 있도록 하여, 서로 다른 도메인에서 발생한 경우에도 가능합니다. 이는 제3자 위젯, 아이프레임 또는 웹 응용 프로그램 내에서 교차 출처 통신을 포함하는 데 특히 유용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 otherWindow.postMessage(message, targetOrigin, [transfer]);
@@ -37,7 +44,18 @@ otherWindow.postMessage(message, targetOrigin, [transfer]);
 
 예시: 서로 다른 출처의 두 HTML 파일을 고려해 보겠습니다 (예: https://origin1.com 및 https://origin2.com):
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <!--origin1.html-->
@@ -88,7 +106,18 @@ otherWindow.postMessage(message, targetOrigin, [transfer]);
 
 # 1. window.parent.postMessage:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 window.parent.postMessage 방법은 window.postMessage와 유사하지만 임베디드된 iframe 내에서 부모 창과 통신하기 위해 특별히 사용됩니다.
 
@@ -102,7 +131,18 @@ parent.postMessage(message, targetOrigin, [transfer]);
 - targetOrigin: 부모 창의 출처를 지정합니다.
 - transfer (선택사항): window.postMessage와 마찬가지로, 이 매개변수를 사용하면 전송될 때 복제 대신 데이터 전송이 가능합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시: 부모.html 파일이 다른 출처의 iframe(자식.html)를 내장하는 시나리오를 고려해 봅시다:
 
@@ -143,7 +183,18 @@ parent.postMessage(message, targetOrigin, [transfer]);
 
 이 예시에서 자식.html의 "부모에게 메시지 보내기" 버튼을 클릭하면 "자식 창에서 안녕하세요!" 메시지를 부모 창(origin1.html)으로 보냅니다. 부모.html 창은 이 메시지를 받아서 적절하게 처리할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # window.parent.postMessage를 사용하여 객체 또는 배열과 같은 복잡한 데이터를 보낼 수 있나요?
 

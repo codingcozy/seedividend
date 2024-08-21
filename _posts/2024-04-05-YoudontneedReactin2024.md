@@ -3,17 +3,13 @@ title: "2024년에는 굳이 React를 쓰지 않아도 되는 이유"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "You dont need React in 2024"
 link: "https://medium.com/@dmitry.sobolevsky/you-dont-need-react-in-2024-45257fa9b25b"
 isUpdated: true
 ---
-
-
-
-
 
 요즘 React는 매우 인기가 많이 있거나 이미 많은 인기를 얻고 있는 중입니다. 물론 대형 또는 중소 규모의 애플리케이션에 대한 매우 좋은 솔루션이지만, 완전히 일반적인 몇 페이지 정적 콘텐츠 웹 사이트에는 언제나 적용할 수는 없습니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 이러한 간단한 웹 사이트의 주요 목적은 방문자에게 장소, 비즈니스 또는 조직에 대한 정보를 전달하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 작은 비즈니스를 예로 들어 이러한 웹 사이트를 살펴보겠습니다.
 대부분의 경우, 사이트는 다음과 같은 페이지로 구성됩니다:
@@ -36,7 +43,18 @@ isUpdated: true
 
 이를 바탕으로, 이러한 프로젝트를 개발하기 위해 가장 기본적이고 간단한 기술인 HTML, CSS, JavaScript가 필요할 것으로 이해할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로젝트의 구조는 매우 간단합니다. 총 3개의 정적 HTML 페이지가 포함되어 있습니다:
 
@@ -51,7 +69,18 @@ isUpdated: true
 - CSS와 JS를 사용하여 .html 파일에서 로컬 개발하기
 - webpack을 사용하여 프로젝트를 개발하고 빌드하기. 제안드리는 것은 항상 이 방법을 사용하는 것입니다. 이 방법을 사용하면 여러분의 삶이 훨씬 쉬워질 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹팩을 사용하는 것 외에도 CSS 대신 SCSS를 사용해 봅시다. 아래에서 웹팩과 SCSS의 장점을 설명하겠습니다.
 
@@ -62,7 +91,18 @@ isUpdated: true
 먼저, Node.js가 설치되어 실행 중인지 확인해야 합니다.
 터미널에서 다음 명령을 통해 쉽게 확인할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 node - v;
@@ -81,7 +121,18 @@ node - v;
 — 자바스크립트 코드는 서버에 업로드되기 전에 압축되어 페이지 로딩 속도를 높입니다.
 — 로컬 개발을 위한 웹 서버, 모든 새로운 코드 변경 사항이 반영된 페이지를 자동으로 다시로드합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리의 Webpack 번들러는 매우 간단하고 아름다운 방식으로 모두 처리해줍니다!
 
@@ -93,7 +144,18 @@ Webpack을 사용하여 간단한 웹사이트를 만드는 것은 HTML 파일, 
 - 루트 디렉토리에서 npm i를 실행합니다. 프로젝트 및 기타 필요한 설정을 정합니다.
 - 필요한 패키지 설치: Webpack 및 몇 가지 로더를 설치해야 합니다. 다음 명령어를 프로젝트 루트 디렉토리에서 실행하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm install --save-dev webpack webpack-cli html-webpack-plugin mini-css-extract-plugin css-loader sass sass-loader style-loader babel-loader @babel/core @babel/preset-env webpack-dev-server
@@ -156,7 +218,18 @@ module.exports = {
 5. 프로젝트 구조:
    새로운 src 폴더를 프로젝트 루트 디렉토리에 만드세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - index.js: 메인 JavaScript 진입 파일입니다.
 - index.html, services.html, contact.html: HTML 파일들입니다.
@@ -173,7 +246,18 @@ module.exports = {
 
 이것이 무엇인지 설명해드릴게요. Babel은 널리 사용되는 JavaScript 컴파일러로, 당신이 최신의 JavaScript를 사용할 수 있도록 합니다. 실제로는 현대적인 JavaScript 코드를 현재 및 오래된 브라우저 또는 환경과 호환되는 버전으로 변환합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 있는 ECMAScript이 최신 버전이고, 인터넷 익스플로러 11이 오래된 버전이에요. 다행히도 없어졌네요!
 
@@ -186,7 +270,18 @@ module.exports = {
 
 8. 프로젝트를 실행하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - npm start을 사용하여 개발 서버를 시작하세요.
 - npm run build를 사용하여 프로덕션 빌드를 생성하세요.
@@ -197,7 +292,18 @@ module.exports = {
 
 그림을 그리기 위한 색연필이 가득한 큰 상자가 있다고 상상해봅시다✏️. 일반 CSS(Cascading Style Sheets)는 상자에서 바로 각 색연필을 사용하여 그림을 칠하는 것과 같습니다. 색을 선택하고 조금 그리고, 다른 색을 선택하는 식으로 계속합니다. 잘 작동하지만 가끔은 색을 섞어서 사용하거나 즐겨 사용하는 조합을 쉽게 기억하고 싶을 때가 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 SCSS (Sassy CSS)를 마법의 색칠북으로 생각해 보세요. 여러분만의 특별한 색연필을 만들 수 있는 곳이에요.
 
@@ -214,7 +320,18 @@ body {
 2. 그리기 쌓기 (중첩):
    나무를 그린다고 상상해보세요. 우선 줄기를 그리고 가지, 마지막으로 잎을 그립니다, 맞죠? SCSS에서도 이렇게 그릴 수 있어요. 나무의 큰 부분부터 시작해서 (나무), 그리고 작은 부분들(가지, 잎)을 큰 부분 내부에 넣을 수 있어요. 그림 속에 그림을 그리는 것처럼, 모든 걸 깔끔하게 이해하기 쉽게 유지해줘요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .garden {
@@ -242,7 +359,18 @@ body {
 4. 색상 공유 (상속):
    한 그림에 사용한 좋아하는 색상 세트가 있다면, 그 색상을 다시 선택하지 않고 다른 그림에 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```css
 .flower {
@@ -272,7 +400,18 @@ body {
 6. 예술에서의 수학 (수학적인 연산):
    만약 그림 그리는 데 수학을 활용할 수 있다면 어떨까요? "이 선을 이전 것의 두 배로 길게 해주세요" 또는 "이 파란색의 절반만 사용해주세요"와 같이 말할 수도 있습니다. 울타리를 두 배로 높게 만든다던가:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /* 울타리를 두 배로 높게 만들기: */
@@ -290,7 +429,18 @@ SCSS를 사용하면 그림 그리기(또는 웹사이트 디자인)를 더 쉽�
 
 9. 프로젝트 구성의 마지막 단계는 `./src/scss`에 `main.scss`를 추가하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/YoudontneedReactin2024_2.png" />
 
@@ -301,7 +451,18 @@ SCSS를 사용하면 그림 그리기(또는 웹사이트 디자인)를 더 쉽�
 
 가까운 미래에 템플릿 엔진에 관한 별도의 기사를 올릴 예정이에요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 서버에서 작업한 결과로는 Nginx, Node.js, Apache 등의 웹 서버를 사용하여 배포될 정적 파일 세트가 생성됩니다.
 

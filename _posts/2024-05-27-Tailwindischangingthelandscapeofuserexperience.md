@@ -3,16 +3,13 @@ title: "웹사이트를 TailwindCSS로 만들어야하는 이유 "
 description: ""
 coverImage: "/assets/img/2024-05-27-Tailwindischangingthelandscapeofuserexperience_0.png"
 date: 2024-05-27 19:04
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-Tailwindischangingthelandscapeofuserexperience_0.png
 tag: Tech
 originalTitle: "Tailwind is changing the landscape of user experience"
 link: "https://medium.com/gopenai/tailwind-is-changing-the-landscape-of-user-experience-46de4ace5fbb"
 isUpdated: true
 ---
-
-
-
 
 다르실 자댭, Think In Bytes의 풀스택 엔지니어가 말하길, Tailwind는 개발자들 사이에서 널리 사용되어 동적이고 매력적이며 견고한 프런트엔드 애플리케이션을 구축하는 데 인기를 끌고 있다.
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 Think In Bytes에서는 Tailwind CSS를 사용하여 고객을 위한 동적이고 인터랙티브한 웹 인터페이스를 만들기 시작했습니다. 이 블로그는 Tailwind가 웹 개발을 혁신하고 있는 방식에 대해 탐구하며, 이에 대한 모든 기본적인 질문에 대답하고 여러분의 팀 또는 프로젝트에 적합한지 결정하는 데 도움이 될 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리 조직은 주로 Next.js를 사용하여 제품을 개발하는데, 이는 Tailwind와 시원하게 통합됩니다. 이를 통해 우리는 프로젝트 전반에 걸쳐 Tailwind를 널리 사용할 수 있게 되었습니다. 그러나 이는 Next.js에만 국한된 것이 아닙니다; 우리는 Angular 및 React 앱에도 성공적으로 통합시켰습니다. 이 다양성은 Tailwind의 유연성을 보여줍니다. 한 번 마스터하면 거의 모든 프레임워크에 구현할 수 있습니다. 이 프레임워크에 대해 더 알고 싶다면, Tailwind가 빛나게 만드는 것에 대해 자세히 알아보겠습니다.
 
@@ -32,7 +40,18 @@ Tailwind는 전통적인 방법보다 더 빠르게 웹 사이트를 스타일�
 
 Tailwind는 반응형 디자인을 크게 향상시키는 모바일 우선 접근 방식을 채택했습니다. 이는 CSS를 더 빠르고 효율적이며 더 깨끗하게 작성하는 것을 단순화합니다. 예를 들어:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # Hello world!
@@ -46,8 +65,18 @@ In this snippet, we use three classes:
 This is more straightforward than traditional CSS, where you need to define and name each class, adding extra steps to the process. Tailwind strikes a balance between the customization of vanilla CSS and the speed of frameworks like Bootstrap.
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![테일윈드 로고](/assets/img/2024-05-27-Tailwindischangingthelandscapeofuserexperience_1.png)
 
@@ -59,26 +88,43 @@ This is more straightforward than traditional CSS, where you need to define and 
 
 아래는 다크 모드를 고려한 예시입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <div class="bg-white dark:bg-slate-800 rounded-lg px-6 py-8 ring-1">
   <div>test</div>
   <h3 class="text-slate-900 dark:text-white">some text</h3>
 </div>
 
-
-
-<!-- dark:text-white will be applied to dark mode only, for light mode it will take 
+<!-- dark:text-white will be applied to dark mode only, for light mode it will take
 text-slate-900 -->
-
 
 - Enhanced Workflow: Tailwind를 사용하기 전에 일반 CSS에 의존했던 개발자로서, 저는 Tailwind가 효율성을 20~30% 향상시켰다는 사실을 발견했습니다. 반응형 디자인을 간소화하여 최근 Angular과 Tailwind를 사용하여 개발한 학교 정적 웹사이트 프로젝트 등에 도움이 되었습니다.
 
 Tailwind 사용 방법
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 설치 지침은 다음을 방문하십시오: Tailwind CSS 설치
 
@@ -90,7 +136,18 @@ Tailwind 사용 방법
 
 이 모바일 우선 접근 방식은 디바이스 크기에 따라 적절한 스타일이 적용되도록 보장합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테일윈드 사용 시기
 
@@ -103,7 +160,18 @@ Tailwind 사용 방법
 - CSS 초보자에게: CSS에 익숙하지 않다면 테일윈드로 시작하는 것이 어려울 수 있습니다.
 - 매우 사용자 정의된 디자인에: 프로젝트가 복잡한 애니메이션이나 독특한 효과를 요구하는 경우 전통적인 CSS가 더 적합할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테일윈드의 장단점
 
@@ -116,7 +184,18 @@ Tailwind 사용 방법
 
 단점:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 복잡한 디자인에 대해 베니야 CSS보다는 덜 유연합니다.
 - 설정 및 구성 중에 특히 초보자에게 압도적일 수 있습니다.

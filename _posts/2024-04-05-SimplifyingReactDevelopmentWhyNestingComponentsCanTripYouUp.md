@@ -3,17 +3,13 @@ title: "리액트에서 컴포넌트 중첩의 함정 예방하기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Simplifying React Development Why Nesting Components Can Trip You Up"
 link: "https://medium.com/@sudha.malpeddi/simplifying-react-development-why-nesting-components-can-trip-you-up-f84cd4313605"
 isUpdated: true
 ---
-
-
-
-
 
 소개
 
@@ -23,7 +19,18 @@ React 개발에 뛰어들면 "중첩 컴포넌트 안티-패턴"이라고 알려
 
 React에서 기본 카운터 앱을 구축한다고 상상해보세요. 숫자를 증가시키는 버튼과 카운트를 보여주는 디스플레이가 있습니다. 처음에는 카운터 디스플레이 컴포넌트를 메인 앱 컴포넌트로 중첩할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import React, { useState } from "react";
@@ -57,7 +64,18 @@ export default CounterApp;
 
 부모 구성 요소가 다시 렌더링될 때마다 구성 요소가 재정의되면 React가 어떤 변경 사항도 캐시할 수 없습니다. 다시 말해, React가 주 구성 요소를 재렌더링할 때마다 카운터 디스플레이 구성 요소를 처음부터 다시 생성해야 합니다. 이는 구성 요소 내의 상태가 손실되어 응용 프로그램에서 예기치 않은 동작이 발생하는 것을 의미합니다. 눈가리개를 쓰고 미로를 헤매다시피할 때, 어떻게든 목적지에 도달할 수 있지만, 확실히 지루하고 비효율적인 여정이 될 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 성능 문제:
 
@@ -67,7 +85,18 @@ export default CounterApp;
 
 주의해야 할 점: 더 나은 접근 방식
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그렇다면 중첩 구성 요소 함정에 빠지지 않으려면 어떻게 해야 할까요? 간단합니다: 구성 요소를 분리하고 모듈화하세요. 구성 요소를 중첩하는 대신 독립적인 기능으로 정의하세요.
 다음은 이를 수행하는 방법입니다. 카운터 앱을 다음과 같이 리팩터링할 수 있습니다:
@@ -102,7 +131,18 @@ export default CounterApp;
 
 게다가, 우리 개발자들은 프롭스, 컨텍스트, 그리고 React 프레임워크의 기능을 의도대로 활용해야 합니다. 호스트 구성 요소와 상태를 공유하려고 하는 대신, 데이터를 프롭스를 통해 넘겨주거나 컨텍스트를 사용하여 필요한 곳에서 전역 상태 액세스를 제공하는 방식으로 고려하세요. 이러한 지침을 따라가면, 개발자들은 중첩된 구성 요소의 문제에 빠지지 않으면서도 React 애플리케이션을 성능적이고 확장 가능하게 유지할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결론:
 

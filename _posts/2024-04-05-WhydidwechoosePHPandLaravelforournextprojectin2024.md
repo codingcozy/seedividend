@@ -3,17 +3,13 @@ title: "2024년 다음 프로젝트에 PHP와 Laravel을 선택한 이유"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Why did we choose PHP and Laravel for our next project in 2024"
 link: "https://medium.com/@b_shulha/why-did-we-choose-php-and-laravel-for-our-next-project-in-2024-b2389e82b4f4"
 isUpdated: true
 ---
-
-
-
-
 
 ![Why did we choose PHP and Laravel for our next project in 2024](/assets/img/WhydidwechoosePHPandLaravelforournextprojectin2024_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 예전에는 Java와 Spring Boot를 주 개발 도구로 선택했습니다. - 팀원이 적었고, 저에게는 한 명의 주니어 개발자가 필요했기 때문에 좋은 선택이라고 생각했습니다. Java 생태계의 오랜 전통이 우리가 안정적인 것을 구축하는 데 도움이 될 것으로 기대했죠. 하지만 실제로는 많은 시간을 JPA 및 Hibernate의 명확하지 않고 문서화되지 않은, 구현하기 어려운 행동을 고치는 데 쓰게 되었습니다. 저는 이 지점에서 많이 틀렸다는 것을 알게 되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 새 프로젝트에서 이게 작동하지 않을 것 같아. 제가 고생해서 빠르게 제공하기 위해 생산성 향상을 도울 뭔가를 찾기 시작했어.
 
@@ -37,7 +44,18 @@ isUpdated: true
 
 저는 가지고 있는 옵션들을 살펴보고 팀에게 장단점을 지적할 거야.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 옵션 #1: 장고
 
@@ -47,7 +65,18 @@ isUpdated: true
 
 하지만 django-admin은 구식으로 느껴집니다. django-grapelli를 사용하면 조금 더 현대적으로 작동시킬 수 있지만, 이 도구로 현대적인 동적 폼을 개발하는 것을 상상할 수 없어요 (복잡한 클라이언트 측 유효성 검사, 유연한 자동완성, 및 의존 필드).
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스택의 장점:
 
@@ -60,7 +89,18 @@ isUpdated: true
 - 때때로 장고의 행동을 덮어쓰기하기에 너무 장황할 수 있습니다.
 - 관리자 UI는 고정되어 있습니다 — 10년 전과 똑같습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 옵션 #2: 루비 온 레일즈와 Avo.
 
@@ -70,7 +110,18 @@ RoR은 오랜 역사를 가진 잘 알려진 프레임워크입니다. 오늘날
 
 그 생태계에는 주목할만한 별이 떴습니다 — Avo CMS입니다. 이는 관리자 생성 도구 중에서 경험이 가장 좋았습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스택의 장점:
 
@@ -86,7 +137,18 @@ RoR은 오랜 역사를 가진 잘 알려진 프레임워크입니다. 오늘날
 - 다시 말해 RoR 자체 — 이 기술로 제작한 프로덕션 경험이 없기 때문에 팀원들이 무엇에 갇혔을 때 빠른 해결책을 제시하지 못할 수 있습니다.
 - RoR ;) — 이 마법으로 인해 IDE가 그다지 도움이 되지 않습니다. 무언가 언어 서버 개발이 진행 중이라는 얘기를 들었는데, 많은 변화가 일어날 것으로 예상되지만 아직 도입되지는 않았습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 옵션 #3: NextJS.
 
@@ -98,7 +160,18 @@ RoR은 오랜 역사를 가진 잘 알려진 프레임워크입니다. 오늘날
 - SPA와 백엔드 서비스 간에 공유 가능한 유효성 검사/코드.
 - SEO에 대한 최상의 선택은 아닙니다 - 여전히 모든 것을 수화해야 하기 때문에 WebVitals에 불리한 영향을 미칩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스택의 단점:
 
@@ -111,7 +184,18 @@ RoR은 오랜 역사를 가진 잘 알려진 프레임워크입니다. 오늘날
 
 JavaScript 커뮤니티의 보석입니다: 어떤 클라이언트 측 프레임워크와도 원활하게 통합되며 완벽한 SEO를 제공합니다 — JS가 필요할 때까지 전혀 로드되지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 우리는 이 프로젝트가 여전히 초기 개발 단계에 있다고 느끼고 있습니다. 중요한 것들이 부족하니까요.
 
@@ -123,7 +207,18 @@ JavaScript 커뮤니티의 보석입니다: 어떤 클라이언트 측 프레임
 
 스택의 단점:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - NextJS와 거의 비슷해요.
 
@@ -133,7 +228,18 @@ JavaScript 커뮤니티의 보석입니다: 어떤 클라이언트 측 프레임
 
 내 커리어 초기에, 나는 Laravel 5.4 와 함께 일해본 적이 있어요. 이 프레임워크는 그 때조차 최고의 인상을 줬어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오늘날은 정말 대단해요 — SPA부터 SPA와 같은 경험을 제공하는 MPA까지 어떤 웹사이트든 만들 수 있어요.
 
@@ -143,7 +249,18 @@ Inertia는 NextJS처럼 Vue/React의 SSR과 수분화를 할 수 있게 해줘�
 
 이 생태계의 다른 훌륭한 구성 요소는 Laravel Nova에요. 이는 Inertia+Vue와 Laravel을 기반으로 하는 초현대적인 관리자 도구 세트에요. 풍부한 컴포넌트 라이브러리 덕분에 종종 어떤 JS 코드도 작성하지 않고도 백엔드와의 원활한 통합을 제공해줘요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 스택의 장점:
 
@@ -156,7 +273,18 @@ Inertia는 NextJS처럼 Vue/React의 SSR과 수분화를 할 수 있게 해줘�
 
 - PHP를 모르겠어요. "대표적이지 않다"고 말해도 되나요? 일부 "최적의 방법"을 준수하지 않는다고요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리 팀에서 아직 충분히 시범을 보이지 않은 선택이긴 하지만, 이미 CI/CD 플로우를 설정하고 몇 개의 간단한 페이지를 Laravel Nova에서 만들었습니다. 정말 감격스럽네요 — 현대 소프트웨어 엔지니어링 기술들을 활용해 생산성을 느낄 수 있는 건 오랜만이에요. 백엔드를 Java로 대대적인 개편을 시작했을 때 PHP가 무서웠던 것이 조금 아쉽기도 하네요 — Laravel로 더 많은 것을 이룰 수 있었을 텐데, Laravel은 작은 스타트업을 위해 훨씬 더 만들어진 점에서 Spring Boot보다 훨씬 덜 가짜 마케팅을 하거든요 (Spring Boot는 아직도 "간단하고 강력한 도구"로 광고하고 있지만).
 

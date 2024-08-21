@@ -3,17 +3,13 @@ title: "React에서 훅을 사용해야하는 이유"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "React Development Unleashing the in Power of Hooks"
 link: "https://medium.com/@kasareswapnil9/unleashing-the-power-of-hooks-in-react-development-233367911263"
 isUpdated: true
 ---
-
-
-
-
 
 소개
 
@@ -23,7 +19,18 @@ React 개발 영역에서 16.8 버전부터 도입된 훅은 중요한 이정표
 
 훅 이해하기:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 훅은 React 애플리케이션에서 상태(state)와 사이드 이펙트(side effects)를 관리하기 위한 새로운 접근법을 제공합니다. 몇 가지 주요 개념을 알아보겠습니다:
 
@@ -47,7 +54,18 @@ function Counter() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2. useEffect 훅:
 
@@ -73,7 +91,18 @@ function Timer() {
 
 3. 커스텀 훅:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 커스텀 후크를 사용하면 개발자가 컴포넌트 간에 상태를 재사용할 수 있어요.
 - 이들은 use로 시작하는 일반적인 JavaScript 함수들이에요.
@@ -109,7 +138,18 @@ function MyForm() {
 - 향상된 코드 재사용성: 커스텀 후크를 통해 고차 컴포넌트나 렌더 프롭 없이도 컴포넌트 간에 로직을 공유할 수 있어요.
 - 향상된 성능: 후크를 사용하면 메모이제이션 기술을 활용하여 컴포넌트를 최적화하고 불필요한 다시 렌더링을 피할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 결론:
 

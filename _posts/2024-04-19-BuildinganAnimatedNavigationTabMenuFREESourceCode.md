@@ -3,17 +3,13 @@ title: "애니메이션 네비게이션 탭 메뉴 만드는 방법소스코드 
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Building an Animated Navigation Tab Menu  FREE Source Code"
 link: "https://medium.com/@withaarzoo/building-an-animated-navigation-tab-menu-free-source-code-7283dad1a7c1"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/1*YOfgHoUXj3bi9bzTRCMTOw.gif" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 먼저, 시작하려면 여기에서 전체 소스 코드를 다운로드하세요. 파일을 다운로드한 후, 텍스트 편집기에서 새 HTML 파일을 만들어 index.html로 이름을 지정하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Step 2: HTML 구조
 
@@ -110,7 +117,18 @@ index.html 파일에서 프로젝트를 위한 기본 구조를 설정하세요.
 
 # Step 3: CSS 스타일링
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 시각적으로 매력적인 내비게이션 메뉴를 만들기 위해 스타일을 추가해봅시다. style.css 파일을 열어서 내비게이션 메뉴, 목록 항목, 아이콘 및 텍스트의 모양을 사용자 정의하는 CSS 규칙을 추가해주세요.
 
@@ -249,7 +267,18 @@ transition-delay: 0.2s;
 
 내비게이션 메뉴의 애니메이션 효과를 구현하기 위해 JavaScript를 사용할 것입니다. script.js 파일을 열고 내비게이션 탭의 클릭 이벤트를 처리하는 코드를 작성해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 내비게이션 메뉴 내 모든 목록 항목 선택
@@ -273,7 +302,18 @@ list.forEach((item) => item.addEventListener("click", activeLink));
 
 # 단계 6: 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 축하합니다! 웹사이트를 위한 애니메이션 네비게이션 탭 메뉴를 성공적으로 구축했습니다. 디자인을 추가적으로 사용자 정의하거나 기존 프로젝트에 통합해보세요. 문제가 발생하거나 궁금한 점이 있으면 언제든지 도움을 요청해 주세요.
 
@@ -283,6 +323,17 @@ list.forEach((item) => item.addEventListener("click", activeLink));
 
 # 마지막으로
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 프로젝트와 같은 것들을 만드는 것은 코딩 기술을 향상시키고 웹사이트에 멋진 기능을 추가하는 좋은 방법입니다. 계속해서 코딩 여정을 이어가면서 새로운 아이디어와 도전을 탐험해보세요. #100DaysOfCode 챌린지를 통해 진행되는 더욱 흥미로운 프로젝트와 자습서를 기대해 주세요!

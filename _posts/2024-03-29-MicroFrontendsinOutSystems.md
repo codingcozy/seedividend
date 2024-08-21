@@ -3,17 +3,13 @@ title: "아웃시스템에서의 마이크로 프론트엔드"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Micro Frontends in OutSystems"
 link: "https://medium.com/itnext/micro-frontends-in-outsystems-a6aafd0d0e65"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/MicroFrontendsinOutSystems_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 글 https://martinfowler.com/articles/micro-frontends.html에서 다음을 강조할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 이것은 무엇을 뜻하나요?
 
@@ -34,7 +41,18 @@ isUpdated: true
 
 검색 모듈은 Technology A로, 인증 모듈은 Technology B로 구현될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![MicroFrontendsinOutSystems_1](/assets/img/MicroFrontendsinOutSystems_1.png)
 
@@ -44,7 +62,18 @@ isUpdated: true
 
 좋은 E2E 테스트 전략으로 품질을 보장할 수 있고 모두가 함께 행복하게 일할 수 있으며 다른 팀들의 영역에 손대지 않아도 됩니다. 🧀
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 (타 부서가 "이건 반드시 내일 공개하면 안돼요!"라고 말할 때마다, 이 책을 떠올리곤 해요.)
 
@@ -59,7 +88,18 @@ isUpdated: true
 - 아웃시스템에서 WebGL 및 Three.js와 같은 JavaScript 라이브러리를 구현할 수 있나요?
   요런 식으로요...
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 답은 간단해요: 만능 브라우저에서 실행된다면, 어떤 방식으로든, 사랑하는 플랫폼을 사용하여 구현할 수 있어요. 🥰
 이를 염두에 두고 OutSystems에서 마이크로 프론트엔드와 유사한 것을 만들 수 있어요. 하지만 몇 가지 주의할 점이 있어요.
@@ -71,7 +111,18 @@ isUpdated: true
 OutSystems Reactive Web App을 생성하면 사실상 단일 페이지 응용 프로그램 (SPA)이 생성되는데, 완전히 독립적이고 자체 라우팅이 포함되어 있어요.
 다른 기술에서 사용할 수 있는 구성 요소를 만들 방법이 없어요. 웹 블록(심지어 라이브러리 내부에 있는 것도)은 다른 OutSystems 자산에서만 사용할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아이프레임을 사용하는 다양한 기술을 섞고 거의 마이크로 프론트엔드처럼 보이는 유일한 예제들을 보았어요 😢.
 
@@ -82,7 +133,18 @@ OutSystems Reactive Web App을 생성하면 사실상 단일 페이지 응용 �
 
 # 소통
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 정규 OutSystems Reactive Web App은 캡슐화되어 있으며 해당 컨텍스트/상태는 닫혀 있어 외부 소스가 변경할 수 없습니다. 심지어 다른 동료 Reactive Web App에서도 그렇습니다.
 
@@ -91,7 +153,18 @@ OutSystems Reactive Web App을 생성하면 사실상 단일 페이지 응용 �
 🥳 솔루션:
 다행히도 지난 몇 년 동안 웹 기술은 많이 발전했으며 사용할 수있는 다양한 Web API 및 설계 패턴이 있습니다. 사용자 정의 이벤트, Observables, 웹 워커 등을 통해 잘 알려진 PubSub 설계 패턴을 사용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내가 선호하는 옵션은 전역 창 내에서 서로 다른 객체 간 통신을 처리하는 postMessage입니다.
 
@@ -101,7 +174,18 @@ OutSystems Reactive Web App을 생성하면 사실상 단일 페이지 응용 �
 
 이것들은 모두 고수준의 개념이지만, 더 심층적으로 이해하고 더 나은 수준으로 끌어올리고 싶다면 Redux를 확인해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # CSS
 
@@ -111,7 +195,18 @@ OutSystems Reactive Web App을 생성하면 사실상 단일 페이지 응용 �
 
 의도하지 않은 충돌을 피하기 위해 CSS 로드 순서와 명확성을 이해하는 것이 중요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 🥳 해결책:
 
@@ -122,7 +217,18 @@ OutSystems Reactive Web App을 생성하면 사실상 단일 페이지 응용 �
 
 결과적으로 클래스 이름은 더 길어질 수 있지만, 대상을 특정하고 상속 문제가 적어집니다. 모든 범위가 지정된 컴포넌트 내에서 제어되고 포함됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이렇게 하면 CSS가 1개의 파일에 집중되어 있어서 색상이나 타이포그래피와 같은 일반적인 설정을 모든 구성 요소에서 공유할 수 있어 일관성을 유지할 수 있습니다.
 
@@ -132,4 +238,15 @@ OutSystems에서 마이크로 프론트엔드를 구현할 수 있을까요? 네
 
 그 과정에서 몇 가지 도전 과제가 있지만, 올바른 도구 세트를 사용하면 플랫폼이 제공하는 것을 최대한 활용하여 다른 팀에 의해 개발되고 독립적인 라이프사이클을 갖는 다양한 부분으로 구성된 애플리케이션을 제공할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

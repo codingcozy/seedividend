@@ -3,17 +3,13 @@ title: "예산 친화적 디자인 시스템 구축하기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How to Build a Budget-Friendly Design System"
 link: "https://medium.com/@branda.bg/how-to-build-a-budget-friendly-design-system-7d7723a7abe1"
 isUpdated: true
 ---
-
-
-
-
 
 ![How to Build a Budget-Friendly Design System](/assets/img/HowtoBuildaBudget-FriendlyDesignSystem_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ![Budget-Friendly Design System](https://miro.medium.com/v2/resize:fit:1200/1*OYdFbvnx7ch5iyIyovk0zQ.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 일부 신화를 해체하는 것을 우리의 책임으로 여깁니다! 🥊
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 # 디자이너를 위해: Figma
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1200/1*jnQ2QXseSkRJoGKvRwKDow.gif)
 
@@ -44,7 +62,18 @@ isUpdated: true
 
 💡 전문가 팁: 언제나 개발 모드를 포함시키세요. 이것이 변화의 원동력이 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1200/1*teQKoThSiQi36D5Oj2xLAg.gif)
 
@@ -54,7 +83,18 @@ isUpdated: true
 
 ![이미지](/assets/img/HowtoBuildaBudget-FriendlyDesignSystem_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 팔모양 스펙
 페이지 및 구성 요소 디자인 명세서의 제작을 자동화하는 데 사용했어요. 디자인과 개발자 간 협업 및 진행 상황 감시를 용이하게 했죠.
@@ -70,7 +110,18 @@ isUpdated: true
 - 특정 디자인 시스템 작업을 위한 플러그인이 제한적일 수 있어요. 그러나 경험상 제품은 계속해서 이 방향으로 발전하고 있어요.
 - 클라우드 기반 협업 기능으로 보안 및 프라이버시 우려가 생길 수 있어요. 권한을 부여할 때는 항상 주의깊게 확인하세요 ❗
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 개발자를 위해: Storybook
 
@@ -80,7 +131,18 @@ isUpdated: true
 
 😑 고려해야 할 일부 약점이 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 대규모 프로젝트의 Storybook 인스턴스 유지보수는 시간이 많이 소요될 수 있어요. 하지만 디자인 시스템의 목표는 불필요한 정보 없이 간결하고 효율적이어야 해요. 🎯
 - 비기술적인 새로운 사용자들에 대한 학습 곡선은 초기 도입 속도를 늦출 수 있어요.
@@ -94,7 +156,18 @@ isUpdated: true
 ✅ 58개의 기본 및 별칭 토큰
 ✅ UX 리서치, 디자인 프로세스, 프로토타이핑 및 모바일 앱 디자인을 위한 가이드라인
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 💰: 무료 또는 유연한 요금제
 가격 확인하기
@@ -107,7 +180,18 @@ isUpdated: true
 
 😑 고려해야 할 약점은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 맞춤 설정 옵션이 다소 제한적이어서 특정 필요에 맞는 해결책을 제공하는 데 제약이 있을 수 있어요.
 - 사용자 친화적인 인터페이스에도 새로운 사용자들에게는 여전히 학습 곡선이 있어 초기 효율에 영향을 줄 수 있어요.

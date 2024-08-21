@@ -3,16 +3,13 @@ title: "얼굴 인식을 통해 감정 해독하기"
 description: ""
 coverImage: "/assets/img/2024-06-20-DecodingEmotionswithFacialRecognition_0.png"
 date: 2024-06-20 05:00
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-DecodingEmotionswithFacialRecognition_0.png
 tag: Tech
 originalTitle: "Decoding Emotions with Facial Recognition"
 link: "https://medium.com/@vedantbedi_47271/decoding-emotions-with-facial-recognition-db92ce89af52"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-06-20-DecodingEmotionswithFacialRecognition_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 Deepface는 파이썬용 경량 얼굴 인식 및 얼굴 속성 분석(나이, 성별, 감정 및 인종) 프레임워크입니다. DeepFace를 몇 줄의 코드로 실행할 수 있지만, 그 뒤의 모든 과정에 대해 깊이 있는 지식을 습득할 필요가 없습니다. 사실, 라이브러리를 가져오고 정확한 이미지 경로를 입력으로 전달하기만 하면 됩니다; 그게 전부입니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1.) .py 파일로 필요한 모듈 가져오기
 
@@ -35,10 +43,21 @@ import cv2
 
 이 명령은 전면 얼굴 검출 모델과 함께 CascadeClassifier 객체를 초기화합니다. 그 결과인 face_cascade 객체를 사용하여 이미지에서 얼굴을 감지할 수 있습니다. Haar Cascade는 파이썬의 OpenCV 라이브러리를 사용하여 쉽게 구현할 수 있는 얼굴 검출을 위한 인기 있는 알고리즘입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
+face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + "haarcascade_frontalface_default.xml");
 ```
 
 3.) 비디오 스트림을 시작하고 분류기를 실행합니다.
@@ -87,7 +106,18 @@ cap.release()
 cv2.destroyAllWindows()
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 링크에서 haarcascade 파일을 다운로드할 수 있어요 — https://github.com/opencv/opencv/blob/4.x/data/haarcascades/haarcascade_frontalface_default.xml
 
@@ -97,7 +127,18 @@ cv2.destroyAllWindows()
 
 # 2.) Keras를 이용한 합성곱 신경망
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 합성곱 신경망(Convolutional Neural Networks)은 이미지 처리에 사용되는 피드 포워드 네트워크의 일종입니다. 이러한 네트워크는 일반적인 완전 연결 레이어에 추가적인 합성곱(Convolutional) 및 풀링(Pooling) 레이어를 특징으로 합니다. 주로 그리드(grid) 형식의 데이터(이미지, 비디오)와 함께 작동합니다.
 
@@ -115,7 +156,18 @@ import os
 
 3. 동일한 파일에서 모델을 구축하고 훈련시키세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 train_data_dir='data/train/'
@@ -185,7 +237,7 @@ print("Number of testing images: ", num_test_imgs)
 
 model.fit(train_generator, steps_per_epoch=num_train_imgs//32, epochs=50, validation_data=validation_generator, validation_steps=num_test_imgs//32)
 
-model.save('model.h5')  
+model.save('model.h5')
 ```
 
 모델.h5 파일이 현재 디렉토리에 저장됩니다.
@@ -222,7 +274,7 @@ while True:
         cv2.rectangle(frame,(x,y),(x+w,y+h),(50,50,255),2)
         cv2.rectangle(frame,(x,y-40),(x+w,y),(50,50,255),-1)
         cv2.putText(frame, labels_dict[label], (x, y-10),cv2.FONT_HERSHEY_SIMPLEX,0.8,(255,255,255),2)
-        
+
     cv2.imshow("실시간 감정 인식",frame)
     k=cv2.waitKey(1)
     if k==ord('q'):
@@ -232,7 +284,18 @@ video.release()
 cv2.destroyAllWindows()
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해당 파이썬 스크립트를 실행해보세요. 코드가 동작할 것을 기대합니다!
 

@@ -3,17 +3,13 @@ title: "리액트에서의 Compound Components 패턴 작성 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Compound Components Pattern in React"
 link: "https://medium.com/javascript-in-plain-english/compound-components-pattern-in-react-4c176c18f9ba"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/CompoundComponentsPatterninReact_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ![이미지](/assets/img/CompoundComponentsPatterninReact_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, 이 카드에서 소셜 액션 버튼의 위치를 간단히 전환하려면 구성 요소 자체에 몇 가지 논리를 추가해야 합니다. 그러나 이것이 매우 특수한 시나리오이며, 앱의 나머지 부분은 카드의 원래 구조를 사용할 것을 알고 있습니다. 하지만 이 시나리오를 처리해야 하기 때문에 구성 요소에 추가적인 논리를 추가해야 합니다. 이제 많은 이러한 플래그가 있는 큰 구성 요소를 상상해 보세요. 깨닫기도 전에 구성 요소가 이미 비대하고 이해하기 어려워지고 있습니다. 이 문제의 해결책은 매우 간단합니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 재사용 가능한 컴포넌트 모음을 구축하고 편리하게 기반으로 원하는 곳에 배치합니다. 심지어 특정 부분을 원하지 않는다면, 논리를 추가하지 않고 삭제만 하면 됩니다. 이는 개발자 관점에서 많은 유연성을 가져다 주며, 이제 구성 요소를 확장하는 것이 훨씬 쉬워집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 개 이상의 구성 요소가 함께 작업하여 작업을 수행하는 아이디어입니다.
 
@@ -46,8 +64,7 @@ import React from "react";
 import { twMerge } from "tailwind-merge";
 
 //각 구성 요소를 위한 tailwind 클래스
-const cardClasses =
-  "bg-white min-w-[320px]  rounded-lg flex flex-col items-center justify-center p-5";
+const cardClasses = "bg-white min-w-[320px]  rounded-lg flex flex-col items-center justify-center p-5";
 const headerClasses = "flex justify-between w-full mb-2";
 const nameClasses = "text-2xl font-bold text-center text-gray-800";
 const roleClasses = "text-md font-medium text-center text-gray-800";
@@ -62,23 +79,13 @@ const actionButtonClasses = (type) =>
     type === "primary" ? "bg-sky-700 text-white" : "text-gray-400 bg-white"
   );
 const Card = ({ children }) => <div className={cardClasses}> {children} </div>;
-const Header = ({ children }) => (
-  <div className={headerClasses}> {children} </div>
-);
-const Image = ({ src, alt }) => (
-  <img src={src} alt={alt} width={150} height={150} className="rounded-full" />
-);
+const Header = ({ children }) => <div className={headerClasses}> {children} </div>;
+const Image = ({ src, alt }) => <img src={src} alt={alt} width={150} height={150} className="rounded-full" />;
 const Name = ({ children }) => <h1 className={nameClasses}>{children}</h1>;
 const Role = ({ children }) => <h3 className={roleClasses}>{children}</h3>;
-const Socials = ({ children }) => (
-  <div className={socialsClasses}> {children} </div>
-);
-const SocialButton = ({ children }) => (
-  <button className={socialButtonClasses}> {children} </button>
-);
-const Actions = ({ children }) => (
-  <div className={actionsClasses}> {children} </div>
-);
+const Socials = ({ children }) => <div className={socialsClasses}> {children} </div>;
+const SocialButton = ({ children }) => <button className={socialButtonClasses}> {children} </button>;
+const Actions = ({ children }) => <div className={actionsClasses}> {children} </div>;
 const HeaderButton = ({ children, onClick }) => (
   <button className="text-gray-400" onClick={onClick}>
     {children}
@@ -89,21 +96,21 @@ const ActionButton = ({ children, type, onClick }) => (
     {children}
   </button>
 );
-export {
-  Card,
-  Header,
-  ActionButton,
-  Actions,
-  HeaderButton,
-  Image,
-  Name,
-  Role,
-  SocialButton,
-  Socials,
-};
+export { Card, Header, ActionButton, Actions, HeaderButton, Image, Name, Role, SocialButton, Socials };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 패턴을 사용하여 카드 구성 요소가 어떻게 보이는지 알아봤어요. 여기서, 저는 모든 컴포넌트를 children prop으로 개별적으로 생성해요. 태그 사이에 전달하는 내용은 해당 태그의 자식으로 계산돼요. div 태그를 사용하고 그 안에 h1 태그와 p 태그가 있다면, 이 div 태그의 자식으로 카운트돼요.
 
@@ -113,7 +120,18 @@ export {
 
 App 파일 내부에서 이러한 모든 컴포넌트를 가져와서 필요에 따라 구조화할 거에요. 사용 사례에 따라 컴포넌트를 구성할 수 있어요. 이동하거나 컴포넌트에서 간단히 제거하고 추가 로직이 없어도 모두 예상대로 작동할 거에요. 최대한 유연하게 사용할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <Card>
@@ -150,7 +168,18 @@ App 파일 내부에서 이러한 모든 컴포넌트를 가져와서 필요에 
 
 그러니 첫 번째로, 주요 탭 컨테이너를 구성해 봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const TabsContext = createContext();
@@ -186,7 +215,18 @@ const Tab = ({ index, children }) => {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해당 버튼을 클릭하면 컨텍스트에서 changeTab을 호출하여 activeTab 상태를 변경합니다. 이 상태를 사용하는 다른 컴포넌트는 다시 렌더링됩니다.
 
@@ -205,7 +245,18 @@ const TabPanel = ({ index, children }) => {
 
 最後로, 모두 내보내기를 실행합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 export { Tabs, Tab, TabPanel };
@@ -221,7 +272,18 @@ export default Tabs;
 
 이제 App 파일 내에서 우리 모든 탭 컴포넌트를 가져와 필요한 대로 사용해 봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <Tabs>
@@ -243,4 +305,15 @@ export default Tabs;
 Github 링크: https://github.com/AkileshRao/compound-components
 Youtube 링크: https://www.youtube.com/watch?v=PPOKvugfi98
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

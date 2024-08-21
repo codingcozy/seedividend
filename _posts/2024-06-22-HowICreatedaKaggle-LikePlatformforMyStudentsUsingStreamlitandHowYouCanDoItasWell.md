@@ -3,16 +3,13 @@ title: "Streamlit으로 Kaggle 같은 플랫폼을 만드는 방법 학생들을
 description: ""
 coverImage: "/assets/img/2024-06-22-HowICreatedaKaggle-LikePlatformforMyStudentsUsingStreamlitandHowYouCanDoItasWell_0.png"
 date: 2024-06-22 02:33
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-HowICreatedaKaggle-LikePlatformforMyStudentsUsingStreamlitandHowYouCanDoItasWell_0.png
 tag: Tech
 originalTitle: "How I Created a Kaggle-Like Platform for My Students Using Streamlit and How You Can Do It as Well"
 link: "https://medium.com/towards-data-science/how-i-created-a-kaggle-like-platform-for-my-students-using-streamlit-and-how-you-can-do-it-as-well-5fd10671f559"
 isUpdated: true
 ---
-
-
-
 
 ![How I Created a Kaggle-Like Platform for My Students Using Streamlit and How You Can Do It as Well](/assets/img/2024-06-22-HowICreatedaKaggle-LikePlatformforMyStudentsUsingStreamlitandHowYouCanDoItasWell_0.png)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 항상 제 학생들에게 맞춤화된 Kaggle의 소형 버전을 만들고 싶어했습니다. 이 플랫폼은 Kaggle의 게임화 성공을 반영하고, 수학 프로그래밍 및 조합 최적화를 포함하여 여러 주제의 템플릿으로 서비스를 제공할 수 있게 해줍니다. 처음에는 일반적인 파이썬 웹 개발 프레임워크인 Django나 Flask를 사용하여 이러한 플랫폼을 구축하는 데 필요한 노력에 despondent해졌습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Streamlit을 최근에 알게 되어서 정말 기뻤어요! Streamlit은 Google Sheets와 상호 작용할 수 있는 능력을 갖추고 있어요. 이 글에서는 Python, Streamlit, 그리고 Google Sheets를 사용하여 Kaggle과 유사한 웹 애플리케이션을 만들어 수업을 게임으로 변화시킬 수 있는 방법을 보여드릴 거에요. 이 앱을 통해 학생들은 개별 계정으로 로그인하고, CSV 파일을 업로드하여 해결책을 제출하고, 다양한 머신 러닝 메트릭을 기반으로 해결책을 평가하고, 제출물들의 순위를 동적으로 확인할 수 있어요. 무엇보다도, 무료로 이 앱을 배포하는 방법도 설명할 거에요.
 
@@ -32,7 +40,18 @@ Streamlit을 최근에 알게 되어서 정말 기뻤어요! Streamlit은 Google
 
 이 글이 길 수도 있음을 참고해 주세요. 가능한 한 자세하게 설명드리려고 노력하고 있어요. 데이터 과학 전문가일 필요는 없지만 Python에 서툰 교사나 교수님들에게 많은 도움이 될 수 있다고 생각하기 때문이에요. 이미 Python 전문가라면, 이 글은 건너뛰고 아래 프로젝트의 GitHub 저장소로 바로 이동하실 수도 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내가 학생들과 함께 구현한 원래 프로젝트에서 앱에는 세 가지 다른 기계 학습 섹션이 포함되어 있었습니다: 회귀 문제용 하나, 이진 분류 문제용 하나, 시계열 예측 문제용 하나입니다. 이 간단한 튜토리얼에서는 이 중 하나에 초점을 맞출 것입니다: UC Irvine Machine Learning Repository의 유명한 Pima 당뇨병 데이터셋을 사용한 이진 분류 문제입니다. 이 데이터셋은 Kaggle에서도 다운로드할 수 있습니다.
 
@@ -57,7 +76,18 @@ Streamlit을 최근에 알게 되어서 정말 기뻤어요! Streamlit은 Google
 
 # Streamlit과 Google Sheets
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2023년 1.28 버전부터 Streamlit은 사용자가 st.connection 메서드를 사용하여 Google Sheets에 연결할 수 있게 되었습니다. 이 방법을 사용하면 Google Sheets를 데이터베이스로 활용하여 CRUD (생성, 읽기, 업데이트, 삭제) 작업을 수행할 수 있습니다. 이 기능에 대해 알게 된 것은 Sven | Coding Is Fun이 만든 YouTube 비디오에서 알게 되었습니다. 시청하고 싶다면 아래 링크를 남겨 놓겠습니다.
 
@@ -67,7 +97,18 @@ Streamlit을 최근에 알게 되어서 정말 기뻤어요! Streamlit은 Google
 
 구현에 바로 들어가기 전에, 앱이 반드시 갖춰야 할 다른 모듈들과 구현 전략을 신중하게 검토하는 것이 중요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 앱 디자인
 
@@ -77,7 +118,18 @@ Streamlit을 최근에 알게 되어서 정말 기뻤어요! Streamlit은 Google
 
 # 앱 구현
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 앱에는 Visual Studio Code를 사용할 것입니다. 귀하는 귀하의 기기에 새 프로젝트 폴더를 만들고 해당 폴더에서 Visual Studio Code를 열 것을 강력히 권장합니다. 제 경우에는 폴더 이름을 project_app_medium으로 지정하기로 결정했습니다.
 
@@ -96,7 +148,18 @@ st-gsheets-connection
 scikit-learn
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 라이브러리를 설치하려면 새 텍스트 파일을 만들고 requirements.txt라는 이름을 지정하십시오. 이 비어 있는 텍스트 파일 안에 위에 나열된 라이브러리들을 복사하여 저장하세요; 우리 앱을 배포할 때 이 파일이 필요합니다. 그런 다음 터미널에 다음 명령어를 입력하세요.
 
@@ -108,7 +171,18 @@ pip install -r requirements.txt
 
 이 튜토리얼 동안 다음 폴더 구조가 사용되며 다음 구성 요소가 포함됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - .streamlit: 이 폴더에 Streamlit 관련 설정이 저장됩니다. 이 폴더 안에는 Google Sheets API와 연결하기 위해 필요한 인증 정보가 포함된 secrets.toml 파일이 저장됩니다.
 - app.py: 메인 Streamlit 스크립트입니다.
@@ -117,23 +191,32 @@ pip install -r requirements.txt
 - requirements.txt: 앱을 실행하는 데 필요한 Python 종속성입니다.
 - README.md: 프로젝트 설명
 
-
 project_app_medium/
 │
-├── .streamlit/                # 일반 Streamlit 설정
-│   └── secrets.toml           # Google Sheets 연결에 필요한 인증 정보
-├── app.py                     # 앱 코드
+├── .streamlit/ # 일반 Streamlit 설정
+│ └── secrets.toml # Google Sheets 연결에 필요한 인증 정보
+├── app.py # 앱 코드
 ├── .gitignore
-├── logo.png               
-├── requirements.txt           # Python 종속성
-└── README.md 
-
+├── logo.png  
+├── requirements.txt # Python 종속성
+└── README.md
 
 ## Google Sheets 데이터베이스 설정
 
 환경이 설정되었으니, Google Sheets 데이터베이스 구조를 만들어야 합니다. Google Sheets 앱을 열고 새 파일을 만들어주세요. 저는 프로젝트 데이터베이스라고 이름 지었습니다. 그리고 파일에 네 개의 탭을 만드세요. 첫 번째로 "users" 탭은 모든 사용자 로그인 자격 증명과 사용자 그룹 구성 정보를 포함할 것입니다. 이 탭의 정보를 사용하여 애플리케이션의 로그인 모듈을 만들 것입니다. 탭은 다음과 같은 열 구조여야 합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 | email                  | name    | last name | password  | group    |
@@ -157,7 +240,18 @@ project_app_medium/
 
 다음 탭은 “test_data” 탭입니다. 이 탭은 학생들이 제출한 출력물의 품질을 평가하는 데 사용되는 실제 테스트 y 데이터를 포함할 것입니다. 이 튜토리얼에서는 Pima 데이터세트를 분할하고 마지막 78행을 테스트 데이터 세트로 선택할 것입니다. 이 탭은 이진 결과 데이터만 포함하며 다음과 같은 열 구조를 갖게 될 것입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 | y          |
@@ -178,8 +272,18 @@ project_app_medium/
 
 이 튜토리얼 프로젝트에서 사용된 구글 시트의 예제를 다음 링크를 클릭하여 다운로드하고 확인할 수 있습니다:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 데이터 개인 정보 보호 및 보안
 
@@ -189,7 +293,18 @@ project_app_medium/
 
 해싱은 입력 데이터를 수학적 알고리즘을 사용하여 일정 크기의 문자열, 일반적으로 해시 코드로 변환하는 과정입니다. 데이터 무결성을 보장하고 빠른 데이터 검색을 용이하게 하며 민감한 정보를 안전하게 보관합니다. 사용 가능한 해싱 알고리즘은 무엇이 있을까요? 다행히 파이썬에는 hashlib를 포함해 여러 해싱 알고리즘을 제공하는 라이브러리가 함께 제공됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - MD5 (md5)
 - SHA-1 (sha1)
@@ -220,7 +335,18 @@ project_app_medium/
  'd41d9b2f5671358bc6faf79b7435b4a9805a72d012f06d4804815328f39aed1e']
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인식하기가 꽤 어려운 게 아닌가요? 아래에서 데이터프레임과 열이 주어지면 지정된 열의 해시된 항목을 반환하는 함수를 찾을 수 있습니다. 이렇게 하면 데이터베이스 정보를 해싱하고 이 값을 온라인 구글 시트 데이터베이스에 저장할 수 있습니다.
 
@@ -241,41 +367,74 @@ def hashit(df, column):
 
 따라서 데이터베이스가 유출되고 누군가 정보를 사용하여 로그인을 시도하더라도, 그것이 작동하지 않을 것입니다. 왜냐하면 그들의 입력이 다시 해싱되어 저장된 해시와 일치하지 않기 때문입니다. 아래의 코드와 출력 예시를 살펴봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-비밀번호 = "password"
-해시_객체.update(비밀번호.encode())
-해싱된_비밀번호 = 해시_객체.hexdigest()
+비밀번호 = "password";
+해시_객체.update(비밀번호.encode());
+해싱된_비밀번호 = 해시_객체.hexdigest();
 
-print(해싱된_비밀번호)
+print(해싱된_비밀번호);
 ```
 
 출력 결과:
 
 ```js
-"5377a16433598554e4a73a61195dbddea9d9956a22df04c3127c698b0dcdee48"
+"5377a16433598554e4a73a61195dbddea9d9956a22df04c3127c698b0dcdee48";
 ```
 
 이제 이미 해싱된 비밀번호를 다시 해싱하면 아래 코드와 같이 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-hash_object.update(hash_password.encode())
-double_hash_password = hash_object.hexdigest()
-print(double_hash_password)
+hash_object.update(hash_password.encode());
+double_hash_password = hash_object.hexdigest();
+print(double_hash_password);
 ```
 
 다음과 같은 결과를 얻습니다:
 
 ```js
-"dfd4bb46c954f3802c7c2385b1a6b625b3cf0b4ce6adf59d3eec711c293994bb"
+"dfd4bb46c954f3802c7c2385b1a6b625b3cf0b4ce6adf59d3eec711c293994bb";
 ```
 
 이 두 암호가 일치하지 않는 것을 쉽게 확인할 수 있습니다. 이전에 해싱된 비밀번호를 다시 해싱하면 완전히 새로운 결과가 생성되는 것을 보실 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Google Sheets 연결 설정하기
 
@@ -285,7 +444,18 @@ print(double_hash_password)
 
 ![Alt text](https://miro.medium.com/v2/resize:fit:1200/1*cB8ePsTHYUxlcVs23UGd4w.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이제 선택한 프로젝트로 두 가지 다른 API를 활성화해야 합니다: Google 드라이브 및 Google 시트. 페이지 상단의 검색 창에 "Google 드라이브"를 입력하고 API를 선택한 다음 "활성화"를 클릭하세요. Google 시트에 대해서도 동일한 단계를 반복하세요.
 
@@ -295,7 +465,18 @@ print(double_hash_password)
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1200/1*q-X587bUfw893wKpAygU9w.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 기술 사용자가 생성되었으므로, 이 사용자의 자격 증명을 생성해야 합니다. 방금 만든 사용자를 클릭한 후 "Keys"를 클릭하고, "Add Key"를 클릭한 다음 "Create New Key"를 선택하십시오. JSON 옵션을 선택하고 "Done"을 클릭하세요. 그러면 앱에서 Google Sheets를 사용하는 데 필요한 모든 자격 증명이 포함된 JSON 파일이 자동으로 다운로드됩니다.
 
@@ -321,7 +502,18 @@ auth_provider_x509_cert_url = ""
 client_x509_cert_url = ""
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - secrets.toml 파일의 각 요소를 Google에서 다운로드한 JSON 자격 증명 파일의 데이터로 대체하세요. "spreadsheet" 필드에는 프로젝트용으로 만든 Google 스프레드 시트 데이터베이스의 URL을 복사하세요. 그다음 JSON 파일에서 "client_email" 데이터를 복사하고 Google 스프레드 시트 데이터베이스로 이동하세요. 스프레드 시트에서 "공유"를 클릭한 다음 "client_email"을 텍스트 입력란에 붙여넣기하고, "편집자" 권한이 선택되어 있는지 확인한 후 "전송"을 클릭하세요.
 
@@ -331,7 +523,18 @@ client_x509_cert_url = ""
 
 이제 앱에 필요한 라이브러리를 가져와 앱이 사용할 세션 상태 변수를 만들 것입니다. 대부분의 세션 상태 변수는 로그인 모듈과 관련이 있을 것입니다. Streamlit에서 세션 상태 변수는 세션 내의 다른 상호 작용 사이에서 정보를 저장합니다. 이 정보는 사용자 입력 또는 선택과 같은 상태를 유지하여 앱을 다시 실행할 때마다 유지하는 데 도움이 됩니다. 처음에는 이러한 변수를 빈 문자열로 설정하고 앱이 실행됨에 따라 업데이트될 것입니다. 우리의 특정 앱에서는 사용자 이름(학생 이메일을 사용), 비밀번호 및 사용자가 속한 그룹을 위한 상태 변수를 만들 것입니다. 또한 st.set_page_config() 메서드를 사용하여 페이지 제목과 페이지 아이콘(favicon)을 설정할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import pandas as pd
@@ -342,7 +545,7 @@ from pathlib import Path
 import streamlit as st
 from streamlit_option_menu import option_menu
 from streamlit_extras.add_vertical_space import add_vertical_space
-from streamlit_extras.stylable_container import stylable_container 
+from streamlit_extras.stylable_container import stylable_container
 from streamlit_gsheets import GSheetsConnection
 from sklearn import metrics
 import hashlib
@@ -360,8 +563,8 @@ if 'group' not in st.session_state:
     st.session_state['group'] = ''
 
 st.set_page_config(
-        page_title='Medium Project', 
-        page_icon='📈' 
+        page_title='Medium Project',
+        page_icon='📈'
     )
 ```
 
@@ -373,7 +576,18 @@ streamlit run app.py
 
 "Medium Project"라는 빈 페이지와 선택한 파비콘 📈이 표시된 Figure 8이 나타납니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-22-HowICreatedaKaggle-LikePlatformforMyStudentsUsingStreamlitandHowYouCanDoItasWell_3.png" />
 
@@ -383,9 +597,20 @@ streamlit run app.py
 
 <img src="/assets/img/2024-06-22-HowICreatedaKaggle-LikePlatformforMyStudentsUsingStreamlitandHowYouCanDoItasWell_4.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-먼저, Google Sheets 데이터베이스와 연결을 설정할 것입니다. 그다음, st.sidebar 방법을 사용하여 옵션_메뉴 방법과 결합하여 사이드바 내비게이션 메뉴를 만들어 앱의 다른 페이지를 쉽게 생성할 수 있게 할 것입니다. 이 설정이 완료되면 로그인 모듈의 로직을 구성할 것입니다.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+먼저, Google Sheets 데이터베이스와 연결을 설정할 것입니다. 그다음, st.sidebar 방법을 사용하여 옵션\_메뉴 방법과 결합하여 사이드바 내비게이션 메뉴를 만들어 앱의 다른 페이지를 쉽게 생성할 수 있게 할 것입니다. 이 설정이 완료되면 로그인 모듈의 로직을 구성할 것입니다.
 
 사용자가 로그인되어 있지 않은 경우, 다음 모듈에 액세스하는 것을 방지할 것입니다. 로그인 모듈에서 사용자 이름(이메일)과 비밀번호를 요청할 것입니다. 이 자격 증명은 데이터베이스와 일치하는지 확인됩니다. 일치하는 경우, 사용자 자격 증명은 세션 상태 변수에 저장되고 사용자는 성공적인 로그인이 확인된 메시지를 받게 됩니다. 일치하지 않는 경우 사용자는 로그인에 실패했다는 경고 메시지를 받게 됩니다. 또한 데이터베이스로부터 프로젝트 구성 데이터(프로젝트 마감일 및 하루 최대 제출 횟수)를 저장할 것입니다. 위의 논리는 아래 코드를 따라 구현됩니다.
 
@@ -394,7 +619,18 @@ streamlit run app.py
 ## 제출 결과 모듈
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금은 로그인 모듈이 준비되어 있으므로, 제출 모듈을 만들어 나갈 수 있습니다. 이 모듈에서는 학생들이 모델의 예측 결과를 담은 CSV 파일을 업로드할 수 있습니다. 이 모듈에는 Figure 10에 설명된 로직이 포함될 것입니다.
 
@@ -404,7 +640,18 @@ streamlit run app.py
 
 모든 것이 일치하는 경우, 모듈은 모델 평가 지표를 계산할 것입니다. 이 특정 케이스에서는 정확도 점수를 사용하고 있지만 원하는 경우 F1 점수를 사용할 수도 있습니다. 코드를 쉽게 수정할 수 있습니다. 이 작업을 마친 후, 모듈은 학생의 제출을 구글 시트 데이터베이스의 "log" 탭에 저장할 것입니다. 위의 로직은 아래의 코드를 따라 구현될 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 if selected == '결과 제출':
@@ -431,7 +678,7 @@ if selected == '결과 제출':
   if st.session_state['user_name'] == '':
       st.warning('프로젝트 솔루션을 제출하려면 로그인하세요')
   else:
-          
+
       group_log_df = conn.read(worksheet="log", usecols=list(range(log_df_n_cols)), ttl=1).dropna(how="all")
       group_log_df = group_log_df[group_log_df['group'] == st.session_state['group']]
       group_log_df['time'] = pd.to_datetime(group_log_df['time'])
@@ -465,7 +712,7 @@ if selected == '결과 제출':
 
                   if submit_pred:
 
-                      pred_df = pd.read_csv(user_file) 
+                      pred_df = pd.read_csv(user_file)
 
                       if 'predictions' not in pred_df.columns.to_list():
                           st.error('죄송합니다. 파일에 "predictions" 열이 없습니다', icon="🚨")
@@ -477,8 +724,8 @@ if selected == '결과 제출':
 
                               timestamp = datetime.datetime.now()
                               timestamp = timestamp.strftime("%d/%m/%Y, %H:%M:%S")
-                              st.write(f'제출일: {timestamp}')                
-                      
+                              st.write(f'제출일: {timestamp}')
+
                               ACC = metrics.accuracy_score(test_data_y,user_predictions)
 
                               F1 = metrics.f1_score(test_data_y,user_predictions)
@@ -492,7 +739,7 @@ if selected == '결과 제출':
                                   st.metric("정확도",f"{100*ACC:.1f} %")
                               with columns_part_2[1]:
                                   st.metric("F1-점수",f'{F1:.3f}')
-                              
+
                               with columns_part_2[2]:
                                   st.dataframe(cm,use_container_width=True)
 
@@ -517,7 +764,7 @@ if selected == '결과 제출':
 ```js
 if selected == "순위":
     st.header('순위')
-    
+
     if st.session_state['user_name'] == '':
         st.warning('랭킹을 확인하려면 로그인하세요')
     else:
@@ -552,7 +799,18 @@ if selected == "순위":
         st.dataframe(ranking_df_2,use_container_width=True,hide_index=True)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 제출 로그 모듈
 
@@ -561,7 +819,7 @@ if selected == "순위":
 ```js
 if selected == '내 그룹 제출물':
     st.header('내 그룹 제출물')
-    
+
     if st.session_state['user_name'] == '':
         st.warning('제출 이력을 확인하려면 로그인해주세요')
     else:
@@ -569,15 +827,26 @@ if selected == '내 그룹 제출물':
         group_log_df = conn.read(worksheet="log", usecols=list(range(log_df_n_cols)), ttl=1).dropna(how="all")
         group_log_df = group_log_df[group_log_df['group'] == st.session_state['group']]
         group_log_df = group_log_df[['user','time','score']]
-        
-       
+
+
         st.subheader('제출 이력:')
-        st.dataframe(group_log_df,use_container_width=True,hide_index=True)    
+        st.dataframe(group_log_df,use_container_width=True,hide_index=True)
 ```
 
 마지막 모듈을 코드화하면 앱이 완료됩니다. 전체 코드는 아래 링크에서 찾을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 앱 배포
 
@@ -588,8 +857,18 @@ if selected == '내 그룹 제출물':
 - 새로운 공개 GitHub 리포지토리를 만듭니다. README.md 파일은 리포를 만들 때 직접 생성할 수 있습니다.
 - 아래 파일을 업로드하거나 커밋하되, 반드시 secrets.toml 파일은 업로드하지 않습니다:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - app.py
 - requirements.txt
@@ -601,7 +880,18 @@ if selected == '내 그룹 제출물':
 
 3. Streamlit Community Cloud 사이트 https://streamlit.io/cloud 에 가서 로그인합니다. 계정이 없다면 계정을 생성합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. 한 번 사인 인했으면 사이트 오른쪽 상단에 있는 "앱 생성" 버튼을 클릭하고, 그런 다음 GitHub에서 앱 코드를 가져올 옵션을 선택합니다.
 
@@ -611,7 +901,18 @@ if selected == '내 그룹 제출물':
 
 6. "배포" 버튼을 클릭하세요. 몇 분 정도 걸릴 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 7. 앱을 배포하면 즉시 Streamlit에서 오류 메시지를 받게 됩니다. 그림 13에서 보는 것처럼요. 이것은 완전히 정상적인 현상입니다. 배포된 앱은 기술 사용자 자격 증명에 액세스할 수 없기 때문에 GitHub에 secrets.toml 파일을 업로드하지 않았거든요. 하지만 걱정하지 마세요. 다음 단계에서 이 오류를 해결할 거예요.
 
@@ -621,7 +922,18 @@ if selected == '내 그룹 제출물':
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1200/1*IAqyQoKrSUpH1a4C7nG8RQ.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 링크를 클릭하여 최종 배포된 앱을 확인할 수 있어요. john.doe@example.com을 사용하여 계정에 로그인하고, 패스워드는 pass1234입니다. 이 프로젝트의 GitHub 저장소에는 결과물로 제출할 수 있는 .csv 파일이 포함되어 있어요.
 
@@ -631,7 +943,18 @@ if selected == '내 그룹 제출물':
 
 그러나 학생들은 제게 인도자로서 받을 수 있는 최고의 선물 중 하나를 주었어요. 한 달 후에 앱은 690회 이상의 제출을 받았는데, 제 초기 기대의 거의 12배에 달하는 수치였죠. 이 수준의 참여는 저에게 있어서 전례가 없었어요. 각 그룹은 프로젝트 섹션 당 평균 30회 이상의 제출을 제출했는데, 이는 섹션 당 거의 하루에 한 번의 제출에 해당했어요. 첫 제출과 각 섹션 및 팀의 최고 제출을 비교했을 때, 평균적으로 21%의 개선이 있었고, 일부 팀은 제출물을 60% 이상 개선했어요. 일반적인 버전의 프로젝트를 게임화된 버전 대신에 구현했다면, 이 수준의 개선은 실현되지 않았을 것으로 생각돼요. 이는 게임화의 힘을 입증하는 것이에요. 이제 이 앱을 교실에서 쉽게 구현할 수 있고, 모든 것이 무료에요. 멋지죠, 그렇지 않나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 게임화에 대해 더 많이 알고 싶다면, 내 이전 글을 꼭 읽어보세요. 그 글에서는 게임화의 논리와 참여 및 학습을 촉진하는 방법에 대해 논의했습니다.
 
@@ -641,7 +964,18 @@ if selected == '내 그룹 제출물':
 
 아래 게시글에서 Bruno Scalia C. F. Leite는 Streamlit을 사용하여 물류 앱을 배포하는 방법에 대해 소개합니다. Streamlit을 사용하여 운영 연구 애플리케이션을 만드는 방법에 대해 알고 싶다면 아래 링크를 통해 그의 글을 확인해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 글이 유익하고 즐거웠기를 진심으로 바랍니다. 그렇다면 귀하의 생각을 듣고 싶어요! 댓글을 남기거나 👏로 감사를 표현해 주시면 감사하겠습니다. 최신 기사 업데이트를 받고 싶다면 저를 Medium에서 팔로우해 주세요. 여러분의 지원과 피드백이 제게 지속적인 탐구와 공유를 이끄는 원동력이 되어요. 읽어 주셔서 감사합니다. 다음 글에서 더 많은 통찰을 기대해 주세요!
 

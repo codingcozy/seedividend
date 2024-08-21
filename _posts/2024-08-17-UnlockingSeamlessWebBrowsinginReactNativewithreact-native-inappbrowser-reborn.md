@@ -3,7 +3,7 @@ title: "react-native-inappbrowser-reborn으로 React Native에서 매끄러운 �
 description: ""
 coverImage: "/assets/img/2024-08-17-UnlockingSeamlessWebBrowsinginReactNativewithreact-native-inappbrowser-reborn_0.png"
 date: 2024-08-17 01:39
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-17-UnlockingSeamlessWebBrowsinginReactNativewithreact-native-inappbrowser-reborn_0.png
 tag: Tech
 originalTitle: "Unlocking Seamless Web Browsing in React Native with react-native-inappbrowser-reborn"
@@ -11,7 +11,6 @@ link: "https://medium.com/stackademic/unlocking-seamless-web-browsing-in-react-n
 isUpdated: true
 updatedAt: 1723864300132
 ---
-
 
 사용자가 React Native 앱 내에서 링크를 클릭할 때마다 외부 웹 브라우저로 리디렉션되는 것에 지쳤나요? react-native-inappbrowser-reborn과 함께 이러한 괴로움을 이제 고백해보세요!
 
@@ -21,7 +20,18 @@ updatedAt: 1723864300132
 
 ![이미지](/assets/img/2024-08-17-UnlockingSeamlessWebBrowsinginReactNativewithreact-native-inappbrowser-reborn_0.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 소개
 
@@ -31,7 +41,18 @@ react-native-inappbrowser-reborn은 React Native 앱 인터페이스 내에서 �
 
 react-native-inappbrowser-reborn을 시작하는 것은 아주 쉽습니다. 먼저, React Native 프로젝트에 라이브러리를 설치하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm install react-native-inappbrowser-reborn
@@ -45,21 +66,32 @@ cd ios && pod install && cd .. # iOS의 CocoaPods는 이 추가 단계가 필요
 
 ## 앱 내 브라우저에서 URL 열기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가장 흥미로운 부분으로 들어가 봅시다 — react-native-inappbrowser-reborn을 사용하여 앱 내에서 외부 URL을 열기! 아래는 in-app 브라우저에서 URL을 열기 위한 간단한 예제입니다:
 
 ```js
-import React from 'react';
-import { TouchableOpacity, Text } from 'react-native';
-import InAppBrowser from 'react-native-inappbrowser-reborn';
+import React from "react";
+import { TouchableOpacity, Text } from "react-native";
+import InAppBrowser from "react-native-inappbrowser-reborn";
 
 const ExternalLinkButton = ({ url }) => {
   const handleOpenLink = async () => {
     try {
       await InAppBrowser.open(url);
     } catch (error) {
-      console.error('링크 열기 실패:', error);
+      console.error("링크 열기 실패:", error);
     }
   };
 
@@ -77,7 +109,18 @@ export default ExternalLinkButton;
 
 react-native-inappbrowser-reborn은 앱의 요구에 따라 in-app 브라우징 경험을 맞춤화할 수 있는 다양한 사용자 정의 옵션을 제공합니다. 예를 들어 추가 옵션을 지정할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 브라우저의 제목을 표시/숨김합니다.
 - 네비게이션 컨트롤을 활성화/비활성화합니다.
@@ -89,8 +132,18 @@ react-native-inappbrowser-reborn은 앱의 요구에 따라 in-app 브라우징 
 
 약속과 메시지를 관리하는 모바일 애플리케이션을 개발 중이라고 상상해보세요. 사용자가 애플리케이션 인터페이스를 벗어나지 않고 메시징 플랫폼에서 메시지와 같은 외부 콘텐츠에 신속하게 액세스할 수 있도록 제공하고 싶습니다. react-native-inappbrowser-reborn을 사용하여 이를 어떻게 구현할 수 있는지 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](https://miro.medium.com/v2/resize:fit:616/1*8rq4m8hcfPQaf0rRftTtYQ.gif)
 
@@ -103,7 +156,7 @@ const handleContinueToMsgPortal = async (url) => {
     if (isAvailable) {
       return await InAppBrowser.open(url, {
         // iOS Properties
-        modalPresentationStyle: 'formSheet',
+        modalPresentationStyle: "formSheet",
         modalEnabled: true,
         enableBarCollapsing: false,
         // Android Properties
@@ -125,8 +178,18 @@ const handleContinueToMsgPortal = async (url) => {
 
 여기에는 다음 기능에 대한 세부 내용이 포함되어 있습니다:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Async Function: handleContinueToMsgPortal은 URL을 매개변수로 사용하는 비동기 함수입니다. 이 함수는 앱 내 브라우저의 가용성을 확인하고 지정된 URL을 열기 위한 비동기 작업을 처리하는 것이 목적입니다.
 - 앱 내 브라우저 가용성 확인: 해당 함수는 InAppBrowser.isAvailable()을 사용하여 앱 내 브라우저의 가용성을 확인하는 것으로 시작합니다. 이 메서드는 현재 플랫폼에서 앱 내 브라우저를 사용할 수 있는지 여부를 나타내는 부울값을 반환합니다.
@@ -141,7 +204,18 @@ iOS 및 Android 간 동작 차이를 알 수 있습니다: iOS에서는 기본 �
 
 그러나 문제가 발생할 경우 오류를 처리하는 것을 잊지 말아주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="https://miro.medium.com/v2/resize:fit:616/1*7yw_Hq1x1l5nCojM7YBNaA.gif" />
 
@@ -151,7 +225,18 @@ react-native-inappbrowser-reborn을 사용하면 React Native 앱의 사용자 �
 
 소스 코드는 Github에서 확인할 수 있습니다. 즐거운 코딩하세요! ☀️
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 스택데믹 🎓
 

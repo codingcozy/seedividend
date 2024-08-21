@@ -3,7 +3,7 @@ title: "오픈소스 LLM을 활용한 함수 호출법"
 description: ""
 coverImage: "/assets/img/2024-08-19-FunctionCallingwithOpen-SourceLLMs_0.png"
 date: 2024-08-19 03:16
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-19-FunctionCallingwithOpen-SourceLLMs_0.png
 tag: Tech
 originalTitle: "Function Calling with Open-Source LLMs"
@@ -11,7 +11,6 @@ link: "https://medium.com/@rushing_andrei/function-calling-with-open-source-llms
 isUpdated: true
 updatedAt: 1724032909604
 ---
-
 
 <img src="/assets/img/2024-08-19-FunctionCallingwithOpen-SourceLLMs_0.png" />
 
@@ -21,7 +20,18 @@ updatedAt: 1724032909604
 
 오픈 소스 LLM을 사용할 때, 함수 호출을 구현하는 두 가지 접근 방식이 있습니다. LLM이 기본적으로 함수 호출을 지원하지 않는 경우 프롬프트 엔지니어링, 세밀한 조정 및 제약 디코딩의 조합을 사용할 수 있습니다. 함수 호출을 네이티브로 지원하는 LLM은 이 능력을 래핑하기 위해 특수 토큰을 활용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 예시에서 오픈 소스 LLM은 네이티브 지원이 없습니다. 저희는 prompt 엔지니어링을 통해 함수 호출을 구현합니다. 지난해에는 이것이 흔한 프롬프팅 기술이었습니다:
 
@@ -45,7 +55,18 @@ LLM이 도구를 호출하기로 선택했다면, 아래 형식과 일치하는 
 동작 입력: 샌프란시스코, 캘리포니아
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오픈 소스 모델은 이 접근 방식을 사용하여 어느 정도 잘 동작합니다. 하지만 더 나은 결과와 일관성 있는 결과를 얻고 싶다면 세밀한 조정과 제약이 있는 디코딩을 함께 사용해야 할 것입니다.
 
@@ -57,19 +78,41 @@ LLM이 도구를 호출하기로 선택했다면, 아래 형식과 일치하는 
 - [TOOL_CALLS] (닫히는 태그가 없음)
 - [TOOL_RESULTS][/TOOL_RESULTS]
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 부분에 대한 표준화가 아직 많이 이루어지지 않았습니다. NousResearch/Hermes-2-Theta-Llama-3-8B에서는 다음과 같은 특별 토큰을 정의하고 있습니다:
 
-- `tools``/tools`
-- `tool_call``/tool_call`
-- `tool_response``/tool_response`
+- ` tools``/tools `
+- ` tool_call``/tool_call `
+- ` tool_response``/tool_response `
 
 모델은 이러한 토큰을 찾아 사용할 수 있도록 훈련 및/또는 세밀 조정되었습니다.
 
 모델이 어떻게 프롬프트를 구조화하고 이러한 토큰을 사용하여 도구 호출과의 멀티턴 대화를 수행하는지 살펴보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전에 언급된 Mistral-7B-Instruct 모델에 초점을 맞출 것이지만, Berkley Function Calling Leaderboard에서 다른 기능 호출이 가능한 모델들도 테스트해보는 것을 권장합니다.
 
@@ -79,7 +122,18 @@ Ollama를 사용하여 오픈 소스 LLMs를 실행할 것입니다. Ollama를 �
 
 다음과 같은 get_current_weather() 함수가 있다고 가정해 봅시다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 {
@@ -118,7 +172,18 @@ Ollama를 사용하여 오픈 소스 LLMs를 실행할 것입니다. Ollama를 �
 
 턴 1:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 curl --location "http://localhost:11434/api/generate" \
@@ -141,7 +206,18 @@ curl --location "http://localhost:11434/api/generate" \
 
 우리 시스템에서 도구 호출을 추출하고 실행합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 get_current_weather(location: '파리, 프랑스', format: '섭씨')
@@ -163,7 +239,18 @@ curl --location "http://localhost:11434/api/generate" \
 }"
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```json
 {
@@ -186,7 +273,18 @@ curl --location "http://localhost:11434/api/generate" \
 }"
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 {
@@ -209,7 +307,18 @@ curl --location "http://localhost:11434/api/generate" \
 }"
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```json
 {
@@ -234,7 +343,18 @@ assistant = Langchain::Assistant.new(
 )
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우린 여기서 사전 빌트인 Langchain::Tool::Weather 도구 중 하나를 사용하는 중이야. 하지만 네가 쉽게 네 자신의 클래스와 도구를 만들 수도 있어. 이 도구들은 자동으로 [AVAILABLE_TOOLS][/AVAILABLE_TOOLS] 태그 안에 감싸질 거야.
 
@@ -246,7 +366,18 @@ assistant.add_message_and_run(content: "오늘 파리 날씨가 어때?")
 
 LLM으로부터 받은 마지막 메시지를 확인하여 응답을 확인해봐.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 assistant.messages.last
@@ -268,7 +399,18 @@ assistant.submit_tool_output(output: "[{content: '25C'}]")
 assistant.run(auto_tool_execution: true)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 auto_tool_execution 옵션은 보류 중인 도구 호출을 자동으로 실행하고 새 메시지에 결과를 추가합니다.
 

@@ -3,17 +3,13 @@ title: "HTML과 CSS를 사용하여 애니메이션 로더 만들기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "codeCreating an Animated Loader Using HTML and CSS"
 link: "https://medium.com/@withaarzoo/creating-an-animated-loader-using-html-and-css-0a2f319bc560"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1200/1*h8jwJu8Ccrcv7Q_hpjipPw.gif)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 먼저 HTML 파일과 CSS 파일을 만들어 프로젝트를 설정해봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 index.html:
 
@@ -48,7 +55,18 @@ style.css:
 /* 여기에 CSS 스타일을 작성하세요 */
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 2: 로더 만들기
 
@@ -71,7 +89,18 @@ index.html:
 </html>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 스타일.css:
@@ -92,7 +121,16 @@ index.html:
 
 # 단계 3: 로더 사용자 정의하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로더의 모양을 원하는 대로 조정하여 색상, 크기 및 애니메이션 속도를 변경할 수 있습니다.
 
@@ -112,7 +150,16 @@ style.css:
   100% { transform: rotate(360deg); }
 }
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 4: 개성을 담아보세요
 
@@ -129,7 +176,16 @@ style.css:
   animation: spin 2s linear infinite;
 }
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 @keyframes spin {
   0% { transform: rotate(0deg); }
@@ -142,7 +198,16 @@ style.css:
 
 style.css:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 .loader {
   border: 8px solid #f3f3f3; /* 외곽 테두리 색상 */
@@ -167,8 +232,18 @@ style.css:
 
 축하합니다! HTML과 CSS를 사용하여 세련된 애니메이션 로더를 성공적으로 만들었습니다. 이 로더를 웹 프로젝트에 통합하여 사용자 경험을 향상시키세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 전체 소스 코드를 다운로드하고 트위터에서 제 코딩 여정을 따라와주세요. 도움이 필요하거나 피드백이 있으면 Bento에서 저에게 연락할 수 있어요.
 
 즐거운 코딩하세요! 🚀
+```

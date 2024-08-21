@@ -3,16 +3,13 @@ title: "리액트에서 권한 기반 인증 및 권한 부여 - 인증 핸들�
 description: ""
 coverImage: "/assets/img/2024-06-20-Role-BasedAuthorizationandAuthenticationinReactwithAuthHandlersSpecificrole-basedandanonymousauthpages_0.png"
 date: 2024-06-20 05:11
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-Role-BasedAuthorizationandAuthenticationinReactwithAuthHandlersSpecificrole-basedandanonymousauthpages_0.png
 tag: Tech
 originalTitle: "Role-Based Authorization and Authentication in React with Auth Handlers — Specific role-based and anonymous auth pages"
 link: "https://medium.com/@siva.veeravarapu/role-based-authorization-and-authentication-in-react-with-auth-handlers-specific-role-based-and-466c4483a2fb"
 isUpdated: true
 ---
-
-
-
 
 Role-based 인가 및 인증은 React 애플리케이션을 안전하게 유지하기 위해 사용자 역할에 따라 애플리케이션의 다른 부분에 대한 액세스를 제어하는 데 필수적입니다. 인증 핸들러를 사용하여 인증 및 권한 부여 논리를 관리할 것입니다.
 
@@ -22,14 +19,25 @@ DotNet-FullStack-Dev와 함께 지속적인 학습과 탐험의 여정을 떠나
 
 ## 단계 1: 인증 컨텍스트 설정하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용자 인증 상태를 관리하고 구성 요소에 인증 방법을 제공하는 Authentication Context를 만들어보세요.
 
 AuthContext.js:
 
 ```js
-import React, { createContext, useContext, useState } from 'react';
+import React, { createContext, useContext, useState } from "react";
 
 const AuthContext = createContext();
 
@@ -46,11 +54,7 @@ export const AuthProvider = ({ children }) => {
     setUser(null);
   };
 
-  return (
-    <AuthContext.Provider value={{ user, login, logout }}>
-      {children}
-    </AuthContext.Provider>
-  );
+  return <AuthContext.Provider value={{ user, login, logout }}>{children}</AuthContext.Provider>;
 };
 
 export const useAuth = () => useContext(AuthContext);
@@ -58,20 +62,31 @@ export const useAuth = () => useContext(AuthContext);
 
 ## 단계 2: 인증 구성 요소 구현
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 로그인, 로그아웃 및 보호된 경로용 구성 요소를 작성하십시오.
 
 Login.js:
 
 ```js
-import React, { useState } from 'react';
-import { useAuth } from './AuthContext';
+import React, { useState } from "react";
+import { useAuth } from "./AuthContext";
 
 const Login = () => {
   const { login } = useAuth();
-  const [username, setUsername] = useState('');
-  const [password, setPassword] = useState('');
+  const [username, setUsername] = useState("");
+  const [password, setPassword] = useState("");
 
   const handleLogin = () => {
     // 로그인 로직 구현 (예: AuthContext에서 로그인 메서드 호출)
@@ -90,11 +105,22 @@ const Login = () => {
 export default Login;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-import React from 'react';
-import { useAuth } from './AuthContext';
+import React from "react";
+import { useAuth } from "./AuthContext";
 
 const Logout = () => {
   const { logout } = useAuth();
@@ -144,32 +170,42 @@ export default ProtectedRoute;
 
 ## 단계 3: 인증 컴포넌트 사용하기
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 애플리케이션 루트에서 인증 구성요소를 사용하세요.
 
 App.js:
 
 ```js
-import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import { AuthProvider } from './AuthContext';
-import Login from './Login';
-import Logout from './Logout';
-import ProtectedRoute from './ProtectedRoute';
-import Home from './Home';
-import AdminDashboard from './AdminDashboard';
+import React from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { AuthProvider } from "./AuthContext";
+import Login from "./Login";
+import Logout from "./Logout";
+import ProtectedRoute from "./ProtectedRoute";
+import Home from "./Home";
+import AdminDashboard from "./AdminDashboard";
 
 const App = () => {
   return (
     <AuthProvider>
       <Router>
         <Switch>
-          <Route path='/login' component={Login} />
-          <Route path='/logout' component={Logout} />
-          <ProtectedRoute path='/admin' component={AdminDashboard} roles={['admin']} />
-          <ProtectedRoute path='/' component={Home} />
+          <Route path="/login" component={Login} />
+          <Route path="/logout" component={Logout} />
+          <ProtectedRoute path="/admin" component={AdminDashboard} roles={["admin"]} />
+          <ProtectedRoute path="/" component={Home} />
         </Switch>
       </Router>
     </AuthProvider>
@@ -181,14 +217,25 @@ export default App;
 
 리액트 애플리케이션에서 역할 기반의 접근 제어를 갖는 About 및 Contact 페이지를 추가하는 방법에 대해, 추가 구성요소와 라우트로 확장할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## About 및 Contact 컴포넌트 구현
 
 About.js:
 
 ```js
-import React from 'react';
+import React from "react";
 
 const About = () => {
   return (
@@ -202,10 +249,21 @@ const About = () => {
 export default About;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-import React from 'react';
+import React from "react";
 
 const Contact = () => {
   return (
@@ -224,60 +282,74 @@ export default Contact;
 ProtectedRoute.js:
 
 ```js
-import React from 'react';
-import { Route, Redirect } from 'react-router-dom';
-import { useAuth } from './AuthContext';
+import React from "react";
+import { Route, Redirect } from "react-router-dom";
+import { useAuth } from "./AuthContext";
 
 const ProtectedRoute = ({ component: Component, roles, ...rest }) => {
   const { user } = useAuth();
 
   return (
-    <Route {...rest} render={(props) => {
-      if (!user) {
-        return <Redirect to='/login' />;
-      }
+    <Route
+      {...rest}
+      render={(props) => {
+        if (!user) {
+          return <Redirect to="/login" />;
+        }
 
-      if (roles && !roles.includes(user.role)) {
-        return <Redirect to='/' />;
-      }
+        if (roles && !roles.includes(user.role)) {
+          return <Redirect to="/" />;
+        }
 
-      return <Component {...props} />;
-    }} />
+        return <Component {...props} />;
+      }}
+    />
   );
 };
 
 export default ProtectedRoute;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## App 컴포넌트 및 라우팅 업데이트
 
 App.js:
 
 ```js
-import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import { AuthProvider } from './AuthContext';
-import Login from './Login';
-import Logout from './Logout';
-import ProtectedRoute from './ProtectedRoute';
-import Home from './Home';
-import AdminDashboard from './AdminDashboard';
-import About from './About';
-import Contact from './Contact';
+import React from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { AuthProvider } from "./AuthContext";
+import Login from "./Login";
+import Logout from "./Logout";
+import ProtectedRoute from "./ProtectedRoute";
+import Home from "./Home";
+import AdminDashboard from "./AdminDashboard";
+import About from "./About";
+import Contact from "./Contact";
 
 const App = () => {
   return (
     <AuthProvider>
       <Router>
         <Switch>
-          <Route path='/login' component={Login} />
-          <Route path='/logout' component={Logout} />
-          <ProtectedRoute path='/admin' component={AdminDashboard} roles={['admin']} />
-          <ProtectedRoute path='/about' component={About} roles={['user', 'admin']} />
-          <Route path='/contact' component={Contact} />
-          <ProtectedRoute path='/' component={Home} />
+          <Route path="/login" component={Login} />
+          <Route path="/logout" component={Logout} />
+          <ProtectedRoute path="/admin" component={AdminDashboard} roles={["admin"]} />
+          <ProtectedRoute path="/about" component={About} roles={["user", "admin"]} />
+          <Route path="/contact" component={Contact} />
+          <ProtectedRoute path="/" component={Home} />
         </Switch>
       </Router>
     </AuthProvider>
@@ -289,7 +361,18 @@ export default App;
 
 ## 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 가이드에 따라 React 함수형 컴포넌트에서 인증 핸들러를 사용하여 역할 기반 인가 및 인증을 구현할 수 있습니다. 이 방법은 React 애플리케이션을 안전하게 보호하기 위한 유연하고 확장 가능한 솔루션을 제공합니다. 다양한 인증 및 권한 부여 전략을 실험하여 애플리케이션의 특정 요구 사항을 충족시킬 수 있습니다.
 

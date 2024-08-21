@@ -3,17 +3,13 @@ title: "2024년 최신 JavaScript 면접 질문과 답변 30가지 정리"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Top 30 JavaScript Interview Questions and Answers for 2024"
 link: "https://medium.com/@javascriptcentric/top-30-javascript-interview-questions-and-answers-for-2024-7f1e2d1d0638"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/Top30JavaScriptInterviewQuestionsandAnswersfor2024_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 본 기사에서는 30가지 이상의 가장 중요한 JavaScript 인터뷰 질문과 함께 자세한 답변과 코드 예제를 모았습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 유용한 컬렉션에 몰입하여 JavaScript 면접에서 성공을 거둬 오늘날 경쟁이 치열한 기술 산업에서 앞서 나가세요.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 2. 자바스크립트 엔진의 주요 구성 요소를 설명하고 작동 방식을 설명해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. 자바스크립트의 이벤트 루프(event loop)와 비동기 프로그래밍에서 어떻게 도움이 되는지 설명해주세요.
 
@@ -43,7 +61,18 @@ isUpdated: true
 
 6. 콜백 함수(callback function)와 콜백 지옥(callback hell)은 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 7. Promise와 Promise chaining은 무엇인가요?
 
@@ -53,7 +82,18 @@ isUpdated: true
 
 10. JavaScript에서 Object를 만드는 다양한 방법은 무엇이 있나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 11. rest와 spread 연산자란 무엇인가요?
 
@@ -63,7 +103,18 @@ isUpdated: true
 
 13. 클로저란 무엇이며, 클로저의 사용 사례는 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 14. 자바스크립트에서 호이스팅 개념을 설명해주세요.
 
@@ -73,7 +124,18 @@ isUpdated: true
 
 17. Call, Apply 및 Bind 메소드의 차이점은 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 18. 람다 또는 화살표 함수란 무엇인가요?
 
@@ -83,7 +145,18 @@ isUpdated: true
 
 ## 레벨-3: 전문가
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 21. 실행 컨텍스트, 실행 스택, 변수 객체, 스코프 체인이 무엇인가요?
 
@@ -93,7 +166,18 @@ isUpdated: true
 
 24. 객체를 복제하는 다양한 방법(객체의 얕은 복사와 깊은 복사)은 무엇이 있나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 25. 객체를 불변하게 만드는 방법은 무엇인가요? (seal 및 freeze 메서드)?
 
@@ -103,7 +187,18 @@ isUpdated: true
 
 28. 서버 전송 이벤트(Server-Sent Events)란 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 29. 자바스크립트에서 웹 워커 또는 서비스 워커란 무엇인가요?
 
@@ -113,7 +208,18 @@ isUpdated: true
 
 ## 1. 자바스크립트는 단일 스레드입니까?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 네, JavaScript는 단일 스레드 언어입니다. 이는 하나의 호출 스택과 하나의 메모리 힙만을 가지고 있음을 의미합니다. 한 번에 한 세트의 명령만 실행됩니다.
 
@@ -123,7 +229,18 @@ isUpdated: true
 
 ## 2. JavaScript 엔진의 주요 구성요소를 설명하고 작동 방식을 설명해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 브라우저에는 JavaScript 코드를 실행하고 기계 코드로 변환하는 JavaScript 엔진이 있습니다.
 
@@ -133,7 +250,18 @@ JavaScript 코드가 실행되면 구문 분석기는 먼저 코드를 읽고 AS
 
 프로파일러는 JavaScript 엔진의 구성 요소로 코드 실행을 모니터링합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 바이트코드는 최적화 컴파일러와 프로파일링 데이터를 사용합니다. "최적화 컴파일러" 또는 Just-in-time (JIT) 컴파일러는 프로파일링 데이터를 기반으로 특정 가정을 하고 매우 최적화된 기계 코드를 생성합니다.
 
@@ -143,7 +271,18 @@ JS 엔진은 보통 "핫 함수"를 최적화하고 인라인 캐싱 기술을 �
 
 이 과정에서 콜 스택은 현재 실행 중인 함수를 추적하고, 메모리 힙은 메모리 할당에 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마침내, 사용되지 않는 객체로부터 메모리를 회수하여 메모리를 관리하는 가비지 수집기가 작동합니다.
 
@@ -156,7 +295,18 @@ Google Chrome V8 엔진:
 
 ## 3. 자바스크립트의 이벤트 루프를 설명해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Top 30 JavaScript Interview Questions and Answers for 2024](/assets/img/Top30JavaScriptInterviewQuestionsandAnswersfor2024_2.png)
 
@@ -166,7 +316,18 @@ Google Chrome V8 엔진:
 
 Web API는 비동기 작업(setTimeout, fetch 요청, 프로미스 등)과 해당 콜백이 완료될 때까지 대기하는 곳입니다. 메인 스레드를 차단하지 않고 백그라운드에서 작업을 완료하기 위해 스레드 풀에서 스레드를 빌려옵니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 잡 큐(또는 마이크로태스크)는 async/await, 프로미스, process.nextTick()의 콜백을 보관하는 선입선출(FIFO) 구조입니다. 이들은 실행 준비가 된 상태입니다. 예를 들어, 이행된 프로미스의 resolve 또는 reject 콜백은 잡 큐에 인큐됩니다.
 
@@ -176,7 +337,18 @@ Web API는 비동기 작업(setTimeout, fetch 요청, 프로미스 등)과 해�
 
 ## 4. var, let, const의 차이점은 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/Top30JavaScriptInterviewQuestionsandAnswersfor2024_3.png" />
 
@@ -186,7 +358,18 @@ Web API는 비동기 작업(setTimeout, fetch 요청, 프로미스 등)과 해�
 
 자바스크립트는 동적이고 느슨하게 형식이 지정된 또는 덕 타이핑 언어입니다. 이것은 변수의 유형을 명시적으로 지정할 필요가 없다는 것을 의미합니다. 자바스크립트 엔진은 변수의 데이터 유형을 동적으로 값에 기반하여 결정합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/Top30JavaScriptInterviewQuestionsandAnswersfor2024_4.png" />
 
@@ -201,7 +384,18 @@ const obj = {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 심볼이 속성 키로 사용될 때, 이는 다른 속성 키와 충돌하지 않습니다. 이는 문자열 키를 포함한 다른 속성 키와 충돌하지 않는다는 것을 의미합니다.
 
@@ -211,7 +405,18 @@ JavaScript에서는 비동기 작업을 처리하기 위해 콜백이 일반적�
 
 콜백 함수는 다른 함수에 인수로 전달되어 특정 작업이 완료된 후 또는 주어진 시간에 실행될 것으로 의도된 함수입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 function fetchData(url, callback) {
@@ -235,7 +440,18 @@ fetchData("https://example.com/data", processData);
 
 "이는 비동기 작업이 이전 비동기 작업의 결과에 의존할 때 발생하며, 깊게 중첩된 코드로 인해 종종 읽기 어려운 코드가 됩니다."
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 콜백 지옥은 비동기 논리를 처리할 때 코드를 읽고 디버깅하기 어렵게 만드는 다중 중첩된 콜백을 가진 안티 패턴입니다.
 
@@ -265,7 +481,18 @@ fs.readFile("file1.txt", "utf8", function (err, data) {
 
 콜백 지옥을 피하기 위해, 현대적인 JavaScript에서는 Promises 및 async/await과 같은 대안을 제공합니다. 다음은 Promises를 사용한 동일한 코드입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const readFile = (file) => {
@@ -301,7 +528,18 @@ readFile("file1.txt")
 
 Promise: Promise는 JavaScript에서 사용되는 비동기 계산에 사용되는 객체입니다. 비동기 작업의 결과를 나타내며, 결과는 해결(resolve)되거나 거부(reject)될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 약속은 세 가지 상태를 가집니다:
 
@@ -313,7 +551,18 @@ Promise 생성자는 두 개의 매개변수(resolve, reject)를 가지며 이�
 
 만약 오류가 발생했다면 거부 함수를 호출하고 그에 해당하는 오류를 전달해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 약속의 결과는 .then() 핸들러를 사용하여 액세스할 수 있어요.
 
@@ -344,7 +593,18 @@ fetchData
 
 Promise 체이닝: Promise를 사용하여 비동기 작업을 순서대로 실행하는 프로세스를 의미해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음의 코드는 특정한 순서로 일련의 작업을 수행하기 위해 Promise에 여러 .then() 메소드를 연결하는 것을 포함합니다.
 
@@ -370,7 +630,18 @@ new Promise(function (resolve, reject) {
 
 async/await은 JavaScript에서 비동기 코드를 처리하는 현대적인 방법입니다. 이는 Promise와 비동기 작업을 보다 간결하고 가독성 있게 처리할 수 있도록 제공하여, "Callback Hell"을 피하고 비동기 코드의 구조를 개선하는 데 효과적입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자바스크립트에서 async 키워드는 비동기 함수를 정의하는 데 사용되며 Promise를 반환합니다.
 
@@ -399,7 +670,18 @@ fetchData()
 
 이 예시에서 fetchData 함수는 async 함수로 정의되었으며 await 키워드를 사용하여 실행을 일시 중지하고 fetch 및 json 작업을 대기하는데, 이를 통해 Promise를 다루는 방식이 동기 코드와 유사하게 작동합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 9. ==과 === 연산자의 차이점은 무엇인가요?
 
@@ -409,7 +691,18 @@ fetchData()
 
 요약하면, ==는 형 변환 후 동등 여부를 확인하고, ===은 값과 데이터 유형을 모두 고려하여 엄격한 동등 여부를 확인합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 == 연산자를 사용하면 === 문장보다 실행 속도가 빠릅니다.
 
@@ -430,7 +723,18 @@ null === undefined // false
 
 ## 10. 자바스크립트에서 객체를 만드는 다양한 방법?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자바스크립트에서는 여러 가지 방법으로 객체를 만들 수 있어요. 객체를 만들기 위한 일반적인 방법 중 몇 가지는 다음과 같아요:
 
@@ -448,7 +752,18 @@ let person = {
 
 b) 생성자 함수: 생성자 함수는 new 키워드를 사용하여 객체의 여러 인스턴스를 만드는 데 사용될 수 있어요. 생성자 함수 내부에서는 속성과 메서드를 this 키워드에 할당할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 function Person(firstName, lastName) {
@@ -479,7 +794,18 @@ person.lastName = "Doe";
 
 d) 클래스 구문 (ES6): ES6의 도입으로 JavaScript는 클래스 키워드를 사용하여 객체를 정의하는 클래스 구문을 지원합니다. 이를 통해 객체를 만들고 속성 및 메소드를 정의하는 더 익숙하고 구조화된 방법을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 class Person {
@@ -514,7 +840,18 @@ let person2 = createPerson("Jane", "Smith");
 
 f)Object.setPrototypeOf(): Object.setPrototypeOf() 메서드는 지정된 객체의 프로토타입을 설정하는 데 사용할 수 있습니다. 이것은 객체가 생성된 후에 프로토타입을 설정하는 대체 접근 방식을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 let personProto = {
@@ -539,7 +876,18 @@ let mergedObject = Object.assign({}, target, source);
 
 h)Prototype Inheritance: JavaScript는 프로토타입 상속을 사용하여 객체가 다른 객체로부터 속성과 메소드를 상속할 수 있게 합니다. 프로토타입 상속을 활용하여 객체를 생성하고 생성자 함수나 클래스의 prototype 속성을 사용하여 공유 동작을 정의할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 function Animal(name) {
@@ -586,7 +934,18 @@ let singleton = (() => {
 
 ## 11. rest와 spread 연산자란 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 나머지 연산자는 세 개의 점(...)으로 표시되며, 함수 매개변수에서 가변 개수의 인수를 배열로 수집하는 데 사용됩니다. 이를 통해 특정한 매개변수로 명시적으로 정의하지 않고도 함수에 임의의 수의 인수를 전달할 수 있습니다.
 
@@ -606,7 +965,18 @@ const mergedArray = [...array1, ...array2];
 // mergedArray는 [1, 2, 3, 4, 5, 6]입니다.
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const obj1 = { a: 1, b: 2 };
@@ -637,7 +1007,18 @@ let doubledNumbers = operationOnArray(numbers, double);
 console.log(doubledNumbers); // 출력: [2, 4, 6, 8]
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각각 함수 합성, 커링, 그리고 콜백 기반 비동기 작업과 같은 강력한 기법을 활용할 수 있습니다. 고차 함수를 이해하는 것은 표현력이 풍부하고 기능적인 스타일의 JavaScript 코드를 작성하는 데 필수적입니다.
 
@@ -647,7 +1028,18 @@ console.log(doubledNumbers); // 출력: [2, 4, 6, 8]
 
 클로저는 함수가 정의된 환경(또는 그 범위에서 변수에 대한 액세스를 유지)를 캡처하도록 하는 기능입니다. 이는 그 범위가 이미 닫혔더라도 계속 이용할 수 있게 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 클로저는 함수와 함수가 정의된 렉시컬 환경의 조합이라고 할 수 있어요.
 
@@ -668,7 +1060,18 @@ myFunction(); // 출력: 외부 함수에서 온 변수입니다
 
 클로저는 함수가 생성될 때 함수를 생성하는 시점 및 다른 함수 내부에 함수를 정의할 때마다 생성됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 실행 컨텍스트는 JavaScript 코드가 실행되는 환경입니다. 각 함수 호출마다 별도의 실행 컨텍스트가 생성되어 실행 스택에 밀어 넣습니다. 함수 실행이 완료되면 실행 스택에서 빠져나옵니다.
 
@@ -678,7 +1081,18 @@ JavaScript에서는 어떤 것이 가비지 수집되는지는 해당 것에 대
 
 위 예시에서 익명 실행 컨텍스트는 여전히 외부 환경의 변수에 대한 메모리 공간에 대한 참조를 가지고 있습니다. outerFunction()이 종료되더라도 그렇습니다. (outerVariable 변수에 액세스하고 console.log(outerVariable) 내에서 사용할 수 있습니다.)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자바스크립트에서 클로저는 여러 중요한 용도가 있어요:
 
@@ -692,7 +1106,18 @@ JavaScript에서는 어떤 것이 가비지 수집되는지는 해당 것에 대
 
 자바스크립트에서 호이스팅은 변수 및 함수 선언이 코드 실행 전 컴파일 단계에서 해당 범위의 맨 위로 이동되는 기본 동작입니다. 이는 변수를 사용하거나 함수를 호출할 때 실제 코드에서 선언되기 전에 사용할 수 있다는 것을 의미해요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 변수를 var을 사용하여 선언할 때, 선언문은 해당 함수 또는 블록의 맨 위로 끌어올려지고 “undefined”라는 기본값으로 초기화됩니다.
 
@@ -708,7 +1133,18 @@ console.log(x); // 에러 발생 (ReferenceError)
 let x = 5;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 함수 선언들도 그들이 포함된 스코프의 맨 위로 끌어올려집니다. 코드에서 함수를 선언하기 전에 호출할 수 있어요.
 
@@ -723,7 +1159,18 @@ function sayHello() {
 
 ## 15. Temporal dead zone이란 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 JavaScript의 Temporal Dead Zone (TDZ)은 let과 const를 사용하여 변수를 선언하는 것과 관련된 개념입니다.
 
@@ -733,7 +1180,18 @@ let 또는 const로 변수를 선언하면 해당 변수는 해당 범위의 맨
 
 Temporal Dead Zone을 이해하는 것은 변수가 초기화되기 전에 변수 사용과 관련된 버그를 방지하는 데 중요합니다. 또한 사용 전에 적절한 변수 선언을 장려하여 JavaScript 코딩에서 최상의 실천 방법을 촉구합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 16. 프로토타입 체인이란 무엇인가요? 그리고 Object.create() 메소드는 무엇인가요?
 
@@ -743,7 +1201,18 @@ Temporal Dead Zone을 이해하는 것은 변수가 초기화되기 전에 변�
 
 프로토타입 체인은 다른 객체로부터 속성과 메소드를 상속받을 수 있게 해주는 메커니즘입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 객체의 속성 또는 메서드에 액세스할 때 JavaScript는 먼저 해당 객체에서 해당 항목을 찾습니다. 항목을 찾지 못하면 프로토 타입 체인을 따라 해당 속성 또는 메서드를 찾습니다. 이 프로세스는 체인의 맨 위인 Object.prototype에 도달할 때까지 계속됩니다.
 
@@ -763,7 +1232,18 @@ greet.call(person1, "Hello"); // 출력: Hello John
 greet.call(person2, "Hi"); // 출력: Hi Jane
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 call() 메서드는 객체가 다른 객체에 속한 메서드를 사용할 수 있게 합니다.
 
@@ -791,11 +1271,33 @@ const max = Math.max.apply(null, numbers);
 console.log(max); // 출력: 5
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 마크다운 형식으로 변경해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 일반 함수
 - 화살표 함수 (ES6에서 도입됨)
@@ -806,7 +1308,18 @@ console.log(max); // 출력: 5
 
 화살표 또는 두꺼운 화살표 함수: 람다 함수로도 알려진 화살표 함수는 JavaScript (ES6)에서 도입된 기능으로, 함수 표현식을 작성하는 더 간결한 구문입니다. 전통적인 함수 표현식보다 더 짧은 구문을 가지며, 익명 함수를 생성하고 함수형 프로그래밍 개념을 처리하는 데 특히 유용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기에는 선언 접근 방식이 없습니다. 함수 표현식만을 사용하여 작성할 수 있습니다.
 
@@ -822,7 +1335,18 @@ console.log(max); // 출력: 5
 - 제너레이터 함수로 사용할 수 없음
 - 중복된 매개변수 이름을 허용하지 않음
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 19. 커링 함수란 무엇인가요?
 
@@ -837,7 +1361,18 @@ function add(x, y) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 함수의 커링화된 버전
@@ -856,7 +1391,18 @@ console.log(add5(3)); // 결과: 8
 
 ES6, 또는 ECMAScript 2015로도 알려진 ES6는 JavaScript의 능력을 크게 확장하는 여러 가지 새로운 기능과 개선사항을 도입했습니다. ES6의 주요 기능 중 일부는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 화살표 함수
 - 블록 스코프 변수
@@ -877,7 +1423,18 @@ ES6, 또는 ECMAScript 2015로도 알려진 ES6는 JavaScript의 능력을 크�
 
 함수가 실행될 때마다 실행 컨텍스트가 생성되며 해당 함수의 모든 변수나 속성을 포함합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 JavaScript에는 세 가지 유형의 실행 컨텍스트가 있어요:
 
@@ -885,7 +1442,18 @@ JavaScript에는 세 가지 유형의 실행 컨텍스트가 있어요:
 - Functional Execution Context
 - Eval Function Execution Context
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 실행 스택: 실행 스택은 “호출 스택”으로도 알려져 있으며, 현재 진행 중인 함수 호출의 모든 실행 컨텍스트를 저장하는 후입선출(LIFO) 데이터 구조입니다. 함수가 호출될 때마다 새로운 실행 컨텍스트가 생성되어 스택에 푸시됩니다. 함수가 완료되면 해당 컨텍스트가 스택에서 팝됩니다.
 
@@ -896,7 +1464,18 @@ JavaScript에는 세 가지 유형의 실행 컨텍스트가 있어요:
 - 렉시컬 환경 컴포넌트가 생성됩니다.
 - 변수 환경 컴포넌트가 생성됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 변수 객체: 실행 컨텍스트의 일부로, 해당 컨텍스트에서 정의된 모든 변수, 함수 선언 및 인수를 포함하는 객체입니다.
 
@@ -906,7 +1485,18 @@ JavaScript에는 세 가지 유형의 실행 컨텍스트가 있어요:
 
 실행 우선순위는 이벤트 루프와 서로 다른 비동기 작업이 처리되는 순서에 기반하여 이해할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - process.nextTick(): process.nextTick()으로 예약된 콜백은 가장 높은 우선순위를 갖습니다. process.nextTick()을 사용하면 현재 작업이 완료된 후에 즉시 콜백이 실행되지만 이벤트 루프가 다음 단계로 이동하기 전에 실행됩니다. 이를 통해 함수가 이벤트 루프에서 가능한 빨리 실행되도록 할 수 있습니다.
 - Promise: Promise는 일반적으로 process.nextTick() 이후에 실행됩니다. 그러나 setTimeout()을 사용하여 예약된 콜백보다 우선시됩니다.
@@ -935,7 +1525,18 @@ console.log(person1.greet()); // 출력: Hello, my name is Alice and I am 25 yea
 console.log(person2.greet()); // 출력: Hello, my name is Bob and I am 30 years old.
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 JavaScript의 Generator 함수는 실행 중에 일시 중단하고 다시 시작할 수 있는 특별한 유형의 함수입니다.
 
@@ -945,7 +1546,18 @@ Generator 함수가 호출되면 next() 메서드를 호출하여 함수의 실�
 
 함수의 코드는 yield 키워드를 사용하여 본문 내에서 일시 중단될 수 있으며, 일시 중단된 곳에서 정확히 다시 시작할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 function* numberGenerator() {
@@ -967,7 +1579,18 @@ console.log(gen.next().value); // 출력: 2
 
 얕은 복사는 참조가 원본 객체와 같은 객체의 복사본입니다. 이는 얕은 복사본에서 속성의 값을 변경하면 원본 객체의 속성 값도 변경됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const user = {
@@ -984,7 +1607,18 @@ const clone = user;
 
 a) JSON.parse 및 JSON.stringify: 중첩 객체에도 유용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const originalObject = { name: "Alice", age: 25 };
@@ -999,7 +1633,18 @@ const myDeepCopy = structuredClone(myOriginal);
 
 c) Spread Operator(…): 중첩된 객체가 있는 경우 어떤 객체도 깊은 복사되지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const originalObject = { name: "Alice", age: 25 };
@@ -1018,7 +1663,18 @@ const shallowCopy = Object.assign({}, originalObject);
 
 e)재귀(recursion):
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 function deepCopy(obj) {
@@ -1043,16 +1699,25 @@ JavaScript에서는 Object.seal() 및 Object.freeze() 메서드를 사용하여 
 
 Object.freeze(): (완전히 불변) 이 메서드는 객체를 동결하여 봉인하고 그 속성을 읽기 전용으로 설정합니다. 객체를 동결한 후에는 해당 속성을 수정, 추가 또는 삭제할 수 없습니다.
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
- const obj = { name: 'Alice', age: 25 };
- Object.freeze(obj);
- obj.name = 'Bob'; // 허용되지 않음
- obj.address = '123 Street'; // 허용되지 않음
- delete obj.age; // 허용되지 않음
+const obj = { name: "Alice", age: 25 };
+Object.freeze(obj);
+obj.name = "Bob"; // 허용되지 않음
+obj.address = "123 Street"; // 허용되지 않음
+delete obj.age; // 허용되지 않음
 ```
 
 Object.seal(): (부분적 불변) 이 메서드는 개체를 봉인하여 새 속성이 추가되는 것을 방지하고 모든 기존 속성을 구성할 수 없게 표시합니다. 그러나 쓰기 가능한 기존 속성의 값을 수정할 수는 있습니다.
@@ -1067,7 +1732,18 @@ delete obj.age; // 허용되지 않음 (기존 속성을 삭제할 수 없음)
 
 ## 26. 이벤트와 이벤트 흐름, 이벤트 버블링과 이벤트 캡처란 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 JavaScript에서 이벤트 흐름은 웹 페이지에서 클릭 또는 키 입력과 같은 이벤트를 받거나 웹 브라우저에서 처리하는 순서를 의미합니다. 이벤트 흐름에는 이벤트 캡처링과 이벤트 버블링 두 단계가 있습니다.
 
@@ -1081,7 +1757,18 @@ JavaScript에서 이벤트 흐름은 웹 페이지에서 클릭 또는 키 입�
 
 이제 이 예제를 사용하여 이벤트 흐름을 설명해보겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이벤트 캡처링 단계: 버튼을 클릭하면 이벤트가 문서의 맨 위(문서의 루트)에서 시작해서 대상 요소까지 아래로 이동합니다. 이 경우, 이벤트는 문서의 루트에서 `div`(상위 요소)로 이동한 다음 `button`(하위 요소)로 이동합니다. 이것을 캡처링 단계라고 합니다.
 - 이벤트 대상 단계: 이벤트는 대상 요소인 이 경우 `button`에 도달합니다.
@@ -1108,7 +1795,18 @@ document.getElementById("parent").addEventListener("click", function () {
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 버튼을 클릭하면 다음과 같은 순서로 콘솔에 이 메시지들이 나타납니다:
 
@@ -1120,7 +1818,18 @@ document.getElementById("parent").addEventListener("click", function () {
 
 이벤트 위임은 여러 요소에 대한 이벤트 처리를 최적화하는 JavaScript 프로그래밍 기술입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 개별 요소에 이벤트 리스너를 붙이는 대신에 이벤트 위임은 DOM(Document Object Model) 계층구조에서 더 상위에 있는 공통 조상 요소에 단일 이벤트 리스너를 붙이는 것을 의미합니다.
 
@@ -1132,7 +1841,18 @@ document.getElementById("parent").addEventListener("click", function () {
 var form = document.querySelector("#registration-form");
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 폼 내 필드에 대한 변경 사항을 감지합니다
@@ -1152,7 +1872,18 @@ form.addEventListener(
 
 SSE는 새로운 정보가 사용 가능해지자마자 서버가 데이터를 웹 클라이언트(일반적으로 브라우저)로 푸시할 수 있게 해줍니다. 이는 복잡한 프로토콜이나 외부 라이브러리에 의존하지 않고 실시간 업데이트가 필요한 시나리오에 뛰어난 선택지입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 a) SSE는 서버에서 클라이언트로의 데이터 단방향 흐름을 제공합니다. 서버가 통신을 시작하고, 업데이트를 클라이언트에게 보냅니다.
 
@@ -1162,7 +1893,18 @@ c) SSE는 자동으로 재연결을 처리합니다.
 
 d) SSE는 클라이언트와 서버 간 지속적인 연결을 설정하며, 서버가 클라이언트로 이벤트 스트림을 보낼 수 있습니다. 각 이벤트에는 고유한 유형 및 연결된 데이터가 있을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 e) EventSource 객체는 서버로부터 보낸 이벤트 알림을 받는 데 사용됩니다. 예를 들어, 아래와 같이 서버로부터 메시지를 받을 수 있습니다.
 
@@ -1179,7 +1921,18 @@ f) 아래는 서버로부터 보낸 이벤트에 사용할 수있는 이벤트 (
 
 ## 29. 자바스크립트에서 웹 워커 또는 서비스 워커란 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 워커(Web Workers)와 서비스 워커(Service Workers)는 JavaScript에서 두 가지 다른 개념입니다.
 
@@ -1189,7 +1942,18 @@ f) 아래는 서버로부터 보낸 이벤트에 사용할 수있는 이벤트 (
 
 ## 웹 워커(Web Workers):
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 동시성: 웹 워커는 브라우저 기능으로, 주 브라우저 스레드와 별도로 JavaScript 코드를 백그라운드에서 실행할 수 있게 합니다. 이를 통해 작업을 동시에 실행하여 사용자 인터페이스를 차단하지 않고 처리할 수 있습니다.
 - 사용 사례: 웹 워커는 계산이 많이 필요하거나 시간이 오래 걸리는 작업에 주로 사용됩니다. 데이터 처리, 이미지 조작 또는 복잡한 계산과 같은 작업이 여기에 속합니다. 별도의 스레드에서 이러한 작업을 실행함으로써 웹 페이지의 응답성에 영향을 주지 않습니다.
@@ -1205,7 +1969,18 @@ f) 아래는 서버로부터 보낸 이벤트에 사용할 수있는 이벤트 (
 
 ## 30. 자바스크립트에서 2개의 JSON 객체를 비교하는 방법은 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 a) 두 개의 JSON 객체를 비교하는 간단한 방법은 JSON.stringify를 사용하여 문자열로 변환한 다음 문자열을 비교하는 것입니다.
 
@@ -1230,7 +2005,18 @@ const obj2 = { a: 1, b: { c: 2 } };
 console.log(R.equals(obj1, obj2)); // 결과: true
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 c) 다른 옵션은 Lodash와 같은 라이브러리를 사용하는 것입니다. Lodash는 객체의 깊은 비교를 제공하는 메서드를 제공합니다.
 
@@ -1244,4 +2030,15 @@ console.log(_.isEqual(obj1, obj2)); // 출력: true
 
 이 기사가 마음에 들었으면 좋겠어요. 읽어 주셔서 정말 감사합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

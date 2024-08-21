@@ -3,16 +3,13 @@ title: "CSS로 간단한 스크롤 효과를 만들기"
 description: ""
 coverImage: "/assets/img/2024-05-02-AMAZINGSCROLLEFFECTSINSIMPLECSS_0.png"
 date: 2024-05-02 00:49
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-02-AMAZINGSCROLLEFFECTSINSIMPLECSS_0.png
 tag: Tech
 originalTitle: "AMAZING SCROLL EFFECTS IN SIMPLE CSS 🤯"
 link: "https://medium.com/@adaridonalrahul/amazing-scroll-effects-in-simple-css-1924a82218e4"
 isUpdated: true
 ---
-
-
-
 
 오늘은 CSS의 멋진 기능에 대해 이야기할 거에요. 여러분, 아래 데모를 한 번 봐주세요
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 ![이미지](/assets/img/2024-05-02-AMAZINGSCROLLEFFECTSINSIMPLECSS_0.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 친구들, 지금 코드펜에 팔로워가 한 명이에요. 라이브 데모와 멋진 팁을 보려면 코드펜에서 저를 팔로우해 주세요 😆
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 우선 두 개의 h1이 들어 있는 각기 다른 두 개의 div가 있다는 것을 명확히 해 드리겠어요. 각 h1은 Poppins 글꼴로 되어 있고, flex 방법을 사용하여 가운데 정렬됐습니다. 우리가 시작하는 템플릿 안에는 더 이상 내용이 없어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 애니메이션
 
@@ -56,7 +75,18 @@ isUpdated: true
 
 이제 h1에 해당 애니메이션을 적용하세요. 한 가지를 기억하세요. 시간을 언급하지 마세요. 좋아요 👍
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```jsx
 표시되는 것처럼 보이도록 애니메이션을 추가해주세요
@@ -67,7 +97,16 @@ animation: revealing;
 
 애니메이션 타임라인 속성을 사용하여 특정 단계에 애니메이션이 도달하는 시간을 지정합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 참고: 이 기능은 실험적인 기능입니다.
 
@@ -77,7 +116,16 @@ animation-timeline: view(block);
 
 이제 애니메이션이 동작하기 시작할 것입니다. 하지만 완전히 작동하지는 않는 것 같습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Animation Range
 
@@ -85,7 +133,16 @@ animation-timeline: view(block);
 
 animation-range: cover 0% cover 50%;
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해당 요소의 가려짐이 0%인 상태에서 시작해야 하며, 해당 요소가 50% 정도 가려질 때 애니메이션이 끝나야 합니다.
 
@@ -95,7 +152,16 @@ animation-range: cover 0% cover 50%;
 
 와우, 애니메이션을 완료했네요. 보셨나요? 자바스크립트 라이브러리인 GSAP 같은 것들보다 이 방법이 얼마나 간단한지요. 이 방법을 사용하면 작업을 단 3줄로 끝낼 수 있어요. 잘가요 👋
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 마지막으로
 
@@ -108,8 +174,18 @@ Daily.dev
 Codepen
 Citeal
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 읽어주셔서 감사합니다 😉 좋은 하루 보내세요
 
 크레딧: 개발자 Ed 채널의 비디오 썸네일
+```

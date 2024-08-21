@@ -3,17 +3,13 @@ title: "테일윈드 40 출시, 신기능 정리"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Tailwind 40 is Coming and Looks Good"
 link: "https://medium.com/@kristiyan.velkov/tailwind-4-0-is-coming-and-looks-good-e4bb8d976f3c"
 isUpdated: true
 ---
-
-
-
-
 
 테일윈드 4.0은 더 빠르고 더 좋을 거에요.
 
@@ -27,7 +23,18 @@ isUpdated: true
 $ npm install tailwindcss@next @tailwindcss/vite@next
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // Vite 구성
@@ -50,7 +57,18 @@ export default defineConfig({
 
 # 구성 필요 없는 콘텐츠 감지
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전 버전에서는 tailwind.config.js를 생성하고 글로벌 CSS 파일에 세 가지 지시문을 추가해야 했습니다.
 
@@ -74,7 +92,18 @@ export default defineConfig({
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 @theme 지시어는 Tailwind에게 새로운 유틸리티와 변형을 변수에 기반하여 사용할 수 있도록 하도록 지시합니다. 이를 통해 4xl:text-neon-lime과 같은 클래스를 마크업에서 사용할 수 있습니다.
 
@@ -90,7 +119,18 @@ export default defineConfig({
 
 main.css
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 @테마 {
@@ -125,7 +165,18 @@ main.css
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 조합 가능한 변형
 
@@ -135,7 +186,18 @@ main.css
 
 index.html
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <div class="group">
@@ -153,7 +215,18 @@ index.html
 
 # 4.0 버전 도입 계획
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 명시적 콘텐츠 경로 구성 - 템플릿이 자동 콘텐츠 감지에 충분하지 않을 때 Tailwind에게 정확한 템플릿 위치를 알려줄 수 있게 합니다.
 - 다른 다크 모드 지원 - 현재는 미디어 쿼리를 사용해서 다크 모드만 지원하고 있습니다. 선택기 및 변형 전략을 다시 구현해야 합니다.
@@ -169,7 +242,18 @@ Tailwind CSS 4는 웹 개발자들이 작업 흐름을 최적화하고 아름다
 
 ❤️ 만약 제 작업을 좋아하신다면, 제를 팔로우하고 구독해주세요 ❤️
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 나를 팔로우하세요
 - 구독하기

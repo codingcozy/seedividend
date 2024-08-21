@@ -3,17 +3,13 @@ title: "Html CSS JS로 틱택토tic-tac-toe게임 만들기"
 description: "HTML, CSS, JavaScript를 사용하여 틱택토 게임을 만드는 방법을 알아봅니다"
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # Html CSS JS로 틱택토(tic-tac-toe)게임 만들기
 
@@ -21,7 +17,18 @@ HTML, CSS, JavaScript 언어를 사용하여 틱택토 게임을 만들어 보�
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/1*UM3WqZbSXc8yZ-C1vhmTEw.gif" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우선, 게임에 대해 알아보겠습니다.
 
@@ -38,7 +45,18 @@ HTML, CSS, JavaScript 언어를 사용하여 틱택토 게임을 만들어 보�
 
 <img src="/assets/img/How-to-create-a-Tic-Tac-Toe-game-with-HTML-CSS-and-JavaScript_2.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코딩을 시작하기 전에 무엇을 했는지 간단히 설명하겠습니다. 먼저, 게임에 필요한 요소를 HTML로 코딩했습니다. 더 아름답게 만들기 위해 CSS로 스타일을 만들었습니다. 게임이 작동하도록 하기 위해 JavaScript를 사용했습니다. 이제 이들을 자세히 살펴보겠습니다.
 
@@ -82,19 +100,25 @@ HTML, CSS, JavaScript 언어를 사용하여 틱택토 게임을 만들어 보�
       <div class="square" id="square8"></div>
     </div>
     <div id="endGame">
-      <input
-        type="button"
-        value="다시 시작"
-        id="restartButton"
-        onclick="restartButton()"
-      />
+      <input type="button" value="다시 시작" id="restartButton" onclick="restartButton()" />
     </div>
     <script src="game.js"></script>
   </body>
 </html>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## CSS:
 
@@ -163,7 +187,18 @@ h1 {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## JavaScript:
 
@@ -182,7 +217,18 @@ const players = ["X", "O"];
 let currentPlayer = players[0];
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 게임 종료를 확인하려면 게임이 조건을 만족할 때 화면에 메시지를 출력해야 합니다. 이를 위해 endMessage 변수에 h2 태그를 할당하여 HTML 문서에서 확인할 수 있도록 했습니다. after 함수를 사용하여 보드라는 id를 가진 div의 작업에 대한 메시지를 출력하도록 했습니다. textContent를 사용하여 변수에 텍스트를 출력할 수 있도록 했습니다. "X의 차례!"를 출력했습니다. 생성한 태그에 스타일을 추가했습니다.
 
@@ -209,7 +255,18 @@ const winning_combinations = [
 ];
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 필요한 제어를 제공하기 위해 함수를 만들었습니다. checkWin이라는 함수를 만들어 게임의 승리 상태를 확인했습니다. 배열에서 하나의 상태가 충족되면 해당 플레이어가 게임에 승리합니다.
 
@@ -231,7 +288,18 @@ function checkWin(currentPlayer) {
 
 무승부 상태를 확인하기 위해 checkTie 함수를 만들었습니다. for 루프를 통해 생성된 모든 프레임의 텍스트를 확인했습니다. 모든 칸이 채워져 있고 승리 상태가 만족되지 않으면 true를 반환합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 function checkTie() {
@@ -258,7 +326,18 @@ function restartButton() {
 
 게임에서 생성된 함수를 확인하기 위해 for 루프에서 사용했습니다. 이 루프에서 각 프레임을 클릭할 때 특정 조건이 충족되면 화면에 게임 상태가 출력됩니다. addEventListener 메소드를 사용하여 이 작업을 수행했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 for (let i = 0; i < squares.length; i++) {
@@ -287,7 +366,18 @@ for (let i = 0; i < squares.length; i++) {
 
 작성한 JavaScript 코드 전체는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const board = document.getElementById("board");

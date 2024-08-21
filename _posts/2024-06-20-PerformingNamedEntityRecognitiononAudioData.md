@@ -3,16 +3,13 @@ title: "오디오 데이터에 대한 명명된 개체 인식Named Entity Recogn
 description: ""
 coverImage: "/assets/img/2024-06-20-PerformingNamedEntityRecognitiononAudioData_0.png"
 date: 2024-06-20 05:02
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-PerformingNamedEntityRecognitiononAudioData_0.png
 tag: Tech
 originalTitle: "Performing Named Entity Recognition on Audio Data"
 link: "https://medium.com/datadriveninvestor/performing-named-entity-recognition-on-audio-data-73f45c1b9739"
 isUpdated: true
 ---
-
-
-
 
 ![이미지](/assets/img/2024-06-20-PerformingNamedEntityRecognitiononAudioData_0.png)
 
@@ -22,7 +19,18 @@ Named Entity Recognition (또는 NER)은 주어진 정보에서 실제 세계 �
 
 NER 시스템의 고수준 개요는 아래 이미지에 표시되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-06-20-PerformingNamedEntityRecognitiononAudioData_1.png)
 
@@ -32,7 +40,18 @@ NER 시스템의 고수준 개요는 아래 이미지에 표시되어 있습니�
 
 이 게시물에 대한 코드는 여기에서 찾을 수 있습니다. 게시물의 하이라이트는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오디오 데이터의 엔터티 탐지
 엔터티 탐지 결과
@@ -44,7 +63,18 @@ NER 시스템의 고수준 개요는 아래 이미지에 표시되어 있습니�
 
 이 섹션에서는 미리 녹음된 오디오 파일에서 명명된 엔터티를 식별하고 추출하기 위해 AssemblyAI API를 사용하는 방법을 보여드리겠습니다. 더 나아가, 추출된 엔터티는 "런던"과 같이 위치로 분류되는 방식과 유사하게 개인, 위치, 조직, 날짜, 이벤트, 직업 등과 같은 해당 엔터티 클래스로 분류될 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-20-PerformingNamedEntityRecognitiononAudioData_2.png" />
 
@@ -56,7 +86,18 @@ NER 시스템의 고수준 개요는 아래 이미지에 표시되어 있습니�
 pip install requests
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 2: API 토큰 생성하기
 
@@ -66,7 +107,18 @@ pip install requests
 
 전사 및 명명된 엔티티를 추출할 오디오 파일은 URL을 통해 액세스할 수 있어야 합니다. 따라서 음성 대 텍스트 모델을 호출하기 전에 오디오 파일을 파일 호스팅 서비스에 업로드해야 합니다. 옵션으로는 AWS S3 버킷, SoundCloud와 같은 오디오 호스팅 서비스, 그리고 AssemblyAI의 자체 호스팅 서비스 등이 있습니다. 이번 튜토리얼에서는 오디오 파일을 SoundCloud에 업로드했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 단계 4: Entity 감지 및 분류 수행하기
 
@@ -76,7 +128,18 @@ pip install requests
 
 첫 번째 단계는 HTTP Post 요청을 사용하여 음성 파일을 트리거하여 텍스트 모델을 활성화하는 것입니다. POST 요청은 오디오 파일을 audio_url로 사용하고 entity_detection 플래그를 사용하여 명명된 엔티티 인식을 수행하도록 모델에 지시합니다. 오디오 파일에는 여러 화자가 포함되어 있기 때문에 speaker_labels 플래그를 True로 설정했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 수신된 JSON 응답에 따르면, 포스트 요청의 상태가 대기 중인 것을 나타내며, 파일이 전사 대기열에 있는 것을 의미합니다.
 
@@ -86,7 +149,18 @@ pip install requests
 
 우리의 POST 요청 상태를 확인하고 전사 결과를 보려면, 위에서 수신한 JSON 응답의 id 키를 사용하여 GET 요청을 해야 합니다. 우리는 POST 요청에서 받은 response_id를 전사 상태를 확인하기 위해 전달합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Entity Detection Results
 
@@ -102,7 +176,18 @@ pip install requests
 
 # Entity Detection Insights
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 JSON은 일반적으로 읽고 해석하기 어려운 편이기 때문에, 위의 엔티티 감지 결과를 DataFrame으로 변환하여 데이터를 시각적으로 보기 좋게 만들 수 있습니다. 이렇게 하면 추가적인 분석을 효과적으로 수행하는 데 도움이 될 것입니다. 우리는 텍스트, 문장의 지속 시간, 화자, 그리고 문장의 엔티티 수를 저장할 것입니다. 이를 아래 코드로 구현하였습니다:
 
@@ -112,7 +197,18 @@ JSON은 일반적으로 읽고 해석하기 어려운 편이기 때문에, 위�
 
 다음으로, 오디오 파일에서 식별된 엔티티를 취하는 또 다른 DataFrame을 생성합니다. 이는 아래의 코드 블록을 따라 구현되었습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-20-PerformingNamedEntityRecognitiononAudioData_4.png" />
 
@@ -122,7 +218,18 @@ JSON은 일반적으로 읽고 해석하기 어려운 편이기 때문에, 위�
 
 각 화자의 분포를 백분율로 표시하려면 value_counts() 메서드에 normalize=True를 전달하면 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## #2 발화자별 시간 분포
 
@@ -132,7 +239,18 @@ groupby() 메서드를 사용하여 개별 문장의 지속 시간을 합산하�
 
 ## #3 발화자 엔터티-카운트 분포
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 오디오 파일에서 총 17개의 엔티티가 언급되었는데, 그 중 9개는 "A" 스피커에 의해 발화되었고 나머지는 "B" 스피커가 발화했습니다.
 
@@ -142,7 +260,18 @@ groupby() 메서드를 사용하여 개별 문장의 지속 시간을 합산하�
 
 ## #5 스피커-엔티티 유형 분포
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막으로, 각 화자가 말한 각 Entity 유형의 수를 평가해 봅시다. 여기서는 groupby() 메소드 대신 시각화를 위해 crosstab()을 사용할 것입니다. 아래에서 이를 보여드리겠습니다:
 
@@ -152,7 +281,18 @@ groupby() 메서드를 사용하여 개별 문장의 지속 시간을 합산하�
 
 🚀 내 매일 뉴스레터를 구독하시면 550페이지 이상의 무료 데이터 과학 PDF와 320편 이상의 게시물을 받아 보실 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/0*gtA9qrsOn5ZsnBXW.gif" />
 
@@ -162,7 +302,18 @@ DDIntel을 여기서 구독하세요.
 
 주요 기사:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리의 창조자 생태계에 참여해보세요.
 

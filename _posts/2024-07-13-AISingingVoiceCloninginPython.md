@@ -3,16 +3,13 @@ title: "파이썬으로 AI 노래 목소리 클로닝 하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-13-AISingingVoiceCloninginPython_0.png"
 date: 2024-07-13 19:38
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-AISingingVoiceCloninginPython_0.png
 tag: Tech
 originalTitle: "AI Singing Voice Cloning in Python"
 link: "https://medium.com/@crisvelasquez/ai-singing-voice-cloning-in-python-7b7cf5e5dbdd"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-07-13-AISingingVoiceCloninginPython_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 AI 음성 복제는 특이한 음성의 특성을 포착하고 놀라운 정확도로 재현하는 기술입니다. 이 디지털 연금술을 통해 우리는 기존의 목소리를 복제하는 것뿐만 아니라 완전히 새로운 목소리를 만들어내는 것도 가능해집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컨텐츠 생성을 혁신한 도구입니다. 맞춤 노래부터 사용자 정의 보이스 오버까지 다양한 크리에이티브 가능성을 열어줍니다. 이는 언어와 문화적인 장벽을 초월하는 세계를 제공합니다.
 
@@ -32,7 +40,18 @@ AI 음성 복제는 특이한 음성의 특성을 포착하고 놀라운 정확�
 
 # 1. 기술적 배경
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사에서 사용할 기술은 Singing Voice Conversion (SVC)이라는 시스템인 SO-VITS-SVC입니다. SO-VITS-SVC는 "SoftVC VITS Singing Voice Conversion"의 약어로, SVC의 정교한 구현을 나타냅니다.
 
@@ -44,8 +63,18 @@ SO-VITS-SVC 시스템은 심층 학습 기술을 사용하여 노래 목소리 �
 - VAEs는 SVC에서 오디오 신호의 중요한 표현인 멜 스펙트로그램 분포를 모델링하는 데 사용됩니다. VAE 구성 요소는 음성의 잠재 변수를 캡처하는 데 도움이 됩니다.
 - VAE 손실 함수는 아래 수식과 같이 표현됩니다. 여기서 x는 입력 멜 스펙트로그램, z는 잠재 변수이며 KL은 Kullback-Leibler 발산을 나타냅니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-07-13-AISingingVoiceCloninginPython_1.png)
 
@@ -55,8 +84,18 @@ SO-VITS-SVC 시스템은 심층 학습 기술을 사용하여 노래 목소리 �
 
 For a comprehensive understanding of Variational Autoencoders (VAEs) and Generative Adversarial Networks (GANs), you might want to refer to the original papers introducing these concepts:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - VAEs: Kingma, D. P., and Welling, M. "Auto-Encoding Variational Bayes." arXiv:1312.6114, 2013.
 - GANs: Goodfellow, I. J., et al. "Generative Adversarial Nets." arXiv:1406.2661, 2014.
@@ -67,7 +106,18 @@ For a comprehensive understanding of Variational Autoencoders (VAEs) and Generat
 
 <img src="/assets/img/2024-07-13-AISingingVoiceCloninginPython_3.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1. 초기 노이즈 샘플: 확산 프로세스의 시작점으로 작용하는 노이즈의 시각적 표현입니다.
 
@@ -77,7 +127,18 @@ For a comprehensive understanding of Variational Autoencoders (VAEs) and Generat
 
 - SO-VITS-SVC의 맥락에서 '얕은'이라고 할 때는 아마도 계층이나 단계가 적은 것을 의미하며, 계산 효율성과 오디오 품질 사이의 균형을 맞출 것으로 예상됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. 멜 스펙트로그램 정제: 이 과정의 결과는 노래하는 목소리의 오디오 콘텐츠를 담은 멜 스펙트로그램으로, 다음 합성 단계에 사용할 준비가 된 상태입니다.
 
@@ -88,7 +149,18 @@ For a comprehensive understanding of Variational Autoencoders (VAEs) and Generat
 - Sohl-Dickstein, J., et al. “Deep Unsupervised Learning using Nonequilibrium Thermodynamics.” arXiv:1503.03585, 2015.
 - Ho, J., et al. “Denoising Diffusion Probabilistic Models.” arXiv:2006.11239, 2020.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1.3 SVC 시스템과 합성 프로세스의 통합
 
@@ -98,7 +170,18 @@ For a comprehensive understanding of Variational Autoencoders (VAEs) and Generat
 
 2. 보코딩:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 보코더는 그 후 정제된 멜 스펙트로그램을 오디오 웨이브폼으로 변환하는 데 사용됩니다. 이 단계는 시각 데이터가 청각적인 노래 목소리로 변환되는 과정입니다. 보코더의 역할은 멜 스펙트로그램에서 포착된 음높이, 음색 및 리듬의 미묘한 점을 합성하여 최종 노래 목소리를 생성하는 것입니다.
 
@@ -108,7 +191,18 @@ For a comprehensive understanding of Variational Autoencoders (VAEs) and Generat
 
 이 최적화는 확률적 경사 하강법이나 Adam과 같은 알고리즘을 사용하여 진행되며, 전반적인 손실을 최소화하는 것을 최종 목표로 합니다. 이 과정을 통해 최종 출력이 음색, 음높이 및 리듬 측면에서 목표 노래 목소리와 유사하게 되도록 보장합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 4. 최종 산출물:
 
@@ -119,7 +213,18 @@ For a comprehensive understanding of Variational Autoencoders (VAEs) and Generat
 - Coursera — 딥러닝 전문화: https://www.coursera.org/specializations/deep-learning
 - MIT OpenCourseWare — 딥러닝 입문: https://ocw.mit.edu/courses/6-036-introduction-to-deep-learning-spring-2021/
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1.4 IPython 라이브러리 사용
 
@@ -129,7 +234,18 @@ GitHub에서 호스팅되는 SO-VITS-SVC Fork는 실시간 노래 음성 변환�
 
 # 2. 추론: 어떤 아티스트의 AI 목소리로 노래하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 추론은 신경망 모델이 특정 음성을 이해하기 위해 데이터 세트에서 훈련된 후, 해당 학습된 음성으로 새로운 콘텐츠를 생성하는 과정을 의미합니다.
 
@@ -139,7 +255,18 @@ GitHub에서 호스팅되는 SO-VITS-SVC Fork는 실시간 노래 음성 변환�
 
 간편하게 가상 환경을 갖춘 Jupyter Notebook을 사용할 것입니다. 그러므로 그곳에서 스타팅하는 것을 권장합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Anaconda 설치하기: 시스템에 Anaconda를 다운로드하고 설치하세요. 이를 통해 다른 프로젝트를 위한 격리된 환경을 만들 수 있습니다.
 - Anaconda 터미널을 열고 다음 명령을 실행하여 새 환경을 생성하세요.
@@ -154,7 +281,18 @@ conda create -n sovits-svc
 conda activate sovits-svc
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 노트북 내에서 환경에 필요한 라이브러리를 설치하세요.
 
@@ -168,7 +306,18 @@ conda activate sovits-svc
 
 이제 깨끗한 보컬(즉, 배경 소음이 없는)에 사전 훈련된 모델을 사용하여 '노래 음성 변환'을 수행할 준비가 되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2.1 사전 훈련된 모델을 사용하여 노래 목소리 생성하기
 
@@ -178,7 +327,18 @@ conda activate sovits-svc
 
 어떤 모델을 사용할지 결정되면, .pth Pytorch 모델 파일과 관련된 config.json을 검색하고 다운로드해야 합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 from huggingface_hub import hf_hub_download
@@ -219,8 +379,18 @@ print(f"모델 파일 다운로드 완료: {local_model_path}")
 
 Justin Bieber의 깨끗한 보컬 트랙이며, 선택한 모델을 사용하여 음성 변환을 위해 SO-VITS-SVC 시스템에 입력할 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 가장 깔끔하지 않을 수 있지만, 오디오 파일을 변환하기 전에 자체 오디오 파일을 준비할 때는 생성된 오디오에서 의도하지 않은 아티팩트나 품질 문제를 피하기 위해 가능한 깨끗하게 유지하는 것이 매우 중요합니다.
 
@@ -239,7 +409,18 @@ display(Audio('vocals.wav', autoplay=True))
 
 ## 3) 추론 실행하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 SO-VITS-SVC 모델을 사용하여 음성 변환을 수행하려면 오디오 파일, 모델 체크포인트 및 구성 파일의 경로를 지정해야 합니다. 아래는 경로를 설정하고 추론을 실행하는 방법입니다.
 
@@ -265,7 +446,18 @@ config_path = f"\"{os.path.join('.', config_filename)}\""
 
 ## 4) 출력 표시
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 추론을 실행한 후에는 Jupyter 노트북이나 IPython 인터페이스에서 바로 출력 오디오를 표시할 수 있습니다. 다음의 코드 스니펫을 사용하면 결과 오디오 파일을 재생할 수 있습니다:
 
@@ -283,12 +475,23 @@ display(Audio(output_audio_path, autoplay=True))
 
 그래픽 인터페이스를 선호하는 사용자들을 위해, SO-VITS-SVC 시스템은 음성 변환을 수행하기 위한 선택적 GUI를 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기능이 풍부한 GUI는 명령 줄 작업의 대안을 제공하여 추론 프로세스를 간소화합니다. 다음을 사용하여 시작할 수 있습니다.
 
 ```js
-svcg
+svcg;
 ```
 
 ![이미지](/assets/img/2024-07-13-AISingingVoiceCloninginPython_5.png)
@@ -300,7 +503,18 @@ svcg
 - 추론: 필요한 경우 추가 매개변수를 조정하여 변환 프로세스를 시작하려면 'Infer' 버튼을 클릭합니다.
 - 출력: GUI를 통해 직접 생성된 출력을 저장하고 듣어보며 품질이 예상과 일치하는지 확인합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 GUI는 실시간 추론 기능도 제공하여 조정을 즉시 하고 즉각적인 청각적 피드백도 받을 수 있습니다.
 
@@ -310,7 +524,18 @@ GUI는 실시간 추론 기능도 제공하여 조정을 즉시 하고 즉각적
 
 이제 SO-VITS-SVC 시스템을 사용하여 사용자 지정 노래 목소리 변환 모델을 훈련하는 데 필요한 단계들을 보여드리겠습니다. 데이터셋 준비부터 환경 설정 및 모델 훈련, 기존 오디오 클립에서 노래하는 목소리를 생성하는 추론까지 순서대로 진행하겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모델 훈련 과정에 착수하기 전에 중요한 점이 있습니다. 이 작업은 컴퓨팅이 많이 필요하며, 높은 성능의 GPU와 상당한 VRAM이 필요합니다. 보통 10GB 이상이 필요합니다.
 
@@ -320,7 +545,18 @@ GUI는 실시간 추론 기능도 제공하여 조정을 즉시 하고 즉각적
 
 Hugging Face에서 제공되는 다양한 음성 데이터셋을 활용하여 사용자 정의 so-vits-svc 모델을 훈련할 수 있습니다. 그러나 고유한 음성 특성으로 모델을 개인화하고자 한다면, 자신의 목소리를 녹음하는 것이 더 흥미로운 방법일 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신만의 목소리 샘플 녹음하기
 
@@ -334,7 +570,18 @@ Hugging Face에서 제공되는 다양한 음성 데이터셋을 활용하여 �
 
 - 배경 소음 제거: 오디오 트랙에서 배경 소음을 제거해야 할 수 있습니다. Spleeter는 이를 위한 우수한 파이썬 라이브러리입니다. 아래 예시를 참고하세요. 그러나 반드시 WAV 파일로 저장해야 합니다. 더 자세한 내용은 깃허브 저장소를 참조해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 !pip install spleeter
@@ -370,7 +617,18 @@ slice_audio(input_audio_path, output_directory, snippet_length)
 
 ## 2.2 자동 전처리
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현재 디렉토리에 dataset_raw 폴더가 생성되었고, 녹음 파일은 dataset_raw/'speaker_id' 디렉토리에 저장되어 있습니다. 아래 폴더 구조에 설명된 대로, 노래 목소리 변환 모델을 위한 전처리 및 학습 단계를 시작할 준비가 되었습니다.
 
@@ -385,8 +643,18 @@ slice_audio(input_audio_path, output_directory, snippet_length)
 
 전체 훈련 코드는 entprenerdly.com을 방문해주시기 바랍니다. Entrprenerdly는 튜토리얼, 코드 및 전략을 모두 제공합니다. 이러한 리소스들은 실용적인 지식을 얻을 수 있도록 설계되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Training Configuration](/assets/img/2024-07-13-AISingingVoiceCloninginPython_6.png)
 
@@ -396,8 +664,18 @@ slice_audio(input_audio_path, output_directory, snippet_length)
 
 ![Config Parameters](/assets/img/2024-07-13-AISingingVoiceCloninginPython_7.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터셋은 200개의 샘플이 있고 배치 크기는 20입니다. 따라서 각 에포크는 10단계와 같습니다. 100 에포크를 목표로 한다면 1,000단계가 됩니다. 에포크 수에 1을 추가하는 것이 좋습니다. 마지막 단계가 저장되도록 하기 위해서입니다.
 
@@ -407,7 +685,18 @@ slice_audio(input_audio_path, output_directory, snippet_length)
 
 svc train 명령어로 실제 모델 훈련을 시작하세요. 이 명령은 dataset/44k/'speaker_id' 디렉토리에서 전처리된 데이터와 config/44k/config.json의 설정을 활용하여 머신러닝 프로세스를 시작합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 전체 교육 코드는 entreprenerdly.com을 방문해주세요. Entrprenerdly는 튜토리얼, 코드, 그리고 전략을 모두 담은 호스팅 서비스입니다. 이러한 자료들은 실용적인 지식을 전해줄 수 있도록 설계되었습니다.
 
@@ -433,7 +722,18 @@ config_path = f"\"{os.path.join('.', config_filename)}\""
 !svc infer {audio_file} -m {model_path} -c {config_path}
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 추론을 실행한 후에는 더 나은 결과물을 더 섬세하게 조정하고 싶을 수 있습니다. 예를 들어, 소스 오디오가 노래였고 배경 음악과 혼합해야 하는 경우나 음정을 조정하고 싶은 경우, Audacity나 다른 디지털 오디오 워크스테이션과 같은 오디오 처리 도구를 사용하여 선호에 맞게 트랙을 혼합하고 조정할 수 있습니다.
 
@@ -448,7 +748,18 @@ config_path = f"\"{os.path.join('.', config_filename)}\""
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기술의 함의는 깊고 넓은 영향을 미치고 있습니다. 가까운 미래에는 독립 아티스트가 AI를 활용하여 역사적인 어떤 목소리와도 듀엣할 수 있는 음악 제작의 민주화를 볼 수도 있을 것입니다. 또는 교육자들이 언어 장벽을 세계적으로 제거하는 데 활용할 수도 있을 것입니다. 그러나 SO-VITS-SVC의 참된 잠재력은 우리가 아직 완전히 이해하거나 상상조차 못한 장기적인 응용 분야에 있습니다.
 

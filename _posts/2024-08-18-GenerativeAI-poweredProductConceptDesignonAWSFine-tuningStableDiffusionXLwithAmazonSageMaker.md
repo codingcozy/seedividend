@@ -3,7 +3,7 @@ title: "AWS  Generative AI Stable Diffusion XL 세부 튜닝 방법"
 description: ""
 coverImage: "/assets/img/2024-08-18-GenerativeAI-poweredProductConceptDesignonAWSFine-tuningStableDiffusionXLwithAmazonSageMaker_0.png"
 date: 2024-08-18 11:33
-ogImage: 
+ogImage:
   url: /assets/img/2024-08-18-GenerativeAI-poweredProductConceptDesignonAWSFine-tuningStableDiffusionXLwithAmazonSageMaker_0.png
 tag: Tech
 originalTitle: "Generative AI-powered Product Concept Design on AWS Fine-tuning Stable Diffusion XL with Amazon SageMaker"
@@ -11,7 +11,6 @@ link: "https://medium.com/ai-in-plain-english/fine-tuning-stable-diffusion-xl-on
 isUpdated: true
 updatedAt: 1724032744496
 ---
-
 
 <img src="/assets/img/2024-08-18-GenerativeAI-poweredProductConceptDesignonAWSFine-tuningStableDiffusionXLwithAmazonSageMaker_0.png" />
 
@@ -21,7 +20,18 @@ updatedAt: 1724032744496
 
 <img src="/assets/img/2024-08-18-GenerativeAI-poweredProductConceptDesignonAWSFine-tuningStableDiffusionXLwithAmazonSageMaker_1.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Stable Diffusion XL (SDXL)
 
@@ -31,7 +41,18 @@ Clipdrop에 따르면, 스테이블 디퓨전 XL 1.0은 Stability AI가 출시�
 
 Hugging Face에 따르면, Google Research에서 개발한 DreamBooth는 주제로 하는 이미지 몇 장만 남기면 스테이블 디퓨전과 같은 텍스트-이미지 모델을 개인화하는 방법입니다. 이를 통해 모델은 다양한 장면, 자세 및 시각에서 주제의 이미지를 생성할 수 있습니다. 논문인 Subject-Driven Generation을 위한 DreamBooth: Fine Tuning Text-to-Image Diffusion Models에서 자세한 정보를 찾을 수 있습니다. 이 글에서는 독특한 스포츠 카 디자인 스타일의 이미지를 생성하기 위해 DreamBooth를 사용하여 SDXL을 세밀 조정할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Hugging Face AutoTrain Advanced
 
@@ -41,7 +62,18 @@ AutoTrain Advanced를 사용하면 고급 사용자들이 작업 당 사용되�
 
 ## Amazon SageMaker Studio
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 AWS는 Amazon SageMaker Studio를 머신 러닝(ML)을 위한 웹 기반 통합 개발 환경(IDE)으로 설명합니다. 이를 통해 머신 러닝 모델을 구축, 훈련, 디버깅, 배포 및 모니터링할 수 있습니다. SageMaker Studio는 데이터 준비부터 실험 및 제품 생산까지 모델을 개발하는 데 필요한 모든 도구를 제공하며 생산성을 향상시킵니다. 이 게시물에서는 Studio의 Jupyter 노트북에서 ML 코드를 개발하고 실행하는 기능을 사용할 것입니다.
 
@@ -51,7 +83,18 @@ AWS는 Amazon SageMaker Studio를 머신 러닝(ML)을 위한 웹 기반 통합 
 
 # SDXL Base 및 Refiner 모델 사용하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, 우리는 세밀한 조정 없이 무엇을 생산할 수 있는지 SDXL 1.0 베이스 모델 (stabilityai/stable-diffusion-xl-base-1.0)을 살펴볼 것입니다. 또한 SDXL 1.0 리파이너 모델 (stabilityai/stable-diffusion-xl-refiner-1.0)도 사용할 거에요. 허깅 페이스에 따르면, SDXL은 잠재적 확산을 위한 "전문가 앙상블" 파이프라인으로 구성되어 있어요. 베이스 모델은 (잡음이 있는) 잠재요소를 생성하고, 이후 최종 제거 단계에 특화된 개선 모델로 추가로 처리됩니다. 베이스 모델은 리파이너 없이도 독립적인 모듈로 사용할 수 있어요.
 
@@ -59,7 +102,18 @@ PyTorch 기반 파이프라인은 CPU 또는 GPU 기반 인스턴스에서 실�
 
 기본적으로 AWS 계정에는 ml.g5.4xlarge와 같은 대규모 GPU 기반 아마존 세이지메이커 스튜디오 인스턴스에 액세스할 수 없어요. 이러한 인스턴스에 액세스하려면 AWS 서비스 할당량 콘솔을 사용하세요. 콘솔을 찾는 데 도움이 필요하면, 새로운 아마존 Q에게 간단히 물어보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-08-18-GenerativeAI-poweredProductConceptDesignonAWSFine-tuningStableDiffusionXLwithAmazonSageMaker_3.png" />
 
@@ -69,7 +123,18 @@ PyTorch 기반 파이프라인은 CPU 또는 GPU 기반 인스턴스에서 실�
 
 이제, SDXL 1.0 베이스와 리파인 모델로 구성된 확산 파이프라인을 사용하여 여러 이미지를 생성할 것입니다. 이 모델들을 사용하는 것이 처음이라면 Hugging Face로부터 다운로드할 것입니다. 연결에 따라 다소 시간이 걸릴 수 있습니다. 베이스 모델 파일은 약 14 GB, 리파이너는 약 12 GB입니다. Amazon SageMaker Studio에서 Hugging Face 모델은 /home/sagemaker-user/.cache/huggingface/hub 디렉토리에 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저 아래 코드에서 보이는 것처럼, 우리는 베이스 모델 추론 단계(80)와 리파이너 모델 추론 단계(20)의 4:1 비율을 사용하고 있음을 유의해 주세요. 다음 섹션에서 이 관계를 더 자세히 살펴볼 것입니다. 두 번째로, 파이프라인의 첫 번째 단계에서 SDXL 베이스 모델을 사용하여 잠재 이미지를 생성하고 있음을 주목해 주세요. 논문 "잠재 확산 모델을 활용한 고해상도 이미지 합성"에 따르면, LDMs로 이미지는 고주파, 지각하기 힘든 세부사항이 추상화된 효율적이고 저차원의 잠재 공간에 저장됩니다. 마지막으로, 베이스 모델과 리파이너 모델에 각각 다르게 적용된 양-음의 두 가지 다른 세트에 유의해 주세요.
 
@@ -79,7 +144,18 @@ PyTorch 기반 파이프라인은 CPU 또는 GPU 기반 인스턴스에서 실�
 
 ## 推론 단계
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인터넷에는 리파이너 모델의 유용성, 사용할 추론 단계수, 그리고 베이스와 리파이너 모델 추론 단계 비율에 대한 다양한 의견이 많이 있어요. 제가 Olivio Sarikas의 안정적인 디퓨전 팁을 모두 보기 위해 YouTube를 팔로우하고 있어요. Olivio는 SDXL - 최고의 빌드 + 업스케일러 + 단계 안내 비디오에서 베이스와 리파이너 모델 추론 단계의 80/20 비율을 추천하고 계셔요.
 
@@ -87,7 +163,18 @@ PyTorch 기반 파이프라인은 CPU 또는 GPU 기반 인스턴스에서 실�
 
 아래에서 두 개의 이미지 생성 테스트를 확인할 수 있어요. 모든 이미지는 베이스 모델을 100 단계로 사용하고 리파이너 모델을 다양한 추론 단계로 사용하여 생성되었어요. 왼쪽에서 오른쪽으로, 위에서 아래로, 추론 단계는 0, 5, 10, 25, 50 및 100이에요. 결과를 분석해보니, 저는 Olivio의 의견에 동의해요. 4:1 또는 심지어 5-6:1 비율이 최적이라고 생각해요. 제 경험상, 너무 많은 리파이너 단계는 이상한 이미지 이상점이나 특정 영역의 디테일 손실을 초래할 수 있어요. 이 게시물의 대부분 이미지는 베이스 모델의 추론 단계에 80-120 단계를 사용하고 리파이너 모델에 15-25 단계를 사용했어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-08-18-GenerativeAI-poweredProductConceptDesignonAWSFine-tuningStableDiffusionXLwithAmazonSageMaker_6.png)
 
@@ -97,7 +184,18 @@ PyTorch 기반 파이프라인은 CPU 또는 GPU 기반 인스턴스에서 실�
 
 아래는 베이스 모델을 파인튜닝하는 데 사용된 대략 20개의 이미지 중 일부입니다. 파인튜닝을 위해 이미지를 1024 x 1024 픽셀 정사각형으로 스케일링하고 잘라내는 것이 좋습니다. 그러나 768 x 768 및 512 x 512도 지원됩니다. 이미지를 스케일링하고 자르는 것이 파인튜닝에 필요한지에 대한 의견은 분분합니다. 저는 모델을 파인튜닝하기 위해 사용된 이미지를 가장 긴 길이가 1024 픽셀이 되도록 스케일링하여 매우 좋은 결과를 얻었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-08-18-GenerativeAI-poweredProductConceptDesignonAWSFine-tuningStableDiffusionXLwithAmazonSageMaker_7.png" />
 
@@ -107,7 +205,18 @@ Amazon SageMaker Studio에서는 Python 3.10 GPU 최적화 이미지와 Python 3
 
 ## Rare Tokens
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 미세 조정 작업을 위한 도전 과제는 확산 모델이 이미 '어휘'를 보유하고 있다는 것입니다. 미세 조정 시, 우리는 새로운 주제를 기존 어휘에 심어주려고 합니다. 그렇다면 새로운 주제를 어떻게 참조할까요? 희귀 토큰은 일반적인 기법 중 하나입니다. 논문 "DreamBooth: 주제 기반 생성을 위한 텍스트-이미지 확산 모델 미세 조정"의 저자들은 희귀 토큰 식별자로 주어진 주제(예: 고유한 스포츠카 디자인 스타일)를 나타내는 기술을 제안합니다. 우리는 입력 이미지와 텍스트 프롬프트로 텍스트-이미지 모델을 미세 조정하며, 이는 고유 식별자 뒤에 주제의 클래스 이름이 오는 고유 식별자가 포함된 텍스트 프롬프트를 사용합니다(예: "a sks dog"에서 "sks"가 희귀 토큰이고 "dog"가 클래스입니다). 목표는 모델의 파라미터 메모리에서 다른 주제와 강하게 연관되지 않은 희귀(드문) 토큰을 사용하는 것입니다. sks, oue, hta, hmv와 같은 희귀 토큰의 예로 "sks"가 있습니다. 희귀 토큰은 다음과 같이 인스턴스 프롬프트의 일부입니다.
 
@@ -115,7 +224,18 @@ Amazon SageMaker Studio에서는 Python 3.10 GPU 최적화 이미지와 Python 3
 
 게시물의 미세 조정 과정은 어댑터 가중치 파일인 pytorch_lora_weights.safetensors로 이어집니다. 제 테스트에서 나온 어댑터 가중치 파일의 크기는 약 23.4 MB였습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파인 튜닝된 SDXL 모델의 결과물을 확인할 수 있습니다. 동일한 프롬프트를 사용하여 일부 이미지를 생성했습니다:
 
@@ -125,7 +245,18 @@ Amazon SageMaker Studio에서는 Python 3.10 GPU 최적화 이미지와 Python 3
 
 # 파인 튜닝된 SDXL 모델을 사용한 이미지 생성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 핀튠 모델을 구현하는 데 사용된 코드의 주요 차이점은 diffusers.loaders.StableDiffusionXLLoraLoaderMixin 클래스에서 load_lora_weights 메서드를 사용하는 것입니다. 이 클래스는 SDXL에 특화된 LoRA 로딩/저장 코드를 포함하며 LoraLoaderMixin을 재정의합니다. Hugging Face 문서에 따르면 load_lora_weights 메서드는 pretrained_model_name_or_path_or_dict에 지정된 LoRA 가중치를 self.unet 및 self.text_encoder로 로드합니다.
 
@@ -135,8 +266,18 @@ Amazon SageMaker Studio에서는 Python 3.10 GPU 최적화 이미지와 Python 3
 
 아래는 핀튠 모델과 위의 프롬프트 변형을 사용하여 생성된 다양한 초기 제품 스케치 중 일부입니다. 생성된 스쿠터 디자인은 주로 전기 모터 스쿠터이며 킥스타일 전동 스쿠터보다 많습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-08-18-GenerativeAI-poweredProductConceptDesignonAWSFine-tuningStableDiffusionXLwithAmazonSageMaker_11.png)
 
@@ -146,9 +287,18 @@ Amazon SageMaker Studio에서는 Python 3.10 GPU 최적화 이미지와 Python 3
 
 아래에는 모델을 세밀하게 조정하고 위의 프롬프트 변형을 사용하여 생성된 많은 고도의 스타일화된 컬러 마커 렌더링 중 일부만 표시되어 있습니다. 이미지는 몇 가지 작은 프롬프트 변형을 사용하여 생성되었으며 원하는 룩 앤 필을 달성하도록 세밀하게 조정되었습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image 1](/assets/img/2024-08-18-GenerativeAI-poweredProductConceptDesignonAWSFine-tuningStableDiffusionXLwithAmazonSageMaker_12.png)
 
@@ -158,8 +308,18 @@ Below are additional colored marker renderings in a wide format (768 x 1024 pixe
 
 ## Generating Photorealistic Images
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 포토리얼리스틱 제품 프로토타이핑은 과거에는 고급 사진 편집 도구와 컴퓨터 지원 설계(CAD) 소프트웨어의 등장에도 불구하고 복잡하고 시간이 많이 걸리는 작업이었습니다. 그러나 최근에 발전한 생성적 AI 및 잠재 확산 모델로 빠른 포토리얼리스틱 제품 프로토타이핑이 가능해졌습니다.
 
@@ -169,7 +329,18 @@ Below are additional colored marker renderings in a wide format (768 x 1024 pixe
 
 <img src="/assets/img/2024-08-18-GenerativeAI-poweredProductConceptDesignonAWSFine-tuningStableDiffusionXLwithAmazonSageMaker_14.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 낮 시간 환경에서 생생한 도시의 야간 환경으로 손쉽게 이동할 수 있도록 우리의 프롬프트를 다시 조정해봅시다.
 
@@ -179,7 +350,18 @@ Below are additional colored marker renderings in a wide format (768 x 1024 pixe
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 포스트는 Stability AI의 최신 SDXL 1.0 베이스 및 리파이너 모델의 생성 AI를 활용하는 방법을 살펴보았어요. 특히 제품 디자인 개념화를 위한 텍스트에서 이미지로, 이미지에서 이미지로의 생성 및 세부 조정 기능에 중점을 두었답니다. 저희는 기존의 고급 스포츠카에서 영감을 받아 새로운 전기 모터 스쿠터 컨셉을 개발했어요. 또한, 구글 리서치의 DreamBooth와 Hugging Face의 AutoTrain을 사용하여 SDXL을 해당 고유한 스포츠카 스타일로 세부 조정하는 방법도 배웠답니다. 마지막으로, 세밀하게 조정된 SDXL 모델과 고급 프롬프팅 기술을 사용하여 제품 스케치, 마커 렌더링, 사실적인 제품 모의도를 빠르게 여러 가지 변형으로 만들어내었어요. 다음에는 아마도 우리가 세밀하게 조정된 모델을 사용하여 청소기, 게이밍 워크스테이션, 잔디깎이, 물병 또는 심지어 보트를 디자인할지도 몰라요!
 
@@ -189,7 +371,18 @@ Below are additional colored marker renderings in a wide format (768 x 1024 pixe
 
 이 블로그는 제 의견을 대표하며, 제 고용주인 Amazon Web Services (AWS)의 의견은 아니에요. 모든 제품 이름, 로고 및 브랜드는 각 소유자의 재산입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # PlainEnglish.io 🚀
 

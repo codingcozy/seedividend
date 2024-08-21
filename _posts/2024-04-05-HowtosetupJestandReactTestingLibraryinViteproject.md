@@ -3,17 +3,13 @@ title: "Vite 프로젝트에서 Jest와 React Testing Library 추가하기"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How to setup Jest and React Testing Library in Vite project"
 link: "https://medium.com/@zaferayan/how-to-setup-jest-and-react-testing-library-in-vite-project-2600f2d04bdd"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/HowtosetupJestandReactTestingLibraryinViteproject_0.png)
 
@@ -23,7 +19,18 @@ Create Vite App으로 만든 React 프로젝트에는 기본적으로 테스트�
 
 # 지시사항
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 1- 다소 복잡한 테스트를 위해 App.jsx를 아래와 같이 변경하세요
 
@@ -95,7 +102,18 @@ describe("App", () => {
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // App.snapshot.test.js
@@ -119,7 +137,18 @@ module.exports = {
 
 4- package에 jest를 추가하고 package.json에 추가하십시오.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 yarn add -D jest
@@ -141,14 +170,22 @@ yarn add -D jest
 yarn add -D @babel/preset-env @babel/preset-react
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```json
 {
-  "presets": [
-    "@babel/preset-env",
-    ["@babel/preset-react", { "runtime": "automatic" }]
-  ]
+  "presets": ["@babel/preset-env", ["@babel/preset-react", { "runtime": "automatic" }]]
 }
 ```
 
@@ -160,7 +197,18 @@ yarn add -D @testing-library/react @testing-library/jest-dom
 
 8- SVG 및 CSS 파일 지원을 위해 jest-svg-transformer와 identity-obj-proxy를 추가하세요. 그런 다음 package.json의 jest 구성 내부에 moduleMapper를 추가하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 yarn add -D jest-svg-transformer identity-obj-proxy
@@ -181,7 +229,18 @@ yarn add -D jest-svg-transformer identity-obj-proxy
 yarn add -D jest-environment-jsdom
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 "jest": {
@@ -202,7 +261,18 @@ yarn add -D jest-environment-jsdom
 yarn add -D jest-environment-jsdom
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```javascript
 // setupTests.js
@@ -217,7 +287,18 @@ yarn add -D react-test-renderer
 
 12- 이제 `yarn test`로 테스트를 시작할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 yarn test
@@ -229,6 +310,17 @@ Jest와 React Testing Library를 추가하는 것은 때로는 어렵고 복잡�
 
 이 글의 일부 내용이 누락되거나 잘못된 부분이 있다면 언제든지 연락해주세요. 다음 포스트에서 다시 만나요...
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![gif](https://miro.medium.com/v2/resize:fit:292/1*XgvN44MURD-eGdm00Yj03g.gif)

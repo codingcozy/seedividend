@@ -3,15 +3,13 @@ title: "JAX를 배워야 하는 이유 분자동역학 적용 사례 소개"
 description: ""
 coverImage: "/assets/img/2024-07-07-WhyYouShouldLearnJAXAMolecularDynamicsShowcase_0.png"
 date: 2024-07-07 12:50
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-WhyYouShouldLearnJAXAMolecularDynamicsShowcase_0.png
 tag: Tech
 originalTitle: "Why You Should Learn JAX: A Molecular Dynamics Showcase"
 link: "https://medium.com/@hghcomphys/why-you-should-learn-jax-a-molecular-dynamics-showcase-f7e79b58be01"
 isUpdated: true
 ---
-
-
 
 파이썬 스크립트를 최적화하기 위해 PyTorch에 실망한 후 JAX를 사용하기 시작했습니다. 내 프로젝트는 주로 두 가지 주요 구성 요소로 이루어져 있었습니다: 원자 위치를 기반으로 설명자를 계산하고 이러한 설명자를 여러 신경망에 입력으로 사용하여 입자 시스템의 총 잠재 에너지와 힘을 예측하는 것이었습니다. 신경망 부분은 충분히 빠르지만, 특히 TorchScript를 사용한 후에도 설명자 계산, 특히 그래디언트 평가는 효율적으로 수행되지 않았습니다. 자동 미분을 지원하는 Python의 대체 프레임워크를 찾던 중 JAX를 발견했습니다. (물리학적인) 머신러닝 모델을 구축하는 데 매우 효과적이었고 필요한 유연성과 성능을 모두 제공했습니다.
 
@@ -21,7 +19,18 @@ PyTorch를 사용하는 데 이의를 제기하는 것은 없습니다. 사실, 
 
 JAX는 자동 미분(autodiff), Just-In-Time (JIT) 컴파일, GPU 가속 컴퓨팅 및 벡터화된 계산 지원을 포함한 제 요구 사항과 완벽하게 일치하는 기능 세트를 제공했습니다. 게다가 JAX는 기능적 프로그래밍 패러다임과 일치하는 방법으로 가변성을 처리합니다. 이 게시물을 통해 JAX를 사용한 제 경험을 공유하고 여러분이 자신의 프로젝트에 JAX를 탐구하고 활용할 동기부여를 제공하는 것이 제 목표입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 필수 패키지
 
@@ -37,7 +46,18 @@ JAX는 자동 미분(autodiff), Just-In-Time (JIT) 컴파일, GPU 가속 컴퓨�
 
 JAX는 시스템의 GPU를 자동으로 사용하며, 이용할 수 없을 경우 CPU를 사용합니다. 또한 JAX_PLATFORM_NAME 환경 변수를 미리 조정하여 연산 장치를 수동으로 설정할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기본적으로 JAX는 플로트32 데이터 유형을 사용하며, 이는 싱글 포인트 정밀도를 나타냅니다. 그러나 과학 시뮬레이션에서는 높은 정확성을 위해 더블 정밀도 플로트64가 필요합니다. 개선된 계산 성능을 위해 가능한 한 낮은 정밀도를 선택하고 메모리 사용량을 줄이는 것이 권장됩니다(약 2배 정도).
 
@@ -54,7 +74,18 @@ import jax
 
 간단한 예제의 경우 기본 float32 정밀도를 사용하지만 분자 동역학을 시연할 때는 더블 정밀도를 사용할 것입니다. 또한, 이 글에서 모든 계산은 명시적으로 다른 장치가 명시되지 않는 한 제 노트북의 GeForce MX130 GPU에서 실행됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에서 안내한 단계를 따르면이 포스트에서 다룬 예제를 재현하는 데 필수 도구를 제공받을 수 있습니다. 시작해 봅시다!
 
@@ -64,7 +95,18 @@ JAX는 JIT 컴파일, 가속 컴퓨팅 및 자동 미분을 통해 고성능 수
 
 일부 사람들은 JAX를 단순히 멀티스레드 NumPy 라이브러리로 설명하지만, 저는 그렇지 않다고 주장합니다. 그 이상의 기능을 제공합니다. 후속 섹션에서는 제 프로젝트 개발에 중요한 역할을 한 JAX의 주요 기능 몇 가지를 소개하겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## I. JIT 컴파일
 
@@ -83,7 +125,18 @@ def kernel(x):
   return result.sum()
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 랜덤 입력 배열을 생성하고 JIT 컴파일 없이 구현된 함수 호출의 실행 시간을 측정해 봅시다.
 
@@ -102,7 +155,18 @@ x = jax.random.normal(jax.random.key(2024), shape=(100_000, ))
 
 JAX는 비동기 디스패치를 사용하므로, JAX 배열에 block_until_ready() 메서드를 호출하면 해당 배열이 계산을 완료할 때까지 Python 프로그램 실행이 차단됩니다. 계산 시간의 마이크로 벤치마킹을 작성할 때 이것을 권장합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 보고된 결과인 2.34 ms ± 134 µs per loop은 각각 100번 실행되는 7회의 실행을 기반으로 한 루프 당 평균 소요 시간 및 표준 편차를 나타냅니다.
 
@@ -123,7 +187,18 @@ jitted_kernel = jax.jit(kernel)
 
 JIT 함수에 대한 웜업 호출은 일반적으로 속도를 평가하기 전에 컴파일하고 최적화하는 목적으로 실행됩니다. 함수 구현이 직관적하기 때문에 이 단계를 생략했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 컴파일된 함수는 JIT 컴파일을 통해 심각한 성능 향상을 이루며, 컴파일되지 않은 버전보다 29배 빠르게 실행됩니다. 이 JAX 기능은 고성능 Python 함수를 작성할 수 있도록 돕습니다.
 
@@ -133,7 +208,18 @@ JIT 함수에 대한 웜업 호출은 일반적으로 속도를 평가하기 전
 
 자동 미분은 JAX의 핵심 기능으로, 기울기를 계산하는 프로세스를 단순화하고 가속화합니다. JAX는 여러 가지 함수를 제공하여 미분을 수행하며, 가장 두드러진 함수는 입력 변수에 대한 스칼라 값 함수의 기울기를 계산하는 jax.grad입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전 예제 커널을 고려해 봅시다. jax.grad를 사용하여 다음 코드를 통해 간단히 각 입력에 대한 출력의 기울기를 계산할 수 있습니다.
 
@@ -164,7 +250,18 @@ jitted_gradient_kernel = jax.jit(gradient_kernel)
 192 µs ± 37.7 µs per loop (mean ± std. dev. of 7 runs, 1 loop each)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 분자 시뮬레이션 맥락에서, 물리적 시스템 내 이차력은 총 포텐셜 에너지 함수의 그래디언트에서 얻어집니다. 이 관계는 자동 미분의 중요성을 강조하는데, 이를 통해 힘의 구성요소를 정확하고 효율적으로 계산할 수 있는 수단을 제공합니다. 자동 미분을 사용함으로써, 포텐셜 에너지 함수의 필요한 도함수를 정확하게 계산하여 힘의 구성요소가 고정밀로 결정되도록 할 수 있습니다.
 
@@ -174,7 +271,18 @@ jitted_gradient_kernel = jax.jit(gradient_kernel)
 
 jax.vmap 변환은 함수의 벡터화된 구현을 자동으로 생성하여 배열에 대해 함수를 병렬 및 효율적으로 적용하는 것을 쉽게 만듭니다. 또한 명시적인 루프가 필요 없어지므로 코드를 간소화시킵니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 예시를 통해 위치 벡터 배열 간의 거리를 계산하는 방법이 얼마나 중요한지 살펴보겠습니다. 원자들 간의 거리를 결정하는 것은 분자 시뮬레이션에서 잠재 에너지를 평가하는 데 필수적입니다. 두 개의 배열 x와 y가 있다고 가정해보겠습니다. 각각은 일련의 원자들을 위한 위치 벡터를 포함하고 있습니다. 두 배열 모두 차원이 (natoms, 3)인데, 여기서 natoms은 원자의 수를 나타내고 배열의 각 벡터는 원자의 3D 좌표를 포함합니다. 우리의 목표는 이러한 배열에서 각각의 벡터 쌍 간의 거리를 포착하는 거리 행렬을 계산하는 것입니다. 아래 함수는 두 입력 배열 간의 이러한 거리 행렬을 반환합니다:
 
@@ -194,7 +302,18 @@ def calculate_distances(x, y):
 
 이 프로세스는 JAX에서 자동적으로 효율적으로 vectorize될 수 있습니다. jax.vmap을 사용하면 입력 배열의 첫 번째 인덱스를 효율적으로 처리하도록 일관되게 작동하는 함수로 단일 특정 지점에서 작동하는 함수를 변환할 수 있습니다. 이러한 기능을 실행하기 위해 먼저 한 지점을 처리하는 함수를 정의한 다음 jax.vmap을 사용하여 입력 배열의 첫 번째 인덱스에 대해이 함수를 일괄 처리하도록 일반화하여 루프 없이 일괄 처리에 대한 효율적인 계산을 가능하게 합니다. 이 방식은 코드를 단순화하는 데 도움이 되며 빠른 실행을 위해 JAX의 최적화 기능을 활용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 import jax
@@ -224,7 +343,18 @@ assert jnp.allclose(
 )
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그럼에도 불구하고, 매핑된 함수의 성능은 벡터화가 더 잘 되어있기 때문에 크게 향상되었습니다. 또한 구현이 더 읽기 쉽습니다. 시간 프로필링 결과는 다음과 같이 이러한 차이점을 분명히 보여줍니다:
 
@@ -248,7 +378,18 @@ jitted_vmapped_calculate_distances = jax.jit(vmapped_calculate_distances)
 Speed up: 1558x
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 조합은 JAX의 고급 최적화 기법을 최대한 활용하여 계산의 효율성을 극대화합니다. 이 글에서 이에 대해 논의하고자 합니다.
 
@@ -258,7 +399,18 @@ Speed up: 1558x
 
 문서에서 명확하고 명확하게 정의된 코드 예제는 종종 복잡한 문제에 대처할 때 단점이 됩니다. 더욱 심각한 문제와 상호작용하는 것은 항상 우리의 이해력을 향상시키고 최적화된 응용 프로그램을 개발하기 위해 고급 기능을 활용할 수 있게 만들어줍니다. 분자 시뮬레이션의 복잡한 세부 사항에 심취하지 않아도 이 쇼케이스가 도움이 되었으면 좋겠습니다. 그 세부 전문 지식을 요구하는 분야에 대한 이해를 강조하기 위해 간단한 원자 시스템에 초점을 맞추어 JAX 스크립트 최적화에 필요한 주요 기능을 강조하기로 결정했습니다. 이 예는 기본 도메인 지식에 대한 더 명확한 이해를 용이하게 하기 위해 일부러 단순하게 유지되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## MD 시뮬레이션이란?
 
@@ -268,7 +420,18 @@ MD 시뮬레이션의 중요한 부분은 힘 필드(force field)입니다. 이�
 
 ## 초기 구조
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 MD 시뮬레이션을 시작하려면 일반적으로 원자의 위치와 속도가 실험 구조나 무작위로 생성된 배열과 같은 특정 구성을 기반으로 초기화됩니다. 따라서 아래 코드는 ASE 패키지를 사용하여 헬륨 원자들의 간단한 입방격자 구조를 생성하고, JAX 배열에서 원자 좌표 및 관련 정보를 저장하는 컨테이너인 Pantea에 해당 구조를 만듭니다:
 
@@ -288,7 +451,18 @@ view(atoms=initial_structure.to_ase(), viewer='ngl')
 
 ## 레너드-존스 힘장력
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 원자 간 상호 작용을 설명하기 위한 간단한 힘장 중 하나는 Lennard-Jones (LJ)입니다. 이는 약한 분자간 인력과 척력을 모델링하는 데 특히 유용합니다. 우리는 주어진 입력 구조에 대해 총 Lennard-Jones 포텐셜 에너지와 힘 성분을 계산하는 잠재 클래스를 정의해 보겠습니다.
 
@@ -336,7 +510,18 @@ LJPotentialParams는 Lennard-Jones 포텐셜을 위해 두 가지 필수 매개�
 
 LJPotential 클래스는 입력 구조를 가져와 필수 인자를 두 내부 커널 함수인 \_compute_total_energy와 \_compute_forces로 전달하여 원하는 물리적 양을 계산하고 반환하는 역할을 실제로 담당합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 흥미로운 부분은 JAX 기능을 활용하여 함수를 최적화하는 것입니다. 다음으로, 에너지와 힘 계산의 핵심인 커널에 대해 별도로 설명하겠습니다.
 
@@ -347,7 +532,18 @@ LJPotential 클래스는 입력 구조를 가져와 필수 인자를 두 내부 
 
 ![equation](/assets/img/2024-07-07-WhyYouShouldLearnJAXAMolecularDynamicsShowcase_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 V(r)은 두 입자 간의 거리 r의 함수로 표현되는 포텐셜 에너지이다. ε 매개변수는 인력의 강도를 나타내는 포텐셜 우물의 깊이를 의미한다. σ 매개변수는 상호작용하는 입자 간의 포텐셜이 제로가 되는 유한 거리로, 원자의 유효 지름을 나타낸다. 첫 번째 항은 보통 더 긴 범위에서 우세한 인력적 반 데르 발스 힘을 설명하고, 두 번째 항은 매우 짧은 거리에서 겹치는 전자 궤도 때문의 폴리 원자간 척반을 설명한다. rcut은 포텐셜이 제로로 간주되는 거리 범위를 나타내는 절단 반경이다. 일반적으로 상호작용 범위를 제한하여 효율성과 물리적 정확성을 향상시키기 위해 절단이 사용된다.
 
@@ -357,7 +553,18 @@ N 입자로 이루어진 시스템의 총 포텐셜 에너지 U는 모든 입자
 
 여기서, rij는 입자 i와 입자 j 사이의 거리이다. 각 입자 쌍이 한 번만 고려되도록 해야 하며 (중복 계산 없음), 자기 상호작용은 무시해야 한다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 구현
 아래의 Python 코드는 원자 쌍 간의 Lennard-Jones 포텐셜 에너지를 계산하는 함수를 정의합니다.
@@ -373,7 +580,18 @@ def _compute_pair_energies(params: LJPotentialParams, r: Array) -> Array:
 
 다음으로, 우리는 아래와 같이 원자 시스템의 총 Lennard-Jones 포텐셜 에너지를 계산하기 위한 JIT 컴파일된 함수를 정의합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import jax
@@ -401,7 +619,18 @@ def _compute_total_energy(
 
 jnp.where는 masks를 적용하여 cutoff 거리 밖에 있는 원자 쌍에 대한 에너지를 0으로 설정하는 데 사용됩니다. 이 메서드는 루프를 사용하지 않고 배열에 조건부 논리를 효율적으로 적용합니다. np.where는 내부적으로 고도로 최적화된 C 코드로 구현되어 있습니다. 한꺼번에 전체 배열에 작용하여 벡터화된 작업을 수행할 수 있는 JAX의 능력을 활용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 총 에너지는 jnp.sum을 사용하여 반환됩니다. 각 쌍의 상호 작용이 두 번 계산되기 때문에 0.5를 곱하여 계산합니다. 각 쌍이 두 번 고려되기 때문에 0.5를 곱해서 각 쌍의 상호 작용을 총 에너지로 계산합니다.
 
@@ -411,7 +640,18 @@ jnp.where는 masks를 적용하여 cutoff 거리 밖에 있는 원자 쌍에 대
 
 아래 예시 코드는 1000개의 원자를 포함하는 입력 구조체에 대한 총 포텐셜을 계산하는 방법과 예상 실행 시간을 보여줍니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 ljpot(initial_structure)
@@ -428,7 +668,18 @@ ljpot(initial_structure)
 
 <img src="/assets/img/2024-07-07-WhyYouShouldLearnJAXAMolecularDynamicsShowcase_4.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 rij = ri — rj은 j 입자에서 i 입자를 가리키는 벡터를 나타냅니다. 우리는 힘에 대한 cutoff도 적용합니다. 입자 i에 작용하는 총 힘을 계산할 때, 다른 모든 입자 j로부터의 기여를 합산합니다:
 
@@ -439,7 +690,18 @@ rij = ri — rj은 j 입자에서 i 입자를 가리키는 벡터를 나타냅�
 구현
 아래 코드는 Equation 3을 사용하여 원자 쌍 간의 힘을 계산합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 def _compute_pair_forces(params: LJPotentialParams, r: Array, R: Array) -> Array:
@@ -455,7 +717,18 @@ jnp.expand_dims(factor, axis=-1) \* R: 상대적인 위치 벡터 R을 계산된
 
 다음으로, 우리는 다음과 같이 방정식 4를 사용하여 총 힘을 계산합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 @jax.jit
@@ -483,7 +756,18 @@ def _compute_forces(
 
 jnp.where 함수는 마스크가 True일 때에만 계산된 페어 힘을 적용합니다. jnp.expand_dims(masks, axis=-1)는 브로드캐스팅을 위해 마스크 차원이 Rij와 일치하도록 합니다. 마스크가 False일 때는 0 힘 벡터를 할당합니다 (jnp.zeros_like(Rij)). 또한 JAX는 오버헤드를 줄이기 위해 메모리 풀을 사용하므로 제로 크기 벡터를 할당하는 것은 계산적으로 비용이 크지 않습니다. 배열에 대한 참조 재할당은 OS로부터 실제 메모리 할당이 포함되지 않기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막으로, jnp.sum(pair_forces, axis=1)를 반환하면 각 원자에 작용하는 총 힘을 계산하여 모든 다른 원자를 고려합니다.
 
@@ -502,7 +786,18 @@ ljpot.compute_forces(initial_structure)
 지금까지 잘 진행되고 있어요!
 여기까지 우리는 MD 시뮬레이션에 필요한 Lennard-Jones 포텐셜의 JAX 버전을 구현했습니다. 다음 단계는 이 포텐셜과 초기 구조를 사용하여 시스템을 시간에 따라 시뮬레이션하는 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 분자동력학 시뮬레이션
 
@@ -521,7 +816,18 @@ thermostat = BrendsenThermostat(               # 온도 제어
 simulator = MDSimulator(time_step, thermostat)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로, 우리는 사실 원자들과 그들 사이의 상호 작용을 단순히 표현한 시스템을 만들 것입니다. 이 시스템은 원자의 위치, 속도, 그리고 상호 작용 매개 변수와 같은 정보를 포함합니다. 입력 구조로부터 시스템을 다음과 같이 생성할 수 있습니다:
 
@@ -544,7 +850,18 @@ from pantea.simulation import simulate
 simulate(system, simulator, num_steps=10000, output_freq=1000)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 num_steps=10000: 이 매개변수는 수행할 총 시뮬레이션 단계의 수를 설정합니다. 각 단계는 일반적으로 시뮬레이션된 시간의 작은 증가에 해당하며 해당 기간 동안 원자의 위치와 속도가 업데이트됩니다.
 
@@ -554,7 +871,18 @@ output_freq=1000: 이 매개변수는 시뮬레이션 결과를 얼마나 자주
 
 ![링크 텍스트](/assets/img/2024-07-07-WhyYouShouldLearnJAXAMolecularDynamicsShowcase_6.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 그림은 주기 상자 내의 1000개 헬륨 원자를 사용한 MD 시뮬레이션의 시간 진화를 설명합니다:
 
@@ -565,7 +893,18 @@ output_freq=1000: 이 매개변수는 시뮬레이션 결과를 얼마나 자주
 
 ![그림](/assets/img/2024-07-07-WhyYouShouldLearnJAXAMolecularDynamicsShowcase_7.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저는 노트북 CPU와 더 강력한 GPU인 A100에서 동일한 MD 시뮬레이션을 수행했습니다. 결과는 GPU 계산으로 인한 상당한 속도 향상을 보여줍니다. GPU 하드웨어 사용의 중요성을 강조하기 위해 원자가 2000개인 시스템을 시뮬레이션했습니다. JAX의 훌륭한 기능 중 하나는 원본 코드를 수정하지 않고 CPU에서 GPU로 코드 실행을 원활하게 전환할 수 있다는 것이며, 이는 상당한 시간과 노력을 절약할 수 있습니다.
 
@@ -575,7 +914,18 @@ output_freq=1000: 이 매개변수는 시뮬레이션 결과를 얼마나 자주
 
 # 마무리
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 게시물이 여러분의 호기심을 자극하고 JAX를 탐구하고 배우며 여러분의 프로젝트에 적용하는 데 도움이 되기를 바랍니다.
 

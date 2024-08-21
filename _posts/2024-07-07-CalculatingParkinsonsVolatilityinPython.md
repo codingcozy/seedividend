@@ -3,15 +3,13 @@ title: "파이썬으로 파킨슨 변동성 계산하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-07-CalculatingParkinsonsVolatilityinPython_0.png"
 date: 2024-07-07 02:29
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-CalculatingParkinsonsVolatilityinPython_0.png
 tag: Tech
 originalTitle: "Calculating Parkinson’s Volatility in Python"
 link: "https://medium.com/@kaabar-sofien/calculating-parkinsons-volatility-in-python-477ec5f13a1b"
 isUpdated: true
 ---
-
-
 
 ![Parkinson’s volatility](/assets/img/2024-07-07-CalculatingParkinsonsVolatilityinPython_0.png)
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 # 파킨슨 변동성 이해하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 복잡한 변동성 모델을 논의하기 전에, 항상 역사적 표준편차라는 가장 기본적인 변동성 모델(또는 계산)을 완전히 이해하는 것이 좋습니다. 역사적 메소드를 사용한 표준편차는 과거 가격 데이터를 기반으로 금융 상품의 변동성을 측정하는 일반적인 방법입니다.
 

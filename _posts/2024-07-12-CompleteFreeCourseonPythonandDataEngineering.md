@@ -3,16 +3,13 @@ title: "완전 무료 강좌 Python과 데이터 엔지니어링 완벽 가이�
 description: ""
 coverImage: "/assets/img/2024-07-12-CompleteFreeCourseonPythonandDataEngineering_0.png"
 date: 2024-07-12 20:16
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-12-CompleteFreeCourseonPythonandDataEngineering_0.png
 tag: Tech
 originalTitle: "Complete Free Course on Python and Data Engineering"
 link: "https://medium.com/@dataakkadian/complete-free-course-on-python-and-data-engineering-716bb9c94417"
 isUpdated: true
 ---
-
-
-
 
 파이썬에는 네 가지 복잡한 유형이 있습니다: 리스트, 튜플, 세트 및 사전이 있습니다. 각각에 대해 별도로 이야기하고 실제 예제를 제공하겠습니다.
 
@@ -25,20 +22,40 @@ isUpdated: true
 - 인덱스는 0부터 시작합니다.
 - 순서가 있고 중복된 요소가 있습니다. append, remove 및 수정과 같은 연산이 가능합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 코드는 실제 예시입니다:
 
-
 ![image](/assets/img/2024-07-12-CompleteFreeCourseonPythonandDataEngineering_0.png)
-
 
 # 튜플:
 
 - 변경할 수 없는 데이터입니다.
 - 변경할 수 없는 리스트로 사용될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 tuple = (1, 2, 3, 4, 5, "b", "c", "d")
@@ -52,8 +69,18 @@ city, year, pop, chg, area = ('Tokyo', 2003, 32_450, 0.66, 8014)
 
 아래 코드는 실제 예시입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Course Image](/assets/img/2024-07-12-CompleteFreeCourseonPythonandDataEngineering_1.png)
 
@@ -67,9 +94,18 @@ city, year, pop, chg, area = ('Tokyo', 2003, 32_450, 0.66, 8014)
 
 The code below is a practical example:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-12-CompleteFreeCourseonPythonandDataEngineering_2.png)
 
@@ -81,14 +117,24 @@ The code below is a practical example:
 - 데이터를 효율적으로 조회한다.
 - 키로 접근한다.
 - 파이썬에서 딕셔너리는 해시 테이블로 구현된다.
-- 키는 해시 가능한 객체여야 한다. 적절한 __hash__ 및 __eq__ 메서드를 구현해야 한다.
+- 키는 해시 가능한 객체여야 한다. 적절한 **hash** 및 **eq** 메서드를 구현해야 한다.
 - 키에 의한 항목 접근은 매우 빠르다. 딕셔너리에 수백만 개의 키가 있을 수 있지만, 파이썬은 키의 해시 코드를 계산하고 해시 테이블에 대한 색인 오프셋을 파생하여 키를 직접 찾을 수 있으며 일치하는 항목을 찾기 위해 소수의 시도를 하게 된다.
 - Python 3.7부터 dict 내장의 새로운 개선 사항은 다음과 같다: 사전 객체의 삽입 순서 보존 속성은 파이썬 언어 사양의 공식 부분으로 선언되었다. 이는 더 이상 OrderedDict가 필요하지 않다는 것을 의미한다. 거의 똑같다.
 
 ![이미지](/assets/img/2024-07-12-CompleteFreeCourseonPythonandDataEngineering_3.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # NumPy Arrays:
 
@@ -104,7 +150,18 @@ The code below is a practical example:
 
 세트는 어떻게 구현되었나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Dict 대 OrderedDict
 
@@ -114,7 +171,18 @@ Dict은 파이썬의 해시 테이블입니다.
 
 # 감사 노트:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 각자의 시간을 내어 저의 글을 읽어 주셔서 감사의 말씀 전하고 싶습니다. 여러분의 지지와 참여는 저에게 너무나 소중하며, 이 멋진 청중과 제 생각과 통찰을 나눌 수 있는 기회에 진심으로 감사드립니다. 여러분의 팔로우는 저에게 가치 있는 내용을 만들기 위해 더 나은 자아를 추구하도록 영감을 줍니다. 오랜 구독자이든 새로 오신 독자이든, 여러분의 존재가 중요하며, 지지에 깊은 감사를 표합니다. 여러분과 공감되고 영감을 주는 고품질 글을 제공하기 위해 헌신할 것입니다. 여러분의 피드백과 댓글은 글쓰기에 대한 열정을 불어 넣어주고, 지속적인 성장을 동기부여합니다. 이 청중의 일원으로 함께해 주셔서 감사합니다. 여러분이 제 커뮤니티의 일원으로 있어 기쁘게 생각하며, 미래에도 여러분과 여러 새로운 아이디어를 공유하기를 기대합니다.
 

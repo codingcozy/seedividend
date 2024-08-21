@@ -3,16 +3,13 @@ title: "파이썬 장고에서의 디자인 원칙"
 description: ""
 coverImage: "/assets/img/2024-06-20-DesignPrinciplesinPythonDjango_0.png"
 date: 2024-06-20 02:11
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-DesignPrinciplesinPythonDjango_0.png
 tag: Tech
 originalTitle: "Design Principles in Python Django"
 link: "https://medium.com/django-unleashed/design-principles-in-python-django-3011d6cee547"
 isUpdated: true
 ---
-
-
-
 
 파이썬에서의 디자인 원칙은 다른 프로그래밍 언어와 마찬가지로 깔끔하고 유지보수가 용이하며 효율적인 코드를 만드는 데 도움이 됩니다. 다음은 몇 가지 주요 디자인 원칙과 예시입니다:
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 코드의 중복을 피하기 위해 반복되는 패턴을 함수나 클래스로 추상화합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 장고는 ORM, 폼 및 관리자 인터페이스를 통해 DRY 원칙을 자연스럽게 촉진합니다.
 
@@ -51,7 +59,18 @@ class BalanceSerializer(serializers.ModelSerializer):
         fields = ['id', 'total_balance']
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 2. KISS (Keep It Simple, Stupid)
 
@@ -61,7 +80,18 @@ Django의 설계 철학은 간결성과 가독성을 강조합니다.
 
 ## 예시: Django Rest Framework의 일반 뷰 사용
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 복잡한 뷰 로직을 작성하는 대신, DRF의 일반적인 뷰를 사용하여 객체 생성, 검색 및 목록을 처리할 수 있어요.
 
@@ -96,7 +126,18 @@ class BalanceListView(generics.ListCreateAPIView):
 
 필요할 때까지 기능을 추가하지 마세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 현재 요구 사항에 주안점을 두세요. 미래의 가능성에 집중하기보다는 현재의 요구 사항을 중심으로 작업하세요.
 
@@ -116,7 +157,18 @@ class User(AbstractUser):
         return self.username
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 4. 역할의 분리
 
@@ -126,7 +178,18 @@ class User(AbstractUser):
 
 ## 예시: 뷰에서 비즈니스 로직 분리
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비즈니스 로직은 뷰가 아닌 모델이나 서비스에 유지하는 것이 좋습니다.
 
@@ -152,7 +215,7 @@ class DKModel(models.Model):
 
     def hard_delete(self, *args, **kwargs):
         super().delete(*args, **kwargs)
-        
+
                       ....
 
 # views.py
@@ -207,7 +270,18 @@ urlpatterns = [
 
 SOLID은 소프트웨어 디자인을 더 이해하기 쉽고 유연하며 유지보수하기 쉽도록 하는 다섯 가지 디자인 원칙을 의미하는 머릿글자입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## S: 단일 책임 원칙 (SRP)
 
@@ -284,7 +358,18 @@ class Balance(models.Model):
 
 ## O: 개방/폐쇄 원칙 (OCP)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 소프트웨어 엔티티들은 확장에는 열려 있지만 수정에는 닫혀 있어야 합니다.
 
@@ -306,7 +391,18 @@ class AuthMiddleware(BaseMiddleware):
 
 슈퍼클래스의 객체는 서브클래스의 객체로 대체할 수 있어야 하며, 프로그램의 정확성에 영향을 주지 않아야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # models.py
@@ -364,7 +460,18 @@ class MyView(CreateMixin, ReadMixin, View):
         return JsonResponse({'message': '데이터 조회 중'})
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## D: 의존 역전 원칙 (DIP)
 

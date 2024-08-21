@@ -3,16 +3,13 @@ title: "안톤 체호프처럼 글을 쓰는 방법"
 description: ""
 coverImage: "/assets/img/2024-05-17-HowtowritelikeAntonChekhov_0.png"
 date: 2024-05-17 21:44
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-17-HowtowritelikeAntonChekhov_0.png
 tag: Tech
 originalTitle: "How to write like Anton Chekhov"
 link: "https://medium.com/@antonkutselyk/how-to-write-like-anton-chekhov-8a98cd745aea"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-05-17-HowtowritelikeAntonChekhov_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 체호프가 사랑 만들기에는 능숙했는지는 모르겠지만, 확실히 단어에 대해 재치 있었죠. 그의 글은 지혜, 의미, 그리고 생각으로 수백만 명의 마음을 임신시켰어요 — 그리고 아직도 임신시키고 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 음, 그것이다. 나의 체호프에 대한 사랑의 세레나데는 여기까지야. 이제, 대단한 작가가 되기 위해 체호프를 알 필요는 없어. 그런 것들을 하면 체호프의 스타일을 따라하는 좋은 모방가가 되겠지. 우리 작가들은 독창적이고 독특하고자 하잖아, 그렇지?
 
@@ -32,7 +40,18 @@ isUpdated: true
 
 어떻게 안톤 체호프처럼 쓰는 거야?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 레슨 1 - 짧은 이야기 쓰기
 
@@ -42,7 +61,18 @@ isUpdated: true
 
 단어 수로 쓰지 말고, 가능한 한 적은 단어로 의미와 내용을 쓰세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 체호프처럼 쓰려면 무엇을 읽어야 할까요? — 간략하고 의미 있게 말하자면?
 
@@ -54,7 +84,18 @@ isUpdated: true
 
 # 레슨 두 — 연극 쓰기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위리엄 셰익스피어의 말을 인용하면, “모든 세상은 무대이며,
 그 위에서 모든 남자와 여자는 단지 배역자일 뿐이다.” 이 말은 체호프를 생각할 때 아주 적절합니다. 안톤 파블로비치는 인간 영혼의 진정한 본성을 드러내는 대가로, 무대보다 더 좋은 무대가 무엇이 있겠습니까? 네, 체호프는 많은 연극을 썼으며, 그 대부분은 유머와 비극이 어우러진, 인간 경험의 갈등 속에 묻혀 있는 연극입니다.
@@ -65,9 +106,18 @@ isUpdated: true
 
 ## 체호프처럼 쓰는 방법 — 재미있게 그리고 생동감 있게 읽을 것들은?
 
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-<div class="content-ad"></div>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - "The Cherry Orchard" — 러시아 제국의 몰락을 예견하는 작품입니다.
 - "Three Sisters" — 존재의 부담과 결코 오지 않는 삶을 예견하는 작품입니다.
@@ -79,7 +129,18 @@ isUpdated: true
 
 체호프를 훌륭하게 만드는 것은 농부에서부터 왕자까지 러시아의 모든 사람들에게 관심을 갖고 있다는 점입니다. 심지어 농부들이 가장 밝은 귀족보다 그의 창의적인 마음을 더 활발히 하는 것이라고 할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 열정, 욕망, 두려움, 불안, 사랑, 질투, 희망, 배신 - 이 모든 우리의 단호하고 불쾌한 면들이 체호프의 글 속에 담겨 있습니다. 그것들은 당신이 읽기를 기다리고 있어요. 쉬운 읽기는 아니지만 보람이 있는 것이죠.
 
@@ -89,7 +150,18 @@ isUpdated: true
 
 ## 체호프처럼 쓰기 위해 읽어볼 책은 무엇일까요 - 인간적이고 편견 없이?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - "The Man in a Case" - 인생에 너무 두려워해 자신의 인공 버블 안에서 살기를 선택하는 것에 대한 이야기입니다.
 - "The Death of a Government Clerk" - 감정을 억누르고 분노를 표현하지 않는 것이 치명적인 위험을 가져올 수 있다는 것에 대한 이야기입니다.
@@ -101,7 +173,18 @@ isUpdated: true
 
 체홉의 글이 얼마나 다양하고 다양한지에 관계없이, 모든 작품을 통합하는 것은 유머입니다. 다음으로 읽을 체홉의 이야기나 연극을 선택하더라도, 그의 유머 감각이 거기에 있을 것입니다 - 눈에 잘 들어오고 뚜렷하게 느껴집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 체호프( Chekhov)에게 있어서 세계에 대해 진지하다는 것은 비꼼적이다. 유머는 모든 것을 드러내는 배가된 유리입니다. 그의 유머는 때로는 쓴 극적이고, 때로는 퉁명스럽게 독성이 강하지만 절대적으로 저속하거나 부당하지 않습니다. 이는 체호프의 글에 즉각적으로 인정할 수 있는 특별한 매운 맛을 선사합니다. 농담을 하는 것은 반영하고, 농담을 하는 것은 생각하고, 농담을 하는 것은 살아있다는 것을 느낍니다. 천재여, 뭐라고 더 말할 것인가요?
 
@@ -111,7 +194,18 @@ isUpdated: true
 
 ## 체호프처럼 쓰기 위해 무엇을 읽을까요 - 비꼼적이고 매콤하게?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - "곰" — 미지불 채무가 예상치 못한 사랑으로 이끌 수 있음을 다룹니다.
 - "말이름" — 계속 사라져버리지만 혀에서 스르륵 굴러가는 것을 기억하려고 노력합니다.

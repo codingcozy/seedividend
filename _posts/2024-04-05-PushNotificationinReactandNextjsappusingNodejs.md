@@ -3,17 +3,13 @@ title: "리액트와 Nextjs 앱에서 nodejs를 이용한 푸시 알림 구현�
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Push Notification in React and Nextjs app using Nodejs"
 link: "https://medium.com/@rajreetesh7/push-notification-in-react-and-next-js-app-using-node-js-da39ad1332ef"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/PushNotificationinReactandNextjsappusingNodejs_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 웹 앱에서 푸시 알림이 작동하는 방식은?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 앱의 푸시 알림은 브라우저 API, 서비스 워커, 그리고 푸시 메시지를 전송할 수 있는 서버의 조합이 필요합니다.
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 서비스 워커는 웹 페이지와 별도로 백그라운드에서 실행되는 스크립트입니다. 백그라운드 동기화, 푸시 알림, 캐싱과 같은 기능을 가능하게 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 서비스 워커는 푸시 알림을 받아서 사용자에게 보여주는 역할을 하는데, 그만큼 중요한 요소입니다.
 
@@ -64,7 +82,18 @@ self.addEventListener("push", (event) => {
 
 서비스 워커에 푸시 이벤트 리스너를 구현했습니다. 이벤트는 서버에서 클라이언트로 푸시 알림을 보낼 때 발생합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # React 및 Next.js에서 서비스 워커 등록하기
 
@@ -90,7 +119,18 @@ useEffect(() => {
 
 우리는 useEffect 훅에서 서비스 워커를 등록하고 있습니다. navigator 객체에서 serviceWorker의 가용성을 확인하고 있습니다. 가용하다면 서비스 워커를 등록하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 서버에서 푸시 알림 보내기
 
@@ -104,7 +144,18 @@ npm install web-push -g
 web-push generate-vapid-keys
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 퍼블릭과 프라이빗 키를 받게 됩니다. 우리는 이 키들을 환경 변수에 저장할 수 있어요.
 
@@ -123,11 +174,7 @@ const vapidKeys = {
   privateKey: process.env.VAPID_PRIVATE_KEY,
 };
 
-webpush.setVapidDetails(
-  "test@gmail.com",
-  vapidKeys.publicKey,
-  vapidKeys.privateKey
-);
+webpush.setVapidDetails("test@gmail.com", vapidKeys.publicKey, vapidKeys.privateKey);
 
 let subscriptions = [];
 
@@ -149,16 +196,9 @@ app.post("/send-notification", (req, res) => {
   };
 
   Promise.all(
-    subscriptions.map((subscription) =>
-      webpush.sendNotification(
-        subscription,
-        JSON.stringify(notificationPayload)
-      )
-    )
+    subscriptions.map((subscription) => webpush.sendNotification(subscription, JSON.stringify(notificationPayload)))
   )
-    .then(() =>
-      res.status(200).json({ message: "Notification sent successfully." })
-    )
+    .then(() => res.status(200).json({ message: "Notification sent successfully." }))
     .catch((err) => {
       console.error("Error sending notification");
       res.sendStatus(500);
@@ -174,7 +214,18 @@ Express.js를 사용하여 서버를 설정했어요. /subscribe와 /send-notifi
 
 /subscribe 라우트에서는 구독 객체를 subscriptions 배열에 저장합니다. 이 배열을 사용하여 구독자에게 푸시 알림을 보낼 거예요. 구독 객체를 데이터베이스에 저장할 수도 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 /send-notification 루트에서는 모든 구독자에게 푸시 알림을 보내고 있습니다. 푸시 알림을 보내기 위해 webpush.sendNotification 메서드를 사용하고 있습니다.
 
@@ -184,7 +235,18 @@ Express.js를 사용하여 서버를 설정했어요. /subscribe와 /send-notifi
 
 푸시 알림을 받으려면 푸시 알림에 가입해야 합니다. serviceWorker 객체를 사용하여 푸시 알림을 받기 위해 가입할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // app/page.js -> Next.js
@@ -228,7 +290,18 @@ useEffect 훅을 사용하여 푸시 알림을 구독하고 있어요. pushManag
 node server.js
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 Postman을 열고 http://localhost:4000/send-notification 경로로 POST 요청을 보내세요. 그러면 브라우저에서 푸시 알림을 받을 수 있습니다.
 

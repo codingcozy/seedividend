@@ -3,17 +3,13 @@ title: "Nextjs 14에서 ImageResponse로 이미지 동적 생성하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # Nextjs 14에서 ImageResponse로 이미지 동적 생성하는 방법
 
@@ -46,7 +42,18 @@ new ImageResponse(
 )
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 지원되는 CSS 속성
 
@@ -60,4 +67,15 @@ new ImageResponse(
 | `v13.3.0` | `ImageResponse`는 `next/server`에서 가져올 수 있습니다.         |
 | `v13.0.0` | `@vercel/og` 패키지를 통해 `ImageResponse`가 소개되었습니다.    |
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

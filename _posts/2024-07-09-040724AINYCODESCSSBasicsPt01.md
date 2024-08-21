@@ -3,16 +3,13 @@ title: "2024년 CSS 기초 - Part 1 알아두어야 할 필수 개념들"
 description: ""
 coverImage: "/assets/no-image.jpg"
 date: 2024-07-09 14:02
-ogImage: 
+ogImage:
   url: /assets/no-image.jpg
 tag: Tech
 originalTitle: "040724 AINYCODES ~ CSS Basics Pt. 01"
 link: "https://medium.com/@wastblog/css-basics-pt-01-040724-ainycodes-fc983b2c928f"
 isUpdated: true
 ---
-
-
-
 
 안녕하세요! 오늘은 FreeCodeCamp의 반응형 웹 디자인 인증을 위한 설문 조사 양식 프로젝트에 참여했어요. CSS가 제공하는 다양한 옵션에 깜짝 놀랐어요! 마치 쇼핑몰에 가서 보는 옷마다 사고 싶은 기분이에요.
 
@@ -22,7 +19,18 @@ Google Fonts를 사용하는 몇 가지 방법이 있어요:
 
 - `link` 태그를 통한 링크 추가: 아래 코드를 HTML의 헤드 부분에 추가하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 [Google Fonts](https://fonts.google.com/)에서 가져올 글꼴 패밀리(Lato, Poppins, Roboto)를 지정한 것입니다.
@@ -33,7 +41,16 @@ Google Fonts를 사용하는 몇 가지 방법이 있어요:
 
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins&family=Roboto&display=swap');
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. 폰트 패밀리 속성 사용하기: CSS에 다음을 추가하세요:
 
@@ -43,7 +60,16 @@ body { font-family: 'Lato', 'Poppins', 'Roboto', sans-serif; }
 
 다음은 배경을 사용하는 몇 가지 방법입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 단색: 단색 배경을 원하시나요? 쉬워요! body에 ' background-color: #f2f2f2; '을 추가하세요.
 - 이미지: 배경 이미지를 추가해보세요: body에 ' background-image: url(`이미지.jpg`); '를 넣어보세요.
@@ -59,7 +85,16 @@ body { font-family: 'Lato', 'Poppins', 'Roboto', sans-serif; }
 - 태그 셀렉터: 모든 h1 태그를 스타일링해보세요: 'h1'에 ' font-size: 36px; '를 적용해보세요.
 - 속성 셀렉터: 특정 속성을 갖는 입력란을 스타일링해보세요: 'input[type="email"]'에 ' border: 1px solid #ccc; '를 추가해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막으로, 속성과 값에 대해 이야기해 봅시다! 이들은 CSS의 기본 구성 요소입니다. 속성과 값으로 사이트를 마음대로 스타일링할 수 있어요.
 
@@ -72,3 +107,4 @@ body { font-family: 'Lato', 'Poppins', 'Roboto', sans-serif; }
 
 지금까지 입니다만, CSS에는 여러분을 위한 더 많은 비밀과 놀라움이 숨어 있어요.
 곧 다음 글을 기대해 주세요. 고급 주제를 더 자세히 다룰 거예요!
+```

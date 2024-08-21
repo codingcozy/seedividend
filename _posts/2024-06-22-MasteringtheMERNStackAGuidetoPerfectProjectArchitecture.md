@@ -3,16 +3,13 @@ title: "MERN 스택 완벽 정복 최적의 프로젝트 아키텍처 가이드"
 description: ""
 coverImage: "/assets/img/2024-06-22-MasteringtheMERNStackAGuidetoPerfectProjectArchitecture_0.png"
 date: 2024-06-22 05:57
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-MasteringtheMERNStackAGuidetoPerfectProjectArchitecture_0.png
 tag: Tech
 originalTitle: "Mastering the MERN Stack: A Guide to Perfect Project Architecture"
 link: "https://medium.com/@ahmad_mahmood/mastering-the-mern-stack-a-guide-to-perfect-project-architecture-020605828ad0"
 isUpdated: true
 ---
-
-
-
 
 MERN 스택은 MongoDB, Express, React 및 Node.js로 구성된 인기있는 웹 개발 프레임워크입니다. MongoDB는 유연한 JSON과 유사한 문서에 데이터를 저장하는 NoSQL 데이터베이스입니다. Express는 Node.js에서 웹 애플리케이션을 구축하기 위한 가벼운 프레임워크입니다. React는 동적 사용자 인터페이스를 구축하기 위한 강력한 프런트엔드 라이브러리이며, Node.js는 서버 측 코드를 실행할 수 있게 해주는 JavaScript 런타임입니다.
 
@@ -22,7 +19,18 @@ MERN 스택은 MongoDB, Express, React 및 Node.js로 구성된 인기있는 웹
 
 # 개발 환경 설정하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저, 모든 애플리케이션 코드를 보관할 주요 폴더를 생성합니다. 이 폴더 내에서 Frontend 및 Backend이라는 두 개의 디렉터리를 생성할 것입니다. Frontend은 npm create vite@latest 명령어를 통해 만들고, Backend은 백엔드를 위한 익스프레스 서버를 설정하기 위해 npm init -y 명령어를 통해 초기화할 것입니다. 이 구분은 React가 백엔드 논리를 직접적으로 프론트엔드 코드와 함께 구현하는 것을 지원하지 않기 때문에 필요합니다. 또한, 이 구조는 프로젝트 조직을 깔끔하고 이해하기 쉽게 유지하는 데 도움이 됩니다.
 
@@ -32,8 +40,18 @@ Frontend 폴더에서 다음 명령어를 아래 스크린샷에 표시된 대�
 
 다음으로, Backend 폴더로 이동하여 npm init -y를 실행하여 프로젝트를 초기화합니다. 이는 package.json 파일을 생성할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Mastering the MERN Stack: A Guide to Perfect Project Architecture](/assets/img/2024-06-22-MasteringtheMERNStackAGuidetoPerfectProjectArchitecture_2.png)
 
@@ -43,8 +61,18 @@ Now we will install dependencies which will be required for setting up the backe
 
 Why are we using these libraries?
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - express: Node.js 웹 애플리케이션을 빌드하기 위한 최소한이면서 유연한 웹 애플리케이션 프레임워크입니다.
 - mongoose: MongoDB와 Node.js를 위한 ODM(Object Data Modeling) 라이브러리로, 응용 프로그램 데이터 모델링을 위한 스키마 기반 솔루션을 제공합니다.
@@ -67,7 +95,18 @@ Why are we using these libraries?
 - package-lock.json: 종속성의 정확한 버전을 잠그어 일관된 설치를 보장하는 파일입니다.
 - package.json: 프로젝트의 종속성과 스크립트 목록, 프로젝트 이름 및 버전과 같은 메타데이터를 나열하는 파일입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 백엔드 폴더 아키텍처를 왜 선택했나요?
 

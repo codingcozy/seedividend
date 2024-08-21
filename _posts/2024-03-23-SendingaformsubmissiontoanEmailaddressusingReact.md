@@ -3,17 +3,13 @@ title: "React를 사용하여 이메일 주소로 폼 제출 하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Sending a form submission to an Email address using React"
 link: "https://medium.com/@ryandengland/sending-a-form-submission-to-an-email-address-using-react-9578737e4223"
 isUpdated: true
 ---
-
-
-
-
 
 저의 개인 웹사이트에 원본이 게시되었습니다. 최근, 저는 타투 아티스트를 위한 웹사이트를 구축하기 위해 계약을 맺었고, 이메일 주소로의 예약 및 일반 문의를 보내는 방법을 어떻게 처리할지 고민하고 있었습니다.
 
@@ -21,7 +17,18 @@ isUpdated: true
 
 최종적으로 선택한 것은 EmailJS라는 서비스였습니다. 이 간단한 서비스를 통해 웹 개발자는 백엔드에서 필요한 구성을 거의 하지 않고도 웹사이트의 프런트엔드에 이메일 전송 기능을 추가할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 1: 시작하기
 
@@ -31,7 +38,18 @@ isUpdated: true
 
 이메일 주소를 인증하고 로그인한 후에는 EmailJS 대시보드로 이동됩니다. 거기에서 "이메일 템플릿"을 클릭하면 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![React를 사용하여 이메일 주소로 양식 제출 보내기](/assets/img/Sending-a-form-submission-to-an-Email-address-using-React_2.png)
 
@@ -41,7 +59,18 @@ isUpdated: true
 
 프론트엔드 개발자들: 경고해! EmailJS가 제공하는 내장 HTML 편집기를 사용해 이메일 템플릿을 만드는 것이 처음에 직관적일 수 있지만, 보통의 의미론적 HTML보다 이메일 기반 HTML이 가지는 명확하지 않은 제약 때문에 개발하는 데 큰 장애물 중 하나였어.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내게 있어서 가장 큰 조정 중 하나는 대부분의 이메일 서비스에서 부트스트랩을 네이티브로 지원하지 않는다는 것이었습니다. 이를 염두에 두고, 포매팅에 창의적으로 접근해야 했어요.
 
@@ -51,7 +80,18 @@ isUpdated: true
 
 ![이미지 이름](/assets/img/Sending-a-form-submission-to-an-Email-address-using-React_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 100% 너비로 설정하고 고정된 높이를 가지면 이미지가 뷰포트 크기에 관계없이 div 안에 적절히 위치하도록 할 수 있어요.
 
@@ -61,7 +101,18 @@ isUpdated: true
 
 사실, 이 폰트를 SVG/이미지 파일로 변환하여 코드에 인라인으로 포함시키지 않으면 이를 우회할 방법이 없어요. 이메일을 읽는 사람은 문신 예술가일 것을 고려하면 이 정도는 지나친 것 같았어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 변수로 EmailJS 템플릿 채우기
 
@@ -71,7 +122,18 @@ EmailJS는 특정 변수가 이름에 따라 어디에 들어가야 하는지를
 
 내게 좋아 보여요! 이제 코드에 통합할 시간입니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 단계 3: 이메일JS를 코드베이스와 연동하기
 
@@ -81,7 +143,18 @@ EmailJS는 특정 변수가 이름에 따라 어디에 들어가야 하는지를
 
 - 폼 매개변수를 하나의 JSON 객체로 정리하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Sending a form submission to an Email address using React_5](/assets/img/Sending-a-form-submission-to-an-Email-address-using-React_5.png)
 
@@ -91,7 +164,18 @@ EmailJS는 특정 변수가 이름에 따라 어디에 들어가야 하는지를
 
 서비스 ID, 템플릿 ID 및 사용자 ID는 첫 번째 단계를 완료한 후에 제공될 예정입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 남은 일은 양식을 REST API로 전송하는 것뿐이에요! 아래와 같이 구현했어요.
 
@@ -101,7 +185,18 @@ EmailJS는 특정 변수가 이름에 따라 어디에 들어가야 하는지를
 
 # 마무리 생각
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이메일JS는 모든 웹 개발자가 살펴봐야 할 편리한 도구입니다. 미니멀한 학습 곡선 덕분에 Javascript를 사용하는 과정에서 구현하기 쉬운 서비스 중 하나입니다.
 

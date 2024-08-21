@@ -3,15 +3,13 @@ title: "코드 몇 줄로 40개의 머신러닝 모델 적용하는 방법"
 description: ""
 coverImage: "/assets/img/2024-07-07-Acouplelinesofcodetoapply40MLmodels_0.png"
 date: 2024-07-07 19:15
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-Acouplelinesofcodetoapply40MLmodels_0.png
 tag: Tech
 originalTitle: "A couple lines of code to apply 40 ML models"
 link: "https://medium.com/@benhui.ca/a-couple-lines-of-code-to-apply-40-ml-models-d6024a98197e"
 isUpdated: true
 ---
-
-
 
 <img src="/assets/img/2024-07-07-Acouplelinesofcodetoapply40MLmodels_0.png" />
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 <img src="/assets/img/2024-07-07-Acouplelinesofcodetoapply40MLmodels_1.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기에서는 mal 고객 데이터 세트를 사용합니다: [링크](https://gist.githubusercontent.com/pravalliyaram/5c05f43d2351249927b8a3f3cc3e5ecf/raw/8bd6144a87988213693754baaa13fb204933282d/Mall_Customers.csv)
 
@@ -37,7 +46,18 @@ df.head()
 
 ![이미지](/assets/img/2024-07-07-Acouplelinesofcodetoapply40MLmodels_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단해요. "지출 점수"는 종속 변수 Y이고 다른 필드들은 X입니다.
 

@@ -3,17 +3,13 @@ title: "Vite에서 Nextjs 14로 마이그레이션 하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # Vite에서 Nextjs 14로 마이그레이션 하는 방법
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 Vite에서 Next.js로 변경하고 싶은 여러 이유가 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 페이지 초기 로딩 시간이 느립니다
 
@@ -34,7 +41,18 @@ Vite에서 Next.js로 변경하고 싶은 여러 이유가 있습니다:
 
 ### 자동 코드 분할이 없습니다
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전에 발생한 느린 로딩 시간 문제는 코드 분할로 어느 정도 관리할 수 있습니다. 그러나 수동으로 코드를 분할하려고 하면 성능이 더 나빠질 수 있습니다. 코드를 수동으로 분할할 때 실수로 네트워크 폭포를 도입하기 쉽습니다. Next.js는 라우터에 내장된 자동 코드 분할 기능을 제공합니다.
 
@@ -44,7 +62,18 @@ Vite에서 Next.js로 변경하고 싶은 여러 이유가 있습니다:
 
 Next.js에서는 클라이언트에서 데이터를 가져오는 것이 지원되지만, 서버로 데이터 가져오기를 이동할 수도 있으며 이로써 클라이언트-서버 폭포를 제거할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 빠르고 의도적인 로딩 상태
 
@@ -54,7 +83,18 @@ React Suspense를 통한 스트리밍에 내장된 지원으로, 네트워크 �
 
 ### 데이터 가져오기 전략 선택
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 귀하는 필요에 따라 Next.js에서 페이지 및 구성 요소별로 데이터 가져오기 전략을 선택할 수 있습니다. 빌드 시간에 가져오거나 서버의 요청 시간에 가져오거나 클라이언트에서 가져올지를 결정할 수 있습니다. 예를 들어 CMS에서 데이터를 가져와 블로그 게시물을 빌드 시간에 렌더링할 수 있으며, 이를 CDN에 효율적으로 캐시할 수 있습니다.
 
@@ -64,7 +104,18 @@ Next.js 미들웨어를 사용하면 요청이 완료되기 전에 서버에서 
 
 ### 내장 최적화
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지, 폰트 및 타사 스크립트는 애플리케이션 성능에 상당한 영향을 미칠 수 있습니다. Next.js에는 자동으로 이러한 것들을 최적화해주는 내장 컴포넌트가 있습니다.
 
@@ -74,7 +125,18 @@ Next.js 미들웨어를 사용하면 요청이 완료되기 전에 서버에서 
 
 ### 단계 1: Next.js 종속성 설치하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 가장 먼저 해야 할 일은 종속성으로 next를 설치하는 것입니다:
 
@@ -86,7 +148,18 @@ npm install next@latest
 
 프로젝트의 루트에 `next.config.mjs`를 만듭니다. 이 파일은 Next.js 구성 옵션을 저장할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /** @type {import('next').NextConfig} */
@@ -104,7 +177,18 @@ export default nextConfig;
 
 TypeScript를 사용하는 경우, tsconfig.json 파일을 다음 변경사항과 함께 업데이트하여 Next.js와 호환되도록 해야 합니다. TypeScript를 사용하지 않는 경우, 이 단계는 건너뛸 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 프로젝트 참조를 삭제하세요. tsconfig.node.json
 - include 배열에 ./dist/types/\*_/_.ts 및 ./next-env.d.ts를 추가하세요.
@@ -155,7 +239,18 @@ TypeScript를 사용하는 경우, tsconfig.json 파일을 다음 변경사항�
 
 TypeScript 구성에 대한 더 많은 정보는 Next.js 문서에서 확인할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 단계 4: 루트 레이아웃 작성
 
@@ -165,7 +260,18 @@ Vite 애플리케이션에서 루트 레이아웃 파일에 가장 유사한 것
 
 이 단계에서는 index.html 파일을 루트 레이아웃 파일로 변환하게 됩니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - src 디렉토리 안에 새로운 app 디렉토리를 생성해주세요.
 - 해당 app 디렉토리 안에 새로운 layout.tsx 파일을 만들어주세요:
@@ -180,7 +286,18 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
 - 기존 index.html 파일의 내용을 이전에 생성한 `RootLayout` 컴포넌트로 복사해오면서 body.div#root 및 body.script 태그를 `div id="root"`{children}`/div`로 대체해주세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```typescript
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -222,7 +339,18 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
 - favicon.ico, icon.png, robots.txt와 같은 메타데이터 파일은 앱 디렉토리의 최상위에 배치되어 있다면 자동으로 애플리케이션 `head` 태그에 추가됩니다. 지원되는 모든 파일을 앱 디렉토리로 이동한 후 이들의 `link` 태그를 안전하게 삭제할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```typescript
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -263,7 +391,18 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 
 위 변경 사항을 통해 index.html에서 모두 선언하는 방식에서 Next.js의 프레임워크 내장 (Metadata API) 규칙 기반 접근 방식으로 전환하였습니다. 이 접근 방법을 통해 페이지의 SEO 및 웹 공유 가능성을 보다 쉽게 향상시킬 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 단계 5: Entrypoint 페이지 생성하기
 
@@ -273,7 +412,18 @@ Next.js에서는 페이지.tsx 파일을 만들어 애플리케이션의 진입�
 
 이 안내서에서는 먼저 Next.js를 SPA (Single Page Application)로 설정하기 위해 노력합니다. 따라서 앱 디렉터리에 새로운 [[...slug]] 디렉터리를 생성하여 애플리케이션의 모든 가능한 경로를 포착할 수 있도록 페이지 진입점을 설정해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 디렉토리는 옵셔널 캐치올 라우트 세그먼트라고 부릅니다. Next.js는 파일 시스템 기반의 라우터를 사용하여 디렉토리를 라우트로 정의합니다. 이 특별한 디렉토리는 애플리케이션의 모든 라우트가 해당 페이지.tsx 파일로 이동하도록 보장합니다.
 
@@ -293,7 +443,18 @@ export default function Page() {
 
 > 참고: .js, .jsx 또는 .tsx 확장자를 사용하여 페이지 파일을 작성할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 파일은 서버 구성 요소입니다. 다음 빌드를 실행하면 파일이 정적 에셋으로 미리 렌더링됩니다. 동적 코드가 필요하지 않습니다.
 
@@ -314,7 +475,18 @@ export function ClientOnly() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 파일은 `use client` 지시문으로 정의된 클라이언트 구성 요소입니다. 클라이언트 구성 요소는 클라이언트로 전송되기 전 서버에서 여전히 HTML로 사전 렌더링됩니다.
 
@@ -326,7 +498,18 @@ const App = dynamic(() => import("../../App"), { ssr: false });
 
 이제 엔트리포인트 페이지를 새로운 구성 요소를 사용하도록 업데이트하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```typescript
 import "../../index.css";
@@ -353,7 +536,18 @@ export default function App() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Next.js에서 정적 이미지를 가져오면 객체가 반환됩니다. 그 객체는 Next.js `Image` 컴포넌트와 함께 직접 사용하거나 기존 `img` 태그와 함께 객체의 src 속성을 사용할 수 있습니다.
 
@@ -363,7 +557,18 @@ Next.js에서 정적 이미지를 가져오면 객체가 반환됩니다. 그 �
 
 - `/public`에서 가져온 이미지에 대한 절대 import 경로를 상대 import로 변환하십시오:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 이전
@@ -385,7 +590,18 @@ import logo from "../public/logo.png";
 
 또는 파일 이름을 기반으로 이미지 자산의 공개 URL을 참조할 수 있습니다. 예를 들어, public/logo.png는 애플리케이션에서 /logo.png에 있는 이미지를 제공하므로 해당 값이 src로 사용될 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 > 경고: TypeScript를 사용 중이라면 src 속성에 액세스할 때 형식 오류가 발생할 수 있습니다. 지금은 안심하고 무시해도됩니다. 이 가이드가 끝날 때까지 이 문제들은 해결될 것입니다.
 
@@ -395,7 +611,18 @@ Next.js에는 Vite와 유사한 .env 환경 변수를 지원합니다. 주요 �
 
 - VITE* 접두사를 사용하던 모든 환경 변수를 NEXT_PUBLIC*로 변경하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Vite는 특별한 import.meta.env 객체에서 몇 가지 내장 환경 변수를 노출하며, Next.js에서는 지원되지 않습니다. 이를 다음과 같이 업데이트해야 합니다:
 
@@ -408,7 +635,18 @@ Vite는 특별한 import.meta.env 객체에서 몇 가지 내장 환경 변수�
 
 - .env 파일에 다음을 추가하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # ...
@@ -430,7 +668,18 @@ export default nextConfig;
 
 - import.meta.env.BASE_URL 사용을 process.env.NEXT_PUBLIC_BASE_PATH로 업데이트하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 단계 8: package.json 내 스크립트 업데이트하기
 
@@ -453,7 +702,18 @@ next-env.d.ts
 dist
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 npm run dev를 실행하고 http://localhost:3000을 열어보세요. 지금은 Next.js에서 실행 중인 애플리케이션을 볼 수 있어야 합니다.
 
@@ -463,7 +723,18 @@ dist
 
 이제 Vite 관련 아티팩트들을 삭제할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - main.tsx 파일을 삭제하세요.
 - index.html 파일을 삭제하세요.
@@ -485,4 +756,15 @@ dist
 - `Script` 컴포넌트로 서드파티 스크립트를 최적화하세요.
 - Next.js 규칙을 지원하도록 ESLint 구성을 업데이트하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

@@ -3,16 +3,13 @@ title: "HTML과 CSS를 사용하여 토토로 토글 스위치 만들기"
 description: ""
 coverImage: "/assets/img/2024-05-02-BuildingaTotoroToggleSwitchUsingHTMLandCSS_0.png"
 date: 2024-05-02 00:19
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-02-BuildingaTotoroToggleSwitchUsingHTMLandCSS_0.png
 tag: Tech
 originalTitle: "Building a Totoro Toggle Switch Using HTML and CSS"
 link: "https://medium.com/@withaarzoo/building-a-totoro-toggle-switch-using-html-and-css-5043c1904451"
 isUpdated: true
 ---
-
-
-
 
 ![이미지](https://miro.medium.com/v2/resize:fit:1200/1*iYFn9d8WYGm9cfRXBZVzLg.gif)
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 # 단계 1: 환경 설정하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시작하기 전에 텍스트 편집기를 준비해주세요. 원하는 에디터를 사용할 수 있어요. 인기 있는 선택지로는 Visual Studio Code, Sublime Text, 또는 Atom이 있어요. 프로젝트를 위한 폴더도 만들어봅시다.
 
@@ -32,66 +40,75 @@ isUpdated: true
 
 ## 단계 3: HTML 구조 만들기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 텍스트 에디터를 열고 새 HTML 파일을 만들어보세요. 파일 이름을 index.html로 지정해 볼까요? 기본 HTML 구조를 설정하는 것부터 시작해봅시다.
 
 ```html
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <!-- 문자 인코딩 및 호환성 설정 -->
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- 외부 스타일시트 링크 -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <!-- 문서 제목 -->
     <title>Totro 토글 스위치</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <!-- 토글 스위치를 위한 래퍼 -->
-    <div class='wrap'>
-        <!-- 토글로 사용되는 체크박스 입력 -->
-        <input type='checkbox'>
-        <!-- 토토로 캐릭터 컨테이너 -->
-        <div class='totoro'>
-            <!-- 토토로의 귀 -->
-            <div class='ears'>
-                <div class='ear'></div>
-                <div class='ear'></div>
-            </div>
-            <!-- 토토로의 팔 -->
-            <div class='arm'></div>
-            <div class='arm'></div>
-            <!-- 토토로의 발 -->
-            <div class='foot'></div>
-            <div class='foot two'></div>
-            <!-- 토토로의 몸통 -->
-            <div class='body'>
-                <!-- 토토로 몸통의 반점 -->
-                <div class='spots'>
-                    <div class='spot'></div>
-                    <div class='spot'></div>
-                    <div class='spot'></div>
-                    <div class='spot'></div>
-                    <div class='spot'></div>
-                    <div class='spot'></div>
-                    <div class='spot'></div>
-                </div>
-                <!-- 토토로의 얼굴 특징 -->
-                <div class='inner'>
-                    <div class='mouth'></div>
-                    <div class='eye'></div>
-                    <div class='eye'></div>
-                </div>
-            </div>
+    <div class="wrap">
+      <!-- 토글로 사용되는 체크박스 입력 -->
+      <input type="checkbox" />
+      <!-- 토토로 캐릭터 컨테이너 -->
+      <div class="totoro">
+        <!-- 토토로의 귀 -->
+        <div class="ears">
+          <div class="ear"></div>
+          <div class="ear"></div>
         </div>
+        <!-- 토토로의 팔 -->
+        <div class="arm"></div>
+        <div class="arm"></div>
+        <!-- 토토로의 발 -->
+        <div class="foot"></div>
+        <div class="foot two"></div>
+        <!-- 토토로의 몸통 -->
+        <div class="body">
+          <!-- 토토로 몸통의 반점 -->
+          <div class="spots">
+            <div class="spot"></div>
+            <div class="spot"></div>
+            <div class="spot"></div>
+            <div class="spot"></div>
+            <div class="spot"></div>
+            <div class="spot"></div>
+            <div class="spot"></div>
+          </div>
+          <!-- 토토로의 얼굴 특징 -->
+          <div class="inner">
+            <div class="mouth"></div>
+            <div class="eye"></div>
+            <div class="eye"></div>
+          </div>
+        </div>
+      </div>
     </div>
-</body>
-
+  </body>
 </html>
 ```
 
@@ -99,7 +116,18 @@ isUpdated: true
 
 이제 CSS 스타일링을 추가하여 토토로 캐릭터를 활기차게 만들어봅시다. style.css라는 새 CSS 파일을 만들고 HTML 파일에 링크를 걸어주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /* 본문 스타일링 */
@@ -170,7 +198,18 @@ CSS 코드를 조정하여 토토로 캐릭터의 모양과 애니메이션을 �
 
 ### 단계 6: 프로젝트 공유!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 토토로 토글 스위치를 만들어 축하드려요! #100DaysOfCode 해시태그를 사용해 소셜 미디어에 프로젝트를 공유하고 코딩 여정을 자랑해주세요. 제 프로젝트에 태그를 달고 의견을 알려주시면 감사하겠어요!
 

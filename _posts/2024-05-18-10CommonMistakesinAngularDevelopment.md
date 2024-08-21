@@ -3,16 +3,13 @@ title: "Angular 개발에서 흔히 하는 10가지 실수"
 description: ""
 coverImage: "/assets/img/2024-05-18-10CommonMistakesinAngularDevelopment_0.png"
 date: 2024-05-18 21:56
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-18-10CommonMistakesinAngularDevelopment_0.png
 tag: Tech
 originalTitle: "10 Common Mistakes in Angular Development"
 link: "https://medium.com/bitsrc/essential-tips-for-successful-angular-development-f92a9ea1d20f"
 isUpdated: true
 ---
-
-
-
 
 ## 고성능, 견고하며 안전한 애플리케이션 개발하기
 
@@ -22,7 +19,18 @@ Angular 애플리케이션을 개발할 때 개발자들이 종종 실수하는 
 
 다음은 우리가 살펴볼 예제들에 대한 간략한 개요입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 구성 요소 설계의 부족: 일반적인 실수 중 하나는 Angular 구성 요소를 올바르게 설계하지 않는 것입니다. 이는 관심사의 분리와 재사용성의 원칙을 준수하지 않고, 볼륨이 크고 유지 보수가 어려운 구성 요소로 이어질 수 있습니다.
 - 비효율적인 변경 감지: Angular는 변경 감지를 사용하여 뷰를 모델과 동기화 유지합니다. 그러나 개발자가 변경 감지 전략을 최적화하지 않아 성능 문제를 발생시킬 수 있습니다. 기본 "OnPush" 전략을 사용하지 않거나 불필요하고 비용이 많이 드는 뷰 업데이트로 이어질 수 있습니다.
@@ -38,6 +46,7 @@ Angular 애플리케이션을 개발할 때 개발자들이 종종 실수하는 
 ## Poor Component Design
 
 관심사의 분리 부족:
+
 ```js
 import { Component } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
@@ -56,29 +65,40 @@ export class ExampleComponent {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예시에서 Angular 컴포넌트는 HttpClient 모듈을 사용하여 HTTP 요청을 직접 처리하고 있습니다. 이는 관심사 분리 원칙을 위반하는 것이며, 컴포넌트는 뷰 렌더링 및 사용자 상호작용 처리에 중점을 두어야 하고, 서비스는 데이터 검색 및 조작을 포함한 비즈니스 로직을 처리해야 합니다. 컴포넌트 클래스에서 관심사를 섞으면 코드가 비대해지고 유지보수가 어려워질 수 있습니다.
 
 재사용성 부족:
 
 ```js
-import { Component } from '@angular/core';
+import { Component } from "@angular/core";
 
 @Component({
-  selector: 'app-product-list',
+  selector: "app-product-list",
   template: `
     <h2>Product List</h2>
     <ul>
       <li *ngFor="let product of products">{{ product.name }}</li>
     </ul>
-  `
+  `,
 })
 export class ProductListComponent {
   products: Product[] = [
-    { id: 1, name: 'Product 1' },
-    { id: 2, name: 'Product 2' },
-    { id: 3, name: 'Product 3' }
+    { id: 1, name: "Product 1" },
+    { id: 2, name: "Product 2" },
+    { id: 3, name: "Product 3" },
   ];
 
   // 제품 목록에 특화된 컴포넌트 로직
@@ -93,21 +113,32 @@ interface Product {
 
 이 예시에서는 제품 목록을 표시하는 ProductListComponent가 있습니다. 그러나 이 컴포넌트는 제품의 구체적인 데이터 구조와 제품 목록 표시에 특화된 로직과 강하게 결합되어 있습니다. 이는 다른 데이터 구조나 사용 사례에 쉽게 적응되지 않아서 재사용성이 떨어집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 향상된 재사용성:
 
 ```js
-import { Component, Input } from '@angular/core';
+import { Component, Input } from "@angular/core";
 
 @Component({
-  selector: 'app-item-list',
+  selector: "app-item-list",
   template: `
     <h2>{ title }</h2>
     <ul>
       <li *ngFor="let item of items">{ item.name }</li>
     </ul>
-  `
+  `,
 })
 export class ItemListComponent {
   @Input() title: string;
@@ -122,7 +153,18 @@ export class ItemListComponent {
 
 컴포넌트를 더 일반적이고 설정 가능하며 유연하게 설계함으로써, 재사용성을 향상시킬 수 있습니다. 이러한 방식으로 컴포넌트를 다양한 시나리오에 적합하게 만들어 Angular 애플리케이션에서 코드 중복을 줄일 수 있습니다. 이는 유지보수성과 확장성을 촉진하며, 컴포넌트를 코드를 다시 작성하거나 복제하지 않고도 애플리케이션의 다양한 부분에서 쉽게 재사용할 수 있도록 돕습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 더 자세히 알아보기:
 
@@ -131,10 +173,10 @@ export class ItemListComponent {
 아래는 Angular 컴포넌트에서 비효율적인 변경 감지의 예시입니다:
 
 ```js
-import { Component, Input } from '@angular/core';
+import { Component, Input } from "@angular/core";
 
 @Component({
-  selector: 'app-user',
+  selector: "app-user",
   template: `
     <div>
       <h1>{ user.name }</h1>
@@ -147,17 +189,28 @@ export class UserComponent {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 예제에서 UserComponent에는 사용자 데이터를 입력으로받는 @Input() 속성 바인딩이 있는 user라는 속성이 있습니다. 기본적으로 Angular는 "CheckAlways" 변경 감지 전략을 사용합니다. 이것은 부모 구성요소에 변경이 발생할 때마다 사용자 입력 속성과 관련이 없어도 Angular가 UserComponent를 다시 렌더링하고 불필요한 뷰 업데이트를 일으킬 수 있어 성능 문제를 일으킬 수 있습니다.
 
 변경 감지 전략을 최적화하고 불필요한 뷰 업데이트를 피하기 위해 "OnPush" 변경 감지 전략을 사용할 수 있습니다. 이는 @Input() 속성의 참조가 변경될 때만 변경 감지가 트리거되는 변경 감지 전략을 사용합니다. 다음은 예시입니다:
 
 ```js
-import { Component, Input, ChangeDetectionStrategy } from '@angular/core';
+import { Component, Input, ChangeDetectionStrategy } from "@angular/core";
 
 @Component({
-  selector: 'app-user',
+  selector: "app-user",
   template: `
     <div>
       <h1>{ user.name }</h1>
@@ -173,7 +226,18 @@ export class UserComponent {
 
 "OnPush" 변경 감지 전략을 사용하면 사용자 입력 속성의 참조가 변경될 때만 UserComponent에서 변경 감지가 수행되므로, 사용자 데이터가 자주 변경되지 않는 경우에는 보다 효율적인 변경 감지와 성능이 향상됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앵귤러 애플리케이션에서 각 구성 요소에 적합한 변경 감지 전략을 신중하게 선택하여 성능을 최적화하고 불필요한 뷰 업데이트를 방지하는 것이 중요합니다.
 
@@ -182,15 +246,15 @@ export class UserComponent {
 다음은 폼 처리에 반응형 프로그래밍을 사용하지 않는 예제입니다:
 
 ```js
-import { Component } from '@angular/core';
-import { FormGroup, FormControl, Validators } from '@angular/forms';
+import { Component } from "@angular/core";
+import { FormGroup, FormControl, Validators } from "@angular/forms";
 
 @Component({
-  selector: 'app-login-form',
+  selector: "app-login-form",
   template: `
     <form (ngSubmit)="onSubmit()">
-      <input type="text" [(ngModel)]="username" name="username" required>
-      <input type="password" [(ngModel)]="password" name="password" required>
+      <input type="text" [(ngModel)]="username" name="username" required />
+      <input type="password" [(ngModel)]="password" name="password" required />
       <button type="submit">Login</button>
     </form>
   `,
@@ -206,22 +270,33 @@ export class LoginFormComponent {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 예제에서는 LoginFormComponent가 템플릿 기반 폼과 ngModel을 사용하여 양방향 데이터 바인딩을 처리합니다. 하지만 이 접근 방식은 복잡하고 오류를 발생할 가능성이 있는 코드로 이어질 수 있습니다. 이는 폼 상태를 수동으로 관리하고 폼 유효성을 처리해야하기 때문입니다.
 
 Angular의 ReactiveFormsModule와 반응형 프로그래밍을 활용한 대안적 접근 방식은 다음과 같습니다:
 
 ```js
-import { Component } from '@angular/core';
-import { FormGroup, FormControl, Validators } from '@angular/forms';
+import { Component } from "@angular/core";
+import { FormGroup, FormControl, Validators } from "@angular/forms";
 
 @Component({
-  selector: 'app-login-form',
+  selector: "app-login-form",
   template: `
     <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
-      <input formControlName="username" required>
-      <input formControlName="password" type="password" required>
+      <input formControlName="username" required />
+      <input formControlName="password" type="password" required />
       <button type="submit">Login</button>
     </form>
   `,
@@ -231,11 +306,11 @@ export class LoginFormComponent {
 
   constructor() {
     this.loginForm = new FormGroup({
-      username: new FormControl('', [
+      username: new FormControl("", [
         Validators.required,
         Validators.pattern(/^\S+$/), // enforce non-whitespace characters
       ]),
-      password: new FormControl('', Validators.required, Validators.minLength(8)),
+      password: new FormControl("", Validators.required, Validators.minLength(8)),
     });
   }
 
@@ -245,8 +320,8 @@ export class LoginFormComponent {
       return;
     }
 
-    const username = this.loginForm.get('username').value.trim();
-    const password = this.loginForm.get('password').value;
+    const username = this.loginForm.get("username").value.trim();
+    const password = this.loginForm.get("password").value;
 
     // 사용자 이름과 암호를 사용한 폼 제출 로직
     // ...
@@ -256,7 +331,18 @@ export class LoginFormComponent {
 
 이 예제에서는 LoginFormComponent가 FormGroup 및 FormControl을 사용하여 Angular의 ReactiveFormsModule로 폼 입력을 반응적으로 처리합니다. 이를 통해 폼 상태를 효과적으로 제어할 수 있고, 보다 복잡한 폼 유효성을 처리할 수 있으며, 컴포넌트 로직에서 폼 데이터 처리를 단순화할 수 있습니다. Angular의 반응형 폼과 RxJS를 활용하면 응용 프로그램 상태 관리를 크게 간소화하고, 코드 유지 관리성을 향상시키며, 오류를 발생시킬 가능성을 줄일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 리액티브 프로그래밍 특성을 활용하면 Angular의 리액티브 폼과 RxJS와 같은 기능을 사용하여 Angular 애플리케이션에서 오류 발생 가능성을 줄일 수 있습니다. 다음은 몇 가지 방법입니다:
 
@@ -271,7 +357,18 @@ Angular 애플리케이션에서 리액티브 폼과 RxJS와 같은 리액티브
 
 ## 메모리 관리 부적절(runtime error)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Angular 애플리케이션에서 메모리 관리를 잘못한 예시를 몇 가지 들었습니다:
 
@@ -303,21 +400,32 @@ export class ProductListComponent implements OnInit {
 
 이 예시에서 ProductListComponent는 DataService에 의해 반환된 옵저버블을 구독하여 제품을 가져옵니다. 그러나 컴포넌트가 파괴되기 전에 옵저버블을 해지하지 않아 옵저버블이 완료되기 전에 컴포넌트가 파괴된 경우 메모리 누수가 발생할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 예제를 개선하려면 다음과 같이 unsubscribe 메서드를 추가할 수 있습니다:
 
 ```js
-import { Component, OnInit, OnDestroy } from '@angular/core';
-import { DataService } from './data.service';
-import { Subscription } from 'rxjs';
+import { Component, OnInit, OnDestroy } from "@angular/core";
+import { DataService } from "./data.service";
+import { Subscription } from "rxjs";
 
 @Component({
-  selector: 'app-product-list',
+  selector: "app-product-list",
   template: `
     <h2>Product List</h2>
     <!-- Display products -->
-  `
+  `,
 })
 export class ProductListComponent implements OnInit, OnDestroy {
   // ...
@@ -354,7 +462,18 @@ export class ProductListComponent {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예에서 ProductListComponent는 Angular의 Injector를 사용하여 수동으로 DataService의 인스턴스를 생성하고 가져오는 중입니다. this.injector.get(DataService)를 사용하여. 그러나 이 방식은 DataService가 Angular의 DI 시스템에 의해 적절하게 관리되지 않으면 메모리 누수로 이어질 수 있습니다. Angular는 컴포넌트가 파괴될 때 인스턴스를 자동으로 정리하지 않기 때문입니다.
 
@@ -384,55 +503,76 @@ export class ProductListComponent {
 
 이 향상된 예에서는 ProductListComponent가 Angular의 의존성 주입 시스템을 올바르게 활용하도록 개선되었습니다. DataService를 직접 컴포넌트 생성자에 주입함으로써 Angular가 DataService 인스턴스를 관리하고 컴포넌트가 파괴될 때 올바르게 정리하며, 메모리 누수를 방지하고 메모리 관리를 향상시킵니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 성능 최적화 부족
 
 ngFor와 trackBy를 사용하지 않음:
 
 ```js
-import { Component } from '@angular/core';
+import { Component } from "@angular/core";
 
 @Component({
-  selector: 'app-example',
+  selector: "app-example",
   template: `
     <ul>
       <li *ngFor="let product of products">{ product }</li>
     </ul>
-  `
+  `,
 })
 export class ExampleComponent {
   products: Product[] = [
-    { id: 1, name: 'Product 1' },
-    { id: 2, name: 'Product 2' },
-    { id: 3, name: 'Product 3' }
+    { id: 1, name: "Product 1" },
+    { id: 2, name: "Product 2" },
+    { id: 3, name: "Product 3" },
   ];
 
   // 음이 아닌 경우가 뭐죠? trackBy 함수가 제공되지 않았습니다
 }
 ```
 
-이 예에서 *ngFor 지시문을 사용하여 항목 목록을 렌더링합니다. 그러나 각 항목을 참조에 따라 비교하는 기본 추적 전략을 사용하며 항목을 변경할 때 전체 목록을 다시 렌더링합니다. 이는 특히 대규모 목록의 경우 비효율적일 수 있으며 불필요한 DOM 업데이트를 유발할 수 있습니다. 각 항목에 대해 고유 식별자를 반환하는 trackBy 함수를 제공함으로써 Angular는 렌더링 프로세스를 최적화하고 DOM 업데이트 수를 줄일 수 있습니다.
+이 예에서 \*ngFor 지시문을 사용하여 항목 목록을 렌더링합니다. 그러나 각 항목을 참조에 따라 비교하는 기본 추적 전략을 사용하며 항목을 변경할 때 전체 목록을 다시 렌더링합니다. 이는 특히 대규모 목록의 경우 비효율적일 수 있으며 불필요한 DOM 업데이트를 유발할 수 있습니다. 각 항목에 대해 고유 식별자를 반환하는 trackBy 함수를 제공함으로써 Angular는 렌더링 프로세스를 최적화하고 DOM 업데이트 수를 줄일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-import { Component } from '@angular/core';
+import { Component } from "@angular/core";
 
 @Component({
-  selector: 'app-example',
+  selector: "app-example",
   template: `
     <ul>
       <li *ngFor="let product of products; trackBy: trackByProductId">{ product.name }</li>
     </ul>
-  `
+  `,
 })
 export class ExampleComponent {
   products: Product[] = [
-    { id: 1, name: 'Product 1' },
-    { id: 2, name: 'Product 2' },
-    { id: 3, name: 'Product 3' }
+    { id: 1, name: "Product 1" },
+    { id: 2, name: "Product 2" },
+    { id: 3, name: "Product 3" },
   ];
 
   trackByProductId(index: number, product: Product): number {
@@ -478,8 +618,18 @@ export class ExampleComponent implements OnInit {
 }
 ```
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예시에서는 HttpClient 모듈을 사용하여 컴포넌트 초기화 시 API 요청을 보내어 데이터를 가져오는 예제가 나와 있습니다. 그러나 캐싱, 디바운싱 또는 페이지네이션과 같은 최적화가 적용되지 않았습니다. 이로 인해 불필요한 HTTP 요청이 여러 번 발생하여 성능 문제가 발생하고 애플리케이션 실행이 느려질 수 있습니다. API 응답을 캐싱하거나 짧은 시간 내에 여러 요청을 방지하기 위해 디바운싱을 적용하거나 데이터를 더 작은 단위로 가져오기 위해 페이지네이션을 사용함으로써 애플리케이션의 성능을 향상시킬 수 있습니다.
 
@@ -549,73 +699,104 @@ export class ExampleComponent implements OnInit {
 - 로딩 표시 및 오류 처리: API 요청 중 더 나은 사용자 피드백을 제공하기 위해 로딩 스피너와 오류 메시지가 추가되었습니다. 데이터를 가져오는 동안 로딩 스피너가 표시되고 API 요청이 실패하면 오류 메시지가 표시되어 사용자 경험을 향상시킵니다.
 - 더 많이 불러오기 버튼: 사용자가 수동으로 API에서 더 많은 데이터를로드하게하는 "불러오기" 버튼이 추가되었습니다. 구성 요소가 처음 렌더링될 때 초기 데이터를 자동으로로드하는 것을 방지하고 사용자가 언제 데이터를 추가로로드할지 제어할 수 있도록합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모듈에 대한 레이지 로딩을 활용하지 않았습니다:
 
 ```js
-import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
-import { HomeComponent } from './home.component';
-import { AboutComponent } from './about.component';
-import { ContactComponent } from './contact.component';
+import { NgModule } from "@angular/core";
+import { RouterModule, Routes } from "@angular/router";
+import { HomeComponent } from "./home.component";
+import { AboutComponent } from "./about.component";
+import { ContactComponent } from "./contact.component";
 
 const routes: Routes = [
-  { path: '', component: HomeComponent },
-  { path: 'about', component: AboutComponent },
-  { path: 'contact', component: ContactComponent }
+  { path: "", component: HomeComponent },
+  { path: "about", component: AboutComponent },
+  { path: "contact", component: ContactComponent },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
 ```
 
 이 예제에서 모든 컴포넌트(HomeComponent, AboutComponent, 그리고 ContactComponent)가 AppRoutingModule에서 직접 import되어 즉시 로드됩니다. 이는 응용 프로그램이 시작될 때 이러한 모든 컴포넌트가 로드되고 초기화된다는 것을 의미합니다. 실제로 필요하지 않은 경우에도 이로 인해 초기 응용 프로그램 시작 시간이 더 오래 걸릴 수 있고 성능이 저하될 수 있습니다.
 
 성능을 최적화하려면 Angular는 레이지 로딩을 제공합니다. 이를 통해 모듈과 컴포넌트가 실제로 필요할 때만 로드할 수 있습니다. 모듈에 대한 레이지 로딩을 활용하여 초기 번들 크기를 줄이고 응용 프로그램의 시작 성능을 향상시킬 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어:
 
 ```js
-import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+import { NgModule } from "@angular/core";
+import { RouterModule, Routes } from "@angular/router";
 
 const routes: Routes = [
-  { path: '', loadChildren: () => import('./home.component').then(m => m.HomeComponent) },
-  { path: 'about', loadChildren: () => import('./about.component').then(m => m.AboutComponent) },
-  { path: 'contact', loadChildren: () => import('./contact.component').then(m => m.ContactComponent) }
+  { path: "", loadChildren: () => import("./home.component").then((m) => m.HomeComponent) },
+  { path: "about", loadChildren: () => import("./about.component").then((m) => m.AboutComponent) },
+  { path: "contact", loadChildren: () => import("./contact.component").then((m) => m.ContactComponent) },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
 ```
 
 이 갱신된 버전에서 route 설정에서 component 속성 대신 loadChildren 속성을 사용했습니다. loadChildren 속성은 import() 문을 사용하여 동적으로 구성 요소를 로드하는 함수를 지정하며, 구성 요소를 게으르게 로드하게 합니다.
 
 게으르게 로딩을 통해 사용자가 실제로 액세스할 때만 구성 요소를로드할 수 있으므로, 애플리케이션의 초기 로드 시간이 향상되고 미리로드해야 하는 코드 양이 줄어듭니다. 이는 특히 다수의 구성 요소와 복잡한 라우팅 구성이 있는 대규모 응용 프로그램에서 빠른로드 시간과 향상된 성능을 제공할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 보안 최적 사례 무시하기
 
 크로스사이트 스크립팅(XSS) 방어 무시하기:
 
 ```js
-import { Component, Input } from '@angular/core';
+import { Component, Input } from "@angular/core";
 
 @Component({
-  selector: 'app-example',
-  template: `
-    <div [innerHTML]="unsafeHtml"></div>
-  `
+  selector: "app-example",
+  template: ` <div [innerHTML]="unsafeHtml"></div> `,
 })
 export class ExampleComponent {
   @Input() unsafeHtml: string;
@@ -626,17 +807,26 @@ export class ExampleComponent {
 
 이 예에서 unsafeHtml 속성은 [innerHTML]을 사용하여 템플릿에 직접 바인딩됩니다. 이는 unsafeHtml에 전달된 악의적인 HTML 코드가 적절히 살균 처리되지 않고 그대로 렌더링되어 애플리케이션이 크로스사이트 스크립팅(XSS) 공격을 당할 가능성이 있습니다. XSS 공격을 방지하려면 Angular에서 DomSanitizer 서비스와 같은 내장 살균 메커니즘을 제공하므로 템플릿에 렌더링하기 전에 동적 콘텐츠를 적절히 살균 처리할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```typescript
-import { Component, Input } from '@angular/core';
-import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
+import { Component, Input } from "@angular/core";
+import { DomSanitizer, SafeHtml } from "@angular/platform-browser";
 
 @Component({
-  selector: 'app-example',
-  template: `
-    <div [innerHtml]="safeHtml"></div>
-  `
+  selector: "app-example",
+  template: ` <div [innerHtml]="safeHtml"></div> `,
 })
 export class ExampleComponent {
   @Input() unsafeHtml: string;
@@ -649,9 +839,9 @@ export class ExampleComponent {
     this.safeHtml = this.sanitizer.sanitize(
       // 허용되는 HTML 요소 및 속성 목록을 사용합니다.
       this.unsafeHtml,
-      { 
-        allowedTags: ['div', 'span', 'a'], 
-        allowedAttributes: { 'a': ['href'] } 
+      {
+        allowedTags: ["div", "span", "a"],
+        allowedAttributes: { a: ["href"] },
       }
     );
   }
@@ -665,10 +855,20 @@ export class ExampleComponent {
 
 이 예제에서는 div, span, a 요소 및 a 요소의 href 속성만 허용하는 작은 화이트리스트를 정의했습니다. `unsafeHtml` 문자열에 있는 다른 요소나 속성은 살균 처리 중에 제거됩니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-The `sanitize()` 메서드는 안전한 HTML 코드를 포함하는 문자열을 반환하며, 그것을 `safeHtml` 속성에 할당합니다. `safeHtml` 속성은 `SafeHtml` 유형이며, Angular에서 HTML을 신뢰하고 기본 보안 검사를 우회하기 위해 사용하는 래퍼 클래스입니다. 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+The `sanitize()` 메서드는 안전한 HTML 코드를 포함하는 문자열을 반환하며, 그것을 `safeHtml` 속성에 할당합니다. `safeHtml` 속성은 `SafeHtml` 유형이며, Angular에서 HTML을 신뢰하고 기본 보안 검사를 우회하기 위해 사용하는 래퍼 클래스입니다.
 
 컴포넌트에서 렌더링하기 전에 잠재적으로 위험한 HTML 코드를 DomSanitizer 서비스를 사용하여 안전하게 처리함으로써 HTML에 포함된 악성 코드로 발생할 수 있는 XSS 공격의 위험을 줄일 수 있습니다.
 
@@ -687,7 +887,18 @@ export class ExampleService {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예시에서 Angular 서비스의 updateData 메서드는 서버의 데이터를 업데이트하기 위해 POST 요청을 수행합니다. 그러나 요청에 Cross-Site Request Forgery (CSRF) 토큰이 포함되어 있지 않아 애플리케이션이 CSRF 공격에 취약해질 수 있습니다. Angular는 HTTP 요청에 자동으로 CSRF 토큰을 포함하여 기본 CSRF 보호 기능을 제공하지만, 적절한 설정과 사용법이 필요합니다. CSRF 보호를 무시하면 애플리케이션이 보안 위험에 노출될 수 있습니다.
 
@@ -707,7 +918,18 @@ export class ExampleService {
 
 이 업데이트된 버전에서는 HttpHeaders 클래스를 @angular/common/http에서 import하여 CSRF 토큰을 포함하는 새로운 헤더 객체를 생성합니다. X-CSRF-TOKEN 헤더는 적절한 CSRF 토큰 값으로 설정되어야 하며, 이는 안전한 소스(예: 서버 측)에서 얻어진 후 HTTP 요청과 함께 전달되어야 합니다. 이를 통해 CSRF 공격으로부터 보호를 제공하며, 서버 측에서 요청의 신뢰성을 확인합니다. CSRF 토큰을 얻고 포함하는 실제 방법은 애플리케이션의 백엔드 아키텍처 및 보안 구성에 따라 다를 수 있음을 참고해 주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { Component } from '@angular/core';
@@ -771,22 +993,32 @@ export class ExampleComponent {
 
 이 업데이트된 버전에서 Reactive Forms를 사용하고 있어요. [(ngModel)]을 사용하는 대신 Angular의 Reactive Forms 접근 방식을 고려해보세요. Reactive Forms는 양방향 데이터 바인딩보다 더 많은 제어와 유연성을 제공하며 양식 유효성 검사 및 데이터 처리에 관한 추가적인 기능을 제공해요.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 테스트 부족
 
 단위 테스트 부족:
 
 ```js
-import { Component } from '@angular/core';
+import { Component } from "@angular/core";
 
 @Component({
-  selector: 'app-example',
+  selector: "app-example",
   template: `
     <div *ngIf="isLoggedIn">Welcome, { username }!</div>
     <div *ngIf="!isLoggedIn">Please login</div>
-  `
+  `,
 })
 export class ExampleComponent {
   isLoggedIn: boolean;
@@ -798,37 +1030,48 @@ export class ExampleComponent {
 
 이 예시에서, Angular 컴포넌트는 isLoggedIn 플래그에 기반한 조건부 렌더링을 사용하여 간단한 로그인 기능을 구현했습니다. 그러나 이 컴포넌트 로직을 다루는 단위 테스트가 작성되지 않았습니다. 단위 테스트 부족은 발견되지 않은 버그로 이어지며 개발 또는 유지보수 중에 문제를 식별하고 해결하기 어렵게 만들 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { ExampleComponent } from './example.component';
+import { ComponentFixture, TestBed } from "@angular/core/testing";
+import { ExampleComponent } from "./example.component";
 
-describe('ExampleComponent', () => {
+describe("ExampleComponent", () => {
   let component: ExampleComponent;
   let fixture: ComponentFixture<ExampleComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [ExampleComponent]
+      declarations: [ExampleComponent],
     });
     fixture = TestBed.createComponent(ExampleComponent);
     component = fixture.componentInstance;
   });
 
-  it('should display welcome message when isLoggedIn is true', () => {
+  it("should display welcome message when isLoggedIn is true", () => {
     component.isLoggedIn = true;
-    component.username = 'John';
+    component.username = "John";
     fixture.detectChanges();
-    const welcomeElement = fixture.nativeElement.querySelector('div');
-    expect(welcomeElement.textContent).toContain('Welcome, John!');
+    const welcomeElement = fixture.nativeElement.querySelector("div");
+    expect(welcomeElement.textContent).toContain("Welcome, John!");
   });
 
-  it('should display login message when isLoggedIn is false', () => {
+  it("should display login message when isLoggedIn is false", () => {
     component.isLoggedIn = false;
     fixture.detectChanges();
-    const loginElement = fixture.nativeElement.querySelector('div');
-    expect(loginElement.textContent).toContain('Please login');
+    const loginElement = fixture.nativeElement.querySelector("div");
+    expect(loginElement.textContent).toContain("Please login");
   });
 });
 ```
@@ -838,22 +1081,30 @@ describe('ExampleComponent', () => {
 it 문은 구성 요소의 동작에 대한 기대치를 정의합니다. isLoggedIn이 true로 설정되었을 때 올바른 사용자 이름이 포함된 환영 메시지가 표시되고, isLoggedIn이 false로 설정되었을 때 로그인 메시지가 표시되는지 확인합니다.
 
 참고: 이것은 기본적인 예제일 뿐이며, 특정 요구 사항과 구성 요소 논리에 기반하여 테스트를 사용자 정의해야 할 수 있습니다. 모든 가능한 시나리오를 철저히 테스트하여 구성 요소의 정확성과 신뢰성을 보증하는 것이 중요합니다.
-  
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 여기서 더 알아보세요:
 
 End-to-End (e2e) 테스트 부재:
 
 ```js
-import { Component } from '@angular/core';
+import { Component } from "@angular/core";
 
 @Component({
-  selector: 'app-example',
-  template: `
-    <!-- ... 템플릿 코드 ... -->
-  `
+  selector: "app-example",
+  template: ` <!-- ... 템플릿 코드 ... --> `,
 })
 export class ExampleComponent {
   // 이런! 이 컴포넌트의 기능을 커버하는 end-to-end (e2e) 테스트가 없어요
@@ -862,35 +1113,46 @@ export class ExampleComponent {
 
 이 예시에서 Angular 컴포넌트는 다양한 사용자 상호작용(예: 폼 제출, API 호출, DOM 조작)을 포함한 복잡한 기능을 구현합니다. 그러나 이 컴포넌트의 기능을 커버하는 end-to-end (e2e) 테스트가 작성되어 있지 않습니다. e2e 테스트 부재는 사용자 상호작용, 데이터 흐름, 컴포넌트, 서비스, API 간 통합과 관련된 발견되지 않은 문제를 초래할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 적절한 테스트, 단위 테스트 및 엔드 투 엔드 테스트를 포함한 적절한 테스팅은 개발 프로세스 초기에 문제를 식별하고 수정하는 데 중요합니다. 이를 통해 애플리케이션의 신뢰성과 안정성을 보장하고 앞으로의 유지 보수 및 업데이트를 용이하게 합니다.
 
 ```js
-import cy from 'cypress';
+import cy from "cypress";
 
-describe('ExampleComponent', () => {
+describe("ExampleComponent", () => {
   beforeEach(() => {
     // 예: ExampleComponent 페이지로 이동하는 설정 작업 수행
-    cy.visit('/example');
+    cy.visit("/example");
   });
 
-  it('로그인한 경우 환영 메시지가 표시되어야 함', () => {
+  it("로그인한 경우 환영 메시지가 표시되어야 함", () => {
     // 예: 유효한 사용자 이름으로 로그인하는 사전 조건 설정
     // Cypress의 명령을 사용하여 구성 요소의 DOM과 상호 작용할 수 있습니다.
-    cy.get('input').type('john');
-    cy.get('button').click();
+    cy.get("input").type("john");
+    cy.get("button").click();
 
     // 예상되는 결과 확인, 예: 환영 메시지가 표시되는지 확인
-    cy.get('div').should('contain.text', 'Welcome, john!');
+    cy.get("div").should("contain.text", "Welcome, john!");
   });
 
-  it('로그인하지 않은 경우 로그인 메시지가 표시되어야 함', () => {
+  it("로그인하지 않은 경우 로그인 메시지가 표시되어야 함", () => {
     // 예: 로그아웃하거나 로그인하지 않은 사전 조건 설정
     // Cypress의 명령을 사용하여 구성 요소의 DOM과 상호 작용할 수 있습니다.
 
     // 예상되는 결과 확인, 예: 로그인 메시지가 표시되는지 확인
-    cy.get('div').should('contain.text', 'Please login');
+    cy.get("div").should("contain.text", "Please login");
   });
 });
 ```
@@ -899,7 +1161,18 @@ describe('ExampleComponent', () => {
 
 이 코드의 주요 포인트 요약은 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 위 코드는 ExampleComponent에 대한 테스트 스위트를 정의합니다.
 - beforeEach 훅은 각 테스트 케이스를 실행하기 전에 일부 설정 작업을 실행하는 데 사용됩니다. 이 경우에는 cy.visit를 사용하여/example 페이지로 이동합니다.
@@ -914,7 +1187,18 @@ describe('ExampleComponent', () => {
 
 Angular 최적 사례를 무시하면 이해하기, 유지 관리하기 및 확장하기 어려운 코드로 이어질 수 있습니다. Angular 최적 사례를 무시하는 몇 가지 예시는 다음과 같습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Angular 스타일 가이드를 따르지 않기: Angular는 명명 규칙, 파일 구성, 컴포넌트 아키텍처 등을 위한 지침을 제공하는 스타일 가이드가 있어요. 이러한 가이드를 무시하면 일관성이 없고 읽기 어려운 코드로 이어질 수 있어요. 예를 들어, 컴포넌트, 서비스 및 변수의 명명 규칙을 준수하지 않으면 코드베이스의 다른 부분의 목적과 기능을 이해하기 어려울 수 있어요. 또한 명명 충돌이 발생하고 문제를 식별하고 수정하기 어려워질 수 있어요.
 
@@ -922,14 +1206,15 @@ Angular 최적 사례를 무시하면 이해하기, 유지 관리하기 및 확�
 // Angular 스타일 가이드에 맞지 않는 예
 // 컴포넌트 클래스 이름에 PascalCase 사용 지침 무시
 // 컴포넌트 셀렉터에 kebab-case 사용 지침 무시
-import { Component } from '@angular/core';
+import { Component } from "@angular/core";
 
 @Component({
-  selector: 'appExample', // 셀렉터에 kebab-case 사용하지 않음
-  templateUrl: './example.component.html',
-  styleUrls: ['./example.component.css']
+  selector: "appExample", // 셀렉터에 kebab-case 사용하지 않음
+  templateUrl: "./example.component.html",
+  styleUrls: ["./example.component.css"],
 })
-export class exampleComponent { // 클래스 이름에 PascalCase 사용하지 않음
+export class exampleComponent {
+  // 클래스 이름에 PascalCase 사용하지 않음
   // ...
 }
 ```
@@ -940,33 +1225,38 @@ export class exampleComponent { // 클래스 이름에 PascalCase 사용하지 �
 // 권장된 폴더 구조를 따르지 않는 예
 // 컴포넌트를 별도의 폴더에 구성하는 지침 무시
 // 다른 파일에 대해 명확한 폴더 구조를 사용하지 않음
-src/
-  app/
-    components/
-      example.component.ts // 컴포넌트를 별도의 폴더에 구성하지 않음
-    services/
-      example.service.ts // 서비스를 별도의 폴더에 구성하지 않음
-    example.module.ts // 다른 파일에 대해 명확한 폴더 구조를 사용하지 않음
-    example.component.css
-    example.component.html
+src / app / components / example.component.ts; // 컴포넌트를 별도의 폴더에 구성하지 않음
+services / example.service.ts; // 서비스를 별도의 폴더에 구성하지 않음
+example.module.ts; // 다른 파일에 대해 명확한 폴더 구조를 사용하지 않음
+example.component.css;
+example.component.html;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 3. Angular 기능을 적절하게 활용하지 않기: Angular은 개발을 간단하게 만들고 성능을 향상시키며 유지 보수성을 향상시키기 위한 다양한 기능과 API를 제공합니다. 이러한 기능을 무시하거나 잘못 사용하면 최적화되지 않은 코드나 유지 관리가 어려운 코드로 이어질 수 있습니다. 예를 들어, Angular의 내장 의존성 주입(DI) 시스템을 활용하지 않으면 묶여 있는 코드나 테스트하기 어려운 코드를 얻게 될 수 있습니다.
 
 ```js
 // Angular의 의존성 주입을 적절하게 사용하지 않은 예시
 // 서비스에 대한 의존성 주입 가이드라인을 무시한 예
-import { Component } from '@angular/core';
-import { ExampleService } from './example.service';
+import { Component } from "@angular/core";
+import { ExampleService } from "./example.service";
 
 @Component({
-  selector: 'app-example',
-  template: `
-    <!-- ... 템플릿 코드 ... -->
-  `,
-  providers: [ExampleService] // 의존성 주입을 사용하지 않고 서비스를 주입하는 예
+  selector: "app-example",
+  template: ` <!-- ... 템플릿 코드 ... --> `,
+  providers: [ExampleService], // 의존성 주입을 사용하지 않고 서비스를 주입하는 예
 })
 export class ExampleComponent {
   constructor() {
@@ -980,7 +1270,18 @@ Angular의 최선의 실천 방법을 따르면 코드베이스를 유지보수 
 
 ## DOM 조작 최적화하지 않기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 과도한 양방향 데이터 바인딩:
 
@@ -993,7 +1294,18 @@ Angular의 최선의 실천 방법을 따르면 코드베이스를 유지보수 
 
 이를 최적화하기 위해 (input) 및 (change)와 같은 이벤트 핸들링을 사용하여 일방향 데이터 바인딩을 고려하고, 두방향 데이터 바인딩 대신 필요할 때만 컴포넌트 속성을 수동으로 업데이트할 수 있습니다. 다음은 이에 대한 예시입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <!-- 컴포넌트 템플릿 -->
@@ -1014,7 +1326,18 @@ Renderer2 API를 사용하지 않고 안전한 DOM 업데이트를 하지 않은
 
 이 예시에서 bgColor 속성은 div 요소의 style.backgroundColor 속성에 바인딩되어 있어, DOM 스타일을 직접 조작하고 있습니다. 그러나 DOM을 직접 조작하는 것은 위험할 수 있고 권장되지 않습니다. 이는 애플리케이션에 보안 취약점을 노출시키고 Angular의 내장 보안 기능을 우회할 수 있기 때문입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이를 최적화하기 위해 DOM을 안전하게 조작하는 Angular의 Renderer2 API를 사용할 수 있습니다. 예를 들어:
 
@@ -1038,7 +1361,18 @@ ngOnInit() {
 
 이 예에서는 Renderer2 API를 사용하여 div 요소의 배경색 스타일을 안전하게 설정하고 Angular의 보안 기능이 적용되어 DOM 조작이 최적화됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 에러 조건 처리하지 않기:
 
@@ -1072,9 +1406,20 @@ export class ExampleComponent {
     );
   }
 }
-```  
+```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 예시에서는 Angular의 HttpClient를 사용하여 HTTP GET 요청을 /api/data로 보내고 있습니다. http.get() 메서드로 반환된 Observable에 구독하여 데이터를 검색하고 있습니다. 그러나 subscribe() 메서드의 두 번째 콜백 함수를 사용하여 적절한 오류 처리를 구현하지 않았습니다.
 
@@ -1086,7 +1431,18 @@ export class ExampleComponent {
 
 이 문제를 해결하기 위해서는 사용자에게 오류 메시지를 표시하거나 디버깅을 위해 오류를 기록하고 오류에서 원활하게 복구하는 등의 적절한 오류 처리 메커니즘을 구현하는 것이 중요합니다. 이전 코드 예제에서 보여준 대로 이를 수행하여 Angular 애플리케이션의 안정성과 신뢰성을 확보할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { Component } from '@angular/core';
@@ -1129,21 +1485,30 @@ export class ExampleComponent {
 
 예기치 않은 예외 처리:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-import { Component } from '@angular/core';
+import { Component } from "@angular/core";
 
 @Component({
-  selector: 'app-example',
-  template: `
-    <button (click)="onButtonClick()">Click me</button>
-  `,
+  selector: "app-example",
+  template: ` <button (click)="onButtonClick()">Click me</button> `,
 })
 export class ExampleComponent {
   onButtonClick() {
     // This code may throw an unexpected exception
-    throw new Error('Unexpected exception occurred');
+    throw new Error("Unexpected exception occurred");
   }
 }
 ```
@@ -1154,29 +1519,39 @@ export class ExampleComponent {
 
 예상치 못한 예외를 잡고 처리하기 위해 try-catch 블록을 사용하거나 Angular에서 전역 오류 처리 기술을 사용하는 등 적절한 오류 처리 메커니즘을 구현하는 것이 중요합니다. 이는 응용 프로그램이 안정적이고 신뢰성 있게 유지되며, 예기치 않은 오류가 발생해도 일관된 사용자 경험을 제공하도록 보장합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-import { Component } from '@angular/core';
+import { Component } from "@angular/core";
 
 @Component({
-  selector: 'app-example',
+  selector: "app-example",
   template: `
     <button (click)="onButtonClick()">Click me</button>
     <div *ngIf="errorMessage" class="error-message">{ errorMessage }</div>
   `,
 })
 export class ExampleComponent {
-  errorMessage: string = '';
+  errorMessage: string = "";
 
   onButtonClick() {
     try {
       // This code may throw an unexpected exception
-      throw new Error('Unexpected exception occurred');
+      throw new Error("Unexpected exception occurred");
     } catch (error) {
       // Handle the error and display error message
-      this.errorMessage = 'An error occurred: ' + error.message;
+      this.errorMessage = "An error occurred: " + error.message;
       console.error(error); // Log the error for debugging
     }
   }
@@ -1189,8 +1564,18 @@ export class ExampleComponent {
 
 이러한 일반적인 실수를 이해하고 해결함으로써, 개발자들은 원할하고 신뢰할 수 있는 Angular 애플리케이션을 만들 수 있습니다. 사용자 경험을 원활하게 제공하며 유지 가능하며 확장 가능하며 모범 사례를 준수하는 Angular 애플리케이션을 만들기 위해 Angular 문서를 준수하고 최신 모범 사례를 따르고 적절한 오류 처리, 테스트 및 성능 최적화 기법을 통합하는 것이 중요합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 리유저블 컴포넌트로 Angular 앱 만들기, 마치 레고처럼
 
@@ -1200,7 +1585,18 @@ Bit는 오픈 소스 도구로 25만 명 이상의 개발자들이 컴포넌트�
 
 UI, 기능 또는 페이지를 재사용 가능한 컴포넌트로 바꾸고 애플리케이션 간에 공유할 수 있습니다. 협업하기 쉽고 더 빨리 작업할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 → 더 알아보기
 
@@ -1210,7 +1606,18 @@ UI, 기능 또는 페이지를 재사용 가능한 컴포넌트로 바꾸고 애
 
 ## → 디자인 시스템
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## → 코드 공유 및 재사용
 
@@ -1220,6 +1627,17 @@ UI, 기능 또는 페이지를 재사용 가능한 컴포넌트로 바꾸고 애
 
 [https://blog.bitsrc.io/how-we-build-micro-front-ends-d3eeeac0acfc](https://blog.bitsrc.io/how-we-build-micro-front-ends-d3eeeac0acfc)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 https://blog.bitsrc.io/how-we-build-our-design-system-15713a1f1833

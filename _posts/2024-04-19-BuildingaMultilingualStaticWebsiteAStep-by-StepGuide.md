@@ -3,17 +3,13 @@ title: "html css js로 다국어 지원 정적 웹사이트 만드는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Building a Multilingual Static Website A Step-by-Step Guide"
 link: "https://medium.com/@nohanabil/building-a-multilingual-static-website-a-step-by-step-guide-7af238cc8505"
 isUpdated: true
 ---
-
-
-
-
 
 ![다국어 정적 웹사이트 구축: 단계별 가이드](/assets/img/BuildingaMultilingualStaticWebsiteAStep-by-StepGuide_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 기초 설정하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리 다국어 웹사이트를 구축하기 위한 기초를 다지는 것부터 시작해봐요. HTML 파일에서 `html` 태그 안에 적절한 언어 속성을 포함하여 기본 언어를 지정해야 해요. 예를 들어, 영어를 기본 언어로 설정하려면:
 
@@ -43,7 +50,18 @@ isUpdated: true
 </head>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 언어 옵션 만들기
 
@@ -68,7 +86,18 @@ isUpdated: true
 
 # 본문 내용 업데이트하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신의 웹사이트의 핵심인 메인 콘텐츠로 집중해봅시다. 여기에는 다양한 언어로 사이트에 대한 핵심 정보를 표시할 것입니다. 중요한 것은 JavaScript 코드가 선택된 언어에 따라 콘텐츠를 동적으로 업데이트하도록 하는 것입니다.
 
@@ -83,7 +112,18 @@ isUpdated: true
 
 여기서 `h1`과 `p` 태그의 data-i18n 속성은 이러한 요소를 언어별 콘텐츠로 표시하기 위해 표시된 것입니다. 이러한 요소가 적절한 번역을 표시하도록 하려면, 제공된 JavaScript 코드가 그 마법을 부릅니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 언어 데이터 및 JSON 파일
 
@@ -107,7 +147,18 @@ isUpdated: true
 
 # 동적 콘텐츠 업데이트
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 선택한 언어에 따라 콘텐츠를 동적으로 업데이트하려면 JavaScript를 사용합니다. 이렇게 할 수 있어요:
 
@@ -125,7 +176,18 @@ updateContent 함수는 data-i18n 속성을 가진 요소를 반복하고 해당
 
 # 언어 설정하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용자의 언어 설정을 기억하기 위해 localStorage API를 사용할 것입니다. 이를 통해 사용자의 브라우저에 데이터를 로컬로 저장하고 검색할 수 있습니다:
 
@@ -141,7 +203,18 @@ function setLanguagePreference(lang) {
 
 # 언어 데이터 가져오기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다국어 정적 웹사이트가 작동하려면 JSON 파일에 저장된 언어별 콘텐츠를 검색할 수 있는 방법이 필요합니다. 이것이 fetchLanguageData 함수가 필요한 이유입니다.
 
@@ -157,7 +230,18 @@ async function fetchLanguageData(lang) {
 
 간단히 말해, fetchLanguageData 함수는 JSON 파일에 저장된 언어별 콘텐츠를 가져와 동적으로 웹사이트 콘텐츠를 업데이트하는 역할을 합니다. 이는 웹사이트가 각 언어에 대해 올바른 번역을 표시하는 데 중요한 단계입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 표시 언어 변경
 
@@ -176,7 +260,18 @@ async function changeLanguage(lang) {
 
 이 함수는 여러 언어 간의 원활한 전환을 만들기 위한 게이트웨이입니다. 여기서 무슨 일이 일어나고 있는지 쪼개 봅시다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - await setLanguagePreference(lang): 이 코드는 사용자의 언어 기본 설정을 먼저 설정합니다. 앞서 논의한 setLanguagePreference 함수를 사용합니다. 이 선호도를 localStorage에 저장함으로써 사용자가 웹사이트를 떠나도 선택한 언어 설정이 유지됩니다.
 - const langData = await fetchLanguageData(lang): fetchLanguageData 함수는 선택한 언어에 대한 언어별 콘텐츠를 검색하는 데 사용됩니다. 이 콘텐츠는 JSON 파일에 저장되어 있으며, 웹사이트의 다양한 요소에 대한 번역을 포함합니다.
@@ -187,7 +282,18 @@ async function changeLanguage(lang) {
 
 # 스타일시트 링크
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `head` 섹션에는 주 스타일시트에 대한 링크가 있습니다:
 
@@ -199,7 +305,18 @@ async function changeLanguage(lang) {
 
 여러 언어로 된 웹 사이트를 다룰 때는 특히 다른 언어에 맞는 스타일이 필요한 경우 스타일이 어떻게 적응할지를 고려하는 것이 중요합니다. 예를 들어, 올바른 정렬과 타이포그래피를 보장하기 위해 아랍어 텍스트용 별도 스타일이 필요할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # JavaScript 링킹
 
@@ -211,7 +328,18 @@ async function changeLanguage(lang) {
 
 이 라인은 HTML을 assets/js/ 디렉토리에 있는 script.js 파일에 연결합니다. 이 JavaScript 파일에는 다국어 기능과 콘텐츠 업데이트를 가능하게 하는 함수들이 포함되어 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다국어 웹사이트를 개발하면서 JavaScript 코드가 더 많은 기능이나 최적화 기능을 포함하도록 발전할 수 있음을 염두에 두세요. 웹사이트 기능을 유지하는 데 중요한 부분인 JavaScript 파일을 정기적으로 검토하고 업데이트하는 것이 중요합니다.
 
@@ -237,7 +365,18 @@ function toggleArabicStylesheet(lang) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 참고: 여기서 "style-ar.css"라는 다른 스타일 시트를 만들었습니다.
 
@@ -247,7 +386,18 @@ function toggleArabicStylesheet(lang) {
 
 마지막으로, 사용자가 선호하는 언어에 기반하여 페이지 콘텐츠와 스타일을 초기화하기 위해 DOMContentLoaded 이벤트를 사용할 것입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 페이지 로드 시 updateContent() 호출
@@ -265,7 +415,18 @@ DOMContentLoaded 이벤트는 페이지의 HTML 콘텐츠가 완전히 로드되
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 단계를 따르면 동적이고 사용자 친화적인 다국어 정적 웹 사이트를 만들 수 있습니다. 사용자들은 언어를 원활하게 전환할 수 있으며, 이를 통해 귀하의 웹 사이트 콘텐츠가 더 넓은 관객에게 접근 가능하게 됩니다. 웹 사이트가 발전함에 따라 JSON 번역 파일을 최신 상태로 유지하고 전 세계의 방문객들에게 훌륭한 사용자 경험을 제공하도록 계속 노력해 주세요.
 

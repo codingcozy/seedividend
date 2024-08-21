@@ -3,15 +3,13 @@ title: "CSS의 가장 기본적인 개념"
 description: ""
 coverImage: "/assets/img/2024-07-07-TheMostFundamentalConceptInCSS_0.png"
 date: 2024-07-07 02:16
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-TheMostFundamentalConceptInCSS_0.png
 tag: Tech
 originalTitle: "The Most Fundamental Concept In CSS."
 link: "https://medium.com/@sai-mishra/the-most-fundamental-concept-in-css-90f6f975bdee"
 isUpdated: true
 ---
-
-
 
 상자 모델은 CSS의 가장 기본적인 개념 중 하나입니다. 심지어 가장 중요한 개념 중 하나로 꼽을 정도이며, CSS를 배울 때 가장 먼저 배워야 할 것입니다. 그래서 상자 모델에 대한 좋은 이해는 CSS 마스터가 되고 싶다면 필수적입니다. 오늘은 CSS에서 상자 모델을 몇 분 안에 가르쳐 드릴 거에요. 그러니 시작해볼까요?
 
@@ -21,7 +19,18 @@ CSS는 Cascading Style Sheets의 약자입니다. 이름에서 알 수 있듯이
 
 제가 직접 만든 웹사이트의 예시를 보여드릴게요(원하시면 링크를 참고하세요):
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 사이트가 일반적으로 보입니다:
 
@@ -31,12 +40,34 @@ CSS는 Cascading Style Sheets의 약자입니다. 이름에서 알 수 있듯이
 
 ![Image 3](/assets/img/2024-07-07-TheMostFundamentalConceptInCSS_3.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Without CSS 1](/assets/img/2024-07-07-TheMostFundamentalConceptInCSS_5.png)
 ![Without CSS 2](/assets/img/2024-07-07-TheMostFundamentalConceptInCSS_6.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-07-TheMostFundamentalConceptInCSS_7.png)
 
@@ -46,7 +77,18 @@ CSS는 Cascading Style Sheets의 약자입니다. 이름에서 알 수 있듯이
 
 이 이미지 자체가 박스 모델을 잘 설명하고 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 상자 모델에서 이해해야 할 네 가지가 있어요:
 
@@ -56,7 +98,18 @@ CSS는 Cascading Style Sheets의 약자입니다. 이름에서 알 수 있듯이
 
 HTML 코드:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -103,7 +156,18 @@ section {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![2024-07-07-TheMostFundamentalConceptInCSS_9](/assets/img/2024-07-07-TheMostFundamentalConceptInCSS_9.png)
 
@@ -113,7 +177,18 @@ section {
 
 보시다시피 이제 각 요소 상자의 가장자리에 테두리가 있습니다(마지막 코드를 제공할 것입니다). 안쪽 여백은 상자의 테두리와 콘텐츠 사이의 공간입니다. 아래에서 최종 코드를 제공할게요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![image](/assets/img/2024-07-07-TheMostFundamentalConceptInCSS_11.png)
 
@@ -123,7 +198,18 @@ You can think of margin as the opposite of padding, it is external space.
 
 ![image](/assets/img/2024-07-07-TheMostFundamentalConceptInCSS_12.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 요런, 이제 상자들이 분리되었고 훨씬 더 멋있어 보여요.
 
@@ -159,6 +245,17 @@ section {
 
 그럼, 여기까지입니다. 이것이 CSS 박스 모델에 대해 알아야 할 모든 것이에요. 이 개념이 분명하다면 CSS를 정복하는 길에 올라섰다고 볼 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 행운을 빌어요!

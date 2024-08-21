@@ -3,17 +3,13 @@ title: "웹 개발의 기초 내용들 정리"
 description: ""
 coverImage: "/assets/img/2024-05-27-BasicofWebDevelopment_0.png"
 date: 2024-05-27 18:45
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-27-BasicofWebDevelopment_0.png
 tag: Tech
 originalTitle: "Basic of Web Development"
 link: "https://medium.com/@aarishbangash/basic-of-web-development-da5d925a6650"
 isUpdated: true
 ---
-
-
-
-
 
 ![Basic of Web Development](/assets/img/2024-05-27-BasicofWebDevelopment_0.png)
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 먼저 사람은 프런트엔드, 백엔드 또는 풀 스택 개발자 가운데 어디로 갈지 결정해야 해. 프런트엔드에 대해 이야기해 보죠.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저 HTML (하이퍼텍스트 마크업 언어)를 배우는 것이 첫 단계입니다. 이것은 웹사이트를 구축하는 기본 요소입니다. HTML 없이는 웹사이트를 만들 수 없습니다. HTML을 배우는 것은 정말 쉽습니다. HTML의 모든 태그를 습득하는 데 최대 1주일이 걸릴 것입니다. 제목, 단락, div, span, 테이블, 순서 있는 목록, 순서 없는 목록, 강조 효과, 양식 관련 태그를 배워야 합니다.
 
@@ -34,6 +40,17 @@ HTML을 배운 후에는 CSS (캐스케이딩 스타일 시트)를 배우는 것
 
 그래서 HTML, CSS 및 JavaScript를 숙달한 후에는 거의 모든 종류의 웹사이트를 만들 수 있습니다. 그러나 부트스트랩, 리액트, 앵귤러, 넥스트.제이에스, 리액트 네이티브와 같은 다른 많은 기술들은 프론트엔드 개발자가 숙달해야 할 것입니다. 이러한 기술을 숙달함으로써 웹 개발자는 소프트웨어 회사나 프리랜서로 일할 수 있으며 상당한 돈을 벌 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![BasicofWebDevelopment_1](/assets/img/2024-05-27-BasicofWebDevelopment_1.png)

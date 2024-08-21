@@ -3,16 +3,13 @@ title: "프론트엔드 개발자로 30일만에 거듭나는 방법"
 description: ""
 coverImage: "/assets/img/2024-05-02-30DaysFrontenddevelopmentchallenge_0.png"
 date: 2024-05-02 00:28
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-02-30DaysFrontenddevelopmentchallenge_0.png
 tag: Tech
 originalTitle: "30 Days Front end development challenge"
 link: "https://medium.com/@mrsivaprakasha/30-days-front-end-development-challenge-04f764ffafee"
 isUpdated: true
 ---
-
-
-
 
 **주 1: 집중 기초**
 
@@ -28,7 +25,18 @@ isUpdated: true
 
 **주 3: 프레임워크 및 라이브러리**
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 15-17일: Tailwind CSS와 같은 CSS 프레임워크를 집중적으로 학습하여 유틸리티 우선 디자인 원칙을 마스터하세요. UI 구성 요소를 빠르게 프로토타입하세요.18-20일: React와 같은 JavaScript 라이브러리에 대해 깊이 알아가며 컴포넌트 기반 아키텍처와 상태 관리에 초점을 맞추세요. 동적 웹 애플리케이션을 구축하세요.21-21일: React 컴포넌트와 Tailwind CSS를 사용하여 복잡한 기능을 구현하는 실제 프로젝트 튜토리얼에 도전하세요.
 
@@ -38,10 +46,21 @@ isUpdated: true
 
 5주차: 숙련도 및 응용
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Days 29-31: 프로젝트를 검토하고 품질, 확장성 및 유지 보수성에 중점을 두어 다듬어보세요. 고급 기능 및 최적화를 구현해 보세요.
 Days 32-34: 코딩 도전 과제와 알고리즘 연습에 참여하여 문제 해결 능력을 향상시켜 보세요. 면접 준비 자료를 탐색해 보세요.
 Days 35-35: 학습 여정을 되돌아보고 개선할 점을 파악하고 지속적인 성장을 위한 목표를 설정해 보세요. 이 열정적인 주간 계획은 웹 개발 개념과 기술에 완전히 몰입시켜 구석구석을 탐험하며 발전을 가속화시킵니다. 여정 도중에도 집중력과 헌신을 유지하고 동기부여를 잃지 마세요.
 
- ![이미지](/assets/img/2024-05-02-30DaysFrontenddevelopmentchallenge_0.png)
+![이미지](/assets/img/2024-05-02-30DaysFrontenddevelopmentchallenge_0.png)

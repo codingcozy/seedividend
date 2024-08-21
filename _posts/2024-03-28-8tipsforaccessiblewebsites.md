@@ -3,17 +3,13 @@ title: "벌금 내기 싫으면 알아야하는 웹사이트 접근성을 8가�
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "8 tips for accessible websites"
 link: "https://medium.com/@arnoldgunter/8-tips-for-accessible-websites-9fb15978a926"
 isUpdated: true
 ---
-
-
-
-
 
 ## 다음 8가지 팁을 기억하면 개발 능력이 향상됩니다
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 팁 #1: 시맨틱 HTML 사용하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 의미 있는 HTML을 사용하면 웹 사이트를 올바르게 구성하고 접근성을 높일 수 있습니다. 의미 있는 HTML을 사용하면 웹 페이지의 콘텐츠 의미를 정의하고, 스크린 리더와 같은 보조 기술이 콘텐츠를 해석하고 사용자에게 제시하는 것이 더 쉬워집니다.
 
@@ -53,11 +60,33 @@ HTML5는 `div`를 대체하기 위한 새로운 의미 있는 HTML 요소를 도
 
 # 팁 #2: 이미지에 대체 텍스트 제공
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 마크다운 형식으로 변경해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 WCAG 표준에 따르면 텍스트와 배경 간의 최소 대조 비율은 4.5:1로 지정됩니다. 이 요구 사항을 염두에 두고 디자인하는 것이 중요합니다. 이를 통해 모든 사용자가 텍스트를 쉽게 구별하고 읽을 수 있도록 보장할 수 있습니다. 게다가 색상을 신중하고 적당히 사용하는 것은 웹 사이트에서 혼란과 정보 과부하를 방지하는 데 중요합니다.
 
@@ -67,7 +96,18 @@ WCAG 표준에 따르면 텍스트와 배경 간의 최소 대조 비율은 4.5:
 
 # 팁 #5: 보여주고 설명하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![8가지 접근성 있는 웹사이트를 위한 팁](/assets/img/8tipsforaccessiblewebsites_1.png)
 
@@ -77,7 +117,18 @@ WCAG 표준에 따르면 텍스트와 배경 간의 최소 대조 비율은 4.5:
 
 # 팁 #6: 일관성이 중요합니다
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비슷한 의미와 기능을 가진 요소들은 웹사이트 전체에서 비슷하게 보이도록 해야 합니다. 특히 `a`와 `button` 요소, 그리고 각 상태에 대해 사용자가 상호 작용할 수 있는 요소를 쉽게 식별하고 행동을 예측할 수 있어야 합니다.
 
@@ -87,7 +138,18 @@ WCAG 표준에 따르면 텍스트와 배경 간의 최소 대조 비율은 4.5:
 
 # 팁 #8: 접근성 도구로 테스트하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막 팁은 매우 중요합니다, 특히 많은 개발자들이 이것을 잊어버립니다.
 
@@ -97,7 +159,18 @@ WCAG 표준에 따르면 텍스트와 배경 간의 최소 대조 비율은 4.5:
 
 ![8가지 웹사이트 접근성 팁](/assets/img/8tipsforaccessiblewebsites_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 고맙습니다. 제 글을 읽어주셔서 감사합니다. 박수 한 번과 댓글을 남겨주시면 기쁠 거예요.
 

@@ -3,17 +3,13 @@ title: "앵귤러 컴포넌트를 동적으로 스타일링하는 6가지 방법
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "6 ways to dynamically style Angular components"
 link: "https://medium.com/swlh/6-ways-to-dynamically-style-angular-components-b43e037852fa"
 isUpdated: true
 ---
-
-
-
-
 
 웹에서 구성 요소 상태에 따라 업데이트되는 쓰기 스타일은 정말 흔한 패턴입니다. 하고 싶은 작업에 따라 스타일을 동적으로 업데이트하는 여러 가지 방법이 있습니다. 몇 가지 방법을 살펴보겠습니다.
 
@@ -23,13 +19,35 @@ isUpdated: true
 
 구성 요소의 스타일을 업데이트하는 가장 간단한 방법은 ngClass를 사용하는 것입니다. 이 지시문은 구성 요소 내에서 요소의 클래스 이름을 동적으로 추가하거나 변경할 수 있습니다. 버튼 요소를 기본 또는 보조로 표시하고 싶다고 가정해 봅시다. 다음과 같이 작성할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 코드를 사용하면 변수 isPrimary에 따라 버튼에 있는 주요 클래스를 토글합니다. 하지만 특정한 값으로 클래스를 설정하고 싶다면 어떻게 해야 할까요? Angular를 사용하면 다음과 같이 할 수 있습니다:
 
 여기서 buttonClass를 아무 문자열이나 설정할 수 있으며, 해당 문자열을 버튼 요소에 클래스로 사용할 수 있습니다. 우리의 SCSS에 유효한 선택자(예: .secondary)만 있다면, 이는 버튼 컴포넌트의 스타일을 동적으로 변경할 것입니다. Angular 문서에서 ngClass에 대해 더 읽어보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # ngStyle으로 사용자 정의하기
 
@@ -39,7 +57,18 @@ isUpdated: true
 
 # Host binding
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러한 지시사항들은 훌륭하지만, 요소 내부가 아닌 구성요소 자체의 스타일을 업데이트하려면 어떻게 해야 할까요? 이를 위해 HostBinding과 :host 선택자를 사용합니다.
 
@@ -49,7 +78,18 @@ isUpdated: true
 
 어떤 방법을 사용할지 결정할 때 트레이드오프가 있습니다. 각 클래스에 토글을 사용하여 보다 간단한 코드를 작성할 수 있지만, 이는 잠재적으로 클래스 충돌을 초래할 수 있습니다('primary'와 'secondary' 클래스가 모두 적용되는 경우 등). 잠재적으로 긴 클래스 문자열을 유지하거나 충돌을 제거하기 위해 토글을 유지할지 사용 사례에 따라 결정하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![6waystodynamicallystyleAngularcomponents_3](/assets/img/6waystodynamicallystyleAngularcomponents_3.png)
 
@@ -59,7 +99,18 @@ isUpdated: true
 
 ngStyle처럼 호스트 요소에 직접 스타일을 적용할 수 있습니다. 다시 한 번 말씀드리지만 인라인 스타일링은 스타일을 작성하는 권장되지 않는 방법입니다. 그러나 때로는 필요할 수 있습니다. 호스트 스타일을 동적으로 변경하려면 다시 HostBinding을 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/6waystodynamicallystyleAngularcomponents_5.png" />
 
@@ -71,7 +122,18 @@ WARNING: sanitizing unsafe style value {some value}
 
 # 인라인 스타일의 보안 방어하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 경고는 Angular가 XSS 공격을 방지하기 위해 자동으로 살균 처리할 수 없는 값 때문에 발생합니다. 제가 경험한 일반적인 값은 이미지 URL 및 복잡한 그리드 열/행 템플릿입니다.
 
@@ -81,7 +143,18 @@ WARNING: sanitizing unsafe style value {some value}
 
 그러나 이 접근 방식은 XSS 공격에 취약할 수 있으며 대부분의 프로젝트에서 권장되지 않습니다. 동적 스타일을 안전하게 업데이트할 수 있는 방법이 필요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 사용자 정의 속성
 
@@ -91,7 +164,18 @@ WARNING: sanitizing unsafe style value {some value}
 
 ![이미지](/assets/img/6waystodynamicallystyleAngularcomponents_7.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로 Angular 컴포넌트에서 사용자 정의 속성을 업데이트합니다:
 
@@ -101,7 +185,18 @@ WARNING: sanitizing unsafe style value {some value}
 
 ![image](/assets/img/6waystodynamicallystyleAngularcomponents_9.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/6waystodynamicallystyleAngularcomponents_10.png)
 

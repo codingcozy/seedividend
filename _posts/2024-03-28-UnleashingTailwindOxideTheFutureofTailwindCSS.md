@@ -3,17 +3,13 @@ title: "Tailwind Oxide란 무엇인가 테일윈드 CSS의 앞으로의 전망20
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Unleashing Tailwind Oxide The Future of Tailwind CSS"
 link: "https://medium.com/@tanay7/unleashing-tailwind-oxide-the-future-of-tailwind-css-7f1235de1751"
 isUpdated: true
 ---
-
-
-
-
 
 ![Unleashing Tailwind Oxide: The Future of Tailwind CSS](/assets/img/UnleashingTailwindOxideTheFutureofTailwindCSS_0.png)
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 간단하게 대답하면: 아니요, 망가뜨리지 않을 것입니다. Tailwind 팀은 기존 프로젝트와 하위 호환성을 유지하면서 내부적으로 업그레이드를 도입하는 것을 목표로 하고 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Tailwind Oxide Engine란 무엇인가요?
 
@@ -33,7 +40,18 @@ Tailwind Oxide Engine은 세 가지 주요 목표를 달성하도록 설계되�
 
 일반적으로 개발자는 Tailwind CSS와 함께 PostCSS, AutoPrefixer, 그리고 PostCSS Preset Env와 같은 여러 종속성을 관리해야 했습니다. Oxide는 이러한 기능을 통합하여 별도의 종속성이 필요하지 않게 하고, 쉽게 사용할 수 있는 경험을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 2) 라이트닝 CSS로 성능 향상
 
@@ -43,7 +61,18 @@ Oxide는 Parcel 팀이 개발한 Rust 기반 CSS 변환 도구인 라이트닝 C
 
 ## 3) 간소화된 구성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Oxide는 자동 콘텐츠 감지를 소개하여, 개발자가 Tailwind 클래스를 포함하는 파일 경로를 수동으로 지정할 필요가 없습니다. 이는 구성 오버헤드를 줄이고 개발 프로세스를 간소화합니다. 게다가, Oxide는 CSS 기반 구성을 탐색하여 Tailwind를 더 자연스럽고 직관적으로 느끼도록 노력합니다.
 
@@ -63,7 +92,18 @@ Oxide는 자동 콘텐츠 감지를 소개하여, 개발자가 Tailwind 클래�
 
 ![이미지](/assets/img/UnleashingTailwindOxideTheFutureofTailwindCSS_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단일 스레드에서 초당 2.7백만 줄의 코드를 처리하고 압축 할 수 있으며, Rust의 다중 스레딩 및 병렬 처리 능력을 활용하여 우수한 속도를 달성합니다. Oxide는 Tailwind의 빌드 시간을 크게 개선하여 현재 버전과 비교했을 때 2배 이상 빠르게 만들어줍니다.
 
@@ -74,10 +114,7 @@ Oxide는 자동 콘텐츠 감지를 소개하여, 개발자가 Tailwind 클래�
 ```js
 // Tailwind Oxide로 content 배열을 생략할 수 있습니다
 module.exports = {
-  content: [
-    "./src/app/**/*.{js,ts,jsx,tsx}",
-    "./src/pages/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["./src/app/**/*.{js,ts,jsx,tsx}", "./src/pages/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
       fontFamily: {
@@ -95,7 +132,18 @@ module.exports = {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 더불어, Tailwind Oxide에서 Tailwind import가 위치한 app.css 파일에서는 모든 import를 단일 라인으로 통합하여 프로세스를 간소화합니다:
 
@@ -115,7 +163,18 @@ module.exports = {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론:
 

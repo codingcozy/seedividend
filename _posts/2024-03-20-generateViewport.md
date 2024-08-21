@@ -3,17 +3,13 @@ title: "Nextjs 14에서 초기 뷰포트 생성하기generateViewport"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # Nextjs 14에서 초기 뷰포트 생성하기(generateViewport)
 
@@ -26,7 +22,18 @@ isUpdated: true
 
 ## 뷰포트 객체
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 뷰포트 옵션을 정의하려면 layout.jsx 또는 page.jsx 파일에서 viewport 객체를 내보내세요.
 
@@ -44,7 +51,18 @@ export default function Page() {}
 
 generateViewport 함수는 하나 이상의 뷰포트 필드를 포함한 Viewport 객체를 반환해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```typescript
 export function generateViewport({ params }) {
@@ -61,7 +79,18 @@ export function generateViewport({ params }) {
 
 ### themeColor
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테마 색상에 대해 더 알아보세요.
 
@@ -79,7 +108,18 @@ export const viewport: Viewport = {
 <meta name="theme-color" content="black" />
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 미디어 속성이 있는 테이블
 
@@ -101,7 +141,18 @@ export const viewport: Viewport = {
 
 ### 너비, 초기 확대, 최대 확대 및 사용자 확대 가능 여부
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 > 참고: 뷰포트 메타 태그는 자동으로 설정되며, 일반적으로 기본 설정이 충분하여 수동 구성이 필요하지 않습니다. 그러나 완전성을 위해 정보가 제공됩니다.
 
@@ -124,7 +175,18 @@ export const viewport: Viewport = {
 
 ### colorScheme
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Learn more about color-scheme.
 
@@ -142,7 +204,18 @@ export const viewport: Viewport = {
 
 ## Types
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Viewport 객체에 타입 안전성을 추가할 수 있습니다. Viewport 타입을 사용하여 뷰포트 객체에 타입을 설정할 수 있어요. IDE에 기본으로 제공된 TypeScript 플러그인을 사용 중이라면 타입을 수동으로 추가할 필요가 없지만, 원한다면 명시적으로 추가할 수도 있어요.
 
@@ -158,7 +231,18 @@ export const viewport: Viewport = {
 
 ### generateViewport 함수
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 #### 보통 함수
 
@@ -191,7 +275,18 @@ export function generateViewport({ params, searchParams }: Props): Viewport {
 export default function Page({ params, searchParams }: Props) {}
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 #### JavaScript 프로젝트
 
@@ -206,10 +301,32 @@ export const viewport = {
 
 ## 버전 이력
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 | Version   | Changes                                       |
 | --------- | --------------------------------------------- |
 | `v14.0.0` | `viewport` and `generateViewport` introduced. |
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

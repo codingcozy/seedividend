@@ -3,17 +3,13 @@ title: "쿼커스 대 Go 프레임워크 Hello World 성능"
 description: ""
 coverImage: "/assets/img/2024-05-16-QuarkusvsGoframeworksHelloWorldPerformance_0.png"
 date: 2024-05-16 16:27
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-16-QuarkusvsGoframeworksHelloWorldPerformance_0.png
 tag: Tech
 originalTitle: "Quarkus vs Go frameworks: Hello World Performance"
 link: "https://medium.com/deno-the-complete-reference/quarkus-vs-go-frameworks-hello-world-performance-03b8eb84dec7"
 isUpdated: true
 ---
-
-
-
-
 
 ![Quarkus vs Go frameworks Hello World Performance](/assets/img/2024-05-16-QuarkusvsGoframeworksHelloWorldPerformance_0.png)
 
@@ -23,8 +19,18 @@ In this article, we will focus on the simplest "Hello World" use case. We acknow
 
 A similar comparison with Spring Boot (powered by virtual threads) can be seen here:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 테스트 환경 구성
 
@@ -35,7 +41,18 @@ A similar comparison with Spring Boot (powered by virtual threads) can be seen h
 
 테스트는 Bombardier 로드 테스터를 사용하여 수행되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 애플리케이션 코드는 다음과 같습니다:
 
@@ -70,7 +87,18 @@ public class HelloWorldApplication {
 
 Gin
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```go
 package main
@@ -114,12 +142,23 @@ func main() {
 ```
 
 Echo
+
 ```go
 // Your Echo code goes here
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Results
 
@@ -127,9 +166,18 @@ Echo
 
 다음은 차트 형태로 표시된 결과입니다:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Quarkus vs Go frameworks - Hello World performance 1](/assets/img/2024-05-16-QuarkusvsGoframeworksHelloWorldPerformance_1.png)
 
@@ -139,9 +187,18 @@ Echo
 
 ![Quarkus vs Go frameworks - Hello World performance 4](/assets/img/2024-05-16-QuarkusvsGoframeworksHelloWorldPerformance_4.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image 5](/assets/img/2024-05-16-QuarkusvsGoframeworksHelloWorldPerformance_5.png)
 
@@ -151,9 +208,18 @@ Echo
 
 ![Image 8](/assets/img/2024-05-16-QuarkusvsGoframeworksHelloWorldPerformance_8.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지1](/assets/img/2024-05-16-QuarkusvsGoframeworksHelloWorldPerformance_9.png)
 
@@ -163,7 +229,18 @@ Echo
 
 먼저, 이번에는 경쟁이 훨씬 치열합니다. 이전에 Spring Boot를 사용했을 때 Go 프레임워크(비록 기능이 매우 적었지만)가 모든 측정치에서 Spring Boot를 능가했습니다. 그러나 Quarkus를 사용할 때는 결과가 매우 다릅니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Quarkus는 다른 Go 프레임워크보다 더 많은 초당 요청(RPS)을 처리할 수 있습니다. 게다가 Quarkus의 지연 시간 수치도 비슷합니다. 게다가 Quarkus는 Go보다 적은 CPU를 사용합니다. Quarkus가 부족한 유일한 부분은 메모리 사용량입니다 (250M 대 30M).
 

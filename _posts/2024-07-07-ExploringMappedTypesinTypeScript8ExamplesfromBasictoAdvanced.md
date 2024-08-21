@@ -3,15 +3,13 @@ title: "TypeScript 맵드 타입 알아보기 기초부터 고급까지 8가지 
 description: ""
 coverImage: "/assets/img/2024-07-07-ExploringMappedTypesinTypeScript8ExamplesfromBasictoAdvanced_0.png"
 date: 2024-07-07 22:01
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-ExploringMappedTypesinTypeScript8ExamplesfromBasictoAdvanced_0.png
 tag: Tech
 originalTitle: "Exploring Mapped Types in TypeScript: 8 Examples from Basic to Advanced"
 link: "https://medium.com/javascript-in-plain-english/exploring-mapped-types-in-typescript-8-examples-from-basic-to-advanced-b3b409172c35"
 isUpdated: true
 ---
-
-
 
 Markdown 형식의 표를 변경하실게요.
 
@@ -23,7 +21,18 @@ TypeScript의 Mapped types은 한 타입의 속성을 다른 타입으로 변환
 
 TypeScript에서는 때때로 한 타입의 속성을 다른 타입으로 변환해야 할 때가 있습니다. 이것은 Mapped types를 사용하여 쉽게 실현할 수 있습니다. 아래에서는 한 Product 타입의 속성을 문자열 타입으로 변환하는 방법을 구체적인 예제를 통해 시연하겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 1. 제품 유형 정의하기
 
@@ -39,7 +48,18 @@ type Product = {
 
 ## 2. 제품을 문자열로 변환하는 유형 정의하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그 다음, 우리는 새로운 타입인 ProductToString을 정의합니다. 이 타입은 Product 타입의 모든 속성을 문자열 타입으로 변환합니다.
 

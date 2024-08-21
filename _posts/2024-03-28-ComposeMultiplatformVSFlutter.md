@@ -3,17 +3,13 @@ title: "Cross-Platform VS Flutter 비교 정리2024년"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Compose Multiplatform VS Flutter"
 link: "https://medium.com/newsoft-official/compose-multiplatform-vs-flutter-771673612c61"
 isUpdated: true
 ---
-
-
-
-
 
 안녕하세요! 저는 Artem이라고 합니다. 안드로이드와 플러터를 사용하여 8년간의 모바일 개발 경험을 가진 뉴소프트(Newsoft)의 시니어 모바일 개발자입니다.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 Compose Multiplatform은 또 다른 크로스 플랫폼 개발을 위한 프레임워크입니다. UI 프레임워크가 구글에 의해 개발되었지만, 프로그래밍 언어인 코틀린(Kotlin) 및 크로스 플랫폼 부분(KMP)은 젯브레인즈(JetBrains)가 개발했습니다. Android, iOS (알파), 윈도우, 맥OS, 리눅스, 웹 (실험적)과 같은 플랫폼을 지원합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 두 가지 전혀 다른 그러나 매우 유사한 기술의 다양한 측면을 비교하고 각 카테고리의 우승자를 선정해 봅시다. 평가 및 카테고리는 주관적이며 전혀 과학적이 아니지만 흥미로울 것입니다. 또한, 이 형식은 가장 흔한 모바일 개발에 초점을 맞춥니다.
 
@@ -33,7 +40,18 @@ Compose Multiplatform은 또 다른 크로스 플랫폼 개발을 위한 프레�
 
 플러터(Flutter)와 Compose Multiplatform 모두에 대한 잘 쓰여진 설정 가이드가 있습니다. 이러한 기술 각각에 대해 주요 IDE는 안드로이드 스튜디오(Android Studio)입니다. Flutter의 경우, 플러터 플러그인을 설치해야 합니다. iOS의 경우 — Xcode가 필요합니다. 두 경우 모두 문제가 없었습니다. 그러나 Compose Multiplatform 설정 가이드에는 최신 버전의 Xcode가 작동하지 않을 수 있고 오래된 버전 중 하나를 설치해야 한다는 내용이 있습니다. 제 경우에는 Xcode 15에서도 문제가 없었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 비겁한 게임입니다:
 
@@ -44,7 +62,18 @@ Compose Multiplatform — 1
 
 Flutter
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 플러터의 핵심은 C/C++로 개발된 Engine입니다. 이 엔진은 그래픽을 그리는 것(아이폰에서는 Impeller 및 안드로이드 프리뷰에서는 Skia)과 I/O 작업, Dart 런타임, 컴파일 도구 체인 등을 담당합니다.
 
@@ -52,7 +81,18 @@ Flutter Engine은 Dart 코드와 함께 애플리케이션에 패키지되며, �
 
 ![Compose Multiplatform](/assets/img/ComposeMultiplatformVSFlutter_0.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Compose Multiplatform은 구글의 Jetpack Compose와 JetBrains의 KMP를 기반으로 합니다.
 
@@ -62,7 +102,18 @@ Compose Multiplatform은 구글의 Jetpack Compose와 JetBrains의 KMP를 기반
 
 ![ComposeMultiplatformVSFlutter_1](/assets/img/ComposeMultiplatformVSFlutter_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/ComposeMultiplatformVSFlutter_2.png)
 
@@ -72,7 +123,18 @@ Compose Multiplatform은 구글의 Jetpack Compose와 JetBrains의 KMP를 기반
 
 플러터와 Compose Multiplatform의 공통점은 두 프레임워크 모두 React Native와 달리 플랫폼 네이티브 위젯을 사용하지 않는다는 것입니다. 각각의 경우, 프레임워크는 Skia 또는 유사한 도구를 사용하여 동일하게 모든 컴포넌트를 처음부터 독립적으로 그립니다. 이 부분은 장점으로 생각됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 거축 자체도 애플리케이션 개발에 직접적인 영향을 미칠 수 있다는 점에서 고려할 가치가 있습니다. Flutter로 모든 것이 간단해요. Dart로 코드를 작성하고 지원하는 플랫폼에서 작동합니다. 필요한 경우 플랫폼별 코드를 작성하여 채널을 통해 Dart에 연결하거나 커뮤니티에서 준비한 플러그인을 사용할 수 있어요.
 
@@ -82,7 +144,18 @@ Compose Multiplatform을 사용하면 약간 더 복잡해요. 여기서는 Kotl
 
 프로젝트 구조를 변경하는 것 외에도 코드와 종속성을 리뷰해야 해요. 안드로이드나 자바 패키지에 의존하는 코드는 안드로이드 전용으로 유지하면 작동할 뿐이며, 이것이 바로 크로스 플랫폼 응용 프로그램에서 원하는 것은 아닌 것 같아요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 세 번째로, 서드 파티 라이브러리에도 동일한 제한이 적용됩니다. 라이브러리에 대해 더 자세히 나중에 다루겠습니다.
 
@@ -93,7 +166,18 @@ Compose Multiplatform을 사용하면 약간 더 복잡해요. 여기서는 Kotl
 
 ### 3. 서드 파티 라이브러리
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 플러터
 
@@ -103,7 +187,18 @@ Compose Multiplatform을 사용하면 약간 더 복잡해요. 여기서는 Kotl
 
 Compose Multiplatform
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 구글에서 제공하는 많은 라이브러리들이 (아마도 모두) 작동하지 않을 것이니, 거의 모든 것에 대해 예전처럼 제3자 라이브러리를 사용해야 할 것입니다. 예를 들어, 내비게이션, 뷰 모델, 룸과 같은 기능을 구성하는 것들은 지원되지 않습니다.
 그러나 동시에, Multiplatform에서 Koin, Kodein, Realm, SQLDelight와 같은 인기 있는 라이브러리들을 사용할 수 있습니다.
@@ -115,7 +210,18 @@ Compose Multiplatform
 플러터 - 3
 Compose Multiplatform - 1
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 4 프로그래밍 언어
 
@@ -125,7 +231,18 @@ Compose Multiplatform - 1
 
 2023년에는 인터페이스 클래스, 베이스 클래스, 파이널 클래스 및 시크릿 클래스 변경자를 추가한 Dart 3 업데이트가 출시되었습니다. 비동기 프로그래밍을 위해 async/await 메커니즘이 있고, 반응형 프로그래밍을 위해 스트림과 rxdart 라이브러리가 있습니다. 일반적으로 이 언어는 나쁘지 않으며, Java와 유사하지만 일부 기능이 있습니다. Kotlin만큼 간결하지는 않고, 보다 복잡한 구문을 갖고 있으며, 데이터 클래스와 같은 작고 중요한 기능을 갖고 있지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 간단한 클래스와 널 가능성에 대한 예제입니다 (이 클래스는 equals, hashCode 및 toString을 구현하지 않았기 때문에 라이브러리를 사용해야 합니다. 예를 들어 이거나 이것):
 
@@ -156,7 +273,18 @@ Compose Multiplatform: Kotlin
 
 코틀린은 JetBrains에서 개발되었습니다. 처음에는 Java의 대체 언어로 만들어졌습니다. 현재 코틀린은 Android의 주요 프로그래밍 언어이며, JVM 바이트 코드뿐만 아니라 네이티브 이진 파일이나 JavaScript로도 컴파일할 수 있습니다. 강력한 타이핑을 지원하며, 널 안전성을 갖추고, 객체 지향 및 함수형 프로그래밍을 지원하며, Java 및 Objective-C와 상호 운용성을 갖추고 있습니다. 비동기 프로그래밍에는 코루틴 메커니즘이 있으며, 반응형 프로그래밍에는 Flow가 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 코틀린은 많은 좋은 구문 단축과 매우 간결한 구문을 가지고 있어요.
 
@@ -182,7 +310,18 @@ fun checkPersonName() {
 
 결론:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 언어 모두 편리하고 배우기 쉽며 다양한 현대 기능을 갖추고 있어요.
 
@@ -193,7 +332,18 @@ Compose Multiplatform — 2
 
 # 5 UI 프레임워크
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 두 프레임워크 모두 Declarative UI 패러다임을 따릅니다. 물론 세부사항과 차이점이 많이 있어서 이에 대한 별도의 기사를 쉽게 쓸 수 있습니다. 여기서는 UI를 구축하는 데 사용할 기본 구성 요소를 살펴보겠습니다. 이를 통해 일반적으로 프레임워크를 다루는 것에 대한 대략적인 아이디어를 얻을 수 있습니다.
 
@@ -201,7 +351,18 @@ Flutter에서는 위젯을 사용하고, Compose에서는 composable function을
 
 버튼을 클릭하여 변경할 수 있는 내부 상태를 가진 간단한 위젯을 구현해 보겠습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 플러터는 Stateless와 Stateful 위젯을 별도의 클래스로 구분합니다. Stateful 위젯의 경우에는 위젯 자체와 State 클래스 두 개를 구현해야 합니다:
 
@@ -268,7 +429,18 @@ class _CounterWidgetState extends State<CounterWidget> {
 
 여기 몇 가지 언급할 사항이 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 매개변수는 State 클래스 생성자를 통해 전달할 수 있지만 필수는 아닙니다. 또한 Widget 클래스의 필드는 widget 필드를 통해 접근할 수 있습니다.
 
@@ -278,7 +450,18 @@ class _CounterWidgetState extends State<CounterWidget> {
 
 결과:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![ComposeMultiplatformVSFlutter_3](/assets/img/ComposeMultiplatformVSFlutter_3.png)
 
@@ -324,7 +507,18 @@ fun Counter(backgroundColor: Color, borderColor: Color) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 코드는 플러터 코드와 동일한 위젯을 구현합니다. 몇 가지 주요 차이점이 있습니다.
 
@@ -336,7 +530,18 @@ var counter by remember { mutableStateOf(0) }
 
 다음으로, 우리는 카운터를 일반 필드처럼 처리하고, 값이 업데이트되면 해당 부분의 UI가 다시 그려집니다. 변경 가능한 객체를 기억해야 하는 것은 불변 객체만이어야 하는데, 가변 객체의 수정은 재구성으로 이어지지 않습니다. 위젯 구조는 플러터와 매우 유사하지만 여기서는 몇 가지를 위젯 단위로 달리하는 대신에 수정자(Modifier)를 사용하여 일부가 구현됩니다. Modifier.padding, Modifier.clickable에 주목해주세요. 테두리도 Modifier.border를 사용하여 구현되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결과:
 
@@ -346,7 +551,18 @@ var counter by remember { mutableStateOf(0) }
 
 구현 코드가 상당히 다르지만, 두 프레임워크 모두 유사한 철학을 공유합니다. 네, 플러터에서 더 많은 코드를 작성해야 하지만 그 이유는 프레임워크 자체가 아닌 Dart 언어에 부분적으로 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 둘 다 사용하기 쉬운 현대적인 선언형 UI 프레임워크이며, 무승부입니다.
 
@@ -357,7 +573,18 @@ var counter by remember { mutableStateOf(0) }
 
 크로스 플랫폼 개발에서는 언젠가 플랫폼의 네이티브 API와 어떠한 방식으로든 통신해야 할 필요가 있습니다. Compose Multiplatform와 Flutter이 이를 제공하는 방법에 대해 알아봅시다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 플러터
 
@@ -367,7 +594,18 @@ var counter by remember { mutableStateOf(0) }
 
 플러터에 채널을 추가하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const platform = MethodChannel('samples.flutter.dev/platform');
@@ -406,7 +644,18 @@ class MainActivity: FlutterActivity() {
 
 iOS:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```swift
 @UIApplicationMain
@@ -446,7 +695,18 @@ iOS:
 
 네이티브 코드나 네이티브 위젯을 다루어야 하는 경우, 이미 공식 또는 비공식 라이브러리가 생성되어 있는 경우가 많으므로 주목할 가치가 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, Google 지도와 함께 작업하는 Flutter 위젯이나 로컬 알림을 처리하는 라이브러리가 있습니다.
 
@@ -456,7 +716,18 @@ Compose Multiplatform
 
 예를 들어, 공통 모듈에 expect 클래스를 생성합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // KMP Class Definition
@@ -477,7 +748,18 @@ actual class Platform actual constructor() {
 
 Android 모듈에서 사용하는 실제 클래스:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // Android
@@ -492,7 +774,18 @@ objective-C와의 상호 운용도 있습니다.
 
 네이티브 위젯과 함께 Compose 위젯을 사용하는 것에 대해선 다음과 같습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안드로이드 - 젯팩 콤포즈와 콤포즈 멀티플랫폼의 대부분 위젯은 동일합니다. 모든 것이 여기서 간단해요. 안드로이드 특정 코드가 있는 곳만 수정하면 됩니다. 예를 들어, 리소스에 액세스하기 위해 모코 라이브러리를 사용할 수 있습니다.
 
@@ -502,7 +795,18 @@ objective-C와의 상호 운용도 있습니다.
 
 콤포즈는 이기고, 코틀린 멀티플랫폼의 힘으로 한 가지 프로그래밍 언어를 사용하여 네이티브 API와 통신할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 플러터 - 4
 Compose Multiplatform - 4
@@ -513,7 +817,18 @@ Compose Multiplatform - 4
 
 UI 작업
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 미리보기 기능이 없으므로 코드를 변경한 후 에뮬레이터를 참조해야 합니다. 이 문제는 Flutter가 빠르고 잘 작동하는 핫 리로드를 보유하고 있어 부분적으로 보상받을 수 있습니다. 위젯을 변경하고 파일을 저장하면 즉시 에뮬레이터에 반영됩니다.
 
@@ -523,7 +838,18 @@ Flutter 개발 도구라는 매우 편리한 도구가 있습니다. 이 도구�
 
 ![이미지](/assets/img/ComposeMultiplatformVSFlutter_5.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 디버거
 
@@ -533,7 +859,18 @@ Flutter 개발 도구라는 매우 편리한 도구가 있습니다. 이 도구�
 
 Compose Multiplatform
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 UI 작업 중
 
@@ -543,7 +880,18 @@ Jetpack Compose에는 매우 멋진 기능이 있습니다 - @Preview 어노테�
 
 그러나 @Preview는 Compose Multiplatform과 함께 작동하지 않으며 Android 모듈의 composable 함수에만 추가할 수 있습니다. 이론적으로 코드 공유 모듈에 적합한 함수를 두고 Android 모듈에서 @Preview 어노테이션을 사용하여 간단한 래퍼를 추가할 수 있지만 현재 이 접근 방식에 문제가 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아마 핫 리로드를 해보면 도움이 될지도 모르겠어요.
 
@@ -553,7 +901,18 @@ Jetpack Compose에는 매우 멋진 기능이 있습니다 - @Preview 어노테�
 
 안드로이드에서는 프로파일러가 안드로이드 스튜디오에서 작동합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 xcode instruments는 iOS에서 작동해야 합니다. 저는 연결을 할 수 없었지만, 발표 중에 모든 것이 잘 해결되었습니다.
 
@@ -563,7 +922,18 @@ xcode instruments는 iOS에서 작동해야 합니다. 저는 연결을 할 수 
 
 지금은 Flutter에서 개발하는 것이 조금 더 편리하지만, 결국 Compose Multiplatform을 선호하게 될 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 플러터 — 5
 
@@ -575,7 +945,18 @@ xcode instruments는 iOS에서 작동해야 합니다. 저는 연결을 할 수 
 
 저는 컴포즈 멀티플랫폼을 사용하는 것을 즐겼습니다. 컴포즈와 코틀린을 좋아하기 때문입니다. 그러나 모바일 크로스 플랫폼 개발에는 아직 충분히 성숙해지지 않았다는 점에 동의해야 합니다. 개발자들이 솔직하게 이야기하는 것을 듣습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 2023년 5월 발표에서 스크린샷을 공유해 드립니다:
 
@@ -586,7 +967,18 @@ xcode instruments는 iOS에서 작동해야 합니다. 저는 연결을 할 수 
 Flutter — 6
 Compose Multiplatform — 4
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 9 최종 결과
 
@@ -597,6 +989,17 @@ Flutter에는 단점이 있지만, 모바일 크로스 플랫폼 개발에 자�
 
 Compose Multiplatform은 매우 유망한 기술이며, Google은 이미 Jetpack을 위한 Compose Multiplatform 지원에 대해 작업 중입니다. 몇 년 뒤에는 Flutter의 강력한 경쟁 상대가 될 수도 있습니다. 놀랍게도 둘 다 Google에 의해 부분적으로 또는 완전히 개발되었음에도 불구하고요. 혹시 Google 제품 묘지에 새로운 참가자가 생길지도 모르겠네요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 지금은 실험이나 개인 프로젝트에만 Compose Multiplatform을 사용하고 있어요.

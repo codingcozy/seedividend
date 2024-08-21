@@ -3,17 +3,13 @@ title: "Nextjs 14 exportPathMap 사용 방법 정리"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # Nextjs 14 exportPathMap 사용 방법 정리
 
@@ -23,7 +19,18 @@ exportPathMap을 사용하면 내보내기 중에 요청 경로를 페이지 대
 
 예제를 통해 시작해 보겠습니다. 다음 페이지를 갖는 앱에 대해 사용자 정의 exportPathMap을 만들어 보겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - pages/index.js
 - pages/about.js
@@ -47,7 +54,18 @@ module.exports = {
 
 > 정보: exportPathMap의 쿼리 필드는 next export 시 HTML 파일로 빌드될 때 자동으로 정적으로 최적화된 페이지나 getStaticProps 페이지와 함께 사용할 수 없습니다. 추가적인 쿼리 정보는 next export 중에 제공할 수 없습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 페이지들은 HTML 파일로 내보내질 것이고, 예를 들어, /about은 /about.html로 변환될 것입니다.
 
@@ -61,7 +79,18 @@ exportPathMap은 2개의 인자를 받는 비동기 함수입니다: 첫 번째�
 
 반환된 객체는 페이지의 맵이며, 키는 pathname이고, 값은 다음 필드를 사용하는 객체입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - page: 문자열 - 렌더링할 페이지(페이지 디렉토리 내에서)
 - query: 객체 - 프리랜더링 시 getInitialProps에 전달되는 쿼리 객체. 기본값은 {}
@@ -72,7 +101,18 @@ exportPathMap은 2개의 인자를 받는 비동기 함수입니다: 첫 번째�
 
 Next.js를 구성하여 페이지를 index.html 파일로 내보내고 뒤쪽 슬래시를 필요로하는 것도 가능합니다. /about은 /about/index.html로 변환되며 /about/을 통해 라우팅됩니다. 이것은 Next.js 9 이전의 기본 동작이었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 표를 Markdown 형식으로 변경하고 뒤에 슬래시를 추가하려면 next.config.js를 열고 trailingSlash 구성을 활성화하세요:
 
@@ -86,7 +126,18 @@ module.exports = {
 
 next export는 기본 출력 디렉토리로 out을 사용합니다. -o 인수를 사용하여 이를 사용자 정의할 수 있습니다. 다음과 같이 사용하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 다음 export -o outdir
@@ -94,4 +145,15 @@ next export는 기본 출력 디렉토리로 out을 사용합니다. -o 인수�
 
 > 경고: exportPathMap 사용은 더 이상 권장되지 않으며 pages 내의 getStaticPaths에 의해 무시됩니다. 함께 사용하는 것을 권장하지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

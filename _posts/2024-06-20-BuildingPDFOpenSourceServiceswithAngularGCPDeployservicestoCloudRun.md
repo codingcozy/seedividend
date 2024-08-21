@@ -3,16 +3,13 @@ title: "Angular 및 GCP를 활용한 PDF 오픈 소스 서비스 구축 - 클라
 description: ""
 coverImage: "/assets/img/2024-06-20-BuildingPDFOpenSourceServiceswithAngularGCPDeployservicestoCloudRun_0.png"
 date: 2024-06-20 05:44
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-BuildingPDFOpenSourceServiceswithAngularGCPDeployservicestoCloudRun_0.png
 tag: Tech
 originalTitle: "Building PDF Open Source Services with Angular , GCP — Deploy services to Cloud Run"
 link: "https://medium.com/itnext/building-pdf-open-source-services-with-angular-gcp-deploy-services-to-cloud-run-686b5b8fb87b"
 isUpdated: true
 ---
-
-
-
 
 ![image](/assets/img/2024-06-20-BuildingPDFOpenSourceServiceswithAngularGCPDeployservicestoCloudRun_0.png)
 
@@ -23,7 +20,18 @@ isUpdated: true
 
 데모: https://pdfun.xyz
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해결책은 GCP 생태계를 중심으로 구축되었으므로 프로젝트를 GCP에 배포하는 것이 좋습니다. 그렇게 하면 서비스에 액세스할 수 있습니다. 해결책은 두 부분으로 구성됩니다:
 
@@ -34,7 +42,18 @@ isUpdated: true
 
 Cloud Run은 Google Cloud Platform(GCP)에서 제공하는 완전히 관리되는 컴퓨팅 플랫폼으로 stateless 컨테이너를 자동으로 확장시킵니다. 그렇다면 왜 우리는 서비스를 배포할 때 Cloud Run을 선택해야 할까요? 여기에 몇 가지 이유가 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Cloud Run은 장기 실행 작업을 지원하여 서비스를 배포하기에 훌륭한 선택입니다. 서비스는 최대 60분 동안 실행되며, 계산 시간이 많이 필요한 작업을 수용할 수 있습니다.
 - 이외에도 Cloud Run은 자동 스케일링, 개발자 친화적 환경, 통합 로깅 및 모니터링, 사용량에 따른 요금 체계, 다양한 플랫폼 간 이식성 등의 혜택을 제공합니다. 이로써 PDF 서비스를 배포하기 위한 다목적이고 비용 효율적인 솔루션이 됩니다.
@@ -45,7 +64,18 @@ Cloud Run은 서비스를 배포하기 위해 도커 이미지를 사용하므�
 
 ### Prerequisites
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시작하기 전에 다음 사항을 확인해주세요:
 
@@ -57,7 +87,18 @@ Cloud Run은 서비스를 배포하기 위해 도커 이미지를 사용하므�
 
 ## 도커 이미지 빌드하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로 프로젝트와 Docker 이미지를 빌드해야 합니다. 이는 docker build 명령을 사용하여 수행할 수 있습니다. 이미지에 레지스트리 이름을 태그하는 것을 잊지 마세요. 예를 들어:
 
@@ -73,7 +114,18 @@ REGIONS, GCLOUD_PROJECT, REPO 및 image를 Google Cloud 프로젝트 ID, 이미�
 
 ## Artefact Registry로 이미지 푸시
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이미지를 빌드하고 나면, docker push 명령어를 사용하여 Artifact Registry에 이미지를 푸시할 수 있어요:
 
@@ -85,7 +137,18 @@ docker push $imageTag
 
 이미지가 Artifact Registry에 등록되었으니, 클라우드 런에 새 서비스를 생성할 수 있어요. PDF 서비스를 배포하려면 다음 명령어를 실행하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 gcloud run deploy pdfun \
@@ -100,13 +163,35 @@ gcloud run deploy pdfun \
 
 서비스를 배포할 때 Nx는 간편한 프로세스를 제공합니다. 구성 후에는 영향을 받는 앱만 배포할 수 있도록 하기 위해 yarn deploy를 실행하기만 하면 됩니다. 예를 들어 프론트엔드만 업데이트하는 경우 프론트엔드만 빌드되고 배포됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 저희가 배포 명령어를 실행한 후 무슨 일이 벌어지는지에 대해, 커밋을 비교하여 main 브랜치의 최신 커밋과 함께 영향 받는 프로젝트에 대해 배포 대상을 실행합니다.
 
 pdfun 애플리케이션의 project.json을 확인해 봅시다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // project.json
@@ -149,7 +234,18 @@ npx nx deploy-cloudrun pdf
 
 이 명령들은 이어서 도커 이미지를 빌드하고 해당 이미지를 푸시한 후 Artifact Registry에 업로드된 이미지를 기반으로 Cloud Run 서비스를 배포할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기 결과입니다:
 
@@ -177,7 +273,18 @@ $ npx nx affected -t deploy --base=main~1 --head=main
 
 # 궁금한 점이 있으신가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 문제가 있거나 궁금한 점이 있으면 언제든지 GitHub 레포지토리에 이슈를 생성해주세요. 또는 채팅을 통해 저와 대화할 수도 있어요. 도와드리고 피드백을 받는 것을 기쁘게 생각할 거예요.
 

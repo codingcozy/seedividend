@@ -3,17 +3,13 @@ title: "Nextjs 12에서 13으로 마이그레이션 하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # Nextjs 12에서 13으로 마이그레이션 하는 방법
 
@@ -25,7 +21,18 @@ isUpdated: true
 
 ## 업그레이드하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### Node.js 버전
 
@@ -35,7 +42,18 @@ isUpdated: true
 
 Next.js 버전 13으로 업데이트하려면 선호하는 패키지 관리자를 사용하여 다음 명령을 실행하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm install next@latest react@latest react-dom@latest
@@ -49,7 +67,18 @@ npm install next@latest react@latest react-dom@latest
 npm install -D eslint-config-next@latest
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 > 좋은 정보: ESLint 변경 사항이 적용되려면 VS Code에서 ESLint 서버를 다시 시작해야 할 수 있습니다. 명령 팔레트(맥: cmd+shift+p, 윈도우: ctrl+shift+p)를 열고 ESLint: 리스타트 ESLint 서버를 검색하세요.
 
@@ -60,7 +89,18 @@ npm install -D eslint-config-next@latest
 - 새로운 기능 업그레이드: 개선된 이미지 및 링크 컴포넌트와 같은 새로운 기능으로 업그레이드하는 데 도움이 되는 가이드입니다.
 - 페이지에서 앱 디렉터리로 마이그레이션: 페이지에서 앱 디렉터리로 단계별로 이동하는 데 도움이 되는 안내서입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 새로운 기능 업그레이드
 
@@ -70,7 +110,18 @@ Next.js 13로 업그레이드하면 새 App 라우터를 사용해야 하는 것
 
 ### `Image/` 컴포넌트
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Next.js 12에서는 임시로 import된 next/future/image를 사용하여 Image Component에 새로운 개선 사항이 도입되었습니다. 이러한 개선 사항은 클라이언트 측 JavaScript가 줄어들었고, 이미지를 확장하고 스타일을 쉽게 적용할 수 있는 방법이 개선되었으며, 더 나은 접근성과 웹 브라우저의 네이티브 Lazy Loading을 포함하고 있습니다.
 
@@ -81,7 +132,18 @@ Next.js 12에서는 임시로 import된 next/future/image를 사용하여 Image 
 - next-image-to-legacy-image codemod: next/image를 next/legacy/image로 안전하고 자동으로 이름을 변경합니다. 기존 구성 요소는 동일한 동작을 유지합니다.
 - next-image-experimental codemod: 인라인 스타일을 위험하게 추가하고 사용되지 않는 props를 제거합니다. 이를 통해 기존 구성 요소의 동작이 새로운 기본 설정과 일치하도록 변경됩니다. 이 Codemod를 사용하려면 먼저 next-image-to-legacy-image Codemod를 실행해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### `Link` 컴포넌트
 
@@ -103,7 +165,18 @@ import Link from 'next/link'
 </Link>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Next.js 13로 링크를 업그레이드하려면 새 링크 코드 변환 도구를 사용할 수 있어요.
 
@@ -115,7 +188,18 @@ next/script의 동작이 업데이트되어 페이지와 앱을 모두 지원하
 - 실험적인 worker 전략은 아직 앱에서 작동하지 않으며 이 전략으로 표시된 스크립트는 제거하거나 다른 전략(예: lazyOnload)을 사용하도록 수정해야 합니다.
 - Server Components에서는 onLoad, onReady 및 onError 핸들러가 작동하지 않으므로 이를 Client Component로 이동하거나 제거하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 글꼴 최적화
 
@@ -125,7 +209,18 @@ next/script의 동작이 업데이트되어 페이지와 앱을 모두 지원하
 
 `next/font` 사용 방법을 알아보려면 "글꼴 최적화" 페이지를 참조해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 페이지에서 앱으로 이주하기
 
@@ -136,7 +231,18 @@ next/script의 동작이 업데이트되어 페이지와 앱을 모두 지원하
 
 저희는 마이그레이션을 더 작은 단계로 나누어 복합 복잡성을 줄이는 것을 권장합니다. 앱 디렉터리는 페이지 디렉터리와 동시에 작동하도록 의도적으로 설계되었으며, 페이지별 이주를 점진적으로 할 수 있게 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 앱 디렉터리는 중첩된 경로와 레이아웃을 지원합니다. 자세히 알아보세요.
 - 루트를 정의하기 위해 중첩 폴더를 사용하고 route 세그먼트를 공개적으로 접근 가능하게 만들기 위해 특별한 page.js 파일을 사용하세요. 자세히 알아보세요.
@@ -162,7 +268,18 @@ next/script의 동작이 업데이트되어 페이지와 앱을 모두 지원하
 npm install next@latest
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 루트 디렉토리 (또는 src/ 디렉토리)에 새 앱 디렉토리를 만드세요.
 
@@ -186,7 +303,18 @@ export default function RootLayout({
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 앱 디렉토리에는 루트 레이아웃이 포함되어 있어야 합니다.
 - 루트 레이아웃은 `html` 및 `body` 태그를 정의해야 합니다. Next.js는 자동으로 생성하지 않기 때문입니다.
@@ -206,7 +334,18 @@ export const metadata: Metadata = {
 
 #### \_document.js 및 \_app.js로 마이그레이션하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기존에 \_app 또는 \_document 파일이 있으면 내용(예: 전역 스타일)을 루트 레이아웃(app/layout.tsx)으로 복사할 수 있습니다. app/layout.tsx의 스타일은 페이지들(\*)에 적용되지 않습니다. 페이지들이 깨지지 않도록 마이그레이션하면서 \_app/\_document를 유지해야 합니다. 완전히 마이그레이션한 후에는 안전하게 삭제할 수 있습니다.
 
@@ -216,7 +355,18 @@ React Context 제공자를 사용 중이라면 클라이언트 컴포넌트로 �
 
 Next.js는 페이지 디렉터리에서 페이지별 레이아웃을 얻기 위한 속성을 추가하는 것을 권장합니다. 이 패턴은 앱 디렉터리에서 중첩된 레이아웃을 네이티브로 지원하는 것으로 대체될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 단계 3: next/head 이동
 
@@ -238,7 +388,18 @@ export default function Page() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 마크다운 형식으로 바꾼 코드다.
 
@@ -258,7 +419,18 @@ export default function Page() {
 
 ### 단계 4: 페이지 이전
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 앱 디렉토리의 페이지는 기본적으로 서버 컴포넌트입니다. 이는 페이지 디렉토리와는 다르며, 페이지는 클라이언트 컴포넌트입니다.
 - 데이터 가져오기는 앱에서 변경되었습니다. getServerSideProps, getStaticProps 및 getInitialProps는 더 간단한 API로 대체되었습니다.
@@ -277,7 +449,18 @@ export default function Page() {
 
 > 참고: 페이지 디렉토리와 가장 유사한 동작을 가지므로, 이 경로가 가장 쉬운 마이그레이션 경로입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단계 1: 새 클라이언트 컴포넌트 만들기
 
@@ -305,7 +488,18 @@ export default function HomePage({ recentPosts }) {
 
 단계 2: 새 페이지 만들기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 앱 디렉토리 안에 새로운 앱/page.tsx 파일을 생성해주세요. 이 파일은 기본적으로 Server Component입니다.
 - 페이지 안에 있는 home-page.tsx Client Component를 Import해주세요.
@@ -337,7 +531,18 @@ return `<HomePage recentPosts={recentPosts} />`
 
 앱 안에서는 next/navigation에서 Import한 세 가지 새로운 후크를 사용해야 합니다: useRouter(), usePathname(), useSearchParams().
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 새로운 useRouter 훅은 next/navigation에서 import되며, next/router에서 import되는 페이지의 useRouter 훅과는 다른 동작을 합니다.
   next/router에서 import된 useRouter 훅은 앱 디렉토리에서 지원되지 않으나 페이지 디렉토리에서 계속 사용할 수 있습니다.
@@ -368,7 +573,18 @@ export default function ExampleClientComponent() {
 - asPath가 제거되었습니다. 새로운 라우터에서 as 개념이 제거되었기 때문에.
 - isReady가 제거되었습니다. 이제 더 이상 필요하지 않습니다. 정적 렌더링 중 useSearchParams() 훅을 사용하는 모든 컴포넌트는 사전 렌더링 단계를 건너뛰고 대신 런타임에 클라이언트에서 렌더링됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `useRouter()` API 레퍼런스를 확인해보세요.
 
@@ -397,7 +613,18 @@ export default async function Page() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 #### 서버 사이드 렌더링 (getServerSideProps)
 
@@ -426,7 +653,18 @@ export default function Dashboard({ projects }) {
 
 앱 디렉토리에서는 서버 컴포넌트를 사용하여 리액트 컴포넌트 내에서 데이터를 가져올 수 있습니다. 이렇게 하면 렌더링된 HTML을 서버에서 유지하면서 클라이언트로 전송하는 JavaScript 양을 줄일 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 캐시 옵션을 no-store로 설정하여 가져온 데이터가 캐시되지 않도록 설정할 수 있어요. 이것은 페이지 디렉토리의 getServerSideProps와 비슷한 동작이에요.
 
@@ -458,7 +696,18 @@ export default async function Dashboard() {
 
 페이지 디렉토리에서는 Node.js HTTP API를 기반으로 요청 기반 데이터에 액세스할 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예를 들어, getServerSideProps에서 req 객체를 가져와 요청의 쿠키와 헤더를 가져올 수 있습니다.
 
@@ -482,7 +731,18 @@ export default function Page(props) {
 - headers(): Web Headers API를 기반으로 하며, 서버 컴포넌트 내에서 요청 헤더를 가져오는 데 사용될 수 있습니다.
 - cookies(): Web Cookies API를 기반으로 하며, 서버 컴포넌트 내에서 쿠키를 가져오는 데 사용될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```typescript
 // `app` 디렉토리
@@ -521,7 +781,18 @@ export default function Index({ projects }) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앱 디렉터리에서 fetch()를 사용한 데이터 가져오기는 기본적으로 캐시: 'force-cache'를 사용하며, 이는 요청 데이터를 수동으로 무효화할 때까지 캐싱합니다. 이는 페이지 디렉터리의 getStaticProps와 유사합니다.
 
@@ -547,7 +818,18 @@ export default async function Index() {
 
 페이지 디렉터리에서 getStaticPaths 함수는 빌드 시 미리 렌더링할 동적 경로를 정의하는 데 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // `pages` 디렉토리
@@ -597,7 +879,18 @@ export default async function Post({ params }) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앱 디렉토리에 있는 새 모델에 대해 generateStaticParams라는 이름을 사용하는 것이 getStaticPaths보다 더 적합합니다. get 접두어가 더 구체적인 generate로 대체되었으며, getStaticProps와 getServerSideProps가 더 이상 필요하지 않기 때문에 이제 더 잘 어울립니다. Paths 접미사가 Params로 대체되었는데, 이는 여러 동적 세그먼트로 구성된 중첩된 라우팅에 더 적합합니다.
 
@@ -624,7 +917,18 @@ export default function Post({ post }) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앱 디렉토리에서 config.dynamicParams 속성은 generateStaticParams 외부의 params를 어떻게 처리할지를 제어합니다:
 
@@ -653,7 +957,18 @@ export default async function Post({ params }) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 dynamicParams가 True로 설정된 경우 (기본값), 생성되지 않은 경로 세그먼트를 요청하면 서버에서 렌더링되고 캐시됩니다.
 
@@ -683,7 +998,18 @@ export default function Index({ posts }) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앱 디렉토리에서 fetch()를 사용한 데이터 가져오기는 revalidate를 사용할 수 있습니다. revalidate는 지정된 초 단위로 요청을 캐시합니다.
 
@@ -708,7 +1034,18 @@ export default async function PostList() {
 
 API Routes는 pages/api 디렉토리에서 변경 없이 계속 사용할 수 있습니다. 그러나 앱 디렉토리에서는 Route Handlers로 대체되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Route Handlers를 사용하면 웹 요청 및 응답 API를 이용하여 특정 경로에 대한 사용자 정의 요청 처리기를 만들 수 있습니다.
 
@@ -720,7 +1057,18 @@ export async function GET(request: Request) {}
 
 ### 단계 7: 스타일링
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 페이지 디렉토리에서 전역 스타일시트는 페이지/\_app.js로만 제한됩니다. 그러나 앱 디렉토리에서는 이 제한이 해제되었습니다. 전역 스타일은 레이아웃, 페이지 또는 컴포넌트에 추가할 수 있습니다.
 
@@ -735,7 +1083,18 @@ export async function GET(request: Request) {}
 
 Tailwind CSS를 사용하는 경우, tailwind.config.js 파일에 앱 디렉토리를 추가해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 module.exports = {
@@ -763,10 +1122,32 @@ export default function RootLayout({ children }) {
 
 Tailwind CSS로 스타일링에 대해 더 알아보기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 코더 모드
 
 Next.js는 특정 기능이 폐기될 때 코드베이스를 업그레이드하는 데 도움이 되는 코더 모드 변환을 제공합니다. 자세한 정보는 코더 모드를 참조하십시오.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

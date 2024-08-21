@@ -3,16 +3,13 @@ title: "Web Workers 자바스크립트 멀티스레딩 잠재력 해방하기 "
 description: ""
 coverImage: "/assets/img/2024-06-22-WebWorkersUnlockingJavaScriptsMultithreadingPotential_0.png"
 date: 2024-06-22 02:05
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-WebWorkersUnlockingJavaScriptsMultithreadingPotential_0.png
 tag: Tech
 originalTitle: "Web Workers: Unlocking JavaScript’s Multithreading Potential 🚀"
 link: "https://medium.com/javascript-in-plain-english/web-workers-unlocking-javascripts-multithreading-potential-e8a0b88a35ad"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-06-22-WebWorkersUnlockingJavaScriptsMultithreadingPotential_0.png" />
 
@@ -22,7 +19,18 @@ JavaScript은 초기에 Brendan Eich에 의해 고안된대로 시작되어 웹 
 
 단일 스레드는 JavaScript의 핵심입니다. 브라우저는 JavaScript 이벤트를 한 번에 하나씩 처리할 수 있도록 설계되었습니다. 이에는 중요한 영향이 몇 가지 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 동시 실행 불가: JavaScript가 실행 중일 때 이벤트 핸들러나 타이머와 같은 다른 작업은 차례를 기다립니다.
 - 반응성이 중요합니다: 오랫동안 실행되는 JavaScript 함수는 브라우저를 멈출 수 있어 사용자 경험이 불편해질 수 있습니다.
@@ -33,7 +41,18 @@ JavaScript은 초기에 Brendan Eich에 의해 고안된대로 시작되어 웹 
 
 웹 앱이 더 복잡해지고 데이터 조작 및 복잡한 논리 처리를 위해 더 많은 처리 능력을 요구함에 따라 JavaScript의 단일 스레드 모델의 한계가 드러납니다. 이때 웹 워커가 구원에 나서는 것입니다. 🎉
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 워커는 HTML5 사양의 일부로 실제로 오랫동안 사용되어 왔습니다! 이 개념은 2009년에 처음 제안되었습니다. 웹 워커를 사용하면 백그라운드 스레드에서 스크립트를 실행할 수 있어서 주 웹페이지의 스레드와 독립적으로 작동합니다. 이는 더 부드러운 성능과 더 만족스러운 사용자 경험을 제공합니다. 😃
 
@@ -45,7 +64,18 @@ JavaScript은 초기에 Brendan Eich에 의해 고안된대로 시작되어 웹 
 - 공유 워커(Shared Workers): 이름에서 알 수 있듯이, 이 워커는 동일한 도메인에 속하는 여러 창 또는 아이프레임에서 실행되는 여러 스크립트에서 공유할 수 있습니다.
 - 서비스 워커(Service Workers): 이 특별한 워커는 웹 앱, 브라우저, 네트워크 사이에 위치하여 프록시처럼 동작합니다. 이를 통해 견고한 오프라인 경험을 구축하고, 네트워크 요청을 가로채는 기능과 푸시 알림과 같은 기능을 활성화할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 웹 워커 사용하기: 간단한 예제
 
@@ -62,13 +92,24 @@ worker.onmessage = (e) => {
 worker.postMessage("안녕하세요, 워커!");
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 워커 스레드(worker.js):
 
 ```js
 self.onmessage = (e) => {
-  console.log(e.data); // 출력: "안녕, 워커!" 
+  console.log(e.data); // 출력: "안녕, 워커!"
   self.postMessage("안녕하세요, 마스터!");
 };
 ```
@@ -77,7 +118,18 @@ self.onmessage = (e) => {
 
 웹 워커를 생성하는 것은 간단합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const worker = new Worker(aURL, options);
@@ -90,8 +142,18 @@ const worker = new Worker(aURL, options);
 
 # 웹 워커를 이용한 오류 처리
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 워커는 두 가지 유용한 오류 처리 이벤트를 제공합니다:
 
@@ -102,7 +164,18 @@ const worker = new Worker(aURL, options);
 
 # 스레드 간 데이터 교환: 평범하지 않은 통신
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 JavaScript의 Web Workers는 스레드 간 데이터 교환을 용이하게 하는 간단한 메커니즘을 사용합니다:
 
@@ -114,7 +187,18 @@ JavaScript의 Web Workers는 스레드 간 데이터 교환을 용이하게 하�
 
 # 실용적인 응용: 웹 워커의 작동 방식
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 웹 워커는 이런 경우에 빛을 발합니다:
 
@@ -125,7 +209,18 @@ JavaScript의 Web Workers는 스레드 간 데이터 교환을 용이하게 하�
 
 웹 워커는 강력하지만 항상 필요한 것은 아닙니다. 간단하고 단기적인 작업의 경우에는, 웹 워커를 사용하면 오히려 불필요한 작업부하가 생길 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음은 몇 가지 지침입니다:
 
@@ -136,7 +231,18 @@ JavaScript의 Web Workers는 스레드 간 데이터 교환을 용이하게 하�
 
 웹 워커는 JavaScript 개발자 툴킷에 중요한 요소로, 고성능 및 응답성이 뛰어난 웹 응용 프로그램을 구축할 수 있도록 도와줍니다. 이들의 능력과 한계를 이해함으로써, 브라우저에서 멀티스레딩의 참 꽃을 펼칠 수 있습니다. 즐거운 코딩하세요! 😄
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 평문으로 이해하기 🚀
 

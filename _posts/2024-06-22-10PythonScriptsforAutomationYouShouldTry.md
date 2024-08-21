@@ -3,16 +3,13 @@ title: "시도해볼 만한 10가지 파이썬 자동화 스크립트"
 description: ""
 coverImage: "/assets/img/2024-06-22-10PythonScriptsforAutomationYouShouldTry_0.png"
 date: 2024-06-22 02:55
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-10PythonScriptsforAutomationYouShouldTry_0.png
 tag: Tech
 originalTitle: "10 Python Scripts for Automation You Should Try"
 link: "https://medium.com/python-in-plain-english/10-python-scripts-for-automation-you-should-try-8c685b5b230c"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-06-22-10PythonScriptsforAutomationYouShouldTry_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 상상한 것으로부터 아름다운 이미지를 만들고 싶다면 Getimg.ai API를 활용한 Python 스크립트가 있습니다. 이 API는 매달 100개의 무료 텍스트-이미지 크레딧을 제공하며 이를 활용하여 이미지를 생성할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 단순하고 효과적인 이미지를 생성해 보세요. 웹사이트에서 무료 API를 쉽게 얻을 수 있어요.😄
 
@@ -55,19 +63,30 @@ def Imagine(prompt):
     image = content["image"]
     image = base64.b64decode(image)
     img = Image.open(BytesIO(image))
-    
+
     # 이미지 저장
     img.save("Image.png")
 
 
-Imagine("아름다운 바다 위 석양과 생동적인 하늘")    
+Imagine("아름다운 바다 위 석양과 생동적인 하늘")
 ```
 
 # 👉 눈길을 끄는 이메일 전송
 
 일반적인 텍스트 이메일을 보내는 데 파이썬을 사용하고 계실 텐데, 이메일 마케팅에서와 같이 고급 이메일을 보낼 수도 있어요. 이 Python 스크립트는 Smtplib와 Email 모듈을 사용하여 HTML로 멋진 이메일을 만드는 방법을 보여줄 거예요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 코드는 디자인 HTML을 자유롭게 해보세요😄.
 
@@ -115,7 +134,18 @@ server.quit()
 
 사진 크기가 크고 품질을 유지한 채로 크기를 줄이고 싶다면 이 Python 스크립트가 맞을 것입니다. 이 스크립트는 이미지 처리 기술을 사용하여 이미지 크기를 줄이고 최상의 품질을 유지하는 훌륭한 모듈인 Imageio를 사용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # 사진 압축기
@@ -123,10 +153,10 @@ server.quit()
 import imageio
 def Compress_Photo(image, quality=85):
     img = imageio.imread(image)
-    
+
     output_name = 'compressed.jpg'
     imageio.imwrite(output_name, img, quality=quality)
-    
+
     print("이미지 압축 완료...")
 if __name__ == '__main__':
     Compress_Photo('photo.jpg')
@@ -141,9 +171,18 @@ if __name__ == '__main__':
 - 예약 메시징에 유용함
 - 기타 많은 기능
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Whatsapp Bot
 
@@ -171,12 +210,22 @@ send_msg_to_group_delay("Group Name", "Hello", 12, 30)
 
 # 👉 Excel Bot
 
-If you want to read, write, and edit your Excel files programmatically, you can bookmark this automation script that uses the popular Openpyxl module, my favorite for automating any Excel task. This module helps you read, write, create, style the Excel file, and more. 
+If you want to read, write, and edit your Excel files programmatically, you can bookmark this automation script that uses the popular Openpyxl module, my favorite for automating any Excel task. This module helps you read, write, create, style the Excel file, and more.
 
 The script below is a beginner's guide to automating your Excel tasks with the basics.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 # Excel Bot
@@ -228,14 +277,25 @@ def PDF_To_Text(pdf_File):
     data = ""
     pdf_doc = fitz.open(pdf_File)
     for page in pdf_doc:
-        data += page.get_text("text") 
+        data += page.get_text("text")
     return data
 if __name__ == "__main__":
     pdf_File = "test.pdf"
     print(PDF_To_Text(pdf_File))
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 👉 파이썬 비디오 레코더
 
@@ -260,14 +320,14 @@ cv2.namedWindow("실시간", cv2.WINDOW_NORMAL)
 cv2.resizeWindow("실시간", 480, 270)
 while True:
     img = pyautogui.screenshot()
-    
+
     frame = np.array(img)
     frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
-    
+
     out.write(frame)
     cv2.imshow("실시간", frame)
     key = cv2.waitKey(1)
-    
+
     if key == ord("s"):
         break
     elif key == ord("r"):
@@ -279,7 +339,18 @@ cv2.destroyAllWindows()
 
 # 👉 맞춤법 검사 봇
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 온라인 맞춤법 검사기 웹 앱이 필요하지 않습니다. 이제 파이썬으로 직접 만들 수 있습니다. 맞춤법 검사를 위해 많은 텍스트가 있으면, 온라인 검사기에 하나하나 입력하는 대신 자동으로 처리할 수 있습니다. 이 파이썬 스크립트는 Autocorrect 모듈을 사용하여 맞춤법 검사 작업을 자동화할 것입니다.
 
@@ -303,7 +374,18 @@ if __name__ == "__main__":
 
 이 자동화 스크립트는 Pydrive2 모듈을 사용하여 파일을 Google 드라이브에 저장할 것이며, 이는 클라우드 저장 공간처럼 활용할 수 있게 됩니다. 이 스크립트는 파일을 Google 드라이브에 업로드하거나 다운로드할 수 있도록 디자인되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 스크립트는 여러 파일이 있는 것을 상상할 때 유용합니다. 단 한 번 클릭으로 모든 파일을 Google Drive에 업로드하고 필요할 때 언제든지 다시 다운로드할 수 있습니다.
 
@@ -338,7 +420,18 @@ if __name__ == "__main__":
 
 이 자동화 스크립트를 사용하여 인터넷 속도에 대해 최신 정보를 얻어보세요. 이 스크립트는 OKALA 속도 테스트에서 가져온 Speedtest 모듈을 사용하여 인터넷 연결의 다운로드, 업로드 및 핑을 테스트할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 인터넷 속도가 떨어지거나 핑이 불안할 때 알려주는 기능이 유용합니다. 지금 바로 시도해보세요! 😎
 
@@ -365,7 +458,18 @@ Speed_Test()
 
 글을 끝까지 읽어주셔서 감사합니다. 다음 프로젝트나 작업에 유용한 스크립트를 찾으셨기를 바랍니다. 공유하고 싶은 유용한 스크립트가 있으면 알려주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 시청자들이 가장 사랑하는 선택된 기사들입니다. 확인해보세요.
 

@@ -3,16 +3,13 @@ title: "React에서 Flask와 Jinja를 사용하여 동적 OpenGraph 태그 가�
 description: ""
 coverImage: "/assets/img/2024-06-22-UsingFlaskandJinjatogetdynamicOpenGraphTagsinReact_0.png"
 date: 2024-06-22 14:28
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-UsingFlaskandJinjatogetdynamicOpenGraphTagsinReact_0.png
 tag: Tech
 originalTitle: "Using Flask and Jinja to get dynamic OpenGraph Tags in React"
 link: "https://medium.com/@Apantslessman/using-flask-and-jinja-to-get-dynamic-opengraph-tags-in-react-bc7de05e6732"
 isUpdated: true
 ---
-
-
-
 
 # 플라스크와 진자를 사용하는 이유
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 시작하기 전에 다음이 설치되어 있는지 확인하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Python
 - Flask
@@ -41,15 +49,35 @@ source venv/bin/activate
 pip install Flask
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 친구야, Markdown 형식으로 테이블 태그를 변경해주세요.
 
-
 | Change the table tag to Markdown format. |
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 우리 애플리케이션의 React 부분을 설정해 봅시다. 프로젝트 디렉토리 내에서 새로운 React 앱을 초기화하세요.
 
@@ -62,8 +90,18 @@ cd client
 
 React 폴더에서 index.html을 열어 `head` 요소에 아래 내용을 추가하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Build the React app
 
@@ -73,8 +111,18 @@ npm run build
 
 Move the build files to the static directory in your Flask project.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 cd ..
@@ -109,7 +157,18 @@ if __name__ == '__main__':
     app.run(debug=True)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 설정 테스트 중입니다
 
@@ -121,7 +180,18 @@ flask run
 
 브라우저를 열고 http://localhost:5000 으로 이동하세요. 그러면 HTML 헤드에 렌더링된 OG 태그가 있는 React 애플리케이션을 볼 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

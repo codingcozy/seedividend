@@ -3,16 +3,13 @@ title: "2023년 안드로이드 인터뷰 준비 가이드  PART 1"
 description: ""
 coverImage: "/assets/img/2024-07-12-Androidinterviewprepin2023PART1_0.png"
 date: 2024-07-12 21:47
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-12-Androidinterviewprepin2023PART1_0.png
 tag: Tech
 originalTitle: "Android interview prep in 2023 — PART 1"
 link: "https://medium.com/gitconnected/android-interview-prep-in-2023-part-1-40e38b2531b"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-07-12-Androidinterviewprepin2023PART1_0.png" />
 
@@ -24,7 +21,18 @@ Context는 시스템에 대한 핸들(handle)로, 리소스 해결, 데이터베
 
 ## 3. 액티비티 라이프사이클
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-12-Androidinterviewprepin2023PART1_1.png)
 
@@ -34,7 +42,18 @@ onRestoreInstanceState() - activity가 이전에 파괴된 후 다시 만들어�
 
 onSaveInstanceState() - 활동을 일시 중지하기 전에 데이터를 저장하는 데 사용되는 메서드입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 5. 안드로이드 앱 구성 요소
 
@@ -47,36 +66,58 @@ onSaveInstanceState() - 활동을 일시 중지하기 전에 데이터를 저장
 - **브로드캐스트 수신기 (Broadcast receivers)**
 - **콘텐츠 제공자 (Content providers)**
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 6. 활동 시작 모드
 
 - 표준(Standard): 해당 활동이 시작된 작업에서 새로운 활동 인스턴스를 생성합니다. 활동의 여러 인스턴스가 생성될 수 있으며 여러 인스턴스가 동일한 또는 다른 작업에 추가될 수 있습니다.
-예: A -` B -` C의 활동 스택이 있다고 가정해보겠습니다.
-이제 "표준"으로 B를 다시 시작하는 경우, 새로운 스택은 A -` B -` C -` B가 될 것입니다.
+  예: A -` B -` C의 활동 스택이 있다고 가정해보겠습니다.
+  이제 "표준"으로 B를 다시 시작하는 경우, 새로운 스택은 A -` B -` C -` B가 될 것입니다.
 
 - SingleTop: 표준과 동일하지만, 스택 상단에 활동의 이전 인스턴스가 이미 존재하는 경우 새 인스턴스를 만들지 않고 대신 기존 활동의 인스턴스로 인텐트를 보냅니다.
-예: A -` B의 활동 스택이 있다고 가정해보겠습니다.
+  예: A -` B의 활동 스택이 있다고 가정해보겠습니다.
 이제 "SingleTop"으로 C를 시작하는 경우, 새로운 스택은 A -` B -` C가 될 것입니다.
 이제 A -` B -` C의 활동 스택이 있다고 하면,
 "SingleTop"으로 C를 다시 시작하는 경우, 새로운 스택은 여전히 A -` B -` C로 유지됩니다.
 
 - SingleTask: 항상 새 작업이 생성되고 새 인스턴스가 루트로 푸시됩니다. 활동이 이미 작업에 있는 경우 인텐트는 onNewIntent()로 리디렉션되거나 새 인스턴스가 생성됩니다. 한 번에 활동의 인스턴스는 하나만 존재합니다.
-예: A -` B -` C -` D의 활동 스택이 있다고 가정해보겠습니다.
+  예: A -` B -` C -` D의 활동 스택이 있다고 가정해보겠습니다.
 이제 "SingleTask"로 D를 시작하는 경우, 새로운 스택은 A -` B -` C -` D가 될 것입니다.
-이제 A -` B -` C -` D의 활동 스택이 있다고 하면,
+  이제 A -` B -` C -` D의 활동 스택이 있다고 하면,
 "SingleTask"로 다시 활동 B를 시작하는 경우, 새 활동 스택은 A -` B가 될 것입니다. 활동 C와 D는 파괴됩니다.
 
 - SingleInstance: SingleTask와 동일하지만 시스템은 이 활동과 동일한 작업에 활동을 시작하지 않습니다. 새 활동이 시작되면 별도의 작업에서 수행됩니다.
-예: A -` B -` C -` D의 활동 스택이 있다고 가정해보겠습니다. "SingleInstance"로 B를 다시 시작하는 경우, 새 활동 스택은 다음과 같을 것입니다:
+  예: A -` B -` C -` D의 활동 스택이 있다고 가정해보겠습니다. "SingleInstance"로 B를 다시 시작하는 경우, 새 활동 스택은 다음과 같을 것입니다:
 작업1 — A -` B
-작업2 — C -` D
+  작업2 — C -` D
 
 ## 7. 사용자가 화면을 회전할 때 활동이 어떻게 응답하나요?
 
 화면이 회전되면 현재 활동 인스턴스가 파괴되고 새 활동 인스턴스가 새 방향으로 생성됩니다. 화면이 회전될 때는 먼저 onRestart() 메서드가 호출됩니다. 다른 수명 주기 메서드는 활동이 처음 생성될 때와 유사한 흐름으로 호출됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 8. 화면이 회전될 때 데이터를 다시로드 및 재설정되는 것을 방지하는 방법은 무엇인가요?
 
@@ -89,7 +130,18 @@ onSaveInstanceState() - 활동을 일시 중지하기 전에 데이터를 저장
 
 ![Fragment Lifecycle](/assets/img/2024-07-12-Androidinterviewprepin2023PART1_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 10. Fragment를 만들 때 오직 기본 생성자만 사용하는 것이 권장되는 이유
 
@@ -102,8 +154,18 @@ onSaveInstanceState() - 활동을 일시 중지하기 전에 데이터를 저장
 - Fragment의 라이프사이클 이벤트인 onPause, onResume, onCreateView 등의 다른 라이프사이클 이벤트는 교체할 때 호출되지만 추가할 경우 호출되지 않습니다.
 - `.add` 메소드 호출
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](/assets/img/2024-07-12-Androidinterviewprepin2023PART1_3.png)
 
@@ -113,8 +175,18 @@ onSaveInstanceState() - 활동을 일시 중지하기 전에 데이터를 저장
 
 ![Image](/assets/img/2024-07-12-Androidinterviewprepin2023PART1_5.png)
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-07-12-Androidinterviewprepin2023PART1_6.png" />
 
@@ -125,7 +197,18 @@ onSaveInstanceState() - 활동을 일시 중지하기 전에 데이터를 저장
 
 ## 13. Dialog와 DialogFragment의 차이점은 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 대화 상자는 활동에 완전히 의존합니다. 화면이 회전되면 대화 상자가 해제됩니다. 대화 상자 단편은 방향, 구성 변경을 처리합니다.
 
@@ -135,7 +218,18 @@ onSaveInstanceState() - 활동을 일시 중지하기 전에 데이터를 저장
 
 싱글톤 클래스는 다른 모든 클래스와 공유할 수 있는 객체를 하나만 생성할 수 있는 클래스입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 링크에서 참조하고 아래 코드를 구현했어요.
 
@@ -143,7 +237,18 @@ onSaveInstanceState() - 활동을 일시 중지하기 전에 데이터를 저장
 
 commit()은 동기적으로 데이터를 쓰고 즉시 결과에 따라 성공 또는 실패의 부울 값이 반환됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `apply()`은 비동기적으로 동작하며 어떤 부울 응답도 반환하지 않습니다. 또한 `apply()`가 진행 중인 상태에서 또 다른 `commit()`을 수행하면, `commit()`은 `apply()`가 완료되지 않을 때까지 차단될 것입니다.
 
@@ -153,7 +258,18 @@ View: ImageView나 TextView와 같이 단일 뷰입니다.
 
 ViewGroup: LinearLayout, RelativeLayout와 같이 여러 뷰를 포함하는 컨테이너입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 18. 사용자 지정 뷰를 만드는 방법 및 라이프사이클 메서드는 무엇인가요?
 
@@ -163,7 +279,18 @@ ViewGroup: LinearLayout, RelativeLayout와 같이 여러 뷰를 포함하는 컨
 
 뷰 라이프사이클
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-12-Androidinterviewprepin2023PART1_7.png)
 
@@ -173,7 +300,18 @@ ViewGroup: LinearLayout, RelativeLayout와 같이 여러 뷰를 포함하는 컨
 
 https://proandroiddev.com/playing-with-the-new-mergeadapter-on-android-8da514c45ca6#:~:text=MergeAdapter%20reduces%20the%20friction%20when,fixed%20header%20item%20on%20top.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 어려운 난이도의 문제에 들어가기 전에 몇 가지 Kotlin 기본 문제를 풀어 보겠습니다.
 
@@ -183,7 +321,18 @@ https://proandroiddev.com/playing-with-the-new-mergeadapter-on-android-8da514c45
 
 변경 가능한 변수를 선언하려면 var를 사용할 수 있습니다. 변경할 수 없는 변수를 선언하려면 val을 사용하세요. 즉, val 변수는 한 번 할당되면 변경할 수 없습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 22. val과 const를 사용하여 변수를 선언하는 차이점은 무엇인가요?
 
@@ -193,7 +342,18 @@ val과 const로 선언된 변수 모두 변경할 수 없는(immutable) 특성�
 
 안전한 호출 연산자인 ?.는 변수의 값이 null인지 여부를 확인하는데 사용됩니다. 값이 null이라면 null이 반환되고, 그렇지 않으면 원하는 값을 반환합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 변수의 값이 null 일 때 NullPointerException을 발생시키고 싶다면, null 체크나 !! 연산자를 사용할 수 있어요.
 
@@ -203,7 +363,18 @@ val과 const로 선언된 변수 모두 변경할 수 없는(immutable) 특성�
 
 ## 25. 코틀린에서 Elvis 연산자란 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 특정 값을 확인하여 null 값이 있는지 확인하려면 if-else 문을 사용하거나 Elvis 연산자인 ?: 를 사용할 수 있습니다. 예를 들어:
 
@@ -219,7 +390,18 @@ println(nameLength)
 - @JvmOverloads: Kotlin 코드에서 전달된 기본값을 Java 코드에서 사용하려면 @JvmOverloads 주석을 사용해야 합니다.
 - @JvmField: Kotlin 클래스의 필드에 대한 getter와 setter를 사용하지 않고 Java 코드에서 접근하려면 Kotlin 코드에서 @JvmField를 사용해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 여기서 더 많은 정보를 확인하세요
 https://amitshekhar.me/blog/jvmstatic-annotation-in-kotlin
@@ -232,7 +414,18 @@ https://amitshekhar.me/blog/jvmstatic-annotation-in-kotlin
 data class Developer(val name: String, val age: Int)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 데이터 클래스로 클래스를 표시하면 Java에서 하는 것처럼 hashCode() , equals() , toString() , copy() 같은 함수를 구현하거나 생성할 필요가 없습니다. 컴파일러가 내부적으로 이러한 함수들을 자동으로 생성하기 때문에 코드도 더 깔끔해집니다. 그러나 데이터 클래스가 충족해야 하는 다른 요구 사항도 몇 가지 있습니다.
 
@@ -242,7 +435,18 @@ data class Developer(val name: String, val age: Int)
 
 ## 29. 코틀린의 파괴적인 선언
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 때로는 객체를 여러 변수로 분해하는 것이 편리할 수 있습니다. 예를 들어:
 
@@ -253,11 +457,22 @@ data class Developer(val name: String, val age: Int)
 이 구문을 구조 분해 선언이라고 합니다. 구조 분해 선언은 한 번에 여러 변수를 만듭니다. 새로운 두 변수인 name과 age를 선언했으며 독립적으로 사용할 수 있습니다:
 
 ```js
-println(name)
-println(age)
+println(name);
+println(age);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 파괴 선언은 다음 코드로 컴파일됩니다.
 
@@ -270,7 +485,18 @@ val age = person.component2()
 
 Kotlin에서 lateinit은 선언 시 변수를 초기화하고 싶지 않지만 나중에 초기화하고 싶을 때 유용합니다. 그러나 사용하기 전에 변수를 초기화해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```kotlin
 private lateinit var person: Person
@@ -282,7 +508,18 @@ person = Person()
 lateinit 속성이 초기화되었는지 확인하려면 isInitialized 메서드를 사용합니다. person.isInitialized()
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 31. Kotlin에서 lateinit와 lazy의 차이점은 무엇인가요?
 
@@ -297,13 +534,24 @@ val p: String by lazy { // 처음 액세스할 때에만 값이 계산됩니다
 
 ## 32. == 연산자와 === 연산자 사이에 어떤 차이가 있나요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 네, == 연산자는 변수에 저장된 값들을 비교하는 데 사용되고, === 연산자는 변수의 참조가 동일한지 여부를 확인하는 데 사용됩니다. 그러나 기본 유형의 경우 === 연산자도 값과 참조를 모두 확인합니다.
 
 ```js
 // primitive example
-val int1 = 10 
+val int1 = 10
 val int2 = 10
 println(int1 == int2) // true
 println(int1 === int2) // true
@@ -318,7 +566,18 @@ println(num1 === num2) //false
 
 코틀린에서 클래스의 인스턴스 없이 호출할 수 있는 함수나 멤버를 작성하려면 해당 클래스 내부에 동반 객체의 멤버로 작성할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 34. 코틀린에서 FlatMap과 Map의 차이는 무엇인가요?
 
@@ -333,7 +592,18 @@ allVehicles.addAll(bikes)
 
 여기서 우리는 요소를 하나씩 추가하고 있습니다. 이를 **flatmap**을 사용하여 수행할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```kotlin
 val vehicles = listOf(cars, bikes)
@@ -341,6 +611,7 @@ val allVehicles = vehicles.flatMap { it }
 ```
 
 # Map is used to transform a list based on certain conditions.
+
 Example:
 
 ```kotlin
@@ -354,8 +625,18 @@ numbers.forEach {
 
 This code returns the list after squaring the values. But for this, we needed to write 5 lines of code. We can do this using Map in Kotlin.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```kotlin
 val numbers = listOf(1, 2, 3, 4, 5)
@@ -370,7 +651,18 @@ val squaredNumbers = numbers.map {
 
 ## 36. Kotlin에서 싱글톤 클래스를 생성하는 방법은 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Kotlin에서 Singleton 클래스를 만들려면 object 키워드를 사용해야 합니다.
 
@@ -382,7 +674,18 @@ object AnySingletonClassName
 
 기본적으로 Kotlin에서 클래스와 함수는 final입니다. 따라서 클래스를 상속하거나 함수를 재정의할 수 없습니다. 클래스나 함수를 상속하거나 재정의하려면 해당 클래스나 함수 앞에 open 키워드를 사용해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 38. 코틀린에서 고차 함수란 무엇인가요?
 
@@ -396,7 +699,18 @@ fun View.show() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```kotlin
 fun View.hide() {
@@ -410,10 +724,10 @@ fun View.hide() {
 
 ```kotlin
 class Operations {
- var x = 10; 
+ var x = 10;
  infix fun minus(num: Int) {
   this.x = this.x - num
- } 
+ }
 }
 fun main() {
  val opr = Operations()
@@ -422,7 +736,18 @@ fun main() {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 41. Kotlin에서 인라인 함수란 무엇인가요?
 
@@ -432,7 +757,18 @@ fun main() {
 
 ## 42. Kotlin에서 연산자 오버로딩이란 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 43. Kotlin에서 let, run, with, also, apply의 사용 사례를 설명해주세요.
 
@@ -442,7 +778,18 @@ fun main() {
 
 Sealed 클래스는 서브클래스의 다양한 유형을 포함하고 상태를 지니는 유연성을 제공합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```kotlin
 sealed class NetworkRequestResult {
@@ -480,8 +827,18 @@ fun calculateArea(shape: Shape): Double {
 
 직렬화(Serialization)는 객체를 바이트 스트림으로 변환하여 객체를 메모리에 저장하여 나중에 다시 만들 수 있도록 하는 프로세스로, 여전히 객체의 원래 상태와 데이터를 유지합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 직렬화를 금지하려면 어떻게 해야 하나요? 변수를 transient로 선언할 수 있습니다.
 
@@ -491,7 +848,18 @@ Serializable은 표준 Java 인터페이스입니다. Parcelable은 안드로이
 
 액티비티에서 LocalBroadcastReceiver를 등록해야 합니다. 그리고 백그라운드 서비스에서 인텐트를 사용하여 데이터와 함께 브로드캐스트를 보내야 합니다. 액티비티가 화면에 표시된 상태라면, UI가 백그라운드에서 업데이트됩니다. 메모리 누수를 방지하기 위해 액티비티의 onStop() 메서드에서 브로드캐스트 수신기를 unresgister해야 합니다. 또한 Handler를 등록하고 Handlers를 통해 데이터를 전달할 수도 있습니다. 자세한 내용은 여기에서 구현 방법을 찾을 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 47. AsyncTask의 라이프 사이클과 Activity 간의 관계는 무엇인가요? 이로 인해 발생할 수 있는 문제는 무엇이며, 어떻게 이러한 문제를 피할 수 있을까요?
 
@@ -501,7 +869,18 @@ AsyncTask는 그것을 포함하는 Activity의 라이프 사이클과 결합되
 
 또한, AsyncTask가 Activity에 대한 참조를 유지하기 때문에 AsyncTask가 살아 있는 한 Activity가 garbage collected 되지 않을 수 있는 메모리 누수 가능성도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 이유로, 긴 실행 시간이 소요되는 백그라운드 작업에 대해 AsyncTasks를 사용하는 것은 일반적으로 좋지 않은 아이디어입니다. 대신, 긴 실행 시간이 소요되는 백그라운드 작업에 대해서는 서비스와 같은 다른 메커니즘을 사용해야 합니다.
 
@@ -511,7 +890,18 @@ AsyncTask는 그것을 포함하는 Activity의 라이프 사이클과 결합되
 
 Android에서 사용자들이 한 애플리케이션에서 다른 애플리케이션으로 이동하는 것을 전체 프로세스의 일부로 볼 수 있는 것은 꽤 보편적입니다. 예를 들어, 링크를 클릭하면 해당 앱으로 이동하거나 한 앱에서 결제를 진행하는 중에 gpay와 같은 결제 앱으로 이동하거나 한 활동에서 다른 활동으로 이동하는 것과 같은 경우입니다. 사용자를 한 애플리케이션에서 다른 애플리케이션으로 이동시키는 이 프로세스는 시스템에 Intent를 전달하여 달성됩니다. Intent는 일반적으로 동일한 애플리케이션 내에서 다양한 활동 간을 탐색하는 데 사용됩니다. 그러나 중요한 점은 하나의 단일 애플리케이션에만 한정되지 않으며 즉, 한 애플리케이션에서 다른 애플리케이션으로 이동하는 데도 사용될 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 의도(Intent)에는 두 가지 유형이 있습니다:
 
@@ -525,20 +915,42 @@ intent.setData(Uri.parse("https://www.geeksforgeeks.org/"));
 startActivity(intent);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 명시적 인텐트는 컴포넌트를 지정합니다. 이 경우에는 인텐트가 외부 클래스를 호출할 수 있도록 제공합니다.
 
 구문:
 
 ```js
-Intent i = new Intent(getApplicationContext(), ActivityTwo.class);  
+Intent i = new Intent(getApplicationContext(), ActivityTwo.class);
 startActivity(i);
 ```
 
 ## 49. 서비스란 무엇인가
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 안드로이드의 서비스는 응용프로그램이 백그라운드에서 실행되어 장기 실행 작업을 수행할 수 있도록 하는 특별한 구성 요소입니다. 서비스는 응용프로그램이 여러 작업을 다른 응용프로그램에서 수행할 수 있도록 백그라운드에서 실행되도록 보장합니다.
 
@@ -548,15 +960,37 @@ startActivity(i);
 
 1. Foreground Services:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 사용자에게 현재 작업에 대해 알리는 서비스를 Foreground Services라고합니다. 사용자는 계속되는 작업에 대한 제공된 알림을 통해 서비스와 상호 작용할 수 있습니다. 예를 들어 파일을 다운로드하는 경우, 사용자는 다운로드 진행 상황을 추적하고 프로세스를 일시 중단하거나 다시 시작할 수 있습니다.
 
 ## 백그라운드 서비스:
+
 백그라운드 서비스는 사용자 개입이 필요하지 않습니다. 이러한 서비스는 백그라운드 작업에 대한 알림을 사용자에게 제공하지 않으며 사용자도 액세스할 수 없습니다. 데이터 동기화 일정 설정이나 데이터 저장과 같은 프로세스가 이 서비스에 속합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 유형의 안드로이드 서비스는 액티비티와 같은 애플리케이션 구성 요소가 서비스와 바인드되도록 허용합니다. 바운드 서비스는 어떤 애플리케이션 구성 요소가 바인드되어 있는 한 작업을 수행합니다. 하나 이상의 구성 요소가 한 번에 서비스와 바인드될 수 있습니다. 애플리케이션 구성 요소를 서비스에 바인드하려면 bindService() 메서드를 사용합니다.
 
@@ -566,15 +1000,26 @@ startActivity(i);
 
 인텐트 서비스는 안드로이드의 Service의 하위 클래스로, 요청을 처리하는 데 사용되는 비동기 요청(“인텐트”로 표현)을 처리하는 데 사용됩니다. 백그라운드에서 실행되며, 보내진 모든 인텐트를 처리한 후에 자체적으로 중지됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 public class MyIntentService extends IntentService {
-  
+
     public MyIntentService() {
         super("MyIntentService");
     }
-  
+
     @Override
     protected void onHandleIntent(Intent intent) {
         // Perform some background task here

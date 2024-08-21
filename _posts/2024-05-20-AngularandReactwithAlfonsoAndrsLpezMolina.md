@@ -3,7 +3,7 @@ title: "알폰소 안드레스 로페즈 몰리나와 함께하는 Angular 및 R
 description: ""
 coverImage: "/assets/img/2024-05-20-AngularandReactwithAlfonsoAndrsLpezMolina_0.png"
 date: 2024-05-20 22:50
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-20-AngularandReactwithAlfonsoAndrsLpezMolina_0.png
 tag: Tech
 originalTitle: "Angular and React with Alfonso Andrés López Molina"
@@ -11,17 +11,14 @@ link: "https://medium.com/angularidades/angular-and-react-with-alfonso-andr%C3%A
 isUpdated: true
 ---
 
-
-
-
 ## Angularidades 팟캐스트 41회 요약
 
-이번 에피소드에서는 
-베네수엘라 출신이자 현재 콜롬비아 보고타에 거주 중인 경력 많은 소프트웨어 개발자 인 
-Alfonso Andrés López Molina 
-를 환영합니다. Alfonso는 컴퓨터 공학 학위를 가진 학자로 하드웨어 개발 경험 또한 있으며, 이를 통해 전기 공학과 컴퓨터 과학을 연결하는 경험을 가지고 있습니다. 그는 
+이번 에피소드에서는
+베네수엘라 출신이자 현재 콜롬비아 보고타에 거주 중인 경력 많은 소프트웨어 개발자 인
+Alfonso Andrés López Molina
+를 환영합니다. Alfonso는 컴퓨터 공학 학위를 가진 학자로 하드웨어 개발 경험 또한 있으며, 이를 통해 전기 공학과 컴퓨터 과학을 연결하는 경험을 가지고 있습니다. 그는
 React Miami
- 에서
+에서
 Mayra Rodriguez
 를 통해
 Alejandro Cuba Ruiz
@@ -39,7 +36,18 @@ Alejandro Cuba Ruiz
 - Angular와 React 간의 개념 공유
 - 현대 프런트엔드 개발에서 유효성 유지하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 에피소드의 타이밍이 완벽합니다. 팟캐스트 에피소드가 Angular 18의 런칭 주에 방영되며, Angular 커뮤니티 모임에서 Angular 신호에 관한 발표를 한 지 6일 후입니다.
 
@@ -49,7 +57,18 @@ Alejandro Cuba Ruiz
 
 또한, 알폰소는 Angular와 React 간의 기술적인 차이점, 특히 각각의 데이터 바인딩, 의존성 주입 및 아키텍처 패턴 처리 방식에 대해 이야기합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 알폰소는 앵귤러의 미래와 기술 분야에서의 역할에 대해 반성하며, 기술 발전에 발맞추기 위해 커뮤니티와 계속적인 학습의 중요성을 강조합니다. 그는 기술 채택에 대한 적극적인 접근을 옹호하며, 새로운 도구 및 관행을 받아들여 개발 경험을 향상시키고 더 견고한 애플리케이션을 만들도록 청취자들을 격려합니다.
 
@@ -64,7 +83,18 @@ Alejandro Cuba Ruiz
 - 앵귤러는 시간이 지남에 따라 서버 측 렌더링 지원을 개선하고, 새로운 SSR 모드에서 강력한 가수화 과정을 제공하고 있습니다.
 - 현대 세계에서 주목받기 위해서는 커뮤니티를 구축하고 앵귤러 생태계의 성장에 기여하며, 다른 기술로부터 학습할 수 있는 것에 개방적이어야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 곧 발표되는 향후 에피소드 인터뷰 대상을 확인하려면 https://twitter.com/angularidades 또는 LinkedIn을 방문해주세요.
 

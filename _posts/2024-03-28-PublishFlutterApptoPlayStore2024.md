@@ -3,17 +3,13 @@ title: "2024년 구글 플레이 스토어에 플러터 앱을 출시하는 방�
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Publish Flutter App to Play Store 2024"
 link: "https://medium.com/@affansultan901/publish-flutter-app-to-play-store-69cb0cd5a30b"
 isUpdated: true
 ---
-
-
-
-
 
 축하드려요!! 🥳 플러터 앱을 완성하셨군요! 이제 구글 플레이 스토어에 앱을 게시하여 세계와 나눠보세요.
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 # 앱을 게시할 준비하기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Google Play Store에 앱을 게시하기 전에 출시 준비가 되어 있는지 확인해야 합니다. 여기에는 Flutter 앱을 준비하는 중요한 단계들이 있습니다:
 
@@ -33,7 +40,18 @@ Google Play Store에 게시하기 전에 앱에 고유 식별을 위한 아이�
 
 ![앱 런처 아이콘](/assets/img/PublishFlutterApptoPlayStore2024_1.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Gmail 앱 아이콘이 어떤 모습인지 본 적 있나요? 플러터 앱에도 아이콘이 있어야 한다구요. 그런데 어떻게 만들 수 있을까요? 🤔 만약 앱 로고가 있고 그 로고를 앱 아이콘으로 사용하고 싶다면 이런 단계를 따라해보세요:
 
@@ -43,7 +61,18 @@ https://icon.kitchen/i/H4sIAAAAAAAAA6tWKkvMKU0tVrKqVkpJLMoOyUjNTVWySkvMKU6t1VHKz
 
 ![PublishFlutterApptoPlayStore2024_2.png](/assets/img/PublishFlutterApptoPlayStore2024_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 앱 로고를 가지고 계시다면, 이미지를 선택하고 앱 로고를 업로드해서 어떻게 보이는지 확인할 수 있어요.
 
@@ -53,7 +82,18 @@ https://icon.kitchen/i/H4sIAAAAAAAAA6tWKkvMKU0tVrKqVkpJLMoOyUjNTVWySkvMKU6t1VHKz
 
 ![Copy Folder](/assets/img/PublishFlutterApptoPlayStore2024_4.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 이 폴더를 플러터 프로젝트에 붙여넣어야 해요. 플러터 프로젝트를 열고 android 폴더로 이동해서 res 폴더 안에 붙여넣으세요:
 
@@ -63,7 +103,18 @@ https://icon.kitchen/i/H4sIAAAAAAAAA6tWKkvMKU0tVrKqVkpJLMoOyUjNTVWySkvMKU6t1VHKz
 
 ## 단계 02: 앱 이름 설정
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신의 앱 이름은 사용자가 쉽게 식별할 수 있는 것이 좋아요. 이 앱의 이름은 다음과 같이 보일 거에요:
 
@@ -73,7 +124,18 @@ Gmail처럼 이 앱을 위한 이름을 바꾸고 싶다면 어떻게 하면 될
 
 ![이미지](/assets/img/PublishFlutterApptoPlayStore2024_7.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 앱 이름이 변경되었습니다. 앱을 재시작하여 테스트할 수 있어요.
 
@@ -83,7 +145,18 @@ Gmail처럼 이 앱을 위한 이름을 바꾸고 싶다면 어떻게 하면 될
 
 ![이미지](/assets/img/PublishFlutterApptoPlayStore2024_8.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 이 코드를 key.properties 파일 안에 붙여넣으세요.
 
@@ -103,7 +176,18 @@ keyAlias=upload
 storeFile=<키스토어 파일의 위치>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음 단계는 업로드 키스토어를 생성하는 것입니다.
 
@@ -115,7 +199,18 @@ keytool -genkey -v -keystore ~/upload-keystore.jks -keyalg RSA -keysize 2048 -va
 
 만약 Windows를 사용 중이라면 아래 명령어를 복사해주세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 keytool -genkey -v -keystore %userprofile%\upload-keystore.jks -storetype JKS -keyalg RSA -keysize 2048 -validity 10000 -alias upload
@@ -129,7 +224,18 @@ Windows용 업데이트된 명령어는 다음과 같습니다:
 keytool -genkey -v -keystore "C:\Users\AFFAN MINHAS\upload-keystore.jks" -storetype JKS -keyalg RSA -keysize 2048 -validity 10000 -alias upload
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 적절한 명령어를 붙여넣어 에러가 발생하지 않도록 주의하세요. 그런 다음 keystore 비밀번호를 입력하라는 메시지가 표시될 것입니다. 이때 key.properties 파일에서 설정한 동일한 비밀번호를 입력해주세요. 이후에는 이 과정을 완료하기 위해 몇 가지 기본 정보가 필요합니다. 아래에 참고용으로 이미 작성해놓은 것이 있습니다.
 
@@ -139,7 +245,18 @@ keytool -genkey -v -keystore "C:\Users\AFFAN MINHAS\upload-keystore.jks" -storet
 
 이제 upload-keystore.jks 파일을 android/app 폴더로 복사하여 넣고, 또한 아래의 key.properties 파일에 올바른 경로를 업데이트해주세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/PublishFlutterApptoPlayStore2024_10.png" />
 
@@ -155,7 +272,18 @@ keytool -genkey -v -keystore "C:\Users\AFFAN MINHAS\upload-keystore.jks" -storet
    }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 코드를 추가한 후에 gradle 파일이 이렇게 보여야 합니다:
 
@@ -179,7 +307,18 @@ keytool -genkey -v -keystore "C:\Users\AFFAN MINHAS\upload-keystore.jks" -storet
    }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이전에 작성된 buildTypes 태그를 찾으시고 완전히 덮어쓰기하고 아래 코드를 붙여넣어주세요.
 
@@ -189,7 +328,18 @@ keytool -genkey -v -keystore "C:\Users\AFFAN MINHAS\upload-keystore.jks" -storet
 
 ![PublishFlutterApptoPlayStore2024_13](/assets/img/PublishFlutterApptoPlayStore2024_13.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 작업을 완료한 후 다음 명령어를 한 줄씩 실행해주세요:
 
@@ -201,7 +351,18 @@ keytool -genkey -v -keystore "C:\Users\AFFAN MINHAS\upload-keystore.jks" -storet
 
 이제 보안을 위해 key.properties와 upload-keystore.jks 파일은 깃허브에 업로드하지 않습니다. 이를 위해서는 .gitignore 파일에 추가하여 업로드하지 않도록 설정해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/PublishFlutterApptoPlayStore2024_14.png)
 
@@ -211,7 +372,18 @@ keytool -genkey -v -keystore "C:\Users\AFFAN MINHAS\upload-keystore.jks" -storet
 
 이제 앱 번들이 준비되었으므로 Play 스토어에 게시하는 마지막 단계입니다. 이를 위해서는 Google Play 콘솔의 개발자 계정이 있어야 합니다. 우선 여기에서 개발자 계정을 만들어주세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이후에는 일회성 수수료를 지불해야 합니다:
 
@@ -221,7 +393,18 @@ keytool -genkey -v -keystore "C:\Users\AFFAN MINHAS\upload-keystore.jks" -storet
 
 콘솔로 이동: [https://play.google.com/console](https://play.google.com/console)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 앱을 발행해봅시다. 먼저 아래와 같이 앱을 생성하세요:
 
@@ -233,7 +416,18 @@ keytool -genkey -v -keystore "C:\Users\AFFAN MINHAS\upload-keystore.jks" -storet
 - 앱의 기본 언어를 선택하세요.
 - 앱인지 게임 앱인지 선택하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/PublishFlutterApptoPlayStore2024_17.png" />
 
@@ -244,7 +438,18 @@ keytool -genkey -v -keystore "C:\Users\AFFAN MINHAS\upload-keystore.jks" -storet
 
 위 작업으로 앱이 성공적으로 생성되었습니다. 이제 앱 세부정보를 제공하여 구성 작업을 시작해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 상점 설정 탭으로 이동하세요.
 - 앱인지 게임인지 제공하세요.
@@ -257,7 +462,18 @@ keytool -genkey -v -keystore "C:\Users\AFFAN MINHAS\upload-keystore.jks" -storet
 
 ![이미지](/assets/img/PublishFlutterApptoPlayStore2024_20.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 그 후에 필요한 앱 세부 정보를 제공하세요
 
@@ -267,7 +483,18 @@ keytool -genkey -v -keystore "C:\Users\AFFAN MINHAS\upload-keystore.jks" -storet
 
 ![이미지](/assets/img/PublishFlutterApptoPlayStore2024_22.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이제 앱의 특징 그래픽을 제공해야 합니다. 이 그래픽은 상점 목록의 커버 사진으로 나타납니다.
 
@@ -278,7 +505,18 @@ keytool -genkey -v -keystore "C:\Users\AFFAN MINHAS\upload-keystore.jks" -storet
 
 ![Phone Screen Keywords](/assets/img/PublishFlutterApptoPlayStore2024_24.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 7인치 태블릿과 10인치 태블릿의 스크린샷을 제공해야합니다. 특별히 가지고 있지 않다면 동일한 스크린샷을 제공할 수 있습니다.
 
@@ -288,7 +526,18 @@ keytool -genkey -v -keystore "C:\Users\AFFAN MINHAS\upload-keystore.jks" -storet
 
 ![앱을 업로드할 수 있는 트랙 목록](/assets/img/PublishFlutterApptoPlayStore2024_26.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리가 공개 평가용으로 업로드하는 것으로 가정해봅시다. 그래서 우리는 제품 트랙을 선택합니다.
 
@@ -298,7 +547,18 @@ keytool -genkey -v -keystore "C:\Users\AFFAN MINHAS\upload-keystore.jks" -storet
 
 - 이제 서명 키를 선택해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/PublishFlutterApptoPlayStore2024_28.png)
 
@@ -310,7 +570,18 @@ keytool -genkey -v -keystore "C:\Users\AFFAN MINHAS\upload-keystore.jks" -storet
 - 저의 경우 경로는 다음과 같습니다:
 - D:\FlutterProjects\[프로젝트\_이름]\build\app\outputs\bundle
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![/assets/img/PublishFlutterApptoPlayStore2024_30.png](/assets/img/PublishFlutterApptoPlayStore2024_30.png)
 
@@ -320,7 +591,18 @@ keytool -genkey -v -keystore "C:\Users\AFFAN MINHAS\upload-keystore.jks" -storet
 
 - 이제 표시된 것처럼 오류가 발생할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/PublishFlutterApptoPlayStore2024_32.png)
 
@@ -331,7 +613,18 @@ keytool -genkey -v -keystore "C:\Users\AFFAN MINHAS\upload-keystore.jks" -storet
 
 - 이제 국가를 선택해야 합니다. 모든 것을 선택하려면 그냥 모두 선택하고 저장하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/PublishFlutterApptoPlayStore2024_34.png)
 
@@ -341,7 +634,18 @@ keytool -genkey -v -keystore "C:\Users\AFFAN MINHAS\upload-keystore.jks" -storet
 
 - 여기에는 앱의 개인정보 보호 정책을 표시하는 경우 어디에서 호스트된 URL을 제공해야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/PublishFlutterApptoPlayStore2024_36.png)
 
@@ -352,7 +656,18 @@ keytool -genkey -v -keystore "C:\Users\AFFAN MINHAS\upload-keystore.jks" -storet
 
 ![이미지](/assets/img/PublishFlutterApptoPlayStore2024_37.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 다음으로 GitHub 계정에 저장소를 만들어야 합니다. 이를 위해 https://github.com 으로 이동하여 저장소를 만들어주세요.
 
@@ -362,7 +677,18 @@ keytool -genkey -v -keystore "C:\Users\AFFAN MINHAS\upload-keystore.jks" -storet
 
 ![이미지](/assets/img/PublishFlutterApptoPlayStore2024_39.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이후에는 그냥 거기서 새 파일을 만드세요:
 
@@ -372,7 +698,18 @@ keytool -genkey -v -keystore "C:\Users\AFFAN MINHAS\upload-keystore.jks" -storet
 
 ![이미지](/assets/img/PublishFlutterApptoPlayStore2024_41.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이후에는 리포지토리 경로를 복사하고 개인정보 보호 정책 URL이 필요한 곳에 붙여 넣으세요.
 
@@ -382,8 +719,18 @@ keytool -genkey -v -keystore "C:\Users\AFFAN MINHAS\upload-keystore.jks" -storet
 
 - 앱에 광고가 포함되어 있는지 여부를 알려야 합니다. 광고 선언으로 이동하여 시작 버튼을 눌러주세요. 시작 선언:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![PublishFlutterApptoPlayStore2024_43](/assets/img/PublishFlutterApptoPlayStore2024_43.png)
 
@@ -393,8 +740,18 @@ keytool -genkey -v -keystore "C:\Users\AFFAN MINHAS\upload-keystore.jks" -storet
 
 이제 이 단계를 완료하고 위쪽에 있는 화살표로 되돌아갑니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 이제 앱이 완전히 접근 가능한지 또는 일부 부분에 특별한 접근 권한이 필요한지 알아야 합니다.
 
@@ -404,7 +761,18 @@ keytool -genkey -v -keystore "C:\Users\AFFAN MINHAS\upload-keystore.jks" -storet
 
 ![이미지](/assets/img/PublishFlutterApptoPlayStore2024_46.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 이 단계를 마무리하고 위쪽의 화살표로 돌아가세요.
 
@@ -414,7 +782,18 @@ keytool -genkey -v -keystore "C:\Users\AFFAN MINHAS\upload-keystore.jks" -storet
 
 이메일 주소와 카테고리를 입력해야 합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/PublishFlutterApptoPlayStore2024_48.png" />
 
@@ -424,13 +803,35 @@ keytool -genkey -v -keystore "C:\Users\AFFAN MINHAS\upload-keystore.jks" -storet
 
 이후에 선택한 내용을 요약한 정보가 나오며, 확인 후 저장해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 타깃 대상에게 전달해야 할 내용입니다:
 
 <img src="/assets/img/PublishFlutterApptoPlayStore2024_51.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신의 앱에 따라 선택한 후 저장하세요.
 
@@ -440,7 +841,18 @@ keytool -genkey -v -keystore "C:\Users\AFFAN MINHAS\upload-keystore.jks" -storet
 
 ![이미지](/assets/img/PublishFlutterApptoPlayStore2024_53.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신의 앱을 선생님들에 의해 테스트를 받아 신청할 수 있도록 하려면 저장 버튼을 눌러주세요.
 
@@ -450,7 +862,18 @@ keytool -genkey -v -keystore "C:\Users\AFFAN MINHAS\upload-keystore.jks" -storet
 
 - 이제 당신의 앱이 뉴스 앱인지 여부를 알려야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![PublishFlutterApptoPlayStore2024_55](/assets/img/PublishFlutterApptoPlayStore2024_55.png)
 
@@ -460,7 +883,18 @@ keytool -genkey -v -keystore "C:\Users\AFFAN MINHAS\upload-keystore.jks" -storet
 
 이제 이 단계를 완료하고 위쪽 화살표로 돌아가세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 그 후에 앱이 COVID-19 접촉 추적이거나 상태 앱인지 또는 다른 앱인지 알려주어야 합니다.
 
@@ -470,7 +904,18 @@ keytool -genkey -v -keystore "C:\Users\AFFAN MINHAS\upload-keystore.jks" -storet
 
 ![Image](/assets/img/PublishFlutterApptoPlayStore2024_58.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 지금 저장을 해서이 단계를 완료하고 위쪽의 화살표로 돌아갈 수 있습니다.
 
@@ -480,7 +925,18 @@ keytool -genkey -v -keystore "C:\Users\AFFAN MINHAS\upload-keystore.jks" -storet
 
 이러한 세부 정보를 제공하고 다음을 클릭하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/PublishFlutterApptoPlayStore2024_60.png" />
 
@@ -490,7 +946,18 @@ keytool -genkey -v -keystore "C:\Users\AFFAN MINHAS\upload-keystore.jks" -storet
 
 <img src="/assets/img/PublishFlutterApptoPlayStore2024_61.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 당신의 앱에 따라 선택하십시오.
 
@@ -500,13 +967,35 @@ keytool -genkey -v -keystore "C:\Users\AFFAN MINHAS\upload-keystore.jks" -storet
 
 - 그 후에는 앱이 정부 소유인지 여부를 알려주어야 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 표를 참고하여 앱을 선택해주세요.
 
 이제 이 단계를 완료하고 위쪽 화살표로 되돌아갈 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 그 다음에는 앱의 금융 기능을 알려주어야 해요
 
@@ -516,7 +1005,18 @@ keytool -genkey -v -keystore "C:\Users\AFFAN MINHAS\upload-keystore.jks" -storet
 
 ![이미지](/assets/img/PublishFlutterApptoPlayStore2024_66.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 저장하여이 단계를 완료하고 위의 화살표로 돌아가세요.
 
@@ -526,7 +1026,18 @@ keytool -genkey -v -keystore "C:\Users\AFFAN MINHAS\upload-keystore.jks" -storet
 
 그런 다음 모든 세부 정보를 확인하고 다음을 클릭하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/PublishFlutterApptoPlayStore2024_68.png" />
 
@@ -536,7 +1047,18 @@ keytool -genkey -v -keystore "C:\Users\AFFAN MINHAS\upload-keystore.jks" -storet
 
 그리고 이제 이 변경 사항을 Google에 검토 요청하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/PublishFlutterApptoPlayStore2024_70.png)
 
@@ -546,4 +1068,15 @@ keytool -genkey -v -keystore "C:\Users\AFFAN MINHAS\upload-keystore.jks" -storet
 
 드디어 성공했네요! 🥴 앱이 리뷰를 위해 보내졌고, 약 48시간이 걸려 답변을 받게 될 거에요. 앱이 사용자의 현재 위치나 이와 유사한 기능을 사용한다면 구글에서 액세스할 유효한 세부 정보를 제공하라고 요청할 수 있으니 주의하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

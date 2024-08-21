@@ -3,16 +3,13 @@ title: "useState와 useRef 훅을 언제 사용하는지 이해하기"
 description: ""
 coverImage: "/assets/img/2024-06-22-UnderstandingofwhentouseuseStateanduseRefhooks_0.png"
 date: 2024-06-22 03:02
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-UnderstandingofwhentouseuseStateanduseRefhooks_0.png
 tag: Tech
 originalTitle: "Understanding of when to use useState() and useRef() hooks"
 link: "https://medium.com/@rdhamnaskar11/understanding-of-when-to-use-usestate-and-useref-hooks-6f7f60f79c82"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-06-22-UnderstandingofwhentouseuseStateanduseRefhooks_0.png" />
 
@@ -22,7 +19,18 @@ React에서 Hook은 클래스 컴포넌트를 생성하지 않고도 상태 및 
 
 이 글에서는 useState() 훅 이외에 useRef() 훅을 사용할 때에 대해 배우게 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 사용법 useState():
 
@@ -32,19 +40,39 @@ React에서 Hook은 클래스 컴포넌트를 생성하지 않고도 상태 및 
 
 위의 예에서는 이메일과 비밀번호 두 가지 입력 필드가 있습니다. 제출 버튼을 클릭하면 두 입력 필드의 값이 콘솔에 기록됩니다. useState() 훅을 사용하여 두 입력 필드의 상태를 관리합니다. 그러나 입력 필드가 변경될 때마다 컴포넌트가 다시 렌더링되도록 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Image](https://miro.medium.com/v2/resize:fit:1400/1*0mz26TiXCcMdstgoUx73ug.gif)
 
-이걸 보면 우리가 onSubmit 안에서만 이 상태 변수들을 사용한다는 것을 알 수 있어요. 즉, 이 상태 변수들이 변경되는 값을 우리는 신경 쓰지 않습니다. 우리는 submit 버튼을 눌렀을 때 상태 변수들의 값만을 신경 씁니다. 
+이걸 보면 우리가 onSubmit 안에서만 이 상태 변수들을 사용한다는 것을 알 수 있어요. 즉, 이 상태 변수들이 변경되는 값을 우리는 신경 쓰지 않습니다. 우리는 submit 버튼을 눌렀을 때 상태 변수들의 값만을 신경 씁니다.
 
 이 예시에서는 문제가 되지 않지만, 보다 복잡한 어플리케이션에서는 성능 문제를 일으킬 수 있어요.
 
 ## 이를 피하려면, useState() 대신 useRef()를 사용할 수 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## useRef 사용:
 
@@ -54,7 +82,18 @@ React에서 Hook은 클래스 컴포넌트를 생성하지 않고도 상태 및 
 
 ![image](https://miro.medium.com/v2/resize:fit:1400/1*W-14Q7gk6Cvyre6b_fGalQ.gif)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 보시는 대로, 이메일 및 비밀번호 필드를 변경할 때 컴포넌트가 다시 렌더링되지 않았습니다. 그리고 이를 위해 상태 값이 사용되지 않았습니다.
 
@@ -66,7 +105,18 @@ React에서 Hook은 클래스 컴포넌트를 생성하지 않고도 상태 및 
 
 # 결론:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사에서는 useRef와 useState가 React에서 모두 중요한 훅이지만 서로 다른 목적을 가지고 있다는 것을 배웠습니다. useRef는 DOM에 직접 액세스하고 조작할 수 있게 해주는 훅입니다. 요소에 대한 참조를 제공하지만 내용이 변경될 때 다시 렌더링을 트리거하지 않습니다. useState는 컴포넌트의 상태를 관리할 수 있게 해주는 훅입니다. 상태가 변경되면 새로운 상태로 컴포넌트가 다시 렌더링됩니다.
 

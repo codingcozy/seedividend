@@ -3,17 +3,13 @@ title: "React에서 state를 다른 컴포넌트로 전달하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How to pass state data from one component to another in Reactjs"
 link: "https://medium.com/@babux1/how-to-pass-state-data-from-one-component-to-another-in-react-js-9b4850887163"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/HowtopassstatedatafromonecomponenttoanotherinReactjs_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 부모 컴포넌트에서 상태를 정의하고 다음과 같이 자식 컴포넌트로 전달합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```javascript
 class ParentComponent extends React.Component {
@@ -69,7 +76,18 @@ class ParentComponent extends React.Component {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자식 컴포넌트에서는 다음과 같이 컨텍스트에 액세스합니다:
 
@@ -101,7 +119,18 @@ class ParentComponent extends React.Component {
 자식 컴포넌트에서는 다음과 같이 콜백 함수를 호출하고 업데이트된 데이터를 전달합니다:
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마크다운 형식으로 변경하려면 다음과 같이 하면 됩니다.
 

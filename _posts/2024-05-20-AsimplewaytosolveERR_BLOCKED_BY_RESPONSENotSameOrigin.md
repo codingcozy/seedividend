@@ -3,16 +3,13 @@ title: "ERR_BLOCKED_BY_RESPONSENotSameOrigin 에 대한 간단한 해결 방법"
 description: ""
 coverImage: "/assets/img/2024-05-20-AsimplewaytosolveERR_BLOCKED_BY_RESPONSENotSameOrigin_0.png"
 date: 2024-05-20 23:04
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-20-AsimplewaytosolveERR_BLOCKED_BY_RESPONSENotSameOrigin_0.png
 tag: Tech
 originalTitle: "A simple way to solve ERR_BLOCKED_BY_RESPONSE.NotSameOrigin"
 link: "https://medium.com/@wenhsuanliao/a-simple-way-to-solve-err-blocked-by-response-notsameorigin-85a6201f838"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-05-20-AsimplewaytosolveERR_BLOCKED_BY_RESPONSENotSameOrigin_0.png" />
 
@@ -22,19 +19,41 @@ isUpdated: true
 
 이 오류를 해결하려면 페이지가 접근하려는 모든 리소스(예: 이미지, 스크립트 및 기타 파일)가 페이지 자체와 동일한 도메인에 호스팅되어 있는지 확인해야 합니다. 또는 특정 출처가 리소스에 액세스할 수 있도록 크로스 출처 리소스 공유(CORS)를 사용할 수도 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제 프로젝트에서 가져온 간단한 예시입니다:
 
 이미지 파일 위치를 지정하는 src 속성이 있는 HTML img 태그입니다. 이는 제3자 API입니다.
 
 ```js
-<img src={`https://countryflagsapi.com/png/${country.alpha3Code.toLowerCase()}`} alt="flag"/>
+<img src={`https://countryflagsapi.com/png/${country.alpha3Code.toLowerCase()}`} alt="flag" />
 ```
 
 img 태그에 crossorigin 속성을 간단히 추가할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <img crossorigin='anonymous' src={`https://countryflagsapi.com/png/${country.alpha3Code.toLowerCase()}`} alt=”flag”/>

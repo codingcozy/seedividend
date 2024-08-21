@@ -3,17 +3,13 @@ title: "Autowired 대신 필드에 Bean을 주입하는 다른 방법 알아보�
 description: ""
 coverImage: "/assets/img/2024-07-13-SwitchtoAnotherWaytoInjectYourBeanInsteadofAutowiredonYourFields_0.png"
 date: 2024-07-13 20:43
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-SwitchtoAnotherWaytoInjectYourBeanInsteadofAutowiredonYourFields_0.png
 tag: Tech
 originalTitle: "Switch to Another Way to Inject Your Bean Instead of @Autowired on Your Fields"
 link: "https://medium.com/stackademic/switch-to-another-way-to-inject-your-bean-instead-of-autowired-on-your-fields-a399bd9ca3ed"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-07-13-SwitchtoAnotherWaytoInjectYourBeanInsteadofAutowiredonYourFields_0.png)
 
@@ -25,7 +21,18 @@ Spring은 @Autowired 필드/속성으로 빈을 주입하는 것을 공식적으
 필드 주입은 권장되지 않습니다
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 해당 문서를 확인해보니, 이 팁은 스프링 프레임워크 4.0에서 처음 등장했다는 것을 알았어요.
 
@@ -35,19 +42,30 @@ Spring은 @Autowired 필드/속성으로 빈을 주입하는 것을 공식적으
 
 ## 1. 생성자를 활용한 의존성 주입
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 클래스 생성자는 @Autowired로 표시되며 주입할 객체와 관련된 여러 매개변수를 포함합니다.
 
 ```js
 @Service
 public class ConstructorBasedInjection {
-    
+
     private final InjectedBean injectedBean;
-    
-    @Autowired    
-    public ConstructorBasedInjection(InjectedBean injectedBean) {        
-        this.injectedBean = injectedBean;    
+
+    @Autowired
+    public ConstructorBasedInjection(InjectedBean injectedBean) {
+        this.injectedBean = injectedBean;
     }
 }
 ```
@@ -56,7 +74,18 @@ public class ConstructorBasedInjection {
 
 ## 2. Setter를 이용한 의존성 주입
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Setter 메서드는 @Autowired로 표시되며, 빈이 인스턴스화된 후에 Spring 컨테이너에 의해 호출됩니다. 빈에 의존성을 주입하기 위해 인수 없는 생성자나 인수 없는 정적 팩토리 메서드를 사용하여 인스턴스화된 후에 호출됩니다.
 
@@ -75,16 +104,27 @@ public class SetterBasedInjection {
 
 생성자를 기반으로 하는 의존성 주입과 마찬가지로, 공식 문서에서는 Setter를 기반으로 하는 의존성 주입에서 @Autowired를 생략할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-라이브러리 'Lombok'의 도움으로 구현이 쉬워지는 것 같아요. 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+라이브러리 'Lombok'의 도움으로 구현이 쉬워지는 것 같아요.
 
 ```java
 @Service
 @RequiredArgsConstructor
 @FieldDefaults(level = AccessLevel.PRIVATE, makeFinal = true)
 public class LombokBasedInjection {
-    
+
     InjectedBean injectedBean;
 
 }
@@ -97,19 +137,30 @@ public class LombokBasedInjection {
 @FieldDefaults(level = AccessLevel.PRIVATE, makeFinal = true)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이것은 나를 위한 생성자를 만들고 속성을 private 및 final로 만드는 것을 의미합니다. .class 파일을 보겠습니다:
 
 ```js
 @Service
 public class LombokBasedInjection {
-    
+
     private final InjectedBean injectedBean;
 
-    @Generated  
-    public LombokBasedInjection(final InjectedBean injectedBean) {        
-        this.injectedBean = injectedBean;    
+    @Generated
+    public LombokBasedInjection(final InjectedBean injectedBean) {
+        this.injectedBean = injectedBean;
     }
 }
 ```
@@ -118,7 +169,18 @@ public class LombokBasedInjection {
 
 이제 @Autowired 주석을 속성 주입을 위해 대체하는 방법을 알게 되었습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 필드 기반 주입이 권장되지 않는 이유에 대해 이야기해 봅시다.
 
@@ -128,7 +190,18 @@ public class LombokBasedInjection {
 
 일상적인 개발에서 필드 기반 주입을 권장하지 않는 이유에 대해 논의하고 싶으시다면 자유롭게 댓글로 이야기해 주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 감사합니다.
 

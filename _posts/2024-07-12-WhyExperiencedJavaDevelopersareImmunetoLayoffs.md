@@ -3,17 +3,13 @@ title: "경력 있는 자바 개발자가 해고 위기에 견디는 이유"
 description: ""
 coverImage: "/assets/img/2024-07-12-WhyExperiencedJavaDevelopersareImmunetoLayoffs_0.png"
 date: 2024-07-12 21:33
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-12-WhyExperiencedJavaDevelopersareImmunetoLayoffs_0.png
 tag: Tech
 originalTitle: "Why Experienced Java Developers are Immune to Layoffs"
 link: "https://medium.com/gitconnected/why-experienced-java-developers-are-immune-to-layoffs-2370a772a47f"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-07-12-WhyExperiencedJavaDevelopersareImmunetoLayoffs_0.png)
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 자바 개발자들 사이에 리소에 대한 감정은 어떨까? 그들은 해고되는 것을 두려워할까? 해고되는 것을 걱정해야 할까?
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래는 불확실성이 높은 요즘에도 해고되지 않을 이유입니다.
 
@@ -34,7 +40,18 @@ isUpdated: true
 
 아무 이유 없이 파이썬으로 이동했더니 얼마 후에 주가가 떨어졌대요. 물론 이게 주가 하락과 관련이 있다는 건 아니지만, 왜 갑자기 다른 스택으로 변경한 건지요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Java은 안정적인 프로젝트에서 사용되기 때문에 Java 개발자에게 항상 일이 있을 것입니다.
 
@@ -44,7 +61,18 @@ Java은 안정적인 프로젝트에서 사용되기 때문에 Java 개발자에
 
 경험이 있는 Java 개발자들을 유지하는 것이 더 명백해질 거예요. 그중에 속한 경우 안전합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내 피부에서도 이를 경험했어. 역량 매트릭스를 개정하고 진급했어. 곧 사려가 올 것 같아.
 
@@ -54,7 +82,18 @@ Java은 안정적인 프로젝트에서 사용되기 때문에 Java 개발자에
 
 # 편안한 영역을 벗어나세요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 "몇 년 전 Hybris를 사용했을 때 나의 생각: 'Closed-source 프로젝트는 Spring Boot이나 다른 오픈 소스 프로젝트 사용보다 나아요.'
 
@@ -64,7 +103,18 @@ Hybris는 대규모 상거래 문제를 해결해주지만 최신 개발 동향�
 
 Hybris 동료들은 일을 잃어도 아직 구직중이에요."
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하이브리스의 특징 중 하나는 모든 작업을 쉽게 수행할 수 있으며, 올바르게 계획된 경우 대부분의 자바 개발자가 완성할 수 있다는 것입니다. 전체적으로 하이브리스에 제한을 받지만 그것도 중요한 제한입니다.
 
@@ -74,7 +124,18 @@ Hybris 동료들은 일을 잃어도 아직 구직중이에요."
 
 # 자바 이상을 배우세요
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 기계 학습 / 인공 지능 작업에는 Java를 사용하고 싶지 않아요. Python이 더 좋은 지원을 제공해요. Python (풀루미와 함께)이 더 좋은 선택일 때 IAC에 Java를 사용하고 싶지 않아요. 더 나은 해결책이 있는 경우 어디든 Java를 연결할 필요가 없어요.
 
@@ -84,8 +145,18 @@ Keycloak, 확장 프로그램, 사용자 지정 권한 부여 흐름에 대해 �
 
 Keycloak의 확장성은 Java를 통해 이루어지기 때문에 나에게 더 많은 보너스 스킬을 판매할 수 있는 기회가 되었어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![이미지](/assets/img/2024-07-12-WhyExperiencedJavaDevelopersareImmunetoLayoffs_1.png)
 
@@ -95,8 +166,18 @@ Pulumi + Python — Java 이외의 또 다른 시장에서 인정받는 기술.
 
 # 당신의 이야기는 무엇인가요?
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자바는 30년 이상 살아왔으니, 앞으로도 30년은 살 것이다. 계속해서 우리는 여러 해 동안 public static void main args를 보게 될 것이다.
 

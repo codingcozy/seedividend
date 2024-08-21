@@ -3,15 +3,13 @@ title: "개인 금융 추적기 코딩 완벽 가이드"
 description: ""
 coverImage: "/assets/img/2024-07-07-TheUltimateGuidetoCodingaPersonalFinanceTracker_0.png"
 date: 2024-07-07 21:25
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-07-TheUltimateGuidetoCodingaPersonalFinanceTracker_0.png
 tag: Tech
 originalTitle: "The Ultimate Guide to Coding a Personal Finance Tracker"
 link: "https://medium.com/@learntocodetoday/the-ultimate-guide-to-coding-a-personal-finance-tracker-a7b4bfa3d65c"
 isUpdated: true
 ---
-
-
 
 ![이미지](/assets/img/2024-07-07-TheUltimateGuidetoCodingaPersonalFinanceTracker_0.png)
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 시작하기 전에 다음 사항을 준비하세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - HTML, CSS 및 JavaScript의 기본 지식이 필요합니다.
 - 컴퓨터에 Node.js 및 npm (Node Package Manager)이 설치되어 있어야 합니다.
@@ -37,7 +46,18 @@ cd finance-tracker
 npm init -y
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 필요한 종속성을 설치해주세요:
 

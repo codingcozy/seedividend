@@ -3,15 +3,13 @@ title: "프론트엔드 개발자를 위한 필수 HTML 트릭 30가지"
 description: ""
 coverImage: "/assets/img/2024-07-09-30EssentialHTMLTricksforFront-EndDevelopment_0.png"
 date: 2024-07-09 14:20
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-09-30EssentialHTMLTricksforFront-EndDevelopment_0.png
 tag: Tech
 originalTitle: "30 Essential HTML Tricks for Front-End Development"
 link: "https://medium.com/javascript-in-plain-english/30-essential-html-tricks-for-front-end-development-b396222dd2da"
 isUpdated: true
 ---
-
-
 
 <img src="/assets/img/2024-07-09-30EssentialHTMLTricksforFront-EndDevelopment_0.png" />
 
@@ -21,7 +19,18 @@ isUpdated: true
 
 ## 1. 상대 링크를 위한 기본 URL 정의
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `base` 태그를 사용하여 웹페이지의 모든 상대 URL에 대한 베이스 URL을 정의할 수 있어요.
 

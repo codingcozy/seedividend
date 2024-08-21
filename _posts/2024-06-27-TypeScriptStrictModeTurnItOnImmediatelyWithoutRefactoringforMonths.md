@@ -3,16 +3,13 @@ title: "TypeScript Strict Mode 리팩토링 없이 몇 달 동안 바로 켜야 
 description: ""
 coverImage: "/assets/img/2024-06-27-TypeScriptStrictModeTurnItOnImmediatelyWithoutRefactoringforMonths_0.png"
 date: 2024-06-27 17:58
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-27-TypeScriptStrictModeTurnItOnImmediatelyWithoutRefactoringforMonths_0.png
 tag: Tech
 originalTitle: "TypeScript Strict Mode: Turn It On Immediately Without Refactoring for Months!"
 link: "https://medium.com/@shiviraj/typescript-strict-mode-turn-it-on-immediately-without-refactoring-for-months-1b5a9c4f8af6"
 isUpdated: true
 ---
-
-
-
 
 TypeScript은 JavaScript 응용 프로그램에 유형 안전성과 코드 문서화를 향상시킵니다. 그러나 이전 프로젝트에서는 엄격 모드가 활성화되지 않을 수 있으며, 이는 유형 안전성의 모든 이점을 제대로 활용할 수 없게 할 수 있습니다. 이것은 새로운 사용자의 진입 장벽을 낮추지만, 일부 버그를 컴파일 시간에 감지하지 못하게 합니다.
 
@@ -22,7 +19,18 @@ TypeScript은 JavaScript 응용 프로그램에 유형 안전성과 코드 문�
 
 마틴 파울러(Martin Fowler)의 소프트웨어 아키텍처에 대한 인기 있는 정의 중 하나는:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 결정들은 시간이 지남에 따라 새로운 기능을 추가하는 데 필요한 비용과 노력에 상당한 영향을 미칩니다.
 
@@ -32,7 +40,18 @@ TypeScript은 JavaScript 응용 프로그램에 유형 안전성과 코드 문�
 
 TypeScript의 strict 플래그는 여러 중요한 검사를 활성화하는 일종의 통합 플래그입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - noImplicitAny
 - noImplicitThis
@@ -47,7 +66,18 @@ TypeScript의 strict 플래그는 여러 중요한 검사를 활성화하는 일
 
 수백 개 또는 수천 개의 TypeScript 파일로 구성된 중대규모 앱을 개발 중이라면 즉시 엄격 모드를 활성화하는 것이 현실적이지 않을 수 있습니다. 컴파일 시간 오류가 여러 개 발생할 수 있어 빌드가 실패할 수 있습니다. 기능 개발을 중단하고 이러한 오류를 수정하기 위해 수개월 동안 엔지니어링 시간을 할당하는 것은 이상적이지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 귀하의 코드베이스의 유형 안정성과 아키텍처를 개선하는 동안 새로운 기능을 계속 배포하는 방법이 있습니다:
 
@@ -57,7 +87,18 @@ TypeScript의 strict 플래그는 여러 중요한 검사를 활성화하는 일
 
 새로운 TypeScript 프로젝트의 경우 처음부터 엄격한 모드를 활성화하는 것이 합리적입니다. 이렇게하면 시간과 귀찮음을 절약하고 소프트웨어의 품질을 크게 향상시킵니다. 개발자는 또한 중요한 JavaScript 및 TypeScript 교훈을 배우며, 안전하고 안정적인 프로그래밍 언어로 만듭니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 기존 프로젝트
 
@@ -66,10 +107,21 @@ TypeScript의 strict 플래그는 여러 중요한 검사를 활성화하는 일
 만일 Git 저장소를 사용하고 현재 프로젝트 상태가 올바르다고 가정한다면, 다음과 같은 똑똑한 해결책이 가능합니다:
 
 - 엄격한 모드 활성화 — "tsconfig.json" 파일의 "strict" 플래그를 "true"로 설정합니다.
-- 해킹: 모든 파일에 대해 TypeScript 검사를 수동으로 비활성화 — 모든 *.ts 파일의 첫 번째 줄에 // @ts-nocheck를 추가합니다. (스크립트로 자동화할 수 있습니다)
+- 해킹: 모든 파일에 대해 TypeScript 검사를 수동으로 비활성화 — 모든 \*.ts 파일의 첫 번째 줄에 // @ts-nocheck를 추가합니다. (스크립트로 자동화할 수 있습니다)
 - Pre-Commit 후크 추가 — Git 저장소에 커밋 시 // @ts-nocheck 주석이 포함된 커밋을 거부하는 Git 후크를 추가합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```bash
 #!/bin/sh
@@ -94,7 +146,18 @@ exit 0
 
 장점:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 코드 품질은 계속해서 향상됩니다.
 - 엄격 모드 활성화가 가능합니다.
@@ -105,7 +168,18 @@ exit 0
 
 ## 추가 단계
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 에러 및 경고의 수가 증가하지 않도록 오류 임계값을 추가할 수 있어요. 먼저 다음 명령을 사용하여 보고서를 생성해보세요:
 
@@ -116,7 +190,7 @@ eslint . --format=json --output-file=eslint-report.json; node ./eslint-config.js
 이 명령을 실행하면 모든 오류가 포함된 JSON 파일이 생성됩니다. 그런 다음 오류의 수를 계산하고 유효성을 확인하기 위해 Node.js 스크립트(eslint-config.js)를 작성해보세요:
 
 ```js
-const errors = require('./eslint-report.json');
+const errors = require("./eslint-report.json");
 
 const ERROR_THRESHOLD = 1212;
 const WARNING_THRESHOLD = 53;
@@ -125,19 +199,30 @@ const totalErrors = errors.reduce((sum, error) => sum + error.errorCount, 0);
 const totalWarnings = errors.reduce((sum, error) => sum + error.warningCount, 0);
 
 if (totalErrors > ERROR_THRESHOLD) {
-    console.error(`에러 임계값 초과: 발견된 오류 수 ${totalErrors}개 (임계값: ${ERROR_THRESHOLD})`);
-    process.exit(1);
+  console.error(`에러 임계값 초과: 발견된 오류 수 ${totalErrors}개 (임계값: ${ERROR_THRESHOLD})`);
+  process.exit(1);
 }
 
 if (totalWarnings > WARNING_THRESHOLD) {
-    console.error(`경고 임계값 초과: 발견된 경고 수 ${totalWarnings}개 (임계값: ${WARNING_THRESHOLD})`);
-    process.exit(1);
+  console.error(`경고 임계값 초과: 발견된 경고 수 ${totalWarnings}개 (임계값: ${WARNING_THRESHOLD})`);
+  process.exit(1);
 }
 
 console.log(`린팅 통과: ${totalErrors}개의 오류, ${totalWarnings}개의 경고`);
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 CI/CD 파이프라인에이 스크립트를 추가하여 오류 또는 경고의 수가 증가할 때마다 빌드를 실패하도록 설정하세요. 시간이 지남에 따라 오류를 수정하고 임계값을 점차 낮춰보세요.
 

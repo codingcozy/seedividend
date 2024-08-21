@@ -3,17 +3,13 @@ title: "CSS Flexbox를 활용한 네이티브 반응형 사이트 만드는 방�
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Designing Natively Responsive Interfaces with CSS Flexbox"
 link: "https://medium.com/@mysteryweevil/designing-natively-responsive-interfaces-with-css-flexbox-896f25bd5311"
 isUpdated: true
 ---
-
-
-
-
 
 여러 해 동안 정사각형 웹사이트 디자인을 모바일 화면에 깔끔하게 재배치하는 것은 개발자들에게 머리아픔을 줬고 사용자들에게는 훌륭하지 못한 경험을 제공했습니다.
 
@@ -41,7 +37,18 @@ isUpdated: true
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이러한 기본 지식으로부터 완벽한 레이아웃이 빠르게 형성되며 요소가 크기를 조절함에 따라 내용이 최적으로 재구성됩니다. 플렉스 컨테이너를 중첩함으로써 복잡한 다차원 배열을 반응적으로 작성할 수도 있습니다.
 
@@ -62,7 +69,18 @@ img {
 
 Flexbox는 뻣뻣한 데스크톱 중심 가정으로 제한되던 레이아웃 가능성을 마침내 실현합니다. 외부의 엄격함보다는 내재적 유연성을 위해 먼저 디자인함으로써 인터페이스는 다양한 맥락과 사용자들과 조화롭게 어우러질 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그러나 더 많은 Flexbox 채택은 일반적인 전환적 저항을 겪을 수 있습니다:
 

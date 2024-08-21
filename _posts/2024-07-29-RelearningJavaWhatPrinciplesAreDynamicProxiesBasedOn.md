@@ -3,17 +3,13 @@ title: "자바 다시 배우기 동적 프록시가 기반한 원칙은 무엇�
 description: ""
 coverImage: "/assets/img/2024-07-29-RelearningJavaWhatPrinciplesAreDynamicProxiesBasedOn_0.png"
 date: 2024-07-29 14:00
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-29-RelearningJavaWhatPrinciplesAreDynamicProxiesBasedOn_0.png
 tag: Tech
 originalTitle: "Relearning Java What Principles Are Dynamic Proxies Based On"
 link: "https://medium.com/@cstoppgmr/relearning-java-what-principles-are-dynamic-proxies-based-on-726ea74d6f0a"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/2024-07-29-RelearningJavaWhatPrinciplesAreDynamicProxiesBasedOn_0.png)
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 그렇다면 Java는 이 분류에 어떻게 맞는 걸까요? Java는 일반적으로 정적 타입, 강한 타입 언어로 간주됩니다. 그러나 리플렉션과 같은 메커니즘을 제공하기 때문에 동적 타입 언어의 몇 가지 능력도 갖추고 있습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 간단히 말씀드리면, 오늘의 질문은 자바의 리플렉션 메커니즘과 다이내믹 프록시 뒤에 숨은 원리에 대한 것이에요.
 

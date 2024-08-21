@@ -3,17 +3,13 @@ title: "리액트에서 Formik과 Yup으로 폼 유효성 검사하기타입스�
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Mastering Form Validation in React with Formik and Yup with TypeScript"
 link: "https://medium.com/@olaishola/mastering-form-validation-in-react-with-formik-and-yup-with-typescript-9dc4b3885538"
 isUpdated: true
 ---
-
-
-
-
 
 <img src="/assets/img/MasteringFormValidationinReactwithFormikandYupwithTypeScript_0.png" />
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 ## 왜 또 다른 라이브러리가 필요한 걸까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이렇게 마음을 비우고 즐거운 웃음으로 새로운 내용을 만나보시는 건 어떨까요? 이 표를 마크다운 형식으로 변경해드리겠습니다:
 
@@ -33,7 +40,18 @@ isUpdated: true
 
 요렇게 말씀해주셨네요! 그렇게 마음을 비우고 불필요한 스트레스로 고생할 필요는 없어요. 직접 작성해야하는 추가적인 로직보다는 Formik와 Yup 같은 타사 라이브러리를 활용하는 걸 고려해보세요. 이 라이브러리를 사용하면 많은 시간과 노력을 절약할 수 있어요. 직접 검증 로직을 작성하는 대신 Formik와 Yup을 사용하는 이유를 여기서 한 번 살펴보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 간편함과 편리함: Formik 및 Yup은 React에서 양식 유효성 검사를 처리하는 간단하고 선언적인 방법을 제공합니다. 이들은 보일러플레이트 코드의 많은 부분을 추상화하고 양식 상태 관리, 유효성 검사 처리, 그리고 유효성 오류 표시를 위한 간단한 API를 제공합니다. 이는 복잡한 유효성 검사 로직을 처음부터 작성하는 수고를 덜고 코드를 보다 유지보수 가능하고 가독성 있게 만들어줄 수 있습니다.
 - 유효성 스키마 정의: 특히 Yup은 강력한 유효성 스키마 정의 구문을 제공합니다. 이를 통해 문자열, 숫자, 날짜, 그리고 객체 유효성과 같이 복잡한 유효성 규칙을 쉽게 정의할 수 있습니다. Yup은 필수 필드, 최소/최대 길이, 패턴 일치 등 다양한 내장 유효성 검사 방법을 제공합니다. 이를 통해 모든 유효성 로직을 수동으로 작성할 필요가 없어지며 코드가 보다 간결해집니다.
@@ -47,7 +65,18 @@ isUpdated: true
 
 <img src="/assets/img/MasteringFormValidationinReactwithFormikandYupwithTypeScript_2.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 시간을 낭비하지 않고, 바로 작업을 시작해 봅시다.
 
@@ -59,7 +88,18 @@ isUpdated: true
 - TypeScript를 지원하는 작동하는 React 프로젝트.
 - 필요한 종속성을 설치.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - React: ^16.8.0 이상
 - Formik: ^2.2.0 이상
@@ -75,7 +115,18 @@ cd form-validation-demo
 npm install formik yup
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 코드는 TypeScript 지원이 포함된 새로운 React 프로젝트를 만들고 Formik 및 Yup 라이브러리를 설치할 것입니다.
 
@@ -112,7 +163,18 @@ const Form: React.FC = () => {
 export default Form;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Yup을 사용하여 유효성 검사 스키마 정의하기
 
@@ -121,29 +183,30 @@ export default Form;
 유효성 검사 스키마를 정의하려면 Form.tsx 파일의 상단에 필요한 종속성을 가져와야합니다:
 
 ```js
-import {
-  Formik,
-  Field,
-  ErrorMessage,
-  FormikValues,
-  FormikHelpers,
-} from "formik";
+import { Formik, Field, ErrorMessage, FormikValues, FormikHelpers } from "formik";
 import * as Yup from "yup";
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음으로 Form 컴포넌트 내에서 Yup의 object().shape() 메서드를 사용하여 유효성 검사 스키마를 정의하세요:
 
 ```js
 const validationSchema = Yup.object().shape({
   name: Yup.string().required("이름을 입력해주세요"),
-  email: Yup.string()
-    .email("유효하지 않은 이메일 주소입니다")
-    .required("이메일을 입력해주세요"),
-  password: Yup.string()
-    .min(6, "비밀번호는 최소 6자 이상이어야 합니다")
-    .required("비밀번호를 입력해주세요"),
+  email: Yup.string().email("유효하지 않은 이메일 주소입니다").required("이메일을 입력해주세요"),
+  password: Yup.string().min(6, "비밀번호는 최소 6자 이상이어야 합니다").required("비밀번호를 입력해주세요"),
   confirmPassword: Yup.string()
     .oneOf([Yup.ref("password")], "비밀번호가 일치해야 합니다")
     .required("비밀번호 확인을 입력해주세요"),
@@ -154,17 +217,24 @@ const validationSchema = Yup.object().shape({
 
 Form 컴포넌트 내에서 Formik 컴포넌트로 폼을 감싸세요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 return (
   <div>
     <h1>양식 유효성 검사 예제</h1>
-    <Formik
-      initialValues={initialValues}
-      validationSchema={validationSchema}
-      onSubmit={handleSubmit}
-    >
+    <Formik initialValues={initialValues} validationSchema={validationSchema} onSubmit={handleSubmit}>
       <form>{/* 양식 필드 */}</form>
     </Formik>
   </div>
@@ -177,7 +247,18 @@ return (
 
 이 섹션에서는 각 필드에 대해 유효성 검사 오류를 표시하여 양식을 개선할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 폼 요소 안에 다음 코드를 추가하세요:
 
@@ -193,7 +274,18 @@ return (
 
 오류 메시지를 스타일링하려면 src 폴더에 Form.css라는 새 파일을 만들고 다음 CSS 코드를 추가하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 .input-err {
@@ -215,7 +307,18 @@ return (
 import "./Form.css";
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 양식 제출 처리
 
@@ -224,10 +327,7 @@ import "./Form.css";
 Form 컴포넌트에서 양식 제출을 처리하기 위해 handleSubmit 함수를 정의하세요:
 
 ```js
-const handleSubmit = (
-  values: FormikValues,
-  { setSubmitting }: FormikHelpers<FormValues>
-) => {
+const handleSubmit = (values: FormikValues, { setSubmitting }: FormikHelpers<FormValues>) => {
   setTimeout(() => {
     console.log(values);
     setSubmitting(false);
@@ -235,7 +335,18 @@ const handleSubmit = (
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예시에서 handleSubmit 함수는 500ms의 짧은 지연 후에 양식 값들을 콘솔에 기록합니다. setSubmitting 함수는 양식 제출이 완료되었음을 나타내고 추가 상호작용을 위해 양식을 활성화하는 데 사용됩니다.
 
@@ -245,7 +356,18 @@ const handleSubmit = (
 
 Yup은 기본 유효성 검사 규칙 외에도 양식 유효성 검사 프로세스에 통합할 수 있는 다양한 고급 유효성 검사 기술을 제공합니다. 조건부 유효성 검사, 배열 유효성 검사, 여러 유효성 검사 규칙 조합 등이 일반적으로 사용되는 기술입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 조건부 유효성 검사를 구현하려면 Yup의 when 메서드를 사용할 수 있습니다. 이 메서드를 사용하여 다른 필드의 값에 따라 유효성 규칙을 정의할 수 있습니다. 예를 들어, 사용자가 특정 옵션을 선택한 경우에만 필수로 입력해야 하는 newsletter라는 필드가 있다고 가정해 봅시다. 다음과 같이 이 규칙을 정의할 수 있습니다:
 
@@ -263,7 +385,18 @@ validationSchema = Yup.object().shape({
 
 사용자 정의 유효성 함수
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Yup에는 다양한 내장 유효성 검사 방법이 함께 제공되지만 때로는 사용자 정의 유효성 검사 로직을 구현해야 할 때가 있을 수 있어요. 복잡한 유효성 검사 요구 사항을 처리하기 위해 Yup은 사용자 정의 유효성 함수를 정의할 수 있도록 해줍니다.
 
@@ -280,7 +413,18 @@ validationSchema = Yup.object().shape({
 
 이 예제에서 사용자 정의 유효성 함수는 나이 필드 값이 18세부터 65세 사이에 있는지 확인합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 비동기 유효성 검사
 
@@ -291,17 +435,24 @@ validationSchema = Yup.object().shape({
 ```js
 validationSchema = Yup.object().shape({
   // 다른 필드 유효성 검사...
-  username: Yup.string().test(
-    "username",
-    "이름은 이미 사용 중입니다",
-    async (value) => {
-      return await isUsernameAvailable(value);
-    }
-  ),
+  username: Yup.string().test("username", "이름은 이미 사용 중입니다", async (value) => {
+    return await isUsernameAvailable(value);
+  }),
 });
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 예제에서는 isUsernameAvailable 함수가 사용 가능한 사용자 이름을 확인하는 비동기 함수입니다. 사용자 정의 유효성 검사 함수는 비동기 호출을 기다리고 결과에 따라 true 또는 false를 반환합니다.
 
@@ -311,14 +462,21 @@ validationSchema = Yup.object().shape({
 
 모든 폼 필드가 유효할 때까지 제출 버튼을 비활성화하려면 Formik 구성 요소에 isSubmitting 속성을 추가하고 버튼을 조건부로 비활성화하는 데 사용할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-<Formik
-  initialValues={initialValues}
-  validationSchema={validationSchema}
-  onSubmit={handleSubmit}
->
+<Formik initialValues={initialValues} validationSchema={validationSchema} onSubmit={handleSubmit}>
   {({ isSubmitting, handleSubmit }) => (
     <form onSubmit={handleSubmit}>
       {/* Form fields */}
@@ -336,13 +494,7 @@ validationSchema = Yup.object().shape({
 
 ```js
 import React from "react";
-import {
-  Formik,
-  Field,
-  ErrorMessage,
-  FormikValues,
-  FormikHelpers,
-} from "formik";
+import { Formik, Field, ErrorMessage, FormikValues, FormikHelpers } from "formik";
 import * as Yup from "yup";
 import "./Form.css";
 
@@ -358,12 +510,8 @@ const validationSchema = Yup.object().shape({
     .min(2, "이름은 최소 2자여야 합니다")
     .max(100, "이름은 100자를 넘을 수 없습니다")
     .required("이름은 필수 항목입니다"),
-  email: Yup.string()
-    .email("유효하지 않은 이메일입니다")
-    .required("이메일은 필수 항목입니다"),
-  password: Yup.string()
-    .min(6, "비밀번호는 최소 6자 이상이어야 합니다")
-    .required("비밀번호는 필수 항목입니다"),
+  email: Yup.string().email("유효하지 않은 이메일입니다").required("이메일은 필수 항목입니다"),
+  password: Yup.string().min(6, "비밀번호는 최소 6자 이상이어야 합니다").required("비밀번호는 필수 항목입니다"),
   confirmPassword: Yup.string()
     .oneOf([Yup.ref("password")], "비밀번호가 일치해야 합니다")
     .required("비밀번호 확인은 필수 항목입니다"),
@@ -377,10 +525,7 @@ const Form: React.FC = () => {
     confirmPassword: "",
   };
 
-  const handleSubmit = (
-    values: FormikValues,
-    { setSubmitting }: FormikHelpers<FormValues>
-  ) => {
+  const handleSubmit = (values: FormikValues, { setSubmitting }: FormikHelpers<FormValues>) => {
     setTimeout(() => {
       console.log(values);
       setSubmitting(false);
@@ -390,54 +535,30 @@ const Form: React.FC = () => {
   return (
     <div className="main">
       <h1>등록 양식</h1>
-      <Formik
-        initialValues={initialValues}
-        validationSchema={validationSchema}
-        onSubmit={handleSubmit}
-      >
+      <Formik initialValues={initialValues} validationSchema={validationSchema} onSubmit={handleSubmit}>
         {({ isSubmitting, errors, handleSubmit }) => (
           <form onSubmit={handleSubmit}>
             <label htmlFor="name">
               이름:
-              <Field
-                name="name"
-                type="text"
-                className={errors.name ? "error" : ""}
-              />
+              <Field name="name" type="text" className={errors.name ? "error" : ""} />
               <ErrorMessage className="error" name="name" component="div" />
             </label>
             <label htmlFor="email">
               이메일:
-              <Field
-                name="email"
-                type="email"
-                className={errors.email ? "error" : ""}
-              />
+              <Field name="email" type="email" className={errors.email ? "error" : ""} />
               <ErrorMessage className="error" name="email" component="div" />
             </label>
 
             <label htmlFor="password">
               비밀번호:
-              <Field
-                name="password"
-                type="password"
-                className={errors.password ? "error" : ""}
-              />
+              <Field name="password" type="password" className={errors.password ? "error" : ""} />
               <ErrorMessage className="error" name="password" component="div" />
             </label>
 
             <label htmlFor="confirmPassword">
               비밀번호 확인:
-              <Field
-                name="confirmPassword"
-                type="password"
-                className={errors.confirmPassword ? "error" : ""}
-              />
-              <ErrorMessage
-                className="error"
-                name="confirmPassword"
-                component="div"
-              />
+              <Field name="confirmPassword" type="password" className={errors.confirmPassword ? "error" : ""} />
+              <ErrorMessage className="error" name="confirmPassword" component="div" />
             </label>
             <button type="submit" disabled={isSubmitting}>
               제출
@@ -452,7 +573,18 @@ const Form: React.FC = () => {
 export default Form;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 Formik 컴포넌트를 사용하지 않고 Yup을 사용하여 React에서 양식 유효성을 구현하고 싶다면, 위에서 구현한 것처럼 양식을 Formik으로 감싸지 않고도 직접 Yup 유효성 스키마를 사용하고 React의 내장 양식 처리 및 상태 관리 기능을 사용할 수 있습니다.
 
@@ -478,12 +610,8 @@ const Form: React.FC = () => {
       .min(2, "이름은 최소 2자 이상이어야 합니다")
       .max(100, "이름은 100자를 넘을 수 없습니다")
       .required("이름은 필수 입력 항목입니다"),
-    email: Yup.string()
-      .email("잘못된 이메일 형식입니다")
-      .required("이메일은 필수 입력 항목입니다"),
-    password: Yup.string()
-      .min(6, "비밀번호는 최소 6자 이상이어야 합니다")
-      .required("비밀번호는 필수 입력 항목입니다"),
+    email: Yup.string().email("잘못된 이메일 형식입니다").required("이메일은 필수 입력 항목입니다"),
+    password: Yup.string().min(6, "비밀번호는 최소 6자 이상이어야 합니다").required("비밀번호는 필수 입력 항목입니다"),
     confirmPassword: Yup.string()
       .oneOf([Yup.ref("password")], "비밀번호가 일치해야 합니다")
       .required("비밀번호 확인은 필수 입력 항목입니다"),
@@ -520,30 +648,14 @@ const Form: React.FC = () => {
       <form onSubmit={formik.handleSubmit}>
         <div>
           <label htmlFor="name">이름</label>
-          <input
-            type="text"
-            id="name"
-            name="name"
-            value={formik.values.name}
-            onChange={formik.handleChange}
-          />
-          {formik.touched.name && formik.errors.name && (
-            <div className="error">{formik.errors.name}</div>
-          )}
+          <input type="text" id="name" name="name" value={formik.values.name} onChange={formik.handleChange} />
+          {formik.touched.name && formik.errors.name && <div className="error">{formik.errors.name}</div>}
         </div>
 
         <div>
           <label htmlFor="email">이메일</label>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            value={formik.values.email}
-            onChange={formik.handleChange}
-          />
-          {formik.touched.email && formik.errors.email && (
-            <div className="error">{formik.errors.email}</div>
-          )}
+          <input type="email" id="email" name="email" value={formik.values.email} onChange={formik.handleChange} />
+          {formik.touched.email && formik.errors.email && <div className="error">{formik.errors.email}</div>}
         </div>
 
         <div>
@@ -555,9 +667,7 @@ const Form: React.FC = () => {
             value={formik.values.password}
             onChange={formik.handleChange}
           />
-          {formik.touched.password && formik.errors.password && (
-            <div className="error">{formik.errors.password}</div>
-          )}
+          {formik.touched.password && formik.errors.password && <div className="error">{formik.errors.password}</div>}
         </div>
 
         <div>
@@ -587,7 +697,18 @@ export default Form;
 
 이 코드 예제에서는 useFormik 후크를 사용하여 Formik을 통해 양식 상태 관리 및 유효성 검사를 처리합니다. Yup을 사용하여 유효성 스키마를 정의하고 onSubmit 함수를 사용하여 양식 제출을 처리합니다. 양식 입력란은 value 및 onChange 속성을 사용하여 제어되며, formik touched 및 errors 속성에 따라 유효성 오류가 표시됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 방식을 사용하면 Formik 컴포넌트에 의존하지 않고 요구 사항에 맞게 양식 유효성 검사와 제출을 처리할 수 있는 유연성이 생깁니다.
 
@@ -597,7 +718,18 @@ export default Form;
 
 Formik과 Yup의 기능을 결합하여 심층적이고 사용자 친화적인 양식을 만들어 매끄럽고 사용하기 쉬운 유효성 검사 경험을 제공할 수 있습니다. 특정 양식 요구 사항에 맞게 유효성 검사 규칙을 사용자 정의하고 조건부 유효성 검사, 사용자 정의 유효성 함수, 비동기 유효성 검사, 제출 버튼 비활성화 등과 같은 고급 기법을 활용하는 것을 기억해 주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 안내서에서 얻은 지식을 통해 React 애플리케이션에서 양식 유효성 검사 도전을 잘 다룰 수 있을 겁니다. TypeScript로 Formik과 Yup을 사용한 양식 유효성 검사는 개발 워크플로우를 향상시키는데 도움이 되며, 양식을 견고하고 안전하며 사용자 친화적으로 유지할 수 있게 해줍니다.
 
@@ -607,6 +739,17 @@ Formik과 Yup의 기능을 결합하여 심층적이고 사용자 친화적인 �
 
 데모의 GitHub 저장소는 여기에서 확인할 수 있습니다. 전체 코드와 CSS 스타일링을 모두 볼 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 마크다운 형식으로 변경해주세요.

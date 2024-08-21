@@ -3,17 +3,13 @@ title: "CSS Flexbox - 반응형 웹 사이트를 위한 고급 기술"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Mastering CSS Flexbox Advanced Techniques for Flexible Web Layouts"
 link: "https://thiraphat-ps-dev.medium.com/mastering-css-flexbox-advanced-techniques-for-flexible-web-layouts-3804af95594f"
 isUpdated: true
 ---
-
-
-
-
 
 # 소개
 
@@ -23,11 +19,33 @@ CSS 작업을 한 동안 진행했다면, 플렉스박스(Flexbox)에 익숙할 
 
 플렉스 아이템이 컨테이너 내에서 어떻게 흘러가는지 제어하는 것은 중요합니다. 이를 어떻게 하는지 알아보겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 테이블 태그를 Markdown 형식으로 변경하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `justify-content`은 주축을 따라 수평 정렬을 다루지만, 교차 축은 어떨까요?
 
@@ -43,7 +61,18 @@ CSS 작업을 한 동안 진행했다면, 플렉스박스(Flexbox)에 익숙할 
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 align-content:
 
@@ -54,7 +83,18 @@ align-content:
 
 플렉스박스를 사용하면 컨테이너 내 개별 항목의 동작을 세밀하게 조절할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 체육광장:
 
@@ -64,7 +104,18 @@ align-content:
 
 - 오버플로우를 방지하기 위해 아이템이 어떻게 축소되는지를 제어합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 flex-basis
 
@@ -78,7 +129,18 @@ flex-basis
 
 4. 'order'의 힘
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 표 태그를 Markdown 형식으로 변경합니다.
 
@@ -90,7 +152,18 @@ flex-basis
 
 복잡한 구조를 위해 서로 다른 Flexbox 레이아웃을 결합하세요. 기억하세요, Flex 항목은 스스로 Flex 컨테이너가 될 수 있습니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 결론
 

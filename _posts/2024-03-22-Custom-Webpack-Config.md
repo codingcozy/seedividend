@@ -3,17 +3,13 @@ title: "Nextjs Webpack 설정 하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # 사용자 정의 Webpack 설정
 
@@ -26,7 +22,18 @@ isUpdated: true
 - Sass/SCSS 임포트
 - Sass/SCSS 모듈
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 일부 자주 요청되는 기능은 플러그인으로 제공됩니다:
 
@@ -44,7 +51,18 @@ module.exports = {
 };
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 > 웹팩 함수는 서버(nodejs / edge 실행 환경)에 대해 두 번, 클라이언트에 대해 한 번 실행됩니다. 이를 통해 isServer 속성을 사용하여 클라이언트와 서버 구성을 구분할 수 있습니다.
 
@@ -59,7 +77,18 @@ module.exports = {
 
 defaultLoaders.babel 사용 예시:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 베이블 로더에 의존하는 로더를 추가하는 예시 설정
@@ -87,4 +116,15 @@ module.exports = {
 
 nextRuntime이 "edge" 또는 "nodejs"인 경우 isServer가 true임을 알 수 있습니다. 현재 nextRuntime "edge"는 미들웨어 및 에지 런타임에서만 서버 컴포넌트를 위한 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

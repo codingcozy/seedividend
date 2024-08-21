@@ -3,16 +3,13 @@ title: "파이썬에서 쓰레딩 사용 하는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-22-ThreadinginPython_0.png"
 date: 2024-06-22 02:41
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-ThreadinginPython_0.png
 tag: Tech
 originalTitle: "Threading in Python"
 link: "https://medium.com/gitconnected/threading-in-python-4fe4da581369"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-06-22-ThreadinginPython_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 마지막에 있는 리소스 섹션에는 해당 주제를 깊이 파헤칠 수 있는 멋진 자료에 대한 링크가 있어요 🤓
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 관련 포스트
 
@@ -34,7 +42,18 @@ isUpdated: true
 
 쓰레드는 프로세스 내에서 실행의 기본 단위입니다. 독립적인 실행 흐름으로, 동일한 프로세스 내의 다른 독립적인 실행 흐름과 동일한 주소 공간을 공유합니다. 프로세스는 하나 이상의 쓰레드를 가질 수 있으며, 이 중 하나는 메인 쓰레드입니다. 이는 Python 프로세스의 기본 쓰레드입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-22-ThreadinginPython_1.png" />
 
@@ -44,7 +63,18 @@ Python (CPython 구현) 프로세스 내의 스레드는 Python의 글로벌 인
 
 프로그램을 작성한다고 상상해보세요. 실행이 시작되면 단일 프로세스가 될 것입니다. 또한 해당 프로세스는 두 개의 스레드를 갖게 될 것입니다. 두 개의 스레드가 있으면 동시성을 활용할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 싱글 코어 CPU에서는 프로그램이 동시에 실행될 수 있습니다. 하나의 코어와 두 개의 스레드로, 스레드가 동일한 코어 내에서 서로 교환될 수 있습니다. 이를 컨텍스트 스위칭이라고 합니다.
 
@@ -54,7 +84,18 @@ Python (CPython 구현) 프로세스 내의 스레드는 Python의 글로벌 인
 
 # 스레딩 사용 사례
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다중 스레딩이 가장 적합한 작업은 I/O 바운드 작업입니다. 예를 들어, 스레드가 데이터베이스에 요청을 보내야 하는 명령을 실행하는 경우, 응답을 기다리는 스레드로 CPU 코어를 차단하는 것은 현명하지 않습니다. 대신에 첫 번째 스레드가 기다리는 동안에 다른 스레드가 코어를 사용할 수 있도록 하는 것이 자원을 더 잘 활용하는 방법입니다.
 
@@ -62,7 +103,18 @@ Python (CPython 구현) 프로세스 내의 스레드는 Python의 글로벌 인
 
 프로그램이 병렬로 여러 스레드를 사용하지 않고 대신에 단일 스레드 내에서 순차적으로 작업을 실행하는 경우, 녹색 작업을 완료하기를 기다려서 빨간 작업을 실행하기 시작해야 하므로, 두 작업을 완료하는 데 더 많은 시간이 소요됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 `<img src="/assets/img/2024-06-22-ThreadinginPython_3.png" />`
 
@@ -72,7 +124,18 @@ I/O 작업을 다룰 때 멀티스레딩은 자원을 더 잘 할당할 수 있�
 
 # Python 스레딩 초급 단계
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 먼저 I/O 바운드와 CPU 바운드 작업을 정의해 봅시다. io_bound_operation은 지정된 초 수만큼 "잠들어" 있습니다. cpu_bound_operation은 지정된 숫자 범위를 더합니다. 두 함수 모두 결과를 shared_list에 추가합니다. 동일한 프로세스의 스레드는 데이터를 공유할 수 있다는 것을 기억해 주세요.
 
@@ -113,7 +176,18 @@ def cpu_bound_operation(n: int) -> None:
 
 이 예제에서는 I/O 바운드 작업이 1초 동안 지속되도록 하고, 프로세서가 이 100,000,000개의 숫자를 더하는 데 약 3.5초가 걸립니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 def threading_two_threads():
@@ -155,7 +229,18 @@ def threading_two_threads():
     logging.info(f"shared_list {shared_list}")
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 마지막으로, 스레드 객체의 join() 메서드를 호출해야 스레드가 종료될 때까지 기다릴 수 있습니다.
 
@@ -165,7 +250,18 @@ def threading_two_threads():
 
 이 예제를 변경해보세요. 만약 두 join() 메서드의 주석 처리를 해도 프로그램은 예외를 발생시킬 것입니다. 왜냐하면 shared_list에는 아무것도 없기 때문에 postprocess_times 함수가 빈 목록을 색인화하려고 시도할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 def threading_two_threads():
@@ -204,7 +300,18 @@ if __name__ == "__main__":
 
 아래 이미지는 각 스레드가 완료하는 데 소요된 시간을 보여줍니다. sleep 함수는 두 번째 스레드(cpu_bound_operation)가 조금 늦게 시작하도록 만듭니다. 그래프에서 첫 번째 스레드(0)가 시작한 후 0.1초 후 두 번째 스레드가 시작됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 I/O 바운드 작업은 단 1초 동안 지속되고 io_bound_operation 함수는 해당 작업만 수행해야 합니다. 이 때 I/O 바운드 작업이 대기하는 동안(전체 1초 동안) CPU 바운드 작업이 실행될 수 있습니다. 이것이 CPU 바운드 작업(두 번째 스레드)이 약 3.5초 동안만 지속되며 I/O 바운드 작업에 의해 지연되지 않는 이유입니다.
 
@@ -214,7 +321,18 @@ Thread 객체는 스레드를 만드는 가장 간단한 방법 중 하나이지
 
 # threading 모듈을 이용한 멀티스레딩 시간 시각화
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 예시 1–2 스레드
 
@@ -225,7 +343,18 @@ Thread 객체는 스레드를 만드는 가장 간단한 방법 중 하나이지
 
 따라서 이제 두 개의 새로운 스레드를 생성하는 프로그램이 있습니다. 하나는 I/O-바운드 작업과 CPU-바운드 작업을 수행하고, 또 다른 하나는 약 3.5초의 CPU-바운드 작업을 수행합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 def cpu_io_bound_operations(secs: float | int, n: int) -> None:
@@ -246,7 +375,18 @@ def cpu_io_bound_operations(secs: float | int, n: int) -> None:
 
 쓰레드 2(3.5초) + 쓰레드 1(1초)을 더하면 4.5초의 CPU 작업 시간이 필요합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위의 그래프는 두 작업이 모두 4.5초 동안 실행된다는 것을 보여줍니다. 각 CPU 집약적 작업에 필요한 시간은 약간 다를 수 있습니다.
 
@@ -256,7 +396,18 @@ def cpu_io_bound_operations(secs: float | int, n: int) -> None:
 
 이제 몇 가지 추가 예시를 빠르게 살펴보겠습니다! 이미 이해하셨다면이 부분을 건너뛰고 바로 다음 섹션인 ThreadPoolExecutor로 이동할 수 있습니다 🚀
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 예제 2-1 스레드
 
@@ -280,7 +431,18 @@ def sequential(n: int = 10, secs: float | int = 1) -> None:
     )
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 그림에서 각 스레드가 작업을 수행했기 때문에 스레드가 막대로 표시되었습니다(입출력 바인드 및 CPU 바인드 작업을 결합해도 동일한 작업으로 간주했습니다).
 
@@ -290,7 +452,18 @@ def sequential(n: int = 10, secs: float | int = 1) -> None:
 
 ## 예제 3–1 thread
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 2개의 CPU 바운드 작업
 
@@ -305,7 +478,18 @@ def sequential(counts: int, n: int = 10) -> None:
     start_points, end_points = postprocess_times(times)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![스레드](/assets/img/2024-06-22-ThreadinginPython_7.png)
 
@@ -316,7 +500,18 @@ def sequential(counts: int, n: int = 10) -> None:
 
 위의 두 CPU 바운드 작업은 동시에 실행될 때 매우 다른 차트를 보여줍니다. 두 작업은 모두 7초가 걸리는 것처럼 보이지만, 실제로는 각각 3.5초가 걸립니다. 그들은 서로 번갈아가며 작업을 완료할 때까지 전환됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 멀티스레딩을 사용하는 방법이 제대로 되지 않았어요. 현재는 교육 목적으로만 사용하고 있어요. CPU 바운드 작업만 한다면 멀티스레딩을 사용해도 시간이 단축되지 않아요.
 
@@ -344,7 +539,18 @@ def threading_two_threads() -> None:
 
 ## 예제 5-2 스레드
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 1초 동안 5개의 I/O 바운드 작업을 가진 스레드 1 실행
 - 1초 동안 5개의 I/O 바운드 작업을 가진 스레드 2 실행
@@ -373,7 +579,18 @@ def threading_two_threads() -> None:
 
 ![Python에서 쓰레딩하기](/assets/img/2024-06-22-ThreadinginPython_9.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 예제 6–10 스레드
 
@@ -399,8 +616,18 @@ def threading_two_threads() -> None:
     [thread.join() for thread in threads]
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Example 7-2 threads](/assets/img/2024-06-22-ThreadinginPython_10.png)
 
@@ -411,8 +638,18 @@ def threading_two_threads() -> None:
 
 Now we have two threads. Thread 1 executes a CPU-bound operation taking about 3.5 seconds, while thread 2 executes five I/O-bound tasks, each taking 1 second.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 I/O 작업이 대기하는 동안 CPU 집약 작업이 실행됩니다. 매번 I/O 작업이 시작될 때마다 OS는 빠르게 스레드를 전환합니다.
 
@@ -445,7 +682,18 @@ def threading_two_threads() -> None:
 
 ## 예제 8-6 스레드
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - Thread 1–1 CPU-bound task of 3.5s approx (bar 5)
 - Thread 2–1 CPU-bound task (bar 4)
@@ -462,7 +710,7 @@ def threading_two_threads() -> None:
 def 스레드_io_bound_operations(n: int, secs: float | int) -> None:
     """n개의 secs 초동안 I/O-bound 작업을 실행하고 결과를 shared_list에 추가합니다."""
     shared_list.append([io_bound_operation(secs) for _ in range(n)])
-    
+
 
 def 스레드_cpu_bound_operations(counts: int) -> None:
     """CPU-bound 작업을 실행하고 결과를 shared_list에 추가합니다."""
@@ -495,7 +743,18 @@ def threading_six_threads() -> None:
     t6.join()
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-06-22-ThreadinginPython_12.png" />
 
@@ -505,7 +764,18 @@ def threading_six_threads() -> None:
 
 다른 막대는 I/O-bound 작업을 나타내며 각각 1초씩 두 개가 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 def thread_io_bound_operations(n: int, secs: float | int) -> None:
@@ -544,7 +814,18 @@ def threading_four_threads() -> None:
 
 쓰레드 1(막대 6과 7)가 두 번째 3.5초 CPU 바운드 작업(막대 7)을 실행하는 경우에는 프로세서의 모든 성능을 직접 활용할 수 있습니다. 따라서 약 3.5초가 걸립니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에서는 이 개념을 명확히 설명하기 위한 몇 가지 예시였습니다. 이제 다른 더 편리한 방법들에 대해 알아봅시다!
 
@@ -554,7 +835,18 @@ concurrent.futures 모듈은 스레드를 만들기 위해 사용할 수 있는 
 
 이 글에서는 스레드에 초점을 맞추기 때문에 ThreadPoolExecutor만 사용할 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 이유
 
@@ -564,7 +856,18 @@ ThreadPoolExecutor는 스레드나 워커 스레드의 컬렉션을 생성하고
 
 # 작동 방식
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## The Executor 클래스
 
@@ -576,7 +879,18 @@ ThreadPoolExecutor는 스레드나 워커 스레드의 컬렉션을 생성하고
 
 다른 두 메서드는 사실 `__enter__()`와 `__exit__()`로, 이는 파이썬의 매직 메서드로 컨텍스트 관리 프로토콜을 구현합니다. 이들 덕분에 `ThreadPoolExecutor`를 `with` 문에서 사용할 수 있습니다(권장). `with` 문은 `__enter__()` 메서드를 호출하며, `with` 코드 블록을 벗어날 때 `__exit__()`가 호출됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 class Executor(object):
@@ -596,18 +910,39 @@ Executor는 단지 추상 클래스이며 대부분의 로직은 ThreadPoolExecu
 
 Python의 concurrent.futures 모듈의 ThreadPoolExecutor는 작업을 관리하기 위해 내부적으로 큐를 사용합니다. 큐는 ThreadPoolExecutor의 생성자에서 생성됩니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-## __init__() 메서드
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
-__init__() 메서드는 새로운 ThreadPoolExecutor 인스턴스를 초기화하고 큐 및 몇 가지 더 많은 객체를 생성합니다.
+## **init**() 메서드
+
+**init**() 메서드는 새로운 ThreadPoolExecutor 인스턴스를 초기화하고 큐 및 몇 가지 더 많은 객체를 생성합니다.
 
 아래의 SimpleQueue 클래스는 간단한 비제한 FIFO(선입선출) 큐입니다. 먼저 들어간 순서대로 큐에서 항목이 처리되거나 제거되는 선입선출 원칙을 따릅니다.
 
 max_workers 매개변수에 인자로 전달하여 사용할 수있는 스레드의 최대 수를 설정할 수 있습니다. 그렇게 하지 않으면 기본값은 머신의 프로세서 수에 4를 더한 값이 됩니다. 그 값이 32를 초과하지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 class ThreadPoolExecutor(_base.Executor):
@@ -633,7 +968,18 @@ class ThreadPoolExecutor(_base.Executor):
 
 submit() 메서드는 호출 가능한 객체를 실행할 수 있도록 예약합니다. 호출 가능한 객체는 함수 이름과 해당 인수를 전달하는 인수로 사용됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```python
 with ThreadPoolExecutor(max_workers=1) as executor:
@@ -647,10 +993,20 @@ Future는 비동기 작업의 최종 결과를 나타내는 추상화로, 초기
 
 future.result()는 호출한 함수(pow 함수)에서 반환된 값을 반환합니다. 호출이 아직 완료되지 않았을 경우 이 메서드는 최대 timeout 초까지 대기합니다 (timeout은 result(timeout=None)의 유일한 매개변수입니다). 호출이 timeout 초 내에 완료되지 않으면 TimeoutError가 발생합니다. timeout은 int 또는 float가 될 수 있으며, 지정되지 않거나 None인 경우 대기 시간 제한이 없습니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 
-아래는 ThreadPoolExecutor 클래스의 일부 소스 코드를 볼 수 있습니다. submit() 메서드가 호출되면 Future와 _WorkItem 객체가 생성됩니다. 그런 다음 _WorkItem은 _work_queue에 넣어집니다.
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+아래는 ThreadPoolExecutor 클래스의 일부 소스 코드를 볼 수 있습니다. submit() 메서드가 호출되면 Future와 \_WorkItem 객체가 생성됩니다. 그런 다음 \_WorkItem은 \_work_queue에 넣어집니다.
 
 ```js
 class ThreadPoolExecutor(_base.Executor):
@@ -669,7 +1025,7 @@ class ThreadPoolExecutor(_base.Executor):
         ...
 ```
 
-_WorkItem은 작업 (fn), 인수들 (args 및 kwargs) 및 미래 객체 (_base.Future())를 함께 래핑하는 데 사용되는 객체입니다. 작업이 실행되고 결과가 Future 객체에 설정되는 run() 메서드를 구현합니다.
+\_WorkItem은 작업 (fn), 인수들 (args 및 kwargs) 및 미래 객체 (\_base.Future())를 함께 래핑하는 데 사용되는 객체입니다. 작업이 실행되고 결과가 Future 객체에 설정되는 run() 메서드를 구현합니다.
 
 ```js
 class _WorkItem:
@@ -695,9 +1051,20 @@ class _WorkItem:
     __class_getitem__ = classmethod(types.GenericAlias)
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-run() 메서드는 작업자 스레드에서 호출됩니다. worker 모듈 함수인 _worker에 구현되어 있으며, 이 함수는 스레드에 대상으로 전달된 함수입니다.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+run() 메서드는 작업자 스레드에서 호출됩니다. worker 모듈 함수인 \_worker에 구현되어 있으며, 이 함수는 스레드에 대상으로 전달된 함수입니다.
 
 ```js
 def _worker(executor_reference, work_queue, initializer, initargs):
@@ -712,7 +1079,7 @@ def _worker(executor_reference, work_queue, initializer, initargs):
             ...
 ```
 
-스레드는 ThreadPoolExecutor 클래스 생성자에서 호출되는 _adjust_thread_count() 메서드에서 생성됩니다.
+스레드는 ThreadPoolExecutor 클래스 생성자에서 호출되는 \_adjust_thread_count() 메서드에서 생성됩니다.
 
 ```js
 class ThreadPoolExecutor(_base.Executor):
@@ -733,7 +1100,18 @@ class ThreadPoolExecutor(_base.Executor):
     ...
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## map() 메소드
 
@@ -749,19 +1127,41 @@ class Executor(object):
         ...
 ```
 
-map()은 스레드 풀에 작업을 제출하는 또 다른 방법입니다. 내장된 map(fn, *iterables) 함수와 유사하지만 fn으로 전달하는 함수는 비동기적으로 실행되며 fn에 대해 여러 호출을 동시에 수행할 수 있습니다.
+map()은 스레드 풀에 작업을 제출하는 또 다른 방법입니다. 내장된 map(fn, \*iterables) 함수와 유사하지만 fn으로 전달하는 함수는 비동기적으로 실행되며 fn에 대해 여러 호출을 동시에 수행할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 내장 map() 함수는 지연 평가를 제공합니다. 이는 해당 함수에서 반환된 iterable의 값들이 요청될 때에만 계산되고 반환된다는 것을 의미합니다.
 
-그러나 Executor.map(fn, *iterables)를 호출할 때에는 해당 함수가 제공된 iterable의 모든 항목을 미리 가져옵니다. 이는 필요시에만 처리되는 '지연 평가' 방식과 대조적입니다.
+그러나 Executor.map(fn, \*iterables)를 호출할 때에는 해당 함수가 제공된 iterable의 모든 항목을 미리 가져옵니다. 이는 필요시에만 처리되는 '지연 평가' 방식과 대조적입니다.
 
 이는 우리가 작업에서 값을 가져오기 위해 순서가 지정된 iterable에서 값들을 가져올 때 반복할 수 있는 iterator를 반환합니다.
 
 만약 timeout이 지정되지 않거나 None이면 대기 시간 제한이 없습니다. 따라서 반복을 시작할 때 첫 번째 요소가 이용 가능할 때까지 두 번째 요소에는 액세스하지 않습니다. timeout이 특정 int나 float로 설정된 경우 주어진 시간 초과 후 결과를 얻을 수 없는 경우 TimeoutError가 발생합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만약 함수 호출이 예외를 발생시키면, 해당 예외는 반복자에서 값을 검색할 때 발생됩니다.
 
@@ -771,7 +1171,18 @@ map()은 스레드 풀에 작업을 제출하는 또 다른 방법입니다. 내
 
 특정 시점에는 하나의 스레드만 실행될 수 있지만, 5개의 스레드가 사용 가능합니다. 따라서 첫 번째 스레드가 실행을 시작하면 컨텍스트 스위치가 발생하고 두 번째 스레드가 시작할 수 있습니다. 왜냐하면 OS가 I/O 작업임을 감지하고 자원을 다른 스레드에 할당함으로써 시간 자원을 낭비하지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래 표를 보면 언제나 동시에 5개의 스레드만 작동 중임을 알 수 있습니다. 하나의 스레드가 작업을 완료하면 다른 작업을 시작하기 위해 재사용됩니다. 작업을 완료하는 데는 4초 미만이 소요됩니다.
 
@@ -781,7 +1192,18 @@ map()은 스레드 풀에 작업을 제출하는 또 다른 방법입니다. 내
 
 ![image](/assets/img/2024-06-22-ThreadinginPython_15.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위 코드에서는 20가지의 이국적인 호주 동물을 확인할 수 있어요.
 
@@ -870,7 +1292,18 @@ submit() 메서드를 사용하면 다음과 같이 보일 수 있지만, 실행
 
 <img src="/assets/img/2024-06-22-ThreadinginPython_16.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 as_completed() 함수를 사용하여 Future 인스턴스를 반복 처리해야 합니다. 그렇지 않으면 postprocess_times() 함수가 예외를 발생시킬 수 있습니다.
 
@@ -894,9 +1327,20 @@ def asynchronous_load_australian_animals() -> None:
 
 ## shutdown() 메서드
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
-ThreadPoolExecutor을 with 문으로 context manager로 호출하면 shutdown() 메소드를 호출할 필요가 없습니다. 왜냐하면 shutdown() 메소드가 __exit__() 매직 메소드 내에서 호출되기 때문입니다. 그렇지 않으면 현재 대기 중인 futures가 실행을 완료한 후 사용 중인 모든 리소스를 해제해야 하는 executor에게 신호를 보내기 위해 호출해야 합니다.
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+ThreadPoolExecutor을 with 문으로 context manager로 호출하면 shutdown() 메소드를 호출할 필요가 없습니다. 왜냐하면 shutdown() 메소드가 **exit**() 매직 메소드 내에서 호출되기 때문입니다. 그렇지 않으면 현재 대기 중인 futures가 실행을 완료한 후 사용 중인 모든 리소스를 해제해야 하는 executor에게 신호를 보내기 위해 호출해야 합니다.
 
 ```js
 class Executor(object):
@@ -914,7 +1358,18 @@ class Executor(object):
 
 concurrent.futures 모듈에는 완료를 기다리도록 허용하는 wait() 함수도 제공됩니다. return_when 매개변수를 통해 반환할 시점을 지정할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 위에 나열한 자료들은 이 주제를 더 잘 이해하는 데 도움이 되었어요.
 
@@ -924,7 +1379,18 @@ concurrent.futures 모듈에는 완료를 기다리도록 허용하는 wait() �
 
 javideveloper.com
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 기타 자료
 
@@ -935,7 +1401,7 @@ javideveloper.com
 - concurrent.futures 모듈 소스 코드
 - queue 모듈 소스 코드
 - thread pool 위키백과
-- map(fn, *iterables) 내장 함수
+- map(fn, \*iterables) 내장 함수
 - concurrency-python 저장소
 - 파이썬 스레딩: SuperFastPython의 완전 가이드
 - Python의 ThreadPoolExecutor: SuperFastPython의 완전 가이드

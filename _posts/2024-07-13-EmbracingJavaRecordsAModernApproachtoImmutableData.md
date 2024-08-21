@@ -3,17 +3,13 @@ title: "불변 데이터를 다루는 최신 방법 Java 레코드 도입하기"
 description: ""
 coverImage: "/assets/img/2024-07-13-EmbracingJavaRecordsAModernApproachtoImmutableData_0.png"
 date: 2024-07-13 20:42
-ogImage: 
+ogImage:
   url: /assets/img/2024-07-13-EmbracingJavaRecordsAModernApproachtoImmutableData_0.png
 tag: Tech
 originalTitle: "Embracing Java Records: A Modern Approach to Immutable Data"
 link: "https://medium.com/@MSeidl/embracing-java-records-a-modern-approach-to-immutable-data-bd477a458c73"
 isUpdated: true
 ---
-
-
-
-
 
 ![Java Records](/assets/img/2024-07-13-EmbracingJavaRecordsAModernApproachtoImmutableData_0.png)
 
@@ -23,8 +19,18 @@ isUpdated: true
 
 자바에서 레코드는 불변 데이터를 보유하기 위해 설계된 특별한 종류의 클래스입니다. 레코드를 정의하면 Java는 자동으로 다음을 위한 구현을 생성합니다:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 생성자
 - 모든 필드에 대한 게터
@@ -36,7 +42,18 @@ isUpdated: true
 
 다음은 Java에서 간단한 레코드를 정의하는 방법입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 public record Point(int x, int y) {}
@@ -48,7 +65,18 @@ public record Point(int x, int y) {}
 
 # 1. 번거로운 코드 줄임
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 전통적인 자바 데이터 보유 클래스는 필드, 생성자, 게터, 세터 및 equals(), hashCode(), toString()과 같은 메서드를 재정의하는 데 여러 줄의 코드가 필요합니다. 레코드는 이러한 과정을 단순화하여 필수 요소로 축소합니다.
 
@@ -58,7 +86,18 @@ public record Point(int x, int y) {}
 
 # 3. 명확함
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 레코드의 간결한 구문은 코드 가독성을 향상시킵니다. 해당 클래스의 목적이 간단한 데이터 운반자로 동작하는 것임을 즉시 이해할 수 있습니다.
 
@@ -68,7 +107,18 @@ public record Point(int x, int y) {}
 
 ## 레코드 사용 시기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 레코드는 주로 데이터를 운반하는 클래스에 이상적입니다. 일반적인 사용 사례는 다음과 같습니다.
 
@@ -81,7 +131,18 @@ public record Point(int x, int y) {}
 
 # 실제 예제
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 예제 1: 간단한 레코드 정의 및 사용
 
@@ -102,7 +163,18 @@ public class Main {
 
 # 예제 2: 사용자 정의 메서드 추가
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 레코드에는 사용자 지정 메서드를 포함할 수도 있습니다. 예를 들어, 원점으로부터의 거리를 계산하는 메서드를 추가할 수 있습니다.
 
@@ -125,7 +197,18 @@ public class Main {
 
 레코드는 기본 구현을 제공하지만 필요한 경우에는 이를 재정의할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```java
 public record Point(int x, int y) {
@@ -149,8 +232,18 @@ public class Main {
 
 레코드는 다른 레코드나 클래스 내에 중첩될 수 있습니다. 이는 복잡한 데이터 구조를 모델링하는 데 유용합니다.
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 public record 직사각형(Point 좌상단, Point 우하단) {}
@@ -189,7 +282,18 @@ public class Main {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 레코드의 한계
 
@@ -201,7 +305,18 @@ public class Main {
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 자바 레코드는 중요한 향상으로, 미묘한 보일러플레이트로 간단하고 변경할 수 없는 데이터 운반 클래스를 만드는 것이 더 쉬워집니다. 이들은 더 깨끗하고 가독성이 좋은 코드를 촉진하며, 패턴 매칭과 같은 다른 현대적인 자바 기능과 잘 통합됩니다. 간단한 도메인 객체, 구성 설정 또는 데이터 전송 객체를 모델링하는 경우, 레코드는 코드를 간소화하고 유지 관리성을 향상시키는 데 도움이 될 수 있습니다.
 
@@ -211,7 +326,18 @@ public class Main {
 
 만약 이 기사가 도움이 되었다면, 반성의 박수를 👏 를 눌러서 지원을 보여주세요! 당신의 박수는 다른 사람들이 이 기사를 찾게 도와주고 나에게 이와 같은 내용을 더 많이 쓰도록 격려해줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 아래에 생각이나 궁금한 점을 자유롭게 남겨주세요. 독자들과 소통하는 것을 즐기고 여러분을 돕겠습니다!
 

@@ -3,16 +3,13 @@ title: "JavaScript 논리 연산자 작동 원리와 사용 시기"
 description: ""
 coverImage: "/assets/no-image.jpg"
 date: 2024-08-04 19:14
-ogImage: 
+ogImage:
   url: /assets/no-image.jpg
 tag: Tech
 originalTitle: "JavaScript Logical Operators How they work and when to use them"
 link: "https://medium.com/@LearnCodingWithDeepali/javascript-logical-operators-how-they-work-and-when-to-use-them-2505aa493836"
 isUpdated: true
 ---
-
-
-
 
 JavaScript에서 논리 연산자는 코드 흐름을 제어하는 데 중요한 역할을 합니다. 오늘은 && (AND) 및 || (OR) 연산자의 실행을 살펴보겠습니다. 이 두 연산자는 참과 거짓의 변수 값에 의존하여 조건을 평가하고 실행의 다음 단계를 결정합니다. 이 글에서는 이러한 연산자의 실용적인 적용법과 효과적인 사용 방법을 알아보겠습니다.
 
@@ -24,7 +21,18 @@ JavaScript에서 논리 연산자는 코드 흐름을 제어하는 데 중요한
 
 ## 거짓인 값:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 0
 - 빈 문자열 ('')
@@ -40,12 +48,23 @@ JavaScript에서 논리 연산자는 코드 흐름을 제어하는 데 중요한
 
 구문: expression1 && expression2
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const number = null;
 
-(number && false && true)
+number && false && true;
 
 // output : null
 ```
@@ -58,12 +77,23 @@ const number = null;
 
 또 다른 예시:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 const number = 1;
 
-(number && -1 && true)
+number && -1 && true;
 
 // output : true
 ```
@@ -75,8 +105,18 @@ const number = 1;
 
 구문: expression1 || expression2
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 예시 1
@@ -104,7 +144,18 @@ const number = 1;
 
 ## 실용 예시:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인증: 사용자 이름과 비밀번호가 모두 입력되었는지 확인하려면 &&을 사용하세요.
 
@@ -114,18 +165,41 @@ const number = 1;
 
 ## 단축 평가(Evaluation)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 양쪽 &&와 || 연산자는 단축 평가 동작을 나타내며, 표현식을 왼쪽에서 오른쪽으로 평가하며 결과가 결정되면 즉시 중지합니다.
 
 각각의 연산자 동작:
+
 1. && 연산자는 ||보다 우선순위가 높으므로 먼저 평가됩니다.
 
 2. &&는 첫 번째 거짓값을 반환하거나 모든 값이 참이면 마지막 값을 반환합니다.
 
 3. ||는 첫 번째 참값을 반환하거나 모든 값이 거짓이면 마지막 값을 반환합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 이해를 테스트해 보세요:
 
@@ -147,10 +221,21 @@ const user = { name: 'John', age:20};
 
 Console.log(user.name || 'Unknown');
 ----------------------------------------------------------
-const x = 5; 
+const x = 5;
 console.log((x > 10 && x < 3) || (x === 5 && x < 10));
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 #자바스크립트 #면접준비 #코딩지식 #실전문제 #면접경험 #코딩아름다움 #주니어

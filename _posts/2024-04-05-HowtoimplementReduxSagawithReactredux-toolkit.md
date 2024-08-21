@@ -3,17 +3,13 @@ title: "React redux-toolkit으로 Redux Saga를 구현하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "How to implement Redux Saga with React redux-toolkit"
 link: "https://medium.com/@najm-eddine-zaga/react-redux-toolkit-with-redux-saga-a1439075743d"
 isUpdated: true
 ---
-
-
-
-
 
 React 애플리케이션에서 Redux Saga와 함께 Redux Toolkit을 구현하는 방법은 다음과 같습니다.
 
@@ -23,7 +19,18 @@ React 애플리케이션을 개발할 때 특정 기능에 대해 무엇을 사�
 
 따라서 몇 가지 질문을 스스로에게 해보아야 합니다...
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - API를 사용할 수 있나요?
 - 이 API에서 너무 많은 데이터를 소비하고 있나요?
@@ -35,7 +42,18 @@ React 애플리케이션을 개발할 때 특정 기능에 대해 무엇을 사�
 
 ## A — Redux란 무엇인가요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Redux는 주로 React와 함께 사용되는 JavaScript 애플리케이션을 위한 상태 관리 라이브러리입니다. Redux는 예측 가능한 상태 컨테이너를 제공하여 응용 프로그램 상태를 단일 중앙 위치에서 쉽게 관리할 수 있도록 합니다. Redux는 불변성과 단방향 데이터 흐름의 원칙에 기반을 두고 있어 응용 프로그램 상태의 변경 사항을 시간이 지남에 따라 이해하기 쉽게 합니다. Redux를 사용하면 액션을 디스패치하여 상태를 업데이트하고, 이러한 액션은 리듀서라고 불리는 순수 함수에 의해 처리되어 액션 유형 및 페이로드에 기반한 새로운 상태를 반환합니다. Redux는 또한 비동기 작업 및 기타 고급 사용 사례를 처리하기 위한 미들웨어를 제공합니다. 총론적으로 Redux는 복잡한 애플리케이션 상태의 관리를 간소화하고 확장 가능하고 유지보수하기 쉬운 애플리케이션을 구축할 수 있도록 도와줍니다.
 
@@ -45,7 +63,18 @@ Redux는 주로 React와 함께 사용되는 JavaScript 애플리케이션을 �
 
 Redux Toolkit에는 사전 구성된 Redux 스토어가 포함되어 있으며, 필요한 미들웨어 및 리듀서 설정과 DevTools 지원을 포함하고 있습니다. 또한 Redux 슬라이스를 생성하는 강력한 유틸리티 세트를 제공합니다. 슬라이스를 사용하면 리덕스 상태 및 로직의 작은 자기 포함 모듈인 리듀서 함수와 액션 생성자를 더 간결하고 직관적인 구문으로 정의할 수 있습니다. 총론적으로 Redux Toolkit은 리덕스를 사용하는 간소화된 관점 있는 방법을 제공하여 개발자가 더 나은 코드를 더 적은 노력으로 작성하고 유지보수할 수 있도록 도와줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## C — 비동기 작업
 
@@ -55,7 +84,18 @@ Redux Toolkit은 비동기 코드를 처리하는 유틸리티 함수 세트를 
 
 ## D — Redux Thunk 대 Redux Saga
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Redux Thunk와 Redux Saga는 Redux를 위한 미들웨어 라이브러리로, Redux 애플리케이션에서 비동기 논리를 관리하는 접근 방식을 제공합니다.
 
@@ -66,7 +106,18 @@ Redux Thunk와 Redux Saga는 Redux를 위한 미들웨어 라이브러리로, Re
 
 이전에 언급했듯이, 이 글에서는 Redux Toolkit과 함께 Redux Saga를 어떻게 구현하는지를 단계별로 보여드릴 것입니다. 사용된 사가 함수들은 간단한 방식으로 설명될 것입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 2 — 코딩 시작
 
@@ -82,7 +133,18 @@ $ npx create-react-app redux-with-saga
 $ npx create-react-app redux-with-saga --template typescript
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## B — 패키지 추가
 
@@ -96,7 +158,18 @@ $ yarn add react-redux @reduxjs/toolkit redux-saga
 
 ## C — Redux 스토어 구성
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 패키지 설치가 완료되면 src/ 폴더 내에 "store" 또는 "redux" 또는 리덕스 구현을 가리키는 다른 이름의 새 폴더를 만듭니다:
 
@@ -118,7 +191,18 @@ export default store;
 
 ## 설명:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - createSagaMiddleware — Redux 미들웨어 인스턴스를 생성하고 Sagas를 Redux Store에 연결합니다.
 - configureStore — @reduxjs/toolkit 패키지에서 제공하는 함수로, 합리적인 기본값과 내장 미들웨어가 포함된 Redux 스토어를 생성하는 과정을 간단화합니다.
@@ -129,7 +213,18 @@ middleware 키는 리덕스 구성에 사용될 미들웨어 목록을 나타냅
 
 마지막으로 스토어를 내보냅니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## D — 우리 React 앱 내에서 저장소 구성 사용하기
 
@@ -156,7 +251,18 @@ Provider 컴포넌트는 react-redux 패키지에서 내보낸 React 엘리먼�
 
 이 아이디어는 저장소가 응용 프로그램 내의 모든 컴포넌트에서 접근 가능하게 하는 것입니다. 하지만... 만약 Provider 엘리먼트를 App 컴포넌트 내부로 옮긴다면 어떻게 될까요? 이 경우, 모든 컴포넌트가 redux 저장소를 사용할 수 있지만 App 컴포넌트는 제외됩니다. 왜냐하면 Provider 컴포넌트의 "children" 중 하나로 간주되지 않기 때문입니다. 이렇게 간단한 문제입니다...
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## E — 루트 리듀서 생성
 
@@ -178,7 +284,18 @@ export default rootReducers;
 
 모든 애플리케이션 리듀서를 하나로 결합한 객체인 루트 리듀서를 포함한 별도의 파일을 생성하는 것은 더 깔끔하고 명확하게 유지하는 가장 좋은 방법으로 여겨집니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 StateType은 전역 상태의 타입을 나타내는 Typescript 타입입니다.
 
@@ -202,7 +319,18 @@ export default store;
 
 ## F — 슬라이스 만들기
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 REST API의 사용자 엔드포인트를 사용한다고 가정해 봅시다. 이를 위해 항상 코드를 깔끔하게 유지하고 싶어서 3개의 파일을 생성합니다.
 
@@ -214,7 +342,18 @@ REST API의 사용자 엔드포인트를 사용한다고 가정해 봅시다. �
 
 프로젝트 전반에 걸쳐 사용자 엔터티에 사용할 수 있는 모든 유형을 정의합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 // 사용자 유형 정의
@@ -260,7 +399,18 @@ export type GET_USER_BY_ID = typeof GET_USER_BY_ID; // TypeScript 라인
 
 (2)도 마찬가지입니다 — GET_USER_BY_ID
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 슬라이스 파일
 
@@ -328,7 +478,18 @@ const rootReducers = {
 export default rootReducers;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 사가 파일
 
@@ -343,9 +504,7 @@ import { getUserErrorAction, getUserSuccessAction } from "./slice";
 function* getUserSaga({ payload: id }: PayloadAction<string>) {
   try {
     // axios 호출을 함수로 내보낼 수도 있습니다.
-    const response: AxiosResponse<UserType> = yield axios.get(
-      `your-server-url:port/api/users/${id}`
-    );
+    const response: AxiosResponse<UserType> = yield axios.get(`your-server-url:port/api/users/${id}`);
     yield put(getUserSuccessAction(response.data));
   } catch (error) {
     yield put(getUserErrorAction(error));
@@ -362,7 +521,18 @@ export function* watchGetUser() {
 
 JavaScript에서 제너레이터 함수는 실행 중에 일시 중지되고 재개될 수 있는 특별한 종류의 함수입니다. 제너레이터 함수가 호출되면 이터레이터 객체가 반환되며, 이를 사용하여 함수의 실행을 제어할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 제너레이터 함수는 일반 함수 구문과 구분되는 function\* 구문을 사용하여 정의됩니다. 제너레이터 함수 내에서는 실행을 일시 중지하고 호출자에게 값을 반환하기 위해 yield 키워드가 사용됩니다. 제너레이터 함수가 다시 실행되면 중단한 곳부터 실행을 계속합니다.
 
@@ -385,7 +555,18 @@ console.log(gen.next()); // { value: undefined, done: true }
 
 자세한 내용은 여기에서 제너레이터 함수에 대해 더 읽어보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 yield — yield 키워드는 Redux Saga의 기본 요소로, Saga가 사용하는 제너레이터 함수가 디스패치된 액션에 대한 응답으로 실행을 일시 중지하고 다시 시작할 수 있도록 허용합니다. 제너레이터 함수가 yield 문을 만나면, 얻어진 값을 검색하는 데 사용할 수 있는 이터레이터를 반환합니다. 그러면 값은 Saga 미들웨어의 다른 부분에서 처리될 수 있습니다.
 
@@ -395,7 +576,18 @@ put — put 함수는 액션을 Redux 스토어로 디스패치하는 데 사용
 
 takeLatest — Redux에서 takeLatest는 redux-saga 미들웨어에서 제공하는 함수로, 비동기 액션을 더욱 제어할 수 있는 방법을 제공합니다. Redux 스토어에 액션이 디스패치되면 takeLatest는 이전 진행 중인 작업을 취소하고 가장 최근 것만 실행합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 takeLatest를 사용하려면 특정 액션을 청취하는 다른 제너레이터 함수를 정의해야 합니다.
 
@@ -405,7 +597,18 @@ takeLatest를 사용하는 장점은 이전 요청이 아직 진행 중이더라
 
 이제 watchGetUser 제너레이터 함수를 리덕스 프로세스에 추가할 수 있습니다. 따라서 ... 루트 리듀서 파일과 동일한 수준에 root-sagas.ts/js라는 새 파일을 만듭니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { all, fork } from "redux-saga/effects";
@@ -445,7 +648,18 @@ export default store;
 
 index 파일에서 수정된 내용을 기준으로 root-sagas 파일까지 되돌아가보겠습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 모든 / fork — Redux Saga에서 fork 및 all 함수는 동시에 발생하는 사가들을 생성하고 관리하는 데 사용됩니다.
 
@@ -455,7 +669,18 @@ all 함수는 여러 개의 사가를 병렬로 실행하고 그 중 모두 완�
 
 다른 사가가 있다면:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import { all, fork } from "redux-saga/effects";
@@ -478,7 +703,18 @@ fork와 all을 사용함으로써 Redux Saga에서 동시에 작업하는 사가
 
 run — Redux Saga에서 run 함수는 미들웨어를 시작하고 루트 사가를 실행하는 데 사용됩니다. run 함수는 루트 사가 함수인 하나의 인수를 사용합니다. 미들웨어 인스턴스의 run 함수에 루트 사가 함수를 전달하여 사가를 시작하고 발송된 액션에 대해 청취할 수 있게 합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Middleware를 run 함수를 사용하여 시작하면 루트 Saga가 실행되고 그 안에 있는 제너레이터 함수가 시작됩니다. 그런 다음 미들웨어는 전달된 액션을 수신하고 해당 Saga 제너레이터 함수에게 yield 키워드를 사용하여 전달합니다.
 
@@ -488,7 +724,18 @@ Middleware를 run 함수를 사용하여 시작하면 루트 Saga가 실행되�
 
 Redux 구성과 사가 미들웨어, 타입, 슬라이스 및 사가 파일을 생성한 후, 이제 상태를 사용하고 트리거 액션을 디스패치하는 시간입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 프로필 페이지를 나타내는 컴포넌트를 가지고 있다고 가정해 봅시다.
 
@@ -528,7 +775,18 @@ useSelector — useSelector은 react-redux 라이브러리에서 제공하는 Re
 
 스토어가 변경될 때, useSelector은 선택된 데이터의 이전 값과 새 값을 비교하고, 두 값이 다르면 컴포넌트를 다시 렌더링합니다. 이를 통해 컴포넌트를 수동으로 구독하거나 컴포넌트에서 상태를 관리할 필요 없이 스토어와 동기화된 상태를 유지할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 useSelector을 사용해서는 저장소에서 데이터를 읽어야 하며 동작을 디스패치하거나 저장소를 직접 수정해서는 안 됩니다.
 
@@ -538,7 +796,18 @@ useDispatch는 동작을 디스패치하는 데만 사용해야 하며 저장소
 
 useDispatch와 useSelector를 함께 사용하는 것은 Redux 애플리케이션에서 흔한 패턴입니다. 이를 통해 컴포넌트가 저장소에서 데이터를 읽고 동작을 디스패치하여 수정할 수 있게 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 
@@ -548,7 +817,18 @@ useDispatch와 useSelector를 함께 사용하는 것은 Redux 애플리케이�
 
 행복한 코딩 되세요!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 참고 자료:
 

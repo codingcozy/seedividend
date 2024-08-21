@@ -3,16 +3,13 @@ title: "프론트엔드 개발자를 위한 50가지 프로젝트 No05 - Blurry 
 description: ""
 coverImage: "/assets/img/2024-05-17-50Front-EndCombatProjectNo05BlurryLoading_0.png"
 date: 2024-05-17 21:26
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-17-50Front-EndCombatProjectNo05BlurryLoading_0.png
 tag: Tech
 originalTitle: "50 Front-End Combat Project No.05: Blurry Loading"
 link: "https://medium.com/@cendz/50-front-end-combat-project-no-05-blurry-loading-f139fe89f562"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-05-17-50Front-EndCombatProjectNo05BlurryLoading_0.png" />
 
@@ -22,15 +19,25 @@ isUpdated: true
 
 이 프로젝트는 웹 페이지 로드 중에 희미한 로딩 효과를 시뮬레이션해요. 페이지는 흐릿한 배경 이미지로 시작하여 점점 선명해지고 로딩 진행률 텍스트가 변경되는 효과를 보여줍니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
 
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![Blurry Loading](/assets/img/2024-05-17-50Front-EndCombatProjectNo05BlurryLoading_1.png)
 
 # 핵심 코드
 
-- `section class=”bg”``/section`: 로딩을 위해 배경 이미지를 흐릿하게 처리하는 데 사용됩니다.
-- `div class=”loading-text”``/div`: 로딩 진행 상황을 표시하는 텍스트입니다.
+- ` section class=”bg”``/section `: 로딩을 위해 배경 이미지를 흐릿하게 처리하는 데 사용됩니다.
+- ` div class=”loading-text”``/div `: 로딩 진행 상황을 표시하는 텍스트입니다.
 
 ```js
 <!DOCTYPE html>
@@ -50,7 +57,18 @@ isUpdated: true
 </html>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - .bg의 filter: blur(0px): 초기 blur 효과를 정의합니다.
 - .loading-text.style.opacity: 로드 진행 텍스트의 투명도를 제어합니다.
@@ -94,39 +112,50 @@ body {
 - 로드 진행을 기록할 변수 load를 정의합니다.
 - setInterval 함수를 사용하여 30밀리초마다 블러링 함수를 호출하는 타이머를 설정하여 로딩 프로세스를 모방합니다.
 - 블러링 함수:
-— 로드 값을 증가시켜 로딩 진행을 모방합니다.
-— 로딩이 완료되었는지 확인하고 타이머를 해제합니다.
-— 로드 진행 텍스트의 콘텐츠를 업데이트합니다.
-— scale 함수를 사용하여 로드 진행 값을 blur 필터의 강도 값으로 변환하고 배경의 blur 효과를 업데이트합니다.
-— scale 함수를 사용하여 로드 진행 값을 텍스트의 투명도 값으로 변환하고 로드 진행 텍스트의 투명도를 업데이트합니다 (값이 100에 가까울수록 투명도가 낮아집니다).
+  — 로드 값을 증가시켜 로딩 진행을 모방합니다.
+  — 로딩이 완료되었는지 확인하고 타이머를 해제합니다.
+  — 로드 진행 텍스트의 콘텐츠를 업데이트합니다.
+  — scale 함수를 사용하여 로드 진행 값을 blur 필터의 강도 값으로 변환하고 배경의 blur 효과를 업데이트합니다.
+  — scale 함수를 사용하여 로드 진행 값을 텍스트의 투명도 값으로 변환하고 로드 진행 텍스트의 투명도를 업데이트합니다 (값이 100에 가까울수록 투명도가 낮아집니다).
 
 ```js
-const loadText = document.querySelector('.loading-text')
-const bg = document.querySelector('.bg')
+const loadText = document.querySelector(".loading-text");
+const bg = document.querySelector(".bg");
 
-let load = 0
+let load = 0;
 
-let int = setInterval(blurring, 30)
+let int = setInterval(blurring, 30);
 
 function blurring() {
-  load++
+  load++;
 
   if (load > 99) {
-    clearInterval(int)
+    clearInterval(int);
   }
 
-  loadText.innerText = `${load}%`
-  loadText.style.opacity = scale(load, 0, 100, 1, 0)
-  bg.style.filter = `blur(${scale(load, 0, 100, 30, 0)}px)`
+  loadText.innerText = `${load}%`;
+  loadText.style.opacity = scale(load, 0, 100, 1, 0);
+  bg.style.filter = `blur(${scale(load, 0, 100, 30, 0)}px)`;
 }
 
 // https://stackoverflow.com/questions/10756313/javascript-jquery-map-a-range-of-numbers-to-another-range-of-numbers
 const scale = (num, in_min, in_max, out_min, out_max) => {
-  return ((num - in_min) * (out_max - out_min)) / (in_max - in_min) + out_min
-}
+  return ((num - in_min) * (out_max - out_min)) / (in_max - in_min) + out_min;
+};
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 개요
 
@@ -136,6 +165,17 @@ GIF의 전체 과정은 다음과 같이 나타납니다:
 
 ![이미지](/assets/img/2024-05-17-50Front-EndCombatProjectNo05BlurryLoading_2.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 이야기를 읽은 후 도움이 될 것 같다고 생각된다면 박수를 보내주시고 팔로우해주세요. 공유도 해주세요. 혹시 당신의 리트윗이 다른 사람들에게 영감을 줄 수도 있습니다. 또한, 제안 사항이 있으면 아래에 제안해 주시면 감사하겠습니다. 향후 기술에 관한 더 많은 기사를 공유하겠습니다. 감사합니다!

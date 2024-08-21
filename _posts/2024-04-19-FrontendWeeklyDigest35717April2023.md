@@ -3,17 +3,13 @@ title: "프론트엔드 주간 소식들2024년 4월 셋째주"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Frontend Weekly Digest 357 17 April 2023"
 link: "https://medium.com/@frontender-ua/frontend-weekly-digest-357-1-7-april-2023-14ac54277cf2"
 isUpdated: true
 ---
-
-
-
-
 
 ![FrontendWeeklyDigest35717April2023_0.png](/assets/img/FrontendWeeklyDigest35717April2023_0.png)
 
@@ -38,7 +34,18 @@ isUpdated: true
   - 뷰 전환 API
   - 타이포그래피 내 확장 이미지 애니메이션에 대한 스크롤 이미지화
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # CSS
 
@@ -58,7 +65,18 @@ isUpdated: true
 - Dart에서 JS 상호 운용성의 역사
 - JavaScript에서 문자열을 날짜로 변환하는 방법
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - React
   - Waku가 Next.js와 비교 시 어떤 점이 다른가요?

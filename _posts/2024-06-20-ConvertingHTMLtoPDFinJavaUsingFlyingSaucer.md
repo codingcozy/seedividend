@@ -3,16 +3,13 @@ title: "자바를 사용하여 Flying Saucer로 HTML을 PDF로 변환하기"
 description: ""
 coverImage: "/assets/img/2024-06-20-ConvertingHTMLtoPDFinJavaUsingFlyingSaucer_0.png"
 date: 2024-06-20 06:08
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-20-ConvertingHTMLtoPDFinJavaUsingFlyingSaucer_0.png
 tag: Tech
 originalTitle: "Converting HTML to PDF in Java Using Flying Saucer"
 link: "https://medium.com/@jangacharysri/converting-html-to-pdf-in-java-using-flying-saucer-8d923c309302"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-06-20-ConvertingHTMLtoPDFinJavaUsingFlyingSaucer_0.png" />
 
@@ -22,7 +19,18 @@ isUpdated: true
 
 Flying Saucer는 XHTML/XML 문서를 PDF로 쉽게 변환할 수 있는 오픈 소스 Java 라이브러리입니다. PDF 생성을 위해 강력한 iText 라이브러리를 내부적으로 활용합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Maven 종속성 설정
 
@@ -53,7 +61,18 @@ Flying Saucer는 XHTML/XML 문서를 PDF로 쉽게 변환할 수 있는 오픈 �
 
 # HTML을 PDF로 변환하기 - Java 코드
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이제 자바 코드를 살펴봅시다:
 
@@ -128,7 +147,18 @@ public class PdfGenerator {
 - Map을 사용하여 동적 콘텐츠 치환을 수행합니다. 예를 들어 '@employeeId'나 '@employeeName'과 같은 플레이스홀더를 실제 값으로 대체합니다.
 - HTML 콘텐츠를 Flying Saucer와 호환성을 위해 Jsoup 라이브러리를 사용하여 XHTML로 변환합니다. 마지막으로, XHTML 콘텐츠를 PDF로 렌더링하여 지정된 출력 파일(output.pdf)에 저장합니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 <!DOCTYPE html>
@@ -200,7 +230,18 @@ public class PdfGenerator {
 </html>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 결론
 

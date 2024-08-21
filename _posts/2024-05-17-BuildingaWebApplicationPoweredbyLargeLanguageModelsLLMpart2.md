@@ -3,16 +3,13 @@ title: "대형 언어 모델LLM을 활용한 웹 어플리케이션 만드는 �
 description: ""
 coverImage: "/assets/img/2024-05-17-BuildingaWebApplicationPoweredbyLargeLanguageModelsLLMpart2_0.png"
 date: 2024-05-17 20:49
-ogImage: 
+ogImage:
   url: /assets/img/2024-05-17-BuildingaWebApplicationPoweredbyLargeLanguageModelsLLMpart2_0.png
 tag: Tech
 originalTitle: "Building a Web Application Powered by Large Language Models (LLM): part 2"
 link: "https://medium.com/@pyrosv/building-a-web-application-powered-by-large-language-models-llm-part-2-2429755c182f"
 isUpdated: true
 ---
-
-
-
 
 <img src="/assets/img/2024-05-17-BuildingaWebApplicationPoweredbyLargeLanguageModelsLLMpart2_0.png" />
 
@@ -24,7 +21,18 @@ isUpdated: true
 - React 및 TypeScript의 기본적인 이해가 필요합니다.
 - Bootstrap 스타일링에 대한 이해가 있으면 도움이 됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # React 프로젝트 설정하기
 
@@ -37,7 +45,18 @@ cd cv.reviewer.frontend
 
 Bootstrap 설치하기: 프로젝트에 스타일링을 위해 Bootstrap을 추가하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm install bootstrap@5.3.0
@@ -50,7 +69,18 @@ npm install @types/bootstrap
 
 main.tsx에 부트스트랩을 가져오세요: 메인 엔트리 파일에 부트스트랩 CSS를 추가하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 import React from 'react';
@@ -76,8 +106,18 @@ body {
 
 # 주요 컴포넌트 구축하기
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 FormComponent.tsx를 만들어보세요: 이 컴포넌트는 파일 업로드와 작업 URL 입력을 처리할 겁니다.
 
@@ -87,11 +127,11 @@ import apiClient from "../services/apiClient";
 
 const FormComponent: React.FC = () => {
   const [jobUrl, setJobUrl] = useState("");
-  const [cvFile, setCvFile] = useState<File | null>(null);
-  const [review, setReview] = useState<string | null>(null);
-  const [adSource, setAdSource] = useState<string | null>(null);
-  const [title, setJobTitle] = useState<string | null>(null);
-  const [description, setJobDescription] = useState<string | null>(null);
+  const [cvFile, setCvFile] = (useState < File) | (null > null);
+  const [review, setReview] = (useState < string) | (null > null);
+  const [adSource, setAdSource] = (useState < string) | (null > null);
+  const [title, setJobTitle] = (useState < string) | (null > null);
+  const [description, setJobDescription] = (useState < string) | (null > null);
   const [loading, setLoading] = useState(false);
 
   const handleUrlChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -145,14 +185,7 @@ const FormComponent: React.FC = () => {
           <label htmlFor="jobUrl" className="form-label">
             작업 광고 URL
           </label>
-          <input
-            type="url"
-            className="form-control"
-            id="jobUrl"
-            value={jobUrl}
-            onChange={handleUrlChange}
-            required
-          />
+          <input type="url" className="form-control" id="jobUrl" value={jobUrl} onChange={handleUrlChange} required />
         </div>
         <div className="mb-3">
           <label htmlFor="cvFile" className="form-label">
@@ -181,10 +214,7 @@ const FormComponent: React.FC = () => {
             <p>
               <strong>광고 출처:</strong> {adSource}
             </p>
-            <div
-              dangerouslySetInnerHTML={{ __html: description || "" }}
-              className="border"
-            />
+            <div dangerouslySetInnerHTML={{ __html: description || "" }} className="border" />
           </div>
           <div className="col-md-6 pt-3 border">
             <div dangerouslySetInnerHTML={{ __html: review || "" }} />
@@ -201,8 +231,8 @@ export default FormComponent;
 주 애플리케이션 컴포넌트 (App.tsx): 주 애플리케이션에 폼 컴포넌트를 통합해보세요
 
 ```js
-import React from 'react';
-import FormComponent from './components/FormComponent';
+import React from "react";
+import FormComponent from "./components/FormComponent";
 
 const App: React.FC = () => {
   return (
@@ -215,18 +245,29 @@ const App: React.FC = () => {
 export default App;
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 액시오스 서비스를 만들어보세요: 코드 구조화와 재사용성을 위해 apiClient.tsx와 같은 서비스 파일에 API 호출을 중앙 집중화하세요.
 
 ```js
-import axios from 'axios';
+import axios from "axios";
 
 const apiClient = axios.create({
-  baseURL: 'http://localhost:5000/api',
+  baseURL: "http://localhost:5000/api",
   headers: {
-    'Content-Type': 'application/json'
-  }
+    "Content-Type": "application/json",
+  },
 });
 
 export default apiClient;
@@ -236,7 +277,18 @@ export default apiClient;
 
 개발 서버 실행: 프로젝트 루트 디렉토리 내에서 터미널에서 아래 명령어를 실행하여 리액트 개발 서버를 시작하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 npm run dev
@@ -248,7 +300,18 @@ npm run dev
 
 작업 URL을 입력하고 이력서 파일을 업로드한 후 제출 버튼을 클릭하여 테스트해보세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 <img src="/assets/img/2024-05-17-BuildingaWebApplicationPoweredbyLargeLanguageModelsLLMpart2_2.png" />
 
@@ -258,6 +321,17 @@ npm run dev
 
 # 결론
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사에서는 React, TypeScript 및 Bootstrap을 사용하여 CV Reviewer 애플리케이션의 프론트엔드를 성공적으로 구축했습니다. 이 애플리케이션은 현대 웹 기술의 통합뿐만 아니라 백엔드 서비스 및 API를 활용하여 원활한 사용자 경험을 만드는 방법을 보여줍니다. 애플리케이션은 사용자 인증, 오류 처리 개선, 여러 이력서 검토용 대시보드 추가 또는 구직 지원서용 커버 레터 생성 기능과 같은 기능을 추가하여 향상 및 확장될 수 있습니다.

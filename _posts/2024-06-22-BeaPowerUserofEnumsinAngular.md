@@ -3,7 +3,7 @@ title: "Angular에서 Enum 파워 유저 되는 방법"
 description: ""
 coverImage: "/assets/img/2024-06-22-BeaPowerUserofEnumsinAngular_0.png"
 date: 2024-06-22 03:13
-ogImage: 
+ogImage:
   url: /assets/img/2024-06-22-BeaPowerUserofEnumsinAngular_0.png
 tag: Tech
 originalTitle: "Be a Power User of Enums in Angular"
@@ -11,12 +11,20 @@ link: "https://medium.com/javascript-in-plain-english/be-a-power-user-of-enums-i
 isUpdated: true
 ---
 
-
-
-
 테이블 태그를 마크다운 형식으로 변경해주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 기본 Enums
 
@@ -34,7 +42,18 @@ export enum Color {
 
 문자열 Enums도 사용할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 export enum TimeZone {
@@ -53,14 +72,25 @@ export enum TimeZone {
 
 Enum을 가지고 있으면 관련 데이터를 표현하는데 어디서든 사용하고 싶어질 것입니다. 그러나 Angular에서, HTML 코드에서 enum을 사용하는 것은 생각한 것만큼 간단하지 않습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 코드
 
 ```js
 // colors.model.ts
 
-import { Color } from 'colors.enum.ts';
+import { Color } from "colors.enum.ts";
 
 export interface ColorsViewModel {
   Color: typeof Color;
@@ -131,20 +161,43 @@ export class ColorsExampleComponent implements OnInit {
 </div>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 설명
 
 여기서는 Color enum을 HTML에서 세 가지 다른 방법으로 사용하는 방법을 보여줍니다.
+
 1. ngSwitch에서
 2. === 비교에서
 3. select/dropdown에서
 
-Color enum의 실제 값들을 참조하여 enum을 사용합니다. 그러기 위해 colors.model.ts에서 Color: typeof Color라는 중요한 코드가 있습니다. 이 코드는 enum을 뷰 모델 개체에 추가하여 *ngIf="color === 2와 같은 것을 코딩하지 않고도 HTML에서 참조할 수 있도록 합니다.
+Color enum의 실제 값들을 참조하여 enum을 사용합니다. 그러기 위해 colors.model.ts에서 Color: typeof Color라는 중요한 코드가 있습니다. 이 코드는 enum을 뷰 모델 개체에 추가하여 \*ngIf="color === 2와 같은 것을 코딩하지 않고도 HTML에서 참조할 수 있도록 합니다.
 
 그리고 dropdown에서는 Object.values(Color);를 사용하여 mat-select 옵션을 재입력할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 탁월하네요, 맞죠?
 
@@ -154,25 +207,36 @@ TypeScript에서 Enum을 사용하여 비교하는 것은 매우 간단합니다
 
 ```js
 if (this.color === Color.Blue) {
-  console.log('바다를 좋아하나요?');
+  console.log("바다를 좋아하나요?");
 }
 
-switch(this.color) {
+switch (this.color) {
   case Color.Blue:
-    console.log('바다를 좋아하나요?');
+    console.log("바다를 좋아하나요?");
     break;
   case Color.Green:
-    console.log('잔디를 좋아하나요?');
+    console.log("잔디를 좋아하나요?");
     break;
   case Color.Red:
-    console.log('일출을 좋아하나요?');
+    console.log("일출을 좋아하나요?");
     break;
   default:
-    console.log('기본 색상이 아닙니다.');
+    console.log("기본 색상이 아닙니다.");
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 하지만 열거형(enum)에서 모든 값을 사용하고 싶지 않을 때는 어떻게 해야 할까요?
 
@@ -196,44 +260,74 @@ export enum Color {
 
 이제 색상을 서버로 전달하여 처리할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
-const coloredShoes: Shoes[] = await this.colorService
-  .getShoesOfColor(this.vm.formGroup.get('colorOption'));
+const coloredShoes: Shoes[] = await this.colorService.getShoesOfColor(this.vm.formGroup.get("colorOption"));
 ```
 
 이제, 모든 색상을 사용하고 싶다고 상상해 봅시다:
 
 ```js
-const allShoes: Shoes[] = await this.colorService
-  .getShoesOfColor(Object.values(Color));
+const allShoes: Shoes[] = await this.colorService.getShoesOfColor(Object.values(Color));
 ```
 
 하지만 만약 일부 색상만 사용하고 싶다면 어떻게 해야 할까요?
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이렇게 할 수 있어요:
 
 ```js
-const rainbowShoes: Shoes[] = await this.colorService
-  .getShoesOfColor([
-     Color.Red,
-     Color.Orange,
-     Color.Yellow,
-     Color.Green,
-     Color.Blue,
-     Color.Indigo,
-     Color.Violet
-   ]);
+const rainbowShoes: Shoes[] = await this.colorService.getShoesOfColor([
+  Color.Red,
+  Color.Orange,
+  Color.Yellow,
+  Color.Green,
+  Color.Blue,
+  Color.Indigo,
+  Color.Violet,
+]);
 ```
 
 하지만 만약 16개 색상, 64개 색상 또는 256개 색상이 있는 Color enum이 있다면 어떻게 될까요? 아이디어를 이해하셨죠. 경우에 따라서는 원하는 enum 값이 아닌 것을 지정하는 것이 더 쉬울 수 있습니다. 하지만 "파란색 계통이 아닌 모든 신발"과 같은 것을 어떻게 지정할 수 있을까요? Enum은 Object.values(Color).not([Color.Blue, Color.Indigo]);와 같이 쉬운 방법을 제공하지 않습니다.
 
 TypeScript 제네릭이 해결책을 제공합니다!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /**
@@ -257,16 +351,25 @@ export const numericEnumFilterOut: Function =
 ## 사용법
 
 ```js
-const noBlue: Color[] =
-  numericEnumFilterOut(Color, [Color.Blue, Color.Indigo]);
+const noBlue: Color[] = numericEnumFilterOut(Color, [Color.Blue, Color.Indigo]);
 
 // noBlue = [Color.Red, Color.Orange, Color.Yellow, Color.Green, Color.Violet]
 ```
 
 이제 다음과 같이 사용할 수 있습니다:
 
+<!-- seedividend - 사각형 -->
 
-<div class="content-ad"></div>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 상수 비파란신: Shoes[] = await this.colorService
@@ -279,7 +382,18 @@ Enum은 깔끔한 코드를 작성하는 데 매우 강력한 도구입니다. T
 
 # 간단히 말하면 🚀
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인 플레인 잉글리쉬 커뮤니티에 참여해 주셔서 감사합니다! 떠나시기 전에:
 

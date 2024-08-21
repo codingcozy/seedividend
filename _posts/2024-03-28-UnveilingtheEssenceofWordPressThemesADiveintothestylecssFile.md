@@ -3,17 +3,13 @@ title: "워드프레스 테마 stylecss 파일 커스텀 하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "Unveiling the Essence of WordPress Themes A Dive into the stylecss File"
 link: "https://medium.com/@andisyafrianda/unveiling-the-essence-of-wordpress-themes-a-dive-into-the-style-css-file-4095236ca548"
 isUpdated: true
 ---
-
-
-
-
 
 ![이미지](/assets/img/UnveilingtheEssenceofWordPressThemesADiveintothestylecssFile_0.png)
 
@@ -23,7 +19,18 @@ style.css 파일 헤더 작성: 테마의 여권
 
 모든 워드프레스 테마의 핵심에는 style.css 파일이 있습니다. 이 파일은 워드프레스와 사용자에게 테마를 소개하는 필수 스타일시트입니다. 이 파일의 시작 주석 안에서 마법이 일어납니다. 여기에서 테마의 DNA를 설명합니다. 우리는 기본 워드프레스 2024 테마의 style.css 헤더를 살펴볼 것입니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 /*
@@ -46,7 +53,18 @@ style.css 헤더 필드 해독
 
 style.css 파일의 헤더 필드를 이해하는 것은 소설을 쓰기 전 알파벳을 마스터하는 것과 유사합니다. 여기 해설입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 테마 이름: 당신의 테마의 고유 식별자. 신중하게 선택하세요; 사용자가 처음으로 보는 것입니다.
 - 테마 URI: 당신의 테마에 대한 자세한 내용이 담긴 웹페이지의 URL.
@@ -74,6 +92,17 @@ style.css 파일의 헤더 필드를 이해하는 것은 소설을 쓰기 전 �
 */
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 중요한 줄은 부모 테마의 유산을 우아하게 계승하고 강화하여 자식 테마가 연결되도록합니다.

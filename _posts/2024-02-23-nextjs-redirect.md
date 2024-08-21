@@ -3,17 +3,13 @@ title: "Nextjs에서 서버, 클라이언트 컴포넌트 redirect 처리하는 
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # Nextjs에서 서버, 클라이언트 컴포넌트 redirect 처리하는 방법
 
@@ -31,7 +27,18 @@ Next.js에서 리다이렉트를 처리하는 몇 가지 방법이 있습니다.
 | redirects in next.config.js | Redirect an incoming request based on a path      | next.config.js file                               | 307 (Temporary) or 308 (Permanent)     |
 | NextResponse.redirect       | Redirect an incoming request based on a condition | Middleware                                        | Any                                    |
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## redirect 함수
 
@@ -56,7 +63,6 @@ export async function createPost(id: string) {
   redirect(`/post/${id}`); // 새 게시물 페이지로 이동
 }
 ```
-
 
 - redirect는 기본적으로 307 (임시 리다이렉트) 상태 코드를 반환합니다. Server Action에서 사용할 때는 일반적으로 POST 요청 결과로 성공 페이지로 리다이렉트할 때 사용되는 303 (다른 곳 보기) 상태 코드를 반환합니다.
 - redirect는 내부적으로 오류를 throw하므로 try/catch 블록 외부에서 호출해야 합니다.
@@ -90,14 +96,24 @@ export async function updateUsername(username: string, formData: FormData) {
 }
 ```
 
-
 - permanentRedirect는 기본적으로 308 (영구적 리다이렉트) 상태 코드를 반환합니다.
 - permanentRedirect는 절대 URL도 허용하며 외부 링크로 리다이렉트하는 데 사용할 수 있습니다.
 - 렌더링 프로세스 전에 리다이렉트를 하려면 next.config.js 또는 Middleware를 사용하세요.
 
 더 많은 정보는 permanentRedirect API 참조를 참고하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## useRouter() 훅
 
@@ -118,8 +134,6 @@ export default function Page() {
   );
 }
 ```
-
-
 
 - 사용자를 프로그래밍 방식으로 이동시키지 않아도 된다면 `<Link>` 컴포넌트를 사용해야 합니다.
 
@@ -156,7 +170,6 @@ module.exports = {
 
 더 많은 정보는 redirects API 참조를 참고하세요.
 
-
 - redirects는 permanent 옵션을 사용하여 307 (임시 리다이렉트) 또는 308 (영구적 리다이렉트) 상태 코드를 반환할 수 있습니다.
 - 플랫폼에 따라 redirects에 제한이 있을 수 있습니다. 예를 들어 Vercel에서는 1,024개의 리다이렉트 제한이 있습니다. 대규모 리다이렉트(1000개 이상)를 관리하려면 Middleware를 사용하여 사용자 지정 솔루션을 만드는 것이 좋습니다.
 
@@ -166,7 +179,18 @@ module.exports = {
 
 예를 들어, 사용자가 인증되지 않은 경우 /login 페이지로 리다이렉트하려면 다음과 같이 할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```typescript
 import { NextResponse, NextRequest } from "next/server";
@@ -188,8 +212,6 @@ export const config = {
   matcher: "/dashboard/:path*",
 };
 ```
-
-
 
 - 미들웨어는 next.config.js의 리다이렉트 이후에 실행되고 렌더링 전에 실행됩니다.
 
@@ -251,7 +273,18 @@ export async function middleware(request: NextRequest) {
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 2. 데이터 조회 성능 최적화
 
@@ -294,8 +327,7 @@ export async function middleware(request: NextRequest) {
       const redirectData = await fetch(api);
 
       if (redirectData.ok) {
-        const redirectEntry: RedirectEntry | undefined =
-          await redirectData.json();
+        const redirectEntry: RedirectEntry | undefined = await redirectData.json();
 
         if (redirectEntry) {
           // 상태 코드 결정

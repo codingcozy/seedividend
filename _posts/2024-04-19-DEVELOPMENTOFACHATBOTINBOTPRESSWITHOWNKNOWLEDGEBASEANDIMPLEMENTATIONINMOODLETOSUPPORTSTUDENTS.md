@@ -3,17 +3,13 @@ title: "Botpress로 챗봇 개발 하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: "DEVELOPMENT OF A CHATBOT IN BOTPRESS WITH OWN KNOWLEDGE BASE AND IMPLEMENTATION IN MOODLE TO SUPPORT STUDENTS"
 link: "https://medium.com/@stefanpietrusky/development-of-a-chatbot-in-botpress-with-own-knowledge-base-and-implementation-in-moodle-to-55d3a46cbaff"
 isUpdated: true
 ---
-
-
-
-
 
 ![Botpress Image](/assets/img/DEVELOPMENTOFACHATBOTINBOTPRESSWITHOWNKNOWLEDGEBASEANDIMPLEMENTATIONINMOODLETOSUPPORTSTUDENTS_0.png)
 
@@ -23,7 +19,18 @@ AI 에이전트 또는 챗봇은 비즈니스 업무를 자동화하고 최적�
 
 먼저, Botpress 웹사이트에 접속하여 무료 계정을 만듭니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![DEVELOPMENTOFACHATBOTINBOTPRESSWITHOWNKNOWLEDGEBASEANDIMPLEMENTATIONINMOODLETOSUPPORTSTUDENTS_1.png](/assets/img/DEVELOPMENTOFACHATBOTINBOTPRESSWITHOWNKNOWLEDGEBASEANDIMPLEMENTATIONINMOODLETOSUPPORTSTUDENTS_1.png)
 
@@ -33,7 +40,18 @@ AI 에이전트 또는 챗봇은 비즈니스 업무를 자동화하고 최적�
 
 현재 워크스페이스에 두 개의 봇이 있습니다. 봇이 없는 경우, 파란색 "+ 새 봇" 버튼을 클릭하십시오. 봇을 선택한 다음 "스튜디오에서 편집"을 클릭하십시오.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![DEVELOPMENTOFACHATBOTINBOTPRESSWITHOWNKNOWLEDGEBASEANDIMPLEMENTATIONINMOODLETOSUPPORTSTUDENTS_3.png](/assets/img/DEVELOPMENTOFACHATBOTINBOTPRESSWITHOWNKNOWLEDGEBASEANDIMPLEMENTATIONINMOODLETOSUPPORTSTUDENTS_3.png)
 
@@ -43,7 +61,18 @@ AI 에이전트 또는 챗봇은 비즈니스 업무를 자동화하고 최적�
 
 마지막으로, Botpress Studio에 들어가면, 기본적으로 제공되는 Knowledge Base (KB)를 선택하거나 책 아이콘을 사용하여 새로운 Knowledge Base를 생성할 수 있습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ![DEVELOPMENT OF A CHATBOT IN BOTPRESS WITH OWN KNOWLEDGE BASE AND IMPLEMENTATION IN MOODLE TO SUPPORT STUDENTS_5](/assets/img/DEVELOPMENTOFACHATBOTINBOTPRESSWITHOWNKNOWLEDGEBASEANDIMPLEMENTATIONINMOODLETOSUPPORTSTUDENTS_5.png)
 
@@ -53,7 +82,18 @@ KB에 데이터를 다양한 형식으로 사용할 수 있습니다. 이는 텍
 
 KB는 봇을 이해하는 데 중심적인 구성 요소 또는 기초입니다. 사용자 요청이나 작업을 수행하는 데 필요한 데이터가 포함되어 있습니다. 여기에 장점은 봇이 어떤 것에 대답할 수 있고 무엇에 대답할 수 없는지 정확히 정의할 수 있다는 것입니다. 이러한 방식으로 사용자에게 원치 않거나 오해를 일으킬 수 있는 피드백이 방지됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 기사에서는 현재 학기에 대학에서 진행 중인 세미나와 관련된 예시로 10가지 FAQ에 대한 답변이 담긴 문서를 만들었습니다. 이는 구체적으로 2D 게임 개발의 기본 사항을 다룹니다. 문서를 업로드한 후에는 즉시 봇을 테스트하고 질문할 수 있습니다. 이를 위해서는 "질문하기"를 클릭하면 됩니다. 봇은 문서에 포함된 정보를 기반으로 질문에 답할 것입니다.
 
@@ -61,7 +101,18 @@ Markdown 형식으로 테이블 태그를 바꾸었습니다.
 
 메인 뷰로 돌아갑시다. 현재 빈 템플릿은 노트와 시작 및 종료 지점으로 구성되어 있습니다. 이 예시에서는 인사말로 간단한 노트를 설정했습니다. 노트를 만들려면 마우스로 작업 공간을 우클릭한 다음 "표준 노트"를 선택하면 됩니다. 그리고 "메시지 보내기" 섹션에 "텍스트" 카드를 노트에 추가했습니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 인사 다음에 다른 주석이 따릅니다. 여기서 "캡처 정보" 영역에서 카드 유형 "Raw Input"이 선택되었습니다. 이전에 생성한 KB "gamedevelopment"가 카드에 할당되고 사용자에게 묻는 질문이 정의되었습니다. 정보 수집 카드를 사용하면 봇이 처리를 일시 중지하고 사용자로부터 응답을 기다리게 할 수 있습니다. 동시에 사용자 입력에서 특정 정보를 캡처합니다.
 
@@ -71,7 +122,18 @@ Botpress Studio에서 이 간단한 데모에 대해서는 추가로 설정할 �
 
 ![이미지](/assets/img/DEVELOPMENTOFACHATBOTINBOTPRESSWITHOWNKNOWLEDGEBASEANDIMPLEMENTATIONINMOODLETOSUPPORTSTUDENTS_10.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 컴퓨터가 대답을 하지 못할 질문을 받았을 때!
 
@@ -81,7 +143,18 @@ Botpress Studio에서 이 간단한 데모에 대해서는 추가로 설정할 �
 
 ![이미지](/assets/img/DEVELOPMENTOFACHATBOTINBOTPRESSWITHOWNKNOWLEDGEBASEANDIMPLEMENTATIONINMOODLETOSUPPORTSTUDENTS_11.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 그다음으로, 현재 노트에 위치한 "Flow Logic" 영역에 "Expression" 카드를 생성합니다. 해당 카드를 선택하고 다음의 부울 변수 "{!turn.KnowledgeAgent.responded}"을 조건으로 정의합니다. 이 변수는 정보를 "yes" 또는 "no", 또는 "true" 또는 "false" 중 하나로 저장합니다. 이 특정 예시에서 우리는 봇에게 다음과 같이 말합니다: KB에 있는 데이터를 기반으로 질문에 대답할 수 없다면 아래 경로를 따르도록 해야 합니다.
 
@@ -91,7 +164,18 @@ Botpress Studio에서 이 간단한 데모에 대해서는 추가로 설정할 �
 
 ![image](/assets/img/DEVELOPMENTOFACHATBOTINBOTPRESSWITHOWNKNOWLEDGEBASEANDIMPLEMENTATIONINMOODLETOSUPPORTSTUDENTS_13.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 우리는 봇의 구조를 보여주는 뷰로 돌아갑니다. 여기서 다른 노트를 생성하고 KB 노트에 연결하고 "Record 삽입" (실행) 카드를 구현합니다. 이를 맵에 설정합니다. 테이블에서 만든 열(질문)에는 변수 "user_input"에 저장된 정보, 즉 사용자 입력에서 {workflow.user_input} 가져온 정보를 저장해야 합니다.
 
@@ -101,7 +185,18 @@ Botpress Studio에서 이 간단한 데모에 대해서는 추가로 설정할 �
 
 <img src="/assets/img/DEVELOPMENTOFACHATBOTINBOTPRESSWITHOWNKNOWLEDGEBASEANDIMPLEMENTATIONINMOODLETOSUPPORTSTUDENTS_15.png" />
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # 봇 공개하기
 
@@ -111,7 +206,18 @@ Botpress Studio에서 이 간단한 데모에 대해서는 추가로 설정할 �
 
 # 웹챗 스타일러로 봇 스타일링하기!
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 봇의 외관은 “스타일 가이드” 메뉴에서 조정할 수 있어요. 표준 디자인을 가진 봇이 오른쪽에 표시되므로 매개 변수를 변경할 때 조정 사항을 직접 확인할 수 있어요. 위젯의 색상과 크기를 사용자 정의할 수 있어요. 스타일 시트를 사용하여 컨테이너의 색상, 일반 글꼴, 봇 및 사용자 버블, 그리고 채팅 창의 모양을 사용자 정의할 수 있어요. “챗봇 위젯 런처 아이콘” 즉, 실제 채팅 창이 열리기 전에 표시되는 아이콘도 사용자 정의할 수 있어요. 이를 위해 .png 파일을 서버에 호스팅해야 하며(예: 워드프레스 사이트의 미디어 라이브러리 또는 자체 디스코드 서버를 통해), 이미지의 URL을 사용해야 해요.
 
@@ -142,7 +248,18 @@ Botpress Studio에서 이 간단한 데모에 대해서는 추가로 설정할 �
 }
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 전체적으로 "고급 스타일러"에는 많은 맞춤 설정 옵션이 더 많이 있습니다. 봇이 마침내 여러분의 디자인 요구 사항을 충족한다면, 디자인을 다시 디자인할 때 다시 처음부터 시작하지 않아도 되도록 .css 파일(스타일 시트)에 CSS 코드를 저장해야 합니다.
 
@@ -152,7 +269,18 @@ Botpress Studio에서 이 간단한 데모에 대해서는 추가로 설정할 �
 
 # MOODLE 구현
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 LMS(Moodle 등)에 봇을 구현하기 위해서 이제 "Pre-configured" 옵션을 사용합니다. "Embedded" 제목 아래에는 필요한 두 개의 자바스크립트가 있습니다. 특히, 첫 번째 스크립트는 봇과 상호 작용할 수 있도록 Botpress 라이브러리를 로드합니다. 두 번째 스크립트는 봇의 구성 파일(ID, 이름, 외관, 동작 등)을 로드합니다. 해당 파일이 없으면 봇이 작동하지 않습니다.
 
@@ -162,7 +290,18 @@ LMS(Moodle 등)에 봇을 구현하기 위해서 이제 "Pre-configured" 옵션�
 
 ![이미지](/assets/img/DEVELOPMENTOFACHATBOTINBOTPRESSWITHOWNKNOWLEDGEBASEANDIMPLEMENTATIONINMOODLETOSUPPORTSTUDENTS_20.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Chatbot이 Botpress를 사용하여 생성되고 준비되었으면 이제 Moodle 설치 강좌로 넘어갑니다. 강좌에서는 활동을 만들기 위해 관리자 권한이 필요합니다. 이 권한이 있으면 간단한 "텍스트 및 미디어 필드" 활동을 만듭니다. 이 활동은 이전 버전의 Moodle에서 단순히 "텍스트 필드"로 불렸습니다. 텍스트 필드에서 메뉴를 확장하고 HTML 보기를 활성화합니다. 입력 필드에는 Botpress에 임베드할 두 스크립트를 구현합니다.
 
@@ -172,7 +311,18 @@ Chatbot이 Botpress를 사용하여 생성되고 준비되었으면 이제 Moodl
 
 ![이미지 첨부](/assets/img/DEVELOPMENTOFACHATBOTINBOTPRESSWITHOWNKNOWLEDGEBASEANDIMPLEMENTATIONINMOODLETOSUPPORTSTUDENTS_22.png)
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 특정 과정에 봇을 통합하는 것 외에도 LMS 전반에 봇을 사용할 수 있습니다. 이를 위해 웹 사이트 관리로 이동한 다음 "디스플레이" 옵션을 클릭합니다. 디스플레이 영역에서 "추가 HTML"로 이동합니다. 여기에서 두 개의 자바스크립트를 "additionalhtmlfooter" 영역에 삽입합니다.
 
@@ -182,7 +332,18 @@ Chatbot이 Botpress를 사용하여 생성되고 준비되었으면 이제 Moodl
 
 # 워드프레스 구현
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Botpress 봇은 워드프레스 사이트에 여러 방법으로 통합할 수 있어요. 가장 쉬운 방법은 WPCode 플러그인을 사용하는 것인데, 이를 사용하여 코드나 스크립트를 페이지의 헤더나 푸터 영역에 통합할 수 있어요.
 
@@ -192,7 +353,18 @@ Botpress 봇은 워드프레스 사이트에 여러 방법으로 통합할 수 �
 
 # 요약
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 이 게시물은 단계별로 Botpress를 사용하여 자체 정의된 KB를 기반으로 질문에 답변할 수있는 봇을 만드는 방법을 보여주었습니다. 동시에, 답변할 수없는 질문은 봇을 개선하기 위해 수집되었습니다. 그런 다음, 봇의 디자인을 개인화하는 방법을 보여주었습니다. 마지막으로, Moodle LMS에 봇을 구현하는 방법을 설명했습니다. WordPress를 사용하여 만든 사이트에 봇을 통합하는 가능한 방법도 소개되었습니다. 생성 된 봇은 세미나와 관련된 구체적인 질문에 답변하는 간단한 예입니다. 물론, Botpress Studio를 사용하여 학습자의 학습을 일반적으로 지원할 수있는 더 복잡한 봇을 만들 수도 있습니다. 최근 발표된 논문에 따르면, 교육 분야의 챗봇에 대한 연구는 여전히 초기 단계에 있습니다. 전체적으로, 챗봇을 사용한 효과적인 학습 전략 연구는 아직 부족한 것으로 나타났습니다. 전반적으로, 흥미로운 연구 분야입니다. 귀하의 봇 개발을 즐기세요!
 

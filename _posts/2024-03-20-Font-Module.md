@@ -3,17 +3,13 @@ title: "Nextjs 14에서 font module 사용 하는 방법"
 description: ""
 coverImage: ""
 date: 2024-08-03 15:53
-ogImage: 
-  url: 
+ogImage:
+  url:
 tag: Tech
 originalTitle: ""
 link: ""
 isUpdated: true
 ---
-
-
-
-
 
 # Nextjs 14에서 font module 사용 하는 방법
 
@@ -23,7 +19,18 @@ isUpdated: true
 
 사용법은 Google 글꼴 및 로컬 글꼴을 검토해 주세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 키
 
@@ -31,7 +38,18 @@ isUpdated: true
 
 Used in next/font/local
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 필수 항목
 
@@ -43,7 +61,18 @@ Used in next/font/local
 
 ### weight
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음과 같은 가능성을 가진 글꼴 두께:
 
@@ -55,7 +84,18 @@ Used in next/font/local
 
 - 사용 중인 글꼴이 변수가 아닌 경우 필수입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시:
 
@@ -68,7 +108,18 @@ Used in next/font/local
 폰트 스타일
 다음과 같은 가능성을 가집니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 기본값이 `normal`인 문자열 값
 - 폰트가 변수가 아닌 경우의 스타일 값 배열
@@ -80,7 +131,18 @@ Used in next/font/local
 
 예시:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - style: `italic`: 문자열 - 다음/font/google의 경우 일반 또는 이탤릭체일 수 있습니다
 - style: `oblique`: 문자열 - 다음/font/local의 경우 어떤 값을 사용해도 되지만 표준 글꼴 스타일에서 가져온 것으로 예상됩니다
@@ -93,7 +155,18 @@ Used in next/font/local
 
 다음/font/google에서 사용됩니다
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 옵션
 
@@ -103,7 +176,18 @@ Used in next/font/local
 
 폰트의 Google Fonts 페이지에서 모든 하위 집합의 목록을 찾을 수 있어요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 축
 
@@ -113,7 +197,18 @@ Used in next/font/local
 
 - 선택사항
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시:
 
@@ -123,7 +218,18 @@ Used in next/font/local
 
 폰트 디스플레이는 가능한 문자열 값 중 `auto`, `block`, `swap`, `fallback` 또는 `optional`을 가집니다. 기본 값은 `swap`입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 Used in next/font/google 및 next/font/local
 
@@ -133,7 +239,18 @@ Used in next/font/google 및 next/font/local
 
 - display: `optional`: optional 값에 할당된 문자열
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### preload
 
@@ -143,7 +260,18 @@ Used in next/font/google 및 next/font/local
 
 - 선택 사항
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시:
 
@@ -153,7 +281,18 @@ Used in next/font/google 및 next/font/local
 
 만약 글꼴을 불러올 수 없을 때 사용할 대체 글꼴입니다. 기본값 없이 대체 글꼴의 문자열 배열입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - 선택 사항
 
@@ -163,7 +302,18 @@ Used in next/font/google 및 next/font/local
 
 - 대체: [`system-ui`, `arial`]: 시스템 글꼴 또는 arial로 대체 글꼴을 설정하는 배열
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### adjustFontFallback
 
@@ -174,7 +324,18 @@ next/font/google 및 next/font/local에서 사용됩니다.
 
 - 선택 사항
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시:
 
@@ -185,7 +346,18 @@ next/font/google 및 next/font/local에서 사용됩니다.
 
 CSS 변수 방식으로 스타일이 적용될 경우 사용할 CSS 변수 이름을 정의하는 문자열 값입니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 다음/font/google 및 next/font/local에 사용됩니다
 
@@ -195,7 +367,18 @@ CSS 변수 방식으로 스타일이 적용될 경우 사용할 CSS 변수 이�
 
 - 변수: `--my-font`: CSS 변수 `--my-font`이 선언됨
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 선언사항
 
@@ -205,7 +388,18 @@ CSS 변수 방식으로 스타일이 적용될 경우 사용할 CSS 변수 이�
 
 - 선택 사항
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 예시:
 
@@ -215,7 +409,18 @@ CSS 변수 방식으로 스타일이 적용될 경우 사용할 CSS 변수 이�
 
 폰트 스타일을 적용하는 방법은 세 가지가 있어요:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 - className
 - style
@@ -229,7 +434,18 @@ CSS 변수 방식으로 스타일이 적용될 경우 사용할 CSS 변수 이�
 <p className={inter.className}>Hello, Next.js!</p>
 ```
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### 스타일
 
@@ -241,7 +457,18 @@ CSS 변수 방식으로 스타일이 적용될 경우 사용할 CSS 변수 이�
 
 ### CSS 변수
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 만일 외부 스타일 시트에서 스타일을 설정하고 추가 옵션을 지정하고 싶다면, CSS 변수 방법을 사용하세요.
 
@@ -258,7 +485,18 @@ const inter = Inter({
 
 글꼴을 사용하려면, 텍스트를 스타일링 하고 싶은 부모 컨테이너의 className을 글꼴 로더의 변수 값으로, 텍스트의 className을 외부 CSS 파일의 styles 속성으로 설정하세요.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```typescript
 <main className={inter.variable}>
@@ -278,7 +516,18 @@ const inter = Inter({
 
 위 예시에서는 "Hello World" 텍스트가 Inter 글꼴을 사용하여 스타일이 적용되며 font-weight: 200 및 font-style: italic로 생성된 폰트 폴백이 적용됩니다.
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 글꼴 정의 파일 사용하기
 
@@ -288,7 +537,18 @@ const inter = Inter({
 
 그런 다음, 아래와 같이 글꼴 정의를 지정합니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```typescript
 import { Inter, Lora, Source_Sans_3 } from "next/font/google";
@@ -325,7 +585,18 @@ export default function Page() {
 
 코드에서 글꼴 정의를 쉽게 액세스하도록 하려면 tsconfig.json 또는 jsconfig.json 파일에서 다음과 같이 경로 별칭을 정의할 수 있습니다:
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ```js
 {
@@ -345,11 +616,33 @@ import { greatVibes, sourceCodePro400 } from "@/fonts";
 
 ## 버전 변경
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 | Version   | Changes                                                               |
 | --------- | --------------------------------------------------------------------- |
 | `v13.2.0` | `@next/font` renamed to `next/font`. Installation no longer required. |
 | `v13.0.0` | `@next/font` was added.                                               |
 
-<div class="content-ad"></div>
+<!-- seedividend - 사각형 -->
+
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4877378276818686"
+     data-ad-slot="1898504329"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
